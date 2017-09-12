@@ -29,7 +29,7 @@ Web クライアントは、[https://teams.microsoft.com](https://go.microsoft.c
 
 Microsoft Teams は、次のブラウザーおよびバージョンをサポートしています。
 
--   **Edge**: 12 以上
+-   **Microsoft Edge**: 12 以上
 
 -   **Internet Explorer:** 11 以上
 
