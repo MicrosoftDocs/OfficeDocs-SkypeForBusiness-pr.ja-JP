@@ -12,7 +12,7 @@
 ## [Skype for Business と Microsoft Teams の連携](Understand_how_Skype_for_Business_and_Microsoft_Teams_interact.md)
 ## [Microsoft Team へのアップグレード](Upgrade_to_Microsoft_Teams.md)
 
-# PLAN
+# 計画
 ## [Microsoft Teams の展開の概要](Overview_of_a_Microsoft_Teams_deployment.md)
 ## [Microsoft Teams でチームを作成するときの Office 365 グループの計画](Plan_for_Office_365_groups_when_creating_teams_in_Microsoft_Teams.md)
 ## [Microsoft Teams 用に組織のネットワークを準備する](Prepare_your_organization's_network_for_Microsoft_Teams.md)
@@ -27,7 +27,7 @@
 ## [T-Bot を使用して Microsoft Teams のユーザーをサポートする](Use_T-Bot_to_help_users_with_Microsoft_Teams.md)
 
 
-# 代理人の管理
+# 管理
 ## [Microsoft Teams のクライアントを取得する](Get_clients_for_Microsoft_Teams.md)
 ## [Office 365 を使用する組織で Microsoft Teams をセットアップする](Set_up_Microsoft_Teams_in_your_Office_365_organization.md)
 ## [Microsoft Teams へのユーザー アクセスを管理する](Manage_user_access_to_Microsoft_Teams.md)
