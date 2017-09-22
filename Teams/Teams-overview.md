@@ -1,0 +1,108 @@
+---
+title: "Microsoft Teams の概要 | Microsoft サポート"
+author: LolaJacobsen
+ms.author: lolaj
+manager: serdars
+ms.date: 09/25/2017
+ms.topic: overview
+ms.service: msteams
+description: "Microsoft Teams とそのインフラストラクチャについて、および Office 365 と組み合わせた使用について説明します。"
+Set_Free_Tag: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 28be6a4565a783337b63e8dc4e7c1fddf9d743d9
+ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.translationtype: HT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 09/20/2017
+---
+<a name="overview-of-microsoft-teams"></a>Microsoft Teams の概要
+===========================
+
+![Office365 のチャットベースのワークスペース](media/Overview-Microsoft-Teams-image1.png)
+
+Microsoft Teams は Office 365 のすべてをまとめ、チームワークを遂行する上でチャットベースのハブをもたらし、よりオープンで、スムーズで、デジタルな環境を創り出す機会をお客様に提供します。Microsoft Teams は、Office 365 グループによって作られた既存の Microsoft テクノロジーを基に作られています。 
+
+革新的な発想により、Microsoft Teams は、Azure Active Directory (Azure AD) に保存された ID を利用し、Office 365 のその他のサービスと統合して、作成されるチームごとに SharePoint オンライン サイトと Exchange Online グループ メールボックスを作成します。
+
+Microsoft Teams の常設チャット機能は、Office 365 サブストレートに対応するチャット サービスにより実現したもので、Microsoft Teams で送受信されているデータに対するアーカイブや電子情報開示など、組み込みの Office 365 機能の多くを利用できます。
+
+Microsoft Teams は、Skype および Skype for Business でも使用されている次世代のクラウドベース インフラストラクチャに基づく通話および会議のエクスペリエンスも提供しています。これらの技術投資には、Azure ベースのクラウド サービスを利用したメディア処理とシグナリング、H.264 ビデオ コーデック、SILK および Opus オーディオ コーデック、ネットワークの回復力、テレメトリ、および品質診断が含まれます。
+
+Microsoft Teams の機能を拡張するために、コネクタ、タブ、およびボットを[アプリ](https://go.microsoft.com/fwlink/?linkid=854629)として利用できます。これらによって、外部の情報、コンテンツ、およびインテリジェントなボットとの対話が Microsoft Teams にもたらされます。
+
+<a name="microsoft-teams-infrastructure"></a>Microsoft Teams のインフラストラクチャ
+------------------------------
+
+Microsoft Teams は、Office 365 グループによって作られた既存の Microsoft テクノロジーを基にしています。Microsoft のクラウドによって、組織はそのコラボレーションの一部として Microsoft Teams を利用する際に優れたパフォーマンスと信頼性を期待することができます。
+
+革新的な発想により、Microsoft Teams で作成されたチームは、関連する SharePoint Online サイトを伴う Office 365 グループを作成します。この SharePoint Online サイトは、ドキュメント ライブラリ、Teams によって使用されて会議の招待などの情報を保存するグループに対応する Exchange Online グループ メールボックスを完全に備えています。チームは既存の Office 365 グループを使用して作成でき、既存のグループ メンバーシップと、SharePoint Online および Exchange Online に保存されたコンテンツの Microsoft Teams への移行を可能にします。
+
+Microsoft Teams の常設チャット機能は、Office 365 サブストレートに対応するチャット サービスにより実現したもので、Microsoft Teams で送受信されているデータに対するアーカイブや電子情報開示など、組み込みの Office 365 機能の多くを利用できます。
+
+話題を絞り込んだトピック、あるいはグループ内の特定のサブグループに関するカジュアルでリアルタイムの会話が行われる常設チャット ボードとしての Microsoft Teams の機能を補完するために、Teams も、Skype および Skype for Business でも使用されている次世代のクラウドベース インフラストラクチャに基づく会議のエクスペリエンスを提供しています。これらの技術投資には、Azure ベースのクラウド サービスを利用したメディア処理とシグナリング、H.264 ビデオ コーデック、SILK および Opus オーディオ コーデック、ネットワークの回復力、テレメトリ、および品質診断が含まれます。
+
+Office 365 グループは Azure Active Directory (Azure AD) に保存された ID を利用するため、多要素認証 (MFA) のサポートなどの Azure AD におけるすべての認証および承認機能は、Microsoft Teams ですぐに使用できます。
+
+Microsoft Teams の機能を拡張するために、コネクタ、タブ、およびボットをアプリとして利用できます。これらによって、外部の情報、コンテンツ、およびインテリジェントなボットとの対話が Microsoft Teams にもたらされます。
+
+<a name="microsoft-teams-and-office-365"></a>Microsoft Teams と Office 365
+------------------------------
+
+それぞれのグループが、機能的な役割やワークスタイルにより、さまざまなニーズを抱えています。Office 365 は、すべてのグループの固有のワークスタイルに対応するよう設計されており、次のような専用の統合アプリケーションを提供します。
+
+-   エンタープライズグレードの電子メールに対応した Outlook。現在はグループ機能を伴います。
+
+-   サイトおよびポータル用 SharePoint、インテリジェント コンテンツ サービス、ビジネス プロセスの自動化とエンタープライズ検索。
+
+-   会社規模の接続を推進する Yammer
+
+-   エンタープライズ VoIP およびビデオの法人顧客向けバックボーンとしての Skype for Business。
+
+-   現在は、Office 365 の新しいチャットベースのワークスペースである Microsoft Teams。
+
+Office 365 の各アプリケーションの一般的な使用例を示します。詳細な使用方法については、[FastTrack Productivity Library](https://go.microsoft.com/fwlink/?linkid=854630) にアクセスしてください。
+
+![](media/Overview_of_Microsoft_Teams_image1.png)
+
+-   同じグループのメンバーとのリアルタイムでのコラボレーションを望んでいるユーザーおよびチームにより利用されます。
+
+-   プロジェクトに関する迅速な反復を行いながら、ファイルを共有し、共有された成果物に関してコラボレーションを行うことを望んでいるチームをサポートします。
+
+-   ユーザーがワークスペースに幅広いツール (Planner、Power BI、GitHub など) を接続できるようにします。
+
+![](media/Overview_of_Microsoft_Teams_image2.png)
+
+-   使い慣れた電子メール環境や、より丁寧で真面目な方法で、共同作業を行うことを希望するユーザーにより利用されます。
+
+-   電子メールの使用が必要な固有のビジネス プロセスを提供して、組織の内外の文書や情報を伝達します。
+
+-   周辺のワークグループまたは組織の外側にいるユーザーとコミュニケーションを取ったり接続します。
+
+![](media/Overview_of_Microsoft_Teams_image3.png)
+
+-   組織全体のユーザーと接続して、プラクティスのコミュニティを中心にまとまり、ベスト プラクティスを共有することをサポートするために利用されます。
+
+-   オープンで透明性の高いフィードベースのプラットフォームを通じて、部門連係ワークフローを改善します
+
+-   リーダーとより広範な従業員ベースの間の双方向の会話により、幹部従業員のエンゲージメントを促進します
+
+-   第一線の労働力を鼓舞して、知識と専門性を共有・享受します
+
+![](media/Overview_of_Microsoft_Teams_image4.png)
+
+-   お客様/パートナーとの内部および外部向けのリアルタイムの通信、コラボレーションに利用されます。
+
+-   オーディオ、ビデオ、および大小のチーム (最大 10,000 人の参加者を収容する市役所など) を含むコンテンツを伴う会議を提供します。
+
+-   法人向けのテレフォニー機能を提供します。
+
+-   [Skype for Business と Teams の連携](Understand_how_Skype_for_Business_and_Microsoft_Teams_interact.md)をご覧ください。
+
+![](media/Overview_of_Microsoft_Teams_image5.png)
+
+-   サイトおよびポータル (会社ニュースとお知らせ、検索、およびドキュメントのコラボレーションなど) で利用されます。
+
+-   Microsoft Flow と PowerApps を統合することで、ドキュメント ライブラリと情報のリストに対してビジネス プロセスの自動化を実装します。
+
+-   ファイルの保存、チームのニュース、ページ、リストなどに関して、すべての Microsoft Team に対して自動的にプロビジョニングされる強力な SharePoint チームサイト。
+
+-   [Teams との SharePoint Online と OneDrive for Business の連携](Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams.md)をご覧ください。
