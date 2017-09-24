@@ -17,6 +17,6 @@ ms.lasthandoff: 09/20/2017
 <a name="manage-guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセスを管理する
 ======================================
 
-SOC 記事の移行のためのプレースホルダー: https://support.office.com/en-us/article/Guest-access-in-Microsoft-Teams-bd4cdeec-4044-4b4b-9df1-beb139013a3f
+SOC 記事の移行のためのプレースホルダー: https://support.office.com/ja-jp/article/Guest-access-in-Microsoft-Teams-bd4cdeec-4044-4b4b-9df1-beb139013a3f
 
 
