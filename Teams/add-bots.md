@@ -4,15 +4,15 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: tutorial
+ms.topic: article
 ms.service: msteams
 description: "プライベート チャットとチャネル用に Microsoft Teams にボットを追加する方法、カスタム ボットを作成する方法、プライベート チャット用に独自のボットをサイド ロードする方法について紹介します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 5ce0886a8bf509de53f7956a76b8ba503989aa14
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: 905a105fba269aebb2b01cbccc1a47e7667ca341
+ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/22/2017
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>Microsoft Teams でプライベートのチャットやチャネルのボットを追加する
 ==========================================================

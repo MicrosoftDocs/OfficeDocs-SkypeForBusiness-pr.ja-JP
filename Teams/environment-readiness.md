@@ -4,15 +4,15 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: overview
+ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams の導入に向けた環境の準備の確認事項について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d7f6573482afb85b671f5cdd93d3d631a30a6692
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: 473e86cd7f11fe4623d4bf8004b9d6a5f4df121b
+ms.sourcegitcommit: e0efee5350da54a1f1ae1c317f8613652c820bc6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/25/2017
 ---
 <a name="check-your-environments-readiness-for-microsoft-teams"></a>Microsoft Teams の導入に向けた環境の準備を確認する
 ===========================================
@@ -25,10 +25,10 @@ Microsoft Teams の最適な操作性を実現するには、組織で Exchange 
 
 -   組織で Office 365 の確認済みドメインを追加または構成していない場合は、「[Office 365 ドメインを確認して、所有権や、非営利団体または教育機関のステータスを証明する、または Yammer のアクティブ化を行う](https://support.office.com/en-us/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590)」をご覧ください。
 
--   組織で識別情報を Azure Active Directory と同期していない場合は、「Identity and Authentication Methods (識別と認証の方法)」をご覧ください。
+-   組織で識別情報を Azure Active Directory と同期していない場合は、「[Microsoft Teams での ID モデルと認証](identify-models-authentication.md)」をご覧ください。
 
--   組織で Exchange Online が導入されていない場合は、「Exchange」をご覧ください。
+-   組織で Exchange Online が導入されていない場合は、「[Exchange と Microsoft Teams の連携](Exchange-Teams-interact.md)」をご覧ください。
 
--   組織で SharePoint Online が導入されていない場合は、「SharePoint Online」と「OneDrive for Business」をご覧ください。
+-   組織で SharePoint Online が導入されていない場合は、「[Microsoft Teams との SharePoint Online と OneDrive for Business の連携](SharePoint-OneDrive-interact.md)」をご覧ください。
 
--   組織で Skype for Business を展開している場合は、「Skype for Business Interoperability (Skype for Business の相互運用性)」で追加情報を確認してください。
+                                                                               

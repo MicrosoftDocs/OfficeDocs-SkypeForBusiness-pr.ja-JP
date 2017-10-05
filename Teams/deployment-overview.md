@@ -4,15 +4,15 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: overview
+ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams の展開をセットアップする方法について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: aed20591afa8a53aad13ee537497aff398b4c24e
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: e582be2aeab3724fa70cc7c2f242538384d0f1c9
+ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/22/2017
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Microsoft Teams の展開の概要
 ========================================
@@ -38,7 +38,7 @@ Microsoft Teams の展開では、環境でその使用を開始するに当た�
 
 |チーム名 |チャネル  |タブ  |
 |---------|---------|---------|
-|チームの展開<br></br>メンバー:<ul><li>プロジェクト スポンサー</li><li>ビジネス アナリスト</li><li>プロジェクト マネージャー</li><li>コラボレーション IT 専門家</li><li>ネットワーク IT 専門家</li><li>導入リード </li><li>サポート リード</li></ul>所有者: <ul><li>プロジェクト マネージャー</li><li>コラボレーション IT 専門家</li></ul>      |計画と準備<br></br> 導入<br></br> ロールアウト<br></br> サポート<br></br> 洞察<br></br><br></br><br></br><br></br><br></br><br></br><br></br>          |Microsoft Teams の Web ページの実践的なガイドのリンク ([www.SuccessWithTeams.com](https://go.microsoft.com/fwlink/?linkid=854396)) <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>        |
+|チームの展開<br></br>メンバー:<ul><li>プロジェクト スポンサー</li><li>ビジネス アナリスト</li><li>プロジェクト マネージャー</li><li>コラボレーション IT 専門家</li><li>ネットワーク IT 専門家</li><li>導入リード </li><li>サポート リード</li></ul>所有者: <ul><li>プロジェクト マネージャー</li><li>コラボレーション IT 専門家</li></ul>      |計画と準備<br></br> 導入<br></br> ロールアウト<br></br> サポート<br></br> 洞察<br></br><br></br><br></br><br></br><br></br><br></br><br></br>          |Microsoft Teams の Web ページの実践的なガイドのリンク ([https://docs.microsoft.com/MicrosoftTeams](https://docs.microsoft.com/MicrosoftTeams)) <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>        |
 
 このセットアップの Microsoft Teams は次のようになります。
 
@@ -53,4 +53,4 @@ Microsoft Teams の展開では、環境でその使用を開始するに当た�
 
  
 
-*判断ポイントを追跡する場合は、Decision Points Summary をダウンロードしてください。*
+*判断ポイントを追跡する場合は、[Decision Points Summary](https://www.microsoft.com/en-us/download/55981) をダウンロードしてください。*

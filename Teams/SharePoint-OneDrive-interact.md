@@ -4,15 +4,15 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: overview
+ms.topic: article
 ms.service: msteams
-description: "プライベート チャット ファイルの格納方法、チーム、チャネル、ドキュメント ライブラリの関係など、Microsoft Teams  との SharePoint Online と OneDrive for Business の連携について説明します。"
+description: "プライベート チャット ファイルの格納方法、チーム、チャネル、ドキュメント ライブラリの関係など、Microsoft Teams との SharePoint Online および OneDrive for Business の連携について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: cc4d4f2bd367cce7b3d25d90fdf871e7f1d6982b
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: cf971714c1ad3b797c181f982ea8688bf8c73977
+ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/22/2017
 ---
 <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Microsoft Teams との SharePoint Online と OneDrive for Business の連携
 =============================================================================

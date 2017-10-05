@@ -6,7 +6,6 @@
 ## [Teams でのチームとチャネルの概要](teams-channels-overview.md)
 ## [Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
 ## [Office 365 グループと Teams](Office-365-groups.md)
-## [Skype for Business と Teams の連携](SkypeforBusiness-interact.md)
 ## [Exchange と Teams の連携](Exchange-Teams-interact.md)
 ## [Teams との SharePoint Online と OneDrive for Business の連携](SharePoint-OneDrive-interact.md)
 
@@ -54,24 +53,19 @@
 ## [Teams のトラブルシューティングでログ ファイルを使用する](log-files.md)
 
 # [Cloud Voice の展開](cloud-voice-deployment.md)
-## [音声会議](audio-conferencing.md)
-### [はじめに](audio-conferencing.md#introduction)
-### [PSTN 通話のビジネス ユース ケースを定義する](audio-conferencing.md#define-business-use-cases-for-pstn-calling)
-### [主要なステークホルダーを特定する](audio-conferencing.md#identify-key-stakeholders)
-### [目的、主要成果、主要成功指標、およびリスクについて定義する](audio-conferencing.md#define-objectives-and-key-results-key-success-indicators-and-risks)
-### [環境の評価と、導入の準備状況の検証を行う](audio-conferencing.md#assess-environment-and-evaluate-adoption-readiness)
-### [人の関与](audio-conferencing.md#people-onboarding)
-### [技術の関与](audio-conferencing.md#technical-onboarding)
-### [ユーザー エンゲージメントを推進し、導入を促進する](audio-conferencing.md#boost-user-engagement-and-drive-adoption)
-### [成功を測定、共有して、反復する](audio-conferencing.md#measure-share-success-and-iterate)
-### [変更のための管理と用意を行う](audio-conferencing.md#manage-and-prepare-for-change)
+## [電話会議](audio-conferencing.md)
+### [構想](audio-conferencing.md#Envision_AudioConferencing)
+### [計画](audio-conferencing.md#Planning_AudioConferencing)
 
 # [Skype for Business から Teams への移行](Journey-SkypeforBusiness-Teams.md)
-## [パイロットの基礎: Microsoft Teams への移行を開始する](pilot-essentials.md)
-## [共存に関するガイダンス: Skype for Business と Teams](guidance-SkypeforBusiness.md)
-## [よくあるご質問: Skype for Business から Teams への移行](FAQ-journey.md)
+## [1 - 現在の Skype for Business 環境を Teams 向けに最適化する](prepare-teams.md)
+## [2 - Skype for Business と併用する形で Teams を試験的に導入する](pilot-essentials.md)
+## [3 - Teams が Skype for Business と共存できるようにする](guidance-SkypeforBusiness.md)
+## [4 - ユーザーが導入することによる価値を推進する](continue-journey.md)
+## [よくあるご質問 - Skype for Business と Teams のビジョン](FAQ-journey.md)
 
 # ビデオとトレーニング
 ## [Teams のための IT 管理者の準備状況のリソース](ITAdmin-readiness.md)
+### [ビデオ - Audio Conferencing in Teams (Teams での電話会議)](audio-conferencing-videos.md)
 ## [Teams のエンド ユーザー トレーニング](enduser-training.md)
 

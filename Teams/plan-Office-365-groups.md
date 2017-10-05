@@ -4,17 +4,18 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: overview
+ms.topic: article
 ms.service: msteams
 description: "パブリックまたはプライベート グループの選択、Teams クライアントと Office 365 管理 Web コンソールのどちらを使用するかの選択、会話の使用に関するチームの指導方法といった Office 365 グループの計画について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 82ca7b83962325437216c5fa832ae4fd06fd0034
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: 2f2267542d9b582416c219d01f40e7853ec24ae8
+ms.sourcegitcommit: 1bc2abb2acabe0357d3770284b2710ed9c7f59ee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/23/2017
 ---
-### <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Microsoft Teams でチームを作成するときの Office 365 グループの計画
+<a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Microsoft Teams でチームを作成するときの Office 365 グループの計画
+==========================================================
 
 Office 365 グループを使用する場合やチームを作成する場合は、チームの使用目的、アクセス権を与えるユーザー、チームに期待する成果を考慮します。チャネル数に応じてコンテンツが分散し、その内容が乏しくなる場合があるため、作成するチャネルの数には特別な注意を払う必要があります。
 

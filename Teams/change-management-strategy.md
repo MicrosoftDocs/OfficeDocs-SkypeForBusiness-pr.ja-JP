@@ -4,15 +4,15 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: overview
+ms.topic: article
 ms.service: msteams
 description: "主要なステークホルダー、ビジネスの成果、成功の測定方法の特定、チャンピオンの管理を通して Microsoft Teams の変更管理戦略を作成する方法について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 27786cf97a7fa7b53c77594a108f89b6cfb2ce48
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: 97f835f60777b5c6c907790fabc76dfaeeb1e268
+ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/22/2017
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Microsoft Teams の変更管理戦略を作成する
 =======================================================
@@ -44,12 +44,12 @@ ms.lasthandoff: 09/20/2017
 <a name="identify-key-stakeholders-users-and-champions"></a>主要なステークホルダー、ユーザー、チャンピオンを特定する
 -----------------------------------------------
 
-導入を成功させるための最初のルールは、変更を促進し、効果的にその影響を浸透させることのできる主要なステークホルダーと適切なメンバーで構成される動的なチームを編成することです。導入戦略の成功の第一歩は組織横断的に選ばれた献身的な個人で構成されるチームによって踏み出されます。主要なステークホルダーの役割には、エグゼキュティブ スポンサー、サービス オーナー、IT 専門家、チャンピオンが含まれます。
+導入を成功させるための最初のルールは、変更を促進し、効果的にその影響を浸透させることのできる主要なステークホルダーと適切なメンバーで構成される動的なチームを編成することです。導入戦略の成功の第一歩は組織横断的に選ばれた献身的な個人で構成されるチームによって踏み出されます。主要なステークホルダーの役割には、エグゼキュティブ スポンサー、サービス所有者、IT 専門家、チャンピオンが含まれます。
 
 |  |  |
 |---------|---------|
 |![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |**エグゼキュティブ スポンサー**とは、組織内の主要なリーダーであり、彼らの参加は従業員の適応を促進する上で欠かすことができません。企業文化に対して最も大きな影響力を持つ彼らは新しいテクノロジーや手法の価値や恩恵を積極的に伝えることができます。         |
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**サービー オーナー**は、人々がサービスを使用し、そこから価値を引き出せるようにする責任があります。組織内でサービス オーナーを設定することは、Office 365 に対して設定したビジネス目標を実現させる上で重要です。         |
+|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**サービス所有者**は、人々がサービスを使用し、そこから価値を引き出せるようにする責任があります。組織内でサービス所有者を設定することは、Office 365 に対して設定したビジネス目標を実現させる上で重要です。         |
 |![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |組織全体ですべてのユーザーから賛同を得ることは困難です。**チャンピオン**は、この困難を軽減し、Office 365 の導入に欠かせない重要な役割を果たします。チャンピオンは、専門性を深めるための取り組み、同僚の指導や支援を惜しまない知識豊富な存在です。彼らのサポートにより、部門やチームで Office 365  の導入を実現することができます。         |
 
 定期的にステークホルダー会議を行い、プログラムの進捗状況について最新情報を保つようにします。企業文化によっては、フィードバックやディスカッションを行う「コラボレーション審議会」を設立すると有益な場合があります。

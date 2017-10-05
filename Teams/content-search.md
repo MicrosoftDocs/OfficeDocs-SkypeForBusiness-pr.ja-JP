@@ -4,22 +4,22 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: tutorial
+ms.topic: article
 ms.service: msteams
-description: "Microsoft Teams のコンテンツ検索について、Exchange からのチャネル チャットの検索、SharePoint からのファイルのアップロードや修正の検索、OneNote の検索を行う方法について説明します。"
+description: "Microsoft Teams のコンテンツ検索について、Exchange からのチャネル チャットの検索、SharePoint からのファイルのアップロードや修正の検索、OneNote の検索について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 1da6cb82c1e88ed1517ad16109cbc4c126aa2f1c
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: 39f293f7ffd754fbb22271685859f81c10df5b06
+ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/22/2017
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Microsoft Teams のコンテンツ検索を使用する
 =====================================
 
-コンテンツ検索は、Exchange、SharePoint、OneDrive for Business を含む Microsoft Teams の情報について問い合わせを行うことのできる特別な検索手段です。
+コンテンツ検索は、Exchange、SharePoint Online、OneDrive for Business を含む Microsoft Teams の情報について問い合わせを行うことのできる特別な検索手段です。
 
-次の例では、新規の**コンテンツ検索**を作成し、Manufacturing Specs メールボックスと Manufacturing Specs SharePoint サイトを選択しています。この操作により、Exchange からのチャネル チャット、SharePoint からのファイル アップロードやファイルの修正、OneNote での変更を検索できます。
+次の例では、新規の**コンテンツ検索**を作成し、Manufacturing Specs メールボックスと Manufacturing Specs SharePoint サイトを選択しています。この操作により、Exchange からのチャネル チャット、SharePoint Online からのファイル アップロードやファイルの修正、OneNote での変更を検索できます。
 
 ![](media/Use_Content_Search_in_Microsoft_Teams_image1.png)
 
