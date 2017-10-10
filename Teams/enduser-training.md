@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "管理者が Microsoft Teams の展開を正常に完了できるようになるために使用できるトレーニング リソースです。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 6c206d9fcbb7566d71e531712519e4cf102cf915
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 86c5b5625e41e9c7513ccefbcfb84acd6b2c1453
+ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/28/2017
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams のエンド ユーザー トレーニング
 =====================================
@@ -21,7 +21,7 @@ ms.lasthandoff: 09/22/2017
 
 |  |  |
 |---------|---------|
-| [Office トレーニング センター](https://support.office.com/article/Office-Training-Center-b8f02f81-ec85-4493-a39b-4c48e6bc4bfb) | Microsoft Teams を最大限に活用できるようユーザーを支援するためのトレーニング |
+| [Office トレーニング センター](https://support.office.com/article/Microsoft-Teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) | Microsoft Teams を最大限に活用できるようユーザーを支援するためのトレーニング |
 | [Microsoft Teams のヘルプ](https://support.office.com/teams) | Teams エンドユーザーの製品ドキュメンテーション |
 | [Microsoft Teams のヒントとコツ](https://support.office.com/office-training-center/Teams-tips) |  |
 | [Microsoft Teams とは何ですか?](https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12) | チームワークのハブとなる、Teams についての簡潔な紹介  |

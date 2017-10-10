@@ -8,42 +8,41 @@ ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams でのゲスト アクセスにより、組織内のチームは組織外の人にチームおよびチャネルへのアクセス権を付与することで、それらの人と共同作業することができるようになります。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e8cce3faa65de9c0cbd5ffdbb4cb4a6f43a1229d
-ms.sourcegitcommit: 1bc2abb2acabe0357d3770284b2710ed9c7f59ee
+ms.openlocfilehash: f440e1d67166931365a24cb18e855a179fc532ef
+ms.sourcegitcommit: 34abc255257716ab135e8eda7b07f8abb55a6bc7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2017
+ms.lasthandoff: 10/02/2017
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセスを管理する
 ======================================
 
-
-# <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセス
 
 Microsoft Teams でのゲスト アクセスにより、組織内のチームは組織外の人にチームおよびチャネルへのアクセス権を付与することで、それらの人と共同作業することができるようになります。 ゲストとは、従業員、学生または組織の一員ではないユーザーを指します。 ゲストは組織内での学校アカウントまたは職場アカウントを持ちません。 たとえば、ゲストにはパートナー、製造元、供給元、コンサルタントなどが含まれます。
   
     
     
 
-Microsoft Teams では、企業データを完全に制御して保持しながら、チーム、ドキュメント、リソース、チャット、アプリケーションへの外部アクセスをパートナーに提供できます。
-Microsoft Teams は、Office 365 グループの上に構築されており、Office 365 グループの共有資産への新しいアクセス方法を提供します。 Microsoft Teams は、グループ/チーム メンバー間の常設チャットに最適なソリューションです。 Office 365 グループは、SharePoint サイトや Power BI ダッシュボードなどの一連の共有チーム資産を利用するために、クロス アプリケーションのメンバーシップを提供し、チームが効果的かつ安全にコラボレーションできるようにするサービスです。
+Teams では、企業データを完全に制御して保持しながら、チーム、ドキュメント、リソース、チャット、アプリケーションへの外部アクセスをパートナーに提供できます。
+
+Teams は、Office 365 グループに基づき構築されており、Office 365 グループの共有資産への新しいアクセス方法を提供します。 Teams は、グループ/チーム メンバー間の常設チャットに最適なソリューションです。 Office 365 グループは、SharePoint サイトや Power BI ダッシュボードなどの一連の共有チーム資産を利用するために、クロス アプリケーションのメンバーシップを提供し、チームが効果的かつ安全にコラボレーションできるようにするサービスです。
   
     
     
 
-### <a name="how-a-guest-joins-a-team"></a>ゲストがチームに参加する方法
+## <a name="how-a-guest-joins-a-team"></a>ゲストがチームに参加する方法
 
 
   
     
     
-Microsoft Teams でのチーム所有者は、Web またはデスクトップを介してチームにゲストを追加したり、チームのゲストを管理できます。 Azure Active Directory に対応する電子メール アドレス、または Office 365 の職場または学校アカウントを持つユーザーのみをゲスト ユーザーとして追加できます。
+Teams でのチーム所有者は、Web またはデスクトップを介してチームにゲストを追加することや、チームのゲストを管理することができます。 Azure Active Directory に対応する電子メール アドレス、または Office 365 の職場または学校アカウントを持つユーザーのみをゲスト ユーザーとして追加できます。
   
     
     
 
 > [!NOTE]
-> ゲストがチームに参加するには、管理者が Microsoft Teams でゲスト アクセスを事前に有効にする必要があります。 この操作を行うには、Office 365 グローバル管理アカウントで[サインイン](https://portal.office.com/adminportal/home)します。 次に、[**設定**]  >  [**Services &amp; add-ins (サービスとアドイン)**]  >  [**Microsoft Teams**] の順に選択します。 [**Select the user/license type you want to configure (構成するユーザー/ライセンスの種類を選択する)**] で [**ゲスト**] を選択し、[**Turn Microsoft Teams on or off for all users of this type (この種類のすべてのユーザーについて Microsoft Teams をオンまたはオフにする)**] で [**オン**] を選択します。 設定が有効になるまで最長で 1 時間かかる場合があります。 詳しくは、この記事の管理タブにある「Microsoft Teams のゲスト アクセスをオンまたはオフにする」をご覧ください。 
+> ゲストがチームに参加するには、管理者が Teams でゲスト アクセスを事前に有効にする必要があります。 この操作を行うには、Office 365 グローバル管理アカウントで[サインイン](https://portal.office.com/adminportal/home)します。 次に、[**設定**]  >  [**Services &amp; add-ins (サービスとアドイン)**]  >  [**Microsoft Teams**] の順に選択します。 [**Select the user/license type you want to configure (構成するユーザー/ライセンスの種類を選択する)**] で [**ゲスト**] を選択し、[**Turn Microsoft Teams on or off for all users of this type (この種類のすべてのユーザーについて Microsoft Teams をオンまたはオフにする)**] で [**オン**] を選択します。 設定が有効になるまで最長で 1 時間かかる場合があります。 詳しくは、この記事の管理タブにある「Microsoft Teams のゲスト アクセスをオンまたはオフにする」をご覧ください。 
   
     
     
@@ -59,10 +58,10 @@ Microsoft Teams でのチーム所有者は、Web またはデスクトップを
 - **手順 2** Office 365 管理者またはチーム所有者は必要に応じてゲストが利用できる操作を管理します。 たとえば、チャネルの追加または削除、ファイルへのアクセスの無効化といった操作をゲストに許可します。
     
   
-- **手順 3** ゲストは、チームへの参加を招待する「ようこそ」メールをチーム所有者から受け取ります。 招待状を受け取った後、ゲストは[チームやチャネルへの参加](https://support.office.com/en-us/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels)、メッセージの受信や返答、[チャネル内のファイルへのアクセス](https://support.office.com/en-us/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e)、チャットへの参加を行うことができるようになります。 Microsoft Teams の使用時には、すべてのユーザーがテキストとアイコンの組み合わせにより、チームにゲストが参加していることを知ることができます。 詳しくは、「[ゲストのエクスペリエンス](#guestexp)」をご覧ください。
+- **手順 3** ゲストは、チームへの参加を招待する「ようこそ」メールをチーム所有者から受け取ります。 招待状を受け取った後、ゲストは[チームやチャネルへの参加](https://support.office.com/en-us/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels)、メッセージの受信や返答、[チャネル内のファイルへのアクセス](https://support.office.com/en-us/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e)、チャットへの参加を行うことができるようになります。 Teams の使用時には、すべてのユーザーがテキストとアイコンの組み合わせにより、チームにゲストが参加していることを知ることができます。 詳しくは、「[ゲストのエクスペリエンス](#guestexp)」をご覧ください。
     
   
-ゲストは Microsoft Teams の Web やデスクトップ クライアントを使っていつでもチームから脱退することができます。 詳しくは、「[How do I leave a team? (チームから脱退する方法を教えてください。)](https://support.office.com/en-us/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)」をご覧ください。
+ゲストは Teams の Web やデスクトップ クライアントを使っていつでもチームから脱退することができます。 詳しくは、「[How do I leave a team? (チームから脱退する方法を教えてください。)](https://support.office.com/en-us/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)」をご覧ください。
   
     
     
@@ -74,7 +73,7 @@ Microsoft Teams でのチーム所有者は、Web またはデスクトップを
     
 
 <a name="guestexp"></a>
-### <a name="what-the-guest-experience-is-like"></a>ゲストのエクスペリエンスについて
+## <a name="what-the-guest-experience-is-like"></a>ゲストのエクスペリエンスについて
 
 ゲストは、チームへの参加を招待されると、チームに関する情報とメンバーとして利用できる内容を記載する「ようこそ」メール メッセージを受け取ります。 ゲストは、メール メッセージの招待状と引き換えに、チームやそのチャネルにアクセスできるようになります。
   
@@ -108,7 +107,6 @@ Microsoft Teams でのチーム所有者は、Web またはデスクトップを
 
 |**Teams の機能**|**組織の Teams ユーザー**|**ゲスト ユーザー**|
 |:-----|:-----|:-----|
-||||
 |チャネルの作成  <br/>  *この機能はチーム所有者によって制御されます。*  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
 |プライベート チャットに参加する  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
 |チャネルの会話に参加する  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
@@ -128,36 +126,36 @@ Microsoft Teams でのチーム所有者は、Web またはデスクトップを
 > ゲストが利用できる機能は Office 365 の管理者によって制御されます。 
   
     
-###<a name="manage-guests"></a>ゲストを管理する
+## <a name="manage-guests"></a>ゲストを管理する
 
 
 ゲスト アクセスは、Office 365 Business Premium、Office 365 Enterprise、Office 365 Education のすべてのサブスクリプションに含まれています。 追加の Office 365 ライセンスは不要です。
   
     
     
-Microsoft Teams ゲスト アクセスはテナントレベルの設定であり、既定ではオフになっています。 管理者は Office 365 管理センターでゲスト アクセスを管理できます。 詳しくは、「[Microsoft Teams へのゲスト アクセスを管理する](#manageguest)」と「[Control guest access to Microsoft Teams (Microsoft Teams へのゲスト アクセスを制御する)](#controlguest)」をご覧ください。
+Teams のゲスト アクセスはテナントレベルの設定であり、既定ではオフになっています。 管理者は Office 365 管理センターでゲスト アクセスを管理できます。 詳しくは、「[Microsoft Teams へのゲスト アクセスを管理する](#manageguest)」と「[Control guest access to Microsoft Teams (Microsoft Teams へのゲスト アクセスを制御する)](#controlguest)」をご覧ください。
   
     
     
 
 > [!NOTE]
-> Microsoft Teams ゲスト アクセスのテナント設定はゲストのサインインのみを拒否します。 チーム所有者は、所有するチームに新しいゲストを招待したり、既存のディレクトリ ゲスト ユーザーを追加できます。 Microsoft Teams は、テナントへのゲスト ユーザーの追加の許可または拒否において、常に Azure Active Directory の外部設定を優先します。 
+> Teams のゲスト アクセスのテナント設定は、ゲストのサインインのみを拒否します。 チーム所有者は、所有するチームに新しいゲストを招待したり、既存のディレクトリ ゲスト ユーザーを追加できます。 Teams は、テナントへのゲスト ユーザーの追加の許可または拒否において、常に Azure Active Directory の外部設定を優先します。 
   
     
     
 
-さらに、Azure Active Directory ポータルを使用して、ゲストの管理、Office 365 や Microsoft Teams のリソースへのゲスト アクセスの管理を行うことができます。 Microsoft Teams ゲスト アクセスでは、Azure Active Directory ビジネス ツー ビジネス (B2B) コラボレーション機能を基本インフラストラクチャとして活用して、ID プロパティ、メンバーシップ、多要素認証設定といったセキュリティの原則情報を保管します。 Azure Active Directory B2B について詳しくは、「[Azure AD B2B コラボレーションとは](https://go.microsoft.com/fwlink/p/?linkid=853011)」と「[Azure Active Directory B2B コラボレーションの FAQ](https://go.microsoft.com/fwlink/p/?linkid=853020)」をご覧ください。
+さらに、Azure Active Directory ポータルを使用して、ゲストの管理、Office 365 や Teams のリソースへのゲスト アクセスの管理を行うことができます。 Teams のゲスト アクセスでは、Azure Active Directory ビジネス ツー ビジネス (B2B) コラボレーション機能を基本インフラストラクチャとして活用して、ID プロパティ、メンバーシップ、多要素認証設定といったセキュリティの原則情報を保管します。 Azure Active Directory B2B について詳しくは、「[Azure AD B2B コラボレーションとは](https://go.microsoft.com/fwlink/p/?linkid=853011)」と「[Azure Active Directory B2B コラボレーションの FAQ](https://go.microsoft.com/fwlink/p/?linkid=853020)」をご覧ください。
   
     
     
 
 #### <a name="related-key-services-and-dependencies"></a>関連する主要なサービスと依存関係
 
-Microsoft Teams は、SharePoint Online と OneDrive for Business を利用して、チャネルとチャット会話のファイルやドキュメントを保管します。 さらに、Microsoft Teams は、Office 365 グループを利用して、チームのメンバーシップやチーム データ分類設定などのその他のプロパティを保管します。
+Teams は、SharePoint Online と OneDrive for Business を利用して、チャネルとチャット会話のファイルやドキュメントを保管します。 さらに、Teams は、Office 365 グループを利用して、チームのメンバーシップやチームのデータ分類設定などのその他のプロパティを保管します。
   
     
     
-Microsoft Teams ゲスト アクセスの完全な操作性を有効にするため、Office 365 管理者は次の設定を**オン**にする必要があります。
+Teams のゲスト アクセスの完全な操作性を有効にするため、Office 365 管理者は次の設定を**オン**にする必要があります。
   
     
     
@@ -184,51 +182,28 @@ Microsoft Teams ゲスト アクセスの完全な操作性を有効にするた
     
      ![Office 365 にサインインし、Office 365 管理センターに移動して、[設定]、[Services &amp; add-ins (サービスとアドイン)] の順に選択します。](media/99e676d4-5b48-4525-9556-547031fa37d9.png)
   
-
-  
+ 
 
   
 3. [**Microsoft Teams**] を選択します。
     
      ![次のスクリーンショットは、Office 365 管理センターで選択した Microsoft Teams アドインのオプションを示しています。](media/17ac5608-d212-4fa8-ae3a-e78c62003968.png)
   
-
-  
-
   
 4. [**Select the user/license type you want to configure (構成するユーザー/ライセンスの種類を選択する)**] で [**ゲスト**] を選択します。
     
-    
   
-    
-    
 ![Microsoft Teams アドインのスクリーンショットでは、ゲスト ライセンスが選択され、Microsoft Teams オプションがオンに設定されています。](media/92aabda5-431c-4fdd-803e-5ab49290f4f7.png)
   
-    
-    
-
-  
-    
-    
-
-  
-    
-    
-
-    
   
 5. [**Turn Microsoft Teams on or off for all users of this type (この種類のすべてのユーザーについて Microsoft Teams をオンまたはオフにする)**] の横にあるトグルをクリックまたはタップして [**オン**] にして組織の Teams とゲスト アクセスをオンにし、[**保存**] を選択します。 
     
   
-
 > [!NOTE]
 > 設定が有効になるまで最長で 1 時間かかる場合があります。 
   
     
-    
-
-
-#### <a name="control-adding-guest-users-to-microsoft-teams-and-office-365-groups"></a>Microsoft Teams や Office 365 グループへのゲスト ユーザーの追加を制御する
+## <a name="control-adding-guest-users-to-microsoft-teams-and-office-365-groups"></a>Microsoft Teams や Office 365 グループへのゲスト ユーザーの追加を制御する
 <a name="bkmk_ControlAddingGuestUsers"> </a>
 
 
@@ -254,21 +229,10 @@ Microsoft Teams ゲスト アクセスの完全な操作性を有効にするた
     
 ![次のスクリーンショットは、組織外のグループ メンバーによるグループのコンテンツへのアクセス、グループ所有者による組織外のユーザーのグループへの追加のオプションをオンにした [Office 365 グループ] パネルを示しています。](media/eee77abd-4425-4585-91a8-5541c17ee7b2.png)
   
-    
-    
-
   
-    
-    
-
-  
-    
-    
-
-    
   
 <a name="controlguest"> </a>
-### <a name="turn-on-or-off-the-sharing-option-for-office-365"></a>Office 365 の [共有] オプションをオンまたはオフにする
+## <a name="turn-on-or-off-the-sharing-option-for-office-365"></a>Office 365 の [共有] オプションをオンまたはオフにする
 
 
 [共有] オプションでは、組織へのゲストの追加を許可します。 既定では、[共有] オプションは有効です。 [共有] オプションをオフにする方法について詳しくは、「[[共有] オプションをオンまたはオフにする](https://support.office.com/en-us/article/Turn-on-or-off-the-Sharing-option-7c713d74-a144-4eab-92e7-d50df526ff96#bkmk_beforeyoubegin)」をご覧ください。
@@ -279,11 +243,8 @@ Microsoft Teams ゲスト アクセスの完全な操作性を有効にするた
 > [!IMPORTANT]
 > [共有] オプションをオフにすると、ゲスト アクセスが利用できなくなります。 
   
-    
-    
 
-
-#### <a name="use-powershell-to-control-guest-access"></a>PowerShell を使用してゲスト アクセスを制御する
+## <a name="use-powershell-to-control-guest-access"></a>PowerShell を使用してゲスト アクセスを制御する
 <a name="bkmk_UsePowerShell"> </a>
 
 Office 365 管理センターと Azure Active Directory ポータルに加え、Windows PowerShell を使用してゲスト アクセスを制御することもできます。 PowerShell を使用すると、次の操作を行うことができます。
@@ -326,7 +287,7 @@ PowerShell を使用して、ドメインに基づいてゲスト ユーザー�
   
     
 
-#### <a name="invite-guest-users"></a>ゲスト ユーザーを招待する
+## <a name="invite-guest-users"></a>ゲスト ユーザーを招待する
 <a name="bkmk_UsePowerShell"> </a>
 
 チーム所有者や Office 365 管理者は、個別に[ゲストをチームに招待する](https://support.office.com/en-us/article/invite-a-guest-to-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoiaddateammember)ことができます。 ただし、管理者は Office 365 管理センターや Azure Active Directory ポータルを使用して一度の操作で複数のゲストを招待することはできません。 一元的にゲストを招待する場合に、Azure Active Directory B2B コラボレーション プレビューを使用することができます。 詳しくは、「[Azure AD B2B コラボレーション プレビューについて](https://go.microsoft.com/fwlink/p/?linkid=853011)」をご覧ください。
@@ -334,14 +295,14 @@ PowerShell を使用して、ドメインに基づいてゲスト ユーザー�
     
     
 
-#### <a name="edit-guest-user-information"></a>ゲスト ユーザー情報を編集する
+## <a name="edit-guest-user-information"></a>ゲスト ユーザー情報を編集する
 <a name="bkmk_UsePowerShell"> </a>
 
 現時点では、Office 365 管理センターや Exchange 管理センターからゲスト情報を編集することはできません。 ゲスト アカウントを編集するには (表示名やプロフィール写真など)、Azure Active Directory ポータルに移動します。 詳しくは、「[Office 365 ID と Azure Active Directory について](https://support.office.com/en-us/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9)」をご覧ください。
   
     
     
-### <a name="frequently-asked-questions-for-admins"></a>管理についてよく寄せられる質問
+## <a name="frequently-asked-questions-for-admins"></a>管理についてよく寄せられる質問
 <a name="bkmk_UsePowerShell"> </a>
 
 Microsoft Teams のチームへの参加にゲストを招待することについて、Office 365 管理者が持つ一般的な質問を以下に示します。

@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams での電話会議の展開についての実践的なガイダンスを提供します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: cf50e6468bdf4fc96419d39fbc889c5b5a220a8d
-ms.sourcegitcommit: e0efee5350da54a1f1ae1c317f8613652c820bc6
+ms.openlocfilehash: 5442f5bf11540f5429566bc683afaeb3a24ff4ac
+ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2017
+ms.lasthandoff: 09/28/2017
 ---
 <a name="audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議
 =====================================
 
 > [!IMPORTANT]
-> 電話会議はパブリック プレビュー版です。 電話会議は、アーリー アダプター (EA) とプレビュー カスタマーを対象とし、リリースまたは更新ごとに変更される場合があります。
+> 電話会議はパブリック プレビューとして提供されます。 電話会議は、アーリー アダプター (EA) とプレビュー カスタマーを対象とし、リリースまたは更新ごとに変更される場合があります。
 
-Office 365 の電話会議 (旧名: PSTN 会議) では、参加者はどの電話端末からでも会議に参加できます。 Microsoft Teams でもこの機能が利用できるようになりました。ユーザーは自分の電話端末を使用して Teams 会議に参加できます。 この記事の実践的なガイダンスでは、Office 365 FastTrack カスタマーの電話会議の導入フレームワークについて、構想、参加、価値の創出というステップごとに説明します。
+Office 365 の電話会議 (旧名: PSTN 会議) では、参加者はどの電話端末からでも会議に参加できます。 Microsoft Teams でも、パブリック プレビューとしてこの機能が利用できるようになりました。ユーザーは自分の電話端末を使用して Teams 会議に参加できます。 この記事の実践的なガイダンスでは、Office 365 FastTrack カスタマーの電話会議の導入フレームワークについて、構想、参加、価値の創出というステップごとに説明します。
 
 Office 365 の[電話会議](https://go.microsoft.com/fwlink/?linkid=858992)で利用できる機能を以下に示します。
 
@@ -754,7 +754,7 @@ _表 8 電話会議の開催者のライセンス割り当てリストの例_
 <thead>
 <tr class="header">
 <th align="left">リチャージを実行する金額</th>
-<td align="left">$ 400</td>
+<td align="left">$400</td>
 </tr>
 <tr class="header">
 <th align="left">自動リチャージする金額</th>
@@ -1082,11 +1082,11 @@ Office 365 の電話システム機能である[ダイヤル プラン](https://
 
 Office 365 の電話システム機能には、次の 2 種類のダイヤル プランがあります。
 
--   **サービス ダイヤル プラン**:  既定のダイヤル プランで、Office 365 の使用場所に基づいてユーザーに適用されます。変更することはできません。
+-   **サービス ダイヤル プラン**: 既定のダイヤル プランで、Office 365 の使用場所に基づいてユーザーに適用されます。変更することはできません。
 
 <!-- -->
 
--   **テナント ダイヤル プラン**:  テナント内のカスタマイズ可能なダイヤル プランです。さらに 2 つのタイプに分類されます。
+-   **テナント ダイヤル プラン**: テナント内のカスタマイズ可能なダイヤル プランです。さらに 2 つのタイプに分類されます。
 
     -   **テナント - グローバル ダイヤル プラン** - テナント内のすべてのユーザーに適用されるダイヤル プラン。
 

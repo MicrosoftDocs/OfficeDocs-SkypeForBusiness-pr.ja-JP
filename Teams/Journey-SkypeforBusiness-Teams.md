@@ -3,21 +3,21 @@ title: "Skype for Business から Microsoft Teams への移行"
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/03/2017
+ms.date: 10/05/2017
 ms.topic: article
 ms.service: msteams
 description: "Skype for Business Online から Microsoft Teams に移行するために必要となるあらゆる知識についての情報を提供します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: f45cf87cfa7928d0dcc8587f997e1e73b442bb46
-ms.sourcegitcommit: 9f4216d50f7356b6252fc863213a20279a264374
+ms.openlocfilehash: 2c0048f92059ed2abefaabd54ae72c2ca6a90152
+ms.sourcegitcommit: eaa52861806e40691f2672ca35074dc44a5570d8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2017
+ms.lasthandoff: 10/05/2017
 ---
 <a name="journey-from-skype-for-business-to-microsoft-teams"></a>Skype for Business から Teams への移行pacterarepeated
 ==================================================
 
-より洗練された通話と会議のエクスペリエンスを実現しようという Microsoft のインテリジェント コミュニケーション　ビジョンの一環として、Skype for Business の機能を Teams に導入しています。 この取り組みは時間をかけて進展し、最終的に Teams を単一のクライアント エクスペリエンスとしてご利用いただけるようになります。 大切な Skype for Business のお客様のために、Microsoft は Teams に移行する行程の各ステップをサポートします。 Microsoft は、この移行には時間がかかると認識していますので、お客様が引き続き　Skype for Business　を稼働しながら、今すぐ Teams について理解を深めて、お客様の組織にもたらされる価値を実感できるようにご案内します。 
+より洗練された通話と会議のエクスペリエンスを実現しようという Microsoft の[インテリジェント コミュニケーション ビジョン](https://aka.ms/intelligentcommunicationsblog)の一環として、Skype for Business の機能を Teams に導入しています。 この取り組みは時間をかけて進展し、最終的に Teams を単一のクライアント エクスペリエンスとしてご利用いただけるようになります。 大切な Skype for Business のお客様のために、Microsoft は Teams に移行する行程の各ステップをサポートします。 Microsoft は、この移行には時間がかかると認識していますので、お客様が引き続き　Skype for Business　を稼働しながら、今すぐ Teams について理解を深めて、お客様の組織にもたらされる価値を実感できるようにご案内します。 
 
 Teams に次に導入される機能について完全に把握したり、お客様がいつ Teams に移行するのが最善であるかを判断するには、[Teams 製品ロードマップ](https://aka.ms/TeamsRoadmap)をご覧ください。
 

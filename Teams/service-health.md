@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Teams サービスや Exchange、SharePoint、OneDrive for Business といったその他の Office 365 コンポーネントが正常であることを確認することをお勧めします。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 807fec0c7f5b076f07ffb365ef650930f9263408
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 20f3fe0a33d8f3e2b527094dd53532a06379d979
+ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/28/2017
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>Microsoft Teams のサービス正常性を確認する
 ===========================================

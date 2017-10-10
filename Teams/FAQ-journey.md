@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 description: "Skype for Business Online から Microsoft Teams への移行に関してよく寄せられる質問を次に示します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 459f4971b1727cc777f1acfd5748a10dd36658ed
-ms.sourcegitcommit: 2c4e56908f2ba5ce9c99e6cb6867961e08b2daf8
+ms.openlocfilehash: 11b01e3ad0797f697775b3459d9925527baec856
+ms.sourcegitcommit: 769d817c2d487ea8b5f4339acef21d5f1ff137d3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/24/2017
+ms.lasthandoff: 10/04/2017
 ---
 <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>よくあるご質問 - Skype for Business から Microsoft Teams への移行
 ==========================================================
 
-<a name="uc-vision"></a>統合コミュニケーションのビジョン
----------
+<a name="intelligent-communications-vision"></a>インテリジェント コミュニケーション ビジョン
+----------------------------------
 
 ### <a name="what-is-microsofts-new-vision-for-intelligent-communications-aka-unified-communications-vision"></a>インテリジェント コミュニケーション (別名: 統合コミュニケーション) についての Microsoft の新しいビジョンを教えてください。 
 
@@ -110,13 +110,11 @@ Microsoft Teams の数多くの利点の 1 つとして、ユーザーが新し�
 
 ### <a name="what-is-the-plan-for-video-interoperability-support-for-teams-meetings"></a>Teams 会議のビデオの相互運用性をサポートするための計画を教えてください。
 
-現代的なワークプレースの実現に向けた Microsoft のビジョンでは会議室のデバイスが重要な位置を占めます。  9 月 25 日に Ignite において、Microsoft は Microsoft Teams とのクラウド ビデオの相互運用性を実現するため Blue Jeans および Pexip との共同開発を行っていることを発表します。 お客様は Skype for Business Online で Polycom 社の RealConnect for Office 365 をこれまでどおりご利用いただけます。 Microsoft は、ロードマップを用意して、お客様がビジネス ニーズに応じて Microsoft Teams を評価できるようにします。
+現代的なワークプレースの実現に向けた Microsoft のビジョンでは会議室のデバイスが重要な位置を占めます。  Microsoft は、9 月 25 日の Ignite において、Microsoft Teams とのクラウド ビデオの相互運用性を実現するため Blue Jeans および Pexip と共同開発を行っていることを発表しました。 お客様は Skype for Business Online で Polycom 社の RealConnect for Office 365 をこれまでどおりご利用いただけます。 Microsoft は、ロードマップを用意して、お客様がビジネス ニーズに応じて Microsoft Teams を評価できるようにします。
 
 ### <a name="will-the-latest-generation-of-skype-room-systems-support-meetings-in-teams"></a>Skype Room Systems の最新の世代は Teams の会議をサポートしますか?
 
-最新のワークプレースの実現に向けた弊社のビジョンでは会議室のデバイスが重要な位置を占めます。Microsoft は Skype Room Systems の勢いをこのまま継続する予定です。 Ignite で Lenovo は
-
-Skype Rooms Systems で Teams の会議をサポートすると発表しました。 初期段階では、Skype Room Systems はシングルクリック操作での Teams 会議への参加、およびデュアル スクリーンのサポートとパノラマ ビデオ デバイス以外のほとんどの Skype Room Systems の機能がサポートされます。 デュアル スクリーンとパノラマ デバイスは今後のリリースでサポートされる予定です。
+最新のワークプレースの実現に向けた弊社のビジョンでは会議室のデバイスが重要な位置を占めます。Microsoft は Skype Room Systems の勢いをこのまま継続する予定です。 初期段階では、Skype Room Systems はシングルクリック操作での Teams 会議への参加、およびデュアル スクリーンのサポートとパノラマ ビデオ デバイス以外のほとんどの Skype Room Systems の機能がサポートされます。 デュアル スクリーンとパノラマ デバイスは今後のリリースでサポートされる予定です。
 
 ### <a name="will-skype-room-systems-v1-be-updated-to-support-microsoft-teams-meetings"></a>Skype Room Systems V1 は Microsoft Teams 会議をサポートするように更新されますか? 
 
@@ -126,3 +124,6 @@ Skype Rooms Systems で Teams の会議をサポートすると発表しまし�
 
 Microsoft は、Office 365 管理センター内に IT 専門家向けの新しい管理ポータルを立ち上げることを計画しています。 Skype for Business 管理コンソールと同様に、ワンストップ機能を備えたこの新しいポータルは、新しいエクスペリエンスを管理するための単一の場所となります。 2018 年度初めに予定されているこのポータルの初回リリースは、Teams のみを使用するお客様向けの企業対応ポリシー モデルを通して、Teams の既存の管理インターフェースに取って代わる管理機能をサポートするように設計されています。 このポータルにより、Microsoft はカスタムのプレゼンス、チャット、アプリ、会議、ボイスのポリシーを作成し、これらのポリシーを Teams ユーザーに割り当てることができるようになります。 
 
+### <a name="can-i-use-microsoft-teams-on-surface-hub"></a>Microsoft Teams を Surface Hub で使用できますか?
+
+Teams の操作や機能の多くは、Edge ブラウザーを通して現在 Surface Hub でも利用できます。 お使いの Surface Hub のようこそ画面からサインインして、Edge を開き、**teams.microsoft.com** と入力して自身のチーム、チャネル、ドキュメント、会話、会議にアクセスします。 Surface Hub は Teams 会議をサポートしており、将来的には Surface Hub でのさらに統合された Teams エクスペリエンスで、より詳細に共有することができるようになる予定です。   
