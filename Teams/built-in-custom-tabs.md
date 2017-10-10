@@ -14,40 +14,40 @@ ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/22/2017
 ---
-<a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a><span data-ttu-id="e1a69-103">Microsoft Teams で組み込みタブとカスタム タブを使用する</span><span class="sxs-lookup"><span data-stu-id="e1a69-103">Use built-in and custom tabs in Microsoft Teams</span></span>
+<a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a><span data-ttu-id="dca72-103">Microsoft Teams で組み込みタブとカスタム タブを使用する</span><span class="sxs-lookup"><span data-stu-id="dca72-103">Use built-in and custom tabs in Microsoft Teams</span></span>
 ==================================================
 
-<span data-ttu-id="e1a69-p101">タブを使用すると、チーム メンバーがチャネル内の専用キャンバス上でサービスにアクセスすることができます。この機能では、提供されているツールやデータを使って直接に作業でき、チャネルの状況に応じてそれらのツールやデータについての会話することができます。すべての新しいチャネルには、次の画像に示す 2 つのタブが既定で用意されます。</span><span class="sxs-lookup"><span data-stu-id="e1a69-p101">Tabs allow team members to access services on a dedicated canvas within a channel. This lets the team work directly with the tools and data you provide, and to have conversations about them, in the channel’s context. With every new channel, two tabs are provisioned by default, as listed and shown in the image, below:</span></span>
+<span data-ttu-id="dca72-p101">タブを使用すると、チーム メンバーがチャネル内の専用キャンバス上でサービスにアクセスすることができます。この機能では、提供されているツールやデータを使って直接に作業でき、チャネルの状況に応じてそれらのツールやデータについての会話することができます。すべての新しいチャネルには、次の画像に示す 2 つのタブが既定で用意されます。</span><span class="sxs-lookup"><span data-stu-id="dca72-p101">Tabs allow team members to access services on a dedicated canvas within a channel. This lets the team work directly with the tools and data you provide, and to have conversations about them, in the channel’s context. With every new channel, two tabs are provisioned by default, as listed and shown in the image, below:</span></span>
 
--   <span data-ttu-id="e1a69-107">会話</span><span class="sxs-lookup"><span data-stu-id="e1a69-107">Conversations</span></span>
+-   <span data-ttu-id="dca72-107">会話</span><span class="sxs-lookup"><span data-stu-id="dca72-107">Conversations</span></span>
 
--   <span data-ttu-id="e1a69-108">ファイル</span><span class="sxs-lookup"><span data-stu-id="e1a69-108">Files</span></span>
+-   <span data-ttu-id="dca72-108">ファイル</span><span class="sxs-lookup"><span data-stu-id="dca72-108">Files</span></span>
 
 ![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
 
-1.  <span data-ttu-id="e1a69-109">所有者とチーム メンバーは各チャネルにタブを追加して、クラウド サービスとの統合を図ることができます。</span><span class="sxs-lookup"><span data-stu-id="e1a69-109">Owners and team members can add additional tabs, to each channel, to help integrate their cloud services.</span></span>
+1.  <span data-ttu-id="dca72-109">所有者とチーム メンバーは各チャネルにタブを追加して、クラウド サービスとの統合を図ることができます。</span><span class="sxs-lookup"><span data-stu-id="dca72-109">Owners and team members can add additional tabs, to each channel, to help integrate their cloud services.</span></span>
 
-2.  <span data-ttu-id="e1a69-p102">Excel、PowerPoint、Word、PDF ファイルをタブに変換するには、まず最初に [**ファイル**] タブにアップロードする必要があります。既にアップロードしているファイルは、次に示すように単一のクリックでタブに変換できます。</span><span class="sxs-lookup"><span data-stu-id="e1a69-p102">Excel, PowerPoint, Word and PDF files must be uploaded to the **Files tab** before they can be converted to tabs. Alternatively, any existing uploaded, files can be converted into tabs with a single click, as shown below.</span></span>
+2.  <span data-ttu-id="dca72-p102">Excel、PowerPoint、Word、PDF ファイルをタブに変換するには、まず最初に [**ファイル**] タブにアップロードする必要があります。既にアップロードしているファイルは、次に示すように単一のクリックでタブに変換できます。</span><span class="sxs-lookup"><span data-stu-id="dca72-p102">Excel, PowerPoint, Word and PDF files must be uploaded to the **Files tab** before they can be converted to tabs. Alternatively, any existing uploaded, files can be converted into tabs with a single click, as shown below.</span></span>
 
     ![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 
-3.  <span data-ttu-id="e1a69-112">交換される情報の安全性を確保するため、Web サイト や URL は **https 接頭辞** で始まる必要があります。</span><span class="sxs-lookup"><span data-stu-id="e1a69-112">To add a website, the URL must start with an **https prefix,** so that any information exchanged remains secure.</span></span>
+3.  <span data-ttu-id="dca72-112">交換される情報の安全性を確保するため、Web サイト や URL は **https 接頭辞** で始まる必要があります。</span><span class="sxs-lookup"><span data-stu-id="dca72-112">To add a website, the URL must start with an **https prefix,** so that any information exchanged remains secure.</span></span>
 
-4.  <span data-ttu-id="e1a69-113">チーム メンバーがチャネルにカスタム タブを追加しようとすると、詳細な手順が提供されます。</span><span class="sxs-lookup"><span data-stu-id="e1a69-113">Detailed instructions are provided when a team member attempts to add a custom tab into their channel.</span></span>
+4.  <span data-ttu-id="dca72-113">チーム メンバーがチャネルにカスタム タブを追加しようとすると、詳細な手順が提供されます。</span><span class="sxs-lookup"><span data-stu-id="dca72-113">Detailed instructions are provided when a team member attempts to add a custom tab into their channel.</span></span>
 
-5.  <span data-ttu-id="e1a69-114">チャネルにカスタム タブを追加すると、**タブの会話**が作成され、チーム メンバーはそこでコンテンツに関する集中的なディスカッションを行うことができます。</span><span class="sxs-lookup"><span data-stu-id="e1a69-114">When a Custom tab is added into a channel, a **Tab conversation** is created that allows team members to have focused discussions about the content.</span></span>
+5.  <span data-ttu-id="dca72-114">チャネルにカスタム タブを追加すると、**タブの会話**が作成され、チーム メンバーはそこでコンテンツに関する集中的なディスカッションを行うことができます。</span><span class="sxs-lookup"><span data-stu-id="dca72-114">When a Custom tab is added into a channel, a **Tab conversation** is created that allows team members to have focused discussions about the content.</span></span>
 
     ![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
 
-6.  <span data-ttu-id="e1a69-p103">ユーザーが最も必要とするデータや頻繁に使用するデータに簡単にアクセスし管理できるようにするために、追加のタブを導入できます。たとえば、Power BI レポート、ダッシュボード、トレーニング ビデオを公開する [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) ビデオ チャネルをタブとして追加できます。</span><span class="sxs-lookup"><span data-stu-id="e1a69-p103">Additional tabs can be added to channels to help users easily access and manage the data they need or interact with the most. This can be a Power BI report, a dashboard, or even a [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) video channel where you publish training videos.</span></span>
+6.  <span data-ttu-id="dca72-p103">ユーザーが最も必要とするデータや頻繁に使用するデータに簡単にアクセスし管理できるようにするために、追加のタブを導入できます。たとえば、Power BI レポート、ダッシュボード、トレーニング ビデオを公開する [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) ビデオ チャネルをタブとして追加できます。</span><span class="sxs-lookup"><span data-stu-id="dca72-p103">Additional tabs can be added to channels to help users easily access and manage the data they need or interact with the most. This can be a Power BI report, a dashboard, or even a [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) video channel where you publish training videos.</span></span>
 
     ![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 
-<a name="develop-custom-tabs"></a><span data-ttu-id="e1a69-117">カスタム タブを開発する</span><span class="sxs-lookup"><span data-stu-id="e1a69-117">Develop custom tabs</span></span>
+<a name="develop-custom-tabs"></a><span data-ttu-id="dca72-117">カスタム タブを開発する</span><span class="sxs-lookup"><span data-stu-id="dca72-117">Develop custom tabs</span></span>
 -------------------
 
-<span data-ttu-id="e1a69-118">組み込みタブに加え、独自のタブを簡単に設計して開発できます。Microsoft Teams に統合し、コミュニティのメンバーと共有することもできます。</span><span class="sxs-lookup"><span data-stu-id="e1a69-118">In addition to the built-in tabs, organizations can easily design and develop their own tabs, that can be integrated into Microsoft Teams, or shared with the rest of the community.</span></span>
+<span data-ttu-id="dca72-118">組み込みタブに加え、独自のタブを簡単に設計して開発できます。Microsoft Teams に統合し、コミュニティのメンバーと共有することもできます。</span><span class="sxs-lookup"><span data-stu-id="dca72-118">In addition to the built-in tabs, organizations can easily design and develop their own tabs, that can be integrated into Microsoft Teams, or shared with the rest of the community.</span></span>
 
-<span data-ttu-id="e1a69-119">Microsoft Developer Network には、独自のタブの設計と作成に関する[詳細な手順](https://go.microsoft.com/fwlink/?linkid=855786)が提供されています。Microsoft が開発した[サンプルのタブ](https://go.microsoft.com/fwlink/?linkid=855787)をダウンロードして展開してください。</span><span class="sxs-lookup"><span data-stu-id="e1a69-119">The Microsoft Developer Network provides [detailed instructions](https://go.microsoft.com/fwlink/?linkid=855786) to design and build your own tabs; and download and deploy [sample tabs](https://go.microsoft.com/fwlink/?linkid=855787) developed by Microsoft.</span></span>
+<span data-ttu-id="dca72-119">Microsoft Developer Network には、独自のタブの設計と作成に関する[詳細な手順](https://go.microsoft.com/fwlink/?linkid=855786)が提供されています。Microsoft が開発した[サンプルのタブ](https://go.microsoft.com/fwlink/?linkid=855787)をダウンロードして展開してください。</span><span class="sxs-lookup"><span data-stu-id="dca72-119">The Microsoft Developer Network provides [detailed instructions](https://go.microsoft.com/fwlink/?linkid=855786) to design and build your own tabs; and download and deploy [sample tabs](https://go.microsoft.com/fwlink/?linkid=855787) developed by Microsoft.</span></span>
 
 ![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
