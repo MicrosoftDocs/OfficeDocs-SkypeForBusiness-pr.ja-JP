@@ -39,8 +39,8 @@
 ## [Teams でのアプリの管理設定](admin-settings.md)
 
 # セキュリティとコンプライアンス
-## [Microsoft Teams での ID モデルと認証](identify-models-authentication.md)
 ## [Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)
+## [Microsoft Teams での ID モデルと認証](identify-models-authentication.md)
 ## [Teams でイベントの監査ログを検索する](audit-log-events.md)
 ## [Teams のコンテンツに対して電子情報開示の調査を行う](eDiscovery-investigation.md)
 ## [Teams のコンテンツ検索を使用する](content-search.md)
