@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams とそのインフラストラクチャについて、および Office 365 と組み合わせた Teams の使用について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 319b2483b12e130fe6de48bc5b311d79362dddf7
-ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
+ms.openlocfilehash: b19e75db5f83403c7381046595d07e445a13cb0d
+ms.sourcegitcommit: a052a9d4db0a543f491bbd4708ca5a453145e2ef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 10/21/2017
 ---
 <a name="overview-of-microsoft-teams"></a>Microsoft Teams の概要
 ===========================
@@ -107,3 +107,11 @@ Office 365 の各アプリケーションの一般的な使用例を示します
 -   ファイルの保存、チームのニュース、ページ、リストなどに関して、すべての Microsoft Team に対して自動的にプロビジョニングされる強力な SharePoint チームサイト。
 
 -   [Teams との SharePoint Online と OneDrive for Business の連携](SharePoint-OneDrive-interact.md)をご覧ください。
+
+## <a name="what-happened-to-the-teams-admin-faq"></a>Teams 管理者のよくあるご質問 (FAQ) はどうなりましたか?
+
+Teams 管理者のよくあるご質問 (FAQ) は、最初に Teams をリリースした時点では便利でしたが、次第に「散らかった引き出し」のような状態になり、特定の情報を見つけ出すのが難しくなってしまいました。 このため、よくあるご質問 (FAQ) は廃止して、お客様が現在参照されているこの Teams のドキュメンテーションに FAQ に関する有益な情報を統合しました。 よくあるご質問 (FAQ) に記載されていた情報はコンテキストに応じてこのドキュメンテーションですべて見つかります。
+
+ここで見つけることができない情報を探す場合は、以下にある [**コメント**] セクションにその内容を入力してお知らせください。 いただいたコメントに対しては、24 時間以内に対応するよう努めます。
+
+なお、****[Skype for Business から Teams への移行](FAQ-journey.md)に関するよくあるご質問 (FAQ) は現在もご利用いただけます。 

@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "財務、イベント計画、販売など、多岐にわたる要件で利用できるさまざまなチーム、チャネル、アプリについて紹介します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 36ccd06e1a26d273c285a77e1fa86ca03d6b2698
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 1c73bc8aed92557e3a18837d6f252ce0590c5ad1
+ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/22/2017
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要
 =================================================
@@ -23,7 +23,7 @@ ms.lasthandoff: 09/22/2017
 
     -   チームは、招待されたユーザーに対してのみ、プライベートとして作成されます。
 
-    -   また、チームは、組織内の参加可能なすべての人 (最大で 999 人のメンバー) に対して、パブリックでオープンなものとして作成されます。
+    -   また、チームは、組織内の参加可能なすべての人 (最大で 2500 人のメンバー) に対して、パブリックでオープンなものとして作成されます。
 
 -   **チャネル**は、チーム内の専用セクションで、チームで機能しているすべてのことについて、たとえば特定のトピック、プロジェクト、分野などの別に会話をまとめ、保存します。
 

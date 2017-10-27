@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "ネットワーク要件、帯域幅要件、その他の考慮事項といった Microsoft Teams ネットワークの準備と管理について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 9572b6ff52631bc41b57c8a4a44191ee79caee8e
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 79e7cd9e9ebef793c138e9482c7bc56c692e4ed1
+ms.sourcegitcommit: a052a9d4db0a543f491bbd4708ca5a453145e2ef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/21/2017
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する
 =================================================
@@ -29,7 +29,7 @@ Microsoft Teams は 3 つの形態のトラフィックを組み合わせて使�
 
 |  |  |
 |---------|---------|
-|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image1.png)<br></br>重要    |現時点では、クライアント間のリアルタイム メディアに関しては機能の類似性が存在しません。デスクトップ クライアント (Windows/Mac) ではピアツーピアと会議メディア (デスクトップ共有を含む) の両方がサポートされていますが、モバイル クライアントではピアツーピアの音声のみがサポートされています。         |
+|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image1.png)<br></br>重要    |現在、iOS と Android モバイル デバイスでは会議がサポートされていますが、Windows Phone ではサポートされていません (Windows Phone でのサポートは準備中です)。       |
 
 Microsoft Teams でリアルタイム メディアの最適な操作性を実現するには、Office 365 のネットワーク要件を満たす必要があります (詳しくは、「[Skype for Business Online におけるメディアの品質とネットワーク接続性のパフォーマンス](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US)」をご覧ください)。
 

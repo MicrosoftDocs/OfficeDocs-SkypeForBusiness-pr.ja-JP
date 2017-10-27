@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Office 365 を使用する組織で Microsoft Teams をセットアップする方法について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d149586ffe7f01aafef627f7016a4a6dba5418d8
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 5a35ad50fdbd1c99bfeb11b9f90948ef7490f8fc
+ms.sourcegitcommit: a052a9d4db0a543f491bbd4708ca5a453145e2ef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/21/2017
 ---
 <a name="set-up-microsoft-teams-in-your-office-365-organization"></a>Office 365 を使用する組織で Microsoft Teams をセットアップする
 ======================================================

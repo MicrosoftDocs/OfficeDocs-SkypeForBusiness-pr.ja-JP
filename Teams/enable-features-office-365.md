@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "テナント全体の設定、電子メール統合、アプリ、クラウド ストレージなど、Office 365 を使用する組織で有効に設定できるすべての Microsoft Teams 機能について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: f61e0618f81e0eb8921ceb27d989c609f01356a4
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: e789e83e02f226d09c67fece89b72ed52aee5711
+ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/22/2017
 ---
 <a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>Office 365 を使用する組織で Microsoft Teams の機能を有効にする
 ======================================================
@@ -102,7 +102,7 @@ Microsoft Teams でチームを作成できる組織のユーザーを制御で�
 
 既定では、どのユーザーもチームやグループを作成できます。ユーザーは、クライアント (デスクトップ クライアントまたは Web アプリ) の左側にある [チーム] を選択し、クライアントの下部のチーム リストの下にある [チームを作成] を選択して、チームを作成することができます。
 
-現在、Office 365 テナントが所有できるチームの既定の最大数は 500,000 です。グローバル管理者はチームを無制限に作成できます。1 人のユーザーが作成できるチームの数は 250 です。チーム所有者は 999 人のメンバーをチームに追加できます。
+現在、Office 365 テナントが所有できるチームの既定の最大数は 500,000 です。グローバル管理者はチームを無制限に作成できます。1 人のユーザーが作成できるチームの数は 250 です。チーム所有者は 2500 人のメンバーをチームに追加できます。
 
 ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image8.png)
 

@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: msteams
 description: "配布リストをチームに取り込んだり、メール対応セキュリティ グループを追加したりなどの操作を行うことで、Microsoft Teams を介して Office 365 グループを強化する方法について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 55f979fbc07465cd56b9ee3c27f799d4b4e54767
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: c39a1098e15f8656dad71ea85d069a46c642d73c
+ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/22/2017
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>既存の Office 365 グループを Microsoft Teams で強化する
 =======================================================
 
-Microsoft Teams ユーザーは、Microsoft Teams の機能を使って既存の Office 365 グループを強化することができます。Office 365 のパブリック グループでは、そのメンバー数が 999 人以下の場合にグループを強化できます。
+Microsoft Teams ユーザーは、Microsoft Teams の機能を使って既存の Office 365 グループを強化することができます。Office 365 のパブリック グループでは、そのメンバー数が 2500 人以下の場合にグループを強化できます。
 
 この操作を行うには、Microsoft Teams クライアントから新規のチームを作成します。画面下部にある「**はい。Microsoft Teams の機能を追加します。**」を選択し、Microsoft Teams により強化する既存のグループを選択します。既存のグループのメンバーがチームのメンバーとして自動的に追加されます。
 
