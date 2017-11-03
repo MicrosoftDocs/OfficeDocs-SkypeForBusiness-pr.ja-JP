@@ -29,7 +29,6 @@
 ## [Teams で役割と権限を割り当てる](assign-roles-permissions.md)
 ## [Office 365 を使用する組織で Teams の機能を有効にする](enable-features-office-365.md)
 ## [Teams へのユーザー アクセスを管理する](user-access.md)
-## [Teams でのゲスト アクセスを管理する](guest-access.md)
 ## [既存の Office 365 グループを Teams で強化する](enhance-office-365-groups.md)
 ## [Teams で使用する Exchange ハイブリッド展開の組織を構成する](Exchange-hybrid-organization.md)
 ## [Teams SMTP ドメインを承認済みドメインとして Exchange Online に追加する](SMTP-accepted-domain.md)
@@ -38,19 +37,18 @@
 ## [Teams でプライベートのチャットやチャネルのボットを追加する](add-bots.md)
 ## [Teams でのアプリの管理設定](admin-settings.md)
 
-# セキュリティとコンプライアンス
-## [Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)
-## [Microsoft Teams での ID モデルと認証](identify-models-authentication.md)
-## [Teams でイベントの監査ログを検索する](audit-log-events.md)
-## [Teams のコンテンツに対して電子情報開示の調査を行う](eDiscovery-investigation.md)
-## [Teams のコンテンツ検索を使用する](content-search.md)
-## [Teams ユーザーまたはチームに訴訟ホールドを適用する](legal-hold.md)
 
-# トラブルシューティング
-## [Microsoft Teams のサポート リソース](support-resources.md)
-## [Teams のサービス正常性を確認する](service-health.md)
-## [Teams クライアントの接続性の問題をトラブルシューティングする](connectivity-issues.md)
-## [Teams のトラブルシューティングでログ ファイルを使用する](log-files.md)
+# [Teams でのゲスト アクセス](guest-access.md)
+## [ゲストがチームに参加する方法](guest-joins.md)
+## [ゲストのエクスペリエンスについて](guest-experience.md)
+## [Teams での Office 365 の依存関係](Teams-dependencies.md)
+## [Teams へのゲスト アクセスをセットアップする](set-up-guests.md)
+## [Teams でのゲスト アクセスを管理する](manage-guests.md)
+## [チームにゲストを追加する](add-guests.md)
+## [チームのゲスト ユーザーを表示する](view-guests.md)
+## [ゲスト ユーザー情報を編集する](edit-guests-information.md)
+## [PowerShell を使用してチームへのゲスト アクセスを制御する](guest-access-PowerShell.md)
+
 
 # [Cloud Voice の展開](cloud-voice-deployment.md)
 ## [電話会議](audio-conferencing.md)
@@ -69,3 +67,18 @@
 ### [ビデオ - Audio Conferencing in Teams (Teams での電話会議)](audio-conferencing-videos.md)
 ## [Teams のエンド ユーザー トレーニング](enduser-training.md)
 
+
+# セキュリティとコンプライアンス
+## [Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)
+## [Microsoft Teams での ID モデルと認証](identify-models-authentication.md)
+## [Teams でイベントの監査ログを検索する](audit-log-events.md)
+## [Teams のコンテンツに対して電子情報開示の調査を行う](eDiscovery-investigation.md)
+## [Teams のコンテンツ検索を使用する](content-search.md)
+## [Teams ユーザーまたはチームに訴訟ホールドを適用する](legal-hold.md)
+
+
+# トラブルシューティング
+## [Microsoft Teams のサポート リソース](support-resources.md)
+## [Teams のサービス正常性を確認する](service-health.md)
+## [Teams クライアントの接続性の問題をトラブルシューティングする](connectivity-issues.md)
+## [Teams のトラブルシューティングでログ ファイルを使用する](log-files.md)
