@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "主要なステークホルダー、ビジネスの成果、成功の測定方法の特定、チャンピオンの管理を通して Microsoft Teams の変更管理戦略を作成する方法について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 97f835f60777b5c6c907790fabc76dfaeeb1e268
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: faa2bf8247c4b4a3fc8827011423f8205e5c6b35
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Microsoft Teams の変更管理戦略を作成する
 =======================================================
@@ -48,16 +48,16 @@ ms.lasthandoff: 09/22/2017
 
 |  |  |
 |---------|---------|
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |**エグゼキュティブ スポンサー**とは、組織内の主要なリーダーであり、彼らの参加は従業員の適応を促進する上で欠かすことができません。企業文化に対して最も大きな影響力を持つ彼らは新しいテクノロジーや手法の価値や恩恵を積極的に伝えることができます。         |
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**サービス所有者**は、人々がサービスを使用し、そこから価値を引き出せるようにする責任があります。組織内でサービス所有者を設定することは、Office 365 に対して設定したビジネス目標を実現させる上で重要です。         |
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |組織全体ですべてのユーザーから賛同を得ることは困難です。**チャンピオン**は、この困難を軽減し、Office 365 の導入に欠かせない重要な役割を果たします。チャンピオンは、専門性を深めるための取り組み、同僚の指導や支援を惜しまない知識豊富な存在です。彼らのサポートにより、部門やチームで Office 365  の導入を実現することができます。         |
+|![エグゼキュティブ スポンサー アイコン。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |**エグゼキュティブ スポンサー**とは、組織内の主要なリーダーであり、彼らの参加は従業員の適応を促進する上で欠かすことができません。企業文化に対して最も大きな影響力を持つ彼らは新しいテクノロジーや手法の価値や恩恵を積極的に伝えることができます。         |
+|![サービス所有者アイコン。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**サービス所有者**は、人々がサービスを使用し、そこから価値を引き出せるようにする責任があります。組織内でサービス所有者を設定することは、Office 365 に対して設定したビジネス目標を実現させる上で重要です。         |
+|![チャンピオン アイコン。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |組織全体ですべてのユーザーから賛同を得ることは困難です。**チャンピオン**は、この困難を軽減し、Office 365 の導入に欠かせない重要な役割を果たします。チャンピオンは、専門性を深めるための取り組み、同僚の指導や支援を惜しまない知識豊富な存在です。彼らのサポートにより、部門やチームで Office 365  の導入を実現することができます。         |
 
 定期的にステークホルダー会議を行い、プログラムの進捗状況について最新情報を保つようにします。企業文化によっては、フィードバックやディスカッションを行う「コラボレーション審議会」を設立すると有益な場合があります。
 
 
 |  |  |
 |---------|---------|
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image4.png)<br></br>ヒント    |この種類の展開では、変更に対する最大の障害となりえる人たちは同時に最良の協力者となり得ます。早い段階からこうした組織メンバーと関わりを持ち、彼らの懸念や問題に頻繁に耳を傾けることをお勧めします。彼らはキャンペーンの成功率を高める貴重なフィードバックを提供してくれます。         |
+|![ヒント アイコン。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image4.png)<br></br>ヒント    |この種類の展開では、変更に対する最大の障害となりえる人たちは同時に最良の協力者となり得ます。早い段階からこうした組織メンバーと関わりを持ち、彼らの懸念や問題に頻繁に耳を傾けることをお勧めします。彼らはキャンペーンの成功率を高める貴重なフィードバックを提供してくれます。         |
 
 <a name="user-profiles"></a>ユーザー プロファイル
 -------------
@@ -71,7 +71,7 @@ ms.lasthandoff: 09/22/2017
 
 コラボレーション チャンピオンとなり得る個人を特定することで、実装のサポート チームを拡張できます。計画に対する洞察やフィードバックを初期の段階から提供して、コミュニティを形成します。このコミュニティに対して時間、注目、報酬といった何らかの投資を行うと、その見返りとして実装に対するサポートや熱心な活動を得ることができます。
 
-![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image5.png)
+![チャンピオンが行うことができるアクションの図。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image5.png)
 
 チャンピオン プログラムの構築について詳しく知るには、[チャンピオン プログラムを構築する](https://go.microsoft.com/fwlink/?linkid=854665)を行います。
 

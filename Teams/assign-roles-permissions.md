@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "チームを作成する権限など、Microsoft Teams でチーム所有者やメンバーに役割と権限を割り当る方法について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 1ccb0ff3216464aca5a17c3bebeb0e259929e798
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 086f054ff5af2326d106ce5c2088a50106a76462
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="assign-roles-and-permissions-in-microsoft-teams"></a>Microsoft Teams で役割と権限を割り当てる
 ===============================================
@@ -40,7 +40,7 @@ Microsoft Teams には、**所有者**と**メンバー**の 2 つの役割が�
 
 | | |
 |---------|---------|
-|![](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>注意     |所有者は [チームの表示] オプションでメンバーを所有者に昇格させることができます。1 つのチームあたりの所有者の最大数は 10 人です。         |
+|![電球アイコン。](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>注意     |所有者は [チームの表示] オプションでメンバーを所有者に昇格させることができます。1 つのチームあたりの所有者の最大数は 10 人です。         |
 
 <a name="permissions-to-create-teams"></a>チームを作成するための権限
 ---------------------------
@@ -66,7 +66,7 @@ Microsoft Teams には、**所有者**と**メンバー**の 2 つの役割が�
     b.  True でない場合は、Set-MsolCompanySettings コマンドレットを実行して **True に設定**します。
 Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
 
-    c. 詳しくは、「[Office 365 グループの作成を管理する](https://support.office.com/en-us/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-001&ad=US#checkclevelsettings)」をご覧ください。
+    c. 詳細については、「[Office 365 グループの作成を管理する](https://support.office.com/en-us/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-001&ad=US#checkclevelsettings)」をご覧ください。
 
 3.  特定したセキュリティ グループのみにグループ作成の権限を許可するように Office 365 グループの設定を構成します。
 
@@ -84,10 +84,10 @@ Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
 
     New-AzureADDirectorySetting -DirectorySetting $settings
 
-    b. 詳しくは、「[Manage Office 365 Group Creation (Office 365 グループの作成を管理する)](https://support.office.com/en-us/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-US&ad=US#step3)」をご覧ください。
+    b. 詳細については、「[Manage Office 365 Group Creation (Office 365 グループの作成を管理する)](https://support.office.com/en-us/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-US&ad=US#step3)」をご覧ください。
 
 
 ||||
 |---------|---------|---------|
-| ![](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |判断ポイント         |Microsoft Teams のすべてのユーザーがチームを作成できますか (作成できることを推奨)?         |
-| ![](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |次のステップ         |チームを作成できるユーザーを制限する場合は、Office 365 グループの既定の作成権限を変更します。         |
+| ![判断ポイント アイコン。](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |判断ポイント         |Microsoft Teams のすべてのユーザーがチームを作成できますか (作成できることを推奨)?         |
+| ![次のステップ アイコン。](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |次のステップ         |チームを作成できるユーザーを制限する場合は、Office 365 グループの既定の作成権限を変更します。         |

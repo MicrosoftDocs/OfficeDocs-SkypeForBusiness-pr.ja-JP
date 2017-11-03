@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "監査ログから Microsoft Teams データを取得する方法について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 558db88d32229fcaef70ea5278d7437fbea92198
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 90de6c2267eb2828f2f681287d4b43c001d0ceb4
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 ==================================================
@@ -34,9 +34,9 @@ Office 365 全体についての完全なイベント リストは広範囲に�
 
 | |  |
 |---------|---------|
-|![](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>重要     |利用できる監査データは、監査を有効にした時点以降のデータのみです。         |
+|![セキュリティとコンプライアンス センターのホーム ページのスクリーンショット。](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>重要     |利用できる監査データは、監査を有効にした時点以降のデータのみです。         |
 
-![](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image2.png)
+![セキュリティとコンプライアンス センターの [Audit log search (監査ログの検索)] ページのスクリーンショット。](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image2.png)
 
 監査ログから Microsoft Teams データを取得する方法について説明します。
 
@@ -44,7 +44,7 @@ Office 365 全体についての完全なイベント リストは広範囲に�
 
     a.  Microsoft Teams では、選択可能な監査アクティビティを次のように定義しています。
 
-![](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
+![セキュリティとコンプライアンス センターの [Audit log search (監査ログの検索)] ページのスクリーンショット。](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
 
 2.  関心のあるアクティビティを選択したら、Microsoft Teams 情報の取得の対象とするデータ範囲とユーザーを指定します。[**検索**] をクリックして、結果を取得します。
 
@@ -53,4 +53,4 @@ Office 365 全体についての完全なイベント リストは広範囲に�
 
 |  | |
 |---------|---------|
-|![](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>重要 |これまで監査が有効でなかった場合は、監査を有効にしないと、データが監査ログに表示されません。         |
+|![感嘆符アイコン。](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>重要 |これまで監査が有効でなかった場合は、監査を有効にしないと、データが監査ログに表示されません。         |

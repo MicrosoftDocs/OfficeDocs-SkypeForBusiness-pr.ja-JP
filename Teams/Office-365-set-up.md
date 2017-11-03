@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Office 365 を使用する組織で Microsoft Teams をセットアップする方法について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 5a35ad50fdbd1c99bfeb11b9f90948ef7490f8fc
-ms.sourcegitcommit: a052a9d4db0a543f491bbd4708ca5a453145e2ef
+ms.openlocfilehash: 8dafe7ce0f6531f37c85b0fa0bea7c824b276ed2
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/21/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="set-up-microsoft-teams-in-your-office-365-organization"></a>Office 365 を使用する組織で Microsoft Teams をセットアップする
 ======================================================
@@ -25,19 +25,19 @@ Microsoft Teams の有効と無効を切り替えるには、Office 365 テナ�
 
 1.  グローバル管理者の権限を持つアカウントで [Office 365 管理センター](https://go.microsoft.com/fwlink/?linkid=854665)にサインインします。
 
-2.  **[設定] > [サービスとアドイン]** に移動します。
+2.  **[設定]** > **[サービスとアドイン]** に移動します。
 
-    ![](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image1.png)
+    ![Office 365 管理センターの、[サービスとアドイン] が選択されている [設定] セクションのスクリーンショット。 ](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image1.png)
 
 3.  [サービスとアドイン] ページで **[Microsoft Teams]** をクリックします。
 
-    ![](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
+    ![[Microsoft Teams] が選択されている [サービスとアドイン] ページのスクリーンショット。](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
 
 4.  組織全体で Microsoft Teams を有効にするには、**トグル**を [**オン**] にし、[**保存**] をクリックします。
 
-    ![](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image3.png)
+    ![トグルがオンに設定されて Microsoft Teams が有効になっていることを示す Microsoft Teams の設定ページのスクリーンショット。](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image3.png)
 
 
 |  | |
 |---------|---------|
-|![](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image4.png)<br></br>注意     |Microsoft Teams のオンとオフの状態を切り替えるテナントレベルの機能は一時的に提供されており、今後廃止される予定です。廃止された後は、ユーザーレベルのライセンスのみで Microsoft Teams へのアクセスを制御します。         |
+|![注意アイコン。](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image4.png)<br></br>注意     |Microsoft Teams のオンとオフの状態を切り替えるテナントレベルの機能は一時的に提供されており、今後廃止される予定です。廃止された後は、ユーザーレベルのライセンスのみで Microsoft Teams へのアクセスを制御します。         |

@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "共存する Skype for Business と Microsoft Teams の使用に関するガイダンス"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 760fa47db7965e0c2a74b01ae25f1d23d37d3180
-ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
+ms.openlocfilehash: b1a635fe4abb607064a0e26240ed58715fa43a8d
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="enable-microsoft-teams-side-by-side-with-skype-for-business"></a>Skype for Business と共存する Microsoft Teams を有効にする 
 =============================================================
@@ -33,7 +33,7 @@ Teams が現在のビジネス要件を満たす場合は、組織における�
 
     IT は、ユーザーに対して Team を段階的に紹介することで共存のエクスペリエンスを制御します。最初に Teams でのプライベート チャット、次に会議のエクスペリエンス、最後に通話のエクスペリエンスというように段階的に新しいチャットベースのコラボレーション ワークスペースを導入します。
 
-![](media/guidance_SkypeforBusiness_image1.png)
+![共存環境でのカスタマーによる 2 つの導入方法の図: 管理下と非管理下](media/guidance_SkypeforBusiness_image1.png)
 
 <a name="side-by-side-benefits-and-considerations"></a>共存の利点と考慮事項
 ----------------------------------------
@@ -103,7 +103,7 @@ Teams が現在のビジネス要件を満たす場合は、組織における�
 ---------------------------------------
 
 
-![](media/guidance_SkypeforBusiness_image4.png)
+![管理下にない共存での移行の図。](media/guidance_SkypeforBusiness_image4.png)
 
 管理下にない共存での移行では、Teams はコラボレーション ソリューション (チャットベースのワークスペース、チャネル、アプリ、その他の Office 365 ワークロードとの統合など) として導入されます。この場合、デスクトップ コンピューター (PC または Mac) やモバイル デバイスでのクライアント ソフトウェアや Web クライアントを使用することになります。
 
@@ -123,9 +123,9 @@ Microsoft は相互運用のエクスペリエンスを継続的に向上させ�
 <a name="managed-side-by-side-customer-journey"></a>管理下にある共存での移行
 -------------------------------------
 
-![](media/guidance_SkypeforBusiness_image2.png)
+![管理下にある共存での移行の図。](media/guidance_SkypeforBusiness_image2.png)
 
-Teams の導入に対する制御を強めたい組織は、管理下にある共存での移行を開始します。
+Teams の導入に対する制御を強めたい組織では、管理下にある共存での移行を開始します。
 
 -   この移行の**最初のステップ**では、最新のコラボレーション要件 (チャットベースのワークスペース、チャネル、アプリ、その他の Office 365 ワークロードとの統合など) に範囲を絞った Teams の制限付きパイロットを実施します。 Teams で臨時のチャネル会議やプライベート チャットも有効にして、パイロット ユーザーに Teams 会議とプライベート チャットのエクスペリエンスを評価する機会を与えます。 この段階では、Teams の予約済み会議とプライベート通話機能は無効にしておきます。 パイロットを開始するには、「[Pilot Teams with Skype for Business (Skype for Business と共存する Teams のパイロット)](pilot-essentials.md)」をご覧ください。
     

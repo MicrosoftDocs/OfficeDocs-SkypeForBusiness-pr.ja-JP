@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "組み込みタブやカスタム タブを使用して会話、ファイル、地図などの機能を追加する方法について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 2ba0e5d8897b7c77aa4fd9c319c9a77fcf2129b9
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 377ad8a0746d958e3a7a3341cce3773e9bd122f9
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Microsoft Teams で組み込みタブとカスタム タブを使用する
 ==================================================
@@ -23,25 +23,25 @@ ms.lasthandoff: 09/22/2017
 
 -   ファイル
 
-![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
+![Marketing チームの [会話] セクションのスクリーンショット](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
 
 1.  所有者とチーム メンバーは各チャネルにタブを追加して、クラウド サービスとの統合を図ることができます。
 
 2.  Excel、PowerPoint、Word、PDF ファイルをタブに変換するには、まず最初に [**ファイル**] タブにアップロードする必要があります。既にアップロードしているファイルは、次に示すように単一のクリックでタブに変換できます。
 
-    ![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
+    ![PowerPoint ファイルが選択された状態の [ファイル] タブのスクリーンショット。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 
-3.  交換される情報の安全性を確保するため、Web サイト や URL は **https 接頭辞** で始まる必要があります。
+3.  交換される情報の安全性を確保するため、Web サイト や URL は **https 接頭辞**で始まる必要があります。
 
 4.  チーム メンバーがチャネルにカスタム タブを追加しようとすると、詳細な手順が提供されます。
 
 5.  チャネルにカスタム タブを追加すると、**タブの会話**が作成され、チーム メンバーはそこでコンテンツに関する集中的なディスカッションを行うことができます。
 
-    ![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
+    ![ウィンドウの右側にあるタブの会話が含まれているカスタム タブのスクリーンショット。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
 
 6.  ユーザーが最も必要とするデータや頻繁に使用するデータに簡単にアクセスし管理できるようにするために、追加のタブを導入できます。たとえば、Power BI レポート、ダッシュボード、トレーニング ビデオを公開する [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) ビデオ チャネルをタブとして追加できます。
 
-    ![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
+    ![タブにある色々なコンテンツの 3 つのスクリーンショット](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 
 <a name="develop-custom-tabs"></a>カスタム タブを開発する
 -------------------
@@ -50,4 +50,4 @@ ms.lasthandoff: 09/22/2017
 
 Microsoft Developer Network には、独自のタブの設計と作成に関する[詳細な手順](https://go.microsoft.com/fwlink/?linkid=855786)が提供されています。Microsoft が開発した[サンプルのタブ](https://go.microsoft.com/fwlink/?linkid=855787)をダウンロードして展開してください。
 
-![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
+![Microsoft Teams のサンプル カスタム タブのスクリーンショット。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)

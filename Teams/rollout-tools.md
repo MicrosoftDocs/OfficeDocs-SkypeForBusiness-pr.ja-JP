@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "電子メールのテンプレート、スタートアップガイド、Customer Success Kit のリソースなど、Microsoft Teams のロールアウトをサポートするツールについて説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d1b55c00109f60005fe7813bcfb82c4e56ed5aef
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: db70e78e57895497183d20e99282ccc1e7654e1d
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>Microsoft Teams のロールアウトをサポートするツールを入手する
 =================================================
@@ -27,6 +27,6 @@ Microsoft Teams は、コラボレーションを促進するよう設計され�
 
 ||||
 |---------|---------|---------|
-|![](media/Get_tools_to_support_a_rollout_of_Microsoft_Teams_image1.png)     | 判断ポイント        | <ul><li>お客様の変更管理の戦略を教えてください。</li><li>他のテクノロジーのロールアウトにおいて、組織はどのように変更管理に対応したかを教えてください。</li><li>組織での Teams の成功を左右するエグゼキュティブ スポンサー、チャンピオン、サービス所有者/IT 管理者を教えてください。</li><li>パイロット グループのメンバーを教えてください。</li></ul>  |
-|![](media/Get_tools_to_support_a_rollout_of_Microsoft_Teams_image2.png)     |次のステップ | <ul><li>ベスト プラクティスを使用して Microsoft Teams の変更管理と導入の戦略を確立します。</li><li>チャンピオン、チーム リーダーに戦略、Customer Success Kit、スタートアップガイドを紹介し、Microsoft Teams 専門の内部チャンピオン チームを構築します。</li></ul> |
+|![判断ポイント アイコン。](media/Get_tools_to_support_a_rollout_of_Microsoft_Teams_image1.png)     | 判断ポイント        | <ul><li>お客様の変更管理の戦略を教えてください。</li><li>他のテクノロジーのロールアウトにおいて、組織はどのように変更管理に対応したかを教えてください。</li><li>組織での Teams の成功を左右するエグゼキュティブ スポンサー、チャンピオン、サービス所有者/IT 管理者を教えてください。</li><li>パイロット グループのメンバーを教えてください。</li></ul>  |
+|![次のステップ アイコン。](media/Get_tools_to_support_a_rollout_of_Microsoft_Teams_image2.png)     |次のステップ | <ul><li>ベスト プラクティスを使用して Microsoft Teams の変更管理と導入の戦略を確立します。</li><li>チャンピオン、チーム リーダーに戦略、Customer Success Kit、スタートアップガイドを紹介し、Microsoft Teams 専門の内部チャンピオン チームを構築します。</li></ul> |
 

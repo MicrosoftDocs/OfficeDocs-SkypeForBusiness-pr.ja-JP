@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "財務、イベント計画、販売など、多岐にわたる要件で利用できるさまざまなチーム、チャネル、アプリについて紹介します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 1c73bc8aed92557e3a18837d6f252ce0590c5ad1
-ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
+ms.openlocfilehash: a25a53dc9abd7f77e90cc8d63762934f80991e89
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要
 =================================================
@@ -31,7 +31,7 @@ ms.lasthandoff: 10/22/2017
 
     -   チャネルは、タブ、コネクタ、ボットを含むアプリにより拡張できます。
 
-![](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
+![チームとチャネルが Microsoft Teams 内でどのように編成されるかを示す階層図。](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
 
 ユーザーを Microsoft Teams に関与させるために鍵となる初期段階の計画アクティビティは、日々の生活で Microsoft Teams がどのようにコラボレーションを深めているのかについて、洞察と理解を促進することです。
 
@@ -45,7 +45,7 @@ ms.lasthandoff: 10/22/2017
 Microsoft Teams は、縦割り組織を解体して機能横断型チームを促進することに優れています。このため、ユーザーは縦割り組織ではなく機能的なチームとして考える意識が高まります。
 
 
-|チームのタイプ  |考えられるチャネル  |アプリ (タブ![](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/コネクタ![](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/ボット![](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
+|チームのタイプ  |考えられるチャネル  |アプリ (タブ ![タブ アイコン](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/コネクタ ![コネクタ アイコン](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/ボット ![ボット アイコン](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
 |販売     |年次販売会議<br></br> 四半期ビジネス レビュー<br></br> 月次売上パイプライン レビュー<br></br> 売上戦略 |Power BI<br></br>Trello<br></br>CRM<br></br>サマライズ ボット         |
 |広報     |プレス リリース<br></br>ニュースおよび更新情報<br></br>ファクト チェック         |RSS フィード<br></br>Twitter         |

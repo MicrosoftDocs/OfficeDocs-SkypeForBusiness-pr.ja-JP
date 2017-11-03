@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams とそのインフラストラクチャについて、および Office 365 と組み合わせた Teams の使用について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: b19e75db5f83403c7381046595d07e445a13cb0d
-ms.sourcegitcommit: a052a9d4db0a543f491bbd4708ca5a453145e2ef
+ms.openlocfilehash: 10d4297f8b4cfcf3bf28a2a64177f078130166eb
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/21/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="overview-of-microsoft-teams"></a>Microsoft Teams の概要
 ===========================
@@ -63,7 +63,7 @@ Office 365 グループは Azure Active Directory (Azure AD) に保存された 
 
 Office 365 の各アプリケーションの一般的な使用例を示します。詳細な使用方法については、[FastTrack Productivity Library](https://go.microsoft.com/fwlink/?linkid=854630) にアクセスしてください。
 
-![](media/Overview_of_Microsoft_Teams_image1.png)
+![Microsoft Teams アイコン。](media/Overview_of_Microsoft_Teams_image1.png)
 
 -   同じグループのメンバーとのリアルタイムでのコラボレーションを望んでいるユーザーおよびチームにより利用されます。
 
@@ -71,15 +71,15 @@ Office 365 の各アプリケーションの一般的な使用例を示します
 
 -   ユーザーがワークスペースに幅広いツール (Planner、Power BI、GitHub など) を接続できるようにします。
 
-![](media/Overview_of_Microsoft_Teams_image2.png)
+![Microsoft Outlook アイコン。](media/Overview_of_Microsoft_Teams_image2.png)
 
 -   使い慣れた電子メール環境や、より丁寧で真面目な方法で、共同作業を行うことを希望するユーザーにより利用されます。
 
 -   電子メールの使用が必要な固有のビジネス プロセスを提供して、組織の内外の文書や情報を伝達します。
 
--   周辺のワークグループまたは組織の外側にいるユーザーとコミュニケーションを取ったり接続します。
+-   周辺のワークグループまたは組織の外側にいるユーザーと通信したり接続します。
 
-![](media/Overview_of_Microsoft_Teams_image3.png)
+![Yammer アイコン。](media/Overview_of_Microsoft_Teams_image3.png)
 
 -   組織全体のユーザーと接続して、プラクティスのコミュニティを中心にまとまり、ベスト プラクティスを共有することをサポートするために利用されます。
 
@@ -87,9 +87,9 @@ Office 365 の各アプリケーションの一般的な使用例を示します
 
 -   リーダーとより広範な従業員ベースの間の双方向の会話により、幹部従業員のエンゲージメントを促進します
 
--   第一線の労働力を鼓舞して、知識と専門性を共有・享受します
+-   第一線の労働力を鼓舞して、知識と専門性を共有、享受します
 
-![](media/Overview_of_Microsoft_Teams_image4.png)
+![Skype for Business アイコン。](media/Overview_of_Microsoft_Teams_image4.png)
 
 -   お客様/パートナーとの内部および外部向けのリアルタイムの通信、コラボレーションに利用されます。
 
@@ -98,7 +98,7 @@ Office 365 の各アプリケーションの一般的な使用例を示します
 -   法人向けのテレフォニー機能を提供します。
 
 
-![](media/Overview_of_Microsoft_Teams_image5.png)
+![Microsoft SharePoint アイコン。](media/Overview_of_Microsoft_Teams_image5.png)
 
 -   サイトおよびポータル (会社ニュースとお知らせ、検索、およびドキュメントのコラボレーションなど) で利用されます。
 

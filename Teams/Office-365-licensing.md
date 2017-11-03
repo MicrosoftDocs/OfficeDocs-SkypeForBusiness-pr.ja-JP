@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "さまざまな Office 365 ライセンスについて、どのライセンスで Microsoft Teams のユーザーが有効になるかについて、およびライセンスを有効にしたり無効にしたりする方法について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d3c49ab67d3f3b80f8501941a2223b7a4435f514
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: bb78ffd86183ae35800fc709ad74df691a43a4e8
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Microsoft Teams 用の Office 365 ライセンス
 ========================================
@@ -30,7 +30,7 @@ Microsoft Teams のユーザーを有効にする Office 365 サブスクリプ�
 
 |||
 |---------|---------|
-|![](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image1.png)<br></br>注意     |Microsoft Teams は非営利団体でも利用できます。政府機関のライセンスは現時点ではサポートされていませんが、将来的にサポートするための調査が実施されています。         |
+|![注意アイコン。](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image1.png)<br></br>注意     |Microsoft Teams は非営利団体でも利用できます。政府機関のライセンスは現時点ではサポートされていませんが、将来的にサポートするための調査が実施されています。         |
         
 
 
@@ -45,6 +45,6 @@ Microsoft Teams はスタンドアロンのサービスとして利用できま�
 
 既定では、Microsoft Teams ライセンスは資格のある Office 365 サブスクリプションが割り当てられたすべてのユーザーで有効になります。
 
-![](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image2.png)
+![Microsoft Teams が有効になっていることを示す Office 365 管理センターのライセンス セクションの設定を示すスクリーンショット。](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image2.png)
 
 Microsoft Teams は組織全体に対して有効または無効にすることができます (既定では有効)。**組織の一部のみに対して Microsoft Teams をオンにすることはできません。**組織で、Microsoft Teams のパイロットを一部のユーザーのみで 運用し、その他のユーザーに関しては Microsoft Teams へのアクセスを積極的に制限する場合は、パイロット グループに属さないすべてのユーザーに対して Microsoft Teams ライセンスを無効にする必要があります。

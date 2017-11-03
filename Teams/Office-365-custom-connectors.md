@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "コネクタは、頻繁に使用するサービスからのコンテンツや更新をチャネルに直接配信して、チームを最新の状態に保ちます。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 08f2526686c894e44193fb53d51f9f59d6960279
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 0b5bc5e3d78b9810a8f1db43122a0e4c877035a7
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Microsoft Teams で Office 365 コネクタとカスタム コネクタを使用する
 =======================================================
@@ -27,19 +27,19 @@ Office 365 コネクタは、Microsoft Teams と Office 365 グループの両�
 
 1.  チャネルにコネクタを追加するには、チャネル名の横にある**楕円 (…)** をクリックし、[**コネクタ**] をクリックします。
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
+    ![チャネル名および [コネクタ] オプションが選択された Teams インターフェイスのスクリーンショット。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
 
 2.  ユーザーは利用可能なさまざまなコネクタから選択できます。コネクタを選択して [**追加**] をクリックします。
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
+    ![追加可能なコネクタを示す [コネクタ] ダイアログのスクリーンショット。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
 
 3.  選択したコネクタについて必須情報を入力し、[**保存**] をクリックします。各コネクタは、正常に機能するためにさまざまな必須情報を要求します。一部のコネクタでは、コネクタの構成ページに掲載されるリンクを使用してサービスにサインインする必要があります。
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)
+    ![RSS コネクタの [構成] ページのスクリーンショット。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)
 
 4.  コネクタによって提供されるデータはチャネルに自動的に投稿されます。
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
+    ![チャネル内の会話を示す Teams インターフェイスのスクリーンショット。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
 
 <a name="develop-custom-connectors"></a>カスタム コネクタを開発する
 -----------------------------
@@ -48,18 +48,18 @@ Office 365 コネクタは、Microsoft Teams と Office 365 グループの両�
 
 1.  **着信 Web フック**をその他のコネクタと同じ方法で追加します。
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image5.png)
+    ![着信 Web フック コネクタを追加するオプションのスクリーンショット。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image5.png)
 
 2.  Web フックを作成するには、**名前**を指定し、必要に応じて Web フックの画像を更新します。続けて [**作成**] をクリックします。
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image6.png)
+    ![着信 Web フック コネクタの [構成] ページのスクリーンショット。 ](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image6.png)
 
 3.  このチャネルにデータをプッシュするアプリケーションは Web フック コネクタの URL を必要とします。**Web フック** を作成したときに、**固有の URL** が作成されます。この URL を開発者と共有して、開発者が必要に応じてアプリケーションによるデータのプッシュを構成できるようにします。
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image7.png)
+    ![Web フックの固有 URL のスクリーンショット。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image7.png)
 
 4.  外部アプリケーションによってコネクタへのデータのプッシュが実行されると、**コネクタ カード** メッセージと呼ばれる特別なメッセージがチャネルの会話リストに表示されます。
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image8.png)
+    ![コネクタ カード メッセージを示す Teams インターフェイスのスクリーンショット。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image8.png)
 
 開発者は、Microsoft Team の Web フック アドレスへの簡潔な JSON ペイロードを含む HTTP 要求を送信することで、このカードを作成するようにアプリケーションを構成することができます。この Web フック アドレスは、ウィザードによって提供される当該エンドポイントの固有 URL です。開発者は、Microsoft Developer Network の「[Getting started with Office 365 Connectors for Microsoft Teams (Microsoft Teams 用の Office 365 コネクタの使用を開始する)](https://go.microsoft.com/fwlink/?linkid=855783)」(英語版) で詳細な手順とコネクタのサンプルを参照できます。その他にも「[Outlook でグループにアプリを接続します](https://support.office.com/en-us/article/Connect-apps-to-your-groups-in-Outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab)」および「[Office Dev Center – Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=855784)」というリソースが提供されています。

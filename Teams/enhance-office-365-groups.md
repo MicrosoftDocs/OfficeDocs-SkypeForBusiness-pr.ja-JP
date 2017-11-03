@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "配布リストをチームに取り込んだり、メール対応セキュリティ グループを追加したりなどの操作を行うことで、Microsoft Teams を介して Office 365 グループを強化する方法について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: c39a1098e15f8656dad71ea85d069a46c642d73c
-ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
+ms.openlocfilehash: 80e76b5dbdaddaca2d4c917e33a3d0870626042e
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>既存の Office 365 グループを Microsoft Teams で強化する
 =======================================================
@@ -24,11 +24,11 @@ Microsoft Teams ユーザーは、Microsoft Teams の機能を使って既存の
 
 |  |  |
 |---------|---------|
-|![](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image1.png)<br></br>重要     |Microsoft Teams を使用して既存のグループを強化するためのアクセス許可は Office 365 グループの所有者のみが有します。         |
+|![重要アイコン。](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image1.png)<br></br>重要     |Microsoft Teams を使用して既存のグループを強化するためのアクセス許可は Office 365 グループの所有者のみが有します。         |
 
 ユーザーは配布リストをチームに取り込むこともできます。それを行うと、配布リストのメンバーがチームに追加されます。この処理は一度のみ実行されるため、その後に配布リスト内のグループ メンバーの変更があった場合でもチームには反映されません。 
 
-![](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image2.png)
+![配布リストとそのメンバーのチームへの取り込みを示す一連のスクリーンショット。](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image2.png)
 
 チームのメンバーとして、メール対応のセキュリティ グループを追加することもできます。ただし、後でセキュリティ グループにさらに多くのメンバーを追加しても、それらのメンバーはチームに自動追加されません。新しいメンバーをチームに個別に追加するか、セキュリティ グループをチームに再追加する必要があります。(セキュリティ グループを再追加する場合は、重複を削除してメンバーが一度だけ追加されるようにします。)
 

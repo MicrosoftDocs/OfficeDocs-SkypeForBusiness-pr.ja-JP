@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Skype for Business の使用を継続しながら、Microsoft Teams パイロットを開始して Teams が組織に提供するすべての機能を探索するためのガイダンスを提供します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 4340e3fa6b6ebdaf20105cfa568d17d9d3802b4e
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: c78e687535a47e5a267e087b39253c793b4b3d8a
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Skype for Business とともに Microsoft Teams のパイロットを実施する
 ============================================
@@ -30,9 +30,9 @@ Teams の導入に向けた行程および将来的な推奨事項はパイロ�
 <a name="get-started"></a>開始する
 ===========
 
-組織の準備状況に適合するようパイロットを設計することで、組織全体でのロールアウトを行う前に、大きな規模で必要となるリソースと手順を現実的に検証できます。  最も現実的な結果を得るため、パイロット プログラムでは、ユーザーによる現在の通信方法およびコラボレーション方法を再現して、Skype for Business と Microsoft Teams の理想的な展開シナリオを検証します。 組織で Skype for Business と Teams の共存または Teams への将来的な移行を計画している場合は、パイロットを実施することで組織にとって最適な移行パスを特定することができます。 *では、はじめましょう。*
+組織の準備状況に適合するようパイロットを設計することで、組織全体でのロールアウトを行う前に、大きな規模で必要となるリソースと手順を現実的に検証できます。  最も現実的な結果を得るため、パイロット プログラムでは、ユーザーによる現在の通信方法およびコラボレーション方法を再現して、Skype for Business と Microsoft Teams の理想的な展開シナリオを検証します。 組織で Skype for Business と Teams の共存または Teams への将来的な移行を計画している場合は、パイロットを実施することで組織にとって最適な移行パスを特定することができます。 *それでは、はじめましょう。*
 
-![](media/pilot_essentials_image3.png)
+![パイロット プロジェクトのプロセス手順の図。](media/pilot_essentials_image3.png)
 
 ## <a name="step-one-define-your-pilot-program-logistics"></a>ステップ 1: パイロット プログラムのロジスティックスを定義する
 

@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams の展開をセットアップする方法について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e5cebc5102cb8a5e43b4542eba0817efe36ac5e4
-ms.sourcegitcommit: a32e7860a34918198ab9fa388f5bb217c15f9e6c
+ms.openlocfilehash: 3ed2ee9377c871b36407c5777f0829e9cd71ade3
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Microsoft Teams の展開の概要
 ========================================
@@ -31,7 +31,7 @@ Microsoft Teams の典型的な展開手順を次に示します。
 
 5.  より広範なロールアウト向けの戦略と学習内容を改良し、活用します。
 
-![](media/Overview_of_a_Microsoft_Teams_deployment_image1.png)
+![Teams への各移行段階を示す図: 技術的および法的な評価、評価と準備、IT パイロット、ビジネス パイロット、最後にロールアウト。](media/Overview_of_a_Microsoft_Teams_deployment_image1.png)
 
 Microsoft Teams の展開では、環境でその使用を開始するに当たって最初に使用する項目に IT パイロットがあります。パイロットを使用すると、Microsoft Teams の計画、提供、運営、さらにビジネス ユーザーへの提供に向けた取り組みを開始できるようチームを支援できます。
 
@@ -44,13 +44,13 @@ Microsoft Teams の展開では、環境でその使用を開始するに当た�
 
 このセットアップの Microsoft Teams は次のようになります。
 
-![](media/Overview_of_a_Microsoft_Teams_deployment_image2.png)
+![Microsoft Teams でのチームとそのチャネルのスクリーンショット。](media/Overview_of_a_Microsoft_Teams_deployment_image2.png)
 
 
 ||||
 |---------|---------|---------|
-|![](media/Overview_of_a_Microsoft_Teams_deployment_image3.png)     |判断ポイント         |IT パイロット用に作成する最初のチームとチャネルを教えてください。         |
-|![](media/Overview_of_a_Microsoft_Teams_deployment_image4.png)     |次のステップ         |IT パイロットの最初のチームとチャネルを文書化します。         |
+|![判断ポイント アイコン。](media/Overview_of_a_Microsoft_Teams_deployment_image3.png)     |判断ポイント         |IT パイロット用に作成する最初のチームとチャネルを教えてください。         |
+|![次のステップ アイコン。](media/Overview_of_a_Microsoft_Teams_deployment_image4.png)     |次のステップ         |IT パイロットの最初のチームとチャネルを文書化します。         |
 
 
  

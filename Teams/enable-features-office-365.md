@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "テナント全体の設定、電子メール統合、アプリ、クラウド ストレージなど、Office 365 を使用する組織で有効に設定できるすべての Microsoft Teams 機能について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e789e83e02f226d09c67fece89b72ed52aee5711
-ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
+ms.openlocfilehash: a336d04bf8a296e608eb80796d16ba1f7dc3ed74
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>Office 365 を使用する組織で Microsoft Teams の機能を有効にする
 ======================================================
@@ -34,19 +34,19 @@ Microsoft Teams 内で Office 365 管理者が有効または無効にできる�
 
 [全般] セクションでは組織の次の設定を構成できます。
 
-> ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image1.png)
+> ![テナント全体にわたる設定の [全般] セクションのスクリーンショット。](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image1.png)
 
 -   **個人プロファイルに組織図を表示する:** この設定を有効にすると、組織図アイコンがユーザーの連絡先カードに表示されます。このアイコンをクリックすると、詳細な組織図が表示されます。
 
-    ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image2.png)
+    ![ユーザーの連絡先カードの [組織図] アイコンのスクリーンショット。](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image2.png)
 
-    ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image3.png)
+    ![組織図のスクリーンショット。](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image3.png)
 
 -   **Microsoft Teams を所有していない受信者に対して Skype for Business を使用する:** この設定を有効にすると、Microsoft Teams のユーザーは組織内で Microsoft Teams が有効でないユーザーに対して Skype for Business 経由で連絡することができます。
 
 -   **T-Bot がプロアクティブにヘルプ メッセージに送るのを許可する:** この設定を有効にすると、T-Bot はプライベート チャット セッションを開始し、Microsoft Teams の使用に関するガイドを提供します。
 
-    ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image4.png)
+    ![Microsoft Teams インターフェイスの T-Bot セクションのスクリーンショット。](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image4.png)
 
 <a name="email-integration"></a>電子メール統合
 -----------------
@@ -55,7 +55,7 @@ Microsoft Teams 内で Office 365 管理者が有効または無効にできる�
 
 [電子メール統合] セクションでは組織の次の設定を構成できます。
 
-   ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image5.png)
+   ![テナント全体の設定の [電子メール統合] セクションのスクリーンショット。](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image5.png)
 
 -   **ユーザーがチャネルにメールを送信するのを許可する:** 有効にすると、メール フックが有効に設定されます。ユーザーは Microsoft Teams のチャネルの電子メール アドレス宛に電子メールを送信することでチャネルにメッセージを投稿できるようになります。
 
@@ -70,10 +70,10 @@ Microsoft Teams の [アプリ] は、チームが関心を持つツールとサ
 
 [**アプリ**] セクションでは、組織の次の設定を構成できます。
 
-![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.png)
+![[アプリ] セクションのスクリーンショット。](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.png)
 
 -   **Microsoft Teams の外部アプリを許可する:** 有効にすると、ユーザーは Office 365 テナントで利用できるタブやボットを 追加することができます。
-![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.2.png)
+![[アプリ] セクションの外部アプリの許可コントロールのスクリーンショット。](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.2.png)
 
 -   **外部アプリのサイドロードを許可する:** 有効にすると、ユーザーはカスタムのボットやタブをインストールして有効にすることができます。
 
@@ -82,7 +82,7 @@ Microsoft Teams の [アプリ] は、チームが関心を持つツールとサ
 
 現時点では、Microsoft Teams のクラウド ストレージ オプションには、Box、Dropbox、Google ドライブ、ShareFile があります。ユーザーは Microsoft Teams チャネルやチャットでクラウド ストレージ サービスを介してファイルをアップロード、共有できます。組織が使用するクラウド ストレージ プロバイダの横にあるトグル スイッチをクリックまたはタップします。
 
-![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
+![[カスタム クラウド ストレージ] セクションのスクリーンショット。](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
 
 <a name="user-settings-by-license"></a>ライセンスでのユーザー設定
 ------------------------
@@ -104,7 +104,7 @@ Microsoft Teams でチームを作成できる組織のユーザーを制御で�
 
 現在、Office 365 テナントが所有できるチームの既定の最大数は 500,000 です。グローバル管理者はチームを無制限に作成できます。1 人のユーザーが作成できるチームの数は 250 です。チーム所有者は 2500 人のメンバーをチームに追加できます。
 
-![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image8.png)
+![[ライセンスでのユーザー設定] セクションのスクリーンショット。](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image8.png)
 
 チャネルは、チームのサブカテゴリーです。チームの誰もがチャネルを追加したり、チャネル内の会話に参加できます。チャネルは、アクティビティや部署用に作成します。会話、ファイル、Wiki は、各チャネルに固有ですが、チーム内の全メンバーが見ることができます。
 
@@ -114,7 +114,7 @@ Microsoft Teams でチームを作成できる組織のユーザーを制御で�
 
 [**通話と会話**] セクションでは、組織の次の設定を構成できます。
 
-> ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
+> ![[通話と会話] セクションのスクリーンショット。](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
 
 -   **Allow scheduling for private meetings (プライベート会議の予約を許可する):** 有効の場合、ユーザーはいずれのチャネルにもリストされていないプライベート会議を予約できます。
 
@@ -134,7 +134,7 @@ Microsoft Teams でチームを作成できる組織のユーザーを制御で�
 
 [メッセージング] セクションでは組織の次の設定を構成できます。
 
-![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image10.png)
+![[メッセージング] セクションのスクリーンショット。](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image10.png)
 
 -   **Giphy を有効にして会話に gif を追加できるようにする:** 有効の場合、ユーザーは会話内でアニメーション画像を使用できます。
 
@@ -161,6 +161,6 @@ Microsoft Teams でチームを作成できる組織のユーザーを制御で�
 
 | |  |  |
 |---------|---------|---------|
-|![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image11.png)     |判断ポイント         |組織で有効にする Microsoft Teams の設定を教えてください。         |
-|![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image12.png)     |次のステップ        |[Microsoft Teams で役割と権限を割り当てる](assign-roles-permissions.md)の表における、これらの決定を文書化します。         |
+|![判断ポイント アイコン。](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image11.png)     |判断ポイント         |組織で有効にする Microsoft Teams の設定を教えてください。         |
+|![次のステップ アイコン。](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image12.png)     |次のステップ        |[Microsoft Teams で役割と権限を割り当てる](assign-roles-permissions.md)の表における、これらの決定を文書化します。         |
 

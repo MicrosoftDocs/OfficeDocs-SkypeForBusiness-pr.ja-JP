@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams で利用できる、Web、デスクトップ (Windows および Mac)、およびモバイル (Android、iOS、Windows Phone) などのさまざまなクライアントを使用する方法について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a23ae445392ee4a122c9b749f1bb0175fab44c11
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 6a1dea833a96781ae89ffb8f822e96b3e8636371
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 ===========================
@@ -41,7 +41,7 @@ Microsoft Teams は、次のブラウザーおよびバージョンをサポー�
 
 | | |
 |---------|---------|
-|![](media/Get_clients_for_Microsoft_Teams_image1.png)<br></br>重要     |Safari はまだサポートされていませんが、まもなく対応します。         |
+|![重要アイコン。](media/Get_clients_for_Microsoft_Teams_image1.png)<br></br>重要     |Safari はまだサポートされていませんが、まもなく対応します。         |
 
 <a name="desktop-clients"></a>デスクトップ クライアント
 ------------------------
@@ -57,7 +57,7 @@ IT 管理者は好みの方法で、System Center Configuration Manager (Windows
 
 | | |
 |---------|---------|
-|![](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>注意    |これらのメカニズムによるクライアントの配布は、Microsoft Teams クライアントの初回インストール時にのみ利用でき、それ以降の更新では利用できません。         |
+|![注意アイコン。](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>注意    |これらのメカニズムによるクライアントの配布は、Microsoft Teams クライアントの初回インストール時にのみ利用でき、それ以降の更新では利用できません。         |
 
 #### <a name="windows"></a>Windows
 
@@ -65,7 +65,7 @@ Windows 用のMicrosoft Teams インストールでは、32 ビットおよび 6
 
 | | |
 |---------|---------|
-|![](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>注意    |Microsoft Teams のアーキテクチャ (32 ビットと 64 ビット) はインストールされている Office のアーキテクチャに依存しません。        |
+|![注意アイコン。](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>注意    |Microsoft Teams のアーキテクチャ (32 ビットと 64 ビット) はインストールされている Office のアーキテクチャに依存しません。        |
 
 Windows クライアントは、ユーザーのプロファイルにある AppData フォルダーに展開されます。ユーザーのローカル プロファイルに展開すると、クライアントは管理者特権を必要とせずにインストール可能になります。Windows クライアントは次の場所にインストールされます。
 
@@ -75,11 +75,11 @@ Windows クライアントは、ユーザーのプロファイルにある AppDa
 
 ユーザーが Microsoft Teams クライアントを使用して初めて通話を開始すると、ユーザーに通信の許可を求める Windows ファイアウォール設定に関する警告が通知される場合があります。警告を受け入れなくても通話は機能するため、このメッセージを無視するように指示される場合があります。
 
-![](media/Get_clients_for_Microsoft_Teams_image3.png)
+![[Windows セキュリティの重要な警告] ダイアログのスクリーンショット。](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 | | |
 |---------|---------|
-|![](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>注意    |Windows ファイアウォール設定は、[キャンセル] の選択によりプロンプトが受け入れられなかった場合でも変更されます。TCP および UDP プロトコルの両方に関するブロック アクションで、teams.exe に関する2 つの着信ルールが作成されます。        |
+|![注意アイコン。](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>注意    |Windows ファイアウォール設定は、[キャンセル] の選択によりプロンプトが受け入れられなかった場合でも変更されます。TCP および UDP プロトコルの両方に関するブロック アクションで、teams.exe に関する2 つの着信ルールが作成されます。        |
 
 #### <a name="mac"></a>Mac
 
@@ -105,8 +105,8 @@ Microsoft Teams モバイル アプリのサポートされるモバイル プ�
 
 | | | |
 |---------|---------|---------|
-|![](media/Get_clients_for_Microsoft_Teams_image4.png)      |判断ポイント         |ユーザーが適切な Microsoft Teams クライアントをデバイスにインストールすることを妨げる制限事項はありますか?         |
-|![](media/Get_clients_for_Microsoft_Teams_image5.png)     |次のステップ         |組織によってソフトウェアのインストールが制限されている場合、処理が Microsoft Teams に対応していることを確認してください。注意: 管理者権限は、PC クライアント インストールでは必要ありませんが、Mac へのインストールでは必要になります。         |
+|![判断ポイント アイコン。](media/Get_clients_for_Microsoft_Teams_image4.png)      |判断ポイント         |ユーザーが適切な Microsoft Teams クライアントをデバイスにインストールすることを妨げる制限事項はありますか?         |
+|![次のステップ アイコン。](media/Get_clients_for_Microsoft_Teams_image5.png)     |次のステップ         |組織によってソフトウェアのインストールが制限されている場合、処理が Microsoft Teams に対応していることを確認してください。注意: 管理者権限は、PC クライアント インストールでは必要ありませんが、Mac へのインストールでは必要になります。         |
 
 
   <span id="_Hlk477176062" class="anchor"></span>  判断ポイント   ユーザーが適切な Microsoft Teams クライアントをデバイスにインストールすることを妨げる制限事項はありますか?
@@ -126,4 +126,4 @@ Microsoft Teams モバイル アプリのサポートされるモバイル プ�
 
 現在、IT 管理者がクライアント側の通知設定を設定するオプションはありません。通知オプションはすべてユーザーによって設定されます。次の図に、既定のクライアント設定の概要を示します。
 
-![](media/Get_clients_for_Microsoft_Teams_image6.png)
+![通知設定のスクリーンショット。](media/Get_clients_for_Microsoft_Teams_image6.png)

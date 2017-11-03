@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "ネットワーク要件、帯域幅要件、その他の考慮事項といった Microsoft Teams ネットワークの準備と管理について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 79e7cd9e9ebef793c138e9482c7bc56c692e4ed1
-ms.sourcegitcommit: a052a9d4db0a543f491bbd4708ca5a453145e2ef
+ms.openlocfilehash: 81285ee2ff2a2f7939a025609656ae723947fb73
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/21/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する
 =================================================
@@ -29,7 +29,7 @@ Microsoft Teams は 3 つの形態のトラフィックを組み合わせて使�
 
 |  |  |
 |---------|---------|
-|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image1.png)<br></br>重要    |現在、iOS と Android モバイル デバイスでは会議がサポートされていますが、Windows Phone ではサポートされていません (Windows Phone でのサポートは準備中です)。       |
+|![重要アイコン。](media/Prepare_your_organizations_network_for_Microsoft_Teams_image1.png)<br></br>重要    |現在、iOS と Android モバイル デバイスでは会議がサポートされていますが、Windows Phone ではサポートされていません (Windows Phone でのサポートは準備中です)。       |
 
 Microsoft Teams でリアルタイム メディアの最適な操作性を実現するには、Office 365 のネットワーク要件を満たす必要があります (詳しくは、「[Skype for Business Online におけるメディアの品質とネットワーク接続性のパフォーマンス](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US)」をご覧ください)。
 
@@ -49,7 +49,7 @@ Microsoft Teams でリアルタイム メディアの最適な操作性を実現
 
 |  |  |
 |---------|---------|
-|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image2.png)<br></br>注意    |これは Skype for Business を展開するカスタマ向けに推奨される Network Readiness Assessment と同じです。         |
+|![注意アイコン。](media/Prepare_your_organizations_network_for_Microsoft_Teams_image2.png)<br></br>注意    |これは Skype for Business を展開するカスタマ向けに推奨される Network Readiness Assessment と同じです。         |
 
 <a name="bandwidth-requirements"></a>帯域幅要件
 ----------
@@ -60,7 +60,7 @@ Microsoft Teams の帯域幅の計算は複雑であるため、それを支援�
 
 |  |  |
 |---------|---------|
-|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image2.png)<br></br>注意    |必要とされる帯域幅が利用できない場合は、Microsoft Teams 内部のメディア スタックにより、利用可能な帯域幅の不足量を補うため音声/ビデオ セッションの品質が低下し、その結果、通話や会議の品質も影響を受けます。Microsoft Teams クライアントはビデオの品質よりもオーディオの品質を優先します。したがって、必要とされる帯域幅を利用可能な状態にすることが非常に重要になります。       |
+|![注意アイコン。](media/Prepare_your_organizations_network_for_Microsoft_Teams_image2.png)<br></br>注意    |必要とされる帯域幅が利用できない場合は、Microsoft Teams 内部のメディア スタックにより、利用可能な帯域幅の不足量を補うため音声/ビデオ セッションの品質が低下し、その結果、通話や会議の品質も影響を受けます。Microsoft Teams クライアントはビデオの品質よりもオーディオの品質を優先します。したがって、必要とされる帯域幅を利用可能な状態にすることが非常に重要になります。       |
 
 
 |アクティビティ  |ダウンロードの帯域幅  |アップロードの帯域幅  |トラフィック フロー |
@@ -103,6 +103,6 @@ Microsoft Teams を実行するすべてのクライアント コンピュータ
 
 |  |  |  |
 |---------|---------|---------|
-|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |判断ポイント         |リアルタイム メディアをサポートするためにネットワーク能力を評価したことはありますか?<br></br>ネットワークが正しく評価されていない場合やリアルタイム メディアをサポートできないことが事前に分かっている場合は、ビデオや画面共有の機能を無効にして、ネットワークへの影響を軽減し、Teams エクスペリエンスの質を向上させることができます。         |
-|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |次のステップ         |ネットワークの品質が不明な場合: skypeoperationsframework.com で入手できる Network Readiness Assessment のガイダンスに従って、お客様のネットワークでリアルタイム メディアに対する準備が整っているかどうかを判別してください。.<br></br>ネットワークの品質が乏しい場合: ネットワーク改善の手順を実行して、高品質なリアルタイム メディアに適した環境を整えてください。<br></br>十分なネットワーク品質: すべての IP アドレスやポートに正しくアクセスできることを確認してください。           |
+|![判断ポイント アイコン。](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |判断ポイント         |リアルタイム メディアをサポートするためにネットワーク能力を評価したことはありますか?<br></br>ネットワークが正しく評価されていない場合やリアルタイム メディアをサポートできないことが事前に分かっている場合は、ビデオや画面共有の機能を無効にして、ネットワークへの影響を軽減し、Teams エクスペリエンスの質を向上させることができます。         |
+|![次のステップ アイコン。](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |次のステップ         |ネットワークの品質が不明な場合: skypeoperationsframework.com で入手できる Network Readiness Assessment のガイダンスに従って、お客様のネットワークでリアルタイム メディアに対する準備が整っているかどうかを判別してください。.<br></br>ネットワークの品質が乏しい場合: ネットワーク改善の手順を実行して、高品質なリアルタイム メディアに適した環境を整えてください。<br></br>十分なネットワーク品質: すべての IP アドレスやポートに正しくアクセスできることを確認してください。           |
 

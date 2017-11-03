@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams での電話会議の展開についての実践的なガイダンスを提供します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 5442f5bf11540f5429566bc683afaeb3a24ff4ac
-ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
+ms.openlocfilehash: c6791646b58111a9785430b6541c57972a15ab20
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議
 =====================================
@@ -638,8 +638,7 @@ _表 7 電話会議サービス サイト有効化リストの例_
 [電話会議ライセンス](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7?ui=en-US&rs=en-US&ad=US) (旧名: Skype for Business PSTN 会議ライセンス) は、Office 365 E5 サブスクリプション プランの一部、または Office 365 E1 や Office 365 E3 サブスクリプション プランへのアドオンとして利用できます。
 
 > [!NOTE]
-> Teams での PSTN またはダイヤルイン会議は、サードパーティ<sup></sup>の電話会議プロバイダー (ACP) をサポートしません。
-> <br>Skype for Business Online PSTN 会議を使用している場合は、Teams ですぐに電話会議を利用できます。
+> Teams での PSTN またはダイヤルイン会議は、サードパーティ<sup></sup>の電話会議プロバイダー (ACP) をサポートしません。<br>Skype for Business Online PSTN 会議を使用している場合は、Teams ですぐに電話会議を利用できます。
 
 無料電話の会議ブリッジ電話番号を提供したり、国際電話番号への会議ダイヤルアウトをサポートするには、組織の[通信クレジット](https://support.office.com/article/What-is-PSTN-Consumption-billing-524dbea7-117f-493d-8005-6461f7f10059)を設定する必要があります。
 
@@ -1098,7 +1097,7 @@ Office 365 の電話システム機能には、次の 2 種類のダイヤル �
 
 ユーザーに有効なダイヤル プランを割り当てるには、サービス ダイヤル プラン (ユーザーが Office 365 を使用する場所に基づく) とテナント ダイヤル プラン (テナント - グローバル ダイヤル プランまたはテナント - ユーザー ダイヤル プランのいずれか) を組み合わせます。
 
-![](media/audio_conferencing_image8.png)
+![サービス ダイヤル プランとテナント ダイヤル プランの 3 つの組み合わせを表に示します。](media/audio_conferencing_image8.png)
 
 各テナント ダイヤル プランには最大で 25 の正規化ルールがあります。このため、サービス ダイヤル プランの一部として既に利用可能な正規化ルールとの重複を回避する必要があります。
 

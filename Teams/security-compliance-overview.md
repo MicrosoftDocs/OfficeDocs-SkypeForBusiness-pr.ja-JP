@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "監査および報告、コンプライアンスのコンテンツ検索、電子情報開示などを含む、Microsoft Teams のセキュリティとコンプライアンス機能の概要"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 3321dee954b9861054886677b2835c689035888c
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: d42457165fae8e23181d7e7f4fe50ea30938dfd3
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンスの概要
 ======================================================
@@ -68,7 +68,7 @@ Teams はチーム全体および組織全体の 2 要素認証、Active Directo
 
 次の図は、Exchange と SharePoint の両方へのチーム データのワークフローを示しています。
 
-![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
+![Exchange と SharePoint への Teams データのワークフローの図。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
 
 
 > [!IMPORTANT]
@@ -87,8 +87,8 @@ Teams はチーム全体および組織全体の 2 要素認証、Active Directo
 
 | | | |
 |---------|---------|---------|
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |判断ポイント         |組織で必要とされているセキュリティとコンプライアンスの機能を教えてください。組織はセキュリティとコンプライアンスのビジネス要件を満たすために必要なライセンスを所有していますか?         |
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |次のステップ         |次の表に示す必須のセキュリティとコンプライアンスの機能を文書化します。         |
+|![判断ポイント アイコン。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |判断ポイント         |組織で必要とされているセキュリティとコンプライアンスの機能を教えてください。組織はセキュリティとコンプライアンスのビジネス要件を満たすために必要なライセンスを所有していますか?         |
+|![次のステップ アイコン。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |次のステップ         |次の表に示す必須のセキュリティとコンプライアンスの機能を文書化します。         |
 
 <a name="licensing"></a>ライセンス
 ---------------
@@ -109,8 +109,8 @@ Teams はチーム全体および組織全体の 2 要素認証、Active Directo
 
 | |  |  |
 |---------|---------|---------|
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |判断ポイント         |お客様の組織はセキュリティとコンプライアンスのビジネス要件を満たすために必要なライセンスを所有していますか?         |
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |次のステップ         |お客様の組織の現在のライセンスを調べて、コンプライアンスとセキュリティのすべてのビジネス要件を満たしていることを確認します。         |
+|![判断ポイント アイコン。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |判断ポイント         |お客様の組織はセキュリティとコンプライアンスのビジネス要件を満たすために必要なライセンスを所有していますか?         |
+|![次のステップ アイコン。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |次のステップ         |お客様の組織の現在のライセンスを調べて、コンプライアンスとセキュリティのすべてのビジネス要件を満たしていることを確認します。         |
 
 上記の機能を有効にする前に、Office 365 管理センターのセキュリティ/コンプライアンス センターにアクセスしてください。 既定では、テナントの管理者がアクセス権を持ちます。
 

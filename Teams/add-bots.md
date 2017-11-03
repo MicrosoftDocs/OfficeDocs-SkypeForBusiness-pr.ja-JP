@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "プライベート チャットとチャネル用に Microsoft Teams にボットを追加する方法、カスタム ボットを作成する方法、プライベート チャット用に独自のボットをサイド ロードする方法について紹介します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 905a105fba269aebb2b01cbccc1a47e7667ca341
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: b1473a621f9f40ef3220546988db0635721acb7c
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>Microsoft Teams でプライベートのチャットやチャネルのボットを追加する
 ==========================================================
@@ -32,21 +32,21 @@ ms.lasthandoff: 09/22/2017
 
 2.  または、ボットを検索するには、[**チャット**] に移動して、[**連絡先**] を検索して、[**アプリを検出**] をクリックします。
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image1.png)
+![検索の結果として [アプリを検出] が示された状態の [検索] ウィンドウのスクリーンショット。](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image1.png)
 
 3.  以下に示すとおり、会話をしたい**ボット**を選択します。
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image2.png)
+![[ボット] タブが選択された状態の [アプリを検出] ウィンドウのスクリーンショット。](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image2.png)
 
 4.  選択したら、ボットに**権限**を与え、**ボットをプライベート チャットで**使用したいかどうかを選択するか、ボットを使用する**チーム**を選択します。
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image3.png)
+![AzureBot アプリ ページのスクリーンショット。](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image3.png)
 
 5.  ボットをチームのチャネル内で使用する場合は、[**View Team and Bots (チームとボットを表示)**] をクリックするだけです。このようにすることで、その他のボットを見つけることができます。
 
 6.  ボットはいつでもチームから削除できます。この場合は、[**View Team and Bots (チームとボットを表示)**] をクリックして、すべてのボットを表示してから、目的のボットを [**削除**] します。
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image4.png)
+![AzureBot の説明が示されている [ボット] タブのスクリーンショット。](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image4.png)
 
 <a name="create-custom-bots-for-microsoft-teams"></a>Microsoft Teams のカスタム ボットの作成
 --------------------------------------
@@ -62,10 +62,10 @@ Microsoft ボット フレームワークを使用して、LOB アプリケー�
 
 1.  ボットを作成したら、作成したボットの [**Bot Dashboard (ボットのダッシュボード)**] [ページ](https://go.microsoft.com/fwlink/?linkid=854374)に移動して、[**詳細**] で [**Microsoft App ID (Microsoft アプリ ID)**] をコピーします。
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
+![[Microsoft App ID (Microsoft アプリ ID)] が強調表示された状態のボットの詳細ページのスクリーンショット。](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
 
 2.  Microsoft Teams の [**チャット**] ウィンドウで [**Add chat icon (チャット アイコンの追加)**] を選択します。[**To: (相手)**] にはボットの [**Microsoft App ID (Microsoft アプリ ID)**] を貼り付けます。
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image6.png)
+![チャットを追加するアイコンと、[Microsoft App ID (Microsoft アプリ ID)] が強調表示された [To (相手)] 行が含まれているチャット ウィンドウのスクリーンショット。](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image6.png)
 
 3.  アプリ ID は [**ボット名**] になります。この手順の実行後にボットとのチャット会話を開始できます。
