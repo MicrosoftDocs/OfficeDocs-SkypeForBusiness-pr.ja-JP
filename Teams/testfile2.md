@@ -1,10 +1,10 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.openlocfilehash: 43a5673787dd3e8d40b8bd1c732499d781ed1bce
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: afe1e1eef51399bf5ff9843aef19ad3e265cf4c3
+ms.sourcegitcommit: a315fbbb6a5337c32c9312550ee05fd9185020db
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/02/2017
 ---
 # <a name="welcome-to-sharepoint-and-onedrive"></a>SharePoint および OneDrive にようこそ
 
@@ -18,3 +18,5 @@ SharePoint で推奨されるソリューションについては、「[技術�
 
 
 ![ポスターのサムネイル](media/testfile.png)
+
+[アクセシビリティについてのガイダンスもチェックしてください](https://technet.microsoft.com/en-us/library/mt790686(v=office.16).aspx)

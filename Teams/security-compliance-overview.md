@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "監査および報告、コンプライアンスのコンテンツ検索、電子情報開示などを含む、Microsoft Teams のセキュリティとコンプライアンス機能の概要"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d42457165fae8e23181d7e7f4fe50ea30938dfd3
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: 6cca28ee5cd96d24e4b0da0a29748e0cf383eb0c
+ms.sourcegitcommit: a315fbbb6a5337c32c9312550ee05fd9185020db
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/02/2017
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンスの概要
 ======================================================
@@ -119,7 +119,14 @@ Teams はチーム全体および組織全体の 2 要素認証、Active Directo
 <a name="location-of-data-in-microsoft-teams"></a>Microsoft Teams のデータの場所
 -----------------------------------
 
-Teams 内のデータはテナント アフィニティに基づく地域に存在します。 現在、Teams は南北アメリカ、EMEA、および APAC 地域をサポートしています。 将来的に、Teams はデータが (地域内だけではなく) 国内に存在する GoLocal サポートを提供するようになります。 更新情報については、随時 [*Office 365 ロードマップ*](https://go.microsoft.com/fwlink/?linkid=855778)をご覧ください。
+Teams 内のデータはテナント アフィニティに基づく地域に存在します。 現在、Teams は南北アメリカ、EMEA、および APAC 地域をサポートしています。 
+
+2017 年 11 月 1 日時点では、英国においては新しいテナントに対してのみ Teams によるデータ常駐が提供されます。 新しいテナントは、Microsoft Teams に 1 人のユーザーもサインインさせていない任意のテナントとして定義されます。
+
+> [!NOTE]
+> 英国内の既存のテナントは、(2018 年に予定されている) 移行プランが公開されるまで EMEA に残り続けます。
+
+詳細については、Microsoft Teams 技術コミュニティの英国のデータ常駐の立ち上げに関する[ブログ投稿](https://go.microsoft.com/fwlink/p/?linkid=862275)をご覧ください。
 
 <a name="privacy-in-microsoft-teams"></a>Microsoft Teams でのプライバシー
 --------------------------
