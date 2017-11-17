@@ -3,11 +3,11 @@ layout: HubPage
 hide_bc: True
 title: "Microsoft Teams のドキュメンテーションと実践的なガイダンス"
 description: "Microsoft Teams のドキュメンテーションと実践的なガイダンス"
-ms.openlocfilehash: 8de4d4b699a2d82bff424557e1746e1c1c9b80c5
-ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
+ms.openlocfilehash: 5015a5b5908f835f03530dac9f159b8aa3b8531c
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 11/08/2017
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -20,12 +20,12 @@ ms.lasthandoff: 09/28/2017
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsC">
                             <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/Teams-overview">
+                                <a href="/MicrosoftTeams/Teams-overview">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
+                                                    <div class="cardImage bgdAccent1">
                                                         <img src="https://docs.microsoft.com/media/hubs/microsoftteamshome/teams-get-started.svg" alt="" />
                                                     </div>
                                                 </div>
@@ -39,18 +39,18 @@ ms.lasthandoff: 09/28/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="http://skypeandteams.fasttrack.microsoft.com/">
+                                <a href="/MicrosoftTeams/journey-skypeforbusiness-teams">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/media/hubs/microsoftteamshome/teams-fast-track.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="https://docs.microsoft.com/media/hubs/microsoftteamshome/teams-skype-to-teams.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>展開の FastTrack</h3>
-                                                    <p>Teams のロールアウトを支援するベスト プラクティス、ツール、&amp; アシスタンスを入手する</p>
+                                                    <h3>Skype for Business から Teams への移行</h3>
+                                                    <p>Teams への最適な移行パスを探索するためのガイダンスやツールを見つける</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -58,18 +58,18 @@ ms.lasthandoff: 09/28/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/support-resources">
+                                <a href="/MicrosoftTeams/change-management-strategy">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/media/hubs/microsoftteamshome/teams-troubleshoot.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="https://docs.microsoft.com/media/hubs/microsoftteamshome/teams-change-management.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>問題をトラブルシューティングする &amp; サポートを利用する</h3>
-                                                    <p>一般的な問題を解決するためのヘルプを受け、サポートを見つける</p>
+                                                    <h3>導入 &amp; 変更管理</h3>
+                                                    <p>お使いの Teams のロールアウトをサポートするツールや、Teams の変更管理戦略を作成できるようにするためのツールを入手します</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -77,12 +77,12 @@ ms.lasthandoff: 09/28/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment">
+                                <a href="/MicrosoftTeams/cloud-voice-deployment">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
+                                                    <div class="cardImage bgdAccent1">
                                                         <img src="https://docs.microsoft.com/media/hubs/microsoftteamshome/teams-voice-deployment.svg" alt="" />
                                                     </div>
                                                 </div>
@@ -96,18 +96,18 @@ ms.lasthandoff: 09/28/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/itadmin-readiness">
+                                <a href="/MicrosoftTeams/security-compliance-overview">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/media/hubs/microsoftteamshome/teams-training.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="https://docs.microsoft.com/media/hubs/microsoftteamshome/teams-security-compliance.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>トレーニング &amp; ビデオを見つける</h3>
-                                                    <p>Teams トレーニングを見つける (自分用およびユーザー用)</p>
+                                                    <h3>セキュリティ &amp; コンプライアンス</h3>
+                                                    <p>Teams は Office 365 クラウド上に構築されているため、必要とされるエンタープライズグレードのセキュリティとコンプライアンスの機能を備えています</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -115,18 +115,18 @@ ms.lasthandoff: 09/28/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
+                                <a href="/MicrosoftTeams/itadmin-readiness">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/media/hubs/microsoftteamshome/teams-skype-to-teams.svg" alt="" />
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="https://docs.microsoft.com/media/hubs/microsoftteamshome/teams-training.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Skype for Business から Teams への移行</h3>
-                                                    <p>Teams への最適な移行パスを探索するためのガイダンスやツールを見つける</p>
+                                                    <h3>トレーニング &amp; ビデオを見つける</h3>
+                                                    <p>Teams トレーニングを見つける (自分用およびユーザー用)</p>
                                                 </div>
                                             </div>
                                         </div>
