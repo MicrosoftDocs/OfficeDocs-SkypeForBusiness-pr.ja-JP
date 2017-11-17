@@ -2,17 +2,17 @@
 title: "Microsoft Teams でイベントの監査ログを検索する | Microsoft サポート"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "監査ログから Microsoft Teams データを取得する方法について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 90de6c2267eb2828f2f681287d4b43c001d0ceb4
-ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
+ms.openlocfilehash: 9d1a1c274ace1e680f890d7fe8abdea52886b073
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 ==================================================

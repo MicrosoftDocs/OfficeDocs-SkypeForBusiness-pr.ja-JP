@@ -2,28 +2,29 @@
 title: "Office 365 を使用する組織で Microsoft Teams の機能を有効にする | Microsoft サポート"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "テナント全体の設定、電子メール統合、アプリ、クラウド ストレージなど、Office 365 を使用する組織で有効に設定できるすべての Microsoft Teams 機能について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a336d04bf8a296e608eb80796d16ba1f7dc3ed74
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: 7c626acc5e9fe4d19d7198ea023df155ff427f40
+ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/11/2017
 ---
 <a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>Office 365 を使用する組織で Microsoft Teams の機能を有効にする
 ======================================================
 
-Microsoft Teams には、テナントレベルで有効または無効にすることができる設定が複数あります。テナントで Microsoft Teams を有効にすると、Microsoft Teams が有効なすべてのユーザーにもテナントレベルの設定が継承されます。
+Microsoft Teams には、テナント レベルで有効または無効にすることができる設定が複数あります。テナントで Teams を有効にすると、Teams が有効なすべてのユーザーにもテナント レベルの設定が継承されます。
 
-Microsoft Teams 内で Office 365 管理者が有効または無効にできる機能をリストを次に示します。
+Teams 内で Office 365 管理者が有効または無効にできる機能のリストを次に示します。
 
 特に明記されていない場合を除き、オプションの規定値はオンです。
 
-注意: Office 365 管理者はいつでも Office 365 管理センターを介して Microsoft Teams をオフにすることができます。Teams をオフにした場合でも、Microsoft Teams の有効なライセンスを所有するユーザーには Teams アプリ タイルがそのまま表示され続けます。ユーザーからライセンスを削除する方法について詳しくは、「Microsoft Teams ライセンスへのユーザー アクセスの管理」をご覧ください。Teams を無効にすると、Microsoft Teams クライアントからのアクセスが遮断されます。ただし、SharePoint や OneDrive を介したファイルなど、その他のクライアントやサービスから利用できるデータには継続的に利用できます。チームを明示的に削除しない限り、すべてのデータはそのまま残ります。
+> [!NOTE]
+> Office 365 管理者はいつでも Office 365 管理センターを介して Microsoft Teams をオフにすることができます。Teams をオフにした場合でも、Microsoft Teams の有効なライセンスを所有するユーザーには Teams アプリ タイルがそのまま表示され続けます。ユーザーからライセンスを削除する方法について詳しくは、「[Microsoft Teams へのユーザー アクセスを管理する](user-access.md)」をご覧ください。Teams を無効にすると、Teams クライアントからのアクセスが遮断されます。ただし、SharePoint や OneDrive を介したファイルなど、その他のクライアントやサービスから利用できるデータには継続的に利用できます。チームを明示的に削除しない限り、すべてのデータはそのまま残ります。
 
 <a name="tenant-wide-settings"></a>テナント全体の設定 
 ---------------------

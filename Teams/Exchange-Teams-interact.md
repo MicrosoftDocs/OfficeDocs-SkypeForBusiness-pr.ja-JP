@@ -2,17 +2,17 @@
 title: "Exchange と Microsoft Teams の連携 | Microsoft サポート"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "チームの作成、チームへの参加、チャネルの作成など、Microsoft Teams と様々な Exchange のセットアップとの間に存在する機能について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 9ca8b0489b5428c938eb7f62101b03fd9f442cbc
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: a7d3bed465d1a13e35bbbe92c5fd2b8237e199b9
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携 
 =========================================

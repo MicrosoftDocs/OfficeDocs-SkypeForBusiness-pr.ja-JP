@@ -2,17 +2,17 @@
 title: "Microsoft Teams でのアプリの管理設定 | Microsoft サポート"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "外部アプリのサイドロードなど、Microsoft Teams でのアプリの許可と有効化について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 33907b6e63d621bb0de48b38161d75f08c6dda4e
-ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
+ms.openlocfilehash: 3e385c1a9a3175d4aaef6ea0eb52d6278c538d94
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft Teams でのアプリの管理設定
 ==========================================

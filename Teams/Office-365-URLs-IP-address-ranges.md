@@ -2,17 +2,17 @@
 title: "Office 365 の URL と IP アドレスの範囲 | Microsoft サポート"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Office 365 URL と IP アドレスの範囲を正しく構成する方法と、Microsoft Teams サービスとの接続で利用可能な転送プロキシのバイパス方法と、ネットワークとセキュリティ ポリシーの要件について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a226a2d541119c61a3538c86f3502defb739147d
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 4f356a19ee7df9bd7a21867fdcbff6087a5b4aaa
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="office-365-urls-and-ip-address-ranges"></a>Office 365 の URL と IP アドレスの範囲
 =====================================

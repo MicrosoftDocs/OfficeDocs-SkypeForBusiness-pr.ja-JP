@@ -2,17 +2,17 @@
 title: "Microsoft Teams のサポート リソース | Microsoft サポート"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams のサポート リソースのリストは、Microsoft Teams を効率的かつ効果的に使用するために役立ちます。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 2883c0e35f200c2b5a5b5b6da9da0c50b067177d
-ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
+ms.openlocfilehash: 55a5d764acce16ea20eb3504293392d24c4b0e05
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="support-resources-for-microsoft-teams"></a>Microsoft Teams のサポート リソース
 =====================================

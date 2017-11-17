@@ -1,18 +1,18 @@
 ---
 title: "PowerShell を使用してチームへのゲスト アクセスを制御する"
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: LaithAlShamri
+ms.author: laal
+manager: lolaj
 ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 description: "PowerShell を使用して、Microsoft Teams のチームへのゲスト アクセスを許可または拒否できます。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: fd9844d0a72932cb28dca97d8bb8c1c05d0ddfe5
-ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
+ms.openlocfilehash: 563a1a56449be289572020dc226df69795596d1c
+ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 11/11/2017
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>PowerShell を使用してチームへのゲスト アクセスを制御する
 ================================================

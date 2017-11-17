@@ -2,24 +2,24 @@
 title: "Skype for Business とともに Microsoft Teams のパイロットを実施する"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Skype for Business の使用を継続しながら、Microsoft Teams パイロットを開始して Teams が組織に提供するすべての機能を探索するためのガイダンスを提供します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: c78e687535a47e5a267e087b39253c793b4b3d8a
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: 563ade26ec8e9a86806751b19f36548560a264f1
+ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/11/2017
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Skype for Business とともに Microsoft Teams のパイロットを実施する
 ============================================
 
 既存の Skype for Business および Office 365 カスタマーである組織は既に最新のワークプレースへの動きに対応しており、組織のユーザーの創造性、革新性、生産性を向上させています。 Microsoft Teams は、チームワークのコラボレーション ハブ、アプリの統合、ファイル ストレージといった追加の機能によりこうした可能性をさらに広げます。 Skype for Business の現在の機能を Teams の付加価値と組み合わせることにより、ユーザーの作業を変革する強力な通信/コラボレーション ソリューションを実現できます。
 
-Teams の導入に向けた行程および将来的な推奨事項はパイロットの結果に基づきます。 Skype for Business の使用を継続しながら、Teams が組織に提供できるすべての機能を探索することをお勧めします。 Teams と Skype for Business には重複する機能が存在するため、ユーザー パイロットから開始することが重要になります。 パイロットとは、現在の環境で Skype for Business との相互運用性を検証して、どうすれば両方の製品が共存する環境においてエンドユーザーの混乱が最小になりて生産性が最大になるのかを理解することができる、小規模な展開です。
+Teams の導入に向けた行程および将来的な推奨事項はパイロットの結果に基づきます。 Skype for Business の使用を継続しながら、Teams が組織に提供できるすべての機能を探索することをお勧めします。 Teams と Skype for Business には重複する機能が存在するため、ユーザー パイロットから開始することが重要になります。 パイロットとは、現在の環境で Skype for Business との相互運用性を検証して、どうすれば両方の製品が共存する環境においてエンドユーザーの混乱が最小になり生産性が最大になるのかを理解することができる、小規模な展開です。
 
 現在の Skype for Business カスタマー向けに設計されたこのリソースでは、以下の導入ステップを開始するためのガイダンスとベスト プラクティスを紹介します。
 
@@ -79,7 +79,7 @@ Teams の導入に向けた行程および将来的な推奨事項はパイロ�
 <thead>
 <tr class="header">
 <td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left"><strong>次のアクション</strong><ul><li>パイロット プログラム チームに協力を求める</li><li>パイロットの一環としてテストするビジネス シナリオと機能を具体化する</li><li>成功の条件と目標を決定する</li><li>パイロット タイムラインを定義する</li></ul></td>
+<td align="left"><strong>次のアクション:</strong><ul><li>パイロット プログラム チームに協力を求める</li><li>パイロットの一環としてテストするビジネス シナリオと機能を具体化する</li><li>成功の条件と目標を決定する</li><li>パイロット タイムラインを定義する</li></ul></td>
 </tr>
 </thead>
 <tbody>
@@ -141,7 +141,11 @@ Teams の導入に向けた行程および将来的な推奨事項はパイロ�
 
 すべてのロジスティックスの準備が整ったら、パイロットを開始できます。 パイロットの実施には、パイロット ユーザーへの情報伝達、ネットワークと品質の正常性を確認するためのネットワーク/使用量の監視、参加者からのフィードバックの収集、Teams に関する質問のヘルプデスク チケットのレビューが含まれます。
 
-30 日間のパイロットにおける推奨タイムラインを次に示します。
+> [!IMPORTANT]
+> Teams は既定でオンになりますが、パイロットを開始する前に、すべてのパイロット ユーザーが Teams に対して有効になっていることを確認します。 この操作を行う方法については、「[Office 365 を使用する組織で Microsoft Teams の機能を有効にする](enable-features-office-365.md)」をご覧ください。
+> 
+
+30 日間のパイロットでの推奨タイムラインを示します。
 
 -   パイロット開始の 1 週間前: パイロット ユーザーに最初のコミュニケーションを送信
 

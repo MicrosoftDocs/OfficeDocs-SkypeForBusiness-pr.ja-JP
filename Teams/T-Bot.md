@@ -2,17 +2,17 @@
 title: "T-Bot を使用して Microsoft Teams のユーザーをサポートする | Microsoft サポート"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "T-Bot とは、Microsoft Teams の使用方法やその他の様々な質問に対する回答を得ることができる対話型のボットです。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 6f2e7b8d1dacff948e4e421a8586e8670dfbc5ec
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: 4197d90fcdf16a5b90c9eaa0bab92dd5c8a1e692
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="use-t-bot-to-help-users-with-microsoft-teams"></a>T-Bot を使用して Microsoft Teams のユーザーをサポートする
 ============================================

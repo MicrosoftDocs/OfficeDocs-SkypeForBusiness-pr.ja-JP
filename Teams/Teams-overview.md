@@ -2,17 +2,17 @@
 title: "Microsoft Teams の概要 | Microsoft サポート"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams とそのインフラストラクチャについて、および Office 365 と組み合わせた Teams の使用について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 10d4297f8b4cfcf3bf28a2a64177f078130166eb
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: 6f333d50a1f9a30d29c0ea2052372e5cfaf0e053
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="overview-of-microsoft-teams"></a>Microsoft Teams の概要
 ===========================
@@ -114,4 +114,4 @@ Teams 管理者のよくあるご質問 (FAQ) は、最初に Teams をリリー
 
 ここで見つけることができない情報を探す場合は、以下にある [**コメント**] セクションにその内容を入力してお知らせください。 いただいたコメントに対しては、24 時間以内に対応するよう努めます。
 
-なお、[Skype for Business から Teams への移行](FAQ-journey.md)に関するよくあるご質問 (FAQ) は現在もご利用いただけます。 
+なお、[Skype for Business から Teams への移行](FAQ-journey.md)に関するよくあるご質問 (FAQ) **は**現在もご利用いただけます。 

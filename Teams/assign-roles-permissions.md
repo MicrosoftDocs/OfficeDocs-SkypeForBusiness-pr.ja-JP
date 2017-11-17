@@ -2,17 +2,17 @@
 title: "Microsoft Teams で役割と権限を割り当てる | Microsoft サポート"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "チームを作成する権限など、Microsoft Teams でチーム所有者やメンバーに役割と権限を割り当る方法について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 086f054ff5af2326d106ce5c2088a50106a76462
-ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
+ms.openlocfilehash: 9cc8a72cdabacb76638acb689c6622642c524c8e
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="assign-roles-and-permissions-in-microsoft-teams"></a>Microsoft Teams で役割と権限を割り当てる
 ===============================================

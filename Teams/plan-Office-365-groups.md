@@ -2,17 +2,17 @@
 title: "Microsoft Teams でチームを作成するときの Office 365 グループの計画 | Microsoft サポート"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "パブリックまたはプライベート グループの選択、Teams クライアントと Office 365 管理 Web コンソールのどちらを使用するかの選択、会話の使用に関するチームの指導方法といった Office 365 グループの計画について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: c4829acbe141e1ed82b30819cf5d95846f114165
-ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
+ms.openlocfilehash: f52b71ede74edf6de949f5efb8d609cede12c222
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Microsoft Teams でチームを作成するときの Office 365 グループの計画
 ==========================================================
