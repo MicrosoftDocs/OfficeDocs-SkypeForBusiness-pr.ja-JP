@@ -36,6 +36,7 @@
 ## [Teams で Office 365 コネクタとカスタム コネクタを使用する](Office-365-custom-connectors.md)
 ## [Teams でプライベートのチャットやチャネルのボットを追加する](add-bots.md)
 ## [Teams でのアプリの管理設定](admin-settings.md)
+## [Teams 用の PowerShell コマンドレット リファレンス](https://docs.microsoft.com/powershell/module/teams)
 
 
 # [Teams でのゲスト アクセス](guest-access.md)
@@ -54,6 +55,7 @@
 ## [電話会議](audio-conferencing.md)
 ### [構想](audio-conferencing.md#Envision_AudioConferencing)
 ### [計画](audio-conferencing.md#Planning_AudioConferencing)
+### [ビデオ - Audio Conferencing in Teams (Teams での電話会議)](audio-conferencing-videos.md)
 
 # [Skype for Business から Teams への移行](Journey-SkypeforBusiness-Teams.md)
 ## [1 - 現在の Skype for Business 環境を Teams 向けに最適化する](prepare-teams.md)
@@ -64,7 +66,6 @@
 
 # ビデオとトレーニング
 ## [Teams のための IT 管理者の準備状況のリソース](ITAdmin-readiness.md)
-### [ビデオ - Audio Conferencing in Teams (Teams での電話会議)](audio-conferencing-videos.md)
 ## [Teams のエンド ユーザー トレーニング](enduser-training.md)
 
 
@@ -78,7 +79,10 @@
 
 
 # トラブルシューティング
-## [Microsoft Teams のサポート リソース](support-resources.md)
+## [Teams の既知の問題](Known-issues.md)
+## [Teams のサポート リソース](support-resources.md)
 ## [Teams のサービス正常性を確認する](service-health.md)
 ## [Teams クライアントの接続性の問題をトラブルシューティングする](connectivity-issues.md)
 ## [Teams のトラブルシューティングでログ ファイルを使用する](log-files.md)
+
+# [開発者向けの Teams のマニュアル](https://docs.microsoft.com/microsoftteams/platform)

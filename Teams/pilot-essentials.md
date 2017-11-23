@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Skype for Business の使用を継続しながら、Microsoft Teams パイロットを開始して Teams が組織に提供するすべての機能を探索するためのガイダンスを提供します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 563ade26ec8e9a86806751b19f36548560a264f1
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: 4cfbf9fa1e5f06281564e5e9fa61e66aaa9090b3
+ms.sourcegitcommit: 6f66f2a090d9d73d5de29f5273b0dea0a8d1453a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 11/16/2017
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Skype for Business とともに Microsoft Teams のパイロットを実施する
 ============================================
@@ -109,7 +109,7 @@ Teams の導入に向けた行程および将来的な推奨事項はパイロ�
 
 ## <a name="step-three-design-your-test-plan-and-feedback-survey"></a>ステップ 3: テスト計画とフィードバック アンケート調査を設計する
 
-正常に完了したパイロット エクスペリエンスにより、参加者は明確に定義された完了すべきタスクを理解し、フィードバック ループを利用できるようになります。 組織は、一度にすべての機能をパイロットするか、段階的なアプローチ (たとえば、コラボレーション、会議、チャットと通話の順など) を使用するかを選択できます。事前に定義したアンケートを使用すると、パイロットの結果の入手と評価を簡単に行うことができます。アンケートはテスト計画のシナリオや機能に基づいて設計します。
+正常に完了したパイロット エクスペリエンスにより、参加者は明確に定義された完了すべきタスクを理解し、フィードバック ループを利用できるようになります。 実際に生じるシナリオを自分のユーザーに提示するために、日常のアクティビティとの関連性を例示できるよう、タスクをグループにまとめます。 組織では、一度にすべての機能をパイロットするか、段階的なアプローチ (たとえば、最初のパイロット コラボレーション、会議、チャットと通話の順など) を使用するかを選択できます。 進捗状況を追跡して成果を測定するための、オープンなフィードバック チャネルがあることを確認します。 事前に定義したアンケートを使用すると、パイロットの結果の入手と評価を簡単に行うことができます。アンケートはテスト計画のシナリオや機能に基づいて設計します。
 
 <table>
 <thead>

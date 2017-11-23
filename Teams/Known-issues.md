@@ -3,25 +3,28 @@ title: "Microsoft Teams の既知の問題"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 09/25/2017
+ms.date: 11/15/2017
 ms.topic: article
 ms.service: msteams
 description: "現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 0f90929f2af5d72df5851d25a2456b4613fd5613
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: a065472b87ee61a7f910741beadb97ebfbb2ed5c
+ms.sourcegitcommit: 6f66f2a090d9d73d5de29f5273b0dea0a8d1453a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 11/16/2017
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
- [Microsoft Teams のヘルプ](microsoft-teams-help.md) > [デスクトップと Web](microsoft-teams-help.md#BKMK_DesktopAndWeb) > Microsoft Teams の既知の問題 更新日: 2017 年 9 月 14 日 
   
 次の表に Microsoft Teams の既知の問題を示します。
 ## 
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
+|EU および APAC のユーザーが、別のテナントからゲスト ユーザーを追加するとエラーが発生する    <br/> | EU および APAC 内のユーザーの場合に、Microsoft Teams と Azure Active Directory との間でのレプリケーションの遅延が発生します。 EU または APAC テナントから、ゲスト ユーザーをそれ以外の任意のテナントから追加しようとするユーザーに対して、もう一度やり直すことを求めるエラー メッセージが表示されます。   <br/> |再試行ボタンをクリックして、ゲスト ユーザーの追加を再実行します。  <br/> |2017/11/08  <br/> |
+|Internet Explorer または Edge から Teams に参加しようとすると、プログラムが一貫してループし続けるかクラッシュしてしまい、サイン インを実行しない。   <br/> | 所属する組織で Internet Explorer の [信頼済みサイト] を有効にしていて、その信頼済みサイトが Teams で許可されていないために、Teams の web ベース アプリケーションが正常にログインを実行しません。 <br/>|管理者の権限またはグループ ポリシー オブジェクトで、IE の設定を次のように変更します。<br/><ol><li>[インターネット オプション] &gt; [プライバシー] &gt; [詳細設定] で、[ 	ファースト パーティの Cookie] と [サード パーティの Cookie] を許可し、信頼済みサイトについての [常にセッション Cookie を許可する] のチェック ボックスを選択します。</li><li>[インターネット オプション] &gt; [信頼済みサイト] &gt; [サイト] をクリックして、次のすべてを追加します。<ul><li>https://\*.microsoft.com</li><li>https://\*.microsoftonline.com</li><li>https://\*.teams.skype.com</li><li>https://\*.teams.microsoft.com</li><li>https://\*.sfbassets.com</li><li>https://\*.skypeforbusiness.com</li></ul></li></ol><br/><b>注意</b>: 常に Teams の信頼済み URL のすべてと、「[Office 365 URL および IP アドレス範囲](httpds://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)」に記載されているすべての要件を確認し、許可してください。   <br/> <br/>|2017/11/01  <br/> |
+|OWA/Outlook において、ポリシーの要求どおりに Teams への写真のアップロードが禁止されない   <br/> | ポリシーの設定で OWA での写真のアップロードを防止するようになっていても、Teams はユーザーが写真を直接 Office 365 にアップロードすることを許可します。   <br/> <br/> ||2017/10/16  <br/> |
+|パラメーター付きの Teams URL がログインのリダイレクト後に切り詰められてしまう  <br/> | Internet Explorer および Edge で、Teams の web アプリ上の共有したチームファイルのリンクをログイン後に初めて開くと、間違ったドキュメントにリダイレクトされてしまいます。 チームの web アプリに既にサインインしている場合は、共有ファイル リンクをクリックすると、リンクは正常に機能します。   <br/> <br/> ||2017/10/11  <br/> |
 |Safari Web クライアント サポート  <br/> |Microsoft Teams Web クライアントを Safari で開こうとすると、デスクトップ クライアントのダウンロードに移動します。 Microsoft は Safari のサポートについて検証中で、公開されている Office 365 ロードマップを介して更新情報を共有する予定です。  <br/> |サポートされるブラウザーである Microsoft Edge 12 以降、Internet Explorer 11 以降、Firefox 47.0 以降、Chrome 51.0 以降を使用してください。  <br/> |2016/11/02  <br/> |
 |既存のチャネル名を再作成できません  <br/> |チャネル名は一度作成されると、削除しても再作成できません。 システムでは、このデータは情報保護シナリオ用に維持されます。  <br/> |回避策なし。  <br/> |2017/03/13  <br/> |
 |モバイル アプリを使用してステッカーを挿入できません  <br/> |モバイル アプリでステッカーを使用することはできません。  <br/> |回避策なし。  <br/> |2017/03/13  <br/> |
