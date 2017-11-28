@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 11/08/2017
 ---
-<a name="journey-from-skype-for-business-to-microsoft-teams"></a>Skype for Business から Teams への移行pacterarepeated
+<a name="journey-from-skype-for-business-to-microsoft-teams"></a>Skype for Business から Teams への移行
 ==================================================
 
 より洗練された通話と会議のエクスペリエンスを実現しようという Microsoft の[インテリジェント コミュニケーション ビジョン](https://aka.ms/intelligentcommunicationsblog)の一環として、Skype for Business の機能を Teams に導入しています。 この取り組みは時間をかけて進展し、最終的に Teams を単一のクライアント エクスペリエンスとしてご利用いただけるようになります。 大切な Skype for Business のお客様のために、Microsoft は Teams に移行する行程の各ステップをサポートします。 Microsoft は、この移行には時間がかかると認識していますので、お客様が引き続き　Skype for Business　を稼働しながら、今すぐ Teams について理解を深めて、お客様の組織にもたらされる価値を実感できるようにご案内します。 
