@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "チームを作成する権限など、Microsoft Teams でチーム所有者やメンバーに役割と権限を割り当る方法について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 21e9a1cb3f77d657824f5d532469b7b5efe62ede
-ms.sourcegitcommit: 6f66f2a090d9d73d5de29f5273b0dea0a8d1453a
+ms.openlocfilehash: 0fb84f0b72d2d36f3a584e811fa8640159825429
+ms.sourcegitcommit: cd6f4ac2ee7fa2b9de7af5c75c914eb84468d8f5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2017
+ms.lasthandoff: 11/21/2017
 ---
 <a name="assign-roles-and-permissions-in-microsoft-teams"></a>Microsoft Teams で役割と権限を割り当てる
 ===============================================
@@ -89,5 +89,5 @@ Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
 
 ||||
 |---------|---------|---------|
-| ![所有者は [チームの表示判断ポイント アイコン。](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |判断ポイント         |Microsoft Teams のすべてのユーザーがチームを作成できますか (作成できることを推奨)?         |
+| ![判断ポイント アイコン。](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |判断ポイント         |Microsoft Teams のすべてのユーザーがチームを作成できますか (作成できることを推奨)?         |
 | ![次のステップ アイコン。](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |次のステップ         |チームを作成できるユーザーを制限する場合は、Office 365 グループの既定の作成権限を変更します。         |

@@ -85,4 +85,6 @@
 ## [Teams クライアントの接続性の問題をトラブルシューティングする](connectivity-issues.md)
 ## [Teams のトラブルシューティングでログ ファイルを使用する](log-files.md)
 
+
 # [開発者向けの Teams のマニュアル](https://docs.microsoft.com/microsoftteams/platform)
+

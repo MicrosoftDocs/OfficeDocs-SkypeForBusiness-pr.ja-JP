@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "テナント全体の設定、電子メール統合、アプリ、クラウド ストレージなど、Office 365 を使用する組織で有効に設定できるすべての Microsoft Teams 機能について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 7c626acc5e9fe4d19d7198ea023df155ff427f40
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: e2235756e77c3e27c1eeee9fd22decb5e0e4e062
+ms.sourcegitcommit: db47b9f4955150859bc35ab9d078fa3ab66b5faa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 11/20/2017
 ---
 <a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>Office 365 を使用する組織で Microsoft Teams の機能を有効にする
 ======================================================
@@ -110,8 +110,6 @@ Microsoft Teams でチームを作成できる組織のユーザーを制御で�
 チャネルは、チームのサブカテゴリーです。チームの誰もがチャネルを追加したり、チャネル内の会話に参加できます。チャネルは、アクティビティや部署用に作成します。会話、ファイル、Wiki は、各チャネルに固有ですが、チーム内の全メンバーが見ることができます。
 
 ### <a name="calls-and-meetings"></a>通話と会議
-
-チャネルは、チームのサブカテゴリーです。チームの誰もがチャネルを追加したり、チャネル内の会話に参加できます。チャネルは、アクティビティや部署用に作成します。会話、ファイル、Wiki は、各チャネルに固有ですが、チーム内の全メンバーが見ることができます。
 
 [**通話と会話**] セクションでは、組織の次の設定を構成できます。
 

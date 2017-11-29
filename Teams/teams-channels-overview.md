@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "財務、イベント計画、販売など、多岐にわたる要件で利用できるさまざまなチーム、チャネル、アプリについて紹介します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 2d8ce4adafe831f71fcbb04a191427339efa56f0
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: f7c69f85862396dd31b69c034521fae01c4a400a
+ms.sourcegitcommit: cd6f4ac2ee7fa2b9de7af5c75c914eb84468d8f5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 11/21/2017
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要
 =================================================
@@ -35,7 +35,7 @@ ms.lasthandoff: 11/08/2017
 
 ユーザーを Microsoft Teams に関与させるために鍵となる初期段階の計画アクティビティは、日々の生活で Microsoft Teams がどのようにコラボレーションを深めているのかについて、洞察と理解を促進することです。
 
-既定では、すべてのユーザーが Microsoft Teams 内にチームを作成する権限を持っています (変更するには、ここを参照してください)。既存の Office 365 グループのユーザーは、Microsoft Teams の機能を利用してそれらを拡張することもできます。
+既定では、すべてのユーザーが Microsoft Teams 内にチームを作成する権限を持っています (これを変更するには、「[Teams で役割と権限を割り当てる](assign-roles-permissions.md)」をご覧ください)。既存の Office 365 グループのユーザーは、Microsoft Teams の機能を利用してそれらを拡張することもできます。
 
 <a name="sample-team-set-up"></a>サンプルのチーム セットアップ
 ------------------
