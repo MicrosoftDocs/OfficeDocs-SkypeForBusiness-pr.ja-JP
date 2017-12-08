@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "テナント全体の設定、電子メール統合、アプリ、クラウド ストレージなど、Office 365 を使用する組織で有効に設定できるすべての Microsoft Teams 機能について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e2235756e77c3e27c1eeee9fd22decb5e0e4e062
-ms.sourcegitcommit: db47b9f4955150859bc35ab9d078fa3ab66b5faa
+ms.openlocfilehash: c785e554034cd87fd27f5137f206c8dc0e5f972a
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 12/08/2017
 ---
 <a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>Office 365 を使用する組織で Microsoft Teams の機能を有効にする
 ======================================================
@@ -56,7 +56,7 @@ Teams 内で Office 365 管理者が有効または無効にできる機能の�
 
 [電子メール統合] セクションでは組織の次の設定を構成できます。
 
-   ![テナント全体の設定の [電子メール統合] セクションのスクリーンショット。](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image5.png)
+   ![テナント全体の設定の [電子メール統合] セクションのスクリーンショット。](media/QS-edu-email-integration.png)
 
 -   **ユーザーがチャネルにメールを送信するのを許可する:** 有効にすると、メール フックが有効に設定されます。ユーザーは Microsoft Teams のチャネルの電子メール アドレス宛に電子メールを送信することでチャネルにメッセージを投稿できるようになります。
 
