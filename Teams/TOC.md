@@ -63,6 +63,7 @@
 ## [3 - Teams が Skype for Business と共存できるようにする](guidance-SkypeforBusiness.md)
 ## [4 - ユーザーが導入することによる価値を推進する](continue-journey.md)
 ## [よくあるご質問 - Skype for Business と Teams のビジョン](FAQ-journey.md)
+## [チュートリアル: Skype for Business から Teams への移行](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 
 # ビデオとトレーニング
 ## [Teams のための IT 管理者の準備状況のリソース](ITAdmin-readiness.md)
