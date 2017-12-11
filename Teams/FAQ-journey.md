@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Skype for Business Online から Microsoft Teams への移行に関してよく寄せられる質問を次に示します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: ffb09f4ef21828a8f0613bfa9402aa69263237d6
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 4303b59bb7044af57973fa1606338f5c4f6e2e5e
+ms.sourcegitcommit: 5814969da48133214d2f9ea04d6790ebe102d691
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/01/2017
 ---
 <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>よくあるご質問 - Skype for Business から Microsoft Teams への移行
 ==========================================================
@@ -31,6 +31,8 @@ ms.lasthandoff: 11/08/2017
 ### <a name="is-there-a-firm-deadline-by-which-customers-need-to-move-from-skype-for-business-online-to-teams"></a>カスタマーとして Skype for Business Online から Teams に移行しなければならない具体的な期限はありますか? 
 
 Microsoft は Microsoft Teams ロードマップの公開に努めています。お客様はニーズに応じて Teams の機能を評価し、Teams への移行を計画することができます。 お客様はニーズに合わせて移行の最適なタイミングを決定できます。
+
+また、Skype for Business から Teams への行程に関する最新情報を継続して取得するために、ダウンロード可能な PDF として提供されている「[Skype for Busineses to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap)」(現時点では英語版のみ) が役立ちます。この文書には、Teams に導入される Skype for Business 機能について、その時点での Microsoft の予定が記載されています。
 
 ### <a name="what-is-the-future-of-skype-for-business-server"></a>Skype for Business Server の将来図を教えてください。 
 
