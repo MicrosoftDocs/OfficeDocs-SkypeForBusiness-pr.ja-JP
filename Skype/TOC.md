@@ -90,7 +90,8 @@
 ### [ビデオ: Skype for Business Online の外部通信](set-up-skype-for-business-online/video-skype-for-business-online-external-communications.md)
 
 ## [Skype 会議ブロードキャスト用にネットワークをセットアップする](set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
-### [Skype 会議ブロードキャストでブロックされたユーザー ライセンス](set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)### [Skype 会議ブロードキャストを有効にする](set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md)
+### [Skype 会議ブロードキャストでブロックされたユーザー ライセンス](set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)
+### [Skype 会議ブロードキャストを有効にする](set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md)
 ### [組織で利用する Skype 会議ブロードキャストの設定を変更する](set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings.md)
 
 ## [Skype for Business と Microsoft Teams のアドオン ライセンス](skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
