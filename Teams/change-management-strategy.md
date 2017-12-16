@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "主要なステークホルダー、ビジネスの成果、成功の測定方法の特定、チャンピオンの管理を通して Microsoft Teams の変更管理戦略を作成する方法について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 7fb8c2f7804cd51ac74bcc06878572e0c2c605ad
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: ec0bea3c69ba9931727d9917246f71920d09cc7e
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Microsoft Teams の変更管理戦略を作成する
 =======================================================
@@ -55,9 +55,10 @@ ms.lasthandoff: 11/08/2017
 定期的にステークホルダー会議を行い、プログラムの進捗状況について最新情報を保つようにします。企業文化によっては、フィードバックやディスカッションを行う「コラボレーション審議会」を設立すると有益な場合があります。
 
 
-|  |  |
-|---------|---------|
-|![ヒント アイコン。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image4.png)<br></br>ヒント    |この種類の展開では、変更に対する最大の障害となりえる人たちは同時に最良の協力者となり得ます。早い段階からこうした組織メンバーと関わりを持ち、彼らの懸念や問題に頻繁に耳を傾けることをお勧めします。彼らはキャンペーンの成功率を高める貴重なフィードバックを提供してくれます。         |
+
+
+> [!TIP]
+> この種類の展開では、変更に対する最大の障害となりえる人たちは同時に最良の協力者となり得ます。早い段階からこうした組織メンバーと関わりを持ち、彼らの懸念や問題に頻繁に耳を傾けることをお勧めします。彼らはキャンペーンの成功率を高める貴重なフィードバックを提供してくれます。
 
 <a name="user-profiles"></a>ユーザー プロファイル
 -------------

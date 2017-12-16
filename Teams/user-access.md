@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "ユーザーごとにユーザーレベル アクセスを有効または無効にする方法について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 252dfa4c739fddd152c54a38dff71255706bb1ef
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 5bf8a487a7931ff91e754c1e84839b75535ca3c9
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Microsoft Teams へのユーザー アクセスを管理する
 =====================================
@@ -21,9 +21,10 @@ Microsoft Teams へのユーザーレベルのアクセスは、Microsoft Teams 
 
 現時点では、ライセンス以外の手段を使用して、個々のユーザーの Microsoft Teams または Microsoft Teams 機能のサブセットをオンまたはオフにするポリシー オプションはありません。
 
-| | |
-|---------|---------|
-|![注意アイコン。](media/Manage_user_access_to_Microsoft_Teams_image1.png)<br></br>注意 |会社のすべてのユーザーに対して Microsoft Teams を有効にすることをお勧めします。そうすることで、プロジェクトやその他の動的なイニシアチブで組織的にチームを編成することが可能になります。パイロットを行う場合でも、すべてのユーザーで Microsoft Teams を有効のままにしておき、パイロット グループのユーザーに対してのみ通信を行うことができます。 |
+
+
+> [!NOTE]
+>会社のすべてのユーザーに対して Microsoft Teams を有効にすることをお勧めします。そうすることで、プロジェクトやその他の動的なイニシアチブで組織的にチームを編成することが可能になります。パイロットを行う場合でも、すべてのユーザーで Microsoft Teams を有効のままにしておき、パイロット グループのユーザーに対してのみ通信を行うことができます。
 
 Microsoft Teams のユーザーレベルのライセンスは Office 365 管理センターのユーザー管理インターフェースから直接行います。管理者は、新しいユーザー アカウントを作成するときに新しいユーザーにライセンスを割り当てたり、既存のアカウントのユーザーにライセンスを割り当てることができます。Microsoft Teams のライセンスを管理する管理者は Office 365 グローバル管理またはユーザー管理の管理者の権限が必要です。
 
