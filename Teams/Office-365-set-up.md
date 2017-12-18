@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Office 365 を使用する組織で Microsoft Teams をセットアップする方法について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 4ff25a452f2ce493bdb1ae8d556f08584d32d669
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: f8db61d7ca8e183cce04cb993a40541c70e5e516
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/08/2017
 ---
 <a name="set-up-microsoft-teams-in-your-office-365-organization"></a>Office 365 を使用する組織で Microsoft Teams をセットアップする
 ======================================================
@@ -38,9 +38,9 @@ ms.lasthandoff: 11/08/2017
 
     ![[Microsoft Teams] が選択されている [サービスとアドイン] ページのスクリーンショット。](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
 
-4.  組織で Teams を有効にするには、トグルを [**オン**] にし、[**保存**] をクリックします。
+4.  組織に対して Teams を有効にするには、ライセンス選択ウィンドウで各ライセンスを選択してからトグルを [**オン**] に設定して [**保存**] をクリックします。
 
-    ![トグルがオンに設定されて Microsoft Teams が有効になっていることを示す Microsoft Teams の設定ページのスクリーンショット。](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image3.png)
+    ![トグルがオンに設定されて Microsoft Teams が有効になっていることを示す Microsoft Teams の設定ページのスクリーンショット。](media/Services-and-addins-control-Microsoft-Teams.PNG)
 
 
 > [!NOTE]

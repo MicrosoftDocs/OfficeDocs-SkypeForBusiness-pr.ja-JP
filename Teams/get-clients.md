@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams で利用できる、Web、デスクトップ (Windows および Mac)、およびモバイル (Android、iOS、Windows Phone) などのさまざまなクライアントを使用する方法について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: b127b0bd5c0e1f1b8f438c1955d1f028977118f0
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: f555208aba849b77d648e5e9561d0daf3ba199b3
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/08/2017
 ---
 <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 ===========================
@@ -22,7 +22,7 @@ Microsoft Teams には、Web、デスクトップ (Windows および Mac)、お�
 <a name="web-client"></a>Web クライアント 
 ----------------
 
-Web クライアント ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) は、さまざまなブラウザーから使用できる、完全な機能クライアントです。 現時点では、Web クライアントはリアルタイム通信 (会議への参加、1 対 1 の通話) をサポートしていません。 また、ブラウザーはサードパーティの Cookie を許可するように設定する必要があります。
+Web クライアント ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) は、さまざまなブラウザーから使用できる、完全な機能クライアントです。 現時点では、リアルタイム通信 (会議への参加、1 対 1 の通話) をサポートしている Web クライアントは Microsoft Edge のみです。 また、ブラウザーはサードパーティの Cookie を許可するように設定する必要があります。
 
 Web ブラウザーで Microsoft Teams を利用するために必要となるプラグインやダウンロードはありません。
 

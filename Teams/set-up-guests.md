@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams でのゲスト アクセス機能をオンまたはオフにします。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a996f7cc9154d04870e4dea00da950d340de16e2
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: 208d82b1e40b86f17d6ff412a20ed917a1fe6ff0
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 12/08/2017
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Microsoft Teams へのゲスト アクセスをオンまたはオフにする
 ======================================
@@ -57,5 +57,9 @@ Office 365 管理者は、組織のユーザー (具体的にはチーム所有�
   
 5. [**Turn Microsoft Teams on or off for all users of this type (この種類のすべてのユーザーについて Microsoft Teams をオンまたはオフにする)**] の横にあるトグルをクリックまたはタップして [**オン**] にして組織の Teams とゲスト アクセスをオンにし、[**保存**] を選択します。 
     
-  
+ ゲスト アクセスの詳細については以下のビデオを視聴してください。  
 
+|  |  |
+|---------|---------|
+| Microsoft Teams でのゲスト アクセスの有効化   | <iframe width="350" height="200" src="https://www.youtube.com/embed/7T54KmlIHQk" frameborder="0" allowfullscreen></iframe>   |
+ | Microsoft Teams でのゲストの追加   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 

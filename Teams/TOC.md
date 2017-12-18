@@ -1,5 +1,5 @@
 
-# 使用を開始する
+# 開始
 ## [Microsoft Teams の概要](Teams-Overview.md)
 ## [Teams の導入に向けた環境の準備を確認する](environment-readiness.md)
 ## [Teams 用の Office 365 ライセンス](Office-365-licensing.md)
@@ -51,11 +51,11 @@
 ## [PowerShell を使用してチームへのゲスト アクセスを制御する](guest-access-PowerShell.md)
 
 
-# [Cloud Voice の展開](cloud-voice-deployment.md)
+# [Cloud Voice](cloud-voice-deployment.md)
 ## [電話会議](audio-conferencing.md)
 ### [構想](audio-conferencing.md#Envision_AudioConferencing)
-### [計画](audio-conferencing.md#Planning_AudioConferencing)
-### [ビデオ - Audio Conferencing in Teams (Teams での電話会議)](audio-conferencing-videos.md)
+## ビデオ
+### [電話会議](audio-conferencing-videos.md)
 
 # [Skype for Business から Teams への移行](Journey-SkypeforBusiness-Teams.md)
 ## [1 - 現在の Skype for Business 環境を Teams 向けに最適化する](prepare-teams.md)
@@ -85,6 +85,7 @@
 ## [Teams のサービス正常性を確認する](service-health.md)
 ## [Teams クライアントの接続性の問題をトラブルシューティングする](connectivity-issues.md)
 ## [Teams のトラブルシューティングでログ ファイルを使用する](log-files.md)
+
 
 
 # [開発者向けの Teams のマニュアル](https://docs.microsoft.com/microsoftteams/platform)
