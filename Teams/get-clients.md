@@ -8,122 +8,122 @@ ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams で利用できる、Web、デスクトップ (Windows および Mac)、およびモバイル (Android、iOS、Windows Phone) などのさまざまなクライアントを使用する方法について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: b127b0bd5c0e1f1b8f438c1955d1f028977118f0
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: f555208aba849b77d648e5e9561d0daf3ba199b3
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/08/2017
 ---
-<a name="get-clients-for-microsoft-teams"></a><span data-ttu-id="bd736-103">Microsoft Teams のクライアントを取得する</span><span class="sxs-lookup"><span data-stu-id="bd736-103">Get clients for Microsoft Teams</span></span> 
+<a name="get-clients-for-microsoft-teams"></a><span data-ttu-id="a261b-103">Microsoft Teams のクライアントを取得する</span><span class="sxs-lookup"><span data-stu-id="a261b-103">Get clients for Microsoft Teams</span></span> 
 ===========================
 
-<span data-ttu-id="bd736-p101">Microsoft Teams には、Web、デスクトップ (Windows および Mac)、およびモバイル (Android、iOS、Windows Phone) で利用できるクライアントがあります。これらのクライアントはすべてアクティブなインターネット接続が必要で、オフライン モードをサポートしていません。</span><span class="sxs-lookup"><span data-stu-id="bd736-p101">Microsoft Teams has clients available for web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Phone). These clients all require an active internet connection and do not support an offline mode.</span></span>
+<span data-ttu-id="a261b-p101">Microsoft Teams には、Web、デスクトップ (Windows および Mac)、およびモバイル (Android、iOS、Windows Phone) で利用できるクライアントがあります。これらのクライアントはすべてアクティブなインターネット接続が必要で、オフライン モードをサポートしていません。</span><span class="sxs-lookup"><span data-stu-id="a261b-p101">Microsoft Teams has clients available for web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Phone). These clients all require an active internet connection and do not support an offline mode.</span></span>
 
-<a name="web-client"></a><span data-ttu-id="bd736-106">Web クライアント</span><span class="sxs-lookup"><span data-stu-id="bd736-106">Web client</span></span> 
+<a name="web-client"></a><span data-ttu-id="a261b-106">Web クライアント</span><span class="sxs-lookup"><span data-stu-id="a261b-106">Web client</span></span> 
 ----------------
 
-<span data-ttu-id="bd736-107">Web クライアント ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) は、さまざまなブラウザーから使用できる、完全な機能クライアントです。</span><span class="sxs-lookup"><span data-stu-id="bd736-107">The web client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) is a full, functional client that can be used from a variety of browsers.</span></span> <span data-ttu-id="bd736-108">現時点では、Web クライアントはリアルタイム通信 (会議への参加、1 対 1 の通話) をサポートしていません。</span><span class="sxs-lookup"><span data-stu-id="bd736-108">At this point, the web client does not support real-time communications (i.e. joining meetings and having one-to-one calls).</span></span> <span data-ttu-id="bd736-109">また、ブラウザーはサードパーティの Cookie を許可するように設定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="bd736-109">The browser must also be configured to allow 3rd-party cookies.</span></span>
+<span data-ttu-id="a261b-107">Web クライアント ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) は、さまざまなブラウザーから使用できる、完全な機能クライアントです。</span><span class="sxs-lookup"><span data-stu-id="a261b-107">The web client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) is a full, functional client that can be used from a variety of browsers.</span></span> <span data-ttu-id="a261b-108">現時点では、リアルタイム通信 (会議への参加、1 対 1 の通話) をサポートしている Web クライアントは Microsoft Edge のみです。</span><span class="sxs-lookup"><span data-stu-id="a261b-108">At this point, the web client does not support real-time communications (i.e. joining meetings and having one-to-one calls).</span></span> <span data-ttu-id="a261b-109">また、ブラウザーはサードパーティの Cookie を許可するように設定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="a261b-109">The browser must also be configured to allow 3rd-party cookies.</span></span>
 
-<span data-ttu-id="bd736-110">Web ブラウザーで Microsoft Teams を利用するために必要となるプラグインやダウンロードはありません。</span><span class="sxs-lookup"><span data-stu-id="bd736-110">There is no plugin or download required to leverage Microsoft Teams using a web browser.</span></span>
+<span data-ttu-id="a261b-110">Web ブラウザーで Microsoft Teams を利用するために必要となるプラグインやダウンロードはありません。</span><span class="sxs-lookup"><span data-stu-id="a261b-110">There is no plugin or download required to leverage Microsoft Teams using a web browser.</span></span>
 
-<span data-ttu-id="bd736-111">Web クライアントは、[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) への接続時にブラウザー バージョンの検出を実行します。サポートされていないブラウザー バージョンを検出した場合、Web インターフェイスへのアクセスをブロックし、ユーザーによるデスクトップ クライアントまたはモバイル アプリのダウンロードを推奨します。</span><span class="sxs-lookup"><span data-stu-id="bd736-111">The Web client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) and if an unsupported browser version is detected, it will block access to the Web interface and recommend that the user download the desktop client or mobile app.</span></span>
+<span data-ttu-id="a261b-111">Web クライアントは、[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) への接続時にブラウザー バージョンの検出を実行します。サポートされていないブラウザー バージョンを検出した場合、Web インターフェイスへのアクセスをブロックし、ユーザーによるデスクトップ クライアントまたはモバイル アプリのダウンロードを推奨します。</span><span class="sxs-lookup"><span data-stu-id="a261b-111">The Web client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) and if an unsupported browser version is detected, it will block access to the Web interface and recommend that the user download the desktop client or mobile app.</span></span>
 
-<span data-ttu-id="bd736-112">Microsoft Teams は、次のブラウザーおよびバージョンをサポートしています。</span><span class="sxs-lookup"><span data-stu-id="bd736-112">Microsoft Teams supports the following browsers and versions:</span></span>
+<span data-ttu-id="a261b-112">Microsoft Teams は、次のブラウザーおよびバージョンをサポートしています。</span><span class="sxs-lookup"><span data-stu-id="a261b-112">Microsoft Teams supports the following browsers and versions:</span></span>
 
--   <span data-ttu-id="bd736-113">**Microsoft Edge**: 12 以上</span><span class="sxs-lookup"><span data-stu-id="bd736-113">**Edge**: 12+</span></span>
+-   <span data-ttu-id="a261b-113">**Microsoft Edge**: 12 以上</span><span class="sxs-lookup"><span data-stu-id="a261b-113">**Edge**: 12+</span></span>
 
--   <span data-ttu-id="bd736-114">**Internet Explorer:** 11 以上</span><span class="sxs-lookup"><span data-stu-id="bd736-114">**Internet Explorer:** 11+</span></span>
+-   <span data-ttu-id="a261b-114">**Internet Explorer:** 11 以上</span><span class="sxs-lookup"><span data-stu-id="a261b-114">**Internet Explorer:** 11+</span></span>
 
--   <span data-ttu-id="bd736-115">**Chrome**: 51.0 以上</span><span class="sxs-lookup"><span data-stu-id="bd736-115">**Chrome**: 51.0+</span></span>
+-   <span data-ttu-id="a261b-115">**Chrome**: 51.0 以上</span><span class="sxs-lookup"><span data-stu-id="a261b-115">**Chrome**: 51.0+</span></span>
 
--   <span data-ttu-id="bd736-116">**Firefox**: 47.0 以上</span><span class="sxs-lookup"><span data-stu-id="bd736-116">**Firefox**: 47.0+</span></span>
+-   <span data-ttu-id="a261b-116">**Firefox**: 47.0 以上</span><span class="sxs-lookup"><span data-stu-id="a261b-116">**Firefox**: 47.0+</span></span>
 
 
 | | |
 |---------|---------|
-|![重要アイコン。](media/Get_clients_for_Microsoft_Teams_image1.png)<br></br><span data-ttu-id="bd736-118">重要</span><span class="sxs-lookup"><span data-stu-id="bd736-118">Important</span></span>     |<span data-ttu-id="bd736-119">Safari はまだサポートされていませんが、まもなく対応します。</span><span class="sxs-lookup"><span data-stu-id="bd736-119">Safari is not yet supported, but is coming soon.</span></span>         |
+|![重要アイコン。](media/Get_clients_for_Microsoft_Teams_image1.png)<br></br><span data-ttu-id="a261b-118">重要</span><span class="sxs-lookup"><span data-stu-id="a261b-118">Important</span></span>     |<span data-ttu-id="a261b-119">Safari はまだサポートされていませんが、まもなく対応します。</span><span class="sxs-lookup"><span data-stu-id="a261b-119">Safari is not yet supported, but is coming soon.</span></span>         |
 
-<a name="desktop-clients"></a><span data-ttu-id="bd736-120">デスクトップ クライアント</span><span class="sxs-lookup"><span data-stu-id="bd736-120">Desktop clients</span></span>
+<a name="desktop-clients"></a><span data-ttu-id="a261b-120">デスクトップ クライアント</span><span class="sxs-lookup"><span data-stu-id="a261b-120">Desktop clients</span></span>
 ------------------------
 
-<span data-ttu-id="bd736-p103">Microsoft Teams デスクトップ クライアントはスタンドアロン アプリケーションであり、現在は Office Pro Plus の一部ではありません。Microsoft Teams は、32 ビットおよび 64 ビット バージョンの Windows (7 以上)、および MacOS (10.10 以上) で利用できます。</span><span class="sxs-lookup"><span data-stu-id="bd736-p103">Microsoft Teams desktop client is a standalone application and currently not part of Office Pro Plus. Microsoft Teams is available for both Windows (7+), both 32-bit and 64-bit versions, and MacOS (10.10+).</span></span>
+<span data-ttu-id="a261b-p103">Microsoft Teams デスクトップ クライアントはスタンドアロン アプリケーションであり、現在は Office Pro Plus の一部ではありません。Microsoft Teams は、32 ビットおよび 64 ビット バージョンの Windows (7 以上)、および MacOS (10.10 以上) で利用できます。</span><span class="sxs-lookup"><span data-stu-id="a261b-p103">Microsoft Teams desktop client is a standalone application and currently not part of Office Pro Plus. Microsoft Teams is available for both Windows (7+), both 32-bit and 64-bit versions, and MacOS (10.10+).</span></span>
 
-<span data-ttu-id="bd736-123">デスクトップ クライアントは、チーム会議、グループ通話、およびプライベートな 1 対 1 での通話に対応するリアルタイム通信のサポート (オーディオ、ビデオ、およびコンテンツ共有) を提供します。</span><span class="sxs-lookup"><span data-stu-id="bd736-123">The desktop clients provide real-time communications support (audio, video, and content sharing) for team meetings, group calling and private one-on-one calls.</span></span>
+<span data-ttu-id="a261b-123">デスクトップ クライアントは、チーム会議、グループ通話、およびプライベートな 1 対 1 での通話に対応するリアルタイム通信のサポート (オーディオ、ビデオ、およびコンテンツ共有) を提供します。</span><span class="sxs-lookup"><span data-stu-id="a261b-123">The desktop clients provide real-time communications support (audio, video, and content sharing) for team meetings, group calling and private one-on-one calls.</span></span>
 
-<span data-ttu-id="bd736-124">デスクトップ クライアントは、適切なローカルのアクセス許可を持っているエンド ユーザーによって、[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) から直接ダウンロードおよびインストールできます (管理者権限は、Teams クライアントを PC にインストールする場合には必要ありませんが、Mac では必要になります) 。</span><span class="sxs-lookup"><span data-stu-id="bd736-124">Desktop clients can be downloaded and installed by end users directly from [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) if they have the appropriate local permissions (admin rights are not required to install the Teams client on a PC but are required on a Mac).</span></span>
+<span data-ttu-id="a261b-124">デスクトップ クライアントは、適切なローカルのアクセス許可を持っているエンド ユーザーによって、[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) から直接ダウンロードおよびインストールできます (管理者権限は、Teams クライアントを PC にインストールする場合には必要ありませんが、Mac では必要になります) 。</span><span class="sxs-lookup"><span data-stu-id="a261b-124">Desktop clients can be downloaded and installed by end users directly from [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) if they have the appropriate local permissions (admin rights are not required to install the Teams client on a PC but are required on a Mac).</span></span>
 
-<span data-ttu-id="bd736-125">IT 管理者は好みの方法で、System Center Configuration Manager (Windows)、Casper Suite (MacOS) のような組織内のコンピューターにインストール ファイルを配布できます。</span><span class="sxs-lookup"><span data-stu-id="bd736-125">IT admins can choose their preferred method to distribute the installation files to machines in their organization such as System Center Configuration Manager (Windows) or Casper Suite (MacOS).</span></span>
+<span data-ttu-id="a261b-125">IT 管理者は好みの方法で、System Center Configuration Manager (Windows)、Casper Suite (MacOS) のような組織内のコンピューターにインストール ファイルを配布できます。</span><span class="sxs-lookup"><span data-stu-id="a261b-125">IT admins can choose their preferred method to distribute the installation files to machines in their organization such as System Center Configuration Manager (Windows) or Casper Suite (MacOS).</span></span>
 
-
-| | |
-|---------|---------|
-|![注意アイコン。](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br><span data-ttu-id="bd736-127">注意</span><span class="sxs-lookup"><span data-stu-id="bd736-127">Note</span></span>    |<span data-ttu-id="bd736-128">これらのメカニズムによるクライアントの配布は、Microsoft Teams クライアントの初回インストール時にのみ利用でき、それ以降の更新では利用できません。</span><span class="sxs-lookup"><span data-stu-id="bd736-128">Distribution of the client via these mechanisms is only for the initial installation of Microsoft Team clients and not for future updates.</span></span>         |
-
-#### <a name="windows"></a><span data-ttu-id="bd736-129">Windows</span><span class="sxs-lookup"><span data-stu-id="bd736-129">Windows</span></span>
-
-<span data-ttu-id="bd736-p104">Windows 用のMicrosoft Teams インストールでは、32 ビットおよび 64 ビット アーキテクチャでダウンロード可能なインストーラーを提供しています。そのアーキテクチャは、オンライン ダウンロードで既定として提示される OS のアーキテクチャと一致する必要があります。</span><span class="sxs-lookup"><span data-stu-id="bd736-p104">The Microsoft Teams installation for Windows provides downloadable installers in 32-bit and 64-bit architecture. The architecture should match that of the OS, which is what the online download defaults to.</span></span>
 
 | | |
 |---------|---------|
-|![注意アイコン。](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br><span data-ttu-id="bd736-133">注意</span><span class="sxs-lookup"><span data-stu-id="bd736-133">Note</span></span>    |<span data-ttu-id="bd736-134">Microsoft Teams のアーキテクチャ (32 ビットと 64 ビット) はインストールされている Office のアーキテクチャに依存しません。</span><span class="sxs-lookup"><span data-stu-id="bd736-134">The architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Office that is installed.</span></span>        |
+|![注意アイコン。](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br><span data-ttu-id="a261b-127">注意</span><span class="sxs-lookup"><span data-stu-id="a261b-127">Note</span></span>    |<span data-ttu-id="a261b-128">これらのメカニズムによるクライアントの配布は、Microsoft Teams クライアントの初回インストール時にのみ利用でき、それ以降の更新では利用できません。</span><span class="sxs-lookup"><span data-stu-id="a261b-128">Distribution of the client via these mechanisms is only for the initial installation of Microsoft Team clients and not for future updates.</span></span>         |
 
-<span data-ttu-id="bd736-p105">Windows クライアントは、ユーザーのプロファイルにある AppData フォルダーに展開されます。ユーザーのローカル プロファイルに展開すると、クライアントは管理者特権を必要とせずにインストール可能になります。Windows クライアントは次の場所にインストールされます。</span><span class="sxs-lookup"><span data-stu-id="bd736-p105">The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated rights. The Windows client is installed in the following locations:</span></span>
+#### <a name="windows"></a><span data-ttu-id="a261b-129">Windows</span><span class="sxs-lookup"><span data-stu-id="a261b-129">Windows</span></span>
 
--   <span data-ttu-id="bd736-138">%appdata%\\local\\Microsoft\\Teams</span><span class="sxs-lookup"><span data-stu-id="bd736-138">%appdata%\\local\\Microsoft\\Teams</span></span>
+<span data-ttu-id="a261b-p104">Windows 用のMicrosoft Teams インストールでは、32 ビットおよび 64 ビット アーキテクチャでダウンロード可能なインストーラーを提供しています。そのアーキテクチャは、オンライン ダウンロードで既定として提示される OS のアーキテクチャと一致する必要があります。</span><span class="sxs-lookup"><span data-stu-id="a261b-p104">The Microsoft Teams installation for Windows provides downloadable installers in 32-bit and 64-bit architecture. The architecture should match that of the OS, which is what the online download defaults to.</span></span>
 
--   <span data-ttu-id="bd736-139">%appdata%\\roaming\\Microsoft\\Teams</span><span class="sxs-lookup"><span data-stu-id="bd736-139">%appdata%\\roaming\\Microsoft\\Teams</span></span>
+| | |
+|---------|---------|
+|![注意アイコン。](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br><span data-ttu-id="a261b-133">注意</span><span class="sxs-lookup"><span data-stu-id="a261b-133">Note</span></span>    |<span data-ttu-id="a261b-134">Microsoft Teams のアーキテクチャ (32 ビットと 64 ビット) はインストールされている Office のアーキテクチャに依存しません。</span><span class="sxs-lookup"><span data-stu-id="a261b-134">The architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Office that is installed.</span></span>        |
 
-<span data-ttu-id="bd736-p106">ユーザーが Microsoft Teams クライアントを使用して初めて通話を開始すると、ユーザーに通信の許可を求める Windows ファイアウォール設定に関する警告が通知される場合があります。警告を受け入れなくても通話は機能するため、このメッセージを無視するように指示される場合があります。</span><span class="sxs-lookup"><span data-stu-id="bd736-p106">When users initiate a call using the Microsoft Teams client for the first time, they might notice a warning with the Windows firewall settings that asks for users to allow communication. Users may be instructed to ignore this message because the call will work, even when the warning is dismissed.</span></span>
+<span data-ttu-id="a261b-p105">Windows クライアントは、ユーザーのプロファイルにある AppData フォルダーに展開されます。ユーザーのローカル プロファイルに展開すると、クライアントは管理者特権を必要とせずにインストール可能になります。Windows クライアントは次の場所にインストールされます。</span><span class="sxs-lookup"><span data-stu-id="a261b-p105">The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated rights. The Windows client is installed in the following locations:</span></span>
+
+-   <span data-ttu-id="a261b-138">%appdata%\\local\\Microsoft\\Teams</span><span class="sxs-lookup"><span data-stu-id="a261b-138">%appdata%\\local\\Microsoft\\Teams</span></span>
+
+-   <span data-ttu-id="a261b-139">%appdata%\\roaming\\Microsoft\\Teams</span><span class="sxs-lookup"><span data-stu-id="a261b-139">%appdata%\\roaming\\Microsoft\\Teams</span></span>
+
+<span data-ttu-id="a261b-p106">ユーザーが Microsoft Teams クライアントを使用して初めて通話を開始すると、ユーザーに通信の許可を求める Windows ファイアウォール設定に関する警告が通知される場合があります。警告を受け入れなくても通話は機能するため、このメッセージを無視するように指示される場合があります。</span><span class="sxs-lookup"><span data-stu-id="a261b-p106">When users initiate a call using the Microsoft Teams client for the first time, they might notice a warning with the Windows firewall settings that asks for users to allow communication. Users may be instructed to ignore this message because the call will work, even when the warning is dismissed.</span></span>
 
 ![[Windows セキュリティの重要な警告] ダイアログのスクリーンショット。](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 | | |
 |---------|---------|
-|![注意アイコン。](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br><span data-ttu-id="bd736-144">注意</span><span class="sxs-lookup"><span data-stu-id="bd736-144">Note</span></span>    |<span data-ttu-id="bd736-p107">Windows ファイアウォール設定は、[キャンセル] の選択によりプロンプトが受け入れられなかった場合でも変更されます。TCP および UDP プロトコルの両方に関するブロック アクションで、teams.exe に関する2 つの着信ルールが作成されます。</span><span class="sxs-lookup"><span data-stu-id="bd736-p107">Windows Firewall configuration will be altered even when the prompt is dismissed by selecting “Cancel”. Two inbound rules for teams.exe will be created with Block action for both TCP and UDP protocols.</span></span>        |
+|![注意アイコン。](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br><span data-ttu-id="a261b-144">注意</span><span class="sxs-lookup"><span data-stu-id="a261b-144">Note</span></span>    |<span data-ttu-id="a261b-p107">Windows ファイアウォール設定は、[キャンセル] の選択によりプロンプトが受け入れられなかった場合でも変更されます。TCP および UDP プロトコルの両方に関するブロック アクションで、teams.exe に関する2 つの着信ルールが作成されます。</span><span class="sxs-lookup"><span data-stu-id="a261b-p107">Windows Firewall configuration will be altered even when the prompt is dismissed by selecting “Cancel”. Two inbound rules for teams.exe will be created with Block action for both TCP and UDP protocols.</span></span>        |
 
-#### <a name="mac"></a><span data-ttu-id="bd736-147">Mac</span><span class="sxs-lookup"><span data-stu-id="bd736-147">Mac</span></span>
+#### <a name="mac"></a><span data-ttu-id="a261b-147">Mac</span><span class="sxs-lookup"><span data-stu-id="a261b-147">Mac</span></span>
 
-<span data-ttu-id="bd736-p108">Microsoft は Mac OSX コンピューター用の DMG インストール ファイルも提供しています。Mac クライアントのインストールには管理アクセスが必要です。Mac OSX クライアントは次の場所にインストールされます。</span><span class="sxs-lookup"><span data-stu-id="bd736-p108">Microsoft also provides a DMG installation file for Mac OSX computers. Administrative access is required to install the Mac client. The Mac OSX client is installed to the following location:</span></span>
+<span data-ttu-id="a261b-p108">Microsoft は Mac OSX コンピューター用の DMG インストール ファイルも提供しています。Mac クライアントのインストールには管理アクセスが必要です。Mac OSX クライアントは次の場所にインストールされます。</span><span class="sxs-lookup"><span data-stu-id="a261b-p108">Microsoft also provides a DMG installation file for Mac OSX computers. Administrative access is required to install the Mac client. The Mac OSX client is installed to the following location:</span></span>
 
-<span data-ttu-id="bd736-151">\~/Library/Application Support/Microsoft/Teams</span><span class="sxs-lookup"><span data-stu-id="bd736-151">\~/Library/Application Support/Microsoft/Teams</span></span>
+<span data-ttu-id="a261b-151">\~/Library/Application Support/Microsoft/Teams</span><span class="sxs-lookup"><span data-stu-id="a261b-151">\~/Library/Application Support/Microsoft/Teams</span></span>
 
-<a name="mobile-clients"></a><span data-ttu-id="bd736-152">モバイル クライアント</span><span class="sxs-lookup"><span data-stu-id="bd736-152">Mobile clients</span></span>
+<a name="mobile-clients"></a><span data-ttu-id="a261b-152">モバイル クライアント</span><span class="sxs-lookup"><span data-stu-id="a261b-152">Mobile clients</span></span>
 --------------
 
-<span data-ttu-id="bd736-p109">Microsoft Teams のモバイル アプリは Android、iOS、および Windows Phone で利用でき、チャットベースの会話に参加している外出中のユーザーを対象としており、ピアツーピアの音声通話が使用できます。モバイル アプリについては、Google Play、Apple App Store、および Microsoft Store の関連するモバイル ストアにアクセスしてください。</span><span class="sxs-lookup"><span data-stu-id="bd736-p109">The Microsoft Teams mobile apps are available for Android, iOS, and Windows Phones, and are geared for on-the-go users participating in chat-based conversations and allow peer-to-peer audio calls. For mobile apps, go to the relevant mobile store for Google Play, Apple App Store, and Microsoft Store.</span></span>
+<span data-ttu-id="a261b-p109">Microsoft Teams のモバイル アプリは Android、iOS、および Windows Phone で利用でき、チャットベースの会話に参加している外出中のユーザーを対象としており、ピアツーピアの音声通話が使用できます。モバイル アプリについては、Google Play、Apple App Store、および Microsoft Store の関連するモバイル ストアにアクセスしてください。</span><span class="sxs-lookup"><span data-stu-id="a261b-p109">The Microsoft Teams mobile apps are available for Android, iOS, and Windows Phones, and are geared for on-the-go users participating in chat-based conversations and allow peer-to-peer audio calls. For mobile apps, go to the relevant mobile store for Google Play, Apple App Store, and Microsoft Store.</span></span>
 
-<span data-ttu-id="bd736-155">Microsoft Teams モバイル アプリのサポートされるモバイル プラットフォームは次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="bd736-155">Supported mobile platforms for Microsoft Teams mobile apps are the following:</span></span>
+<span data-ttu-id="a261b-155">Microsoft Teams モバイル アプリのサポートされるモバイル プラットフォームは次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="a261b-155">Supported mobile platforms for Microsoft Teams mobile apps are the following:</span></span>
 
--   <span data-ttu-id="bd736-156">**Android**: 4.4 以降</span><span class="sxs-lookup"><span data-stu-id="bd736-156">**Android**: 4.4 or later</span></span>
+-   <span data-ttu-id="a261b-156">**Android**: 4.4 以降</span><span class="sxs-lookup"><span data-stu-id="a261b-156">**Android**: 4.4 or later</span></span>
 
--   <span data-ttu-id="bd736-157">**iOS**: 10.0 以降</span><span class="sxs-lookup"><span data-stu-id="bd736-157">**iOS**: 10.0 or later</span></span>
+-   <span data-ttu-id="a261b-157">**iOS**: 10.0 以降</span><span class="sxs-lookup"><span data-stu-id="a261b-157">**iOS**: 10.0 or later</span></span>
 
--   <span data-ttu-id="bd736-158">**Windows Phone**: Windows 10 Mobile</span><span class="sxs-lookup"><span data-stu-id="bd736-158">**Windows Phone**: Windows 10 Mobile</span></span>
+-   <span data-ttu-id="a261b-158">**Windows Phone**: Windows 10 Mobile</span><span class="sxs-lookup"><span data-stu-id="a261b-158">**Windows Phone**: Windows 10 Mobile</span></span>
 
-<span data-ttu-id="bd736-159">モバイル アプリはそれぞれのモバイル プラットフォームのアプリ ストアからのみ配布および更新され、MDM (モバイル デバイス管理) ソリューションまたはサイド ロードからは配布することはできません。</span><span class="sxs-lookup"><span data-stu-id="bd736-159">Mobile apps are distributed and updated through the respective mobile platform’s app store only, and are not available to be distributed through MDM (mobile device management) solutions or side-loaded.</span></span>
+<span data-ttu-id="a261b-159">モバイル アプリはそれぞれのモバイル プラットフォームのアプリ ストアからのみ配布および更新され、MDM (モバイル デバイス管理) ソリューションまたはサイド ロードからは配布することはできません。</span><span class="sxs-lookup"><span data-stu-id="a261b-159">Mobile apps are distributed and updated through the respective mobile platform’s app store only, and are not available to be distributed through MDM (mobile device management) solutions or side-loaded.</span></span>
 
 
 | | | |
 |---------|---------|---------|
-|![判断ポイント アイコン。](media/Get_clients_for_Microsoft_Teams_image4.png)      |<span data-ttu-id="bd736-161">判断ポイント</span><span class="sxs-lookup"><span data-stu-id="bd736-161">Decision Point</span></span>         |<span data-ttu-id="bd736-162">ユーザーが適切な Microsoft Teams クライアントをデバイスにインストールすることを妨げる制限事項はありますか?</span><span class="sxs-lookup"><span data-stu-id="bd736-162">Are there any restrictions preventing users from installing the appropriate Microsoft Teams client on their devices?</span></span>         |
-|![次のステップ アイコン。](media/Get_clients_for_Microsoft_Teams_image5.png)     |<span data-ttu-id="bd736-164">次のステップ</span><span class="sxs-lookup"><span data-stu-id="bd736-164">Next Steps</span></span>         |<span data-ttu-id="bd736-p110">組織によってソフトウェアのインストールが制限されている場合、処理が Microsoft Teams に対応していることを確認してください。注意: 管理者権限は、PC クライアント インストールでは必要ありませんが、Mac へのインストールでは必要になります。</span><span class="sxs-lookup"><span data-stu-id="bd736-p110">If your organization restricts software installation, make sure that process is compatible with Microsoft Teams. Note: Admin rights are not required for PC client installation but are required for installation on a Mac.</span></span>         |
+|![判断ポイント アイコン。](media/Get_clients_for_Microsoft_Teams_image4.png)      |<span data-ttu-id="a261b-161">判断ポイント</span><span class="sxs-lookup"><span data-stu-id="a261b-161">Decision Point</span></span>         |<span data-ttu-id="a261b-162">ユーザーが適切な Microsoft Teams クライアントをデバイスにインストールすることを妨げる制限事項はありますか?</span><span class="sxs-lookup"><span data-stu-id="a261b-162">Are there any restrictions preventing users from installing the appropriate Microsoft Teams client on their devices?</span></span>         |
+|![次のステップ アイコン。](media/Get_clients_for_Microsoft_Teams_image5.png)     |<span data-ttu-id="a261b-164">次のステップ</span><span class="sxs-lookup"><span data-stu-id="a261b-164">Next Steps</span></span>         |<span data-ttu-id="a261b-p110">組織によってソフトウェアのインストールが制限されている場合、処理が Microsoft Teams に対応していることを確認してください。注意: 管理者権限は、PC クライアント インストールでは必要ありませんが、Mac へのインストールでは必要になります。</span><span class="sxs-lookup"><span data-stu-id="a261b-p110">If your organization restricts software installation, make sure that process is compatible with Microsoft Teams. Note: Admin rights are not required for PC client installation but are required for installation on a Mac.</span></span>         |
 
 
-  <span data-ttu-id="bd736-167"><span id="_Hlk477176062" class="anchor"></span>  判断ポイント   ユーザーが適切な Microsoft Teams クライアントをデバイスにインストールすることを妨げる制限事項はありますか?</span><span class="sxs-lookup"><span data-stu-id="bd736-167"><span id="_Hlk477176062" class="anchor"></span>  Decision Point   Are there any restrictions preventing users from installing the appropriate Microsoft Teams client on their devices?</span></span>
+  <span data-ttu-id="a261b-167"><span id="_Hlk477176062" class="anchor"></span>  判断ポイント   ユーザーが適切な Microsoft Teams クライアントをデバイスにインストールすることを妨げる制限事項はありますか?</span><span class="sxs-lookup"><span data-stu-id="a261b-167"><span id="_Hlk477176062" class="anchor"></span>  Decision Point   Are there any restrictions preventing users from installing the appropriate Microsoft Teams client on their devices?</span></span>
 
-<a name="client-update-management"></a><span data-ttu-id="bd736-168">クライアントの更新管理</span><span class="sxs-lookup"><span data-stu-id="bd736-168">Client update management</span></span>
+<a name="client-update-management"></a><span data-ttu-id="a261b-168">クライアントの更新管理</span><span class="sxs-lookup"><span data-stu-id="a261b-168">Client update management</span></span>
 ------------------------
 
-<span data-ttu-id="bd736-p111">クライアントは現在、IT 管理者の介入を必要とせずに Microsoft Teams サービスによって自動的に更新されています。利用可能な更新がある場合、クライアントは自動的にその更新をダウンロードします。アプリが一定時間アイドル状態となった場合には更新処理が開始されます。</span><span class="sxs-lookup"><span data-stu-id="bd736-p111">Clients are currently updated automatically by the Microsoft Teams service with no IT administrator intervention required. If an update is available, the client will automatically download the update and when the app has idled for a period of time, the update process will kick off.</span></span>
+<span data-ttu-id="a261b-p111">クライアントは現在、IT 管理者の介入を必要とせずに Microsoft Teams サービスによって自動的に更新されています。利用可能な更新がある場合、クライアントは自動的にその更新をダウンロードします。アプリが一定時間アイドル状態となった場合には更新処理が開始されます。</span><span class="sxs-lookup"><span data-stu-id="a261b-p111">Clients are currently updated automatically by the Microsoft Teams service with no IT administrator intervention required. If an update is available, the client will automatically download the update and when the app has idled for a period of time, the update process will kick off.</span></span>
 
-<a name="client-side-configurations"></a><span data-ttu-id="bd736-171">クライアント側の設定</span><span class="sxs-lookup"><span data-stu-id="bd736-171">Client-side configurations</span></span>
+<a name="client-side-configurations"></a><span data-ttu-id="a261b-171">クライアント側の設定</span><span class="sxs-lookup"><span data-stu-id="a261b-171">Client-side configurations</span></span>
 ---------------------------
 
-<span data-ttu-id="bd736-172">現在、テナント管理者、PowerShell、グループ ポリシー オブジェクトまたはレジストリのいずれかを介してクライアントを設定するオプションはサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="bd736-172">Currently, there are no supported options available to configure the client either through the tenant admin, PowerShell, Group Policy Objects or the registry.</span></span>
+<span data-ttu-id="a261b-172">現在、テナント管理者、PowerShell、グループ ポリシー オブジェクトまたはレジストリのいずれかを介してクライアントを設定するオプションはサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="a261b-172">Currently, there are no supported options available to configure the client either through the tenant admin, PowerShell, Group Policy Objects or the registry.</span></span>
 
-<a name="notification-settings"></a><span data-ttu-id="bd736-173">通知設定</span><span class="sxs-lookup"><span data-stu-id="bd736-173">Notification settings</span></span>
+<a name="notification-settings"></a><span data-ttu-id="a261b-173">通知設定</span><span class="sxs-lookup"><span data-stu-id="a261b-173">Notification settings</span></span>
 ----------------------------
 
-<span data-ttu-id="bd736-p112">現在、IT 管理者がクライアント側の通知設定を設定するオプションはありません。通知オプションはすべてユーザーによって設定されます。次の図に、既定のクライアント設定の概要を示します。</span><span class="sxs-lookup"><span data-stu-id="bd736-p112">There are currently no options available for IT administrators to configure client-side notification settings. All notification options are set by the user. The figure below outlines the default client settings.</span></span>
+<span data-ttu-id="a261b-p112">現在、IT 管理者がクライアント側の通知設定を設定するオプションはありません。通知オプションはすべてユーザーによって設定されます。次の図に、既定のクライアント設定の概要を示します。</span><span class="sxs-lookup"><span data-stu-id="a261b-p112">There are currently no options available for IT administrators to configure client-side notification settings. All notification options are set by the user. The figure below outlines the default client settings.</span></span>
 
 ![通知設定のスクリーンショット。](media/Get_clients_for_Microsoft_Teams_image6.png)
