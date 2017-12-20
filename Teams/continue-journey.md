@@ -7,12 +7,12 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Skype for Business から Microsoft Teams への移行を続けるためのガイダンス"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 67490b62f02d4bdd192dae90d462feefe046f0d7
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: c6a5400ba84c01acd9e53b0cbbe526cbdda92f38
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="drive-value-with-microsoft-teams-through-user-adoption"></a>ユーザーの導入を介して Microsoft Teams の価値を創出する
 ================================================================

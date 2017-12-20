@@ -7,12 +7,11 @@ ms.date: 10/23/2017
 ms.topic: article
 ms.service: msteams
 description: "管理者が Azure Active Directory ポータルのゲスト ユーザーに関する情報をどのようにして編集できるかについて説明します。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 0fa348f1801ed01619ebbdd76186e53edcb25711
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: bffe054d0e91d52274a7194d023a4f6e860faae2
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="edit-guest-user-information"></a>ゲスト ユーザー情報を編集する
 ===========================

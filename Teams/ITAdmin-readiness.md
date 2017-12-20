@@ -7,12 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams を紹介し、Microsoft Teams を計画、展開、運用する方法を管理者向けに説明するトレーニング ビデオ。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 2e1bd7385eb2bf36a21d1f07c61ed87343f6950e
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: d80179649c7e72f3a365bf4436a8e5d48a39842a
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 ==================================
