@@ -8,21 +8,24 @@ ms.topic: article
 ms.service: msteams
 description: "セキュリティ/コンプライアンス センターを使用した Microsoft Teams のユーザーまたはチームへの訴訟ホールドの適用と、データ要件に基づいて訴訟ホールドを適用する必要のある項目について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e400731545efb103aa0b6b865eef833238b4b154
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 290462b78a0424bc02d1cbe3df5ae65672e187f7
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Microsoft Teams ユーザーまたはチームに訴訟ホールドを適用する
 ==================================================
 
 ユーザーまたはチームに訴訟ホールドを適用するには、[セキュリティ/コンプライアンス センター](https://go.microsoft.com/fwlink/?linkid=854628)に移動します。新しいケースを作成すると、メールボックスまたはサイトのいずれかをホールドするオプションが提示されます。
 
-|||
-|---------|---------|
-|![注意アイコン。](media/Place_a_Microsoft_Teams_user_or_team_on_legal_hold_image1.png)<br></br> 注意     |ユーザーをホールドしてもグループは自動的にホールドされません。その逆も同様です。         |
-|![重要アイコン。](media/Place_a_Microsoft_Teams_user_or_team_on_legal_hold_image2.png)<br></br> 重要     |ユーザーまたはグループにホールドを適用すると、すべてのメッセージのコピーが保持されます。 たとえば、Clay さんがチャネルにメッセージを投稿し、そのメッセージを変更したとします。 ホールドのシナリオでは、これら両方のメッセージのコピーが保持されます。 訴訟ホールドなしでは、最新のメッセージのみが保持されます。         |
+> [!NOTE]
+> ユーザーをホールドしてもグループは自動的にホールドされません。その逆も同様です。
+
+> [!IMPORTANT]
+> ユーザーまたはグループにホールドを適用すると、すべてのメッセージのコピーが保持されます。 たとえば、Clay さんがチャネルにメッセージを投稿し、そのメッセージを変更したとします。 ホールドのシナリオでは、これら両方のメッセージのコピーが保持されます。 訴訟ホールドなしでは、最新のメッセージのみが保持されます。
+
+
 
 次の図は Clay さんに関する調査を示しています。 Clay さんは Brokers-Dealers チームのメンバーです。
 

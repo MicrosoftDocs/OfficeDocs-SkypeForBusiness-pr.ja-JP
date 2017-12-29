@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "監査ログから Microsoft Teams データを取得する方法について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 9d1a1c274ace1e680f890d7fe8abdea52886b073
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: b63f6b88d950038ec2e40e7b32eb74bc551cbdf1
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 ==================================================
@@ -32,9 +32,10 @@ Office 365 全体についての完全なイベント リストは広範囲に�
 監査の内容を調査する前に、監査を有効にする必要があります。監査を有効にするには、*セキュリティとコンプライアンス*管理センターに移動します。[*Search for activity (アクティビティの検索)*] で [**Start recording now (すぐにレコーディングを開始)** をクリックします。24 時間後に [*Search & Investigation (検索と調査)*] タブの下にある [*監査ログの検索*] で監査データが利用可能になります。
 
 
-| |  |
-|---------|---------|
-|![セキュリティとコンプライアンス センターのホーム ページのスクリーンショット。](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>重要     |利用できる監査データは、監査を有効にした時点以降のデータのみです。         |
+> [!IMPORTANT]
+> 利用できる監査データは、監査を有効にした時点以降のデータのみです。
+
+
 
 ![セキュリティとコンプライアンス センターの [Audit log search (監査ログの検索)] ページのスクリーンショット。](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image2.png)
 
@@ -51,6 +52,7 @@ Office 365 全体についての完全なイベント リストは広範囲に�
 3.  この情報は、必要に応じて Excel にエクスポートしたり、フィルタリングできます。
 
 
-|  | |
-|---------|---------|
-|![感嘆符アイコン。](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>重要 |これまで監査が有効でなかった場合は、監査を有効にしないと、データが監査ログに表示されません。         |
+> [!IMPORTANT]
+> これまで監査が有効でなかった場合は、監査を有効にしないと、データが監査ログに表示されません。
+
+

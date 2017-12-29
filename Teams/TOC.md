@@ -1,5 +1,5 @@
 
-# 開始
+# 使用を開始する
 ## [Microsoft Teams の概要](Teams-Overview.md)
 ## [Teams の導入に向けた環境の準備を確認する](environment-readiness.md)
 ## [Teams 用の Office 365 ライセンス](Office-365-licensing.md)
@@ -8,7 +8,11 @@
 ## [Office 365 グループと Teams](Office-365-groups.md)
 ## [Exchange と Teams の連携](Exchange-Teams-interact.md)
 ## [Teams との SharePoint Online と OneDrive for Business の連携](SharePoint-OneDrive-interact.md)
+## [Teams と Skype for Business の相互運用](Teams-and-SkypeforBusiness-interoperability.md)
 
+# [クイック スタート ガイド](quick-start-guides.md)
+## [クイック スタート: Teams の計画ガイド](quick-start-enable-Teams.md)
+## [通話プランを設定する](configuring-teams-calling-quickstartguide.md)
 
 # 計画
 ## [Microsoft Teams の展開の概要](deployment-overview.md)
@@ -51,9 +55,13 @@
 ## [PowerShell を使用してチームへのゲスト アクセスを制御する](guest-access-PowerShell.md)
 
 
-# [Cloud Voice](cloud-voice-deployment.md)
+# [Cloud voice](cloud-voice-deployment.md)
 ## [電話会議](audio-conferencing.md)
 ### [構想](audio-conferencing.md#Envision_AudioConferencing)
+## [通話プランが設定された電話システム](phone-system-with-calling-plans.md)
+### [構想](phone-system-with-calling-plans.md#Envision_PhoneSystemWithCallingPlans)
+## クイック スタート ガイド
+### [通話プランを設定する](configuring-teams-calling-quickstartguide.md)
 ## ビデオ
 ### [電話会議](audio-conferencing-videos.md)
 

@@ -1,35 +1,32 @@
 ---
-title: "Microsoft Teams のワークショップ キットと実践的ガイドの計画"
+title: "ワークショップ キット - Microsoft Teams の計画、提供、運用"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 09/25/2017
+ms.date: 12/15/2017
 ms.topic: article
 ms.service: msteams
-description: "管理者による Microsoft Teams の使用の開始をサポートするためのツールおよび実践的なガイダンスの計画"
+description: "管理者による Microsoft Teams の使用の開始をサポートするためのツールおよびワークショップ キットの計画。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 8861b25c08d1233949231031479f6fea031ee579
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 9f5914904e664f6ef2d04df6a9db04cecd9fe37c
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
-<a name="planning-workshop-kit-and-practical-guide-for-microsoft-teams"></a>Microsoft Teams のワークショップ キットと実践的ガイドの計画
+<a name="workshop-kit-plan-deliver-and-operate-microsoft-teams"></a>ワークショップ キット: Microsoft Teams の計画、提供、運用
 =============================================================
 
-組織で Teams をロールアウトするための手順を記載した以下の計画ツールと実践的ガイダンスをダウンロードしてください。
+組織で Teams を計画、提供、運用するための手順を記載した以下のツールをダウンロードしてください。
 
-- [Microsoft Teams Pre-workshop Questionnaire (Microsoft Teams プレワークショップのアンケート)](https://www.microsoft.com/en-us/download/55975)
+- [クイック スタート ガイド: Teams の正常な有効化](https://www.microsoft.com/en-us/download/55981)
     
-    Microsoft Teams Pre-workshop Questionnaire.docx は、現在の Office 365 環境についての基本的な情報を収集することを目的としています。ワークショップの主催者は、Microsoft Teams 計画ワークショップを開始する前に、この情報に基づいてコンテンツをカスタマイズできます。
+    このドキュメントでは Teams  を正常に有効にするための 5 つの実装段階について説明します。 このドキュメントには組織の現在の Office 365 環境に関する情報を収集する技術計画アンケートが含まれています。 ワークショップ リーダーはこの情報を基にワークショップのプレゼンテーションをカスタマイズできます。 アンケートでは、判断ポイントや次のステップの情報もワークショップから収集されます。
 
-- [Planning Workshop for Microsoft Teams (Microsoft Teams 用プランニング ワークショップ)](https://www.microsoft.com/en-us/download/55982) 
+- [ワークショップ: Microsoft Teams の計画、提供、運用](https://www.microsoft.com/en-us/download/55982) 
     
-    Planning Workshop for Microsoft Teams.pptx は、Microsoft Teams の使用の開始をサポートするための対話型の会話を提供する知識豊富な担当者を対象としています。ワークショップでは、Microsoft Teams の紹介、さらに決定ポイントと次のステップを使った手順の説明を出席者に提供します。
+    この PowerPoint セットを使用して、組織でワークショップを実施し、Teams のロールアウトを計画します。 このワークショップでは Teams を紹介し、判断ポイントと次のステップを通してお客様のチームをガイドします。
 
-- [Microsoft Teams Workshop Decision Points Summary (Microsoft Teams ワークショップの判断ポイントの概要)](https://www.microsoft.com/en-us/download/55981)
-    
-    Microsoft Teams Workshop Decision Points Summary.docx は Planning Workshop for Microsoft Teams と関連のヘルプ コンテンツで記録したすべての判断ポイントと次のステップを追跡するための単一のアセットです。
 
 ### <a name="see-also"></a>関連項目
 

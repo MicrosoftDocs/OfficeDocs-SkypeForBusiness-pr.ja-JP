@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "PowerShell を使用して、Microsoft Teams のチームへのゲスト アクセスを許可または拒否できます。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 563a1a56449be289572020dc226df69795596d1c
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: 0e087aadced6980db80890f423e3e6e3c4b7a701
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 12/15/2017
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>PowerShell を使用してチームへのゲスト アクセスを制御する
 ================================================
@@ -31,7 +31,7 @@ Office 365 管理センターと Azure Active Directory ポータルに加え、
 - 特定のチームまたは Office 365 グループのゲスト ユーザーを許可または拒否する
     
   
-詳しくは、「[PowerShell を使用してゲスト アクセスを制御する](https://support.office.com/en-us/article/Use-PowerShell-to-control-guest-access-bfc7a840-868f-4fd6-a390-f347bf51aff6#bkmk_usepowershell)」をご覧ください。
+詳しくは、「[Office 365 グループのゲスト アクセス](https://support.office.com/en-us/article/Use-PowerShell-to-control-guest-access-bfc7a840-868f-4fd6-a390-f347bf51aff6#bkmk_usepowershell)」の [管理] タブの「PowerShell を使用してゲスト アクセスを制御する」のセクションをご覧ください。
   
     
     
@@ -39,3 +39,4 @@ PowerShell を使用して、ドメインに基づいてゲスト ユーザー�
   
  
 チームのゲストを拒否したいがゲストに対して SharePoint サイトへのアクセスを引き続き許可する場合は、SharePoint の外部共有をオンに設定しているという前提の上に、Azure Active Directory Powershell コマンドレットを使用して Company オブジェクトの AllowGuestAccessToGroups パラメーターを無効にすることができます。   
+

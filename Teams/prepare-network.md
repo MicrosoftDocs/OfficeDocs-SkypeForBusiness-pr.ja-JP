@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "ネットワーク要件、帯域幅要件、その他の考慮事項といった Microsoft Teams ネットワークの準備と管理について説明します。"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 399a0a6ed6ac5bfabeac97f41e82e0237bca0b74
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 64d7ba35e8882fc0baa3522e1a5779b3e7ef8aaf
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する
 =================================================
@@ -27,9 +27,10 @@ Microsoft Teams は 3 つの形態のトラフィックを組み合わせて使�
 
 この組み合わせは 2 つのレベルにおけるネットワークに対して影響を及ぼします。ピアツーピアの場合、トラフィックは Microsoft Teams クライアント間で直接にフローします。会議のシナリオの場合、トラフィックは Office 365 環境と Microsoft Teams クライアント間をフローします。最適なトラフィック フローを実現するには、内部ネットワーク セグメント間 (WAN 上でのサイト間) のフロー、さらにネットワーク サイトと Office 365 間のフローの両方を許可する必要があります。適切なポートを開かなかったり、特定のポートを自動的に遮断すると、ネットワーク エクスペリエンスの質が低下します。
 
-|  |  |
-|---------|---------|
-|![重要アイコン。](media/Prepare_your_organizations_network_for_Microsoft_Teams_image1.png)<br></br>重要    |現在、iOS と Android モバイル デバイスでは会議がサポートされていますが、Windows Phone ではサポートされていません (Windows Phone でのサポートは準備中です)。       |
+
+
+> [!IMPORTANT]
+> 現在、iOS と Android モバイル デバイスでは会議がサポートされていますが、Windows Phone ではサポートされていません (Windows Phone でのサポートは準備中です)。
 
 Microsoft Teams でリアルタイム メディアの最適な操作性を実現するには、Office 365 のネットワーク要件を満たす必要があります (詳しくは、「[Skype for Business Online におけるメディアの品質とネットワーク接続性のパフォーマンス](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US)」をご覧ください)。
 
@@ -47,9 +48,10 @@ Microsoft Teams でリアルタイム メディアの最適な操作性を実現
 
 これらのネットワーク セグメントの両方をテストするには、Network Assessment Tool を使用できます (提供元: [https://www.microsoft.com/en-us/download/details.aspx?id=53885](https://go.microsoft.com/fwlink/?linkid=855799))。このツールは、クライアント PC で直接展開するか、Customer Network Edge に接続された PC/ラップトップで展開できます。このツールには簡易的なマニュアルが含まれています。このツールの使用法について詳細なマニュアルについては、[Network Readiness Assessment](https://go.microsoft.com/fwlink/?linkid=855800) にアクセスしてください。この Network Readiness Assessment を実行すると、Microsoft Teams などのリアルタイム アプリケーションの実行に対するネットワークの準備を検証できます。
 
-|  |  |
-|---------|---------|
-|![注意アイコン。](media/Prepare_your_organizations_network_for_Microsoft_Teams_image2.png)<br></br>注意    |これは Skype for Business を展開するカスタマ向けに推奨される Network Readiness Assessment と同じです。         |
+
+
+> [!NOTE]
+> これは Skype for Business を展開するカスタマ向けに推奨される Network Readiness Assessment と同じです。
 
 <a name="bandwidth-requirements"></a>帯域幅要件
 ----------
@@ -58,9 +60,10 @@ Microsoft Teams の帯域幅の計算は複雑であるため、それを支援�
 
 以下の内容は、付属的な背景情報として利用できます。ただし、[帯域幅計算ツール](https://aka.ms/bwcalc) を使用して必要な項目を追跡する場合は、推奨事項として参考にしてください。
 
-|  |  |
-|---------|---------|
-|![注意アイコン。](media/Prepare_your_organizations_network_for_Microsoft_Teams_image2.png)<br></br>注意    |必要とされる帯域幅が利用できない場合は、Microsoft Teams 内部のメディア スタックにより、利用可能な帯域幅の不足量を補うため音声/ビデオ セッションの品質が低下し、その結果、通話や会議の品質も影響を受けます。Microsoft Teams クライアントはビデオの品質よりもオーディオの品質を優先します。したがって、必要とされる帯域幅を利用可能な状態にすることが非常に重要になります。       |
+
+
+> [!IMPORTANT]
+>必要とされる帯域幅が利用できない場合は、Microsoft Teams 内部のメディア スタックにより、利用可能な帯域幅の不足量を補うため音声/ビデオ セッションの品質が低下し、その結果、通話や会議の品質も影響を受けます。Microsoft Teams クライアントはビデオの品質よりもオーディオの品質を優先します。したがって、必要とされる帯域幅を利用可能な状態にすることが非常に重要になります。
 
 
 |アクティビティ  |ダウンロードの帯域幅  |アップロードの帯域幅  |トラフィック フロー |
