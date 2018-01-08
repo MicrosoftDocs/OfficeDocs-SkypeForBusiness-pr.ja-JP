@@ -7,12 +7,12 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 description: "ゲスト ユーザーが利用できる Microsoft Teams の機能性について説明します。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 596d0dd3bb754e6f6c983beb9ba62d775768d252
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 7ce64b92d5b51c7bfc154b955ed0c9c5ea1bab99
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="what-the-guest-experience-is-like"></a>ゲストのエクスペリエンスについて
 =================================
@@ -57,7 +57,7 @@ ms.lasthandoff: 11/11/2017
 |チャット ファイルを共有する  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |アプリ (タブ、ボット、コネクタ) を追加する  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |テナント全体およびチーム/チャネルのゲスト アクセス ポリシーを作成する  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Office 365 テナントのドメイン外のユーザーを招待する  <br/> ||![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Office 365 テナントのドメイン外のユーザーを招待する <br/>  *この機能はチーム所有者によって制御されます。*  <br/> <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |チームを作成する  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |パブリック チームを検出して参加する  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |組織図を表示する  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||

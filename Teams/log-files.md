@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Teams のトラブルシューティングでログ ファイルを使用する | Microsoft サポート"
+title: "Microsoft Teams のトラブルシューティングでログ ファイルを使用する"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams によって生成されるデバッグ ログ、メディア ログ、デスクトップ ログ、これらのログの場所、トラブルシューティングでのログの活用について説明します。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a014e33df7587aee94a751e2a057f421655009fc
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 109f23ce188c5046d7aeaef7abc9d952a7780f47
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Microsoft Teams のトラブルシューティングでログ ファイルを使用する
 =================================================

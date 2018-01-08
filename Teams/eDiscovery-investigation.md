@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Teams のコンテンツに対して電子情報開示の調査を行う | Microsoft サポート"
+title: "Microsoft Teams のコンテンツに対して電子情報開示の調査を行う"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "訴訟手続きのためにすべての電子保持情報を提出する必要がある場合など、電子情報開示を実施するために必要な手続きについて説明します。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 2ca867ccdb3efb7a7d80152a4f55063cafc3bb28
-ms.sourcegitcommit: bbce24b59b31552a92eb76a8e360e8c72b4fdd8a
+ms.openlocfilehash: 8746e08e6714902ee6923286c79861321916dd6d
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams のコンテンツに対して電子情報開示の調査を行う
 ============================

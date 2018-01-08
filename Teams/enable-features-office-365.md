@@ -1,23 +1,23 @@
 ---
-title: "Office 365 を使用する組織で Microsoft Teams の機能を有効にする | Microsoft サポート"
+title: "Office 365 を使用する組織で Microsoft Teams の機能をオンにする"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "テナント全体の設定、電子メール統合、アプリ、クラウド ストレージなど、Office 365 を使用する組織で有効に設定できるすべての Microsoft Teams 機能について説明します。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: c785e554034cd87fd27f5137f206c8dc0e5f972a
-ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
+description: "テナント全体の設定、電子メール統合、アプリ、クラウド ストレージなど、Office 365 を使用する組織でオンに設定することができるすべての Microsoft Teams 機能について説明します。"
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: d6a4a8d10e20b57df16fac3c7ffeba0bacd64d2e
+ms.sourcegitcommit: 19d7af5d60276c0a1ca3e01588b91c34a3fd0f92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 12/22/2017
 ---
-<a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>Office 365 を使用する組織で Microsoft Teams の機能を有効にする
+<a name="turn-on-microsoft-teams-features-in-your-office-365-organization"></a>Office 365 を使用する組織で Microsoft Teams の機能をオンにする
 ======================================================
 
-Microsoft Teams には、テナント レベルで有効または無効にすることができる設定が複数あります。テナントで Teams を有効にすると、Teams が有効なすべてのユーザーにもテナント レベルの設定が継承されます。
+Teams には、Office 365 テナント レベルでオンまたはオフにすることができる設定が複数あります。テナントで Teams をオンにすると、Teams が有効なすべてのユーザーにもテナント レベルの設定が継承されます。
 
 Teams 内で Office 365 管理者が有効または無効にできる機能のリストを次に示します。
 
@@ -26,10 +26,12 @@ Teams 内で Office 365 管理者が有効または無効にできる機能の�
 > [!NOTE]
 > Office 365 管理者はいつでも Office 365 管理センターを介して Microsoft Teams をオフにすることができます。Teams をオフにした場合でも、Microsoft Teams の有効なライセンスを所有するユーザーには Teams アプリ タイルがそのまま表示され続けます。ユーザーからライセンスを削除する方法について詳しくは、「[Microsoft Teams へのユーザー アクセスを管理する](user-access.md)」をご覧ください。Teams を無効にすると、Teams クライアントからのアクセスが遮断されます。ただし、SharePoint や OneDrive を介したファイルなど、その他のクライアントやサービスから利用できるデータには継続的に利用できます。チームを明示的に削除しない限り、すべてのデータはそのまま残ります。
 
-<a name="tenant-wide-settings"></a>テナント全体の設定 
+<a name="office-365-tenant-wide-settings"></a>Office 365 テナント全体の設定 
 ---------------------
 
 [**テナント全体の設定**] で、[全般]、[電子メール統合]、[アプリ]、[Custom cloud storage (カスタム クラウド ストレージ)] のオプションをオンまたはオフに切り替えられます。
+
+Teams の**テナント全体の設定**を編集するには、Office 365 管理センターに移動します。 [**設定**]  >  [**サービスとアドイン**]  >  [**Microsoft Teams**] の順に選択します。
 
 ### <a name="general"></a>全般
 
@@ -43,31 +45,31 @@ Teams 内で Office 365 管理者が有効または無効にできる機能の�
 
     ![組織図のスクリーンショット。](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image3.png)
 
--   **Microsoft Teams を所有していない受信者に対して Skype for Business を使用する:** この設定を有効にすると、Microsoft Teams のユーザーは組織内で Microsoft Teams が有効でないユーザーに対して Skype for Business 経由で連絡することができます。
+-   **Teams を所有していない受信者に対して Skype for Business を使用する:** この設定を有効にすると、Teams のユーザーは組織内で Teams が有効でないユーザーに対して Skype for Business 経由で連絡することができます。
 
--   **T-Bot がプロアクティブにヘルプ メッセージに送るのを許可する:** この設定を有効にすると、T-Bot はプライベート チャット セッションを開始し、Microsoft Teams の使用に関するガイドを提供します。
+-   **T-Bot がプロアクティブにヘルプ メッセージに送るのを許可する:** この設定を有効にすると、T-Bot はプライベート チャット セッションを開始し、Teams の使用に関するガイドを提供します。
 
-    ![Microsoft Teams インターフェイスの T-Bot セクションのスクリーンショット。](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image4.png)
+    ![Teams インターフェイスの T-Bot セクションのスクリーンショット。](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image4.png)
 
 <a name="email-integration"></a>電子メール統合
 -----------------
 
-この機能をオンにすると、ユーザーはチャネル電子メール アドレスを使用して、Microsoft Teams のチャネルにメールを送信できるようなります。この操作は、ユーザーが所有するチームに属しているどのチャネルに対しても行えます。ユーザーのメールは、チーム メンバーに対して有効になっている追加のコネクタがあるチーム内の任意のチャネルにも送信できます。また、ユーザーにチャネル電子メール アドレスを作成する権限がない場合でも、権限のある他のユーザーがアドレスを作成すれば、そのアドレスに該当チャネルの \<その他アイコン\> メニューからアクセスできます。
+この機能をオンにすると、ユーザーはチャネル電子メール アドレスを使用して、Teams のチャネルにメールを送信できるようなります。 この操作は、ユーザーが所有するチームに属しているどのチャネルに対しても行えます。 ユーザーのメールは、チーム メンバーに対して有効になっている追加のコネクタがあるチーム内の任意のチャネルにも送信できます。 また、ユーザーにチャネル電子メール アドレスを作成するためのアクセス許可がない場合でも、権限のある他のユーザーがアドレスを作成すれば、そのアドレスに該当チャネルの \<その他アイコン\> メニューからアクセスできます。
 
 [電子メール統合] セクションでは組織の次の設定を構成できます。
 
    ![テナント全体の設定の [電子メール統合] セクションのスクリーンショット。](media/QS-edu-email-integration.png)
 
--   **ユーザーがチャネルにメールを送信するのを許可する:** 有効にすると、メール フックが有効に設定されます。ユーザーは Microsoft Teams のチャネルの電子メール アドレス宛に電子メールを送信することでチャネルにメッセージを投稿できるようになります。
+-   **ユーザーがチャネルにメールを送信するのを許可する:** 有効にすると、メール フックが有効に設定されます。ユーザーは Teams のチャネルの電子メール アドレス宛に電子メールを送信することでチャネルにメッセージを投稿できるようになります。
 
 > チャネルの電子メール アドレスを見つけるには、チャネル名の隣にある [**その他のオプション**] をクリックしてから [**電子メール アドレスの取得**] を選択します。
 
--   **送信者の制限一覧:** 送信者のドメインをさらに制限して、SMTP ドメインのみが Microsoft Teams チャネルに電子メールを送信できるようにします。
+-   **送信者の制限一覧:** 送信者のドメインをさらに制限して、SMTP ドメインのみが Teams チャネルに電子メールを送信できるようにします。
 
 <a name="apps"></a>アプリ
 ----
 
-Microsoft Teams の [アプリ] は、チームが関心を持つツールとサービスをチャネルやチャットに統合するための優れたツールです。
+Teams の [アプリ] は、チームが関心を持つツールとサービスをチャネルやチャットに統合するための優れたツールです。
 
 [**アプリ**] セクションでは、組織の次の設定を構成できます。
 
@@ -81,7 +83,7 @@ Microsoft Teams の [アプリ] は、チームが関心を持つツールとサ
 <a name="custom-cloud-storage"></a>カスタム クラウド ストレージ
 --------------------
 
-現時点では、Microsoft Teams のクラウド ストレージ オプションには、Box、Dropbox、Google ドライブ、ShareFile があります。ユーザーは Microsoft Teams チャネルやチャットでクラウド ストレージ サービスを介してファイルをアップロード、共有できます。組織が使用するクラウド ストレージ プロバイダの横にあるトグル スイッチをクリックまたはタップします。
+現時点では、Teams のクラウド ストレージ オプションには、Box、Dropbox、Google ドライブ、ShareFile があります。 ユーザーは Teams チャネルやチャットでクラウド ストレージ サービスを介してファイルをアップロード、共有できます。 組織が使用するクラウド ストレージ プロバイダの横にあるトグル スイッチをクリックまたはタップします。
 
 ![[カスタム クラウド ストレージ] セクションのスクリーンショット。](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
 
@@ -97,11 +99,12 @@ Microsoft Teams の [アプリ] は、チームが関心を持つツールとサ
 
 管理者として、ポータルの [グループ] ダッシュボードを使用して、チームの所有者とメンバーを管理することができます。[チームとチャネル] セクションで、[**Office 365 管理センターの [グループ] ダッシュボードを使用してチームを管理する**] のリンクをクリックしてください。
 
-Microsoft Teams でチームを作成できる組織のユーザーを制御できます。Office 365 グループで定義した作成設定が Microsoft Teams にも適用されます。Office 365 グループの管理について詳しくは、「[Create Office 365 groups (Office 365 グループを作成する)](https://support.office.com/en-us/article/Create-Office-365-groups-74a1ef8b-3844-4d08-9980-9f8f7a36000f)」と「[Control who can create Office 365 Groups (Office 365 グループを作成できるユーザーを制御する)](https://support.office.com/en-us/article/Control-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618)」をご覧ください。
+Teams でチームを作成できる組織のユーザーを制御できます。 Office 365 グループで定義した作成設定が Microsoft Teams にも適用されます。 Office 365 グループの管理の詳細については、「[Office 365 グループを作成する](https://support.office.com/en-us/article/Create-Office-365-groups-74a1ef8b-3844-4d08-9980-9f8f7a36000f)」および「[Office 365 グループを作成できるユーザーを管理する](https://support.office.com/en-us/article/Control-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618)」をご覧ください。
 
-注意: [グループ] ダッシュボードでチームを作成することはできません。チームは、デスクトップ クライアントまたは Web アプリを使用して作成する必要があります。
+> [!NOTE]
+> [グループ] ダッシュボードでチームを作成することはできません。 チームは、Teams デスクトップ クライアントまたは Web アプリを使用して作成する必要があります。
 
-既定では、どのユーザーもチームやグループを作成できます。ユーザーは、クライアント (デスクトップ クライアントまたは Web アプリ) の左側にある [チーム] を選択し、クライアントの下部のチーム リストの下にある [チームを作成] を選択して、チームを作成することができます。
+既定では、どのユーザーもチームやグループを作成できます。 Teams クライアント (デスクトップ クライアントまたは Web アプリ) の左側にある [**チーム**] を選択し、クライアントの下部のチーム リストの下にある [**チームを作成**] を選択して、チームを作成することができます。
 
 現在、Office 365 テナントが所有できるチームの既定の最大数は 500,000 です。グローバル管理者はチームを無制限に作成できます。1 人のユーザーが作成できるチームの数は 250 です。チーム所有者は 2500 人のメンバーをチームに追加できます。
 

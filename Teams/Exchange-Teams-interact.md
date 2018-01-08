@@ -1,5 +1,5 @@
 ---
-title: "Exchange と Microsoft Teams の連携 | Microsoft サポート"
+title: "Exchange と Microsoft Teams の連携"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,21 +7,21 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "チームの作成、チームへの参加、チャネルの作成など、Microsoft Teams と様々な Exchange のセットアップとの間に存在する機能について説明します。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a7d3bed465d1a13e35bbbe92c5fd2b8237e199b9
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 4fc7da7d68c13bbadec935573c827cf767c9afe4
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携 
 =========================================
 
 Microsoft Teams の全機能を活用するには、どのユーザーも Exchange Online、SharePoint Online、Office 365 グループの作成へのアクセスを許可されている必要があります。
 
-ユーザーの Exchange メールボックスは、オンラインまたはオンプレミスにホストすることができます。Exchange Online または Exchange 専用 vNext にホストされるユーザーは、Microsoft Teams の全機能を使用できます。チームやチャネルの作成およびそれらへの参加、会議の作成および表示、ユーザー プロフィールの写真の変更、コネクタやタブ、ボットの追加と構成、およびチャットや通話を行うことができます。
+ユーザーの Exchange メールボックスは、オンラインまたはオンプレミスにホストすることができます。Exchange Online または Exchange 専用 vNext にホストされるユーザーは、Teams の全機能を使用できます。チームやチャネルの作成およびそれらへの参加、会議の作成および表示、通話とチャット、ユーザー プロフィールの写真の変更、コネクタやタブ、ボットの追加と構成を行うことができます。
 
-Exchange Online 専用 – レガシーまたは Exchange On-premises にホストされるユーザーは、Office 365 用の Azure Active Directory と同期する必要があります。チームやチャネルの作成およびそれらへの参加、タブ、ボットの追加と構成、およびチャットや通話を行うことができます。ただし、ユーザー プロファイルの写真を変更したり、会議を作成して表示したり、コネクタを追加して構成したりすることはできません。別のユーザーが構成したコネクタからメッセージを受信することができます。
+Exchange Online 専用 – レガシーまたは Exchange On-premises にホストされるユーザーは、Office 365 用の Azure Active Directory と同期する必要があります。 チームやチャネルの作成およびそれらへの参加、タブ、ボットの追加と構成、およびチャットや通話を行うことができます。 ただし、ユーザー プロファイルの写真を変更したり、コネクタを追加して構成したりすることはできません。 別のユーザーが構成したコネクタからメッセージを受信することができます。 メッセージの作成や表示については、条件が少し複雑です。会議の作成と表示は、Exchange 2016 累積更新プログラム 3 (CU3) 以降でサポートされますが、Exchange 2016 CU3 以前のバージョンではサポートされません。
 
 次の表では、さまざまな環境でホストされた Exchange Online のユーザーのための情報を示します。
 

@@ -1,23 +1,26 @@
 ---
-title: "Microsoft Teams でチームを編成するためのベスト プラクティス | Microsoft サポート"
+title: "Microsoft Teams でチームを編成するためのベスト プラクティス"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "固有のニーズに基づきチームを構築するにあたって Microsoft Teams でチームを組織するためのベスト プラクティスについて紹介します。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 936d5132fb71563f1f8b2fff5561084c4201425a
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+description: "組織のニーズを満たすように Microsoft Teams でチームを組織するためのベスト プラクティスについて説明します。"
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 37b40af804193039cc2c2a8b5fa37a4547b896b0
+ms.sourcegitcommit: 5ab90d4bd39bf45198ef73d0fd45dd3d8baa6acb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/21/2017
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Microsoft Teams でチームを編成するためのベスト プラクティス
 ======================================================
 
-チームを作成する前に、目標、プロジェクト、作業項目、達成に向けて協力してくれる組織の人またはグループについて考えるようにすると良いでしょう (目標を達成する上で助けとなる人、グループを追加する際は慎重に選択してください)。作成したら、これらの人/グループを追加して共同作業を始めます。各チームにはできれば 1 人以上の所有者を設定してください ([*Managing Teams*](https://support.office.com/en-US/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499) を参照してください)。
+> [!TIP]
+> Teams を使用するためのベスト プラクティスまたはヒントはありますか? この記事の終わりにある**コメント** セクションからお知らせください。
+
+チームを作成する前に、目標、プロジェクト、作業項目について考えて、それらを達成するために協力してくれる組織の人またはグループについて検討すると良いでしょう。 作成したら、これらの人/グループをチームに追加して共同作業を始めます。 各チームには 1 人以上の所有者を指定することをお勧めします。詳細については、[*Teams の管理*](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499)をご覧ください。
 
 まずは少人数のチーム メンバーでブレインストーミングを行って進めていき、進行に従って新しい人/グループを追加することができます。Microsoft Teams の優れた点として、新しく追加された人/グループは、参加のタイミングを問わず会話やファイルを入手できるため、何が議論されていたのかについてすぐに追いつくことができるということが挙げられます。同じメンバーのセットを伴う異なるチームを作成することは避けてください。そのようにすると、プロジェクトや目標を達成する上で焦点が適切に定まらない場合があるためです。このような種類のグループ規模のコミュニケーションの共有には、Outlook が最適なツールとなります。
 

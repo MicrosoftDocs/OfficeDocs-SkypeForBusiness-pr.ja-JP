@@ -7,17 +7,16 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 description: "ゲストがどのような方法で Microsoft Teams のチームに参加するよう招待されるかについての簡単な概要を理解します。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 68aa176d3a1ab75a7d6d3baec01c18242ebea341
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: e7e847fb4f45fa4f026889af16b82cf0a3c47c67
+ms.sourcegitcommit: fe3da7145039ce514fbaa9443a4a1b9879dd6264
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="how-a-guest-joins-a-team"></a>ゲストがチームに参加する方法
 ========================
 
-Microsoft Teams でのチーム所有者は、Web またはデスクトップを介してチームにゲストを追加したり、チームのゲストを管理できます。 Azure Active Directory に対応する電子メール アドレス、または Office 365 の職場または学校アカウントを持つユーザーのみをゲスト ユーザーとして追加できます。
+Microsoft Teams でのチーム所有者は、Web またはデスクトップを介してチームにゲストを追加したり、チームのゲストを管理できます。 Azure Active Directory に対応する電子メール アドレス、または Office 365 の職場または学校アカウントを持つユーザーのみをゲスト ユーザーとして追加できます。 パートナーやコンサルタントなど組織外の人のみをゲストとして追加できます。 組織内のユーザーは通常のチーム メンバーとして参加できます。
   
     
     
@@ -36,10 +35,10 @@ Microsoft Teams でのチーム所有者は、Web またはデスクトップを
 - **手順 2** Office 365 管理者またはチーム所有者は必要に応じてゲストが利用できる操作を管理します。 たとえば、チャネルの追加または削除、ファイルへのアクセスの無効化といった操作をゲストに許可します。
     
   
-- **手順 3** ゲストは、チームへの参加を招待する「ようこそ」メールをチーム所有者から受け取ります。 招待状を受け取った後、ゲストは[チームやチャネルへの参加](https://support.office.com/en-us/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels)、メッセージの受信や返答、[チャネル内のファイルへのアクセス](https://support.office.com/en-us/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e)、チャットへの参加を行うことができるようになります。 Teams の使用時には、すべてのユーザーがテキストとアイコンの組み合わせにより、チームにゲストが参加していることを知ることができます。 詳しくは、「[ゲストのエクスペリエンス](#guestexp)」をご覧ください。
+- **手順 3** ゲストは、チームへの参加を招待する「ようこそ」メールをチーム所有者から受け取ります。 招待状を受け取った後、ゲストは[チームやチャネルへの参加](https://support.office.com/en-us/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels)、メッセージの受信や返答、[チャネル内のファイルへのアクセス](https://support.office.com/en-us/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e)、チャットへの参加を行うことができるようになります。 Teams の使用時には、すべてのユーザーがテキストとアイコンの組み合わせにより、チームにゲストが参加していることを知ることができます。 詳しくは、「[ゲストのエクスペリエンスについて](guest-experience.md)」をご覧ください。
     
   
 ゲストは Teams の Web やデスクトップ クライアントを使っていつでもチームから脱退することができます。 詳しくは、「[How do I leave a team? (チームから脱退する方法を教えてください。)](https://support.office.com/en-us/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)」をご覧ください。
 
 > [!NOTE]
-> パートナーやコンサルタントなど組織外の人のみをゲストとして追加できます。 組織内のユーザーは通常のチーム メンバーとして参加できます。 
+> ユーザーはチームを自分の意志で脱退することができますが、テナントからユーザーを削除できるのは管理者のみです。 

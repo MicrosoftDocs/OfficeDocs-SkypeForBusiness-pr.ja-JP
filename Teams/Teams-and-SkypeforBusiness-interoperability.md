@@ -7,12 +7,12 @@ ms.date: 12/12/2017
 ms.topic: article
 ms.service: msteams
 description: "Teams と Skype for Business の相互運用性とそれがチャットや通話のエクスペリエンスに及ぼす影響について説明します。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a6593d6e2bc7302817a87c418da4bacb70f03b42
-ms.sourcegitcommit: 334fee0485e16a6485055eff586203cc30e6fdc9
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 8eca9f18d02d76fe1ab1b754ecf8a49b6b20aec3
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="microsoft-teams-and-skype-for-business-interoperability"></a>Microsoft Teams と Skype for Business の相互運用性
 =======================================================

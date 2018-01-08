@@ -1,18 +1,18 @@
 ---
-title: "Microsoft Teams のロールアウトをサポートするツールを入手する | Microsoft  サポート"
+title: "Microsoft Teams のロールアウトをサポートするツールを入手する"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "電子メールのテンプレート、スタートアップガイド、Customer Success Kit のリソースなど、Microsoft Teams のロールアウトをサポートするツールについて説明します。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 1566fe26542204c0c82805fe44c6e85af849ecdf
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+description: "電子メールのテンプレート、スタートアップガイド、Customer Success Kit など、Microsoft Teams のロールアウトをサポートするツールを検索します。"
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 217cfa5678ab8ffcb7f1ad31bf357c84825b5226
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>Microsoft Teams のロールアウトをサポートするツールを入手する
 =================================================
