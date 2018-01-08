@@ -1,6 +1,6 @@
 
-# 使用を開始する
-## [Microsoft Teams の概要](Teams-Overview.md)
+# 開始
+## [Teams の概要](Teams-Overview.md)
 ## [Teams の導入に向けた環境の準備を確認する](environment-readiness.md)
 ## [Teams 用の Office 365 ライセンス](Office-365-licensing.md)
 ## [Teams でのチームとチャネルの概要](teams-channels-overview.md)
@@ -10,25 +10,26 @@
 ## [Teams との SharePoint Online と OneDrive for Business の連携](SharePoint-OneDrive-interact.md)
 ## [Teams と Skype for Business の相互運用](Teams-and-SkypeforBusiness-interoperability.md)
 
-# [クイック スタート ガイド](quick-start-guides.md)
+# [Teams の管理者のためのクイック スタート ガイド](quick-start-guides.md)
 ## [クイック スタート: Teams の計画ガイド](quick-start-enable-Teams.md)
 ## [通話プランを設定する](configuring-teams-calling-quickstartguide.md)
+## [クイック スタート - 教育用 Teams](Teams-quick-start-edu.yml)
 
 # 計画
-## [Microsoft Teams の展開の概要](deployment-overview.md)
+## [Teams の展開の概要](deployment-overview.md)
 ## [Teams でチームを作成するときの Office 365 グループの計画](plan-Office-365-groups.md)
 ## [Teams 用に組織のネットワークを準備する](prepare-network.md)
 ## [Office 365 の URL と IP アドレスの範囲](Office-365-URLs-IP-address-ranges.md)
-## [Microsoft Teams のワークショップ キットと実践的ガイドの計画](planning-workshop-practical-guide.md)
+## [ワークショップ キット: Teams の計画、提供、運用](planning-workshop-practical-guide.md)
 
 # 導入
-## [Microsoft Teams の変更管理戦略を作成する](change-management-strategy.md)
+## [Teams の変更管理戦略を作成する](change-management-strategy.md)
 ## [Teams でのユーザー フィードバックの方法のベスト プラクティス](best-practices-feedback.md)
 ## [Teams のロールアウトをサポートするツールを入手する](rollout-tools.md)
 ## [T-Bot を使用して Teams のユーザーをサポートする](T-Bot.md)
 
 # 管理
-## [Microsoft Teams のクライアントを取得する](get-clients.md)
+## [Teams のクライアントを取得する](get-clients.md)
 ## [Office 365 を使用する組織で Teams をセットアップする](Office-365-set-up.md)
 ## [Teams で役割と権限を割り当てる](assign-roles-permissions.md)
 ## [Office 365 を使用する組織で Teams の機能を有効にする](enable-features-office-365.md)
@@ -55,7 +56,7 @@
 ## [PowerShell を使用してチームへのゲスト アクセスを制御する](guest-access-PowerShell.md)
 
 
-# [Cloud voice](cloud-voice-deployment.md)
+# [Cloud Voice](cloud-voice-deployment.md)
 ## [電話会議](audio-conferencing.md)
 ### [構想](audio-conferencing.md#Envision_AudioConferencing)
 ## [通話プランが設定された電話システム](phone-system-with-calling-plans.md)
@@ -80,7 +81,7 @@
 
 # セキュリティとコンプライアンス
 ## [Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)
-## [Microsoft Teams での ID モデルと認証](identify-models-authentication.md)
+## [Teams での ID モデルと認証](identify-models-authentication.md)
 ## [Teams でイベントの監査ログを検索する](audit-log-events.md)
 ## [Teams のコンテンツに対して電子情報開示の調査を行う](eDiscovery-investigation.md)
 ## [Teams のコンテンツ検索を使用する](content-search.md)
@@ -94,7 +95,8 @@
 ## [Teams クライアントの接続性の問題をトラブルシューティングする](connectivity-issues.md)
 ## [Teams のトラブルシューティングでログ ファイルを使用する](log-files.md)
 
-
+# 教育用 Teams
+## [管理者向けのクイック スタート - 教育用 Teams](Teams-quick-start-edu.yml)
 
 # [開発者向けの Teams のマニュアル](https://docs.microsoft.com/microsoftteams/platform)
 

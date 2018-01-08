@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Teams のトラブルシューティングでログ ファイルを使用する | Microsoft サポート"
+title: "Microsoft Teams のトラブルシューティングでログ ファイルを使用する"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,95 +7,94 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams によって生成されるデバッグ ログ、メディア ログ、デスクトップ ログ、これらのログの場所、トラブルシューティングでのログの活用について説明します。"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a014e33df7587aee94a751e2a057f421655009fc
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 109f23ce188c5046d7aeaef7abc9d952a7780f47
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
-<a name="use-log-files-in-troubleshooting-microsoft-teams"></a><span data-ttu-id="9a38f-103">Microsoft Teams のトラブルシューティングでログ ファイルを使用する</span><span class="sxs-lookup"><span data-stu-id="9a38f-103">Use log files in troubleshooting Microsoft Teams</span></span>
+<a name="use-log-files-in-troubleshooting-microsoft-teams"></a><span data-ttu-id="ad754-103">Microsoft Teams のトラブルシューティングでログ ファイルを使用する</span><span class="sxs-lookup"><span data-stu-id="ad754-103">Use log files in troubleshooting Microsoft Teams</span></span>
 =================================================
 
-<span data-ttu-id="9a38f-104">クライアントによって自動的に生成されるログは 3 種類あり、これらのログを使用して Microsoft Teams のトラブルシューティングに役立てることができます。</span><span class="sxs-lookup"><span data-stu-id="9a38f-104">There are three types of log files automatically produced by the client that can be leveraged to assist in troubleshooting Microsoft Teams.</span></span>
+<span data-ttu-id="ad754-104">クライアントによって自動的に生成されるログは 3 種類あり、これらのログを使用して Microsoft Teams のトラブルシューティングに役立てることができます。</span><span class="sxs-lookup"><span data-stu-id="ad754-104">There are three types of log files automatically produced by the client that can be leveraged to assist in troubleshooting Microsoft Teams.</span></span>
 
--   <span data-ttu-id="9a38f-105">デバッグ ログ</span><span class="sxs-lookup"><span data-stu-id="9a38f-105">Debug logs</span></span>
+-   <span data-ttu-id="ad754-105">デバッグ ログ</span><span class="sxs-lookup"><span data-stu-id="ad754-105">Debug logs</span></span>
 
--   <span data-ttu-id="9a38f-106">メディア ログ</span><span class="sxs-lookup"><span data-stu-id="9a38f-106">Media logs</span></span>
+-   <span data-ttu-id="ad754-106">メディア ログ</span><span class="sxs-lookup"><span data-stu-id="ad754-106">Media logs</span></span>
 
--   <span data-ttu-id="9a38f-107">デスクトップ ログ</span><span class="sxs-lookup"><span data-stu-id="9a38f-107">Desktop logs</span></span>
+-   <span data-ttu-id="ad754-107">デスクトップ ログ</span><span class="sxs-lookup"><span data-stu-id="ad754-107">Desktop logs</span></span>
 
-<span data-ttu-id="9a38f-p101">Microsoft サポートでサポート リクエストを作成する際、サポート エンジニアによってデバッグ ログが要求されます。サポート リクエストを作成する前にこのログを手元に用意しておくと、Microsoft はすばやく問題解決を開始することができます。メディア ログやデスクトップ ログは Microsoft によって要求された場合のみ必要です。</span><span class="sxs-lookup"><span data-stu-id="9a38f-p101">When creating a support request with Microsoft Support, the support engineer will require the debug logs. Having these logs on hand before creating the support request will allow Microsoft to quickly start troubleshooting the problem. Media or desktop logs are only required if requested by Microsoft.</span></span>
+<span data-ttu-id="ad754-p101">Microsoft サポートでサポート リクエストを作成する際、サポート エンジニアによってデバッグ ログが要求されます。サポート リクエストを作成する前にこのログを手元に用意しておくと、Microsoft はすばやく問題解決を開始することができます。メディア ログやデスクトップ ログは Microsoft によって要求された場合のみ必要です。</span><span class="sxs-lookup"><span data-stu-id="ad754-p101">When creating a support request with Microsoft Support, the support engineer will require the debug logs. Having these logs on hand before creating the support request will allow Microsoft to quickly start troubleshooting the problem. Media or desktop logs are only required if requested by Microsoft.</span></span>
 
-<span data-ttu-id="9a38f-p102">次の表にクライアントとそれに関連付けられたログの概要を示します。ログ ファイルの格納場所は、クライアントとオペレーティング システムによって異なります。</span><span class="sxs-lookup"><span data-stu-id="9a38f-p102">The following table outlines the various clients, and their associated logs. Log files are stored in locations specific to the client and operating system.</span></span>
+<span data-ttu-id="ad754-p102">次の表にクライアントとそれに関連付けられたログの概要を示します。ログ ファイルの格納場所は、クライアントとオペレーティング システムによって異なります。</span><span class="sxs-lookup"><span data-stu-id="ad754-p102">The following table outlines the various clients, and their associated logs. Log files are stored in locations specific to the client and operating system.</span></span>
 
 
-|<span data-ttu-id="9a38f-113">クライアント</span><span class="sxs-lookup"><span data-stu-id="9a38f-113">Client</span></span> |<span data-ttu-id="9a38f-114">デバッグ</span><span class="sxs-lookup"><span data-stu-id="9a38f-114">Debug</span></span>|<span data-ttu-id="9a38f-115">デスクトップ</span><span class="sxs-lookup"><span data-stu-id="9a38f-115">Desktop</span></span>|<span data-ttu-id="9a38f-116">メディア</span><span class="sxs-lookup"><span data-stu-id="9a38f-116">Media</span></span>|
+|<span data-ttu-id="ad754-113">クライアント</span><span class="sxs-lookup"><span data-stu-id="ad754-113">Client</span></span> |<span data-ttu-id="ad754-114">デバッグ</span><span class="sxs-lookup"><span data-stu-id="ad754-114">Debug</span></span>|<span data-ttu-id="ad754-115">デスクトップ</span><span class="sxs-lookup"><span data-stu-id="ad754-115">Desktop</span></span>|<span data-ttu-id="ad754-116">メディア</span><span class="sxs-lookup"><span data-stu-id="ad754-116">Media</span></span>|
 |---------|---------|---------|---------|
-|<span data-ttu-id="9a38f-117">Web</span><span class="sxs-lookup"><span data-stu-id="9a38f-117">Web</span></span>    |<span data-ttu-id="9a38f-118">X</span><span class="sxs-lookup"><span data-stu-id="9a38f-118">X</span></span>         |-         |-         |
-|<span data-ttu-id="9a38f-119">Windows</span><span class="sxs-lookup"><span data-stu-id="9a38f-119">Windows</span></span>     |<span data-ttu-id="9a38f-120">X</span><span class="sxs-lookup"><span data-stu-id="9a38f-120">X</span></span>         |<span data-ttu-id="9a38f-121">X</span><span class="sxs-lookup"><span data-stu-id="9a38f-121">X</span></span>         |<span data-ttu-id="9a38f-122">X</span><span class="sxs-lookup"><span data-stu-id="9a38f-122">X</span></span>         |
-|<span data-ttu-id="9a38f-123">Mac OSX</span><span class="sxs-lookup"><span data-stu-id="9a38f-123">Mac OSX</span></span>     |<span data-ttu-id="9a38f-124">X</span><span class="sxs-lookup"><span data-stu-id="9a38f-124">X</span></span>         |<span data-ttu-id="9a38f-125">X</span><span class="sxs-lookup"><span data-stu-id="9a38f-125">X</span></span>         |<span data-ttu-id="9a38f-126">X</span><span class="sxs-lookup"><span data-stu-id="9a38f-126">X</span></span>         |
-|<span data-ttu-id="9a38f-127">iOS</span><span class="sxs-lookup"><span data-stu-id="9a38f-127">iOS</span></span>     |-         |-         |-         |
-|<span data-ttu-id="9a38f-128">Android</span><span class="sxs-lookup"><span data-stu-id="9a38f-128">Android</span></span>     |-         |-         |-         |
-|<span data-ttu-id="9a38f-129">Windows Phone</span><span class="sxs-lookup"><span data-stu-id="9a38f-129">Windows Phone</span></span>     |-         |-         |-         |
+|<span data-ttu-id="ad754-117">Web</span><span class="sxs-lookup"><span data-stu-id="ad754-117">Web</span></span>    |<span data-ttu-id="ad754-118">X</span><span class="sxs-lookup"><span data-stu-id="ad754-118">X</span></span>         |-         |-         |
+|<span data-ttu-id="ad754-119">Windows</span><span class="sxs-lookup"><span data-stu-id="ad754-119">Windows</span></span>     |<span data-ttu-id="ad754-120">X</span><span class="sxs-lookup"><span data-stu-id="ad754-120">X</span></span>         |<span data-ttu-id="ad754-121">X</span><span class="sxs-lookup"><span data-stu-id="ad754-121">X</span></span>         |<span data-ttu-id="ad754-122">X</span><span class="sxs-lookup"><span data-stu-id="ad754-122">X</span></span>         |
+|<span data-ttu-id="ad754-123">Mac OSX</span><span class="sxs-lookup"><span data-stu-id="ad754-123">Mac OSX</span></span>     |<span data-ttu-id="ad754-124">X</span><span class="sxs-lookup"><span data-stu-id="ad754-124">X</span></span>         |<span data-ttu-id="ad754-125">X</span><span class="sxs-lookup"><span data-stu-id="ad754-125">X</span></span>         |<span data-ttu-id="ad754-126">X</span><span class="sxs-lookup"><span data-stu-id="ad754-126">X</span></span>         |
+|<span data-ttu-id="ad754-127">iOS</span><span class="sxs-lookup"><span data-stu-id="ad754-127">iOS</span></span>     |-         |-         |-         |
+|<span data-ttu-id="ad754-128">Android</span><span class="sxs-lookup"><span data-stu-id="ad754-128">Android</span></span>     |-         |-         |-         |
+|<span data-ttu-id="ad754-129">Windows Phone</span><span class="sxs-lookup"><span data-stu-id="ad754-129">Windows Phone</span></span>     |-         |-         |-         |
 
-<span data-ttu-id="9a38f-130">サポートされるオペレーティング システムとブラウザーの完全なリストについては、次の「[Microsoft Teams FAQ](https://support.office.com/en-US/article/Frequently-asked-questions-about-Microsoft-Teams-%E2%80%93-Admin-Help-05cbe533-2181-4e95-a4b0-52cd7695fafc)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="9a38f-130">For a complete list of supported operating systems and browsers, reference the following [Microsoft Teams FAQ](https://support.office.com/en-US/article/Frequently-asked-questions-about-Microsoft-Teams-%E2%80%93-Admin-Help-05cbe533-2181-4e95-a4b0-52cd7695fafc).</span></span>
+<span data-ttu-id="ad754-130">サポートされるオペレーティング システムとブラウザーの完全なリストについては、次の「[Microsoft Teams FAQ](https://support.office.com/en-US/article/Frequently-asked-questions-about-Microsoft-Teams-%E2%80%93-Admin-Help-05cbe533-2181-4e95-a4b0-52cd7695fafc)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="ad754-130">For a complete list of supported operating systems and browsers, reference the following [Microsoft Teams FAQ](https://support.office.com/en-US/article/Frequently-asked-questions-about-Microsoft-Teams-%E2%80%93-Admin-Help-05cbe533-2181-4e95-a4b0-52cd7695fafc).</span></span>
 
-<a name="debug-logs"></a><span data-ttu-id="9a38f-131">デバッグ ログ</span><span class="sxs-lookup"><span data-stu-id="9a38f-131">Debug logs</span></span>
+<a name="debug-logs"></a><span data-ttu-id="ad754-131">デバッグ ログ</span><span class="sxs-lookup"><span data-stu-id="ad754-131">Debug logs</span></span>
 ---------------------------
 
-<span data-ttu-id="9a38f-p103">デバッグ ログは最も一般的なログで、すべての Microsoft サポート ケースで必要とされます。このログは Window と Mac デスクトップ クライアント、ブラウザー ベースのクライアントで生成されます。ログはテキストベースで、下から上に読み取られます。ログは任意のテキストベースのエディタで読み取ることができます。クライアントにログインすると、新規のログが作成されます。</span><span class="sxs-lookup"><span data-stu-id="9a38f-p103">These are the most common logs and are required for all Microsoft support cases. Debug logs are produced by the Window and Mac desktop clients, as well as browser based clients. The logs are text based and are read from the bottom up. They can be read using any text based editor and new logs are created when logging into the client.</span></span>
+<span data-ttu-id="ad754-p103">デバッグ ログは最も一般的なログで、すべての Microsoft サポート ケースで必要とされます。このログは Window と Mac デスクトップ クライアント、ブラウザー ベースのクライアントで生成されます。ログはテキストベースで、下から上に読み取られます。ログは任意のテキストベースのエディタで読み取ることができます。クライアントにログインすると、新規のログが作成されます。</span><span class="sxs-lookup"><span data-stu-id="ad754-p103">These are the most common logs and are required for all Microsoft support cases. Debug logs are produced by the Window and Mac desktop clients, as well as browser based clients. The logs are text based and are read from the bottom up. They can be read using any text based editor and new logs are created when logging into the client.</span></span>
 
-<span data-ttu-id="9a38f-136">デバッグ ログには次のデータ フローが表示されます。</span><span class="sxs-lookup"><span data-stu-id="9a38f-136">Debug logs show the following data flows:</span></span>
+<span data-ttu-id="ad754-136">デバッグ ログには次のデータ フローが表示されます。</span><span class="sxs-lookup"><span data-stu-id="ad754-136">Debug logs show the following data flows:</span></span>
 
--   <span data-ttu-id="9a38f-137">ログイン</span><span class="sxs-lookup"><span data-stu-id="9a38f-137">Login</span></span>
+-   <span data-ttu-id="ad754-137">ログイン</span><span class="sxs-lookup"><span data-stu-id="ad754-137">Login</span></span>
 
--   <span data-ttu-id="9a38f-138">中間層サーバーへの接続要求</span><span class="sxs-lookup"><span data-stu-id="9a38f-138">Connection requests to middle tier services</span></span>
+-   <span data-ttu-id="ad754-138">中間層サーバーへの接続要求</span><span class="sxs-lookup"><span data-stu-id="ad754-138">Connection requests to middle tier services</span></span>
 
--   <span data-ttu-id="9a38f-139">通話/会話</span><span class="sxs-lookup"><span data-stu-id="9a38f-139">Call/conversation</span></span>
+-   <span data-ttu-id="ad754-139">通話/会話</span><span class="sxs-lookup"><span data-stu-id="ad754-139">Call/conversation</span></span>
 
-<span data-ttu-id="9a38f-140">デバッグ ログは OS 依存の方法により生成できます。</span><span class="sxs-lookup"><span data-stu-id="9a38f-140">The debug logs are produced using the following OS specific methods:</span></span>
+<span data-ttu-id="ad754-140">デバッグ ログは OS 依存の方法により生成できます。</span><span class="sxs-lookup"><span data-stu-id="ad754-140">The debug logs are produced using the following OS specific methods:</span></span>
 
--   <span data-ttu-id="9a38f-141">Windows:</span><span class="sxs-lookup"><span data-stu-id="9a38f-141">Windows:</span></span>
+-   <span data-ttu-id="ad754-141">Windows:</span><span class="sxs-lookup"><span data-stu-id="ad754-141">Windows:</span></span>
 
-    1.  <span data-ttu-id="9a38f-142">アプリケーション トレイの **Microsoft Teams アイコン**をクリックし、[**Get Logs (ログを取得)**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="9a38f-142">Right-click **the Microsoft Teams icon in** your application tray, select **Get Logs**</span></span>
+    1.  <span data-ttu-id="ad754-142">アプリケーション トレイの **Microsoft Teams アイコン**をクリックし、[**Get Logs (ログを取得)**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="ad754-142">Right-click **the Microsoft Teams icon in** your application tray, select **Get Logs**</span></span>
 
-    2.  <span data-ttu-id="9a38f-143">[**ヘルプ**] プルダウン メニューで [**Get Logs (ログを取得)**] を選択する</span><span class="sxs-lookup"><span data-stu-id="9a38f-143">Choosing **Get Logs** from the **Help** pull-down menu</span></span>
+    2.  <span data-ttu-id="ad754-143">[**ヘルプ**] プルダウン メニューで [**Get Logs (ログを取得)**] を選択する</span><span class="sxs-lookup"><span data-stu-id="ad754-143">Choosing **Get Logs** from the **Help** pull-down menu</span></span>
 
-    3.  <span data-ttu-id="9a38f-144">キーボード ショートカット: Ctrl + Alt + Shift + 1</span><span class="sxs-lookup"><span data-stu-id="9a38f-144">Keyboard shortcut: Ctrl + Alt + Shift + 1</span></span>
+    3.  <span data-ttu-id="ad754-144">キーボード ショートカット: Ctrl + Alt + Shift + 1</span><span class="sxs-lookup"><span data-stu-id="ad754-144">Keyboard shortcut: Ctrl + Alt + Shift + 1</span></span>
 
--   <span data-ttu-id="9a38f-145">Mac OSX:</span><span class="sxs-lookup"><span data-stu-id="9a38f-145">Mac OSX:</span></span>
+-   <span data-ttu-id="ad754-145">Mac OSX:</span><span class="sxs-lookup"><span data-stu-id="ad754-145">Mac OSX:</span></span>
 
-    1.  <span data-ttu-id="9a38f-146">[**ヘルプ**] プルダウン メニューで [**Get Logs (ログを取得)**] を選択する</span><span class="sxs-lookup"><span data-stu-id="9a38f-146">Choosing **Get Logs** from the **Help** pull-down menu</span></span>
+    1.  <span data-ttu-id="ad754-146">[**ヘルプ**] プルダウン メニューで [**Get Logs (ログを取得)**] を選択する</span><span class="sxs-lookup"><span data-stu-id="ad754-146">Choosing **Get Logs** from the **Help** pull-down menu</span></span>
 
-    2.  <span data-ttu-id="9a38f-147">キーボード ショートカット: Option + Command + Shift + 1</span><span class="sxs-lookup"><span data-stu-id="9a38f-147">Keyboard shortcut: Option + Command + Shift+1</span></span>
+    2.  <span data-ttu-id="ad754-147">キーボード ショートカット: Option + Command + Shift + 1</span><span class="sxs-lookup"><span data-stu-id="ad754-147">Keyboard shortcut: Option + Command + Shift+1</span></span>
 
-<span data-ttu-id="9a38f-148">デバッグ ログは次のフォルダーに自動的にダウンロードされます。</span><span class="sxs-lookup"><span data-stu-id="9a38f-148">The debug logs are automatically downloaded to the following folders.</span></span>
+<span data-ttu-id="ad754-148">デバッグ ログは次のフォルダーに自動的にダウンロードされます。</span><span class="sxs-lookup"><span data-stu-id="ad754-148">The debug logs are automatically downloaded to the following folders.</span></span>
 
--   <span data-ttu-id="9a38f-149">Windows: %userprofile%\\Downloads</span><span class="sxs-lookup"><span data-stu-id="9a38f-149">Windows: %userprofile%\\Downloads</span></span>
+-   <span data-ttu-id="ad754-149">Windows: %userprofile%\\Downloads</span><span class="sxs-lookup"><span data-stu-id="ad754-149">Windows: %userprofile%\\Downloads</span></span>
 
--   <span data-ttu-id="9a38f-150">Mac OSX: Downloads</span><span class="sxs-lookup"><span data-stu-id="9a38f-150">Mac OSX: Downloads</span></span>
+-   <span data-ttu-id="ad754-150">Mac OSX: Downloads</span><span class="sxs-lookup"><span data-stu-id="ad754-150">Mac OSX: Downloads</span></span>
 
--   <span data-ttu-id="9a38f-151">ブラウザー: 既定の保存場所にデバッグ ログを保存するように求められます</span><span class="sxs-lookup"><span data-stu-id="9a38f-151">Browser: You will be prompted to save the debug log to default save location</span></span>
+-   <span data-ttu-id="ad754-151">ブラウザー: 既定の保存場所にデバッグ ログを保存するように求められます</span><span class="sxs-lookup"><span data-stu-id="ad754-151">Browser: You will be prompted to save the debug log to default save location</span></span>
 
-<a name="media-logs"></a><span data-ttu-id="9a38f-152">メディア ログ</span><span class="sxs-lookup"><span data-stu-id="9a38f-152">Media Logs</span></span>
+<a name="media-logs"></a><span data-ttu-id="ad754-152">メディア ログ</span><span class="sxs-lookup"><span data-stu-id="ad754-152">Media Logs</span></span>
 ---------------------------
 
-<span data-ttu-id="9a38f-p104">メディア ログには、音声、ビデオ、画面共有に関する診断データが含まれます。このログは要求があった場合にのみサポート ケースで必要とされ、Microsoft のみが検査できます。次の表にログの場所を示します。</span><span class="sxs-lookup"><span data-stu-id="9a38f-p104">Media logs contain diagnostic data about audio, video and screen sharing. They are required for support cases only upon request and can only be inspected by Microsoft. The following table outlines the log location.</span></span>
+<span data-ttu-id="ad754-p104">メディア ログには、音声、ビデオ、画面共有に関する診断データが含まれます。このログは要求があった場合にのみサポート ケースで必要とされ、Microsoft のみが検査できます。次の表にログの場所を示します。</span><span class="sxs-lookup"><span data-stu-id="ad754-p104">Media logs contain diagnostic data about audio, video and screen sharing. They are required for support cases only upon request and can only be inspected by Microsoft. The following table outlines the log location.</span></span>
 
 
-|<span data-ttu-id="9a38f-156">クライアント</span><span class="sxs-lookup"><span data-stu-id="9a38f-156">Client</span></span> |<span data-ttu-id="9a38f-157">場所</span><span class="sxs-lookup"><span data-stu-id="9a38f-157">Location</span></span> |
+|<span data-ttu-id="ad754-156">クライアント</span><span class="sxs-lookup"><span data-stu-id="ad754-156">Client</span></span> |<span data-ttu-id="ad754-157">場所</span><span class="sxs-lookup"><span data-stu-id="ad754-157">Location</span></span> |
 |---------|---------|
-|<span data-ttu-id="9a38f-158">Windows</span><span class="sxs-lookup"><span data-stu-id="9a38f-158">Windows</span></span>     |<span data-ttu-id="9a38f-159">%appdata%\Roaming\Microsoft\Teams\media-stack\*.etl</span><span class="sxs-lookup"><span data-stu-id="9a38f-159">%appdata%\Roaming\Microsoft\Teams\media-stack\*.etl</span></span>         |
-|<span data-ttu-id="9a38f-160">Mac OSX</span><span class="sxs-lookup"><span data-stu-id="9a38f-160">Mac OSX</span></span>     |<span data-ttu-id="9a38f-161">~/Library/Application Support/Microsoft/Teams/media-stack\*.blog</span><span class="sxs-lookup"><span data-stu-id="9a38f-161">~/Library/Application Support/Microsoft/Teams/media-stack\*.blog</span></span>         |
+|<span data-ttu-id="ad754-158">Windows</span><span class="sxs-lookup"><span data-stu-id="ad754-158">Windows</span></span>     |<span data-ttu-id="ad754-159">%appdata%\Roaming\Microsoft\Teams\media-stack\*.etl</span><span class="sxs-lookup"><span data-stu-id="ad754-159">%appdata%\Roaming\Microsoft\Teams\media-stack\*.etl</span></span>         |
+|<span data-ttu-id="ad754-160">Mac OSX</span><span class="sxs-lookup"><span data-stu-id="ad754-160">Mac OSX</span></span>     |<span data-ttu-id="ad754-161">~/Library/Application Support/Microsoft/Teams/media-stack\*.blog</span><span class="sxs-lookup"><span data-stu-id="ad754-161">~/Library/Application Support/Microsoft/Teams/media-stack\*.blog</span></span>         |
 
 
-<a name="desktop-logs"></a><span data-ttu-id="9a38f-162">デスクトップ ログ</span><span class="sxs-lookup"><span data-stu-id="9a38f-162">Desktop logs</span></span>
+<a name="desktop-logs"></a><span data-ttu-id="ad754-162">デスクトップ ログ</span><span class="sxs-lookup"><span data-stu-id="ad754-162">Desktop logs</span></span>
 ---------------------
 
-<span data-ttu-id="9a38f-p105">bootstrapper ログとも呼ばれるデスクトップ ログには、デスクトップ クライアントとブラウザー間で発生するログ データが含まれます。メディア ログと同様に、このログは Microsoft から要求された場合にのみ必要です。テキスト ベースのログで、任意のテキストベース エディタを使用して上から下の形式で読み取ることができます。</span><span class="sxs-lookup"><span data-stu-id="9a38f-p105">Desktop logs, also known as bootstrapper logs, contains log data that occurs between the desktop client and the browser. Like media logs, these logs are only needed if requested by Microsoft. The logs are text based and can be read using any text based editor in a top down format.</span></span>
+<span data-ttu-id="ad754-p105">bootstrapper ログとも呼ばれるデスクトップ ログには、デスクトップ クライアントとブラウザー間で発生するログ データが含まれます。メディア ログと同様に、このログは Microsoft から要求された場合にのみ必要です。テキスト ベースのログで、任意のテキストベース エディタを使用して上から下の形式で読み取ることができます。</span><span class="sxs-lookup"><span data-stu-id="ad754-p105">Desktop logs, also known as bootstrapper logs, contains log data that occurs between the desktop client and the browser. Like media logs, these logs are only needed if requested by Microsoft. The logs are text based and can be read using any text based editor in a top down format.</span></span>
 
-|<span data-ttu-id="9a38f-166">クライアント</span><span class="sxs-lookup"><span data-stu-id="9a38f-166">Client</span></span> |<span data-ttu-id="9a38f-167">場所</span><span class="sxs-lookup"><span data-stu-id="9a38f-167">Location</span></span> |
+|<span data-ttu-id="ad754-166">クライアント</span><span class="sxs-lookup"><span data-stu-id="ad754-166">Client</span></span> |<span data-ttu-id="ad754-167">場所</span><span class="sxs-lookup"><span data-stu-id="ad754-167">Location</span></span> |
 |---------|---------|
-|<span data-ttu-id="9a38f-168">Windows</span><span class="sxs-lookup"><span data-stu-id="9a38f-168">Windows</span></span>     |<span data-ttu-id="9a38f-169">%appdata%\Roaming\Microsoft\Teams\logs.txt</span><span class="sxs-lookup"><span data-stu-id="9a38f-169">%appdata%\Roaming\Microsoft\Teams\logs.txt</span></span>         |
-|<span data-ttu-id="9a38f-170">Mac OSX</span><span class="sxs-lookup"><span data-stu-id="9a38f-170">Mac OSX</span></span>     |<span data-ttu-id="9a38f-171">~/Library/Application Support/Microsoft/Teams/logs.txt</span><span class="sxs-lookup"><span data-stu-id="9a38f-171">~/Library/Application Support/Microsoft/Teams/logs.txt</span></span>         |
+|<span data-ttu-id="ad754-168">Windows</span><span class="sxs-lookup"><span data-stu-id="ad754-168">Windows</span></span>     |<span data-ttu-id="ad754-169">%appdata%\Roaming\Microsoft\Teams\logs.txt</span><span class="sxs-lookup"><span data-stu-id="ad754-169">%appdata%\Roaming\Microsoft\Teams\logs.txt</span></span>         |
+|<span data-ttu-id="ad754-170">Mac OSX</span><span class="sxs-lookup"><span data-stu-id="ad754-170">Mac OSX</span></span>     |<span data-ttu-id="ad754-171">~/Library/Application Support/Microsoft/Teams/logs.txt</span><span class="sxs-lookup"><span data-stu-id="ad754-171">~/Library/Application Support/Microsoft/Teams/logs.txt</span></span>         |
