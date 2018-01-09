@@ -7,11 +7,11 @@ ms.date: 12/20/2017
 ms.topic: article
 ms.service: msteams
 description: "現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。"
-ms.openlocfilehash: a9642d43f26d06c759f606d360520c92d053ac77
-ms.sourcegitcommit: 5ab90d4bd39bf45198ef73d0fd45dd3d8baa6acb
+ms.openlocfilehash: b4335a9d3f85b00706b7f6d61c9b232f01193abe
+ms.sourcegitcommit: 18b1af39d6d2cd0e7f2d270dcd844e06c9075ae6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
   
@@ -52,6 +52,6 @@ ms.lasthandoff: 12/21/2017
 |プロフィール画像を保存できません  <br/> |Exchange メールボックスがオンプレミスでホストされて (所属して) いる場合、プロフィール画像を保存できません。  <br/> |回避策なし。  <br/> |2017/02/28  <br/> |
 |会議を使用できません  <br/> |Exchange メールボックスがオンプレミスでホストされて (所属して) いる場合、会議の機能とアイコンを使用できません。  <br/> |オンプレミス展開用に、Exchange 2016 CU3 以降にアップグレードしてください。  <br/> |2017/02/28  <br/> |
 |グループ メールボックスのアーカイブ (容量の追加) を有効にできません  <br/> |Office 365 のセキュリティ/コンプライアンス センターでは、グローバル管理者はグループ メールボックスのアーカイブを有効にできません。 この操作はユーザー メールボックスに対してのみ実行できます。  <br/> |グループ メールボックスの容量がほぼいっぱいの場合、Microsoft Office サポートに問い合わせてメールボックスのサイズを大きくしてください。  <br/> |2017/02/01  <br/> |
-|Safari Web クライアント サポート  <br/> |Microsoft Teams Web クライアントを Safari で開こうとすると、デスクトップ クライアントのダウンロードに移動します。 Microsoft は Safari のサポートについて検証中で、公開されている Office 365 ロードマップを介して更新情報を共有する予定です。  <br/> |サポートされるブラウザーである Microsoft Edge 12 以降、Internet Explorer 11 以降、Firefox 47.0 以降、Chrome 51.0 以降を使用してください。  <br/> |2016/11/02  <br/> |  
+|Safari Web クライアント サポート  <br/> |Microsoft Teams Web クライアントを Safari で開こうとすると、デスクトップ クライアントのダウンロードに移動します。 Microsoft は Safari のサポートについて検証中で、公開されている Office 365 ロードマップを介して更新情報を共有する予定です。  <br/> |サポートされるブラウザーである Microsoft Edge 12 以降、Internet Explorer 11 以降、Firefox 55 以降、Chrome 51.0 以降を使用してください。  <br/> |2016/11/02  <br/> |  
 |アドホック会議でチーム メンバーに連絡できません  <br/> |アドホック会議は、双方が最新のアプリを使っている場合にサポートされます。 Windows Phone アプリでは、会議はまだサポートされていません。  <br/> |最新のデスクトップ、iOS、または Android アプリをダウンロードおよびインストールして、会議に参加してください。  <br/> |2016/11/02  <br/> |
 |Skype for Business オンプレミスのユーザーがメッセージを受信していません  <br/> |メッセージは、Microsoft Teams ユーザーが Skype for Business オンプレミスを使用している別のユーザーにメッセージを送信しようとする時点では完了しません。  <br/> | Skype for Business Online にホストされる Teams とユーザー間の相互運用性がサポートされています。 Teams ユーザーは、Skype for Business Online を使用して Teams 以外のユーザーに 1 対 1 のチャットを送信できます。 <br/> Skype for Business オンプレミスにホストされる Teams とユーザー間の相互運用性はサポートされていません。 Teams ユーザーは、Skype for Business オンプレミスを使用して Teams 以外のユーザーに 1 対 1 のチャットを送信することはできません。  <br/> |2016/11/02  <br/> |

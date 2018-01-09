@@ -8,18 +8,16 @@ ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams とそのインフラストラクチャについて、および Office 365 と組み合わせた Teams の使用について説明します。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 58019ec13a384d249c95cab119fcdee57b1a3244
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.openlocfilehash: c856e85ddd6ef824e7826c4b4752a3fbb15508e5
+ms.sourcegitcommit: d5d9a9f9d7765cb615ab9fac88a7695c60210cfc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/02/2018
 ---
 <a name="overview-of-microsoft-teams"></a>Microsoft Teams の概要
 ===========================
 
-| | |
-|---------|---------|
-| <iframe src="//videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=ccf507a4-4ec4-4d61-9fb0-c86b5f1fc2a6&AutoPlayVideo=false&height=415&width=740" frameborder= "0" marginwidth= "0" marginheight= "0" scrolling= "no" allowfullscreen= "" style="width: 740px; height: 415px;"></iframe>   |         |
+> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=ccf507a4-4ec4-4d61-9fb0-c86b5f1fc2a6&AutoPlayVideo=false] 
 
 
 Microsoft Teams は Office 365 のすべてをまとめ、チームワークを遂行する上でチャットベースのハブをもたらし、よりオープンで、スムーズで、デジタルな環境を創り出す機会をお客様に提供します。Microsoft Teams は、Office 365 グループによって作られた既存の Microsoft テクノロジーを基に作られています。 
