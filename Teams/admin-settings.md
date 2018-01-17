@@ -7,16 +7,21 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "外部アプリのサイドロードなど、Microsoft Teams でのアプリの許可と有効化について説明します。"
-ms.openlocfilehash: ca969e073cf35309b65aeedf93acda31d388629c
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.openlocfilehash: 4265866bb346da1aa773d337d02fc1c11149f579
+ms.sourcegitcommit: ee1c79b6d6d73e5fc702fe55b9e5aee8a7aae793
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/10/2018
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft Teams でのアプリの管理設定
 ==========================================
 
-このセクションでは、単一のサードパーティ サービスによって提供されるタブ、コネクタ、ボット、これらの機能を組み合わせたものをアプリと言います。Office 365 管理ポータルで構成可能な管理ポリシーを使用すると、許可する外部サードパーティ アプリを制御することができます。このポリシーでは、許可または禁止するアプリ、新しい外部アプリの動作、アプリのサイドロードを許可するかどうかを指定できます。
+アプリとは、単一のサードパーティ サービスによって提供されるタブ、コネクタ、ボットという 3 つの要素のあらゆる組み合わせで構成されているものです。Office 365 管理センターで構成可能な管理ポリシーを使用すると、許可する外部サードパーティ アプリを制御することができます。このポリシーでは、許可または禁止するアプリ、新しい外部アプリの動作、アプリのサイドロードを許可するかどうかを指定できます。
+
+> [!NOTE]
+> Teams のアプリについての管理設定を管理するには、Office 365 管理センターに移動して、[**設定**] > [**サービスとアドイン**] を開いて、[**Microsoft Teams**] を選択します。 Office 365 管理者としてサインインしている場合は、次のリンクから移動できます。
+> 
+> https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
 
 **Allow external apps in Microsoft Teams (Microsoft Teams で外部アプリを許可する)**
 
