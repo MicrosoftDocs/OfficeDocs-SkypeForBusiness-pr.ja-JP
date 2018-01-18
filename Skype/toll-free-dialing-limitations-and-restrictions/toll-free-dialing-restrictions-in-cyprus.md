@@ -1,0 +1,45 @@
+---
+title: "キプロスでのフリー ダイヤルの制限"
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
+ms.assetid: 0dc3969f-2ca2-4fc3-991d-c951a4b6240f
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: None
+ms.custom: Calling Plans
+description: "これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。"
+ms.openlocfilehash: 6d0ac287ba44b92313e04d85be53afc62f2da093
+ms.sourcegitcommit: d5d9a9f9d7765cb615ab9fac88a7695c60210cfc
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 01/02/2018
+---
+# <a name="toll-free-dialing-restrictions-in-cyprus"></a><span data-ttu-id="0f564-105">キプロスでのフリー ダイヤルの制限</span><span class="sxs-lookup"><span data-stu-id="0f564-105">Toll-free dialing restrictions in Cyprus</span></span>
+
+<span data-ttu-id="0f564-106">[別の国または地域を検索する](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)には、フリー ダイヤルの制限事項と制限事項の詳細についてはまたはです。</span><span class="sxs-lookup"><span data-stu-id="0f564-106">[Find another country or region](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+
+
+|<span data-ttu-id="0f564-107">**[詳細]**</span><span class="sxs-lookup"><span data-stu-id="0f564-107">**Details**</span></span>|<span data-ttu-id="0f564-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="0f564-108">**Description**</span></span>|
+|:-----|:-----|
+|<span data-ttu-id="0f564-109">呼び出し、利用可能なフリー ダイヤルですか。</span><span class="sxs-lookup"><span data-stu-id="0f564-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="0f564-110">あり</span><span class="sxs-lookup"><span data-stu-id="0f564-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="0f564-111">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="0f564-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="0f564-112">8009 - XXXX</span><span class="sxs-lookup"><span data-stu-id="0f564-112">8009 - XXXX</span></span>  <br/> |
+|<span data-ttu-id="0f564-113">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="0f564-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="0f564-114">CY</span><span class="sxs-lookup"><span data-stu-id="0f564-114">CY</span></span>  <br/> |
+|<span data-ttu-id="0f564-115">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="0f564-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="0f564-116">該当しない</span><span class="sxs-lookup"><span data-stu-id="0f564-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="0f564-117">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="0f564-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="0f564-118">トルコ軍が占領しているキプロスの一部からはアクセス不可。</span><span class="sxs-lookup"><span data-stu-id="0f564-118">No access from parts of Cyprus occupied by Turkish army.</span></span>  <br/> |
+|<span data-ttu-id="0f564-119">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="0f564-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="0f564-120">あり</span><span class="sxs-lookup"><span data-stu-id="0f564-120">Yes</span></span>  <br/> |
+|<span data-ttu-id="0f564-121">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="0f564-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="0f564-122">あり</span><span class="sxs-lookup"><span data-stu-id="0f564-122">Yes</span></span>  <br/> |
+|<span data-ttu-id="0f564-123">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="0f564-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="0f564-124">携帯電話アクセス: 通話時間は課金されない。</span><span class="sxs-lookup"><span data-stu-id="0f564-124">Mobile access: No airtime charged.</span></span>  <br/> |
+   
+## <a name="related-topics"></a><span data-ttu-id="0f564-125">関連トピック</span><span class="sxs-lookup"><span data-stu-id="0f564-125">Related topics</span></span>
+
+[<span data-ttu-id="0f564-126">フリー ダイヤルの制限事項と制限事項</span><span class="sxs-lookup"><span data-stu-id="0f564-126">Toll-free dialing limitations and restrictions</span></span>](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
+
+[<span data-ttu-id="0f564-127">Skype のビジネスおよびマイクロソフトのチームのサービスの電話番号を取得します。</span><span class="sxs-lookup"><span data-stu-id="0f564-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
