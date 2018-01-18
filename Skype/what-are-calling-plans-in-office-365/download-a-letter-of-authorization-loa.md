@@ -1,62 +1,73 @@
 ---
-title: "認証の文字 (LOA) をダウンロードする"
+title: "承認 (山) の文字をダウンロードします。"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/10/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: c0ab5bc9-44f1-46dd-b401-828e4f10b7ac
-description: "文字の承認 (山) により、自分の代わりに、要求するアクセス許可紛争した場合に備えて別のサービス プロバイダーから既存の番号に転送します。サービス番号電話会議ブリッジ、自動応答の場合、またはその他のサービス番号、フリー ダイヤル電話番号、または必要がある場合、ロードよりもSkype for Businessに転送する必要がある 999 のユーザー (サブスクライバー) の電話番号を使用して (または使用しない場合、ウィザードのローカル番号の移植)。現在のサービス プロバイダーから転送電話番号を取得するのには、このロードカスタム サービスの依頼を手動で送信するする必要があります。"
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "文字の承認 (ロード) により、自分の代わりに、要求するアクセス許可、争議が発生した場合、別のサービス プロバイダーからの既存の番号を転送します。"
+ms.openlocfilehash: 4bbeb77af3a5d6ad8b1d4f7144161c6cd4d8775b
+ms.sourcegitcommit: 3fd7144b506dbe89551e104298a1dbc39d6eace0
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 01/17/2018
 ---
+# <a name="download-a-letter-of-authorization-loa"></a>承認 (山) の文字をダウンロードします。 
 
-# 認証の文字 (LOA) をダウンロードする
-
-> [!IMPORTANT]
-> この記事は機械翻訳されています。機械翻訳についての「免責事項」をお読みください。 
+**文字の承認 (山)**により、自分の代わりに、要求するアクセス許可争議が発生した場合、別のサービス プロバイダーからの既存の番号を転送します。 サービス番号オーディオ会議ブリッジ、自動応答、またはその他のサービスの番号、フリー ダイヤルの電話番号、または、Skype のビジネス (またはを使用したくないかどうかに転送する必要がある 999 を超える数のユーザー (サブスクライバー) の電話番号があるがある場合に、ロードを使用します。**ウィザードのローカル番号を移植する**)。 [手動で要求を送信するカスタム ・ サービス](manually-submit-a-custom-service-request.md)を、現在のサービス プロバイダーから転送された電話番号を取得するには、この山にする必要があります。
   
- * **文字の承認 (山)*** により、自分の代わりに、要求するアクセス許可紛争した場合に備えて別のサービス プロバイダーから既存の番号に転送します。サービス番号電話会議ブリッジ、自動応答の場合、またはその他のサービス番号、フリー ダイヤル電話番号、または必要がある場合、ロードよりもSkype for Businessに転送する必要がある 999 のユーザー (サブスクライバー) の電話番号を使用して (または使用しない場合、 **ウィザードのローカル番号の移植**)。現在のサービス プロバイダーから転送電話番号を取得するのには、このロード[カスタム サービスの依頼を手動で送信する](manually-submit-a-custom-service-request.md)する必要があります。
+サービス番号オーディオ会議ブリッジ、自動応答、またはその他のサービスの番号、フリー ダイヤルの電話番号、またはビジネス用の Skype に転送する必要がある 999 を超える数のユーザーの電話番号があれば、ポートの順序を手動で送信する必要があります。
   
-サービス番号電話会議ブリッジ、自動応答の場合、またはその他のサービス番号、フリー ダイヤル電話番号、またはSkype for Businessに転送する必要がある 999 より多くのユーザーの電話番号を使っている場合は、ポートの順序を手動で送信する必要があります。
-  
-転送することを確認、電話番号の種類の不明な場合は、[Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)を参照してください。
+転送することを確認する電話番号の種類のことを確認する場合は、[さまざまな種類](different-kinds-of-phone-numbers-used-for-calling-plans.md)を参照してください。
   
 > [!IMPORTANT]
-> 承認状 (LOA) を使用して手動で電話番号を移行する場合は、確実に **正しい種類の電話番号を選ぶ** ようにしてください。移行する電話番号の種類ごとに、 **個別の番号移行注文を送信する** 必要があります。
+> 電話の番号を使用して文字の承認 (ロード) することを確認する**電話番号の正しい種類を選択して**手動でポートします。 転送する電話番号の種類ごとに**別々 のポートの注文の送信**をする必要があります。
   
-|**国/地域**|**電話番号の種類**|**直接のダウンロード リンク**|
+|**国/地域**|**電話番号の種類**|**直接ダウンロード リンク**|
 |:-----|:-----|:-----|
-|ベルギー  <br/> |地理的番号  <br/> |[ベルギー (地域番号) 用の承認状 (LOA) (v.1.0) (en-US)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Belgium (Geographic numbers) (v.1.0) (en-US).pdf) <br/> [ベルギー (地域番号) 用の承認状 (LOA) (v.1.0) (nl-BE)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Belgium(Geographic numbers) (v.1.0) (nl-BE).pdf) <br/> [ベルギー (地域番号) 用の承認状 (LOA) (v.1.0) (fr-BE)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Belgium (Geographic numbers) (v.1.0) (fr-BE).pdf) <br/> [ベルギー (地域番号) 用の承認状 (LOA) (v.1.0) (de-BE)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Belgium(Geographic numbers) (v.1.0) (de-BE).pdf) <br/> |
-|フランス  <br/> |フリーダイヤル  <br/> |[フランス (フリーダイヤル番号) 用の承認状 (LOA) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for France (Freephone numbers) (v.2.0) (fr-FR).pdf) <br/> |
-|フランス  <br/> |地理的番号  <br/> |[フランス (地理的番号) 用の承認状 (LOA) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for France (Geographic numbers) (v.2.0) (fr-Fr).pdf) <br/> |
-|ドイツ  <br/> |地理的番号  <br/> |[ドイツ (地域番号) 用の承認状 (LOA) (v.1.0) (en-US)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Germany (Geographic numbers) (v.1.0) (en-US).pdf) <br/> [ドイツ (地域番号) 用の承認状 (LOA) (v.1.0) (de-DE)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Germany (Geographic numbers) (v.1.0) (de-DE).pdf) <br/> |
-|アイルランド  <br/> |地理的番号  <br/> |[アイルランド (地域番号) 用の承認状 (LOA) (v.1.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Ireland (Geographic numbers) (v.1.0) (en-US).pdf) <br/> |
-|アイルランド  <br/> |地域外の番号  <br/> |[アイルランド (地域外の番号) 用の承認状 (LOA) (v.1.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Ireland (Non-geographic numbers) (v.1.0) (en-US).pdf) <br/> |
-|オランダ  <br/> |地理的番号  <br/> |[オランダ (地域番号) 用の承認状 (LOA) (v.1.0) (en-US)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the Netherlands (Geographic numbers) (v.1.0) (en-US).pdf) <br/> [オランダ (地域番号) 用の承認状 (LOA) (v.2.0) (nl-NL)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the Netherlands (Geographic numbers) (v.2.0) (nl-NL).pdf) <br/> |
-|オランダ  <br/> |地域外の番号  <br/> |[オランダ (地域外の番号) 用の承認状 (LOA) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the Netherlands (Non-geographic numbers) (v.2.0) (nl-NL).pdf) <br/> |
-|スペイン  <br/> |すべての電話番号  <br/> |[スペイン (すべての電話番号) 用の承認状 (LOA) (v.1.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Spain (All numbers) (v.1.0) (es-ES).pdf) <br/> |
-|英国 (U.K.)  <br/> |サービス (自動案内、会議など)  <br/> |[英国 (サービス番号) 用の承認状 (LOA) (v.2.1)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.K. (Service numbers) (v.2.1) (en-US).pdf) <br/> |
-|英国 (U.K.)  <br/> |サブスクライバー (ユーザー)  <br/> |[英国 (ユーザー番号) 用の承認状 (LOA) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.K. (Subscriber numbers) (v.2.0) (en-US).pdf) <br/> |
-|米国 (U.S.)  <br/> |加入者およびサービス番号 ( *無料ではない番号*  ) <br/> |[米国 (ユーザー番号およびサービス番号) 用の承認状 (LOA) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.S. (User and Service numbers) (v.3.1) (en-US).pdf) <br/> |
-|米国 (U.S.)  <br/> |無料電話番号  <br/> |[米国 (無料の電話番号) 用の承認状 (LOA) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.S. (Toll Free numbers) (v.3.1) (en-US).pdf) <br/> |
+|ベルギー  <br/> |地理的です  <br/> |[文字の承認 (ロード) ベルギー (地理的な番号) (v.1.0)(nl.be)](../downloads/loa-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(nl.be).pdf) <br/> [文字の承認 (ロード) ベルギー (地理的な番号) (v.1.0)(fr.be)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(fr.be).pdf) <br/> [文字の承認 (ロード) ベルギー (地理的な番号) (v.1.0)(de.be)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(de.be).pdf) <br/> |
+|フランス  <br/> |フリー ダイヤル  <br/> |[文字の承認 (ロード) フランス (フリー ダイヤル番号) の (v.2.0)(fr.fr)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.2.0)-(fr.fr).pdf) <br/> |
+|フランス  <br/> |地理的です  <br/> |[文字の承認 (山) (地理的な番号) をフランスの (v.2.0)(fr.fr)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.2.0)-(fr.fr).pdf) <br/> |
+|ドイツ  <br/> |地理的です  <br/> |[文字の承認 (山) (地理的な番号) をドイツの (v.1.0)(de.de)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.1.0)-(de.de).pdf) <br/> |
+|アイルランド  <br/> |地理的です  <br/> |[文字の承認 (山) のアイルランド (地理的な番号) (v.1.0)(en.us)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(geographic-numbers)-(v.1.0)-(en.us).pdf) <br/> |
+|アイルランド  <br/> |以外の地理的です  <br/> |[文字の承認 (山) のアイルランド (地理的ではない番号) (v.1.0)(en.us)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(non-geographic-numbers)-(v.1.0)-(en.us).pdf) <br/> |
+|オランダ  <br/> |地理的です |[文字の承認 (山) のオランダ (地理的な番号) (v.2.0)(nl.nl)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(geographic-numbers)-(v.2.0)-(nl.nl).pdf) <br/>|
+オランダ <br/> |以外の地理的です <br/> |[文字の承認 (ロード)、オランダ (地理的ではない番号) の (v.2.0)(nl.nl)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(non-geographic-numbers)-(v.2.0)-(nl.nl).pdf) <br/> |
+|スペイン  <br/> |すべての番号  <br/> |[文字の承認 (ロード) スペイン (すべての番号) の (v.1.0)(es.es)](../downloads/loa-forms/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.1.0)-(es.es).pdf) <br/> |
+|英国 (U.K.)  <br/> |以外の地理的です  <br/> |[文字の承認 (山) (地理的ではない番号) の英国の (v.2.1)(en.us)](../downloads/loa-forms/letter-of-authorization-(loa)-for-the-u.k.-(non-geographic-numbers)-(v.2.1)-(en.us).pdf) <br/> |
+|英国 (U.K.)  <br/> |地理的です  <br/> |[文字の承認 (山) (地理的な番号) の英国の (v.2.0)(en.us)](../downloads/loa-forms/letter-of-authorization-(loa)-for-the-u.k.-(geographic-numbers)-(v.2.0)-(en.us).pdf) <br/> |
+|アメリカ合衆国 (米国)(およびプエルトリコ) <br/> |ユーザーとサービスの番号 (*フリー ダイヤルしない*) <br/> |[文字の承認 (ロード) では、(ユーザーとサービスの数値) (v.3.1)(en.us)](../downloads/loa-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.1)-(en.us).pdf) <br/> |
+|米国 (U.S.)  <br/> |フリー ダイヤル  <br/> |[文字の承認 (ロード) では、(フリー ダイヤル番号) (v.3.1)(en.us)](../downloads/loa-forms/letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.1)-(en.us).pdf) <br/> |
    
-## 電話番号の管理フォームのダウンロード
+## <a name="downloads-for-phone-number-management-forms"></a>電話番号の管理フォームのダウンロード
 
-- 「[Skype for Business Online 承認状](https://go.microsoft.com/fwlink/?LinkID=623745)」にアクセスすると、すべての承認状 (LOA) を一覧表示してダウンロードすることができます。
+- 一覧を表示し、 [Skype ビジネス オンライン文字の承認のため](https://go.microsoft.com/fwlink/?LinkID=623745)にすべての文字の承認 (ロード) s をダウンロードできます。
     
-- [[Skype for Business 新しい電話番号の申請](https://go.microsoft.com/fwlink/?linkid=851581)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。
-    
-## 関連トピック
-
-[Office 365 への電話番号に転送します。](transfer-phone-numbers-to-office-365.md)
-  
-## 
-<a name="MT_Footer"> </a>
+- 一覧を表示し、すべての新しい電話番号を取得するのには、[新しい電話番号の要求のビジネス用の Skype](https://go.microsoft.com/fwlink/?linkid=851581)で利用可能なフォームをダウンロードできます。
 
 > [!NOTE]
-> **機械翻訳についての免責事項**: この記事の翻訳はコンピューター システムによって行われており、人間の手は加えられていません。マイクロソフトでは、英語を話さないユーザーがマイクロソフトの製品、サービス、テクノロジに関するコンテンツを理解するのに役立てるため、こうした機械翻訳を提供しています。記事は機械翻訳されているため、用語、構文、文法などに誤りがある場合があります。 
-  
+> これよりも、他の電話番号を取得する場合は、[ビジネス製品の管理のヘルプのサポートに連絡](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)してください。
+    
+## <a name="related-topics"></a>関連トピック
+[電話番号のよく寄せられる質問を転送します。](transferring-phone-numbers-common-questions.md)
+
+[さまざまな種類の計画を呼び出すための電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+[組織の電話番号を管理します。](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+
+[緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
+
+[Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
 

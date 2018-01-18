@@ -2,61 +2,66 @@
 title: "ユーザー用の緊急対応の場所を変更する"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: 2d5d3c87-af1e-487e-b86c-261f2e5a0661
-description: "Learn how to change the emergency location for your users. With an unlimited number of locations, you can change emergency locations as employees move floors or buildings. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: 'Learn how to change the emergency location for your users. With an unlimited number of locations, you can change emergency locations as employees move floors or buildings. '
+ms.openlocfilehash: dbf52484c1b1431c2c12afde4dff1c5712b144b3
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="change-the-emergency-location-for-a-user"></a>ユーザー用の緊急対応の場所を変更する
 
-# ユーザー用の緊急対応の場所を変更する
-
-> [!IMPORTANT]
-> この記事は機械翻訳されています。機械翻訳についての「免責事項」をお読みください。 
+各作業中の電話番号が必要があります (Office 365 または電話番号を転送するときに電話番号を取得する場合に関連付けられている) 緊急アドレスを持っているユーザーに電話番号が割り当てられている場合。 数を関連付けるには、緊急時のアドレスを使用して、ときに、物理的な場所の中でより正確な場所を提供する緊急の場所を追加することも。 緊急の場所は、床、建物の翼やオフィスの番号は、ユーザーを指定できます。 無制限の数の指定した緊急時のアドレスの場所を持つことができ、緊急時の位置を変更するには、ユーザーが別のオフィスや建物に移動する場合-たとえばからユーザーを移動した場合は、フロア フロア 35 34。
   
-電話番号をユーザーに割り当てるとき、有効な各電話番号には緊急対応の住所が必要です。緊急対応の住所は、Office 365 で電話番号を取得したとき、または電話番号を移行したときに、電話番号との関連付けを行います。 番号を緊急対応の住所に関連付ける場合は、物理的な場所でさらに具体的な場所を指定するために、緊急対応の場所も追加できます。 緊急対応の場所は、ユーザーがいるフロア、ビル、オフィスの番号を指定できます。 特定の緊急対応の住所の場所の数は無制限で、たとえばユーザーが 34 階から 35 階に移動した場合など、ユーザーが別のオフィスやビルに移動した場合は、緊急対応の場所を変更できます。
+Office 365 のプランを呼び出すことを取得する方法とをかかる費用については、 [Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)を参照してください。
   
-Office 365 のプランの呼び出しを取得する方法、コストし、 [Skype for Business と Microsoft Teams のアドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)を参照してくださいを知りたいです。
-  
-## ユーザー用の緊急対応の場所を変更する
+## <a name="change-the-emergency-location-for-a-user"></a>ユーザー用の緊急対応の場所を変更する
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **Office 365 管理センター**、[ **Skype for Business**] の順に移動します。
+2. **Office 365 管理センター**を参照して > **ビジネス用の Skype**です。
     
-3. 左のナビゲーションで [ **音声**] に移動してから [ **音声ユーザー**] をクリックします。
+3. 左側のナビゲーションでは、**音声**に移動 > **音声ユーザー**です。
     
-    **重要**: Skype for Business 管理センターの左のナビゲーションに [ **音声**] オプションが表示されるようにするには、最初に **Enterprise E5 ライセンス**、 **電話システム**アドオン ライセンス、または **電話会議**アドオン ライセンスを少なくとも 1 件購入する必要があります。
+    > [!IMPORTANT]
+    > ビジネス管理センターの Skype では、左側のナビゲーションの**音声**オプションを表示するため、まず**E5 のエンタープライズ ライセンス**を少なくとも 1 つ、1 つの**電話システム**のアドオン ライセンスまたはアドオンのライセンスが 1 つの**電話会議**を購入する必要があります。
     
-4. [ **音声ユーザー**] ページで、緊急対応の場所を変更するユーザーを探して選びます。
+4. **ボイス ユーザー**ページを見つけての緊急の場所を変更しユーザーを選択します。
     
 5. 操作ウィンドウの [ **緊急対応の場所**] で [ **変更**] をクリックします。
     
-6. [ **番号を割り当てる**] ページで、[ **場所の変更**] をクリックします。 
+6. **番号の割り当て**] ページで、[**場所の変更**をクリックします。 
     
-7. [ **緊急対応の住所を次に変更**] の [ **市区町村の検索**] ボックスに市区町村の名前を入力して、[ **検索**] をクリックします。
+7. [**緊急時のアドレスの変更**を都市の名前をボックスに入力し、**検索**] をクリックします。
     
-8. リストから緊急対応の場所を選び、[ **保存**] をクリックします。
+8. リストからの緊急の場所を選択し、し、[**保存**] をクリックします。
     
-## 
-<a name="MT_Footer"> </a>
+    緊急の新しい場所を追加する場合は、[追加、変更、または組織には、緊急時の場所を削除する](add-change-or-remove-an-emergency-location-for-your-organization.md)を参照してください。
+    
+## <a name="related-topics"></a>関連トピック
+[追加または組織の緊急時のアドレスを削除します。](add-or-remove-an-emergency-address-for-your-organization.md)
 
-> [!NOTE]
-> **機械翻訳についての免責事項**: この記事の翻訳はコンピューター システムによって行われており、人間の手は加えられていません。マイクロソフトでは、英語を話さないユーザーがマイクロソフトの製品、サービス、テクノロジに関するコンテンツを理解するのに役立てるため、こうした機械翻訳を提供しています。記事は機械翻訳されているため、用語、構文、文法などに誤りがある場合があります。 
-  
-## 関連項目
-<a name="MT_Footer"> </a>
+[追加、変更、または組織には、緊急時の場所を削除します。](add-change-or-remove-an-emergency-location-for-your-organization.md)
 
-#### 
+[アドレスの検証とは何ですか。](what-is-address-validation.md)
+
+[組織の電話番号を管理します。](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
-  
-[音声会議無料ダイヤルアウト期間](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 
+[Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)

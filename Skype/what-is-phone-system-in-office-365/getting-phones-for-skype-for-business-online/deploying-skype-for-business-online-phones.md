@@ -3,55 +3,65 @@ title: "Skype for Business Online 電話機の展開レポート"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 11/10/2017
-ms.audience: Admin
-ms.topic: get-started-article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: faa17eb3-7483-4984-87f2-815d981b68ae
-description: "Learn the deployment steps to get the correct firmware, update it if needed, assign licences, and configure settings for Skype for Business online phones"
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Phone System
+- Strat_SB_PSTN
+description: "適切なファームウェアを取得し、更新が必要な場合、ライセンスを割り当てるビジネス オンライン電話の Skype の設定を構成する配置手順を説明します。"
+ms.openlocfilehash: c62a3512929152dabe8f9ea0e8e748d38f82f127
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="deploying-skype-for-business-online-phones"></a>Skype for Business Online 電話機の展開レポート
 
-# Skype for Business Online 電話機の展開レポート
-
-このガイドは Skype for Business Online IP 電話機の展開をサポートするガイドです。
+[] このガイドは Skype for Business Online IP 電話機の展開をサポートするガイドです。
   
 あらゆる種類のビジネスにおいて、音声通話を発受信するための電話番号を確保することは、ビジネスを運営する上で重要な条件です。電話番号を有するユーザーは、IP 電話機、PC、モバイル デバイスを含むすべての Skype for Business デバイスで音声通話を行うことができます。Skype for Business IP 電話機の詳細については、「[Skype for Business Online で使う電話を入手する](getting-phones-for-skype-for-business-online.md)」をご覧ください。
   
-## IP 電話機の展開手順
+## <a name="deployment-steps-for-ip-phones"></a>IP 電話機の展開手順
 
-### ステップ 1 - メーカーの管理者ガイドと電話機のマニュアルのダウンロード
+### <a name="step-1---download-the-manufacturers-administrator-guides-and-phone-manuals"></a>ステップ 1 - メーカーの管理者ガイドと電話機のマニュアルのダウンロード
 
 まず最初に、メーカーの管理ガイドと電話機のマニュアルをダウンロードすることをお勧めします。
   
-- Polycom 電話機については、『[Polycom Deployment Guide (Polycom 展開ガイド)](https://support.polycom.com/PolycomService/support/us/support/voice/polycom_uc/polycom_uc_software_for_lync.mdl)』をご覧ください。
+- ポリコム電話、ガイドを参照 [ポリコムの展開] ((http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html)。
     
-- Yealink 電話機については、『[Yealink Skype for Business HD SIP Phones Solution (Yealink Skype for Business HD SIP 電話機のソリューション)](http://www.yealink.com/solution_7.mdl)』をご覧ください。
+- Yealink 電話機については、『[Yealink Skype for Business HD SIP Phones Solution (Yealink Skype for Business HD SIP 電話機のソリューション)](http://www.yealink.com/products_top_2.html)』をご覧ください。
     
-- AudioCodes 電話機については、『[Audiocodes Provisioning Management Guide (Audiocodes プロビジョニング管理ガイド)](https://www.audiocodes.com/products/ems)』をご覧ください。
+- AudioCodes 電話機については、『[Audiocodes Provisioning Management Guide (Audiocodes プロビジョニング管理ガイド)](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions)』をご覧ください。
     
-### ステップ 2 - Skype for Business 対応 IP 電話機およびファームウェアを購入または移行していることを確認する
+### <a name="step-2---make-sure-youre-purchasing-or-migrating-a-skype-for-business-supported-ip-phone-and-firmware"></a>ステップ 2 - Skype for Business 対応 IP 電話機およびファームウェアを購入または移行していることを確認する
 
 Skype for Business Online 対応の電話機およびファームウェアは、Skype for Business Server にも互換性がありますが、その逆の互換性は必ずしも保証されません。対応している電話機とファームウェアを購入またはプロビジョニングしていることを確認するには、「[Skype for Business Online で使う電話を入手する](getting-phones-for-skype-for-business-online.md)」の説明をご覧ください。
   
-### ステップ 3 - 正しいファームウェアがインストールされていることを確認し、必要に応じてファームウェアを更新する
+### <a name="step-3---checking-that-the-right-firmware-is-installed-and-update-the-firmware-if-required"></a>ステップ 3 - 正しいファームウェアがインストールされていることを確認し、必要に応じてファームウェアを更新する
 
 お使いの電話機のファームウェア バージョンを、それぞれ以下の方法で確認します。
   
-- **Polycom VVX 電話機** の場合は、[ **Settings (設定)** ] > [ **Status (情報)** ] > [ **Platform (プラットフォーム)** ] > [ **Application (アプリケーション)** ] > [ **Main (メイン)** ] の順に移動します。
+- **VVX のポリコム電話**、**設定**に移動 > **ステータス** > **プラットフォーム** > **アプリケーション** > **メイン**です。
     
 - **Yealink 電話機** の場合は、メインの電話画面で [ **Status (情報)** ] に移動します。
     
-- **AudioCodes 電話機** の場合は、スタート画面から [ **メニュー (Menu)** ] > [ **デバイス情報 (Device Status)** ] > [ **ファームウェア バージョン (Firmware version)** ] の順に移動します。
+- **は電話**、**メニュー**に移動 > **デバイスの状態** > 開始画面から、**ファームウェアのバージョン**です。
     
     > [!NOTE]
     > 電話機の詳細設定へのリモート アクセスについては、メーカーの管理ガイドをご覧ください。ユーザー ガイドおよび電話機マニュアルについては、上記のリンクをご覧ください。 
   
-- **Lync Phone Edition (LPE) 電話機** の場合は、スタート画面から [ **メニュー** ] > [ **システム情報** ] の順に移動します。
+- **Lync の電話のエディション (LPE) 電話**、**メニュー**に移動 > 開始画面から**システム情報**です。
     
-### ステップ 4 - デバイス更新の考慮事項
+### <a name="step-4---device-update-considerations"></a>ステップ 4 - デバイス更新の考慮事項
 
 > [!NOTE]
 > 5.5.1.X より前の Polycom ファームウェアには、メーカー独自のデバイスのロック メカニズムが導入されています。このメカニズムは Skype for Business 実装の「電話のロック」に置換されています。「デバイスのロック」で保護されていた 5.4.X.X から「電話のロック」を備える 5.5.1.X に電話機をアップグレードすると、「デバイスのロック」から PIN コードが継承されないため、電話機が保護されていない状態になります。「デバイスのロック」を有効にしていたユーザーは、次の Polycom デバイスのプロファイル パラメーターを有効にして、ユーザーがアップグレードのタイミングを制御できるようにする必要があります (lync.deviceUpdate.popUpSK.enabled=1)。 
@@ -73,15 +83,15 @@ Polycom 電話機の場合は、 **SwUpdate** を選択することで電話機�
 > [!CAUTION]
 > 更新のループを回避するため、単一のデバイス更新機関 (インバンド デバイス更新またはサードパーティー プロビジョニング サーバー) を利用してください。 
   
-### ステップ 5 - 電話の設定の構成とインフラ整備
+### <a name="step-5---configuration-and-infrastructure-phone-settings"></a>ステップ 5 - 電話の設定の構成とインフラ整備
 
 Skype for Business インバンド管理の Windows PowerShell コマンドレットを使用して最も一般的に使用される電話機オプションをセットアップできます。これらのパラメーターおよび設定の詳細については、「[Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx)」をご覧ください。
   
 ネットワーク インフラストラクチャの計画については、「[Skype Operations Framework (Skype の運用フレームワーク](https://www.skypeoperationsframework.com/)」をご覧ください。
   
-### ステップ 6 - ユーザーのサインインの準備
+### <a name="step-6---preparing-for-users-to-sign-in"></a>ステップ 6 - ユーザーのサインインの準備
 
-ユーザーが正常に Skype for Business Online 電話機にサインインし、通話できるようにするには、ユーザーに正しいライセンスが割り当てられていることを確認する必要があります。最低でも、電話システムのライセンスと通話プランを割り当てる必要があります。追加情報については、「[Skype for Business と Microsoft Teams のアドオン ライセンス](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)」および「[Skype for Business と Microsoft Teams のライセンスを割り当てる](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)」をご覧ください。
+正常にオンライン ビジネスの電話で、Skype にサインインし、呼び出しを行うユーザーを有効にするには、ユーザーが適切なライセンスを割り当てられているかどうかを確認する必要があります。 最低限、電話システムのライセンスとを呼び出す計画を割り当てる必要があります。 詳細については、 [Skype](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)および[ビジネスおよびマイクロソフトのチームのライセンスを Skype の割り当て](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)を表示できます。
   
 通話プランの詳細については、「[Office 365 の通話プランについて](../../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)」を読むことで確認できます。
   
@@ -104,7 +114,7 @@ Skype for Business インバンド管理の Windows PowerShell コマンドレ�
     > [!NOTE]
     > PIN 認証は、LPE およびパートナーの IP 電話機向けの Skype for Business Online ではサポートされていません。 
   
-- **PC の使用** ユーザーの PC に Better Together over Ethernet (BToE) ソフトウェアがインストールされ、有効化されている場合、ユーザーは Windows Skype for Business アプリの認証ウィンドウを使用して電話機にログインできます。その他の情報については、「[ステップ 7 (省略可能) - デバイス ペアリングおよび Better Together over Ethernet (BToE) を使用する場合](deploying-skype-for-business-online-phones.md#BK_BTOE)」をご覧ください。
+- **PC を使用します。**相乗効果 (BToE) のイーサネットのソフトウェアがユーザーの PC にインストールし、有効にすると、Windows の Skype のビジネス アプリケーションの「認証」ウィンドウを使用して、電話、ユーザーがログオンできます。 その他の情報[(オプション) - と相乗効果 (BToE) のイーサネット デバイスのペアがある場合の手順 7](deploying-skype-for-business-online-phones.md#BK_BTOE)を参照してください。
     
     > [!NOTE]
     > ユーザーは、電話機にサインインするために組織のユーザー名およびパスワードを使用する必要があります。たとえば、ユーザー名として  *amosm@contoso.com*  のような UPN 形式を使用します。
@@ -167,13 +177,13 @@ Skype for Business インバンド管理の Windows PowerShell コマンドレ�
 |オンプレミス  <br/> |オンライン/オンプレミス  <br/> |ユーザー名/パスワード  <br/> |あり  <br/> |あり  <br/> |該当なし  <br/> |
 |オンプレミス  <br/> |オンライン/オンプレミス  <br/> |PC 経由のサイン イン(BTOE)  <br/> |あり  <br/> |あり  <br/> |該当なし  <br/> |
    
-- **電話機の機能** 機能セットは IP 電話機パートナーによって多少異なる場合があります。完全な機能セットについて、および各電話機メーカーの機能の詳細情報については、「[Skype for Business Online で使う電話を入手する](getting-phones-for-skype-for-business-online.md)」をご覧ください。
+- **電話の機能**IP 電話のパートナーにわずかに基づく機能セットが異なる場合があります。 完全な機能の設定し、電話のメーカーごとの機能の詳細については、[オンライン ビジネスの Skype の電話を取得](getting-phones-for-skype-for-business-online.md)を参照してください。
     
 - **電話のロック** は、電話機を保護するために Skype for Business 認定済み電話機に最近導入されてた機能です。この機能が有効な場合、ユーザーは正常な認証後に PIN を作成するように求められます。PIN の作成後、定義したアイドル タイムアウトを過ぎると電話機がロックされます。さらに、ユーザーは電話機を手動でロックするか、電話のペアリングを使用して電話のロックを同期させることもできます。電話のロックの PIN を複数回誤って入力すると、ユーザーが電話機からサインアウトされるか、管理者のコードを使用して電話機をロック解除する必要があります。ただし、これは電話機パートナーによって異なります。ユーザーの PIN は 6 桁から 15 桁です。
     
     既定で有効化されている組織の電話のロックの無効化、アイドル タイムアウトの変更、ロック時またはインバンド設定の未使用時にユーザーが通話できるかどうかの設定を行うことができます。これらの設定の詳細については、「[Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx)」をご覧ください。
     
-## ステップ 7 (省略可能) - デバイス ペアリングおよび Better Together over Ethernet (BToE) を使用する場合
+## <a name="step-7-optional---if-you-have-device-pairing-and-better-together-over-ethernet-btoe"></a>ステップ 7 (省略可能) - デバイス ペアリングおよび Better Together over Ethernet (BToE) を使用する場合
 <a name="BK_BTOE"> </a>
 
 BToE は、ユーザーの電話機を Windows Skype for Business アプリとペアリングさせるパートナー IP 電話機の電話ペアリング メカニズムです。BToE により、ユーザーを次の操作を行うことができます。
@@ -194,15 +204,22 @@ BToE の動作は [ *自動*  ] (既定) および [ *手動*  ] の 2 つのモ
   
 2. 次に示すリンクを使ってメーカーの Web サイトから最新の BToE ソフトウェアをダウンロードし、インストールします。ユーザーの利便性を向上するため、System Center Configuration Manager (SCCM) などの管理配布ソリューションを使用して BToE ソフトウェアを配布して、インストールすることができます。SCCM の使用については、「[System Center Configuration Manager のパッケージとプログラム](https://docs.microsoft.com/en-us/sccm/apps/deploy-use/packages-and-programs)」をご覧ください。
     
-  - [Polycom BToE ソフトウェア ダウンロード サイト](https://support.polycom.com/PolycomService/support/us/support/voice/polycom_uc/polycom_uc_software_for_lync.mdl)
+  - [Polycom BToE ソフトウェア ダウンロード サイト](http://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
-  - [Yealink BToE ソフトウェア ダウンロード](http://www.yealink.com/solution_info.aspx?ProductsCateID=1471&amp;parentcateid=1471&amp;cateid=1471&amp;BaseInfoCateId=1328&amp;Cate_Id=1471)
+  - [Yealink BToE ソフトウェア ダウンロード](http://www.yealink.com/products_list_10.html)
     
-  - [AudioCodes BToE ソフトウェア ダウンロード](ftp://VoP-C12:IPPLync@ftp.audiocodes.com/Release/3.0.0.Beta/BToE_1.1.8/)
+  - [AudioCodes BToE ソフトウェア ダウンロード](https://www.audiocodes.com/solutions-products/solutions/skype-for-business-microsoft-teams/skype-for-business-online)
     
-3. 既定では、BToE のサーバー設定は [ **有効** ] および **自動モード** です。これらの設定を変更するには、「[Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx)」をご覧ください。
+3. BToE のサーバーの設定は、既定で**有効に**して**自動モード**に設定されます。 これらの設定を変更するには、[セット CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx)を参照してください。
     
 > [!NOTE]
 > BToE は Mac および VDI プラットフォームでは現在サポートされていません。 
   
+## <a name="related-topics"></a>関連トピック
+[Skype のビジネスおよびマイクロソフトのチームのサービスの電話番号を取得します。](../../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+
+[Office 365 での電話システムで利用できる機能](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
+
+[オーディオ会議や予定を呼び出すための国および地域の可用性](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
 

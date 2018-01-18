@@ -1,80 +1,90 @@
 ---
-title: "組織内での発信者番号の使用方法"
+title: "呼び出し元 ID 利用する方法、組織内"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/13/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: 5a0bd8ba-3334-46ee-becf-1025597737f6
-description: "発信者番号は、CallingLineIdentity というポリシーを使用することによって、電話システム ユーザーの着信および発信の両方の通話に対して制御できます。"
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "CallingLineIdentity と呼ばれるポリシーを使用して、電話システムのユーザーの受信と送信の両方の呼び出しに呼び出し元の ID を制御できます。"
+ms.openlocfilehash: b9e889ae9d87277939e844eeb911834f466942c5
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="how-can-caller-id-be-used-in-your-organization"></a>呼び出し元 ID 利用する方法、組織内
 
-# 組織内での発信者番号の使用方法
-
-発信者番号は、CallingLineIdentity というポリシーを使用することによって、電話システム ユーザーの着信および発信の両方の通話に対して制御できます。
+CallingLineIdentity と呼ばれるポリシーを使用して、電話システムのユーザーの受信と送信の両方の呼び出しに呼び出し元の ID を制御できます。
   
-発信者番号の機能は PSTN 接続に関わらず、すべての電話システム ユーザーが利用できます。
+発信者番号機能は、PSTN への接続に関係なくすべての電話システムのユーザーが使用できます。
   
-- オンラインの PSTN 接続
+- オンラインの PSTN への接続
     
-- Skype for Business Cloud Connector エディションでのオンプレミス PSTN 接続 (Cloud Connector エディション 1.4.2 以降が必要)
+- ビジネス クラウド コネクタ ・ エディションの Skype での PSTN への接続を設置 (クラウド コネクタ版 1.4.2 が必要ですし、以降も)
     
-- Skype for Business Server とのオンプレミスの PSTN 接続 (Skype for Business Server 2015 CU5 以降が必要)
+- (内外のビジネス サーバー 2015 CU5 Skype が必要です) ビジネス サーバーの Skype での PSTN への接続を設置
     
 > [!NOTE]
-> このポリシーは Skype for Business 2015 Server では使用できません。 
+> このポリシーは、ビジネス 2015年サーバーの Skype では使用できません。 
   
-## 発信の発信者番号
+## <a name="outbound-caller-id"></a>発信の呼び出し元の ID
 
-発信の PSTN の発信者番号では、次の 3 つのオプションを使用できます。
+PSTN 発信者番号通知の送信に使用できるオプションは次の 3 つです。
   
-- ユーザーに割り当てられた電話番号: これが既定です。
+- 既定では、ユーザーに割り当てられている電話番号です。
     
-- Office 365 の電話番号一覧の通話プランで *サービス*  および *無料電話*  番号に分類される電話番号: 通常は組織の自動応答や呼び出しキューに割り当てられます。
+- *サービス*として分類されている電話番号と Office 365 の電話の計画を呼び出すので*フリー ダイヤル*の番号は、在庫を番号します。 これは通常、組織の自動アテンダントまたは呼び出しのキューに割り当てられます。
     
-- 匿名に設定。
+- 匿名に設定します。
     
-ただし、発信の発信者番号として次の種類の電話番号を割り当てることはできません。
+ただし、発信呼び出し元 ID のこれらの種類の電話番号を割り当てることはできません。
   
-- 通話プランの電話番号一覧で *ユーザー*  として分類される電話番号
+- 計画を呼び出す電話番号の*ユーザー*として分類されている任意の電話番号の番号の在庫
     
-- Skype for Business Server のオンプレミス電話番号
+- Skype のビジネス サーバー設置型の電話番号
     
-発信の発信者番号を設定するには、「[ユーザーに発信者番号を設定する](set-the-caller-id-for-a-user.md)」をご覧ください。
+発信の呼び出し元の ID を設定するには、[ユーザーの発信者番号の設定](set-the-caller-id-for-a-user.md)を参照してください。
   
-### 発信の発信者番号のエンド ユーザーによる制御
+### <a name="end-user-control-of-outbound-caller-id"></a>発信呼び出し元 ID のユーザー コントロール
 
-EnableUserOverride 属性は、単一または複数のユーザーに対して発信者番号の設定を [ **匿名**] に変更できるようにします。これが適用されるのは CallingLineIdentity ポリシーが、CallingIDSubstitute または LineURI のいずれかの Substitute パラメーターで構成されるときのみです。EnableUserOverride の既定値は False です。
+EnableUserOverride 属性は、**匿名**の発信者番号通知設定を変更するのには 1 つまたは複数のユーザーを有効にします。 LineURI または代替のいずれかの CallingIDSubstitute パラメーターを持つ CallingLineIdentity ポリシーが構成されている場合こののみ適用されます。 EnableUserOverride の既定値は、False です。
   
-エンド ユーザーは、Skype for Business デスクトップ クライアントで [ **通話転送設定**] タブを使用して自身の発信者番号を [ **匿名**] に設定できます。
+エンド ・ ユーザーは、Skype のビジネス デスクトップ クライアントの**呼び出しの転送の設定**] タブを使用して、**匿名**の呼び出し元の ID を設定できます。
   
 ||||
 |:-----|:-----|:-----|
 |**Windows** <br/> |**バージョン** <br/> |**サポート** <br/> |
-|クイック実行  <br/> |2016 年 12 月 6 日リリースの Current Channel - バージョン 1611 (ビルド 7571.2072)  <br/> |あり  <br/> |
-|クイック実行  <br/> |2017 年 2 月 22 日リリースの Deferred Channel の最初のリリース - バージョン 1701 (ビルド 7766.2060)  <br/> |あり  <br/> |
-|クイック実行  <br/> |2017 年 6 月 13 日リリースの Deferred Channel - バージョン 1701 (ビルド 7766.2092)  <br/> |あり  <br/> |
-|MSI  <br/> |Skype for Business  <br/> |なし  <br/> |
-|Mac  <br/> |Skype for Business  <br/> |なし  <br/> |
+|クイック実行  <br/> |2016 年 12 月 6 日 - 1611 (ビルド 7571.2072) のバージョンでリリースされた現在のチャネル  <br/> |はい  <br/> |
+|クイック実行  <br/> |2017 年 2 月 22日 - 1701 (ビルド 7766.2060) のバージョンでリリースされた延期のチャネルの最初のリリース  <br/> |はい  <br/> |
+|クイック実行  <br/> |チャネルは、2017 年 6 月 13日-1701 (ビルド 7766.2092) のバージョンのリリースを延期  <br/> |はい  <br/> |
+|MSI  <br/> |Skype for Business  <br/> |いいえ  <br/> |
+|Mac  <br/> |Skype for Business  <br/> |いいえ  <br/> |
    
-エンド ユーザーも発信者 ID の設定を、次のサイトのユーザー設定ページで行うことができます。[https://mysettings.lync.com/pstncalling](https://mysettings.lync.com/pstncalling).
-  
-## 着信の発信者番号
+## <a name="inbound-caller-id"></a>発信者番号通知を受信します。
 
-BlockIncomingCallerID 属性は、着信の PSTN 通話で発信者番号を遮断することを許可します。この属性は設定できますが、エンド ユーザーがユーザー設定ページで使用することはできません。また、これは現在オンライン PSTN 接続のみで使用できます。
+BlockIncomingCallerID 属性では、PSTN 通話の着信の呼び出し元 ID をブロックします。 この属性を設定することができますが、ユーザー設定] ページで、エンド ・ ユーザーには使用できません。 オンラインの PSTN への接続のみで現在使用可能になります。
   
-発信の発信者番号を設定するには、「[ユーザーに発信者番号を設定する](set-the-caller-id-for-a-user.md)」をご覧ください。
+発信の呼び出し元の ID を設定するには、[ユーザーの発信者番号の設定](set-the-caller-id-for-a-user.md)を参照してください。
   
-## 関連項目
+## <a name="related-topics"></a>関連トピック
+[電話番号のよく寄せられる質問を転送します。](transferring-phone-numbers-common-questions.md)
 
-#### 
+[さまざまな種類の計画を呼び出すための電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+[組織の電話番号を管理します。](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
-  
-[音声会議無料ダイヤルアウト期間](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-  
-[Skype for Business と Microsoft Teams のアドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 
+[Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)

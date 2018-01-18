@@ -1,5 +1,5 @@
 ---
-title: "あいさつ文やメールの既定の言語を変更します。"
+title: Change the default language for greetings and emails
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,26 +22,26 @@ ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 12/15/2017
 ---
-# <a name="change-the-default-language-for-greetings-and-emails"></a>あいさつ文やメールの既定の言語を変更します。
+# <a name="change-the-default-language-for-greetings-and-emails"></a>Change the default language for greetings and emails
 
-[Office 365 のグローバル管理者](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)の場合は、あいさつ文の別の言語での既定のボイス メールを再生するのにはビジネス用の Skype を設定できます。 既定のシステムの応答メッセージは、次のように"John Smith には、メッセージを残すしてください。 トーンの後、メッセージを記録してください。 録音が完了したら、ハングアップ、かキーを押してシャープ オプションの詳細について。」 
+If you are an [Office 365 global administrator](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d), you can set up Skype for Business to play its default voicemail greeting in another language. The default system greeting is something like, "Please leave a message for John Smith. After the tone, please record your message. When you finish recording, hang up, or press the pound key for more options." 
   
  **最初に、次の重要な情報をお読みください。**
   
-- **使用できる言語は、組織の位置によって決まります**。 などのアメリカ合衆国では、組織が配置されている場合は、英語またはスペイン語を既定の言語を設定できます。 カナダでは、組織が存在する場合は、英語とフランス語の間で選択できます。 サポートされている言語のリストは、[ボイス メール応答メッセージとビジネス用の Skype からのメッセージの言語](languages-for-voicemail-greetings-and-messages.md)を参照してください。
+- **The languages that are available to you are determined by the location of your organization**. For example, if your organization is located in the United States, you can set the default language to English or Spanish. If your organization is located in Canada, you can choose between English and French. For a list of supported languages, see [Languages for voicemail greetings and messages from Skype for Business](languages-for-voicemail-greetings-and-messages.md).
     
 - **組織内の 1 人のユーザーのみに対してシステムの言語を変更する方法はありません。** 組織のユーザー全員に対してあいさつ文の言語を変更することのみが可能です。
     
     > [!NOTE]
     > ユーザーはサイン インした後に設定を操作して自身のあいさつ文の言語を変更できます。 
   
-- **ボイスメール メッセージを記録しますか。** [ビジネス ボイスメールおよびオプションの Skype のチェック](https://support.office.com/en-us/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)を参照してください。
+- **Do you want to record your outgoing voicemail message?** See [Check Skype for Business voicemail and options](https://support.office.com/en-us/article/2deea7f8-831f-4e85-a0d4-b34da55945a8).
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>組織のユーザー全員に対してシステムの言語を変更する
 
-1. [Https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)で[Office 365 のグローバル管理者](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)アカウントでサインインします。 
+1. Sign in with your [Office 365 global administrator](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) account at[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
     
-2. 管理センターの**設定**を選択します > **組織プロファイル**です。 
+2. In the admin center, choose **Settings** > **Organization profile**. 
     
      ![Choose Settings and then choose Organization profile.](../../images/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
@@ -65,7 +65,7 @@ ms.lasthandoff: 12/15/2017
 
 - [一般法人向け Office 365 で表示言語とタイム ゾーンを変更する](https://support.office.com/en-us/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
     
-- [言語を追加または Office 2010 およびそれ以降の言語を設定](https://support.office.com/en-us/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d))
+- [Add a language or set language preferences in Office 2010 and later](https://support.office.com/en-us/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d))
     
 - [キーボード レイアウトの言語を有効化または変更する](https://support.office.com/en-us/article/Enable-or-change-a-keyboard-layout-language-1c2242c0-fe15-4bc3-99bc-535de6f4f258)
     

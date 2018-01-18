@@ -1,111 +1,114 @@
 ---
-title: "米国以外の場所でアドレス情報を入力する際に問題が発生するのはなぜですか?"
+title: "英国を入力する問題が生じる理由 アドレス情報ですか。"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-f1_keywords:
-- ms.lync.lac.CivicAddressGBSyntaxError
-ms.prod: office-online-server
-localization_priority: Normal
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: e2376646-f0d6-4d33-a8fd-68ecbd46fb7a
-description: "以下に、英国 (U.K.) で住所を正しく検証する際に問題が発生する理由に関するヒントをいくつか示します。"
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.CivicAddressGBSyntaxError
+ms.custom: Calling Plans
+description: "なぜことができる問題は、アドレスや英国 (英国) でを正しく検証するためにアドレスを取得するいくつかの理由を次に示します。"
+ms.openlocfilehash: 7752a6d0f1ff802b8b54ec70f8d51ba1a7f286ea
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="why-am-i-having-problems-entering-uk-address-information"></a>英国を入力する問題が生じる理由 アドレス情報ですか。
 
-# 米国以外の場所でアドレス情報を入力する際に問題が発生するのはなぜですか?
+なぜことができる問題は、アドレスや英国 (英国) でを正しく検証するためにアドレスを取得するいくつかの理由を次に示します。
+  
+## <a name="whats-wrong-with-the-company-name"></a>会社名ではなぜですか。
 
-> [!IMPORTANT]
-> この記事は機械翻訳されています。機械翻訳についての「免責事項」をお読みください。 
+会社名を入力する問題がある場合は、注意してください。
   
-以下に、英国 (U.K.) で住所を正しく検証する際に問題が発生する理由に関するヒントをいくつか示します。
-  
-## 会社名に問題がある場合
-
-会社名の入力に問題がある場合は、次の点を確認してください。
-  
-- 文字、数字、および次の特殊文字を使用できます: , / - +. ' &amp; " _ 
+- 文字、数字、および次の特殊文字を持つことが:-+。 ' &amp; " _ 
     
     > [!CAUTION]
-    > 会社名ことができない場合は、英国 (英国) で、[+] 記号します。 
+    > 会社名を持つことはできませんイギリス (英国) で、(+) 記号。 
   
-- 80 文字以下にする必要があります。
+- 80 文字で指定する必要があるか、小さいです。
     
-- 特殊文字で始めることはできません。
+- 特殊文字で開始できません。
     
-## 番地に問題がある場合
+## <a name="whats-wrong-with-the-house-number"></a>家の数ではなぜですか。
 
-番地の入力に問題がある場合は、次の点を確認してください。
+家の番号を入力する問題がある場合は、注意してください。
   
-- 文字、数字、および次の特殊文字を使用できます: - / [ ]
+- 文字、数字、および次の特殊文字を持つことが::/
     
-- 数字で始める必要があります。
+- 先頭を数字にする必要があります。
     
-- 20 文字以下にする必要があります。
+- 20 文字以内。
     
-- 大文字と小文字を含めることができます。
+- 英大文字または小文字のことができます。
     
-## 建物名に問題がある場合
+## <a name="whats-wrong-with-the-house-name"></a>家の名前はなぜですか。
 
-建物名の入力に問題がある場合は、次の点を確認してください。
+家の名前を入力する問題がある場合は、注意してください。
   
-- 文字、数字、および次の特殊文字を使用できます: : , / - + . ' &amp; " _
+- 文字、数字、および次の特殊文字を持つことができます、:/- +。 ' &amp; " _
     
-- 50 文字以下にする必要があります。
+- 50 文字で指定する必要があるか、小さいです。
     
-- 特殊文字で始めることはできません。
+- 特殊文字で開始できません。
     
-## 街路名に問題がある場合
+## <a name="whats-wrong-with-the-street-name"></a>番地はなぜですか。
 
-街路名の入力に問題がある場合は、次の点を確認してください。
+通りの名前を入力する問題がある場合は、注意してください。
   
-- 文字、数字、および次の特殊文字を使用できます: : , / - + . ' &amp; " _ 
+- 文字、数字、および次の特殊文字を持つことが:-+。 ' &amp; " _ 
     
-- 50 文字以下にする必要があります。
+- 50 文字で指定する必要があるか、小さいです。
     
-- 特殊文字で始めることはできません。
+- 特殊文字で開始できません。 
     
-## 市町村名に問題がある場合
+## <a name="whats-wrong-with-the-city-or-town"></a>市区町村はなぜですか。
 
-市町村名の入力に問題がある場合は、次の点を確認してください。
+市区町村の名前を入力する問題がある場合は、注意してください。
   
-- 文字、数字、および次の特殊文字を使用できます: : , / - + . ' &amp; " _
+- 文字、数字、および次の特殊文字を持つことが:-+。 ' &amp; " _
     
-- 50 文字以下にする必要があります。
+- 50 文字で指定する必要があるか、小さいです。
     
-- 特殊文字で始めることはできません。
+- 特殊文字で開始できません。 
     
-## 郵便番号に問題がある場合
+## <a name="whats-wrong-with-the-postal-code"></a>郵便番号はなぜですか。
 
-郵便番号の入力に問題がある場合は、次の点を確認してください。
+郵便番号コードを入力する問題がある場合は、注意してください。
   
-- 入力できる文字は英字、数字、スペースのみです。
+- 文字、数字、またはスペースにだけ配置できます。
     
-- 入力する英字、数字、スペースは合計 8 文字以内にする必要があります。
+- 8 個以下の文字、数字、スペースなどをいる必要があります。
     
-- **所在地が英国内の場合** は、次のいずれかの書式で入力する **必要があります** 。ここでは、A は A-Z の任意の英字、# 記号は 0-9 の任意の数字、_ (アンダースコア) は空白スペースを表します。次に例を示します。
+- 次の形式のいずれかの郵便番号コードを配置**する必要があります****英国 (英国) では、する場合は、必ず**、場所 a = A ~ Z、# 記号の文字 0-9 と _ (アンダー スコア) からの値を = = 空白。 いくつかの例を以下に示します。
     
-|**書式**|**例**|
+|**形式**|**例**|
 |:-----|:-----|
-|AA#A_#AA  <br/> |EC3B 2BD  <br/> |
-|A#A_#AA  <br/> |E1W 1AP  <br/> |
-|A#_#AA  <br/> |F1 2AG  <br/> |
-|A##_#AA  <br/> |C44 8HT  <br/> |
-|AA#_#AA  <br/> |DR3 6HG  <br/> |
-|AA##_#AA  <br/> |FN35 1TH  <br/> |
-   
-## 
-<a name="MT_Footer"> </a>
+|AA # A _ #AA  <br/> |EC3B 2BD  <br/> |
+|# A _ #AA  <br/> |E1W 1AP  <br/> |
+|# _ #AA  <br/> |F1 2AG  <br/> |
+|# _ #AA  <br/> |C44 8HT  <br/> |
+|AA # _ #AA  <br/> |DR3 6 HG  <br/> |
+|AA # _ #AA  <br/> |FN35 1TH  <br/> |
 
 > [!NOTE]
-> **機械翻訳についての免責事項**: この記事の翻訳はコンピューター システムによって行われており、人間の手は加えられていません。マイクロソフトでは、英語を話さないユーザーがマイクロソフトの製品、サービス、テクノロジに関するコンテンツを理解するのに役立てるため、こうした機械翻訳を提供しています。記事は機械翻訳されているため、用語、構文、文法などに誤りがある場合があります。 
-  
-## 関連項目
-<a name="MT_Footer"> </a>
+> これよりも、他の電話番号を取得する場合は、[ビジネス製品の管理のヘルプのサポートに連絡](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)してください。
 
-#### 
+   
+## <a name="related-topics"></a>関連トピック
+[電話番号のよく寄せられる質問を転送します。](transferring-phone-numbers-common-questions.md)
+
+[さまざまな種類の計画を呼び出すための電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
-  
-[音声会議無料ダイヤルアウト期間](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 
+[Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)

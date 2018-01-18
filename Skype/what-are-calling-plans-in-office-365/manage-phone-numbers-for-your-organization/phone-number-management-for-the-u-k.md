@@ -2,35 +2,45 @@
 title: "英国の電話番号の管理"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/22/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 104dea98-6d0a-4c45-ba79-ea568e588c77
-description: "取得と skype for Business Online 英国の電話番号を管理する情報を検索するのにには、次の表を使用します。"
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Calling Plans
+description: "取得し、英国の電話番号を Skype のオンライン ビジネスの管理上の情報を検索するのにには、次の表を使用します。"
+ms.openlocfilehash: 51f72b24055ee9b99f869b30bc7f5a7c41048bd1
+ms.sourcegitcommit: b7f7ff1f88cd71ba289c20e745d0642ce5f11809
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 01/17/2018
 ---
+# <a name="phone-number-management-for-the-uk"></a>英国の電話番号の管理
 
-# 英国の電話番号の管理
-
-> [!IMPORTANT]
-> この記事は機械翻訳されています。機械翻訳についての「免責事項」をお読みください。 
+取得し、英国の電話番号を Skype のオンライン ビジネスの管理上の情報を検索するのにには、次の表を使用します。 
   
-取得と skype for Business Online 英国の電話番号を管理する情報を検索するのにには、次の表を使用します。
+詳細については、[組織の電話番号の管理](manage-phone-numbers-for-your-organization.md)を参照してください。
   
-詳細については、[組織の電話番号を管理する](manage-phone-numbers-for-your-organization.md)を参照してください。
-  
-|**目的**|**適切なフォームをダウンロードする**|
+|**何かの操作を行います?**|**正しいフォームをダウンロードします。**|
 |:-----|:-----|
-|Skype for Business 管理センターに一覧表示されていないユーザーの電話番号を取得する必要がある。  <br/> |[英国 (地理的な番号) の電話番号を新しい](http://download.microsoft.com/download/3/B/D/3BDD4575-EAFA-4777-B4C6-A42E8F235AC9/New Phone Number Request for the U.K. %28Subscriber geographic numbers%29 (v.3) (en.US).pdf)フォームをダウンロード、入力して、 [にお問い合わせに送信](mailto:ptneu@microsoft.com)します。  <br/> |
-|電話番号を Skype for Business に移す必要がある。  <br/> | 次のいずれかのフォームをダウンロードします。 <br/> [英国 (加入者番号) 用の承認状 (LOA)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.K. (Subscriber numbers) (v.2.0) (en-US).pdf) <br/> [英国 (サービス番号) 用の承認状 (LOA)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.K. (Service numbers) (v.2.1) (en-US).pdf) <br/>  フォームを記入し、[送信](mailto:ptneu@microsoft.com)してください。  <br/> |
-|国内の電話帳に電話番号を公開/非公開にする必要がある。  <br/> |公開または非公開にする電話番号のリストを[送信](mailto:ptneu@microsoft.com)してください。  <br/> |
-|ユーザーの電話番号をサービス番号に変更する必要がある。  <br/> |サービス番号に変換する番号のリストを[送信](mailto:ptneu@microsoft.com )してください。  <br/> |
+|ビジネス管理センターは、Skype で登録されていないユーザーの番号を取得する必要があります。  <br/> |ダウンロード、[英国 (地理的な番号) の電話番号の新しい要求 (v.3.0)(en.us)](../../downloads/nnew-phone-number-request-for-the-u.k.-(geographic-numbers)-(v.3.0)-(en.us).pdf)フォームで、[弊社に送信](mailto:ptneu@microsoft.com)してを入力します。  <br/> |
+|私たちに転送する電話番号を取得する必要があります。  <br/> |これらのフォームのいずれかをダウンロードします。 <br/> [文字の承認 (山) (地理的な番号) の英国の (v.2.0)(en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(geographic-numbers)-(v.2.0)-(en.us).pdf) <br/> [文字の承認 (山) (地理的ではない番号) の英国の (v.2.1)(en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(non-geographic-numbers)-(v.2.1)-(en.us).pdf) <br/>  [弊社に送信](mailto:ptneu@microsoft.com)して入力します。  <br/> |
+|全国の電話帳の電話番号を公開非公開にする必要があります。  <br/> |[ご](mailto:ptneu@microsoft.com)公開非公開にする電話番号の一覧です。 <br/> |
+|サービス番号にユーザーの数を変更する必要があります。  <br/> |[お送り](mailto:ptneu@microsoft.com )サービス番号に変換するユーザーの番号の一覧です。 <br/> |
    
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>関連トピック
+[さまざまな種類の計画を呼び出すための電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-> [!NOTE]
-> **機械翻訳についての免責事項**: この記事の翻訳はコンピューター システムによって行われており、人間の手は加えられていません。マイクロソフトでは、英語を話さないユーザーがマイクロソフトの製品、サービス、テクノロジに関するコンテンツを理解するのに役立てるため、こうした機械翻訳を提供しています。記事は機械翻訳されているため、用語、構文、文法などに誤りがある場合があります。 
-  
+[組織の電話番号を管理します。](manage-phone-numbers-for-your-organization.md)
+
+[緊急通話の利用条件](../emergency-calling-terms-and-conditions.md)
+
+[Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
 

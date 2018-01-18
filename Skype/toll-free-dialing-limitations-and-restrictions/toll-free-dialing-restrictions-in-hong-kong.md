@@ -1,5 +1,5 @@
 ---
-title: Toll-free dialing restrictions in Hong Kong
+title: "香港のフリー ダイヤルのダイヤルの制限"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,21 +15,21 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom: Calling Plans
-description: This will help you find out how to dial toll free numbers in each country/region. After you select the country/region, it will take you to a country-specific page that contains specific details, restrictions, and limits for toll-free service availability where toll-free service is available. The dialing format or formats will show you the required access codes within each country/region to dial the toll free number.
+description: "これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。"
 ms.openlocfilehash: 4905cfe123aa53faf6e442fdf3ead59e66d728a9
 ms.sourcegitcommit: d5d9a9f9d7765cb615ab9fac88a7695c60210cfc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 01/02/2018
 ---
-# <a name="toll-free-dialing-restrictions-in-hong-kong"></a>Toll-free dialing restrictions in Hong Kong
+# <a name="toll-free-dialing-restrictions-in-hong-kong"></a>香港のフリー ダイヤルのダイヤルの制限
 
-[Find another country or region](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.
+[別の国または地域を検索する](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)には、フリー ダイヤルの制限事項と制限事項の詳細についてはまたはです。
 
 
 |**[詳細]**|**説明**|
 |:-----|:-----|
-|Is toll-free calling available?  <br/> |あり  <br/> |
+|呼び出し、利用可能なフリー ダイヤルですか。  <br/> |あり  <br/> |
 |ダイヤル形式  <br/> | 800 XXX XXX <br/> |
 |国/地域の ISO コード  <br/> |HK  <br/> |
 |対象となる島/地域  <br/> |該当しない  <br/> |
@@ -40,6 +40,6 @@ ms.lasthandoff: 01/02/2018
    
 ## <a name="related-topics"></a>関連トピック
 
-[Toll-free dialing limitations and restrictions](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
+[フリー ダイヤルの制限事項と制限事項](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
 
-[Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+[Skype のビジネスおよびマイクロソフトのチームのサービスの電話番号を取得します。](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
