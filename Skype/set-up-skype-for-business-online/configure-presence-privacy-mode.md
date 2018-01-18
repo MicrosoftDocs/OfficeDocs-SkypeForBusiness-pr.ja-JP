@@ -1,44 +1,44 @@
 ---
-title: "プレゼンス プライバシー モードを構成する"
-ms.author: TONYSMIT
+title: "プレゼンス プライバシー モードを構成します。"
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/21/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.OrgPresencePrivacy
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: b33d57fe-b9cf-43c1-961a-edf28db738e8
-description: "Learn how to set up privacy mode for your users so they can better control how people see their availability. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: ms.lync.lac.OrgPresencePrivacy
+ms.custom: Setup
+description: "ユーザーが、利用可能時間を表示する方法より細かく制御できますように、ユーザーのプライバシー モードを設定する方法について説明します。 "
+ms.openlocfilehash: b31e9fc7d3493daebe6fb7715155fb882eebd0af
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="configure-presence-privacy-mode"></a>プレゼンス プライバシー モードを構成します。
 
-# プレゼンス プライバシー モードを構成する
-
-> [!IMPORTANT]
-> この記事は機械翻訳されています。機械翻訳についての「免責事項」をお読みください。 
+ビジネス オンライン プレゼンスの設定の Skype では、会議室、またはオフィスの外に使用されるかどうかを参照できるメンバーがより詳細に制御人を示します。 詳細については Skype のビジネスが存在し、プライバシーの設定、[ビジネス オンラインの Skype のプレゼンスを構成する](configure-presence-in-skype-for-business-online.md)を参照してください。 
   
-Skype for Business Onlineプレゼンスの設定] でユーザーかどうかは、会議、または外出を表示できるユーザーをより細かく制御できます。Skype for Businessプレゼンスとプライバシーの設定についての詳細については、 [Skype for Business Online でプレゼンスを設定する](configure-presence-in-skype-for-business-online.md)を参照してください。
-  
-## 組織内のすべてのユーザーに対する既定のオンライン プレゼンス設定を選択する
+## <a name="choose-the-default-online-presence-setting-for-everyone-in-your-organization"></a>組織内のすべてのユーザーの既定のオンライン プレゼンスの設定を選択します。
 <a name="__top"> </a>
 
-1. Skype for Business Online 管理センター、[ **組織]、[全般**] の順に移動します。
+1. オンライン ビジネスの管理センターの Skype に >**組織 > 一般的な**です。
     
-2. [ **プレゼンス プライバシー モード**] で設定を選択し、[ **保存**] をクリックします。
+2. [**プレゼンス プライバシー モード**の場合は、設定を選択し、し、[**保存**] をクリックします。
     
-|****設定****|****ユーザー プレゼンスを表示できる他のユーザー****|
+|**設定**|**ユーザーのプレゼンスを表示できるユーザー**|
 |:-----|:-----|
-|**プレゼンス情報を自動的に表示する** <br/> |[ **外部**] または [ **禁止済み**] プライバシー グループに属していないすべての Skype for Business ユーザー。  <br/> |
-|**プレゼンス情報をユーザーの連絡先にのみ表示する** <br/> |連絡先リストに含まれている、[ **外部**] または [ **禁止済み**] プライバシー グループに属していないすべてのユーザー。  <br/> 各ユーザーは、Skype for Business の [ **オプション**] ダイアログ ボックスでこの設定を変更できます。  <br/> |
+|**プレゼンス情報を自動的に表示する** <br/> |[ **外部** ] または [ **禁止済み** ] プライバシー グループに属していないすべての Skype for Business ユーザー。 <br/> |
+|**プレゼンス情報をユーザーの連絡先にのみ表示します。** <br/> |ユーザーの連絡先] ボックスの一覧または**ブロック**の**外部**のプライバシー グループに属さないユーザーにすべてのユーザー。 <br/> 個々 のユーザーは、Skype のビジネス**のオプション**] ダイアログ ボックスでこの設定を変更できます。 <br/> |
    
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>関連トピック
+[Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 
-> [!NOTE]
-> **機械翻訳についての免責事項**: この記事の翻訳はコンピューター システムによって行われており、人間の手は加えられていません。マイクロソフトでは、英語を話さないユーザーがマイクロソフトの製品、サービス、テクノロジに関するコンテンツを理解するのに役立てるため、こうした機械翻訳を提供しています。記事は機械翻訳されているため、用語、構文、文法などに誤りがある場合があります。 
-  
-
+[Skype 連絡先を追加、ビジネス ・ ユーザーの Skype を使用します。](let-skype-for-business-users-add-skype-contacts.md)

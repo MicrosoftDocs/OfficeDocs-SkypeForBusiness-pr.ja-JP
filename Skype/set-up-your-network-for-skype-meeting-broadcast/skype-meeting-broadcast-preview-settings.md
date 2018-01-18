@@ -1,20 +1,33 @@
 ---
-title: "Skype 会議ブロードキャストのプレビュー設定"
-ms.author: tonysmit
+title: "Skype 会議をブロードキャストのプレビュー設定"
+mms.author: tonysmit
 author: tonysmit
-ms.date: 11/16/2017
-ms.audience: End User
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.BroadcastMeetingsPreview
-ms.prod: office-online-server
+ms.assetid: 651d4773-cbd8-49e9-b55e-7abb8064060
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
 localization_priority: Normal
-ms.assetid: 651d4773-cbd8-49e9-b55e-7abb8064060a
-description: "Skype for Business カスタマー プログラムでは新しい製品および機能にいち早くアクセスできます。これにより、お客様の組織は次に実装される機能のプレビュー情報を確認したり、製品ビルドのリリースの一般公開前に、ご利用の環境で新機能をテストしてフィードバックを提供したりすることができます。詳細については、「Skype for Business のプレビュー」をご覧ください。"
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.BroadcastMeetingsPreview
+ms.custom: SMB
+description: "ビジネス カスタマー プレビュー プログラムの Skype では、新しい製品や機能を早期アクセスを提供します。 次に来るテクノロジー、独自の環境に新しい機能をテストし、フィードバックを一般に公開する製品ビルドをリリースする前にプレビューを取得するのには、組織が有効にします。 詳細については、プレビューを表示するビジネス Skype を参照してください。"
+ms.openlocfilehash: 73043e342674db1e5a5b5b4acf11927922adef6e
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="skype-meeting-broadcast-preview-settings"></a>Skype 会議をブロードキャストのプレビュー設定
 
-# Skype 会議ブロードキャストのプレビュー設定
+ビジネス カスタマー プレビュー プログラムの Skype では、新しい製品や機能を早期アクセスを提供します。 次に来るテクノロジー、独自の環境に新しい機能をテストし、フィードバックを一般に公開する製品ビルドをリリースする前にプレビューを取得するのには、組織が有効にします。 詳細については、 [Skype](https://www.skypepreview.com/)を参照してください。
 
-Skype for Business カスタマー プログラムでは新しい製品および機能にいち早くアクセスできます。これにより、お客様の組織は次に実装される機能のプレビュー情報を確認したり、製品ビルドのリリースの一般公開前に、ご利用の環境で新機能をテストしてフィードバックを提供したりすることができます。詳細については、「[Skype for Business のプレビュー](https://www.skypepreview.com/)」をご覧ください。
+## <a name="related-topics"></a>関連トピック
+[Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
   
+[Skype for Business Online のセットアップ](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 

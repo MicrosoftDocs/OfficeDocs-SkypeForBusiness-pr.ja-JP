@@ -1,33 +1,38 @@
 ---
 title: "Skype for Business Online の設定の概要"
-ms.author: TONYSMIT
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/16/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: da3386ab-0397-4c55-b9f0-9dbeade93455
-description: "This summary of Skype for Business organization and user settings can help you learn more about Public IM connetivity, Meeting invitiations, recording calls and meetings, and more.  "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: "Skype のビジネス組織とユーザー設定の概要では、パブリック IM 接続、会議出席依頼が、呼び出しと、会議の記録の詳細についてはできます。  "
+ms.openlocfilehash: 027246fb704ec466851f80d18c02e50b8c807616
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="skype-for-business-online-settings-summary"></a>Skype for Business Online の設定の概要
 
-# Skype for Business Online の設定の概要
-
-> [!IMPORTANT]
-> この記事は機械翻訳されています。機械翻訳についての「免責事項」をお読みください。 
-  
-[ **Skype for Business 管理センター**] には、組織全体と個々のユーザーの設定が含まれています。
+**ビジネス管理センターの Skype**では、組織全体および個々 のユーザーの設定が含まれています。 
   
 > [!NOTE]
-> 現在の場所に応じていないSkype for Business Onlineのすべての機能へのアクセスがあります。詳細については、 [Office 365 のライセンス制限](https://go.microsoft.com/fwlink/?LinkId=529483)を参照してください。 
+>  よって、ビジネス オンラインの Skype のすべての機能へのアクセスをしないがあります。 詳細については、 [Office 365 のライセンスによる使用制限](https://go.microsoft.com/fwlink/?LinkId=529483)を参照してください。 
   
-## Skype for Business Online の組織の設定
+## <a name="skype-for-business-online-organization-settings"></a>Skype for Business Online の組織の設定
 <a name="__top"> </a>
 
-|****設定****|****説明****|****既定****|****詳細情報****|
+|**設定**|**説明**|**既定値**|**詳細情報**|
 |:-----|:-----|:-----|:-----|
 |ドメイン フェデレーション  <br/> |Skype for Business Online を使用する他の組織と通信する  <br/> |有効  <br/> |[ユーザーが外部の Skype for Business ユーザーに連絡できるようにする](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
 |パブリック IM 接続  <br/> |Skype for Business Online ユーザーと通信する  <br/> |有効  <br/> |[ユーザーが外部の Skype for Business ユーザーに連絡できるようにする](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
@@ -35,20 +40,17 @@ description: "This summary of Skype for Business organization and user settings 
 |プレゼンスのプライバシー モード  <br/> |Skype for Business Online ユーザーのプレゼンス状態を表示できるユーザーを指定する  <br/> |プレゼンス情報を自動的に表示する  <br/> |[プレゼンス プライバシー モードを構成する](configure-presence-privacy-mode.md) <br/> |
 |会議出席依頼  <br/> |独自のロゴやフッターを追加し、ヘルプ情報や法的情報へのリンクを追加する  <br/> |未構成  <br/> |[会議出席依頼をカスタマイズする](customize-meeting-invitations.md) <br/> |
    
-## Skype for Business Online のユーザー設定
+## <a name="skype-for-business-online-user-settings"></a>Skype for Business Online のユーザー設定
 <a name="__toc314837470"> </a>
 
-|****設定****|****説明****|****既定****|****詳細情報****|
+|**設定**|**説明**|**既定値**|**詳細情報**|
 |:-----|:-----|:-----|:-----|
-|音声およびビデオ  <br/> |Skype for Business Online を使用してオーディオおよびビデオによる通話を実行する  <br/> |有効  <br/> |[管理者: 個別のユーザーの Skype for Business の設定を構成する](admins-configure-skype-for-business-settings-for-individual-users.md) <br/> |
-|レコーディング  <br/> |通話と会議を記録する  <br/> |有効  <br/> |[管理者: 個別のユーザーの Skype for Business の設定を構成する](admins-configure-skype-for-business-settings-for-individual-users.md) <br/> |
-|匿名の出席者のダイヤルアウト  <br/> |電話会議プロバイダーに電話をかけてもらうことにより、匿名の Skype for Business Online 会議出席者の接続を許可する  <br/> |有効  <br/> |[管理者: 個別のユーザーの Skype for Business の設定を構成する](admins-configure-skype-for-business-settings-for-individual-users.md) <br/> |
-|アーカイブされていない機能を無効にする  <br/> | 組織がExchange 管理センターでは、[電子情報開示センターでのソースをケースにコンテンツの追加を押したまま](https://go.microsoft.com/fwlink/?LinkId=529482)を設定するときにキャプチャされない機能を無効になります。  <br/>  インスタント メッセージングを使用したファイルの転送 <br/>  OneNote の共有ページ <br/>  PowerPoint のコメント <br/>  電子的に保存した情報の保管を法律で要請されている場合は、このオプションを選んでください。 <br/> |無効  <br/> |[管理者: 個別のユーザーの Skype for Business の設定を構成する](admins-configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|音声およびビデオ  <br/> |Skype for Business Online を使用してオーディオおよびビデオによる通話を実行する  <br/> |有効  <br/> |[管理者: 個別のユーザーの Skype for Business の設定を構成する](configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|レコーディング  <br/> |通話と会議を記録する  <br/> |有効  <br/> |[管理者: 個別のユーザーの Skype for Business の設定を構成する](configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|匿名の出席者のダイヤルアウト  <br/> |電話会議プロバイダーに電話をかけてもらうことにより、匿名の Skype for Business Online 会議出席者の接続を許可する  <br/> |有効  <br/> |[管理者: 個別のユーザーの Skype for Business の設定を構成する](configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|アーカイブされていない機能を無効にする  <br/> | 組織が、Exchange 管理センターでの[電子情報開示センターでの大文字と小文字および場所のソースに追加のコンテンツを保持](https://go.microsoft.com/fwlink/?LinkId=529482)を設定しているときにキャプチャされていない機能をオフにします。 <br/>  インスタント メッセージングを使用したファイルの転送 <br/>  OneNote の共有ページ <br/>  PowerPoint のコメント <br/>  電子的に保存した情報の保管を法律で要請されている場合は、このオプションを選んでください。 <br/> |無効  <br/> |[管理者: 個別のユーザーの Skype for Business の設定を構成する](configure-skype-for-business-settings-for-individual-users.md) <br/> |
    
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>関連トピック
+[Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 
-> [!NOTE]
-> **機械翻訳についての免責事項**: この記事の翻訳はコンピューター システムによって行われており、人間の手は加えられていません。マイクロソフトでは、英語を話さないユーザーがマイクロソフトの製品、サービス、テクノロジに関するコンテンツを理解するのに役立てるため、こうした機械翻訳を提供しています。記事は機械翻訳されているため、用語、構文、文法などに誤りがある場合があります。 
-  
-
+[Skype 連絡先を追加、ビジネス ・ ユーザーの Skype を使用します。](let-skype-for-business-users-add-skype-contacts.md)

@@ -1,57 +1,62 @@
 ---
-title: "ユーザーが会議に参加したときに自分の名前を記録できるようにする"
+title: "会議に参加するときに自分の名前を記録するようにユーザーを有効にします。"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/12/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: 1d649328-ada7-422d-a074-d6da4da36970
-description: "Learn how to enable or disable whether your users can record their names when they join a meeting "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: "有効にするか、ユーザーが会議に参加するときの名前を記録できるかどうかを無効にする方法を学習します。 "
+ms.openlocfilehash: f07bb24530e7b59ab6f54dfe2cd4eadf91def20c
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="enable-users-to-record-their-name-when-they-join-a-meeting"></a>会議に参加するときに自分の名前を記録するようにユーザーを有効にします。
 
-# ユーザーが会議に参加したときに自分の名前を記録できるようにする
-
-> [!IMPORTANT]
-> この記事は機械翻訳されています。機械翻訳についての「免責事項」をお読みください。 
+Office 365 に電話会議を設定する場合の電話番号と、オーディオ会議ブリッジと呼ばれるが表示されます。 会議用ブリッジは、専用または共有の電話番号は、1 つまたは複数の電話番号を含めることができます。
   
-Skype for Businessと Microsoft チームの電話会議をセットアップしていると、電話番号と、電話会議ブリッジと呼ばれるものが提供されます。会議ブリッジには、専用または共有の電話番号をことができる 1 つ以上の電話番号を含めることができます。
+会議用ブリッジの電話を使用して会議にダイヤルインするユーザーが呼び出しに応答します。 会議用ブリッジは、自動応答から音声メッセージを呼び出し元に回答し、それらの設定によって再生できる通知、呼び出し元が自分の名前を記録し、会議の開催者の暗証番号 (pin) のセキュリティを設定するに問い合わせてください。 ピンは、会議の開始を許可するように、ミーティングの開催者に与えられます。 ただし、ことができますを設定すると、暗証番号 (pin) が会議を開始する必要はありませんので。
   
-ユーザーが電話を使って会議にダイヤルインすると、その通話は会議ブリッジによって応答されます。会議ブリッジでは、自動応答の音声プロンプトで発信者に応答してから、設定に応じて、お知らせを再生したり、発信者に名前を記録するように依頼したり、会議開催者の PIN セキュリティをセットアップしたりします。PIN が会議開催者に与えられて、開催者は会議を開始できるようになります。ただし、PIN がなくても会議を開始できるように設定できます。
-  
-## 発信者が名前を記録すべきかどうかを設定する
+## <a name="set-whether-callers-should-record-their-name"></a>呼び出し元が自分の名前を記録するかどうかを設定します。
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **Office 365 管理センター**、[ **Skype for Business**] の順に移動します。
+2. **Office 365 管理センター**を参照して > **ビジネス用の Skype**です。
     
-3. [ **[Skype for Business 管理センター]**、左のナビゲーションで **電話会議**に移動 > **Microsoft ブリッジの設定**します。
+3. **電話会議**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **Microsoft ブリッジ設定**します。
     
-4. [ **会議参加エクスペリエンス**] の [ **会議の入退出の通知をオンにする**] で、次のいずれかを選びます。
+4. **会議参加の経験**をするには、[**ミーティングの入場を有効にして終了の通知をオンにする**というラベルの付いたチェック ボックスを参照してください。
     
-  - **オン**: 発信者は、会議に参加する前に名前を記録するように依頼されます。 既定ではオンになっています。
+  - **選択**会議に入る前に自分の名前を記録するための呼び出し元が求められます。 これがデフォルトで選択されます。
     
-  - **オフ**: 発信者は、会議に参加する前に名前を記録するように依頼されません。
+  - **クリア**呼び出し元はない会議に入る前に自分の名前を記録するよう求められます。
     
-5. 変更したら [ **保存**] をクリックします。
+5. 変更を行ったら、[**保存**] をクリックします。
     
-## Windows PowerShell で管理する方法
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell で管理する方法
 
-- 時間を節約し、自動化したりには、[セット CsOnlineDialInConferencingTenantSettings ](https://go.microsoft.com/fwlink/?LinkId=715757)コマンドレットを使用することができます。
+- 時間を短縮または、これを自動化するには、[セット CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757)コマンドレットを使用することができます。
     
-- Windows PowerShell がユーザーとは、ユーザーの許可を管理できます。 、Windows PowerShell で複数のタスクを実行するがある場合、日常業務を簡素化する管理の 1 つのポイントを使用してOffice 365を管理できます。 Windows PowerShell で開始するには、次のトピックを参照してください。
+-  Windows PowerShell は、ユーザーとは、ユーザーの許可を管理します。 Windows PowerShell を実行する複数のタスクがある場合、日常的な作業を簡素化する管理の単一ポイントを使用して Office 365 を管理できます。 Windows PowerShell を使い始めるには、以下のトピックを参照してください。
     
-  - [Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Office 365 の PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- 多くのユーザーの設定を同時に変更するときなどは、Office 365 管理センターのみを使用するよりも、Windows PowerShell の方に、速度、わかりやすさ、生産性の点で多くのメリットがあります。次のトピックで、これらの利点を説明します。
+- Windows PowerShell には、実行しようとする設定の変更多くのユーザーを一度に 1 つなど、Office 365 管理センターを使用するだけでスピード、シンプルさと生産性に多くの利点があります。 次のトピックで、これらの利点について学習します。 
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -60,18 +65,9 @@ Skype for Businessと Microsoft チームの電話会議をセットアップし
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > Skype for Business Online 用 Windows PowerShell モジュールでは、リモート Windows PowerShell セッションを作成して Skype for Business Online に接続できます。このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「[Skype for Business Online 用 Windows PowerShell モジュール](https://go.microsoft.com/fwlink/?LinkId=294688)」からダウンロードできます。 
+    > Skype for Business Online 用 Windows PowerShell モジュールでは、リモート Windows PowerShell セッションを作成して Skype for Business Online に接続できます。このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「[Skype for Business Online 用 Windows PowerShell モジュール](https://go.microsoft.com/fwlink/?LinkId=294688)」からダウンロードできます。
   
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>関連トピック
 
-> [!NOTE]
-> **機械翻訳についての免責事項**: この記事の翻訳はコンピューター システムによって行われており、人間の手は加えられていません。マイクロソフトでは、英語を話さないユーザーがマイクロソフトの製品、サービス、テクノロジに関するコンテンツを理解するのに役立てるため、こうした機械翻訳を提供しています。記事は機械翻訳されているため、用語、構文、文法などに誤りがある場合があります。 
-  
-## 関連項目
-<a name="MT_Footer"> </a>
-
-#### 
-
-[Office 365 でのダイヤルイン会議](../misctopics/dial-in-conferencing-in-office-365.md)
+[Skype for Business および Microsoft Teams の電話会議のセットアップ](set-up-audio-conferencing.md)
 

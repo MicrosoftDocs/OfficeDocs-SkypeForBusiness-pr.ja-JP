@@ -1,66 +1,73 @@
 ---
-title: "会議出席依頼をカスタマイズする"
-ms.author: TONYSMIT
+title: "ミーティングの招待状をカスタマイズします。"
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/10/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.MeetingInvitation
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: 9af52080-dd56-4b66-b056-41ed1a7aaae3
-description: "Customize Skype meeting invitations with graphic logos, help and legal URLs, and footer text. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: ms.lync.lac.MeetingInvitation
+ms.custom: Setup
+description: "グラフィックのロゴ、ヘルプと有効な Url、およびフッターのテキストを持つ Skype ミーティングの招待状をカスタマイズします。 "
+ms.openlocfilehash: bb0b49c910a105e7fffc8180832aca1bb1c051c0
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="customize-meeting-invitations"></a>ミーティングの招待状をカスタマイズします。
 
-# 会議出席依頼をカスタマイズする
-
-管理者として、すべての Skype for Business の会議出席依頼に、サポート Web サイトや法的免責事項へのリンク、会社のロゴ、その他のテキストなど、ユーザーにとって役立つ必要な情報が含まれていることを確認できます。
+、管理者としては、ビジネスの会議出席依頼のすべての Skype にはサポート用 web サイトと免責事項、会社のロゴ、およびその他のテキストを追加するへのリンクなど、ユーザーが必要がありますいくつかの有益な情報が含まれているかを確認できます。 
   
-## 会議出席依頼のロゴを作成するためのヒント
+## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>会議出席依頼には、ロゴを作成するためのヒント
 <a name="__top"> </a>
 
-1. 横 188 ピクセル、縦 30 ピクセル以内の (非常に小さい) 画像を作成します。
+1. 188 ピクセル 30 ピクセルの高さ (非常に小さいです) では、イメージを作成します。
     
-2. その画像を JPG 形式で保存します。
+2. イメージを JPG 形式で保存します。
     
-3. 仕事の関係者全員がアクセスできる、ネットワーク共有、共有されている OneDrive for Business のフォルダー、Dropbox などの中心的な場所に画像を保存します。
+3. お客様のビジネスのすべてのユーザーがアクセスできる中央の場所にイメージを格納するなどのネットワーク共有の仕事フォルダーをドロップ ボックスには、共有の OneDrive などです。
     
-    これで、会議出席依頼に画像を追加できます。次の手順に進みます。
+    ここで、会議出席依頼に追加できます。 次の手順を参照してください。
     
-## 会議出席依頼をカスタマイズする
+## <a name="customize-your-meeting-invitations"></a>会議出席依頼をカスタマイズします。
 <a name="__top"> </a>
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. Office 365 管理センター で、[ **管理センター**]、[ **Skype for Business**] の順に選択します。
+2. Office 365 管理センターから、**管理者が中央揃え**」を選択します > **ビジネス用の Skype**です。
     
-3. Skype for Business 管理センターで、[ **オンライン会議**] を選択します。
+3. ビジネス管理センターの Skype、**オンライン会議**を選択します。 
     
-4. 次のボックスをすべて入力します。
+4. 以下のボックスを完了します。
     
-    ![Here's what it might look like when you complete the form to customize your meeting invitations.](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png)
+    ![ここでは、会議出席依頼をカスタマイズするフォームを完了するときのように表示可能性があります。](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png) 
+
+   **ロゴの URL:**ロゴを保存する場所の URL を入力します。 必要がありますは、JPG 形式であることを忘れないでください! 
+ 
+   **ヘルプ URL:**組織のサポート web サイトがユーザーの問題がある場合に移動できるようにする場合は、ここに URL を入力します。 
+
+   **法的 URL:**組織の有効な web サイトの法的な懸念事項がある場合に移動するようにする場合は、ここに URL を入力します。
+    
+   **フッター テキスト:**ユーザーの目的となるテキストのみの脚注を入力します。  
   
-|**オプション**|**説明**|
-|:-----|:-----|
-|**ロゴ URL** <br/> |ロゴが保存されている場所の URL を入力します。必ず JPG 形式になるようにしてください。  <br/> |
-|**ヘルプ URL** <br/> |問題発生時にユーザーが参照できるサポート Web サイトを組織が用意している場合は、URL をここに入力します。  <br/> |
-|**法的情報の URL** <br/> |法的な問題の発生時にユーザーが参照できる法的情報の Web サイトを組織が用意している場合は、URL をここに入力します。  <br/> |
-|**フッター テキスト** <br/> |ユーザーに該当する内容の、テキストのみの脚注を入力します。  <br/> |
    
 5. [ **保存**] を選びます。
     
-6. 変更がすべての Office 365 サービスにわたって入力されるまで、1 時間程度待ちます。次に、Outlook に移動して Skype 会議のスケジュールを設定し、変更がどのように反映されるかを確認します。
+6. 1 時間など、すべての Office 365 サービスの間で値を設定するのには変更を待機します。 Outlook に移動し、Skype 会議の変更内容がどのように確認します。 
     
-    ![Here's what a custom invitation looks like, without the graphic](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
+    ![ここでは、カスタムの招待状がどんなものか、画像なし](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
-## 関連項目
+## <a name="related-topics"></a>関連トピック
 <a name="__top"> </a>
 
-#### 
 
-[Skype for Business および Microsoft Teams の電話会議のセットアップ](../audio-conferencing-in-office-365/set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+[Skype for Business および Microsoft Teams の電話会議のセットアップ](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
 

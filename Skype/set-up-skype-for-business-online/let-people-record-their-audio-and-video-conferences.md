@@ -1,46 +1,46 @@
 ---
-title: "音声やビデオ会議をレコーディングする"
-ms.author: TONYSMIT
+title: "オーディオおよびビデオ会議を記録できるように"
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/21/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- O365P_RecordingDesc
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: 122cb43d-b57a-4b93-b902-a1a432e7de28
-description: "How to turn on recording for audio and video conferences, and learn what is and isn't included in recordings. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: O365P_RecordingDesc
+ms.custom: Setup
+description: "オーディオとビデオの会議の記録を有効にし、対処方法を説明する方法では、レコーディングには含まれていません。 "
+ms.openlocfilehash: 2ceedcc148bf6c40dccc52e54f1b3474e9b3aedb
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="let-people-record-their-audio-and-video-conferences"></a>オーディオおよびビデオ会議を記録できるように
 
-# 音声やビデオ会議をレコーディングする
+## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a>組織で単一のユーザーまたはすべてのユーザーの設定を記録する既定値を選択します。
 
-> [!IMPORTANT]
-> この記事は機械翻訳されています。機械翻訳についての「免責事項」をお読みください。 
+1. **Office 365 管理センター**を参照して > **ビジネス用の Skype**、し、[**ユーザー**] をクリックします。
+    
+2. [**ユーザー** ] ページで、ボックスの一覧からユーザーまたはユーザーを選択し、し、[**編集**] をクリックします。
+    
+3. [**オプション] ページ**で、[**レコードの会話や会議**、し、[**保存**] をクリックします。
+    
+記録がオンになっている場合、開催者または発表者は、Skype のビジネスのオンライン会議または電話会議を記録できます。 記録のオンまたはオフにするには、組織内のすべてのユーザーに影響します。
   
-## 組織内の単一ユーザーまたはすべてのユーザーに対して既定のレコーディング設定を選ぶ
-
-1. **Office 365管理センター**に移動 > **Skype for Business** では、ユーザー] をクリックします。
-    
-2. [ **ユーザー**] ページの一覧からユーザー (複数可) を選んで、[ **編集**] をクリックします。
-    
-3. **] オプション ページで**、 **レコードの会話と会議**] をクリックし、[ **保存**] をクリックします。
-    
-レコーディング機能がオンになると、会議の開催者や発表者は Skype for Business Online 会議または電話会議をレコーディングすることができます。レコーディング機能のオンまたはオフの切り替えは、組織内のすべてのユーザーに適用されます。
-  
-|**レコーディングに含まれる**|**レコーディングに含まれない**|
+|**録音に含まれています。**|**録音に含まれていません**|
 |:-----|:-----|
-|音声および HD ビデオ  <br/> PowerPoint およびホワイトボードによるプレゼンテーション  <br/> デスクトップまたはプログラム共有セッション  <br/> |OneNote の共有ページ  <br/> PowerPoint のコメント  <br/> 共有ファイル (添付ファイル)  <br/> |
+|オーディオと HD ビデオ  <br/> ホワイト ボードなど、PowerPoint のプレゼンテーション  <br/> デスクトップまたはプログラムの共有セッション  <br/> |OneNote の共有ページ  <br/> PowerPoint のコメント  <br/> 共有ファイル (添付ファイル)  <br/> |
    
-詳細については、「[Skype for Business (Lync) での録音、保存、公開](https://support.office.com/article/83cf1507-0f05-40f5-a520-5a6c133bc33e)」、「[Skype for Business (Lync) レコーディング マネージャー](https://support.office.com/article/fa915c55-ff55-45c0-b372-1ef5596da10b)」を参照してください *。* 
+詳細については、 [Lync の記録を保存して公開](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e)し、 [Lync のマネージャーの記録](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b)を参照してください。 
   
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>関連トピック
+[Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 
-> [!NOTE]
-> **機械翻訳についての免責事項**: この記事の翻訳はコンピューター システムによって行われており、人間の手は加えられていません。マイクロソフトでは、英語を話さないユーザーがマイクロソフトの製品、サービス、テクノロジに関するコンテンツを理解するのに役立てるため、こうした機械翻訳を提供しています。記事は機械翻訳されているため、用語、構文、文法などに誤りがある場合があります。 
-  
-
+[Skype 連絡先を追加、ビジネス ・ ユーザーの Skype を使用します。](let-skype-for-business-users-add-skype-contacts.md)

@@ -1,39 +1,47 @@
 ---
-title: "組織でボイスメールの応答メッセージとメールでに使用する既定の言語を変更する"
+title: "あいさつ文やメールの既定の言語を変更します。"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/10/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: 820c3892-1b7e-47d3-ae8d-6e27e7cbcf38
-description: "Learn how to setup Skype for Busineses to use another language for your organization's default voicemail greeting. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Phone System
+description: 'Learn how to setup Skype for Busineses to use another language for your organization''s default voicemail greeting. '
+ms.openlocfilehash: cfbdcfec46a79c6fcef2aff970a05837460f6e72
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="change-the-default-language-for-greetings-and-emails"></a>あいさつ文やメールの既定の言語を変更します。
 
-# 組織でボイスメールの応答メッセージとメールでに使用する既定の言語を変更する
-
-[Office 365 の管理者ロールについて](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)の場合は、Skype for Business を設定して、別の言語で再生される既定のボイスメール応答メッセージを入れることができます。既定のシステム応答メッセージは、たとえば「内田です。ただいま、席を外しております。発信音の後に、メッセージを録音してください。終わりましたら、電話を切るか、シャープを押して別のオプションを選択してください。」のようになっています。
+[Office 365 のグローバル管理者](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)の場合は、あいさつ文の別の言語での既定のボイス メールを再生するのにはビジネス用の Skype を設定できます。 既定のシステムの応答メッセージは、次のように"John Smith には、メッセージを残すしてください。 トーンの後、メッセージを記録してください。 録音が完了したら、ハングアップ、かキーを押してシャープ オプションの詳細について。」 
   
  **最初に、次の重要な情報をお読みください。**
   
-- **利用できる言語は組織の場所によって決まります** 。たとえば、組織が米国内にある場合は、既定の言語を英語またはスペイン語に設定できます。組織がカナダにある場合は、英語とフランス語から選べます。サポートされる言語のリストについては、「[Languages for voicemail greetings and messages from Skype for Business](languages-for-voicemail-greetings-and-messages-from-skype-for-business.md)」をご覧ください。
+- **使用できる言語は、組織の位置によって決まります**。 などのアメリカ合衆国では、組織が配置されている場合は、英語またはスペイン語を既定の言語を設定できます。 カナダでは、組織が存在する場合は、英語とフランス語の間で選択できます。 サポートされている言語のリストは、[ボイス メール応答メッセージとビジネス用の Skype からのメッセージの言語](languages-for-voicemail-greetings-and-messages.md)を参照してください。
     
 - **組織内の 1 人のユーザーのみに対してシステムの言語を変更する方法はありません。** 組織のユーザー全員に対してあいさつ文の言語を変更することのみが可能です。
     
     > [!NOTE]
     > ユーザーはサイン インした後に設定を操作して自身のあいさつ文の言語を変更できます。 
   
-- **発信ボイス メール メッセージを録音する場合は、** 「[Skype for Business ボイス メールの確認とオプション](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8#bkmk_greeting)」をご覧ください。
+- **ボイスメール メッセージを記録しますか。** [ビジネス ボイスメールおよびオプションの Skype のチェック](https://support.office.com/en-us/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)を参照してください。
     
-## 組織のユーザー全員に対してシステムの言語を変更する
+## <a name="change-the-system-language-for-everyone-in-your-organization"></a>組織のユーザー全員に対してシステムの言語を変更する
 
-1. [Office 365 の管理者ロールについて](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)https://portal.office.com/adminportal/home[](https://portal.office.com/adminportal/home)アカウントを使用してサインインします。
+1. [Https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)で[Office 365 のグローバル管理者](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)アカウントでサインインします。 
     
-2. 管理センターで、[ **設定**]、[ **組織プロファイル**] の順に選びます。
+2. 管理センターの**設定**を選択します > **組織プロファイル**です。 
     
      ![Choose Settings and then choose Organization profile.](../../images/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
@@ -45,7 +53,7 @@ description: "Learn how to setup Skype for Busineses to use another language for
     
 5. [ **保存**] を選びます。
     
-## 管理者向けの関連記事
+## <a name="related-articles-for-the-admin"></a>管理者向けの関連記事
 
 - [Office 365 の通話プランについて](../../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
     
@@ -53,13 +61,12 @@ description: "Learn how to setup Skype for Busineses to use another language for
     
 - [Skype for Business Server 2015 または Lync Server 2013 でオンプレミスの PSTN 接続を備えた Office 365 の電話システムを計画する](https://go.microsoft.com/fwlink/?LinkId=717947)
     
-## 関連する言語の記事
-<a name="RelLinks"> </a>
+## <a name="related-topics"></a>関連トピック
 
-- [一般法人向け Office 365 で表示言語とタイム ゾーンを変更する](https://support.office.com/article/6f238bff-5252-441e-b32b-655d5d85d15b)
+- [一般法人向け Office 365 で表示言語とタイム ゾーンを変更する](https://support.office.com/en-us/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
     
-- [Office 2010 以降で別の言語を使用できるようにする](https://support.office.com/article/663d9d94-ca99-4a0d-973e-7c4a6b8a827d)
+- [言語を追加または Office 2010 およびそれ以降の言語を設定](https://support.office.com/en-us/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d))
     
-- [キーボード レイアウトの言語を有効化または変更する](https://support.office.com/article/1c2242c0-fe15-4bc3-99bc-535de6f4f258)
+- [キーボード レイアウトの言語を有効化または変更する](https://support.office.com/en-us/article/Enable-or-change-a-keyboard-layout-language-1c2242c0-fe15-4bc3-99bc-535de6f4f258)
     
 

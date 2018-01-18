@@ -2,43 +2,53 @@
 title: "ポート注文のステータスとは"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: get-started-article
-f1_keywords:
-- ms.lync.lac.PortOrderNoOrderHelp
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: f651e82d-4237-4e3d-ad74-40fdf11fa8d1
-description: "Learn how to get the status of your port orders, and what the different actions you can take on them. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.PortOrderNoOrderHelp
+ms.custom: Calling Plans
+description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
+ms.openlocfilehash: a8b86c43119c8820b4e784fcaddd706651c6f0e4
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="whats-the-status-of-my-port-orders"></a>ポート注文のステータスとは
 
-# ポート注文のステータスとは
-
- **[Skype for Business 管理センター]** > **[音声]** > **[ポート注文]** に移動して、ポート注文の状態を確認できます。 各ポート注文の状態は **[状態]** 列に表示されます。 サポートが必要な場合は、弊社に[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)ください。
+**Skype**に移動して、ポートのオーダーのステータスを表示できます > **音声** > **ポート注文**します。 各ポートの注文のステータスは、[**状態**] 列に表示されます。 ために、[管理者ヘルプのビジネス製品のサポートの連絡先](http://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx)がある場合。
   
-この表は注文の状態を示し、完了する必要がある処理がある場合は、実行できる操作を示します。
+次の表は、ポートの順序のステータスと操作が必要な場合を実行することができます。 
   
-|**状態**|**注文を表示できますか?**|**注文を編集できますか?**|**注文をキャンセルできますか?**|**注文を削除できますか?**|**説明**|
+|**状態**|**順序を表示することができますか。**|**順序を編集することができますか。**|**注文をキャンセルすることができますか。**|**順序を削除することができますか。**|**説明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**処理中** <br/> |はい  <br/> |なし  <br/> |はい  <br/> |なし  <br/> |管理者が発注し、その注文は Microsoft によって受領されました。  <br/> |
-|**通信事業者に接続中** <br/> |はい  <br/> |なし  <br/> |はい  <br/> |なし  <br/> |注文は Microsoft によって受領され承認済みです。現在、以前の通信事業者から承認を得られるよう対処してます。  <br/> |
-|**移行が承認されました** <br/> |はい  <br/> |確定注文コミットメント (FOC)  <br/> |はい  <br/> |なし  <br/> |以前の通信事業者によって注文が承諾され、FOC の日付が設定されています。  <br/> |
-|**移行は保留中です** <br/> |はい  <br/> |なし  <br/> |なし  <br/> |なし  <br/> |移行まで 24 時間を切りましたので、注文の編集や取り消しはできません。  <br/> |
-|**エラー** <br/> |なし  <br/> |はい  <br/> |はい  <br/> |はい (この時点で、エラーがある場合にポート注文を削除することはできません。 ポート注文を再作成するか、[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)必要があります。  <br/> |以前の通信事業者が注文を却下しました。  <br/> |
-|**完了** <br/> |はい  <br/> |なし  <br/> |なし  <br/> |なし  <br/> |電話番号は正常に移行されています。  <br/> |
-|**取り消し** <br/> |なし  <br/> |はい  <br/> |なし  <br/> |なし  <br/> |管理者が注文を取り消しました。  <br/> |
+|**処理** <br/> |はい  <br/> |いいえ  <br/> |はい  <br/> |いいえ  <br/> |管理者が注文を作成し、Microsoft が受信されました。  <br/> |
+|**配送業者に連絡** <br/> |はい  <br/> |いいえ  <br/> |はい  <br/> |いいえ  <br/> |注文を受信して、マイクロソフトによって承認され、承認に失われた通信事業者と協力しています。  <br/> |
+|**転送の承認** <br/> |はい  <br/> |Commitment(FOC) の注文を確定します。  <br/> |はい  <br/> |いいえ  <br/> |順序が失われたキャリアによって受諾され、早さ日が設定されています。  <br/> |
+|**保留中の転送します。** <br/> |はい  <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |転送は 24 時間以内、注文は不要になった編集またはキャンセルされたので  <br/> |
+|**エラー** <br/> |いいえ  <br/> |はい  <br/> |はい  <br/> |はい (現時点では、削除できませんポート順序エラーが表示される場合。 ポートの順序を再作成する必要があるか、[ビジネス製品の管理のヘルプのサポートに問い合わせてください](http://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx)する必要があります。  <br/> |失われたキャリアには、注文が拒否されました。  <br/> |
+|**完了** <br/> |はい  <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |数値が正常に転送されました。  <br/> |
+|**キャンセル** <br/> |いいえ  <br/> |はい  <br/> |いいえ  <br/> |いいえ  <br/> |管理者は、注文をキャンセルしました。  <br/> |
    
- **具体的な手順については、「[Office 365 への電話番号に転送します。](transfer-phone-numbers-to-office-365.md)」をご覧ください。**
-  
-## 関連項目
+ **完全な手順については、 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)を参照してください。**
+ 
+> [!NOTE]
+> これよりも、他の電話番号を取得する場合は、[ビジネス製品の管理のヘルプのサポートに連絡](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)してください。
 
-#### 
+  
+## <a name="related-topics"></a>関連トピック
+[電話番号のよく寄せられる質問を転送します。](transferring-phone-numbers-common-questions.md)
+
+[さまざまな種類の計画を呼び出すための電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
-  
-[音声会議無料ダイヤルアウト期間](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 
+[Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)

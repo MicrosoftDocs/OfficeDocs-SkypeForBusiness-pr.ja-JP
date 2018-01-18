@@ -1,25 +1,26 @@
 ---
-title: "組織のポリシーを設定します。"
+title: "組織のポリシーを設定します"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/14/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 91f9655f-1e9d-4688-9801-a6dc8d6efd87
-description: ""
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+ms.openlocfilehash: 328fd97581364e7c55f691314b1ef3898894d73c
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="set-up-policies-in-your-organization"></a>組織のポリシーを設定します
 
-# 組織のポリシーを設定します。
-
-> [!IMPORTANT]
-> この記事は機械翻訳されています。機械翻訳についての「免責事項」をお読みください。 
-  
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **機械翻訳についての免責事項**: この記事の翻訳はコンピューター システムによって行われており、人間の手は加えられていません。マイクロソフトでは、英語を話さないユーザーがマイクロソフトの製品、サービス、テクノロジに関するコンテンツを理解するのに役立てるため、こうした機械翻訳を提供しています。記事は機械翻訳されているため、用語、構文、文法などに誤りがある場合があります。 
-  
 

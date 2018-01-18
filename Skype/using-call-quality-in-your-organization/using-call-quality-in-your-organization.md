@@ -1,26 +1,27 @@
 ---
-title: "組織で通話品質を使用します。"
+title: "組織で、品質の呼び出しを使用します。"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 11/14/2017
-ms.audience: ITPro
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 57c0568a-78b0-4167-b1d1-af782f70f24b
-description: ""
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: "設定し、分析機能の呼び出しを使用して特定し、Skype のビジネスおよびマイクロソフトのチームの通話品質の問題に関するトラブルシューティングを行います。"
+ms.openlocfilehash: 195316d18ca18fc841fe6c9ae3c4d03b3eef3629
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="using-call-quality-in-your-organization"></a>組織で、品質の呼び出しを使用します。
 
-# 組織で通話品質を使用します。
-
-> [!IMPORTANT]
-> この記事は機械翻訳されています。機械翻訳についての「免責事項」をお読みください。 
-  
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **機械翻訳についての免責事項**: この記事の翻訳はコンピューター システムによって行われており、人間の手は加えられていません。マイクロソフトでは、英語を話さないユーザーがマイクロソフトの製品、サービス、テクノロジに関するコンテンツを理解するのに役立てるため、こうした機械翻訳を提供しています。記事は機械翻訳されているため、用語、構文、文法などに誤りがある場合があります。 
-  
 

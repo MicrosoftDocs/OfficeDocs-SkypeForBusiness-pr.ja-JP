@@ -1,36 +1,44 @@
 ---
-title: "電話の通信事業者がリストにない場合はどうなりますか?"
+title: "場合ソース キャリアとして、電話のキャリアが一覧にないでしょうか。"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: get-started-article
-f1_keywords:
-- ms.lync.lac.PortOrderDetailPanelWhois
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: a8315746-0d17-4c75-ae37-eab82532a3d8
-description: "Learn what to do if your carrier isn't listed in Skype for Business."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.PortOrderDetailPanelWhois
+ms.custom: Calling Plans
+description: "ビジネス用の Skype でのキャリアが一覧にない場合の対処方法を説明します。 "
+ms.openlocfilehash: 71a2ba5fd3a91a4ac31586020dd11af3086dcf48
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>場合ソース キャリアとして、電話のキャリアが一覧にないでしょうか。
 
-# 電話の通信事業者がリストにない場合はどうなりますか?
-
-ご利用の通信事業者の名前がリストに見つからない場合は、少し分かりにくい状況になります。 多くの場合、サービス プロバイダーまたは通信事業者が異なるときは、移行している電話番号が、別のサービス プロバイダーまたは通信事業者が保有するものである可能性があります。 現在ご利用のサービス プロバイダーがサードパーティのサービス プロバイダーと業務提携しているために、現在のサービス プロバイダーと異なるサービス プロバイダーまたは通信事業者がリストに示されている可能性があります。 
+キャリアの名前が表示されないことが表示されたら、少しややこしいかもしれませんが。 ほとんどの場合、サービスプロバイダーまたは通信業者が異なる場合、可能性があります経由で転送する電話番号が別のサービス プロバイダーやキャリアによって所有されています。 サービス ・ プロバイダーやキャリアが表示されている可能性があります、現在のサービス プロバイダーとは異なる、現在のサービス プロバイダーは、サードパーティのサービス プロバイダーの機能可能性があります時間があります。 
   
-例:
+例を示します。
   
-- Skype for Business から番号を移行している場合のご利用の通信事業者として Level3 がリストに示されている可能性があります。
+- キャリアとしてのビジネスのための Skype の番号を移植する場合は、レベル 3 に記載されているを参照してください可能性があります。
     
- **具体的な手順については、「[Office 365 への電話番号に転送します。](transfer-phone-numbers-to-office-365.md)」をご覧ください。**
-  
-## 関連項目
+ **完全な手順については、 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)を参照してください。**
 
-#### 
+    > [!NOTE]
+    > これよりも、他の電話番号を取得する場合は、[ビジネス製品の管理のヘルプのサポートに連絡](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)してください。
+
+  
+## <a name="related-topics"></a>関連トピック
+[電話番号のよく寄せられる質問を転送します。](transferring-phone-numbers-common-questions.md)
 
 [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
-  
-[音声会議無料ダイヤルアウト期間](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 
+[Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)

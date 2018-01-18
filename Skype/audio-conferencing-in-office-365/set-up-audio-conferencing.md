@@ -1,105 +1,102 @@
 ---
 title: "Skype for Business および Microsoft Teams の電話会議のセットアップ"
-ms.author: TONYSMIT
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/22/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- O365P_DialInConfDesc
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection:
-- Adm_Skype4B_Online
-- Adm_Skype4B_Online_Top
-ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
-- LIL_Placement
-- Strat_SB_PSTN
 ms.assetid: d01954f1-4f37-4cf5-a636-20039e5c59e9
-
-description: "Learn how to set up dial-in or audio conferencing (PSTN Conferencing) for the people in your business who need to join conference calls using a phone. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: O365P_DialInConfDesc
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+- LIL_Placement
+description: "電話を使用して会議に参加する必要のあるビジネスで、ユーザーのダイヤルインまたはオーディオ会議を設定する方法について説明します。 "
+ms.openlocfilehash: 6d8fae08a5dc8e6a1cf6bc05b458840c47fc83ed
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams"></a>Skype for Business および Microsoft Teams の電話会議のセットアップ
 
-# Skype for Business および Microsoft Teams の電話会議のセットアップ
-
-組織内の人が電話機を使って会議にコールインする必要がある場合があります。Skype for Business および Microsoft Teams にはまさにこのような状況のために電話会議機能が含まれています。参加者は、モバイル機器や PC で Skype for Business または Microsoft Teams アプリを使用する代わりに、電話機を使って Skype for Business 会議や Microsoft Teams 会議にコールインできます。
+組織内のユーザーは、会議へのコールに電話を使用する必要があります。 Skype ビジネスおよびマイクロソフトのチームには、これだけのオーディオ会議機能を搭載! 人は、ビジネスまたはマイクロソフトのチームのアプリケーションをモバイル デバイスまたは PC 上で、Skype を使用する代わりに、電話を使用するビジネスまたはマイクロソフトのチームの会議、Skype を呼び出すことができます。 
   
-必要なのは、会議をスケジュールまたは開催しようとしている人のために電話会議をセットアップすることだけです。ダイヤルインで参加する会議の出席者には、ライセンスの割り当てやその他のセットアップは必要ありません。
+のみ、スケジュールや会議を計画している人の電話会議を設定する必要があります。 ダイヤルイン会議の参加者、ライセンスを取得、またはその他の設定に割り当てられている必要はありません。
   
-電話会議についてのよくある質問については、「[Audio Conferencing common questions](audio-conferencing-common-questions.md)」をご覧ください。
+オーディオ会議についてよく寄せられる質問は、[オーディオ会議のよく寄せられる質問](audio-conferencing-common-questions.md)を参照してください。
   
-## 手順 1: ライセンスを購入して割り当てる
+## <a name="step-1-buy-and-assign-licenses"></a>手順 1: ライセンスを購入して割り当てる
 <a name="__top"> </a>
 
-この手順を実行するには、[Office 365 の管理者ロールについて](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)としてログインしている必要があります。
+この手順を実行するのには、 [Office 365 の管理者の役割](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)をする必要があります。
   
-1. Office 365 の電話会議がお住まいの国/地域で使用できるかを調べます。[国と地域の空き時間情報の電話会議とプランの呼び出し](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
+1. Office 365 のオーディオ会議は、国/地域で利用可能なかどうかを確認します。 [オーディオ会議や予定を呼び出すための国および地域の可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)です。 
     
-2. 電話会議のために購入する必要があるライセンスとその価格については、「[Skype for Business と Microsoft Teams のアドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)」をご覧の上、ライセンスを購入してください。
+2. オーディオ会議、およびかかる費用は購入する必要がありますライセンスについて説明します。 [Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)を参照してくださいし、ライセンスを購入します。 
     
-3. 会議をスケジュールまたは開催しようとしている組織内のユーザーに、購入した[一般法人向け Office 365 ライセンスの割り当てまたは解除方法](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)を割り当てます。
+3. [割り当てまたはビジネスのための Office 365 のライセンスを削除する](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)人に、組織の会議のスケジュール、または潜在顧客を購入しました。
     
-4. **電話会議**のアドオン ライセンスとコミュニケーション クレジット ライセンスを購入した場合は、それらも割り当てます。手順については「[Skype for Business と Microsoft Teams のライセンスを割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)」をご覧ください。
+4. **オーディオ会議**のアドオン ライセンスおよび通信のクレジットのライセンスを購入した場合も割り当てます。 手順については、[ビジネスおよびマイクロソフトのチームのライセンスを Skype を割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)を参照してください。
     
-## 手順 2: 電話会議プロバイダーを決定する
+## <a name="step-2-decide-on-your-audio-conferencing-provider"></a>手順 2: は、オーディオ会議プロバイダーを決定します。
 <a name="__top"> </a>
 
-電話会議プロバイダーは *電話会議ブリッジ*  を提供します。会議ブリッジは会議のためのダイヤルイン電話番号、PIN、電話会議 ID を設定します。Microsoft またはサードパーティの電話会議プロバイダーのどちらを使うかを決めます。
+オーディオ会議プロバイダーは、*オーディオ会議用ブリッジ*を提供します。 会議用ブリッジは、ダイヤルインの電話番号、Pin、および会議の会議 Id を設定します。 Microsoft またはサード パーティ製のオーディオ会議プロバイダーを使用するかどうかを決定します。
   
 > [!NOTE]
-> Microsoft Teams ユーザーはサード パーティーの電話会議プロバイダーを使用できません。 
+> マイクロソフトのチームのユーザーには、サード ・ パーティ製のオーディオ会議プロバイダーのユーザーことはできません。 
   
-- **Microsoft を電話会議プロバイダーとして使用**: 電話会議の最も簡単な方法を希望される場合は、電話会議プロバイダーとして Microsoft を選択してください。
+- **オーディオ会議プロバイダーとして Microsoft**: オーディオ会議の最も簡単なソリューションをする場合は、オーディオ会議プロバイダーとして Microsoft を選択します。
     
-- **サードパーティを電話会議プロバイダーとして使用**: お客様がお住まいの国において Office 365 の電話会議を利用できない場合、場所が原因でサービスの品質が優れていない場合、または既存の契約がある場合は、サードパーティ電話会議プロバイダーを選択してください。プロバイダーを見つけるには、 **[Microsoft PinPoint](http://go.microsoft.com/fwlink/?LinkId=797530)** に移動してください。
+- **オーディオ会議プロバイダーとして、サード パーティ製**: サード ・ パーティ製のオーディオを選択する場合、Office 365 での音声会議を使用できないための場所では、優れたサービスの品質はありません、既存の契約がある国で、会議プロバイダーです。 プロバイダーを検索するには、[マイクロソフトの特定](http://go.microsoft.com/fwlink/?LinkId=797530)に移動します。
     
 > [!TIP]
-> 組織内で、電話会議プロバイダーとして Microsoft を使用している人とサードパーティを使用している人が混在している場合がありますが、このような場合は、設定と管理がより複雑になります。 
+> 組織では、することが、オーディオ会議プロバイダーでは、Microsoft を使用している人や他のユーザー、サード パーティ プロバイダーを使用します。 設定および管理するために複雑になります。 
   
-電話会議プロバイダーとしての Microsoft とサードパーティ プロバイダーとの詳細な比較については、「[電話会議プロバイダーを比較する](compare-audio-conferencing-providers.md)」をご覧ください。
+オーディオのプロバイダーは、Microsoft およびサード パーティ プロバイダーの間で詳細に比較は、[オーディオ会議プロバイダーの比較](compare-audio-conferencing-providers.md)を参照してください。 
   
-## 手順 3: 会議を開催またはスケジュールするユーザーに電話会議プロバイダーを割り当てる
+## <a name="step-3-assign-the-audio-conferencing-provider-to-people-who-lead-or-schedule-meetings"></a>手順 3: オーディオ会議プロバイダーをリードしたり、会議をスケジュールするユーザーに割り当てる
 <a name="__top"> </a>
 
-これで、電話会議プロバイダーが決定したので、会議を開催またはスケジュールする組織内の人にプロバイダーを割り当てる必要があります。次のいずれかの操作を行います。
+オーディオ会議プロバイダーを決定したら、これでは、プロバイダーをリードしたり、会議をスケジュールする、組織内のユーザーに割り当てる必要があります。 次のいずれかの操作を行います。 
   
-- [Microsoft を電話会議プロバイダーとして割り当てる](assign-microsoft-as-the-audio-conferencing-provider.md) 。
+- [オーディオ会議プロバイダーとしてマイクロソフトを割り当てます](assign-microsoft-as-the-audio-conferencing-provider.md)。
     
-- [サードパーティを電話会議プロバイダーとして割り当てる](assign-a-third-party-as-the-audio-conferencing-provider.md) 。
+- [オーディオ会議プロバイダーとしてサードパーティ製の割り当て](assign-a-third-party-as-the-audio-conferencing-provider.md)を。
     
-## 手順 4: 会議出席依頼をセットアップする
+## <a name="step-4-set-up-meeting-invitations"></a>手順 4: 会議出席依頼の設定
 <a name="__top"> </a>
 
-次の手順は **オプション** ですが、多くの管理者が実行しています。
+次の手順**オプション**ですが、管理者の多くがそれらを行いたいです。
   
-1. [会議出席依頼をカスタマイズする](../set-up-skype-for-business-online/customize-meeting-invitations.md) 。ユーザーに設定されるダイヤルイン番号は、出席者に送信される会議出席依頼に自動的に追加されます。ただし、独自に用意したヘルプと法的情報へのリンク、テキスト メッセージ、小さい会社ロゴなどを追加できます。
+1. [ミーティングの招待状をカスタマイズ](../set-up-skype-for-business-online/customize-meeting-invitations.md)します。 ユーザーに設定されているダイヤルの番号は、出席者に送信される会議出席依頼に自動的に追加されます。 ただし、独自のヘルプおよび法律上のリンク、テキスト メッセージ、および小規模な会社のグラフィックを追加することができます。
     
-2. [出席依頼に含まれている会議の開催者のために電話会議の電話番号を設定する](set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-include.md) 。この電話番号は、ユーザーが予約する会議に表示されます。
+2. [ミーティングの開催者の招待に収録されている電話会議の電話番号を設定](set-the-phone-numbers-included-on-invites.md)します。 これは、ユーザーがスケジュールされている会議で表示される電話番号です。
     
-3. 出席者が電話会議の電話番号にダイヤル インするときに、電話会議の自動案内で通話者への挨拶メッセージとして使用する[電話会議の自動案内の言語を設定する](set-auto-attendant-languages-for-audio-conferencing.md)します。この手順は、Microsoft を電話会議プロバイダーとして使用している場合のみに有効です。
+3. [オーディオ会議の自動応答の言語設定](set-auto-attendant-languages-for-audio-conferencing.md)で、電話会議の電話番号にダイヤルするときに、呼び出し元を呼びかけられるように設定するのには、オーディオ会議自動アテンダントを使用します。 この手順は、Microsoft のオーディオのプロバイダーとして使用する場合にのみ適用されます。
     
-4. [ダイヤルイン会議の PIN の長さを設定する](set-the-length-of-the-pin-for-audio-conferencing-meetings.md) 。
+4. [オーディオ会議の会議の暗証番号 (pin) の長さを設定](set-the-pin-length-for-audio-conferencing-meetings.md)します。
     
 > [!NOTE]
-> この機能は、現時点で中国の 21Vianet が運用している Office 365 を使用するお客様は使用できません。詳細については、「[Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)」ご覧ください。 
+> この機能はまだ顧客に利用可能な Office 365 を使用して運用している中国で 21Vianet。 詳細については、 [21Vianet によって運営されて Office 365 について](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)を参照してください。 
   
-||
-|:-----|
-|![LinkedIn ラーニングのショート アイコンです。](../images/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **Office 365 を初めてお使いの場合は**         、LinkedIn ラーニングによって提供された **Office 365 管理者および IT プロフェッショナル**向けの無料のビデオコースをご覧ください。 |
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
-## 関連項目
-<a name="__top"> </a>
+## <a name="related-topics"></a>関連トピック
 
-#### 
-
-[Audio Conferencing common questions](audio-conferencing-common-questions.md)
+[オーディオ会議の一般的な質問](audio-conferencing-common-questions.md)
   
 [Skype for Business Online のセットアップ](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
   
-[電話会議の電話番号](phone-numbers-for-audio-conferencing.md)
+[オーディオ会議用電話番号](phone-numbers-for-audio-conferencing.md)
   
-[オンライン会議と電話会議のオプションを設定する](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)
+[オンライン会議、電話会議のオプションを設定します。](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)
 

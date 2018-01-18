@@ -1,88 +1,89 @@
 ---
-title: "利用可能残高を追加して、通信クレジットを管理する"
+title: "資金を追加し、通信のクレジットの管理"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/27/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
+ms.assetid: 691c9301-1f66-41fe-9b2c-ca24ae987463
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords:
 - O365E_SFBVoiceCredit
-- O365E_SFBVoiceCreditAether 
+- O365E_SFBVoiceCreditAether
 - O365M_SFBVoiceCredit
 - O365M_SFBVoiceCreditAether
-O365P_SFBVoiceCreditAether
-O365E_SFBVoiceCreditAether 
+- O365P_SFBVoiceCreditAether
+- O365E_SFBVoiceCreditAether
 - O365P_SFBVoiceCredit
-- O365P_SFBVoiceCreditAether 
-
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection:
-- Adm_Skype4B_Online
-- Adm_UI_Elements
+- O365P_SFBVoiceCreditAether
 ms.custom:
-- Adm_O365_FullSet
+- Licensing
 - Strat_SB_PSTN
-ms.assetid: 691c9301-1f66-41fe-9b2c-ca24ae987463
-description: "Learn how to pay for Communication credits (PSTN Consumption) for Skype for Business services and see plans to keep your users with continous phone system access. "
+description: "ビジネス サービスの通信のクレジット (PSTN の消費) の Skype のお支払いし、継続的な電話システムのアクセス権を持つユーザーを保持する計画を参照してくださいする方法について説明します。 "
+ms.openlocfilehash: 32eca129b1168ebd34ffd1c38cb9789b264c9470
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="add-funds-and-manage-communications-credits"></a>資金を追加し、通信のクレジットの管理
 
-# 利用可能残高を追加して、通信クレジットを管理する
-
-> [!IMPORTANT]
-> この記事は機械翻訳されています。機械翻訳についての「免責事項」をお読みください。 
+通信のクレジットは、電話システムと Office 365 のプランを呼び出すことをお支払いする便利な方法です。 役立てることとユーザーがまったく流行しなかったことを確認します。
   
-通信を加算したものは、電話システムと Office 365 のプランの呼び出しの支払いに便利な方法です。役立てると、ユーザーこと捕捉ことがないことを確認します。
-  
-- 無料の電話番号を使用して、電話会議にダイヤルインする。
+- フリー ダイヤルで電話番号を使用してオーディオ会議の会議にダイヤルインします。
     
-- 世界中の任意の場所の追加から他のユーザーに、電話会議の会議から発信されます。
+- 世界中の任意の場所から他のユーザー追加するのには、オーディオ会議の会議から発信します。
     
-- 音声会議会議から Skype for Business または Microsoft チームのアプリがインストールされていると携帯電話にダイヤルアウトします。
+- ビジネスまたはマイクロソフトのチームのアプリケーションがインストールされているため、Skype で携帯電話、オーディオ会議の会議から発信します。
     
-- **国内通話プラン**を利用している場合に、任意の国際電話番号にダイヤルする。
+- **国内を呼び出す予定**がある場合は、すべての国際電話番号をダイヤルします。
     
-- ダイヤルアウトし、毎月分数を試した後分ごとに支払います。
+- ダイヤルアウトして、月単位の分数を試した後、1 分あたりの支払します。
     
 > [!NOTE]
-> どの程度、速度がわからない場合は、[[プランの呼び出し](https://go.microsoft.com/fwlink/p/?LinkId=799523) ] ページで単価表を参照してください。
+> 量と速度がわからない場合は、[計画を呼び出す](https://go.microsoft.com/fwlink/p/?LinkId=799523)ページの単価表を参照してください。
   
-管理者は、追加資金手動でしたりする自動回復を設定できます **お勧め** します。
+管理者としてすることが資金を手動で追加または私たち自動リチャージを設定すること**をお勧め**します。
   
 自動再チャージでは、設定した金額を下回ると、自動的に最高額まで残高が追加されます。自動再チャージの使用をお勧めします。これにより、利用可能残高の手動による追加を忘れないようにする必要がなくなります。利用可能残高が設定した金額を下回ると、自動的にチャージされます。自動再チャージを選択していないと、利用可能残高がゼロを下回ってしまうことがあります。その時点で、管理者やユーザーは無料通話や国際通話を発信できなくなります。
   
-いつでも、[支払いオプションを更新することができます。[ **サブスクリプション**] ページで、 **通信クレジット**を選択し、更新します。
+支払オプションはいつでも更新できます。 [**サブスクリプション**] ページでは、**通信のクレジット**を選択し、変更を加えます。
   
-利用可能残高は、サービス利用時の Microsoft が公開しているレートで、通信クレジットのみに適用されます。購入日から 12 か月以内に使用されなかった残高は、有効期限切れとなり、使用できなくなります。
+資金は、サービスを使用すると、マイクロソフトの公開されているレートでの通信のクレジットにのみ適用されます。 12 (12 か月以内の購入日を使用しないすべての資金は終了し、没収されます。
   
 > [!TIP]
-> 自動再チャージで利用可能残高が追加された場合、(クレジットカードの有効期限が過ぎているなどの理由で) 自動再チャージできなかった場合、利用可能残高がゼロを下回った場合は、メールでお知らせします。 
+> (たとえば、クレジット_カードの有効期限) ときに自動充電が失敗したときと、残高が 0 を下回ると、自動再充電の場合を使用して資金が追加されたときの通知にメールをお送りします。 
   
-詳細については、表示する[通信クレジットについて](what-are-communications-credits.md)
+詳細についてを参照してください[通信のクレジットは何ですか?](what-are-communications-credits.md)
   
-## プランと価格の詳細情報
+## <a name="want-to-know-about-plans-and-pricing"></a>プランと価格の詳細情報
 
-[プランと価格を次のリンクのいずれかにアクセスする、確認できます。
+次のいずれかのリンクにアクセスすると、プランと価格を確認できます。
   
 - [通話プラン](https://go.microsoft.com/fwlink/?LinkId=799761 )
     
-- [電話会議プラン](https://go.microsoft.com/fwlink/?LinkId=799762 )
+- [オーディオ会議を計画します。](https://go.microsoft.com/fwlink/?LinkId=799762 )
     
-- [電話システム プラン](https://go.microsoft.com/fwlink/?LinkId=799763)
+- [電話システムを計画します。](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-[Office 365 管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)して、[ **課金**] > [ **サブスクリプション**] > [ **サブスクリプションの追加**] の順に選んで情報を表示することもできます。
+[Office 365 の管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)しても情報を確認でき、**課金**しようとしています。 > **サブスクリプション** > **追加のサブスクリプション**。
   
 各機能に必要なライセンスの表を確認するには、「[Skype for Business と Microsoft Teams のアドオン ライセンス](skype-for-business-and-microsoft-teams-add-on-licensing.md)」をご覧ください。
   
-## 
+## <a name="related-topics"></a>関連トピック
 
-[音声会議無料ダイヤルアウト期間](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-  
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **機械翻訳についての免責事項**: この記事の翻訳はコンピューター システムによって行われており、人間の手は加えられていません。マイクロソフトでは、英語を話さないユーザーがマイクロソフトの製品、サービス、テクノロジに関するコンテンツを理解するのに役立てるため、こうした機械翻訳を提供しています。記事は機械翻訳されているため、用語、構文、文法などに誤りがある場合があります。 
-  
-
+- [Skype for Business Online のセットアップ](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+    
+- [Skype for Business および Microsoft Teams の電話会議のセットアップ](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
+    
+- [電話システム ボイスメールのセットアップ - 管理者ヘルプ](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
+    
+- [プランの呼び出しを設定](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)し、 [Office 365 のプランを呼び出す](calling-plans-for-office-365.md)
+        
+- [クラウド コネクタを構成して](https://technet.microsoft.com/en-us/library/mt605228.aspx)、[クラウドのコネクタをダウンロード](https://aka.ms/CloudConnectorInstaller)

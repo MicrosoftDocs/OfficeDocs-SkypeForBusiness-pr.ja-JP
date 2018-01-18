@@ -2,35 +2,46 @@
 title: "組織の電話会議ポリシーをセットアップする"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 9957722b-b542-49ad-8ec8-5569df7fb08b
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
 description: "電話会議は Skype for Business Online の重要な部分です。電話会議により、ユーザーのグループがオンラインで一緒にスライドやビデオを表示したり、アプリケーションを共有したり、ファイルをやり取りしたり、連絡を取り合って共同作業することができるようになります。"
+ms.openlocfilehash: 6ccfdd3e5153a7b22d26fb492690da0e476fe9ee
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="set-up-conferencing-policies-for-your-organization"></a>組織の電話会議ポリシーをセットアップする
 
-# 組織の電話会議ポリシーをセットアップする
-
-電話会議は Skype for Business Online の重要な部分です。電話会議により、ユーザーのグループがオンラインで一緒にスライドやビデオを表示したり、アプリケーションを共有したり、ファイルをやり取りしたり、連絡を取り合って共同作業することができるようになります。
+[] 電話会議は Skype for Business Online の重要な部分です。電話会議により、ユーザーのグループがオンラインで一緒にスライドやビデオを表示したり、アプリケーションを共有したり、ファイルをやり取りしたり、連絡を取り合って共同作業することができるようになります。
   
-電話会議および電話会議の設定を制御できる状態を維持することが重要です。場合によって、セキュリティに関する問題があるかもしれません。既定では、未認証のユーザーを含むあらゆるユーザーが会議に参加でき、その会議中に配布されたスライドや資料を保存することができます。さらに、時には法的な問題が発生することもあります。たとえば、既定では会議の参加者は共有コンテンツに注釈を付けることができますが、それらの注釈は会議がアーカイブされるときに保存されません。所属する組織ですべての電子的な通信の記録を保持する必要がある場合は、注釈を無効にする方が良い可能性があります。
+電話会議および電話会議の設定を制御できる状態を維持することが重要です。場合によって、セキュリティに関する問題があるかもしれません。既定では、未認証のユーザーを含むあらゆるユーザーが会議に参加でき、その会議中に配布されたスライドや資料を保存することができます。さらに、時には法的な問題が発生することもあります。たとえば、既定では会議の参加者は共有コンテンツに注釈を付けることができますが、それらの注釈は会議がアーカイブされるときに保存されません。所属する組織ですべての電子的な通信の記録を保持する必要がある場合は、注釈を無効にする方が良い可能性があります。 
   
 Skype for Business Online では、電話会議は電話会議ポリシーを使用して管理されます。電話会議ポリシーにより、電話会議に IP オーディオまたはビデオを含めることができるかということから、会議に出席できるユーザーの最大数についてまで、あらゆる点を含む電話会議で使用できる機能が決まります。電話会議ポリシーは全体的な範囲またはユーザーごとの範囲で構成できます。これにより、管理者は、どの機能をどのユーザーが利用できるようにするかを決めるときに、最大の柔軟性を発揮できます。
   
 ポリシー設定はポリシーが作成されるときに構成できます。また、 **Set-CsConferencingPolicy** コマンドレットを使用して既存のポリシーの設定を変更できます。
   
-## 電話会議ポリシーを設定する
+## <a name="set-your-conferencing-policies"></a>電話会議ポリシーを設定する
 
 > [!NOTE]
 > Skype for Business Online のすべての電話会議ポリシー設定では、Windows PowerShell を使用する必要があります。 **Skype for Business 管理センター** を **使用することはできません**。 
   
-### Windows PowerShell を検証および開始する
+### <a name="verify-and-start-windows-powershell"></a>Windows PowerShell を検証および開始する
 
 - **Windows PowerShell バージョン 3.0 以降を実行していることを確認する**
     
-1. バージョン 3.0 以降を実行していることを確認するには [ **スタート**] メニューから [ **Windows PowerShell**] を選びます。
+1. 3.0 以降のバージョンを実行することを確認するのには: **[スタート] メニュー** > **Windows PowerShell**。
     
 2. [ **Windows PowerShell**] ウィンドウに「 _Get-Host_」と入力して、バージョンを確認します。
     
@@ -38,93 +49,70 @@ Skype for Business Online では、電話会議は電話会議ポリシーを使
     
 4. Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できるように、Skype for Business Online の Windows PowerShell モジュールもインストールする必要があります。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。メッセージが表示されたら、コンピューターを再起動します。
     
-    詳細については、「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://technet.microsoft.com/library/dn568015.aspx)」を参照してください。
+    詳細については、「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)」を参照してください。
     
 - **Windows PowerShell セッションを開始する**
     
-1. [ **スタート**] メニューで [ **Windows PowerShell**] を選びます。
+1. **[スタート] メニュー**の [ > **Windows PowerShell**。
     
 2. [ **Windows PowerShell**] ウィンドウで、次を実行して、Office 365 の組織に接続します。
     
     > [!NOTE]
     > Skype for Business Online Windows PowerShell モジュールを初めて使用するときに、 **Import-Module** コマンドを実行するだけです。
-  
-> 
-  ```
-  Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+
+  ```      
+    Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+    $credential = Get-Credential
+    $session = New-CsOnlineSession -Credential $credential
+    Import-PSSession $session
   ```
 
-> 
-  ```
-  $credential = Get-Credential
-  ```
-
-> 
-  ```
-  $session = New-CsOnlineSession -Credential $credential
-  ```
-
-> 
-  ```
-  Import-PSSession $session
-  ```
-
-    Windows PowerShell の起動の詳細については、「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://technet.microsoft.com/library/dn568015.aspx)」または「[Windows PowerShell を使用した Lync Online への接続](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx)」を参照してください。
+  Windows PowerShell を開始する方法の詳細を設定する場合は、 [1 つの Windows PowerShell のウィンドウ内のすべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)か、 [Windows PowerShell を使用して、オンライン ビジネスの Skype への接続](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)を参照してください。
     
-### 会議中のファイル転送およびデスクトップ共有を禁止する
+### <a name="block-file-transfers-and-desktop-sharing-during-meetings"></a>会議中のファイル転送およびデスクトップ共有を禁止する
 
 - これらの設定のために新しいポリシーを作成するには、次を実行します。
-    
 > 
   ```
   New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
   ```
-
-    詳細については、[New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) コマンドレットをご覧ください。
+  [新規 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx)コマンドレットの詳細を参照してください。
     
 - 作成した新しいポリシーを組織内のすべてのユーザーに付与します。次を実行します。
-    
 > 
   ```
   Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName DesktopConferencingPolicy
   ```
-
-    詳細については、[Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) コマンドレットをご覧ください。
+  [許可 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx)コマンドレットの詳細を参照してください。
     
-ポリシーを作成済みの場合は、[Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) コマンドレットを使用して、既存のポリシーに対する変更を行います。次に、[Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) コマンドレットを使用して設定をユーザーに適用します。
+  ポリシーを作成済みの場合は、[Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) コマンドレットを使用して、既存のポリシーに対する変更を行います。次に、[Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) コマンドレットを使用して設定をユーザーに適用します。
   
-### 電話会議のレコーディングを禁止し、匿名ユーザーの会議参加者を防止する
+### <a name="block-recording-of-conferences-and-prevent-anonymous-meeting-participants"></a>電話会議のレコーディングを禁止し、匿名ユーザーの会議参加者を防止する
 
-- これらの設定のために新しいポリシーを作成するには、次を実行します。
-    
+- これらの設定のために新しいポリシーを作成するには、次を実行します。 
 > 
   ```
   New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
   ```
-
-    詳細については、[New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) コマンドレットをご覧ください。
+[新規 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx)コマンドレットの詳細を参照してください。
     
 - Amos Marble に作成した新しいポリシーを付与するには、次を実行します。
-    
 > 
   ```
    Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName ConferencingPolicy
   ```
-
-    詳細については、[Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) コマンドレットをご覧ください。
+[許可 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx)コマンドレットの詳細を参照してください。
     
-ポリシーを作成済みの場合は、[Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) コマンドレットを使用して、既存のポリシーに対する変更を行います。次に、[Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) コマンドレットを使用して設定をユーザーに適用します。
+ポリシーを既に作成した場合は、[セット CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx)コマンドレットを使用して既存のポリシーに変更を加えるし、[与える CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx)コマンドレットを使用してユーザー設定を適用します。
   
-### 匿名ユーザーの参加者による会議のレコーディングと、追加ユーザーによる会議の内容の保存を禁止する
+### <a name="block-anonymous-participants-from-recording-meetings-and-external-users-from-saving-meeting-content"></a>匿名ユーザーの参加者による会議のレコーディングと、追加ユーザーによる会議の内容の保存を禁止する
 
-- これらの設定のために新しいポリシーを作成するには、次を実行します。
-    
+- これらの設定のために新しいポリシーを作成するには、次を実行します。  
 > 
   ```
   New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
   ```
-
-    詳細については、[New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) コマンドレットをご覧ください。
+[新規 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx)コマンドレットの詳細を参照してください。
     
 - 作成した新しいポリシーを組織内のすべてのユーザーに付与するには、次を実行します。
     
@@ -133,11 +121,11 @@ Skype for Business Online では、電話会議は電話会議ポリシーを使
   Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName BlockedConferencingPolicy
   ```
 
-    詳細については、[Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) コマンドレットをご覧ください。
+[許可 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx)コマンドレットの詳細を参照してください。
     
 ポリシーを作成済みの場合は、[Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) コマンドレットを使用して、既存のポリシーに対する変更を行います。次に、[Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) コマンドレットを使用して設定をユーザーに適用します。
   
-## Windows PowerShell の詳細情報
+## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
 - Windows PowerShell で行うのは、ユーザーを管理し、ユーザーに何を許可して何を禁止するかを管理することです。Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
@@ -152,5 +140,10 @@ Skype for Business Online では、電話会議は電話会議ポリシーを使
   - [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
     
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
-    
 
+## <a name="related-topics"></a>関連トピック
+[カスタム外部アクセス ポリシーを作成します。](create-custom-external-access-policies.md)
+
+[ブロック ポイント ツー ポイントのファイルの転送](block-point-to-point-file-transfers.md)
+
+[組織のクライアントのポリシーを設定します](set-up-client-policies-for-your-organization.md)

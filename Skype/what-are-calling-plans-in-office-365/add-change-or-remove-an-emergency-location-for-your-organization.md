@@ -2,81 +2,86 @@
 title: "組織の緊急対応の場所を追加、変更、削除する"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/9/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: 11cadb26-534d-41db-af6b-1f648edfd907
-description: "Learn to add, change, or remove an emergency location used by  Skype for Business on Public Switched Telephone Networks (PSTN) for your organization. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: 'Learn to add, change, or remove an emergency location used by  Skype for Business on Public Switched Telephone Networks (PSTN) for your organization. '
+ms.openlocfilehash: 1b089fcebe3a713a1c810a8810c0fa83cfd46970
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>組織の緊急対応の場所を追加、変更、削除する
 
-# 組織の緊急対応の場所を追加、変更、削除する
-
-> [!IMPORTANT]
-> この記事は機械翻訳されています。機械翻訳についての「免責事項」をお読みください。 
+数に応じて、組織内の物理的な場所、建物、フロア、およびより詳細な緊急時のアドレスを作成するオフィスの緊急の場所を作成できます。 参照してください[緊急の場所、住所、および通話のルーティングには何ですか?](what-are-emergency-locations-addresses-and-call-routing.md)の詳細について。
   
- 組織の物理的な場所の数によって、ビル、フロア、オフィス用の緊急対応の場所を作成し、より具体的な緊急対応の住所を作成できます。 「[緊急対応の場所、アドレス、通話ルーティングの概要](what-are-emergency-locations-addresses-and-call-routing.md)」をご覧ください。
+呼び出す計画を取得する方法とをかかる費用については、 [Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)を参照してください。
   
-通話プランを取得する方法、コストし、 [Skype for Business と Microsoft Teams のアドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)を参照してくださいを知りたいです。
-  
-## 緊急対応の住所に緊急対応の場所を追加する
+## <a name="add-an-emergency-location-to-an-emergency-address"></a>緊急対応の住所に緊急対応の場所を追加する
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **Office 365 管理センター**、[ **Skype for Business**] の順に移動します。
+2. **Office 365 管理センター**を参照して > **ビジネス用の Skype**です。
     
-3. 左のナビゲーションで、[ **音声**]、[ **緊急対応の場所**] の順に移動して、場所を追加したい緊急対応の住所を選びます。
+3. 左側のナビゲーションでは、[**音声**] に移動 > **緊急の場所**、および緊急時のアドレスの場所を追加するを選択します。
     
-    **重要**: Skype for Business 管理センターの左のナビゲーションに [ **音声**] オプションが表示されるようにするには、最初に **Enterprise E5 ライセンス**、 **電話システム**アドオン ライセンス、または **電話会議**アドオン ライセンスを少なくとも 1 件購入する必要があります。
+    > [!Important]
+    > ビジネス管理センターの Skype では、左側のナビゲーションの**音声**オプションを表示するため、まず**E5 のエンタープライズ ライセンス**を少なくとも 1 つ、1 つの**電話システム**のアドオン ライセンスまたはアドオンのライセンスが 1 つの**電話会議**を購入する必要があります。
     
-4. 操作ウィンドウの [ **関連付けられている場所**] で [ **変更**] をクリックします。
+4. [操作] ウィンドウで、**関連付けられた場所**の横にある [**変更**] をクリックします。
     
-5. [ **関連付けられた場所**]、[ **新規追加**] の順に移動して、[ **関連する別の場所の入力**] に場所を入力します。 たとえば、「64 号棟 1 階」と入力して [ **確認**] をクリックします。
+5. **場所の関連付け**、[**新規追加**] をクリックして、関連付けられている別の場所を入力してください (たとえば、入力「1 64 階の構築」)、し、[**送信**] をクリックします。
     
 6. [ **保存**] をクリックします。
     
-## 緊急アドレスの場合は、緊急の場所を変更します。
+## <a name="change-an-emergency-location-for-an-emergency-address"></a>緊急対応の住所の緊急対応の場所を変更する
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **Office 365 管理センター**、[ **Skype for Business**] の順に移動します。
+2. **Office 365 管理センター**を参照して > **ビジネス用の Skype**です。
     
-3. 左のナビゲーションで、[ **音声**]、[ **緊急対応の場所**] の順に移動して、場所を追加したい緊急対応の住所を選びます。
+3. 左側のナビゲーションでは、[**音声**] に移動 > **緊急の場所**、し、緊急時に場所を変更するアドレスを選択します。
     
-4. 操作ウィンドウの [ **関連付けられている場所**] で [ **変更**] をクリックします。
+4. [操作] ウィンドウで、**関連付けられた場所**の横にある [**変更**] をクリックします。
     
-5. [ **関連付けられた場所**] の一覧で場所のリンクをクリックして、[ **関連付けられている場所の詳細の変更**] に詳細を入力します。 たとえば、「64 号棟 1 階」と入力して [ **確認**] をクリックします。
+5. の下**に場所が関連付けられている**と、リスト内の位置へのリンクをクリックを選択しの**場所の詳細が変更に関連付けられている**と、新しい場所の詳細を入力し、[**送信**] をクリックします。
     
 6. [ **保存**] をクリックします。
     
-## 緊急対応の住所から緊急対応の場所を削除する
+## <a name="remove-an-emergency-location-from-an-emergency-address"></a>緊急対応の住所から緊急対応の場所を削除する
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **Office 365 管理センター**、[ **Skype for Business**] の順に移動します。
+2. **Office 365 管理センター**を参照して > **ビジネス用の Skype**です。
     
-3. 左のナビゲーションで、[ **音声**]、[ **緊急対応の場所**] の順に移動して、場所を追加したい緊急対応の住所を選びます。
+3. 左側のナビゲーションでは、[**音声**] に移動 > **緊急の場所**、および緊急時のアドレスの場所を削除するを選択します。
     
-4. 操作ウィンドウの [ **関連付けられている場所**] で [ **削除**] をクリックします。
+4. [操作] ウィンドウで、**関連付けられた場所**の横にある [**変更**] をクリックします。
     
-5. [ **保存**] をクリックします。
+5. の下**に場所が関連付けられている**と、次に、場所へのリンク**削除**] をクリックします。
     
-## 関連トピック
+6. [ **保存**] をクリックします。
+    
+## <a name="related-topics"></a>関連トピック
+[アドレスの検証とは何ですか。](what-is-address-validation.md)
 
-[音声会議無料ダイヤルアウト期間](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-  
+[組織の電話番号を管理します。](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+
 [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
-  
-## 
-<a name="MT_Footer"> </a>
 
-> [!NOTE]
-> **機械翻訳についての免責事項**: この記事の翻訳はコンピューター システムによって行われており、人間の手は加えられていません。マイクロソフトでは、英語を話さないユーザーがマイクロソフトの製品、サービス、テクノロジに関するコンテンツを理解するのに役立てるため、こうした機械翻訳を提供しています。記事は機械翻訳されているため、用語、構文、文法などに誤りがある場合があります。 
-  
+[Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
 
+  

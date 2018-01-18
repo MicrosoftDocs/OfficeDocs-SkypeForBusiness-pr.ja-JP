@@ -1,53 +1,62 @@
 ---
-title: "会議の出席と退席のお知らせのオンとオフを切り替える"
+title: "オンまたはオフの会議の開始と終了のお知らせ"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/22/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: f2c7b5ea-07b6-4b77-8023-bec9596fcc32
-description: "Learn how to turn entry and exit announcements on or off in a Skype for Business Online meeting using the Skype for Business admin center. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: "エントリを有効にして、Skype、Skype を使用するビジネス管理センターのオンライン ビジネスの会議のためにアナウンスをオンまたはオフを終了する方法について説明します。 "
+ms.openlocfilehash: 2298450d28ebb09acb87820b1f8a01cb9196708e
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings"></a>オンまたはオフの会議の開始と終了のお知らせ
 
-# 会議の出席と退席のお知らせのオンとオフを切り替える
-
-> [!IMPORTANT]
-> この記事は機械翻訳されています。機械翻訳についての「免責事項」をお読みください。 
+Office 365 に電話会議を設定する場合、オーディオ会議ブリッジが表示されます。 会議用ブリッジは、ビジネスまたはマイクロソフトのチームの会議のため、Skype へのコールを使用する 1 つまたは複数の電話番号を含めることができます。 
   
-Office 365 での電話会議をセットアップするときに、電話会議ブリッジが表示されます。会議ブリッジには、電話で Skype for Business または Microsoft チーム会議に人を使用する 1 つ以上の電話番号を含めることができます。
+会議用ブリッジの電話を使用して会議にダイヤルインするユーザーが呼び出しに応答します。 会議用ブリッジ会議自動アテンダントからの音声メッセージを呼び出し元に応答しの設定によってことができます再生の通知は、呼び出し元が自分の名前を記録し、暗証番号 (pin) のセキュリティを設定するに問い合わせてください。 Skype をビジネスまたはマイクロソフトのチーム会議の開催者に、暗証番号 (pin) が与えられたことができ、Skype を使用してアプリケーションのビジネスまたはマイクロソフトのチームのミーティングを開始することはできない場合は、会議を開始することです。 できます、ただし、ように設定すると、暗証番号 (pin) が会議を開始する必要はありません。
   
-会議ブリッジに電話を使って会議にダイヤルインするユーザーの通話に応答します。 発信者に、名と PIN のセキュリティが設定を依頼する音声で発信者に会議自動応答し、[の設定によってメッセージが表示された会議ブリッジの回答は、通知を再生できます。PIN は、Business または Microsoft チーム会議の開催者 for Business または Microsoft チーム アプリ Skype を使用して、会議を開始することができない場合は、会議を開始することができるため、Skype に与えられます。実行できます。 ただし、PIN をされていない会議を開始するために必要なされるように設定します。
-  
-## 会議参加オプションを設定する
+## <a name="setting-meeting-join-options"></a>ミーティングの参加オプションの設定
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **Office 365 管理センター**、[ **Skype for Business**] の順に移動します。
+2. **Office 365 管理センター**を参照して > **ビジネス用の Skype**です。
     
-3. **[Skype for Business 管理センター]**では、左のナビゲーションで移動 **電話会議**に > **Microsoft ブリッジの設定**します。
+3. **電話会議**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **Microsoft ブリッジ設定**します。
     
-4. [ **会議参加エクスペリエンス**] で [ **会議の入退出の通知をオンにする**] をオンまたはオフにします。既定ではオンになっています。オフにすると、会議に既に参加しているユーザーは、別のユーザーが会議に入退室したことを通知されなくなります。
+4. **会議参加の経験**をするには、[をオンまたはオフの**ミーティングのエントリを有効にしてオンにする通知を終了**します。 これがデフォルトで選択されます。 場合はこのオプションをオフにすると、データを入力したり、会議を離れると、会議に参加しているユーザーが通知されません。
     
-5. 変更したら [ **保存**] をクリックします。
+5. [**開始/終了のお知らせの種類****名前や電話番号**」または「**トーン**を選択します。
     
-## Windows PowerShell で管理する方法
+6. 確認するか、**ミーティングに参加する前に自分の名前を記録するための呼び出し元の確認**をオフにします。
+    
+7. 変更を行ったら、[**保存**] をクリックします。
+    
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell で管理する方法
 
-- 時間を節約し、自動化したりには、[セット CsOnlineDialInConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686 )コマンドレットを使用することができます。
+- 時間を短縮または、これを自動化するには、[セット CsOnlineDialInConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686 )コマンドレットを使用することができます。
     
-- Windows PowerShell の場合、Skype for Business Online はユーザーの管理と、ユーザーが許可されている操作や許可されていない操作の管理に使います。Windows PowerShell により、単一の管理ポイントを使って Office 365 を管理でき、複数の作業を実行する必要があるときに日常業務を合理化できます。Windows PowerShell を使い始めるには、次のトピックを参照してください。
+-  Windows PowerShell の場合、Skype for Business Online はユーザーの管理と、ユーザーが許可されている操作や許可されていない操作の管理に使います。Windows PowerShell により、単一の管理ポイントを使って Office 365 を管理でき、複数の作業を実行する必要があるときに日常業務を合理化できます。Windows PowerShell を使い始めるには、次のトピックを参照してください。
     
-  - [Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Office 365 の PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- 多くのユーザーの設定を同時に変更するときなどは、Office 365 管理センターのみを使用するよりも、Windows PowerShell の方に、速度、わかりやすさ、生産性の点で多くのメリットがあります。次のトピックで、これらの利点を説明します。
+- Windows PowerShell には、実行しようとする設定の変更多くのユーザーを一度に 1 つなどの Office 365 管理センターを使用するだけでスピード、シンプルさと生産性に多くの利点があります。 次のトピックで、これらの利点について学習します。 
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -56,18 +65,9 @@ Office 365 での電話会議をセットアップするときに、電話会議
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > Skype for Business Online 用 Windows PowerShell モジュールでは、リモート Windows PowerShell セッションを作成して Skype for Business Online に接続できます。このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「[Skype for Business Online 用 Windows PowerShell モジュール](https://go.microsoft.com/fwlink/?LinkId=294688)」からダウンロードできます。 
+    > Skype for Business Online 用 Windows PowerShell モジュールでは、リモート Windows PowerShell セッションを作成して Skype for Business Online に接続できます。このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「[Skype for Business Online 用 Windows PowerShell モジュール](https://go.microsoft.com/fwlink/?LinkId=294688)」からダウンロードできます。
   
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>関連トピック
 
-> [!NOTE]
-> **機械翻訳についての免責事項**: この記事の翻訳はコンピューター システムによって行われており、人間の手は加えられていません。マイクロソフトでは、英語を話さないユーザーがマイクロソフトの製品、サービス、テクノロジに関するコンテンツを理解するのに役立てるため、こうした機械翻訳を提供しています。記事は機械翻訳されているため、用語、構文、文法などに誤りがある場合があります。 
-  
-## 関連項目
-<a name="MT_Footer"> </a>
-
-#### 
-
-[Office 365 でのダイヤルイン会議](../misctopics/dial-in-conferencing-in-office-365.md)
+[オーディオ会議の一般的な質問](audio-conferencing-common-questions.md)
 

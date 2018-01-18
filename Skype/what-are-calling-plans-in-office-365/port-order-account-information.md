@@ -1,78 +1,79 @@
 ---
-title: "番号移行注文のアカウント情報"
+title: "ポートの順序のアカウント情報"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/14/2017
-ms.audience: Admin
-ms.topic: get-started-article
-f1_keywords:
-- ms.lync.lac.PortOrderAccountInfo
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: bf4ea2ea-4f7c-4f41-8e4c-d9ceb11626cc
-description: "Learn what account information you'll need when working with a New Local Number Port Order wizard. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.PortOrderAccountInfo
+ms.custom: Calling Plans
+description: "新しいローカル番号のポートの注文ウィザードを使用する場合する必要がありますどのようなアカウント情報を説明します。 "
+ms.openlocfilehash: 789e474200945decb5b5189df75c9d781f85dae3
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="port-order-account-information"></a>ポートの順序のアカウント情報
 
-# 番号移行注文のアカウント情報
-
-> [!IMPORTANT]
-> この記事は機械翻訳されています。機械翻訳についての「免責事項」をお読みください。 
+ポートの注文を送信するのには**新しいローカル番号のポートの注文**ウィザードで、[**アカウント情報**] ページを使用する場合する必要があります、山では、同じ情報のほとんどすべてを含みます。
   
- **新しい電話番号のポート注文**ウィザードの [ **アカウント情報**] ページを使って番号移行注文を送信する場合、LOA に指定する情報とほとんどすべての同じ情報が必要になります。たとえば、次のような情報です。
-  
-- サービス プロバイダーまたは携帯電話会社のアカウント番号
+- サービスプロバイダーまたは通信業者の勘定番号
     
 - 請求先電話番号 (BTN)
     
-- PIN - 現在のサービス プロバイダーまたは携帯電話会社で必要な場合
+- 暗証番号 (pin) の場合は、現在のサービス プロバイダーやキャリアが必要と
     
 - 会社名
     
     > [!NOTE]
-    > この項目に入力できるのは、スペースを含めて 25 文字までです。 会社の名前が 25 文字より長い場合でも、名前の最初の 25 文字が送信され、番号移行注文は処理されます。 
+    > 25 文字、スペースも含めてこれだけ受け取ります。 会社の名前が 25 文字を超える場合は、名の最初の 25 文字を送信して、ポートの順序は引き続き処理されます。 
   
 - 承認済みユーザーの名前
     
     > [!NOTE]
-    > この項目に入力できるのは、スペースを含めて 15 文字までです。 承認済みユーザーの名前が 15 文字より長い場合でも、名前の最初の 15 文字が送信され、番号移行注文は処理されます。 
+    > 15 文字で、スペースも含めてこれだけ受け取ります。 権限のある人の名前が 15 文字より長い場合は、名前の最初の 15 文字が送信され、ポートの順序は引き続き処理されます。 
   
 - サービス アドレス
     
-- 請求先住所の都道府県、市区町村、および郵便番号
+- 市区町村、都道府県、および請求先住所の郵便
     
     > [!NOTE]
-    > 承認者の署名は不要です。 
+    > 認証人の署名をする必要はありません。 
   
-エラーが発生することなく番号移行注文を簡単に送信するために、次の点を確認してください。
+ポートの順序を簡単に送信を行いエラーを避けるため、次を行うことになっていることを確認します。
   
-- 電話番号に関連付けられている機能 (Hunt Groups など) をすべて削除すること。 移行する電話番号で有効になっている高度な通話制御機能 (Call Hunt、Distinctive Ring など) がないこと。
+- 自分の番号に関連付けられているハント グループ) などの機能を削除します。 ハントの呼び出しまたはこれらの電話番号で有効になって、「鳴り分け」など、高度な呼び出しの制御機能がないことを確認します。
     
-- 現在のサービス プロバイダーとの新しいサービス オーダーの発注またはサービスの解除の発注を行っていないこと。
+- 新しいサービス注文を設定していないか、現在のサービス プロバイダーに接続を切断することを確認します。
     
 - すべての電話番号が、同じ携帯電話会社および同じアカウントのものであること。
     
-- 入力したアカウント情報が電話会社に登録されている内容と正確に一致すること。 情報の不一致は、最も一般的なエラーの原因で、番号移行注文の処理の遅れにつながります。
+- 正確にどのような電話のキャリアは、レコードに付与するアカウント情報が一致することを確認します。 一致しない情報は、最も一般的なエラーが発生して、ポートの順序を遅らせることができます。
     
 > [!CAUTION]
 > **サービス プロバイダーまたは携帯電話会社のサービスを解除しないでください。**> **電話番号を Skype for Business Online に移行するためには、以前のサービスが有効になっていることが必要です。**> **サービス プロバイダーまたは携帯電話会社のアカウントを凍結しないでください。 アカウントを凍結すると、そのアカウントの携帯電話会社を変更することができません。 凍結を解除するには、承認済みユーザーが現在の携帯電話会社に対して注文を発行する必要があります。 携帯電話会社によっては、このプロセスに 1 ～ 3 週間を要することがあります。**> 
   
- **具体的な手順については、「[Office 365 への電話番号に転送します。](transfer-phone-numbers-to-office-365.md)」をご覧ください。**
-  
-## 
-<a name="MT_Footer"> </a>
+ **完全な手順については、 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)を参照してください。**
 
-> [!NOTE]
-> **機械翻訳についての免責事項**: この記事の翻訳はコンピューター システムによって行われており、人間の手は加えられていません。マイクロソフトでは、英語を話さないユーザーがマイクロソフトの製品、サービス、テクノロジに関するコンテンツを理解するのに役立てるため、こうした機械翻訳を提供しています。記事は機械翻訳されているため、用語、構文、文法などに誤りがある場合があります。 
+ > [!NOTE]
+> これよりも、他の電話番号を取得する場合は、[ビジネス製品の管理のヘルプのサポートに連絡](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)してください。
   
-## 関連項目
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>関連トピック
+[電話番号のよく寄せられる質問を転送します。](transferring-phone-numbers-common-questions.md)
 
-#### 
+[さまざまな種類の計画を呼び出すための電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+(../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
-  
-[音声会議無料ダイヤルアウト期間](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 
+[Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)

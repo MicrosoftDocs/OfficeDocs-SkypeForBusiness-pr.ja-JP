@@ -1,59 +1,68 @@
 ---
-title: "Office 365 の通話プランについて"
+title: "Office 365 のプランを呼び出すことは?"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/22/2017
-ms.audience: Admin
-ms.topic: overview
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection:
-- Adm_Skype4B_Online
-- Adm_Skype4B_Online_Top
-ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
-- LIL_Placement
-- Strat_SB_PSTN
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 3dc773b9-95e0-4448-b2f1-887c54022429
-
-description: "Learn what Office 365 Callings Plans (PSTN calling) are, what regions it's available in, and where to go for step by step instructions on how to set it up. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+- LIL_Placement
+description: "どのような Office 365 Callings 計画 (PSTN 通話) については、どのような領域では使用、およびそれを設定する方法の手順に移動する場所です。 "
+ms.openlocfilehash: cfc7f25a5887717a1ebb28fe690e3a5b8651d73d
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="what-are-calling-plans-in-office-365"></a>Office 365 のプランを呼び出すことは?
 
-# Office 365 の通話プランについて
+通話プランは、アドオンの電話サービスを Office 365 の電話システムと組み合わせることにより、組織全体の電話システムになることができます。 呼び出す計画基本の電話番号とお客様のビジネスの人が用意されていて、組織外の電話通話を送受信することができます。 プランの呼び出しの 2 種類があります: 国内を呼び出すことを**計画**し**国内および国際の計画を呼び出します**。 詳細については、 [Office 365 のプランを呼び出す](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md)を参照してください。
+  
+電話番号が割り当てられているユーザーはビジネスのデバイスは、[オンライン ビジネスの Skype を得る電話](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)Pc、およびモバイル デバイスを含む、すべての Skype からの音声通話を行えます。 ことができますミュート/ミュート解除などの機能を使用してデスクトップ電話経由での呼び出しを制御、保留/再開、呼び出しの転送、および着信の転送します。
+  
+## <a name="start-here"></a>ここから開始
 
-通話プランはアドオンの電話サービスで、Office 365 の電話システムと組み合わせることで組織全体で利用できる電話システムを構築できます。通話プランにより、社内の関係ユーザーにプライマリ電話番号が提供され、組織の外部の通話を発信および着信できるようになります。通話プランの種類は、 **国内通話プラン**と **国際通話プラン**の 2 つがあります。詳細については、「[Office 365 向けの通話プラン](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md)」をご覧ください。
+この設定をして、前に質問があるこれらのトピックを見てください。
   
-電話番号が割り当てられているユーザーは、[Skype for Business Online で使う電話を入手する](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)、PC、およびモバイル デバイスを含むすべての Skype for Business デバイスから音声通話ができます。ミュート/ミュート解除、保留/保留解除、通話の転送、着信転送などの機能を使用して通話を卓上電話で制御できます。
-  
-## 基本
-
-この機能をセットアップする前に、以下の確認する必要がある項目のトピックに目を通してください。
-  
-- お住いの国/地域で通話プランが利用できるかどうか、および取得できる分数について確認するには、ドロップダウンから[国と地域の空き時間情報の電話会議とプランの呼び出し](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md)を選択します。
+- かどうかに、国/地域では、利用可能なプランを呼び出すことは、表示される時間を分単位を選択、[オーディオ会議や予定を呼び出すことで利用可能な地域の国や](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)ドロップ ダウンします。
     
-- 通話分数を超過してしまうと考えたら、[組織のために通信クレジットをセットアップする](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)します。
+- 場合は[、組織の通信のクレジットを設定](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)、時間を分単位で移動しますと思います。
     
-- 料金の情報を[こちら](https://go.microsoft.com/fwlink/?linkid=799761)で確認できます。
+- 表示価格情報[は、ここ](https://go.microsoft.com/fwlink/?linkid=799761)です。
     
-## セットアップ
+## <a name="setting-it-up"></a>設定時に
 
-通話プランのセットアップは簡単です。新しい電話番号を検索、取得して、ユーザーに割り当てることができます。既存の番号を Office 365 に移行できます。
+プランの呼び出しを設定することは簡単です。 検索、購入、および新しい電話番号をユーザーに割り当てることができます。 Office 365 に、既存の番号を転送することもできます。
   
- **詳細な手順については、「[通話プランのセットアップ](set-up-calling-plans.md)」をご覧ください。**
+ **ステップ バイ ステップのセットアップ手順については、[計画を呼び出す設定](set-up-calling-plans.md)を参照してください。**
   
-電話システム、通話プラン、電話会議の詳細については、YouTube ビデオ「[Skype for Business での Office 365 電話システムと PSTN 会議](https://www.youtube.com/watch?v=5Cxawu9mIag&amp;list=PLXtHYVsvn_b8dbRbnL19GUPcBH1UQ7c4x&amp;index=28)」をご覧ください。
-  
-||
-|:-----|
-|![LinkedIn ラーニングのショート アイコンです。](../images/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **Office 365 を初めてお使いの場合は**         、LinkedIn ラーニングによって提供された **Office 365 管理者および IT プロフェッショナル**向けの無料のビデオコースをご覧ください。 |
-   
-## 関連項目
+電話システム、計画を呼び出すこと、および音声会議の詳細については、この YouTube のビデオを参照してください: [Office 365 の電話システムとビジネスの Skype でダイヤルイン会議](https://www.youtube.com/watch?v=5Cxawu9mIag&amp;list=PLXtHYVsvn_b8dbRbnL19GUPcBH1UQ7c4x&amp;index=28)。
 
-#### 
+> [!NOTE]
+> これよりも、他の電話番号を取得する必要があります、[ビジネス製品の管理のヘルプのサポートに連絡](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)してください。
 
-[緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
-  
+
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
+
+## <a name="related-topics"></a>関連トピック
 [Skype for Business と Microsoft Teams のアドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 
+[電話番号のよく寄せられる質問を転送します。](transferring-phone-numbers-common-questions.md)
+
+[さまざまな種類の計画を呼び出すための電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+[管理、組織の電話番号](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[緊急時の呼び出し元の条項および条件](emergency-calling-terms-and-conditions.md)
+
+[Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)

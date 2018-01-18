@@ -1,21 +1,30 @@
 ---
-title: "Skype for Business と Microsoft Teams のデータ収集方法"
+title: "データ収集作業について"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 5/31/2017
-ms.audience: Admin
-ms.topic: reference
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: c17e8ea6-b83b-4345-9401-47a6c8b13aad
-description: "Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Legal
+description: Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements.
+ms.openlocfilehash: 61f3e627883151eaf194b8ac4f4b4023e8624e48
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype for Business と Microsoft Teams のデータ収集方法
 
-# Skype for Business と Microsoft Teams のデータ収集方法
-
-Skype for Business Server 2015、Skype for Business Online、Skype for Business クライアントは、これらの製品の使用方法と、サインイン エラーなどの発生したエラーの種類を Microsoft が理解するために役立つデータを収集します。Microsoft は、使用パターンの理解、将来の機能の計画、問題の領域のトラブルシューティングと修正のためにこれらの情報を活用できます。
+ビジネス サーバー 2015 の Skype、Skype のビジネス、オンライン ビジネス、マイクロソフトのチームのアプリケーションの Skype とは、Microsoft がこれらの製品の使用方法と、サインインのエラーなど、エラーの種類が発生したを理解するためのデータを収集します。 この情報は、使用パターンを理解する、新機能を計画、トラブルシューティングを行うし、問題箇所を修正することに役立ちます。
   
 一部の使用データは自動的に収集されますが、管理者またはユーザーによって許可された場合にのみ収集できるデータもあります。収集されるデータは、次の 3 つのカテゴリに分類されます。
   
@@ -25,35 +34,31 @@ Skype for Business Server 2015、Skype for Business Online、Skype for Business 
     
 - エラー報告データ
     
-## 全数調査データ
+## <a name="census-data"></a>全数調査データ
 
-全数調査データは、Skype for Business と Skype for Business Online の提供、サポート、改善のみを目的として取得されます。これには、デバイスとオペレーティング システムのバージョン、地域と言語の設定などの環境情報が含まれます。サインイン試行と失敗のカウンターも含まれます。次に、収集される全数調査データの具体例をいくつか示します。
-  
-|
-|
-|****データ型****|****例****|****メモ****|
+調査データは、提供、サポート、およびビジネス用の Skype を改善する目的でのみ取得されます。 マイクロソフトのチームと Skype ビジネスをオンラインにします。 デバイスとオペレーティング システムのバージョン、および [地域と言語の設定などの環境の情報が含まれています。 サインインの試行と失敗のカウンターも含まれています。 収集した調査データの具体的な例を以下に示します。
+
+|**データ型**|**例**|**メモ**|
 |:-----|:-----|:-----|
 |AppName  <br/> |iPhoneSkype  <br/> ||
 |DeviceModel  <br/> |iPhone  <br/> ||
 |OSName  <br/> |iPhoneiOS  <br/> ||
 |OSVersion  <br/> |8.3  <br/> ||
-|UserLanguage  <br/> |EN-US  <br/> ||
-|UserID  <br/> |E296D735-4F36-4E18-7C3B-52E1A02A0164  <br/> |ID は、2 回ハッシュされます (クライアントで 1 回、利用統計情報サービスでもう一回)。ハッシュによって、ID を特定のユーザーに結び付けることができなくなります。  <br/> |
+|例  <br/> |EN-US  <br/> ||
+|ユーザー Id  <br/> |E296D735-4F36-4E18-7C3B-52E1A02A0164  <br/> |ID は、2 回ハッシュされます (クライアントで 1 回、利用統計情報サービスでもう一回)。ハッシュによって、ID を特定のユーザーに結び付けることができなくなります。  <br/> |
 |DeviceID  <br/> |5E872200-F546-4CCD-8F23-AF5F507AA2DD  <br/> |デバイス ID は、デバイス上でランダムに生成される GUID であり、利用統計情報サービスに送信されます。  <br/> |
    
 全数調査データには、組織またはユーザーを特定できる情報は含まれていません。詳細については、「[Skype for Business のプライバシーに関する声明](https://www.microsoft.com/privacystatement/en-us/SkypeforBusiness/Default.aspx)」をご覧ください。
   
 全数調査データは、既定でオンになり、管理者やエンド ユーザーがオフにすることはできません。
   
-## 使用状況データ
+## <a name="usage-data"></a>使用状況データ
 
 使用状況データには、発信した通話の回数、送受信した IM の数、参加した会議の数、機能を使用した頻度、安定性の問題などの情報が含まれます。
   
 使用状況データには、contoso.com などの組織を特定できる情報が含まれる場合もあります。次に、収集される使用状況データの具体例をいくつか示します。
   
-|
-|
-|****データ型****|****例****|****メモ****|
+|**データ型**|**例**|**メモ**|
 |:-----|:-----|:-----|
 |IM Sent (送信済み IM)  <br/> |12  <br/> ||
 |IM Received (受信済み IM)  <br/> |5  <br/> ||
@@ -74,18 +79,16 @@ Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
   
 このポリシーの既定値は False であるため、利用統計情報は既定では収集されません。この設定はプールごとに行われ、Skype 会議アプリを使用してそのサーバーでホストされる会議に接続するすべてのユーザーを制御します。
   
-## エラー報告データ
+## <a name="error-reporting-data"></a>エラー報告データ
 
 エラー報告データには、パフォーマンスと信頼性、デバイスの構成、ネットワーク接続の品質、エラー コード、エラー ログ、例外などの情報が含まれることがあります。次に、収集されるエラー報告データの具体例をいくつか示します。
-  
-|
-|
-|****データ型****|****例****||
+
+|**データ型**|**例**|**メモ**|
 |:-----|:-----|:-----|
 |Message direction (メッセージの方向)  <br/> |Incoming (受信)  <br/> ||
 |Conversation state (会話の状態)  <br/> |Idle (アイドル)  <br/> ||
-|Conversation thread ID (会話スレッド ID)  <br/> |AdDO8hsJqilU93hQHC3OZaPR2saEA==  <br/> ||
-|UserID  <br/> ||この ID はテキスト形式で送信され、利用統計情報サービスでハッシュされてから保存されます。  <br/> |
+|Conversation thread ID (会話スレッド ID)  <br/> |AdDO8hsJqilU93hQHC3OZaPR2saEA = =  <br/> ||
+|ユーザー Id  <br/> |amosmarble <br/> |この ID はテキスト形式で送信され、利用統計情報サービスでハッシュされてから保存されます。  <br/> |
    
 エラー報告データには、ユーザーの IP アドレスや SIP URI (Session Initiation Protocol Uniform Resource Identifier) などの個人を特定できる情報が含まれる場合もあります。収集されるデータの詳細な説明については、「[Skype for Business のプライバシーに関する声明](https://www.microsoft.com/privacystatement/en-us/SkypeforBusiness/Default.aspx)」を参照してください。
   
@@ -101,16 +104,13 @@ Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
   
 Skype 会議アプリでは、MeetingUxEnableTelemetry によってエラー報告も制御されます。ただし、Windows のクラッシュに関しては Watson 設定によってクラッシュ情報のアップロードが制御されます。Skype 会議アプリには、デスクトップ クライアントのダイアログ ボックスのようにユーザー設定はありません。
   
-詳細については、「[Skype for Business の全般オプションを設定する](https://support.office.com/article/e1a46d3e-dcea-437a-ba7b-6d442a40f439)」を参照してください。
+詳細については、「[Skype for Business の全般オプションを設定する](http://support.office.com/article/e1a46d3e-dcea-437a-ba7b-6d442a40f439)」を参照してください。
   
-「[Skype for Business Online 向けにネットワークをセットアップする](https://support.office.com/article/81fa5e16-418d-4698-a5f0-e666211c5c66)」を参照してネットワークをセットアップできます。
+「 [Skype for Business Online 向けにネットワークをセットアップする](http://support.office.com/article/81fa5e16-418d-4698-a5f0-e666211c5c66)」を参照してネットワークをセットアップできます。
   
-中国の 21Vianet によって運営されている Office 365 を使用している場合は、「[Set up your network for Lync Online](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf)」を参照してください。
+中国の 21Vianet によって運営されている Office 365 を使用している場合は、「[Set up your network for Lync Online](http://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf)」を参照してください。
   
-## 関連トピック
-
+## <a name="related-topics"></a>関連トピック
 [カスタマー エクスペリエンス向上プログラム](https://www.microsoft.com/products/ceip/en-US/default.mspx)
-  
-[Office 365 URL および IP アドレス範囲](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
-  
 
+[オーディオ会議や予定を呼び出すための国および地域の可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

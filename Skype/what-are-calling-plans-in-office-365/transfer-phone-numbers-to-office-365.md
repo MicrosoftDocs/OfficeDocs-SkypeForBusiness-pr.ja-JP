@@ -1,48 +1,49 @@
 ---
-title: "Office 365 への電話番号に転送します。"
+title: "Office 365 に電話番号を転送します。"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/22/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.PortingNumbersOverview
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
-- LIL_Placement
-- Strat_SB_PSTN
 ms.assetid: 47b3af8e-4171-4dec-8333-c956f108664e
-
-description: "Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: ms.lync.lac.PortingNumbersOverview
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+- LIL_Placement
+description: Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them.
+ms.openlocfilehash: 13054913e73b21627f29bfb6038b44c97070417b
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="transfer-phone-numbers-to-office-365"></a>Office 365 に電話番号を転送します。
 
-# Office 365 への電話番号に転送します。
-
-> [!IMPORTANT]
-> この記事は機械翻訳されています。機械翻訳についての「免責事項」をお読みください。 
+[] 電話番号を現在のサービス プロバイダーから Skype for Business に移行するのは簡単です。電話番号を Skype for Business に移行した後、マイクロソフトがサービスプロバイダーになり、それらの電話番号に対する請求を行います。
   
-電話番号を現在のサービス プロバイダーから Skype for Business に移行するのは簡単です。電話番号を Skype for Business に移行した後、マイクロソフトがサービスプロバイダーになり、それらの電話番号に対する請求を行います。
+電話番号の転送を開始する前に[転送する電話番号のよくある質問](transferring-phone-numbers-common-questions.md)の情報を確認することをお勧めします。 ダイヤルイン会議用ブリッジ、自動応答、またはその他のサービス番号の番号をサービスがあれば、無料電話番号も[管理用の電話番号を参照してくださいビジネス用の Skype に転送する必要がありますが 999 を超える数のユーザー (サブスクライバー) の電話番号組織](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)に正しいフォームをダウンロードし、お知らせします。
+  > [!NOTE]
+  > 私たちは、u. s. 営業日以内にのみ、パブリックの休日や週末ではなく、電話番号を転送するためのポートの注文を処理します。 
   
-電話番号に転送を開始する前に[電話番号のよく寄せられる質問を転送します。](transferring-phone-numbers-common-questions.md)の情報を確認することをお勧めします。場合ダイヤルイン会議ブリッジ、自動応答またはその他のサービス番号サービス番号がある場合は、フリー ダイヤル電話番号がないかSkype for Businessに転送するには、[カスタム サービスの依頼を手動で送信する](manually-submit-a-custom-service-request.md)正しい形式をダウンロードして、お問い合わせに送信します。
-> [!NOTE]
-> 米国営業日にのみ、および祝日は休業または週末の電話番号に転送するためのポート注文の処理はします。 
-  
-## ポート注文を作成して、Skype for Business に電話番号を移行する方法
+## <a name="how-to-create-a-port-order-and-transfer-your-phone-numbers-to-skype-for-business"></a>ポート注文を作成して、Skype for Business に電話番号を移行する方法
 <a name="bk_LNPcountries_1"> </a>
 
-> [!NOTE]
-> 場合ダイヤルイン会議ブリッジ、自動応答またはその他のサービス番号サービス番号がある場合は、フリー ダイヤル電話番号がないかSkype for Businessに転送するには、[カスタム サービスの依頼を手動で送信する](manually-submit-a-custom-service-request.md)正しい形式をダウンロードして、お問い合わせに送信します。 
+  > [!NOTE]
+  > ダイヤルイン会議用ブリッジ、自動応答、またはその他のサービス番号の番号をサービスがあれば、無料電話番号も[管理用の電話番号を参照してくださいビジネス用の Skype に転送する必要がありますが 999 を超える数のユーザー (サブスクライバー) の電話番号組織](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)) 正しい国/地域を選択し、正しいフォームをダウンロード、お知らせします。
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **Office 365 管理センター**、[ **Skype for Business**] の順に移動します。
+2. **Office 365 管理センター**を参照して > **ビジネス用の Skype**です。
     
-3. 左のナビゲーションで、[ **音声**]、[ **ポート注文**] の順に移動し、[ **追加**] をクリックします。
+3. 左側のナビゲーションでは、**音声**に移動 > **ポート注文**> [**追加**] をクリックします。
     
 4. [ **新しい電話番号のポート注文**] ページで、情報を読んで確認してから、[ **作業を開始する**] をクリックします。
     
@@ -57,12 +58,12 @@ description: "Learn what you need to know and do before porting phone numbers to
   - [ **会社名**] 会社または組織の名前。
     
     > [!NOTE]
-    > [ **会社名**] ボックスに入力できるのは、スペースを含めて 25 文字までです。会社の名前が 25 文字より長い場合は、名前の最初の 25 文字が送信され、番号移行注文が処理されます。 
+    > [ **会社名**] ボックスに入力できるのは、スペースを含めて 25 文字までです。会社の名前が 25 文字より長い場合は、名前の最初の 25 文字が送信され、番号移行注文が処理されます。
   
   - [ **認証する人物**] 認証されたユーザーの名前。
     
     > [!NOTE]
-    > [ **認証する人物**] ボックスに入力できるのは、スペースを含めて 15 文字以下です。認証する人物の名前が 15 文字より長い場合は、名前の最初の 15 文字が発行され、番号移行注文が処理されます。 
+    > [ **認証する人物**] ボックスに入力できるのは、スペースを含めて 15 文字以下です。認証する人物の名前が 15 文字より長い場合は、名前の最初の 15 文字が発行され、番号移行注文が処理されます。
   
   - [ **サービス アドレス**] アカウントのサービス アドレス。これは、サービス プロバイダーまたは電話会社からの請求書に記載されます。
     
@@ -83,38 +84,28 @@ description: "Learn what you need to know and do before porting phone numbers to
     
 10. [ **送信**] ページの [ **その他の通知対象ユーザー**] に必要なユーザーの電子メール アドレスを入力し、[ **移行注文の送信**] をクリックします。移行注文は、[ **移行注文**] ページに一覧表示されます。[ **状態**] 列の下で状態をい表示できます。[ **注文 ID**]、[ **送信済み**]、[ **移行日**] および [ **状態**] などの移行注文の詳細を表示できます。操作ペインで携帯電話会社名などのさらに詳しい情報を表示できます。
     
-## この後のステップは？
+## <a name="what-happens-next"></a>この後のステップは？
 <a name="bk_LNPcountries_1"> </a>
 
-ポート注文を送信し、受信されると、ポート注文を確認する電子メールを受け取ります。
+ポート注文を送信し、受信されると、ポート注文を確認する電子メールを受け取ります。 
   
-番号移行注文申請は毎日確認され、更新されて、進行状況と状態が電子メールで通知されます。申請が却下されると、サポートチケットを開くように求められ、そのサポートチケットに [ **番号移行注文 ID**] を入力するように求められます。番号移行注文 ID は、Skype for Business 管理センターの [ **音声**] > [ **移行注文**] > [ **注文 ID**] 列に表示されています。
+ポート、注文要求がチェックされ、毎日更新し、その進行状況とステータスを電子メールで通知されます。 要求が却下された場合、サポート チケットを開き、その**ポートの注文 ID**を提供することをお願いするチケットをサポートになります。 [**音声**] のビジネス管理センターの Skype ID を参照してポート順 > **ポート注文** > **注文 ID**列。
   
-## 問題が発生した場合
+## <a name="what-if-i-have-problems"></a>問題が発生した場合
 <a name="bk_LNPcountries_1"> </a>
 
  **サービス アドレスが請求先住所と違っている。注文時に送信した住所情報が、顧客の請求書のコピーと一致するのに拒否されることがあります。** ほとんどの携帯電話会社は、請求先住所ではなくサービス アドレスの情報に基づいて移行情報を特定します。請求書のコピーは請求の記録であるため、移行する電話番号のサービス アドレスと同じ情報が提供されない可能性があります。
   
  **注文の処理に時間がかかり過ぎる場合** Microsoft では、注文の発行から、ステータス更新を知らせるメールの受信、電話番号の移転の確認まで、電話番号の移転を簡潔かつ迅速に処理したいと考えています。注文の処理に時間がかかりすぎると思われ、Skype for Business 管理センターでステータスが完了になっていない場合は、サポート チケットを開いて番号移行注文 ID を入力してください。
-  
-## 
-<a name="bk_LNPcountries_1"> </a>
 
-||
-|:-----|
-|![LinkedIn ラーニングのショート アイコンです。](../images/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **Office 365 を初めてお使いの場合は**         、LinkedIn ラーニングによって提供された **Office 365 管理者および IT プロフェッショナル**向けの無料のビデオコースをご覧ください。 |
+
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
-## 関連トピック
-<a name="bk_LNPcountries_1"> </a>
-
-[通話プランのセットアップ](set-up-calling-plans.md)
-  
+## <a name="related-topics"></a>関連トピック
 [電話番号のよく寄せられる質問を転送します。](transferring-phone-numbers-common-questions.md)
-  
-## 
-<a name="MT_Footer"> </a>
 
-> [!NOTE]
-> **機械翻訳についての免責事項**: この記事の翻訳はコンピューター システムによって行われており、人間の手は加えられていません。マイクロソフトでは、英語を話さないユーザーがマイクロソフトの製品、サービス、テクノロジに関するコンテンツを理解するのに役立てるため、こうした機械翻訳を提供しています。記事は機械翻訳されているため、用語、構文、文法などに誤りがある場合があります。 
-  
+[さまざまな種類の計画を呼び出すための電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
+[緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
+
+[Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)

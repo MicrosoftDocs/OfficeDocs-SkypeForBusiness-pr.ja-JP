@@ -1,32 +1,42 @@
 ---
-title: "サービス アドレスに何を入力するべきですか?"
+title: "入れるもの、サービスのアドレスのでしょうか。"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: get-started-article
-f1_keywords:
-- ms.lync.lac.PortOrderAccountInfoServiceAddress
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: b7bcf334-1dc6-4fd7-8145-f89ce695fca0
-description: "Learn what your service address is, how it differes from your billing address, and where you can find it. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.PortOrderAccountInfoServiceAddress
+ms.custom: Calling Plans
+description: "については、サービスのアドレスとは、請求先住所との違いし、それを見つけることができます。 "
+ms.openlocfilehash: 9a10b82f1fe41806baca1dccd76fcc47664b6a2d
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="what-should-i-put-in-for-the-service-address"></a>入れるもの、サービスのアドレスのでしょうか。
 
-# サービス アドレスに何を入力するべきですか?
-
-これはご利用の電話のサービス プロバイダーまたは通信事業者で登録した請求先または緊急対応の住所とは異なるサービス アドレスです。 このアドレスが分からない場合は、サービス プロバイダーまたは通信事業者に問い合わせて、お客様のアカウントでリストに表示されるサービス アドレスを検索できます。
+サービスのアドレスは、キャリアまたは電話サービス プロバイダーに登録した請求や緊急時のアドレスとは異なります。 これがわからない、自分のアカウントに記載されているサービスのアドレスを確認するのには、サービスプロバイダーまたは通信業者に問い合わせることができます。
   
- **具体的な手順については、「[Office 365 への電話番号に転送します。](transfer-phone-numbers-to-office-365.md)」をご覧ください。**
-  
-## 関連項目
+ **完全な手順については、 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)を参照してください。**
 
-#### 
+> [!NOTE]
+> これよりも、他の電話番号を取得する場合は、[ビジネス製品の管理のヘルプのサポートに連絡](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)してください。
+
+  
+## <a name="related-topics"></a>関連トピック
+[電話番号のよく寄せられる質問を転送します。](transferring-phone-numbers-common-questions.md)
+
+[さまざまな種類の計画を呼び出すための電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
-  
-[音声会議無料ダイヤルアウト期間](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 
+[Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)

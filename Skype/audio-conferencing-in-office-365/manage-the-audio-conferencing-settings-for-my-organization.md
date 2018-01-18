@@ -1,394 +1,388 @@
 ---
-title: "組織の電話会議の設定を管理する"
+title: "組織内でのオーディオ会議設定を管理します。"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: bc9bd328-c5b2-44e5-af15-e02bf00e1c81
-description: "See steps to assign a dial-in conferencing license and conference ID to a user, set up a third party conferencing provider, and many other dial-in conferencing settings. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: "サード パーティ製会議プロバイダー、およびその他のダイヤルイン会議の設定を設定、ユーザーにダイヤルイン会議のライセンスおよび会議 ID を割り当てる手順を参照してください。 "
+ms.openlocfilehash: 6bca89f60c5ee4e9b840d2094500077cfa972902
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="manage-the-audio-conferencing-settings-for-my-organization"></a>組織内でのオーディオ会議設定を管理します。
 
-# 組織の電話会議の設定を管理する
-
-1 つの場所で Skype for Business と Microsoft Teams のすべての電話会議設定を確認することが、より簡単になります。
+容易にするすべてのビジネスおよびマイクロソフトのチームで 1 つの場所に Skype の電話会議の設定を表示する場合があります。 
   
-## 電話会議のライセンスを割り当てる
+## <a name="assign-an-audio-conferencing-license"></a>オーディオ会議のライセンスを割り当てる
 
 > [!NOTE]
-> [ **Skype for Business 管理センター**] を使用してライセンスを割り当てることはできませんので、Office 365 管理センターを使用する必要があります。詳細については、「[Skype for Business と Microsoft Teams のライセンスを割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)」をご覧ください。 
+> **ビジネス管理センターの Skype**を使用してライセンスを割り当てることはできません。 Office 365 管理センターを使用する必要があります。 [ビジネスおよびマイクロソフトのチームのライセンスを Skype を割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)を参照してください。 
   
- **ユーザーにライセンスを割り当てるには**
+ **ユーザーのライセンスを割り当てるには**
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **Office 365 管理センター**の左のナビゲーションで、[ **ユーザー**]、[ **アクティブなユーザー**] の順に移動し、利用可能なユーザーのリストからユーザー (複数可) を選びます。
+2. **Office 365 管理センター**の左側のナビゲーションでは、**ユーザー**に移動 > **アクティブなユーザー**の利用可能なユーザーの一覧からユーザーまたはユーザーを選択します。
     
     > [!NOTE]
-    > 最大 20 人までのライセンスを同時に割り当てている場合は、[ **ビューの選択**] ボックスを使用していずれかのオプションを選択するか、独自のビューを作成することができます。次に [ **編集**]、[ **次へ**] を 2 回クリックし、ライセンスを選択して、[ **送信**] をクリックします。また、Windows Powershell を使用してライセンスを複数のユーザーに割り当てることもできます。操作手順と PowerShell のサンプル スクリプトについては、「[Skype for Business と Microsoft Teams のライセンスを割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)」をご覧ください。 
+    > 場合は同時に最大 20 個のユーザーにライセンスを割り当てる場合は、**ビューを選択して**ドロップダウン リストを使用し、オプションのいずれかを選択したり、独自のビューを作成できます。 **編集**、**次へ**2 回クリックし、ライセンスを選択し、[**送信**] をクリックします。 Windows Powershell を使用して複数のユーザーにライセンスを割り当てることもできます。 手順とサンプルの PowerShell スクリプトでは、[ビジネスおよびマイクロソフトのチームのライセンスを Skype を割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)を参照してください。 
   
-3. 操作ウィンドウの [ **製品ライセンス**] で [ **編集**] をクリックします。
+3. 操作ウィンドウの [ **製品ライセンス**] で [ **編集**] をクリックします。 
     
-4. [ **製品ライセンス**] ページで [ **電話会議**] をオンにして、[ **保存**] をクリックします。ライセンスの詳細については、「[Skype for Business と Microsoft Teams のアドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)」をご覧ください。
+4. [**製品ライセンス**] ページで、**電話会議**を有効にして、[**保存**] をクリックします。 ライセンスの詳細は、 [Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)を参照してください。
     
 > [!NOTE]
-> ライセンスを割り当てると、電話会議プロバイダーのリストに Microsoft が表示されなくなることがあります。この場合は、Office 365 管理センターからログアウトするか、CTRL キーを押しながら F5 キーを押してブラウザーのウィンドウを更新します。 
+> ライセンスを割り当てると、Microsoft が最初に一覧に表示されない、オーディオ会議プロバイダーとして。 このような場合は、Office 365 の管理ページからログアウトするか、CTRL + f5 キーを押してブラウザー ウィンドウを更新します。 
   
-## ユーザーに会議 ID を割り当てる
+## <a name="assign-a-conference-id-for-a-user"></a>ユーザーの会議 ID を割り当てる
 
-Microsoft を電話会議プロバイダーとして使用してユーザーを電話会議に対してセットアップすると、自動的に会議 ID がユーザーに割り当てられます。割り当てられた 会議 ID は、静的または動的 ID で、会議がスケジュール設定されると会議出席依頼で送信されます。
+会議 ID が自動的に割り当てられているユーザーに電話会議のオーディオ会議プロバイダーとして Microsoft を使用する設定している場合。 会議 ID が割り当てられている静的または動的のどちらかにすることができ、会議がスケジュールされているときに会議出席依頼の送信します。 
   
-静的 ID は、組織内のユーザーがランダムな番号を覚えるのを望まないときや、ユーザーが特定の番号を選択できる場合や、覚えやすい番号を取得している場合に好んで使用されます。動的会議 ID が使用される場合、ユーザーがスケジュールするそれぞれの会議に一意の会議 ID が割り当てられます。静的ではなく動的な会議 ID を割り当てる場合は、[組織での電話会議の動的 ID の使用](using-audio-conferencing-dynamic-ids-in-your-organization.md)をご覧ください。
+静的の Id は、組織内のユーザーはランダムな番号を覚えておく必要があるときに使用します。特定の番号を選択したり、覚えやすいものを選択することができます。 動的会議 Id を使用する場合各会議ユーザのスケジュールは割り当てられます会議の一意の id。 割り当てる静的な会議 Id ではなく動的をする場合は、[組織内のオーディオ会議を使用して動的な Id](using-audio-conferencing-dynamic-ids-in-your-organization.md)を参照してください。
   
-Skype for Business 管理センターを使ってユーザーに会議 ID を割り当てることはできませんが、Windows PowerShell コマンドレットを使えばこの操作を行うことができます。
+ビジネス管理センターの Skype は、ユーザーに会議 ID を割り当てるには使用できませんが、Windows PowerShell コマンドレットを使用してこれを行うことができます。
   
-ユーザーの会議 ID を設定するには、次のコマンドレットを実行します。
+ユーザーの会議 ID を設定するのには次のコマンドを実行します。
   
 ```
 Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ConferenceId 8271964 
 ```
 
 > [!IMPORTANT]
-> 会議 ID には 7 桁の情報を含める必要があります。Skype for Business 管理センターにおいて、または Windows PowerShell を使用して、この情報を変更することはできません。 
+> 会議 ID が 7 桁の数字を含める必要があり、ビジネス管理センターまたは Windows PowerShell を使用して、Skype で変更することはできません。 
   
-このコマンドレットの詳細については、「[Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 )」をご覧ください。
+コマンドレットの詳細については、[設定 CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 )を参照してください。
   
 > [!IMPORTANT]
->  新しい電話会議 ID が作成されると、古い電話会議 ID を使用してダイヤルインすることはできなくなります。既存の会議の招待を予約し直して、新しい電話会議 ID を招待に追加するように、ユーザーに通知してください。ユーザーは Skype for Business の会議移行ツールを使って、既存の会議を更新できます。Skype for Business Meeting Update Tool をダウンロード、インストール、実行する方法については、以下をご覧ください。> [Skype for Business Meeting Update Tool と Lync Meeting Update Tool](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)> [Skype for Business Online、会議移行ツール (64 ビット)](http://go.microsoft.com/fwlink/?LinkID=626047)> [Skype for Business Online、会議移行ツール (32 ビット)](https://go.microsoft.com/fwlink/?LinkID=626046)
+>  新しい会議 ID が作成されると、呼び出し元が古い会議 ID を使用できません。 ミーティングの招待新しい会議 ID が、招待状に追加されることを確認するのには、既存のスケジュールを変更するのにはユーザーに通知する必要があります。 ユーザーは、ビジネス会議の移行ツールの Skype を使用して、既存の会議を更新します。 ダウンロード、インストール、および、Skype をビジネス会議の更新ツールを実行する方法を参照してください:[ビジネスと Lync の Skype の会議の更新ツール](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)、 [Skype](http://go.microsoft.com/fwlink/?LinkID=626047)、および[のビジネス オンラインでは、Skype 会議移行ツール (32 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=54079)。
   
-「[ユーザーに割り当てられている会議 ID を表示、変更、リセットする](see-change-and-reset-a-conference-id-assigned-to-a-user.md)」をご覧ください。
+[参照してください、変更、およびユーザーに割り当てられている会議 ID のリセット](see-change-and-reset-a-conference-id-assigned-to-a-user.md)を参照してください。
   
-## 電話会議プロバイダーを Microsoft からサードパーティー プロバイダーに変更する
+## <a name="change-the-audio-conferencing-provider-from-microsoft-to-a-third-party-provider"></a>マイクロソフトからサード パーティのプロバイダーに、オーディオ会議プロバイダーを変更します。
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **Office 365 管理センター**、[ **Skype for Business**] の順に移動します。
+2. **Office 365 管理センター**を参照して > **ビジネス用の Skype**です。
     
-3. [ **Skype for Business 管理センター**]の左のナビゲーションで [ **電話会議**]、[ **ユーザー**] の順に移動し、電話会議プロバイダーを変更するユーザーを選びます。
+3. **電話会議**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **ユーザー**、オーディオ会議プロバイダーを変更するユーザーを選択し、します。
     
-4. 操作ウィンドウで、[ **編集**] をクリックします。
+4. 操作ウィンドウで、[ **編集**] をクリックします。 
     
-5. [ **プロパティ**] ページの [ **プロバイダー名**] で、ユーザーの電話会議プロバイダーを選びます。
+5. [**プロパティ**] ページの [**プロバイダー名**] で、ユーザーの電話会議プロバイダーを選択します。
     
     > [!NOTE]
-    > 複数のユーザーを選んだ場合は、電話会議プロバイダーとして Microsoft を選ぶか、[ **なし**] を選ぶことしかできません。 
+    > のみ、複数のユーザーを選択した場合、Microsoft をオーディオ会議プロバイダー、または**[なし]**として選択できます。
   
-6. [ **保存**] をクリックします。
+6. [ **保存**] をクリックします。 
     
-「[ユーザーのダイヤルイン会議プロバイダーを変更する](https://support.office.com/article/9b74f053-4d23-485f-9232-3d30370a8c6e)」をご覧ください。
   
-## 電話会議ユーザーへのメール送信を有効または無効にする
+## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>有効にするか、オーディオ会議のユーザーに送信された電子メールを無効にします。
 
-Skype for Business 管理センターまたは Windows PowerShell を使用すると、ユーザーへのメール送信を有効または無効にすることができます。
+有効にするか、ユーザーに送信される電子メールを無効にするのには、ビジネス管理センターの Skype または Windows PowerShell を使用できます。
   
- **Skype for Business 管理センターを使用する**
+ **ビジネス管理センターに、Skype を使用します。**
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **Office 365 管理センター**、[ **Skype for Business**] の順に移動して、左のナビゲーションで [ **電話会議**] をクリックします。
+2. **Office 365 管理センター**を参照して > **ビジネス用の Skype**の左側のナビゲーションでは、[**電話会議**] をクリックします。
     
-3. [ **Microsoft Bridge の設定**] ページで、[ **ユーザーの電話会議設定が変更されると、メールがユーザーに自動送信されます**] をオンまたはオフにします。
+3. **Microsoft ブリッジの設定**] ページをオンまたはオフの**オーディオ会議の設定を変更する場合、ユーザーに e メールを自動的に送信**する。
     
 4. [ **保存**] をクリックします。
     
-    ユーザーの電話会議プロパティに移動し、[ **電話会議情報をメールで送信**] をクリックすると、電話会議の設定が含まれるメールをユーザーに送信することもできます。会議 ID と電話会議用の既定の電話番号は会議出席依頼に記載されていますが、PIN は記載されていません。
+    電子メールを送信するユーザーに電話会議の設定を使用してユーザーのオーディオ会議のプロパティに移動し、**電子メールを使用して会議情報を送信**] をクリックします。 会議 ID と既定の電話会議の電話番号は、会議出席依頼がない、暗証番号 (pin) に含まれています。
     
-    「[ユーザーにダイヤルイン会議情報が含まれたメールを送信する](send-an-email-to-a-user-with-their-audio-conferencing-information.md)」をご覧ください。
+    [オーディオ会議の情報を持つユーザーに電子メールを送信する](send-an-email-to-a-user-with-their-dial-in-information.md)を参照してください。
     
- **Windows PowerShell を使用する**
+ **Windows PowerShell を使用します。**
   
-- Windows PowerShell を使用して、次を実行することもできます。
+- Windows PowerShell を使用して実行します。 
     
   ```
   Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $true|$false
   ```
 
-    [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) を使って、組織のメールを含むその他の設定を管理できます。
+    [セット CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285)を使用すると、メールを含む、組織の他の設定を管理します。
     
-## ユーザーに送信されるメール メッセージの、差出人の連絡先情報を変更する
+## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>ユーザーに送信される電子メール メッセージ内の送信者の連絡先情報を変更します。
 
-実際のメール アドレスや、差出人の連絡先情報の表示名など、ユーザーに自動的に送信されるメールの内容を変更できます。既定では、メールの差出人は Office 365 ですが、Windows PowerShell と[Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) コマンドレットを使って、メール アドレスと表示名を変更できます。ユーザーにメールを送信するためのメール アドレスを変更するには、次の操作を実行する必要があります。
+実際の電子メール アドレス、送信者の連絡先情報の表示名など、ユーザーに自動的に送信される電子メールの変更を行うことができます。 既定では、電子メールの送信者には、Office 365 は、電子メール アドレスを変更し、名前を表示できます Windows PowerShell と[セット CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285)コマンドレットを使用します。 ユーザーに電子メールを送信する電子メール アドレスを変更するには、次の操作を行う必要があります。
   
--  _SendEmailFromAddress_ パラメーターにメール アドレスを入力する
+- _SendEmailFromAddress_パラメーターでは、電子メール アドレスを入力します。
     
--  _SendEmailFromDisplayName_ パラメーターにメールの表示名を入力する
+- _SendEmailFromDisplayName_ パラメーターにメールの表示名を入力する
     
--  _SendEmailOverride_ パラメーターを _True_ に設定する
+- _SendEmailOverride_パラメーターを_True_に設定します。
     
-メールの差出人のメール アドレスやメールの表示名など、ユーザーに送信したメールの内容を変更するには、次のコマンドを実行します。
+電子メールが送信される電子メール アドレス、またはを実行して、電子メールの表示名など、ユーザーに送信された電子メールに変更を行うことができます。
   
 ```
 Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"
 ```
 
-メール アドレス情報を変更したい場合は、カスタムのメール アドレスから送信されるメールが、組織の受信メール ポリシーで許可されていることを確認する必要があります。
+電子メール アドレス情報を変更する場合は、組織の受信電子メール ポリシーがカスタムの電子メール アドレスから送信されるメールを許可するかどうかを確認する必要があります。
   
-[Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) コマンドレットを使って、組織のメールを含むその他の設定を管理できます。
+[セット CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285)コマンドレットを使用するとメールを含む、組織の他の設定を管理するのにことができます。
   
-「[ダイヤルイン会議の設定が変更されたユーザーにメールを自動的に送信する](emails-that-are-automatically-sent-to-users-when-their-audio-conferencing-settin.md)」を参照してください。
+[ユーザーが電話会議の設定を変更するときに自動的に送信される電子メール](emails-sent-to-users-when-their-settings-change.md)を参照してください。
   
-## 会議 ID をリセットする
+## <a name="reset-the-meeting-conference-id"></a>リセット会議会議 ID
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **Office 365 管理センター**、[ **Skype for Business**] の順に移動します。
+2. **Office 365 管理センター**を参照して > **ビジネス用の Skype**です。
     
-3. [ **Skype for Business 管理センター**] の左側のナビゲーションで、[ **電話会議**] に移動し、操作ウィンドウの [ **会議 ID**] の下で [ **リセット**] をクリックします。
+3. **Skype**ビジネス管理センターは、左側のナビゲーションでの**オーディオ会議**、および [操作] ウィンドウの [**会議 ID**] を [**リセット**] をクリックします。
     
-4. [ **電話会議 ID をリセットしますか?**] ウィンドウで、[ **はい**] をクリックします。会議 ID が自動的に作成され、ユーザーへのメール送信が有効になっている場合 (既定の設定では有効) は、新しい会議 ID を記載したメールがユーザーに送信されます。
+4. **会議 ID をリセットしますか?** ] ウィンドウで、[**はい**] をクリックします。 会議 ID が自動的に作成され、ユーザーに電子メールを送信することが有効になっているかどうか、新しい会議 ID を使用してユーザーに電子メールを送信します。 既定で有効です。
     
     > [!IMPORTANT]
-    >  新しい電話会議 ID が作成されると、古い電話会議 ID を使用してダイヤルインすることはできなくなります。既存の会議の招待を予約し直して、新しい電話会議 ID を招待に追加するように、ユーザーに通知してください。ユーザーは Skype for Business の会議移行ツールを使って、既存の会議を更新できます。Skype for Business Meeting Update Tool をダウンロード、インストール、実行する方法については、以下をご覧ください。> [Skype for Business Meeting Update Tool と Lync Meeting Update Tool](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)> [Skype for Business Online、会議移行ツール (64 ビット)](http://go.microsoft.com/fwlink/?LinkID=626047)> [Skype for Business Online、会議移行ツール (32 ビット)](https://go.microsoft.com/fwlink/?LinkID=626046)
+    >  新しい会議 ID が作成されると、呼び出し元が古い会議 ID を使用できません。 ミーティングの招待新しい会議 ID が、招待状に追加されることを確認するのには、既存のスケジュールを変更するのにはユーザーに通知する必要があります。 ユーザーは、ビジネス会議の移行ツールの Skype を使用して、既存の会議を更新します。 ダウンロード、インストール、および、Skype をビジネス会議の更新ツールを実行する方法を参照してください: [会議のビジネスおよび Lync Skype の更新ツール] ((https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)、 [、ビジネス オンラインの Skype会議の移行ツール (64 ビット)](http://go.microsoft.com/fwlink/?LinkID=626047)、 [Skype オンライン ビジネスをミーティングの移行ツール (32 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=54079)とします。
   
-「[ユーザーの会議 ID をリセットする](reset-a-conference-id-for-a-user.md)」をご覧ください。
+[ユーザーの会議 ID のリセット](reset-a-conference-id-for-a-user.md)を参照してください。
   
-## 会議開催者の PIN をリセットする
+## <a name="reset-a-conference-organizers-pin"></a>会議開催者の PIN をリセットする
 
-静的 ID は、組織内のユーザーがランダムな番号を覚えるのを望まないときや、ユーザーが特定の番号を選択できる場合や、覚えやすい番号を使用している場合に好んで使用されます。動的会議 ID が使用される場合、ユーザーがスケジュールするそれぞれの会議に一意の会議 ID が割り当てられます。動的な、静的でない会議 ID を割り当てる場合は、[組織での電話会議の動的 ID の使用](using-audio-conferencing-dynamic-ids-in-your-organization.md)をご覧ください。
+静的の Id は、組織内のユーザーはランダムな番号を覚えておく必要があるときに使用します。特定の番号を選択したり、覚えやすいものを使用することができます。 動的会議 Id を使用する場合各会議ユーザのスケジュールは割り当てられます会議の一意の id。 場合に割り当てる静的な会議 Id、[組織内のオーディオ会議を使用して動的な Id](using-audio-conferencing-dynamic-ids-in-your-organization.md)ではなく動的です。
   
-静的会議 ID は自動的に作成されユーザーに割り当てられますが、ユーザーがそれを使いたくないため特定の番号に設定しようと考える場合や、ユーザーが会議 ID を覚えられない、または紛失してしまう場合があります。Skype for Business 管理センターおよび Windows PowerShell を使用すると、ユーザーの会議 ID を表示、変更、リセットすることができます。
+静的な会議 ID が自動的に作成され、ユーザーに割り当てられているがある場合ユーザーは、この 1 つを使用する場合は、特定の数に設定するとユーザーが覚えられないか、会議 ID が失われています。 ビジネス管理センターの Skype と Windows PowerShell を使用するには表示、変更、および、会議 ID をリセットするには
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **Office 365 管理センター**、[ **Skype for Business**] の順に移動して、左のナビゲーションで [ **電話会議**] をクリックします。
+2. **Office 365 管理センター**を参照して > **ビジネス用の Skype**の左側のナビゲーションでは、[**電話会議**] をクリックします。
     
-3. [ **ユーザー**] をクリックし、PIN をリセットするユーザーを選びます。
+3. **ユーザー**] をクリックし、ユーザーの PIN をリセットするにします。
     
-4. 操作ウィンドウの [ **PIN**] で [ **リセット**] をクリックします。
+4. [操作] ウィンドウで、**暗証番号 (pin)**、[**リセット**] をクリックします。
     
-ユーザーが電話会議で有効になるか、PIN がリセットされた場合、ユーザーは自分の PIN が含まれるメールを受信します。ただし、メールの自動送信を無効にしても、PIN リセットのメールは送信されません。管理者は、ユーザーに PIN を手動で送信する必要があります。PIN をリセットした後、PIN が表示されるのは 1 回だけです。リセットの直後に 1 回表示された後は、ユーザーのプロパティには PIN に代わって "*****" が表示されます。
+オーディオ会議や、PIN をリセットする場合は有効にしている場合、ユーザーは PIN をメールに表示されます。 自動的に無効にした場合は、電子メールを送信する PIN リセットの電子メールは送信されません、ユーザーに PIN を手動で送信する必要があります。 暗証番号 (pin) のみが表示されます 1 回リセットされた後。 ユーザーのプロパティのリセットの直後にそれが表示されたら、PIN をもう表示されません。代わりに、。 が表示されます。 
   
-「[ユーザーのダイヤルイン会議の PIN をリセットする](reset-the-audio-conferencing-pin-for-a-user.md)」をご覧ください。
+[ユーザーのオーディオ会議の PIN のリセット](reset-the-audio-conferencing-pin-for-a-user.md)を参照してください。
   
-## 電話会議の情報が記載されたメールをユーザーに送信する
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>オーディオ会議の情報を使用して電子メールをユーザーに送信します。
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **Office 365 管理センター**、[ **Skype for Business**] の順に移動して、左のナビゲーションで [ **電話会議**] をクリックします。
+2. **Office 365 管理センター**を参照して > **ビジネス用の Skype**の左側のナビゲーションでは、[**電話会議**] をクリックします。
     
-3. [ **ユーザー**] をクリックし、PIN をリセットするユーザーを選びます。
+3. **ユーザー**] をクリックし、ユーザーの PIN をリセットするにします。
     
 4. 操作ウィンドウで、[ **電話会議情報をメールで送信**] をクリックします。
     
     > [!NOTE]
-    > この操作を行っても、電話会議の PIN はユーザーに送信されません。 
+    > これを行うには、オーディオ会議暗証番号 (pin) はありませんがユーザーに送信します。 
   
-「[ユーザーにダイヤルイン会議情報が含まれたメールを送信する](send-an-email-to-a-user-with-their-audio-conferencing-information.md)」をご覧ください。
+[オーディオ会議の情報を持つユーザーに電子メールを送信する](send-an-email-to-a-user-with-their-dial-in-information.md)を参照してください。
   
-## 会議開催者に対して電話会議用の既定の電話番号を設定する
+## <a name="setting-the-default-audio-conferencing-phone-number-for-meeting-organizers"></a>ミーティングの開催者の既定の電話会議の電話番号を設定します。
 
- **電話会議のユーザーを有効にする場合に、会議開催者に対して電話会議用の既定の電話番号を設定するには**
+ **オーディオ会議のユーザーを有効にすると、ミーティングの開催者の既定の電話会議の電話番号を設定するのには**
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **Office 365 管理センター**、[ **Skype for Business**] の順に移動します。
+2. **Office 365 管理センター**を参照して > **ビジネス用の Skype**です。
     
-3. 左のナビゲーションで、[ **電話会議**]、[ **ユーザー**] の順に移動します。電話会議を有効にするユーザーを選びます。
+3. 左側のナビゲーションでは、**オーディオ会議**に移動 > **のユーザー**です。 電話会議を有効にするユーザーを選択します。
     
-4. [操作] ウィンドウのユーザー プロパティで、[ **編集**] をクリックします。
+4. [操作] ウィンドウの [ユーザーのプロパティ] で、[**編集**] をクリックします。
     
-5. [ **プロパティ**] ページの [ **プロバイダー名**] で、ドロップダウン リストから電話会議プロバイダーを選びます。
+5. [**プロパティ**] ページで、[**プロバイダー名**] には、オーディオ会議プロバイダーを選択するのに」ドロップ ダウン リストを使用します。
     
-  - 電話会議プロバイダーに Microsoft を選ぶ場合は、電話会議の既定の電話番号を一覧から選ぶことができます。
+  - オーディオ会議プロバイダーとして Microsoft を選択した場合は、ボックスの一覧から既定の電話会議の電話番号を選択できます。  
     
-  - 電話会議プロバイダーにサードパーティーの ACP を選ぶ場合は、有料の電話番号 (または必要に応じてフリーダイヤルの電話番号) を手動で入力する必要があります。これらの電話番号は、既定の電話番号に設定されます。
+  - オーディオ会議プロバイダーとして、サード パーティ製の ACP を選択した場合、有料の電話を手動で入力する必要が場合は、フリー ダイヤルの電話番号が必要とします。 これらの電話番号は、既定の電話番号になります。
     
-    ユーザーの電話会議用の既定の電話番号は、ユーザーが会議をスケジュールしたときに会議出席依頼に表示される番号です。
+    ユーザーの既定の電話会議の電話番号は、会議出席依頼に会議をスケジュールするときに表示されている番号です。
     
-6. [ **保存**] をクリックします。
+6. [ **保存**] をクリックします。 
     
-「[出席依頼に含まれている会議の開催者のために電話会議の電話番号を設定する](set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-include.md)」をご覧ください。
+[携帯電話への招待に含まれている番号の設定](set-the-phone-numbers-included-on-invites.md)を参照してください。
   
- **電話会議のユーザーを有効にした後に、会議開催者に対して電話会議用の既定の電話番号を設定するには**
+ **オーディオ会議のユーザーを有効にした後会議の開催者の既定の電話会議の電話番号を設定するのには**
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **Office 365 管理センター**、[ **Skype for Business**] の順に移動します。
+2. **Office 365 管理センター**を参照して > **ビジネス用の Skype**です。
     
-3. [ **Skype for Business 管理センター**] の左のナビゲーションで、[ **電話会議**]、[ **ユーザー**] の順に移動して、ユーザーを選び、[操作] ページで [ **編集**] をクリックします。
+3. **電話会議**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **ユーザー**は、ユーザーを選択し、[アクション] ページで、[**編集**] をクリックします。
     
-4. [ **プロパティ**] ページの [ **プロバイダー名**] で、ドロップダウン リストから電話会議プロバイダーを選びます。
+4. [**プロパティ**] ページで、[**プロバイダー名**] には、オーディオ会議プロバイダーを選択するのに」ドロップ ダウン リストを使用します。
     
-  - ユーザーが電話会議プロバイダーとして Microsoft を使用する場合は、電話会議の既定の電話番号を一覧から選ぶことができます。
+  - ユーザーは、オーディオ会議プロバイダーとして、Microsoft を使用する場合は、ボックスの一覧から既定の電話会議の電話番号を選択できます。  
     
-  - 電話会議プロバイダーにサードパーティーの ACP を使う場合は、有料の電話番号 (または必要に応じてフリーダイヤルの電話番号) を手動で入力する必要があります。
+  - ユーザーは、オーディオ会議プロバイダーとしてのサード ・ パーティ製の ACP を使用する場合、有料の電話を手動で入力する必要が必要な場合、フリー ダイヤルの電話番号とします。
     
-    ユーザーの電話会議用の既定の電話番号は、ユーザーが会議をスケジュールしたときに会議出席依頼に表示される番号です。
+    ユーザーの既定の電話会議の電話番号は、会議出席依頼に会議をスケジュールするときに表示されている番号です。
     
-5. [ **保存**] をクリックします。
+5. [ **保存**] をクリックします。 
     
-「[出席依頼に含まれている会議の開催者のために電話会議の電話番号を設定する](set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-include.md)」をご覧ください。
+[携帯電話への招待に含まれている番号の設定](set-the-phone-numbers-included-on-invites.md)を参照してください。
   
-## 電話会議ブリッジを設定する
+## <a name="setting-audio-conferencing-bridge-settings"></a>オーディオ会議ブリッジの設定を設定します。
 
- **発信者が会議に参加するときの会議の動作を設定する**
+ **呼び出し元がミーティングに参加するときは、会議の経験を設定します。**
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **Office 365 管理センター**、[ **Skype for Business**] の順に移動します。
+2. **Office 365 管理センター**を参照して > **ビジネス用の Skype**です。
     
-3. **[Skype for Business 管理センター]** の左のナビゲーションで、[ **電話会議**]、[ **Microsoft Bridge の設定**] の順に移動します。
+3. **電話会議**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **Microsoft ブリッジ設定**します。
     
-4. [ **会議参加エクスペリエンス**] で次の操作を選びます。
+4. [**会議参加の経験**をするには、次の操作を選択します。
     
-  - [ **会議の入退出の通知をオンにする**]: 既定ではオンになっています。オフにすると、会議に既定で参加済みのユーザーは、別のユーザーが会議に入退室したことを通知されなくなります。
+  - **会議エントリを有効にして終了の通知をオンにする**これがデフォルトで選択されます。 このチェック ボックスをオフにするとデータを入力したり、会議を離れるときに既定では、会議に参加しているユーザーが通知はありません。
     
-    ユーザーが Skype for Business クライアントを使用して会議に参加し、その会議の Skype 会議または Microsoft Teams の [ **オプション**] メニューで [ **ユーザーの入退室を通知**] 設定を変更すると、この動作を会議ごとに設定することができます。
+    ユーザーが、Skype を使用して、アプリケーションのビジネスまたはマイクロソフトのチームの会議に参加し、Skype の会議またはマイクロソフトのチーム**のオプション**メニューでの**アナウンス**設定を変更するときに会議ごとの単位で設定できます、会議。
     
-  - [ **発信者に、会議に参加する前に自分の名前を記録するように要求**]: 既定ではオンになっています。オフにすると、発信者は会議に参加する前に名前を記録するように依頼されません。
+  - **ミーティングに参加する前に自分の名前を記録する呼び出し元を確認**これがデフォルトで選択されます。 このチェック ボックスをオフにすると会議に参加する前に自分の名前を記録するための呼び出し元を求められますされません。
     
-5. 変更したら [ **保存**] をクリックします。
+5. 変更を行ったら、[**保存**] をクリックします。
     
-「[電話会議ブリッジの設定を変更する](change-the-settings-for-an-audio-conferencing-bridge.md)」をご覧ください。
+[オーディオ会議ブリッジの設定を変更する](change-the-settings-for-an-audio-conferencing-bridge.md)を参照してください。
   
- **会議の PIN の長さを設定する**
-  
-1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
-    
-2. **Office 365 管理センター**、[ **Skype for Business**] の順に移動します。
-    
-3. **[Skype for Business 管理センター]** の左のナビゲーションで、[ **電話会議**]、[ **Microsoft Bridge の設定**] の順に移動します。
-    
-4. [ **セキュリティ**] で、PIN に対する数字の桁数を [ **PIN の長さ**] リストに入力してから、[ **保存**] をクリックします。
-    
-    PIN の桁数は 4 から 12 の間にする必要があります。既定値は 5 です。
-    
-「[電話会議ブリッジの設定を変更する](change-the-settings-for-an-audio-conferencing-bridge.md)」をご覧ください。
-  
- **電話会議ユーザーへのメール送信を有効または無効にする**
+ **会議の暗証番号 (pin) の長さを設定します。**
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **Office 365 管理センター**、[ **Skype for Business**] の順に移動して、左のナビゲーションで [ **電話会議**] をクリックします。
+2. **Office 365 管理センター**を参照して > **ビジネス用の Skype**です。
     
-3. [ **Microsoft Bridge の設定**] ページで、[ **ユーザーの電話会議設定が変更されると、メールがユーザーに自動送信されます**] をオンまたはオフにします。
+3. **電話会議**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **Microsoft ブリッジ設定**します。
+    
+4. [**セキュリティ**] の**暗証番号 (pin) の長さ**] ボックスの一覧で、[暗証番号 (pin) に使用桁数を入力し、し、[**保存**] をクリックします。
+    
+    暗証番号 (pin) は、4 桁から 12 桁の間である必要があります。 デフォルトは 5 です。
+    
+[オーディオ会議ブリッジの設定を変更する](change-the-settings-for-an-audio-conferencing-bridge.md)を参照してください。
+  
+ **有効にするか、オーディオのユーザーに送信される電子メールを無効にします。**
+  
+1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
+    
+2. **Office 365 管理センター**を参照して > **ビジネス用の Skype**の左側のナビゲーションでは、[**電話会議**] をクリックします。
+    
+3. **Microsoft ブリッジの設定**] ページをオンまたはオフの**オーディオ会議の設定を変更する場合、ユーザーに e メールを自動的に送信**する。
     
 4. [ **保存**] をクリックします。
     
-    電話会議の設定を使用してユーザーにメールを送信することもできます。これには、ユーザーの電話会議プロパティに移動して、[ **電話会議情報をメールで送信**] をクリックします。
+    ユーザーのオーディオ会議のプロパティに移動し、**電子メールを使用して会議情報を送信**] をクリックしてユーザーに、電話会議の設定を使用する電子メールを送信することも。
     
-    この操作を行うと、会議 ID と電話会議の番号のみが含まれるメールが送信されますが、そのメールに PIN は含まれません。
+    電子メールを送信する場合はこれを行うには、会議 ID と電話会議の番号を含むのみですが、暗証番号 (pin) を含めることはできません。
     
-    「[ユーザーにダイヤルイン会議情報が含まれたメールを送信する](send-an-email-to-a-user-with-their-audio-conferencing-information.md)」をご覧ください。
+    [オーディオ会議の情報を持つユーザーに電子メールを送信する](send-an-email-to-a-user-with-their-dial-in-information.md)を参照してください。
     
-## 電話会議ブリッジのプライマリ言語とセカンダリ言語を表示および設定する
+## <a name="see-and-set-the-primary-and-secondary-languages-on-an-audio-conferencing-bridge"></a>参照してくださいし、オーディオ会議ブリッジにプライマリとセカンダリの言語を設定します。
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **Office 365 管理センター**、[ **Skype for Business**] の順に移動します。
+2. **Office 365 管理センター**を参照して > **ビジネス用の Skype**です。
     
-3. **[Skype for Business 管理センター]** の左のナビゲーションで [ **電話会議**] に移動し、[ **Microsoft Bridge**] をクリックします。
+3. **Skype**ビジネス管理センターは、左側のナビゲーションでは、では、**オーディオ会議**に移動し、 **Microsoft ブリッジ**] をクリックします。
     
-4. リストから電話番号を選択し、操作ウィンドウで [ **言語を設定**] をクリックしてから、[ **言語を設定**] ページで [ **第 1 言語**] リストをクリックして、サポートされている言語の完全なリストを表示します。
+4. リストから電話番号を選択して、[操作] ウィンドウで、[**言語の設定**] をクリックし、**言語の設定**] ページで、[使用] をクリックして、サポートされている言語の完全な一覧を表示するのには、**主言語**] ボックスの一覧。
     
-    Microsoft を電話会議プロバイダーとして選ぶときに、サポートされる第 1 言語と第 2 言語を設定することもできます。発信者に対する言語の表示順は、リストで言語を選んだ順序になります。
+    オーディオ会議プロバイダーとして Microsoft を選択した場合にサポートされているプライマリとセカンダリの言語を設定することもできます。 リストで選択した順序は、呼び出し元の言語が表示されます同じ順序です。
     
-「[電話会議の自動案内の言語を設定する](set-auto-attendant-languages-for-audio-conferencing.md)」をご覧ください。
+[オーディオ会議の自動応答の言語設定](set-auto-attendant-languages-for-audio-conferencing.md)を参照してください。
   
-## 「電話会議のダイヤルイン番号」をご覧ください
+## <a name="see-audio-conferencing-dial-in-numbers"></a>電話会議にダイヤルイン番号を参照してください。
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **Office 365 管理センター**、[ **Skype for Business**] の順に移動します。
+2. **Office 365 管理センター**を参照して > **ビジネス用の Skype**です。
     
-3. **[Skype for Business 管理センター]** の左のナビゲーションで、[ **電話会議**]、[ **Microsoft Bridge の設定**] の順に移動します。次のことを実行できます。
+3. **電話会議**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **マイクロソフトのブリッジ**です。 ここでは次のようなことができます。
     
-  - 電話会議で使うために Office 365 によって設定された電話番号を表示する。
+  - 電話会議に使用する Office 365 によって設定されている電話番号を表示します。 
     
-  - 場所を表示したり、電話会議の自動応答で使用する第 1 言語と第 2 言語を表示したりする。
+  - 場所、および音声会議自動アテンダントによって使用されるプライマリとセカンダリ言語を表示します。
     
-  - ユーザーが電話会議で有効になっているときに、ユーザーに渡される既定の電話番号を選択します。ただし、電話会議ブリッジの既定の電話番号が変わっても、既存のユーザーの既定の電話番号は変わりません。
+  - 電話会議が有効になっているときに、ユーザーに指定された既定の電話番号を選択します。 オーディオ会議ブリッジの既定の電話番号が変更された場合は、既存のユーザーの既定の電話番号は変更されません。
     
-[ **電話会議**]、[ **ユーザー**] の順に移動して、ユーザーのプロパティを選び、組織で使用可能な電話番号の一覧から新しい番号を選んで、ユーザー用の既定の電話番号を変更します。
+**オーディオ会議**に移動することができます > **ユーザー**およびユーザーのプロパティを既定値を変更するのには、組織で使用可能な番号の一覧から新しい番号を選択することによってユーザーの番号を選択します。
   
-「[ダイヤルイン会議のダイヤルイン番号のリストを表示する](see-a-list-of-audio-conferencing-numbers.md)」をご覧ください。
+[オーディオ会議の番号の一覧を参照してください](see-a-list-of-audio-conferencing-numbers.md)参照してください。
   
-## 有効になっているユーザーのリストを表示する
+## <a name="see-a-list-of-users-that-are-enabled"></a>有効になっているユーザーの一覧を参照してください。
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **Office 365 管理センター**、[ **Skype for Business**] の順に移動します。
+2. **Office 365 管理センター**を参照して > **ビジネス用の Skype**です。
     
-3. **[Skype for Business 管理センター]**の左のナビゲーションで [ **電話会議**]、[ **ユーザー**] の順に移動します。
+3. **Skype**ビジネス管理センターは、左側のナビゲーションでは、[**電話会議**に移動 > および**ユーザー**です。
     
-「[ダイヤルイン会議用に有効になっているユーザーのリストを表示する](see-a-list-of-users-that-are-enabled-for-audio-conferencing.md)」をご覧ください。
+[電話会議を有効になっているユーザーの一覧を参照してください](see-a-list-of-users-that-are-enabled-for-audio-conferencing.md)参照してください。
   
-## Windows PowerShell で管理する方法
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell で管理する方法
 
-- Windows PowerShell を使用して組織レベルで管理できる複数の設定があります。このため、簡単にこれらの設定をすべてのユーザーに適用できます。組織レベルの設定を以下に示します。
+Windows PowerShell を使用して組織レベルで管理することができますいくつかの設定があります。 これにより、簡単にすべてのユーザー設定を適用します。 
     
-    各コマンドレットに関するその他のヘルプ情報を入手するには、「[Skype for Business Online のコマンドレット](https://go.microsoft.com/fwlink/?LinkId=627324)」をご覧ください。
-    
+各コマンドレットのヘルプを表示する、 [Skype](https://go.microsoft.com/fwlink/?LinkId=627324)を参照してください。
+
+組織レベルの設定を以下に示します。 
 > 
+- **開始/終了の通知を設定します。**_$True_は、既定では。
   ```
-  Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $true|$false
+  Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $true|$false 
   ```
 
-    既定値は  _$true_ です。
-    
-> 
+- **名の記録を設定します。**_$True_は、既定では。
   ```
   Set-CsOnlineDialInConferencingTenantSettings -EnableNameRecording $true|false
   ```
 
-    既定値は  _$true_ です。
-    
-> 
+- **暗証番号 (pin) の長さを設定**デフォルトは 5 です。
   ```
   Set-CsOnlineDialInConferencingTenantSettings -PinLength 7
   ```
 
-    既定値は 5 です。
-    
-> 
+- **のみダイヤルイン会議電話からの設定**既定値の_$false_です。
   ```
   Set-CsOnlineDialInConferencingTenantSettings -AllowPSTNOnlyMeetingsByDefault $true|$false
   ```
 
-    既定値は  _$false_ です。
-    
-> 
+- **ユーザーに電子メールを送信するかどうかを設定**_$True_は、既定では。
   ```
   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
-    既定値は  _$true_ です。
-    
-> 
+- **別のアカウントから電子メールを送信するかどうかを設定**既定では_$false_です。
   ```
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromOverride $true|$false
   ```
 
-    既定値は  _$false_ です。
-    
-> 
+- **ユーザーに送信される電子メールの差出人アドレスの設定**_$Null_を既定値には。 
   ```
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromAddress
   ```
 
-    既定値は  _$null_ です。
-    
-> 
+- **ユーザーに送信される電子メールの表示名を設定します。**_$Null_を既定値には。
   ```
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromDisplayName
   ```
 
-    既定値は  _$null_ です。
+ ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell についてより詳しく知りたいです。   
+- Windows PowerShell は、ユーザーを管理するユーザーを許可または許可されません。 Windows PowerShell を実行する複数のタスクがある場合、日常的な作業を簡素化する管理の単一ポイントを使用して Office 365 を管理できます。 Windows PowerShell を使い始めるには、以下のトピックを参照してください。
     
-- Windows PowerShell の場合、ユーザーの管理と、ユーザーに許可する操作や許可しない操作の管理に使います。Windows PowerShell により、単一の管理ポイントを使って Office 365 を管理でき、複数の作業を実行する必要があるときに日常業務を合理化できます。Windows PowerShell を使い始めるには、次のトピックを参照してください。
-    
-  - [Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Office 365 の PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- 多くのユーザーの設定を同時に変更するときなどは、Office 365 管理センターのみを使用するよりも、Windows PowerShell の方に、速度、わかりやすさ、生産性の点で多くのメリットがあります。次のトピックで、これらの利点を説明します。
+- Windows PowerShell には、実行しようとする設定の変更多くのユーザーを一度に 1 つなど、Office 365 管理センターを使用するだけでスピード、シンプルさと生産性に多くの利点があります。 次のトピックで、これらの利点について学習します。 
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -398,9 +392,9 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
     
     Skype for Business Online 用 Windows PowerShell モジュールでは、リモート Windows PowerShell セッションを作成して Skype for Business Online に接続できます。このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「[Skype for Business Online 用 Windows PowerShell モジュール](https://go.microsoft.com/fwlink/?LinkId=294688)」からダウンロードできます。
     
-## 関連項目
+## <a name="related-topics"></a>関連トピック
 
-#### 
+[ユーザーの電話会議の設定を管理します。](manage-the-audio-conferencing-settings-for-a-user.md)
 
-[Skype for Business および Microsoft Teams の電話会議のセットアップ](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+[Skype for Business および Microsoft Teams の電話会議のセットアップ](set-up-audio-conferencing.md)
 

@@ -1,25 +1,25 @@
 ---
-title: "ユーザー補助機能および規制"
+title: "ユーザー補助機能と規制"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/13/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: bfda8317-12a9-4594-9fb3-c0061a82711e
-description: ""
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Legal
+description: "これは、コンテンツのアクセシビリティ、コンプライアンス要件を満たすために発行する必要がありますフランスのビジネスのオンラインの Skype の規制。 "
+ms.openlocfilehash: 11601ff25468f5aed081b422b0b971adcb24c3aa
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
-
-# ユーザー補助機能および規制
-
-> [!IMPORTANT]
-> この記事は機械翻訳されています。機械翻訳についての「免責事項」をお読みください。 
-  
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **機械翻訳についての免責事項**: この記事の翻訳はコンピューター システムによって行われており、人間の手は加えられていません。マイクロソフトでは、英語を話さないユーザーがマイクロソフトの製品、サービス、テクノロジに関するコンテンツを理解するのに役立てるため、こうした機械翻訳を提供しています。記事は機械翻訳されているため、用語、構文、文法などに誤りがある場合があります。 
-  
-
+# <a name="accessibility-and-regulatory"></a>ユーザー補助機能と規制

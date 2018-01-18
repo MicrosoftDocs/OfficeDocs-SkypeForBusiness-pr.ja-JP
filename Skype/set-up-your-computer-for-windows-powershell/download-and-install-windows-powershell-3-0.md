@@ -3,24 +3,30 @@ title: "Windows PowerShell 3.0 をダウンロードしてインストールし�
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 10/3/2017
-ms.audience: Admin
-ms.topic: get-started-article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: LIL_Placement
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: d739cd71-3c18-42ea-879f-b408bf53b1f4
-
-description: "Download, install, and then use Windows PowerShell 3.0 to create a remote PowerShell session that connects to Skype for Business Online."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- PowerShell
+- LIL_Placement
+description: Download, install, and then use Windows PowerShell 3.0 to create a remote PowerShell session that connects to Skype for Business Online.
+ms.openlocfilehash: cdcabf75bbcdf53a1553f115af8f678d922a694b
+ms.sourcegitcommit: 622dccfbcf2c7a13ac7400dcf9f3900c58ffd37d
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/16/2017
 ---
+# <a name="download-and-install-windows-powershell-30"></a>Windows PowerShell 3.0 をダウンロードしてインストールします。
 
-# Windows PowerShell 3.0 をダウンロードしてインストールします。
-
-> [!IMPORTANT]
-> この記事は機械翻訳されています。機械翻訳についての「免責事項」をお読みください。 
-  
-Windows 8.1、Windows 8、Windows Server 2012 R2、または Windows Server 2012 を使用している場合は、既に Windows PowerShell 3.0 がある必要があります。このため、このアプリケーションはこれらのオペレーティング システムでプリインストールされています。
+[] Windows 8.1、Windows 8、Windows Server 2012 R2、または Windows Server 2012 を使用している場合は、既に Windows PowerShell 3.0 がある必要があります。このため、このアプリケーションはこれらのオペレーティング システムでプリインストールされています。 
   
 Windows 7 または Windows Server 2008 R2 を実行している場合は、Windows PowerShell 3.0 も実行している可能性があります。ただし、バージョン 2.0、すなわちこれらのオペレーティング システムで元から提供されているバージョンを実行している可能性もあります。どのバージョンの Microsoft PowerShell を使用しているかを判別するには、お使いの Windows 7 または Windows Server 2008 R2 コンピューターで次を実行します。
   
@@ -28,19 +34,19 @@ Windows 7 または Windows Server 2008 R2 を実行している場合は、Wind
     
 2. PowerShell コンソールで、次のコマンドを入力してから ENTER を押します。
     
-  ```
-  Get-Host | Select-Object Version
-  ```
+    ```
+   Get-Host | Select-Object Version
+   ```
 
 3. 次のような情報がコンソール ウィンドウに表示されることになります。
     
-  ```
-  Version
--------
-3.0
-  ```
+    ```
+    Version
+    -------
+    3.0
+    ```
 
-返されたバージョン番号が 3.0 の場合は、Windows PowerShell 3.0 を実行しています。返されたバージョン番号が 3.0 でない場合は、Windows PowerShell 3.0 をインストールする必要があります。Windows PowerShell 3.0 を含んでいる Windows Management Framework 3.0 を、[Microsoft ダウンロード センター](https://www.microsoft.com/en-us/download/details.aspx?id=34595)からダウンロードできます。
+    返されたバージョン番号が 3.0 の場合は、Windows PowerShell 3.0 を実行しています。返されたバージョン番号が 3.0 でない場合は、Windows PowerShell 3.0 をインストールする必要があります。Windows PowerShell 3.0 を含んでいる Windows Management Framework 3.0 を、[Microsoft ダウンロード センター](https://www.microsoft.com/en-us/download/details.aspx?id=34595)からダウンロードできます。
   
 Windows PowerShell 3.0 がインストールされていることを検証した後、PowerShell がリモート スクリプトを実行するために構成されていることを確認する必要があります。これを実行するには、PowerShell を管理者として開始する必要があります。Windows 7、Windows Server 2008 R2、Windows Server 2012、または Windows Server 2012 R2 で次を実行します。
   
@@ -57,13 +63,11 @@ Windows 8 を実行している場合は、代わりにこの手順を完了し�
 3. [ **ユーザー アカウント制御**] ダイアログ ボックスが表示される場合、[ **はい**] をクリックして管理者の資格情報の下で PowerShell を実行することを確認します。
     
 PowerShell が実行されている状態になったら、リモート スクリプトの実行を許可するように実行ポリシーを変更する必要があります。PowerShell コンソールで、次のコマンドを入力してから ENTER を押します。
-  
 ```
 Set-ExecutionPolicy RemoteSigned -Force
 ```
-
-> [!NOTE]
->  前述のコマンドを実行すると、次のエラー メッセージを受け取ります。> Set-ExecutionPolicy : レジストリ キー key'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\PowerShell\\1\\ShellIds\\Micrsoft.PowerShell' へのアクセスが拒否されました。 > このエラー メッセージは通常、PowerShell を管理者の資格情報で実行していない場合に発生します。PowerShell のセッションを閉じて、新しいセッションを管理者として開始します。 
+    > [!NOTE]
+    >  When you run the preceding command, you might receive the following error message:> *Set-ExecutionPolicy : Access to the registry key'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\PowerShell\\1\\ShellIds\\Micrsoft.PowerShell' is denied.* This error message typically occurs if you are not running PowerShell under administrator credentials. Close your session of PowerShell, and start a new session as an administrator. 
   
 実行ポリシーが正しく構成されていることを確認するには、PowerShell プロンプトで次を入力してから ENTER を押します。
   
@@ -139,16 +143,9 @@ Auth
     CredSSP = false
 ```
 
-基本認証が True に設定されている場合、PowerShell に接続するために Skype for Business Online を使用できる状態になっています。
+基本認証がある場合は、PowerShell を使用して、Skype のビジネスをオンラインに接続する準備が整ったら、true に設定されています。
   
-||
-|:-----|
-|![LinkedIn ラーニングのショート アイコンです。](../images/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **Office 365 を初めてお使いの場合は**         、LinkedIn ラーニングによって提供された **Office 365 管理者および IT プロフェッショナル**向けの無料のビデオコースをご覧ください。 |
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **機械翻訳についての免責事項**: この記事の翻訳はコンピューター システムによって行われており、人間の手は加えられていません。マイクロソフトでは、英語を話さないユーザーがマイクロソフトの製品、サービス、テクノロジに関するコンテンツを理解するのに役立てるため、こうした機械翻訳を提供しています。記事は機械翻訳されているため、用語、構文、文法などに誤りがある場合があります。 
-  
-
+## <a name="related-topics"></a>関連トピック
+[Windows PowerShell のコンピューターを設定します。](set-up-your-computer-for-windows-powershell.md) 

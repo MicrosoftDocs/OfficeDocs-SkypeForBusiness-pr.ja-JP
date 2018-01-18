@@ -1,76 +1,72 @@
 ---
-title: "電話会議の自動案内の言語を設定する"
+title: "オーディオ会議のための自動応答の言語を設定します。"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: 26d73dda-ab26-4af4-8aec-d17f3479ae50
-description: "See how to select the auto-attendant lanugages for a dial-in conferencing number."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: "オーディオ会議自動アテンダントの言語のオーディオ会議の番号を選択する方法を参照してください。"
+ms.openlocfilehash: 1c6b5acda947b97d7bbfbd5888159b48bf5e95aa
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="set-auto-attendant-languages-for-audio-conferencing"></a>オーディオ会議のための自動応答の言語を設定します。
 
-# 電話会議の自動案内の言語を設定する
-
-> [!IMPORTANT]
-> この記事は機械翻訳されています。機械翻訳についての「免責事項」をお読みください。 
+ビジネスおよびマイクロソフトのチームの Skype のオーディオ会議自動アテンダントを呼びかけますオーディオ呼び出し元のさまざまな言語で会議に参加するとき。
   
-Skype for Business および Microsoft Teams 用の電話会議の自動案内は、ダイヤルインの通話者に対して、会議に参加するときに複数の言語で挨拶メッセージを出すことができます。
-  
-第 1 言語 1 つと、第 2 言語 4 つまで選びます。設定する第 1 言語が最初に使用され、第 2 言語は選択した順に自動応答で使用されます。
+1 つのプライマリ言語を選択し、最大 4 つのセカンダリ言語です。 主言語を設定することが最初に使用してセカンダリの言語が使用する自動応答を選択するようにします。 
   
 > [!NOTE]
-> 言語は、国内のダイヤルイン アクセス電話番号に対してのみ設定できます。 
+>  国内のオーディオのアクセスの電話番号だけでは、言語を構成できます。
   
-## 電話会議の自動応答の言語を設定する
+## <a name="set-the-conferencing-auto-attendant-languages"></a>会議自動アテンダントの言語を設定します。
 
-この手順を実行するには、[Office 365 の管理者ロールについて](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)または[Office 365 の管理者ロールについて](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)としてログインしている必要があります。
+この手順を実行するには、 [Office 365 のグローバル管理者](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)または[ビジネス管理者の Skype](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)をする必要があります。
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **Office 365 管理センター**、[ **Skype for Business**] の順に移動します。
+2. **Office 365 管理センター**を参照して > **ビジネス用の Skype**です。
     
-3. **Skype for Business 管理センター**の左のナビゲーションで、[ **電話会議**] に移動し、[ **Microsoft ブリッジ**] をクリックします。
+3. **Skype**ビジネス管理センターは、左側のナビゲーションでは、では、**オーディオ会議**に移動し、 **Microsoft ブリッジ**] をクリックします。
     
-4. 操作ウィンドウで、リストから電話会議の電話番号を選び、[ **言語を設定**] をクリックします。
+4. 電話会議の電話番号を選択します] ボックスの一覧から、操作ウィンドウで、**言語の設定**] をクリックします。 
     
-5. [ **言語を設定**] ページで、[ **第 1 言語**] の下のボックスの一覧をクリックして、利用可能な全言語のリストを表示します。必要に応じて [ **第 2 言語**] の各ボックスの一覧をクリックして第 2 言語を選びます。
+5. [**言語の設定**] ページで利用可能な言語の完全な一覧を表示するのには、**主言語**] ボックスの一覧をクリックします。 必要がある場合、各セカンダリ言語を選択するのには**第 2 言語**のリストをクリックします。
     
     > [!NOTE]
-    > サポートされる第 1 言語と第 2 言語が表示されます。発信者に対する言語の表示順は、ドロップダウンで言語を選んだ順序になります。 
+    > サポートされているプライマリとセカンダリの言語が一覧表示されます。 選択するために、リスト内の順序は、呼び出し元に表示される言語の順序になります。 
   
 6. [ **保存**] をクリックします。
     
-## その他の情報
+## <a name="want-else-should-i-know"></a>かどうかも確認する必要があります。
 
-- 電話会議でサポートされる言語のリストを確認するには、「[音声会議でサポートされる言語](audio-conferencing-supported-languages.md)」をご覧ください。
+- オーディオ会議については、サポートされている言語の一覧を参照してください、[電話会議がサポートされている言語](audio-conferencing-supported-languages.md)を参照してください。
     
-- 専用電話番号には言語を設定できますが、共有電話番号には設定できません。
+- 専用が、共有の電話番号ではなく、言語を設定できます。
     
-- Microsoft をプロバイダーとして使用する Office 365 での電話会議を利用できる国/地域のリストを確認するには、「[電話会議の電話番号](phone-numbers-for-audio-conferencing.md)」をご覧ください。
+- プロバイダーと Microsoft を使用して Office 365 のオーディオ会議で使用可能な国/地域の一覧については、[電話会議の電話番号](phone-numbers-for-audio-conferencing.md)を参照してください。
     
-## Windows PowerShell を使用する場合
+## <a name="want-to-use-windows-powershell"></a>Windows PowerShell を使用します。
 
-この手順を自動化するには、[Set-CsOnlineDialInConferencingServiceNumber ](https://go.microsoft.com/fwlink/?LinkId=617689) コマンドレットと[Get-CsOnlineDialInConferencingLanguagesSupported ](https://go.microsoft.com/fwlink/?LinkId=617684) コマンドレットを使用できます。
+この手順を自動化するには、[セット CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689)と[Get CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684)コマンドレットを使用できます。
   
-詳細については、「[Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)」をご覧ください。
+詳細については、[共通の Skype のオンライン ビジネスの管理タスクを実行する Windows PowerShell を使用する](https://go.microsoft.com/fwlink/?LinkId=525038)を参照してください。
   
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>関連トピック
 
-> [!NOTE]
-> **機械翻訳についての免責事項**: この記事の翻訳はコンピューター システムによって行われており、人間の手は加えられていません。マイクロソフトでは、英語を話さないユーザーがマイクロソフトの製品、サービス、テクノロジに関するコンテンツを理解するのに役立てるため、こうした機械翻訳を提供しています。記事は機械翻訳されているため、用語、構文、文法などに誤りがある場合があります。 
-  
-## 関連項目
-<a name="MT_Footer"> </a>
-
-#### 
-
-[Skype for Business および Microsoft Teams の電話会議のセットアップ](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+[Skype for Business および Microsoft Teams の電話会議のセットアップ](set-up-audio-conferencing.md)
 

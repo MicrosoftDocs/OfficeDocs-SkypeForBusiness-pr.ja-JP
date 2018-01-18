@@ -2,25 +2,26 @@
 title: "電話システムのボイス メール"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/20/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 92f5a3ac-beec-4af5-bfe9-0cbf3d660298
-description: ""
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: None
+description: "ボイスメールの電話システムについて説明します。"
+ms.openlocfilehash: 093fd419f26d51ccd2b3a712bd97c3eecd6a27d0
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="phone-system-voicemail"></a>電話システムのボイス メール
 
-# 電話システムのボイス メール
-
-> [!IMPORTANT]
-> この記事は機械翻訳されています。機械翻訳についての「免責事項」をお読みください。 
-  
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **機械翻訳についての免責事項**: この記事の翻訳はコンピューター システムによって行われており、人間の手は加えられていません。マイクロソフトでは、英語を話さないユーザーがマイクロソフトの製品、サービス、テクノロジに関するコンテンツを理解するのに役立てるため、こうした機械翻訳を提供しています。記事は機械翻訳されているため、用語、構文、文法などに誤りがある場合があります。 
-  
 

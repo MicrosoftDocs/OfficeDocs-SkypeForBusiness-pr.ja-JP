@@ -1,96 +1,108 @@
 ---
-title: "Office 365 向けの通話プラン"
+title: "Office 365 のプランを呼び出す"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/22/2017
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
+ms.assetid: f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.topic: overview
-f1_keywords:
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords:
 - O365E_E5Voiceplandetails
 - O365M_E5Voiceplandetails
 - O365P_E5Voiceplandetails
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection:
-- Adm_Skype4B_Online
-- Adm_UI_Elements
 ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
-- LIL_Placement
+- Licensing
 - Strat_SB_PSTN
-ms.assetid: f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918
-
-description: "Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. "
+- LIL Placement
+description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
+ms.openlocfilehash: 340090414989be602836f78b7befae84c41e4680
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="calling-plans-for-office-365"></a>Office 365 のプランを呼び出す
 
-# Office 365 向けの通話プラン
-
-他の Skype for Business ユーザーおよび Microsoft Teams ユーザーへの通話は無料ですが、お客様のユーザーが通常の通話を行えるようにする場合に、音声通話を行うためのサービス プロバイダーをまだ設定していないと、通話プランの購入が必要になります。[Office 365 の通話プランについて](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
+ビジネスおよびマイクロソフトのチームのユーザーの他の Skype への呼び出しは、無料ですが、呼び出す計画を購入する必要があります、通常の電話を呼び出すことができることをユーザーが必要な音声呼び出しを行うサービス プロバイダーがない場合は。 [Office 365 の通話プランについて](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
   
-通話プランのオプションを紹介します。
+計画を呼び出すオプションを以下に示します。
   
-- **国内通話プラン**: ライセンスを取得したユーザーは、Office 365 で割り当てられている国/地域にある電話番号に発信することができます。
+- **国内を呼び出す計画**: ライセンスされたユーザーを呼び出す番号の国または地域内にある Office 365 に割り当てられます。
     
-- **国内/国際通話プラン**: ライセンスを取得したユーザーは、ユーザーの所在地に基づいて Office 365 ライセンスがユーザーに割り当てられている国/地域内の電話番号と、[Users can make outbound calls to these countries and regions](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)の国際電話番号に発信することができます。
+- **国内および国際を呼び出す計画**: ライセンスされたユーザーを呼び出す番号の国または地域内にあると[196 の国や地域での国際番号をユーザーの場所に基づいて、ユーザーに、Office 365 のライセンスが割り当てられます](../country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
     
-各組織および国/地域別の毎月の通話分数については、[国と地域の空き時間情報の電話会議とプランの呼び出し](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md)をご覧ください。
+各組織と各地域の利用可能な毎月の分は、[ここで](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
   
 > [!IMPORTANT]
-> 国/地域は、[ **Office 365 管理センター**] の [ **組織プロファイル**] にある請求先住所 **ではなく** 、[ **Office 365 管理センター**] > [ **アクティブなユーザー**] にあるユーザーのライセンスの場所に基づいています。 > ![User's license location](../images/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
+> 国/地域は、 **Office 365 の管理センター**でユーザーのライセンスの場所に基づいて >  **Office 365 の管理センターでは、**組織プロファイル**の下にある請求先住所が記載されている**アクティブなユーザー**では**なく****.   
+![ユーザーのライセンスの場所](../images/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
-使用制限および使用条件の詳細については、「[音声会議無料ダイヤルアウト期間](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)」をご覧ください。
+使用率の制限と使用条件に関する詳細については、[オーディオ会議無料のダイアル アウト期間](../accessibility-and-regulatory/complimentary-dial-out-period.md)を参照してください。
   
-## 通話プランの購入方法
+## <a name="how-to-buy-a-calling-plan"></a>呼び出す計画を購入する方法
 
-1. **最初に、 **電話システム** アドオン ライセンスを購入する必要があります** 。購入するには、[Office 365 管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)し、[ **請求**] > [ **サービスを購入する**] > [ **アドオンのサブスクリプション**] > [ **今すぐ購入**] を選びます。
+1. **まず、**電話システム**のアドオン ライセンスを購入する必要があります**。 [Office 365 の管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)し、**請求先**を選択する > **購買サービス** > **アドオン サブスクリプション** > **今すぐ購入**します。
     
-    ![When you buy your Cloud PBX licenses, you'll see an option to buy a voice calling plan.](../images/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
+    ![クラウド PBX ライセンスを購入するときは、計画を呼び出し、ボイスを購入するためのオプションが表示されます。](../images/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > プランによっては、電話システム ライセンスを購入できるようになる前に追加のアドオンを購入する必要がある場合があります。詳細については、「[追加の機能を入手するために購入する必要があるアドオン ライセンスは何ですか。](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_whichaddons)」をご覧ください。 
+    > 計画によっては、電話システムのライセンスを購入する前に、複数のアドオンを購入する必要があります。 詳細についてを参照してください[より多くの機能を取得するためにはどのアドオン ・ ライセンスが必要ですか?](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_whichaddons)
   
-2. 電話システムのライセンスを購入した後に、[ **Office 365 管理センター**] にサインインし、[ **請求**] > [ **サービスを購入する**] > [ **アドオンのサブスクリプション**] を選んで [ **今すぐ購入**] をクリックして通話プランを購入することができます。これにより、その通話プランが表示されます。
+2. 電話システム用のライセンスを購入した後は、 **Office 365 の管理センター**にサインインして呼び出すことの計画を購入、**請求先**を選択して > **購買サービス** > **アドオンのサブスクリプション**をクリックし、[**今すぐ購入**します。 呼び出す予定が表示されます。
     
-    ![After you buy a Cloud PBX license, you can buy voice calling plans.](../images/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
+    ![クラウド PBX のライセンスを購入した後は、音声の通話プランを購入できます。](../images/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-組織のニーズに応じて、ユーザーごとに異なる通話プランを購入して割り当てることができます。必要な通話プランを選択したら、チェックアウトに進みます。Office 365 管理センターで、プランを各ユーザーに割り当てます。方法については、「[Skype for Business と Microsoft Teams のライセンスを割り当てる](assign-skype-for-business-and-microsoft-teams-licenses.md)」をご覧ください。
+購入し、組織のニーズに応じて、さまざまなユーザーに割り当てる別の呼び出しを計画できます。 選択した後を呼び出すことを計画する必要があります、チェック アウトに進みます。 計画は、Office 365 の管理センター内の各ユーザーに割り当てます。 学習する方法については、[ビジネスおよびマイクロソフトのチームのライセンスを Skype を割り当てる](assign-skype-for-business-and-microsoft-teams-licenses.md)を参照してください。
   
-## ハイブリッド ユーザーに対してオンプレミスの PSTN 接続を提供するサービス プロバイダーを利用していますか。
+## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>ハイブリッド ユーザーに設置した PSTN 接続を提供するサービス プロバイダーを使用していますか。
 
-利用している場合は、通話プランを購入する必要はありません。Office 365 Enterprise E5 には **電話システム** アドオンが含まれているため、そのままチェックアウトに進むことができます。
+その場合は、呼び出す計画を購入する必要はありません。 Office 365 エンタープライズ E5 には、チェック アウトに進むことができますので、**電話システム**のアドオンが含まれています。
   
-次に、Enterprise E5 または **電話システム** アドオン ライセンスを、Office 365 管理センターでユーザーに割り当てます。方法については、「[Skype for Business と Microsoft Teams のライセンスを割り当てる](assign-skype-for-business-and-microsoft-teams-licenses.md)」をご覧ください。
+次に、Office 365 の管理センターでユーザーにエンタープライズ E5 または**電話システム**のアドオン ・ ライセンスを割り当てます。 学習する方法については、[ビジネスおよびマイクロソフトのチームのライセンスを Skype を割り当てる](assign-skype-for-business-and-microsoft-teams-licenses.md)を参照してください。
   
-## 料金情報
+## <a name="pricing-information"></a>価格情報
 
-- [通話プランの料金](https://go.microsoft.com/fwlink/?LinkId=799761)
+- [通話プランの価格設定](https://go.microsoft.com/fwlink/?LinkId=799761)
     
-- [電話システムの料金](https://go.microsoft.com/fwlink/?linkid=799763)
+- [電話システムの価格](https://go.microsoft.com/fwlink/?linkid=799763)
     
-- [電話会議の料金](https://go.microsoft.com/fwlink/?linkid=799762)
+- [オーディオ会議の価格](https://go.microsoft.com/fwlink/?linkid=799762)
     
-## 詳細情報
+## <a name="for-more-information"></a>詳細情報
 
-通話プランの設定方法を説明しているその他の記事は、次のとおりです。
+呼び出すことの計画を設定する方法を説明するその他の資料を以下に示します。
   
-- [通話プランのセットアップ](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
+- [通話プランの設定](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
     
 - [Skype for Business と Microsoft Teams のアドオン ライセンス](skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
-- [Skype for Business Cloud Connector エディション用のプラン](https://technet.microsoft.com/EN-US/library/Mt605227.aspx): この記事では、独自の PSTN 接続を使用して Office 365 電話システムを設定する方法を説明します。
+- [ビジネス クラウド コネクタ ・ エディションの Skype の計画](https://technet.microsoft.com/EN-US/library/Mt605227.aspx): 独自の PSTN への接続で、Office 365 の電話システムを設定する方法について説明します。
     
-- [Office 365 の電話システム (クラウド PBX) ソリューションを計画する](https://go.microsoft.com/fwlink/p/?LinkId=717926)
+- [Office 365 (クラウド PBX) ソリューションの電話システムの計画します。](https://go.microsoft.com/fwlink/p/?LinkId=717926)
     
 ## 
 
-||
-|:-----|
-|![LinkedIn ラーニングのショート アイコンです。](../images/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **Office 365 を初めてお使いの場合は**         、LinkedIn ラーニングによって提供された **Office 365 管理者および IT プロフェッショナル**向けの無料のビデオコースをご覧ください。 |
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
-## 関連トピック
+## <a name="related-topics"></a>関連トピック
 
-[Skype for Business Online のセットアップ](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+- [Skype for Business Online のセットアップ](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+    
+- [Skype for Business および Microsoft Teams の電話会議のセットアップ](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
+    
+- [電話システム ボイスメールのセットアップ - 管理者ヘルプ](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
+    
+- [通話プランの設定](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
+    
+- [資金を追加し、通信のクレジットの管理](add-funds-and-manage-communications-credits.md)
+    
+- [クラウド コネクタを構成して](https://technet.microsoft.com/en-us/library/mt605228.aspx)、[クラウドのコネクタをダウンロード](https://aka.ms/CloudConnectorInstaller)
   
 

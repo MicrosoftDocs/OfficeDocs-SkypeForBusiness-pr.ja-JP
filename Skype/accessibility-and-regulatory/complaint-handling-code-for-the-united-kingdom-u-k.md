@@ -1,21 +1,32 @@
 ---
-title: "Skype for Business PSTN 通話 - 英国向けの苦情処理規約"
+title: "英国 (英国) のコードを処理する苦情"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 9/20/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 6f51ee4a-d939-4ba3-8659-ccf012d069f8
-description: "Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Legal
+description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
+ms.openlocfilehash: eb98b00f7301e29a0a0039f78bd86b4bcfa999c5
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="complaint-handling-code-for-the-united-kingdom-uk"></a>英国 (英国) のコードを処理する苦情
 
-# Skype for Business PSTN 通話 - 英国向けの苦情処理規約
-
-この規約は、英国の通信規制に従い、Skype for Business PSTN 通話サービス (以下、「サービス」という) について、英国 (UK) の小規模事業のお客様 (従業員数が 10 名以下の組織) に適用されます。 その他の Skype for Business サービスは、Microsoft とのサービス規約、および特定のサービスの使用に適用されるその他の規約によって管理されます。
+このコードは、スモール ビジネスのお客様 (企業と社員 10 名以内) で、(英国)、Office 365 のプランを呼び出すサービス (以下「サービス」) 英国通信規制基準を適用します。 ビジネス ・ サービスの他の Skype は、マイクロソフトと特定のサービスの使用に適用される、他の条件、サービスの契約書で規定されています。
   
-## 苦情申し立ての方法
+## <a name="how-to-make-a-complaint"></a>苦情申し立ての方法
 
 Skype for Business では、顧客満足を最優先にしています。 ただし、何らかの理由でご満足いただけない場合は、電話またはオンラインで苦情を申し立てることができます。
   
@@ -23,7 +34,7 @@ Skype for Business では、顧客満足を最優先にしています。 ただ
     
 - オンライン: Office 365 管理センターにサインインし、[ **サポート**] の [ **新しいサービス リクエスト**] を選び、サービス リクエストを送信します。 
     
-## タイムライン
+## <a name="timelines"></a>タイムライン
 
 通常の営業時間内に電話で苦情を申し立てた場合は、通話中の問題解決に努める Skype for Business の担当者と直接お話しいただけます。
   
@@ -33,9 +44,9 @@ Skype for Business の担当者が問題をただちに解決できない場合�
   
 Skype for Business では、サービスに関連するすべての苦情を、受け取ってから 7 営業日以内に解決することを目標としています。 
   
-サービスに関する苦情の管理方法にご満足いただけない場合は、苦情を担当する Skype for Business の担当者に、電話かメールで、サービス規約に従って苦情の上位対応を依頼することができます。 Microsoft では、苦情を受け取ってから 7 日以内に評価します。
+サービスに関する苦情を管理する方法に満足できない場合は、サービス契約に基づく苦情をエスカレートする苦情には、電話または電子メールでの処理業務担当者の Skype を確認することがあります。 マイクロソフトでは、7 (7 日以内受領書の苦情を調査します。
   
-## 代わりの争議解決方法
+## <a name="alternative-dispute-resolution"></a>代わりの争議解決方法
 
 サービスに関する苦情が提出から 8 週間経過しても解決されない場合、または最終決定に達したことを記載した文書を弊社から受け取った場合は、苦情をオンブズマン サービスに持ち込むことができます。このサービスは Ofcom に承認されたサードパーティで、通信サービスに関する苦情を扱います。 また弊社は、文書で、そのような代わりの争議解決サービスを利用できる可能性についてお知らせします。 
   
@@ -45,15 +56,15 @@ Skype for Business では、サービスに関連するすべての苦情を、�
   
 オンブズマン サービスに苦情を持ち込むための手順は、オンブズマン サービスの [Web サイト](http://go.microsoft.com/fwlink/?LinkID=820708&amp;clcid=0x809)に記載されています。
   
-オンブズマン サービスの Web サイトの連絡フォームに記入するか、電話、手紙、メールなどで、オンブズマン サービスに連絡することができます。
+Ombudsman サービスの web サイト上の連絡先フォームに記入して、または電話、レター、または電子メールで Ombudsman のサービスに到達することがあります。
   
-- 連絡フォーム: [https://www.ombudsman-services.org/contact-us-communications.html](https://www.ombudsman-services.org/contact-us-communications.mdl)
+- 連絡先フォーム: [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
     
 - 電話: 0330 440 1614
     
     Fax: 0330 440 1615
     
-     Textphone: 0330 440 1600
+    Textphone: 0330 440 1600
     
 - メール: [osenquiries@os-communications.org](mailto:osenquiries@os-communications.org)
     
@@ -68,3 +79,5 @@ Skype for Business では、サービスに関連するすべての苦情を、�
     WA4 6WU
     
 
+## <a name="related-topics"></a>関連トピック
+[オーディオ会議や予定を呼び出すための国および地域の可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

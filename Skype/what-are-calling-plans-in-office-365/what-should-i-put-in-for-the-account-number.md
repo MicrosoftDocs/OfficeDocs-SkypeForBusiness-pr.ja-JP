@@ -1,35 +1,46 @@
 ---
-title: "アカウント番号に何を入力するべきですか?"
+title: "入れるもの、アカウント番号のでしょうか。"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: get-started-article
-f1_keywords:
-- ms.lync.lac.PortOrderAccountInfoAccountNumber
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 7c477cc4-78e7-4a1f-ac3c-ac63151f9cf7
-description: "See what you should put as an account number into Skype for Business, and where you can find that. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.PortOrderAccountInfoAccountNumber
+ms.custom: Calling Plans
+description: "内容に追加する必要アカウント番号として、ビジネスの Skype と入手できる場所を参照してください。 "
+ms.openlocfilehash: 71a6661292d2af385b5102e8b4549d1ca399966d
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="what-should-i-put-in-for-the-account-number"></a>入れるもの、アカウント番号のでしょうか。
 
-# アカウント番号に何を入力するべきですか?
-
-通常は、アカウント番号はサービス プロバイダーまたは通信事業者の請求書や納品書で、または Web サイトにログオンしてご確認いただけます。 アカウント番号が分からない場合は、サービス プロバイダーまたは通信事業者に問い合わせて取得してください。
+通常、アカウント番号を確認するには、その料金の請求書や、サービス ・ プロバイダーやキャリアがある請求書は、通信事業者の web サイトにログオンできます。 まだわからない場合、アカウント番号、それを取得するには、サービスプロバイダーまたは通信業者に問い合わせることができます。
   
 > [!CAUTION]
->  サービス プロバイダーまたは通信事業者を入力するときにスペース、ダッシュ、ハイフンを使用しないようにしてください。
+>  お客様のサービス プロバイダーまたは運送業者のアカウント番号を入力するときに、スペース、ハイフン、またはハイフンを使用しないことを確認して行うことが重要です。
   
- **具体的な手順については、「[Office 365 への電話番号に転送します。](transfer-phone-numbers-to-office-365.md)」をご覧ください。**
-  
-## 関連項目
+ **完全な手順については、 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)を参照してください。**
 
-#### 
+> [!NOTE]
+> これよりも、他の電話番号を取得する場合は、[ビジネス製品の管理のヘルプのサポートに連絡](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)してください。
+  
+## <a name="related-topics"></a>関連トピック
+[電話番号のよく寄せられる質問を転送します。](transferring-phone-numbers-common-questions.md)
+
+[さまざまな種類の計画を呼び出すための電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
-  
-[音声会議無料ダイヤルアウト期間](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
+
+[Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
+
 

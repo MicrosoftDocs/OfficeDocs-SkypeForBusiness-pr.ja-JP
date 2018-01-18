@@ -1,62 +1,56 @@
 ---
-title: "携帯電話の通知を有効または無効にする"
-ms.author: TONYSMIT
+title: "オンまたはオフ、携帯電話の通知"
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.OrgMobileNotification
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: 2de47013-4f09-493c-abc5-372f56ad69e3
-description: "Learn how to turn mobile phone notirications on or off so your users can receive alerts about incoming, voice mail, and missed instant messages. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: ms.lync.lac.OrgMobileNotification
+ms.custom: Setup
+description: "ユーザーは、着信のボイス メールの通知を受信でき、インスタント メッセージが失われているようにオンまたはオフに携帯電話の通知を有効にする方法を説明します。"
+ms.openlocfilehash: 7345859c265c8f300046a22aaac73e17292d0946
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="turn-on-or-off-mobile-phone-notifications"></a>オンまたはオフ、携帯電話の通知
 
-# 携帯電話の通知を有効または無効にする
-
-> [!IMPORTANT]
-> この記事は機械翻訳されています。機械翻訳についての「免責事項」をお読みください。 
+として、**[ビジネス向けの Office 365 の管理者ロールを割り当て](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)**組織のかどうかビジネス ユーザー向けに、Skype に関する警告が表示インスタント メッセージを受信および失敗した、携帯電話やタブレット上にある場合を選択できます。
   
-組織の **[Office 365 で管理者ロールを割り当てる](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** 、 Skype for Businessユーザーが携帯電話またはタブレット上にあるときに、受信、および不在着信したインスタント メッセージに関する通知を受信するかどうかを選択できます。
+Android であり、Windows の電話、Skype のビジネスの通知をリアルタイムに表示されます。 Windows Phone、iPhone、および iPad デバイスでは、ただし、プッシュ通知は、使用、携帯電話やタブレットで、ビジネスを Skype を使用するアクティブでない場合にアラートを表示します。
   
-Android と Windows Phone の場合、Skype for Business の通知はリアルタイムでポップアップ表示されます。ただし、Windows Phone、iPhone、iPad デバイスの場合は、プッシュ通知を使用して、携帯電話またはタブレットで Skype for Business をアクティブに使用していないときに通知を表示します。
-  
-## 組織内のすべての Windows Phone または Apple デバイスでプッシュ通知を無効にする
+## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a>組織のすべての Windows Phone やアップルのデバイスにプッシュ通知をオフに設定
 <a name="__top"> </a>
 
 1. Office 365 にサインインします。
     
-2. **Office 365 管理センター**に移動 > **Skype for Business**します。
+2. **Office 365 管理センター**を参照して > **ビジネス用の Skype**です。
     
-3. [ **組織**] の [ **全般**] に移動します。
+3. **組織**に > **全般**。 
     
-4. [ **携帯電話の通知**] で、無効にする通知サービスの横にあるチェック ボックスをオフにして、[ **保存**] をクリックします。
+4. [**携帯電話の通知**を通知サービスを無効にすると、横のボックスをオフとし、[**保存**] をクリックします。
     
-次の点に注意してください。
+次の点に注意してください。 
   
-- プッシュ通知を無効にしても、ユーザーがモバイル デバイスで Skype for Business を再度起動すると引き続きすべての通知を受信します。
+- Push 通知をオフにすると、ユーザーを受け取ることすべてのアラートを起動するときビジネスで Skype をもう一度携帯電話のです。
     
-- プッシュ通知は既定で有効に設定されています。各ユーザーは、モバイル デバイスで適切な Skype for Business オプションを選ぶことでプッシュ通知を無効にできます。
+- プッシュ通知は、既定でオンにします。 個々 のユーザーがオフにビジネスのオプション、モバイル デバイス上の適切な Skype を選択することによって。
     
-- プッシュ通知を無効にした場合、ユーザー側で有効に戻すことはできません。
+- プッシュ通知を無効にするとユーザーことはできませんオンに戻す。
     
 > [!IMPORTANT]
-> Microsoft は、Windows Phone、iPhone、iPad のユーザー用のモバイル通知リアルタイムSkype for Businessを提供するのに他の会社を使用します。[Microsoft Skype for Business 製品のプライバシーに関する声明](https://go.microsoft.com/fwlink/p/?linkid=247732)を参照してください。 
+>  マイクロソフトは、Windows Phone、iPhone、iPad のユーザーのビジネスのモバイル通知のリアルタイムの Skype を提供するのに他の会社を使用します。 [ビジネス製品の Microsoft の Skype のプライバシーに関する声明](https://go.microsoft.com/fwlink/p/?linkid=247732)を参照してください。 
   
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **機械翻訳についての免責事項**: この記事の翻訳はコンピューター システムによって行われており、人間の手は加えられていません。マイクロソフトでは、英語を話さないユーザーがマイクロソフトの製品、サービス、テクノロジに関するコンテンツを理解するのに役立てるため、こうした機械翻訳を提供しています。記事は機械翻訳されているため、用語、構文、文法などに誤りがある場合があります。 
-  
-## 関連項目
-<a name="MT_Footer"> </a>
-
-#### 
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 

@@ -2,25 +2,37 @@
 title: "ダイヤル プランについて"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/17/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: 2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b
-description: "Learn what type of dial calling plans (PSTN Calling dial plans) are available with Office 365 and how to choose one for your company.  "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "ダイヤルの通話プラン (PSTN の呼び出しのダイヤル プラン) の種類は、Office 365 を使用し、組織のいずれかを選択する方法について説明します。  "
+ms.openlocfilehash: ad46cf8f6c204f69cf7f1075f79468ddd37f8268
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="what-are-dial-plans"></a>ダイヤル プランについて
 
-# ダイヤル プランについて
-
-ダイヤル プランは、個別のユーザーによってダイヤルされた電話番号を、通話承認と通話ルーティングの目的で別の形式 (通常は E.164) に変換する、正規化ルールの名前付きのセットです。
+[] ダイヤル プランは、個別のユーザーによってダイヤルされた電話番号を、通話承認と通話ルーティングの目的で別の形式 (通常は E.164) に変換する、正規化ルールの名前付きのセットです。
   
 ダイヤル プランは、さまざまな形式で表される電話番号が別の 1 つの形式にどのように変換されるかを定義する 1 つ以上の正規化ルールで構成されます。同じダイヤル文字列が、ダイヤル プランによって異なる形で解釈、変換される可能性があるため、指定されたユーザーに割り当てられているダイヤル プランに応じて、同じダイヤル番号が異なる形で変換、ルーティングされることがあります。
   
 テナントのダイヤル プランを作成および管理する場合は「[ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)」をご覧ください。
   
-## テナント ダイヤル プランのスコープ
+## <a name="tenant-dial-plan-scope"></a>テナント ダイヤル プランのスコープ
 
 ダイヤル プランのスコープによって、ダイヤル プランを適用できる階層レベルが決まります。このスコープは、Skype for Business Server 2015 オンプレミス環境のものとは異なります。クライアントは、ユーザーが Skype for Business Online にログオンした際に自動的に提供されるプロビジョニング設定から、適切なダイヤル プランを入手します。管理者として、リモート PowerShell を使ってダイヤル プラン スコープ レベルの管理と割り当てを行うことができます。
   
@@ -42,7 +54,7 @@ Skype for Business Online でのダイヤル プランの継承モデルは次�
   
 テナントのダイヤル プランを作成する場合は「[ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)」をご覧ください。
   
-## テナント ダイヤル プランの計画
+## <a name="planning-for-tenant-dial-plans"></a>テナント ダイヤル プランの計画
 
 カスタム ダイヤル プランを計画するには、次の手順を実行します。
   
@@ -56,19 +68,19 @@ Skype for Business Online でのダイヤル プランの継承モデルは次�
     
 [FastTrack](https://fasttrack.microsoft.com/microsoft365/capabilities?view=voice) は、さらなるリソースとパートナーで、テナント ダイヤル プランの実装をサポートします。
   
-## テナント ダイヤル プランの新規作成
+## <a name="creating-your-new-tenant-dial-plan"></a>テナント ダイヤル プランの新規作成
 
 ダイヤル プランを新規作成する場合、必要な情報を把握しておく必要があります。
   
-### 名前と簡易名
+### <a name="name-and-simple-name"></a>名前と簡易名
 
 ユーザー ダイヤル プランでは、ダイヤル プランが割り当てられるユーザーを識別する説明的な名前を指定する必要があります。ダイヤル プランの簡易名には、ダイヤル プランの名前から生成された文字列が事前に設定されています。[単純名] フィールドは編集可能で、ダイヤル プラン用のより説明的な名前付け規則を作成することができます。[単純名] の値は空にすることはできず、一意でなければなりません。最適な方法は、組織全体の名前付け規則を作成してから、その規則の一貫性をすべてのサイトとユーザーに使用することです。
   
-### 説明
+### <a name="description"></a>説明
 
 地理的な場所または対応するダイヤル プランが適用されるユーザーのグループに関する一般的で認識可能な名前を入力することをお勧めします。
   
-### 外部アクセス プレフィックス
+### <a name="external-access-prefix"></a>外部アクセス プレフィックス
 
 > [!CAUTION]
 > 外部アクセス プレフィックスは現在サポートされていません。 
@@ -80,17 +92,17 @@ Skype for Business Online でのダイヤル プランの継承モデルは次�
   
 テナントのダイヤル プランを作成する場合は「[ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)」をご覧ください。
   
-## 正規化ルール
+## <a name="normalization-rules"></a>正規化ルール
 
 正規化ルールによって、さまざまな形式で表される電話番号をどのように変換するかが定義されます。ダイヤル元のロケールに応じて、同じ番号文字列が異なる方法で解釈および変換される場合があります。正規化ルールは、ユーザーが省略された内線または外線番号をダイヤルできるようにする必要がある場合に、必須となることがあります。
   
 1 つ以上の正規化ルールをダイヤル プランに割り当てる必要があります。正規化ルールは上から下の順に照合されるため、テナント ダイヤル プランにおける順序が重要になります。たとえば、テナント ダイヤル プランに 10 個の正規化ルールがある場合、ダイヤルされた番号の一致ロジックは 1 番目のルールから試行され、一致がみられない場合は 2 番目、というように順次実行されます。一致がみられた場合、そのルールが使用され、定義済みのそれ以外のルールとの照合は実行されません。指定されたテナント ダイヤル プランには、最大で 25 個の正規化ルールを設定できます。
   
-### 必要な正規化ルールの指定
+### <a name="determining-the-required-normalization-rules"></a>必要な正規化ルールの指定
 
 すべてのテナント ダイヤル プランは指定されたユーザーのサービス国のダイヤル プランと有効に結合されるため、サービス国のダイヤル プランの正規化ルールが、必要となるテナント ダイヤル プランの正規化ルールを特定するために評価される必要があります。この目的で **Get-CsEffectiveTenantDialPlan** コマンドレットを使用できます。コマンドレットは入力パラメータとしてユーザー ID を必要とし、ユーザーに適用可能なすべての正規化ルールを返します。
   
-### 正規化ルールの作成
+### <a name="creating-normalization-rules"></a>正規化ルールの作成
 
 正規化ルールでは、リバース番号検索でダイヤル文字列を E.164 形式に変換するためにサーバーによって使用される番号一致パターンを指定するために, .NET Framework の正規表現が使用されます。正規化ルールは、一致に対する正規表現と、一致が見つかったときに行う変換を指定することで作成できます。作業が完了したら、テスト番号を入力して、正規化ルールが正常に機能することを確認できます。
   
@@ -98,7 +110,7 @@ Skype for Business Online でのダイヤル プランの継承モデルは次�
   
 テナントのダイヤル プランの正規化ルールを作成および管理する場合は「[ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)」をご覧ください。
   
-### 正規化ルールのサンプル
+### <a name="sample-normalization-rules"></a>正規化ルールのサンプル
 
 次の表に, .NET Framework の正規表現として記述される正規化ルールのサンプルを示します。これらのサンプルは例示するためのもので、独自の正規化ルールを作成する際の規定リファレンスとして提示するものではありません。
   
@@ -109,7 +121,7 @@ Skype for Business Online でのダイヤル プランの継承モデルは次�
 |**ルール名** <br/> |**説明** <br/> |**番号パターン** <br/> |**変換** <br/> |**例** <br/> |
 |4digitExtension  <br/> |4 桁の内線番号を変換します。  <br/> |^(\\d{4})$  <br/> |+1425555$1  <br/> |0100 は +14255550100 に変換されます  <br/> |
 |5digitExtension  <br/> |5 桁の内線番号を変換します。  <br/> |^5(\\d{4})$  <br/> |+1425555$1  <br/> |50100 は +14255550100 に変換されます  <br/> |
-|7digitcallingRedmond  <br/> |7 桁の番号をレドモンドの電話番号に変換します。  <br/> |^(\\d{7})$  <br/> |+1425$1  <br/> |5550100 は +14255550100 に変換されます  <br/> |
+|7digitcallingRedmond  <br/> |7 桁の番号をレドモンドの電話番号に変換します。  <br/> |^(\\d{7})$  <br/> |+1425$1  <br/> |5550100 は +14255550100 に変換されます  <br/>|
 |RedmondOperator  <br/> |0 をレドモンドのオペレーター呼び出し番号に変換します。  <br/> |^0$  <br/> |+14255550100  <br/> |0 は +14255550100 に変換されます  <br/> |
 |RedmondSitePrefix  <br/> |オンネット プレフィックス (6) およびレドモンドのサイト コード (222) 付きの番号を変換します。  <br/> |^6222(\\d{4})$  <br/> |+1425555$1  <br/> |62220100 は +14255550100 に変換されます  <br/> |
 |5digitRange  <br/> |3 から 7 を含むその範囲で始まる 5 桁の内線番号を変換します。  <br/> |^([3-7]\\d{4})$  <br/> |+142570$1  <br/> |54567 は +14255554567 に変換されます  <br/> |
@@ -119,20 +131,22 @@ Skype for Business Online でのダイヤル プランの継承モデルは次�
  **上に示す正規化ルールに基づくレドモンドのダイヤル プラン**
   
 次の表に、前の表に示される正規化ルールに基づく、レドモンド、ワシントン、米国のサンプル ダイヤル プランを示します。
-  
-||
-|:-----|
-|**レドモンドのダイヤル プラン** <br/> |
-|5digitExtension  <br/> |
-|7digitcallingRedmond  <br/> |
-|RedmondSitePrefix  <br/> |
-|RedmondOperator  <br/> |
+|:-----| |**レドモンドのダイヤル プラン** <br/> | | 5digitExtension <br/> | | 7digitcallingRedmond <br/> | |RedmondSitePrefix <br/> | |RedmondOperator <br/> |
    
 > [!NOTE]
 > 前の表に示した正規化ルールの名前にはスペースが含まれていませんが、必要に応じて含めることもできます。たとえば、表に最初に示されている名前は、「5 digit extension」と「5-digit Extension」のどちらの形式で記述しても有効になります。 
   
-## 関連トピック
-
+## <a name="related-topics"></a>関連トピック
 [ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)
-  
 
+[Skype for Business と Microsoft Teams のアドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+
+[電話番号のよく寄せられる質問を転送します。](transferring-phone-numbers-common-questions.md)
+
+[さまざまな種類の計画を呼び出すための電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+[組織の電話番号を管理します。](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+
+[緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
+
+[Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
