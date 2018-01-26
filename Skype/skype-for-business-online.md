@@ -1,10 +1,10 @@
 ---
-title: "Skype のビジネスのオンライン管理"
-description: "組織のビジネスのオンラインの Skype を管理する方法について説明します。"
+title: "Skype for Business Online の管理"
+description: "組織のために Skype for Business Online を管理する方法を理解します。"
 services: skype-for-business-online-admin
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.date: 01/22/2018
 layout: LandingPage
 ms.assetid: 
 ms.service: skype-for-business-online-admin
@@ -12,15 +12,15 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-ms.openlocfilehash: c7778d27290cbadc2e6bdbbae7f43442bf2d385d
-ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
-ms.translationtype: MT
+ms.openlocfilehash: 3de4ba1e928dfef92a259738507a94a279e9ca1e
+ms.sourcegitcommit: 3fb8ed855e72a28cd28c94f1414fbe81937d9422
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/15/2017
+ms.lasthandoff: 01/23/2018
 ---
-# <a name="skype-for-business-online-admin"></a>Skype のビジネスのオンライン管理
+# <a name="skype-for-business-online-admin"></a>Skype for Business Online の管理
 
-組織のビジネスのオンラインの Skype を管理する方法について説明します。
+組織のために Skype for Business Online を管理する方法を理解します。
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -34,7 +34,7 @@ ms.lasthandoff: 12/15/2017
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>ビジネス用の Skype を使い始める</h3>
+                        <h3>Skype for Business で作業を開始する</h3>
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@ ms.lasthandoff: 12/15/2017
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>私たちはここを支援するには</h3>
+                        <h3>役立つ情報が提供されます。</h3>
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@ ms.lasthandoff: 12/15/2017
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>ビジネス用の Skype にサインインのヘルプが必要ですか。</h3>
+                        <h3>Skype for Business のサインインのヘルプ</h3>
                     </div>
                 </div>
             </div>
@@ -88,7 +88,7 @@ ms.lasthandoff: 12/15/2017
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Skype for Business Online に関する問題のトラブルシューティング</h3>
+                        <h3>Skype for Business に関する問題をトラブルシューティングする</h3>
                     </div>
                 </div>
             </div>
@@ -125,7 +125,7 @@ ms.lasthandoff: 12/15/2017
                 <div class="card">
                     <div class="cardText">
                         <h3>電話会議</h3>
-                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions">Office 365 での音声会議</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">組織内でのオーディオ会議設定を管理します。</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions">オーディオ会議の一般的な質問</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">オーディオ会議プロバイダーを比較します。</a></p><p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">オーディオ会議は、国/地域で利用可能なかどうかを参照してください。</a></p>
+                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions">Office 365 での電話会議</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">組織の電話会議の設定を管理する</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions">電話会議に関するよくある質問</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">電話会議プロバイダーを比較する</a></p><p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">自分の国や地域で電話会議や PTSN 会議が使用できるかを確認する</a></p>
                     </div>
                 </div>
             </div>
@@ -136,8 +136,8 @@ ms.lasthandoff: 12/15/2017
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>設定します</h3>
-                        <p><a href="/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online">Skype for Business Online のセットアップ</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users">ユーザーが外部の Skype for Business ユーザーに連絡できるようにする</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts">Skype 連絡先を追加、ビジネス ・ ユーザーの Skype を使用します。</a></p>
+                        <h3>セットアップする</h3>
+                        <p><a href="/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online">Skype for Business Online のセットアップ</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users">外部の Skype for Business ユーザーに連絡できるようにする</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts">Skype for Business ユーザーが Skype 連絡先を追加できるようにする</a></p>
                      </div>
                 </div>
             </div>
@@ -149,7 +149,7 @@ ms.lasthandoff: 12/15/2017
                 <div class="card">
                     <div class="cardText">
                         <h3>アドオン ライセンス</h3>
-                        <p><a href="/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing">Skype for Business と Microsoft Teams のアドオン ライセンス</a></p><p><a href="/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits">通信のクレジットを挙げてください。</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing">Skype for Business と Microsoft Teams のアドオン ライセンス</a></p><p><a href="/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits">コミュニケーション クレジットについて</a></p>
                     </div>
                 </div>
             </div>
@@ -161,7 +161,7 @@ ms.lasthandoff: 12/15/2017
                 <div class="card">
                     <div class="cardText">
                         <h3>通話プラン</h3>
-                        <p><a href="/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365">Office 365 の通話プランについて</a></p><p><a href="/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans">通話プランのセットアップ</a></p><p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">呼び出すことを計画するかどうかは、国/地域で利用可能なを参照してください。</a></p>
+                        <p><a href="/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365">Office 365 の通話プランについて</a></p><p><a href="/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans">通話プランのセットアップ</a></p><p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">自分の国や地域で通話プランが使用できるかを確認する</a></p>
                     </div>
                 </div>
             </div>
@@ -173,7 +173,7 @@ ms.lasthandoff: 12/15/2017
                 <div class="card">
                     <div class="cardText">
                         <h3>電話システム</h3>
-                        <p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/what-is-phone-system-in-office-365">Office 365 の電話システムとは何ですか。</a></p><p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system">Office 365 での電話システムで利用できる機能</a></p>
+                        <p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/what-is-phone-system-in-office-365">Office 365 での電話システムについて</a></p><p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system">Office 365 での電話システムで利用できる機能</a></p>
                </div>
                 </div>
             </div>
@@ -184,8 +184,8 @@ ms.lasthandoff: 12/15/2017
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>通話とビデオの品質を向上させる</h3>
-                        <p><a href="https://support.office.com/article/ca302828-783f-425c-bbe2-356348583771">Skype for Business の接続の問題のトラブルシューティング</a></p><p><a href="https://support.office.com/article/62777bc6-c52b-47ae-84ba-a8905c3b71dc">Skype for Business の音声とビデオのトラブルシューティング</a></p><p><a href="https://support.office.com/article/beec23c2-c5d6-4e84-a8af-e82aefca7802">Skype のオンライン ビジネスのパフォーマンスをチューニングします。</a></p>
+                        <h3>通話とビデオの品質を改善する</h3>
+                        <p><a href="https://support.office.com/article/ca302828-783f-425c-bbe2-356348583771">Skype for Business の接続の問題のトラブルシューティング</a></p><p><a href="https://support.office.com/article/62777bc6-c52b-47ae-84ba-a8905c3b71dc">Skype for Business の音声とビデオのトラブルシューティング</a></p><p><a href="https://support.office.com/article/beec23c2-c5d6-4e84-a8af-e82aefca7802">Skype for Business Online のパフォーマンスのチューニング</a></p>
                     </div>
                 </div>
             </div>
