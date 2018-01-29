@@ -7,11 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams で利用できる、Web、デスクトップ (Windows および Mac)、およびモバイル (Android、iOS、Windows Phone) などのさまざまなクライアントを使用する方法について説明します。"
-ms.openlocfilehash: 2f07ba9fc8c7f08adf608c5d3a0708e680967632
-ms.sourcegitcommit: 18b1af39d6d2cd0e7f2d270dcd844e06c9075ae6
+ms.openlocfilehash: c10dde0e2893bc11f1d5a01eed1c30ed37ff30a0
+ms.sourcegitcommit: 6ddf8daf3aa1f43c67cb5a57721cb01a9c409f7b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/18/2018
 ---
 <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 ===========================
@@ -27,20 +27,12 @@ Web ブラウザーで Teams を実行するために必要となるプラグイ
 
 Web クライアントは、[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) への接続時にブラウザー バージョンの検出を実行します。サポートされていないブラウザー バージョンを検出した場合、Web インターフェイスへのアクセスをブロックし、ユーザーによるデスクトップ クライアントまたはモバイル アプリのダウンロードを推奨します。
 
-Microsoft Teams は、次のブラウザーおよびバージョンをサポートしています。
-
--   **Microsoft Edge**: 12 以上
-
--   **Internet Explorer:** 11 以上
-
--   **Chrome**: 51.0 以上
-
--   **Firefox**: 55 以上
-
-
+<a name="internet-browser-support"></a>インターネット ブラウザーのサポート
+------------------------------
+Teams は Internet Explorer 11、Microsoft Edge、Chrome の最新バージョン、および Firefox の最新バージョンなどのインターネット ブラウザーをサポートします。
 
 > [!NOTE]
-> Safari はまだサポートされていませんが、まもなく対応します。
+> Safari は現在はサポートされていません。 Teams の新機能に関するニュースについては、[Teams ロードマップ](http://aka.ms/TeamsRoadmap)を確認してください。 Teams を Safari で開こうとすると、Teams のデスクトップ クライアントのダウンロードに移動します。
 
 <a name="desktop-clients"></a>デスクトップ クライアント
 ------------------------
