@@ -8,14 +8,20 @@ ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams でのゲスト アクセスにより、組織内のチームは組織外の人にチームおよびチャネルへのアクセス権を付与することで、それらの人と共同作業することができるようになります。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 53fac61c9e8c36c572e77fd302f410ce5dce45d0
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.openlocfilehash: 07dbb6faca20fd39fc65c6508489500dda143040
+ms.sourcegitcommit: d62b48ee2c21435555255afe78db6349139b070c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/23/2018
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセス
 ======================================
+
+ゲスト アクセスは Teams での新機能です。 これは、ユーザーからの要望が最も強かった機能の 1 つです。 Microsoft では、継続してこの機能を強化する作業に取り組んでいます。 ゲスト アクセスの機能の開発状況に付いていくための方法と、その機能に関する意見や要望を提出するための方法を、以下に示します。
+- ゲスト アクセスに関して問題がある場合は、「[Microsoft Teams の既知の問題](Known-issues.md)」を確認してください。
+- 今後実装される新機能や更新された機能については、「[Teams のロードマップ](https://aka.ms/teamsroadmap)」で見つけてください。
+- ご要望については、「[Teams UserVoice](https://aka.ms/TeamsUserVoice)」でお知らせください。
+- 下にある [コメント] セクションでお客様ご自身のエクスペリエンスを共有してください。
 
 
 Microsoft Teams でのゲスト アクセスにより、組織内のチームは組織外の人にチームおよびチャネルへのアクセス権を付与することで、それらの人と共同作業することができるようになります。 
@@ -38,7 +44,7 @@ Teams は、Office 365 グループに基づき構築されており、Office 36
  
   
     
-  [ヘルプ、実践的なガイダンス、ツール](support-resources.md)  
+  [Microsoft Teams のサポート リソース](support-resources.md)  
  
   
 

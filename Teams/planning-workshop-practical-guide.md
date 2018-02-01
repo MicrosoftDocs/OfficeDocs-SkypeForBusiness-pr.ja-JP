@@ -1,23 +1,29 @@
 ---
-title: "ワークショップ キット - Microsoft Teams の計画、提供、運用"
+title: "ツールとワークショップ - Microsoft Teams の計画、提供、運用"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 12/15/2017
+ms.date: 01/24/2018
 ms.topic: article
 ms.service: msteams
-description: "管理者による Microsoft Teams の使用の開始をサポートするためのツールおよびワークショップ キットの計画。"
+description: "管理者による Microsoft Teams の使用の開始をサポートするためのツール、ワークショップ、スタートアップ キットの計画。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 0142ced9edd10a64f142e0f8dbb4f92d79593214
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.openlocfilehash: e14c16ddd71114e90af15174266f14bbbbc5982e
+ms.sourcegitcommit: 6f5fc17ffdc1ef3b3eec42e17f7bebda88cb000b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/24/2018
 ---
-<a name="workshop-kit-plan-deliver-and-operate-microsoft-teams"></a>ワークショップ キット: Microsoft Teams の計画、提供、運用
+<a name="tools-and-workshops-plan-deliver-and-operate-microsoft-teams"></a>ツールとワークショップ: Microsoft Teams の計画、提供、運用
 =============================================================
 
 組織で Teams を計画、提供、運用するための手順を記載した以下のツールをダウンロードしてください。
+
+- [Microsoft Teams スタートアップ キット](http://microsoft.com/en-us/download/56505) 
+    
+    このガイドでは、マーケティング、営業、財務、人事、IT、エンジニアリング、プロジェクト管理などの組織のさまざまな機能において、Teams を最大限に活用するためのヒントを見つけることができます。
+
+
 
 - [クイック スタート ガイド: Teams の正常な有効化](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)
     

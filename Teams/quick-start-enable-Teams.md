@@ -3,16 +3,16 @@ title: "クイック スタート: Microsoft Teams の計画ガイド"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 12/15/2017
+ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
 description: "このガイドは、所属する組織で使用する Microsoft Teams を計画、実装、導入するための手順を説明します。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: dad9788c15c958876dc9a3b4adf637f88fe53b0a
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.openlocfilehash: 0dc620789a0ca2bf904c3a5795d01aabb755109a
+ms.sourcegitcommit: 3fb8ed855e72a28cd28c94f1414fbe81937d9422
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/23/2018
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>クイック スタート: Microsoft Teams の計画ガイド
 ==========================================================
@@ -73,10 +73,10 @@ Teams を展開しているときに、モバイル エクスペリエンスを�
 
 ソフトウェアを展開すること以外にも、組織での変更を促進するために必要なことがあります。 コラボレーションを確かなものにするには、技術よりも人の問題に対処することになります。 Office 365 と Teams を正常に導入するためには、継続して従業員のエクスペリエンスを重視する必要があります。 ここでは、開始するにあたってのベスト プラクティスの簡易チェックリストを示しています。 Microsoft のパートナーからも、組織のために適正な導入計画を作成するための支援を受けることができます。
 
-1. **ベスト プラクティスについて、「[Office 365 Adoption Guidance](https://microsoft.sharepoint.com/:b:/t/ToolkitforTeamwork/ETCwPQo47a1IveJmot1vvb4BywRpFjqfRPrtjPtgF_i_hg?e=bfc85a9e74cd4cac8163286b6ef5ae74)**」を読みます。  「[Microsoft Teams の変更管理戦略を作成する](change-management-strategy.md)」の記事を参考にして、お客様自身のアプローチを文書化します。
+1. **ベスト プラクティスについて、「[Office 365 Adoption Guidance]( https://aka.ms/office365adoptionguide)**」を読みます。 「[Microsoft Teams の変更管理戦略を作成する](change-management-strategy.md)」の記事を参考にして、お客様自身のアプローチを文書化します。
 1. **「[Office 365 アクティビティ レポート](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)**」を詳しく調べて、現在の環境全体にわたる使用状況を把握します。 お客様が会社における Office 365 管理者ではない場合は、管理者に問い合わせて、アクティビティ レポートにアクセスできるように、レポートを読むためのアクセス許可を付与してもらいます。
 2. Office 365 および Teams についてのエクスペリエンスに関して、**従業員からのフィードバックを取得します**。 組織のユーザーが 2500 人より少ない場合は、Teams の公開チャネルを使用します。 組織の規模が Teams での現在のメンバーシップ制限を超えている場合は、Yammer のパブリック グループを使用します。 
-3. **「[Your Digital Day](https://microsoft.sharepoint.com/teams/ToolkitforTeamwork/SitePages/A%20Day%20in%20the%20Digital%20Life.aspx)」の資料を使用して共通の機能の使用を促進します**。このためには、ユーザーをそのエクスペリエンスに引き込むために、チャット、@メンション、およびクラウド ストレージ (Teams を介した OneDrive と SharePoint Online) の使用を推進することになります。 このスプレッドシートをメール送信で広めることは止めてください。 
+
 4. **チャンピオンを育成し、成功したことについて強調します。** 従業員に対して、新しいツールを抱えながらそれらを会社のビジネス成果に結びつく革新的な方法で使用していることについて報奨を与えます。 そうすることで、より着実に Office 365 と Teams の継続的な導入が確実になります。
 
 

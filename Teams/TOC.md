@@ -20,7 +20,7 @@
 ## [Teams でチームを作成するときの Office 365 グループの計画](plan-Office-365-groups.md)
 ## [Teams 用に組織のネットワークを準備する](prepare-network.md)
 ## [Office 365 の URL と IP アドレスの範囲](Office-365-URLs-IP-address-ranges.md)
-## [ワークショップ キット: Teams の計画、提供、運用](planning-workshop-practical-guide.md)
+## [ツールとワークショップ: Teams の計画、提供、運用](planning-workshop-practical-guide.md)
 
 # 導入
 ## [Teams の変更管理戦略を作成する](change-management-strategy.md)
