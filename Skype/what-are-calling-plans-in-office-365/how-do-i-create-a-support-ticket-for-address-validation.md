@@ -1,106 +1,108 @@
 ---
-title: "アドレスの検証のサポート チケットを作成する方法は?"
+title: "住所検証のためのサポート チケットを作成する方法を教えてください。"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, roykuntz, jastark
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 6e7c4964-b7b4-4f87-af00-220a2cd5a1c2
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: ms.lync.lac.CivicAddressValidationOpenSupportTicket
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
-description: "アドレスの検証は、Office 365 のプランを呼び出すことのセットアップの重要な部分です。 緊急対応サービスで使用できる緊急時の呼び出し元アドレス、組織内のユーザーを提供します。"
-ms.openlocfilehash: e1f4cfe276f50b80f66a1d20d5c38a18b15b2071
-ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
-ms.translationtype: MT
+description: "住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。"
+ms.openlocfilehash: 3d6ab2d8b21b3ea2a85b3d7a2379cd5589cb392c
+ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/15/2017
+ms.lasthandoff: 01/25/2018
 ---
-# <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>アドレスの検証のサポート チケットを作成する方法は?
+# <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>住所検証のためのサポート チケットを作成する方法を教えてください。
 
-アドレスの検証は、Office 365 のプランを呼び出すことのセットアップの重要な部分です。 緊急対応サービスで使用できる緊急時の呼び出し元アドレス、組織内のユーザーを提供します。 この操作方法は、組織のサイズに基づいています。
+住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。 これをどのように行うかは、所属する組織のサイズに基づきます。
 
 > [!NOTE]
-> これよりも、他の電話番号を取得する場合は、[ビジネス製品の管理のヘルプのサポートに連絡](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)してください。
+> さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。
 
 
-## <a name="for-organizations-150-or-less-follow-these-steps"></a>組織 150 以内にこれらの手順に従ってください。
-1. **Office 365 管理センター**の**ヘルプが必要な**を選択しますか。
-2. **ヘルプが必要ですか?**ウィンドウで、必要なもので、ヘルプをクリックし**ヘルプを表示する**お知らせします。
-3. 結果**ビューのソリューション ・**セクションでは助けには場合、は、次のいずれかを選択します。
-    - **お知らせする (推奨) を呼び出す**: お客様の連絡先の番号を確認し、**電話**をキーを押します。 バックの呼び出しに必要な待機時間に表示されます、**のヘルプが必要ですか?**ウィンドウです。
-    - **メールによるお問い合わせ**: 電子メール アドレスを確認し、**送信**を選択します。 呼び出しの応答時間が示されている、**のヘルプが必要ですか?**ウィンドウ。
+## <a name="for-organizations-150-or-less-follow-these-steps"></a>150 ユーザー以下の組織の場合は、次の手順を実行します。
+1. [**Office 365 管理センター**] で、[**ヘルプが必要ですか?**] を選択します。
+2. [**ヘルプが必要ですか?**] ペインで、どのようなヘルプが必要かを伝えて、[**問い合わせ**] を選択します。
+3. [**解決策を表示**] セクションの結果が役に立たない場合は、次のいずれかを選択します。
+    - [**電話連絡を許可 (推奨)**]: 連絡先番号を確認して、[**折り返し連絡**] を押します。 折り返し連絡されるまでの待ち時間の予測が [**ヘルプが必要ですか?**] ペインに示されます。
+    - [**電子メールを送信**]: メールアドレスを確認して、[**送信**] を選択します。 通話の応答時間が [**ヘルプが必要ですか?**] ペインに示されます。
 
-## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>150 件を超えるユーザーを持つ組織は、緊急時のアドレスを検証するサービス リクエストを作成します。
+## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>150 ユーザーを超える組織では、緊急住所の検証をするためにサービス リクエストを作成します。
 
 1. 職場または学校のアカウントを使用して、Office 365 に管理者としてサインインします。
     
-2. Office 365 管理センターで、左のメニューの [**サポート**] をクリックします > **新しいサービス ・ リクエスト**します。
+2. Office 365 管理センターの左側のナビゲーションで、[**サポート**] > [**新しいサービス リクエスト**] をクリックします。
     
-3. [**サービス要求**を [**追加**を] をクリックします。
+3. [**サービス リクエスト**] で、[**追加**] をクリックします。
     
-4. [ **お問い合わせの作成**] ページで、[ **オンライン グループ作業**] をクリックします。
+4. [**サービス リクエストの作成**] ページで、[**オンライン グループ作業**] をクリックします。
     
-5. **問題の識別**] ページで選択し、次のように入力してください。
+5. [**問題の特定**] ページで、次の項目を選んで、必要事項を入力します。
     
-  - **機能:****国内計画を呼び出し**、**国内および海外のプラン**を選択します。
+  - **機能:** **国内通話プラン**および/または**国内および国際通話プラン**を選択します。
     
-  - **現象:****緊急の呼び出し**を入力します。
+  - **現象:** **緊急通話**と入力します。
     
-  - **問題の概要:****アドレスの検証**を入力します。
+  - **案件の概要:** **住所検証**と入力します。
     
-  - **の詳細を発行する:**次のように検証する address(s) の詳細を入力します。
-    
-      - 番地
+  - **案件詳細:** 検証する必要がある住所について、次のような詳細情報を入力します。
     
       - 番地
     
-      - 市区町村名
+      - 町名
+    
+      - 市区町村
     
       - 国または地域
     
     > [!IMPORTANT]
-    > **電話番号を割り当てているときに緊急のアドレスを検証しようとしている Office 365 のプランを呼び出すことを提供している国または地域を配置します。**
+    > **電話番号を割り当てるときに検証しようとしている緊急住所がある、Office 365 の通話プランが提供されている国/地域を入力します。**
   
-      - 郵便番号または zip コード
+      - 郵便番号
     
-6. [ **次へ**] ページをクリックし、[ **はい、処理を続行します**] をクリックして続行します。
+6. [**次へ**] ページをクリックし、[**はい、処理を続行します**] をクリックして続行します。
     
-7. [ **詳細項目の追加**] ページで、 次の項目を選択して、必要事項を入力します。
+7. [**詳細の追加**] ページで、次の項目を選んで、必要事項を入力します。
     
-  - **サービスではない、利用可能ですか。** **いいえ**を選択します。
+  - [**サービスが利用できませんか?**]:  [**いいえ**] を選択します。
     
-  - **何人のユーザーが影響を受けるでしょうか。** **一部のユーザー**を選択します。
+  - [**影響を受けているユーザーの数**]:  [**一部のユーザー**] を選択します。
     
-  - **この問題によって影響を受けるユーザーの電子メール アドレス**または空白のままにします。
+  - [**この問題の影響を受けるユーザーのメール アドレスの入力**] を入力するか、空白のままにします。
     
-  - **一覧表示ドメインを選択します。**
+  - [**一覧表示するドメインを選択する**]
     
-  - **添付ファイル**を検証する必要がある複数アドレスがある場合。
+  - 複数の住所を検証する必要がある場合は、**ファイルを添付します**。
     
-  - [ **次へ**] をクリックします。
+  - [**次へ**] をクリックします。
     
-  - 連絡先電話番号を入力します。
+  - 連絡先の電話番号を入力します。
     
-8. 情報を確認し、**要求の送信**] をクリックします。
+8. 情報を確認して、[**リクエストの送信**] をクリックします。
     
 > [!TIP]
-> Office 365 管理センターの [ **お問い合わせ**] ページに、参照番号が表示されます。
+> Office 365 管理センターの [**サービス リクエスト**] ページに、参照番号が表示されます。
   
 ## <a name="related-topics"></a>関連トピック
-[電話番号のよく寄せられる質問を転送します。](transferring-phone-numbers-common-questions.md)
+[電話番号の移行に関するよくある質問](transferring-phone-numbers-common-questions.md)
 
-[さまざまな種類の計画を呼び出すための電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[通話プランで使用されるさまざまな種類の電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[組織の電話番号を管理します。](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[組織のために電話番号を管理する](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
 

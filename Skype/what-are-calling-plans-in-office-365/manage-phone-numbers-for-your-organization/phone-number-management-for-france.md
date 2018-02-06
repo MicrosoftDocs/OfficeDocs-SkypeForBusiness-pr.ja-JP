@@ -1,44 +1,48 @@
 ---
-title: "フランスの電話番号の管理"
+title: "フランスでの電話番号の管理"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, roykuntz, jastark
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 8de49037-905c-4757-a6e7-cf212173e7f3
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
 f1keywords: None
-ms.custom: Calling Plans
-description: "取得すると、Skype のフランスの電話番号を管理する、オンライン ビジネスの情報を検索するのにには、次の表を使用します。"
-ms.openlocfilehash: 959a9b19060d5a72b6d2c95dadbce9464406d3ac
-ms.sourcegitcommit: b7f7ff1f88cd71ba289c20e745d0642ce5f11809
-ms.translationtype: MT
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "この表で、フランスでの Skype for Business Online の電話番号の取得および管理についての情報を確認できます。"
+ms.openlocfilehash: 8b29aacd584c31634546c9166fbf78e779a040b0
+ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 ---
-# <a name="phone-number-management-for-france"></a>フランスの電話番号の管理
+# <a name="phone-number-management-for-france"></a>フランスでの電話番号の管理
 
-取得すると、Skype のフランスの電話番号を管理する、オンライン ビジネスの情報を検索するのにには、次の表を使用します。 
+この表で、フランスでの Skype for Business Online の電話番号の取得および管理についての情報を確認できます。 
   
-詳細については、[組織の電話番号の管理](manage-phone-numbers-for-your-organization.md)を参照してください。
+詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   
-|**何かの操作を行います?**|**正しいフォームをダウンロードし、お知らせ**|
+|**実行する操作**|**正しいフォームをダウンロードして、マイクロソフトに送信する**|
 |:-----|:-----|
-|ビジネス管理センターは、Skype で登録されていないユーザーの番号を取得する必要があります。  <br/> | このフォームをダウンロードします。 <br/> [フランス (地理的な番号) の電話番号の新しい要求 (v.3.0)(fr.fr)](../../downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.3.0)-(fr.fr).pdf)。 <br/>  [弊社に送信](mailto:ptneu@microsoft.com)して入力します。  <br/> |
-|私たちに転送する電話番号を取得する必要があります。  <br/> |これらのフォームのいずれかをダウンロードします。 <br/> [文字の承認 (ロード) フランス (フリー ダイヤル番号) の (v.2.0)(fr.fr)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.2.0)-(fr.fr).pdf) <br/> [文字の承認 (山) (地理的な番号) をフランスの (v.2.0)(fr-fr)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.2.0)-(fr.fr).pdf) <br/>  [弊社に送信](mailto:ptneu@microsoft.com)して入力します。  <br/> |
-|全国の電話帳の電話番号を公開非公開にする必要があります。  <br/> |[ご](mailto:ptneu@microsoft.com)公開非公開にする電話番号の一覧です。 <br/> |
-|サービス番号にユーザーの数を変更する必要があります。  <br/> |[お送り](mailto:ptneu@microsoft.com )サービス番号に変換するユーザーの番号の一覧です。 <br/> |
+|Skype for Business 管理センターのリストに表示されていないユーザーの電話番号を取得する必要があります。  <br/> | このフォーム <br/> 「[フランスでの新しい電話番号の申請 (地域番号) (v.3.0)(fr.fr)](../../downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.3.0)-(fr.fr).pdf)」をダウンロードします。 <br/>  記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。  <br/> |
+|電話番号をマイクロソフトに移行させる必要があります。  <br/> |次のフォームのいずれかをダウンロードします。 <br/> [フランス (フリーダイヤル番号) 用の承認状 (LOA) (v.2.0)(fr.fr)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.2.0)-(fr.fr).pdf) <br/> [フランス (地域番号) 用の承認状 (LOA) (v.2.0)(fr-fr)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.2.0)-(fr.fr).pdf) <br/>  記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。  <br/> |
+|国内の電話帳で電話番号を公開/非公開にする必要があります。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
+|ユーザーの番号をサービス番号に変更することができます。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com )します。 <br/> |
 
 ## <a name="related-topics"></a>関連トピック
-[さまざまな種類の計画を呼び出すための電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[組織の電話番号を管理します。](manage-phone-numbers-for-your-organization.md)
+[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)
 
 [緊急通話の利用条件](../emergency-calling-terms-and-conditions.md)
 

@@ -1,65 +1,69 @@
 ---
-title: "ボイス メール応答メッセージとメッセージの言語"
+title: "ボイスメールの応答メッセージとメッセージで使用する言語"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: wasseemh
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 4a57e3d0-8b08-494f-a195-b44afa9cbc0d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
 f1keywords: None
-ms.custom: Phone System
-description: "言語を既定のシステム メッセージのビジネス用の Skype で設定できますがについて説明します。 "
-ms.openlocfilehash: eec5a3d7ea647d0b88a0244c11a682def5c80547
-ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
-ms.translationtype: MT
+ms.custom:
+- Phone System
+- Strat_SB_PSTN
+description: "Skype for Business の既定のシステム メッセージにどの言語を設定できるかを理解します。 "
+ms.openlocfilehash: 256bc49c67ffbbfc4a503ffaf621cd4bb82b0c07
+ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/15/2017
+ms.lasthandoff: 01/25/2018
 ---
-# <a name="languages-for-voicemail-greetings-and-messages"></a>ボイス メール応答メッセージとメッセージの言語
+# <a name="languages-for-voicemail-greetings-and-messages"></a>ボイスメールの応答メッセージとメッセージで使用する言語
 
-あいさつ文の次の表に記載されている言語のいずれかでそのシステムのボイス メールを再生するのにはビジネス用の Skype を設定することができます。
+この表に含まれている言語の 1 つでシステムのボイスメール応答メッセージを再生するように Skype for Business をセットアップすることができます。
   
-システムのボイス メール応答メッセージのビジネス用の Skype を使用する言語を変更するには、[ボイス メール応答メッセージと、組織内の電子メールの既定の言語を変更する](change-the-default-language-for-greetings-and-emails.md)を参照してください。
+Skype for Business がシステムの応答メッセージで使用する言語を変更するには、「[組織でボイスメールの応答メッセージと電子メールに使用する既定の言語を変更する](change-the-default-language-for-greetings-and-emails.md)」をご覧ください。
   
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**言語** <br/> |**国/地域** <br/> |**言語コード** <br/> |**電子メールに表示するのにはユーザーの利用可能ですか。** <br/> |**ユーザーを呼び出すときに使用できるでしょうか。** <br/> |**議事録が利用可能ですか。** <br/> |
-|カタロニア語  <br/> |カタロニア語  <br/> |ca ES  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
-|中国語 (簡体字)  <br/> |中国  <br/> |zh hans  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
-|中国語 (香港)  <br/> |中国  <br/> |zh-(香港)  <br/> |はい、中国語 (繁体) (それ) を使用します。  <br/> | はい <br/> |はい、中国語 (繁体) (それ) を使用します。  <br/> |
-|中国語 (繁体)  <br/> |台湾  <br/> |それ  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
-|デンマーク語  <br/> |デンマーク  <br/> |da DK  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
-|オランダ語  <br/> |オランダ  <br/> |nl NL  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
-|英語  <br/> |オーストラリア  <br/> |en AU  <br/> |[はい] ですが、米国英語 (EN-US) が使用されます。  <br/> |はい  <br/> |[はい] ですが、米国英語 (EN-US) が使用されます。  <br/> |
-|英語  <br/> |カナダ  <br/> |en CA  <br/> |[はい] ですが、米国英語 (EN-US) が使用されます。  <br/> |はい  <br/> |[はい] ですが、米国英語 (EN-US) が使用されます。  <br/> |
-|英語  <br/> |インド  <br/> |半角で  <br/> |[はい] ですが、米国英語 (EN-US) が使用されます。  <br/> |はい  <br/> |[はい] ですが、米国英語 (EN-US) が使用されます。  <br/> |
-|英語  <br/> |イギリス  <br/> |en GB  <br/> |[はい] ですが、米国英語 (EN-US) が使用されます。  <br/> |はい  <br/> |[はい] ですが、米国英語 (EN-US) が使用されます。  <br/> |
-|英語  <br/> |米国  <br/> |en-us (英語)  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
-|フィンランド語  <br/> |フィンランド  <br/> |fi、Fl  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
-|フランス語  <br/> |カナダ  <br/> |fr CA  <br/> |[はい] ですが、フランスのフランス語 (FR-FR) が使用されます。  <br/> |はい  <br/> |[はい] ですが、フランスのフランス語 (FR-FR) が使用されます。  <br/> |
-|フランス語  <br/> |フランス  <br/> |FR  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
-|ドイツ語  <br/> |ドイツ  <br/> |de DE  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
-|イタリア語  <br/> |イタリア  <br/> |it IT  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
-|日本語  <br/> |日本  <br/> |日本語  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
-|韓国語  <br/> |韓国語  <br/> |KO-KR  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
-|ノルウェー語 (ブークモール)  <br/> |ノルウェー  <br/> |nb なし  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
-|ポーランド語  <br/> |ポーランド  <br/> |pl PL  <br/> |はい  <br/> | はい <br/> |いいえ  <br/> |
-|ポルトガル語  <br/> |ブラジル  <br/> |pt BR  <br/> |[はい] ですが、ポルトガルのポルトガル語 (pt PT) が使用されます。  <br/> |はい  <br/> |はい  <br/> |
-|ポルトガル語  <br/> |ポルトガル  <br/> |pt PT  <br/> |はい  <br/> |はい  <br/> |[はい] ですが、ブラジルのポルトガル語 (PT-BR) が使用されます。  <br/> |
-|ロシア語  <br/> |ロシア  <br/> |ru RU  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
-|スペイン語  <br/> |スペイン  <br/> |es ES  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
-|スペイン語  <br/> |メキシコ  <br/> |es MX  <br/> |[はい] ですが、スペインのスペイン語 (ES-ES) が使用されます。  <br/> |はい  <br/> |[はい] ですが、スペインのスペイン語 (ES-ES) が使用されます。  <br/> |
-|スウェーデン語  <br/> |スウェーデン  <br/> |sv SE  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
+|**言語** <br/> |**国/地域** <br/> |**言語コード** <br/> |**ユーザーはメールで確認するために利用できますか?** <br/> |**ユーザーが通話で入るときに利用できますか?** <br/> |**トランスクリプションはありますか?** <br/> |
+|カタルニア語  <br/> |カタルニア語  <br/> |ca-ES  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
+|中国語 (簡体)  <br/> |中国  <br/> |zh-hans  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
+|中国語 (香港)  <br/> |中国  <br/> |zh-hk  <br/> |はい、ただし中国語 (繁体) (zh-hant) が使用されます。  <br/> | はい <br/> |はい、ただし中国語 (繁体) (zh-hant) が使用されます。  <br/> |
+|中国語 (繁体)  <br/> |台湾  <br/> |zh-hant  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
+|デンマーク語  <br/> |デンマーク  <br/> |da-DK  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
+|オランダ語  <br/> |オランダ  <br/> |nl-NL  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
+|英語  <br/> |オーストラリア  <br/> |en-AU  <br/> |はい、ただしアメリカ英語 (en-US) が使用されます。  <br/> |はい  <br/> |はい、ただしアメリカ英語 (en-US) が使用されます。  <br/> |
+|英語  <br/> |カナダ  <br/> |en-CA  <br/> |はい、ただしアメリカ英語 (en-US) が使用されます。  <br/> |はい  <br/> |はい、ただしアメリカ英語 (en-US) が使用されます。  <br/> |
+|英語  <br/> |インド  <br/> |en-IN  <br/> |はい、ただしアメリカ英語 (en-US) が使用されます。  <br/> |はい  <br/> |はい、ただしアメリカ英語 (en-US) が使用されます。  <br/> |
+|英語  <br/> |英国  <br/> |en-GB  <br/> |はい、ただしアメリカ英語 (en-US) が使用されます。  <br/> |はい  <br/> |はい、ただしアメリカ英語 (en-US) が使用されます。  <br/> |
+|英語  <br/> |米国  <br/> |en-US  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
+|フィンランド語  <br/> |フィンランド  <br/> |fi-Fl  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
+|フランス語  <br/> |カナダ  <br/> |fr-CA  <br/> |はい、ただし、フランスのフランス語 (fr-FR) が使用されます。  <br/> |はい  <br/> |はい、ただし、フランスのフランス語 (fr-FR) が使用されます。  <br/> |
+|フランス語  <br/> |フランス  <br/> |fr-FR  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
+|ドイツ語  <br/> |ドイツ  <br/> |de-DE  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
+|イタリア語  <br/> |イタリア  <br/> |it-IT  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
+|日本語  <br/> |日本  <br/> |ja-JP  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
+|韓国語  <br/> |韓国語  <br/> |ko-KR  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
+|ノルウェー語 (ブークモール)  <br/> |ノルウェー  <br/> |nb-NO  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
+|ポーランド語  <br/> |ポーランド  <br/> |pl-PL  <br/> |はい  <br/> | はい <br/> |いいえ  <br/> |
+|ポルトガル語  <br/> |ブラジル  <br/> |pt-BR  <br/> |はい、ただしポルトガルのポルトガル語 (pt-PT) が使用されます。  <br/> |はい  <br/> |はい  <br/> |
+|ポルトガル語  <br/> |ポルトガル  <br/> |pt-PT  <br/> |はい  <br/> |はい  <br/> |はい、ただしブラジルのポルトガル語 (pt-BR) が使用されます。  <br/> |
+|ロシア語  <br/> |ロシア  <br/> |ru-RU  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
+|スペイン語  <br/> |スペイン  <br/> |es-ES  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
+|スペイン語  <br/> |メキシコ  <br/> |es-MX  <br/> |はい、ただしスペインのスペイン語 (es-ES) が使用されます。  <br/> |はい  <br/> |はい、ただしスペインのスペイン語 (es-ES) が使用されます。  <br/> |
+|スウェーデン語  <br/> |スウェーデン  <br/> |sv-SE  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
    
 ## <a name="related-topics"></a>関連トピック
-[オーディオ会議や予定を呼び出すための国および地域の可用性](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[国および地域ごとの電話会議および通話プランの利用可能性](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [Office 365 での電話システムで利用できる機能](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
   

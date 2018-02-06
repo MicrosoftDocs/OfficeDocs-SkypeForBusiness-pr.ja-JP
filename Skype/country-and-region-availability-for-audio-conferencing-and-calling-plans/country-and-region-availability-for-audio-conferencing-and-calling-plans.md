@@ -3,32 +3,38 @@ title: "国および地域ごとの電話会議および通話プランの利用
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
-ms.date: 01/22/2018
+ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
+ms.date: 01/24/2018
 ms.topic: article
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
+- Strat_SB_PSTN
 - LIL_Placement
 description: "国/地域を選択して、電話会議、電話システム、通話プラン、コミュニケーション クレジット、および有料電話番号と無料電話番号を利用できるかどうかを確認できます。"
-ms.openlocfilehash: c1d378a37850d8fdb9fb8d4cda68cedb929ba204
-ms.sourcegitcommit: 3fb8ed855e72a28cd28c94f1414fbe81937d9422
+ms.openlocfilehash: 2024b5df01cd1cfa787883fa3b2337500b2dea61
+ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>国および地域ごとの電話会議および通話プランの利用可能性
 
 国または地域を選択して、電話会議、電話システム、通話プラン、コミュニケーション クレジットを利用できるかどうかを確認できます。
+
+> [!Note]
+> すべての国と地域が記載されているスプレッドシートを探している場合は、「[すべての国および地域のスプレッドシート](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/downloads/country-region-availabilty/country-and-region-availability-(v.01242018)-(en.us).xlsx?raw=true)」をダウンロードして保存してください。
 
 ## <a name="select-your-country-or-region-to-see-whats-available-for-you"></a>国または地域を選択して、どの機能を利用できるか確認しましょう!
 
@@ -47,7 +53,7 @@ ms.lasthandoff: 01/23/2018
 > - [カナダ](availability-in-canada.md)
 > - [チリ](availability-in-chile.md)
 > - [中国](availability-in-china.md)
-> - [コロンビア](availability-in-columbia.md)
+> - [コロンビア](availability-in-colombia.md)
 > - [コスタリカ](availability-in-costa-rica.md)
 > - [クロアチア](availability-in-croatia.md)
 > - [キプロス](availability-in-cyprus.md)
@@ -165,7 +171,7 @@ Office 365 から個々のユーザーの電話番号を取得することに加
 ページの上部にあるドロップダウン リストを使用して、国または地域を検索し、どのサービスを利用できるかを確認します。
 
 ### <a name="calling-plans"></a>通話プラン
-電話システムとともに通話プランを利用することで、ユーザーは通話を発信したり着信したりすることができるようになります。 まず、ユーザー (サブスクライバー) の電話番号 (サービス番号以外) を取得する必要があります。その番号をユーザーに割り当ててから、通話プランを割り当てます。 利用できる通話プランの種類は、**国内**および**国内と国際**の 2 つです。 詳細については、「[通話プランについて](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)」をご覧ください。
+電話システムとともに通話プランを利用することで、ユーザーは通話を発信したり着信したりすることができるようになります。 まず、ユーザー (サブスクライバー) の電話番号 (サービス番号以外) を取得する必要があります。その番号をユーザーに割り当ててから、通話プランを割り当てます。 利用できる通話プランの種類は、**国内**通話プランと、**国内および国際**通話プランの 2 つがあります。 詳細については、「[通話プランについて](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)」をご覧ください。
 
 ライセンスの情報については、「[電話システムと通話プランのライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)」をご覧ください。
 
