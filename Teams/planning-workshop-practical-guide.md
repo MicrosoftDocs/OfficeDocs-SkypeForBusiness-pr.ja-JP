@@ -6,20 +6,23 @@ manager: lolaj
 ms.date: 01/24/2018
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ninadara, lolaj, rowille
 description: "管理者による Microsoft Teams の使用の開始をサポートするためのツール、ワークショップ、スタートアップ キットの計画。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e14c16ddd71114e90af15174266f14bbbbc5982e
-ms.sourcegitcommit: 6f5fc17ffdc1ef3b3eec42e17f7bebda88cb000b
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: cf4b7dad507ee10743df986ca6c489af2bf165b3
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/15/2018
 ---
 <a name="tools-and-workshops-plan-deliver-and-operate-microsoft-teams"></a>ツールとワークショップ: Microsoft Teams の計画、提供、運用
 =============================================================
 
 組織で Teams を計画、提供、運用するための手順を記載した以下のツールをダウンロードしてください。
 
-- [Microsoft Teams スタートアップ キット](http://microsoft.com/en-us/download/56505) 
+- [Microsoft Teams スタートアップ キット](http://microsoft.com/download/56505) 
     
     このガイドでは、マーケティング、営業、財務、人事、IT、エンジニアリング、プロジェクト管理などの組織のさまざまな機能において、Teams を最大限に活用するためのヒントを見つけることができます。
 

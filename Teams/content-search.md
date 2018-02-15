@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: anach
 description: "Microsoft Teams のコンテンツ検索について、Exchange からのチャネル チャットの検索、SharePoint からのファイルのアップロードや修正の検索、OneNote の検索について説明します。"
-ms.openlocfilehash: 91f8e0f94b8665e58b25ee0aa5f6a1f8cded39e0
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 3e3e74ee4f7285df38ac9d650c7fb2156bdd9225
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/15/2018
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Microsoft Teams のコンテンツ検索を使用する
 =====================================
@@ -26,4 +29,4 @@ ms.lasthandoff: 12/20/2017
 
 ![進行中のキーワード検索が表示されている [クエリ] ダイアログのスクリーンショット。](media/Use_Content_Search_in_Microsoft_Teams_image2.png)
 
-必要に応じて検索条件を追加した後に、そのレポートまたはデータをコンピューターにエクスポートして分析できます。コンテンツ検索について詳しくは、[このリンク](https://support.office.com/en-us/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a?ui=en-US&rs=en-US&ad=US&fromAR=1)にアクセスしてください。
+必要に応じて検索条件を追加した後に、そのレポートまたはデータをコンピューターにエクスポートして分析できます。コンテンツ検索について詳しくは、[このリンク](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a?ui=en-US&rs=en-US&ad=US&fromAR=1)にアクセスしてください。

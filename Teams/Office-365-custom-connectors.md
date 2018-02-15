@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ninadara, lucarras
 description: "コネクタは、頻繁に使用するサービスからのコンテンツや更新をチャネルに直接配信して、チームを最新の状態に保ちます。"
-ms.openlocfilehash: 2e852f88cffefdc259b1a0dbf20349bbaf5e3686
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: ad3694bff37281c6e01a1d1a5d02c5a2f255776e
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/15/2018
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Microsoft Teams で Office 365 コネクタとカスタム コネクタを使用する
 =======================================================
@@ -61,4 +64,4 @@ Office 365 コネクタは、Microsoft Teams と Office 365 グループの両�
 
     ![コネクタ カード メッセージを示す Teams インターフェイスのスクリーンショット。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image8.png)
 
-開発者は、Microsoft Team の Web フック アドレスへの簡潔な JSON ペイロードを含む HTTP 要求を送信することで、このカードを作成するようにアプリケーションを構成することができます。この Web フック アドレスは、ウィザードによって提供される当該エンドポイントの固有 URL です。開発者は、Microsoft Developer Network の「[Getting started with Office 365 Connectors for Microsoft Teams (Microsoft Teams 用の Office 365 コネクタの使用を開始する)](https://go.microsoft.com/fwlink/?linkid=855783)」(英語版) で詳細な手順とコネクタのサンプルを参照できます。その他にも「[Outlook でグループにアプリを接続します](https://support.office.com/en-us/article/Connect-apps-to-your-groups-in-Outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab)」および「[Office Dev Center – Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=855784)」というリソースが提供されています。
+開発者は、Microsoft Team の Web フック アドレスへの簡潔な JSON ペイロードを含む HTTP 要求を送信することで、このカードを作成するようにアプリケーションを構成することができます。この Web フック アドレスは、ウィザードによって提供される当該エンドポイントの固有 URL です。開発者は、Microsoft Developer Network の「[Getting started with Office 365 Connectors for Microsoft Teams (Microsoft Teams 用の Office 365 コネクタの使用を開始する)](https://go.microsoft.com/fwlink/?linkid=855783)」(英語版) で詳細な手順とコネクタのサンプルを参照できます。その他にも「[Outlook でグループにアプリを接続します](https://support.office.com/article/Connect-apps-to-your-groups-in-Outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab)」および「[Office Dev Center – Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=855784)」というリソースが提供されています。
