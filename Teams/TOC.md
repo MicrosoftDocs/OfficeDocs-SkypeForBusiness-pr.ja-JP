@@ -5,6 +5,7 @@
 ## [Teams 用の Office 365 ライセンス](Office-365-licensing.md)
 ## [Teams でのチームとチャネルの概要](teams-channels-overview.md)
 ## [Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
+## [チュートリアル: PowerShell を使用して会社全体のチームを作成する](Company-wide-team-creation-powershell.yml)
 ## [Office 365 グループと Teams](Office-365-groups.md)
 ## [Exchange と Teams の連携](Exchange-Teams-interact.md)
 ## [Teams との SharePoint Online と OneDrive for Business の連携](SharePoint-OneDrive-interact.md)
@@ -36,11 +37,13 @@
 ## [Teams へのユーザー アクセスを管理する](user-access.md)
 ## [既存の Office 365 グループを Teams で強化する](enhance-office-365-groups.md)
 ## [Teams で使用する Exchange ハイブリッド展開の組織を構成する](Exchange-hybrid-organization.md)
+## [Outlook で Teams の会議アドインを使用する](teams-add-in-for-outlook.md)
 ## [Teams SMTP ドメインを承認済みドメインとして Exchange Online に追加する](SMTP-accepted-domain.md)
 ## [Teams で組み込みタブとカスタム タブを使用する](built-in-custom-tabs.md)
 ## [Teams で Office 365 コネクタとカスタム コネクタを使用する](Office-365-custom-connectors.md)
 ## [Teams でプライベートのチャットやチャネルのボットを追加する](add-bots.md)
 ## [Teams でのアプリの管理設定](admin-settings.md)
+## [PowerShell を使用して会社全体のチームを作成する](Company-wide-team-creation-powershell.yml)
 ## [Teams 用の PowerShell コマンドレット リファレンス](https://docs.microsoft.com/powershell/module/teams)
 
 
@@ -61,10 +64,10 @@
 ### [構想](audio-conferencing.md#Envision_AudioConferencing)
 ## [通話プランが設定された電話システム](phone-system-with-calling-plans.md)
 ### [構想](phone-system-with-calling-plans.md#Envision_PhoneSystemWithCallingPlans)
-## クイック スタート ガイド
-### [通話プランを設定する](configuring-teams-calling-quickstartguide.md)
-## ビデオ
-### [電話会議](audio-conferencing-videos.md)
+## 通話プラン
+### [クイック スタート: 通話プランを構成する](configuring-teams-calling-quickstartguide.md)
+### [Teams での通話について理解する](Tutorial-Calling-in-Teams.yml)
+
 
 # [Skype for Business から Teams への移行](Journey-SkypeforBusiness-Teams.md)
 ## [1 - 現在の Skype for Business 環境を Teams 向けに最適化する](prepare-teams.md)
@@ -73,6 +76,7 @@
 ## [4 - ユーザーが導入することによる価値を推進する](continue-journey.md)
 ## [よくあるご質問 - Skype for Business と Teams のビジョン](FAQ-journey.md)
 ## [チュートリアル: Skype for Business から Teams への移行](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+
 
 # ビデオとトレーニング
 ## [Teams のための IT 管理者の準備状況のリソース](ITAdmin-readiness.md)
