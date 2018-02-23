@@ -7,11 +7,13 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "主要なステークホルダー、ビジネスの成果、成功の測定方法の特定、チャンピオンの管理を通して Microsoft Teams の変更管理戦略を作成する方法について説明します。"
-ms.openlocfilehash: dae718a94dae1995de406544e9b2385ed7210785
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: cf01ea1466b79021ef741d663cc598a487dfa206
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Microsoft Teams の変更管理戦略を作成する
 =======================================================

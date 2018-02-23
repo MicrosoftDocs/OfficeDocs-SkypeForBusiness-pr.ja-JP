@@ -3,42 +3,51 @@ title: "Microsoft Teams でのアプリの管理設定"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 09/25/2017
+ms.date: 01/29/2018
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ritikag
 description: "外部アプリのサイドロードなど、Microsoft Teams でのアプリの許可と有効化について説明します。"
-ms.openlocfilehash: 4265866bb346da1aa773d337d02fc1c11149f579
-ms.sourcegitcommit: ee1c79b6d6d73e5fc702fe55b9e5aee8a7aae793
+MS.collection: Strat_MT_TeamsAdmin
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 4cdca98cca13ffb49575b808a5cfa82f784d1752
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/10/2018
+ms.lasthandoff: 02/03/2018
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft Teams でのアプリの管理設定
 ==========================================
 
-アプリとは、単一のサードパーティ サービスによって提供されるタブ、コネクタ、ボットという 3 つの要素のあらゆる組み合わせで構成されているものです。Office 365 管理センターで構成可能な管理ポリシーを使用すると、許可する外部サードパーティ アプリを制御することができます。このポリシーでは、許可または禁止するアプリ、新しい外部アプリの動作、アプリのサイドロードを許可するかどうかを指定できます。
+アプリとは、単一のサードパーティ サービスによって提供されるタブ、コネクタ、ボットという 3 つの要素のあらゆる組み合わせで構成されているものです。Office 365 管理センターで構成可能な Teams 管理ポリシーを使用すると、許可する外部サードパーティ アプリを制御することができます。このポリシーでは、許可または禁止するアプリ、新しい外部アプリの動作、アプリのサイドロードを許可するかどうかを指定できます。
 
 > [!NOTE]
 > Teams のアプリについての管理設定を管理するには、Office 365 管理センターに移動して、[**設定**] > [**サービスとアドイン**] を開いて、[**Microsoft Teams**] を選択します。 Office 365 管理者としてサインインしている場合は、次のリンクから移動できます。
 > 
 > https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
 
-**Allow external apps in Microsoft Teams (Microsoft Teams で外部アプリを許可する)**
+## <a name="allow-external-apps-in-teams"></a>Allow external apps in Teams (Teams で外部アプリを許可する)
 
-既定では、選択したすべてのアプリに対して [Allow external apps in Microsoft Teams (Microsoft Teams で外部アプリを許可する)] が有効になります。このポリシーを「**オフ**」にすると、すべての外部サードパーティ アプリが無効化されます。細かく調整して特定の外部アプリを有効にするには、アプリを個別にオフにして無効にすることができます。
+既定では、[**Allow external apps in Microsoft Teams (Microsoft Teams で外部アプリを許可する)**] がオンになり、すべてのアプリが選択されます。  このスイッチをオフにすると、すべての外部サード パーティ アプリが無効になります。 
 
-**Enable new external apps by default (既定で新しい外部アプリを有効にする)**
+## <a name="enable-new-external-apps-by-default"></a>Enable new external apps by default (既定で新しい外部アプリを有効にする)
 
-Teams アプリ カタログに送られる新しいアプリについて、このスイッチはテナントのユーザーに対して利用可能にするかどうかを制御します。既定では、このポリシーは「**オン**」に設定されています。ユーザーはアプリがチームのアプリ カタログに追加されると同時にそのアプリにアクセスできます。Teams での使用を許可する前にアプリを検証する場合は、このポリシーを「**オフ**」に設定します。「**オフ**」に設定する場合は、新しく追加されるアプリを定期的に評価して、それらのアプリがもたらす最新の革新的機能や追加機能をユーザーが利用できるようにします。
+#### <a name="trophy-best-practice-manage-external-apps-individually"></a>:トロフィー: ベスト プラクティス: 外部アプリを個別に管理する 
+ 
+一部のアプリをオンにする (その他のアプリはオフにする) には、[**Allow sideloading of external apps (外部アプリのサイドロードを許可する)**] をオフにします。 自分のユーザーに使用されないようにするアプリをすべてオフにします。 オプション: [**Enable new external apps by default (既定で新しい外部アプリを有効にする)**] をオフにします (新しいアプリを制御する場合)。 
 
-**Allow sideloading of external apps (外部アプリのサイドローディングを許可する)**
+このスイッチがオンになると、ユーザーは Teams アプリ カタログに新しいアプリが追加されるとそれをすぐにアクティブ化することができます。 Teams アプリ カタログを開くには、Teams の下部にある [**ストア**] をクリックして、[**アプリ**] をクリックします。 どのアプリを利用できるようにするかを制御する場合は、このスイッチをオフにします。 これをオフにする場合は、自分の組織で優れた新しいアプリを利用する機会を失うことがないように、新しいアプリについて忘れずに定期的に確認する必要があります。 
 
-権限が与えられたチーム所有者またはメンバーのみが Microsoft Teams でアプリをサイドロードできます。Microsoft Teams でアプリをサイドロードすると、次のような利点があります。
+サイドローディングは、チームに直接 zip ファイルをアップロードすることによって Teams にアプリを追加する方法です。 サイドローディングにより、開発途中のアプリをテストすることができます。 内部使用に限定するアプリを構築して、Office ストアの Teams アプリ カタログに送らずにチーム内で共有することができます。 
 
--   Microsoft に送信する前にアプリをテストできる
+チーム所有者またはアクセス許可が付与されたメンバーのみが、アプリを Teams にサイドロードすることができます。  
 
--   アプリを Office ストアに送信することなく、組織内のユーザーに直接に提供できる.
+![Microsoft Teams の設定の [アプリ] セクションのスクリーンショット](media/Admin_settings_for_apps_in_Microsoft_Teams_image1.png) 
 
-Microsoft Teams でのアプリのサイドロードについて詳しくは、「[Side loading your app in a team](https://go.microsoft.com/fwlink/?linkid=854631)」(英語版) にアクセスしてください。
+## <a name="creating-and-uploading-app-packages"></a>アプリのパッケージの作成とアップロード 
 
-![Microsoft Teams の設定の [アプリ] セクションのスクリーンショット](media/Admin_settings_for_apps_in_Microsoft_Teams_image1.png)
+アプリの詳細については、「[Teams 用のアプリを開発する](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-overview)」をご覧ください。 
+
+
+

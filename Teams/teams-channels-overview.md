@@ -8,11 +8,13 @@ ms.topic: article
 ms.service: msteams
 description: "財務、イベント計画、販売など、多岐にわたる要件で利用できるさまざまなチーム、チャネル、アプリについて紹介します。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 42b1b1f10fdc06dc83b8c4b985afcf3fcae9d895
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: a35e8f7412240fdf3ecc7161a2f79441f9051ec2
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要
 =================================================

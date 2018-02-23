@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: dansteve
 description: "チームを作成する権限など、Microsoft Teams でチーム所有者やメンバーに役割と権限を割り当る方法について説明します。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: ec15844064a88cf1e6aa8af9e510107e342dd369
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: b5fb972106200306f64db27a33f16df98e56b8c0
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="assign-roles-and-permissions-in-microsoft-teams"></a>Microsoft Teams で役割と権限を割り当てる
 ===============================================
@@ -61,9 +64,11 @@ Microsoft Teams には、**所有者**と**メンバー**の 2 つの役割が�
 
     a.  **アクション:** 次の PowerShell スクリプトを実行し、UsersPermissiontoCreateGroupsEnabled パラメーターが **True** であることを確認します。
 
+    ```
     Connect-MsolService
 
     Get-MsolCompanyInformation
+    ```
 
     b.  True でない場合は、Set-MsolCompanySettings コマンドレットを実行して **True に設定**します。
 Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
@@ -74,6 +79,7 @@ Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
 
     a.  **アクション:** グループ作成の権限を割り当てるグループの構成を含むグループ設定オブジェクトを作成します。 
 
+    ```
     Connect-AzureAD
 
     $Template = Get-AzureADDirectorySettingTemplate -Id 62375ab9-6b52-47ed-826b-58e47e0e304b
@@ -85,8 +91,9 @@ Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
     $setting["GroupCreationAllowedGroupId"] = "&lt;ObjectId of Group Allowed to Create Groups>"
 
     New-AzureADDirectorySetting -DirectorySetting $settings
+    ```
 
-    b. 詳細については、「[Manage Office 365 Group Creation (Office 365 グループの作成を管理する)](https://support.office.com/en-us/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-US&ad=US#step3)」をご覧ください。
+    b. 詳細については、「[Office 365 グループの作成を管理する](https://support.office.com/en-us/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-US&ad=US#step3)」をご覧ください。
 
 
 ||||

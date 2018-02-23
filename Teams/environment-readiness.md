@@ -6,20 +6,23 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: dansteve
 description: "Microsoft Teams の導入に向けた環境の準備の確認事項について説明します。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: fbc76126220857d2864f9159d57fd663ce66fd7b
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 2bd50af24bab2699e6638adeed3b33e602ec5bb6
+ms.sourcegitcommit: ed40dcf28ae72961fb1f23cf72985cef1d145db0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/11/2018
 ---
 <a name="check-your-environments-readiness-for-microsoft-teams"></a>Microsoft Teams の導入に向けた環境の準備を確認する
 ===========================================
 
 クラウドへの移行作業は各組織によって異なり、現在の状況が Microsoft Teams がどのように機能するかに大きな影響を与えます。
 
-Microsoft Teams の最適な操作性を実現するには、組織で Exchange Online と SharePoint Online を展開している必要があります。展開していない場合や他のセットアップを展開している場合は、次のヘルプのリンクをご覧ください。
+Microsoft Teams の最適な操作性を実現するには、組織で Exchange Online と SharePoint Online を展開している必要があります。展開していない場合や他のセットアップを展開している場合は、ヘルプのこれらのリンクをご覧ください。
 
 -   組織で Office 365 ワークロードのいずれも展開していない場合は、「[一般法人向け Office 365 を使い始める](https://support.office.com/en-us/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)」をご覧ください。
 

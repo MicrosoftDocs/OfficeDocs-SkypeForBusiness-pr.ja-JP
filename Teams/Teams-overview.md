@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ninadara
 description: "Microsoft Teams とそのインフラストラクチャについて、および Office 365 と組み合わせた Teams の使用について説明します。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: c856e85ddd6ef824e7826c4b4752a3fbb15508e5
-ms.sourcegitcommit: d5d9a9f9d7765cb615ab9fac88a7695c60210cfc
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 353e757c12b4e72a72b49abe4381abb9a188166b
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/02/2018
+ms.lasthandoff: 02/03/2018
 ---
 <a name="overview-of-microsoft-teams"></a>Microsoft Teams の概要
 ===========================
@@ -105,6 +108,10 @@ Office 365 の各アプリケーションの一般的な使用例を示します
 -   ファイルの保存、チームのニュース、ページ、リストなどに関して、すべての Microsoft Team に対して自動的にプロビジョニングされる強力な SharePoint チームサイト。
 
 -   [Teams との SharePoint Online と OneDrive for Business の連携](SharePoint-OneDrive-interact.md)をご覧ください。
+
+## <a name="teams-known-issuesknown-issuesmd"></a>[Teams の既知の問題](Known-issues.md)
+
+## <a name="teams-client-release-noteshttpssupportofficecomarticlerelease-notes-for-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de"></a>[Teams クライアントのリリース ノート](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
 
 ## <a name="what-happened-to-the-teams-admin-faq"></a>Teams 管理者のよくあるご質問 (FAQ) はどうなりましたか?
 

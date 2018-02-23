@@ -8,11 +8,13 @@ ms.topic: article
 ms.service: msteams
 description: "Skype for Business の使用を継続しながら、Microsoft Teams パイロットを開始して Teams が組織に提供するすべての機能を探索するためのガイダンスを提供します。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 3da1c9b80564e518fd2fb8648658b6fb91985e05
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: da962bbfeb0bcdacee213d84c3ae9df19d8a156d
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Skype for Business とともに Microsoft Teams のパイロットを実施する
 ============================================

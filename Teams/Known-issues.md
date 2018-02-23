@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 12/20/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: alexb, ninadara, v-leslc
 description: "現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。"
-ms.openlocfilehash: 32eb38ed3e90a3a57f789b2ba5c4566d2a52e115
-ms.sourcegitcommit: f332028d01a15272da0b09c6d751dbf227cb2d30
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 11c2999f5dcda6ca323ede6fcfa775ad8de726d4
+ms.sourcegitcommit: 46ca433590a4c3aefbe2fb777542bb0b332563bf
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
   
@@ -21,7 +24,7 @@ ms.lasthandoff: 01/17/2018
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
 |EU および APAC のユーザーが、別のテナントからゲスト ユーザーを追加するとエラーが発生する    <br/> | EU および APAC 内のユーザーの場合に、Microsoft Teams と Azure Active Directory との間でのレプリケーションの遅延が発生します。 EU または APAC テナントから、ゲスト ユーザーをそれ以外の任意のテナントから追加しようとするユーザーに対して、もう一度やり直すことを求めるエラー メッセージが表示されます。   <br/> |再試行ボタンをクリックして、ゲスト ユーザーの追加を再実行します。  <br/> |2017/11/08  <br/> |
-|Internet Explorer または Edge から Teams に参加しようとすると、プログラムが一貫してループし続けるかクラッシュしてしまい、サイン インを実行しない。   <br/> | 所属する組織で Internet Explorer の [信頼済みサイト] を有効にしていて、その信頼済みサイトが Teams で許可されていないために、Teams の web ベース アプリケーションが正常にログインを実行しません。 <br/>|管理者の権限またはグループ ポリシー オブジェクトで、IE の設定を次のように変更します。<br/><ol><li>[インターネット オプション] &gt; [プライバシー] &gt; [詳細設定] で、[ 	ファースト パーティの Cookie] と [サード パーティの Cookie] を許可し、[常にセッション Cookie を許可する] のチェック ボックスを選択します。</li><li>[インターネット オプション] &gt; [信頼済みサイト] &gt; [サイト] をクリックして、次のすべてを追加します。<ul><li>https://\*.microsoft.com</li><li>https://\*.microsoftonline.com</li><li>https://\*.teams.skype.com</li><li>https://\*.teams.microsoft.com</li><li>https://\*.sfbassets.com</li><li>https://\*.skypeforbusiness.com</li></ul></li></ol><br/><b>注意</b>: 常に Teams の信頼済み URL のすべてと、「[Office 365 URL および IP アドレス範囲](httpds://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)」に記載されているすべての要件を確認し、許可してください。   <br/> <br/>|2017/11/01  <br/> |
+|Internet Explorer または Edge から Teams に参加しようとすると、プログラムが一貫してループし続けるかクラッシュしてしまい、サイン インを実行しない。   <br/> | 所属する組織で Internet Explorer の [信頼済みサイト] を有効にしていて、その信頼済みサイトが Teams で許可されていないために、Teams の web ベース アプリケーションが正常にログインを実行しません。 <br/>|管理者の権限またはグループ ポリシー オブジェクトで、IE の設定を次のように変更します。<br/><ol><li>[インターネット オプション] &gt; [プライバシー] &gt; [詳細設定] で、[ 	ファースト パーティの Cookie] と [サード パーティの Cookie] を許可し、[常にセッション Cookie を許可する] のチェック ボックスを選択します。</li><li>[インターネット オプション] &gt; [信頼済みサイト] &gt; [サイト] をクリックして、次のすべてを追加します。<ul><li>https://\*.microsoft.com</li><li>https://\*.microsoftonline.com</li><li>https://\*.teams.skype.com</li><li>https://\*.teams.microsoft.com</li><li>https://\*.sfbassets.com</li><li>https://\*.skypeforbusiness.com</li></ul></li></ol><br/><b>注意</b>: 常に Teams の信頼済み URL のすべてと、「[Office 365 URL および IP アドレス範囲](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)」に記載されているすべての要件を確認し、許可してください。   <br/> <br/>|2017/11/01  <br/> |
 |OWA/Outlook において、ポリシーの要求どおりに Teams への写真のアップロードが禁止されない   <br/> | ポリシーの設定で OWA での写真のアップロードを防止するようになっていても、Teams はユーザーが写真を直接 Office 365 にアップロードすることを許可します。   <br/> <br/> |2017/10/16  <br/> |
 |パラメーター付きの Teams URL がログインのリダイレクト後に切り詰められてしまう  <br/> | Internet Explorer および Edge で、Teams の web アプリ上の共有したチームファイルのリンクをログイン後に初めて開くと、間違ったドキュメントにリダイレクトされてしまいます。 チームの web アプリに既にサインインしている場合は、共有ファイル リンクをクリックすると、リンクは正常に機能します。   <br/> <br/> |2017/10/11  <br/> |
 |Intune で管理されているモバイル デバイスで、ユーザーがアカウントを切り替えられません  <br/> |Intune で管理されているモバイル デバイスで、ユーザーがアカウントを切り替えられない場合があります  <br/> |回避策なし。  <br/> |2017/09/20  <br/>|
@@ -52,6 +55,6 @@ ms.lasthandoff: 01/17/2018
 |プロフィール画像を保存できません  <br/> |Exchange メールボックスがオンプレミスでホストされて (所属して) いる場合、プロフィール画像を保存できません。  <br/> |回避策なし。  <br/> |2017/02/28  <br/> |
 |会議を使用できません  <br/> |Exchange メールボックスがオンプレミスでホストされて (所属して) いる場合、会議の機能とアイコンを使用できません。  <br/> |オンプレミス展開用に、Exchange 2016 CU3 以降にアップグレードしてください。  <br/> |2017/02/28  <br/> |
 |グループ メールボックスのアーカイブ (容量の追加) を有効にできません  <br/> |Office 365 のセキュリティ/コンプライアンス センターでは、グローバル管理者はグループ メールボックスのアーカイブを有効にできません。 この操作はユーザー メールボックスに対してのみ実行できます。  <br/> |グループ メールボックスの容量がほぼいっぱいの場合、Microsoft Office サポートに問い合わせてメールボックスのサイズを大きくしてください。  <br/> |2017/02/01  <br/> |
-|Safari Web クライアント サポート  <br/> |Microsoft Teams Web クライアントを Safari で開こうとすると、デスクトップ クライアントのダウンロードに移動します。 Microsoft は Safari のサポートについて検証中で、[Teams ロードマップ](http://aka.ms/TeamsRoadmap)を介して更新情報を共有する予定です。  <br/> |Internet Explorer 11、Microsoft Edge、Chrome の最新バージョン、Firefox の最新バージョンなどのサポートされているインターネット ブラウザーを使用します。  <br/> |2016/11/02  <br/> |  
+|Safari Web クライアント サポート  <br/> |Microsoft Teams Web クライアントを Safari で開こうとすると、デスクトップ クライアントのダウンロードに移動します。 Microsoft は Safari のサポートについて検証中で、[Teams ロードマップ](http://aka.ms/TeamsRoadmap)を介して更新情報を共有する予定です。  <br/> |Internet Explorer 11、Microsoft Edge、Chrome の最新バージョン (とその前の 2 バージョン)、Firefox の最新バージョン (とその前の 2 バージョン) などのサポートされているインターネット ブラウザーを使用します。  <br/> |2016/11/02  <br/> |  
 |アドホック会議でチーム メンバーに連絡できません  <br/> |アドホック会議は、双方が最新のアプリを使っている場合にサポートされます。 Windows Phone アプリでは、会議はまだサポートされていません。  <br/> |最新のデスクトップ、iOS、または Android アプリをダウンロードおよびインストールして、会議に参加してください。  <br/> |2016/11/02  <br/> |
 |Skype for Business オンプレミスのユーザーがメッセージを受信していません  <br/> |メッセージは、Microsoft Teams ユーザーが Skype for Business オンプレミスを使用している別のユーザーにメッセージを送信しようとする時点では完了しません。  <br/> | Skype for Business Online にホストされる Teams とユーザー間の相互運用性がサポートされています。 Teams ユーザーは、Skype for Business Online を使用して Teams 以外のユーザーに 1 対 1 のチャットを送信できます。 <br/> Skype for Business オンプレミスにホストされる Teams とユーザー間の相互運用性はサポートされていません。 Teams ユーザーは、Skype for Business オンプレミスを使用して Teams 以外のユーザーに 1 対 1 のチャットを送信することはできません。  <br/> |2016/11/02  <br/> |

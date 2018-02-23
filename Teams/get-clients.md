@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ninadara
 description: "Microsoft Teams で利用できる、Web、デスクトップ (Windows および Mac)、およびモバイル (Android、iOS、Windows Phone) などのさまざまなクライアントを使用する方法について説明します。"
-ms.openlocfilehash: c10dde0e2893bc11f1d5a01eed1c30ed37ff30a0
-ms.sourcegitcommit: 6ddf8daf3aa1f43c67cb5a57721cb01a9c409f7b
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 6fd2edaa5d751cf323b3a866463811ee0ae633b3
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 02/03/2018
 ---
 <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 ===========================
@@ -29,7 +32,11 @@ Web クライアントは、[https://teams.microsoft.com](https://go.microsoft.c
 
 <a name="internet-browser-support"></a>インターネット ブラウザーのサポート
 ------------------------------
-Teams は Internet Explorer 11、Microsoft Edge、Chrome の最新バージョン、および Firefox の最新バージョンなどのインターネット ブラウザーをサポートします。
+Teams は、次のインターネット ブラウザーをサポートしています。 
+- Internet Explorer 11
+- Microsoft Edge
+- Chrome の最新バージョンと、その前の 2 バージョン
+- Firefox の最新バージョンと、その前の 2 バージョン
 
 > [!NOTE]
 > Safari は現在はサポートされていません。 Teams の新機能に関するニュースについては、[Teams ロードマップ](http://aka.ms/TeamsRoadmap)を確認してください。 Teams を Safari で開こうとすると、Teams のデスクトップ クライアントのダウンロードに移動します。

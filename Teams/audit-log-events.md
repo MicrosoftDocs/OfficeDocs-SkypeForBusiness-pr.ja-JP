@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
+ms.reviewer: anach
 description: "Office 365 監査ログから Microsoft Teams データを取得する方法について説明します。"
-ms.openlocfilehash: 229ddc5fb1e8a775524564c27ffeecce96483fe1
-ms.sourcegitcommit: 9f185be910855f6312344ea906e96e5e6449cf4c
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: c1980bb84138570d9e9a221d7ccdc0b8fc62d203
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/03/2018
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 ==================================================
@@ -40,9 +43,9 @@ Office 365 で監査されるアクティビティの完全なリストを確認
 
 ## <a name="retrieve-teams-data-from-the-audit-log"></a>監査ログから Teams データを取得する
 
-1.  監査ログを取得するには、[セキュリティ/コンプライアンス センター](https://go.microsoft.com/fwlink/?linkid=855775)に移動します。 [**Search & Investigation (検索と調査)**] で、[**Audit log search (監査ログの検索)**] を選択します。
+1.  監査ログを取得するには、[セキュリティ/コンプライアンス センター](https://go.microsoft.com/fwlink/?linkid=855775)に移動します。 [**Search & Investigation (検索と調査)**] で、[**Audit log search (監査ログの検索)**] を選択します。![セキュリティとコンプライアンス センターの [Audit log search (監査ログの検索)] ページのスクリーンショット。](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
 
-![セキュリティとコンプライアンス センターの [Audit log search (監査ログの検索)] ページのスクリーンショット。](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
+
 
 2.  [**Search (検索)**] を使用して、監査するアクティビティ、日付、ユーザーをフィルターします。
 

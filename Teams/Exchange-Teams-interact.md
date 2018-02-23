@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: crowe
 description: "チームの作成、チームへの参加、チャネルの作成など、Microsoft Teams と様々な Exchange のセットアップとの間に存在する機能について説明します。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 4fc7da7d68c13bbadec935573c827cf767c9afe4
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 63a464234877c8a93ad0c6aeb61d9a4e8ee3068e
+ms.sourcegitcommit: e01d5af6fca7e8339d80f46c1a6c3f7a8d228bff
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/05/2018
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携 
 =========================================
@@ -50,6 +53,6 @@ Exchange Online 専用 – レガシーまたは Exchange On-premises にホス�
 
 -   Microsoft Teams では、電子情報開示、コンテンツ検索、アーカイブ、訴訟ホールドのようなセキュリティおよびコンプライアンスの機能は Exchange Online と SharePoint Online の環境で最適に動作します。チャネルの会話の場合、メッセージは Exchange Online 内のグループ メールボックスにジャーナリングされます。これらのメッセージは電子情報開示で利用できます。SharePoint Online と OneDrive for Business (職場または学校のアカウントを使用) が組織全体とユーザーに対して有効な場合は、これらのコンプライアンス機能も Teams 内のすべてのファイルに対して利用できます。
 
-**重要** Microsoft Teams のチャット リストに含まれている会話に参加するユーザーは、管理者がチャット会話を検索できるようにするために、Exchange Online の (クラウド ベースの) メールボックスを持つ必要があります。この理由は、チャット リストに含まれている会話がチャット参加者のクラウドベースのメールボックスに保存されるためです。チャット参加者が Exchange Online のメールボックスを持っていない場合、管理者はチャットの会話を検索したり保留にしたりすることができなくなります。たとえば、Exchange のハイブリッド展開では、オンプレミスのメールボックスを持つユーザーは Microsoft Teams のチャット リストに含まれている会話に参加できる可能性がありますが、この場合はユーザーにクラウドベースのメールボックスがないため、それらの会話の内容を検索することや、会話を保留にすることはできません。コンテンツ検索と Microsoft Teams の詳細については、[*Microsoft Teams と Office 365 グループ*](https://support.office.com/en-us/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)をご覧ください。
+**重要:** Microsoft Teams のチャット リストに含まれている会話に参加するユーザーは、管理者がチャット会話を検索できるようにするために、Exchange Online の (クラウド ベースの) メールボックスを持つ必要があります。この理由は、チャット リストに含まれている会話がチャット参加者のクラウドベースのメールボックスに保存されるためです。チャット参加者が Exchange Online のメールボックスを持っていない場合、管理者はチャットの会話を検索したり保留にしたりすることができなくなります。たとえば、Exchange のハイブリッド展開では、オンプレミスのメールボックスを持つユーザーは Microsoft Teams のチャット リストに含まれている会話に参加できる可能性がありますが、この場合はユーザーにクラウドベースのメールボックスがないため、それらの会話の内容を検索することや、会話を保留にすることはできません。コンテンツ検索と Microsoft Teams の詳細については、「[Office 365 セキュリティ/コンプライアンス センターでコンテンツ検索を実行する](https://support.office.com/en-us/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)」をご覧ください。
 
 **ヒント:** Azure AD Connect を使用して Azure Active Directory と同期する方法については、「[*オンプレミス ID と Azure Active Directory の統合*](https://go.microsoft.com/fwlink/?linkid=854600)」をご覧ください。

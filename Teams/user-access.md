@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ritikag
 description: "ユーザーごとにユーザーレベル アクセスを有効または無効にする方法について説明します。"
-ms.openlocfilehash: 66ec29077b83b799c85acce1b5869b82fb0b83f7
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 318d9467bf1565a50987b6716f2b0a1ad86999bf
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Microsoft Teams へのユーザー アクセスを管理する
 =====================================
@@ -37,25 +40,33 @@ Microsoft Teams のユーザー ライセンスはいつでも無効にできま
 
 Office 365 の管理者は、Office 365 管理センターに加えて、Office 365 PowerShell を使用してもライセンスの割り当てと割り当て解除を行うことができます。ユーザーにライセンスを割り当てるには、次の構文を使用します。
 
+```
 Set-MsolUserLicense -UserPrincipalName "\<Account\>" -AddLicenses "\<AccountSkuId\>"
+```
 
 次の例では、litwareinc:ENTERPRISEPACK (Office 365 Enterprise E3) ライセンス プランのライセンスを、ライセンスのないユーザー belindan@litwareinc.com に割り当てます。
 
+```
 Set-MsolUserLicense -UserPrincipalName "belindan@litwareinc.com" -AddLicenses "litwareinc:ENTERPRISEPACK"
+```
 
-詳細と例については、「[*Office 365 PowerShell を使用してライセンスをユーザー アカウントに割り当てる*](https://go.microsoft.com/fwlink/?linkid=855755)」をご覧ください。
+詳細と例については、「[Office 365 PowerShell を使用してライセンスをユーザー アカウントに割り当てる](https://go.microsoft.com/fwlink/?linkid=855755)」をご覧ください。
 
 既存のユーザー アカウントからライセンスを割り当て解除するには、次の構文を使用します。
 
+```
 Set-MsolUserLicense -UserPrincipalName \<Account\> -RemoveLicenses "\<AccountSkuId1\>", "\<AccountSkuId2\>"
+```
 
 次の例では、litwareinc:ENTERPRISEPACK (Office 365 Enterprise E3) ライセンスを、ユーザー アカウントBelindaN@litwareinc.com から割り当て解除します。
 
+```
 Set-MsolUserLicense -UserPrincipalName belindan@litwareinc.com -RemoveLicenses "litwareinc:ENTERPRISEPACK"
+```
 
-詳細と例については、「[*Office 365 PowerShell を使用してライセンスをユーザー アカウントから割り当て解除する*](https://go.microsoft.com/fwlink/?linkid=855756)」をご覧ください。
+詳細と例については、「[Office 365 PowerShell を使用してライセンスをユーザー アカウントから割り当て解除する](https://go.microsoft.com/fwlink/?linkid=855756)」をご覧ください。
 
 | | | |
 |---------|---------|---------|
 |![判断ポイント アイコン。](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |判断ポイント         |<ul><li>組織全体での Microsoft Teams への関与を促進するための計画を教えてください (パイロットまたはオープン)。</li></ul>         |
-|![次のステップ アイコン。](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |次のステップ         |<ul><li>閉じられたパイロットで関与促進を行う場合は、ライセンスまたは対象を絞った通信のいずれかの手段で実施するかを決定します。</li><li>この決定に応じて、Microsoft Teams へのアクセスが許可されているユーザーがパイロット ユーザーのみであることを確認する手順を行います (必要な場合)。</li><li>次の資料を使用して、Microsoft Teams にアクセスできる (またはアクセスできない) ユーザー向けのガイドラインを文書化します。</li></ul>         |
+|![次のステップ アイコン。](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |次のステップ         |<ul><li>閉じられたパイロットで関与促進を行う場合は、ライセンスまたは対象を絞った通信のいずれかの手段で実施するかを決定します。</li><li>この決定に応じて、Microsoft Teams へのアクセスが許可されているユーザーがパイロット ユーザーのみであることを確認する手順を行います (必要な場合)。</li><li>Microsoft Teams にアクセスできる (またはアクセスできない) ユーザー向けのガイドラインを文書化します。</li></ul>         |

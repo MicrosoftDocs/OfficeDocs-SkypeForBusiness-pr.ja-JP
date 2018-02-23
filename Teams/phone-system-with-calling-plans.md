@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 12/12/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: MyAdvisor
 description: "構想 (計画)、参加 (提供)、価値の創出 (運用) を通して Microsoft Teams の通話プランが設定された電話システムの計画、展開、管理を行うための実践的なガイダンス。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: be79a70b47ec12141d907e2dc467fae2e9447315
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 5e476956c98e074306f971d58ad6dc9aab6aec0b
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Microsoft Teams の通話プランが設定された電話システムの実践的なガイダンス
 =========================================================================

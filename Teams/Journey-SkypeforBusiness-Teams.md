@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 10/05/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: MyAdvisor, dearbeen
 description: "Skype for Business Online から Microsoft Teams に移行するために理解しておく必要がある、あらゆる情報について説明します。"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: af0204d5eb1edd7b58aee5c8f913a8b5404b295f
-ms.sourcegitcommit: 02403b6dc6e0a9a0a590fbf41fa8a552d2f29e1f
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: f006e0a26fc2899da0c3cebc7aa100c0a910c739
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 02/03/2018
 ---
 <a name="journey-from-skype-for-business-to-microsoft-teams"></a>Skype for Business から Teams への移行
 ==================================================
@@ -21,7 +24,7 @@ ms.lasthandoff: 01/09/2018
 
 Teams に次に導入される機能について完全に把握したり、お客様がいつ Teams に移行するのが最善であるかを判断するには、[Teams 製品ロードマップ](https://aka.ms/TeamsRoadmap)をご覧ください。
 
-また、Skype for Business から Teams への行程に関する最新情報を継続して取得するために、ダウンロード可能な PDF として提供されている「[Skype for Busineses to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap)」(現時点では英語版のみ) が役立ちます。この文書には、Teams に導入される Skype for Business 機能について、その時点での Microsoft の予定が記載されています。
+また、Skype for Business から Teams への行程に関する最新情報を継続して取得するために、ダウンロード可能な PDF として提供されている「[Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap)」(現時点では英語版のみ) が役立ちます。この文書には、Teams に導入される Skype for Business 機能について、その時点での Microsoft の予定が記載されています。
 
 最適な結果が得られるよう、次の手順を正しく実行することを推奨します。
 

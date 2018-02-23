@@ -7,11 +7,13 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams を紹介し、Microsoft Teams を計画、展開、運用する方法を管理者向けに説明するトレーニング ビデオ。"
-ms.openlocfilehash: 30d728f1de60791a7d93fb7e59f5058cf66bfed5
-ms.sourcegitcommit: 02403b6dc6e0a9a0a590fbf41fa8a552d2f29e1f
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 550c306e80bcb76dc9c232bb3152b4514c3f7332
+ms.sourcegitcommit: ed40dcf28ae72961fb1f23cf72985cef1d145db0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 02/11/2018
 ---
 <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 ==================================
@@ -24,6 +26,7 @@ ms.lasthandoff: 01/09/2018
 | [チュートリアル: Skype for Business から Teams への移行](tutorial-journey-skypeforbusiness-to-teams.yml) |Skype for Business Online から Teams に移行するために理解しておく必要がある、あらゆる情報について説明します。  |
 | [クイック スタート - 教育用 Microsoft Teams 管理者](teams-quick-start-edu.yml) |教育機関の IT 管理者の場合は、Teams を組織全体にわたり展開します。   |
 [クイック スタート ガイド: Microsoft Teams での通話プランの設定](configuring-teams-calling-quickstartguide.md)| Teams で通話プランを設定するためのクイック スタート ガイドです。 |
+| [チュートリアル: Teams での通話について理解する](tutorial-calling-in-teams.yml)  |  このトレーニングでは、Office 365 の電話システム機能によって提供される Teams の通話機能について紹介します。 電話システムを実装するために必要となる技術計画や、電話システムを構成する方法や、その実装での使用量と通話品質を監視する方法についての説明も含まれます。  |
 | [電話会議のビデオ](audio-conferencing-videos.md) |IT 管理者に Teams での電話会議を紹介するビデオ。  |
 | Deploying and operating Teams (Teams の展開と運用)   | <iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
 | Deep dive into Guest Access (ゲスト アクセスの詳細) <br>Coffee in the Cloud session with Laith Al and Karuana Gatimu (Laith Al とKaruana Gatimu と Coffee in the Cloud セッション)  | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |

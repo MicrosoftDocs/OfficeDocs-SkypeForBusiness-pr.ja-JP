@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: anach
 description: "監査および報告、コンプライアンスのコンテンツ検索、電子情報開示などを含む、Microsoft Teams のセキュリティとコンプライアンス機能の概要"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: f0b01c70a313e3e9e1cd6240a1eb0b42fa744622
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 1cb2bfe08736f355f01d55d05be7c7091b79f396
+ms.sourcegitcommit: ed40dcf28ae72961fb1f23cf72985cef1d145db0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/11/2018
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンスの概要
 ======================================================
@@ -21,7 +24,7 @@ Microsoft Teams は、お客様の期待に応える高度セキュリティお�
 
 Teams は販売開始時点から Tier C 準拠です。これにより、ISO 27001、ISO 27018、SSAE16 SOC 1 および SOC 2、HIPAA、EU モデル契約条項 (EUMC) といった標準に対応します。Microsoft コンプライアンス フレームワークにおいて、Microsoft は Office 365 のアプリケーションとサービスを 4 つのカテゴリに分類しています。各カテゴリは、そのカテゴリのリストに記載されるために Office 365 サービスや関連するマイクロソフトのサービスが満たす必要のある、特定のコンプライアンス コミットメントによって定義されます。
 
-業界をリードするコンプライアンスへの取り組みを実施しているコンプライアンス カテゴリ C および D のサービスは、既定で有効になっています。カテゴリ A と B のサービスでは、組織全体に対してオンまたはオフにする制御が用意されています。詳細については、「[Compliance Framework for Industry Standards and Regulations (業界の規格と規制のコンプライアンス フレームワーク)](https://go.microsoft.com/fwlink/?linkid=855777)」をご覧ください。Microsoft Teams はクラウド セキュリティ アライアンス (CSA) にも準拠しています。
+業界をリードするコンプライアンスへの取り組みを実施しているコンプライアンス カテゴリ C および D のサービスは、既定で有効になっています。カテゴリ A と B のサービスでは、組織全体に対してオンまたはオフにする制御が用意されています。詳細については、「[Compliance Framework for Industry Standards and Regulations (業界の規格と規制のコンプライアンス フレームワーク)](https://go.microsoft.com/fwlink/?linkid=855777)」をご覧ください。Teams はクラウド セキュリティ アライアンス (CSA) にも準拠しています。
 
 Teams はチーム全体および組織全体の 2 要素認証、Active Directory を介したシングル サインオン、移動中および静止中のデータの暗号化も実施します。ファイルは SharePoint に格納され、SharePoint 暗号化が適用されます。メモは OneNote に格納され、OneNote 暗号化が適用されます。
 
@@ -35,7 +38,7 @@ Teams はチーム全体および組織全体の 2 要素認証、Active Directo
 
 -   コンプライアンスのコンテンツ検索
 
-    -   コンテンツ検索では、豊富なフィルタリング機能を使用して Microsoft Teams を検索でき、検索結果をコンプライアンスや訴訟のサポート用の特定のコンテナにエクスポートできます。この操作は電子情報開示ケースの有無に関わらず実行できます。
+    -   コンテンツ検索では、豊富なフィルタリング機能を使用して Teams を検索でき、検索結果をコンプライアンスや訴訟のサポート用の特定のコンテナにエクスポートできます。この操作は電子情報開示ケースの有無に関わらず実行できます。
 
 -   電子情報開示
 
@@ -43,7 +46,7 @@ Teams はチーム全体および組織全体の 2 要素認証、Active Directo
 
     -   この機能には、Teams データのケース管理、保持、検索、分析、エクスポートが含まれます。チャット、メッセージング、ファイル データが対象になります。
 
-    -   お客様はインプレース電子情報開示または [Advanced eDiscovery](https://support.office.com/en-us/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4) を利用できます。
+    -   お客様はインプレース電子情報開示または [Advanced eDiscovery](https://support.office.com/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4) を利用できます。
 
     -   次の表にその違いを示します。
 
@@ -62,7 +65,7 @@ Teams はチーム全体および組織全体の 2 要素認証、Active Directo
 
 -   訴訟ホールド
 
-    -   Microsoft Teams のチームにインプレース保持または訴訟ホールドが適用されると、そのホールドはグループ メールボックスに実施されます。
+    -   Teams のチームにインプレース保持または訴訟ホールドが適用されると、そのホールドはグループ メールボックスに実施されます。
 
     -   訴訟ホールドの場合は、通常、電子情報開示ケース内に適用されます。
 
@@ -116,19 +119,21 @@ Teams はチーム全体および組織全体の 2 要素認証、Active Directo
 
 コンテンツ検索と電子情報開示については、セキュリティ/コンプライアンス センター内で有効にする操作は不要です。
 
-<a name="location-of-data-in-microsoft-teams"></a>Microsoft Teams のデータの場所
------------------------------------
+<a name="location-of-data-in-teams"></a>Teams のデータの場所
+-------------------------
 
-Teams 内のデータはテナント アフィニティに基づく地域に存在します。 現在、Teams は南北アメリカ、EMEA、および APAC 地域をサポートしています。 
+Teams のデータはご利用の Office 365 テナントに関連付けられている地理的領域内に存在します。 現在、Teams は南北アメリカ、EMEA、および APAC 地域をサポートしています。 
 
-2017 年 11 月 1 日時点では、英国においては新しいテナントに対してのみ Teams によるデータ常駐が提供されます。 新しいテナントは、Microsoft Teams に 1 人のユーザーもサインインさせていない任意のテナントとして定義されます。
+> [!IMPORTANT]
+> 現在、英国とインドにおいては Teams によるデータ常駐が提供されるのは新しいテナントに対してのみです。 新しいテナントは、Teams に 1 人のユーザーもサインインさせていない任意のテナントとして定義されます。 英国およびインド国内の既存のテナントは、(2018 年に予定されている) 移行プランが発表されるまで、それぞれ EMEA および APAC 地域に残り続けます。
 
-> [!NOTE]
-> 英国内の既存のテナントは、(2018 年に予定されている) 移行プランが公開されるまで EMEA に残り続けます。
+インドおよび英国での Teams によるデータ常駐の開始の詳細については、Ansuman Acharya のブログの投稿記事「[Microsoft Teams launches India Data Residency, other geos coming soon (Microsoft Teams でのデータ常駐がインドで開始、その他の地域でも近日中に開始)](https://go.microsoft.com/fwlink/?linkid=867773)」をお読みください。
 
-詳細については、Microsoft Teams 技術コミュニティの英国のデータ常駐の立ち上げに関する[ブログ投稿](https://go.microsoft.com/fwlink/p/?linkid=862275)をご覧ください。
+どの地域でご利用のテナントのデータが格納されるかを確認するには、[[Office 365 管理センター](https://portal.office.com/adminportal/home)]  >  [**設定**]  >  [**組織概要**] に移動してください。 下にスクロールして [**データの場所**] に移動します。 
 
-<a name="privacy-in-microsoft-teams"></a>Microsoft Teams でのプライバシー
+![Office 365 管理センターの、Teams を含む、[データの場所] の表を示すスクリーンショット。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+
+<a name="privacy-in-teams"></a>Teams でのプライバシー
 --------------------------
 
 Office 365 のユーザーとして、お客様はデータを所有して管理します。Microsoft が、お客様が購読しているサービスの提供以外の目的でお客様のデータを使用することはありません。Microsoft は、サービス プロバイダーとして、広告や他のサービスと無関係な目的のためにお客様のメール、ドキュメント、チームを調べることはありません。Microsoft はアップロード済みのコンテンツに対してアクセス権を持ちません。OneDrive for Business や SharePoint Online と同様に、お客様のデータはテナント内にあります。
