@@ -1,5 +1,5 @@
 
-# 開始
+# 開始する
 ## [Teams の概要](Teams-Overview.md)
 ## [Teams の導入に向けた環境の準備を確認する](environment-readiness.md)
 ## [Teams 用の Office 365 ライセンス](Office-365-licensing.md)
