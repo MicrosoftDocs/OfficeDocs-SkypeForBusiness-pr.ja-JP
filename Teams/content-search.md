@@ -2,7 +2,7 @@
 title: "Microsoft Teams のコンテンツ検索を使用する"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,11 @@ ms.reviewer: anach
 description: "Microsoft Teams のコンテンツ検索について、Exchange からのチャネル チャットの検索、SharePoint からのファイルのアップロードや修正の検索、OneNote の検索について説明します。"
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e3e74ee4f7285df38ac9d650c7fb2156bdd9225
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: a1d0540e616ae09ca15d0f349235b07a947b6561
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Microsoft Teams のコンテンツ検索を使用する
 =====================================

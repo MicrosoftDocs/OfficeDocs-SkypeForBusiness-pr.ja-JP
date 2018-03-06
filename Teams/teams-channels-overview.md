@@ -2,7 +2,7 @@
 title: "Microsoft Teams でのチームとチャネルの概要"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -10,16 +10,16 @@ description: "財務、イベント計画、販売など、多岐にわたる要
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a35e8f7412240fdf3ecc7161a2f79441f9051ec2
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: b9586a321c74cdb3d16bf78cf8b63c67b1e46a05
+ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/23/2018
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要
 =================================================
 
-はじめに、Microsoft Teams が各チームの自己組織化をどのように実現しているかについて考えましょう。
+はじめに、Microsoft Teams が各チームの自己組織化と、複数のビジネス シナリオにわたる共同作業をどのように実現しているかについて考えましょう。
 
 -   **チーム**は、さまざまなプロジェクトにわたるメンバー、コンテンツ、ツール、組織内のジョブなどの集合体です。
 
@@ -31,13 +31,16 @@ ms.lasthandoff: 02/03/2018
 
     -   チーム チャネルは、チームの全員がオープンに会話できる場です。プライベート チャットはチャット内のユーザーのみに表示されます。
 
-    -   チャネルは、タブ、コネクタ、ボットを含むアプリにより拡張できます。
-
-![チームとチャネルが Microsoft Teams 内でどのように編成されるかを示す階層図。](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
-
-ユーザーを Microsoft Teams に関与させるために鍵となる初期段階の計画アクティビティは、日々の生活で Microsoft Teams がどのようにコラボレーションを深めているのかについて、洞察と理解を促進することです。
+    -   チャネルは、タブ、コネクタ、およびボットを含んでいるアプリで拡張することができます。これらにより、チームのメンバーにとってのチャネルの価値が高まります。
+    
+次のビデオで、チーム、チャネル、タブの編成のベスト プラクティスについて、5 分間耳を傾けてください。
+|  |  |
+|---------|---------|
+| 優れたチーム、チャネル、タブを 5 分でセットアップ   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   | 
 
 既定では、すべてのユーザーが Microsoft Teams 内にチームを作成する権限を持っています (これを変更するには、「[Teams で役割と権限を割り当てる](assign-roles-permissions.md)」をご覧ください)。既存の Office 365 グループのユーザーは、Microsoft Teams の機能を利用してそれらを拡張することもできます。
+
+ユーザーを Microsoft Teams に関与させるために鍵となる初期段階の計画アクティビティは、日々の生活で Microsoft Teams がどのようにコラボレーションを深めているのかについて、洞察と理解を促進することです。 ユーザーと話し合って、断片的な方法で現在共同作業を行っているビジネス シナリオを選択できるように支援します。  ユーザーたちが作業を完了するために役に立つ関連するタブとともに、それらのユーザーをチャネルに取り込みます。 Teams の最も強力なユース ケースの 1 つは、あらゆる組織横断型のプロセスです。 
 
 <a name="sample-team-set-up"></a>サンプルのチーム セットアップ
 ------------------
@@ -59,4 +62,8 @@ Microsoft Teams は、縦割り組織を解体して機能横断型チームを�
 |物流     |倉庫管理<br></br>車両整備<br></br>ドライバー勤務表         |気象サービス<br></br>トラベル/道路混乱<br></br>Planner<br></br>Tubot<br></br>UPS ボット         |
 |HR     |人材管理<br></br>採用<br></br>業績レビュー計画<br></br>士気         |HR ツール<br></br>外部の求人サイト<br></br>Growbot         |
 |組織横断型 <br></br>仮想チーム |戦略<br></br>人材育成<br></br>競争と研究         |Power BI<br></br>Microsoft Stream         |
+
+組織構造に整合する Teams を作成することができます。  これは、士気の向上、チーム固有のレビューの実施、従業員のオンボーディング プロセスの明確化、人員の計画についての話し合い、およびさまざまな人員にわたっての視認性の改善を行うことを考えているリーダーにとって最適です。  
+
+![チームとチャネルが Microsoft Teams 内でどのように編成されるかを示す階層図。](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png
 

@@ -2,7 +2,7 @@
 title: "Microsoft Teams と Skype for Business の相互運用性"
 author: arachmanGitHub
 ms.author: MyAdvisor
-manager: lolaj
+manager: serdars
 ms.date: 12/12/2017
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,11 @@ description: "Teams と Skype for Business の相互運用性とそれがチャ�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08954783a3e0aaf8ae6b54c621ea21c67df6208e
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: ca1391aed7279bfb45adeca159b2a3aed6bcee30
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="microsoft-teams-and-skype-for-business-interoperability"></a>Microsoft Teams と Skype for Business の相互運用性
 =======================================================
@@ -47,9 +47,9 @@ Skype for Business から Teams への移行を開始した組織では、異な
 Teams では、生産性を維持するため、使用するアプリケーション (Teams または Skype for Business) に関係なくユーザーがお互いに通信できるようにする機能が提供されています。
 
 サポートされる相互運用のエクスペリエンスを次に示します。
-- Teams を使用していない Skype for Business ユーザーが Teams ユーザーとチャットすることができます (その逆も可)<p>
+- Teams を使用していない Skype for Business ユーザーが Teams ユーザーとチャットすることや、Skype for Business を使用していない Teams ユーザーが Skype for Business ユーザーとチャットすることができます<p>
 ![Teams からの相互運用チャットのエクスペリエンス](media/Interop_chat_experience_from_Teams.png)<br>
-- Skype for Business ユーザーは Teams ユーザーに対して音声通話やビデオ通話を行うことができます (その逆も可)。 相互運用での通話でも、通話の転送などの詳細な通話オプションはこれまでどおり利用できます。<p>
+- Skype for Business ユーザーと Teams ユーザーとの間では、どちらからでも音声通話やビデオ通話を行うことができます。 相互運用での通話でも、通話の転送などの詳細な通話オプションはこれまでどおり利用できます。<p>
 ![Teams からの相互運用の通話のエクスペリエンス](media/Interop_calling_experience_from_Teams.png)<br>
 
 > [!NOTE]

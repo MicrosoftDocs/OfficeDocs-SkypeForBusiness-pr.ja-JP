@@ -2,7 +2,7 @@
 title: "Microsoft Teams へのゲスト アクセスを管理する"
 author: LaithAlShamri
 ms.author: laal
-manager: lolaj
+manager: serdars
 ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,11 @@ ms.reviewer: laal
 description: "IT 管理者は、テナントレベルでのゲストの追加、ゲスト ユーザー ポリシーと権限の設定と管理、ゲストを招待できるユーザーの判別、ゲスト ユーザーのアクティビティに関するレポートの取得を行うことができます。"
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d665a5a837070eadbbd8d3f7e168da0ad97d642c
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: ed42a6f4578786f6f5ed9683cf92c3b915653d66
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="manage-guest-access-to-microsoft-teams"></a>Microsoft Teams へのゲスト アクセスを管理する
 ======================================

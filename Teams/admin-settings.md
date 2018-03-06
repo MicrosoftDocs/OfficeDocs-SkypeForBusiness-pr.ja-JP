@@ -2,20 +2,22 @@
 title: "Microsoft Teams でのアプリの管理設定"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 01/29/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 description: "外部アプリのサイドロードなど、Microsoft Teams でのアプリの許可と有効化について説明します。"
+ms.custom:
+- NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4cdca98cca13ffb49575b808a5cfa82f784d1752
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 0fb8d7680338ebda68624a765068d4c386ea46b3
+ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/23/2018
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft Teams でのアプリの管理設定
 ==========================================
@@ -26,6 +28,12 @@ ms.lasthandoff: 02/03/2018
 > Teams のアプリについての管理設定を管理するには、Office 365 管理センターに移動して、[**設定**] > [**サービスとアドイン**] を開いて、[**Microsoft Teams**] を選択します。 Office 365 管理者としてサインインしている場合は、次のリンクから移動できます。
 > 
 > https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
+
+アプリの管理設定の詳細については、次のビデオをご覧ください。 
+ 
+|  |  |
+|---------|---------|
+| Managing the App Experience in Microsoft Teams (Microsoft Teams でのアプリの機能と操作性を管理する)   | <iframe width="350" height="200" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
 
 ## <a name="allow-external-apps-in-teams"></a>Allow external apps in Teams (Teams で外部アプリを許可する)
 

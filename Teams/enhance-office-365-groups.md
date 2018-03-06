@@ -2,7 +2,7 @@
 title: "既存の Office 365 グループを Microsoft Teams で強化する"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,11 @@ description: "配布リストをチームに取り込んだり、メール対応
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf643d5b09ee7117bd451be135fac847c82c5edf
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 72b4e20cadd30ef2e6e21ef826aa2a2f86b63a2f
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>既存の Office 365 グループを Microsoft Teams で強化する
 =======================================================

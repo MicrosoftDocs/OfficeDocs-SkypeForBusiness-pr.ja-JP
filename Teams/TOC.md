@@ -20,6 +20,7 @@
 ## [Teams の展開の概要](deployment-overview.md)
 ## [Teams でチームを作成するときの Office 365 グループの計画](plan-Office-365-groups.md)
 ## [Teams 用に組織のネットワークを準備する](prepare-network.md)
+## [Teams でのサービス品質 (QoS)](QoS-in-Teams.md)
 ## [Office 365 の URL と IP アドレスの範囲](Office-365-URLs-IP-address-ranges.md)
 ## [ツールとワークショップ: Teams の計画、提供、運用](planning-workshop-practical-guide.md)
 
@@ -61,9 +62,7 @@
 
 # [Cloud Voice](cloud-voice-deployment.md)
 ## [電話会議](audio-conferencing.md)
-### [構想](audio-conferencing.md#Envision_AudioConferencing)
 ## [通話プランが設定された電話システム](phone-system-with-calling-plans.md)
-### [構想](phone-system-with-calling-plans.md#Envision_PhoneSystemWithCallingPlans)
 ## 通話プラン
 ### [クイック スタート: 通話プランを構成する](configuring-teams-calling-quickstartguide.md)
 ### [Teams での通話について理解する](Tutorial-Calling-in-Teams.yml)
@@ -98,6 +97,7 @@
 ## [Teams のサービス正常性を確認する](service-health.md)
 ## [Teams クライアントの接続性の問題をトラブルシューティングする](connectivity-issues.md)
 ## [Teams のトラブルシューティングでログ ファイルを使用する](log-files.md)
+
 
 # 教育用 Teams
 ## [管理者向けのクイック スタート - 教育用 Teams](Teams-quick-start-edu.yml)

@@ -8,23 +8,23 @@ metadata:
   displayType: one-column
   interactive: azurecli
   ms.author: tbinder
-  manager: lolaj
+  manager: serdars
   ms.service: msteams
   ms.topic: tutorial
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 99ec8b24d37d3dcdaf45f908b49b1794dc269ee3
-  ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+  ms.openlocfilehash: f522768b67d58b0ad23ab2f8e6a9173ed2884b36
+  ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
   ms.translationtype: HT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 02/03/2018
+  ms.lasthandoff: 02/19/2018
 items:
 - durationInMinutes: 1
   content: "このトレーニングでは、新しいインテリジェント コミュニケーション ビジョンを説明し、今後の Skype for Business と Teams について説明します。\n\nこのトレーニングは、次のようなお客様を対象としています。 \n\n- IT 専門家 \n\n- Skype for Business の計画、展開、管理の責任者\n\n- ご自身の組織で Teams を導入する方法について関心がある方\n\nこれらの 2 つの製品を一緒に使用する方法について、および既存の Skype for Business 環境を Teams のために整備するために現時点で何が行うことができるかについて、詳しく説明します。 このチュートリアルでの重要な学習事項は次のとおりです。\n\n- インテリジェント コミュニケーション ビジョンについて理解する\n\n- Skype for Business Online から Teams への移行について理解する\n\n- 今すぐ開始する必要があるアクションについて理解する\n\nTeams を有効にするための手順や、Skype for Business と Teams を共存して実行する方法については、ここでは取り上げません。 それらの詳細については、次のリソースをご覧ください。\n\n- Microsoft Ignite 2017 セッション: [ユーザーのために Microsoft Teams を有効にして設定する方法](https://myignite.microsoft.com/sessions/53318)\n\n- 準備状況: [Skype for Business と共存する Microsoft Teams を有効にする](guidance-SkypeforBusiness.md) <-- (新しいコンテンツを近日中に公開予定) -->\n\nこのトレーニングについてご質問やフィードバックがある場合は、次の方法でお送りください。\n\n- このチュートリアルの「次のステップ」ページの下部にあるコメント セクションから投稿してください</a>\n\n- [AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Journey) 宛にメールを送信してください\n\n- 機能のリクエストなど、製品に関するフィードバックを提供する場合は、[UserVoice](https://microsoftteams.uservoice.com/forums/555103-public) に移動してください。\n"
 - title: "インテリジェント コミュニケーションについて理解する"
   durationInMinutes: 4
-  content: "Microsoft Ignite 2017 において、Microsoft は世界各地のユーザーや組織での通話および会議のエクスペリエンスを変革するインテリジェント コミュニケーションの新しいビジョンを導入しました。 インテリジェント コミュニケーションは従来の統合コミュニケーションよりも進化しており、ユーザーはこれを使用することでコンテキストの切り替えを最小限に抑えてタスクをより効率的に完了することや、会議のライフサイクル全体においてより生産的となる会議に参加することや、日常的な通信の過負荷の管理を改善することができるようになります。\n\n<span style=\"color:red\">**アクション**:</span>Lori Wright のブログの投稿記事「[A new vision for intelligent communications in Office 365 (Office 365 でのインテリジェント コミュニケーションの新しいビジョン)」](https://blogs.office.com/en-us/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/)を読む\n\n###<a name=\"to-learn-more\"></a>詳細情報\nMicrosoft Ignite 2017 セッション: [Transform your communications with Microsoft Teams and Skype for Business (Microsoft Teams および Skype for Business でのコミュニケーションを変革する)](https://myignite.microsoft.com/videos/56548)  ([スライド セット](https://onedrive.live.com/embed?resid=47E22AC086D61230%212116&authkey=%21AH-wWs1_I0jKYbY&em=2))\n"
+  content: "Microsoft Ignite 2017 において、Microsoft は世界各地のユーザーや組織での通話および会議のエクスペリエンスを変革するインテリジェント コミュニケーションの新しいビジョンを導入しました。 インテリジェント コミュニケーションは従来の統合コミュニケーションよりも進化しており、ユーザーはこれを使用することでコンテキストの切り替えを最小限に抑えてタスクをより効率的に完了することや、会議のライフサイクル全体においてより生産的となる会議に参加することや、日常的な通信の過負荷の管理を改善することができるようになります。\n\n<span style=\"color:red\">**アクション**:</span>Lori Wright のブログの投稿記事「[A new vision for intelligent communications in Office 365 (Office 365 でのインテリジェント コミュニケーションの新しいビジョン)」](https://blogs.office.com/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/)を読む\n\n###<a name=\"to-learn-more\"></a>詳細情報\nMicrosoft Ignite 2017 セッション: [Transform your communications with Microsoft Teams and Skype for Business (Microsoft Teams および Skype for Business でのコミュニケーションを変革する)](https://myignite.microsoft.com/videos/56548)  ([スライド セット](https://onedrive.live.com/embed?resid=47E22AC086D61230%212116&authkey=%21AH-wWs1_I0jKYbY&em=2))\n"
 - title: "Microsoft Teams とは何ですか?"
   durationInMinutes: 7
   content: "Microsoft Teams はあらゆるチームワーク関連のアクティビティのための Office 365 のコラボレーション ハブです。 SharePoint、Exchange、OneDrive などの既存の Office 365 テクノロジーに基づいて構築されています。 Teams は拡張性のあるプラットフォームを提供しており、サードパーティのアプリを統合することができます。 これにより、お客様の組織内外のチームで、共通の場所において会話、ノート、およびファイルなどのあらゆるコンテキストを維持しながら話し合い、会議、共同作業を行うことができます。 Teams によりエンタープライズグレードのセキュリティとコンプライアンスを実現できます。 \n\n<span style=\"color:red\">**アクション**:</span> [Microsoft Teams の対話型のデモ](http://teamsdemo.office.com/)を完了する\n\n### <a name=\"chat-calls-and-meetings-for-todays-teams\"></a>現在のチームのためのチャット、通話、会議\n瞬時にコミュニケーションを行い、全員が情報を把握し続けられるようにします。 自分たちのチーム内で、およびプライベートや小さいグループでの会話で、チャット、通話、会議に接続し続けます。 HD ビデオ、VoIP、およびダイヤルインの電話会議オプションを備えたオンライン会議をスケジュール設定して参加します。 ファイル、アプリ、またはデスクトップをオンライン会議で共有し、書き留めたり記録した内容を使用して重要なモーメントについて後で再確認します。 ボイスメール、転送、委任、緊急通話などの高度な機能を利用できる、国内または国際電話の通話を発着信するための専用の電話番号を用意します。\n\n### <a name=\"integrated-office-365-apps\"></a>統合された Office 365 アプリ\n自分のチームで必要となる Office 365 のあらゆるアプリや機能へのアクセスが組み込まれます。 すべての会話、ファイル、ツールを 1 つのチームのワークスペースで管理します。 SharePoint、OneNote、PowerBI、および Planner に即座にアクセスできます。 アプリ内で直接ドキュメントを作成および編集したり、コンテキストに応じた会話を含めたりします。 電子メール統合を利用して、チームで常に最新情報を共有します。 Microsoft Graph からのインテリジェンスを利用してユーザー、ファイル、チャットにわたる検索を行います。\n\n\n### <a name=\"customizable-and-extensible\"></a>カスタマイズの可能性と拡張可能性\nお使いの Teams ワークスペースをカスタマイズして、主要なクラウド サービスを含めたり、データを探索したり、自分たちのチームが毎日使用するアプリから更新データを取得したりするように設定します。 ワークストリームまたはトピックに基づいてカスタム チャネルを作成します。 よく使用されるファイルおよび Web サイトを簡単に参照できるようにピン留めします。 自分たちのチームのために機能するボットを追加します。 Teams の開発者向けプラットフォームを使用して既存のビジネス プロセスとのカスタマイズした統合を構築します。\n\n### <a name=\"enterprise-security-compliance-and-manageability\"></a>エンタープライズ セキュリティ、コンプライアンス、管理容易性\nTeams はお客様が Office 365 で求めるエンタープライズレベルのセキュリティ、コンプライアンス、および管理機能を備えており、コンプライアンスの基準と電子情報開示についての広範なサポートや、チャネル、チャット、ファイルに対する訴訟ホールドなどを提供します。 Teams はデータを静止中でも移動中でも常に暗号化します。また、ID の保護を強化するための多要素認証を備えています。 お客様がサポートを必要とするときにいつでも対応できるサポート エンジニアが待機しています。\n"

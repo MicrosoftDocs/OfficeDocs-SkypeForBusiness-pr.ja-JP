@@ -2,19 +2,21 @@
 title: "Microsoft Teams へのゲスト アクセスをオンまたはオフにする"
 author: LaithAlShamri
 ms.author: laal
-manager: lolaj
+manager: serdars
 ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
-ms.reviewer: laal
+ms.reviewer: rramesan
 description: "Microsoft Teams でのゲスト アクセス機能をオンまたはオフにします。"
+ms.custom:
+- NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 891cd9749a7782b52b4825311fc720aca54fc4ad
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: a9112494945cf97905853c827fbfdb0688e9c7fc
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Microsoft Teams へのゲスト アクセスをオンまたはオフにする
 ======================================
@@ -63,5 +65,5 @@ Office 365 管理者は、組織のユーザー (具体的にはチーム所有�
 
 |  |  |
 |---------|---------|
-| Microsoft Teams でのゲスト アクセスの有効化   | <iframe width="350" height="200" src="https://www.youtube.com/embed/7T54KmlIHQk" frameborder="0" allowfullscreen></iframe>   |
+| Microsoft Teams でのゲスト アクセスの有効化   | <iframe width="350" height="200" src="https://www.youtube.com/embed/g21Hcqdl5tI" frameborder="0" allowfullscreen></iframe>   |
  | Microsoft Teams でのゲストの追加   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 

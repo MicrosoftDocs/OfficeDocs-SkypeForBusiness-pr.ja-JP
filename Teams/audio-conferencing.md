@@ -2,7 +2,7 @@
 title: "Microsoft Teams での電話会議についての実践的なガイダンスを提供します。"
 author: arachmanGitHub
 ms.author: MyAdvisor
-manager: lolaj
+manager: serdars
 ms.date: 12/22/2017
 ms.topic: article
 ms.service: msteams
@@ -11,11 +11,11 @@ description: "構想 (計画)、参加 (提供)、価値の創出 (運用) を�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7c2843a2ca982ada7d0ae68762556cd439cb244
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: f845be7ddf83605adad119f7efa53725033a7823
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議についての実践的なガイダンスを提供します。
 ============================================================

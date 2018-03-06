@@ -1,10 +1,10 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.openlocfilehash: d2576d254865e7f97ff614cc80689d952d8a3997
-ms.sourcegitcommit: b7f7ff1f88cd71ba289c20e745d0642ce5f11809
+ms.openlocfilehash: b58c4759fc66bd9f573123bebf1772609a7a79e2
+ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="welcome-to-office-content-on-docsmicrosoftcom"></a>docs.microsoft.com 上の Office へようこそコンテンツ
 ## <a name="this-is-a-level-2-heading"></a>これはレベル 2 の見出しです
@@ -19,16 +19,18 @@ ms.lasthandoff: 01/17/2018
 3. アイテム 4
 
 
+テスト ファイルに変更
 
 
+HTML シンボルと改行タグのみを使用して、マークダウンのテーブルを次のように箇条書きリストを含んでいるように見せることができます。
 
-sasdfsdf para1
+| ヘッダー セル 1 | ヘッダー セル 2 |
+| ---          | ---          |
+| コンテンツ セル |イントロ テキスト <br>&nbsp;&nbsp;&nbsp; &bull;&nbsp;&nbsp; リスト アイテム 1<br> &nbsp;&nbsp;&nbsp; &bull;&nbsp;&nbsp; リスト アイテム 2     |
+| コンテンツ セル | コンテンツ セル |
 
-para2
-
-**para3**
-
-
+<p>&#9744; を表示します</p>
+<p>&#x2610; を表示します</p>
 
 
 Microsoft Teams コンテンツを利用できるようになりました。

@@ -2,7 +2,7 @@
 title: "Microsoft Teams 用に組織のネットワークを準備する"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -11,31 +11,31 @@ description: "ネットワーク要件、帯域幅要件、その他の考慮事
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db9dc97d117ad1844d56c59191bb92ec496a9a83
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 0528d958f7e7f8f06f4dbfb1e38b297577436c56
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する
 =================================================
 
-Microsoft Teams は 3 つの形態のトラフィックを組み合わせて使用します。
+Teams は 3 つの形態のトラフィックを組み合わせて使用します。
 
--   Office 365 オンライン環境と Microsoft Teams クライアント間のデータ トラフィック (信号、プレゼンス、チャット、ファイルのアップロードとダウンロード、OneNote 同期)。
+-   Office 365 オンライン環境と Teams クライアント間のデータ トラフィック (信号、プレゼンス、チャット、ファイルのアップロードとダウンロード、OneNote 同期)。
 
 -   ピアツーピアのリアルタイムのコミュニケーション トラフィック (音声、ビデオ、デスクトップ共有)。
 
 -   会議型のリアルタイムのコミュニケーション トラフィック (音声、ビデオ、デスクトップ共有)。
 
-この組み合わせは 2 つのレベルにおけるネットワークに対して影響を及ぼします。ピアツーピアの場合、トラフィックは Microsoft Teams クライアント間で直接にフローします。会議のシナリオの場合、トラフィックは Office 365 環境と Microsoft Teams クライアント間をフローします。最適なトラフィック フローを実現するには、内部ネットワーク セグメント間 (WAN 上でのサイト間) のフロー、さらにネットワーク サイトと Office 365 間のフローの両方を許可する必要があります。適切なポートを開かなかったり、特定のポートを自動的に遮断すると、ネットワーク エクスペリエンスの質が低下します。
+この組み合わせは 2 つのレベルにおけるネットワークに対して影響を及ぼします。ピアツーピアの場合、トラフィックは Teams クライアント間で直接にフローします。会議のシナリオの場合、トラフィックは Office 365 環境と Teams クライアント間をフローします。最適なトラフィック フローを実現するには、内部ネットワーク セグメント間 (WAN 上でのサイト間) のフロー、さらにネットワーク サイトと Office 365 間のフローの両方を許可する必要があります。適切なポートを開かなかったり、特定のポートを自動的に遮断すると、ネットワーク エクスペリエンスの質が低下します。
 
 
 
 > [!IMPORTANT]
-> 現在、iOS と Android モバイル デバイスでは会議がサポートされていますが、Windows Phone ではサポートされていません (Windows Phone でのサポートは準備中です)。
+> 現在、iOS と Android モバイル デバイスでは会議がサポートされていますが、Windows Phone ではサポートされていません。
 
-Microsoft Teams でリアルタイム メディアの最適な操作性を実現するには、Office 365 のネットワーク要件を満たす必要があります (詳しくは、「[Skype for Business Online におけるメディアの品質とネットワーク接続性のパフォーマンス](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US)」をご覧ください)。
+Teams でリアルタイム メディアの最適な操作性を実現するには、Office 365 のネットワーク要件を満たす必要があります (詳しくは、「[Skype for Business Online におけるメディアの品質とネットワーク接続性のパフォーマンス](https://support.office.com/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917)」をご覧ください)。 
 
 次の 2 つの重要なネットワーク セグメント (クライアントから Microsoft Edge、Customer Edge から Microsoft Edge) は、以下の要件を満たす必要があります。
 
@@ -49,7 +49,7 @@ Microsoft Teams でリアルタイム メディアの最適な操作性を実現
 |**パケット到着間ジッター**    |< 15 秒間隔で 30 ミリ秒         |< 任意の 15 秒間隔で 15 ミリ秒         |
 |**パケットの並べ替え**    |< 順序が適切でないパケットが 0.05%         |< 順序が適切でないパケットが 0.01%         |
 
-これらのネットワーク セグメントの両方をテストするには、Network Assessment Tool を使用できます (提供元: [https://www.microsoft.com/en-us/download/details.aspx?id=53885](https://go.microsoft.com/fwlink/?linkid=855799))。このツールは、クライアント PC で直接展開するか、Customer Network Edge に接続された PC/ラップトップで展開できます。このツールには簡易的なマニュアルが含まれています。このツールの使用法について詳細なマニュアルについては、[Network Readiness Assessment](https://go.microsoft.com/fwlink/?linkid=855800) にアクセスしてください。この Network Readiness Assessment を実行すると、Microsoft Teams などのリアルタイム アプリケーションの実行に対するネットワークの準備を検証できます。
+両方のネットワーク セグメントをテストするために、[Network Assessment Tool](https://go.microsoft.com/fwlink/?linkid=855799) をダウンロードすることができます。 このツールは、クライアント PC に直接展開したり、Customer Network Edge に接続された PC に展開したりすることができます。 ツールに含まれているドキュメントは限定的なものですので、ダウンロードとともに提供される詳細なドキュメントを必ず確認してください。 この Network Readiness Assessment を実行することによって、Teams などのリアルタイム メディア アプリケーションを実行するためのネットワークの準備状況を検証することができます。
 
 
 
@@ -59,14 +59,14 @@ Microsoft Teams でリアルタイム メディアの最適な操作性を実現
 <a name="bandwidth-requirements"></a>帯域幅要件
 ----------
 
-Microsoft Teams の帯域幅の計算は複雑であるため、それを支援する計算ツールが用意されています。この計算ツールにアクセスするには、<http://aka.ms/bwcalc/> に移動してください。
+Teams の帯域幅の計算は複雑であるため、それを支援する計算ツールが用意されています。この計算ツールにアクセスするには、<http://aka.ms/bwcalc> に移動してください。
 
 以下の内容は、付属的な背景情報として利用できます。ただし、[帯域幅計算ツール](https://aka.ms/bwcalc) を使用して必要な項目を追跡する場合は、推奨事項として参考にしてください。
 
 
 
 > [!IMPORTANT]
->必要とされる帯域幅が利用できない場合は、Microsoft Teams 内部のメディア スタックにより、利用可能な帯域幅の不足量を補うため音声/ビデオ セッションの品質が低下し、その結果、通話や会議の品質も影響を受けます。Microsoft Teams クライアントはビデオの品質よりもオーディオの品質を優先します。したがって、必要とされる帯域幅を利用可能な状態にすることが非常に重要になります。
+>必要とされる帯域幅が利用できない場合は、Teams 内部のメディア スタックにより、利用可能な帯域幅の不足量を補うため音声/ビデオ セッションの品質が低下し、その結果、通話や会議の品質も影響を受けます。Teams クライアントはビデオの品質よりもオーディオの品質を優先します。したがって、必要とされる帯域幅を利用可能な状態にすることが非常に重要になります。
 
 
 |アクティビティ  |ダウンロードの帯域幅  |アップロードの帯域幅  |トラフィック フロー |
@@ -85,7 +85,7 @@ Microsoft Teams の帯域幅の計算は複雑であるため、それを支援�
 
 #### <a name="external-name-resolution"></a>**外部の名前解決**
 
-Microsoft Teams を実行するすべてのクライアント コンピュータが外部 DNS クエリを解決して、Office 365 によって提供されるサービスを検出できることを確認してください。
+Teams を実行するすべてのクライアント コンピュータが外部 DNS クエリを解決して、Office 365 によって提供されるサービスを検出できることを確認してください。
 
 #### <a name="nat-pool-size"></a>**NAT プール サイズ**
 
@@ -100,9 +100,9 @@ Microsoft Teams を実行するすべてのクライアント コンピュータ
 <a name="network-health-determination"></a>ネットワーク正常性の確認
 -----------------
 
-ネットワーク内で Microsoft Teams を実装する計画を行う場合は、必要とされる帯域幅とすべての必須 IP アドレスへのアクセスが確保されていること、正しいポートが開かれていること、リアルタイム メディアのパフォーマンス要件を満たしていることを確認する必要があります。
+ネットワーク内で Teams を実装する計画を行う場合は、必要とされる帯域幅とすべての必須 IP アドレスへのアクセスが確保されていること、正しいポートが開かれていること、リアルタイム メディアのパフォーマンス要件を満たしていることを確認する必要があります。
 
-これらの条件を満たすことができない場合は通話や会議中の品質が悪くなるため、エンドユーザーは Microsoft Teams の最適なエクスペリエンスを得ることができません。
+これらの条件を満たすことができない場合は通話や会議中の品質が悪くなるため、エンドユーザーは Teams の最適なエクスペリエンスを得ることができません。
 
 これらの要件を満たしていない場合は、先に進む前にプロジェクトを中断して、条件を満たすことをお勧めします。
 
@@ -110,5 +110,5 @@ Microsoft Teams を実行するすべてのクライアント コンピュータ
 |  |  |  |
 |---------|---------|---------|
 |![判断ポイント アイコン。](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |判断ポイント         |リアルタイム メディアをサポートするためにネットワーク能力を評価したことはありますか?<br></br>ネットワークが正しく評価されていない場合やリアルタイム メディアをサポートできないことが事前に分かっている場合は、ビデオや画面共有の機能を無効にして、ネットワークへの影響を軽減し、Teams エクスペリエンスの質を向上させることができます。         |
-|![次のステップ アイコン。](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |次のステップ         |ネットワークの品質が不明な場合: skypeoperationsframework.com で入手できる Network Readiness Assessment のガイダンスに従って、お客様のネットワークでリアルタイム メディアに対する準備が整っているかどうかを判別してください。<br></br>ネットワークの品質が乏しい場合: ネットワーク改善の手順を実行して、高品質なリアルタイム メディアに適した環境を整えてください。<br></br>十分なネットワーク品質: すべての IP アドレスやポートに正しくアクセスできることを確認してください。           |
+|![次のステップ アイコン。](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |次のステップ         |ネットワークの品質が不明な場合: [Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness) のガイダンスに従って、お客様のネットワークでリアルタイム メディアに対する準備が整っているかどうかを判別してください。<br></br>ネットワークの品質が乏しい場合: ネットワーク改善の手順を実行して、高品質なリアルタイム メディアに適した環境を整えてください。<br></br>十分なネットワーク品質: すべての IP アドレスやポートに正しくアクセスできることを確認してください。           |
 

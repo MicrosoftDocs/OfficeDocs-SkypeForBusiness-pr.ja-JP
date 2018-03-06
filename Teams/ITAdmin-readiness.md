@@ -2,18 +2,20 @@
 title: "Microsoft Teams の管理者トレーニング"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Microsoft Teams を紹介し、Microsoft Teams を計画、展開、運用する方法を管理者向けに説明するトレーニング ビデオ。"
+ms.custom:
+- NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 550c306e80bcb76dc9c232bb3152b4514c3f7332
-ms.sourcegitcommit: ed40dcf28ae72961fb1f23cf72985cef1d145db0
+ms.openlocfilehash: 1f5c37becb8fd82953e07dc948e82a51b7c9cf6e
+ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/23/2018
 ---
 <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 ==================================
@@ -32,7 +34,7 @@ ms.lasthandoff: 02/11/2018
 | Deep dive into Guest Access (ゲスト アクセスの詳細) <br>Coffee in the Cloud session with Laith Al and Karuana Gatimu (Laith Al とKaruana Gatimu と Coffee in the Cloud セッション)  | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
 | e-Discovery in Microsoft Teams (Microsoft Teams における電子情報開示) <br> Coffee in the Cloud session with Ansuman Acharya and Karuana Gatimu (Ansuman Acharya と Karuana Gatimu との Coffee in the Cloud セッション)  | <iframe width="350" height="200" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
 | Teams: Step-by-step intro for using, enabling and managing the experience (Teams: エクスペリエンスの使用、有効化、管理の手順) <br> Microsoft Mechanics session with Dan Stevenson and Jeremy Chapman (Dan Stevenson と Jeremy Chapman との Microsoft Mechanics セッション) |  <iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |
-
+| Managing the App Experience in Microsoft Teams (Microsoft Teams でのアプリの機能と操作性を管理する) <br> Coffee in the Cloud session with Karuana Gatimu (Karuana Gatimu と Coffee in the Cloud セッション)  | <iframe width="350" height="200" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
 
 
 

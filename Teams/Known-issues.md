@@ -2,7 +2,7 @@
 title: "Microsoft Teams の既知の問題"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 12/20/2017
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,11 @@ ms.reviewer: alexb, ninadara, v-leslc
 description: "現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。"
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11c2999f5dcda6ca323ede6fcfa775ad8de726d4
-ms.sourcegitcommit: 46ca433590a4c3aefbe2fb777542bb0b332563bf
+ms.openlocfilehash: 2a2bcde98b87ee0575bdd30ff07aa79a13b8bf1d
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
   
@@ -24,9 +24,9 @@ ms.lasthandoff: 02/09/2018
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
 |EU および APAC のユーザーが、別のテナントからゲスト ユーザーを追加するとエラーが発生する    <br/> | EU および APAC 内のユーザーの場合に、Microsoft Teams と Azure Active Directory との間でのレプリケーションの遅延が発生します。 EU または APAC テナントから、ゲスト ユーザーをそれ以外の任意のテナントから追加しようとするユーザーに対して、もう一度やり直すことを求めるエラー メッセージが表示されます。   <br/> |再試行ボタンをクリックして、ゲスト ユーザーの追加を再実行します。  <br/> |2017/11/08  <br/> |
-|Internet Explorer または Edge から Teams に参加しようとすると、プログラムが一貫してループし続けるかクラッシュしてしまい、サイン インを実行しない。   <br/> | 所属する組織で Internet Explorer の [信頼済みサイト] を有効にしていて、その信頼済みサイトが Teams で許可されていないために、Teams の web ベース アプリケーションが正常にログインを実行しません。 <br/>|管理者の権限またはグループ ポリシー オブジェクトで、IE の設定を次のように変更します。<br/><ol><li>[インターネット オプション] &gt; [プライバシー] &gt; [詳細設定] で、[ 	ファースト パーティの Cookie] と [サード パーティの Cookie] を許可し、[常にセッション Cookie を許可する] のチェック ボックスを選択します。</li><li>[インターネット オプション] &gt; [信頼済みサイト] &gt; [サイト] をクリックして、次のすべてを追加します。<ul><li>https://\*.microsoft.com</li><li>https://\*.microsoftonline.com</li><li>https://\*.teams.skype.com</li><li>https://\*.teams.microsoft.com</li><li>https://\*.sfbassets.com</li><li>https://\*.skypeforbusiness.com</li></ul></li></ol><br/><b>注意</b>: 常に Teams の信頼済み URL のすべてと、「[Office 365 URL および IP アドレス範囲](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)」に記載されているすべての要件を確認し、許可してください。   <br/> <br/>|2017/11/01  <br/> |
-|OWA/Outlook において、ポリシーの要求どおりに Teams への写真のアップロードが禁止されない   <br/> | ポリシーの設定で OWA での写真のアップロードを防止するようになっていても、Teams はユーザーが写真を直接 Office 365 にアップロードすることを許可します。   <br/> <br/> |2017/10/16  <br/> |
-|パラメーター付きの Teams URL がログインのリダイレクト後に切り詰められてしまう  <br/> | Internet Explorer および Edge で、Teams の web アプリ上の共有したチームファイルのリンクをログイン後に初めて開くと、間違ったドキュメントにリダイレクトされてしまいます。 チームの web アプリに既にサインインしている場合は、共有ファイル リンクをクリックすると、リンクは正常に機能します。   <br/> <br/> |2017/10/11  <br/> |
+|Internet Explorer または Edge から Teams に参加しようとすると、プログラムが一貫してループし続けるかクラッシュしてしまい、サイン インを実行しない。   <br/> | 所属する組織で Internet Explorer の [信頼済みサイト] を有効にしていて、その信頼済みサイトが Teams で許可されていないために、Teams の web ベース アプリケーションが正常にログインを実行しません。 <br/>|管理者の権限またはグループ ポリシー オブジェクトで、IE の設定を次のように変更します。<br/><ol><li>[インターネット オプション] &gt; [プライバシー] &gt; [詳細設定] で、[ 	ファースト パーティの Cookie] と [サード パーティの Cookie] を許可し、[常にセッション Cookie を許可する] のチェック ボックスを選択します。</li><li>[インターネット オプション] &gt; [信頼済みサイト] &gt; [サイト] をクリックして、次のすべてを追加します。<ul><li>https://\*.microsoft.com</li><li>https://\*.microsoftonline.com</li><li>https://\*.teams.skype.com</li><li>https://\*.teams.microsoft.com</li><li>https://\*.sfbassets.com</li><li>https://\*.skypeforbusiness.com</li></ul></li></ol><br/><b>注意</b>: 常に Teams の信頼済み URL のすべてと、「[Office 365 URL および IP アドレス範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)」に記載されているすべての要件を確認し、許可してください。   <br/> <br/>|2017/11/01  <br/> |
+|OWA/Outlook において、ポリシーの要求どおりに Teams への写真のアップロードが禁止されない   <br/> | ポリシーの設定で OWA での写真のアップロードを防止するようになっていても、Teams はユーザーが写真を直接 Office 365 にアップロードすることを許可します。   <br/> <br/> | |2017/10/16  <br/> |
+|パラメーター付きの Teams URL がログインのリダイレクト後に切り詰められてしまう  <br/> | Internet Explorer および Edge で、Teams の web アプリ上の共有したチームファイルのリンクをログイン後に初めて開くと、間違ったドキュメントにリダイレクトされてしまいます。 チームの web アプリに既にサインインしている場合は、共有ファイル リンクをクリックすると、リンクは正常に機能します。   <br/> <br/> | |2017/10/11  <br/> |
 |Intune で管理されているモバイル デバイスで、ユーザーがアカウントを切り替えられません  <br/> |Intune で管理されているモバイル デバイスで、ユーザーがアカウントを切り替えられない場合があります  <br/> |回避策なし。  <br/> |2017/09/20  <br/>|
 |ゲストによって作成されたチャネルについて Wiki が作成されません  <br/> |ゲストが新しいチャネルを作成するときに、[**Wiki**] タブは作成されません。 そのチャネルに [**Wiki**] タブを手動で追加する方法はありません。 <br/> |回避策なし。  <br/> |2017/09/20  <br/>|
 |Chrome のビデオ レンダリングで緑色のアーティファクトが生じます  <br/> |Chrome での通話または会議で、ビデオの表示中または画面の共有中に緑色のアーティファクトが表示されます。  <br/> |Chrome でハードウェア アクセラレータを無効にしてください。  <br/> |2017/08/03  <br/> |
@@ -38,7 +38,7 @@ ms.lasthandoff: 02/09/2018
 |プライマリ モニターに [**最小化**] または [**閉じる**] ツールチップが残ります。 <br/> |Windows クライアントでは、ウィンドウを最小化または閉じた後、プライマリ モニターに [**最小化**] または [**閉じる**] ツールチップが残る場合があります。 <br/> |この問題は、[**最小化**] ボタンをポイントして、ツールチップが表示されてからクリックすることで回避できます。 <br/> |2017/07/03  <br/>|
 |一部のチームのコネクタ オプションがありません  <br/> |チャネルを右クリックすると、チームのどのメンバーのコネクタ オプションも表示されません。  <br/> |チームの作成者がオンライン メールボックスを持つ必要があります。これを持たない場合は、Connector オプションを使用できません。 これは想定された動作です。  <br/> |2017/06/26  <br/> |
 |チーム名に &amp; 記号が含まれるとコネクタが機能しません  <br/> |&amp; 記号を含むチーム名が作成されると、チーム/グループ内のコネクタを確立できなくなります。  <br/> |チーム名には特殊文字を使用しないでください。  <br/> |2017/06/21  <br/> |
-|先進認証でエラーが発生します  <br/> |多要素認証で最初のエラーが発生した場合、Web アプリを使用して認証を行います。  <br/> 詳しくは、[https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/ad-fs-prompt-login](http://technet.microsoft.com/library/https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/ad-fs-prompt-login.aspx)をご覧ください。  <br/> |Set -MsolDomainFederationSettings -DomainName yourdomainhere -PreferredAuthenticationProtocol WsFed -SupportsMfa $False -PromptLoginBehavior の設定が無効になっていることを確認してください。  <br/> |2017/06/19  <br/> |
+|先進認証でエラーが発生します  <br/> |多要素認証で最初のエラーが発生した場合、Web アプリを使用して認証を行います。  <br/> 詳細については、「[Active Directory フェデレーション サービスの prompt=login パラメーターのサポート](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-prompt-login)」をご覧ください。  <br/> |Set -MsolDomainFederationSettings -DomainName yourdomainhere -PreferredAuthenticationProtocol WsFed -SupportsMfa $False -PromptLoginBehavior の設定が無効になっていることを確認してください。  <br/> |2017/06/19  <br/> |
 |既存のチャネル名を再作成できません  <br/> |チャネル名は一度作成されると、削除しても再作成できません。 システムでは、このデータは情報保護シナリオ用に維持されます。  <br/> |回避策なし。  <br/> |2017/03/13  <br/> |
 |モバイル アプリを使用してステッカーを挿入できません  <br/> |モバイル アプリでステッカーを使用することはできません。  <br/> |回避策なし。  <br/> |2017/03/13  <br/> |
 |一部の会議で Skype for Business が必要になります  <br/> |Microsoft Teams には予定を示す便利なカレンダーが表示されます。 会議に入るには、[**参加**] ボタンをクリックします。 <br/> この分野は継続的に開発していますが、この会議が Skype for Business で予約されている場合に [**参加**] をクリックすると、Microsoft Teams は Skype for Business クライアントを起動し、ユーザーの会議への参加を完了させます。 Microsoft Teams 内で予約された会議は、製品内で直接開始されます。  <br/> 今後、この一連の操作の流れは簡素化される予定です。  <br/> |[**参加**] をクリックしてください。 Microsoft Teams は、会議の説明に記載された URL に基づき、会議への参加に Skype for Business が必要かどうかをインテリジェントに決定します。  <br/> |2017/03/13  <br/> |
