@@ -3,7 +3,7 @@ title: "Skype for Business から Microsoft Teams への移行"
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/05/2017
+ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor, dearbeen
@@ -11,13 +11,13 @@ description: "Skype for Business Online から Microsoft Teams に移行する�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81e016fd16e4f651515cdb56a18662e538dc4038
-ms.sourcegitcommit: 4f72e9fd65a2f759752fde5169d1152d0f5ce39c
+ms.openlocfilehash: feb21b64982940571192453f012feab2542c3bf9
+ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2018
+ms.lasthandoff: 03/05/2018
 ---
-<a name="journey-from-skype-for-business-to-microsoft-teams"></a>Skype for Business から Teams への移行
+<a name="journey-from-skype-for-business-to-microsoft-teams"></a>Skype for Business から Microsoft Teams への移行
 ==================================================
 
 より洗練された通話と会議のエクスペリエンスを実現しようという Microsoft の[インテリジェント コミュニケーション ビジョン](https://aka.ms/intelligentcommunicationsblog)の一環として、Skype for Business の機能を Teams に導入しています。 この取り組みは時間をかけて進展し、最終的に Teams を単一のクライアント エクスペリエンスとしてご利用いただけるようになります。 大切な Skype for Business のお客様のために、Microsoft は Teams に移行する行程の各ステップをサポートします。 Microsoft は、この移行には時間がかかると認識していますので、お客様が引き続き　Skype for Business　を稼働しながら、今すぐ Teams について理解を深めて、お客様の組織にもたらされる価値を実感できるようにご案内します。 

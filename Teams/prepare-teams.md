@@ -3,18 +3,18 @@ title: "Microsoft Teams の導入に向けて現在の Skype for Business 環境
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
 description: "Skype for Business から Microsoft Teams への移行を開始するためのガイダンス"
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cae04416438d08771324b5227014ab4f3043a71
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
+ms.openlocfilehash: 15b989e69f637697a1ea9bde676382eeccb0e019
+ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 <a name="optimize-your-current-skype-for-business-environment-for-microsoft-teams"></a>Microsoft Teams の導入に向けて現在の Skype for Business 環境を最適化する
 ==============================================================

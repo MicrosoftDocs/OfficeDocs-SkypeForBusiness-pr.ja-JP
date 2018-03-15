@@ -1,5 +1,5 @@
 ---
-title: "ツールとワークショップ - Microsoft Teams の計画、提供、運用"
+title: "ツールとワークショップ - Microsoft Teams の計画、提供、導入"
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,25 +7,25 @@ ms.date: 01/24/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara, lolaj, rowille
-description: "管理者による Microsoft Teams の使用の開始をサポートするためのツール、ワークショップ、スタートアップ キットの計画。"
+description: "組織による Microsoft Teams の使用の開始をサポートするためのツール、ワークショップ、スタートアップ キットの計画。"
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecb8c4f893f3bbced59331349e432883d0cb7953
-ms.sourcegitcommit: 9094c87dec3f8d7d05c7e879d357a6ed428d7cdf
+ms.openlocfilehash: 353d53287260da365646271ef886c95fe839bf6a
+ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/01/2018
 ---
-<a name="tools-and-workshops-plan-deliver-and-operate-microsoft-teams"></a>ツールとワークショップ: Microsoft Teams の計画、提供、運用
+<a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>ツールとワークショップ: Microsoft Teams の計画、提供、導入
 =============================================================
 
-組織で Teams を計画、提供、運用するための手順を記載した以下のツールをダウンロードしてください。
+組織で Teams を計画、提供、導入するための手順を記載した以下のツールをダウンロードしてください。
 
-- [Microsoft Teams スタートアップ キット](http://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) 
+
+- [Microsoft Teams カスタマー サクセス キット](http://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) 
     
-    このキットには、自分の組織での Teams のロールアウトのために使用できる、広範なプレゼンテーション、電子メールのテンプレート、ヒントとテクニック、およびポスターが含まれています。 2 種類のクイック スタート ガイドがあります。IT 管理者向けのものと、チーム リーダー向けのものです。 これらのリソースを使用して、マーケティング、営業、財務、人事、IT、エンジニアリング、プロジェクト管理などの組織のさまざまな機能において、Teams を最大限に活用します。
-
+    このキットには、自分の組織での Teams のロールアウトおよび導入の促進のために使用できる、広範なプレゼンテーション、電子メールのテンプレート、ヒントとテクニック、およびポスターが含まれています。 管理者、チーム リーダー、および各部門のユース ケースの例に対応した、2 つのクイック スタート ガイドが含まれています。 これらのリソースを使用して、マーケティング、営業、財務、人事、IT、エンジニアリング、プロジェクト管理などの組織のさまざまな機能において、Teams を最大限に活用します。 
 
 
 - [管理者のクイック スタート ガイド](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)

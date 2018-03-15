@@ -13,11 +13,11 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad7af6222430f3cd3109ca76ce919a3342b959c8
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
+ms.openlocfilehash: 87871cb46c1b9e584308b75376622473a3131888
+ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 <a name="turn-on-microsoft-teams-features-in-your-office-365-organization"></a>Office 365 を使用する組織で Microsoft Teams の機能をオンにする
 ======================================================
@@ -82,7 +82,7 @@ Teams の**テナント全体の設定**を編集するには、Office 365 管�
 <a name="apps"></a>アプリ
 ----
 
-アプリとは、サードパーティのサービスによって提供されるタブ、コネクタ、ボットという 3 つの要素のあらゆる組み合わせで構成されているものです。 Office 365 管理センターで構成可能な Teams 管理ポリシーを使用すると、許可する外部サードパーティ アプリを制御することができます。 このポリシーでは、許可または禁止するアプリ、新しい外部アプリの動作、アプリのサイドロードを許可するかどうかを指定できます。 
+アプリとは、単一のサードパーティ サービスによって提供されるタブ、コネクタ、ボットという 3 つの要素のあらゆる組み合わせで構成されているものです。Office 365 管理センターで構成可能な Teams 管理ポリシーを使用すると、許可する外部サードパーティ アプリを制御することができます。このポリシーでは、許可または禁止するアプリ、新しい外部アプリの動作、アプリのサイドロードを許可するかどうかを指定できます。 
 
 [**アプリ**] の下で、組織の次の設定を構成できます。 
 
@@ -142,7 +142,7 @@ Teams でチームを作成できる組織のユーザーを制御できます�
 
 -   **Allow scheduling for private meetings (プライベート会議の予約を許可する):** オンの場合、ユーザーはいずれのチャネルにもリストされていないプライベート会議を予約できます。
 
--   **Allow ad-hoc channel meetup (臨時のチャネル会合を許可する):**
+-   **Allow ad-hoc channel meetup (臨時のチャネル会合を許可する)**: オンの場合、ユーザーは目前の目的または特定の目的のために作成されたチャネルで会議を速やかに開始することができます。
 
 -   **Allow scheduling for channel meetings (チャネル会議の予約を許可する):** オンの場合、ユーザーは、すべてのチャネル メンバーが 1 回のクリックで簡単に参加できるチャネルの会議を予約することができます。
 

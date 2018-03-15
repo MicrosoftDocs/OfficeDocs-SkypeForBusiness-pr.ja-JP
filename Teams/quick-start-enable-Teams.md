@@ -11,11 +11,11 @@ description: "このガイドは、所属する組織で使用する Microsoft T
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94d5150ff929afbdc188924fe1c79b2ee0287365
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
+ms.openlocfilehash: 7111e5aea9869a99ffec76f7da655f1ac0261aa8
+ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/01/2018
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>クイック スタート: Microsoft Teams の計画ガイド
 ==========================================================
@@ -29,7 +29,9 @@ ms.lasthandoff: 02/19/2018
 
 使用する Teams の展開でのステークホルダーおよび意思決定グループとして機能するように、会社、IT 部門、ユーザー コミュニティに属している人たちのグループを編成します。 より小規模な組織では、2、3 人のユーザーのグループになるかもしれません。 正常に導入を完了するために、確実にこれらの 3 つのコミュニティすべてのユーザーを含めるようにしてください。  
 
-## <a name="step-2--prioritize-your-business-scenarios"></a>手順 2:  ビジネス シナリオに優先順位を設定する
+各グループは、一般化の流れの中でお互いに重なる役割を果たすこともありますが、固有のスキルを持ち寄ってきます。 IT 専門家は、すべての Office 365 サービスにわたりエンドツーエンドの結合を確保しながら、エクスペリエンスの正常性、セキュリティ、管理容易性について焦点をあてることがよくあります。 ビジネス ユーザーは、貴重なテスト ケースとなる実践的なシナリオやビジネス ニーズをもたらします。 テストが成功し、広範な展開の計画を行うためには、両方の観点が必要となります。    
+
+## <a name="step-2-prioritize-your-business-scenarios"></a>手順 2: ビジネス シナリオに優先順位を設定する
 
 コラボレーションやコミュニケーションは、人に関わることです。 各種の機能について議論する代わりに、お客様の組織でもっとも関連性が深いビジネス シナリオを取り上げます。 お客様の会社のシナリオを定義するのに役立つ例については、[Microsoft 365 FastTrack Productivity Library](https://fasttrack.microsoft.com/microsoft365/productivitylibrary) をご覧ください。 正常に完了した Teams の展開では、製品開発部、マーケティング イベント チーム、財務グループ、サポート組織などの緊密に連携し合う俊敏なチームを中心に置いていることがよくあります。 これらのシナリオのいずれか 1 つを選択し、各ユーザーが現在どのように機能しているかについて簡易的な要約を作成します。これにより、関係するユーザーにとって意味のある形式で効率的に Teams のエクスペリエンスを設計することができます。
 
@@ -37,6 +39,12 @@ ms.lasthandoff: 02/19/2018
 **Teams で Teams を計画する** ユーザーが自分たちの展開を計画するために Teams を使用することで、主要なステークホルダーの変化曲線が緩やかになります。 Microsoft 365 の展開という名前のチームを作成して、展開しようと考えているさまざまなワークロード用のチャネルの作成を検討します。 お客様のチームは次のようになる可能性があります。
 
 ![Microsoft 365 展開チームの例のスクリーンショット。](media/quick-start-enable-Teams-Microsoft365-Deployment-Team.png)
+
+Microsoft Teams でチーム、チャネル、タブの計画を行うときの考慮事項についての簡単なガイダンスを含んでいるこの短いビデオを視聴します。 
+
+<iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
+
+Microsoft Teams がご利用の Office 365 テナントで有効ではなく、自分が Office 365 管理者である場合は、「[Office 365 を使用する組織で Microsoft Teams をセットアップする](office-365-set-up.md)」の記事の指示に従って、自分の組織のユーザーが確実にアプリケーションにアクセスできるようにしてください。
 
 ## <a name="step-3-complete-technical-planning"></a>手順 3: 技術計画を完成する
 
@@ -47,7 +55,7 @@ ms.lasthandoff: 02/19/2018
 3.  [Office 365 の URL と IP アドレスの範囲](office-365-urls-ip-address-ranges.md)
 4.  [Teams でのゲスト アクセス](guest-access.md)
 
-さらに、組織によっては、[Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)を確認する必要がある可能性があります。
+さらに、一部の組織では、[Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)を確認する必要がある可能性があります。
 
 
 ## <a name="step-4-conduct-pilots-and-deploy-teams"></a>手順 4: パイロットを実施し、Teams を展開する
@@ -84,6 +92,6 @@ Teams を展開しているときに、モバイル エクスペリエンスを�
 
 
 ## <a name="next-steps"></a>次のステップ
-1. [ワークショップ キット: Microsoft Teams の計画、提供、運用](planning-workshop-practical-guide.md)に移動します
+1. [ツールとワークショップ: Teams の計画、提供、導入](planning-workshop-practical-guide.md)に移動します
 2. 「[Quick start guide: Successfully enable Teams (クイック スタート ガイド: Teams を正常に利用できるようにする)](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)」の技術計画に関するアンケートをダウンロードして記入します。
 3. 組織内で Teams を起動するためのワークショップ「[Microsoft Teams の計画、提供、運用](http://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx)」をダウンロードします。

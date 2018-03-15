@@ -3,18 +3,18 @@ title: "ユーザーの導入を介して Microsoft Teams の価値を創出す�
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
 description: "Skype for Business から Microsoft Teams への移行を続けるためのガイダンス"
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69585fd4caf17b299bf0261189bfd473702db8ab
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
+ms.openlocfilehash: 2b897a4de7358faf01bb2c79835a5d7254c88dca
+ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 <a name="drive-value-with-microsoft-teams-through-user-adoption"></a>ユーザーの導入を介して Microsoft Teams の価値を創出する
 ================================================================
