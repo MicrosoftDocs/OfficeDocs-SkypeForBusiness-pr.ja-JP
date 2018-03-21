@@ -1,0 +1,44 @@
+---
+title: "Exchange ユニファイド メッセージングを管理し、ボイスメールのホスト"
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.date: 01/22/2018
+ms.topic: article
+ms.assetid: 707198df-df85-4833-9c15-aa29b71f085c
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+appliesto:
+- Skype for Business
+localization_priority: Normal
+f1keywords: None
+ms.custom:
+- PowerShell
+description: Use PowerShell to manage Exchange Unified Messaging capabilities such as Auto Attendant and Subscriber Access and hosted voicemail in Skype for Business Online.
+ms.openlocfilehash: cc4904768cbb7f6bbcbbd9921efebfe7d4765c55
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 02/27/2018
+---
+# <a name="manage-exchange-unified-messaging-and-hosted-voicemail"></a><span data-ttu-id="f7f9f-103">Exchange ユニファイド メッセージングを管理し、ボイスメールのホスト</span><span class="sxs-lookup"><span data-stu-id="f7f9f-103">Manage Exchange Unified Messaging and hosted voicemail</span></span>
+
+<span data-ttu-id="f7f9f-104">[] 一連のコマンドレットを使用して、Exchange ユニファイド メッセージング、Skype for Business Online のホスト型ボイスメールを管理できます。</span><span class="sxs-lookup"><span data-stu-id="f7f9f-104">You can manage Exchange Unified Messaging and hosted voicemail in Skype for Business Online by using a set of cmdlets.</span></span>
+  
+## <a name="manage-exchange-unified-messaging-and-hosted-voice-mail"></a><span data-ttu-id="f7f9f-105">Exchange ユニファイド メッセージングとホスト型ボイス メールの管理</span><span class="sxs-lookup"><span data-stu-id="f7f9f-105">Manage Exchange unified messaging and hosted voice mail</span></span>
+
+<span data-ttu-id="f7f9f-106">次のコマンドレットを使用して、Exchange ユニファイド メッセージング (UM) とホスト型ボイスメール のポリシーを管理できます。</span><span class="sxs-lookup"><span data-stu-id="f7f9f-106">The following cmdlets can be used to manage Exchange Unified Messaging (UM) and hosted voicemail policies:</span></span>
+  
+|<span data-ttu-id="f7f9f-107">**コマンドレット**</span><span class="sxs-lookup"><span data-stu-id="f7f9f-107">**Cmdlet**</span></span>|<span data-ttu-id="f7f9f-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="f7f9f-108">**Description**</span></span>|
+|:-----|:-----|
+|[<span data-ttu-id="f7f9f-109">Get CsExUmContact</span><span class="sxs-lookup"><span data-stu-id="f7f9f-109">Get-CsExUmContact</span></span>](https://go.microsoft.com/fwlink/p/?linkid=849628) <br/><br/> [<span data-ttu-id="f7f9f-110">新しい-CsExUmContact</span><span class="sxs-lookup"><span data-stu-id="f7f9f-110">New-CsExUmContact</span></span>](https://go.microsoft.com/fwlink/p/?linkid=849629) <br/> <br/>[<span data-ttu-id="f7f9f-111">削除 CsExUmContact</span><span class="sxs-lookup"><span data-stu-id="f7f9f-111">Remove-CsExUmContact</span></span>](https://go.microsoft.com/fwlink/p/?linkid=849630) <br/> <br/>[<span data-ttu-id="f7f9f-112">セット CsExUmContact</span><span class="sxs-lookup"><span data-stu-id="f7f9f-112">Set-CsExUmContact</span></span>](https://go.microsoft.com/fwlink/p/?linkid=849631) <br/> |<span data-ttu-id="f7f9f-113">Exchange UM がホストされるサービスである場合、このコマンドレットは自動応答およびサブスクライバー アクセスで使用する連絡先オブジェクトを作成、管理します。</span><span class="sxs-lookup"><span data-stu-id="f7f9f-113">Creates and manages contact objects used for Auto Attendant and Subscriber Access services, when Exchange UM is a hosted service.</span></span>  <br/><br/> <span data-ttu-id="f7f9f-p101">Skype for Business Online では、Exchange UM と連係して、自動応答やサブスクライバー アクセスといった音声関連の機能が提供されています。自動応答は、着信に自動的に応答したり、適切な人物に通話を経由する機能です。サブスクライバー アクセスを使用すると、ユーザーは Exchange UM にアクセスして、電子メール、音声メッセージ、連絡先、予定表情報を取得できます。</span><span class="sxs-lookup"><span data-stu-id="f7f9f-p101">Skype for Business Online works with Exchange UM to provide several voice-related capabilities, including Auto Attendant and Subscriber Access. Auto Attendant provides a way for calls to automatically be answered and routed to the correct person. Subscriber Access enables users to connect to Exchange UM and retrieve email, voice messages, contacts, and calendar information.  </span></span><br/><br/> <span data-ttu-id="f7f9f-p102">Exchange UM がホストされたサービスとして提供されている場合は、Microsoft PowerShell を使用して、自動応答やサブスクライバー アクセスのサービスで使用する連絡先オブジェクトを作成する必要があります。連絡先オブジェクトは **CsExUmContact** コマンドレットを使用して作成、管理します。</span><span class="sxs-lookup"><span data-stu-id="f7f9f-p102">When Exchange UM is provided as a hosted service, contact objects used for the Auto Attendant and Subscriber Access services must be created by using Microsoft PowerShell. These objects are created and managed by using the **CsExUmContact** cmdlets. </span></span><br/> |
+|[<span data-ttu-id="f7f9f-119">Get CSHostedVoicemailPolicy</span><span class="sxs-lookup"><span data-stu-id="f7f9f-119">Get-CSHostedVoicemailPolicy</span></span>](https://go.microsoft.com/fwlink/p/?linkid=849633) <br/> <br/>[<span data-ttu-id="f7f9f-120">許可 CSHostedVoicemailPolicy</span><span class="sxs-lookup"><span data-stu-id="f7f9f-120">Grant-CSHostedVoicemailPolicy</span></span>](https://go.microsoft.com/fwlink/p/?linkid=849602) <br/> |<span data-ttu-id="f7f9f-p103">組織で使用するホスト型ボイスメールのポリシーを管理します。ホスト型ボイスメールのポリシーでは、不在着信を Exchange UM サービスに経由する方法を指定します。これらのポリシーは、Exchange UM にホストされるボイスメールが有効化されたユーザーにのみ影響します。</span><span class="sxs-lookup"><span data-stu-id="f7f9f-p103">Manages hosted voicemail policies used in the organization. Hosted voicemail policies specify how unanswered calls are routed to the Exchange UM service. These policies affect only users who have been enabled for Exchange UM hosted voicemail.</span></span>  <br/><br/> <span data-ttu-id="f7f9f-124">ホスト型ボイスメールが有効化されているかどうかを確認するには、PowerShell プロンプトで次のようなコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="f7f9f-124">To verify whether a user is enabled for hosted voicemail, run a command similar to the following from the PowerShell prompt.</span></span>  <br/> <span data-ttu-id="f7f9f-125">' Get CsOnlineUser-"kenmyer@litwareinc.com"の Id</span><span class="sxs-lookup"><span data-stu-id="f7f9f-125">\`Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"</span></span> | <span data-ttu-id="f7f9f-126">選択オブジェクトの HostedVoiceMail'</span><span class="sxs-lookup"><span data-stu-id="f7f9f-126">Select-Object HostedVoiceMail\`</span></span>|
+   
+
+## <a name="related-topics"></a><span data-ttu-id="f7f9f-127">このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。</span><span class="sxs-lookup"><span data-stu-id="f7f9f-127">Related topics</span></span>
+[<span data-ttu-id="f7f9f-128">Windows PowerShell を使用してビジネスのオンライン管理のための skype には、コンピューターを設定します</span><span class="sxs-lookup"><span data-stu-id="f7f9f-128">Set up your computer for skype for business online management using Windows PowerShell</span></span>](set-up-your-computer-for-windows-powershell.md)
+
+## <a name="feedback"></a><span data-ttu-id="f7f9f-129">フィードバックですか。</span><span class="sxs-lookup"><span data-stu-id="f7f9f-129">Feedback?</span></span>
+<span data-ttu-id="f7f9f-130">製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f7f9f-130">To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).</span></span>
