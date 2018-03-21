@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 02/06/2018
+ms.date: 03/19/2018
 ms.topic: article
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
@@ -24,11 +24,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "国や地域ごとに、Skype for Business Online および Microsoft Teams のユーザーの電話番号を取得する手順が異なります。 必要な情報を取得するには、以下の国または地域へのリンク先に移動してください。"
-ms.openlocfilehash: 600d1370d0823c0cf5efab0c75ce0f26d6867828
-ms.sourcegitcommit: 730194fa152085ca2cee30373eaf68efa5f6b4ce
+ms.openlocfilehash: 01c6f3bbb01d74d021594612561d035163378ba5
+ms.sourcegitcommit: e7e4d7200b586ff3d21d93a17867eb20a13a6212
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>組織のために電話番号を管理する
 ユーザーとサービスの両方を取得する 3 つの方法があります (有料とフリー ダイヤル)、組織の番号です。
@@ -37,7 +37,7 @@ ms.lasthandoff: 03/20/2018
 - 転送または「ポート」の既存の番号の上にします。
 
 > [!IMPORTANT]
-> **ベルギー、アイルランド、ドイツ、オランダ**、**ビジネス管理センターの Skype**でを使用して電話新しい電話番号を取得できません。ダウンロードして、フォームに記入する必要があります。
+> **ベルギー、アイルランド、ドイツ、オランダ**、**ビジネス管理センターの Skype**でを使用して電話新しい電話番号を取得できません。ダウンロードして、フォームに記入する必要があります。 オーストラリアで新しい電話番号は、 [Telstra のインターネット電話サービス](http://aka.ms/TelstraVoicePlan)を参照してください。 
 
 ***
 フォームを検索する使用するためにドロップの種類がわかっている場合は、番号を取得する国/地域を選択します。

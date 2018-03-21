@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: "オーストラリアの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。"
-ms.openlocfilehash: 7cc3be9976f0a581618cc93b835fceadab302717
-ms.sourcegitcommit: 730194fa152085ca2cee30373eaf68efa5f6b4ce
+ms.openlocfilehash: 4552e465531ddbb331a0b0226b427ac44de1c558
+ms.sourcegitcommit: e7e4d7200b586ff3d21d93a17867eb20a13a6212
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="availability-in-australia"></a>オーストラリアの可用性
 
@@ -47,7 +47,7 @@ ms.lasthandoff: 03/20/2018
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話システムは購入できますか?  <br/> |はい  <br/> |
-| 自動応答 <br/> |利用可能  <br/> |
+|自動応答 <br/> |利用可能  <br/> |
 |通話キュー  <br/> |利用可能  <br/> |
 |ボイスメール  <br/> |利用可能  <br/> |
    
@@ -57,7 +57,7 @@ ms.lasthandoff: 03/20/2018
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|通話プランは購入できますか?  <br/> |はい、 [Telstra のサービス](http://aka.ms/TelstraVoicePlan)を参照してください。  <br/> |
+|通話プランは購入できますか?  <br/> |はい、 [Telstra のインターネット電話サービス](http://aka.ms/TelstraVoicePlan)を参照してください。  <br/> |
 |通話プランで利用可能な通話分数  <br/> |[Telstra のサービス](http://aka.ms/TelstraVoicePlan)を参照してください。 <br/> |
 |発信通話を行うことができますか?  <br/> |[Telstra のサービス](http://aka.ms/TelstraVoicePlan)を参照してください。 <br/> |
 
@@ -69,7 +69,7 @@ ms.lasthandoff: 03/20/2018
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
    
-自動応答と通話キューの有料電話番号と無料電話番号を取得する場合は、 [Telstra のサービス](http://aka.ms/TelstraVoicePlan)を参照してください。 オーディオ会議で[ご連絡ください](mailto:ptnapac@microsoft.com)。
+自動応答と通話キューの有料電話番号と無料電話番号を取得する場合は、 [Telstra のインターネット電話サービス](http://aka.ms/TelstraVoicePlan)を参照してください。 オーディオ会議サービス番号の[ご連絡ください](mailto:ptnapac@microsoft.com)。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
