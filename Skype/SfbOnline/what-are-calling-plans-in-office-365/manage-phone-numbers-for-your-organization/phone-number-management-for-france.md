@@ -21,10 +21,10 @@ ms.custom:
 - Strat_SB_PSTN
 description: "この表で、フランスでの Skype for Business Online および Microsoft Teams の電話番号の取得と管理についての情報を確認できます。"
 ms.openlocfilehash: a47deb336b2c09f4a022760149f5bb70bdbcb677
-ms.sourcegitcommit: 46ca433590a4c3aefbe2fb777542bb0b332563bf
-ms.translationtype: HT
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="phone-number-management-for-france"></a>フランスでの電話番号の管理
 

@@ -1,0 +1,110 @@
+---
+title: "デバイスの使用状況レポート"
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.reviewer: mikedav, wlooney
+ms.date: 01/22/2018
+ms.topic: article
+ms.assetid: b9019c36-034f-40c7-acb0-c2a0400b03c3
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+appliesto:
+- Skype for Business
+localization_priority: Normal
+f1keywords:
+- O365E_ReportsS4BClients
+ms.custom:
+- Reporting
+description: "新しい Office 365 のレポート ダッシュ ボードによって、組織で Office 365 製品間でのアクティビティの概要がわかります。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 やなどのデバイスの使用状況レポートをビジネス用の Skype を使用するには、Windows ベースのオペレーティング システムを含む、デバイスにモバイル デバイスをビジネス アプリケーションの Skype がインストールされ、IM および会議のためのそれを使用しています。 詳細については、Office 365 の管理センターでの活動レポートをご覧ください。"
+ms.openlocfilehash: eef16b8c41ff80d3d472c2efe851d4275f9eb327
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 02/19/2018
+---
+# <a name="device-usage-report"></a>デバイスの使用状況レポート
+
+[] 新しい Office 365 の [ **レポート**] ダッシュボードには、組織内の Office 365 製品全体にわたるアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 たとえば、 **Skype**ビジネス デバイスの使用状況のレポートを使用するには、Windows ベースのオペレーティング システムを含む、デバイスに、モバイル デバイスをビジネス アプリケーションの Skype がインストールされ、IM および会議のためのそれを使用しています。 
+
+詳細については、[レポートの概要](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)をご覧ください。
+  
+このレポートとは、ビジネス レポートの場合は、他の Skype によって、組織全体で使用されているクライアントとデバイスの種類の詳細情報が表示します。 これらの詳細は、組織でその他のビジネス上の決定を調査、計画、実行しているときに役立ちます。
+  
+> [!NOTE]
+> 管理者として Office 365 管理センターにログオンすると、すべての Skype for Business レポートを見ることができます。 
+  
+## <a name="how-to-get-to-the-skype-for-business-device-usage-report"></a>デバイスの使用状況レポートをビジネス用の Skype を取得する方法
+
+1. **Office 365 管理センター**を参照して > **レポート** > **の使用率**です。
+    
+2. [**使用状況**] ページで、**レポートの一覧を選択して**左側の [**デバイスの使用状況をビジネス用の Skype**をクリックします。 または、 **Skype**ビジネス アクティビティのウィジェットをクリック**Skype** **ビジネス デバイスの使用状況の Skype**ビジネス アクティビティの一覧にします。
+    
+     ![ビジネスのデバイスの使用状況レポートのウィジェットの Skype](../images/13e7a51c-f680-4164-9a18-67de10fceb7f.png)
+  
+    Office 365 のサブスクリプションによっては、ここで説明する製品やアクティビティ レポートの一部が表示されないことがあります。
+    
+## <a name="interpret-the-skype-for-business-device-usage-report"></a>デバイスの使用状況レポートをビジネスの Skype を解釈します。
+
+使用している、Skype ビジネス アプリケーションの**ユーザー**と**配布**のグラフを参照しているデバイスには、ビューを取得できます。
+  
+![Skype ビジネス デバイスの使用状況レポート](../images/a1350924-37f8-4ae3-8603-bdde8c694203.png)
+  
+***
+![番号 1](../images/sfbcallout1.png)<br/>**Skype**ビジネス デバイスの使用状況のレポートは、傾向の過去 7 日間、30 日、90 日または 180 日間に表示できます。 
+
+    > [!Note]
+    > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
+***
+![番号 2](../images/sfbcallout2.png)<br/>
+各レポートには、このレポートが生成された日付が表示されます。 レポートは、通常、活動の時間から 24-48 時間の遅延時間を反映します。 
+***
+![番号 3](../images/sfbcallout3.png)<br/>**ユーザー**グラフの対話型のグラフのデータを使用して、利用状況の傾向を理解して、組織で使用されているビジネス アプリケーションに、Skype を使用して接続されているユーザーの数を表示します。 ユーザーの合計数と、Skype のビジネス アプリケーションがインストールされている**Windows**、 **Windows Phone**、 **Android の電話**、 **iPhone**、および**iPad**のデバイスの種類を表示し、組織全体で使用されています。
+***
+![番号 4](../images/sfbcallout4.png)<br/>**配布**横棒グラフに対話型のグラフのデータを使用すると、固有のデバイスを使用して、組織内のユーザー数を表示するのに使用状況を把握できます。 表示されます、 **Windows**、 **Windows Phone**、 **Android の電話**、 **iPhone**、および**iPad**のユーザーの合計数を使用しているデバイス。 
+***
+![番号 5](../images/sfbcallout5.png)<br/>凡例の項目をクリックして、グラフに表示する系列をフィルター処理できます。 **ユーザー**グラフのクリックしてなど、 **Windows**、 **Windows Phone**、 **Android の電話**、 **iPhone**、または**iPad**それぞれに関連する情報のみを表示する] をタップします。 この選択を変更しても、グリッド テーブルの情報は変更されません。 
+***
+![番号 6](../images/sfbcallout6.png)<br/>各グラフには、「X」軸（水平）と「Y」軸（垂直）があります。
+*    **ユーザー**グラフの Y 軸は、Skype のビジネス アプリケーションがインストールされているデバイスを接続しているユーザーの合計数
+*    **配布**アクティビティ グラフは、Y 軸は、特定の種類のビジネス アプリケーションがインストールされているため、Skype でのデバイスと接続されているユーザーの数です。 
+
+どちらのグラフも、X 軸はこの特定のレポートで選択した日付範囲です。
+***
+![数 7](../images/sfbcallout7.png)<br/>表では、ユーザーごとのすべての会議活動の内訳を示します。 Skype との会議のアクティビティに割り当てられているビジネスのためのすべてのユーザーが表示されます。 表には、追加の列を追加することができます。
+*    [ **ユーザー名**] はユーザーの名前です。 
+*    **最後のアクティビティの日付 (UTC)**は、ユーザーがピア ツー ピア セッションに参加または会議を開催または会議に参加した最後の時刻です。
+*    ユーザーが Windows ベースのオペレーティング システムにインストールされているビジネスのクライアント アプリケーションの Skype があり、使用されている場合は、**ウィンドウ**をオフにします。 
+*    ユーザーは、Windows Phone デバイスにインストールされているビジネスのクライアント アプリケーションの Skype に、使用されている場合、 **Windows Phone**を選択します。
+*    ユーザーが Android 携帯電話にインストールされているビジネスのクライアント アプリケーションの Skype があり、使用されている場合は、 **android の電話**をオンにします。
+*    ユーザーが iPhone にインストールされているビジネスのクライアント アプリケーションの Skype があり、使用されている場合、 **iPhone**を選択します。 
+*    ユーザーが iPad 上でインストールされているビジネスのクライアント アプリケーションの Skype があり、使用されている場合は、 **iPad**をオンにします。 
+
+組織のポリシーにより、ユーザー情報を特定できるレポートを表示できない場合は、これらすべてのレポートのプライバシー設定を変更できます。 チェック アウト、**ユーザー レベルの詳細を非表示にする方法ですか?** [Office 365 の管理センターでの活動レポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)のセクション。 
+***
+![数 8](../images/sfbcallout8.png)<br/>追加またはレポートから列を削除する列のいずれかの**列**のアイコンをタップまたはクリックします。           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
+***
+![番号 9](../images/sfbcallout9.png)<br/>また、[ **エクスポート**] をクリックまたはタップして、レポート データを Excel の .csv ファイルにエクスポートすることもできます。           <br/> ![ビジネスを報告するための Skype では、ボタンをエクスポートします。](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>これにより、すべてのユーザーのデータがエクスポートされ、単純な並べ替えとフィルター処理を行ってさらに分析することができます。ユーザー数が 2000 未満である場合は、レポート自体のテーブル内で並べ替えとフィルター処理を行うことができます。ユーザー数が 2000 を超える場合は、フィルター処理と並べ替えを行うために、データをエクスポートする必要があります。 
+   
+## <a name="want-to-see-other-skype-for-business-reports"></a>Skype for Business のその他のレポートを表示しますか?
+
+- [Skype for Business アクティビティ レポート](activity-report.md) - ユーザーがどの程度ピアツーピア、開催、参加で電話会議セッションを使用しているかを確認できます。
+    
+- [Skype for Business 電話会議開催者アクティビティ レポート](conference-organizer-activity-report.md) - ユーザーがどの程度 IM、音声/ビデオ、アプリケーション共有、Web、ダイヤルイン/アウト - サード パーティ、ダイヤルイン/アウト - Microsoft を使用した電話会議を開催しているかを確認できます。
+    
+- [Skype for Business 電話会議参加者アクティビティ レポート](conference-participant-activity-report.md) - 参加者がいる IM、音声/ビデオ、アプリケーション共有、Web 会議、ダイヤルイン/ダイヤルアウト会議の数を確認できます。
+    
+- [Skype for Business ピアツーピア アクティビティ レポート](peer-to-peer-activity-report.md) - ユーザーがどの程度 IM、音声/ビデオ、アプリケーション共有、ファイル転送を使用しているかを確認できます。
+    
+- [Skype ビジネス ユーザー向けには、レポートがブロックされています。](users-blocked-report.md)PSTN の呼び出しからブロックされている、組織内のユーザーを表示できます。
+    
+- [Skype ビジネス PSTN の使用状況レポート](pstn-usage-report.md)送信/受信の呼び出しに費やされ、これらの呼び出しのコストの数分の数を表示できます。
+
+- [Skype](pstn-minute-pools-report.md)ビジネス PSTN 分プール レポートの現在の月に、組織内で消費される時間を分単位を表示できます。
+
+- [Skype ビジネス セッション詳細レポート](session-details-report.md)個々 のユーザーの呼び出しの経験についての詳細を表示できます。
+    
+## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+[Office 365 管理センターのアクティビティ レポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

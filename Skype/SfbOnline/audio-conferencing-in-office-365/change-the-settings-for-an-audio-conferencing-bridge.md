@@ -1,0 +1,114 @@
+---
+title: "オーディオ会議ブリッジの設定を変更します。"
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.reviewer: oscarr
+ms.date: 01/22/2018
+ms.topic: article
+ms.assetid: 783fad3f-b77c-422b-b91f-7c8b0af324fb
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+appliesto:
+- Skype for Business
+- Microsoft Teams
+localization_priority: Normal
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: "呼び出し元のメッセージを表示し、クライアントのビジネスの Skype を使用していないことと、名と会議の開催者のピンを収集するために使用されるマイクロソフトでは、ダイヤルイン会議ブリッジの設定を変更する必要があります手順を取得します。 "
+ms.openlocfilehash: f37af15b4ab66eb5765cccbdba63b3bb6bb14597
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 02/19/2018
+---
+# <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>オーディオ会議ブリッジの設定を変更します。
+
+Office 365 に電話会議を設定する場合、オーディオ会議ブリッジと呼ばれますから、ユーザーの電話番号が表示されます。 会議用ブリッジは、1 つまたは複数の電話番号を含めることができます。 これらの電話番号は、呼び出し元が、会議にダイヤルインするときに使用されます。 電話番号では、ビジネスまたはマイクロソフトのチームの会議出席依頼の Skype の下部に含まれています。
+  
+会議用ブリッジが呼び出しに応答し、会議自動アテンダント、およびその後、設定によってを使用して音声メッセージを呼び出し元を確認できます通知を再生、自分の名前を記録するための呼び出し元を確認、暗証番号 (pin) の設定を制御します。 ピンはされたミーティングの開催者に許可するように、会議を開始するが使用していない、Skype アプリのビジネスまたはマイクロソフトのチームにします。
+
+    > [!IMPORTANT]
+    > A PIN is only required for the meeting organizer when a Skype for Business or Microsoft Teams app user hasn't already started the meeting. If everyone is dialing in to the meeting, the PIN is required for the meeting organizer to start the meeting. 
+  
+## <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>オーディオ会議ブリッジの設定を変更します。
+
+ **呼び出し元がミーティングに参加するときに会議の経験を設定します。**
+  
+1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
+    
+2. Go to the **Office 365 admin center** > **Skype for Business**.
+    
+3. **ビジネス管理センターの Skype**では、左側のナビゲーションで移動**電話会議**に > **Microsoft ブリッジ設定**します。
+    
+4. **Microsoft ブリッジの設定**ページで、[**会議参加の経験**をするには、次のコマンドを選択します。
+    
+  - **Enable meeting entry and exit notifications to be turned on** This is selected by default. チェック ボックスをオフにするとデータを入力したり、会議を離れると、会議に参加しているユーザーが通知はありません。
+    
+    **会議エントリを有効にして終了の通知をオンにする**を選択すると、**開始/終了のお知らせの種類**] ボックスの一覧からこれらのオプションを選択します。
+    
+  - **名前や電話番号**ユーザーが会議にダイヤルインするときは、それに参加するときに、電話番号が再生されます。
+    
+  - **トーン**ユーザーが会議にダイヤルインするときは、それに参加するときに、オーディオの音が再生されます。
+    
+    > [!NOTE]
+    > **トーン**を使用して、お知らせの種類としては、すべてのお客様には、現在利用可能なプレビュー機能として。
+  
+  - **会議の PIN の長さを設定する** チェック ボックスをオフにした場合は、会議に参加する前に自分の名前を記録する呼び出し元を求められますされません。
+    
+5. Sign in to Office 365 with your work or school account.
+    
+In the Skype for Business admin center, in the left navigation go to dial-in conferencingMicrosoft bridge settings.
+  
+1. PIN の桁数は 4 から 12 の間にする必要があります。既定値は 5 です。
+    
+2. Sign in to Office 365 with your work or school account.
+    
+3. 既定値は 5 です。
+    
+4. **Microsoft ブリッジの設定**] ページの [**セキュリティ**] の下に**暗証番号 (pin) の長さ**] ボックスの一覧で、[暗証番号 (pin) に使用桁の番号を入力し、し、[**保存**] をクリックします。
+    
+    > [!IMPORTANT]
+    > The default is 5. 
+  
+**ユーザーに電子メールを送信するかどうかを選択します。**
+  
+1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
+    
+2. Sign in to Office 365 with your work or school account.
+    
+3. 既定値は 5 です。
+    
+4. **Microsoft ブリッジの設定**] ページを選択や**、オーディオ会議の構成が変更された場合、ユーザーに e メールを自動的に送信**するには、オフにし、[**保存**] をクリックします。
+    
+    詳細については、[電子メールは、ユーザーが電話会議の設定を変更するときに自動的に送信](emails-sent-to-users-when-their-settings-change.md)を参照してください。
+    
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Go to the Office 365 admin centerSkype for Business.
+
+- 時間を節約またはこのプロセスを自動化するには、[セット CsDialinConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686 )コマンドレットを使用することができます。
+    
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
+    
+  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
+    
+  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+    
+- 多くのユーザーの設定を同時に変更するときなどは、Office 365 管理センターのみを使用するよりも、Windows PowerShell の方に、速度、わかりやすさ、生産性の点で多くのメリットがあります。 次のトピックで、これらの利点を説明します。 
+    
+  - [Windows PowerShell と Lync Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
+    
+  - [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
+    
+  - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
+    
+    > [!NOTE]
+    > [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=294688)
+  
+## <a name="related-topics"></a>See also
+
+[Skype for Business および Microsoft Teams の電話会議のセットアップ](set-up-audio-conferencing.md)
+

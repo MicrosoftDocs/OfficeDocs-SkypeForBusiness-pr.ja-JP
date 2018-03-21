@@ -21,10 +21,10 @@ ms.custom:
 - Strat_SB_PSTN
 description: "(国や地域によって) Skype for Business 管理センターを使用して新しい電話番号を取得できない場合や、特定の電話番号または地域コードが必要になることがあります。 その場合は、フォームをダウンロードして記入してからマイクロソフトに返送する必要があります。 マイクロソフトのサービス デスクがそのフォームを確認した後に、進行状況またはお客様の注文に関する情報をお知らせします。"
 ms.openlocfilehash: 54bcc6ca99434206bf63eeb5a65b0b6dee0f583a
-ms.sourcegitcommit: ed40dcf28ae72961fb1f23cf72985cef1d145db0
-ms.translationtype: HT
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="get-new-user-phone-numbers-request-forms"></a>新しいユーザー電話番号の申請フォームを取得する
 
