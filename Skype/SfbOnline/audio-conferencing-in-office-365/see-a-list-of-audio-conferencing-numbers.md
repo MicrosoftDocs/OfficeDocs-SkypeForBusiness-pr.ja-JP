@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 2d6b4ed4-e12b-4691-8405-fae720d69425
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: "ビジネス用の Skype から、会議にダイヤルイン番号を検索する方法について説明します。 "
-ms.openlocfilehash: 3417a103e59638690d2ee100fa88a9671f3b0d44
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 75e1d78581585f5c9ce94b78a19191918827dbbf
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers"></a>オーディオ会議の番号の一覧を参照してください。
 
@@ -82,4 +84,3 @@ ms.lasthandoff: 02/19/2018
 
 [Skype for Business および Microsoft Teams の電話会議のセットアップ](set-up-audio-conferencing.md)
   
-

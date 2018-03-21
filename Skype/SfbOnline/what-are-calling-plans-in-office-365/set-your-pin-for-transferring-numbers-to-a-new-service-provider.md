@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: f1defa5b-e49c-4d8c-a5f8-3f736201af5e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "転送または別の電話サービスプロバイダーまたは通信業者にオンライン ビジネスのポートの Skype からの電話番号、PIN を手動で設定する必要があります。 PIN を設定した後にポートの電話番号を要求するときに含めることを必要があります。"
-ms.openlocfilehash: 03e2e0ca76ea434e2458f1dec4a236996a19f7aa
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 5800ca846e4f71490be24ae02d031fa0579e2ce5
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>番号を新しいサービス プロバイダーに転送するための暗証番号を設定します。
 
@@ -73,6 +75,7 @@ ms.lasthandoff: 02/19/2018
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-
+## <a name="feedback"></a>フィードバックですか。
+製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
   
 

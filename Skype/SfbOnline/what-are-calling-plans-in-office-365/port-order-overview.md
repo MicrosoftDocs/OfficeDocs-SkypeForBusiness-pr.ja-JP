@@ -21,11 +21,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: "サービス プロバイダーでの電話番号を Skype for Business に移行する方法の簡単な概要を理解します。 "
-ms.openlocfilehash: b8d23fa0a13fe577ac05808784e80ea74a560afb
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 6006f03b8780ba499240f2f3c816dda71d457e1c
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="port-order-overview"></a>番号移行注文の概要
 
@@ -49,3 +49,5 @@ ms.lasthandoff: 02/19/2018
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
 
+## <a name="feedback"></a>フィードバックですか。
+製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。

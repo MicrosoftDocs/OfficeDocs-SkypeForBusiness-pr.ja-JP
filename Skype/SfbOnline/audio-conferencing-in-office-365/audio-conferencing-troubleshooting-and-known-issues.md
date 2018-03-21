@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 72979911-5319-4de2-a275-4dd9a0f44fe6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: "ダイヤルイン会議プロバイダー、ステータス、およびいくつかの回避策として、Microsoft を使用する場合は、既知の問題の一覧を取得します。 "
-ms.openlocfilehash: 9e566d0ba9f07aeecca222ef586f301b1cd6cf5f
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 6d10e797ef052cafc22555b26a27a1aaeae1fc76
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>電話会議のトラブルシューティングと既知の問題
 
@@ -46,6 +48,7 @@ Microsoft を電話会議プロバイダーとして使う電話会議には、�
 |ダイヤル アウトで 5 桁以上の数字を使う必要がある。  <br/> |会議からダイヤル アウトを試みるユーザーは、短縮桁ダイヤルを E.164 に正規化するダイヤル プランの正規化ルールが利用可能である場合でも、5 桁以上の数字を入力する必要があります。  <br/> |社内の内線番号ではなく、完全な DID 番号またはローカルの電話番号の形式で入力してダイヤル アウトしてください。  <br/> |9/25/2017  <br/> |
 |ダイヤル アウトのコントロールが断続的に表示されない。  <br/> |ダイヤル アウトのコントロールが会議情報パネルで表示されない場合がある。  <br/> |回避策なし。  <br/> |9/25/2017  <br/> |
 |静的会議 ID が Microsoft Teams 会議でサポートされない。  <br/> |管理者は、動的な会議 ID から静的な会議 ID を既定の設定をオーバーライドする場合この設定は、マイクロソフトのチーム会議に反映されません。[組織内のオーディオ会議を使用して動的な Id](using-audio-conferencing-dynamic-ids-in-your-organization.md)を参照してください。<br/> |回避策なし。  <br/> |9/25/2017  <br/> |
+|PSTN 会議の座標がオンプレミス ユーザーのビジネスの Skype をご利用いただけません  <br/> |ユーザーが、Skype のビジネス、オンプレミス ユーザー、ビジネス オンライン、オーディオ会議、およびその他のチームは、Skype で割り当てられている場合、チームを使用してスケジュールされているすべての会議には、PSTN 会議の座標は含まれません。 <br/> |回避策なし。  <br/> |2018/2/1  <br/> |
    
 ### <a name="skype-for-business-app"></a>Skype for Business アプリ
 
@@ -59,5 +62,3 @@ Microsoft を電話会議プロバイダーとして使う電話会議には、�
 ## <a name="related-topics"></a>See also
 
 [Skype for Business および Microsoft Teams の電話会議のセットアップ](set-up-audio-conferencing.md)
-  
-

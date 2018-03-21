@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 783fad3f-b77c-422b-b91f-7c8b0af324fb
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: "呼び出し元のメッセージを表示し、クライアントのビジネスの Skype を使用していないことと、名と会議の開催者のピンを収集するために使用されるマイクロソフトでは、ダイヤルイン会議ブリッジの設定を変更する必要があります手順を取得します。 "
-ms.openlocfilehash: f37af15b4ab66eb5765cccbdba63b3bb6bb14597
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 62307bf26458ae54134772a0d920bcc602265bdc
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>オーディオ会議ブリッジの設定を変更します。
 
@@ -32,8 +34,8 @@ Office 365 に電話会議を設定する場合、オーディオ会議ブリッ
   
 会議用ブリッジが呼び出しに応答し、会議自動アテンダント、およびその後、設定によってを使用して音声メッセージを呼び出し元を確認できます通知を再生、自分の名前を記録するための呼び出し元を確認、暗証番号 (pin) の設定を制御します。 ピンはされたミーティングの開催者に許可するように、会議を開始するが使用していない、Skype アプリのビジネスまたはマイクロソフトのチームにします。
 
-    > [!IMPORTANT]
-    > A PIN is only required for the meeting organizer when a Skype for Business or Microsoft Teams app user hasn't already started the meeting. If everyone is dialing in to the meeting, the PIN is required for the meeting organizer to start the meeting. 
+  > [!IMPORTANT]
+  > PIN がだけが必要なとき、Skype アプリケーション ユーザーのビジネスまたはマイクロソフトのチームの会議の開催者が会議を既に開始していません。 場合はすべてのユーザーがダイヤルイン会議、暗証番号 (pin) は会議の開催者、会議を開始する必要があります。 
   
 ## <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>オーディオ会議ブリッジの設定を変更します。
 
@@ -108,7 +110,6 @@ In the Skype for Business admin center, in the left navigation go to dial-in con
     > [!NOTE]
     > [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 
-[Skype for Business および Microsoft Teams の電話会議のセットアップ](set-up-audio-conferencing.md)
-
+[電話会議をセットアップする](set-up-audio-conferencing.md)

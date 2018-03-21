@@ -21,11 +21,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'What it means when your port order has been accepted, and what you need to do next to finish your Skype for Business set up. '
-ms.openlocfilehash: 57e03ff6c0cc9f225458335d2a090fb7d9fe4dd7
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 60f5cb8b37989cc86bafffc4e06a79d3a2c0f598
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="your-port-order-was-accepted"></a>ポート注文は承諾されました
 
@@ -52,3 +52,6 @@ ms.lasthandoff: 02/19/2018
 [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>フィードバックですか。
+製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。

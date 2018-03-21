@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 09c8ca24-d018-422f-8485-9610171016a9
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,21 +22,21 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "この表で、米国 (およびプエルトリコ) での Skype for Business Online および Microsoft Teams の電話番号の取得と管理についての情報を確認できます。"
-ms.openlocfilehash: 9c61a0d022ed1c92daede5444011a693d2c28354
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 9ea5f7f75923c3f89d8d511c79c92076007df045
+ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="phone-number-management-for-the-us"></a>米国での電話番号の管理
 
-この表で、米国 (およびプエルトリコ) での Skype for Business Online および Microsoft Teams の電話番号の取得と管理についての情報を確認できます。 
-  
+この表で、米国 (およびプエルトリコ) での Skype for Business Online および Microsoft Teams の電話番号の取得と管理についての情報を確認できます。   
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   
 |**実行する操作**|**これらの手順を実行して正しいフォームをダウンロードする**|
 |:-----|:-----|
-|Skype for Business 管理センターのリストに表示されていないユーザーの電話番号を取得する必要があります。  <br/> |「[英国での新しい電話番号の申請 (ユーザー番号) (v.3.0)(en-us)](../../downloads/new-number-request-forms/new-phone-number-request-for-the-u.s.-(user-numbers)-(v.3.0)-(en-us).pdf)」をダウンロードして記入し、[マイクロソフトに送信します](mailto:gcstnmsd@microsoft.com)。  <br/> |
+|ビジネス管理センターは、Skype で記載されていない新規のユーザーの電話番号を取得します。  <br/> |「[英国での新しい電話番号の申請 (ユーザー番号) (v.3.0)(en-us)](../../downloads/new-number-request-forms/new-phone-number-request-for-the-u.s.-(user-numbers)-(v.3.0)-(en-us).pdf)」をダウンロードして記入し、[マイクロソフトに送信します](mailto:gcstnmsd@microsoft.com)。  <br/> |
+|Skype のビジネス管理センターに登録されていない新しいサービスの電話番号を取得します。 <br/> |アメリカ合衆国内でサービスの数、[このフォームをダウンロード](../../downloads/new-number-request-forms/new-phone-number-request-for-numbers-inside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf)してください、[弊社に送信](mailto:ptn@microsoft.com)して、入力します。
 |電話番号をマイクロソフトに移行させる必要があります。  <br/> | 次のフォームのいずれかをダウンロードします。 <br/> [米国 (ユーザー番号およびサービス番号) 用の承認状 (LOA) (v.3.1)(en-us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.1)-(en-us).pdf) <br/> 
             [米国 (無料の電話番号) 用の承認状 (LOA) (v.3.2) (en-us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.2)-(en-us).pdf) <br/><br/>**注:** 999 を超えるサブスクライバーまたはユーザーの電話番号を取得しようとする場合は、承認状 (LOA) を記入して送信する必要があります。 詳細については、「[Office 365 に電話番号を移行する](../../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md)」をご覧ください。          <br/>  <br/>   記入し、[マイクロソフトに送信します](mailto:ptn@microsoft.com)。  <br/> |
 |ユーザーの番号をサービス番号に変更することができます。  <br/> |サービス番号に変換するユーザー番号のリストと PIN を[マイクロソフトに送信](mailto:ptn@microsoft.com)します。 PIN をセットアップする方法については、[こちら](../../what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider.md)をご覧ください。  <br/> |
@@ -43,8 +45,11 @@ ms.lasthandoff: 02/19/2018
 ## <a name="related-topics"></a>関連トピック
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)
+[[Skype for Business 新しい電話番号の申請](manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。
 
 [緊急通話の利用条件](../emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>フィードバックですか。
+製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。

@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: "(プエルトリコ) の利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。"
-ms.openlocfilehash: db1670a8fc392c7accb1a1fd4176221bb246a778
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 3c223812fe77de9d368f4fc44aa78a463afd2834
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="availability-in-puerto-rico"></a>プエルトリコでの可用性
 
@@ -83,4 +83,5 @@ ms.lasthandoff: 02/19/2018
 
 [国および地域ごとの電話会議および通話プランの利用可能性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-
+## <a name="feedback"></a>フィードバックですか。
+製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。

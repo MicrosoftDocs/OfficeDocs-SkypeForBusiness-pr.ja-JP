@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: "マケドニアの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。"
-ms.openlocfilehash: ce4cbebd73d9da89b6e660c950fe4ceebe8a383d
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 17d99e70880bc1a69742833468e91424402280f9
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="availability-in-macedonia"></a>マケドニアの可用性
 
@@ -83,5 +83,6 @@ ms.lasthandoff: 02/19/2018
 
 [国および地域ごとの電話会議および通話プランの利用可能性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-
+## <a name="feedback"></a>フィードバックですか。
+製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
 

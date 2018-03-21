@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: "オーディオとビデオの会議の記録を有効にし、対処方法を説明する方法では、レコーディングには含まれていません。 "
-ms.openlocfilehash: 040bc86ec65f5e0c4fd50ec09f8517b6d7f5699c
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 9c8f3107272eaad7911c86f6b914a67bed3902ee
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>オーディオおよびビデオ会議を記録できるように
 
@@ -46,3 +46,6 @@ ms.lasthandoff: 02/19/2018
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype 連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>フィードバックですか。
+製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。

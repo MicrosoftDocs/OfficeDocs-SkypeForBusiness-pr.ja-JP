@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: "スペインの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。"
-ms.openlocfilehash: f9d1bfd3e7b0744b70071b727fe084ad0950f313
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: affd55645cdf298516105274a20f395a2f74a993
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="availability-in-spain"></a>スペインの可用性
 
@@ -83,5 +83,6 @@ ms.lasthandoff: 02/19/2018
 
 [国および地域ごとの電話会議および通話プランの利用可能性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-
+## <a name="feedback"></a>フィードバックですか。
+製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
 

@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 1411b594-1e88-44c9-9f60-2202f9bb8553
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "個々 のユーザーに、パブリック交換電話網 (PSTN) を動作するための緊急時の住所と電話番号を設定する方法について説明します。"
-ms.openlocfilehash: d6c06858bac4c477f63b0f734d832f591c7b814a
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 1b86861e40ac1b5929176b1e0b8f6274d749e8f9
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>割り当てるか、緊急時のユーザーのアドレスを変更
 
@@ -64,3 +66,6 @@ Office 365 のプランを呼び出すことを取得する方法、コストし
 [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>フィードバックですか。
+製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。

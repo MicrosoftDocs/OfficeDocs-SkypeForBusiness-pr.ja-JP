@@ -4,7 +4,7 @@ hide_bc:
 title: Skype for Business
 description: Skype for Business
 ms.openlocfilehash: cb4d447f38362ab35fc6968beef84fcecbb5659a
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/19/2018
@@ -106,7 +106,7 @@ ms.lasthandoff: 02/19/2018
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Skype for Business から Teams への移行</h3>
+                                                    <h3>Skype for Business から Microsoft Teams への移行</h3>
                                                     <p>ガイダンスおよびチームに最適なパスを表示するためのツールを検索します。</p>
                                                 </div>
                                             </div>

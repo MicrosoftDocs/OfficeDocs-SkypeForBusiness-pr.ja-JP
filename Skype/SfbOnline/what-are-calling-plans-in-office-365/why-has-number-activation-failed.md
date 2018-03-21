@@ -21,11 +21,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: "住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。"
-ms.openlocfilehash: 3b1ccd58900bce586e8d9c556dc32efbe1ee0cbb
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 45f2d6d93630d4f858fc3531f530ac0f030c5aac
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="why-has-number-activation-failed"></a>番号のライセンス認証が失敗しました
 住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 場合は何らかの理由により、電話番号はアドレスの検証のためにアクティブには、サービス リクエストを作成する必要があります。 これをどのように行うかは、所属する組織のサイズに基づきます。
@@ -105,3 +105,6 @@ ms.lasthandoff: 02/19/2018
 [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>フィードバックですか。
+製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。

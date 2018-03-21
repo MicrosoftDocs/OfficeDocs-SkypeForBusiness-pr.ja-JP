@@ -4,12 +4,14 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: wasseemh
-ms.date: 01/22/2018
+ms.date: 03/13/2018
 ms.topic: article
 ms.assetid: 4a57e3d0-8b08-494f-a195-b44afa9cbc0d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Phone System
 - Strat_SB_PSTN
 description: "Skype for Business の既定のシステム メッセージにどの言語を設定できるかを理解します。 "
-ms.openlocfilehash: 256bc49c67ffbbfc4a503ffaf621cd4bb82b0c07
-ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
-ms.translationtype: HT
+ms.openlocfilehash: bb1a4d1caaf7b2d85fa00804288eadc2588997e1
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>ボイスメールの応答メッセージとメッセージで使用する言語
 
@@ -61,9 +63,12 @@ Skype for Business がシステムの応答メッセージで使用する言語�
 |スペイン語  <br/> |スペイン  <br/> |es-ES  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
 |スペイン語  <br/> |メキシコ  <br/> |es-MX  <br/> |はい、ただしスペインのスペイン語 (es-ES) が使用されます。  <br/> |はい  <br/> |はい、ただしスペインのスペイン語 (es-ES) が使用されます。  <br/> |
 |スウェーデン語  <br/> |スウェーデン  <br/> |sv-SE  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
+|トルコ語  <br/> |トルコ  <br/> |tr-TR  <br/> |あり  <br/> |あり  <br/> |いいえ  <br/> |
    
 ## <a name="related-topics"></a>関連トピック
 [国および地域ごとの電話会議および通話プランの利用可能性](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [Office 365 での電話システムで利用できる機能](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
   
+## <a name="feedback"></a>フィードバックですか。
+製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。

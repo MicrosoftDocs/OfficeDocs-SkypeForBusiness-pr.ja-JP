@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: "ユーザーは、着信のボイス メールの通知を受信でき、インスタント メッセージが失われているようにオンまたはオフに携帯電話の通知を有効にする方法を説明します。"
-ms.openlocfilehash: bd1c72f4c67b093db2970be3eae17c31149404e2
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 5f783c45fa198d02a44bbd2f7501a5bc4f0b5e1e
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>オンまたはオフ、携帯電話の通知
 
@@ -56,3 +56,5 @@ Android であり、Windows の電話、Skype のビジネスの通知をリア�
 
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 
+## <a name="feedback"></a>フィードバックですか。
+製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。

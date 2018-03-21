@@ -18,11 +18,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "Skype ビジネス会議、どの参加者を選択し、開いてできますし、ダウンロードのためにファイルを添付することができます。 Skype ビジネス会議のための添付ファイルはメールボックスを持つ証拠保全に、Office 365 リテンション ・ ポリシーが適用される、または Office 365 のセキュリティ、電子的証拠開示のケースに関連付けられている保留リストに配置されます。 任意の参加者のメールボックスに保持されます。&amp;コンプライアンス センターです。 このコンテンツは、自分のメールボックス内の参加者の回復可能なアイテム フォルダーに保存されます。"
-ms.openlocfilehash: 59e1470d36aac988b1e0ff6ee40ebc1fb61967ed
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: fb20055106362143b5c4573115e095637d873599
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>ビジネス会議のため、Skype に接続されている大容量のファイルを保持します。
 
@@ -44,3 +44,5 @@ Skype ビジネス会議、どの参加者を選択し、開いてできます�
 
 [組織内の会議ポリシーを設定します](set-up-conferencing-policies-for-your-organization.md)
   
+## <a name="feedback"></a>フィードバックですか。
+製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。

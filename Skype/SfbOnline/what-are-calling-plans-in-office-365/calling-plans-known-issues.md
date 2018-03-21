@@ -19,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: "(PSTN の呼び出し)、Office 365 と何ができるかについては、それらの呼び出し元の計画に関する既知の問題について説明します。 "
-ms.openlocfilehash: cb572c9de92cd53384c07c4e48779598ca73bb8c
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 7f960b5b38c53922ff19e20fccf95b6320ba435f
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="calling-plans-known-issues"></a>既知の問題の計画を呼び出す
 
@@ -48,3 +48,6 @@ Office 365 の通話プランは、Skype については、オンライン ビ�
 [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>フィードバックですか。
+製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。

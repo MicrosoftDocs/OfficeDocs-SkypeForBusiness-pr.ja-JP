@@ -20,7 +20,7 @@ ms.custom:
 - Legal
 description: "これは、コンテンツのアクセシビリティ、コンプライアンス要件を満たすために発行する必要がありますフランスのビジネスのオンラインの Skype の規制。 "
 ms.openlocfilehash: 1585f6b03efb75454c18024ae68c8068156a07d6
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/19/2018

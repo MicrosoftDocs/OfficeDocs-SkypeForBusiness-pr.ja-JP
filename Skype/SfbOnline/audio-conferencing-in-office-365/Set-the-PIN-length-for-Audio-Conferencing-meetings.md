@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: b86d31c6-1543-478f-b8c6-4b71e708403a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: "パラメーターの長さと、PIN の要件を説明し、ビジネスの Skype での会議の長さを設定する方法を参照してください。"
-ms.openlocfilehash: 308bce9196f085c1f9473e74746bccd2f0ca96c5
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 6ae267edfb75030bfad10d07998e6b59107c8d6d
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings"></a>オーディオ会議の会議の暗証番号 (pin) の長さを設定します。
 
@@ -81,4 +83,3 @@ ms.lasthandoff: 02/19/2018
 ## <a name="see-also"></a>関連項目
 
 [Skype for Business および Microsoft Teams の電話会議のセットアップ](set-up-audio-conferencing.md)
-

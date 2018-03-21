@@ -21,11 +21,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: "内容に追加する必要アカウント番号として、ビジネスの Skype と入手できる場所を参照してください。 "
-ms.openlocfilehash: 1853e8c6d63db37d89f41c49a6302d2f765a0302
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: a56413aaf7d4bbb5924b4c3744bc899fcb5ddeef
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="what-should-i-put-in-for-the-account-number"></a>入れるもの、アカウント番号のでしょうか。
 
@@ -48,4 +48,5 @@ ms.lasthandoff: 02/19/2018
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-
+## <a name="feedback"></a>フィードバックですか。
+製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。

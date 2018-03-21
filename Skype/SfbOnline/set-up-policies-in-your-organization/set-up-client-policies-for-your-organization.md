@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "クライアント ポリシーはユーザーが利用できる Skype for Business Online の機能を決めるのに役立ちます。たとえば、一部のユーザーにファイルを転送する権限を与えて、他のユーザーに対してはその権限を与えないようにする場合が考えられます。"
-ms.openlocfilehash: 82fa2c828af9aed01652870ea5d3db02ca8248c3
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: f31ad785ba2e7b1d7798d804e7b1fae1b7a76970
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>組織のクライアント ポリシーをセットアップする
 
@@ -152,3 +152,6 @@ ms.lasthandoff: 02/19/2018
 [ブロック ポイント ツー ポイントのファイルの転送](block-point-to-point-file-transfers.md)
 
 [組織内の会議ポリシーを設定します](set-up-conferencing-policies-for-your-organization.md)
+
+## <a name="feedback"></a>フィードバックですか。
+製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
