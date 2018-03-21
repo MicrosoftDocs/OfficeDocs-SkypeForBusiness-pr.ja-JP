@@ -6,7 +6,7 @@
       "docset_name": "OfficeDocs-MicrosoftTeams",
       "build_source_folder": "Teams",
       "build_output_subfolder": "OfficeDocs-MicrosoftTeams",
-      "locale": "ja-jp",
+      "locale": "de-de",
       "monikers": [],
       "open_to_public_contributors": false,
       "type_mapping": {
@@ -22,7 +22,7 @@
       "docset_name": "OfficeDocs-SkypeForBusiness",
       "build_source_folder": "Skype",
       "build_output_subfolder": "OfficeDocs-SkypeForBusiness",
-      "locale": "ja-jp",
+      "locale": "de-de",
       "monikers": [],
       "open_to_public_contributors": false,
       "type_mapping": {
@@ -35,7 +35,9 @@
     }
   ],
   "notification_subscribers": [],
-  "branches_to_filter": [],
+  "branches_to_filter": [
+    "live"
+  ],
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
   "need_preview_pull_request": false,
@@ -54,6 +56,12 @@
         "live": "live",
         "master": "master"
       }
+    },
+    {
+	    "path_to_root": "Skype/common",
+	    "url": "https://github.com/MicrosoftDocs/OfficeDocs-pr",
+	    "branch": "live",
+	    "branch_mapping": {}
     }
   ],
   "need_generate_pdf_url_template": false
