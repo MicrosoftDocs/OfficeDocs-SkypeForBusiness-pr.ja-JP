@@ -1,23 +1,25 @@
 ---
-title: "Microsoft Teams でイベントの監査ログを検索する"
+title: Microsoft Teams でイベントの監査ログを検索する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/22/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
-description: "Office 365 監査ログから Microsoft Teams データを取得する方法について説明します。"
+description: Office 365 監査ログから Microsoft Teams データを取得する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f0fa9f55e10d3f2f9b29287b292878c3c2b5b4a
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 2ddf413f192941598f617ea10a755a2c23abd3f7
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 ==================================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 監査ログは Office 365 の複数のサービスにわたって特定のアクティビティを調査するのに役立ちます。 Teams の場合は、次のいくつかのアクティビティが監査対象になります。
 
@@ -33,7 +35,7 @@ Office 365 で監査されるアクティビティの完全なリストを確認
 
 ## <a name="turn-on-auditing-in-teams"></a>Teams での監査をオンにする
 
-監査データを確認できるようになるには、最初に**セキュリティ/コンプライアンス センター** (https://protection.office.com) で監査をオンにする必要があります。 監査をオンにする方法の詳細については、「[Office 365 監査ログの検索を有効または無効にする](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)」をご覧ください。
+最初に、**セキュリティとコンプライアンスの中心**で監査が監査データを見ることができます、前に (https://protection.office.com)。 監査をオンにする方法の詳細については、「[Office 365 監査ログの検索を有効または無効にする](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)」をご覧ください。
 
 
 > [!IMPORTANT]

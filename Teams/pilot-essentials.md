@@ -1,20 +1,20 @@
 ---
-title: "Skype for Business とともに Microsoft Teams のパイロットを実施する"
+title: Skype for Business とともに Microsoft Teams のパイロットを実施する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/02/2018
+ms.date: 03/19/2018
 ms.topic: article
 ms.service: msteams
-description: "Skype for Business の使用を継続しながら、Microsoft Teams パイロットを開始して Teams が組織に提供するすべての機能を探索するためのガイダンスを提供します。"
+description: Skype for Business の使用を継続しながら、Microsoft Teams パイロットを開始して Teams が組織に提供するすべての機能を探索するためのガイダンスを提供します。
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5c764212d439ef7e3592b52b841e2b531265ec7
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: 386221bfc8a3249ef4c902605171e636f8a48f40
+ms.sourcegitcommit: 730194fa152085ca2cee30373eaf68efa5f6b4ce
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/20/2018
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Skype for Business とともに Microsoft Teams のパイロットを実施する
 ============================================
@@ -102,7 +102,7 @@ Teams の導入に向けた行程および将来的な推奨事項はパイロ�
 <thead>
 <tr class="header">
 <td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left"><strong>次のアクション:</strong> パイロット テスト グループ (複数可) を特定する。</td>
+<td align="left"><strong>次のアクション:</strong>[チーム パイロットのユーザーの選択](https://review.docs.microsoft.com/en-us/MicrosoftTeams/select-users-for-your-teams-pilot?branch=cloudvoice-working)のガイダンスを使用して、パイロット テスト グループを識別します。</td>
 </tr>
 </thead>
 <tbody>
@@ -126,7 +126,9 @@ Teams の導入に向けた行程および将来的な推奨事項はパイロ�
 
 ## <a name="step-four-create-your-communications"></a>ステップ 4: コミュニケーションを構築する
 
-パイロットの参加者に、何が起きているか、その時期と理由について、および何が期待されているかを理解してもらうことは、パイロットの成功のために必要不可欠です。 気持ちが高まり参加意欲が最大限になるようにするために、パイロット参加者とのコミュニケーションでエンドユーザーの価値を尊重するメッセージングを含める必要があります。 さらに、パイロットでの進行にともない、追加の情報を入手できるトレーニングやサポートへのリンクをコミュニケーションに必ず含めます。
+パイロットの参加者に、何が起きているか、その時期と理由について、および何が期待されているかを理解してもらうことは、パイロットの成功のために必要不可欠です。 気持ちが高まり参加意欲が最大限になるようにするために、パイロット参加者とのコミュニケーションでエンドユーザーの価値を尊重するメッセージングを含める必要があります。
+
+さらに、パイロットでの進行にともない、追加の情報を入手できるトレーニングやサポートへのリンクをコミュニケーションに必ず含めます。 適切なヘルプ トピックを含めるには[ビジネス用の Skype からのチームへの切り替え](https://support.office.com/en-us/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)、のみマイクロソフトのチームで使用できるいくつかの新しい機能と同様に、いくつかの一般的な機能を表示します。
 
 <table>
 <thead>
@@ -144,7 +146,7 @@ Teams の導入に向けた行程および将来的な推奨事項はパイロ�
 すべてのロジスティックスの準備が整ったら、パイロットを開始できます。 パイロットの実施には、パイロット ユーザーへの情報伝達、ネットワークと品質の正常性を確認するためのネットワーク/使用量の監視、参加者からのフィードバックの収集、Teams に関する質問のヘルプデスク チケットのレビューが含まれます。
 
 > [!IMPORTANT]
-> Teams は既定でオンになりますが、パイロットを開始する前に、すべてのパイロット ユーザーが Teams に対して有効になっていることを確認します。 この操作を行う方法については、「[Office 365 を使用する組織で Microsoft Teams の機能を有効にする](enable-features-office-365.md)」をご覧ください。
+> Teams は既定でオンになりますが、パイロットを開始する前に、すべてのパイロット ユーザーが Teams に対して有効になっていることを確認します。 このヘルプでは、[チームへのユーザー アクセスの管理](user-access.md)を参照してください。
 > 
 
 30 日間のパイロットでの推奨タイムラインを示します。

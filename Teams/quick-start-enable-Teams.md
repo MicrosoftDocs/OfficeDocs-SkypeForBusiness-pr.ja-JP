@@ -1,5 +1,5 @@
 ---
-title: "クイック スタート: Microsoft Teams の計画ガイド"
+title: 'クイック スタート: Microsoft Teams の計画ガイド'
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,15 +7,15 @@ ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj, tonysmit
-description: "このガイドは、所属する組織で使用する Microsoft Teams を計画、実装、導入するための手順を説明します。"
+description: このガイドは、所属する組織で使用する Microsoft Teams を計画、実装、導入するための手順を説明します。
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7111e5aea9869a99ffec76f7da655f1ac0261aa8
-ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
-ms.translationtype: HT
+ms.openlocfilehash: ce2ac8ff38f5f051a3e288efede53efa4dc0c6e5
+ms.sourcegitcommit: 70fc5217f588e10ab0edb400f329ea597efaab52
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 03/12/2018
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>クイック スタート: Microsoft Teams の計画ガイド
 ==========================================================
@@ -44,7 +44,7 @@ Microsoft Teams でチーム、チャネル、タブの計画を行うときの�
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
-Microsoft Teams がご利用の Office 365 テナントで有効ではなく、自分が Office 365 管理者である場合は、「[Office 365 を使用する組織で Microsoft Teams をセットアップする](office-365-set-up.md)」の記事の指示に従って、自分の組織のユーザーが確実にアプリケーションにアクセスできるようにしてください。
+マイクロソフトのチームが、Office 365 テナントに有効になっていないと、以下の管理者が Office 365 は[チームへのユーザー アクセスの管理](user-access.md)の記事で、ユーザーを確実にあるアプリケーションへのアクセス。
 
 ## <a name="step-3-complete-technical-planning"></a>手順 3: 技術計画を完成する
 

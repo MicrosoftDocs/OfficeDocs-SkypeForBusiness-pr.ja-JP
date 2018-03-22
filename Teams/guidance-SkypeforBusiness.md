@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business と共存する Microsoft Teams を有効にする"
+title: Skype for Business と共存する Microsoft Teams を有効にする
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,15 +7,15 @@ ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: "共存する Skype for Business と Microsoft Teams の使用に関するガイダンス"
+description: 共存する Skype for Business と Microsoft Teams の使用に関するガイダンス
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66e21cb6e170785c336f4737cd61596d33ae305e
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: 27e6f4449f4568f9777be92c8520215721154e2f
+ms.sourcegitcommit: 70fc5217f588e10ab0edb400f329ea597efaab52
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/12/2018
 ---
 <a name="enable-microsoft-teams-side-by-side-with-skype-for-business"></a>Skype for Business と共存する Microsoft Teams を有効にする 
 =============================================================
@@ -183,7 +183,7 @@ Microsoft Teams は、Office 365 グループの機能強化を通して、Offic
 
 既定では、資格のある Office 365 サブスクリプション ライセンスを有する組織内のユーザーは Teams に対して有効になるため、制限付きの Teams パイロットはパイロット グループ外のすべてのユーザーの Teams ライセンスを無効にすることに関係します。
 
-コラボレーションとプライベート チャットのソリューションとしての Teams のリリースに焦点をあてて、Skype for Business と機能が重複していることによるユーザーの混乱を軽減するには、Office 365 テナント レベルで次の設定を変更することができます。 Office 365 設定を変更するには、「[Office 365 を使用する組織で Microsoft Teams をセットアップする](Office-365-set-up.md)」をご覧ください。
+コラボレーションとプライベート チャットのソリューションとしての Teams のリリースに焦点をあてて、Skype for Business と機能が重複していることによるユーザーの混乱を軽減するには、Office 365 テナント レベルで次の設定を変更することができます。 これらの Office 365 の設定を変更するには、 [Office 365 の組織での Microsoft チームの管理機能](enable-features-office-365.md)を参照してください。
 
 <table>
 <thead>

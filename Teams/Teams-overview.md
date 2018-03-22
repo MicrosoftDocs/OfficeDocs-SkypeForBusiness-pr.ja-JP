@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Teams の概要"
+title: Microsoft Teams の概要
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,17 +7,17 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara
-description: "Microsoft Teams とそのインフラストラクチャについて、および Office 365 と組み合わせた Teams の使用について説明します。"
+description: Microsoft Teams とそのインフラストラクチャについて、および Office 365 と組み合わせた Teams の使用について説明します。
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: caf445609922dc62d28a4b78cf568d3f8f278c10
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: b556a7293ecd6c6158a3fb1f7e882fa87defbc45
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="overview-of-microsoft-teams"></a>Microsoft Teams の概要
 ===========================
@@ -28,6 +28,8 @@ ms.lasthandoff: 02/19/2018
 Microsoft Teams は Office 365 のすべてをまとめ、チームワークを遂行する上でチャットベースのハブをもたらし、よりオープンで、スムーズで、デジタルな環境を創り出す機会をお客様に提供します。Microsoft Teams は、Office 365 グループによって作られた既存の Microsoft テクノロジーを基に作られています。 
 
 革新的な発想により、Teams は、Azure Active Directory (Azure AD) に保存された ID を利用し、Office 365 のその他のサービスと統合して、作成されるチームごとに SharePoint オンライン サイトと Exchange Online グループ メールボックスを作成します。
+
+ビジネスやコンシューマー電子メール アカウントを Outlook、Gmail、またはその他のユーザーなど、すべてのユーザーは、チームにゲストとして参加できます。 来園者は Azure AD 内で安全に管理できるし、同じコンプライアンスと監査の保護として、Office 365 の残りの部分は、来園者はチームで対応します。 管理者が一元的に、Office 365 環境内での来園者の参加を管理し簡単に表示、追加、またはホスト テナントへのゲスト アクセスを無効します。
 
 Teams では常設チャットの機能や通話と会議が利用でき、その強力な拡張性に加えて Office 365 の他のコンポーネントに容易にアクセスできます。  これにより、大企業から小規模な組織にいたるまで、その中にいるすべてのユーザーにとって最適なチームワークのハブを構成します。  
 
@@ -45,6 +47,9 @@ Teams は、Office 365 グループによって作られた既存の Microsoft �
 Office 365 グループは Azure Active Directory (Azure AD) に保存された ID を利用するため、多要素認証 (MFA) のサポートなどの Azure AD におけるすべての認証および承認機能は、Teams ですぐに使用できます。
 
 Teams は、Skype および Skype for Business でも使用されている次世代のクラウドベース インフラストラクチャに基づく通話および会議のエクスペリエンスも提供しています。 これらの技術投資には、Azure ベースのクラウド サービスを利用したメディア処理とシグナリング、H.264 ビデオ コーデック、SILK および Opus オーディオ コーデック、ネットワークの回復力、テレメトリ、および品質診断が含まれます。
+
+> [!NOTE]
+> 顧客からのフィードバックに基づいて、マイクロソフトのチームでチームの作成の結果として生成された新しい Office 365 のグループされなく Outlook でデフォルトで表示されます。 Outlook でこれらのグループを示すは、既存の動作を継続するお客様の場合は、Outlook の環境のグループを有効にすることができる Exchange のオンラインの PowerShell コマンドレットが提供されます。 Outlook で作成し、後で有効になっているチームのグループは、Outlook とチームの両方に表示する続けます。 この更新プログラムを段階的には数か月の後で Outlook とチーム全体がロールバックされます。
 
 
 <a name="microsoft-teams-and-office-365"></a>Microsoft Teams と Office 365
@@ -70,7 +75,7 @@ Office 365 の各アプリケーションの一般的な使用例を示します
 
 -   プロジェクトに関する迅速な反復を行いながら、ファイルを共有し、共有された成果物に関してコラボレーションを行うことを望んでいるチームをサポートします。
 
--   ユーザーがワークスペースに幅広いツール (Planner、Power BI、GitHub など) を接続できるようにします。
+-   プランナー、電源の BI、GitHub など) などのワークスペースにさまざまなツールを接続することができます。
 
 ![Microsoft Outlook アイコン。](media/Overview_of_Microsoft_Teams_image2.png)
 

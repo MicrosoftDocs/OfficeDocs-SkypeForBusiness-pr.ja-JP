@@ -1,28 +1,30 @@
 ---
-title: "Office 365 を使用する組織で Microsoft Teams の機能をオンにする"
+title: Office 365 組織でマイクロソフトのチーム機能を管理します。
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/29/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
-description: "テナント全体の設定、電子メール統合、アプリ、クラウド ストレージなど、Office 365 を使用する組織でオンまたはオフに設定することができるすべての Microsoft Teams 機能について説明します。"
+description: テナント全体の設定、電子メール統合、アプリ、クラウド ストレージなど、Office 365 を使用する組織でオンまたはオフに設定することができるすべての Microsoft Teams 機能について説明します。
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87871cb46c1b9e584308b75376622473a3131888
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: d4e450f4ffcb178a19d185b14d65b7adb880924b
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/15/2018
 ---
-<a name="turn-on-microsoft-teams-features-in-your-office-365-organization"></a>Office 365 を使用する組織で Microsoft Teams の機能をオンにする
+<a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Office 365 組織でマイクロソフトのチーム機能を管理します。
 ======================================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Teams には、Office 365 テナント レベルでオンまたはオフにすることができる設定が複数あります。テナントで Teams をオンにすると、Teams が有効なすべてのユーザーにもテナント レベルの設定が継承されます。
+チームでは、Office 365 テナントのレベルでオンまたはオフになっているが可能な複数の設定があります。 チーム、チームに対しても有効にするすべてのユーザーは、テナントのレベルから設定を継承することにします。
 
 Teams 内で Office 365 管理者がオンまたはオフにできる機能のリストを次に示します。 
 
@@ -70,9 +72,7 @@ Teams の**テナント全体の設定**を編集するには、Office 365 管�
 
    ![テナント全体の設定の [電子メール統合] セクションのスクリーンショット。](media/QS-edu-email-integration.png)
 
--   **ユーザーがチャネルにメールを送信するのを許可する:** オンにすると、メール フックが有効に設定されます。ユーザーは Teams のチャネルの電子メール アドレス宛に電子メールを送信することでチャネルにメッセージを投稿できるようになります。 
 
- 
 -   **ユーザーがチャネルにメールを送信するのを許可する:** オンにすると、メール フックが有効に設定されます。ユーザーは Teams のチャネルの電子メール アドレス宛に電子メールを送信することでチャネルにメッセージを投稿できるようになります。 
 
     チャネルの電子メール アドレスを見つけるには、そのチャネルの [**その他のオプション**] メニューをクリックしてから [**電子メール アドレスの取得**] を選択します。 
@@ -107,10 +107,17 @@ Teams の**テナント全体の設定**を編集するには、Office 365 管�
 
 ![[カスタム クラウド ストレージ] セクションのスクリーンショット。](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
 
-<a name="user-settings-by-license"></a>ライセンスでのユーザー設定
+<a name="settings-by-userlicense-type"></a>ユーザーとライセンスの種類を設定
 ------------------------
+設定するとマイクロソフトのチームを組織に最初を使用して、ライセンスの種類を選択するのには**ユーザーとライセンスの種類によって設定**のドロップ ダウン メニューと、そのライセンスの種類のすべてのユーザー チームになっています。
 
-[**ライセンスでのユーザー設定**] で、[チームとチャネル]、[通話と会議]、[メッセージング] でオプションをオンまたはオフにできます。
+[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
+
+ ユーザーとライセンスの種類のいくつかの例は、**ビジネスおよび企業**と**ゲスト**です。 (教育 SKU のライセンスを取得する場合**の教職員およびスタッフの教育**や**教育の受講者用**、使用可能な)。![セットのユーザー ライセンスの管理](media/enable-microsoft-teams-features-in-your-office-365-organization-image13.png)
+
+ことができます複数ライセンスの種類、組織内で、**ビジネスおよび企業**と**ゲスト**の両方があります。 マイクロソフト チームは、ユーザーに割り当てられているライセンスに基づいてのみを区別するためです。 オンにするか、これらのユーザーの**チームとチャネル**、**通話や会議**、**メッセージング**のオプションをオフにできます。 1 つだけのライセンスの種類を使用する場合は、テナント全体の設定としてここでの設定を検討します。
+> [!NOTE]
+> ゲスト アクセスの詳細については、[マイクロソフトのチームへのゲスト アクセスの無効を切り替える](set-up-guests.md)を参照してください。
 
 <a name="teams-and-channels"></a>チームとチャネル
 ------------------

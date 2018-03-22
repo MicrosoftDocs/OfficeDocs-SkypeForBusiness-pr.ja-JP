@@ -1,24 +1,26 @@
 ---
-title: "Microsoft Teams での電話会議についての実践的なガイダンスを提供します。"
+title: Microsoft Teams での電話会議についての実践的なガイダンスを提供します。
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 12/22/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor, lolaj
-description: "構想 (計画)、参加 (提供)、価値の創出 (運用) を通して Microsoft Teams の電話会議の計画、展開、管理を行うための実践的なガイダンス。"
+description: 構想 (計画)、参加 (提供)、価値の創出 (運用) を通して Microsoft Teams の電話会議の計画、展開、管理を行うための実践的なガイダンス。
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f845be7ddf83605adad119f7efa53725033a7823
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: cb41f929f477a058ee8c811f357caa6ff3de62ac
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議についての実践的なガイダンスを提供します。
 ============================================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Office 365 の電話会議では、参加者はどの電話端末からでも Teams 会議に参加できます。
 
@@ -359,7 +361,7 @@ Office 365 の電話会議サービスには次が含まれます。
 各ユーザーに適用可能な追加の構成を使用して、無料電話の会議ブリッジ電話番号の使用や会議からのダイヤルアウトを制御できます。
 
 > [!NOTE]
-> 現時点では、料金に関連するこれらの制御はプレビュー カスタマーのみが利用できます。 組織は [https://www.skypepreview.com](https://go.microsoft.com/fwlink/?linkid=859013) でプレビュー プログラムに登録できます。
+> 現時点では、料金に関連するこれらの制御はプレビュー カスタマーのみが利用できます。 プレビュー プログラムに組織を登録することができます[https://www.skypepreview.com](https://go.microsoft.com/fwlink/?linkid=859013)。
 
 これらの制御を使用すると、会議の開催者は開催する会議で無料電話の会議ブリッジ電話番号を提供するかどうかを決めたり、参加者が会議からダイヤルアウトできるかどうかを制御したりすることができます。 ダイヤルアウトの制御には、ダイヤルアウトの禁止、国内番号にのみダイヤルアウトを許可、国内および国際番号の両方にダイヤルアウトを許可があります。
 

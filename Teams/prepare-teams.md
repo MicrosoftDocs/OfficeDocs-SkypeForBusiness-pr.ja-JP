@@ -1,20 +1,21 @@
 ---
-title: "Microsoft Teams の導入に向けて現在の Skype for Business 環境を最適化する"
+title: Microsoft Teams の導入に向けて現在の Skype for Business 環境を最適化する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
-description: "Skype for Business から Microsoft Teams への移行を開始するためのガイダンス"
+ms.reviewer: dearbeen
+description: Skype for Business から Microsoft Teams への移行を開始するためのガイダンス
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15b989e69f637697a1ea9bde676382eeccb0e019
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: 3a9c9d4ccdbe3f3f1a2107c832b5437860e17d73
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="optimize-your-current-skype-for-business-environment-for-microsoft-teams"></a>Microsoft Teams の導入に向けて現在の Skype for Business 環境を最適化する
 ==============================================================
@@ -47,7 +48,7 @@ Teams などのリアルタイム通信製品を実装する前に *Network Read
 
 通話品質ダッシュボードを使用してメディア品質を調査する方法については、「[CQD videos (CQD ビデオ)](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)」をご覧ください。
 
-通話分析について詳しくは、「[Skype for Business Call Analytics (Skype for Business の通話分析)](https://support.office.com/article/Set-up-Skype-for-Business-Call-Analytics-fbf7247a-84ae-46cc-9204-2c45b1c734cd)」をご覧ください。
+分析機能の呼び出しに関する詳細については、[ビジネス分析の電話の Skype](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)を参照してください。
 
 ### <a name="quality-champion-role"></a>品質チャンピオンの役割
 

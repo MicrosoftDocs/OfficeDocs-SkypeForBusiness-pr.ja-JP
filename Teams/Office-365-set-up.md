@@ -1,26 +1,28 @@
 ---
-title: "Office 365 を使用する組織で Microsoft Teams をセットアップする"
+title: Office 365 の組織で、マイクロソフトのチームを有効に
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
-description: "Office 365 を使用する組織で Microsoft Teams をセットアップする方法について説明します。"
+description: Office 365 組織に対してマイクロソフトのチームを有効にする方法を説明します。
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a6ec5e59471ed6527bbaefd4969f5b8e7e5a5bc
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: ac66fd152a5880d23169c93a26d4dcd6d2056942
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
-<a name="set-up-microsoft-teams-in-your-office-365-organization"></a>Office 365 を使用する組織で Microsoft Teams をセットアップする
+<a name="turn-on-microsoft-teams-in-your-office-365-organization"></a>Office 365 の組織で、マイクロソフトのチームを有効に
 ======================================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 既定では、Teams はすべての組織でオンになります。 プレビュー期間において Teams を使用した場合、Teams プレビューの間に設定したものと同じ設定がそのまま維持されます。
 
@@ -31,7 +33,7 @@ ms.lasthandoff: 02/19/2018
 
 
 ## <a name="turn-teams-on-or-off-for-your-entire-organization"></a>組織全体に対して Teams をオンまたはオフにする
-
+[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
 1.  グローバル管理者の権限を持つアカウントで [Office 365 管理センター](https://go.microsoft.com/fwlink/?linkid=854614)にサインインします。
 
@@ -46,7 +48,3 @@ ms.lasthandoff: 02/19/2018
 4.  組織に対して Teams を有効にするには、ライセンス選択ウィンドウで各ライセンスを選択してからトグルを [**オン**] に設定して [**保存**] をクリックします。
 
     ![トグルがオンに設定されて Microsoft Teams が有効になっていることを示す Microsoft Teams の設定ページのスクリーンショット。](media/Services-and-addins-control-Microsoft-Teams.PNG)
-
-
-> [!NOTE]
-> Teams のオン/オフの状態に関するテナント レベルの制御は一時的なもので、その後のある時点で削除されます。 その時点以降、Teams へのアクセスはユーザー レベルのライセンスを介してのみ制御されます。 

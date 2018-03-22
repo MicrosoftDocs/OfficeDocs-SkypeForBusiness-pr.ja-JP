@@ -1,10 +1,10 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.openlocfilehash: b58c4759fc66bd9f573123bebf1772609a7a79e2
-ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
-ms.translationtype: HT
+ms.openlocfilehash: c6ed5d7cd16456414991fd08c127cddf3653a40c
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="welcome-to-office-content-on-docsmicrosoftcom"></a>docs.microsoft.com 上の Office へようこそコンテンツ
 ## <a name="this-is-a-level-2-heading"></a>これはレベル 2 の見出しです
@@ -19,7 +19,7 @@ ms.lasthandoff: 02/23/2018
 3. アイテム 4
 
 
-テスト ファイルに変更
+ここでこのファイルを include を追加します。[!INCLUDE [sample-include-file](includes/sample-include-file.md)]
 
 
 HTML シンボルと改行タグのみを使用して、マークダウンのテーブルを次のように箇条書きリストを含んでいるように見せることができます。

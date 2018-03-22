@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business から Microsoft Teams への移行"
+title: Skype for Business から Microsoft Teams への移行
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,15 +7,15 @@ ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor, dearbeen
-description: "Skype for Business Online から Microsoft Teams に移行するために理解しておく必要がある、あらゆる情報について説明します。"
+description: Skype for Business Online から Microsoft Teams に移行するために理解しておく必要がある、あらゆる情報について説明します。
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: feb21b64982940571192453f012feab2542c3bf9
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: a8d89f0f24f8dc056617ab06890deca74e8fcf60
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 <a name="journey-from-skype-for-business-to-microsoft-teams"></a>Skype for Business から Microsoft Teams への移行
 ==================================================
@@ -44,7 +44,7 @@ Teams に次に導入される機能について完全に把握したり、お�
 
 [よくあるご質問 - Skype for Business と Teams のビジョン](FAQ-journey.md)
 
-[Skype for Business から Microsoft Teams へ: 機能のロードマップ](https://aka.ms/skype2teamsroadmap)
+[マイクロソフト チームのロードマップ](https://aka.ms/teamsroadmap)
 
 [Skype for Business から Microsoft Teams へ: 機能のロードマップ](https://aka.ms/skype2teamsroadmap)
 

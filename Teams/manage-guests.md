@@ -1,38 +1,36 @@
 ---
-title: "Microsoft Teams へのゲスト アクセスを管理する"
-author: LaithAlShamri
-ms.author: laal
+title: Microsoft Teams でのゲスト アクセスを管理する
+author: LolaJacobsen
+ms.author: rramesan
 manager: serdars
 ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
-ms.reviewer: laal
-description: "IT 管理者は、テナントレベルでのゲストの追加、ゲスト ユーザー ポリシーと権限の設定と管理、ゲストを招待できるユーザーの判別、ゲスト ユーザーのアクティビティに関するレポートの取得を行うことができます。"
+ms.reviewer: rramesan
+description: IT 管理者は、テナントレベルでのゲストの追加、ゲスト ユーザー ポリシーと権限の設定と管理、ゲストを招待できるユーザーの判別、ゲスト ユーザーのアクティビティに関するレポートの取得を行うことができます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed42a6f4578786f6f5ed9683cf92c3b915653d66
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 02faf85d91657c487c02503b69b08078b81c88de
+ms.sourcegitcommit: 70fc5217f588e10ab0edb400f329ea597efaab52
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/12/2018
 ---
-<a name="manage-guest-access-to-microsoft-teams"></a>Microsoft Teams へのゲスト アクセスを管理する
+<a name="manage-guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセスを管理する
 ======================================
 
-ゲスト アクセスは、Office 365 Business Premium、Office 365 Enterprise、Office 365 Education のすべてのサブスクリプションに含まれています。 追加の Office 365 ライセンスは不要です。
-  
-    
-    
-Teams のゲスト アクセスはテナントレベルの設定であり、既定ではオフになっています。 IT 管理者は、テナントレベルでのゲストの追加、ゲスト ユーザー ポリシーと権限の設定と管理、ゲストを招待できるユーザーの判別、ゲスト ユーザーのアクティビティに関するレポートの取得を行うことができます。 これらの制御は Office 365 管理センターを介して利用できます。 ゲスト ユーザーのコンテンツとアクティビティには、Office 365 の他の部分と同じコンプライアンスと監査保護が適用されます。
-  
-    
-    
+**ゲスト**は、Office 365 のビジネス プレミアム、Office 365 の企業、および Office 365 の教育のすべてのサブスクリプションに含まれているマイクロソフトのチームでのユーザーとライセンスの種類です。 追加の Office 365 ライセンスは不要です。 Teams のゲスト アクセスはテナントレベルの設定であり、既定ではオフになっています。 ゲスト アクセスを有効にする方法の詳細については、[マイクロソフトのチームへのゲスト アクセスの無効を切り替える](set-up-guests.md)を参照してください。
 
-> [!NOTE]
-> Teams のゲスト アクセスのテナント設定は、ゲストのサインインのみを拒否します。 チーム所有者は、所有するチームに新しいゲストを招待したり、既存のディレクトリ ゲスト ユーザーを追加できます。 Teams は、テナントへのゲスト ユーザーの追加の許可または拒否において、常に Azure Active Directory の外部設定を優先します。 
+**ゲスト**ユーザーとライセンスの種類をオンにすると、 [Office 365 の組織での Microsoft チームの管理機能](enable-features-office-365.md#settings-by-userlicense-type)で説明されているコントロールを使用して来園者の設定を構成できます。     
+    
+IT 管理者は、テナントレベルでのゲストの追加、ゲスト ユーザー ポリシーと権限の設定と管理、ゲストを招待できるユーザーの判別、ゲスト ユーザーのアクティビティに関するレポートの取得を行うことができます。 これらの制御は Office 365 管理センターを介して利用できます。 ゲスト ユーザーのコンテンツとアクティビティには、Office 365 の他の部分と同じコンプライアンスと監査保護が適用されます。
+
+チームの所有者では、新規来園者を招待でき、既存のディレクトリのゲスト ユーザーをチームに追加することができます。 チームの所有者が**管理チーム**では、来園者のチャネルに関連する機能を設定するさらに、 > の**ゲスト アクセス許可**を作成するには、来園者が許可されるなどの更新、および次のスクリーン ショットに示すように、チャンネルを削除します。
+
+![チームでのゲスト アクセス権の設定です。](media/view-guests-guest-permissions.png)
   
-    
-    
 
 さらに、Azure Active Directory ポータルを使用して、ゲストの管理、Office 365 や Teams のリソースへのゲスト アクセスの管理を行うことができます。 Teams のゲスト アクセスでは、Azure Active Directory ビジネス ツー ビジネス (B2B) コラボレーション機能を基本インフラストラクチャとして活用して、ID プロパティ、メンバーシップ、多要素認証設定といったセキュリティの原則情報を保管します。 Azure Active Directory B2B の詳細については、「[Azure AD B2B コラボレーションとは](https://go.microsoft.com/fwlink/p/?linkid=853011)」と「[Azure Active Directory B2B コラボレーションの FAQ](https://go.microsoft.com/fwlink/p/?linkid=853020)」をご覧ください。
+> [!NOTE]
+> マイクロソフトのチームでは、Azure Active Directory 外部の設定を許可またはテナントのゲスト ユーザーの追加を禁止する常にします。 詳細については、[マイクロソフトのチームでのゲスト アクセスを許可](Teams-dependencies.md)を参照してください。
   

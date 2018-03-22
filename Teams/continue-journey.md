@@ -1,20 +1,20 @@
 ---
-title: "ユーザーの導入を介して Microsoft Teams の価値を創出する"
+title: ユーザーの導入を介して Microsoft Teams の価値を創出する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
-description: "Skype for Business から Microsoft Teams への移行を続けるためのガイダンス"
+description: Skype for Business から Microsoft Teams への移行を続けるためのガイダンス
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b897a4de7358faf01bb2c79835a5d7254c88dca
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: 2162fdf8a942c9a45949c52efaf4fc9b70b76b00
+ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/09/2018
 ---
 <a name="drive-value-with-microsoft-teams-through-user-adoption"></a>ユーザーの導入を介して Microsoft Teams の価値を創出する
 ================================================================
@@ -35,7 +35,7 @@ Microsoft は、お客様が長期的な成功を収めることを支援する�
 - 導入管理や変更管理を実施するのは初めてですか? [Office 365 導入ガイド](https://go.microsoft.com/fwlink/?linkid=859045)を活用する
 
 
-## <a name="get-your-organizaton-ready-for-your-future-move-to-teams"></a>組織で将来の Teams への移行に向けた準備を行う
+## <a name="get-your-organization-ready-for-your-future-move-to-teams"></a>チームへの今後の移行の準備ができて、組織を取得します。
 
 - [ロードマップ](https://go.microsoft.com/fwlink/?linkid=859047) を使用して Teams への移行をナビゲートする
 

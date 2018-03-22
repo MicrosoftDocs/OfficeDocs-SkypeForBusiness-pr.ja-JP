@@ -1,56 +1,51 @@
 ---
-title: "Microsoft Teams のクライアントを取得する"
+title: Microsoft Teams のクライアントを取得する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara
-description: "Microsoft Teams で利用できる、Web、デスクトップ (Windows および Mac)、およびモバイル (Android、iOS、Windows Phone) などのさまざまなクライアントを使用する方法について説明します。"
+description: Microsoft Teams で利用できる、Web、デスクトップ (Windows および Mac)、およびモバイル (Android、iOS、Windows Phone) などのさまざまなクライアントを使用する方法について説明します。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f2208ed21eb2db33f8d8ff90af97caa5b4912dfd
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 6cc06497da95f6c9e0f4e6a39d851125922e8b31
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 ===========================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Microsoft Teams には、Web、デスクトップ (Windows および Mac)、およびモバイル (Android、iOS、Windows Phone) で利用できるクライアントがあります。これらのクライアントはすべてアクティブなインターネット接続が必要で、オフライン モードをサポートしていません。
 
 <a name="web-client"></a>Web クライアント 
 ----------------
 
-Web クライアント ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) は、さまざまなブラウザーから使用できる、完全な機能クライアントです。 現時点では、Web クライアントはリアルタイム通信 (会議への参加、1 対 1 の通話) をサポートしていません。 また、ブラウザーはサードパーティの Cookie を許可するように設定する必要があります。 
+Web クライアント ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) は、完全な機能のクライアントで、さまざまなブラウザーから使用することができます。 現時点では、Web クライアントはリアルタイム通信 (会議への参加、1 対 1 の通話) をサポートしていません。 また、ブラウザーはサードパーティの Cookie を許可するように設定する必要があります。 
 
 Web ブラウザーで Teams を実行するために必要となるプラグインやダウンロードはありません。
 
-Web クライアントは、[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) への接続時にブラウザー バージョンの検出を実行します。サポートされていないブラウザー バージョンを検出した場合、Web インターフェイスへのアクセスをブロックし、ユーザーによるデスクトップ クライアントまたはモバイル アプリのダウンロードを推奨します。
+Web クライアントへの接続時にブラウザーのバージョンの検出を実行する[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)、サポートされていないブラウザーのバージョンが検出された場合、Web インターフェイスへのアクセスをブロックし、ユーザーがデスクトップ クライアントまたはモバイル アプリケーションをダウンロードすることをお勧めしています。
 
 <a name="internet-browser-support"></a>インターネット ブラウザーのサポート
 ------------------------------
-Teams は、次のインターネット ブラウザーをサポートしています。 
-- Internet Explorer 11
-- Microsoft Edge
-- Chrome の最新バージョンと、その前の 2 バージョン
-- Firefox の最新バージョンと、その前の 2 バージョン
-
-> [!NOTE]
-> Safari は現在はサポートされていません。 Teams の新機能に関するニュースについては、[Teams ロードマップ](http://aka.ms/TeamsRoadmap)を確認してください。 Teams を Safari で開こうとすると、Teams のデスクトップ クライアントのダウンロードに移動します。
+[!INCLUDE [browser-support](includes/browser-support.md)]
 
 <a name="desktop-clients"></a>デスクトップ クライアント
 ------------------------
 
-Microsoft Teams デスクトップ クライアントはスタンドアロン アプリケーションであり、現在は Office Pro Plus の一部ではありません。Microsoft Teams は、32 ビットおよび 64 ビット バージョンの Windows (7 以上)、および MacOS (10.10 以上) で利用できます。
+マイクロソフト チームのデスクトップ クライアントは、スタンドアロン アプリケーションと現在の Office Pro との一部ではありません。 チームは、Windows (7 +)、32 ビットと 64 ビットの両方のバージョンと MacOS (10.10 +) の両方に使用できます。 Windows では、.net 4.5 以降のチームする必要があります。チームのインストーラーは、インストールすることがない場合に提供されます。
 
-デスクトップ クライアントは、チーム会議、グループ通話、およびプライベートな 1 対 1 での通話に対応するリアルタイム通信のサポート (オーディオ、ビデオ、およびコンテンツ共有) を提供します。
+デスクトップのクライアントでは、チーム ミーティング、グループの呼び出し、およびプライベート 1 対 1 の呼び出しのリアルタイム通信のサポート (オーディオ、ビデオ、およびコンテンツの共有) を提供します。
 
-デスクトップ クライアントは、適切なローカルのアクセス許可を持っているエンド ユーザーによって、[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) から直接ダウンロードおよびインストールできます (管理者権限は、Teams クライアントを PC にインストールする場合には必要ありませんが、Mac では必要になります) 。
+デスクトップ クライアントをダウンロードしてから直接のエンド ・ ユーザーによってインストールされている[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)、適切なローカルのアクセス許可 (管理者権限は、PC 上でチームのクライアントをインストールする必要はありませんが、Mac のために必要な) があります。
 
 IT 管理者は好みの方法で、System Center Configuration Manager (Windows)、Casper Suite (MacOS) のような組織内のコンピューターにインストール ファイルを配布できます。
 
