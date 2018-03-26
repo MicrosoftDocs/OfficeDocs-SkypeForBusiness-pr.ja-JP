@@ -1,0 +1,1 @@
+<span data-ttu-id="042ed-101">サンプルが含まれるファイル - このテキストは随意に置換してください。</span><span class="sxs-lookup"><span data-stu-id="042ed-101">Sample include file - just replace this text with your own.</span></span>

@@ -1,0 +1,8 @@
+<span data-ttu-id="42f3e-101">Teams は、次のインターネット ブラウザーをサポートしています。</span><span class="sxs-lookup"><span data-stu-id="42f3e-101">Teams supports the following internet browsers:</span></span> 
+- <span data-ttu-id="42f3e-102">Internet Explorer 11</span><span class="sxs-lookup"><span data-stu-id="42f3e-102">Internet Explorer 11</span></span>
+- <span data-ttu-id="42f3e-103">Microsoft Edge</span><span class="sxs-lookup"><span data-stu-id="42f3e-103">Microsoft Edge</span></span>
+- <span data-ttu-id="42f3e-104">Chrome の最新バージョンと、その前の 2 バージョン</span><span class="sxs-lookup"><span data-stu-id="42f3e-104">The latest version of Chrome, plus two previous versions</span></span>
+- <span data-ttu-id="42f3e-105">Firefox の最新バージョンと、その前の 2 バージョン</span><span class="sxs-lookup"><span data-stu-id="42f3e-105">The latest version of Firefox, plus two previous versions</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="42f3e-106">Safari は現在はサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="42f3e-106">Safari isn't currently supported.</span></span> <span data-ttu-id="42f3e-107">Teams の新機能に関するニュースについては、[Teams ロードマップ](http://aka.ms/TeamsRoadmap)を確認してください。</span><span class="sxs-lookup"><span data-stu-id="42f3e-107">Check the [Teams Roadmap](http://aka.ms/TeamsRoadmap) for news about new features in Teams.</span></span> <span data-ttu-id="42f3e-108">Teams を Safari で開こうとすると、Teams のデスクトップ クライアントのダウンロードに移動します。</span><span class="sxs-lookup"><span data-stu-id="42f3e-108">Users who try to open Teams on Safari will be directed to download the Teams desktop client.</span></span>
