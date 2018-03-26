@@ -1,0 +1,1 @@
+新しい Microsoft Teams および Skype for Business 管理センターを近日中にご利用いただけるようになります。  2018 年 3 月から、現在の Skype for Business 管理センターと、Office 365 管理センターでの Microsoft Teams エクスペリエンスの両方からの設定を、新しい管理センターに順次移行し始めています。 設定が移行されると、通知が表示され、新しい Microsoft Teams および Skype for Business 管理センター内のその設定の場所に導かれます。
