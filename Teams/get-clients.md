@@ -3,20 +3,22 @@ title: Microsoft Teams のクライアントを取得する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 03/26/2018
+audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara
+localization_priority: Normal
 description: Microsoft Teams で利用できる、Web、デスクトップ (Windows および Mac)、およびモバイル (Android、iOS、Windows Phone) などのさまざまなクライアントを使用する方法について説明します。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6cc06497da95f6c9e0f4e6a39d851125922e8b31
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 837be1b510441a46984585c517e4d125e244599a
+ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 ===========================
@@ -26,30 +28,24 @@ ms.lasthandoff: 03/15/2018
 Microsoft Teams には、Web、デスクトップ (Windows および Mac)、およびモバイル (Android、iOS、Windows Phone) で利用できるクライアントがあります。これらのクライアントはすべてアクティブなインターネット接続が必要で、オフライン モードをサポートしていません。
 
 <a name="web-client"></a>Web クライアント 
-----------------
+----------
 
-Web クライアント ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) は、完全な機能のクライアントで、さまざまなブラウザーから使用することができます。 現時点では、Web クライアントはリアルタイム通信 (会議への参加、1 対 1 の通話) をサポートしていません。 また、ブラウザーはサードパーティの Cookie を許可するように設定する必要があります。 
+Web クライアント ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) は、完全な機能のクライアントで、さまざまなブラウザーから使用することができます。 Web クライアントでは、プラグインがあるため、webRTC または web ブラウザーでのチームを実行するために必要なダウンロードを使用して通話や会議をサポートします。 ブラウザーを構成して、サード パーティの cookie を許可する必要があります。 
 
-Web ブラウザーで Teams を実行するために必要となるプラグインやダウンロードはありません。
-
-Web クライアントへの接続時にブラウザーのバージョンの検出を実行する[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)、サポートされていないブラウザーのバージョンが検出された場合、Web インターフェイスへのアクセスをブロックし、ユーザーがデスクトップ クライアントまたはモバイル アプリケーションをダウンロードすることをお勧めしています。
-
-<a name="internet-browser-support"></a>インターネット ブラウザーのサポート
-------------------------------
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-<a name="desktop-clients"></a>デスクトップ クライアント
-------------------------
+Web クライアントへの接続時にブラウザーのバージョンの検出を実行する[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)、サポートされていないブラウザーのバージョンが検出された場合、web インターフェイスへのアクセスをブロックし、ユーザーがデスクトップ クライアントまたはモバイル アプリケーションをダウンロードすることをお勧めしています。
 
-マイクロソフト チームのデスクトップ クライアントは、スタンドアロン アプリケーションと現在の Office Pro との一部ではありません。 チームは、Windows (7 +)、32 ビットと 64 ビットの両方のバージョンと MacOS (10.10 +) の両方に使用できます。 Windows では、.net 4.5 以降のチームする必要があります。チームのインストーラーは、インストールすることがない場合に提供されます。
+<a name="desktop-client"></a>デスクトップ クライアント
+--------------
+
+マイクロソフト チームのデスクトップ クライアントは、スタンドアロン アプリケーションと現在の Office Pro との一部ではありません。 チームは、Windows (7 +)、32 ビットと 64 ビットの両方のバージョンと MacOS (10.10 +) の両方に使用できます。 Windows では、.net 4.5 以降のチームする必要があります。チームのインストーラーは、インストールすることがない場合に提供されます。 
 
 デスクトップのクライアントでは、チーム ミーティング、グループの呼び出し、およびプライベート 1 対 1 の呼び出しのリアルタイム通信のサポート (オーディオ、ビデオ、およびコンテンツの共有) を提供します。
 
 デスクトップ クライアントをダウンロードしてから直接のエンド ・ ユーザーによってインストールされている[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)、適切なローカルのアクセス許可 (管理者権限は、PC 上でチームのクライアントをインストールする必要はありませんが、Mac のために必要な) があります。
 
-IT 管理者は好みの方法で、System Center Configuration Manager (Windows)、Casper Suite (MacOS) のような組織内のコンピューターにインストール ファイルを配布できます。
-
-
+IT 管理者は好みの方法で、System Center Configuration Manager (Windows)、Casper Suite (MacOS) のような組織内のコンピューターにインストール ファイルを配布できます。 Windows 用の MSI パッケージの配布を取得するには、[マイクロソフト チームのインストールは、MSI を使用して](msi-deployment.md)参照してください。
 
 > [!NOTE]
 > これらのメカニズムによるクライアントの配布は、Microsoft Teams クライアントの初回インストール時にのみ利用でき、それ以降の更新では利用できません。

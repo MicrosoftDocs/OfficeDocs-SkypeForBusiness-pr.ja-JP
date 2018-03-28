@@ -1,5 +1,5 @@
 ---
-title: "オーストラリアの可用性"
+title: オーストラリアの可用性
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "オーストラリアの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。"
-ms.openlocfilehash: 4552e465531ddbb331a0b0226b427ac44de1c558
-ms.sourcegitcommit: e7e4d7200b586ff3d21d93a17867eb20a13a6212
+description: オーストラリアの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
+ms.openlocfilehash: ec5ac53fc0688aeb6ed960f64c5ffb35ceb216f9
+ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="availability-in-australia"></a>オーストラリアの可用性
 
@@ -53,13 +53,13 @@ ms.lasthandoff: 03/21/2018
    
 ## <a name="calling-plans"></a>通話プラン
 > [!IMPORTANT]
-> オーストラリアには、プレビューし、早期導入企業のお客様をできるだけです。 詳細については、 [Telstra の声](http://aka.ms/TelstraVoicePlan)を参照してください。 
+> 現在プレビューおよびオーストラリアでの早期採用にのみ使用可能です。 詳細については、 [Telstra は、Office 365 の呼び出し](http://aka.ms/TelstraVoicePlan)を参照してください。 
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|通話プランは購入できますか?  <br/> |はい、 [Telstra のインターネット電話サービス](http://aka.ms/TelstraVoicePlan)を参照してください。  <br/> |
-|通話プランで利用可能な通話分数  <br/> |[Telstra のサービス](http://aka.ms/TelstraVoicePlan)を参照してください。 <br/> |
-|発信通話を行うことができますか?  <br/> |[Telstra のサービス](http://aka.ms/TelstraVoicePlan)を参照してください。 <br/> |
+|通話プランは購入できますか?  <br/> |はい、 [Telstra は、Office 365 の呼び出し](http://aka.ms/TelstraVoicePlan)を参照してください。  <br/> |
+|通話プランで利用可能な通話分数  <br/> |[Telstra は、Office 365 の呼び出し](http://aka.ms/TelstraVoicePlan)を参照してください。 <br/> |
+|発信通話を行うことができますか?  <br/> |[Telstra は、Office 365 の呼び出し](http://aka.ms/TelstraVoicePlan)を参照してください。 <br/> |
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
@@ -69,7 +69,7 @@ ms.lasthandoff: 03/21/2018
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
    
-自動応答と通話キューの有料電話番号と無料電話番号を取得する場合は、 [Telstra のインターネット電話サービス](http://aka.ms/TelstraVoicePlan)を参照してください。 オーディオ会議サービス番号の[ご連絡ください](mailto:ptnapac@microsoft.com)。
+自動応答と通話キューの有料電話番号と無料電話番号を取得する場合は、 [Telstra は、Office 365 の呼び出し](http://aka.ms/TelstraVoicePlan)を参照してください。 オーディオ会議サービス番号の[ご連絡ください](mailto:ptnapac@microsoft.com)。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

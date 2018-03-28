@@ -13,11 +13,11 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b556a7293ecd6c6158a3fb1f7e882fa87defbc45
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: cbbd2cad0b84ccdcc887d5bcdf272c1556c9c546
+ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 <a name="overview-of-microsoft-teams"></a>Microsoft Teams の概要
 ===========================
@@ -122,6 +122,6 @@ Office 365 の各アプリケーションの一般的な使用例を示します
 
 Teams 管理者のよくあるご質問 (FAQ) は、最初に Teams をリリースした時点では便利でしたが、次第に「散らかった引き出し」のような状態になり、特定の情報を見つけ出すのが難しくなってしまいました。 このため、よくあるご質問 (FAQ) は廃止して、お客様が現在参照されているこの Teams のドキュメンテーションに FAQ に関する有益な情報を統合しました。 よくあるご質問 (FAQ) に記載されていた情報はコンテキストに応じてこのドキュメンテーションですべて見つかります。
 
-ここで見つけることができない情報を探す場合は、以下にある [**コメント**] セクションにその内容を入力してお知らせください。 いただいたコメントに対しては、24 時間以内に対応するよう努めます。
+見つからない場合は、ここのものを探す場合についてお聞かせください、後述の「**フィードバック**」のです。 私たちは、24 時間以内の回答をお送りしてみます。
 
 なお、[Skype for Business から Teams への移行](FAQ-journey.md)に関するよくあるご質問 (FAQ) **は**現在もご利用いただけます。 
