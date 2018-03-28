@@ -13,9 +13,12 @@
 # セットアップ
 ## [Teams へのユーザー アクセスを管理する](user-access.md)
 ## [Teams のクライアントを取得する](get-clients.md)
+## [チームへのサインイン](sign-in-teams.md)
 ## [Teams の展開の概要](deployment-overview.md)
 ## [Office 365 を使用する組織で Teams をセットアップする](Office-365-set-up.md)
 ## [Office 365 を使用する組織で Teams の機能をオンにする](enable-features-office-365.md)
+## [新しいマイクロソフトのチームとビジネス管理センターの Skype に移行する際のチームを管理します。](manage-teams-skypeforbusiness-admin-center.md)
+## [MSI を使用してマイクロソフトのチームをインストールします。](msi-deployment.md)
 ## [通話品質ダッシュボードで利用できるディメンションとメジャー](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Skype for Business の通話分析をセットアップする](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [通話分析を使用して Skype for Business の低い通話品質をトラブルシューティングする](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -123,6 +126,7 @@
 
 
 ## 電話会議
+### [チームで電話会議のチュートリアル:](Tutorial-Audio-Conferencing.yml)
 ### [サードパーティを電話会議プロバイダーとして割り当てる](/SkypeForBusiness/audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Microsoft を電話会議プロバイダーとして割り当てる](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [電話会議に関するよくある質問](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -158,6 +162,7 @@
 ### [ビデオ - Audio Conferencing in Teams (Teams での電話会議)](audio-conferencing-videos.md)
 
 ## 通話プラン
+### [チュートリアル: チームを呼び出す](Tutorial-calling-in-teams.yml)
 ### [クイック スタート ガイド: Teams での通話プランの設定](configuring-teams-calling-quickstartguide.md)
 ### [通話プランの設定](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [組織の緊急対応の住所を追加、変更、削除する](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
