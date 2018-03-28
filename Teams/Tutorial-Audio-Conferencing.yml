@@ -1,0 +1,114 @@
+### YamlMime:Tutorial
+title: Microsoft Teams での電話会議
+metadata:
+  title: Microsoft Teams での電話会議
+  description: 対話型のチュートリアルでは、マイクロソフトのチームでのオーディオ会議について説明します。
+  audience: IT Pro
+  level: Intermediate
+  displayType: one-column
+  interactive: azurecli
+  ms.author: tbinder
+  ms.reviewer: tbinder
+  manager: serdars
+  ms.date: 02/27/2018
+  ms.service: msteams
+  ms.topic: tutorial
+  ms.collection: Strat_MT_TeamsAdmin
+  appliesto:
+  - Microsoft Teams
+  ms.openlocfilehash: 84e821c7c4cd3f97e59731e90d4c42686140789a
+  ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
+  ms.translationtype: MT
+  ms.contentlocale: ja-JP
+  ms.lasthandoff: 03/28/2018
+items:
+- durationInMinutes: 1
+  content: >
+    このトレーニングでは、マイクロソフトのチームでの音声会議を紹介: 通常の電話会議の電話番号へのダイヤル アウトとチームの会議に参加することです。 要件およびチームの計画の考慮事項だけでなくチームでの電話会議の機能を説明します。
+
+
+    [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]
+
+
+    このトレーニングは、次のようなお客様を対象としています。
+
+    -   IT 専門家。
+
+    -   Teams の計画、展開、管理の責任者。
+
+    -   計画、展開、またはチームでの電話会議の管理を検討しています。
+
+
+    次のセクションが含まれます。
+
+    -   オーディオ会議の要件
+
+    -   計画手順
+
+    -   レポート
+
+
+    オーディオ会議は、チームの会議に機能を追加します。 [会議は、マイクロソフトのチームで](http://aka.ms/tr-meetings)は、このチュートリアルの前に完了することをお勧めします。
+
+
+    [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
+
+
+    このトレーニングについてご質問やフィードバックがある場合は、次の方法でお送りください。
+
+
+    -   このチュートリアルの「次の手順」ページ下部にあるコメント欄に投稿
+
+    -   [AskTeams\@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Audio%20Conferencing) 宛にメールを送信してください
+
+
+    新機能のアイディアなど、Teams に関する製品フィードバックをご提供いただける場合は、「[UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)」にアクセスしてください。
+- title: チームでの音声会議
+  durationInMinutes: 12
+  content: "\nオーディオ会議、参加者を使用して通常の電話、チームの会議に参加-か携帯電話から会議にダイヤルイン会議内からの発信機能を使用しています。 オーディオ会議の詳細については、次のリソースを参照してください。\n-   [電話会議機能](https://products.office.com/skype-for-business/audio-conferencing#Features)(推定読み込み時間 1 分)\n-   [マイクロソフトのチームとの会議のための 9 のヒント](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)(読み取りの時間を推定する\"\\#1 - オーディオ会議を使用してミーティングに参加」が 1 分; 全体の資料を参照する場合の詳細)\n-   [オーディオ会議のよく寄せられる質問](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions)(推定読み込み時間 7 分)\n-   [他の人が参加するための会議からの発信](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)(2 分の時間を読む推定)\n"
+- title: 'シナリオ: オーディオ会議'
+  durationInMinutes: 1
+  content: "\nGarth は、contoso 社の企業では、複数のオフィスで動作します。 Garth は頻繁に他のオフィスの所在地のユーザーに接続する必要があるし、彼はチーム会議の大ファンであるため、多くの場合は自宅からその道に出た、します。 Garth は、会議出席依頼を送信するときに、オーディオ会議の情報が自動的に追加します。 これにより、次のシナリオが可能にします。\n-   Alice が Garth の会議に出席したいですが、外出先では、彼女と、信頼性の高いネットワークへのアクセス権を持たない。 したがって、彼女ミーティング招待状からダイヤルインの座標を使用してミーティングに参加します。 ダイヤルインの処理中に、暗証番号 (pin) 認証に使用、「Alice。」とシステムが認識が彼女のため\n-   ホテルには、現在は、Bob は、自分の PC 上のチームのクライアントを使用してミーティングに参加します。 残念ながら、ホテルでのインターネット接続経由でのオーディオの品質が優れたされていない、ボブに電話をかける自分の電話番号、公衆交換電話網 (PSTN) 経由で参加する会議です。\n-   会議の参加者は、別の電話番号でユーザーを追加することを呼び出し中に場合に、それらだけでダイアル アウトができる携帯電話に番号し、会議に他のユーザーを表示します。\n-   他のユーザーは、PC、Mac、またはモバイル デバイス上のチームのクライアントからも参加できます。\n"
+- title: Skype のビジネスのお客様向けの考慮事項
+  durationInMinutes: 1
+  content: "\nビジネスの Skype を使用して場合、は、以下を考慮する必要があります。\n\n###<a name=\"skype-for-business-serverhomed-users\"></a>Skype ビジネス サーバー – ホーム ユーザー向け\nビジネス サーバーの Skype を使用する場合、チーム会議の設置型のビジネスが Skype に置かれているユーザーによってスケジュールには、PSTN の座標を会議は含まれません。 (これは、「[会議のオーディオのトラブルシューティングと既知の問題](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues)です。)\n\n###<a name=\"skype-for-business-onlinehomed-users\"></a>Skype – ホームのオンライン ビジネスのユーザーの\nユーザーは、オンライン ビジネスの Skype に置かれているし、電話会議が既に有効になってが自動的に有効にするチームで、オーディオ会議の。 ダイヤルするとき、会議に認証するために使用する PIN は、ビジネスとチームの Skype で同じになります。\n"
+- title: Envision は、オーディオ会議
+  durationInMinutes: 48
+  content: "\n実用的なガイダンスは、オーディオ会議の導入を計画および必要な要素の詳細について説明します。 技術の計画手順を理解するのには以下の資料を確認してください。\n\n-   [オーディオ会議の私の成功を定義します。](https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-audio-conferencing)(推定読み込み時間 11 分)\n-   [意思決定、サービス ・電話会議](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-audio-conferencing)(12 分の時間を読む推定)\n-   [自分の環境の評価](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment)(12 分の時間を読む推定)\n-   [[サービスの管理を計画します。](https://docs.microsoft.com/MicrosoftTeams/4-envision-plan-my-service-management)(推定読み込み時間 5 分)\n-   [自分のユーザー エクスペリエンスを計画します。](https://docs.microsoft.com/MicrosoftTeams/5-envision-plan-my-users-experience)(推定読み込み時間 5 分)\n-   [ドキュメント成功プラン](https://docs.microsoft.com/MicrosoftTeams/6-envision-document-my-success-plan)(6 分の時間を読む推定)\n"
+- title: オンボードのオーディオ会議
+  durationInMinutes: 13
+  content: "\n、構想と同じように契約時は、実際的なガイダンスで説明します。 理解するのには以下の資料を確認するオンボードのユーザーに対しては、電話会議への方法。\n\n-   [サービスの準備](https://docs.microsoft.com/MicrosoftTeams/1-onboard-prepare-my-service)(6 分の時間を読む推定)\n-   [自分のユーザーを準備します。](https://docs.microsoft.com/MicrosoftTeams/2-onboard-prepare-my-users)(2 分の時間を読む推定)\n-   [展開サービス](https://docs.microsoft.com/MicrosoftTeams/3-onboard-deploy-my-service)(3 分の時間を読む推定)\n-   [オーディオ会議のトラブルシューティングと既知の問題](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues)(チーム固有のコンテンツの閲覧が予想される時間は、2 分間)\n"
+- title: '練習: オーディオ会議を構成します。'
+  durationInMinutes: 20
+  content: "\nこの練習では、チームの会議のオーディオをテストする機会があります。\n各操作の実行方法については説明しませんが、いくつかのシナリオを試してみることをお勧めします。\n\n###<a name=\"requirements\"></a>要件\n-   Teams を使用するための適切なライセンスを備えた Office 365 テナント\n    -   テスト専用のテナントを使用することを強く推奨します。\n    -   テスト用のテナントがない場合は、[Office 365 Enterprise E5 Trial](https://go.microsoft.com/fwlink/p/?LinkID=698279) で試用テナントの利用を登録することができます。\n    -   実稼働環境ではいかなるテストも実行しないでください。 設定またはポリシーの変更により、すべてのユーザーに悪影響が及び、ユーザー エクスペリエンスにも影響が生じる可能性があります。\n-   2 つ以上のエンドポイント\n    -   エンドポイントは 2 台の PC でも構いませんが、携帯電話上でクライアントを使用することもできます。\n    -   会議にダイヤルインし、アウトするためにダイヤルする電話\n\n###<a name=\"suggested-scenarios-to-test\"></a>推奨されるテスト シナリオ\n-   オーディオ会議のユーザーを有効にします。\n-   ユーザーごとに別の会議ブリッジ番号を設定します。\n-   テナントのためには、既定の会議ブリッジ番号を変更します。\n-   会議ブリッジの番号 (別の言語) の設定を変更します。\n-   会議ブリッジの (会議の開始と終了の通知、暗証番号 (pin) の長さ、電子メール通知) のグローバル設定を変更します。\n-   電子メールをユーザーに送信されることを確認します。\n-   チーム ミーティングをスケジュールし、ミーティングの招待状を確認します。\n-   電話から会議に参加します。\n-   電話会議から発信します。\n-   ミュートし、携帯電話のミュートを解除する会議中にデュアル トーン多重周波数コントロールを使用します。\n"
+- title: 価値を創出.
+  durationInMinutes: 1
+  content: "\nレポートの観点から見て 2 つの領域があります。\n-   使用量: 開催されている会議の数について\n-   品質: 会議の品質について\n\nこれらの両方の領域について注意して監視する必要があります。\n-   使用量が低いことは、ユーザーが何らかの理由によりこの製品を使用していないことを意味します。 のみ、さらに調査して理由を指定できます。\n    理由として考えられるのは、会議がユーザーの要件を満たしていないと認知されていることや、啓発不足やトレーニング不足、または品質の問題などです。\n-   低品質は、一方で、ユーザーと Office 365 との間の接続に問題があることを意味します。 低品質により、ユーザー エクスペリエンスの悪化と低使用量につながる可能性があります。 使用量のレポートの詳細については、「[管理センターの Office 365 レポート - Microsoft Teams ユーザー アクティビティ](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524) (推定所要時間: 5 分) をご覧ください。\n\n品質の管理については、このトレーニングの対象範囲外ですが、次のトレーニング資料をご覧ください。\n\n-   [自分のサービスを実施します。](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service)\n"
+- title: 次のステップ
+  durationInMinutes: 1
+  content: >-
+    このトレーニングでは次の重要な学習事項を取り上げています。
+
+    -   チームでの音声会議
+
+    -   オーディオ会議の要件
+
+    -   レポート
+
+
+    ### <a name="next-steps"></a>次のステップ
+
+
+    1.  個人用に設定された展開についてのガイダンスのために [MyAdvisor](http://aka.ms/myadvisor) に登録する
+
+    2.  チームで電話会議を使用して起動します。
+
+    3.  フィードバックを送信してください。
+        - このページの下部にあるコメント セクションから投稿してください。
+        - 問い合わせ先[AskTeams\@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Audio%20Conferencing)
+        - Teams 製品のフィードバックまたは新しい機能のリクエストを送信するには、[Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public) に移動してください
+    4.  最新に維持します。
+        - [チームのブログ](https://aka.ms/teamsblog)に従います。
+        - [チームのロードマップ](https://aka.ms/skype2teamsroadmap)を参照してください。
+        - [リリース ノート](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)にリリースされた最新の機能について説明します。
+    5.  [その他のトレーニングおよびチュートリアル](http://aka.ms/Teamsacademy)を探索してください。
