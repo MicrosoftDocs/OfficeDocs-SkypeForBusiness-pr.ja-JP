@@ -1,11 +1,11 @@
-<span data-ttu-id="75784-101">Teams は、次のインターネット ブラウザーをサポートしています。</span><span class="sxs-lookup"><span data-stu-id="75784-101">Teams supports the following internet browsers:</span></span> 
-- <span data-ttu-id="75784-102">Internet Explorer 11</span><span class="sxs-lookup"><span data-stu-id="75784-102">Internet Explorer 11</span></span>
-- <span data-ttu-id="75784-103">Microsoft Edge</span><span class="sxs-lookup"><span data-stu-id="75784-103">Microsoft Edge</span></span>
-  - <span data-ttu-id="75784-104">通話とミーティングのエッジ RS2 以降でサポートされて</span><span class="sxs-lookup"><span data-stu-id="75784-104">Calling and Meetings supported on Edge RS2 or later</span></span>
-- <span data-ttu-id="75784-105">Chrome の最新バージョンと、その前の 2 バージョン</span><span class="sxs-lookup"><span data-stu-id="75784-105">The latest version of Chrome, plus two previous versions</span></span>
-  - <span data-ttu-id="75784-106">クロム 59 以降にサポートされている呼び出し</span><span class="sxs-lookup"><span data-stu-id="75784-106">Calling supported on Chrome 59 or later</span></span>
-  - <span data-ttu-id="75784-107">会議サポートされる予定</span><span class="sxs-lookup"><span data-stu-id="75784-107">Meetings support coming soon</span></span>
-- <span data-ttu-id="75784-108">Firefox の最新バージョンと、その前の 2 バージョン</span><span class="sxs-lookup"><span data-stu-id="75784-108">The latest version of Firefox, plus two previous versions</span></span>
+<span data-ttu-id="c58b0-101">Teams は、次のインターネット ブラウザーをサポートしています。</span><span class="sxs-lookup"><span data-stu-id="c58b0-101">Teams supports the following internet browsers:</span></span> 
+- <span data-ttu-id="c58b0-102">Internet Explorer 11</span><span class="sxs-lookup"><span data-stu-id="c58b0-102">Internet Explorer 11</span></span>
+- <span data-ttu-id="c58b0-103">Microsoft Edge</span><span class="sxs-lookup"><span data-stu-id="c58b0-103">Microsoft Edge</span></span>
+  - <span data-ttu-id="c58b0-104">通話とミーティングのエッジ RS2 以降でサポートされて</span><span class="sxs-lookup"><span data-stu-id="c58b0-104">Calling and Meetings supported on Edge RS2 or later</span></span>
+- <span data-ttu-id="c58b0-105">クロム、最新のバージョンと 2 つの以前のバージョン</span><span class="sxs-lookup"><span data-stu-id="c58b0-105">Chrome, the latest version plus two previous versions</span></span>
+  - <span data-ttu-id="c58b0-106">クロム 59 以降にサポートされている呼び出し</span><span class="sxs-lookup"><span data-stu-id="c58b0-106">Calling supported on Chrome 59 or later</span></span>
+  - <span data-ttu-id="c58b0-107">会議サポートされる予定</span><span class="sxs-lookup"><span data-stu-id="c58b0-107">Meetings support coming soon</span></span>
+- <span data-ttu-id="c58b0-108">Firefox の場合、最新バージョンと 2 つの以前のバージョン</span><span class="sxs-lookup"><span data-stu-id="c58b0-108">Firefox, the latest version plus two previous versions</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="75784-109">Safari は現在はサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="75784-109">Safari isn't currently supported.</span></span> <span data-ttu-id="75784-110">Teams の新機能に関するニュースについては、[Teams ロードマップ](http://aka.ms/TeamsRoadmap)を確認してください。</span><span class="sxs-lookup"><span data-stu-id="75784-110">Check the [Teams Roadmap](http://aka.ms/TeamsRoadmap) for news about new features in Teams.</span></span> <span data-ttu-id="75784-111">Teams を Safari で開こうとすると、Teams のデスクトップ クライアントのダウンロードに移動します。</span><span class="sxs-lookup"><span data-stu-id="75784-111">Users who try to open Teams on Safari will be directed to download the Teams desktop client.</span></span>
+> <span data-ttu-id="c58b0-109">Safari は現在はサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="c58b0-109">Safari isn't currently supported.</span></span> <span data-ttu-id="c58b0-110">Teams の新機能に関するニュースについては、[Teams ロードマップ](http://aka.ms/TeamsRoadmap)を確認してください。</span><span class="sxs-lookup"><span data-stu-id="c58b0-110">Check the [Teams Roadmap](http://aka.ms/TeamsRoadmap) for news about new features in Teams.</span></span> <span data-ttu-id="c58b0-111">Teams を Safari で開こうとすると、Teams のデスクトップ クライアントのダウンロードに移動します。</span><span class="sxs-lookup"><span data-stu-id="c58b0-111">Users who try to open Teams on Safari will be directed to download the Teams desktop client.</span></span>
