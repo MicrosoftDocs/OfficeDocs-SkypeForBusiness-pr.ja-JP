@@ -1,5 +1,5 @@
 ---
-title: Manage PIN policies for dial-in conferencing in Skype for Business Server 2015
+title: ビジネス サーバー 2015 の Skype では、ダイヤルイン会議の暗証番号 (pin) ポリシーを管理します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,18 +9,18 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
-description: 'Summary: Learn how to manage PIN policies for dial-in conferencing in Skype for Business Server 2015.'
+description: '概要: ビジネス サーバー 2015 の Skype では、ダイヤルイン会議の暗証番号 (pin) ポリシーを管理する方法を説明します。'
 ms.openlocfilehash: ecc1c41c4d08583baaec4279ea35d9ba796d3e5e
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/28/2018
 ---
-# <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server-2015"></a>Manage PIN policies for dial-in conferencing in Skype for Business Server 2015
+# <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype では、ダイヤルイン会議の暗証番号 (pin) ポリシーを管理します。
  
-**Summary:** Learn how to manage PIN policies for dial-in conferencing in Skype for Business Server 2015.
+**の概要:**ビジネス サーバー 2015 の Skype では、ダイヤルイン会議の暗証番号 (pin) ポリシーを管理する方法について説明します。
   
-Skype for Business Server users who have Active Directory Domain Services (AD DS) credentials in your organization can join dial-in conferences as authenticated users by using a personal identification number (PIN). PIN ポリシーは、ダイヤルイン会議 PIN がどのように機能するかについてのルールを定義します。
+組織の Active Directory ドメイン サービス (AD DS) の資格情報を持つサーバーのビジネス ユーザーの Skype は、暗証番号 (PIN) を使用して、認証済みユーザーとしてダイヤルイン会議に参加できます。 PIN ポリシーは、ダイヤルイン会議 PIN がどのように機能するかについてのルールを定義します。
   
  組織全体で同じ PIN ポリシーを使用する場合は、グローバル PIN ポリシーを使用でき、必要に応じて変更することもできます。グローバル PIN ポリシーは、ダイヤルイン会議 PIN のルールを、フォレスト レベルで定義します。グローバル PIN ポリシーを変更することはできますが、削除することはできません。
   
@@ -30,19 +30,19 @@ PIN ポリシーは、最も狭いスコープから最も広いスコープま�
   
 ## <a name="view-information-about-pin-policies"></a>PIN ポリシーに関する情報を表示する
 
-You can view information about PIN policies by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.
+ビジネス サーバーのコントロール パネルの Skype を使用して、または Skype ビジネス サーバー管理シェルを使用して、暗証番号 (pin) のポリシーに関する情報を表示できます。
   
-### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-control-panel"></a>View information about PIN policies by using Skype for Business Server Control Panel
+### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用して、暗証番号 (pin) のポリシーに関する情報を表示
 
-1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは2015。
     
-2.  Open Skype for Business Server Control Panel.
+2.  Skype をビジネス サーバーのコントロール パネルを開きます。
     
 3. 左側のナビゲーション バーで [**会議**]、[**PIN ポリシー**] の順にクリックします。
     
 4. [**PIN ポリシー**] ページで、表示する PIN ポリシーをクリックし、[**編集**] をクリックしてから、[**詳細の表示**] をクリックします。
     
-### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>View information about PIN policies by using Skype for Business Server Management Shell
+### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>ビジネス サーバー管理シェルの Skype を使用して、暗証番号 (pin) のポリシーに関する情報を表示
 
 PIN ポリシーに関する情報を表示するには、**Get-CsPinPolicy** コマンドレットを使用します。 たとえば、次のコマンドを実行すると、site:Redmond という Identity を持つ 1 つの PIN ポリシーに関する情報が返されます。
   
@@ -51,17 +51,17 @@ Get-CsPinPolicy -Identity "site:Redmond"
 
 ```
 
-For more information, including a complete syntax description and list of parameters, see [Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps).
+完全な構文の説明と、パラメーターの一覧を含む詳細については、 [Get CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps)を参照してください。
   
 ## <a name="modify-the-global-pin-policy"></a>グローバル PIN ポリシーを変更する
 
-You can modify the global PIN policy by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.
+ビジネス サーバーのコントロール パネルの Skype を使用して、または Skype ビジネス サーバー管理シェルを使用してグローバル PIN ポリシーを変更できます。
   
-### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-control-panel"></a>Modify the global dial-in conferencing PIN policy by using Skype for Business Server Control Panel
+### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用してグローバル ダイヤルイン会議 PIN ポリシーを変更します。
 
-1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは2015。
     
-2.  Open Skype for Business Server Control Panel.
+2.  Skype をビジネス サーバーのコントロール パネルを開きます。
     
 3. 左側のナビゲーション バーで [**会議**]、[**PIN ポリシー**] の順にクリックします。
     
@@ -86,7 +86,7 @@ You can modify the global PIN policy by using Skype for Business Server Control 
   
 12. [**確定**] をクリックします。
     
-### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-management-shell"></a>Modify the global dial-in conferencing PIN policy by using Skype for Business Server Management Shell
+### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-management-shell"></a>Skype ビジネス サーバー管理シェルを使用してグローバル ダイヤルイン会議 PIN ポリシーを変更します。
 
 グローバル ダイヤルイン会議 PIN ポリシーを変更するには、**Set-CsPinPolicy** コマンドレットを使用します。
   
@@ -97,17 +97,17 @@ Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 
 ```
 
-For more information, including a complete syntax description and list of parameters, see [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps).
+詳細については、完全な構文の説明と、パラメーターの一覧を含む[セット CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps)を参照してください。
   
 ## <a name="create-a-user-or-site-pin-policy"></a>ユーザーまたはサイトの PIN ポリシーを作成する
 
-You can create a user or site PIN policy by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.
+ビジネス サーバーのコントロール パネルの Skype を使用して、または Skype ビジネス サーバー管理シェルを使用して、ユーザーまたはサイトの PIN ポリシーを作成できます。
   
-### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Create a user or site PIN policy by using Skype for Business Server Control Panel
+### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用して、ユーザーまたはサイトの PIN ポリシーを作成します。
 
-1. From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
+1. RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは2015。
     
-2.  Open Skype for Business Server Control Panel.
+2.  Skype をビジネス サーバーのコントロール パネルを開きます。
     
 3. 左側のナビゲーション バーで [**会議**]、[**PIN ポリシー**] の順にクリックします。
     
@@ -138,7 +138,7 @@ You can create a user or site PIN policy by using Skype for Business Server Cont
   
 13. [**確定**] をクリックします。
     
-### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Create a user or site PIN policy by using Skype for Business Server Management Shell
+### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Skype ビジネス サーバー管理シェルを使用して、ユーザーまたはサイトの PIN ポリシーを作成します。
 
 ユーザーまたはサイトの PIN ポリシーを作成するには、**New-CsPinPolicy** コマンドレットを使用します。
   
@@ -148,17 +148,17 @@ You can create a user or site PIN policy by using Skype for Business Server Cont
 New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 ```
 
- For more information, including a complete syntax description and list of parameters, see [New-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/new-cspinpolicy?view=skype-ps).
+ 詳細については、完全な構文の説明と、パラメーターの一覧を含む[新しい CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/new-cspinpolicy?view=skype-ps)を参照してください。
   
 ## <a name="modify-a-user-or-site-pin-policy"></a>ユーザーまたはサイトの PIN ポリシーを変更する
 
-You can modify a user or site PIN policy by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.
+ビジネス サーバーのコントロール パネルの Skype を使用して、または Skype ビジネス サーバー管理シェルを使用して、ユーザーまたはサイトの PIN ポリシーを変更できます。
   
-### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Modify a user or site PIN policy by using Skype for Business Server Control Panel
+### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用して、ユーザーまたはサイトの PIN ポリシーを変更します。
 
-1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは2015。
     
-2.  Open Skype for Business Server Control Panel.
+2.  Skype をビジネス サーバーのコントロール パネルを開きます。
     
 3. 左側のナビゲーション バーで [**会議**]、[**PIN ポリシー**] の順にクリックします。
     
@@ -168,7 +168,7 @@ You can modify a user or site PIN policy by using Skype for Business Server Cont
     
 6. [**確定**] をクリックします。
     
-### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Modify a user or site PIN policy by using Skype for Business Server Management Shell
+### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Skype ビジネス サーバー管理シェルを使用して、ユーザーまたはサイトの PIN ポリシーを変更します。
 
 ダイヤルイン会議 PIN ポリシーを変更するには、**Set-CsPinPolicy** コマンドレットを使用します。
   
@@ -179,23 +179,23 @@ Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
 
 ```
 
-For more information, including a complete syntax description and list of parameters, see [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps).
+詳細については、完全な構文の説明と、パラメーターの一覧を含む[セット CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps)を参照してください。
   
 ## <a name="delete-a-user-or-site-pin-policy"></a>ユーザーまたはサイトの PIN ポリシーを削除する
 
-You can delete a user or site PIN policy by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.
+ビジネス サーバーのコントロール パネルの Skype を使用して、または Skype ビジネス サーバー管理シェルを使用して、ユーザーまたはサイトの PIN ポリシーを削除できます。
   
-### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Delete a user or site PIN policy by using Skype for Business Server Control Panel
+### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用して、ユーザーまたはサイトの PIN ポリシーを削除します。
 
-1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは2015。
     
-2.  Open Skype for Business Server Control Panel.
+2.  Skype をビジネス サーバーのコントロール パネルを開きます。
     
 3. 左側のナビゲーション バーで [**会議**]、[**PIN ポリシー**] の順にクリックします。
     
 4. [**PIN ポリシー**] ページで、変更する PIN ポリシーをクリックし、[**編集**] をクリックしてから、[**削除**] をクリックします。
     
-### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Delete a user or site PIN policy by using Skype for Business Server Management Shell
+### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Skype ビジネス サーバー管理シェルを使用して、ユーザーまたはサイトの PIN ポリシーを削除します。
 
 ユーザーまたはサイトの PIN ポリシーを削除するには、**Remove-CsPinPolicy** コマンドレットを使用します。
   
@@ -205,6 +205,6 @@ You can delete a user or site PIN policy by using Skype for Business Server Cont
 Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
 ```
 
-For more information, including a complete syntax description and list of parameters, see [Remove-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/remove-cspinpolicy?view=skype-ps).
+詳細については、完全な構文の説明と、パラメーターの一覧を含む[削除 CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/remove-cspinpolicy?view=skype-ps)を参照してください。
   
 

@@ -158,8 +158,8 @@ Business Server のビジネス サーバー構成設定をユーザー アカ�
   
 8. [**確定**] をクリックします。
     
-ユーザーは、ここでエンタープライズ VoIP 機能を使用することはありません。 関連情報: <br/>[エンタープライズ VoIP およびモバイル](http://technet.microsoft.com/library/72cbe2f5-1a01-4a6f-84a5-01f3212a8992.aspx)<br/> [ビジネス サーバー 2015 の Skype でエンタープライズ VoIP のユーザーを有効にします。](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype for Business Server 2015 Management Shell](../management-shell.md)
-## <a name="remove-a-user-account-with-the-skype-for-business-server-management-shell"></a>Remove a user account with the Skype for Business Server Management Shell
+ユーザーは、ここでエンタープライズ VoIP 機能を使用することはありません。 関連情報: <br/>[エンタープライズ VoIP およびモバイル](http://technet.microsoft.com/library/72cbe2f5-1a01-4a6f-84a5-01f3212a8992.aspx)<br/> [ビジネス サーバー 2015 の Skype でエンタープライズ VoIP のユーザーを有効にします。](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [ビジネス サーバー 2015 管理シェルの Skype](../management-shell.md)
+## <a name="remove-a-user-account-with-the-skype-for-business-server-management-shell"></a>ビジネス サーバー管理シェルには、Skype でのユーザー アカウントを削除します。
 <a name="Remove"> </a>
 
 ビジネス サーバー 2015 の Skype で以前に追加したユーザー アカウントを削除するのには、次の手順を使用できます。 
@@ -173,7 +173,7 @@ Business Server のビジネス サーバー構成設定をユーザー アカ�
     
 3. 左側のナビゲーション バーで [**ユーザー**] をクリックします。
     
-4. In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account that you want to disable or re-enable, and then click **Find**.
+4. **ユーザーが検索**ボックス、すべての種類、または表示名、名、姓、セキュリティ アカウント マネージャー (SAM) アカウント名、SIP アドレス、または行を無効にするか、再度有効にするユーザー アカウントの統一リソース識別子 (URI) の最初の部分で[**検索**] をクリックします。
     
 5. テーブルで、削除するユーザー アカウントをクリックします。
     
@@ -181,12 +181,12 @@ Business Server のビジネス サーバー構成設定をユーザー アカ�
     
 7. ダイアログ ボックスからユーザーを削除するのには**[ok]**を選択します。
     
-### <a name="remove-user-accounts-with-windows-powershell-cmdlets"></a>Remove user accounts with Windows Powershell cmdlets
+### <a name="remove-user-accounts-with-windows-powershell-cmdlets"></a>Windows Powershell コマンドレットを使用するユーザー アカウントを削除します。
 
-Csuser からの無効化のコマンドレットを使用してユーザー アカウントを削除できます。 ビジネス サーバー管理シェルの Skype から、または Windows PowerShell のリモート セッションからは、このコマンドレットを実行できます。 For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). プロセスは、Skype のビジネス サーバーで同じです。
+Csuser からの無効化のコマンドレットを使用してユーザー アカウントを削除できます。 ビジネス サーバー管理シェルの Skype から、または Windows PowerShell のリモート セッションからは、このコマンドレットを実行できます。 ビジネス サーバーの Skype に接続するリモートの Windows PowerShell を使用する詳細については、ブログ記事の[「クイック スタート:: を管理する Microsoft Lync サーバー 2010 を使用してリモート PowerShell」](https://go.microsoft.com/fwlink/p/?linkId=255876)を参照してください。 プロセスは、Skype のビジネス サーバーで同じです。
   
-### <a name="to-remove-a-user-account"></a>To remove a user account
-To remove a user account, use the Disable-CsUser cmdlet. 例:
+### <a name="to-remove-a-user-account"></a>ユーザー アカウントを削除するのには
+ユーザー アカウントを削除するには、無効にする CsUser コマンドレットを使用します。 例:
     
   ```
   Disable-CsUser -Identity "Ken Myer"
@@ -194,14 +194,14 @@ To remove a user account, use the Disable-CsUser cmdlet. 例:
 
     After this command has run there is no way to re-enable the account and its previous settings. Instead, you will need to use the Enable-CsUser cmdlet to create a brand-new account for Ken Myer.
     
-For more information, see the help topic for the [Disable-CsUser](https://docs.microsoft.com/powershell/module/skype/disable-csuser?view=skype-ps) cmdlet.
+詳細については、[無効にする CsUser](https://docs.microsoft.com/powershell/module/skype/disable-csuser?view=skype-ps)コマンドレットのヘルプ トピックを参照してください。
   
 ## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
 <a name="Remove"> </a>
 
 #### 
 
-[Enable-CsUser](https://docs.microsoft.com/powershell/module/skype/enable-csuser?view=skype-ps)
+[Csuser からの有効化](https://docs.microsoft.com/powershell/module/skype/enable-csuser?view=skype-ps)
   
-[Disable-CsUser](https://docs.microsoft.com/powershell/module/skype/disable-csuser?view=skype-ps)
+[Csuser からの無効化](https://docs.microsoft.com/powershell/module/skype/disable-csuser?view=skype-ps)
 
