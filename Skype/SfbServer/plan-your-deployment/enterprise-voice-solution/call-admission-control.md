@@ -11,7 +11,7 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
-description: Learn about call admission control, which can prevent calls from taking place if they would have poor media quality, in Skype for Business Server Enterprise Voice.
+description: 呼び出し受付制御、実行されている場合は、Skype のビジネス サーバーのエンタープライズ VoIP の品質の悪いメディアであるがからの呼び出しを防ぐことができますについて説明します。
 ms.openlocfilehash: 69dc2bd15b5ca8866ce38d96bfaf5cab2f878728
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
 ms.translationtype: MT
@@ -20,20 +20,20 @@ ms.lasthandoff: 03/28/2018
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での通話受付管理の計画
  
-Learn about call admission control, which can prevent calls from taking place if they would have poor media quality, in Skype for Business Server Enterprise Voice.
+呼び出し受付制御、実行されている場合は、Skype のビジネス サーバーのエンタープライズ VoIP の品質の悪いメディアであるがからの呼び出しを防ぐことができますについて説明します。
   
 テレフォニー、ビデオ、およびアプリケーション共有などの IP ベースのアプリケーションでは、通常、エンタープライズのネットワークで使用可能な帯域幅が LAN 環境内での制限因子とみなされることはありませんが、サイトを相互接続する WAN リンクではネットワーク帯域幅が制限される可能性があります。 
   
 ネットワーク トラフィックによって 1 つの WAN リンクが過剰に予約されると、輻輳を解決するため、キュー、バッファー、およびパケット ドロップなどの最新のメカニズムが使用されます。一般に、余分なトラフィックはネットワークの輻輳が緩和されるまで遅延され、必要であれば、そのトラフィックはドロップされます。そのような状況にある従来のデータ トラフィックの場合、受信側のクライアントは回復できます。ただし、統合コミュニケーションなどのリアルタイム トラフィックの場合は、ネットワークの輻輳をこの方法で解決することはできません。これは、統合コミュニケーションのトラフィックが遅延とパケット損失両方の影響を受けやすいからです。WAN で輻輳が発生すると、ユーザーの QoE (Quality of Experience) が低下します。輻輳状態のリアルタイム トラフィックの場合は、低品質での接続を提供するよりも、通話を拒否する方が適切です。
   
-通話受付管理 (CAC) では、リアルタイム セッションを許容品質で確立するのに十分なネットワーク帯域幅があるかどうかを判断します。 In Skype for Business Server, CAC controls real-time traffic only for audio and video, but it does not affect data traffic. 既定の WAN パスで必要な帯域幅が確保されていない場合、CAC はインターネット パスまたは公衆交換電話網 (PSTN) を利用した通話のルーティングを試みることができます。 
+通話受付管理 (CAC) では、リアルタイム セッションを許容品質で確立するのに十分なネットワーク帯域幅があるかどうかを判断します。 ビジネス サーバーの Skype、CAC オーディオとビデオについてのみリアルタイム トラフィックを制御するが、データ トラフィックには影響しません。 既定の WAN パスで必要な帯域幅が確保されていない場合、CAC はインターネット パスまたは公衆交換電話網 (PSTN) を利用した通話のルーティングを試みることができます。 
   
 ここでは、通話受付管理機能と CAC の計画方法を説明します。
   
 > [!NOTE]
-> Skype for Business Server has three advanced Enterprise Voice features: call admission control (CAC), emergency services (E9-1-1), and media bypass. For an overview of planning information that is common to all three of these features, see [Network settings for the advanced Enterprise Voice features in Skype for Business Server 2015](network-settings-for-advanced-features.md). 
+> Skype ビジネス サーバーには次の 3 つの高度なエンタープライズ VoIP 機能: 受付制御 (CAC)、緊急サービス (~ 9-1-1)、およびメディア バイ パスを呼び出します。 これらの機能の 3 つのすべてに共通する情報の計画の概要については、[ビジネス サーバー 2015 の Skype で高度なエンタープライズ VoIP 機能のネットワーク設定](network-settings-for-advanced-features.md)を参照してください。 
   
-The CAC design in Skype for Business Server offers four main attributes:
+ビジネス サーバーの Skype の CAC のデザインには、次の 4 つの主な属性が用意されています。
   
 - 展開と管理が簡単であり、特別に構成されたルーターなど、追加の機器は不要です。
     
@@ -47,7 +47,7 @@ The CAC design in Skype for Business Server offers four main attributes:
   
 CAC では、音声とビデオのリアルタイムのトラフィックのみ制御します。データ トラフィックは制御しません。
   
-Administrators define CAC policies, which are enforced by the Bandwidth Policy Service that is installed with every Front End pool. CAC settings are automatically propagated to all Skype for Business Server Front End Servers in your network.
+管理者は、各フロント エンド プールにインストールされている帯域幅ポリシー サービスによって適用される、CAC ポリシーを定義します。 CAC 設定に自動的に反映されますすべての Skype ビジネス サーバーのフロント エンド サーバーのネットワークで。
   
 CAC ポリシーのために失敗した通話では、通話を再ルーティングする優先順位は次のようになります。
   
@@ -66,13 +66,13 @@ CAC ポリシーのために失敗した通話では、通話を再ルーティ�
   
 ## <a name="call-admission-control-considerations"></a>通話受付管理に関する考慮事項
 
-The administrator selects to install the Bandwidth Policy Service on the first pool configured in the central site. Since there is a single central site per network region, there is only one Bandwidth Policy Service per network region, which manages bandwidth policy for that region, its associated sites and the links to those sites. The Bandwidth Policy Service runs as part of the Front End Servers, and therefore high availability is built-in within that pool. The Bandwidth Policy Service running on each Front End Server synchronizes every 15 seconds. If the Front End pool fails, CAC policies are no longer enforced for that site until the Front End pool and consequently the Bandwidth Policy Service becomes operational again. This implies that all calls will go through for the duration the Bandwidth Policy Service is out of service. Therefore there is the possibility of bandwidth oversubscription of your links during this period 
+セントラル サイトで構成されている最初のプールに帯域幅ポリシー サービスをインストールする管理者を選択します。 ネットワーク地域ごとの 1 つのセントラル サイトがあるため、その地域、その関連付けられているサイト、およびそれらのサイトへのリンクの帯域幅ポリシーを管理する、ネットワーク地域ごとの 1 つだけの帯域幅ポリシー サービスがあります。 帯域幅ポリシー サービスがフロント エンド サーバーでは、一部として実行し、高可用性はそのプール内で組み込まれていますので。 各フロント エンド サーバーで実行されている帯域幅ポリシー サービスは、15 秒間隔を同期します。 フロント エンド プールが失敗した場合は、フロント エンド プールまでそのサイトの CAC のポリシーが適用されなくし、その結果、帯域幅ポリシー サービスが再び運用します。 これは、帯域幅ポリシー サービスのサービス期間のすべての呼び出しを通過することを意味します。 この期間中に、リンクの帯域幅のオーバー サブスクリプションが発生する可能性があるため 
   
-The Bandwidth Policy Service provides high availability within a Front End pool; however, it does not provide redundancy across Front End pools. The Bandwidth Policy Service cannot failover from one Front End pool to another. Once service to the Front End pool is restored, the Bandwidth Policy Service is resumed and can enforce bandwidth policy checks again.
+帯域幅ポリシー サービスは、フロント エンド プール内で高可用性を提供します。ただし、フロント エンド プール間で冗長性は提供しません。 帯域幅ポリシー サービスでは、1 つのフロント エンド プールから別のフェールオーバーことはできません。 フロント エンド プールにサービスを復元すると、帯域幅ポリシー サービスは再開し、帯域幅ポリシーのチェックを再度適用できます。
   
 ### <a name="network-considerations"></a>ネットワークに関する考慮事項
 
-Although bandwidth restriction for audio and video is enforced by the Bandwidth Policy Service in Skype for Business Server, this restriction is not enforced at the network router (layer 2 and 3). CAC では、CAC ポリシーによって音声とビデオに予約されている帯域幅を含め、データ アプリケーションによって WAN リンク上の全体的なネットワーク帯域幅が使用されないようにすることはできません。 ネットワーク上の必要な帯域幅を保護するために、Differentiated Services (DiffServ) などのサービスの品質 (QoS) プロトコルを展開できます。 そのため、定義する CAC 帯域幅ポリシーと展開する QoS 設定を調整することをお勧めします。
+Skype で帯域幅ポリシー サービスによってビジネス サーバーのオーディオとビデオの帯域幅の制限が適用されるが、この制限はネットワーク ルーター (レイヤー 2 および 3) では適用されません。 CAC では、CAC ポリシーによって音声とビデオに予約されている帯域幅を含め、データ アプリケーションによって WAN リンク上の全体的なネットワーク帯域幅が使用されないようにすることはできません。 ネットワーク上の必要な帯域幅を保護するために、Differentiated Services (DiffServ) などのサービスの品質 (QoS) プロトコルを展開できます。 そのため、定義する CAC 帯域幅ポリシーと展開する QoS 設定を調整することをお勧めします。
   
 ### <a name="media-and-signaling-paths-over-vpn"></a>VPN 経由のメディア パスと信号パス
 
@@ -80,17 +80,17 @@ Although bandwidth restriction for audio and video is enforced by the Bandwidth 
   
 ### <a name="call-admission-control-of-outside-users"></a>外部ユーザーの通話受付管理
 
-Call admission control is not enforced beyond the limits of the Skype for Business Server 2015 organization. CAC cannot be applied to the media traffic traversing the Internet, which is not managed by Skype for Business Server 2015. CAC checks will be performed on the portion of the call that flows through the enterprise network if the called endpoint belongs to the organization, and the Edge Server has been added to the network configuration, as described in [Call admission control deployment: final checklist for Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/final-checklist.md). フェデレーション ユーザーまたは PC ユーザーなど、呼び出しのエンドポイントが組織に所属していない場合は、帯域幅ポリシーの確認が実行されず、発信通話では CAC 制限が無視されます。
+コントロールが組織のビジネス サーバー 2015 の Skype の限界を超えて適用されません受付を呼び出します。 CAC は、ビジネス サーバー 2015 の Skype によって管理されていないが、インターネットを通過するメディアのトラフィックには適用できません。 呼ばれるエンドポイントは、組織に属している場合、エンタープライズ ネットワークを通過する通話の部分に対して CAC チェックが実行され、[呼受付制御の説明として、ネットワーク構成に追加したエッジ サーバー展開: ビジネス サーバー 2015 の Skype の最終チェックリスト](../../deploy/deploy-enterprise-voice/final-checklist.md)。 フェデレーション ユーザーまたは PC ユーザーなど、呼び出しのエンドポイントが組織に所属していない場合は、帯域幅ポリシーの確認が実行されず、発信通話では CAC 制限が無視されます。
   
 ### <a name="call-admission-control-of-pstn-connections"></a>PSTN 接続の通話受付管理
 
-Call admission control is enforceable on the Mediation Server regardless of whether it is connected to an IP/PBX, a PSTN gateway, or a SIP trunk. Because the Mediation Server is a back-to-back user agent (B2BUA), it terminates media. It has two connection sides: a side that is connected to Skype for Business Server and a gateway side, which is connected to PSTN gateways, IP/PBXs, or SIP trunks. For details about PSTN connections, see [Plan for PSTN connectivity in Skype for Business Server 2015](pstn-connectivity-0.md).
+呼受付制御は、IP PBX と、PSTN ゲートウェイまたは SIP トランクに接続されているかどうかに関係なく、仲介サーバーに強制します。 仲介サーバーは、バック ツー バック ユーザー エージェント (B2BUA) であるため、メディアを終了します。 接続の 2 つの側面がある: ビジネスのサーバーとゲートウェイ側で、PSTN ゲートウェイ、IP と Pbx、または SIP トランクに接続されているため、Skype に接続されている側です。 PSTN の接続に関する詳細については、 [Skype のビジネス サーバー 2015 の PSTN への接続の計画](pstn-connectivity-0.md)を参照してください。
   
-CAC can be enforced on both sides of the Mediation Server unless media bypass is enabled. If media bypass is enabled, the media traffic doesn't traverse the Mediation Server but instead flows directly between the Skype for Business client and the gateway. この場合、CAC は不要です。 For details, see [Plan for media bypass in Skype for Business 2015](media-bypass.md).
+メディアのバイパスが有効になっていない、CAC を仲介サーバーの両側に適用できます。 メディア バイ パスを有効にすると、メディア トラフィックは仲介サーバーを通過しませんが、Skype のビジネスのクライアントとゲートウェイ間で直接の代わりに流れます。 この場合、CAC は不要です。 詳細については、[ビジネス 2015年の Skype で使用しないメディアの計画](media-bypass.md)を参照してください。
   
 次の図は、メディア バイパスが有効な場合と有効でない場合について、PSTN 接続に CAC がどのように適用されるのかを示しています。
   
-**Call admission control enforcement on connections to the PSTN**
+**PSTN への接続の受付制御の適用を呼び出す**
 
 ![音声 CAC メディア バイパス接続の適用](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
   
@@ -98,29 +98,29 @@ CAC can be enforced on both sides of the Mediation Server unless media bypass is
 
 通話受付管理 (CAC) を計画するには、エンタープライズ ネットワーク トポロジに関する詳細な情報が必要です。通話受付管理ポリシーの計画を容易にするために、次の手順を実行します。
   
-1. Identify the hubs/backbones (called network regions) within your enterprise network.
+1. エンタープライズ ネットワーク内のハブ/バックボーン (ネットワーク地域と呼ばれる) を特定します。
     
-2. Identify the offices or locations (called network sites) within each network region.
+2. 各ネットワーク地域内のオフィスまたは (ネットワーク サイトと呼ばれます) の場所を識別します。
     
 3. ネットワーク地域の各ペア間のネットワーク ルートを決定します。
     
 4. 各 WAN リンクの帯域幅制限を決定します。
     
     > [!NOTE]
-    > Bandwidth limits refer to how much of the bandwidth on a WAN link is allocated to Enterprise Voice and audio/video traffic. When a WAN link is described as "bandwidth-constrained," the WAN link has a bandwidth limit that is lower than the expected peak traffic over the link. 
+    > 帯域幅の制限は、WAN リンクの帯域幅の量が割り当てられているエンタープライズ VoIP とオーディオとビデオのトラフィックを参照してください。 WAN リンクは、「帯域幅に制約がある」という説明が、WAN リンクでは、リンク上で予想されるピーク時のトラフィックよりも低い帯域幅の制限があります。 
   
 5. 各ネットワーク サイトに割り当てる IP サブネットを特定します。
     
-To explain these concepts, we'll use the example network topology shown in the following figure.
+これらの概念を説明するためには、次の図に示すようにネットワーク トポロジの例を使用します。
   
-**Example topology for call admission control**
+**呼受付制御のトポロジの例**
 
 ![Litware Inc. のネットワーク トポロジの例](../../media/Plan_CS_VoiceCAC_Litwarenetworktopo.jpg)
   
 > [!NOTE]
 > すべてのネットワーク サイトはネットワーク地域に関連付けられています。たとえば、ポートランド、リノ、およびアルバカーキは北アメリカ地域に含まれています。この図には、帯域幅制限があり、CAC ポリシーが適用されている WAN リンクのみが示されています。シカゴ、ニューヨーク、デトロイトの各ネットワーク サイトは北アメリカ地域の楕円内に示されています。これらは帯域幅が制限されていないので、CAC ポリシーが不要であるためです。 
   
-このトポロジ例の各コンポーネントについて、以下のセクションで説明します。 For details about how this topology was planned, including the bandwidth limits, see [Example: Gathering requirements for call admission control in Skype for Business Server 2015](example-gathering-requirements.md).
+このトポロジ例の各コンポーネントについて、以下のセクションで説明します。 帯域幅の制限など、このトポロジが計画の詳細を参照してください[の使用例: ビジネス サーバー 2015 の Skype の呼受付制御の要件を収集する](example-gathering-requirements.md)です。
   
 ### <a name="identify-network-regions"></a>ネットワーク地域の特定
 
@@ -132,14 +132,14 @@ To explain these concepts, we'll use the example network topology shown in the f
   
 ### <a name="associating-a-central-site-with-each-network-region"></a>中央サイトと各ネットワーク地域の関連付け
 
-CAC requires that a Skype for Business Server central site is defined for each network region. 中央サイトは、そのネットワーク地域内の他のすべてのサイトへの最適なネットワーク接続と最高帯域幅に基づいて選択されます。 前のネットワーク トポロジの例には 3 つのネットワーク地域が示されており、それぞれに CAC の決定を管理する中央サイトがあります。 前の例の適切な関連付けを次の表に示します。
+CAC では、Business Server セントラル サイトは、Skype がネットワークの地域ごとに定義されている必要があります。 中央サイトは、そのネットワーク地域内の他のすべてのサイトへの最適なネットワーク接続と最高帯域幅に基づいて選択されます。 前のネットワーク トポロジの例には 3 つのネットワーク地域が示されており、それぞれに CAC の決定を管理する中央サイトがあります。 前の例の適切な関連付けを次の表に示します。
   
 > [!NOTE]
-> 中央サイトは、ネットワーク サイトに必ずしも対応しているわけではありません。 このドキュメントの例では、一部の中央サイト (シカゴ、ロンドン、北京) がネットワーク サイトと同じ名前になっています。 However, even if a central site and network site share the same name, the central site is an element of the Skype for Business Server topology, whereas the network site is a part of the overall network in which the Skype for Business Server topology resides. 
+> 中央サイトは、ネットワーク サイトに必ずしも対応しているわけではありません。 このドキュメントの例では、一部の中央サイト (シカゴ、ロンドン、北京) がネットワーク サイトと同じ名前になっています。 ただし、中央サイトとネットワーク サイトは、同じ名前を共有する場合でも、セントラル サイトがありますがビジネス サーバー トポロジの場合は、Skype の要素ネットワーク サイトは、ビジネスのサーバー トポロジの Skype が置かれている全体的なネットワークの一部。 
   
-**Network regions, central sites, and network sites**
+**ネットワーク地域、中央サイト、およびネットワーク サイト**
 
-|**Network Region**|**Central Site**|**Network Sites**|
+|**ネットワークの領域**|**セントラル サイト**|**ネットワーク サイト**|
 |:-----|:-----|:-----|
 |北アメリカ  <br/> |シカゴ  <br/> |シカゴ  <br/> ニューヨーク  <br/> デトロイト  <br/> ポートランド  <br/> リノ  <br/> アルバカーキ  <br/> |
 |EMEA  <br/> |ロンドン  <br/> |ロンドン  <br/> ケルン  <br/> |
@@ -147,7 +147,7 @@ CAC requires that a Skype for Business Server central site is defined for each n
    
 ### <a name="identify-network-sites"></a>ネットワーク サイトの特定
 
-ネットワーク サイトは、組織の物理的な現場 (オフィス、一連の建物、キャンパスなど) がある場所を表します。 LAN 接続を使用し、他のサイトに WAN 接続された物理的な現場は、ネットワーク サイトと見なされます。 Start by inventorying all of your organization's offices. このトポロジ例では、北アメリカ ネットワーク地域はニューヨーク、シカゴ、デトロイト、ポートランド、リノ、アルバカーキの各ネットワーク サイトで構成されています。
+ネットワーク サイトは、組織の物理的な現場 (オフィス、一連の建物、キャンパスなど) がある場所を表します。 LAN 接続を使用し、他のサイトに WAN 接続された物理的な現場は、ネットワーク サイトと見なされます。 組織のオフィスのすべてのインベントリを作成することによって開始します。 このトポロジ例では、北アメリカ ネットワーク地域はニューヨーク、シカゴ、デトロイト、ポートランド、リノ、アルバカーキの各ネットワーク サイトで構成されています。
   
 すべてのネットワーク サイトをネットワーク地域に関連付ける必要があります。ネットワーク サイトの WAN リンクが制限されているかどうかに応じて、帯域幅ポリシーがネットワーク サイトに関連付けられます。CAC ポリシーと、CAC ポリシーを使用して割り当てる帯域幅の詳細については、このトピックで後述する「帯域幅ポリシーの定義」を参照してください。CAC を構成するには、ネットワーク サイトをネットワーク地域に関連付けます。次に、帯域幅割り当てポリシーを作成して、特定のサイトまたは地域間の帯域幅が制限された接続や、サイトと地域間の WAN 接続に適用します。 
   
@@ -163,7 +163,7 @@ CAC requires that a Skype for Business Server central site is defined for each n
 
 ネットワーク運用チームと連携して、組織の WAN リンクでリアルタイムの音声/ビデオ トラフィックに使用できる WAN 帯域幅量を決定します。通常は、帯域幅使用量が制限される場合 (音声/ビデオ モダリティに割り当てることができる帯域幅よりも帯域幅使用量が多くなると予測される場合) に、帯域幅ポリシーが WAN リンクに適用されます。
   
-CAC bandwidth policies define the maximum bandwidth that can be reserved for real-time audio and video modalities. CAC では他のトラフィックの帯域幅を制限しないため、サイズの大きいファイルの転送や音楽のストリーミングなどの他のデータ トラフィックによって、ネットワーク帯域幅がすべて使い果たされるのを防ぐことはできません。
+CAC 帯域幅ポリシーでは、リアルタイムのオーディオおよびビデオのモダリティ用に予約できる最大帯域幅を定義します。 CAC では他のトラフィックの帯域幅を制限しないため、サイズの大きいファイルの転送や音楽のストリーミングなどの他のデータ トラフィックによって、ネットワーク帯域幅がすべて使い果たされるのを防ぐことはできません。
   
 CAC 帯域幅ポリシーでは、次のいずれかまたはすべてを定義できます。
   
@@ -176,24 +176,24 @@ CAC 帯域幅ポリシーでは、次のいずれかまたはすべてを定義�
 - 1 つのビデオ通話 (セッション) に割り当てる最大帯域幅
     
 > [!NOTE]
-> All CAC bandwidth values represent the maximum  *unidirectional*  bandwidth limits.
+> CAC 帯域幅のすべての値は、最大*単一方向*の帯域幅の制限を表します。
   
 > [!NOTE]
-> The Skype for Business Server Voice Policy features provide the ability to override bandwidth policy checks for incoming calls to the user (not for outgoing calls that are placed by the user). セッションの確立後、使用帯域幅が正確に計上されます。 この設定は慎重に使用する必要があります。 For details, see [Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) or [Modify a Voice Policy and Configure PSTN Usage Records](http://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx) in the Deployment documentation.
+> ビジネス サーバーの音声ポリシー機能の Skype では、(ユーザーが配置されている発信) ではなくユーザーへの着信呼び出しをチェックする帯域幅ポリシーを上書きする機能を提供します。 セッションの確立後、使用帯域幅が正確に計上されます。 この設定は慎重に使用する必要があります。 詳細についてを参照してください[を作成する音声ポリシーを変更してビジネス 2015年の Skype の PSTN 使用法レコードを構成する](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)] または [[音声ポリシーの変更と PSTN 使用法レコードの構成](http://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)の展開に関するドキュメントです。
   
 セッションあたりの帯域幅使用率を最適化するには、使用される音声およびビデオのコーデック タイプを考慮します。特に、頻繁に使用されることが予想されるコーデックの帯域幅の割り当てが不足しないようにしてください。逆に、多くの帯域幅を必要とするコーデックがメディアで使用されないようにする場合は、このようなコーデックを使用できないようにセッションあたりの最大帯域幅を少なく設定する必要があります。音声の場合、状況によっては使用できないコーデックもあります。次に例を示します。
   
-- Peer-to-peer audio calls between Skype for Business endpoints will use either RTAudio (8kHz) or RTAudio (16kHz) when you factor in the bandwidth and prioritization of codecs.
+- Skype ビジネス エンドポイントの間のピア ツー ピア音声通話には、帯域幅とコーデックの優先順位付けを計算に入れるとき RTAudio (8 kHz) または RTAudio (16 kHz) のいずれかを使用します。
     
-- Conference calls between Skype for Business endpoints and the A/V Conferencing service will use either G.722 or Siren.
+- ビジネス エンドポイントの Skype と A の間の会議通話、G.722 またはサイレン V 会議サービスが使用されます。
     
-- Calls to the public switched telephone network (PSTN) either to or from Skype for Business endpoints will use either G.711 or RTAudio (8kHz).
+- ビジネスのエンドポイントに対応するか、Skype から公衆交換電話網 (PSTN) への呼び出しは、G.711 または RTAudio (8 kHz) のいずれかを使用します。
     
 セッションあたりの最大帯域幅設定を最適化するために次の表を使用してください。
   
-**Bandwidth utilization by codecs**
+**コーデックによって帯域幅の使用率**
 
-|**Codec**|**Bandwidth requirement with no forward error correction (FEC)**|**Bandwidth requirement with forward error correction (FEC)**|
+|**コーデック**|**ないフォワード エラー訂正 (FEC) と帯域幅の要件**|**フォワード エラー訂正 (FEC) と帯域幅の要件**|
 |:-----|:-----|:-----|
 |RTAudio (8kHz)  <br/> |49.8 kbps  <br/> |61.6 kbps  <br/> |
 |RTAudio (16kHz)  <br/> |67 kbps  <br/> |96 kbps  <br/> |
@@ -208,24 +208,24 @@ CAC 帯域幅ポリシーでは、次のいずれかまたはすべてを定義�
   
 G.722.1 と Siren のコーデックは類似していますが、ビット レートが異なります。
   
-G.722, the default codec for Skype for Business Server conferencing, is completely different from the G.722.1 and Siren codecs.
+G.722、Skype のビジネス サーバーの会議のための既定のコーデックでは、G.722.1 とサイレンのコーデックとはまったく異なるです。
   
-The Siren codec is used in Skype for Business Server in the following situations:
+サイレン コーデックは、以下の状況で、Skype で、ビジネス サーバーの使用されます。
   
 - 帯域幅ポリシーの設定が低すぎて G.722 を使用できない場合
     
-- If a Communications Server 2007 or Communications Server 2007 R2 client connects to a Skype for Business Server conferencing service (because those clients do not support the G.722 codec).
+- 場合は (これらのクライアントでは、G.722 コーデックをサポートしていない) ために、Communications Server 2007 または通信サーバー 2007 R2 のクライアントは、Skype ビジネス サーバー会議サービス用に接続します。
     
-**Bandwidth utilization by scenario**
+**シナリオでの帯域幅使用率**
 
-|**Scenario**|**Bandwidth requirement optimized for quantity (kbps)**|**Bandwidth requirement for Balanced mode (kbps)**|**Bandwidth requirement optimized for quality (kbps)**|
+|**シナリオ**|**数量 (kbps) 用に最適化された帯域幅の要件**|**(Kbps) のバランスの取れたモードの帯域幅の要件**|**品質 (kbps) 用に最適化された帯域幅の要件**|
 |:-----|:-----|:-----|:-----|
 |ピアツーピアの音声通話  <br/> |45 kbps  <br/> |62 kbps  <br/> |91 kbps  <br/> |
 |電話会議  <br/> |53 kbps  <br/> |101 kbps  <br/> |165 kbps  <br/> |
-|PSTN calls (between Skype for Business and PSTN gateway, with media bypass)  <br/> |97 kbps  <br/> |97 kbps  <br/> |161 kbps  <br/> |
-|PSTN calls (between Skype for Business and Mediation Server, without media bypass)  <br/> |45 kbps  <br/> |97 kbps  <br/> |161 kbps  <br/> |
-|PSTN calls (between Mediation Server and PSTN gateway, without media bypass)  <br/> |97 kbps  <br/> |97 kbps  <br/> |161 kbps  <br/> |
-|Skype for Business - Polycom calls  <br/> |101 kbps  <br/> |101 kbps  <br/> |101 kbps  <br/> |
+|(メディア バイ パスをビジネスと PSTN ゲートウェイの Skype) との間の PSTN の呼び出し  <br/> |97 kbps  <br/> |97 kbps  <br/> |161 kbps  <br/> |
+|メディア バイ パスなし (ビジネス用の Skype) と、仲介サーバー、PSTN の呼び出し  <br/> |45 kbps  <br/> |97 kbps  <br/> |161 kbps  <br/> |
+|PSTN の呼び出しの間、仲介サーバーと PSTN ゲートウェイは、メディア バイ パスなし)  <br/> |97 kbps  <br/> |97 kbps  <br/> |161 kbps  <br/> |
+|販売 - Skype ポリコムを呼び出します  <br/> |101 kbps  <br/> |101 kbps  <br/> |101 kbps  <br/> |
    
 ### <a name="identify-ip-subnets"></a>IP サブネットの特定
 
@@ -234,7 +234,7 @@ The Siren codec is used in Skype for Business Server in the following situations
 この例では、北アメリカ地域のニューヨーク サイトに 172.29.80.0/23、157.57.216.0/25、172.29.91.0/23、172.29.81.0/24 の IP サブネットが割り当てられています。普段はデトロイトに勤務している Bob が研修でニューヨークのオフィスに行ったとします。コンピューターを起動してネットワークに接続すると、ニューヨーク用に予約されている 4 つの範囲のいずれか (172.29.80.103 など) の IP アドレスが取得されます。
   
 > [!CAUTION]
-> The IP subnets specified during network configuration on the server must match the format provided by client computers in order to be properly used for media bypass. A Skype for Business client takes its local IP address and masks the IP address with the associated subnet mask. When determining the bypass ID associated with each client, the Registrar will compare the list of IP subnets associated with each network site against the subnet provided by the client for an exact match. For this reason, it is important that subnets entered during network configuration on the server are actual subnets instead of virtual subnets. (If you deploy call admission control, but not media bypass, call admission control will function properly even if you configure virtual subnets.) For example, if a client signs in on a computer with an IP address of 172.29.81.57 with an IP subnet mask of 255.255.255.0, Skype for Business will request the bypass ID associated with subnet 172.29.81.0. クライアントが仮想サブネットに属していても、サブネットが 172.29.0.0/16 として定義されている場合、レジストラーは 172.29.81.0 のサブネットのみを検索するため、これを一致と見なしません。 Therefore, it is important that the administrator enters subnets exactly as provided by Skype for Business clients (which are provisioned with subnets during network configuration either statically or by DHCP.) 
+> サーバー上のネットワークの構成中に指定された IP サブネットは、メディア バイ パスを正しく使用するために、クライアント コンピューターによって提供される形式に一致する必要があります。 Skype クライアントのビジネスのローカル IP アドレスと関連付けられているサブネット マスクの IP アドレスをマスクします。 バイパス ID の確認は、各クライアントに関連付けられていると、レジストラーは完全に一致するため、クライアントによって提供されるサブネットに対しては、各ネットワーク サイトに関連付けられている IP サブネットの一覧を比較します。 このため、サーバー上のネットワーク構成の中に入力したサブネットは、仮想サブネットではなく実際のサブネットを重要な勧めします。 (呼受付制御] を展開する、しないメディアをバイパスする場合は、コール受付の仮想サブネットを構成する場合でも、コントロールが正しく機能します。)などの場合は、クライアントが 172.29.81.57 の IP サブネット マスク 255.255.255.0 の IP アドレスを持つコンピューターにサインインすると、ビジネス用の Skype はサブネット 172.29.81.0 に関連付けられているバイパス ID を要求します。 クライアントが仮想サブネットに属していても、サブネットが 172.29.0.0/16 として定義されている場合、レジストラーは 172.29.81.0 のサブネットのみを検索するため、これを一致と見なしません。 したがって、それは管理者がビジネスのクライアント (準備のサブネットを持つネットワークの構成時に静的に、または DHCP によって。) の Skype で提供されているとおりに正確にサブネットを入力することが重要 
   
 ## <a name="best-practices-for-call-admission-control"></a>通話受付管理のベスト プラクティス
 
@@ -249,7 +249,7 @@ The Siren codec is used in Skype for Business Server in the following situations
     
 - CAC 帯域幅ポリシーを使用して QoS 設定を補完します。
     
-- ブロックされた通話を PSTN に再ルーティングする場合、PSTN の機能と処理能力を確認します。 For details, see [Planning Outbound Call Routing](http://technet.microsoft.com/library/37c55fa4-175a-4190-b9e4-c2e5ac7b9261.aspx).
+- ブロックされた通話を PSTN に再ルーティングする場合、PSTN の機能と処理能力を確認します。 詳細については、[計画発信呼のルーティング](http://technet.microsoft.com/library/37c55fa4-175a-4190-b9e4-c2e5ac7b9261.aspx)を参照してください。
     
     > [!NOTE]
     > 処理能力は、潜在的な PSTN の再ルーティングをサポートするために開く必要のあるポート数を表します。 
