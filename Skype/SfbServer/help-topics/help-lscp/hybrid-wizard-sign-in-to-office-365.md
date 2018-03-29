@@ -1,0 +1,35 @@
+---
+title: ハイブリッド ウィザード Office 365 にサインイン
+ms.author: kenwith
+author: kenwith
+manager: serdars
+ms.date: 2/8/2018
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.lscp.HybridSignIntoO365
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.collection:
+- Ent_O365_Hybrid
+- IT_Skype16
+- IT_Skype4B_Hybrid
+ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
+description: ビジネス サーバ ハイブリッドの管理ウィザードの Skype を Skype でオンライン ビジネスのハイブリッド環境を構成する際に使用します。
+ms.openlocfilehash: 3c1ab3ea2615469ae10f1d6a57fff2a1805a7e1c
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 03/28/2018
+---
+# <a name="hybrid-wizard-sign-in-to-office-365"></a>ハイブリッド ウィザード: Office 365 へのサインイン
+ 
+ビジネス サーバ ハイブリッドの管理ウィザードの Skype を Skype でオンライン ビジネスのハイブリッド環境を構成する際に使用します。
+  
+## <a name="sign-in-to-office-365"></a>Office 365 にサインインする
+
+Office 365 テナント用のユーザー名とパスワードを入力して、Office 365 テナントを使用する内部設置型の展開にログインして接続します。Office 365 にサインアップしたときに onmicrosoft ドメイン用に作成された管理アカウント (admin@contoso.onmicrosoft.com など) を使用する必要があります。
+  
+ハイブリッド環境を設定する方法の詳細については、[ハイブリッド展開の概要](http://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx)を参照してください。
+  
+

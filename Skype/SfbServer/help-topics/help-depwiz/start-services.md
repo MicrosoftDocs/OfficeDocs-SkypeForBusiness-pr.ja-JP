@@ -1,0 +1,28 @@
+---
+title: サービスを開始します。
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.date: 11/17/2014
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.dep.DeployMainStartServices
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: efaf7b2a-257f-4aef-9c25-40ea93b03ef4
+description: サービスを開始すると、展開されたサーバーの役割を手順 4 で実行] をクリックします。 サービスを開始します。 または同等のローカルの Administrators グループのメンバーとしてログオンする必要があります。
+ms.openlocfilehash: f37b67c124bf2ad601018e95c65e9b4461e2f018
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 03/28/2018
+---
+# <a name="start-services"></a>サービスを開始します。
+ 
+サービスを開始すると、展開されたサーバーの役割を [**実行**] をクリックします**ステップ 4: サービスを開始**。 または同等のローカルの Administrators グループのメンバーとしてログオンする必要があります。 
+  
+> [!NOTE]
+> **サービスの開始**が実行された場合**の再実行**] をクリックしてコマンドを再実行できます。 
+  
+

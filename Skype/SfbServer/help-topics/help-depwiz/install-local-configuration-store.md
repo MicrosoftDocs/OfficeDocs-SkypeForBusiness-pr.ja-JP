@@ -1,0 +1,36 @@
+---
+title: ローカル構成ストアのインストール
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.date: 4/13/2015
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.dep.DeployMainInstallReplica
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
+description: ビジネス サーバー 2015 の役割を持つサーバーの新しい Skype のインストールを開始するには、最初にローカル構成ストアをホストするローカルの SQL Server をインストールする必要があります。 ローカル構成ストアは、ビジネスのサーバーの中央管理ストア (CMS) の Skype の読み取り専用レプリカとして機能します。 コンピューターで、ローカル管理者としてローカル構成ストアのインストール手順を実行している、RTCUniversalServerAdmins または RTCUniversalGlobalReadOnlyGroup のグループのメンバーシップは、サーバーにログオンする必要があります。 エッジ サーバーでセットアップを実行する場合は、RTCUniversalServerAdmins または RTCUniversalGlobalReadOnlyGroup グループのメンバーでなくても構いません。 トポロジ ビルダー定義ドキュメントの代わりに中央管理ストアからエクスポートした定義ドキュメントから読み取られます。 トポロジ ビルダー定義ドキュメントをエクスポートしてエッジ サーバーを使用できるように、エッジのインストールのトピックのトポロジーのエクスポートとコピーして、外部メディアを参照してください。
+ms.openlocfilehash: adce98e053b6959c3513885fc53f1616df1c1125
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 03/28/2018
+---
+# <a name="install-local-configuration-store"></a>ローカル構成ストアのインストール
+ 
+ビジネス サーバー 2015 の役割を持つサーバーの新しい Skype のインストールを開始するには、最初にローカル構成ストアをホストするローカルの SQL Server をインストールする必要があります。 ローカル構成ストアは、ビジネスのサーバーの中央管理ストア (CMS) の Skype の読み取り専用レプリカとして機能します。 [**ローカル構成ストアのインストール**] 手順を実行しているサーバーに、そのコンピューターのローカル管理者としてログオンすると共に、RTCUniversalServerAdmins または RTCUniversalGlobalReadOnlyGroup グループのメンバーシップを持っている必要があります。 エッジ サーバーでセットアップを実行する場合は、RTCUniversalServerAdmins または RTCUniversalGlobalReadOnlyGroup グループのメンバーでなくても構いません。 トポロジ ビルダー定義ドキュメントの代わりに中央管理ストアからエクスポートした定義ドキュメントから読み取られます。 トポロジ ビルダー定義ドキュメントをエクスポートしてエッジ サーバーを使用できるように、「[トポロジーのエクスポートとコピーして、エッジ インストール用の外部メディア](http://technet.microsoft.com/library/def9f416-c519-4a72-b242-7d3057d9c1fd.aspx)」を参照してください。
+  
+インストールを開始するには、以下の操作を行います。
+  
+1. ビジネス サーバー 2015 ページの場合は、Skype の横に**ステップ 1: ローカル構成ストアのインストール**を**実行**] をクリックします。
+    
+2. [**ローカル サーバー構成**] ページで、[**中央管理ストアから直接取得する**] オプションがオンになっていることを確認し、[**次へ**] をクリックします。
+    
+3. ローカル サーバー構成のインストールが完了したら、[**完了**] をクリックします。
+    
+> [!NOTE]
+> ローカルの SQL Server のインストール時間がかかることができます。 SQL Server のインストール中に [サマリー] 画面でインストールの進行状況の更新は表示されません。 インストールの進行状況を監視する場合は、SQL Server セットアップを監視するタスク マネージャーを使用します。 
+  
+

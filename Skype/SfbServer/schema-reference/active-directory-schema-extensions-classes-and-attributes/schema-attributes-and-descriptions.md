@@ -1,0 +1,200 @@
+---
+title: スキーマの属性および Skype ビジネス サーバーの説明
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
+ms.date: 10/20/2015
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: b009df76-9c22-471d-b57a-bda009a98261
+description: このセクションでは、Skype でビジネスのサーバーが使用するすべてのスキーマの属性について説明します。 属性に関連付けられているクラスを参照してくださいスキーマの属性クラスでは、Skype でビジネス サーバーのです。
+ms.openlocfilehash: bcb54a33a6a798c7d413decb2aceb3e8857926ed
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 03/28/2018
+---
+# <a name="schema-attributes-and-descriptions-in-skype-for-business-server"></a>スキーマの属性および Skype ビジネス サーバーの説明
+ 
+このセクションでは、Skype でビジネスのサーバーが使用するすべてのスキーマの属性について説明します。 属性に関連付けられているクラスでは、 [Skype のビジネス サーバーのクラスによってスキーマの属性](schema-attributes-by-class.md)を参照してください。
+  
+リンクされたペアである属性は、前方リンクまたは後方リンクとして指定されます。 別のオブジェクトを参照する属性は、転送リンクです。最初のオブジェクトを参照する他のオブジェクトの属性は、バック リンクです。 後方リンクは読み取り専用に、前方リンクは更新可能なです。
+  
+いくつかの属性は、ビット マスク値を持ちます。 これらの属性のそれぞれの設定がビットで表され、表示される 10 進値はビット位置を表します。 ビット位置は、ビット 0 から開始します。 たとえば、1 (バイナリ) は、ビット 0 が設定、10000 (バイナリ) は、4 ビットのセット。 各ビットは、プロパティを表します。 例を次に示します。 
+  
+- 10000 (バイナリ) は、16 の 10 進値を持つ (つまり、ビット 4 が設定されて)。
+    
+- 100000000 (バイナリ) は、256 の 10 進値を持つ (つまり、ビット 8 が設定されて)。
+    
+- 1100 (バイナリ) は、12 の 10 進値を持つ (つまり、ビット 2 と 3 が設定されます。 両方のビットで表されるプロパティが有効になっている)。
+    
+- 1111000001 (バイナリ) は、961 の 10 進値を持つ (つまり、ビット 0、6、7、8、および 9 が設定されて; これらのビットごとのオプションが有効になります)。
+    
+**Skype ビジネス サーバー用のスキーマの属性**
+
+|**属性**|**説明**|**コメント**|
+|:-----|:-----|:-----|
+|dnsHostName  <br/> |既存の属性が、Active Directory ドメイン サービスで**msRTCSIP プール**と**msRTCSIP MonitoringServer**のクラスに関連付けられています。 この属性は、プールまたは監視サーバーの完全修飾ドメイン名 (FQDN) を指定します。 <br/> 各セグメントの有効な値は、63 文字です。FQDN 全体に対して有効な値は、255 文字です。  <br/> |Microsoft® Office Live の Communications Server 2005 で新たに追加します。  <br/> |
+|msDS SourceObjectDN  <br/> |この属性には、このオブジェクトに対応する別のフォレスト内のオブジェクトの識別名 (DN) の文字列表現が含まれています。 配布グループの展開と自動の出勤のこの属性を使用します。 この属性は、Windows Server 2003 R2 の既定の Active Directory スキーマで定義されます。  <br/> Windows Server 2003 R2 の AD DS のアップグレードを必要とするを避けるためには、Active Directory スキーマの準備は、この属性の定義を使用して Windows Server 2003 スキーマを拡張します。  <br/> |Microsoft Office Communications Server 2007 の新機能です。  <br/> |
+|msExchUCVoiceMailSettings  <br/> |この複数値の属性は、ボイス メールの設定を保持します。 この属性は、Exchange ユニファイド メッセージング (UM) と共有されます。  <br/> |Microsoft Lync Server 2010 の新機能です。  <br/> |
+|msExchUserHoldPolicies  <br/> |この複数値属性を保持するの識別子は、ユーザーに適用されるポリシーを保持します。 ポリシーがユーザーのメールボックス アイテムを保持する保留リストの中に保持します。 この属性は、Exchange 2013 で共有されています。  <br/> |Lync Server 2013 の新機能です。  <br/> |
+|msRTCSIP AcpInfo  <br/> |この属性は、ユーザーの電話会議プロバイダーの情報を格納します。  <br/> |Lync Server 2010 の新機能です。  <br/> |
+|msRTCSIP ApplicationDestination  <br/> |この属性は、アプリケーションの連絡先の信頼済みサービス エントリをポイントします。  <br/> |Microsoft Office 通信 Server 2007 R2 で新たに追加します。  <br/> |
+|msRTCSIP ApplicationList  <br/> |この属性には、アプリケーション サーバーでホストされるアプリケーションの一覧が含まれています。  <br/> |Office 通信 Server 2007 R2 で新たに追加します。  <br/> |
+|msRTCSIP ApplicationOptions  <br/> |この属性は、アプリケーションの連絡先のオプションを指定します。  <br/> |Office 通信 Server 2007 R2 で新たに追加します。  <br/> |
+|msRTCSIP ApplicationPrimaryLanguage  <br/> |この属性には、アプリケーションの連絡先のプライマリ言語が含まれています。  <br/> |Office 通信 Server 2007 R2 で新たに追加します。  <br/> |
+|msRTCSIP ApplicationSecondaryLanguages  <br/> |この複数値属性には、アプリケーションの連絡先の第 2 言語が含まれています。  <br/> |Office 通信 Server 2007 R2 で新たに追加します。  <br/> |
+|msRTCSIP ApplicationServerBL  <br/> |この属性には、このプールに属しているアプリケーション サーバーの一覧が含まれています。 この後方リンク属性に対応する前方リンクは、 **msRTCSIP ApplicationServerPoolLink**です。  <br/> |Office 通信 Server 2007 R2 で新たに追加します。  <br/> |
+|msRTCSIP ApplicationServerPoolLink  <br/> |この属性は、このアプリケーション サーバーが所属するプールを指定します。 これは、前方リンクです。 対応する後方リンクは、 **msRTCSIP ApplicationServerBL**です。  <br/> |Office 通信 Server 2007 R2 で新たに追加します。  <br/> |
+|msRTCSIP ArchiveDefault (古い形式)  <br/> |-  <br/> |ライブ通信サーバー 2005 で新たに追加します。  <br/> Office Communications Server 2007 で使用されなくなった。  <br/> |
+|msRTCSIP ArchiveDefaultFlags (古い形式)  <br/> | この属性は、すべてのユーザーの通信をアーカイブするためのフォレスト境界内でグローバルな既定値を指定します。 これは、アーカイブ エージェント レイヤーによって適用されます。 この属性の値の範囲は次のとおりです。 <br/> **TRUE**: すべてのユーザーのアーカイブ  <br/> **FALSE**: すべてのユーザーをアーカイブしません。  <br/>  この属性グローバルに制御、フォレストの境界内で内部ネットワーク内のユーザーの通信をアーカイブする方法です。 <br/> **Live Communications Server 2005 の動作 (現在廃止)** <br/>  この属性の値の範囲は次のとおりです。 <br/>  0: [ビット 0] メッセージ本文をアーカイブ <br/>  1: [ビット 0] のメッセージ本文をアーカイブしません。 <br/> **Office Communications Server 2007 の動作** <br/>  この属性の値の範囲は次のとおりです。 <br/>  0: ArchiveFederationDefaultWithoutBody の (廃止) <br/>  1-2: ArchiveInternalCommunications <br/>  3-4: ArchiveFederatedCommunications <br/>  5: RecordPresenceRegistrations <br/>  6: RecordIMCallDetails <br/>  7: RecordGroupIMCallDetails <br/>  8: RecordFileTransferInstances <br/>  9: RecordAudioCallDetails <br/>  10: RecordVideoCallDetails <br/>  11: RecordRemoteAssistanceCallDetails <br/>  12: RecordApplicationSharingDetails <br/>  13: RecordMeetingInstantiations <br/>  14: RecordMeetingJoins <br/>  15: RecordDataJoins <br/>  16: RecordAVJoins <br/> |ライブ通信サーバー 2005 で新たに追加します。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP ArchiveFederationDefault (古い形式)  <br/> |-  <br/> |ライブ通信サーバー 2005 で新たに追加します。  <br/> Office Communications Server 2007 で使用されなくなった。  <br/> |
+|msRTCSIP ArchiveFederationDefaultFlags (古い形式)  <br/> |-  <br/> |ライブ通信サーバー 2005 で新たに追加します。  <br/> Office Communications Server 2007 で使用されなくなった。  <br/> |
+|msRTCSIP ArchivingEnabled  <br/> | この属性は、単一のユーザーの通信をアーカイブするかどうか、コントロールのビット フィールドとして使用される整数です。 この制御はアーカイブ エージェント レイヤーによって適用されます。 グローバル カタログのレプリケーションのマークされます。 <br/>  この属性のスコープは、1 つのユーザーまたは連絡先に固有です。 Skype ビジネス サーバー用の有効な値 (および関連付けられているビット位置) は次のとおりです。 <br/>  0: アーカイブしない] (ビットが設定されていない) <br/>  1: 廃止 (ビット位置 0) <br/>  2: 廃止 (ビット位置 1) <br/>  4: 内部通信のアーカイブ (ビット位置 2) <br/>  8: フェデレーション通信のアーカイブ (ビット位置 3) <br/>  以前 Live Communications Server 2005 で有効な値は次のとおりです。 <br/>  0:Use 既定値は、 **msRTCSIP ArchiveDefault**と優先順位の順序で**msRTCSIP ArchiveFederation**で定義されています。 <br/>  1: アーカイブ <br/>  2: アーカイブしません。 <br/>  3: メッセージ本文を除いてアーカイブ <br/> |ライブ通信サーバー 2005 で新たに追加します。  <br/> |
+|msRTCSIP ArchivingServerData (古い形式)  <br/> |この属性は、将来使用するために予約されています。  <br/> |Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP ArchivingServerVersion (古い形式)  <br/> | この属性は、アーカイブ サービスのバージョンを定義します。 この属性は、正式な製品リリースごとにインクリメントされる整数型を monotonously に増加します。 可能な有効な値は次のとおりです。 <br/>  : 未定義の Live Communications Server 2003 <br/>  Live Communications Server 2005 <br/>  Live Communications Server 2005 SP1 <br/>  3: Office Communications Server 2007 <br/>  4: Office 通信 Server 2007 R2 <br/> |Office Communications Server 2007 の新機能です。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP BackEndServer  <br/> |この属性は、プールのバック エンド サーバーの FQDN を指定します。 できるだけ、1 つバック エンド サーバー プールあたりため、これは、単一値の属性です。  <br/> 各セグメントの有効な値は、63 文字です。FQDN 全体に対して有効な値は、255 文字です。  <br/> |ライブ通信サーバー 2005 で新たに追加します。  <br/> |
+|msRTCSIP ConferenceDirectoryHomePool  <br/> |この属性には、会議ディレクトリをホストしているプールの識別子が含まれています。  <br/> |Office 通信 Server 2007 R2 で新たに追加します。  <br/> |
+|msRTCSIP ConferenceDirectoryId  <br/> |この属性には、会議ディレクトリの識別子が含まれています。  <br/> |Office 通信 Server 2007 R2 で新たに追加します。  <br/> |
+|msRTCSIP ConferenceDirectoryTargetPool  <br/> |この属性には、会議ディレクトリの移動先のプールの識別子が含まれています。  <br/> |Office 通信 Server 2007 R2 で新たに追加します。  <br/> |
+|msRTCSIP デフォルト  <br/> |このブール値の属性では、電話使用法では、デフォルトで使用するかどうかを定義します。 場合は**TRUE**にこの属性を設定すると、電話使用法の既定の使用方法は、管理者によって削除することはできません。 この属性を**FALSE**に設定、使用法を削除できます。  <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP DefaultCWAExternalURL  <br/> |この属性は、組織の外部にいるユーザーの URL を識別します。  <br/> |Office 通信 Server 2007 R2 で新たに追加します。  <br/> |
+|msRTCSIP DefaultCWAInternalURL  <br/> |この属性は、組織内のユーザーの URL を識別します。  <br/> |Office 通信 Server 2007 R2 で新たに追加します。  <br/> |
+|msRTCSIP DefaultLocationProfileLink (古い形式)  <br/> |この単一値属性には、それに割り当てられている、場所のプロファイルのクラスのオブジェクトの識別名 (DN) が含まれています。  <br/> 前方リンク:**リンク ID 11036** <br/> 対応する後方リンクは、 **msRTCSIP ServerReferenceBL**です。  <br/> |Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP DefaultPolicy (古い形式)  <br/> |このブール値の属性は、ポリシーは、既定のポリシーであるかどうかを指定します。 ポリシーは、既定のポリシーが**TRUE**に設定されている場合です。  <br/> |Office Communications Server 2007 の新機能  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP DefaultRouteToEdgeProxy (古い形式)  <br/> |この属性は、直接アクセスできる場合は、アクセス エッジ サービスを実行している、いずれかのエッジ サーバーまたはプールのアクセス エッジ サービスを実行しているサーバーのハードウェア ロード バランサーの FQDN を指定します。 アクセス エッジ サービスを実行しているサーバーに 1 つまたは複数のダイレクタを通じてのみアクセスできる場合、この属性は、FQDN および、必要に応じて、ディレクターまたはディレクター プール、ハードウェア ロード バランサーのポート番号を指定します。  <br/> 各セグメントの有効な値は、63 文字です。FQDN 全体に対して有効な値は、255 文字です。  <br/> |ライブ通信サーバー 2005 で新たに追加します。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP DefaultRouteToEdgeProxyPort (古い形式)  <br/> |この属性は、アクセス エッジ サービスを実行するサーバーへの接続に使用するポート番号を表します。  <br/> 有効な値は、使用するポートを指定する整数値です。 既定値は 5061 です。  <br/> |ライブ通信サーバー 2005 で新たに追加します。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP DefPresenceSubscriptionTimeout (古い形式)  <br/> |この属性は、既定のプレゼンス サブスクリプション タイムアウト期間を表します。  <br/> |Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP DefRegistrationTimeout (古い形式)  <br/> |この属性は、既定の登録タイムアウト ウィンドウを表します。  <br/> |Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP DefRoamingDataSubscriptionTimeout (古い形式)  <br/> |この属性は、移動データ サブスクリプションの既定のタイムアウト ウィンドウを表します。  <br/> |Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP DeploymentLocator  <br/> |この属性では、分割ドメインのトポロジで使用され、完全修飾ドメイン名 (FQDN) が含まれています。  <br/> |Lync Server 2010 の新機能です。  <br/> |
+|msRTCSIP の説明 (古い形式)  <br/> |この単一値の UNICODE 文字列属性には、この電話ルートまたは正規化ルールのわかりやすい説明が含まれています。  <br/> |Office Communications Server 2007 の新機能です。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP DomainData  <br/> |この属性は、将来使用するために予約されています。  <br/> |-  <br/> |
+|msRTCSIP-ドメイン名  <br/> |この属性は、ドメイン レジストラーの構成を表します。  <br/> |-  <br/> |
+|msRTCSIP EdgeProxyData  <br/> |この属性は、将来使用するために予約されています。  <br/> |ライブ通信サーバー 2005 で新たに追加します。  <br/> |
+|msRTCSIP EdgeProxyFQDN  <br/> |この属性は、アクセス エッジ サービスを実行するサーバーの FQDN を指定します。  <br/> 各セグメントの有効な値は、63 文字です。FQDN 全体に対して有効な値は、255 文字です。  <br/> |ライブ通信サーバー 2005 で新たに追加します。  <br/> |
+|msRTCSIP EnableBestEffortNotify (古い形式)  <br/> |この属性は、サーバがクライアントからの受信要求への応答で、通知要求ではなく、最適な作業に通知 (BENOTIFY) 要求を生成するかどうかを制御します。 BENOTIFY は、サーバーが正規の通知要求ではなく、BENOTIFY 要求を生成する、購読通知のハンドシェイクにパフォーマンスを向上させる拡張です。 パフォーマンス上の利点は、BENOTIFY 要求必要がないこと、クライアントから 200 OK 応答通知要求のようです。  <br/> 有効値は、 **TRUE**または**false を指定**します。  <br/> > [!NOTE]> Live Communications Server 2003 では、BENOTIFY 要求はサポートされていません。 Live Communications Server 2005 およびサード ・ パーティ製のサーバーで実行されている Live Communications Server 2003 サーバーの API で記述されたサーバー アプリケーションと相互運用する、するには、その値を**FALSE**に設定して BENOTIFY 要求を無効にすることができます。 BENOTIFY は、現在 IETF (インターネット技術標準化委員会) の SIP 標準化プロセスの一部ではありません。           |ライブ通信サーバー 2005 で新たに追加します。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP EnableFederation (古い形式)  <br/> | この属性は、他の組織からのユーザーとの通信を許可されているかどうかを構成するのには IT 管理者が使用するグローバル スイッチです。 個々 のユーザーの**FederationEnabled**属性を上書きするには管理者が有効にします。 この属性は、ワーム、ウイルス、発生する可能性がありますまたは会社への攻撃を対象とするインターネット攻撃から内部ネットワークを保護するために役立ちます。 <br/>  有効な値 (および関連するビット位置) は次のとおりです。 <br/>  1: パブリック IM 接続を有効になっている (ビット位置 0) <br/>  2: 予約済み (ビット位置 1) <br/>  4: 予約済み (ビット位置 2) <br/>  8: 予約済み (ビット位置 3) <br/>  16: リモート通話コントロール有効 - テレフォニー (ビット位置 4) <br/>  64: AllowOrganizeMeetingWithAnonymousParticipants (匿名ユーザーが会議に招待するユーザーを許可する (ビット位置 6) <br/>  128: UCEnabled (ユニファイド コミュニケーションのユーザーを有効にする) (ビット 7) <br/>  256: EnabledForEnhancedPresence (パブリック IM 接続を有効にするユーザー) (ビット位置 8) <br/>  512: RemoteCallControlDualMode (ビット位置 9) <br/> |ライブ通信サーバー 2005 で新たに追加します。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP EnterpriseServices  <br/> |この属性は、指定したサーバーで、エンタープライズ サービスを読み込むかどうかを示します。  <br/> |-  <br/> |
+|msRTCSIP ExtensionData  <br/> |この属性は、将来使用するために予約されています。  <br/> |-  <br/> |
+|msRTCSIP ExternalAccessCode  <br/> |この属性には、外部アクセスのダイヤル コードが含まれています。  <br/> |Office 通信 Server 2007 R2 で新たに追加します。  <br/> |
+|msRTCSIP FederationEnabled  <br/> |この属性は、1 人のユーザーをフェデレーションに対して有効かどうかを制御します。 エンタープライズ サービス レイヤーによって適用されます。 グローバル カタログのレプリケーションのマークされます。  <br/> 有効値は、 **TRUE**または**false を指定**します。  <br/> |ライブ通信サーバー 2005 で新たに追加します。  <br/> |
+|msRTCSIP FrontEndServers  <br/> |この属性は、プールに関連付けられているすべての Enterprise Edition サーバーのドメイン名の複数値を持つリストです。  <br/> 後方リンク:**リンク ID 11023** <br/> この後方リンクに対応する前方リンクは、 **msRTCSIP PoolAddress**です。  <br/> |ライブ通信サーバー 2005 で新たに追加します。  <br/> |
+|msRTCSIP ゲートウェイ (古い形式)  <br/> |この複数値を持つ文字列の属性には、ゲートウェイとポート (ゲートウェイ) ごとの一覧が含まれています。  <br/> |Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP GlobalSettingsData (古い形式)  <br/> |この属性は、名前と値のペアを格納します。 **プレゼンスのポーリングを許可する**] 設定は、既に定義されている名前と値のペアです。 <br/> |Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP GroupingID  <br/> |この属性は、グループのアドレス帳のエントリに使用されるグループの一意の識別子です。  <br/> |Lync Server 2010 の新機能です。  <br/> |
+|msRTCSIP HomeServer (古い形式)  <br/> |-  <br/> |Live Communications Server 2003 (使用しない) で新たに追加します。  <br/> ライブ通信サーバー 2005 で使用されなくなった。  <br/> |
+|msRTCSIP HomeServerString (古い形式)  <br/> |-  <br/> |ライブ通信サーバー 2003 で新たに追加します。  <br/> ライブ通信サーバー 2005 で使用されなくなった。  <br/> |
+|msRTCSIP HomeUsers (古い形式)  <br/> |-  <br/> |Live Communications Server 2003 (使用しない) で新たに追加します。  <br/> ライブ通信サーバー 2005 で使用されなくなった。  <br/> |
+|msRTCSIP InternetAccessEnabled  <br/> |この属性は、外部ユーザー アクセスを 1 人のユーザーが有効になっているかどうかを制御します。 エンタープライズ サービス レイヤーによって適用されます。 グローバル カタログのレプリケーションのマークされます。  <br/> 有効値は、 **TRUE**または**false を指定**します。  <br/> |ライブ通信サーバー 2005 で新たに追加します。  <br/> |
+|msRTCSIP ドライブ (古い形式)  <br/> |-  <br/> |ライブ通信サーバー 2003 の新機能  <br/> ライブ通信サーバー 2005 で使用されなくなった。  <br/> |
+|msRTCSIP ライン  <br/> |この単一値属性には、デバイス ID が含まれています (SIP URI またはユーザーの電話の電話 URI のいずれかの制御) Skype ビジネス テレフォニー クライアントのために使用します。 この属性は、グローバル カタログのレプリケーション用にマークされて、インデックスが付けられます。 ユーザーがエンタープライズ VoIP に対して有効な場合、この属性は、ユーザーの電話番号を E.164 の正規化されたバージョンを格納します。  <br/> |2005 Microsoft® Office Live Communications Server は、sp1 の新機能  <br/> |
+|msRTCSIP LineServer  <br/> |この単一値属性には、csta によって実現 SIP ゲートウェイ サーバーの SIP URI が含まれています。 この属性はグローバル カタログのレプリケーション用にマークされていますが、インデックス付けされていません。  <br/> |2005 Microsoft® Office Live Communications Server は、sp1 の新機能  <br/> |
+|msRTCSIP LocalNormalizationData (古い形式)  <br/> |この属性は、将来使用するために予約されています。  <br/> |Office Communications Server 2007 の新機能です。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP LocalNormalizationLinks (古い形式)  <br/> |この複数値属性には、この場所のプロファイルに関連付けられているローカル正規化の識別名 (DN) の一覧が含まれています。 この属性の型は、バイナリの DN です。 場所のプロファイルとローカル正規化の規則との間の一対多リレーションシップがあります。 ローカル正規化の Dn の一覧の順序は、管理者によって指定された順序で維持する必要があります。 順序の保持は、順序のインデックスを指定する DN、バイナリのバイナリの部分によって管理されます。  <br/> 前方リンク:**リンク ID 11034** <br/> 前方リンク属性に対応する後方リンクは、 **msRTCSIP LocationProfileBL**です。  <br/> |Office Communications Server 2007 の新機能です。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP LocalNormalizationOptions  <br/> |この属性には、正規化ルールのオプションの一覧が含まれています。  <br/> |Office 通信 Server 2007 R2 で新たに追加します。  <br/> |
+|msRTCSIP LocationName (古い形式)  <br/> |この単一値属性には、このプロファイルを表す場所を示す場所のプロファイルの表示名が含まれています。 複数の場所のプロファイルが存在することができます、ため管理者には、別のプロファイルとの間を区別する方法が必要があります。  <br/> |Office Communications Server 2007 の新機能です。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP locationProfileBL (古い形式)  <br/> |この複数値属性には、場所のプロファイルの識別名のリストが含まれています。 この属性は、1 つまたは複数の場所のプロファイルへの後方リンクを指定します。  <br/> 後方リンク:**リンク ID 11035** <br/> この属性は、前方リンクの**msRTCSIP LocalNormalizationLinks**に対応します。  <br/> |Office Communications Server 2007 の新機能です。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP LocationProfileData (古い形式)  <br/> |この属性は、将来使用するために予約されています。  <br/> |Office Communications Server 2007 の新機能です。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP LocationProfileOptions  <br/> |この属性には、場所のプロファイルのオプションが含まれています。  <br/> |Office 通信 Server 2007 R2 で新たに追加します。  <br/> |
+|msRTCSIP MappingContact  <br/> |この複数値属性は、アプリケーションの連絡先の一覧を保持します。  <br/> |Office 通信 Server 2007 R2 で新たに追加します。  <br/> |
+|msRTCSIP MappingLocation  <br/> |この複数値属性では、場所のプロファイルの一覧を保持します。  <br/> |Office 通信 Server 2007 R2 で新たに追加します。  <br/> |
+|msRTCSIP MaxNumOutstandingSearchPerServer (古い形式)  <br/> |この属性は、サーバーごとの未解決の検索要求の最大数を表します。  <br/> |Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP MaxNumSubscriptionsPerUser (古い形式)  <br/> |属性は、ユーザーごとのサブスクリプションの最大数を表します。  <br/> |Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP MaxPresenceSubscriptionTimeout (古い形式)  <br/> |この属性は、最大のサブスクリプションのタイムアウト ウィンドウを表します。  <br/> |Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP MaxRegistrationsTimeout (古い形式)  <br/> |この属性は、最大登録タイムアウト ウィンドウを表します。  <br/> |Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP MaxRoamingDataSubscriptionTimeout (古い形式)  <br/> |この属性は、最大の移動データ サブスクリプション タイムアウト ウィンドウを表します。  <br/> |Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP MCUData  <br/> |この属性は、将来使用するために予約されています。  <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP MCUFactoryAddress  <br/> |この属性は、[コンピューターのクラスが属するマルチポイント コントロール ユニット (MCU) 工場へのリンクを指定するサービス コントロール ポイントの属性です。 各 Microsoft MCU では、このサービス コントロール ポイントおよび属性が作成されます。 各 Microsoft MCU では、それが所属することから、プール レベルの設定を取得するためにプールのバック エンド サーバーを見つける必要があります。  <br/> この属性の値は、MCU ファクトリの識別名 (DN) です。 これは単一値の属性であり、グローバル カタログのレプリケーション用にマークします。  <br/> 前方リンク:**リンク ID 11026** <br/> 前方リンク属性に対応する後方リンクは、 **msRTCSIP MCUServers**です。  <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP MCUFactoryData  <br/> | これは、複数行文字列の予約済みの属性です。 この属性に格納されている設定は、名前として表されます。 値のペアを = します。 現在定義されている名前 = 値の組み合わせ。 <br/>  FactoryURL = \<URL\> <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP MCUFactoryPath  <br/> |これは、プールに関連付けられている 1 つの MCU ファクトリの識別名 (DN) を含む単一値の属性です。  <br/> 前方リンク:**リンク ID 11024** <br/> 前方リンク属性に対応する後方リンクは、 **msRTCSIP PoolAddresses**です。  <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP MCUFactoryProviderID  <br/> |この属性は、MCU ファクトリ プロバイダーの GUID を指定する単一値の文字列です。 MCU ファクトリ プロセスは、GUID の値に基づき、この MCU の種類のサービスを提供するかどうか決定します。 **{F0810510-424F-46ef-84FE-6CC720DF1791}**の GUID の値が表示された場合、MCU ファクトリ プロセス (既定では、Lync Server で使用可能) はそれを処理します。 他の GUID 値の場合は、MCU の工場出荷時のプロセスがないサービスの MCU の種類です。 <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP MCUServers  <br/> |この属性は、複数値を持つ識別名 (DN) の一覧です。 この属性には、同じ型とこの MCU ファクトリに関連付けられている仕入先のすべての MCU サーバーの一覧が含まれています。 各セグメントの有効な値は、63 文字です。FQDN 全体に対して有効な値は、255 文字です。  <br/> 後方リンク: リンク ID 11027  <br/> この後方リンクに対応する前方リンクは、 **msRTCSIP MCUFactoryAddress**です。  <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP MCUType  <br/> | この属性は、MCU が処理できるメディアを指定する単一値の文字列です。 <br/>  サポートされている有効な型は次のとおりです。 <br/>  会議 <br/>  オーディオ ビデオ <br/>  チャット <br/>  電話 conf <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP MCUVendor  <br/> |この属性は、MCU のベンダーの名前を指定する単一値の文字列です。 すべての Microsoft Mcu では、**米国 Microsoft Corporation**にするには、この属性を指定します。  <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP MeetingFlags (古い形式)  <br/> | この属性は、すべてのユーザーに対してグローバルに有効化、または連絡先オブジェクトを別のミーティングのオプションを定義します。 この属性は、整数型のビット マスク値です。 <br/>  有効な値 (および関連するビット位置) は次のとおりです。 <br/>  0: AllowOrganizeMeetingWithAnonymousParticipants は、なし (匿名ユーザーが会議に招待するユーザーを許可しない) (ビットが設定されていない) <br/>  4: AllowOrganizeMeetingWithAnonymousParticipants は、すべてのユーザー (匿名ユーザーが会議に招待するすべてのユーザーを許可する) (ビット位置 2) <br/>  8: AllowOrganizeMeetingWithAnonymousParticipants は、UsePerUserSetting (ごとのユーザー設定に基づいて会議への匿名ユーザーを招待するユーザーを許可する) (ビット位置 3) <br/>  16: (ユーザー 1 人あたり会議ポリシーを定義します)、UserPerUserMeetingPolicy (ビット位置 4) <br/> |Office Communications Server 2007 の新機能です。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP MeetingPolicy (古い形式)  <br/> |この属性は、ポリシー、管理者の識別名 (DN) が単一値属性としては、このユーザーの割り当てを指定します。  <br/> |Office Communications Server 2007 の新機能です。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP MinPresenceSubscriptionTimeout (古い形式)  <br/> |この属性では、サブスクリプションのタイムアウトの最小値の存在] ウィンドウを表します。  <br/> |Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP MinRegistrationTimeout (古い形式)  <br/> |この属性では、最小の登録タイムアウト ウィンドウを表します。  <br/> |Office Communications Server 2007 の新機能です。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP MinRoamingDataSubscriptionTimeout (古い形式)  <br/> |この属性では、最小の移動データ サブスクリプション タイムアウト ウィンドウを表します。  <br/> |Office Communications Server 2007 の新機能です。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP MirrorBackEndServer  <br/> |この属性を使用して、フロント エンド プールによって使用されるミラー化された SQL Server のバックエンドを格納します。  <br/> |Lync Server 2013 の新機能です。  <br/> |
+|msRTCSIP MobilityFlags  <br/> |この属性には、オプションとモビリティの設定を定義するフラグが含まれています。  <br/> |Office 通信 Server 2007 R2 で新たに追加します。  <br/> |
+|msRTCSIP MobilityPolicy  <br/> |この属性には、モビリティ ポリシー オブジェクトの DN が含まれています。  <br/> |Office 通信 Server 2007 R2 で新たに追加します。  <br/> |
+|msRTCSIP NumDevicesPerUser (古い形式)  <br/> |この属性は、デバイスのユーザーは SIP 通信に登録し、[プレゼンスへのサブスクライブの最大数を表します。  <br/> |Office Communications Server 2007 の新機能です。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP OptionFlags  <br/> | この属性は、ユーザーが有効になってまたはオブジェクトに連絡するオプションを指定します。 この属性は、整数型のビット マスク値です。 各オプションは、ビットで表されます。 この属性は、グローバル カタログのレプリケーションのマークされています。 <br/>  有効な値 (および関連するビット位置) は次のとおりです。 <br/>  1: パブリック インスタント メッセージ (IM) 接続を有効になっている (ビット位置 0) <br/>  2: 予約済み (ビット位置 1) <br/>  4: 予約済み (ビット位置 2) <br/>  8: 予約済み (ビット位置 3) <br/>  16: リモート通話コントロール有効 - テレフォニー (ビット位置 4) <br/>  64: AllowOrganizeMeetingWithAnonymousParticipants (匿名ユーザーが会議に招待するユーザーを許可する (ビット位置 6) <br/>  128: UCEnabled (UC のユーザーを有効にする) (ビット 7) <br/>  256: EnabledForEnhancedPresence (パブリック IM 接続を有効にするユーザー) (ビット位置 8) <br/>  512: RemoteCallControlDualMode (ビット位置 9) <br/> |SP1 を適用したの Live Communications Server 2005 で新たに追加します。  <br/> |
+|msRTCSIP OriginatorSID  <br/> |リソースおよび中央フォレスト トポロジでこの属性を使用してシングル サインオンを有効にする Windows NT サーバーのプリンシパルのアカウントからユーザーの ObjectSID が対応するユーザーをこの属性にコピーするときや、リソースまたは中央フォレスト内のオブジェクトを問い合わせてください。 ビジネス サーバー用の Skype は、この属性またはユーザーの ObjectSID を使用して AD DS のユーザーを検索します。 この属性は、グローバル カタログのレプリケーションのマークされています。  <br/> |-  <br/> |
+|msRTCSIP OwnerUrn  <br/> |この属性は、アプリケーションの連絡先の所有者の統一リソース名 (URN) です。  <br/> |Lync Server 2010 の新機能です。  <br/> |
+|msRTCSIP パターン (古い形式)  <br/> |この文字列の単一値属性には、E.164 形式に一致するダイヤル番号の使用パターンが含まれています。 ダイヤル番号には、このパターンが一致すると、ダイヤル番号に変換が適用されます。  <br/> |Office Communications Server 2007 の新機能です。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP PhoneRouteBL (古い形式)  <br/> |この複数値属性には、電話ルートの識別名 (DN) の一覧が含まれています。 この属性は、1 つ以上の電話ルートへの後方リンクを指定します。  <br/> 後方リンク:**リンク ID 11033** <br/> この属性は、前方リンクの**msRTCSIP RouteUsageLinks**に対応します。  <br/> |Office Communications Server 2007 の新機能です。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP PhoneRouteData (古い形式)  <br/> |この属性は、将来使用するために予約されています。  <br/> |Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP PhoneRouteName (古い形式)  <br/> |この 1 つの値を持つ UNICODE 文字列属性は、管理者が簡単に参照できるように、電話ルートのフレンドリ名を指定します。  <br/> |Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP PhoneUsageData (古い形式)  <br/> |この属性は、将来使用するために予約されています。  <br/> |Office Communications Server 2007 の新機能です。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP PolicyContent (古い形式)  <br/> |この属性は、単一値の Unicode 文字列です。 この文字列の属性には、XML 形式のポリシー定義が含まれています。 XML スキーマ定義は、別のポリシーの種類で一般的な設定は、ポリシーの種類ごとに異なるです。  <br/> XML スキーマ定義 (XSD) の定義は次のとおりです。  <br/> ```<?xml version="1.0" encoding="utf-8"?><xs:schema id="instance" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  <xs:element name="instance" msdata:IsDataSet="true">    <xs:complexType>      <xs:choice maxOccurs="unbounded">        <xs:element name="property" nillable="true">          <xs:complexType>            <xs:simpleContent msdata:ColumnName="property_Text" msdata:Ordinal="1">              <xs:extension base="xs:string">                <xs:attribute name="name" type="xs:string" />              </xs:extension>            </xs:simpleContent>          </xs:complexType>        </xs:element>      </xs:choice>    </xs:complexType>  </xs:element></xs:schema>```|Office Communications Server 2007 の新機能です。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP PolicyData (古い形式)  <br/> |この属性は、将来使用するために予約されています。  <br/> |Office Communications Server 2007 の新機能です。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP PolicyType (古い形式)  <br/> | この単一値の Unicode 文字列属性には、ポリシーの種類が含まれています。 有効なポリシーの種類は次のとおりです。 <br/>  会議 <br/>  テレフォニー <br/> |Office Communications Server 2007 の新機能です。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP PoolAddress  <br/> |この属性は、コンピューターが所属するプールへのリンクを指定します。 Standard Edition または Enterprise Edition に、コンピューターを実行するかどうかにかかわらず、この属性が設定されています。 この属性は、グローバル カタログのレプリケーションのマークされています。  <br/> 有効な値は、プールのドメイン名です。  <br/> 前方リンク:**リンク ID 11022** <br/> 前方リンク属性に対応する後方リンクは、 **msRTCSIP FrontEndServers**です。  <br/> |ライブ通信サーバー 2005 で新たに追加します。  <br/> |
+|msRTCSIP PoolAddresses  <br/> |これは、MCU ファクトリが関連付けられているプールの識別名 (DN) のリストを含む複数値を持つ属性です。  <br/> 後方リンク:**リンク ID 11025** <br/> この後方リンクに対応する前方リンクは、 **msRTCSIP MCUFactoryPath**です。  <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP PoolData  <br/> |この属性は、将来使用するために予約されています。  <br/> |SP1 を適用したの Live Communications Server 2005 で新たに追加します。  <br/> |
+|msRTCSIP PoolDisplayName  <br/> |この属性は、管理コンソールで表示されるプールの任意の名前を指定します。 この名前は、管理者によって変更できます。  <br/> 有効な値は、プールの名前を表す文字列です。  <br/> |ライブ通信サーバー 2005 で新たに追加します。  <br/> |
+|msRTCSIP PoolDomainFQDN  <br/> |この属性は、単一値の文字列値です。 この属性の値存在する場合を表しますプールの FQDN のドメイン管理者が (たとえば、SIP のフロント エンド プールが作成される Active Directory ドメイン構造に準拠していない FQDN を使用してフロント エンド プールを作成したい場合名前空間から離れましたドメイン ネーム システム (DNS) 名前空間)。  <br/> プールが存在する Active Directory ドメインとして、ドメイン名の部分をフロント エンド プール ドメインの FQDN をマップすることをお勧めします。 したがって、場合値はこの属性では、FQDN は、既定に Active Directory のドメイン名の構造、 **dnsHostName**属性によって示されたフロント エンド プール内に存在します。 <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP PoolFunctionality  <br/> | ドメイン名のすべての Skype のビジネス サーバーでは、Enterprise Edition サーバーがプールに関連付けられている複数の値のリスト。 整数型には、この属性は、プールがインスタント メッセージング (IM) とプレゼンス、および会議に対応するかどうかを定義します。 <br/>  使用可能な有効な値の種類は次のとおりです。 <br/>  : 未定義の IM とプレゼンス サービス (ライブ通信サーバー 2005、2003) <br/>  1: IM とプレゼンス サービス (Skype ビジネス サーバー用) <br/>  2: IM とプレゼンス、および会議サービス (Skype ビジネス サーバー用) <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP PoolType  <br/> | この属性は、サーバー プールが Standard Edition サーバーまたは Enterprise Edition server を実行しているかどうかを指定します。 この属性は、整数型のビット マスク値です。 各オプションは、ビットで表されます。 <br/>  有効な値 (および関連するビット位置) は次のとおりです。 <br/>  1: standard Edition サーバー、ホストのユーザー (ビット位置 0) <br/>  2: エンタープライズ エディションのサーバーは、ホストのユーザー (ビット位置 1) <br/>  4: standard Edition サーバー、ホスト アプリケーション (ビット位置 2) <br/>  8: Enterprise Edition サーバー、ホスト アプリケーション (ビット位置 3) <br/>  Lync Server がアプリケーションのみをホストするプールをサポートしていないためだけに有効な値は、します。 <br/>  5: standard Edition サーバー、ホストのユーザーおよびアプリケーション (ビット位置 0 および 2) <br/>  10: Enterprise Edition サーバー、ホストのユーザーおよびアプリケーション (ビット位置 1 と 3) <br/> |ライブ通信サーバー 2005 で新たに追加します。  <br/> |
+|msRTCSIP PoolVersion  <br/> | この属性は、プールのバージョンを定義します。 製品のメジャー リリースごとにインクリメントされる整数型です。 <br/>  使用可能な有効な値の種類は次のとおりです。 <br/>  0: live Communications Server 2003 <br/>  1: live Communications Server 2005 <br/>  2: ライブ通信サーバー 2005 SP1 <br/>  3: Office Communications Server 2007 <br/>  4: Office 通信 Server 2007 R2 <br/>  5: Lync Server 2010 <br/> |Sp1 では、Communications Server 2005 を生活してください。  <br/> |
+|msRTCSIP PresenceFlags  <br/> |この属性には、オプションとプレゼンスの設定を定義するフラグが含まれています。  <br/> |Office 通信 Server 2007 R2 で新たに追加します。  <br/> |
+|msRTCSIP PresencePolicy  <br/> |この属性には、プレゼンス ポリシー オブジェクトの DN が含まれています。  <br/> |Office 通信 Server 2007 R2 で新たに追加します。  <br/> |
+|msRTCSIP PrimaryHomeServer  <br/> |この属性は、ユーザーまたは連絡先の SIP メッセージングを有効にします。 中央フォレスト トポロジでは、連絡先オブジェクト、ユーザー オブジェクトではなく、SIP が有効になっているために、連絡先クラスに追加されます。  <br/> 有効な値は、Standard Edition サーバーまたはエンタープライズ エディションのフロント エンド プールが、ユーザーのホームの識別名です。  <br/> |ライブ通信サーバー 2005 で新たに追加します。  <br/> |
+|msRTCSIP PrimaryUserAddress  <br/> |この属性には、特定のユーザーの SIP アドレスが含まれています。  <br/> |-  <br/> |
+|msRTCSIP PrivateLine  <br/> |この属性には、専用回線デバイスのデバイス ID が含まれています。  <br/> |Lync Server 2010 の新機能です。  <br/> |
+|msRTCSIP ルーティング  <br/> |この属性は、ビジネス サーバーの Skype の権限が、GRUU アドレスを使用してこのサービスにルーティングするかどうかを決定するために使用するブール値属性です。 この値は、 **TRUE**に設定されている場合このサービスにルーティングする Skype のビジネス サーバーが承認されました。 この値は、 **FALSE**に設定されている場合、ビジネス サーバーの Skype では、このサービスにルーティングする権限がありません。  <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP RouteUsageAttribute (古い形式)  <br/> |この単一値の UNICODE 文字列属性は、電話のルートの使用法を修飾する属性を定義します。 電話ルートの選択は、2 つの要素に基づいて決定されます。 電話ルート、呼び出し側に割り当てられている使用法属性には、ポリシーの使用法の属性の許可されました。 呼び出し元のアクセス権限に一致する使用法属性を持つ最初の電話ルートが選択されます。  <br/> |Office Communications Server 2007 の新機能です。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP RouteUsageLinks (古い形式)  <br/> |この複数値を持つ識別名 (DN) 属性には、ルートの使用法の識別名の一覧が含まれています。  <br/> 前方リンク:**リンク ID 11032** <br/> この属性は、対応する後方リンク**msRTCSIP PhoneRouteBL**へのリンクです。  <br/> |Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP RoutingPoolDN  <br/> |この属性には、プールへのポインターをすべての SIP トラフィックは、MCU または信頼されたサービスにこのアドレスを通過する必要がある識別名が含まれています。  <br/> |Office 通信 Server 2007 R2 で新たに追加します。  <br/> |
+|msRTCSIP RuleName (古い形式)  <br/> |この単一値の UNICODE 文字列属性は、管理者が簡単に参照できるよう、正規化ルールのフレンドリ名を指定します。  <br/> |Office Communications Server 2007 の新機能です。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP を含んでいます  <br/> |この属性は、組織に展開されているスキーマのバージョンを表します。  <br/> |-  <br/> |
+|msRTCSIP SearchMaxRequests (古い形式)  <br/> |この属性は、ユーザーが Communicator を使用して連絡先を検索するときに、ディレクトリ検索から返される検索結果の数を制限します。 この属性は、クライアントによって指定された値で上書きされます。  <br/> |Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP SearchMaxResults (古い形式)  <br/> |この属性は、返される検索要求の数を制限します。  <br/> |Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP ServerBL  <br/> |この複数値の属性は、識別名 (DN) の一覧を含むバック リンクです。 以下の DNs は、プールまたは**TrustedService**オブジェクト] をポイントします。 <br/> この属性は、前方リンクの**msRTCSIP TrustedServiceLinks**に対応します。  <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP ServerData  <br/> |この属性は、将来使用するために予約されています。  <br/> |-  <br/> |
+|msRTCSIP ServerReferenceBL (古い形式)  <br/> |この複数値属性には、識別名の一覧が含まれています。 これらの識別名は、既定の場所のプロファイルを割り当てることができるその他のサーバー オブジェクトを参照する後方リンクです。  <br/> 後方リンク:**リンク ID 11037** <br/> この後方リンクに対応する前方リンクは、 **msRTCSIP DefaultLocationProfileLink**です。  <br/> この後方リンク属性は、プールと仲介サーバーをのみ参照します。  <br/> |Office Communications Server 2007 の新機能です。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP ServerVersion  <br/> | この属性は、サーバーのバージョン情報を定義します。 このバージョン番号は、すべてのサーバー ロールに適用されます。 Monotonously 増加する整数正式な製品リリースごとにインクリメントすることをお勧めします。 <br/>  可能な有効な値は次のとおりです。 <br/>  : 未定義の Live Communications Server 2003 <br/>  Live Communications Server 2005 <br/>  Live Communications Server 2005 SP1 <br/>  3: Office Communications Server 2007 <br/>  4: Office 通信 Server 2007 R2 <br/>  5: Lync Server 2010 <br/>  6: Lync Server 2013 <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP SourceObjectType  <br/> | この整数型の単一値の属性を指定しますオブジェクトの種類、 **msDS SourceObjectDN**ポイントとして次のように。 <br/>  null | 0x00000001: 別のフォレストの Windows NT サーバー プリンシパルのユーザー オブジェクトを表します <br/>  次の属性は、配布グループの展開を別のフォレストからのグループの種類を表します。 <br/>  0X00000002: ADS_GROUP_TYPE_GLOBAL_GROUP <br/>  0X00000004: ADS_GROUP_TYPE_DOMAIN_LOCAL_GROUP <br/>  0X00000004: ADS_GROUP_TYPE_LOCAL_GROUP <br/>  0X00000008: ADS_GROUP_TYPE_UNIVERSAL_GROUP <br/>  0X80000000: ADS_GROUP_TYPE_SECURITY_ENABLED <br/>  0x90000000: 同じフォレストまたは別のフォレストからの自動応答またはサブスクライバー アクセス オブジェクトを表します <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP SubscriptionAuthRequired (古い形式)  <br/> |-  <br/> |ライブ通信サーバー 2003 で新たに追加します。  <br/> ライブ通信サーバー 2005 で使用されなくなった。  <br/> |
+|msRTCSIP TargetHomeServer  <br/> |この属性を使用すると、1 つの Skype ビジネス サーバー プールの間でユーザーまたは連絡先オブジェクトを移動することができます。 中央フォレスト トポロジでは、連絡先オブジェクト、ユーザー オブジェクトではなく、SIP が有効になっているために、連絡先のクラスにこの属性が追加されます。  <br/> 有効な値は、宛先の Standard Edition サーバーまたはフロント エンドのプールは、ユーザーの移動先となるのです。  <br/> |ライブ通信サーバー 2005 で新たに追加します。  <br/> |
+|msRTCSIP TargetPhoneNumber (古い形式)  <br/> |この文字列の単一値属性には、電話番号のパターンまたは**msRTCSIP ゲートウェイ**で定義されている指定したゲートウェイにルーティングする範囲が含まれています。  <br/> |Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP TargetUserPolicies  <br/> |この属性では、ビジネスのサーバーのユーザーの Skype のターゲットのポリシーの名前と値のペアを格納します。  <br/> |Lync Server 2010 の新機能です。  <br/> |
+|msRTCSIP TenantId  <br/> |この属性では、テナントの一意の識別子を格納します。  <br/> |Lync Server 2010 の新機能です。  <br/> |
+|msRTCSIP 変換 (古い形式)  <br/> |この属性では、Lync Server の音声機能で使用され、一致が見つかった場合、ダイヤル番号に適用する変換文字列が含まれています。  <br/> |Office Communications Server 2007 の新機能です。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP TrustedMCUData  <br/> |この属性は、将来使用するために予約されています。  <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP TrustedMCUFQDN  <br/> |この属性は、MCU の FQDN を含む文字列値です。 これは、単一値の属性です。 各セグメントの有効な値は、63 文字です。FQDN 全体に対して有効な値は、255 文字です。  <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP TrustedProxyData  <br/> |この属性は、将来使用するために予約されています。  <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP TrustedProxyFQDN  <br/> |この属性は、プロキシ サーバーを実行するサーバーの FQDN を含む文字列値です。 この属性は、単一の値です。 各セグメントの有効な値は、63 文字です。FQDN 全体に対して有効な値は、255 文字です。  <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP TrustedServerData  <br/> |この属性は、将来使用するために予約されています。  <br/> |-  <br/> |
+|msRTCSIP TrustedServerFQDN  <br/> |この属性は、信頼されたサーバーの FQDN を表す単一値の属性です。  <br/> |ライブ通信サーバー 2005 で新たに追加します。  <br/> |
+|msRTCSIP TrustedServerVersion  <br/> | この属性では、信頼されたサーバーの一覧でサーバーのバージョン番号を指定します。 <br/>  可能な有効な値は次のとおりです。 <br/>  NULL: ライブ通信サーバー 2003 <br/>  2: live Communications Server 2005 <br/>  3: Office Communications Server 2007 <br/>  4: Office 通信 Server 2007 R2 <br/>  5: Lync Server 2010 <br/>  6: Lync Server 2013 <br/> |ライブ通信サーバー 2005 で新たに追加します。  <br/> |
+|msRTCSIP TrustedServiceFlags  <br/> |この属性では、信頼される側のサービスを有効にするオプションを定義します。  <br/> |Office 通信 Server 2007 R2 で新たに追加します。  <br/> |
+|msRTCSIP TrustedServiceLinks  <br/> |この複数値属性には、メディア リレー認証サービスなどの信頼されたサービス オブジェクトを参照する識別名 (DN) の一覧が含まれています。 メディア リレー認証サービス (A を実行しているエッジ サーバーに物理的に配置されている/V 会議サービス) のリモート ユーザーのオーディオのシナリオをサポートするためにプールに関連付けられている必要があります。  <br/> 前方リンク属性に対応する後方リンクは、 **msRTCSIP ServerBL**です。  <br/> |UC  <br/> |
+|msRTCSIP TrustedServicePort  <br/> |この属性は、この GRUU サービスに接続するために使用するポート番号を定義する整数です。  <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP TrustedServiceType  <br/> | この属性は、それを表す GRUU サービスの種類を定義する文字列値です。 <br/>  有効な GRUU サービスの種類は次のとおりです。 <br/>  MediationServer <br/>  ゲートウェイ <br/>  メディア認証サービス (MRAS) の中継します。 <br/>  QoSM <br/>  msRTCSIP UserExtension CWA <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP TrustedWebComponentsServerData  <br/> |この属性は、将来使用するために予約されています。  <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP TrustedWebComponentsServerFQDN  <br/> |この属性は、ビジネスのサーバーの Web サービスの Skype を実行している IIS サーバーの FQDN を含む文字列値です。 これは、単一値の属性です。 各セグメントの有効な値は、63 文字です。FQDN 全体に対して有効な値は、255 文字です。  <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP UCFlags (古い形式)  <br/> | この属性は、すべてのユーザーにグローバルに有効化、または連絡先オブジェクトを別の UC オプションを定義します。 この属性は、整数型のビット マスク値です。 各オプションは、ビットの存在によって表されます。 <br/>  使用可能な有効な値 (と関連付けられているビット位置) は次のとおりです。 <br/>  4: UsePerUserUCPolicy (ビット位置 2) <br/>  このビットが設定されている場合は、ユーザー 1 人あたり UC ポリシーが定義されています。 <br/> |Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP UCPolicy (古い形式)  <br/> |この単一値属性には、管理者がこのユーザーに割り当てられている UC ポリシーの識別名 (DN) が含まれています。  <br/> |Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP UserDomainList (古い形式)  <br/> |この属性では、SIP が有効なユーザーをホストするフォレスト内のすべてのドメインの一覧を提供します。 既定値は、フォレスト内のすべてのドメインは、SIP が有効になっていることを示す空のリストです。  <br/> 有効な値は、個々 のドメインのドメイン名を表す複数の文字列です。  <br/> |ライブ通信サーバー 2005 で新たに追加します。  <br/> Lync Server 2010 で使用されなくなった。  <br/> |
+|msRTCSIP UserEnabled  <br/> |この属性は、ビジネスのサーバーに、Skype のユーザーを現在有効かどうかを決定します。  <br/> |-  <br/> |
+|msRTCSIP UserExtension  <br/> |この複数値属性には、形式で名前と値のペアの一覧が含まれています"名前 = 値です"。 この属性は、グローバル カタログのレプリケーションのマークされています。  <br/> |SP1 を適用したの Live Communications Server 2005 で新たに追加します。  <br/> |
+|msRTCSIP UserLocationProfile  <br/> |この属性には、場所のプロファイル オブジェクトを指す識別名 (DN) が含まれています。  <br/> |Office 通信 Server 2007 R2 で新たに追加します。  <br/> |
+|msRTCSIP UserPolicies  <br/> |この属性は、ユーザー ポリシーの名前と値のペアを格納します。  <br/> |Lync Server 2010 の新機能です。  <br/> |
+|msRTCSIP UserPolicy  <br/> | これは、さまざまな種類のグローバル ・ ユーザーのポリシーを示すバイナリ (DN_WITH_BINARY) での識別名のリストを含む複数値を持つ属性です。 バイナリの一部では、DN の部分をポイントするポリシーの種類を示します。 <br/>  有効なバイナリ値は次のとおりです。 <br/>  0x00000001: 会議ポリシー <br/>  0x00000002: 統合コミュニケーション ポリシー <br/>  0x00000005: プレゼンス ポリシー <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP UserRoutingGroupId  <br/> |これは、SIP のルーティング グループの id。 同じグループ内のユーザーは、同じフロント エンド サーバーに登録されます。  <br/> |Lync Server 2013 の新機能です。  <br/> |
+|msRTCSIP WebComponentsData  <br/> |これは、複数値を持つ属性です。 この属性は、将来使用するために予約されています。  <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP WebComponentsPoolAddress  <br/> |この単一値の属性は、プールまたは Standard Edition サーバーの web コンポーネントが所属するポイントです。  <br/> 前方リンク:**リンク ID 11028** <br/> 前方リンク属性に対応する後方リンクは、 **msRTCSIP WebComponentsServers**です。  <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP WebComponentsServers  <br/> |この属性は、複数値を持つ識別名の一覧です。 この属性には、このプールに関連付けられているすべての Web サーバーの一覧が含まれています。  <br/> 後方リンク:**リンク ID 11029** <br/> この後方リンクに対応する前方リンクは、 **msRTCSIP WebComponentsPoolAddress**です。  <br/> |Office Communications Server 2007 の新機能です。  <br/> |
+|msRTCSIP WMIInstanceId (古い形式)  <br/> |-  <br/> |ライブ通信サーバー 2003 で新たに追加します。  <br/> ライブ通信サーバー 2005 で使用されなくなった。  <br/> |
+|OtherIPPhone  <br/> |テレフォニーでは、この既存の Active Directory 属性を使用して携帯電話の代替の TCP/IP アドレスのリストを指定します。  <br/> |Windows Server 2008 オペレーティング システムで新たに追加します。  <br/> |
+|PhoneOfficeOther  <br/> |この既存の Active Directory 属性は、Skype で音声コンポーネント サーバーの使用ビジネス、連絡先オブジェクトに対してのみ、ユニファイド メッセージングの自動応答およびサブスクライバー アクセス番号に呼び出しをルーティングするためです。 アドレスを転送する無条件の呼び出しは、この複数値属性に格納されます。 サブスクライバー アクセスと自動応答の特定の目的には、このアカウントが作成されます。 管理者がこのアカウントの属性を変更できませんする必要があります。  <br/> |Windows 2000 オペレーティング システムで新たに追加します。  <br/> |
+|ProxyAddresses  <br/> | この既存の Active Directory の複数値を持つ属性は、Windows 2000 で導入された基本の Active Directory スキーマの一部です。 この属性には、ユーザーの電子メールのさまざまな X400、X500、および SMTP アドレスが含まれています。 このユーザーの SIP URI を追加して後で、Live Communications Server 2003 でリストを使用して、"sip:"タグです。 <br/>  次のアプリケーションでは、この属性からユーザーの SIP URI を検索します。 <br/>  Microsoft Office Outlook 2003 のメッセージングおよびコラボレーション クライアント <br/>  Microsoft Office SharePoint Server 2007 <br/> |Windows 2000 オペレーティング システムで新たに追加します。  <br/> |
+|勤務先  <br/> |この既存の Active Directory 属性には、ユーザーの電話番号が含まれています。  <br/> |Windows 2000 オペレーティング システムで新たに追加します。  <br/> |
+   
+

@@ -1,0 +1,123 @@
+---
+title: CDR ビジネス サーバー 2015 の Skype でのテーブルの詳細
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
+ms.date: 11/17/2014
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
+description: 次のトピックでは、通話詳細記録 (CDR) データベース スキーマ テーブルの各列について詳しく説明します。
+ms.openlocfilehash: 36426f194219ecb8cf64e071eb40b24e9dc52bc3
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 03/28/2018
+---
+# <a name="cdr-table-details-in-skype-for-business-server-2015"></a>CDR ビジネス サーバー 2015 の Skype でのテーブルの詳細
+ 
+次のトピックでは、通話詳細記録 (CDR) データベース スキーマ テーブルの各列について詳しく説明します。
+  
+## <a name="in-this-section"></a>このセクションの内容
+
+- [ビジネス サーバー 2015 の Skype でのアプリケーション ・ テーブル](application.md)
+    
+- [ビジネス サーバー 2015 の Skype での CallPriorities テーブル](callpriorities.md)
+    
+- [ビジネス サーバー 2015 の Skype の CallType テーブル](calltype.md)
+    
+- [ビジネス サーバー 2015 の Skype での ClientVersions テーブル](clientversions.md)
+    
+- [ビジネス サーバー 2015 の Skype での ConferenceJoinTimeThresholds テーブル](conferencejointimethresholds.md)
+    
+- [ビジネス サーバー 2015 の Skype での ConferenceMessageCount テーブル](conferencemessagecount.md)
+    
+- [ビジネス サーバー 2015 の Skype での会議テーブル](conferences.md)
+    
+- [ビジネス サーバー 2015 の Skype での ConferenceSessionDetails テーブル](conferencesessiondetails-0.md)
+    
+- [ビジネス サーバー 2015 の Skype での ConferenceUris テーブル](conferenceuris.md)
+    
+- [ビジネス サーバー 2015 の Skype でのコンテンツ タイプのテーブル](contenttypes.md)
+    
+- [ビジネス サーバー 2015 の Skype での DeRegisterType テーブル](deregistertype.md)
+    
+- [ビジネス サーバー 2015 の Skype でデバイス ・ テーブル](devices.md)
+    
+- [ビジネス サーバー 2015 の Skype でのダイアログ ボックスのテーブル](dialogs.md)
+    
+- [ビジネス サーバー 2015 の Skype での EdgeServers テーブル](edgeservers.md)
+    
+- [ビジネス サーバー 2015 の Skype での ErrorCategory テーブル](errorcategory.md)
+    
+- [ビジネス サーバー 2015 の Skype での ErrorDef テーブル](errordef.md)
+    
+- [ビジネス サーバー 2015 の Skype で ErrorReport テーブル](errorreport.md)
+    
+- [ビジネス サーバー 2015 の Skype での FileTransfers テーブル](filetransfers-0.md)
+    
+- [ビジネス サーバー 2015 の Skype での FocusJoinsAndLeaves テーブル](focusjoinsandleaves.md)
+    
+- [ビジネス サーバー 2015 の Skype でのフロント エンド テーブル](frontend.md)
+    
+- [ビジネス サーバー 2015 の Skype でゲートウェイ テーブル](gateways.md)
+    
+- [ビジネス サーバー 2015 の Skype での HardwareVersions テーブル](hardwareversions.md)
+    
+- [ビジネス サーバー 2015 の Skype での IMReportSummary テーブル](imreportsummary.md)
+    
+- [ビジネス サーバー 2015 の Skype での場所のテーブル](locations.md)
+    
+- [ビジネス サーバー 2015 の Skype の製造元テーブル](manufacturers.md)
+    
+- [ビジネス サーバー 2015 の Skype での McuJoinsAndLeaves テーブル](mcujoinsandleaves.md)
+    
+- [ビジネス サーバー 2015 の Skype の Mcu のテーブル](mcus.md)
+    
+- [メディア テーブル](media.md)
+    
+- [メディア テーブル](medialist.md)
+    
+- [MediationServers テーブル](mediationservers.md)
+    
+- [MSMQProcessing テーブル](msmqprocessing.md)
+    
+- [電話テーブル](phones.md)
+    
+- [プール テーブル](pools.md)
+    
+- [ProgressReport テーブル](progressreport.md)
+    
+- [PurgeSettings テーブル](purgesettings.md)
+    
+- [登録テーブル](registration.md)
+    
+- [ロール テーブル](roles.md)
+    
+- [サーバーのテーブル](servers.md)
+    
+- [SessionDetails テーブル](sessiondetails.md)
+    
+- [SIPResponseMetaData テーブル](sipresponsemetadata.md)
+    
+- [Syndicators テーブル](syndicators.md)
+    
+- [SyndicatorsTenantMap テーブル](syndicatorstenantmap.md)
+    
+- [タスク テーブル](task.md)
+    
+- [テナントのテーブル](tenants.md)
+    
+- [UriTypes テーブル](uritypes.md)
+    
+- [「ユーザー」テーブル](users.md)
+    
+- [UserAgentDef テーブル](useragentdef.md)
+    
+- [UserStatistics テーブル](userstatistics.md)
+    
+- [VoipDetails テーブル](voipdetails-0.md)
+    
+

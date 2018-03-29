@@ -1,0 +1,51 @@
+---
+title: Skype for Business Server 2015 での会議の構成設定の変更
+ms.author: kenwith
+author: kenwith
+manager: serdars
+ms.date: 3/28/2016
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
+description: '概要: を変更する方法を説明する会議出席ビジネス サーバー 2015 の Skype の設定を構成します。'
+ms.openlocfilehash: 95f28f35859553f79fc6f74f8850f224bda54deb
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 03/28/2018
+---
+# <a name="modify-meeting-configuration-settings-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での会議の構成設定の変更
+ 
+**の概要:**変更する方法について説明会議出席ビジネス サーバー 2015 の Skype の設定を構成します。
+  
+変更することができます Skype ビジネス サーバーのコントロール パネルを使用するか、Skype ビジネス サーバー管理シェルを使用して会議の構成設定。
+  
+## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>変更ビジネス サーバーのコントロール パネルの Skype を使用して、会議の構成設定
+
+1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
+    
+2.  Skype をビジネス サーバーのコントロール パネルを開きます。
+    
+3. 左側のナビゲーション バーで、[**会議**] をクリックし、[**会議の構成**] をクリックします。
+    
+4. 会議構成の一覧で、変更する構成をクリックし、[**編集**] をクリックして、[**詳細の表示**] をクリックします。
+    
+5. [**会議の構成の編集**] で、構成名以外の構成設定を変更します (構成名は変更不可です)。
+    
+6. [**確定**] をクリックします。
+    
+## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>変更ビジネス サーバー管理シェルの Skype を使用して、会議の構成設定
+
+会議の構成設定を変更するには、**Set-CsMeetingConfiguration** コマンドレットを使用します。
+  
+次の例に示すコマンドは、Redmond サイト (-Identity site:Redmond) に割り当てられている会議構成設定を変更します。この場合、DesignateAsPresenter プロパティの値が "Everyone" に設定されています。
+  
+```
+Set-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
+```
+
+詳細については、パラメーターの一覧を含む[セット CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps)を参照してください。
+  
+

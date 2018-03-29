@@ -1,0 +1,74 @@
+---
+title: Skype for Business Server 2015 でのインスタント メッセージングとプレゼンスの計画
+ms.author: kenwith
+author: kenwith
+manager: serdars
+ms.date: 6/28/2016
+ms.audience: ITPro
+ms.topic: conceptual
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
+description: '概要: ビジネス サーバー 2015 にインスタント メッセージングとプレゼンスの Skype を計画する方法を説明します。'
+ms.openlocfilehash: 1934f0308cda59b52073c47d1652ad2286bd6977
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 03/28/2018
+---
+# <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのインスタント メッセージングとプレゼンスの計画
+ 
+**概要:** Skype for Business Server 2015 でインスタント メッセージングとプレゼンスを計画する方法について説明します。
+  
+Skype for Business Server 2015 でのインスタント メッセージングとプレゼンスを計画します。 有効にするか、オフライン インスタント メッセージング (IM)、無効にするなど、特定の展開オプションの詳細については、[インスタント メッセージングを展開しビジネス サーバー 2015 の Skype のプレゼンス](../deploy/im-and-presence/im-and-presence.md)を参照してください。
+  
+## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのインスタント メッセージングとプレゼンスの計画
+
+フロント エンド サーバーを提供インスタント メッセージング (IM) とプレゼンスなどのビジネスのサーバーの機能のための Skype のコア ビジネス サーバー配置のすべての Skype に含まれています。 使用可能な 2 つのエディションがあります: 大規模な組織に主に設計されていますが、ビジネス サーバー Enterprise Edition の Skype と Skype ビジネス Server Standard Edition は、主に小規模な組織であるより小さいかどうかのハードウェアへの投資の完全な高可用性オプションを必要としません。 両方のエディションでは、IM、プレゼンス、会議、およびエンタープライズ VoIP を含むビジネス サーバー ワークロードのすべての Skype をサポートします。
+  
+インスタント メッセージング (IM) を使用すると、ユーザーは各自のコンピューターでテキスト ベースのメッセージを使用して、リアルタイムで相互通信を行うことができます。 2 パーティとマルチパーティの両方の IM セッションがサポートされています。 2 パーティの IM 会話の参加者は、3 番目の参加者をいつでも会話に追加できます。 この際には、会議機能をサポートするように会話ウィンドウが変更されます。
+  
+プレゼンスは、ネットワーク上の他のユーザーの状態に関する情報をユーザーに提供します。 ユーザーのプレゼンス状態は、他のユーザーかどうかする必要がありますしようとするユーザーに連絡し、インスタント メッセージング、電話、または電子メールを使用するかどうかを決定に役立つ情報を提供します。 プレゼンスにより、可能な場合にはすぐにやりとりできますが、他にも、ユーザーが会議中であるかどうかや、外出のために応答できない状況なのかに関する情報も提供されます。 プレゼンス状態は、Skype for Business およびその他のプレゼンス対応のアプリケーション (Microsoft Outlook のメッセージングおよびコラボレーション クライアント、Microsoft SharePoint テクノロジ、Microsoft Office など) で、プレゼンス アイコンとして表示されます。 プレゼンス アイコンは、ユーザーの現在の可用性と通信意思を表します。 
+  
+### <a name="technical-requirements"></a>技術要件
+
+インスタント メッセージング (IM) とプレゼンスは、常に Enterprise Edition フロントエンド プールと Standard Edition サーバーで実行されます。 サポートされているハードウェア、オペレーティング システム、およびデータベース ソフトウェアについては、 [Skype をビジネスのためのインフラストラクチャ](https://technet.microsoft.com/en-us/office/dn947483)と[ビジネス環境に、Skype の要件](requirements-for-your-environment/requirements-for-your-environment.md)を参照してください。
+  
+### <a name="enabling-communication-with-external-users"></a>外部ユーザーとの通信を有効にする
+
+Skype for Business Server への投資による収益性は、ユーザーが外部ユーザーと通信できるようにすることで大幅に高められます。外部ユーザーには次のユーザーが含まれます。
+  
+- リモート ユーザー: 組織のユーザー、あなたはファイアウォールの外側で作業し、ビジネス サーバー デバイスをラップトップ コンピューターやその他の Skype を使用しています。
+    
+- フェデレーション ユーザー: ユーザーも Skype をビジネスのサーバーの実行を使用する企業からです。 自社ユーザーがこうしたユーザーに容易にコンタクトできるようにするには、これらの企業とフェデレーション関係を作成する必要があります。 
+    
+- Skype ユーザー:   Skype for Business ユーザーは、Skype で IM、音声、ビデオを使用して数億人のユーザーと連絡を取ることができます。
+    
+> [!NOTE]
+> AOL、Yahoo、Google Talk はサポートされなくなりました。 
+  
+> [!NOTE]
+> これらのシナリオのいくつか、またはすべてを有効にするには、Skype for Business Server の展開と外部ユーザーの間でセキュリティで保護された通信を有効にできるようにエッジ サーバーを展開する必要があります。 組織のリモート ユーザーとフェデレーション組織のユーザーは、互いの存在を確認し、IM を使用して通信できるようなります。 
+  
+> [!NOTE]
+> XMPP (eXtensible Messaging and Presence Protocol) は、Unified Capabilities Collaboration Platform (UCCP) Joint Interoperability Test Command (JITC) 証明書シナリオでのみサポートされます。 
+  
+### <a name="archiving-im-content"></a>IM コンテンツをアーカイブする
+
+Skype for Business Server には、組織で法令上の規制に従う必要がある場合に使用できる機能があります。アーカイブを使用すると、組織内のすべてのユーザーまたは指定する特定のユーザーの IM メッセージの内容をアーカイブすることができます。詳細については、「計画」のドキュメントの「Skype for Business Server 2015 でのアーカイブの計画 (Planning for Archiving in Skype for Business Server 2015)」を参照してください。 
+  
+Microsoft Exchange Server 2013 も展開している場合は、Exchange データのアーカイブと Skype for Business Server データのアーカイブを統合して、1 つのツールを使用して両種類のアーカイブ データを検索することができます。 詳細については、Microsoft Exchange Server 2013 のアーカイブを使用するのには、ビジネス サーバー 2015 の Skype を設定するを参照してください。
+  
+### <a name="topologies-and-components"></a>トポロジとコンポーネント
+
+インスタント メッセージング (IM) とプレゼンスに必要な唯一のコンポーネントは次のとおりです。
+  
+- (プールと呼ばれます)、組織のフロント エンド サーバーまたは Standard Edition サーバーです。 これらのサーバーで、IM およびプレゼンス機能は常にオンになっています。 フロント エンド プール トポロジと管理の詳細については、[フロント エンド プールの高可用性と管理](high-availability-and-disaster-recovery/high-availability.md)を参照してください。
+    
+- ロード バランサー (Enterprise Edition フロントエンド プールがある場合)
+    
+### <a name="supported-collocation"></a>サポートされる併置
+
+併置の定義は、複数の役割がインストールされた単一のサーバーまたはサーバー グループが存在することです。 コロケーションの詳細については、[ビジネス サーバー 2015 の Skype のトポロジーの基本事項](topology-basics/topology-basics.md)を参照してください。 
+  
+

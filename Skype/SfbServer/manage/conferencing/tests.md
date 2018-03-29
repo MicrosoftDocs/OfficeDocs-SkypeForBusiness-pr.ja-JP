@@ -1,0 +1,85 @@
+---
+title: Skype for Business Server 2015 でのダイヤルイン会議のテスト
+ms.author: kenwith
+author: kenwith
+manager: serdars
+ms.date: 3/28/2016
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
+description: '概要: は、Skype のビジネス サーバー 2015 のダイヤルイン会議をテストする方法を説明します。'
+ms.openlocfilehash: 9df525710513dbccc2fd488dc9bb5a6f7ed49200
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 03/28/2018
+---
+# <a name="test-dial-in-conferencing-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのダイヤルイン会議のテスト
+ 
+**の概要:**Skype のビジネス サーバー 2015 のダイヤルイン会議をテストする方法について説明します。
+  
+ダイヤルイン会議構成の最後の確認作業として、どのアクセス番号も使用しないダイヤルイン会議の地域があるダイヤル プランやダイヤルイン会議の地域が指定されていないアクセス番号を検索します。 ダイヤルイン会議の設定の Web ページとダイヤルイン アクセス番号が正しく動作していることも確認する必要があります。
+  
+## <a name="find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a>どのアクセス番号も使用しないダイヤルイン会議の地域があるダイヤル プランの検索
+
+1. コンピューターに RTCUniversalServerAdmins グループのメンバーとしてログオンするか、Cs-ServerAdministrator または CsAdministrator 役割のメンバーとしてログオンします。
+    
+2. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
+    
+3. コマンド プロンプトで次のコマンドを実行します。
+    
+  ```
+  Get-CsDialinConferencingAccessNumber -EmptyRegion
+  ```
+
+    このコマンドレットは、どのアクセス番号も使用していないダイヤルイン会議の地域がある、すべてのダイヤル プランを返します。
+    
+詳細については、 [Get CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)を参照してください。
+  
+## <a name="find-access-numbers-without-assigned-regions"></a>地域が割り当てられていないアクセス番号の検索
+
+1. コンピューターに RTCUniversalServerAdmins グループのメンバーとしてログオンするか、Cs-ServerAdministrator または CsAdministrator 役割のメンバーとしてログオンします。
+    
+2. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
+    
+3. コマンド プロンプトで次のコマンドを実行します。
+    
+  ```
+  Get-CsDialinConferencingAccessNumber -Region NULL
+  ```
+
+    このコマンドレットは、地域に関連付けられていないダイヤルイン会議アクセス番号をすべて返します。
+    
+詳細については、 [Get CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)を参照してください。
+  
+## <a name="test-webpage-and-access-numbers"></a>Web ページとアクセス番号のテスト
+
+ダイヤルイン会議の設定の Web ページとダイヤルイン アクセス番号が正しく動作していることを確認するには、以下を実行する必要があります。
+  
+- 簡易 URL にサインインして、ダイヤルイン会議の設定の Web ページをテストします。
+    
+- この後のスクリプトを実行して、特定のプールでそのアクセス番号が正しく動作することをテストします。このスクリプトは、アクセス番号への通話をシミュレートします。このスクリプトを使用するには、特定のプールでホストされている 1 つの統合コミュニケーション (UC) クライアントの SIP アドレスと資格情報が必要です。
+    
+### <a name="to-test-access-numbers-for-a-specific-pool"></a>特定のプールのアクセス番号をテストするには
+
+1. コンピューターに RTCUniversalServerAdmins グループのメンバーとしてログオンするか、Cs-ServerAdministrator または CsAdministrator 役割のメンバーとしてログオンします。
+    
+2. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
+    
+3. コマンド プロンプトで次のコマンドを実行します。
+    
+  ```
+  $credentials = Get-Credential
+   User name:  testuser1@contoso.com
+   Password:  ********
+Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
+
+  ```
+
+    結果レポートに、コマンドの成否と特定の診断情報が表示されます。 -フラグの詳細についてはどのように多くのアクセス番号が見つかりませんでしたし、それらについての詳細の詳細を提供します。
+    
+詳細については、[テスト CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps)を参照してください。
+  
+

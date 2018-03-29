@@ -1,0 +1,51 @@
+---
+title: Skype for Business Server 2015 に対する Exchange ストレージとの統合の構成
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.date: 3/28/2016
+ms.audience: ITPro
+ms.topic: get-started-article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 8f48b87f-a57f-4ed8-8c79-5c75b316b696
+description: '概要: ビジネス サーバー 2015 の Skype での Exchange ストレージとの統合を構成する方法については、このトピックを読みます。'
+ms.openlocfilehash: 2d814bb297999062aaf93160286031afec51c3a9
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 03/28/2018
+---
+# <a name="configure-integration-with-exchange-storage-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 に対する Exchange ストレージとの統合の構成
+ 
+**の概要:**ビジネス サーバー 2015 の Skype での Exchange ストレージとの統合を構成する方法については、このトピックを参照してください。
+  
+配置内のすべてのユーザーの Microsoft Exchange の統合を使用する場合、ユーザーのアーカイブ ・ ポリシーをビジネス サーバー用 Skype を構成する必要はありません。 代わりに、インプレース保持に自分のメールボックスに、exchange の置かれているユーザー用にアーカイブをサポートするための Exchange インプレース保持ポリシーを構成します。 Exchange ストレージ統合を構成する前に、[ビジネス サーバー 2015 の Skype でアーカイブするための計画](../../plan-your-deployment/archiving/archiving.md)を読みます。 Exchange インプレース保持ポリシーの詳細については、Exchange 製品のマニュアルを参照してください。 
+  
+## <a name="configure-integration-with-microsoft-exchange-storage"></a>Microsoft Exchange ストレージ統合を構成します。
+
+1. CsArchivingAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
+    
+2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
+    
+3. 左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**アーカイブ構成**] をクリックします。
+    
+4. アーカイブ構成の一覧から、適切なグローバル構成、サイト構成、またはプール構成の名前をクリックし、[**編集**]、[**詳細の表示**] の順にクリックし、次の操作を実行します。
+    
+  - Exchange ストレージとの統合を有効にするには、 **Microsoft Exchange の統合**] チェック ボックスを選択します。
+    
+  - Exchange ストレージとの統合を無効にするには、 **Microsoft Exchange の統合**] チェック ボックスをオフにします。
+    
+5. [**確定**] をクリックします。
+    
+## <a name="when-skype-for-business-server-and-microsoft-exchange-are-deployed-in-different-forests"></a>Business Server と Microsoft Exchange の Skype が別々 のフォレストに配置されるとき
+
+Microsoft Exchange の統合を使用するビジネス サーバーの Skype と同じフォレストに Microsoft Exchange Server が展開されない場合は、次の Exchange の Active Directory 属性がフォレストに同期されていることを確認してください、Skype のビジネス サーバーを展開します。
+  
+- msExchUserHoldPolicies
+    
+- proxyAddresses
+    
+これは複数値の属性です。この属性を同期するときは、値を置き換えるのではなく値をマージして、既存の値が失われないようにする必要があります。
+  
+

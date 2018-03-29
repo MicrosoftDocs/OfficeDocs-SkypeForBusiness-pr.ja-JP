@@ -1,0 +1,75 @@
+---
+title: 削除 CcLegacyServerCertificate
+ms.author: crowe
+author: CarolynRowe
+manager: serdars
+ms.date: 6/22/2017
+ms.audience: ITPro
+ms.topic: conceptual
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: ff21cecb-5035-48fd-9705-11ea81ce7df6
+description: Remove-CcLegacyServerCertificate コマンドレットは、Renew-CcCACertificate または Renew CcServerCertificate コマンドレットの実行後に、中央管理ストア、仲介サーバーおよびエッジ サーバー上にあるレガシー サーバーの証明書を削除します。
+ms.openlocfilehash: f23a753df1a5c9f81b81bc0f1d7d33c01020b489
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 03/28/2018
+---
+# <a name="remove-cclegacyservercertificate"></a>削除 CcLegacyServerCertificate
+ 
+Remove-CcLegacyServerCertificate コマンドレットは、Renew-CcCACertificate または Renew CcServerCertificate コマンドレットの実行後に、中央管理ストア、仲介サーバーおよびエッジ サーバー上にあるレガシー サーバーの証明書を削除します。
+  
+```
+Remove-CcLegacyServerCertificate [[-Roles] <array> {Cms | MS | Edge}] 
+```
+
+## <a name="examples"></a>例
+<a name="Examples"> </a>
+
+### <a name="example-1"></a>例 1
+
+次の例では、中央管理ストア、仲介サーバーおよびエッジ サーバーに対して発行された証明書を更新した後にそれらのレガシー証明書を削除します。
+  
+```
+Remove-CcLegacyServerCertificate
+```
+
+### <a name="example-2"></a>例 2
+
+次の例では、仲介サーバーおよびエッジ サーバーに対して発行された証明書を更新した後にそれらの証明書を削除します。 
+  
+```
+Remove-CcLegacyServerCertificate -Roles @("MS", "Edge") 
+
+```
+
+## <a name="parameters"></a>パラメーター
+<a name="Examples"> </a>
+
+|**パラメーター**|**必須**|**タイプ**|**説明**|
+|:-----|:-----|:-----|:-----|
+| 役割 <br/> |省略可能  <br/> |System.Array  <br/> | Cloud Connector サーバーの役割のアレイ。 <br/> |
+   
+## <a name="input-types"></a>入力の種類
+<a name="InputTypes"> </a>
+
+なし。Remove-CcLegacyServerCertificate コマンドレットはパイプライン入力を受け入れません。
+  
+## <a name="return-types"></a>戻り値の種類
+<a name="ReturnTypes"> </a>
+
+なし
+  
+## <a name="see-also"></a>関連項目
+<a name="ReturnTypes"> </a>
+
+[更新 CcServerCertificate](renew-ccservercertificate.md)
+  
+[リセット CcCACertificate](reset-cccacertificate.md)
+  
+[更新 CcCACertificate](renew-cccacertificate.md)
+  
+[更新 CcCACertificate](update-cccacertificate.md)
+  
+
