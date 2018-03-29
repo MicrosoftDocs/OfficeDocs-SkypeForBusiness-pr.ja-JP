@@ -1,0 +1,74 @@
+---
+title: Skype for Business Server 2015 でのインスタント メッセージングとプレゼンスの計画
+ms.author: kenwith
+author: kenwith
+manager: serdars
+ms.date: 6/28/2016
+ms.audience: ITPro
+ms.topic: conceptual
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
+description: '概要: ビジネス サーバー 2015 にインスタント メッセージングとプレゼンスの Skype を計画する方法を説明します。'
+ms.openlocfilehash: 1934f0308cda59b52073c47d1652ad2286bd6977
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 03/28/2018
+---
+# <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server-2015"></a><span data-ttu-id="65071-103">Skype for Business Server 2015 でのインスタント メッセージングとプレゼンスの計画</span><span class="sxs-lookup"><span data-stu-id="65071-103">Plan for instant messaging and presence in Skype for Business Server 2015</span></span>
+ 
+<span data-ttu-id="65071-104">**概要:** Skype for Business Server 2015 でインスタント メッセージングとプレゼンスを計画する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="65071-104">**Summary:** Learn how to plan for instant messaging and presence in Skype for Business Server 2015.</span></span>
+  
+<span data-ttu-id="65071-105">Skype for Business Server 2015 でのインスタント メッセージングとプレゼンスを計画します。</span><span class="sxs-lookup"><span data-stu-id="65071-105">Plan for instant messaging and presence in Skype for Business Server 2015.</span></span> <span data-ttu-id="65071-106">有効にするか、オフライン インスタント メッセージング (IM)、無効にするなど、特定の展開オプションの詳細については、[インスタント メッセージングを展開しビジネス サーバー 2015 の Skype のプレゼンス](../deploy/im-and-presence/im-and-presence.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="65071-106">To learn about specific deployment options, such as enabling or disabling Offline Instant Messaging (IM), see [Deploy instant messaging and presence in Skype for Business Server 2015](../deploy/im-and-presence/im-and-presence.md).</span></span>
+  
+## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server-2015"></a><span data-ttu-id="65071-107">Skype for Business Server 2015 でのインスタント メッセージングとプレゼンスの計画</span><span class="sxs-lookup"><span data-stu-id="65071-107">Plan for instant messaging and presence in Skype for Business Server 2015</span></span>
+
+<span data-ttu-id="65071-108">フロント エンド サーバーを提供インスタント メッセージング (IM) とプレゼンスなどのビジネスのサーバーの機能のための Skype のコア ビジネス サーバー配置のすべての Skype に含まれています。</span><span class="sxs-lookup"><span data-stu-id="65071-108">Front End Servers provide core Skype for Business Server functionality such as instant messaging (IM) and presence and are included in every Skype for Business Server deployment.</span></span> <span data-ttu-id="65071-109">使用可能な 2 つのエディションがあります: 大規模な組織に主に設計されていますが、ビジネス サーバー Enterprise Edition の Skype と Skype ビジネス Server Standard Edition は、主に小規模な組織であるより小さいかどうかのハードウェアへの投資の完全な高可用性オプションを必要としません。</span><span class="sxs-lookup"><span data-stu-id="65071-109">There are two editions available: Skype for Business Server Enterprise Edition, which is designed primarily for larger organizations, and Skype for Business Server Standard Edition, which is designed primarily for smaller organizations which want a smaller hardware investment and do not require full high availability options.</span></span> <span data-ttu-id="65071-110">両方のエディションでは、IM、プレゼンス、会議、およびエンタープライズ VoIP を含むビジネス サーバー ワークロードのすべての Skype をサポートします。</span><span class="sxs-lookup"><span data-stu-id="65071-110">Both editions support all Skype for Business Server workloads including IM, presence, conferencing, and Enterprise Voice.</span></span>
+  
+<span data-ttu-id="65071-111">インスタント メッセージング (IM) を使用すると、ユーザーは各自のコンピューターでテキスト ベースのメッセージを使用して、リアルタイムで相互通信を行うことができます。</span><span class="sxs-lookup"><span data-stu-id="65071-111">Instant messaging (IM) enables your users to communicate with each other in real time on their computers using text-based messages.</span></span> <span data-ttu-id="65071-112">2 パーティとマルチパーティの両方の IM セッションがサポートされています。</span><span class="sxs-lookup"><span data-stu-id="65071-112">Both two-party and multiparty IM sessions are supported.</span></span> <span data-ttu-id="65071-113">2 パーティの IM 会話の参加者は、3 番目の参加者をいつでも会話に追加できます。</span><span class="sxs-lookup"><span data-stu-id="65071-113">A participant in a two-party IM conversation can add a third participant to the conversation at any time.</span></span> <span data-ttu-id="65071-114">この際には、会議機能をサポートするように会話ウィンドウが変更されます。</span><span class="sxs-lookup"><span data-stu-id="65071-114">When this happens, the Conversation window changes to support conferencing features.</span></span>
+  
+<span data-ttu-id="65071-115">プレゼンスは、ネットワーク上の他のユーザーの状態に関する情報をユーザーに提供します。</span><span class="sxs-lookup"><span data-stu-id="65071-115">Presence provides information to users about the status of others on the network.</span></span> <span data-ttu-id="65071-116">ユーザーのプレゼンス状態は、他のユーザーかどうかする必要がありますしようとするユーザーに連絡し、インスタント メッセージング、電話、または電子メールを使用するかどうかを決定に役立つ情報を提供します。</span><span class="sxs-lookup"><span data-stu-id="65071-116">A user's presence status provides information to help others decide whether they should try to contact the user and whether to use instant messaging, phone, or email.</span></span> <span data-ttu-id="65071-117">プレゼンスにより、可能な場合にはすぐにやりとりできますが、他にも、ユーザーが会議中であるかどうかや、外出のために応答できない状況なのかに関する情報も提供されます。</span><span class="sxs-lookup"><span data-stu-id="65071-117">Presence encourages instant communication when possible, but it also provides information about whether a user is in a meeting or out of the office, indicating that instant communication is not possible.</span></span> <span data-ttu-id="65071-118">プレゼンス状態は、Skype for Business およびその他のプレゼンス対応のアプリケーション (Microsoft Outlook のメッセージングおよびコラボレーション クライアント、Microsoft SharePoint テクノロジ、Microsoft Office など) で、プレゼンス アイコンとして表示されます。</span><span class="sxs-lookup"><span data-stu-id="65071-118">This presence status is displayed as a presence icon in Skype for Business and other presence-aware applications, including the Microsoft Outlook messaging and collaboration client, Microsoft SharePoint technologies, and Microsoft Office.</span></span> <span data-ttu-id="65071-119">プレゼンス アイコンは、ユーザーの現在の可用性と通信意思を表します。</span><span class="sxs-lookup"><span data-stu-id="65071-119">The presence icon represents the user's current availability and willingness to communicate.</span></span> 
+  
+### <a name="technical-requirements"></a><span data-ttu-id="65071-120">技術要件</span><span class="sxs-lookup"><span data-stu-id="65071-120">Technical requirements</span></span>
+
+<span data-ttu-id="65071-121">インスタント メッセージング (IM) とプレゼンスは、常に Enterprise Edition フロントエンド プールと Standard Edition サーバーで実行されます。</span><span class="sxs-lookup"><span data-stu-id="65071-121">Instant messaging (IM) and presence always run on Enterprise Edition Front End pools and Standard Edition servers.</span></span> <span data-ttu-id="65071-122">サポートされているハードウェア、オペレーティング システム、およびデータベース ソフトウェアについては、 [Skype をビジネスのためのインフラストラクチャ](https://technet.microsoft.com/en-us/office/dn947483)と[ビジネス環境に、Skype の要件](requirements-for-your-environment/requirements-for-your-environment.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="65071-122">For information on supported hardware, operating systems, and database software, see [Infrastructure for Skype for Business](https://technet.microsoft.com/en-us/office/dn947483) and [Requirements for your Skype for Business environment](requirements-for-your-environment/requirements-for-your-environment.md).</span></span>
+  
+### <a name="enabling-communication-with-external-users"></a><span data-ttu-id="65071-123">外部ユーザーとの通信を有効にする</span><span class="sxs-lookup"><span data-stu-id="65071-123">Enabling communication with external users</span></span>
+
+<span data-ttu-id="65071-p106">Skype for Business Server への投資による収益性は、ユーザーが外部ユーザーと通信できるようにすることで大幅に高められます。外部ユーザーには次のユーザーが含まれます。</span><span class="sxs-lookup"><span data-stu-id="65071-p106">You can greatly increase the benefits of your investment in Skype for Business Server by enabling your users to communicate with external users. External users can include:</span></span>
+  
+- <span data-ttu-id="65071-126">リモート ユーザー: 組織のユーザー、あなたはファイアウォールの外側で作業し、ビジネス サーバー デバイスをラップトップ コンピューターやその他の Skype を使用しています。</span><span class="sxs-lookup"><span data-stu-id="65071-126">Remote users: Your organization's own users, when they are working outside your firewalls and are using their laptops or other Skype for Business Server devices.</span></span>
+    
+- <span data-ttu-id="65071-127">フェデレーション ユーザー: ユーザーも Skype をビジネスのサーバーの実行を使用する企業からです。</span><span class="sxs-lookup"><span data-stu-id="65071-127">Federated users: Users from companies you work with who also run Skype for Business Server.</span></span> <span data-ttu-id="65071-128">自社ユーザーがこうしたユーザーに容易にコンタクトできるようにするには、これらの企業とフェデレーション関係を作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="65071-128">To enable your users to easily contact these users, you create federated relationships with these companies.</span></span> 
+    
+- <span data-ttu-id="65071-129">Skype ユーザー:   Skype for Business ユーザーは、Skype で IM、音声、ビデオを使用して数億人のユーザーと連絡を取ることができます。</span><span class="sxs-lookup"><span data-stu-id="65071-129">Skype users: Skype for Business users can reach the hundreds of millions of users on Skype with IM, voice and video.</span></span>
+    
+> [!NOTE]
+> <span data-ttu-id="65071-130">AOL、Yahoo、Google Talk はサポートされなくなりました。</span><span class="sxs-lookup"><span data-stu-id="65071-130">AOL, Yahoo, and Google Talk are no longer supported.</span></span> 
+  
+> [!NOTE]
+> <span data-ttu-id="65071-131">これらのシナリオのいくつか、またはすべてを有効にするには、Skype for Business Server の展開と外部ユーザーの間でセキュリティで保護された通信を有効にできるようにエッジ サーバーを展開する必要があります。</span><span class="sxs-lookup"><span data-stu-id="65071-131">To enable any or all of these scenarios, you need to deploy an Edge Server to help enable secure communications between your Skype for Business Server deployment and external users.</span></span> <span data-ttu-id="65071-132">組織のリモート ユーザーとフェデレーション組織のユーザーは、互いの存在を確認し、IM を使用して通信できるようなります。</span><span class="sxs-lookup"><span data-stu-id="65071-132">Your organization's remote users and users at federated organizations will be able to see each other's presence and communicate using IM.</span></span> 
+  
+> [!NOTE]
+> <span data-ttu-id="65071-133">XMPP (eXtensible Messaging and Presence Protocol) は、Unified Capabilities Collaboration Platform (UCCP) Joint Interoperability Test Command (JITC) 証明書シナリオでのみサポートされます。</span><span class="sxs-lookup"><span data-stu-id="65071-133">Extensible Messaging and Presence Protocol (XMPP) is only supported for Unified Capabilities Collaboration Platform (UCCP) Joint Interoperability Test Command (JITC) certification scenarios.</span></span> 
+  
+### <a name="archiving-im-content"></a><span data-ttu-id="65071-134">IM コンテンツをアーカイブする</span><span class="sxs-lookup"><span data-stu-id="65071-134">Archiving IM content</span></span>
+
+<span data-ttu-id="65071-p109">Skype for Business Server には、組織で法令上の規制に従う必要がある場合に使用できる機能があります。アーカイブを使用すると、組織内のすべてのユーザーまたは指定する特定のユーザーの IM メッセージの内容をアーカイブすることができます。詳細については、「計画」のドキュメントの「Skype for Business Server 2015 でのアーカイブの計画 (Planning for Archiving in Skype for Business Server 2015)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="65071-p109">Skype for Business Server provides features you can use if your organization must follow compliance regulations. You can use Archiving to archive the content of IM messages for all users in your organization or for only certain users that you specify. For details, see Planning for Archiving in Skype for Business Server 2015 in the Planning documentation.</span></span> 
+  
+<span data-ttu-id="65071-138">Microsoft Exchange Server 2013 も展開している場合は、Exchange データのアーカイブと Skype for Business Server データのアーカイブを統合して、1 つのツールを使用して両種類のアーカイブ データを検索することができます。</span><span class="sxs-lookup"><span data-stu-id="65071-138">If you also have Microsoft Exchange Server 2013 deployed, you can integrate the archiving of Exchange data with the archiving of Skype for Business Server data, and use a single tool to search both types of archived data.</span></span> <span data-ttu-id="65071-139">詳細については、Microsoft Exchange Server 2013 のアーカイブを使用するのには、ビジネス サーバー 2015 の Skype を設定するを参照してください。</span><span class="sxs-lookup"><span data-stu-id="65071-139">For more information, see Configuring Skype for Business Server 2015 to use Microsoft Exchange Server 2013 archiving.</span></span>
+  
+### <a name="topologies-and-components"></a><span data-ttu-id="65071-140">トポロジとコンポーネント</span><span class="sxs-lookup"><span data-stu-id="65071-140">Topologies and components</span></span>
+
+<span data-ttu-id="65071-141">インスタント メッセージング (IM) とプレゼンスに必要な唯一のコンポーネントは次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="65071-141">The only components required for instant messaging (IM) and presence are:</span></span>
+  
+- <span data-ttu-id="65071-142">(プールと呼ばれます)、組織のフロント エンド サーバーまたは Standard Edition サーバーです。</span><span class="sxs-lookup"><span data-stu-id="65071-142">Your organization's Front End servers (known as a pool) or a Standard Edition server.</span></span> <span data-ttu-id="65071-143">これらのサーバーで、IM およびプレゼンス機能は常にオンになっています。</span><span class="sxs-lookup"><span data-stu-id="65071-143">IM and presence capabilities are always enabled on these servers.</span></span> <span data-ttu-id="65071-144">フロント エンド プール トポロジと管理の詳細については、[フロント エンド プールの高可用性と管理](high-availability-and-disaster-recovery/high-availability.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="65071-144">For more information on Front End pool topologies and management, see [Front End Pool high availability and management](high-availability-and-disaster-recovery/high-availability.md).</span></span>
+    
+- <span data-ttu-id="65071-145">ロード バランサー (Enterprise Edition フロントエンド プールがある場合)</span><span class="sxs-lookup"><span data-stu-id="65071-145">A load balancer, if you have an Enterprise Edition Front End pool.</span></span>
+    
+### <a name="supported-collocation"></a><span data-ttu-id="65071-146">サポートされる併置</span><span class="sxs-lookup"><span data-stu-id="65071-146">Supported collocation</span></span>
+
+<span data-ttu-id="65071-147">併置の定義は、複数の役割がインストールされた単一のサーバーまたはサーバー グループが存在することです。</span><span class="sxs-lookup"><span data-stu-id="65071-147">Collocation is defined as having a single server, or group of servers, with multiple roles installed.</span></span> <span data-ttu-id="65071-148">コロケーションの詳細については、[ビジネス サーバー 2015 の Skype のトポロジーの基本事項](topology-basics/topology-basics.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="65071-148">For details on collocation, see [Topology Basics for Skype for Business Server 2015](topology-basics/topology-basics.md).</span></span> 
+  
+

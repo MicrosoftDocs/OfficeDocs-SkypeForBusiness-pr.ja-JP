@@ -1,0 +1,76 @@
+---
+title: Skype for Business Server 2015 での場所の判断に使用するネットワーク要素の定義
+ms.author: crowe
+author: CarolynRowe
+manager: serdars
+ms.date: 8/17/2015
+ms.audience: ITPro
+ms.topic: conceptual
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.collection: IT_Skype16
+ms.custom: Strat_SB_Admin
+ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
+description: 意思決定されるネットワーク ・ コンポーネントを計画するために必要なビジネス サーバーのエンタープライズ VoIP の Skype で ~ 9-1-1 の配置の場所に呼び出し元のマップに使用します。
+ms.openlocfilehash: 2d371b2abfd8e3c871f0d9f49409d2b8169268c2
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 03/28/2018
+---
+# <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server-2015"></a><span data-ttu-id="3e9ff-103">Skype for Business Server 2015 での場所の判断に使用するネットワーク要素の定義</span><span class="sxs-lookup"><span data-stu-id="3e9ff-103">Define the network elements used to determine location in Skype for Business Server 2015</span></span>
+ 
+<span data-ttu-id="3e9ff-104">意思決定されるネットワーク ・ コンポーネントを計画するために必要なビジネス サーバーのエンタープライズ VoIP の Skype で ~ 9-1-1 の配置の場所に呼び出し元のマップに使用します。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-104">Decisions necessary for planning which network components you will use to map callers to locations for E9-1-1 deployment in Skype for Business Server Enterprise Voice.</span></span>
+  
+<span data-ttu-id="3e9ff-105">最初ネットワークを決定する必要がある場合は、Skype は、クライアントの自動位置検出をサポートするためにビジネスのサーバー インフラストラクチャのセットアップは、要素を使用して呼び出し元の場所にマップすることができます。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-105">If you are setting up your Skype for Business Server infrastructure to support automatic client location detection, you first need to decide which network elements you are going to use to map callers to locations.</span></span> <span data-ttu-id="3e9ff-106">ビジネス サーバーの Skype は、場所を使用した次のレイヤー 2 およびレイヤー 3 のネットワーク要素を関連付けることができます。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-106">In Skype for Business Server, you can associate the following Layer 2 and Layer 3 network elements with locations:</span></span>
+  
+- <span data-ttu-id="3e9ff-107">ワイヤレス アクセス ポイント (WAP) の BSSID (Basic Service Set Identification) アドレス (レイヤー 2)</span><span class="sxs-lookup"><span data-stu-id="3e9ff-107">Wireless access point (WAP) Basic Service Set Identification (BSSID) addresses (Layer 2)</span></span>
+    
+- <span data-ttu-id="3e9ff-108">LLDP スイッチ ポート (レイヤー 2)</span><span class="sxs-lookup"><span data-stu-id="3e9ff-108">LLDP switch port (Layer 2)</span></span>
+    
+- <span data-ttu-id="3e9ff-109">LLDP スイッチ シャーシ ID (レイヤー 2)</span><span class="sxs-lookup"><span data-stu-id="3e9ff-109">LLDP switch chassis IDs (Layer 2)</span></span>
+    
+- <span data-ttu-id="3e9ff-110">IP サブネット (レイヤー 3)</span><span class="sxs-lookup"><span data-stu-id="3e9ff-110">IP subnets (Layer 3)</span></span>
+    
+- <span data-ttu-id="3e9ff-111">クライアント MAC アドレス (レイヤー 2)</span><span class="sxs-lookup"><span data-stu-id="3e9ff-111">Client MAC addresses (Layer 2)</span></span>
+    
+<span data-ttu-id="3e9ff-112">これらのネットワーク要素は、優先順位の高い順に記されています。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-112">The network elements are listed in order of precedence.</span></span> <span data-ttu-id="3e9ff-113">クライアントを検索できるようにするには、複数のネットワーク要素を使用して、Skype のビジネス サーバーはどのメカニズムを使用するのにを決定するのにの優先順位を使用します。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-113">If a client can be located by using more than one network element, Skype for Business Server uses the order of precedence to determine which mechanism to use.</span></span> 
+  
+<span data-ttu-id="3e9ff-114">以下のセクションでは、各ネットワーク要素を使用する方法の詳細を説明します。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-114">The following sections provide more details for using each network element.</span></span>
+  
+> [!IMPORTANT]
+> <span data-ttu-id="3e9ff-115">ネットワーク要素を使用して、呼び出し元の場所にマップするのには、ことが最も重要であることを最新の位置情報サービスのデータベースです。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-115">When you use network elements to map callers to locations, it is of utmost importance that you keep the Location Information service database up-to-date.</span></span> <span data-ttu-id="3e9ff-116">ネットワーク要素を追加または変更する場合は (WAP の追加など)、場所データベースの古いエントリを削除して、新しいエントリを追加する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-116">For example, if you add or change a network element, such as adding a WAP, you must delete the old entry and add the new entry in the location database.</span></span> 
+  
+## <a name="wireless-access-point"></a><span data-ttu-id="3e9ff-117">ワイヤレス アクセス ポイント</span><span class="sxs-lookup"><span data-stu-id="3e9ff-117">Wireless Access Point</span></span>
+
+<span data-ttu-id="3e9ff-118">クライアントがワイヤレスでネットワークに接続する場合、場所の要求では WAP の BSSID アドレスを使用してその場所を特定します。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-118">When a client connects to the network wirelessly, the location request uses the BSSID address of the WAP to determine its location.</span></span> <span data-ttu-id="3e9ff-119">クライアントを移動すると、示されている WAP に最も近いもの、できない場合があります、その建物の異なるフロアにある WAP を選択することも。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-119">If the client is roaming, the WAP indicated may not be the closest one, and it's even possible to pick up a WAP that is on a different floor of the building.</span></span> <span data-ttu-id="3e9ff-120">場所が概算であることを示す、 **[近く]** 、または**[閉じる]**の記述子を使用して場所の値を先頭に追加できます。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-120">To indicate that the location is approximate, you can prepend the location value with a **[Near]** or **[Closeto]** descriptor.</span></span>
+  
+<span data-ttu-id="3e9ff-121">場所に関するこの方法では、各 WAP の BSSID が静的なものであることを前提としています。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-121">This location method assumes that the BSSID of each WAP is static.</span></span> <span data-ttu-id="3e9ff-122">ただし、WAP の製造元に問い合わせては、動的に割り当てられた Bssid を使用する場合 WAP から取得される BSSID を変更 (これは、WAP の構成の変更の発生後)、およびワイヤレス クライアントのままになって、場所を受け取っていない場合。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-122">However, if your WAP vendor uses dynamically-assigned BSSIDs, the BSSID that is obtained from a WAP could change (this can happen following a WAP configuration change), and wireless clients could be left in a situation where they don't receive a location.</span></span> <span data-ttu-id="3e9ff-123">この可能性を防ぐためには、各 WAP で使用される、使用可能なすべての BSSID アドレスの ERLs に場所情報サービス データベースを設定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-123">To prevent this possibility, you need to populate the Location Information service database with ERLs for all possible BSSID addresses used by each WAP.</span></span> 
+  
+## <a name="lldp-ports-and-switches"></a><span data-ttu-id="3e9ff-124">LLDP ポートおよびスイッチ</span><span class="sxs-lookup"><span data-stu-id="3e9ff-124">LLDP Ports and Switches</span></span>
+
+<span data-ttu-id="3e9ff-p106">LLDP-MED (Link Layer Discovery Protocol-Media Endpoint Discover) をサポートしている管理されたイーサネット スイッチは、自らの ID とポート情報を LLDP-MED に準拠したクライアントにアドバタイズできます。さらにこうしたクライアントは、デバイスの場所を提供するために場所データベースに対して照会できます。ERL はスイッチ シャーシ ID に対してのみ関連付けることも、ポート レベルにまで詳細に記述することもできます。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-p106">Managed Ethernet switches that support Link Layer Discovery Protocol-Media Endpoint Discover (LLDP-MED) can advertise their identity and port information to LLDP-MED compatible clients, which then can be queried against the location database to provide the location of the device. You can associate ERLs solely on the switch chassis ID, or you can map them down to the port level.</span></span>
+  
+> [!NOTE]
+> <span data-ttu-id="3e9ff-127">ビジネス サーバーの Skype では、LLDP-(中) を使用して Windows 8 で実行されているビジネス クライアント用の Lync の電話のエディションのデバイスと Skype のだけ場所を決定するためサポートしています。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-127">Skype for Business Server supports using LLDP-MED for determining locations only of Lync Phone Edition devices and Skype for Business clients running on Windows 8.</span></span> <span data-ttu-id="3e9ff-128">スイッチ ・ レベルのレイヤー 2 のデータを使用してビジネス サーバーのクライアントの他の有線の PC ベースの Skype の場所を確認する場合は、クライアントの MAC アドレスのメソッドを使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-128">If you need to use switch-level Layer 2 data to determine the location of other wired PC-based Skype for Business Server clients, you need to use the client MAC address method.</span></span> 
+  
+## <a name="subnet"></a><span data-ttu-id="3e9ff-129">サブネット</span><span class="sxs-lookup"><span data-stu-id="3e9ff-129">Subnet</span></span>
+
+<span data-ttu-id="3e9ff-130">レイヤー 3 の IP サブネットは、クライアントの場所を自動的に検出するために使用できるビジネス サーバーのクライアントのすべての Skype でサポートされているメカニズムを提供します。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-130">Layer 3 IP subnets provide a mechanism supported by all Skype for Business Server clients that can be used to automatically detect client location.</span></span> <span data-ttu-id="3e9ff-131">IP サブネットの使用は有線クライアントを構成および管理する最も簡単な場所特定の方法です。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-131">Using IP subnets is the easiest location method to configure and manage wired clients.</span></span> <span data-ttu-id="3e9ff-132">ただし、サブネットの使用を決定する前に、以下の質問を参考にして、サブネットの場所の特異性がクライアントを正確に特定するうえで十分に細かいかどうかを判断してください。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-132">Before you decide to use subnets, however, use the following questions to help determine if the location specificity of the subnet is sufficiently fine to accurately locate a client:</span></span>
+  
+- <span data-ttu-id="3e9ff-133">1 つ以上のクライアント サブネットで複数の階をカバーしていますか?</span><span class="sxs-lookup"><span data-stu-id="3e9ff-133">Do one or more client subnets cover multiple floors?</span></span>
+    
+- <span data-ttu-id="3e9ff-134">1 つ以上のサブネットで複数の建物をカバーしていますか?</span><span class="sxs-lookup"><span data-stu-id="3e9ff-134">Do one or more subnets cover more than one building?</span></span>
+    
+- <span data-ttu-id="3e9ff-135">どれほどのフロア領域が各クライアント サブネットでカバーされていますか?</span><span class="sxs-lookup"><span data-stu-id="3e9ff-135">How much floor space is covered by each client subnet?</span></span>
+    
+<span data-ttu-id="3e9ff-p109">サブネットでカバーする領域が広すぎる場合は、別のメカニズムを使用したクライアントの特定が必要になることがあります。ただし、たとえ実用的であったとしても、サードパーティによる SNMP ベースのソリューションの費用と複雑さを受け入れるよりは、ERL の場所の特異性に関する要件を満たすように顧客が自らの IP サブネット処理を再編成することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-p109">If the subnet covers too broad an area, you may need to use another mechanism to locate clients. However, if at all practical, we recommend that customers reorganize their IP subnetting to meet the ERL location specificity requirements rather than incurring the cost and complexity of third-party SNMP-based solutions.</span></span>
+  
+## <a name="client-mac-address"></a><span data-ttu-id="3e9ff-138">クライアント MAC アドレス</span><span class="sxs-lookup"><span data-stu-id="3e9ff-138">Client MAC Address</span></span>
+
+<span data-ttu-id="3e9ff-139">呼び出し元を検索するのにはクライアント コンピューターの MAC アドレスを使用する必要があります管理されたイーサネット スイッチ、およびビジネスのクライアントまたは接続されている () の Skype の MAC アドレスを検出することができるサードパーティ製の SNMP ソリューションを展開する必要がありますこれらのスイッチです。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-139">To use a client computer's MAC address to locate a caller, you need managed Ethernet switches, and you must deploy a third-party SNMP solution that can discover the MAC addresses of Skype for Business clients connected to (or through) those switches.</span></span> <span data-ttu-id="3e9ff-140">こうした SNMP ソリューションは、管理されたスイッチの継続的なポーリングによって各ポートに接続されているエンドポイント MAC アドレスの現在のマッピングを取得し、対応するポート ID を取得します。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-140">The SNMP solution continually polls the managed switches to get the current mappings of the endpoint MAC addresses connected to each port and obtains the corresponding port IDs.</span></span> <span data-ttu-id="3e9ff-141">ビジネス クライアントの要求を場所情報サービスの Skype、時に場所情報サービスはクライアントの MAC アドレスを使用してサード パーティ製アプリケーションに対してクエリを実行し、対応するスイッチの IP アドレスとポートの Id を返します。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-141">During a Skype for Business client's request to the Location Information service, the Location Information service queries the third-party application by using the client's MAC address, and then returns any matching switch IP addresses and port IDs.</span></span> <span data-ttu-id="3e9ff-142">場所情報サービスは、発行済みのレイヤー 2 wiremap の一致するレコードのクエリを実行するのにはこの情報を使用してし、場所をクライアントに返します。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-142">The Location Information service uses this information to query its published Layer 2 wiremap for a matching record and returns the location to the client.</span></span> <span data-ttu-id="3e9ff-143">このオプションを使用する場合は、SNMP アプリケーションと公開されている場所データベースのレコードの間でスイッチ ポート ID の整合が取れていることを確認してください。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-143">If you use this option, make sure that the switch port identifiers are consistent between the SNMP application and the published location database records.</span></span>
+  
+> [!NOTE]
+> <span data-ttu-id="3e9ff-144">いくつかサードパーティ製の SNMP ソリューションで使用できるアンマネージ アクセス スイッチです。場合は、Skype のビジネスのクライアントを実行するスイッチでは、管理対象ではありませんが、配布の管理スイッチにアップリンクには、管理対象のスイッチ レポートを返すことを SNMP アプリケーション アクセス スイッチに接続されているクライアントの MAC アドレスです。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-144">Some third-party SNMP solutions can support unmanaged access switches; if the switch that services the Skype for Business client is unmanaged but has an uplink to a managed distribution switch, the managed switch can report back to the SNMP application the MAC addresses of the clients connected to the access switch.</span></span> <span data-ttu-id="3e9ff-145">この情報は、ユーザーの場所を特定の位置情報サービスを使用できます。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-145">This information enables the Location Information service to identify the location of the user.</span></span> <span data-ttu-id="3e9ff-146">ただし、場所の特異性は、ポート レベルではなく、アクセス スイッチのシャーシのレベルでのみ使用可能なため、アンマネージ スイッチの全ポートに ERL は 1 つのみを代入することができます。</span><span class="sxs-lookup"><span data-stu-id="3e9ff-146">However, it is possible to assign only a single ERL to all ports on the unmanaged switch, so the location specificity is available only at the chassis level of the access switch, not the port level.</span></span> 
+  
+

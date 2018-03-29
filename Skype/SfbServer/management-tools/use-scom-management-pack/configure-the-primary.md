@@ -1,0 +1,113 @@
+---
+title: プライマリ管理サーバーの構成
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.date: 2/1/2018
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.collection: IT_Skype16
+ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
+description: '概要: は、プライマリ管理サーバーを構成する、System Center Operations Manager をインストールして、Skype のビジネス サーバー 2015 の管理パックをインポートします。'
+ms.openlocfilehash: 6554ddc3fbe99ba70663b72794eb59dfc5d0d3e3
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 03/28/2018
+---
+# <a name="configure-the-primary-management-server"></a><span data-ttu-id="d0098-103">プライマリ管理サーバーの構成</span><span class="sxs-lookup"><span data-stu-id="d0098-103">Configure the Primary Management Server</span></span>
+ 
+<span data-ttu-id="d0098-104">**の概要:**プライマリ管理サーバーを構成して、System Center Operations Manager をインストール Skype のビジネス サーバー 2015 の管理パックをインポートします。</span><span class="sxs-lookup"><span data-stu-id="d0098-104">**Summary:** Configure your primary management server, install System Center Operations Manager, and import management packs for Skype for Business Server 2015.</span></span>
+  
+<span data-ttu-id="d0098-105">新しい状態監視の業務サーバー 2015 の Skype に含まれている機能を最大限に活用するには、プライマリ管理サーバーとして動作するコンピューターを指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="d0098-105">To take full advantage of the new health monitoring capabilities included in Skype for Business Server 2015, you must first designate a computer to act as your primary management server.</span></span> <span data-ttu-id="d0098-106">そのコンピューターにシステム センター操作マネージャーの 2012 SP1 または R2 またはシステム センターの Operations Manager 2007 R2 をインストールする必要があります。</span><span class="sxs-lookup"><span data-stu-id="d0098-106">You must then install System Center Operations Manager 2012 SP1 or R2 or System Center Operations Manager 2007 R2 on that computer.</span></span> <span data-ttu-id="d0098-107">さらに、まず、Operations Manager のバックエンド データベースとして機能する SQL Server のサポートされているバージョンをインストールする必要があります。</span><span class="sxs-lookup"><span data-stu-id="d0098-107">In addition, you must first install a supported version of SQL Server to function as your Operations Manager back-end database.</span></span>
+  
+<span data-ttu-id="d0098-108">System Center Operations Manager をインストールするときは、その製品のすべてのコンポーネントをインストールする必要があります。 など。</span><span class="sxs-lookup"><span data-stu-id="d0098-108">When you install System Center Operations Manager, you will need to install all the components of that product, including:</span></span>
+  
+- <span data-ttu-id="d0098-109">オペレーション データベース</span><span class="sxs-lookup"><span data-stu-id="d0098-109">Operational database</span></span>
+    
+- <span data-ttu-id="d0098-110">サーバー</span><span class="sxs-lookup"><span data-stu-id="d0098-110">Server</span></span>
+    
+- <span data-ttu-id="d0098-111">コンソール</span><span class="sxs-lookup"><span data-stu-id="d0098-111">Console</span></span>
+    
+- <span data-ttu-id="d0098-112">Windows PowerShell コマンドレット</span><span class="sxs-lookup"><span data-stu-id="d0098-112">Windows PowerShell cmdlets</span></span>
+    
+- <span data-ttu-id="d0098-113">Web コンソール</span><span class="sxs-lookup"><span data-stu-id="d0098-113">Web console</span></span>
+    
+- <span data-ttu-id="d0098-114">レポート</span><span class="sxs-lookup"><span data-stu-id="d0098-114">Reporting</span></span>
+    
+- <span data-ttu-id="d0098-115">データ ウェアハウス</span><span class="sxs-lookup"><span data-stu-id="d0098-115">Data warehouse</span></span>
+    
+> [!IMPORTANT]
+> <span data-ttu-id="d0098-116">「[Microsoft レポート ビューアー 2010 再頒布可能パッケージ](https://www.microsoft.com/en-us/download/details.aspx?id=6442)」では、System Center オペレーション マネージャー 2012 をインストールする前にインストールする必要があります。</span><span class="sxs-lookup"><span data-stu-id="d0098-116">The "[Microsoft Report Viewer 2010 Redistributable Package](https://www.microsoft.com/en-us/download/details.aspx?id=6442)" needs to be installed before you install System Center Operations Manager 2012.</span></span> 
+  
+<span data-ttu-id="d0098-117">これらの製品とインストールの詳細については、次のリンクを参照してください。</span><span class="sxs-lookup"><span data-stu-id="d0098-117">For details about these products and their installation, see the following links:</span></span>
+  
+- [<span data-ttu-id="d0098-118">System Center Operations Manager 2012</span><span class="sxs-lookup"><span data-stu-id="d0098-118">System Center Operations Manager 2012</span></span>](https://go.microsoft.com/fwlink/p/?linkid=257527)
+    
+- [<span data-ttu-id="d0098-119">System Center Operations Manager 2007</span><span class="sxs-lookup"><span data-stu-id="d0098-119">System Center Operations Manager 2007</span></span>](https://technet.microsoft.com/en-us/library/bb735860.aspx)
+    
+<span data-ttu-id="d0098-120">ビジネス サーバー配置の Skype あたり 1 つだけのルート管理サーバーを持つことができることに留意してください。</span><span class="sxs-lookup"><span data-stu-id="d0098-120">Keep in mind that you can have only one Root Management Server per Skype for Business Server deployment.</span></span>
+  
+## <a name="importing-the-skype-for-business-server-2015-management-packs"></a><span data-ttu-id="d0098-121">Skype for Business Server 2015 管理パックのインストール</span><span class="sxs-lookup"><span data-stu-id="d0098-121">Importing the Skype for Business Server 2015 Management Packs</span></span>
+
+<span data-ttu-id="d0098-122">管理パックをインストールすると、System Center Operations Manager の機能を拡張することができます-System Center Operations Manager の項目が決定を監視するソフトウェアがそれらの項目を監視する方法、およびアラートがトリガーされるようにする方法と報告します。</span><span class="sxs-lookup"><span data-stu-id="d0098-122">You can extend the capabilities of System Center Operations Manager by installing management packs—software that dictates which items System Center Operations Manager can monitor, how those items should be monitored, and how alerts should be triggered and reported.</span></span> <span data-ttu-id="d0098-123">ビジネス サーバー 2015 の Skype には、次の機能を提供する 2 つの System Center Operations Manager 管理パックが含まれています。</span><span class="sxs-lookup"><span data-stu-id="d0098-123">Skype for Business Server 2015 includes two System Center Operations Manager management packs that provide the following capabilities:</span></span>
+  
+- <span data-ttu-id="d0098-124">**コンポーネントとユーザーの管理パック**(Microsoft.LS.2015.Monitoring.ComponentAndUser.mp) は、ビジネスのサーバーのイベント ログに記録された、パフォーマンス カウンターが登録されている、または通話詳細記録 (Cdr) または高品質のエクスペリエンス (QoE) データベースに記録の問題は、Skype を追跡します。</span><span class="sxs-lookup"><span data-stu-id="d0098-124">**The Component and User Management Pack** (Microsoft.LS.2015.Monitoring.ComponentAndUser.mp) tracks Skype for Business Server issues recorded in event logs, registered by performance counters, or logged in the call detail records (CDRs) or the Quality of Experience (QoE) databases.</span></span> <span data-ttu-id="d0098-125">重大な問題は、System Center Operations Manager は即座に管理者に通知する電子メール、インスタント メッセージ、または SMS メッセージを構成できます。</span><span class="sxs-lookup"><span data-stu-id="d0098-125">For critical issues, System Center Operations Manager can be configured to immediately notify administrators through email, instant message, or SMS messaging.</span></span> <span data-ttu-id="d0098-126">(SMS、またはショート メッセージ サービスは 1 つのモバイル デバイスからのテキスト メッセージを送信するに使用されるテクノロジ)。</span><span class="sxs-lookup"><span data-stu-id="d0098-126">(SMS, or Short Message Service, is the technology used to send text messages from one mobile device to another.)</span></span>
+    
+    > [!NOTE]
+    >  <span data-ttu-id="d0098-127">Operations Manager 通知を構成する方法の詳細は、[通知の設定](http://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d0098-127">For details about configuring Operations Manager notification, see [Configuring Notification](http://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).</span></span> 
+  
+- <span data-ttu-id="d0098-128">**作業中の監視管理パック**(Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp) 積極的にテスト キー Skype ビジネス サーバーなどのコンポーネント、システムへのサインイン、インスタント メッセージを交換する、または公衆交換電話網 (PSTN の電話呼び出しを行う).</span><span class="sxs-lookup"><span data-stu-id="d0098-128">**The Active Monitoring Management Pack** (Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp) proactively tests key Skype for Business Server components, such as signing into to the system, exchanging instant messages, or making calls to a phone located on the public switched telephone network (PSTN).</span></span> <span data-ttu-id="d0098-129">ビジネス サーバー代理トランザクションのコマンドレットは、Skype を使用してこれらのテストが行われます。</span><span class="sxs-lookup"><span data-stu-id="d0098-129">These tests are conducted by using the Skype for Business Server synthetic transaction cmdlets.</span></span> <span data-ttu-id="d0098-130">たとえば、インスタント メッセージの 2 つのテスト ユーザー間での会話をシミュレートする**テスト CsIM**コマンドレットが使用されます。</span><span class="sxs-lookup"><span data-stu-id="d0098-130">For example, the **Test-CsIM** cmdlet is used to simulate an instant messaging conversation between a pair of test users.</span></span> <span data-ttu-id="d0098-131">このシミュレートされた会話が失敗した場合、アラートが生成されます。</span><span class="sxs-lookup"><span data-stu-id="d0098-131">If this simulated conversation fails, an alert is generated.</span></span>
+    
+<span data-ttu-id="d0098-p105">管理パックのインポートは、必要不可欠なステップです。管理パックをインポートしていない場合は、Operations Manager を使用して Skype for Business Server イベントを監視することや、Skype for Business Server 代理トランザクションを実行することができません。</span><span class="sxs-lookup"><span data-stu-id="d0098-p105">Importing the management packs is a crucial step. If the management packs are not imported, you will not be able to use Operations Manager to monitor Skype for Business Server events or run Skype for Business Server synthetic transactions.</span></span> 
+  
+<span data-ttu-id="d0098-p106">コンポーネントおよびユーザー管理パックは、Skype for Business Server 2015 のみを監視する目的で使用します。Skype for Business Server 2015 および Lync Server 2013 の両方がインストールされている共存シナリオを使用している場合は、Lync Server 2013 コンピューターで Lync Server 2013 管理パックを引き続き使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="d0098-p106">The Component and User Management Pack is used to monitor only Skype for Business Server 2015. If you are in a coexistence scenario where both Skype for Business Server 2015 and Lync Server 2013 are installed, you should continue to use the Lync Server 2013 management packs for your Lync Server 2013 computers.</span></span>
+  
+> [!NOTE]
+> <span data-ttu-id="d0098-136">Skype for Business Server 2015 用の管理パックには、Skype for Business Server 2015 のコンポーネントおよびユーザー管理パックと、Skype for Business Server 2015 アクティブ監視管理パックが含まれています。</span><span class="sxs-lookup"><span data-stu-id="d0098-136">Management packs for Skype for Business Server 2015 include the Skype for Business Server 2015 Component and User Management Pack and the Skype for Business Server 2015 Active Monitoring Management Pack.</span></span> 
+  
+<span data-ttu-id="d0098-137">次のいずれかのツールを使用して、管理パックをインポートできます。</span><span class="sxs-lookup"><span data-stu-id="d0098-137">You can use one of the following tools to import management packs:</span></span>
+  
+- <span data-ttu-id="d0098-138">**System Center Operations Manager**この方法では、Skype のビジネス サーバーの監視を追加するのには、Operations Manager を使用します。</span><span class="sxs-lookup"><span data-stu-id="d0098-138">**System Center Operations Manager** With this method, you use the Operations Manager to add monitoring for Skype for Business Server.</span></span>
+    
+- <span data-ttu-id="d0098-139">**オペレーション マネージャーのシェル**を直接インポートするか、System Center Operations Manager コンソールを使用して管理パックをインポートするときに発生するすべての問題のトラブルシューティングを行うには、オペレーション マネージャーのシェルを使用できます。</span><span class="sxs-lookup"><span data-stu-id="d0098-139">**Operations Manager Shell** You can use the Operations Manager Shell to import directly, or to troubleshoot any issues that you encounter when you import management packs by using the System Center Operations Manager console.</span></span>
+    
+### <a name="importing-the-management-packs-by-using-system-center-operations-manager"></a><span data-ttu-id="d0098-140">System Center Operations Manager を使用した管理パックのインポート</span><span class="sxs-lookup"><span data-stu-id="d0098-140">Importing the Management Packs by Using System Center Operations Manager</span></span>
+
+1. <span data-ttu-id="d0098-141">Microsoft のダウンロード Web サイトから SkypeForBusiness2015ManagementPacks.msi をダウロードし、その msi をインストールします。</span><span class="sxs-lookup"><span data-stu-id="d0098-141">Download the SkypeForBusiness2015ManagementPacks.msi from the Microsoft Web downloads, and install the msi.</span></span>
+    
+2. <span data-ttu-id="d0098-142">System Center Operations Manager では、[**管理**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d0098-142">In System Center Operations Manager, click **Administration**.</span></span>
+    
+3. <span data-ttu-id="d0098-143">管理ウィンドウで、**管理パック**を右クリックし、[**管理パックのインポート**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d0098-143">In the Administration pane, right-click **Management Packs**, and then click **Import Management Packs**.</span></span>
+    
+4. <span data-ttu-id="d0098-144">[**管理パックの選択**] ダイアログ ボックスで、[**追加**] をクリックし、[**ディスクから追加する**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d0098-144">In the **Select Management Packs** dialog box, click **Add**, and then click **Add from disk**.</span></span>
+    
+5. <span data-ttu-id="d0098-145">[**オンライン カタログ接続**] ダイアログ ボックスで、[**いいえ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d0098-145">In the **Online Catalog Connection** dialog box, click **No**.</span></span>
+    
+6. <span data-ttu-id="d0098-p107">[**インポートする管理パックの選択**] ダイアログ ボックスで、ファイル Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp と Microsoft.LS.2015.Monitoring.ComponentAndUser.mp を探して選択し、[**開く**] をクリックします。ダイアログ ボックスで複数のファイルを選択するには、最初のファイルをクリックした後、Ctrl キーを押しながら 2 番目のファイルをクリックします。</span><span class="sxs-lookup"><span data-stu-id="d0098-p107">In the **Select Management Packs to import** dialog box, locate and select the files Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp and Microsoft.LS.2015.Monitoring.ComponentAndUser.mp, and then click **Open**. To select multiple files in the dialog box, click the first file, and then hold down the Ctrl key and click the subsequent files.</span></span>
+    
+7. <span data-ttu-id="d0098-p108">[**管理パックの選択**] ダイアログ ボックスで、[**インストール**] をクリックします。エラー メッセージが表示されてインストールが失敗する場合は、通常、管理パックのファイルが Windows ユーザー アカウント制御によって保護されているフォルダー内にあることを意味します。その場合は、ファイルを別のフォルダーにコピーした後、インポートとインストールの処理を再度開始します。</span><span class="sxs-lookup"><span data-stu-id="d0098-p108">In the **Select Management Packs** dialog box, click **Install**. If you get an error message and installation fails, that typically means that the management pack files are in a folder protected by the Windows User Account Control. If this occurs, copy the files to a different folder, and then restart the import and installation process.</span></span>
+    
+8. <span data-ttu-id="d0098-p109">[**管理パックの選択**] ダイアログ ボックスで、[**閉じる**] をクリックします。インポートとインストールの処理には数分かかることがあります。</span><span class="sxs-lookup"><span data-stu-id="d0098-p109">In the **Select Management Packs** dialog box, click **Close**. The import and installation process might require several minutes to complete.</span></span>
+    
+## <a name="importing-the-management-packs-by-using-the-operations-manager-shell"></a><span data-ttu-id="d0098-153">Operations Manager シェルを使用した管理パックのインポート</span><span class="sxs-lookup"><span data-stu-id="d0098-153">Importing the Management Packs by Using the Operations Manager Shell</span></span>
+
+<span data-ttu-id="d0098-p110">一般には、管理パックをインポートするには Operations Manager コンソールを使用する方が簡単です。ただし、エラーが発生してインポートが失敗する場合、コンソールでは適切にエラーが報告されないことがあります。これに対し、Operations Manager シェルでは詳細な情報が提供されます。Operations Manager を使用していて、管理パックのインポートに問題がある場合は、Operations Manager シェルを使用してパックをインポートしてください。Operations Manager シェルではインポートが失敗した理由の特定に役立つ可能性のある詳細な情報が提供されます。</span><span class="sxs-lookup"><span data-stu-id="d0098-p110">In general, it is easier to import the management packs by using the Operations Manager console. However, if an error occurs and the import fails, the console does not always provide adequate error reports. By comparison, the Operations Manager Shell provides detailed information. If you are using Operations Manager and you encounter issues when importing a management pack, import the pack by using the Operations Manager Shell. The information provided by Operations Manager Shell can help you determine why the import failed.</span></span>
+  
+1. <span data-ttu-id="d0098-159">[**スタート**]、[**すべてのプログラム**]、[**Microsoft System Center 2012**]、[**Operations Manager**] の順にクリックし、[**Operations Manager シェル**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d0098-159">Click **Start**, click **All Programs**, click **Microsoft System Center 2012**, click **Operations Manager**, and then click **Operations Manager Shell**.</span></span>
+    
+2. <span data-ttu-id="d0098-160">Operations Manager シェルのコマンド プロンプトで次のコマンドを入力して、Enter キーを押します。パスには、Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp ファイルのコピーの実際のパスを使用します。</span><span class="sxs-lookup"><span data-stu-id="d0098-160">In Operations Manager Shell, type the following command at the command prompt, using the actual path to your copy of the file Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp, and then press ENTER:</span></span>
+    
+  ```
+  Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp"
+  ```
+
+3. <span data-ttu-id="d0098-161">最初の管理パックをインポートした後、Microsoft.LS.2015.Monitoring.ComponentAndUser.mp ファイルのコピーのパスを使用して処理を繰り返します。</span><span class="sxs-lookup"><span data-stu-id="d0098-161">After you have imported the first management pack, repeat the process, using the path to your copy of the file Microsoft.LS.2015.Monitoring.ComponentAndUser.mp:</span></span>
+    
+  ```
+  Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2015.Monitoring.ComponentAndUser.mp"
+  ```
+
+

@@ -1,0 +1,72 @@
+---
+title: 応答グループを新規作成または既存のエージェント グループを編集します。
+ms.author: kenwith
+author: kenwith
+manager: serdars
+ms.date: 2/8/2018
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.lscp.RgsGroupEdit
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
+description: エージェント グループでは、応答グループへの呼び出しに応答できるユーザー (エージェントと呼ばれます) およびグループ内のすべてのエージェントに適用される設定が定義されています。
+ms.openlocfilehash: 4ae2869e335bc8d7d8b774f7daf7f5915dcba462
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 03/28/2018
+---
+# <a name="response-groups-create-new-or-edit-existing-agent-group"></a><span data-ttu-id="e41ee-103">応答グループ: エージェント グループの新規作成または既存エージェント グループの編集</span><span class="sxs-lookup"><span data-stu-id="e41ee-103">Response Groups: Create New or Edit Existing Agent Group</span></span>
+ 
+<span data-ttu-id="e41ee-104">エージェント グループでは、応答グループへの呼び出しに応答できるユーザー (エージェントと呼ばれます) およびグループ内のすべてのエージェントに適用される設定が定義されています。</span><span class="sxs-lookup"><span data-stu-id="e41ee-104">Agent groups define who can answer calls to a response group (known as agents) and the settings that apply to all the agents in the group.</span></span>
+  
+## <a name="ui-reference"></a><span data-ttu-id="e41ee-105">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="e41ee-105">UI Reference</span></span>
+
+<span data-ttu-id="e41ee-106">次の一覧に、このページのフィールドを示します。</span><span class="sxs-lookup"><span data-stu-id="e41ee-106">The following list describes the fields on the page.</span></span>
+  
+- <span data-ttu-id="e41ee-107">**名**各エージェント グループには、一意の名前が必要です。</span><span class="sxs-lookup"><span data-stu-id="e41ee-107">**Name** Each agent group requires a unique name.</span></span> <span data-ttu-id="e41ee-108">グループの関数を識別するわかりやすい名前を使用します。</span><span class="sxs-lookup"><span data-stu-id="e41ee-108">Use a descriptive name that identifies the group's function.</span></span> <span data-ttu-id="e41ee-109">たとえば、ヘルプ ・ デスクです。</span><span class="sxs-lookup"><span data-stu-id="e41ee-109">For example, Help Desk.</span></span>
+    
+- <span data-ttu-id="e41ee-110">**説明**このフィールドは省略可能です。</span><span class="sxs-lookup"><span data-stu-id="e41ee-110">**Description** This field is optional.</span></span> <span data-ttu-id="e41ee-111">グループに関する追加情報を提供するのにには、それを使用します。</span><span class="sxs-lookup"><span data-stu-id="e41ee-111">Use it to provide additional details about the group.</span></span>
+    
+- <span data-ttu-id="e41ee-112">**参加ポリシー**エージェントは、応答グループにサインインする方法を指定します。</span><span class="sxs-lookup"><span data-stu-id="e41ee-112">**Participation policy** Specify the way that agents are to sign into the response group:</span></span>
+    
+  - <span data-ttu-id="e41ee-p103">グループのエージェントがサインインおよびサインアウトする必要がないことを指定するには、[**非公式**] を選択します。非公式のエージェントは、サインインすると自動的にサインインします。既定値は [**非公式**] です。</span><span class="sxs-lookup"><span data-stu-id="e41ee-p103">Select **Informal** to specify that the agents in the group do not need to sign in and out. Informal agents are automatically signed in when they sign in. The default is **Informal**.</span></span>
+    
+  - <span data-ttu-id="e41ee-115">**正式な**グループ内のエージェントの署名する必要があります in と out を指定するを選択します。このオプションを選択すると、エージェントはクライアントのブラウザーを開き、in と out に署名するための web ページ コンソールを表示するにメニュー項目をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e41ee-115">Select **Formal** to specify that the agents in the group must sign in and out. When you select this option, agents click a menu item in the client to open a browser and display a web page console for signing in and out.</span></span>
+    
+- <span data-ttu-id="e41ee-116">**警告時間 (秒)**次の使用可能なエージェントへの呼び出しを提供する前にエージェントをリングに秒数を指定します。</span><span class="sxs-lookup"><span data-stu-id="e41ee-116">**Alert time (seconds)** Specify the number of seconds to ring an agent before offering the call to the next available agent.</span></span> <span data-ttu-id="e41ee-117">値は、少なくとも 10 秒、180 秒以内にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="e41ee-117">The value must be at least 10 seconds and less than 180 seconds.</span></span> <span data-ttu-id="e41ee-118">既定では 20 秒です。</span><span class="sxs-lookup"><span data-stu-id="e41ee-118">The default is 20 seconds.</span></span>
+    
+- <span data-ttu-id="e41ee-119">**ルーティングの方法**エージェントが呼び出しを受信する順序を決定するためのメソッドを選択します。</span><span class="sxs-lookup"><span data-stu-id="e41ee-119">**Routing method** Select the method for determining the order in which agents receive calls:</span></span>
+    
+  - <span data-ttu-id="e41ee-120">新しい呼び出しを、最も長くアイドル状態である ([**連絡可能**] または [**非アクティブ**] である) エージェントに最初に提供する場合は、[**最長アイドル**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="e41ee-120">Select **Longest idle** to offer a new call first to the agent who has been idle (has had a presence of **Available** or **Inactive**) the longest.</span></span>
+    
+  - <span data-ttu-id="e41ee-p105">新しい呼び出しを、有効なすべてのエージェントに同時に提供するには、[**パラレル**] を選択します。呼び出しは、最初に受け付けたエージェントに送られます。</span><span class="sxs-lookup"><span data-stu-id="e41ee-p105">Select **Parallel** to offer a new call to all available agents at the same time. The call is sent to the first agent who accepts it.</span></span>
+    
+  - <span data-ttu-id="e41ee-123">新しい呼び出しを、各エージェントに順番に提供するには、[**ラウンド ロビン**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="e41ee-123">Select **Round robin** to offer a new call to each agent in turn.</span></span>
+    
+  - <span data-ttu-id="e41ee-124">新しい呼び出しを、常に [**エージェント**] の一覧の順序でエージェントに提供するには、[**シリアル**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="e41ee-124">Select **Serial** to always offer a new call to agents in the order in which they are listed in the **Agent** list.</span></span>
+    
+  - <span data-ttu-id="e41ee-125">署名されているすべてのエージェントと現在の自分の存在に関係なく、同時に応答グループ アプリケーションの新しい呼び出しを提供する**応答**を選択します。</span><span class="sxs-lookup"><span data-stu-id="e41ee-125">Select **Attendant** to offer a new call to all agents who are signed in and the Response Group application at the same time, regardless of their current presence.</span></span> <span data-ttu-id="e41ee-126">応答とクライアントのユーザー エージェントが待機しているし、任意の順序での待機中の呼び出しに応答できるすべての呼び出しを表示どおりに構成されています。</span><span class="sxs-lookup"><span data-stu-id="e41ee-126">Attendants and client users who are configured as agents can see all the calls that are waiting and can answer waiting calls in any order.</span></span> <span data-ttu-id="e41ee-127">呼び出しを受け付けた最初のエージェントに呼び出しが送信されると、その呼び出しは他のアテンダントとユーザーには表示されなくなります。</span><span class="sxs-lookup"><span data-stu-id="e41ee-127">The call is sent to the first agent who accepts it, and the other attendants and users no longer see the call.</span></span>
+    
+- <span data-ttu-id="e41ee-128">**エージェント**次の方法の 1 つの応答グループのエージェントを有効にするユーザーを選択します。</span><span class="sxs-lookup"><span data-stu-id="e41ee-128">**Agents** Select the users who are to be agents for the response group in one of the following ways:</span></span>
+    
+  - <span data-ttu-id="e41ee-129">**既存の電子メール配布リストを使用して**Exchange の配布リストを使用するを選択します。</span><span class="sxs-lookup"><span data-stu-id="e41ee-129">Select **Use an existing email distribution list** to use an Exchange distribution list.</span></span> <span data-ttu-id="e41ee-130">配布リストの電子メール アドレスを [**配布リストのアドレス**] に入力します。</span><span class="sxs-lookup"><span data-stu-id="e41ee-130">Type the email address of the distribution list in **Distribution list address**.</span></span>
+    
+    > [!NOTE]
+    > <span data-ttu-id="e41ee-p108">エージェント グループに対して選択できる配布リストは 1 つだけです。配布リストに入れ子になった配布リストが含まれる場合、入れ子となった配布リストはエージェント グループに含まれません。</span><span class="sxs-lookup"><span data-stu-id="e41ee-p108">You can select only one distribution list for an agent group. If the distribution list includes nested distribution lists, the nested distribution lists are not included in the agent group.</span></span> 
+  
+    > [!NOTE]
+    > <span data-ttu-id="e41ee-133">配布リスト内でのエージェントの順序により、ラウンド ロビンおよびシリアルのルーティングでエージェントが呼び出しを受ける順序が決まります。</span><span class="sxs-lookup"><span data-stu-id="e41ee-133">The order in which agents are listed in the distribution list affects the order in which agents receive calls for round robin and serial routing.</span></span> 
+  
+    > [!NOTE]
+    > <span data-ttu-id="e41ee-134">メンバーシップを非表示または非表示のリストが応答グループの管理者またはユーザーに見えるようになります。</span><span class="sxs-lookup"><span data-stu-id="e41ee-134">Hidden memberships or hidden lists might become visible to Response Group administrators or users.</span></span> <span data-ttu-id="e41ee-135">詳細についてを参照してください[を作成するビジネス 2015年の Skype でエージェント グループを変更または](../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md)。</span><span class="sxs-lookup"><span data-stu-id="e41ee-135">For details, see [Create or modify an agent group in Skype for Business 2015](../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md).</span></span> 
+  
+  - <span data-ttu-id="e41ee-p110">応答グループのエージェントとして割り当てるユーザーを選択する場合は、[**エージェントのカスタム グループを定義する**] を選択します。リストにエージェントを追加するには、[**選択**] をクリックします。選択されているエージェントをリストから削除するには、[**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e41ee-p110">Select **Define a custom group of agents** to select the users you want to assign as agents for the response group. Click **Select** to add an agent to the list. Click **Remove** to delete a selected agent from the list.</span></span>
+    
+    <span data-ttu-id="e41ee-p111">上下矢印を使用すると、選択したエージェントがエージェント リスト内で上下に移動します。リスト内でのエージェントの順序により、ラウンド ロビンおよびシリアルのルーティングでエージェントが呼び出しを受ける順序が決まります。</span><span class="sxs-lookup"><span data-stu-id="e41ee-p111">The up and down arrows move a selected agent up and down in the agent list. The order of agents in the list affects the order in which agents receive calls for round robin and serial routing.</span></span>
+    
+<span data-ttu-id="e41ee-141">応答のグループの特徴と機能についての詳細は、計画のドキュメントで[ビジネス サーバー 2015 の Skype で応答グループ アプリケーションの計画](../../plan-your-deployment/enterprise-voice-solution/response-group.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="e41ee-141">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span></span> <span data-ttu-id="e41ee-142">エージェント グループの操作に関する詳細については、操作マニュアルで[エージェントの管理グループ](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="e41ee-142">For details about working with agent groups, see [Managing Agent Groups](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) in the Operations documentation.</span></span>
+  
+

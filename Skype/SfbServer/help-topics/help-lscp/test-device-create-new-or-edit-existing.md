@@ -1,0 +1,64 @@
+---
+title: テスト デバイスの新規作成または既存の編集
+ms.author: laurawi
+author: LauraWi
+manager: serdars
+ms.date: 3/23/2015
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.lscp.ClientDeviceTestEdit
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
+description: テスト デバイス機能はデバイス更新機能と連携して動作します。 デバイスのテスト] ページにテスト デバイスを追加し、このデバイスを使用して本番デバイスに更新プログラムを展開する前に新しい更新プログラムの機能を検証できます。 デバイスをグローバルに (環境全体を使用して) テストしたり、単独のサイト内でテストしたりできます。 テスト デバイスは、そのメディア アクセス制御 (MAC) アドレスまたはシリアル番号で識別します。 デバイスを追加するとき、一覧に表示されます、[テスト デバイス] ページで、Skype のビジネス サーバーのコントロール パネルの。
+ms.openlocfilehash: 022a56797952986f52772cb5fbed6d1f09bf7d75
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 03/28/2018
+---
+# <a name="test-device-create-new-or-edit-existing"></a><span data-ttu-id="ba63f-107">テスト デバイス: 新規作成または現在の形式のままで編集</span><span class="sxs-lookup"><span data-stu-id="ba63f-107">Test Device: Create New or Edit Existing</span></span>
+ 
+<span data-ttu-id="ba63f-108">テスト デバイス機能はデバイス更新機能と連携して動作します。</span><span class="sxs-lookup"><span data-stu-id="ba63f-108">The Test Device feature works in conjunction with the Device Update feature.</span></span> <span data-ttu-id="ba63f-109">[**テスト デバイス**] ページにテスト デバイスを追加すると、新しい更新プログラムをプロダクション デバイスに展開する前に、このデバイスを使用して更新プログラムの機能を検証できます。</span><span class="sxs-lookup"><span data-stu-id="ba63f-109">You can add a test device to the **Test Device** page and then use this device to verify the functionality of new updates before deploying the updates to production devices.</span></span> <span data-ttu-id="ba63f-110">デバイスをグローバルに (環境全体を使用して) テストしたり、単独のサイト内でテストしたりできます。</span><span class="sxs-lookup"><span data-stu-id="ba63f-110">You can test a device globally (throughout your entire environment) or within a single site.</span></span> <span data-ttu-id="ba63f-111">テスト デバイスは、そのメディア アクセス制御 (MAC) アドレスまたはシリアル番号で識別します。</span><span class="sxs-lookup"><span data-stu-id="ba63f-111">You identify a test device by its Media Access Control (MAC) address or serial number.</span></span> <span data-ttu-id="ba63f-112">デバイスを追加するとき、一覧に表示されます、[**テスト デバイス**] ページで、Skype のビジネス サーバーのコントロール パネルの。</span><span class="sxs-lookup"><span data-stu-id="ba63f-112">When you add a device, it appears in the list on the **Test Device** page of the Skype for Business Server Control Panel.</span></span>
+  
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="ba63f-113">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="ba63f-113">Tasks you can perform</span></span>
+
+<span data-ttu-id="ba63f-114">[**新規 テスト デバイス**] または [**編集 テスト デバイス**] ページでは、次のタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="ba63f-114">You can perform the following tasks on the **New Test Device** or **Edit Test Device** page:</span></span>
+  
+- <span data-ttu-id="ba63f-115">新しいテスト デバイスを追加する。</span><span class="sxs-lookup"><span data-stu-id="ba63f-115">Add a new test device.</span></span>
+    
+- <span data-ttu-id="ba63f-116">既存のテスト デバイスのプロパティを変更する。</span><span class="sxs-lookup"><span data-stu-id="ba63f-116">Modify the properties of an existing test device.</span></span>
+    
+## <a name="ui-reference"></a><span data-ttu-id="ba63f-117">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="ba63f-117">UI Reference</span></span>
+
+<span data-ttu-id="ba63f-118">次の一覧に、このページのメニュー、コマンド、フィールド、およびプロパティを示します。</span><span class="sxs-lookup"><span data-stu-id="ba63f-118">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
+  
+- <span data-ttu-id="ba63f-119">**スコープ**テスト デバイスのスコープ (グローバルまたはサイト) を識別します。</span><span class="sxs-lookup"><span data-stu-id="ba63f-119">**Scope** Identifies the scope (Global or Site) of the test device.</span></span>
+    
+- <span data-ttu-id="ba63f-120">**名**追加したり、テスト デバイスの名前を変更することができます。</span><span class="sxs-lookup"><span data-stu-id="ba63f-120">**Name** You can add or modify the name of the test device.</span></span>
+    
+- <span data-ttu-id="ba63f-121">**デバイス名**追加したり、テスト デバイスの名前を変更することができます。</span><span class="sxs-lookup"><span data-stu-id="ba63f-121">**Device name** You can add or modify the name of the test device.</span></span>
+    
+- <span data-ttu-id="ba63f-122">**識別子の種類**使用して、次のいずれかを選択してデバイスを識別する方法を選択することができます。</span><span class="sxs-lookup"><span data-stu-id="ba63f-122">**Identifier type** You can select the method to use to identify the device by selecting one of the following:</span></span>
+    
+  - <span data-ttu-id="ba63f-123">**MAC アドレス**</span><span class="sxs-lookup"><span data-stu-id="ba63f-123">**MAC address**</span></span>
+    
+  - <span data-ttu-id="ba63f-124">**シリアル番号**</span><span class="sxs-lookup"><span data-stu-id="ba63f-124">**Serial number**</span></span>
+    
+- <span data-ttu-id="ba63f-125">**一意識別子**MAC アドレスまたはデバイスのシリアル番号を入力することができます。</span><span class="sxs-lookup"><span data-stu-id="ba63f-125">**Unique identifier** You can type the MAC address or serial number of the device.</span></span>
+    
+<span data-ttu-id="ba63f-126">デバイスのテストについての詳細は、操作マニュアルの[更新プログラムの機能をテストするデバイスの追加](http://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="ba63f-126">For details about testing devices, see [Add a Device to Test Update Functionality](http://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) in the Operations documentation.</span></span>
+## <a name="see-also"></a><span data-ttu-id="ba63f-127">関連項目</span><span class="sxs-lookup"><span data-stu-id="ba63f-127">See also</span></span>
+
+#### 
+
+[<span data-ttu-id="ba63f-128">テスト デバイス</span><span class="sxs-lookup"><span data-stu-id="ba63f-128">Test Device</span></span>](test-device.md)
+#### 
+
+[<span data-ttu-id="ba63f-129">新しい-CsTestDevice</span><span class="sxs-lookup"><span data-stu-id="ba63f-129">New-CsTestDevice</span></span>](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
+  
+[<span data-ttu-id="ba63f-130">セット CsTestDevice</span><span class="sxs-lookup"><span data-stu-id="ba63f-130">Set-CsTestDevice</span></span>](https://docs.microsoft.com/powershell/module/skype/set-cstestdevice?view=skype-ps)
+  
+[<span data-ttu-id="ba63f-131">組織内のデバイスのソフトウェア更新プログラムを表示</span><span class="sxs-lookup"><span data-stu-id="ba63f-131">View Software Updates for Devices in Your Organization</span></span>](http://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)
+
