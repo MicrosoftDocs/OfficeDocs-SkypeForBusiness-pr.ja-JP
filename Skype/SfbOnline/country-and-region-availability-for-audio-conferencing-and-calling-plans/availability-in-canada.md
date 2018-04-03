@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: "カナダで利用できる Skype for Business と Microsoft Teams の Office 365 サービスを以下に示します。"
-ms.openlocfilehash: b5501a2eb4fa63e213c3c20b1a8769d3db954c1f
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: 19bd588ec12256512d7007b378db4c79ee4e2c20
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="availability-in-canada"></a>カナダでの利用可能性
 
@@ -85,6 +85,3 @@ ms.lasthandoff: 02/27/2018
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
 [国および地域ごとの電話会議および通話プランの利用可能性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
