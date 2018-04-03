@@ -1,5 +1,5 @@
 ---
-title: "マイクロソフトにユーザーの電話会議プロバイダーに移動"
+title: マイクロソフトにユーザーの電話会議プロバイダーに移動
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,47 +22,13 @@ f1keywords:
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "ビジネス ユーザー向けに、Skype をサード ・ パーティ製の音声会議プロバイダー (ACP) からマイクロソフトでは、ダイヤルイン会議プロバイダーに変更します。 "
-ms.openlocfilehash: e28fb11d757265aa74eb559a9d9f4c26661ac26c
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: 'ビジネス ユーザー向けに、Skype をサード ・ パーティ製の音声会議プロバイダー (ACP) からマイクロソフトでは、ダイヤルイン会議プロバイダーに変更します。 '
+robots: noindex
+redirect_url: https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider
+redirect_document_id: true
+ms.openlocfilehash: c4a2bbafff87b68ec509e9b48fe4e0109cf60856
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
-# <a name="moving-a-users-audio-conferencing-provider-to-microsoft"></a><span data-ttu-id="80a04-103">マイクロソフトにユーザーの電話会議プロバイダーに移動</span><span class="sxs-lookup"><span data-stu-id="80a04-103">Moving a user's audio conferencing provider to Microsoft</span></span>
-
-<span data-ttu-id="80a04-104">ビジネスおよびマイクロソフトのチームに、Skype で Office 365 の音声会議を使用するには、マイクロソフトに組織が必要となると、オーディオ会議プロバイダーに割り当てられた**電話会議**のライセンスを取得してユーザーを設定しなければなりません。</span><span class="sxs-lookup"><span data-stu-id="80a04-104">To use Audio Conferencing in Office 365 with Skype for Business and Microsoft Teams, users in your organization need to have an **Audio Conferencing** license assigned to them and their audio conferencing provider must be set to Microsoft.</span></span> <span data-ttu-id="80a04-105">ライセンスと、必要なコストの詳細については、 [Office 365 に電話会議を購入するか](try-or-purchase-audio-conferencing-in-office-365.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="80a04-105">See [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365.md) to get more information on licensing and how much it costs.</span></span>
-  
-## <a name="to-move-a-users-audio-conferencing-provider-to-microsoft"></a><span data-ttu-id="80a04-106">マイクロソフトにユーザーの電話会議プロバイダーに移動するには</span><span class="sxs-lookup"><span data-stu-id="80a04-106">To move a user's audio conferencing provider to Microsoft</span></span>
-
-<span data-ttu-id="80a04-107">**オーディオ会議**のライセンスが、オーディオ会議プロバイダーをインストールしていないユーザーに割り当てられている場合、ユーザーのプロバイダーをマイクロソフトに自動的に設定され、何も行う必要はありません。</span><span class="sxs-lookup"><span data-stu-id="80a04-107">If an **Audio Conferencing** license is assigned to a user who doesn't have an audio conferencing provider, the user's provider will be automatically set to Microsoft and you don't have to do anything else.</span></span> <span data-ttu-id="80a04-108">場合は、ユーザーが既に、オーディオ会議プロバイダーを使用して、**オーディオ会議**のライセンスを割り当てることの後を Microsoft にユーザーのプロバイダーを変更する必要があります。</span><span class="sxs-lookup"><span data-stu-id="80a04-108">If the user already had an audio conferencing provider, you must change the user's provider to Microsoft after assigning them an **Audio Conferencing** license.</span></span>
-  
-<span data-ttu-id="80a04-109">**オーディオ会議**のライセンスを持つユーザーの電話会議プロバイダーを割り当てられますが、別のオーディオ会議プロバイダーを使用するように Microsoft を設定するには、これの操作を行います。</span><span class="sxs-lookup"><span data-stu-id="80a04-109">To set Microsoft as the audio conferencing provider for a user that has an **Audio Conferencing** license assigned but is using another audio conferencing provider, do this:</span></span>
-  
-1. <span data-ttu-id="80a04-110">職場または学校のアカウントを使用して、Office 365 にサインインします。</span><span class="sxs-lookup"><span data-stu-id="80a04-110">Sign in to Office 365 with your work or school account.</span></span>
-    
-2. <span data-ttu-id="80a04-111">Go to the **Office 365 admin center** > **Skype for Business**.</span><span class="sxs-lookup"><span data-stu-id="80a04-111">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
-    
-3. <span data-ttu-id="80a04-112">**ビジネス管理センターの Skype**では、**オーディオ会議**に移動します。</span><span class="sxs-lookup"><span data-stu-id="80a04-112">In the **Skype for Business admin center**, go to **Audio conferencing**.</span></span>
-    
-4. <span data-ttu-id="80a04-113">バナーが表示される場合が、**音声会議**をしているユーザーがあることを通知するライセンスは割り当てるが、マイクロソフトは、オーディオ会議プロバイダーとして設定いない場合、 **[**ここをクリックして移動する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="80a04-113">If you see a banner notifying you that there are users who have an **Audio Conferencing** license assigned but don't have Microsoft set as their audio conferencing provider yet, click **Click here to move them**.</span></span> <span data-ttu-id="80a04-114">バナーが表示されない場合、**ビジネス管理センターの Skype**で**ユーザー**] をクリックし、し、フィルターを選択、**ユーザーが電話会議に移動する準備ができて**。</span><span class="sxs-lookup"><span data-stu-id="80a04-114">If you don't see the banner, in the **Skype for Business admin center** click **Users**, and then select the **Users ready to be moved to Audio Conferencing** filter.</span></span>
-    
-5. <span data-ttu-id="80a04-115">、移動するユーザーを選択し、[アクション] ウィンドウで [**編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="80a04-115">Select the users you want to move, and then in the Action pane, click **Edit**.</span></span>
-    
-6. <span data-ttu-id="80a04-116">**プロバイダー名**] ボックスの一覧で**Microsoft**を選択します。</span><span class="sxs-lookup"><span data-stu-id="80a04-116">Select **Microsoft** in the **Provider name** list.</span></span>
-    
-    > [!NOTE]
-    > <span data-ttu-id="80a04-117">マイクロソフトにユーザーの電話会議プロバイダーが変更されると、ユーザーの電話会議の情報が変更されます。</span><span class="sxs-lookup"><span data-stu-id="80a04-117">When the audio conferencing provider of a user is changed to Microsoft, the audio conferencing information of the user will change.</span></span> <span data-ttu-id="80a04-118">場合はこの情報を記録してください、ユーザーのいずれかのプロバイダーを変更する前にどこかにする必要があります。</span><span class="sxs-lookup"><span data-stu-id="80a04-118">If you need to keep this information, please record it somewhere before changing the provider of any of the users.</span></span> 
-  
-7. <span data-ttu-id="80a04-119">[ **保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="80a04-119">Click **Save**.</span></span>
-    
-## <a name="what-else-should-i-know"></a><span data-ttu-id="80a04-120">他に必要な情報はありますか?</span><span class="sxs-lookup"><span data-stu-id="80a04-120">What else should I know?</span></span>
-
-- <span data-ttu-id="80a04-121">場合は、ボックスの一覧でユーザーを選択すると、ユーザーの既定の音声会議情報を表示することができますが、オーディオ会議の暗証番号 (pin) を表示することはできません。</span><span class="sxs-lookup"><span data-stu-id="80a04-121">If you select the user in the list, you can view the default audio conferencing information of the user but you won't be able to see the audio conferencing PIN.</span></span> <span data-ttu-id="80a04-122">オーディオ会議のユーザーの暗証番号 (pin) をリセットするには、**リセット**をクリックするとします。</span><span class="sxs-lookup"><span data-stu-id="80a04-122">You can reset the audio conferencing PIN of a user by clicking **Reset**.</span></span>
-    
-- <span data-ttu-id="80a04-123">ユーザーの電話会議の設定を変更する場合は、リストからユーザーを選択し、[**編集**] をクリックし、[**プロパティ**] ページで必要な設定を変更します。</span><span class="sxs-lookup"><span data-stu-id="80a04-123">If you want to change audio conferencing settings for a user, you can select the user from the list and then click **Edit** and make your changes on the **Properties** page.</span></span> 
-    
-## <a name="related-topics"></a><span data-ttu-id="80a04-124">See also</span><span class="sxs-lookup"><span data-stu-id="80a04-124">Related topics</span></span>
-
-[<span data-ttu-id="80a04-125">Skype for Business および Microsoft Teams の電話会議のセットアップ</span><span class="sxs-lookup"><span data-stu-id="80a04-125">Set up Audio Conferencing for Skype for Business and Microsoft Teams</span></span>](set-up-audio-conferencing.md)
-

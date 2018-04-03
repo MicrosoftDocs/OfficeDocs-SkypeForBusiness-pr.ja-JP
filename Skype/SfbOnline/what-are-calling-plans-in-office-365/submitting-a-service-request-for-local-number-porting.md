@@ -1,5 +1,5 @@
 ---
-title: "電話番号移行サービスのリクエストを発行する"
+title: 電話番号移行サービスのリクエストを発行する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,29 +21,29 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'If you have more than 999 phone numbers to transferred to Skype for Business, learn how to submit a port order service request to get them moved. '
-ms.openlocfilehash: 72c9d132d6378e05b96c94f830820ffcbef247e7
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: 5221476d56b79fceabea2fa23a60ce58749e0ad9
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
-# <a name="submitting-a-service-request-for-local-number-porting"></a><span data-ttu-id="25f78-103">電話番号移行サービスのリクエストを発行する</span><span class="sxs-lookup"><span data-stu-id="25f78-103">Submitting a service request for local number porting</span></span>
+# <a name="submitting-a-service-request-for-local-number-porting"></a><span data-ttu-id="1a7d7-103">電話番号移行サービスのリクエストを発行する</span><span class="sxs-lookup"><span data-stu-id="1a7d7-103">Submitting a service request for local number porting</span></span>
 
-<span data-ttu-id="25f78-104">ビジネス オンラインの (ユーザー、または含む有料または無料のサービス番号) のための 999 を超える数の電話番号を Skype に転送する場合を参照してください[、組織の電話番号を管理します](https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US)。</span><span class="sxs-lookup"><span data-stu-id="25f78-104">If you need to transfer more than 999 phone numbers (for users, or service numbers including toll or toll-free) to Skype for Business Online, see [Manage phone numbers for your organization.](https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US)</span></span>
+<span data-ttu-id="1a7d7-104">ビジネス オンラインの (ユーザー、または含む有料または無料のサービス番号) のための 999 を超える数の電話番号を Skype に転送する場合を参照してください[、組織の電話番号を管理します](https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US)。</span><span class="sxs-lookup"><span data-stu-id="1a7d7-104">If you need to transfer more than 999 phone numbers (for users, or service numbers including toll or toll-free) to Skype for Business Online, see [Manage phone numbers for your organization.](https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US)</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="25f78-105">無料電話番号</span><span class="sxs-lookup"><span data-stu-id="25f78-105">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="1a7d7-105">無料電話番号</span><span class="sxs-lookup"><span data-stu-id="1a7d7-105">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="25f78-106">[米国 (無料の電話番号) 用の承認状 (LOA) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.S. (Toll Free numbers) (v.3.1) (en-US).pdf)</span><span class="sxs-lookup"><span data-stu-id="25f78-106">Related topics</span></span>
-<span data-ttu-id="25f78-107">電話番号の管理フォームのダウンロード</span><span class="sxs-lookup"><span data-stu-id="25f78-107">[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)</span></span>
+## <a name="related-topics"></a><span data-ttu-id="1a7d7-106">[米国 (無料の電話番号) 用の承認状 (LOA) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.S. (Toll Free numbers) (v.3.1) (en-US).pdf)</span><span class="sxs-lookup"><span data-stu-id="1a7d7-106">Related topics</span></span>
+<span data-ttu-id="1a7d7-107">電話番号の管理フォームのダウンロード</span><span class="sxs-lookup"><span data-stu-id="1a7d7-107">[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)</span></span>
 
-[<span data-ttu-id="25f78-108">通話プランで使用されるさまざまな種類の電話番号</span><span class="sxs-lookup"><span data-stu-id="25f78-108">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[<span data-ttu-id="1a7d7-108">通話プランで使用されるさまざまな種類の電話番号</span><span class="sxs-lookup"><span data-stu-id="1a7d7-108">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-<span data-ttu-id="25f78-109">[[Skype for Business 新しい電話番号の申請](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。</span><span class="sxs-lookup"><span data-stu-id="25f78-109">[Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)</span></span>
+<span data-ttu-id="1a7d7-109">[[Skype for Business 新しい電話番号の申請](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。</span><span class="sxs-lookup"><span data-stu-id="1a7d7-109">[Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)</span></span>
 
-[<span data-ttu-id="25f78-110">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="25f78-110">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="1a7d7-110">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="1a7d7-110">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
 
-[<span data-ttu-id="25f78-111">Skype for Business Online: 緊急通話の免責事項ラベル</span><span class="sxs-lookup"><span data-stu-id="25f78-111">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
+[<span data-ttu-id="1a7d7-111">Skype for Business Online: 緊急通話の免責事項ラベル</span><span class="sxs-lookup"><span data-stu-id="1a7d7-111">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
   
-## <a name="feedback"></a><span data-ttu-id="25f78-112">フィードバックですか。</span><span class="sxs-lookup"><span data-stu-id="25f78-112">Feedback?</span></span>
-<span data-ttu-id="25f78-113">製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="25f78-113">To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).</span></span>
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "アカウントの権限のあるユーザー"
+title: アカウントの権限のあるユーザー
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,35 +20,35 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoAuthorizingPerson
 ms.custom:
 - Calling Plans
-description: "新しいローカル番号のポートの注文ウィザードを使用すると、アカウントに変更を加える権限を持つ人を追加する必要がある理由について説明します。"
-ms.openlocfilehash: f4ee09d0d76e76b5b52277362b3ea2f5aa725315
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 新しいローカル番号のポートの注文ウィザードを使用すると、アカウントに変更を加える権限を持つ人を追加する必要がある理由について説明します。
+ms.openlocfilehash: 9d0b49828be9bc87443ba77ae8daf7ba16270b42
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
-# <a name="authorized-person-on-the-account"></a><span data-ttu-id="605cc-103">アカウントの権限のあるユーザー</span><span class="sxs-lookup"><span data-stu-id="605cc-103">Authorized person on the account</span></span>
+# <a name="authorized-person-on-the-account"></a><span data-ttu-id="f49d3-103">アカウントの権限のあるユーザー</span><span class="sxs-lookup"><span data-stu-id="f49d3-103">Authorized person on the account</span></span>
 
-<span data-ttu-id="605cc-104">**新しいローカル番号のポートの順序**と、ウィザードでは、サービスプロバイダーまたは通信業者のアカウントを変更する権限を与えられた人の名前を入力してください。</span><span class="sxs-lookup"><span data-stu-id="605cc-104">In the **New Local Number Port Order** wizard, you must enter the name of the person that is authorized to make changes to the account with the service provider or carrier.</span></span> <span data-ttu-id="605cc-105">名前はポート注文の処理には使用されませんが、問題が発生して、使用か、誤りがある場合、番号移植します。</span><span class="sxs-lookup"><span data-stu-id="605cc-105">The name isn't used to process the port order, but is used in the case of a dispute, or if something is incorrect when numbers are ported.</span></span> <span data-ttu-id="605cc-106">この人が責任を負うことに、文字の承認 (ロード) ポートの順になります。</span><span class="sxs-lookup"><span data-stu-id="605cc-106">This person will be accountable for the Letter of Authorization (LOA) for a port order.</span></span>
+<span data-ttu-id="f49d3-104">**新しいローカル番号のポートの順序**と、ウィザードでは、サービスプロバイダーまたは通信業者のアカウントを変更する権限を与えられた人の名前を入力してください。</span><span class="sxs-lookup"><span data-stu-id="f49d3-104">In the **New Local Number Port Order** wizard, you must enter the name of the person that is authorized to make changes to the account with the service provider or carrier.</span></span> <span data-ttu-id="f49d3-105">名前はポート注文の処理には使用されませんが、問題が発生して、使用か、誤りがある場合、番号移植します。</span><span class="sxs-lookup"><span data-stu-id="f49d3-105">The name isn't used to process the port order, but is used in the case of a dispute, or if something is incorrect when numbers are ported.</span></span> <span data-ttu-id="f49d3-106">この人が責任を負うことに、文字の承認 (ロード) ポートの順になります。</span><span class="sxs-lookup"><span data-stu-id="f49d3-106">This person will be accountable for the Letter of Authorization (LOA) for a port order.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="605cc-107">ボックスが 15 の文字 (スペースを含む) に限定されるため、完全な名前がないの遅延はありませんまたはポートの注文をキャンセルします。</span><span class="sxs-lookup"><span data-stu-id="605cc-107">Not having the complete name, because the box is limited to 15 characters (including spaces), won't delay or cancel the port order.</span></span> 
+> <span data-ttu-id="f49d3-107">ボックスが 15 の文字 (スペースを含む) に限定されるため、完全な名前がないの遅延はありませんまたはポートの注文をキャンセルします。</span><span class="sxs-lookup"><span data-stu-id="f49d3-107">Not having the complete name, because the box is limited to 15 characters (including spaces), won't delay or cancel the port order.</span></span> 
   
- <span data-ttu-id="605cc-108">**完全な手順については、 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)を参照してください。**</span><span class="sxs-lookup"><span data-stu-id="605cc-108">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).**</span></span>
+ <span data-ttu-id="f49d3-108">**完全な手順については、 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)を参照してください。**</span><span class="sxs-lookup"><span data-stu-id="f49d3-108">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).**</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="605cc-109">無料電話番号</span><span class="sxs-lookup"><span data-stu-id="605cc-109">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="f49d3-109">無料電話番号</span><span class="sxs-lookup"><span data-stu-id="f49d3-109">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="605cc-110">[米国 (無料の電話番号) 用の承認状 (LOA) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.S. (Toll Free numbers) (v.3.1) (en-US).pdf)</span><span class="sxs-lookup"><span data-stu-id="605cc-110">Related topics</span></span>
-<span data-ttu-id="605cc-111">電話番号の管理フォームのダウンロード</span><span class="sxs-lookup"><span data-stu-id="605cc-111">[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)</span></span>
+## <a name="related-topics"></a><span data-ttu-id="f49d3-110">[米国 (無料の電話番号) 用の承認状 (LOA) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.S. (Toll Free numbers) (v.3.1) (en-US).pdf)</span><span class="sxs-lookup"><span data-stu-id="f49d3-110">Related topics</span></span>
+<span data-ttu-id="f49d3-111">電話番号の管理フォームのダウンロード</span><span class="sxs-lookup"><span data-stu-id="f49d3-111">[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)</span></span>
 
-[<span data-ttu-id="605cc-112">通話プランで使用されるさまざまな種類の電話番号</span><span class="sxs-lookup"><span data-stu-id="605cc-112">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[<span data-ttu-id="f49d3-112">通話プランで使用されるさまざまな種類の電話番号</span><span class="sxs-lookup"><span data-stu-id="f49d3-112">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-<span data-ttu-id="605cc-113">[[Skype for Business 新しい電話番号の申請](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。</span><span class="sxs-lookup"><span data-stu-id="605cc-113">[Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)</span></span>
+<span data-ttu-id="f49d3-113">[[Skype for Business 新しい電話番号の申請](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。</span><span class="sxs-lookup"><span data-stu-id="f49d3-113">[Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)</span></span>
 
-[<span data-ttu-id="605cc-114">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="605cc-114">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="f49d3-114">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="f49d3-114">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
 
-[<span data-ttu-id="605cc-115">Skype for Business Online: 緊急通話の免責事項ラベル</span><span class="sxs-lookup"><span data-stu-id="605cc-115">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
+[<span data-ttu-id="f49d3-115">Skype for Business Online: 緊急通話の免責事項ラベル</span><span class="sxs-lookup"><span data-stu-id="f49d3-115">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a><span data-ttu-id="605cc-116">フィードバックですか。</span><span class="sxs-lookup"><span data-stu-id="605cc-116">Feedback?</span></span>
-<span data-ttu-id="605cc-117">製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="605cc-117">To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).</span></span>
+  
+ 
