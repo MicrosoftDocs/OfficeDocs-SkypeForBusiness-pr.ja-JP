@@ -1,5 +1,5 @@
 ---
-title: "更新と番号のライセンス認証が表示されるはなぜですか。"
+title: 更新と番号のライセンス認証が表示されるはなぜですか。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.NumberActivationStateUpdating
 ms.custom:
 - Calling Plans
-description: "住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。"
-ms.openlocfilehash: b5e9df2c7950403d91c1511d86b49d84c023576d
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。
+ms.openlocfilehash: 825b1e15e4dd83a9a9fe70a31dbc46dcc6cf04f6
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="why-is-number-activation-listed-as-updating"></a>更新と番号のライセンス認証が表示されるはなぜですか。
 
@@ -106,5 +106,5 @@ ms.lasthandoff: 02/27/2018
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 

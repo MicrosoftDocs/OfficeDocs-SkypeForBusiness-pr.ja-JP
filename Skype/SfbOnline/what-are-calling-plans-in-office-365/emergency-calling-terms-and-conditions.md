@@ -1,5 +1,5 @@
 ---
-title: "緊急通話の利用条件"
+title: 緊急通話の利用条件
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +19,12 @@ ROBOTS: NOINEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: "従来の電話サービスと緊急サービス (911) どのようにして呼び出しを実行する方法について説明します。 "
-ms.openlocfilehash: 4b2bbd8e5c4b9c11b17595f53180f7217518c145
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: '従来の電話サービスと緊急サービス (911) どのようにして呼び出しを実行する方法について説明します。 '
+ms.openlocfilehash: 5ba29f0020f17ecb3cd1e0b1abe39f27576a5657
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>緊急通話の利用条件
 
@@ -42,3 +42,6 @@ ms.lasthandoff: 02/19/2018
 [[Skype for Business 新しい電話番号の申請](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+  
+ 

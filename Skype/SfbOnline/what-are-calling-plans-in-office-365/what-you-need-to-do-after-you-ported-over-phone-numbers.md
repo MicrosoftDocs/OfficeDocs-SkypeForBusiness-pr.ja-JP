@@ -1,5 +1,5 @@
 ---
-title: "自分の電話番号の上に移植した後に、何をする必要がありますか。"
+title: 自分の電話番号の上に移植した後に、何をする必要がありますか。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderFinish
 ms.custom:
 - Calling Plans
-description: "ビジネス用の Skype に電話番号を移植した後次の操作に必要なものを参照してください。"
-ms.openlocfilehash: 007e4199e656294c5a649a8f684ef57a4353024a
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: ビジネス用の Skype に電話番号を移植した後次の操作に必要なものを参照してください。
+ms.openlocfilehash: d190d642edc932d1c620493afc893e03d85a4fb4
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>自分の電話番号の上に移植した後に、何をする必要がありますか。
 
@@ -52,5 +52,5 @@ ms.lasthandoff: 02/27/2018
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 

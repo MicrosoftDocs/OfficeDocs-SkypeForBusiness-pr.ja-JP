@@ -1,5 +1,5 @@
 ---
-title: "活動レポート"
+title: 活動レポート
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords:
 - O365E_ReportsS4BActivity
 ms.custom:
 - Reporting
-description: "ビジネス アクティビティ レポートの場合、Skype を取得する方法、含まれる内容、およびデータを解釈する方法について説明します。 "
-ms.openlocfilehash: 21b34d8c99d03030eb5699feea54d4eb7629537c
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'ビジネス アクティビティ レポートの場合、Skype を取得する方法、含まれる内容、およびデータを解釈する方法について説明します。 '
+ms.openlocfilehash: 419bb60a40271c6680193841c175cb86860a2a0e
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="activity-report"></a>活動レポート
 
@@ -118,3 +118,5 @@ ms.lasthandoff: 02/19/2018
 ## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 [Office 365 管理センターのアクティビティ レポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "ユーザーの電話会議の設定を管理します。"
+title: ユーザーの電話会議の設定を管理します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Office 365 の管理者としては、オーディオ会議設定を編集することができます-プロバイダー、既定の有料または無料電話番号、会議 ID、暗証番号 (pin) など、組織内の個々 のユーザーのです。 組織の設定を編集する場合は、オーディオ会議の管理を参照してください。 組織内で設定します。"
-ms.openlocfilehash: 47a52e9dc6fd4327e68ad829aea8c77978fe53b5
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: Office 365 の管理者としては、オーディオ会議設定を編集することができます-プロバイダー、既定の有料または無料電話番号、会議 ID、暗証番号 (pin) など、組織内の個々 のユーザーのです。 組織の設定を編集する場合は、オーディオ会議の管理を参照してください。 組織内で設定します。
+ms.openlocfilehash: cf9db4b2191b7b8152dc5c831b098de4143402b9
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user"></a>ユーザーの電話会議の設定を管理します。
 
@@ -58,8 +58,6 @@ Office 365 の管理者としては、オーディオ会議設定を編集する
    
 ## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 
-[自分の組織の電話会議の設定を管理する](manage-the-audio-conferencing-settings-for-my-organization.md)
+[組織の電話会議の設定を管理する](manage-the-audio-conferencing-settings-for-my-organization.md)
 
-[Skype for Business および Microsoft Teams の電話会議のセットアップ](set-up-audio-conferencing.md)
-  
 [電話会議に関するよくある質問](audio-conferencing-common-questions.md)

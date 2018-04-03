@@ -1,5 +1,5 @@
 ---
-title: "電話番号のよく寄せられる質問を転送します。"
+title: 電話番号のよく寄せられる質問を転送します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 28cbf7d7-97f3-4a99-aa76-897022c14a24
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "次は、よく寄せられる質問について、ビジネスの Skype に電話番号を転送します。 回答を確認するには後のポートの順序を作成し、自分の電話番号を転送する準備ができます。 手順については、Office 365 に転送電話番号を参照してください。"
-ms.openlocfilehash: a7b6b9ea1b028f6578b13f29706c25fb182befc1
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 次は、よく寄せられる質問について、ビジネスの Skype に電話番号を転送します。 回答を確認するには後のポートの順序を作成し、自分の電話番号を転送する準備ができます。 手順については、Office 365 に転送電話番号を参照してください。
+ms.openlocfilehash: ce62365c337d94c05c7ca1b3ff1703cb39086f97
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>電話番号のよく寄せられる質問を転送します。
 
@@ -62,7 +64,7 @@ ms.lasthandoff: 02/19/2018
     
 - Vonage や RingCentral などの電話会社からの VoIP 電話番号。
     
-- ビジネスのハイブリッドの電話番号を Skype。 これらの数値を転送する場合は、 <ptn@microsoft.com>で私たちに電子メールを送信する必要があります。
+- ビジネスのハイブリッドの電話番号を Skype。 お知らせする電子メールを送信する必要がありますこれらの数値を転送する場合は、 <ptn@microsoft.com>。
     
  **移行できません:**
   
@@ -117,7 +119,7 @@ ms.lasthandoff: 02/19/2018
     
 - ように市外局番**のフリーの有料電話番号**: 800 844、855、866、877、888 は、他の種類の番号の番号への移植要求に含めることができません。 これらのフリー番号をポートにする必要があります[手動で、カスタム ・ サービスの要求を送信](manually-submit-a-custom-service-request.md)します。ビジネス管理センターの Skype でそれらを送信できません。 [組織の電話番号の管理](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)を参照してください。
     
-    国や移行する電話番号の種類に対して適切な LOA を使用することが重要です。 LOA は[認証の文字 (LOA) をダウンロードする](download-a-letter-of-authorization-loa.md)からダウンロードできます。 [組織の電話番号の管理](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)を参照してください。
+    国や移行する電話番号の種類に対して適切な LOA を使用することが重要です。 [ダウンロード文字の承認 (ロード) は、ここに必要な](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)する必要がある山をダウンロードすることができます。
     
 - **携帯電話番号** には、移行を承認するための PIN コードが必要です。したがって、個別の番号移行要求が必要です。
     
@@ -176,4 +178,5 @@ You can check the status of your port order by going to the Skype for Business a
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
   
-
+  
+ 

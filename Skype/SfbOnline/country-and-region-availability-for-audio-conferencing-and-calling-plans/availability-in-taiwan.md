@@ -1,5 +1,5 @@
 ---
-title: "台湾で可用性を実現"
+title: 台湾で可用性を実現
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "台湾の利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。"
-ms.openlocfilehash: 42d7c9a600636336d63cfa9dd1b3ce6e19565c0f
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 台湾の利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
+ms.openlocfilehash: 7f204b28e482e4a9b0a7cfffe11b577465d2e658
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-taiwan"></a>台湾で可用性を実現
 
@@ -83,5 +83,5 @@ ms.lasthandoff: 02/27/2018
 
 [国および地域ごとの電話会議および通話プランの利用可能性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 

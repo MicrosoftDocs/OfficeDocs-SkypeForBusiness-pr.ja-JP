@@ -1,5 +1,5 @@
 ---
-title: "ExpressRoute を使用したコール フロー"
+title: ExpressRoute を使用したコール フロー
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Optimization
-description: "この記事では、Skype for Business Online および ExpressRoute の核となるコール フローの原則について説明し、これらのサービスを正しく理解し計画できるよう詳細な例をいくつか示します。"
-ms.openlocfilehash: aa746ad4152dca6e1c06d99ad5b14d55f7be2fa1
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: この記事では、Skype for Business Online および ExpressRoute の核となるコール フローの原則について説明し、これらのサービスを正しく理解し計画できるよう詳細な例をいくつか示します。
+ms.openlocfilehash: 220a23a5a43b281790422c39908e7a0ea32c03b4
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="call-flow-using-expressroute"></a>ExpressRoute を使用したコール フロー
 
@@ -233,3 +233,6 @@ Cloud Connector に接続するユーザーはすべて自宅オンラインで�
 ## <a name="related-topics"></a>See also
 
 [ExpressRoute のドキュメント](https://go.microsoft.com/fwlink/?LinkId=690285)
+
+  
+ 

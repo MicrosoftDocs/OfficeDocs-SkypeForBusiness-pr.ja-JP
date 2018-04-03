@@ -1,10 +1,10 @@
 ---
-title: "プランの呼び出しを設定します"
+title: プランの呼び出しを設定します
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
+ms.date: 03/30/2018
 ms.topic: article
 ms.assetid: 57893158-1acd-44ac-acaf-19f58264a9e0
 ms.tgt.pltfrm: cloud
@@ -23,17 +23,21 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 871edfa997e9267213480a448eda952a7927783b
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.openlocfilehash: dcba074f1c0e6966ef0632a95035e681aa25a194
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-calling-plans"></a>プランの呼び出しを設定します
 
 ビジネス ユーザー向けの他の Skype への呼び出しを自由が、ユーザーが、組織では、外からの電話を呼び出せるようにする場合、国内を呼び出すことを計画、または、国際の呼び出し Office 365 で。 お客様のビジネスにこれを設定するのには簡単です。 
+
+## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>手順 1: を確認する計画を呼び出し、国/地域で利用可能です
+
+[オーディオ会議や予定を呼び出すことで可用性を国や地域](..//country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)に移動し、国または地域に関する計画を呼び出すには、利用可能時間情報だけでなく有料の電話会議、電話システム、およびフリー ダイヤル情報を取得するを選択数字、および通信のクレジットです。
   
-## <a name="step-1-buy-and-assign-licenses"></a>手順 1: ライセンスを購入して割り当てる
+## <a name="step-2-buy-and-assign-licenses"></a>手順 2: 購入し、ライセンスを割り当てる
 
 1. Office 365 の機能では、電話システムが計画に含まれていない場合は、**電話システム**のアドオンのライセンスを購入する必要があります。 **電話システム**用のライセンスを取得したら、 [Office 365 のプランを呼び出すこと](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md)を購入します。 [Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)を参照してくださいし、計画とのライセンスを購入します。 
     
@@ -42,87 +46,41 @@ ms.lasthandoff: 03/08/2018
   
 2. 最初のライセンスを割り当てるし、計画を呼び出して、組織内のユーザーに割り当てます。 「[Skype for Business と Microsoft Teams のライセンスを割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)」をご覧ください。
     
-## <a name="step-2-get-phone-numbers"></a>手順 2: 電話番号を取得する
+## <a name="step-3-get-phone-numbers"></a>手順 3: 電話番号を取得します。
 
-米国外に居住している場合は、セットアップの手順が多少異なります。 一部の国/地域で Office 365 から取得する電話番号や電話番号を転送する緊急アドレスを取得するためです。 、米国以外の場合は、最初は[手順 3: 緊急時のアドレスと、組織の場所を追加](set-up-calling-plans.md#bkmk_add_addresses)、操作を行いますし、**ステップ 2: 電話番号を取得する**。
-  
-1. Office 365 から電話番号を使用する場合は、以下の手順を実行します。 **別のサービス プロバイダーでは、既存の電話番号を転送する必要がある場合の手順で[Office 365 に電話番号を転送](transfer-phone-numbers-to-office-365.md)**います。
-    
-2. 職場または学校のアカウントを使用して、Office 365 にサインインします。
-    
-3. Go to the **Office 365 admin center** > **Admin centers** > **Skype for Business >** **Voice**.
+新しいユーザーの数を取得する 3 つの方法があります。
 
-    > [!IMPORTANT] 
-    > ビジネス管理センターの Skype では、左側のナビゲーションの**音声**オプションを表示するため、まず**E5 のエンタープライズ ライセンス**を少なくとも 1 つ、1 つの**電話システム**のアドオン ライセンスまたはアドオンのライセンスが 1 つの**電話会議**を購入する必要があります。
-   
-4. Choose **Phone numbers**. あるアイディアを提供する方法に、**電話システム**のライセンス数が表示されます多くの電話番号を要求します。
+- **ビジネス管理センターは、Skype を使用します。** 国や地域によっては、ビジネス管理センターは、Skype を使用して、会議用ブリッジの番号を取得、[取得サービスの電話番号](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)を参照してください。
     
-    > [!TIP]
-    > ライセンスを保有する電話番号より多くの電話番号を取得できます。 電話番号の数を取得することを確認するのに、ライセンス数を取得、ライセンスの数の 10% を追加し、10 します。 たとえば、100 ライセンスを購入している場合は、120 の電話番号を取得できます。 参照してください[番号の数を取得しますか?](how-many-phone-numbers-can-you-get.md) 
+- **既存の番号を移植します。** ポート、または現在のサービス プロバイダーまたは電話のキャリアからの既存の番号を Office 365 に転送できます。 [Office 365 に電話番号を転送](transfer-phone-numbers-to-office-365.md)または詳細については[、組織の電話番号の管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)作業を行いやすくにを参照してください。  
   
-5. **追加新しい番号**を選択して > **新しいユーザーの数**、**新しいユーザー番号の追加**] ページで、[国/地域、都道府県名、市区町村から番号を選択するを選択します。
-    
-6.  この地域で組織に必要な電話番号の数を [ **数量**] に入力し、[ **追加**] をクリックして予約を作成します。
-    
-    > [!CAUTION]
-    > 電話番号を選ぶ時間は 10 分間あります。 10 分後は、電話番号は Office 365 に電話番号のプールに返されます。 
-  
-    次の図では、9 分を取得するのには左に 2 つの異なる都市の電話番号が追加されているかを確認できます。 
-    
-     ![At the Add user numbers page, specify the area where you want to get the numbers for.](../images/f6dc1ef3-0bf2-4b4f-b32c-ca27e69c5553.png)
-  
-7. [ **番号の表示**] を選択すると、電話番号の完全なリストが表示されます。これは、特定の電話番号を希望しない場合に役立ちます。
-    
-8. 電話番号を選択し、[**番号を取得**します。
-    
-9. **音声**ページに戻りますすべての番号が表示されるを買収しました。
-    
-    ![At the Voice dashboard, you'll see all the phone numbers you acquired.](../images/4a9c681c-13f9-4cdc-a25b-93eb00d06b6c.png)
-  
-## <a name="step-3-add-emergency-addresses-and-locations-for-your-organization"></a>手順 3: 組織用の緊急対応の住所と場所を追加する
+- **新しい番号の要求フォームを使用します。** 場合があります (国または地域) によってことはできません、Skype を使用するビジネス管理センターでは、新しい電話番号を取得するか、特定の電話番号または市外局番が必要です。 その場合は、フォームをダウンロードして記入してからマイクロソフトに返送する必要があります。 詳細については[、組織の電話番号の管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)を参照してください。 
+
+
+## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>手順 4: 緊急時のアドレスと、組織の場所を追加します。
 <a name="bkmk_add_addresses"> </a>
 
-1. **緊急の場所**を選択して [**音声**] ページで、 > **新しいアドレスを追加**します。
+緊急アドレス、電話番号に関連付けられている必要があります。この関連付けの場合は、国や地域の間で変更できます。 など、米国の電話番号をユーザーに割り当てると、緊急時のアドレスを関連付ける必要があります。 、英国では、Office 365 から電話番号を取得するか、現在のサービス プロバイダーからの電話番号を転送するときは、緊急電話番号をアドレスを関連付ける必要があります。 
+
+組織の緊急時のアドレスを追加するには、ビジネス管理センターの Skype に移動**音声** > **緊急場所** > **新しいアドレスを追加**します。 詳細については、[追加または削除、および組織の緊急時のアドレス](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)を参照してください。
+
+ビジネス管理センターの Skype で、組織には、緊急の場所を追加するには、**音声**に移動 > **緊急場所** > **新しいアドレスを追加**します。 詳細については、[追加、変更、または組織には、緊急時の場所を削除する](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)を参照してください。
+
     
-2. [ **新しい住所**] ウィンドウで、住所の名前を入力し、残りのボックスの入力を完了します。
-    
-     ![When you enter a new emergency address, the formatting of the street name might cause an error.](../images/dc1c5ef3-0554-4fb7-9ab1-5ea3ac9e5eb5.png)
-  
-    > [!TIP]
-    > 上の図のように、英語圏のお客様で街路名が数字の場合は、必ず末尾に「st」または「th」を付けます。 
-  
-3. [ **検証**] を選択します。
-    
-    必要な場合は、住所の訂正を求められます。 
-    
-    > [!CAUTION]
-    > 住所または公的アドレスの検証では、住所が正規の住所で、形式が正しいことが確認されます。 緊急アドレスは部分的に正しいなど、市区町村の名前を誤って入力する場合と渡すことがまだ検証が可能です。 誤記があっても検証をパスした場合、誤記がある市区町村名と住所の他の正しい部分の組み合わせによって、適切な緊急派遣センターに通話をルーティングするために十分な情報になります。 
-  
-    > [!TIP]
-    > 緊急応答用に住所に修正が必要な場合は、住所が更新されたことを通知する緑色のバナーが表示されます。 
-  
-4. 住所が検証されたら、[ **保存**] を選びます。
-    
-## <a name="step-4-assign-phone-numbers-and-emergency-addresses-to-users"></a>手順 4: ユーザーに電話番号と緊急対応の住所を割り当てる
+## <a name="step-5-assign-an-emergency-address-and-a-phone-number-to-a-user"></a>手順 5: 緊急時のアドレスと電話番号をユーザーに割り当てる
 <a name="bkmk_add_addresses"> </a>
 
-> [!TIP]
-> この手順を実行する直前にさらにユーザーを追加すると、[ **音声ユーザー**] ページにユーザーが表示されるまでに **数時間** かかることがあります。これには遅延時間があります。
-  
-1. **ボイス ユーザー**ページで、電話番号と緊急時のアドレスを割り当てたいユーザーを選択します。
+Office 365 のプランの呼び出しを設定している場合は、個々 のユーザーに電話番号と緊急時のアドレスを割り当てる必要があります。 電話番号に関連付けることができる前に、緊急のアドレスを作成する必要があります。 
+
+ビジネス管理センターの Skype のユーザーは、緊急時のアドレスを追加するには、**音声**に移動 > **音声ユーザー** > **緊急場所** > **番号を割り当てる** > **の位置を変更**します。 詳細については、[割り当て、またはユーザーのシステムのアドレスを変更する](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)を参照してください。
+
+   > [!NOTE]
+   > 電話番号を割り当てる場合も、緊急時のアドレスを割り当てることができます。
+
+ビジネス管理センターでは、Skype で、ユーザーに電話番号を割り当てるには、**音声** > **音声ユーザー** > **番号を割り当てる** > **の位置を変更**します。 詳細については、[割り当て、変更、またはユーザーの電話番号を削除する](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)を参照してください。
+
     
-2. [操作] ウィンドウで、**割り当てる番号**をクリックします。
-    
-3. **番号の割り当て**] ページで、**割り当てる番号の選択**] ボックスの一覧で、ユーザーの電話番号を選択します。
-    
-4. 緊急アドレスを選択するには、都市の名前をボックスに入力し、**検索**を選択します。
-    
-    > [!IMPORTANT]
-    > 米国外である場合、数値既に緊急アドレスでは、ですが、ここで変更することができます。 「[ユーザーの緊急対応の住所を割り当てるまたは変更する](assign-or-change-an-emergency-address-for-a-user.md)」をご覧ください。 
-  
-5. 電話番号と緊急対応の住所の両方を割り当てたら、[ **保存**] を選びます。
-    
-## <a name="step-5-tell-your-users-about-their-new-phone-numbers"></a>手順 5: 新しい電話番号をユーザーに通知する
+## <a name="step-6-tell-your-users-about-their-new-phone-numbers"></a>手順 6: ユーザーに、新しい電話番号の連絡します。
 <a name="bkmk_add_addresses"> </a>
 
 新しい電話番号をユーザーに通知する場合は、メールを送信するか、または各組織が指定する方法で行うことをお勧めします。 
@@ -150,7 +108,7 @@ ms.lasthandoff: 03/08/2018
     
 - 緊急対応の場所は検証されません。緊急対応の住所だけが検証されます。
     
-- 緊急対応の住所の詳細については、「[緊急対応の場所、アドレス、通話ルーティングの概要](what-are-emergency-locations-addresses-and-call-routing.md)」をご覧ください。
+- 緊急対応の住所の詳細については、「[緊急対応の場所、アドレス、通話ルーティングの概要](../what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing.md)」をご覧ください。
     
 ## <a name="do-you-want-to-automate-assigning-phone-numbers"></a>電話番号の割り当ての自動化
 <a name="bkmk_add_addresses"> </a>
@@ -163,8 +121,8 @@ Windows PowerShell を使うことができる場合は、次のコマンドレ�
     
 詳しくは、「[クイック リファレンス: Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://technet.microsoft.com/en-us/library/dn362776%28v=ocs.15%29.aspx)」ご覧ください。
   
-    > [!NOTE]
-    > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+   > [!NOTE]
+   > さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。
 
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
@@ -180,5 +138,5 @@ Windows PowerShell を使うことができる場合は、次のコマンドレ�
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 

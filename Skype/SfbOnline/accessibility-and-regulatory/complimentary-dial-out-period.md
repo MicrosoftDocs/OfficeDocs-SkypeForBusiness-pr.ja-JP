@@ -1,5 +1,5 @@
 ---
-title: "ダイアル アウトの無料期間"
+title: ダイアル アウトの無料期間
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
-description: "お客様は、ビジネス オンライン PSTN サービス使用条件およびお客様のボリューム ライセンス契約は、Skype で許可されている Office 365 のプランを呼び出すと、Office 365 のオーディオ会議を使用することがあります。"
+hideEdit: true
+description: お客様は、ビジネス オンライン PSTN サービス使用条件およびお客様のボリューム ライセンス契約は、Skype で許可されている Office 365 のプランを呼び出すと、Office 365 のオーディオ会議を使用することがあります。
 ms.openlocfilehash: fac5ad1e413d62669e1ed23e6ea19f1c51ea3017
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>オーディオ会議無料ダイヤル ・ アウトの期間
 

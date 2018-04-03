@@ -1,5 +1,5 @@
 ---
-title: "ユーザーは、これらの国や地域に発信呼び出しを行うことができます。"
+title: ユーザーは、これらの国や地域に発信呼び出しを行うことができます。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "このトピックには、呼び出す予定がある場合、ユーザーはへの発信コールを配置できる国/地域のすべてが含まれます。"
-ms.openlocfilehash: 455f677827006921335cb30f09a0da5720ea0bd8
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: このトピックには、呼び出す予定がある場合、ユーザーはへの発信コールを配置できる国/地域のすべてが含まれます。
+ms.openlocfilehash: 9cac97144bec681773eca2811751525e0c2950d5
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>ユーザーは、これらの国や地域に発信呼び出しを行うことができます。
 
@@ -91,5 +91,5 @@ ms.lasthandoff: 02/27/2018
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 

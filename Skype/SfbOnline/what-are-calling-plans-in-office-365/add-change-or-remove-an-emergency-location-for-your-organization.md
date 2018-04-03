@@ -1,5 +1,5 @@
 ---
-title: "組織の緊急対応の場所を追加、変更、削除する"
+title: 組織の緊急対応の場所を追加、変更、削除する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 11cadb26-534d-41db-af6b-1f648edfd907
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,15 +22,15 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn to add, change, or remove an emergency location used by  Skype for Business on Public Switched Telephone Networks (PSTN) for your organization. '
-ms.openlocfilehash: 59463441b6b99b8ad0e7a45c57de6b5d41ace49c
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: ade701fffc4281110bc3e639ed0c291e27d1e846
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>組織の緊急対応の場所を追加、変更、削除する
 
-数に応じて、組織内の物理的な場所、建物、フロア、およびより詳細な緊急時のアドレスを作成するオフィスの緊急の場所を作成できます。 参照してください[緊急の場所、住所、および通話のルーティングには何ですか?](what-are-emergency-locations-addresses-and-call-routing.md)の詳細について。
+数に応じて、組織内の物理的な場所、建物、フロア、およびより詳細な緊急時のアドレスを作成するオフィスの緊急の場所を作成できます。 参照してください[緊急の場所、住所、および通話のルーティングには何ですか?](what-are-emergency-locations-addresses-and-call-routing.md)の詳細について。 
   
 呼び出す計画を取得する方法とをかかる費用については、 [Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)を参照してください。
   
@@ -87,3 +89,4 @@ ms.lasthandoff: 02/19/2018
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
 
   
+ 

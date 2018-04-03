@@ -1,5 +1,5 @@
 ---
-title: "自動応答の電話システムとは?"
+title: 自動応答の電話システムとは?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "自動応答の電話システム (PBX をクラウド) とは、それらを使用する方法について説明します。 "
-ms.openlocfilehash: c1770476dda3b63137faf687a60e1ddbfc87c943
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
+description: '自動応答の電話システム (PBX をクラウド) とは、それらを使用する方法について説明します。 '
+ms.openlocfilehash: a1253419bdd321efd99a4ea375655d52f154b6ab
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>自動応答の電話システムとは?
 
@@ -274,5 +274,5 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
 [国および地域ごとの電話会議および通話プランの利用可能性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 

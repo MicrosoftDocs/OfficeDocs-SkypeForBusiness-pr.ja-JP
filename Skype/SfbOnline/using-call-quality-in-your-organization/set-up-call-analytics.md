@@ -1,12 +1,12 @@
 ---
-title: "ビジネス分析の電話の Skype を設定します。"
+title: ビジネス分析の電話の Skype を設定します。
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: mikedav, wlooney
 ms.date: 01/22/2018
 ms.topic: article
-ms.assetid: 
+ms.assetid: ''
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: "設定し、分析機能の呼び出しを使用して特定し、Skype のビジネスおよびマイクロソフトのチームの通話品質の問題に関するトラブルシューティングを行います。"
-ms.openlocfilehash: 81d3f88bf04fa63aaa5857e2056aaf429e7ffcd4
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 設定し、分析機能の呼び出しを使用して特定し、Skype のビジネスおよびマイクロソフトのチームの通話品質の問題に関するトラブルシューティングを行います。
+ms.openlocfilehash: 0169d8e2008ce0d87f4ee666663d4d8ccb71d1b8
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-skype-for-business-call-analytics"></a>ビジネス分析の電話の Skype を設定します。
 
@@ -72,7 +72,7 @@ Skype のオンライン ビジネスの管理、分析機能の呼び出しを�
     
      ![スクリーン ショットは、第 1 層および第 2 層のアクセス許可のオプションを使用して分析を呼び出すページのアクセス許可を示しています。](../images/ed5b6b05-b407-4363-8cf0-a6e79027f64b.png)
   
- どちらのアクセス許可レベルを持つユーザーは、専用の URL の*https://adminportal.services.skypeforbusiness.com*を使用して分析機能の呼び出しを取得します。
+ どちらのアクセス許可レベルを持つユーザーが専用の URL を使用して分析機能の呼び出しを取得*https://adminportal.services.skypeforbusiness.com*。
   
 ## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>サイトの構築を追加し、情報をテナントに .tsv または .csv ファイルをアップロードします。
 <a name="BKMK_UploadFiles"> </a>
@@ -91,3 +91,6 @@ Skype ビジネス管理者の場合は、ビジネス オンライン コール
 [通話分析を使用して Skype for Business の低い通話品質をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [通話分析と通話品質ダッシュボードの違い](difference-between-call-analytics-and-call-quality-dashboard.md)
+
+  
+ 

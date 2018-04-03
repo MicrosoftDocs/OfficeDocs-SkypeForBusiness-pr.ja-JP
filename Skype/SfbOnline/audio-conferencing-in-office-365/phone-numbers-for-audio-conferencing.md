@@ -1,5 +1,5 @@
 ---
-title: "オーディオ会議用電話番号"
+title: オーディオ会議用電話番号
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,11 +23,11 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Learn what countries and regions have dial-in conferencing numbers, and how they are automatically assigned.
-ms.openlocfilehash: f8eb49a20e3eff89bd7d930c94da3afd872814dc
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+ms.openlocfilehash: ade506afab015745fa1f7e9c71aa8e636492c04e
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="phone-numbers-for-audio-conferencing"></a>オーディオ会議用電話番号
 
@@ -86,6 +86,6 @@ ms.lasthandoff: 03/16/2018
     
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 
-[Skype for Business および Microsoft Teams の電話会議のセットアップ](set-up-audio-conferencing.md)
+[Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

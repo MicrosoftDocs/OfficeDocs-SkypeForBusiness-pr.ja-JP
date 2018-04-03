@@ -1,5 +1,5 @@
 ---
-title: "住所検証とは何ですか?"
+title: 住所検証とは何ですか?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +19,12 @@ f1keywords:
 - ms.lync.lac.CivicAddressValidation
 ms.custom:
 - Calling Plans
-description: "住所検証がどういうものであるか、なぜ重要であるか、緊急対応の住所とサービスにどのように関連しているかについて説明します。 "
-ms.openlocfilehash: f5da983796a435ba64d428b21544a44a191e6de4
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: '住所検証がどういうものであるか、なぜ重要であるか、緊急対応の住所とサービスにどのように関連しているかについて説明します。 '
+ms.openlocfilehash: d67277490afc12d8bdb2c5433d55e70ea6f5395e
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-is-address-validation"></a>住所検証とは何ですか?
 
@@ -44,3 +44,5 @@ Office 365 の通話プランをセットアップするときに、電話番号
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
 
+  
+ 

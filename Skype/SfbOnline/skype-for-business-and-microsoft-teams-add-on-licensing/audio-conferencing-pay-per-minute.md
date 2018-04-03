@@ -1,5 +1,5 @@
 ---
-title: "オーディオ会議支払の 1 分あたり"
+title: オーディオ会議支払の 1 分あたり
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 - Strat_SB_PSTN
-description: "標準のオーディオ会議のユーザーごとのライセンスだけでなく、ボリューム、およびライセンスの組織は、組織の音声会議機能を有効にするのには、1 分あたりの支払の案内も選択できます。"
-ms.openlocfilehash: 8c61f9057f79bebc797c0691b4b89996d851d83d
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: 標準のオーディオ会議のユーザーごとのライセンスだけでなく、ボリューム、およびライセンスの組織は、組織の音声会議機能を有効にするのには、1 分あたりの支払の案内も選択できます。
+ms.openlocfilehash: 4fbf487a0a20476bfc05f2287478e51871d3c899
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>オーディオ会議支払の 1 分あたり
 
@@ -66,11 +66,9 @@ ms.lasthandoff: 03/08/2018
     
 - [通話プランの価格設定](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
     
-## <a name="related-topics"></a>See also
-
-[Skype for Business および Microsoft Teams の電話会議のセットアップ](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
+## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
   
 [Skype for Business と Microsoft Teams のアドオン ライセンス](skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 

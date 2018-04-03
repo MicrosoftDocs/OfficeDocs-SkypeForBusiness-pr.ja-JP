@@ -1,5 +1,5 @@
 ---
-title: "オランダでの電話番号の管理"
+title: オランダでの電話番号の管理
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "この表で、オランダでの Skype for Business Online および Microsoft Teams の電話番号の取得と管理についての情報を確認できます。"
-ms.openlocfilehash: df9c9b53821c6e3dae8a55b06754a78558f3090e
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: この表で、オランダでの Skype for Business Online および Microsoft Teams の電話番号の取得と管理についての情報を確認できます。
+ms.openlocfilehash: 5f7912f76439082ccd3078f649d1ebab329bcb2a
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>オランダでの電話番号の管理
 
@@ -52,5 +52,5 @@ ms.lasthandoff: 03/08/2018
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 

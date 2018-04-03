@@ -1,5 +1,5 @@
 ---
-title: "英国 (英国) の演習用のコード"
+title: 英国 (英国) の演習用のコード
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
+hideEdit: true
 description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: e111bb7a2228417674ec6be73bcb25f909d96e12
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: c1528d1ec28dd940b5b696dd03f9c389f6d16844
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="code-of-practice-for-the-united-kingdom-uk"></a>英国 (英国) の演習用のコード
 
@@ -104,7 +104,7 @@ Skype for Business は、プレミアム レート サービスの通話を、�
   
 ### <a name="telephone-preference-service-and-fax-preference-services"></a>迷惑電話防止サービスと迷惑 FAX 防止サービス
 
-Ofcom の代理であるダイレクト マーケティング協会が運営する迷惑電話防止サービス (「TPS」) は、お客様が承諾していない営業の電話がかかってくることを止めることができる登録です。TPS への登録を希望される場合は、[http://www.tpsservices.co.uk/tps-services-for-consumers/register-on-the-tps.aspx](https://www.tpsservices.co.uk/tps-services-for-consumers/register-on-the-tps.aspx) で、または 0843 005 9576 に電話して行うことができます。
+Ofcom の代理であるダイレクト マーケティング協会が運営する迷惑電話防止サービス (「TPS」) は、お客様が承諾していない営業の電話がかかってくることを止めることができる登録です。TPS への登録を希望される場合は、[https://www.tpsservices.co.uk/tps-services-for-consumers/register-on-the-tps.aspx](https://www.tpsservices.co.uk/tps-services-for-consumers/register-on-the-tps.aspx) で、または 0843 005 9576 に電話して行うことができます。
   
 TPS と同様に、迷惑 FAX 防止サービス (「FPS」) は、企業と個人が承諾していない営業やマーケティングの FAX が送られてくることを止めることができる登録です。0843 005 9576 に電話するか、オンラインの [https://secure.dma.org.uk/cgi-bin/session.pl?reg_option=fps](https://secure.dma.org.uk/cgi-bin/session.pl?reg_option=fps) で、FPS に登録することができます。
   
@@ -114,7 +114,7 @@ TPS と同様に、迷惑 FAX 防止サービス (「FPS」) は、企業と個�
   
 ### <a name="phonepayplus"></a>PhonepayPlus
 
-すべてのサービス プロバイダーは、Ofcom によって承認された独立した組織である PhonepayPlus に登録する必要があります。 PhonepayPlus は、プレミアム レート サービスの規制し、消費者が苦情を調査します。 PhonepayPlus のコードに実際には、 [http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice)にあるすべてのサービス プロバイダーが従う必要があります。 サービス プロバイダーには、演習用のコードが違反している、PhonepayPlus 可能性があります。
+すべてのサービス プロバイダーは、Ofcom に承認された独立組織である PhonepayPlus に登録する必要があります。PhonepayPlus は、プレミアム レート サービスを規制し、消費者が申し立てた苦情を調査します。すべてのサービス プロバイダーは、PhonepayPlus の実施規約を順守する必要があります。この規約は、[http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice) に掲載されています。サービス プロバイダーがこの実施規約に違反すると、PhonepayPlus は次のように対処します。
   
 - 団体に違反の是正を求める
     
@@ -124,7 +124,7 @@ TPS と同様に、迷惑 FAX 防止サービス (「FPS」) は、企業と個�
     
 ### <a name="service-provider-contact-information"></a>サービス プロバイダーの連絡先情報
 
-サービス ・ プロバイダーの連絡先情報を検索するには、 [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)PhonepayPlus の #NumberChecker ツールを使用できます。 プレミアム レート サービスが誤って課金されたと確信した場合は、サービス プロバイダーに直接問い合わせる必要があります。
+サービス プロバイダーの連絡先情報を見つけるには、PhonepayPlus の #NumberChecker ツール ([http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)) を使用できます。プレミアム レート サービスが誤って課金されたと確信した場合は、サービス プロバイダーに直接問い合わせる必要があります。
   
 ### <a name="complaints"></a>苦情
 
@@ -132,7 +132,7 @@ TPS と同様に、迷惑 FAX 防止サービス (「FPS」) は、企業と個�
   
 - 電話: 0300 30 300 20 (月曜日から金曜日の午前 9 時 30 分から午後 5 時まで)
     
-- オンラインのお問い合わせ: [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)
+- オンラインでの問い合わせ: [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)
     
 ### <a name="dispute-resolution"></a>争議の解決
 
@@ -147,5 +147,4 @@ TPS と同様に、迷惑 FAX 防止サービス (「FPS」) は、企業と個�
 
 ## <a name="related-topics"></a>関連トピック
 [国および地域ごとの電話会議および通話プランの利用可能性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
 

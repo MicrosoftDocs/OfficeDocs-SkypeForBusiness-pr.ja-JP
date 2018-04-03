@@ -1,15 +1,17 @@
 ---
-title: "応答メッセージとメールに使用する既定の言語を変更する"
+title: 応答メッセージとメールに使用する既定の言語を変更する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: wasseemh
-ms.date: 01/22/2018
+ms.date: 03/13/2018
 ms.topic: article
 ms.assetid: 820c3892-1b7e-47d3-ae8d-6e27e7cbcf38
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "Skype for Busineses をセットアップして、組織のボイスメールの既定応答メッセージで別の言語を使用する方法を説明します。 "
-ms.openlocfilehash: 1c311436ed9010ea20598aac6a55b4806fe18abb
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Skype for Busineses をセットアップして、組織のボイスメールの既定応答メッセージで別の言語を使用する方法を説明します。 '
+ms.openlocfilehash: 7b8e289a36c4642f37035158977b677174a8b95b
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>応答メッセージとメールに使用する既定の言語を変更する
 
@@ -40,12 +42,14 @@ ms.lasthandoff: 02/19/2018
     > ユーザーはサイン インした後に設定を操作して自身のあいさつ文の言語を変更できます。 
   
 - **発信ボイス メール メッセージを録音する場合は、** 「[Skype for Business ボイス メールの確認とオプション](https://support.office.com/en-us/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)」をご覧ください。
+
+- **ボイスメール メッセージの言語を変更しますか。** [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) 、**プロンプトの言語**] の下の新しい言語を選択します。
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>組織のユーザー全員に対してシステムの言語を変更する
 
-1. [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) で [Office 365 のグローバル管理者](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)アカウントを使用してサインインします。 
+1. [Office 365 のグローバル管理者](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)アカウントを使用してサインイン[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)。 
     
-2. 管理センターで、[**設定**] > [**組織プロファイル**] の順に選びます。 
+2. In the admin center, choose **Settings** > **Organization profile**. 
     
      ![Choose Settings and then choose Organization profile.](../../images/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
@@ -73,4 +77,5 @@ ms.lasthandoff: 02/19/2018
     
 - [キーボード レイアウトの言語を有効化または変更する](https://support.office.com/en-us/article/Enable-or-change-a-keyboard-layout-language-1c2242c0-fe15-4bc3-99bc-535de6f4f258)
     
-
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "組織で電話会議の動的な Id を使用します。"
+title: 組織で電話会議の動的な Id を使用します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "各 Skype は、さまざまな会議 Id を持つビジネスおよびマイクロソフトのチームの会議には、オーディオ会議サービスを更新しています。 提供するため静的会議 Id が大幅に向上が、動的な会議 Id:"
-ms.openlocfilehash: c4158537f7c36299a82df92d3c6ced6cb6189315
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: '各 Skype は、さまざまな会議 Id を持つビジネスおよびマイクロソフトのチームの会議には、オーディオ会議サービスを更新しています。 提供するため静的会議 Id が大幅に向上が、動的な会議 Id:'
+ms.openlocfilehash: 418e6f486b8108791930c7843bfed8bdc56e83ef
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="using-audio-conferencing-dynamic-ids-in-your-organization"></a>組織で電話会議の動的な Id を使用します。
 
@@ -61,7 +61,5 @@ ms.lasthandoff: 03/16/2018
 ## <a name="related-topics"></a>関連トピック
 
 - [Skype for Business Online のセットアップ](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
-    
-- [Skype for Business および Microsoft Teams の電話会議のセットアップ](set-up-audio-conferencing.md)
     
 - [Skype for Business と Microsoft Teams のアドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)

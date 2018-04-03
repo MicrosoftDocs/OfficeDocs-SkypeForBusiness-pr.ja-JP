@@ -1,5 +1,5 @@
 ---
-title: "英国を入力する問題が生じる理由 アドレス情報ですか。"
+title: 英国を入力する問題が生じる理由 アドレス情報ですか。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.CivicAddressGBSyntaxError
 ms.custom:
 - Calling Plans
-description: "なぜことができる問題は、アドレスや英国 (英国) でを正しく検証するためにアドレスを取得するいくつかの理由を次に示します。"
-ms.openlocfilehash: 6f77a9f69751df04d995c098768d99d85a6e2c70
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: なぜことができる問題は、アドレスや英国 (英国) でを正しく検証するためにアドレスを取得するいくつかの理由を次に示します。
+ms.openlocfilehash: 75373098af599768aa654f5327c1f40069ed51c7
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>英国を入力する問題が生じる理由 アドレス情報ですか。
 
@@ -117,3 +117,6 @@ ms.lasthandoff: 02/19/2018
 [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business Online インストールをテストする"
+title: Skype for Business Online インストールをテストする
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: 6f280e6345fb8a6af72cac35f4844f7a63caab48
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: 4ddd99dec5e8c283741380b68e01ef97363fda85
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Skype for Business Online インストールをテストする
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 02/27/2018
     
 - テスト アカウントごとに 1 台のコンピューター。組織内の通常のコンピューターと同様にセットアップします。
     
-- Skype for Business Online の電話会議プロバイダーがセットアップされたアカウント。詳細については、「[Skype for Business および Microsoft Teams の電話会議のセットアップ](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)」をご覧ください。
+- Skype for Business Online の電話会議プロバイダーがセットアップされたアカウント。 
     
 ## <a name="what-do-you-want-to-do"></a>目的に合ったトピックをクリックしてください。
 
@@ -73,8 +73,6 @@ Skype for Business Online 会議に電話でアクセスできるようにする
 - 組織で会議をスケジュールまたは進行するユーザーごとの会議コードと個人識別番号 (PIN)
     
 ユーザーを電話会議向けにセットアップすると、そのユーザーはダイヤルイン番号と会議コードが記載された自動送信のメール メッセージを受け取ります。また、この情報は、新しい Skype for Business の会議出席依頼にも自動的に追加されます。
-  
-詳細については、「[Skype for Business および Microsoft Teams の電話会議のセットアップ](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)」をご覧ください。 
   
  **テスト ユーザーのアカウントに電話会議情報を追加するには**
   
@@ -141,5 +139,5 @@ Skype for Business Online 会議に電話でアクセスできるようにする
 
 [Skype for Business ユーザーが Skype 連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 

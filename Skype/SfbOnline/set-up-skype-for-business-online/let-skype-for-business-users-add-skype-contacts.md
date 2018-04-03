@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business ユーザーが Skype 連絡先を追加できるようにする"
+title: Skype for Business ユーザーが Skype 連絡先を追加できるようにする
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,11 +18,11 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to  let people who are using Skype for Business contact Skype for Business users from outside your organization and add them to their list of contacts. '
-ms.openlocfilehash: 961fc75aec1c01cbee3199c4c576a42e2c626849
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: c9867478474bd344674b1392af4d909931760b8c
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Skype for Business ユーザーが Skype 連絡先を追加できるようにする
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 02/27/2018
   
 Office 365 でこれを行うには、[Office 365 の管理者ロールについて](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US)が必要です。
   
-1. [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage). で Office 365管理者アカウントでサインインします。
+1. Office 365 の管理者アカウントを使用してサインイン[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage)。
     
 2. Office 365 管理センターで、[**管理センター**]  >  [**Skype for Business**] に移動します。 
     
@@ -102,5 +102,5 @@ Microsoft アカウント (旧称 Windows Live ID) でサインインした Skyp
   
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 

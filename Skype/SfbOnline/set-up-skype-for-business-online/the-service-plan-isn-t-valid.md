@@ -1,5 +1,5 @@
 ---
-title: "オンラインのビジネスのサービス プランのユーザーの Skype が正しくありません。"
+title: オンラインのビジネスのサービス プランのユーザーの Skype が正しくありません。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords:
 - ms.lync.lac.ServicePlanNotValid
 ms.custom:
 - Setup
-description: "Skype オンライン ビジネスのサービス計画にはない有効なエラーの後にユーザーの有効なサービスの計画を割り当てる場所を参照してください。 "
-ms.openlocfilehash: d109386134afdca9641eac6b5f9c9b2aad1f45c1
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Skype オンライン ビジネスのサービス計画にはない有効なエラーの後にユーザーの有効なサービスの計画を割り当てる場所を参照してください。 '
+ms.openlocfilehash: f7a68154d3b81e8f7108f147d1016466f71a924a
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>オンラインのビジネスのサービス プランのユーザーの Skype が正しくありません。
 
@@ -36,4 +36,5 @@ ms.lasthandoff: 02/19/2018
 
 [Skype for Business ユーザーが Skype 連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
   
-
+  
+ 

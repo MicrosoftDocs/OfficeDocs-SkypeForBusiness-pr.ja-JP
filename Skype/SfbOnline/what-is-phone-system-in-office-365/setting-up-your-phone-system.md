@@ -1,5 +1,5 @@
 ---
-title: "組織の電話システムを設定する."
+title: 組織の電話システムを設定する.
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "組織の電話システム (PBX をクラウド) を設定する方法について説明します。 "
-ms.openlocfilehash: dfecf35e4e10f74adfcb4d237e4f03c72048ed68
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: '組織の電話システム (PBX をクラウド) を設定する方法について説明します。 '
+ms.openlocfilehash: a9715797284f08c3d7f2ecbf3ba45a9269a5e0e0
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>組織の電話システムを設定する.
 
@@ -183,11 +183,7 @@ Office 365 から、ユーザーの電話番号を取得するだけでなく検
     
     - **オーディオ会議プロバイダーとして、サード パーティ製**: サード ・ パーティ製のオーディオを選択する場合、Office 365 での音声会議を使用できないための場所では、優れたサービスの品質はありません、既存の契約がある国で、会議プロバイダーです。 プロバイダーを検索するには、[マイクロソフトの特定](http://go.microsoft.com/fwlink/?LinkId=797530)に移動します。
  
-2.  人が発生したり、会議をスケジュールするには、オーディオ会議プロバイダーを割り当てます。 次のいずれかの操作を行います。 
-
-    - [オーディオ会議プロバイダーとしてマイクロソフトを割り当てます](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)。
-    
-    - [オーディオ会議プロバイダーとしてサードパーティ製の割り当て](../audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider.md)を。
+2.  人が発生したり、会議をスケジュールするには、オーディオ会議プロバイダーを割り当てます。 [オーディオ会議プロバイダーとしてのマイクロソフトの割り当て](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)を参照してください。
 
 3. 会議出席依頼を設定します。 次の手順は省略可能ですが、管理者の多くが実行するために。 
   
@@ -280,5 +276,5 @@ Before you can create and set up your call queues, you will need to get or trans
 
 [国および地域ごとの電話会議および通話プランの利用可能性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
     
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 

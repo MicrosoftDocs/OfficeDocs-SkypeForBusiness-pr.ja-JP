@@ -1,5 +1,5 @@
 ---
-title: "オーディオ会議の番号の一覧を参照してください。"
+title: オーディオ会議の番号の一覧を参照してください。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "ビジネス用の Skype から、会議にダイヤルイン番号を検索する方法について説明します。 "
-ms.openlocfilehash: 75e1d78581585f5c9ce94b78a19191918827dbbf
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: 'ビジネス用の Skype から、会議にダイヤルイン番号を検索する方法について説明します。 '
+ms.openlocfilehash: 19bbf38968afb094deaf97ff14a6673b4cfdda48
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers"></a>オーディオ会議の番号の一覧を参照してください。
 
@@ -80,7 +80,7 @@ ms.lasthandoff: 03/16/2018
     > [!NOTE]
     > [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 
-[Skype for Business および Microsoft Teams の電話会議のセットアップ](set-up-audio-conferencing.md)
+[Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
   

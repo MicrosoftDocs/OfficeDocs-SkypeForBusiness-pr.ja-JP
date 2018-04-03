@@ -1,5 +1,5 @@
 ---
-title: "カナダでの利用可能性"
+title: カナダでの利用可能性
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "カナダで利用できる Skype for Business と Microsoft Teams の Office 365 サービスを以下に示します。"
+description: カナダで利用できる Skype for Business と Microsoft Teams の Office 365 サービスを以下に示します。
 ms.openlocfilehash: 19bd588ec12256512d7007b378db4c79ee4e2c20
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-canada"></a>カナダでの利用可能性
 

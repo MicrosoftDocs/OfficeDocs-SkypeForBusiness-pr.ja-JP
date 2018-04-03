@@ -1,5 +1,5 @@
 ---
-title: "電話システム呼び出しキューを作成します。"
+title: 電話システム呼び出しキューを作成します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Strat_SB_PSTN
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 784033005882eeca105fd59a543ce9d1009ea84f
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
+ms.openlocfilehash: a6eac4b7fec191d9e897f41e3c32b270ab21abcf
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="create-a-phone-system-call-queue"></a>電話システム呼び出しキューを作成します。
 
@@ -142,7 +142,7 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
  3. [ユーザー設定] ページで、**キューの呼び出し**、] をクリックし、脱退する任意のキューのチェック ボックスをオフにし、します。
  
     > [!NOTE] 
-    > Mac を使用してエージェントでは、モバイル、または Lync 2013 クライアント、またはハイブリッド音声ユーザーにホストの設置型オプションを opt にアクセスするための[https://aka.ms/cqsettings](https://aka.ms/cqsettings)に進むことがビジネス 2015年サーバーでは、Skype を使用します。
+    > Mac を使用してエージェントでは、モバイル、または Lync 2013 クライアント、またはハイブリッド音声ユーザーにホストの設置型ビジネス 2015年サーバーでは、Skype を使用することができますには、 [https://aka.ms/cqsettings](https://aka.ms/cqsettings) 、opt out オプションにアクセスします。
    
 ### <a name="add-call-agents-to-a-call-queue"></a>コール エージェントを通話キューに追加する
 
@@ -245,5 +245,5 @@ Windows PowerShell を使用して通話キューを作成し、設定するこ�
 
 [国および地域ごとの電話会議および通話プランの利用可能性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 

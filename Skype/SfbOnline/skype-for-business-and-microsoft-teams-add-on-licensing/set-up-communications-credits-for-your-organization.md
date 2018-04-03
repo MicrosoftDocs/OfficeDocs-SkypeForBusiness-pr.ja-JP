@@ -1,5 +1,5 @@
 ---
-title: "組織のために通信クレジットをセットアップする"
+title: 組織のために通信クレジットをセットアップする
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: bb9f2a8d-f5be-41ed-9d19-25dea5ca9f52
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Licensing
 - Strat_SB_PSTN
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: b2eb4616e9f79392558d421723ee013759a455fd
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 8a60efc9318354b9873c976cf717d3dd2cf73b3d
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>組織のために通信クレジットをセットアップする
 
@@ -41,7 +43,7 @@ ms.lasthandoff: 02/19/2018
   
 - **電話会議**ライセンスをユーザーに自分に割り当てます。 「[Skype for Business と Microsoft Teams のライセンスを割り当てる](assign-skype-for-business-and-microsoft-teams-licenses.md)」をご覧ください。
     
-    このライセンスを割り当てた後、電話会議を設定する必要があります。詳細な手順については、「[Skype for Business および Microsoft Teams の電話会議のセットアップ](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)」をご覧ください。
+    このライセンスを割り当てた後、電話会議を設定する必要があります。 手順については、 [Office 365 に電話会議を購入するか](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)を参照してください。
     
 - **電話システム**と国内または国内および海外の計画を呼び出してライセンスをユーザーに割り当てます。 「[Skype for Business と Microsoft Teams のライセンスを割り当てる](assign-skype-for-business-and-microsoft-teams-licenses.md)」をご覧ください。
     
@@ -112,8 +114,6 @@ You can also see information by [signing in to the Office 365 admin center](http
 
 - [Skype for Business Online のセットアップ](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
-- [Skype for Business および Microsoft Teams の電話会議のセットアップ](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
-    
 - [電話システム ボイスメールのセットアップ - 管理者ヘルプ](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
     
 - [プランの呼び出しを設定](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)し、 [Office 365 のプランを呼び出す](calling-plans-for-office-365.md)
@@ -121,3 +121,6 @@ You can also see information by [signing in to the Office 365 admin center](http
 - [利用可能残高を追加してコミュニケーション クレジットを管理する](add-funds-and-manage-communications-credits.md)
     
 - [クラウド コネクタを構成して](https://technet.microsoft.com/en-us/library/mt605228.aspx)、[クラウドのコネクタをダウンロード](https://aka.ms/CloudConnectorInstaller)
+
+  
+ 

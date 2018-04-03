@@ -1,5 +1,5 @@
 ---
-title: "管理者の個々 のユーザー設定のビジネスの Skype の構成"
+title: 管理者の個々 のユーザー設定のビジネスの Skype の構成
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1_keywords:
 ms.custom:
 - Setup
 - LIL_Placement
-description: "個々 のユーザーについては、ビジネスの Skype を次のように変更する方法について: オーディオおよびビデオ会議、通話の記録との会議。 "
-ms.openlocfilehash: 3be7ff64d3dfe84ea05753de77f4b0420c6e5787
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: '個々 のユーザーについては、ビジネスの Skype を次のように変更する方法について: オーディオおよびビデオ会議、通話の記録との会議。 '
+ms.openlocfilehash: 8659434542696ccb37a0353cd491cc0d01f01e30
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>管理者: 個々 のユーザーについては、ビジネスの Skype を構成します。
 
@@ -109,5 +109,5 @@ ms.lasthandoff: 02/27/2018
 
 [Skype for Business と Microsoft Teams のアドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "ダイヤルイン情報を持つユーザーに電子メールを送信します。"
+title: ダイヤルイン情報を持つユーザーに電子メールを送信します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "ユーザーの音声会議情報を使用して電子メールを送信します。"
-ms.openlocfilehash: 70533de9fbf942a6ff7bd00f3998ede9f43ff96a
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: ユーザーの音声会議情報を使用して電子メールを送信します。
+ms.openlocfilehash: f1e4ddd06011d7eb85253e06d6b7de775a207683
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information"></a>ユーザーにダイヤルイン会議情報が含まれたメールを送信する
 
@@ -112,6 +112,6 @@ ms.lasthandoff: 03/16/2018
     > [!NOTE]
     > [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 
-[Skype for Business および Microsoft Teams の電話会議のセットアップ](set-up-audio-conferencing.md)
+[Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

@@ -1,5 +1,5 @@
 ---
-title: "設定を変更するときにユーザーに送信される e メール"
+title: 設定を変更するときにユーザーに送信される e メール
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "についてどのような情報が自動的にユーザーに電子メールで送信された、ダイヤルイン会議の設定を変更する場合について説明します。 "
-ms.openlocfilehash: f6155938c94270cff2defccf2db641a18e6cb68d
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: 'についてどのような情報が自動的にユーザーに電子メールで送信された、ダイヤルイン会議の設定を変更する場合について説明します。 '
+ms.openlocfilehash: f504e9b807afb4a587a9d6f13baf69a3c5b9db68
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="emails-sent-to-users-when-their-settings-change"></a>設定を変更するときにユーザーに送信される e メール
 
@@ -73,7 +73,7 @@ ms.lasthandoff: 03/16/2018
     
     これは、**オーディオ会議**のライセンスが削除されると、ユーザー、またはサード ・ パーティ製のオーディオ会議プロバイダーをマイクロソフトからユーザーの電話会議プロバイダーを変更する場合、プロバイダーを**[なし]**に設定する場合に発生します。 この電子メールには、説明および既定の会議電話番号] または [会議 ID などの特定の情報、オーディオ会議を削除するのには会議の更新ツールのオンライン ビジネスの Skype を使用するユーザーの情報が含まれています。
     
-    [割り当てまたはビジネスのための Office 365 のライセンスを削除する](https://support.office.com/en-us/article/997596b5-4173-4627-b915-36abac6786dc)か、[サード パーティ製のオーディオ会議プロバイダーとして割り当て](assign-a-third-party-as-the-audio-conferencing-provider.md)を参照してください。
+    「[一般法人向け Office 365 ライセンスの割り当てまたは解除方法](https://support.office.com/en-us/article/997596b5-4173-4627-b915-36abac6786dc)」をご覧ください。
     
     このメールの例を以下に示します。
     

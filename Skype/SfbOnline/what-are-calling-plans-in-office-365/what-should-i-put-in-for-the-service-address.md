@@ -1,5 +1,5 @@
 ---
-title: "入れるもの、サービスのアドレスのでしょうか。"
+title: 入れるもの、サービスのアドレスのでしょうか。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoServiceAddress
 ms.custom:
 - Calling Plans
-description: "については、サービスのアドレスとは、請求先住所との違いし、それを見つけることができます。 "
-ms.openlocfilehash: 4c07c9724db61894fad659343470dfc50a76e494
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'については、サービスのアドレスとは、請求先住所との違いし、それを見つけることができます。 '
+ms.openlocfilehash: c5791e2bb48bc6fb8a42c1941ed3b6b225b22460
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-should-i-put-in-for-the-service-address"></a>入れるもの、サービスのアドレスのでしょうか。
 
@@ -46,5 +46,5 @@ ms.lasthandoff: 02/27/2018
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 

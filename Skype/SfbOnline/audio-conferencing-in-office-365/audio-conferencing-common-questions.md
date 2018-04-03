@@ -1,5 +1,5 @@
 ---
-title: "オーディオ会議の一般的な質問"
+title: オーディオ会議の一般的な質問
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,19 +21,17 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "オーディオ会議を使用する場合、お客様から取得する上位の質問の一部を次に示します。"
-ms.openlocfilehash: e699cd6a8c481df892114af5365866df8169019e
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: オーディオ会議を使用する場合、お客様から取得する上位の質問の一部を次に示します。
+ms.openlocfilehash: f31f6744fa04697aa2ff24455aa440769f0f824b
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="audio-conferencing-common-questions"></a>オーディオ会議の一般的な質問
 
 オーディオ会議を使用する場合、お客様から取得する上位の質問の一部を次に示します。 
   
-オーディオ会議を設定する手順については、[ビジネスおよびマイクロソフトのチームに Skype の電話会議の設定](set-up-audio-conferencing.md)を参照してください。
-
 ## <a name="what-are-the-benefits-of-audio-conferencing"></a>オーディオ会議のメリットを挙げてください。
 
 会議へ呼び出しは、人が、外出中に、たとえば、および、Skype を使用して、ラップトップやモバイル デバイスにアプリケーションをビジネスまたはマイクロソフトのチームの会議に出席できない場合に役立ちます。 会議は、コンピューター上のアプリケーションを使用してではなく、使用することで、電話、Skype のビジネスまたはマイクロソフトのチームへの参加を他のシナリオがあります。
@@ -150,10 +148,8 @@ Skype の会議のブロードキャストに参加する電話会議が有効�
 
 - **オプション 2**: 特定のオーガナイザーをインストールするには、(既定で無効になっている)「できるようにするには、会議の最初の人を呼び出し元が認証されていない」の設定が有効になっているかどうかは、そのユーザーがスケジュールされているすべての会議は、開催者を入力することなしに起動するようになりますか電話会議の暗証番号 (pin) です。 この設定を有効にすると、最初の参加者がダイヤルインの電話番号を使用して結合し、彼または彼女は配置できません。 ロビーとすぐにミーティングを開始します。 追加情報を参照してください、[ユーザーの電話会議の管理設定](manage-the-audio-conferencing-settings-for-a-user.md)
    
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>関連トピック
 
-[Skype for Business および Microsoft Teams の電話会議のセットアップ](set-up-audio-conferencing.md)
-  
 [Skype for Business Online のセットアップ](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
   
 [電話会議の電話番号](phone-numbers-for-audio-conferencing.md)

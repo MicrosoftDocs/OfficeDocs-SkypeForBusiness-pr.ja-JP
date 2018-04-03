@@ -1,5 +1,5 @@
 ---
-title: "ビジネス オンラインの Skype を設定します。"
+title: ビジネス オンラインの Skype を設定します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - Alchemy
 - LIL_Placement
-description: "ビジネス用の Skype をインストールするのには、ドメイン、ユーザー、IM およびプレゼンスを組織の設定について説明します。 オーディオ会議、電話システムおよび計画を呼び出すには、Skype の会議のブロードキャストを設定する方法を参照してください。 "
-ms.openlocfilehash: 122ff43fd13a2bd9e2207d9e4e1c2b6e5d8be2a8
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'ビジネス用の Skype をインストールするのには、ドメイン、ユーザー、IM およびプレゼンスを組織の設定について説明します。 オーディオ会議、電話システムおよび計画を呼び出すには、Skype の会議のブロードキャストを設定する方法を参照してください。 '
+ms.openlocfilehash: ad0608dbb637b4b2343bf39d47b2beea0ca9e12c
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-skype-for-business-online"></a>ビジネス オンラインの Skype を設定します。
   
@@ -130,8 +130,6 @@ Office 365 にサインインしていることビジネス オンラインの S
 
 組織内のユーザーは電話を使って会議に参加する必要が生じることがあります。 ビジネス用の Skype には、これだけの電話会議機能が含まれています! 参加者は、モバイル デバイスや PC で Skype for Business アプリを使用する代わりに、電話を使って Skype for Business 会議にコールインできます。
   
-ステップ バイ ステップのセットアップ手順については、Office 365 の[ビジネスおよびマイクロソフトのチームに Skype の電話会議の設定](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)を参照してください。
-  
 ### <a name="set-up-phone-system-and-the-calling-plans-in-office-365"></a>電話システムと Office 365 の通話プランを設定します。
 
 Office 365 の電話システムの機能を使用すると、お客様のビジネス電話システムです。 ビジネスに携わる人々、組織内の他の Skype への呼び出しは、自由、および呼び出し元の内外から他の従業員がボイスメールを受け取ることができます。 電話システムで取得するにはここです。
@@ -152,7 +150,7 @@ Skype 会議のブロードキャストを設定する手順の概要を以下�
     
 3. [Skype 会議をブロードキャストするためにネットワークを設定します](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md): ウェビナーをホストし、他の放送参加者と別の組織をする場合、ネットワークを構成する必要があります。
     
-4. [Skype 会議のブロードキャストのスケジュール](http://support.office.com/article/c3995bc9-4d32-4f75-a004-3bc5c477e553) [Skype の会議のブロードキャストの結合](http://support.office.com/article/14689da0-821d-48d4-9035-ea762de80ebe): *https://portal.broadcast.skype.com*で、Skype の会議のブロードキャストをスケジュールし、他の会議のブロードキャストの作業に参加しようとするかどうかを確認、会議。
+4. [Skype 会議のブロードキャストのスケジュール](http://support.office.com/article/c3995bc9-4d32-4f75-a004-3bc5c477e553) [、Skype の会議のブロードキャストの結合](http://support.office.com/article/14689da0-821d-48d4-9035-ea762de80ebe)があると: 会議のブロードキャストを確認の作業で、Skype の会議のブロードキャストをスケジュールすることによって作成*https://portal.broadcast.skype.com*ミーティングに参加しようとする者が、必要とします。
     
 ## <a name="learn-about-network-connectivity-requirements"></a>ネットワーク接続の要件についてください。
 <a name="bkmk_more"> </a>
@@ -177,5 +175,5 @@ Skype 会議のブロードキャストを設定する手順の概要を以下�
 
 [Skype ビジネス サーバーとビジネス オンラインの Skype との間のハイブリッド接続を計画します。](https://go.microsoft.com/fwlink/p/?linkid=400791)
   
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 

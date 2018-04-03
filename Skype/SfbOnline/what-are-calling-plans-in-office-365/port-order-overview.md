@@ -1,5 +1,5 @@
 ---
-title: "番号移行注文の概要"
+title: 番号移行注文の概要
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderOverview
 ms.custom:
 - Calling Plans
-description: "サービス プロバイダーでの電話番号を Skype for Business に移行する方法の簡単な概要を理解します。 "
-ms.openlocfilehash: 6006f03b8780ba499240f2f3c816dda71d457e1c
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'サービス プロバイダーでの電話番号を Skype for Business に移行する方法の簡単な概要を理解します。 '
+ms.openlocfilehash: 503c160e11eaab62b815f0f66a13a30546f6dfd6
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="port-order-overview"></a>番号移行注文の概要
 
@@ -49,5 +49,5 @@ ms.lasthandoff: 02/27/2018
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 

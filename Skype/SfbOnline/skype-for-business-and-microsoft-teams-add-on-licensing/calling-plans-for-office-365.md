@@ -1,5 +1,5 @@
 ---
-title: "Office 365 のプランを呼び出す"
+title: Office 365 のプランを呼び出す
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -26,11 +26,11 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 53898ee5c2ac46deca22e8ea0bbfbd327868dfb3
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.openlocfilehash: 3643819eb5d085580164b837d70250e79bd464f3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="calling-plans-for-office-365"></a>Office 365 のプランを呼び出す
 
@@ -57,7 +57,7 @@ ms.lasthandoff: 03/08/2018
     ![クラウド PBX ライセンスを購入するときは、計画を呼び出し、ボイスを購入するためのオプションが表示されます。](../images/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > 計画によっては、電話システムのライセンスを購入する前に、複数のアドオンを購入する必要があります。 詳細についてを参照してください[より多くの機能を取得するためにはどのアドオン ・ ライセンスが必要ですか?](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_whichaddons)
+    > 計画によっては、電話システムのライセンスを購入する前に、複数のアドオンを購入する必要があります。 詳細については、 [Skype](skype-for-business-and-microsoft-teams-add-on-licensing.md)で「ライセンスのオプション計画に基づく」を参照してください。
   
 2. 電話システム用のライセンスを購入した後は、 **Office 365 の管理センター**にサインインして呼び出すことの計画を購入、**請求先**を選択して > **購買サービス** > **アドオンのサブスクリプション**をクリックし、[**今すぐ購入**します。 呼び出す予定が表示されます。
     
@@ -99,8 +99,6 @@ ms.lasthandoff: 03/08/2018
 
 - [Skype for Business Online のセットアップ](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
-- [Skype for Business および Microsoft Teams の電話会議のセットアップ](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
-    
 - [電話システム ボイスメールのセットアップ - 管理者ヘルプ](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
     
 - [通話プランのセットアップ](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
@@ -109,5 +107,5 @@ ms.lasthandoff: 03/08/2018
     
 - [クラウド コネクタを構成して](https://technet.microsoft.com/en-us/library/mt605228.aspx)、[クラウドのコネクタをダウンロード](https://aka.ms/CloudConnectorInstaller)
   
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 

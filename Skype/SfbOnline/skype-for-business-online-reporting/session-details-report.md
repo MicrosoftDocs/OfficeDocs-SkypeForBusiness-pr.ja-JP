@@ -1,5 +1,5 @@
 ---
-title: "セッション詳細レポート"
+title: セッション詳細レポート
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: "新しい Office 365 のレポート ダッシュ ボードによって、組織で Office 365 製品間でのアクティビティの概要がわかります。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。"
-ms.openlocfilehash: 849bccd0b56ffe99a77a251989307f8528206fd9
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 新しい Office 365 のレポート ダッシュ ボードによって、組織で Office 365 製品間でのアクティビティの概要がわかります。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。
+ms.openlocfilehash: 3f33c08f271e638aa160319d39f2e66f97f61a1a
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="session-details-report"></a>セッション詳細レポート
 
@@ -118,3 +118,6 @@ ms.lasthandoff: 02/19/2018
     
 ## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 [Office 365 管理センターのアクティビティ レポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+
+  
+ 

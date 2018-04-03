@@ -1,5 +1,5 @@
 ---
-title: "割り当て、変更、またはユーザーの電話番号を削除"
+title: 割り当て、変更、またはユーザーの電話番号を削除
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "割り当て、変更、または企業やクライアントの外部呼び出すことができますので、ビジネス ユーザー向けに、Skype を勤務先電話番号を削除する方法について説明します。"
-ms.openlocfilehash: e30d5949cb667a1a9b6d6bc4c66b82093aa40fbc
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: 割り当て、変更、または企業やクライアントの外部呼び出すことができますので、ビジネス ユーザー向けに、Skype を勤務先電話番号を削除する方法について説明します。
+ms.openlocfilehash: 25ef3478a77da97e354e3652f3b605b47d4afb60
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>割り当て、変更、またはユーザーの電話番号を削除
 
@@ -126,5 +126,5 @@ Office 365 のプランを呼び出すことを取得する方法とをかかる
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 

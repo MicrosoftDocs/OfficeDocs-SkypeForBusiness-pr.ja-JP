@@ -1,5 +1,5 @@
 ---
-title: "電話番号の数で入手できるでしょうか。"
+title: 電話番号の数で入手できるでしょうか。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "組織で使用する電話番号を取得しようと考えているときに、割り当て済みのライセンスで提供される数以上の電話番号を取得することができます。 ただし、取得できる数は、電話番号のタイプと、ご購入された割り当て済みライセンスのタイプに応じて変わります。 さまざまな種類のビジネス オンラインの Skype で使用される別の電話番号を知るために計画を呼び出すことのために使用する電話番号をクリックすることができます。"
-ms.openlocfilehash: 51b6276c5bc29b978b3a77b28c09529e621e8e0c
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: 組織で使用する電話番号を取得しようと考えているときに、割り当て済みのライセンスで提供される数以上の電話番号を取得することができます。 ただし、取得できる数は、電話番号のタイプと、ご購入された割り当て済みライセンスのタイプに応じて変わります。 さまざまな種類のビジネス オンラインの Skype で使用される別の電話番号を知るために計画を呼び出すことのために使用する電話番号をクリックすることができます。
+ms.openlocfilehash: 729f99b2b0f0a3507c6ecba0e119fe12083ac6c2
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>電話番号の数で入手できるでしょうか。
 
@@ -59,5 +59,5 @@ ms.lasthandoff: 03/08/2018
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 

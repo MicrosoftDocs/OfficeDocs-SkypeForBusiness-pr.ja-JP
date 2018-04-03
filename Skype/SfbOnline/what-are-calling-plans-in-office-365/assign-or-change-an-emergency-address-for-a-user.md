@@ -1,5 +1,5 @@
 ---
-title: "割り当てるか、緊急時のユーザーのアドレスを変更"
+title: 割り当てるか、緊急時のユーザーのアドレスを変更
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "個々 のユーザーに、パブリック交換電話網 (PSTN) を動作するための緊急時の住所と電話番号を設定する方法について説明します。"
-ms.openlocfilehash: 1b86861e40ac1b5929176b1e0b8f6274d749e8f9
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: 個々 のユーザーに、パブリック交換電話網 (PSTN) を動作するための緊急時の住所と電話番号を設定する方法について説明します。
+ms.openlocfilehash: d1323f400e15b629d6fc623636c4060028ec42c1
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>割り当てるか、緊急時のユーザーのアドレスを変更
 
@@ -67,5 +67,5 @@ Office 365 のプランを呼び出すことを取得する方法、コストし
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 

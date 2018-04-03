@@ -1,5 +1,5 @@
 ---
-title: "参照してください、変更、およびユーザーに割り当てられている会議 ID をリセットします。"
+title: 参照してください、変更、およびユーザーに割り当てられている会議 ID をリセットします。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "については、ビジネスの Skype のユーザーに会議 ID を割り当てる方法と、どのような会議 ID のパラメーターにする必要があります。 "
-ms.openlocfilehash: b542e764d0b8b1587c34e78a54612410cd72a3bd
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: 'については、ビジネスの Skype のユーザーに会議 ID を割り当てる方法と、どのような会議 ID のパラメーターにする必要があります。 '
+ms.openlocfilehash: 12fe2b0f425f58dca8272f5f0536ba5393b2f76c
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="see-change-and-reset-a-conference-id-assigned-to-a-user"></a>参照してください、変更、およびユーザーに割り当てられている会議 ID をリセットします。
 
@@ -108,7 +108,6 @@ Skype for Business 管理センターおよび Windows PowerShell を使用す�
     
 - オーディオ会議のユーザーのすべての会議 ID が既定では、7 桁になるし、以下の桁数を変更することはできません。
     
-- サード ・ パーティ製のオーディオ会議プロバイダーにオーディオ会議プロバイダーとして、ユーザーがマイクロソフトから移動したりされたり、オーディオ会議プロバイダーが**[なし]**に設定されて、会議 ID が動作しなくなります。 [オーディオ会議プロバイダーとしてサード パーティを割り当てる](assign-a-third-party-as-the-audio-conferencing-provider.md)か、[マイクロソフトのユーザーのオーディオ会議プロバイダーの移動](moving-a-user-s-audio-conferencing-provider-to-microsoft.md)を参照してください。
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Go to the Office 365 admin centerSkype for Business.
 
@@ -128,5 +127,5 @@ Skype for Business 管理センターおよび Windows PowerShell を使用す�
     
 ## <a name="related-topics"></a>See also
 
-[Skype for Business および Microsoft Teams の電話会議のセットアップ](set-up-audio-conferencing.md)
+[Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 

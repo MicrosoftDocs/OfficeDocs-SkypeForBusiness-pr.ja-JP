@@ -1,5 +1,5 @@
 ---
-title: "番号を新しいサービス プロバイダーに転送するための暗証番号を設定します。"
+title: 番号を新しいサービス プロバイダーに転送するための暗証番号を設定します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "転送または別の電話サービスプロバイダーまたは通信業者にオンライン ビジネスのポートの Skype からの電話番号、PIN を手動で設定する必要があります。 PIN を設定した後にポートの電話番号を要求するときに含めることを必要があります。"
-ms.openlocfilehash: 5800ca846e4f71490be24ae02d031fa0579e2ce5
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: 転送または別の電話サービスプロバイダーまたは通信業者にオンライン ビジネスのポートの Skype からの電話番号、PIN を手動で設定する必要があります。 PIN を設定した後にポートの電話番号を要求するときに含めることを必要があります。
+ms.openlocfilehash: f4ff20f4252686d047b3e9d83cf8beb4b3a9daae
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>番号を新しいサービス プロバイダーに転送するための暗証番号を設定します。
 
@@ -75,7 +75,7 @@ ms.lasthandoff: 03/08/2018
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 
   
 

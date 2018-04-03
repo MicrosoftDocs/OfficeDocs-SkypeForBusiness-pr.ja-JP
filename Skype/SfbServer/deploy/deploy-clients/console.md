@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: この記事では、Skype Room Systems バージョン 2 コンソール デバイスとその周辺機器の設定方法を説明します。
-ms.openlocfilehash: 6ca029fa7f5560dfdfebd789938d9b53ff2e9abc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6e2ec8384387cefd074342abb3da316288af1f0f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Skype Room Systems バージョン 2 コンソールを構成する
  
@@ -70,13 +70,9 @@ Skype ルーム システム v2 の USB セットアップ ディスクを作成
     
 5. Windows セットアップが起動したら、ボリューム ダウン (-) ボタンを離します。
     
-6. Skype ルーム システム v2 デバイス起動すると、最初の動作によって異なります AutoUnattend.xml ファイルのどのバージョンの Sysprep.exe を使用 ([インストール イメージの準備](console.md#Prep_Image)の手順 7 を参照してください)。
+6. インストールが完了したら、システムがシャット ダウンします。
     
-   - コマンドの /shutdown バージョンを有効にした場合、システムはインストールを続行し、最終的にシャットダウンします。シャットダウン後に、Windows PE を含む外部メディアにブートし、DISM を使用して、言語パックのインストール、イメージの適用、マシンからの参照イメージのキャプチャ、またはその他の操作を実行します。
-    
-   - コマンドの /reboot バージョンを有効にした場合、システムはインストールを続行し、ロケール設定を選択するようにユーザーに求めます。 このオプションを選択後、Skype ルーム システムのバージョン 2 のデバイスの最初の起動時に起動します。 「[コンソールの初期設定](console.md#Initial)」を参照してください。
-    
-システムをシャット ダウンまたは再起動した後に、USB セットアップ ディスクを安全に取り外すことができます。 この段階で、タブレットをドックに設置し、お使いの会議室に必要な周辺機器を接続できます。 製造元の指示を参照してください。
+システムがシャット ダウンした後、USB のセットアップ ディスクを削除すると安全です。 この段階で、タブレットをドックに設置し、お使いの会議室に必要な周辺機器を接続できます。 製造元の指示を参照してください。
   
  
 ### <a name="selecting-a-language-in-creators-update"></a>Creators Update での言語の選択

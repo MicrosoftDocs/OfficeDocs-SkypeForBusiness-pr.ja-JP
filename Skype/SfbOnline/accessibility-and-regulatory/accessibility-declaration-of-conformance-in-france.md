@@ -1,5 +1,5 @@
 ---
-title: "フランスの準拠のアクセシビリティの宣言"
+title: フランスの準拠のアクセシビリティの宣言
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
-description: "これは、コンテンツのアクセシビリティ、コンプライアンス要件を満たすために発行する必要がありますフランスのビジネスのオンラインの Skype の規制。 "
+hideEdit: true
+description: 'これは、コンテンツのアクセシビリティ、コンプライアンス要件を満たすために発行する必要がありますフランスのビジネスのオンラインの Skype の規制。 '
 ms.openlocfilehash: e7898502544b9a72be42f29751356c09d08d9e7d
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="accessibility-declaration-of-conformance-for-skype-for-business-online-in-france"></a>フランスのオンライン ビジネスの Skype の準拠のアクセシビリティの宣言
 

@@ -1,10 +1,10 @@
 ---
-title: "Microsoft を電話会議プロバイダーとして割り当てる"
+title: Microsoft を電話会議プロバイダーとして割り当てる
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 01/23/2018
+ms.date: 04/02/2018
 ms.topic: article
 ms.assetid: d935a90d-ea61-433d-a820-b400ed9c1f5d
 ms.tgt.pltfrm: cloud
@@ -22,20 +22,23 @@ ms.custom:
 - Audio Conferencing
 - Strat_SB_PSTN
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business. Conferencing bridge.
-ms.openlocfilehash: 0193743f9dd2ed6486d93d55c881f3e582e4eb04
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+ms.openlocfilehash: d572c9fc61b887679e434e669fc263c746be8bcf
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Microsoft を電話会議プロバイダーとして割り当てる
 
-オーディオ会議プロバイダーでは、*テレビ会議サービス*を提供します。 会議ブリッジでは、ダイヤルインの電話番号、Pin、および作成された会議の会議 Id を提供します。 必要なのは、電話会議プロバイダーを Skype for Business 会議または Microsoft Teams 会議をスケジュールまたは開催しようとしている人に割り当てることだけです。
-  
-**マイクロソフト**は、オーディオのプロバイダーとして一覧表示されていることができる場合は、**オーディオ会議**のライセンスをユーザーに割り当てる必要があります。
-  
-> [!NOTE]
-> **オーディオ会議**のライセンスを割り当てるには、サード ・ パーティ製のオーディオ会議プロバイダーをインストールしていない人に、オーディオ会議プロバイダーとしてマイクロソフトが自動的に割り当てられます。 必要な場合は[、サードパーティのオーディオ会議プロバイダーとしての割り当て](assign-a-third-party-as-the-audio-conferencing-provider.md)を実行できます。
+Skype で Office 365 に電話会議を使用して、ビジネスおよびマイクロソフトのチーム、組織内のユーザーは各自に割り当てられた電話会議のライセンスを取得する必要があります。 ライセンスと、必要なコストの詳細については、 [Office 365 に電話会議を購入するか](try-or-purchase-audio-conferencing-in-office-365.md)を参照してください。
+
+Microsoft オーディオ会議では、ダイヤルインの電話番号、Pin、および会議、組織の会議に参加するミーティングの参加者で使用できる Id を提供します。 オーディオ会議プロバイダーとしてマイクロソフトをスケジュールまたは Skype をビジネスまたはマイクロソフトのチーム会議をリードする人に割り当てる必要があるだけです。
+
+**オーディオ会議の Microsoft**のライセンスが、オーディオ会議プロバイダーをインストールしていないユーザーに割り当てられている場合、ユーザーのプロバイダーを**マイクロソフト**に自動的に設定され、何も行う必要はありません。 場合は、ユーザーが既に、オーディオ会議プロバイダーを使用して、オーディオ会議のライセンスを割り当てることの後を Microsoft にユーザーのプロバイダーを変更する必要があります。
+
+マイクロソフトは、オーディオ会議プロバイダーとして一覧表示されていることができる場合は、オーディオ会議のライセンスをユーザーに割り当てる必要があります。
+
+
   
 ## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Microsoft を電話会議プロバイダーとして割り当てる
 
@@ -46,9 +49,9 @@ ms.lasthandoff: 03/16/2018
     > [!NOTE]
     > プロバイダーが **Microsoft** に変更されるとき、ユーザーの電話会議情報 (電話会議 ID、有料電話番号と無料電話番号) が置き換えられます。プロバイダーを変更する前にこの情報を保存する必要があります。 
   
-2. **電話会議**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **のユーザー**、および利用可能なユーザーの一覧からユーザーを選択します。
+2. **Skype**ビジネス管理センターは、左側のナビゲーションでは、[**電話会議**に移動します。
     
-3. 操作ウィンドウで、[ **編集**] をクリックします。
+3. バナーが表示される場合が、**音声会議**をしているユーザーがあることを通知するライセンスは割り当てるが、マイクロソフトは、オーディオ会議プロバイダーとして設定いない場合、 **[**ここをクリックして移動する必要はありません。 バナーが表示されない場合、**ビジネス管理センターの Skype**で**ユーザー**] をクリックし、し、フィルターを選択、**ユーザーが電話会議に移動する準備ができて**。
     
 4. [**プロバイダー名**] で、ユーザーの [プロパティ] ページのドロップダウン ボックスの一覧で**Microsoft**を選択します。
     
@@ -63,31 +66,33 @@ ms.lasthandoff: 03/16/2018
 
 > [!NOTE]
 > プロバイダーが **Microsoft** に変更されるとき、ユーザーの電話会議情報 (電話会議 ID、有料電話番号と無料電話番号) が置き換えられます。プロバイダーを変更する前にこの情報を保存する必要があります。 
+
   
-次の 1 つまたは複数のスクリプトを PowerShell スクリプト ファイルとして保存して実行することができます。
+マイクロソフトのユーザー数が少ないためにプロバイダーを変更するには、[有効にする CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx)コマンドレットを使用することができます。
   
-マイクロソフトのユーザー数が少ないためにプロバイダーを変更するには、[有効にする CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx)を使用できます。
-  
-**例 1:** 更新したいユーザーのリストを指定して、このスクリプトを実行できます。
-> 
-  ```
-  Script.ps1 -UserList <List of users>
-  ./Script.ps1 -UserList "user01@constoso.com,   user02@contoso.com, user03@contoso.com"
-  ```
-**例 2:** 更新したい各ユーザーの電子メール アドレス (エイリアス) を含む .csv ファイルを指定して、このスクリプトを実行できます。  
-> 
-  ```
-  Script.ps1 -CsvFile <Path of the csv file>
-  ./Script.ps1 -CsvFile ".\\CsvFile.csv"
-  ```
+
 ### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a>多数のユーザーのために Windows PowerShell スクリプトを使用する
 時間を節約して自動化するために、次の PowerShell スクリプトを使用して、多数のユーザーのために Microsoft を電話会議プロバイダーとして設定することができます。
 
 プロバイダーが **Microsoft** に変更されるとき、ユーザーの電話会議情報 (電話会議 ID、有料電話番号と無料電話番号) が置き換えられます。プロバイダーを変更する前にこの情報を保存する必要があります。 
   
-次の 1 つまたは複数のスクリプトを PowerShell スクリプト ファイルとして保存して実行することができます。
+PowerShell スクリプト ファイルに次のスクリプトを保存し、その入力パラメーターのいずれかを使用してそれを実行できます。
 
-**例 1:** この例では、このスクリプトを使用して、組織内の多数のユーザーのために電話会議プロバイダーを Intercall (またはプロバイダー) から **Microsoft** に変更することができます。
+**例 1:** 更新したいユーザーのリストを指定して、このスクリプトを実行できます。
+   
+  ```
+Script.ps1 -UserList <List of users>
+./Script.ps1 -UserList "user01@constoso.com,    user02@contoso.com, user03@contoso.com"
+  ```
+
+**例 2:** 更新したい各ユーザーの電子メール アドレス (エイリアス) を含む .csv ファイルを指定して、このスクリプトを実行できます。
+   
+  ```
+Script.ps1 -CsvFile <Path of the csv file>
+./Script.ps1 -CsvFile ".\\CsvFile.csv"
+  ```
+
+**例 3:**この例では、ことができますスクリプトを使用するこの Intercall からオーディオ会議プロバイダー (または別のプロバイダー) を変更するのには**マイクロソフト**に大規模な数のユーザーの組織内。
     
   ```
   Script.ps1 -ACPProviderName <Provider>
@@ -192,17 +197,10 @@ ms.lasthandoff: 03/16/2018
   ```
 Windows PowerShell の使い方の詳細については、「[Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)」をご覧ください。
   
-## <a name="what-else-should-i-know"></a>他に必要な情報はありますか?
+    
+## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 
-- 1 人のユーザーに割り当てられるのは 1 つの電話会議プロバイダーのみです。
-    
-- いつでも電話会議プロバイダーをマイクロソフトからサードパーティのプロバイダーに変更することができます。詳細については、「[サードパーティを電話会議プロバイダーとして割り当てる](assign-a-third-party-as-the-audio-conferencing-provider.md)」をご覧ください。
-    
-- 組織内で、電話会議プロバイダーとして Microsoft を使用している人とサードパーティを使用している人が混在している場合があります。しかし、このような場合、設定と管理がより複雑になります。
-    
-## <a name="related-topics"></a>See also
-
-[Skype for Business および Microsoft Teams の電話会議のセットアップ](set-up-audio-conferencing.md)
+[Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
   
 [Skype for Business Online のセットアップ](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 

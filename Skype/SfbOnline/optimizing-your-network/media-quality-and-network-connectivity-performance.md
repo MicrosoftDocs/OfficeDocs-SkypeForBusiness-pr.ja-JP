@@ -1,5 +1,5 @@
 ---
-title: "メディアの品質とネットワーク接続のパフォーマンス"
+title: メディアの品質とネットワーク接続のパフォーマンス
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Optimization
-description: "このトピックは、オンライン ビジネス サービスの Skype のネットワーク パフォーマンスの要件のセットを定義し、ネットワークの評価に基づくビジネス オンラインの Skype、ネットワーク間の接続、インターネットまたは ExpressRoute を使用する選択する方法接続します。 Azure ExpressRoute Office 365 に専用の接続を導入する場合、別の Skype のオンライン ビジネスの展開シナリオで、ExpressRoute の接続を計画する方法のガイダンスも提供します。"
-ms.openlocfilehash: 7b68253fe44850009639de57eadee2edefeb5e0c
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: このトピックは、オンライン ビジネス サービスの Skype のネットワーク パフォーマンスの要件のセットを定義し、ネットワークの評価に基づくビジネス オンラインの Skype、ネットワーク間の接続、インターネットまたは ExpressRoute を使用する選択する方法接続します。 Azure ExpressRoute Office 365 に専用の接続を導入する場合、別の Skype のオンライン ビジネスの展開シナリオで、ExpressRoute の接続を計画する方法のガイダンスも提供します。
+ms.openlocfilehash: 11808a2462fff5ec5c3d6472d060dbba698735f3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>メディアの品質とオンライン ビジネスの Skype でのネットワーク接続のパフォーマンス
 
@@ -341,3 +341,5 @@ Contoso 社の他の配置オプションを次に示します。 この例で�
 
 [Skype for Business Online の ExpressRoute および QoS](expressroute-and-qos-in-skype-for-business-online.md)
 
+  
+ 

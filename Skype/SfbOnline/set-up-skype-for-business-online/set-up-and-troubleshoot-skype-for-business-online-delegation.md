@@ -1,5 +1,5 @@
 ---
-title: "設定し、Skype のオンライン ビジネスの委任のトラブルシューティング"
+title: 設定し、Skype のオンライン ビジネスの委任のトラブルシューティング
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: "この資料を設定し、オンライン ビジネスの委任のため Skype をトラブルシューティングする方法について説明します。 この記事では、設定の推奨事項、ベスト ・ プラクティス、およびトラブルシューティング手順を実行するためのガイダンスを提供します。"
-ms.openlocfilehash: b69f6712f78906bc955d3ce014fe8ccd6ab252c1
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: この資料を設定し、オンライン ビジネスの委任のため Skype をトラブルシューティングする方法について説明します。 この記事では、設定の推奨事項、ベスト ・ プラクティス、およびトラブルシューティング手順を実行するためのガイダンスを提供します。
+ms.openlocfilehash: 343559110b5026f09b22f8f85d6fc95b19abedb6
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>設定し、Skype のオンライン ビジネスの委任のトラブルシューティング
 
@@ -145,3 +145,6 @@ ms.lasthandoff: 02/19/2018
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype 連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
+
+  
+ 

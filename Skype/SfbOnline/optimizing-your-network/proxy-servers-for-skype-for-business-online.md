@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business Online 向けのプロキシ サーバー"
+title: Skype for Business Online 向けのプロキシ サーバー
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Optimization
-description: "この記事は、Skype for Business でのプロキシ サーバーの使用に関するガイダンスを提供します。"
-ms.openlocfilehash: 19c12ed4265c6549f00b54b3463215702d3ced2b
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: この記事は、Skype for Business でのプロキシ サーバーの使用に関するガイダンスを提供します。
+ms.openlocfilehash: 0f4d0b82eeaedd4b81ea84a8d8d3a67993d7be96
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="proxy-servers-for-skype-for-business-online"></a>Skype for Business Online 向けのプロキシ サーバー
 
@@ -71,8 +71,11 @@ Microsoft は次を実行することもお勧めします。
     
 Skype for Business に対する Blue Coat のネイティブ サポートは簡単に有効にすることができ、関連トラフィックの識別と、適切な管理が実現します。これにより最適な認証、シグナリング、メディア トラフィック フローを確実に行えるようになり、セキュリティ上の心配がない優れたユーザー エクスペリエンスが提供されます。
     
-Bluecoat のプロキシが、ネットワーク トポロジの一部である場合、次のリンクを参照してください: https://support.symantec.com/en_US/article.DOC9757.html
+Bluecoat のプロキシが、ネットワーク トポロジの一部である場合は、次のリンクを参照してください。https://support.symantec.com/en_US/article.DOC9757.html
 
 ## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 
 [Skype for Business Online 向けのネットワークの最適化](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)
+
+  
+ 

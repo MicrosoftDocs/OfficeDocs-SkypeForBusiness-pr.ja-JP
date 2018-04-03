@@ -1,5 +1,5 @@
 ---
-title: "有効にするかの設定を変更すると、送信メールを無効にします。"
+title: 有効にするかの設定を変更すると、送信メールを無効にします。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "有効にするか、暗証番号 (pin) の変更など、既定の会議の設定番号を変更するときに、ユーザーに e メールを送信することから、Skype を無効にする方法を説明します。 "
-ms.openlocfilehash: 2e8f4975e96531c02cbc2c1a05b4b615829f9205
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: '有効にするか、暗証番号 (pin) の変更など、既定の会議の設定番号を変更するときに、ユーザーに e メールを送信することから、Skype を無効にする方法を説明します。 '
+ms.openlocfilehash: e2a57a63cbc7b633e0240b7ec94f2d548a2dbe31
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change"></a>有効にするか、オーディオ会議の設定を変更すると、送信メールを無効にします。
 
@@ -135,4 +135,4 @@ You can use the Skype for Business admin center or Windows PowerShell to enable 
 
 [ユーザーに電話会議情報が含まれたメールを送信する](send-an-email-to-a-user-with-their-dial-in-information.md)
 
-[Skype for Business および Microsoft Teams の電話会議のセットアップ](set-up-audio-conferencing.md)
+

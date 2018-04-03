@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business Online 電話機の展開レポート"
+title: Skype for Business Online 電話機の展開レポート
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: faa17eb3-7483-4984-87f2-815d981b68ae
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "適切なファームウェアを取得し、更新が必要な場合、ライセンスを割り当てるビジネス オンライン電話の Skype の設定を構成する配置手順を説明します。"
-ms.openlocfilehash: 86756fb1033e2928a7427c9352fbf6fbb24dc154
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 適切なファームウェアを取得し、更新が必要な場合、ライセンスを割り当てるビジネス オンライン電話の Skype の設定を構成する配置手順を説明します。
+ms.openlocfilehash: ee6f8e0b892b8cef1c70c7bc01ba7e7d9c4cb8e8
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Skype for Business Online 電話機の展開レポート
 
@@ -38,7 +40,7 @@ ms.lasthandoff: 02/19/2018
 
 まず最初に、メーカーの管理ガイドと電話機のマニュアルをダウンロードすることをお勧めします。
   
-- ポリコム電話、ガイドを参照 [ポリコムの展開] ((http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html)。
+- ポリコム電話の場合は、[ポリコム展開ガイド] を参照してください ((http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html)。
     
 - Yealink 電話機については、『[Yealink Skype for Business HD SIP Phones Solution (Yealink Skype for Business HD SIP 電話機のソリューション)](http://www.yealink.com/products_top_2.html)』をご覧ください。
     
@@ -224,4 +226,5 @@ BToE の動作は [ *自動*  ] (既定) および [ *手動*  ] の 2 つのモ
 
 [国および地域ごとの電話会議および通話プランの利用可能性](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-
+  
+ 

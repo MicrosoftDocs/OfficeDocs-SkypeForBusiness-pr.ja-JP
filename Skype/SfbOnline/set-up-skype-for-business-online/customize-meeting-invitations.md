@@ -1,5 +1,5 @@
 ---
-title: "ミーティングの招待状をカスタマイズします。"
+title: ミーティングの招待状をカスタマイズします。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ f1keywords:
 - ms.lync.lac.MeetingInvitation
 ms.custom:
 - Setup
-description: "グラフィックのロゴ、ヘルプと有効な Url、およびフッターのテキストを持つ Skype ミーティングの招待状をカスタマイズします。 "
-ms.openlocfilehash: 9d53c59b574cd21333c8749ee2868e918f6bbe6f
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'グラフィックのロゴ、ヘルプと有効な Url、およびフッターのテキストを持つ Skype ミーティングの招待状をカスタマイズします。 '
+ms.openlocfilehash: 202669b67cb8feb3af7216a2faf9400a014da88e
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="customize-meeting-invitations"></a>ミーティングの招待状をカスタマイズします。
 
@@ -70,6 +70,7 @@ ms.lasthandoff: 02/19/2018
 ## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 <a name="__top"> </a>
 
+[Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
-[Skype for Business および Microsoft Teams の電話会議のセットアップ](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
-
+  
+ 

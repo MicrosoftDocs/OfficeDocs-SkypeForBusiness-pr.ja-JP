@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business Online の設定の概要"
+title: Skype for Business Online の設定の概要
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ ROBOTS: NOIDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Setup
-description: "Skype のビジネス組織とユーザー設定の概要では、パブリック IM 接続、会議出席依頼が、呼び出しと、会議の記録の詳細についてはできます。  "
-ms.openlocfilehash: e537074bea8d8243cbb4d951580c4432620ce539
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Skype のビジネス組織とユーザー設定の概要では、パブリック IM 接続、会議出席依頼が、呼び出しと、会議の記録の詳細についてはできます。  '
+ms.openlocfilehash: f730b18110f4c114ebb414a2aa863a9194b427a0
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Skype for Business Online の設定の概要
 
@@ -57,5 +57,5 @@ ms.lasthandoff: 02/27/2018
 
 [Skype for Business ユーザーが Skype 連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 

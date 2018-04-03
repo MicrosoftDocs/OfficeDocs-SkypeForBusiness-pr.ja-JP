@@ -1,5 +1,5 @@
 ---
-title: "ユーザーのシステムのアドレスを変更します。"
+title: ユーザーのシステムのアドレスを変更します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 5412636c-ad0e-48a5-b199-5925156abee4
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "緊急で、パブリック交換電話網 (PSTN)、米国とヨーロッパでの作業をユーザーのアドレスを変更する方法の手順を参照してください。 "
-ms.openlocfilehash: c30f4711609cf02b9614df21c1c62a826ec2421e
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: '緊急で、パブリック交換電話網 (PSTN)、米国とヨーロッパでの作業をユーザーのアドレスを変更する方法の手順を参照してください。 '
+ms.openlocfilehash: 1bf2b69e44fc8fd99c7b928f36330e6edeefcbd4
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="change-the-emergency-address-for-a-user"></a>ユーザーのシステムのアドレスを変更します。
 
@@ -68,3 +70,6 @@ Office 365 のプランを呼び出すことを取得する方法とをかかる
 [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "電話システムの自動応答を設定します"
+title: 電話システムの自動応答を設定します
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "設定し、組織の処理効率の呼び出しに自動応答の電話システム (PBX をクラウド) をテストする方法について説明します。 "
-ms.openlocfilehash: 60118fa973bc316b1b79f3d97e89953a40c6a9c7
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
+description: '設定し、組織の処理効率の呼び出しに自動応答の電話システム (PBX をクラウド) をテストする方法について説明します。 '
+ms.openlocfilehash: 275aececccca18b82cbd08a4f4aa580d1696dcf9
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>電話システムの自動応答を設定します
 
@@ -254,5 +254,5 @@ Windows PowerShell を使用して自動応答を作成し、設定すること�
 
 [国および地域ごとの電話会議および通話プランの利用可能性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
     
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 

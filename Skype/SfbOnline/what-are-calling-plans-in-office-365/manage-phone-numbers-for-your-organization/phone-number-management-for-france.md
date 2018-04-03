@@ -1,5 +1,5 @@
 ---
-title: "フランスでの電話番号の管理"
+title: フランスでの電話番号の管理
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "この表で、フランスでの Skype for Business Online および Microsoft Teams の電話番号の取得と管理についての情報を確認できます。"
-ms.openlocfilehash: 4efd4b83f930b05ee6c4a42be74e1760085c5016
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: この表で、フランスでの Skype for Business Online および Microsoft Teams の電話番号の取得と管理についての情報を確認できます。
+ms.openlocfilehash: 86cd32beb401761ab23b91b30cc0549e9002d06f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="phone-number-management-for-france"></a>フランスでの電話番号の管理
 
@@ -51,5 +51,5 @@ ms.lasthandoff: 03/08/2018
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 

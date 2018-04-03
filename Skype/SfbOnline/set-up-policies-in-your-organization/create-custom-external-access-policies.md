@@ -1,5 +1,5 @@
 ---
-title: "カスタム外部アクセス ポリシーを作成します。"
+title: カスタム外部アクセス ポリシーを作成します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: "ビジネス オンラインの Skype を使用すると、その他の外部アクセス ポリシーを作成できます。 複数の組み合わせを作成することが、クライアント、または会議のポリシーとは異なり、シナリオのほとんどをカバーできる 3 つの定義済みの外部アクセス ポリシーがあります。"
-ms.openlocfilehash: 7a5e347f3f9629f603544ad9ab06e11d4b649868
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: ビジネス オンラインの Skype を使用すると、その他の外部アクセス ポリシーを作成できます。 複数の組み合わせを作成することが、クライアント、または会議のポリシーとは異なり、シナリオのほとんどをカバーできる 3 つの定義済みの外部アクセス ポリシーがあります。
+ms.openlocfilehash: 6eb0d9ecd3eaacc34e8392bbd32329c801505c34
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="create-custom-external-access-policies"></a>カスタム外部アクセス ポリシーを作成します。
 
@@ -115,3 +115,6 @@ ms.lasthandoff: 02/19/2018
 [組織のクライアント ポリシーをセットアップする](set-up-client-policies-for-your-organization.md)
 
 [組織内の会議ポリシーを設定します](set-up-conferencing-policies-for-your-organization.md)
+
+  
+ 

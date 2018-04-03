@@ -1,5 +1,5 @@
 ---
-title: "プレゼンス プライバシー モードを構成します。"
+title: プレゼンス プライバシー モードを構成します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ f1keywords:
 - ms.lync.lac.OrgPresencePrivacy
 ms.custom:
 - Setup
-description: "ユーザーが、利用可能時間を表示する方法より細かく制御できますように、ユーザーのプライバシー モードを設定する方法について説明します。 "
-ms.openlocfilehash: 6a50370afb0e35873536162c9db28e4d75eed96e
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'ユーザーが、利用可能時間を表示する方法より細かく制御できますように、ユーザーのプライバシー モードを設定する方法について説明します。 '
+ms.openlocfilehash: f053ca555ee17f4c1421ae16d76a071a253e4738
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="configure-presence-privacy-mode"></a>プレゼンス プライバシー モードを構成します。
 
@@ -45,5 +45,5 @@ ms.lasthandoff: 02/27/2018
 
 [Skype for Business ユーザーが Skype 連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 

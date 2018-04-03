@@ -1,5 +1,5 @@
 ---
-title: "Skype ビジネス モバイル アプリケーションのセキュリティについて"
+title: Skype ビジネス モバイル アプリケーションのセキュリティについて
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: "ユーザーのモバイル アプリケーションのセキュリティの設定について説明します。 "
-ms.openlocfilehash: 98a748ca626d9b27a3e75ce5d75641155af7853d
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'ユーザーのモバイル アプリケーションのセキュリティの設定について説明します。 '
+ms.openlocfilehash: b3d75f9d5d4dc0b5e9cc76ee9dfd56bf9002ef6d
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="skype-for-business-mobile-app-security"></a>Skype ビジネス モバイル アプリケーションのセキュリティについて
 
@@ -43,5 +43,5 @@ ms.lasthandoff: 02/27/2018
 
 [Skype for Business ユーザーが Skype 連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 

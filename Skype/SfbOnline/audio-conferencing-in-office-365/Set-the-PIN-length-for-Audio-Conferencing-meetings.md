@@ -1,5 +1,5 @@
 ---
-title: "オーディオ会議の会議の暗証番号 (pin) の長さを設定します。"
+title: オーディオ会議の会議の暗証番号 (pin) の長さを設定します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "パラメーターの長さと、PIN の要件を説明し、ビジネスの Skype での会議の長さを設定する方法を参照してください。"
-ms.openlocfilehash: 6ae267edfb75030bfad10d07998e6b59107c8d6d
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: パラメーターの長さと、PIN の要件を説明し、ビジネスの Skype での会議の長さを設定する方法を参照してください。
+ms.openlocfilehash: 442ec6f4395b71acaf3296bdd6ec6317451dc36f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings"></a>オーディオ会議の会議の暗証番号 (pin) の長さを設定します。
 
@@ -82,4 +82,4 @@ ms.lasthandoff: 03/16/2018
   
 ## <a name="see-also"></a>関連項目
 
-[Skype for Business および Microsoft Teams の電話会議のセットアップ](set-up-audio-conferencing.md)
+[Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

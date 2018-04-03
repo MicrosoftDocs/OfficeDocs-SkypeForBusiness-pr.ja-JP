@@ -1,5 +1,5 @@
 ---
-title: "Skype 会議のブロードキャストのユーザー ライセンスをブロック"
+title: Skype 会議のブロードキャストのユーザー ライセンスをブロック
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,16 +17,16 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - SMB
-description: "残念ながら、ブロックされている特定のユーザー ライセンスがあるユーザーが https://broadcast.skype.com に移動し、Skype 会議のブロードキャストを使用します。 ユーザーがこのメッセージを見る場合があるブロックに割り当てられているライセンスの 1 つです。 必要がある場合にそれを使用する、別の Office 365 のライセンスを割り当てるにします。"
-ms.openlocfilehash: 946e073183f52af84adbbf5f727282f487db07c3
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 残念なことに、ブロックされている特定のユーザー ライセンスがある場合ユーザーには、 https://broadcast.skype.com Skype 会議のブロードキャストを使用するとします。 ユーザーがこのメッセージを見る場合があるブロックに割り当てられているライセンスの 1 つです。 必要がある場合にそれを使用する、別の Office 365 のライセンスを割り当てるにします。
+ms.openlocfilehash: 59b00fd9b7557177994a1d4279756c56aa5ba613
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Skype 会議のブロードキャストのユーザー ライセンスをブロック
 
-残念ながら、ユーザーが https://broadcast.skype.com に移動し、Skype 会議のブロードキャストを使用するときにブロックされている特定のユーザー ライセンスがあります。 ユーザーがこのメッセージを見る場合があるブロックに割り当てられているライセンスの 1 つです。 必要がある場合にそれを使用する、別の Office 365 のライセンスを割り当てるにします。
+残念ながら、ユーザーをアクセスするときにブロックされている特定のユーザー ライセンスがあるhttps://broadcast.skype.comSkype 会議のブロードキャストを使用するとします。 ユーザーがこのメッセージを見る場合があるブロックに割り当てられているライセンスの 1 つです。 必要がある場合にそれを使用する、別の Office 365 のライセンスを割り当てるにします。
   
  *」、会社のポリシーは、Skype 会議のブロードキャストを使用できます。確認して、システム管理者のサービスが有効になっており、適切なライセンスがあるかどうかを確認してください。* 
   
@@ -69,3 +69,6 @@ ms.lasthandoff: 02/19/2018
 [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
   
 [Skype for Business Online のセットアップ](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+
+  
+ 

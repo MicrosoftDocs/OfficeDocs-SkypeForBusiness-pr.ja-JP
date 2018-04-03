@@ -1,5 +1,5 @@
 ---
-title: "Office 365 のプランを呼び出すことは?"
+title: Office 365 のプランを呼び出すことは?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 - LIL_Placement
-description: "どのような Office 365 Callings 計画 (PSTN 通話) については、どのような領域では使用、およびそれを設定する方法の手順に移動する場所です。 "
-ms.openlocfilehash: 0fb7bf62be37a196eb5432eb747f77b5a08ecc93
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: 'どのような Office 365 Callings 計画 (PSTN 通話) については、どのような領域では使用、およびそれを設定する方法の手順に移動する場所です。 '
+ms.openlocfilehash: cc6405662eef6be5a2461147356b2a1a58fccf0f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-are-calling-plans-in-office-365"></a>Office 365 のプランを呼び出すことは?
 
@@ -71,5 +71,5 @@ ms.lasthandoff: 03/08/2018
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>フィードバックですか。
-製品に関するフィードバックを提供するには、かをお知らせいただいて、取り組み方は、 [Skype](https://www.skypefeedback.com)を参照してください。
+  
+ 

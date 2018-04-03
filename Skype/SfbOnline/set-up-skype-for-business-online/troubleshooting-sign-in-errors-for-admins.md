@@ -1,5 +1,5 @@
 ---
-title: "管理者の Skype をビジネス オンラインのサインインのエラーのトラブルシューティング"
+title: 管理者の Skype をビジネス オンラインのサインインのエラーのトラブルシューティング
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: "これらの問題のトラブルシューティングを行って Skype のオンライン ビジネスの記号のエラーや作業の一般的な原因を説明します。 "
-ms.openlocfilehash: aa5069e5fd5bf40ebd460c03b72ce8d9327da6d2
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'これらの問題のトラブルシューティングを行って Skype のオンライン ビジネスの記号のエラーや作業の一般的な原因を説明します。 '
+ms.openlocfilehash: 26541918db9598cbdaf9d61e52806da94bae9d46
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>管理者の Skype をビジネス オンラインのサインインのエラーのトラブルシューティング
 
@@ -214,3 +214,6 @@ Skype ビジネス オンラインのサインインのエラーのトラブル�
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype 連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
+
+  
+ 
