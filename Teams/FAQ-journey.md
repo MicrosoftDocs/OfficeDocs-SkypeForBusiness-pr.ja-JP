@@ -1,5 +1,5 @@
 ---
-title: "よくあるご質問 - Skype for Business から Microsoft Teams への移行"
+title: よくあるご質問 - Skype for Business から Microsoft Teams への移行
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,15 +7,15 @@ ms.date: 01/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: "Skype for Business Online から Microsoft Teams への移行に関してよく寄せられる質問を次に示します。"
+description: Skype for Business Online から Microsoft Teams への移行に関してよく寄せられる質問を次に示します。
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d14538fb0884be77ffaedefd3459c8448d981d34
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 648e43ab121f226893d72c7a38a80923aedda1f2
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/05/2018
 ---
 <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>よくあるご質問 - Skype for Business から Microsoft Teams への移行
 ==========================================================
@@ -62,7 +62,7 @@ Skype for Business サービスとクライアントのサポートは、引き�
 
 ### <a name="what-support-are-you-offering-to-customers-who-wish-to-move-to-teams-especially-those-who-have-made-significant-investments-in-skype-for-business-in-office-365"></a>Teams への移行を希望するカスタマーに提供されるサポートを教えてください。特に、Office 365 の Skype for Business にすでに大きな投資を行っているカスタマーに提供されるサポートを教えてください。
 
-お客様は Teams がお客様のビジネス ニーズを満たすようになるまで、Office 365 の Skype for Business を継続的に使用できます。 Teams にユーザーを移行することを希望するお客様について、Microsoft はそのプロセスを制御するためのツールやガイダンスを提供してサポートします。 規範的なガイダンスやベスト プラクティスを [https://aka.ms/skypeandteams](https://aka.ms/skypeandteams) で入手できます。 初回実行のエクスペリエンスおよび製品内のコーチ マークにより、Teams を使用したことのないユーザーが容易に移行できるよう支援します。 移行の手順をガイドする FastTrack、カスタマー サポート、パートナーを提供します。
+お客様は Teams がお客様のビジネス ニーズを満たすようになるまで、Office 365 の Skype for Business を継続的に使用できます。 Teams にユーザーを移行することを希望するお客様について、Microsoft はそのプロセスを制御するためのツールやガイダンスを提供してサポートします。 規範的なガイダンスおよびベスト ・ プラクティスができるように[https://aka.ms/skypeandteams](https://aka.ms/skypeandteams)。 初回実行のエクスペリエンスおよび製品内のコーチ マークにより、Teams を使用したことのないユーザーが容易に移行できるよう支援します。 移行の手順をガイドする FastTrack、カスタマー サポート、パートナーを提供します。
 
 ### <a name="what-does-this-mean-from-a-licensing-perspective-how-will-customers-pay-for-intelligent-communications-services-in-teams"></a>ライセンスの観点から、これをどのように理解すればよいですか? Teams のインテリジェント コミュニケーション サービスに対する支払い方法を教えてください。
 
@@ -77,7 +77,7 @@ Teams は Office 365 スイートで利用できます。 現在 Office 365 の 
 
 ### <a name="how-can-customers-learn-when-skype-for-business-capabilities-will-be-available-in-teams"></a>Skype for Business 機能がいつ Teams で利用可能になるかをどのようにして知ることができますか?
 
-利用可能になる予定の Teams 機能についての情報は [Office 365 ロードマップ](https://go.microsoft.com/fwlink/?linkid=859057)で公開する予定です。 Skype から Teams へのロードマップは [http://aka.ms/skype2teamsroadmap](http://aka.ms/skype2teamsroadmap) で入手できます。 
+利用可能になる予定の Teams 機能についての情報は [Office 365 ロードマップ](https://go.microsoft.com/fwlink/?linkid=859057)で公開する予定です。 チームのロードマップに Skype が、 [http://aka.ms/skype2teamsroadmap](http://aka.ms/skype2teamsroadmap)。 
  
 
 ### <a name="what-apis-and-sdks-will-be-made-available-for-teams"></a>Teams で利用できるようになる API と SDK を教えてください。
@@ -133,7 +133,7 @@ Teams ではサードパーティの電話会議プロバイダー (ACP) がサ�
 
 ### <a name="what-is-the-plan-for-video-interoperability-support-for-teams-meetings"></a>Teams 会議のビデオの相互運用性をサポートするための計画を教えてください。
 
-現代的なワークプレースの実現に向けた Microsoft のビジョンでは会議室のデバイスが重要な位置を占めます。 Microsoft は、9 月 25 日の Ignite において、Teams とのクラウド ビデオの相互運用性を実現するため Blue Jeans および Pexip と共同開発を行っていることを発表しました。 お客様は Skype for Business Online で Polycom 社の RealConnect for Office 365 をこれまでどおりご利用いただけます。 Microsoft は、ロードマップを用意して、お客様がビジネス ニーズに応じて Teams を評価できるようにします。 
+現代的なワークプレースの実現に向けた Microsoft のビジョンでは会議室のデバイスが重要な位置を占めます。 使用してクラウド ビデオの相互運用性チームが提供するには、ブルー ジーンズ、Pexip、およびポリコムの Ignite に 9 月 25 日に発表しました。 お客様は Skype for Business Online で Polycom 社の RealConnect for Office 365 をこれまでどおりご利用いただけます。 Microsoft は、ロードマップを用意して、お客様がビジネス ニーズに応じて Teams を評価できるようにします。 
 
 ### <a name="will-the-latest-generation-of-skype-room-systems-v2-support-meetings-in-teams"></a>Skype Room Systems (V2) の最新の世代は Teams の会議をサポートしますか?
 

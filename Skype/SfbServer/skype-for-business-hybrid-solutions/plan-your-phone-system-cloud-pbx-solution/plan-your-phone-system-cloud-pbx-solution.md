@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Hybrid
 ms.assetid: 0c4a0ec4-1a2b-4ce8-8323-f797162ab4fe
 description: 呼制御と Office 365 のクラウド内のプライベート構内交換機 (PBX) 機能を有効にする Office 365 (クラウド PBX) ソリューションでマイクロソフトの電話システム上の情報を検索します。
-ms.openlocfilehash: cb4a1548e973d264d30c1dafb966863952b7e6d4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: abef43d3d90f14272beb2eb71d2cc344b80db8bf
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-your-phone-system-in-office-365-cloud-pbx-solution"></a>Office 365 の電話システム (クラウド PBX) ソリューションを計画する
  
@@ -133,9 +133,8 @@ Office 365 のプランを呼び出すことは、特定ですが成長中の地
 
 ![クラウド PBX 決定フローチャート 2](../../media/6a2d15e6-2846-433f-b449-2f511a13c234.png)
   
-|||
-|:-----|:-----|
 |**お客様の状況** <br/> |**ソリューションで Office 365 の電話システム** <br/> |
+|:-----|:-----|
 |![エンドポイント A の吹き出し](../../media/85b51a4e-3984-4ef2-bacb-586f998da632.png)PBX システムには、独自の機能を維持する必要が提供しています。  <br/> |**既存の PBX の Skype for Business Server への置き換えについて調査します。** オペレーター経由の PSTN への接続を含む、組織のビジネス サーバーのエンタープライズ VoIP の PBX システムを全体として Skype を使用できます。 PBX の必要性は機能の変更を将来的に、Office 365 の電話システムを再検討することができます。 <br/> マイクロソフトのエンタープライズ VoIP ソリューションの詳細については、[ビジネス サーバー 2015 の Skype でエンタープライズ VoIP ソリューションの計画](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md)を参照してください。  <br/> 表示しない場合は、オンライン ビジネスの Skype にそれらのユーザーの移動を検討することができます、現在の PBX で独自の機能が提供されるすべてのユーザーが必要とします。  <br/> |
 |![エンドポイント B の吹き出し](../../media/f47d89d4-5f3a-4dfc-9c29-f09295e4a912.png)ユーザーの PBX を保持する必要がある独自の機能を提供していません、お住まいの地域で利用可能な Office 365 の計画を呼び出すことが、必要な Microsoft 提供の PSTN サービスを使用します。  <br/> |**Office 365 のプランを呼び出すことを購読します。** すべてのユーザーが、Skype for Business Online 上のクラウドに所属することができ、組織は PBX と PSTN サービスの両方を Microsoft クラウドから利用できます。 されて場合は、ユーザーの現在の配送業者からの電話番号、電話番号は、Office 365 の電話システムに移植できます。 必要に応じて Microsoft から追加の電話番号を取得できます。 <br/> 詳細についてを参照してください[PSTN の呼び出しとは何ですか?](https://support.office.com/en-us/article/What-is-PSTN-calling-3dc773b9-95e0-4448-b2f1-887c54022429?ui=en-US&amp;rs=en-US&amp;ad=US) <br/> |
 |![エンドポイント C の吹き出し](../../media/c9ba0a6f-d3bb-41e0-925b-0e94cf59e034.png)PBX を保持する必要がある独自の機能を提供していませんし、Office 365 のプランを呼び出すことはお住まいの地域ビジネス サーバー配置の既存の Lync または Skype があります。  <br/> このシナリオでは、すべてのユーザーが米国内に所在していても、既存の通信事業者との契約上の義務など、その他の理由で Microsoft が提供する PSTN への移行を検討できない可能性もあります。  <br/> |**Office 365 の電話システムと、既存の Skype ビジネス サーバーの展開に接続します。** ビジネス サーバー展開では、PSTN への接続が提供、設置型の Skype でエンタープライズ VoIP を使用しますが、組織はマイクロソフトのクラウドから PBX サービスを受信することができます。 ビジネス オンラインの Skype に移動を開始すると、ユーザーのボイス機能を保持できます。 ユーザーがどちらに所属しているかに関係なく音声機能が引き続き使用できることを確認しながら自分のペースでユーザーを移行できます。 <br/> 今後、現在のキャリアのままにする場合は、マイクロソフトの完全な電話システムと PBX と PSTN のすべての機能を提供する microsoft の計画を呼び出すと、Office 365 で、ユーザーがクラウドを移植できます。  <br/> [Office 365 の電話システムの計画、設置型で Skype ビジネス サーバーの PSTN への接続](plan-phone-system-with-on-premises-pstn-connectivity.md)と[、このオプションの詳細についてを参照するくださいと Office 365 の電話システムのユーザーを有効にする設置 PSTN への接続で Skype ビジネス サーバーの](enable-users-for-phone-system.md).  <br/> |

@@ -11,17 +11,15 @@ description: 展開の計画を呼び出すと、電話のシステムの結果�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9883fb04c70d07a0249d2390b894bba3d491ec04
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 23e471e7917ee188d0c4e601a59c53087ad2f9e0
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="define-my-success"></a>自分の成功を定義します。
 
-## <a name="introduction"></a>はじめに
-
-このコンテンツでは、正しく、組織の計画を呼び出すと、電話システムの展開の成功を定義するための要件の概要を示します。 によって、お客様の成功を正しく定義するには、配置を使用中に、結果を測定し、結果を達成するがしたいと思った結果であることを確認できます。
+この資料では、組織の計画を呼び出すと、電話システムの展開の成功を定義するための要件の概要を示します。 正しく成功次のように定義すると、配置を使用中に、結果を測定し、結果を達成するがしたいと思ったものであることを確認できます。
 
 <!--ENDOFSECTION-->
 

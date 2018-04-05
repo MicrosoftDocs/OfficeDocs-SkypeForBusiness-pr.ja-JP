@@ -10,11 +10,11 @@ description: Skype for Business の使用を継続しながら、Microsoft Teams
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 386221bfc8a3249ef4c902605171e636f8a48f40
-ms.sourcegitcommit: 730194fa152085ca2cee30373eaf68efa5f6b4ce
+ms.openlocfilehash: ccb09692991eeacc43d035389d245a0735030f1c
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/05/2018
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Skype for Business とともに Microsoft Teams のパイロットを実施する
 ============================================
@@ -199,7 +199,7 @@ Teams の導入に向けた行程および将来的な推奨事項はパイロ�
 <br>および <br><br>
 <li>満足のいくネットワーク正常性</li></ul></td>
 <td align="left"><p>一部または利用可能なすべてのシナリオで Teams と Skype for Business の共存を展開します。 学習曲線を上昇させるため、一度にすべての機能をロールアウトするのではなく、経時的な機能のロールアウトを実施することを強くお勧めします。</p>
-<p>[共存する Skype for Business と Teams の実行](guidance-SkypeforBusiness.md)についての詳細をご確認ください。</p>
+<p>[旅をアップグレードしビジネスとチームの Skype の共存](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)の詳細を表示します。</p>
 <p><a href="https://go.microsoft.com/fwlink/?linkid=859044">ユーザーの準備状況テンプレート</a>をダウンロードして、新しい共存のエクスペリエンスについてエンドユーザーとのコミュニケーションを促進します。</p></td>
 </tr>
 <tr class="odd">
@@ -207,7 +207,7 @@ Teams の導入に向けた行程および将来的な推奨事項はパイロ�
 <br>および <br><br>
 <li>満足のいくネットワーク正常性</li></ul></td>
 <td align="left"><p>すべてのシナリオで Teams と Skype for Business の共存を展開し、妥当な場合は Teams を使用するようにユーザーを促します。 さらに、組織で Teams に移行する準備が整ったことをアカウント チームや Microsoft サポートに伝えます。</p>
-<p>[共存する Skype for Business と Teams の実行](guidance-SkypeforBusiness.md)についての詳細をご確認ください。</p>
+<p>[旅をアップグレードしビジネスとチームの Skype の共存](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)の詳細を表示します。</p>
 <p><a href="https://go.microsoft.com/fwlink/?linkid=859044">ユーザーの準備状況テンプレート</a>をダウンロードして、新しい共存のエクスペリエンスについてユーザーとのコミュニケーションを促進します。</p></td>
 </tr>
 <tr class="even">

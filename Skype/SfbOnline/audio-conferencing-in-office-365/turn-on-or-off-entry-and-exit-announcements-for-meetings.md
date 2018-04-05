@@ -1,5 +1,5 @@
 ---
-title: "オンまたはオフの会議の開始と終了のお知らせ"
+title: オンまたはオフの会議の開始と終了のお知らせ
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: f2c7b5ea-07b6-4b77-8023-bec9596fcc32
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "エントリを有効にして、Skype、Skype を使用するビジネス管理センターのオンライン ビジネスの会議のためにアナウンスをオンまたはオフを終了する方法について説明します。 "
-ms.openlocfilehash: ca353400d78a37a4b7cc362df6ed44a7f25fd869
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'エントリを有効にして、Skype、Skype を使用するビジネス管理センターのオンライン ビジネスの会議のためにアナウンスをオンまたはオフを終了する方法について説明します。 '
+ms.openlocfilehash: 0e15116061d35af39e8010c8e079395aaa7c4a8b
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings"></a>オンまたはオフの会議の開始と終了のお知らせ
 
@@ -34,19 +36,31 @@ Office 365 に電話会議を設定する場合、オーディオ会議ブリッ
   
 ## <a name="setting-meeting-join-options"></a>ミーティングの参加オプションの設定
 
-1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
+**ビジネス管理センターは、マイクロソフトのチームと Skype を使用してください。**
+
+1. 左側のナビゲーションでは、**会議**に移動 > **会議ブリッジ**です。 
+
+2. **会議ブリッジ**のページの上部には、**ブリッジの設定**をクリックします。 
+
+3. **ブリッジの設定**ウィンドウを有効にするまたは**ミーティングのエントリを有効にして終了の通知をオンにする**を無効にします。 これがデフォルトで選択されます。 場合はこのオプションをオフにすると、データを入力したり、会議を離れると、会議に参加しているユーザーが通知されません。
     
-2. Sign in to Office 365 with your work or school account.
+4. [**開始/終了のお知らせの種類****名前や電話番号**」または「**トーン**を選択します。
     
-3. 既定値は 5 です。
+5. 有効にするか、**ミーティングに参加する前に自分の名前を記録するための呼び出し元の確認**を無効にします。
     
-4. **会議参加の経験**をするには、[をオンまたはオフの**ミーティングのエントリを有効にしてオンにする通知を終了**します。 これがデフォルトで選択されます。 場合はこのオプションをオフにすると、データを入力したり、会議を離れると、会議に参加しているユーザーが通知されません。
+6. 変更を行ったら、[**適用**を] をクリックします。
+
+****職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-5. [**開始/終了のお知らせの種類****名前や電話番号**」または「**トーン**を選択します。
+1. 既定値は 5 です。
     
-6. 確認するか、**ミーティングに参加する前に自分の名前を記録するための呼び出し元の確認**をオフにします。
+2. **会議参加の経験**をするには、[をオンまたはオフの**ミーティングのエントリを有効にしてオンにする通知を終了**します。 これがデフォルトで選択されます。 場合はこのオプションをオフにすると、データを入力したり、会議を離れると、会議に参加しているユーザーが通知されません。
     
-7. 変更したら [ **保存**] をクリックします。
+3. [**開始/終了のお知らせの種類****名前や電話番号**」または「**トーン**を選択します。
+    
+4. 確認するか、**ミーティングに参加する前に自分の名前を記録するための呼び出し元の確認**をオフにします。
+    
+5. 変更したら [ **保存**] をクリックします。
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell で管理する方法
 
@@ -72,4 +86,3 @@ Office 365 に電話会議を設定する場合、オーディオ会議ブリッ
 ## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 
 [電話会議に関するよくある質問](audio-conferencing-common-questions.md)
-

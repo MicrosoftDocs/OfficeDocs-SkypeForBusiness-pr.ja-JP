@@ -23,11 +23,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'か、オーディオ会議 (PSTN 会議) をユーザーにダイヤルイン会議をセットアップするのには Office 365 のライセンスを購入する方法を参照してください。 '
-ms.openlocfilehash: 1dda3a2ecc24e512e9d614b42292233471525805
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: eec26ca81cf9ee29d0d341720c2fdb353038a1e1
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365"></a>Office 365 に電話会議を購入するか
 
@@ -75,10 +75,7 @@ ms.lasthandoff: 04/03/2018
   
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>ステップ 2: 潜在顧客、または会議をスケジュールする人のためのオーディオ会議プロバイダーを設定します。
 
-リードしたり、会議をスケジュールする、組織内のユーザーに**電話会議**のライセンスを割り当てるときはすべての設定と移動する準備ができました! (必要はありません、オーディオ会議プロバイダーを設定します。) 
-  
-> [!NOTE]
-> サード ・ パーティ製の ACP を使用する場合は、**オーディオ会議**を選択して > **マイクロソフトのブリッジ**です。 ページの下部には、**代わりに、サード ・ パーティ製のオーディオ会議プロバイダーを構成するにはここをクリックして**をクリックします。 
+リードしたり、会議をスケジュールする、組織内のユーザーに**電話会議**のライセンスを割り当てるときはすべての設定と移動する準備ができました! (必要はありません、オーディオ会議プロバイダーを設定します。)  
   
 ## <a name="step-3-other-admin-tasks"></a>手順 3: その他の管理タスク
 

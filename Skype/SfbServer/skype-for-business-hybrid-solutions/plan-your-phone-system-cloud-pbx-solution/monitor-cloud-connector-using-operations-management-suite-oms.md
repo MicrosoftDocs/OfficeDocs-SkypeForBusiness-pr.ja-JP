@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: 運用管理スイート (OMS) を使用して、クラウド コネクタ バージョン 2.1 とそれ以降の展開を監視する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 5e03504f27eadbb235c1b5c84e8c7a19d66aea7d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8cb454cfcb61bb11e0545ab5ff7dd45d1403ce55
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>運用管理スイート (OMS) を使用してクラウドのコネクタを監視します。
  
@@ -221,9 +221,8 @@ search *| where Computer contains "MediationServer" | where (Type == "Perf" or T
     
 次の表に、マイクロソフトは、停止と開始のイベント Id をリストすることによって監視することをお勧めするサービスを示します。
   
-|||||
-|:-----|:-----|:-----|:-----|
 |サービス名  <br/> |ターゲット サーバーの役割  <br/> |イベント ID を停止します。  <br/> |イベント ID を開始します。  <br/> |
+|:-----|:-----|:-----|:-----|
 |RTCMEDSRV  <br/> |仲介サーバー  <br/> |25003  <br/> |25002  <br/> |
 |RTCSRV  <br/> |エッジ サーバー  <br/> |12289  <br/> |12288  <br/> |
 |RTCMRAUTH  <br/> |エッジ サーバー  <br/> |19003  <br/> |19002  <br/> |
@@ -231,9 +230,8 @@ search *| where Computer contains "MediationServer" | where (Type == "Perf" or T
    
 監視をお勧めするネットワークの問題を次の表に一覧します。
   
-||||||
-|:-----|:-----|:-----|:-----|:-----|
 |モニター名  <br/> |ターゲット サーバーの役割  <br/> |成功のイベント ID の式  <br/> |エラー イベント ID 式  <br/> |障害の例  <br/> |
+|:-----|:-----|:-----|:-----|:-----|
 |ゲートウェイの接続障害が発生する仲介サーバー  <br/> |仲介サーバー  <br/> |25062 || 25002  <br/> |25061  <br/> |MS PING (オプション) をゲートウェイが失敗しました。  <br/> |
 |ゲートウェイに仲介サーバーの呼び出し完了障害  <br/> |仲介サーバー  <br/> |25064 || 25002  <br/> |25063  <br/> |MS のゲートウェイへの呼び出しを作成しようとして失敗しました。  <br/> |
 |重要なネットワークの問題  <br/> |エッジ サーバー  <br/> |14353 || 12288  <br/> |14624  <br/> |TLS をトランスポートは、ローカル IP アドレス ポート 5061 で 192.168.231.14 の開始に失敗しました  <br/> |

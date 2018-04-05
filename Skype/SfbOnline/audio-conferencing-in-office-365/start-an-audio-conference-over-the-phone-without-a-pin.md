@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to enable or disable anonymous callers from joining a meeting from the Skype for Business admin center or using a PowerShell script. '
-ms.openlocfilehash: b4244647674f25a10b6ca447a6ee8b4d23b36a9f
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 7c6f0e70780b04e75be52ead1eaf08602bcba003
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin"></a>電話 PIN なしで、オーディオ会議の開始します。
 
@@ -38,19 +38,29 @@ ms.lasthandoff: 04/03/2018
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>匿名の発信者の会議への参加を有効または無効にする
 
-1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
+**ビジネス管理センターは、マイクロソフトのチームと Skype を使用してください。**
+
+1. 左側のナビゲーションでは、**ユーザー**をクリックします。 
+
+2. の一覧でユーザーを選択し、ページの上部にある**編集**を] をクリックします。 
+
+3. **会議ブリッジ**の横にあるメニューをクリックし、し、[**編集**] をクリックします。
+
+4. **会議ブリッジのプロバイダー**のウィンドウでを有効にするまたは**許可が認証されていない呼び出し元は会議の最初のユーザーを無効にします。かどうか、ロビーで待機、認証されたユーザーが参加するまで**。
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+4. [**適用**] をクリックします。 
+
+****職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-3. **電話会議**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **のユーザー**です。 
+1. **電話会議**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **のユーザー**です。 
     
-4. の一覧でユーザーを選択し、[操作] ウィンドウの [**編集**] をクリックします。 
+2. の一覧でユーザーを選択し、[操作] ウィンドウの [**編集**] をクリックします。 
     
-5. ユーザーのプロパティ] ページで [**ミーティングのオプション**] でオンまたはオフ**許可が認証されていない呼び出し元は、会議の最初の人に。かどうか、ロビーで待機、認証されたユーザーが参加するまで**。
+3. ユーザーのプロパティ] ページで [**ミーティングのオプション**] でオンまたはオフ**許可が認証されていない呼び出し元は、会議の最初の人に。かどうか、ロビーで待機、認証されたユーザーが参加するまで**。
     
-6. [ **保存**] をクリックします。 
+4. [ **保存**] をクリックします。 
     
- **Windows PowerShell を使用して、すべてのユーザーの会議に対して匿名の発信者を有効または無効にするには**
+ **Windows Powershell を使用します。**
   
 - 次のコマンドレットを実行します。 
     

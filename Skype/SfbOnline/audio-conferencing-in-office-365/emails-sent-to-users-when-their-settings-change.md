@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'についてどのような情報が自動的にユーザーに電子メールで送信された、ダイヤルイン会議の設定を変更する場合について説明します。 '
-ms.openlocfilehash: f504e9b807afb4a587a9d6f13baf69a3c5b9db68
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 0cf1eabd25a6be5d6104c2593e5bc286d15d59f0
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="emails-sent-to-users-when-their-settings-change"></a>設定を変更するときにユーザーに送信される e メール
 
@@ -104,21 +104,27 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 
 ユーザーに e メールを送信を無効にするとは、ユーザーにライセンスが割り当てられているを取得するときにも電子メールが送信されません。 会議 ID は、ここでは既定の会議の電話番号、および、さらに、オーディオ会議の暗証番号 (pin) をユーザーに送信されません。 このような場合は、別の電子メールを送信することによって、またはそれらを呼び出すことによってユーザーに通知する必要があります。
   
-既定では、e メールは、ユーザーに送信されますが、音声会議用の電子メールを受信しないようにする場合は、ビジネス管理センターまたは Windows PowerShell の Skype を使用することができます。 
+既定では、電子メールは、ユーザーに送信されますが、マイクロソフトのチーム、Skype を使ってビジネス管理センター、または Windows PowerShell の音声会議用の電子メールを受信しないようにする場合は。 
+
+**ビジネス管理センターは、マイクロソフトのチームと Skype を使用してください。**
+
+1. 左側のナビゲーションでは、**会議**に移動 > **会議ブリッジ**です。 
+
+2. **会議ブリッジ**のページの上部には、**ブリッジの設定**をクリックします。 
+
+3. **ブリッジの設定**ウィンドウで、有効または、**ユーザーのダイヤルインの設定を変更する場合に e メールを自動的に送信**を無効にします。
+
+4. [**適用**] をクリックします。
   
- ****職場または学校のアカウントを使用して、Office 365 にサインインします。
-  
-1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
+****職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. Sign in to Office 365 with your work or school account.
+1. 既定値は 5 です。
     
-3. 既定値は 5 です。
+2. **Microsoft ブリッジの設定**] ページをオンまたはオフの**オーディオ会議の設定を変更する場合、ユーザーに e メールを自動的に送信**します。 
     
-4. **Microsoft ブリッジの設定**] ページをオンまたはオフの**オーディオ会議の設定を変更する場合、ユーザーに e メールを自動的に送信**します。 
+3. [ **保存**] をクリックします。 
     
-5. [ **保存**] をクリックします。 
-    
- The conference ID and default dial-in conferencing phone number is included on the meeting invite but not the PIN.
+The conference ID and default dial-in conferencing phone number is included on the meeting invite but not the PIN.
   
 1. 電子メールを送信するすべてのユーザーを無効にするのには、次を実行します。
     

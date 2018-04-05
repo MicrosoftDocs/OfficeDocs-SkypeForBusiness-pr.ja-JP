@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a31d2961-aa83-4286-a12e-15d279c95f19
 description: tblNode には、コントロール パネル、管理用コマンドレットの管理下にオブジェクト ・ ツリーでノードのカテゴリまたはチャット ルーム) が含まれています。
-ms.openlocfilehash: b743453225fda70db18a7bc616a5f7b647d5ebff
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 0b5e752856272ad7021666822694cd27bb3660ee
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="tblnode"></a>tblNode
  
@@ -34,7 +34,6 @@ tblNode には、コントロール パネル、管理用コマンドレット�
 |記録  <br/> |bit  <br/> | カテゴリ。 <br/>  True を設定するには、チャットの履歴。 <br/>  チャットの履歴が無効になっている場合は false を指定します。 <br/>  部屋。 <br/>  Null です。 <br/> |
 |filePost  <br/> |bit  <br/> | カテゴリ。 <br/>  ファイルのアップロードが許可されている場合は true です。 <br/>  ファイルのアップロードが許可されていない場合は false。 <br/>  部屋。 <br/>  Null です。 <br/> |
 |無効になっています。  <br/> |ビットの null でないです。  <br/> |チャット ルームが無効になっている場合は true。 チャット ルームにのみ適用されます。 偽のカテゴリです。  <br/> |
-|||
 |動作  <br/> |smallint、null でないです。  <br/> | (EnumValue テーブルで検索) 動作します。 <br/>  4: 標準 (通常のチャット ルーム)。 <br/>  5: 大 (大会議チャット ルームでは、発表者のみ投稿できますが)。 <br/>  チャット ルームにのみ適用されます。 <br/> |
 |可視性  <br/> |smallint、null でないです。  <br/> | (EnumValue テーブル上で検索) を表示します。 <br/>  2: 秘密 <br/>  3: スコープ <br/>  6: オープン <br/>  チャット ルームにのみ適用されます。 <br/> |
 |siopID  <br/> |GUID  <br/> |アドインの GUID アドインでは、このチャット ルームに関連付けられている場合です。 (カテゴリは、アドインを必要はありません)。  <br/> SiopWhiteList テーブル内追加の情報が検索されます。  <br/> |

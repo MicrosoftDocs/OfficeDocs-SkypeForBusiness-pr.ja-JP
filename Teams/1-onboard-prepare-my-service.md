@@ -11,13 +11,15 @@ description: 契約時のチェックリストを使用して、Office 365 を�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a2b3d68d63661c988116f3b6729656eb3f34cf37
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: a1e4b6e690450b8ec81209a0244769444ee2d30d
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="prepare-my-service"></a>サービスを準備します。
+
+この資料では、音声サービスを組織のクラウドを準備するための要件の概要を示します。 適切に準備するように、クラウドの組織にボイス機能を提供する準備ができていることのことができます。
 
 ## <a name="onboarding-checklists-for-microsoft-teams-voice-workloads"></a>音声のワークロードをマイクロソフトのチームの契約時のチェックリスト
 

@@ -3,7 +3,7 @@
 
 ## [国および地域ごとの電話会議および通話プランの利用可能性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## Office 365 での電話会議 
+## Office 365 で、オーディオ会議 (../audio-conferencing-in-office-365/audio-conferencing-in-office-365.md) 
 ### [Microsoft を電話会議プロバイダーとして割り当てる](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
 ### [電話会議に関するよくある質問](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md)
 ### [電話会議でサポートされる言語](../audio-conferencing-in-office-365/audio-conferencing-supported-languages.md)
@@ -26,6 +26,7 @@
 ### [電話会議用に有効になっているユーザーのリストを表示する](../audio-conferencing-in-office-365/see-a-list-of-users-that-are-enabled-for-audio-conferencing.md)
 ### [ユーザーにダイヤルイン情報が含まれたメールを送信する](../audio-conferencing-in-office-365/send-an-email-to-a-user-with-their-dial-in-information.md)
 ### [電話会議の PIN の長さを設定する](../audio-conferencing-in-office-365/set-the-PIN-length-for-audio-conferencing-meetings.md)
+### [電話会議をセットアップする](../audio-conferencing-in-office-365//set-up-audio-conferencing.md)
 ### [電話会議の自動案内の言語を設定する](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md)
 ### [出席依頼に含まれている電話番号を設定する](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md)
 ### [Meeting Migration Service (MMS) のセットアップ](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)

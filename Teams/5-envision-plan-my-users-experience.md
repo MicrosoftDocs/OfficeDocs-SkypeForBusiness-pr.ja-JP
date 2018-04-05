@@ -11,13 +11,15 @@ description: チームのクライアント アプリケーション、エンド
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d15d000098a1970c7e3f471d6fec8be202f26ae
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 866395a4dd58016c0989ec4b34f602877251d021
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-my-users-experience"></a>自分のユーザー エクスペリエンスを計画します。
+
+この資料では、正しく、ユーザーのエクスペリエンスに直接影響するクラウドの音声サービスの展開の要素を識別するための要件の概要を示します。 展開する前にこれらのアイテムの準備ができたら、正常に高品質で信頼性の高いユーザー エクスペリエンスを提供する可能性が増加します。 
 
 ## <a name="client-deployment"></a>クライアントの展開
 

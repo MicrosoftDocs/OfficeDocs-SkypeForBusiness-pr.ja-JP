@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: Strat_SB_Hybrid
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Skype for Business Cloud Connector エディションについて紹介します。Skype for Business Cloud Connector エディションは、Office 365 の電話システム (クラウド PBX) でのオンプレミスの PSTN 接続を実装する、パッケージ化された仮想マシン (VM) のセットです。
-ms.openlocfilehash: f69becbd25ad00ca4353c0b287f2abcc43bdecfd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5c175a09a83d8fb5fe3267329c63075b450a9b1f
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Skype for Business Cloud Connector エディションの計画
  
@@ -412,9 +412,8 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 ホスト ・ マシンでは、正常にインストール、更新、およびクラウドのコネクタを管理する外部のリソースにアクセスできる必要があります。 次の表に、ホスト マシンと外部リソースの間で必要となる送信先とポートを示します。 
   
-||||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |方向  <br/> |発信元 IP アドレス  <br/> |送信先 IP アドレス  <br/> |発信元ポート  <br/> |送信先ポート  <br/> |プロトコル  <br/> |用途  <br/> |
+|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |発信  <br/> |クラウド コネクタのホストの ip アドレス  <br/> |任意  <br/> |任意  <br/> |53  <br/> |TCP/UDP  <br/> |DNS  <br/> |
 |発信  <br/> |クラウド コネクタのホストの ip アドレス  <br/> |任意  <br/> |任意  <br/> |80、443  <br/> |TCP  <br/> |証明書失効リスト (CRL)  <br/> |
 |発信  <br/> |クラウド ・ Connectorr ・ ホストの ip アドレス  <br/> |任意  <br/> |任意  <br/> |80、443  <br/> |TCP  <br/> |クラウド コネクタの更新  <br/> Skype for Business Online  <br/> Admin PowerShell  <br/> Windows Update  <br/> |

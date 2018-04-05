@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'ダイヤルイン会議から、Skype のビジネス管理センター内では有効になっている、組織内のユーザーの一覧を表示する方法について説明します。 '
-ms.openlocfilehash: c58a8e2475b1b41e02d0abced47fcc9d076d5f25
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 4f019a3ffc8b30de0a5d57a882bd2cdcb78f0508
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing"></a>電話会議を有効になっているユーザーの一覧を参照してください。
 
@@ -34,11 +34,13 @@ ms.lasthandoff: 04/03/2018
   
 ## <a name="viewing-a-list-of-users"></a>ユーザーの一覧を表示します。
 
-1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
+**ビジネス管理センターは、マイクロソフトのチームと Skype を使用してください。**
+
+- 左側のナビゲーションでは、**ユーザー**をクリックします。
+
+****職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
-    
-3. **電話会議**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **のユーザー**です。
+- In the left navigation go to **Dial-in conferencing** > **Dial-in users**. Select the user that you want to enable for dial-in conferencing.
     
 ## <a name="what-else-should-i-know"></a>他に必要な情報はありますか?
 

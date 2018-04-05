@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: このトピックでは、Skype Room System アカウントに会議ポリシーを割り当てる方法について説明します。
-ms.openlocfilehash: 73ab8f48bc399f4478b0a9c22aceb68d7a54a11b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 07ce5031bd053837d69d3ed3da27aabb344c3a65
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Skype Room System アカウント用の電話会議ポリシー
  
@@ -24,9 +24,8 @@ ms.lasthandoff: 03/28/2018
 
 Skype ルームのシステム アカウントに割り当てられている会議ポリシーは、特定の特性が必要です。 ほとんどの場合、Skype ルーム システムのクライアント、スケジュールされたミーティングに参加し、会議の開催者の会議ポリシーが、会議にどのように影響するためです。 ただし、ビジネス サーバーの Skype は、特定の機能は、参加者の構成に依存します。 たとえば、参加者のポリシーでは、1080 p の最大ビデオ解像度を許可している参加者が発生会議内で、この高解像度ビデオ機能開催者のポリシーが許可しない場合でもします。 次の表では、Skype の部屋のシステム アカウントが組織内の会議ポリシーを設定する際に注意する必要がありますこのようないくつかの設定について説明します。 
   
-||||
-|:-----|:-----|:-----|
 |機能  <br/> |値  <br/> |コメント  <br/> |
+|:-----|:-----|:-----|
 |AllowIPAudio  <br/> |True  <br/> |Skype ルーム システムのオーディオの場合は true である必要があります。  <br/> |
 |AllowIPVideo  <br/> |True  <br/> |Skype ルーム システムで即時相互 (ad hoc) のホワイト ボード セッションで動作する Skype ルーム システム オーディオの場合は true である必要があります。  <br/> |
 |AllowMultiView  <br/> |True  <br/> |Skype ルーム システム、複数のビューを表示するのには複数のビデオ ストリームでは、します。  <br/> |

@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Skype で応答グループのビジネス サーバーのエンタープライズ VoIP の計画を使用するユーザーのグループに通話をルーティングを設定します。 また、オーディオ ファイルの要件についても説明します。
-ms.openlocfilehash: 67b86d6dd15d6dece05261f216c114b377ea3f07
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: dd98ded5af55e39f773b4a0167428ba1644cee87
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での応答グループ アプリケーションの計画
  
@@ -144,7 +144,6 @@ Microsoft Expression Encoder 4 を使用して、ファイルを Windows Media �
 |Windows Server 2008 R2  <br/> Windows Server 2008 R2 Service Pack 1  <br/> |Internet Explorer 8 (ネイティブ モード)  <br/> Internet Explorer 9 (ネイティブ モード)  <br/> |
 |Windows Server 2012  <br/> ||
 |Windows Server 2012 R2  <br/> ||
-|||
    
 ### <a name="response-group-agent-console"></a>応答グループのエージェント コンソール
 

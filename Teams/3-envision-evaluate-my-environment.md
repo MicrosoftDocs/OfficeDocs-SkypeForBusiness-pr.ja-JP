@@ -11,13 +11,15 @@ description: 組織の導入準備評価、正しい TCP および UDP ポート
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5d22bd46006b3bdd1f874da021045c36975b4ec
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 3b97a588a55eb1b7183315751a9483d69eeb0b6b
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="evaluate-my-environment"></a>自分の環境を評価します。
+
+この資料では、音声サービスのクラウドを使用するため、現在の環境を正しく評価するための要件の概要を示します。 によってお客様の環境を評価するには、リスクと、全体的なクラウド ボイスの展開に影響を与えるための要件を特定します。 これらの項目を事前に識別することによって、ドライブの成功のための計画を調整できます。
 
 ## <a name="introduction-to-evaluating-your-environment"></a>環境の評価の概要 
 
@@ -46,20 +48,19 @@ ms.lasthandoff: 03/15/2018
 
 ## <a name="adoption-and-change-management-assessment-capabilities"></a>変更の導入と管理の評価機能 
 
-ペルソナ サービスの計画を呼び出すと、オーディオ会議や電話システムの実装を対象ユーザーの一覧を考案するペルソナ分析を実行することによって、組織で導入の準備を評価できます。 ペルソナ分析には、その他の周辺機器やその他のデバイスを対象とするビジネスの成果を実現するために必要なの識別が含まれています。
+配置では、新しいテクノロジが、ユーザーの手元には配置ですが、ビジネス上の成果は、ユーザーが本当に自分としては、そのソリューションを採用した後のみ実現します。 新しいソリューションの継続的な導入を確実には、ユーザーの準備に集中し、管理を変更する必要があります。 最適な結果を得るには、計画、技術的な準備作業を並列のワーク ストリームとしてユーザーの準備を行うし、次のアクティビティを組み込みます。
 
-ペルソナ分析を実行するには、[ペルソナの配置](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_7)のワーク ショップの模様と[ペルソナ機能マトリックス](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_8)を使用して、関連するプロジェクトの関係者を含めることにより、ワーク ショップを行うことができます。
-[ペルソナ分析のレポート](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_9)テンプレートを使用して、レポートのペルソナ分析のワーク ショップの結果を集計できます。
+-   **組織およびユーザー プロファイルを作成中:**使用の場合は、ペルソナの分析だけでなく変更するのには組織の receptiveness の分析
 
->[!NOTE]
->ペルソナの資産は、ビジネス オンラインの Skype の最初に書き込まれた、内容のほとんどはチームに関連します。 自由に変更し、プロジェクトの目標に関連していない項目を削除します。
+-   **準備とリソースの準備:**ユーザーの購入を促進するメッセージの値が対象となると広く認識、トレーニング、およびサポート情報などの作成に重点を置いてください。
+
+アドレスの変更管理、組織の準備を評価するのにには、次の考慮事項を使用します。
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>意思決定ポイント</td><td><ul><li> ペルソナの配置と機能の評価を完了するため管理するはだれですか。</li><li>導入を行い、組織の管理を変更する能力を評価します。</li></ol></td></tr>
-
-
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>ペルソナの配置と機能の評価の結果を文書化します。</li><li>必要な場合、導入の推進を支援し、組織の変更管理を外部のリソースと連携します。</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>意思決定ポイント</td><td><ul><li>ソフトウェアまたは本サービスのユーザーが積極的に前の成功をしたことがありますか。</li><li>使用状況の取得を追跡することができますか。</li><li>設計および初期の管理にリソースを持って&mdash;と継続的な&mdash;(意識、トレーニング、およびサポート) の採用キャンペーンですか。</li><li>持っている専用のユーザーの導入/変更管理チームが、ビジネスの成果を確実にこれらのリソースに投資することができますか。</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>「Yes」上記のすべて場合は、適切なユーザーの変更管理の関係者を識別し、ユーザー準備計画を開始します。</li><li>回答された場合、上記のいずれか、[いいえ]、変更管理や、組織の採用に関連する活動の推進を支援する外部リソースの活用を検討してください。</li></ol></td></tr>
 </table>
+
 
 <!--ENDOFSECTION-->
 

@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to enable or disable whether your users can record their names when they join a meeting '
-ms.openlocfilehash: f01d9457fee181615b8a30467ec558eb36a32e7a
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 6f1c5c9c86f4b0296340c9185acdc9d505baeda7
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting"></a>ユーザーが会議に参加したときに自分の名前を記録できるようにする
 
@@ -36,19 +36,28 @@ ms.lasthandoff: 04/03/2018
   
 ## <a name="set-whether-callers-should-record-their-name"></a>発信者が名前を記録すべきかどうかを設定する
 
-1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
+**ビジネス管理センターは、マイクロソフトのチームと Skype を使用してください。**
+
+1. 左側のナビゲーションでは、**会議**に移動 > **会議ブリッジ**です。 
+
+2. **会議ブリッジ**のページの上部には、**ブリッジの設定**をクリックします。 
+
+3. 有効にするまたは**ミーティングのエントリを有効にして終了の通知をオンにする**を無効にします。
+
+4. [**適用**] をクリックします。
+
+
+**ビジネス管理センターに、Skype を使用します。**
     
-2. Sign in to Office 365 with your work or school account.
+1. 既定値は 5 です。
     
-3. 既定値は 5 です。
-    
-4. [ **会議参加エクスペリエンス**] の [ **会議の入退出の通知をオンにする**] で、次のいずれかを選びます。
+2. [ **会議参加エクスペリエンス**] の [ **会議の入退出の通知をオンにする**] で、次のいずれかを選びます。
     
   - **オン**: 発信者は、会議に参加する前に名前を記録するように依頼されます。 既定ではオンになっています。
     
   - **オフ**: 発信者は、会議に参加する前に名前を記録するように依頼されません。
     
-5. 変更したら [ **保存**] をクリックします。
+3. 変更したら [ **保存**] をクリックします。
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell で管理する方法
 
@@ -64,13 +73,13 @@ ms.lasthandoff: 04/03/2018
     
   - [Windows PowerShell と Lync Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Windows PowerShell による Lync Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [クイック リファレンス: Windows PowerShell を使用した一般的な Lync Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > Skype for Business Online 用 Windows PowerShell モジュールでは、リモート Windows PowerShell セッションを作成して Skype for Business Online に接続できます。 このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「[Skype for Business Online 用 Windows PowerShell モジュール](https://go.microsoft.com/fwlink/?LinkId=294688)」からダウンロードできます。
+    > [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 
 [Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

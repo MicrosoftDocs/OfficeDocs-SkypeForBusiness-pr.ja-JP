@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: この資料では、ビジネス サーバー 2015 の Skype のユーザー モデル」に記載の使用状況に応じて、そのサイトのユーザーの数のサイトにする必要があるサーバーの数にガイダンスを提供します。
-ms.openlocfilehash: b8395e1fdec1a9d4ed100a911fccd6177b03c665
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 313bd440188b1d97afa95d71fcca4e74b5cb8217
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 処理能力の計画ユーザー モデルの使用
  
@@ -163,9 +163,8 @@ ms.lasthandoff: 03/28/2018
   
 次の表は、監視およびアーカイブのデータに必要な、ユーザーごとの 1 日あたりのデータベース記憶域 (概算) を示します。
   
-|||||
-|:-----|:-----|:-----|:-----|
 ||**CDR (監視)** <br/> |**QoE (監視)** <br/> |**アーカイブ** <br/> |
+|:-----|:-----|:-----|:-----|
 |ユーザーごとに 1 日に必要なディスク容量  <br/> |49 KB  <br/> |28 KB  <br/> |57 KB  <br/> |
    
 Microsoft では、パフォーマンス テストの際に、次の表に示すハードウェアを監視およびアーカイブ用のデータベース サーバーとして使用しました。 80,000 ユーザーが含まれているそれぞれの 2 つのフロント エンド プールのデータの収集、テストします。
@@ -181,9 +180,8 @@ Microsoft では、パフォーマンス テストの際に、次の表に示す
    
 **推奨されるディスク構成**
 
-||||
-|:-----|:-----|:-----|
 |**ドライブ** <br/> |**RAID 構成** <br/> |**ディスク数** <br/> |
+|:-----|:-----|:-----|
 |CDR、QoE、およびアーカイブ データベースのデータ ファイル (単一のドライブ上)  <br/> |1+0  <br/> |16  <br/> |
 |CDR データベースのログ ファイル  <br/> |1  <br/> |2  <br/> |
 |QoE データベースのログ ファイル  <br/> |1  <br/> |2  <br/> |

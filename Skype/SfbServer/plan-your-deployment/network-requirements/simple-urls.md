@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: '概要: は、Skype のビジネス サーバー 2015 の DNS レコードを実装する前にこのトピックの簡単な URL の注意事項を確認します。'
-ms.openlocfilehash: 989ea4f518c1917311759158bbe29355f400138b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 87346a7c4c03837e5ebfdf0143cdb7c786f0e43b
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype での簡単な Url の DNS の要件
  
@@ -63,9 +63,8 @@ Skype ビジネス サーバーの次の 3 つの簡単な Url をサポート�
   
 **簡単な URL 命名オプション 1**
 
-|||
-|:-----|:-----|
 |**簡易 URL** <br/> |**例** <br/> |
+|:-----|:-----|
 |会議  <br/> |https://meet.contoso.com、 https://meet.fabrikam.com、というように (組織内の SIP ドメインごとに 1 つ)  <br/> |
 |ダイヤルイン  <br/> |https://dialin.contoso.com  <br/> |
 |管理  <br/> |https://admin.contoso.com  <br/> |
@@ -74,9 +73,8 @@ Skype ビジネス サーバーの次の 3 つの簡単な Url をサポート�
   
 **簡単な URL 命名オプション 2**
 
-|||
-|:-----|:-----|
 |**簡易 URL** <br/> |**例** <br/> |
+|:-----|:-----|
 |会議  <br/> |https://SfB2015.contoso.com/Meet、 https://SfB2015.fabrikam.com/Meet、というように (組織内の SIP ドメインごとに 1 つ)  <br/> |
 |ダイヤルイン  <br/> |https://SfB2015.contoso.com/Dialin  <br/> |
 |管理  <br/> |https://SfB2015.contoso.com/Admin  <br/> |
@@ -85,9 +83,8 @@ Skype ビジネス サーバーの次の 3 つの簡単な Url をサポート�
   
 **簡単な URL 命名オプション 3**
 
-|||
-|:-----|:-----|
 |**簡易 URL** <br/> |**例** <br/> |
+|:-----|:-----|
 |会議  <br/> |https://SfB2015.contoso.com/contosoSIPdomain/Meet  <br/> https://SfB2015.contoso.com/fabrikamSIPdomain/Meet  <br/> |
 |ダイヤルイン  <br/> |https://SfB2015.contoso.com/Dialin  <br/> |
 |管理  <br/> |https://SfB2015.contoso.com/Admin  <br/> |

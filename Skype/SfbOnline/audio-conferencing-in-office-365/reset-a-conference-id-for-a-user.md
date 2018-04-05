@@ -1,5 +1,5 @@
 ---
-title: "ユーザーの会議 ID をリセットする"
+title: ユーザーの会議 ID をリセットする
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 6e12242c-55f7-4bf4-90d7-0f36c0326b8e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: 'Learn the steps to reset a user''s meeting conference ID, and get links to meeting update and migration tools. '
-ms.openlocfilehash: ba76f3afb5d92dadc66d09e07aa16d3589f57e4d
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: "Learn the steps to reset a user's meeting conference ID, and get links to meeting update and migration tools. "
+ms.openlocfilehash: 6cc73876d188f1ae00ec267e14af4771ded7b957
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="reset-a-conference-id-for-a-user"></a>ユーザーの会議 ID をリセットする
 
@@ -39,16 +41,24 @@ Skype for Business 管理センターおよび Windows PowerShell を使用す�
   
 ## <a name="resetting-the-conference-id-for-a-user"></a>ユーザーの会議 ID をリセットします。
 
-1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
+**ビジネス管理センターは、マイクロソフトのチームと Skype を使用してください。**
+
+1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
+
+2. ページの上部で、[**編集**] をクリックします。
+
+3. **会議ブリッジ**の横にあるメニューをクリックし、ドロップダウン リストに**会議 id をリセット**] をクリックします。
+
+2. **会議 id のリセット**] ウィンドウで、 **[ok]**をクリックします。 A conference ID will be automatically created and an email sent to the user with the new conference ID. 既定では、ユーザーに電子メールが送信されますが、これを無効にできます。   
+
+****職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+1. **ビジネス管理センターの Skype**では、[**電話会議**] をクリックします > **ユーザー**ユーザーを選択し、し、[操作] ウィンドウの [**会議 ID** ] の [**リセット**] をクリックします。
     
-3. **ビジネス管理センターの Skype**では、[**電話会議**] をクリックします > **ユーザー**ユーザーを選択し、し、[操作] ウィンドウの [**会議 ID** ] の [**リセット**] をクリックします。
+2. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. A conference ID will be automatically created and an email sent to the user with the new conference ID. 既定では、ユーザーに電子メールが送信されますが、これを無効にできます。
     
-4. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. A conference ID will be automatically created and an email sent to the user with the new conference ID. 既定では、ユーザーに電子メールが送信されますが、これを無効にできます。
-    
-    > [!NOTE]
-    > 会議 ID をリセットすると、新しい会議 ID を記載したメールがユーザーに送信されます。このメールはプライマリ メール アドレスに送信されます。ほとんどの場合は、Office 365 のメールボックスに送信されます。新しい会議 ID、既定のダイヤルイン電話番号、Skype for Business Meeting Update Tool を使って既存の会議を更新する方法がメールに記載されています。 
+> [!NOTE]
+> 会議 ID をリセットすると、新しい会議 ID を記載したメールがユーザーに送信されます。このメールはプライマリ メール アドレスに送信されます。ほとんどの場合は、Office 365 のメールボックスに送信されます。新しい会議 ID、既定のダイヤルイン電話番号、Skype for Business Meeting Update Tool を使って既存の会議を更新する方法がメールに記載されています。 
   
 ## <a name="what-else-should-i-know"></a>他に必要な情報はありますか?
 

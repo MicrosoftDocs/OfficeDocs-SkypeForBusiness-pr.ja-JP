@@ -11,13 +11,15 @@ description: サイトの対応戦略、チームのロールアウトを計画�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ddccd9c52e25ae9d0069119641aa7e8a8077d56
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: f59b7568f5ec0d3d9b6ef3b04f4094b222d0702b
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="deploy-my-service"></a>サービスを展開します。
+
+この資料では、クラウドの音声サービスを正しく展開するための要件の概要を示します。 次のことを確認するクラウドの音声サービスを展開するための規範的なガイダンスが正常にすべての要件を明確にして反復可能な結果を提供します。
 
 ## <a name="site-enablement-playbook-for-microsoft-teams-voice-workloads"></a>音声のワークロードをマイクロソフト チームのサイトの有効化の戦略
 

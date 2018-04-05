@@ -11,13 +11,15 @@ description: 展開モデルを選択して、開発担当の責任者の相談�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8352608eca00062ed2b8dbdce4682e7bdd437351
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 70ed024e606e7419a5cd2645cb60ef487fa72982
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="document-my-success-plan"></a>成功計画を文書化します。
+
+この資料では、クラウドのボイスの展開を正しく記録するための要件の概要を示します。 定義し、クラウドのボイスの展開を計画するときに、すべての意思決定ポイントと次の手順を文書化する、ことを確認するすべての関係者とプロジェクト チームのメンバーが成功した結果を提供することに揃えて配置されます。 
 
 ## <a name="execution-planning"></a>実行計画 
 

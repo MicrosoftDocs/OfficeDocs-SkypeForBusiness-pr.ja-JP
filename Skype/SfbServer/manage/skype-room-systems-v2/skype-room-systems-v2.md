@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 description: Skype ルーム システムの次世代を Skype ルーム システム v2 では、管理の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 5ef699bed1a77fc48f59ba4c5f8eb78ccc286ef7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 562dbeea19fb732caf9348e2bfd632da3579e71a
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="manage-skype-room-systems-v2"></a>Skype Room Systems バージョン 2 を管理する
  
@@ -64,7 +64,6 @@ Skype ルーム システム v2 がうまく実行されていない、工場出
 |アプリの更新  <br/> |	Windows ストア  <br/> |Windows ストア  <br/> SCCM  <br/> |
 |Skype アカウントの構成  <br/> |	現在サポートされていません  <br/> |	現在サポートされていません  <br/> |
 |ログへのアクセス  <br/> |現在サポートされていません  <br/> |	現在サポートされていません  <br/> |
-||||
    
 ## <a name="configuring-group-policy-for-skype-room-systems-v2"></a>Skype Room Systems バージョン 2 のグループ ポリシーの構成
 <a name="GroupPolicy"> </a>

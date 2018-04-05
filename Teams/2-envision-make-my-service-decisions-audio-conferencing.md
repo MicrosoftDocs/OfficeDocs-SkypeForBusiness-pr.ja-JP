@@ -11,15 +11,17 @@ description: 会議、ライセンスと可用性については、会議ブリ�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a4007b328ec66bed0ccae0160491b4ee20f858
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: fa51cda9a9ce57d7672b152b45eb9c8e3cf4ba46
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="make-my-service-decisions"></a>[サービスの決定を行う
 
 オーディオ会議の技術的な実装を計画するには、一連のより適切に定義されたビジネス要件を満たすソリューションを実装する組織を準備するのには事前にサービスの判断を行う必要があります。
+
+## <a name="audio-conferencing-in-teams"></a>チームでの音声会議
 
 マイクロソフトのチームで必要な電話会議機能を定義することの一環として、公開最新のロードマップの決定を評価する最初の手順のいずれかです。
 

@@ -11,13 +11,15 @@ description: チーム サービスの強化、すべての興味深い機能拡
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00fa4db5a2e25cf2a258f85328653f6a28f476d5
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 0c10f4da1c6619ae0f17976a8039c2a77eaadab6
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="enhance-my-service"></a>サービスを強化します。
+
+この資料では、クラウドを最大限に、組織の音声サービスを取得するための要件の概要を示します。 クラウド音声サービスの機能を継続的に監視するには、組織の最大の価値を提供していることを確認のことができます。
 
 ## <a name="enhance-my-service-overview"></a>[サービスの概要」を強化します。
 あらゆる機会があるかどうかを定期的に評価するためには、正常に展開オーディオ会議や電話システム サービスの計画を呼び出すと、組織にし、品質と信頼性、次の手順でサービスを動作しています。サービスを強化します。

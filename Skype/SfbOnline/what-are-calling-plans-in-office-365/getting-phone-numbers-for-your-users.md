@@ -22,21 +22,23 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn how to get new, port, or transfer existing numbers for Skype for Business, and how to show the changes to your users. '
-ms.openlocfilehash: 94d68c9caa11057393be66ca38c465f39fad9d7a
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: dc75a47f9e2de6c124675b4ae2cd9f3a9ff17036
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>ユーザー用に電話番号を取得する
 
 [] 組織内でユーザーが電話を発着信できるように設定するには、組織のための電話番号を取得する必要があります。
   
-ユーザー用の番号を取得するには、次の 2 つの方法があります。
-  
-- **Skype for Business 管理センター**を使用して、新しい電話番号を取得する。
+新しいユーザーの数を取得する 3 つの方法があります。
+
+- **ビジネス管理センターは、Skype を使用します。** 一部の国/地域のビジネス管理センターは、Skype を使用してユーザーの番号を取得するを参照してください[、ユーザーの電話番号を取得します。](../what-is-phone-system-in-office-365/getting-phone-numbers-for-your-users.md)。
     
-- 現在のサービス プロバイダーまたは携帯電話会社から Office 365 に既存の番号を移行する。
+- **既存の番号を移植します。** ポート、または現在のサービス プロバイダーまたは電話のキャリアからの既存の番号を Office 365 に転送できます。 [Office 365 に電話番号を転送](transfer-phone-numbers-to-office-365.md)または詳細については[、組織の電話番号の管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)作業を行いやすくにを参照してください。  
+  
+- **新しい番号の要求フォームを使用します。** 場合があります (国または地域) によってことはできません、Skype を使用するビジネス管理センターでは、新しい電話番号を取得するか、特定の電話番号または市外局番が必要です。 その場合は、フォームをダウンロードして記入してからマイクロソフトに返送する必要があります。 詳細については[、組織の電話番号の管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)を参照してください。
     
 [ **新しいユーザー番号を追加**] ページを使用して、電話番号の確認、検索、取得、予約を行う必要があります。[ **国または地域**]、[ **都道府県**]、[ **市区町村**] で検索してから、ユーザー用に必要となる電話番号の数を入力できます。
   

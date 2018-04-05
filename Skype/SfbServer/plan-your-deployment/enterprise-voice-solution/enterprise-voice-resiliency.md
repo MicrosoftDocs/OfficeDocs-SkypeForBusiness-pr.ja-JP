@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Skype で中央サイトとブランチ サイトの両方で、ビジネス サーバーのエンタープライズ VoIP の音声の復元機能をサポートする方法について説明します。 リカバリ性に優れたブランチ アプライアンスまたはブランチのリカバリ性に優れたサーバーを展開するブランチ サイトのオプションが含まれます。
-ms.openlocfilehash: a4ce7e01ef93ef7bfca2357b65b315b4be5c6781
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4303df46b7430ec8a7e3891baec7f9ff99d85480
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのエンタープライズ VoIP の復元の計画
  
@@ -87,9 +87,8 @@ Skype で中央サイトとブランチ サイトの両方で、ビジネス サ
 
 ビジネス サーバー用の Skype は、音声の復元性を確保するためには、次のインフラストラクチャとソフトウェアの次のコンポーネントに依存します。
   
-|||
-|:-----|:-----|
 |**コンポーネント** <br/> |**機能** <br/> |
+|:-----|:-----|
 |DNS  <br/> |SRV レコードおよび A レコードを解決して、サーバー間の接続およびサーバーとクライアント間の接続を確立  <br/> |
 |Exchange および Exchange Web サービス (EWS)  <br/> |コンタクト ストレージ、予定表データ  <br/> |
 |Exchange ユニファイド メッセージングおよび Exchange Web サービス  <br/> |通話ログ、ボイス メール一覧、ボイス メール  <br/> |

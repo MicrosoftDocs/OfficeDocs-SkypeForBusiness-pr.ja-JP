@@ -1,5 +1,5 @@
 ---
-title: Make Phone System with Calling Plans service decisions - Microsoft Teams
+title: 計画を呼び出すサービスの決定 - マイクロソフトのチームとの電話システムの作成します。
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
@@ -7,66 +7,68 @@ ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Choose from calling plans and licensing, configure emergency locations and features like voicemail and caller ID, acquire or transfer phone numbers.
+description: 通話プランと、ライセンスを選択して緊急時の場所とボイスメールと呼び出し元の ID のような機能を構成する、や電話番号を転送します。
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38e382992f3170f16718eac8d2c6f0902dbaff3b
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 4b7b1aaff60d6aa35fa10334c8d55e6a057eccaf
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
-# <a name="make-my-service-decisions"></a>Make my service decisions
+# <a name="make-my-service-decisions"></a>[サービスの決定を行う
+
+プランを呼び出すことで電話システムの技術的な実装を計画するには、一連のサービスの意思決定が向上のため、事前に定義済みのビジネス要件を満たすソリューションを実装する組織を準備を行う必要があります。
 
 ## <a name="calling-in-teams"></a>Teams での通話
 
-With Microsoft Teams, your users can place and receive phone calls to or from the public switched telephone network (PSTN). Your users can use their own dedicated phone numbers for placing and receiving domestic and international phone calls from Teams client applications, with advanced features that include voicemail and emergency calling (enhanced 911).
+マイクロソフト チームは、ユーザーが配置し、その公衆交換電話網 (PSTN) との間に電話を受けます。 ユーザーは、配置して、国内または国際電話の通話をボイスメール緊急通報 (enhanced 911) は、高度な機能を使用して、チームのクライアント アプリケーションから受信の自分専用の電話番号を使用できます。
 
 > [!NOTE]
-> The latest Teams roadmap for identifying Teams Audio Conferencing features in scope for your deployment can be found at <https://aka.ms/skype2teamsroadmap>.
+> 展開があるは、スコープ内の計画を呼び出す機能を持つチームの電話システムを識別するための最新のチーム ロードマップ<https://aka.ms/skype2teamsroadmap>。
 
-## <a name="phone-system-in-teams"></a>Phone System in Teams
+## <a name="phone-system-in-teams"></a>チームで電話システム
 
-For Teams users to be able to place and receive PSTN calls, they need to be enabled for Phone System, a feature in Office 365.
+チームを配置し、PSTN の呼び出しを受信できるユーザー、電話システムでは、Office 365 の機能を有効にする必要があります。
 
-To enable connectivity to the PSTN, your organization can use Microsoft as its telecommunications service provider. Eventually, you’ll also have the option to “bring your own” telecommunications service provider to enable connectivity to PSTN for Phone System.
+PSTN への接続を有効にするには、組織は、その通信サービス ・ プロバイダーとして Microsoft を使用できます。 最終的には、必要がありますが聞ける独自通信サービス ・ プロバイダーに電話システムの PSTN への接続を有効にするオプションです。
 
 > [!IMPORTANT]
-> The ability to choose your own telecommunications service provider for Phone System will be available in the future. To learn more about the projected timeline, please review the [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap).
+> 電話システムの独自の電気通信サービス プロバイダーを選択する機能は、将来的に利用できます。 投影されたタイムラインの詳細については、 [Skype をビジネスでマイクロソフト チーム機能のロードマップ](https://aka.ms/skype2teamsroadmap)を参照してください。
 
 ## <a name="phone-system-with-calling-plans"></a>通話プランが設定された電話システム
 
-To use Microsoft as your telecommunications service provider, you need to obtain Calling Plan licenses and assign them to your Phone System users.
+電気通信サービスのプロバイダーとは、Microsoft を使用するには、計画を呼び出してライセンスを取得し、電話システムのユーザーに割り当てる必要があります。
 
-There are two major types of calling plans:
+呼び出し元の計画の 2 つの主要タイプがあります。
 
--   Domestic calling plan
+-   国内通話プラン
 
--   Domestic and international calling plan
+-   国内および海外の通話プラン
 
-Each type of calling plan allocates a certain number of call minutes per month to each user who has been assigned the license. When the call minutes allocation is exhausted, the user won’t be able to place outbound calls—except for emergency calls—until the next month’s billing cycle. If you want users to be able to continue to place outbound call even after they’ve exhausted their allocation of call minutes, or to let users who have a domestic calling plan place international calls, you can set up Communications Credits for your organization.
+通話プランの各タイプには、ライセンスが割り当てられている各ユーザーに 1 か月分を呼び出し数が割り当てられます。 通話分の割り当てが不足すると、ユーザーことはできません発信コールを配置するのには、緊急通報を除く-次の月のサイクルを請求するまでです。 呼び出し時間 (分) は、その割り当てが面倒な方、または組織の国際通話、国内通話プランを持つユーザーをできるように、通信のクレジットを設定できます、発信通話を続けることができるを場合。
 
 <!--ENDOFSECTION-->
 
 ## <a name="availability-of-calling-plans"></a>通話プランの利用可否
 
-Before you plan for the implementation of Calling Plans in Teams, verify that the Calling Plans service is available in your area by reviewing [Country and region availability for Audio Conferencing and Calling Plans](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+チームでプランの呼び出しの実装を計画する前に、計画を呼び出すサービスは利用可能なお住まいの地域で[オーディオ会議や予定を呼び出すための国および地域の可用性](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)を確認することによってを確認します。
 
 > [!IMPORTANT]
-> Due to legal constraints, for Calling Plans to be available to multinational organizations, the contract for Office 365 subscriptions must be based in a country or region where the Calling Plans service is available, or where the Calling Plans service can be purchased.
+> 多国籍組織を使用できるように計画を呼び出すための法的な制約のための Office 365 サブスクリプション契約基づいている必要がある国または地域で計画を呼び出すサービスが利用可能なまたはサービスの計画を呼び出すことができます。購入しました。
 
-After confirming that your organization can obtain the Calling Plans service, compile the list of user locations or offices where you’ll be implementing the Calling Plans service, based on the list of available countries and regions.
+組織が計画を呼び出してサービスを取得できることを確認するには後に、、ユーザーの所在地、またはオフィスの場所を実装する場合の利用可能な国や地域の一覧を基に、計画を呼び出すサービスのリストをコンパイルします。
 
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide which user locations or offices you’ll implement the Calling Plans service in.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>Document the user locations or offices to be enabled for the Calling Plans service.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|意思決定ポイント|<ul><li>サービスを提供するユーザーの場所やオフィスを呼び出す計画を実装することを決定します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>ユーザーの所在地、またはオフィスの計画を呼び出すサービスを有効にするを文書化します。</li></ul>|
 
 > [!TIP]
-> Below is an example of a Phone System with Calling Plans site enablement list.
->|オフィス   |場所 |Phone System service  |
+> プランの呼び出しサイトの有効化] ボックスの一覧で、電話システムの例を次に示します。
+>|オフィス   |場所 |電話システム サービス  |
 >|---------|---------|---------|
 >|One Epping Road|オーストラリア|旧 PSTN サービス|
 >|100 Cyberport Road|香港特別自治区|旧 PSTN サービス|
@@ -78,16 +80,16 @@ After confirming that your organization can obtain the Calling Plans service, co
 
 ## <a name="phone-numbers-and-emergency-locations"></a>電話番号と緊急対応の場所
 
-With Calling Plans in Office 365, every user in your organization needs to have a unique direct inward dialing (DID) phone number and a corresponding validated emergency address. Review [Manage cloud voice telephone numbers](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-phone-system#manage-cloud-voice-telephone-numbers) to plan the phone number acquisition for your Calling Plans implementation.
+Office 365 のプランを呼び出すことで、組織内のすべてのユーザーが必要 (DID) 電話番号と、対応する検証済みの緊急アドレス固有の直接内向きです。 プランの呼び出しを実装するための電話番号取得を計画する[管理クラウド音声の電話番号](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-phone-system#manage-cloud-voice-telephone-numbers)を確認します。
 
-When you’re configuring phone numbers for Calling Plans, you must assign an emergency address to each telephone number before you assign the number to a user. この指定は、緊急通話をサポートするために必要な操作です。 The emergency address must be validated to ensure that it’s in the correct format to be used by emergency response services.
+設定をするときの電話番号計画を呼び出すことで、数をユーザーに割り当てる前に、各電話番号に緊急アドレスを割り当てる必要があります。 この指定は、緊急通話をサポートするために必要な操作です。 緊急対応サービスが使用する正しい形式であることを確認するのには緊急時のアドレスを検証する必要があります。
 
 > [!IMPORTANT]
-> Emergency Services calling operates differently in the Calling Plans service than in traditional telephone services. It’s important that you understand these differences and communicate them to all users. See [Emergency Calling Terms and Conditions](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions) for more details.
+> 緊急のサービスを呼び出すことが計画を呼び出すことでサービスのより従来の電話サービスの動作が異なる。 これらの違いを理解してすべてのユーザーに伝えることが重要です。 詳細については、[緊急の呼び出しの条項および条件](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions)を参照してください。
 
-In addition to supplying a validated emergency address, you can define emergency locations and associate them with the validated emergency address to give a more exact location within an address. 通常、緊急対応の場所はユーザーが勤務するビルの番号、階、棟、オフィス番号です。
+検証済みの緊急時のアドレスを指定するだけでなく緊急時の場所を定義し、アドレス内でより正確な場所を提供する緊急検証済みのアドレスに関連付けることがことができます。 通常、緊急対応の場所はユーザーが勤務するビルの番号、階、棟、オフィス番号です。
 
-To learn more about emergency locations in relation to Calling Plans, review the following articles:
+緊急計画を呼び出す場所の詳細については、以下の資料を確認してください。
 
 -   [緊急対応の場所、住所、通話ルーティングの概要](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)
 
@@ -96,48 +98,48 @@ To learn more about emergency locations in relation to Calling Plans, review the
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide the granularity of emergency location information to be collected for user locations or offices in scope for the Calling Plans implementation.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>Document the detailed emergency address and emergency locations for each user location or office in scope for the Calling Plans implementation.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|意思決定ポイント|<ul><li>ユーザーの所在地、または計画を呼び出す実装のスコープ内のオフィスで収集される情報を緊急通報の粒度を決定します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>詳細な緊急時のアドレスとユーザーの場所やプランを呼び出す実装のスコープ内のオフィスごとに緊急時の場所を文書化します。</li></ul>|
 
 > [!TIP]
-> You can use the following template to document the details of phone numbers and emergency location details.
->|ユーザー |Emergency location and address |Phone number |
+> 次のテンプレートを使用すると、電話番号の詳細情報と緊急時の場所の詳細を文書化します。
+>|ユーザー |緊急通報とアドレス |電話番号 |
 >|-----|-------------------------------|-------------|
 >|Emily Braun |1034/32 London Bridge Street, London, SE1, United Kingdom |+44 23 4567 8901 |
->|Lidia Holloway |1065/32 London Bridge Street, London, SE1, United Kingdom |+44 23 4567 89112 |
->|Louis Lahr |1023/32 London Bridge Street, London, SE1, United Kingdom |+44 23 4567 8921 |
+>|Lidia Holloway |1065/32 ロンドン ブリッジ ストリート、ロンドン、SE1、王国を統一します。 |+44 23 4567 89112 |
+>|ルイ Lahr |1023/32 London Bridge Street, London, SE1, United Kingdom |+44 23 4567 ・ 8921 |
 >|Marcel Beauchamp |07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France | TBA |
->|Rachelle Cormier |07N15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France | TBA |
->|Isabell Potvin |07F05E/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France | TBA |
+>|Rachelle Cormier |07N15D/39 quai du Président ルーズベルト、92130 Issy の les の Moulineaux (フランス) | TBA |
+>|Isabell Potvin |07F05E/39 quai du Président ルーズベルト、92130 Issy の les の Moulineaux (フランス) | TBA |
 
 <!--ENDOFSECTION-->
 
 ## <a name="voicemail"></a>ボイスメール
 
-Phone System voicemail, powered by Azure Voicemail services, supports voicemail deposits to Exchange mailboxes only and doesn’t support third-party email systems.
+Azure ボイスメール サービス、電源、電話システムのボイスメール ボイスメール出金のみの Exchange メールボックスをサポートしています、サード ・ パーティ製の電子メール システムをサポートしていません。
 
-By default, Phone System voicemail works with Exchange Online; however it has a minimum supported Exchange on-premises version and deployment model to allow delivery of voicemail messages to user mailboxes in the on-premises Exchange deployment.
+既定では、電話システムのボイス メールの機能 Exchange online です。ただし最低限サポートされている Exchange 設置型バージョンおよび配置モデルをオンプレミスの Exchange の展開でユーザーのメールボックスにボイス メール メッセージの配信を許可するがあります。
 
-電話システムのボイスメールはボイスメールの議事録作成機能を備えています。この機能は組織のすべてのユーザーに対して既定で有効になっています。 Your business needs might require that you disable voicemail transcription for specific users or everyone throughout the organization. If your organization decided to keep voicemail transcription enabled, you need to also consider whether voicemail transcription profanity masking need to be enabled. See [Setting voicemail policies in your organization](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) for more details.
+電話システムのボイスメールはボイスメールの議事録作成機能を備えています。この機能は組織のすべてのユーザーに対して既定で有効になっています。 ビジネス ニーズは、特定のユーザーまたは組織全体のすべてのユーザーのボイスメールの議事録作成を無効にする必要があります。 組織では、ボイスメールの議事録作成を有効にしておくことにしました、する場合は、ボイスメールの議事録の不適切なマスキングを有効にする必要があるかどうかをも考慮する必要があります。 詳細については[、組織内のボイス メール ポリシーの設定](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail)を参照してください。
 
 >[!NOTE]
-> 電話システムのボイスメールには、SMTP を使用してメッセージを再送できるフォールバック メカニズムが実装されています。このメカニズムにより、サードパーティの電子メールシステムを利用するユーザーがボイスメール メッセージを受信することができます。 This mechanism doesn’t include guaranteed service uptime or other voicemail features, such as changing voicemail greeting.
+> 電話システムのボイスメールには、SMTP を使用してメッセージを再送できるフォールバック メカニズムが実装されています。このメカニズムにより、サードパーティの電子メールシステムを利用するユーザーがボイスメール メッセージを受信することができます。 このメカニズムには、保証されたサービスの稼働時間、またはボイス メール応答メッセージを変更するなど、他のボイスメール機能が含まれていません。
 
-For more information about voicemail in a Phone System implementation, see [Azure PBX voicemail support for Exchange Server](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#licensing-for-calling-plans).
+電話システムの実装でボイスメールの詳細については、 [Azure の PBX のボイス メールが Exchange Server のサポート](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#licensing-for-calling-plans)を参照してください。
 
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether you’ll enable Phone System voicemail in your Calling Plans implementation.</li><li>If using Exchange on-premises and your existing deployment doesn’t meet your requirements to support Phone System voicemail, choose from the available options (upgrade and setup for Phone System voicemail support, migrate to Exchange Online, or leverage the fallback mechanism described earlier).</li><li>Decide whether you’ll enable or disable voicemail transcription and voicemail transcription profanity masking throughout the organization or for specific users.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>If applicable, document the Exchange decision points to support Phone System voicemail.</li><li>If you’ll enable/disable voicemail, voicemail transcription, and voicemail transcription profanity masking only for specific users, document that list of users.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|意思決定ポイント|<ul><li>計画を呼び出す実装では、電話システムのボイス メールを有効にするかどうかを決定します。</li><li>Exchange 設置し、既存の配置を使用してボイスメールの電話システムをサポートするためにお客様の要件を満たしていない場合、は、使用可能なオプションから選択 (アップグレードしボイスメールの電話システムのサポートのためのセットアップは、Exchange オンライン、または利用に移行しますフォールバック メカニズムは前に説明した)。</li><li>有効にするまたはボイスメールの議事録と、組織全体または特定のユーザーのボイスメールの議事録不適切なマスキングを無効にするかどうかを決定します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>該当する場合は、ボイスメールの電話システムをサポートするために Exchange の意思決定ポイントを文書化します。</li><li>場合が有効/無効にするボイスメール、ボイスメールの議事録、およびボイスメールの議事録不適切なマスキング特定のユーザーに対してのみ、ユーザーの一覧を文書化します。</li></ul>|
 
 > [!TIP]
-> Phone System voicemail details for the Phone System with Calling Plans implementation can be documented as the following.
->|ユーザー |Exchange mailbox |Enable voicemail? |Voicemail transcription |Voicemail transcription profanity masking |
+> 実装の計画を呼び出すと、電話システムの電話システムのボイス メールの詳細は、次のよう文書化することができます。
+>|ユーザー |Exchange メールボックス |ボイスメールを有効にしますか。 |ボイスメールの議事録 |ボイスメールの議事録の不適切なマスキング |
 >|------------------|------------------|-------------------|----------|----------|
 >|Emily Braun      |オンライン      |はい |有効 |有効 |
 >|Lidia Holloway   |オンライン      |はい |有効 |無効 |
->|Louis Lahr       |オンプレミス |はい |有効 |有効 |
+>|ルイ Lahr       |オンプレミス |はい |有効 |有効 |
 >|Marcel Beauchamp |オンプレミス |はい |無効 |該当なし |
 >|Rachelle Cormier |オンライン      |はい |無効 |該当なし |
 >|Isabell Potvin   |オンプレミス |はい |無効 |該当なし |
@@ -146,40 +148,40 @@ For more information about voicemail in a Phone System implementation, see [Azur
 
 ## <a name="calling-identity"></a>発信者番号
 
-既定で、すべての通話の発信で発信に割り当てられた電話番号が発信者番号として使用されます。 通話の受信者は即座にその発信者を識別して通話を受け入れるか拒否するか決めることができます。 In some cases, there are legitimate business requirements to mask the Caller ID to protect the identity of callers by using the office main line number—this is typically a service number serviced by the Auto Attendant configuration—as Caller ID, or to block Caller ID presentation altogether.
+既定で、すべての通話の発信で発信に割り当てられた電話番号が発信者番号として使用されます。 通話の受信者は即座にその発信者を識別して通話を受け入れるか拒否するか決めることができます。 Office メインの行番号を使用して呼び出し元の id を保護するために呼び出し元の ID をマスクするのには正当なビジネス要件がある場合によっては、-自動応答構成でサービスを提供するサービスの数は通常、呼び出し元の ID、または呼び出し元の ID をブロックするにはプレゼンテーション全体です。
 
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether Caller ID manipulation is required for your Calling Plans implementation.</li><li>If applicable, decide the types of Caller ID manipulation (mask with service number or anonymize) to be implemented.</li><li>If applicable, decide which users require Caller ID manipulation and the type of Caller ID manipulation to be assigned to each user.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>Document the users to be assigned Caller ID manipulation and the type of Caller ID manipulation to assign.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|意思決定ポイント|<ul><li>発信者番号操作が計画の呼び出しを実装するために必要かどうかを決定します。</li><li>該当する場合、呼び出し元 ID の操作の種類を決定するサービス番号のマスク (匿名) を実装します。</li><li>該当する場合は、ユーザーが操作の呼び出し元の ID と各ユーザーに割り当てる操作を呼び出し元の ID の種類を必要とするを決定します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>発信者番号操作および割り当てるには発信者番号通知の操作の種類に割り当てられるユーザーを文書化します。</li></ul>|
 
 > [!TIP]
-> The following is an example of Caller ID masking details documentation.
+> 次は、呼び出し元 ID の詳細ドキュメントをマスキングの例です。
 >|ユーザー  |発信における発信者番号のマスク処理の有効化  |発信者番号のマスク処理の種類  |ユーザーによる上書きの許可  | 受信における発信者番号のマスク処理の有効化  |
 >|---------|---------|---------|---------|---------|
 >|Emily Braun|いいえ|該当なし|はい|いいえ|
 >|Lidia Holloway|はい|サービス番号 (OrgAA、+44 20 7946 0000)|いいえ|あり|
->|Louis Lahr|いいえ|該当なし|はい|いいえ|
+>|ルイ Lahr|いいえ|該当なし|はい|いいえ|
 >|Marcel Beauchamp|はい|サービス番号 (OrgAA、TBA)|いいえ|はい|
 >|Rachelle Cormier|はい|匿名化|はい|いいえ|
 >|Isabell Potvin|はい|サービス番号 (OrgAA、TBA)|いいえ|あり|
 
 <!--ENDOFSECTION-->
 
-## <a name="licensing-for-cloud-voice-capabilities"></a>Licensing for cloud voice capabilities
+## <a name="licensing-for-cloud-voice-capabilities"></a>クラウドのボイス機能のライセンス
 
-Audio Conferencing and Phone System are features in Office 365. They can be licensed separately as add-on services for existing customers who have Office 365 E3 or E1 subscription plans; they’re already included as part of the Office 365 E5 subscription plan.
+オーディオ会議や電話システムは、Office 365 の機能です。 Office 365 E3 または E1 サブスクリプション計画している既存のお客様向けのアドオン サービスとして個別にライセンスことができます。既に Office 365 の E5 のサブスクリプションの計画の一部として含まれています。
 
-Calling Plans is an add-on to the Phone System feature in Office 365, so you must have a Phone System licensed enabled to use Calling Plans.
+通話プランは、電話システムがライセンスを取得する必要がありますので、Office 365 で電話システムの機能へのアドオンを有効に計画の呼び出しを使用します。
 
-To support for additional Audio Conferencing and Calling Plans use cases (international conference dial-out, external calling after Calling Plan minute allocations are exhausted, and so on), you can set up Communications Credits for your organization.
+サポートするために追加のオーディオ会議と予定を呼び出す場合 (ダイアル アウト、分の割り当てを計画を呼び出すことが使い果たされると後の呼び出しが外部との国際会議)、組織の通信のクレジットを設定できます。
 
 ## <a name="licensing-for-calling-plans"></a>通話プランのライセンス
 
-If your organization intends to use Microsoft as telecommunications service provider, you need to obtain Calling Plan add-ons appropriate to your users’ business requirements. Generally, not everybody in an organization needs to place international calls, so you can provision most users with domestic Calling Plan licenses.
+場合は、組織では、電気通信サービスのプロバイダーと Microsoft を使用しようとして、ユーザーのビジネス要件に適切な計画を呼び出すのアドオンを入手する必要があります。 一般に、組織の全員国内の計画を呼び出すことのライセンスを持つほとんどのユーザーを提供することができますので、国際通話を配置する必要があります。
 
-There are two types of Calling Plan licenses:
+2 種類のライセンスの計画を呼び出すことがあります。
 
 -   国内通話プラン
 
@@ -188,15 +190,15 @@ There are two types of Calling Plan licenses:
 > [!NOTE]
 > ある特定ユーザーの「国内」はそのユーザーに割り当てられた Office 365 の使用場所によって決まります。
 
-通話プランの各タイプで、ユーザーが利用できる月ごとの国内または国際通話の通話時間 (分) が割り当てられます。 The Domestic Calling Plan costs less compared to the International and Domestic Calling Plan.
+通話プランの各タイプで、ユーザーが利用できる月ごとの国内または国際通話の通話時間 (分) が割り当てられます。 国際および国内を呼び出すことを計画と比較して小さい国内の呼び出しの計画コスト。
 
-The flexibility of subscribing and assigning the most appropriate Calling Plan type for individual users’ business requirements helps your organization control the costs of its Calling Plans implementation.
+サブスクライブ、および個々 のユーザーのビジネス要件に最も適切な計画を呼び出す型を割り当てることの柔軟性を使用するとその計画を呼び出す実装のコストを制御します。
 
-Office 365 テナントの場合、通話時間 (分) は国や地域別と通話プランの種類ごとに累積されます。 テナントに割り当てられた月ごとの通話時間の限度に達すると、その月の残りの期間、通話プラン サービス (緊急通話を除く) が停止されます。 The Calling Plans service will resume automatically on the first day of the next calendar month.
+Office 365 テナントの場合、通話時間 (分) は国や地域別と通話プランの種類ごとに累積されます。 テナントに割り当てられた月ごとの通話時間の限度に達すると、その月の残りの期間、通話プラン サービス (緊急通話を除く) が停止されます。 計画を呼び出すサービスは、次のカレンダー月の最初の日に自動的に再開されます。
 
-You can set up Communications Credits for your organizations to enable users to make outbound calls after the allocation of calling minutes is exhausted without having to wait until the next month billing cycle. Additionally, Communications Credits give users assigned the Domestic Calling Plan the ability to make international calls, which are then charged by using a “pay-per-minute” model.
+分を呼び出すための割り当ては次の月のサイクルを請求するまで待つことがなく終了した後、発信呼び出しを行うには、ユーザーを有効にする組織では、通信のクレジットを設定できます。 さらにユーザーの通信のクレジットを割り当て、国内を呼び出すことを計画国際の呼び出しは、「支払の 1 分あたりの」モデルを使用して、請求を作成する機能です。
 
-To learn more about Phone System and Calling Plans, review the following articles:
+電話システムおよび計画の呼び出しに関する詳細については、以下の資料を確認してください。
 
 -   [電話システム](https://products.office.com/skype-for-business/phone-system)
 
@@ -205,41 +207,41 @@ To learn more about Phone System and Calling Plans, review the following article
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>If your organization doesn’t have the required Phone System license, decide whether you’ll acquire the Phone System license by stepping up your existing Office 365 subscriptions or by acquiring the Phone System add-on service.</li><li>Decide which users require a Domestic Calling Plan license and which require a Domestic and International Calling Plan license.</li><li>Decide whether you’ll need Communications Credits for your Calling Plans implementation.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>Document the division, department, office, or user groups you’ll assign a Phone System license with Domestic Calling Plan or Domestic and International Calling Plan.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|意思決定ポイント|<ul><li>組織には、必要な電話システムのライセンスが割り当てられていない、または電話システムのアドオン サービスを入手することで、既存の Office 365 サブスクリプションをステップ実行して、電話システムのライセンスを習得していただくことがあるかどうかを決定します。</li><li>ユーザーには国内を呼び出す予定のライセンスが必要と判断し、国内および国際を呼び出す予定のライセンスが必要な。</li><li>プランの呼び出しを実装するための通信のクレジットする必要があるかどうかを決定します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>部門、部門、オフィス、またはユーザー グループの電話システムのライセンス国内を呼び出すことを計画、国内と国際を呼び出す計画を割り当てることを文書化します。</li></ul>|
 
 > [!TIP]
-> You can use the following example to document the license assignment for Phone System with Calling Plans users.
->|ユーザー |オフィス |Office 365 ライセンス |Calling Plan |
+> 計画を呼び出すユーザーの電話システムのライセンスの割り当てを文書化するのには、次の例を使用できます。
+>|ユーザー |オフィス |Office 365 ライセンス |計画を呼び出す |
 >|----|----|----|----|
 >|Emily Braun |32 London Bridge Street |Office 365 E5 |国内/国際通話プラン |
 >|Lidia Holloway |32 London Bridge Street |Office 365 E5 |国内通話プラン |
->|Louis Lahr |32 London Bridge Street |Office 365 E5 |国内通話プラン |
->|Marcel Beauchamp |39 quai du Président Roosevelt |Office 365 E3, Phone System add-on |国内通話プラン |
+>|ルイ Lahr |32 London Bridge Street |Office 365 E5 |国内通話プラン |
+>|Marcel Beauchamp |39 quai du Président Roosevelt |Office 365 E3、電話システムのアドオン |国内通話プラン |
 >|Rachelle Cormier |39 quai du Président Roosevelt |Office 365 E5 |国内/国際通話プラン |
->|Isabell Potvin |39 quai du Président Roosevelt |Office 365 E3, Phone System add-on |国内通話プラン |
+>|Isabell Potvin |39 quai du Président Roosevelt |Office 365 E3、電話システムのアドオン |国内通話プラン |
 
 <!--ENDOFSECTION-->
 
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
-Using Communications Credits, your users can dial out from an Audio Conferencing meeting to add someone else from anywhere in the world (outside of the originating country of the meeting organizer). You can set up Communications Credits for your organization to enable users to make outbound calls after they’ve exhausted their allocation of calling minutes, without having to wait until the next month’s billing cycle. Additionally, Communications Credits give users assigned with the Domestic Calling Plan the ability to make international calls, which are then charged by using a “pay-per-minute” model.
+通信のクレジットを使用すると、ユーザー ダイヤルアウトできるよう、オーディオ会議の会議 (会議の開催者の発信元の国/地域) の外側で世界中の任意の場所から他のユーザー追加するからです。 通信のクレジット、組織のユーザーを有効にするのには、次の月の請求サイクルまで待機することがなく、分を呼び出すための割り当てが面倒な方、後は、発信呼び出しを行うに設定できます。 さらに、通信のクレジットは、国際の呼び出しは、「支払の 1 分あたりの」モデルを使用して、請求を作成する機能、国内を呼び出すことを計画に割り当てられているユーザーを提供します。
 
-通信クレジットを実装するには、最初に初回購入金額を決定します。 If your organization chooses to use auto-recharge, you’ll determine the optimal amount by measuring actual usage. Monitor your Communications Credits usage over time, and adjust your recharge amount as required.
+通信クレジットを実装するには、最初に初回購入金額を決定します。 組織自動充電を使用する場合、実際の使用状況を測定することによって最適な量を決定します。 時間の経過とともに、通信のクレジットの使用状況を監視し、必要に応じて、再充電の量を調整します。
 
-For your Calling Plans implementation, you can control the use of Communications Credits on a per-user basis, which helps you ensure that you’ve assigned these credits in alignment with your business needs.
+呼び出すことを計画の実装によっては、ビジネス ニーズとの配置でこれらのクレジットを割り当てられていることを確認できるユーザーごとのごとに通信のクレジットの使用を制御できます。
 
-To learn more about Communications Credits, review [What are Communications Credits?](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
+通信のクレジットの詳細については、次のように確認します。[通信のクレジットは何ですか?](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)です。
 
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether you need Communications Credits for your Audio Conferencing or Calling Plans implementation.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>Document the division, department, office, or user groups you’ll enable Communications Credits for.</li><li>Document your Communications Credits plan for your Audio Conferencing or Calling Plans implementation.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|意思決定ポイント|<ul><li>オーディオ会議または予定の呼び出しを実装するための通信のクレジットが必要かどうかを決定します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>クレジットを通信することで、部門、部門、オフィス、またはユーザーのグループを文書化します。</li><li>オーディオ会議または予定の呼び出しを実装するため、通信のクレジットの計画を文書化します。</li></ul>|
 
 > [!TIP]
-> You use the following example to document the Communications Credits assignment list for Calling Plans users.
->|ユーザー |オフィス |Calling Plan |コミュニケーション クレジット |
+> 計画を呼び出すユーザーの通信のクレジットの割り当ての一覧を文書化するのにには、次の例を使用します。
+>|ユーザー |オフィス |計画を呼び出す |コミュニケーション クレジット |
 >|----|----|----|----|
 >|Emily Braun |32 London Bridge Street |国内/国際通話プラン |有効 |
 >|Lidia Holloway |32 London Bridge Street |国内通話プラン |無効 |
@@ -265,48 +267,48 @@ To learn more about Communications Credits, review [What are Communications Cred
 
 オーディオ会議と予定の呼び出しの実装では、新しい電話番号を取得するか、既存の電話番号を (ポート) を転送することができます。
 
-To let users dial phone numbers the way they’re accustomed to—such as omitting area codes for local calls, omitting country code for domestic calls, or even using short-digit dialing when performing conference dial-out or calling other users in the organization—you can configure a customized dial plan and assign it to users.
+ダイヤルの電話番号に慣れている方法をユーザーができるようにするのには、市内通話、市外局番を省略すること、国内通話は、国コードを省略することまたは短い桁のダイヤル会議のダイヤル ・ アウトを実行するとき、または組織内の他のユーザーの呼び出しを使用しても、カスタマイズされたダイヤル プランを構成でき、ユーザーに割り当てることができます。
 
-## <a name="acquire-new-telephone-numbers"></a>Acquire new telephone numbers
+## <a name="acquire-new-telephone-numbers"></a>新しい電話番号を取得します。
 
-The two types of telephone numbers in Microsoft cloud voice solutions are:
+マイクロソフト クラウド ソリューションの音声で電話番号の 2 つの種類は次のとおりです。
 
--   Subscriber (user) numbers, which can be assigned to users in your organization.
+-   サブスクライバー (ユーザー) 番号は、組織内のユーザーに割り当てることができます。
 
--   Service numbers, available as toll and toll-free service numbers, which have higher concurrent call capacity than subscriber numbers and can be assigned to services such as Audio Conferencing, Auto Attendants, or Call Queues.
+-   サービス番号、有料電話番号と加入者番号よりも高いの同時呼び出し容量があり、オーディオ会議、自動応答、またはキューの呼び出しなどのサービスに割り当てることができるサービスのフリー ダイヤル番号として使用します。
 
-For more information about the types of telephone numbers, see [Different kinds of phone numbers used for Calling Plans](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans).
+電話番号の種類の詳細については、[さまざまな種類](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans)を参照してください。
 
-The total count of telephone numbers that you can obtain depend on the type of telephone number and the number of licenses you’ve bought and assigned to your users.
+取得できる電話番号の合計数は、電話番号およびライセンスを購入して、ユーザーに割り当てられている番号の種類によって異なります。
 
-For more information about the total count of telephone numbers that you can obtain, see [How many phone numbers can you get?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)
+取得できる電話番号の合計数の詳細についてを参照してください[電話番号の数を取得することができますか?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)
 
 <br>
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|意思決定ポイント|<ul><li>ユーザーの場所やオフィスがマイクロソフトから新しい電話番号を取得する場所を決定します。</li><li>Microsoft から取得する電話番号の種類を決定します。</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>Document the user locations or offices where new telephone numbers will be acquired from Microsoft.</li><li>Document the type of telephone numbers to be acquired from Microsoft.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>ユーザーの所在地、またはマイクロソフトから新しい電話番号を取得する場所のオフィスを文書化します。</li><li>Microsoft から取得する電話番号の種類を文書化します。</li></ul>|
 
-## <a name="transfer-existing-telephone-numbers"></a>Transfer existing telephone numbers
+## <a name="transfer-existing-telephone-numbers"></a>既存の電話番号を転送します。
 
-If your organization wants to transfer (or port) existing telephone numbers to Microsoft, you can do so by submitting a port order request to Microsoft.
+組織は、既存の電話番号をマイクロソフトに転送 (またはポート) する必要がある場合これを行うマイクロソフトにポートの注文要求を送信することで。
 
-You can transfer all your existing telephone numbers at once (full port), and—in some markets—you can transfer a subset of your existing telephone numbers (partial port). A partial port can be useful in cases where you just want to gradually move your users to Phone System with Calling Plans.
+すべての既存の電話番号を一度に (全ポート) を転送することができますと、一部の市場で、既存の電話番号 (一部のポート) のサブセットを転送することができます。 だけする計画を呼び出すと、電話システムに、ユーザーを徐々 に移動する場合に便利です一部のポートは使用できます。
 
-A single port order can only transfer the telephone numbers to a single telephone number type. If you need to transfer some of your telephone numbers as subscriber numbers and some as service numbers, we recommend that you first complete the transfer to Microsoft and then perform the conversion as soon as the numbers are in Microsoft’s control.
+1 つのポートの順序は、1 つの電話番号の種類に電話番号を転送することができますだけです。 加入者番号と、電話の番号の一部といくつかのサービスの番号に転送する必要があります、Microsoft への転送を完了し、マイクロソフトのコントロールでは、すぐに変換を実行することをお勧めします。
 
-As an alternative (if partial port is supported), you can submit multiple port requests, one port request at a time. However, this alternative approach will prolong your contract with your existing telecommunications service provider.
+代わりに (一部のポートがサポートされる場合)、同時に複数のポートの要求、要求の 1 つのポートを送信することができます。 ただし、この方法は、既存の通信サービスのプロバイダーとの契約内容が延長されます。
 
-Telephone number porting is a complex topic and requires thorough planning, coordination, and adequately managing your stakeholders’ expectations. To learn more, see the following articles:
+電話番号を移植して、複雑なトピックでは、綿密な計画、調整、および利害関係者の期待を適切に管理する必要があります。 詳細については、以下の資料を参照してください。
 
--   [Transferring phone numbers to Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
+-   [Office 365 に電話番号を転送します。](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
 -   電話番号の管理フォームのダウンロード
 
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|意思決定ポイント|<ul><li>ユーザーの所在地、またはオフィスの既存の電話番号をマイクロソフトに転送されますを決定します。</li><li>Decide the type of telephone numbers to be transferred to Microsoft.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|意思決定ポイント|<ul><li>ユーザーの所在地、またはオフィスの既存の電話番号をマイクロソフトに転送されますを決定します。</li><li>マイクロソフトに転送する電話番号の種類を決定します。</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>文書化するには、ユーザーの所在地、またはオフィスの既存の電話番号をマイクロソフトに転送されます。</li><li>マイクロソフトに転送する電話番号の種類を文書化します。</li></ul>|
 
 <!--ENDOFSECTION-->
@@ -315,19 +317,19 @@ Telephone number porting is a complex topic and requires thorough planning, coor
 
 Office 365 の電話システムの機能で、ダイヤル プランでは、変換する正規化ルールのセットを別の形式 (通常は E.164 形式) 承認と通話のルーティングの電話番号をダイヤルします。 オーディオ会議サービスでは、会議ダイヤルアウト用のシナリオ (たとえば、参加者を招待 PSTN とダイヤル バックでは、「電話」機能を使用して) でダイヤルされた電話番号を変換するために、電話システムで使用されるのと同じ機能を活用します。
 
-In the Phone System feature of Office 365, there are two types of dial plans:
+Office 365 の電話システムの機能では、ダイヤル プランの 2 種類があります。
 
--   **Service dial plan:** This is the default dial plan that’s applied to users based on their Office 365 usage location, and it can’t be modified.
+-   **サービスのダイヤル プラン:**これは、既定の Office 365 の使用状況の場所に基づいて、ユーザーに適用されているダイヤル プランと、変更することはできません。
 
--   **Tenant dial plan:** This is a customizable dial plan within a tenant, which is further divided into two types:
+-   **のテナントのダイヤル プラン:**これは、さらに次の 2 種類に分かれているテナント内のカスタマイズ可能なダイヤル プランです。
 
-    -   **Tenant-global dial plan:** The dial plan that applies to all users in the tenant.
+    -   **テナント グローバル ダイヤル プラン:**テナント内のすべてのユーザーに適用されるダイヤル プランです。
 
-    -   **Tenant-user dial plan:** The dial plan that applies only to specific users.
+    -   **テナント ユーザー ダイヤル プラン:**ダイヤル プランを特定のユーザーだけに適用されます。
 
-The effective dial plan assigned to users is the combination of the service dial plan (based on a user’s Office 365 usage location) and tenant dial plan (which can be either a tenant-global dial plan or tenant-user dial plan).
+ユーザーに割り当てられている有効なダイヤル プランは、(ユーザーの Office 365 の使用状況の場所に基づく) サービスのダイヤル プランの組み合わせと、テナントのダイヤル プラン (これはテナント グローバル ダイヤル プランまたはユーザーのテナントのダイヤル プランのいずれかを指定できます)。
 
-![Table shows three combinations of service and tenant dial plans.](media/audio_conferencing_image8.png "Table shows three combinations of service and tenant dial plans.")
+![テーブルは、サービス、テナントの組み合わせを次の 3 つのダイヤル プランを示しています]。(media/audio_conferencing_image8.png "テーブルは、サービス、テナントの組み合わせを次の 3 つのダイヤル プランを示しています")。
 
 > [!IMPORTANT]
 > あります最大 25 の正規化ルールでは、各テナントのダイヤル プランです。したがってが使用されている正規化ルールと重複しないようにするのには重要なサービスの一部としてダイヤル プランです。

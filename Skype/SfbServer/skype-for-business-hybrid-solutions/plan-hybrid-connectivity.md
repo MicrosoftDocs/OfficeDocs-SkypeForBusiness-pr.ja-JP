@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: Strat_SB_Hybrid
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: '概要: は、Skype のビジネス サーバーとビジネス オンラインの Skype との間のハイブリッドの接続を計画する方法については、このトピックを読みます。 多くの Skype for Business ハイブリッド ソリューションを展開する上で、ハイブリッド接続の設定は最初に行う手順となります。'
-ms.openlocfilehash: 86478b373ccc9c39d1a79668ca13487305319cb8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 28ddfa42f11ad76cb353200cf00a4ca4d05a9da0
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Skype for Business Server と Skype for Business Online 間のハイブリッド接続を計画する
  
@@ -271,9 +271,8 @@ Skype でオンライン ビジネスのハイブリッド展開を構成する�
   
 さらに、次の表で説明している DNS 解決が使用しているオンプレミス展開で機能することを確認する必要があります。
   
-||||
-|:-----|:-----|:-----|
 |DNS レコード  <br/> |解決方法  <br/> |DNS 要件  <br/> |
+|:-----|:-----|:-----|
 |_Sipfederationtls._tcp の DNS SRV レコードです。\<sipdomain.com\>サポートされているすべての SIP ドメインがアクセス エッジの外部 IP(s) に解決するため  <br/> |エッジ サーバー  <br/> |ハイブリッド展開でフェデレーション通信を有効にする。オンプレミスとオンラインで分割される SIP ドメイン用のフェデレーション トラフィックのルートをエッジ サーバーで認識している必要があります。  <br/> ユーザー名のドメインと SRV レコードの間で一致する厳密な DNS 名を使用する必要があります。  <br/> |
 |エッジ Web 会議サービス FQDN の DNS A レコード、たとえば、webcon.contoso.com は Web 会議のエッジ外部 IP に解決される  <br/> |ユーザーのコンピューターが社内ネットワークに接続されています。  <br/> |オンライン ユーザーを有効にして、オンプレミスのホストされた会議でのコンテンツを提供または表示する。コンテンツには、PowerPoint ファイル、ホワイトボード、投票、および共有メモがあります。  <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: "オーディオ会議ブリッジの設定を変更します。"
+title: オーディオ会議ブリッジの設定を変更します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "呼び出し元のメッセージを表示し、クライアントのビジネスの Skype を使用していないことと、名と会議の開催者のピンを収集するために使用されるマイクロソフトでは、ダイヤルイン会議ブリッジの設定を変更する必要があります手順を取得します。 "
-ms.openlocfilehash: 62307bf26458ae54134772a0d920bcc602265bdc
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: '呼び出し元のメッセージを表示し、クライアントのビジネスの Skype を使用していないことと、名と会議の開催者のピンを収集するために使用されるマイクロソフトでは、ダイヤルイン会議ブリッジの設定を変更する必要があります手順を取得します。 '
+ms.openlocfilehash: d9b80b06a3c52c6ec386a0e5052f1bb71f914650
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>オーディオ会議ブリッジの設定を変更します。
 
@@ -37,17 +37,39 @@ Office 365 に電話会議を設定する場合、オーディオ会議ブリッ
   > [!IMPORTANT]
   > PIN がだけが必要なとき、Skype アプリケーション ユーザーのビジネスまたはマイクロソフトのチームの会議の開催者が会議を既に開始していません。 場合はすべてのユーザーがダイヤルイン会議、暗証番号 (pin) は会議の開催者、会議を開始する必要があります。 
   
-## <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>オーディオ会議ブリッジの設定を変更します。
+## <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>オーディオ会議ブリッジの設定を変更します。 
+
+### <a name="using-the-microsoft-teams-and-skype-for-business-admin-center"></a>ビジネス管理センターは、マイクロソフトのチームと Skype を使用してください。
+
+1. 左側のナビゲーションでは、**会議**に移動 > **会議ブリッジ**です。 
+
+2. **会議ブリッジ**のページの上部には、**ブリッジの設定**をクリックします。 
+
+3. **ブリッジの設定**ウィンドウで、次のコマンドを選択します。 
+  - **会議エントリを有効にして終了の通知をオンにする**場合はこのオプションをオフにすると、データを入力したり、会議を離れると、会議に参加しているユーザーが通知はありません。
+    
+    **会議エントリを有効にして終了の通知をオンにする**を選択すると、**開始/終了のお知らせの種類**] ボックスの一覧からこれらのオプションを選択します。
+    
+  - **名前や電話番号**ユーザーが会議にダイヤルインするときは、それに参加するときに、電話番号が再生されます。
+    
+  - **トーン**ユーザーが会議にダイヤルインするときは、それに参加するときに、オーディオの音が再生されます。
+      
+  - **ミーティングに参加する前に自分の名前を記録する呼び出し元を確認**このオプションをオフにすると場合、は、会議に参加する前に自分の名前を記録するための呼び出し元を求められますされません。
+
+4. 会議の暗証番号 (pin) の長さを設定するには、**暗証番号 (pin) の長さ**] ボックスの一覧に PIN の桁数を選択します。
+
+5. ユーザーに電子メールを送信するかどうかを指定するには、有効または**、オーディオ会議の構成が変更された場合、ユーザーに e メールを自動的に送信**を無効にします。
+    詳細については、[電子メールは、ユーザーが電話会議の設定を変更するときに自動的に送信](emails-sent-to-users-when-their-settings-change.md)を参照してください。
+ 
+6. [**適用**] をクリックします。 
+
+### <a name="using-skype-for-business-online"></a>オンライン ビジネスの Skype を使用します。
 
  **呼び出し元がミーティングに参加するときに会議の経験を設定します。**
-  
-1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+1. **ビジネス管理センターの Skype**では、左側のナビゲーションで移動**電話会議**に > **Microsoft ブリッジ設定**します。
     
-3. **ビジネス管理センターの Skype**では、左側のナビゲーションで移動**電話会議**に > **Microsoft ブリッジ設定**します。
-    
-4. **Microsoft ブリッジの設定**ページで、[**会議参加の経験**をするには、次のコマンドを選択します。
+2. **Microsoft ブリッジの設定**ページで、[**会議参加の経験**をするには、次のコマンドを選択します。
     
   - **Enable meeting entry and exit notifications to be turned on** This is selected by default. チェック ボックスをオフにするとデータを入力したり、会議を離れると、会議に参加しているユーザーが通知はありません。
     
@@ -62,7 +84,7 @@ Office 365 に電話会議を設定する場合、オーディオ会議ブリッ
   
   - **会議の PIN の長さを設定する** チェック ボックスをオフにした場合は、会議に参加する前に自分の名前を記録する呼び出し元を求められますされません。
     
-5. Sign in to Office 365 with your work or school account.
+3. Sign in to Office 365 with your work or school account.
     
 In the Skype for Business admin center, in the left navigation go to dial-in conferencingMicrosoft bridge settings.
   
