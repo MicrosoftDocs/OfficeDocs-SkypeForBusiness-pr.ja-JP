@@ -30,22 +30,22 @@ Microsoft Teams には、Web、デスクトップ (Windows および Mac)、お�
 <a name="web-client"></a>Web クライアント 
 ----------
 
-Web クライアント ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) は、完全な機能のクライアントで、さまざまなブラウザーから使用することができます。 Web クライアントでは、プラグインがあるため、webRTC または web ブラウザーでのチームを実行するために必要なダウンロードを使用して通話や会議をサポートします。 ブラウザーを構成して、サード パーティの cookie を許可する必要があります。 
+Web クライアント ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) は、さまざまなブラウザーから使用できる、完全な機能クライアントです。 Web クライアントは WebRTC を使用することによって通話と会議をサポートするため、Web ブラウザーで Teams を実行するためのプラグインやダウンロードの必要がありません。 ブラウザーはサードパーティの Cookie を許可するように設定する必要があります。 
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-Web クライアントへの接続時にブラウザーのバージョンの検出を実行する[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)、サポートされていないブラウザーのバージョンが検出された場合、web インターフェイスへのアクセスをブロックし、ユーザーがデスクトップ クライアントまたはモバイル アプリケーションをダウンロードすることをお勧めしています。
+Web クライアントは、[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) への接続時にブラウザー バージョンの検出を実行します。サポートされていないブラウザー バージョンを検出した場合、Web インターフェイスへのアクセスをブロックし、ユーザーによるデスクトップ クライアントまたはモバイル アプリのダウンロードを推奨します。
 
 <a name="desktop-client"></a>デスクトップ クライアント
 --------------
 
-マイクロソフト チームのデスクトップ クライアントは、スタンドアロン アプリケーションと現在の Office Pro との一部ではありません。 チームは、Windows (7 +)、32 ビットと 64 ビットの両方のバージョンと MacOS (10.10 +) の両方に使用できます。 Windows では、.NET framework 4.5 以降のチームする必要があります。チームのインストーラーは、インストールすることがない場合に提供されます。 
+Microsoft Teams デスクトップ クライアントはスタンドアロン アプリケーションであり、現在は Office Pro Plus の一部ではありません。 Microsoft Teams は、32 ビットおよび 64 ビット バージョンの Windows (7 以上)、および MacOS (10.10 以上) で利用できます。 Windows で Teams を使用するには .NET Framework 4.5 以降が必要です。.NET Framework 4.5 以降がない場合は、Teams のインストーラーでインストールすることになります。 
 
-デスクトップのクライアントでは、チーム ミーティング、グループの呼び出し、およびプライベート 1 対 1 の呼び出しのリアルタイム通信のサポート (オーディオ、ビデオ、およびコンテンツの共有) を提供します。
+デスクトップ クライアントは、チーム会議、グループ通話、およびプライベートな 1 対 1 での通話に対応するリアルタイム通信のサポート (オーディオ、ビデオ、およびコンテンツ共有) を提供します。
 
-デスクトップ クライアントをダウンロードしてから直接のエンド ・ ユーザーによってインストールされている[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)、適切なローカルのアクセス許可 (管理者権限は、PC 上でチームのクライアントをインストールする必要はありませんが、Mac のために必要な) があります。
+デスクトップ クライアントは、適切なローカルのアクセス許可を持っているエンド ユーザーによって、[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) から直接ダウンロードおよびインストールできます (管理者権限は、Teams クライアントを PC にインストールする場合には必要ありませんが、Mac では必要になります) 。
 
-IT 管理者は好みの方法で、System Center Configuration Manager (Windows)、Casper Suite (MacOS) のような組織内のコンピューターにインストール ファイルを配布できます。 Windows 用の MSI パッケージの配布を取得するには、[マイクロソフト チームのインストールは、MSI を使用して](msi-deployment.md)参照してください。
+IT 管理者は好みの方法で、System Center Configuration Manager (Windows)、Casper Suite (MacOS) のような組織内のコンピューターにインストール ファイルを配布できます。 Windows ディストリビューションの MSI パッケージを取得するには、「[MSI を使用して Microsoft Teams をインストールする](msi-deployment.md)」をご覧ください。
 
 > [!NOTE]
 > これらのメカニズムによるクライアントの配布は、Microsoft Teams クライアントの初回インストール時にのみ利用でき、それ以降の更新では利用できません。
