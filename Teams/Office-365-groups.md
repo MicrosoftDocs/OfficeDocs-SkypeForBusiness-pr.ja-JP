@@ -1,20 +1,20 @@
 ---
-title: "Office 365 グループと Microsoft Teams"
+title: Office 365 グループと Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Office 365 グループとグループ メンバーシップがどのように Microsoft Teams と連携しているかについて説明します。"
+description: Office 365 グループとグループ メンバーシップがどのように Microsoft Teams と連携しているかについて説明します。
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 981a3ba78f70f7ae1eb8ab90e1fb23a4e60a516e
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 9f16a99f00add1e93bfdf4cde29f4b75f384a296
+ms.sourcegitcommit: cacd16f596460c1400dd514437794afd04bddadc
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/06/2018
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365 グループと Microsoft Teams
 =====================================
@@ -37,6 +37,6 @@ Microsoft Teams のチームを作成することは、最終的には SharePoin
 <a name="group-membership"></a>グループ メンバーシップ
 ----------------
 
-ユーザーが利用できる機能は、グループ メンバーシップを入手した場所によって異なります。たとえば、チームのメンバーを削除すると、そのメンバーは Office 365 グループからも削除されます。グループから削除すると、即座にチームが削除され、Teams クライアントからチャネルが削除されます。Office 365 管理ポータルを使用してグループからメンバーを削除すると、そのメンバーは SharePoint Online ドキュメント ライブラリ、Yammer グループ、共有 OneNote といったその他のコラボレーション機能へのアクセスを失います。ただし、削除後もチームのチャット機能には約 1 時間アクセスできます。
+グループの機能と、ユーザーのための機能は、グループのメンバーシップからのドライブの場所によって異なります。 たとえば、チームのメンバーを削除する場合は同様に、Office 365 グループから削除されます。 グループからの削除は、すぐにチームを削除し、チームのクライアントからのチャネルします。 Office 365 管理ポータルを使用してグループからユーザーを削除する場合は、他の共同作業の側面へのアクセス、Yammer グループ、または共有の OneNote の SharePoint Online のドキュメント ライブラリなど。 ただし、それらがまだチームのチャット機能へのアクセスを約 1 時間です。
 
-Teams の「メンバー管理」を行う場合、Teams クライアントを介して追加/削除機能を使用することで、適切なカスケード アクセス コントロールをその他の依存するクラウド アプリケーションに適用できます。さらに、ユーザーに整然としていない使用感が生じて、以前アクセスできていたリソースに、(特定のサービス コンポーネントへのアクセスが追加または取り消される次回の同期サイクルまで) 引き続きアクセスできるという印象を残さないようにします。
+チーム メンバーを管理するためのベストプラクティス: を追加し、他の依存するクラウド アプリケーションを正しいカスケード アクセス制御が適用されることを確認するのにはチームのクライアントからメンバーを削除します。 さらに、切り離された経験したままの人まで次の同期サイクルは、追加、またはサービスの特定のコンポーネントへのアクセス権を取り消します) するために使用するリソースへのアクセスがまだあるという印象を回避します。 かどうかを追加または削除を行うチームのクライアント以外のチーム メンバー (Office 365 の管理者センター、Azure AD を使用して、または Exchange のオンライン PowerShell)、チームに反映させるには、最大で 1 時間がかかる場合があります。

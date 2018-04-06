@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: Strat_SB_Hybrid
 ms.assetid: 6a523c86-2eac-4fa4-973a-4406872c9a7d
 description: '概要: は、ユーザー設定を移行し、オンライン ビジネスの Skype ユーザーを移動する方法を説明します。'
-ms.openlocfilehash: dada94d1bc198a86a06c468dc959fa0684e706d2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 352798c217cb7495134cb32996db783f7e498ded
+ms.sourcegitcommit: cacd16f596460c1400dd514437794afd04bddadc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>ユーザーをオンプレミスから Skype for Business Online に移動する
  
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/28/2018
   
 ### <a name="to-confirm-that-an-on-premises-user-account-has-been-synchronized-with-office-365"></a>オンプレミス ユーザー アカウントが Office 365 と同期していることを確認するには
 
-1. テナント管理者用のアカウントを使用して、テナントの[Office 365 管理センター](https://portal.office.com/)を開きます。
+1. テナント管理者用のアカウントを使用して、テナントの[Office 365 管理センター](https://portal.office.com/)を開きます。  テナント管理者のアカウントが Office 365 でこの機能を実行するのにはビジネス管理者の役割とユーザー管理の役割 (または、グローバル管理者ロール) の両方、Skype を付与する必要があります。
     
 2. 左側のナビゲーション ウィンドウで、[**ユーザー**]、[**アクティブなユーザー**] の順にクリックします。
     
