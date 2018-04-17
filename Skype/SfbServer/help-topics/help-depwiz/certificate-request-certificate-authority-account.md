@@ -1,10 +1,25 @@
 ---
-タイトル:"証明書の要求 (証明機関のアカウント) の ms.author: jambirk 作成者: jambirk マネージャー: serdars ms.date: 2014/11/17 ms.audience: it プロフェッショナルの ms.topic: f1_keywords の記事。
-- ms.lync.dep.DeployCertRequestCAAccount ms.prod: skype it のビジネス プロフェッショナルの localization_priority: 通常の ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa の説明:"要求を送信するに使用する証明機関 (CA) 必要がありますユーザーとしてログインして現在のものとは別の資格情報。 として別のユーザー証明書の要求を許可するには、] チェック ボックスを指定する代替の資格情報の証明機関を選択し、ユーザー名またはユーザー証明書を要求できるユーザーのドメイン \ ユーザー名を入力し、します。 [パスワード] ボックスで、指定したユーザーのパスワードを入力します。 ユーザー名とパスワードは、送信の証明書の要求のプロセスではなく、実際の証明書要求の一部としてオンライン CA に。」
+title: Certificate Request (Certificate Authority Account)
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.date: 11/17/2014
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.dep.DeployCertRequestCAAccount
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
+description: To submit a request, your certification authority (CA) may require credentials other than the ones for the user that you are currently logged in as. To allow a certificate request as a different user, select the check box Specify alternate credentials for the certification authority, and then type the user name or domain\username for a user who can request the certificate. In the Password text box, type the password for the user that you specified. The user name and password are then sent as part of the certificate request process, but not in the actual certificate request, to an online CA.
+ms.openlocfilehash: 47ea9e3c1b83d62faa169fdd291b325f19c8cfad
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 04/16/2018
 ---
-
-# <a name="certificate-request-certificate-authority-account"></a>証明書の要求 (証明機関のアカウント)
+# <a name="certificate-request-certificate-authority-account"></a>Certificate Request (Certificate Authority Account)
  
-要求を送信するには、使用する証明機関 (CA) は、ユーザーとしてログインして現在のものとは別の資格情報を必要があります。 別のユーザーとしての証明書要求を許可するには、**代替資格情報の証明機関を指定する**] チェック ボックスをオンにし、ユーザー名または_ドメイン_を入力し、\ 、証明書を要求できるユーザーの_ユーザー名_. [**パスワード**] ボックスで、指定したユーザーのパスワードを入力します。 ユーザー名とパスワードは、オンライン CA に証明書の要求のプロセスのではなく、実際の証明書要求の一部として、送信されます。
+To submit a request, your certification authority (CA) may require credentials other than the ones for the user that you are currently logged in as. To allow a certificate request as a different user, select the check box **Specify alternate credentials for the certification authority**, and then type the user name or  _domain_\ _username_ for a user who can request the certificate. In the **Password** text box, type the password for the user that you specified. The user name and password are then sent as part of the certificate request process, but not in the actual certificate request, to an online CA.
   
 

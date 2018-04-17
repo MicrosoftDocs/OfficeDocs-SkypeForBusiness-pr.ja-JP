@@ -18,11 +18,11 @@ f1keywords: None
 ms.custom:
 - SMB
 description: ビジネス オンライン スケジュール、生産、およびブロードキャストの会議、またはイベントを 10,000 の出席者に大規模なオンライン ユーザーを対象にできるようにするには、Skype の Skype 会議のブロードキャスト機能について説明します。
-ms.openlocfilehash: 62c1f1fea7042230210d123c6d7fb88ff839d6f4
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 6b581d7cb8c20b8d4b2794cc2f0f94d7d35a1dd1
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Skype 会議のブロードキャスト用のネットワークを設定します。
 

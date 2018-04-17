@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn how to get new, port, or transfer existing numbers for Skype for Business, and how to show the changes to your users. '
-ms.openlocfilehash: dc75a47f9e2de6c124675b4ae2cd9f3a9ff17036
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: d43770b03dafdfba25630fe5cab73990a0b3e92c
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>ユーザー用に電話番号を取得する
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 04/05/2018
   
 新しいユーザーの数を取得する 3 つの方法があります。
 
-- **ビジネス管理センターは、Skype を使用します。** 一部の国/地域のビジネス管理センターは、Skype を使用してユーザーの番号を取得するを参照してください[、ユーザーの電話番号を取得します。](../what-is-phone-system-in-office-365/getting-phone-numbers-for-your-users.md)。
+- **ビジネス管理センターは、Skype を使用します。** 一部の国/地域のビジネス管理センターは、Skype を使用してユーザーの番号を取得するを参照してください[、ユーザーの電話番号を取得します。](getting-phone-numbers-for-your-users.md)。
     
 - **既存の番号を移植します。** ポート、または現在のサービス プロバイダーまたは電話のキャリアからの既存の番号を Office 365 に転送できます。 [Office 365 に電話番号を転送](transfer-phone-numbers-to-office-365.md)または詳細については[、組織の電話番号の管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)作業を行いやすくにを参照してください。  
   

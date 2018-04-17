@@ -3,7 +3,7 @@ title: マイクロソフト チームの運用ガイド
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 03/13/2018
+ms.date: 04/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -11,11 +11,11 @@ description: タスクとサービスの稼働状態を監視、評価、使用�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 308ca6bd3ea0dcd847756392d8db721b48aa8d08
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 9d64da9bbe792031afbb3538020b7ff92fbaf493
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="operate-my-service"></a>自分のサービスを実施します。
 
@@ -415,7 +415,7 @@ PC、Mac、タブレット、またはチームのクライアントを実行し
 
 ### <a name="wi-fi-drivers"></a>Wi-fi ドライバー
 
-Wi-fi ドライバーは、問題が発生する可能性があります。 たとえば、ドライバーが不要なアクセス ポイントの切り替えで、不適切な通話の音質を強制的に実行できるアクセス ポイントの間で非常に積極的な移動の動作があります。 品質の経験の確認を実行効率の低い Wi-fi ドライバーを検出する可能性があります (詳細については、[体験レビュー ガイドの品質](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/CloudVoice-working/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)を参照してください)。 新しい Wi-fi ドライバーを監視し、一般ユーザー向けに展開する前に、テストしていることを保証する品質重視のプロセスを実装するために必要です。
+Wi-fi ドライバーは、問題が発生する可能性があります。 たとえば、ドライバーが不要なアクセス ポイントの切り替えで、不適切な通話の音質を強制的に実行できるアクセス ポイントの間で非常に積極的な移動の動作があります。 品質の経験の確認を実行効率の低い Wi-fi ドライバーを検出する可能性があります (詳細については、[体験レビュー ガイドの品質](https://aka.ms/qerguide)を参照してください)。 新しい Wi-fi ドライバーを監視し、一般ユーザー向けに展開する前に、テストしていることを保証する品質重視のプロセスを実装するために必要です。
 
 ### <a name="endpoint-management"></a>エンドポイントの管理
 

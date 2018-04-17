@@ -3,21 +3,23 @@ title: Outlook で Microsoft Teams の会議アドインを使用する
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 03/12/2018
+audience: Admin
+ms.date: 04/09/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara
+localization_priority: Normal
 description: Microsoft Teams は、ユーザーが  Outlook から Teams の会議をスケジュール設定することができるようになるアドインを Outlook にインストールします。
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 811c27a48a0e9bbccfbea7ac12e54ef0697b3f2b
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 109911e27a881ea09fb9854bb84ab19222722c39
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/16/2018
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================
@@ -62,7 +64,16 @@ Teams の会議アドインは継続して機能が開発されていますの�
 - このアドインは、特定の参加者でスケジュール設定された会議向けで、チャネル内の会議向けではありません。 チャネル会議は Teams 内でスケジュール設定される必要があります。 現在、Outlook の Teams の会議アドインを利用できるのは Windows ユーザーのみですが、Mac 向けのサポートも近日中に予定されています。
 - 認証プロキシがユーザーの PC および Teams サービスのネットワーク パス内にある場合、アドインは機能しません。
 
+## <a name="troubleshooting"></a>トラブルシューティング
+
+アドインをインストールするのには Outlook のチーム会議出席できない場合は、これらのトラブルシューティング手順を実行してください。
+
+- チームのデスクトップ クライアントを再起動します。
+- サインアウトして、チームのデスクトップ クライアントにもう一度サインインします。
+- Outlook デスクトップ クライアントを再起動します。 (Outlook は、管理者モードで実行されていないことを確認してください。)
+- ログインしているユーザー アカウント名にスペースが含まれていないことを確認します。 (これは既知の問題、今後のアップデートで修正される予定)
+- シングル サインオン (SSO) が有効になっていることを確認します。
+
 アドインを無効にする方法につぃての全般的なガイドラインについては、「[Office プログラムでアドインを表示、管理、インストールする](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)」をご覧ください。
 
 Microsoft Teams での会議と通話については[こちら](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)をご覧ください。
-

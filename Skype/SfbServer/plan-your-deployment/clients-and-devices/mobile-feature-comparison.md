@@ -11,18 +11,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
-description: '概要: は、Skype のビジネス サーバー 2015 計画中にモバイル クライアントの機能のサポートを確認します。'
-ms.openlocfilehash: c82a60f2ab946f32fd0d5d4f546738cb3f5883d0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Summary: Review the feature support for the mobile client while planning for Skype for Business Server 2015.'
+ms.openlocfilehash: 4287c5baf0642fab9d55d291470b2352f3da5932
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Skype for Business のモバイル クライアント機能の比較
  
-**の概要:**Skype ビジネス サーバー 2015 の計画中に、モバイル クライアントの機能のサポートを確認します。
+**Summary:** Review the feature support for the mobile client while planning for Skype for Business Server 2015.
   
-この資料では、モバイル クライアントのビジネス用の Skype と次のカテゴリでのビジネス デスクトップ クライアントの Skype 間での機能を比較します。
+This article compares the features and capabilities among Skype for Business mobile clients and the Skype for Business desktop client in the following categories:
   
 - サインイン、プッシュ通知、および一般的な機能
     
@@ -32,7 +32,7 @@ ms.lasthandoff: 03/28/2018
     
 - インスタント メッセージング (IM)
     
-- ビジネス オーディオおよびビデオの Skype をビジネス用の Skype
+- Skype for Business to Skype for Business audio and video
     
 - 会議
     
@@ -44,99 +44,99 @@ ms.lasthandoff: 03/28/2018
     
 -  先進認証
     
-ビジネス サーバー 2015 の Skype の設置型展開でのビジネス ・ ユーザーの Skype を利用可能な機能を次の表に一覧します。 同じ機能することもできます Skype オンライン ビジネスであり、Microsoft Office 365 のユーザーでは、それ以外の場合、表の脚注に示されている場合を除き、します。
+The following tables list the features that are available to Skype for Business users in an on-premises deployment of Skype for Business Server 2015. The same features are also available to Skype for Business Online and Microsoft Office 365 users, unless otherwise indicated in the table footnotes.
   
 > [!NOTE]
-> オンライン ヘルプは、エンド ・ ユーザーのためのリソースは、[ビジネス用の Skype の検出](https://go.microsoft.com/fwlink/p/?LinkId=528686)を参照してください。 
+> For online help and resources for end users, see [Discover Skype for Business](https://go.microsoft.com/fwlink/p/?LinkId=528686). 
   
 > [!NOTE]
-> ビジネス クライアント用の他の Skype で利用できる機能を比較するには、[ビジネスの Skype のデスクトップ クライアントの機能の比較](desktop-feature-comparison.md)を参照してください。 
+> To compare the features available in other Skype for Business clients, see [Desktop client feature comparison for Skype for Business](desktop-feature-comparison.md). 
   
 ## <a name="sign-in-push-notifications-and-general-features"></a>サインイン、プッシュ通知、および一般的な機能
 
  
-|**機能**|**Skype のビジネス デスクトップ クライアント**|**Windows Phone**|**iOS**|**Android**|
+ | 機能  | Skype for Business desktop client  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|Skype ビジネス セッションのままで署名されました。  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|プッシュ通知のサポート  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 3 を読む](../../media/f58a4c2c-e4b3-4954-9eee-1d5f7a89da53.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|複数ユーザーのアカウント情報を同一デバイスにキャッシュ可能  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||||
-|スクリーン リーダー/読み上げ機能  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 2 を読む](../../media/e366e0ee-8e3f-4e83-8009-2e7eb5674a18.png)          英語版のみ  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|アクセシビリティとしての外部キーボードの使用  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Microsoft カスタマー エクスペリエンス向上プログラムのサポート  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
+|Skype for Business session remains signed in  <br/> |&#x2714;|&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714;|
+|プッシュ通知のサポート  <br/> |&#x2714; &#x2778; |&#x2714;|&#x2714;|&#x2714;|
+|複数ユーザーのアカウント情報を同一デバイスにキャッシュ可能  <br/> |&#x2714;||||
+|スクリーン リーダー/読み上げ機能  <br/> |&#x2714;|&#x2714; &#x2777;           English only  <br/> |&#x2714;|&#x2714;|
+|アクセシビリティとしての外部キーボードの使用  <br/> |&#x2714;||&#x2714;|&#x2714;|
+|Microsoft カスタマー エクスペリエンス向上プログラムのサポート  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
    
-![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png) Windows Phone の [ビジネス用の Skype サインアウト自動的に、非アクティブの期間後次のように。
+ &#x2776;  On Windows Phone, Skype for Business signs out automatically after a period of inactivity, as follows:
   
-- ユーザーは、プッシュ通知を有効には、ビジネス用の Skype は非アクティブ状態が 10 日後に署名します。
+- If the user has enabled push notifications, Skype for Business signs out after 10 days of inactivity.
     
-- 場合は、ユーザーは、プッシュ通知を有効になっていませんが、ビジネス用の Skype は、ユーザーがアプリケーションを離れるとすぐにに署名します。
+- If the user has not enabled push notifications, Skype for Business signs out as soon as the user leaves the app.
     
-IOS デバイスでは、ビジネスの Skype サインアウト自動的にしたら、モバイル クライアントがネットワーク接続の切断のための 10 日間のサーバーまたはその他の問題は接続できません。
+On iOS devices, Skype for Business signs out automatically after the mobile client has not contacted the server for 10 days due to loss of network connectivity or other issues.
   
-![脚注 2 を読む](../../media/e366e0ee-8e3f-4e83-8009-2e7eb5674a18.png) アプリケーションのみです。
+ &#x2777;  In app only.
   
-![脚注 3 を読む](../../media/f58a4c2c-e4b3-4954-9eee-1d5f7a89da53.png) 通知は、アプリケーションがバック グラウンドで実行しているときに使用できます。
+ &#x2778;  Notifications are available when the app is running in the background.
   
 ## <a name="enhanced-presence-support"></a>拡張プレゼンスのサポート 
 
 
-|**機能**|**Skype のビジネス デスクトップ クライアント**|**Windows Phone**|**iOS**|**Android**|
+ | 機能  | Skype for Business desktop client  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|状態の公開および表示  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|予定表の空き時間情報に基づく状態の表示  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|状態メモおよび不在メッセージの表示  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|カスタムの場所の追加  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||||
-|カスタムのメモの追加  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|カレンダーの空き時間情報に基づく状態の公開   <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)||||
-|プレゼンス状態 (取り込み中、応答不可など) の手動設定  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
+|状態の公開および表示  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|予定表の空き時間情報に基づく状態の表示  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|状態メモおよび不在メッセージの表示  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|カスタムの場所の追加  <br/> |&#x2714;||||
+|カスタムのメモの追加  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|カレンダーの空き時間情報に基づく状態の公開   <br/> |&#x2714; &#x2776; ||||
+|プレゼンス状態 (取り込み中、応答不可など) の手動設定  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
    
-![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png) モバイル クライアントのビジネス用の Skype では、ユーザーの予定表の空き時間情報に基づくユーザーのプレゼンスは更新されません。 モバイル クライアント ユーザーがデスクトップ クライアントのビジネスの Skype にも署名場合、デスクトップ クライアントは、ユーザーの予定表の空き時間情報に基づくユーザーのプレゼンスを更新します。 ユーザーは、モバイル クライアントのみにサインインしている、ユーザーのプレゼンスは更新されませんに基づいて空き/予約済み予定表情報です。
+ &#x2776;  Skype for Business mobile clients do not update a user's presence based on the user's free/busy calendar information. If a mobile client user is also signed in to the Skype for Business desktop client, the desktop client updates the user's presence based on the user's free/busy calendar information. If the user is signed in to a mobile client only, the user's presence does not update based on free/busy calendar information.
   
 ## <a name="contacts-and-contact-groups-support"></a>連絡先と連絡先グループのサポート 
 
 
-|**機能**|**Lync 2013 のビジネス デスクトップ クライアントの Skype**|**Windows Phone**|**iOS**|**Android**|
+ | 機能  | Skype for Business Lync 2013 desktop client  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|連絡先リストの表示  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|連絡先グループの表示  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|よくやり取りする連絡先グループの表示  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||||
-|連絡先リストの変更  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|連絡先を状態変更通知の対象としてマークする  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||||
-|プライバシー関係の操作  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||||
-|コーポレート アドレス帳の検索  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|連絡先リストの検索  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|連絡先グループの管理  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|||![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|配布グループの展開  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|応答グループの検索  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|連絡先の写真の表示/非表示  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|||
-|ホーム画面への連絡先のピン留め  <br/> ||![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|||
+|連絡先リストの表示  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|連絡先グループの表示  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|よくやり取りする連絡先グループの表示  <br/> |&#x2714;||||
+|連絡先リストの変更  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|連絡先を状態変更通知の対象としてマークする  <br/> |&#x2714;||||
+|プライバシー関係の操作  <br/> |&#x2714;||||
+|コーポレート アドレス帳の検索  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|連絡先リストの検索  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|連絡先グループの管理  <br/> |&#x2714;|||&#x2714;|
+|配布グループの展開  <br/> |&#x2714;|&#x2714;||&#x2714;|
+|応答グループの検索  <br/> |&#x2714; &#x2776; |&#x2714;||&#x2714;|
+|連絡先の写真の表示/非表示  <br/> |&#x2714;|&#x2714;|||
+|ホーム画面への連絡先のピン留め  <br/> ||&#x2714;|||
    
-![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png) ない Skype をビジネス オンライン/Office 365 のユーザーです。
+ &#x2776;  Not available to Skype for Business Online and/or Office 365 users.
   
 ## <a name="instant-messaging-support"></a>インスタント メッセージングのサポート 
 
 
-|**機能**|**Skype のビジネス デスクトップ クライアント**|**Windows Phone**|**iOS**|**Android**|
+ | 機能  | Skype for Business desktop client  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|連絡先とのインスタント メッセージ (IM) の開始  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|マルチパーティ IM への参加  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|[会話] ウィンドウからの別のユーザーの招待  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|現在の会話の表示  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|複数の IM 会話間での移動  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Exchange での IM 会話の自動ログ  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|IM 会話の電子メールでの送信  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|連絡先への電子メールの開始  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|不在着信の IM 招待状の表示  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|受信 IM による振動  <br/> ||![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
+|連絡先とのインスタント メッセージ (IM) の開始  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|マルチパーティ IM への参加  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|[会話] ウィンドウからの別のユーザーの招待  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|現在の会話の表示  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|複数の IM 会話間での移動  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Exchange での IM 会話の自動ログ  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|IM 会話の電子メールでの送信  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|連絡先への電子メールの開始  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|不在着信の IM 招待状の表示  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|受信 IM による振動  <br/> ||&#x2714; &#x2776; |&#x2714;|&#x2714;|
    
-![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png) 現在の IM 会話メッセージが表示される場合でも、IM が受信されるたびに、このデバイスが振動したり
+ &#x2776;  This device vibrates every time an IM is received even if the current message in the IM conversation is displayed
   
-## <a name="skype-for-business-to-skype-for-business-audio-and-video"></a>ビジネス オーディオおよびビデオの Skype をビジネス用の Skype
+## <a name="skype-for-business-to-skype-for-business-audio-and-video"></a>Skype for Business to Skype for Business audio and video
 
 
-|**機能**|**Skype のビジネス デスクトップ クライアント**|**Windows Phone**|**iOS**|**Android**|
+ | 機能  | Skype for Business desktop client  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|ビジネスの音声を Skype のビジネス用の Skype  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|ビデオのビジネス ビジネスで Skype の Skype  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
+|Skype for Business-to-Skype for Business voice  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Skype for Business-to-Skype for Business video  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
    
 > [!NOTE]
 > 既定で、モバイル デバイスのビデオには WiFi 接続が必要です。 
@@ -144,100 +144,100 @@ IOS デバイスでは、ビジネスの Skype サインアウト自動的にし
 ## <a name="conferencing-support"></a>会議のサポート
 
 
-|**機能**|**Skype のビジネス デスクトップ クライアント**|**Windows Phone**|**iOS**|**Android**|
+ | 機能  | Skype for Business desktop client  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|ミーティング メッセージのリンクをクリックしてビデオまたは VoIP 会議に参加  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|マルチパーティ IM への参加  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|ダイヤルアウト電話会議の使用 (サーバーがモバイル デバイスを呼び出す)  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)|
-|ダイヤルイン音声会議の使用  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|会議ビデオの表示  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|マルチパーティのビデオの表示 (ギャラリー ビュー)  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||||
-|会議ロビーでの待機  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|会議内発表者コントロールの使用  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||||
-|電話会議の詳細な会議名簿へのアクセス  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|IM 会議の詳細な会議名簿へのアクセス  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|デスクトップまたはプログラムの共有  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||||
-|共有デスクトップまたはプログラムの表示 (VbSS または RDP)  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 2 を読む](../../media/e366e0ee-8e3f-4e83-8009-2e7eb5674a18.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 2 を読む](../../media/e366e0ee-8e3f-4e83-8009-2e7eb5674a18.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 2 を読む](../../media/e366e0ee-8e3f-4e83-8009-2e7eb5674a18.png)|
-|共有 PowerPoint ファイルの表示  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 2 を読む](../../media/e366e0ee-8e3f-4e83-8009-2e7eb5674a18.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 2 を読む](../../media/e366e0ee-8e3f-4e83-8009-2e7eb5674a18.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 2 を読む](../../media/e366e0ee-8e3f-4e83-8009-2e7eb5674a18.png)|
-|PowerPoint ファイルのアップロードと発表  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 2 を読む](../../media/e366e0ee-8e3f-4e83-8009-2e7eb5674a18.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 2 を読む](../../media/e366e0ee-8e3f-4e83-8009-2e7eb5674a18.png)|
-|会議ツールの使用 (ホワイトボードの使用、投票の実行、ファイルの共有)  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||||
-|会議リストの移動  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Skype のビジネス アカウントが存在しない場合でも、会議に参加します。  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|会議の参加者に関する詳細情報の表示  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|クライアントまたはデバイスからの直接的な、複数の参加者とのスケジュールされていないグループ会話の開始   <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
+|ミーティング メッセージのリンクをクリックしてビデオまたは VoIP 会議に参加  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|マルチパーティ IM への参加  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|ダイヤルアウト電話会議の使用 (サーバーがモバイル デバイスを呼び出す)  <br/> |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714; &#x2776; |
+|ダイヤルイン音声会議の使用  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|会議ビデオの表示  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|マルチパーティのビデオの表示 (ギャラリー ビュー)  <br/> |&#x2714;||||
+|会議ロビーでの待機  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|会議内発表者コントロールの使用  <br/> |&#x2714;||||
+|電話会議の詳細な会議名簿へのアクセス  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|IM 会議の詳細な会議名簿へのアクセス  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|デスクトップまたはプログラムの共有  <br/> |&#x2714;||||
+|共有デスクトップまたはプログラムの表示 (VbSS または RDP)  <br/> |&#x2714;|&#x2714; &#x2777; |&#x2714; &#x2777; |&#x2714; &#x2777; |
+|共有 PowerPoint ファイルの表示  <br/> |&#x2714;|&#x2714; &#x2777; |&#x2714; &#x2777; |&#x2714; &#x2777; |
+|PowerPoint ファイルのアップロードと発表  <br/> |&#x2714;||&#x2714; &#x2777; |&#x2714; &#x2777; |
+|会議ツールの使用 (ホワイトボードの使用、投票の実行、ファイルの共有)  <br/> |&#x2714;||||
+|会議リストの移動  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Join a meeting even if you don't have a Skype for Business account  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|会議の参加者に関する詳細情報の表示  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|クライアントまたはデバイスからの直接的な、複数の参加者とのスケジュールされていないグループ会話の開始   <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
    
-![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png) Office 365 のユーザーに対してこの機能が必要ですエンタープライズ VoIP、E5 のライセンスの一部であります。
+ &#x2776;  For Office 365 users, this feature requires Enterprise Voice, which is part of the E5 license.
   
-![脚注 2 を読む](../../media/e366e0ee-8e3f-4e83-8009-2e7eb5674a18.png) 既定で WiFi 接続が必要です。
+ &#x2777;  Requires a WiFi connection by default.
   
 ## <a name="telephony-support"></a>テレフォニーのサポート
 
 
-|**機能**|**Skype のビジネス デスクトップ クライアント**|**Windows Phone**|**iOS**|**Android**|
+ | 機能  | Skype for Business desktop client  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|ビジネスの Skype でアイコンをタップします電話連絡先を呼び出す方法  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|通話の転送  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||
-|取次転送  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 3 を読む](../../media/f58a4c2c-e4b3-4954-9eee-1d5f7a89da53.png)||||
-|着信転送の管理  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|チーム呼び出し設定の管理  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)||||
-|代理人の管理  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)||||
-|応答グループへの通話の開始  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)||||
-|緊急サービスのサポート  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 2 を読む](../../media/e366e0ee-8e3f-4e83-8009-2e7eb5674a18.png)||||
-|別の連絡先の代理としての発信 (マネージャー/代理人のシナリオ)  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)||||
-|代理人として構成されている場合、他のメンバーの呼び出しを処理します。  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)|
-|「勤務先から通話」の使用  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||
-|ボイス メールへのアクセス  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||
-|Skype のキーパッドを使用して、ビジネスの  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||
+|In Skype for Business, tap the call icon to call a contact  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|通話の転送  <br/> |&#x2714;|&#x2714;|&#x2714;||
+|取次転送  <br/> |&#x2714; &#x2778; ||||
+|着信転送の管理  <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;|&#x2714;|
+|チーム呼び出し設定の管理  <br/> |&#x2714; &#x2776; ||||
+|代理人の管理  <br/> |&#x2714; &#x2776; ||||
+|応答グループへの通話の開始  <br/> |&#x2714; &#x2776; ||||
+|緊急サービスのサポート  <br/> |&#x2714; &#x2777; ||||
+|別の連絡先の代理としての発信 (マネージャー/代理人のシナリオ)  <br/> |&#x2714; &#x2776; ||||
+|Handle another contact's calls, if configured as a delegate  <br/> |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714; &#x2776; |
+|「勤務先から通話」の使用  <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;||
+|ボイス メールへのアクセス  <br/> |&#x2714;|&#x2714;|&#x2714;||
+|Use the keypad in Skype for Business  <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;||
    
-![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png) ビジネス オンライン/Office 365 の E5 のユーザーでは、Skype を利用可能なビジネス サーバー 2015 またはエンタープライズ VoIP を有効になっていると、Lync 2013 の Skype のユーザーが所属しています。
+ &#x2776;  Available to Skype for Business Online and/or Office 365 E5 users, and users homed on Skype for Business Server 2015 or Lync 2013 with Enterprise Voice enabled.
   
-![脚注 2 を読む](../../media/e366e0ee-8e3f-4e83-8009-2e7eb5674a18.png) ビジネス オンライン/Office 365 のユーザーの Skype は、マイクロソフト パートナーによってこの機能がサポートされます。
+ &#x2777;  For Skype for Business Online and/or Office 365 users, this feature is supported by Microsoft partners.
   
-![脚注 3 を読む](../../media/f58a4c2c-e4b3-4954-9eee-1d5f7a89da53.png) Windows デスクトップ クライアントでのみ使用します。
+ &#x2778;  Windows Desktop client only.
   
 ## <a name="external-user-support"></a>外部ユーザーのサポート 
 
 
-|**機能**|**Skype のビジネス デスクトップ クライアント**|**Windows Phone**|**iOS**|**Android**|
+ | 機能  | Skype for Business desktop client  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|パブリック連絡先との IM の開始  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|フェデレーション連絡先との IM の開始  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|外部ユーザーとの 2 パーティの通話の実行  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|外部ユーザーとのマルチパーティの通話の実行  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|作業を使用して呼び出しを使用して、出版物の番号を呼び出すことによって、携帯電話でのフェデレーションの連絡先に到達するには ![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)           <br/> ||![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
+|パブリック連絡先との IM の開始  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|フェデレーション連絡先との IM の開始  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|外部ユーザーとの 2 パーティの通話の実行  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|外部ユーザーとのマルチパーティの通話の実行  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Use Call via Work to reach a federated contact on their mobile phone by calling their published work number  &#x2776;            <br/> ||&#x2714;|&#x2714;|&#x2714;|
    
-![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png) 既定では、フェデレーション ユーザーには外部連絡先プライバシー関係が割り当てられます。 公開された勤務先番号に電話をかけて、相手の携帯電話にあるフェデレーションからの連絡先にアクセスできるようにするには、フェデレーションからの連絡先側から手動で仕事仲間のプライバシー関係を割り当ててもらっている必要があります。
+ &#x2776;  By default, federated users are assigned the External Contacts privacy relationship. 公開された勤務先番号に電話をかけて、相手の携帯電話にあるフェデレーションからの連絡先にアクセスできるようにするには、フェデレーションからの連絡先側から手動で仕事仲間のプライバシー関係を割り当ててもらっている必要があります。
   
 ## <a name="address-book-integration"></a>アドレス帳の統合
 
 
-|**機能**|**Skype のビジネス デスクトップ クライアント**|**Windows Phone**|**iOS**|**Android**|
+ | 機能  | Skype for Business desktop client  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|デバイス アドレス帳の連絡先の呼び出し  <br/> ||![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|デバイスのアドレス帳から直接連絡先をビジネスの通話の Skype を行う  <br/> ||||![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
+|デバイス アドレス帳の連絡先の呼び出し  <br/> ||&#x2714;|&#x2714;|&#x2714;|
+|Make Skype for Business calls to contacts directly from device address book  <br/> ||||&#x2714;|
    
-## <a name="archiving-and-compliance-support"></a>アーカイブとコンプライアンスのサポート 
+## <a name="archiving-and-compliance-support"></a>アーカイブとコンプライアンスのサポート
 
 
-|**機能**|**Skype のビジネス デスクトップ クライアント**|**Windows Phone**|**iOS**|**Android**|
+ | 機能  | Skype for Business desktop client  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|クライアント側のアーカイブの提供  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||||
-|クライアント側の記録の提供  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)||||
+|クライアント側のアーカイブの提供  <br/> |&#x2714;||||
+|クライアント側の記録の提供  <br/> |&#x2714; &#x2776; ||||
    
-![脚注 1 を読む](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png) ない Skype をビジネス オンライン/Office 365 のユーザーです。
+ &#x2776;  Not available to Skype for Business Online and/or Office 365 users.
   
 ## <a name="modern-authentication"></a>先進認証
 
 次の表に、先進認証のサポートを必要とする機能を示します。
   
-また、最新の認証には、[現代の認証でサポートされているビジネス ・ トポロジーの Skype](../../plan-your-deployment/modern-authentication/topologies-supported.md)で説明されているトポロジが必要です。
+Modern authentication also requires a topology described in [Skype for Business topologies supported with Modern Authentication](../../plan-your-deployment/modern-authentication/topologies-supported.md).
   
 
-|**機能**|**Skype のビジネス デスクトップ クライアント**|**Windows Phone**|**iOS**|**Android**|
+ | 機能  | Skype for Business desktop client  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|先進認証  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|多要素認証  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|証明書ベースの認証  <br/> |![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(ドメイン参加のデバイスのみ)  <br/> ||![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|(Intune) を使用してモバイル アプリケーションの管理  <br/> |||![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![チェックリストのチェックオフ](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
+|先進認証  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|多要素認証  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|証明書ベースの認証  <br/> |&#x2714;(Domain-joined device only)  <br/> ||&#x2714;|&#x2714;|
+|Mobile Application Management (via Intune)  <br/> |||&#x2714;|&#x2714;|
    
 

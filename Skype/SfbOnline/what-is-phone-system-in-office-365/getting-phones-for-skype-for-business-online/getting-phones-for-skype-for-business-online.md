@@ -22,25 +22,25 @@ ms.custom:
 - Phone System
 - Strat_SB_PSTN
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: de220c3ce9ab2fd17fb65589d721f41a7bc0ebb2
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 6609a0393e2b0f641f843b917f8b14a079aeb923
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Skype for Business Online で使う電話を入手する
 
 [] Skype for Business Online は、Skype for Business アプリよりも従来式の電話の機能性や操作性を利用したいユーザー向けに、デスクトップ電話に適合および対応しています。このトピックでは、Skype for Business Online での使用でサポートされる電話およびファームウェアのバージョンについて説明し、組織内で電話機をセットアップする際に役立つその他の情報を提供します。
   
-最新の更新プログラムとサポートされているデバイス上のほとんどの最新の情報を取得するのには、[デバイスのカタログをビジネス用の Skype](http://partnersolutions.skypeforbusiness.com/solutionscatalog)を参照してください。
+To get the latest updates and most up-to-date information on supported devices, see the [Skype for Business Device Catalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
   
 ## <a name="supported-phones"></a>サポートされる電話
 
-ビジネス オンライン ユーザーの Skype は、*ビジネス電話の Skype の認定*のいくつかのモデルから選択することができ、Lync の電話のエディション (LPE) を実行している電話はビジネスのデバイスの[Skype でのオンライン ビジネスのカテゴリの Skype の下に表示カタログ](http://partnersolutions.skypeforbusiness.com/solutionscatalog)。
+For Skype for Business Online users, you can choose from several models within the *Certified for Skype for Business Phones*  and phones running Lync Phone Edition (LPE) listed under the Skype for Business Online category in the [Skype for Business Device Catalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
   
 Office 365 での電話システムと Skype for Business Server のためのパートナー IP 電話プログラム (PIP) を通して広範なデバイスを開発および認定するために、Polycom、Yealink、AudioCodes と提携し、緊密に協業を進めています。
   
-ビジネス用の Skype の新しい電話をオーダーするときは、*適切な製品 ID*の電話を購入する重要です。 このような製品 ID により、お客様は受け取った電話機が Skype for Business Online の対象バージョンがインストール済みのものであることを確認できます。
+When ordering new phones for Skype for Business, it is important to buy phones with the *right product ID*. このような製品 ID により、お客様は受け取った電話機が Skype for Business Online の対象バージョンがインストール済みのものであることを確認できます。
   
 |||
 |:-----|:-----|
@@ -51,7 +51,7 @@ Office 365 での電話システムと Skype for Business Server のためのパ
    
 Polycom 電話機の詳細については、「[マイクロソフト対応音声ソリューション](http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html)」をご覧ください。
   
-Yealink 電話機の詳細については、「[Skype for Business の IP 電話機](http://www.yealink.com/products_top_2.html)」をご覧ください。
+Yealink 電話機の詳細については、「[Skype for Business の IP 電話機](http://www.yealink.com/products_list_10.html#filter2)」をご覧ください。
   
 AudioCodes 電話機の詳細については、「[Skype for Business の IP 電話機](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions)」をご覧ください。
   
@@ -88,7 +88,7 @@ Skype for Business Online の電話機には、ユーザー ライセンス以�
 |**機能** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
 |ユーザー資格情報でのサイン イン  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |なし  <br/> |
 |PC (ペアリング) 経由のサイン イン、Windows のみ  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |
-|(Web サイン イン) 使用でのサイン イン  <br/>  <br/> **注:**展開ガイドの「サポート ・ マトリックスをを確認してください。           |あり  <br/> |あり  <br/> |あり  <br/> |なし  <br/> |
+|(Web サイン イン) 使用でのサイン イン  <br/>  <br/> **Note:** Check the supportability matrix in deployment guide.           |あり  <br/> |あり  <br/> |あり  <br/> |なし  <br/> |
 |シングルクリックでの会議への参加  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |
 |クリックしてダイヤル (ペアリング)  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |
 |会議のコントロール  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |
@@ -97,15 +97,18 @@ Skype for Business Online の電話機には、ユーザー ライセンス以�
 |デバイスの更新  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |
 |インバンド プロビジョニング  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |
 |QoE  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |なし  <br/> |
-|ログのアップロード  <br/> <br/> **注:**マイクロソフト サポート チームのみにすべてのログをアップロードする現在、電話ログへのアクセスは利用できます。           |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |
+|ログのアップロード  <br/> <br/> **Note:** Currently, all logs are uploaded to the Microsoft Support team only; customer access to phone logs aren't yet available.           |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |
 |先進認証  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |なし  <br/> |
 |複数の緊急電話番号  <br/> |あり  <br/> |なし  <br/> |なし  <br/> |あり  <br/> |
-|Exchange の予定表の統合*  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> <br/> **注:**PC にケーブル接続する必要があります。           |
+|Exchange の予定表の統合*  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> <br/> **Note:** Requires PC tethering           |
 |プレゼンス統合  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |
 |企業ディレクトリ  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |
 |デリゲーション  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |なし  <br/> |
 |連絡先の写真の統合  <br/> |なし  <br/> |あり  <br/> |なし  <br/> |あり  <br/> |
 ||||||
+
+    > [!NOTE]
+    > CX 600 or any other Aries phones don't support multifactor authentication (MFA). If you force MFA, these devices will fail to sign-in. These devices must use only Org ID for authetication.
    
 ## <a name="what-else-should-you-know"></a>その他の情報
 詳細な設定手順については、「[Skype for Business Online 電話機の展開レポート](deploying-skype-for-business-online-phones.md)」をご覧ください。

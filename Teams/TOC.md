@@ -6,6 +6,7 @@
 ## [Teams の導入に向けた環境の準備を確認する](environment-readiness.md)
 ## [Teams 用に組織のネットワークを準備する](prepare-network.md)
 ## [Office 365 の URL と IP アドレスの範囲](Office-365-URLs-IP-address-ranges.md)
+## [制限とチームの仕様](limits-specifications-teams.md)
 
 
 
@@ -224,7 +225,7 @@
 ### [1.1 - マイクロソフトのチームのロールアウトの環境の探索](environmental-discovery-for-microsoft-teams-rollout.md)
 ## [2 - Skype for Business と併用する形で Teams を試験的に導入する](pilot-essentials.md)
 ### [2.1 - [ユーザーの選択、チームのパイロット](select-users-for-your-teams-pilot.md)
-## [3 - 旅とビジネスとチームの Skype の共存をアップグレードします。](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+## [3 の共存を理解して、Skype のビジネスとチームのモードをアップグレード](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 ## [4 - ユーザーが導入することによる価値を推進する](continue-journey.md)
 ## [よくあるご質問 - Skype for Business と Teams のビジョン](FAQ-journey.md)
 ## [チュートリアル: Skype for Business から Teams への移行](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)

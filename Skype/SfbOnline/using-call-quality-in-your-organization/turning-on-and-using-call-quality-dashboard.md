@@ -1,5 +1,5 @@
 ---
-title: 有効にして、品質のダッシュ ボードの呼び出しを使用します。
+title: Turning on and using Call Quality Dashboard
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -19,236 +19,236 @@ f1keywords:
 - ms.lync.lac.ToolsCallQualityDashboard
 ms.custom:
 - Reporting
-description: 'オンにし、ビジネス オンライン コール品質のダッシュ ボードに、Skype を使用し、通話の品質の概要のレポートを取得する方法を参照してください。 '
-ms.openlocfilehash: 5e1bf4a112e36761c18a11d3173b263002ad5e3f
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+description: 'See how to turn on and use the Skype for Business Online Call Quality Dashboard and get summary reports of quality of calls. '
+ms.openlocfilehash: 463567d46da9f7fa50aa54880e017ae886cba57d
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>有効にして、マイクロソフトのチームと Skype のオンライン ビジネスの品質のダッシュ ボードの呼び出しを使用して
+# <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online
 
-呼び出し品質ダッシュ ボードを使用して、通話の品質を監視するために Office 365 の組織を構成する方法について説明します。
+Learn how to configure your Office 365 organization to use the Call Quality Dashboard to monitor call quality.
   
-マイクロソフト チームの呼び出し品質ダッシュ ボード (救難) とオンライン ビジネスの Skype では、ビジネス サービスのマイクロソフトのチームと Skype を使用して行われた通話の品質の洞察を得るために。 このトピックでは、データの収集を開始するために完了する必要があります手順について説明します。
+The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic describes the steps you'll need to complete to start collecting data.
   
 > [!NOTE]
-> 救難の詳細なレポートは、現在テクニカル プレビューとして使用可能ですが、すべての顧客に利用できます。 
+> The CQD detailed reports are currently available as Tech Preview but available to all customers. 
   
-## <a name="latest-changes-and-updates"></a>最新の変更と更新
+## <a name="latest-changes-and-updates"></a>Latest changes and updates
 
-救難に最新の変更内容は次のとおりです。
+The most recent changes to CQD are as follows:
   
-- ビジネスをオンラインでのデータの Skype の他のマイクロソフトのチーム データが含まれます。
+- Includes Microsoft Teams data in addition to Skype for Business Online data.
     
-- サマリー レポートには、ビジネスをオンラインでのデータのすべてのデータ、マイクロソフトのチームのデータ、または Skype を選択するのには製品のフィルターが含まれます。
+- Summary reports include a product filter to select all data, Microsoft Teams data, or Skype for Business Online data.
     
-[ディメンションとメジャーのマイクロソフトのチームとビジネス オンラインの Skype の品質ダッシュ ボードの呼び出しで使用可能な](dimensions-and-measures-available-in-call-quality-dashboard.md)一覧については、この資料を参照してください。
+Refer to this article for a list of [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 > [!NOTE]
-> ダッシュ ボードに対する更新や変更について参照してください] をクリックして**朗報!** ダッシュ ボードです。 [コール品質のダッシュ ボード](https://aka.ms/CQDOnline)に移動することができます。 
+> Information about updates and changes to the dashboard can be found by clicking the link in the **Good news!** banner when it is displayed on the dashboard.
   
-## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Microsoft 呼び出し品質ダッシュ ボード (救難) の要約レポートをアクティブにします。
+## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Activate Microsoft Call Quality Dashboard (CQD) Summary Reports
 
-救難を使用する前に、Office 365 の組織を有効にする必要があります。
+Before you can start using the CQD, you'll need to activate it for your Office 365 organization.
   
-1. 、管理者アカウントを使用して、Office 365 の組織にサインインし、管理センターを開くに**管理者**のタイルを選択します。
+1. Sign in to your Office 365 organization using an admin account, and then select the **Admin** tile to open the Admin center.
     
-2. **管理センター**を、下の左側のウィンドウで開くには、Skype のビジネス管理センターに**ビジネス用の Skype**を選択します。
+2. In the left pane, under **Admin centers**, select **Skype for Business** to open the Skype for Business admin center.
     
-3. Skype のビジネス管理センターでは、左側のウィンドウで**ツール**を選択し、 **Skype**ビジネス オンライン コール品質のダッシュ ボードのします。
+3. In the Skype for Business admin center, select **Tools** in the left pane, and then select **Skype for Business Online Call Quality Dashboard**.
     
-     ![Skype のビジネス ツール](../images/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
+     ![Skype for Business tools](../images/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
   
-4. [開く] ページで、グローバル管理者のアカウントでログインし、が表示されたら、アカウントの資格情報を提供します。
+4. On the page that opens, log in with your Global Administrator account, and then provide the credentials for the account when prompted.
     
-     ![救難ログイン](../images/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
+     ![CQD Login](../images/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
-いったんアクティブ化をログイン後、救難にはデータの収集と処理が開始されます。
+After you login, once activated, the CQD will begin collecting and processing data.
   
 > [!NOTE]
-> いくつかのレポートには意味のある結果を表示するための十分なデータの処理に時間がかかる場合があります。 
+> It may take a couple of hours to process enough data to display meaningful results in the reports. 
   
-## <a name="features-of-the-call-quality-dashboard-for-skype-for-business-online"></a>オンライン ビジネスの Skype の通話品質のダッシュ ボードの機能
+## <a name="features-of-the-call-quality-dashboard-for-skype-for-business-online"></a>Features of the Call Quality Dashboard for Skype for Business Online
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
-救難の概要のレポートでは、計画の詳細なレポート機能のサブセットを提供します。 ここで 2 つのエディションの相違点の概要します。
+CQD Summary Reports provide a subset of the features planned for Detailed Reports. The differences between the two editions are summarized here:
   
-|**機能**|**サマリー ・ レポート**|**詳細なレポート**|
+|**機能**|**Summary Reports**|**Detailed Reports**|
 |:-----|:-----|:-----|
-|アプリケーション共有の指標  <br/> |なし  <br/> |あり  <br/> |
-|お客様の情報のサポートを構築します。  <br/> |あり  <br/> |あり  <br/> |
-|ドリルダウン分析サポート  <br/> |なし  <br/> |あり  <br/> |
-|メディアの信頼性の指標  <br/> |なし  <br/> |あり  <br/> |
-|ボックスのレポート  <br/> |あり  <br/> |あり  <br/> |
-|プロジェクト概要のレポート  <br/> |あり  <br/> |あり  <br/> |
-|ユーザーごとにレポートのセット  <br/> |なし  <br/> |あり  <br/> |
-|レポートのカスタマイズの設定 (追加、削除、レポートの変更)  <br/> |なし  <br/> |あり  <br/> |
-|ビデオ ベースの画面の測定値を共有  <br/> |なし  <br/> |あり  <br/> |
-|ビデオの測定基準  <br/> |なし  <br/> |あり  <br/> |
-|利用可能なデータ量です。  <br/> |過去 6 か月  <br/> |過去 6 か月  <br/> |
-|マイクロソフト チームのデータ  <br/> |あり  <br/> |あり  <br/> |
+|Application sharing metric  <br/> |なし  <br/> |あり  <br/> |
+|Customer building information support  <br/> |あり  <br/> |あり  <br/> |
+|Drill-down analysis support  <br/> |なし  <br/> |あり  <br/> |
+|Media reliability metrics  <br/> |なし  <br/> |あり  <br/> |
+|Out-of-the-box reports  <br/> |あり  <br/> |あり  <br/> |
+|Overview reports  <br/> |あり  <br/> |あり  <br/> |
+|Per-user report set  <br/> |なし  <br/> |あり  <br/> |
+|Report set customization (add, delete, modify reports)  <br/> |なし  <br/> |あり  <br/> |
+|Video-based screen sharing metrics  <br/> |なし  <br/> |あり  <br/> |
+|Video metrics  <br/> |なし  <br/> |あり  <br/> |
+|Amount of data available  <br/> |Last 6 months  <br/> |Last 6 months  <br/> |
+|Microsoft Teams data  <br/> |あり  <br/> |あり  <br/> |
    
-### <a name="out-of-the-box-reports"></a>ボックスのレポート
+### <a name="out-of-the-box-reports"></a>Out-of-the-box reports
 
-救難の両方のエディションは、- の標準を提供する経験をすることが、新しいレポートを作成する必要のない品質基準を呼び出します。 表示を開始するには、バックエンドのデータが処理されると、レポートのデータの品質を呼び出します。
+Both editions of CQD provide an out-of-the-box experience, giving you call quality metrics without the need to create any new reports. Once data is processed in the back-end, you can start seeing call quality data in the reports.
   
-### <a name="overview-reports"></a>プロジェクト概要のレポート
+### <a name="overview-reports"></a>Overview reports
 
-救難の両方のエディションに、全体的な通話品質については、高度なエントリ ポイントを提供するが、サマリー レポートに情報を表示する方法の詳細なレポートの場合と異なる。
+Both editions of the CQD provide a high-level entry point to the overall call quality information, but the way information is presented in Summary Reports is different from that of Detailed Reports.
   
-サマリー ・ レポートを簡単に参照し、全体的な通話品質のステータスと傾向を理解できるようにするシンプルなタブ付きページのレポート ビューを提供します。
+Summary Reports provide a simplified tabbed page report view that enables users to quickly browse and understand the overall call quality status and trends.
   
-4 つのタブは次のとおりです。
+The four tabs include:
   
-- **呼び出しの全体的な品質**のでは、すべてのストリームは、ストリームのクライアント サーバーの集約とクライアント ストリームと同様に別々 のサーバー ・ クライアントと毎月と毎日の傾向として、クライアントのストリームに関する情報を提供します。
+- **Overall Call Quality** - provides information about all streams, which is an aggregation of Server-Client streams and Client-Client streams, as well as separate Server-Client and Client-Client streams, in the form of monthly and daily trends.
     
-- **サーバ ・ クライアント**・ サーバーとクライアントのエンドポイント間でのストリームの追加の詳細情報を提供します。
+- **Server - Client** - provides additional details for the streams between Server and Client endpoints.
     
-- **クライアント - クライアント**- クライアントの 2 つのエンドポイント間でのストリームの追加の詳細情報を提供します。
+- **Client - Client** - provides additional details for the streams between two Client endpoints.
     
-- **音声品質の SLA**では、呼び出し、Skype ビジネス オンライン音声品質の SLA に含まれているに関する情報を提供します。
+- **Voice Quality SLA** - provides information about calls that are included in the Skype for Business Online Voice Quality SLA.
     
-### <a name="overall-call-quality-tab"></a>全体的な品質の電話] タブ
+### <a name="overall-call-quality-tab"></a>Overall Call Quality tab
 
-ストリームの数と割合の低下を見て、通話品質のステータスと傾向を評価するために、このタブでデータを使用します。 右上隅の凡例は、どの色と視覚的な要素は、これらの測定値を表すかを示しています。
+Use the data on this tab to evaluate call quality status and trends by looking at the stream counts and poor percentages. The legend in the upper-right corner shows which color and visual elements represent these metrics.
   
-![救難データ キー](../images/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
+![CQD Data key](../images/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
-ストリームは、3 つのグループに分類されます: 良い、悪い、および未分類。 存在も計算*が低い %*の値として分類するストリームの比率を与える * 悪い * に分類されたストリームの合計数。 *% の低下 = 低下ストリーム/(不適切なストリーム + 良いストリーム) * 100* 、これにより、 *% の低下*は、*未分類*の複数のストリームが存在することによって影響を受けていません。 用途として不適切なまたは適切なストリームをクラス分けするため、[品質のしきい値を呼び出す](https://aka.ms/cqd_quality_thresholds)を参照してください。
+Streams are classified in three groups: Good, Poor, and Unclassified. There are also calculated  *Poor %*  values that give you the ratio of streams classified as *Poor*  to the total classified stream count. Since *Poor % = Poor streams/ (Poor streams+ Good streams) * 100*  , this makes the *Poor %*  unaffected by the presence with multiple *Unclassified*  streams. For what is used for classifying a stream as poor or good, refer to [Call Quality Thresholds](https://aka.ms/cqd_quality_thresholds).
   
-左側のスケールを使用すると、呼び出しの数の値を測定できます。
+Use the scale on the left to measure the stream count values.
   
-![救難データ数](../images/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
+![CQD data count](../images/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
   
-右側のスケールを使用すると、低下の % 値を測定できます。
+Use the scale on the right to measure the Poor % values.
   
-![救難データ パーセント](../images/29795f71-ca96-4763-a76c-b4bb7c0e5828.png)
+![CQD data per cent](../images/29795f71-ca96-4763-a76c-b4bb7c0e5828.png)
   
-バーの上にマウスを合わせると、実際の数値を取得することもできます。
+You can also obtain the actual numerical values by hovering the mouse over a bar.
   
 > [!NOTE]
-> 次の例では、非常に小規模なサンプル データ セットから、値は実際の展開を写実的です。 
+> The following example is from a very small sample data set, and the values aren't realistic for an actual deployment. 
   
-![救難データ数値](../images/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
+![CQD Data numeric](../images/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
   
-ストリームの全体のボリュームは、重要な要因を判断する方法に関連する集計の割合は低いのです。 報告された不適切な割合の値は、ストリームの全体的な量が小さいほど、信頼性が低いです。
+The overall stream volume is an important factor in determining how relevant the calculated Poor percentages are. The smaller the volume of overall streams, the less reliable the reported Poor percentage values are.
   
-### <a name="server-client-tab-and-client-client-tabs"></a>クライアント サーバー] タブと [クライアントのタブ
+### <a name="server-client-tab-and-client-client-tabs"></a>Server-Client tab and Client-Client tabs
 
-これら 2 つのタブは、そのエンドポイントのエンドポイントへのシナリオで行われたストリームの追加の詳細情報を提供します。 両方のタブには、メディア ストリームがフローする 4 つのシナリオを表す 4 つの折りたたみ可能なセクションがあります。
+These two tabs provide additional details for the streams that took place in their endpoint-to-endpoint scenarios. Both tabs have four collapsible sections, representing four scenarios under which media streams would flow.
   
-- 内ワイヤード (有線)
+- Wired Inside
     
-- 外ワイヤード (有線)
+- Wired Outside
     
-- Wifi の内側
+- Wifi Inside
     
-- Wifi 外
+- Wifi Outside
     
-#### <a name="inside-test"></a>内部テスト
+#### <a name="inside-test"></a>Inside Test
 
-処理中に救難のバックエンドは、存在する場合*の内側*または*外側*建物の情報を使用してストリームを分類します。 各ストリームのエンドポイントでは、サブネット アドレスに関連付けられます。 場合、サブネットのアップロードの構築についてでは、サブネットの一覧で、内と見なされます。 建物情報がまだアップロードされていない場合、テスト中は常にストリームとして分類*外側*。 クライアント サーバー シナリオのテストの中にクライアント エンドポイントのみと見なされることに注意してください。 サーバーであるため常に外部ユーザーの観点からこの加算されません、テストします。
+During processing, the CQD back-end classifies a stream as  *Inside*  or *Outside*  using Building information, if it exists. Endpoints of each stream are associated with a subnet address. If the subnet is in the list of the subnets marked InsideCorp in the uploaded Building information, then it is considered *Inside*. If Building information has not yet been uploaded, then Inside Test will always classify the streams as *Outside*. Please note that Inside Test for Server-Client scenario only considers the client endpoint. Because servers are always outside from a user's perspective, this isn't accounted for in the test.
   
-#### <a name="wired-vs-wifi"></a>Wifi とワイヤード (有線)
+#### <a name="wired-vs-wifi"></a>Wired vs. wifi
 
-名前が示す、これは、クライアント接続の種類に基づく分類の基準。 もう一度、サーバーが常にワイヤード (有線) し、それは計算に含まれていません。
+As the names indicate, this is a classification criteria based on the type of client connections. Again, server is always wired and it isn't included in the calculation.
   
 > [!NOTE]
-> Wifi ネットワークに接続されている 2 つのエンドポイントのいずれかの場合に、ストリームを指定し、として分類されます救難の Wifi。 
+> Given a stream, if one of the two endpoints is connected to a Wifi network, then it is classified as Wifi in CQD. 
   
-## <a name="selecting-product-data-to-see-in-reports"></a>レポートに表示する製品データを選択します。
+## <a name="selecting-product-data-to-see-in-reports"></a>Selecting product data to see in reports
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
-製品のすべてのデータを表示するのには**製品のフィルター**のドロップダウン メニューを使用する概要および強化されたレポートの場所では、マイクロソフトのチームのデータのみに使用する場合、またはオンライン ビジネスのデータを Skype だけです。
+In the Summary and Location Enhanced Reports, you can use the **Product Filter** drop-down to show all product data, only Microsoft Teams data, or only Skype for Business Online data.
   
-![スクリーン ショットは、すべてのオプション、Microsoft チーム、およびビジネスのための Skype 製品のフィルター コントロールを示しています。](../images/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
+![Screenshot shows the Product Filter control with options for All, Microsoft Teams, and Skype for Business.](../images/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
   
-詳細なレポートは、マイクロソフトのチームまたは Skype のオンライン ビジネスのデータをレポートの定義の一部としてデータをフィルター選択するのにはチームの分析コードを使用できます。
+In Detailed reports, you can use the **Is Teams** dimension to filter the data to Microsoft Teams or Skype for Business Online data as part of defining the report.
   
-## <a name="upload-building-information"></a>アップロードの構築について
+## <a name="upload-building-information"></a>Upload Building information
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
-救難の概要レポートのダッシュ ボードには、**テナントのデータのアップロード**] ページで、右上隅で [設定] メニューから**テナントのデータのアップロード**を選択することによってアクセスが含まれています。 このページは地理的な情報は、IP アドレスのマッピングなど、独自の情報をアップロードするのには管理者の使用などの各ワイヤレス AP とその MAC アドレスのマッピング、します。
+The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting **Tenant Data Upload** from the settings menu in the top-right corner. This page is used for admins to upload their own information, such as mapping of IP address and geographical information, mapping each wireless AP and its MAC address, etc.
   
-![救難のダッシュ ボード](../images/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
+![CQD Dashboard](../images/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
-1. **テナント データのアップロード**] ページで、アップロードするファイルの種類を選択するのにドロップ ダウン メニューを使用します。 ファイルのデータ型は、ファイルの内容を表します (たとえば、「建物」は、IP アドレスのマッピングと同様に他の地理的な情報を構築) します。 現在構築のデータ型はサポートのみです。 以降のリリースでは、いくつかの複数のデータ型が追加されます。
+1. On the **Tenant Data Upload** page, use the drop-down menu to choose a data file type for uploading. The file data type denotes the content of the file (for example, "Building" refers to mapping of IP address and building as well as other geographical information). Currently we are only supporting the "Building" data type. A few more data types will be added with subsequent releases.
     
-2. ファイルのデータ型を選択すると、データ ファイルを選択する**参照**ををクリックします。
+2. After selecting the file data type, click **Browse** to choose a data file.
     
-  - .Tsv (タブ区切り) ファイルまたは .csv (コンマ区切り値) ファイル、データ ファイルがある必要があります。 .Csv ファイルを使用する場合コンマが含まれる任意のフィールドする必要があります引用符が含まれているまたはコンマを削除します。 などの場合は、建物の名前は、ニューヨーク州、ニューヨーク州、.csv ファイルで、必要がありますとして入力する「ニューヨーク州、ニューヨーク州」。
+  - The data file must be a .tsv (Tab-separated values) file or a .csv (Comma-separated value) file. If using a .csv file, any field that contains a comma must be surrounded by quotes or have the comma removed. For example, if your building name is NY,NY, in the .csv file it should be entered as "NY,NY".
     
-  - データ ファイルは、サイズが 50 MB を超えるする必要があります。
+  - The data file must be no larger than 50MB in size.
     
-  - ファイル内の各列は、データ ファイルごとに、このトピックの後半で説明、定義済みのデータ型を一致しなければなりません。
+  - For each data file, each column in the file must match a predefined data type, discussed later in this topic.
     
-3. データ ファイルを選択すると、**開始日**と、必要に応じて、**終了日を指定**を指定します。
+3. After selecting a data file, specify **Start date** and, optionally, **Specify an end date**.
     
-4. **開始日**を選択すると、救難サーバーにファイルをアップロードして**アップロード**を選択します。
+4. After selecting **Start date**, select **Upload** to upload the file to the CQD server.
     
-    ファイルをアップロードすると、前に、最初に検証されます。 検証、Azure blob に格納されます。 Azure blob に格納する検証が失敗した場合またはファイルが失敗したかどうか、ファイルへの修正を要求するエラー メッセージが表示されます。 次の図は、データ ファイル内の列の数が正しくないときに発生するエラーを示しています。
+    Before the file is uploaded, it is first validated. Once validated, it is stored in an Azure blob. If validation fails or the file fails to be stored in an Azure blob, an error message is displayed requesting a correction to the file. The following image shows an error occurring when the number of columns in the data file is incorrect.
     
-     ![救難例アップロードの妥当性確認エラー](../images/22716a32-3d3d-4870-983c-46089e8b212a.png)
+     ![CQD Example upload validation error](../images/22716a32-3d3d-4870-983c-46089e8b212a.png)
   
-5. 検証中にエラーが発生しない場合、ファイルのアップロードは成功します。 そのページの下部にある現在のテナントのすべてのアップロードされたファイルの完全な一覧を表示**、アップロード**の表にデータがアップロードされたファイルを表示できます。
+5. If no errors occur during validation, the file upload will succeed. You can then see the uploaded data file in the **My uploads** table, which shows the full list of all uploaded files for the current tenant at the bottom of that page.
     
-    各番組を録画アップロードした 1 つのテナント データ ファイル、ファイルの種類、最終更新時刻、期間、説明、削除、およびダウンロードのアイコンを持つ。 ファイルを削除するには、表に、ごみ箱] アイコンを選択します。 ファイルをダウンロードするには、テーブルの [**ダウンロード**] 列でのダウンロード アイコンを選択します。
+    Each record shows one uploaded tenant data file, with file type, last update time, time period, description, a remove icon, and a download icon. To remove a file, select the trash bin icon in the table. To download a file, select the download icon in the **Download** column of the table.
     
-     ![救難マイ アップロード ・ テーブル](../images/4168a883-bbea-461a-80b1-42eedf2e7732.png)
+     ![CQD My Uploads table](../images/4168a883-bbea-461a-80b1-42eedf2e7732.png)
   
-### <a name="tenant-data-file-format-and-building-data-file-structure"></a>テナント データのファイル形式とデータ ファイルの構造を構築
+### <a name="tenant-data-file-format-and-building-data-file-structure"></a>Tenant data file format and Building data file structure
 <a name="BKMKTenantDataFile"> </a>
 
-アップロードするデータ ファイルの形式では、アップロードする前に検証チェックに合格するのには以下を満たす必要があります。
+The format of the data file you upload must meet the following to pass the validation check before uploading.
   
-- .Tsv ファイルには、行ごとに列がタブで区切られたまたはコンマで区切られた各列を含む .csv ファイルのいずれか、ファイルがある必要があります。
+- The file must be either a .tsv file, which means, in each row, columns are separated by a TAB, or a .csv file with each column separated by a comma.
     
-- データ ファイルの内容には、テーブルの見出しが含まれていません。 ヘッダーではないなどの「ネットワーク」は、データ ファイルの最初の行には、実際のデータ必要があることなどです。
+- The content of the data file doesn't include table headers. That means the first line of the data file should be real data, not headers like "Network," etc.
     
-- 列ごとにデータ型は、必ず文字列、数値、またはブール値です。 値が数値値をする必要があります数の場合は、Bool の場合、値は 0 または 1 のいずれかにする必要があります。
+- For each column, the data type can only be String, Number, or Bool. If it is Number, the value must be a numeric value; if it is Bool, the value must be either 0 or 1.
     
-- 各列に、データ型が文字列である場合、データは、空 (まだ、適切な区切りで区切る必要がありますが、(つまり、タブまたはコンマ)。 これだけでフィールドに割り当て、その空の文字列値。
+- For each column, if the data type is string, the data can be empty (but still must be separated by an appropriate delimiter (i.e., a tab or comma). This just assigns that field an empty string value.
     
-- 各行では、14 列が存在する必要があり、各列は次のデータが必要の種類、および列は、次の表に記載されている順序である必要があります。
+- There must be 14 columns for each row, each column must have the following data type, and the columns must be in the order listed in the following table:
     
-|**列名**|**データ型**|**例**|
+|**Column Name**|**Data type**|**例**|
 |:-----|:-----|:-----|
 |ネットワーク  <br/> |文字列  <br/> |192.168.1.0  <br/> |
-|ネットワーク名リソース  <br/> |文字列  <br/> |米国/シアトル/シアトル-海-1  <br/> |
+|NetworkName  <br/> |文字列  <br/> |USA/Seattle/SEATTLE-SEA-1  <br/> |
 |NetworkRange  <br/> |数値  <br/> |26  <br/> |
-|BuildingName  <br/> |文字列  <br/> |シアトル-海-1  <br/> |
-|OwnershipType  <br/> |文字列  <br/> |Contoso 社  <br/> |
-|BuildingType  <br/> |文字列  <br/> |IT 終了  <br/> |
-|BuildingOfficeType  <br/> |文字列  <br/> |エンジニア リング  <br/> |
+|BuildingName  <br/> |文字列  <br/> |SEATTLE-SEA-1  <br/> |
+|OwnershipType  <br/> |文字列  <br/> |Contoso  <br/> |
+|BuildingType  <br/> |文字列  <br/> |IT Termination  <br/> |
+|BuildingOfficeType  <br/> |文字列  <br/> |Engineering  <br/> |
 |市区町村  <br/> |文字列  <br/> |調布市調布ヶ丘  <br/> |
 |ZipCode  <br/> |文字列  <br/> |98001  <br/> |
-|国  <br/> |文字列  <br/> |ご  <br/> |
+|Country  <br/> |文字列  <br/> |US  <br/> |
 |都道府県  <br/> |文字列  <br/> |WA  <br/> |
-|Region  <br/> |文字列  <br/> |MSU  <br/> |
+|Region  <br/> |文字列  <br/> |MSUS  <br/> |
 |InsideCorp  <br/> |ブール値  <br/> |1  <br/> |
 |ExpressRoute  <br/> |ブール値  <br/> |0  <br/> |
    
 > [!IMPORTANT]
-> スーパー (1 つのルーティング プレフィックスを持つ複数のサブネットの組み合わせ) を表すには、ネットワークの範囲を使用できます。 任意の重複する範囲のすべての新しい文書のアップロードがチェックされます。 以前構築ファイルをアップロードした場合は、現在のファイルをダウンロードし、再すべての重複を識別し、再度アップロードする前に問題を修正するのには。 レポート内にある建物にサブネットの誤ったマッピング以前アップロードしたファイルの重複している可能性があります。 特定の VPN 実装では、サブネット情報は正確に報告はありません。 お勧めする、サブネットの 1 つのエントリではなく、ファイルを作成する VPN のサブネットを追加するときに別のエントリとして追加されます VPN のサブネットのアドレスごとに別の 32 ビット ネットワーク。 各行には、同じ文書のメタデータを持つことができます。 などの 172.16.18.0/24 の 1 つの行ではなく 256 行は、172.16.18.0/32 と 172.16.18.255/32、包括的なアドレスごとに 1 行を持つ必要があります。 
+> The network range can be used to represent a supernet (combination of several subnets with a single routing prefix). All new building uploads will be checked for any overlapping ranges. If you have previously uploaded a building file, you should download the current file and re-upload it to identify any overlaps and fix the issue before uploading again. Any overlap in previously uploaded files may result in the wrong mappings of subnets to buildings in the reports. Certain VPN implementations do not accurately report the subnet information. It is recommended that when adding a VPN subnet to the building file, instead of one entry for the subnet, separate entries are added for each address in the VPN subnet as a separate 32-bit network. Each row can have the same building metadata. For example, instead of one row for 172.16.18.0/24, you should have 256 rows, with one row for each address between 172.16.18.0/32 and 172.16.18.255/32, inclusive. 
   
-## <a name="selecting-media-type-in-detailed-reports"></a>詳細なレポートにメディアの種類を選択します。
+## <a name="selecting-media-type-in-detailed-reports"></a>Selecting media type in detailed reports
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
-詳細なレポートでは、オーディオ、ビデオ、アプリケーション共有、および画面共有するメディアの種類のビデオ ・ ベースの品質とメディアの信頼性を見るをサポートします。 ディメンション、メジャー、および 1 つのメディアの種類の特定は、フィルターをプレフィックスとして「オーディオ」、「ビデオ」、「AppSharing」、または「VBSS」があります。
+The detailed reports support looking at quality and media reliability for audio, video, application sharing, and video-based screen-sharing media types. Dimensions, measures, and filters that are specific to a single media type have "Audio", "Video", "AppSharing", or "VBSS" as a prefix.
   
-![品質のダッシュ ボードの大きさを呼び出します。](../images/ae132202-d6dc-43bd-b8b3-ea9c24c519e8.png)
+![Call Quality Dashboard Dimensions.](../images/ae132202-d6dc-43bd-b8b3-ea9c24c519e8.png)
   
-ディメンションと 1 つのメディア タイプのメジャーを表示する場合は、新しいメディアの種類のディメンションとフィルターが必要な可能性があります。 たとえば、合計のセッションは、別のメディアの種類を示すレポートを表示するには、メディアの種類のディメンションが含まれます。
+If you want to view the dimensions and measures for a single media type, the new MediaType dimension and filter may be required. For example, to have a report that shows the total session counts across different media types, include the MediaType dimension.
   
-![品質のダッシュ ボードのストリームの合計数を呼び出します。](../images/21d5d0dc-2321-415e-8ef2-cea06165601c.png)
+![Call Quality Dashboard Total Stream Count.](../images/21d5d0dc-2321-415e-8ef2-cea06165601c.png)
 
 ## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 [Skype for Business の通話分析をセットアップする](set-up-call-analytics.md)
 
-[分析機能の呼び出しを使用して不適切な通話の音質をトラブルシューティングするには](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Use Call Analytics to troubleshoot poor  call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[コール分析と通話品質のダッシュ ボードとの違いですか。](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Difference between Call Analytics and Call Quality Dashboard?](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  
