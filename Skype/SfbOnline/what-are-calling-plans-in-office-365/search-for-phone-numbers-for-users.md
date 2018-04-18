@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: cc22c49a-c644-4151-a2fc-a1474148f8ba
 ms.tgt.pltfrm: cloud
@@ -22,19 +21,19 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'See how to search for phone numbers you can assign to your users, by country/region, state/region, or city, and specify the quantity of numbers you need. '
-ms.openlocfilehash: 59691acf7892c0907c7a2f461c45c5289a3ebbbe
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: aa6faaf80b23d4011f9859916a56fb8d9041cc76
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="search-for-phone-numbers-for-users"></a>ユーザーの電話番号を検索する
 
 [] 組織内でユーザーが電話の発信や受信をできるように設定するには、 [ **Skype for Business 管理センター**] を使って最初に電話番号を取得し、ユーザーに割り当てられるようにする必要があります。ユーザーに割り当てる電話番号は組織用に選んだ電話番号であり、ユーザーのプロパティを編集して [ **番号を割り当てる**] をクリックすると、その番号はドロップダウン リストに一覧表示されます。
   
-Before you can assign phone numbers to your users, you must use the **New numbers** page to search for numbers that are available for you within an area. **国/地域**、**状態**、および**市区町村**を検索し、ユーザーにする必要がありますが、電話番号の番号を入力できます。 
+Before you can assign phone numbers to your users, you must use the **New numbers** page to search for numbers that are available for you within an area. You can search by **Country/region**, **State**, and **City**, and then enter the number of phone numbers you will need for your users. 
   
-電話番号を取得するいくつかのヘルプが必要な場合は、[組織の電話番号の管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)や[ビジネス製品の管理のヘルプのサポートの連絡先](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)を確認すること
+If you need some help with getting phone numbers, you can see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) or [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
 ## <a name="search-for-phone-numbers"></a>電話番号を検索する
 
@@ -60,7 +59,7 @@ Before you can assign phone numbers to your users, you must use the **New number
 7. 目的の電話番号を選んでから、[ **番号を取得**] を選びます。
     
     > [!IMPORTANT]
-    > ライセンスがある場合よりも、他の電話番号を取得することができます。 電話番号の数を取得することを確認するのに、ライセンス数を取得、ライセンスの数の 10% を追加し、10 します。 たとえば、**国内を呼び出すことを計画****国際対応の計画を呼び出すこと**の 100 のライセンスがあれば、予約できます 120 の電話番号、100 ユーザーのためのいくつかの電話番号を既に入手していないすると仮定した場合します。 詳細についてを参照してください[電話番号の数を取得することができますか?](how-many-phone-numbers-can-you-get.md)
+    > You can acquire more phone numbers than you have licenses. To determine how many phone numbers you can acquire, take your number of licenses, add 10 percent of the number of licenses, and then add 10. For example, if you have 100 **Domestic Calling Plan** and/or **International Calling Plan** licenses, you can reserve 120 phone numbers, assuming that you have not already acquired some phone numbers for those 100 users. For more details, see [How many phone numbers can you get?](how-many-phone-numbers-can-you-get.md)
 
 ## <a name="related-topics"></a>[米国 (無料の電話番号) 用の承認状 (LOA) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.S. (Toll Free numbers) (v.3.1) (en-US).pdf)
 電話番号の管理フォームのダウンロード

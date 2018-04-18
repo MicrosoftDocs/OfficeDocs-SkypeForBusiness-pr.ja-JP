@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 03/30/2018
 ms.topic: article
 ms.assetid: 57893158-1acd-44ac-acaf-19f58264a9e0
 ms.tgt.pltfrm: cloud
@@ -23,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 4f591807dcfb4ed4b4d9fceb8340ba18b11549ec
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 194f38811766f96ad192b38730158f01ce9ab234
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="set-up-calling-plans"></a>プランの呼び出しを設定します
 ビジネス ユーザー向けの他の Skype への呼び出しを自由が、ユーザーが、組織では、外からの電話を呼び出せるようにする場合、国内を呼び出すことを計画、または、国際の呼び出し Office 365 で。 お客様のビジネスにこれを設定するのには簡単です。 
@@ -46,7 +45,7 @@ ms.lasthandoff: 04/05/2018
 ## <a name="step-3-get-phone-numbers"></a>手順 3: 電話番号を取得します。
 新しいユーザーの数を取得する 3 つの方法があります。
 
-- **ビジネス管理センターは、Skype を使用します。** 一部の国/地域のビジネス管理センターは、Skype を使用してユーザーの番号を取得するを参照してください[、ユーザーの e の電話番号を取得します。](../what-is-phone-system-in-office-365/getting-phone-numbers-for-your-users.md)。
+- **ビジネス管理センターは、Skype を使用します。** 一部の国/地域のビジネス管理センターは、Skype を使用してユーザーの番号を取得するを参照してください[、ユーザーの e の電話番号を取得します。](getting-phone-numbers-for-your-users.md)。
     
 - **既存の番号を移植します。** ポート、または現在のサービス プロバイダーまたは電話のキャリアからの既存の番号を Office 365 に転送できます。 [Office 365 に電話番号を転送](transfer-phone-numbers-to-office-365.md)または詳細については[、組織の電話番号の管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)作業を行いやすくにを参照してください。  
   

@@ -1,9 +1,8 @@
 ---
-title: Allow users to contact external Skype for Business users
+title: ビジネス ユーザー向けの外部の Skype の連絡先ユーザーを許可します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: b414873a-0059-4cd5-aea1-e5d0857dbc94
 ms.tgt.pltfrm: cloud
@@ -25,37 +24,37 @@ f1_keywords:
 ms.custom:
 - Setup
 - LIL_Placement
-description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: b7700eeaf9a2fdd39d9a25fce93cfd17f42d4b8e
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+description: 'ユーザーが別の組織内のユーザーに問い合わせるか、外にそれらの連絡先を使用できるようにするのにはビジネス用の Skype を構成する方法を参照してください。 '
+ms.openlocfilehash: 533bf45ff1abd0a1127ff54c91ab4c424c7d2df8
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="allow-users-to-contact-external-skype-for-business-users"></a>Allow users to contact external Skype for Business users
+# <a name="allow-users-to-contact-external-skype-for-business-users"></a>ビジネス ユーザー向けの外部の Skype の連絡先ユーザーを許可します。
 
 > [!NOTE]
-> Skype for Business federation isn't available to Office 365 operated by 21Vianet and Office 365 Germany organizations. 
+> ビジネス連合の Skype を 21Vianet と Office 365 のドイツの組織によって運営されて Office 365 を使用できません。 
   
-Use the steps in this article when:
+記事の場合この手順を使用します。
   
-- You have users on different domains in your business. For example, Rob@ContosoEast.com and Ann@ContosoWest.com.
+- ビジネスで別のドメインにユーザーがあります。 たとえば、Rob@ContosoEast.com と Ann@ContosoWest.com です。
     
-- You want the people in your organization to use Skype for Business to contact people in specific businesses outside of your organization.
+- ビジネス用の Skype を使用して特定の企業、組織外の人に連絡するのには、組織で人をします。
     
--You want anyone else in the world who uses Skype for Business to be able to find and contact you, using your email address. If you and they use the default Skype for Business settings, this will work automatically. If they don't, then they need to make sure their configuration isn't blocking your domain.
+-する他のユーザーを検索し、連絡先、電子メール アドレスを使用することができるビジネス用の Skype を使用している世界で。 Skype のデフォルトを使用して、ビジネスの設定を自動的にこの動作はします。 しない場合は、ドメインの構成によってブロックされていないかどうかを確認する必要があります。
     
-## <a name="enable-business-to-business-communications-for-your-users"></a>Enable business-to-business communications for your users
+## <a name="enable-business-to-business-communications-for-your-users"></a>ユーザーの企業間の通信を有効にします。
 <a name="bk_preview"> </a>
 
-To see how this works, watch this video:
+この動作を確認するには、このビデオを確認してください。
 ***
 > [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=492278f0-6912-47ba-a1d1-00040061cf44&AutoPlayVideo=false]
 ***
 
-You must have [admin permissions](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Office 365 in both organizations to do this.
+これを行う 2 つの組織で Office 365 の[管理者のアクセス許可](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)が必要です。
   
-1. Sign in with your Office 365 admin account. 
+1. Office 365 管理者アカウントでサインインします。 
     
 2. Office 365 管理センターで、[**管理センター**]  >  [**Skype for Business**] に移動します。
     
@@ -63,84 +62,84 @@ You must have [admin permissions](https://support.office.com/en-us/article/da585
   
 3. [**Skype for Business 管理センター**] で、[**組織**]  >  [**外部通信**] を選びます。
     
-4. To set up communication with a specific business or with users in another domain, in the drop-down box, choose **On only for allowed domains**.
+4. 設定するには、特定のビジネスで、または、ドロップ ダウン ボックスで、別のドメイン内のユーザーとの通信**にのみ許可されるドメイン**を選択します。
     
-    OR, if you want to enable communication with everyone else in the world who has open Skype for Business policies, choose **On except for blocked domains**. これは既定の設定です。
+    ビジネス ポリシーでは、Skype の選択を開くには世界中の他のすべてとの通信を有効にするかどうか、または、**をブロックするドメインを除く**。 これは既定の設定です。
     
-5. Under **Blocked or allowed domains**, choose **+** and add the name of the domain you want to allow.
+5. [**ブロックまたは許可するドメイン**] を選択して**+**を許可するドメインの名前を追加します。
     
-6. Make sure the admin in the other organization does these same steps in their **Skype for Business admin center**. For example, in their **allowed domains** list, their admin needs to enter the domain for your business.
+6. その他の組織の管理者には、**ビジネス管理センターの Skype**では、次の同じ手順を確認します。 などの**ドメインを許可する**ボックスの一覧で、管理者が自社のドメインを入力する必要があります。
     
 7. Windows Firewall を使用している場合は、Skype for Business が必要なポートを自動的に開きます。
     
-    If your organization is using a different firewall solution to restrict computers on your network from connecting to the Internet, ensure your client computers are able to access the following [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges). This may require adding the FQDNs to the outbound allow list in your firewall or proxy infrastructure configuration: **\*.api.skype.com**, \***.users.storage.live.com**, and **graph.skype.com**. For instructions on how to open these ports in your firewall, check the documentation that came with it.
+    組織がインターネットへの接続をネットワーク上のコンピューターを制限する別のファイアウォール ソリューションを使用している場合は、クライアント コンピューターは、次の[Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges)にアクセスすることを確認します。 インフラストラクチャの構成、ファイアウォールやプロキシのリストを許可する、送信する Fqdn を追加することがあります:**\*です。 api.skype.com**、 \***です。 users.storage.live.com**、と**graph.skype.com**。お使いのファイアウォールでポートを開く方法の詳細については、それに付属のマニュアルを確認してください。
     
-    For a list of all ports you need to open, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges).
+    すべてのポートを開く必要のリストは、 [Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges)を参照してください。
 
-8. Make sure that the administrator in the organization has also followed these steps.
+8. 管理者は、組織では、次の手順の後にもことを確認します。
     
 9. **テストのために最大 24 時間待機します** 。外部通信設定を変更したときはいつでも、変更がデータ　センター全体に行き渡るまでに最大 24 時間かかる場合があります。
     
-![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) You can allow your users to search for and IM with everyone who uses Skype, the free consumer app! To learn more, see [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md).
+![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) Skype、無料のコンシューマー アプリケーションを使用して他のユーザーと IM を検索して、ユーザーを許可します。 詳細については、[ビジネス ユーザー向けの Skype は、Skype 連絡先を追加する](let-skype-for-business-users-add-skype-contacts.md)を参照してください。
   
 ## <a name="test-and-troubleshoot"></a>テストとトラブルシューティング
 <a name="bk_preview"> </a>
 
- **The most common issue people encounter when setting up business-to-business communication is getting their [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges) right.**
+ **企業間の通信を設定する際に発生する最も一般的な問題は、取得[Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges)右です。**
   
-To test your setup, you need a contact on Skype for Business who's not behind your company firewall.
+設定をテストするには、企業ファイアウォールの背後にあるではないビジネスの Skype の連絡先が必要です。
   
 1. 外部通信設定を変更した後、 **テストのために最大 24 時間待機** します。
     
-2. In Skype for Business, search for your contact in Skype for Business, and send a request to chat.
+2. ビジネスの Skype は、ビジネス用の Skype の連絡先の検索でチャットへの要求を送信します。
     
-    If you get a message that it couldn't be sent due to company policy, you need to double-check your [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges).
+    会社のポリシーのために送信できませんでしたというメッセージが表示される場合[Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges)を再確認する必要があります。
     
-3. Ask your Skype for Business contact to send you a request to chat. If you don't receive their request, the problem is your firewall settings (assuming they've already confirmed their firewall settings are correct).
+3. チャットへの要求を送信するビジネス用連絡先の Skype を依頼してください。 要求の場合、問題は、ファイアウォールの設定 (ファイアウォール設定が正しいことが既にわかっていると仮定した場合) です。
     
-4. Another way to test whether the problem is your firewall is to go to a wifi location not behind your firewall such as a coffee shop, and use Skype for Business to send a request to your contact to chat. If the message goes through there, but not when you're at work, then you know the problem is your firewall.
+4. 問題がお使いのファイアウォールであるかどうかをテストする別の方法ではないファイアウォールの内側に、コーヒー ショップなどの wifi の場所に移動し、チャットする相手に要求を送信するのにはビジネス用の Skype を使用します。 メッセージは、そこを通過し、問題がわかっていないしたら職場場合、は、お使いのファイアウォールです。
     
-## <a name="how-to-find-others-and-be-found-when-connecting-with-another-business"></a>How to find others, and be found, when connecting with another business
+## <a name="how-to-find-others-and-be-found-when-connecting-with-another-business"></a>、他のユーザーを検索し、別のビジネスに接続するときを検出する方法
 <a name="bk_preview"> </a>
 
-After you enable external communication with other Skype for Business users, your users can find federated Skype for Business users by searching for their sign-in name: for example, Rob@contoso.com. Then they will need to add the person to their list of contacts.
+ビジネス ユーザー向けの他の Skype での外部の通信を有効にした後、ユーザーは検索できます連合 Skype ビジネス ユーザー向けのサインイン名を検索し、: 例えば、Rob@contoso.com。連絡先の一覧にユーザーを追加する必要があります。
   
-![To find a user in a federated business, you must search for their email address (this is usually also their sign in name).](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
+![連合ビジネスでユーザーを検索するのには (これは、通常も、サインイン名)、電子メール アドレスを検索する必要があります。](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
   
-## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>Tips on setting up communications with federated businesses
+## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>連合の企業との通信設定のヒント
 <a name="bk_preview"> </a>
 
-- To configure federation between Skype for Business 2015 and Skype for Business Online, see this TechNet article: [Configure federation with Skype for Business Online](https://technet.microsoft.com/en-us/library/jj205126.aspx).
+- ビジネス 2015年の Skype と Skype のオンライン ビジネスとの間のフェデレーションを構成するには、この TechNet の記事を参照してください:[ビジネス オンラインの Skype でフェデレーションを構成](https://technet.microsoft.com/en-us/library/jj205126.aspx)します。
     
-- To configure federation between Lync and Skype for Business Online, see this TechNet article: [Configuring Federation Support for a Lync Online Customer](https://technet.microsoft.com/en-us/library/hh202193.aspx).
+- オンライン ビジネスの Lync と Skype との間のフェデレーションを構成するのには、この TechNet の記事を参照してください: [Lync のオンライン ・ カスタマーのフェデレーション サポートを構成します](https://technet.microsoft.com/en-us/library/hh202193.aspx)。
     
-- When two Skype for Business users in Office 365 are communicating with each other on separate domains, they can only use Skype for Business features (for example, video conversations or desktop sharing) that are turned on in both organizations.
+- Office 365 のビジネス ユーザー向けの 2 つの Skype は別のドメインに相互通信している場合 (たとえば、ビデオの会話またはデスクトップの共有) の両方の組織内有効になっているビジネス機能の Skype のみ使用できます。
     
-- If a Skype for Business user in your organization is put on an In-Place or Litigation Hold, any IM conversations between that user and other Skype for Business or Skype users will be saved in **Recoverable Items** in their mailbox. These conversations aren't saved in the **Conversations History** folder in their mailbox.
+- 埋め込みまたは証拠保全に、組織内のビジネス ユーザーは、Skype を配置すると、自分のメールボックスの**回復可能な項目**でそのユーザーとその他の Skype をビジネスまたは Skype のユーザーの間ですべての IM 会話が保存されます。 これらの会話は、自分のメールボックスの**会話履歴**フォルダーに保存されません。
     
-## <a name="turn-off-external-communication-for-specific-individuals"></a>Turn off external communication for specific individuals
+## <a name="turn-off-external-communication-for-specific-individuals"></a>特定の個人の外部通信をオフにします。
 <a name="bk_preview"> </a>
 
-After you enable external communication for your entire business, you can turn it off for only specific individuals.
+全体のビジネスでは、外部の通信を有効にした後は、特定の個人の無効にすることができます。
   
-1. Sign in with your Office 365 admin account.
+1. Office 365 管理者アカウントでサインインします。
     
-2. In the Office 365 admin center, go to **Users** > **Active users**.
+2. **ユーザー**には、Office 365 管理センターで、 > **アクティブなユーザー**です。
     
-3. In the list of users, choose the user, and then, under **More Settings**, click **Edit Skype for Business properties**.
+3. 、ユーザーの一覧で、ユーザーの選択し、[**詳細設定**]**プロパティをビジネスの Skype を編集**] をクリックします。
     
-    ![Choose Skype for Business](../images/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
+    ![Skype をビジネスを選択します。](../images/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
   
-4. In the **Skype for Business admin center**, choose **External communications**.
+4. **ビジネス管理センターの Skype**では、**外部の通信**を選択します。
     
-    On the **Options** page, all of the choices will be selected. Clear the communications you want to disable. The following image shows that Jakob will be able to communicate with people in other trusted businesses, but not with other Skype users.
+    [**オプション**] ページで、すべての選択肢が選択されます。 通信を無効にするをオフにします。 次の図は、Jakob がその他の Skype ユーザーではなく、信頼されているその他の企業のユーザーと通信できることを示しています。
     
-    ![Choose External contacts](../images/4e546321-a065-48ed-8ac7-1e112a780eab.png)
+    ![外部の連絡先を選択します。](../images/4e546321-a065-48ed-8ac7-1e112a780eab.png)
   
 5. [ **保存**] を選びます。
     
 > [!NOTE]
-> You may have to wait for up to 24 hours for your changes to take effect. 
+> 変更を有効にするには、最大で 24 時間待機する必要があります。 
   
 
 

@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: edc71baa-0899-4bb7-8643-a4c4064af627
 ms.tgt.pltfrm: cloud
@@ -21,11 +20,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。
-ms.openlocfilehash: 825b1e15e4dd83a9a9fe70a31dbc46dcc6cf04f6
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 1ec5344ff9fce646952f050d480fa6855186eef4
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="why-is-number-activation-listed-as-updating"></a>更新と番号のライセンス認証が表示されるはなぜですか。
 

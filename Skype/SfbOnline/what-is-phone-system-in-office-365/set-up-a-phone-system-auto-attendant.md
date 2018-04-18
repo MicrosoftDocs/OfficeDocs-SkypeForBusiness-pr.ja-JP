@@ -1,10 +1,9 @@
 ---
-title: 電話システムの自動応答を設定します
+title: Set up a Phone System auto attendant
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: makolomi
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 ms.tgt.pltfrm: cloud
@@ -21,30 +20,30 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: '設定し、組織の処理効率の呼び出しに自動応答の電話システム (PBX をクラウド) をテストする方法について説明します。 '
-ms.openlocfilehash: 275aececccca18b82cbd08a4f4aa580d1696dcf9
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+description: 'Learn how to set up and test Phone System (Cloud PBX) auto attendants for efficient call handling for your organization. '
+ms.openlocfilehash: 456c60fb02b3ef63b14b2ff2e369c78a90edeb0d
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="set-up-a-phone-system-auto-attendant"></a>電話システムの自動応答を設定します
+# <a name="set-up-a-phone-system-auto-attendant"></a>Set up a Phone System auto attendant
 
-自動応答は、組織へのコールし、右の部門にそれらを取得するには、キュー、人、または演算子を呼び出すメニュー システムを移動するユーザーを使用できます。 ビジネス管理センターは、Skype を使用して、組織の自動応答を作成できます。 To create a new auto attendant, go to **Call routing** in the left navigation, and then select **Auto attendants** > **Add new**.
+Auto attendants let people that call in to your organization and navigate a menu system to get them to the right department, call queue, person, or the operator. You can create an auto attendant for your organization by using the Skype for Business admin center. To create a new auto attendant, go to **Call routing** in the left navigation, and then select **Auto attendants** > **Add new**.
   
-自動アテンダントの詳細についてはする場合を参照してください[電話システムの自動応答は何ですか?](what-are-phone-system-auto-attendants.md)
+If you want to learn more about auto attendants, see [What are Phone System auto attendants?](what-are-phone-system-auto-attendants.md)
   
 ## <a name="step-1---getting-started"></a>ステップ 1 - はじめに
 
-- Before you can create and set up your auto attendants, you will need to get or transfer your existing toll or toll-free service numbers. 有料または無料のサービスの番号を取得した後にで示される**ビジネス管理センターの Skype** > **音声** > **の電話番号**のページです。 サービス番号を取得するには、 [Skype のビジネスおよびマイクロソフトのチームの取得サービスの電話番号](getting-service-phone-numbers.md)を参照するか、転送し、既存のサービス番号にする場合は、 [Office 365 に電話番号を転送する](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md)を参照してください。 **User (subscriber)** numbers can't be assigned to auto attendants. 米国以外の場合は、サービス番号を取得するビジネス管理センターの Skype を使うことはできません。移動[ここでは](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)代わりにします。
+- Before you can create and set up your auto attendants, you will need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service numbers, they will show up on the **Skype for Business admin center** > **Voice** > **Phone numbers** page. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md), or if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md). **User (subscriber)** numbers can't be assigned to auto attendants. If you are outside the United States, you can't use the Skype for Business admin center to get service numbers; go [here](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead.
     
     > [!CAUTION]
-    > 取得し、フリー ダイヤル電話番号を使用して、通信のクレジットを設定する必要があります。 この参照を行うに[通信のクレジットは何ですか?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)し、[組織の通信のクレジットを設定](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)。 
+    > To get and use toll-free phone numbers, you need to set up Communications Credits. To do this see [What are Communications Credits?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md) and [Set up Communications Credits for your organization](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md). 
   
-- 組織は、エンタープライズの E3 と**電話システム**のライセンスまたはエンタープライズ E5 のライセンス (最低) が必要です。 自動応答に使用する利用可能なサービス番号の番号を割り当てられている**電話システム**のユーザー ライセンスの数に影響します。 ことが自動応答の数は、組織に割り当てられている番号の**電話システム**と**オーディオ会議**ライセンスに依存します。 、ライセンスに関する詳細については、移動[は、ここ](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)です。
+- Your organization must have (at a minimum) an Enterprise E3 plus **Phone System** license or an Enterprise E5 license. The number of **Phone System** user licenses that are assigned affects the number of service numbers that are available to be used for auto attendants. The numbers of auto attendants you can have is dependent on the number **Phone System** and **Audio Conferencing** licenses that are assigned in your organization. To learn more about licensing, go [here](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
     > [!TIP]
-    > 演算子または**電話システム**のライセンスを持つオンラインのユーザーは、メニュー ・ オプションへの呼び出しをリダイレクトするには、エンタープライズ VoIP を有効にするか、Office 365 のプランを呼び出すことを割り当てることにする必要があります。 「[Skype for Business と Microsoft Teams のライセンスを割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)」をご覧ください。 Windows PowerShell を使用することもできます。 などを実行します。`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` 
+    > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable them for Enterprise Voice or assign Calling Plans in Office 365 to them. 「[Skype for Business と Microsoft Teams のライセンスを割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)」をご覧ください。 Windows PowerShell を使用することもできます。 For example, run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` 
   
 ## <a name="step-2---create-a-new-auto-attendant"></a>ステップ 2 - 新しい自動応答の作成
 
@@ -55,160 +54,160 @@ In the **Skype for Business admin center**, click **Call routing** > **Auto atte
 ![New auto attendant page 1.](../images/edacec94-9384-4a87-be0a-5c49a151287e.png)
   
 ***
-![番号 1](../images/sfbcallout1.png)<br/>**名**自動アテンダントのわかりやすい表示名を入力します。 名前の入力は必須で、空白を含む最大 64 文字を含めることができます。 この名前は [ **自動応答**] タブの [ **名前**] 列に表示されます。
+![Number 1](../images/sfbcallout1.png)<br/>**Name** Enter a descriptive display name for your auto attendant. 名前の入力は必須で、空白を含む最大 64 文字を含めることができます。 この名前は [ **自動応答**] タブの [ **名前**] 列に表示されます。
 ***
 
-![番号 2](../images/sfbcallout2.png)<br/>**電話番号**この設定は省略可能です。 必要な場合、自動応答の電話番号を選択します。 任意の利用可能なサービスの有料または無料電話番号が組織のあるを選択することができます。 電話番号が一覧表示されない場合は、サービスの有料またはフリーダイヤルの電話番号を取得する必要があります。 移動[ここで](getting-service-phone-numbers.md)それらを取得します。 <br/> <br/>
+![Number 2](../images/sfbcallout2.png)<br/>**Phone number** This setting is optional. If you like, select a phone number for your auto attendant. You can pick any available service toll or toll-free phone number that you have for your organization. 電話番号が一覧表示されない場合は、サービスの有料またはフリーダイヤルの電話番号を取得する必要があります。 Go [here](getting-service-phone-numbers.md) to get them. <br/> <br/>
 
     > [!Note]
     > **User (subscriber)** numbers can't be assigned to auto attendants.
 ***
-![番号 3](../images/sfbcallout3.png)<br/>**タイム ゾーン** 自動応答にはタイム ゾーンを設定する必要があります。ただし、組織のメイン アドレスのタイム ゾーンと一致している必要はありません。各自動応答には、異なるタイム ゾーンを設定できます。自動応答の営業時間の設定は、ここで選択したタイムゾーンに基づきます。
+![Number 3](../images/sfbcallout3.png)<br/>**タイム ゾーン** 自動応答にはタイム ゾーンを設定する必要があります。ただし、組織のメイン アドレスのタイム ゾーンと一致している必要はありません。各自動応答には、異なるタイム ゾーンを設定できます。自動応答の営業時間の設定は、ここで選択したタイムゾーンに基づきます。
 ***
-![14](../images/sfbcallout4.png)<br/>**言語**表示されている利用可能な言語のいずれかからの自動応答に使用する言語を選択します。 ここで設定した言語は、この自動の応答へのコールの人と対話する自動応答を使用し、この言語ですべてのシステム プロンプトが再生する言語です。
+![14](../images/sfbcallout4.png)<br/>**Language** Select the language that you want to use for your auto attendant from any of the available languages listed. The language you set here is the language that the auto attendant will use to interact with people that call in to this auto attendant, and all the system prompts will be played in this language.
 ***
-![番号 5](../images/sfbcallout5.png)<br/>**音声認識**音声認識機能し、このオプションが選択されているかどうか。 人を呼び出すには、設定した言語で音声入力を使用できます。 のみできるように、電話のキーパッドを使用する場合は、それをオフにして音声認識機能を無効にできます。
+![Number 5](../images/sfbcallout5.png)<br/>**Speech recognition** Speech recognition is available and if this option is selected. People that call in can use voice input in the language you set. You can disable speech recognition by clearing it if you want to only let people use their phone keypad.
 ***
-![番号 6](../images/sfbcallout6.png)<br/>**オペレーター** このオプションは省略可能で、自動応答で設定する必要はありません。 ただし、電話することを支援してくれる人に話をするメニューを解除することをする人の**オペレーター**のオプションを設定できます。 <br/> <br/> オペレーターには、キー 0 が自動的に割り当てられます。 <br/> <br/> 場合はこの設定をして、ユーザーに伝えることで、これは、使用可能なオプションの**編集] メニューのオプション**で、**営業時間の問い合わせ対応**のページを呼び出す人がも必要です。 自動応答でオペレーターを設定する場合は、**発信者が**ボックスに対応するプロンプト テキストを入力または、このオプションを指定するのには、オーディオのファイルを変更する必要があります。 "たとえば、演算子、0 を押します。" <br/><br/>  次の項目のいずれかをオペレーターとして設定できます。 
-*    エンタープライズ VoIP を有効にするか Office 365 のプランを呼び出すことを割り当てられている**電話システム**のライセンスは、**あなたの会社の人**です。 <br/>
+![Number 6](../images/sfbcallout6.png)<br/>**オペレーター** このオプションは省略可能で、自動応答で設定する必要はありません。 However, you can set the **Operator** option for people that call in to be able to break out of the menus to speak to a person to help them. <br/> <br/> オペレーターには、キー 0 が自動的に割り当てられます。 <br/> <br/> If you set this up, you will also need to tell people who call in that this is an available option in the **Edit menu options** on the **Business hours call handling** page. If you set an operator on your auto attendant, you will need to enter the corresponding prompt text in the **Callers will hear** box or change your audio file to include this option. For example, "For the Operator, press zero." <br/><br/>  次の項目のいずれかをオペレーターとして設定できます。 
+*    **Person in your company** with a **Phone System** license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. <br/>
 
         > [!Note] 
-        > オンライン ユーザーは、**社内のユーザー**またはユーザーには、設置がホストされているビジネス サーバー 2015 または Lync Server 2013 の Skype を使用します。 Lync Server 2010 の使用はサポートされていません。 <br/> 
+        > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. Lync Server 2010 isn't supported. <br/> 
 
 *    設定済みの **通話キュー**。 
-*    発信者がボイスメールに送られるように設定できます。 これを行うには、**あなたの会社の担当者**を選択し、ボイスメールに直接転送するのにはこのメンバーの呼び出しを設定します。 
+*    発信者がボイスメールに送られるように設定できます。 To do this, select **Person in your company** and set this person's calls to be forwarded directly to voicemail. 
    
 ### <a name="select-hours-of-operation-page"></a>営業時間の選択ページ
 
-既定では、営業時間内に設定されます、1 日、週 7 日 24 時間すべての時間は営業時間内と見なされるため。 営業時間に含まれない時間は営業時間外として考慮されます。 [**カスタム**] オプションを選択し、[会社の就業時間を設定して場合、**時間処理の呼び出し後**に呼び出される新しいページ追加されます、自動アテンダント業務時間終了後の処理の呼び出しを構成することができます。
+By default, business hours are set to 24 hours a day, 7 days a week, so all hours are considered business hours. 営業時間に含まれない時間は営業時間外として考慮されます。 If you select the **Custom** option and set your business hours, then a new page called **After hours call handling** will be added where you can configure the call handling for after business hours for the auto attendant.
   
 ![New auto attendant Hours of operation.](../images/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
 
 ***
-![番号 1](../images/sfbcallout1.png)<br/>カレンダーで特定の営業時間を選択するには、[ **カスタム**] オプションを選択します。[ **カスタム**] を選択すると、既定により、営業時間が月曜日から金曜日の午前 9:00 から午後 5:00 に設定されます。
+![Number 1](../images/sfbcallout1.png)<br/>カレンダーで特定の営業時間を選択するには、[ **カスタム**] オプションを選択します。[ **カスタム**] を選択すると、既定により、営業時間が月曜日から金曜日の午前 9:00 から午後 5:00 に設定されます。
 ***
-![番号 2](../images/sfbcallout2.png)<br/>営業時間を変更するには、勤務時間の予定表を使用して設定するを選択します。 予定表を使用すると、営業時間を選択して、30 分間隔でと、ここで選択した営業時間はに基づいて設定する [**全般情報]**ページで設定したタイム ゾーン。 休憩 (昼食休憩など) を設定するには、選択を解除または、予定表の時刻の選択を解除するのにはドラッグします。 営業時間内で複数の破断を設定できます。 
+![Number 2](../images/sfbcallout2.png)<br/>To change business hours, highlight the business hours you want to set using the calendar. The calendar allows you to select business hours in 30-minute intervals, and the business hours you select here will be set based on the time zone that you set on the **General info** page. To set up a break (a lunch break, for example), deselect or drag to deselect the time on the calendar. You can set multiple breaks within business hours. 
    
-### <a name="select-business-hours-call-handling-page"></a>[営業時間は、処理のページを呼び出す
+### <a name="select-business-hours-call-handling-page"></a>Select business hours call handling page
 
 > [!TIP]
 > カスタムの営業時間スケジュールを使用する場合は、営業時間外の通話処理を設定する必要があります。[ **営業時間外後の問い合わせ対応**] ページが追加されるので、そこでこのオプションを構成できます。このページには、[ **営業時間の問い合わせ対応**] と同じオプションが表示されます。 
   
-その人が勤務時間中に、組織の自動応答の電話番号への呼び出しが聞こえますごきげんよう、プロンプト、およびメニューを設定できます。
+You can set up greetings, prompts, and menus that people who call in to your organization's auto attendant phone number will hear during the business hours.
   
 ![Business hours call handling.](../images/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
   
 ***
-![番号 1](../images/sfbcallout1.png)<br/>**応答メッセージ** 営業時間の応答メッセージは省略可能で、[ **なし**] に設定できます。 この場合、発信者には選択したオプションによって通話が処理されるまでメッセージまたは応答メッセージは再生されません。 音声ファイル (.wav、mp3 または .wma 形式) をアップロードしたり、テキスト読み上げを使用してカスタムの応答メッセージを作成することもできます。
-*    **なし**自動アテンダントの電話番号への人を呼び出すには、あいさつ文は再生されません。
-*    **作成するカスタムの案内応答**このオプションを選択する場合は、(1000 文字以内) を読み取るシステムを設定するテキストを入力します。 などの入力があります"Contoso へようこそ。 お電話ありがとうございます。 **相手**ボックスします。
-*    **オーディオ ファイルをアップロード**これを選択する場合は、あいさつ文を記録し、オーディオ (.wav、.mp3 や .wma 形式) でファイルをアップロードしています。
+![Number 1](../images/sfbcallout1.png)<br/>**応答メッセージ** 営業時間の応答メッセージは省略可能で、[ **なし**] に設定できます。 この場合、発信者には選択したオプションによって通話が処理されるまでメッセージまたは応答メッセージは再生されません。 音声ファイル (.wav、mp3 または .wma 形式) をアップロードしたり、テキスト読み上げを使用してカスタムの応答メッセージを作成することもできます。
+*    **None** No greeting will be played when people call in to the auto attendant phone number.
+*    **Create a custom greeting** If you choose this option, enter the text you want the system to read (up to 1000 characters). For example, you might enter "Welcome to Contoso. お電話ありがとうございます。 in the **Callers will hear** box.
+*    **Upload an audio file** If you choose this, record the greeting and then upload your audio file (in a .wav, .mp3 or .wma format).
 ***
-![番号 2](../images/sfbcallout2.png)<br/>営業時間中に着信した呼び出しの動作を選択します。 次のオプションから選択できます。
-*    **切断**を選択する場合は、業務時間の案内応答を聞く後相手が切断されます。
-*    **呼び出しをリダイレクトします。**呼び出しを自動的に送信するために使用できます。
-     *    エンタープライズ VoIP を有効にするか Office 365 のプランを呼び出すことを割り当てられている**電話システム**のライセンスは、**あなたの会社の人**です。 発信中のユーザーがボイスメールに送信されるように設定できます。 これを行うには、**社内の担当者**を選択しの呼び出しは、ボイスメールに直接転送するには、このユーザーを設定します。 <br/><br/>   
+![Number 2](../images/sfbcallout2.png)<br/>You can select what happens to calls that arrive during business hours. You can chose from the following options:
+*    **Disconnect** If you select it, the person calling in will be disconnected after hearing a business hours greeting.
+*    **Redirect call** This can be used to automatically send the call to:
+     *    **Person in your company** with a **Phone System** license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. 発信中のユーザーがボイスメールに送信されるように設定できます。 To do this, select **Person in your company** and set this person to have their calls forwarded directly to voicemail. <br/><br/>   
         > [!Note]
-        > オンライン ユーザーは、**社内のユーザー**またはユーザーには、設置がホストされているビジネス サーバー 2015 または Lync Server 2013 の Skype を使用します。 Lync Server 2010 はサポートされていません。 <br/><br/>
+        > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. Lync Server 2010 is not supported. <br/><br/>
 
-     *    呼び出しキューを使用して**キューの呼び出し**は、呼び出しを設定する既存のキューに転送する呼び出しを許可します。
-     *    既存を使用する別**の自動応答**は自動アテンダントのサブメニューを含むメニューのオプションの 2 番目のレベルを作成します。 これらの入れ子になった自動応答と呼ばれます。
-*    **メニュー オプションのプロンプトを再生します。**これらは、再生するプロンプトを設定することにも使用できます。
+     *    A **Call Queue** Using a Call Queue allows the call to be transferred to an existing Call Queue that you have set up.
+     *    Another **Auto attendant** You can use an existing auto attendant to create a second level of menu options containing a submenu. These are called nested auto attendants.
+*    **Play menu options prompt** These can also be used to let you set up a prompt you want played.
 ***
-![番号 3](../images/sfbcallout3.png)<br/>**メニュー プロンプト** メイン メニュー プロンプトを作成するには、テキスト読み上げを使用するか、音声ファイル (.wav, .mp3 または .wma) をアップロードできます。[ **発信者にはこのように聞こえます**] ボックスにプロンプトを入力できます。また、たとえば「セールスの場合は 1 を押すか、1 と言ってください。サービスの場合は 2 を押すか、2 と言ってください。カスタマー サポートの場合は 3 を押すか、3 と言ってください。オペレーターの場合は 0 を押すか、0 と言ってください。このメニューをもう一度お聞きになりたい場合は、アスタリスク キーを押すか、リピートと言ってください。」という音声ファイルを録音できます。 **カスタム プロンプトを作成** このオプションを選択する場合は、システムが読み上げるテキスト (最大 1000 文字) を入力する必要があります。 **音声ファイルをアップロード** このオプションを選択する場合は、応答メッセージを録音して、音声ファイル (.wav, .mp3 または .wma 形式) をアップロードする必要があります。
+![Number 3](../images/sfbcallout3.png)<br/>**メニュー プロンプト** メイン メニュー プロンプトを作成するには、テキスト読み上げを使用するか、音声ファイル (.wav, .mp3 または .wma) をアップロードできます。[ **発信者にはこのように聞こえます**] ボックスにプロンプトを入力できます。また、たとえば「セールスの場合は 1 を押すか、1 と言ってください。サービスの場合は 2 を押すか、2 と言ってください。カスタマー サポートの場合は 3 を押すか、3 と言ってください。オペレーターの場合は 0 を押すか、0 と言ってください。このメニューをもう一度お聞きになりたい場合は、アスタリスク キーを押すか、リピートと言ってください。」という音声ファイルを録音できます。 **カスタム プロンプトを作成** このオプションを選択する場合は、システムが読み上げるテキスト (最大 1000 文字) を入力する必要があります。 **音声ファイルをアップロード** このオプションを選択する場合は、応答メッセージを録音して、音声ファイル (.wav, .mp3 または .wma 形式) をアップロードする必要があります。
 ***
-![番号 4](../images/sfbcallout4.png)<br/>**名前によるダイヤル**このオプションを選択する場合は、ディレクトリ検索を使用して、組織内の人を検索するに通話する相手を有効にするはこれ。 人が表示されます利用可能または利用できないとダイヤルの名前**スコープのダイヤル**のページでこれらのオプションを設定して、選択することができます。 オンライン、**電話システム**のライセンスを持つユーザーまたはすべてのユーザーに設置がホストされている名前でダイヤルを持つビジネス サーバー 2015 または Lync Server 2013 では、Skype を使用するを参照しています。<br/><br/>  **注意:**ユーザーには、設置がホストされている名前によるダイヤルの Lync 2010 に**到達できない**を使用します。
+![Number 4](../images/sfbcallout4.png)<br/>**Dial by name** If you choose this option, this will enable people who call in to search for people in your organization using Directory Search. You can select which people will be listed as available or not available for Dial by Name by setting up those options on the **Dial scope** page. Any online user with a **Phone System** license, or any user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013, can be found with Dial by Name.<br/><br/>  **Caution:** Users hosted on-premises using Lync 2010 **can't be reached** with Dial by Name.
 ***
 
-![番号 5](../images/sfbcallout5.png)<br/>**メニューのオプションを編集します。**メニュー オプションを追加またはキーパッドのキーのボタンを使用して削除できます。 メニュー オプションを追加するには、キーパッドの対応するキーを押します。 カラーで使用中のキーが変更され、以下のオプションに対応する行が表示されます。 メニュー オプションを削除するには、このキーの選択を解除するのにはキーパッド制御に対応するキーをクリックします。 キーのマッピング行が削除されます。<br/><br/>  **ヒント:**メニュー プロンプトのテキストを更新または再録音とは別に既存のメニューのプロンプトを自動的に行われませんので、オプションを削除するのに追加する場合する必要があります。  <br/><br/>  いずれかのメニュー オプションを追加し、任意の順序で削除し、キー ・ マッピングを継続する必要はありません。 たとえば、0、1、および 3 の 2 のキーが使用されていないときにオプションでは、マップのキーを持つメニューを作成します。<br/><br/> 
+![Number 5](../images/sfbcallout5.png)<br/>**Edit menu options** Menu options can be added or removed by using key buttons on the keypad. To add a menu option, press the corresponding key on the keypad. The keys in use will change in color and the corresponding row of options will appear below. To delete a menu option, simply click on the corresponding key on the keypad control to deselect this key. The key mapping row will be removed.<br/><br/>  **Tip:** You will have to update menu prompts text or re-record the audio separately when adding to removing options because it won't be automatically done for the existing menu prompt.  <br/><br/>  Any menu option can be added and removed in any order, and the key mappings don't have to be continuous. It is possible, for example, to create a menu with keys 0, 1, and 3 mapped to options, while the key 2 isn't used.<br/><br/> 
 
     > [!Note] 
     > The keys * (Repeat) and # (Back) are reserved by the system and can't be reassigned. If speech recognition is enabled, pressing * will correspond with "Repeat" and # will correspond with the "Back" voice commands. <br/><br/>
 
-キーを選択した後に] メニューの [オプション] を設定する必要があります。 
-- **オプションの名前を入力**最大 64 文字を入力でき、これと、「顧客サービス」または「操作土地とします」のように複数の単語を含めることができます。 音声認識が有効な場合、名前は自動的に認識され、相手呼び出しはか、3 を押して、「3」と答えることができる 3 をキーにマップされているオプションを選択する「顧客サービス」と答えるとします。 
-- 次の手順では、呼び出しのかどうか、対応するキーが押された、またはオプションを選択する音声認識機能を使用して送信する先を選択します。 呼び出しを送信できます。 
-    - **演算子**オペレーターが既に設定されて、キー 0 に自動的にマップされているもは、削除または別のキーを再割り当ています。 演算子は、任意のキーに設定されていない、し、音声指示コマンド「演算子」無効になります。 
-    - エンタープライズ VoIP を有効にするか Office 365 のプランを呼び出して、割り当てられている**電話システム**のライセンスの**会社の人**です。 発信中のユーザーがボイスメールに送信されるように設定できます。 これを行うには、**社内の担当者**を選択しの呼び出しは、ボイスメールに直接転送するには、このユーザーを設定します。<br/><br/> 
+To set up your menu options, after you select the key(s), you will need to: 
+- **Enter the Name of the option** This can be up to 64 characters long, and can contain multiple words like "Customer Service" or "Operations and Grounds." If speech recognition is enabled, the name will automatically be recognized, and the person calling in will be able to either press 3, say "three," or say "Customer Service" to select the option mapped to key 3. 
+- The next step is to select where the call is to be sent if the corresponding key is pressed, or the option is selected using speech recognition. The call can be sent to: 
+    - **Operator** If operator is already set up, it is automatically mapped to key 0, but it can also be deleted or reassigned to a different key. If operator isn't set to any key, then the voice command "Operator" will be disabled too. 
+    - A **Person in your company** with a **Phone System** license that is enabled for Enterprise Voice or assigned an Calling Plan in Office 365. 発信中のユーザーがボイスメールに送信されるように設定できます。 To do this, select **Person in your company** and set this person to have their calls forwarded directly to voicemail.<br/><br/> 
     
         > [!Note] 
-        > オンライン ユーザーは、**社内のユーザー**またはユーザーには、設置がホストされているビジネス サーバー 2015 または Lync Server 2013 の Skype を使用します。 Lync Server 2010 はサポートされていません。 <br/><br/>
+        > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. Lync Server 2010 is not supported. <br/><br/>
 
-    - **キューを呼び出す**設定した既存の呼び出しキューに転送する呼び出しは、呼び出しキュー オプションを使用してできます。 
-    - **自動応答**既存の自動応答を使用すると、サブメニューを含むメニューのオプションの 2 番目のレベルを作成します。 これらの入れ子になった自動応答と呼ばれます。<br/><br/>
+    - **Call Queue** Using a call queue option allows the call to be transferred to an existing call queue that you have set up. 
+    - **Auto Attendant** You can use an existing auto attendant to create a second level of menu options containing a submenu. These are called nested auto attendants.<br/><br/>
     
         > [!Note]
-        > 入れ子になった (または第 2 レベル) の自動応答の**勤務時間**も使用されます、設定されている他の自動応答から送信された呼び出しを含みます。         
+        > The **Business Hours** of nested (or second-level) auto attendants will also be used, including for the calls sent from other auto attendants that have been set up.         
    
-### <a name="select-holidays-page"></a>休日ページを選択します。 
+### <a name="select-holidays-page"></a>Select holidays page 
 
-各自動応答には、最大 20 個のスケジュールされた祝日を追加できます。
+You can add up to 20 scheduled holidays to each auto attendant.
   
-![自動応答の祝日を設定します。](../images/50a5ce88-7f39-4210-808a-da7ced969854.png)
+![Setting up Holidays in auto attendant](../images/50a5ce88-7f39-4210-808a-da7ced969854.png)
   
 ***
-![番号 1](../images/sfbcallout1.png)<br/>**祝日を追加****休日名**」フィールドに、新しい休日の名前を入力します。<br/><br/> 祝祭日の名前は最大 64 文字で構成されている可能性があり、同じ自動応答ごとに一意である必要があります。 たとえば、同じ自動応答で「感謝祭」をという 2 つの休日を持つことはできません。  
+![Number 1](../images/sfbcallout1.png)<br/>**Add a holiday** Enter a name for your new holiday in the **Holiday name** field.<br/><br/> Holiday names may consist of up to 64 characters and must be unique for the same auto attendant. For example, you cannot have two holidays named "Thanksgiving" in the same auto attendant.  
 ***
-![番号 2](../images/sfbcallout2.png)<br/>**祝日の案内応答**祝日の案内応答はオプションであり、 **[なし]**に設定することができます。 この場合、発信者には選択したオプションによって通話が処理されるまでメッセージまたは応答メッセージは再生されません。 音声ファイル (.wav、mp3 または .wma 形式) をアップロードしたり、テキスト読み上げを使用してカスタムの応答メッセージを作成することもできます。
-*    **なし**自動アテンダントの電話番号への人を呼び出すには、あいさつ文は再生されません。
-*    **作成するカスタムの案内応答**このオプションを選択する場合は、(1000 文字以内) を読み取るシステムを設定するテキストを入力します。 Happy New Year"を入力するたとえば、! オフィスは現在閉じられています。」 **相手**ボックスします。
-*    **オーディオ ファイルをアップロード**これを選択する場合は、時候のあいさつを記録し、オーディオ (.wav、.mp3 や .wma 形式) でファイルをアップロードしています。  
+![Number 2](../images/sfbcallout2.png)<br/>**Holiday Greeting** The Holiday Greeting is optional and can be set to **None**. この場合、発信者には選択したオプションによって通話が処理されるまでメッセージまたは応答メッセージは再生されません。 音声ファイル (.wav、mp3 または .wma 形式) をアップロードしたり、テキスト読み上げを使用してカスタムの応答メッセージを作成することもできます。
+*    **None** No greeting will be played when people call in to the auto attendant phone number.
+*    **Create a custom greeting** If you choose this option, enter the text you want the system to read (up to 1000 characters). For example, you might enter "Happy New Year! Our offices are currently closed." in the **Callers will hear** box.
+*    **Upload an audio file** If you choose this, record the holiday greeting and then upload your audio file (in a .wav, .mp3 or .wma format).  
 ***
-![番号 3](../images/sfbcallout3.png)<br/>**あいさつ文の後の呼び出しに動作しますか。** このホリデー シーズン中に着信した呼び出しの動作を選択します。 次のオプションから選択できます。
-*    **切断**時候のあいさつが聞こえてから、相手呼び出しが切断されます。
-*    **呼び出しをリダイレクトします。**呼び出しを自動的に送信するために使用できます。
-     *    エンタープライズ VoIP を有効にするか Office 365 のプランを呼び出すことを割り当てられている**電話システム**のライセンスの**会社の人**です。 発信中のユーザーがボイスメールに送信されるように設定できます。 これを行うには、**あなたの会社の人**を選択し、この人を通話をボイスメールに直接転送します。 <br/><br/> 
+![Number 3](../images/sfbcallout3.png)<br/>**What happens to the calls after the greeting?** You can select what happens to the calls that arrive during this holiday. You can chose from the following options:
+*    **Disconnect** The person calling in will be disconnected after hearing the holiday greeting.
+*    **Redirect call** This can be used to automatically send the call to:
+     *    A **Person in your company** with a **Phone System** license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. 発信中のユーザーがボイスメールに送信されるように設定できます。 To do this, select **Person in your company**, and set this person to have their calls forwarded directly to voicemail. <br/><br/> 
      
          > [!Note] 
-         > オンライン ユーザーは、**社内のユーザー**またはユーザーには、設置がホストされているビジネス サーバー 2015 または Lync Server 2013 の Skype を使用します。 Lync Server 2010 はサポートされていません。<br/><br/>
+         > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. Lync Server 2010 is not supported.<br/><br/>
 
-     *    呼び出し設定する既存のキューに通話を転送する**キューの呼び出し**です。
-     *    別**の自動応答**、2 番目のレベルのサブメニューを含むメニュー オプションを作成します。 これらの入れ子になった自動応答と呼ばれます。 <br/><br/>
+     *    A **Call Queue** to transfer the call to an existing Call Queue that you have set up.
+     *    Another **Auto attendant**, to create a second level of menu options containing a submenu. These are called nested auto attendants. <br/><br/>
      
          > [!Note]
-         > 既定では、休日期間中に到着したすべての呼び出しを設定するとは異なる動作が必要な場合は、リダイレクトを指定する必要がありますので、あいさつ文 (該当する場合) 後に、切断します。
+         > By default, all calls arriving during a holiday period are set to disconnect after the greeting (if any), so you must specify a redirect if a different behavior is desired.
 
 ***
-![番号 4](../images/sfbcallout4.png)<br/>**休日を開始および終了をしますか。** Dd/mm/日の形式で、祝日の開始日を入力し、日付の範囲テーブルに表示されるので、開始時刻、終了日、および終了時刻を選択します。<br/><br/>休日の最大 10 個までの異なる日付範囲を指定できます。 たとえば、最大で 10 年間のクリスマスの休日の日付の範囲を追加できます。 休業日は、複数日にまたがることができます。<br/><br/>追加するには、休日の日付の範囲 (たとえば、次年度)**を追加**する] をクリックし、開始日と終了日、ホリデー シーズン用の新しいセットを入力します。<br/><br/>入れ子になった休日もサポートします。 たとえば、1 つの「休日ブレーク」のタイム フレーム内で複数の休日を入れ子にする可能性があります。 
-*    **1 月 3 日から 12 月 24日:**「楽しい休日を! オフィスは現在閉じられています。 私たちが再び表示 1 月 4 日。」
-*    **12 月 25 日:**"メリー クリスマス! オフィスは現在閉じられています。 私たちが再び表示 1 月 4 日。」
-*    **1 月 1 日:**"Happy New Year! オフィスは現在閉じられています。 私たちが再び表示 1 月 4 日。」
+![Number 4](../images/sfbcallout4.png)<br/>**When do you want the holiday to start and end?** Enter your holiday start date in dd/mm/yyyy format, and then select a start time, end date, and end time, as prompted in the date range table.<br/><br/>You can specify up to 10 different date ranges for a holiday. For example, you could add date ranges for New Year's Eve holidays for up to 10 years. A holiday can span multiple days.<br/><br/>To add additional holiday date ranges (for example, for the next year), click **Add another**, and then enter a new set of start and end dates for the holiday.<br/><br/>Nested holidays are also supported. For example, you could nest multiple holidays within one "holiday break" time frame: 
+*    **December 24 through January 3:** "Happy Holidays! Our offices are currently closed. We will reopen on January 4th."
+*    **December 25:** "Merry Christmas! Our offices are currently closed. We will reopen on January 4th."
+*    **January 1:** "Happy New Year! Our offices are currently closed. We will reopen on January 4th."
    
-自動応答を保存した後、[**休日**] タブの編集、追加、または祝日の設定を変更をする、祝日が表示されます。
+After you save your auto attendant, your holidays appear on the **Holidays** tab, where you can edit, add, or modify holiday settings.
   
 ### <a name="select-dial-scope-page"></a>ダイヤルの範囲を選択ページ
 
-このページには、組織内のどのユーザーになりますディレクトリに一覧表示されているとダイヤルの利用可能な場合で組織を呼び出す人の名前でを設定することができます。
+On this page, you can set up which users in your organization will be listed in your directory and available for Dial by Name when a person that calls in to your organization.
   
 ![Dial scope for searching with dial by name.](../images/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
   
 ***
-![番号 1](../images/sfbcallout1.png)<br/>[ **含める**] オプションには次の 2 つのオプションがあります。
-*    **すべての Online ユーザー** このオプションを使用すると、組織のすべてのユーザーがディレクトリ検索に含められます。 ユーザーだけでなく、**電話システム**のライセンスを持つすべてのオンライン ユーザーには、設置がホストされているビジネス サーバー 2015 または、Office 365 のプランを呼び出すことを持っている Lync Server 2013 の Skype を使用して一覧表示されます。 
-*    **カスタム**このオプションを使用して、Office 365 のグループ、配布リスト、または組織内で作成されたセキュリティ グループを検索することができます、人がこの Office 365 のグループ、配布リスト、またはいずれかの**は、ユーザー セキュリティ グループにでオンラインのユーザーを追加する場合、電話システムのライセンス**またはオンプレミスでホストされているビジネス サーバー 2015 または Lync Server 2013 の Skype を使用しています。 複数の Office 365 のグループ、配布リスト、およびセキュリティ グループを追加することができます。 <br/><br/> 
+![Number 1](../images/sfbcallout1.png)<br/>[ **含める**] オプションには次の 2 つのオプションがあります。
+*    **すべての Online ユーザー** このオプションを使用すると、組織のすべてのユーザーがディレクトリ検索に含められます。 All Online users with a **Phone System** license, as well as users hosted on-premises using Skype for Business Server 2015 or Lync Server 2013 who have Calling Plans in Office 365, will be listed. 
+*    **Custom** If you use this option, you can search for an Office 365 Group, distribution list, or security group that has been created in your organization, and the people added to this Office 365 Group, distribution list, or security group who are either **Online users with a Phone System license** or hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. You can add multiple Office 365 Groups, distribution lists, and security groups. <br/><br/> 
 
     > [!Caution]
-    > オンプレミス ユーザーが Lync Server 2010 の展開は、名前が他のダイヤルを使用してディレクトリを検索すると表示されません。 
+    > On-premises users from deployments of Lync Server 2010 won't be listed when someone searches the directory using Dial by Name. 
 ***
-![番号 2](../images/sfbcallout2.png)<br/>**除外**オプションを使用すると、2 つのオプションがあります。
+![Number 2](../images/sfbcallout2.png)<br/>Using the **Exclude** option, you have two options:
 *    **なし** このオプションを使用すると、いずれの Online ユーザーもディレクトリ検索から除外しません。 
-*    **カスタム**このオプションを使用する場合、Office 365 のグループ、配布リスト、または組織内で作成されたセキュリティ グループを検索することができますおよびすべてのユーザーが Office 365、そのグループに配布リストを追加またはセキュリティ グループは、ディレクトリ検索から除外されます。 複数の Office 365 のグループ、配布リスト、およびセキュリティ グループを追加することができます。 <br/><br/> 
+*    **Custom** If you use this option, you can search for an Office 365 Group, distribution list, or security group that has been created in your organization, and all people added to this Office 365 Group, distribution list, or security groups will be excluded from directory search. You can add multiple Office 365 Groups, distribution lists, and security groups. <br/><br/> 
 
     > [!Caution]
-    > オンプレミス ユーザーが Lync Server 2010 の展開は、名前が他のダイヤルを使用してディレクトリを検索すると表示されません。          
+    > On-premises users from deployments of Lync Server 2010 won't be listed when someone searches the directory using Dial by Name.          
    
 > [!NOTE]
-> ディレクトリに一覧表示、ダイヤルを使用するときに名前で音声認識でその名前を持つ新しいユーザーには、最大で 36 時間がかかる場合があります。 
+> It might take up to 36 hours for a new user to have their name listed in the directory when someone uses Dial by Name with speech recognition. 
   
-すべての必須フィールドに入力して、メニューとオプションを処理する呼び出しを設定して後、は、**保存**をクリックします。
+After you enter all the required fields and set up call handling menus and options, click **Save**.
   
-## <a name="editing-and-testing-auto-attendants"></a>編集と自動応答をテストします。
+## <a name="editing-and-testing-auto-attendants"></a>Editing and testing auto attendants
 
-自動応答を保存すると、[ **自動応答**] ページに表示されます。 これによって、迅速にいくつかのオプションを設定するなどの名前、電話番号、言語、およびステータスを参照してください。
+自動応答を保存すると、[ **自動応答**] ページに表示されます。 This will allow you to quickly see some of the options that you have set up, including the name, phone number, language, and status.
   
-自動応答を変更する場合は、自動応答を選択し、操作ウィンドウの [**編集**] をクリックします。
+If you want to make changes to an auto attendant, select the auto attendant, and then in the Action pane click **Edit**.
   
-アクション ペインで、[**テスト**] ボタンを使用して、自動アテンダントをテストの呼び出しも簡単に配置できます。
+You can also quickly place a test call to your auto attendant by using the **Test** button in the Action pane.
   
 ## <a name="want-to-know-more"></a>詳細情報
 
@@ -220,16 +219,16 @@ Windows PowerShell を使用して自動応答を作成し、設定すること�
   
 ||| 
 |---|---|
-[新しい-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796493.aspx)                                                                      | [新しい-CsOrganizationalAutoAttendantPrompt](https://technet.microsoft.com/library/mt796484.aspx)                                                              |
-| [セット CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796486.aspx)                                                                      | [新しい-CsOrganizationalAutoAttendantMenuOption](https://technet.microsoft.com/library/mt796485.aspx)                                                           |
-| [Get CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796482.aspx)                                                                      | [Get CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csorganizationalautoattendantholidays?view=skype-ps)       |
-| [削除 CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796492.aspx)                                                                   | [新しい-CsOrganizationalAutoAttendantMenu](https://technet.microsoft.com/library/mt796488.aspx)                                                                  |
-| [New- CsOnlineAudioFile](https://technet.microsoft.com/library/mt796479.aspx)                                                                                 | [新しい-CsOrganizationalAutoAttendantCallFlow](https://technet.microsoft.com/library/mt796489.aspx)                                                              |
-| [エクスポート CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps) | [新しい-CsOnlineTimeRange](https://technet.microsoft.com/library/mt796491.aspx)                                                                                  |
-| [新しい-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)                                       | [新しい-CsOnlineSchedule](https://technet.microsoft.com/library/mt796490.aspx)                                                                                   |
-| [Get CsOrganizationalAutoAttendantSupportedTimeZone](https://technet.microsoft.com/library/mt796483.aspx)                                                     | [新しい-CsOrganizationalAutoAttendantCallHandlingAssociation](https://technet.microsoft.com/library/mt796487.aspx)                                               |
-| [Get CsOrganizationalAutoAttendantSupportedLanguage](https://technet.microsoft.com/library/mt796481.aspx)                                                     | [インポート-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csorganizationalautoattendantholidays?view=skype-ps) |
-| [新しい-CsOrganizationalAutoAttendantCallableEntity](https://technet.microsoft.com/library/mt796480.aspx)                                                      |  |   |
+[New-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796493.aspx)                                                                      | [New-CsOrganizationalAutoAttendantPrompt](https://technet.microsoft.com/library/mt796484.aspx)                                                              |
+| [Set-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796486.aspx)                                                                      | [New-CsOrganizationalAutoAttendantMenuOption](https://technet.microsoft.com/library/mt796485.aspx)                                                           |
+| [Get-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796482.aspx)                                                                      | [Get-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csorganizationalautoattendantholidays?view=skype-ps)       |
+| [Remove-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796492.aspx)                                                                   | [New-CsOrganizationalAutoAttendantMenu](https://technet.microsoft.com/library/mt796488.aspx)                                                                  |
+| [New- CsOnlineAudioFile](https://technet.microsoft.com/library/mt796479.aspx)                                                                                 | [New-CsOrganizationalAutoAttendantCallFlow](https://technet.microsoft.com/library/mt796489.aspx)                                                              |
+| [Export-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps) | [New-CsOnlineTimeRange](https://technet.microsoft.com/library/mt796491.aspx)                                                                                  |
+| [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)                                       | [New-CsOnlineSchedule](https://technet.microsoft.com/library/mt796490.aspx)                                                                                   |
+| [Get-CsOrganizationalAutoAttendantSupportedTimeZone](https://technet.microsoft.com/library/mt796483.aspx)                                                     | [New-CsOrganizationalAutoAttendantCallHandlingAssociation](https://technet.microsoft.com/library/mt796487.aspx)                                               |
+| [Get-CsOrganizationalAutoAttendantSupportedLanguage](https://technet.microsoft.com/library/mt796481.aspx)                                                     | [Import-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csorganizationalautoattendantholidays?view=skype-ps) |
+| [New-CsOrganizationalAutoAttendantCallableEntity](https://technet.microsoft.com/library/mt796480.aspx)                                                      |  |   |
    
 ### <a name="more-about-windows-powershell"></a>Windows PowerShell の詳細について
 

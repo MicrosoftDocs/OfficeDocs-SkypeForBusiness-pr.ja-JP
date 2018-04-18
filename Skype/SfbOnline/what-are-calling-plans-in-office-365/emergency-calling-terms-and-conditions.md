@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: ca2c751b-53ab-42c7-aed9-cfe27e662940
 ms.tgt.pltfrm: cloud
@@ -20,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '従来の電話サービスと緊急サービス (911) どのようにして呼び出しを実行する方法について説明します。 '
-ms.openlocfilehash: 5ba29f0020f17ecb3cd1e0b1abe39f27576a5657
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 5100b798b710242ccd68c1cdadd50bef09bef4ed
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>緊急通話の利用条件
 

@@ -1,10 +1,9 @@
 ---
-title: Availability in China
+title: 中国での可用性
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 30fde7fa-fb2b-4e73-8217-bdd41bd38567
 ms.tgt.pltfrm: cloud
@@ -21,25 +20,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Here are the Office 365 services for Skype for Business and Microsoft Teams available for China.
-ms.openlocfilehash: 25613ace9dd41e58c10027dac55cbb0e486e0d2d
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+description: 中国の利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
+ms.openlocfilehash: 0018725fbe10c3e3bdb37540815b8c98ea1127e7
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="availability-in-china"></a>Availability in China
+# <a name="availability-in-china"></a>中国での可用性
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
-Here are the Office 365 services for Skype for Business and Microsoft Teams available for China.
+中国の利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |なし  <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> |Yes, for Beijing. 専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)」をご覧ください。  <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> |北京の場合は、はい。 専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)」をご覧ください。  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用可能  <br/> |
    
 ## <a name="phone-system"></a>電話システム

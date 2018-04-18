@@ -3,7 +3,7 @@ title: マイクロソフト チームの運用ガイド
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -11,11 +11,11 @@ description: タスクとサービスの稼働状態を監視、評価、使用�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d64da9bbe792031afbb3538020b7ff92fbaf493
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: 4d9b76d62457c541924c6f72eb246bf63f1fe026
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="operate-my-service"></a>自分のサービスを実施します。
 
@@ -372,7 +372,7 @@ NPS の数値を底は便利ですが、ユーザーのコメントの分析か�
 品質のチャンピオンが既存のツールを活用し、呼び出し品質ダッシュ ボード (救難) と、品質が発生するレビュー ガイド、ユーザーの操作性を監視するなどのドキュメント化されたプロセスは、品質の傾向を識別し、ドライブの修復が必要な場所です。
 品質のチャンピオンには、修復操作をそれぞれのチームと運営委員会の進行状況と、未処理の懸案事項に関するレポートが動作します。
 
-[発生レビュー ガイドの品質](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)には、評価し、ユーザー エクスペリエンスの向上に大きな影響がある主な分野で改善策のガイダンスを提供する活動が含まれています。 品質のエクスペリエンス評価ガイドで提供されるガイダンスを報告し、オーディオを採用し、影響を最大化に重点を置いた各領域を調査する救難オンラインの主要なツールとしての使用方法の焦点を当てます。 すべてが最適化され、ネットワーク、オーディオ ・ エクスペリエンスを向上させるためには、ビデオ、およびデスクトップの共有の機能強化にも直接変換します。
+[発生レビュー ガイドの品質](https://aka.ms/qerguide)には、評価し、ユーザー エクスペリエンスの向上に大きな影響がある主な分野で改善策のガイダンスを提供する活動が含まれています。 品質のエクスペリエンス評価ガイドで提供されるガイダンスを報告し、オーディオを採用し、影響を最大化に重点を置いた各領域を調査する救難オンラインの主要なツールとしての使用方法の焦点を当てます。 すべてが最適化され、ネットワーク、オーディオ ・ エクスペリエンスを向上させるためには、ビデオ、およびデスクトップの共有の機能強化にも直接変換します。
 
 早い段階で品質の支持者を指名することを推奨します。 後、指定されている品質体験レビュー ガイドと関連付けられているトレーニング教材の内容を十分に理解する、開始する必要があります。
 
@@ -394,7 +394,7 @@ NPS の数値を底は便利ですが、ユーザーのコメントの分析か�
 
 [アップロードの構築について](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 
-[レビュー ガイドの経験の質](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)
+[レビュー ガイドの経験の質](https://aka.ms/qerguide)
 
 <!--ENDOFSECTION-->
 
@@ -443,7 +443,7 @@ Wi-fi ドライバーは、問題が発生する可能性があります。 た�
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | エンドポイントの要件    | チームのエンドポイントは引き続きチームは[マイクロソフトのチーム用のクライアントを取得する](https://docs.microsoft.com/microsoftteams/get-clients)ためのすべてのソフトウェア要件を満たしていることを確認します。                                                                                                                                                                                       | 毎月   |               |
 | エンドポイントのファイアウォール       | [Office 365 の Url と IP アドレスの範囲](https://aka.ms/o365ips)の資料の情報に基づいてエンドポイント ファイアウォール上で適切な除外リストを維持します。 サード パーティ ベンダーは、除外リストを維持する方法についての具体的なガイダンスがあります。 を購読[RSS フィード](https://support.office.com/en-us/o365ip/rss)の変更を自動的に通知します。 | 必要に応じて |               |
-| Wi-fi ドライバー            | テストし、PC の Wi-fi ドライバーを更新します。 救難 ([体験レビュー ガイドの品質](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/CloudVoice-working/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)) を使用して結果を検証します。                                                                                                                                                                                                                                                                   | 必要に応じて |               |
+| Wi-fi ドライバー            | テストし、PC の Wi-fi ドライバーを更新します。 救難 ([体験レビュー ガイドの品質](https://aka.ms/qerguide)) を使用して結果を検証します。                                                                                                                                                                                                                                                                   | 必要に応じて |               |
 | エンドポイントの管理      | サポートされているエンドポイントとインタ フェース デバイス (ヘッドセット) のカタログを維持します。 ベンダーとの契約、保証、配布、交換、管理し、ポリシーを修復します。                                                                                                                                                                                                        | 毎月   |               |
 | エンドポイントのトラブルシューティング | トラブルシューティングのタスクを含めることができます。既知の問題リスト、ログの収集、分析、およびマイクロソフトのサポートまたはサード ・ パーティ ・ ベンダーへのエスカレーションをコンサルティング、接続を確認しています。                                                                                                                                                                                               | 必要に応じて |               |
 
@@ -564,6 +564,6 @@ Tolled のダイヤルイン会議および国内のダイヤルアウト会議�
 
 品質のエクスペリエンス評価ガイドで提供されるガイダンスを報告し、説明したとおりで、オーディオを採用し、影響を最大化に重点を置いた各領域を調査する主要なツールとして呼び出す品質ダッシュ ボード (救難) オンラインを使用して重点的に説明します。 すべてが最適化され、ネットワーク、オーディオ ・ エクスペリエンスを向上させるためには、ビデオ、およびデスクトップの共有の機能強化にも直接変換します。
 
-早い段階で品質の支持者を指名するを強くお勧めします。 後、指定されている[品質体験レビュー ガイド](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)の内容に慣れるために、開始する必要があります。
+早い段階で品質の支持者を指名するを強くお勧めします。 後、指定されている[品質体験レビュー ガイド](https://aka.ms/qerguide)の内容に慣れるために、開始する必要があります。
 
 <!--ENDOFSECTION-->

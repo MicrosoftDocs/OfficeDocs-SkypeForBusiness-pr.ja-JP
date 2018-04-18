@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: c4e54d00-e096-474c-a457-56e785439ff6
 ms.tgt.pltfrm: cloud
@@ -21,11 +20,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。
-ms.openlocfilehash: 0da05c5cdcc3c0c28d92d44d7433ec1a1abcabce
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: eca7d50bdc33c12f6cea11f1d37e054516891aae
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="why-has-number-activation-failed"></a>番号のライセンス認証が失敗しました
 住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 場合は何らかの理由により、電話番号はアドレスの検証のためにアクティブには、サービス リクエストを作成する必要があります。 これをどのように行うかは、所属する組織のサイズに基づきます。

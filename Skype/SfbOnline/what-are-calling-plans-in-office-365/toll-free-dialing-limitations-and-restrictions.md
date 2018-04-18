@@ -1,10 +1,9 @@
 ---
-title: フリー ダイヤルの制限事項と制限事項
+title: Toll-free dialing limitations and restrictions
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 6b8d5ddb-59c1-4ee7-b171-18e5ace2dcd6
 ms.tgt.pltfrm: cloud
@@ -21,20 +20,20 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されます無料電話番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: 9ece5f4cf978b00cc782d936251d013c4cf43f8c
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+description: This will help you find out how to dial toll free numbers in each country/region. After you select the country/region, it will take you to a country-specific page that contains specific details, restrictions, and limits for toll-free service availability where toll-free service is available. The dialing format or formats will show you the required access codes within each country/region to dial the toll-free number.
+ms.openlocfilehash: b683c5e09beef434111379d108b3d09b1ba684a9
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="toll-free-dialing-limitations-and-restrictions"></a>フリー ダイヤルの制限事項と制限事項
+# <a name="toll-free-dialing-limitations-and-restrictions"></a>Toll-free dialing limitations and restrictions
 
-これからは、国または地域ごとに有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる、有料無料のサービスがある特定の詳細情報、制限、および制限を含むを含むページにします。 ダイヤル形式または書式が表示されます無料電話番号をダイヤルする国または地域内で必要なアクセス コード。
+This will help you find out how to dial toll free numbers in each country or region. After you select the country/region, it will take you to a page that contains where toll free service is available including specific details, restrictions, and limits. The dialing format or formats will show you the required access codes within each country/region to dial the toll-free number.
   
-準備ができた場合は、国または地域を選択します。
+If you're ready, select a country or region:
   
-## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a>国または地域、ダイヤル コード、および制限事項および制限を表示するを選択します。
+## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a>Select your country or region to see the dialing codes, limitations and restrictions.
 
 > [!div class="op_single_selector"]    
 > - [アルゼンチン](../toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
@@ -46,8 +45,8 @@ ms.lasthandoff: 04/03/2018
 > - [ブルネイ](../toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md)
 > - [ブルガリア](../toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md)
 > - [チリ](../toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md)
-> - [中国 (北)](../toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md)
-> - [中国 (南)](../toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md)
+> - [China (North)](../toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md)
+> - [China (South)](../toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md)
 > - [コロンビア](../toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia.md)
 > - [クロアチア](../toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md)
 > - [キプロス](../toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus.md)
@@ -99,20 +98,20 @@ ms.lasthandoff: 04/03/2018
 > - [ベネズエラ](../toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
 > - [ベトナム](../toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
   
-## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>有料の空き番号は忘れないようにするための重要な事項を以下に示します。
+## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>Here are some important things for you to remember about toll free numbers:
 
-- **有料無料の番号は、それぞれの国や地域内でのみ動作します。** たとえば、ユーザーはオーストラリアの外からオーストラリアの無料電話番号を発信することはできません。
+- **Toll free numbers only operate within each country/region.** たとえば、ユーザーはオーストラリアの外からオーストラリアの無料電話番号を発信することはできません。
     
-- **取得またはユニバーサル国際フリー ダイヤル番号 (UIFN) を移植するがサポートされていません。**
+- **Acquiring or porting Universal International Freephone Numbers (UIFN) isn't supported.**
     
-- **多くの国/地域、国または地域で調整器/電気通信局各無料電話番号の数を保持するために、少なくとも 100 分の 1 か月あたりの使用率を維持するために必要があります。**
+- **In many countries/regions, the regulator/telecommunication agency in the country/region requires each toll free phone number to maintain at least 100 minutes of usage per month in order to retain the number.**
     
     > [!NOTE]
     > 無料電話番号を取得して、その番号の使用時間がこれらの最低要件を満たさない場合、Microsoft は規制機関または通信局の指示に従って、お客様に対して当該番号の返還を要求する場合があります。 
   
-- **有線、固定回線、およびフリー ダイヤル番号へのモバイル ネットワークのアクセスを完全にまたは部分的に制限されている可能性があります。** ダイヤル形式では、フリー ダイヤル番号を使用して電話をかける国または地域内で必要なアクセス コードについて説明します。
+- **Wireline, fixed line, and mobile network access to toll-free numbers may be fully or partially restricted.** The dialing format describes the required access codes within each country/region to place calls using the toll free number.
     
-- **北アメリカの番号付けプランには、空き番号が有料電話番号:**有料の空き番号を番号付けプラン] (北アメリカ) の 1 分あたりの単価は、元の国によって決定されます。 「北米」として定義されている 1 秒間にアメリカ合衆国のマップから発信された通話の有料無料 1 分あたりの単価 ただし、カナダ、プエルトリコなど北米以外の国から発信された呼び出しでは、特定の有料無料のレートがあります。
+- **North America Numbering Plan Toll Free Numbers:** Per-minute rates for North America Numbering Plan toll free numbers are determined by the originating country. The toll free per-minute rate for calls that originate from the United States map to the rate defined as "North America." However, calls that originate from other North American countries such as Canada, Puerto Rico, etc. have specific toll free rates.
 
 > [!NOTE]
 > 無料電話番号

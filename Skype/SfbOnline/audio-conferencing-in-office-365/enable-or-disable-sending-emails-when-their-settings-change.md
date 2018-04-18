@@ -1,10 +1,9 @@
 ---
-title: Enable or disable sending emails when their settings change
+title: 有効にするかの設定を変更すると、送信メールを無効にします。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 26ea19d3-e420-4fc1-baa3-2692d17e5e1d
 ms.tgt.pltfrm: cloud
@@ -21,90 +20,90 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: 4138ed08ef05cc1947131dab22d5470e52eda6c5
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+description: '有効にするか、暗証番号 (pin) の変更など、既定の会議の設定番号を変更するときに、ユーザーに e メールを送信することから、Skype を無効にする方法を説明します。 '
+ms.openlocfilehash: 9db213285a24ad0a67d305a84f275f21ce741013
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change"></a>Enable or disable sending emails when Audio Conferencing settings change
+# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change"></a>有効にするか、オーディオ会議の設定を変更すると、送信メールを無効にします。
 
-Users are automatically notified by email when they are enabled for Audio Conferencing. There may be times, however, when you want to reduce the number of emails that are sent to Skype for Business and Microsoft Teams user. In such cases, you can disable sending email.
+ユーザーは、電話会議が有効になっているときに自動的に電子メールで通知されます。 ただし、Skype のビジネスおよびマイクロソフトのチームのユーザーに送信される電子メールの数を削減したい場合があります。 このような場合は、電子メールの送信を無効にできます。
   
-If you disable sending emails, Audio Conferencing emails won't be sent to your users, including emails for when users are enabled or disabled for audio conferencing, when their PIN is reset, and when the conference ID and the default conferencing phone number changes.
+オーディオ会議の電子メールをユーザーが有効になっているか、オーディオ会議は、会議 ID と既定の会議の電話番号の変更と、PIN をリセットすると無効にすると、電子メールを含む、ユーザーに送信されません送信メールを無効にした場合.
   
-Here is an example of the email that is sent to users when they are enabled for Audio Conferencing:
+電話会議が有効になっているときに、ユーザーに送信されるメールの例を以下に示します。
   
-![Audio Conferencing email](../images/audio-conferencing-user-enabled.png)
+![オーディオ会議の電子メール](../images/audio-conferencing-user-enabled.png)
   
-## <a name="when-are-emails-being-sent-to-your-users"></a>When are emails being sent to your users?
+## <a name="when-are-emails-being-sent-to-your-users"></a>メール ユーザーに送信するのでしょうか。
 
-- There are several emails that are sent to users in your organization after they are enabled for audio conferencing:
+- 送信される、組織内のユーザーを有効にした後には、オーディオ会議のいくつかの電子メールがあります。
     
-  - When an **Audio Conferencing** license is assigned to them.
+  - ときに、**オーディオ会議**のライセンスが割り当てられます。
     
-  - When you manually reset the user's audio conferencing PIN.
+  - リセットすると手動で電話会議のユーザーの暗証番号 (pin) です。
     
   - ユーザーの会議 ID を手動でリセットした場合。
     
-  - When the **Audio Conferencing** license is removed from them.
+  - **電話会議**のライセンスは、それらから削除されます。
     
-  - When the audio conferencing provider of a user is changed from Microsoft to another provider or **None**.
+  - オーディオ会議プロバイダーのユーザーの変更されたとき Microsoft から別のプロバイダーまたは**[なし]**にします。
     
-  - When the audio conferencing provider of a user is changed to Microsoft.
+  - マイクロソフトにユーザーの電話会議プロバイダーが変更されたとき。
     
-## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Enable or disable email from being sent to users
+## <a name="enable-or-disable-email-from-being-sent-to-users"></a>有効にするか、ユーザーに送信される電子メールを無効にします。
 
-You can use Microsoft Teams, the Skype for Business admin center, or Windows PowerShell to enable or disable email sent to users.
+有効にするか、ユーザーに送信される電子メールを無効にするのには、マイクロソフトのチーム、ビジネス管理センターでは、Skype または Windows PowerShell を使用できます。
 
-**Using the Microsoft Teams and Skype for Business Admin Center**
-1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
+**ビジネス管理センターは、マイクロソフトのチームと Skype を使用してください。**
+1. 左側のナビゲーションでは、**会議**に移動 > **会議ブリッジ**です。 
 
-2. At the top of the **Conference Bridges** page, click **Bridge Settings**. 
+2. **会議ブリッジ**のページの上部には、**ブリッジの設定**をクリックします。 
 
-3. In the **Bridge settings** pane, enable or disable **Automatically send emails to users if their dial-in settings change**.
+3. **ブリッジの設定**ウィンドウで、有効または、**ユーザーのダイヤルインの設定を変更する場合に e メールを自動的に送信**を無効にします。
 
 4. [**適用**] をクリックします。
   
 ****職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-1. In the **Skype for Business admin center**, in the left navigation, click **Audio conferencing**.
+1. **Skype**ビジネス管理センターは、左側のナビゲーションでは、[**電話会議**] をクリックします。
     
 2. 電話会議の設定を使用してユーザーにメールを送信することもできます。これには、ユーザーの電話会議プロパティに移動して、[ **電話会議情報をメールで送信**] をクリックします。
     
 3. 電話会議の設定を使用してユーザーにメールを送信することもできます。
     
     > [!TIP]
-    > You can also send email to a user with the audio conferencing settings by going to **Audio conferencing** > **Users**, selecting the user, and clicking **Send conference info via email**.  If you do this, an email will be sent that only includes conference ID and conference phone number, but not the PIN.  See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md) for more information.
+    > 送信することも電子メール ユーザーに電話会議の設定を使用して**オーディオ会議**に > の**ユーザー**ユーザーを選択し、**電子メールを使用して会議情報を送信**] をクリックします。  これを行うには、会議 ID と電話会議の番号がない、暗証番号 (pin) のみを含む電子メールが送信されます。  詳細については[、オーディオ会議の情報を持つユーザーに電子メールを送信する](send-an-email-to-a-user-with-their-dial-in-information.md)を参照してください。
   
 The conference ID and default dial-in conferencing phone number is included on the meeting invite but not the PIN.
   
-- Run the following to disable sending emails: 
+- 送信メールを無効にするのには、次を実行します。 
     
   ```
   Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
   ```
 
-    For help with this cmdlet, see [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757).
+    このコマンドレットのヘルプを表示するには、[一連の CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757)を参照してください。
     
 ## <a name="what-else-should-you-know"></a>その他の情報
 
-- When automatic emails are disabled, you can still manually trigger sending an email with the conference ID and phone number using the Skype for Business admin center. However, if you do this, the PIN won't be included. If you want to reset the audio conferencing PIN and sending emails is disabled, you will need to send it to the user in another way.
+- 自動メールを無効にすると、ビジネス管理センターは、Skype を使用して会議の ID と電話番号と電子メールを送信するを手動でトリガーできます。 ただし、これを行うには、PIN に含めることはできません。 オーディオ会議の暗証番号 (pin) をリセットするし、電子メールの送信が無効になっている、別の方法でユーザーに送信する必要があります。
     
-- Sending email to your users can be disabled using the Skype for Business admin center or the Windows PowerShell.
+- ユーザーに電子メールを送信を無効にできます、Skype のビジネス管理センターまたは Windows PowerShell の使用します。
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Go to the Office 365 admin centerSkype for Business.
 
-- You can use these cmdlets to save time or automate this.
+- これらのコマンドレットを使用するには時間を保存するか、これを自動化します。
     
-  - [Get-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715760)
+  - [Get CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715760)
     
-  - [Remove-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715759)
+  - [削除 CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715759)
     
-  - [Get-CsOnlineDialinConferencingTenantConfiguration](https://go.microsoft.com/fwlink/?LinkId=715758)
+  - [Get CsOnlineDialinConferencingTenantConfiguration](https://go.microsoft.com/fwlink/?LinkId=715758)
     
-  - [Get-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715760)
+  - [Get CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715760)
     
 -  Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
     
@@ -125,7 +124,7 @@ The conference ID and default dial-in conferencing phone number is included on t
   
 ## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 
-[Emails sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change.md)
+[オーディオ会議設定を変更するときにユーザーに送信される電子メール](emails-sent-to-users-when-their-settings-change.md)
 
 [ユーザーに電話会議情報が含まれたメールを送信する](send-an-email-to-a-user-with-their-dial-in-information.md)
 

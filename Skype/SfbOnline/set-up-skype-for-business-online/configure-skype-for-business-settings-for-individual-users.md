@@ -3,7 +3,6 @@ title: 管理者の個々 のユーザー設定のビジネスの Skype の構�
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 77b26eac-8228-4161-ba9f-733b187bd836
 ms.tgt.pltfrm: cloud
@@ -21,11 +20,11 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: '個々 のユーザーについては、ビジネスの Skype を次のように変更する方法について: オーディオおよびビデオ会議、通話の記録との会議。 '
-ms.openlocfilehash: 8659434542696ccb37a0353cd491cc0d01f01e30
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 930960117a46639e86ed2d24c286a5270b21acb9
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>管理者: 個々 のユーザーについては、ビジネスの Skype を構成します。
 

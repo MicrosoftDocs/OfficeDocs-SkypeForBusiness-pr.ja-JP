@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 28cbf7d7-97f3-4a99-aa76-897022c14a24
 ms.tgt.pltfrm: cloud
@@ -22,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 次は、よく寄せられる質問について、ビジネスの Skype に電話番号を転送します。 回答を確認するには後のポートの順序を作成し、自分の電話番号を転送する準備ができます。 手順については、Office 365 に転送電話番号を参照してください。
-ms.openlocfilehash: ce62365c337d94c05c7ca1b3ff1703cb39086f97
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: f5f267fea1d06f1225773257df2be2d4312f837b
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>電話番号のよく寄せられる質問を転送します。
 

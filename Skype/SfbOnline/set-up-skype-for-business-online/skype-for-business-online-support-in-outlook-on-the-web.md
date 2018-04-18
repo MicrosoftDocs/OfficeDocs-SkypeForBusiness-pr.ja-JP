@@ -3,7 +3,6 @@ title: Outlook on the web での Skype for Business Online のサポート
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 305984ec-3da8-4509-bb2b-6643dcf2cb7d
 ms.tgt.pltfrm: cloud
@@ -17,11 +16,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Office 365 の Outlook on the web (Outlook Web App) では、ナビゲーション バーから基本的な Skype for Business Web クライアントを利用できます。 このクライアントの基本的なユーザーが使用できるオンラインの管理者が Office 365 組織の修飾の URL を構成していません。 ユーザーのアカウントは、オンライン、修飾の URL を持っていない限りが表示されます、経験、組織はホーム設置は、一部のユーザー アカウントを持っている場合でも。 ユーザー アカウント、オンプレミス (かどうかがある修飾の URL か) があるか、または Microsoft によって管理されるユーザーは、Lync の経験、Outlook web app で表示されます。
-ms.openlocfilehash: 4ba094640ddfb77e39640f6a610da150320dd867
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 03491bb0cb200cac8eecb0ae2282a7003a85f8dc
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="skype-for-business-online-support-in-outlook-on-the-web"></a>Outlook on the web での Skype for Business Online のサポート
 

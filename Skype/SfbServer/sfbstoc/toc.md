@@ -519,6 +519,7 @@
 ### [Skype Room Systems v2](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 #### [OMS](../manage/skype-room-systems-v2/oms.md)
 #### [XML 構成ファイル](../manage/skype-room-systems-v2/xml-config-file.md)
+#### [回復ツールを使用します。](../manage/skype-room-systems-v2/recovery-tool.md)
 ### [ユーザー アカウント](../manage/user-accounts/user-accounts.md)
 #### [プロパティをカスタマイズします。](../manage/user-accounts/customize-properties.md)
 ### [サービスを管理します。](../manage/manage-services.md)

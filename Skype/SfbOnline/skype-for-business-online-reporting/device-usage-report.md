@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, wlooney
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: b9019c36-034f-40c7-acb0-c2a0400b03c3
 ms.tgt.pltfrm: cloud
@@ -19,11 +18,11 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 新しい Office 365 のレポート ダッシュ ボードによって、組織で Office 365 製品間でのアクティビティの概要がわかります。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 やなどのデバイスの使用状況レポートをビジネス用の Skype を使用するには、Windows ベースのオペレーティング システムを含む、デバイスにモバイル デバイスをビジネス アプリケーションの Skype がインストールされ、IM および会議のためのそれを使用しています。 詳細については、Office 365 の管理センターでの活動レポートをご覧ください。
-ms.openlocfilehash: ce749a1439a0cab0edcc0bdd85b34ff0b462bad8
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: e03719fc48609ce490e311015927df9a426dbbcd
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="device-usage-report"></a>デバイスの使用状況レポート
 

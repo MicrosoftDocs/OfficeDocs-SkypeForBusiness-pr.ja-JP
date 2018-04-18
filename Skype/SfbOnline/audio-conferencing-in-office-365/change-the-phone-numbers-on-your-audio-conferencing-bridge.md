@@ -1,10 +1,9 @@
 ---
-title: "オーディオ会議ブリッジの電話番号を変更します。"
+title: オーディオ会議ブリッジの電話番号を変更します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 6403f6d1-c05a-44ab-a6e0-558000e246f4
 ms.tgt.pltfrm: cloud
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "電話会議ライセンスをご購入いただく場合、Microsoft はお客様の組織の電話会議ブリッジ をホストします。電話会議ブリッジではさまざまな場所からダイヤルイン電話番号を受け取るため、会議の開催者や参加者はそれらの番号を使用して電話で Skype for Business 会議または Microsoft Teams 会議に参加できます。"
-ms.openlocfilehash: 10e55f34ca6cdeaf90f00f6004a85c4a5fbbe1fe
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: 電話会議ライセンスをご購入いただく場合、Microsoft はお客様の組織の電話会議ブリッジ をホストします。電話会議ブリッジではさまざまな場所からダイヤルイン電話番号を受け取るため、会議の開催者や参加者はそれらの番号を使用して電話で Skype for Business 会議または Microsoft Teams 会議に参加できます。
+ms.openlocfilehash: cb38da52bd2c67a66e354b21712b8cc0d986796c
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>オーディオ会議ブリッジの電話番号を変更します。
 
