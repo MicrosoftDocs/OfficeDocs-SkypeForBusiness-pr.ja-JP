@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 2ea29f57-e728-4451-ba3a-3fadea90fbf1
 ms.tgt.pltfrm: cloud
@@ -20,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: 4fe5866c761600693143a652db2d84c9db8e0d48
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: d32fd612d9170378c3806bffe0cfe5c5914035ec
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="toll-free-dialing-restrictions-in-taiwan"></a>台湾のフリー ダイヤルの制限
 

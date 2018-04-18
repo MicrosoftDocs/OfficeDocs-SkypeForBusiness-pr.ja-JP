@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 087ecda8-29ed-4246-a318-d9d23336a19f
 ms.tgt.pltfrm: cloud
@@ -20,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: 4684f6989f9dd585dfe7c65a062b6e40b0f3edfe
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: f8b980be44c77bde52ebf995b6e3970ceab7dbe5
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="toll-free-dialing-restrictions-in-belize"></a>ベリーズでのフリー ダイヤルの制限
 
