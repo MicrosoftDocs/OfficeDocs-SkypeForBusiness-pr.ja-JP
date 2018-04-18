@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 11cadb26-534d-41db-af6b-1f648edfd907
 ms.tgt.pltfrm: cloud
@@ -22,71 +21,71 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn to add, change, or remove an emergency location used by  Skype for Business on Public Switched Telephone Networks (PSTN) for your organization. '
-ms.openlocfilehash: ade701fffc4281110bc3e639ed0c291e27d1e846
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 66c740c636d3b08025d2cfa5d12a939d3de0fceb
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a><span data-ttu-id="bc442-103">組織の緊急対応の場所を追加、変更、削除する</span><span class="sxs-lookup"><span data-stu-id="bc442-103">Add, change, or remove an emergency location for your organization</span></span>
+# <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a><span data-ttu-id="cfe5b-103">組織の緊急対応の場所を追加、変更、削除する</span><span class="sxs-lookup"><span data-stu-id="cfe5b-103">Add, change, or remove an emergency location for your organization</span></span>
 
-<span data-ttu-id="bc442-104">数に応じて、組織内の物理的な場所、建物、フロア、およびより詳細な緊急時のアドレスを作成するオフィスの緊急の場所を作成できます。</span><span class="sxs-lookup"><span data-stu-id="bc442-104">Depending on the number of physical locations in your organization, you can create emergency locations for buildings, floors, and offices to create a more specific emergency address.</span></span> <span data-ttu-id="bc442-105">参照してください[緊急の場所、住所、および通話のルーティングには何ですか?](what-are-emergency-locations-addresses-and-call-routing.md)の詳細について。</span><span class="sxs-lookup"><span data-stu-id="bc442-105">See [What are emergency locations, addresses and call routing?](what-are-emergency-locations-addresses-and-call-routing.md) for more information.</span></span> 
+<span data-ttu-id="cfe5b-104">数に応じて、組織内の物理的な場所、建物、フロア、およびより詳細な緊急時のアドレスを作成するオフィスの緊急の場所を作成できます。</span><span class="sxs-lookup"><span data-stu-id="cfe5b-104">Depending on the number of physical locations in your organization, you can create emergency locations for buildings, floors, and offices to create a more specific emergency address.</span></span> <span data-ttu-id="cfe5b-105">参照してください[緊急の場所、住所、および通話のルーティングには何ですか?](what-are-emergency-locations-addresses-and-call-routing.md)の詳細について。</span><span class="sxs-lookup"><span data-stu-id="cfe5b-105">See [What are emergency locations, addresses and call routing?](what-are-emergency-locations-addresses-and-call-routing.md) for more information.</span></span> 
   
-<span data-ttu-id="bc442-106">呼び出す計画を取得する方法とをかかる費用については、 [Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="bc442-106">To learn how to get a Calling Plan and how much they cost, see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).</span></span>
+<span data-ttu-id="cfe5b-106">呼び出す計画を取得する方法とをかかる費用については、 [Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="cfe5b-106">To learn how to get a Calling Plan and how much they cost, see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).</span></span>
   
-## <a name="add-an-emergency-location-to-an-emergency-address"></a><span data-ttu-id="bc442-107">緊急対応の住所に緊急対応の場所を追加する</span><span class="sxs-lookup"><span data-stu-id="bc442-107">Add an emergency location to an emergency address</span></span>
+## <a name="add-an-emergency-location-to-an-emergency-address"></a><span data-ttu-id="cfe5b-107">緊急対応の住所に緊急対応の場所を追加する</span><span class="sxs-lookup"><span data-stu-id="cfe5b-107">Add an emergency location to an emergency address</span></span>
 
-1. <span data-ttu-id="bc442-108">職場または学校のアカウントを使用して、Office 365 にサインインします。</span><span class="sxs-lookup"><span data-stu-id="bc442-108">Sign in to Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="cfe5b-108">職場または学校のアカウントを使用して、Office 365 にサインインします。</span><span class="sxs-lookup"><span data-stu-id="cfe5b-108">Sign in to Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="bc442-109">Go to the **Office 365 admin center** > **Skype for Business**.</span><span class="sxs-lookup"><span data-stu-id="bc442-109">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
+2. <span data-ttu-id="cfe5b-109">Go to the **Office 365 admin center** > **Skype for Business**.</span><span class="sxs-lookup"><span data-stu-id="cfe5b-109">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
     
-3. <span data-ttu-id="bc442-110">左側のナビゲーションでは、[**音声**] に移動 > **緊急の場所**、および緊急時のアドレスの場所を追加するを選択します。</span><span class="sxs-lookup"><span data-stu-id="bc442-110">In the left navigation, go to **Voice** > **Emergency locations**, and then select the emergency address that you want to add a location for.</span></span>
+3. <span data-ttu-id="cfe5b-110">左側のナビゲーションでは、[**音声**] に移動 > **緊急の場所**、および緊急時のアドレスの場所を追加するを選択します。</span><span class="sxs-lookup"><span data-stu-id="cfe5b-110">In the left navigation, go to **Voice** > **Emergency locations**, and then select the emergency address that you want to add a location for.</span></span>
     
     > [!Important]
-    > <span data-ttu-id="bc442-111">ビジネス管理センターの Skype では、左側のナビゲーションの**音声**オプションを表示するため、まず**E5 のエンタープライズ ライセンス**を少なくとも 1 つ、1 つの**電話システム**のアドオン ライセンスまたはアドオンのライセンスが 1 つの**電話会議**を購入する必要があります。</span><span class="sxs-lookup"><span data-stu-id="bc442-111">For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
+    > <span data-ttu-id="cfe5b-111">ビジネス管理センターの Skype では、左側のナビゲーションの**音声**オプションを表示するため、まず**E5 のエンタープライズ ライセンス**を少なくとも 1 つ、1 つの**電話システム**のアドオン ライセンスまたはアドオンのライセンスが 1 つの**電話会議**を購入する必要があります。</span><span class="sxs-lookup"><span data-stu-id="cfe5b-111">For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
     
-4. <span data-ttu-id="bc442-112">[操作] ウィンドウで、**関連付けられた場所**の横にある [**変更**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc442-112">In the Action pane, next to **Associated locations**, click **Change**.</span></span>
+4. <span data-ttu-id="cfe5b-112">[操作] ウィンドウで、**関連付けられた場所**の横にある [**変更**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="cfe5b-112">In the Action pane, next to **Associated locations**, click **Change**.</span></span>
     
-5. <span data-ttu-id="bc442-113">**場所の関連付け**、[**新規追加**] をクリックして、関連付けられている別の場所を入力してください (たとえば、入力「1 64 階の構築」)、し、[**送信**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc442-113">In the **Locations associated with**, click **Add new**, enter another associated location (for example, enter "Building 64 Floor 1"), and then click **Submit**.</span></span>
+5. <span data-ttu-id="cfe5b-113">**場所の関連付け**、[**新規追加**] をクリックして、関連付けられている別の場所を入力してください (たとえば、入力「1 64 階の構築」)、し、[**送信**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="cfe5b-113">In the **Locations associated with**, click **Add new**, enter another associated location (for example, enter "Building 64 Floor 1"), and then click **Submit**.</span></span>
     
-6. <span data-ttu-id="bc442-114">[ **保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc442-114">Click **Save**.</span></span>
+6. <span data-ttu-id="cfe5b-114">[ **保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="cfe5b-114">Click **Save**.</span></span>
     
-## <a name="change-an-emergency-location-for-an-emergency-address"></a><span data-ttu-id="bc442-115">緊急対応の住所の緊急対応の場所を変更する</span><span class="sxs-lookup"><span data-stu-id="bc442-115">Change an emergency location for an emergency address</span></span>
+## <a name="change-an-emergency-location-for-an-emergency-address"></a><span data-ttu-id="cfe5b-115">緊急対応の住所の緊急対応の場所を変更する</span><span class="sxs-lookup"><span data-stu-id="cfe5b-115">Change an emergency location for an emergency address</span></span>
 
-1. <span data-ttu-id="bc442-116">職場または学校のアカウントを使用して、Office 365 にサインインします。</span><span class="sxs-lookup"><span data-stu-id="bc442-116">Sign in to Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="cfe5b-116">職場または学校のアカウントを使用して、Office 365 にサインインします。</span><span class="sxs-lookup"><span data-stu-id="cfe5b-116">Sign in to Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="bc442-117">Go to the **Office 365 admin center** > **Skype for Business**.</span><span class="sxs-lookup"><span data-stu-id="bc442-117">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
+2. <span data-ttu-id="cfe5b-117">Go to the **Office 365 admin center** > **Skype for Business**.</span><span class="sxs-lookup"><span data-stu-id="cfe5b-117">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
     
-3. <span data-ttu-id="bc442-118">左側のナビゲーションでは、[**音声**] に移動 > **緊急の場所**、し、緊急時に場所を変更するアドレスを選択します。</span><span class="sxs-lookup"><span data-stu-id="bc442-118">In the left navigation, go to **Voice** > **Emergency locations**, and then select the emergency address for which you want to change a location.</span></span>
+3. <span data-ttu-id="cfe5b-118">左側のナビゲーションでは、[**音声**] に移動 > **緊急の場所**、し、緊急時に場所を変更するアドレスを選択します。</span><span class="sxs-lookup"><span data-stu-id="cfe5b-118">In the left navigation, go to **Voice** > **Emergency locations**, and then select the emergency address for which you want to change a location.</span></span>
     
-4. <span data-ttu-id="bc442-119">[操作] ウィンドウで、**関連付けられた場所**の横にある [**変更**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc442-119">In the Action pane, next to **Associated locations**, click **Change**.</span></span>
+4. <span data-ttu-id="cfe5b-119">[操作] ウィンドウで、**関連付けられた場所**の横にある [**変更**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="cfe5b-119">In the Action pane, next to **Associated locations**, click **Change**.</span></span>
     
-5. <span data-ttu-id="bc442-120">の下**に場所が関連付けられている**と、リスト内の位置へのリンクをクリックを選択しの**場所の詳細が変更に関連付けられている**と、新しい場所の詳細を入力し、[**送信**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc442-120">Under **Locations associated with**, click the link for the location in the list, enter new location details in **Change associated location details**, and then click **Submit**.</span></span>
+5. <span data-ttu-id="cfe5b-120">の下**に場所が関連付けられている**と、リスト内の位置へのリンクをクリックを選択しの**場所の詳細が変更に関連付けられている**と、新しい場所の詳細を入力し、[**送信**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="cfe5b-120">Under **Locations associated with**, click the link for the location in the list, enter new location details in **Change associated location details**, and then click **Submit**.</span></span>
     
-6. <span data-ttu-id="bc442-121">[ **保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc442-121">Click **Save**.</span></span>
+6. <span data-ttu-id="cfe5b-121">[ **保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="cfe5b-121">Click **Save**.</span></span>
     
-## <a name="remove-an-emergency-location-from-an-emergency-address"></a><span data-ttu-id="bc442-122">緊急対応の住所から緊急対応の場所を削除する</span><span class="sxs-lookup"><span data-stu-id="bc442-122">Remove an emergency location from an emergency address</span></span>
+## <a name="remove-an-emergency-location-from-an-emergency-address"></a><span data-ttu-id="cfe5b-122">緊急対応の住所から緊急対応の場所を削除する</span><span class="sxs-lookup"><span data-stu-id="cfe5b-122">Remove an emergency location from an emergency address</span></span>
 
-1. <span data-ttu-id="bc442-123">職場または学校のアカウントを使用して、Office 365 にサインインします。</span><span class="sxs-lookup"><span data-stu-id="bc442-123">Sign in to Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="cfe5b-123">職場または学校のアカウントを使用して、Office 365 にサインインします。</span><span class="sxs-lookup"><span data-stu-id="cfe5b-123">Sign in to Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="bc442-124">Go to the **Office 365 admin center** > **Skype for Business**.</span><span class="sxs-lookup"><span data-stu-id="bc442-124">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
+2. <span data-ttu-id="cfe5b-124">Go to the **Office 365 admin center** > **Skype for Business**.</span><span class="sxs-lookup"><span data-stu-id="cfe5b-124">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
     
-3. <span data-ttu-id="bc442-125">左側のナビゲーションでは、[**音声**] に移動 > **緊急の場所**、および緊急時のアドレスの場所を削除するを選択します。</span><span class="sxs-lookup"><span data-stu-id="bc442-125">In the left navigation, go to **Voice** > **Emergency locations**, and then select the emergency address that you want to remove a location for.</span></span>
+3. <span data-ttu-id="cfe5b-125">左側のナビゲーションでは、[**音声**] に移動 > **緊急の場所**、および緊急時のアドレスの場所を削除するを選択します。</span><span class="sxs-lookup"><span data-stu-id="cfe5b-125">In the left navigation, go to **Voice** > **Emergency locations**, and then select the emergency address that you want to remove a location for.</span></span>
     
-4. <span data-ttu-id="bc442-126">[操作] ウィンドウで、**関連付けられた場所**の横にある [**変更**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc442-126">In the Action pane, next to **Associated locations**, click **Change**.</span></span>
+4. <span data-ttu-id="cfe5b-126">[操作] ウィンドウで、**関連付けられた場所**の横にある [**変更**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="cfe5b-126">In the Action pane, next to **Associated locations**, click **Change**.</span></span>
     
-5. <span data-ttu-id="bc442-127">の下**に場所が関連付けられている**と、次に、場所へのリンク**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc442-127">Under **Locations associated with**, next the link for the location, click **Remove**.</span></span>
+5. <span data-ttu-id="cfe5b-127">の下**に場所が関連付けられている**と、次に、場所へのリンク**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="cfe5b-127">Under **Locations associated with**, next the link for the location, click **Remove**.</span></span>
     
-6. <span data-ttu-id="bc442-128">[ **保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bc442-128">Click **Save**.</span></span>
+6. <span data-ttu-id="cfe5b-128">[ **保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="cfe5b-128">Click **Save**.</span></span>
     
-## <a name="related-topics"></a><span data-ttu-id="bc442-129">このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。</span><span class="sxs-lookup"><span data-stu-id="bc442-129">Related topics</span></span>
-[<span data-ttu-id="bc442-130">住所検証について</span><span class="sxs-lookup"><span data-stu-id="bc442-130">What is address validation?</span></span>](what-is-address-validation.md)
+## <a name="related-topics"></a><span data-ttu-id="cfe5b-129">このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。</span><span class="sxs-lookup"><span data-stu-id="cfe5b-129">Related topics</span></span>
+[<span data-ttu-id="cfe5b-130">住所検証について</span><span class="sxs-lookup"><span data-stu-id="cfe5b-130">What is address validation?</span></span>](what-is-address-validation.md)
 
-<span data-ttu-id="bc442-131">[[Skype for Business 新しい電話番号の申請](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。</span><span class="sxs-lookup"><span data-stu-id="bc442-131">[Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)</span></span>
+<span data-ttu-id="cfe5b-131">[[Skype for Business 新しい電話番号の申請](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。</span><span class="sxs-lookup"><span data-stu-id="cfe5b-131">[Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)</span></span>
 
-[<span data-ttu-id="bc442-132">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="bc442-132">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="cfe5b-132">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="cfe5b-132">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
 
-[<span data-ttu-id="bc442-133">Skype for Business Online: 緊急通話の免責事項ラベル</span><span class="sxs-lookup"><span data-stu-id="bc442-133">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
+[<span data-ttu-id="cfe5b-133">Skype for Business Online: 緊急通話の免責事項ラベル</span><span class="sxs-lookup"><span data-stu-id="cfe5b-133">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
 
   
  

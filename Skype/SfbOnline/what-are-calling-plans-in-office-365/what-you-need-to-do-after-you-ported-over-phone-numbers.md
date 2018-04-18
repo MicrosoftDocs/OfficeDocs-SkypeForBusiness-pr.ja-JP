@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 825a6cf0-3d22-419a-8358-a8678f14b61d
 ms.tgt.pltfrm: cloud
@@ -21,36 +20,36 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: ビジネス用の Skype に電話番号を移植した後次の操作に必要なものを参照してください。
-ms.openlocfilehash: d190d642edc932d1c620493afc893e03d85a4fb4
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 4245f4e794b1ca94d46d688f00f8ddb01abcdeae
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a><span data-ttu-id="667fa-103">自分の電話番号の上に移植した後に、何をする必要がありますか。</span><span class="sxs-lookup"><span data-stu-id="667fa-103">What do you need to do after you have ported over your phone numbers?</span></span>
+# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a><span data-ttu-id="74002-103">自分の電話番号の上に移植した後に、何をする必要がありますか。</span><span class="sxs-lookup"><span data-stu-id="74002-103">What do you need to do after you have ported over your phone numbers?</span></span>
 
-<span data-ttu-id="667fa-104">ポート注文を送信した後は、キャリアにお問い合わせくださいされ、それらの詳細されます。</span><span class="sxs-lookup"><span data-stu-id="667fa-104">After you have submitted your port order, we will contact your carrier and work out the details with them.</span></span> <span data-ttu-id="667fa-105">最終転送日が設定されている電子メールを使用するを通知します。</span><span class="sxs-lookup"><span data-stu-id="667fa-105">When the final transfer date has been set, we will notify you via email.</span></span> <span data-ttu-id="667fa-106">ただし、順序を受け入れ、さあ、必要な緊急のアドレスを作成するためにキャリアを待っている間に、これらの数値を使用します。</span><span class="sxs-lookup"><span data-stu-id="667fa-106">However, while waiting on your carrier to accept the order, go ahead and create the required emergency addresses you will use with these numbers.</span></span>
+<span data-ttu-id="74002-104">ポート注文を送信した後は、キャリアにお問い合わせくださいされ、それらの詳細されます。</span><span class="sxs-lookup"><span data-stu-id="74002-104">After you have submitted your port order, we will contact your carrier and work out the details with them.</span></span> <span data-ttu-id="74002-105">最終転送日が設定されている電子メールを使用するを通知します。</span><span class="sxs-lookup"><span data-stu-id="74002-105">When the final transfer date has been set, we will notify you via email.</span></span> <span data-ttu-id="74002-106">ただし、順序を受け入れ、さあ、必要な緊急のアドレスを作成するためにキャリアを待っている間に、これらの数値を使用します。</span><span class="sxs-lookup"><span data-stu-id="74002-106">However, while waiting on your carrier to accept the order, go ahead and create the required emergency addresses you will use with these numbers.</span></span>
   
-- <span data-ttu-id="667fa-107">詳細については[緊急の場所、住所、および通話のルーティングとは?](what-are-emergency-locations-addresses-and-call-routing.md)。</span><span class="sxs-lookup"><span data-stu-id="667fa-107">Learn more about [What are emergency locations, addresses and call routing?](what-are-emergency-locations-addresses-and-call-routing.md).</span></span>
+- <span data-ttu-id="74002-107">詳細については[緊急の場所、住所、および通話のルーティングとは?](what-are-emergency-locations-addresses-and-call-routing.md)。</span><span class="sxs-lookup"><span data-stu-id="74002-107">Learn more about [What are emergency locations, addresses and call routing?](what-are-emergency-locations-addresses-and-call-routing.md).</span></span>
     
-- <span data-ttu-id="667fa-108">ことができます[追加または削除する、組織の緊急事態に対処](add-or-remove-an-emergency-address-for-your-organization.md)する必要がある場合。</span><span class="sxs-lookup"><span data-stu-id="667fa-108">You can [Add or remove an emergency address for your organization](add-or-remove-an-emergency-address-for-your-organization.md) if you need to.</span></span>
+- <span data-ttu-id="74002-108">ことができます[追加または削除する、組織の緊急事態に対処](add-or-remove-an-emergency-address-for-your-organization.md)する必要がある場合。</span><span class="sxs-lookup"><span data-stu-id="74002-108">You can [Add or remove an emergency address for your organization](add-or-remove-an-emergency-address-for-your-organization.md) if you need to.</span></span>
     
-- <span data-ttu-id="667fa-109">場合は、電話番号がある緊急のアドレスを[追加、変更、または組織には、緊急時の場所を削除](add-change-or-remove-an-emergency-location-for-your-organization.md)します。</span><span class="sxs-lookup"><span data-stu-id="667fa-109">If your phone numbers already have an emergency address, [Add, change, or remove an emergency location for your organization](add-change-or-remove-an-emergency-location-for-your-organization.md).</span></span>
+- <span data-ttu-id="74002-109">場合は、電話番号がある緊急のアドレスを[追加、変更、または組織には、緊急時の場所を削除](add-change-or-remove-an-emergency-location-for-your-organization.md)します。</span><span class="sxs-lookup"><span data-stu-id="74002-109">If your phone numbers already have an emergency address, [Add, change, or remove an emergency location for your organization](add-change-or-remove-an-emergency-location-for-your-organization.md).</span></span>
     
-- [<span data-ttu-id="667fa-110">ユーザーの電話番号の割り当て、変更、削除を行う</span><span class="sxs-lookup"><span data-stu-id="667fa-110">Assign, change, or remove a phone number for a user</span></span>](assign-change-or-remove-a-phone-number-for-a-user.md)
+- [<span data-ttu-id="74002-110">ユーザーの電話番号の割り当て、変更、削除を行う</span><span class="sxs-lookup"><span data-stu-id="74002-110">Assign, change, or remove a phone number for a user</span></span>](assign-change-or-remove-a-phone-number-for-a-user.md)
 
 > [!NOTE]
-> <span data-ttu-id="667fa-111">無料電話番号</span><span class="sxs-lookup"><span data-stu-id="667fa-111">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="74002-111">無料電話番号</span><span class="sxs-lookup"><span data-stu-id="74002-111">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
     
-## <a name="related-topics"></a><span data-ttu-id="667fa-112">[米国 (無料の電話番号) 用の承認状 (LOA) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.S. (Toll Free numbers) (v.3.1) (en-US).pdf)</span><span class="sxs-lookup"><span data-stu-id="667fa-112">Related topics</span></span>
-<span data-ttu-id="667fa-113">電話番号の管理フォームのダウンロード</span><span class="sxs-lookup"><span data-stu-id="667fa-113">[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)</span></span>
+## <a name="related-topics"></a><span data-ttu-id="74002-112">[米国 (無料の電話番号) 用の承認状 (LOA) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.S. (Toll Free numbers) (v.3.1) (en-US).pdf)</span><span class="sxs-lookup"><span data-stu-id="74002-112">Related topics</span></span>
+<span data-ttu-id="74002-113">電話番号の管理フォームのダウンロード</span><span class="sxs-lookup"><span data-stu-id="74002-113">[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)</span></span>
 
-[<span data-ttu-id="667fa-114">通話プランで使用されるさまざまな種類の電話番号</span><span class="sxs-lookup"><span data-stu-id="667fa-114">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[<span data-ttu-id="74002-114">通話プランで使用されるさまざまな種類の電話番号</span><span class="sxs-lookup"><span data-stu-id="74002-114">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[<span data-ttu-id="667fa-115">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="667fa-115">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="74002-115">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="74002-115">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
 
-[<span data-ttu-id="667fa-116">Skype for Business Online: 緊急通話の免責事項ラベル</span><span class="sxs-lookup"><span data-stu-id="667fa-116">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
+[<span data-ttu-id="74002-116">Skype for Business Online: 緊急通話の免責事項ラベル</span><span class="sxs-lookup"><span data-stu-id="74002-116">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
 
   
  
