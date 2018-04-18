@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: bc524141-3e73-416b-9d61-b70f7a54a3e3
 ms.tgt.pltfrm: cloud
@@ -20,33 +19,33 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: 954826c3f8bb9d0d3ac881d86f0815ea338c5ee1
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 3ea58a59403e1b7892bf3d034922e2d16b9d863c
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="toll-free-dialing-restrictions-in-croatia"></a><span data-ttu-id="b80d5-105">クロアチアでのフリー ダイヤルの制限</span><span class="sxs-lookup"><span data-stu-id="b80d5-105">Toll-free dialing restrictions in Croatia</span></span>
+# <a name="toll-free-dialing-restrictions-in-croatia"></a><span data-ttu-id="98338-105">クロアチアでのフリー ダイヤルの制限</span><span class="sxs-lookup"><span data-stu-id="98338-105">Toll-free dialing restrictions in Croatia</span></span>
 
-<span data-ttu-id="b80d5-106">[別の国または地域を検索する](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)には、フリー ダイヤルの制限事項と制限事項の詳細についてはまたはです。</span><span class="sxs-lookup"><span data-stu-id="b80d5-106">[Find another country or region](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="98338-106">[別の国または地域を検索する](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)には、フリー ダイヤルの制限事項と制限事項の詳細についてはまたはです。</span><span class="sxs-lookup"><span data-stu-id="98338-106">[Find another country or region](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="b80d5-107">**詳細**</span><span class="sxs-lookup"><span data-stu-id="b80d5-107">**Details**</span></span>|<span data-ttu-id="b80d5-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="b80d5-108">**Description**</span></span>|
+|<span data-ttu-id="98338-107">**詳細**</span><span class="sxs-lookup"><span data-stu-id="98338-107">**Details**</span></span>|<span data-ttu-id="98338-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="98338-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="b80d5-109">呼び出し、利用可能なフリー ダイヤルですか。</span><span class="sxs-lookup"><span data-stu-id="b80d5-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="b80d5-110">あり</span><span class="sxs-lookup"><span data-stu-id="b80d5-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="b80d5-111">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="b80d5-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="b80d5-112">0800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="b80d5-112">0800 XXX XXX</span></span> <br/>  <span data-ttu-id="b80d5-113">0800 XXXX</span><span class="sxs-lookup"><span data-stu-id="b80d5-113">0800 XXXX</span></span> <br/> |
-|<span data-ttu-id="b80d5-114">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="b80d5-114">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="b80d5-115">HR</span><span class="sxs-lookup"><span data-stu-id="b80d5-115">HR</span></span>  <br/> |
-|<span data-ttu-id="b80d5-116">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="b80d5-116">Island/territory covered</span></span>  <br/> |<span data-ttu-id="b80d5-117">該当しない</span><span class="sxs-lookup"><span data-stu-id="b80d5-117">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="b80d5-118">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="b80d5-118">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="b80d5-119">該当しない</span><span class="sxs-lookup"><span data-stu-id="b80d5-119">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="b80d5-120">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="b80d5-120">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="b80d5-121">あり</span><span class="sxs-lookup"><span data-stu-id="b80d5-121">Yes</span></span>  <br/> |
-|<span data-ttu-id="b80d5-122">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="b80d5-122">Mobile network availability</span></span>  <br/> |<span data-ttu-id="b80d5-123">あり</span><span class="sxs-lookup"><span data-stu-id="b80d5-123">Yes</span></span>  <br/> |
-|<span data-ttu-id="b80d5-124">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="b80d5-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="b80d5-125">携帯電話アクセス: 通話時間は課金されない。</span><span class="sxs-lookup"><span data-stu-id="b80d5-125">Mobile access: No airtime charged.</span></span>  <br/> |
+|<span data-ttu-id="98338-109">呼び出し、利用可能なフリー ダイヤルですか。</span><span class="sxs-lookup"><span data-stu-id="98338-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="98338-110">あり</span><span class="sxs-lookup"><span data-stu-id="98338-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="98338-111">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="98338-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="98338-112">0800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="98338-112">0800 XXX XXX</span></span> <br/>  <span data-ttu-id="98338-113">0800 XXXX</span><span class="sxs-lookup"><span data-stu-id="98338-113">0800 XXXX</span></span> <br/> |
+|<span data-ttu-id="98338-114">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="98338-114">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="98338-115">HR</span><span class="sxs-lookup"><span data-stu-id="98338-115">HR</span></span>  <br/> |
+|<span data-ttu-id="98338-116">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="98338-116">Island/territory covered</span></span>  <br/> |<span data-ttu-id="98338-117">該当しない</span><span class="sxs-lookup"><span data-stu-id="98338-117">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="98338-118">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="98338-118">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="98338-119">該当しない</span><span class="sxs-lookup"><span data-stu-id="98338-119">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="98338-120">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="98338-120">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="98338-121">あり</span><span class="sxs-lookup"><span data-stu-id="98338-121">Yes</span></span>  <br/> |
+|<span data-ttu-id="98338-122">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="98338-122">Mobile network availability</span></span>  <br/> |<span data-ttu-id="98338-123">あり</span><span class="sxs-lookup"><span data-stu-id="98338-123">Yes</span></span>  <br/> |
+|<span data-ttu-id="98338-124">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="98338-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="98338-125">携帯電話アクセス: 通話時間は課金されない。</span><span class="sxs-lookup"><span data-stu-id="98338-125">Mobile access: No airtime charged.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="b80d5-126">このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。</span><span class="sxs-lookup"><span data-stu-id="b80d5-126">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="98338-126">このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。</span><span class="sxs-lookup"><span data-stu-id="98338-126">Related topics</span></span>
 
-[<span data-ttu-id="b80d5-127">フリー ダイヤルの制限事項と制限事項</span><span class="sxs-lookup"><span data-stu-id="b80d5-127">Toll-free dialing limitations and restrictions</span></span>](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="98338-127">フリー ダイヤルの制限事項と制限事項</span><span class="sxs-lookup"><span data-stu-id="98338-127">Toll-free dialing limitations and restrictions</span></span>](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="b80d5-128">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="b80d5-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+[<span data-ttu-id="98338-128">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="98338-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
   
  

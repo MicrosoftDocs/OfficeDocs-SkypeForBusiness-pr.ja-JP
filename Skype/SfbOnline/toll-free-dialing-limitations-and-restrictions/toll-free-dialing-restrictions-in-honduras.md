@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 9e1ed7ac-a49b-4092-b9e9-40486512145c
 ms.tgt.pltfrm: cloud
@@ -20,33 +19,33 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: e8ded971205c4d373bd6ac62dfbce59220f6be86
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: ee0af1f9f2ca9ad55b401eacda2781f5a9d4280b
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="toll-free-dialing-restrictions-in-honduras"></a><span data-ttu-id="b8644-105">ホンジュラスでのフリー ダイヤルの制限</span><span class="sxs-lookup"><span data-stu-id="b8644-105">Toll-free dialing restrictions in Honduras</span></span>
+# <a name="toll-free-dialing-restrictions-in-honduras"></a><span data-ttu-id="cd6ec-105">ホンジュラスでのフリー ダイヤルの制限</span><span class="sxs-lookup"><span data-stu-id="cd6ec-105">Toll-free dialing restrictions in Honduras</span></span>
 
-<span data-ttu-id="b8644-106">[別の国または地域を検索する](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)には、フリー ダイヤルの制限事項と制限事項の詳細についてはまたはです。</span><span class="sxs-lookup"><span data-stu-id="b8644-106">[Find another country or region](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="cd6ec-106">[別の国または地域を検索する](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)には、フリー ダイヤルの制限事項と制限事項の詳細についてはまたはです。</span><span class="sxs-lookup"><span data-stu-id="cd6ec-106">[Find another country or region](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="b8644-107">**詳細**</span><span class="sxs-lookup"><span data-stu-id="b8644-107">**Details**</span></span>|<span data-ttu-id="b8644-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="b8644-108">**Description**</span></span>|
+|<span data-ttu-id="cd6ec-107">**詳細**</span><span class="sxs-lookup"><span data-stu-id="cd6ec-107">**Details**</span></span>|<span data-ttu-id="cd6ec-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="cd6ec-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="b8644-109">呼び出し、利用可能なフリー ダイヤルですか。</span><span class="sxs-lookup"><span data-stu-id="b8644-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="b8644-110">あり</span><span class="sxs-lookup"><span data-stu-id="b8644-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="b8644-111">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="b8644-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="b8644-112">800 XXXX XXXX</span><span class="sxs-lookup"><span data-stu-id="b8644-112">800 XXXX XXXX</span></span>  <br/> |
-|<span data-ttu-id="b8644-113">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="b8644-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="b8644-114">HN</span><span class="sxs-lookup"><span data-stu-id="b8644-114">HN</span></span>  <br/> |
-|<span data-ttu-id="b8644-115">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="b8644-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="b8644-116">該当しない</span><span class="sxs-lookup"><span data-stu-id="b8644-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="b8644-117">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="b8644-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="b8644-118">該当しない</span><span class="sxs-lookup"><span data-stu-id="b8644-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="b8644-119">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="b8644-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="b8644-120">Hondutel からのみ。</span><span class="sxs-lookup"><span data-stu-id="b8644-120">From Hondutel only.</span></span>  <br/> |
-|<span data-ttu-id="b8644-121">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="b8644-121">Mobile network availability</span></span>  <br/> | <span data-ttu-id="b8644-122">Tigo からのみ。</span><span class="sxs-lookup"><span data-stu-id="b8644-122">From Tigo only.</span></span> <br/> |
-|<span data-ttu-id="b8644-123">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="b8644-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="b8644-124">なし</span><span class="sxs-lookup"><span data-stu-id="b8644-124">None</span></span>  <br/> |
+|<span data-ttu-id="cd6ec-109">呼び出し、利用可能なフリー ダイヤルですか。</span><span class="sxs-lookup"><span data-stu-id="cd6ec-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="cd6ec-110">あり</span><span class="sxs-lookup"><span data-stu-id="cd6ec-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="cd6ec-111">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="cd6ec-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="cd6ec-112">800 XXXX XXXX</span><span class="sxs-lookup"><span data-stu-id="cd6ec-112">800 XXXX XXXX</span></span>  <br/> |
+|<span data-ttu-id="cd6ec-113">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="cd6ec-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="cd6ec-114">HN</span><span class="sxs-lookup"><span data-stu-id="cd6ec-114">HN</span></span>  <br/> |
+|<span data-ttu-id="cd6ec-115">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="cd6ec-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="cd6ec-116">該当しない</span><span class="sxs-lookup"><span data-stu-id="cd6ec-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="cd6ec-117">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="cd6ec-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="cd6ec-118">該当しない</span><span class="sxs-lookup"><span data-stu-id="cd6ec-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="cd6ec-119">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="cd6ec-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="cd6ec-120">Hondutel からのみ。</span><span class="sxs-lookup"><span data-stu-id="cd6ec-120">From Hondutel only.</span></span>  <br/> |
+|<span data-ttu-id="cd6ec-121">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="cd6ec-121">Mobile network availability</span></span>  <br/> | <span data-ttu-id="cd6ec-122">Tigo からのみ。</span><span class="sxs-lookup"><span data-stu-id="cd6ec-122">From Tigo only.</span></span> <br/> |
+|<span data-ttu-id="cd6ec-123">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="cd6ec-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="cd6ec-124">なし</span><span class="sxs-lookup"><span data-stu-id="cd6ec-124">None</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="b8644-125">このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。</span><span class="sxs-lookup"><span data-stu-id="b8644-125">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="cd6ec-125">このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。</span><span class="sxs-lookup"><span data-stu-id="cd6ec-125">Related topics</span></span>
 
-[<span data-ttu-id="b8644-126">フリー ダイヤルの制限事項と制限事項</span><span class="sxs-lookup"><span data-stu-id="b8644-126">Toll-free dialing limitations and restrictions</span></span>](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="cd6ec-126">フリー ダイヤルの制限事項と制限事項</span><span class="sxs-lookup"><span data-stu-id="cd6ec-126">Toll-free dialing limitations and restrictions</span></span>](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="b8644-127">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="b8644-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+[<span data-ttu-id="cd6ec-127">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="cd6ec-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
   
  
