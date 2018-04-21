@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Exchange オンラインで Skype ルーム システム v2 を展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 59724ae9b0fc77f16a072e0e08b125407c6e43e3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4fea489c2ae8c3e2fbf8205936ad3ddbff52927a
+ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-online-hybrid"></a>Skype Room Systems バージョン 2 と Exchange Online を展開する (ハイブリッド)
  
@@ -63,16 +63,8 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-4. このアカウントのパスワードを入力します。確認のためにもう一度入力する必要があります。[**パスワードを無期限にする**] チェック ボックスだけがオンになっていることを確認します。
     
-    > [!NOTE]
-    > **パスワードを無期限にする**を選択することは、Skype ルーム システム v2 のビジネス サーバー 2015 の Skype の要件です。 ドメイン ルールによって無期限のパスワードが禁止される場合があります。 その場合は、Skype ルーム システム v2 のユーザー アカウントごとに例外を作成する必要があります。
-  
-5. アカウントを作成するには、**[完了]** をクリックします。
-    
-6. アカウントを作成したら、ディレクトリの同期を実行します。それが完了したら、[ユーザー] ページに移動し、前の手順で作成した 2 つのアカウントがマージされていることを確認します。
-    
-7. Azure AD に接続して、アカウント設定をいくつか適用する必要があります。次のコマンドレットを実行して接続することができます。
+4. Azure AD に接続して、アカウント設定をいくつか適用する必要があります。次のコマンドレットを実行して接続することができます。
     
    ```
    Connect-MsolService -Credential $cred
@@ -83,6 +75,16 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 1. **Active Directory ユーザーとコンピューターの AD**のツールでは、フォルダーまたは組織単位の**新規**作成] をクリックし**ユーザー**に Skype ルーム システムでは、v2 のアカウントを作成する] をクリックする右クリックします。
     
 2. 前のコマンドレットで得た表示名を [**フル ネーム**] ボックスに入力し、エイリアスを [**ユーザー ログオン名**] ボックスに入力します。[**次へ**] をクリックします。
+
+
+3. このアカウントのパスワードを入力します。確認のためにもう一度入力する必要があります。[**パスワードを無期限にする**] チェック ボックスだけがオンになっていることを確認します。
+    
+    > [!NOTE]
+    > **パスワードを無期限にする**を選択することは、Skype ルーム システム v2 のビジネス サーバー 2015 の Skype の要件です。 ドメイン ルールによって無期限のパスワードが禁止される場合があります。 その場合は、Skype ルーム システム v2 のユーザー アカウントごとに例外を作成する必要があります。
+  
+4. アカウントを作成するには、**[完了]** をクリックします。
+    
+5. アカウントを作成したら、ディレクトリの同期を実行します。それが完了したら、[ユーザー] ページに移動し、前の手順で作成した 2 つのアカウントがマージされていることを確認します。
     
 ### <a name="assign-an-office-365-license"></a>Office 365 ライセンスを割り当てる
 
@@ -97,6 +99,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    Get-MsolAccountSku
    Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
    ```
+
 
 ### <a name="enable-the-user-account-with-skype-for-business-server-2015"></a>Skype for Business Server 2015 でユーザー アカウントを有効にする
 

@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn how to get new, port, or transfer existing numbers for Skype for Business, and how to show the changes to your users. '
-ms.openlocfilehash: 7bd4acd7155851ec99b95fca63f151c477fa70ae
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: c9e5d08879f9ec176cbe4659d49e351ba08ffce7
+ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>ユーザー用に電話番号を取得する
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 04/18/2018
   
 新しいユーザーの数を取得する 3 つの方法があります。
 
-- **ビジネス管理センターは、Skype を使用します。** 一部の国/地域のビジネス管理センターは、Skype を使用してユーザーの番号を取得するを参照してください[、ユーザーの電話番号を取得します。](getting-phone-numbers-for-your-users.md)。
+- **ビジネス管理センターは、Skype を使用します。** 国や地域によって[、ユーザーの電話番号の取得](getting-phone-numbers-for-your-users.md)を参照して、ビジネス管理センターは、Skype を使用してユーザーの番号を取得ください。
     
 - **既存の番号を移植します。** ポート、または現在のサービス プロバイダーまたは電話のキャリアからの既存の番号を Office 365 に転送できます。 [Office 365 に電話番号を転送](transfer-phone-numbers-to-office-365.md)または詳細については[、組織の電話番号の管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)作業を行いやすくにを参照してください。  
   
@@ -44,9 +44,7 @@ ms.lasthandoff: 04/18/2018
 > [!NOTE]
 > 組織の電話番号の設定でサポートが必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」を利用できます。 
   
-## 
-
- **ユーザーの電話番号を取得する**
+## <a name="get-new-phone-numbers-for-your-users"></a>ユーザーの新しい電話番号を取得します。
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -54,7 +52,8 @@ ms.lasthandoff: 04/18/2018
     
 3. 左側のナビゲーションでは、**音声**に移動 > **電話番号**、**新しい番号を追加**をクリックして![[追加] ボタン](../images/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)、し、**新しいユーザーの番号**をクリックします。
     
-    **重要**: Skype for Business 管理センターの左のナビゲーションに [ **音声**] オプションが表示されるようにするには、最初に **Enterprise E5 ライセンス**、 **電話システム**アドオン ライセンス、または **電話会議**アドオン ライセンスを少なくとも 1 件購入する必要があります。
+    > [!IMPORTANT]
+    > ビジネス管理センターの Skype では、左側のナビゲーションの**音声**オプションを表示するため、まず**E5 のエンタープライズ ライセンス**を少なくとも 1 つ、1 つの**電話システム**のアドオン ライセンスまたはアドオンのライセンスが 1 つの**電話会議**を購入する必要があります。
     
 4. [ **新しい番号の追加**] ページで、次を選択します。
     

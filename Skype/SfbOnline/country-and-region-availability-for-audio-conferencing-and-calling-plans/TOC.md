@@ -33,7 +33,6 @@
 ### [PIN を使用せずに電話で音声会議を開始する](../audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin.md)
 ### [Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 ### [会議の入退室通知をオンまたはオフにする](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
-### [組織での電話会議の動的 ID の使用](../audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md)
 
 ## [Office 365 の通話プラン](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
 ### [組織の緊急対応の場所を追加、変更、削除する](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
@@ -60,6 +59,7 @@
 #### [米国での電話番号の管理](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 ### [組織内での発信者番号の使用方法](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md)
 ### [取得できる電話番号の数について](../what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get.md)
+### [明細行 ID を呼び出すと関係者の名前を呼び出すことについて](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name)
 ### [ユーザーの電話番号を検索する](../what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users.md)
 ### [組織の電話番号のリストを表示する](../what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization.md)
 ### [ユーザーに発信者番号を設定する](../what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user.md)
@@ -72,6 +72,7 @@
 ### [ダイヤル プランについて](../what-are-calling-plans-in-office-365/what-are-dial-plans.md)
 
 ## Office 365 での電話システム
+### [Office 365 での電話システムについて](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
 ### [電話システムの通話キューを作成する](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Skype for Business Online を利用できる電話機の取得](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Skype for Business Online 電話機の展開](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
