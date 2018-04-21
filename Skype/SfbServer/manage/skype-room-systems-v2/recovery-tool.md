@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 description: この資料では、Skype ルーム システム v2 は、サポートされている状態にする最新のシステムを使用する回復ツールを使用する方法について説明します。
-ms.openlocfilehash: 5972f38370227e93cb0154771a35f3c5b0458052
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 7c7a6188ec1cbd1153c09b768e81789fcffd266e
+ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="use-the-skype-room-systems-v2-recovery-tool"></a>Skype ルーム システム v2 の回復ツールを使用します。
  
@@ -36,7 +36,8 @@ ms.lasthandoff: 04/18/2018
 3. [スタート] メニューをクリックして`winver.exe`をクリックして、[検索] ボックスに **コマンドの実行*結果をします。
 4. 情報ウィンドウの 2 番目の行で 'バージョン' の後の番号を書き留めます。
 
-> [メモ]1607 またはそれ以前に、新しいバージョンがある場合次の手順に進む前に<a href="#Windows-up">回復する前に更新プログラムの Windows</a>の手順の<a href="#Perform">リカバリを実行する</a>手順を実行します。 表示されるバージョンが 1607 よりも大きい場合は、手順をのみ<a href="#Perform">実行するリカバリ</a>です。
+>[!NOTE]
+>1607 またはそれ以前に、新しいバージョンがある場合次の手順に進む前に<a href="#Windows-up">回復する前に更新プログラムの Windows</a>の手順の<a href="#Perform">リカバリを実行する</a>手順を実行します。 表示されるバージョンが 1607 よりも大きい場合は、手順をのみ<a href="#Perform">実行するリカバリ</a>です。
 
 <a name="Windows-up"> </a>
 ## <a name="update-windows-before-recovery-if-needed"></a>(必要な場合)、回復する前に Windows を更新します。
@@ -45,14 +46,14 @@ ms.lasthandoff: 04/18/2018
 2. コマンドを実行して`Remove-Item -Path 'c:\Recovery\OEM\$oem$\$1\Rigel' -Force -Recurse`。
 3. Windows Update を実行し、Windows 1709 用の更新プログラムをインストールします。
 4. 1709 を更新した後、完全な記号は管理者アカウントにバックアップし、 [KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu)をインストールします。 リンクから更新プログラムを実行することがありますまたは Windows Update を使用します。
-5. Windows Update からの追加の更新プログラムをインストールします。
+5. 省略可能な手順としては、Windows Update からの追加の更新プログラムをインストールします。
 
 <a name="Perform"> </a>
 ## <a name="perform-a-recovery"></a>リカバリを実行します。
 
 1. Skype ルーム システム v2 デバイスの管理者アカウントにサインインし、管理者特権でコマンド プロンプトを起動します。
 2. Skype ルーム システム v2 デバイスからできることを確認するにアクセスするのには、 `RecoveryTool.ps1` 、Skype ルーム システム v2 のインストール パッケージから抽出されたファイルに含まれるファイルです。 必須コンポーネントを準備する際に使用する USB ドライブ、ネットワーク共有上のキットをご覧ください。
-3. Powershell.exe コマンドを実行して`-file "<path to RecoveryTool.ps1>" -ExecutionPolicy Unrestricted`。
+3. Powershell.exe コマンドを実行して`-ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`。
 4. スクリプトのオプションを選択してメッセージが表示されたら`1:"Repair System"`。
 5. 完了すると、Skype ルーム システム v2 のデバイスを再起動します。 もの完全に回復した 2 回目、もう一度自動的に再起動されます。
 
