@@ -266,7 +266,7 @@
 
 # トラブルシューティングとサポート
 ## [Teams のロールアウトをサポートするツールを入手する](rollout-tools.md)
-## [Teams の既知の問題](known-issues.md)
+## [Teams の既知の問題](Known-issues.md)
 ## [Teams のサポート リソース](support-resources.md)
 ## [Teams クライアントの接続性の問題をトラブルシューティングする](connectivity-issues.md)
 ## [Teams のトラブルシューティングでログ ファイルを使用する](log-files.md)
