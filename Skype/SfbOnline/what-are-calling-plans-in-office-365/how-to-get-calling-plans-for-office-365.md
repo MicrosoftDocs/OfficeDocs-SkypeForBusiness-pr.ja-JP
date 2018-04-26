@@ -25,11 +25,11 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 4e2dba9b7a73c36f823a4f73a49c4980dc98e305
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 317659a868deff0827d23debb454eaaa35392216
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="calling-plans-for-office-365"></a>Office 365 のプランを呼び出す
 
@@ -47,7 +47,7 @@ ms.lasthandoff: 04/18/2018
 > 国/地域は、 **Office 365 の管理センター**でユーザーのライセンスの場所に基づいて >  **Office 365 の管理センターでは、**組織プロファイル**の下にある請求先住所が記載されている**アクティブなユーザー**では**なく****.   
 ![ユーザーのライセンスの場所](../images/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
-使用率の制限と使用条件に関する詳細については、[オーディオ会議無料のダイアル アウト期間](../accessibility-and-regulatory/complimentary-dial-out-period.md)を参照してください。
+使用率の制限と使用条件に関する詳細については、[オーディオ会議無料のダイアル アウト期間](../legal-and-regulatory/complimentary-dial-out-period.md)を参照してください。
   
 ## <a name="how-to-buy-a-calling-plan"></a>呼び出す計画を購入する方法
 

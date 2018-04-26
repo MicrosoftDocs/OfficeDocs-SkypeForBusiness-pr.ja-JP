@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: この資料では、Skype ルーム システム v2 では、Skype ルーム システムの次世代を展開するため、関連する計画に関する考慮事項について説明します。
-ms.openlocfilehash: 3d958c5d07cfafd2eeddd6076182a635cfff19de
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 372c920eaeaaee050e420cd25195565555426561
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="plan-for-skype-room-systems-v2"></a>Skype Room Systems バージョン 2 の計画
  
@@ -55,11 +55,11 @@ Skype ルーム システム v2 は、ビジネス経験の豊富な共同の Sk
     
 - ルームおよび Skype 会議でデスクトップ共有を投影する組み込みの有線取り込み
     
-- ルーム オーディオとビデオの USB デバイス U1 を満たすためのアプリケーションでユーザーの選択
+- ルームの USB デバイス & #x 2776; のオーディオおよびビデオ会議のアプリケーションでのユーザーの選択
     
-- デュアル画面対応 (従来のシステムのパリティ) U2
+- デュアル画面対応 (従来のシステムのパリティ) & #x 2777 です。
     
-- Themability (組み込みのテーマとユーザー設定のテーマを設定する機能) U2
+- (組み込みのテーマとユーザー設定のテーマを設定する機能) の themability & #x 2777 です。
     
  **展開が容易、管理が簡単**
   
@@ -77,39 +77,39 @@ Skype ルーム システム v2 は、ビジネス経験の豊富な共同の Sk
     
 - Surface Pro 4 タブレット上で動作
     
-- ルーム コンソールのステータスがマイクロソフトの運用管理スイートを使用しているお客様のレポートを統合 ( [OMS を使用して Skype ルーム システムの計画 v2 の管理](oms-management.md)を参照してください) U1
+- ルーム コンソールのステータスがマイクロソフトの運用管理スイートを使用しているお客様のレポートを統合 ( [OMS を使用して Skype ルーム システムの計画 v2 の管理](oms-management.md)を参照してください) & #x 2776。
     
-- パブリック フィードバックする機能が U2 を構築します。
+- パブリック ビルド & #x 2777 にフィードバックする機能
     
-- 会議の結合の信頼性 U2 の周りの改善された遠隔測定
+- 信頼性 & #x 2777; に参加する会議の周りの改善された遠隔測定
     
-- U2 を報告する追加の OMS
+- 追加 OMS 報告 & #x 2777 です。
     
-- デバイスをリモートで構成する IT 管理者の能力 U2
+- 機能デバイスをリモートで構成する IT 管理 & #x 2777 です。
     <!--  - Front-of-Room UX shows room details pre-meeting U2  -->
-- U3 Surface Pro のタブレット上で実行します。
+- Surface Pro タブレット & #x 2778; で実行されています。
     
-- Windows 10 企業の作成元の更新プログラム (英語の言語をビルド 1703) U3 をサポートしています。
+- Windows 10 企業の作成元の更新プログラム (英語の言語をビルド 1703) & #x をサポートしている 2778 です。
     
-- [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system)のサポート ハードウェア U3 のドッキングします。
+- [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system)のサポートはドッキング ハードウェア & #x 2778 です。
     
-- 環境制御 (Crestron) U3 の OEM サポート
+- OEM のサポート環境のコントロール (Crestron) & #x 2778 です。
     
-- [ポリコム MSR シリーズ](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)のサポートは、hardwareU4 を固定します。
+- [ポリコム MSR シリーズ](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)のサポートはドッキング ハードウェア & #x 2779 です。
     
-- [Logitech (ロジクール) Brio](https://www.logitech.com/en-us/product/brio)U4 のサポート
+- [Logitech (ロジクール) Brio](https://www.logitech.com/en-us/product/brio) & #x 2779; のサポート
 
-- [Lenovo ハブ 500](https://www3.lenovo.com/us/en/hub500)U5 のサポートは、ハードウェアをドッキングします。  
+- [ハブ 500 の Lenovo](https://www3.lenovo.com/us/en/hub500)のサポートはドッキング ハードウェア & #x277A;  
     
-U1 の更新 1 (ソフトウェアのバージョンで導入された機能 2.0.2.0)。
+& #x 2776。機能の更新プログラム 1 (ソフトウェアのバージョンで導入されました。 2.0.2.0)。
   
-更新 2 (ソフトウェアのバージョンで導入された機能の U2- 3.0.6.0)。 
+& #x 2777 です。機能の更新プログラム 2 (ソフトウェアのバージョンで導入されました。 3.0.6.0)。 
   
-U3 機能更新 3 (ソフトウェアのバージョンで導入されました。 3.0.12.0)。 
+& #x 2778 です。機能の更新プログラム 3 (ソフトウェアのバージョンで導入されました。 3.0.12.0)。 
   
-更新 4 (ソフトウェアのバージョンで導入された機能の u4 の場合- 3.0.15.0)。 
+& #x 2779 です。更新 4 (ソフトウェアのバージョンで導入された機能の 3.0.15.0)。 
 
-更新 5 (ソフトウェアのバージョンで導入された機能の U5- 3.1.98.0)。 
+& #x277A;機能の更新 5 (ソフトウェアのバージョンで導入されました。 3.1.98.0)。 
   
 ## <a name="preparing-your-skype-for-business-environment"></a>Skype for Business 環境の準備
 

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 description: この記事では、Skype for Business Server 2015 の実装において Skype Room Systems バージョン 2 デバイスを管理するための Operations Management Suite の使用についてのプランニングの検討事項について考えます。
-ms.openlocfilehash: e6409370da3597623526379581081e617f48dd81
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: b117b243b638c9e06b21901f14515b51d6931d23
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="plan-skype-room-systems-v2-management-with-oms"></a>OMS を使用して Skype Room Systems バージョン 2 の管理を計画する
  
@@ -42,9 +42,9 @@ OMS を使用して管理者オフラインになっている Skype ルーム �
   
 ### <a name="related-tasks"></a>関連タスク
 
-1. OMS を購読して後、は、Skype ルーム システム v2 本体から送信される情報を解析するために必要なユーザー設定フィールド ([ユーザー設定フィールドをマップ](../../deploy/deploy-clients/with-oms.md#Custom_fields)に記載されている) を作成します。 [ログ エントリを理解するの](../../manage/skype-room-systems-v2/oms.md#Telemetry)に記載されている JSON のスキーマを理解することが含まれます。
+1. OMS を購読して、作成カスタム フィールド ([ユーザー設定フィールドをマップ](../../deploy/deploy-clients/with-oms.md#Custom_fields)に記載されている) 必要な Skype ルーム システム v2 本体から送信される情報を解析します。 [ログ エントリを理解するの](../../manage/skype-room-systems-v2/oms.md#Telemetry)に記載されている JSON のスキーマを理解することが含まれます。
     
-2. Skype ルーム システム v2 の管理ビューを作成 ( [OMS で SRS v2 を定義するビュー](../../deploy/deploy-clients/with-oms.md#Views)を参照してください) OMS の前に説明したビュー デザイナーを使用しています。
+2. OMS の Skype ルーム システム v2 の管理ビューを作成します。 いずれかの[インポート メソッドを使用して Skype ルーム システム v2 のダッシュ ボードを作成する](../../deploy/deploy-clients/with-oms.md#create-a-skype-room-systems-v2-dashboard-by-using-the-import-method)ことができます) [Skype ルーム システム v2 のダッシュ ボード](../../deploy/deploy-clients/with-oms.md#create-a-skype-room-systems-v2-dashboard-manually)を手動で作成します。
     
 ## <a name="individual-skype-room-systems-v2-console-requirements"></a>Skype ルーム システム v2 コンソールの個々 の要件
 

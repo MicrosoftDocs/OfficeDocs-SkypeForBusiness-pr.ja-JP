@@ -23,11 +23,11 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 国/地域を選択して、電話会議、電話システム、通話プラン、コミュニケーション クレジット、および有料電話番号と無料電話番号を利用できるかどうかを確認できます。
-ms.openlocfilehash: 7d0a7efd6c524050f53e168a85ca652095a35c3e
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 4be2e366a241dfe07a22dfa6487c377283fd58ba
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>国および地域ごとの電話会議および通話プランの利用可能性
 
@@ -158,7 +158,7 @@ Skype for Business または Microsoft Teams サービスの 1 つが利用で�
 以下のリストにない世界の他の国/地域に会議からダイヤルアウトすることは、[Office 365 コミュニケーション クレジット](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)を使用して行うことができます。 このようなユーザーの場合は、[組織のためにコミュニケーション クレジットをセットアップする](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)必要があります。
   
 > [!NOTE]
-> 導入期間中は、追加料金なしで、折り返し先機能を使用するとき、または他のユーザーを会議に追加するときに、すべての組織のユーザーが次の国/地域のいずれかにダイヤルアウトできます。ただし、この操作は[音声会議の無料のダイヤルアウト期間](../accessibility-and-regulatory/complimentary-dial-out-period.md)において行うことができます。 
+> 導入期間中は、追加料金なしで、折り返し先機能を使用するとき、または他のユーザーを会議に追加するときに、すべての組織のユーザーが次の国/地域のいずれかにダイヤルアウトできます。ただし、この操作は[音声会議の無料のダイヤルアウト期間](../legal-and-regulatory/complimentary-dial-out-period.md)において行うことができます。 
   
 ### <a name="phone-system"></a>電話システム
 電話システムでは、自分の組織の着信通話に応答させるために (有料電話番号または無料電話番号で) 自動応答や通話キューを作成することができます。また、ユーザーのために通話プランを追加すると、それらのユーザーは Skype for Business を使用して通話の発信と受信、通話の転送、ミュートとミュートの解除などの基本的な通話制御タスクを処理できるようになります。 **電話システム**のユーザーがアドレス帳の名前をクリックすると、Skype for Business によってその連絡先に通話が発信されます。 **電話システム**のユーザーは、Skype for Business で利用できるモバイル デバイス、ノート PC や PC のヘッドセット、さまざまな IP 電話を使って、通話の発信と受信を行うことができます。

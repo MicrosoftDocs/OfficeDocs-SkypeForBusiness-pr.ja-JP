@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 個々 のユーザーに、パブリック交換電話網 (PSTN) を動作するための緊急時の住所と電話番号を設定する方法について説明します。
-ms.openlocfilehash: 8b8fbb98de35115b5e8f6dea76cfa2175c95826e
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: cb9fe4dbf75310cffaa6fa05a9bee5c920df0da9
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>割り当てるか、緊急時のユーザーのアドレスを変更
 
@@ -62,9 +62,9 @@ Office 365 のプランを呼び出すことを取得する方法、コストし
 
 [[Skype for Business 新しい電話番号の申請](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。
 
-[緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
+[緊急通話の利用条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

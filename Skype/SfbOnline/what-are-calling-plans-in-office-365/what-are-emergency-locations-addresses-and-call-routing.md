@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn what emergency address, location, and emergency call routing are, and how to plan and assign them to your users. '
-ms.openlocfilehash: 8a437920f1ba901addbdc626e2d5a6bfad5779a4
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 9bbb411ed09390cbdb4676e5715aacf1d54ee8c0
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="what-are-emergency-locations-addresses-and-call-routing"></a>緊急対応の場所、アドレス、通話ルーティングの概要
 
@@ -72,9 +72,9 @@ Office 365 のプランの呼び出しを構成するときことが必要なす
 
 [通話プランで使用されるさまざまな種類の電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[緊急通話の利用条件](../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+[緊急通話の利用条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

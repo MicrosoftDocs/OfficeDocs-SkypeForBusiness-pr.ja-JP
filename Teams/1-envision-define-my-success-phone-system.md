@@ -11,11 +11,12 @@ description: 展開の計画を呼び出すと、電話のシステムの結果�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23e471e7917ee188d0c4e601a59c53087ad2f9e0
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
+ms.openlocfilehash: a5e4345009622758720e246677f830e21428dc57
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="define-my-success"></a>自分の成功を定義します。
 
@@ -54,9 +55,9 @@ ms.lasthandoff: 04/05/2018
 
 お客様のビジネスを定義するだけでなくドライブの明瞭さを回避することを目的とする必要があるプロジェクトの範囲を設定する場合を使用します。
 
--   **組織の範囲:**計画を呼び出すと、電話システムの実装には、組織全体または単に特定の部署が含まれている可能性があります。
+-   **組織の範囲:** 計画を呼び出すと、電話システムの実装には、組織全体または単に特定の部署が含まれている可能性があります。
 
--   **プロジェクトのタイムライン:**特定のタイムライン、プロジェクトが実行されます。
+-   **プロジェクトのタイムライン:** 特定のタイムライン、プロジェクトが実行されます。
 
 <br>
 |         |         |         |

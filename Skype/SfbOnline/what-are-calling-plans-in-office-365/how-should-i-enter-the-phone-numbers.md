@@ -19,11 +19,11 @@ f1keywords: ms.lync.lac.PortOrderNumbers
 ms.custom:
 - Calling Plans
 description: 'Skype ビジネスのためにそれらを移植するときに、電話番号を設定する方法について説明します。 '
-ms.openlocfilehash: 66e86d01b11f2dc6ad45d59d19f2ccc5a6f6311a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 74914b98ccc60984f1d2be16f6a3351e7b26b2cf
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="how-should-i-enter-the-phone-numbers"></a>電話番号を入力する方法必要がありますか。
 
@@ -44,15 +44,15 @@ ms.lasthandoff: 04/18/2018
     
   - "-"、スペースとかっこは無視されます。 例:
     
-  - 10 桁の番号: **(425) 555-6776**を**+14255556776**に修正されます。
+  - 10 桁の番号: **(425) 555-6776**を **+14255556776**に修正されます。
     
-  - 11 桁の数: **555-6776 の 1(425)**を**+14255556776**に修正されます。
+  - 11 桁の数: **555-6776 の 1(425)** を **+14255556776**に修正されます。
     
   - すべての文字は特殊文字として扱われ、10 桁または 11 桁の電話番号がある場合は無視します。 例:
     
-  - 10 桁の番号: **14jaosia2reoij05jof55506ajfoj49isdjf**を**+14255550649**に修正されます。
+  - 10 桁の番号: **14jaosia2reoij05jof55506ajfoj49isdjf**を **+14255550649**に修正されます。
     
-  - 11 桁の数: **1ade4jaoda2rfoij05ojof55506dsfoj49if**を**+14255550649**に修正されます。
+  - 11 桁の数: **1ade4jaoda2rfoij05ojof55506dsfoj49if**を **+14255550649**に修正されます。
     
   - 他の言語であっても、特殊文字の任意の組み合わせが修正されます。 例: 
     
@@ -78,7 +78,7 @@ ms.lasthandoff: 04/18/2018
     
   - すべての特殊文字 (ハイフンを除く"-") は 1 つの数値として扱われ、同じ。 たとえば、 **(425) 555 0&amp;\*(123-(1425) 5557899nm**に修正されます。 **+14255550123 - +13202040659**。
     
-  - "-"のみ 2 つの数値を区切るために使用します。 複数を含めることはサポートされていません"、"番号の範囲の。 として**(425) 555-0649 ・ (425) 555-1115**を入力するたとえば、 **(425) 5550649-(425) 5551115**。
+  - "-"のみ 2 つの数値を区切るために使用します。 複数を含めることはサポートされていません"、"番号の範囲の。 として **(425) 555-0649 ・ (425) 555-1115**を入力するたとえば、 **(425) 5550649-(425) 5551115**。
     
  **完全な手順については、 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)を参照してください。**
 
@@ -93,9 +93,9 @@ ms.lasthandoff: 04/18/2018
 
 [[Skype for Business 新しい電話番号の申請](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。
 
-[緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
+[緊急通話の利用条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

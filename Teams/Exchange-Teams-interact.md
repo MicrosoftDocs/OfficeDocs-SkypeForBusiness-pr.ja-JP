@@ -11,11 +11,11 @@ description: チームの作成、チームへの参加、チャネルの作成�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea3162de2ff5ab5e4aa15fe63545382f1c48378d
-ms.sourcegitcommit: d70e5a5e7d05a2226c1d011895fb12187d73fad0
+ms.openlocfilehash: 65bbcc3155147141b99f63be686a92b85f87c119
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/26/2018
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携 
 =========================================
@@ -30,12 +30,12 @@ Exchange Online 専用 – レガシーまたは Exchange On-premises にホス�
 
 **サポートされるアクション:** 
 
-| ユーザーのメールボックスのホスト先:   | チームを作成する   |チームに参加する|チャネルを作成する|会議を作成して表示する|ユーザー プロフィールの写真を変更する|コネクタを追加して構成する|タブを追加して構成する|ボットを追加して構成する|
-|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|はい|はい|はい|はい|はい|はい|はい|はい|
-|**Exchange Online 専用 vNext**|はい|はい|はい|はい|はい|はい|はい|はい|
-|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|はい|はい|はい|いいえ|いいえ|いいえ|はい| はい|
-|**Exchange On-premises** (Azure AD との同期が必要)|はい|はい|はい|はい*|いいえ|いいえ|はい|はい|
+| ユーザーのメールボックスのホスト先: | 証拠開示が可能| 訴訟ホールド | 保存期間| チームとチャネルの管理 |会議を作成して表示する| ユーザー プロフィールの写真を変更する | 通話履歴 | 連絡先を管理します。 | Outlook の連絡先にアクセスします。 | ボイスメール |コネクタを追加して構成する|タブを追加して構成する|ボットを追加して構成する| 
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|**Exchange Online**|はい|はい|はい|あり|はい|はい|はい|はい|はい|はい|はい|はい|はい|
+|**Exchange Online 専用 vNext**|はい|はい|あり|あり|あり|はい|はい|あり|はい|はい|はい|あり|はい|
+|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|[はい] (許可されたリスト)|なし|なし|あり|なし|なし|あり|あり|なし|[はい] (Exchange 2013 +)|なし|あり|はい|
+|**Exchange On-premises** (Azure AD との同期が必要)|[はい] (許可されたリスト)|なし|なし|あり|[はい] (Exchange 2016 CU3 +)|なし|あり|あり|なし|[はい] (Exchange 2013 +)|なし|あり|はい|
                                                             
 *\*Exchange 2016 CU3 以降でサポートされます*
 

@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn how to get new, port, or transfer existing numbers for Skype for Business, and how to show the changes to your users. '
-ms.openlocfilehash: c9e5d08879f9ec176cbe4659d49e351ba08ffce7
-ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
+ms.openlocfilehash: daa722993d0734f0601c9ac5d02f39041d0d082d
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>ユーザー用に電話番号を取得する
 
@@ -73,7 +73,7 @@ ms.lasthandoff: 04/20/2018
 7. 目的の電話番号を選んでから、[ **番号の入手**] を選びます。
     
     > [!IMPORTANT]
-    > (サブスクライバー) のユーザーの電話番号の数は、**国内を呼び出すことを計画****国内および国際を呼び出す計画**のライセンスを割り当てる 1.1、および追加の電話番号の 10 を掛けた値の合計数と同じです。 たとえば、合計、国内を呼び出すことを計画することで、国内および国際の計画を呼び出すことで、50 人のユーザーがあれば、 **65**電話番号**(50 x 1.1 + 10)**を取得できます。 詳細についてを参照してください[電話番号の数を取得することができますか?](how-many-phone-numbers-can-you-get.md)です。 さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。 
+    > (サブスクライバー) のユーザーの電話番号の数は、**国内を呼び出すことを計画****国内および国際を呼び出す計画**のライセンスを割り当てる 1.1、および追加の電話番号の 10 を掛けた値の合計数と同じです。 たとえば、合計、国内を呼び出すことを計画することで、国内および国際の計画を呼び出すことで、50 人のユーザーがあれば、 **65**電話番号 **(50 x 1.1 + 10)** を取得できます。 詳細についてを参照してください[電話番号の数を取得することができますか?](how-many-phone-numbers-can-you-get.md)です。 さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。 
   
  **使用中のサービス プロバイダーまたは携帯電話会社から電話番号を移行する**
   
@@ -110,9 +110,9 @@ ms.lasthandoff: 04/20/2018
 
 [[Skype for Business 新しい電話番号の申請](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。
 
-[緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
+[緊急通話の利用条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

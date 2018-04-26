@@ -18,11 +18,11 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '(PSTN の呼び出し)、Office 365 と何ができるかについては、それらの呼び出し元の計画に関する既知の問題について説明します。 '
-ms.openlocfilehash: c4e3834960439fb09c58ece2bf9e39e2756419e7
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: d201db80c2da09223d8e3b1935c383089f997382
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="calling-plans-known-issues"></a>既知の問題の計画を呼び出す
 
@@ -32,7 +32,7 @@ Office 365 の通話プランは、Skype については、オンライン ビ�
 
 |**既知の問題**|**コメント**|
 |:-----|:-----|
-|テクニカル プレビューからの移行計画を呼び出すための生産ライセンスをライセンスは自動的に更新ライセンス。  <br/> |ユーザーに割り当てる準備ができるように最初に、新しいライセンスを購入します。 プロモーション (Tech Preview) ライセンスをユーザーから削除し、**すぐに****国内を呼び出すことを計画****国内および国際を呼び出す計画**の新しいライセンスをユーザーに割り当てます。 <br/> 削除して、複数のユーザーのライセンスを追加している場合、すべての Windows PowerShell を使用してユーザーからライセンスを削除して、すべての Windows PowerShell を使用してユーザーのライセンスを**すぐに**割り当てることは非常に重要です。 これがあることを確認しないサービスの中断は大量のユーザー ライセンスの割り当てを処理する場合。 PowerShell のサンプル スクリプトは、[ビジネスおよびマイクロソフトのチームのライセンスの割り当ての Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)を参照してください。  <br/> **注:**ハイブリッド ユーザーに設置した PSTN 接続を使用する場合は、する*だけ***電話システム**のライセンスを割り当てる必要があります。 **しないで**計画を呼び出すボイスを割り当てることもできます。 ただし、Office 365 ではユーザーに対して Office 365 のプランを呼び出すことを有効する場合は、まだ**国内を呼び出すことを計画**またはユーザーのための**国内および国際を呼び出す計画**ライセンスを割り当てる必要があります。 「[Skype for Business と Microsoft Teams のライセンスを割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)」をご覧ください。
+|テクニカル プレビューからの移行計画を呼び出すための生産ライセンスをライセンスは自動的に更新ライセンス。  <br/> |ユーザーに割り当てる準備ができるように最初に、新しいライセンスを購入します。 プロモーション (Tech Preview) ライセンスをユーザーから削除し、**すぐに****国内を呼び出すことを計画****国内および国際を呼び出す計画**の新しいライセンスをユーザーに割り当てます。 <br/> 削除して、複数のユーザーのライセンスを追加している場合、すべての Windows PowerShell を使用してユーザーからライセンスを削除して、すべての Windows PowerShell を使用してユーザーのライセンスを**すぐに**割り当てることは非常に重要です。 これがあることを確認しないサービスの中断は大量のユーザー ライセンスの割り当てを処理する場合。 PowerShell のサンプル スクリプトは、[ビジネスおよびマイクロソフトのチームのライセンスの割り当ての Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)を参照してください。  <br/> **注:** ハイブリッド ユーザーに設置した PSTN 接続を使用する場合は、する*だけ***電話システム**のライセンスを割り当てる必要があります。 **しないで**計画を呼び出すボイスを割り当てることもできます。 ただし、Office 365 ではユーザーに対して Office 365 のプランを呼び出すことを有効する場合は、まだ**国内を呼び出すことを計画**またはユーザーのための**国内および国際を呼び出す計画**ライセンスを割り当てる必要があります。 「[Skype for Business と Microsoft Teams のライセンスを割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)」をご覧ください。
 
 > [!NOTE]
 > これよりも、他の電話番号を取得する場合は、[ビジネス製品の管理のヘルプのサポートに連絡](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)してください。         |
@@ -44,9 +44,9 @@ Office 365 の通話プランは、Skype については、オンライン ビ�
 
 [[Skype for Business 新しい電話番号の申請](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。
 
-[緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
+[緊急通話の利用条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: 緊急通話の免責事項ラベル](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

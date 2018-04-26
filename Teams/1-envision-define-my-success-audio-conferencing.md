@@ -11,11 +11,12 @@ description: オーディオ会議の展開の結果を測定し、希望する�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80af34d827ecc1646e85f7a8db4593dbf446ed30
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
+ms.openlocfilehash: 3da7257ed094913ac377c7b91e5f2c1d7982fa7e
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="define-my-success"></a>自分の成功を定義します。
 
@@ -52,9 +53,9 @@ ms.lasthandoff: 04/05/2018
 
 お客様のビジネスを定義するだけでなくドライブの明瞭さを回避することを目的とする必要があるプロジェクトの範囲を設定する場合を使用します。
 
--   **組織の範囲:**オーディオ会議の実装には、組織全体または単に特定の部署が含まれている可能性があります。
+-   **組織の範囲:** オーディオ会議の実装には、組織全体または単に特定の部署が含まれている可能性があります。
 
--   **プロジェクトのタイムライン:**特定のタイムライン、プロジェクトが実行されます。
+-   **プロジェクトのタイムライン:** 特定のタイムライン、プロジェクトが実行されます。
 
 <br>
 |         |         |         |

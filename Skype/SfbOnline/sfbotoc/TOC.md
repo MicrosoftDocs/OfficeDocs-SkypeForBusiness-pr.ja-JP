@@ -34,6 +34,8 @@
 ### [Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 ### [会議の入退室通知をオンまたはオフにする](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
 
+
+
 ## [Office 365 の通話プラン](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
 ### [組織の緊急対応の場所を追加、変更、削除する](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
 ### [組織の緊急対応の住所を追加または削除する](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
@@ -59,7 +61,7 @@
 #### [米国での電話番号の管理](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 ### [組織内での発信者番号の使用方法](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md)
 ### [取得できる電話番号の数について](../what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get.md)
-### [明細行 ID を呼び出すと関係者の名前を呼び出すことについて](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name)
+###[明細行 ID を呼び出すと関係者の名前を呼び出すことについて](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
 ### [ユーザーの電話番号を検索する](../what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users.md)
 ### [組織の電話番号のリストを表示する](../what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization.md)
 ### [ユーザーに発信者番号を設定する](../what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user.md)
@@ -169,11 +171,12 @@
 ### [ユーザー アカウントを管理する](../set-up-your-computer-for-windows-powershell/manage-user-accounts.md)
 ### [Skype for Business Online Connector を使用して組織を管理する](../set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations.md)
 
-## アクセシビリティと規制
-### [フランスでの Skype for Business Online のアクセシビリティに関する適合宣言](../accessibility-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
-### [フランスでの Skype for Business Online のアクセシビリティ ソリューション](../accessibility-and-regulatory/accessibility-solutions-in-france.md)
-### [無料のダイヤルアウト期間](../accessibility-and-regulatory/complimentary-dial-out-period.md)
-### [英国向けの実施規約](../accessibility-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
-### [英国向けの苦情処理規約](../accessibility-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
-### [データ収集方法](../accessibility-and-regulatory/data-collection-practices.md)
-### [サード ・ パーティ製の音声会議のビジネス用の Skype の統合のためのライフ プログラムの終了](../accessibility-and-regulatory/end-of-integration-with-3rd-party-providers.md)
+## 法律や規制
+### [フランスでの Skype for Business Online のアクセシビリティに関する適合宣言](../legal-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
+### [フランスでの Skype for Business Online のアクセシビリティ ソリューション](../legal-and-regulatory/accessibility-solutions-in-france.md)
+### [無料のダイヤルアウト期間](../legal-and-regulatory/complimentary-dial-out-period.md)
+### [英国向けの実施規約](../legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
+### [英国向けの苦情処理規約](../legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
+### [データ収集方法](../legal-and-regulatory/data-collection-practices.md)
+### [緊急の呼び出し元のラベル](../legal-and-regulatory/emergency-calling-labels.md)
+### [サード ・ パーティ製の音声会議のビジネス用の Skype の統合のためのライフ プログラムの終了](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)
