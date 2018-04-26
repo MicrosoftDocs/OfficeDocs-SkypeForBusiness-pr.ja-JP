@@ -20,32 +20,32 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'ビジネス用の Skype でのキャリアが一覧にない場合の対処方法を説明します。 '
-ms.openlocfilehash: 1cebfb2858161f03c4a688592454b8602b6606f0
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 80946b3950965b3b2f3ce8aaff46f29622f2b5a5
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a><span data-ttu-id="639ec-103">場合ソース キャリアとして、電話のキャリアが一覧にないでしょうか。</span><span class="sxs-lookup"><span data-stu-id="639ec-103">What if my phone carrier isn't listed as the source carrier?</span></span>
+# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a><span data-ttu-id="733f5-103">場合ソース キャリアとして、電話のキャリアが一覧にないでしょうか。</span><span class="sxs-lookup"><span data-stu-id="733f5-103">What if my phone carrier isn't listed as the source carrier?</span></span>
 
-<span data-ttu-id="639ec-104">キャリアの名前が表示されないことが表示されたら、少しややこしいかもしれませんが。</span><span class="sxs-lookup"><span data-stu-id="639ec-104">It's a little confusing when you see that the name of your carrier isn't listed.</span></span> <span data-ttu-id="639ec-105">ほとんどの場合、サービスプロバイダーまたは通信業者が異なる場合、可能性があります経由で転送する電話番号が別のサービス プロバイダーやキャリアによって所有されています。</span><span class="sxs-lookup"><span data-stu-id="639ec-105">In most cases, if the service provider or carrier is different, chances are that the phone numbers you are transferring over are owned by a different service provider or carrier.</span></span> <span data-ttu-id="639ec-106">サービス ・ プロバイダーやキャリアが表示されている可能性があります、現在のサービス プロバイダーとは異なる、現在のサービス プロバイダーは、サードパーティのサービス プロバイダーの機能可能性があります時間があります。</span><span class="sxs-lookup"><span data-stu-id="639ec-106">There can be times when the service provider or carrier that is listed could be different from your current service provider because your current service provider may be working with a third-party service provider.</span></span> 
+<span data-ttu-id="733f5-104">キャリアの名前が表示されないことが表示されたら、少しややこしいかもしれませんが。</span><span class="sxs-lookup"><span data-stu-id="733f5-104">It's a little confusing when you see that the name of your carrier isn't listed.</span></span> <span data-ttu-id="733f5-105">ほとんどの場合、サービスプロバイダーまたは通信業者が異なる場合、可能性があります経由で転送する電話番号が別のサービス プロバイダーやキャリアによって所有されています。</span><span class="sxs-lookup"><span data-stu-id="733f5-105">In most cases, if the service provider or carrier is different, chances are that the phone numbers you are transferring over are owned by a different service provider or carrier.</span></span> <span data-ttu-id="733f5-106">サービス ・ プロバイダーやキャリアが表示されている可能性があります、現在のサービス プロバイダーとは異なる、現在のサービス プロバイダーは、サードパーティのサービス プロバイダーの機能可能性があります時間があります。</span><span class="sxs-lookup"><span data-stu-id="733f5-106">There can be times when the service provider or carrier that is listed could be different from your current service provider because your current service provider may be working with a third-party service provider.</span></span> 
   
-<span data-ttu-id="639ec-107">例を示します。</span><span class="sxs-lookup"><span data-stu-id="639ec-107">An example:</span></span>
+<span data-ttu-id="733f5-107">例を示します。</span><span class="sxs-lookup"><span data-stu-id="733f5-107">An example:</span></span>
   
-- <span data-ttu-id="639ec-108">キャリアとしてのビジネスのための Skype の番号を移植する場合は、レベル 3 に記載されているを参照してください可能性があります。</span><span class="sxs-lookup"><span data-stu-id="639ec-108">If you are porting number from Skype for Business as your carrier, you might see Level3 listed.</span></span>
+- <span data-ttu-id="733f5-108">キャリアとしてのビジネスのための Skype の番号を移植する場合は、レベル 3 に記載されているを参照してください可能性があります。</span><span class="sxs-lookup"><span data-stu-id="733f5-108">If you are porting number from Skype for Business as your carrier, you might see Level3 listed.</span></span>
     
- <span data-ttu-id="639ec-109">**完全な手順については、 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)を参照してください。**</span><span class="sxs-lookup"><span data-stu-id="639ec-109">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).**</span></span>
+ <span data-ttu-id="733f5-109">**完全な手順については、 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)を参照してください。**</span><span class="sxs-lookup"><span data-stu-id="733f5-109">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).**</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="639ec-110">無料電話番号</span><span class="sxs-lookup"><span data-stu-id="639ec-110">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+    > <span data-ttu-id="733f5-110">無料電話番号</span><span class="sxs-lookup"><span data-stu-id="733f5-110">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
   
-## <a name="related-topics"></a><span data-ttu-id="639ec-111">[米国 (無料の電話番号) 用の承認状 (LOA) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.S. (Toll Free numbers) (v.3.1) (en-US).pdf)</span><span class="sxs-lookup"><span data-stu-id="639ec-111">Related topics</span></span>
-<span data-ttu-id="639ec-112">電話番号の管理フォームのダウンロード</span><span class="sxs-lookup"><span data-stu-id="639ec-112">[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)</span></span>
+## <a name="related-topics"></a><span data-ttu-id="733f5-111">[米国 (無料の電話番号) 用の承認状 (LOA) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.S. (Toll Free numbers) (v.3.1) (en-US).pdf)</span><span class="sxs-lookup"><span data-stu-id="733f5-111">Related topics</span></span>
+<span data-ttu-id="733f5-112">電話番号の管理フォームのダウンロード</span><span class="sxs-lookup"><span data-stu-id="733f5-112">[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)</span></span>
 
-[<span data-ttu-id="639ec-113">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="639ec-113">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="733f5-113">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="733f5-113">Emergency calling terms and conditions</span></span>](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[<span data-ttu-id="639ec-114">Skype for Business Online: 緊急通話の免責事項ラベル</span><span class="sxs-lookup"><span data-stu-id="639ec-114">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
+<span data-ttu-id="733f5-114">[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="733f5-114">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  

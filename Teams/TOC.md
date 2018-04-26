@@ -94,9 +94,8 @@
 
 
 ## [展開の手引き](cloud-voice-deployment.md)
-### [オーディオ会議の私の成功を定義します。](1-envision-define-my-success-audio-conferencing.md)
+### [自分の成功を定義します。](1-envision-define-my-success-cloud-voice.md)
 ### [意思決定、サービス ・電話会議](2-envision-make-my-service-decisions-audio-conferencing.md)
-### [私の成功の計画を呼び出すと、電話システムの定義します。](1-envision-define-my-success-phone-system.md)
 ### [意思決定、サービスの計画を呼び出すと、電話システム](2-envision-make-my-service-decisions-phone-system.md)
 ### [自分の環境を評価します。](3-envision-evaluate-my-environment.md)
 ### [[サービスの管理を計画します。](4-envision-plan-my-service-management.md)
@@ -157,7 +156,7 @@
 ### [PIN を使用せずに電話で音声会議を開始する](/SkypeForBusiness/audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Office 365 での電話会議を使用または購入する](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [会議の入退室通知をオンまたはオフにする](/SkypeForBusiness/audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [音声会議の無料ダイヤル アウト期間](/SkypeForBusiness/accessibility-and-regulatory/complimentary-dial-out-period?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [音声会議の無料ダイヤル アウト期間](/SkypeForBusiness/legal-and-regulatory/complimentary-dial-out-period?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [ビデオ - Audio Conferencing in Teams (Teams での電話会議)](audio-conferencing-videos.md)
 
 ## 通話プラン
@@ -193,8 +192,8 @@
 ### [電話番号の移行に関するよくある質問](/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Office 365 の通話プランについて](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [緊急対応の場所、住所、通話ルーティングの概要](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Office 365 での通話プラン - 英国 (U.K.) での実施基準](/SkypeForBusiness/accessibility-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Office 365 での通話プラン - 英国 (U.K.) での苦情処理基準](/SkypeForBusiness/accessibility-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Office 365 での通話プラン - 英国 (U.K.) での実施基準](/SkypeForBusiness/legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Office 365 での通話プラン - 英国 (U.K.) での苦情処理基準](/SkypeForBusiness/legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
 ## 電話システム
@@ -210,7 +209,7 @@
 
 
 # セキュリティとコンプライアンス
-## [Skype for Business と Teams のデータ収集方法](/SkypeForBusiness/accessibility-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Skype for Business と Teams のデータ収集方法](/SkypeForBusiness/legal-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Teams のコンテンツに対して電子情報開示の調査を行う](ediscovery-investigation.md)
 ## [Teams での ID モデルと認証](identify-models-authentication.md)
 ## [Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)
@@ -275,8 +274,8 @@
 
 
 # アクセシビリティ
-## [フランスでの Skype for Business Online のアクセシビリティに関する適合宣言](/SkypeForBusiness/accessibility-and-regulatory/accessibility-declaration-of-conformance-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [フランスでの Skype for Business Online のアクセシビリティ ソリューション](/SkypeForBusiness/accessibility-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [フランスでの Skype for Business Online のアクセシビリティに関する適合宣言](/SkypeForBusiness/legal-and-regulatory/accessibility-declaration-of-conformance-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [フランスでの Skype for Business Online のアクセシビリティ ソリューション](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 #教育用 Teams
 ## [クイック スタート - 教育用 Teams の管理者](teams-quick-start-edu.yml)

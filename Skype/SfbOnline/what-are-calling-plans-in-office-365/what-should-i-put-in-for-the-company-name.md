@@ -20,30 +20,30 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: '会社のビジネスでは、Skype での配置し、それを見つけることができます。 '
-ms.openlocfilehash: f2b25c6d0adac626091163b39ab220a1000bae28
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 94447955696eff81fa64b253da7c70309b284bc9
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="what-should-i-put-in-for-the-company-name"></a><span data-ttu-id="bbf25-103">入れるもの、会社名のでしょうか。</span><span class="sxs-lookup"><span data-stu-id="bbf25-103">What should I put in for the company name?</span></span>
+# <a name="what-should-i-put-in-for-the-company-name"></a><span data-ttu-id="3631a-103">入れるもの、会社名のでしょうか。</span><span class="sxs-lookup"><span data-stu-id="3631a-103">What should I put in for the company name?</span></span>
 
-<span data-ttu-id="bbf25-104">これは、会社または組織の名前です。</span><span class="sxs-lookup"><span data-stu-id="bbf25-104">This is the name of your company or organization.</span></span> <span data-ttu-id="bbf25-105">会社の名前は、次のような空白が含まれている、25 文字までに制限します。</span><span class="sxs-lookup"><span data-stu-id="bbf25-105">The name of the company is limited to 25 characters, which includes spaces.</span></span> <span data-ttu-id="bbf25-106">ポート注文要求を処理する会社の名前が使用されていません。争議の場合に使用されますか何かがない正しい電話番号を移植するとき。</span><span class="sxs-lookup"><span data-stu-id="bbf25-106">The name of the company isn't used to process the port order request; it is used in the case of a dispute or if something is incorrect when the phone numbers are being ported over.</span></span> <span data-ttu-id="bbf25-107">ボックスに会社名の全体を収めることはできません、ファイルと、遅延はありませんか、ポートの注文をキャンセルします。</span><span class="sxs-lookup"><span data-stu-id="bbf25-107">If you can't fit the entire name of the company in the box, it won't delay or cancel the port order.</span></span>
+<span data-ttu-id="3631a-104">これは、会社または組織の名前です。</span><span class="sxs-lookup"><span data-stu-id="3631a-104">This is the name of your company or organization.</span></span> <span data-ttu-id="3631a-105">会社の名前は、次のような空白が含まれている、25 文字までに制限します。</span><span class="sxs-lookup"><span data-stu-id="3631a-105">The name of the company is limited to 25 characters, which includes spaces.</span></span> <span data-ttu-id="3631a-106">ポート注文要求を処理する会社の名前が使用されていません。争議の場合に使用されますか何かがない正しい電話番号を移植するとき。</span><span class="sxs-lookup"><span data-stu-id="3631a-106">The name of the company isn't used to process the port order request; it is used in the case of a dispute or if something is incorrect when the phone numbers are being ported over.</span></span> <span data-ttu-id="3631a-107">ボックスに会社名の全体を収めることはできません、ファイルと、遅延はありませんか、ポートの注文をキャンセルします。</span><span class="sxs-lookup"><span data-stu-id="3631a-107">If you can't fit the entire name of the company in the box, it won't delay or cancel the port order.</span></span>
   
- <span data-ttu-id="bbf25-108">**完全な手順については、 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)を参照してください。**</span><span class="sxs-lookup"><span data-stu-id="bbf25-108">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).**</span></span>
+ <span data-ttu-id="3631a-108">**完全な手順については、 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)を参照してください。**</span><span class="sxs-lookup"><span data-stu-id="3631a-108">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).**</span></span>
  
 > [!NOTE]
-> <span data-ttu-id="bbf25-109">無料電話番号</span><span class="sxs-lookup"><span data-stu-id="bbf25-109">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="3631a-109">無料電話番号</span><span class="sxs-lookup"><span data-stu-id="3631a-109">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
   
-## <a name="related-topics"></a><span data-ttu-id="bbf25-110">[米国 (無料の電話番号) 用の承認状 (LOA) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.S. (Toll Free numbers) (v.3.1) (en-US).pdf)</span><span class="sxs-lookup"><span data-stu-id="bbf25-110">Related topics</span></span>
-<span data-ttu-id="bbf25-111">電話番号の管理フォームのダウンロード</span><span class="sxs-lookup"><span data-stu-id="bbf25-111">[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)</span></span>
+## <a name="related-topics"></a><span data-ttu-id="3631a-110">[米国 (無料の電話番号) 用の承認状 (LOA) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.S. (Toll Free numbers) (v.3.1) (en-US).pdf)</span><span class="sxs-lookup"><span data-stu-id="3631a-110">Related topics</span></span>
+<span data-ttu-id="3631a-111">電話番号の管理フォームのダウンロード</span><span class="sxs-lookup"><span data-stu-id="3631a-111">[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)</span></span>
 
-[<span data-ttu-id="bbf25-112">通話プランで使用されるさまざまな種類の電話番号</span><span class="sxs-lookup"><span data-stu-id="bbf25-112">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[<span data-ttu-id="3631a-112">通話プランで使用されるさまざまな種類の電話番号</span><span class="sxs-lookup"><span data-stu-id="3631a-112">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[<span data-ttu-id="bbf25-113">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="bbf25-113">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="3631a-113">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="3631a-113">Emergency calling terms and conditions</span></span>](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[<span data-ttu-id="bbf25-114">Skype for Business Online: 緊急通話の免責事項ラベル</span><span class="sxs-lookup"><span data-stu-id="bbf25-114">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
+<span data-ttu-id="3631a-114">[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="3631a-114">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  
