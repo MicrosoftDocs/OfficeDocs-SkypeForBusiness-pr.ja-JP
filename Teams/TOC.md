@@ -152,7 +152,6 @@
 ### [電話会議の自動案内の言語を設定する](/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [出席依頼に含まれている電話番号を設定する](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [電話会議の PIN の長さを設定する](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-pin-length-for-audio-conferencing-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Meeting Migration Service (MMS) のセットアップ](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
 ### [PIN を使用せずに電話で音声会議を開始する](/SkypeForBusiness/audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Office 365 での電話会議を使用または購入する](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [会議の入退室通知をオンまたはオフにする](/SkypeForBusiness/audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -209,10 +208,10 @@
 
 
 # セキュリティとコンプライアンス
+## [Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)
 ## [Skype for Business と Teams のデータ収集方法](/SkypeForBusiness/legal-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Teams のコンテンツに対して電子情報開示の調査を行う](ediscovery-investigation.md)
 ## [Teams での ID モデルと認証](identify-models-authentication.md)
-## [Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)
 ## [Teams ユーザーまたはチームに訴訟ホールドを適用する](legal-hold.md)
 ## [Teams でイベントの監査ログを検索する](audit-log-events.md)
 ## [Teams のコンテンツ検索を使用する](content-search.md)

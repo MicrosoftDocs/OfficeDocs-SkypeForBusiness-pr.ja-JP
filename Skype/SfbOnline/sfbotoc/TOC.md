@@ -174,6 +174,8 @@
 ## 法律や規制
 ### [フランスでの Skype for Business Online のアクセシビリティに関する適合宣言](../legal-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
 ### [フランスでの Skype for Business Online のアクセシビリティ ソリューション](../legal-and-regulatory/accessibility-solutions-in-france.md)
+### [カナダ - IP 中継をサインアップします。](../legal-and-regulatory/ip-relay-canada-email-signup.md)
+### [カナダの 『 ユーザーズ ガイド 』 での IP のリレー](../legal-and-regulatory/ip-relay-canada-user-guide.md)
 ### [無料のダイヤルアウト期間](../legal-and-regulatory/complimentary-dial-out-period.md)
 ### [英国向けの実施規約](../legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
 ### [英国向けの苦情処理規約](../legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
