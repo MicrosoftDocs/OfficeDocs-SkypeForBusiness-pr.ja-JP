@@ -21,15 +21,15 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: Meeting Migration Service (MMS) は Skype for Business サービスの 1 つで、バックグラウンドで動作して、ユーザーのために Skype for Business および Microsoft Teams 会議を自動的に更新します。MMS はユーザーが会議移行ツールを実行して Skype for Business および Microsoft Teams 会議を更新しなくても済むように設計されています。
-ms.openlocfilehash: e240d9913ac543495286d8151bc0200a0f7c196d
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 3dd85d0e4eb588a916c7c4738c982a888133b3bd
+ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="setting-up-the-meeting-migration-service-mms"></a>Meeting Migration Service (MMS) のセットアップ
 
-[] Meeting Migration Service (MMS) は Skype for Business サービスの 1 つで、バックグラウンドで動作して、ユーザーのために Skype for Business および Microsoft Teams 会議を自動的に更新します。MMS はユーザーが会議移行ツールを実行して Skype for Business および Microsoft Teams 会議を更新しなくても済むように設計されています。
+Meeting Migration Service (MMS) は Skype for Business サービスの 1 つで、バックグラウンドで動作して、ユーザーのために Skype for Business および Microsoft Teams 会議を自動的に更新します。 MMS はユーザーが会議移行ツールを実行して Skype for Business および Microsoft Teams 会議を更新しなくても済むように設計されています。  このツールは、マイクロソフトのチーム ミーティングにビジネス会議のため Skype を移行しません。  
   
  **要件**
   

@@ -3,7 +3,7 @@
 
 ## [国および地域ごとの電話会議および通話プランの利用可能性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## [Office 365 での電話会議](../audio-conferencing-in-office-365/audio-conferencing-in-office-365.md)  
+## [Office 365 での電話会議](../audio-conferencing-in-office-365/audio-conferencing-in-office-365.md) 
 ### [Microsoft を電話会議プロバイダーとして割り当てる](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
 ### [電話会議に関するよくある質問](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md)
 ### [電話会議でサポートされる言語](../audio-conferencing-in-office-365/audio-conferencing-supported-languages.md)
@@ -33,6 +33,7 @@
 ### [PIN を使用せずに電話で音声会議を開始する](../audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin.md)
 ### [Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 ### [会議の入退室通知をオンまたはオフにする](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
+
 
 
 ## [Office 365 の通話プラン](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
@@ -93,10 +94,19 @@
 ### [Skype 会議ブロードキャストの設定を変更する](../set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings.md)
 
 ## [Skype for Business と Microsoft Teams のアドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+### 計画に基づくライセンス オプション
+#### [Office 365 ビジネス プレミアム](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
+#### [Office 365 のプレミアム、Office 365 用のリソース、またはビジネス用の Skype オンライン 2 を計画](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
+#### [Office 365 エンタープライズ E1、E3 および E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
+#### [Office 365 エンタープライズ E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
+#### [(オーディオ会議) なしで office 365 のエンタープライズ E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
+#### [Skype Room Systems v2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+#### [GOV、EDU、および非営利組織](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
 ### [利用可能残高を追加して、コミュニケーション クレジットを管理する](../skype-for-business-and-microsoft-teams-add-on-licensing/add-funds-and-manage-communications-credits.md)
 ### [Skype for Business と Microsoft Teams のライセンスを割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
 ### [分数ごと従量課金制電話会議 ](../skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute.md)
 ### [組織のためにコミュニケーション クレジットをセットアップする](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)
+### [Office 365 の通話プラン](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md)
 ### [コミュニケーション クレジットについて](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
 
 ## [Skype for Business Online のセットアップ](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
@@ -164,6 +174,8 @@
 ## 法律や規制
 ### [フランスでの Skype for Business Online のアクセシビリティに関する適合宣言](../legal-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
 ### [フランスでの Skype for Business Online のアクセシビリティ ソリューション](../legal-and-regulatory/accessibility-solutions-in-france.md)
+### [カナダ - IP 中継をサインアップします。](../legal-and-regulatory/ip-relay-canada-email-signup.md)
+### [カナダの 『 ユーザーズ ガイド 』 での IP のリレー](../legal-and-regulatory/ip-relay-canada-user-guide.md)
 ### [無料のダイヤルアウト期間](../legal-and-regulatory/complimentary-dial-out-period.md)
 ### [英国向けの実施規約](../legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
 ### [英国向けの苦情処理規約](../legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)

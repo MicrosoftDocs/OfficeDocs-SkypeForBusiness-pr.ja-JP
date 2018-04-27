@@ -25,11 +25,11 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'ユーザーが別の組織内のユーザーに問い合わせるか、外にそれらの連絡先を使用できるようにするのにはビジネス用の Skype を構成する方法を参照してください。 '
-ms.openlocfilehash: 533bf45ff1abd0a1127ff54c91ab4c424c7d2df8
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 59ef459db2af5fe42c7a84fbef2d2a09b70ee783
+ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>ビジネス ユーザー向けの外部の Skype の連絡先ユーザーを許可します。
 
@@ -47,11 +47,6 @@ ms.lasthandoff: 04/18/2018
 ## <a name="enable-business-to-business-communications-for-your-users"></a>ユーザーの企業間の通信を有効にします。
 <a name="bk_preview"> </a>
 
-この動作を確認するには、このビデオを確認してください。
-***
-> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=492278f0-6912-47ba-a1d1-00040061cf44&AutoPlayVideo=false]
-***
-
 これを行う 2 つの組織で Office 365 の[管理者のアクセス許可](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)が必要です。
   
 1. Office 365 管理者アカウントでサインインします。 
@@ -66,7 +61,7 @@ ms.lasthandoff: 04/18/2018
     
     ビジネス ポリシーでは、Skype の選択を開くには世界中の他のすべてとの通信を有効にするかどうか、または、**をブロックするドメインを除く**。 これは既定の設定です。
     
-5. [**ブロックまたは許可するドメイン**] を選択して**+**を許可するドメインの名前を追加します。
+5. [**ブロックまたは許可するドメイン**] を選択して**+** を許可するドメインの名前を追加します。
     
 6. その他の組織の管理者には、**ビジネス管理センターの Skype**では、次の同じ手順を確認します。 などの**ドメインを許可する**ボックスの一覧で、管理者が自社のドメインを入力する必要があります。
     

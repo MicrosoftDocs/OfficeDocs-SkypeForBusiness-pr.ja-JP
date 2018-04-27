@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: この資料では、Skype ルーム システム v2 では、Skype ルーム システムの次世代を展開するため、関連する計画に関する考慮事項について説明します。
-ms.openlocfilehash: 372c920eaeaaee050e420cd25195565555426561
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 7b36e9bc9c85a57b81be542f09d65c357f6020c0
+ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="plan-for-skype-room-systems-v2"></a>Skype Room Systems バージョン 2 の計画
  
@@ -24,12 +24,12 @@ ms.lasthandoff: 04/26/2018
   
 Skype ルーム システム v2 では、Skype の会議のユーザー インターフェイスとして機能する専用の UWP アプリケーションを使用します。 Surface Pro 4 または Surface Pro のコンソール モードで実行される (UWP のアプリケーションを展開した後は、デバイス上で実行される唯一のアプリケーション)、ビジネスの実装については、Skype の独自デバイスのアカウントを必要とします。 LCD パネルや比較的安価な周辺機器のカメラのような既存の機器を活用し、および品質の会議室を提供するのにはマイクが発生します。 Windows ストアと Windows の更新プログラムの両方を使用してソフトウェアを更新します。
   
-環境の準備を始める前に、必要なハードウェアとソフトウェアがあることを確認します。 詳細については、 [Skype ルーム システム v2 の要件](requirements.md)を参照してください。 
+お客様の環境の準備を開始する前に必要なハードウェアおよびソフトウェアがあることを確認します。 詳細については、 [Skype ルーム システム v2 の要件](requirements.md)を参照してください。 
   
 > [!NOTE]
 > Skype ルーム システム v2 は、使用で Skype ビジネス サーバー 2015 または Skype のオンライン ビジネスの。 Lync Server 2013 のような以前のプラットフォームは、Skype ルーム システム v2 を使用する必要はありません。 
   
-Skype ルーム システム v2 は、ビジネス経験の豊富な共同の Skype 会議室に変換するように設計された、マイクロソフトの最新の会議ソリューションです。 ユーザーは慣れ親しんだ Skype for Business インターフェイスを活用し、IT 管理者は Windows 10 Skype Meeting アプリを簡単に展開および管理することができます。 Skype ルーム システム v2 は、Skype をビジネスの会議室に移動するのにはインストールの容易さの LCD パネルと同様に既存の機器を活用するよう設計されています。
+
   
  **Skype for Business 用**
   
