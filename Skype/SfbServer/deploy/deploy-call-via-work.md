@@ -7,19 +7,21 @@ ms.date: 10/31/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: '概要: は、ユーザーの一部またはすべてのビジネス サーバー 2015 の Skype の呼び出しを使用して作業を配置する方法を説明します。'
-ms.openlocfilehash: 325134bd4e24621bbb223ccc47180274256eaca2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e101cf39daedb8d94879b6cf99cd0c7b4ae00e8d
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での "勤務先から通話" の展開
  
-**の概要:**ビジネス サーバー 2015 の一部またはすべてのユーザーの Skype の呼び出しを使用して作業を配置する方法について説明します。
+**の概要:** ビジネス サーバー 2015 の一部またはすべてのユーザーの Skype の呼び出しを使用して作業を配置する方法について説明します。
   
 ユーザーの作業を使用して呼び出しを配置するのにには、次の手順を使用します。 [ビジネス サーバー 2015 の Skype の呼び出しを使用して作業を計画](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)の計画に関する考慮事項が説明します。 Lync Server のリモート呼び出しの以前のバージョンでは、コントロールは、Lync Server は PBX 電話を制御するユーザーを有効にする機能でした。 ビジネス サーバーの Skype は、この機能は作業時間を使用して呼び出しを交換済み。 
   

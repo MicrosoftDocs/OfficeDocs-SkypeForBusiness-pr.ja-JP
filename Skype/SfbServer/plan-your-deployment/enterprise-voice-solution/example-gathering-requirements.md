@@ -7,16 +7,18 @@ ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: Skype で通話受付制御用ネットワークのサイト、地域、および帯域幅に関する情報の収集を含むビジネス サーバーのエンタープライズ VoIP の計画の詳細な例を提供します。
-ms.openlocfilehash: 1ff42aa9b26eb614ad8f09c15526236b10386da3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 11cf309c47143411a10d32eacf0305ead3d01294
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server-2015"></a>例: Skype for Business Server 2015 での通話受付管理の要件の収集
  

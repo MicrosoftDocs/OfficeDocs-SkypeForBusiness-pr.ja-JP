@@ -7,20 +7,22 @@ ms.date: 9/1/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 description: 概要では、Skype のセントラル サイトでのビジネス サーバー 2015 のエンタープライズ VoIP を展開する方法について説明します。
-ms.openlocfilehash: d7c6dc347991c198d445932463a44d9fe1a4ff89
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 858519652b9f50e11e87c2ac9d3777bae9371ae0
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="deploy-enterprise-voice-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのエンタープライズ VoIP の展開
  
-**の概要:**Skype のセントラル サイトでのビジネス サーバー 2015 のエンタープライズ VoIP を展開する方法について説明します。
+**の概要:** Skype のセントラル サイトでのビジネス サーバー 2015 のエンタープライズ VoIP を展開する方法について説明します。
   
 セントラル サイトでエンタープライズ VoIP を展開するのにには、このトピックを使用します。 ブランチ サイトでエンタープライズ VoIP を展開するには、[ブランチ サイトの展開](http://technet.microsoft.com/library/1475dee0-66ae-4ee5-b6f1-7409b4bbff45.aspx)をスキップします。
   

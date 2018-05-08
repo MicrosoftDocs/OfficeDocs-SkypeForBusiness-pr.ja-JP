@@ -7,20 +7,22 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: '概要: は、DNS を構成し、ビジネス サーバー 2015 の Skype のインストール用の DNS レコードを作成する方法を説明します。 マイクロソフト評価センターからのビジネス サーバー 2015 の Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: 4a8374c76995a0a42aad58b54aa0d567514d07de
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 67114ce24da3676a3278c9685169d1a1f2bed4db
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-dns-records-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 での DNS レコードの作成
  
-**の概要:**DNS を構成し、ビジネス サーバー 2015 の Skype のインストール用の DNS レコードを作成する方法について説明します。 マイクロソフト評価センターからのビジネス サーバー 2015 の Skype の無料試用版をダウンロード: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
+**の概要:** DNS を構成し、ビジネス サーバー 2015 の Skype のインストール用の DNS レコードを作成する方法について説明します。 マイクロソフト評価センターからのビジネス サーバー 2015 の Skype の無料試用版をダウンロード: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
   
 正常に動作するサーバーをビジネスの Skype は、いくつかのドメイン ネーム システム (DNS) 設定の必要があります。 これは、クライアントがサービスにアクセスする方法を認識し、サーバーが相互を認識するようにするためです。 ユーザーが DNS エントリを割り当てればドメイン全体で使用できるようになるため、これらの設定を完了する必要があるのは、展開ごとに 1 回だけです。 手順 1 ～ 5 は任意の順序で実行できます。 ただし、手順 6、7、および 8 は、手順 1 ～ 5 の後に、図の順序で実行する必要があります。 DNS レコードの作成は、8 つの手順のうちの 5 番目です。 DNS の計画についての詳細については、 [Skype のビジネス サーバー 2015 の環境の要件](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)を参照してください。
   
@@ -58,7 +60,7 @@ DNS レコードは、Skype ビジネス サーバーで正常に動作し、ユ
     
 2. [**ツール**] ドロップダウン メニューをクリックし、[**DNS**] をクリックします。
     
-3. SIP ドメインのコンソール ツリーで**[前方参照ゾーン**] を展開し、ビジネス サーバー用の Skype をインストールする SIP ドメインを展開し、します。
+3. SIP ドメインのコンソール ツリーで **[前方参照ゾーン**] を展開し、ビジネス サーバー用の Skype をインストールする SIP ドメインを展開し、します。
     
 4. 図のように、SIP ドメインを右クリックして、[**新しいホスト (A または AAAA)**] を選択します。
     
@@ -111,7 +113,7 @@ DNS レコードは、Skype ビジネス サーバーで正常に動作し、ユ
     
 2. [**スタート**] ボタンをクリックし、「**cmd**」と入力して、Enter キーを押します。
     
-3. 型**nslookup\<フロント エンド プールの FQDN\>**または**\<Standard Edition サーバーまたは Enterprise Edition の 1 つのサーバーの FQDN\>**、し、Enter キーを押します。
+3. 型**nslookup\<フロント エンド プールの FQDN\>** または**\<Standard Edition サーバーまたは Enterprise Edition の 1 つのサーバーの FQDN\>**、し、Enter キーを押します。
     
 4. 引き続き、展開の残りの A レコードを確認します。
     

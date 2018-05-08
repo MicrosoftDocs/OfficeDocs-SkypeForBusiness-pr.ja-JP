@@ -7,16 +7,18 @@ ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: ビジネス サーバー両方 PSTN ゲートウェイの Skype とエンタープライズ VoIP では、IP-PBX との間は、直接 SIP 接続がサポートされています。
-ms.openlocfilehash: 36b549b20708f0f9b09b8aeadf6f4197b9de1371
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c9dca75a7b1c7ac8fa60bafc5b7a2c2fa7b51490
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の直接 SIP 接続
  
@@ -37,9 +39,9 @@ ms.lasthandoff: 03/28/2018
 
 組織は、このセクションで説明する展開のいずれかを使用している場合は、組織の一部またはすべての唯一のテレフォニー ソリューションとしてビジネス サーバーの Skype を使用できます。 このセクションでは、次の展開の詳細について説明します。
   
-- **増分の展開:**このオプションは、既存の構内交換 (機 PBX) インフラストラクチャがあり、その小さなグループ、または組織内のチームにエンタープライズ VoIP を段階的導入するものとします。
+- **増分の展開:** このオプションは、既存の構内交換 (機 PBX) インフラストラクチャがあり、その小さなグループ、または組織内のチームにエンタープライズ VoIP を段階的導入するものとします。
     
-- **VoIP のみの展開:**このオプションでは、従来のテレフォニー インフラストラクチャを持たないサイトでエンタープライズ VoIP の展開を検討するいると仮定しています。
+- **VoIP のみの展開:** このオプションでは、従来のテレフォニー インフラストラクチャを持たないサイトでエンタープライズ VoIP の展開を検討するいると仮定しています。
     
 #### <a name="incremental-deployment"></a>増分の展開
 

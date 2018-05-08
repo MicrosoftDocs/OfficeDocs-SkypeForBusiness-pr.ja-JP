@@ -7,20 +7,21 @@ ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: '概要: は、Skype のビジネス サーバー 2015 計画中にクライアントのビデオ要件を確認します。'
-ms.openlocfilehash: fea2ae1aaa0e75248f9b1102bdfd9ebd5d03afb5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ea4c7e1cf9e0e1df24b00e817cac22128df1d0b8
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype ビジネス クライアントのビデオ解像度について
  
-**の概要:**Skype ビジネス サーバー 2015 の計画中に、クライアントのビデオ要件を確認します。
+**の概要:** Skype ビジネス サーバー 2015 の計画中に、クライアントのビデオ要件を確認します。
   
 この資料では、Skype のビデオ通話のビジネス用のビデオ ハードウェアのサポートについて説明し、さまざまなコンピューター、タブレット、およびモバイル デバイスの構成に必要なビデオの品質を決定する方法について説明します。 
   
@@ -38,7 +39,7 @@ IT プロフェッショナルに役立つ情報、組織内、または使用�
 |:-----|:-----|
 |DirectX Video Acceleration (DXVA) を使用したハードウェア アクセラレータ H.264 デコード  <br/> |• グラフィックス カードは、DirectX 9.0 がサポートする必要があり、DXVA2_ModeH264_VLD_NoFGT デコード モードと DirectX 9 の API を公開する必要があります。  <br/> • 最新のグラフィックス カードのドライバーをインストールする必要があります。  <br/> |
 |ハードウェア アクセラレータ H.264 エンコード: チップセット要件  <br/> |次の Intel ハードウェア アクセラレータ ビデオ エンコード ソリューションがサポートされます。  <br/> • 第 2、第 3 世代インテル HD グラフィックス 2000、2500、3000、4000 のチップセット (またはそれ以降) に統合されたハードウェア ビデオ エンコーダー。 Intel HD Graphics ドライバー 15.28.9.2884 または以下を含む最新ドライバーが必要です。  <br/> • ディスプレイ ドライバー 9.17.10.2884 または最新のドライバー  <br/> • ハードウェア メディア ファンデーション (HMFT) のバージョン 3.12.10.31 または最新の HMFT を変換します。  <br/> 次の AMD ハードウェア アクセラレータ ビデオ エンコード ソリューションがサポートされます。  <br/> • AMD ビデオ コーデック エンジンでは、いくつかの個別のグラフィックス カードとの統合には、AMD A シリーズの高速プロセッサの処理装置が高速化。 AMD Video Codec Engine ドライバー 9.12.0.0 またはそれ以上がインストールされている必要があります。  <br/> |
-|ハードウェア アクセラレータ H.264 エンコード: カメラ要件  <br/> |USB ビデオ クラス (UVC) 仕様バージョン 1.5 に準拠する統合 H.264 ハードウェア エンコーダーを搭載した USB ビデオ カメラ。  <br/> **注:**ビジネス用の Skype では、Windows 8 と Windows 8.1 は、UVC の 1.5 のサポートが含まれています 1.5 の UVC カメラをサポートします。 Windows 7 に UVC 1.5 のサポートが含まれていないためビジネス用の Skype は、エンコーディングをサポートしないハードウェアを通常のカメラとして 1.5 の UVC カメラを扱います。 <br/> |
+|ハードウェア アクセラレータ H.264 エンコード: カメラ要件  <br/> |USB ビデオ クラス (UVC) 仕様バージョン 1.5 に準拠する統合 H.264 ハードウェア エンコーダーを搭載した USB ビデオ カメラ。  <br/> **注:** ビジネス用の Skype では、Windows 8 と Windows 8.1 は、UVC の 1.5 のサポートが含まれています 1.5 の UVC カメラをサポートします。 Windows 7 に UVC 1.5 のサポートが含まれていないためビジネス用の Skype は、エンコーディングをサポートしないハードウェアを通常のカメラとして 1.5 の UVC カメラを扱います。 <br/> |
    
 ### <a name="determining-h264-video-encoding-and-decoding-capabilities"></a>H.264 ビデオ エンコードおよびデコード機能の決定
 

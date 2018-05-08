@@ -7,15 +7,17 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection:
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Office 365 の電話システム (クラウド PBX) とともに展開および使用するために Cloud Connector アプライアンスを準備する方法について説明します。
-ms.openlocfilehash: 8dcc15d2feb12516025afb5e60d916f94a81fa57
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 130d593ba94eff9da163363a652bc389b713d1b0
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Cloud Connector アプライアンスの準備
  
@@ -170,7 +172,7 @@ Export-CcConfigurationSampleFile
     
 - **ServerName:** サーバー名はドメイン名を含まず、15 文字に制限する必要があります。
     
-- **HardwareType:**設定または、null 値のままにしない、**通常**の既定値が適用されます。 [Skype ビジネス クラウド コネクタ ・ エディションのための計画](plan-skype-for-business-cloud-connector-edition.md)で説明するように、ホスト マシンごとの 500 の同時呼び出しをサポートするクラウドのコネクタの大きなバージョンを展開する場合は、**標準**を使用します。 50 の同時通話をサポートする小規模な展開の場合は **Minimum** を使用します。
+- **HardwareType:** 設定または、null 値のままにしない、**通常**の既定値が適用されます。 [Skype ビジネス クラウド コネクタ ・ エディションのための計画](plan-skype-for-business-cloud-connector-edition.md)で説明するように、ホスト マシンごとの 500 の同時呼び出しをサポートするクラウドのコネクタの大きなバージョンを展開する場合は、**標準**を使用します。 50 の同時通話をサポートする小規模な展開の場合は **Minimum** を使用します。
     
 - **インターネット/Corpnet/管理仮想スイッチ:** 作成した仮想スイッチの名前を追加します。 管理仮想スイッチの場合は、デフォルト値をそのまま残します。 展開スクリプトは展開の始まりで管理仮想スイッチを作成し、展開の終わりに削除します。
     

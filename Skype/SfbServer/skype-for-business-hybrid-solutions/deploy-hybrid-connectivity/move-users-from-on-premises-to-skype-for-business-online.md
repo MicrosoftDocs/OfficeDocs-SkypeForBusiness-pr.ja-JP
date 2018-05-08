@@ -7,24 +7,25 @@ ms.date: 2/12/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
 - IT_Skype16
 - IT_Skype4B_Hybrid
-ms.custom: Strat_SB_Hybrid
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 6a523c86-2eac-4fa4-973a-4406872c9a7d
 description: '概要: は、ユーザー設定を移行し、オンライン ビジネスの Skype ユーザーを移動する方法を説明します。'
-ms.openlocfilehash: 352798c217cb7495134cb32996db783f7e498ded
-ms.sourcegitcommit: cacd16f596460c1400dd514437794afd04bddadc
+ms.openlocfilehash: 4c6a54bf5d197e4836c733975b60242c0fd3d431
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>ユーザーをオンプレミスから Skype for Business Online に移動する
  
-**の概要:**ユーザー設定を移行し、オンライン ビジネスの Skype ユーザーを移動する方法について説明します。
+**の概要:** ユーザー設定を移行し、オンライン ビジネスの Skype ユーザーを移動する方法について説明します。
   
 ユーザーを実際に Office 365 に移動する前に、まずユーザー アカウントがクラウドと同期されていることを確認してライセンスを割り当てる必要があります。この操作には、Office 365 管理センターを使用します。
   

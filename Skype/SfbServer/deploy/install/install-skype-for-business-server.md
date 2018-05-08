@@ -7,20 +7,22 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: '概要では、トポロジ内の各サーバー上のビジネス サーバー 2015 システム コンポーネントの Skype をインストールする方法について説明します。 マイクロソフト評価センターからのビジネス サーバー 2015 の Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: 6d395ff382ae27e47b95d63b01266694108d22cd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 810e08cc6844f29d12536f89f3b877e7a2be8bce
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="install-skype-for-business-server-2015-on-servers-in-the-topology"></a>トポロジ内のサーバーへの Skype for Business Server 2015 のインストール
  
-**の概要:**トポロジ内の各サーバー上のビジネス サーバー 2015 システム コンポーネントの Skype をインストールする方法について説明します。 [マイクロソフト評価センター](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)からサーバー 2015 をビジネス用には、Skype の無料試用版をダウンロードします。
+**の概要:** トポロジ内の各サーバー上のビジネス サーバー 2015 システム コンポーネントの Skype をインストールする方法について説明します。 [マイクロソフト評価センター](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)からサーバー 2015 をビジネス用には、Skype の無料試用版をダウンロードします。
   
 トポロジが中央管理ストアにロードされ、Active Directory の役割を実行するサーバーが認識して、トポロジ内のサーバーごとにサーバーのビジネス システムの Skype をインストールする必要があります。 手順 1 ～ 5 は任意の順序で実行できます。 ただし、図に示すように手順 6、7、および 8 では、手順 1 5 からの後を行う必要があります。 8 手順 7 は、ビジネスのサーバー システムに Skype をインストールします。
   

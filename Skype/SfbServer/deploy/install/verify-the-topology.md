@@ -7,20 +7,22 @@ ms.date: 7/14/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
 description: '概要: ビジネス サーバー トポロジの Skype を確認する方法を学習して、Active Directory サーバーが期待どおりに作業しています。 マイクロソフト評価センターからのビジネス サーバー 2015 の Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: 983ecf8b78a12898d18f04f7ec5c26c5271cf79a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 93696511ab415d4e3df65e6d2e3c5efcb621c39d
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="verify-the-topology-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのトポロジの確認
  
-**の概要:**ビジネス サーバー トポロジの Skype を確認する方法について説明し、Active Directory サーバーが期待どおりに作業しています。 [マイクロソフト評価センター](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)からサーバー 2015 をビジネス用には、Skype の無料試用版をダウンロードします。
+**の概要:** ビジネス サーバー トポロジの Skype を確認する方法について説明し、Active Directory サーバーが期待どおりに作業しています。 [マイクロソフト評価センター](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)からサーバー 2015 をビジネス用には、Skype の無料試用版をダウンロードします。
   
 公開トポロジは、トポロジ内のサーバーのそれぞれにインストールされているサーバーのビジネス システムのコンポーネントの Skype がある場合は後に、、トポロジが正常に動作していることを確認する準備が整ったら。 これには、構成が伝達されているすべての Active Directory サーバーにドメイン全体のビジネス用の Skype は、ドメインでは使用が認識できるように確認が含まれます。 手順 1 ～ 5 は任意の順序で実行できます。 ただし、手順 6、7、および 8 は、手順 1 ～ 5 の後に、図の順序で実行する必要があります。 トポロジの確認は 8 つの手順の 8 番目です。
   

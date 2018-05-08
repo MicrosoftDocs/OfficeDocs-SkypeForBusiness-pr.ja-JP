@@ -7,19 +7,21 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection:
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: '概要: サーバー 2015 のビジネス環境について、Skype にエッジ サーバーを展開する方法を説明します。'
-ms.openlocfilehash: ec69655ad5a614e9a2a22e82b7c1e56eed52102b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c7dfdfeef9eea4ffae0e113665b487da4856b83c
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのエッジ サーバーの展開
  
-**の概要:**サーバー 2015 のビジネス環境について、Skype にエッジ サーバーを展開する方法について説明します。
+**の概要:** サーバー 2015 のビジネス環境について、Skype にエッジ サーバーを展開する方法について説明します。
   
 次のセクションには、後にビジネス サーバー 2015 の[ビジネス サーバー 2015 の Skype でエッジ サーバーの展開の計画](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)について、Skype が確認された後にするための手順が含まれています。 展開手順は次のとおりです。
   
@@ -142,7 +144,7 @@ ms.lasthandoff: 03/28/2018
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii。 [**スナップインの追加と削除**] ダイアログの一覧で、[**証明書**] を選択し、[**追加**] をクリックします。 メッセージが表示されたら、[**コンピューター アカウント**] を選択し、[**次へ**] を選択します。 [**コンピューターの選択**] ダイアログで、[**ローカル コンピューター**] を選択します。 [**完了**] をクリックし、[**OK**] をクリックします。
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv。 **[証明書 (ローカル コンピューター)**を展開します。 **信頼されたルート証明機関**を展開します。 **証明書**を選択します。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv。 **[証明書 (ローカル コンピューター)** を展開します。 **信頼されたルート証明機関**を展開します。 **証明書**を選択します。
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v。 使用している CA によって発行されたルート証明書をクリックします。 その証明書を右クリックし、メニューの [**すべてのタスク**] を選択して、[**エクスポート**] を選択します。
     
@@ -244,9 +246,9 @@ ms.lasthandoff: 03/28/2018
     
 &nbsp;&nbsp;&nbsp;e。 **証明書**スナップイン] ダイアログ ボックスで、**コンピューター アカウント**を選択します。 [ **次へ**] をクリックします。
     
-&nbsp;&nbsp;&nbsp;f。 [**コンピューターの選択]**ダイアログ ボックスで、選択**ローカル コンピューター: (このコンソールを実行しているコンピューター)**。 **[完了]** をクリックします。 [ **OK**] をクリックし、MMC コンソールの構成を完了します。
+&nbsp;&nbsp;&nbsp;f。 [**コンピューターの選択]** ダイアログ ボックスで、選択**ローカル コンピューター: (このコンソールを実行しているコンピューター)**。 **[完了]** をクリックします。 [ **OK**] をクリックし、MMC コンソールの構成を完了します。
     
-&nbsp;&nbsp;&nbsp;g です。 証明書ストアを展開するのには**[証明書 (ローカル コンピューター)** ] をダブルクリックします。 **個人**、し、[**証明書**] をクリックします。
+&nbsp;&nbsp;&nbsp;g です。 証明書ストアを展開するのには **[証明書 (ローカル コンピューター)** ] をダブルクリックします。 **個人**、し、[**証明書**] をクリックします。
     
   > [!NOTE]
   > ここでは、可能性があり、ローカル コンピューターのストアに証明書個人の証明書が表示されません。 キーの存在、インポートしない場合は、ハントする必要はありませんそれに関連付けられている秘密キーを証明書がないです。 要求してくださいともう一度、上記の手順をインポートしが正しいことを確認したら場合、は、CA 管理者またはプロバイダーに相談しています。 
@@ -287,7 +289,7 @@ ms.lasthandoff: 03/28/2018
     
 &nbsp;&nbsp;&nbsp;f。 ウィザードの完了ページで [**完了**] をクリックします。
     
-&nbsp;&nbsp;&nbsp;g です。 各エッジ サーバーの証明書] MMC スナップインを開き、 **[証明書 (ローカル コンピューター)**を展開し、展開**個人****証明書**をクリックし、ことを確認を本当にお勧めはこの手順を完了したら、内部の境界証明書は、詳細ペインに表示されます。
+&nbsp;&nbsp;&nbsp;g です。 各エッジ サーバーの証明書] MMC スナップインを開き、 **[証明書 (ローカル コンピューター)** を展開し、展開**個人****証明書**をクリックし、ことを確認を本当にお勧めはこの手順を完了したら、内部の境界証明書は、詳細ペインに表示されます。
     
 ### <a name="external-edge-interface-certificates"></a>外部エッジ インターフェイスの証明書
 
@@ -372,9 +374,9 @@ ms.lasthandoff: 03/28/2018
     
 &nbsp;&nbsp;&nbsp;e。 **証明書**スナップイン] ダイアログ ボックスで、**コンピューター アカウント**を選択します。 [ **次へ**] をクリックします。
     
-&nbsp;&nbsp;&nbsp;f。 [**コンピューターの選択]**ダイアログ ボックスで、選択**ローカル コンピューター: (このコンソールを実行しているコンピューター)**。 **[完了]** をクリックします。 [ **OK**] をクリックし、MMC コンソールの構成を完了します。
+&nbsp;&nbsp;&nbsp;f。 [**コンピューターの選択]** ダイアログ ボックスで、選択**ローカル コンピューター: (このコンソールを実行しているコンピューター)**。 **[完了]** をクリックします。 [ **OK**] をクリックし、MMC コンソールの構成を完了します。
     
-&nbsp;&nbsp;&nbsp;g です。 証明書ストアを展開するのには**[証明書 (ローカル コンピューター)** ] をダブルクリックします。 **[個人] をダブルクリック**し、[**証明書**] をクリックします。
+&nbsp;&nbsp;&nbsp;g です。 証明書ストアを展開するのには **[証明書 (ローカル コンピューター)** ] をダブルクリックします。 **[個人] をダブルクリック**し、[**証明書**] をクリックします。
     
     > [!NOTE]
     > You may be here, and you don't see any certificates in the Certificates Personal store for the local computer. You don't need to hunt around, if the key's not there, the imported certificate didn't have a private key associated with it. Try the request and import steps above one more time, and if you're sure you got all that right, talk to your CA administrator or provider. 
@@ -420,7 +422,7 @@ ms.lasthandoff: 03/28/2018
     
 &nbsp;&nbsp;&nbsp;f。 ウィザードの完了ページで [**完了**] をクリックします。
     
-&nbsp;&nbsp;&nbsp;g です。 各サーバーの証明書] MMC スナップインを開き、**証明書 (ローカル コンピューター)**を展開し、展開**個人****証明書**をクリックし、ことを確認を本当にお勧めはこの手順を完了したら、内部の境界証明書は、詳細ペインに表示されます。
+&nbsp;&nbsp;&nbsp;g です。 各サーバーの証明書] MMC スナップインを開き、**証明書 (ローカル コンピューター)** を展開し、展開**個人****証明書**をクリックし、ことを確認を本当にお勧めはこの手順を完了したら、内部の境界証明書は、詳細ペインに表示されます。
     
    > [!NOTE]
     > リバース プロキシ サーバーの証明書も設定する必要があります。 については、セットアップのリバース プロキシ サーバー Skype のビジネス サーバー 2015 のトピックをします。 

@@ -7,16 +7,18 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 description: 意思決定されるネットワーク ・ コンポーネントを計画するために必要なビジネス サーバーのエンタープライズ VoIP の Skype で ~ 9-1-1 の配置の場所に呼び出し元のマップに使用します。
-ms.openlocfilehash: 2d371b2abfd8e3c871f0d9f49409d2b8169268c2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ddf769a6389b7affcabacd936dba6e560d4a887c
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での場所の判断に使用するネットワーク要素の定義
  
@@ -43,7 +45,7 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="wireless-access-point"></a>ワイヤレス アクセス ポイント
 
-クライアントがワイヤレスでネットワークに接続する場合、場所の要求では WAP の BSSID アドレスを使用してその場所を特定します。 クライアントを移動すると、示されている WAP に最も近いもの、できない場合があります、その建物の異なるフロアにある WAP を選択することも。 場所が概算であることを示す、 **[近く]** 、または**[閉じる]**の記述子を使用して場所の値を先頭に追加できます。
+クライアントがワイヤレスでネットワークに接続する場合、場所の要求では WAP の BSSID アドレスを使用してその場所を特定します。 クライアントを移動すると、示されている WAP に最も近いもの、できない場合があります、その建物の異なるフロアにある WAP を選択することも。 場所が概算であることを示す、 **[近く]** 、または **[閉じる]** の記述子を使用して場所の値を先頭に追加できます。
   
 場所に関するこの方法では、各 WAP の BSSID が静的なものであることを前提としています。 ただし、WAP の製造元に問い合わせては、動的に割り当てられた Bssid を使用する場合 WAP から取得される BSSID を変更 (これは、WAP の構成の変更の発生後)、およびワイヤレス クライアントのままになって、場所を受け取っていない場合。 この可能性を防ぐためには、各 WAP で使用される、使用可能なすべての BSSID アドレスの ERLs に場所情報サービス データベースを設定する必要があります。 
   

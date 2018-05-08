@@ -7,16 +7,18 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: d37f67d3-e248-483b-b64c-3986559ef357
 description: ビジネス サーバーのエンタープライズ VoIP の Skype で、SIP トランキング プロバイダーを使用して ~ 9-1-1 の展開でユーザーの移動を計画しています。
-ms.openlocfilehash: 6a22883fb5f028288ab3fab0246d6c2b3b693987
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 3e5c8776768212c6be179700a33261382949deee
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="define-the-user-experience-for-manually-acquiring-a-location-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 で手動で場所を取得する場合のユーザー エクスペリエンスの定義
  

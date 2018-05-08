@@ -7,20 +7,22 @@ ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: c4bc0e45-7877-466c-b187-2c35c851a98d
 description: '概要: は、Skype ビジネス サーバー 2015 の計画中に、クライアント システムのデバイスの要件を確認します。'
-ms.openlocfilehash: b6d9b524ca89ae112a6c0a42f4ab83272eaa7d79
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 2393c998f8d31830bd4f521235124a6a091594e5
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="system-requirements-for-skype-for-business-for-windows-phone"></a>Windows Phone 版 Skype for Business のシステム要件
  
-**の概要:**Skype ビジネス サーバー 2015 の計画中に、クライアント システムのデバイスの要件を確認します。
+**の概要:** Skype ビジネス サーバー 2015 の計画中に、クライアント システムのデバイスの要件を確認します。
   
 Windows Phone のビジネス用の Skype をマイクロソフトでは、スマート フォンや Windows Professional のモバイル デバイスから接続している組織内のユーザーのインスタント メッセージング (IM)、拡張プレゼンス、およびテレフォニーを提供します。 モバイル デバイスは、ビジネスの Skype の範囲を拡張するユーザーを有効にします。 このトピックでは、計画に関する考慮事項 Skype Windows Phone のビジネスの前提条件と技術的な要件、必要なコンポーネント、および展開の手引きの識別を含むについて説明します。
   

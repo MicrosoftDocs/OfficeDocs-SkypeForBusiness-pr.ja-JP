@@ -7,20 +7,22 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: '概要: ビジネス サーバー 2015 の Skype の非サーバー要件を構成します。 これらに該当するのは、Active Directory、DNS、証明書、ファイル共有など、展開を実行する前に構成しようとするさまざまな事項です。'
-ms.openlocfilehash: 0d71140678654442caef112f6132695c76d3ea6c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ed01b466abe46a83ca4d44b2cb555c85ab9af248
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 の環境要件
  
-**の概要:**Skype ビジネス サーバー 2015 の以外のサーバーの要件を構成します。 これらに該当するのは、Active Directory、DNS、証明書、ファイル共有など、展開を実行する前に構成しようとするさまざまな事項です。
+**の概要:** Skype ビジネス サーバー 2015 の以外のサーバーの要件を構成します。 これらに該当するのは、Active Directory、DNS、証明書、ファイル共有など、展開を実行する前に構成しようとするさまざまな事項です。
   
 ビジネス サーバー 2015 の Skype の環境の要件とは何ですか。 ご用意しましたすべての直接の周りをクリックすると実行する必要はありませんので、このトピックに関連するサーバーではありません。 探しているサーバーの前提条件、[ビジネス サーバー 2015 の Skype のサーバー要件](server-requirements.md)のドキュメントをチェック_アウトすることができる場合[ネットワークの計画](../../plan-your-deployment/network-requirements/network-requirements.md)も記載されて個別にします。 それ以外の場合、これは、どのような我々 には、この資料です。
   

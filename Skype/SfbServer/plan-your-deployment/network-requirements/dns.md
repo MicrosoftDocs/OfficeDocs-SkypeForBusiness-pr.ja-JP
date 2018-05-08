@@ -7,20 +7,22 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: '概要: ビジネス サーバー 2015 の Skype を実装する前にここでは DNS の考慮事項を確認します。'
-ms.openlocfilehash: 2f19e6dbd040a7f553331b6bcb0d7074a30fd0ea
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d854c9908211a70b8fe863c9535502ba78c48521
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="dns-requirements-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 の DNS 要件
  
-**の概要:**ビジネス サーバー 2015 の Skype を実装する前にここでは DNS の考慮事項を確認します。
+**の概要:** ビジネス サーバー 2015 の Skype を実装する前にここでは DNS の考慮事項を確認します。
   
 DNS Skype のビジネス サーバー 2015 展開計画組織の設置型のネットワークでのみ解説します。 ビジネス オンラインの Skype を参照してください「Office 365 の Url と IP アドレスの範囲」で[http://aka.ms/o365ips](http://aka.ms/o365ips)です。 
   
@@ -59,7 +61,7 @@ DNS Skype のビジネス サーバー 2015 展開計画組織の設置型のネ
 |A/AAAA  <br/> |エンタープライズ プールの外部 Web サービスでの FQDN の上書き  <br/>  *Web ext.contoso.com*  <br/> |フロント エンド サーバーの外部の Web サービス用の HLB の VIP  <br/>  *68.123.56.90*  <br/> |クライアントは、Skype のビジネス Web アプリケーションのダウンロードなど、サーバーの web トラフィックを有効にする場合に必要です。 モバイル クライアントが DNS を内部的に解決する場合に必要です。 DMZ リバース プロキシ IP または内部 IP に解決することができます。  <br/> ||
 |A/AAAA  <br/> | バック エンド サーバーの SQL サーバーの FQDN <br/>  *SQL1.contoso.com*  <br/> |サーバー IP アドレス  <br/>  *192.168.11.90*  <br/> |フロント エンド プールの IP アドレスを使用するバックエンド SQL サーバーのサーバー名をマッピングします。  <br/> ||
 |A/AAAA  <br/> |バック エンド サーバーのミラーの SQL サーバーの FQDN  <br/>  *SQL2.contoso.com*  <br/> |サーバー IP アドレス  <br/>  *192.168.11.91*  <br/> |フロント エンド プールの IP アドレスを使用するバック エンド SQL のミラー ・ サーバのサーバ名をマップします。  <br/> ||
-|A/AAAA  <br/> |ディレクター プールの FQDN  <br/> **注:**スタンドアロン ディレクター サーバーを使用する場合は適用されません。 <br/>  *DirPool.contoso.com*  <br/> |ディレクター プールの IP アドレス  <br/> *192.168.21.132、192.168.21.133* 、192.168.21.134 の DNS LB  <br/> |ディレクター プール サーバーの DNS 負荷分散。 プールの名前を IP アドレスでは、ディレクター プールのマップは、[フロント エンド プールとディレクター プールに DNS 負荷分散を展開する](load-balancing.md#BK_FE_Dir)を参照してください。 <br/> ディレクターはユーザーを認証することができる、オプションです。  <br/> ||
+|A/AAAA  <br/> |ディレクター プールの FQDN  <br/> **注:** スタンドアロン ディレクター サーバーを使用する場合は適用されません。 <br/>  *DirPool.contoso.com*  <br/> |ディレクター プールの IP アドレス  <br/> *192.168.21.132、192.168.21.133* 、192.168.21.134 の DNS LB  <br/> |ディレクター プール サーバーの DNS 負荷分散。 プールの名前を IP アドレスでは、ディレクター プールのマップは、[フロント エンド プールとディレクター プールに DNS 負荷分散を展開する](load-balancing.md#BK_FE_Dir)を参照してください。 <br/> ディレクターはユーザーを認証することができる、オプションです。  <br/> ||
 |A/AAAA  <br/> |ディレクターの FQDN  <br/> |ダイレクタの各サーバーのサーバーの IP アドレス  <br/> |プールの名前を IP アドレスでは、ダイレクタのマップは、[フロント エンド プールとディレクター プールに DNS 負荷分散を展開する](load-balancing.md#BK_FE_Dir)を参照してください。 <br/> ||
 |A/AAAA  <br/> |仲介サーバー プールの FQDN  <br/> |プール IP アドレス  <br/> |仲介サーバー ロールはオプションです。 仲介サーバーによって提供されるサービスを、フロント エンド サーバーまたはプールに対して併置することができます。 [仲介サーバー プールの DNS のロードバランシングを使用する](load-balancing.md#BK_Mediation)を参照してください。 <br/> ||
 |A/AAAA  <br/> |仲介サーバーの FQDN  <br/> |サーバー IP アドレス  <br/> |仲介サーバーによって提供されるサービスを、フロント エンド サーバーまたはプールに対して併置することができます。 [仲介サーバー プールの DNS のロードバランシングを使用する](load-balancing.md#BK_Mediation)を参照してください。 <br/> ||
@@ -99,7 +101,7 @@ DNS Skype のビジネス サーバー 2015 展開計画組織の設置型のネ
 |A/AAAA  <br/> |エッジ サーバーの FQDN  <br/>  _短所 1.contoso.com_ <br/> |エッジ プール内のサーバーの内部に接続するサーバーの ip アドレス  <br/> 172.25.33.10  <br/> |レコードを作成するサーバーの FQDN をプール内のサーバーごとに、プール内の内部サーバー ノードの IP を指す参照してください[にエッジ サーバー プールの DNS 負荷分散](load-balancing.md#BK_Edge)します。  <br/> |Y  <br/> |
 |A/AAAA  <br/> |アクセス エッジ サービス プールの FQDN  <br/>  _Access1.contoso.com_ <br/> |アクセス エッジ サービス プールの外部 IP アドレス  <br/> 131.107.16.10、131.107.16.11  <br/> |アクセス エッジ サービスは、セッション開始プロトコル (SIP) トラフィックの送信と受信の両方に単一の信頼された接続ポイントを提供します。  <br/> |Y  <br/> |
 |A/AAAA  <br/> |Web 会議エッジ サービス プールの FQDN  <br/>  _Webcon1.contoso.com_ <br/> |Web 会議エッジ サービスの外部 IP アドレスします。  <br/> 131.107.16.90、131.107.16.91  <br/> |Web 会議エッジ サービス、外部、内部の Skype ビジネス サーバー環境でホストされている会議に参加できます。  <br/> |Y  <br/> |
-|A/AAAA  <br/> | _av.\<sip ドメイン\>_プールの FQDN <br/>  _AV1.contoso.com_ <br/> |音声ビデオ エッジ外部 IP アドレス  <br/> 131.107.16.170、131.107.16.171  <br/> |A とは、音声ビデオ エッジ サービスでは、オーディオ、ビデオ、アプリケーション共有、およびファイルは、外部で使用できるユーザーを転送します。  <br/> |Y  <br/> |
+|A/AAAA  <br/> | _av.\<sip ドメイン\>_ プールの FQDN <br/>  _AV1.contoso.com_ <br/> |音声ビデオ エッジ外部 IP アドレス  <br/> 131.107.16.170、131.107.16.171  <br/> |A とは、音声ビデオ エッジ サービスでは、オーディオ、ビデオ、アプリケーション共有、およびファイルは、外部で使用できるユーザーを転送します。  <br/> |Y  <br/> |
 |CNAME  <br/> |sip: _\<sipdomain\>_ <br/> sip: _contoso.com_ <br/> |外部アクセス エッジ プールの FQDN  <br/>  _Access1.contoso.com_ <br/> |エッジ サーバー プールを検索します。 [チュートリアルの Skype クライアントのビジネスのサービスを検索する](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype)を参照してください。 <br/> |Y  <br/> |
 |SRV  <br/> |ゾーンに追加します。 _\<sipdomain\>_ <br/> ゾーンに追加します。 _contoso.com_ <br/> |FQDN の外部アクセス エッジ  <br/>  _Access1.contoso.com_ <br/> |外部ユーザー アクセスのために使用されます。 [チュートリアルの Skype クライアントのビジネスのサービスを検索する](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype)を参照してください。 <br/> |Y  <br/> |
 |SRV  <br/> |_sipfederationtls._tcp。 _\<sipdomain\>_ <br/> _sipfederationtls._tcp。 _contoso.com_ <br/> |FQDN の外部アクセス エッジ  <br/>  _Access1.contoso.com_ <br/> |フェデレーションとパブリック IM 接続で使用されます  <br/> |1 <br/> |

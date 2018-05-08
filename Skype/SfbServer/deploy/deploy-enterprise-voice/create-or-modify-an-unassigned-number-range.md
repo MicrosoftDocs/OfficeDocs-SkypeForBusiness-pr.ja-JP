@@ -7,16 +7,18 @@ ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: 作成、変更またはビジネス サーバーのエンタープライズ VoIP は、Skype で知らせアプリケーションの割り当てられていない数値の範囲を削除します。 この設定によって、割り当てられていない番号への通話を処理する方法が影響を受けます。
-ms.openlocfilehash: e4a62072eeffd1cfe8d1cb81fceeb4e52cc68199
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 22de5516a11231b9ad706242c559608d9b9964db
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での割り当てられていない番号範囲の作成または変更
  
@@ -59,7 +61,7 @@ ms.lasthandoff: 03/28/2018
     
    - 範囲の開始番号または終了番号に内線番号が含まれる場合は、両方の番号が内線番号を含む必要があり、その内線番号は両方の番号で一致する必要があります。
     
-   - 番号が正規表現に一致する必要があります (tel:) ? (\+) ? [1-9] \d {0,17} (; ext = [1-9] \d {0,9}) ?。 つまり、番号の先頭に文字列 tel: (その文字列を指定しない場合に自動的に追加)、プラス記号 (+) と数字の 1 9 から。 電話番号が最大 17 桁にすることができ、拡張した形式で続いて ext = 内線番号の後にします。
+   - 番号が正規表現に一致する必要があります (tel:) ? (\+) ? [1-9] \d{0,17}(; ext = [1-9] \d{0,9}) ?。 つまり、番号の先頭に文字列 tel: (その文字列を指定しない場合に自動的に追加)、プラス記号 (+) と数字の 1 9 から。 電話番号が最大 17 桁にすることができ、拡張した形式で続いて ext = 内線番号の後にします。
     
 6. [**アナウンス サービス**] で、次のいずれかの手順を実行します。 
     
@@ -69,7 +71,7 @@ ms.lasthandoff: 03/28/2018
     
 7. 前の手順で [**アナウンス**] をクリックした場合は、次の手順を実行します。
     
-    a. **宛先サーバーの FQDN**を [**選択**] をクリックして、[割り当てられていない番号は、この範囲への着信呼び出しを処理し、 **[ok]**をクリックし、アナウンス アプリケーションを実行するアプリケーション サービスのサービス ID] をクリックします。
+    a. **宛先サーバーの FQDN**を [**選択**] をクリックして、[割り当てられていない番号は、この範囲への着信呼び出しを処理し、 **[ok]** をクリックし、アナウンス アプリケーションを実行するアプリケーション サービスのサービス ID] をクリックします。
     
     b. [**アナウンス**] で、この割り当てられていない番号範囲に対して再生されるアナウンスをクリックします。
     

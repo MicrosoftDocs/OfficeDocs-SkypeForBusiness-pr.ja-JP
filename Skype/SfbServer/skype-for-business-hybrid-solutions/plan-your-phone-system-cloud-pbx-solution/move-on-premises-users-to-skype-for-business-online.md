@@ -7,23 +7,24 @@ ms.date: 1/27/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
 - IT_Skype4B_Hybrid
-ms.custom: Strat_SB_Hybrid
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 2475674a-f592-4fa8-ae99-f71cbea54dc0
 description: '概要: 移動の詳細について設置 Skype ユーザー ビジネスをオンラインにします。'
-ms.openlocfilehash: 9aa4c87d713af437f1fbb81cd23e354792559aa8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 09eb62c59ccea1334d7f565a0a49989bff72745b
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="move-on-premises-users-to-skype-for-business-online"></a>ビジネス オンラインの Skype に、オンプレミスのユーザーを移動します。
  
-**の概要:**ビジネス オンラインの Skype をオンプレミス ユーザーの移動について説明します。
+**の概要:** ビジネス オンラインの Skype をオンプレミス ユーザーの移動について説明します。
   
 > [!CAUTION]
 > オンプレミス環境で Skype for Business Online に移動する前に、Lync Phone Edition デバイスを最小要求ファームウェアに更新する必要があります。 オンプレミスからオンラインにユーザーを移動してからファームウェアを更新すると、ユーザーは電話を使用して接続できなくなります。 この問題を訂正するには、ユーザーをオンプレミス環境に戻して、電話を最小ファームウェアに更新する必要があります。 最小ファームウェアに更新するか、電話をハード リセットしてから、ユーザーをオンプレミス環境に戻すことは試みないでください。
@@ -51,7 +52,7 @@ ms.lasthandoff: 03/28/2018
     
 6. [**選択したユーザーを Skype for Business Online に移動**] ページの情報を確認して、[**次へ**] をクリックします。
     
-7. 次のページでは、するは、まだ署名されていない場合 Office 365 に、 **Office 365 にサインイン**] をクリックして、資格情報を入力、 **[ok]**および [**次へ**] をクリックします。
+7. 次のページでは、するは、まだ署名されていない場合 Office 365 に、 **Office 365 にサインイン**] をクリックして、資格情報を入力、 **[ok]** および [**次へ**] をクリックします。
     
 8. 移動するユーザー数が正しいことを確認して、[**次へ**] をクリックします。
     

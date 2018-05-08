@@ -7,16 +7,18 @@ ms.date: 2/1/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: '概要: は、Skype のビジネス サーバー 2015 のトポロジを選択します。 Skype for Business Server 2015 のサーバーの併置について説明します。'
-ms.openlocfilehash: 5fbb6a490f8ba35d2e16ccbab60a17d788cb92e8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: aec5cc781e571361f80b84fafd9d101dd8a97c19
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="topology-basics-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 のトポロジの基本
  

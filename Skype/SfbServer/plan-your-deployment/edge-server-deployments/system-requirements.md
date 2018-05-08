@@ -6,20 +6,22 @@ ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: '概要: は、Skype でエッジ サーバーのビジネス サーバーのシステム要件について説明します。'
-ms.openlocfilehash: d4d195d07b13ccfc294054a811cbd6735b2431cc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: aaf8e45c005ff6295e1c0927d6a29abade383bfb
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 のエッジ サーバーのシステム要件
  
-**の概要:**ビジネス サーバーの Skype でエッジ サーバーのシステム要件について説明します。
+**の概要:** ビジネス サーバーの Skype でエッジ サーバーのシステム要件について説明します。
   
 ビジネス エッジ サーバーを展開するため、Skype の場合、これらは、項目自体と同様に環境の構造を計画する環境にあるサーバー操作を実行する必要があります。 トポロジ、DNS、証明書、およびその他のインフラストラクチャに関する考慮事項の詳細については、環境の要件のドキュメントを参照してください。
   
@@ -94,7 +96,7 @@ ms.lasthandoff: 03/28/2018
     
 - 完全修飾ドメイン名 (FQDN) を使用して、内部的にホストされている Web サイトを外部に公開できる必要があります。
     
-- ホストされる web サイトのすべての内容を発行する必要があります。 既定では、使用することができます、**/**ディレクティブで、「web サーバー上のすべてのコンテンツを公開する」を意味するほとんどの web サーバーで認識されます。 ディレクティブを変更することもできます-たとえば、 **/Uwca/\***を意味する"発行 Ucwa 仮想ディレクトリの下のすべてのコンテンツです。
+- ホストされる web サイトのすべての内容を発行する必要があります。 既定では、使用することができます、**/** ディレクティブで、「web サーバー上のすべてのコンテンツを公開する」を意味するほとんどの web サーバーで認識されます。 ディレクティブを変更することもできます-たとえば、 **/Uwca/\*** を意味する"発行 Ucwa 仮想ディレクトリの下のすべてのコンテンツです。
     
 - 公開された Web サイトのコンテンツを要求するクライアントで TLS 接続を要求する必要があります。
     

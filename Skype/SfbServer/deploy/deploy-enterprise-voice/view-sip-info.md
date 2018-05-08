@@ -7,20 +7,22 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
 description: '概要: ビジネス サーバー 2015 の Skype での SIP トランクに関する情報を表示する方法を説明します。'
-ms.openlocfilehash: c307d4e9b18b7ff5fda8d8d0deaa4eb88ba5b6b0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 9a27c5c78f15fbdc64aa52cf842697ab0b002252
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での個別の SIP トランク情報の表示
  
-**の概要:**ビジネス サーバー 2015 の Skype での SIP トランクに関する情報を表示する方法について説明します。
+**の概要:** ビジネス サーバー 2015 の Skype での SIP トランクに関する情報を表示する方法について説明します。
   
 SIP トランクを使用して、Skype をビジネス サーバーの音声トラフィックの IP 電話ネットワークに、パブリック交換電話網 (PSTN) 経由で接続します。 以前のバージョンの製品では、トランクを使用して仲介サーバーから PSTN ゲートウェイに発信通話がルーティングされ、各ゲートウェイは 1 つのトランクに制限されていました。 その結果、PSTN ゲートウェイと SIP トランクは実質的に同一でした。 管理者にとって、このことは、関連付けられている PSTN ゲートウェイに関する情報を表示するだけで個々の SIP トランクに関する情報を表示できることを意味していました。
   

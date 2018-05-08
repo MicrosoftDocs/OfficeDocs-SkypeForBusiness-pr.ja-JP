@@ -7,16 +7,18 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: ビジネス サーバーのエンタープライズ VoIP の Skype でメディアを計画するために必要な決定を省略します。 これには、通話受付管理 (CAC) との相互運用が含まれます。
-ms.openlocfilehash: 75a0a2ec2f4575881abcecad210314e1fdeda7d5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c02dd1fcae6db59972a991ef76b55f7d0cbdce9e
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business-2015"></a>Skype for Business 2015 のメディア バイパスの計画
  

@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: カナダで利用できる Skype for Business と Microsoft Teams の Office 365 サービスを以下に示します。
-ms.openlocfilehash: abc0ecee302e3f646e43fcbb54e5ecf2e19ee5bd
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 6a5f5f0c73d82880acfd9adfa824825ed41b4f85
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="availability-in-canada"></a>カナダでの利用可能性
 
@@ -51,8 +51,6 @@ ms.lasthandoff: 04/18/2018
 |ボイスメール  <br/> |利用可能  <br/> |
 
 ## <a name="calling-plans"></a>通話プラン
-> [!IMPORTANT]
-> カナダではプレビュー ユーザーおよび初期採用者のみが利用できます。 詳細については、「[Skype プレビュー プログラム](https://www.skypepreview.com)」をご覧ください。
     
 |**機能**|**詳細**|
 |:-----|:-----|
@@ -70,6 +68,9 @@ ms.lasthandoff: 04/18/2018
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
    
  電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)」をご覧ください。
+
+> [!Note] 
+> 呼び出す計画 (国内または国内および海外)、米国内のユーザーは国内通話として扱われます、カナダの電話番号をダイヤルします。 カナダのユーザーが米国の番号への呼び出しを行うときはまた、大文字と小文字になります。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

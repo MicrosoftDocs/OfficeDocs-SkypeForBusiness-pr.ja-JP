@@ -7,20 +7,22 @@ ms.date: 7/22/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: '概要: ビジネス サーバー 2015 の Skype を実装する前に以下の IP アドレス タイプの考慮事項を確認します。'
-ms.openlocfilehash: facfff432cfcde74af737b5a7c5db87d36f3eb41
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d94995e75ecbb4df973a01ebfa5f00ed91575c19
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Skype for Business での IP アドレスの種類の構成
  
-**の概要:**ビジネス サーバー 2015 の Skype を実装する前に以下の IP アドレス タイプの考慮事項を確認します。
+**の概要:** ビジネス サーバー 2015 の Skype を実装する前に以下の IP アドレス タイプの考慮事項を確認します。
   
 IP アドレスの種類を展開するには、トポロジ ビルダーでトポロジ設定を使用します。 このセクションでは、フロント エンド サーバー、仲介サーバー、およびエッジ トランスポート サーバーの IP アドレスの種類を展開する方法について説明します。
   
@@ -56,7 +58,7 @@ IP アドレスの種類を展開するには、トポロジ ビルダーでト�
   
 ### <a name="to-deploy-ip-address-types-on-a-mediation-server"></a>仲介サーバーに IP アドレスの種類を展開するには
 
-- トポロジ ビルダーで、[**仲介プール**プール内でサーバーを右クリックし、**プロパティの編集**] を選択します。 (または、サーバーを選択し、 **[操作**] メニューから**[プロパティの編集**] をクリックして)。
+- トポロジ ビルダーで、[**仲介プール**プール内でサーバーを右クリックし、**プロパティの編集**] を選択します。 (または、サーバーを選択し、 **[操作**] メニューから **[プロパティの編集**] をクリックして)。
     
 - [**プロパティの編集**] ダイアログ ボックスで、構成する IP アドレスの種類を選択します。デュアル スタック構成の場合は、次の図のように、[**IPv4 を有効にする**] および [**IPv6 を有効にする**] を選択します。
     
@@ -82,7 +84,7 @@ IP アドレスの種類を展開するには、トポロジ ビルダーでト�
   
 ### <a name="to-deploy-ip-address-types-on-an-edge-server"></a>エッジ サーバー上に IP アドレスの種類を展開するには
 
-1. トポロジ ビルダーで、[**エッジ プール**、プール内でサーバーを右クリックし、**プロパティの編集**] を選択します。 (または、サーバーを選択し、 **[操作**] メニューから**[プロパティの編集**] をクリックして)。
+1. トポロジ ビルダーで、[**エッジ プール**、プール内でサーバーを右クリックし、**プロパティの編集**] を選択します。 (または、サーバーを選択し、 **[操作**] メニューから **[プロパティの編集**] をクリックして)。
     
 2. [**プロパティの編集**] ウィンドウで、サポートする IP アドレス構成を選択します。次の図に、内部インターフェイスおよび外部インターフェイスのデュアル スタック構成を示します。
     

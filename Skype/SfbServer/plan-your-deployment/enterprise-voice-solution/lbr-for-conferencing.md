@@ -7,16 +7,18 @@ ms.date: 10/13/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Skype で会議のビジネス サーバーのエンタープライズ VoIP の場所ベースのルーティングの計画、提案型などの呼び出しを転送します。
-ms.openlocfilehash: 4cfa76e10ed0107c1dc1fe4c1759a89536529ada
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 778f8156d2d4ab4cf6613975567a88e80c1e6b9c
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の会議のための場所に基づくルーティング
  
@@ -144,7 +146,7 @@ CsServerApplication で新しい・ サービス: レジストラーの識別情
 CsServerApplication で新しい-の Id Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting の優先順位 3 - 有効になっている $true-$true Uri の重要なhttp://www.microsoft.com/LCS/LBRoutingAfterプールまたは標準のエディションのサーバーですべてのフロント エンド サーバーを再起動して、このコマンドレットを使用して、会議アプリケーションに対する場所ベースのルーティングが有効になっています。
   
 > [!IMPORTANT]
-> 場所に基づくルーティングを制限するまで会議や提案型の転送には、該当するプール内のすべてのフロント エンド サーバーまで適用されませんまたは標準のエディションのサーバーを再起動します。 設定する場合は、**の重要な**ビジネス サーバー サービスは、Skype がすぐに再起動前のコマンドレットに**$true**にします。 これらのサービスを今すぐ再起動したくない場合は、設定**-重要な** **$false**にここでは、し、変更するのには**一連の CsServerApplication**に**-重要な**に**$true**以降では、サービスを再起動した後。
+> 場所に基づくルーティングを制限するまで会議や提案型の転送には、該当するプール内のすべてのフロント エンド サーバーまで適用されませんまたは標準のエディションのサーバーを再起動します。 設定する場合は、**の重要な**ビジネス サーバー サービスは、Skype がすぐに再起動前のコマンドレットに **$true**にします。 これらのサービスを今すぐ再起動したくない場合は、設定 **-重要な** **$false**にここでは、し、変更するのには**一連の CsServerApplication**に **-重要な**に **$true**以降では、サービスを再起動した後。
   
 会議アプリケーションに対する場所ベースのルーティングが正常に有効にし、該当するすべてのサーバーを再起動して、場所ベースのルーティングを有効になっているビジネス ユーザー向け Skype によって編成されたすべての会議を防ぐために監視します。PSTN 通話をバイパスします。
   

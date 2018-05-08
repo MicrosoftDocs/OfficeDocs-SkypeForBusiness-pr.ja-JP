@@ -7,20 +7,21 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
 - IT_Skype16
 - IT_Skype4B_Hybrid
-ms.custom: Strat_SB_Hybrid
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Skype for Business Cloud Connector エディションについて紹介します。Skype for Business Cloud Connector エディションは、Office 365 の電話システム (クラウド PBX) でのオンプレミスの PSTN 接続を実装する、パッケージ化された仮想マシン (VM) のセットです。
-ms.openlocfilehash: 5c175a09a83d8fb5fe3267329c63075b450a9b1f
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 98f28f652e8a4bfdda6b3f8a93a73788f0d09c8c
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Skype for Business Cloud Connector エディションの計画
  
@@ -239,9 +240,9 @@ Cloud Connector はオンプレミスおよびオンラインに存在するユ�
     
   - プロキシ設定を、ユーザーごとではなく、コンピューターごとに指定します。 クラウド コネクタのダウンロードは失敗します。 次のようにレジストリを変更するか、グループ ポリシーを設定することで、コンピューターごとにプロキシ設定を指定できます。
     
-  - **レジストリ:**HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet の設定] ProxySettingsPerUser dword:00000000
+  - **レジストリ:** HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet の設定] ProxySettingsPerUser dword:00000000
     
-  - **グループ ポリシー:**コンピューター\>管理用テンプレート\>Windows コンポーネントの\>Internet Explorer:、プロキシの設定コンピューターごとではなく、ユーザー 1 人あたり)
+  - **グループ ポリシー:** コンピューター\>管理用テンプレート\>Windows コンポーネントの\>Internet Explorer:、プロキシの設定コンピューターごとではなく、ユーザー 1 人あたり)
     
 - 認定済み PBX/トランクまたは認定済み SBC/ゲートウェイ (2 つ以上のゲートウェイを推奨)。
     
@@ -608,7 +609,7 @@ Cloud Connector では、オンラインのダイヤル プランの使用が必
     
     あるアプライアンスの CMS コンポーネントまたはドメイン コントローラー コンポーネントがダウンしたとします。 このアプライアンスは引き続き通話の発着信を処理できますが、ドメイン コントローラー コンポーネントまたは CMS コンポーネントにアクセスできない状況で仲介コンポーネントを再起動しても、仲介コンポーネントは機能しません。 同じことは、ドメイン コントローラーがタウンしている状況で CMS コンポーネントを再起動した場合にも当てはまります。 
     
-    **推奨値:**コンポーネントを再起動する前に、アプライアンス内の他のコンポーネントの可用性を確認します。
+    **推奨値:** コンポーネントを再起動する前に、アプライアンス内の他のコンポーネントの可用性を確認します。
     
 - **エッジ コンポーネントに関する考慮事項**
     
@@ -622,7 +623,7 @@ Cloud Connector では、オンラインのダイヤル プランの使用が必
     
      呼び出しを受信するアプライアンスのエッジのコンポーネントが動作していない場合は、仲介のコンポーネントが他のアプライアンスのエッジ コンポーネントへの呼び出しをリダイレクトできないために、このアプライアンスへの着信の呼び出しは正常に実行されません。
     
-    **推奨値:**場所の監視システムがあります。 エッジ コンポーネントの誤動作を識別した後シャット ダウン、アプライアンス内のすべてのコンポーネント エッジ コンポーネントは使用できません。
+    **推奨値:** 場所の監視システムがあります。 エッジ コンポーネントの誤動作を識別した後シャット ダウン、アプライアンス内のすべてのコンポーネント エッジ コンポーネントは使用できません。
     
 ## <a name="cloud-connector-media-flow"></a>Cloud Connector のメディアのフロー
 <a name="BKMK_MediaFlow"> </a>

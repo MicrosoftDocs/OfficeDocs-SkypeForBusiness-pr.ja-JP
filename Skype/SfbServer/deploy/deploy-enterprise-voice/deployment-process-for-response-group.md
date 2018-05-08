@@ -7,16 +7,18 @@ ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: 展開プロセスとビジネス サーバーのエンタープライズ VoIP の Skype で応答グループの手順を実行します。
-ms.openlocfilehash: ca390f19b98921f6c8d7fa2a02c8e5065e605a94
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e84d8507ca64228a1bf6773110b5122d25286636
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business-2015"></a>Skype for Business 2015 での応答グループの展開プロセス
  
@@ -38,7 +40,7 @@ ms.lasthandoff: 03/28/2018
 |**CsViewOnlyAdministrator** <br/> |√(4)  <br/> |√(4)  <br/> |√(4)  <br/> |√(4)  <br/> |√(4)  <br/> |√(4)  <br/> |
    
 > [!NOTE]
-> **(1)** Active Directory ドメイン サービスをユーザー オブジェクトは一覧に指定された Active Directory セキュリティ グループのメンバーである必要があります。 管理者またはその他の代理の Active Directory グループ メンバー (たとえば、管理者は、アカウント オペレーター) は、セキュリティ グループにユーザーを追加するのには適切なアクセス許可を持つようにするのには、一覧表示されているセキュリティ グループまたはユーザーのグループにユーザー オブジェクトを追加する必要があります。機能を実行します。 **(2)**に対してのみ、CsResponseGroupAdministrator が、CsResponseGroupManager に割り当てられているワークフローです。 **(3)** A の応答グループのマネージャーは、既に現在のマネージャーが管理するワークフローに CsResponseGroupManager の他のメンバーを割り当てることができます。 **(4)** CsViewOnlyAdministrator では、動詞"Get"コマンドレットは実行のみできます。
+> **(1)** Active Directory ドメイン サービスをユーザー オブジェクトは一覧に指定された Active Directory セキュリティ グループのメンバーである必要があります。 管理者またはその他の代理の Active Directory グループ メンバー (たとえば、管理者は、アカウント オペレーター) は、セキュリティ グループにユーザーを追加するのには適切なアクセス許可を持つようにするのには、一覧表示されているセキュリティ グループまたはユーザーのグループにユーザー オブジェクトを追加する必要があります。機能を実行します。 **(2)** に対してのみ、CsResponseGroupAdministrator が、CsResponseGroupManager に割り当てられているワークフローです。 **(3)** A の応答グループのマネージャーは、既に現在のマネージャーが管理するワークフローに CsResponseGroupManager の他のメンバーを割り当てることができます。 **(4)** CsViewOnlyAdministrator では、動詞"Get"コマンドレットは実行のみできます。
   
 ## <a name="response-group-configuration-prerequisites"></a>応答グループ構成の前提条件
 

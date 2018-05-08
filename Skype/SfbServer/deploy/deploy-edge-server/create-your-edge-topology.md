@@ -7,19 +7,21 @@ ms.date: 2/6/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection:
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: '概要: は、作成、発行、およびビジネス サーバー 2015 の Skype で、エッジ サーバーのトポロジをエクスポートする方法を説明します。'
-ms.openlocfilehash: 336bef93fbb0d58c07ebd845fff2751e85464900
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 335713fdcc8c8a88fb31f180ab4553bd64497d9f
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 のエッジ トポロジの作成
  
-**の概要:**作成、発行、およびビジネス サーバー 2015 の Skype で、エッジ サーバーのトポロジをエクスポートする方法について説明します。
+**の概要:** 作成、発行、およびビジネス サーバー 2015 の Skype で、エッジ サーバーのトポロジをエクスポートする方法について説明します。
   
 トポロジ ビルダーとを使用して、エッジ サーバーのトポロジを構築するだけで、任意のトポロジのコンポーネントの Skype のビジネス サーバー 2015 のする必要がありますツールです。 以下の手順を実行する前に、少なくとも 1 つのフロント エンド プールまたは Standard Edition サーバーを設定する必要があります。
   

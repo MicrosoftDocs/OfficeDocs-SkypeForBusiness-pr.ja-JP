@@ -7,20 +7,22 @@ ms.date: 2/21/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: fefd4fff-57cc-4019-b3eb-3535ad3729a8
 description: '概要: は、これらの概念、論理を開発する方法について説明へのリンクと Skype のビジネス サーバー 2015 機能、サーバー、およびトポロジの構成の物理設計について説明します。'
-ms.openlocfilehash: d4e1b4e7164543233a6a78c17807b4f8611d44b2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 66f6e8a6ea422f3f264d1773385a28eb57a1d587
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-for-your-skype-for-business-server-2015-deployment"></a>Skype for Business Server 2015 展開の計画
  
-**の概要:**これらの概念、論理を開発する方法について説明へのリンクと Skype のビジネス サーバー 2015 機能、サーバー、およびトポロジの構成の物理設計について説明します。
+**の概要:** これらの概念、論理を開発する方法について説明へのリンクと Skype のビジネス サーバー 2015 機能、サーバー、およびトポロジの構成の物理設計について説明します。
   
 ビジネス サーバー用の Skype は、インスタント メッセージング (IM)、プレゼンス、会議、ビデオ、およびエンタープライズ レベルのコラボレーション要件をサポートするテレフォニー ソリューションを提供します。 このトピックでは、ビジネス サーバーの展開の成功の Skype を計画する方法に関する情報へのリンクを提供します。 
   
@@ -41,12 +43,12 @@ Skype をビジネス サーバーの展開を計画する方法の詳細につ�
 |**ソリューションの計画**|**サーバーのアーキテクチャ、クライアントとデバイスを計画します。**|
 |:-----|:-----|
 |![ソリューション コンテンツのアイコン](../media/3959ce46-bd94-40be-8a58-6108bc3583a8.png)           <br/> どのソリューションが組織に適しているかを判断するには、以下の記事を読みください。  <br/> |![サーバー アーキテクチャ コンテンツのアイコン](../media/1d7d8156-1ca9-4124-a17f-6bce5aa91966.png)           <br/> サーバー アーキテクチャ、およびクライアントとデバイスのサポートを計画するには、以下の記事を読みください。  <br/> |
-|**[インスタント メッセージングとプレゼンスのビジネス サーバー 2015 Skype での計画](instant-messaging-and-presence.md)**プレゼンス、インスタント メッセージング (IM) の要件は? インスタント メッセージング (IM) とプレゼンスに含まれるすべての Skype ビジネス サーバーの展開が、技術上の要件では、外部ユーザーは、アーカイブとの通信に関する決定を行う必要があります。 <br/> |**[ビジネス サーバー 2015 の Skype の環境の要件](requirements-for-your-environment/environmental-requirements.md)** <br/> **[ビジネス サーバー 2015 の Skype のサーバーの要件](requirements-for-your-environment/server-requirements.md)** <br/> **[ビジネス 2015年の Skype のネットワーク要件を計画します。](network-requirements/network-requirements.md)** <br/> ビジネス サーバーの Skype のための前提条件を決定するには、まずこれらのトピックを参照します。  <br/> |
-|**[ビジネス サーバー 2015 の Skype でエンタープライズ VoIP ソリューションを計画します。](enterprise-voice-solution/enterprise-voice-solution.md)**音声要件を挙げてください。 ビジネス サーバーの展開について、Skype で、組織の電話システムを統合する方法を定義します。エンタープライズ VoIP は、ボイス オーバー IP (VoIP) ソリューションでは、Outlook および Exchange.Call を使用する作業との統合を含む、豊富な機能セットを提供する--最も包括的な音声サービスは、既存のビジネス ソリューションは、Skype を統合するための方法を提供しています。PBX 電話システムです。 <br/> |**[ビジネス サーバー 2015 の Skype のトポロジーの基本事項](topology-basics/topology-basics.md)**その他の準備をする前に行う適切なトポロジの Skype のビジネス サーバーの配置を知りたいでしょう。 決定する必要があります最初には、ビジネスのサーバー用に Skype の設置型展開をする場合、またはハイブリッド展開でのサーバーをオンラインでビジネスの展開に、Skype でこれを結合しようとしている場合です。 コロケーション シナリオとサーバーのトポロジを計画するには、このセクションのトピックを参照します。 <br/> |
-|**[ビジネス サーバー 2015 の Skype でのビデオの相互運用サーバーの計画](video-interop-server.md)**ビデオ、組織の要件を挙げてください。 ビジネス サーバー ビデオの相互運用機能の Skype は、Cisco の遠隔会議システム (VTCs) を直接ここで統合できます。 ビデオの機能と、技術要件についての記事をお読みください。 <br/> |**[ビジネス サーバー 2015 の Skype にアップグレードしようとしています。](upgrade.md)**Lync Server の以前のバージョンからアップグレードするか。 アップグレードを計画する方法についての情報を検索します。 <br/> |
-|**[ビジネスとの交換用 Skype を統合しようとしています。](integrate-with-exchange/integrate-with-exchange.md)**組織の展開 Exchange Server と Skype の両方ビジネス サーバーのでしょうか。 その場合は、両方の製品の機能を統合する方法に関するを参照します。 たとえば、プレゼンス情報とデータをアーカイブします。 <br/> |**[クライアントとデバイスの計画](clients-and-devices/clients-and-devices.md)**Skype ビジネス サーバーは、組織のユーザーに配置することができますクライアント インターフェイスのコレクションをサポートします。 周到に計画することの従業員は、必要な情報を取得し、ビジネスの Skype が使用できるようにする場所にいています。 <br/> |
-|**[ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの計画](persistent-chat-server/persistent-chat-server.md)**組織は、組織内で複数のユーザーが時間の経過と共に永続化するための会話に参加できるチャット ルームを実装するためにするでしょうか。 場合を計画し、永続的なチャット サーバーを配置する方法の詳細を表示するようにします。 <br/> |**[高可用性とビジネス サーバー 2015 の Skype での災害復旧の計画](high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)**高可用性は、1 つまたは複数のサーバーがダウンした場合でも、ビジネス サーバー サービスの Skype が利用可能であることを確認することを指します。 障害復旧とは、自然災害または人災が発生した場合であってもサービスの稼働を維持し、災害前からのデータを可能な限り多く維持することです。 高可用性と障害復旧を計画するには、このセクションのトピックをお読みください。 <br/> |
-|**[ビジネス サーバー 2015 の Skype での会議の計画](conferencing/conferencing.md)** 組織の会議の要件は? Web 会議、音声/ビデオ (A/V) 会議、およびダイヤルイン会議の機能と要件に関する記事です。 <br/> |**[ビジネス サーバー 2015 の Skype でのセキュリティの計画](security/security.md)**ユーザー認証、サーバーからサーバーへの認証、およびアプリケーションの認証を理解し、Skype のビジネス サーバー用の認証を計画するためのリソースを検索します。 <br/> |
+|**[インスタント メッセージングとプレゼンスのビジネス サーバー 2015 Skype での計画](instant-messaging-and-presence.md)** プレゼンス、インスタント メッセージング (IM) の要件は? インスタント メッセージング (IM) とプレゼンスに含まれるすべての Skype ビジネス サーバーの展開が、技術上の要件では、外部ユーザーは、アーカイブとの通信に関する決定を行う必要があります。 <br/> |**[ビジネス サーバー 2015 の Skype の環境の要件](requirements-for-your-environment/environmental-requirements.md)** <br/> **[ビジネス サーバー 2015 の Skype のサーバーの要件](requirements-for-your-environment/server-requirements.md)** <br/> **[ビジネス 2015年の Skype のネットワーク要件を計画します。](network-requirements/network-requirements.md)** <br/> ビジネス サーバーの Skype のための前提条件を決定するには、まずこれらのトピックを参照します。  <br/> |
+|**[ビジネス サーバー 2015 の Skype でエンタープライズ VoIP ソリューションを計画します。](enterprise-voice-solution/enterprise-voice-solution.md)** 音声要件を挙げてください。 ビジネス サーバーの展開について、Skype で、組織の電話システムを統合する方法を定義します。エンタープライズ VoIP は、ボイス オーバー IP (VoIP) ソリューションでは、Outlook および Exchange.Call を使用する作業との統合を含む、豊富な機能セットを提供する--最も包括的な音声サービスは、既存のビジネス ソリューションは、Skype を統合するための方法を提供しています。PBX 電話システムです。 <br/> |**[ビジネス サーバー 2015 の Skype のトポロジーの基本事項](topology-basics/topology-basics.md)** その他の準備をする前に行う適切なトポロジの Skype のビジネス サーバーの配置を知りたいでしょう。 決定する必要があります最初には、ビジネスのサーバー用に Skype の設置型展開をする場合、またはハイブリッド展開でのサーバーをオンラインでビジネスの展開に、Skype でこれを結合しようとしている場合です。 コロケーション シナリオとサーバーのトポロジを計画するには、このセクションのトピックを参照します。 <br/> |
+|**[ビジネス サーバー 2015 の Skype でのビデオの相互運用サーバーの計画](video-interop-server.md)** ビデオ、組織の要件を挙げてください。 ビジネス サーバー ビデオの相互運用機能の Skype は、Cisco の遠隔会議システム (VTCs) を直接ここで統合できます。 ビデオの機能と、技術要件についての記事をお読みください。 <br/> |**[ビジネス サーバー 2015 の Skype にアップグレードしようとしています。](upgrade.md)** Lync Server の以前のバージョンからアップグレードするか。 アップグレードを計画する方法についての情報を検索します。 <br/> |
+|**[ビジネスとの交換用 Skype を統合しようとしています。](integrate-with-exchange/integrate-with-exchange.md)** 組織の展開 Exchange Server と Skype の両方ビジネス サーバーのでしょうか。 その場合は、両方の製品の機能を統合する方法に関するを参照します。 たとえば、プレゼンス情報とデータをアーカイブします。 <br/> |**[クライアントとデバイスの計画](clients-and-devices/clients-and-devices.md)** Skype ビジネス サーバーは、組織のユーザーに配置することができますクライアント インターフェイスのコレクションをサポートします。 周到に計画することの従業員は、必要な情報を取得し、ビジネスの Skype が使用できるようにする場所にいています。 <br/> |
+|**[ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの計画](persistent-chat-server/persistent-chat-server.md)** 組織は、組織内で複数のユーザーが時間の経過と共に永続化するための会話に参加できるチャット ルームを実装するためにするでしょうか。 場合を計画し、永続的なチャット サーバーを配置する方法の詳細を表示するようにします。 <br/> |**[高可用性とビジネス サーバー 2015 の Skype での災害復旧の計画](high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)** 高可用性は、1 つまたは複数のサーバーがダウンした場合でも、ビジネス サーバー サービスの Skype が利用可能であることを確認することを指します。 障害復旧とは、自然災害または人災が発生した場合であってもサービスの稼働を維持し、災害前からのデータを可能な限り多く維持することです。 高可用性と障害復旧を計画するには、このセクションのトピックをお読みください。 <br/> |
+|**[ビジネス サーバー 2015 の Skype での会議の計画](conferencing/conferencing.md)** 組織の会議の要件は? Web 会議、音声/ビデオ (A/V) 会議、およびダイヤルイン会議の機能と要件に関する記事です。 <br/> |**[ビジネス サーバー 2015 の Skype でのセキュリティの計画](security/security.md)** ユーザー認証、サーバーからサーバーへの認証、およびアプリケーションの認証を理解し、Skype のビジネス サーバー用の認証を計画するためのリソースを検索します。 <br/> |
 |**[ビジネス サーバーとオンライン ビジネスの Skype の Skype 間のハイブリッド接続の計画](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)** ビジネス サーバーの設置型の Skype と Skype のオンライン ビジネスの両方に置かれているユーザーを使用していますか。 場合は、設置とオンラインのユーザーの両方を 1 つのドメイン間で同期するハイブリッド展開をセットアップする方法の詳細を表示します。 <br/> ||
 |**[ビジネス サーバー 2015 の Skype でエッジ サーバーの展開の計画](edge-server-deployments/edge-server-deployments.md)** 組織は、内部ネットワーク外のユーザーと通信しますか。 その場合は、組織のファイアウォールを越えて通信をサポートするためにエッジ サーバーを展開する方法について参照してください。 <br/> ||
    

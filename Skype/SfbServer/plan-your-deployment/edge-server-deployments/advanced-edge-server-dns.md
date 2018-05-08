@@ -6,20 +6,18 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Skype16
-- IT_Skype16
-ms.custom:
 - Strat_SB_Hybrid
-- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: '概要: は、Skype のビジネス サーバー 2015 展開オプションのシナリオを確認します。 単一サーバーを使用したいと考えている場合も、DNS または HLB と共にサーバー プールを使用することを優先する場合も、このトピックは役に立ちます。'
-ms.openlocfilehash: fed6aa349c7c8e6644cc207bc2fb85eac5cd1a16
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 575bbacfa58f52197d50b335942909dc8748a965
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server-2015"></a>高度なエッジ サーバーの DNS を計画する Skype のビジネス サーバー 2015
  

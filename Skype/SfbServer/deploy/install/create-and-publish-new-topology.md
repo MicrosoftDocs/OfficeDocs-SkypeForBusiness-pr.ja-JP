@@ -7,20 +7,22 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: '概要: は、作成、発行、およびビジネスのサーバーの Skype をインストールする前に、新しいトポロジを確認する方法を説明します。 マイクロソフト評価センターからのビジネス サーバー 2015 の Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: 23a88926955a708882cbc6ae6ab8321786174c6d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d49230c1fc8124e15f411ca4c93cd2a5392e64f5
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での新しいトポロジの作成および公開
  
-**の概要:**作成、発行、およびビジネスのサーバーの Skype をインストールする前に、新しいトポロジを確認する方法について説明します。 マイクロソフト評価センターからのビジネス サーバー 2015 の Skype の無料試用版をダウンロード: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
+**の概要:** 作成、発行、およびビジネスのサーバーの Skype をインストールする前に、新しいトポロジを確認する方法について説明します。 マイクロソフト評価センターからのビジネス サーバー 2015 の Skype の無料試用版をダウンロード: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
   
 ビジネス サーバー システムに Skype をインストールするにはトポロジ内のサーバーごとに、前に、トポロジを作成し、発行する必要があります。 トポロジを公開するときは、トポロジの情報を中央管理ストア データベースに読み込みます。 Enterprise Edition プールの場合は、新しいトポロジを初めて公開するときに中央管理ストア データベースを作成することになります。 Standard Edition の場合は、トポロジを公開する前に、展開ウィザードの最初の Standard Edition Server の準備プロセスを実行する必要があります。 この操作を行うと、SQL Server Express Edition インスタンスのインストールと中央管理ストアの作成が行われ、Standard Edition が準備されます。 手順 1 ～ 5 は任意の順序で実行できます。 ただし、手順 6、7、8 は、図に説明されているように手順 1 ～ 5 の後で順番どおりに行う必要があります。 8 の手順 6 で作成し、新しいトポロジを公開する方法を説明します。
   
@@ -82,7 +84,7 @@ Skype ビジネス サーバー トポロジ ビルダーを使用して、デ�
   
      ![展開する機能を選択します。](../../media/77257588-d0e1-4517-a12a-869ffe009353.png)
   
-5. **ロールの配置されているサーバーの選択]**ページで、フロント エンド サーバーでは、仲介サーバーに集約することができます。 またはスタンドアロン サーバーとして展開することもできます。
+5. **ロールの配置されているサーバーの選択]** ページで、フロント エンド サーバーでは、仲介サーバーに集約することができます。 またはスタンドアロン サーバーとして展開することもできます。
     
     仲介サーバーを Enterprise Edition フロントエンド プール上で併置する場合は、このチェック ボックスがオンになっていることを確認します。 サーバーの役割はプール サーバーに展開されます。 仲介サーバーをスタンドアロン サーバーとして展開する場合は、該当するチェック ボックスをオフにします。 フロント エンド サーバーを完全に展開した後、別の配置の手順で、仲介サーバーを配置します。 コロケーションについての詳細を計画、[ビジネス サーバー 2015 の Skype のトポロジーの基本事項](../../plan-your-deployment/topology-basics/topology-basics.md)を参照してください。
     

@@ -7,61 +7,63 @@ ms.date: 7/14/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
-description: 'Summary: Learn how to install the administrative tools required for an installation of Skype for Business Server 2015. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: c0d6b4a2ad41fbca4c89e6095a34eabf08e191ee
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+description: '概要: ビジネス サーバー 2015 の Skype のインストールに必要な管理ツールをインストールする方法を説明します。 マイクロソフト評価センターからのビジネス サーバー 2015 の Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
+ms.openlocfilehash: 104919e66ea16777582d28617c78853ba6f2f1e3
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 への管理ツールのインストール
  
-**Summary:** Learn how to install the administrative tools required for an installation of Skype for Business Server 2015. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**の概要:** ビジネス サーバー 2015 の Skype のインストールに必要な管理ツールをインストールする方法について説明します。 マイクロソフト評価センターからのビジネス サーバー 2015 の Skype の無料試用版をダウンロード: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
   
-The administrative tools include Topology Builder and the Control Panel. The administrative tools must be installed on at least one server in the topology or a 64-bit management workstation running a Windows OS version that is supported for Skype for Business Server. 手順 1 ～ 5 は任意の順序で実行できます。 ただし、手順 6、7、8 は、図に説明されているように手順 1 ～ 5 の後で順番どおりに行う必要があります。 Installing the administrative tools is step 3 of 8.
+管理ツールには、トポロジ ビルダーおよびコントロール パネルが含まれます。 トポロジまたは Skype ビジネス サーバーのサポートされている Windows のオペレーティング システムのバージョンを実行している 64 ビットの管理ワークステーションで少なくとも 1 つのサーバーの管理ツールをインストールしなければなりません。 手順 1 ～ 5 は任意の順序で実行できます。 ただし、手順 6、7、8 は、図に説明されているように手順 1 ～ 5 の後で順番どおりに行う必要があります。 8 のステップ 3 は、管理ツールをインストールします。
   
 ![概要図](../../media/d856afe8-4758-432f-bc45-e1956016419a.png)
   
-## <a name="install-skype-for-business-server-2015-administrative-tools"></a>Install Skype for Business Server 2015 administrative tools
+## <a name="install-skype-for-business-server-2015-administrative-tools"></a>Skype をビジネス サーバー 2015 の管理ツールをインストールします。
 
-The installation media for Skype for Business Server 2015 provides a flexible experience. When you first run Setup.exe, the only tools installed are the Skype for Business Server Deployment Wizard and the Skype for Business Server Management Shell. By using these two tools, known as Core Components, you can continue with the installation process, but they do not provide primary functionality for the overall Skype for Business Server environment. 展開ウィザードはコア コンポーネントのインストール後に自動で起動されます。 The section of the Deployment Wizard titled **Install Administrative Tools** installs Skype for Business Server Topology Builder and Skype for Business Server Control Panel.
+ビジネス サーバー 2015 の Skype のインストール メディアでは、柔軟性の高いエクスペリエンスを提供します。 最初に Setup.exe を実行するときのみのツールがインストールされているビジネス サーバーの展開ウィザードの Skype とビジネスのサーバー管理シェルの Skype コア コンポーネントと呼ばれるこれらの 2 つのツールを使用して、インストール プロセスを続行することができますが、ビジネス サーバー環境の全体的な Skype の主要な機能は提供されません。 展開ウィザードはコア コンポーネントのインストール後に自動で起動されます。 **管理ツールのインストール**を [展開ウィザード] のセクションでは、ビジネス サーバーのコントロール パネルのビジネス サーバー トポロジ ビルダーと Skype の Skype をインストールします。
   
 > [!IMPORTANT]
-> Every Skype for Business Server environment must have at least one server with the administrative tools installed. 
+> ビジネス サーバー環境のすべての Skype がインストールされている管理ツールを使用して、少なくとも 1 つのサーバーが必要です。 
   
 **管理ツールのインストール**手順に関するビデオを見てください。
   
 > [!video https://www.microsoft.com/en-us/videoplayer/embed/99a5c436-963b-4eed-b423-651568c87cb1?autoplay=false]
   
-### <a name="install-skype-for-business-server-2015-administrative-tools-from-the-deployment-wizard"></a>Install Skype for Business Server 2015 administrative tools from the Deployment Wizard
+### <a name="install-skype-for-business-server-2015-administrative-tools-from-the-deployment-wizard"></a>展開ウィザードの [管理ツールのビジネス サーバー 2015 の Skype をインストールします。
 
-1. Insert the Skype for Business Server 2015 installation media. セットアップが自動で開始されない場合は、[**セットアップ**] をダブルクリックします。
+1. Skype ビジネス サーバー 2015 のインストール メディアを挿入します。 セットアップが自動で開始されない場合は、[**セットアップ**] をダブルクリックします。
     
 2. インストール メディアを実行するには、Microsoft Visual C++ が必要です。インストールするかどうかをたずねるダイアログ ボックスが表示されたら、[**はい**] をクリックします。
     
-3. By using Smart Setup, a new feature in Skype for Business Server 2015, you can connect to the Internet to check for updates during the installation process. これにより、インストール時の製品に最新の更新プログラムを確実に適用できるため、作業がしやすくなります。 [**インストール**] をクリックしてインストールを開始します。
+3. スマート セットアップ、Skype のビジネス サーバー 2015 年の新機能を使用して、インストール処理中に更新プログラムを確認するのにはインターネットに接続できます。 これにより、インストール時の製品に最新の更新プログラムを確実に適用できるため、作業がしやすくなります。 [**インストール**] をクリックしてインストールを開始します。
     
 4. 使用許諾契約書の内容をよく読んでください。同意する場合は [**使用許諾契約書に同意します**] を選択し、[**OK**] をクリックします。
     
-5. The Skype for Business Server 2015 Core Components will be installed on the server. 
+5. ビジネス サーバー 2015 のコア ・ コンポーネントの Skype は、サーバーにインストールされます。 
     
     コア コンポーネントは、図に示されている次のコンポーネントで構成されています。
     
     ![アプリの画面のコア コンポーネント](../../media/0da1d983-4c4b-4b23-a196-c3bdba4857c6.png)
   
-  - **Skype for Business Server 2015 Deployment Wizard** A deployment program that provides a launch pad for installing the various components of Skype for Business Server 2015.
+  - **ビジネス サーバーの展開ウィザードが 2015年の Skype**ビジネス サーバー 2015 の Skype のさまざまなコンポーネントをインストールするための起動パッドを提供する導入プログラムです。
     
-  - **Skype for Business Server 2015 Management Shell** A preconfigured PowerShell program that allows for administration of Skype for Business Server 2015.
+  - **Skype ビジネス サーバー 2015年管理シェルには**ビジネス サーバー 2015 の Skype の管理を可能にする PowerShell の事前に構成されたプログラムです。
     
-    Once the installation of the Core Components is complete, the Skype for Business Server 2015 Deployment Wizard will automatically launch, as shown in the figure. 
+    コア ・ コンポーネントのインストールが完了した後、ビジネス サーバー 2015 の展開ウィザードの Skype が自動的に起動、図に示すようにします。 
     
     ![Skype for Business Server 2015 展開ウィザード](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
   
-6. In addition to the Core Components, you will also need to install Skype for Business Server 2015 Topology Builder and Skype for Business Server 2015 Control Panel on at least one server in the environment. 展開ウィザードの [**管理ツールのインストール**] をクリックします。
+6. コア コンポーネントに加えて、環境内の少なくとも 1 つのサーバーで、ビジネス サーバー 2015 のコントロール パネルのビジネス サーバー 2015 のトポロジ ビルダーと Skype の Skype をインストールする必要がも。 展開ウィザードの [**管理ツールのインストール**] をクリックします。
     
 7. [**次へ**] をクリックして、インストールを開始します。
     
@@ -69,8 +71,8 @@ The installation media for Skype for Business Server 2015 provides a flexible ex
     
     ![Skype for Business Server 2015 管理ツール](../../media/760873dd-9c87-4efb-bf98-7162d876fd18.png)
   
-   - **Skype for Business Server 2015 Topology Builder** A program used to build, deploy, and manage topologies.
+   - **Skype ビジネス サーバー 2015年トポロジ ビルダーの**プログラムをビルド、配置、およびトポロジを管理するために使用します。
     
-   - **Skype for Business Server 2015 Control Panel** A program used to administer the installation.
+   - **Skype ビジネス サーバー 2015年コントロール パネルの**プログラムのインストールを管理するために使用します。
     
 

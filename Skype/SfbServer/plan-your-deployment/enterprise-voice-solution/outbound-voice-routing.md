@@ -7,16 +7,18 @@ ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: 発信の音声が Skype で通話ルーティングの設定を含むビジネス サーバーのエンタープライズ VoIP のルーティングについて、計画、正規化の規則、音声ポリシー、PSTN 使用法レコード、およびボイス ルートをダイヤルします。
-ms.openlocfilehash: 9a26f734faaa7bb070c826a427b47f805ad7438f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 35ba2a8991b35a22b6abcacc42f1323d167c0d4d
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の発信音声ルーティングの計画
  
@@ -144,16 +146,16 @@ ms.lasthandoff: 03/28/2018
 |**ルール名**|**説明**|**番号パターン**|**変換**|**例**|
 |:-----|:-----|:-----|:-----|:-----|
 |4digitExtension  <br/> |4 桁の内線番号を変換します。  <br/> |^(\d{4})$  <br/> |+1425555$1  <br/> |0100 は +14255550100 に変換されます  <br/> |
-|5digitExtension  <br/> |5 桁の内線番号を変換します。  <br/> |^5(\d{4})$  <br/> |+1425555$1  <br/> |50100 は +14255550100 に変換されます  <br/> |
+|5digitExtension  <br/> |5 桁の内線番号を変換します。  <br/> |^ 5(\d{4})$  <br/> |+1425555$1  <br/> |50100 は +14255550100 に変換されます  <br/> |
 |7digitcallingRedmond  <br/> |7 桁の番号を Redmond の電話番号に変換します。  <br/> |^(\d{7})$  <br/> |+1425$1  <br/> |5550100 が +14255550100 に変換されます。  <br/> |
 |7digitcallingDallas  <br/> |7 桁の番号を Dallas の電話番号に変換します。  <br/> |^(\d{7})$  <br/> |+1972$1  <br/> |5550100 が +19725550100 に変換されます。  <br/> |
 |10digitcallingUS  <br/> |米国の 10 桁の番号を変換します。  <br/> |^(\d{10})$  <br/> |+1$1  <br/> |2065550100 が +12065550100 に変換されます。  <br/> |
-|LDCallingUS  <br/> |米国の長距離プレフィックス付きの番号を変換します。  <br/> |^1(\d{10})$  <br/> |+$1  <br/> |12145550100 が +2145550100 に変換されます。  <br/> |
+|LDCallingUS  <br/> |米国の長距離プレフィックス付きの番号を変換します。  <br/> |^ 1(\d{10})$  <br/> |+$1  <br/> |12145550100 が +2145550100 に変換されます。  <br/> |
 |IntlCallingUS  <br/> |米国の国際プレフィックス付きの番号を変換します。  <br/> |^ 011(\d\*)$  <br/> |+$1  <br/> |01191445550100 が +91445550100 に変換されます。  <br/> |
 |RedmondOperator  <br/> |0 を Redmond のオペレーター呼び出し番号に変換します。  <br/> |^0$  <br/> |+14255550100  <br/> |0 は +14255550100 に変換されます  <br/> |
-|RedmondSitePrefix  <br/> |ネットワーク内プレフィックス (6) および Redmond のサイト コード (222) 付きの番号を変換します。  <br/> |^6222(\d{4})$  <br/> |+1425555$1  <br/> |62220100 が +14255550100 に変換されます。  <br/> |
-|NYSitePrefix  <br/> |ネットワーク内プレフィックス (6) および NY のサイト コード (333) 付きの番号を変換します。  <br/> |^6333(\d{4})$  <br/> |+1202555$1  <br/> |63330100 が +12025550100 に変換されます。  <br/> |
-|DallasSitePrefix  <br/> |ネットワーク内プレフィックス (6) および Dallas のサイト コード (444) 付きの番号を変換します。  <br/> |^6444(\d{4})$  <br/> |+1972555$1  <br/> |64440100 が +19725550100 に変換されます。  <br/> |
+|RedmondSitePrefix  <br/> |ネットワーク内プレフィックス (6) および Redmond のサイト コード (222) 付きの番号を変換します。  <br/> |^ 6222(\d{4})$  <br/> |+1425555$1  <br/> |62220100 が +14255550100 に変換されます。  <br/> |
+|NYSitePrefix  <br/> |ネットワーク内プレフィックス (6) および NY のサイト コード (333) 付きの番号を変換します。  <br/> |^ 6333(\d{4})$  <br/> |+1202555$1  <br/> |63330100 が +12025550100 に変換されます。  <br/> |
+|DallasSitePrefix  <br/> |ネットワーク内プレフィックス (6) および Dallas のサイト コード (444) 付きの番号を変換します。  <br/> |^ 6444(\d{4})$  <br/> |+1972555$1  <br/> |64440100 が +19725550100 に変換されます。  <br/> |
    
 以下の表は、Redmond (Washington、米国) の場所のダイヤル プランの例です。これは、前の表に示す正規化ルールに基づいています。
   

@@ -6,20 +6,22 @@ ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: '概要: ビジネス サーバー 2015 の Skype で、エッジ サーバーのトポロジを計画するためのこれらのシナリオを確認します。'
-ms.openlocfilehash: 30bce96e1764a608bf7bc8daeec3d918b9e5912c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 9afe23c626f2a266061c250740e52bc55dd2697d
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 のエッジ サーバーのシナリオ
  
-**の概要:**ビジネス サーバー 2015 の Skype で、エッジ サーバーのトポロジを計画するためのこれらのシナリオを確認します。
+**の概要:** ビジネス サーバー 2015 の Skype で、エッジ サーバーのトポロジを計画するためのこれらのシナリオを確認します。
   
 視覚化して、ビジネス エッジ サーバーのトポロジを実装するためには、どのような Skype の決定を支援するいくつかのシナリオの図があります。 適切な候補を選択すれば、対処する必要がある環境の要件を調査できます。 次に示す図はすべてのシナリオに適用されるため、最初に説明します。
   

@@ -8,23 +8,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c7a60ee-b803-4cd4-a7cc-6552f3b238b8
-description: 概要をここに挿入します。
-ms.openlocfilehash: 4f78365e47c5f15916c21641c2a11e44af05fcab
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: トポロジ ビルダーのトピック
+ms.openlocfilehash: 87d64bd6282386903dfcdc08f476b5b99ec602d8
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="help-topobld"></a>ヘルプ TopoBld
  
-概要をここに挿入します。
+このノードには、Business Server トポロジ ビルダーの Skype のヘルプ トピックが含まれています。
   
-## <a name="section-heading"></a>セクション見出し
 
-セクションの本文をここに挿入します。
-  
-### <a name="subsection-heading"></a>サブセクションの見出し
-
-サブセクションの本文をここに挿入します。
   
 

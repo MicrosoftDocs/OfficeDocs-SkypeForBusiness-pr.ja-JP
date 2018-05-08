@@ -15,19 +15,18 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords:
 - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
 - ms.lync.lac.VASAMissingGeoCodes
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: 国や地域ごとに、Skype for Business Online および Microsoft Teams のユーザーの電話番号を取得する手順が異なります。 必要な情報を取得するには、以下の国または地域へのリンク先に移動してください。
-ms.openlocfilehash: 42a16c8dbdddd2907dfd2da8debfcd2dcd583487
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: ae3a68c81d147441559dc91e2b22522484642b4e
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>組織のために電話番号を管理する
 ユーザーとサービスの両方を取得する 3 つの方法があります (有料とフリー ダイヤル)、組織の番号です。

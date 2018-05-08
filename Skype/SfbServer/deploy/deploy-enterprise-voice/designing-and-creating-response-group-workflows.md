@@ -7,16 +7,18 @@ ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: 設計し、ビジネス サーバーのエンタープライズ VoIP の Skype で応答グループのワークフローを作成します。 ハント グループ ワークフローと対話ワークフローの両方について説明します。
-ms.openlocfilehash: acbe37456f644ab387da57942cccf8fee527a16e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 71380d7dc048663eca9543a31d67462ead0321c3
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business-2015"></a>Skype for Business 2015 での応答グループ ワークフローの設計と作成
  

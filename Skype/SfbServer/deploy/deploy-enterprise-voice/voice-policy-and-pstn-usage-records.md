@@ -7,20 +7,22 @@ ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: '概要: は、作成および音声ポリシーを変更またはビジネス サーバーのコントロール パネルの Skype を使用して、PSTN 使用法レコードを構成します。'
-ms.openlocfilehash: 148b3762d0055a96bf10a4fbee907d88b42f28ed
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: fc1d60cb66dd0cf73c63b9896f153bb83c8fec24
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business-2015"></a>Skype for Business 2015 での音声ポリシーの作成または変更と PSTN 使用法レコードの構成
  
-**の概要:**作成し、音声ポリシーを変更またはビジネス サーバーのコントロール パネルの Skype を使用して、PSTN 使用法レコードを構成します。
+**の概要:** 作成し、音声ポリシーを変更またはビジネス サーバーのコントロール パネルの Skype を使用して、PSTN 使用法レコードを構成します。
   
 > [!NOTE]
 > 各音声ポリシーには、少なくとも 1 つの公衆交換電話網 (PSTN) 使用法レコードが関連付けられている必要があります。 エンタープライズ VoIP 展開で利用可能なすべての PSTN 使用法レコードの一覧を見るし、そのプロパティを表示、[ビジネス 2015年の Skype でのビューの PSTN 使用法レコード](view-pstn-usage-records.md)を参照してください。 

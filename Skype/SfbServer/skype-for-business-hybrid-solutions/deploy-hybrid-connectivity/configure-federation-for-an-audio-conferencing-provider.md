@@ -7,23 +7,24 @@ ms.date: 12/8/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
 - IT_Skype4B_Hybrid
-ms.custom: Strat_SB_Hybrid
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 08dedcce-0d3f-45da-8282-cf2634a41665
 description: '概要: ビジネス オンラインの Skype のオーディオ会議プロバイダーのフェデレーションを構成する方法を説明します。'
-ms.openlocfilehash: 8ac7e8d365b2a46ac37091510c6909ea996d8ada
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 95ca4e369e42bf265d243842067f531907e26531
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="configure-federation-for-an-audio-conferencing-provider-in-your-hybrid-deployment"></a>ハイブリッド展開で、オーディオ会議プロバイダーのフェデレーションを構成します。
  
-**の概要:**ビジネス オンラインの Skype のオーディオ会議プロバイダーのフェデレーションを構成する方法について説明します。
+**の概要:** ビジネス オンラインの Skype のオーディオ会議プロバイダーのフェデレーションを構成する方法について説明します。
   
 (オンプレミスをオンラインと共に使う) ハイブリッド展開で電話会議プロバイダー (ACP) を使う場合、オンプレミス展開と許可されるパートナー サーバーとしての ACP パートナーとの間にフェデレーションを構成する必要があります。 フェデレーションは、ACP パートナー ドメインとエッジ サーバー (アクセス プロキシとも呼ばれます) をオンプレミス展開のフェデレーション ドメイン リストに追加すると設定できます。 その後、APC パートナーは、オンプレミスのエッジ サーバー プールの FQDN を、許可されるフェデレーション ドメイン リストに追加する必要があります。 詳細については、ACP プロバイダーに問い合わせてください。 その後、APC パートナーは、オンプレミスのエッジ サーバー プールの FQDN を、許可されるフェデレーション ドメイン リストに追加する必要があります。
   

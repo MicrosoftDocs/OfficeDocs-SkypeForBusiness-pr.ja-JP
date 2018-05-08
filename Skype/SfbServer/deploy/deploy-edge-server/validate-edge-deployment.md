@@ -6,19 +6,21 @@ ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection:
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
 description: '概要: は、Skype のビジネス サーバー 2015 のエッジ サーバーまたはエッジ サーバー プールの展開が機能していることを確認する方法を説明します。'
-ms.openlocfilehash: 02f909310e6b491ae97e31b7013b1307c7688ada
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: b8adc5e8d652607156d0136671b1f149fbfe27b4
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="validate-your-edge-deployment-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのエッジ展開の検証
  
-**の概要:**ビジネス サーバー 2015 の Skype でエッジ サーバーまたはエッジ サーバー プールの展開が機能していることを確認する方法について説明します。
+**の概要:** ビジネス サーバー 2015 の Skype でエッジ サーバーまたはエッジ サーバー プールの展開が機能していることを確認する方法について説明します。
   
 エッジ サーバーまたはエッジ サーバー プールを展開して、正しく動作しているかを把握する必要があります。 エッジ環境に接続されていることを確認するのに役立ついくつかをここでは、内部のサーバーに、外部ユーザー経由で接続できるサーバー 2015 のビジネス環境について、Skype、エッジです。
   

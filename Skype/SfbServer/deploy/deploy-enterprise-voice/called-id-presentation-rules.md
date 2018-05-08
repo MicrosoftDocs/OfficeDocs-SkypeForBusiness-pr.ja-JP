@@ -7,20 +7,22 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: '概要: ビジネス サーバー 2015 の Skype でビルド規則の翻訳ツールを使用して変換ルールを定義する方法を説明します。'
-ms.openlocfilehash: aa433375ad4dfa2dcc0c141d36b6d51ae28647f1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: dab0b2c2b808b873a443c14849e69f2b33ed9e31
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での着信者番号のプレゼンテーションの変換ルールの作成または変更
  
-**の概要:**ビジネス サーバー 2015 の Skype でビルド規則の翻訳ツールを使用して変換ルールを定義する方法について説明します。
+**の概要:** ビジネス サーバー 2015 の Skype でビルド規則の翻訳ツールを使用して変換ルールを定義する方法について説明します。
   
 **変換ルールの構築**ツールの一連の値を入力して、Skype ビジネス サーバーのコントロール パネルの対応する一致パターンと変換ルールを生成するを有効にすることにより翻訳ルールを定義する場合は、以下の手順を実行します。 または、手動で正規表現を記述して一致パターンと変換ルールを定義することもできます。 詳細については、[作成または変更を手動での翻訳ルール](http://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)を参照してください。
   
@@ -85,7 +87,7 @@ ms.lasthandoff: 03/28/2018
     
    - [**変換ルール**] に、変換される番号の形式のパターンを指定します。
     
-    入力する場合など、^\+(**このパターンに一致する**and011 の \d{9}\d+)$**変換ルール**ルールの中の $1 は、+441235551010 が 011441235551010 に変換します。
+    入力する場合など、^\+(\d{9}では、**このパターンに一致する**and011 \d+)$ +441235551010 が 011441235551010 に変換**変換ルール**ルールでは 1 ドルです。
     
 7. [**OK**] をクリックして変換ルールを保存します。
     

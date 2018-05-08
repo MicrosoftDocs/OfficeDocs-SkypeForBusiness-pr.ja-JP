@@ -7,19 +7,21 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection:
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
 description: '概要: サーバー 2015 のビジネス環境について、Skype にエッジ サーバーまたはエッジ ・ プールを展開する方法を説明します。'
-ms.openlocfilehash: 38eb0344488512a47f4dc21223d881c15f618e22
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 571d8001b70f8b4f03d96042683da1bfae7fdd2d
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="deploy-edge-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのエッジ サーバーの展開
  
-**の概要:**サーバー 2015 のビジネス環境について、Skype にエッジ サーバーまたはエッジ ・ プールを展開する方法について説明します。
+**の概要:** サーバー 2015 のビジネス環境について、Skype にエッジ サーバーまたはエッジ ・ プールを展開する方法について説明します。
   
 なぜサーバー 2015 のビジネス環境について、Skype にエッジ サーバーまたはエッジ プールを展開しますか。 内部ユーザーと対話することができるように、組織の内部ネットワークにログインしていない外部のユーザーが必要な場合、それは必要があります。 これらの外部ユーザーが認証ユーザーと匿名のリモート ユーザー、フェデレーション パートナー、またはその他のモバイル クライアントを使用できます。
   

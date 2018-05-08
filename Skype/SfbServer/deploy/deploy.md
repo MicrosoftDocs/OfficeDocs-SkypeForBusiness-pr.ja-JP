@@ -7,20 +7,22 @@ ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
 description: '概要: をインストールして Skype をビジネス サーバー 2015 と Lync Server の以前のバージョンからのアップグレードの構成方法については、これらのリンクを表示します。'
-ms.openlocfilehash: abce331272dc457bf3444281b810a1e571b1a545
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 81b2a6f8ffc5465c447e57f14bbc3802464e417b
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="deploy-skype-for-business-server-2015"></a>Skype for Business Server 2015 の展開
  
-**の概要:**インストールして Skype をビジネス サーバー 2015 と Lync Server の以前のバージョンからのアップグレードの構成方法については、これらのリンクを表示します。
+**の概要:** インストールして Skype をビジネス サーバー 2015 と Lync Server の以前のバージョンからのアップグレードの構成方法については、これらのリンクを表示します。
   
 ビジネス サーバー用の Skype は、インスタント メッセージング (IM)、プレゼンス、会議、ビデオ、およびエンタープライズ レベルのコラボレーション要件をサポートするテレフォニー ソリューションを提供します。 このトピックでは、展開し、Skype をビジネスのサーバーの構成方法に関する情報へのリンクを提供します。 
   

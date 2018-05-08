@@ -7,20 +7,21 @@ ms.date: 1/26/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
 - IT_Skype16
 - IT_Skype4B_Hybrid
-ms.custom: Strat_SB_Hybrid
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 設置 PSTN への接続では、Office 365 (クラウド PBX) の電話システムの計画の考慮事項について説明します。
-ms.openlocfilehash: 5b244ea55305d88cc214875dc74837f027cc3dd5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 79d414e26b2fe260c6fe647c818911e77ce3bfaa
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Skype で設置した PSTN 接続を持つビジネス サーバーの Office 365 の電話システムを計画します。
  
@@ -106,7 +107,7 @@ PSTN への接続を設置し、Skype をユーザーの移動と Office 365 の
     
     Lync Server 2013 を使用する場合は、 [Lync Server 2013 ハイブリッド](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx)を参照してください。
     
-- **Active Directory フェデレーション サービス (AD FS) (推奨)**シングル サインオンをサポートするために AD FS を展開することをお勧めします。 詳細については、 [Active Directory フェデレーション サービス (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx)を参照してください。
+- **Active Directory フェデレーション サービス (AD FS) (推奨)** シングル サインオンをサポートするために AD FS を展開することをお勧めします。 詳細については、 [Active Directory フェデレーション サービス (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx)を参照してください。
     
 Office 365 の電話システムを展開する方法の詳細については、 [Skype のビジネス サーバーの PSTN への接続をオンプレミスと Office 365 の電話システムのユーザーを有効にする](enable-users-for-phone-system.md)を参照してください。
   

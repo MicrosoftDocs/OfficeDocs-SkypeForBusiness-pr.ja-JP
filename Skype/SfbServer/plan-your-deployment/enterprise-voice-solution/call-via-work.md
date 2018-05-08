@@ -7,16 +7,18 @@ ms.date: 10/31/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: ビジネス サーバーの Skype の呼び出しを使用して作業の計画、できます Skype のビジネスとお使いの PBX 電話システムとの統合ユーザーは、PBX 電話を制御するビジネス用の Skype を使用できるようにします。
-ms.openlocfilehash: d70ffb7cd46f5d2ffd7efe4db860f3a84ca34ef5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 29c7c894d15621c0560eeef30ac7e5cbb28044fa
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での "勤務先から通話" の計画
  

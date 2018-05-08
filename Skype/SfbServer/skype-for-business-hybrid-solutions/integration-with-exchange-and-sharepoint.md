@@ -7,24 +7,25 @@ ms.date: 2/13/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
 - IT_Skype16
 - IT_Skype4B_Hybrid
-ms.custom: Strat_SB_Hybrid
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: '概要: は、Exchange と SharePoint サーバー 2015 のビジネス統合のための Skype について説明します。'
-ms.openlocfilehash: 5c266656e02113645fa2f8aaa2f28dc4953b4540
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 12f6974a6a0d3641242eda072332667ece31c72a
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Exchange と SharePoint との統合
  
-**の概要:**Exchange と SharePoint サーバー 2015 のビジネス統合のため、Skype について説明します。
+**の概要:** Exchange と SharePoint サーバー 2015 のビジネス統合のため、Skype について説明します。
   
 ビジネス サーバー 2015 2016 の Microsoft Exchange Server、Microsoft Exchange Server 2013、Microsoft Exchange Server 2010、および両方の設置型の SharePoint サーバーとの統合の展開では Skype を構成することができ、オンラインです。 次の表に示す機能は、特に指定のない限り、すべてのクライアントでサポートされています。 クライアントの詳細についてはサポートは、[ビジネス オンラインの Skype のクライアント](https://go.microsoft.com/fwlink/p/?LinkId=281902)でクライアント比較表をオンライン ビジネスの[ビジネス用の Skype のデスクトップ クライアントの機能の比較](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)と Skype を参照してください。
   

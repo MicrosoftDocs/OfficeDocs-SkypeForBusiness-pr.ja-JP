@@ -7,20 +7,22 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
 description: '概要: ビジネス サーバー 2015 の Skype でトポロジ ビルダーでの仲介サーバーとゲートウェイ ピアとの間の他のトランクを定義する方法を説明します。'
-ms.openlocfilehash: 67d378a794ed6a80b5721f9eb2e9e988ee4db048
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e76555d0f03b884ad3f3c91c5ca4ad5d687711a2
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのトポロジ ビルダーでの追加トランクの定義
  
-**の概要:**ビジネス サーバー 2015 の Skype でトポロジ ビルダーでの仲介サーバーとゲートウェイ ピアとの間の他のトランクを定義する方法について説明します。
+**の概要:** ビジネス サーバー 2015 の Skype でトポロジ ビルダーでの仲介サーバーとゲートウェイ ピアとの間の他のトランクを定義する方法について説明します。
   
 以下の手順を実行する仲介サーバーのピアを関連付けることができます追加のトランクを定義します。 ピアが接続を公衆交換電話網 (PSTN) とエンタープライズ VoIP が有効なユーザーを提供します。 ピアとなるのは、PSTN ゲートウェイ、IP-PBX、またはインターネット テレフォニー サービス プロバイダー (ITSP) のセッション ボーダー コントローラー (SBC) などです。
   

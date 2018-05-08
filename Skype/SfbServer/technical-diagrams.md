@@ -7,20 +7,22 @@ ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: hub-page
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 description: '概要: は、計画、実装、またはビジネス サーバー 2015 の Skype を管理しているときに、必要に応じてこれらのポスターを確認します。'
-ms.openlocfilehash: 2658271ebe81b49fa9e5247e08aaecfddd84fd9b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4a83cd7877e087bb8efcb69190aec9be0b2753ea
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="technical-diagrams-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 の技術図面
 
-**の概要:**計画、実装、またはビジネス サーバー 2015 の Skype を管理しながら必要に応じて、これらのポスターを確認してください。
+**の概要:** 計画、実装、またはビジネス サーバー 2015 の Skype を管理しながら必要に応じて、これらのポスターを確認してください。
   
 これらの図は Visio (.vsdx) 形式 (Visio 2015) と PDF 形式で表示できます。 ドキュメントを印刷する方法の詳細については、[大容量のポスターを印刷するためのヒント](technical-diagrams.md#tips)を参照してください。
   

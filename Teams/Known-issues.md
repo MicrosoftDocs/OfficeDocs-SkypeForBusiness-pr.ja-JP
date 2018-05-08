@@ -3,18 +3,18 @@ title: Microsoft Teams の既知の問題
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: marcl, ninadara, v-leslc
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c8ce7b7d53e03ae265f41105dabd09978a62e61
-ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
-ms.translationtype: HT
+ms.openlocfilehash: 303e2d14e009d2a0f6493646f3f2466b94920fa4
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
   
@@ -137,6 +137,11 @@ ms.lasthandoff: 04/20/2018
 |会議を使用できません  <br/> |Exchange メールボックスがオンプレミスでホストされて (所属して) いる場合、会議の機能とアイコンを使用できません。  <br/> |オンプレミス展開用に、Exchange 2016 CU3 以降にアップグレードしてください。  <br/> |2017/02/28  <br/> |
 
 ## <a name="mobile"></a>モバイル
+
+|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
+|:-----|:-----|:-----|:-----|
+|自動お気に入りのチャンネルを表示できません。  <br/> |一部のメンバーは、モバイル アプリケーションの自動お気に入りのチャンネルを表示することはありません。  <br/> |メンバーにサインインしなければなりません、デスクトップまたは web アプリケーションを最初に、モバイル アプリケーションの自動お気に入りのチャンネルを参照してください。  <br/> |4/30/18  <br/>|
+
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
 |Intune で管理されているモバイル デバイスで、ユーザーがアカウントを切り替えられません  <br/> |Intune で管理されているモバイル デバイスで、ユーザーがアカウントを切り替えられない場合があります  <br/> |回避策なし。  <br/> |2017/09/20  <br/>|
@@ -148,6 +153,7 @@ ms.lasthandoff: 04/20/2018
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
 |モバイル クライアントの Teams のレイアウトの相違点  <br/> |モバイル クライアントでは、チームはアルファベット順にリストされ、チャネルは折りたたむことができません。  <br/> |回避策なし。  <br/> |2017/03/13  <br/>|
+
 
 ## <a name="people"></a>ユーザー
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|

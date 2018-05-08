@@ -7,20 +7,22 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
 description: '概要: ビジネス サーバー 2015 の Skype での仲介サーバーのファイルをインストールする方法を説明します。'
-ms.openlocfilehash: 8b7b68142c180ee1b06963afbb1b7a9ca6d4319c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 2d296cc43e58f18037176c498149db97698b7c03
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="install-the-files-for-mediation-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 ての仲介サーバーのファイルのインストール
  
-**の概要:**ビジネス サーバー 2015 の Skype での仲介サーバーのファイルをインストールする方法について説明します。
+**の概要:** ビジネス サーバー 2015 の Skype での仲介サーバーのファイルをインストールする方法について説明します。
   
 この手順を正常に完了するには、少なくともローカルの管理者または RTCUniversalReadOnlyAdmins グループのメンバーシップを持つドメイン ユーザーとして、サーバーにログオンしている必要があります。
   

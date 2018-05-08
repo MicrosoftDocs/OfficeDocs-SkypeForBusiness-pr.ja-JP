@@ -7,15 +7,17 @@ ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: Outlook およびその他の Microsoft Office アプリケーションからのビジネス機能の Skype を使用する方法を理解します。
-ms.openlocfilehash: 2b58c9f8decef9be329dbb3f9e77422b3f0a59c0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 186b8951718e6903ec7cc4f8c317504b74917716
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Skype for Business の Office アプリとの互換性
  
@@ -58,7 +60,7 @@ Outlook およびその他の Microsoft Office アプリケーションからの
 |**Exchange Server のバージョン**|**Skype ビジネスをサポートするため**|
 |:-----|:-----|
 |Exchange Server 2016  <br/> |Exchange Server 2013 のサポートと同様  <br/> |
-|Exchange Server 2013  <br/> |Exchange Server 2010 のサポートと同様で、次の機能を含みます。  <br/>&bull;&nbsp;&nbsp;統合連絡先ストア  <br/>&bull;&nbsp;&nbsp;高解像度の画像  <br/>&bull;&nbsp;&nbsp;アーカイブの統合  <br/> **注:**詳細については、 [Exchange Server でサーバー 2015 のビジネス用の Skype の統合](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)を参照してください。  <br/> |
+|Exchange Server 2013  <br/> |Exchange Server 2010 のサポートと同様で、次の機能を含みます。  <br/>&bull;&nbsp;&nbsp;統合連絡先ストア  <br/>&bull;&nbsp;&nbsp;高解像度の画像  <br/>&bull;&nbsp;&nbsp;アーカイブの統合  <br/> **注:** 詳細については、 [Exchange Server でサーバー 2015 のビジネス用の Skype の統合](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)を参照してください。  <br/> |
 |Exchange Server 2010  <br/> |次の機能は、EWS を通してのみ使用できます。  <br/>&bull;&nbsp;&nbsp;読み取りまたは会話の履歴フォルダー内のアイテムの削除  <br/>&bull;&nbsp;&nbsp;読み取りまたはボイス メール アイテムの削除  <br/>&bull;&nbsp;&nbsp;空き時間情報を拡張し、会議の件名と場所を表示します。  <br/>&bull;&nbsp;&nbsp;Exchange の連絡先の同期  <br/> Exchange Server 2010 で、パブリック フォルダーはオプションです。  <br/> |
    
 ## <a name="see-also"></a>関連項目

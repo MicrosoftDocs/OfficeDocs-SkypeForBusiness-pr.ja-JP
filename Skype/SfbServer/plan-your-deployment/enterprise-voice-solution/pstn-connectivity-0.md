@@ -7,16 +7,18 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
 description: ビジネス サーバーの PSTN への接続では、Skype でエンタープライズ VoIP の計画。
-ms.openlocfilehash: 785dd39d4a809283ae53f7eedbe398a6271b7c5b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 228391049988c2eb886c0cb4e7caccce6f55ff3b
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-for-pstn-connectivity-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での PSTN 接続の計画
  

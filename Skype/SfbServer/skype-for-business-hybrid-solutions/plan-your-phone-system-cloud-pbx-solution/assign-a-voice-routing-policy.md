@@ -7,23 +7,24 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
 - IT_Skype4B_Hybrid
-ms.custom: Strat_SB_Hybrid
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: '概要: Office 365 の電話システムを使用して設置した PSTN 接続を持つユーザーの音声ポリシーを割り当てる方法の詳細については、このトピックを読み取り。'
-ms.openlocfilehash: bcc4102157a3689208c45d7430a7954ce9a1e3f9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: fc11fabeb7f6a8bacc0f3a6dd48d6ed24edd3403
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="assign-a-voice-routing-policy"></a>音声ルーティング ポリシーの割り当て
  
-**の概要:**Office 365 の電話システムを使用して設置した PSTN 接続を持つユーザーの音声ポリシーを割り当てる方法の詳細については、このトピックを参照してください。
+**の概要:** Office 365 の電話システムを使用して設置した PSTN 接続を持つユーザーの音声ポリシーを割り当てる方法の詳細については、このトピックを参照してください。
   
 ユーザーは、ビジネス オンラインで設置した PSTN 接続を Office 365 に電話システムを使用するの Skype では後に、2 つのボイス ポリシーが適用されます。 設置型に割り当てる設置型音声ルーティング ポリシーは 1 つです。 このポリシーでは、グローバル、またはユーザー固有にすることができ、どのような PSTN 使用法レコードがユーザーに関連付けを定義します。 このトピックではこのポリシーを割り当てる方法について説明します。
   

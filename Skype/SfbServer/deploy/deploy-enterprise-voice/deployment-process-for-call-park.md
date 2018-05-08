@@ -7,16 +7,18 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 2000d672-a85f-4262-9d69-0bee9ae3709a
 description: 展開プロセスとビジネス サーバーのエンタープライズ VoIP の Skype のコール パークの手順を実行します。
-ms.openlocfilehash: 9d5df92a95e52612c3b0dee005072b10de5c244c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d7bc57664b7f6880cde7481c3ba5aff97c2d4392
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="deployment-process-for-call-park-in-skype-for-business-2015"></a>Skype for Business 2015 でのコール パークの展開プロセス
  
@@ -30,7 +32,7 @@ ms.lasthandoff: 03/28/2018
 
 |**フェーズ**|**手順**|**必須のグループとロール**|**展開に関するドキュメント**|
 |:-----|:-----|:-----|:-----|
-|オービット テーブルでコール パーク オービット範囲を構成する  <br/> |アプリケーションを使用して Skype ビジネス サーバーのコントロール パネルの**新規 CSCallParkOrbit**コマンドレットをコール パークの回り込みテーブルでの移動範囲を作成しに関連付けるアプリケーション サービスをホストしているパーク。 <br/> **注:**既存のダイヤル プランとシームレスに統合、軌道の範囲は通常、仮想の拡張子のブロックとして構成します。 コール パーク オービット テーブルでオービット番号として Direct Inward Dialing (DID) 番号を指定することは、サポートされていません。 <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[作成またはビジネス 2015年の Skype のコール パークの移動範囲を変更します。](create-or-modify-a-call-park-orbit-range.md) <br/> |
+|オービット テーブルでコール パーク オービット範囲を構成する  <br/> |アプリケーションを使用して Skype ビジネス サーバーのコントロール パネルの**新規 CSCallParkOrbit**コマンドレットをコール パークの回り込みテーブルでの移動範囲を作成しに関連付けるアプリケーション サービスをホストしているパーク。 <br/> **注:** 既存のダイヤル プランとシームレスに統合、軌道の範囲は通常、仮想の拡張子のブロックとして構成します。 コール パーク オービット テーブルでオービット番号として Direct Inward Dialing (DID) 番号を指定することは、サポートされていません。 <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[作成またはビジネス 2015年の Skype のコール パークの移動範囲を変更します。](create-or-modify-a-call-park-orbit-range.md) <br/> |
 |コール パーク設定の構成  <br/> | **セット CsCpsConfiguration**コマンドレットを使用して、コール パーク設定を構成します。 最低限、停止の呼び出しがタイムアウトになったときに使用する代替の宛先を構成するのには [ **OnTimeoutURI** ] オプションを構成することをお勧めします。次の設定を構成することもできます。 <br/>  (省略可能)**EnableMusicOnHold**を有効にするか、保留中の音楽を無効にします。 <br/>  (省略可能)**MaxCallPickupAttempts**のフォールバック統一リソース識別子 (URI) への呼び出しを転送する前に応答側の電話に停止の呼び出しまでの呼び出し回数を決定します。 <br/>  (省略可能)**CallPickupTimeoutThreshold**の電話が鳴って電話呼び出しに応答した場所に戻る前に、駐機しているされた後に経過する時間の量を判断します。 <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[ビジネス 2015年の Skype のコール パーク設定を構成します。](configure-call-park-settings.md) <br/> |
 |必要に応じて、保留音をカスタマイズする  <br/> |カスタマイズし、オーディオ ファイルをアップロード、既定の音楽を使用したくない場合に、**セット CsCallParkServiceMusicOnHoldFile**コマンドレットを使用します。 <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[ビジネス 2015年の保留中の inSkype のコール パークの音楽をカスタマイズします。](customize-call-park-music-on-hold.md) <br/> |
 |ユーザーに対してコール パークを有効にする音声ポリシーを構成します。  <br/> |ボイス ポリシーでユーザーのコール パークを有効にするのにビジネス サーバーのコントロール パネルまたは**EnableCallPark**オプションを使用して**セット CSVoicePolicy**コマンドレットの Skype を使用します。 <br/> 既定では、すべてのユーザーに対してコール パークが無効になります。  <br/> 複数の音声ポリシーが存在する場合、EnableCallPark プロパティが、既定のポリシーに対してだけでなく、それぞれの音声ポリシーに設定されているのを確認してください。  <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[ビジネス 2015年の Skype のユーザーのコール パークを有効にします。](enable-call-park-for-users.md) <br/> |
