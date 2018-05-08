@@ -14,18 +14,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Licensing
-- Strat_SB_PSTN
 - LIL_Placement
 description: 'GOV、EDU および非営利組織の計画には、アドオン ・ ライセンスと機能について説明します。 '
-ms.openlocfilehash: 20097c08bf20dd974190532aa19de11a22e51a83
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: cc0777a6dd62e8353ef381c9f0e379e552c6bf18
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>GOV、EDU、および非営利組織
 

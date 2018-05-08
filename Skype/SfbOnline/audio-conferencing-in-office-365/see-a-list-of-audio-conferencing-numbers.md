@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'ビジネス用の Skype から、会議にダイヤルイン番号を検索する方法について説明します。 '
-ms.openlocfilehash: d4e1ef41a02a0197133d2b5cc08a4f35f961e4ee
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: c50c7a06aae2e9e68a5f9a2c66fc04f912a35705
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers"></a>オーディオ会議の番号の一覧を参照してください。
 
@@ -43,7 +42,7 @@ ms.lasthandoff: 04/18/2018
 > [!NOTE]
 > 国内のダイヤルイン番号は専用の組織には、既定の電話番号として設定することが唯一のものです。 ただし、国際ダイヤルの番号は、複数の組織間で共有できます。 
   
-## <a name="to-view-your-audio-conferencing-phone-numbers"></a>電話会議の電話番号を表示するのには
+## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png--to-view-your-audio-conferencing-phone-numbers"></a>![デバイス ・ ロゴ ・ 30x30.png](../images/sfb-logo-30x30.png)  電話会議の電話番号を表示するのには
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -57,6 +56,9 @@ ms.lasthandoff: 04/18/2018
     
 > [!NOTE]
 > **オーディオ会議**に移動することができます > **ユーザー**と組織内の利用可能な番号の一覧から新しい番号を選択することによって番号の既定値を変更するのにはユーザーのプロパティ] を選択します。 「[出席依頼に含まれている会議の開催者のために電話会議の電話番号を設定する](set-the-phone-numbers-included-on-invites.md)」をご覧ください。 
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Go to the Office 365 admin centerSkype for Business.
 

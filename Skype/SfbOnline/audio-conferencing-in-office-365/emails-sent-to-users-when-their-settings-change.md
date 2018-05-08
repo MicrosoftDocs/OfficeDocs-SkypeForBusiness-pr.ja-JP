@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'についてどのような情報が自動的にユーザーに電子メールで送信された、ダイヤルイン会議の設定を変更する場合について説明します。 '
-ms.openlocfilehash: df4e85dbe0549035984a518ad378307a41740fa9
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 47225eff4d7d8bd091b2b7ba9d795c600cbd4b0e
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="emails-sent-to-users-when-their-settings-change"></a>設定を変更するときにユーザーに送信される e メール
 
@@ -59,7 +58,7 @@ ms.lasthandoff: 04/18/2018
   
 - **オーディオ会議のユーザーの PIN がリセットされます。**
     
-    この電子メールには、電話会議の開催者の暗証番号 (pin) では、既存の会議 ID、およびユーザーの既定の会議電話番号が含まれています。 Once it's displayed just after being reset, the PIN won't be shown anymore on the user properties and instead ***** will be shown.
+    この電子メールには、電話会議の開催者の暗証番号 (pin) では、既存の会議 ID、およびユーザーの既定の会議電話番号が含まれています。 [オーディオ会議の PIN のリセット](reset-the-audio-conferencing-pin.md)を参照してください。
     
     > [!NOTE]
     > 会議 Id を動的に組織を有効になっている、会議 Id を表す一意のすべてのユーザーの会議をスケジュールするがあります。 [組織で電話会議の動的な Id](using-audio-conferencing-dynamic-ids-in-your-organization.md)を設定できます。 
@@ -70,7 +69,7 @@ ms.lasthandoff: 04/18/2018
   
 - **ユーザーのライセンスを削除またはオーディオ会議プロバイダーが変更されたときマイクロソフトから他のプロバイダー、または [なし] にします。**
     
-    これは、**オーディオ会議**のライセンスが削除されると、ユーザー、またはサード ・ パーティ製のオーディオ会議プロバイダーをマイクロソフトからユーザーの電話会議プロバイダーを変更する場合、プロバイダーを**[なし]**に設定する場合に発生します。 この電子メールには、説明および既定の会議電話番号] または [会議 ID などの特定の情報、オーディオ会議を削除するのには会議の更新ツールのオンライン ビジネスの Skype を使用するユーザーの情報が含まれています。
+    これは、**オーディオ会議**のライセンスが削除されると、ユーザー、またはサード ・ パーティ製のオーディオ会議プロバイダーをマイクロソフトからユーザーの電話会議プロバイダーを変更する場合、プロバイダーを **[なし]** に設定する場合に発生します。 この電子メールには、説明および既定の会議電話番号] または [会議 ID などの特定の情報、オーディオ会議を削除するのには会議の更新ツールのオンライン ビジネスの Skype を使用するユーザーの情報が含まれています。
     
     「[一般法人向け Office 365 ライセンスの割り当てまたは解除方法](https://support.office.com/en-us/article/997596b5-4173-4627-b915-36abac6786dc)」をご覧ください。
     
@@ -95,7 +94,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 ```
 
 > [!NOTE]
->  電子メール アドレス情報を変更する場合は、環境内の受信電子メール ポリシーが、アドレスから指定されたユーザーから送信される電子メールを許可するかどうかを確認する必要があります。 **連絡先情報を上書きする場合は、電子メールがユーザーに正しく送信されるかを確認してください。 1 つのユーザー、組織内でこれをテストすることによってこれを行うことができます。
+>  電子メール アドレス情報を変更する場合は、環境内の受信電子メール ポリシーが、アドレスから指定されたユーザーから送信される電子メールを許可するかどうかを確認する必要があります。 ** 連絡先情報を上書きする場合は、電子メールがユーザーに正しく送信されるかを確認してください。 1 つのユーザー、組織内でこれをテストすることによってこれを行うことができます。
   
 会議 ID をリセットする
   
@@ -105,7 +104,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
   
 既定では、電子メールは、ユーザーに送信されますが、マイクロソフトのチーム、Skype を使ってビジネス管理センター、または Windows PowerShell の音声会議用の電子メールを受信しないようにする場合は。 
 
-**ビジネス管理センターは、マイクロソフトのチームと Skype を使用してください。**
+![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
 
 1. 左側のナビゲーションでは、**会議**に移動 > **会議ブリッジ**です。 
 
@@ -113,16 +112,19 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 
 3. **ブリッジの設定**ウィンドウで、有効または、**ユーザーのダイヤルインの設定を変更する場合に e メールを自動的に送信**を無効にします。
 
-4. [**適用**] をクリックします。
+4. [ **保存**] をクリックします。
   
-****職場または学校のアカウントを使用して、Office 365 にサインインします。
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png)  **ビジネス管理センターの Skype を使用します。**
     
 1. 既定値は 5 です。
     
 2. **Microsoft ブリッジの設定**] ページをオンまたはオフの**オーディオ会議の設定を変更する場合、ユーザーに e メールを自動的に送信**します。 
     
 3. [ **保存**] をクリックします。 
-    
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+  
 The conference ID and default dial-in conferencing phone number is included on the meeting invite but not the PIN.
   
 1. 電子メールを送信するすべてのユーザーを無効にするのには、次を実行します。

@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'ダイヤルイン会議から、Skype のビジネス管理センター内では有効になっている、組織内のユーザーの一覧を表示する方法について説明します。 '
-ms.openlocfilehash: d97da976941f0853e5948112e4e7c34c7841afc8
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 28fb899586c6a0904126249b769e6fb0004878ca
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing"></a>電話会議を有効になっているユーザーの一覧を参照してください。
 
@@ -33,13 +32,16 @@ ms.lasthandoff: 04/18/2018
   
 ## <a name="viewing-a-list-of-users"></a>ユーザーの一覧を表示します。
 
-**ビジネス管理センターは、マイクロソフトのチームと Skype を使用してください。**
+![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
 
 - 左側のナビゲーションでは、**ユーザー**をクリックします。
 
-****職場または学校のアカウントを使用して、Office 365 にサインインします。
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
     
 - In the left navigation go to **Dial-in conferencing** > **Dial-in users**. Select the user that you want to enable for dial-in conferencing.
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
     
 ## <a name="what-else-should-i-know"></a>他に必要な情報はありますか?
 
@@ -65,7 +67,7 @@ ms.lasthandoff: 04/18/2018
     
   - これらのユーザーに対して別の既定の番号を選択します。
     
-  - **[なし]**に、プロバイダーを変更することによって、電話会議のユーザーに対してオフにします。
+  - **[なし]** に、プロバイダーを変更することによって、電話会議のユーザーに対してオフにします。
     
   - ユーザーには、**オーディオ会議**のライセンスが割り当てられている場合、オーディオ会議プロバイダーとして Microsoft に切り替えます。
     

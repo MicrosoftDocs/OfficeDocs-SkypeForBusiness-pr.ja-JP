@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: ae0f26c02bef1262b54cd509f9e539ef68aec112
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 03b6f3b2ce270d1dd6e2855dec4ee2af9a2447c8
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="set-the-phone-numbers-included-on-invites"></a>携帯電話への招待に含まれている番号を設定します。
 
@@ -39,7 +38,7 @@ ms.lasthandoff: 04/18/2018
 > [!NOTE]
 > 会議主催者の会議出席依頼には、1 つの有料電話番号と 1 つの無料電話番号を含めることができますが、会議出席依頼の下部に、会議に参加するために使用できるダイヤルイン電話番号のすべての一覧を表示するリンクも記載されています。 
   
-## <a name="setting-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>会議開催者の既定のダイヤルイン電話番号の設定
+## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>![デバイス ・ ロゴ ・ 30x30.png](../images/sfb-logo-30x30.png) 会議の開催者の既定のダイヤルインの電話番号を設定します。
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -72,7 +71,10 @@ ms.lasthandoff: 04/18/2018
   
   - **サード パーティ プロバイダー**:**有料電話番号**や**フリー ダイヤル番号**のフィールドを使用して、ユーザーの数値を入力します。
     
-## <a name="reset-audio-conferencing-phone-numbers"></a>電話会議の電話番号をリセットする
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-reset-audio-conferencing-phone-numbers"></a>![デバイス ・ ロゴ ・ 30x30.png](../images/sfb-logo-30x30.png) 電話会議の電話番号をリセットする
 
 1. [ **Skype for Business 管理センター**] で、[ **電話会議**] を選びます。
     

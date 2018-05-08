@@ -7,22 +7,23 @@ ms.reviewer: makolomi
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Phone System
-- Strat_SB_PSTN
 description: '組織の電話システム (PBX をクラウド) を設定する方法について説明します。 '
-ms.openlocfilehash: 95fed9f26cefddce80de5c8f12a0e18d7368d1f4
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 3092442f9b2421bb0dc8a7a6ac7683761176d64c
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>組織の電話システムを設定する.
 

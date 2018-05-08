@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
-ms.openlocfilehash: bfcdd2c1d38d2f9c4f50c1f0461275aa1c2d53ac
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 66cf9e662231a9afefe605649e8bae0d4652713b
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="dialing-out-from-a-meeting-so-other-people-can-join-it"></a>他のユーザーが参加できるように会議からダイヤルアウトする
 
@@ -35,11 +34,11 @@ ms.lasthandoff: 04/18/2018
     
 - オーディオ会議の会議の開催者として有効になっています。
 
- **手順 1:**招待、ミーティング中には、電話番号にダイアル アウトするには、**多くの人を招待する**] オプションを使用します。
+ **手順 1:** 招待、ミーティング中には、電話番号にダイアル アウトするには、**多くの人を招待する**] オプションを使用します。
   
 ![Dial-out with Skype for Business.](../images/9896abec-7a6f-4148-ad09-76a1cf4b56e1.png)
   
- **手順 2:**ボックスで国/地域コードを含む、すべての電話番号を入力します。
+ **手順 2:** ボックスで国/地域コードを含む、すべての電話番号を入力します。
   
 ![Dial-out phone number in Skype for Business](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
   

@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: See how to select the auto-attendant lanugages for a dial-in conferencing number.
-ms.openlocfilehash: 6b3d0f2fd9a74429a0b1817fc3987c0fdef8698e
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: c4461f61ce05afedc2663a3e5b61d37370394cd4
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing"></a>電話会議の自動案内の言語を設定する
 
@@ -38,7 +37,7 @@ ms.lasthandoff: 04/18/2018
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>電話会議の自動応答の言語を設定する
 
-**ビジネス管理センターは、マイクロソフトのチームと Skype を使用してください。**
+![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
 
 1. 左側のナビゲーションでは、**会議**に移動 > **会議ブリッジ**です。
 
@@ -51,7 +50,7 @@ ms.lasthandoff: 04/18/2018
 
 4. [**適用**] をクリックします。
 
-**オンライン ビジネスの Skype を使用します。**
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **オンライン ビジネスの Skype を使用します。**
 
 この手順を実行するには、[Office 365 の管理者ロールについて](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)または[Office 365 の管理者ロールについて](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)としてログインしている必要があります。
     
@@ -66,6 +65,9 @@ ms.lasthandoff: 04/18/2018
   
 4. [ **保存**] をクリックします。
     
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="want-else-should-i-know"></a>その他の情報
 
 - 電話会議でサポートされる言語のリストを確認するには、「[ダイヤルイン会議でサポートされる言語](audio-conferencing-supported-languages.md)」をご覧ください。

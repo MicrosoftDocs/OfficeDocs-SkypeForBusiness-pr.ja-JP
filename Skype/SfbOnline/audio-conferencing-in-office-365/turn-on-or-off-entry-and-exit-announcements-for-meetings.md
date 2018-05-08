@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'エントリを有効にして、Skype、Skype を使用するビジネス管理センターのオンライン ビジネスの会議のためにアナウンスをオンまたはオフを終了する方法について説明します。 '
-ms.openlocfilehash: a9c3788db6b5742b4f2b41961c3843b4939c315b
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 8c2eee6d9a6631fa9ade4e3f1dc4b54b74ea4465
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings"></a>オンまたはオフの会議の開始と終了のお知らせ
 
@@ -35,7 +34,7 @@ Office 365 に電話会議を設定する場合、オーディオ会議ブリッ
   
 ## <a name="setting-meeting-join-options"></a>ミーティングの参加オプションの設定
 
-**ビジネス管理センターは、マイクロソフトのチームと Skype を使用してください。**
+![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
 
 1. 左側のナビゲーションでは、**会議**に移動 > **会議ブリッジ**です。 
 
@@ -49,7 +48,7 @@ Office 365 に電話会議を設定する場合、オーディオ会議ブリッ
     
 6. 変更を行ったら、[**適用**を] をクリックします。
 
-****職場または学校のアカウントを使用して、Office 365 にサインインします。
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
     
 1. 既定値は 5 です。
     
@@ -61,6 +60,9 @@ Office 365 に電話会議を設定する場合、オーディオ会議ブリッ
     
 5. 変更したら [ **保存**] をクリックします。
     
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell で管理する方法
 
 - 時間を短縮または、これを自動化するには、[セット CsOnlineDialInConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686 )コマンドレットを使用することができます。

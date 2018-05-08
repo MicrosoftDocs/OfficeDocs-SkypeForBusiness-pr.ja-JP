@@ -97,7 +97,7 @@ PowerShell を使用して次の管理操作をリモートで実行できます
 - ファイル転送 (Skype ルーム システム v2 がドメインに参加している必要があります)
     
 > [!NOTE]
-> 既定では、この機能はオフです。 Skype ルーム システム v2 システムの環境に次の操作を実行するリモートの PowerShell を有効にする必要があります。 リモート PowerShell を有効にする方法については**[有効にする PSRemoting](https://technet.microsoft.com/en-us/library/hh849694.aspx)**のマニュアルを参照してください。
+> 既定では、この機能はオフです。 Skype ルーム システム v2 システムの環境に次の操作を実行するリモートの PowerShell を有効にする必要があります。 リモート PowerShell を有効にする方法については**[有効にする PSRemoting](https://technet.microsoft.com/en-us/library/hh849694.aspx)** のマニュアルを参照してください。
   
 たとえば、次のようにリモート PowerShell を有効にできます。
   
@@ -117,7 +117,7 @@ PowerShell を使用して次の管理操作をリモートで実行できます
     
 4. 交換`<Device fqdn>`FQDN の値を持つフィールドが、環境に対応します。
     
-5. 交換*\<のパス\>*SkypeSettings.xml 構成ファイルのマスター (またはテーマのイメージ) のローカル パスとファイル名とします。
+5. 交換*\<のパス\>* SkypeSettings.xml 構成ファイルのマスター (またはテーマのイメージ) のローカル パスとファイル名とします。
     
 接続されているデバイスを取得するには
   

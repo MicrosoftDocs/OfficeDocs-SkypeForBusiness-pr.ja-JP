@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: '有効にするか、暗証番号 (pin) の変更など、既定の会議の設定番号を変更するときに、ユーザーに e メールを送信することから、Skype を無効にする方法を説明します。 '
-ms.openlocfilehash: 9db213285a24ad0a67d305a84f275f21ce741013
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: a588c5b425fe3d71ecd6d73193348b98e8e2f298
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change"></a>有効にするか、オーディオ会議の設定を変更すると、送信メールを無効にします。
 
@@ -49,7 +48,7 @@ ms.lasthandoff: 04/18/2018
     
   - **電話会議**のライセンスは、それらから削除されます。
     
-  - オーディオ会議プロバイダーのユーザーの変更されたとき Microsoft から別のプロバイダーまたは**[なし]**にします。
+  - オーディオ会議プロバイダーのユーザーの変更されたとき Microsoft から別のプロバイダーまたは **[なし]** にします。
     
   - マイクロソフトにユーザーの電話会議プロバイダーが変更されたとき。
     
@@ -57,16 +56,16 @@ ms.lasthandoff: 04/18/2018
 
 有効にするか、ユーザーに送信される電子メールを無効にするのには、マイクロソフトのチーム、ビジネス管理センターでは、Skype または Windows PowerShell を使用できます。
 
-**ビジネス管理センターは、マイクロソフトのチームと Skype を使用してください。**
+![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
 1. 左側のナビゲーションでは、**会議**に移動 > **会議ブリッジ**です。 
 
 2. **会議ブリッジ**のページの上部には、**ブリッジの設定**をクリックします。 
 
 3. **ブリッジの設定**ウィンドウで、有効または、**ユーザーのダイヤルインの設定を変更する場合に e メールを自動的に送信**を無効にします。
 
-4. [**適用**] をクリックします。
+4. [ **保存**] をクリックします。
   
-****職場または学校のアカウントを使用して、Office 365 にサインインします。
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
     
 1. **Skype**ビジネス管理センターは、左側のナビゲーションでは、[**電話会議**] をクリックします。
     
@@ -77,6 +76,9 @@ ms.lasthandoff: 04/18/2018
     > [!TIP]
     > 送信することも電子メール ユーザーに電話会議の設定を使用して**オーディオ会議**に > の**ユーザー**ユーザーを選択し、**電子メールを使用して会議情報を送信**] をクリックします。  これを行うには、会議 ID と電話会議の番号がない、暗証番号 (pin) のみを含む電子メールが送信されます。  詳細については[、オーディオ会議の情報を持つユーザーに電子メールを送信する](send-an-email-to-a-user-with-their-dial-in-information.md)を参照してください。
   
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 The conference ID and default dial-in conferencing phone number is included on the meeting invite but not the PIN.
   
 - 送信メールを無効にするのには、次を実行します。 

@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: "Learn the steps to reset a user's meeting conference ID, and get links to meeting update and migration tools. "
-ms.openlocfilehash: 3c40c4bb59dd6628730542f73d8bdbddae7b9ad7
-ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
+ms.openlocfilehash: 395b1f2d9813c5ef99102c5c50ed7fff884dc594
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="reset-a-conference-id-for-a-user"></a>ユーザーの会議 ID をリセットする
 
@@ -37,7 +36,7 @@ ms.lasthandoff: 04/20/2018
   
 ## <a name="resetting-the-conference-id-for-a-user"></a>ユーザーの会議 ID をリセットします。
 
-**ビジネス管理センターは、マイクロソフトのチームと Skype を使用してください。**
+![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
 
 1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
 
@@ -45,9 +44,9 @@ ms.lasthandoff: 04/20/2018
 
 3. **会議ブリッジ**の横にあるメニューをクリックし、ドロップダウン リストに**会議 id をリセット**] をクリックします。
 
-2. **会議 id のリセット**] ウィンドウで、 **[ok]**をクリックします。 A conference ID will be automatically created and an email sent to the user with the new conference ID. 既定では、ユーザーに電子メールが送信されますが、これを無効にできます。   
+2. **会議 id のリセット**] ウィンドウで、 **[ok]** をクリックします。 A conference ID will be automatically created and an email sent to the user with the new conference ID. 既定では、ユーザーに電子メールが送信されますが、これを無効にできます。   
 
-****職場または学校のアカウントを使用して、Office 365 にサインインします。
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
     
 1. **ビジネス管理センターの Skype**では、[**電話会議**] をクリックします > **ユーザー**ユーザーを選択し、し、[操作] ウィンドウの [**会議 ID** ] の [**リセット**] をクリックします。
     
@@ -56,6 +55,9 @@ ms.lasthandoff: 04/20/2018
 > [!NOTE]
 > 会議 ID をリセットすると、新しい会議 ID を記載したメールがユーザーに送信されます。このメールはプライマリ メール アドレスに送信されます。ほとんどの場合は、Office 365 のメールボックスに送信されます。新しい会議 ID、既定のダイヤルイン電話番号、Skype for Business Meeting Update Tool を使って既存の会議を更新する方法がメールに記載されています。 
   
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="what-else-should-i-know"></a>他に必要な情報はありますか?
 
 - 操作ウィンドウでのユーザーの [**電子メール経由での会議の情報を送信**] をクリックして、会議 ID とダイヤルインの電話番号を含む電子メールでユーザーにすべての会議の情報を送信できます。 PIN は送信されません。
@@ -92,4 +94,4 @@ ms.lasthandoff: 04/20/2018
     
 ## <a name="related-topics"></a>See also
 
-[ユーザーの電話会議の PIN をリセットする](reset-the-audio-conferencing-pin-for-a-user.md)
+[オーディオ会議の暗証番号 (pin) をリセットします。](reset-the-audio-conferencing-pin.md)

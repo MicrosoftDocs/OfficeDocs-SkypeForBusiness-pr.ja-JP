@@ -15,29 +15,26 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'については、ビジネスの Skype のユーザーに会議 ID を割り当てる方法と、どのような会議 ID のパラメーターにする必要があります。 '
-ms.openlocfilehash: 42aa17866c286c5d57fa3cd4962ecf6a16e2438a
-ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
+ms.openlocfilehash: 4922f896daa2bec976d7fb72dd519e9dd91d74f4
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="see-change-and-reset-a-conference-id-assigned-to-a-user"></a>参照してください、変更、およびユーザーに割り当てられている会議 ID をリセットします。
 
-会議 ID が、Skype のビジネスまたはマイクロソフトのチームのユーザーに割り当てられたは、Office 365 での音声会議用に設定し、Microsoft を使用して、オーディオ会議プロバイダーとして自動的にします。 The conference ID assigned can be either a static or dynamic and is sent in the meeting invite when the meeting is scheduled.
+会議 ID が、Skype のビジネスまたはマイクロソフトのチームのユーザーに割り当てられたは、Office 365 での音声会議用に設定し、Microsoft を使用して、オーディオ会議プロバイダーとして自動的にします。 会議 ID が割り当てられているは、会議がスケジュールされているとき、会議出席依頼で送信されます。 ユーザーをスケジュールする会議ごとに固有の会議 ID が割り当てられますを取得 
   
-Skype for Business 管理センターおよび Windows PowerShell を使用すると、ユーザーの会議 ID を表示、変更、リセットすることができます。 職場または学校のアカウントを使用して、Office 365 にサインインします。 場合に割り当てる静的な会議 Id を[ここ](using-audio-conferencing-dynamic-ids-in-your-organization.md)にではなく動的です。
+会議 ID が自動的に作成され、ユーザーに割り当てられているが場合がありますこの 1 つを使用するユーザーが望まないし、特定の数に設定するとき、またはユーザーが覚えられないか、会議 ID が失われている場合 **Skype**ビジネス管理センターは、Windows PowerShell を使用するには表示、変更、および、会議 ID をリセットするには
   
-静的な会議 ID が自動的に作成され、ユーザーに割り当てられているが場合がありますこの 1 つを使用するユーザーが望まないし、特定の数に設定するとき、またはユーザーが覚えられないか、会議 ID が失われている場合 **Skype**ビジネス管理センターは、Windows PowerShell を使用するには表示、変更、および、会議 ID をリセットするには
+会議 ID と既定の電話会議の電話番号をユーザーに電子メールが送信される、または会議 ID がない、暗証番号 (pin) に含まれている会議 ID をリセットする場合、別の電子メールが送信されます。 詳細については、会議の開催者の暗証番号 (pin)、[ここ](reset-a-conference-id-for-a-user.md)をリセットします。 
   
-会議 ID と既定の電話会議の電話番号をユーザーに電子メールが送信される、または会議 ID がない、暗証番号 (pin) に含まれている会議 ID をリセットする場合、別の電子メールが送信されます。
-  
-## <a name="view-and-change-conference-ids"></a>表示し、会議 Id を変更します。
+## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-view-and-change-conference-ids"></a>![デバイス ・ ロゴ ・ 30x30.png](../images/sfb-logo-30x30.png) 表示し、会議 Id を変更します。
 
 ### <a name="to-view-the-conference-id"></a>会議 ID を表示するのには
 
@@ -54,13 +51,16 @@ Skype for Business 管理センターおよび Windows PowerShell を使用す�
     > [!TIP]
     > [**ユーザー** ] ページで、ユーザーを選択した後に**電子メールを使用して会議情報を送信する**リンクをクリックして、会議 ID とオーディオの電話番号を含む電子メールでユーザーにすべての会議の情報を送信できます。
   
-    ユーザーの会議 ID を表示するのには、Windows PowerShell を使用できます。 これを行うには、次のコマンドを実行します。
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+ユーザーの会議 ID を表示するのには、Windows PowerShell を使用できます。 これを行うには、次のコマンドを実行します。
     
   ```
   Get-CsOnlineDialInConferencingUser -Identity "Amos Marble"  
   ```
 
-    コマンドレットの詳細については、 [Get CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617693 )を参照してください。
+    See [Get-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617693 ) to learn more about the cmdlet.
     
 ### <a name="to-assign-or-change-the-conference-id"></a>割り当て、または会議 ID を変更するには
 
@@ -78,7 +78,7 @@ Skype for Business 管理センターおよび Windows PowerShell を使用す�
   > [!TIP]
   > See Set-CsOnlineDialInConferencingUser to learn more about the cmdlet. 
   
-### <a name="to-reset-the-conference-id"></a>会議 ID をリセットするのには
+### <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-to-reset-the-conference-id"></a>![デバイス ・ ロゴ ・ 30x30.png](../images/sfb-logo-30x30.png) 会議 ID をリセットするのには
 
 ユーザーの会議 ID をリセットすることができる場合、忘れた場合などです。
   

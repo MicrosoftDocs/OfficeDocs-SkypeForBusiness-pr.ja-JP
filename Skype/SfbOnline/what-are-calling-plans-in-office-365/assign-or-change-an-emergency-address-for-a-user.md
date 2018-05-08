@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: 個々 のユーザーに、パブリック交換電話網 (PSTN) を動作するための緊急時の住所と電話番号を設定する方法について説明します。
-ms.openlocfilehash: cb9fe4dbf75310cffaa6fa05a9bee5c920df0da9
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 185a3eb8d64e990b4e242a62cf7b76bd02237371
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>割り当てるか、緊急時のユーザーのアドレスを変更
 

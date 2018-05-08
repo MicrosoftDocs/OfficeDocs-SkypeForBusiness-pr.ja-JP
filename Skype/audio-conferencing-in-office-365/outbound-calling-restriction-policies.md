@@ -3,24 +3,24 @@ title: オーディオ会議とユーザーの PSTN 通話の発信の呼び出�
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
+ms.date: 2/12/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 ms.appliesto: Skype for Business, Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
+- Strat_SB_PSTN
 - Audio Conferencing
 description: 管理者は、オーディオ会議、エンド ・ ユーザー PSTN の呼び出しのユーザーが可能なタイプを制御できます。
-ms.openlocfilehash: 2929198a8bfff866f0d9f6d375593cd429885b2e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ae6039f967b95ebd0c5934105f4e6fb044e431b4
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>オーディオ会議とユーザーの PSTN 通話の発信の呼び出し制限のポリシー
 
@@ -37,36 +37,19 @@ ms.lasthandoff: 05/03/2018
    > 呼び出しは、国内の場合は、開催者の会議 (オーディオ会議) の場合、またはエンド ・ ユーザー (エンド ・ ユーザーの PSTN 通話) の場合に Office 365 に設定されている国の国と同じでは、呼び出し先の電話番号が決定されます。 
 
 
-## <a name="restrict-audio-conferencing-outbound-calls"></a>オーディオ会議の発信を制限します。 
+## <a name="restrict-audio-conferencing-outbound-calls-using-the-skype-for-business-admin-center"></a>ビジネス管理センターは、Skype を使用してオーディオ会議の送信呼び出しを制限します。 
 
-![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
 
-1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
-
-2. ページの上部で、[**編集**] をクリックします。
-
-3. **会議ブリッジ**の横にあるメニューをクリックし、ドロップダウン リストで [**編集**] をクリックします。
-
-4. **会議ブリッジ プロバイダー**ウィンドウで、[**このユーザーの会議からのダイアル アウトの制限**、ダイアル アウトの制限オプションを選択を選択します。
-
-5. [**適用**] をクリックします。 
-
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
-
-1.  **電話会議**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **のユーザー**、および利用可能なユーザーの一覧からユーザーを選択します。
-
-2.  In the Skype for Business admin center, in the left navigation go to Dial-in conferencing > Provider name drop-down, and then select the dial-in conferencing provider for the user.
-
-3.  [**ダイヤル アウトこのユーザーの会議からへの制限**、ダイアル アウトの制限オプションを選択を選択します。
+1.  Go to the **Office 365 admin center** > **Skype for Business**.
+2.  ビジネス管理センターでは、左側のナビゲーションでは、Skype で**電話会議**に移動する > **のユーザー**、および利用可能なユーザーの一覧からユーザーを選択します。
+3.  In the Skype for Business admin center, in the left navigation go to Dial-in conferencing > Provider name drop-down, and then select the dial-in conferencing provider for the user.
+4.  [**ダイヤル アウトこのユーザーの会議からへの制限**、ダイアル アウトの制限オプションを選択を選択します。
 
     ![ダイアル アウトのオプションを制限](../images/restrictions-to-dial-outs.png)
 
 5. [ **保存**] をクリックします。
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
-**PowerShell を使用します。**
+## <a name="restrict-audio-conferencing-and-end-user-outbound-calls-using-powershell"></a>PowerShell を使用する会議とエンド ・ ユーザー、送信呼び出しのオーディオを制限します。
 
 発信制限は、それぞれの制限属性を持っている OnlineDialOutPolicy と呼ばれる 1 つのポリシーによって制御されます。 ポリシーをカスタマイズすることはできませんではなく、設定の各組み合わせに対して事前に定義されたポリシーのインスタンスがあります。 
 

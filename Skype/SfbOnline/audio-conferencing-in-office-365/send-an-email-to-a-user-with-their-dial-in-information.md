@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: ユーザーの音声会議情報を使用して電子メールを送信します。
-ms.openlocfilehash: 23eb461d84395672f97fc4ff97c4c0ded7aa92e2
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: da006b1e63dd36234acf20bb02fdffba2dc70fa2
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information"></a>ユーザーにダイヤルイン会議情報が含まれたメールを送信する
 
@@ -35,14 +34,12 @@ ms.lasthandoff: 04/18/2018
     
 - ユーザーの会議 ID。
     
-    > [!NOTE]
-    > Skype for Business 管理センターおよび Windows PowerShell を使用すると、ユーザーの会議 ID を表示、変更、リセットすることができます。 職場または学校のアカウントを使用して、Office 365 にサインインします。 場合に割り当てる静的な会議 Id を[ここ](using-audio-conferencing-dynamic-ids-in-your-organization.md)にではなく動的です。 
-  
+   
 送信されるメールの例を以下に示します。
   
 ![ダイヤルイン会議のメール](../images/audio-conferencing-info.png)
   
-## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>オーディオ会議の情報を使用して電子メールをユーザーに送信します。
+## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-send-an-email-with-audio-conferencing-information-to-a-user"></a>![デバイス ・ ロゴ ・ 30x30.png](../images/sfb-logo-30x30.png) オーディオ会議の情報を使用して電子メールをユーザーに送信します。
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -54,7 +51,10 @@ ms.lasthandoff: 04/18/2018
     
 > [!TIP]
 > 送信することも電子メール ユーザーに電話会議の設定を使用してユーザーのプロパティを編集し、[**電話会議**] をクリックして > **メールでの会議の情報を送信**します。 
-  
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="what-else-should-you-know-about-this-email"></a>このようなメールについて知っておくべきその他のこと
 
 - 送信される、組織内のユーザーを有効にした後には、オーディオ会議のいくつかの電子メールがあります。
@@ -67,7 +67,7 @@ ms.lasthandoff: 04/18/2018
     
   - これらのファイルから、**オーディオ会議**のライセンスが削除されます。
     
-  - オーディオ会議プロバイダーのユーザーの変更されたとき Microsoft から別のプロバイダーまたは**[なし]**にします。
+  - オーディオ会議プロバイダーのユーザーの変更されたとき Microsoft から別のプロバイダーまたは **[なし]** にします。
     
   - マイクロソフトにユーザーの電話会議プロバイダーが変更されたとき。
     
