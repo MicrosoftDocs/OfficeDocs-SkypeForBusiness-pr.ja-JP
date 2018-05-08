@@ -7,64 +7,66 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: Skype ビジネス サーバーのエンタープライズ VoIP のコール パーク設定を変更します。
-ms.openlocfilehash: 56b0e2508fda61bddc94a6f8813708e8186c99c7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8f4aa5025cbe364a44a45632ebcdf852ad6a65bc
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="configure-call-park-settings-in-skype-for-business-2015"></a><span data-ttu-id="8383b-103">Skype for Business 2015 でのコール パーク設定の構成</span><span class="sxs-lookup"><span data-stu-id="8383b-103">Configure Call Park settings in Skype for Business 2015</span></span>
+# <a name="configure-call-park-settings-in-skype-for-business-2015"></a><span data-ttu-id="4f765-103">Skype for Business 2015 でのコール パーク設定の構成</span><span class="sxs-lookup"><span data-stu-id="4f765-103">Configure Call Park settings in Skype for Business 2015</span></span>
  
-<span data-ttu-id="8383b-104">Skype ビジネス サーバーのエンタープライズ VoIP のコール パーク設定を変更します。</span><span class="sxs-lookup"><span data-stu-id="8383b-104">Modify Call Park settings in Skype for Business Server Enterprise Voice.</span></span>
+<span data-ttu-id="4f765-104">Skype ビジネス サーバーのエンタープライズ VoIP のコール パーク設定を変更します。</span><span class="sxs-lookup"><span data-stu-id="4f765-104">Modify Call Park settings in Skype for Business Server Enterprise Voice.</span></span>
   
-<span data-ttu-id="8383b-105">コール パークの既定の設定を使用しない場合は、それらをカスタマイズできます。</span><span class="sxs-lookup"><span data-stu-id="8383b-105">If you don't want to use default Call Park settings, you can customize them.</span></span> <span data-ttu-id="8383b-106">コール パーク アプリケーションをインストールすると、グローバル設定は、既定で構成されます。</span><span class="sxs-lookup"><span data-stu-id="8383b-106">When you install the Call Park application, global settings are configured by default.</span></span> <span data-ttu-id="8383b-107">グローバルの設定を変更することができ、サイト固有の設定を指定することもできます。</span><span class="sxs-lookup"><span data-stu-id="8383b-107">You can modify the global settings, and you can also specify site-specific settings.</span></span> <span data-ttu-id="8383b-108">**新規 CsCpsConfiguration**コマンドレットを使用すると、サイト固有の設定を新しいを作成します。</span><span class="sxs-lookup"><span data-stu-id="8383b-108">Use the **New-CsCpsConfiguration** cmdlet to create new site-specific settings.</span></span> <span data-ttu-id="8383b-109">**セット CsCpsConfiguration**コマンドレットを使用して、既存の設定を変更します。</span><span class="sxs-lookup"><span data-stu-id="8383b-109">Use the **Set-CsCpsConfiguration** cmdlet to modify existing settings.</span></span>
+<span data-ttu-id="4f765-105">コール パークの既定の設定を使用しない場合は、それらをカスタマイズできます。</span><span class="sxs-lookup"><span data-stu-id="4f765-105">If you don't want to use default Call Park settings, you can customize them.</span></span> <span data-ttu-id="4f765-106">コール パーク アプリケーションをインストールすると、グローバル設定は、既定で構成されます。</span><span class="sxs-lookup"><span data-stu-id="4f765-106">When you install the Call Park application, global settings are configured by default.</span></span> <span data-ttu-id="4f765-107">グローバルの設定を変更することができ、サイト固有の設定を指定することもできます。</span><span class="sxs-lookup"><span data-stu-id="4f765-107">You can modify the global settings, and you can also specify site-specific settings.</span></span> <span data-ttu-id="4f765-108">**新規 CsCpsConfiguration**コマンドレットを使用すると、サイト固有の設定を新しいを作成します。</span><span class="sxs-lookup"><span data-stu-id="4f765-108">Use the **New-CsCpsConfiguration** cmdlet to create new site-specific settings.</span></span> <span data-ttu-id="4f765-109">**セット CsCpsConfiguration**コマンドレットを使用して、既存の設定を変更します。</span><span class="sxs-lookup"><span data-stu-id="4f765-109">Use the **Set-CsCpsConfiguration** cmdlet to modify existing settings.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="8383b-110">少なくとも、保留された通話が時間切れになりリングバックが失敗した場合に使用する代替宛先の [**OnTimeoutURI**] オプションは構成することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="8383b-110">At a minimum, we recommend that you configure the **OnTimeoutURI** option for the fallback destination to use when a parked call times out and ringback fails.</span></span>
+> <span data-ttu-id="4f765-110">少なくとも、保留された通話が時間切れになりリングバックが失敗した場合に使用する代替宛先の [**OnTimeoutURI**] オプションは構成することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="4f765-110">At a minimum, we recommend that you configure the **OnTimeoutURI** option for the fallback destination to use when a parked call times out and ringback fails.</span></span>
   
-<span data-ttu-id="8383b-111">次の設定のいずれかを構成するのにには、**新規 CsCpsConfiguration**コマンドレットまたは**セット CsCpsConfiguration**コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="8383b-111">Use **New-CsCpsConfiguration** cmdlet or the **Set-CsCpsConfiguration** cmdlet to configure any of the following settings:</span></span>
+<span data-ttu-id="4f765-111">次の設定のいずれかを構成するのにには、**新規 CsCpsConfiguration**コマンドレットまたは**セット CsCpsConfiguration**コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="4f765-111">Use **New-CsCpsConfiguration** cmdlet or the **Set-CsCpsConfiguration** cmdlet to configure any of the following settings:</span></span>
   
-|<span data-ttu-id="8383b-112">**このオプション:**</span><span class="sxs-lookup"><span data-stu-id="8383b-112">**This option:**</span></span>|<span data-ttu-id="8383b-113">**これを指定します。**</span><span class="sxs-lookup"><span data-stu-id="8383b-113">**Specifies this:**</span></span>|
+|<span data-ttu-id="4f765-112">**このオプション:**</span><span class="sxs-lookup"><span data-stu-id="4f765-112">**This option:**</span></span>|<span data-ttu-id="4f765-113">**これを指定します。**</span><span class="sxs-lookup"><span data-stu-id="4f765-113">**Specifies this:**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="8383b-114">**CallPickupTimeoutThreshold**</span><span class="sxs-lookup"><span data-stu-id="8383b-114">**CallPickupTimeoutThreshold**</span></span> <br/> |<span data-ttu-id="8383b-115">通話が保留されてから、呼び出しに応答した電話にかけ直されるまでの経過時間。</span><span class="sxs-lookup"><span data-stu-id="8383b-115">The amount of time that elapses after a call has been parked before it rings back to the phone where the call was answered.</span></span>  <br/> <span data-ttu-id="8383b-p102">この値は、hh:mm:ss の形式で入力し、時間、分、および秒を指定する必要があります。最小値は 10 秒、最大値は 10 分です。既定値は 00:01:30 です。</span><span class="sxs-lookup"><span data-stu-id="8383b-p102">The value must be entered in the format hh:mm:ss to specify the hours, minutes, and seconds. The minimum value is 10 seconds, and the maximum value is 10 minutes. The default is 00:01:30.</span></span>  <br/> |
-|<span data-ttu-id="8383b-119">**EnableMusicOnHold**</span><span class="sxs-lookup"><span data-stu-id="8383b-119">**EnableMusicOnHold**</span></span> <br/> |<span data-ttu-id="8383b-120">通話が保留されている間、発信者に対して音楽を再生するかどうか。</span><span class="sxs-lookup"><span data-stu-id="8383b-120">Whether music plays for a caller while a call is parked.</span></span>  <br/> <span data-ttu-id="8383b-p103">値は True または False です。既定値は True です。</span><span class="sxs-lookup"><span data-stu-id="8383b-p103">Values are True or False. The default is True.</span></span>  <br/> |
-|<span data-ttu-id="8383b-123">**MaxCallPickupAttempts**</span><span class="sxs-lookup"><span data-stu-id="8383b-123">**MaxCallPickupAttempts**</span></span> <br/> |<span data-ttu-id="8383b-p104">保留された通話が [**OnTimeoutURI**] で指定した代替 URI (Uniform Resource Identifier) に転送される前に、応答電話にかけ直される回数。既定値は 1 です。</span><span class="sxs-lookup"><span data-stu-id="8383b-p104">The number of times a parked call rings back to the answering phone before it is forwarded to the fallback Uniform Resource Identifier (URI) that is specified for **OnTimeoutURI**. The default is 1.  </span></span><br/> |
-|<span data-ttu-id="8383b-126">**OnTimeoutURI**</span><span class="sxs-lookup"><span data-stu-id="8383b-126">**OnTimeoutURI**</span></span> <br/> |<span data-ttu-id="8383b-127">**MaxCallPickupAttempts** を超過した場合に、応答のない保留通話のルーティング先となるユーザーまたは応答グループの SIP アドレス。</span><span class="sxs-lookup"><span data-stu-id="8383b-127">The SIP address of the user or response group to which an unanswered parked call is routed when **MaxCallPickupAttempts** is exceeded.</span></span> <br/> <span data-ttu-id="8383b-p105">値は、文字列 sip: で始まる SIP URI にする必要があります。たとえば、sip:bob@contoso.com などです。既定値は転送アドレスではありません。</span><span class="sxs-lookup"><span data-stu-id="8383b-p105">Value must be a SIP URI beginning with the string sip:. For example, sip:bob@contoso.com. The default is no forwarding address.  </span></span><br/> |
+|<span data-ttu-id="4f765-114">**CallPickupTimeoutThreshold**</span><span class="sxs-lookup"><span data-stu-id="4f765-114">**CallPickupTimeoutThreshold**</span></span> <br/> |<span data-ttu-id="4f765-115">通話が保留されてから、呼び出しに応答した電話にかけ直されるまでの経過時間。</span><span class="sxs-lookup"><span data-stu-id="4f765-115">The amount of time that elapses after a call has been parked before it rings back to the phone where the call was answered.</span></span>  <br/> <span data-ttu-id="4f765-p102">この値は、hh:mm:ss の形式で入力し、時間、分、および秒を指定する必要があります。最小値は 10 秒、最大値は 10 分です。既定値は 00:01:30 です。</span><span class="sxs-lookup"><span data-stu-id="4f765-p102">The value must be entered in the format hh:mm:ss to specify the hours, minutes, and seconds. The minimum value is 10 seconds, and the maximum value is 10 minutes. The default is 00:01:30.</span></span>  <br/> |
+|<span data-ttu-id="4f765-119">**EnableMusicOnHold**</span><span class="sxs-lookup"><span data-stu-id="4f765-119">**EnableMusicOnHold**</span></span> <br/> |<span data-ttu-id="4f765-120">通話が保留されている間、発信者に対して音楽を再生するかどうか。</span><span class="sxs-lookup"><span data-stu-id="4f765-120">Whether music plays for a caller while a call is parked.</span></span>  <br/> <span data-ttu-id="4f765-p103">値は True または False です。既定値は True です。</span><span class="sxs-lookup"><span data-stu-id="4f765-p103">Values are True or False. The default is True.</span></span>  <br/> |
+|<span data-ttu-id="4f765-123">**MaxCallPickupAttempts**</span><span class="sxs-lookup"><span data-stu-id="4f765-123">**MaxCallPickupAttempts**</span></span> <br/> |<span data-ttu-id="4f765-p104">保留された通話が [**OnTimeoutURI**] で指定した代替 URI (Uniform Resource Identifier) に転送される前に、応答電話にかけ直される回数。既定値は 1 です。</span><span class="sxs-lookup"><span data-stu-id="4f765-p104">The number of times a parked call rings back to the answering phone before it is forwarded to the fallback Uniform Resource Identifier (URI) that is specified for **OnTimeoutURI**. The default is 1.  </span></span><br/> |
+|<span data-ttu-id="4f765-126">**OnTimeoutURI**</span><span class="sxs-lookup"><span data-stu-id="4f765-126">**OnTimeoutURI**</span></span> <br/> |<span data-ttu-id="4f765-127">**MaxCallPickupAttempts** を超過した場合に、応答のない保留通話のルーティング先となるユーザーまたは応答グループの SIP アドレス。</span><span class="sxs-lookup"><span data-stu-id="4f765-127">The SIP address of the user or response group to which an unanswered parked call is routed when **MaxCallPickupAttempts** is exceeded.</span></span> <br/> <span data-ttu-id="4f765-p105">値は、文字列 sip: で始まる SIP URI にする必要があります。たとえば、sip:bob@contoso.com などです。既定値は転送アドレスではありません。</span><span class="sxs-lookup"><span data-stu-id="4f765-p105">Value must be a SIP URI beginning with the string sip:. For example, sip:bob@contoso.com. The default is no forwarding address.  </span></span><br/> |
    
-### <a name="to-configure-call-park-settings"></a><span data-ttu-id="8383b-130">コール パーク設定を構成するには</span><span class="sxs-lookup"><span data-stu-id="8383b-130">To configure Call Park settings</span></span>
+### <a name="to-configure-call-park-settings"></a><span data-ttu-id="4f765-130">コール パーク設定を構成するには</span><span class="sxs-lookup"><span data-stu-id="4f765-130">To configure Call Park settings</span></span>
 
-1. <span data-ttu-id="8383b-131">Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="8383b-131">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="4f765-131">Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="4f765-131">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-2. <span data-ttu-id="8383b-132">次のコマンドレットを実行します。</span><span class="sxs-lookup"><span data-stu-id="8383b-132">Run:</span></span>
+2. <span data-ttu-id="4f765-132">次のコマンドレットを実行します。</span><span class="sxs-lookup"><span data-stu-id="4f765-132">Run:</span></span>
     
    ```
    New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
    ```
 
    > [!TIP]
-   > <span data-ttu-id="8383b-133">サイトを識別するのにには、 **Get CsSite**コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="8383b-133">Use the **Get-CsSite** cmdlet to identify the site.</span></span> <span data-ttu-id="8383b-134">詳細については、Lync Server 管理シェルのマニュアルを参照してください。</span><span class="sxs-lookup"><span data-stu-id="8383b-134">For details, see Lync Server Management Shell documentation.</span></span>
+   > <span data-ttu-id="4f765-133">サイトを識別するのにには、 **Get CsSite**コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="4f765-133">Use the **Get-CsSite** cmdlet to identify the site.</span></span> <span data-ttu-id="4f765-134">詳細については、Lync Server 管理シェルのマニュアルを参照してください。</span><span class="sxs-lookup"><span data-stu-id="4f765-134">For details, see Lync Server Management Shell documentation.</span></span>
   
-    <span data-ttu-id="8383b-135">例:</span><span class="sxs-lookup"><span data-stu-id="8383b-135">For example:</span></span>
+    <span data-ttu-id="4f765-135">例:</span><span class="sxs-lookup"><span data-stu-id="4f765-135">For example:</span></span>
     
    ```
    New-CsCpsConfiguration -Identity site:Redmond1 -CallPickupTimeoutThreshold 00:01:00 -EnableMusicOnHold $false -MaxCallPickupAttempts 2 -OnTimeoutURI sip:bob@contoso.com
    ```
 
-## <a name="see-also"></a><span data-ttu-id="8383b-136">関連項目</span><span class="sxs-lookup"><span data-stu-id="8383b-136">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4f765-136">関連項目</span><span class="sxs-lookup"><span data-stu-id="4f765-136">See also</span></span>
 
 #### 
 
-[<span data-ttu-id="8383b-137">ビジネス 2015年の保留中の inSkype のコール パークの音楽をカスタマイズします。</span><span class="sxs-lookup"><span data-stu-id="8383b-137">Customize Call Park music on hold inSkype for Business 2015</span></span>](customize-call-park-music-on-hold.md)
+[<span data-ttu-id="4f765-137">ビジネス 2015年の保留中の inSkype のコール パークの音楽をカスタマイズします。</span><span class="sxs-lookup"><span data-stu-id="4f765-137">Customize Call Park music on hold inSkype for Business 2015</span></span>](customize-call-park-music-on-hold.md)
 #### 
 
-[<span data-ttu-id="8383b-138">新しい-CsCpsConfiguration</span><span class="sxs-lookup"><span data-stu-id="8383b-138">New-CsCpsConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
+[<span data-ttu-id="4f765-138">新しい-CsCpsConfiguration</span><span class="sxs-lookup"><span data-stu-id="4f765-138">New-CsCpsConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
   
-[<span data-ttu-id="8383b-139">セット CsCpsConfiguration</span><span class="sxs-lookup"><span data-stu-id="8383b-139">Set-CsCpsConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/set-cscpsconfiguration?view=skype-ps)
+[<span data-ttu-id="4f765-139">セット CsCpsConfiguration</span><span class="sxs-lookup"><span data-stu-id="4f765-139">Set-CsCpsConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/set-cscpsconfiguration?view=skype-ps)
   
-[<span data-ttu-id="8383b-140">Get CsSite</span><span class="sxs-lookup"><span data-stu-id="8383b-140">Get-CsSite</span></span>](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps)
+[<span data-ttu-id="4f765-140">Get CsSite</span><span class="sxs-lookup"><span data-stu-id="4f765-140">Get-CsSite</span></span>](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps)
 

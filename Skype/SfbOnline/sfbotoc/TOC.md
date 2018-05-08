@@ -20,7 +20,7 @@
 ### [電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー](../audio-conferencing-in-office-365/outbound-calling-restriction-policies.md)
 ### [電話会議の電話番号](../audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing.md)
 ### [ユーザーの会議 ID をリセットする](../audio-conferencing-in-office-365/reset-a-conference-id-for-a-user.md)
-### [ユーザーの電話会議の PIN をリセットする](../audio-conferencing-in-office-365/reset-the-audio-conferencing-pin-for-a-user.md)
+### [オーディオ会議の暗証番号 (pin) をリセットします。](../audio-conferencing-in-office-365/reset-the-audio-conferencing-pin.md)
 ### [ユーザーに割り当てられている会議 ID を表示、変更、リセットする](../audio-conferencing-in-office-365/see-change-and-reset-a-conference-id-assigned-to-a-user.md)
 ### [電話会議の電話番号のリストを表示する](../audio-conferencing-in-office-365/see-a-list-of-audio-conferencing-numbers.md)
 ### [電話会議用に有効になっているユーザーのリストを表示する](../audio-conferencing-in-office-365/see-a-list-of-users-that-are-enabled-for-audio-conferencing.md)
