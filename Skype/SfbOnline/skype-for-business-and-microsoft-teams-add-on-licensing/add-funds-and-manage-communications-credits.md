@@ -15,7 +15,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords:
 - O365E_SFBVoiceCredit
 - O365E_SFBVoiceCreditAether
@@ -27,13 +27,12 @@ f1keywords:
 - O365P_SFBVoiceCreditAether
 ms.custom:
 - Licensing
-- Strat_SB_PSTN
 description: 'ビジネス サービスの通信のクレジット (PSTN の消費) の Skype のお支払いし、継続的な電話システムのアクセス権を持つユーザーを保持する計画を参照してくださいする方法について説明します。 '
-ms.openlocfilehash: c791c87d2a3b676aeb8d859441ba427811152619
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: e0cef7b40788045f4b76b0df0e0ee828ec0ab98d
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>資金を追加し、通信のクレジットの管理
 

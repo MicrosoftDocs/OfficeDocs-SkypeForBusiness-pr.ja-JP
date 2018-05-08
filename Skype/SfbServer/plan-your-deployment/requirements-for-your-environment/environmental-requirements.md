@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: '概要: ビジネス サーバー 2015 の Skype の非サーバー要件を構成します。 これらに該当するのは、Active Directory、DNS、証明書、ファイル共有など、展開を実行する前に構成しようとするさまざまな事項です。'
-ms.openlocfilehash: ed01b466abe46a83ca4d44b2cb555c85ab9af248
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 61b5d0a9bbce1fc2549f01f7f13209e87f74caf0
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 の環境要件
  
@@ -358,9 +358,9 @@ Standard Edition サーバーの証明書:
   
 - ファイル共有は、直接取り付け記憶域 (DAS) と記憶域ネットワーク (SAN) のいずれかに配置する必要があり、またファイル共有には、分散ファイル システム (DFS) だけでなくファイル ストア用の RAID (Redundant Array of Independent Disks) も含まれます。 さらに、Windows Server 2012 の DFS の詳細、[この DFS のページ](https://technet.microsoft.com/en-us/library/jj127250.aspx)をご覧ください。
     
-- 共有クラスター ファイル共有に対応することをお勧めします。 いずれかを使用している場合は、Windows Server 2012 または Windows Server 2012 R2 をクラスターする必要があります。 Windows Server 2008 R2 はも許容されます。 なぜ最新の Windows でしょうか。 以前のバージョンは、すべての機能を有効にする適切なアクセス許可をいない可能性があります。 クラスター アドミニストレーターを使用するには、ファイル共有を作成して、この KB[のクラスターを作成する](https://support.microsoft.com/kb/284838)資料に役立つ詳細を記載しました。
+- 共有クラスター ファイル共有に対応することをお勧めします。 いずれかを使用している場合は、Windows Server 2012 または Windows Server 2012 R2 をクラスターする必要があります。 Windows Server 2008 R2 はも許容されます。 なぜ最新の Windows でしょうか。 以前のバージョンは、すべての機能を有効にする適切なアクセス許可をいない可能性があります。 クラスター アドミニストレーターを使用するには、ファイル共有を作成して、[クラスター上のファイル共有を作成する方法](https://support.microsoft.com/en-us/help/224967/how-to-create-file-shares-on-a-cluster)をここに役立つ詳細を記載しました。
     
-> [!CAUTION]
+> [!CAUTION] 
 > ファイル共有にネットワーク接続ストレージ (NAS) は使用できません。ファイル共有には、上記のいずれかの選択肢を利用してください。 
   
 

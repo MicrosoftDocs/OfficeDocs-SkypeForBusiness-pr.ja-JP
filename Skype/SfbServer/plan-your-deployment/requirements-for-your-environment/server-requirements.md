@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: '概要: は、このトピックでのビジネス サーバー 2015 サーバーで、Skype を準備します。 ハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件および推奨事項は、ここで正常にインストールし、サーバー ファームの展開を確実にします。'
-ms.openlocfilehash: 28e9cf9be6f52a5e7f35a2d958832b1f13ada3b0
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: dfcde40c8084279dca39e830a84ad6e9631530dd
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 のサーバー要件
  
@@ -153,11 +153,17 @@ SQL のミラーリングの詳細を参照する場合は、ビジネス サー
 |Windows Media フォーマット ランタイム  <br/> | Windows Server 2016、Windows Server 2012 では、Windows Server 2012 R2 の**サーバー マネージャー**で、**メディア ファンデーション**機能をインストールする必要があります。 ここで、実際にビジネス サーバー 2015 をインストールせずにこの 1 つに、Skype を起動できますが、インストールを求められることでしょう. ビジネス サーバー 2015 の Skype の前に、サーバーのインストールの再起動を続行し、 この作業は、前もって行っておくことをお勧めします。 <br/> |
 |Silverlight  <br/> |[このリンク](https://www.microsoft.com/silverlight/)で、最新バージョンの Silverlight をインストールすることができます。  <br/> |
    
+> [!NOTE] 
+> ロード バランサーを使用している場合は、ディレクトリの参照を有効にする必要もあります。 それ以外の場合空白のページをロードするロード バランサーは、障害を検討してください。 
+
 作業の簡素化のために、この処理を自動化するサンプル PowerShell スクリプトを次に示します。
-  
+
 ```
-Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Desktop-Experience, Telnet-Client
+Add-WindowsFeature NET-Framework-Core, RSAT-ADDS, Windows-Identity-Foundation, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Dir-Browsing, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Server-Media-Foundation, BITS, Desktop-Experience, Telnet-Client
 ```
+
+> [!NOTE] 
+> コマンドは、特定の順序でソース ファイルを検索します。 オンラインの場合、このコマンドは Windows Update にアクセスします。 一方、オフラインの場合は、このコマンドがソース ファイルにアクセスできるようにする必要があります。 PowerShell を使用して、役割と機能をインストールするには、[インストールまたはアンインストールの役割、役割サービス、または機能](https://technet.microsoft.com/en-us/library/hh831809.aspx)を参照してくださいの詳細については忘れずに Windows の更新プログラムを再実行の前提条件をインストールした後、PowerShell コマンドを使用する場合でも。
 
  **ダイレクタが必要もあります。**
   

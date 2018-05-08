@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: 転送または別の電話サービスプロバイダーまたは通信業者にオンライン ビジネスのポートの Skype からの電話番号、PIN を手動で設定する必要があります。 PIN を設定した後にポートの電話番号を要求するときに含めることを必要があります。
-ms.openlocfilehash: 80b782880f8acc2767ed6743ddf2e89f24299308
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 30eaed1f5ec139f82dce75cfec77c873b8f491de
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>番号を新しいサービス プロバイダーに転送するための暗証番号を設定します。
 

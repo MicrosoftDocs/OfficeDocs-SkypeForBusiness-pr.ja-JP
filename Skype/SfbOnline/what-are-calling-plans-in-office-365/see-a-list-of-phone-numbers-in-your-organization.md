@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: 組織、ユーザーに割り当てられているすべての番号とビジネス管理センターの Skype から音声ユーザーに割り当てられているすべての番号のすべての電話番号の一覧を表示する方法について説明します。
-ms.openlocfilehash: f1bbb27fc1432d411a8241c75bf4e7ba12ccbe0d
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 26dc251308d63b2feb91134a052e37c97c145568
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>組織内の電話番号の一覧を参照してください。
 

@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 米国の利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: 34ef8a3ead8dfc37690f3588b8b61c8f1b467f95
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: db1d6c2473e45479cc9eca16951946a8c2ead9b5
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="availability-in-the-united-states-us"></a>米国 (米国) の可用性
 
@@ -55,7 +55,16 @@ ms.lasthandoff: 04/18/2018
 |**機能**|**詳細**|
 |:-----|:-----|
 |通話プランは購入できますか?  <br/> |はい  <br/> |
-|通話プランで利用可能な通話分数  <br/> |3000 分の国内通話または 600 分の国際通話 (いずれかがその月で達するまで)。米国での国内通話に該当するのは、米国の 50 州すべてとプエルトリコへの通話です。割り当てられたライセンスの利用場所が米国および/またはプエルトリコであるユーザーは、同じ利用時間量を共有します。  <br/> |
+|分の計画を呼び出すに使用できます。 |1 か月間利用は計画の 3 つのオプションがあります。
+- 120 分国内通話プラン (可用性は制限されている)
+- 240 分国内通話プラン (可用性は制限されている)
+- 1200 分の国内通話プラン
+- 1200 分の国内通話プラン
+- (国内および国際を呼び出す計画を購入している) 場合、国際通話用の 600 分
+
+米国での国内通話に該当するのは、米国の 50 州すべてとプエルトリコへの通話です。 割り当てられたライセンスの利用場所が米国および/またはプエルトリコであるユーザーは、同じ利用時間量を共有します。
+|||
+|:-----|:-----|
 |発信通話を行うことができますか?  <br/> | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
