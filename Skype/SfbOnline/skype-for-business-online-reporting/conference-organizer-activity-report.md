@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 900aece095c2053e028e8934f80e97f0e3d56615
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: ed65aaed214a35b961c9c13c0d789a224e41258f
+ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="conference-organizer-activity-report"></a>会議の開催者の活動レポート
 
@@ -53,7 +53,7 @@ ms.lasthandoff: 04/18/2018
 ![Skype ビジネス整理された会議のレポート](../images/0ab0e5e8-cf18-4f8f-a31a-94048e375a0f.PNG)
   
 ***
-![番号 1](../images/sfbcallout1.png)<br/>**Skype for Business 電話会議開催者アクティビティ** レポートでは、過去 7 日間、30 日間、90 日間、または 180 日間の傾向を確認できます。
+![番号 1](../images/sfbcallout1.png)<br/>**Skype for Business 電話会議開催者アクティビティ** レポートでは、過去 7 日間、30 日間、90 日間、または 180 日間の傾向を確認できます。 ただし、クリックした場合、レポート内の特定の日に、テーブル (7 を参照してください) データが表示されます日までの 30 日間 (番号 2 を参照) のレポートが生成されました。
 
     > [!Note]
     > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.

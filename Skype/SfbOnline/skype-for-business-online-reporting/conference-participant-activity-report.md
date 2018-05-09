@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: e9cec9045d297bb1b627338824baa1d5ac2a1dcf
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 36aef8125e27d4d327b5d6f279a9cd711af3e490
+ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="conference-participant-activity-report"></a>会議参加者の活動のレポート
 
@@ -51,7 +51,7 @@ Office 365 管理者として新しい**レポート**のダッシュ ボード 
 ![Skype 会議参加者の活動のレポート](../images/a5fb6a3f-d8bc-402e-850e-87a75fbc2546.PNG)
   
 ***
-![番号 1](../images/sfbcallout1.png)<br/>**Skype for Business 電話会議参加者アクティビティ** レポートでは、過去 7 日間、30 日間、90 日間、または 180 日間の傾向を確認できます。
+![番号 1](../images/sfbcallout1.png)<br/>**Skype for Business 電話会議参加者アクティビティ** レポートでは、過去 7 日間、30 日間、90 日間、または 180 日間の傾向を確認できます。 ただし、クリックした場合、レポート内の特定の日に、テーブル (7 を参照してください) データが表示されます日までの 30 日間 (番号 2 を参照) のレポートが生成されました。
 
     > [!Note]
     > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.

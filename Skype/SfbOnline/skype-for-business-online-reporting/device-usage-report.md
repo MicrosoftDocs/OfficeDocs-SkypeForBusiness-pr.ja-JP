@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 新しい Office 365 のレポート ダッシュ ボードによって、組織で Office 365 製品間でのアクティビティの概要がわかります。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 やなどのデバイスの使用状況レポートをビジネス用の Skype を使用するには、Windows ベースのオペレーティング システムを含む、デバイスにモバイル デバイスをビジネス アプリケーションの Skype がインストールされ、IM および会議のためのそれを使用しています。 詳細については、Office 365 の管理センターでの活動レポートをご覧ください。
-ms.openlocfilehash: e03719fc48609ce490e311015927df9a426dbbcd
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 711138e62b6614606b8532004591547cb2acd525
+ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="device-usage-report"></a>デバイスの使用状況レポート
 
@@ -52,7 +52,7 @@ ms.lasthandoff: 04/18/2018
 ![Skype ビジネス デバイスの使用状況レポート](../images/a1350924-37f8-4ae3-8603-bdde8c694203.png)
   
 ***
-![番号 1](../images/sfbcallout1.png)<br/>**Skype**ビジネス デバイスの使用状況のレポートは、傾向の過去 7 日間、30 日、90 日または 180 日間に表示できます。 
+![番号 1](../images/sfbcallout1.png)<br/>**Skype**ビジネス デバイスの使用状況のレポートは、傾向の過去 7 日間、30 日、90 日または 180 日間に表示できます。 ただし、クリックした場合、レポート内の特定の日に、テーブル (7 を参照してください) データが表示されます日までの 30 日間 (番号 2 を参照) のレポートが生成されました。
 
     > [!Note]
     > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
@@ -74,7 +74,7 @@ ms.lasthandoff: 04/18/2018
 ***
 ![数 7](../images/sfbcallout7.png)<br/>表では、ユーザーごとのすべての会議活動の内訳を示します。 Skype との会議のアクティビティに割り当てられているビジネスのためのすべてのユーザーが表示されます。 表には、追加の列を追加することができます。
 *    [ **ユーザー名**] はユーザーの名前です。 
-*    **最後のアクティビティの日付 (UTC)**は、ユーザーがピア ツー ピア セッションに参加または会議を開催または会議に参加した最後の時刻です。
+*    **最後のアクティビティの日付 (UTC)** は、ユーザーがピア ツー ピア セッションに参加または会議を開催または会議に参加した最後の時刻です。
 *    ユーザーが Windows ベースのオペレーティング システムにインストールされているビジネスのクライアント アプリケーションの Skype があり、使用されている場合は、**ウィンドウ**をオフにします。 
 *    ユーザーは、Windows Phone デバイスにインストールされているビジネスのクライアント アプリケーションの Skype に、使用されている場合、 **Windows Phone**を選択します。
 *    ユーザーが Android 携帯電話にインストールされているビジネスのクライアント アプリケーションの Skype があり、使用されている場合は、 **android の電話**をオンにします。

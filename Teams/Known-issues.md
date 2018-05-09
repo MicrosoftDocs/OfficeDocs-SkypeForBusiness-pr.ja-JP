@@ -3,18 +3,18 @@ title: Microsoft Teams の既知の問題
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 5/8/2018
+ms.date: 5/9/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: marcl, ninadara, v-leslc
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5aaa22ee981fc3369d82aa118fafe017cc6dda01
-ms.sourcegitcommit: 0d649ac15d8b50e497b05531b724bc9a171a2953
+ms.openlocfilehash: 13db401651181bf186a61f643b80c7750b9978a0
+ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
   
@@ -76,7 +76,7 @@ ms.lasthandoff: 05/08/2018
 ## <a name="channels"></a>チャネル
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|ユーザーが会社から出てしまうと、Microsoft Teams で「不明なユーザー」として表示されてしまう<br/> |ユーザーが会社から出てしまうと、Microsoft Teams で「不明なユーザー」として表示されてしまいます。 また、会話タブに「不明なユーザーがチームに追加されました」と表示されます。 この問題は次でまとめられています。https://domoreexp.visualstudio.com/MSTeams/_workitems/edit/168830  <br/> |回避策なし。  <br/> |2017/09/12  <br/> |
+|ユーザーが会社から出てしまうと、Microsoft Teams で「不明なユーザー」として表示されてしまう<br/> |ユーザーが会社から出てしまうと、Microsoft Teams で「不明なユーザー」として表示されてしまいます。 また、会話タブに「不明なユーザーがチームに追加されました」と表示されます。 <br/> |回避策なし。  <br/> |2017/09/12  <br/> |
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
