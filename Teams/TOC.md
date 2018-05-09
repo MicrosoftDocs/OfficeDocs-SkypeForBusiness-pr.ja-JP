@@ -14,6 +14,7 @@
 # セットアップ
 ## [Teams へのユーザー アクセスを管理する](user-access.md)
 ## [Teams のクライアントを取得する](get-clients.md)
+## [チームのアプリケーションのハードウェア要件](hardware-requirements-for-the-teams-app.md)
 ## [チームへのサインイン](sign-in-teams.md)
 ## [Teams の展開の概要](deployment-overview.md)
 ## [Office 365 を使用する組織で Teams をセットアップする](Office-365-set-up.md)

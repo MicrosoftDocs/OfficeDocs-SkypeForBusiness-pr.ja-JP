@@ -15,19 +15,18 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords:
 - ms.lync.lac.PSTNConferencingEnableUsers
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'ビジネス ユーザー向けに、Skype をサード ・ パーティ製の音声会議プロバイダー (ACP) からマイクロソフトでは、ダイヤルイン会議プロバイダーに変更します。 '
 robots: noindex
 redirect_url: https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider
 redirect_document_id: true
-ms.openlocfilehash: 2fb2315530495507724d3a8c3fa2331a8c11c1b7
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 4c1edda3fecc93fcd882f5d5d54b49322e008d5b
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---

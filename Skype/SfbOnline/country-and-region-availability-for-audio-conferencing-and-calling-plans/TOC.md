@@ -73,8 +73,7 @@
 ### [緊急対応の場所、アドレス、通話ルーティングの概要](../what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing.md)
 ### [ダイヤル プランについて](../what-are-calling-plans-in-office-365/what-are-dial-plans.md)
 
-## Office 365 での電話システム
-### [Office 365 での電話システムについて](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
+## [Office 365 に電話システム](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
 ### [電話システムの通話キューを作成する](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Skype for Business Online を利用できる電話機の取得](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Skype for Business Online 電話機の展開](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
@@ -86,7 +85,8 @@
 #### [電話システム ボイスメールのセットアップ - 管理者ヘルプ](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
 ### [電話システムの自動応答をセットアップする](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 ### [組織の電話システムを設定する.](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
-### [電話システムの自動応答とは何ですか?](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+### [電話システムの自動応答について](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+#### [電話システムの自動応答をセットアップする](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 
 ## [Skype 会議ブロードキャスト用にネットワークをセットアップする](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
 ### [ブロックされた Skype 会議ブロードキャストのユーザー ライセンス](../set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)
