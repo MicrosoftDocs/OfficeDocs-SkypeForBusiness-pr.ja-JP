@@ -19,9 +19,9 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'See steps to assign a dial-in conferencing license and conference ID to a user, set up a third party conferencing provider, and many other dial-in conferencing settings. '
-ms.openlocfilehash: b2759e4ee1f8e8cac2f753eb5afecbf13642abb0
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+description: 'ユーザーおよびその他のダイヤルイン会議の設定にダイヤルイン会議のライセンスおよび会議 ID を割り当てる手順を参照してください。 '
+ms.openlocfilehash: 7a5f82a827049f591d012af7f752e26ac4f9d87b
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/08/2018
@@ -51,28 +51,6 @@ ms.lasthandoff: 05/08/2018
 > [!NOTE]
 > ユーザーに会議 ID を割り当てる 
   
-## <a name="assign-a-conference-id-for-a-user"></a>割り当てられた 会議 ID は、静的または動的 ID で、会議がスケジュール設定されると会議出席依頼で送信されます。
-
-A conference ID is automatically assigned to a user when they are set up for dial-in conferencing using Microsoft as the dial-in conferencing provider. 会議がスケジュールされているとき、会議出席依頼に会議 ID が送信されます。 ユーザーをスケジュールする会議ごとに固有の会議 ID が割り当てられますを取得
-  
-Skype for Business 管理センターにおいて、または Windows PowerShell を使用して、この情報を変更することはできません。
-  
-A conference ID must contain 7 digits and you can't change it in the Skype for Business admin center or using Windows PowerShell.
-  
-```
-Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ConferenceId 8271964 
-```
-
-> [!IMPORTANT]
-> See Set-CsOnlineDialInConferencingUser to learn more about the cmdlet. 
-  
-After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use Skype for Business Meeting Migration Tool to update their existing meetings. To see how to download, install and run the Lync Meeting Update Tool, see:> Meeting Update Tool for Skype for Business and LyncSkype for Business Online, Meeting Migration Tool (64-bit)Skype for Business Online, Meeting Migration Tool (32-bit)
-  
-> [!IMPORTANT]
->  After a new conference ID is created, the old conference ID can't be used by callers.
-  
-[](see-change-and-reset-a-conference-id-assigned-to-a-user.md)職場または学校のアカウントを使用して、Office 365 にサインインします。
-    
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Skype for Business 管理センターまたは Windows PowerShell を使用すると、ユーザーへのメール送信を有効または無効にすることができます。
 
 ![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
@@ -212,9 +190,19 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
   
 When you do this, the dial-in conferencing PIN isn't sent to the user.
   
-## <a name="setting-the-default-audio-conferencing-phone-number-for-meeting-organizers"></a>会議開催者に対して電話会議用の既定の電話番号を設定する
+## <a name="setting-the-phone-numbers-included-on-invites"></a>携帯電話への招待に含まれている番号を設定します。
 
- **** Setting the default dial-in conferencing phone number for meeting organizers
+![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
+
+1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
+
+2. **オーディオ会議**の横にある [**編集**] をクリックします。
+ 
+3. **オーディオ会議**のウィンドウで**電話番号**を設定でき、許可された場合、**フリー ダイヤルの番号**です。
+
+4. [ **保存**] をクリックします。
+
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**  
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -222,39 +210,12 @@ When you do this, the dial-in conferencing PIN isn't sent to the user.
     
 3. Go to the **Office 365 admin center** > **Skype for Business**.
     
-4. Select the user that you want to enable for dial-in conferencing.
-    
-5. In the Action pane, in the user's properties click **Edit**.
-    
-  - 電話会議プロバイダーに Microsoft を選ぶ場合は、電話会議の既定の電話番号を一覧から選ぶことができます。  
-    
-  - 電話会議プロバイダーにサードパーティーの ACP を選ぶ場合は、有料の電話番号 (または必要に応じてフリーダイヤルの電話番号) を手動で入力する必要があります。これらの電話番号は、既定の電話番号に設定されます。
-    
-    ユーザーの電話会議用の既定の電話番号は、ユーザーが会議をスケジュールしたときに会議出席依頼に表示される番号です。
-    
-6. The default dial-in conferencing phone number of a user is the number that is shown on the meeting invite when they schedule a meeting. 
+4. [操作] ウィンドウで、**有料電話番号**を設定することができ、許可された場合、**フリー ダイヤルの番号**です。
+
+5. The default dial-in conferencing phone number of a user is the number that is shown on the meeting invite when they schedule a meeting.
     
 「[出席依頼に含まれている会議の開催者のために電話会議の電話番号を設定する](set-the-phone-numbers-included-on-invites.md)」をご覧ください。
   
- **電話会議のユーザーを有効にした後に、会議開催者に対して電話会議用の既定の電話番号を設定するには**
-  
-1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
-    
-2. Sign in to Office 365 with your work or school account.
-    
-3. Go to the **Office 365 admin center****** > .
-    
-4. In the Skype for Business admin center, in the left navigation go to Dial-in conferencingDial-in users, select the user you want and in the Action page, click Edit.
-    
-  - ユーザーが電話会議プロバイダーとして Microsoft を使用する場合は、電話会議の既定の電話番号を一覧から選ぶことができます。  
-    
-  - 電話会議プロバイダーにサードパーティーの ACP を使う場合は、有料の電話番号 (または必要に応じてフリーダイヤルの電話番号) を手動で入力する必要があります。
-    
-    ユーザーの電話会議用の既定の電話番号は、ユーザーが会議をスケジュールしたときに会議出席依頼に表示される番号です。
-    
-5. The default dial-in conferencing phone number of a user is the number that is shown on the meeting invite when they schedule a meeting. 
-    
-「[出席依頼に含まれている会議の開催者のために電話会議の電話番号を設定する](set-the-phone-numbers-included-on-invites.md)」をご覧ください。
   
 ## <a name="choosing-audio-conferencing-bridge-settings"></a>オーディオ会議ブリッジの設定を選択します。
 
@@ -378,9 +339,22 @@ Go to the Office 365 admin centerSkype for Business.
     
 You can also set the primary and secondary languages that are supported when you select Microsoft as the dial-in conferencing provider. The order that you select in the drop-downs will be the order of the languages that will be presented to the callers.
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png--see-audio-conferencing-dial-in-numbers"></a>![デバイス ・ ロゴ ・ 30x30.png](../images/sfb-logo-30x30.png)  You can also set the primary and secondary languages that are supported when you select Microsoft as the dial-in conferencing provider.
+## <a name="see-audio-conferencing-dial-in-numbers"></a>You can also set the primary and secondary languages that are supported when you select Microsoft as the dial-in conferencing provider.
 
-1. The order that you select in the drop-downs will be the order of the languages that will be presented to the callers.
+![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
+
+1. 左側のナビゲーションでは、**会議**に移動 > **会議ブリッジ**です。 
+
+2. リストから電話番号を選択し、[**編集**] をクリックします。 Go to the Office 365 admin centerSkype for Business.
+    
+  - 電話会議で使うために Office 365 によって設定された電話番号を表示する。 
+    
+  - 場所、およびオーディオ会議自動アテンダントによって使用される主言語を表示します。
+
+
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**  
+
+1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
 2. 「電話会議のダイヤルイン番号」をご覧ください
     
@@ -413,7 +387,7 @@ In the Skype for Business admin center, in the left navigation go to Dial-in con
 [](https://go.microsoft.com/fwlink/?LinkId=627324)Windows PowerShell を使用して組織レベルで管理できる複数の設定があります。
 
 このため、簡単にこれらの設定をすべてのユーザーに適用できます。 
-> 
+ 
 - 組織レベルの設定を以下に示します。
   ```
   Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $true|$false 

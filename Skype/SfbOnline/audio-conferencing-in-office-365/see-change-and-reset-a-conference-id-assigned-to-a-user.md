@@ -20,13 +20,13 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'については、ビジネスの Skype のユーザーに会議 ID を割り当てる方法と、どのような会議 ID のパラメーターにする必要があります。 '
-ms.openlocfilehash: 4922f896daa2bec976d7fb72dd519e9dd91d74f4
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 73c5d3cc95b7967cd9d6eaae83a14e19143e431b
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
-# <a name="see-change-and-reset-a-conference-id-assigned-to-a-user"></a>参照してください、変更、およびユーザーに割り当てられている会議 ID をリセットします。
+# <a name="view-and-reset-a-conference-id-assigned-to-a-user"></a>表示し、ユーザーに割り当てられている会議 ID をリセットします。
 
 会議 ID が、Skype のビジネスまたはマイクロソフトのチームのユーザーに割り当てられたは、Office 365 での音声会議用に設定し、Microsoft を使用して、オーディオ会議プロバイダーとして自動的にします。 会議 ID が割り当てられているは、会議がスケジュールされているとき、会議出席依頼で送信されます。 ユーザーをスケジュールする会議ごとに固有の会議 ID が割り当てられますを取得 
   
@@ -34,9 +34,35 @@ ms.lasthandoff: 05/03/2018
   
 会議 ID と既定の電話会議の電話番号をユーザーに電子メールが送信される、または会議 ID がない、暗証番号 (pin) に含まれている会議 ID をリセットする場合、別の電子メールが送信されます。 詳細については、会議の開催者の暗証番号 (pin)、[ここ](reset-a-conference-id-for-a-user.md)をリセットします。 
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-view-and-change-conference-ids"></a>![デバイス ・ ロゴ ・ 30x30.png](../images/sfb-logo-30x30.png) 表示し、会議 Id を変更します。
+## <a name="view-and-reset-conference-ids"></a>表示し、会議 Id をリセットします。
 
 ### <a name="to-view-the-conference-id"></a>会議 ID を表示するのには
+
+![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
+
+1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
+
+2. ページの上部で、[**編集**] をクリックします。
+
+3. [**オーディオ会議**、**会議 ID**の下を確認します。
+
+    > [!TIP]
+    > **電子メールで会議の情報を送信する**リンクをクリックして、会議 ID とオーディオの電話番号を含む電子メールでユーザーにすべての会議の情報を送信できます。
+
+  
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+ユーザーの会議 ID を表示するのには、Windows PowerShell を使用できます。 これを行うには、次のコマンドを実行します。
+    
+  ```
+  Get-CsOnlineDialInConferencingUser -Identity "Amos Marble"  
+  ```
+
+    See [Get-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617693 ) to learn more about the cmdlet.
+
+
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
 
 会議 ID を表示し、ユーザーに送信することができます。
   
@@ -50,9 +76,6 @@ ms.lasthandoff: 05/03/2018
     
     > [!TIP]
     > [**ユーザー** ] ページで、ユーザーを選択した後に**電子メールを使用して会議情報を送信する**リンクをクリックして、会議 ID とオーディオの電話番号を含む電子メールでユーザーにすべての会議の情報を送信できます。
-  
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ユーザーの会議 ID を表示するのには、Windows PowerShell を使用できます。 これを行うには、次のコマンドを実行します。
     
@@ -62,26 +85,29 @@ ms.lasthandoff: 05/03/2018
 
     See [Get-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617693 ) to learn more about the cmdlet.
     
-### <a name="to-assign-or-change-the-conference-id"></a>割り当て、または会議 ID を変更するには
-
-ユーザーの会議 ID を変更する場合、たとえば、覚えやすいものである会議 ID を割り当てたりできます。
-
-  > [!NOTE]
-  > ビジネス管理センターの Skype は自動的に作成されている会議 ID を編集するのには使用できませんが、編集、または設定した会議 ID を変更する Windows PowerShell を使用することができます。 
-     
-編集またはユーザーの会議 ID を変更する、次のコマンドを実行します。
-    
-  ```
-  Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ConferenceId 8271964
-  ```
-
-  > [!TIP]
-  > See Set-CsOnlineDialInConferencingUser to learn more about the cmdlet. 
   
-### <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-to-reset-the-conference-id"></a>![デバイス ・ ロゴ ・ 30x30.png](../images/sfb-logo-30x30.png) 会議 ID をリセットするのには
+### <a name="to-reset-the-conference-id"></a>会議 ID をリセットするのには
 
 ユーザーの会議 ID をリセットすることができる場合、忘れた場合などです。
   
+![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
+
+1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
+
+2. ページの上部で、[**編集**] をクリックします。
+
+3. [**オーディオ会議**、**会議 ID のリセット**をクリックします。
+
+4. **会議 ID のリセット**] ウィンドウで、[**リセット**] をクリックします。 A conference ID will be automatically created and an email sent to the user with the new conference ID.
+    
+    ユーザーの会議 ID をリセットするには、Windows PowerShell を使用します。 これを行う場合は、次を実行します。
+    
+  ```
+  Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ResetConferenceID 8271964
+  ```
+
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
+
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
 2. Go to the **Office 365 admin center** > **Skype for Business**.

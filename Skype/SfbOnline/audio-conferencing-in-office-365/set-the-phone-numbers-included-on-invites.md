@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: 03b6f3b2ce270d1dd6e2855dec4ee2af9a2447c8
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0ade5a68483319fe437d83c51dbe40ddb4f0fbc0
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="set-the-phone-numbers-included-on-invites"></a>携帯電話への招待に含まれている番号を設定します。
 
@@ -38,7 +38,28 @@ ms.lasthandoff: 05/03/2018
 > [!NOTE]
 > 会議主催者の会議出席依頼には、1 つの有料電話番号と 1 つの無料電話番号を含めることができますが、会議出席依頼の下部に、会議に参加するために使用できるダイヤルイン電話番号のすべての一覧を表示するリンクも記載されています。 
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>![デバイス ・ ロゴ ・ 30x30.png](../images/sfb-logo-30x30.png) 会議の開催者の既定のダイヤルインの電話番号を設定します。
+## <a name="set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>会議の開催者の既定のダイヤルインの電話番号を設定します。
+
+![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
+
+1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
+
+    ![マイクロソフトのチームとビジネス管理センターの Skype のユーザーの選択を示しています](../images/teamsselectusers.png)
+
+2. ページの上部で、[**編集**] をクリックします。
+
+    ![マイクロソフトのチームとビジネス管理センターの Skype での編集] をクリックします。](../images/teamsedituser.png)
+
+3. **オーディオ会議**の横にある [**編集**] をクリックします。 
+    
+    ![編集をクリックしてオーディオ会議](../images/teamseditaudioconf.png)
+
+4. **有料電話番号**や**フリー ダイヤル番号**のフィールドを使用すると、ユーザーの数を入力します。
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -70,11 +91,23 @@ ms.lasthandoff: 05/03/2018
     > ユーザーの既定の無料電話番号として設定できるようになるには、少なくとも 1 つの無料電話番号が会議ブリッジに割り当てられている必要があります。 フリー ダイヤル番号を取得するには、 [Skype のビジネスおよびマイクロソフトのチームの取得サービスの電話番号](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)を参照してください。 
   
   - **サード パーティ プロバイダー**:**有料電話番号**や**フリー ダイヤル番号**のフィールドを使用して、ユーザーの数値を入力します。
-    
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-reset-audio-conferencing-phone-numbers"></a>![デバイス ・ ロゴ ・ 30x30.png](../images/sfb-logo-30x30.png) 電話会議の電話番号をリセットする
+
+## <a name="change-the-audio-conferencing-phone-number-for-users"></a>ユーザーの電話会議の電話番号を変更します。
+
+![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
+
+1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
+
+2. ページの上部で、[**編集**] をクリックします。
+
+3. **オーディオ会議**の横にある [**編集**] をクリックします。 
+    
+4. **有料電話番号**や**フリー ダイヤル番号**のフィールドを使用すると、ユーザーの数を入力します。
+
+## <a name="reset-audio-conferencing-phone-numbers"></a>電話会議の電話番号をリセットする
+
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
 
 1. [ **Skype for Business 管理センター**] で、[ **電話会議**] を選びます。
     

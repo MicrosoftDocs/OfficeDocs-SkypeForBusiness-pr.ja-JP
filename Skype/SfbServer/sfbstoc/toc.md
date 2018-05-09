@@ -209,7 +209,8 @@
 #### [ファイル共有を作成します。](../deploy/install/create-a-file-share.md)
 #### [管理ツールをインストールします。](../deploy/install/install-administrative-tools.md)
 #### [Active Directory を準備します。](../deploy/install/prepare-active-directory.md)
-#### [DNS レコードの作成](../deploy/install/create-dns-records.md)
+#### 
+            「[DNS レコードの作成](../deploy/install/create-dns-records.md)」
 #### [作成し、新しいトポロジを公開します。](../deploy/install/create-and-publish-new-topology.md)
 #### [Skype をビジネスのサーバーをインストールします。](../deploy/install/install-skype-for-business-server.md)
 #### [トポロジを確認します。](../deploy/install/verify-the-topology.md)
@@ -768,8 +769,8 @@
 #### [ドメインの準備によって加えられた変更](../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md)
 #### [許可 CsSetupPermission によって行われた変更](../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-grant-cssetuppermission.md)
 #### [許可 CsOUPermission によって行われた変更](../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-grant-csoupermission.md)
-## [ヘルプ トピック](../help-topics/help-topics.md)
-### [ヘルプ DepWiz](../help-topics/help-depwiz/help-depwiz.md)
+## ヘルプ トピック
+### ヘルプ DepWiz
 #### [1 つの標準エディションのサーバー (概要) を準備します。](../help-topics/help-depwiz/prepare-single-standard-edition-server-intro.md)
 #### [1 つの標準エディションのサーバーを準備する (呼び出す)](../help-topics/help-depwiz/prepare-single-standard-edition-server-invoke.md)
 #### [証明書の表示](../help-topics/help-depwiz/view-certificate.md)
@@ -840,7 +841,7 @@
 #### [MSI インストーラーの展開ウィザード: パス](../help-topics/help-depwiz/deployment-wizard-path-to-msi-installer.md)
 #### [Windows 更新プログラムの展開ウィザード:](../help-topics/help-depwiz/deployment-wizard-windows-update.md)
 #### [展開ウィザード: 通信 API の統合](../help-topics/help-depwiz/deployment-wizard-unified-communications-api.md)
-### [ヘルプ LSCP](../help-topics/help-lscp/help-lscp.md)
+### ヘルプ LSCP
 #### [コントロール パネルを使用します。](../help-topics/help-lscp/use-the-control-panel.md)
 #### [クライアント バージョン ポリシー: 新規作成または既存の編集](../help-topics/help-lscp/client-version-policy-create-new-or-edit-existing.md)
 #### [クライアント バージョン ポリシー](../help-topics/help-lscp/client-version-policy.md)
@@ -1009,7 +1010,7 @@
 #### [ハイブリッド ウィザード: ユーザーの移動](../help-topics/help-lscp/hybrid-wizard-move-user.md)
 #### [ハイブリッド管理ウィザード](../help-topics/help-lscp/hybrid-manageability-wizard.md)
 #### [ハイブリッド ウィザード: Office 365 にサインインします。](../help-topics/help-lscp/hybrid-wizard-sign-in-to-office-365.md)
-### [ヘルプ計画](../help-topics/help-planning/help-planning.md)
+### ヘルプ計画
 #### [アーカイブ](../management-tools/planning-tool/archiving.md)
 #### [オーディオ ビデオ会議](../management-tools/planning-tool/audio-video-conferencing.md)
 #### [ブランチ サイト](../management-tools/planning-tool/branch-sites.md)
@@ -1035,7 +1036,7 @@
 #### [ボイス インフラストラクチャ](../management-tools/planning-tool/voice-infrastructure.md)
 #### [音声トラフィック](../management-tools/planning-tool/voice-traffic.md)
 #### [Web 会議](../management-tools/planning-tool/web-conferencing.md)
-### [ヘルプ TopoBld](../help-topics/help-topobld/help-topobld.md)
+### ヘルプ TopoBld
 #### [その他の SIP ドメインを追加します。](../help-topics/help-topobld/add-additional-sip-domains.md)
 #### [アーカイブ サーバーのファイル ストアを追加します。](../help-topics/help-topobld/add-archiving-server-file-store.md)
 #### [アーカイブ サーバーを追加します。](../help-topics/help-topobld/add-archiving-server.md)

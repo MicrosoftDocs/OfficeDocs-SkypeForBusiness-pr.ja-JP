@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 description: Skype ルーム システムの次世代を Skype ルーム システム v2 では、管理の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 562dbeea19fb732caf9348e2bfd632da3579e71a
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 48069f7e5e63df752fe94cb557796e9f2080c917
+ms.sourcegitcommit: 0d649ac15d8b50e497b05531b724bc9a171a2953
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="manage-skype-room-systems-v2"></a>Skype Room Systems バージョン 2 を管理する
  
@@ -180,10 +180,9 @@ APPX の適切なファイルとの[『 導入ガイド 』](https://go.microsof
     
 2. Skype ルーム システム v2 ・ デバイスを使用し、変更することを対象とする次のスクリプトを実行\<共有\>デバイスには、必要に応じて共有します。
     
-  ```
-  Add-AppxPackage -Update -ForceApplicationShutdown -Path \\<share>\Rigel\x64\Ship\AppPackages\*\*.appx -DependencyPath (Get-ChildItem \\<share>\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx | Foreach-Object {$_.FullName}) 
-
-  ```
+```
+Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
+```
 
 ## <a name="admin-mode-and-device-management"></a>管理者モードとデバイス管理
 <a name="AdminMode"> </a>
