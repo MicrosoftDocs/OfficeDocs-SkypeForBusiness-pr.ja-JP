@@ -1,11 +1,10 @@
 ---
-title: Skype for Business Online 電話機の展開レポート
+title: 共通領域電話を設定します。
 description: 適切なファームウェアを取得し、更新が必要な場合、ライセンスを割り当てる共通領域電話の設定を構成、展開の手順を説明します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: wasseemh
-ms.date: 01/22/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -20,13 +19,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-ms.openlocfilehash: 453f9db6a022e924406594c567ea564b10f58694
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 12ed7d5c24649903f7cd3020d66ee4e9fcb77b6f
+ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/10/2018
 ---
-## <a name="common-area-phones"></a>共通領域電話
+# <a name="set-up-common-area-phones"></a>共通領域電話を設定します。
+
 共通領域電話、または、CAP 共有領域では通常、配置は、個々 のユーザーに関連付けられていません。 例では、受信エリアの電話番号、ドアの電話や会議室電話、Cap は、ユーザーではなくデバイスとして設定して、ネットワークに自動的にサインインします。 以下の手順でお手伝いプランを呼び出すことでマイクロソフトの電話システムのアカウントを設定し、CAP を展開し、します。
 
 ## <a name="prerequisites-for-common-area-phones"></a>共通領域電話のための前提条件
@@ -36,7 +36,6 @@ ms.lasthandoff: 05/09/2018
     - 共通領域電話の SKU を購入しました。 
     - 更新されたファームウェア (を参照してくださいサポートされているファームウェアのトピックhttps://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
     - 承認済の電話 (にあるリストを表示します。https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones) 
-
 
 ## <a name="check-the-firmware-for-your-phone"></a>自分の携帯電話のファームウェアを確認します。
 - **Polycom VVX phones**, go to **Settings** > **Status** > **Platform** > **Application** > **Main**.
@@ -84,29 +83,30 @@ CAP を作成するには、物理的な電話を設定する前に設定を構�
     
 ## <a name="configure-phone"></a>電話を構成します。
 
-**物理的な電話を準備します。** 
+**物理的な電話を準備します。**
 
-選択した電話は、共通領域電話モードである必要があります。 
+選択された電話は、共通領域電話モードである必要があります。 
 
 ***VVX のポリコム電話の例***
 
 次の手順で、ポリコム VVX の共通領域電話のモードを有効にします。
 1. お使いのブラウザーで web インターフェイスを使用、VVX のキャップのモードを有効にするには
 2. **設定**にし、ビジネスの設定オプションの Skype で、**共通領域電話**を選択します。
-3. 構成設定を保存する**保存**をクリックします。
+3. **[はい]** の構成設定を保存する] をクリックします。
 
-キャップ電話モードを有効にすると、これでは、携帯電話のディスプレイを使用して電話を設定します。
+キャップ電話モードを有効にすると、これでは、携帯電話のディスプレイを使用して電話を設定します。 「CaAP が有効な"表示が表示されます。
 
-1. 設定で、**詳細設定**を選択します。
-2. パスワードを入力します。
-3. 管理の設定では、**共通領域電話の設定**を選択します。
-4. 共通領域電話および CAP の管理を有効にします。
-5. **設定を保存**を選択します。
+1. [**設定**] をクリックします。
+2. **詳細設定**を選択します。
+3. パスワードを入力します。
+4. 管理の設定では、**共通領域電話の設定**を選択します。
+5. **キャップ**と**キャップの管理モード**を有効にします。
+6. **設定を保存**] をクリックします。
 
 自分の携帯電話は、次のようなホーム画面にサインインするときの操作を準備する準備ができました。
 
-1. 署名を選択することで**設定 > 機能 > ビジネス用の Skype** 。
-2. ユーザーの資格情報を選択し、[ **web サインイン (CAP)** コードを生成するを選択.
+1. **設定**を選択してサインイン > **機能** > **ビジネス用の Skype** 。
+2. **ユーザーの資格情報**を選択し選択**web サインイン (CAP)** コードを生成する.
 3. プロビジョニングのポータルに移動http://aka.ms/skypecap、し、**管理者**としてサインインします。
 4. キャップを表示するのには (たとえば、メインの受信) の表示名を入力します。
 
@@ -114,7 +114,7 @@ CAP を作成するには、物理的な電話を設定する前に設定を構�
 
 5. ペアリング コード ウィンドウで、携帯電話に表示されるコードを入力し、[**準備**] をクリックします。
 
-Wht この最後のステップでは、電話する必要があります自動的にサインインします。
+この最後のステップでは、次の電話は自動的にサインインします。
 
 使用可能な電話の詳細については[](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones)です。
 

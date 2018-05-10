@@ -1,7 +1,24 @@
 ---
-タイトル: ブロック着信呼び出しで Skype のビジネス オンライン ms.author: tonysmit 作成者: tonysmit マネージャー: serdars ms.date: 2018/05/07 ms.topic: ms.assetid の記事: ms.tgt.pltfrm: ms.service のクラウド: skype の-ビジネス-オンライン ms.collection: Adm_Skype4B_オンライン ms.audience: 管理者 appliesto: ビジネス localization_priority の Skype: 通常の f1keywords: なし ms.custom: PowerShell の説明:「受信を管理する PowerShell を使用して呼び出すビジネス オンラインの Skype のブロックします」。
+title: オンライン ビジネスの Skype で着信呼び出しをブロックする.
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.date: 05/07/2018
+ms.topic: article
+ms.assetid: ''
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+appliesto: Skype for Business
+localization_priority: Normal
+ms.custom: Use PowerShell to manage inbound call blocking in Skype for Business Online.
+ms.openlocfilehash: 9a9ff446d7b95588f1d9c2460db1284de717e557
+ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 05/10/2018
 ---
-
  # <a name="block-inbound-calls"></a>着信呼び出しをブロックします。
 
 Skype ビジネス オンラインを呼び出すことを計画するのでは、公衆交換電話網 (PSTN) からの着信呼び出しをブロックする機能をサポートしています。 この機能により、テナントのすべての着信の PSTN の発信者番号を呼び出すように設定する番号のパターンのテナントのグローバル リストは、一致のリストでチェックできます。 一致する場合は、着信呼び出しは拒否されます。 
@@ -14,7 +31,6 @@ Skype ビジネス オンラインを呼び出すことを計画するのでは�
 
 ## <a name="call-blocking-admin-controls-and-information"></a>管理コントロールと情報のブロックの呼び出し
 PowerShell を使用してのみ、ブロック番号の管理コントロールが提供されます。 番号のブロック パターンは、正規表現のパターンとして定義されます。 式の順序は重要な – がリストに一致する最初のパターンと、呼び出しがブロックされていること。 新しい番号またはパターンが追加または削除でブロックされている呼び出し元のリストは最大で 24 時間にアクティブになるパターンをかかることがあります。
-
 ## <a name="call-blocking-powershell-commands"></a>通話の PowerShell コマンドをブロック
 
 *InboundBlockedNumberPattern*番号のパターンは、**新規**、**取得**、**設定**、および**削除**は、 *CsInboundBlockedNumberPattern*コマンドを使用して管理されます。  
@@ -57,4 +73,4 @@ Id が不明な場合は、まず適切なパターンを検索し、Id に注�
 前述のように、呼び出し元をブロックするために一致するパターンは、正規表現 (regex) を使用して行われます。 複数のツール利用可能なオンラインに正規表現パターン一致の検証を支援します。 正規表現パターンに慣れていない場合は、基本を理解し、期待どおりの結果を取得するかどうかを確認するツールを使用して、テナント ブロック番号の新しいアイテムを追加する前に、パターン マッチを検証するために時間がかかることをお勧めします。 
 
 ## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
-[Windows PowerShell を使用してビジネスのオンライン管理のための skype には、コンピューターを設定します](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell )
+[コンピューターを Windows PowerShell を使用してオンライン ビジネスの管理のための Skype の設定します。](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell )

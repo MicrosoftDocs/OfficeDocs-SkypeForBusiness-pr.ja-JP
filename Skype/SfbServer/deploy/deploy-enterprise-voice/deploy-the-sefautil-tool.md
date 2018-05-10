@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: ビジネス サーバーの Skype で SEFAUtil ツールを展開します。
-ms.openlocfilehash: 48fa0077315169e6a80e65e91d7ce9a31583cdb5
-ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
+ms.openlocfilehash: 4def73d0bca655569275f61d9ebfeafb4ab7e3d4
+ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/10/2018
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business-2015"></a>Skype for Business 2015 での SEFAUtil ツールの展開
  
@@ -29,7 +29,7 @@ ms.lasthandoff: 05/09/2018
 > [!IMPORTANT]
 > マイクロソフト ユニファイド コミュニケーション管理 API (UCMA) 5 のランタイムは、SEFAUtil ツールを実行しようとするすべてのコンピューターにインストールしなければなりません。 ここからダウンロード:[ユニファイド コミュニケーション マネージ API 5.0 ランタイム](https://www.microsoft.com/en-us/download/details.aspx?id=47344)です。 ここでは、ランタイムが含まれています、UCMA 5 SDK をダウンロードすることもできます: [UCMA 5.0 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=47345)です。
   
-すべてのフロント エンド プールで SEFAUtil ツールを実行するには、展開に。
+すべてのフロント エンド プールで SEFAUtil ツールを実行するには、展開に。 SEFAUtil ツールを実行するには、必要がありますを実行するステップ 1、2、3、Skype からビジネス展開ウィザードのアプリケーションの信頼されたコンピューターにします。 SEFAUtil は、証明書と同様に、ローカル構成ストアが存在する必要があります。
   
 > [!NOTE]
 > SEFAUtil を実行しているの詳細については、Technet のブログ記事を参照してください"[を実行している SEFAutil を取得する方法ですか?](https://go.microsoft.com/fwlink/?LinkId=278940)"です。 
