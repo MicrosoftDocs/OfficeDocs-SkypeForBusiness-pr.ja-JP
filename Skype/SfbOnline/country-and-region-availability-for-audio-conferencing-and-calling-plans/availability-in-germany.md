@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ドイツの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: 3570f4a2e66ac83fd5ab6fc295e5725618f17c2a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: a0e88129ee1477bdaeec910cdc2e58a08ae21dd2
+ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="availability-in-germany"></a>ドイツの可用性
 
@@ -51,12 +51,12 @@ ms.lasthandoff: 04/18/2018
 |ボイスメール  <br/> |利用可能  <br/> |
    
 ## <a name="calling-plans"></a>通話プラン
-
+    
 |**機能**|**詳細**|
 |:-----|:-----|
 |通話プランは購入できますか?  <br/> |はい  <br/> |
-|通話プランで利用可能な通話分数  <br/> |1200 分の国内通話または 600 分の国際通話 (いずれかがその月で達するまで)。  <br/> |
-|発信通話を行うことができますか?  <br/> | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。  <br/> |
+|分の計画を呼び出すに使用できます。 |1 か月間利用は 4 つのプランのオプションがあります。 <ul><li>120 分、国内の計画を呼び出す </li><li>240 分、国内の計画を呼び出す</li></li><li>3000 分の国内を呼び出すことを計画 </li></li><li>国内および国際を呼び出す計画を 600 分</li></li> 
+|発信通話を行うことができますか?  <br/> | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 

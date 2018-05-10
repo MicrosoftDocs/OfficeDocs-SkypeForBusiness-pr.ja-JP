@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: ビジネス サーバーの Skype で SEFAUtil ツールを展開します。
-ms.openlocfilehash: f0bb660218b761e513e120f4ea5786eb9278b12a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 48fa0077315169e6a80e65e91d7ce9a31583cdb5
+ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business-2015"></a>Skype for Business 2015 での SEFAUtil ツールの展開
  
@@ -27,7 +27,7 @@ ms.lasthandoff: 05/03/2018
 展開し、コール ピックアップのグループを管理、ビジネス サーバーのバージョンの SEFAUtil ツールは、Skype を使用する必要があります。 
   
 > [!IMPORTANT]
-> Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK を、SEFAUtil ツールを実行する予定のすべてのコンピューターにインストールする必要があります。 
+> マイクロソフト ユニファイド コミュニケーション管理 API (UCMA) 5 のランタイムは、SEFAUtil ツールを実行しようとするすべてのコンピューターにインストールしなければなりません。 ここからダウンロード:[ユニファイド コミュニケーション マネージ API 5.0 ランタイム](https://www.microsoft.com/en-us/download/details.aspx?id=47344)です。 ここでは、ランタイムが含まれています、UCMA 5 SDK をダウンロードすることもできます: [UCMA 5.0 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=47345)です。
   
 すべてのフロント エンド プールで SEFAUtil ツールを実行するには、展開に。
   

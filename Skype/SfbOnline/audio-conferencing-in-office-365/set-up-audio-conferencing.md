@@ -22,11 +22,11 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '電話を使用して会議に参加する必要のあるビジネスで、ユーザーのダイヤルインまたはオーディオ会議を設定する方法について説明します。 '
-ms.openlocfilehash: 303b22f43a756fcade575dd63ae9bba205e6cbda
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d91a3637a0f7d35d319368017e0f9c6611faf2a7
+ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams"></a>Skype for Business および Microsoft Teams の電話会議のセットアップ
 
@@ -69,7 +69,11 @@ ms.lasthandoff: 05/03/2018
 
 会議用ブリッジは、有料または無料の電話番号を取得すると、番号を割り当てる、ミーティングの招待で使用できるようにする必要があります。  
 
-**Office 365 管理センター**には、オーディオ会議ブリッジに新しい電話番号を割り当てるには > **管理センター** > **ビジネス用の Skype** > **音声** > **電話番号**、携帯電話を選択します。数、および**割り当て**] をクリックします。
+オーディオ会議ブリッジには、新しい電話番号を割り当てます。
+
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターに、Skype を使用する:**
+
+ **Office 365 管理センター**を参照して > **管理センター** > **ビジネス用の Skype** > **音声** > **の電話番号**、電話番号を選択し、**割り当て**] をクリックします。
 
 詳細については[、オーディオ会議ブリッジに新しい電話番号を割り当てる](../audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md)」を参照してください。
 
@@ -78,6 +82,12 @@ ms.lasthandoff: 05/03/2018
 
 次に、[オーディオ会議の自動応答の言語設定](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md)にダイヤルするときの電話番号に電話会議の呼び出し元を呼びかけられるように設定するのには、会議自動アテンダントを使用します。 
 
+![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **ビジネス管理センターは、マイクロソフトのチームと Skype を使用して:**
+
+**会議**には、ダッシュ ボードから > **会議ブリッジ**、会議ブリッジの電話番号を選択**を編集**] をクリック、し、既定の言語を選択します。
+
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターに、Skype を使用する:**
+
 **Office 365 管理センター**を参照して > **管理センター** > **ビジネス用の Skype** > **電話会議** > **ブリッジの設定をマイクロソフト**では、会議ブリッジの電話番号を選択し、**言語の設定**] をクリックします。
 
 ## <a name="step-6-set-your-conferencing-bridge-settings"></a>ブリッジの設定、会議を設定する手順 6。
@@ -85,15 +95,27 @@ ms.lasthandoff: 05/03/2018
     
 会議用ブリッジの設定後、開始/終了の通知、暗証番号 (pin) の長さなどの既定の設定が使用するものことを確認します正しくない場合は、変更することができます。 
 
-**Office 365 管理センター**に移動することができます > **管理センター** > **ビジネス用の Skype** > **電話会議** > **Microsoft ブリッジの設定**です。 **Microsoft ブリッジの設定**] ページが表示されます。 詳細については[、オーディオ会議ブリッジの設定を変更](../audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge.md)」を参照してください。
+![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **ビジネス管理センターは、マイクロソフトのチームと Skype を使用して:**
 
-## <a name="step-7-assign-the-audio-conferencing-provider-and-dial-in-phone-numbers"></a>手順 7: オーディオ会議プロバイダーとダイヤルインの電話番号を割り当てる
+**会議**には、ダッシュ ボードから > **会議ブリッジ** > **ブリッジの設定**です。 **ブリッジの設定**ウィンドウが開きます。 詳細については[、オーディオ会議ブリッジの設定を変更](../audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge.md)」を参照してください。
 
-マイクロソフトが、プロバイダーでは、割り当てられているし、同時に、それらの通話およびフリー ダイヤル番号を設定ことを確認する必要があります。
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターに、Skype を使用する:**
 
-プロバイダーとしてマイクロソフトを潜在顧客、または**Office 365 の管理センター**に移動して、会議のスケジュールを設定する、組織内のユーザーに割り当てる > **ビジネス用の Skype** > **電話会議** > **ユーザー**、しを選択一覧からユーザー**の編集**] をクリックします。 詳細については、必要な場合は、[オーディオ会議プロバイダーとしてのマイクロソフトの割り当て](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)を参照してください。
+**Office 365 管理センター**を参照して > **管理センター** > **ビジネス用の Skype** > **電話会議** > **Microsoft ブリッジの設定**です。 **Microsoft ブリッジの設定**] ページが表示されます。 詳細については[、オーディオ会議ブリッジの設定を変更](../audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge.md)」を参照してください。
 
-プロバイダーを設定して、ダイヤルを設定することも会議に追加するフリー ダイヤルの番号は、そのユーザーの招待します。 ドロップ ダウン リストから電話番号を選択します。 詳細については、[携帯電話への招待に含まれている番号の設定](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md)を参照してください。 
+## <a name="step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings"></a>会議をリードするユーザーの手順 7: 割り当てのダイヤルインの電話番号
+
+オーディオ会議ブリッジを作成した後、ユーザーの通話およびフリー ダイヤル番号を設定する必要があります。
+
+潜在顧客または会議をスケジュールする、組織内のユーザーのすべてのこの操作を行う必要があります。 その手順は次のとおりです。
+
+![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **ビジネス管理センターは、マイクロソフトのチームと Skype を使用して:**
+
+ダッシュ ボードを**ユーザー**] をクリックして、リストからユーザーを選択、[**編集**] をクリックして、**オーディオ会議**を**編集**] をクリックして、**オーディオ会議**ウィンドウで、**有料電話番号**と**番号フリー ダイヤル**番号をリストします。
+
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターに、Skype を使用する:**
+
+**Office 365 管理センター**を参照して > **ビジネス用の Skype** > **オーディオ会議** > **ユーザー**のリストからユーザーを選択し、[**編集**] をクリックします。 詳細については、必要な場合は、[オーディオ会議プロバイダーとしてのマイクロソフトの割り当て](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)を参照してください。
 
 
 ## <a name="step-8-set-up-meeting-invitations-optional"></a>手順 8: を設定するミーティングの招待状 (省略可能)
