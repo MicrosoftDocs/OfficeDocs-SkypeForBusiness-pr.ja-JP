@@ -34,13 +34,12 @@
 ### [Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 ### [会議の入退室通知をオンまたはオフにする](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
 
-
-
 ## [Office 365 の通話プラン](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
 ### [組織の緊急対応の場所を追加、変更、削除する](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
 ### [組織の緊急対応の住所を追加または削除する](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
 ### [ユーザーの電話番号の割り当て、変更、削除を行う](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [ユーザーの緊急番号の割り当て、変更を行う](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)
+### [着信呼び出しをブロックします。](../what-are-calling-plans-in-office-365/block-incoming-calls.md)
 ### [通話プランの既知の問題](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [ユーザーの緊急対応の住所を変更する](../what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user.md)
 ### [ユーザーの緊急対応の場所を変更する](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
@@ -77,6 +76,7 @@
 ### [電話システムの通話キューを作成する](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Skype for Business Online を利用できる電話機の取得](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Skype for Business Online 電話機の展開](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
+#### [共通領域電話 (CAP) を設定します。](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
 ### [Skype for Business および Microsoft Teams のサービス電話番号の取得](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 ### [電話システムで利用できる機能](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
 ### 電話システムのボイスメール

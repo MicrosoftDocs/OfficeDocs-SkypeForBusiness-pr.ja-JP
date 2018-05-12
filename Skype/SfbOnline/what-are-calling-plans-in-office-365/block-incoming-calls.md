@@ -13,11 +13,11 @@ ms.audience: Admin
 appliesto: Skype for Business
 localization_priority: Normal
 ms.custom: Use PowerShell to manage inbound call blocking in Skype for Business Online.
-ms.openlocfilehash: 9a9ff446d7b95588f1d9c2460db1284de717e557
-ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
+ms.openlocfilehash: 7a9d9637973f18e5322e1c39d38627b0883f2c9f
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2018
+ms.lasthandoff: 05/11/2018
 ---
  # <a name="block-inbound-calls"></a>着信呼び出しをブロックします。
 
@@ -27,7 +27,8 @@ Skype ビジネス オンラインを呼び出すことを計画するのでは�
 
 この機能はまだ直接ルーティング可能ではありません。
 
->[メモ]着信禁止一覧は、ブロックされたときに、わずかに異なる動作にすることがあります。 動作は、ブロックされている呼び出し元のキャリアが正常に完了するのには、呼び出しは許可されていない通知を処理する方法に基づきます。 例としては、ダイヤル呼び出しを完了できませんを示すメッセージがキャリアを含めることが、または単に呼び出しを削除します。
+>[!NOTE]
+ 着信禁止一覧は、ブロックされたときに、わずかに異なる動作にすることがあります。 動作は、ブロックされている呼び出し元のキャリアが正常に完了するのには、呼び出しは許可されていない通知を処理する方法に基づきます。 例としては、ダイヤル呼び出しを完了できませんを示すメッセージがキャリアを含めることが、または単に呼び出しを削除します。
 
 ## <a name="call-blocking-admin-controls-and-information"></a>管理コントロールと情報のブロックの呼び出し
 PowerShell を使用してのみ、ブロック番号の管理コントロールが提供されます。 番号のブロック パターンは、正規表現のパターンとして定義されます。 式の順序は重要な – がリストに一致する最初のパターンと、呼び出しがブロックされていること。 新しい番号またはパターンが追加または削除でブロックされている呼び出し元のリストは最大で 24 時間にアクティブになるパターンをかかることがあります。

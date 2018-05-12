@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 description: この資料では、カスタム テーマの適用を含め、Skype ルーム システム v2 デバイスによって使用される既定の設定のリモート管理について説明します。
-ms.openlocfilehash: 14891401c8cd13f35879ea064f2be49f88b1c68a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 74f098e44e3b25eafd48d1309e0454034f56d1f5
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="manage-a-skype-room-systems-v2-console-settings-remotely-with-an-xml-configuration-file"></a>Skype Room Systems バージョン 2 のコンソールの設定を、XML 構成ファイルを使用してリモートで管理する
  
@@ -72,7 +72,7 @@ XML ファイルの作成でエラーが含まれる場合 (変数値の型に�
 |\<SkypeSettings\>  <br/> |すべての要素のコンテナー。  <br/> ||必須。  <br/> |
 | \<AutoScreenShare\> <br/> |ブール値 & #x 2777 です。 <br/> |最初 & #x 2776。 <br/> | true の場合、自動画面共有が有効になります。 <br/> |
 |\<HideMeetingName\>  <br/> |ブール値 & #x 2777 です。 <br/> |最初 & #x 2776。 <br/> |true の場合、会議名が非表示になります。  <br/> |
-|\<ユーザー アカウント\>  <br/> |Container  <br/> |最初 & #x 2776。 <br/> |資格情報パラメーターのコンテナー。  <br/> サインイン アドレス、Exchange アドレス、または電子メール アドレスは、通常は同一のものとなります (RanierConf@contoso.com など)。  <br/> |
+|\<ユーザー アカウント\>  <br/> |Container  <br/> |最初 & #x 2776。 <br/> |資格情報パラメーターのコンテナー。  <br/> サインイン アドレス、Exchange アドレス、または電子メール アドレスは、通常は RanierConf など、同じ<span></span>@contoso.com です。  <br/> |
 |\<SkypeMeetingsEnabled\>  <br/> |ブール値 & #x 2777 です。 <br/> |最初 & #x 2776。 <br/> |既定では有効です。  <br/> |
 |\<TeamsMeetingsEnabled\>  <br/> |ブール値 & #x 2777 です。 <br/> |最初 & #x 2776。 <br/> |既定では無効です。  <br/> XML ファイルと見なされます正しくない場合は両方\<SkypeMeetingsEnabled\>と\<TeamsMeetingsEnabled\>が無効になって、両方の設定が同時に有効にすることができますが、します。  <br/> |
 |\<SkypeSignInAddress\>  <br/> |文字列 3 <br/> ||コンソールの Skype for Business デバイス アカウントのサインイン名。  <br/> |
@@ -109,16 +109,16 @@ Skype ルーム システム v2 のコンソールの場所に SkypeSettings.xml
   
 Skype ルーム システム v2 デバイスの数によって、企業があり、それらを構成するのには管理するために選択する方法がいくつかの XML 構成ファイルを配置する方法。 ファイルがコンソールにプッシュされたら、再起動して構成の変更を処理します。 処理に成功すると、XML 構成ファイルが削除されます。 Skype ルーム システム v2 のデバイスの管理の方法で説明します。
   
-- [Skype Room Systems v2 のグループ ポリシーの構成](skype-room-systems-v2.md#GroupPolicy)
+- [Skype Room Systems v2 のグループ ポリシーの構成](room-systems-v2-operations.md#GroupPolicy)
     
-- [PowerShell を使用してリモートの管理](skype-room-systems-v2.md#RemotePS)」および「[ファイル項目を構成します。](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)
+- [PowerShell を使用してリモートの管理](room-systems-v2-operations.md#RemotePS)」および「[ファイル項目を構成します。](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
     
 ファイルの転送と、コンソール デバイス上での再起動のトリガーができるのであれば、いずれの方法も使用できます。 ファイルは、読み取り、書き込み可能なおよび削除可能なデバイスのローカル ユーザー アカウント (可能であれば、それが所有する必要があり、そのユーザーに与えられる全体の特権を持っている) でなければなりません。 ファイルの権限が適切に設定されていない場合、ソフトウェアは設定の適用に失敗したり、処理成功時にファイルの削除に失敗する可能性があるだけではなく、クラッシュする可能性があります。
   
 ## <a name="custom-theme-images"></a>カスタム テーマの画像
 <a name="Themes"> </a>
 
-カスタム テーマの画像ファイルを配置する必要があります**C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**で入力ファイル名と拡張子で、<CustomThemeImageUrl>変数です。
+カスタム テーマの画像ファイルを配置する必要があります**C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**で入力ファイル名と拡張子で、 \<CustomThemeImageUrl\>変数です。
   
 画像ファイルは正確に 3840X1080 ピクセルで、ファイル形式は jpg、jpeg、png、bmp のいずれかである必要があります。 組織では、カスタム イメージを希望する場合は、グラフィック デザイナーに役立つ、[カスタム テーマの Photoshop のテンプレート](https://go.microsoft.com/fwlink/?linkid=870441)。 テーマ画像にさまざまな要素を配置する場所や、本体とディスプレイに表示される領域をさらに詳細が含まれています。
   
@@ -132,5 +132,5 @@ XML 構成ファイルはデバイスの起動時に更新され、テーマ画�
 [Skype ルームの管理システム v2](skype-room-systems-v2.md)
 #### 
 
-[ファイル項目を構成します。](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)
+[ファイル項目を構成します。](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
 

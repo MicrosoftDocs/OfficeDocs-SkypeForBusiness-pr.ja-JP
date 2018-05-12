@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ポーランドの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: ec5b3aa085d64d1ec0d9543245c5d5bb3905cb84
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 7707eec638d74c7226c69bfeccd66fdbf3bd98fa
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="availability-in-poland"></a>ポーランドの可用性
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 04/18/2018
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> |○ ワルシャワとして使用できます。 専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)」をご覧ください。  <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> |はいの場合。<br/><ul><li> ワルシャワ</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)」をご覧ください。  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用可能  <br/> |
    
 ## <a name="phone-system"></a>電話システム
@@ -62,7 +62,7 @@ ms.lasthandoff: 04/18/2018
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> | ブィドゴシュチュ <br/>  グダニスク <br/>  カトヴィツェ <br/>  クラクフ <br/>  ウッチ <br/>  ルブリン <br/>  ポズナン <br/>  シュチェチン <br/>  ワルシャワ <br/>  ヴロツワフ <br/> |
+|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |<ul><li>ブィドゴシュチュ <li>  グダニスク <li>  カトヴィツェ <li>  クラクフ <li>  ウッチ <li>  ルブリン <li>  ポズナン <li>  シュチェチン <li>  ワルシャワ <li>  ヴロツワフ </ul> |
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
    

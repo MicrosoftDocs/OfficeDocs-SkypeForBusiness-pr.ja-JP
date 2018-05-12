@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: オーストラリアの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: d3d8cab8192a29e4eebcfe7afcd140f95e695209
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: c4707423f2d816a846e6a688809e2ab6626f6d40
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="availability-in-australia"></a>オーストラリアの可用性
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 04/18/2018
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> | アデレード <br/>  ブリスベン <br/>  キャンベラ <br/>  ダーウィン <br/>  メルボルン <br/>  ニューカッスル <br/>  パース <br/>  シドニー <br/>  ウロンゴン <br/> |
+|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> | <ul><li>アデレード <li>ブリスベン <li>  キャンベラ <li>ダーウィン <li>メルボルン <li>ニューカッスル <li> パース <li>シドニー <li>ウロンゴン  |
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
    

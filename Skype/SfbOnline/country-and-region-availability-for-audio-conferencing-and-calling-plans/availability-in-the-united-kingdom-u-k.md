@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 英国の利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: 51509ecbd2f1944cb8f0406efab557756536bbcf
-ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
+ms.openlocfilehash: fd81f016ede49843a1f2ae8b431514d07ba55c5f
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>英国 (英国) の可用性
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 05/09/2018
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> |ロンドンの場合は、はい。 専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)」をご覧ください。  <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> |はいの場合。 <br/><ul><li> ロンドン</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)」をご覧ください。  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用可能  <br/> |
    
 ## <a name="phone-system"></a>電話システム
@@ -62,7 +62,7 @@ ms.lasthandoff: 05/09/2018
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> | バーミングハム <br/>  ボルトン <br/>  ボーンマス <br/>  ブラッドフォード <br/>  ブライトン <br/>  ブリストル <br/>  コベントリー <br/>  ハル <br/>  リーズ <br/>  レスター <br/>  リバプール <br/>  ロンドン <br/>  マンチェスター <br/>  ニューカッスル <br/>  ノッティンガム <br/>  プリマス <br/>  シェフィールド <br/>  ストークオントレント <br/>  ティーズサイド (ミドルスブラ) <br/> |
+|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |<ul><li>バーミングハム <li>  ボルトン <li>  ボーンマス <li>  ブラッドフォード <li>  ブライトン <li>  ブリストル <li>  コベントリー <li>  ハル <li>  リーズ <li>  レスター <li>  リバプール <li>  ロンドン <li>  マンチェスター <li>  ニューカッスル <li>  ノッティンガム <li>  プリマス <li>  シェフィールド <li>  ストークオントレント <li>  ティーズサイド (ミドルスブラ) </ul> |
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
    

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: この資料では、Skype ルーム システム v2 をサポートするための要件について説明します。
-ms.openlocfilehash: 0fb1fbcde28c343787967485dd6cae36491311b7
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: b1216989dd5ac18f8cd4b4f97e7be975ca7289d7
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Skype Room Systems バージョン 2 の要件
  
@@ -28,35 +28,37 @@ Skype ルーム システム v2 は、別の部屋のサイズによっては、
   
 - 32 GB またはより大きい USB ディスク 10 企業の Windows のブート可能な Windows インストール メディアとして構成します。 
     
-- 次のいずれかのタブレット:
+- タブレットまたはコンソールは、次のいずれかです。
     
 **サポートされているタブレット**
-
-
-|**タブレット**|**プロセッサ**|**RAM**|**ディスク**|
+|タブレット|プロセッサ|RAM|ディスク|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 4 & sup1;  <br/> |Core i5  <br/> |4 GB  <br/> |128 GB  <br/> |
-|Surface Pro 4 & sup1;  <br/> |Core i5  <br/> |8 GB  <br/> |256 GB  <br/> |
-|Surface Pro & sup1; <br/> |Core i5  <br/> |4 GB  <br/> |128 GB  <br/> |
-|Surface Pro & sup1; <br/> |Core i5  <br/> |8 GB  <br/> |256 GB  <br/> |
-|Surface Pro & sup1; <br/> |Core i7  <br/> |8 GB  <br/> |128 GB  <br/> |
-|Surface Pro & sup1; <br/> |Core i7  <br/> |16 GB  <br/> |512 GB  <br/> |
-|Surface Pro & sup1; <br/> |Core i7  <br/> |16 GB  <br/> |1 TB  <br/> |
+|Surface Pro 4    |Core i5  |4 GB  |128 GB  |
+|Surface Pro 4    |Core i5  |8 GB  |256 GB  |    
+|Surface Pro (2017)  |Core i5  |4 GB  |128 GB  |
+|Surface Pro (2017)  |Core i5  |8 GB  |256 GB  |
+|Surface Pro (2017)  |Core i7  |8 GB  |128 GB  |
+|Surface Pro (2017)  |Core i7  |16 GB  |512 GB  |
+|Surface Pro (2017) |Core i7  |16 GB  |1 TB  |
    
-& sup1;-M3 コアは、このモデルではサポートされていません。
+> [!NOTE]
+> M3 プロセッサはサポートされていません。
+
+**サポートされているコンソール**
+|コンソール|プロセッサ|RAM|ディスク|
+|:-----|:-----|:-----|:-----|
+|[Lenovo ハブ 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8 GB  |128 GB  |  
+ <!-- HP dock is still pending  -->  
     
- 
+- 会議にタブレットをセキュリティで保護する次のようなドッキング ステーション オプションのいずれかのルームのテーブルです。 
     
-- 会議室のテーブルにタブレットを固定するためのオプションとして、次のドッキング ステーションのいずれか 1 つ。 
-    
-  - [Logitech (ロジクール) SmartDock](https://www.logitech.com/en-us/product/smartdock)
+  - [Logitech (ロジクール) SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
     
   - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
     
   - [ポリコム MSR シリーズ](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
-  - [Lenovo ハブ 500](https://www3.lenovo.com/us/en/hub500)  
-<!-- HP dock is still pending  -->  
+
  
 **オーディオおよびビデオの USB の周辺機器のファームウェアのバージョンの認定**
 |**Skype ルーム システム v2 の周辺機器**|**ファームウェアのバージョンの Skype ルーム システム v2 の認定**|
@@ -133,7 +135,7 @@ Skype ルーム システム v2 の独自のイメージを作成する次のダ
     
 これらのダウンロードは、特定の方法で起動可能な Windows インストール メディアのディスクに結合する必要があります[Skype ルーム システム v2 のコンソールの構成](../../deploy/deploy-clients/console.md)で詳細に説明します。 
   
-さらに、Skype ルーム システム v2 のアカウントを準備するための[Powershell スクリプト](https://go.microsoft.com/fwlink/?linkid=870105)のコピーを必要があります。
+さらに、 [SkypeRoomProvisioningScript.ps1](../../deploy/deploy-clients/room-systems-v2-scripts.md)、Skype ルーム システム v2 のアカウントをプロビジョニングするために使用のコピーを必要があります。
   
 ## <a name="see-also"></a>関連項目
 

@@ -12,11 +12,11 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: この記事では、Skype Room Systems バージョン 2 コンソール デバイスとその周辺機器の設定方法を説明します。
-ms.openlocfilehash: b9b786de35af63202b168b0664440d28302492e5
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b82343f98304b0607bb3525b508aecf81e80a031
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Skype Room Systems バージョン 2 コンソールを構成する
  
@@ -49,7 +49,7 @@ Surface Pro 4 または Surface Pro の Skype ルーム システム v2 のア�
 > Windows 10 企業記念日を更新、Windows ストアを使用して Skype ルーム システム v2 更新 3 への移動で既存の Skype ルーム システム v2 機能しますが、次のように、新規インストールを行う必要があります。 
   
 1. [MSU](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu)をダウンロードします。
-2. [CreateSrsMedia.ps1 スクリプト](https://go.microsoft.com/fwlink/?linkid=867842)をダウンロードします。
+2. [CreateSrsMedia.ps1 スクリプト](room-systems-v2-scripts.md)をダウンロードします。
 3. MSU を KB4056892 の CreateSrsMedia.ps1 スクリプトと同じディレクトリに配置します。
 4. 10 の Windows コンピューターで管理者特権のプロンプトから CreateSrsMedia.ps1 スクリプトを実行します。
 
@@ -164,7 +164,7 @@ Skype ルーム システムのバージョン 2 のデバイスは、ビジネ�
 
 1. CA 証明書をお使いのコンピューターにダウンロードして、C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer に保存します。
     
-2. 管理者モードでサーフェスの 4 を配置する ([管理者モードとデバイスの管理](../../manage/skype-room-systems-v2/skype-room-systems-v2.md#AdminMode)を参照してください)。
+2. 管理者モードでサーフェスの 4 を配置する ([管理者モードとデバイスの管理](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#AdminMode)を参照してください)。
     
 3. 次のコマンドを実行します。
     
@@ -175,11 +175,11 @@ Skype ルーム システムのバージョン 2 のデバイスは、ビジネ�
 ### <a name="join-an-active-directory-domain-optional"></a>Active Directory のドメインに参加します (オプション)
 <a name="Certs"> </a>
 
-Skype ルーム システム v2 のデバイスは、ドメインに参加できます。 Skype ルーム システム v2 のデバイスは、多くのワークステーションのポリシーは Skype ルーム システム v2 と互換性がないため PC ワークステーションから別の OU に配置してください。 一般的な例は、パスワードの強制ポリシー Skype ルーム システム v2 が自動的に起動できなくなります。 GPO の設定の管理方法については、 [Skype ルームの管理のシステムのバージョン 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)を参照してください。 
+Skype ルーム システム v2 のデバイスは、ドメインに参加できます。 Skype ルーム システム v2 のデバイスは、多くのワークステーションのポリシーは Skype ルーム システム v2 と互換性がないため PC ワークステーションから別の OU に配置してください。 一般的な例は、パスワードの強制ポリシー Skype ルーム システム v2 が自動的に起動できなくなります。 GPO の設定の管理方法については、 [Skype ルームの管理のシステムのバージョン 2](../../manage/skype-room-systems-v2/room-systems-v2-operations.md)を参照してください。 
   
 ### <a name="to-join-skype-room-system-v2-to-a-domain"></a>Skype Room System バージョン 2 をドメインに参加させるには
 
-1. では、管理コンソールに記号 ([管理者モードとデバイスの管理](../../manage/skype-room-systems-v2/skype-room-systems-v2.md#AdminMode)を参照してください) を考慮します。
+1. では、管理コンソールに記号 ([管理者モードとデバイスの管理](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#AdminMode)を参照してください) を考慮します。
     
 2. 管理者特権で Powershell コマンド プロンプトを起動します。
     

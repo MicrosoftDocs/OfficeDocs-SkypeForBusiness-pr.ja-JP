@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: フランスの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: 27b20b58acd55329be1fc748b980d19ff2d8ce28
-ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
+ms.openlocfilehash: d9149fdf8f2c220526164b2f3244359ab60dda8b
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="availability-in-france"></a>フランスの可用性
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 05/09/2018
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> |パリの場合は、はい。 専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)」をご覧ください。  <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> |はいの場合。<br/><ul><li> パリ</ul> 専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)」をご覧ください。  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用可能  <br/> |
    
 ## <a name="phone-system"></a>電話システム
@@ -62,7 +62,7 @@ ms.lasthandoff: 05/09/2018
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> | アンジェ <br/>  ボルドー <br/>  カルカソンヌ <br/>  ディジョン <br/>  グルノーブル <br/>  ル・アーヴル <br/>  リール <br/>  リヨン <br/>  マルセイユ <br/>  モンペリエ <br/>  ナント <br/>  ニース <br/>  パリ <br/>  ランス <br/>  レンヌ <br/>  サン-テティエンヌ <br/>  ストラスブール <br/>  トゥーロン <br/>  トゥールーズ <br/> |
+|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> | <ul><li>アンジェ <li>  ボルドー <li>  カルカソンヌ <li>  ディジョン <li>  グルノーブル <li>  ル・アーヴル <li>  リール <li>  リヨン <li>  マルセイユ <li>  モンペリエ <li>  ナント <li>  ニース <li>  パリ <li>  ランス <li>  レンヌ <li>  サン-テティエンヌ <li>  ストラスブール <li>  トゥーロン <li>  トゥールーズ </ul> |
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
    
