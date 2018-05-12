@@ -77,6 +77,7 @@
 ### [電話システムの通話キューを作成する](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Skype for Business Online を利用できる電話機の取得](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Skype for Business Online 電話機の展開](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
+###[共通領域電話 (CAP) を設定します。](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
 ### [Skype for Business および Microsoft Teams のサービス電話番号の取得](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 ### [電話システムで利用できる機能](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
 ### 電話システムのボイスメール

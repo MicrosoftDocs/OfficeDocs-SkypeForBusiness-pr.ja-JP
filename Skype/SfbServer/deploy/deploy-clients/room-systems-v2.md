@@ -13,11 +13,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Skype ルーム システム v2 の展開方法については、この資料を参照してください。
-ms.openlocfilehash: 4ca621e17ea00a1f7f75ae0c34a1404f8962896c
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: e87d6563b155131a2eee1e08653c9320777b842b
+ms.sourcegitcommit: 6b868f683e1f2354eb42fdf33911e77b7a3a83e2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="deployment-overview"></a>展開の概要
 
