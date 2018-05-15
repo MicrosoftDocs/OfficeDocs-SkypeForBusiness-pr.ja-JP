@@ -66,6 +66,9 @@
 ###### [更新 CcCACertificate](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/update-cccacertificate.md)
 ###### [更新 CcServerCertificate](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/update-ccservercertificate.md)
 ##### [クラウドのコネクタの配置をトラブルシューティングします。](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/troubleshoot-your-cloud-connector-deployment.md)
+#### マイクロソフトの電話システムは直接ルーティング計画
+##### [直接ルーティングを計画します。](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-direct-routing.md)
+##### [直接ルーティングを構成します。](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-direct-routing.md)
 ### [ハイブリッド接続を計画します。](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)
 ### [ハイブリッド接続を展開します。](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
 #### [Skype でオンライン ビジネスのフェデレーションを構成します。](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md)
