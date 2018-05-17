@@ -10,8 +10,8 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft 電話システム直接ルーティングを使用する方法マイクロソフトの電話システムに、サポートされている、お客様が用意したセッション ボーダー コント ローラー (SBC) の接続については、このトピックを参照してください。
-ms.openlocfilehash: 9809c4acb5d80f18dc076b07e81c052caa6fbc0d
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 3e7a0899fd7a79003a522d59fe1f4f7508978a51
+ms.sourcegitcommit: 0d584174263c044c2ba12e32d2c924349226075c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/17/2018
@@ -190,9 +190,9 @@ SBC では、sip.pstnhub.microsoft.com を解決するための DNS クエリを
 |第 3 データ センター (sip3.pstnhub.microsoft.com)|アジア|アジア|EU|
 |||||
 
-## <a name="media-traffic-ip-addresses-and-port-ranges"></a>メディア トラフィック: IP アドレスとポートの範囲
+## <a name="media-traffic-port-ranges"></a>メディア トラフィック: ポートの範囲
 
-メディア トラフィックは、マイクロソフトのクラウド内の個別のサービスとの間をフローします。 メディア プロセッサの IP の範囲は、次の表で示されます。
+メディア トラフィックは、マイクロソフトのクラウド内の個別のサービスとの間をフローします。 メディア プロセッサのポートの範囲は、次の表で示されます。 
 
 |**トラフィック**|**[開始]**|**[終了]**|**発信元ポート**|**宛先ポート**|
 |:--- |:--- |:--- |:--- |:--- |
