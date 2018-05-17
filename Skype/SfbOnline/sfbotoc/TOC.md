@@ -146,11 +146,12 @@
 ### [Skype for Business Online 向けのプロキシ サーバー](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
 
 ## 組織での通話品質の使用
+### [呼び出しを分析し、通話品質のダッシュ ボード](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
 ### [通話品質ダッシュボードで利用できるディメンションとメジャー](../using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Skype for Business の通話分析をセットアップする](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [通話品質ダッシュボードをオンにして使用する](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
 ### [通話分析を使用して低い通話品質をトラブルシューティングする](../using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [通話分析と通話品質ダッシュボードの違いについて](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
+
 
 ## [Skype for Business Online のレポート](../skype-for-business-online-reporting/skype-for-business-online-reporting.md)
 ### [アクティビティ レポート](../skype-for-business-online-reporting/activity-report.md)
