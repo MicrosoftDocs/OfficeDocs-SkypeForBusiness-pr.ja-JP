@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: (プエルトリコ) の利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: 92bde6e252f750a065e0068e18f1003f4efdcb49
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 8032f38bf51db5762e0256e4aadb005b6b7caf8a
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="availability-in-puerto-rico"></a>プエルトリコでの可用性
 
@@ -56,6 +56,7 @@ ms.lasthandoff: 04/18/2018
 |:-----|:-----|
 |通話プランは購入できますか?  <br/> |はい  <br/> |
 |通話プランで利用可能な通話分数  <br/> |3000 分の国内通話または 600 分の国際通話 (いずれかがその月で達するまで)。米国での国内通話に該当するのは、米国の 50 州すべてとプエルトリコへの通話です。割り当てられたライセンスの利用場所が米国および/またはプエルトリコであるユーザーは、同じ利用時間量を共有します。  <br/> |
+|プレミアム番号への発信コールを行うことができますでしょうか。 <br/> | この時点ではサポートされていません。 <br/> |
 |発信通話を行うことができますか?  <br/> | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号

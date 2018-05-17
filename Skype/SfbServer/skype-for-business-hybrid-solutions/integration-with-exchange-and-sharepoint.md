@@ -17,11 +17,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: '概要: は、Exchange と SharePoint サーバー 2015 のビジネス統合のための Skype について説明します。'
-ms.openlocfilehash: 12f6974a6a0d3641242eda072332667ece31c72a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 51943ac3b67ec204429a1970836f03f04acec0d5
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Exchange と SharePoint との統合
  
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/03/2018
   
  **社内のビジネス サーバーと社内の Exchange の Skype**
   
-| |
+
 |**機能**|**メモ**|
 |:-----|:-----|
 |Outlook での IM/プレゼンス  <br/> |詳細については、 [IM およびプレゼンス](http://technet.microsoft.com/library/6a93ae95-3b64-410b-ab72-74dea232f065.aspx)を参照してください。  <br/> |
@@ -55,7 +55,7 @@ ms.lasthandoff: 05/03/2018
    
  **社内のビジネス サーバーと Exchange のオンラインの Skype**
   
-| |
+
 |**機能**|**メモ**|
 |:-----|:-----|
 |Outlook での IM/プレゼンス  <br/> |詳細については、[設置型の Skype ビジネス サーバー 2015 と Outlook Web App の構成の統合](../deploy/integrate-with-exchange-server/outlook-web-app.md)を参照してください。 <br/> |
@@ -75,7 +75,7 @@ ms.lasthandoff: 05/03/2018
    
  **オンライン ビジネスとの社内の Exchange の Skype**
   
-| |
+ 
 |**機能**|**メモ**|
 |:-----|:-----|
 |Outlook でのプレゼンス  <br/> ||
@@ -92,7 +92,7 @@ ms.lasthandoff: 05/03/2018
    
  **ビジネスをオンラインで Skype および Exchange オンライン**
   
-| |
+
 |**機能**|**メモ**|
 |:-----|:-----|
 |Outlook での IM/プレゼンス  <br/> ||

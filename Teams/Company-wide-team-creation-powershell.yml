@@ -6,7 +6,6 @@ metadata:
   audience: IT Pro
   level: Intermediate
   displayType: one-column
-  interactive: azurecli
   ms.author: ninadara
   manager: serdars
   ms.date: 02/07/2018
@@ -14,11 +13,11 @@ metadata:
   ms.topic: tutorial
   localization_priority: Priority
   ms.collection: Strat_MT_TeamsAdmin
-  ms.openlocfilehash: bd9a5e04709b49703de43af48794115c9a48604e
-  ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+  ms.openlocfilehash: b7f90cb375e775d56ecc6ec523218744ae695792
+  ms.sourcegitcommit: 8ceb230c058471210b89449dde0034300e6c4da1
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 05/03/2018
+  ms.lasthandoff: 05/16/2018
 items:
 - durationInMinutes: 3
   content: "\nこのトレーニングでは、Teams で会社全体にわたるパブリックなチームを作成する PowerShell スクリプトを提供します。 このスクリプトでは会社全体にわたるパブリックなチームを作成するために、MicrosoftTeams PowerShell モジュール (現在ベータ版) を使用します。 また、テナント内のユーザーのリストを取り込むために、AzureAD PowerShell モジュールも使用します。 \n\nこれは、いくつかの簡単な PowerShell コマンドを少し触れてこの強力なエンタープライズ ツールに慣れ親しもうという場合の手始めとして最適です。 PowerShell は、AzureAd グループのその他の側面の管理における主要コンポーネントで、Teams でチームを作成できるユーザーを管理する方法となるグループ作成の制御も含んでいます。 \n\n### <a href=\"https://docs.microsoft.com/MicrosoftTeams/scripts/powershell-script-sample-create-company-wide-team\" target=\"_blank\">下向き矢印: PowerShell スクリプトを取得する</a>\n\n> [!IMPORTANT]\n> この PowerShell スクリプトは、最初の 2500 人のメンバーのみをチームに追加します。 2500 が現時点でのチームの大きさの制限となります。 \n\n\nこのトレーニングは、チームの作成を自動化しようとしている IT 管理者または Teams ユーザーを対象としています。 学習内容:  \n- PowerShell での関連モジュールのインストール方法\n- スクリプトの使用方法 \n\n次の内容は取り上げません。\n1. PowerShell について深入りした説明。 PowerShell スクリプトを準備して実行できるようになるために必要な PowerShell の情報のみを含めています。 詳細については、「<a href=\"https://docs.microsoft.com/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-5.1\" target=\"_blank\">Windows PowerShell ファースト ステップ ガイド</a>」をご覧ください。\n2. <a href=\"https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0\" target=\"_blank\">AzureAD</a> モジュールの機能性。 この PowerShell スクリプトは、テナント内のユーザーを取り込む 1 つのコマンドのために AzureAD モジュールを使用します。 \n3. <a href=\"https://github.com/MicrosoftDocs/office-docs-powershell/tree/master/teams/teams-ps/teams\" target=\"_blank\">MicrosoftTeams</a> モジュールのコマンドレット。 \n4. PowerShell スクリプトの行ごとの詳しい解説。 \n\n\nこのトレーニングに関する質問やフィードバックの送信方法:\n  - このチュートリアルの「[次のステップ](company-wide-team-creation-powershell.yml#step-7) 」ページの下部にあるコメント セクションから投稿してください\n  - [AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Create company-wide team using PowerShell) 宛にメールを送信してください\n  - 機能のリクエストなど、製品に関するフィードバックを提供する場合は、<a href=\"https://aka.ms/TeamsUserVoice\" target=\"_blank\">UserVoice</a> に移動してください。\n"

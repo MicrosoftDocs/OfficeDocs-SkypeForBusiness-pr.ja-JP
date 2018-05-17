@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 米国の利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: 5ecc646fc00725d05c2623d0097b236ee4ff1f80
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: b1d5f66f1ebb63553904a9b1992bf9e08d46a98a
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="availability-in-the-united-states-us"></a>米国 (米国) の可用性
 
@@ -56,6 +56,7 @@ ms.lasthandoff: 05/11/2018
 |:-----|:-----|
 |通話プランは購入できますか?  <br/> |はい  <br/> |
 |分の計画を呼び出すに使用できます。 |1 か月間利用は 4 つのプランのオプションがあります。 <ul><li>120 分の国内を呼び出す計画 (可用性は制限されている)</li><li>240 分、国内の呼び出しを計画 (可用性は制限されている)</li></li><li>3000 分の国内を呼び出すことを計画 </li></li><li>国内および国際を呼び出す計画を 600 分</li></li> 
+|プレミアム番号への発信コールを行うことができますでしょうか。 <br/> | この時点ではサポートされていません。 <br/> |
 |発信通話を行うことができますか?  <br/> | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。<br/> |
 >[!Note] 
 > 米国での国内通話に該当するのは、米国の 50 州すべてとプエルトリコへの通話です。 割り当てられたライセンスの利用場所が米国および/またはプエルトリコであるユーザーは、同じ利用時間量を共有します。

@@ -6,7 +6,6 @@ metadata:
   audience: IT Pro
   level: Intermediate
   displayType: one-column
-  interactive: azurecli
   ms.author: chucked
   manager: serdars
   ms.reviewer: ninadara
@@ -18,11 +17,11 @@ metadata:
   - NewAdminCenter_Update
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: b116f2c11de898791446bfe66de8e6f6bbde3d44
-  ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+  ms.openlocfilehash: 9be006d1bdde292d5160021cc3c34ea847582278
+  ms.sourcegitcommit: 8ceb230c058471210b89449dde0034300e6c4da1
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 05/11/2018
+  ms.lasthandoff: 05/16/2018
 items:
 - durationInMinutes: 2
   content: "\nMicrosoft Teams では、クラスルームでの共同作業環境の創出、プロフェッショナルの学習コミュニティへの接続、教員と学生のコミュニケーションをすべて Office 365 Education の単一のエクスペリエンスで実現することができます。\n\n\nこのガイドは、Teams をまだ導入していない教育機関の IT 管理者向けです。 このガイドでは以下の項目について説明します。 \n- 学校で Teams を正常に利用できるようにする方法\n- 学校内で Teams を管理するために利用できる制御機能\n- 外部資料への参照によって紹介するパートナー サービス \n\nこのガイドでは、学校で Teams を利用する場合に推奨される設定について説明します。 このガイドでは、すべての状況に対応できるソリューションが提供されているわけではありませんが、Teams の利用を開始するにあたって役に立つ情報が記載されています。 Teams に関する包括的な情報については、「[Teams の概要](Teams-overview.md)」からお読みになることをお勧めします。 \n\nTeams (パイロットまたは完全展開) をすでに導入している場合は、「[教育用 Microsoft Teams](https://support.office.com/article/Microsoft-Teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)」をご覧ください。\n\n## <a name=\"before-you-begin\"></a>始める前に\n\n1. [Teams の導入に向けた環境の準備を確認する](environment-readiness.md)\n2. [学校のデータの同期を展開する](https://docs.microsoft.com/en-us/SchoolDataSync)チームを自動的に作成する教師を簡単にすることを検討してください。\n3. Teams で使用するポートとプロトコルを正しく設定します。 [Office 365 の URL と IP アドレスの範囲](office-365-urls-ip-address-ranges.md)をご覧ください。\n4. [Teams 用に学校のネットワークを準備する](prepare-network.md)\n5. 教育用 Teams では、3 つの新しいチームが用意されています (合計 4 つのチーム)。 チームの各種類の違いと使用例については、「[Microsoft Teams で共同作業を行うチームの種類を選択する](https://support.office.com/article/Choose-a-team-type-to-collaborate-in-Microsoft-Teams-0a971053-d640-4555-9fd7-f785c2b99e67)」をご覧ください。\n\n[comment]: <> (TODO Placeholder: 「パートナーになること」に関するセクション、ダウンロード センターにアップロードされたパートナー戦略のドキュメントへのリンクを追加する)\n"
