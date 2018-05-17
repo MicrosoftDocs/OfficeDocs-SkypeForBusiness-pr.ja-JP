@@ -18,11 +18,11 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 設定し、分析機能の呼び出しを使用して特定し、Skype のビジネスおよびマイクロソフトのチームの通話品質の問題に関するトラブルシューティングを行います。
-ms.openlocfilehash: 6e4566198e140c94da40f4db1a890eb4190d5da3
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 0fea9e37933908ef64f1b2eb100f3851f84a6690
+ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="set-up-skype-for-business-call-analytics"></a>ビジネス分析の電話の Skype を設定します。
 
@@ -89,7 +89,7 @@ Skype ビジネス管理者の場合は、ビジネス オンライン コール
 
 [通話分析を使用して Skype for Business の低い通話品質をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[通話分析と通話品質ダッシュボードの違い](difference-between-call-analytics-and-call-quality-dashboard.md)
+[呼び出しを分析し、通話品質のダッシュ ボード](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  
