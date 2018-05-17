@@ -25,7 +25,7 @@
 ## [通話品質ダッシュボードで利用できるディメンションとメジャー](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Skype for Business の通話分析をセットアップする](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [通話分析を使用して Skype for Business の低い通話品質をトラブルシューティングする](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [通話分析と通話品質ダッシュボードの違い](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [呼び出しを分析し、通話品質のダッシュ ボード](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
 
@@ -50,7 +50,6 @@
 ## [Teams で使用する Exchange ハイブリッド展開の組織を構成する](exchange-hybrid-organization.md)
 ## [Teams SMTP ドメインを承認済みドメインとして Exchange Online に追加する](smtp-accepted-domain.md)
 ## [Outlook で Teams の会議アドインを使用する](teams-add-in-for-outlook.md)
-
 
 
 
@@ -122,10 +121,10 @@
 
 ## 通話品質と QoS を監視する
 ### [Teams でのサービス品質 (QoS)](QoS-in-Teams.md)
+### [呼び出しを分析し、通話品質のダッシュ ボード](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [通話品質ダッシュボードで利用できるディメンションとメジャー](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Skype for Business の通話分析をセットアップする](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [通話分析を使用して Skype for Business の低い通話品質をトラブルシューティングする](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [通話分析と通話品質ダッシュボードの違い](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
 ## 電話会議
