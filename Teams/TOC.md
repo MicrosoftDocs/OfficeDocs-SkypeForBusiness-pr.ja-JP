@@ -7,6 +7,7 @@
 ## [Teams 用に組織のネットワークを準備する](prepare-network.md)
 ## [Office 365 の URL と IP アドレスの範囲](Office-365-URLs-IP-address-ranges.md)
 ## [制限とチームの仕様](limits-specifications-teams.md)
+## [変更管理戦略を作成します。](change-management-strategy.md)
 
 
 
@@ -253,6 +254,7 @@
 ### [チュートリアル: PowerShell を使用して会社全体のチームを作成する](company-wide-team-creation-powershell.yml)
 
 ## 管理
+### [レビュー ガイドの経験の質](quality-of-experience-review-guide.md)
 ### [Teams 用に組織のネットワークを準備する](prepare-network.md)
 ### [ツールとワークショップ: Teams の計画、提供、運用](planning-workshop-practical-guide.md)
 ### [Teams の展開の概要](deployment-overview.md)
