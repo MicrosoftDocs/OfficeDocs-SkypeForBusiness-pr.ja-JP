@@ -17,11 +17,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: '概要: は、Skype のビジネス サーバーとビジネス オンラインの Skype との間のハイブリッドの接続を計画する方法については、このトピックを読みます。 多くの Skype for Business ハイブリッド ソリューションを展開する上で、ハイブリッド接続の設定は最初に行う手順となります。'
-ms.openlocfilehash: ef2ecb665baf5942d1ad9ee9d5175192e348a2f6
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: dbd7d2e00bf31b926ec4d54a0717c000459e8479
+ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Skype for Business Server と Skype for Business Online 間のハイブリッド接続を計画する
  
@@ -298,10 +298,10 @@ Microsoft Online Services のデータ ・ センターの場所、によって�
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |SIP (MTLS)  <br/> |TCP  <br/> |アクセス エッジ  <br/> |Office 365  <br/> |任意  <br/> |5061  <br/> |信号  <br/> |
 |SIP (MTLS)  <br/> |TCP  <br/> |Office 365  <br/> |アクセス エッジ  <br/> |任意  <br/> |5061  <br/> |信号  <br/> |
-|STUN  <br/> |TCP  <br/> |音声ビデオ エッジ  <br/> |Office 365  <br/> |50000 - 59999  <br/> |443、50000 - 59999  <br/> |音声、ビデオ、アプリケーション共有セッションで開く  <br/> |
-|STUN  <br/> |TCP  <br/> |Office 365  <br/> |音声ビデオ エッジ  <br/> |443  <br/> |50000 - 59999  <br/> |音声、ビデオ、アプリケーション共有セッションで開く  <br/> |
+|STUN  <br/> |TCP  <br/> |音声ビデオ エッジ  <br/> |Office 365  <br/> |50000 - 59999  <br/> |443  <br/> |音声、ビデオ、アプリケーション共有セッションで開く  <br/> |
+|STUN  <br/> |TCP  <br/> |Office 365  <br/> |音声ビデオ エッジ  <br/> |任意  <br/> |443  <br/> |音声、ビデオ、アプリケーション共有セッションで開く  <br/> |
 |STUN  <br/> |UDP  <br/> |音声ビデオ エッジ  <br/> |Office 365  <br/> |3478  <br/> |3478  <br/> |音声、ビデオセッションで開く  <br/> |
-|STUN  <br/> |UDP  <br/> |Office 365  <br/> |音声ビデオ エッジ  <br/> |3478  <br/> |3478  <br/> |音声、ビデオセッションで開く  <br/> |
+|STUN  <br/> |UDP  <br/> |Office 365  <br/> |音声ビデオ エッジ  <br/> |任意  <br/> |3478  <br/> |音声、ビデオセッションで開く  <br/> |
    
 ポートとファイアウォールがエッジ サーバーの計画に関する詳細については、 [Skype のビジネス サーバー 2015 でエッジ サーバー環境の要件](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)を参照してください。 [サーバーのポートとプロトコルの要件](../plan-your-deployment/network-requirements/ports-and-protocols.md)と[プロトコルの負荷の図](http://go.microsoft.com/fwlink/p/?LinkId=550989)も参照ください。
   

@@ -1,5 +1,5 @@
 ---
-title: 通話分析と通話品質ダッシュボードの違いを教えてください
+title: 呼び出しを分析し、通話品質のダッシュ ボード
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -18,13 +18,13 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Learn about Call Analytics and Call Quality Dashboard and when to use them to monitor and troubleshoot call-quality problems in Skype for Business.
-ms.openlocfilehash: 869b4373d6e1bea65700532b52959aa2126d94d9
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: c8d73ee128425f106174ccad60a0b0c947cc07e5
+ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
-# <a name="whats-the-difference-between-call-analytics-and-call-quality-dashboard"></a>通話分析と通話品質ダッシュボードの違いを教えてください
+# <a name="call-analytics-and-call-quality-dashboard"></a>呼び出しを分析し、通話品質のダッシュ ボード
 
 [] Skype for Business では、通話品質の問題を監視してトラブルシューティングするために、通話分析と通話品質ダッシュボードという 2 つの方法を利用できます。この記事では、これらの両方について説明し、どのような場合にそれぞれの方法を使用するべきかを示します。
   
