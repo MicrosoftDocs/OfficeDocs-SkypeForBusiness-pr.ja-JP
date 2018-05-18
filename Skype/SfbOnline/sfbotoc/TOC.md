@@ -143,10 +143,9 @@
 ### [ExpressRoute を使用した通話フロー](../optimizing-your-network/call-flow-using-expressroute.md)
 ### [Skype for Business Online の ExpressRoute および QoS](../optimizing-your-network/expressroute-and-qos-in-skype-for-business-online.md)
 ### [メディアの品質とネットワーク接続性のパフォーマンス](../optimizing-your-network/media-quality-and-network-connectivity-performance.md)
-### [Skype for Business Online 向けのプロキシ サーバー](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
+### [Skype for Business Online 向けのプロキシ サーバー](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md) 
 
-## 組織での通話品質の使用
-### [呼び出しを分析し、通話品質のダッシュ ボード](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
+## [呼び出しを分析し、通話品質のダッシュ ボード](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
 ### [通話品質ダッシュボードで利用できるディメンションとメジャー](../using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Skype for Business の通話分析をセットアップする](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [通話品質ダッシュボードをオンにして使用する](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
