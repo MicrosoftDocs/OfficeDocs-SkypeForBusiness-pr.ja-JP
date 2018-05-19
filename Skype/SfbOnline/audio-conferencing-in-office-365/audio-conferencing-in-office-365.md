@@ -17,11 +17,11 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: c43a49ee62fe20d8f74e0968a13ef7f40d6a3eaf
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 4157485cc29334585430701b703218217663bb24
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="audio-conferencing-in-office-365"></a>Office 365 での電話会議
 Office 365 での音声会議では、電話から会議の呼び出しすることができます。 オーディオ会議では、最大で 250 の電話の参加者を使用できます。
@@ -46,9 +46,9 @@ Office 365 での音声会議では、電話から会議の呼び出しするこ
 ## <a name="where-is-it-available"></a>場所があることでしょうか。
 オーディオ会議では、ユーザーが有料電話番号と無料電話番号を使用して会議にダイヤルインすることができます。 (サービス) の有料電話番号は、電話会議には有効にしているときに自動的に組織に共有の電話会議の番号として割り当てられます。 専用の有料電話番号および無料電話番号は、追加の都市から組織に割り当てることができます。
 
-フリー ダイヤル電話番号 (サービス番号) とは、使用できないが、一部の国/地域でのみです。 国または地域で使用可能なを参照してくださいに移動[ここ](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
+フリー ダイヤル電話番号 (サービス番号) とは、使用できないが、一部の国/地域でのみです。 国または地域で使用可能なを表示するには、[オーディオ会議や予定を呼び出すための国および地域の可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を参照してください。
 
-電話会議が組織に必要であると判断したら、**電話会議**のライセンスを、電話会議をスケジュール設定または開催する組織内のユーザーごとに 1 つずつ購入する必要があります。
+オーディオ会議、組織の目的を決定したら、組織内のユーザーが、オーディオ会議のスケジュールおよびホストする場合、各ユーザーの**電話会議**の 1 つのライセンスを購入する必要があります。
 
 ## <a name="how-do-conferencing-bridges-work"></a>会議用ブリッジの動作ですか。
 ビジネスまたはマイクロソフトのチームの Skype の電話会議を設定は、ときに、オーディオ会議ブリッジが表示されます。 会議用ブリッジは、1 つまたは複数の電話番号を含めることができます。 設定した電話番号はビジネスおよびマイクロソフトのチームのアプリケーションの Skype の会議の招待に含まれます。 [会議用ブリッジは、上の電話番号を変更](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)することができ、[他のオーディオ会議ブリッジの設定を変更](change-the-settings-for-an-audio-conferencing-bridge.md)することもします。 
@@ -87,7 +87,7 @@ Office 365 での音声会議では、電話から会議の呼び出しするこ
 - **新しい番号の要求フォームを使用します。** 場合があります (国または地域) によってことはできません、Skype を使用するビジネス管理センターでは、新しい電話番号を取得するか、特定の電話番号または市外局番が必要です。 その場合は、フォームをダウンロードして記入してからマイクロソフトに返送する必要があります。 詳細については[、組織の電話番号の管理](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)を参照してください。
 
 ## <a name="how-do-you-set-it-up"></a>方法の操作を行いますを設定することでしょうか。
-手順に従うことができます、ユーザーの電話会議を設定するを決定したら、[ここで](set-up-audio-conferencing.md)これを行う。
+ユーザーの電話会議を設定することにしました後、は、手順についてはこれを行うには、[ビジネスおよびマイクロソフトのチームに Skype の電話会議を設定](set-up-audio-conferencing.md)を参照してください。
 
 ## <a name="related-topics"></a>関連トピック
 

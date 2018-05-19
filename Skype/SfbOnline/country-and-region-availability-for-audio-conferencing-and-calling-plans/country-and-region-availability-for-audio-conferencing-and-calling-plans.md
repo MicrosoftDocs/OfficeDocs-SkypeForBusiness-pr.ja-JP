@@ -23,11 +23,11 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 国/地域を選択して、電話会議、電話システム、通話プラン、コミュニケーション クレジット、および有料電話番号と無料電話番号を利用できるかどうかを確認できます。
-ms.openlocfilehash: 5707784f04dc52697ecd3d65b4c48ec105d10247
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: c106f90cee586fccbeb87b9b45757691191b449e
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>国および地域ごとの電話会議および通話プランの利用可能性
 
@@ -163,7 +163,7 @@ Skype for Business または Microsoft Teams サービスの 1 つが利用で�
 ### <a name="phone-system"></a>電話システム
 電話システムでは、自分の組織の着信通話に応答させるために (有料電話番号または無料電話番号で) 自動応答や通話キューを作成することができます。また、ユーザーのために通話プランを追加すると、それらのユーザーは Skype for Business を使用して通話の発信と受信、通話の転送、ミュートとミュートの解除などの基本的な通話制御タスクを処理できるようになります。 **電話システム**のユーザーがアドレス帳の名前をクリックすると、Skype for Business によってその連絡先に通話が発信されます。 **電話システム**のユーザーは、Skype for Business で利用できるモバイル デバイス、ノート PC や PC のヘッドセット、さまざまな IP 電話を使って、通話の発信と受信を行うことができます。
 
-Office 365 から個々のユーザーの電話番号を取得することに加えて、電話会議 (会議ブリッジ用) や、自動応答および通話キューといったサービスのための有料電話番号または無料電話番号を検索して取得することもできます。 これらはサービス番号と呼ばれます。 電話番号を取得[するサービスの電話番号](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)を参照してください。 ただし、自分のユーザーに対しては、通話プランの割り当て後に、ユーザーの電話番号を割り当てて通話の発信や受信をできるようにすることができます。 それらの電話番号は、[ここ](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)に移動して見つけることができます。 詳細については、「[ユーザーの電話番号の割り当て、変更、削除を行う](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)」をご覧ください。 
+Office 365 から個々のユーザーの電話番号を取得することに加えて、電話会議 (会議ブリッジ用) や、自動応答および通話キューといったサービスのための有料電話番号または無料電話番号を検索して取得することもできます。 これらはサービス番号と呼ばれます。 電話番号を取得[するサービスの電話番号](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)を参照してください。 ただし、自分のユーザーに対しては、通話プランの割り当て後に、ユーザーの電話番号を割り当てて通話の発信や受信をできるようにすることができます。 これらの電話番号を検索するには、するには、[ユーザーの電話番号を取得](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)するに移動します。 詳細については、「[ユーザーの電話番号の割り当て、変更、削除を行う](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)」をご覧ください。 
 
 [電話システムの料金](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
 

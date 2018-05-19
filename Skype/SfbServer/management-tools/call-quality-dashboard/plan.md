@@ -11,15 +11,15 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: '概要: は、コール品質のダッシュ ボードを計画する際の考慮事項について説明します。'
-ms.openlocfilehash: 25438b759e367d70df6ae09b7d4a5cc093dc1e7a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: b54b151fbf9777311af68fcba1611f2bd174a9b7
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype の通話品質のダッシュ ボードの計画
  
-**の概要:**呼び出し品質ダッシュ ボードを計画する際の考慮事項について説明します。
+**の概要:** 呼び出し品質ダッシュ ボードを計画する際の考慮事項について説明します。
   
 ## <a name="overview-of-the-skype-for-business-server-2015-call-quality-dashboard"></a>ビジネス サーバー 2015 通話品質のダッシュ ボードの Skype の概要
 
@@ -186,8 +186,8 @@ CQD は同様に、複数の QoEMetrics データベースからデータをマ�
 
 |**マシン**|**CPU コア**|**RAM**|**QoE のアーカイブと同じディスク上のキューブ**|**QoE のアーカイブと同じディスク上の SQL Temp DB**|
 |:-----|:-----|:-----|:-----|:-----|
-|仮想 mmachine  <br/> |4  <br/> |7 GB 以上  <br/> |あり  <br/> |あり  <br/> |
-|4 Ccore  <br/> |4  <br/> |20 GB  <br/> |あり  <br/> |なし  <br/> |
+|仮想マシン  <br/> |4  <br/> |7 GB 以上  <br/> |あり  <br/> |あり  <br/> |
+|4 コア  <br/> |4  <br/> |20 GB  <br/> |あり  <br/> |なし  <br/> |
 |8 コア  <br/> |8  <br/> |32 GB  <br/> |あり  <br/> |なし  <br/> |
 |16 コア  <br/> |16  <br/> |128 GB  <br/> |なし  <br/> |なし  <br/> |
    
