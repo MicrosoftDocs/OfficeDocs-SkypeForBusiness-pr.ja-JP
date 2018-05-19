@@ -34,7 +34,7 @@
 ## [Teams 用の Office 365 ライセンス](office-365-licensing.md)
 ## [Skype for Business と Teams のライセンスを割り当てる](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Skype for Business と Teams のアドオン ライセンス](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [チームの IW のトライアルをご利用を管理します。](iw-trial-teams.md)
+## [チームの業務用の試用版の提供を管理します。](iw-trial-teams.md)
 ## [組織のためにコミュニケーション クレジットをセットアップする](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [コミュニケーション クレジットについて](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 

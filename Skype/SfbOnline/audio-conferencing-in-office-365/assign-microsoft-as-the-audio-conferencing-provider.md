@@ -20,77 +20,77 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: e5e11adb4bf02e87de316d70be48b60d3ecd1d7f
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: abb9a526a73951c3b3d4326fff67dc928691e2f1
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/19/2018
 ---
-# <a name="assign-microsoft-as-the-audio-conferencing-provider"></a><span data-ttu-id="aca5d-103">Microsoft を電話会議プロバイダーとして割り当てる</span><span class="sxs-lookup"><span data-stu-id="aca5d-103">Assign Microsoft as the audio conferencing provider</span></span>
+# <a name="assign-microsoft-as-the-audio-conferencing-provider"></a><span data-ttu-id="d9d41-103">Microsoft を電話会議プロバイダーとして割り当てる</span><span class="sxs-lookup"><span data-stu-id="d9d41-103">Assign Microsoft as the audio conferencing provider</span></span>
 
-<span data-ttu-id="aca5d-104">Skype で Office 365 に電話会議を使用して、ビジネスおよびマイクロソフトのチーム、組織内のユーザーは各自に割り当てられた電話会議のライセンスを取得する必要があります。</span><span class="sxs-lookup"><span data-stu-id="aca5d-104">To use Audio Conferencing in Office 365 with Skype for Business and Microsoft Teams, users in your organization need to have an Audio Conferencing license assigned to them.</span></span> <span data-ttu-id="aca5d-105">ライセンスと、必要なコストの詳細については、 [Office 365 に電話会議を購入するか](try-or-purchase-audio-conferencing-in-office-365.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="aca5d-105">See [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365.md) to get more information on licensing and how much it costs.</span></span>
+<span data-ttu-id="d9d41-104">Skype で Office 365 に電話会議を使用して、ビジネスおよびマイクロソフトのチーム、組織内のユーザーは各自に割り当てられた電話会議のライセンスを取得する必要があります。</span><span class="sxs-lookup"><span data-stu-id="d9d41-104">To use Audio Conferencing in Office 365 with Skype for Business and Microsoft Teams, users in your organization need to have an Audio Conferencing license assigned to them.</span></span> <span data-ttu-id="d9d41-105">ライセンスと、必要なコストの詳細については、 [Office 365 に電話会議を購入するか](try-or-purchase-audio-conferencing-in-office-365.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d9d41-105">See [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365.md) to get more information on licensing and how much it costs.</span></span>
 
-<span data-ttu-id="aca5d-106">Microsoft オーディオ会議では、ダイヤルインの電話番号、Pin、および会議、組織の会議に参加するミーティングの参加者で使用できる Id を提供します。</span><span class="sxs-lookup"><span data-stu-id="aca5d-106">Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conference IDs that can be used by meeting participants to join the meetings of your organization.</span></span> <span data-ttu-id="aca5d-107">オーディオ会議プロバイダーとしてマイクロソフトをスケジュールまたは Skype をビジネスまたはマイクロソフトのチーム会議をリードする人に割り当てる必要があるだけです。</span><span class="sxs-lookup"><span data-stu-id="aca5d-107">You only need to assign Microsoft as the audio conferencing provider to people who are going to schedule or lead Skype for Business or Microsoft Teams meetings.</span></span>
+<span data-ttu-id="d9d41-106">Microsoft オーディオ会議では、ダイヤルインの電話番号、Pin、および会議、組織の会議に参加するミーティングの参加者で使用できる Id を提供します。</span><span class="sxs-lookup"><span data-stu-id="d9d41-106">Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conference IDs that can be used by meeting participants to join the meetings of your organization.</span></span> <span data-ttu-id="d9d41-107">オーディオ会議プロバイダーとしてマイクロソフトをスケジュールまたは Skype をビジネスまたはマイクロソフトのチーム会議をリードする人に割り当てる必要があるだけです。</span><span class="sxs-lookup"><span data-stu-id="d9d41-107">You only need to assign Microsoft as the audio conferencing provider to people who are going to schedule or lead Skype for Business or Microsoft Teams meetings.</span></span>
   
-## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a><span data-ttu-id="aca5d-108">Microsoft を電話会議プロバイダーとして割り当てる</span><span class="sxs-lookup"><span data-stu-id="aca5d-108">Assign Microsoft as the audio conferencing provider</span></span>
+## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a><span data-ttu-id="d9d41-108">Microsoft を電話会議プロバイダーとして割り当てる</span><span class="sxs-lookup"><span data-stu-id="d9d41-108">Assign Microsoft as the audio conferencing provider</span></span>
 
-### <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-using-the-skype-for-business-admin-center"></a>![デバイス ・ ロゴ ・ 30x30.png](../images/sfb-logo-30x30.png) <span data-ttu-id="aca5d-110">Skype for Business 管理センターを使用する</span><span class="sxs-lookup"><span data-stu-id="aca5d-110">Using the Skype for Business admin center</span></span>
+### <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-using-the-skype-for-business-admin-center"></a>![デバイス ・ ロゴ ・ 30x30.png](../images/sfb-logo-30x30.png) <span data-ttu-id="d9d41-110">Skype for Business 管理センターを使用する</span><span class="sxs-lookup"><span data-stu-id="d9d41-110">Using the Skype for Business admin center</span></span>
 
-1. <span data-ttu-id="aca5d-111">Go to the **Office 365 admin center** > **Skype for Business**.</span><span class="sxs-lookup"><span data-stu-id="aca5d-111">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
+1. <span data-ttu-id="d9d41-111">Go to the **Office 365 admin center** > **Skype for Business**.</span><span class="sxs-lookup"><span data-stu-id="d9d41-111">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
     
-2. <span data-ttu-id="aca5d-112">**Skype**ビジネス管理センターは、左側のナビゲーションでは、[**電話会議**に移動します。</span><span class="sxs-lookup"><span data-stu-id="aca5d-112">In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing**.</span></span>
+2. <span data-ttu-id="d9d41-112">**Skype**ビジネス管理センターは、左側のナビゲーションでは、[**電話会議**に移動します。</span><span class="sxs-lookup"><span data-stu-id="d9d41-112">In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing**.</span></span>
     
-3. <span data-ttu-id="aca5d-113">バナーが表示される場合が、**音声会議**をしているユーザーがあることを通知するライセンスは割り当てるが、マイクロソフトは、オーディオ会議プロバイダーとして設定いない場合、 **[** ここをクリックして移動する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="aca5d-113">If you see a banner notifying you that there are users who have an **Audio Conferencing** license assigned but don't have Microsoft set as their audio conferencing provider yet, click **Click here to move them**.</span></span> <span data-ttu-id="aca5d-114">バナーが表示されない場合、**ビジネス管理センターの Skype**で**ユーザー**] をクリックし、し、フィルターを選択、**ユーザーが電話会議に移動する準備ができて**。</span><span class="sxs-lookup"><span data-stu-id="aca5d-114">If you don't see the banner, in the **Skype for Business admin center** click **Users**, and then select the **Users ready to be moved to Audio Conferencing** filter.</span></span>
+3. <span data-ttu-id="d9d41-113">バナーが表示される場合が、**音声会議**をしているユーザーがあることを通知するライセンスは割り当てるが、マイクロソフトは、オーディオ会議プロバイダーとして設定いない場合、 **[** ここをクリックして移動する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="d9d41-113">If you see a banner notifying you that there are users who have an **Audio Conferencing** license assigned but don't have Microsoft set as their audio conferencing provider yet, click **Click here to move them**.</span></span> <span data-ttu-id="d9d41-114">バナーが表示されない場合、**ビジネス管理センターの Skype**で**ユーザー**] をクリックし、し、フィルターを選択、**ユーザーが電話会議に移動する準備ができて**。</span><span class="sxs-lookup"><span data-stu-id="d9d41-114">If you don't see the banner, in the **Skype for Business admin center** click **Users**, and then select the **Users ready to be moved to Audio Conferencing** filter.</span></span>
     
-4. <span data-ttu-id="aca5d-115">[**プロバイダー名**] で、ユーザーの [プロパティ] ページのドロップダウン ボックスの一覧で**Microsoft**を選択します。</span><span class="sxs-lookup"><span data-stu-id="aca5d-115">On the properties page for the user, under **Provider name**, select **Microsoft** in the drop-down list.</span></span>
+4. <span data-ttu-id="d9d41-115">[**プロバイダー名**] で、ユーザーの [プロパティ] ページのドロップダウン ボックスの一覧で**Microsoft**を選択します。</span><span class="sxs-lookup"><span data-stu-id="d9d41-115">On the properties page for the user, under **Provider name**, select **Microsoft** in the drop-down list.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="aca5d-116">オーディオ会議プロバイダーとして、Microsoft を使用している複数の電話番号があるため、ユーザーの既定の音声番号を選択するのには、**有料電話番号が既定**のドロップ ダウン リストを使用できます。</span><span class="sxs-lookup"><span data-stu-id="aca5d-116">Because you are using Microsoft as the audio conferencing provider and there are multiple phone numbers, you can use the **Default toll number** drop-down list to select a default audio number for the user.</span></span>
+    > <span data-ttu-id="d9d41-116">オーディオ会議プロバイダーとして、Microsoft を使用している複数の電話番号があるため、ユーザーの既定の音声番号を選択するのには、**有料電話番号が既定**のドロップ ダウン リストを使用できます。</span><span class="sxs-lookup"><span data-stu-id="d9d41-116">Because you are using Microsoft as the audio conferencing provider and there are multiple phone numbers, you can use the **Default toll number** drop-down list to select a default audio number for the user.</span></span>
   
-5. <span data-ttu-id="aca5d-117">[ **保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="aca5d-117">Click **Save**.</span></span>
+5. <span data-ttu-id="d9d41-117">[ **保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d9d41-117">Click **Save**.</span></span>
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
     
-### <a name="using-a-windows-powershell-script-for-a-small-number-of-users"></a><span data-ttu-id="aca5d-118">少数のユーザーのために Windows PowerShell スクリプトを使用する</span><span class="sxs-lookup"><span data-stu-id="aca5d-118">Using a Windows PowerShell script for a small number of users</span></span>
+### <a name="using-a-windows-powershell-script-for-a-small-number-of-users"></a><span data-ttu-id="d9d41-118">少数のユーザーのために Windows PowerShell スクリプトを使用する</span><span class="sxs-lookup"><span data-stu-id="d9d41-118">Using a Windows PowerShell script for a small number of users</span></span>
 
-<span data-ttu-id="aca5d-119">時間を節約して自動化するために、次の PowerShell スクリプトを使用して、少数のユーザーのために Microsoft を電話会議プロバイダーとして設定することができます。</span><span class="sxs-lookup"><span data-stu-id="aca5d-119">To save time or automate this, you can use the following PowerShell script to set Microsoft as the audio conferencing provider for a small number of users.</span></span>
+<span data-ttu-id="d9d41-119">時間を節約して自動化するために、次の PowerShell スクリプトを使用して、少数のユーザーのために Microsoft を電話会議プロバイダーとして設定することができます。</span><span class="sxs-lookup"><span data-stu-id="d9d41-119">To save time or automate this, you can use the following PowerShell script to set Microsoft as the audio conferencing provider for a small number of users.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="aca5d-p104">プロバイダーが **Microsoft** に変更されるとき、ユーザーの電話会議情報 (電話会議 ID、有料電話番号と無料電話番号) が置き換えられます。プロバイダーを変更する前にこの情報を保存する必要があります。</span><span class="sxs-lookup"><span data-stu-id="aca5d-p104">When the provider is changed from another provider to **Microsoft**, the audio conferencing information for the user (Conference ID, Toll and Toll-free numbers) will be replaced. You should save this information before changing the provider.</span></span> 
+> <span data-ttu-id="d9d41-p104">プロバイダーが **Microsoft** に変更されるとき、ユーザーの電話会議情報 (電話会議 ID、有料電話番号と無料電話番号) が置き換えられます。プロバイダーを変更する前にこの情報を保存する必要があります。</span><span class="sxs-lookup"><span data-stu-id="d9d41-p104">When the provider is changed from another provider to **Microsoft**, the audio conferencing information for the user (Conference ID, Toll and Toll-free numbers) will be replaced. You should save this information before changing the provider.</span></span> 
 
   
-<span data-ttu-id="aca5d-122">マイクロソフトのユーザー数が少ないためにプロバイダーを変更するには、[有効にする CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx)コマンドレットを使用することができます。</span><span class="sxs-lookup"><span data-stu-id="aca5d-122">To change the provider to Microsoft for a small number of users, you can use the  [Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx) cmdlet.</span></span>
+<span data-ttu-id="d9d41-122">マイクロソフトのユーザー数が少ないためにプロバイダーを変更するには、[有効にする CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx)コマンドレットを使用することができます。</span><span class="sxs-lookup"><span data-stu-id="d9d41-122">To change the provider to Microsoft for a small number of users, you can use the  [Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx) cmdlet.</span></span>
   
 
-### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a><span data-ttu-id="aca5d-123">多数のユーザーのために Windows PowerShell スクリプトを使用する</span><span class="sxs-lookup"><span data-stu-id="aca5d-123">Using a Windows PowerShell script for a large number of users</span></span>
-<span data-ttu-id="aca5d-124">時間を節約して自動化するために、次の PowerShell スクリプトを使用して、多数のユーザーのために Microsoft を電話会議プロバイダーとして設定することができます。</span><span class="sxs-lookup"><span data-stu-id="aca5d-124">To save time or automate this, you can use the following PowerShell script to set Microsoft as the audio conferencing provider for a large number of users.</span></span>
+### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a><span data-ttu-id="d9d41-123">多数のユーザーのために Windows PowerShell スクリプトを使用する</span><span class="sxs-lookup"><span data-stu-id="d9d41-123">Using a Windows PowerShell script for a large number of users</span></span>
+<span data-ttu-id="d9d41-124">時間を節約して自動化するために、次の PowerShell スクリプトを使用して、多数のユーザーのために Microsoft を電話会議プロバイダーとして設定することができます。</span><span class="sxs-lookup"><span data-stu-id="d9d41-124">To save time or automate this, you can use the following PowerShell script to set Microsoft as the audio conferencing provider for a large number of users.</span></span>
 
-<span data-ttu-id="aca5d-p105">プロバイダーが **Microsoft** に変更されるとき、ユーザーの電話会議情報 (電話会議 ID、有料電話番号と無料電話番号) が置き換えられます。プロバイダーを変更する前にこの情報を保存する必要があります。</span><span class="sxs-lookup"><span data-stu-id="aca5d-p105">When the provider is changed from another provider to **Microsoft**, the audio conferencing information for the user (Conference ID, Toll and Toll-free numbers) will be replaced. You should save this information before changing the provider.</span></span> 
+<span data-ttu-id="d9d41-p105">プロバイダーが **Microsoft** に変更されるとき、ユーザーの電話会議情報 (電話会議 ID、有料電話番号と無料電話番号) が置き換えられます。プロバイダーを変更する前にこの情報を保存する必要があります。</span><span class="sxs-lookup"><span data-stu-id="d9d41-p105">When the provider is changed from another provider to **Microsoft**, the audio conferencing information for the user (Conference ID, Toll and Toll-free numbers) will be replaced. You should save this information before changing the provider.</span></span> 
   
-<span data-ttu-id="aca5d-127">PowerShell スクリプト ファイルに次のスクリプトを保存し、その入力パラメーターのいずれかを使用してそれを実行できます。</span><span class="sxs-lookup"><span data-stu-id="aca5d-127">You can save the following script as a PowerShell script file and then run it using any of its input parameters.</span></span>
+<span data-ttu-id="d9d41-127">PowerShell スクリプト ファイルに次のスクリプトを保存し、その入力パラメーターのいずれかを使用してそれを実行できます。</span><span class="sxs-lookup"><span data-stu-id="d9d41-127">You can save the following script as a PowerShell script file and then run it using any of its input parameters.</span></span>
 
-<span data-ttu-id="aca5d-128">**例 1:** 更新したいユーザーのリストを指定して、このスクリプトを実行できます。</span><span class="sxs-lookup"><span data-stu-id="aca5d-128">**Example 1:** You can run this script by providing a list of users that you want updated.</span></span>
+<span data-ttu-id="d9d41-128">**例 1:** 更新したいユーザーのリストを指定して、このスクリプトを実行できます。</span><span class="sxs-lookup"><span data-stu-id="d9d41-128">**Example 1:** You can run this script by providing a list of users that you want updated.</span></span>
    
   ```
 Script.ps1 -UserList <List of users>
-./Script.ps1 -UserList "user01@constoso.com,    user02@contoso.com, user03@contoso.com"
+./Script.ps1 -UserList "user01@constoso.com, user02@contoso.com, user03@contoso.com"
   ```
 
-<span data-ttu-id="aca5d-129">**例 2:** 更新したい各ユーザーの電子メール アドレス (エイリアス) を含む .csv ファイルを指定して、このスクリプトを実行できます。</span><span class="sxs-lookup"><span data-stu-id="aca5d-129">**Example 2:** You can run this script by providing a .csv file that contains the email address (alias) of each user that you want updated.</span></span>
+<span data-ttu-id="d9d41-129">**例 2:** 更新したい各ユーザーの電子メール アドレス (エイリアス) を含む .csv ファイルを指定して、このスクリプトを実行できます。</span><span class="sxs-lookup"><span data-stu-id="d9d41-129">**Example 2:** You can run this script by providing a .csv file that contains the email address (alias) of each user that you want updated.</span></span>
    
   ```
 Script.ps1 -CsvFile <Path of the csv file>
 ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
-<span data-ttu-id="aca5d-130">**例 3:** この例では、ことができますスクリプトを使用するこの Intercall からオーディオ会議プロバイダー (または別のプロバイダー) を変更するのには**マイクロソフト**に大規模な数のユーザーの組織内。</span><span class="sxs-lookup"><span data-stu-id="aca5d-130">**Example 3:** In this example, you can use this script to change the audio conferencing provider from Intercall (or another provider) to **Microsoft** for a large number users in your organization.</span></span>
+<span data-ttu-id="d9d41-130">**例 3:** この例では、ことができますスクリプトを使用するこの Intercall からオーディオ会議プロバイダー (または別のプロバイダー) を変更するのには**マイクロソフト**に大規模な数のユーザーの組織内。</span><span class="sxs-lookup"><span data-stu-id="d9d41-130">**Example 3:** In this example, you can use this script to change the audio conferencing provider from Intercall (or another provider) to **Microsoft** for a large number users in your organization.</span></span>
     
   ```
   Script.ps1 -ACPProviderName <Provider>
   ./Script.ps1 -ACPProviderName "Intercall"
   ```
-  <span data-ttu-id="aca5d-131">スクリプトを以下に示します。</span><span class="sxs-lookup"><span data-stu-id="aca5d-131">Here is the script:</span></span>
+  <span data-ttu-id="d9d41-131">スクリプトを以下に示します。</span><span class="sxs-lookup"><span data-stu-id="d9d41-131">Here is the script:</span></span>
 
   ```
   <#
@@ -187,10 +187,10 @@ Script.ps1 -CsvFile <Path of the csv file>
   }
   }
   ```
-<span data-ttu-id="aca5d-132">Windows PowerShell の使い方の詳細については、「[Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="aca5d-132">For more information about using Windows PowerShell, see [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038).</span></span>
+<span data-ttu-id="d9d41-132">Windows PowerShell の使い方の詳細については、「[Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="d9d41-132">For more information about using Windows PowerShell, see [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038).</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="aca5d-133">このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。</span><span class="sxs-lookup"><span data-stu-id="aca5d-133">Related topics</span></span>
-<span data-ttu-id="aca5d-134">[Office 365 に電話会議を購入するか](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
-[ビジネス オンラインの Skype を設定します](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)</span><span class="sxs-lookup"><span data-stu-id="aca5d-134">[Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+## <a name="related-topics"></a><span data-ttu-id="d9d41-133">このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。</span><span class="sxs-lookup"><span data-stu-id="d9d41-133">Related topics</span></span>
+<span data-ttu-id="d9d41-134">[Office 365 に電話会議を購入するか](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[ビジネス オンラインの Skype を設定します](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)</span><span class="sxs-lookup"><span data-stu-id="d9d41-134">[Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)</span></span>
 
