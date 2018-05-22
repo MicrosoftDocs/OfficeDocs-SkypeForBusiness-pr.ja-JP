@@ -10,11 +10,11 @@ ms.reviewer: marcl, ninadara, v-leslc
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13db401651181bf186a61f643b80c7750b9978a0
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 6624aa94ef6581805e3ba2b79f09aefb95616bb0
+ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/21/2018
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
   
@@ -84,7 +84,7 @@ ms.lasthandoff: 05/09/2018
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|マイクロソフトのチームでのチャネルの名前を変更する名前は変更されません、SharePoint Online の対応するフォルダー  <br/> |マイクロソフトのチームで、チャネルの名前を変更する場合、チームに対応する SharePoint Online のドキュメント ライブラリ内のフォルダーを一致するようには変わりません。 代わりに、新しいチャネル名と一致する新しいフォルダーが作成されます。 元のドキュメント ライブラリ フォルダー内のファイルは移行されません。  <br/> |回避策なし。  <br/> |2017/03/13  <br/> |
+|マイクロソフトのチームでのチャネルの名前を変更する名前は変更されません、SharePoint Online の対応するフォルダー  <br/> |マイクロソフトのチームで、チャネルの名前を変更する場合、チームに対応する SharePoint Online のドキュメント ライブラリ内のフォルダーを一致するようには変わりません。 チャネルの名前を変更したファイル] タブの上部にある適切な SharePoint Online フォルダー名が表示されます。  <br/> |回避策なし。  <br/> |2017/03/13  <br/> |
 
 ## <a name="chat"></a>チャット
 

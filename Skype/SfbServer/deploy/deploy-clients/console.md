@@ -12,11 +12,11 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: この記事では、Skype Room Systems バージョン 2 コンソール デバイスとその周辺機器の設定方法を説明します。
-ms.openlocfilehash: b82343f98304b0607bb3525b508aecf81e80a031
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: 96fb2a88d699ca364f02f24af58d2f17dc555e11
+ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/21/2018
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Skype Room Systems バージョン 2 コンソールを構成する
  
@@ -49,7 +49,7 @@ Surface Pro 4 または Surface Pro の Skype ルーム システム v2 のア�
 > Windows 10 企業記念日を更新、Windows ストアを使用して Skype ルーム システム v2 更新 3 への移動で既存の Skype ルーム システム v2 機能しますが、次のように、新規インストールを行う必要があります。 
   
 1. [MSU](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu)をダウンロードします。
-2. [CreateSrsMedia.ps1 スクリプト](room-systems-v2-scripts.md)をダウンロードします。
+2. [CreateSrsMedia.ps1 スクリプト](https://go.microsoft.com/fwlink/?linkid=867842)をダウンロードします。
 3. MSU を KB4056892 の CreateSrsMedia.ps1 スクリプトと同じディレクトリに配置します。
 4. 10 の Windows コンピューターで管理者特権のプロンプトから CreateSrsMedia.ps1 スクリプトを実行します。
 

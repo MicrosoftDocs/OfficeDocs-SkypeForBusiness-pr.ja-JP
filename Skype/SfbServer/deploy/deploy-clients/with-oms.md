@@ -13,11 +13,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: この資料では、マイクロソフトの運用管理スイートを使用して、エンド ・ ツー ・ エンドの統合された方法で Skype ルーム システム v2 のデバイスの管理を展開する方法について説明します。
-ms.openlocfilehash: 13648c9a74cbd30f69884eb19fde5004999cc4e3
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: 7d8dc8a7e7f5a74c68fbc7bf5ecb98664c2b02ad
+ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/21/2018
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>OMS を使用した Skype Room Systems バージョン 2 の管理を展開する
  
@@ -169,7 +169,7 @@ Skype ルームのシステムに関連するイベントを監視すること�
 
 操作の管理スイートのダッシュ ボードにインポートし、デバイスをすぐに監視を開始できます。 ダッシュ ボードにインポートするのには以下の手順を実行するには。
 
-1.  [SkypeRoomSystems_v2.omsview](room-systems-v2-scripts.md)ダッシュ ボード ファイルを取得します。
+1.  [SkypeRoomSystems_v2.omsview](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomSystems_v2.omsview)ダッシュ ボード ファイルを取得します。
 2.  [マイクロソフトの運用管理スイートのポータル](http://aka.ms/omsportal)にサインインします。
 3.  **ビュー デザイナー**を開きます。
 4.  **インポート**] を選択し、 **SkypeRoomSystems_v2.omsview**ファイルを選択します。
