@@ -11,11 +11,11 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5913b67c8c15fbff7f59b1155f7c2e366d6bb93c
-ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
+ms.openlocfilehash: e93a69394c1de57c32a9ce8185dbbd406890d55d
+ms.sourcegitcommit: c8963d8a1de4197ddb72229b3c26460e9e0aae77
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 05/22/2018
 ---
 <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 ==================================
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/19/2018
 | [電話会議のビデオ](audio-conferencing-videos.md) |IT 管理者に Teams での電話会議を紹介するビデオ。  |
 | [チュートリアル: Teams での会議](tutorial-meetings-in-teams.yml) | このトレーニングでは、チームでミーティングを紹介します。 会議機能、および要件と計画に関する考慮事項について説明します。 |
 | Deploying and operating Teams (Teams の展開と運用)   | <iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
-| マイクロソフト チーム (プレビュー) のルーティングを指示します。   | <iframe width="350" height="200" src="https://www.youtube.com/watch?v=RjJAn9BAxDw" frameborder="0" allowfullscreen></iframe>   |
+| マイクロソフト チーム (プレビュー) のルーティングを指示します。   | <iframe width="350" height="200" src="https://www.youtube.com/embed/RjJAn9BAxDw" frameborder="0" allowfullscreen></iframe>   |
 | Deep dive into Guest Access (ゲスト アクセスの詳細) <br>Coffee in the Cloud session with Laith Al and Karuana Gatimu (Laith Al とKaruana Gatimu と Coffee in the Cloud セッション)  | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
 | e-Discovery in Microsoft Teams (Microsoft Teams における電子情報開示) <br> Coffee in the Cloud session with Ansuman Acharya and Karuana Gatimu (Ansuman Acharya と Karuana Gatimu との Coffee in the Cloud セッション)  | <iframe width="350" height="200" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
 | Teams: Step-by-step intro for using, enabling and managing the experience (Teams: エクスペリエンスの使用、有効化、管理の手順) <br> Microsoft Mechanics session with Dan Stevenson and Jeremy Chapman (Dan Stevenson と Jeremy Chapman との Microsoft Mechanics セッション) |  <iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |

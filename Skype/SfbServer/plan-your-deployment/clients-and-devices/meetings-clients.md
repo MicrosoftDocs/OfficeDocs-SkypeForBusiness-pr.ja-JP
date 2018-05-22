@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: '概要: IT プロフェッショナルはビジネス サーバー 2015 Skype の計画中に、Skype のビジネス Web アプリケーションおよび Skype 会議アプリケーションのサポート要件を確認する必要があります。 この記事はこれらのアプリのユーザー向けのものではありません。'
-ms.openlocfilehash: d99d718f02950cd643f7ccf79064eae3b0b83f72
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 921afbb6c446633128b2e2ead3c714dcdad91dd3
+ms.sourcegitcommit: c8963d8a1de4197ddb72229b3c26460e9e0aae77
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>会議クライアント用の計画 (Web アプリおよび会議アプリ)
  
@@ -49,7 +49,6 @@ Skype 会議アプリケーションは、ダウンロードし、アプリケ�
 ビジネス Web アプリケーションでは、ユーザーは、Skype を使用するのには、次のいずれかでサポートされているオペレーティング システムとブラウザーの組み合わせです。 
   
 **ビジネス Web アプリケーションの Skype のオペレーティング システムとブラウザーの最小サポートします。**
-
 
 | オペレーティング システム | Edge | 32 ビット版と 64 ビット版の Internet Explorer 11 以降 | 32 ビットと 64 ビットの 10 またはそれ以降の Internet Explorer | 32 ビットと 64 ビットのまたはそれ以降の Internet Explorer 9 | 32 ビットと 64 ビットの Firefox のバージョン 12.X 以降 | 32 ビットと 64 ビットのクロムのバージョン 18.X またはそれ以降 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -95,7 +94,6 @@ Skype 会議アプリケーションは、Windows 10、Windows 8.1、Windows 8 �
 <a name="BKMK_Conferencing"> </a>
 
 この表では、Web アプリケーションのビジネス、Skype 会議アプリケーションでは、Lync Web App のビジネス クライアント用の Skype、Skype のユーザーに利用可能な会議の機能を比較します。 機能比較のための Lync Web App が表示されている: ユーザーのみをダウンロードし、会議が Lync 2013 のサーバーでホストされている場合は、Lync Web App を使用します。
-  
 
 | 機能 | 2016 のビジネス クライアント用の Skype | Mac クライアントのビジネス用の Skype | Skype 会議アプリ | Skype for Business Web App | Lync Web App |
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -178,9 +176,7 @@ Skype 会議アプリケーションは、Windows 10、Windows 8.1、Windows 8 �
 <a name="BKMK_Conferencing"> </a>
 
 #### 
-
 [ビジネス サーバー 2015 の Skype での Web ダウンロード可能なクライアントを展開します。](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
+
 #### 
-
 [Skype 会議アプリケーションでサポートされるプラットフォーム](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
-
