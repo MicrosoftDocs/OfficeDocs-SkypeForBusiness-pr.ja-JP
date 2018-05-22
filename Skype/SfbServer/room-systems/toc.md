@@ -16,7 +16,6 @@
 ### [コンソールを構成します。](../deploy/deploy-clients/console.md)
 ### [システム センター構成マネージャーを使用して](../deploy/deploy-clients/room-systems-scale.md)
 ### [OMS を使用して管理](../deploy/deploy-clients/with-oms.md)
-### [Skype ルーム システム v2 のスクリプト](../deploy/deploy-clients/room-systems-v2-scripts.md)
 ## 管理
 ### [管理の概要](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 ### [メンテナンスと運用](../manage/skype-room-systems-v2/room-systems-v2-operations.md)
