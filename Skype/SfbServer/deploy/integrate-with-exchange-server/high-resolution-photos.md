@@ -11,15 +11,15 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 description: '概要: ビジネス サーバー 2015 の 2016 の Exchange Server や Exchange Server 2013 と Skype の高解像度の写真の使用を構成します。'
-ms.openlocfilehash: 9d5117f2774a928e520aa211007fffb0740a2b52
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 43ca3ca0444339ff61811c8aad5860989e45ca33
+ms.sourcegitcommit: faea19005301c56a081b6e6157965becac76ec2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での高解像度写真の使用の構成
  
-**の概要:**ビジネス サーバー 2015 2016 の Exchange Server や Exchange Server 2013 と Skype で高解像度の写真の使用を構成します。
+**の概要:** ビジネス サーバー 2015 2016 の Exchange Server や Exchange Server 2013 と Skype で高解像度の写真の使用を構成します。
   
 ビジネス サーバー 2015 の Skype では、メールボックスの [ユーザーの 2016 の Exchange Server や Exchange Server 2013 できる写真のサイズの最大の 648 648 ピクセル ピクセル写真を保存できます。 さらに、Exchange Server に自動的にサイズを変更できますこれらの写真のさまざまな製品で使用するため必要に応じて。 通常次の 3 つの別の写真のサイズおよび解像度を意味します。
   
@@ -35,12 +35,12 @@ ms.lasthandoff: 03/28/2018
 Outlook 2013 Web アプリケーションを実行しているユーザーが Exchange Web サービスを使用してアクセスされる、高解像度の写真をアップロードします。自分の写真を更新するのには許可されているだけです。 ただし、管理者は、Exchange 管理シェルは、一連の Windows PowerShell コマンドを次のようなを使用してすべてのユーザーの写真を更新できます。
   
 ```
-$photo = ([Byte ] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))
+$photo = ([Byte[]] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))
 Set-UserPhoto -Identity "Ken Myer" -PictureData -Preview $photo -Confirm:$False
 Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 ```
 
-前述の例の 1 つ目のコマンドは、Get-Content コマンドレットを使用して、C:\Photos\Kenmyer.jpg ファイルの内容を読み取って、そのデータを Preview$photo 変数に保存します。 2 番目のコマンドでは、写真をアップロードし、Ken Myer のユーザー アカウントにその写真を添付する Exchange コマンドレット セット UserPhoto を使用します。
+前の例の最初のコマンドを使用して、 `Get-Content` $photo という名前のコマンドレットには、C:\Photos\Kenmyer.jpg ファイルの内容を読むし、そのデータを変数に格納します。 2 番目のコマンドでは、Exchange コマンドレットの`Set-UserPhoto`を使用して写真をアップロードし、Ken Myer のユーザー アカウントにその写真を添付します。
   
 > [!NOTE]
 > この例では、Ken Myer の Active Directory 表示名がユーザー アカウントの ID として使用されています。 また、その他の識別子 (ユーザーの SMTP アドレスやユーザー プリンシパル名など) を使用してユーザー アカウントを参照することもできます。 セット UserPhoto コマンドレットのドキュメントを参照してください[https://go.microsoft.com/fwlink/p/?LinkId=268536](https://go.microsoft.com/fwlink/p/?LinkId=268536)の詳細について
@@ -59,6 +59,4 @@ https://atl-mail-001.litwareinc.com/ews/Exchange.asmx/s/GetUserPhoto?email=kenmy
 
 管理者は、Internet Explorer を使用して写真を表示できますが、ユーザーは、ビジネスの Skype で自分の写真を表示できない場合は、Exchange Web サービスまたは Exchange 自動検出サービス接続の問題がある可能性があります。
   
-またビジネス用の Skype でこの写真を利用するのには追加構成は必要ないことです。 写真がアップロードされて Set-UserPhoto コマンドレットを実行すると、即時に利用できるようになります。
-  
-
+またビジネス用の Skype でこの写真を利用するのには追加構成は必要ないことです。 代わりに、写真すぐが表示されますが、アップロードされた後、および`Set-UserPhoto`コマンドレットが実行されています。
