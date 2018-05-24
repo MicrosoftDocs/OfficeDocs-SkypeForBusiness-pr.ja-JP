@@ -10,16 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: '概要: は、Skype のビジネス サーバー 2015 の監視を配置する方法を説明します。'
-ms.openlocfilehash: a963db346f5d9f7904b43fc2032aa881295d1b77
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: a25165add0ca6f9acd08e77efeda42cf7a8819ef
+ms.sourcegitcommit: 4eae947e339e728e5e1f338677860b910aafc029
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の監視の展開
  
-**の概要:**ビジネス サーバー 2015 の Skype の監視を配置する方法について説明します。
-  
+**の概要:** ビジネス サーバー 2015 の Skype の監視を配置する方法について説明します。
+ 
+これらのタスクを実行する前に、 [Skype のビジネス サーバー 2015 で監視するための計画](../../plan-your-deployment/monitoring.md)を確認します。
+ 
 通常、次の 2 つの手順でトポロジ内に監視サービスを実装します。
   
 1. ビジネス サーバー プール用の新しい Skype を設定するを同時に監視できるようにします。 (ビジネス サーバー 2015 の Skype での監視が有効か無効のプールでのプールごとにします。)できることを実際に収集の監視データがない場合、プールの監視プロセスは、このドキュメントの呼び出しの詳細記録の構成と品質のエクスペリエンスの設定」で説明する注意してください。
@@ -92,4 +94,8 @@ Set-CsQoEConfiguration -Identity "global" -EnableQoE $True
     
 前の例が、グローバル スコープで監視を有効にするように、つまり、CDR および QoE を組織全体で監視できます。 または、サイトのスコープで別の CDR および QoE 構成設定を作成しし、選択的を有効にしたり、各サイトの監視を無効にできます。 たとえば、CDR がまだダブリン サイトの監視を無効にする CDR のレドモンド サイトの監視を有効にする可能性があります。 監視構成の設定を管理する方法については、[通話詳細記録の構成とビジネス サーバー 2015 の Skype の高品質なエクスペリエンスの設定](call-detail-recording-and-qoe.md)は、展開ガイドのトピックを参照してください。
   
+## <a name="see-also"></a>関連項目
 
+#### 
+
+[ビジネス サーバー 2015 の Skype で監視するための計画](../../plan-your-deployment/monitoring.md)

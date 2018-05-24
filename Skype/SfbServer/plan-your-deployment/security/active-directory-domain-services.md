@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 description: Active Directory ドメイン サービスは、ディレクトリ サービスでは、Windows Server 2003、Windows Server 2008、Windows Server 2012 では、Windows Server 2012 R2 のネットワークとして機能します。 Active Directory ドメイン サービスは、セキュリティ インフラストラクチャのビジネス サーバー 2015 の Skype が組み込まれている基盤としても機能します。 このセクションの目的は、ビジネス サーバー 2015 の Skype が Active Directory ドメイン サービスを使用して、IM、Web 会議、メディア、および音声の信頼できる環境を作成する方法を記述すること。 Active Directory ドメイン サービスのお客様の環境を準備する方法の詳細についてを参照してくださいインストール Skype ビジネス サーバー 2015 の展開に関するドキュメント。 Windows Server ネットワークで Active Directory ドメイン サービスの役割についての詳細は、使用しているオペレーティング システムのバージョンのドキュメントを参照してください。
-ms.openlocfilehash: eb4a2d5a070f7840733dd20da859d2dede38750a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d0beaeba36db02e7b0e4ad76bfefa27a9a49a09d
+ms.sourcegitcommit: 4eae947e339e728e5e1f338677860b910aafc029
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 用の Active Directory ドメイン サービス
  
@@ -111,3 +111,7 @@ Active Directory のインフラストラクチャ要件を以下に示します
 |プロキシ サーバー  <br/> |ビジネス サーバー 2015 の Skype はプロキシ サーバーの下位互換性をサポートしていません  <br/> |
    
 
+## <a name="see-also"></a>関連項目
+
+#### 
+[ビジネス サーバー 2015 の Skype の Active Directory を準備します。](../../deploy/install/prepare-active-directory.md)
