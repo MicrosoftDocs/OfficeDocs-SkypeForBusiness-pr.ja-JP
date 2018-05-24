@@ -39,7 +39,6 @@
 ### [組織の緊急対応の住所を追加または削除する](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
 ### [ユーザーの電話番号の割り当て、変更、削除を行う](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [ユーザーの緊急番号の割り当て、変更を行う](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)
-### [着信呼び出しをブロックします。](../what-are-calling-plans-in-office-365/block-incoming-calls.md)
 ### [通話プランの既知の問題](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [ユーザーの緊急対応の住所を変更する](../what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user.md)
 ### [ユーザーの緊急対応の場所を変更する](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
@@ -150,7 +149,6 @@
 ### [Skype for Business の通話分析をセットアップする](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [通話品質ダッシュボードをオンにして使用する](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
 ### [通話分析を使用して低い通話品質をトラブルシューティングする](../using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality.md)
-
 
 ## [Skype for Business Online のレポート](../skype-for-business-online-reporting/skype-for-business-online-reporting.md)
 ### [アクティビティ レポート](../skype-for-business-online-reporting/activity-report.md)
