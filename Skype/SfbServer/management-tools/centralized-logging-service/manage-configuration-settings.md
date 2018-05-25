@@ -11,15 +11,15 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 概要では、取得、更新、およびビジネス サーバー 2015 の Skype で集中ログ サービスの構成設定を作成する方法について説明します。
-ms.openlocfilehash: 0c4d03119a61fccd062e650c38815bee069852f5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8fe02cc4d2c04f9433736c4bced429f84f84d915
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の集中ログ サービスの構成設定の管理
  
-**の概要:**取得、更新、およびビジネス サーバー 2015 の Skype で集中ログ サービスの構成設定を作成する方法について説明します。
+**の概要:** 取得、更新、およびビジネス サーバー 2015 の Skype で集中ログ サービスの構成設定を作成する方法について説明します。
   
 集中ログ サービスを制御し、設定と作成され、個々 のコンピューターのログ サービス エージェントを集中型の (コマンドを送信するため、一元的なログ記録サービス コント ローラー (CLSController) 使用されているパラメーターによって構成されています。CLSAgent)。 このエージェントは送信されたコマンドを処理し、(Start コマンドの場合は) シナリオ、プロバイダー、トレース期間、フラグの構成を使用して、提供された構成情報に従うトレース ログの収集を開始します。
   
@@ -185,10 +185,8 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 [ビジネス サーバー 2015 の Skype のログの集中管理サービスのプロバイダーを構成します。](configure-providers.md)
   
 [ビジネス サーバー 2015 の Skype で集中ログ サービスのシナリオを構成します。](configure-scenarios.md)
-#### 
 
 [ビジネス 2015年の Skype での一元的なログ記録サービス](centralized-logging-service.md)
-#### 
 
 [セット CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps)
   

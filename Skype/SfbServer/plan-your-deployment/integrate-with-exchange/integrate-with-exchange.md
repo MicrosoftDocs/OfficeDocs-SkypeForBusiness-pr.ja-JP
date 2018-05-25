@@ -11,15 +11,15 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: '概要: ビジネスのサーバー 2015 2016 の Exchange Server や Exchange Server 2013 の Skype を統合する方法の詳細については、このトピックを確認します。'
-ms.openlocfilehash: 6d3d88183cfb99597829f01aae70b1c5cdd6f09a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 3c71509fc05ecabdf34f1d6ce8ec4f1a7af523be
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Skype for Business と Exchange の統合の計画
  
-**の概要:**ビジネス サーバーの 2015 2016 の Exchange Server や Exchange Server 2013 の Skype を統合する方法の詳細については、このトピックを確認します。
+**の概要:** ビジネス サーバーの 2015 2016 の Exchange Server や Exchange Server 2013 の Skype を統合する方法の詳細については、このトピックを確認します。
   
 Skype ビジネス サーバー 2015 と Exchange Server を統合すると、前に Exchange Server およびビジネス サーバー 2015 の Skype の両方がインストールされていると完全に起動して実行を行う必要があります。 
   
@@ -117,7 +117,6 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 [統合ビジネス サーバー 2015 の Skype を設置し、Outlook Web App の構成します。](../../deploy/integrate-with-exchange-server/outlook-web-app.md)
   
 [設置型のビジネスのオンラインの Skype と Exchange との間の OAuth を構成します。](../../deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises.md)
-#### 
 
 [Skype をビジネス サーバー 2015 が Exchange Server との統合します。](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)
   

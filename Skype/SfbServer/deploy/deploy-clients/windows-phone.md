@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: '概要: をインストールし、Windows Phone にビジネス用の Skype をテストする方法を説明します。'
-ms.openlocfilehash: c3f9fcf20726c4fd33dc4de462b64a1397373a0f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 12916e26857e5d456338519adee6190c11bace7b
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>Skype for Business Server 2015: Windows Phone 版 Skype for Business のインストールおよびテスト
  
-**の概要:**インストールし、Windows Phone にビジネス用の Skype をテストする方法について説明します。
+**の概要:** インストールし、Windows Phone にビジネス用の Skype をテストする方法について説明します。
   
 ビジネスの Windows Phone アプリケーションの Skype では、ビジネス プレゼンス、インスタント メッセージング (IM)、および音声とビデオ Windows モバイル デバイスへの呼び出しに Skype が表示されます。 Lync 2013 を使用しているユーザーの場合、ユーザー設定に応じて、アプリが自動的に更新されるか、手動で更新するよう求めるメッセージが表示されます。 新規ユーザーを[Windows Phone マーケットプ レース](https://go.microsoft.com/fwlink/p/?linkid=231901)からダウンロードできます。 ビジネスの Windows Phone アプリケーションの Skype をできるは、Windows Phone 8.1 およびそれ以降でだけです。
   
@@ -51,7 +51,7 @@ ms.lasthandoff: 03/28/2018
     > [!IMPORTANT]
     > この設定をオフにするにしない通知 IMs、呼び出し、またはビジネスの Windows Phone のアラートには、他の Skype のアプリケーションがアクティブになっていない限り。 
   
-  - **電話帳へのアクセスを許可します。**Windows Phone のビジネス用の Skype の連絡先を検索する場合は、携帯電話の連絡先を検索します。
+  - **電話帳へのアクセスを許可します。** Windows Phone のビジネス用の Skype の連絡先を検索する場合は、携帯電話の連絡先を検索します。
     
 6. **次回**Windows Phone のビジネス用の Skype の使用を開始する] をタップします。
     
@@ -112,7 +112,6 @@ ms.lasthandoff: 03/28/2018
 ## <a name="see-also"></a>関連項目
 
 #### 
-
 
 [Windows Phone 8.1 のビジネス用の Skype の概要]()
 

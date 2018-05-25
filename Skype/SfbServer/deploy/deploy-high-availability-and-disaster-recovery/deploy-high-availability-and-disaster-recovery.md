@@ -9,11 +9,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21007bad-62ce-4553-98e0-02aaa1345781
 description: Skype for Business Server は、サーバー プーリングによる高可用性、プール ペアリングによる障害復旧、および複数のモードのバックエンド サーバーの高可用性を実現します。これには、AlwaysOn 可用性グループ、データベース ミラーリング、および SQL フェールオーバー クラスタリングが含まれます。
-ms.openlocfilehash: f8f7916a48f6aa03c51d78cfb99aa81bc220ab30
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 91324a4bbc0c6a2439a3190661320165670a6e11
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="deploy-high-availability-and-disaster-recovery"></a>高可用性および障害復旧の展開
  
@@ -32,7 +32,6 @@ Skype for Business Server は、サーバー プーリングによる高可用�
 #### 
 
 [ビジネス サーバー 2015 の Skype でのバック エンド サーバー上の AlwaysOn 可用性グループを展開します。](alwayson-availability-group.md)
-#### 
 
 [ビジネス サーバー 2015 に Skype での災害復旧のための一対のフロント エンド プールを展開します。](front-end-pools-for-disaster-recovery.md)
   

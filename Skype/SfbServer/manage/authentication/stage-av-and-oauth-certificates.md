@@ -11,15 +11,15 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: '概要: ステージの AV と OAuth の証明書サーバー 2015 のビジネス用の Skype のです。'
-ms.openlocfilehash: 4117707e7a86833ebb235100c26e27d16e1df9db
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7c5abf07c5b30e4e015936fcf0987e989f1d8117
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-2015-using--roll-in-set-cscertificate"></a>Skype for Business Server 2015 での Set-CsCertificate で -Roll を使用した音声ビデオおよび OAuth 証明書のステージング
  
-**の概要:**ステージ AV と OAuth の証明書サーバー 2015 のビジネス用の Skype のです。
+**の概要:** ステージ AV と OAuth の証明書サーバー 2015 のビジネス用の Skype のです。
   
 オーディオ/ビデオ (A/V) の通信は、ビジネス サーバー 2015 の Skype の重要なコンポーネントです。 A に割り当てられている証明書に基づいて、アプリケーションの共有、オーディオおよびビデオ会議などの機能と音声ビデオ エッジ サービス、具体的には、A/V 認証サービスです。
   
@@ -133,7 +133,6 @@ Remove-CsCertificate -Type OAuthTokenIssuer -Previous
 #### 
 
 [サーバーからサーバーへの認証 (OAuth) とビジネス サーバー 2015 の Skype のパートナーのアプリケーションを管理します。](server-to-server-and-partner-applications.md)
-#### 
 
 [セット CsCertificate](https://docs.microsoft.com/powershell/module/skype/set-cscertificate?view=skype-ps)
   

@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 description: IP または公衆交換電話網 (PSTN) のルートのトランクを定義するには、次を構成します。
-ms.openlocfilehash: e9f42114e64351290322b9ae0e520c9556c457f0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 2d2eb66e7603fec6cdf5ac7c41066e3d1c8e7c09
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>新しい IP または PSTN ゲートウェイ ルート トランクを定義します。
  
@@ -39,7 +39,6 @@ IP または公衆交換電話網 (PSTN) のルートのトランクを定義す
 [ビジネス サーバー 2015 の Skype でのメディア バイ パスを使用してトランクを構成します。](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
   
 [ビジネス サーバー 2015 のメディアが Skype で省略せずに、トランクを構成します。](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
-#### 
 
 [SIP トランキングのサポート](http://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)
 

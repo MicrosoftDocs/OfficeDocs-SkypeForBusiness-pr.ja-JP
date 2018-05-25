@@ -11,15 +11,15 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: '概要: は、トポロジ ビルダーを使用して、ビジネス サーバー 2015 の Skype でのビデオの相互運用機能のサーバー プールを作成します。'
-ms.openlocfilehash: ab34cf5b547301314bf169b56481818f78e9908a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 89fcdf34480bc9b99295993d28e32ca547f07893
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での VIS プールの作成
  
-**の概要:**トポロジ ビルダーを使用して、ビジネス サーバー 2015 の Skype でのビデオの相互運用機能のサーバー プールを作成します。
+**の概要:** トポロジ ビルダーを使用して、ビジネス サーバー 2015 の Skype でのビデオの相互運用機能のサーバー プールを作成します。
   
 ### <a name="create-a-vis-or-vis-pool-using-topology-builder"></a>トポロジ ビルダーを使用して VIS または VIS プールを作成する
 
@@ -67,7 +67,6 @@ ms.lasthandoff: 03/28/2018
 #### 
 
 [ビジネス サーバー 2015 用 Skype で VIS のサーバーの役割を展開します。](deploy-the-vis-server-role.md)
-#### 
 
 [ビジネス サーバー 2015 の Skype でのビデオの相互運用サーバーの計画](../../plan-your-deployment/video-interop-server.md)
   

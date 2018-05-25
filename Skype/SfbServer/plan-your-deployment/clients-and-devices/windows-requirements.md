@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: '概要: ビジネス サーバー 2015 の Skype を計画するときに Windows クライアントのサポート要件を確認します。'
-ms.openlocfilehash: 3dac3a8e15e53cec5605aa2b003150f491d8f2b5
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 72e34e334a9b43139b77aec93f29adb76dd56241
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Windows クライアントの要件およびソフトウェア サポート
  
@@ -75,7 +75,6 @@ Skype ビジネス サーバー 2015 クライアントのさまざまなバー�
 [会議クライアント (Web アプリケーションおよび会議アプリケーション) の計画します。](meetings-clients.md)
   
 [Mac クライアントの要件にビジネス用の Skype](mac-requirements.md)
-#### 
 
 [すべてのデバイスでのビジネス用の Skype をダウンロードします。](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3)
   

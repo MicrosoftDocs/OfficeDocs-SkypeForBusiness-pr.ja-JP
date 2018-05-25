@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'ビジネス Web アプリケーションの概要: が、Skype を導入し、Skype 会議アプリケーションがビジネスの Skype を使用します。'
-ms.openlocfilehash: e1cee2741e1538da1e4c5ed8e25509415cb16ac3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: a81e8744208261934635aee4f8a872a81b179c90
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 で Web ダウンロード可能なクライアントを展開する
  
-**の概要:**Skype のビジネス Web アプリケーションの展開し、Skype 会議アプリケーションがビジネスの Skype を使用します。
+**の概要:** Skype のビジネス Web アプリケーションの展開し、Skype 会議アプリケーションがビジネスの Skype を使用します。
   
 ビジネス Web アプリケーションの Skype は、クライアントのビジネスの Skype をまだ持っていない会議のユーザーにビジネス サーバー 2015 と配備されている既定のオン ・ デマンドで Skype を実行するサーバーでインストールされている、インターネット インフォメーション サービス (IIS) web クライアントです。 このような会議ユーザーは通常ネットワークの外部から接続します。 ユーザーは会議 URL をクリックしたが、ビジネス クライアントがインストールされている Skype がない、常にユーザーにビジネス Web アプリケーションの最新バージョンの Skype を使用してミーティングに参加するためのオプションが表示されます。
   
@@ -154,7 +154,6 @@ Windows Server 2008 R2 を実行しているコンピューター上のプラグ
 [会議クライアント (Web アプリケーションおよび会議アプリケーション) の計画します。](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
   
 [会議クライアント (Web アプリケーションおよび会議アプリケーション) の計画します。](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
-#### 
 
 [会議参加ページを構成します。](http://technet.microsoft.com/library/45880423-47f4-49af-b825-cbd8e3fc1046.aspx)
   

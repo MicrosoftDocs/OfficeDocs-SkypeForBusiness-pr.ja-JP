@@ -13,11 +13,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: ハードウェア、ソフトウェア、およびビジネス用の Skype を実行して、mac 上のインフラストラクチャの要件の詳細については、このトピックを読む
-ms.openlocfilehash: 72e3c4c4765139e0665d799e9fb93610f31896a3
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: a963a3bd563f82a2fd26b2a72e0610c10c0be742
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Mac クライアントの要件にビジネス用の Skype
  
@@ -76,7 +76,6 @@ HTTP 証明書失効リストが定義済みで、クライアントがアクセ
 #### 
 
 [ビジネス サーバー 2015 の Skype の DNS の要件](../../plan-your-deployment/network-requirements/dns.md)
-#### 
 
 [よく寄せられる質問](https://go.microsoft.com/fwlink/p/?LinkId=798227)
   
