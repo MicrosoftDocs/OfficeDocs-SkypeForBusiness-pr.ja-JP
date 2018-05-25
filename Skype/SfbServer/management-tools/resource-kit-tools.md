@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: このトピックでは、各ツール、およびその使用方法の例の目的を含む、ビジネス サーバー 2015 リソース キットの Skype では、ツールについて説明します。 ビジネス 2015 リソース キットの Skype は、展開およびビジネス サーバー 2015 の Skype を管理する IT 管理者の日常的なタスクを容易に役立ちます。 たとえば、オンライン会議中にユーザーによってアップロードされたデータを簡単に制御するのには Web Conf データ ツールを使用できます。 デリゲートの呼び出しを転送し、ユーザーへの応答を設定するのには、SEFAUtil ツールを使用できます。 IT 管理者は、ビジネス サーバー 2015 の Skype をより効果的に管理するためにこれらのツールを使用することをお勧めします。
-ms.openlocfilehash: 7178b7e5566badfea8096e314b1ac23213173a35
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 29ec63c387802e86144f5b1aa24e5441edec9939
+ms.sourcegitcommit: 4f5f298d59ecd914db9393b8b54e2abfc10e725a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype for Business Server 2015 リソース キット ツールのドキュメント
  
@@ -240,9 +240,9 @@ WanLinkLogCollector.exe を使用するには、次の 3 つの手順を実行�
   
 1. **タイムラインのログ**レポートを生成する必要があるタイムラインを提供します。
     
-2. **ファイルのディレクトリを指定します。**ファイルの場所に関する情報を提供します。
+2. **ファイルのディレクトリを指定します。** ファイルの場所に関する情報を提供します。
     
-3. **ログを収集しレポート ビューアーを起動します。**レポートを生成するコマンドを実行します。
+3. **ログを収集しレポート ビューアーを起動します。** レポートを生成するコマンドを実行します。
     
 #### <a name="step-1---log-the-timeline"></a>手順 1 - ログのタイムラインを指定する
 
@@ -279,7 +279,6 @@ WanLinkLogCollector.exe を使用するには、次の 3 つの手順を実行�
   
 [**OK **] をクリックします。BandwidthUtilizationAnalyzer.xlsm は自動的に起動します。メッセージ ボックスの指示に従います。詳細については、次のセクション「**BandwidthUtilizationAnalyzer.xlsm の使用**」を参照してください。
   
-#### 
 
 ### <a name="using-bandwidthutilizationanalyzerxlsm"></a>BandwidthUtilizationAnalyzer.xlsm の使用
 
@@ -475,7 +474,7 @@ DBAnalyze は、データベースのビジネス サーバー 2015 Skype に関
     
 - **会議モード**Mcu (マルチポイント コントロール ユニット)、アクティブな参加者のリスト、および各会議、作業中の会議、出席者リスト、メディアの種類の一覧のすべてのスケジュールに詳細を含む、特定の会議のレポートの詳細なデータが許可されます。参加者の信号の状態です。
     
-- **ミーティング ID をデコードします。**ミーティングの ID を **/pstnid**スイッチで指定されていますが、詳細については、バック エンドに接続していない公衆交換電話網 (PSTN) をデコードします。
+- **ミーティング ID をデコードします。** ミーティングの ID を **/pstnid**スイッチで指定されていますが、詳細については、バック エンドに接続していない公衆交換電話網 (PSTN) をデコードします。
     
 - **会議を解決するには****/Pstnid**スイッチで指定された ID で示されている会議についての情報を表示する PSTN 会議 ID をデコードします。
     
