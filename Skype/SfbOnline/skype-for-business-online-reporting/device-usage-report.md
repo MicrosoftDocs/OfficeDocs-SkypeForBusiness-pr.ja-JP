@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 新しい Office 365 のレポート ダッシュ ボードによって、組織で Office 365 製品間でのアクティビティの概要がわかります。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 やなどのデバイスの使用状況レポートをビジネス用の Skype を使用するには、Windows ベースのオペレーティング システムを含む、デバイスにモバイル デバイスをビジネス アプリケーションの Skype がインストールされ、IM および会議のためのそれを使用しています。 詳細については、Office 365 の管理センターでの活動レポートをご覧ください。
-ms.openlocfilehash: 711138e62b6614606b8532004591547cb2acd525
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 415522c9b8999229e32c90b2ac3be0a69a068a9c
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="device-usage-report"></a>デバイスの使用状況レポート
 
@@ -54,8 +54,9 @@ ms.lasthandoff: 05/09/2018
 ***
 ![番号 1](../images/sfbcallout1.png)<br/>**Skype**ビジネス デバイスの使用状況のレポートは、傾向の過去 7 日間、30 日、90 日または 180 日間に表示できます。 ただし、クリックした場合、レポート内の特定の日に、テーブル (7 を参照してください) データが表示されます日までの 30 日間 (番号 2 を参照) のレポートが生成されました。
 
-    > [!Note]
-    > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
+> [!NOTE]
+> 特定の日の詳細をクリックすると、テーブルはレポートが生成された日付までの 30 日間のデータを表示のみです。
+    
 ***
 ![番号 2](../images/sfbcallout2.png)<br/>
 各レポートには、このレポートが生成された日付が表示されます。 レポートは、通常、活動の時間から 24-48 時間の遅延時間を反映します。 

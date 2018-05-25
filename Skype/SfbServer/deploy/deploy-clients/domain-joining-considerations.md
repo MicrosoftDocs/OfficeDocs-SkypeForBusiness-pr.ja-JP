@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: このトピックでは、Skype Room System アプライアンス PC をドメインに参加させる方法について説明します。
-ms.openlocfilehash: 93aa983080ee93f38143224b6c74bdcd6490842c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e858122b8c931c53a7cb2eff0fe58ff225547a07
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Skype Room System のドメイン参加に関する考慮事項
  
@@ -62,6 +62,12 @@ Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomS
 
 独立した OU を作成して継承をブロックしても、ハイ レベルな部分で問題を引き起こす可能性のあるポリシーがいくつか存在します。 No Override を設定したグループ ポリシーは、Block Policy Inheritance を設定した OU より優先されます。 詳細についてを参照してください「いいえオーバーライドとの比較にポリシーを継承」の記事でグループ ポリシーのドキュメントでhttp://technet.microsoft.com/en-us/library/cc978255.aspxです。
   
-これらの問題を解決する手段は、1 つではないかもしれません。 組織の Active Directory の専門家に、適切な GPO 設定の OU、少なくとも上で説明したポリシーが存在しない OU が提供されていることを確認するようにしてください。 Skype ルーム システムのサービス品質 (QoS) を有効にすることをお勧めします。
-  
+これらの問題を解決する手段は、1 つではないかもしれません。 組織の Active Directory の専門家に、適切な GPO 設定の OU、少なくとも上で説明したポリシーが存在しない OU が提供されていることを確認するようにしてください。 Skype ルーム システム デバイスのサービスの品質 (QoS) を有効にすることをお勧めします。
 
+## <a name="see-also"></a>関連項目
+
+#### 
+  
+[デバイスの構成: 新規作成または既存の編集](../../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
+
+[サービスの品質を管理します。](../../plan-your-deployment/network-requirements/network-requirements.md#managing-quality-of-service)

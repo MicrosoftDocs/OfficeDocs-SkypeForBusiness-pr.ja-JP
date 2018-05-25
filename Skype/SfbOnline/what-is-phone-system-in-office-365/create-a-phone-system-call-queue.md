@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 81fbb40aad10687d3a75020a23b20cbeee7d5c2e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 119e56f27edc992466a6565235715d2703b1cb12
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="create-a-phone-system-call-queue"></a>電話システム呼び出しキューを作成します。
 
@@ -49,7 +49,7 @@ ms.lasthandoff: 05/03/2018
 - シリアルのルーティングでは、キュー内の最初の呼び出しの呼び出しのすべてのエージェントで 1 つが呼び出されます。
     
     > [!NOTE]
-    > **オフライン**不可**、**自分の存在を設定して、呼び出しキューを選択して、エージェントを呼び出しハンドラーは呼び出されません。
+    > **オフライン**不可 **、** 自分の存在を設定して、呼び出しキューを選択して、エージェントを呼び出しハンドラーは呼び出されません。
   
 - 一度に 1 回のみの着信通知 (キューの最初にある通話) がコール エージェントに送信されます。
     
@@ -127,7 +127,10 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
 ![呼び出しの配布方法のオプションを示しています](../images/5d249515-d532-4af2-90da-011404028b89.png)
   
 ***
-![番号 1](../images/sfbcallout1.png)<br/>**配布メソッドを呼び出す**呼び出しキューの配布方法の**アテンダント**または**シリアル**のいずれかを選択できます。 新規および既存の呼び出しのすべてのキューは、応答のルーティングが既定で選択されているがあります。 シリアルのルーティングを使用するには、UI およびコマンドレットの**シリアル**のルーティング オプションを明示的に選択する必要があります。 <br/><br/> シリアルのルーティングを選択すると、呼び出しキューを保存する、キューからの呼び出しは、[エージェント] ボックスの一覧の先頭から開始、エージェント、1 つずつをリングします。 エージェントを閉じる、または呼び出しを受けない呼び出しがリストには、次のエージェントが呼び出され、すべてのエージェントによって 1 つ選択して、または、キューで待機していた時間を試みます。  <br/><br/>  **注:** シリアルのルーティングと、**オフライン**は、自分の存在を**不可**に設定している、または**削除**このキューからの呼び出しを取得するユーザー エージェントはスキップされます。  
+![番号 1](../images/sfbcallout1.png)<br/>**配布メソッドを呼び出す**呼び出しキューの配布方法の**アテンダント**または**シリアル**のいずれかを選択できます。 新規および既存の呼び出しのすべてのキューは、応答のルーティングが既定で選択されているがあります。 シリアルのルーティングを使用するには、UI およびコマンドレットの**シリアル**のルーティング オプションを明示的に選択する必要があります。 <br/><br/> シリアルのルーティングを選択すると、呼び出しキューを保存する、キューからの呼び出しは、[エージェント] ボックスの一覧の先頭から開始、エージェント、1 つずつをリングします。 エージェントを閉じる、または呼び出しを受けない呼び出しがリストには、次のエージェントが呼び出され、すべてのエージェントによって 1 つ選択して、または、キューで待機していた時間を試みます。   
+
+> [!NOTE]
+> シリアルのルーティングと、**オフライン**は、自分の存在を**不可**に設定している、または**削除**このキューからの呼び出しを取得するユーザー エージェントはスキップされます。 
    
 ### <a name="select-an-agent-opt-out-option"></a>エージェントの選択] のオプションが脱退します。
 
@@ -163,7 +166,7 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
 ***
 ![番号 2](../images/sfbcallout2.png)<br/><br/>**呼び出しの最大数に達したとき**呼び出しキューでは、(**キューの最大数を呼び出す**設定を使用して設定) の最大のサイズに達すると、新しくかかってきた呼び出しの動作を選択します。
 *    **ビジー信号を切断します** 通話は切断されます。
-*    **呼び出しを転送します。**これを選択するとこれらのオプションが用意されます。
+*    **呼び出しを転送します。** これを選択するとこれらのオプションが用意されます。
      *    **あなたの会社の人****電話システム**のライセンスを持つオンラインのユーザーとエンタープライズ VoIP を有効にすることも計画を呼び出します。 発信中のユーザーがボイスメールに送信されるように設定できます。 これを行うは、 **、会社の担当者**を選択し、通話をボイスメールに直接転送されるには、このユーザーを設定します。 <br/> <br/>ボイスメールに必要なライセンスについては、[電話システムのボイス メールの設定](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)を参照してください。 
      
         > [!Note]
@@ -177,7 +180,7 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
 ***
 ![番号 4](../images/sfbcallout4.png)<br/><br/>**通話がタイムアウトした場合** [ **通話のキュー内での待機時間**] 設定で指定した制限に達した通話に対する処理方法を選択できます。
 *    **切断** 通話は切断されます。
-*    **呼び出しを転送します。**これを選択するとこれらのオプションが用意されます。
+*    **呼び出しを転送します。** これを選択するとこれらのオプションが用意されます。
      *    **あなたの会社の人****電話システム**のライセンスを持つオンラインのユーザーのエンタープライズ VoIP を有効にするか、計画を呼び出すことがあるとします。 発信中のユーザーがボイスメールに送信されるように設定できます。 これを行うは、 **、会社の担当者**を選択し、通話をボイスメールに直接転送されるには、このユーザーを設定します。 </br><br/>  ボイスメールに必要なライセンスについては、[電話システムのボイス メールの設定](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)を参照してください。 
 
         > [!Note]
@@ -222,7 +225,7 @@ Windows PowerShell を使用して通話キューを作成し、設定するこ�
     
 ### <a name="more-about-windows-powershell"></a>Windows PowerShell の詳細について
 
-- Windows PowerShell で行うのは、ユーザーを管理し、ユーザーに何を許可して何を禁止するかを管理することです。Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     

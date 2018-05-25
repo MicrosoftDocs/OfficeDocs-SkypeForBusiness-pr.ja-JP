@@ -20,17 +20,19 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: '電話システム、電話会議、計画を呼び出し、および通信のクレジットのビジネス ライセンスを Skype に割り当てる方法について説明します。 '
-ms.openlocfilehash: 00c80637e4b94a66f63c43e51f0bc3e562d42bea
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9cc11ea1e527ccfae205152ae869316bbb3ffa88
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="assign-skype-for-business-and-microsoft-teams-licenses"></a>Skype for Business と Microsoft Teams のライセンスを割り当てる
 
 この資料では、オーディオ会議、電話システム、および計画を呼び出すような機能をユーザーにライセンスを割り当てる方法のヒントを紹介します。一括でライセンスを割り当てるためのスクリプトも提供します。
+
+> [!IMPORTANT]
+> 参照してください[Skype ビジネスおよびマイクロソフトのチームのアドオンのライセンス](skype-for-business-and-microsoft-teams-add-on-licensing.md)についてはどのようなライセンスを購入する必要があり、**購入する方法**に、Office 365 によって計画のため、ユーザーは、オーディオ会議、フリー ダイヤル番号、および呼び出す機能を取得業務外の電話番号です。
   
- **重要**: どのようなライセンス供与を受ける方法についてを参照してください[Skype](skype-for-business-and-microsoft-teams-add-on-licensing.md)する必要があります購入と**購入方法**にによっては、Office 365 の計画では、オーディオ会議、フリー ダイヤル番号を表示するようにし、業務外の電話番号を呼び出すことです。
   
 ## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>電話システムと通話プラン: ライセンス割り当てのヒントとスクリプト
 
