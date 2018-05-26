@@ -12,29 +12,29 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 description: ライセンス認証や、サーバーまたはコンピューターの状態の設定に記載されているプールを使用して、展開済みの永続的なチャット サーバーまたは永続的なチャット サーバー プールを非アクティブ化します。 リスト内のサーバーまたはプールを選択し] をクリックするアクティブなサーバーまたはプールをアクティブとして設定するのには。
-ms.openlocfilehash: 4005cbd2aa6973023321fe198876a6b4149b9476
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 30ffdd1f136f738ea21bec38242f86c6b3a5e360
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
-# <a name="persistent-chat-machines-expander"></a><span data-ttu-id="ad129-104">常設チャット コンピューターのエキスパンダー</span><span class="sxs-lookup"><span data-stu-id="ad129-104">Persistent Chat Machines Expander</span></span>
+# <a name="persistent-chat-machines-expander"></a><span data-ttu-id="03de6-104">常設チャット コンピューターのエキスパンダー</span><span class="sxs-lookup"><span data-stu-id="03de6-104">Persistent Chat Machines Expander</span></span>
  
-<span data-ttu-id="ad129-105">ライセンス認証や、サーバーまたは**コンピューターの状態の設定**に記載されているプールを使用して、展開済みの永続的なチャット サーバーまたは永続的なチャット サーバー プールを非アクティブ化します。</span><span class="sxs-lookup"><span data-stu-id="ad129-105">You activate or deactivate a deployed Persistent Chat Server or Persistent Chat Server pool by using the servers or pools listed in **Machine state settings**.</span></span> <span data-ttu-id="ad129-106">一覧にあるサーバーまたはプールを選択し、[**アクティブにする**] をクリックすると、サーバーまたはプールはアクティブに設定されます。</span><span class="sxs-lookup"><span data-stu-id="ad129-106">You select a server or pool in the list and click the **Make active** button to set a server or pool as active.</span></span>
+<span data-ttu-id="03de6-105">ライセンス認証や、サーバーまたは**コンピューターの状態の設定**に記載されているプールを使用して、展開済みの永続的なチャット サーバーまたは永続的なチャット サーバー プールを非アクティブ化します。</span><span class="sxs-lookup"><span data-stu-id="03de6-105">You activate or deactivate a deployed Persistent Chat Server or Persistent Chat Server pool by using the servers or pools listed in **Machine state settings**.</span></span> <span data-ttu-id="03de6-106">一覧にあるサーバーまたはプールを選択し、[**アクティブにする**] をクリックすると、サーバーまたはプールはアクティブに設定されます。</span><span class="sxs-lookup"><span data-stu-id="03de6-106">You select a server or pool in the list and click the **Make active** button to set a server or pool as active.</span></span>
   
-<span data-ttu-id="ad129-107">リスト内のサーバーまたはプールを選択することによって、非アクティブに展開済みの永続的なチャット サーバーまたは永続的なチャット サーバー プールを設定し、[**非アクティブ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ad129-107">You set a deployed Persistent Chat Server or Persistent Chat Server pool to inactive by selecting the server or pool in the list and click **Make inactive**.</span></span> <span data-ttu-id="ad129-108">ただし、少なくとも 1 台のサーバーがアクティブに設定されている必要があります。</span><span class="sxs-lookup"><span data-stu-id="ad129-108">At least one server must be set to active.</span></span>
+<span data-ttu-id="03de6-107">リスト内のサーバーまたはプールを選択することによって、非アクティブに展開済みの永続的なチャット サーバーまたは永続的なチャット サーバー プールを設定し、[**非アクティブ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="03de6-107">You set a deployed Persistent Chat Server or Persistent Chat Server pool to inactive by selecting the server or pool in the list and click **Make inactive**.</span></span> <span data-ttu-id="03de6-108">ただし、少なくとも 1 台のサーバーがアクティブに設定されている必要があります。</span><span class="sxs-lookup"><span data-stu-id="03de6-108">At least one server must be set to active.</span></span>
   
- <span data-ttu-id="ad129-109">[**OK**]: ダイアログでの変更を受け入れて確定します。</span><span class="sxs-lookup"><span data-stu-id="ad129-109">**OK** Accepts and commits changes to the dialog.</span></span>
+ <span data-ttu-id="03de6-109">[**OK**]: ダイアログでの変更を受け入れて確定します。</span><span class="sxs-lookup"><span data-stu-id="03de6-109">**OK** Accepts and commits changes to the dialog.</span></span>
   
- <span data-ttu-id="ad129-110">[**キャンセル**]: 変更を破棄してダイアログを閉じます。</span><span class="sxs-lookup"><span data-stu-id="ad129-110">**Cancel** Discards changes and closes the dialog.</span></span>
+ <span data-ttu-id="03de6-110">[**キャンセル**]: 変更を破棄してダイアログを閉じます。</span><span class="sxs-lookup"><span data-stu-id="03de6-110">**Cancel** Discards changes and closes the dialog.</span></span>
   
- <span data-ttu-id="ad129-111">[**ヘルプ**]: このヘルプ画面を表示します。</span><span class="sxs-lookup"><span data-stu-id="ad129-111">**Help** Displays this help screen.</span></span>
+ <span data-ttu-id="03de6-111">[**ヘルプ**]: このヘルプ画面を表示します。</span><span class="sxs-lookup"><span data-stu-id="03de6-111">**Help** Displays this help screen.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="ad129-112">関連項目</span><span class="sxs-lookup"><span data-stu-id="ad129-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="03de6-112">関連項目</span><span class="sxs-lookup"><span data-stu-id="03de6-112">See also</span></span>
 
 #### 
 
-[<span data-ttu-id="ad129-113">ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの計画</span><span class="sxs-lookup"><span data-stu-id="ad129-113">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[<span data-ttu-id="03de6-113">ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの計画</span><span class="sxs-lookup"><span data-stu-id="03de6-113">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[<span data-ttu-id="ad129-114">ビジネス サーバー 2015 トポロジの場合、Skype に永続的なチャット サーバーを追加します。</span><span class="sxs-lookup"><span data-stu-id="ad129-114">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[<span data-ttu-id="03de6-114">ビジネス サーバー 2015 トポロジの場合、Skype に永続的なチャット サーバーを追加します。</span><span class="sxs-lookup"><span data-stu-id="03de6-114">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
 

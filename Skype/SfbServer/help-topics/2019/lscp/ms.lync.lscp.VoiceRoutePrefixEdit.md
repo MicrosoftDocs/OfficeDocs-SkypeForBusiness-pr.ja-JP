@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6e63c33-7927-4813-81cc-9624c2098177
 description: プレフィックスを定義するかを含め、このルートを処理する必要があります番号の接頭番号を追加、数字を開始して、必要な場合は + です。 たとえば、+123 で始まるすべての番号を照合することができます。
-ms.openlocfilehash: af937453bd365480bfbe2474308a2a95c288beaf
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: c13a9eab14f7e16f7c0af2f1b4e64ea0b73103b6
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
-# <a name="prefix-edit"></a><span data-ttu-id="001f7-104">プレフィックスの編集</span><span class="sxs-lookup"><span data-stu-id="001f7-104">Prefix Edit</span></span>
+# <a name="prefix-edit"></a><span data-ttu-id="7efbf-104">プレフィックスの編集</span><span class="sxs-lookup"><span data-stu-id="7efbf-104">Prefix Edit</span></span>
  
-<span data-ttu-id="001f7-105">プレフィックスを定義するかを含め、このルートを処理する必要があります番号の接頭番号を追加、数字を開始して、必要な場合は + です。</span><span class="sxs-lookup"><span data-stu-id="001f7-105">To define prefixes or starting digits, add number prefixes that this route should handle, including the + if necessary.</span></span> <span data-ttu-id="001f7-106">たとえば、+123 で始まるすべての番号を照合することができます。</span><span class="sxs-lookup"><span data-stu-id="001f7-106">For example, you can match all numbers starting with +123.</span></span>
+<span data-ttu-id="7efbf-105">プレフィックスを定義するかを含め、このルートを処理する必要があります番号の接頭番号を追加、数字を開始して、必要な場合は + です。</span><span class="sxs-lookup"><span data-stu-id="7efbf-105">To define prefixes or starting digits, add number prefixes that this route should handle, including the + if necessary.</span></span> <span data-ttu-id="7efbf-106">たとえば、+123 で始まるすべての番号を照合することができます。</span><span class="sxs-lookup"><span data-stu-id="7efbf-106">For example, you can match all numbers starting with +123.</span></span>
   
-<span data-ttu-id="001f7-107">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="001f7-107">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="7efbf-107">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7efbf-107">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
   
 
