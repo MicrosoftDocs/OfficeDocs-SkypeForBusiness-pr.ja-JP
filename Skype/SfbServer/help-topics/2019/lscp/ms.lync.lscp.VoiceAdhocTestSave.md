@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 description: 一時音声ルーティング テスト_ケースを保存するのには、[音声ルーティング テスト_ケース情報の保存] ダイアログ ボックスを使用できます。 [音声ルーティング テスト_ケース情報を保存、名前でこのテスト_ケースを指定し、[OK] をクリックする名前を入力します。
-ms.openlocfilehash: 29f57c2e8867eee4e8b55e3feddc30835e0f8750
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 24c06173fd1d1899693549dbfb563968f84e0e3d
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="save-voice-routing-test-case-information"></a>音声のルーティング テスト_ケース情報を保存します。
  
@@ -25,6 +25,6 @@ ms.lasthandoff: 05/24/2018
 > [!NOTE]
 > 一時的なテスト_ケースを保存するときは、中央管理ストアにない保存されます。 代わりに、ほうがテストの場合、[**音声ルーティング**] ページの [**音声ルーティングのテスト**] タブから利用可能です。 **Uncommitted**の状態のテスト_ケースが表示されます。 テスト_ケースを中央管理ストアに保存するには、**音声ルーティング**] ページで、[**操作**] メニューから**すべてのコミット**] をクリックして音声の構成をコミットする必要があります。
   
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。
+詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。
   
 

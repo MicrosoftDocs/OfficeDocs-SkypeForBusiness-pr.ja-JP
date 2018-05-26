@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 description: Enterprise Edition 展開の場合、A V 会議サービスがフロント エンド プールに併設されているとします。 また、フロント エンド プールに仲介サーバーに集約できます。 またはスタンドアロン サーバーとして展開することができます。 A V 会議サービスは、常に同じ場所に会議が有効になっている場合とします。
-ms.openlocfilehash: c68ed9e05252d72739f2912f109951d0be723699
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 0bbe69bdddd0fd9317e33a8f3d5a90be089c4374
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="add-front-end-server-collocations"></a>フロント エンド サーバーの Collocations を追加します。
  
@@ -33,6 +33,6 @@ Enterprise Edition 展開の場合、A V 会議サービスがフロント エ�
     
 Microsoft Lync Server 2013 フロント エンド プール、仲介サーバーを連結するが、負荷を処理できるかどうかを評価するために、計画ツールを使用することができます。 お客様の環境では、これら要件を満たすことはできません、する場合は、スタンドアロン仲介サーバー プールを展開する必要があります。
   
-一般に、高い可用性とスケーラビリティの要件がある場合、仲介サーバーのコロケーションは推奨されません。 Enterprise Edition の展開でフロント エンド プール内のこれらのサーバー ロールの配置についての詳細は、展開に関するドキュメントの[定義およびフロント エンド プールを構成する](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)を参照してください。 詳細については、A の V 会議の機能およびコンポーネントは、計画のドキュメントで[の会議を計画する](http://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx)を参照するくださいとします。 エンタープライズ VoIP 機能と、仲介サーバーを含め、コンポーネントの詳細についてを参照してください[ビジネス サーバー 2015 の Skype でエンタープライズ VoIP の計画](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)計画マニュアルを参照します。
+一般に、高い可用性とスケーラビリティの要件がある場合、仲介サーバーのコロケーションは推奨されません。 Enterprise Edition の展開でフロント エンド プール内のこれらのサーバー ロールの配置についての詳細は、展開に関するドキュメントの[定義およびフロント エンド プールを構成する](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)を参照してください。 詳細については、A の V 会議の機能およびコンポーネントは、計画のドキュメントで[の会議を計画する](http://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx)を参照するくださいとします。 エンタープライズ VoIP 機能と、仲介サーバーを含め、コンポーネントの詳細についてを参照してください[ビジネス サーバー 2015 の Skype でエンタープライズ VoIP の計画](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)計画マニュアルを参照します。
   
 

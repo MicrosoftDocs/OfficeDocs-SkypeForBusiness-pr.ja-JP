@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: 環境内で利用可能なサービスを検索するのには、[サービス] ダイアログ ボックスの選択を使用します。 既存のサービスを使用するには、一覧のサービスをクリックし、し、[OK] をクリックします。
-ms.openlocfilehash: fa302a1ed6273d54dbd1e6ea74e6e2c6acb0daba
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 8e7d96479a0c5703a8b480ce88267ba74e5a35d7
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="select-a-service"></a>サービスの選択
  
 [**サービスの選択**] ダイアログ ボックスを使用して、環境で使用可能なサービスを検索します。既存のサービスを使用するには、一覧でサービスをクリックして [**OK**] をクリックします。 
   
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。
+詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。
   
 ## <a name="tasks-you-can-perform"></a>実行できるタスク
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/24/2018
     
 - [永続的なチャット サーバーのオプションをグローバルに、または永続的なチャット サーバー プールの構成します。](http://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
     
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。
+詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。
   
 ## <a name="to-configure-categories-for-chat-rooms"></a>チャット ルームのカテゴリを構成するには
 

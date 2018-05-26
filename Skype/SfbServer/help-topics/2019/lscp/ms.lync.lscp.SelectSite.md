@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: 環境内で利用可能なサイトを検索するのには、[サイト] ダイアログ ボックスの選択を使用します。 既存のサイトを使用するには、一覧の [サイト] をクリックし、[OK] をクリックします。
-ms.openlocfilehash: 7c39b0d4d0fad775f1c271542f76889060267c33
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7aba1089d73188c2d65771a87f01a20f93c48c4a
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="select-a-site"></a>サイトの選択
  
@@ -25,7 +25,7 @@ ms.lasthandoff: 05/24/2018
 > [!NOTE]
 > 使用可能なサイトをすべて取得するには、検索ボックスに何も入力せずに検索アイコンをクリックします。 
   
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。
+詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。
   
 ## <a name="tasks-you-can-perform"></a>実行できるタスク
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/24/2018
     
 - [永続的なチャットのサイト ポリシーを作成します。](http://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
     
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。
+詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。
   
 ## <a name="to-configure-persistent-chat-options-globally"></a>永続的なチャット ルームのオプションをグローバルに構成するのには
 

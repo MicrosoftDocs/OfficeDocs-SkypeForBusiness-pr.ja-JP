@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: Skype のビジネス サーバーのユーザーを構成するのには、検索クエリの結果を使用できます。 ユーザーは、表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) で検索できます。 ユーザーの検索には、Lync Server コントロール パネルまたは Active Directory ユーザーおよびコンピューター スナップインを使用できます。
-ms.openlocfilehash: 9cf6384d10cc4b6d2931fb21c75fd09da873d383
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 188c60467f5579a56cd4b5fa85a616f2e4639663
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="control-panel---updated-user-search"></a>コントロール パネル - 更新: ユーザー検索
  
@@ -30,19 +30,19 @@ Skype のビジネス サーバーのユーザーを構成するのには、検�
     
 - [有効にするか、Lync Server 2010 のユーザーを無効にします。](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
     
-- [ユーザーの移動](move-user.md)
+- [ユーザーの移動](ms.lync.lscp.UserMove.md)
     
-- [すべてのユーザーを移動します。](move-all-users.md)
+- [すべてのユーザーを移動します。](ms.lync.lscp.UserMoveAll.md)
     
 - [ユーザーにポリシーを割り当てる](http://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
     
-- [ビジネス サーバー 2015 の Skype でエンタープライズ VoIP のユーザーを有効にします。](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [ビジネス サーバー 2015 の Skype でエンタープライズ VoIP のユーザーを有効にします。](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
     
 - [ユーザーのフェデレーション、リモート ユーザー アクセス、およびパブリック IM 接続を構成します。](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     
 - [ユーザーのテレフォニーを構成します。](http://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
     
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。
+詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。
   
 ## <a name="ui-reference"></a>UI リファレンス
 
@@ -72,9 +72,9 @@ Skype のビジネス サーバーのユーザーを構成するのには、検�
   
 ### <a name="search-results-menus"></a>検索結果メニュー
 
-- **ユーザーを有効にします。** 開く] をクリックして、[ユーザー: Lync Server のユーザーが新しい](users-new-lync-server-user.md)ダイアログ ボックスで、ビジネスのサーバーの Skype に新しいユーザーを追加する場所です。
+- **ユーザーを有効にします。** 開く] をクリックして、[ユーザー: Lync Server のユーザーが新しい](ms.lync.lscp.UserNew.md)ダイアログ ボックスで、ビジネスのサーバーの Skype に新しいユーザーを追加する場所です。
     
-    新しい連絡先を追加する、下向きの矢印をクリックし、**連絡先を有効にする**を開くには、[ユーザー: 新しい連絡先オブジェクト](users-new-contact-objects.md)ダイアログです。
+    新しい連絡先を追加する、下向きの矢印をクリックし、**連絡先を有効にする**を開くには、[ユーザー: 新しい連絡先オブジェクト](ms.lync.lscp.UserNewContact.md)ダイアログです。
     
 - **編集**[**編集**] をクリックし、選択したユーザーの詳細を表示または**検索結果をすべて選択**結果テーブルに表示されるすべてのユーザーを選択する] をクリックして**詳細を表示する**をクリックします。
     
@@ -84,11 +84,11 @@ Skype のビジネス サーバーのユーザーを構成するのには、検�
     
   - **Lync Server を一時的に無効にします。** 再度有効にするまで、ユーザー アカウントを削除することがなく、ビジネス サーバーの Skype のユーザー アカウントを無効にします。
     
-  - **ポリシーを割り当てる**開き、[ユーザー: ポリシーの割り当て](users-assign-policies.md)ダイアログ ボックスで、ユーザーに割り当てられているポリシーを構成することができます。
+  - **ポリシーを割り当てる**開き、[ユーザー: ポリシーの割り当て](ms.lync.lscp.UserAssignPolicy.md)ダイアログ ボックスで、ユーザーに割り当てられているポリシーを構成することができます。
     
-  - **表示ピンの状態**開き、[ユーザー: 暗証番号 (pin) の状態を表示する](users-view-pin-status.md)ダイアログ ボックスで、選択したユーザーの暗証番号 (pin) のデータが表示されます。
+  - **表示ピンの状態**開き、[ユーザー: 暗証番号 (pin) の状態を表示する](ms.lync.lscp.UserViewPin.md)ダイアログ ボックスで、選択したユーザーの暗証番号 (pin) のデータが表示されます。
     
-  - **暗証番号 (pin) を設定します。** 選択したユーザーの PIN を設定できます、[暗証番号 (pin) の設定](set-pin.md)」ダイアログが開きます。
+  - **暗証番号 (pin) を設定します。** 選択したユーザーの PIN を設定できます、[暗証番号 (pin) の設定](ms.lync.lscp.UserSetPin.md)」ダイアログが開きます。
     
   - **ロック暗証番号 (pin)** ユーザーの暗証番号 (pin) をロックします。
     
@@ -98,8 +98,8 @@ Skype のビジネス サーバーのユーザーを構成するのには、検�
     
   - **ユーザー証明書を削除**ユーザーに与えられているすべての証明書を削除します。
     
-  - **プールを選択したユーザーの移動**選択したユーザーを移動するプールを選択することができます、[ユーザーの移動](move-user.md)」ダイアログが開きます。
+  - **プールを選択したユーザーの移動**選択したユーザーを移動するプールを選択することができます、[ユーザーの移動](ms.lync.lscp.UserMove.md)」ダイアログが開きます。
     
-  - **プールへのすべてのユーザーを移動します。** 選択したすべてのユーザーを移動するプールを選択することができます、[ユーザーの移動](move-user.md)」ダイアログが開きます。
+  - **プールへのすべてのユーザーを移動します。** 選択したすべてのユーザーを移動するプールを選択することができます、[ユーザーの移動](ms.lync.lscp.UserMove.md)」ダイアログが開きます。
     
 

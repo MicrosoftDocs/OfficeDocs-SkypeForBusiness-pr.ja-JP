@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 description: エージェント グループでは、応答グループへの呼び出しに応答できるユーザー (エージェントと呼ばれます) およびグループ内のすべてのエージェントに適用される設定が定義されています。
-ms.openlocfilehash: 4ae2869e335bc8d7d8b774f7daf7f5915dcba462
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f1802c77c991f91b317f6ac6f6a405259c1bec30
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>応答グループ: エージェント グループの新規作成または既存エージェント グループの編集
  
@@ -61,12 +61,12 @@ ms.lasthandoff: 05/24/2018
     > 配布リスト内でのエージェントの順序により、ラウンド ロビンおよびシリアルのルーティングでエージェントが呼び出しを受ける順序が決まります。 
   
     > [!NOTE]
-    > メンバーシップを非表示または非表示のリストが応答グループの管理者またはユーザーに見えるようになります。 詳細についてを参照してください[を作成するビジネス 2015年の Skype でエージェント グループを変更または](../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md)。 
+    > メンバーシップを非表示または非表示のリストが応答グループの管理者またはユーザーに見えるようになります。 詳細についてを参照してください[を作成するビジネス 2015年の Skype でエージェント グループを変更または](../../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md)。 
   
   - 応答グループのエージェントとして割り当てるユーザーを選択する場合は、[**エージェントのカスタム グループを定義する**] を選択します。リストにエージェントを追加するには、[**選択**] をクリックします。選択されているエージェントをリストから削除するには、[**削除**] をクリックします。
     
     上下矢印を使用すると、選択したエージェントがエージェント リスト内で上下に移動します。リスト内でのエージェントの順序により、ラウンド ロビンおよびシリアルのルーティングでエージェントが呼び出しを受ける順序が決まります。
     
-応答のグループの特徴と機能についての詳細は、計画のドキュメントで[ビジネス サーバー 2015 の Skype で応答グループ アプリケーションの計画](../../plan-your-deployment/enterprise-voice-solution/response-group.md)を参照してください。 エージェント グループの操作に関する詳細については、操作マニュアルで[エージェントの管理グループ](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)を参照してください。
+応答のグループの特徴と機能についての詳細は、計画のドキュメントで[ビジネス サーバー 2015 の Skype で応答グループ アプリケーションの計画](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)を参照してください。 エージェント グループの操作に関する詳細については、操作マニュアルで[エージェントの管理グループ](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)を参照してください。
   
 

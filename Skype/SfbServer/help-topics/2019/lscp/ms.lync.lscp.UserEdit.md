@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e687e12e-efae-4b8c-a716-c29c41ee7b75
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 507c70863513809a37fc1722a4272e2e726a3836
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7e3d357932032d67642dd9a116551c9e79e4d1b0
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="users-edit-user"></a>ユーザー: ユーザーを編集します。
  
@@ -24,13 +24,13 @@ ms.lasthandoff: 05/24/2018
   
 - [有効にするか、Lync Server 2010 のユーザーを無効にします。](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
     
-- [ビジネス サーバー 2015 の Skype でエンタープライズ VoIP のユーザーを有効にします。](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [ビジネス サーバー 2015 の Skype でエンタープライズ VoIP のユーザーを有効にします。](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
     
 - [ユーザーの既定の会議エクスペリエンスを変更する会議ポリシーを割り当てください。](http://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
     
 - [ユーザーがサインインできるクライアント バージョンを指定します。](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
     
-- [ビジネス サーバー 2015 の Skype のユーザー単位の PIN ポリシーを割り当てる](../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [ビジネス サーバー 2015 の Skype のユーザー単位の PIN ポリシーを割り当てる](../../../manage/authentication/assign-a-per-user-pin-policy.md)
     
 - [ユーザーのフェデレーション、リモート ユーザー アクセス、およびパブリック IM 接続を構成します。](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     
@@ -44,5 +44,5 @@ ms.lasthandoff: 05/24/2018
     
 - [永続的なチャット ユーザーごとのポリシーを割り当てる](http://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
     
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。
+詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。
 

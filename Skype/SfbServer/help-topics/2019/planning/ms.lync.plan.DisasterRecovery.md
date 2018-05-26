@@ -13,16 +13,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 description: ビジネス サーバー 2015 の Skype には、障害が含まれていますペアのフロント エンド プールを有効にすると回復手段は 2 つのデータ ・ センター内にあります。
-ms.openlocfilehash: 584a5c82619bc99bb4804bbb36140148fce8b6fe
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 0efcf3d2c93ef97bcf81b80868a26f0420587bb7
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="disaster-recovery-planning-tool"></a>災害復旧 (計画ツール)
  
 ビジネス サーバー 2015 の Skype には、障害が含まれていますペアのフロント エンド プールを有効にすると回復手段は 2 つのデータ ・ センター内にあります。
   
-災害復旧のため、環境を準備する方法の詳細は、[高可用性とビジネス サーバー 2015 の Skype での災害復旧の計画](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)を参照してください。
+災害復旧のため、環境を準備する方法の詳細は、[高可用性とビジネス サーバー 2015 の Skype での災害復旧の計画](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)を参照してください。
   
 

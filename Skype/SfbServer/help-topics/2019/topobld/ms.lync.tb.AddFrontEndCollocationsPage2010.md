@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d328bf4-85bc-4870-8d6f-008c0e46520e
 description: Enterprise Edition 展開では、どちらか A に集約できます V 会議サービス、仲介サーバー、またはフロント エンド プール、または両方を展開できますスタンドアロン サーバーとして各とします。 Standard Edition サーバーの展開、A V 会議サービスは、常に同じ場所に会議が有効になっている場合とします。
-ms.openlocfilehash: f8a1abf168447af7f45ed8f222ef80f029aff2bc
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 555f23cc9a6cf07f9a095edb56c8307c495def6c
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="add-front-end-server-collocations-2010"></a>フロント エンド サーバー Collocations 2010 を追加します。
  
@@ -33,6 +33,6 @@ Enterprise Edition 展開では、どちらか A に集約できます V 会議�
     
 Microsoft Lync Server 2013 フロント エンド プール、仲介サーバーを連結するが、負荷を処理できるかどうかを評価するために、計画ツールを使用することができます。 お客様の環境では、これら要件を満たすことはできません、する場合は、スタンドアロン仲介サーバー プールを展開する必要があります。
   
-A の全般的なコロケーションに/V 会議サーバーまたは仲介サーバー組織が高可用性とスケーラビリティ要件の詳細、Enterprise Edition フロント エンド プールでこれらのサーバー ロールを配置している場合を推奨されていません展開、展開に関するドキュメントの[定義およびフロント エンド プールを構成する](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)を参照してください。 詳細については、A の V 会議の機能およびコンポーネントは、計画のドキュメントで[の会議を計画する](http://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx)を参照するくださいとします。 エンタープライズ VoIP 機能と、仲介サーバーを含め、コンポーネントの詳細についてを参照してください[ビジネス サーバー 2015 の Skype でエンタープライズ VoIP の計画](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)計画マニュアルを参照します。
+A の全般的なコロケーションに/V 会議サーバーまたは仲介サーバー組織が高可用性とスケーラビリティ要件の詳細、Enterprise Edition フロント エンド プールでこれらのサーバー ロールを配置している場合を推奨されていません展開、展開に関するドキュメントの[定義およびフロント エンド プールを構成する](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)を参照してください。 詳細については、A の V 会議の機能およびコンポーネントは、計画のドキュメントで[の会議を計画する](http://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx)を参照するくださいとします。 エンタープライズ VoIP 機能と、仲介サーバーを含め、コンポーネントの詳細についてを参照してください[ビジネス サーバー 2015 の Skype でエンタープライズ VoIP の計画](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)計画マニュアルを参照します。
   
 

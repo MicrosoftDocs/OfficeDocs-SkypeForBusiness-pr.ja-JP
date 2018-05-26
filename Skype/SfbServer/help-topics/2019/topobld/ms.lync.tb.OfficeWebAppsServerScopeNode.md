@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 description: トポロジ ビルダーを使うには、次に Office の Web アプリケーション サーバーを右クリックします。
-ms.openlocfilehash: fccc7fc89c069b45a9482c3cea21b9faf189dc74
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 4418b338be168d997b3e3b703cbbfa8211332d39
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Office Web Apps サーバー スコープ ノード エキスパンダー
  
@@ -26,7 +26,7 @@ ms.lasthandoff: 05/24/2018
     
 だけでなく、新しい Office の Web アプリケーション サーバー] オプションは、次の一般的なタスクを実行できます。
   
-![Office WebApps Server スコープ ノード](../../media/OfficeWebApps_Server_Scope_Node.jpg)
+![Office WebApps Server スコープ ノード](../../../media/OfficeWebApps_Server_Scope_Node.jpg)
   
 - **トポロジ**。このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、以前のバージョンからのコンポーネントの結合、または展開の削除といった操作を実行できます。
     

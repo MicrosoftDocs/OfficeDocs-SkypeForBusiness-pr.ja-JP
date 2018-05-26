@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'ピンについて何を理解する必要があり、それらをリセットする方法を紹介します。 '
-ms.openlocfilehash: 092d51061c374e14485527993a95e03e8e29649d
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 956c8e1ec7a83832c9aa2605845bc7fd42a047f7
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="reset-the-audio-conferencing-pin"></a>オーディオ会議の暗証番号 (pin) をリセットします。
 
@@ -32,7 +32,17 @@ PIN は、電話会議が有効になっているビジネスおよびマイク�
   
 ビジネスまたはマイクロソフトのチームのアプリケーションまたは開催者が自分の PIN と電話で参加するときに、Skype を使用して認証されたユーザーが参加するとき、会議を開始できます。 会議の開始に PIN が必要な場合、電話で参加するユーザーはロビーで待機し、会議が開始するまで保留音を聞くことになります。 会議の開催者が、電話で会議を開始するための PIN を要求しない場合、発信者は会議に参加しようとするときに PIN の提示を求められません。
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-reset-a-users-pin"></a>![デバイス ・ ロゴ ・ 30x30.png](../images/sfb-logo-30x30.png) ユーザーの PIN をリセットします。
+## <a name="reset-a-users-pin"></a>ユーザーの PIN をリセットします。
+
+![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
+
+1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
+
+2. ページの上部で、[**編集**] をクリックします。
+
+3. **オーディオ会議**では、[ **PIN のリセット**] をクリックします。
+
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png)  **ビジネス管理センターの Skype を使用します。**
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -45,7 +55,14 @@ PIN は、電話会議が有効になっているビジネスおよびマイク�
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
    
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-have-a-user-reset-his-or-her-own-pin"></a>![デバイス ・ ロゴ ・ 30x30.png](../images/sfb-logo-30x30.png) ユーザーが自分の PIN のリセット
+## <a name="have-a-user-reset-his-or-her-own-pin"></a>ユーザーが自分の PIN のリセット
+
+![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
+
+1. ユーザーには、 [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing)。
+2. **PIN のリセット**] をクリックします。 
+
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png)  **ビジネス管理センターの Skype を使用します。**
 
 ユーザーは、[**ダイヤルイン会議**] ページで、[ **PIN のリセット**] オプションを使用して PIN をリセットできます。 このページは、3 つの方法のいずれかでアクセスできます。
 

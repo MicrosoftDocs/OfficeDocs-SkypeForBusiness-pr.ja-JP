@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 description: 永続的なチャット管理者は、作成し、チャット ルームのカテゴリを管理できます。 作成して、チャット ルームのカテゴリを管理するの一部として、永続的なチャット管理者は、プリンシパル (Active Directory ドメイン サービス グループ/コンテナー/ユーザー) を特定のカテゴリのチャット ルームのメンバーと作成者のアクセス権を持つを構成できます。 永続的なチャット管理者は、カテゴリに DeniedMembers を追加もでき、許可リストに明示的な除外リストになります。 DeniedMembers は、AllowedMembers では、何をオーバーライドします。
-ms.openlocfilehash: f8fc7179df8facb98408e4506cf681cbefb97c62
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 98e57342296f181971c799bafa1b77eccd24b509
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="select-denied-members"></a>拒否されたメンバーの選択
  
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/24/2018
     
 - [永続的なチャット サーバーの新機能](http://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
     
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。
+詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。
   
 ## <a name="to-configure-categories-for-chat-rooms"></a>チャット ルームのカテゴリを構成するには
 

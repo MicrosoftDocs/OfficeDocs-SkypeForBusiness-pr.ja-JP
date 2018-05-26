@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
 description: デバイスのテスト] ページにテスト デバイスを追加し、このデバイスを使用して本番デバイスに更新プログラムを展開する前に新しい更新プログラムの機能を検証できます。 デバイスをグローバルに (環境全体を使用して) テストしたり、単独のサイト内でテストしたりできます。 テスト デバイスは、そのメディア アクセス制御 (MAC) アドレスまたはシリアル番号で識別します。 デバイスを追加するとき、一覧に表示されます、[テスト デバイス] ページで、Skype のビジネス サーバーのコントロール パネルの。
-ms.openlocfilehash: de08a562695af309e795b0ded98c66ea738d0183
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 9d58c474b08cf1938a289743e57725cdf33d123f
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="test-device"></a>テスト デバイス
  
@@ -55,7 +55,7 @@ ms.lasthandoff: 05/24/2018
 
 #### 
 
-[テスト デバイス: 新規作成または既存の編集](test-device-create-new-or-edit-existing.md)
+[テスト デバイス: 新規作成または既存の編集](ms.lync.lscp.ClientDeviceTestEdit.md)
 #### 
 
 [新しい-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)

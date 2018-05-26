@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
 description: 環境内で使用可能な領域のリンクを検索するのにには、地域のリンク] ダイアログ ボックスを使用します。 地域の既存のリンクを使用するには、一覧に地域のリンクをクリックし、し、[OK] をクリックします。
-ms.openlocfilehash: a18bb0740e353752b9ff2d704e11499d78f91fc4
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: bc7261f326ee5f4c512d79465b86318d0f875b8b
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="select-a-region-link"></a>地域リンクの選択
  
@@ -25,6 +25,6 @@ ms.lasthandoff: 05/24/2018
 > [!NOTE]
 > 使用可能な地域リンクすべてを取得するには、検索ボックスに何も入力せずに検索アイコンをクリックします。 
   
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。
+詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。
   
 

@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f36a2699-5cf6-4995-9f6d-ec3519ca0903
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 03aea975fae29b6a905753a2365007fb5b8a584f
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 3d08e68860f4ee508c8464545ba4cbe69ccb2d9d
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="users-assign-policies"></a>ポリシーを割り当てるユーザー。
  
@@ -26,7 +26,7 @@ ms.lasthandoff: 05/24/2018
     
 - [ユーザーがサインインできるクライアント バージョンを指定します。](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
     
-- [ビジネス サーバー 2015 の Skype のユーザー単位の PIN ポリシーを割り当てる](../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [ビジネス サーバー 2015 の Skype のユーザー単位の PIN ポリシーを割り当てる](../../../manage/authentication/assign-a-per-user-pin-policy.md)
     
 - [ユーザーのフェデレーション、リモート ユーザー アクセス、およびパブリック IM 接続を構成します。](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     
@@ -40,5 +40,5 @@ ms.lasthandoff: 05/24/2018
     
 - [永続的なチャット ユーザーごとのポリシーを割り当てる](http://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
     
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。
+詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。
 

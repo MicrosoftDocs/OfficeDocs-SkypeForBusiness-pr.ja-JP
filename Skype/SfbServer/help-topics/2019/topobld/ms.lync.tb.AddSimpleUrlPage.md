@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 description: 展開の定義に追加の簡単な Url を追加するには、新しい簡単な URL の URL を指定します。
-ms.openlocfilehash: cbe129419d52e0030311c62c1cd6afeec97eef36
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 9b1dd8b96b1d8ee4e09c11aaa7752001ff465266
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="add-simple-url"></a>簡単な URL を追加します。
  
@@ -29,6 +29,6 @@ ms.lasthandoff: 05/24/2018
 > [!IMPORTANT]
 > 簡単な URL と 1 つ満たす簡単な URL はいつでもアクティブな 1 つのダイヤルを持つことができます。 新しい簡単な URL を追加して、アクティブな URL をすることは、新しい簡単な URL を使用するすべての要求を設定します。 会議と以前の簡単な URL がアクティブであったときに行われたその他の要求を処理するためにアクティブでない簡単な URL のままにします。 
   
-簡単な URL を追加する方法の詳細については、[ビジネス サーバー 2015 の Skype での簡単な Url の DNS の要件](../../plan-your-deployment/network-requirements/simple-urls.md)を参照してください。
+簡単な URL を追加する方法の詳細については、[ビジネス サーバー 2015 の Skype での簡単な Url の DNS の要件](../../../plan-your-deployment/network-requirements/simple-urls.md)を参照してください。
   
 

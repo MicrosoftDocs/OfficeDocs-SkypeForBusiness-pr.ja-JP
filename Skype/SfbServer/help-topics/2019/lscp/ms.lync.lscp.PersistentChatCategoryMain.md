@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b71c6e6f-681c-4230-954d-3e95ab64ca00
 description: カテゴリを構成するのには、永続的なチャットのページの [カテゴリ] セクションを使用できます。 永続的なチャット ルームのカテゴリは、チャット ルームを整理するための論理構造です。 カテゴリは、チャット ルームの作成やチャット ルームへの参加を許可するユーザーとユーザー グループを制御するアクセス制御リスト (ACL) の既定のセットを定義します。 カテゴリを使用して、組織内の異なる部門間に倫理的境界を設置できます。
-ms.openlocfilehash: 52c58cb17f4d5bec9fbfb61188ac67d5d57978c3
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f199220dc45e8a611682cfedc871ba744aa6d18e
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="persistent-chat-category-main-page"></a>常設チャット カテゴリ メイン ページ
  
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/24/2018
   
 チャット ルームのカテゴリは、チャット ルーム、その他のカテゴリではないに含まれる場合があります。 各カテゴリでは、その_名前_や_説明_などのメタデータの内容について説明します。 さらに、カテゴリにはプロパティが所属する、チャット ルームの動作を制御する設定することができる場合などチャット ルーム_への招待_または_ファイルのアップロード_、または_チャットの履歴_が含まれています。
   
-新しいカテゴリを作成するには、[ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの管理のカテゴリ](../../manage/persistent-chat/categories.md)を参照してください。 永続的なチャットの管理者は、コントロール パネルまたは Windows PowerShell コマンドレットを使用してカテゴリを作成します。
+新しいカテゴリを作成するには、[ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの管理のカテゴリ](../../../manage/persistent-chat/categories.md)を参照してください。 永続的なチャットの管理者は、コントロール パネルまたは Windows PowerShell コマンドレットを使用してカテゴリを作成します。
   
 ## <a name="tasks-that-you-can-perform"></a>実行できるタスク
 
@@ -74,6 +74,6 @@ ms.lasthandoff: 05/24/2018
     
 ### 
 
-持続チャット サーバーで永続的なチャット サーバーの機能と機能に関する詳細は、[ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの計画](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)、[ビジネス サーバー 2015 の Skype で永続的なチャット サーバーを展開](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)、および管理を[参照してください。ビジネス サーバー 2015 の Skype で](../../manage/persistent-chat/persistent-chat.md)。
+持続チャット サーバーで永続的なチャット サーバーの機能と機能に関する詳細は、[ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの計画](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)、[ビジネス サーバー 2015 の Skype で永続的なチャット サーバーを展開](../../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)、および管理を[参照してください。ビジネス サーバー 2015 の Skype で](../../../manage/persistent-chat/persistent-chat.md)。
   
 

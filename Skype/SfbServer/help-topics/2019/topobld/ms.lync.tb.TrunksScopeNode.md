@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 description: 次を実行するのにはトポロジ ビルダーでトランクを右クリックします。
-ms.openlocfilehash: e164e11c3185e8306146f3558459afbcf9fe52f5
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: fbd9f99a8f8b98589f204835a45a5ed7bd0984da
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="trunks-scope-node"></a>トランク スコープ ノード
  
@@ -26,7 +26,7 @@ ms.lasthandoff: 05/24/2018
     
 [新しいトランク] オプションに加えて、次の一般的なタスクを実行できます。
   
-![トランク スコープ ノード](../../media/Trunks_Scope_Node.jpg)
+![トランク スコープ ノード](../../../media/Trunks_Scope_Node.jpg)
   
 - **トポロジ**。このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、以前のバージョンからのコンポーネントの結合、または展開の削除といった操作を実行できます。
     

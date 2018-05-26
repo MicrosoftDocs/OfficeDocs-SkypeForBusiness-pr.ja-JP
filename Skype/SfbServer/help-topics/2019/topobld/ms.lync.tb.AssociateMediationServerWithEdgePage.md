@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 description: 仲介サーバーを定義するには、サーバーをフロント エンド サーバーと、エッジ サーバーまたはプールに仲介サーバーを関連付けるための設定を指定します。 エッジ サーバーまたはエッジ サーバー プールに仲介サーバーまたはプールを関連付けるには、次の操作を行います。
-ms.openlocfilehash: 543f0c9c7faa767d429693cd8f5f3ff7396a6169
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 105c379e2740db099df73dc5d534a8c94992d7ea
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="associate-mediation-server-with-edge"></a>エッジに仲介サーバーを関連付ける
  
@@ -29,6 +29,6 @@ ms.lasthandoff: 05/24/2018
 > [!NOTE]
 > まだ未定義の場合、エッジ サーバーまたはエッジ サーバー プールの展開で、ドロップ ダウン リストのエントリは含まれません。 **次へ**を続行し、展開に、エッジ サーバーまたはプールを追加した後は、仲介サーバーの設定を編集をクリックすることができます。
   
-詳細については、 [Skype のビジネス サーバー 2015 でトポロジ ビルダーでの仲介サーバーの展開](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)を参照してください。
+詳細については、 [Skype のビジネス サーバー 2015 でトポロジ ビルダーでの仲介サーバーの展開](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)を参照してください。
   
 

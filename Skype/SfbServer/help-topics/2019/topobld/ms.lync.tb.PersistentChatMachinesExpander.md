@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 description: ライセンス認証や、サーバーまたはコンピューターの状態の設定に記載されているプールを使用して、展開済みの永続的なチャット サーバーまたは永続的なチャット サーバー プールを非アクティブ化します。 リスト内のサーバーまたはプールを選択し] をクリックするアクティブなサーバーまたはプールをアクティブとして設定するのには。
-ms.openlocfilehash: 4005cbd2aa6973023321fe198876a6b4149b9476
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 30ffdd1f136f738ea21bec38242f86c6b3a5e360
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="persistent-chat-machines-expander"></a>常設チャット コンピューターのエキスパンダー
  
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/24/2018
 
 #### 
 
-[ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの計画](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの計画](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[ビジネス サーバー 2015 トポロジの場合、Skype に永続的なチャット サーバーを追加します。](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[ビジネス サーバー 2015 トポロジの場合、Skype に永続的なチャット サーバーを追加します。](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
 

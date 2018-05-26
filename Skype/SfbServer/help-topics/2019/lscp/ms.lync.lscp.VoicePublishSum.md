@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e5086fb-3c3b-432a-9eab-a9b12cb79d76
 description: 変更が完了しない場合、このダイアログ ボックスでメッセージを確認して、音声ルーティング構成を変更してやり直します。
-ms.openlocfilehash: c0fadb26a9671d876a7995154a2459959f5e9a0b
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 20bbc0893de138dad07568b5fd99294ad100e42b
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a>音声ルーティング構成の変更をコミットの状態を音声にルーティングします。
  
 変更が完了しない場合、このダイアログ ボックスでメッセージを確認して、音声ルーティング構成を変更してやり直します。
   
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。
+詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。
   
 

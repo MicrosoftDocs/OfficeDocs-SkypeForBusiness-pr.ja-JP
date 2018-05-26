@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 description: デバイスの構成は、全体またはサイト内のいずれか、ビジネス電話のエディション デバイスでは、Skype を管理するために使用される設定のコレクションです。 これらの設定を使用すると、必須のセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定、非アクティブな電話を指定の時間の経過後に自動的にロックするかどうかなどを構成できます。
-ms.openlocfilehash: 48412b650470ad5c8615edd486a8155d08ed74e6
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: b53d792e2d3aaafda298064b73fdf56aaff9d7db
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="device-configuration"></a>デバイス構成
  
@@ -54,7 +54,7 @@ ms.lasthandoff: 05/24/2018
 
 #### 
 
-[デバイスの構成: 新規作成または既存の編集](device-configuration-create-new-or-edit-existing.md)
+[デバイスの構成: 新規作成または既存の編集](ms.lync.lscp.ClientDeviceTestEdit.md)
 #### 
 
 [セット CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)

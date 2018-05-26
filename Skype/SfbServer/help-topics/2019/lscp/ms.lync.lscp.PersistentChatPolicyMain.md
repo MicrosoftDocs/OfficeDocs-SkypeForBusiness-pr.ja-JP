@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 description: 永続的なチャット グループの永続的なチャットのポリシー] ページを使用するには既定のグローバル ポリシーを構成するポリシーを作成する 1 つまたは複数追加ユーザーとサイトの展開など、グローバル、プール、サイト、またはユーザー レベルでポリシーを管理します。 永続的なチャット サーバーのポリシーによって、ユーザーが有効な場合は、それらのクライアントに永続的なチャット サーバーの環境が表示されます。
-ms.openlocfilehash: 14d600c558a7a72887aa7ff3e349857115e8a792
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 173264b08feddbc77bf3a3d8be4d4ad8d1978669
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="persistent-chat-policy-main-page"></a>常設チャット ポリシー メイン ページ
  
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/24/2018
 作成し、グローバル ポリシー、および永続的なチャット サーバーのユーザーを有効にする複数のサイトやユーザー ポリシーを構成できます。 プールとサイトの永続的なチャット サーバー ポリシーでは、永続的なチャット サーバーのグローバル ポリシーで、そのサイトのユーザーについてを上書きします。 ユーザー ポリシーは、両方のグローバル プールをオーバーライドし、ユーザー ポリシーが割り当てられるユーザー用のポリシーをサイトします。
   
 > [!NOTE]
-> 構成し、永続的なチャット サーバーを使用してするには最初のトポロジでは、永続的なチャット サーバーのサポートを追加するのにはトポロジ ビルダーを使用し、トポロジを公開します。 詳細については、[ビジネス サーバー 2015 トポロジの場合、Skype を永続的なチャットのサーバーを追加](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)を参照してください。 
+> 構成し、永続的なチャット サーバーを使用してするには最初のトポロジでは、永続的なチャット サーバーのサポートを追加するのにはトポロジ ビルダーを使用し、トポロジを公開します。 詳細については、[ビジネス サーバー 2015 トポロジの場合、Skype を永続的なチャットのサーバーを追加](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)を参照してください。 
   
 ## <a name="tasks-that-you-can-perform"></a>実行できるタスク
 

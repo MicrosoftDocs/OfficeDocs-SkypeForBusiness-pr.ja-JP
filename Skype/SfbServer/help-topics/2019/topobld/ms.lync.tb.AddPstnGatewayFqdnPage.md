@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 description: 公衆交換電話網 (PSTN) ゲートウェイは、PSTN または構内交換 (機 PBX) には、エンタープライズ VoIP コンポーネントを接続するのには、完全修飾ドメイン名 (FQDN) を指定します。
-ms.openlocfilehash: c0aeed79091eab26cb61f953d1f181550d9c824c
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 423cb7c09de6a8b67e55701abd220013ecdc381d
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="define-the-pstn-gateway-fqdn"></a>PSTN ゲートウェイの FQDN を定義します。
  
 公衆交換電話網 (PSTN) ゲートウェイは、PSTN または構内交換 (機 PBX) には、エンタープライズ VoIP コンポーネントを接続するのには、完全修飾ドメイン名 (FQDN) を指定します。
   
-詳細については、 [Skype のビジネス サーバー 2015 の PSTN 接続のコンポーネント](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)を参照してください。
+詳細については、 [Skype のビジネス サーバー 2015 の PSTN 接続のコンポーネント](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)を参照してください。
   
 ## <a name="see-also"></a>関連項目
 

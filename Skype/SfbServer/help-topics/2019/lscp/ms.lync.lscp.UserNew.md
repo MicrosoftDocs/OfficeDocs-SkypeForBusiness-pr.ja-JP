@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 598b4f148f0a0780b078ecce5f7405ecaa34452d
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: e6391f7492a5bcf0811ae5ae545b9e7356be09ec
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="users-new-lync-server-user"></a>Lync Server ユーザーの新しいユーザー。
  
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/24/2018
     
 - [ユーザーがサインインできるクライアント バージョンを指定します。](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
     
-- [ビジネス サーバー 2015 の Skype のユーザー単位の PIN ポリシーを割り当てる](../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [ビジネス サーバー 2015 の Skype のユーザー単位の PIN ポリシーを割り当てる](../../../manage/authentication/assign-a-per-user-pin-policy.md)
     
 - [ユーザーのフェデレーション、リモート ユーザー アクセス、およびパブリック IM 接続を構成します。](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     
@@ -38,7 +38,7 @@ ms.lasthandoff: 05/24/2018
     
 - [場所のポリシーをユーザーに割り当てる](http://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
     
-- [ビジネス サーバー 2015 の Skype でエンタープライズ VoIP のユーザーを有効にします。](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [ビジネス サーバー 2015 の Skype でエンタープライズ VoIP のユーザーを有効にします。](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
     
 - [ユーザーのフェデレーション、リモート ユーザー アクセス、およびパブリック IM 接続を構成します。](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     
@@ -48,5 +48,5 @@ ms.lasthandoff: 05/24/2018
     
 - [永続的なチャット ユーザーごとのポリシーを割り当てる](http://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
     
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。
+詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。
 

@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: フロント エンド サーバーまたはフロント エンド プールのプロパティを編集するには、編集または、次の属性を構成します。 構成] ページでは、次のセクションに分かれています。
-ms.openlocfilehash: 2e249f1bd7f0f42cdc23429d79afde86d3f175a3
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 11d93e27ab333fc03a65d0d578ca3bbeb933a43a
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 のフロント エンドの一般的な設定の拡張
  
@@ -39,7 +39,7 @@ ms.lasthandoff: 05/24/2018
     
 - 会議を選択した場合は、**会議**を選択できます。 ダイヤルイン会議機能を有効にする] チェック ボックスを選択します。
     
-- 電話の受話器を展開するためのオプションを含む、IP (VoIP) テクノロジー経由で音声を使用して、電話の音声システムとして機能するように Lync Server 2013 を有効にするには、トランク、またはパブリックの SIP の機能を展開する場合は、**エンタープライズ VoIP** ] チェック ボックスを選択します。仲介サーバー、PSTN ゲートウェイ、および、IP PBX を使用して交換電話ネットワークに接続の組み合わせで、または単独では、設計や要件に基づいています。 エンタープライズ VoIP の詳細は、「[エンタープライズ VoIP](http://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx)および[ビジネス サーバー 2015 の Skype でエンタープライズ VoIP の計画](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)の使用」を参照していますください。
+- 電話の受話器を展開するためのオプションを含む、IP (VoIP) テクノロジー経由で音声を使用して、電話の音声システムとして機能するように Lync Server 2013 を有効にするには、トランク、またはパブリックの SIP の機能を展開する場合は、**エンタープライズ VoIP** ] チェック ボックスを選択します。仲介サーバー、PSTN ゲートウェイ、および、IP PBX を使用して交換電話ネットワークに接続の組み合わせで、または単独では、設計や要件に基づいています。 エンタープライズ VoIP の詳細は、「[エンタープライズ VoIP](http://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx)および[ビジネス サーバー 2015 の Skype でエンタープライズ VoIP の計画](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)の使用」を参照していますください。
     
     **[関連付け]**
     

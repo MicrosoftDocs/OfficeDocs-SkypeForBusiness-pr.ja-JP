@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 description: 永続的なチャット サーバーまたは永続的なチャット サーバー プールのオプションを構成するには、次のプロパティを定義します。
-ms.openlocfilehash: 445e84b4be0567b63b9a56a7bc130e584a826430
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f1276fa72f9a6c41ac4d5ec8e2a91232561eb79d
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>常設チャット プールのプロパティとオプションの定義
  
@@ -28,7 +28,7 @@ ms.lasthandoff: 05/24/2018
   
  **コンプライアンスを有効にする**: の導入し、省略可能な永続的なチャットのコンプライアンス機能とデータベースを実装する場合はチェック ボックスをオンにします。
   
- **災害復旧を有効にする SQL Server のバックアップの使用を格納**します。 から別の SQL Server 上のストアの構成のバックアップ セットを展開し、永続的なチャットの SQL Server の災害復旧を実装する場合、このチェック ボックスを保存] を選択します。 詳細については、[構成の高可用性とビジネス サーバー 2015 の Skype での永続的なチャット サーバーの障害回復](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)を参照してください。
+ **災害復旧を有効にする SQL Server のバックアップの使用を格納**します。 から別の SQL Server 上のストアの構成のバックアップ セットを展開し、永続的なチャットの SQL Server の災害復旧を実装する場合、このチェック ボックスを保存] を選択します。 詳細については、[構成の高可用性とビジネス サーバー 2015 の Skype での永続的なチャット サーバーの障害回復](../../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)を参照してください。
   
 > [!NOTE]
 > このオプションは、複数のサーバーで構成されたプールに対してのみ使用できます。 
@@ -50,7 +50,7 @@ ms.lasthandoff: 05/24/2018
 
 #### 
 
-[ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの計画](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの計画](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[ビジネス サーバー 2015 トポロジの場合、Skype に永続的なチャット サーバーを追加します。](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[ビジネス サーバー 2015 トポロジの場合、Skype に永続的なチャット サーバーを追加します。](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
 

@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c0ecf64-258d-4b43-8fac-fa5ffa4e7646
 description: 永続的なチャット ルームの Url に関連付けるには、永続的なチャット ページの追加のセクションを使用できます。 これらの URL は、チャット ルームにいるクライアントの会話拡張機能ウィンドウに表示されます。 管理者が登録済みアドインの一覧にアドインを追加し、チャット ルームのマネージャー/作成者が登録済みアドインの 1 つにルームを関連付けると、ユーザーはクライアントでこのアップグレードを表示できるようになります。
-ms.openlocfilehash: 701a128095cd2d9e001109fb6623659d189b2fbb
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7c7dab8b3109834882e2f8cd8fc8285269fbec89
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="persistent-chat-add-in-main-page"></a>常設チャット アドイン メイン ページ
  
@@ -24,13 +24,13 @@ ms.lasthandoff: 05/24/2018
   
 アドインは、ルーム内でのエクスペリエンスを拡張するために使用されます。 一般的なアドインでは、株価情報は、チャット ルームがポストされ、拡張機能のウィンドウで株価履歴を表示しますを傍受した Silverlight アプリケーションを指す URL をなどがあります。 チャット ルームに OneNote 2013 の URL をアドインとして埋め込んで、"優先事項" や "今日のトピック" などの共有コンテキストを組み込むこともできます。
   
-永続的なチャット ルームのアドインを作成するには、[ビジネス サーバー 2015 の Skype での永続的なチャット ルームの設定 - アドイン](../../manage/persistent-chat/configure-add-ins.md)を参照してください。 永続的なチャットの管理者は、コントロール パネルまたは Windows PowerShell コマンドレットを使用してアドインを作成します。
+永続的なチャット ルームのアドインを作成するには、[ビジネス サーバー 2015 の Skype での永続的なチャット ルームの設定 - アドイン](../../../manage/persistent-chat/configure-add-ins.md)を参照してください。 永続的なチャットの管理者は、コントロール パネルまたは Windows PowerShell コマンドレットを使用してアドインを作成します。
   
 ## <a name="tasks-you-can-perform"></a>実行できるタスク
 
 [**アドイン**] ページでは、次のタスクを実行できます。
   
-- [ビジネス サーバー 2015 の Skype での永続的なチャット ルームのアドインを構成します。](../../manage/persistent-chat/configure-add-ins.md)
+- [ビジネス サーバー 2015 の Skype での永続的なチャット ルームのアドインを構成します。](../../../manage/persistent-chat/configure-add-ins.md)
     
 ## <a name="to-configure-add-ins-for-chat-rooms"></a>チャット ルームのアドインを構成するには
 
@@ -58,6 +58,6 @@ ms.lasthandoff: 05/24/2018
     
 ### 
 
-持続チャット サーバーで永続的なチャット サーバーの機能と機能に関する詳細は、[ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの計画](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)、[ビジネス サーバー 2015 の Skype で永続的なチャット サーバーを展開](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)、および管理を[参照してください。ビジネス サーバー 2015 の Skype で](../../manage/persistent-chat/persistent-chat.md)。
+持続チャット サーバーで永続的なチャット サーバーの機能と機能に関する詳細は、[ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの計画](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)、[ビジネス サーバー 2015 の Skype で永続的なチャット サーバーを展開](../../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)、および管理を[参照してください。ビジネス サーバー 2015 の Skype で](../../../manage/persistent-chat/persistent-chat.md)。
   
 
