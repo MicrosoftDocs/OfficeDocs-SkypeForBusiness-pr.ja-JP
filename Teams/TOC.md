@@ -16,7 +16,6 @@
 ## [Teams へのユーザー アクセスを管理する](user-access.md)
 ## [Teams のクライアントを取得する](get-clients.md)
 ## [チームのアプリケーションのハードウェア要件](hardware-requirements-for-the-teams-app.md)
-## [移行とビジネス用の Skype では、相互運用性](migration-interop-guidance-for-teams-with-skype.md)
 ## [チームへのサインイン](sign-in-teams.md)
 ## [Teams の展開の概要](deployment-overview.md)
 ## [Office 365 を使用する組織で Teams をセットアップする](Office-365-set-up.md)
@@ -41,7 +40,7 @@
 
 
 # Office 365 との相互運用性
-## [Teams と Skype for Business の相互運用性](teams-and-skypeforbusiness-interoperability.md)
+## [移行とビジネス用の Skype では、相互運用性](migration-interop-guidance-for-teams-with-skype.md)
 ## [Office 365 グループと Teams](office-365-groups.md)
 ## [既存の Office 365 グループを Teams で強化する](enhance-office-365-groups.md)
 ## [Teams でチームを作成するときの Office 365 グループの計画](plan-office-365-groups.md)
@@ -227,6 +226,7 @@
 ## [2 - Skype for Business と併用する形で Teams を試験的に導入する](pilot-essentials.md)
 ### [2.1 - [ユーザーの選択、チームのパイロット](select-users-for-your-teams-pilot.md)
 ## [3 の共存を理解して、Skype のビジネスとチームのモードをアップグレード](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [3.1 のチーム、およびビジネスの共存と相互運用性の Skype](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 ## [4 - ユーザーが導入することによる価値を推進する](continue-journey.md)
 ## [よくあるご質問 - Skype for Business と Teams のビジョン](FAQ-journey.md)
 ## [チュートリアル: Skype for Business から Teams への移行](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
