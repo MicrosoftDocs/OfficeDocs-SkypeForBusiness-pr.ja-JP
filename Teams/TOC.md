@@ -62,6 +62,7 @@
 # アプリとサービス
 ## [Teams でのアプリの管理設定](admin-settings.md)
 ## [Teams でプライベートのチャットやチャネルのボットを追加する](add-bots.md)
+## [チームのプライベート アプリケーション ストアを管理します。](private-app-store-teams.md)
 ## [Teams で組み込みタブとカスタム タブを使用する](built-in-custom-tabs.md)
 ## [Teams で Office 365 コネクタとカスタム コネクタを使用する](office-365-custom-connectors.md)
 ## [T-Bot を使用して Teams のユーザーをサポートする](t-bot.md)
@@ -192,7 +193,7 @@
 ### [Office 365 に電話番号を移行する](/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [電話番号の移行に関するよくある質問](/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Office 365 の通話プランについて](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [緊急対応の場所、住所、通話ルーティングの概要](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [緊急対応の場所、アドレス、通話ルーティングの概要](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Office 365 での通話プラン - 英国 (U.K.) での実施基準](/SkypeForBusiness/legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Office 365 での通話プラン - 英国 (U.K.) での苦情処理基準](/SkypeForBusiness/legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
