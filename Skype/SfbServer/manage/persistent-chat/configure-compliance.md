@@ -10,15 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: '概要: は、Skype のビジネス サーバー 2015 の永続的なチャット サーバーのコンプライアンス サービスを構成する方法について説明します。'
-ms.openlocfilehash: a77b07b0e05a248c351e73c5b8a5f2cebf97236c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 99c09408fbc404edd7ccd6c3844f59dca77a35f0
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568627"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバーのコンプライアンス サービスの構成
  
-**の概要:**ビジネス サーバー 2015 の Skype での永続的なチャット サーバーのコンプライアンス サービスを構成する方法について説明します。
+**の概要:** ビジネス サーバー 2015 の Skype での永続的なチャット サーバーのコンプライアンス サービスを構成する方法について説明します。
   
 永続的なチャットのコンプライアンスでは、管理者の活動だけでなく、永続的なチャット メッセージのアーカイブを維持することができます。 コンプライアンス サービスでは、記録しと関係者を含め、各永続的なチャット サーバーのテーマに関連するデータをアーカイブします。
   
@@ -376,5 +377,3 @@ Backchat - ユーザーは、チャットの履歴からコンテンツを要求
 </xsl:stylesheet>
 
 ```
-
-
