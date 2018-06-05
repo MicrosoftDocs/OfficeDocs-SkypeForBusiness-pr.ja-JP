@@ -10,15 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
 description: '概要: は、ビジネス サーバー 2015 の概要レポートで Skype の PSTN 会議について説明します。'
-ms.openlocfilehash: 1897b6ebf25e4de4f60af91d76ada539ea3561f9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: cda98ec62d8f59992f028cd9189e5f696ffaf2ac
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569293"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の PSTN 電話会議の概要レポート
  
-**の概要:**ビジネス サーバー 2015 の概要レポートで Skype の PSTN 会議について説明します。
+**の概要:** ビジネス サーバー 2015 の概要レポートで Skype の PSTN 会議について説明します。
   
 ビジネス サーバー 2015 の Skype は、PSTN 会議を少なくとも 1 人の参加者にダイヤル オーディオ部分に PSTN (公衆交換電話網) 電話を使用して、すべての会議があります。 (PSTN の電話は、「固定」、携帯電話、または他の電話を IP 上で音声の使用を行いません)。監視レポートで PSTN 会議と呼ばれて、これらの会議はおそらく一般的と呼ばれるダイヤルイン会議。
   
@@ -40,7 +41,7 @@ Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
 
 この結果、次のようなデータが返されます。
   
-```
+<pre>
 Identity                                EnableDialInConferencing
 --------                                ------------------------
 Global                                                      True
@@ -48,8 +49,7 @@ site:Redmond                                               False
 site:Dublin                                                False
 Tag:RedmondDialInUsers                                      True
 Tag:DublinDialInUsers                                       True
-
-```
+</pre>
 
 ## <a name="filters"></a>フィルター
 

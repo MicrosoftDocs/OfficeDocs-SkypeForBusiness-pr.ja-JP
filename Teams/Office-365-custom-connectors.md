@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Teams で Office 365 コネクタとカスタム コネクタを使用する"
+title: Microsoft Teams で Office 365 コネクタとカスタム コネクタを使用する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,21 +7,22 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara, lucarras
-description: "コネクタは、頻繁に使用するサービスからのコンテンツや更新をチャネルに直接配信して、チームを最新の状態に保ちます。"
+description: コネクタは、頻繁に使用するサービスからのコンテンツや更新をチャネルに直接配信して、チームを最新の状態に保ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 119d2a7bac94f3695a068e64f56b5613b5687e2f
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 0a5243e32b100f648a71b5e07e55061bd8b3d6aa
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19570081"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Microsoft Teams で Office 365 コネクタとカスタム コネクタを使用する
 =======================================================
 
 コネクタは、頻繁に使用するサービスからのコンテンツや更新をチャネルに直接配信して、チームを最新の状態に保ちます。コネクタを使用すると、Microsoft Teams ユーザーは Twitter、Trelloｍ、Wunderlistｍ、GitHub、VSTS などの人気のサービスからの更新情報をチームのチャット ストリームで受け取ることができます。
 
-チームのどのメンバーも、コネクタを使用して人気のあるクラウド サービスにチームを接続できます。すべてのチーム メンバーはそのようなサービスからアクティビティの通知を受信します。チームから特定のメンバーを削除すると、そのメンバーがチームに追加したコネクタの機能が停止します。予約済みの会議は、グループのカレンダーに取り入れられるため、そのまま有効です。
+チームのメンバーは、チームのアクセス許可、およびサービス活動のすべてのチーム メンバーに通知する場合、コネクタを使用した一般的なクラウド サービスをチームを接続できます。 コネクタは、コネクタのままには、セットアップでは最初に、メンバーの後でも機能を引き続きします。 追加と削除] アクセス許可を持つすべてのチーム メンバーには、他のメンバーがコネクタの設定を変更できます。
 
 Office 365 コネクタは、Microsoft Teams と Office 365 グループの両方で使用できます。そのため、すべてのメンバーが同期された状態を容易に保つことができ、関連情報をすばやく受信できます。Microsoft Teams と Exchange は同じコネクタ モデルを使用するため、両方のプラットフォームで同一のコネクタを使用できます。
 

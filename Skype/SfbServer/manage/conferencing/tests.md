@@ -10,15 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: '概要: は、Skype のビジネス サーバー 2015 のダイヤルイン会議をテストする方法を説明します。'
-ms.openlocfilehash: 9df525710513dbccc2fd488dc9bb5a6f7ed49200
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7e6e53d5d4ee3e3e28beadc54ca86a79c6118637
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569272"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのダイヤルイン会議のテスト
  
-**の概要:**Skype のビジネス サーバー 2015 のダイヤルイン会議をテストする方法について説明します。
+**の概要:** Skype のビジネス サーバー 2015 のダイヤルイン会議をテストする方法について説明します。
   
 ダイヤルイン会議構成の最後の確認作業として、どのアクセス番号も使用しないダイヤルイン会議の地域があるダイヤル プランやダイヤルイン会議の地域が指定されていないアクセス番号を検索します。 ダイヤルイン会議の設定の Web ページとダイヤルイン アクセス番号が正しく動作していることも確認する必要があります。
   
@@ -75,7 +76,6 @@ ms.lasthandoff: 03/28/2018
    User name:  testuser1@contoso.com
    Password:  ********
 Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
-
   ```
 
     結果レポートに、コマンドの成否と特定の診断情報が表示されます。 -フラグの詳細についてはどのように多くのアクセス番号が見つかりませんでしたし、それらについての詳細の詳細を提供します。

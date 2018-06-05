@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: ビジネス サーバーのエンタープライズ VoIP の Skype で ~ 9-1-1 ボイス ルートを構成します。
-ms.openlocfilehash: c31ac7c264fb931c127375eca5a383d10998c3f1
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b61b77fce36e0415d9c6f1189d8ecf2a5659d2f9
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568229"
 ---
 # <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での E9-1-1 ボイス ルートの構成
  
@@ -49,7 +50,6 @@ E9-1-1 を展開するには、まず緊急通話用のボイス ルートを構
     
    ```
    New-CsVoiceRoute -Name "EmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="EmergencyUsage"} -PstnGatewayList @{add="co1-pstngateway-1"}
-
    ```
 
 5. 必要に応じて、SIP トランク接続では、お勧め ~ 9-1-1 サービス プロバイダーの SIP トランクによって処理されない通話のローカル ルートを作成するのには次のコマンドレットを実行することです。 このルートは、E9-1-1 サービス プロバイダーへの接続が利用できない場合に使用されます。 

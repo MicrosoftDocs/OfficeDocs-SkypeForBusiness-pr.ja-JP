@@ -10,15 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
 description: '概要: レス暗証番号 (pin) を構成する方法についてはビジネス サーバー 2015 の Skype に参加するオプションに対応します。'
-ms.openlocfilehash: 6e9e26f856fec85b3f7436684d1b084eb3873ba9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 375c008cd8cec072e9d2b71de1765756e4c0f881
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569342"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Skype for Business Server に PIN 非使用の会議参加を構成する
  
-**の概要:**レス暗証番号 (pin) を構成する方法については会議のビジネス サーバー 2015 の Skype に参加するオプションです。
+**の概要:** レス暗証番号 (pin) を構成する方法については会議のビジネス サーバー 2015 の Skype に参加するオプションです。
   
 ダイヤルインの呼び出し元が会議に参加しようとすると、会議自動応答 (CAA) サービス、呼び出し側ロビー & #x 2014; とは異なる保持のペンで発表者がいない場合は、呼び出しとダイヤルインの呼び出し元の引出線の暗証番号 (pin) に入っていません。 PIN 非使用の会議参加オプションでは、ダイヤル イン発信者が最初の通話ユーザーであっても主催者 PIN を入力することなく会議に参加できます。 
   
@@ -52,14 +53,12 @@ Set-CsDialInConferencingConfiguration -Identity  < global or site:sitename>  -Al
   
 ```
 Set-CsDialInConferencingConfiguration -Identity site:Redmond -AllowAnonymousPstnActivation $True
-
 ```
 
 PIN 非使用の会議参加を有効にした場合、セキュリティ上の理由から、ConferencingPolicy を以下のように設定することにより、匿名ユーザーのダイヤル発信を制限することをお勧めします。
   
 ```
 Set-CsConferencingPolicy [-Identity <XdsIdentity>] -AllowAnonymousUsersToDialOut $False
-
 ```
 
 詳細については、[セット CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)を参照してください。

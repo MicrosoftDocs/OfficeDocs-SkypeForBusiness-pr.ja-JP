@@ -10,15 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: '概要: ビジネス サーバー 2015 の Skype では、ダイヤルイン会議の暗証番号 (pin) ポリシーを管理する方法を説明します。'
-ms.openlocfilehash: ecc1c41c4d08583baaec4279ea35d9ba796d3e5e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ee6a303a59ef6bc17ca3bd3300a701505cf9042b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569052"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype では、ダイヤルイン会議の暗証番号 (pin) ポリシーを管理します。
  
-**の概要:**ビジネス サーバー 2015 の Skype では、ダイヤルイン会議の暗証番号 (pin) ポリシーを管理する方法について説明します。
+**の概要:** ビジネス サーバー 2015 の Skype では、ダイヤルイン会議の暗証番号 (pin) ポリシーを管理する方法について説明します。
   
 組織の Active Directory ドメイン サービス (AD DS) の資格情報を持つサーバーのビジネス ユーザーの Skype は、暗証番号 (PIN) を使用して、認証済みユーザーとしてダイヤルイン会議に参加できます。 PIN ポリシーは、ダイヤルイン会議 PIN がどのように機能するかについてのルールを定義します。
   
@@ -48,7 +49,6 @@ PIN ポリシーに関する情報を表示するには、**Get-CsPinPolicy** �
   
 ```
 Get-CsPinPolicy -Identity "site:Redmond"
-
 ```
 
 完全な構文の説明と、パラメーターの一覧を含む詳細については、 [Get CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps)を参照してください。
@@ -94,7 +94,6 @@ Get-CsPinPolicy -Identity "site:Redmond"
   
 ```
 Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
-
 ```
 
 詳細については、完全な構文の説明と、パラメーターの一覧を含む[セット CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps)を参照してください。
@@ -176,7 +175,6 @@ New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
   
 ```
 Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
-
 ```
 
 詳細については、完全な構文の説明と、パラメーターの一覧を含む[セット CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps)を参照してください。

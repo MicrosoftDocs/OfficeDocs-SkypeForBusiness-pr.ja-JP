@@ -10,15 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: '概要: は、追加または、Skype のビジネス サーバーのフロント エンド サーバーを削除する方法を説明します。'
-ms.openlocfilehash: aed52becf5d4cc97307f9788a81f8d6563d1d25d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 80b0dab56d3adfb08856348b7ec749ef2e91079f
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569007"
 ---
 # <a name="add-or-remove-a-front-end-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのフロントエンド サーバーの追加または削除
  
-**の概要:**追加または Skype のビジネス サーバーのフロント エンド サーバーを削除する方法について説明します。
+**の概要:** 追加または Skype のビジネス サーバーのフロント エンド サーバーを削除する方法について説明します。
   
 プールにフロント エンド サーバーを追加またはプールからフロント エンド サーバーを削除すると、ときに、プールを再起動する必要があります。 
   
@@ -64,5 +65,3 @@ ms.lasthandoff: 03/28/2018
    ```
    Start-CsPool
    ```
-
-

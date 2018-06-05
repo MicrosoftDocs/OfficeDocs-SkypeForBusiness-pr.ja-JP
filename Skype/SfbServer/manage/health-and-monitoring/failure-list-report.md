@@ -10,15 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: '概要: は、ビジネス サーバー 2015 の Skype のエラーの一覧のレポートについて説明します。'
-ms.openlocfilehash: ef5b11f92997e6919de0fd9056acdeebddc898d0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7cb146569958908e79700e725d473bc246295c9d
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569321"
 ---
 # <a name="failure-list-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 のエラー リスト レポート
  
-**の概要:**ビジネス サーバー 2015 の Skype のエラーの一覧のレポートについて説明します。
+**の概要:** ビジネス サーバー 2015 の Skype のエラーの一覧のレポートについて説明します。
   
 エラー リスト レポートは、エラーが発生したピアツーピア セッションまたは電話会議セッションに参加した個々の参加者に関する情報を提供します。この情報には、問題が発生したユーザーの URI、エラーに関連付けられている SIP 応答コードおよび診断 ID が含まれています。
   
@@ -59,15 +60,15 @@ $failure |Sort-Object "From user" | Select-Object "From user" -Unique
 
 このコマンドを実行すると、次のような一覧が返されます。
   
-```
-From user
-----
-Pilar.Ackerman@litwareinc.com
-Henrik.Jensen@litwareinc.com
-Gilead.Amosnino@litwareinc.com
-David.Ahs@litwareinc.com
-Ken.Myer@litwareinc.com
-```
+<pre>
+    From user
+    ----
+    Pilar.Ackerman@litwareinc.com
+    Henrik.Jensen@litwareinc.com
+    Gilead.Amosnino@litwareinc.com
+    David.Ahs@litwareinc.com
+    Ken.Myer@litwareinc.com
+</pre>
 
 次の 2 つのコマンドは、各ユーザーが参加した、エラーが発生したセッションの総数についてレポートします。
   
@@ -78,7 +79,7 @@ $failures | Group-Object "From user" | Select-Object Count, Name | Sort-Object -
 
 この結果、次のようなデータが返されます。
   
-```
+<pre>
 Count    Name
  -----    ----
     20    Pilar.Ackerman@litwareinc.com
@@ -86,7 +87,7 @@ Count    Name
     16    Gilead.Amosnino@litwareinc.com
     16    Ken.Myero@litwareinc.com
     14    Henrik.Jensen@litwareinc.com
-```
+</pre>
 
 ## <a name="filters"></a>フィルター
 
