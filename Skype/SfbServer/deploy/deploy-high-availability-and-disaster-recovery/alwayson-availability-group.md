@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: (インストール)、常に可用性グループに、Skype のビジネス サーバーの展開を展開します。
-ms.openlocfilehash: ed6155ca1d3c7b24450bd8ca5099c2f6fc75e8a4
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 7a277421c13243ba7096a794b59ed93218644f22
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569506"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype のバック エンド サーバーに常時接続の可用性グループを展開します。
  
@@ -432,5 +433,3 @@ AG をどのように展開することを新しいプール、ミラーリン�
      ```
 
      - 前の 2 つの手順を繰り返します (セカンダリ レプリカでは、グループをフェールオーバーしを使用して、 `Install-CsDatabase -Update`)、グループ内の各レプリカのです。
-    
-

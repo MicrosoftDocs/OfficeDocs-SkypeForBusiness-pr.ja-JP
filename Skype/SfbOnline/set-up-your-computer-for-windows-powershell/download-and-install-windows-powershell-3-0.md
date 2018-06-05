@@ -17,12 +17,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Download, install, and then use Windows PowerShell 3.0 to create a remote PowerShell session that connects to Skype for Business Online.
-ms.openlocfilehash: 6679e9749efd6ee09a7c26f383b1b411caadb43e
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 9c2b0f02d9da7e44cdb5585314c13a6bafbe58c6
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19493994"
+ms.locfileid: "19568324"
 ---
 # <a name="download-and-install-windows-powershell-30"></a>Windows PowerShell 3.0 をダウンロードしてインストールします。
 
@@ -34,17 +34,17 @@ Windows 7 または Windows Server 2008 R2 を実行している場合は、Wind
     
 2. PowerShell コンソールで、次のコマンドを入力してから ENTER を押します。
     
-    ```
+   ```
    Get-Host | Select-Object Version
    ```
 
 3. 次のような情報がコンソール ウィンドウに表示されることになります。
     
-    ```
-    Version
-    -------
+    <pre>
+    Version <BR>
+    ------- <BR>
     3.0
-    ```
+    </pre>
 
     返されたバージョン番号が 3.0 の場合は、Windows PowerShell 3.0 を実行しています。返されたバージョン番号が 3.0 でない場合は、Windows PowerShell 3.0 をインストールする必要があります。Windows PowerShell 3.0 を含んでいる Windows Management Framework 3.0 を、[Microsoft ダウンロード センター](https://www.microsoft.com/en-us/download/details.aspx?id=34595)からダウンロードできます。
   
@@ -79,9 +79,7 @@ Get-ExecutionPolicy
 
 次の値を取り戻したら、すべてが正しく構成されていることになります。
   
-```
-RemoteSigned
-```
+`RemoteSigned`
 
 現在 Windows PowerShell 3.0 を正しく実行していない場合は Microsoft ダウンロード センターから Windows Management Framework 3.0 をダウンロードしてインストールする必要もあります。これは、Windows PowerShell 3.0 と Windows リモート管理 (WinRM) 3.0 を含んでいるインストール パッケージです。このインストール パッケージは、Windows 7 を実行していて Windows PowerShell 3.0 にまだ更新していない場合に必要となる可能性があります。Windows Server 2012、Windows Server 2012 R2、Windows 8、または Windows 8.1 を実行している場合は、Windows PowerShell 3.0 をインストールする必要はありません。Windows PowerShell 3.0 はこれらのオペレーティング システムでプレインストールされています。
   
@@ -115,11 +113,11 @@ Get-Service winrm
 
 WinRM サービスに関する情報が画面に表示されます。
   
-```
+<pre>
 Status   Name               DisplayName
 ------   ----               -----------
 Running  winrm              Windows Remote Management (WS-Manag...
-```
+</pre>
 
 サービスの状態が「実行中」を表すものでない場合は、次のコマンドを入力して ENTER を押すことによって WinRM サービスを開始します。
   
@@ -135,7 +133,7 @@ winrm set winrm/config/client/auth '@{Basic="True"}'
 
 次のような情報が画面上に表示されます。
   
-```
+<pre>
 Auth
     Basic = true
     Digest = true
@@ -143,7 +141,7 @@ Auth
     Negotiate = true
     Certificate = true
     CredSSP = false
-```
+</pre>
 
 基本認証がある場合は、PowerShell を使用して、Skype のビジネスをオンラインに接続する準備が整ったら、true に設定されています。
   

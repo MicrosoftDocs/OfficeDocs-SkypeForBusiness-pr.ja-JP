@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: '概要: は、Skype をビジネス サーバー 2015 の Skype のコンシューマーに接続する方法を説明します。 これは、Skype 接続とも呼ばれます。'
-ms.openlocfilehash: 3e972b44a72c9887165a2cc6746523b7667d1e56
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4d81d2529435d250957c775d954a33a562bed1e9
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569167"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での Skype 接続の展開
  
@@ -200,7 +201,6 @@ Skype Connectivity の構成は、PowerShell のみを使用して行うこと�
   
    ```
    New-CsPublicProvider -Identity Skype -ProxyFqdn federation.messenger.msn.com -IconUrl https://images.edge.messenger.live.com/Messenger_16x16.png -NameDecorationRoutingDomain msn.com -NameDecorationExcludedDomainList "msn.com,outlook.com,live.com,hotmail.com" -Enabled $true -EnableSkypeIdRouting $true -EnableSkypeDirectorySearch $true
-
    ```
 
     意味がわかりにくいパラメーターの動作

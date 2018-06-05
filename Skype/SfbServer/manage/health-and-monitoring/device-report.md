@@ -10,15 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 description: '概要: は、Skype のビジネス サーバー 2015 のデバイスのレポートについて説明します。'
-ms.openlocfilehash: e9fa190c73deaee275c49bfa04f338b41579ce55
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: af09f26bc91c132363367c8145846837734ad73f
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569485"
 ---
 # <a name="device-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 のデバイス レポート
  
-**の概要:**ビジネス サーバー 2015 の Skype でデバイスのレポートについて説明します。
+**の概要:** ビジネス サーバー 2015 の Skype でデバイスのレポートについて説明します。
   
 デバイス レポートは、通話に関連した指標 (低品質通話のパーセンテージ、エコー、音声切り替え時間など) を通話で使用されたマイクとスピーカーによってグループ化して取得するため、マイクとスピーカーのレポートと呼んだほうが良いかもしれません。 (「デバイス」ともよく呼ばれます) の IP 電話に関心がある場合は、 [Skype のビジネス サーバー 2015 で IP 電話のインベントリ レポート](ip-phone-inventory-report.md)を使用します。
   
@@ -115,11 +116,7 @@ $sum | foreach-object {[Int]$x = [Int]$x + [Int]$_."call volume"}
 $x
 ```
 
-これは、Aastra キャプチャ デバイスを使用して行われた通話の合計数を表す単一の値を戻します。次に例を示します。
-  
-```
-384
-```
+これは、Aastra キャプチャ デバイスを使用して行われた通話の合計数を表す単一の値を戻します。 例: 384
 
 ## <a name="filters"></a>フィルター
 

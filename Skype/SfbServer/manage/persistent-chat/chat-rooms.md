@@ -10,15 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: '概要: ビジネス サーバー 2015 の Skype で永続的なチャット サーバーのチャット ルームを管理する方法を説明します。'
-ms.openlocfilehash: fd927e3a54f1f3a8df429677f481ea224534b984
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7febc9736f43f3168d7bc62b0ddf833fa6b5864b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569401"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバーのチャット ルームの管理
  
-**の概要:**ビジネス サーバー 2015 の Skype で永続的なチャット サーバーのチャット ルームを管理する方法について説明します。
+**の概要:** ビジネス サーバー 2015 の Skype で永続的なチャット サーバーのチャット ルームを管理する方法について説明します。
   
 カテゴリを適切に使用すると、チャット ルームの作成と管理が簡単になります。 カテゴリを作成したり、チャット ルームに参加するを定義します。 チャット ルームを管理しようとすると、前に、[永続的なチャット カテゴリ、チャット ルーム、およびビジネス サーバー 2015 の Skype のユーザーの役割](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)と[業務サーバー 2015 の Skype での永続的なチャット サーバーの管理カテゴリ](categories.md)を読み取ることを確認してください。
   
@@ -76,13 +77,13 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="create-a-new-room"></a>新しいルームを作成する
 
-**New-CsPersistentChatRoom** コマンドレットを使用すると、新しいルームを作成できます。 たとえば、次のコマンドは、プール atl の cs-001.contoso.com [ITChatRoom] という名前の新しいチャット ルームを作成します。この例では、チャット ルームが IT のカテゴリに追加されます。
+**New-CsPersistentChatRoom** コマンドレットを使用すると、新しいルームを作成できます。 たとえば、以下のコマンドを実行すると、プール atl-cs-001.contoso.com に ITChatRoom という名前の新しいチャット ルームが作成されます。 この例では、チャット ルームは IT カテゴリに追加されます。
   
 ```
 New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.contoso.com"-Category "IT"
 ```
 
-**注:**次のいずれかが true の場合、PersistentChatPoolFqdn は必要ありません。 
+**注:** 次のいずれかが true の場合、PersistentChatPoolFqdn は必要ありません。 
   
 - 1 つのみの永続的なチャット サーバー プールがあります。
     
@@ -130,7 +131,6 @@ Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled
   
 ```
 Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled $False
-
 ```
 
 ## <a name="get-information-about-rooms"></a>ルームについての情報を取得します。

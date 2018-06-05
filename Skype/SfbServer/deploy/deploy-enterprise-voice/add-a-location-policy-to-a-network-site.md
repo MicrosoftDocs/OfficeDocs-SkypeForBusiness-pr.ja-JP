@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
 description: ビジネス サーバーのエンタープライズ VoIP の Skype のネットワーク サイトへの ~ 9-1-1 の場所のポリシーを割り当てます。
-ms.openlocfilehash: 5d6b343db63a309661720a8379d204a0abcac1f5
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d167fb40e4a6318ce0621d365782cab3848cf284
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568264"
 ---
 # <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのネットワーク サイトへの場所ポリシーの追加
  
@@ -46,7 +47,6 @@ ms.lasthandoff: 05/03/2018
     
   ```
   Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
-
   ```
 
 ### <a name="to-assign-a-location-policy-to-a-new-network-site"></a>場所のポリシーを新しいネットワーク サイトに割り当てるには

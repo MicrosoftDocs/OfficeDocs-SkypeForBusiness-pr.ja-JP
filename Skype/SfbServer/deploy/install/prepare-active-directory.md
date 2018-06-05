@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: '概要: ビジネス サーバー 2015 の Skype のインストールの場合、Active Directory ドメインを準備する方法を説明します。 マイクロソフト評価センターからのビジネス サーバー 2015 の Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: 0e031cc16bef00fc7b1ca8c2bd910fd0d36d5dde
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 97aa431627fd8e17734060b8447b0434cb8f1949
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500992"
+ms.locfileid: "19568390"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 用の Active Directory の準備
  
@@ -132,7 +132,6 @@ Skype ビジネス サーバーは、Active Directory と緊密に動作しま�
     
    ```
    Get-CsAdDomain [-Domain <Fqdn>] [-DomainController <Fqdn>] [-GlobalCatalog <Fqdn>] [-GlobalSettingsDomainController <Fqdn>]
- 
    ```
 
     > [!NOTE]
@@ -142,7 +141,6 @@ Skype ビジネス サーバーは、Active Directory と緊密に動作しま�
     
    ```
    Get-CsAdDomain -Domain contoso.local -GlobalSettingsDomainController dc.contoso.local
-
    ```
 
     > [!NOTE]

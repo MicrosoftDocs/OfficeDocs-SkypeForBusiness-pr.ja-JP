@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: 作成またはビジネス サーバーのエンタープライズ VoIP の Skype での応答グループのエージェント グループを変更します。
-ms.openlocfilehash: 213abb8416ce416f7cfbf7736ece7629d943525c
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 5555272fdcaa7b9a3576dc2b943eaeda064e3bb5
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500910"
+ms.locfileid: "19568346"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business-2015"></a>Skype for Business 2015 でのエージェント グループの作成または変更
  
@@ -131,7 +131,6 @@ ms.locfileid: "19500910"
     
    ```
    New-CsRgsAgentGroup -Name "Help Desk" -Parent "service:ApplicationServer:atl-cs-001.contoso.com"  -Description "Contoso Help Desk" -AgentAlertTime 20 -ParticipationPolicy Formal -RoutingMethod RoundRobin -AgentsByUri("sip:mindy@contoso.com","sip:bob@contoso.com")
- 
    ```
 
     > [!IMPORTANT]

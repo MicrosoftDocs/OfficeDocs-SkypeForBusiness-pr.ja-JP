@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: '概要: ステージの AV と OAuth の証明書サーバー 2015 のビジネス用の Skype のです。'
-ms.openlocfilehash: a103d6463a02cd00d71769b8f86b43fae514a19d
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 6eba19d67f2b2b04c98ed993fa02ca0c2052f28a
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504958"
+ms.locfileid: "19569513"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのユーザー単位の PIN ポリシーの割り当て
 
@@ -94,7 +94,6 @@ Windows PowerShell と**与える CsPinPolicy**コマンドレットを使用し
     
   ```
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
-
   ```
 
 ### <a name="to-unassign-a-per-user-pin-policy"></a>ユーザー単位の PIN ポリシーを割り当て解除するには

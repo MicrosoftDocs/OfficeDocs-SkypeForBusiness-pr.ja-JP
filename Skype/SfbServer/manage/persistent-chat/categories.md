@@ -10,15 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: '概要: ビジネス サーバー 2015 の Skype での永続的なチャット サーバー カテゴリを管理する方法を説明します。'
-ms.openlocfilehash: e24beb1c4e1ebe7bb541a7bd6226f098c1bcb58b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 418cdc395a611c880da5b9455c10367fe19c6843
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568620"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の常設チャット サーバーでのカテゴリの管理
  
-**の概要:**ビジネス サーバー 2015 の Skype での永続的なチャット サーバー カテゴリを管理する方法について説明します。
+**の概要:** ビジネス サーバー 2015 の Skype での永続的なチャット サーバー カテゴリを管理する方法について説明します。
   
 カテゴリは、チャット ルームを整理するための論理的な構造です。 カテゴリでは、チャット ルームを作成したり、チャット ルームに参加したりできるユーザーおよびユーザー グループを制御するためのアクセス制御リスト (ACL) の既定のセットを定義します。 チャット ルーム カテゴリには、チャット ルームのカテゴリを含めることができますが、他のカテゴリを含めることはできません。 各カテゴリでは、[名前]、[説明] などのメタデータを使用してカテゴリの内容が記述されます。 また、カテゴリには、チャット ルームで [招待] や [ファイル アップロード] が許可されるかどうか、チャット ルームに [チャットの履歴] が含まれるかどうかなど、そのカテゴリに属するチャット ルームの動作を制御するプロパティを設定できます。 
   
@@ -102,7 +103,7 @@ ms.lasthandoff: 03/28/2018
   
 ### <a name="create-a-new-category"></a>新しいカテゴリを作成する
 
-**New-CsPersistentChatCategory** コマンドレットを使用すると、新しいカテゴリを作成できます。 たとえば、次のコマンドは、プール atl の cs-001.contoso.com のヘルプデスクをという名前の新しいカテゴリを作成します。この例では、ファイルのアップロードが有効になっています。
+**New-CsPersistentChatCategory** コマンドレットを使用すると、新しいカテゴリを作成できます。 たとえば、以下のコマンドを実行すると、プール atl-cs-001.contoso.com に HelpDesk という名前の新しいカテゴリが作成されます。 この例では、ファイル アップロードが有効になります。
   
 ```
 New-CsPersistentChatCategory -Name "HelpDesk" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -EnableFileUpload 
@@ -134,5 +135,3 @@ Get-CsPersistentChatCategory
 ```
 Remove-CsPersistentChatCategory -Identity "atl-cs-001.contoso.com\helpdesk"
 ```
-
-

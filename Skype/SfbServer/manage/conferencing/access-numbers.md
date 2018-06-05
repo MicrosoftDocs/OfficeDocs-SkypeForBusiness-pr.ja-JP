@@ -10,15 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: '概要: ビジネス サーバー 2015 の Skype でのダイヤルイン会議のアクセス番号を管理する方法を説明します。'
-ms.openlocfilehash: ebe3388578b74041802afc12f47e0b484cb88bd7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 3bbde214863fa7d08214569e4d9aa2a767016eb4
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569436"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのダイヤルイン会議アクセス番号の管理
  
-**の概要:**ビジネス サーバー 2015 の Skype でのダイヤルイン会議のアクセス番号を管理する方法について説明します。
+**の概要:** ビジネス サーバー 2015 の Skype でのダイヤルイン会議のアクセス番号を管理する方法について説明します。
   
 ダイヤルイン会議を展開するときには、ユーザーが公衆交換電話網 (PSTN) からダイヤルして電話会議のオーディオ部分に参加するための電話番号を設定する必要があります。 それらのダイヤルイン アクセス番号は、ミーティングの招待状と [ダイヤルイン会議の設定] Web ページに表示されます。 
   
@@ -48,12 +49,11 @@ ms.lasthandoff: 03/28/2018
   
 ```
 Get-CsDialInConferencingAccessNumber
-
 ```
 
 次に、戻される情報の種類に関する例を示します。
   
-```
+<pre>
 Identity           : CN={20ca8dc8-5ff8-41f4-b5bb-22ba9972ae2e},
                      CN=Application Contacts,CN=RTCService=Services,
                      CN=Configuration,DC=litwareinc,DC=com
@@ -66,8 +66,7 @@ SecondaryLanguages : {}
 Pool               : atl-cs-001.litwareinc.com
 HostingProvider    :
 Regions            : {US}
-
-```
+</pre>
 
 詳細については、 [Get CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)を参照してください。
   
@@ -137,14 +136,12 @@ Regions            : {US}
   
 ```
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -DisplayName "Redmond Dial-In Access Number"
-
 ```
 
 次の例では、sip:RedmondDialIn@litwareinc.com という ID を持つダイヤルイン会議アクセス番号が 2 つの地域 (Redmond および Seattle) を含むように変更します。これを行うため、Region パラメーターを呼び出して、その後に 2 つの地域 (コンマで区切られた 2 つの文字列値) を指定します。このコマンドは、Redmond および Seattle の両地域がダイヤル プランで既に定義されていないと失敗します。
   
 ```
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -Regions "Redmond", "Seattle"
-
 ```
 
 詳細については、[一連の CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps)を参照してください。

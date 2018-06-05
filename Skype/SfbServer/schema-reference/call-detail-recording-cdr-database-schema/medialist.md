@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1f440590-c1bc-483e-b7bc-6cc763847768
 description: MediaList テーブルは、さまざまなメディアの種類の一覧を格納する静的なテーブルです。
-ms.openlocfilehash: b44a6dd8a4263f50cd187b6c4b154815e1e6350a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c9309219399fac30e318f8e112dd82269fff5ac2
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569769"
 ---
 # <a name="medialist-table"></a>MediaList テーブル
  
@@ -30,5 +31,3 @@ LcsCDR.SessionDetailsView.MediaTypes の値でモダリティの種類を特定�
 ```
 LEFT JOIN on Media.MediaId = MediaList.MediaId
 ```
-
-

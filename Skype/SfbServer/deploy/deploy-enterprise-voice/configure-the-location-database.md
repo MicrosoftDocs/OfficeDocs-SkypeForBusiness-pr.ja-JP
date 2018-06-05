@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: 構成、設定、および公開 ~ 9-1-1 場所データベース Skype のビジネス サーバーのエンタープライズ VoIP の。
-ms.openlocfilehash: 0a08d248c5eb7ec406a86f8357c565507bb10ed6
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: f07eafbbbfcbb62c7176e35faba48e0d1281ce39
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568332"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 で場所データベースを構成する
  
@@ -70,7 +71,6 @@ ms.lasthandoff: 05/03/2018
    ```
    $g = Import-Csv subnets.csv
    $g | Set-CsLisSubnet
-
    ```
 
 2. 次のコマンドレットを実行して、ワイヤレスの場所を場所データベースに追加します。
@@ -125,7 +125,6 @@ ms.lasthandoff: 05/03/2018
    ```
    $pwd = Read-Host -AsSecureString <password>
    Set-CsLisServiceProvider -ServiceProviderName Provider1 -ValidationServiceUrl <URL provided by provider> -CertFileName <location of certificate provided by provider> -Password $pwd
-
    ```
 
 3. 次のコマンドレットを実行して、場所データベース内の住所を確認します。
@@ -150,7 +149,6 @@ ms.lasthandoff: 05/03/2018
     
   ```
   Publish-CsLisConfiguration
-
   ```
 
 

@@ -10,15 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3248b320-a552-400a-8485-6891af4eb0f3
 description: '概要: は、ビジネス サーバー 2015 の Skype で応答グループ アプリケーションについて説明します。'
-ms.openlocfilehash: 7fb30b5ac068b9f87e68cb98b975b87e06c455f1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 815158fbe7d477dd263591f161312d054480808c
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569024"
 ---
 # <a name="response-group-usage-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の応答グループの使用レポート
  
-**の概要:**ビジネス サーバー 2015 の Skype で応答グループ アプリケーションについて説明します。
+**の概要:** ビジネス サーバー 2015 の Skype で応答グループ アプリケーションについて説明します。
   
 応答グループ アプリケーションに応答するサーバー 2015 のビジネス用の Skype の手段を提供して、ダイヤルされた番号と、必要に応じて、一連の質問に応答を呼び出し元の電話呼び出しのルートがベースします。 通常、応答グループの呼び出しは個々 のユーザーにルーティングされていないが、代わりに、エージェント グループと呼ばれる人のチームにルーティングされます。 など、ヘルプ デスクの電話番号を呼び出す他のビジネス サーバー 2015 の Skype にその呼び出しを最初に利用できるヘルプ デスク エージェントがルーティング自動的にできます。 Skype ビジネス サーバーの代わりに、一連の質問 ("キーを押して 1 ハードウェアに問題がある場合に頼むでしょう。 ソフトウェアに問題がある場合は、2 を押します。 押すと 3 が発生した場合ネットワークの問題です。")、し、それらの質問に対する回答に基づいて、最も適切なヘルプ デスク エージェントへの呼び出しをルーティングします。
   
@@ -75,20 +76,18 @@ Get-CsRgsWorkflow | Select-Object Name, PrimaryUri
 
 この結果、次のようなデータが戻されます。
   
-```
+<pre>
 Name                            PrimaryUri
 ----                            ----------
 Customer Support                sip:support@litwareinc.com
 Help Desk                       sip:helpdesk@litwareinc.com
 New Ad Campaign                 sip:newads@litwareinc.com
-
-```
+</pre>
 
 このコマンドは、"New Ad Campaign" という名前の単一のワークフローについての情報を戻します。
   
 ```
 Get-CsRgsWorkflow -Name "New Ad Campaign" | Select-Object Name, PrimaryUri
-
 ```
 
 ## <a name="filters"></a>フィルター

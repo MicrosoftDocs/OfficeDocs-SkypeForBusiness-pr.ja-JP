@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: '概要: は、品質のダッシュ ボードを呼び出すためのチュートリアルと開発のサンプルを確認します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。'
-ms.openlocfilehash: 40e6defd85cc9e8dd86956a3539b51e1846b6da5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 567e6e22e3763183158562a6cf733a0127893ba6
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569820"
 ---
 # <a name="cqd-development-samples"></a>CQD の開発サンプル
  
@@ -63,8 +64,7 @@ CQD により提供されるポータルを使用すると、ユーザーは複�
   
 必要な操作は、適切なパラメーターを使用して Data Service への呼び出しを送信し、HTML テーブルにクエリの結果を示すことです。以下に、JavaScript コードのサンプルを示します。
   
-```
-        
+```        
 $($.fn.freeFormReport = function (queries, urlApi, presentation) {
             var query = {
                 Dimensions: [{ DataModelName: '[StartDate].[Month]' }],
@@ -94,7 +94,6 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
            }
             });
         });
-
 ```
 
 この例は、さらに次の 3 つのステップに分けることができます。
@@ -188,7 +187,6 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
     </table>
 </body>
 </html>
-
 ```
 
 ここまでのレポートは非常にシンプルです。ユーザーは、レポートをカスタマイズするために測定値、次元、またはフィルターを追加できます。たとえば、AppSharing の低品質な通話のパーセンテージを表示したい場合は、AppSharing に関する新しい測定値を追加する必要があります。すべての TCP 呼び出しと UDP 呼び出しを対比して表示したい場合は、転送の種類に関する新しい次元を追加する必要があります。特定の建物内の低品質な通話数を表示したい場合は、その建物で入出力される通話を選択するために新しいフィルターを追加する必要があります。
@@ -310,7 +308,6 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
     </script>
 </body>
 </html>
-
 ```
 
 上記、web ページ (最初に訪問時にレポートの定義) に図のようになります。 救難ポータルからレポートのセット ID を取得する (' #/' 救難ポータルにサインイン後の URL (例。 レポートの最初の図形 ID は 3024)、このレポートのセット ID をこの web ページの [入力] セクションに配置するとします。 Load ボタンを押すし、レポートのセットの完全定義 (測定、分析コード、フィルターのリスト) を参照してください。
@@ -735,7 +732,4 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
     </script>
 </body>
 </html>
-
 ```
-
-

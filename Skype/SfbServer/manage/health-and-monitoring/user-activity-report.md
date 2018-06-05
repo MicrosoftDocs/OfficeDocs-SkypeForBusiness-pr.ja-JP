@@ -10,21 +10,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 description: '概要: は、ビジネス サーバー 2015 の Skype のユーザーの活動のレポートについて説明します。'
-ms.openlocfilehash: b3a69f067f2acbc27b84b58c7ebc9ba53c979f92
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ed0e61d2e5593287c4f793d8b0c4cf647d772478
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569394"
 ---
 # <a name="user-activity-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 のユーザー アクティビティ レポート
  
-**の概要:**ビジネス サーバー 2015 の Skype のユーザーの活動のレポートについて説明します。
+**の概要:** ビジネス サーバー 2015 の Skype のユーザーの活動のレポートについて説明します。
   
 ユーザー アクティビティ レポートは、特定の期間にユーザーによって実行されたピアツーピアおよび電話会議セッションの詳細な一覧を示します。多くの監視レポートとは異なり、ユーザー アクティビティ レポートは、各呼び出しを個別のユーザーに関連付けます。たとえば、ピアツーピアセッションでは、呼び出しを開始した人 (呼び出し元ユーザー) と呼び出しを受けた人 (呼び出し先ユーザー) の SIP URI が表示されます。電話会議の情報を展開すると、すべての電話会議の参加者と、その電話会議における参加者の役割の一覧が表示されます。
   
 ユーザー アクティビティ レポートは、"ヘルプ デスク" レポートと呼ばれることがあります。ヘルプデスク担当者が、特定のユーザーに関するセッション情報を取得するときによくこのレポートを利用するからです。個別のユーザーに対する、または個別のユーザーによる呼び出しは、[ユーザー URI プレフィックス] ボックスにユーザーの SIP URI を入力するだけでフィルターできます。
   
-これを行うには、ユーザー アクティビティ レポートする SIP URI が指定された文字列で始まるすべてのユーザーの情報を返します。 など**ken** [URI] ボックスに入力した場合、ユーザー ・ アクティビティ ・ レポートは**Ken**を探します。Myer@litwareinc.com。 これらのユーザーも見つけることただし。
+これを行うには、ユーザー アクティビティ レポートする SIP URI が指定された文字列で始まるすべてのユーザーの情報を返します。 など**ken** [URI] ボックスに入力した場合、ユーザー ・ アクティビティ ・ レポートは**Ken**を探します。Myer@litwareinc.com。 ただし、これらのユーザーか移動もします。
   
 - **ken** azi@litwareinc.com
     
@@ -69,7 +70,7 @@ $x | Group-Object "From user" | Select Name | Sort-Object Name
 
 つまり、次のとおりです。
   
-```
+<pre>
 Name
 ----
 David.Ahs@litwareinc.com
@@ -77,7 +78,7 @@ Gilead.Amosnino@litwareinc.com
 Henrik.Jensen@litwareinc.com
 Ken.Myer@litwareinc.com
 Pilar.Ackerman@litwareinc.com
-```
+</pre>
 
 次のコマンドは、ユーザーが参加しているセッションの合計数に基づいて、一意のユーザーの一覧を表示します。
   
@@ -87,7 +88,7 @@ $x | Group-Object "From user" | Select Count, Name | Sort-Object Count -Descendi
 
 このコマンドは次のようなデータを返します。
   
-```
+<pre>
 Count    Name
 -----    ----
   523    Ken.Myer@litwareinc.com
@@ -95,7 +96,7 @@ Count    Name
    29    Pilar.Ackerman@litwareinc.com
    17    Gilead.Amosnino@litwareinc.com
    10    Henrik.Jensen@litwareinc.com
-```
+</pre>
 
 次のコマンドは、報告されたセッションを、モダリティとしてオーディオが含まれるセッションに制限します。
   

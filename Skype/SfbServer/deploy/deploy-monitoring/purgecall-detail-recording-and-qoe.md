@@ -10,15 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
 description: '概要: は、CDR およびビジネス サーバー 2015 の Skype で使用される QoE データベースからレコードを手動で削除する方法について説明します。'
-ms.openlocfilehash: 805bf72b3d4846bb00d3c3772b033242976cd7c3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1451187112e636e58fbcd32061ce1e8bec1b7b9a
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568533"
 ---
 # <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での通話詳細記録および QoE (Quality of Experience) データベースの手動での削除
  
-**の概要:**CDR およびビジネス サーバー 2015 の Skype で使用される QoE データベースからレコードを手動で削除する方法について説明します。
+**の概要:** CDR およびビジネス サーバー 2015 の Skype で使用される QoE データベースからレコードを手動で削除する方法について説明します。
   
 CDR および QoE データベースは、レコードを手動または自動で削除できます。レコードの削除は、データが古くならないようにするため、あるいはレポートをリセットして最初からやり直す必要がある場合に重要になります。
   
@@ -32,7 +33,7 @@ CDR および QoE データベースは、レコードを手動または自動�
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10
 ```
 
-上記のコマンドでは、詳細レコード、および診断データのレコードが 10 日は、atl の sql-001.litwareinc.com の監視のデータベースから削除されたより古いを呼び出す両方。(呼び出しの詳細レコードは、ユーザーまたはセッションのレポートです。 診断データ レコードは、診断ログの Skype ビジネス サーバー 2015 のクライアント アプリケーションによってアップロードされた)。
+上記のコマンドでは、詳細レコード、および診断データのレコードが 10 日は、atl の sql-001.litwareinc.com の監視のデータベースから削除されたより古いを呼び出す両方。 (呼び出しの詳細レコードは、ユーザーまたはセッションのレポートです。 診断データ レコードは、診断ログの Skype ビジネス サーバー 2015 のクライアント アプリケーションによってアップロードされた)。
   
 上に示すように、Invoke-CsCdrDatabasePurge コマンドレットを実行するときは、PurgeCallDetaiDataOlderThanDays と PurgeDiagnosticDataOlderThanDays の両方のパラメーターが含まれる必要があります。 ただし、これらのパラメーターを同じ値に設定する必要はありません。 たとえば、10 日より前の詳細通話記録を削除する一方で、すべての診断データ レコードをデータベースに残すことはできます。 10 と PurgeDiagnosticDataOlderThanDays に PurgeCallDetailDataOlderThanDays を 0 に設定します。 次に例を示します。
   
@@ -42,12 +43,12 @@ Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwa
 
 既定では、Invoke-CsCdrDatabasePurge を実行するたびに、削除する必要がある各データベース テーブルごとに、以下のようなメッセージが表示されます。
   
-```
+<pre>
 Confirm
 Are you sure you want to perform this action?
 Performing operation "Stored procedure: RtcCleanupDiag" on Target "Target SQL Server:atl-sql-001.litwareinc.com\archinst Database: lcscdr".
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All [S] Suspend  [?] Help (default is "Y"):
-```
+</pre>
 
 データベース削除が実際に行われる前に、Y (はい) または A (すべてはい) を入力する必要があります。これらの確認メッセージを表示しないようにする場合は、Invoke-CsCdrDatabasePurge の呼び出しの最後に以下のパラメーターを追加します。
   

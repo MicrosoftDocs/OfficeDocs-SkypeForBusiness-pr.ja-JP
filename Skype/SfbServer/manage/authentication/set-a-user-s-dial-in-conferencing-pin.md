@@ -11,15 +11,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: '概要: ビジネス サーバー 2015 の Skype のユーザーのダイヤルイン会議の PIN を設定します。'
-ms.openlocfilehash: d94df7ff557c9a229fd5f049ca10f9c1e7f22407
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 557aaa3fc191e6423ae323e53d2dacdf5f0019b1
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568822"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのユーザーのダイヤルイン会議 PIN の設定
  
-**の概要:**ビジネス サーバー 2015 の Skype のユーザーのダイヤルイン会議の PIN を設定します。
+**の概要:** ビジネス サーバー 2015 の Skype のユーザーのダイヤルイン会議の PIN を設定します。
   
 として認証されたユーザーのダイヤルイン会議に参加するには、Active Directory ドメイン サービス (AD DS) の資格情報を持つサーバー 2015 のビジネス ユーザーは、Skype には、暗証番号 (PIN) が必要です。 ユーザーは、ダイヤルイン会議の PIN を忘れた場合またはビジネス サーバー 2015 の Skype を使用して、PIN を設定できませんが、Skype からビジネス サーバーのコントロール パネルのユーザーの PIN を設定できます。 PIN は自動で生成することも手動で作成することもできます。
   
@@ -86,7 +87,6 @@ Set-CsClientPin コマンドレットを使用して、PIN 番号を割り当て
     
   ```
   Set-CsClientPin -Identity "Ken Myer" 
-
   ```
 
 ### <a name="to-assign-a-specific-pin-number-to-a-user"></a>特定の PIN 番号をユーザーに割り当てるには
