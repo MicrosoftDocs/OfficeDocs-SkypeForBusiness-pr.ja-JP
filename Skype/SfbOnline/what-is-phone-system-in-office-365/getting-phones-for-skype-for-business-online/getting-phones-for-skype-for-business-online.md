@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: 894637bbde15a80f377098e61d1eba77fbef4bf2
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: c58f9c6fe4174f58f4c430fe121cd071a0b5b9a5
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19494014"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Skype for Business Online で使う電話を入手する
 
@@ -32,7 +33,7 @@ ms.lasthandoff: 05/11/2018
   
 最新の更新プログラムとサポートされているデバイス上のほとんどの最新の情報を取得するのには、[デバイスのカタログをビジネス用の Skype](http://partnersolutions.skypeforbusiness.com/solutionscatalog)を参照してください。
   
-## <a name="supported-phones"></a>サポートされる電話
+## <a name="supported-phones"></a>サポートされている電話
 
 ビジネス オンライン ユーザーの Skype は、*ビジネス電話の Skype の認定*のいくつかのモデルから選択することができ、Lync の電話のエディション (LPE) を実行している電話はビジネスのデバイスの[Skype でのオンライン ビジネスのカテゴリの Skype の下に表示カタログ](http://partnersolutions.skypeforbusiness.com/solutionscatalog)。
   
@@ -45,7 +46,7 @@ Office 365 での電話システムと Skype for Business Server のためのパ
 |**電話機のパートナー** <br/> |**Skype for Business 固有の製品 ID** <br/> |
 |Polycom  <br/> |製品 ID -019  <br/> |
 |Yealink  <br/> |SIP-TXXG Skype for Business Edition  <br/> |
-|AudioCodes  <br/> |UCXXXHDEG (SfB)  <br/> |
+|は  <br/> |UCXXXHDEG (SfB)  <br/> |
    
 Polycom 電話機の詳細については、「[マイクロソフト対応音声ソリューション](http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html)」をご覧ください。
   
@@ -56,7 +57,7 @@ AudioCodes 電話機の詳細については、「[Skype for Business の IP 電
 > [!NOTE]
 > Lync Phone Edition は Skype for Business Online でサポートされます。LPE プラットフォームのメインストリーム サポートは 2014 年 4 月 10 日に終了します。延長サポートは Lync Server 2013 の製品サポート期間に合わせて 2023 年 4 月 11 日までになります。LPE のライフサイクルの詳細については、「[Microsoft 製品ライフサイクル](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO)」をご覧ください。LPE CAP モデルは Skype for Business Online でサポートされません。
   
-## <a name="supported-firmware"></a>サポートされるファームウェア
+## <a name="supported-firmware"></a>サポートされているファームウェア
 
 サポート対象の電話で、Office 365 の電話システムと機能する必要な最低限のソフトウェア リリースは次のとおりです。
   
@@ -66,7 +67,7 @@ AudioCodes 電話機の詳細については、「[Skype for Business の IP 電
 |最適化済み (Lync Phone Edition)  <br/> |4.0.7577.4463  <br/> |2015 年 5 月  <br/> |
 |認定済み Polycom VVX シリーズ  <br/> |5.4.0A  <br/> |2015 年 12 月  <br/> |
 |Yealink  <br/> |X.8.1.52  <br/> |2017 年 2 月  <br/> |
-|AudioCodes  <br/> |3.0.0.459.1  <br/> |2016 年 12 月  <br/> |
+|は  <br/> |3.0.0.459.1  <br/> |2016 年 12 月  <br/> |
    
 > [!NOTE]
 ユーザーを Skype for Business Online に移行する前に、オンプレミスの展開用にセットアップした Lync Phone Edition (LPE) の電話機を、最低限のまたはそれ以降の必要なファームウェアに更新する必要があります。携帯電話のファームウェアを更新する前にユーザーをオンプレミスから Skype for Business Online に移行した場合、それらの電話機は Skype for Business Online に接続できません。 
@@ -77,7 +78,7 @@ Skype for Business Online の電話機には、ユーザー ライセンス以�
   
 製造元のライセンス モデルは、Open SIP と Skype for Business 認定済みファームウェアとの間で異なる可能性があります。認定済みのモデルを Open SIP ファームウェアで用途変更する場合は、製造元にファームウェアのライセンス要件について確認する必要があります。
   
-## <a name="skype-for-business-online-connected-phones-feature-set"></a>Skype for Business Online 接続済み電話機の機能セット
+## <a name="skype-for-business-online-connected-phones-feature-set"></a>電話の機能セットがオンライン ビジネスの Skype に接続されています。
 
 すべてのデバイスの機能および性能については、製造元のユーザー ガイドを確認してください。
   
@@ -105,9 +106,10 @@ Skype for Business Online の電話機には、ユーザー ライセンス以�
 |連絡先の写真の統合  <br/> |なし  <br/> |あり  <br/> |なし  <br/> |あり  <br/> |
 ||||||
 
-    > [!NOTE]
-    > CX 600 or any other Aries phones don't support multifactor authentication (MFA). If you force MFA, these devices will fail to sign-in. These devices must use only Org ID for authetication.
-   
+     
+> [!NOTE]
+> CX 600 または他の任意の Aries 電話は、多元的な認証方法 (MFA) をサポートしません。 MFA を強制的にすると、これらのデバイスがサインインに失敗します。 これらのデバイスは、認証の組織の ID だけを使用する必要があります。
+ 
 ## <a name="what-else-should-you-know"></a>その他の情報
 詳細な設定手順については、「[Skype for Business Online 電話機の展開レポート](deploying-skype-for-business-online-phones.md)」をご覧ください。
 

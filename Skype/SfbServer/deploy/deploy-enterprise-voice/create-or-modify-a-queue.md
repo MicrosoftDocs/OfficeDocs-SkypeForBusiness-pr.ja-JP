@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: 作成またはビジネス サーバーのエンタープライズ VoIP の Skype での応答グループ キューを変更します。
-ms.openlocfilehash: 5ff696de582a1d0238e9b67bbe0b53affb33ffd2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d959ca00829200ac8ad54168d72ca108adabb39f
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500985"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business-2015"></a>Skype for Business 2015 でのキューの作成または変更
  
@@ -200,8 +201,6 @@ ms.lasthandoff: 05/03/2018
 
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [新しい-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps)
   
 [セット CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/set-csrgsqueue?view=skype-ps)
@@ -215,4 +214,3 @@ ms.lasthandoff: 05/03/2018
 [インポート-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
   
 [削除 CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/remove-csrgsqueue?view=skype-ps)
-

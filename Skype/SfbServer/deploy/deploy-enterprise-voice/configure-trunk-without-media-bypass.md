@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: '概要: は、Skype のビジネス サーバー 2015 対応メディア バイ パスなしのトランクを構成します。'
-ms.openlocfilehash: 399ee06eeddb309fe9820ad13a5c30e931b3486d
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 82b168da814da96555afe967d901f152d35718b3
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500978"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server-2015"></a>Skype for Business Server でメディア バイパスを無効にしてトランクを構成する
  
@@ -164,9 +165,6 @@ ms.lasthandoff: 05/24/2018
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [ビジネス サーバー 2015 の Skype でのメディア バイ パスを使用してトランクを構成します。](configure-trunk-with-media-bypass.md)
 
 [変換ルールを定義します。](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
-

@@ -18,11 +18,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: ed65aaed214a35b961c9c13c0d789a224e41258f
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 7917920c0eeaf5b5e0c1f31ee4eca9bafed10c85
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500783"
 ---
 # <a name="conference-organizer-activity-report"></a>会議の開催者の活動レポート
 
@@ -55,8 +56,9 @@ ms.lasthandoff: 05/09/2018
 ***
 ![番号 1](../images/sfbcallout1.png)<br/>**Skype for Business 電話会議開催者アクティビティ** レポートでは、過去 7 日間、30 日間、90 日間、または 180 日間の傾向を確認できます。 ただし、クリックした場合、レポート内の特定の日に、テーブル (7 を参照してください) データが表示されます日までの 30 日間 (番号 2 を参照) のレポートが生成されました。
 
-    > [!Note]
-    > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
+> [!NOTE]
+> 特定の日の詳細をクリックすると、テーブルはレポートが生成された日付までの 30 日間のデータを表示のみです。
+
 ***
 ![番号 2](../images/sfbcallout2.png)<br/>各レポートには、このレポートが生成された日付が表示されます。 レポートは、通常、活動の時間から 24-48 時間の遅延時間を反映します。 
 ***
@@ -79,7 +81,9 @@ ms.lasthandoff: 05/09/2018
 ![数 8](../images/sfbcallout8.png)<br/>この表は、ユーザーごとの、開催した電話会議アクティビティの内訳を示しています。また、Skype for Business が割り当てられているすべてのユーザーと、ユーザーが開催した電話会議を示しています。表に新しい列を追加することができます。 
 *    [ **ユーザー名**] はユーザーの名前です。 
 *    [ **削除済み**] はユーザーのライセンスが削除されたことを示します。<br/><br/>
-     **注:** 削除されたユーザーのアクティビティは表示されたままレポートに限り、彼または彼女は選択した期間中にいくつかの時にライセンス供与されていました。 [ **削除済み** ] 列は、アクティブではない状態になったユーザーが引き続きレポート内のデータに影響している可能性に注意するのに役立ちます。<br/> <br/>
+    > [!NOTE]
+    > 削除されたユーザーのアクティビティは表示されたままレポートに限り、彼または彼女は選択した期間中にいくつかの時にライセンス供与されていました。 [ **削除済み** ] 列は、アクティブではない状態になったユーザーが引き続きレポート内のデータに影響している可能性に注意するのに役立ちます。
+     
 *    [ **削除日**] は、ユーザーのライセンスが削除された日付です。 
 *    [ **前回のアクティビティの日付 (UTC)**] は、ユーザーが前回アクティビティを行った日付 (UTC) です。 
 *    [ **IM**] は、開催された IM 会議の合計数を示します。 

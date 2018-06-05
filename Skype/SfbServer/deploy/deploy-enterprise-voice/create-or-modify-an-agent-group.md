@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: 作成またはビジネス サーバーのエンタープライズ VoIP の Skype での応答グループのエージェント グループを変更します。
-ms.openlocfilehash: 05237b5e3d86cf7d85b89205f71c30dcc5ac9efd
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 213abb8416ce416f7cfbf7736ece7629d943525c
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500910"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business-2015"></a>Skype for Business 2015 でのエージェント グループの作成または変更
  
@@ -144,8 +145,6 @@ ms.lasthandoff: 05/03/2018
 
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [Get CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)
   
 [新しい-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
@@ -153,4 +152,3 @@ ms.lasthandoff: 05/03/2018
 [セット CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/set-csrgsagentgroup?view=skype-ps)
   
 [Get CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/get-csrgsagentgroup?view=skype-ps)
-

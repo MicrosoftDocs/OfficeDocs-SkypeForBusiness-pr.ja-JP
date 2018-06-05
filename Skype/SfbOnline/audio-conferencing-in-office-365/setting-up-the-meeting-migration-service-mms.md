@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Meeting Migration Service (MMS) は Skype for Business サービスの 1 つで、バックグラウンドで動作して、ユーザーのために Skype for Business および Microsoft Teams 会議を自動的に更新します。MMS はユーザーが会議移行ツールを実行して Skype for Business および Microsoft Teams 会議を更新しなくても済むように設計されています。
-ms.openlocfilehash: 8da3aaabdd772c5de8f110996585f1386f9eeb05
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: f81c394d676da951cf98f34f080fb26f135b9550
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501001"
 ---
 # <a name="setting-up-the-meeting-migration-service-mms"></a>Meeting Migration Service (MMS) のセットアップ
 
@@ -139,7 +140,7 @@ MMS が会議を移行するのにかかる時間の量は、影響するユー�
   
 ## <a name="managing-mms"></a>MMS の管理
 
-Windows PowerShell を使用して MMS を管理し、進行中の移行のステータスを確認する必要があります。このセクションの情報は、PowerShell を使用した Skype for Business の組織の管理に慣れていることを前提としています。新しい PowerShell を使用する場合は、この記事の最後にある「[PowerShell を使用した Skype for Business の組織の管理](setting-up-the-meeting-migration-service-mms.md#WPSInfo)」セクションをご覧ください。
+Windows PowerShell を使用して MMS を管理し、継続的な移行の状態を確認する必要があります。 このセクションの情報は、PowerShell を使用した Skype for Business の組織の管理に慣れていることを前提としています。 PowerShell を初めて使用する場合は、この資料の最後に[、Skype をビジネスの組織を管理するために PowerShell を使用する](setting-up-the-meeting-migration-service-mms.md#WPSInfo)を参照してください。
   
 ### <a name="how-do-i-check-the-status-of-meeting-migrations"></a>会議の移行のステータスを確認する方法を教えてください。
 

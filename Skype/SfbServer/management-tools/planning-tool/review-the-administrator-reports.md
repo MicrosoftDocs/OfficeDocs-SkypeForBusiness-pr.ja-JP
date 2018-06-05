@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: 管理者レポートは、展開と運用に関する詳細情報です。 デザインのサイトでの選択に基づいてレポートが生成されます。 設計者は、ネットワーク ダイアグラムを編集し、サーバー、プール、およびロード バランサーの完全な IP アドレスと完全修飾ドメイン名 (FQDN) を定義することで、管理者レポートに値を追加できます。
-ms.openlocfilehash: 989623fe8966a7f26f43bae0470da2cc57c3ddc7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1d2cea3b1e0b4e19192f19734b2dcd278ca8a38b
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504762"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 で管理者レポートを確認する
  
@@ -84,7 +85,4 @@ DNS レポートを徹底的に調べて、展開中に問題を引き起こす�
 ## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
 <a name="DNS_Report"> </a>
 
-#### 
-
 [管理者レポートを確認します。](http://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)
-

@@ -11,15 +11,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: '概要: ビジネス サーバー 2015 の Skype 上で動作する CUCM を構成します。'
-ms.openlocfilehash: f05b55b875cb344da369f5fd74f16a73faf43907
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 04913508ba0200da4b34e8b1e18c3e57a5fc7141
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501970"
 ---
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server-2015"></a>Skype for Business Server 2015 と相互運用するための CUCM の構成
  
-**の概要:**CUCM ビジネス サーバー 2015 の Skype を使用するを構成します。
+**の概要:** CUCM ビジネス サーバー 2015 の Skype を使用するを構成します。
   
 > [!CAUTION]
 > この機能は、TCP 経由のみで設定されたトランクを使用する CUCM バージョン 10.5 でテストされています。作業を続行する前に、CUCM 環境がこれらの条件を満たしていることを確認してください。 
@@ -94,7 +95,7 @@ VIS との相互運用を実現するには、多くの CUCM の設定を確認�
     |SIP Profile  <br/> |SfBVideoInterop_SIPProfile  <br/> |
     |DTMF Signaling Method  <br/> |RFC 2833  <br/> |
    
-19.  さらに下にスクロールします。 システムに適した [Recording Information] の設定を行います。 [**なし]**のままにしても問題があります。 
+19.  さらに下にスクロールします。 システムに適した [Recording Information] の設定を行います。 [**なし]** のままにしても問題があります。 
     
 20. 終了したら、[**Add New**] をクリックします。
     
@@ -140,7 +141,4 @@ VIS との相互運用を実現するには、多くの CUCM の設定を確認�
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [ビジネス サーバー 2015 の Skype での相互運用のため、VTC を構成します。](configure-a-vtc-for-interoperation.md)
-

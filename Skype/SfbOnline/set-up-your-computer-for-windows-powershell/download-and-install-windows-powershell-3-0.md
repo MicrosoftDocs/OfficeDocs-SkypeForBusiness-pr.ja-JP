@@ -17,11 +17,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Download, install, and then use Windows PowerShell 3.0 to create a remote PowerShell session that connects to Skype for Business Online.
-ms.openlocfilehash: e3f1ca14b5c9e134ee5186b6c441fc948d1ef65b
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 6679e9749efd6ee09a7c26f383b1b411caadb43e
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19493994"
 ---
 # <a name="download-and-install-windows-powershell-30"></a>Windows PowerShell 3.0 をダウンロードしてインストールします。
 
@@ -65,9 +66,11 @@ PowerShell が実行されている状態になったら、リモート スク�
 ```
 Set-ExecutionPolicy RemoteSigned -Force
 ```
-    > [!NOTE]
-    >  When you run the preceding command, you might receive the following error message:> *Set-ExecutionPolicy : Access to the registry key'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\PowerShell\\1\\ShellIds\\Micrsoft.PowerShell' is denied.* This error message typically occurs if you are not running PowerShell under administrator credentials. Close your session of PowerShell, and start a new session as an administrator. 
-  
+   
+ 
+> [!NOTE]
+> 上記のコマンドを実行すると、次のエラー メッセージが表示される可能性があります: >*セット ExecutionPolicy: レジストリ キーへのアクセス ' HKEY_LOCAL_MACHINE\\ソフトウェア\\Microsoft\\PowerShell\\1\\ShellIds\\Micrsoft.PowerShell' が拒否されました*。 このエラー メッセージは、通常、PowerShell が管理者の資格情報で実行されていない場合に発生します。 PowerShell セッションを閉じるし、管理者は新しいセッションを開始します。
+ 
 実行ポリシーが正しく構成されていることを確認するには、PowerShell プロンプトで次を入力してから ENTER を押します。
   
 ```

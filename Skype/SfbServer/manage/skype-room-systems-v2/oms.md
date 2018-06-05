@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 description: この記事は Microsoft Operations Management Suite を使用して、統合された、エンドツーエンド方式での Skype Room Systems バージョン 2 デバイスを管理する方法について説明します。
-ms.openlocfilehash: 4290e89f2a5faba6fa4efdfb48e57345bc0c35f5
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: b77f7216593d30c843eb49fd8879a83b5b0025c8
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504237"
 ---
 # <a name="manage-skype-room-systems-v2-devices-with-oms"></a>OMS を使用した Skype Room Systems のデバイスを管理する
  
@@ -39,12 +40,9 @@ ms.lasthandoff: 05/11/2018
 |3001  <br/> エラー イベント  <br/> |これはハードウェアのエラー イベントです。 SRS アプリでは、5 分間隔で (正面の室内ディスプレイ、マイク、スピーカー、カメラなどの) 接続済みのハードウェア コンポーネントの状態を確認するプロセスが行われます。 1 つ以上のコンポーネントが正常でない場合、イベント ID 3001 をイベント ログに書き込みます。 このイベントは、デバイスの問題が修正されるまで、引き続き 5 分間隔で書き込まれます。  <br/> |{[説明]:"**フロントの部屋表示ステータス: 問題がある**。 Configured display count is 2. Real display count is 0. **Conference Microphone status : Unhealthy.** Conference Speaker status : Healthy. Default Speaker status : Healthy. Camera status : Healthy. ","ResourceState":"Unhealthy","OperationName":"HardwareCheckEngine","OperationResult":"Fail","OS":"Windows 10","OSVersion":"10.0.14393.1198","Alias":"alias@contoso.com","DisplayName":"Yosemite conference room","AppVersion":"2.0.58.0","IPv4Address":"10.10.10.10","IPv6Address":"IPv6Address","IPv4Address2":"10.10.10.10"} <br/>  ハードウェア周辺機器は Healthy または Unhealthy のいずれかとして表示されます。 <br/> この例では、構成済みの正面の室内ディスプレイが 2 つあり、現在いずれも利用できません。 Conference Microphone status が Unhealthy ですが、考えられる原因がいくつかあります。 少なくとも 1 つのリソースがチェックに合格していなかったため、ResourceState が Unhealthy として表示されます。 技術者を派遣して詳しい調査を行ってください。  <br/> |
 |4000  <br/> 情報  <br/> |これはアプリの再起動イベントです。 アプリが再起動するたびに、このイベントを必ず Windows イベント ログに記録します。  <br/> | {"Description":"App restarts.","ResourceState":"Healthy","OperationName":"Restart","OperationResult":"Pass","OS":"Windows 10","OSVersion":"10.0.14393.693","Alias":"alias@domain.com","DisplayName":"Display Name","AppVersion":"1.0.38.0","IPv4Address":"10.10.10.10","IPv6Address":"ip v6 address"} <br/> さまざまな理由から、Skype のビジネス アプリケーションが再起動されます。 インフラストラクチャの問題への手がかりを提供する場合がありますこれは、既知の電圧変動や電源障害などの問題を念頭に置き、別の建物と同じ建物にはデバイスの再起動の頻度を比較します。 <br/> |
    
-## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
-<a name="Telemetry"> </a>
-
-#### 
+## <a name="see-also"></a>関連項目
+<a name="Telemetry"></a>
 
 [OMS を使用して Skype ルーム システム v2 の管理を計画します。](../../plan-your-deployment/clients-and-devices/oms-management.md)
   
 [OMS を使用して Skype ルーム システム v2 の管理を展開します。](../../deploy/deploy-clients/with-oms.md)
-

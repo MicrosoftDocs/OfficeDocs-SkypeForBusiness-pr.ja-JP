@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: '概要: ビジネス サーバー 2015 の Skype の有効なメディア使用しないと、トランクを構成します。 これは、オプションを選択する、SIP トランク プロバイダーでサポートされていると仮定した、仲介サーバーの数を最小化することができます。'
-ms.openlocfilehash: 08853388e17956be64fe11e18efd9f436007312d
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f8e353e7d11bb3921839f957be25e0bfb6804a03
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501295"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でメディア バイパスを有効にしてトランクを構成する
  
@@ -183,8 +184,6 @@ ms.lasthandoff: 05/24/2018
 トランクを構成した後は、メディアの設定を続けるに従って[展開メディアをビジネス サーバー 2015 の Skype のバイパス](deploy-media-bypass.md)の展開に関するドキュメントで、グローバル ・ メディアとの間を選択して使用しないがオプションを省略します。
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [ビジネス サーバー 2015 のメディアが Skype で省略せずに、トランクを構成します。](configure-trunk-without-media-bypass.md)
 
 [ビジネス サーバー 2015 に Skype でのメディア バイ パスを展開します。](deploy-media-bypass.md)
@@ -192,4 +191,3 @@ ms.lasthandoff: 05/24/2018
 [変換ルールを定義します。](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
   
 [メディア バイ パスを構成します。](http://technet.microsoft.com/library/f50a7a13-c6a0-48f1-bee1-e45fa2b2f9b8.aspx)
-

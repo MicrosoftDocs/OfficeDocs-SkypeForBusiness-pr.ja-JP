@@ -16,11 +16,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: f180dc41bb76c8ceba0ce657232b543afebd5e6b
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: fdb0b7585c2462b64d4735bc4c59d9020e6466e3
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500763"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Skype for Business Online インストールをテストする
 
@@ -47,7 +48,7 @@ ms.lasthandoff: 04/18/2018
 ## <a name="set-up-test-accounts"></a>テスト アカウントをセットアップする
 <a name="__toc328126910"> </a>
 
-1. Go to **Admin** > **Office 365** > **Users and groups**, then select add![Add](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) and enter the required information.
+1. **管理者**に > **Office 365** > **ユーザーとグループ**、し、選択を追加![追加](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png)し、必要な情報を入力します。
     
 2. 手順 4 (メール) まで進んだら、自分のメール アドレスを入力します。次に、新しいユーザーの名前とパスワードを記録します。 
     
@@ -75,7 +76,7 @@ Skype for Business Online 会議に電話でアクセスできるようにする
   
  **テスト ユーザーのアカウントに電話会議情報を追加するには**
   
-1. Click **Audio Conferencing** > **Uusers**.
+1. **オーディオ会議**をクリックして > **のユーザー**です。
     
 2. ダイヤルイン会議向けにセットアップするユーザーの名前をクリックして、[ **編集**] ![編集](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)をクリックします。
     

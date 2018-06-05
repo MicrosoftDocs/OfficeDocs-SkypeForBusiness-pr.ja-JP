@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: '概要: は、作成および音声ポリシーを変更またはビジネス サーバーのコントロール パネルの Skype を使用して、PSTN 使用法レコードを構成します。'
-ms.openlocfilehash: fc1d60cb66dd0cf73c63b9896f153bb83c8fec24
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 69904c28d8121cd8416b547e17fcad866260a319
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501050"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business-2015"></a>Skype for Business 2015 での音声ポリシーの作成または変更と PSTN 使用法レコードの構成
  
@@ -335,8 +336,6 @@ ms.lasthandoff: 05/03/2018
     
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [ビジネス 2015年の Skype の PSTN 使用法レコードの表示](view-pstn-usage-records.md)
   
 [作成またはビジネス 2015年の Skype でのボイス ルートを変更します。](create-or-modify-a-voice-route.md)
@@ -344,4 +343,3 @@ ms.lasthandoff: 05/03/2018
 [発行保留中のビジネス 2015年の Skype で音声ルーティング構成の変更](voice-route-config-changes.md)
   
 [ビジネス 2015年の Skype でボイス メールのエスケープを構成します。](configure-voice-mail-escape.md)
-

@@ -11,15 +11,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: '概要: ステージの AV と OAuth の証明書サーバー 2015 のビジネス用の Skype のです。'
-ms.openlocfilehash: fd794fa3bc689a04967ac52b66c3ef905926cd18
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: a103d6463a02cd00d71769b8f86b43fae514a19d
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504958"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのユーザー単位の PIN ポリシーの割り当て
 
-**の概要:**ステージ AV と OAuth の証明書サーバー 2015 のビジネス用の Skype のです。
+**の概要:** ステージ AV と OAuth の証明書サーバー 2015 のビジネス用の Skype のです。
   
 ダイヤルイン会議の個人識別番号 (PIN) ポリシーは、個々 のビジネス サーバーのコントロール パネルの Skype で構成可能なユーザー アカウントの設定のいずれかです。
   
@@ -64,7 +65,7 @@ ms.lasthandoff: 03/28/2018
 7. [**ポリシーの割り当て**] の [**PIN ポリシー**] で、次のいずれかの手順を実行します。
     
     > [!NOTE]
-    > **ポリシーの割り当て**] ダイアログ ボックスを使用して構成することができます複数のポリシーがあるため**\<は、してください\>**のすべてのポリシー] ダイアログ ボックスで既定で選択します。 この設定を変更しないで、以前にユーザーに割り当てたポリシーを使用して続行します。
+    > **ポリシーの割り当て**] ダイアログ ボックスを使用して構成することができます複数のポリシーがあるため**\<は、してください\>** のすべてのポリシー] ダイアログ ボックスで既定で選択します。 この設定を変更しないで、以前にユーザーに割り当てたポリシーを使用して続行します。
   
    - Skype ビジネス サーバーの 2015 グローバル レベルのポリシーを自動的に選択するを許可するか、サイト レベルのポリシーを定義します。
     
@@ -108,7 +109,4 @@ Windows PowerShell と**与える CsPinPolicy**コマンドレットを使用し
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [ビジネス サーバー 2015 の Skype の新しい暗証番号 (pin) ポリシーを作成する.](create-a-new-pin-policy.md)
-
