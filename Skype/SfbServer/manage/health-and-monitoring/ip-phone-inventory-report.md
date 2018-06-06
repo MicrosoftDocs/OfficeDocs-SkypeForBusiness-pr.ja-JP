@@ -10,15 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
 description: '概要: は、ビジネス サーバー 2015 の Skype では、IP 電話インベントリ レポートについて説明します。'
-ms.openlocfilehash: a161fae573a10f8da875736387284f0771a363e9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: fd68e94f9d4c30aafb86302d8211b52909f737db
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569555"
 ---
 # <a name="ip-phone-inventory-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の IP 電話在庫レポート
  
-**の概要:**ビジネス サーバー 2015 の Skype では、IP 電話インベントリ レポートについて説明します。
+**の概要:** ビジネス サーバー 2015 の Skype では、IP 電話インベントリ レポートについて説明します。
   
 IP 電話在庫レポートは、組織で現在使われている IP 電話に関する情報をレポートします。このレポートには、指定したレポート期間に実際に使用された IP 電話の詳細な一覧が含まれます。このレポートを使用すると、たとえば、交換する必要がある以前の電話機が使用されていないかどうかや、ほとんど使用されていない高価な電話機がないかどうかを調べることができます。この種の情報は、新しい電話機を購入したり既存の電話機を割り当てし直したりする際にとても役に立ちます (たとえば、ほとんど使用しないユーザーに割り当てられている高価な電話機を、電話を多用するユーザーの電話機と交換することができます)。
   
@@ -46,7 +47,7 @@ $phones |Group-Object Manufacturer, "Hardware version" | Select-Object Count, Na
 
 この結果、次のようなデータが返されます。
   
-```
+<pre>
 Count    Name
 -----    ----
   267    POLYCOM, CX700
@@ -60,8 +61,7 @@ Count    Name
    11    Microsoft, CPE_A
     9    POLYCOM, CX500
     7    Aastra, 6721ip
-
-```
+</pre>
 
 同様に、次の 2 つのコマンドを使用すると、システムにログオンしたが電話をかけるために使用されていない電話機を調べることができます ("Last activity (最後のアクティビティ)" という指標の値が空白になっています。これは、最後のアクティビティがないことを表します)。
   
@@ -72,7 +72,7 @@ $phones | Where-Object {$_."Last activity" -eq ""}
 
 この結果、使用されていない電話機ごとに次のようなデータが返されます。
   
-```
+<pre>
 Manufacturer     : POLYCOM
 Hardware version : CX600
 MAC address      : 00-04-F2-00-01-76
@@ -81,7 +81,7 @@ User agent       : CPE/4.0.7423.1 OCPhone/4.0.7423.1 (Microsoft Lync 2010 (Beta)
 Last logon time  : 8/30/2010 4:44:48 PM
 Last logoff time : 8/30/2010 5:59:07 PM
 Last activity    :
-```
+</pre>
 
 IP 電話インベントリ レポートを使用する別の興味深い方法は、この: MAC アドレス] テキスト ボックスにそのアドレスを入力するだけでその電話を最後に使用したユーザーを調べることができます、IP 電話の MAC アドレスがある場合。 IP 電話インベントリ レポートは、レポート (特に) その電話の最後にログオンしたユーザーの SIP アドレス。 代わりに、そのユーザーによって使用されていたすべての電話を確認するユーザー、ユーザーの URI プレフィックス ボックスでの SIP アドレスを入力できます。
   
