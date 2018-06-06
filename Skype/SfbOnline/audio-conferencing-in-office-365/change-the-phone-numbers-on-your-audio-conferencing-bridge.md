@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 電話会議ライセンスをご購入いただく場合、Microsoft はお客様の組織の電話会議ブリッジ をホストします。電話会議ブリッジではさまざまな場所からダイヤルイン電話番号を受け取るため、会議の開催者や参加者はそれらの番号を使用して電話で Skype for Business 会議または Microsoft Teams 会議に参加できます。
-ms.openlocfilehash: 89bc5d0ad31deec9ebc0a970bedc62cb5ed50bee
-ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
+ms.openlocfilehash: 0eceff97470bf6c0df6b0818734955ebf71d0f76
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568365"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>オーディオ会議ブリッジの電話番号を変更します。
 
@@ -81,7 +82,6 @@ Meeting Migration Service を使用して、ユーザーの既定の電話番号
     
 ```
     Start-CsExMeetingMigration user@contoso.com
-
 ```
 
 - 会議の移行の状態を確認することもできます。[ *保留*  ] または [ *進行中*  ] の状態で操作が行われなくなると、すべての会議のスケジュールが変更されることがあります。

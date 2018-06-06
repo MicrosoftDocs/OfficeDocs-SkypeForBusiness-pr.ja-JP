@@ -10,15 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: '概要: は、Skype のビジネス サーバー 2015 の監視レポートを生成するサービスをインストールする方法を説明します。'
-ms.openlocfilehash: cfb07f7e36f798e394c7a66bfcd5f2cab018377a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 239274c6692358c06863d2e074bda1daf9d6c6b3
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569548"
 ---
 # <a name="install-monitoring-reports-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 への監視レポートのインストール
  
-**の概要:**Skype のビジネス サーバー 2015 の監視レポートを生成するサービスをインストールする方法について説明します。
+**の概要:** Skype のビジネス サーバー 2015 の監視レポートを生成するサービスをインストールする方法について説明します。
   
 ビジネス サーバー 2015 監視レポートの Skype では、品質と組織内で行われる通信セッションの数に関する情報が豊富に提供します。 
   
