@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: '概要: ビジネス サーバー 2015 の Skype を実装する前に以下の IP アドレス タイプの考慮事項を確認します。'
-ms.openlocfilehash: d94995e75ecbb4df973a01ebfa5f00ed91575c19
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: adebab15a0c10310b25af30f6e933625df61dc3d
+ms.sourcegitcommit: a612ebe25e06c2cb090f776325712caf3cf3b943
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "19630148"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Skype for Business での IP アドレスの種類の構成
  
@@ -78,20 +79,15 @@ IP アドレスの種類を展開するには、トポロジ ビルダーでト�
     > [!NOTE]
     > スタンドアロンの仲介サーバーの PSTN の IP アドレスの構成をサポートするために追加の Nic のインストールはサポートされていません。 ビジネス サーバーの Skype のサポートされている NIC 構成の詳細については、 [Lync Server 2013 のサーバー ハードウェア プラットフォーム](http://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx)を参照してください。 
   
-## <a name="deploy-ip-address-types-on-a-edge-server"></a>IP アドレスの種類をエッジ サーバーに展開する
+## <a name="deploy-ip-address-types-on-an-edge-server"></a>IP アドレスの種類をエッジ サーバーに展開する
 
-トポロジ ビルダーを使用すると、エッジ サーバーの IP アドレスの種類を展開するのには次の手順で手順を実行します。
+トポロジ ビルダーを使用すると、次の手順に従います。
   
 ### <a name="to-deploy-ip-address-types-on-an-edge-server"></a>エッジ サーバー上に IP アドレスの種類を展開するには
 
 1. トポロジ ビルダーで、[**エッジ プール**、プール内でサーバーを右クリックし、**プロパティの編集**] を選択します。 (または、サーバーを選択し、 **[操作**] メニューから **[プロパティの編集**] をクリックして)。
     
-2. [**プロパティの編集**] ウィンドウで、サポートする IP アドレス構成を選択します。次の図に、内部インターフェイスおよび外部インターフェイスのデュアル スタック構成を示します。
-    
-   **デュアル スタックのエッジ サーバーの内部インターフェイス**
-
-   **デュアル スタックのエッジ サーバー外部インターフェイス**
+2. [**プロパティの編集**] ウィンドウで、サポートする IP アドレス構成を選択します。    
 
 3. 選択したアドレスの種類で、それぞれ適切な内部アドレスと外部アドレスを指定する必要があります。
     
-
