@@ -73,6 +73,7 @@
 ## [会議からダイヤルアウトして他のユーザーが参加できるようにする](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [ユーザーが会議に参加するときに名前を記録できるようにする](/SkypeForBusiness/audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [会議の入退室通知をオンまたはオフにする](/SkypeForBusiness/audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [チーム クラウドのミーティングのレコーディング](cloud-recording.md)
 ## [Outlook で Teams の会議アドインを使用する](teams-add-in-for-outlook.md)
 ## [Meeting Migration Service (MMS) のセットアップ](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
 
