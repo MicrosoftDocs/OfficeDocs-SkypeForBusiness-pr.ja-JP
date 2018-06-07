@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Cloud Connector と Office 365 テナントの統合を構成する方法を説明します。
-ms.openlocfilehash: 62caf2cd70b16f0a8e85a38b381478d49e4ee37c
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 40cb3334fb3d45432ada1a63aae8368a60433ad0
+ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "19649644"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Cloud Connector と Office 365 テナントの統合を構成する
  
@@ -165,7 +166,7 @@ P2P の呼び出しは、PSTN 会議にエスカレートされ、オンライ�
     
     クラウド コネクタ (.ini ファイルの最初の SIP ドメイン) の既定の SIP ドメインをユーザー ドメインとして使用します。
     
-    作成したアカウントに Office 365 ライセンス (E5 など) を割り当てないでください。Office 365 AD 同期が完了するまで待ちます。
+    (E5) などの Office 365 のライセンスを作成するアカウントに割り当てます。
     
 2. テナント管理者の資格情報とそのユーザーに、仲介サーバーとエッジ サーバーの FQDN を設定するのには次のコマンドレットのアカウントを交換し実行を使用してテナントのリモート PowerShell セッションを開始する\<表示名\>のユーザーの表示名を持つ、アカウントを作成します。
     
