@@ -10,12 +10,12 @@ ms.reviewer: marcl, ninadara, v-leslc
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 420e303ebd517a472dcd3bcde1004acf44ca2dc3
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 6624aa94ef6581805e3ba2b79f09aefb95616bb0
+ms.sourcegitcommit: 1b4e93727f65b120068a74064b4144f0117f230c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569901"
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19691218"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
   
@@ -100,10 +100,6 @@ ms.locfileid: "19569901"
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
 |Skype for Business オンプレミスのユーザーがメッセージを受信していません  <br/> |メッセージは、Microsoft Teams ユーザーが Skype for Business オンプレミスを使用している別のユーザーにメッセージを送信しようとする時点では完了しません。 <br/> | Skype for Business Online にホストされる Teams とユーザー間の相互運用性がサポートされています。 Teams ユーザーは、Skype for Business Online を使用して Teams 以外のユーザーに 1 対 1 のチャットを送信できます。 <br/> Skype for Business オンプレミスにホストされる Teams とユーザー間の相互運用性はサポートされていません。 Teams ユーザーは、Skype for Business オンプレミスを使用して Teams 以外のユーザーに 1 対 1 のチャットを送信することはできません。 <br/> |2016/11/02  <br/> |
-
-|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
-|:-----|:-----|:-----|:-----|
-|ビジネスおよびチームの相互運用のための Skype <br/> |ユーザーがチームにアップグレードした後、ことはできませんチーム クライアントを閉じるをクリックして、Skype ビジネス クライアント用と同じようにチームにアップグレードする前に。 <br/> | ユーザーが、チームとの Skype のあるチームにアップグレードした後ビジネスのクライアントを同時に開いたり、チームのクライアントを開く必要があるだけ。 Skype のビジネス クライアントに電子メール メッセージを移動する場合は開いていること、避ける必要があります。<br/> |05/01/18  <br/> |
 
 ## <a name="client"></a>クライアント
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
