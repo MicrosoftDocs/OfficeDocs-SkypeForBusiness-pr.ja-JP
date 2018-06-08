@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: See how to select the auto-attendant lanugages for a dial-in conferencing number.
-ms.openlocfilehash: c4461f61ce05afedc2663a3e5b61d37370394cd4
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 44c05f081115ddf50eefd8df97765b3cbd82ef56
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703770"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing"></a>電話会議の自動案内の言語を設定する
 
@@ -34,6 +35,9 @@ ms.lasthandoff: 05/03/2018
   
 > [!NOTE]
 >  言語は、国内のダイヤルイン アクセス電話番号に対してのみ設定できます。
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>電話会議の自動応答の言語を設定する
 
@@ -65,9 +69,6 @@ ms.lasthandoff: 05/03/2018
   
 4. [ **保存**] をクリックします。
     
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
 ## <a name="want-else-should-i-know"></a>その他の情報
 
 - 電話会議でサポートされる言語のリストを確認するには、「[ダイヤルイン会議でサポートされる言語](audio-conferencing-supported-languages.md)」をご覧ください。

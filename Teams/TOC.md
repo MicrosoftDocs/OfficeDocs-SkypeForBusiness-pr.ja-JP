@@ -101,6 +101,7 @@
 ### [自分の成功を定義します。](1-envision-define-my-success-cloud-voice.md)
 ### [意思決定、サービス ・電話会議](2-envision-make-my-service-decisions-audio-conferencing.md)
 ### [意思決定、サービスの計画を呼び出すと、電話システム](2-envision-make-my-service-decisions-phone-system.md)
+### [意思決定、サービスの電話システムの直接のルーティング](2-envision-make-my-service-decisions-direct-routing.md)
 ### [自分の環境を評価します。](3-envision-evaluate-my-environment.md)
 ### [[サービスの管理を計画します。](4-envision-plan-my-service-management.md)
 ### [自分のユーザー エクスペリエンスを計画します。](5-envision-plan-my-users-experience.md)

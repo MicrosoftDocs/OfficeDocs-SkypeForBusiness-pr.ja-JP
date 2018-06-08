@@ -20,22 +20,26 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'ユーザーおよびその他のダイヤルイン会議の設定にダイヤルイン会議のライセンスおよび会議 ID を割り当てる手順を参照してください。 '
-ms.openlocfilehash: 7a5f82a827049f591d012af7f752e26ac4f9d87b
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 26d80b71344227aeaec7089e2bb9f9a9dfe32ad2
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703670"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization"></a>組織の電話会議の設定を管理する
 
 [] 1 つの場所で Skype for Business と Microsoft Teams のすべての電話会議設定を確認することが、より簡単になります。 
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="assign-an-audio-conferencing-license"></a>電話会議のライセンスを割り当てる
 
 > [!NOTE]
 > You can't assign licenses using the **Skype for Business admin center**, you must use the Office 365 admin center. 
   
- 最大 20 人までのライセンスを同時に割り当てている場合は、[ **ビューの選択**] ボックスを使用していずれかのオプションを選択するか、独自のビューを作成することができます。次に [ 編集]、[ 次へ] を 2 回クリックし、ライセンスを選択して、[ 送信] をクリックします。また、Windows Powershell を使用してライセンスを複数のユーザーに割り当てることもできます。操作手順と PowerShell のサンプル スクリプトについては、「Skype for Business と Microsoft Teams のライセンスを割り当てる」をご覧ください。
+ 最大 20 人までのライセンスを同時に割り当てている場合は、[ ビューの選択] ボックスを使用していずれかのオプションを選択するか、独自のビューを作成することができます。次に [ 編集]、[ 次へ] を 2 回クリックし、ライセンスを選択して、[ 送信] をクリックします。また、Windows Powershell を使用してライセンスを複数のユーザーに割り当てることもできます。操作手順と PowerShell のサンプル スクリプトについては、「Skype for Business と Microsoft Teams のライセンスを割り当てる」をご覧ください。
   
 1. 最大 20 人までのライセンスを同時に割り当てている場合は、[ ビューの選択] ボックスを使用していずれかのオプションを選択するか、独自のビューを作成することができます。
     
@@ -63,7 +67,7 @@ ms.lasthandoff: 05/08/2018
 
 4. [ **保存**] をクリックします。
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -121,7 +125,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 
 4. **会議 ID をリセットしますか?** ] ウィンドウで、[**リセット**] をクリックします。 It's enabled by default. After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use Skype for Business Meeting Migration Tool to update their existing meetings. To see how to download, install and run the Lync Meeting Update Tool, see:> Meeting Update Tool for Skype for Business and LyncSkype for Business Online, Meeting Migration Tool (64-bit)Skype for Business Online, Meeting Migration Tool (32-bit)
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**  
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**  
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -148,7 +152,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 
 3. **オーディオ会議**では、[ **PIN のリセット**] をクリックし、[**リセット**] をクリックします。 
   
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。** 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する** 
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -175,7 +179,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
     > [!NOTE]
     > この操作を行っても、電話会議の PIN はユーザーに送信されません。 
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**  
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**  
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -202,7 +206,7 @@ When you do this, the dial-in conferencing PIN isn't sent to the user.
 
 4. [ **保存**] をクリックします。
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**  
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**  
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -237,7 +241,7 @@ When you do this, the dial-in conferencing PIN isn't sent to the user.
 
 1. [ **保存**] をクリックします。
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。** 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する** 
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -269,7 +273,7 @@ Go to the Office 365 admin centerSkype for Business.
 
     The PIN can only be from 4 to 12 digits.
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。** 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する** 
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -291,7 +295,7 @@ Go to the Office 365 admin centerSkype for Business.
 
 2. **会議ブリッジ**のページの上部には、**ブリッジの設定**をクリックします。 
 
-3. **ブリッジの設定**ウィンドウを有効にするか**、オーディオ会議の設定を変更する場合、ユーザーに e メールを自動的に送信**を無効にします。
+3. **ブリッジの設定**ウィンドウを有効にするか **、オーディオ会議の設定を変更する場合、ユーザーに e メールを自動的に送信**を無効にします。
 
 4. [ **保存**] をクリックします。 
  
@@ -299,7 +303,7 @@ Go to the Office 365 admin centerSkype for Business.
     
     この操作を行うと、会議 ID と電話会議の番号のみが含まれるメールが送信されますが、そのメールに PIN は含まれません。
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。** 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する** 
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -325,7 +329,7 @@ Go to the Office 365 admin centerSkype for Business.
 
 3. [**既定の言語**および **(省略可能) 別の言語**の言語を選択してください。
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。** 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する** 
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -352,7 +356,7 @@ You can also set the primary and secondary languages that are supported when you
   - 場所、およびオーディオ会議自動アテンダントによって使用される主言語を表示します。
 
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**  
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**  
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
