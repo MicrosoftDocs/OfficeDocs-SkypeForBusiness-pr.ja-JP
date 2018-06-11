@@ -17,20 +17,21 @@ f1keywords: None
 ms.custom:
 - SMB
 description: 組織のユーザーが Skype 会議ブロードキャストを使用できるようにする前に、それを有効にしておく必要があります。この手順を実行するには、Windows PowerShell の使い方を知っておく必要があります。Windows PowerShell に慣れていない場合は、マイクロソフトのパートナーに依頼してこの手順を実行することを考慮してください。
-ms.openlocfilehash: 847630e92d0a8ea26edcc7bb70213ee9f932517d
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 2564cf8acc809cb3b3973519bfea3518c851eb34
+ms.sourcegitcommit: 0fa147c33b1d7b5790af8d93339700ab62939430
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19744263"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Skype 会議ブロードキャストを有効にする
 
 [] 組織のユーザーが Skype 会議ブロードキャストを使用できるようにする前に、それを有効にしておく必要があります。この手順を実行するには、Windows PowerShell の使い方を知っておく必要があります。Windows PowerShell に慣れていない場合は、[マイクロソフトのパートナー](https://go.microsoft.com/fwlink/?linkid=391089)に依頼してこの手順を実行することを考慮してください。
-  
-> [!CAUTION]
-> Skype 会議ブロードキャスト は既定でオフになっています。これは、ブロードキャスト会議のメディア コンテンツの配布は、ブロードキャストを視聴する数千人のユーザーを対象にきわめて広範囲に配信されるように、Microsoft Azure のコンテンツ配信ネットワーク (CDN) を使用するためです。CDN を経由して配信されるメディア コンテンツはまとめて暗号化され、CDN キャッシュには有効期限が設定されます。また、Azure CDN コンポーネントは、EU データ保護条令に由来する EU モデル契約条項の一部に準拠していない場合があります。この機能を有効にすると、ここに記載されている注意事項に同意したことになります。 
+
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Skype for Business 管理センターを使用して Skype 会議ブロードキャストを有効にする
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
 
 1. Office 365 のグローバル管理者アカウントを使用してサインイン[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)。
     
@@ -44,7 +45,7 @@ ms.lasthandoff: 04/18/2018
     
 1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
     
-2. [ **Windows PowerShell**] ウィンドウに「 _Get-Host_」と入力して、バージョンを確認します。
+2. [ _Windows PowerShell_] ウィンドウに「 **Get-Host**」と入力して、バージョンを確認します。
     
 3. バージョン 3.0 以降を使用していない場合は、Windows PowerShell の更新プログラムをダウンロードおよびインストールする必要があります。Windows PowerShell をダウンロードして、バージョン 4.0 に更新するには、「[Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845)」を参照してください。メッセージが表示されたら、コンピューターを再起動します。
     
