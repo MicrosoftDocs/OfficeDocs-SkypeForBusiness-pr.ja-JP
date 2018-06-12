@@ -41,6 +41,7 @@
 
 # Office 365 との相互運用性
 ## [移行とビジネス用の Skype では、相互運用性](migration-interop-guidance-for-teams-with-skype.md)
+## [共存およびアップグレードの設定を設定します。](setting-your-coexistence-and-upgrade-settings.md)
 ## [Office 365 グループと Teams](office-365-groups.md)
 ## [既存の Office 365 グループを Teams で強化する](enhance-office-365-groups.md)
 ## [Teams でチームを作成するときの Office 365 グループの計画](plan-office-365-groups.md)
