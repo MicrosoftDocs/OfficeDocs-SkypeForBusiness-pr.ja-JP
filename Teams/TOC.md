@@ -259,7 +259,7 @@
 ### [チュートリアル: PowerShell を使用して会社全体のチームを作成する](company-wide-team-creation-powershell.yml)
 
 ## 管理
-### [他のユーザーと通信できるように、](let-your-teams-users-communicate-with other-people.md)
+### [他のユーザーと通信できるように、](let-your-teams-users-communicate-with-other-people.md)
 ### [レビュー ガイドの経験の質](quality-of-experience-review-guide.md)
 ### [Teams 用に組織のネットワークを準備する](prepare-network.md)
 ### [ツールとワークショップ: Teams の計画、提供、運用](planning-workshop-practical-guide.md)
