@@ -12,12 +12,12 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-ms.openlocfilehash: e92f5fdf9aa3b7d60ccf956d0eca872fd7b3f43f
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 8df54547474376266cabad2f70be6877f12f246d
+ms.sourcegitcommit: 75f9d15ec5c6284191c28e783761619326b57d53
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2018
-ms.locfileid: "19546462"
+ms.lasthandoff: 06/13/2018
+ms.locfileid: "19862902"
 ---
 # <a name="skype-for-business-online-admin"></a>Skype for Business Online の管理
 
@@ -132,7 +132,9 @@ ms.locfileid: "19546462"
                     </div>
                     <div class="cardText">
                         <h3>記事</h3>
-                        <p><a href=" ">リンク名</a></p>
+                        <p><a 
+                        href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">組織内の電話システムのセットアップ</a></p>
+                        <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">電話会議とのサードパーティの統合</a></p>
                     </div>
                 </div>
             </div>
@@ -149,7 +151,8 @@ ms.locfileid: "19546462"
                     </div>
                     <div class="cardText">
                         <h3>新機能</h3>
-                        <p><a href=" ">リンク名</a></p>
+                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">カナダでの通話プラン (一般提供 (GA))</a></p>
+                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">オーストラリアでの通話プラン (プレビューのみ)</a></p>
                     </div>
                 </div>
             </div>
@@ -166,7 +169,7 @@ ms.locfileid: "19546462"
                     </div>
                     <div class="cardText">
                         <h3>主な更新</h3>
-                        <p><a href=" ">リンク名</a></p>
+                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing">電話会議をセットアップする</a></p>
                     </div>
                 </div>
             </div>
