@@ -19,11 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements.
-ms.openlocfilehash: 8ea357aefe96505285d9c7bb870ef852ea2649a4
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
+ms.openlocfilehash: 9f0e0886df721397fe82a60672ef3947c14a3860
+ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/12/2018
+ms.locfileid: "19856038"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype for Business と Microsoft Teams のデータ収集方法
 
@@ -76,10 +77,14 @@ ms.lasthandoff: 05/25/2018
   
 エンド ユーザーは使用状況データの収集のオンとオフを切り替えることはできません。
   
-Skype 会議アプリと Join Launcher Web ページでは、利用統計情報は次のポリシーによって制御されます。
+Skype 会議アプリケーションと結合ナビの web ページでは、このポリシーでは、遠隔測定を制御する方法: <<<<<<< ヘッド
+  
+<a name="set-cswebserviceconfiguration--meetinguxenabletelemetry-true"></a>Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
+=======
  
 `Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True` 
 
+>>>>>>> マスター
   
 このポリシーの既定値は False であるため、利用統計情報は既定では収集されません。この設定はプールごとに行われ、Skype 会議アプリを使用してそのサーバーでホストされる会議に接続するすべてのユーザーを制御します。
   
@@ -100,9 +105,15 @@ Skype 会議アプリと Join Launcher Web ページでは、利用統計情報�
   
 - サーバーまたはテナント管理センターで DisableAutomaticSendTracing グループ ポリシー設定を False に設定する必要があります (これが既定の状態です)。詳細については、「[Skype for Business Server 2015 でのクライアント ブートストラップ ポリシーの構成](https://technet.microsoft.com/EN-US/library/gg425941.aspx)」を参照してください。
     
+<<<<<<< 見出し
+- エンド ユーザーが Skype for Business クライアントの [全般] タブで個別に選択します (歯車アイコンをクリックすると、[オプション] ダイアログ ボックスに [全般] タブが表示されます)。
+    
+     ![歯車アイコン](../images/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)
+=======
 - エンド ・ ユーザーが、[全般] タブから個別にオプトイン (歯車のアイコンをクリックして![歯車アイコン](../images/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)し、表示される [**全般**] タブで**オプション**] ダイアログ ボックスを開きます) ビジネス クライアント用の Skype にします。
     
  
+>>>>>>> マスター
   
 ![Skype for Business data collection checkbox in the Options > General dialog](../images/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
   

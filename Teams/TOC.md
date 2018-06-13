@@ -13,15 +13,16 @@
 
 
 # セットアップ
+## [Teams の展開の概要](deployment-overview.md)
 ## [Teams へのユーザー アクセスを管理する](user-access.md)
 ## [Teams のクライアントを取得する](get-clients.md)
 ## [チームのアプリケーションのハードウェア要件](hardware-requirements-for-the-teams-app.md)
 ## [チームへのサインイン](sign-in-teams.md)
-## [Teams の展開の概要](deployment-overview.md)
 ## [Office 365 を使用する組織で Teams をセットアップする](Office-365-set-up.md)
 ## [Office 365 を使用する組織で Teams の機能をオンにする](enable-features-office-365.md)
 ## [新しいマイクロソフトのチームとビジネス管理センターの Skype に移行する際のチームを管理します。](manage-teams-skypeforbusiness-admin-center.md)
 ## [MSI を使用してマイクロソフトのチームをインストールします。](msi-deployment.md)
+## [他の組織内のチームのユーザーとの通信します。](let-your-teams-users-communicate-with-other-people.md)
 ## [通話品質ダッシュボードで利用できるディメンションとメジャー](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Skype for Business の通話分析をセットアップする](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [通話分析を使用して Skype for Business の低い通話品質をトラブルシューティングする](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -258,6 +259,7 @@
 ### [チュートリアル: PowerShell を使用して会社全体のチームを作成する](company-wide-team-creation-powershell.yml)
 
 ## 管理
+### [他のユーザーと通信できるように、](let-your-teams-users-communicate-with other-people.md)
 ### [レビュー ガイドの経験の質](quality-of-experience-review-guide.md)
 ### [Teams 用に組織のネットワークを準備する](prepare-network.md)
 ### [ツールとワークショップ: Teams の計画、提供、運用](planning-workshop-practical-guide.md)
@@ -266,8 +268,6 @@
 ### [Teams でチームを作成するときの Office 365 グループの計画](plan-office-365-groups.md)
 ### [PowerShell を使用して会社全体のチームを作成する](company-wide-team-creation-powershell.yml)
 ### [Teams 用の PowerShell コマンドレット リファレンス](https://docs.microsoft.com/powershell/module/teams)
-
-
 
 
 # トラブルシューティングとサポート
