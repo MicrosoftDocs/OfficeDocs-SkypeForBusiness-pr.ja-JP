@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Exchange オンラインで Skype ルーム システム v2 を展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 0db23128f0e472ba1e928fafd274a67f063cf2e0
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: bb9f236db41b4eabd2dd73f2e9344f1ff3681cf7
+ms.sourcegitcommit: dc7a7da270121c3702f38614158c9067ad38f12a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19881575"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-online-hybrid"></a>Skype Room Systems バージョン 2 と Exchange Online を展開する (ハイブリッド)
  
@@ -35,14 +36,12 @@ Exchange オンラインで Skype ルーム システム v2 を展開するに�
 
 1. PC 上でリモートの Windows PowerShell セッションを開始し、Exchange Online への接続を次のようにします。
     
-  ```
-  Set-ExecutionPolicy Unrestricted
+```
+Set-ExecutionPolicy Unrestricted
 $org='contoso.microsoft.com'
 $cred=Get-Credential $admin@$org
-$sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/ps1-liveid/ -Credential $cred -Authentication Basic 
--AllowRedirection
-
-  ```
+$sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic  -AllowRedirection
+```
 
 2. セッションを確立するには後、するが新しいメールボックスを作成して、RoomMailboxAccount、として有効にか既存の会議室メールボックスの設定を変更します。 これにより、Skype ルーム システム v2 を認証するためにアカウントが許可されます。
     
@@ -107,12 +106,11 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 
 1. 次のように PC からリモートの Windows PowerShell セッションを作成します。
     
-  ```
-  Import-Module LyncOnlineConnector  
-$cssess=New-CsOnlineSession -Credential $cred  
-Import-PSSession $cssess -AllowClobber
-
-  ```
+    ```
+    Import-Module LyncOnlineConnector  
+    $cssess=New-CsOnlineSession -Credential $cred  
+    Import-PSSession $cssess -AllowClobber
+    ```
 
 2. ビジネス サーバー 2015 の Skype の Skype ルーム システム v2 アカウントを有効にするするには、このコマンドを実行します。
     
@@ -144,8 +142,6 @@ Skype for Business (プラン 3)] を選択します。 Skype ルーム シス�
 検証、ビジネス クライアント用の Skype を使用してこのアカウントにログインできるように。
   
 ## <a name="see-also"></a>関連項目
-
-#### 
 
 [Skype ルームの計画システム v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
