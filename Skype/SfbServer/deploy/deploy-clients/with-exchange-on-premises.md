@@ -1,5 +1,5 @@
 ---
-title: 'Skype Room Systems バージョン 2 と Exchange On-Premises を展開する (ハイブリッド) '
+title: Skype Room Systems バージョン 2 と Exchange On-Premises を展開する
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,17 +11,20 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 description: 社内の Exchange とのハイブリッド環境で Skype ルーム システム v2 を展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: a0a53b7f8be916d1c0c1a69a23a0f8c604420d9a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4fd9b1f2ef7f40f0dac72bd97c25b59d18698154
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19887835"
 ---
-# <a name="deploy-skype-room-systems-v2-with-exchange-on-premises-hybrid"></a>Skype Room Systems バージョン 2 と Exchange On-Premises を展開する (ハイブリッド) 
+# <a name="deploy-skype-room-systems-v2-with-exchange-on-premises"></a>Skype Room Systems バージョン 2 と Exchange On-Premises を展開する
  
-社内の Exchange とのハイブリッド環境で Skype ルーム システム v2 を展開する方法の詳細については、このトピックを参照してください。
+オンライン ビジネスの社内の Exchange と Skype のハイブリッド環境で Skype ルーム システム v2 を展開する方法の詳細については、このトピックを参照してください。
   
-設置型およびいくつかのホストがオンラインでホストされているいくつかのさまざまなサービスがある場合は、各サービスがホストされているによって、構成が決まります。 このトピックでは、社内設置型でホストされている Exchange と Skype ルーム システム v2 のハイブリッド展開を説明します。 この種類の展開で非常に多くのさまざまなバリエーションがあるため、それらのすべての詳細な説明を提供することはできません。 以下、処理の多くの構成です。 プロセスが、設定の適切でない場合は、ここでは、およびその他の展開オプションが記載されているように、同じ結果を達成するために Windows PowerShell を使用することをお勧めします。 提供されている Windows PowerShell スクリプトを使用して、Skype ルーム システム v2 のセットアップを確認します。 (詳しくは、アカウントの確認スクリプトを参照してください)。
+設置型およびいくつかのホストがオンラインでホストされているいくつかのさまざまなサービスがある場合は、各サービスがホストされているによって、構成が決まります。 このトピックでは、社内設置型でホストされている Exchange と Skype ルーム システム v2 のハイブリッド展開を説明します。 この種類の展開で非常に多くのさまざまなバリエーションがあるため、それらのすべての詳細な説明を提供することはできません。 以下、処理の多くの構成です。 プロセスが、設定の適切でない場合は、ここでは、およびその他の展開オプションが記載されているように、同じ結果を達成するために Windows PowerShell を使用することをお勧めします。 
+
+マイクロソフトでは、 [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)、新しいユーザー アカウントを作成または Skype ルーム システム v2 の互換性のあるユーザー アカウントにそれらを有効にするためにある既存のリソース アカウントの検証を支援するスクリプトを提供します。 場合は、Skype ルーム システム v2 デバイスを使用してアカウントを構成するのには、次の手順に従うことができます。
   
 ## <a name="deploy-skype-room-systems-v2-with-exchange-on-premises"></a>Skype Room Systems バージョン 2 と Exchange On-Premises を展開する
 
@@ -65,16 +68,15 @@ ms.lasthandoff: 03/28/2018
 1. 管理者権限を持つ、オンプレミスの Exchange 管理シェルを開いて、リモートのメールボックスを有効にし、次のコマンドを実行します。
      
    ```
-   Enable-Mailbox 'PROJECTRIGEL01@contoso.com' -RemoteRoutingAddress 'PROJECTRIGEL01@contoso.com' -Room
+   Enable-Mailbox 'PROJECTRIGEL01@contoso.com' -Room
    ```
 
 2. リモートの Windows PowerShell セッションを開始し、Microsoft Exchange に接続します。 Office 365 のテナントには、次のコマンドを実行します。
     
    ```
-   Set-ExecutionPolicy Unrestricted
    $org='contoso.com'
    $cred=Get-Credential $admin@$org
-   $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri 'https://outlook.office365.com/ps1-liveid/' -Credential $cred -Authentication Basic -AllowRedirection 
+   $sess = New-PSSession -ConfigurationName Microsoft.Exchange -Credential $cred -AllowRedirection -Authentication Basic -ConnectionUri "https://<ExchangeServerFQDN>/PowerShell"
    Import-PSSession $sess
    ```
 
@@ -148,7 +150,7 @@ Skype for Business (プラン 3)] を選択します。 Skype ルーム シス�
   
 ## <a name="see-also"></a>関連項目
 
-#### 
+[Skype ルーム システム v2 用のアカウントを構成します。](room-systems-v2-configure-accounts.md)
 
 [Skype ルームの計画システム v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   

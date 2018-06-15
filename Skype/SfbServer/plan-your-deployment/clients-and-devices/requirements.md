@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: この資料では、Skype ルーム システム v2 をサポートするための要件について説明します。
-ms.openlocfilehash: 7259e82be2ed0e57ba784a96774c12b10f990170
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 1d44178beb69cda78b72bb8d0e599af81be39321
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19887878"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Skype Room Systems バージョン 2 の要件
  
@@ -135,11 +136,9 @@ Skype ルーム システム v2 の独自のイメージを作成する次のダ
     
 これらのダウンロードは、特定の方法で起動可能な Windows インストール メディアのディスクに結合する必要があります[Skype ルーム システム v2 のコンソールの構成](../../deploy/deploy-clients/console.md)で詳細に説明します。 
   
-さらに、 [SkypeRoomProvisioningScript.ps1](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomProvisioningScript.ps1.txt)、Skype ルーム システム v2 のアカウントをプロビジョニングするために使用のコピーを必要があります。
+さらに、 [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)、Skype ルーム システム v2 のアカウントをプロビジョニングするために使用多くの場合のコピーを必要があります。
   
 ## <a name="see-also"></a>関連項目
-
-#### 
 
 [Skype ルームの計画システム v2](skype-room-systems-v2-0.md)
   
@@ -150,4 +149,3 @@ Skype ルーム システム v2 の独自のイメージを作成する次のダ
 [Skype ルームの管理システム v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
 [Skype ビジネス アドオン ライセンス](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)
-

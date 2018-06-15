@@ -1,5 +1,5 @@
 ---
-title: Skype Room Systems バージョン 2 と Exchange Online を展開する (ハイブリッド)
+title: Skype Room Systems バージョン 2 と Exchange Online を展開する
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,18 +13,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Exchange オンラインで Skype ルーム システム v2 を展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: bb9f236db41b4eabd2dd73f2e9344f1ff3681cf7
-ms.sourcegitcommit: dc7a7da270121c3702f38614158c9067ad38f12a
+ms.openlocfilehash: dad47f56d96da0f84383b2638684c65554e5a8f9
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/14/2018
-ms.locfileid: "19881575"
+ms.locfileid: "19887892"
 ---
-# <a name="deploy-skype-room-systems-v2-with-exchange-online-hybrid"></a>Skype Room Systems バージョン 2 と Exchange Online を展開する (ハイブリッド)
+# <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>Skype Room Systems バージョン 2 と Exchange Online を展開する 
  
-Exchange オンラインで Skype ルーム システム v2 を展開する方法の詳細については、このトピックを参照してください。
+ビジネス サーバー設置型の Exchange Online と Skype の Skype ルーム システム v2 を展開する方法の詳細については、このトピックを参照してください。
   
-設置型およびいくつかのホストがオンラインでホストされているいくつかのさまざまなサービスがある場合は、各サービスがホストされているによって、構成が決まります。 このトピックでは、オンラインでホストされている Exchange と Skype ルーム システム v2 のハイブリッド展開について説明します。 この種類の展開で非常に多くのさまざまなバリエーションがあるため、それらのすべての詳細な説明を提供することはできません。 以下、処理の多くの構成です。 Windows PowerShell を使用することをお勧めできない場合は、プロセスのセットアップに適した、(付録を参照してください: PowerShell) ここでは、およびその他の展開オプションが記載されているように、同じ結果を達成するためにします。 提供されている Windows PowerShell スクリプトを使用して、Skype ルーム システム v2 のセットアップを確認します。 (詳しくは、アカウントの確認スクリプトを参照してください)。
+設置型およびいくつかのホストがオンラインでホストされているいくつかのさまざまなサービスがある場合は、各サービスがホストされているによって、構成が決まります。 このトピックでは、オンラインでホストされている Exchange と Skype ルーム システム v2 のハイブリッド展開について説明します。 この種類の展開で非常に多くのさまざまなバリエーションがあるため、それらのすべての詳細な説明を提供することはできません。 以下、処理の多くの構成です。 プロセスが、設定の適切でない場合は、ここでは、およびその他の展開オプションが記載されているように、同じ結果を達成するために Windows PowerShell を使用することをお勧めします。 
+
+ユーザー アカウントを設定する最も簡単な方法では、リモートの Windows PowerShell を使用してそれらを構成します。 マイクロソフトでは、 [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)、新しいユーザー アカウントを作成または Skype ルーム システム v2 の互換性のあるユーザー アカウントにそれらを有効にするためにある既存のリソース アカウントの検証を支援するスクリプトを提供します。 場合は、Skype ルーム システム v2 デバイスを使用してアカウントを構成するのには、次の手順に従うことができます。
+
+
   
 ## <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>Skype Room Systems バージョン 2 と Exchange Online を展開する
 
@@ -142,6 +146,8 @@ Skype for Business (プラン 3)] を選択します。 Skype ルーム シス�
 検証、ビジネス クライアント用の Skype を使用してこのアカウントにログインできるように。
   
 ## <a name="see-also"></a>関連項目
+
+[Skype ルーム システム v2 用のアカウントを構成します。](room-systems-v2-configure-accounts.md)
 
 [Skype ルームの計画システム v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   

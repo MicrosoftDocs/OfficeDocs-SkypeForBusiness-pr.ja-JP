@@ -13,19 +13,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: ビジネス サーバー 2015 の Skype と Skype ルーム システム v2 を展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 49d52b866c210554d66bf7cd9f59d1b5d8539070
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: da5d0319e3dd582d6f446471424814ece3a9d178
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19887828"
 ---
 # <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a>Skype Room Systems バージョン 2 と Skype for Business Server 2015 を展開する
- 
-ビジネス サーバー 2015 の Skype と Skype ルーム システム v2 を展開する方法の詳細については、このトピックを参照してください。
   
 このトピックでは、単一フォレストでは、設置型の展開がある場合に Skype ルーム システムのバージョン 2 のデバイスのアカウントを追加する方法について説明します。
   
 単一フォレスト、Exchange 2013 の sp1 またはそれ以降の設置型展開および Skype ビジネス サーバー 2015 またはそれ以降がある場合は場合、は、デバイスのアカウントを作成するのには、指定された Windows PowerShell スクリプトを使用できます。 マルチ フォレスト展開を使用する場合は、同じ結果を生成すると同等のコマンドレットを使用できます。 これらのコマンドレットは、このセクションで説明します。
+
+ユーザー アカウントを設定する最も簡単な方法では、リモートの Windows PowerShell を使用してそれらを構成します。 マイクロソフトでは、 [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)、新しいユーザー アカウントを作成または Skype ルーム システム v2 の互換性のあるユーザー アカウントにそれらを有効にするためにある既存のリソース アカウントの検証を支援するスクリプトを提供します。 場合は、Skype ルーム システム v2 デバイスを使用してアカウントを構成するのには、次の手順に従うことができます。
   
 ## <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a>Skype Room Systems バージョン 2 と Skype for Business Server 2015 を展開する
 
@@ -101,7 +102,6 @@ Skype ルーム システム v2 を展開する作業を開始する前に、関
    Set-CsMeetingRoom -DomainController DC-ND-001.contoso.com -Identity PROJECTRIGEL01 -EnterpriseVoiceEnabled $true
    Grant-CsVoicePolicy -PolicyName VP1 -Identity PROJECTRIGEL01
    Grant-CsDialPlan -PolicyName DP1 -Identity PROJECTRIGEL01
-
    ```
 
    繰り返しますが、提供されるドメイン コントローラーと電話番号の例は、実際に使用する情報に置き換える必要があります。パラメータ値 $true は同じままです。
@@ -120,12 +120,11 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.com -RegistrarPool cs3.contoso.com
 Set-CsMeetingRoom -Identity rigel1 -EnterpriseVoiceEnabled $true -LineURI tel:+155555555555
 Grant-CsVoicePolicy -PolicyName dk -Identity rigel1
 Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
-
 ```
 
 ## <a name="see-also"></a>関連項目
 
-#### 
+[Skype ルーム システム v2 用のアカウントを構成します。](room-systems-v2-configure-accounts.md)
 
 [Skype ルームの計画システム v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
@@ -134,4 +133,3 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 [Skype ルーム システム v2 のコンソールを構成します。](console.md)
   
 [Skype ルームの管理システム v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
-

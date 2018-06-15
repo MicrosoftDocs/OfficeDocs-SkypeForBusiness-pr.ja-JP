@@ -12,18 +12,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ''
-description: ビジネス サーバー 2015 の Skype ルーム システム v2 のアカウントを Exchange に構成して、Skype については、このトピックを参照してください。
-ms.openlocfilehash: 6efd8f32a19ff54958583e11e7910fb17a882953
-ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
+description: Exchange Skype ルーム システム v2 のアカウントを構成し、ビジネスの Skype の詳細については、このトピックを参照してください。
+ms.openlocfilehash: 8284795df5f3cc50db0a4089deb9755239e5876e
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19887899"
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>Skype ルーム システム v2 用のアカウントを構成します。
  
-Skype ルーム システム v2 と統合する方法と交換し、Skype ビジネス サーバー 2015 の詳細については、このトピックを参照してください。
+Skype ルーム システム v2 と交換し、ビジネスの Skype を統合する方法については、このトピックを参照してください。
   
-このトピックでは、ビジネス サーバー 2015 の Microsoft Exchange と Skype の Skype ルーム システム v2 を使用するアカウントを作成する方法について説明します。 Skype ルーム システム v2 デバイスの展開の手順については、 [Skype ルーム システム v2 のコンソールを構成](console.md)してください。 通常、インフラストラクチャは次のいずれかの構成に該当します。
+このトピックでは、Microsoft Exchange、Skype の Skype ルーム システム v2 がビジネスに使用するアカウントを作成する方法について説明します。 Skype ルーム システム v2 デバイスの展開の手順については、 [Skype ルーム システム v2 のコンソールを構成](console.md)してください。 通常、インフラストラクチャは次のいずれかの構成に該当します。
   
 - オンラインの展開: 組織の環境を Office 365 の完全に展開します。 詳細については、 [Office 365 で v2 を Skype ルーム システムの展開](with-office-365.md)を参照してください。
     
@@ -75,13 +76,11 @@ Skype ルーム システム v2 では、Active Directory、Exchange、および
 |:-----|:-----|
 |証明書ベースの認証  <br/> |証明書は、Exchange と Skype のビジネス サーバーの両方に必要な可能性があります。 証明書を展開するには、管理者としてログインしたときに証明書をロードできます。  <br/> |
    
-ユーザー アカウントを設定する最善の方法では、リモートの Windows PowerShell を使用してそれらを構成します。 マイクロソフトでは、 [SkypeRoomProvisioningScript.ps1](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomProvisioningScript.ps1.txt)、新しいユーザー アカウントを作成または Skype ルーム システム v2 の互換性のあるユーザー アカウントにそれらを有効にするためにある既存のリソース アカウントの検証を支援するスクリプトを提供します。
+ユーザー アカウントを設定する最も簡単な方法では、リモートの Windows PowerShell を使用してそれらを構成します。 マイクロソフトでは、 [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)、新しいユーザー アカウントを作成または Skype ルーム システム v2 の互換性のあるユーザー アカウントにそれらを有効にするためにある既存のリソース アカウントの検証を支援するスクリプトを提供します。
   
 Windows PowerShell コマンドレット経由で Office 365 の UI を使用する場合は、いくつかの手順を手動で実行することができます。 [Office 365 を使用してデバイスのアカウントを作成する](https://technet.microsoft.com/itpro/surface-hub/create-a-device-account-using-office-365)を参照してください。
   
 ## <a name="see-also"></a>関連項目
-
-#### 
 
 [Skype ルームの計画システム v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
