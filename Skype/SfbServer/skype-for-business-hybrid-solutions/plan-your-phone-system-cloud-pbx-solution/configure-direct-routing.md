@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft 電話システム直接ルーティングを構成する方法について説明します。
-ms.openlocfilehash: e2f9629de713c363de02124a922b21882853d54d
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 8b132174a305e55d79b935ceec5105fcfc1fc2e6
+ms.sourcegitcommit: 6c3bf5f453188bc951e92aa26b5562bf6680d4d7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/15/2018
+ms.locfileid: "19907945"
 ---
 # <a name="configure-direct-routing"></a>直接ルーティングを構成します。
 
@@ -59,14 +60,14 @@ gcm *onlinePSTNGateway*
 
 コマンドでは、ここで示すように、半角を管理できるようになる 4 つの関数を返します。 
 
-```
+<pre>
 CommandType    Name                       Version    Source 
 -----------    ----                       -------    ------ 
 Function       Get-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt 
 Function       New-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt 
 Function       Remove-CsOnlinePSTNGateway 1.0        tmp_v5fiu1no.wxt 
 Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
-```   
+</pre>   
 
 
 ### <a name="pair-the-sbc-to-the-tenant"></a>テナントに SBC の組み合わせ 
@@ -78,7 +79,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
 ```
   > [!NOTE]
   > 1. 強くお勧め、SBC の制限を設定する SBC のドキュメントで使用されている情報を使用します。 SBC の能力のレベルにある場合、制限は通知をトリガーします。
-  > 2. FQDN で、名前のドメイン部分と一致する以外は、テナントに登録するドメインのいずれかで SBC はペアのみ\*. onmicrosoft.com。使用して\*. SBC の FQDN 名では、omicrosoft.com ドメイン名はサポートされていません。 たとえば、2 つのドメイン名があるとします。<br/><br/>
+  > 2. FQDN で、名前のドメイン部分と一致する以外は、テナントに登録するドメインのいずれかで SBC はペアのみ\*. onmicrosoft.com。 使用して\*. SBC の FQDN 名では、omicrosoft.com ドメイン名はサポートされていません。 たとえば、2 つのドメイン名があるとします。<br/><br/>
   > **abc**.xyz<br/>**abc**onmicrosoft.com。<br/><br/>
   > SBC 名の名前の sbc.abc.xyz を使用できます。 名 sbc.xyz.abc を持つ SBC のペアにしようとすると、システムは動かせません、このテナントは、ドメインを所有していないようです。
 
@@ -86,7 +87,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
 ```
 返します。
-``` 
+<pre>
 Identity              : sbc.contoso.com 
 Fqdn                  : sbc.contoso.com 
 SipSignallingPort     : 5067 
@@ -96,12 +97,12 @@ ForwardPai            : False
 SendSipOptions        : True 
 MaxConcurrentSessions : 100 
 Enabled               : True   
-```
+</pre>
 ペアリング中に設定できるその他のオプションがあります。 前の例では、ただし、のみ、最低限必要なパラメーターが表示されます。 
  
 *新規 CsOnlinePstnGateway*のパラメーターを設定するのに使用できる追加のパラメーターを次の表に一覧します。 
 
-|**必須。**|**名**|**説明**|**既定**|**使用可能な値**|**種類と制限**|
+|必須。|名前|説明|既定|可能な値|種類と制限|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |あり|FQDN|SBC の FQDN 名 |なし|NoneFQDN 名、制限は 63 文字|文字列、[コンピューター、ドメイン、サイト、および Ou の Active Directory の名前付け規則](https://support.microsoft.com/en-us/help/909264)で許可の文字の一覧|
 |なし|MediaBypass |将来使用するために予約されているパラメーターです。 SBC の示されているパラメーターには、メディア バイ パスがサポートされていて、管理者がそれを使用します。|なし|True<br/>False|ブール型|
@@ -129,7 +130,7 @@ SBC のペアであることを確認、SBC SBCs のペアのリストに存在�
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
 ```
 返します。
-``` 
+<pre>
 Identity              : sbc.contoso.com  
 Fqdn                  : sbc.contoso.com 
 SipSignallingPort     : 5067 
@@ -141,7 +142,7 @@ ForwardPai            : False
 SendSipOptions        : True 
 MaxConcurrentSessions : 100 
 Enabled               : True 
-```
+</pre>
 
 #### <a name="validate-sip-options-flow"></a>SIP オプションのフローを検証します。 
 
@@ -206,7 +207,7 @@ Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMai
 たとえば、「Spencer 低」のユーザーの電話番号を追加するのにはするは、次のように入力します。 
 
 ```
-Set-CsUser - “Spencer Low" -OnPremisLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+Set-CsUser - “Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
 ```
 
 電話番号に国コードを含む完全 E.164 電話番号として構成するのには。 
@@ -290,7 +291,7 @@ Get-CSOnlinePSTNUsage
   Usage     : {testusage, US and Canada, International, karlUsage. . .}
 ```
 次の例では、実行中の結果を確認できます PowerShell コマンド*`(Get-CSOnlinePSTNUsage).usage`*(切り捨てではない) 完全な名前を表示します。    
-```
+<pre>
  testusage
  US and Canada
  International
@@ -300,7 +301,7 @@ Get-CSOnlinePSTNUsage
  karlUsage2
  Unrestricted
  Two trunks
-  ```
+</pre>
 
 **手順 2:** ビジネス オンラインの Skype の PowerShell セッションで次の 3 つのルートを作成: 上記の表に示すとおり、レッドモンド 1、2、およびその他の + 1 のレドモンド。 
 
@@ -312,7 +313,7 @@ Get-CSOnlinePSTNUsage
   ```
 
 返します。
-```
+<pre>
 Identity                : Redmond 1
 Priority            : 1
 Description         :
@@ -322,7 +323,7 @@ OnlinePstnGatewayList   : {sbc1.contoso.biz, sbc2.contoso.biz}
 Name            : Redmond 1
 SuppressCallerId    :
 AlternateCallerId   :
-```
+</pre>
 レドモンド 2 ルートを作成するには、次のコマンドを入力します。
 
 ```
@@ -333,7 +334,7 @@ New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
 +1 で他のルートを作成するには、次のコマンドを入力します。
 
 ```
-New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
+New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\\+1(\d{10})$"
 -OnlinePstnGatewayList sbc5.contoso.biz, sbc6.contoso.biz -OnlinePstnUsages "US and Canada"
 ```
 
@@ -345,7 +346,7 @@ New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 - 同じ SBC へのすべての呼び出しをルーティングします。
 
     ```
-    Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern "." 
+    Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern ".*" 
      -OnlinePstnGatewayList sbc1.contoso.biz
     ```
 
@@ -355,7 +356,7 @@ New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 New-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
 次の項目を返す必要があります。
-```
+<pre>
 Identity            : Redmond 1 
 Priority            : 1
 Description     : 
@@ -374,11 +375,11 @@ Name            : Redmond 2
 Identity        : Other +1 
 Priority            : 4
 Description     : 
-NumberPattern       : ^\+1(425|206) (\d{7})$
+NumberPattern       : ^\\+1(\d{10})$
 OnlinePstnUsages    : {US and Canada}    
 OnlinePstnGatewayList   : {sbc5.contoso.biz, sbc6.contoso.biz}
 Name            : Other +1
-```
+</pre>
 
 例では、ルート「その他の +1」が優先順位を自動的に割り当てられます。 
 
@@ -392,12 +393,12 @@ New-CsOnlineVoiceRoutingPolicy "US Only" -OnlinePstnUsages "US and Canada"
 
 結果は、次の使用例で示されます。
 
-```
+<pre>
 Identity        : Tag:US only
 OnlinePstnUsages    : {US and Canada}
 Description         :
 RouteType           : BYOT
-```
+</pre>
 
 **手順 4:** PowerShell を使用して、音声ルーティング ポリシーを Spence 低のユーザーに付与します。
 
@@ -411,12 +412,11 @@ RouteType           : BYOT
 Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 ```
 返します。
-```
-OnlineVoiceRoutingPolicy
-------------------------
-US Only
-
-```
+<pre>
+    OnlineVoiceRoutingPolicy
+    ---------------------
+    US Only
+</pre>
 
 #### <a name="creating-a-voice-routing-policy-with-several-pstn-usages"></a>PSTN 使用法のいくつかの音声ルーティング ポリシーを作成します。
 
@@ -470,7 +470,7 @@ PSTN 使用法「国際」を作成する手順はルーティング ポリシ�
   ```
   返します。
 
-  ```
+  <pre>
   Identity                  : International 
   Priority                      : 5
   Description                   : 
@@ -480,27 +480,29 @@ PSTN 使用法「国際」を作成する手順はルーティング ポリシ�
   Name                            : International
   SupressCallerId           :
   AlternateCallerId         :
-  ```
+</pre>
 3.  次に、「制限なし」の音声ルーティング ポリシーを作成します。 ローカルまたはオンプレミスの呼び出しとして「+1 425 XXX XX XX」と"+1 206 XXX XX XX"番号への呼び出しに特別な処理を保持するのにはこの音声ルーティング ポリシーでは、PSTN 使用法"Redmond 1"と"Redmond"が再利用します。
 
-    ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”```
+```
+New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”
+```
 
-    PSTN 使用法の順序を控えておきます。
+    Take note of the order of PSTN Usages:
 
-    a. 呼び出す番号「+1425 XXX XX XX」使用法の例を次に示すように構成されていると、米国とカナダの使用率設定に依存して、呼び出しし特別なルーティング ロジックが適用されます。 通話は sbc1 を使用してルーティングは、<span></span>です。 contoso.biz と sbc2<span></span>です。 contoso.biz してから、sbc3<span></span>です。 contoso.biz と sbc4<span></span>。 バックアップ ルートとして contoso.biz。 
+    a. If a call made to number “+1425 XXX XX XX” with the usages configured as in the following example, the call follows the route set in “US and Canada” usage and the special routing logic is applied. That is, the call is routed using  sbc1<span></span>.contoso.biz and sbc2<span></span>.contoso.biz first, and then  sbc3<span></span>.contoso.biz and sbc4<span></span>.contoso.biz as the backup routes. 
 
-    b.  Sbc2 を呼び出し + 1425 XXX XX XX がルーティングされる場合は、国際化の PSTN 使用法は、米国およびカナダの前に、<span></span>です。 contoso.biz と sbc5<span></span>。 ルーティング ロジックの一部として contoso.biz。 コマンドを入力します。
+    b.  If “International” PSTN usage is before “US and Canada,” calls to + 1425 XXX XX XX are routed to sbc2<span></span>.contoso.biz and sbc5<span></span>.contoso.biz as part of the routing logic. Enter the command:
 
     ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”```
 
    返します。
 
-   ```
+  <pre>
    Identity     : International 
    OnlinePstnUsages     : {US and Canada, International}     
    Description      :  
    RouteType        : BYOT
-   ```
+  </pre>
 
 4.  ユーザー「John 森」次のコマンドを使用するには、音声ルーティング ポリシーを割り当てます。
 
@@ -515,11 +517,11 @@ PSTN 使用法「国際」を作成する手順はルーティング ポリシ�
   ```
   返します。
 
-  ```
-  OnlineVoiceRoutingPolicy
-  ------------------------
-  No Restrictions
-  ```
+<pre>
+    OnlineVoiceRoutingPolicy
+    ------------------------
+    No Restrictions
+</pre>
 
 結果は、ジョンの森の呼び出しに適用されるボイス ポリシーは、制限はありませんしは米国、カナダ、および国際通話に使用できる通話のルーティングのロジックに従います。
 
