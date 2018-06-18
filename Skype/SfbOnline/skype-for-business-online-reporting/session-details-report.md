@@ -17,11 +17,13 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 新しい Office 365 のレポート ダッシュ ボードによって、組織で Office 365 製品間でのアクティビティの概要がわかります。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。
-ms.openlocfilehash: 1e72c4f13934961808aa861b1863db2befa6ea49
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+search.appverid: MET150
+ms.openlocfilehash: 63d0d049e7522d1e62f717c063eb92f658a5623f
+ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19933177"
 ---
 # <a name="session-details-report"></a>セッション詳細レポート
 
@@ -40,7 +42,7 @@ ms.lasthandoff: 04/18/2018
     
 2. 左側のメニューから**レポート**を選択し、[**使用状況**] をクリックします。
     
-3. [**レポートの選択]**ボックスの一覧で、 **Skype**をクリックします。
+3. [**レポートの選択]** ボックスの一覧で、 **Skype**をクリックします。
     
     > [!TIP]
     > このレポートの一覧が表示されない場合に、**ビジネス管理センターの Skype** > **レポート** > **セッションの詳細**です。 

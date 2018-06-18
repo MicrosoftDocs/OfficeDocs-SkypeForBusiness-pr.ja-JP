@@ -18,18 +18,19 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Learn about Call Analytics and Call Quality Dashboard and when to use them to monitor and troubleshoot call-quality problems in Skype for Business.
-ms.openlocfilehash: c8d73ee128425f106174ccad60a0b0c947cc07e5
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 59be26d9f5adc48b71b2b675f872025b13eb206e
+ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19933069"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>呼び出しを分析し、通話品質のダッシュ ボード
 
 [] Skype for Business では、通話品質の問題を監視してトラブルシューティングするために、通話分析と通話品質ダッシュボードという 2 つの方法を利用できます。この記事では、これらの両方について説明し、どのような場合にそれぞれの方法を使用するべきかを示します。
   
 > [!NOTE]
-> 通話分析は現在プレビューとして提供されています。ここに記載されるテキストと画像は実際の使用時のものと一致しない可能性があります。 
+> 通話分析は現在プレビューとして提供されています。 ここに記載されるテキストと画像は実際の使用時のものと一致しない可能性があります。 のみデータの最後の 30 日は、分析機能の呼び出しで使用できます。
   
 ## <a name="whats-call-analytics-and-when-should-i-use-it"></a>通話分析とは何ですか? どのような場合に使用するものですか?
 

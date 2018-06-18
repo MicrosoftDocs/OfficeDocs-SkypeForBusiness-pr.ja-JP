@@ -17,11 +17,13 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: ビジネス管理センターのレポート領域の新しい Skype では、組織内を呼び出し、オーディオ会議のアクティビティを示しています。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 などのビジネス PSTN 分プール レポートの Skype を使用すると、組織内で現在の月の期間中に消費する分の数を参照してください。
-ms.openlocfilehash: 850a6659311b030fff6ca6c10660491694c50c27
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+search.appverid: MET150
+ms.openlocfilehash: 876455807887694f7e885038e7473634a40f5f21
+ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19933059"
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN 分プール レポート
 
@@ -38,6 +40,8 @@ ms.lasthandoff: 04/18/2018
 > 管理者として Office 365 管理センターにログオンすると、すべての Skype for Business レポートを見ることができます。 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>ビジネス PSTN 分プール レポートの Skype を取得する方法
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
 
 - **Office 365 管理センター**を参照して > **管理センター** > **ビジネス管理センターの Skype** > **レポート** > **PSTN の分をプール**します。
     
@@ -57,12 +61,11 @@ ms.lasthandoff: 04/18/2018
 ***
 ![番号 1](../images/sfbcallout1.png)<br/>(機能) のライセンスと使用法の場所での分のプールの内訳を表に示します。 
 *    **機能**は、呼び出しに使用されるライセンスおよびサービス プランです。 このレポートに表示されるライセンスおよびサービスの計画は次のとおりです。
-     * MCOPSTNPP - 通信のクレジット
      * MCOPSTN1 - 国内の呼び出し (3000 分分 1200 米国と EU の計画の計画
      * MCOPSTN2 - 国際通話プラン
      * MCOPSTN5 - 国内の呼び出しのプラン (120 分の通話プラン)
+     * MCOPSTN6 - 国内の呼び出しの計画 (240 分の通話プラン)
      * MCOMEETADD - オーディオ会議
-     * MCOMEETACPEA - 電話会議の分あたりの支払
 *    **機能の説明**は、呼び出しに使用するライセンスの種類の説明です。
 *    **国分のプール**とは、分のプールを共有しているユーザーのライセンス使用状況の場所です。 
 *    **使用分**は、1 か月の使用分の数です。

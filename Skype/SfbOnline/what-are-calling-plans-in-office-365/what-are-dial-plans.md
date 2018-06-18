@@ -20,14 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'ダイヤルの通話プラン (PSTN の呼び出しのダイヤル プラン) の種類は、Office 365 を使用し、組織のいずれかを選択する方法について説明します。  '
-search.appverid:
-- MED150
-- MOE150
-ms.openlocfilehash: ae3ab844279db56f4d3e66551555894935eb8942
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 5df6b2e9f9e5ccb83d6320cbd43f78ef4fc44424
+ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19933167"
 ---
 # <a name="what-are-dial-plans"></a>ダイヤル プランについて
 
@@ -146,7 +144,7 @@ Skype for Business Online でのダイヤル プランの継承モデルは次�
 
 [Skype for Business と Microsoft Teams のアドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 
-電話番号の管理フォームのダウンロード
+[電話番号の移行に関するよくある質問](transferring-phone-numbers-common-questions.md)
 
 [通話プランで使用されるさまざまな種類の電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

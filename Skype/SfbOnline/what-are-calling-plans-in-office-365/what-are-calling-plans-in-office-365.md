@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'どのような Office 365 Callings 計画 (PSTN 通話) については、どのような領域では使用、およびそれを設定する方法の手順に移動する場所です。 '
-search.appverid: MED150, MOE150
-ms.openlocfilehash: fa3d5226ce5427bf2431f6f01c49717bc93c5bc4
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 77009e50a1242bf0339dc4aeeb4f12b76373b15f
+ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19933079"
 ---
 # <a name="what-are-calling-plans-in-office-365"></a>Office 365 のプランを呼び出すことは?
 
@@ -61,7 +61,7 @@ ms.lasthandoff: 05/08/2018
 ## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 [Skype for Business と Microsoft Teams のアドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 
-電話番号の管理フォームのダウンロード
+[電話番号の移行に関するよくある質問](transferring-phone-numbers-common-questions.md)
 
 [通話プランで使用されるさまざまな種類の電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

@@ -17,11 +17,13 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: ビジネス管理センターのレポート領域の新しい Skype では、組織内を呼び出し、オーディオ会議のアクティビティを示しています。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 たとえば、Skype for Business での PSTN 使用状況の詳細レポートを使用して、通話の着信/発信に費やした分数とそれらの通話の料金を確認できます。 使用状況を把握して、組織内での使用状況を確認するのには請求先の詳細を呼び出すように、呼び出しのコストを含むオーディオ会議の PSTN 使用法の詳細を表示することができます。
-ms.openlocfilehash: 6ee6606ae37e02d07e3c3e57ca9fee529b150626
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+search.appverid: MET150
+ms.openlocfilehash: 62b6bff4952a590bfeef47a6d1fe23e1fe3d49d5
+ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19933129"
 ---
 # <a name="pstn-usage-report"></a>PSTN の使用状況レポート
 
@@ -35,6 +37,8 @@ ms.lasthandoff: 04/18/2018
 > Office 365 管理センターに管理者としてログオンすると、すべての Skype for Business レポートを表示できます。 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>Skype for Business の PSTN 使用状況詳細レポートを取得する方法
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
 
 - **Office 365 管理センター**を参照して > **管理センター** > **ビジネス管理センターの Skype** > **レポート** > **PSTN 使用法の詳細**です。
     
