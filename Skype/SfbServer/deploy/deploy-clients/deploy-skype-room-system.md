@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server での Skype Room System の展開
+title: Skype ルーム システムの展開の概要
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,18 +10,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99443d60-e64a-4a8a-a7bf-95f790b0ad5c
 description: 方法については、Skype ルーム システムでは、会議を導入してルーム ソリューションの統合されたハードウェアと Skype をビジネス ・ ミーティングに参加するのには最適なソフトウェアで構成されます。
-ms.openlocfilehash: 11cbae1cdbdd0585a2ea67625179ee7862309723
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ed31a1892ca1661282f87775fae805da5b5f8504
+ms.sourcegitcommit: 0f089f0c1bc641793c61928fb1c8fa62b2dfabee
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19927803"
 ---
-# <a name="deploy-skype-room-system-in-skype-for-business-server"></a>Skype for Business Server での Skype Room System の展開
+# <a name="deployment-planning-for-skype-room-system-in-skype-for-business"></a>ビジネス用の Skype の Skype ルームのシステムの計画の展開
  
 方法については、Skype ルーム システムでは、会議を導入してルーム ソリューションの統合されたハードウェアと Skype をビジネス ・ ミーティングに参加するのには最適なソフトウェアで構成されます。
   
 > [!NOTE]
 > これの目的でコンテンツ、Crestron RL、スマート ・ ルーム システムのビジネス用の Skype とポリコム CX8000 があると呼ばれる Skype ルーム システムです。 
+
+> [!NOTE]
+> Skype ルーム システム v2 は、さまざまな依存関係および展開の手順で別の製品です。 Skype ルーム システム v2 については、 [Skype ルーム システムの計画のバージョン 2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)を参照してください。
   
  Skype ルーム システムは、Skype のビジネス会議は、物理的な会議室での最適化された統合コミュニケーション クライアントをビジネス用の Skype です。
   

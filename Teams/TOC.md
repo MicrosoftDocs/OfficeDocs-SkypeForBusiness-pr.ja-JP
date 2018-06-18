@@ -268,6 +268,7 @@
 ### [Teams でチームを作成するときの Office 365 グループの計画](plan-office-365-groups.md)
 ### [PowerShell を使用して会社全体のチームを作成する](company-wide-team-creation-powershell.yml)
 ### [Teams 用の PowerShell コマンドレット リファレンス](https://docs.microsoft.com/powershell/module/teams)
+### [マイクロソフト チーム オンライン呼び出しのフロー](microsoft-teams-online-call-flows.md)
 
 
 # トラブルシューティングとサポート

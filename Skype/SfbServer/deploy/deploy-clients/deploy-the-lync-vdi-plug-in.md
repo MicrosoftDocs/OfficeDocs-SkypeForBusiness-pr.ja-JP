@@ -10,15 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: このトピックでは、Skype を使用してリモート仮想デスクトップへの接続中にビジネスの展開手順について説明します。
-ms.openlocfilehash: a8f95903f3c06fd953b8d97ba829d4f23e8d72b6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4e4193998a9374c1aa0160999ad53a9ec3d8aab7
+ms.sourcegitcommit: 0f089f0c1bc641793c61928fb1c8fa62b2dfabee
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19927853"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server-2015"></a>Skype for Business Server 2015 での Lync VDI プラグインの展開
  
-このトピックでは、Skype を使用してリモート仮想デスクトップへの接続中にビジネスの展開手順について説明します。 
+このトピックでは、Skype を使用してリモート仮想デスクトップへの接続中にビジネスの展開手順について説明します。 計画に関する考慮事項は、 [VDI 環境でのビジネス用の Skype を計画](../../plan-your-deployment/clients-and-devices/vdi-environments.md)します。
   
 仮想デスクトップ インフラストラクチャ (VDI) 環境は、非常に高度なセキュリティとコンプライアンスが求められる組織で使用します。 ユーザーは、仮想デスクトップのクライアントを使用して、ローカルの Windows コンピューターで作業します。 使用して Skype ビジネスの接続のようなことには、VDI のプラグイン ソフトウェアを追加する必要があります。
   
@@ -123,7 +124,4 @@ Lync VDI のプラグインのペアリングが失敗したとき、右下の�
 ## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
 <a name="tshoot_VDI"> </a>
 
-#### 
-
 [VDI 環境でのビジネス用の Skype の計画](../../plan-your-deployment/clients-and-devices/vdi-environments.md)
-
