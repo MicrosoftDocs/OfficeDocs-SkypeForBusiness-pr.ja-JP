@@ -23,3 +23,22 @@
 ### [OMS を使用してデバイス](../manage/skype-room-systems-v2/oms.md)
 ### [XML ファイルでの設定](../manage/skype-room-systems-v2/xml-config-file.md)
 ### [回復ツールを使用します。](../manage/skype-room-systems-v2/recovery-tool.md)
+# Skype ルーム システム (v1)
+## 計画
+### [ビジネス サーバーの Skype の Skype の部屋のシステムを導入します。](../deploy/deploy-clients/deploy-skype-room-system.md)
+## 展開
+### [Skype ルーム システムを交換し、Skype アカウントのプロビジョニング](../deploy/deploy-clients/skype-room-system-exchange-and-skype-accounts.md)
+#### [Skype ルーム システムの単一フォレストの展開と設置型](../deploy/deploy-clients/single-forest-on-premises-deployments.md)
+#### [Skype ルーム システム複数のフォレストに設置型の展開](../deploy/deploy-clients/multiple-forest-on-premises-deployments.md)
+#### [Office 365 で Skype ルームのシステム アカウントのプロビジョニング](../deploy/deploy-clients/provisioning-skype-room-system-accounts-in-office-365.md)
+#### [Skype ルーム システムのハイブリッド展開](../deploy/deploy-clients/hybrid-deployments.md)
+#### [Skype ルームのシステムとビジネスの Skype のフェデレーション パートナー](../deploy/deploy-clients/room-system-and-federated-partners.md)
+### [Skype ルームのシステム アカウントの会議ポリシー](../deploy/deploy-clients/conferencing-policy.md)
+### [Skype ルーム システムの信頼されたドメイン](../deploy/deploy-clients/trusted-domains.md)
+### [Skype ルーム システムの移行に関する考慮事項](../deploy/deploy-clients/migration-considerations.md)
+### [Skype ルーム システムのドメインに関する考慮事項への参加](../deploy/deploy-clients/domain-joining-considerations.md)
+### [ビジネス ・ ソフトウェア ・ ライセンスの Skype を Skype ルーム システム。](../deploy/deploy-clients/skype-for-business-software-liicense.md)
+### [Skype ルームのシステム管理の容易性とツール](../deploy/deploy-clients/manageability-and-tools.md)
+### [Skype ルーム システム ルームのセットアップ スクリプト](../deploy/deploy-clients/room-setup-scripts.md)
+## 管理
+### [Skype ルーム システムのアカウントを管理します。](../deploy/deploy-clients/manage-skype-room-system-accounts.md)

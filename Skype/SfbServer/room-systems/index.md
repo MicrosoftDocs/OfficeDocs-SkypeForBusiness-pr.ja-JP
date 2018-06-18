@@ -11,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Skype ルーム システム v2 では、展開、システムを管理する方法を導入するため関連する考慮事項です。
-ms.openlocfilehash: 649899f31cdc0e584f954408f269b77fce891b9d
-ms.sourcegitcommit: fecc87046d16a973499403f6cd097a608b6272f8
+ms.openlocfilehash: a5bc788c1e0a3fab68ea70ef417567ed37e47783
+ms.sourcegitcommit: 0f089f0c1bc641793c61928fb1c8fa62b2dfabee
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19927796"
 ---
 <h2>Skype ルーム システム v2 & #x 2013 です。 <br>Skype ルーム システムの次世代 </h2>
 <ul class="panelContent cardsW cols cols2">
@@ -107,4 +108,7 @@ ms.lasthandoff: 05/17/2018
 > [!NOTE]
 > Skype ルーム システム v2 は、使用で Skype ビジネス サーバー 2015 または Skype のオンライン ビジネスの。 間もなくに非常にマイクロソフトのチームのサポートをします。 <br><br>Lync Server 2013 のような以前のプラットフォームは、Skype ルーム システム v2 を使用する必要もありません。 
 
-これらの資料は、計画、展開、および Skype ルーム システム v2 のデバイスの管理を担当する人とシステムのユーザーのものです。 ユーザーは[オンライン ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)の興味がある方になります。
+これらの資料は、計画、展開、およびこれらのデバイスの管理を担当する人とシステムのユーザーのものです。 ユーザーは Skype ルーム システム v2[のオンライン ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)に興味になります。
+
+> [!NOTE]
+> Skype ルームのシステムと Skype ルーム システム v2 は、さまざまな依存関係および展開の手順で別の製品です。 
