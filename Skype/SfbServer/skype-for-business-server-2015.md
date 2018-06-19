@@ -12,11 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 description: '概要: ビジネス サーバー 2015 の Skype を実装する方法については、これらのリンクを表示します。'
-ms.openlocfilehash: ac6462e1604f487ad703fb2e543361a4360a811d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 21a776b96c640b152e512b3c052340e2ed8f45d9
+ms.sourcegitcommit: 3356670f2849306ce329899509d2104fe0404939
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19949816"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype for Business Server 2015
 
@@ -30,7 +31,7 @@ ms.lasthandoff: 03/28/2018
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_tasks.svg" alt="Tasks" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-blue.svg" alt="Tasks" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -48,7 +49,7 @@ ms.lasthandoff: 03/28/2018
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/SkypeForBusiness/sfbserver/media/icon-hybrid.svg" alt="Hybrid" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/hybrid-blue.svg" alt="Hybrid" />
 
                         </div>
                     </div>
@@ -67,7 +68,7 @@ ms.lasthandoff: 03/28/2018
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_deploy.svg" alt="Deploy" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-blue.svg" alt="Deploy" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -85,7 +86,7 @@ ms.lasthandoff: 03/28/2018
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_upgrade.svg" alt="Upgrade" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/upload-blue.svg" alt="Upgrade" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -103,7 +104,7 @@ ms.lasthandoff: 03/28/2018
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_architecture.svg" alt="Architecture" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/process-flow-blue.svg" alt="Architecture" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -121,7 +122,7 @@ ms.lasthandoff: 03/28/2018
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_download-generic.svg" alt="Download" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/download-blue.svg" alt="Download" />
                         </div>
                     </div>
                     <div class="cardText">
