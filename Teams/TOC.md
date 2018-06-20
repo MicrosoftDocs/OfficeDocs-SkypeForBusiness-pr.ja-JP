@@ -287,6 +287,7 @@
 
 #教育用 Teams
 ## [クイック スタート - 教育用 Teams の管理者](teams-quick-start-edu.yml)
+## [教育管理者のチーム リソース](resources-teams-edu.md)
 
 # [開発者向けの Teams のマニュアル](https://docs.microsoft.com/microsoftteams/platform)
 
