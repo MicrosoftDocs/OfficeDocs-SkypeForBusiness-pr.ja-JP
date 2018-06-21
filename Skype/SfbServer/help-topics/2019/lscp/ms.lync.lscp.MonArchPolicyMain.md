@@ -3,7 +3,6 @@ title: アーカイブ ポリシー
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 description: アーカイブ ポリシーを使用して有効にして、無効にするには、ユーザーのアーカイブ サーバーのビジネスの Skype が置かれています。 それぞれのアーカイブ ポリシーでは、次のどちらかまたは両方のアーカイブを有効化または無効化できます。
-ms.openlocfilehash: 6bdccd0f717314fb36a698ee8dd9d237a47d6bdd
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: efe2a17e5f3e85b83e937e38613b630e3a78f7d9
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979968"
 ---
 # <a name="archiving-policy"></a>アーカイブ ポリシー
  
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/25/2018
 - **(省略可能) ユーザーのポリシー**1 つまたは複数ユーザー アーカイブ ポリシーを有効にして、特定のユーザーまたはユーザー グループ用の内部または外部通信のアーカイブを無効にするを構成するそれぞれのことを指定できます。 ユーザー ポリシーは、グローバル ポリシーおよびサイト ポリシーは、ユーザーとユーザー ・ レベルのアーカイブ ポリシーの割り当て対象となるユーザー グループについては、オーバーライドします。 ユーザー ポリシーは編集または削除できます。
     
 > [!NOTE]
-> アーカイブ ・ ポリシーの適用にのみユーザーは、Skype ビジネス サーバーのホームです。 格納する Exchange の統合を使用する場合 Microsoft Exchange では、Exchange 2013 のポリシーでは、内のデータをアーカイブするアーカイブをユーザー コントロールが置かれている Exchange 2013。 それらのユーザーのアーカイブを有効にするには、インプレース保持をユーザーのメールボックスを配置しなければなりません。 
+> アーカイブ ・ ポリシーの適用にのみユーザーは、Skype ビジネス サーバーのホームです。 Microsoft Exchange などのアーカイブ ・ データを格納する Exchange の統合を使用し、コントロールのアーカイブ ポリシーを交換する場合は、Exchange のユーザーが配置されています。 それらのユーザーのアーカイブを有効にするには、インプレース保持をユーザーのメールボックスを配置しなければなりません。 
   
 [**アーカイブ ポリシー**] ページには、展開に構成されている各アーカイブ ポリシーが一覧表示されます。また、各アーカイブ ポリシーの名前、対象範囲 (グローバル、サイト、ユーザー)、および有効になっているアーカイブ オプションも示されます。[**アーカイブ ポリシー**] ページからは、以下のオプションを使用できます。
 - **新しい**次の省略可能なアーカイブ ・ ポリシーのそれぞれの 1 つ以上を追加することができます。

@@ -3,7 +3,6 @@ title: プロパティを割り当てる
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c799a3-90a0-4d58-8f8b-17eea56144dc
 description: 同時に複数のサブネットに、説明、およびネットワークのサイト ID を指定するのにプロパティの割り当て] ダイアログ ボックスを使用します。 [説明] に、選択したサブネットを使用する説明を入力します。 [ネットワーク サイト ID に割り当てる] を選択したサブネットをネットワーク サイト ID を選択します。 これらのプロパティを選択したサブネットに割り当てるには、[OK] をクリックします。
-ms.openlocfilehash: 02c58ce7ff631062675aea47958af99393e72e93
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: cb4662cf5ccf97ea294fe9448f64c9199997e230
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19966971"
 ---
 # <a name="assign-properties"></a>プロパティを割り当てる
  

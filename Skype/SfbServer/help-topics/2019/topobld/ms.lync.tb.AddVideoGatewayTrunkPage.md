@@ -3,7 +3,6 @@ title: ビデオ ゲートウェイ トランクの追加
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9485bea9-c646-4eb7-b3d0-dcbc57cdfbda
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順についてはオンライン Skype で VIS プールを作成するビジネス サーバー 2015 のください。
-ms.openlocfilehash: 3e87c71c147ddc2e18d88100b02672bd6215aa6b
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: d6eebaed73fe2e53c6965f88d56cd4efabc37fb1
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979142"
 ---
 # <a name="add-video-gateway-trunk"></a>ビデオ ゲートウェイ トランクの追加
  
@@ -32,7 +32,4 @@ Windows PowerShell を使用して、サーバー上のビデオの相互運用�
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [ビジネス サーバー 2015 の Skype でのビデオの相互運用サーバーの計画](../../../plan-your-deployment/video-interop-server.md)
-

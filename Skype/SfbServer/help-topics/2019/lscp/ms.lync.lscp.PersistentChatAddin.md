@@ -3,7 +3,6 @@ title: 常設チャット アドイン
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
 description: 永続的なチャット ルームの Url に関連付けるには、永続的なチャット ページの追加のセクションを使用できます。 これらの URL は、チャット ルームにいるクライアントの会話拡張機能ウィンドウに表示されます。 管理者が登録済みアドインの一覧にアドインを追加し、チャット ルームのマネージャー/作成者が登録済みアドインの 1 つにルームを関連付けると、ユーザーはクライアントでこのアップグレードを表示できるようになります。
-ms.openlocfilehash: b9b10c7c4b055c694d58b6cfda9b1e2a84739483
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 9aebe2f1bb1f17a562130e06e3c3030f533659b8
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19964591"
 ---
 # <a name="persistent-chat-add-in"></a>常設チャット アドイン
  
 永続的なチャット ルームの Url に関連付けるには、**永続的なチャット**ページの**追加の**セクションを使用できます。 これらの URL は、チャット ルームにいるクライアントの会話拡張機能ウィンドウに表示されます。 管理者が登録済みアドインの一覧にアドインを追加し、チャット ルームのマネージャー/作成者が登録済みアドインの 1 つにルームを関連付けると、ユーザーはクライアントでこのアップグレードを表示できるようになります。
   
-アドインは、ルーム内でのエクスペリエンスを拡張するために使用されます。 一般的なアドインでは、株価情報は、チャット ルームがポストされ、拡張機能のウィンドウで株価履歴を表示しますを傍受した Silverlight アプリケーションを指す URL をなどがあります。 チャット ルームに OneNote 2013 の URL をアドインとして埋め込んで、"優先事項" や "今日のトピック" などの共有コンテキストを組み込むこともできます。
+アドインは、ルーム内でのエクスペリエンスを拡張するために使用されます。 一般的なアドインでは、株価情報は、チャット ルームがポストされ、拡張機能のウィンドウで株価履歴を表示しますを傍受した Silverlight アプリケーションを指す URL をなどがあります。 その他の例では、チャット ルームで「上の注意」など、いくつかの共有コンテキストを含むようアドインとして OneNote URL を埋め込み、またはトピックの 1 日です。
   
 永続的なチャット ルームのアドインを作成するには、[ビジネス サーバー 2015 の Skype での永続的なチャット ルームの設定 - アドイン](../../../manage/persistent-chat/configure-add-ins.md)を参照してください。 永続的なチャットの管理者は、コントロール パネルまたは Windows PowerShell コマンドレットを使用してアドインを作成します。
   

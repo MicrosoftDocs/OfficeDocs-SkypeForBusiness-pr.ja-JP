@@ -3,7 +3,6 @@ title: 場所のポリシー
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 description: 場所ポリシーは、拡張 9-1-1 (E9-1-1) を有効にするかどうか、E9-1-1 の使用方法、およびユーザーと連絡先での場所情報の使用方法を指定します。
-ms.openlocfilehash: 0a4d438ac208af88229f75e7fc8f9eec4d3e7697
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 508aaa6c887d17169ea759e15630975296d27bcb
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19964773"
 ---
 # <a name="location-policy"></a>場所のポリシー
  
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2018
 - **ユーザーのポリシー (オプション):** ポリシーを作成できます 1 つまたは複数ユーザーの場所、特定のユーザーまたはユーザーのグループにそれぞれ適用されます。 ユーザー ポリシーは、グローバル ポリシーおよびサイト ポリシーを上書きします。
     
 > [!NOTE]
-> 場所ポリシーは、サブネットのグループであるネットワーク サイトに割り当てることもできます。 ネットワーク サイトに割り当てられた場所ポリシーは、他のすべてのユーザー ポリシーより優先されます。 コマンドレットを使用して、場所のポリシーをネットワーク サイトに割り当てる方法については、[追加のビジネス サーバー 2015 Skype 内のネットワーク サイトに場所のポリシー](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md)を参照してください。 詳細についてビジネス サーバーのコントロール パネルの Skype を使用して、場所のポリシーをネットワーク サイトに割り当てるには、[ネットワーク サイトの構成](http://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)を参照してください。 
+> 場所ポリシーは、サブネットのグループであるネットワーク サイトに割り当てることもできます。 ネットワーク サイトに割り当てられた場所ポリシーは、他のすべてのユーザー ポリシーより優先されます。 コマンドレットを使用して、場所のポリシーをネットワーク サイトに割り当てる方法については、 [Skype のビジネス サーバー内のネットワーク サイトに場所のポリシーの追加](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md)を参照してください。 詳細についてビジネス サーバーのコントロール パネルの Skype を使用して、場所のポリシーをネットワーク サイトに割り当てるには、[ネットワーク サイトの構成](http://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)を参照してください。 
   
 [**場所ポリシー**] ページには、組織で定義されているすべての場所ポリシーが一覧表示されます。
   

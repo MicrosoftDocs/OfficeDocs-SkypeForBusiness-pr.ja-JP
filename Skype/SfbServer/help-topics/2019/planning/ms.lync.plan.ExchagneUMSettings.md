@@ -3,7 +3,6 @@ title: Exchange ユニファイド メッセージング (プランニング ・
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,16 +11,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
-description: ビジネス サーバー 2015 の Skype では、ボイス メッセージングと電子メールのメッセージを単一のメッセージング インフラストラクチャを組み合わせる場合の Exchange ユニファイド メッセージング (UM) との統合をサポートしています。
-ms.openlocfilehash: 787a97f96424f1dcdc81e4a9768020b2d1fc5d3c
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: ビジネス サーバーの Skype では、ボイス メッセージングと電子メールのメッセージを単一のメッセージング インフラストラクチャを組み合わせる場合の Exchange ユニファイド メッセージング (UM) との統合をサポートしています。
+ms.openlocfilehash: 37eb1dff810d227c96711d931b3576ea4e3c84fa
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19971644"
 ---
 # <a name="exchange-unified-messaging-settings-planning-tool"></a>Exchange ユニファイド メッセージング (プランニング ・ ツール)
  
-ビジネス サーバー 2015 の Skype では、ボイス メッセージングと電子メールのメッセージを単一のメッセージング インフラストラクチャを組み合わせる場合の Exchange ユニファイド メッセージング (UM) との統合をサポートしています。
+ビジネス サーバーの Skype では、ボイス メッセージングと電子メールのメッセージを単一のメッセージング インフラストラクチャを組み合わせる場合の Exchange ユニファイド メッセージング (UM) との統合をサポートしています。
   
 詳細については、以下を参照してください。
   

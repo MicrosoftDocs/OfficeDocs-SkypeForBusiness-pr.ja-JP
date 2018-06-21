@@ -1,9 +1,8 @@
 ---
 title: デバイス更新
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
-ms.date: 3/23/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
 description: マイクロソフトは定期的に、ビジネス電話編集用に、サーバーにインポートし、ユーザーに配布する、Skype のデバイスのファームウェアの更新プログラムの新しいセットを解放します。 最新の更新プログラム パッケージに、ヘルプとサポート] ページに、マイクロソフト web サイトに、forPhone Edition.Download を検索してデバイス更新ルールの最新のセットを取得し、更新プログラムをアップロードするは、コンピューターのフォルダーにファイルを抽出できます。 ファイルが抽出されたら、抽出したにデバイス更新ルールをインポートするインポート CsDeviceUpdate コマンドレットを使用できます。CAB ファイルの名前は UCUpdates.cab)。 詳細については、インポートの CsDeviceUpdate を参照してください。
-ms.openlocfilehash: 584c04e8169eec4621c91c469127b99388f4820a
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 793f7328d3396f1e734e709f24f61bb802c26a47
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19978070"
 ---
 # <a name="device-update"></a>デバイスの更新
  
@@ -60,7 +60,4 @@ ms.lasthandoff: 05/24/2018
 デバイス更新 Web サービスについての詳細は、計画のドキュメントで[、組織内のデバイスのソフトウェア更新プログラムの表示](http://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)を参照してください。
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [インポート-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps)
-

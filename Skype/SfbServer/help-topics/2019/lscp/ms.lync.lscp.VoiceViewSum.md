@@ -3,7 +3,6 @@ title: コミットされていない音声構成設定の確認
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa2bc914-dfe0-4a1f-b827-41092a715a5d
 description: コミットされていない音声構成設定] ダイアログ ボックスを使用すると、すべての行った変更を確認できます。 ダイアログ ボックス内をスクロールして未確定の変更をすべて確認するか、矢印をクリックして別のセクションを展開または折りたたみます。 終了したら、[閉じる] をクリックします。 このダイアログ ボックスを閉じると、変更内容を変更したり、それらをコミットできます。
-ms.openlocfilehash: 9ff86a76c99ea024e9131ecadc730ef655245dab
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 923a2e2084b91acab1780132eb0ca4047ba82aff
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19969842"
 ---
 # <a name="uncommitted-voice-configuration-settings-review"></a>コミットされていない音声の設定: レビュー
  

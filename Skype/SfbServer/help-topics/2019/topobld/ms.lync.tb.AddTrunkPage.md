@@ -3,7 +3,6 @@ title: 新しい樹幹を定義します。
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
 description: 新しいセッション開始プロトコル (SIP) トランクを定義するには、次の情報を提供します。
-ms.openlocfilehash: b2097d3ccdc662c902d0f8cd77529478672b2f0a
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 6f7dd7d8ab3aaa86eef78a5973194012e2e3b32c
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19978056"
 ---
 # <a name="define-a-new-trunk"></a>新しい樹幹を定義します。
  
@@ -36,10 +36,6 @@ ms.lasthandoff: 05/25/2018
     
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[ビジネス サーバー 2015 の Skype で M:N トランク](../../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
-#### 
+[Skype ビジネス サーバーは M:N trunk](../../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
 
 [SIP トランクを実装する方法は?](http://technet.microsoft.com/library/273a22b1-8a4c-4187-acf8-c57d5c6598ce.aspx)
-

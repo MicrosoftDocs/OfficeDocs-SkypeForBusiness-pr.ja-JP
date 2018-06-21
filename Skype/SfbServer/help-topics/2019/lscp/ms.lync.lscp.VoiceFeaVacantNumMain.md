@@ -3,7 +3,6 @@ title: 割り当てられていない電話番号
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 description: 未使用の番号とは、組織にとって有効であるが、ユーザーや電話に割り当てられていない電話番号です。未使用の番号の表は、それらの番号に対して発信があった場合の対処方法を示します。
-ms.openlocfilehash: d145b3ed7e55404e3763e0bdf65ae467a000c180
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: da019253c0ed76446e0bb385e58e21c027628802
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19968329"
 ---
 # <a name="unassigned-phone-number"></a>割り当てられていない電話番号
  
@@ -77,6 +77,6 @@ ms.lasthandoff: 05/25/2018
     
 - **お知らせ**この割り当てられていない番号の範囲を再生するお知らせです。
     
-発表の特徴と機能についての詳細は、計画ドキュメントに[Skype ビジネス 2015年の [お知らせ] アプリケーションの計画](../../../plan-your-deployment/enterprise-voice-solution/announcement.md)を参照してください。 割り当てられていない番号範囲の操作についての詳細は、操作マニュアル[を構成するルーティングの割り当てられていない電話番号](http://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx)を参照してください。
+発表の特徴と機能についての詳細は、計画ドキュメントに[ビジネス用の Skype で知らせアプリケーションの計画](../../../plan-your-deployment/enterprise-voice-solution/announcement.md)を参照してください。 割り当てられていない番号範囲の操作についての詳細は、操作マニュアル[を構成するルーティングの割り当てられていない電話番号](http://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx)を参照してください。
   
 

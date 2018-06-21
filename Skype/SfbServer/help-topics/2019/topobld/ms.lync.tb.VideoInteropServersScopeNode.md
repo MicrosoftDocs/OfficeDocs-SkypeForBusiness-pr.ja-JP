@@ -3,7 +3,6 @@ title: ビデオ相互運用サーバー - ノードのスコープ設定
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 963e6693-26bc-439f-b76d-04389e6ebbf9
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順についてはオンライン Skype で VIS プールを作成するビジネス サーバー 2015 のください。
-ms.openlocfilehash: d956e4ff19c0222022792da4ddc5ee91f0c2d40d
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: b3c8a7da7fbfb520136b538331b8fbef66157ad8
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19970823"
 ---
 # <a name="video-interop-servers---scope-the-node"></a>ビデオ相互運用サーバー - ノードのスコープ設定
  
@@ -32,7 +32,4 @@ Windows PowerShell を使用して、サーバー上のビデオの相互運用�
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [ビジネス サーバー 2015 の Skype でのビデオの相互運用サーバーの計画](../../../plan-your-deployment/video-interop-server.md)
-

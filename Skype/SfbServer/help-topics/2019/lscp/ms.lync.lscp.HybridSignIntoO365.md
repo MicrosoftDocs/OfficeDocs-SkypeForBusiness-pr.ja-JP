@@ -3,7 +3,6 @@ title: ハイブリッド ウィザード Office 365 にサインイン
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -16,11 +15,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 description: ビジネス サーバ ハイブリッドの管理ウィザードの Skype を Skype でオンライン ビジネスのハイブリッド環境を構成する際に使用します。
-ms.openlocfilehash: 3c1ab3ea2615469ae10f1d6a57fff2a1805a7e1c
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 03183e8935119b7caf623e9478ec2239f29c352d
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19968518"
 ---
 # <a name="hybrid-wizard-sign-in-to-office-365"></a>ハイブリッド ウィザード: Office 365 へのサインイン
  

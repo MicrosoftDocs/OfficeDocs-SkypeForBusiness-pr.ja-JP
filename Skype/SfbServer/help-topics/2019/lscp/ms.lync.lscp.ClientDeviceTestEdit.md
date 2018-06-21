@@ -1,9 +1,8 @@
 ---
 title: テスト デバイスの新規作成または既存の編集
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
-ms.date: 3/23/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
 description: テスト デバイス機能はデバイス更新機能と連携して動作します。 デバイスのテスト] ページにテスト デバイスを追加し、このデバイスを使用して本番デバイスに更新プログラムを展開する前に新しい更新プログラムの機能を検証できます。 デバイスをグローバルに (環境全体を使用して) テストしたり、単独のサイト内でテストしたりできます。 テスト デバイスは、そのメディア アクセス制御 (MAC) アドレスまたはシリアル番号で識別します。 デバイスを追加するとき、一覧に表示されます、[テスト デバイス] ページで、Skype のビジネス サーバーのコントロール パネルの。
-ms.openlocfilehash: 0eb79ad604b228ce4531738b4f7f1423ab5b98e2
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 3f3c896f0ec6c373a4edfc3049a9838b815bb448
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19974258"
 ---
 # <a name="test-device-create-new-or-edit-existing"></a>テスト デバイス: 新規作成または現在の形式のままで編集
  
@@ -51,14 +51,10 @@ ms.lasthandoff: 05/25/2018
 デバイスのテストについての詳細は、操作マニュアルの[更新プログラムの機能をテストするデバイスの追加](http://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx)を参照してください。
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [テスト デバイス](ms.lync.lscp.ClientDeviceTestMain.md)
-#### 
 
 [新しい-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
   
 [セット CsTestDevice](https://docs.microsoft.com/powershell/module/skype/set-cstestdevice?view=skype-ps)
   
 [組織内のデバイスのソフトウェア更新プログラムを表示](http://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)
-

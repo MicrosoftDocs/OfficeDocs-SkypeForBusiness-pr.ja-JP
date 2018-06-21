@@ -1,9 +1,8 @@
 ---
 title: デバイスの構成を新規作成または既存の編集
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
-ms.date: 3/23/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 description: 新しいデバイス構成やデバイス構成の編集] ページで、作成したり、ビジネス電話のエディションの Skype を管理するために使用される設定のコレクションを変更できます。 これらの設定を使用すると、必須のセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定、非アクティブな電話を指定の時間の経過後に自動的にロックするかどうかなどを構成できます。
-ms.openlocfilehash: 36ea2c25cbf95cedaf6303a92e8bf77f9611aa3b
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: f2bea8a2bdeb5a217444cfa18706adfa087a7229
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979352"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>デバイス構成: 新規作成または現在の形式のままで編集
  
@@ -60,10 +60,6 @@ ms.lasthandoff: 05/25/2018
     
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [デバイスの構成](ms.lync.lscp.ClientDeviceCfgMain.md)
-#### 
 
 [セット CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
-

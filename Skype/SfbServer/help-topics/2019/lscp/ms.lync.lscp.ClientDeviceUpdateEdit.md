@@ -1,9 +1,8 @@
 ---
 title: デバイス ログ構成の編集
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 description: ログの最大キャッシュ ・ サイズ、最大ログ ファイル サイズ、またはログ ファイルがパージされる前に保持される期間の長さを決定するログ設定の編集] ページには、デバイスのログの構成を追加できます。 組織の要件に従って、これらの設定を変更することができます。
-ms.openlocfilehash: f933d71016b626648e6fb142af91872da4ed04ff
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 712ba87ab19d2b69792ba720e984d64dd4aac478
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19972330"
 ---
 # <a name="device-log-configuration-edit"></a>デバイスのログの構成: 編集
  
@@ -51,7 +51,4 @@ ms.lasthandoff: 05/25/2018
     
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [デバイスのログの構成](ms.lync.lscp.ClientDeviceCfgMain.md)
-

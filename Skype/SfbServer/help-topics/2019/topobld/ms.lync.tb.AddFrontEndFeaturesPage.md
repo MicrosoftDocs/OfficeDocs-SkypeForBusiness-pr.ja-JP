@@ -3,7 +3,6 @@ title: フロント エンド機能を追加します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 description: フロント エンド プールを有効にする各機能を選択します。 最低限、インスタント メッセージング (IM) を展開する必要がありますが常に有効になっているし、選択を解除することはできません。 また、会議、エンタープライズ VoIP など、他の機能を展開するオプションがあり、受付制御 (CAC) を呼び出します。 いくつかの機能は、トポロジに依存します。
-ms.openlocfilehash: ab09b9bea1c9e0bf523a8fd866b14e6376d108c9
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: c0d9248e6e8d0165a98b4ba38a4f95b9a2e992ef
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19976838"
 ---
 # <a name="add-front-end-features"></a>フロント エンド機能を追加します。
  

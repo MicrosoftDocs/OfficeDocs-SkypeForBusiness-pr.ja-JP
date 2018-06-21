@@ -3,7 +3,6 @@ title: データベースの作成
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 description: トポロジ ビルダーは、SQL Server にデータベースをインストールする方法を提供します。 トポロジ ビルダーを使用してデータベースをインストールしてアプリケーション トポロジから情報を読み取り、指定された SQL Server コンピューターまたは SQL Server クラスターに必要なデータベースがインストールされます。 トポロジ ビルダーを使用したデータベースのインストールは、この方法のみです。 特定のコンピューター上の特定のデータベースをインストールする必要がありますか、Windows PowerShell のコマンド ライン インターフェイスおよびインストール CsDatabase コマンドレットが代わりに使用する必要がある場合は配置されているデータベースをインストールする必要があります。
-ms.openlocfilehash: 9bee333e0b56a6eeb8f4363e6657be2fabfa1ace
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f9d351d4b6b7cb37d2daeb889caabb1f4090e74e
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979800"
 ---
 # <a name="create-database"></a>データベースの作成
  
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/24/2018
   
 ### <a name="creating-a-database"></a>データベースの作成
 
-1. ビジネス サーバー 2015 ノードの Skype をクリックし、**データベースのインストール**] をクリックします。
+1. ビジネス サーバー ノードの Skype をクリックし、**データベースのインストール**] をクリックします。
     
 2. [**データベースの作成**] ページで、**データベースのインストール**] ダイアログ ボックスで新しいデータベースが作成される SQL Server ストアの完全修飾ドメイン名 (FQDN) を選択します。
     

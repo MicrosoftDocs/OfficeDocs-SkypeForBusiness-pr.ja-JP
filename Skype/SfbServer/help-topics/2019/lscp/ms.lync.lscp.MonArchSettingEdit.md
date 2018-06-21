@@ -3,7 +3,6 @@ title: アーカイブ構成を新規作成または既存の編集
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 description: 展開のアーカイブ オプションを制御するには、アーカイブ構成を使用します。アーカイブ構成には、グローバル構成と、オプションで 1 つ以上のサイト構成およびプール構成が含まれます。
-ms.openlocfilehash: 93bddc8bbba3280ae4e40c0031e65acc6965aa72
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 3cc5c560ebafdf5dbf1ddac05d7c6b25653c0eb4
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19976873"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>アーカイブ構成: 新規作成または現在の形式のままで編集
  
@@ -29,7 +29,7 @@ ms.lasthandoff: 05/25/2018
 - **プールの構成 (オプション)** 1 つまたは複数プール アーカイブの構成、アーカイブ プールの特定のオプションのコントロールにすることが可能です。 プールの構成はグローバル構成およびサイトの構成より優先されますが、アーカイブ ・ プールの構成で指定されたプールにのみ。 プール構成を削除または編集できます。
     
 > [!NOTE]
-> アーカイブの構成に適用するビジネス サーバーで、Skype に所属していたユーザーは、アーカイブ ・ データを格納する Exchange 2013 を使用する Microsoft Exchange の統合オプションを有効にした場合、Microsoft Exchange ユーザーに所属している Exchange 2013。 ただし、いくつかのオプションは実装方法が少し異なる Exchange 2013 では、所属していたユーザーの次のセクションで説明したようです。 
+> アーカイブの構成に適用するビジネス サーバーで、Skype に所属していたユーザーは、アーカイブ ・ データを格納する Exchange を使用する Microsoft Exchange の統合オプションを有効にした場合、Microsoft Exchange ユーザーに所属している Exchange します。 ただし、いくつかオプションの実装方法が少し異なるユーザーが exchange のホーム サーバーの次のセクションで説明されているようです。 
   
 新規または既存のアーカイブ構成の設定を構成するには、次のオプションを指定します。
 - **名**各アーカイブ構成では、名前が必要です。 名前は、構成を追加または編集の種類によって決定されます。
@@ -58,7 +58,7 @@ ms.lasthandoff: 05/25/2018
     
     障害から回復した後、IM および会議は自動的に回復します。
     
-- **Microsoft Exchange の統合**Exchange 2013 をホームとしているユーザーがいる場合は、このオプションを選択します。 このオプションを使用するインプレース保持自分のメールボックスが設定されている場合、Exchange 2013 は、それらのユーザーのデータを格納する使用されます。 すべてのユーザーは、Exchange 2013 のホームは場合、は、データのアーカイブを保存するための別の SQL Server データベースを設定する必要はありません。
+- **Microsoft Exchange の統合**Exchange のホーム サーバーはユーザーがある場合は、このオプションを選択します。 このオプションを使用するインプレース保持を自分のメールボックスが設定されている場合、それらのユーザーのデータを格納する Exchange を使用します。 Exchange のホーム サーバー、すべてのユーザーは、の場合、データのアーカイブを保存するための別の SQL Server データベースを設定する必要はありません。
     
 - **アーカイブ ・ データのパージを有効にします。** パージを有効にして、次のパージのオプションを指定するには、このオプションを選択します。
     
@@ -67,7 +67,7 @@ ms.lasthandoff: 05/25/2018
   - 後のアーカイブ ・ データのパージがエクスポートされました (データを含む、Exchange にアップロードされている Microsoft Exchange の統合を有効にした場合)。
     
     > [!NOTE]
-    > Microsoft Exchange の統合を有効にした場合はユーザーの削除 Exchange 2013 が置かれているし、インプレース保持に自分のメールボックスを持つ Exchange によって制御されます。 唯一の例外は、会議のファイルは、Lync Server のファイル共有に格納されているのです。 これらのファイルは、アーカイブ データがエクスポートされた後でデータを削除するオプションを選択した場合はファイルがエクスポートされた後 (Exchange にアップロードされた後)、保持する最大日数を指定した場合は指定した最大日数経過後にのみファイル共有から削除されます。 
+    > Microsoft Exchange の統合を有効にした場合はユーザーの削除 Exchange が置かれているし、インプレース保持に自分のメールボックスを持つ Exchange によって制御されます。 唯一の例外は、会議のファイルは、Lync Server のファイル共有に格納されているのです。 これらのファイルは、アーカイブ データがエクスポートされた後でデータを削除するオプションを選択した場合はファイルがエクスポートされた後 (Exchange にアップロードされた後)、保持する最大日数を指定した場合は指定した最大日数経過後にのみファイル共有から削除されます。 
   
 アーカイブ機能および Exchange の統合などの機能の詳細について「[ビジネス サーバー 2015 の Skype でアーカイブするための計画](../../../plan-your-deployment/archiving/archiving.md)、[ビジネス サーバー 2015 Skype アーカイブの展開](../../../deploy/deploy-archiving/deploy-archiving.md)、および[管理アーカイブの Skype での使用」を参照してください。ビジネス サーバー 2015年](../../../manage/archiving/archiving.md)。
 

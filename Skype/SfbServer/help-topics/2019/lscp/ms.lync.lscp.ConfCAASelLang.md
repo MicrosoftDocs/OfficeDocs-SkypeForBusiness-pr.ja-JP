@@ -3,7 +3,6 @@ title: 言語の選択
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/23/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb9f98e3-6123-4e5a-a360-8ee1be6977f1
 description: ダイヤルイン会議アクセス番号で使用する言語を選択します。 詳細については、作成または変更するダイヤルイン会議アクセス番号を参照してください。
-ms.openlocfilehash: 0ff21e6f1553d881066df98a03b0ec5c66f350a4
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: d40f15c24d54a3d3987ab9fd7054761cc0c9fd18
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19976115"
 ---
 # <a name="select-languages"></a>言語の選択
  

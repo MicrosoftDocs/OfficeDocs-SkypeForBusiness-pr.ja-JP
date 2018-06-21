@@ -3,7 +3,6 @@ title: (返される) 証明書の要求
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 4/1/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 description: オンライン証明書要求の状態のページは、その結果を正常に作成し、オンラインの証明書の要求の発行から重要な情報が表示されます。 このページには、証明書を一意に識別する証明書の拇印が用意されています。 既定では、Skype をビジネスのサーバー証明書の使用法の証明書を割り当てる] チェック ボックスが選択されます。 場合は [完了] をクリックすると、証明書に自動的に割り当てられます Lync Server 2013 に証明書の要求の作成手順を実行中に定義するために。 既定では、証明書が割り当てられるため。
-ms.openlocfilehash: 392fbdf4cae860152a5ed96e9e347a0c51aa6f70
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 74ee0fba06add0d069473bc5b6b580c1b1d5810a
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19976598"
 ---
 # <a name="certificate-request-returned"></a>(返される) 証明書の要求
  

@@ -3,7 +3,6 @@ title: 高可用性 (計画ツール)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 4/8/2016
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,18 +11,19 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
-description: ビジネス サーバー 2015 の Skype のほとんどのサーバーの役割の主な高可用性スキームは、プールを使用してサーバーの冗長性に基づいています。 あるサーバーの役割を実行しているサーバーに障害が発生すると、プール内で同じサーバーの役割を実行している別のサーバーがそのサーバーの負荷を引き継ぎます。
-ms.openlocfilehash: cd8861177f066030e71edf5cc62b891b863b2abb
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+description: Skype ビジネス サーバー用のほとんどのサーバーの役割の主な高可用性スキームは、プールを使用してサーバーの冗長性に基づいています。 あるサーバーの役割を実行しているサーバーに障害が発生すると、プール内で同じサーバーの役割を実行している別のサーバーがそのサーバーの負荷を引き継ぎます。
+ms.openlocfilehash: 9948fbc4f1daff73afa020b83357a26c185d7785
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19977265"
 ---
 # <a name="high-availability-planning-tool"></a>高可用性 (計画ツール)
  
-ビジネス サーバー 2015 の Skype のほとんどのサーバーの役割の主な高可用性スキームは、プールを使用してサーバーの冗長性に基づいています。 あるサーバーの役割を実行しているサーバーに障害が発生すると、プール内で同じサーバーの役割を実行している別のサーバーがそのサーバーの負荷を引き継ぎます。
+Skype ビジネス サーバー用のほとんどのサーバーの役割の主な高可用性スキームは、プールを使用してサーバーの冗長性に基づいています。 あるサーバーの役割を実行しているサーバーに障害が発生すると、プール内で同じサーバーの役割を実行している別のサーバーがそのサーバーの負荷を引き継ぎます。
   
-ビジネス サーバー 2015 の Skype では、高可用性を実現するために少なくとも 2 台のフロント エンド サーバーが必要です。 計画ツールでは、次の条件を使って、かどうかは、高可用性をサポートするために余分なサーバーが追加されますを決定します。
+ビジネス サーバーの Skype では、高可用性を実現するために少なくとも 2 台のフロント エンド サーバーが必要です。 計画ツールでは、次の条件を使って、かどうかは、高可用性をサポートするために余分なサーバーが追加されますを決定します。
   
 - 展開には、2 つまたは複数のフロント エンド サーバーが含まれています、計画ツールでは、予備のサーバーは追加されません。
     
@@ -33,6 +33,6 @@ ms.lasthandoff: 05/25/2018
     
 計画ツールは、すべてのデータベースのミラーの SQL データベースにも追加されます。 などのフロント エンドの SQL Server データベースがある場合は、計画ツールはこの 1 つのミラー データベースとその他のデータベースを追加して名前を"フロント エンド ミラー SQL データベースとします。
   
-高可用性環境を準備する方法の詳細については、[高可用性とビジネス サーバー 2015 の Skype での災害復旧の計画](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)を参照してください。
+高可用性環境を準備する方法の詳細については、[高可用性とビジネスのサーバー用の Skype での災害復旧の計画](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)を参照してください。
   
 

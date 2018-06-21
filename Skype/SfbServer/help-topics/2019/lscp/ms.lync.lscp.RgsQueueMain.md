@@ -3,7 +3,6 @@ title: 応答グループ キュー
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 description: 応答グループ エージェント グループ、キュー、およびワークフローで構成されます。 応答グループ キューは、エージェントが呼び出しに応答するまでの応答グループへの呼び出しを保持します。
-ms.openlocfilehash: ee9e60edaf6b0ffa690a75817e9f1c41c049e344
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 8ebdc6a421261f049bcfdd1da8054d3d05849f3f
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19971476"
 ---
 # <a name="response-groups-queue"></a>応答グループ キュー
  
@@ -52,6 +52,6 @@ ms.lasthandoff: 05/25/2018
     
 - **説明**キューの説明です。
     
-応答のグループの特徴と機能についての詳細は、計画のドキュメントで[ビジネス サーバー 2015 の Skype で応答グループ アプリケーションの計画](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)を参照してください。 応答グループ キューの操作についての詳細は、操作マニュアルの[応答グループ キューの管理](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx)を参照してください。
+応答グループの機能と機能の詳細については、 [Skype のビジネス サーバーで応答グループ アプリケーションの計画](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)を参照してください。 応答グループ キューの操作についての詳細は、操作マニュアルの[応答グループ キューの管理](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx)を参照してください。
   
 

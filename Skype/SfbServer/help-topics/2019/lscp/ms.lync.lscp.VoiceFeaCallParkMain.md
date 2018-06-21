@@ -3,7 +3,6 @@ title: コール パーク
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 description: 呼び出しを保持するとときに、転送されます一時的な番号に呼び出しが他のユーザーには、それを取得するか、タイムアウトするまでに保持されます。停止の呼び出し用に予約は内線番号の範囲を持つテーブルを構成する必要があります。 これらの内線番号は、仮想の内線番号 (つまり、ユーザーや電話が割り当てられていない内線番号) にする必要があります。 コール パーク アプリケーションを実行する各プールには、拡張機能の 1 つまたは複数の範囲を持つことができます。 これらの範囲は、展開全体でグローバルに一意である必要があります。
-ms.openlocfilehash: 64cd83d8efd692b7ac6d221588eb3b56dead2c0b
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 03c435b5fa67fc5a9ee8f1d89f1e68c2d7cb7073
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19966054"
 ---
 # <a name="call-park"></a>コール パーク
  
@@ -54,6 +54,6 @@ ms.lasthandoff: 05/25/2018
     
 - **宛先**完全修飾ドメイン名 (FQDN) または、ID 番号の範囲のコール パーク アプリケーションをホストするアプリケーション サービスのサービスを提供します。
     
-コール パークの特徴と機能についての詳細は、[ビジネス 2015年の Skype のコール パークの計画](../../../plan-your-deployment/enterprise-voice-solution/call-park.md)を参照してください。 コール パーク番号範囲の操作についての詳細は、[呼び出しの駐車場の電話番号の拡張機能を構成する](http://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx)を参照してください。
+コール パークの特徴と機能についての詳細は、[ビジネスの Skype のコール パークの計画](../../../plan-your-deployment/enterprise-voice-solution/call-park.md)を参照してください。 コール パーク番号範囲の操作についての詳細は、[呼び出しの駐車場の電話番号の拡張機能を構成する](http://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx)を参照してください。
   
 

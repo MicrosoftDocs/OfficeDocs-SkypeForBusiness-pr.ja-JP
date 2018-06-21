@@ -3,7 +3,6 @@ title: Lync Server 2013 のスコープ ノード
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,12 +10,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65ff172c-8a27-45ce-8ce1-c1a37798b3a3
-description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順についてはオンライン Skype で VIS プールを作成するビジネス サーバー 2015 のください。
-ms.openlocfilehash: 4e4fd09b30df495567e1e4d041d683492fb9fa9d
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順についてはオンライン Skype で VIS プールを作成するビジネス サーバーのください。
+ms.openlocfilehash: 82c70241746d81fe3869103c3865167d76a69bcb
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19964050"
 ---
 # <a name="lync-server-2013-scope-node"></a>Lync Server 2013 のスコープ ノード
  
@@ -32,7 +32,4 @@ Windows PowerShell を使用して、サーバー上のビデオの相互運用�
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [ビジネス サーバー 2015 の Skype でのビデオの相互運用サーバーの計画](../../../plan-your-deployment/video-interop-server.md)
-

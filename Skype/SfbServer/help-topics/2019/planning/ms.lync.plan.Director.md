@@ -3,7 +3,6 @@ title: ディレクター (計画ツール)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 4/8/2016
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,16 +11,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
-description: ディレクターは、ユーザーの要求を認証することができますが、すべてのユーザー アカウントのホームがないビジネス サーバー 2015 通信ソフトウェアの Skype を実行しているサーバーです。
-ms.openlocfilehash: b379388b05e4beda934b13517f36bc792b6f0748
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: ディレクターは、ユーザーの要求を認証することができますが、すべてのユーザー アカウントのホームがないビジネス サーバー通信ソフトウェアの Skype を実行しているサーバーです。
+ms.openlocfilehash: a1920d11ed354cab3409a9f2a1fd39280ce2d29d
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19975989"
 ---
 # <a name="director-planning-tool"></a>ディレクター (計画ツール)
  
-ディレクターは、ユーザーの要求を認証することができますが、すべてのユーザー アカウントのホームがないビジネス サーバー 2015 通信ソフトウェアの Skype を実行しているサーバーです。 
+ディレクターは、ユーザーの要求を認証することができますが、すべてのユーザー アカウントのホームがないビジネス サーバー通信ソフトウェアの Skype を実行しているサーバーです。 
   
 この役割は、オプションですが、次の 2 つのシナリオでディレクターを展開するように選択します。
   

@@ -3,7 +3,6 @@ title: 現在のドメインの準備
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,16 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
-description: 'ビジネス サーバーのユーザーのビジネス サーバー 2015 または Skype の Skype を実行しているホスト サーバーにドメインを準備するには、手順 5 を完了する必要があります: 準備現在のドメイン、ドメインの準備の実行に使用するセットアップのトピックで説明されているようです。 この手順を完了するには、準備するドメインの Domain Admins グループのメンバー、またはドメインが属するフォレストの Enterprise Admins グループのメンバーとしてログインする必要があります。 ドメインを準備するには、以下の操作を行います。'
-ms.openlocfilehash: e34498dd44d7518300b0e7d4df6a5135b8e51a2d
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: 'ビジネス サーバーのユーザーのビジネス サーバーまたは Skype の Skype を実行しているホスト サーバーにドメインを準備するには、手順 5 を完了する必要があります: 準備現在のドメイン、ドメインの準備の実行に使用するセットアップのトピックで説明されているようです。 この手順を完了するには、準備するドメインの Domain Admins グループのメンバー、またはドメインが属するフォレストの Enterprise Admins グループのメンバーとしてログインする必要があります。 ドメインを準備するには、以下の操作を行います。'
+ms.openlocfilehash: 7b67521cef97efd2bdfc0da344a8619272899340
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979891"
 ---
 # <a name="prepare-current-domain"></a>現在のドメインの準備
  
-ビジネス サーバーのユーザーのビジネス サーバー 2015 または Skype の Skype を実行しているホスト サーバーにドメインを準備するのには行う必要があります**手順 5: 現在のドメインを準備する**、[ドメインの準備を実行するセットアップを使用して](http://technet.microsoft.com/library/95dab800-1f2c-4506-b36c-99986643b149.aspx)トピックの説明します。 この手順を完了するには、準備するドメインの Domain Admins グループのメンバー、またはドメインが属するフォレストの Enterprise Admins グループのメンバーとしてログインする必要があります。 ドメインを準備するには、以下の操作を行います。
+ビジネス サーバーのユーザーのビジネス サーバーまたは Skype の Skype を実行しているホスト サーバーにドメインを準備するのには行う必要があります**手順 5: 現在のドメインを準備する**、[ドメインの準備を実行するセットアップを使用して](http://technet.microsoft.com/library/95dab800-1f2c-4506-b36c-99986643b149.aspx)トピックの説明します。 この手順を完了するには、準備するドメインの Domain Admins グループのメンバー、またはドメインが属するフォレストの Enterprise Admins グループのメンバーとしてログインする必要があります。 ドメインを準備するには、以下の操作を行います。
   
 1. ビジネス サーバー 2015 インストール フォルダーまたはメディアの Skype、ビジネス サーバーの展開ウィザードは、Skype を起動するのには、Setup.exe を実行します。
     

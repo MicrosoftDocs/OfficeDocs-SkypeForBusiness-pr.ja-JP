@@ -3,7 +3,6 @@ title: PSTN ゲートウェイ スコープ ノード
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
 description: これは、仲介サーバー、およびこの公衆交換電話網 (PSTN) ゲートウェイに関する基本的な情報は他に関連付けられているノードの完全修飾ドメイン名 (FQDN) を示しています。 以下のアクションを実行できます。
-ms.openlocfilehash: 4b9d34a9decb2989bd82ce5b1c97b10d2b8ad992
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 1c511c68f38cda0d135037b098b1192381fabde3
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979989"
 ---
 # <a name="pstn-gateway-scope-node"></a>PSTN ゲートウェイ スコープ ノード
  

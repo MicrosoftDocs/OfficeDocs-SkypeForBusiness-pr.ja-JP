@@ -3,7 +3,6 @@ title: フロント エンド サーバー Collocations 2010 を追加します�
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d328bf4-85bc-4870-8d6f-008c0e46520e
 description: Enterprise Edition 展開では、どちらか A に集約できます V 会議サービス、仲介サーバー、またはフロント エンド プール、または両方を展開できますスタンドアロン サーバーとして各とします。 Standard Edition サーバーの展開、A V 会議サービスは、常に同じ場所に会議が有効になっている場合とします。
-ms.openlocfilehash: 555f23cc9a6cf07f9a095edb56c8307c495def6c
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 495132c2dc290e175447e6a58eee04fcfab2892a
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19964556"
 ---
 # <a name="add-front-end-server-collocations-2010"></a>フロント エンド サーバー Collocations 2010 を追加します。
  
@@ -31,8 +31,8 @@ Enterprise Edition 展開では、どちらか A に集約できます V 会議�
     
 - IP PBX、または SBC、プール内のすべての仲介サーバーからのトラフィックを受信するように構成し、プール内のすべての仲介サーバーに均等にトラフィックをルーティングできます。
     
-Microsoft Lync Server 2013 フロント エンド プール、仲介サーバーを連結するが、負荷を処理できるかどうかを評価するために、計画ツールを使用することができます。 お客様の環境では、これら要件を満たすことはできません、する場合は、スタンドアロン仲介サーバー プールを展開する必要があります。
+仲介サーバーを連結するフロント エンド プールは、負荷を処理できるかどうかを評価するために、計画ツールを使用できます。 お客様の環境では、これら要件を満たすことはできません、する場合は、スタンドアロン仲介サーバー プールを展開する必要があります。
   
-A の全般的なコロケーションに/V 会議サーバーまたは仲介サーバー組織が高可用性とスケーラビリティ要件の詳細、Enterprise Edition フロント エンド プールでこれらのサーバー ロールを配置している場合を推奨されていません展開、展開に関するドキュメントの[定義およびフロント エンド プールを構成する](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)を参照してください。 詳細については、A の V 会議の機能およびコンポーネントは、計画のドキュメントで[の会議を計画する](http://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx)を参照するくださいとします。 エンタープライズ VoIP 機能と、仲介サーバーを含め、コンポーネントの詳細についてを参照してください[ビジネス サーバー 2015 の Skype でエンタープライズ VoIP の計画](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)計画マニュアルを参照します。
+A の全般的なコロケーションに/V 会議サーバーまたは仲介サーバー組織が高可用性とスケーラビリティ要件の詳細、Enterprise Edition フロント エンド プールでこれらのサーバー ロールを配置している場合を推奨されていません展開、展開に関するドキュメントの[定義およびフロント エンド プールを構成する](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)を参照してください。 詳細については、A の V 会議の機能およびコンポーネントは、計画のドキュメントで[の会議を計画する](http://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx)を参照するくださいとします。 エンタープライズ VoIP 機能と、仲介サーバーを含め、コンポーネントの詳細についてを参照してください[Skype ビジネス サーバーでエンタープライズ VoIP の計画](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)計画マニュアルを参照します。
   
 

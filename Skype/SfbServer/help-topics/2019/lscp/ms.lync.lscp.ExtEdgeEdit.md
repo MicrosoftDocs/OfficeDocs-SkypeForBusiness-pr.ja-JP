@@ -3,7 +3,6 @@ title: アクセス エッジ構成の編集
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 3/23/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ece2603a-dce5-46ef-b476-7da136465efc
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: fca22b6772c9f6871de9db6bda46d88de3bad1b7
-ms.sourcegitcommit: 14061f39e51be9853ba53fc2a7a9a6640b2f2bb8
+ms.openlocfilehash: 37e7539262df878cce845e449c6ef5a16170efb6
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19973347"
 ---
 # <a name="access-edge-configuration-edit"></a>アクセス エッジ構成: 編集
  

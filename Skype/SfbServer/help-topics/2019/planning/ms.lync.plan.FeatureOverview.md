@@ -3,7 +3,6 @@ title: 機能概要 (計画ツール)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 4/6/2016
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,16 +11,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
-description: Skype for Business Server 2015 計画ツール
-ms.openlocfilehash: 8d35b9babe99b4899cda51804f40dd6e3302feeb
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: サーバー ツールの計画はビジネス用の Skype
+ms.openlocfilehash: a5c482dadf2ffd39e8927e1924e50117dd13e1c8
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19974030"
 ---
 # <a name="feature-overview-planning-tool"></a>機能概要 (計画ツール)
  
-Skype for Business Server 2015 計画ツール
+サーバー ツールの計画はビジネス用の Skype
   
 ビジネス サーバー配置の Skype を設計するのに計画ツールの**中心的なサイト**のページを使用できます。 展開は、集中型または分散型の 2 種類を作成できます。 一元的な展開では、ビジネス ユーザーが組織内のすべての Skype が所属する 1 つのセントラル サイトのみがします。 分散型の展開には複数のセントラル サイトが存在します。 Skype の複数の中央サイトでのビジネスのサーバーを展開する場合は、計画ツールで各中央サイトのユーザーの数を入力するされます。
   
@@ -75,15 +75,15 @@ Skype for Business Server 2015 計画ツール
     
 - **XMPP ベースのサービス プロバイダーとのフェデレーション**
     
-    ビジネス サーバー 2015 の Skype では、(エッジ トランスポート サーバー上に展開される) 完全に統合された XMPP プロキシと、フロント エンド サーバー上に展開、XMPP ゲートウェイを紹介します。 XMPP プロキシの構成の追加と展開することができ、XMPP ゲートウェイは XMPP ベースのパートナーに対して、インスタント メッセージング (IM) とプレゼンスから連絡先を追加するのにはサーバー 2015 のビジネス ユーザーは、Skype では、します。
+    ビジネス サーバーの Skype では、(エッジ トランスポート サーバー上に展開される) 完全に統合された XMPP プロキシと、XMPP ゲートウェイは、フロント エンド サーバー上に展開を紹介します。 XMPP プロキシの構成の追加と展開することができ、XMPP ゲートウェイが、Skype は、XMPP ベースのパートナーに対して、インスタント メッセージング (IM) とプレゼンスから連絡先を追加するのにはビジネスのサーバーのユーザーを許可します。
     
 - **モビリティ**
     
-    ビジネス サーバー 2015 のモビリティ サービスの Skype を配置するとき、ユーザーは送信、インスタント メッセージを受信して、連絡先を表示するとプレゼンスを表示するには、このようなアクティビティを実行するのにはサポートされている Apple iOS、Android、Windows Phone、または Nokia のモバイル デバイスを使用できます。
+    ビジネス サーバー移動サービス、Skype を配置するとき、ユーザーは送信、インスタント メッセージを受信して、連絡先を表示するとプレゼンスを表示するには、このようなアクティビティを実行するのにはサポートされている Apple iOS、Android、Windows Phone、または Nokia のモバイル デバイスを使用できます。
     
 - **W15 Exchange メールボックス**
     
-    ビジネス サーバー 2015 の Skype を使用すると、ボイスメールのメッセージを格納で Exchange ユニファイド メッセージング (UM)。ボイスメール メッセージは、ユーザーの受信トレイの電子メール メッセージとして表示されます。
+    ビジネス サーバー用の Skype を使用すると、ボイスメールのメッセージを格納で Exchange ユニファイド メッセージング (UM)。ボイスメール メッセージは、ユーザーの受信トレイの電子メール メッセージとして表示されます。
     
 ### <a name="voice"></a>音声
 
@@ -95,7 +95,7 @@ Skype for Business Server 2015 計画ツール
     
 - **Exchange ユニファイド メッセージング**
     
-    Exchange ユニファイド メッセージング (UM) 結合のボイス メールと電子メールを 1 つのメッセージング インフラストラクチャです。 ビジネス サーバー 2015 の Skype を使用して、Exchange UM 通話応答、サブスクライバー アクセス、呼び出し通知、自動アテンダントのサービスを提供します。 これらのサービスを使用する場合は、ビジネスのサーバー共有の Active Directory トポロジでの Exchange UM と Skype を統合する必要があります。
+    Exchange ユニファイド メッセージング (UM) 結合のボイス メールと電子メールを 1 つのメッセージング インフラストラクチャです。 ビジネス サーバー用の Skype を使用して、Exchange UM 通話応答、サブスクライバー アクセス、呼び出し通知、自動アテンダントのサービスを提供します。 これらのサービスを使用する場合は、ビジネスのサーバー共有の Active Directory トポロジでの Exchange UM と Skype を統合する必要があります。
     
 ### <a name="additional-deployment-options"></a>追加の展開オプション
 
@@ -119,7 +119,7 @@ Skype for Business Server 2015 計画ツール
     
 - **Exchange とアーカイブの統合**
     
-    Exchange 2013 に置かれているユーザーがあり、自分のメールボックスは、インプレース保持に格納されている場合は、Exchange の記憶域を使用してストレージをビジネス サーバー 2015 の Skype を統合するためのオプションを選択します。
+    Exchange のホーム サーバーはユーザーがあり、自分のメールボックスは、インプレース保持に格納されている場合は、Exchange の記憶域を持つビジネス サーバーの記憶域の Skype を統合するためのオプションを選択します。
     
 - **IPv4**
     

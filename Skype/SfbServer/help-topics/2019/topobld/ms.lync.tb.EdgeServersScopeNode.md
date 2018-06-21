@@ -3,7 +3,6 @@ title: エッジ サーバーのスコープ ノード
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
 description: エッジ プール] は、トポロジでは、エッジ プールを一覧表示します。 以下のアクションを実行できます。
-ms.openlocfilehash: 62e77cbf86a692d6245ad262918188e3e0e15a11
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7eee0cb842c0347ad08b0edb51ab49ce4aa8f063
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19976206"
 ---
 # <a name="edge-servers-scope-node"></a>エッジ サーバーのスコープ ノード
  

@@ -3,7 +3,6 @@ title: アーカイブ構成
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 description: アーカイブ ビジネス サーバー展開は、有効にすると、次のオプションを無効にするなど、Skype のオプションを制御するアーカイブ構成を使用するとします。
-ms.openlocfilehash: c35991318159196fd131a20ef3f36719eefa9dd1
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 3bac88f44fea669c0eb1219046067f1e348c413c
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19973214"
 ---
 # <a name="archiving-configuration"></a>アーカイブ構成
  
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/25/2018
   
 - アーカイブで障害が発生した場合にインスタント メッセージング (IM) または電話会議のセッションをブロックする
     
-- Exchange 2013 が置かれているユーザーに対して、Exchange 2013 のストレージとの統合
+- Exchange ユーザーに対して、Exchange の記憶域との統合が置かれています。
     
 - アーカイブされているデータを削除する
     
@@ -37,7 +37,7 @@ ms.lasthandoff: 05/25/2018
 - **プールの構成 (オプション)** 1 つまたは複数のプールのアーカイブ オプションを特定のプールの管理、アーカイブ構成を指定できます。 プールの構成はグローバル構成およびサイトの構成より優先されますが、アーカイブ ・ プールの構成で指定されたプールにのみ。 プール構成を削除または編集できます。
     
 > [!NOTE]
-> アーカイブの構成に適用ユーザー Skype ビジネス サーバーが置かれていると、Microsoft Exchange などのアーカイブ ・ データを格納する Exchange を使用する場合は、ユーザーに所属している Exchange 2013 が Exchange 2013 に所属していたユーザーを少し異なる方法で実装されています。 相違点については、次のセクションで説明します。 
+> アーカイブの構成に適用ユーザー Skype ビジネス サーバーが置かれていると、Microsoft Exchange などのアーカイブ ・ データを格納する Exchange を使用する場合は、ユーザーに所属している Exchange が Exchange 上に置かれているユーザーを少し異なる方法で実装されています。 相違点については、次のセクションで説明します。 
   
 [**アーカイブ構成**] ページには、展開に構成されている各アーカイブ ポリシーが一覧表示されます。また、各アーカイブ構成の名前、対象範囲 (グローバル、サイト、プール)、および有効になっているアーカイブ オプションも示されます。[**アーカイブ構成**] ページからは、以下のオプションを使用できます。
 - **新しい**次のオプションのアーカイブ構成の 1 つ以上を追加することができます。

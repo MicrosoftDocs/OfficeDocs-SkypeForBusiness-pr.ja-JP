@@ -3,7 +3,6 @@ title: データベースのオプション] ページをインストールし�
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 description: SQL Server 上のデータベースとログ ファイルの配置の詳細設定オプションを構成するとします。 使用できるオプションは次のとおりです。
-ms.openlocfilehash: 525f86bb817fe4d7e45b49bc44f6ab399b1b854b
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 398f773c87215a0b480d79861384631c0767a70b
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19969828"
 ---
 # <a name="install-database-options-page"></a>データベースのオプション] ページをインストールします。
  
@@ -42,7 +42,4 @@ SQL Server 上のデータベースとログ ファイルの配置の詳細設�
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [SQL Server のデータとログ ファイルの配置](http://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)
-

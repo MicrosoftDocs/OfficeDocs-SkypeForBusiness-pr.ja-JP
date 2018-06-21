@@ -18,12 +18,12 @@ ms.custom:
 - Reporting
 description: ビジネス管理センターのレポート領域の新しい Skype では、組織内を呼び出し、オーディオ会議のアクティビティを示しています。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 たとえば、Skype for Business での PSTN 使用状況の詳細レポートを使用して、通話の着信/発信に費やした分数とそれらの通話の料金を確認できます。 使用状況を把握して、組織内での使用状況を確認するのには請求先の詳細を呼び出すように、呼び出しのコストを含むオーディオ会議の PSTN 使用法の詳細を表示することができます。
 search.appverid: MET150
-ms.openlocfilehash: 62b6bff4952a590bfeef47a6d1fe23e1fe3d49d5
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 59a1fbae9614fa6742f73b46c442d7912c71f88d
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933129"
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19973370"
 ---
 # <a name="pstn-usage-report"></a>PSTN の使用状況レポート
 
@@ -89,6 +89,7 @@ ms.locfileid: "19933129"
      *    **MCOPSTNPP** - 通信のクレジット <br/> **MCOPSTN1** - 国内の計画を呼び出す (3000 分米国 1200 分 EU の計画/) 
      *    **MCOPSTN2** - 国際通話プラン 
      *    **MCOPSTN5** - 国内の呼び出しのプラン (120 分の通話プラン) 
+     *    **MCOPSTN6** - 国内の呼び出しの計画 (240 分の通話プラン) メモ: 制限された可用性
      *    **MCOMEETADD** - オーディオ会議
      *    **MCOMEETACPEA** - 電話会議の分あたりの支払 
 ***
