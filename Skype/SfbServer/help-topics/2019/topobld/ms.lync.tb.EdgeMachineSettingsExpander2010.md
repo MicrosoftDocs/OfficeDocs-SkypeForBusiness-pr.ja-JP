@@ -3,7 +3,6 @@ title: Lync Server 2010 のエッジのマシン設定の拡張
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: 単一のエッジ サーバーまたはエッジ プール内のメンバー コンピューターとは、エッジ サーバーのコンピューターのプロパティを編集するには、サーバー名と IP アドレスの構成の設定を構成します。
-ms.openlocfilehash: d1bc35683ff70e1666a46d478aa97b3bcc3d5593
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 72535e7f2b7602b7de67ad94d27a3807270cb88e
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19991699"
 ---
 # <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Lync Server 2010 のエッジのマシン設定の拡張
  

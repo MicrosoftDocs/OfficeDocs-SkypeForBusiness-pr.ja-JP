@@ -3,7 +3,6 @@ title: 証明書要求 (オンライン オフライン)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 83697d4c-320b-4797-beb0-dd0bc4f1d0d6
 description: 遅延の要求またはオフライン要求を作成するに、準備要求を選択ですが、後で (オフラインの証明書の要求) を送信します。 (通常、システム内部で、組織の公開キー基盤) のオンライン証明機関に直ちに要求を作成するには、[オンライン証明機関に直ちに要求を送信を選択します。
-ms.openlocfilehash: b97839f08e27cc763f154c258625e6e57b9c5fdc
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 562a7f8e5d35e1444b9a4ef91d96da767ed7c7e2
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19990654"
 ---
 # <a name="certificate-request-online-offline"></a>証明書要求 (オンライン オフライン)
  

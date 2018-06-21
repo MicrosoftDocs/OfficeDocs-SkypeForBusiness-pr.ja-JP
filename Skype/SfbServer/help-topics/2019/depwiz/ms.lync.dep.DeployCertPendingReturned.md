@@ -3,7 +3,6 @@ title: 保留中の証明書 (返される)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 description: オンライン証明書要求の状態] ページでは、証明書の現在のステータスを返します。 証明書が証明機関の管理者の承認待ち状態のままである場合などですが、されていない場合は、まだ承認されて、状態は、証明書がまだ処理されていることを示します。
-ms.openlocfilehash: b745ede539586c1e992f0c03dccece86ad1eefcb
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: c9da805ffad04368cddc8daf7a9f04e5765ed574
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19990745"
 ---
 # <a name="pending-certificate-returned"></a>保留中の証明書 (返される)
  

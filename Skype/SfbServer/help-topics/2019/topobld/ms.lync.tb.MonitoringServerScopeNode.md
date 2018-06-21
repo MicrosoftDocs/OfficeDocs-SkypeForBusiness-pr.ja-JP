@@ -3,7 +3,6 @@ title: 監視のスコープ ノード
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,16 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
-description: Lync Server 2013 トポロジ ビルダーでは、ツールバーの [操作] をクリックしてまたは [操作] ウィンドウで、タスクをクリックすると、コンソール ツリーで、監視を実行するサーバーを右クリックしていずれかの監視を実行している個々 のサーバーに関連するタスクを実行でき、監視を実行するサーバーのオプションを次のいずれかをクリックします。
-ms.openlocfilehash: f1e59900993444218df820f81668c1c6d4762162
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: 'トポロジ ビルダーでは、ツールバーの [操作] をクリックしてまたは [操作] ウィンドウで、タスクをクリックするのいずれかをクリックすると、コンソール ツリーで、監視を実行するサーバーを右クリックしていずれかの監視を実行している個々 のサーバーに関連するタスクを実行できます。監視を実行するサーバーの次のオプション:'
+ms.openlocfilehash: 006bfb85db15bd5d842644ca63edf55cf3b9b495
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987277"
 ---
 # <a name="monitoring-scope-node"></a>監視のスコープ ノード
  
-Lync Server 2013 トポロジ ビルダーでは、コンソール ツリーで、監視を実行して、ツールバーの [**操作**] をクリックして、またはアクションのタスクをクリックすると、サーバーを右クリックしていずれかの監視を実行している個々 のサーバーに関連するタスクを実行することができます。ウィンドウ、および監視を実行するサーバーのオプションを次のいずれかをクリックします。
+トポロジ ビルダーでは、ツールバーの [**操作**] をクリックしてまたは [操作] ウィンドウで、タスクをクリックすると、コンソール ツリーで、監視を実行するサーバーを右クリックしていずれかの監視を実行している個々 のサーバーに関連するタスクを実行でき、監視を実行するサーバーのオプションを次のいずれかをクリックします。
   
 - **プロパティの編集**。 監視や監視の SQL Server データベースを実行するサーバーの完全修飾ドメイン名 (FQDN) を変更することができます、監視を実行するサーバーの**プロパティの編集**] ページを開きます。
     

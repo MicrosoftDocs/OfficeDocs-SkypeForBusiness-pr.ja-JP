@@ -3,7 +3,6 @@ title: ビデオ ゲートウェイ スコープ
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a3adee56-819e-48a5-a5a8-673eca45ec16
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順についてはオンライン Skype で VIS プールを作成するビジネス サーバー 2015 のください。
-ms.openlocfilehash: 9def26f9c80f9d40c2f8d3be3ec8b516406fb78e
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: c66c8cbc2f66d2bc2e88703d3ad46f7ddb15a8c6
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987334"
 ---
 # <a name="video-gateways-scope"></a>ビデオ ゲートウェイ スコープ
  
@@ -32,7 +32,4 @@ Windows PowerShell を使用して、サーバー上のビデオの相互運用�
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [ビジネス サーバー 2015 の Skype でのビデオの相互運用サーバーの計画](../../../plan-your-deployment/video-interop-server.md)
-

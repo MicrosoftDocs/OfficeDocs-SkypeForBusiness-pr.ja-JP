@@ -3,7 +3,6 @@ title: 証明書のインポート (イントロ)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 description: 証明書をインポートするには、証明書ファイルへのパスを提供する必要があります。 [証明書のファイルのテキスト ボックスで、いずれかの完全なパスとファイル名を入力または [参照] ボタンをクリックしてパスの場所とファイル名 (通常、.p7b、.pfx、または .cer ファイル) に移動します。
-ms.openlocfilehash: f83f42bbd8515ae20510d8253b560a93070e9ed6
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 0454c7d34d0d9d775bdf424cdccc27588fb5f5e1
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987383"
 ---
 # <a name="import-certificate-intro"></a>証明書のインポート (イントロ)
  

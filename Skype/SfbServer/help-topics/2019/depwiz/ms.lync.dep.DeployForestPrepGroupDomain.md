@@ -3,7 +3,6 @@ title: (ユニバーサル グループの場所) の現在のフォレストを
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1da76935-ab93-46e5-a862-3f2a77171760
 description: フォレストのユニバーサル グループを作成する必要がありますを指定する必要があります。 ユニバーサル グループの場所] ページでは、ドメインにログオンしているコンピューターが既定のメンバーを使用します。 既定のローカル ドメイン以外のドメインでユニバーサル グループを作成する場合は、ドメインの FQDN を選択し、テキスト ボックスに完全修飾ドメイン名 (FQDN) を入力します。 代替ドメインは、ユニバーサル グループを選択した以外のドメインのフォレストの準備タスクを実行している場合に便利を提供することが作成されます。 [次へ] をクリックします。
-ms.openlocfilehash: b1100d27a0b91d6a3610a361520132b46105701f
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 38445a33422bf4ee97fc60f0f91183b8490b9f06
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987257"
 ---
 # <a name="prepare-current-forest-universal-group-location"></a>(ユニバーサル グループの場所) の現在のフォレストを準備します。
  

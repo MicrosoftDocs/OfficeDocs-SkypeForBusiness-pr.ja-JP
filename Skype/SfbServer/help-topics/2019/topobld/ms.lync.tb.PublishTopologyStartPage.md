@@ -3,7 +3,6 @@ title: トポロジを公開します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2ea9613d-e74f-434b-aa51-eaaab206ff1e
 description: 発行プロセスを開始するときは、公開トポロジ] ページが表示されます。 読み、続行する前に表示されるタスクが完了することを確認します。 続行する準備ができたら、次へをクリックします。 発行プロセスを閉じる必要がある場合、は、[キャンセル] をクリックします。
-ms.openlocfilehash: ca54af6c2fd7233509b119434ab701b11494cf57
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: b623901f09ce5585a9c59a1907333c165091cf48
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19991748"
 ---
 # <a name="publish-topology"></a>トポロジを公開します。
  

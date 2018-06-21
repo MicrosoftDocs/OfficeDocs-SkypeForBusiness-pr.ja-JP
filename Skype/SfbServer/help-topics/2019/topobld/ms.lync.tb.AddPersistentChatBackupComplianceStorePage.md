@@ -3,7 +3,6 @@ title: 常設チャット コンプライアンス バックアップ SQL Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
 description: 永続的なチャット サーバーのデータベースのバックアップを提供するように SQL Server に格納されてバックアップ コンプライアンスまたは SQL Server に格納する永続的なチャット サーバー コンプライアンスを構成するとします。
-ms.openlocfilehash: 7143ecdc51caf941196f1499e9cc1dc35764b0d3
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 5dd121facf9008cb1698b0b9ee46eb0dbaa76afa
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987376"
 ---
 # <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>常設チャット コンプライアンス バックアップ SQL Server ストアの追加
  
@@ -46,8 +46,6 @@ SQL Server データベースおよび永続的なチャットのコンプライ
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの計画](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
 [ビジネス サーバー 2015 の Skype のサーバーの要件](../../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
@@ -57,4 +55,3 @@ SQL Server データベースおよび永続的なチャットのコンプライ
 [ビジネス サーバー 2015 の Skype で永続的なチャット サーバーのコンプライアンス サービスを構成します。](../../../manage/persistent-chat/configure-compliance.md)
   
 [ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの高可用性と障害回復を構成します。](../../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
-

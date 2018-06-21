@@ -3,7 +3,6 @@ title: ユーザーが表示または、ダイヤル プランを構成します
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,21 +11,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8780aaad-1318-4e7a-945c-5e1863761034
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: bc7a2e0f3201e306e4a65eec5cec8ebde2377061
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: e5279188d76e4d082209495a480683e9ea3bbbf8
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987327"
 ---
 # <a name="users-view-or-configure-dial-plan"></a>ユーザー: が表示または、ダイヤル プランを構成します。
  
 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
   
-- [作成またはビジネス サーバー 2015 の Skype のダイヤル プランを変更します。](../../../deploy/deploy-enterprise-voice/dial-plans.md)
+- [作成またはビジネス サーバーの Skype のダイヤル プランを変更します。](../../../deploy/deploy-enterprise-voice/dial-plans.md)
     
 - [ダイヤル プランを変更します。](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
     
-- [作成またはビジネス 2015年の Skype の正規化ルールを変更します。](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [作成するか、ビジネスの Skype の正規化ルールを変更](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
     
 - [正規化ルールを手動で変更をします。](http://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
     

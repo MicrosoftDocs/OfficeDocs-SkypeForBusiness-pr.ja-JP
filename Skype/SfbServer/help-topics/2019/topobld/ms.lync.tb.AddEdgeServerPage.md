@@ -3,7 +3,6 @@ title: エッジ サーバーの追加
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bd9c2b2-8329-4b31-a937-e462f5cc7293
 description: トポロジ設計にエッジ サーバーまたはエッジ サーバー プールを含めるには、エッジ サーバーまたはエッジ サーバー プールを展開するサーバーの完全修飾ドメイン名 (FQDN) を指定する必要があります。 エッジ サーバーまたはエッジ サーバー プールを含むトポロジを公開し、Skype をビジネスのサーバーのインストール、する前に作成した外部ユーザー アクセスを展開するためのすべての前提条件です。 これらの前提条件についての詳細は、展開に関するドキュメントの境界ネットワーク内のサーバーのインストールの準備を参照してください。
-ms.openlocfilehash: 3d377bee22ff33450327e91d4888c3ee419b4195
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: d5021404bc9e8445433f1acdae2c022045f45628
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987369"
 ---
 # <a name="add-edge-server"></a>エッジ サーバーの追加
  

@@ -3,7 +3,6 @@ title: Web 会議 (計画ツール)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 4/8/2016
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,19 +11,20 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
-description: Skype ビジネス サーバー 2015 web 会議のためには、ドキュメントの共同作業、アプリケーション共有、およびデスクトップ共有が含まれています。
-ms.openlocfilehash: 1e2863895e9e0666381d6095e5846456029205b7
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+description: Skype ビジネス サーバー web 会議のためには、ドキュメントの共同作業、アプリケーション共有、およびデスクトップ共有が含まれています。
+ms.openlocfilehash: 9f375f280ec43d90bcab7ded65e0ce0c08562a0d
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19989084"
 ---
 # <a name="web-conferencing-planning-tool"></a>Web 会議 (計画ツール)
  
-Skype ビジネス サーバー 2015 web 会議のためには、ドキュメントの共同作業、アプリケーション共有、およびデスクトップ共有が含まれています。
+Skype ビジネス サーバー web 会議のためには、ドキュメントの共同作業、アプリケーション共有、およびデスクトップ共有が含まれています。
   
 > [!NOTE]
-> ビジネス サーバー 2015 の Skype では、Office Web Apps との共有を処理するために Office の Web アプリケーション サーバーおよび PowerPoint プレゼンテーションの表示を使用します。 Web 会議機能では、Microsoft Lync 2013 のようにまったく同じ機能です。 インストールして、Office Web アプリケーション サーバーの構成に関する詳細については、 [Office Web アプリケーション サーバーと、Lync Server 2013 の統合を構成する](https://technet.microsoft.com/en-us/library/jj204792%28v=ocs.15%29.aspx)を参照してください。 
+> Skype ビジネス サーバーは、Office Web Apps との共有を処理するために Office の Web アプリケーション サーバーおよび PowerPoint プレゼンテーションの表示を使用します。 Web 会議機能では、Microsoft Lync 2013 のようにまったく同じ機能です。 インストールして、Office Web アプリケーション サーバーの構成に関する詳細については、 [Office Web アプリケーション サーバーと、Lync Server 2013 の統合を構成する](https://technet.microsoft.com/en-us/library/jj204792%28v=ocs.15%29.aspx)を参照してください。 
   
 組織で Web 会議を実現するための詳細を計画する方法については、以下のトピックを参照してください。 
   

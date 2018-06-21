@@ -3,7 +3,6 @@ title: Active Directory の準備
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,16 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a8c96311-9e1c-4d39-9870-681fd4e272ff
-description: ビジネス サーバー 2015 の Skype のインストールを開始するには、Active Directory ドメイン サービスのスキーマ、フォレスト、およびサーバーとユーザーをホストするドメインを準備する必要があります。 ビジネス サーバーの展開ウィザードの Skype では、Active Directory スキーマを使用して、フォレストの準備をし、開始の準備に必要な手順を説明します。 Active Directory のレプリケーションが成功したことを確認した後、ユーザーまたはサーバーをホストする各ドメインを準備します。
-ms.openlocfilehash: 29000132b65350d6b1e723934333209fb3c55b42
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: Skype のビジネス サーバーのインストールを開始するには、Active Directory ドメイン サービスのスキーマ、フォレスト、およびサーバーとユーザーをホストするドメインを準備する必要があります。 ビジネス サーバーの展開ウィザードの Skype では、Active Directory スキーマを使用して、フォレストの準備をし、開始の準備に必要な手順を説明します。 Active Directory のレプリケーションが成功したことを確認した後、ユーザーまたはサーバーをホストする各ドメインを準備します。
+ms.openlocfilehash: 69c101d7aa22e5129253760883ed0d83f1c8f164
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19991046"
 ---
 # <a name="prepare-active-directory"></a>Active Directory の準備
  
-ビジネス サーバー 2015 の Skype のインストールを開始するには、Active Directory ドメイン サービスのスキーマ、フォレスト、およびサーバーとユーザーをホストするドメインを準備する必要があります。 ビジネス サーバーの展開ウィザードの Skype では、Active Directory スキーマを使用して、フォレストの準備をし、開始の準備に必要な手順を説明します。 Active Directory のレプリケーションが成功したことを確認した後、ユーザーまたはサーバーをホストする各ドメインを準備します。
+Skype のビジネス サーバーのインストールを開始するには、Active Directory ドメイン サービスのスキーマ、フォレスト、およびサーバーとユーザーをホストするドメインを準備する必要があります。 ビジネス サーバーの展開ウィザードの Skype では、Active Directory スキーマを使用して、フォレストの準備をし、開始の準備に必要な手順を説明します。 Active Directory のレプリケーションが成功したことを確認した後、ユーザーまたはサーバーをホストする各ドメインを準備します。
   
 > [!IMPORTANT]
 > スキーマの準備を成功させるには、Enterprise Admins グループおよび Schema Admins グループのメンバーとしてログインする必要があります。フォレストを準備するには、Enterprise Admins グループのメンバーとしてログインするか、フォレスト ルートの管理者としてログインする必要があります。ドメインを準備するには、Domain Admins グループのメンバーとしてログインする必要があります。 

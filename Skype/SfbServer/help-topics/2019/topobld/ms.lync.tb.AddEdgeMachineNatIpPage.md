@@ -3,7 +3,6 @@ title: エッジのマシンの NAT の IP を追加します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 71fb7752-c37f-46bb-a470-b5a8083aa95f
 description: このエッジ プールのパブリック IP アドレスは、ネットワーク アドレス変換 (NAT) によって変換は、変換するパブリック IP アドレスを指定する必要があります。 A の外部 IP アドレスをする必要がありますこれと音声ビデオ エッジ サービスです。
-ms.openlocfilehash: a6c63fc740a9833099b3582418ec2f53a9197421
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: c0672bfa4ffacb10432713c7248a0a6355f4f57e
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19991572"
 ---
 # <a name="add-edge-machine-nat-ip"></a>エッジのマシンの NAT の IP を追加します。
  

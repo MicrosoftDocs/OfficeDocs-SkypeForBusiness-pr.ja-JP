@@ -3,7 +3,6 @@ title: トランク構成を新規作成または既存の編集
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,21 +11,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 5df3294ddac7255f639d49a3c5e71da57fc59cca
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 3e490953a750a8512f08d3314afafc6ee5a5e039
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987656"
 ---
 # <a name="trunk-configuration-create-new-or-edit-existing"></a>トランク構成: 新規作成または既存の編集
  
 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
   
-- [ビジネス サーバー 2015 の Skype でのメディア バイ パスを使用してトランクを構成します。](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+- [ビジネス サーバーの Skype でのメディア バイ パスを使用してトランクを構成します。](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
     
-- [ビジネス サーバー 2015 のメディアが Skype で省略せずに、トランクを構成します。](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+- [メディアが Skype のビジネス サーバーのバイパスなしトランクを構成します。](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
     
-- [作成またはビジネス サーバー 2015 の Skype で呼び出された ID プレゼンテーションの変換ルールを変更します。](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [作成またはビジネス サーバーの Skype で呼び出された ID プレゼンテーションの変換ルールを変更](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
     
 - [変換ルールを手動で変更をします。](http://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
     
