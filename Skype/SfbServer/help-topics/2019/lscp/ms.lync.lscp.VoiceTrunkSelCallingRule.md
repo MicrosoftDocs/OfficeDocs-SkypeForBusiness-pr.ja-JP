@@ -3,7 +3,6 @@ title: 発信者番号ルールの変換の選択
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,20 +11,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
 description: 呼び出す番号変換ルールの選択] ダイアログには、配置用に構成された翻訳ルールが表示されます。 変換ルールの詳細については、次のトピックを参照してください。
-ms.openlocfilehash: 7a11a71a7d6f2b2a7578c8bbb9c03452aa62de73
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 25dfa49ffbe4e83d5cf8f010b04b6d0a1430bf8e
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19996896"
 ---
-# <a name="select-calling-number-rules-translation"></a><span data-ttu-id="a1ad1-104">発信者番号ルールの変換の選択</span><span class="sxs-lookup"><span data-stu-id="a1ad1-104">Select Calling Number Rules Translation</span></span>
+# <a name="select-calling-number-rules-translation"></a><span data-ttu-id="387f2-104">発信者番号ルールの変換の選択</span><span class="sxs-lookup"><span data-stu-id="387f2-104">Select Calling Number Rules Translation</span></span>
  
-<span data-ttu-id="a1ad1-p102">[**発信者番号の変換ルールを選択**] ダイアログ ボックスには、展開に構成された変換ルールが表示されます。変換ルールの詳細については、次のトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="a1ad1-p102">The **Select Calling Number Translation Rules** dialog displays the translation rules configured for your deployment. For details about translation rules, see the following topics:</span></span>
+<span data-ttu-id="387f2-p102">[**発信者番号の変換ルールを選択**] ダイアログ ボックスには、展開に構成された変換ルールが表示されます。変換ルールの詳細については、次のトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="387f2-p102">The **Select Calling Number Translation Rules** dialog displays the translation rules configured for your deployment. For details about translation rules, see the following topics:</span></span>
   
-1. [<span data-ttu-id="a1ad1-107">ビジネス サーバー 2015 の Skype での変換規則</span><span class="sxs-lookup"><span data-stu-id="a1ad1-107">Translation rules in Skype for Business Server 2015</span></span>](../../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)
+[<span data-ttu-id="387f2-107">Skype ビジネス サーバー用の変換規則</span><span class="sxs-lookup"><span data-stu-id="387f2-107">Translation rules in Skype for Business Server</span></span>](../../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)
     
-2. [<span data-ttu-id="a1ad1-108">トランクの構成と変換ルール</span><span class="sxs-lookup"><span data-stu-id="a1ad1-108">Trunk Configuration and Translation Rules</span></span>](http://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx)
+[<span data-ttu-id="387f2-108">トランクの構成と変換ルール</span><span class="sxs-lookup"><span data-stu-id="387f2-108">Trunk Configuration and Translation Rules</span></span>](http://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx)
     
-3. [<span data-ttu-id="a1ad1-109">作成またはビジネス サーバー 2015 の Skype で呼び出された ID プレゼンテーションの変換ルールを変更します。</span><span class="sxs-lookup"><span data-stu-id="a1ad1-109">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span></span>](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+[<span data-ttu-id="387f2-109">作成またはビジネス サーバーの Skype で呼び出された ID プレゼンテーションの変換ルールを変更</span><span class="sxs-lookup"><span data-stu-id="387f2-109">Create or modify a translation rule for called ID presentation in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
     
 

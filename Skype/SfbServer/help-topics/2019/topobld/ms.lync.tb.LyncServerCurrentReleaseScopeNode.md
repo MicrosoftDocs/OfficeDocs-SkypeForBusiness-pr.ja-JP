@@ -3,7 +3,6 @@ title: Lync Server 2013 は、新しい展開を作成します。
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,14 +11,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 13e95afe-87bc-43bf-b842-0e25b3fce2da
 description: Lync Server 2013 を右クリックして、Lync Server 2013 のノード トポロジ ビルダーで新しいサーバーの役割を作成、新規作成] を選択しを作成するサーバーの役割を選択できます。
-ms.openlocfilehash: 3a1a5508c49138263745878ed96c155bbf060cbf
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 06ea5eaa8f10303e5419a1668cfe3ed33ffefe03
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19996878"
 ---
-# <a name="lync-server-2013-create-new-expander"></a><span data-ttu-id="f6cf6-103">Lync Server 2013 は、新しい展開を作成します。</span><span class="sxs-lookup"><span data-stu-id="f6cf6-103">Lync Server 2013 Create New Expander</span></span>
+# <a name="lync-server-2013-create-new-expander"></a><span data-ttu-id="b26a5-103">Lync Server 2013 は、新しい展開を作成します。</span><span class="sxs-lookup"><span data-stu-id="b26a5-103">Lync Server 2013 Create New Expander</span></span>
  
-<span data-ttu-id="f6cf6-104">**Lync Server 2013**を右クリックして、Lync Server 2013 のノード トポロジ ビルダーで新しいサーバーの役割を作成、**新規**作成] を選択しを作成するサーバーの役割を選択できます。</span><span class="sxs-lookup"><span data-stu-id="f6cf6-104">You can create new server roles in the Lync Server 2013 node of Topology Builder by right clicking on **Lync Server 2013**, select **New**, then select the server role to create.</span></span>
+<span data-ttu-id="b26a5-104">**Lync Server 2013**を右クリックして、Lync Server 2013 のノード トポロジ ビルダーで新しいサーバーの役割を作成、**新規**作成] を選択しを作成するサーバーの役割を選択できます。</span><span class="sxs-lookup"><span data-stu-id="b26a5-104">You can create new server roles in the Lync Server 2013 node of Topology Builder by right clicking on **Lync Server 2013**, select **New**, then select the server role to create.</span></span>
   
 
