@@ -3,7 +3,6 @@ title: ブランチ オフィスのスコープ ノード
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 116d317c-8df0-45a0-83d4-eb10cf525d70
 description: ブランチ サイト] ノードには、この中央サイトに関連付けられているブランチ サイトが一覧表示されます。 以下のアクションを実行できます。
-ms.openlocfilehash: cc0509a7af85637147d1560324c9198a218d28a4
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7907f5ec8205ae7fbd6d61aef695a501e108f18e
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19997095"
 ---
 # <a name="branch-offices-scope-node"></a>ブランチ オフィスのスコープ ノード
  
