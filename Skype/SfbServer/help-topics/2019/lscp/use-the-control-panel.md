@@ -3,21 +3,21 @@ title: ビジネス 2015 のサーバーのコントロール パネルの Skype
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 79eff02f-4bc1-4e3a-bac5-2043e19f781a
 description: 詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、ビジネス サーバー 2015 の Skype の管理を参照してください。
-ms.openlocfilehash: 45e548615300e8b5df83493a1bb89bc58559a496
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 21fe0e8e10fb614e97fd24c94c7f0aa94af71b9a
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19967944"
 ---
-# <a name="use-the-skype-for-business-server-2015-control-panel"></a><span data-ttu-id="d0769-103">ビジネス 2015 のサーバーのコントロール パネルの Skype を使用してください。</span><span class="sxs-lookup"><span data-stu-id="d0769-103">Use the Skype for Business Server 2015 Control Panel</span></span>
+# <a name="use-the-skype-for-business-server-2015-control-panel"></a><span data-ttu-id="7e433-103">ビジネス 2015 のサーバーのコントロール パネルの Skype を使用してください。</span><span class="sxs-lookup"><span data-stu-id="7e433-103">Use the Skype for Business Server 2015 Control Panel</span></span>
  
-<span data-ttu-id="d0769-104">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d0769-104">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
+<span data-ttu-id="7e433-104">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7e433-104">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
   
 

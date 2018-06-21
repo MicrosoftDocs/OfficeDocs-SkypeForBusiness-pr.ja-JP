@@ -3,7 +3,6 @@ title: レジストラーのセキュリティ設定
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,21 +11,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dd3c9b37-607e-445f-9e15-b6c92adcfb87
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 0ce1ab220963c705002be8cbbf1aef4a876ceff3
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 8212398664b3d5f7cf0bfb674cd8cc50ddfa21ad
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19968343"
 ---
-# <a name="registrar-security-settings"></a><span data-ttu-id="dc4f4-104">レジストラーのセキュリティ設定</span><span class="sxs-lookup"><span data-stu-id="dc4f4-104">Registrar Security Settings</span></span>
+# <a name="registrar-security-settings"></a><span data-ttu-id="7ca41-104">レジストラーのセキュリティ設定</span><span class="sxs-lookup"><span data-stu-id="7ca41-104">Registrar Security Settings</span></span>
  
-<span data-ttu-id="dc4f4-p102">目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="dc4f4-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="7ca41-p102">目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="7ca41-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="dc4f4-107">ビジネス サーバー 2015 の Skype のレジストラー構成設定を管理します。</span><span class="sxs-lookup"><span data-stu-id="dc4f4-107">Manage Registrar configuration settings in Skype for Business Server 2015</span></span>](../../../manage/authentication/registrar-configuration-settings.md)
+- [<span data-ttu-id="7ca41-107">ビジネス サーバー 2015 の Skype のレジストラー構成設定を管理します。</span><span class="sxs-lookup"><span data-stu-id="7ca41-107">Manage Registrar configuration settings in Skype for Business Server 2015</span></span>](../../../manage/authentication/registrar-configuration-settings.md)
     
-- [<span data-ttu-id="dc4f4-108">既存のレジストラーを変更します。</span><span class="sxs-lookup"><span data-stu-id="dc4f4-108">Modify an Existing Registrar</span></span>](http://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
+- [<span data-ttu-id="7ca41-108">既存のレジストラーを変更します。</span><span class="sxs-lookup"><span data-stu-id="7ca41-108">Modify an Existing Registrar</span></span>](http://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
     
-- [<span data-ttu-id="dc4f4-109">レジストラーを削除します。</span><span class="sxs-lookup"><span data-stu-id="dc4f4-109">Delete a Registrar</span></span>](http://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
+- [<span data-ttu-id="7ca41-109">レジストラーを削除します。</span><span class="sxs-lookup"><span data-stu-id="7ca41-109">Delete a Registrar</span></span>](http://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
     
-<span data-ttu-id="dc4f4-110">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="dc4f4-110">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
+<span data-ttu-id="7ca41-110">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7ca41-110">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
 

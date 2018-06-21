@@ -3,7 +3,6 @@ title: Lync Server 2010 エッジ サーバーのオプションを追加しま�
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,30 +11,28 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b059af5-e83f-4564-90b2-d7ebb9e551c2
 description: 新しいエッジ サーバーまたはエッジ プールを定義し、新しいサーバーまたはプールの機能を定義することが表示されます。 選択できるオプションは次のとおりです。
-ms.openlocfilehash: c031480dd3553aa4fc1ca2f2a8ddd03f67d9bc02
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: d9dae42d815855cea4c7f07b484e026c72ce22cf
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19974016"
 ---
-# <a name="add-edge-server-options-for-lync-server-2010"></a><span data-ttu-id="f8f1d-104">Lync Server 2010 エッジ サーバーのオプションを追加します。</span><span class="sxs-lookup"><span data-stu-id="f8f1d-104">Add Edge Server Options for Lync Server 2010</span></span>
+# <a name="add-edge-server-options-for-lync-server-2010"></a><span data-ttu-id="93760-104">Lync Server 2010 エッジ サーバーのオプションを追加します。</span><span class="sxs-lookup"><span data-stu-id="93760-104">Add Edge Server Options for Lync Server 2010</span></span>
  
-<span data-ttu-id="f8f1d-105">新しいエッジ サーバーまたはエッジ プールを定義し、新しいサーバーまたはプールの機能を定義することが表示されます。</span><span class="sxs-lookup"><span data-stu-id="f8f1d-105">You define a new Edge Server or Edge pool and are presented with the opportunity to define features for the new server or pool.</span></span> <span data-ttu-id="f8f1d-106">選択できるオプションは次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="f8f1d-106">The options that you can choose are:</span></span>
+<span data-ttu-id="93760-105">新しいエッジ サーバーまたはエッジ プールを定義し、新しいサーバーまたはプールの機能を定義することが表示されます。</span><span class="sxs-lookup"><span data-stu-id="93760-105">You define a new Edge Server or Edge pool and are presented with the opportunity to define features for the new server or pool.</span></span> <span data-ttu-id="93760-106">選択できるオプションは次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="93760-106">The options that you can choose are:</span></span>
   
-- <span data-ttu-id="f8f1d-107">**単一の FQDN と IP アドレスを使用**: (選択した場合に IPv4 と IPv6 の両方を使用して、各 IP アドレスの種類のいずれかを定義する必要がありますが)、1 つの IPv4 または IPv6 を使用する] チェック ボックスをオンにアドレスと完全修飾ドメイン名 (FQDN) の外部エッジ インターフェイスです。</span><span class="sxs-lookup"><span data-stu-id="f8f1d-107">**Use a single FQDN and IP address**: Select the check box to use a single IPv4 or IPv6 (if you choose to use both IPv4 and IPv6, then you will need to define one of each IP address type) address and fully qualified domain name (FQDN) for the external Edge interfaces.</span></span> 
+- <span data-ttu-id="93760-107">**単一の FQDN と IP アドレスを使用**: (選択した場合に IPv4 と IPv6 の両方を使用して、各 IP アドレスの種類のいずれかを定義する必要がありますが)、1 つの IPv4 または IPv6 を使用する] チェック ボックスをオンにアドレスと完全修飾ドメイン名 (FQDN) の外部エッジ インターフェイスです。</span><span class="sxs-lookup"><span data-stu-id="93760-107">**Use a single FQDN and IP address**: Select the check box to use a single IPv4 or IPv6 (if you choose to use both IPv4 and IPv6, then you will need to define one of each IP address type) address and fully qualified domain name (FQDN) for the external Edge interfaces.</span></span> 
     
     > [!IMPORTANT]
-    > <span data-ttu-id="f8f1d-108">このオプションを選択した場合のみ 1 つの IP アドレス、または 1 つの IPv4 と、1 つの IPv6 を使用するが、エッジ インターフェイスごとに異なるポート番号を割り当てる必要があります。</span><span class="sxs-lookup"><span data-stu-id="f8f1d-108">If you choose this option, you will use only one IP address, or one IPv4 and one IPv6, but you must assign different port numbers to each Edge interface.</span></span> 
+    > <span data-ttu-id="93760-108">このオプションを選択した場合のみ 1 つの IP アドレス、または 1 つの IPv4 と、1 つの IPv6 を使用するが、エッジ インターフェイスごとに異なるポート番号を割り当てる必要があります。</span><span class="sxs-lookup"><span data-stu-id="93760-108">If you choose this option, you will use only one IP address, or one IPv4 and one IPv6, but you must assign different port numbers to each Edge interface.</span></span> 
   
-- <span data-ttu-id="f8f1d-109">**フェデレーション (ポート 5061) を有効にする**: その他の SIP フェデレーション、プロバイダー、またはセッション開始プロトコル (SIP) を使用するホストされたサービスとフェデレーションを行うが場合、このチェック ボックスをオンします。</span><span class="sxs-lookup"><span data-stu-id="f8f1d-109">**Enable federation (port 5061)**: Select this check box if you will federate with other SIP federations, providers, or hosted offerings that use the session initiation protocol (SIP).</span></span>
+- <span data-ttu-id="93760-109">**フェデレーション (ポート 5061) を有効にする**: その他の SIP フェデレーション、プロバイダー、またはセッション開始プロトコル (SIP) を使用するホストされたサービスとフェデレーションを行うが場合、このチェック ボックスをオンします。</span><span class="sxs-lookup"><span data-stu-id="93760-109">**Enable federation (port 5061)**: Select this check box if you will federate with other SIP federations, providers, or hosted offerings that use the session initiation protocol (SIP).</span></span>
     
-- <span data-ttu-id="f8f1d-110">**このエッジ プールの外部 IP アドレスが NAT によって変換されます**: エッジの外部インターフェイスにプライベート IP アドレスを使用してエッジ サーバーを配置またはエッジ プールの論理的なネットワーク アドレス変換 (NAT) デバイスは、このチェック ボックスをオン分離します。</span><span class="sxs-lookup"><span data-stu-id="f8f1d-110">**The external IP address of this Edge pool is translated by NAT**: Select this check box if you use private IP addresses for the Edge external interfaces and will provide a network address translation (NAT) device to place the Edge Server or Edge pool logically behind.</span></span>
+- <span data-ttu-id="93760-110">**このエッジ プールの外部 IP アドレスが NAT によって変換されます**: エッジの外部インターフェイスにプライベート IP アドレスを使用してエッジ サーバーを配置またはエッジ プールの論理的なネットワーク アドレス変換 (NAT) デバイスは、このチェック ボックスをオン分離します。</span><span class="sxs-lookup"><span data-stu-id="93760-110">**The external IP address of this Edge pool is translated by NAT**: Select this check box if you use private IP addresses for the Edge external interfaces and will provide a network address translation (NAT) device to place the Edge Server or Edge pool logically behind.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="f8f1d-111">関連項目</span><span class="sxs-lookup"><span data-stu-id="f8f1d-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="93760-111">関連項目</span><span class="sxs-lookup"><span data-stu-id="93760-111">See also</span></span>
 
-#### 
-
-[<span data-ttu-id="f8f1d-112">外部ユーザー アクセスの計画</span><span class="sxs-lookup"><span data-stu-id="f8f1d-112">Planning for External User Access</span></span>](http://technet.microsoft.com/library/ea098933-eff5-461e-aba3-e7f128784dc2.aspx)
+[<span data-ttu-id="93760-112">外部ユーザー アクセスの計画</span><span class="sxs-lookup"><span data-stu-id="93760-112">Planning for External User Access</span></span>](http://technet.microsoft.com/library/ea098933-eff5-461e-aba3-e7f128784dc2.aspx)
   
-[<span data-ttu-id="f8f1d-113">外部ユーザー アクセスを展開します。</span><span class="sxs-lookup"><span data-stu-id="f8f1d-113">Deploying External User Access</span></span>](http://technet.microsoft.com/library/d40c9574-c16b-4fe6-b848-21ae0b7e4f0e.aspx)
-
+[<span data-ttu-id="93760-113">外部ユーザー アクセスを展開します。</span><span class="sxs-lookup"><span data-stu-id="93760-113">Deploying External User Access</span></span>](http://technet.microsoft.com/library/d40c9574-c16b-4fe6-b848-21ae0b7e4f0e.aspx)

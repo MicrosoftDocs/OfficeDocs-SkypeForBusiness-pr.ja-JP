@@ -3,7 +3,6 @@ title: ブランチ オフィス アプライアンスとエッジを関連付�
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 4/14/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 description: エッジ サーバーを展開して外部使用のためのメディア サービスを提供する必要があります、エッジ サーバーまたはドロップ ダウン リストで選択して、リカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーに関連付けられているとなるプールを選択します。 [次へ] をクリックします。
-ms.openlocfilehash: 1fc6d734511a8e4bf614694057727c35f209f96c
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 760cdcc357e1a605edd0842d47703142ac1ad174
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19968042"
 ---
-# <a name="associate-branch-office-appliance-with-edge"></a><span data-ttu-id="6a2df-104">ブランチ オフィス アプライアンスとエッジを関連付ける</span><span class="sxs-lookup"><span data-stu-id="6a2df-104">Associate Branch Office Appliance With Edge</span></span>
+# <a name="associate-branch-office-appliance-with-edge"></a><span data-ttu-id="25903-104">ブランチ オフィス アプライアンスとエッジを関連付ける</span><span class="sxs-lookup"><span data-stu-id="25903-104">Associate Branch Office Appliance With Edge</span></span>
  
-<span data-ttu-id="6a2df-105">エッジ サーバーを展開して外部使用のためのメディア サービスを提供する必要があります、エッジ サーバーまたはドロップ ダウン リストで選択して、リカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーに関連付けられているとなるプールを選択します。</span><span class="sxs-lookup"><span data-stu-id="6a2df-105">If you have Edge Servers deployed and must provide media services for external use, choose the Edge Server or pool that will be associated with the Survivable Branch Appliance or Survivable Branch Server by selecting it in the drop-down list.</span></span> <span data-ttu-id="6a2df-106">[**次へ**] をクリックして続行します。</span><span class="sxs-lookup"><span data-stu-id="6a2df-106">Click **Next** to continue.</span></span>
+<span data-ttu-id="25903-105">エッジ サーバーを展開して外部使用のためのメディア サービスを提供する必要があります、エッジ サーバーまたはドロップ ダウン リストで選択して、リカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーに関連付けられているとなるプールを選択します。</span><span class="sxs-lookup"><span data-stu-id="25903-105">If you have Edge Servers deployed and must provide media services for external use, choose the Edge Server or pool that will be associated with the Survivable Branch Appliance or Survivable Branch Server by selecting it in the drop-down list.</span></span> <span data-ttu-id="25903-106">[**次へ**] をクリックして続行します。</span><span class="sxs-lookup"><span data-stu-id="25903-106">Click **Next** to continue.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="6a2df-107">エッジ サーバーまたはエッジ サーバー プール トポロジで定義されているがない場合は、この手順を省略できます。</span><span class="sxs-lookup"><span data-stu-id="6a2df-107">If you do not have an Edge Server or Edge Server pool defined in your topology, you can skip this step.</span></span> <span data-ttu-id="6a2df-108">エッジ サーバーまたは新しいエッジ サーバーを定義するときに、エッジ サーバー プールまたはエッジ サーバー プール、またはリカバリ性に優れたブランチ アプライアンスまたは Survivable のプロパティ ページを編集するとき、リカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーに関連付けることができます。サーバーは、トポロジ内で、エッジ サーバーまたはエッジ サーバー プールを定義した後に分岐します。</span><span class="sxs-lookup"><span data-stu-id="6a2df-108">You will be able to associate the Survivable Branch Appliance or Survivable Branch Server with an Edge Server or Edge Server pool when you define a new Edge Server or Edge Server pool, or when you edit the property pages of the Survivable Branch Appliance or Survivable Branch Server after an Edge Server or Edge Server pool is defined in the topology.</span></span> 
+> <span data-ttu-id="25903-107">エッジ サーバーまたはエッジ サーバー プール トポロジで定義されているがない場合は、この手順を省略できます。</span><span class="sxs-lookup"><span data-stu-id="25903-107">If you do not have an Edge Server or Edge Server pool defined in your topology, you can skip this step.</span></span> <span data-ttu-id="25903-108">エッジ サーバーまたは新しいエッジ サーバーを定義するときに、エッジ サーバー プールまたはエッジ サーバー プール、またはリカバリ性に優れたブランチ アプライアンスまたは Survivable のプロパティ ページを編集するとき、リカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーに関連付けることができます。サーバーは、トポロジ内で、エッジ サーバーまたはエッジ サーバー プールを定義した後に分岐します。</span><span class="sxs-lookup"><span data-stu-id="25903-108">You will be able to associate the Survivable Branch Appliance or Survivable Branch Server with an Edge Server or Edge Server pool when you define a new Edge Server or Edge Server pool, or when you edit the property pages of the Survivable Branch Appliance or Survivable Branch Server after an Edge Server or Edge Server pool is defined in the topology.</span></span> 
   
 
