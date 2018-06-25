@@ -24,11 +24,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 国/地域を選択して、電話会議、電話システム、通話プラン、コミュニケーション クレジット、および有料電話番号と無料電話番号を利用できるかどうかを確認できます。
-ms.openlocfilehash: 5a8ccbda886b72b0ad960a92152d37d68784197d
-ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
+ms.openlocfilehash: d4fd54348cf1897a60c235f3f4fa408c051b3f0b
+ms.sourcegitcommit: 18ae1505642e985f7fb62d2e70e37e8489b5ef15
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/25/2018
+ms.locfileid: "20034648"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>国および地域ごとの電話会議および通話プランの利用可能性
 
@@ -124,7 +125,7 @@ ms.lasthandoff: 05/24/2018
 > - [ベネズエラ](availability-in-venezuela.md)
 > - [ベトナム](availability-in-vietnam.md)
 
-**すべての国や地域では、挿入されたスプレッドシートを探している場合をダウンロードして[クラウド音声機能の国の可用性のスプレッドシート](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/country-and-region-availabilty/country-and-region-availability-(v-05042018)-(en-us).xlsx?raw=true)を保存**します。
+**すべての国や地域では、挿入されたスプレッドシートを探している場合をダウンロードして[クラウド音声機能の国の可用性のスプレッドシート](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/country-and-region-availabilty/country-and-region-availability-(v-06252018)-(en-us).xlsx?raw=true)を保存**します。
 
 ***
 
