@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d0e9b4d0-7110-4a29-b5e5-0e116ea6fa9c
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 59e84d4db7a31b0c7ae7fd6630026f55e4d77745
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: f616cc125180c3e6257d7b813de538dd7ef4e311
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969450"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20043935"
 ---
 # <a name="call-detail-recording-create-new-or-edit-existing"></a>通話詳細記録: 新規作成または既存の編集
  
@@ -26,5 +26,5 @@ ms.locfileid: "19969450"
     
 - [ビジネス サーバー 2015 の Skype での CDR のデータ保存期間を指定します。](../../../manage/health-and-monitoring/specify-retention-of-data.md)
     
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。
+ 
 

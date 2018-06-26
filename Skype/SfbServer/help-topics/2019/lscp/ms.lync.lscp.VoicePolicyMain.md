@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c0bfce3-2ba0-4006-b5f2-415e03e54dbe
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: be05b5eee8bea3a2815ab65a134613fe811b1573
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: cacb6a46285fc3bf66d12e6adcbd149045ddcb73
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969436"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20045247"
 ---
 # <a name="voice-policy"></a>音声ポリシー
  
@@ -26,5 +26,5 @@ ms.locfileid: "19969436"
     
 - [音声ポリシーの変更し、PSTN 使用法レコードを構成します。](http://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
     
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。
+ 
 

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 662c8e9893055f732d70349f61ccb436fd9bb41c
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 2653366eccb71594730c292fb897e9b582d186b9
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19978561"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20046721"
 ---
 # <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>新規作成または既存を編集する XMPP フェデレーション パートナーです。
  
@@ -26,5 +26,5 @@ ms.locfileid: "19978561"
     
 - [ネゴシエーション設定の表の XMPP フェデレーション パートナー](http://technet.microsoft.com/library/ef773942-ef92-4f71-85a1-738dfebdfa00.aspx)
     
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。
+ 
 

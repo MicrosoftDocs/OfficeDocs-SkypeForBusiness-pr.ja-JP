@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 3ebfb0ed83107912865834ea028c5c2c5e89852c
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 92b9ce6b7d1d81ac72d230dd28cac59491aaadd1
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19970536"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20046264"
 ---
 # <a name="users-view-or-configure-location-policy"></a>ユーザーを表示または場所のポリシーを構成します。
  
@@ -24,5 +24,5 @@ ms.locfileid: "19970536"
   
 - [場所のポリシーをユーザーに割り当てる](http://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
     
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。
+ 
 

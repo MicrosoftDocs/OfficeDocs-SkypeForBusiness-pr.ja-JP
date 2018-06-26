@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8780aaad-1318-4e7a-945c-5e1863761034
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: e5279188d76e4d082209495a480683e9ea3bbbf8
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 1ce522283a2914f554f994de2ae59fafe6f120a5
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987327"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20044061"
 ---
 # <a name="users-view-or-configure-dial-plan"></a>ユーザー: が表示または、ダイヤル プランを構成します。
  
@@ -30,5 +30,5 @@ ms.locfileid: "19987327"
     
 - [正規化ルールを手動で変更をします。](http://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
     
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。
+ 
 

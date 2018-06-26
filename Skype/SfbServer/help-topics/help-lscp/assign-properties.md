@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c799a3-90a0-4d58-8f8b-17eea56144dc
 description: 同時に複数のサブネットに、説明、およびネットワークのサイト ID を指定するのにプロパティの割り当て] ダイアログ ボックスを使用します。 [説明] に、選択したサブネットを使用する説明を入力します。 [ネットワーク サイト ID に割り当てる] を選択したサブネットをネットワーク サイト ID を選択します。 これらのプロパティを選択したサブネットに割り当てるには、[OK] をクリックします。
-ms.openlocfilehash: c22e1b44408c11cee77c2f78b259f2ba69404b4a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 17ea661fbc02bb554c47e7a6b47916c234e6c0f7
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20044083"
 ---
 # <a name="assign-properties"></a>プロパティを割り当てる
  
 同時に複数のサブネットに、説明、およびネットワークのサイト ID を指定するのに**プロパティの割り当て**] ダイアログ ボックスを使用します。 [**説明**] に選択したサブネットを使用する説明を入力します。 [**ネットワーク サイト ID**に割り当てる] を選択したサブネットをネットワーク サイト ID を選択します。 これらのプロパティを選択したサブネットに割り当てるには、[ **OK**] をクリックします。
   
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。
-  
+
 

@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 description: CsPersistentChatAdministrator ロール (永続的なチャット管理者) のメンバーには、他のユーザーにし、自らをチャット ルームの管理者の権限およびアクセス許可を与えることができます。
-ms.openlocfilehash: bc19f9d4ae7592bf1d3451bee01355c763cf3b1f
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 0b12223fd51158d2525986b2a475e62604ab7252
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20045254"
 ---
 # <a name="users-view-persistent-chat"></a>ユーザー: ビューの永続的なチャット
  
@@ -44,6 +45,6 @@ ms.lasthandoff: 05/25/2018
     
 - [永続的なチャットのメンバーシップを理解します。](http://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
     
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。
+ 
   
 

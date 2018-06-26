@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb51f2ef-0235-4b77-8b2c-e2b0d3ff3608
 description: コミットされていない音声構成設定] ダイアログ ボックスを使用すると、すべての変更を行ったことを確認します。 ダイアログ ボックス内をスクロールして未確定の変更をすべて確認するか、矢印をクリックして別のセクションを展開または折りたたみます。 完了したらのすべてのこれらの変更をコミットするためのコミット] をクリックするかに戻ると、変更内容を変更するには [キャンセル] をクリックします。
-ms.openlocfilehash: 30c006da73a086df1d84f4b9049006ea5096da5c
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 876a4177ef51e84c87f2e6b55bbf95d05a8ca691
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19976003"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20044047"
 ---
 # <a name="uncommitted-voice-configuration-settings-commit"></a>コミットされていない音声構成設定: コミット
  
@@ -25,6 +25,6 @@ ms.locfileid: "19976003"
 > [!IMPORTANT]
 > [**コミット**] をクリックすると、[**未確定の音声構成設定**] ダイアログ ボックスの一覧にある**すべての**変更が確定されます。
   
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。
+ 
   
 

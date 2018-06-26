@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 description: 'トポロジ: ビジネス ・ トポロジーは、Skype では、サーバのステータスがステータス ページに表示されます。'
-ms.openlocfilehash: c225e4a4c3b448f37467096f417a6e27954baa86
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 59bb21d2b7199f40a991b2e42768f6c29dd41e11
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974065"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20046278"
 ---
 # <a name="topology-status"></a>トポロジ: ステータス
  
@@ -34,6 +34,6 @@ ms.locfileid: "19974065"
     
 - [サービスへの新しい接続を防止します。](http://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
     
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。
+ 
   
 
