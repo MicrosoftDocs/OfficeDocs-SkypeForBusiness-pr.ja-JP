@@ -11,24 +11,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eeb31bd9-688e-4767-a47d-6fda1a55f094
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 5e48c4df9eb4b4c40d51373a42e2afa635eb46dc
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 7d88af697ba4ef3e73ee26d65c239b50641a7750
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19972540"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20045268"
 ---
-# <a name="dial-plan"></a><span data-ttu-id="92cca-104">ダイヤル プラン</span><span class="sxs-lookup"><span data-stu-id="92cca-104">Dial Plan</span></span>
+# <a name="dial-plan"></a><span data-ttu-id="71a7d-104">ダイヤル プラン</span><span class="sxs-lookup"><span data-stu-id="71a7d-104">Dial Plan</span></span>
  
-<span data-ttu-id="92cca-p102">目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="92cca-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="71a7d-p102">目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="71a7d-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="92cca-107">作成またはビジネス サーバーの Skype のダイヤル プランを変更します。</span><span class="sxs-lookup"><span data-stu-id="92cca-107">Create or modify a dial plan in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/dial-plans.md)
+- [<span data-ttu-id="71a7d-107">作成またはビジネス サーバーの Skype のダイヤル プランを変更します。</span><span class="sxs-lookup"><span data-stu-id="71a7d-107">Create or modify a dial plan in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/dial-plans.md)
     
-- [<span data-ttu-id="92cca-108">ダイヤル プランを変更します。</span><span class="sxs-lookup"><span data-stu-id="92cca-108">Modify a Dial Plan</span></span>](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
+- [<span data-ttu-id="71a7d-108">ダイヤル プランを変更します。</span><span class="sxs-lookup"><span data-stu-id="71a7d-108">Modify a Dial Plan</span></span>](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
     
-- [<span data-ttu-id="92cca-109">作成するか、ビジネスの Skype の正規化ルールを変更</span><span class="sxs-lookup"><span data-stu-id="92cca-109">Create or modify a normalization rule in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [<span data-ttu-id="71a7d-109">作成するか、ビジネスの Skype の正規化ルールを変更</span><span class="sxs-lookup"><span data-stu-id="71a7d-109">Create or modify a normalization rule in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
     
-- [<span data-ttu-id="92cca-110">正規化ルールを手動で変更をします。</span><span class="sxs-lookup"><span data-stu-id="92cca-110">Create or Modify a Normalization Rule Manually</span></span>](http://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
+- [<span data-ttu-id="71a7d-110">正規化ルールを手動で変更をします。</span><span class="sxs-lookup"><span data-stu-id="71a7d-110">Create or Modify a Normalization Rule Manually</span></span>](http://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
     
-<span data-ttu-id="92cca-111">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="92cca-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
+ 
 

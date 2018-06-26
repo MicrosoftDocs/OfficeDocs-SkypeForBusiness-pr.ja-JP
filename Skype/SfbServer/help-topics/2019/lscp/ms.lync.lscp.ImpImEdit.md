@@ -11,20 +11,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1406c7c5-eb55-4b6a-8d74-d625ea9e9922
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 079ef16414e5ceb3dd21f51f691845fc3232b3e1
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 4a5a0c430fa8cd9fc7e84ca35229c2b14c608ff3
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987593"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20044103"
 ---
-# <a name="url-filter-create-new-or-edit-existing"></a><span data-ttu-id="10957-104">URL フィルター: 新規作成または既存の編集</span><span class="sxs-lookup"><span data-stu-id="10957-104">URL Filter: Create New or Edit Existing</span></span>
+# <a name="url-filter-create-new-or-edit-existing"></a><span data-ttu-id="66324-104">URL フィルター: 新規作成または既存の編集</span><span class="sxs-lookup"><span data-stu-id="66324-104">URL Filter: Create New or Edit Existing</span></span>
  
-<span data-ttu-id="10957-p102">目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="10957-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="66324-p102">目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="66324-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="10957-107">既定の URL フィルターを変更します。</span><span class="sxs-lookup"><span data-stu-id="10957-107">Modify the Default URL Filter</span></span>](http://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)
+- [<span data-ttu-id="66324-107">既定の URL フィルターを変更します。</span><span class="sxs-lookup"><span data-stu-id="66324-107">Modify the Default URL Filter</span></span>](http://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)
     
-- [<span data-ttu-id="10957-108">IM 会話内のハイパーリンクを処理するために新しい URL フィルターを作成します。</span><span class="sxs-lookup"><span data-stu-id="10957-108">Create a New URL Filter to Handle Hyperlinks in IM Conversations</span></span>](http://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
+- [<span data-ttu-id="66324-108">IM 会話内のハイパーリンクを処理するために新しい URL フィルターを作成します。</span><span class="sxs-lookup"><span data-stu-id="66324-108">Create a New URL Filter to Handle Hyperlinks in IM Conversations</span></span>](http://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
     
-<span data-ttu-id="10957-109">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="10957-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
+ 
 

@@ -11,17 +11,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa2bc914-dfe0-4a1f-b827-41092a715a5d
 description: コミットされていない音声構成設定] ダイアログ ボックスを使用すると、すべての行った変更を確認できます。 ダイアログ ボックス内をスクロールして未確定の変更をすべて確認するか、矢印をクリックして別のセクションを展開または折りたたみます。 終了したら、[閉じる] をクリックします。 このダイアログ ボックスを閉じると、変更内容を変更したり、それらをコミットできます。
-ms.openlocfilehash: 923a2e2084b91acab1780132eb0ca4047ba82aff
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 54f86d653e8dd748bec868c4c1fc79b70727ef15
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969842"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20043823"
 ---
-# <a name="uncommitted-voice-configuration-settings-review"></a><span data-ttu-id="70260-106">コミットされていない音声の設定: レビュー</span><span class="sxs-lookup"><span data-stu-id="70260-106">Uncommitted Voice Configuration Settings: Review</span></span>
+# <a name="uncommitted-voice-configuration-settings-review"></a><span data-ttu-id="bee74-106">コミットされていない音声の設定: レビュー</span><span class="sxs-lookup"><span data-stu-id="bee74-106">Uncommitted Voice Configuration Settings: Review</span></span>
  
-<span data-ttu-id="70260-107">**コミットされていない音声構成設定**] ダイアログ ボックスを使用すると、すべての行った変更を確認できます。</span><span class="sxs-lookup"><span data-stu-id="70260-107">Use the **Uncommitted Voice Configuration Settings** dialog box to review all of the changes that you have made.</span></span> <span data-ttu-id="70260-108">ダイアログ ボックス内をスクロールして未確定の変更をすべて確認するか、矢印をクリックして別のセクションを展開または折りたたみます。</span><span class="sxs-lookup"><span data-stu-id="70260-108">Scroll through the dialog box to review all of the uncommitted changes, or click the arrows to expand or collapse the different sections.</span></span> <span data-ttu-id="70260-109">終了したら、[**閉じる**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="70260-109">When you are finished, click **Close**.</span></span> <span data-ttu-id="70260-110">このダイアログ ボックスを閉じると、変更内容を変更したり、それらをコミットできます。</span><span class="sxs-lookup"><span data-stu-id="70260-110">After you close this dialog box, you can modify your changes or commit them.</span></span>
+<span data-ttu-id="bee74-107">**コミットされていない音声構成設定**] ダイアログ ボックスを使用すると、すべての行った変更を確認できます。</span><span class="sxs-lookup"><span data-stu-id="bee74-107">Use the **Uncommitted Voice Configuration Settings** dialog box to review all of the changes that you have made.</span></span> <span data-ttu-id="bee74-108">ダイアログ ボックス内をスクロールして未確定の変更をすべて確認するか、矢印をクリックして別のセクションを展開または折りたたみます。</span><span class="sxs-lookup"><span data-stu-id="bee74-108">Scroll through the dialog box to review all of the uncommitted changes, or click the arrows to expand or collapse the different sections.</span></span> <span data-ttu-id="bee74-109">終了したら、[**閉じる**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bee74-109">When you are finished, click **Close**.</span></span> <span data-ttu-id="bee74-110">このダイアログ ボックスを閉じると、変更内容を変更したり、それらをコミットできます。</span><span class="sxs-lookup"><span data-stu-id="bee74-110">After you close this dialog box, you can modify your changes or commit them.</span></span>
   
-<span data-ttu-id="70260-111">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="70260-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
+ 
   
 
