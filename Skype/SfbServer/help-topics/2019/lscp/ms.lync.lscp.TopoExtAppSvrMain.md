@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: d4af846fb0ddaa426f3cd0f602beda92fae9de53
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 9f5e7c73407d7c4d3578f7ff9d1aaf5eec423bd3
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19976164"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20049115"
 ---
 # <a name="topology-trusted-application"></a>トポロジ: 信頼されたアプリケーション
  
@@ -24,5 +24,5 @@ ms.locfileid: "19976164"
   
 - [信頼されたアプリケーションの一覧を表示します。](http://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
     
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../../manage/manage.md)を参照してください。
+ 
 
