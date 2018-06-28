@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 description: ビジネス サーバー 2015 Skype ルーム システム v1 の Skype (SRS v1、Lync ルームのシステムと呼ばれていました) 管理用の Web ポータルは、組織が、Skype ルーム システムの会議室を維持するために使用できる web ポータルです。 管理者は、オーディオ/ビデオ デバイスを監視することによってなど、デバイスの稼働状態を監視するのに SRS v1 を管理する Web ポータルを使用できます。 このポータルでは、管理者はリモートで会議室の稼働状態を監視するための診断情報を収集できます。
-ms.openlocfilehash: d87241cc983fabf76a952bce4941063169f787c2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 84f9d84861980f970fb496f957c712a1d7dfead4
+ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20088533"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での SRS v1 管理 Web ポータルの展開 
  
@@ -29,9 +30,9 @@ SRS v1 は、管理用の Web ポータルは、サーバー上に配置は後�
   
 このトピックでは、以下について説明します。
   
-- [SRS v1 の管理用の Web ポータルは、環境を構成します。](room-system-v1-administrative-web-portal.md#Config_Env)
+- [SRS v1 管理 Web ポータルの環境の構成](room-system-v1-administrative-web-portal.md#Config_Env)
     
-- [SRS v1 の管理用の Web ポータルをインストールします。](room-system-v1-administrative-web-portal.md#Install_SRS)
+- [SRS v1 管理 Web ポータルのインストール](room-system-v1-administrative-web-portal.md#Install_SRS)
     
 - [SRS 管理 Web ポータルの使用](room-system-v1-administrative-web-portal.md#Use_Portal)
     
@@ -65,7 +66,7 @@ SRS v1 管理 Web ポータルを使用するには、次の前提条件をイ�
     
     [グループのスコープ] が [グローバル]、[グループの種類] が [セキュリティ] のグループを作成します。 このグループに追加されている SIP が有効になっているユーザーが承認すると、Skype ビジネス室の一括管理を含むすべての管理ポータルの機能を使用します。 
     
-6. SRSFullAccessAdminGroup を LRSSupportAdminGroup のメンバーとして追加します。
+6. LRSFullAccessAdminGroup は、LRSSupportAdminGroup のメンバーとして追加します。
     
      ![LRSSupportAdminGroup プロパティ メンバー ページ](../../media/LRS_Add_LRSSupportAdminGroup.png)
   
@@ -106,7 +107,7 @@ SRS v1 管理 Web ポータルをインストールするには、次の手順�
    <add key="PortalUserRegistrarFQDN" value="pool-xxxx.domain.com" />
    ```
 
-6. 5061 以外に使用するポートがある場合は、Web.Config ファイルに次の行を追加します。 
+6. 5061 以外のポートが使用されている場合は、Web.Config ファイルに次の行を追加します。 
     
    ```
    <add key="PortalUserRegistrarPort" value="5061" />

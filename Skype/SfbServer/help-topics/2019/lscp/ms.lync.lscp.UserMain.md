@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: Skype のビジネス サーバーのユーザーを構成するのには、検索クエリの結果を使用できます。 ユーザーは、表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) で検索できます。 ユーザーの検索には、Lync Server コントロール パネルまたは Active Directory ユーザーおよびコンピューター スナップインを使用できます。
-ms.openlocfilehash: 253dfd6a2e454b7d68211b18a5c1c3e8c6c4a837
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: eb123d3fcbf13b75687f40d7311d8d9af8cb8fda
+ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20046439"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20088547"
 ---
 # <a name="control-panel---updated-user-search"></a>コントロール パネル - 更新: ユーザー検索
  
@@ -26,13 +26,13 @@ Skype のビジネス サーバーのユーザーを構成するのには、検�
 
 コントロール パネルの [**ユーザー検索**] ページでは以下のタスクを実行できます。
   
-- [Lync Server 2010 のユーザーを検索します。](http://technet.microsoft.com/library/3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5.aspx)
+- [ユーザーを検索します。](http://technet.microsoft.com/library/3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5.aspx)
     
-- [有効にするか、Lync Server 2010 のユーザーを無効にします。](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+- [有効または無効にするユーザー](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
     
 - [ユーザーの移動](ms.lync.lscp.UserMove.md)
     
-- [すべてのユーザーを移動します。](ms.lync.lscp.UserMoveAll.md)
+- [すべてのユーザーの移動](ms.lync.lscp.UserMoveAll.md)
     
 - [ユーザーにポリシーを割り当てる](http://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
     

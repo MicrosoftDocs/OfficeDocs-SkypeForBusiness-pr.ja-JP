@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 description: ビジネス サーバー ・ コントロール ・ パネル、Skype のビジネス サーバー用の管理用の web ベースのユーザー インターフェイスは、Skype を開始します。 このコントロール パネルを使用して、以前のリリースの Microsoft 管理コンソールを使用して実行されていた種類の管理タスクを実行することができます。
-ms.openlocfilehash: 78c9943145e0dd12feb5b73e165610fef19bf396
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 6dabfb48568d7b0eeff5148c4c35dc1a9ceec255
+ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19978084"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20088462"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルの最初の実行チェックリスト
  
@@ -29,7 +29,7 @@ Skype ビジネス サーバーを配置した後に実行するを強くお勧�
   
 ## <a name="first-run-checklist"></a>最初の実行チェックリスト
 
-このトピックで参照されるタスクを確認し、Lync Server 展開の組織で適切な手順を実行することを強くお勧めします。
+このトピックで参照されるタスクを確認し、展開するため、組織の適切な手順を実行することを強くお勧めします。
   
 |**タスク**|**コントロール パネルのグループ**|**ドキュメント**|
 |:-----|:-----|:-----|
@@ -38,6 +38,6 @@ Skype ビジネス サーバーを配置した後に実行するを強くお勧�
 |エンタープライズ VoIP を展開したか、展開することを望む場合は、SIP トランク接続を構成して、公衆交換電話網 (PSTN) への接続を有効にします。  <br/> |**音声ルーティング** <br/> |[トランクと変換ルールを構成します。](http://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx) <br/> |
 |エンタープライズ VoIP を展開した場合は、エンタープライズ VoIP ルーティング設定を確認します。  <br/> |**音声ルーティング** <br/> |[音声ルーティングをテストします。](http://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx) <br/> |
 |アーカイブ サーバーを展開した場合は、アーカイブのポリシーと設定が組織の法令順守の必要性に適合することを確認します。  <br/> |**監視およびアーカイブ** <br/> |[アーカイブを管理します。](http://technet.microsoft.com/library/48c6cc8c-c2c1-4534-9a8a-fd5eb738076a.aspx) <br/> |
-|監視サーバーを展開した場合は、監視サーバーのレポートを表示して使用状況と診断情報を確認します。  <br/> |**ホーム** <br/> |[状態とビジネス サーバー 2015 の Skype の監視を管理します。](../../../manage/health-and-monitoring/health-and-monitoring.md) <br/> |
+|監視サーバーを展開した場合は、監視サーバーのレポートを表示して使用状況と診断情報を確認します。  <br/> |**ホーム** <br/> |[Skype for Business Server 2015 でのシステムの状態および監視の管理](../../../manage/health-and-monitoring/health-and-monitoring.md) <br/> |
    
 
