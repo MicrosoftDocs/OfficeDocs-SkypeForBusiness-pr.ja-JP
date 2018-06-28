@@ -1,5 +1,5 @@
 ---
-title: 有効にして、品質のダッシュ ボードの呼び出しを使用します。
+title: 通話品質ダッシュボードをオンにして使用する
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -19,11 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'オンにし、ビジネス オンライン コール品質のダッシュ ボードに、Skype を使用し、通話の品質の概要のレポートを取得する方法を参照してください。 '
-ms.openlocfilehash: f8a7a71a0e0c0e64ceb7447c53c15483d977e16a
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 6651525ced62b89b690a8100ec69a36b5fd5695c
+ms.sourcegitcommit: b859f9b3cb89f0b0ac4aacbba75f916e38981a26
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20091610"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>有効にして、マイクロソフトのチームと Skype のオンライン ビジネスの品質のダッシュ ボードの呼び出しを使用して
 
@@ -41,7 +42,9 @@ ms.lasthandoff: 05/17/2018
 - ビジネスをオンラインでのデータの Skype の他のマイクロソフトのチーム データが含まれます。
     
 - サマリー レポートには、ビジネスをオンラインでのデータのすべてのデータ、マイクロソフトのチームのデータ、または Skype を選択するのには製品のフィルターが含まれます。
-    
+
+- ビデオおよび VBSS のストリームの品質分類ロジックが更新されました。 最新の分類子の定義については、[品質のダッシュ ボードの呼び出しでストリームの分類](stream-classification-in-call-quality-dashboard.md)を参照してください。
+
 [ディメンションとメジャーのコール品質のダッシュ ボードで使用可能な](dimensions-and-measures-available-in-call-quality-dashboard.md)一覧については、この資料を参照してください。
   
 > [!NOTE]
@@ -50,7 +53,9 @@ ms.lasthandoff: 05/17/2018
 ## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Microsoft 呼び出し品質ダッシュ ボード (救難) の要約レポートをアクティブにします。
 
 救難を使用する前に、Office 365 の組織を有効にする必要があります。
-  
+ 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
+ 
 1. 、管理者アカウントを使用して、Office 365 の組織にサインインし、管理センターを開くに**管理者**のタイルを選択します。
     
 2. **管理センター**を、下の左側のウィンドウで開くには、Skype のビジネス管理センターに**ビジネス用の Skype**を選択します。
@@ -59,11 +64,11 @@ ms.lasthandoff: 05/17/2018
     
      ![Skype のビジネス ツール](../images/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
   
-4. [開く] ページで、グローバル管理者のアカウントでログインし、が表示されたら、アカウントの資格情報を提供します。
+4. [開く] ページで、グローバル管理者アカウントでサインインし、が表示されたら、アカウントの資格情報を提供します。
     
      ![救難ログイン](../images/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
-いったんアクティブ化をログイン後、救難にはデータの収集と処理が開始されます。
+サインイン後、1 回だけをアクティブ化、CQD はデータの収集と処理を開始します。
   
 > [!NOTE]
 > いくつかのレポートには意味のある結果を表示するための十分なデータの処理に時間がかかる場合があります。 
@@ -114,7 +119,7 @@ ms.lasthandoff: 05/17/2018
   
 ![救難データ キー](../images/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
-ストリームは、3 つのグループに分類されます: 良い、悪い、および未分類。 あるも計算 *% が不適切な*値はように分類されたストリームの合計数*が低い*と分類するストリームの比率です。 *% の低下 = 低下ストリーム/(不適切なストリーム + 良いストリーム) * 100* 、これにより、 *% の低下*は、*未分類*の複数のストリームが存在することによって影響を受けていません。 用途として不適切なまたは適切なストリームをクラス分けするため、[品質のしきい値を呼び出す](https://aka.ms/cqd_quality_thresholds)を参照してください。
+ストリームは、3 つのグループに分類されます: 良い、悪い、および未分類。 あるも計算 *% が不適切な*値はように分類されたストリームの合計数*が低い*と分類するストリームの比率です。 *% の低下 = 低下ストリーム/(不適切なストリーム + 良いストリーム) * 100* 、これにより、 *% の低下*は、*未分類*の複数のストリームが存在することによって影響を受けていません。 用途として不適切なまたは適切なストリームをクラス分けするため、[品質のダッシュ ボードの呼び出しでストリームの分類](stream-classification-in-call-quality-dashboard.md)を参照してください。
   
 左側のスケールを使用すると、ストリームの数の値を測定できます。
   
@@ -247,7 +252,7 @@ ms.lasthandoff: 05/17/2018
 
 [分析機能の呼び出しを使用して不適切な通話の音質をトラブルシューティングするには](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Cll の分析と通話品質のダッシュ ボード](difference-between-call-analytics-and-call-quality-dashboard.md)
+[呼び出しを分析し、通話品質のダッシュ ボード](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  

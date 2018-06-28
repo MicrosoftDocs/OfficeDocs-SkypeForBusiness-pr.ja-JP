@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: SBC を証明する、選択した SBC ベンダーとマイクロソフトのパートナーは、直接ルーティング機能します。
-ms.openlocfilehash: 0de9b13cb6a1b4df24c83959b1f01843b912ccf6
-ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
+ms.openlocfilehash: 72d1567dbc827685316fc390e532d82a254f7748
+ms.sourcegitcommit: b859f9b3cb89f0b0ac4aacbba75f916e38981a26
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/28/2018
-ms.locfileid: "20088470"
+ms.locfileid: "20091674"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>セッション ボーダー コント ローラーが直接ルーティングするための認定の一覧
 
@@ -46,10 +46,10 @@ ms.locfileid: "20088470"
 |     |   SBC の仮想エディション    |   & #10004;   |保留中         |     7.20A.200.055     |
 |[リボン](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110    |    & #10004;      |   保留中      |     V6.2     |
 |     |SBC 5210     |     & #10004;     |    保留中     |    V6.2      |
-|     | SBC 5400     |    & #10004;      |    保留中     |   V6.2    |
-|     |SBC 7000     |     & #10004;     |    保留中     |    V6.2      |
-|     | SBC のスウェーデン語  |   & #10004;       |    保留中     |    V6.2      |
-|     |SBC 1000   |     & #10004;     |     保留中    |    V7.0.2   |& #10004; 
-|     | SBC 2000    |     & #10004;     |    保留中     |    V7.0.2      |
+|     | SBC 5400     |    & #10004;  |    保留中     |   V6.2    |
+|     |SBC 7000     |     & #10004;  |    保留中     |    V6.2      |
+|     | SBC のスウェーデン語  |   & #10004;    |    保留中     |    V6.2      |
+|     |SBC 1000   |     & #10004;   |     保留中    |    V7.0.2   |& #10004; 
+|     | SBC 2000    |     & #10004;   |    保留中     |    V7.0.2      |
 |[Thinktel](http://www.thinktel.ca/services/think-365/think-365-overview/)     |    365 SBC を考える      |  保留中       |    保留中     |   V1.4       |
 |     |         |         |         |         |

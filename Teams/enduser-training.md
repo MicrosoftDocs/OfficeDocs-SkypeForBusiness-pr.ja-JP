@@ -10,11 +10,12 @@ ms.reviewer: lolaj, ninadara
 description: 管理者が Microsoft Teams の展開と導入を正常に完了できるようになるために使用できるトレーニング リソースです。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b095d25f4b414eda58e8030264139b7fdf5b42a
-ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
+ms.openlocfilehash: bcfefb62ab0c9bbe7b24addd8ee74c3e188edcf6
+ms.sourcegitcommit: b859f9b3cb89f0b0ac4aacbba75f916e38981a26
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20091575"
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams のエンド ユーザー トレーニング
 =====================================
@@ -32,6 +33,7 @@ ms.lasthandoff: 04/27/2018
 | [YouTube での Microsoft Teams チャネル](https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw) |  |
 | [YouTube の Coffee in the Cloud チャンネル](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) |操作方法、ベスト プラクティス、および機能レビューのビデオ  |
 | Microsoft Teams の紹介   | <iframe width="350" height="200" src="https://www.youtube.com/embed/GPmjfqnvuG4" frameborder="0" allowfullscreen></iframe>   |
+| マイクロソフト チームの教育の概要  | <iframe width="350" height="200" src="https://youtu.be/xz4Jn_OtdUI" frameborder="0" allowfullscreen></iframe>   |
 | 優れたチーム、チャネル、タブを 5 分でセットアップ   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
 | 共同作業を広い範囲で、マイクロソフトのチームに来園者を追加します。  | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   |
 | コマンド バーを使用して、マイクロソフトのチームでの共同作業を高速化します。  | <iframe width="350" height="200" src="https://www.youtube.com/embed/wYrRCRphrp0" frameborder="0" allowfullscreen></iframe>   |

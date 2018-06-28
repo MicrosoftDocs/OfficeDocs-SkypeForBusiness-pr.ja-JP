@@ -1,5 +1,5 @@
 ---
-title: ディメンションとメジャーのコール品質のダッシュ ボードで使用可能です
+title: 通話品質ダッシュボードで利用できるディメンションとメジャー
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -18,13 +18,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: 657a441f2dc3415006d0f126da876fa525a8610c
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: a28819244829b26e19ad8a3c108438e37431fb06
+ms.sourcegitcommit: b859f9b3cb89f0b0ac4aacbba75f916e38981a26
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20091665"
 ---
-# <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>ディメンションとメジャーのコール品質のダッシュ ボードで使用可能です
+# <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>通話品質ダッシュボードで利用できるディメンションとメジャー
 
 マイクロソフト チームの呼び出し品質ダッシュ ボード (救難) とオンライン ビジネスの Skype では、ビジネス サービスのマイクロソフトのチームと Skype を使用して行われた通話の品質の洞察を得るために。 このトピックでは CQD によって公開されたディメンションとメジャーについての詳細な情報が提供されます。 救難およびそれを有効にする方法の詳細について[を有効にしてマイクロソフトのチームとビジネス オンラインの Skype の品質ダッシュ ボードの呼び出しを使用して](turning-on-and-using-call-quality-dashboard.md)参照してください。
   
@@ -110,18 +111,18 @@ ms.lasthandoff: 05/17/2018
 |Duration 60 seconds or more  <br/> |ブール型  <br/> |ストリームのデュレーションが 60 秒以上の場合は True、そうでない場合は False。  |**値の例:** 場合は true。  <br/> |
 |Duration (Seconds)  <br/> |レンジ (秒)  <br/> |秒単位のストリームのデュレーション。値はレンジでグループ化されます。 |  **値の例:** 062: [1-2)  <br/> |
 |Duration (Minutes)  <br/> |レンジ (分)  <br/> |分単位のストリームのデュレーション。値はレンジでグループ化されます。 |  **値の例:** 065: [3-4)  <br/> |
-|終了時刻  <br/> |日付/時刻  <br/> |ストリームが終了した時間。このディメンションに含まれる行が多すぎるため、レポート内のディメンションとして使用できない可能性があることに注意してください。代わりにフィルターとして使用することができます。  |2017-02-01 T00:00:01 の**値の例:**  <br/> |
-|Year  <br/> |整数型  <br/> |ストリームの開始の年  | **値の例:** 2017  <br/> |
-|Month  <br/> |整数型  <br/> |ストリームの開始の月  | **値の例:** 2  <br/> |
-|Day  <br/> |整数型  <br/> |ストリームの開始の日  |**値の例:** 1  <br/> |
-|Hour  <br/> |整数型  <br/> |ストリームの開始の時  | **値の例:** 1  <br/> |
-|Minute  <br/> |整数型  <br/> |ストリームの開始の分  | **値の例:** 30  <br/> |
-|Second  <br/> |整数型  <br/> |ストリームの開始の秒  |**値の例:** 12  <br/> |
-|Day Of Year  <br/> |整数型  <br/> |ストリームの開始の年間通算日  | **値の例:** 32  <br/> |
-|Day Of Week  <br/> |文字列  <br/> |ストリームの開始の曜日  | **値の例:**(水)  <br/> |
-|Day Number Of Week  <br/> |整数型  <br/> |ストリームの開始の曜日番号  | **値の例:** 3  <br/> |
-|Month Year  <br/> |文字列  <br/> |ストリームの開始の月/年  |**値の例:** 2017-02  <br/> |
-|Full Month  <br/> |日付/時刻  <br/> |ストリームの開始の全月  | 2017-02-01 T00:00:00 の**値の例:**  <br/> |
+|日付  <br/> |文字列  <br/> |終了したストリームの日付です。  |**値の例:** 2018-06-01  <br/> |
+|Year  <br/> |整数型  <br/> |ストリームの最後の年です。  | **値の例:** 2018  <br/> |
+|Month  <br/> |整数型  <br/> |ストリームの最後の月です。  | **値の例:** 2  <br/> |
+|Day  <br/> |整数型  <br/> |ストリームの最後の日です。  |**値の例:** 1  <br/> |
+|Hour  <br/> |整数型  <br/> |ストリームの最後の時間。  | **値の例:** 1  <br/> |
+|Minute  <br/> |整数型  <br/> |ストリームの最後の分です。  | **値の例:** 30  <br/> |
+|Second  <br/> |整数型  <br/> |ストリームの最後の 1 秒です。  |**値の例:** 12  <br/> |
+|Day Of Year  <br/> |整数型  <br/> |ストリームの最後の年の日です。  | **値の例:** 32  <br/> |
+|Day Of Week  <br/> |文字列  <br/> |ストリームの最後の週の日です。  | **値の例:**(水)  <br/> |
+|Day Number Of Week  <br/> |整数型  <br/> |ストリームの最後の週の日を返します。  | **値の例:** 3  <br/> |
+|Month Year  <br/> |文字列  <br/> |ストリームの最後の年と月は。  |**値の例:** 2017-02  <br/> |
+|Full Month  <br/> |日付/時刻  <br/> |ストリームの最後の完全な月です。  | 2017-02-01 T00:00:00 の**値の例:**  <br/> |
 |First Domain  <br/> |文字列  <br/> |第 1 のエンドポイントを使用するユーザーのドメイン。第 1 のエンドポイントが電話会議サーバーの場合、これは会議の開催者のドメインになります。シナリオで使用されるサービス アカウントのドメインになる場合もあります。  <br/> |**値の例:** contoso.com  <br/> |
 |Second Domain  <br/> |文字列  <br/> |第 2 のエンドポイントを使用するユーザーのドメイン。第 2 のエンドポイントが電話会議サーバーの場合、これは会議の開催者のドメインになります。シナリオで使用されるサービス アカウントのドメインになる場合もあります。  | **値の例:** contoso.com  <br/> |
 |First User Agent Category  <br/> |文字列  <br/> |第 1 のエンドポイントのユーザー エージェントのカテゴリ。  <br/> |空白値は、サードパーティのユーザー エージェントなど、現在マッピングを持たないユーザー エージェントを示します。  <br/>  **値の例:** OC  <br/> |
@@ -215,7 +216,6 @@ ms.lasthandoff: 05/17/2018
 |Video Local Frame Loss Percentage Avg  <br/> |レンジ (パーセンテージ)  <br/> |ユーザーに対する表示でのビデオ フレームの損失の平均割合。値はレンジでグループ化されます。これにはネットワーク損失から回復したフレームも含まれます。  <br/> |空白値は、ストリームがビデオやビデオベースのスクリーン共有ストリームではなかったこと、またはストリームを受信するエンドポイントによってデータが報告されなかったことを示します。  <br/> **値の例:** 160: [80-85)  <br/> |
 |Recv Frame Rate Average  <br/> |レンジ (1 秒あたりのフレーム数)  <br/> |セッションのデュレーションにわたり計算された、すべてのビデオ ストリームで受信した秒あたりの平均フレーム数。値はレンジでグループ化されます。  <br/> |空白値は、ストリームがビデオやビデオベースのスクリーン共有ストリームではなかったこと、またはストリームを受信するエンドポイントによってデータが報告されなかったことを示します。  <br/> **値の例:** 101: [14.5-15)  <br/> |
 |Low Frame Rate Call Percent  <br/> |レンジ (パーセンテージ)  <br/> |フレーム レートが 1 秒あたり 7.5 フレーム未満の通話の時間の割合。値はレンジでグループ化されます。  <br/> |空白値は、ストリームがビデオやビデオベースのスクリーン共有ストリームではなかったこと、またはストリームを受信するエンドポイントによってデータが報告されなかったことを示します。  <br/>  **値の例:** 099: [13.5-14)  <br/> |
-|Low Resolution Call Percent  <br/> |レンジ (パーセンテージ)  <br/> |解像度の低い通話の時間の割合。値はレンジでグループ化されます。しきい値は小さいディメンション向けの 120 ピクセルです。  <br/> |空白値は、ストリームがビデオやビデオベースのスクリーン共有ストリームではなかったこと、またはストリームを受信するエンドポイントによってデータが報告されなかったことを示します。  <br/> |
 |Video Packet Loss Rate  <br/> |レンジ (比率)  <br/> |セッションのデュレーションにわたり RFC3550 での規定に従い計算された、パケット損失の平均比率。値はレンジでグループ化されます。  <br/> |空白値は、ストリームがビデオやビデオベースのスクリーン共有ストリームではなかったこと、またはストリームを受信するエンドポイントによってデータが報告されなかったことを示します。  <br/> **値の例:** 037: [0.75-0.8)  <br/> |
 |Video Frame Rate Avg  <br/> |レンジ (1 秒あたりのフレーム数)  <br/> |セッションのデュレーションにわたり算出された、ビデオ ストリームで受信した秒あたりの平均フレーム数。値はレンジでグループ化されます。  <br/> |空白値は、ストリームがビデオやビデオベースのスクリーン共有ストリームではなかったこと、またはストリームを受信するエンドポイントによってデータが報告されなかったことを示します。   <br/> **値の例:** 135: [31.5-32)  <br/> |
 |Dynamic Capability Percent  <br/> |レンジ (パーセンテージ)  <br/> |レンジでグループ化された、クライアントがその CPU の種類で想定される 70% 未満のビデオ処理能力で実行している時間の割合  <br/> |空白値は、ストリームがビデオやビデオベースのスクリーン共有ストリームではなかったこと、またはストリームを受信するエンドポイントによってデータが報告されなかったことを示します。  <br/> **値の例:** 122: [25-25.5)  <br/> |
@@ -223,31 +223,24 @@ ms.lasthandoff: 05/17/2018
 |AppSharing Relative OneWay Average  <br/> |レンジ (ミリ秒)  <br/> |アプリケーション共有ストリームでの、エンドポイント間の相対的な一方向の平均遅延 (ミリ秒単位)。値はレンジでグループ化されます。  <br/> |空白値は、ストリームがアプリケーション共有ストリームではなかったこと、またはストリームを送信するエンドポイントによってデータが報告されなかったことを示します。  <br/> **値の例:** 126: [27-27.5)  <br/> |
 |AppSharing RDP Tile Processing Latency Average  <br/> |レンジ (ミリ秒)  <br/> |電話会議サーバーでの RDP スタック上のタイル処理の平均遅延 (ミリ秒単位)。値はレンジでグループ化されます。  <br/> |空白値は、ストリームが電話会議でのアプリケーション共有ストリームではなかったこと、またはストリームを送信するエンドポイントによってデータが報告されなかったことを示します。   <br/> **値の例:** 103: [15.5-16)  <br/> |
 |Audio FEC Used  <br/> |ブール型  <br/> |True の場合は音声の FEC (前方誤り訂正) が通話中のいくつかのポイントで使用されたことを示します。そうでない場合は False になります  <br/> |空白値は、ストリームが音声ストリームではなかったこと、またはストリームを送信するエンドポイントによってデータが報告されなかったことを示します。  <br/>  **値の例:** 場合は true。  <br/> |
-|ClassifiedPoorCall  <br/> |ブール型  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されている指標に基づいて、ストリームが低品質として分類された場合は True。  <br/> |空白値は、良好または低品質と分類されるのに十分な指標がストリームから報告されなかったことを示します。  <br/>  **値の例:** 場合は true。  <br/> |
-|Video Poor Due To VideoPostFecplr  <br/> |ブール型  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」で示されている FEC 適用後のビデオ PLR に関する指標のしきい値に基づいて、ストリームが低品質として分類された場合は True。ビデオ以外のストリームの場合はすべて False になります。<br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームがビデオ ストリームではなかったことを示します。   <br/> **値の例:** 場合は true。  <br/> |
-|Video Poor Due To Video Local Frame Loss Percentage Avg  <br/> |ブール型  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」ので示されているビデオのローカル フレーム損失パーセンテージの平均に関する指標のしきい値に基づいて、ビデオ ストリームが低品質として分類された場合は True。ビデオ以外のストリームの場合はすべて False になります。<br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームがビデオ ストリームではなかったことを示します。  <br/>  **値の例:** |true  <br/> |
-|Video Poor Due To Recv Frame Rate Average  <br/> |ブール型  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」で示されている受信フレーム レートの平均に関するの指標のしきい値に基づいて、ビデオ ストリームが低品質として分類された場合は True。ビデオ以外のストリームの場合はすべて False になります。<br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームがビデオ ストリームではなかったことを示します。  <br/> **値の例:** 場合は true。  <br/> |
-|Video Poor Due To Low Frame Rate Call Percent  <br/> |ブール型  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」で示されている低フレーム レート通話の割合に関する指標のしきい値に基づいて、ビデオ ストリームが低品質として分類された場合は True。ビデオ以外のストリームの場合はすべて False になります。<br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームがビデオ ストリームではなかったことを示します。  <br/> **値の例:** 場合は true。  <br/> |
-|Video Poor Due To Low Resolution Call Percent  <br/> |ブール型  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」で示されている低解像度の通話の割合に関する指標のしきい値に基づいて、ビデオ ストリームが低品質として分類された場合は True。ビデオ以外のストリームの場合はすべて False になります。<br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームがビデオ ストリームではなかったことを示します。  <br/> **値の例:** 場合は true。  <br/> |
-|Video Poor Due To Video Packet Loss Rate  <br/> |ブール型  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds.)」で示されているビデオ パケット損失率に関する指標のしきい値に基づいて、ビデオ ストリームが低品質として分類された場合は True。ビデオ以外のストリームの場合はすべて False になります。<br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームがビデオ ストリームではなかったことを示します。 <br/>  **値の例:** 場合は true。  <br/> |
-|Video Poor Due To Video Frame Rate Avg  <br/> |ブール型  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」で示されているビデオのフレーム レートの平均に関する指標のしきい値に基づいて、ビデオ ストリームが低品質として分類された場合は True。ビデオ以外のストリームの場合はすべて False になります。<br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームがビデオ ストリームではなかったことを示します。   <br/> **値の例:** 場合は true。  <br/> |
-|Video Poor Due To Dynamic Capability Percent  <br/> |ブール型  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」で示されている動的機能の割合に関する指標のしきい値に基づいて、ビデオ ストリームが低品質として分類された場合は True。ビデオ以外のストリームの場合はすべて False になります。<br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームがビデオ ストリームではなかったことを示します。  <br/> **値の例:** 場合は true。  <br/> |
-|VBSS Poor Due To Video Post Fec plr  <br/> |ブール型  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」で示されている FEC 適用後のビデオ PLR に関する指標のしきい値に基づいて、ビデオベースのスクリーン共有ストリームが低品質として分類された場合は True。ビデオ以外のストリームの場合はすべて False になります。<br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームがビデオベースのスクリーン共有ストリームではなかったことを示します。  <br/> **値の例:** 場合は true。  <br/> |
-|VBSS Poor Due To Video Local Frame Loss Percentage Avg  <br/> |ブール型  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」で示されているビデオのローカル フレーム損失パーセンテージの平均に関する指標のしきい値に基づいて、ビデオベースのスクリーン共有ストリームが低品質として分類された場合は True。ビデオ以外のストリームの場合はすべて False になります。<br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームがビデオベースのスクリーン共有ストリームではなかったことを示します。  <br/>  **値の例:** 場合は true。  <br/> |
-|VBSS Poor Due To Recv Frame Rate Average  <br/> |ブール型  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」で示されている受信フレーム レートの平均に関する指標のしきい値に基づいて、ビデオベースのスクリーン共有ストリームが低品質として分類された場合は True。ビデオ以外のストリームの場合はすべて False になります。<br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームがビデオベースのスクリーン共有ストリームではなかったことを示します。  <br/>  **値の例:** 場合は true。  <br/> |
-|VBSS Poor Due To Low Frame Rate Call Percent  <br/> |ブール型  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」で示されている低フレーム レート通話の割合に関する指標のしきい値に基づいて、ビデオベースのスクリーン共有ストリームが低品質として分類された場合は True。ビデオ以外のストリームの場合はすべて False になります。<br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームがビデオベースのスクリーン共有ストリームではなかったことを示します。  <br/>  **値の例:** 場合は true。  <br/> |
-|VBSS Poor Due To LowResolutionCallPercent  <br/> |ブール型  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」で示されている低解像度の通話の割合に関する指標のしきい値に基づいて、VBSS ストリームが低品質として分類された場合は True。ビデオ以外のストリームの場合はすべて False になります。<br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームがビデオベースのスクリーン共有ストリームではなかったことを示します。  <br/> **値の例:** 場合は true。  <br/> |
-|AppSharing Poor Due To Spoiled Tile Percent Total  <br/> |ブール型  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」で示されている損失タイルの合計割合に関する指標のしきい値に基づいて、アプリケーション共有ストリームが低品質として分類された場合は True。アプリケーション共有以外のストリームの場合はすべて False になります。<br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームがアプリケーション共有ストリームではなかったことを示します。   <br/> **値の例:** 場合は true。  <br/> |
-|AppSharing Poor Due To Relative OneWay Average  <br/> |ブール型  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」で示されている相対的な一方向の平均遅延に関する指標のしきい値に基づいて、アプリケーション共有ストリームが低品質として分類された場合は True。アプリケーション共有以外のストリームの場合はすべて False になります。<br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームがアプリケーション共有ストリームではなかったことを示します。  <br/>  **値の例:** 場合は true。  <br/> |
-|AppSharing Poor Due To RDP Tile Processing Latency Average  <br/> |ブール型  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」で示されている RDP タイル処理の平均遅延に関する指標のしきい値に基づいて、アプリケーション共有ストリームが低品質として分類された場合は True。アプリケーション共有以外のストリームの場合はすべて False になります。<br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームがアプリケーション共有ストリームではなかったことを示します。 <br/>   **値の例:** 場合は true。  <br/> |
-|Audio Poor Due To Jitter  <br/> |ブール型  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」で示されているジッターに関する指標のしきい値に基づいて、音声ストリームが低品質として分類された場合は True。音声以外のストリームの場合はすべて False になります。<br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームが音声ストリームではなかったことを示します。  <br/>  **値の例:** 場合は true。  <br/> |
-|Audio Poor Due To RoundTrip  <br/> |ブール型  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」で示されているラウンドトリップに関する指標のしきい値に基づいて、音声ストリームが低品質として分類された場合は True。音声以外のストリームの場合はすべて False になります。<br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームが音声ストリームではなかったことを示します。   <br/> **値の例:** 場合は true。  <br/> |
-|Audio Poor Due To Packet Loss  <br/> |ブール型  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」で示されているパケット損失に関する指標のしきい値に基づいて、音声ストリームが低品質として分類された場合は True。音声以外のストリームの場合はすべて False になります。<br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームが音声ストリームではなかったことを示します。   <br/> **値の例:** 場合は true。  <br/> |
-|Audio Poor Due To Degradation  <br/> |ブール型  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」で示されている品質低下に関する指標のしきい値に基づいて、音声ストリームが低品質として分類された場合は True。音声以外のストリームの場合はすべて False になります。<br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームが音声ストリームではなかったことを示します。  <br/>  **値の例:** 場合は true。  <br/> |
-|Audio Poor Due To Concealed Ratio  <br/> |ブール型  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」で示されている補填比率に関する指標のしきい値に基づいて、音声ストリームが低品質として分類された場合は True。音声以外のストリームの場合はすべて False になります。<br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームが音声ストリームではなかったことを示します。   <br/> **値の例:** 場合は true。  <br/> |
+|ClassifiedPoorCall  <br/> |ブール型  <br/> |ストリームは、悪いがここに記載されている基準に基づいてとして分類された場合は true:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |空白値は、良好または低品質と分類されるのに十分な指標がストリームから報告されなかったことを示します。  <br/>  **値の例:** 場合は true。  <br/> |
+|Video Poor Due To VideoPostFecplr  <br/> |ブール型  <br/> |ストリームは、悪いがここに記載されているビデオ投稿 FEC するメトリックのしきい値に基づいてとして分類された場合は true:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。 ビデオ以外のストリームの場合はすべて False になります。  <br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームがビデオ ストリームではなかったことを示します。   <br/> **値の例:** 場合は true。  <br/> |
+|VideoLocalFrameLossPercentageAvg のためのビデオが低い  <br/> |ブール型  <br/> |ビデオ ストリームは、まったく役に立たなかった、ビデオ ローカル フレーム損失率平均メトリックのしきい値がここに基づくとして分類された場合は true:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。 ビデオ以外のストリームの場合はすべて False になります。  <br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームがビデオ ストリームではなかったことを示します。  <br/>  **値の例:** |true  <br/> |
+|VideoFrameRateAvg のためのビデオが低い  <br/> |ブール型  <br/> |ビデオ ストリームは、メトリックのしきい値がここで記載されているビデオのフレーム レートの平均に基づく劣として分類された場合は true:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。 ビデオ以外のストリームの場合はすべて False になります。  <br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームがビデオ ストリームではなかったことを示します。   <br/> **値の例:** 場合は true。  <br/> |
+|VBSS VideoFrameRateAvg のためまったく役に立たなかった  <br/> |ブール型  <br/> |ベース画面共有のビデオのストリームは、メトリックのしきい値がここで記載されているビデオのフレーム レートの平均に基づく劣として分類された場合は true:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。 ビデオ以外のストリームの場合はすべて False になります。  <br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームがビデオベースのスクリーン共有ストリームではなかったことを示します。  <br/> **値の例:** 場合は true。  <br/> |
+|VBSS VideoPostFecplr のためまったく役に立たなかった  <br/> |ブール型  <br/> |ベース画面共有のビデオのストリームは、ベースのビデオの投稿 Fec にまったく役に立たなかったとして分類された場合は true するメトリックのしきい値を挙げて:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。 ビデオ以外のストリームの場合はすべて False になります。  <br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームがビデオベースのスクリーン共有ストリームではなかったことを示します。  <br/> **値の例:** 場合は true。  <br/> |
+|VBSS VideoLocalFrameLossPercentageAvg のためまったく役に立たなかった  <br/> |ブール型  <br/> |ベース画面共有のビデオのストリームは、まったく役に立たなかった、ビデオ ローカル フレーム損失率平均メトリックのしきい値がここに基づくとして分類された場合は true:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。 ビデオ以外のストリームの場合はすべて False になります。  <br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームがビデオベースのスクリーン共有ストリームではなかったことを示します。  <br/>  **値の例:** 場合は true。  <br/> |
+|AppSharing Poor Due To Spoiled Tile Percent Total  <br/> |ブール型  <br/> |ストリームを共有するアプリケーションは、まったく役に立たなかった、Spoiled タイル % 合計メトリックのしきい値がここに基づくとして分類された場合は true:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。 アプリケーション共有以外のストリームの場合はすべて False になります。  <br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームがアプリケーション共有ストリームではなかったことを示します。   <br/> **値の例:** 場合は true。  <br/> |
+|AppSharing Poor Due To Relative OneWay Average  <br/> |ブール型  <br/> |ストリームを共有するアプリケーションは、相対の 1 つのワシントン州に基づく劣として分類された場合は true yAverage メトリックのしきい値を挙げて:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。 アプリケーション共有以外のストリームの場合はすべて False になります。  <br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームがアプリケーション共有ストリームではなかったことを示します。  <br/>  **値の例:** 場合は true。  <br/> |
+|AppSharing Poor Due To RDP Tile Processing Latency Average  <br/> |ブール型  <br/> |ストリームを共有するアプリケーションは、まったく役に立たなかった、RDP タイル処理遅延時間平均ここで数値のしきい値に基づいてとして分類された場合は true:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。 アプリケーション共有以外のストリームの場合はすべて False になります。  <br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームがアプリケーション共有ストリームではなかったことを示します。 <br/>   **値の例:** 場合は true。  <br/> |
+|Audio Poor Due To Jitter  <br/> |ブール型  <br/> |オーディオ ストリームは、メトリックのしきい値がここに示す変位に基づく劣として分類された場合は true:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。 音声以外のストリームの場合はすべて False になります。  <br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームが音声ストリームではなかったことを示します。  <br/>  **値の例:** 場合は true。  <br/> |
+|Audio Poor Due To RoundTrip  <br/> |ブール型  <br/> |オーディオ ストリームは、メトリックのしきい値がここで記載されているラウンド トリップにまったく役に立たなかったとして分類された場合は true:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。 音声以外のストリームの場合はすべて False になります。  <br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームが音声ストリームではなかったことを示します。   <br/> **値の例:** 場合は true。  <br/> |
+|Audio Poor Due To Packet Loss  <br/> |ブール型  <br/> |オーディオ ストリームは、メトリックのしきい値がここで表示されているパケットの損失に基づく劣として分類された場合は true:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。 音声以外のストリームの場合はすべて False になります。  <br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームが音声ストリームではなかったことを示します。   <br/> **値の例:** 場合は true。  <br/> |
+|Audio Poor Due To Degradation  <br/> |ブール型  <br/> |オーディオ ストリームは、メトリックのしきい値がここに示すパフォーマンスの低下に基づく劣として分類された場合は true:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。 音声以外のストリームの場合はすべて False になります。  <br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームが音声ストリームではなかったことを示します。  <br/>  **値の例:** 場合は true。  <br/> |
+|Audio Poor Due To Concealed Ratio  <br/> |ブール型  <br/> |オーディオ ストリームは、まったく役に立たなかった測度のしきい値がここで記載されている非表示の割合に基づきとして分類された場合は true:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。 音声以外のストリームの場合はすべて False になります。  <br/> |空白値は、エンドポイントがこのデータを報告しなかったこと、またはストリームが音声ストリームではなかったことを示します。   <br/> **値の例:** 場合は true。  <br/> |
 |Unclassified  <br/> |ブール型  <br/> |ストリームに良好または低品質と分類するための十分なデータがない場合は 0。そうでない場合は 1。 | **値の例:** 1  <br/> |
 |OnePercent PacketLoss  <br/> |ブール型  <br/> |パケット損失が 1% を超えた場合は 1。そうでない場合は 0。 | **値の例:** 1  <br/> |
-|Poor Reason  <br/> |フラグ  <br/> | ストリームが低品質とマーク付けされた理由を識別するフラグのリスト。 ここでは、ストリームが低品質とマーク付けされた理由が複数あるために複数のフラグが設定される可能性があります。 参照してください[貧困の中、Lync 2013 の QoE として呼び出しを分類するための基礎とは何ですか?](https://aka.ms/cqd_quality_thresholds)詳細については。 <br/>  値の例は次のとおりです。 <br/>  補填比率 <br/>  品質低下 <br/>  Jitter <br/>  パケット損失 <br/>  Round Trip <br/>  Dynamic Capability Percent <br/>  Low Frame Rate Call Percent <br/>  Recv Frame Rate Average <br/>  Video Frame Rate Avg <br/>  Video Local Frame Loss Percentage Avg <br/>  Video Packet Loss Rate <br/>  FEC 適用後のビデオ PLR <br/>  RDP タイル処理の平均遅延 <br/>  相対的な一方向の平均損失タイルの合計割合 <br/> |空白値は、ストリームが低品質として分類されなかったことを示します。 <br/>  **値の例:** ConcealedRatio | 品質低下  <br/> |
+|Poor Reason  <br/> |フラグ  <br/> | ストリームが低品質とマーク付けされた理由を識別するフラグのリスト。 ここでは、ストリームが低品質とマーク付けされた理由が複数あるために複数のフラグが設定される可能性があります。 詳細については、[品質のダッシュ ボードの呼び出しでストリームの分類](stream-classification-in-call-quality-dashboard.md)を参照してください。 <br/>  値の例は次のとおりです。 <br/>  補填比率 <br/>  品質低下 <br/>  Jitter <br/>  パケット損失 <br/>  Round Trip <br/>  Video Frame Rate Avg <br/>  Video Local Frame Loss Percentage Avg <br/>  FEC 適用後のビデオ PLR <br/>  RDP タイル処理の平均遅延 <br/>  相対的な一方向の平均損失タイルの合計割合 <br/> |空白値は、ストリームが低品質として分類されなかったことを示します。 <br/>  **値の例:** ConcealedRatio | 品質低下  <br/> |
 |Poor  <br/> |ブール型  <br/> |ストリームに良好または低品質と分類するための十分なデータがない場合は 1。それ以外で、ストリームが低品質として分類される場合は 0。  | **値の例:** 1  <br/> |
 |Good  <br/> |ブール型  <br/> |ストリームに良好または低品質と分類するための十分なデータがない場合は 1。それ以外で、ストリームが良好として分類される場合は 0。  |**値の例:** 1  <br/> |
 |First Feedback Rating  <br/> |ユーザー評価 (1 - 5)  <br/> |第 1 のエンドポイントでのストリームに関連した通話に対する 1 から 5 までの点数による評価 (5 が最高)。0 はユーザーに実施された通話評価アンケートに対して、ユーザーのエクスペリエンスの評価がなかったことを示します。  <br/> |空白値は、第 1 のエンドポイントに対してアンケートが実施されなかったことを示します。   <br/> **値の例:** 5  <br/> |
@@ -387,45 +380,38 @@ ms.lasthandoff: 05/17/2018
 |AppSharing Stream Count  <br/> |ストリームの数  <br/> |RDP ベースのアプリケーション共有ストリームの数。  <br/> |
 |Video Stream Count  <br/> |ストリームの数  <br/> |ビデオ ストリームの数  <br/> |
 |VBSS Stream Count  <br/> |ストリームの数  <br/> |ビデオ ベースのスクリーン共有ストリームの数。  <br/> |
-|Audio Poor Stream Count  <br/> |ストリームの数  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているネットワーク指標に基づいて、低品質として分類されたオーディオ ストリームの数。  <br/> |
-|Audio Good Stream Count  <br/> |ストリームの数  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているネットワーク指標に基づいて、良好として分類されたオーディオ ストリームの数。  <br/> |
-|Audio Unclassified Stream Count  <br/> |ストリームの数  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているネットワーク指標に基づいて、良好または低品質として分類されるのに十分なデータがなかったオーディオ ストリームの数。  <br/> |
-|Audio Poor Percentage  <br/> |パーセンテージ  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているネットワーク指標に基づいて、すべてのオーディオ ストリームに対して低品質として分類されたストリームのパーセンテージ。  <br/> |
+|Audio Poor Stream Count  <br/> |ストリームの数  <br/> |としてまったく役に立たなかったネットワークの基準に基づいて分類するオーディオ ストリームの数がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
+|Audio Good Stream Count  <br/> |ストリームの数  <br/> |ネットワーク メトリックに基づくなとして分類するオーディオ ストリームの数がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
+|Audio Unclassified Stream Count  <br/> |ストリームの数  <br/> |良好か不良に分類するための十分なデータが含まれていないオーディオ ストリームの数がここに記載されているネットワークのメトリックに基づく:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
+|Audio Poor Percentage  <br/> |パーセンテージ  <br/> |ネットワーク メトリックに基づく劣として分類されていたすべてのオーディオ ストリームの割合がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
 |Audio OnePercent PacketLoss Count  <br/> |ストリームの数  <br/> |パケット損失が 1 % を超えるオーディオ ストリームの数。  <br/> |
 |Audio OnePercent PacketLoss Percentage  <br/> |パーセンテージ  <br/> |パケット損失が 1 % を超えるオーディオ ストリームのパーセンテージ。  <br/> |
-|Audio Poor Due To Jitter Count  <br/> |ストリームの数  <br/> |ジッター指標が、「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているしきい値を超過しているオーディオ ストリームの数。  <br/> |
-|Audio Poor Due To PacketLoss Count  <br/> |ストリームの数  <br/> |オーディオ ストリームのパケット損失のメトリックがしきい値を超えた数がここに表示されます:[貧困の中、Lync 2013 の QoE として呼び出しを分類するための基礎とは何ですか?](https://aka.ms/cqd_quality_thresholds)  <br/> |
-|Audio Poor Due To Degradation Count  <br/> |ストリームの数  <br/> |低下メトリックがしきい値を超えた、オーディオ ストリームの数がここに表示されます: [Lync 2013 の QoE にまったく役に立たなかったとの呼び出しをクラス分けの基準は何ですか?](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|Audio Poor Due To RoundTrip Count  <br/> |ストリームの数  <br/> |ラウンドトリップが、「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているしきい値を超過しているオーディオ ストリームの数。  <br/> |
-|Audio Poor Due To ConcealedRatio Count  <br/> |ストリームの数  <br/> |補填比率が、「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているしきい値を超過しているオーディオ ストリームの数。  <br/> |
-|AppSharing Poor Due To SpoiledTilePercentTotal Count  <br/> |ストリームの数  <br/> |損失タイルの合計割合の指標が、「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているしきい値を超過しているアプリケーション共有ストリームの数。  <br/> |
-|AppSharing Poor Due To RelativeOneWayAverage Count  <br/> |ストリームの数  <br/> |相対的な一方向の平均遅延の指標が、「[https://aka.ms/cqd_quality_thresholds](https://aka.ms/cqd_quality_thresholds)」のリストで示されているしきい値を超過しているアプリケーション共有ストリームの数。  <br/> |
-|AppSharing Poor Due To RDPTileProcessingLatencyAverage Count  <br/> |ストリームの数  <br/> |RDP タイル処理の平均遅延の指標が、「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているしきい値を超過しているアプリケーション共有の数。  <br/> |
-|Video Poor Due To VideoPostFecplr Count  <br/> |ストリームの数  <br/> |FEC 適用後のビデオ PLR が、「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているしきい値を超過しているビデオ ストリームの数。  <br/> |
-|Video Poor Due To VideoLocalFrameLossPercentageAvg Count  <br/> |ストリームの数  <br/> |ビデオのローカル フレーム損失パーセンテージの平均が、「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているしきい値を超過しているビデオ ストリームの数。  <br/> |
-|Video Poor Due To RecvFrameRateAverage Count  <br/> |ストリームの数  <br/> |受信フレーム レートの平均が、「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているしきい値を超過しているビデオ ストリームの数。  <br/> |
-|Video Poor Due To LowFrameRateCallPercent Count  <br/> |ストリームの数  <br/> |低フレーム レート通話の割合が、「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているしきい値を超過しているビデオ ストリームの数。  <br/> |
-|Video Poor Due To LowResolutionCallPercent Count  <br/> |ストリームの数  <br/> |低解像度の通話の割合が、「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているしきい値を超過しているビデオ ストリームの数。  <br/> |
-|Video Poor Due To VideoPacketLossRate Count  <br/> |ストリームの数  <br/> |ビデオ パケット損失率の指標が、「[https://aka.ms/cqd_quality_thresholds](https://aka.ms/cqd_quality_thresholds)」のリストで示されているしきい値を超過しているビデオ ストリームの数。  <br/> |
-|Video Poor Due To VideoFrameRateAvg Count  <br/> |ストリームの数  <br/> |ビデオのフレーム レートの平均が、「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているしきい値を超過しているビデオ ストリームの数。  <br/> |
-|Video Poor Due To DynamicCapabilityPercent Count  <br/> |ストリームの数  <br/> |動的機能の割合が、「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているしきい値を超過しているビデオ ストリームの数。  <br/> |
-|VBSS Poor Due To VideoPostFecplr Count  <br/> |ストリームの数  <br/> |FEC 適用後のビデオ PLR が、「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているしきい値を超過しているビデオベースのスクリーン共有ストリームの数。  <br/> |
-|VBSS Poor Due To VideoLocalFrameLossPercentageAvg Count  <br/> |ストリームの数  <br/> |ビデオのローカル フレーム損失パーセンテージの平均が、「[https://aka.ms/cqd_quality_thresholds](https://aka.ms/cqd_quality_thresholds)」のリストで示されているしきい値を超過しているビデオベースのスクリーン共有ストリームの数。  <br/> |
-|VBSS Poor Due To RecvFrameRateAverage Count  <br/> |ストリームの数  <br/> |受信フレーム レートの平均が、「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているしきい値を超過しているビデオベースのスクリーン共有ストリームの数。  <br/> |
-|VBSS Poor Due To LowFrameRateCallPercent Count  <br/> |ストリームの数  <br/> |低フレーム レート通話の割合が、「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているしきい値を超過しているビデオベースのスクリーン共有ストリームの数。<br/> |
-|VBSS Poor Due To LowResolutionCallPercent Count  <br/> |ストリームの数  <br/> |低解像度の通話の割合が、「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているしきい値を超過しているビデオベースのスクリーン共有ストリームの数。<br/> |
-|Video Poor Stream Count  <br/> |ストリームの数  <br/> |[https://aka.ms/cqd_quality_thresholds](https://aka.ms/cqd_quality_thresholds) のリストで示されているネットワーク指標に基づいて、低品質として分類されたビデオ ストリームの数。  <br/> |
-|Video Good Stream Count  <br/> |ストリームの数  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているネットワーク指標に基づいて、良好として分類されたビデオ ストリームの数。  <br/> |
-|Video Unclassified Stream Count  <br/> |ストリームの数  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているネットワーク指標に基づいて、良好または低品質として分類されるのに十分なデータがなかったビデオ ストリームの数。  <br/> |
-|Video Poor Percentage  <br/> |パーセンテージ  <br/> |[https://aka.ms/cqd_quality_thresholds](https://aka.ms/cqd_quality_thresholds) のリストで示されているネットワーク指標に基づいて、低品質として分類された合計オーディオ ストリームのパーセンテージ。  <br/> |
-|AppSharing Poor Stream Count  <br/> |ストリームの数  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているネットワーク指標に基づいて、低品質として分類されたアプリケーション共有ストリームの数。  <br/> |
-|AppSharing Good Stream Count  <br/> |ストリームの数  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているネットワーク指標に基づいて、良好として分類されたアプリケーション共有ストリームの数。  <br/> |
-|AppSharing Unclassified Stream Count  <br/> |ストリームの数  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているネットワーク指標に基づいて、良好または低品質として分類されるのに十分なデータがなかったアプリケーション共有ストリームの数。  <br/> |
-|AppSharing Poor Percentage  <br/> |パーセンテージ  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているネットワーク指標に基づいて、低品質として分類された合計アプリケーション共有ストリームのパーセンテージ。  <br/> |
-|VBSS Poor Stream Count  <br/> |ストリームの数  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているネットワーク指標に基づいて、低品質として分類されたビデオベースのスクリーン共有ストリームの数。  <br/> |
-|VBSS Good Stream Count  <br/> |ストリームの数  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているネットワーク指標に基づいて、良好として分類されたビデオベースのスクリーン共有ストリームの数。  <br/> |
-|VBSS Unclassified Stream Count  <br/> |ストリームの数  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているネットワーク指標に基づいて、良好または低品質として分類されるのに十分なデータがなかったビデオベースのスクリーン共有ストリームの数。  <br/> |
-|VBSS Poor Percentage  <br/> |パーセンテージ  <br/> |「[What is the basis for classifying a call as poor in Lync 2013 QoE?](https://aka.ms/cqd_quality_thresholds)」のリストで示されているネットワーク指標に基づいて、低品質として分類された合計ビデオベースのスクリーン共有ストリームのパーセンテージ。  <br/> |
+|Audio Poor Due To Jitter Count  <br/> |ストリームの数  <br/> |ジッターのメトリックがしきい値を超えている、オーディオ ストリームの数がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
+|Audio Poor Due To PacketLoss Count  <br/> |ストリームの数  <br/> |オーディオ ストリームのパケット損失のメトリックがしきい値を超えた数がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームの分類](stream-classification-in-call-quality-dashboard.md)  <br/> |
+|Audio Poor Due To Degradation Count  <br/> |ストリームの数  <br/> |低下メトリックがしきい値を超えた、オーディオ ストリームの数がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
+|Audio Poor Due To RoundTrip Count  <br/> |ストリームの数  <br/> |ラウンド トリップがしきい値を超えている、オーディオ ストリームの数がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
+|Audio Poor Due To ConcealedRatio Count  <br/> |ストリームの数  <br/> |非表示の文字列の比率がしきい値を超えた、オーディオ ストリームの数がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
+|AppSharing Poor Due To SpoiledTilePercentTotal Count  <br/> |ストリームの数  <br/> |だめになったタイル パーセントの合計のメトリックがしきい値を超えているストリームを共有するアプリケーションの数がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
+|AppSharing Poor Due To RelativeOneWayAverage Count  <br/> |ストリームの数  <br/> |だめになったタイル パーセントの合計のメトリックがしきい値を超えているストリームを共有するアプリケーションの数がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
+|AppSharing Poor Due To RDPTileProcessingLatencyAverage Count  <br/> |ストリームの数  <br/> |RDP タイル処理遅延時間の平均値がしきい値を超えたストリームを共有するアプリケーションの数がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
+|Video Poor Due To VideoPostFecplr Count  <br/> |ストリームの数  <br/> |ビデオ Post Fec するがしきい値を超えている、ビデオ ストリームの数がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
+|Video Poor Due To VideoLocalFrameLossPercentageAvg Count  <br/> |ストリームの数  <br/> |ビデオのローカル フレーム損失率平均がしきい値を超えている、ビデオ ストリームの数がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
+|Video Poor Due To VideoFrameRateAvg Count  <br/> |ストリームの数  <br/> |ビデオのフレーム レートの平均がしきい値を超えたビデオ ストリームの数がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
+|VBSS VideoFrameRateAvg カウントのためまったく役に立たなかった  <br/> |ストリームの数  <br/> |ビデオのフレーム レートの平均がしきい値を超えたビデオ ・ ベースの画面共有のストリームの数がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
+|VBSS Poor Due To VideoPostFecplr Count  <br/> |ストリームの数  <br/> |ビデオ Post Fec するがしきい値を超えたビデオ ・ ベースの画面共有のストリームの数がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
+|VBSS Poor Due To VideoLocalFrameLossPercentageAvg Count  <br/> |ストリームの数  <br/> |ビデオのローカル フレーム損失率平均がしきい値を超えたビデオ ・ ベースの画面共有のストリームの数がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
+|Video Poor Stream Count  <br/> |ストリームの数  <br/> |に基づいてネットワークの測定基準は以下に示す[品質のダッシュ ボードの呼び出しでストリームの分類](stream-classification-in-call-quality-dashboard.md)を分類するビデオ ストリームの数です。  <br/> |
+|Video Good Stream Count  <br/> |ストリームの数  <br/> |ネットワーク メトリックに基づくなとして分類されるビデオのストリームの数がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
+|Video Unclassified Stream Count  <br/> |ストリームの数  <br/> |良好か不良に分類するための十分なデータが含まれていないビデオ ストリームの数がここに記載されているネットワークのメトリックに基づく:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
+|Video Poor Percentage  <br/> |パーセンテージ  <br/> |に基づいてネットワークの測定基準は以下に示す[品質のダッシュ ボードの呼び出しでストリームの分類](stream-classification-in-call-quality-dashboard.md)に分類されていたビデオ ストリームの合計の割合。  <br/> |
+|AppSharing Poor Stream Count  <br/> |ストリームの数  <br/> |ネットワーク メトリックに基づく劣として分類されるストリームを共有するアプリケーションの数がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
+|AppSharing Good Stream Count  <br/> |ストリームの数  <br/> |ネットワーク メトリックに基づくなとして分類されるストリームを共有するアプリケーションの数がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
+|AppSharing Unclassified Stream Count  <br/> |ストリームの数  <br/> |ここで記載されているネットワークのメトリックに基づいて、アプリケーションの共有、良好か不良に分類するための十分なデータが含まれていないストリームの数:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
+|AppSharing Poor Percentage  <br/> |パーセンテージ  <br/> |まったく役に立たなかったネットワーク メトリックを基に分類されたストリームを共有するアプリケーションは、全体の割合がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
+|VBSS Poor Stream Count  <br/> |ストリームの数  <br/> |ネットワーク メトリックに基づく劣として分類されるビデオ ・ ベースの画面共有のストリームの数がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
+|VBSS Good Stream Count  <br/> |ストリームの数  <br/> |ネットワーク メトリックに基づくなとして分類されるビデオ ・ ベースの画面共有のストリームの数がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
+|VBSS Unclassified Stream Count  <br/> |ストリームの数  <br/> |良好か不良に分類するための十分なデータが含まれていないビデオ ・ ベースの画面共有のストリームの数がここに記載されているネットワークのメトリックに基づく:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
+|VBSS Poor Percentage  <br/> |パーセンテージ  <br/> |総ビデオ ・ ベースの画面共有の割合をストリームとしてまったく役に立たなかったここに記載されているネットワークの基準に基づいて分類される:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
 |Avg Call Duration  <br/> |秒  <br/> |秒単位の、ストリームの平均デュレーション。  <br/> |
 |First Feedback Rating Avg  <br/> |ユーザー評価 (1 - 5)  <br/> |第 1 のエンドポイントを使用してユーザーにより報告されたストリームの平均評価。通話は 1 から 5 までの点数で評価され、その評価は通話のすべてのストリームに適用されます。  <br/> |
 |Second Feedback Rating Avg  <br/> |ユーザー評価 (1 - 5)  <br/> |第 2 のエンドポイントを使用してユーザーにより報告されたストリームの平均評価。通話は 1 から 5 までの点数で評価され、その評価は通話のすべてのストリームに適用されます。  <br/> |
@@ -443,10 +429,10 @@ ms.lasthandoff: 05/17/2018
 |Audio SLA Poor Call Count  <br/> |通話の数  <br/> |ビジネス音声品質 SLA ([ボリューム ライセンスのマイクロソフト製品やオンライン サービス](http://aka.ms/voicequalitysla)) として、ネットワークのパフォーマンス目標を満たしていない分類は、Skype のスコープ内での音声通話の数です。  <br/> |
 |Audio SLA Call Count  <br/> |通話の数  <br/> |ビジネス音声品質の SLA ([ボリューム ライセンスのマイクロソフト製品やオンライン サービス](http://aka.ms/voicequalitysla)) は、Skype のスコープ内での音声通話の数です。  <br/> |
 |Audio SLA Good Call Percentage  <br/> |パーセンテージ  <br/> |ネットワーク パフォーマンス ターゲットを満たしていると分類された Skype for Business 音声品質 SLA ([マイクロソフト製品およびオンライン サービスのボリューム ライセンス](http://aka.ms/voicequalitysla)) の範囲内にある音声通話のパーセンテージ。  <br/> |
-|Audio Good Call Stream Count  <br/> |ストリームの数  <br/> |両方のオーディオ ストリームの呼び出し (呼び出しレグ) でないとしてまったく役に立たなかったネットワークの基準に基づいて分類するオーディオ ストリームの数がここに表示されます: [Lync 2013 の QoE にまったく役に立たなかったとの呼び出しをクラス分けの基準は何ですか?](https://aka.ms/cqd_quality_thresholds)。  <br/> |
-|Audio Poor Call Stream Count  <br/> |ストリームの数  <br/> |呼び出し (呼び出しレグ) で少なくとも 1 つのオーディオ ストリームがネットワーク メトリックに基づく劣としてどのように分類された場所のオーディオ ストリームの数がここに表示されます: [Lync 2013 の QoE にまったく役に立たなかったとの呼び出しをクラス分けの基準は何ですか?](https://aka.ms/cqd_quality_thresholds)。  <br/> |
+|Audio Good Call Stream Count  <br/> |ストリームの数  <br/> |両方のオーディオ ストリームの呼び出し (呼び出しレグ) でないとしてまったく役に立たなかったネットワークの基準に基づいて分類するオーディオ ストリームの数がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
+|Audio Poor Call Stream Count  <br/> |ストリームの数  <br/> |呼び出し (呼び出しレグ) で少なくとも 1 つのオーディオ ストリームがネットワーク メトリックに基づく劣としてどのように分類された場所のオーディオ ストリームの数がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
 |Audio Unclassified Call Stream Count  <br/> |ストリームの数  <br/> |両方のオーディオ ストリームの呼び出し (呼び出しレグ) 分類できなかったネットワークの測定基準の欠如のためのオーディオ ストリームの数です。  <br/> |
-|Audio Poor Call Percentage  <br/> |パーセンテージ  <br/> |呼び出し (呼び出しレグ) で少なくとも 1 つのオーディオ ストリームがネットワークのメトリックに基づいたまったく役に立たなかったとしてどのように分類された、すべてのオーディオ ストリームの割合がここに表示されます:[貧困の中、Lync 2013 の QoE として呼び出しを分類するための基礎とは何ですか?](https://aka.ms/cqd_quality_thresholds)。  <br/> |
+|Audio Poor Call Percentage  <br/> |パーセンテージ  <br/> |呼び出し (呼び出しレグ) で少なくとも 1 つのオーディオ ストリームがネットワークのメトリックに基づいたまったく役に立たなかったとしてどのように分類された、すべてのオーディオ ストリームの割合がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
 |Avg First Echo Percent Mic In  <br/> |パーセンテージ  <br/> |第 1 のエンドポイントが、エコー キャンセルの前にキャプチャまたはマイク デバイスからの音声でエコーを検出した、ストリーム中の時間の平均パーセンテージ  <br/> |
 |Avg Second Echo Percent Mic In  <br/> |パーセンテージ  <br/> |第 2 のエンドポイントが、エコー キャンセルの前にキャプチャまたはマイク デバイスからの音声でエコーを検出した、ストリーム中の時間の平均パーセンテージ  <br/> |
 |Avg First Echo Percent Send  <br/> |パーセンテージ  <br/> |第 1 のエンドポイントが、エコー キャンセルの後にキャプチャまたはマイク デバイスからの音声でエコーを検出した、ストリーム中の時間の平均パーセンテージ  <br/> |
@@ -496,13 +482,16 @@ ms.lasthandoff: 05/17/2018
 |Avg Video Local Frame Loss Percentage  <br/> |パーセンテージ  <br/> |ストリームでの、ユーザーに対する表示におけるビデオ フレームの損失の平均割合。これにはネットワーク損失から回復したフレームも含まれます。  <br/> |
 |Avg Video Recv Frame Rate Average  <br/> |秒あたりのフレーム数  <br/> |ストリームでの、セッションのデュレーションにわたり計算された、すべてのビデオ ストリームで受信した秒あたりの平均フレーム数の平均。  <br/> |
 |Avg Video Low Frame Rate Call Percent  <br/> |パーセンテージ  <br/> |ストリームでの、フレーム レートが 1 秒あたり 7.5 フレーム未満の通話の時間のパーセンテージの平均。  <br/> |
-|Avg Video Low Resolution Call Percent  <br/> |パーセンテージ  <br/> |解像度の低い通話の時間の平均パーセンテージ。しきい値は小さいディメンション向けの 120 ピクセルです。  <br/> |
 |Avg Video Packet Loss Rate  <br/> |比率  <br/> |ストリームでの、セッションのデュレーションにわたり RFC3550 の規定に従い計算された、パケット損失の平均比率の平均。  <br/> |
 |Avg Video Frame Rate  <br/> |秒あたりのフレーム数  <br/> |セッションのデュレーションにわたり算出された、ビデオ ストリームで受信した秒あたりの平均フレーム数。値はレンジでグループ化されます。  <br/> |
 |Avg Video Dynamic Capability Percent  <br/> |ミリ秒  <br/> |ストリームにでの、クライアントがその CPU の種類で想定される 70% 未満のビデオ処理能力で実行している時間のパーセンテージの平均  <br/> |
 |Avg AppSharing Spoiled Tile Percent Total  <br/> |ミリ秒  <br/> |ストリームにでの、(MCU から ビューアーへなどの) リモート ピアに送信されずに破棄されているタイルのパーセンテージの平均。破棄されたタイルの原因は、クライアントとサーバー間の帯域幅制限によるものである可能性があります。  <br/> |
 |Avg AppSharing Relative OneWay  <br/> |ミリ秒  <br/> |アプリケーション共有ストリームでの、エンドポイント間の相対的な一方向の平均遅延 (ミリ秒単位) の平均。  <br/> |
 |Avg AppSharing RDP Tile Processing Latency  <br/> |ミリ秒  <br/> |ストリームでの、電話会議サーバーにおける RDP スタック上のタイル処理の平均遅延 (ミリ秒単位) の平均。  <br/> |
+|平均の最初のデバイスが機能していないイベントの比率をキャプチャします。  <br/> |比率  <br/> |1 番目のエンドポイントにキャプチャ デバイスが認識されている呼び出しの割合の平均値が正しく動作していません。  <br/> |
+|平均の 2 番目のデバイスが機能していないイベントの比率をキャプチャします。  <br/> |比率  <br/> |2 番目のエンドポイントにキャプチャ デバイスが認識されている呼び出しの割合の平均値が正しく動作していません。  <br/> |
+|平均の最初のデバイスが動作しないイベントの比率をレンダリングします。  <br/> |比率  <br/> |1 番目のエンドポイントに、レンダリング デバイスが認識されている呼び出しの割合の平均値が正しく動作していません。  <br/> |
+|平均の 2 番目のデバイスが動作しないイベントの比率をレンダリングします。  <br/> |比率  <br/> |2 番目のエンドポイントに、レンダリング デバイスが認識されている呼び出しの割合の平均値が正しく動作していません。  <br/> |
 |Media Failed Due To Firewall IP Blocked Stream Count  <br/> |ストリームの数  <br/> |ネットワーク機器が Skype for Business サーバーへのアクセスをブロックしたために確立できなかったストリームの数。これらの失敗は、通常はプロキシ、ファイアウォール、その他のネットワーク セキュリティ デバイスが、Office 365 の Skype for Business によって使用された IP アドレスとポートにアクセスするように正しく構成されていないことを示します。  <br/> |
 |Firewall IP Blocked Media Failure Percentage  <br/> |パーセンテージ  <br/> |ネットワーク機器が Skype for Business サーバーへのアクセスをブロックしたために確立できなかったストリームのパーセンテージ。これらの失敗は、通常はプロキシ、ファイアウォール、その他のネットワーク セキュリティ デバイスが、Office 365 の Skype for Business によって使用された IP アドレスとポートにアクセスするように正しく構成されていないことを示します。  <br/> |
 |Media Failed Due To Firewall DPI Stream Count  <br/> |ストリームの数  <br/> |ネットワーク機器が Skype for Business トラフィックへのアクセスを許可しないディープ パケット インスペクションのために確立できなかったストリームの数。これらの失敗は、通常はプロキシ、ファイアウォール、その他のネットワーク セキュリティ デバイスが、Office 365 の Skype for Business によって使用された IP アドレスとポートにアクセスするように正しく構成されていないことを示します。  <br/> |

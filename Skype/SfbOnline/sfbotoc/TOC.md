@@ -1,5 +1,5 @@
 
-# [Skype のビジネスのオンライン管理](../skype-for-business-online.md)
+# [Skype for Business Online の管理](../skype-for-business-online.md)
 
 ## [国および地域ごとの電話会議および通話プランの利用可能性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
@@ -11,7 +11,7 @@
 ### [電話会議ブリッジの設定を変更する](../audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge.md)
 ### [電話会議ブリッジの電話番号を変更する](../audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 ### [会議からダイヤルアウトして他のユーザーが参加できるようにする](../audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it.md)
-### [フリー ダイヤルの番号を特定のユーザーを無効にします。](../audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users.md)
+### [特定のユーザーのフリーダイヤル番号を無効にする](../audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users.md)
 ### [ユーザーの設定を変更したときに送信されるメール](../audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change.md) 
 ### [設定が変更されたときのメールの自動送信を有効または無効にする](../audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change.md)
 ### [ユーザーが会議に参加するときに名前を記録できるようにする](../audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting.md)
@@ -59,7 +59,7 @@
 #### [米国での電話番号の管理](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 ### [組織内での発信者番号の使用方法](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md)
 ### [取得できる電話番号の数について](../what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get.md)
-###[明細行 ID を呼び出すと関係者の名前を呼び出すことについて](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
+###[発信回線 ID と発信者名の詳細](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
 ### [ユーザーの電話番号を検索する](../what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users.md)
 ### [組織の電話番号のリストを表示する](../what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization.md)
 ### [ユーザーに発信者番号を設定する](../what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user.md)
@@ -71,11 +71,11 @@
 ### [緊急対応の場所、アドレス、通話ルーティングの概要](../what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing.md)
 ### [ダイヤル プランについて](../what-are-calling-plans-in-office-365/what-are-dial-plans.md)
 
-## [Office 365 に電話システム](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
+## [Office 365 での電話システム](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
 ### [電話システムの通話キューを作成する](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Skype for Business Online を利用できる電話機の取得](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Skype for Business Online 電話機の展開](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
-#### [共通領域電話 (CAP) を設定します。](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
+#### [共通エリア電話 (CAP) の設定](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
 ### [Skype for Business および Microsoft Teams のサービス電話番号の取得](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 ### [電話システムで利用できる機能](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
 ### 電話システムのボイスメール
@@ -83,7 +83,7 @@
 #### [ボイスメールの応答メッセージと Skype for Business からのメッセージで使用する言語](../what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages.md)
 #### [電話システム ボイスメールのセットアップ - 管理者ヘルプ](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
 ### [電話システムの自動応答をセットアップする](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
-### [組織の電話システムを設定する.](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
+### [組織内の電話システムの設定](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
 ### [電話システムの自動応答について](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
 #### [電話システムの自動応答をセットアップする](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 
@@ -93,17 +93,17 @@
 ### [Skype 会議ブロードキャストの設定を変更する](../set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings.md)
 
 ## [Skype for Business と Microsoft Teams のアドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
-### 計画に基づくライセンス オプション
-#### [Office 365 ビジネス プレミアム](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
+### プランに基づいたライセンスオプション
+#### [Office 365 Business Premium](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
 #### [Office 365 のプレミアム、Office 365 用のリソース、またはビジネス用の Skype オンライン 2 を計画](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
 #### [Office 365 エンタープライズ E1、E3 および E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
 #### [Office 365 エンタープライズ E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
 #### [(オーディオ会議) なしで office 365 のエンタープライズ E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
 #### [Skype Room Systems v2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
-#### [GOV、EDU、および非営利組織](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
+#### [GOV、EDU、および非営利団体](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
 ### [利用可能残高を追加して、コミュニケーション クレジットを管理する](../skype-for-business-and-microsoft-teams-add-on-licensing/add-funds-and-manage-communications-credits.md)
 ### [Skype for Business と Microsoft Teams のライセンスを割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
-### [分数ごと従量課金制電話会議 ](../skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute.md)
+### [分数ごと従量課金制電話会議](../skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute.md)
 ### [組織のためにコミュニケーション クレジットをセットアップする](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)
 ### [Office 365 の通話プラン](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md)
 ### [コミュニケーション クレジットについて](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
@@ -149,6 +149,7 @@
 ### [Skype for Business の通話分析をセットアップする](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [通話品質ダッシュボードをオンにして使用する](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
 ### [通話分析を使用して低い通話品質をトラブルシューティングする](../using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### [通話品質のダッシュ ボードに含まれるストリーム クラス](../using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard.md)
 
 ## [Skype for Business Online のレポート](../skype-for-business-online-reporting/skype-for-business-online-reporting.md)
 ### [アクティビティ レポート](../skype-for-business-online-reporting/activity-report.md)
@@ -169,14 +170,14 @@
 ### [ユーザー アカウントを管理する](../set-up-your-computer-for-windows-powershell/manage-user-accounts.md)
 ### [Skype for Business Online Connector を使用して組織を管理する](../set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations.md)
 
-## 法律や規制
+## 法律および規制
 ### [フランスでの Skype for Business Online のアクセシビリティに関する適合宣言](../legal-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
 ### [フランスでの Skype for Business Online のアクセシビリティ ソリューション](../legal-and-regulatory/accessibility-solutions-in-france.md)
-### [カナダ - IP 中継をサインアップします。](../legal-and-regulatory/ip-relay-canada-email-signup.md)
-### [カナダの 『 ユーザーズ ガイド 』 での IP のリレー](../legal-and-regulatory/ip-relay-canada-user-guide.md)
+### [カナダでの IP 中継 - サインアップ](../legal-and-regulatory/ip-relay-canada-email-signup.md)
+### [カナダでの IP 中継 - 『ユーザーガイド』](../legal-and-regulatory/ip-relay-canada-user-guide.md)
 ### [無料のダイヤルアウト期間](../legal-and-regulatory/complimentary-dial-out-period.md)
 ### [英国向けの実施規約](../legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
 ### [英国向けの苦情処理規約](../legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [データ収集方法](../legal-and-regulatory/data-collection-practices.md)
-### [緊急の呼び出し元のラベル](../legal-and-regulatory/emergency-calling-labels.md)
-### [サード ・ パーティ製の音声会議のビジネス用の Skype の統合のためのライフ プログラムの終了](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)
+### [緊急通報のラベル](../legal-and-regulatory/emergency-calling-labels.md)
+### [Skype for Business のサードパーティとの電話会議への統合用プログラムの提供終了](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)
