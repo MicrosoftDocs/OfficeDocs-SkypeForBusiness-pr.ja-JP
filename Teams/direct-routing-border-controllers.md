@@ -1,0 +1,55 @@
+---
+title: セッション ボーダー コント ローラーが直接ルーティングするための認定の一覧
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.collection: ''
+description: SBC を証明する、選択した SBC ベンダーとマイクロソフトのパートナーは、直接ルーティング機能します。
+ms.openlocfilehash: 92ecd76a50668b0a2e03a0580daa2193d93c197e
+ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "20084566"
+---
+# <a name="list-of-session-border-controllers-certified-for-direct-routing"></a><span data-ttu-id="f685f-103">セッション ボーダー コント ローラーが直接ルーティングするための認定の一覧</span><span class="sxs-lookup"><span data-stu-id="f685f-103">List of Session Border Controllers certified for Direct Routing</span></span>
+
+<span data-ttu-id="f685f-104">マイクロソフトと提携することを確認するための選択されているセッション ボーダー コント ローラー (SBC) ベンダー、SBCs を直接ルーティング作業。</span><span class="sxs-lookup"><span data-stu-id="f685f-104">Microsoft partners with selected Session Border Controllers (SBC) vendors to certify that their SBCs for work with Direct Routing.</span></span> 
+
+<span data-ttu-id="f685f-105">各ベンダーはマイクロソフト。</span><span class="sxs-lookup"><span data-stu-id="f685f-105">With each vendor, Microsoft:</span></span> 
+
+- <span data-ttu-id="f685f-106">SIP 相互接続プロトコルの SBC ベンダーと共同で動作します。</span><span class="sxs-lookup"><span data-stu-id="f685f-106">Jointly works with the SBC vendors on the SIP interconnection protocols.</span></span>
+- <span data-ttu-id="f685f-107">サード ・ パーティ製ラボを使用して大量のテストを実行します。テストに合格したデバイスのみが認定されています。</span><span class="sxs-lookup"><span data-stu-id="f685f-107">Performs intense tests via a third-party lab; only devices that passed the tests are certified.</span></span> 
+- <span data-ttu-id="f685f-108">運用環境および運用前環境で認定されたすべてのデバイスでは、毎日のテストを実行します。</span><span class="sxs-lookup"><span data-stu-id="f685f-108">Runs daily tests with all certified devices in production and pre-production environments.</span></span> <span data-ttu-id="f685f-109">運用前環境でデバイスを検証する認定の SBCs でクラウドに直接ルーティングのコードの新しいバージョンが動作するを保証します。</span><span class="sxs-lookup"><span data-stu-id="f685f-109">Validating the devices in pre-production environments guarantees that new versions of Direct Routing code in the cloud will work with certified SBCs.</span></span> 
+- <span data-ttu-id="f685f-110">SBC ベンダーとの共同サポート プロセスがあります。</span><span class="sxs-lookup"><span data-stu-id="f685f-110">Has a joint support process with the SBC vendors.</span></span>
+ 
+
+  > [!NOTE]
+  > <span data-ttu-id="f685f-111">マイクロソフトは、認定済みのデバイスまたはデバイスは、直接ルーティングを使用して接続している場合のみ電話システムをサポートします。</span><span class="sxs-lookup"><span data-stu-id="f685f-111">Microsoft only supports Phone System if a certified device or devices are connected via Direct Routing.</span></span> <span data-ttu-id="f685f-112">マイクロソフトでは、認定されていないデバイスが直接ルーティングを使用して電話システムに接続されているサポート ・ リクエストを拒否する権利を留保します。</span><span class="sxs-lookup"><span data-stu-id="f685f-112">Microsoft reserves the right to reject support cases where a non-certified device is connected to the Phone System via Direct Routing.</span></span> 
+
+<span data-ttu-id="f685f-113">直接ルーティングの認定デバイスを次の表にします。</span><span class="sxs-lookup"><span data-stu-id="f685f-113">The table below lists devices certified for Direct Routing.</span></span> 
+
+<span data-ttu-id="f685f-114">[直接ルーティングに関する詳細を表示](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-NOW-in-Public-Preview/ba-p/193915)します。</span><span class="sxs-lookup"><span data-stu-id="f685f-114">[Learn more about Direct Routing](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-NOW-in-Public-Preview/ba-p/193915).</span></span> 
+
+
+|<span data-ttu-id="f685f-115">仕入先</span><span class="sxs-lookup"><span data-stu-id="f685f-115">Vendor</span></span>  |<span data-ttu-id="f685f-116">製品</span><span class="sxs-lookup"><span data-stu-id="f685f-116">Product</span></span>  |<span data-ttu-id="f685f-117">メディア以外のバイパス</span><span class="sxs-lookup"><span data-stu-id="f685f-117">Non-Media Bypass</span></span>  |<span data-ttu-id="f685f-118">メディアのバイパス</span><span class="sxs-lookup"><span data-stu-id="f685f-118">Media Bypass</span></span>  |<span data-ttu-id="f685f-119">ソフトウェアのバージョン</span><span class="sxs-lookup"><span data-stu-id="f685f-119">Software Version</span></span>|
+|---------|---------|---------|---------|---------|
+|[<span data-ttu-id="f685f-120">は</span><span class="sxs-lookup"><span data-stu-id="f685f-120">Audiocodes</span></span>](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/sbcs-media-gateways)    |   <span data-ttu-id="f685f-121">Mediant 500 SBC</span><span class="sxs-lookup"><span data-stu-id="f685f-121">Mediant 500 SBC</span></span>       |         |    <span data-ttu-id="f685f-122">保留中</span><span class="sxs-lookup"><span data-stu-id="f685f-122">Pending</span></span>      |     <span data-ttu-id="f685f-123">7.20A.200.055</span><span class="sxs-lookup"><span data-stu-id="f685f-123">7.20A.200.055</span></span>     |
+|  |   <span data-ttu-id="f685f-124">Mediant 800 SBC</span><span class="sxs-lookup"><span data-stu-id="f685f-124">Mediant 800 SBC</span></span>       |         |     <span data-ttu-id="f685f-125">保留中</span><span class="sxs-lookup"><span data-stu-id="f685f-125">Pending</span></span>    |      <span data-ttu-id="f685f-126">7.20A.200.055</span><span class="sxs-lookup"><span data-stu-id="f685f-126">7.20A.200.055</span></span>    |
+|     |      <span data-ttu-id="f685f-127">Mediant 2600 SBC</span><span class="sxs-lookup"><span data-stu-id="f685f-127">Mediant 2600 SBC</span></span>    |         |    <span data-ttu-id="f685f-128">保留中</span><span class="sxs-lookup"><span data-stu-id="f685f-128">Pending</span></span>     |    <span data-ttu-id="f685f-129">7.20A.200.055</span><span class="sxs-lookup"><span data-stu-id="f685f-129">7.20A.200.055</span></span>      |
+|     |   <span data-ttu-id="f685f-130">Mediant 4000 SBC</span><span class="sxs-lookup"><span data-stu-id="f685f-130">Mediant 4000 SBC</span></span>       |         |    <span data-ttu-id="f685f-131">保留中</span><span class="sxs-lookup"><span data-stu-id="f685f-131">Pending</span></span>     |    <span data-ttu-id="f685f-132">7.20A.200.055</span><span class="sxs-lookup"><span data-stu-id="f685f-132">7.20A.200.055</span></span>      |
+|     |    <span data-ttu-id="f685f-133">Mediant 1000B SBC</span><span class="sxs-lookup"><span data-stu-id="f685f-133">Mediant 1000B  SBC</span></span>      |         |  <span data-ttu-id="f685f-134">保留中</span><span class="sxs-lookup"><span data-stu-id="f685f-134">Pending</span></span>       |    <span data-ttu-id="f685f-135">7.20A.200.055</span><span class="sxs-lookup"><span data-stu-id="f685f-135">7.20A.200.055</span></span>      |
+|     |   <span data-ttu-id="f685f-136">SBC の仮想エディション</span><span class="sxs-lookup"><span data-stu-id="f685f-136">Virtual Edition SBC</span></span>       |     |<span data-ttu-id="f685f-137">保留中</span><span class="sxs-lookup"><span data-stu-id="f685f-137">Pending</span></span>         |     <span data-ttu-id="f685f-138">7.20A.200.055</span><span class="sxs-lookup"><span data-stu-id="f685f-138">7.20A.200.055</span></span>     |
+|[<span data-ttu-id="f685f-139">リボン</span><span class="sxs-lookup"><span data-stu-id="f685f-139">Ribbon</span></span>](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | <span data-ttu-id="f685f-140">SBC 5110</span><span class="sxs-lookup"><span data-stu-id="f685f-140">SBC 5110</span></span>         |         |   <span data-ttu-id="f685f-141">保留中</span><span class="sxs-lookup"><span data-stu-id="f685f-141">Pending</span></span>      |     <span data-ttu-id="f685f-142">V6.2</span><span class="sxs-lookup"><span data-stu-id="f685f-142">V6.2</span></span>     |
+|     |<span data-ttu-id="f685f-143">SBC 5110</span><span class="sxs-lookup"><span data-stu-id="f685f-143">SBC 5110</span></span>         |         |    <span data-ttu-id="f685f-144">保留中</span><span class="sxs-lookup"><span data-stu-id="f685f-144">Pending</span></span>     |    <span data-ttu-id="f685f-145">V6.2</span><span class="sxs-lookup"><span data-stu-id="f685f-145">V6.2</span></span>      |
+|     | <span data-ttu-id="f685f-146">SBC 5400</span><span class="sxs-lookup"><span data-stu-id="f685f-146">SBC 5400</span></span>         |         |    <span data-ttu-id="f685f-147">保留中</span><span class="sxs-lookup"><span data-stu-id="f685f-147">Pending</span></span>     |   <span data-ttu-id="f685f-148">V6.2</span><span class="sxs-lookup"><span data-stu-id="f685f-148">V6.2</span></span>       |
+|     |<span data-ttu-id="f685f-149">SBC 7000</span><span class="sxs-lookup"><span data-stu-id="f685f-149">SBC 7000</span></span>         |         |    <span data-ttu-id="f685f-150">保留中</span><span class="sxs-lookup"><span data-stu-id="f685f-150">Pending</span></span>     |    <span data-ttu-id="f685f-151">V6.2</span><span class="sxs-lookup"><span data-stu-id="f685f-151">V6.2</span></span>      |
+|     | <span data-ttu-id="f685f-152">SBC のスウェーデン語</span><span class="sxs-lookup"><span data-stu-id="f685f-152">SBC SWe</span></span>         |         |    <span data-ttu-id="f685f-153">保留中</span><span class="sxs-lookup"><span data-stu-id="f685f-153">Pending</span></span>     |    <span data-ttu-id="f685f-154">V6.2</span><span class="sxs-lookup"><span data-stu-id="f685f-154">V6.2</span></span>      |
+|     |<span data-ttu-id="f685f-155">SBC 1000</span><span class="sxs-lookup"><span data-stu-id="f685f-155">SBC 1000</span></span>         |         |     <span data-ttu-id="f685f-156">保留中</span><span class="sxs-lookup"><span data-stu-id="f685f-156">Pending</span></span>    |    <span data-ttu-id="f685f-157">V7.0.2</span><span class="sxs-lookup"><span data-stu-id="f685f-157">V7.0.2</span></span>      |
+|     | <span data-ttu-id="f685f-158">SBC 2000</span><span class="sxs-lookup"><span data-stu-id="f685f-158">SBC 2000</span></span>         |         |    <span data-ttu-id="f685f-159">保留中</span><span class="sxs-lookup"><span data-stu-id="f685f-159">Pending</span></span>     |    <span data-ttu-id="f685f-160">V7.0.2</span><span class="sxs-lookup"><span data-stu-id="f685f-160">V7.0.2</span></span>      |
+|[<span data-ttu-id="f685f-161">Thinktel</span><span class="sxs-lookup"><span data-stu-id="f685f-161">Thinktel</span></span>](http://www.thinktel.ca/services/think-365/think-365-overview/)     |    <span data-ttu-id="f685f-162">365 SBC を考える</span><span class="sxs-lookup"><span data-stu-id="f685f-162">Think 365 SBC</span></span>      |  <span data-ttu-id="f685f-163">保留中</span><span class="sxs-lookup"><span data-stu-id="f685f-163">Pending</span></span>       |    <span data-ttu-id="f685f-164">保留中</span><span class="sxs-lookup"><span data-stu-id="f685f-164">Pending</span></span>     |   <span data-ttu-id="f685f-165">V1.4</span><span class="sxs-lookup"><span data-stu-id="f685f-165">V1.4</span></span>       |
+|     |         |         |         |         |
