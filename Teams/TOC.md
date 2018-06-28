@@ -80,9 +80,6 @@
 ## [Meeting Migration Service (MMS) のセットアップ](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
 
 
-
-
-
 # [ゲスト アクセス](guest-access.md)
 ## [ゲストがチームに参加する方法](guest-joins.md)
 ## [ゲストのエクスペリエンスについて](guest-experience.md)
@@ -213,6 +210,13 @@
 ### [電話システム ボイスメールをセットアップする](/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [電話システムの自動応答について](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
+## 電話システムの直接のルーティング
+### [直接ルーティングを計画します。](direct-routing-plan.md)
+### [直接ルーティングを構成します。](direct-routing-configure.md)
+### [直接ルーティングへの移行](direct-routing-migrating.md)
+### [PSTN への接続を持つハイブリッド環境でのユーザー アカウント](direct-routing-user-accounts-in-a-hybrid-environment.md)
+### [複数のテナントのセッション ボーダー コント ローラーを構成します。](direct-routing-sbc-multiple-tenants.md)
+### [セッション ボーダー コント ローラーが直接ルーティングするための認定](direct-routing-border-controllers.md)
 
 # セキュリティとコンプライアンス
 ## [Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)
