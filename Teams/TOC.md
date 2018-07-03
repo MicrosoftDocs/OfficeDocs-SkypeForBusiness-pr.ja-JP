@@ -30,6 +30,7 @@
 ## [Teams のクライアントを取得する](get-clients.md)
 ### [チームのアプリケーションのハードウェア要件](hardware-requirements-for-the-teams-app.md)
 ### [MSI を使用してマイクロソフトのチームをインストールします。](msi-deployment.md)
+### [サーフェスのハブのチームを配置します。](teams-surface-hub.md)
 ## [組織でマイクロソフトのチームを有効にします。](Office-365-set-up.md)
 ## [組織内のチームの機能を管理します。](enable-features-office-365.md)
 ### [新しいマイクロソフトのチームとビジネス管理センターの Skype に移行する際のチームを管理します。](manage-teams-skypeforbusiness-admin-center.md)
@@ -130,6 +131,7 @@
 ### [Teams SMTP ドメインを承認済みドメインとして Exchange Online に追加する](smtp-accepted-domain.md)
 ### [Outlook で Teams の会議アドインを使用する](teams-add-in-for-outlook.md)
 ## [Teams との SharePoint Online と OneDrive for Business の連携](sharepoint-onedrive-interact.md)
+## [チームが、Office 365 テナントの複数地域で有効になっているの経験します。](teams-experience-o365odb-spo-multi-geo.md)
 <!-- ============================================================ -->
 
 
