@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 2015 でハイブリッド環境を構成する
+title: ビジネス サーバーのハイブリッド環境では Skype のサーバーからサーバーへの認証を構成します。
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,16 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
-description: '概要: ハイブリッド環境でビジネス サーバー 2015 の Skype を構成します。'
-ms.openlocfilehash: e31338647338854b260c9f8935cac4dde69df490
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: ビジネス サーバーのハイブリッド環境では Skype のサーバーからサーバーへの認証を構成します。'
+ms.openlocfilehash: 889e62cf2c462dc9f1cc9ab4b96ae73f99bc9c6e
+ms.sourcegitcommit: 3d1556113ce4050b79ee34c138482b34273b8c1d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "20178816"
 ---
-# <a name="configure-a-hybrid-environment-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でハイブリッド環境を構成する
+# <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>ビジネス サーバーのハイブリッド環境では Skype のサーバーからサーバーへの認証を構成します。
  
-**の概要:**ビジネス サーバー 2015 のハイブリッド環境で Skype を構成します。
+**の概要:** ビジネス サーバー ハイブリッド環境の Skype のサーバーからサーバーへの認証を構成します。
   
 ハイブリッド構成では、一部のユーザーが置かれている Skype の設置型インストールのビジネス サーバー 2015 のビジネス サーバーの他のユーザーが Skype の Office 365 バージョンに置かれているときにします。 ハイブリッド環境でサーバーからサーバーへの認証を構成するためには、最初に Office 365 の認証サーバーを信頼するようにサーバー 2015 のビジネス用の Skype のオンプレミス インストールを構成する必要があります。 このプロセスの初期手順を実行するには、次の Skype ビジネス サーバー管理シェル スクリプトを実行しています。
   
@@ -101,7 +102,7 @@ Get-MsolServicePrincipal
 
 すべてのサービス プリンシパルについて次のような情報が返されます。
   
-```
+<pre>
 ExtensionData        : System.Runtime.Serialization.ExtensionDataObject
 AccountEnabled       : True
 Addresses            : {}
@@ -110,7 +111,7 @@ DisplayName          : Skype for Business Server
 ObjectId             : aada5fbd-c0ae-442a-8c0b-36fec40602e2
 ServicePrincipalName : SkypeForBusinessServer/litwareinc.com
 TrustedForDelegation : True
-```
+</pre>
 
 次の手順は、X.509 証明書のインポート、エンコード、および割り当てです。 インポートと証明書のエンコード、ファイルの完全なパスを指定することを確認する、次の Windows PowerShell コマンドを使用して、します。CER ファイル インポート メソッドを呼び出すとします。
   
@@ -137,14 +138,14 @@ Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00000
 
 そのコマンドは、次のようなデータを返します。
   
-```
+<pre>
 Type      : Asymmetric
 Value     : 
 KeyId     : bc2795f3-2387-4543-a95d-f92c85c7a1b0
 StartDate : 6/1/2012 8:00:00 AM
 EndDate   : 5/31/2013 8:00:00 AM
 Usage     : Verify
-```
+</pre>
 
 続いて、次のようなコマンドを使用して証明書を削除できます。
   
@@ -158,7 +159,6 @@ Remove-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00
   
 ```
 Set-MSOLServicePrincipal -AppPrincipalID 00000002-0000-0ff1-ce00-000000000000 -AccountEnabled $true
-
 $lyncSP = Get-MSOLServicePrincipal -AppPrincipalID 00000004-0000-0ff1-ce00-000000000000
 $lyncSP.ServicePrincipalNames.Add("00000004-0000-0ff1-ce00-000000000000/lync.contoso.com")
 Set-MSOLServicePrincipal -AppPrincipalID 00000004-0000-0ff1-ce00-000000000000 -ServicePrincipalNames $lyncSP.ServicePrincipalNames
