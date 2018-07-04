@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: SBC を証明する、選択した SBC ベンダーとマイクロソフトのパートナーは、直接ルーティング機能します。
-ms.openlocfilehash: d5cb169aaf1545d496e19e533c1466e68258d35c
-ms.sourcegitcommit: 13bec625269307e5988acecd3b765c29594d66fe
+ms.openlocfilehash: de006d216b81b3aaa2b07749855f1313be646d05
+ms.sourcegitcommit: b7b6bdaf9d40b70151ce7b5d1b659b5466f0841c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 07/04/2018
-ms.locfileid: "20192661"
+ms.locfileid: "20195389"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>セッション ボーダー コント ローラーが直接ルーティングするための認定の一覧
 
@@ -33,7 +33,7 @@ ms.locfileid: "20192661"
 
 直接ルーティングの認定デバイスを次の表にします。 
 
-[直接ルーティングに関する詳細を表示](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-NOW-in-Public-Preview/ba-p/193915)します。 
+[直接ルーティングに関する詳細を表示](https://aka.ms/dr)します。 
 
 
 |仕入先  |製品  |メディア以外のバイパス  |メディアのバイパス  |ソフトウェアのバージョン|
