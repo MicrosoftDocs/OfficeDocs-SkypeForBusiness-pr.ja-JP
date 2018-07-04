@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: SBC を証明する、選択した SBC ベンダーとマイクロソフトのパートナーは、直接ルーティング機能します。
-ms.openlocfilehash: 72d1567dbc827685316fc390e532d82a254f7748
-ms.sourcegitcommit: b859f9b3cb89f0b0ac4aacbba75f916e38981a26
+ms.openlocfilehash: d5cb169aaf1545d496e19e533c1466e68258d35c
+ms.sourcegitcommit: 13bec625269307e5988acecd3b765c29594d66fe
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20091674"
+ms.lasthandoff: 07/04/2018
+ms.locfileid: "20192661"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>セッション ボーダー コント ローラーが直接ルーティングするための認定の一覧
 
@@ -51,5 +51,5 @@ ms.locfileid: "20091674"
 |     | SBC のスウェーデン語  |   & #10004;    |    保留中     |    V6.2      |
 |     |SBC 1000   |     & #10004;   |     保留中    |    V7.0.2   |& #10004; 
 |     | SBC 2000    |     & #10004;   |    保留中     |    V7.0.2      |
-|[Thinktel](http://www.thinktel.ca/services/think-365/think-365-overview/)     |    365 SBC を考える      |  保留中       |    保留中     |   V1.4       |
+|[Thinktel](http://www.thinktel.ca/services/think-365/think-365-overview/)     |    365 SBC を考える      |  & #10004;       |    保留中     |   V1.4       |
 |     |         |         |         |         |
