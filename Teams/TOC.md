@@ -123,7 +123,7 @@
 <!-- ============================================================ -->
 # Office 365 の Interopearability
 ## [移行とビジネス用の Skype では、相互運用性](migration-interop-guidance-for-teams-with-skype.md)
-## [共存およびアップグレードの設定を設定します。](setting-your-coexistence-and-upgrade-settings.md)
+## [共存を設定し、設定をアップグレードします。](setting-your-coexistence-and-upgrade-settings.md)
 ## [Office 365 グループと Teams](office-365-groups.md)
 ## [既存の Office 365 グループを Teams で強化する](enhance-office-365-groups.md)
 ## [Exchange と Teams の連携](exchange-teams-interact.md)
