@@ -13,12 +13,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
-description: '概要: は、このトピックでのビジネス サーバー 2015 サーバーで、Skype を準備します。 ハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件および推奨事項は、ここで正常にインストールし、サーバー ファームの展開を確実にします。'
+description: '概要: このトピックを使用すると、Skype for Business Server 2015 サーバーを準備することができます。ここにはハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件と推奨が掲載されており、サーバー ファームのインストールと展開を正常に実行できるようになります。'
 ms.openlocfilehash: dfcde40c8084279dca39e830a84ad6e9631530dd
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.sourcegitcommit: 98c0d578f5ebbe884a5965ccaba131ee4dd84185
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 07/05/2018
+ms.locfileid: "19046021"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 のサーバー要件
  
@@ -41,7 +42,7 @@ ms.lasthandoff: 05/08/2018
   
 フロント エンド サーバー、バック エンド サーバー、Standard Edition サーバー、および永続的なチャット サーバーのハードウェアを推奨します。
   
-|**ハードウェア ・ コンポーネント**|**推奨**|
+|**ハードウェア コンポーネント**|**推奨**|
 |:-----|:-----|
 |CPU  <br/> |64 ビット デュアル プロセッサ、6 コア、2.26 GHz 以上。  <br/> サーバー 2015 のビジネス ロールの Skype は、Intel Itanium プロセッサがサポートされていません。  <br/> |
 |メモリ  <br/> |32 ギガバイト (GB)  <br/> |
@@ -50,7 +51,7 @@ ms.lasthandoff: 05/08/2018
    
 エッジ トランスポート サーバー、スタンドアロンの仲介サーバー、ビデオの相互運用機能サーバー、およびディレクターのハードウェアを推奨します。
   
-|**ハードウェア ・ コンポーネント**|**推奨**|
+|**ハードウェア コンポーネント**|**推奨**|
 |:-----|:-----|
 |CPU  <br/> |64 ビット デュアル プロセッサ、クアッド コア、2.26 GHz 以上  <br/> サーバー 2015 のビジネス ロールの Skype は、Intel Itanium プロセッサがサポートされていません。  <br/> |
 |メモリ  <br/> |16 GB  <br/> |
