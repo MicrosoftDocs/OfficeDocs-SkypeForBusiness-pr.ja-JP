@@ -14,14 +14,15 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 623fffb3f6470571b039c106ec5f0a4205f6c35a
-  ms.sourcegitcommit: 8ceb230c058471210b89449dde0034300e6c4da1
+  ms.openlocfilehash: b60fb38354f3fb309850ba62286d301c69d7ea69
+  ms.sourcegitcommit: 1fde3af8f5c93c1328842990c7d14cbc0fbfdf97
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 05/17/2018
+  ms.lasthandoff: 07/05/2018
+  ms.locfileid: "20201383"
 items:
 - durationInMinutes: 1
-  content: "このトレーニングでは、Office 365 の電話システム機能によって提供される Teams の通話機能を紹介します。 また、電話システムを実装するために必要となる技術計画について説明し、電話システムを構成する方法や、その実装での使用量と通話品質を監視する方法を示します。\n\nこのトレーニングは、次のようなお客様を対象としています。 \n\n- IT 専門家。\n\n- Teams の計画、展開、管理の責任者。\n\n- 通話機能を既存の Teams 展開に導入する計画。\n\n次について学びます。\n\n- Teams での通話について。\n\n- Teams での通話に関する計画をする方法。\n\n- Teams での通話を構成する方法。\n\n[!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]\n\nこのトレーニングについてご質問やフィードバックがある場合は、次の方法でお送りください。\n\n- このチュートリアルの「次のステップ」ページの下部にあるコメント セクションから投稿してください</a>\n\n- [AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Calling) 宛にメールを送信してください\n\n新機能のアイディアなど、Teams に関する製品フィードバックをご提供いただける場合は、「[UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)」にアクセスしてください。\n"
+  content: "このトレーニングでは、Office 365 の電話システム機能によって提供される Teams の通話機能を紹介します。 また、電話システムを実装するために必要となる技術計画について説明し、電話システムを構成する方法や、その実装での使用量と通話品質を監視する方法を示します。\n\nこのトレーニングは、次のようなお客様を対象としています。 \n\n- IT 専門家。\n\n- Teams の計画、展開、管理の責任者。\n\n- 通話機能を既存の Teams 展開に導入する計画。\n\n次について学びます。\n\n- Teams での通話について。\n\n- Teams での通話に関する計画をする方法。\n\n- Teams での通話を構成する方法。\n\n[!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]\n\nこのトレーニングについてご質問やフィードバックがある場合は、次の方法でお送りください。\n\n- このチュートリアルの「次のステップ」ページの下部にあるコメント セクションから投稿してください</a>\n\n新機能のアイディアなど、Teams に関する製品フィードバックをご提供いただける場合は、「[UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)」にアクセスしてください。\n"
 - title: Teams での通話について。
   durationInMinutes: 15
   content: >
@@ -125,4 +126,4 @@ items:
   content: "\nこれで、自分たちの環境において電話システムを適切に計画して実装することになりました。このシステムが確実に使用され、優れたユーザー エクスペリエンスを提供することを確認する必要があります。 すべてを詳細に取り上げるのはこのトレーニングの範囲を超えていますが、ここではエンゲージメントの最も重要な領域について明示します。\n\n-   導入と変更管理  \nユーザーはサービスが提供され次第すぐにその使用を開始することが考えられます。 また、そうでない可能性もあります。 このため、適切な導入と変更管理を実行することが重要です。\n\n-   使用状況の監視と推進  \nKSI の 1 つをアクティブ ユーザーの数ににして、Teams が電話クライアントとしてどの程度受け入れられているかを測定できるようにすることをお勧めします。\n\n-   品質の監視と推進\n\nユーザーの満足度は、通話の品質と直接関係していますので、必要に応じて通話品質を監視して改善することが重要です。 通話品質について報告する方法を知るには、通話品質ダッシュボードのトレーニングにアクセスしてください。 これらのビデオが作成されたら、ビジネスの Skype のですが、チームにも適用します。 <http://aka.ms/sof-cqd>。\n"
 - title: 次のステップ
   durationInMinutes: 1
-  content: "\nこのトレーニングでは次の重要な学習事項を取り上げています。  \n-   Teams での通話について。\n\n-   Teams での通話に関する計画をする方法\n\n-   Teams での通話を構成する方法\n\n詳細については次をご覧ください。\n\n-   [Microsoft Teams の通話プランが設定された電話システムの実践的なガイダンス](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)\n\n-   [クイック スタート ガイド: Microsoft Teams での通話プランの設定](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)\n\n次のステップ\n\n1.  個人用に設定された展開についてのガイダンスのために [MyAdvisor](http://aka.ms/myadvisor) に登録する\n2.  Teams 用の電話システムの展開を開始する\n3.  フィードバックを送信してください。\n    - このページの下部にあるコメント セクションから投稿してください。\n    - [AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Calling) 宛にメールを送信してください\n    - Teams に関する製品フィードバックをご提供いただける場合や、新機能のアイディアをお知らせいただける場合は、「[UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)」にアクセスしてください。\n4.  最新に維持します。\n    - [チームのブログ](https://aka.ms/teamsblog)に従います。\n    - [チームのロードマップ](https://aka.ms/skype2teamsroadmap)を参照してください。\n    - [リリース ノート](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)にリリースされた最新の機能について説明します。\n5.  [その他のトレーニングおよびチュートリアル](http://aka.ms/Teamsacademy)を探索してください。"
+  content: "\nこのトレーニングでは次の重要な学習事項を取り上げています。  \n-   Teams での通話について。\n\n-   Teams での通話に関する計画をする方法\n\n-   Teams での通話を構成する方法\n\n詳細については次をご覧ください。\n\n-   [Microsoft Teams の通話プランが設定された電話システムの実践的なガイダンス](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)\n\n-   [クイック スタート ガイド: Microsoft Teams での通話プランの設定](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)\n\n次のステップ\n\n1.  個人用に設定された展開についてのガイダンスのために [MyAdvisor](http://aka.ms/myadvisor) に登録する\n2.  Teams 用の電話システムの展開を開始する\n3.  フィードバックを送信してください。\n    - このページの下部にあるコメント セクションから投稿してください。\n    - Teams に関する製品フィードバックをご提供いただける場合や、新機能のアイディアをお知らせいただける場合は、「[UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)」にアクセスしてください。\n4.  最新に維持します。\n    - [チームのブログ](https://aka.ms/teamsblog)に従います。\n    - [チームのロードマップ](https://aka.ms/skype2teamsroadmap)を参照してください。\n    - [リリース ノート](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)にリリースされた最新の機能について説明します。\n5.  [その他のトレーニングおよびチュートリアル](http://aka.ms/Teamsacademy)を探索してください。"

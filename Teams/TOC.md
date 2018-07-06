@@ -37,7 +37,7 @@
 ### [Teams で役割と権限を割り当てる](assign-roles-permissions.md)
 ## [現代の認証](sign-in-teams.md)
 ## [他の組織内のチームのユーザーとの通信します。](let-your-teams-users-communicate-with-other-people.md)
-## [クラウド voide 展開の手引き](cloud-voice-deployment.md)
+## [クラウド ボイスの展開の手引き](cloud-voice-deployment.md)
 ### [自分の成功を定義します。](1-envision-define-my-success-cloud-voice.md)
 ### [意思決定、サービス ・電話会議](2-envision-make-my-service-decisions-audio-conferencing.md)
 ### [意思決定、サービスの計画を呼び出すと、電話システム](2-envision-make-my-service-decisions-phone-system.md)

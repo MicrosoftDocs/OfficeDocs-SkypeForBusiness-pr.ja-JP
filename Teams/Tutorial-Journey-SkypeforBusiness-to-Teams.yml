@@ -15,14 +15,15 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: c4fc0b4e75a7e4e3cd2c391102580c37c0b826af
-  ms.sourcegitcommit: 8ceb230c058471210b89449dde0034300e6c4da1
+  ms.openlocfilehash: d072c7f8d1ca0998fbe0a1ddee152717b6c69843
+  ms.sourcegitcommit: 1fde3af8f5c93c1328842990c7d14cbc0fbfdf97
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 05/17/2018
+  ms.lasthandoff: 07/05/2018
+  ms.locfileid: "20201359"
 items:
 - durationInMinutes: 1
-  content: "このトレーニングでは、新しいインテリジェント コミュニケーション ビジョンを説明し、今後の Skype for Business と Teams について説明します。\n\nこのトレーニングは、次のようなお客様を対象としています。 \n\n- IT 専門家 \n\n- Skype for Business の計画、展開、管理の責任者\n\n- ご自身の組織で Teams を導入する方法について関心がある方\n\nこれらの 2 つの製品を一緒に使用する方法について、および既存の Skype for Business 環境を Teams のために整備するために現時点で何が行うことができるかについて、詳しく説明します。 このチュートリアルでの重要な学習事項は次のとおりです。\n\n- インテリジェント コミュニケーション ビジョンについて理解する\n\n- Skype for Business Online から Teams への移行について理解する\n\n- 今すぐ開始する必要があるアクションについて理解する\n\nTeams を有効にするための手順や、Skype for Business と Teams を共存して実行する方法については、ここでは取り上げません。 それらの詳細については、次のリソースをご覧ください。\n\n- Microsoft Ignite 2017 セッション: [ユーザーのために Microsoft Teams を有効にして設定する方法](https://myignite.microsoft.com/sessions/53318)\n\n- [Skype for Business と Teams のアップグレードによる移行と共存環境](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) \n\nこのトレーニングについてご質問やフィードバックがある場合は、次の方法でお送りください。\n\n- このチュートリアルの「次のステップ」ページの下部にあるコメント セクションから投稿してください</a>\n\n- [AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Journey) 宛にメールを送信してください\n\n- 機能のリクエストなど、製品に関するフィードバックを提供する場合は、[UserVoice](https://microsoftteams.uservoice.com/forums/555103-public) に移動してください。\n"
+  content: "このトレーニングでは、新しいインテリジェント コミュニケーション ビジョンを説明し、今後の Skype for Business と Teams について説明します。\n\nこのトレーニングは、次のようなお客様を対象としています。 \n\n- IT 専門家 \n\n- Skype for Business の計画、展開、管理の責任者\n\n- ご自身の組織で Teams を導入する方法について関心がある方\n\nこれらの 2 つの製品を一緒に使用する方法について、および既存の Skype for Business 環境を Teams のために整備するために現時点で何が行うことができるかについて、詳しく説明します。 このチュートリアルでの重要な学習事項は次のとおりです。\n\n- インテリジェント コミュニケーション ビジョンについて理解する\n\n- Skype for Business Online から Teams への移行について理解する\n\n- 今すぐ開始する必要があるアクションについて理解する\n\nTeams を有効にするための手順や、Skype for Business と Teams を共存して実行する方法については、ここでは取り上げません。 それらの詳細については、次のリソースをご覧ください。\n\n- Microsoft Ignite 2017 セッション: [ユーザーのために Microsoft Teams を有効にして設定する方法](https://myignite.microsoft.com/sessions/53318)\n\n- [Skype for Business と Teams のアップグレードによる移行と共存環境](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) \n\nこのトレーニングについてご質問やフィードバックがある場合は、次の方法でお送りください。\n\n- このチュートリアルの「次のステップ」ページの下部にあるコメント セクションから投稿してください</a>\n\n- 機能のリクエストなど、製品に関するフィードバックを提供する場合は、[UserVoice](https://microsoftteams.uservoice.com/forums/555103-public) に移動してください。\n"
 - title: インテリジェント コミュニケーションについて理解する
   durationInMinutes: 4
   content: >
@@ -111,5 +112,4 @@ items:
 
     5.  フィードバックの送信
         - このトレーニングについてのフィードバックや質問を、このページの下部にある [**コメント**] セクションからお寄せください
-        - [AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Journey) 宛にメールを送信してください
         - Teams 製品のフィードバックまたは新しい機能のリクエストを送信するには、[Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public) に移動してください
