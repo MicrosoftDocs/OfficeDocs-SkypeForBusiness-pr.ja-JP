@@ -1,5 +1,5 @@
 ---
-title: 通話分析を使用して Skype for Business の低い通話品質をトラブルシューティングする
+title: 通話分析を使用して低い通話品質をトラブルシューティングする
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -19,19 +19,21 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Skype のビジネス通話や会議のためのユーザーの問題を解決するのには、分析機能の呼び出しの詳細については、デバイス、ネットワーク、および接続を使用します。
-ms.openlocfilehash: 933c041fd9683dd84d82fd9abdcf4cc627cf4366
-ms.sourcegitcommit: 26d93a15c9d4704c08f3fabc5635839ce2456b2d
+ms.openlocfilehash: 3610aff4b82f7d1fb0016a8934ec0feb640cc8ff
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/06/2018
-ms.locfileid: "20205007"
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211007"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>通話分析を使用して低い通話品質をトラブルシューティングする
 
-呼び出しの分析では、Microsof チームと、ビジネスの Skype の呼び出し、または接続の問題をトラブルシューティングすることができます。 コール分析では、Office 365 アカウントでデバイス、ネットワーク、および呼び出しと各ユーザーの会議のための接続に関する詳細情報が表示されます。 サイトを作成する場合と、テナント情報が追加されました分析機能の呼び出しを呼び出し、およびセッションごとにも表示されます。 情報分析機能の呼び出しを使用できます不適切な呼び出しを持っていた理由の解明や、会議を経験します。 
+呼び出しの分析では、マイクロソフトのチームと、ビジネスの Skype の呼び出し、または接続の問題をトラブルシューティングすることができます。 コール分析では、Office 365 アカウントでデバイス、ネットワーク、および呼び出しと各ユーザーの会議のための接続に関する詳細情報が表示されます。 サイトを作成する場合と、テナント情報が追加されました分析機能の呼び出しを呼び出し、およびセッションごとにも表示されます。 情報分析機能の呼び出しを使用できます不適切な呼び出しを持っていた理由の解明や、会議を経験します。 
   
-> [!NOTE]
-> 呼び出しの分析では、マイクロソフトのチームと Skype ビジネス管理センターのhttps://admin.teams.microsoft.com。  ヘルプデスク エージェントのアクセス許可とネットワーク トポロジのアップロードがで使用できる新しい管理ポータルで、今後数か月。  エンドポイントを使用する続行する間に、https://adminportal.services.skypeforbusiness.comの第 1 層および第 2 層のヘルプデスクへのアクセス。
+**コール分析では、マイクロソフトのチームとビジネス管理センターの Skype です。** すべてのコール情報とユーザーのデータを表示するには、[**呼び出し履歴**] タブを使用します。ダッシュ ボードからユーザーを検索するか、[プロファイル] ページでユーザーの検索、または左側のナビゲーションで、**ユーザー**からユーザーを検索してこれを行うことができます。
+
+> [!IMPORTANT]
+> ヘルプデスク エージェントのアクセス許可とネットワーク トポロジのアップロードがで使用できる新しい管理ポータルで、今後数か月。 使用を続行する間、https://adminportal.services.skypeforbusiness.comの第 1 層および第 2 層のヘルプデスクへのアクセス。
   
 ## <a name="troubleshoot-call-quality-problems-using-call-analytics"></a>分析機能の呼び出しを使用して通話品質の問題のトラブルシューティングを行う
 

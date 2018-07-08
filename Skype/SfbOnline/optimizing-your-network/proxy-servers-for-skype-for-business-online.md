@@ -18,11 +18,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: この記事は、Skype for Business でのプロキシ サーバーの使用に関するガイダンスを提供します。
-ms.openlocfilehash: a4369208ab277e0eb5490a637421de605235a0cd
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: fcae4ec366845818d515a4d78c79ea77d038a4a5
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211024"
 ---
 # <a name="proxy-servers-for-skype-for-business-online"></a>Skype for Business Online 向けのプロキシ サーバー
 
@@ -54,24 +55,6 @@ Microsoft は次を実行することもお勧めします。
     
 このガイダンスに従うことで、問題が生じる可能性が最小になります。
   
-## <a name="proxy-vendors-with-built-in-skype-for-business-support-or-configuration-options"></a>組み込みの Skype for Business サポートまたは構成オプションを備えたプロキシ ベンダー
-
-このセクションは、Skype for Business トラフィックに対して正常に機能することが証明されている製品またはサービスを提供するプロキシ ベンダーについての情報を示します。
-  
-**Blue Coat プロキシ ソリューション** を使用する組織に対しては、次の複数の問題に対処する新しいファームウェアがリリースされています。
-    
-  - SSL 傍受
-    
-  - OCSP/SRL チェック
-    
-  - TLS 経由の SIP
-    
-  - TURN に対するサポート
-    
-Skype for Business に対する Blue Coat のネイティブ サポートは簡単に有効にすることができ、関連トラフィックの識別と、適切な管理が実現します。これにより最適な認証、シグナリング、メディア トラフィック フローを確実に行えるようになり、セキュリティ上の心配がない優れたユーザー エクスペリエンスが提供されます。
-    
-Bluecoat のプロキシが、ネットワーク トポロジの一部である場合は、次のリンクを参照してください。https://support.symantec.com/en_US/article.DOC9757.html
-
 ## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 
 [Skype for Business Online 向けのネットワークの最適化](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)
