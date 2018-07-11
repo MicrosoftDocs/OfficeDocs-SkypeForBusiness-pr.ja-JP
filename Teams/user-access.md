@@ -13,10 +13,11 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a612420808af06a773d206573f02d805aac06b15
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "20265884"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Microsoft Teams へのユーザー アクセスを管理する
 =====================================
@@ -46,7 +47,7 @@ E3 または E5 といったライセンス SKU をユーザーに割り当て�
 
 PowerShell からワークロード ライセンスとして Teams を有効または無効にすることは、別のワークロードとして実行されます。 Microsoft Teams ではサービス プランの名前は TEAMS1 になります。 (詳細については、「[Office 365 PowerShell を使用してサービスへのアクセスを無効にする](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell)」をご覧ください。)
 
-**サンプル:**クイック サンプルだけに特定のライセンスの種類のすべてのユーザーのチームを無効する方法を次に示します。 まずこの方法を行い、次にパイロットで使用する目的でアクセスが必要なユーザーに対して個別に有効にする必要があります。
+**サンプル:** クイック サンプルだけに特定のライセンスの種類のすべてのユーザーのチームを無効する方法を次に示します。 まずこの方法を行い、次にパイロットで使用する目的でアクセスが必要なユーザーに対して個別に有効にする必要があります。
 
 組織内で利用可能なサブスクリプションの種類を表示するには、次のコマンドを使用します。
 

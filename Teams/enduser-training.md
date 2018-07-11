@@ -10,12 +10,12 @@ ms.reviewer: lolaj, ninadara
 description: 管理者が Microsoft Teams の展開と導入を正常に完了できるようになるために使用できるトレーニング リソースです。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcfefb62ab0c9bbe7b24addd8ee74c3e188edcf6
-ms.sourcegitcommit: b859f9b3cb89f0b0ac4aacbba75f916e38981a26
+ms.openlocfilehash: 12c490717f0b2b6242735a01bd4e420588b3b06f
+ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20091575"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "20266109"
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams のエンド ユーザー トレーニング
 =====================================
@@ -24,12 +24,12 @@ ms.locfileid: "20091575"
 
 |  |  |
 |---------|---------|
-| [Office トレーニング センター](https://support.office.com/article/Microsoft-Teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) | Microsoft Teams を最大限に活用できるようユーザーを支援するためのトレーニング |
-| [Microsoft Teams のヘルプ](https://support.office.com/teams) | Teams エンドユーザーの製品ドキュメンテーション |
+| [チームのビデオ トレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) | チームを最大限に活用する、ユーザーを支援するトレーニング |
+| [チームのヘルプ](https://support.office.com/teams) | Teams エンドユーザーの製品ドキュメンテーション |
 | [Team にようこそ](https://support.office.com/article/Welcome-to-Microsoft-Teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)  |  取得するためのガイドと Office 365 のチャット中心のワークスペース、チームで迅速に実行します。 |
 | [ビジネスの Skype からのチームに切り替える](https://support.office.com/en-us/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)  |  使い慣れた機能を使用し、新機能について説明する方法を参照してください。 |
-| [Microsoft Teams のヒントとコツ](https://support.office.com/office-training-center/Teams-tips) |  |
-| [Microsoft Teams とは何ですか?](https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12) | チームワークのハブとなる、Teams についての簡潔な紹介  |
+| [チームのヒントと秘訣](https://support.office.com/office-training-center/Teams-tips) |  |
+| [チームとは何ですか。](https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12) | チームワークのハブとなる、Teams についての簡潔な紹介  |
 | [YouTube での Microsoft Teams チャネル](https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw) |  |
 | [YouTube の Coffee in the Cloud チャンネル](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) |操作方法、ベスト プラクティス、および機能レビューのビデオ  |
 | Microsoft Teams の紹介   | <iframe width="350" height="200" src="https://www.youtube.com/embed/GPmjfqnvuG4" frameborder="0" allowfullscreen></iframe>   |

@@ -10,15 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: '概要: ビジネス サーバー 2015 の Skype での永続的なチャット サーバーのハードウェアおよびソフトウェアの要件の詳細については、このトピックを読みます。'
-ms.openlocfilehash: a56f939360edae0da47198e4a3810f70712b6ab8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8db3bda71cb27ec059dcf4c73f8d4754ffcb8b2d
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246657"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の常設チャット サーバーのハードウェアおよびソフトウェア要件
  
-**の概要:**ビジネス サーバー 2015 の Skype での永続的なチャット サーバーのハードウェアおよびソフトウェアの要件の詳細については、このトピックを参照してください。
+**の概要:** ビジネス サーバー 2015 の Skype での永続的なチャット サーバーのハードウェアおよびソフトウェアの要件の詳細については、このトピックを参照してください。
   
 ビジネス サーバー 2015 の Enterprise Edition または Standard Edition は、Skype で永続的なチャット サーバーをインストールできます。 要件は、ビジネス サーバー 2015 の Skype のエディションをインストールして、ビジネスのパフォーマンスの要件によって異なります。 Enterprise Edition は 80,000 同時ユーザーまでサポートできます。Standard Edition は、最大 20,000 人のユーザーをサポートできます。 永続的なチャットは、フロント エンド コンポーネントとバック エンド SQL のデータベース コンポーネントで構成されます。
   
@@ -59,10 +60,12 @@ ms.lasthandoff: 03/28/2018
 データベース サーバー プラットフォームを準備するには、各コンピューターがハードウェア要件を満たしていることを確認した後、必要なソフトウェアをインストールします。 データベースの永続的なチャット サーバーのサーバー プラットフォームでは、ビジネス サーバー 2015 のバックエンド データベース サーバーに、Skype と同じハードウェアが必要です。 詳細については、[ビジネス サーバー 2015 の Skype のサーバーの要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)を参照してください。
   
 次のどちらかのソフトウェア アプリケーションがデータベース サーバーにインストールされていることを確認してください。
-  
-- Microsoft SQL Server 2012。 Microsoft SQL Server 2012 をインストールする方法の詳細については、 [SQL Server 2012 のインストール](https://go.microsoft.com/fwlink/p/?LinkID=248559)を参照してください。
-    
-- Microsoft SQL Server 2008 R2。 Microsoft SQL Server の 2008 R2 をインストールする方法の詳細については、 [SQL Server のインストール (SQL Server 2008 R2)](https://go.microsoft.com/fwlink/p/?LinkId=275702)を参照してください。
+
+- 2016 を Microsoft SQL Server、および場合は、業務サーバーの累積的な更新プログラム 7 またはそれ以降のリリースの Skype で実行しなければなりません。 最新の service pack と 2016 の SQL Server を実行していることをお勧めします。 2016 の Microsoft SQL Server をインストールする方法の詳細については、 [SQL Server 2016 のインストール](https://docs.microsoft.com/pt-pt/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016)を参照してください。
+
+- Microsoft SQL Server 2012 (64 ビット版) とは、最新の service pack を実行するをお勧めします。 Microsoft SQL Server 2012 をインストールする方法の詳細については、 [SQL Server 2012 のインストール](https://go.microsoft.com/fwlink/p/?LinkID=248559)を参照してください。
+
+- Microsoft SQL Server 2008 R2 (64 ビット版) とは、最新の service pack を実行するをお勧めします。 Microsoft SQL Server の 2008 R2 をインストールする方法の詳細については、 [SQL Server のインストール (SQL Server 2008 R2)](https://go.microsoft.com/fwlink/p/?LinkId=275702)を参照してください。 
     
 ## <a name="persistent-chat-server-certificate-requirements"></a>永続的なチャット サーバーの証明書の要件
 
@@ -72,8 +75,8 @@ ms.lasthandoff: 03/28/2018
 
 ハードウェアおよびソフトウェアの要件の詳細については、次のトピックを参照してください。
   
-- [ビジネス サーバー 2015 の Skype のサーバーの要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+- [Skype for Business Server 2015 のサーバー要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
     
-- [ビジネス サーバー 2015 の Skype の環境の要件](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)
+- [Skype for Business Server 2015 の環境要件](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)
     
 

@@ -10,12 +10,12 @@ ms.reviewer: marcl, ninadara
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65417bc9d64ac895811736f11dfdb565c42704f2
-ms.sourcegitcommit: f7554cd4fab65ce948aba269f8aabde2fe5fa082
+ms.openlocfilehash: ee04fc9452342b78dc94a3c5c4e977f944d9164b
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "20136935"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246547"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
   
@@ -100,10 +100,6 @@ ms.locfileid: "20136935"
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
 |Skype for Business オンプレミスのユーザーがメッセージを受信していません  <br/> |メッセージは、Microsoft Teams ユーザーが Skype for Business オンプレミスを使用している別のユーザーにメッセージを送信しようとする時点では完了しません。  <br/> | Skype for Business Online にホストされる Teams とユーザー間の相互運用性がサポートされています。 Teams ユーザーは、Skype for Business Online を使用して Teams 以外のユーザーに 1 対 1 のチャットを送信できます。 <br/> Skype for Business オンプレミスにホストされる Teams とユーザー間の相互運用性はサポートされていません。 Teams ユーザーは、Skype for Business オンプレミスを使用して Teams 以外のユーザーに 1 対 1 のチャットを送信することはできません。  <br/> |2016/11/02  <br/> |
-
-|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
-|:-----|:-----|:-----|:-----|
-|Skype for Business オンプレミスのユーザーがメッセージを受信していません  <br/> |メッセージは、Microsoft Teams ユーザーが Skype for Business オンプレミスを使用している別のユーザーにメッセージを送信しようとする時点では完了しません。 <br/> | Skype for Business Online にホストされる Teams とユーザー間の相互運用性がサポートされています。 Teams ユーザーは、Skype for Business Online を使用して Teams 以外のユーザーに 1 対 1 のチャットを送信できます。 <br/> Skype for Business オンプレミスにホストされる Teams とユーザー間の相互運用性はサポートされていません。 Teams ユーザーは、Skype for Business オンプレミスを使用して Teams 以外のユーザーに 1 対 1 のチャットを送信することはできません。 <br/> |2016/11/02  <br/> |
 
 ## <a name="client"></a>クライアント
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
