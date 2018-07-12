@@ -250,6 +250,7 @@
 #### [直接ルーティングを計画します。](direct-routing-plan.md)
 #### [直接ルーティングを構成します。](direct-routing-configure.md)
 #### [直接ルーティングへの移行](direct-routing-migrating.md)
+#### [監視し、直接ルーティングのトラブルシューティングを行う](direct-routing-monitor-and-troubleshoot.md)
 #### [PSTN への接続を持つハイブリッド環境でのユーザー アカウント](direct-routing-user-accounts-in-a-hybrid-environment.md)
 #### [複数のテナントのセッション ボーダー コント ローラーを構成します。](direct-routing-sbc-multiple-tenants.md)
 #### [セッション ボーダー コント ローラーが直接ルーティングするための認定の一覧](direct-routing-border-controllers.md)
