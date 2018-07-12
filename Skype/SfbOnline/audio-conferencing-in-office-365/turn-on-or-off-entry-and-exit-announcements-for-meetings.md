@@ -1,5 +1,5 @@
 ---
-title: オンまたはオフの会議の開始と終了のお知らせ
+title: 会議の入退室通知をオンまたはオフにする
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,17 +20,21 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'エントリを有効にして、Skype、Skype を使用するビジネス管理センターのオンライン ビジネスの会議のためにアナウンスをオンまたはオフを終了する方法について説明します。 '
-ms.openlocfilehash: 8c2eee6d9a6631fa9ade4e3f1dc4b54b74ea4465
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9cd2c95d0dde2e61ca1f0378fe91a215bdfc2682
+ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20302153"
 ---
-# <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings"></a>オンまたはオフの会議の開始と終了のお知らせ
+# <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings"></a>会議の入退室通知をオンまたはオフにする
 
 Office 365 に電話会議を設定する場合、オーディオ会議ブリッジが表示されます。 会議用ブリッジは、ビジネスまたはマイクロソフトのチームの会議のため、Skype へのコールを使用する 1 つまたは複数の電話番号を含めることができます。 
   
 会議用ブリッジの電話を使用して会議にダイヤルインするユーザーが呼び出しに応答します。 会議用ブリッジ会議自動アテンダントからの音声メッセージを呼び出し元に応答しの設定によってことができます再生の通知は、呼び出し元が自分の名前を記録し、暗証番号 (pin) のセキュリティを設定するに問い合わせてください。 Skype をビジネスまたはマイクロソフトのチーム会議の開催者に、暗証番号 (pin) が与えられたことができ、Skype を使用してアプリケーションのビジネスまたはマイクロソフトのチームのミーティングを開始することはできない場合は、会議を開始することです。 できます、ただし、ように設定すると、暗証番号 (pin) が会議を開始する必要はありません。
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-meeting-join-options"></a>ミーティングの参加オプションの設定
 
@@ -48,7 +52,7 @@ Office 365 に電話会議を設定する場合、オーディオ会議ブリッ
     
 6. 変更を行ったら、[**適用**を] をクリックします。
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
     
 1. 既定値は 5 です。
     
@@ -60,12 +64,10 @@ Office 365 に電話会議を設定する場合、オーディオ会議ブリッ
     
 5. 変更したら [ **保存**] をクリックします。
     
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell で管理する方法
 
-- 時間を短縮または、これを自動化するには、[セット CsOnlineDialInConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686 )コマンドレットを使用することができます。
+- 時間を短縮または、これを自動化するには、[セット CsOnlineDialInConferencingTenantSettings](https://docs.microsoft.com/en-us/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps)コマンドレットを使用することができます。
     
 -  Windows PowerShell の場合、Skype for Business Online はユーザーの管理と、ユーザーが許可されている操作や許可されていない操作の管理に使います。Windows PowerShell により、単一の管理ポイントを使って Office 365 を管理でき、複数の作業を実行する必要があるときに日常業務を合理化できます。Windows PowerShell を使い始めるには、次のトピックを参照してください。
     
