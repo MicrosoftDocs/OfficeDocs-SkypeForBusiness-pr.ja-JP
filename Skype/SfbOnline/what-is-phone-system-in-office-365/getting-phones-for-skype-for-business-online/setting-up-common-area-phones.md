@@ -17,13 +17,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 適切なファームウェアを入手し、必要に応じてアップデートし、ライセンスを割り当て、共用エリア電話の設定を構成するための展開手順を学びます。
-ms.openlocfilehash: 25605e7538792080213eebb898e612be6ce5bfab
-ms.sourcegitcommit: bdf9946b7c65ef7985d6b03a1479ea3a5c17a304
+description: 共有エリアの電話について、適切なファームウェアを入手し、必要に応じて更新し、ライセンスを割り当て、設定を構成するための展開手順を学びます。
+ms.openlocfilehash: b32995839da45975449cd8b4cd077c97cff8ad38
+ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2018
-ms.locfileid: "19426803"
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20302182"
 ---
 # <a name="set-up-common-area-phones"></a>共通エリア電話機を設定する
 共用エリア電話機（CAP）は、一般に、ロビーや多くの人々が利用できるエリアに配置されます。 たとえば、受付エリアの電話機、ドアホンまたは会議室の電話機など、CAPは、ユーザーではなくデバイスとして設定され、自動的にネットワークにサインインされます。 以下の手順では、電話システムとコールプランのアカウントを設定して、所属する組織にこれらのタイプの電話機を導入する方法を説明します。
@@ -36,9 +36,9 @@ ms.locfileid: "19426803"
  - 承認された電話機を検索して購入してください（リストを表示する [ここに](deploying-skype-for-business-online-phones.md)）。         
  - 電話機のファームウェアを更新します（[ このトピックで](getting-phones-for-skype-for-business-online.md) 、サポートされているファームウェアを参照してください）。  以下のことを行うことで電話機のファームウェアを確認することができます：       
     - **Polycom VVX 電話機**： **[設定]** >  **[ステータス]** > **[プラットフォーム]** > **[アプリケーション]** > **[メイン]** に移動します。
-    - **Yealink 電話機**：メインの電話画面で   **[ステータス]** に移動します。
+    - **Yealink の電話機**：メイン電話画面で  **［状態］** に移動します。
     - **AudioCodes 電話機 **：スタート画面から **[メニュー]** > **[デバイスメニュー]** > **[ファームウェアのバージョン]** に移動します。 
-    - **Lync Phone Edition (LPE) 電話機**：スタート画面から **[メニュー]** > **[システム情報]** に移動します。
+    - **Lync Phone Edition (LPE) 電話機** ：スタート画面から [**［メニュー］** > **［システム情報］** に移動します。
 
     ファームウェアのアップデートは、Skype for Business Serviceによって管理されます。 Skype for Business で認証された電話機のファームウェアはすべて Skype for Business Update サーバーにアップロードされ、既定ではすべての電話機でデバイス アップデートが有効になります。 
 
@@ -52,12 +52,12 @@ ms.locfileid: "19426803"
 
     ![CAP-license.png](../../images/cap-license.png)
 2. **[共用エリア電話機]** > **[今すぐ購入]** をクリックし、**[チェックアウト]** ページで **[今すぐ購入]** をクリックします。
-3. クリックして **[アドオン購読]** を拡大し、さらにクリックしてコールプランを購入します。 **[国内コールプラン]** または **[国際コールプラン]** のいずれかを選択します。
+3. クリックして **[アドオン購読]** を拡大し、さらにクリックしてコールプランを購入します。 **［国内通話プラン］**  または  **［国内および国際通話プラン］** のいずれかを選択します。
 
 > [!Note]
 > 電話システムのライセンスは必要ありません。 ** 共用エリア電話機 ** のライセンスに含まれています。
 
-ライセンスの詳細については、「[Skype for Business とMicrosoft Teams アドオン ライセンス](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) 」を参照してください。
+ライセンスの詳細については、「[Skype for Business と Microsoft Teams アドオン ライセンス](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) 」を参照してください。
 
 ### <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>手順 2  - 電話機の新しいユーザアカウントを作成し、ライセンスを割り当てます
 1. Office 365の管理センターでは、 **[ユーザー]** > **[アクティブユーザー]** > **[ユーザーを追加する]** に移動してください。
@@ -100,7 +100,7 @@ ms.locfileid: "19426803"
 
 さらなる情報については、 [[ユーザーの電話番号を取得する]](../../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md) を参照してください。
 
-迷っている場合は、別のキャリアや "*ポート* " で持っている電話番号を使用するか、それらをOffice 365 へ移行することもできます。 「[ Office 365 に電話番号を移行する](../../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md) 」を参照してくさい。
+迷っている場合は、別のキャリアや "*ポート* " で持っている電話番号を使用するか、それらをOffice 365 へ移行することもできます。 「[ Office 365 に電話番号を移行](../../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md) 」を参照してください。
 
 ### <a name="step-4---setting-up-your-phone"></a>手順 4  - 電話機を設定する
 
@@ -128,7 +128,7 @@ ms.locfileid: "19426803"
 
     1. **[設定]** > **[機能]** > **[Skype for Business]** を選択してサインインします。
     2. **[ユーザーの資格情報]** を選択し、さらに **[ウェブサインイン（CAP）]** を選択してコードを生成します。
-    3.  [[事前設定ポータル]](http://aka.ms/skypecap) に移動し、**管理者** としてログインします。
+    3. [[事前設定ポータル]](http://aka.ms/skypecap) に移動し、**管理者** としてログインします。
     4. 表示名（Main Reception など）を入力します。
 
        > [!Note]
@@ -137,10 +137,15 @@ ms.locfileid: "19426803"
     5. ペアリング コード ウィンドウで、電話機に表示されているコードを入力して **[事前設定]** をクリックします。
 
         この最後の手順の後、電話機は自動的にサインインします。
+        
 
-### <a name="related-topics"></a>関連トピック
+> [!NOTE]
+> CAP 事前設定サイトには、CAP アカウントのパスワードがランダムなパスワードにリセットされると記載されています。 CAP が参照しているアカウントが Azure Active Directory（AAD）アカウントであることに注意してください。 AAD でアカウントを作成した場合は、そのプロセスは簡単です。 オンプレミス Active Directory を AAD に同期させている場合は、CAP 事前設定によって変更される使用している資格情報に注意してください。
+
+
+### <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 
 - 利用可能な電話の詳細については  「[Skype for Business Online 電話の導入](deploying-skype-for-business-online-phones.md)」をご覧ください。
-- [Skype for Business Online で使う電話を入手する](getting-phones-for-skype-for-business-online.md)
+- [Skype for Business Online を利用できる電話機の取得](getting-phones-for-skype-for-business-online.md)
 
 

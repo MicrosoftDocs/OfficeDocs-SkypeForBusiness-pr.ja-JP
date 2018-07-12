@@ -3,12 +3,12 @@ layout: HubPage
 hide_bc: true
 title: Skype for Business
 description: Skype for Business
-ms.openlocfilehash: 8c09204d6651787de29de48e37ff517b5d70a746
-ms.sourcegitcommit: fb1022abfa10e9cc07528e9b6b821a7214bf45bd
+ms.openlocfilehash: 1962f30a1a6ea4f6822c369c95dd1d72758e8e6d
+ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19942663"
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20299388"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -51,7 +51,7 @@ ms.locfileid: "19942663"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>ハイブリッド ソリューション</h3>
-                                                    <p>Skype for Business ハイブリッド展開の計画について説明します。</p>
+                                                    <p>Skype for Business ハイブリッド展開の計画に関する情報を検索します。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -127,7 +127,7 @@ ms.locfileid: "19942663"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Skype for Business から Microsoft Teams への移行</h3>
-                                                    <p>Teams への最適な移行パスを見つけるためのガイダンスやツールをご覧ください。</p>
+                                                    <p>Teams への最適な移行パスを見つけるためのガイダンスやツールを検索します。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -145,8 +145,27 @@ ms.locfileid: "19942663"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Skype Room Systems v2</h3>
+                                                    <h3>Skype ミーティング システム v2</h3>
                                                     <p>Skype ミーティング システム v2 を計画、展開、管理する方法を理解します。</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>                            
+                            <li>
+                                <a href="/SkypeForBusiness/certification/overview">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-Certified-400x140.svg" alt="Certification" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Skype for Business 認定プログラム</h3>
+                                                    <p>認定されたソリューションとデバイスについて学びます。</p>
                                                 </div>
                                             </div>
                                         </div>
