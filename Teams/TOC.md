@@ -29,9 +29,10 @@
 ## [Teams へのユーザー アクセスを管理する](user-access.md)
 ## [Teams のクライアントを取得する](get-clients.md)
 ### [チームのアプリケーションのハードウェア要件](hardware-requirements-for-the-teams-app.md)
-### [MSI を使用してマイクロソフトのチームをインストールします。](msi-deployment.md)
+### [MSI を使用するチームをインストールします。](msi-deployment.md)
 ### [サーフェスのハブのチームを配置します。](teams-surface-hub.md)
-## [組織でマイクロソフトのチームを有効にします。](Office-365-set-up.md)
+## [チームを仮想環境で実行します。](virtual-environment-teams.md)
+## [組織内のチームを有効にします。](Office-365-set-up.md)
 ## [組織内のチームの機能を管理します。](enable-features-office-365.md)
 ### [新しいマイクロソフトのチームとビジネス管理センターの Skype に移行する際のチームを管理します。](manage-teams-skypeforbusiness-admin-center.md)
 ### [Teams で役割と権限を割り当てる](assign-roles-permissions.md)
@@ -70,7 +71,7 @@
 ### [Skype for Business の通話分析をセットアップする](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [通話分析を使用して Skype for Business の低い通話品質をトラブルシューティングする](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [呼び出しを分析し、通話品質のダッシュ ボード](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Teams 用の PowerShell コマンドレット リファレンス](https://docs.microsoft.com/powershell/module/teams)
+
 ## トラブルシューティングとサポート
 ### [Teams の既知の問題](Known-issues.md)
 ### [Teams のサポート リソース](support-resources.md)
@@ -264,5 +265,6 @@
 ## [教育管理者のチーム リソース](resources-teams-edu.md)
 <!-- ============================================================ -->
 
+# [Teams 用の PowerShell コマンドレット リファレンス](https://docs.microsoft.com/powershell/module/teams)
 
 # [開発者向けの Teams のマニュアル](https://docs.microsoft.com/microsoftteams/platform)

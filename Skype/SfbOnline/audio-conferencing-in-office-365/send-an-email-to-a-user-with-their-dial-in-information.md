@@ -1,5 +1,5 @@
 ---
-title: ダイヤルイン情報を持つユーザーに電子メールを送信します。
+title: ユーザーにダイヤルイン情報が含まれたメールを送信する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: ユーザーの音声会議情報を使用して電子メールを送信します。
-ms.openlocfilehash: 0ac6aa097b9c34c23c27afb2e99e4e40e3f587c8
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 28d3f83259033b5e587c299464a334710797e149
+ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20324125"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information"></a>ユーザーにダイヤルイン会議情報が含まれたメールを送信する
 
@@ -38,6 +39,9 @@ ms.lasthandoff: 05/08/2018
 送信されるメールの例を以下に示します。
   
 ![ダイヤルイン会議のメール](../images/audio-conferencing-info.png)
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>オーディオ会議の情報を使用して電子メールをユーザーに送信します。
 
@@ -47,11 +51,7 @@ ms.lasthandoff: 05/08/2018
 
 2. ページの上部で、[**編集**] をクリックします。
 
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
 
 1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
 
@@ -88,9 +88,9 @@ ms.lasthandoff: 05/08/2018
     
 - 既定では、電子メールの送信者は、Office 365 からされますが、メール アドレスの変更し、Windows PowerShell と[セット CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=708983)コマンドレットを使用して名前を表示できます。 ユーザーに電子メールを送信する電子メール アドレスを変更するには、次の操作を行う必要があります。
     
-  - SendEmailFromAddress パラメーターでは、電子メール アドレスを入力します。
+  - Enter the email display name in the  SendEmailFromDisplayName parameter.
     
-  - SendEmailOverride パラメーターを True に設定します。
+  - メール アドレス情報を変更したい場合は、カスタムのメール アドレスから送信されるメールが、組織の受信メール ポリシーで許可されていることを確認する必要があります。
     
   - SendEmailFromDisplayName パラメーターでは、電子メールの表示名を入力します。
     

@@ -1,5 +1,5 @@
 ---
-title: フリー ダイヤルの番号を特定のユーザーを無効にします。
+title: 特定のユーザーのフリーダイヤル番号を無効にする
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,13 +17,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 管理者は、開催者が、ミーティングのフリー ダイヤル番号を使用する方法を制御できます。
-ms.openlocfilehash: a63078256ac9ac52b3d405bd3cf1b63120fb77ce
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 2f506163ce815f71d18935040dbf13bf4af4f04c
+ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20324143"
 ---
-# <a name="disabling-toll-free-numbers-for-specific-users"></a>フリー ダイヤルの番号を特定のユーザーを無効にします。
+# <a name="disabling-toll-free-numbers-for-specific-users"></a>特定のユーザーのフリーダイヤル番号を無効にする
 
 組織では、その Microsoft オーディオ会議用ブリッジにフリー ダイヤル番号が含まれる場合は、許可または特定の開催者の会議での使用を防止できます。  
 
@@ -40,7 +41,10 @@ ms.lasthandoff: 05/03/2018
 
  - 参加者は、有料電話番号を使用して、開催者の会議への参加を継続できます。 
 
-## <a name="disabling-toll-free-numbers-for-specific-users"></a>フリー ダイヤルの番号を特定のユーザーを無効にします。 
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+## <a name="disabling-toll-free-numbers-for-specific-users"></a>特定のユーザーのフリーダイヤル番号を無効にする 
 
 ![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
 
@@ -54,7 +58,7 @@ ms.lasthandoff: 05/03/2018
 
 5. クリックして**を適用します**。 
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
 
 1. **電話会議**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **のユーザー**、および利用可能なユーザーの一覧からユーザーを選択します。 
 

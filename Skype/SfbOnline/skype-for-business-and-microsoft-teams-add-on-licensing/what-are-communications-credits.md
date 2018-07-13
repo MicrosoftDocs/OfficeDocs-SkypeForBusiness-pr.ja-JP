@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 5d3a1c2b3565f8497bf108d9af6ad44379f2515b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 070816cf38fd86bf89bb05d27f1aedf5a5f90da5
+ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20326997"
 ---
 # <a name="what-are-communications-credits"></a>通信クレジットについて
 
@@ -76,7 +77,7 @@ Each organization will have a different usage of Calling Plans volume and rates 
   
 ## <a name="recommended-funding-amounts"></a>推奨される入金額
 
-資金調達、小さいものを比較的小規模な組織でも 20 ドルの最小値である可能性がありますを使用して開始することをお勧めします。 1 か月または 2 つの PSTN 使用法の詳細レポートを使用して PSTN 使用法を収集した後、組織内の通常の使用状況に対応する金額を調整することができます。
+資金調達、小さいものを小規模な組織の可能性があります $50 の最小値にもを使用して開始することをお勧めします。 1 か月または 2 つの PSTN 使用法の詳細レポートを使用して PSTN 使用法を収集した後、組織内の通常の使用状況に対応する金額を調整することができます。
   
 すべてのセットアップを行える状態になっている場合は、「[組織のために通信クレジットをセットアップする](set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
