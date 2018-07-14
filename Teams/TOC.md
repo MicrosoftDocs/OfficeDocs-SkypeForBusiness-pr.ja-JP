@@ -122,7 +122,7 @@
 
 
 <!-- ============================================================ -->
-# Office 365 の Interopearability
+# Office 365 との相互運用性
 ## [移行とビジネス用の Skype では、相互運用性](migration-interop-guidance-for-teams-with-skype.md)
 ## [共存を設定し、設定をアップグレードします。](setting-your-coexistence-and-upgrade-settings.md)
 ## [Office 365 グループと Teams](office-365-groups.md)
@@ -165,6 +165,11 @@
 ### [チーム クラウドのミーティングのレコーディング](cloud-recording.md)
 ### [Outlook で Teams の会議アドインを使用する](teams-add-in-for-outlook.md)
 ### [Meeting Migration Service (MMS) のセットアップ](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+### ライブ イベント
+#### [ライブ イベントをチームは何ですか。](what-are-teams-live-events.md)
+
+
+
 ## アプリとサービス
 ### [Teams でのアプリの管理設定](admin-settings.md)
 ### [Teams でプライベートのチャットやチャネルのボットを追加する](add-bots.md)

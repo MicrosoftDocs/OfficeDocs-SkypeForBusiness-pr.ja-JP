@@ -3,7 +3,7 @@ title: マイクロソフト チーム テナント アプリケーション カ
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 06/26/2018
+ms.date: 07/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: prem
@@ -12,18 +12,15 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 298caf3cee6fe6af38f22ef9ac7dd85991fd6dba
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 11db7dec3122de3eb783152483a1575cf92dc585
+ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20050458"
+ms.lasthandoff: 07/14/2018
+ms.locfileid: "20363906"
 ---
 <a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>マイクロソフト チーム テナント アプリケーション カタログにアプリケーションを発行します。
 =======================================================
-
-> [!IMPORTANT]
-> このページでは、プレリリース版の機能の説明し、リリース前に大幅に変更される可能性が暫定的なコンテンツが含まれています。 任意のスクリーン ショットでは、プレース ホルダーであるし、ものと異なって表示される場合があります。
 
 マイクロソフト チームのテナントのアプリケーション カタログを使用するにはテストし、組織の基幹業務アプリケーションを配布します。 
 

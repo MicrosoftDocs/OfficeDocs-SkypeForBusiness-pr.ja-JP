@@ -3,7 +3,7 @@ title: 仮想環境でマイクロソフトのチームを実行します。
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/12/2018
+ms.date: 07/13/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d00ee6a3c14b5a1bb97685124293b13977c323af
-ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
+ms.openlocfilehash: 08a82c2450d238a59d7e076ceb95368c3dce91e2
+ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20328742"
+ms.lasthandoff: 07/14/2018
+ms.locfileid: "20363924"
 ---
 <a name="run-microsoft-teams-in-a-virtual-environment"></a>仮想環境でマイクロソフトのチームを実行します。
 ============================================
@@ -55,7 +55,7 @@ ms.locfileid: "20328742"
 \>> *インポート-PSSession $sfboSession*<br>
 3.  ポリシーのオプションを呼び出すことの一覧を表示します。<br>
 \>> *Get CsTeamsCallingPolicy*
-4.  会議のすべてのポリシーが無効になっている事前に定義されたオプションになります。<br>
+4.  呼び出し元のすべてのポリシーが無効になっている、事前に定義されたオプションになります。<br>
 ![無効になっているすべての会議ポリシーを使用して会議のオプションのスクリーン ショットです。](media/virtual-environment-image2.png)
 5.  仮想化環境でチームを使用するすべてのユーザーに"DisallowCalling"の事前に定義されたポリシーのオプションが適用されます。<br>
 \>> *AllOff を与える CsTeamsMeetingPolicy グループのユーザー電子メール id の Id*
