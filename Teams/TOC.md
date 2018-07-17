@@ -18,6 +18,7 @@
 ## [Teams でチームを作成するときの Office 365 グループの計画](plan-office-365-groups.md)
 ## [変更管理戦略を作成します。](change-management-strategy.md)
 ## [Teams のロールアウトをサポートするツールを入手する](rollout-tools.md)
+## [Microsoft 365 政府の GCC の展開の計画](plan-for-government-gcc.md)
 <!-- ============================================================ -->
 
 
@@ -95,20 +96,7 @@
 <!-- ============================================================ -->
 
 
-<!-- 
-# [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
-## [1 - Optimize your current Skype for Business environment for Teams](prepare-teams.md)
-### [1.1 - Environmental Discovery for Microsoft Teams Rollout](environmental-discovery-for-microsoft-teams-rollout.md)
-## [2 - Pilot Teams alongside Skype for Business](pilot-essentials.md)
-### [2.1 - Select users for your Teams pilot](select-users-for-your-teams-pilot.md)
-## [3 - Understand coexistence and upgrade modes for Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [3.1 - Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-## [4 - Drive value through user adoption](continue-journey.md)
-## [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
-## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
- -->
-
-<!-- NEW ============================================================ -->
+<!-- ============================================================ -->
 # [マイクロソフトのチームにビジネス用の Skype からのアップグレード](Journey-SkypeforBusiness-Teams.md)
 ## [チュートリアル: Skype for Business から Teams への移行](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [基本的なアップグレードします。](upgrade-basic.md)
@@ -140,7 +128,7 @@
 ### [サービスを強化します。](upgrade-enhance-my-service.md)
 ## [FAQ](FAQ-journey.md)
 
-<!-- END NEW ============================================================ -->
+<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # セキュリティとコンプライアンス
@@ -206,7 +194,7 @@
 ## アプリとサービス
 ### [Teams でのアプリの管理設定](admin-settings.md)
 ### [Teams でプライベートのチャットやチャネルのボットを追加する](add-bots.md)
-### [チーム プライベート アプリケーション ストアにアプリケーションを発行します。](tenant-apps-catalog-teams.md)
+### [チーム テナント アプリケーション カタログにアプリケーションを発行します。](tenant-apps-catalog-teams.md)
 ### [Teams で組み込みタブとカスタム タブを使用する](built-in-custom-tabs.md)
 ### [Teams で Office 365 コネクタとカスタム コネクタを使用する](office-365-custom-connectors.md)
 ### [T-Bot を使用して Teams のユーザーをサポートする](t-bot.md)
