@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: この資料では、Skype ルーム システム v2 をサポートするための要件について説明します。
-ms.openlocfilehash: 8c473ee6d1d94b2f382c43ad1383546a69138781
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: e99b425e16bb26ff8fc8f225b703b46224d1f4a4
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 07/17/2018
-ms.locfileid: "20397148"
+ms.locfileid: "20412277"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Skype Room Systems バージョン 2 の要件
  
@@ -49,7 +49,7 @@ Skype ルーム システム v2 は、別の部屋のサイズによっては、
 |コンソール|プロセッサ|RAM|ディスク|
 |:-----|:-----|:-----|:-----|
 |[Lenovo ハブ 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8 GB  |128 GB  |  
- <!-- HP dock is still pending  -->  
+|[会議室 G2 の HP のエリート スライス](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5  |8 GB  |128 GB  |  
     
 - 会議にタブレットをセキュリティで保護する次のようなドッキング ステーション オプションのいずれかのルームのテーブルです。 
     

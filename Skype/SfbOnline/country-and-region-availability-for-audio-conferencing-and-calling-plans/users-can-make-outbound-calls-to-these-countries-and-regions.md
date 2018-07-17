@@ -1,5 +1,5 @@
 ---
-title: Users can make outbound calls to these countries and regions
+title: ユーザーが通話を発信できる相手先の国や地域
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,19 +19,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: This topic contains all of the countries/regions that users can place outbound calls to if they have a Calling Plan.
-ms.openlocfilehash: bd8ce62b5f1d5c8b032503a045e40c72bbe5d00b
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: このトピックには、呼び出す予定がある場合、ユーザーはへの発信コールを配置できる国/地域のすべてが含まれます。
+ms.openlocfilehash: 036fd70b067d461505c4fccf83fe1e4b5a5c408f
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20409373"
 ---
-# <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Users can make outbound calls to these countries and regions
+# <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>ユーザーが通話を発信できる相手先の国や地域
 
-### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-a-domestic-or-domestic-and-international-calling-plan-license"></a>See what countries/regions users can make outbound calls to if the user has a Domestic or Domestic and International Calling Plan license
+### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-a-domestic-or-domestic-and-international-calling-plan-license"></a>どのような国や地域のユーザーはユーザーが国内または国内にある場合に発信呼び出しを行うことができ、ライセンスの国際対応の計画を呼び出すを参照してください。
 
-
-|**A - D**| **E - H**|**I - L**|**M - O**|**P - S**|**T - Z**|
+|**A-D**| **E-H**|**I - L**|**M-O**|**P-S**|**T ~ Z**|
 ---|---|---|---|---|---|
 |アフガニスタン|エクアドル |アイスランド |マカオ |パキスタン |台湾   |
 |アルバニア|エジプト |インド |マケドニア |パラオ |タジキスタン   |
@@ -60,8 +60,8 @@ ms.lasthandoff: 04/18/2018
 |ボリビア |ガイアナ| |ニューカレドニア |スロベニア |ジンバブエ |
 |ボスニア・ヘルツェゴビナ |ハイチ ||ニュージーランド |南アフリカ | 
 |ボツワナ |ホンジュラス ||ニカラグア |スペイン |
-|Bazil |香港 ||ニジェール |Sri Lanka | 
-|Bunei Darussalam |ハンガリー ||ナイジェリア |サンピエール島・ミクロン島 | 
+|ブラジル |香港 ||ニジェール |Sri Lanka | 
+|Bunei ・ ダルサラーム国 |ハンガリー ||ナイジェリア |サンピエール島・ミクロン島 | 
 |ブルガリア |||北マリアナ諸島 |スーダン |
 |ブルキナ ファソ |||ノルウェー |スリナム |
 |カンボジア |||オマーン |スワジランド | 

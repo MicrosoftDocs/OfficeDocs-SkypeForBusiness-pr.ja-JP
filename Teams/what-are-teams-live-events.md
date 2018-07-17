@@ -7,23 +7,23 @@ ms.date: 7/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviwer: tonysmit
-description: どのようにビデオ、およびマイクロソフトのチーム、Yammer、および Microsoft のストリームでの大規模なオンライン利用者にコンテンツをブロードキャストするユーザーを有効にするイベントについて説明します。
+description: どのようにビデオ、およびマイクロソフトのチーム、Yammer、および Microsoft のストリームでの大規模なオンライン ユーザーを対象にコンテンツをブロードキャストするユーザーを有効にするイベントについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a00d9e25b68380a6b44346f0eef628b8aa5c1308
-ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
+ms.openlocfilehash: 5d259231709b7b9a16afc6d10afbcc9b9a7ed410
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2018
-ms.locfileid: "20364643"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20412305"
 ---
 # <a name="what-are-teams-live-events"></a>ライブ イベントをチームは何ですか。
-**概要**: どのようにビデオ、およびマイクロソフトのチーム、Yammer、および Microsoft のストリームでの大規模なオンライン利用者にコンテンツをブロードキャストするユーザーを有効にするイベントについて説明します。
+**概要**: どのようにビデオ、およびマイクロソフトのチーム、Yammer、および Microsoft のストリームでの大規模なオンライン ユーザーを対象にコンテンツをブロードキャストするユーザーを有効にするイベントについて説明します。
 
 ## <a name="overview"></a>概要
-Microsoft 365 でのライブ イベントは、ビデオ、およびマイクロソフトのチーム、Yammer と[Microsoft のストリーム](https://docs.microsoft.com/en-us/stream/)で大規模なオンラインの対象ユーザーにコンテンツをブロードキャストするユーザーを有効にします。    
+Microsoft 365 でのライブ イベントは、ビデオ、およびマイクロソフトのチーム、Yammer と[Microsoft のストリーム](https://docs.microsoft.com/en-us/stream/)での大規模なオンライン ユーザーを対象にコンテンツをブロードキャストするユーザーを有効にします。 
 
-マイクロソフトのチームでは、チャット ベースのコラボレーション、会議の呼び出しと、ライブ イベントと、会議の出席者を展開することができます。  マイクロソフトのチームのライブ イベントは、チームの会議、ビデオ、コンテンツ、および大規模なオンライン ユーザーに会議をブロードキャストするユーザーを有効にすることの拡張です。 これらは、多くの通信の相互作用をリードしているイベントのホスト、ホストによって共有されているコンテンツを表示するのには、対象ユーザーへの参加が主な目的は 1 つのものです。 出席者が Yammer、チーム、および Microsoft のストリーム、ライブまたは記録されたイベントを見ることができ、モデレートの Q & A を使用して、発表者と対話できるか、Yammer の会話です。 
+マイクロソフトのチームでは、チャット ベースのコラボレーション、会議の呼び出しと、ライブ イベントと、会議の出席者を展開することができます。 マイクロソフトのチームのライブ イベントは、大規模なオンライン ユーザーにビデオ、および会議のコンテンツをブロードキャストするユーザーを有効にすると、チームの会議の拡張です。 これらは、一対多の通信の相互作用をリードしているイベントのホストと、ホストによって共有されているコンテンツを表示するのには、対象ユーザーへの参加が主な目的は場所のものです。 出席者が Yammer、チーム、および Microsoft のストリーム、ライブまたは記録されたイベントを見ることができ、モデレートの Q & A を使用して、発表者と対話できるか、Yammer の会話です。 
 
 ライブ イベントは、次のバージョンの Skype 会議のブロードキャストと見なされ、最終的には、チームでは、Skype 会議をブロードキャストすることで提供される機能を置き換えます。 ライブ イベントのパブリック プレビュー リリースでは、マイクロソフトが新しい、または今後のイベントのサービスの中断は生じませんが、Skype 会議をブロードキャストをサポートするために継続します。 参加者の数などの画面を共有するには、新しい機能を活用してチームでのライブ イベントを試すし、エンコーダーの外部のハードウェアとソフトウェアのサポートすることをお勧めします。 
 
@@ -39,8 +39,8 @@ Microsoft 365 でのライブ イベントは、ビデオ、およびマイク�
 
 ### <a name="production"></a>生産
 Microsoft 365 でのライブ イベントでは、多様な運用シナリオをサポートして、web カムを使用してクイック スタートのイベントまたは studio 品質の機器を使用して外部エンコーダー イベントが含まれます。 ビデオ入力、ライブ イベントの基盤でありまるちかめらの本格的なビデオ制作を 1 つの web カメラから異なることができます。 お客様は、プロジェクトの要件と予算に応じてこれらのオプションを選択できます。 
-- **クイック スタート**: クイック スタートの方法により、ユーザーがチーム会議を使用して、ライブのイベントを生成します。 このオプションは、オーディオを使用して、ビデオ デバイスが PC に接続されているまたはリモートの発表者を招待する場合に最適とパネリストのイベントに参加しています。  このオプションでは、簡単に自分の web カムを使用し、ブロードキャストへの入力として、画面を共有することができます。  
-- **(準備中) 外部のエンコーダー**: 外部エンコーダーが外部のハードウェアまたは Microsoft ストリームでのソフトウェア ・ ベースのエンコーダーから直接ライブのイベントを生成するユーザーを許可します。  このオプションは、RTMP サービスへのストリーミングをサポートしている studio 品質機器 (例: メディアのミキサー) が既にある場合に最適です。  このオプションは通常、経営の町ホール: 対象ユーザーにメディア ミキサーから 1 つのストリームが放送されるなど大規模なイベントで使用されます。  
+- **クイック スタート**: クイック スタートの方法により、チーム会議を使用して、ライブのイベントを生成します。 このオプションは、オーディオを使用して、ビデオ デバイスが PC に接続されているまたはリモートの発表者を招待する場合に最適とパネリストのイベントに参加しています。 このオプションでは、簡単に自分の web カムを使用し、ブロードキャストへの入力として、画面を共有することができます。 
+- **(準備中) 外部のエンコーダー**: 外部エンコーダーが外部のハードウェアまたは Microsoft ストリームでのソフトウェア ・ ベースのエンコーダーから直接ライブのイベントを生成するユーザーを許可します。 このオプションが既にある場合 studio 品質の機器 (例: メディアのミキサー) RTMP サービス サポート ストリーミングに最適です。 このオプションは通常、メディア ミキサーから 1 つのストリームを視聴者にブロードキャスト – エグゼクティブ ・町のホールなど大規模なイベントで使用されます。 
 
 ### <a name="streaming-platform"></a>プラットフォームのストリーミング
 これは、次の構成されています。
@@ -58,12 +58,12 @@ ECDN の目標は、ビデオ コンテンツをインターネットから取�
 - (準備中にクイック スタート) ランプ
 
 ### <a name="attendee-experience"></a>参加者の経験
-参加者の経験は、ライブ イベントの最も重要な側面と、出席者が問題なくライブ イベントに参加できることが重要です。 参加者経験では、Azure のメディア プレーヤーを使用してし、デスクトップ、ブラウザー、およびモバイル (iOS、Android) の間で動作します。 Microsoft 365 は、Yammer とチーム共同作業の 2 つのハブとライブの参加者としての経験に統合されているこれらのコラボレーション ツールです。  ベースの外部のエンコーダーのライブ イベントは、Microsoft ストリーム ポータルの出席者でもアクセスできます。
+参加者の経験は、ライブ イベントの最も重要な側面と、出席者が問題なくライブ イベントに参加できることが重要です。 参加者経験では、Azure のメディア プレーヤーを使用してし、デスクトップ、ブラウザー、およびモバイル (iOS、Android) の間で動作します。 Microsoft 365 は、Yammer とチーム共同作業の 2 つのハブとライブの参加者としての経験に統合されているこれらのコラボレーション ツールです。 ベースの外部のエンコーダーのライブ イベントは、Microsoft ストリーム ポータルの出席者でもアクセスできます。
 
 ## <a name="prerequisites"></a>前提条件
 
 ### <a name="who-can-create-live-events"></a>ライブ イベントを作成することができます。
-次の前提条件は、プレビューの時間内でライブ イベントをスケジュールするのにはユーザーの必要があります。   
+次の前提条件は、プレビューの時間内でライブ イベントをスケジュールするのにはユーザーの必要があります。  
 - ユーザーは、Office 365 エンタープライズ E3 または E5 のライセンスを持っています。 
 - マイクロソフト チーム、ビジネス オンライン、および Microsoft のストリームの Skype のユーザーになっています。
 - チームでプライベートな会議のスケジュール設定をユーザーが有効になっている (TeamsMeetingPolicy AllowPrivateMeetingScheduling を True に設定します)。
@@ -144,7 +144,7 @@ ECDN の目標は、ビデオ コンテンツをインターネットから取�
   - イベント チームのメンバーと参加者を Azure CDN アクセスできないため、中国でには、チームのライブ イベントを使用することができなきます。 回避策では、会社の VPN 接続は、お客様の企業ネットワークを使用して、CDN に接続されているクライアントの取得を使用します。
 
 ### <a name="set-up-your-network-for-teams-live-events"></a>チームのライブ イベントのネットワークをセットアップします。 
-[チームのライブ イベントのネットワーク設定](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-live-events-set-up-your-network?branch=teams-live-events)に移動します。
+もうすぐです。
 
 ### <a name="set-up-ecdn-provider-for-teams-live-events"></a>チームの eCDN のプロバイダーのライブ イベントを設定します。
 もうすぐです。
@@ -152,7 +152,7 @@ ECDN の目標は、ビデオ コンテンツをインターネットから取�
 ### <a name="enable-live-event-scheduling-for-the-user"></a>ユーザーのライブ イベントのスケジュール設定を有効にします。
 チームのユーザーの既定では、ライブ イベントのスケジュールが有効になっています。  
 
-チーム PowerShell の TeamsMeetingBroadcastPolicy の AllowBroadcastScheduling コントロールの設定を使用して、ユーザーは、かに、チームでのライブ イベントを作成できるかどうか。  Office 365 の PowerShell での TeamsMeetingBroadcastPolicy の管理に関する詳細については、[ここで](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
+チーム PowerShell の TeamsMeetingBroadcastPolicy の AllowBroadcastScheduling コントロールの設定を使用して、ユーザーは、かに、チームでのライブ イベントを作成できるかどうか。 Office 365 の PowerShell での TeamsMeetingBroadcastPolicy の管理に関する詳細については、[ここで](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
  カスタム ポリシーは、ユーザーに割り当てている、しない限り、ユーザーはグローバル ポリシーは既定で有効になっている記録を取得します。 
 
@@ -188,13 +188,13 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastScheduling $fa
 #### <a name="enable-microsoft-stream-for-users-in-the-organization"></a>組織内のユーザーに対して Microsoft ストリームを有効にします。
 Microsoft ストリームは、対象の Office 365 サブスクリプションの一部として、またはスタンドアロン サービスとして利用できます。 詳細については、[ストリームのライセンスの概要](https://docs.microsoft.com/en-us/stream/license-overview)を参照してください。 注 Microsoft ストリームは、ビジネスに関する重要事項またはビジネス プレミアム プランには含まれません。  
 
-方法[Office 365 のユーザーにライセンスを割り当てる](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)ユーザーが Microsoft のストリームにアクセスできるようにする方法の詳細について説明します。  [この資料](https://docs.microsoft.com/en-us/stream/disable-user-organization)で定義されているユーザーの Microsoft のストリームがブロックされていないことを確認します。
+方法[Office 365 のユーザーにライセンスを割り当てる](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)ユーザーが Microsoft のストリームにアクセスできるようにする方法の詳細について説明します。 [この資料](https://docs.microsoft.com/en-us/stream/disable-user-organization)で定義されているユーザーの Microsoft のストリームがブロックされていないことを確認します。
 
 #### <a name="ensure-users-have-live-event-creation-permission-in-microsoft-stream"></a>ユーザーは、Microsoft ストリームでライブ イベントの作成のアクセス許可を持っていることを確認します。
 既定で、ストリームで指定されたコンテンツを作成して、ストリームが有効になっているし、ライセンスがユーザーに割り当てられている会社内のすべてのユーザーできます。 Microsoft ストリームの管理者は、ストリーム内の[コンテンツを作成するための従業員を制限する](https://docs.microsoft.com/en-us/stream/restrict-uploaders)ことができます。 この制限の一覧にあるユーザーはミーティングを記録することができません。
 
 #### <a name="ensure-live-event-organizers-have-consented-to-the-company-policy-set-by-stream-admin"></a>ライブ イベントを開催者がストリームの管理で設定する会社のポリシーに同意したがあることを確認します。
-Microsoft ストリームには、管理者[、会社のガイドラインのポリシーを設定する](https://docs.microsoft.com/en-us/stream/company-policy-and-consent)には、従業員がコンテンツを保存する前にこのポリシーをそのまま使用する必要がありますし、ユーザーする必要がありますようにマイクロソフトのチームで (外部のエンコーダーの生産) でのライブ イベントを作成する前にします。 ロールアウトのライブ イベント機能、組織内にいることを確認する前にこれらのライブ イベントを作成するユーザー ポリシーを配信します。 
+Microsoft ストリームには、管理者[、会社のガイドラインのポリシーを設定する](https://docs.microsoft.com/en-us/stream/company-policy-and-consent)には、従業員がコンテンツを保存する前にこのポリシーをそのまま使用する必要がありますし、ユーザーする必要がありますようにマイクロソフトのチームで (外部のエンコーダーの生産) でのライブ イベントを作成する前にします。 組織でのライブ イベントの機能をロールアウトする前にこれらのライブ イベントを作成するユーザーは、ポリシーに同意したがいることを確認します。 
 
 ## <a name="configure-live-events"></a>ライブ イベントを構成します。
 
@@ -214,7 +214,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 |---------|---------|
 |全員     |ライブ イベントを次の出席者の可視性を作成するオプションをユーザーが持っている: 会社、および特定のユーザーのすべてのメンバーを公開します。 |
 |EveryoneInCompany     |ユーザーは、ライブ イベントを次の出席者の可視性を作成するオプションを持っている: 会社および特定のユーザーのすべてのメンバーです。 ユーザーは、匿名ユーザーが参加できるライブ イベントを作成できません。|
-|InvitedUsers |ユーザーは、イベント開催者によって入力されたとおりに、特定の人に制限されているライブのイベントのみを作成できます。  ユーザーは、公開キーと認証の会社のすべてのメンバーでライブ イベントを作成できません。 |
+|InvitedUsers |ユーザーは、イベント開催者によって入力されたとおりに、特定の人に制限されているライブのイベントのみを作成できます。 ユーザーは、公開キーと認証の会社のすべてのメンバーでライブ イベントを作成できません。 |
 
 PowerShell
 
@@ -230,12 +230,12 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility 
 > [!NOTE]
 > このオプションは、クイック スタートの運用方法のみを使用するイベントに適用されます。
 
-これにより、ライブ イベントは、常に記録、記録されることはないかどうか、またはイベントの開催者は、か、イベントを記録することができるかどうか制御する管理者です。  
+これにより、ライブ イベントは、常に記録、記録されることはないかどうか、またはイベントの開催者は、かのイベントが記録することができるかどうか制御する管理者です。  
 
 |値  |動作  |
 |---------|---------|
-|常に有効になっています。 |このユーザーごとのライブ イベントは、常に記録されます。  ユーザーには、オーバーライドするためのオプションを持っていません。  ライブのイベントが記録される場合は、イベントのチーム メンバーは、イベントの後にレコーディングをダウンロードすることと出席者は、イベント終了後のイベントを監視できます。 |
-|AlwaysDisabled |このユーザーが開催するライブ イベントが記録されることはありません。  ユーザーには、オーバーライドするためのオプションを持っていません。  ライブのイベントが記録される場合は、イベント チームのメンバーの記録は作成されず、出席者はイベントが上にあるを見ることはできません。 |
+|常に有効になっています。 |このユーザーごとのライブ イベントは、常に記録されます。 ユーザーには、オーバーライドするためのオプションを持っていません。 ライブのイベントが記録される場合は、イベントのチーム メンバーは、イベントの後にレコーディングをダウンロードすることと出席者は、イベント終了後のイベントを監視できます。 |
+|AlwaysDisabled |このユーザーが開催するライブ イベントが記録されることはありません。 ユーザーには、オーバーライドするためのオプションを持っていません。 ライブのイベントが記録される場合は、イベント チームのメンバーの記録は作成されず、出席者はイベントが上にあるを見ることはできません。 |
 |UserOverride |ユーザーは、イベント チームのメンバーの記録ファイルを作成することができ、参加者は、イベント終了後のイベントを監視できますので、ライブ イベントが記録されるかどうかを決定できます。 |
 
 PowerShell
@@ -254,13 +254,13 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode Alway
 
 PowerShell
 
-ライブ イベントの参加者は、の詳細についてはここでは、Office 365 の PowerShell で TeamsMeetingBroadcastPolicy を管理するを参照してくださいできるかどうかにコントロールする PowerShell の TeamsMeetingBroadcastPolicy で AllowBroadcastTranscription の設定を使用します。  
+ライブ イベントの参加者が議事録と翻訳を参照してくださいできるかどうかにコントロールする PowerShell の TeamsMeetingBroadcastPolicy で AllowBroadcastTranscription の設定を使用します。 ここで Office 365 の PowerShell での TeamsMeetingBroadcastPolicy を管理する方法の詳細については。  
 
 カスタム ポリシーは、ユーザーに割り当てている、しない限り、ユーザーが議事録と翻訳が既定で無効になっているは、グローバル ポリシーを取得します。
 
 Windows PowerShell では、[グローバル ポリシーでの議事録やイベントの出席者のために翻訳を有効にするのには、次のコマンドレットを実行します。
 ```
-Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $True 
+Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```
 ## <a name="self-service-administration-tools"></a>セルフ サービス管理ツール 
 直接 Microsoft は、Office 365 のオンラインのすべてのデータ センターを制御し、システム全体のパフォーマンスは、ですが、Office 365 のユーザーの合計の経験を提供する要素の一部だけを制御できます。 組織自体は、データ センターでお客様のワイド エリア ネットワーク (WAN)、ネットワーク接続を担当し、お客様のローカル エリア ネットワーク (Lan)。 さらに、ユーザーのデバイスとその構成を担当しています。必要なライセンスなど、必要な機能は、ユーザーごとの管理を担当する、マイクロソフトが、ユーザーは、機能へのアクセスを必要がある限りのこれらの機能を管理することに。
@@ -272,7 +272,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
 - [リモートの Windows PowerShell の](https://technet.microsoft.com/en-us/library/exchange-online-administration-and-management.aspx?f=255&MSPPError=-2147217396#BKMK_RemoteWindowsPowerShell)
 
 ### <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
-- に関して Windows PowerShell、ユーザーを管理するユーザーを許可または許可しないについて説明します。 Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- に関して Windows PowerShell は、it のすべてのユーザーを管理するか、ユーザーの許可を許可します。 Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
 
