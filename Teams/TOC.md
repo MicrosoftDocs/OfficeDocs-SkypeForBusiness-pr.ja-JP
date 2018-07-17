@@ -95,19 +95,52 @@
 <!-- ============================================================ -->
 
 
-<!-- ============================================================ -->
-# [Skype for Business から Teams への移行](Journey-SkypeforBusiness-Teams.md)
-## [1 - 現在の Skype for Business 環境を Teams 向けに最適化する](prepare-teams.md)
-### [1.1 - マイクロソフトのチームのロールアウトの環境の探索](environmental-discovery-for-microsoft-teams-rollout.md)
-## [2 - Skype for Business と併用する形で Teams を試験的に導入する](pilot-essentials.md)
-### [2.1 - [ユーザーの選択、チームのパイロット](select-users-for-your-teams-pilot.md)
-## [3 の共存を理解して、Skype のビジネスとチームのモードをアップグレード](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [3.1 のチーム、およびビジネスの共存と相互運用性の Skype](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-## [4 - ユーザーが導入することによる価値を推進する](continue-journey.md)
-## [よくあるご質問 - Skype for Business と Teams のビジョン](FAQ-journey.md)
-## [チュートリアル: Skype for Business から Teams への移行](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-<!-- ============================================================ -->
+<!-- 
+# [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
+## [1 - Optimize your current Skype for Business environment for Teams](prepare-teams.md)
+### [1.1 - Environmental Discovery for Microsoft Teams Rollout](environmental-discovery-for-microsoft-teams-rollout.md)
+## [2 - Pilot Teams alongside Skype for Business](pilot-essentials.md)
+### [2.1 - Select users for your Teams pilot](select-users-for-your-teams-pilot.md)
+## [3 - Understand coexistence and upgrade modes for Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [3.1 - Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+## [4 - Drive value through user adoption](continue-journey.md)
+## [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
+## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+ -->
 
+<!-- NEW ============================================================ -->
+# [マイクロソフトのチームにビジネス用の Skype からのアップグレード](Journey-SkypeforBusiness-Teams.md)
+## [チュートリアル: Skype for Business から Teams への移行](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [基本的なアップグレードします。](upgrade-basic.md)
+### [サンプルの電子メールやアンケート](upgrade-emails-surveys.md)
+## [Pro のアップグレードします。](upgrade-pro.md)
+## [アップグレード、旅の計画](upgrade-plan-journey.md)
+### [プロジェクトの利害関係者を参加させる](upgrade-enlist-stakeholders.md)
+### [プロジェクト スコープを定義します。](upgrade-define-project-scope.md)
+### [共存と相互運用性を理解します。](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [アップグレード、旅を選択します。](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [品質管理の計画](upgrade-plan-for-quality.md)
+## [チームの環境を準備します。](upgrade-prepare-environment.md)
+### [チームの IT スタッフを準備します。](upgrade-prepare-IT-pros.md)
+### [前提条件](upgrade-plan-journey-prerequisites.md)
+### [お客様の環境を評価します。](upgrade-plan-journey-evaluate-environment.md)
+### [ネットワークを準備します。](upgrade-prepare-environment-prepare-network.md)
+### [サービスを準備します。](upgrade-prepare-environment-prepare-service.md)
+## [チームの組織を準備します。](upgrade-prepare-organization.md)
+### [組織変更の導入準備を評価します。](upgrade-org-change-readiness.md)
+### [ユーザーの準備の計画を準備します。](upgrade-user-readiness.md)
+## [ユーザーのパイロットを実施します。](pilot-essentials.md)
+## [チームへのアップグレードを実行します。](upgrade-to-teams.md)
+### [チームをオンラインでビジネス用の Skype からのアップグレード](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+### [Skype からチームへのビジネスのハイブリッドをアップグレードします。](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
+### [Skype から設置型のビジネスにアップグレード チーム](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
+## [ユーザーの採用により価値を創出.](continue-journey.md)
+### [サービスを動作します。](upgrade-operate-my-service.md)
+### [モニターの品質](upgrade-monitor-quality.md)
+### [サービスを強化します。](upgrade-enhance-my-service.md)
+## [FAQ](FAQ-journey.md)
+
+<!-- END NEW ============================================================ -->
 
 <!-- ============================================================ -->
 # セキュリティとコンプライアンス

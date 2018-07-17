@@ -17,26 +17,93 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - me.teamsadmincenter.policies.naming.error
 description: ポリシーおよびその修正を行うことができますの名前に特殊文字を含むが、どのような問題を参照してください。
-ms.openlocfilehash: 7d835669f0acc7cd2a2e42acb1aa9fa9d2fdf765
-ms.sourcegitcommit: 26d93a15c9d4704c08f3fabc5635839ce2456b2d
+ms.openlocfilehash: 4ddd6a618c42f629acd64162ad608aede6b1819f
+ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/06/2018
-ms.locfileid: "20205079"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20397090"
 ---
-# <a name="what-are-the-special-character-restrictions-in-teams-policies"></a><span data-ttu-id="ef5c0-103">チーム ポリシー内の特殊文字の制限は?</span><span class="sxs-lookup"><span data-stu-id="ef5c0-103">What are the special character restrictions in Teams policies?</span></span>
+# <a name="what-are-the-special-character-restrictions-in-teams-policies"></a><span data-ttu-id="8a6ea-103">チーム ポリシー内の特殊文字の制限は?</span><span class="sxs-lookup"><span data-stu-id="8a6ea-103">What are the special character restrictions in Teams policies?</span></span>
 
-<span data-ttu-id="ef5c0-104">**PowerShell でチームのポリシーを作成するための特殊文字を使用できますが、これらのポリシーを管理する制限されます。 このため、ポリシーの名前に特殊文字が含まれていないを強くお勧めします。**</span><span class="sxs-lookup"><span data-stu-id="ef5c0-104">**Although special characters can be used for creating Teams policies with PowerShell, you will be limited in managing these policies .  As such, we strongly recommend policy names do not include special characters.**</span></span>
+<span data-ttu-id="8a6ea-104">**ビジネス管理センターは、マイクロソフトのチームと Skype で名前に特殊文字がある (メッセージ、会議など) 用のポリシーを編集または作成できません。**</span><span class="sxs-lookup"><span data-stu-id="8a6ea-104">**You can't create or edit policies (for messaging, meetings, etc.) that have a special character in the name in the Microsoft Teams and Skype for Business Admin Center.**</span></span> 
 
-<span data-ttu-id="ef5c0-105">PowerShell を使用して会議を作成し、チームでチャットするポリシー名は次のように特殊文字を持つことができます @、#、$。</span><span class="sxs-lookup"><span data-stu-id="ef5c0-105">Policy names that you create using PowerShell for meetings and chat in Teams can have special characters such as @,#,$.</span></span> <span data-ttu-id="ef5c0-106">ただし、ビジネス管理センターは、マイクロソフトのチームと Skype でポリシーを編集しようとしている場合することはできませんにします。</span><span class="sxs-lookup"><span data-stu-id="ef5c0-106">However, if you are wanting to edit the policy in the Microsoft Teams and Skype for Business admin center, you won't be able to.</span></span> <span data-ttu-id="ef5c0-107">Windows PowerShell と適切なポリシーのコマンドレットを使用して、変更する必要があります。</span><span class="sxs-lookup"><span data-stu-id="ef5c0-107">You must use Windows PowerShell and the correct policy cmdlet to make changes.</span></span>
+<span data-ttu-id="8a6ea-105">ポリシー名に特殊文字が含まれている場合は、マイクロソフトのチームとビジネス管理センターの Skype でこれらのポリシーを管理するうえで制限されます。</span><span class="sxs-lookup"><span data-stu-id="8a6ea-105">If a policy name contains special characters, you will be limited in managing these policies in the Microsoft Teams and Skype for Business Admin Center.</span></span> <span data-ttu-id="8a6ea-106">**よう、強くお勧めポリシー名に特殊文字を含めない**。</span><span class="sxs-lookup"><span data-stu-id="8a6ea-106">**As such, we strongly recommend that policy names don't include special characters**.</span></span> 
 
-<span data-ttu-id="ef5c0-108">使用する必要があります特別な文字を使用して、ポリシーのオブジェクトがあり、ビジネス管理センターは、マイクロソフトのチームと Skype でポリシーを効率的に管理するために特殊文字を削除する場合、手順の下。</span><span class="sxs-lookup"><span data-stu-id="ef5c0-108">If you have a policy object with special characters and you want to remove the special characters in order to better manage the policy in the Microsoft Teams and Skype for Business admin center, you will need to use the below procedure.</span></span> 
+<span data-ttu-id="8a6ea-107">会議、メッセージング チームには特殊文字など、PowerShell を使用して作成されているポリシー名 @、#、$。</span><span class="sxs-lookup"><span data-stu-id="8a6ea-107">Policy names that have been created using PowerShell for meetings and messaging in Teams can have special characters such as @,#,$.</span></span> <span data-ttu-id="8a6ea-108">ただし場合は、マイクロソフトのチームと Skype のビジネス管理センターでポリシーを変更するためのお問い合わせは、することはできませんにします。</span><span class="sxs-lookup"><span data-stu-id="8a6ea-108">However, if you are wanting to make changes to the policy in the Microsoft Teams and Skype for Business Admin Center,you won't be able to.</span></span> 
 
-<span data-ttu-id="ef5c0-109">注: 明確手順メッセージング ポリシーの例をここで使用します。</span><span class="sxs-lookup"><span data-stu-id="ef5c0-109">Note: The procedure articulated here uses the example of a Messaging policy.</span></span>  <span data-ttu-id="ef5c0-110">同じプロセス subsituting 関連のコマンドレットで別のポリシーの種類 (たとえば会議) に使用されます。</span><span class="sxs-lookup"><span data-stu-id="ef5c0-110">The same process would be used for another policy type (Meetings for example) by subsituting the relevant cmdlets.</span></span> 
+<span data-ttu-id="8a6ea-109">特殊文字を含むポリシーがあれば、(無限) に Windows PowerShell を使用して、ポリシーを編集するか、または古いポリシーと同じ設定で、マイクロソフトのチームとビジネス管理センターの Skype の新しいポリシーを作成し、同じグループに割り当てることする必要があります。ユーザーの p です。</span><span class="sxs-lookup"><span data-stu-id="8a6ea-109">If you have a policy with special characters, you will need to either edit the policy using Windows PowerShell (forever) or create a new policy in the Microsoft Teams and Skype for Business Admin Center with the same settings as the old policy and assign it to the same group of users.</span></span>
 
-<span data-ttu-id="ef5c0-111">1) Get CSMessagingPolicy を呼び出す-< old_policy_name > を識別し、ポリシーの出力をキャプチャします。</span><span class="sxs-lookup"><span data-stu-id="ef5c0-111">1.) Call Get-CSMessagingPolicy -identity <old_policy_name> and capture the output of the policy.</span></span>
-<span data-ttu-id="ef5c0-112">2) 呼び出しのセット CSMessagingPolicy-< new_policy_name > を識別名に特殊文字を含まない元のポリシーとしては、同じ構成で新しいポリシーを作成します。</span><span class="sxs-lookup"><span data-stu-id="ef5c0-112">2.) Call Set-CSMessagingPolicy -identity <new_policy_name> to create a new policy with the same configuration as the original policy but without any special characters in the name.</span></span>
-<span data-ttu-id="ef5c0-113">3) 削除 CSMessagingPolicy を呼び出す-ポリシーを削除する < old_policy_name > を識別します。</span><span class="sxs-lookup"><span data-stu-id="ef5c0-113">3.) Call Delete-CSMessagingPolicy -identity <old_policy_name> to delete the policy.</span></span>  <span data-ttu-id="ef5c0-114">このコマンドが成功すると、完了し、ビジネス管理センターの PowerShell またはマイクロソフトのチームと Skype のいずれかを使用して新しいポリシーをユーザーの割り当てを開始します。</span><span class="sxs-lookup"><span data-stu-id="ef5c0-114">If this command succeeds, you're done and can begin to assign users to the new policy using either PowerShell or the Microsoft Teams and Skype for Business admin center.</span></span>
-<span data-ttu-id="ef5c0-115">4) 上記のコマンドが成功しない場合は、古いポリシーは、ユーザーに割り当てられているので、です。</span><span class="sxs-lookup"><span data-stu-id="ef5c0-115">4.) If the above command does not succeed, it is because the old policy has been assigned to a user.</span></span>  <span data-ttu-id="ef5c0-116">ユーザーからポリシーの割り当てを解除、新規のポリシーを適用し、dwlete をもう一度実行するコマンドレット実行の割り当てを解除します。</span><span class="sxs-lookup"><span data-stu-id="ef5c0-116">Run unassign cmdlet to unassign the policy from user, assign new policy, then run dwlete again.</span></span>
+## <a name="to-remove-special-characters"></a><span data-ttu-id="8a6ea-110">特殊文字を削除するのには</span><span class="sxs-lookup"><span data-stu-id="8a6ea-110">To remove special characters</span></span>
 
 
+
+<span data-ttu-id="8a6ea-111">**手順 1 - PowerShell でリモート接続を確立します**。
+まだしていない場合は、 [Windows PowerShell には、コンピューターの設定](https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)をします。</span><span class="sxs-lookup"><span data-stu-id="8a6ea-111">**Step 1 - Make a remote connection with PowerShell.**
+[Set up your computer for Windows PowerShell](https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) if you haven't yet.</span></span>
+```
+ Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+ $credential = Get-Credential
+ $session = New-CsOnlineSession -Credential $credential
+ Import-PSSession $session
+```
+
+
+<span data-ttu-id="8a6ea-112">**手順 2 - 以前のポリシーの設定を取得し、出力をキャプチャします。**</span><span class="sxs-lookup"><span data-stu-id="8a6ea-112">**Step 2 - Get the settings for the old policy and capture the output.**</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="8a6ea-113">この例では、[メッセージング](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps)ポリシーがあります。</span><span class="sxs-lookup"><span data-stu-id="8a6ea-113">This example is for a [Messaging](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) policy.</span></span>  <span data-ttu-id="8a6ea-114">その他のポリシーの種類の同じ手順になりますが、適切なコマンドレットを使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="8a6ea-114">The steps would be the same for other policy types but you must use the correct cmdlet.</span></span> 
+
+  ```
+  Get-CsTeamsMessagingPolicy -id <old_policy_name>
+  ```
+
+
+<span data-ttu-id="8a6ea-115">**手順 3: 新しいポリシーを作成します。**</span><span class="sxs-lookup"><span data-stu-id="8a6ea-115">**Step 3 - Create a new policy.**</span></span>
+
+<span data-ttu-id="8a6ea-116">ビジネス管理センターまたは PowerShell のマイクロソフトのチームと Skype を使用して同じ設定で新しいポリシーを作成できますか。</span><span class="sxs-lookup"><span data-stu-id="8a6ea-116">You can either create the new policy with the same setting using the Microsoft Teams and Skype for Business Admin Center or PowerShell.</span></span>
+
+<span data-ttu-id="8a6ea-117">新しいポリシーを作成、これを実行しているが、[セット CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)を表示し、後に実行する適切な設定を追加する必要があります。</span><span class="sxs-lookup"><span data-stu-id="8a6ea-117">Running this will create a new policy for you but you will need to add the correct settings by seeing [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) and then running it:</span></span>
+
+  ```
+  Set-CsTeamsMessagingPolicy -id <new_policy_name>
+ ```
+<span data-ttu-id="8a6ea-118">**ステップ 4: ポリシーを割り当てます。**</span><span class="sxs-lookup"><span data-stu-id="8a6ea-118">**Step 4 - Assign the policy.**</span></span>
+ ```
+Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
+ ```
+<span data-ttu-id="8a6ea-119">参照してください、このコマンドレットの詳細については[Grant CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) 。</span><span class="sxs-lookup"><span data-stu-id="8a6ea-119">See, [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) for more information on this cmdlet.</span></span>
+
+<span data-ttu-id="8a6ea-120">**手順 5: 古いポリシーを削除します。**</span><span class="sxs-lookup"><span data-stu-id="8a6ea-120">**Step 5 - Delete the old policy.**</span></span>
+
+<span data-ttu-id="8a6ea-121">特殊文字を含む古いポリシーを削除します。</span><span class="sxs-lookup"><span data-stu-id="8a6ea-121">This will delete the old policy with the special characters.</span></span>
+  ```
+  Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
+  ```
+<span data-ttu-id="8a6ea-122">このコマンドレットの詳細については[削除 CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps)を参照します。</span><span class="sxs-lookup"><span data-stu-id="8a6ea-122">See, [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) for more information on this cmdlet.</span></span>
+
+<span data-ttu-id="8a6ea-123">このコマンドが成功した場合は終了しました。</span><span class="sxs-lookup"><span data-stu-id="8a6ea-123">If this command succeeds, you're done.</span></span> <span data-ttu-id="8a6ea-124">上記のコマンドでは、エラーが返された場合は、割り当てられたすべてのユーザーをポリシーから削除するために実行する必要がありますので、古いポリシーがユーザーに割り当てられますため。</span><span class="sxs-lookup"><span data-stu-id="8a6ea-124">If the above command returns an error, it is because the old policy is assigned to users so you need to run to remove all assigned users from the policy:</span></span>
+
+```
+Grant-CsMessagingPolicy -Policy <old_policy_name> $null
+```
+### <a name="want-to-know-how-to-manage-with-windows-powershell"></a><span data-ttu-id="8a6ea-125">Go to the Office 365 admin centerSkype for Business.</span><span class="sxs-lookup"><span data-stu-id="8a6ea-125">Want to know how to manage with Windows PowerShell?</span></span>
+
+<span data-ttu-id="8a6ea-p105">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span><span class="sxs-lookup"><span data-stu-id="8a6ea-p105">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
+    
+  - [<span data-ttu-id="8a6ea-129">なぜ Office 365 の PowerShell を使用する必要がありますか。</span><span class="sxs-lookup"><span data-stu-id="8a6ea-129">Why you need to use Office 365 PowerShell?</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
+    
+  - [<span data-ttu-id="8a6ea-130">Windows PowerShell で Office 365 を管理するための最善の方法</span><span class="sxs-lookup"><span data-stu-id="8a6ea-130">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
+    
+- <span data-ttu-id="8a6ea-p106">多くのユーザーの設定を同時に変更するときなどは、Office 365 管理センターのみを使用するよりも、Windows PowerShell の方に、速度、わかりやすさ、生産性の点で多くのメリットがあります。</span><span class="sxs-lookup"><span data-stu-id="8a6ea-p106">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making settings changes for many users at one time. Learn about these advantages in the following topics:</span></span>
+    
+  - <span data-ttu-id="8a6ea-133">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center such as when you are making setting changes for many users at one time.</span><span class="sxs-lookup"><span data-stu-id="8a6ea-133">[An introduction to Windows PowerShell and Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)</span></span>
+    
+    [<span data-ttu-id="8a6ea-134">Windows PowerShell による Skype for Business Online の管理</span><span class="sxs-lookup"><span data-stu-id="8a6ea-134">Using Windows PowerShell to manage Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525453)
+    
+  - [<span data-ttu-id="8a6ea-135">Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行</span><span class="sxs-lookup"><span data-stu-id="8a6ea-135">Using Windows PowerShell to do common Skype for Business Online management tasks</span></span>](https://go.microsoft.com/fwlink/?LinkId=525038)
+    
+    > [!NOTE]
+    > <span data-ttu-id="8a6ea-136">ビジネス オンラインの Skype については、Windows PowerShell モジュールを使用すると、Skype のビジネスをオンラインで、マイクロソフトのチームに接続するリモートの Windows PowerShell セッションを作成できます。</span><span class="sxs-lookup"><span data-stu-id="8a6ea-136">The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online and Microsoft Teams.</span></span> <span data-ttu-id="8a6ea-137">Skype for Business Online 用 Windows PowerShell モジュールでは、リモート Windows PowerShell セッションを作成して Skype for Business Online に接続できます。</span><span class="sxs-lookup"><span data-stu-id="8a6ea-137">This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688)</span></span>
+  
+### <a name="related-topics"></a><span data-ttu-id="8a6ea-138">このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。</span><span class="sxs-lookup"><span data-stu-id="8a6ea-138">Related topics</span></span>
