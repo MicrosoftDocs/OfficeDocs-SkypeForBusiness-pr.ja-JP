@@ -11,12 +11,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aae2fb4118a5069c7f1f85a90326ec9c158037db
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: eed2f652ae91c8f6c5296fc558d5008fb0e5e607
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569598"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20409313"
 ---
 <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 ==================================
@@ -28,7 +28,7 @@ ms.locfileid: "19569598"
 
 |  |  |
 |---------|---------|
-| [チュートリアル: Skype for Business から Teams への移行](tutorial-journey-skypeforbusiness-to-teams.yml) |Skype for Business Online から Teams に移行するために理解しておく必要がある、あらゆる情報について説明します。  |
+| [マイクロソフトのチームにビジネス用の Skype からのアップグレードのチュートリアル:](tutorial-journey-skypeforbusiness-to-teams.yml) |手順を説明するすべてのオンライン ビジネス用 Skype からチームへのアップグレードについて理解する必要があります。  |
 | [チームで電話会議のチュートリアル:](Tutorial-Audio-Conferencing.yml) | この対話型トレーニングでは、チームでのオーディオ会議について説明します。 |
 | [クイック スタート: 教育管理者は、マイクロソフトのチーム](teams-quick-start-edu.yml) |教育機関の IT 管理者の場合は、Teams を組織全体にわたり展開します。   |
 | [クイック スタート: マイクロソフトのチームでプランの呼び出しを構成します。](configuring-teams-calling-quickstartguide.md)| Teams で通話プランを設定するためのクイック スタート ガイドです。 |
