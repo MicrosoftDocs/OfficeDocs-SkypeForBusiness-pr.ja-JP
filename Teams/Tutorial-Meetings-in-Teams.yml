@@ -16,12 +16,12 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 4502a4d0587992f742540cf2c1d5a4799dfc3113
-  ms.sourcegitcommit: 1fde3af8f5c93c1328842990c7d14cbc0fbfdf97
+  ms.openlocfilehash: 2e828a413956719a25a4944f29a70cdabf1c7842
+  ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 07/05/2018
-  ms.locfileid: "20201375"
+  ms.lasthandoff: 07/17/2018
+  ms.locfileid: "20393946"
 items:
 - durationInMinutes: 1
   content: >
@@ -84,7 +84,7 @@ items:
   content: "\nこの演習では、Teams での会議をテストする機会があります。 各操作の実行方法については説明しませんが、いくつかのシナリオを試してみることをお勧めします。\n\n###<a name=\"requirements\"></a>要件\n-   Teams を使用するための適切なライセンスを備えた Office 365 テナント\n    -   テスト専用のテナントを使用することを強く推奨します。\n    -   テスト用のテナントがない場合は、[Office 365 Enterprise E5 Trial](https://go.microsoft.com/fwlink/p/?LinkID=698279) で試用テナントの利用を登録することができます。\n    -   実稼働環境ではいかなるテストも実行しないでください。 設定またはポリシーの変更により、すべてのユーザーに悪影響が及び、ユーザー エクスペリエンスにも影響が生じる可能性があります。\n-   2 つ以上のエンドポイント\n   -   エンドポイントは 2 台の PC でも構いませんが、携帯電話上でクライアントを使用することもできます。\n\n###<a name=\"suggested-scenarios-to-test\"></a>推奨されるテスト シナリオ\n-   チャネル会議、臨時会議、プライベート会議などの異なる会議の種類を Teams クライアント内から予約します。\n-   [Outlook アドイン](https://docs.microsoft.com/MicrosoftTeams/Teams-add-in-for-Outlook)を使用して会議を予約します。\n-   予約された会議では、会議の開始前にチャット (議題についてのディスカッションなど) を始めます。\n-   会議に参加し、音声のみ、ビデオ、デスクトップ共有などの、さまざまなシナリオやワークロードをテストします。\n-   匿名で会議に参加するとどのようになるかを確認するために (「InPrivate」閲覧を使う場面も考えられます)、テナントにサインインすることなくブラウザーから会議に参加します。\n-   管理ポータルにサインインして、会議の設定の一部を変更します (たとえば、プライベート会議のスケジュール設定を無効にします)。 これによりどのような影響がユーザー エクスペリエンスに生じるでしょうか。\n"
 - title: レポート
   durationInMinutes: 2
-  content: "\nレポートにおいて、確認するべき領域は次の 2 つです。\n-   使用量: 開催されている会議の数について\n-   品質: 会議の品質について\n\nこれらの両方の領域について注意して監視する必要があります。\n-   使用量が低いことは、ユーザーが何らかの理由によりこの製品を使用していないことを意味します。 できることは、次の追加的な調査を実施して、理由を特定することのみです。 理由として考えられるのは、会議がユーザーの要件を満たしていないと認知されていることや、啓発不足やトレーニング不足、または品質の問題などです。\n-   低品質は、一方で、ユーザーと Office 365 との間の接続に問題があることを意味します。 低品質により、ユーザー エクスペリエンスの悪化と低使用量につながる可能性があります。\n    使用量のレポートの詳細については、「[管理センターの Office 365 レポート - Microsoft Teams ユーザー アクティビティ](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524) (推定所要時間: 5 分) をご覧ください。\n\n品質の管理については、このトレーニングの対象範囲外ですが、次のトレーニング資料をご覧ください。\n\n-   品質チャンピオンの役割については、「[品質チャンピオンの役割](https://docs.microsoft.com/microsoftteams/prepare-teams)」をご覧ください。\n-   通話品質ダッシュボードの詳細については、「[Investigate Media Quality using CQD (CQD を使用してメディア品質を調査する)](http://aka.ms/sof-cqd)」をご覧ください。\n"
+  content: "\nレポートにおいて、確認するべき領域は次の 2 つです。\n-   使用量: 開催されている会議の数について\n-   品質: 会議の品質について\n\nこれらの両方の領域について注意して監視する必要があります。\n-   使用量が低いことは、ユーザーが何らかの理由によりこの製品を使用していないことを意味します。 できることは、次の追加的な調査を実施して、理由を特定することのみです。 理由として考えられるのは、会議がユーザーの要件を満たしていないと認知されていることや、啓発不足やトレーニング不足、または品質の問題などです。\n-   低品質は、一方で、ユーザーと Office 365 との間の接続に問題があることを意味します。 低品質により、ユーザー エクスペリエンスの悪化と低使用量につながる可能性があります。\n    使用量のレポートの詳細については、「[管理センターの Office 365 レポート - Microsoft Teams ユーザー アクティビティ](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524) (推定所要時間: 5 分) をご覧ください。\n\n品質の管理については、このトレーニングの対象範囲外ですが、次のトレーニング資料をご覧ください。\n\n-   品質チャンピオンの役割については、「[品質チャンピオンの役割](https://docs.microsoft.com/microsoftteams/envision-planning-for-service-management-and-quality-complete-guide)」をご覧ください。\n-   通話品質ダッシュボードの詳細については、「[Investigate Media Quality using CQD (CQD を使用してメディア品質を調査する)](http://aka.ms/sof-cqd)」をご覧ください。\n"
 - title: 次のステップ
   durationInMinutes: 1
   content: >-

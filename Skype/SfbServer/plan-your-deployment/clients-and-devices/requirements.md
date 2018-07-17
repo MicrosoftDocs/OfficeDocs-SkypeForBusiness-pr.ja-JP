@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: この資料では、Skype ルーム システム v2 をサポートするための要件について説明します。
-ms.openlocfilehash: 6b31c9bc69fd9329902ca3eb2b77b8883b3b58bb
-ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
+ms.openlocfilehash: 8c473ee6d1d94b2f382c43ad1383546a69138781
+ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "20176185"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20397148"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Skype Room Systems バージョン 2 の要件
  
@@ -123,20 +123,13 @@ Skype ルーム システム v2 は、別の部屋のサイズによっては、
 
 ## <a name="required-software-downloads"></a>必要なソフトウェアのダウンロード
 
-Skype ルーム システム v2 の独自のイメージを作成する次のダウンロードを必要となります。
-  
-- [Skype ルーム システム v2 のインストール パッケージ](https://go.microsoft.com/fwlink/?linkid=851168)です。
-    
-- Windows 10 Enterprise Creators Update (英語版、ビルド 1703) の 64 ビット バージョンのコピーの入手。 
-    
+Skype ルーム システム v2 イメージを作成するには、するには、 [Skype ルーム システム v2 のコンソールの構成](../../deploy/deploy-clients/console.md)の指示に従います。 指示に従って、インストール プロセスのすべての必要なソフトウェアをダウンロードします。 
+
     > [!NOTE]
-    > Skype ルーム システム v2 リリース 3.0.12.0 (アップデート 3) は、Windows 10 企業の記念日の版 (英語、1607 のバージョン) の 64 ビット バージョンがサポートされていません。 
-  
-- [Surface Pro 4 ドライバー](https://go.microsoft.com/fwlink/?linkid=856887)のサポートされているか、 [Surface Pro のドライバー](https://go.microsoft.com/fwlink/?linkid=856888)です。
-    
-これらのダウンロードは、特定の方法で起動可能な Windows インストール メディアのディスクに結合する必要があります[Skype ルーム システム v2 のコンソールの構成](../../deploy/deploy-clients/console.md)で詳細に説明します。 
-  
+    > IT professionals will need access to Windows 10 Enterprise ISO files through their volume licensing agreement.
+
 さらに、 [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)、Skype ルーム システム v2 のアカウントをプロビジョニングするために使用多くの場合のコピーを必要があります。
+
   
 ## <a name="see-also"></a>関連項目
 

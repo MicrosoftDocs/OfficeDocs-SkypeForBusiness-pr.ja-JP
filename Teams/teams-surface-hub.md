@@ -3,7 +3,7 @@ title: サーフェスのハブのマイクロソフトのチームを配置し�
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/10/2018
+ms.date: 07/16/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cfd9e5fd267de180907c2ea41c53541c08ff28b7
-ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
+ms.openlocfilehash: abb049c0185fa52b804c893d6f7abf73a1a902ab
+ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "20266939"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20397064"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>サーフェスのハブのマイクロソフトのチームを配置します。
 ======================================
@@ -193,7 +193,7 @@ InTune を使用して既定の通話や会議のアプリケーション ポリ
 |設定   |値    |
 |----------|---------|
 | Path      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
-|データ型 | 文字列 ( **Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe としてアプリケーション パッケージ ID をチームに文字列を設定します。チームは**) |
+|データ型 | 文字列 - **Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe としてチームのアプリケーション パッケージ ID に文字列を設定します。チーム** |
 |運用| 取得、設定        |
 
 サーフェス ハブ デバイスを再起動します。 デバイスを再起動した後は、開始画面から、チームのアプリケーションを起動し、カレンダーから会議に参加することができます。
