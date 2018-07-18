@@ -16,9 +16,10 @@
 ## [Office 365 の URL と IP アドレスの範囲](office-365-urls-ip-address-ranges.md)
 ## [制限とチームの仕様](limits-specifications-teams.md)
 ## [Teams でチームを作成するときの Office 365 グループの計画](plan-office-365-groups.md)
-## [変更管理戦略を作成します。](change-management-strategy.md)
 ## [Teams のロールアウトをサポートするツールを入手する](rollout-tools.md)
 ## [Microsoft 365 政府の GCC の展開の計画](plan-for-government-gcc.md)
+## 採用を推進
+### [変更管理戦略を作成します。](change-management-strategy.md)
 <!-- ============================================================ -->
 
 
