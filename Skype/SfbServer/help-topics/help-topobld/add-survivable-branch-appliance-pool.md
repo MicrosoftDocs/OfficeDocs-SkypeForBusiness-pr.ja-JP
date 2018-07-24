@@ -3,7 +3,7 @@ title: リカバリ性に優れたブランチ アプライアンス ・ プー�
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,18 +11,19 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 56915c5d-9991-4d16-949d-a75883767d44
-description: リカバリ性に優れたブランチ アプライアンスの FQDN を定義するには、FQDN] ボックスに、リカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーの完全修飾ドメイン名 (FQDN) (定義されているドメイン ネーム システム (DNS)) を入力します。 [次へ] をクリックします。
-ms.openlocfilehash: 3f85ecc60469db1d600939ab1bb7c84a8fb2ffe2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: リカバリ性に優れたブランチ アプライアンスの FQDN を定義するには、FQDN] ボックスに、リカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーの完全修飾ドメイン名 (FQDN) (定義されているドメイン ネーム システム (DNS)) を入力します。 [次へ] をクリックして続行します。
+ms.openlocfilehash: 78b19494afe973ce1c27e18194d4f3017fffca6c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973717"
 ---
-# <a name="add-survivable-branch-appliance-pool"></a><span data-ttu-id="6e61c-104">リカバリ性に優れたブランチ アプライアンス ・ プールを追加します。</span><span class="sxs-lookup"><span data-stu-id="6e61c-104">Add Survivable Branch Appliance Pool</span></span>
+# <a name="add-survivable-branch-appliance-pool"></a><span data-ttu-id="1cdad-104">リカバリ性に優れたブランチ アプライアンス ・ プールを追加します。</span><span class="sxs-lookup"><span data-stu-id="1cdad-104">Add Survivable Branch Appliance Pool</span></span>
  
-<span data-ttu-id="6e61c-105">**リカバリ性に優れたブランチ アプライアンスの FQDN を定義する**には、 **FQDN** ] ボックスに、リカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーの完全修飾ドメイン名 (FQDN) (定義されているドメイン ネーム システム (DNS)) を入力します。</span><span class="sxs-lookup"><span data-stu-id="6e61c-105">To **Define the Survivable Branch Appliance FQDN**, type the fully qualified domain name (FQDN) (as defined in Domain Name System (DNS)) of the Survivable Branch Appliance or Survivable Branch Server in the **FQDN** text box.</span></span> <span data-ttu-id="6e61c-106">[**次へ**] をクリックして続行します。</span><span class="sxs-lookup"><span data-stu-id="6e61c-106">Click **Next** to continue.</span></span>
+<span data-ttu-id="1cdad-105">**リカバリ性に優れたブランチ アプライアンスの FQDN を定義する**には、 **FQDN** ] ボックスに、リカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーの完全修飾ドメイン名 (FQDN) (定義されているドメイン ネーム システム (DNS)) を入力します。</span><span class="sxs-lookup"><span data-stu-id="1cdad-105">To **Define the Survivable Branch Appliance FQDN**, type the fully qualified domain name (FQDN) (as defined in Domain Name System (DNS)) of the Survivable Branch Appliance or Survivable Branch Server in the **FQDN** text box.</span></span> <span data-ttu-id="1cdad-106">[**次へ**] をクリックして続行します。</span><span class="sxs-lookup"><span data-stu-id="1cdad-106">Click **Next** to continue.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="6e61c-107">明記しない限り、それは、リカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチのサーバーを定義することは、同じ手順です。</span><span class="sxs-lookup"><span data-stu-id="6e61c-107">Unless it is stated otherwise, defining a Survivable Branch Appliance or a Survivable Branch Server is the same procedure.</span></span> 
+> <span data-ttu-id="1cdad-107">明記しない限り、それは、リカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチのサーバーを定義することは、同じ手順です。</span><span class="sxs-lookup"><span data-stu-id="1cdad-107">Unless it is stated otherwise, defining a Survivable Branch Appliance or a Survivable Branch Server is the same procedure.</span></span> 
   
 

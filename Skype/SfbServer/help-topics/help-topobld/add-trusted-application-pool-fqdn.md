@@ -3,7 +3,7 @@ title: 信頼されたアプリケーション プールの FQDN を追加しま
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,23 +12,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d065268-a694-49a1-b285-9be80a09995c
 description: 信頼されたアプリケーション プールの完全修飾ドメイン名 (FQDN) を定義するには、次のように指定します。
-ms.openlocfilehash: af21ab09797a5b81f2071a37a2668d556f0a4012
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 287e38d4568a45c14dc27e3c1b3f9b0124c9893a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983799"
 ---
-# <a name="add-trusted-application-pool-fqdn"></a><span data-ttu-id="60d70-103">信頼されたアプリケーション プールの FQDN を追加します。</span><span class="sxs-lookup"><span data-stu-id="60d70-103">Add Trusted Application Pool FQDN</span></span>
+# <a name="add-trusted-application-pool-fqdn"></a><span data-ttu-id="df591-103">信頼されたアプリケーション プールの FQDN を追加します。</span><span class="sxs-lookup"><span data-stu-id="df591-103">Add Trusted Application Pool FQDN</span></span>
  
-<span data-ttu-id="60d70-104">信頼されたアプリケーション プールの完全修飾ドメイン名 (FQDN) を定義するには、次のように指定します。</span><span class="sxs-lookup"><span data-stu-id="60d70-104">To define a Trusted Applications pool fully qualified domain name (FQDN), specify the following:</span></span>
+<span data-ttu-id="df591-104">信頼されたアプリケーション プールの完全修飾ドメイン名 (FQDN) を定義するには、次のように指定します。</span><span class="sxs-lookup"><span data-stu-id="df591-104">To define a Trusted Applications pool fully qualified domain name (FQDN), specify the following:</span></span>
   
-<span data-ttu-id="60d70-105">サーバーまたは信頼されたアプリケーションをホストするサーバー プールの FQDN です。</span><span class="sxs-lookup"><span data-stu-id="60d70-105">An FQDN of the server or pool of servers that will host the trusted applications.</span></span>
+<span data-ttu-id="df591-105">サーバーまたは信頼されたアプリケーションをホストするサーバー プールの FQDN です。</span><span class="sxs-lookup"><span data-stu-id="df591-105">An FQDN of the server or pool of servers that will host the trusted applications.</span></span>
   
-<span data-ttu-id="60d70-106">負荷分散と高可用性は、信頼されたアプリケーション サーバーのプールを展開する、または負荷分散や高可用性が必要ない場合は、 **1 台のコンピューターのプール**を選択する場合は、**複数コンピューターのプール**を選択します。</span><span class="sxs-lookup"><span data-stu-id="60d70-106">Select **Multiple computer pool** if you are deploying a pool of servers for the trusted applications from load balancing and high availability, or select **Single computer pool** if you do not need load balancing or high availability.</span></span>
+<span data-ttu-id="df591-106">負荷分散と高可用性は、信頼されたアプリケーション サーバーのプールを展開する、または負荷分散や高可用性が必要ない場合は、 **1 台のコンピューターのプール**を選択する場合は、**複数コンピューターのプール**を選択します。</span><span class="sxs-lookup"><span data-stu-id="df591-106">Select **Multiple computer pool** if you are deploying a pool of servers for the trusted applications from load balancing and high availability, or select **Single computer pool** if you do not need load balancing or high availability.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="60d70-107">1 つの信頼されたアプリケーション サーバーは、後で、サーバーのプールに変換できません。</span><span class="sxs-lookup"><span data-stu-id="60d70-107">A single Trusted Applications Server cannot be converted to a pool of servers later.</span></span> <span data-ttu-id="60d70-108">プールは、将来的にする必要がある場合は、ここで、1 台のコンピューターを含む複数のサーバー プールを展開し、必要なときにサーバーを追加できます。</span><span class="sxs-lookup"><span data-stu-id="60d70-108">If you think you may need a pool in the future, you can deploy a multiple server pool containing a single computer now, and add servers when needed.</span></span> 
+> <span data-ttu-id="df591-107">1 つの信頼されたアプリケーション サーバーは、後で、サーバーのプールに変換できません。</span><span class="sxs-lookup"><span data-stu-id="df591-107">A single Trusted Applications Server cannot be converted to a pool of servers later.</span></span> <span data-ttu-id="df591-108">プールは、将来的にする必要がある場合は、ここで、1 台のコンピューターを含む複数のサーバー プールを展開し、必要なときにサーバーを追加できます。</span><span class="sxs-lookup"><span data-stu-id="df591-108">If you think you may need a pool in the future, you can deploy a multiple server pool containing a single computer now, and add servers when needed.</span></span> 
   
-<span data-ttu-id="60d70-109">信頼されたアプリケーション プールに関する詳細情報は、[新規 CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="60d70-109">For details about Trusted Applications pools, see [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps).</span></span>
+<span data-ttu-id="df591-109">信頼されたアプリケーション プールに関する詳細情報は、[新規 CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="df591-109">For details about Trusted Applications pools, see [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps).</span></span>
   
 

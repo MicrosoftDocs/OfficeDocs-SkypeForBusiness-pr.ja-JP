@@ -3,7 +3,6 @@ title: 常設チャット プールのコンピューターの定義
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,35 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
 description: コンピューターの FQDN で、完全修飾ドメイン名 (FQDN) を入力することによって永続的なチャット サーバー プールの一部となるコンピューターを定義します。 これは、ドメイン ネーム システム (DNS) ホスト (A または AAAA) レコードで定義されているコンピューターの名前であることが必要です。
-ms.openlocfilehash: 3d47b36c3610ac5fcbcf34d1be89025fbdce61af
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 922b3dc602fd7e1f4900bca08eefae796c4c8823
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016658"
 ---
-# <a name="define-computers-in-persistent-chat-pool"></a><span data-ttu-id="c83c9-104">常設チャット プールのコンピューターの定義</span><span class="sxs-lookup"><span data-stu-id="c83c9-104">Define Computers in Persistent Chat Pool</span></span>
- 
-<span data-ttu-id="c83c9-105">**コンピューターの FQDN**で、完全修飾ドメイン名 (FQDN) を入力することによって永続的なチャット サーバー プールの一部となるコンピューターを定義します。</span><span class="sxs-lookup"><span data-stu-id="c83c9-105">You define the computers that will be a part of a Persistent Chat Server pool by typing the fully qualified domain name (FQDN) in **Computer FQDN**.</span></span> <span data-ttu-id="c83c9-106">これは、ドメイン ネーム システム (DNS) ホスト (A または AAAA) レコードで定義されているコンピューターの名前であることが必要です。</span><span class="sxs-lookup"><span data-stu-id="c83c9-106">This must be the name of the computer as it is defined in the domain name system DNS host (A or AAAA) records.</span></span>
-  
-<span data-ttu-id="c83c9-107">その FQDN をプールに含まれるコンピューターのリストに追加するには、[**追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c83c9-107">Click **Add** to add the FQDN to the list of computers in the pool.</span></span>
-  
-<span data-ttu-id="c83c9-108">プールに対して定義されているコンピューターのリストを形成しているコンピューター内のコンピューターのリスト内のエントリを更新するには、[**更新**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c83c9-108">Click **Update** to refresh the entries in the list of computers in the computers that make up the list of computers defined for the pool.</span></span>
-  
-<span data-ttu-id="c83c9-109">プールに含まれる定義済みのコンピューターを削除するには、[**削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c83c9-109">Click **Remove** to delete a defined computer in the pool.</span></span>
-  
-<span data-ttu-id="c83c9-110">前のプール定義ダイアログに戻るには、[**戻る**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c83c9-110">Click **Back** to go back to the previous pool definition dialog.</span></span>
-  
-<span data-ttu-id="c83c9-111">永続的なチャット サーバー プールの定義を続行するのにはこのプールにコンピューターのメンバーの入力が終了したら**次へ**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c83c9-111">Click **Next** after you have finished entering the computer members for this pool to proceed with the Persistent Chat Server pool definition.</span></span>
-  
-<span data-ttu-id="c83c9-112">すべての変更を破棄して**新しい常設チャット プールの定義**ウィザードを終了するには、[**キャンセル**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c83c9-112">Click **Cancel** to discard all changes and end the **Define New Persistent Chat Pool** wizard.</span></span>
-  
-<span data-ttu-id="c83c9-113">このページのような状況依存のヘルプにアクセスするには、[**ヘルプ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c83c9-113">Click **Help** to access context sensitive help, such as this page.</span></span>
-  
-## <a name="see-also"></a><span data-ttu-id="c83c9-114">関連項目</span><span class="sxs-lookup"><span data-stu-id="c83c9-114">See also</span></span>
+# <a name="define-computers-in-persistent-chat-pool"></a><span data-ttu-id="01811-104">常設チャット プールのコンピューターの定義</span><span class="sxs-lookup"><span data-stu-id="01811-104">Define Computers in Persistent Chat Pool</span></span>
 
-#### 
-
-[<span data-ttu-id="c83c9-115">ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの計画</span><span class="sxs-lookup"><span data-stu-id="c83c9-115">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
-  
-[<span data-ttu-id="c83c9-116">ビジネス サーバー 2015 トポロジの場合、Skype に永続的なチャット サーバーを追加します。</span><span class="sxs-lookup"><span data-stu-id="c83c9-116">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-
+> [!NOTE] 
+> <span data-ttu-id="01811-105">永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="01811-105">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="01811-106">同じ機能は、チームで使用できます。</span><span class="sxs-lookup"><span data-stu-id="01811-106">The same functionality is available in Teams.</span></span> <span data-ttu-id="01811-107">詳細については、[マイクロソフトのチームにビジネス用の Skype のアップグレード](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="01811-107">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="01811-108">永続的なチャットの使用が必要な場合、選択肢としてはチームにこの機能を必要とするユーザーを移行するか、ビジネス サーバー 2015 の Skype を使用し続けます。</span><span class="sxs-lookup"><span data-stu-id="01811-108">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>

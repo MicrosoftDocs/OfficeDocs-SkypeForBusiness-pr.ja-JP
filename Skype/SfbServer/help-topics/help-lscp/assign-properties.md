@@ -3,7 +3,7 @@ title: プロパティを割り当てる
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,16 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c799a3-90a0-4d58-8f8b-17eea56144dc
 description: 同時に複数のサブネットに、説明、およびネットワークのサイト ID を指定するのにプロパティの割り当て] ダイアログ ボックスを使用します。 [説明] に、選択したサブネットを使用する説明を入力します。 [ネットワーク サイト ID に割り当てる] を選択したサブネットをネットワーク サイト ID を選択します。 これらのプロパティを選択したサブネットに割り当てるには、[OK] をクリックします。
-ms.openlocfilehash: 17ea661fbc02bb554c47e7a6b47916c234e6c0f7
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 5111f74c27ea2c367218a79c9ea1e0fbb0df0a3a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20044083"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20990275"
 ---
-# <a name="assign-properties"></a><span data-ttu-id="32506-106">プロパティを割り当てる</span><span class="sxs-lookup"><span data-stu-id="32506-106">Assign Properties</span></span>
+# <a name="assign-properties"></a><span data-ttu-id="2c88e-106">プロパティを割り当てる</span><span class="sxs-lookup"><span data-stu-id="2c88e-106">Assign Properties</span></span>
  
-<span data-ttu-id="32506-107">同時に複数のサブネットに、説明、およびネットワークのサイト ID を指定するのに**プロパティの割り当て**] ダイアログ ボックスを使用します。</span><span class="sxs-lookup"><span data-stu-id="32506-107">Use the **Assign Properties** dialog box to specify a description and network site ID to multiple subnets at one time.</span></span> <span data-ttu-id="32506-108">[**説明**] に選択したサブネットを使用する説明を入力します。</span><span class="sxs-lookup"><span data-stu-id="32506-108">In **Description**, type the description you want to use for the subnets you selected.</span></span> <span data-ttu-id="32506-109">[**ネットワーク サイト ID**に割り当てる] を選択したサブネットをネットワーク サイト ID を選択します。</span><span class="sxs-lookup"><span data-stu-id="32506-109">In **Network site ID**, select the network site ID that you want to assign to the subnets you selected.</span></span> <span data-ttu-id="32506-110">これらのプロパティを選択したサブネットに割り当てるには、[ **OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="32506-110">To assign these properties to the subnets you selected, click **OK**.</span></span>
+<span data-ttu-id="2c88e-107">同時に複数のサブネットに、説明、およびネットワークのサイト ID を指定するのに**プロパティの割り当て**] ダイアログ ボックスを使用します。</span><span class="sxs-lookup"><span data-stu-id="2c88e-107">Use the **Assign Properties** dialog box to specify a description and network site ID to multiple subnets at one time.</span></span> <span data-ttu-id="2c88e-108">[**説明**] に選択したサブネットを使用する説明を入力します。</span><span class="sxs-lookup"><span data-stu-id="2c88e-108">In **Description**, type the description you want to use for the subnets you selected.</span></span> <span data-ttu-id="2c88e-109">[**ネットワーク サイト ID**に割り当てる] を選択したサブネットをネットワーク サイト ID を選択します。</span><span class="sxs-lookup"><span data-stu-id="2c88e-109">In **Network site ID**, select the network site ID that you want to assign to the subnets you selected.</span></span> <span data-ttu-id="2c88e-110">これらのプロパティを選択したサブネットに割り当てるには、[ **OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="2c88e-110">To assign these properties to the subnets you selected, click **OK**.</span></span>
   
-
+<span data-ttu-id="2c88e-111">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="2c88e-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+  
 

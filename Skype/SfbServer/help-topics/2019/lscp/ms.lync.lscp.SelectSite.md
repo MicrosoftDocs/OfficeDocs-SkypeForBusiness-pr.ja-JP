@@ -3,7 +3,6 @@ title: サイトの選択
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,40 +10,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
-description: 環境内で利用可能なサイトを検索するのには、[サイト] ダイアログ ボックスの選択を使用します。 既存のサイトを使用するには、一覧の [サイト] をクリックし、[OK] をクリックします。
-ms.openlocfilehash: 7ebf146d6887ec0f2fafc8655c6d448fbd0573fb
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ROBOTS: NOINDEX, NOFOLLOW
+description: '[サイトの選択] ダイアログ ボックスを使用して、環境で使用可能なサイトを検索します。既存のサイトを使用するには、一覧でサイトをクリックして [OK] をクリックします。'
+ms.openlocfilehash: 6eb2c4ccaeb7b6558af78f655c97f3e549285829
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20044110"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993614"
 ---
-# <a name="select-a-site"></a><span data-ttu-id="46468-104">サイトの選択</span><span class="sxs-lookup"><span data-stu-id="46468-104">Select a Site</span></span>
- 
-<span data-ttu-id="46468-p102">[**サイトの選択**] ダイアログ ボックスを使用して、環境で使用可能なサイトを検索します。既存のサイトを使用するには、一覧でサイトをクリックして [**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="46468-p102">Use the **Select a Site** dialog box to find sites available in your environment. To use an existing site, click a site in the list and then click **OK**.</span></span>
-  
-> [!NOTE]
-> <span data-ttu-id="46468-107">使用可能なサイトをすべて取得するには、検索ボックスに何も入力せずに検索アイコンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="46468-107">To retrieve all available sites, do not type anything in the search box and then click the search icon.</span></span> 
-  
- 
-  
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="46468-108">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="46468-108">Tasks you can perform</span></span>
+# <a name="select-a-site"></a><span data-ttu-id="5243b-104">サイトの選択</span><span class="sxs-lookup"><span data-stu-id="5243b-104">Select a Site</span></span>
 
-<span data-ttu-id="46468-109">[**サイトの選択**] ページでは次のタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="46468-109">You can perform the following tasks on the **Select a Site** page:</span></span>
-  
-- [<span data-ttu-id="46468-110">永続的なチャット サーバーのオプションをグローバルに、または永続的なチャット サーバー プールの構成します。</span><span class="sxs-lookup"><span data-stu-id="46468-110">Configure Persistent Chat Server Options Globally or for Persistent Chat Server Pool</span></span>](http://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
-    
-- [<span data-ttu-id="46468-111">永続的なチャットのサイト ポリシーを作成します。</span><span class="sxs-lookup"><span data-stu-id="46468-111">Create a Site Policy for Persistent Chat</span></span>](http://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
-    
- 
-  
-## <a name="to-configure-persistent-chat-options-globally"></a><span data-ttu-id="46468-112">永続的なチャット ルームのオプションをグローバルに構成するのには</span><span class="sxs-lookup"><span data-stu-id="46468-112">To configure Persistent Chat options globally</span></span>
+> [!NOTE] 
+> <span data-ttu-id="5243b-105">永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="5243b-105">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="5243b-106">同じ機能は、チームで使用できます。</span><span class="sxs-lookup"><span data-stu-id="5243b-106">The same functionality is available in Teams.</span></span> <span data-ttu-id="5243b-107">詳細については、[マイクロソフトのチームにビジネス用の Skype のアップグレード](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="5243b-107">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="5243b-108">永続的なチャットの使用が必要な場合、選択肢としてはチームにこの機能を必要とするユーザーを移行するか、ビジネス サーバー 2015 の Skype を使用し続けます。</span><span class="sxs-lookup"><span data-stu-id="5243b-108">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
 
-<span data-ttu-id="46468-113">**サイトを選択**すると、永続的なチャット サーバーのサイト設定を構成するサイトを選択します。</span><span class="sxs-lookup"><span data-stu-id="46468-113">In **Select a Site**, select the site to be configured for the Persistent Chat Server site configuration.</span></span>
-  
-## <a name="to-create-a-persistent-chat-policy-for-a-site"></a><span data-ttu-id="46468-114">永続的なチャットのサイトのポリシーを作成するには</span><span class="sxs-lookup"><span data-stu-id="46468-114">To create a Persistent Chat policy for a site</span></span>
-
-<span data-ttu-id="46468-115">[**サイトの選択**] でポリシーを適用するサイトをクリックします。</span><span class="sxs-lookup"><span data-stu-id="46468-115">In **Select a Site**, click the site to which the policy is to be applied.</span></span> 
-  
-<span data-ttu-id="46468-116">永続的なチャット サーバーの機能と機能の詳細については、計画ドキュメントの[概要の永続的なチャット サーバー](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="46468-116">For details about Persistent Chat Server features and capabilities, see [Overview of Persistent Chat Server](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) in the Planning documentation.</span></span> <span data-ttu-id="46468-117">永続的なチャット サーバーの構成の操作に関する詳細についてを参照してください[永続的なチャット サーバーの構成](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx)、展開に関するドキュメントおよび[Lync Server 2013 を管理する、永続的なチャット サーバー](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx)の操作マニュアルを参照します。</span><span class="sxs-lookup"><span data-stu-id="46468-117">For details about working with Persistent Chat Server configurations, see [Configuring Persistent Chat Server](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) in the Deployment documentation and [Managing Lync Server 2013, Persistent Chat Server](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) in the Operations documentation.</span></span>
 

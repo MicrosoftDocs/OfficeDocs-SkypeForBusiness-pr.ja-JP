@@ -3,7 +3,6 @@ title: 永続的なチャットを表示します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,40 +10,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
+ROBOTS: NOINDEX, NOFOLLOW
 description: CsPersistentChatAdministrator ロール (永続的なチャット管理者) のメンバーには、他のユーザーにし、自らをチャット ルームの管理者の権限およびアクセス許可を与えることができます。
-ms.openlocfilehash: 0b12223fd51158d2525986b2a475e62604ab7252
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 06cda7eeaffdafeaae5553c4260b5b8e63e564ff
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20045254"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013357"
 ---
-# <a name="users-view-persistent-chat"></a><span data-ttu-id="83a37-103">ユーザー: ビューの永続的なチャット</span><span class="sxs-lookup"><span data-stu-id="83a37-103">Users: View Persistent Chat</span></span>
- 
-<span data-ttu-id="83a37-104">**CsPersistentChatAdministrator**ロール (永続的なチャット管理者) のメンバーには、他のユーザーにし、自らをチャット ルームの管理者の権限およびアクセス許可を与えることができます。</span><span class="sxs-lookup"><span data-stu-id="83a37-104">Members of the **CsPersistentChatAdministrator** role (Persistent Chat Administrators) can grant chat room manager rights and permissions to other users and to themselves.</span></span>
-  
-<span data-ttu-id="83a37-105">永続的なチャットの管理者は、次に行うことができます。</span><span class="sxs-lookup"><span data-stu-id="83a37-105">A Persistent Chat Administrator can do the following:</span></span>
-  
-- <span data-ttu-id="83a37-106">部屋のカテゴリとチャット ルームを作成します。</span><span class="sxs-lookup"><span data-stu-id="83a37-106">Create room categories and chat rooms.</span></span>
-    
-- <span data-ttu-id="83a37-107">すべてのカテゴリおよびチャット ルームのメンバーシップを設定します。</span><span class="sxs-lookup"><span data-stu-id="83a37-107">Set the membership of all categories and chat rooms.</span></span>
-    
-- <span data-ttu-id="83a37-108">すべてのカテゴリおよびチャット ルームのすべての設定を管理します。</span><span class="sxs-lookup"><span data-stu-id="83a37-108">Manage all settings of all categories and chat rooms.</span></span>
-    
-- <span data-ttu-id="83a37-109">有効にするか、永続的なチャット サーバーのポリシーを無効にします。</span><span class="sxs-lookup"><span data-stu-id="83a37-109">Enable or disable policy for Persistent Chat Server.</span></span>
-    
-- <span data-ttu-id="83a37-110">設定し、永続的なチャット サーバー プールの構成設定を管理します。</span><span class="sxs-lookup"><span data-stu-id="83a37-110">Set and manage configuration settings on a Persistent Chat Server pool.</span></span>
-    
-<span data-ttu-id="83a37-111">詳細については、展開に関するドキュメントの[永続的なチャット管理者を追加する](http://technet.microsoft.com/library/c107eb20-4e58-4463-b4f9-63fb5b1d9534.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="83a37-111">For details, see [Adding a Persistent Chat Administrator](http://technet.microsoft.com/library/c107eb20-4e58-4463-b4f9-63fb5b1d9534.aspx) in the Deployment documentation.</span></span>
-  
-## <a name="tasks-that-you-can-perform"></a><span data-ttu-id="83a37-112">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="83a37-112">Tasks that you can perform</span></span>
+# <a name="users-view-persistent-chat"></a><span data-ttu-id="d2dcc-103">永続的なチャットを表示します。</span><span class="sxs-lookup"><span data-stu-id="d2dcc-103">Users View Persistent Chat</span></span>
 
-<span data-ttu-id="83a37-113">次のタスクを実行することができます、**ユーザー: ビューの永続的なチャット**ページ。</span><span class="sxs-lookup"><span data-stu-id="83a37-113">You can perform the following tasks on the **Users: View Persistent Chat** page:</span></span>
-  
-- [<span data-ttu-id="83a37-114">カテゴリ、チャット ルーム、およびユーザー権利とアクセス許可を管理するユーザーを有効にします。</span><span class="sxs-lookup"><span data-stu-id="83a37-114">Enabling a User to Manage Categories, Chat Rooms, and User Rights and Permissions</span></span>](http://technet.microsoft.com/library/6c551be3-bc74-4d0e-9008-ddfabd86e940.aspx)
-    
-- [<span data-ttu-id="83a37-115">永続的なチャットのメンバーシップを理解します。</span><span class="sxs-lookup"><span data-stu-id="83a37-115">Understanding Persistent Chat Membership</span></span>](http://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
-    
- 
-  
-
+> [!NOTE] 
+> <span data-ttu-id="d2dcc-104">永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="d2dcc-104">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="d2dcc-105">同じ機能は、チームで使用できます。</span><span class="sxs-lookup"><span data-stu-id="d2dcc-105">The same functionality is available in Teams.</span></span> <span data-ttu-id="d2dcc-106">詳細については、[マイクロソフトのチームにビジネス用の Skype のアップグレード](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d2dcc-106">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="d2dcc-107">永続的なチャットの使用が必要な場合、選択肢としてはチームにこの機能を必要とするユーザーを移行するか、ビジネス サーバー 2015 の Skype を使用し続けます。</span><span class="sxs-lookup"><span data-stu-id="d2dcc-107">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>

@@ -3,7 +3,6 @@ title: サービスの選択
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,43 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
-description: 環境内で利用可能なサービスを検索するのには、[サービス] ダイアログ ボックスの選択を使用します。 既存のサービスを使用するには、一覧のサービスをクリックし、し、[OK] をクリックします。
-ms.openlocfilehash: 04f70c8ba98d9f153998014cfa9fb4869b137bad
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ROBOTS: NOINDEX, NOFOLLOW
+description: '[サービスの選択] ダイアログ ボックスを使用して、環境で使用可能なサービスを検索します。既存のサービスを使用するには、一覧でサービスをクリックして [OK] をクリックします。'
+ms.openlocfilehash: 73a1dee42639c20e6a16d9b269f3509e8ddecfee
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20049122"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016606"
 ---
-# <a name="select-a-service"></a><span data-ttu-id="cb2b0-104">サービスの選択</span><span class="sxs-lookup"><span data-stu-id="cb2b0-104">Select a Service</span></span>
- 
-<span data-ttu-id="cb2b0-p102">[**サービスの選択**] ダイアログ ボックスを使用して、環境で使用可能なサービスを検索します。既存のサービスを使用するには、一覧でサービスをクリックして [**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="cb2b0-p102">Use the **Select a Service** dialog box to find services available in your environment. To use an existing service, click a service in the list and then click **OK**.</span></span> 
-  
- 
-  
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="cb2b0-107">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="cb2b0-107">Tasks you can perform</span></span>
+# <a name="select-a-service"></a><span data-ttu-id="64d0a-104">サービスの選択</span><span class="sxs-lookup"><span data-stu-id="64d0a-104">Select a Service</span></span>
 
-<span data-ttu-id="cb2b0-108">[**サービスの選択**] ページでは次のタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="cb2b0-108">You can perform the following tasks on the **Select a Service** page:</span></span>
-  
-- [<span data-ttu-id="cb2b0-109">カテゴリを構成します。</span><span class="sxs-lookup"><span data-stu-id="cb2b0-109">Configure Categories</span></span>](http://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
-    
-- [<span data-ttu-id="cb2b0-110">ルームのアドインを構成します。</span><span class="sxs-lookup"><span data-stu-id="cb2b0-110">Configure Add-ins for Rooms</span></span>](http://technet.microsoft.com/library/4eeaf19e-8369-4f6f-af65-a283cf7daa1c.aspx)
-    
-- [<span data-ttu-id="cb2b0-111">永続的なチャット サーバーのオプションをグローバルに、または永続的なチャット サーバー プールの構成します。</span><span class="sxs-lookup"><span data-stu-id="cb2b0-111">Configure Persistent Chat Server Options Globally or for Persistent Chat Server Pool</span></span>](http://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
-    
- 
-  
-## <a name="to-configure-categories-for-chat-rooms"></a><span data-ttu-id="cb2b0-112">チャット ルームのカテゴリを構成するには</span><span class="sxs-lookup"><span data-stu-id="cb2b0-112">To configure categories for chat rooms</span></span>
-
-<span data-ttu-id="cb2b0-113">[**サービスの選択**] で、カテゴリの作成が必要な永続的なチャット サーバー プールに対応するサービスを選択します。</span><span class="sxs-lookup"><span data-stu-id="cb2b0-113">In **Select a Service**, select the service corresponding to the Persistent Chat Server pool on which the category needs to be created.</span></span> <span data-ttu-id="cb2b0-114">サービスは、プールのカテゴリを識別するのには、永続的なチャット (クライアント) を使用するプールが属する永続的なチャット サーバーです。</span><span class="sxs-lookup"><span data-stu-id="cb2b0-114">The service is the Persistent Chat Server pool that the Persistent Chat (client) uses to identify which pool the category belongs to.</span></span> <span data-ttu-id="cb2b0-115">カテゴリを 1 つだけの永続的なチャット サーバー プールに属することができます、別の 1 つに移動またはできません別のプールを共有します。</span><span class="sxs-lookup"><span data-stu-id="cb2b0-115">A category can belong to only one Persistent Chat Server pool, and cannot be moved to another one, or shared with another pool.</span></span> 
-  
-## <a name="to-configure-add-ins-for-chat-rooms"></a><span data-ttu-id="cb2b0-116">チャット ルームのアドインを構成するには</span><span class="sxs-lookup"><span data-stu-id="cb2b0-116">To configure add-ins for chat rooms</span></span>
-
-<span data-ttu-id="cb2b0-117">[**サービスの選択**] では、アドインを作成する必要がある永続的なチャット サーバー プールに対応するサービスを選択します。</span><span class="sxs-lookup"><span data-stu-id="cb2b0-117">In **Select a Service**, select the service corresponding to the Persistent Chat Server pool where you need to create the Add-in.</span></span> <span data-ttu-id="cb2b0-118">アドインは、プール間で移動したり、異なるプール間で共有したりできません。</span><span class="sxs-lookup"><span data-stu-id="cb2b0-118">Add-ins cannot be moved from one pool to another or shared between different pools.</span></span>
-  
-## <a name="to-configure-persistent-chat-options-for-a-specific-persistent-chat-server-pool"></a><span data-ttu-id="cb2b0-119">特定の永続的なチャット サーバー プールに永続的なチャットのオプションを構成するには</span><span class="sxs-lookup"><span data-stu-id="cb2b0-119">To configure Persistent Chat options for a specific Persistent Chat Server pool</span></span>
-
-<span data-ttu-id="cb2b0-120">[**サービスの選択**] で構成される永続的なチャット サーバー プールに関連付けられているサービスを選択します。</span><span class="sxs-lookup"><span data-stu-id="cb2b0-120">In **Select a Service**, select the service associated with the Persistent Chat Server pool to be configured.</span></span>
-  
-<span data-ttu-id="cb2b0-121">永続的なチャット サーバーの機能と機能の詳細については、計画ドキュメントの[概要の永続的なチャット サーバー](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="cb2b0-121">For details about Persistent Chat Server features and capabilities, see [Overview of Persistent Chat Server](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) in the Planning documentation.</span></span> <span data-ttu-id="cb2b0-122">永続的なチャット サーバーの構成の操作に関する詳細についてを参照してください[永続的なチャット サーバーの構成](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx)、展開に関するドキュメントおよび[Lync Server 2013 を管理する、永続的なチャット サーバー](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx)の操作マニュアルを参照します。</span><span class="sxs-lookup"><span data-stu-id="cb2b0-122">For details about working with Persistent Chat Server configurations, see [Configuring Persistent Chat Server](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) in the Deployment documentation and [Managing Lync Server 2013, Persistent Chat Server](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) in the Operations documentation.</span></span>
+> [!NOTE] 
+> <span data-ttu-id="64d0a-105">永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="64d0a-105">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="64d0a-106">同じ機能は、チームで使用できます。</span><span class="sxs-lookup"><span data-stu-id="64d0a-106">The same functionality is available in Teams.</span></span> <span data-ttu-id="64d0a-107">詳細については、[マイクロソフトのチームにビジネス用の Skype のアップグレード](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="64d0a-107">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="64d0a-108">永続的なチャットの使用が必要な場合、選択肢としてはチームにこの機能を必要とするユーザーを移行するか、ビジネス サーバー 2015 の Skype を使用し続けます。</span><span class="sxs-lookup"><span data-stu-id="64d0a-108">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
 
