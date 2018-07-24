@@ -1,28 +1,28 @@
 ---
-title: Skype for Business Server 2015 での CDR 構成情報の表示
+title: ビジネス サーバーの Skype でのビューの CDR 構成の情報
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
-description: '概要: ビジネス サーバー 2015 の Skype での呼び出しの詳細記録 (CDR) を使用する方法を説明します。'
-ms.openlocfilehash: 6eacc6c300cfc1faae843a1dc610b17b45ae9c88
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、Skype のビジネス サーバーの呼び出しの詳細記録 (CDR) を使用する方法を説明します。'
+ms.openlocfilehash: 6abdd508cdb8ecbd89054596b024e27376c70a38
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20979414"
 ---
-# <a name="view-cdr-configuration-information-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での CDR 構成情報の表示
+# <a name="view-cdr-configuration-information-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのビューの CDR 構成の情報
  
-**の概要:**ビジネス サーバー 2015 の Skype での呼び出しの詳細記録 (CDR) を使用する方法について説明します。
+**の概要:** Skype のビジネス サーバーの呼び出しの詳細記録 (CDR) を使用する方法について説明します。
   
 通話詳細記録 (CDR) を使用すると、ピアツーピアのインスタント メッセージング セッション、ボイス オーバー IP (VoIP) 電話の通話、電話会議などの使用状況を追跡できます。この使用状況データの中には、通話の発信者と受信者、通話時刻、通話時間の情報が含まれます。
   
-ビジネス サーバー 2015 年、1 つの Skype をインストールすると CDR 構成設定のグローバル コレクションが作成されます。 管理者は、個別のサイトに適用できるカスタム設定コレクションを作成することもできます。 Skype ビジネス サーバーのコントロール パネルまたは[Get CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/get-cscdrconfiguration?view=skype-ps)コマンドレットを使用して、使用中で、組織で CDR 構成設定を表示できます。
+ビジネス サーバー、1 つの Skype をインストールすると、CDR 構成設定のグローバル コレクションが作成されます。 管理者は、個別のサイトに適用できるカスタム設定コレクションを作成することもできます。 Skype ビジネス サーバーのコントロール パネルまたは[Get CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/get-cscdrconfiguration?view=skype-ps)コマンドレットを使用して、使用中で、組織で CDR 構成設定を表示できます。
   
 ### <a name="to-view-cdr-configuration-information-by-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用して、CDR 構成情報を表示するのには
 
@@ -44,15 +44,14 @@ CDR 構成設定を表示するには、Windows PowerShell と Get CsCdrConfigur
 
     次のような情報が表示されます。
     
-  ```
-  Identity               : Global
+<pre>
+Identity               : Global
 EnableCDR              : True
 EnablePurging          : True
 KeepCallDetailForDays  : 90
 KeepErrorReportForDays : 60
 PurgeHourOfDay         : 2
-
-  ```
+</pre>
 
 詳細については、 [Get CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/get-cscdrconfiguration?view=skype-ps)コマンドレットのヘルプ トピックを参照してください。
   

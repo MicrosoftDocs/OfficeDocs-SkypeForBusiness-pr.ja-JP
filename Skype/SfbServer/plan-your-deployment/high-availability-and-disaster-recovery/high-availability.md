@@ -3,7 +3,6 @@ title: フロントエンド プールの高可用性と管理
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -11,11 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: プール、クォーラムの損失、および 2 つのフロント エンド サーバーとプールの特別な手順の管理を含むビジネス サーバーは、Skype でのフロント エンド プールの管理について説明します。
-ms.openlocfilehash: f348fcc4fee6a48a41265da88fe432d9e4550b6c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ba15e090829256188763a0e7791cebb29f097422
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005247"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>フロントエンド プールの高可用性と管理
  
@@ -29,9 +29,9 @@ ms.lasthandoff: 03/28/2018
   
 モデルでは、分散のフロント エンド プール、プールのサーバーの特定の番号をプールの機能を実行しなければなりません。 プールの 2 つの損失モードがあります。
   
-- クォーラムの損失のグループ レベルのルーティングは、十分な特定のルーティング グループのレプリカ ・ サーバによって発生します。 ルーティング グループは、一連のユーザーのホーム プールにします。 各ルーティング グループが、プールの 3 つのレプリカ: 1 つのプライマリ レプリカとセカンダリの 2 つのレプリカです。
+- ルーティング グループ レベル クォーラム損失。特定のルーティング グループに十分な数のレプリカ サーバーがないことによって発生します。ルーティング グループとは、そのプールに所属する 1 組のユーザーです。各ルーティング グループは、プライマリ レプリカ 1 台とセカンダリ レプリカ 2 台という 3 台のレプリカをプールに持っています。
     
-- プール レベルのクォーラムの損失、プールに十分なシード サーバーを実行している場合に発生します。 
+- プール レベル クォーラム損失。プールで十分な数のシード サーバーが実行されていない場合に発生します。 
     
 ### <a name="routing-group-level-quorum-loss"></a>ルーティング グループ レベル クォーラム損失
 
@@ -77,7 +77,7 @@ ms.lasthandoff: 03/28/2018
   
 - 最初にユーザーをプールに移動するときに必ず少なくとも 3 つのフロント エンド サーバーを実行しています。
     
-- 障害復旧の目的でこのプールと別のプールの間にペアの関係を確立する場合は、データをバックアップ プールと正しく同期するために、関係を確立した後で、このプールの 3 台のフロントエンド サーバーがどこかのタイミングで同時に実行されることを確認する必要があります。 プールの組み合わせと災害復旧の機能の詳細については、[高可用性とビジネス サーバー 2015 の Skype での災害復旧の計画](high-availability-and-disaster-recovery.md)を参照してください。 
+- 障害復旧の目的でこのプールと別のプールの間にペアの関係を確立する場合は、データをバックアップ プールと正しく同期するために、関係を確立した後で、このプールの 3 台のフロントエンド サーバーがどこかのタイミングで同時に実行されることを確認する必要があります。 プールの組み合わせと災害復旧の機能の詳細については、[高可用性とビジネスのサーバー用の Skype での災害復旧の計画](high-availability-and-disaster-recovery.md)を参照してください。 
     
 ## <a name="front-end-pool-with-two-front-end-servers"></a>フロントエンド サーバーが 2 台のフロントエンド プール
 

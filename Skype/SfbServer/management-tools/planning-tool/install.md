@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: 前に設計を開始して、ビジネス サーバー 2015 計画ツールは、Skype を使用して、Skype をビジネス サーバー 2015 インフラストラクチャを計画する必要があります最初にツールをインストールする計画です。 計画ツールは、ワークステーションまたはサーバー 2015 のビジネス用の Skype をインストールしようとするドメインまたはインフラストラクチャの一部であるサーバーに展開する必要はありません。 計画ツールに付属する Readme ファイルをインストールして、ツールの使用に関する重要な情報について詳しく説明します。 わかりやすくするために、Readme ファイルの情報の一部をここに転載します。
-ms.openlocfilehash: 1c5c56031890aaff035e237e2ff7ab6d89d6ba2b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 462964672f0fe9aaf426bd196357ffb8eca05e9d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002851"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の計画ツールのインストール
  
@@ -46,9 +47,9 @@ ms.lasthandoff: 03/28/2018
   
 プレインストールの要件が満たされて後、に、計画ツールをインストールできます。
   
-## 
 
-### <a name="to-install-the-planning-tool"></a>計画ツールをインストールするには
+
+## <a name="to-install-the-planning-tool"></a>計画ツールをインストールするには
 
 1. Administrators グループのメンバーとして、ローカル コンピューターにログオンします。
     
@@ -107,7 +108,4 @@ ms.lasthandoff: 03/28/2018
 ## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
 <a name="Optional_Software"> </a>
 
-#### 
-
-[計画ツールをインストールします。](http://technet.microsoft.com/library/ebdc9e26-4b22-4b02-85b9-7462bcfe7c93.aspx)
-
+[計画ツールのインストール](http://technet.microsoft.com/library/ebdc9e26-4b22-4b02-85b9-7462bcfe7c93.aspx)

@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 での電話会議ポリシーの表示
+title: Skype ビジネス サーバー用の会議ポリシーの表示
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
-description: '概要: ビジネス サーバー 2015 の Skype での会議ポリシーを表示する方法を説明します。'
-ms.openlocfilehash: 4d91a04456f7c9d877e58caed1d576edc0f80b41
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、Skype のビジネス サーバーの会議ポリシーを表示する方法を説明します。'
+ms.openlocfilehash: 161b9f172af935b105e01bda88c1c3dbef2e3a9f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992337"
 ---
-# <a name="view-conferencing-policies-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での電話会議ポリシーの表示
+# <a name="view-conferencing-policies-in-skype-for-business-server"></a>Skype ビジネス サーバー用の会議ポリシーの表示
  
-**の概要:**ビジネス サーバー 2015 の Skype での会議ポリシーを表示する方法について説明します。
+**の概要:** ビジネス サーバーの Skype での会議ポリシーを表示する方法について説明します。
   
 ビジネス サーバーのコントロール パネルの Skype を使用して、または Skype ビジネス サーバー管理シェルを使用して、会議ポリシーを表示できます。
   
@@ -34,9 +34,9 @@ ms.lasthandoff: 03/28/2018
     
 5. [**ファイル フィルターの編集**] で、[**詳細の表示**] チェック ボックスをオンにします。
     
-    **会議ポリシーの編集 -\<ポリシー\>**が開き、選択したポリシーの設定を表示します。
+    **会議ポリシーの編集 -\<ポリシー\>** が開き、選択したポリシーの設定を表示します。
     
-    詳細設定の構成については、[ビジネス サーバー 2015 の Skype の会議ポリシーを作成する](create-policies.md)を参照してください。
+    詳細設定の構成については、 [Skype ビジネス サーバー用の会議ポリシーを作成する](create-policies.md)を参照してください。
     
 ## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Skype ビジネス サーバー管理シェルを使用して会議ポリシーの表示
 
@@ -48,7 +48,7 @@ Get-CsConferencingPolicy
 
 コマンドレットを実行すると、次のような情報が返されます。
   
-```
+<pre>
 Identity                                  : Global
 AllowIPAudio                              : True
 AllowIPVideo                              : True
@@ -83,8 +83,7 @@ AppSharingBitRateKb                       : 50000
 FileTransferBitRateKb                     : 50000
 TotalReceiveVideoBitRateKb                : 6000
 EnableMultiViewJoin                       : True
-
-```
+</pre>
 
 詳細については、完全な構文の説明と、パラメーターの一覧を含む[Get CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps)を参照してください。
   

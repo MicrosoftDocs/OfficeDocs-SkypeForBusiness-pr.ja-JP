@@ -3,7 +3,7 @@ title: Skype for Business Server 2015 で集中ログ サービスが作成し�
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,15 +11,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: '概要: 検索し、ビジネス サーバー 2015 の Skype でのログ サービスの一元的なログを読み取る方法を説明します。'
-ms.openlocfilehash: ccf9827848d190179b5f942646a74947047c02c5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4016aeaac5b693ceef620dad66031254f208bfbf
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969019"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 で集中ログ サービスが作成したキャプチャ ログを検索する
  
-**の概要:**検索し、ビジネス サーバー 2015 の Skype でのログ サービスの一元的なログを読み取る方法について説明します。
+**の概要:** 検索し、ビジネス サーバー 2015 の Skype でのログ サービスの一元的なログを読み取る方法について説明します。
   
 集中ログ サービスの検索機能は、次のような便利で強力です。 
   
@@ -159,7 +160,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
   ```
 
-4. 複数のパラメーターを使用するコマンドの既定の検索ロジックでは、定義された各パラメーターに対して論理 OR を使用します。 **MatchAll ・**パラメーターを指定することによって、この動作を変更できます。 これを行うには、次のように入力します。
+4. 複数のパラメーターを使用するコマンドの既定の検索ロジックでは、定義された各パラメーターに対して論理 OR を使用します。 **MatchAll ・** パラメーターを指定することによって、この動作を変更できます。 これを行うには、次のように入力します。
     
   ```
   Search-CsClsLogging -CallId "d0af828e49fa4dcb99f5f80223a634bc" -Components "SIPStack","S4","UserServices" -MatchAll -OutputFilePath "C:\Logfiles\logfile.txt"
@@ -169,7 +170,6 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
   ```
   Search-CsClsLogging -Components "SIPStack","S4","UserServices" -StartTime "11/1/2012 00:00:01 AM" -EndTime "11/20/2012 2:45:00 PM" -SkipNetworkLogs -OutputFilePath "C:\Logfiles\logfile.txt"
-
   ```
 
 ## <a name="read-capture-logs-from-the-centralized-logging-service"></a>集中ログ サービスからキャプチャしたログの閲覧

@@ -3,7 +3,7 @@ title: トポロジ ビルダー起動ダイアログ
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: プロパティと、Microsoft Lync Server 2013 展開の構成を構成するのにはトポロジ ビルダーを起動するとします。 、起動時には、トポロジ ビルダーは、トポロジ ドキュメントのソースで何ができるかを確認するダイアログを表示します。 3 つのオプションのいずれかを選択するとします。
-ms.openlocfilehash: 754d7a4e9f69c97891714dc02b325bf1d2b8b168
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 3283b11f9b210f5458913ba4aca2104fa793e3f2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018978"
 ---
 # <a name="topology-builder-startup-dialog"></a>トポロジ ビルダー起動ダイアログ
  
@@ -32,9 +33,6 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [Lync Server 2013 プレビューの概要](http://technet.microsoft.com/library/99dd6b65-e591-421f-852b-ee9fe9588998.aspx)
   
 [Lync Server 管理ツール](http://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx)
-

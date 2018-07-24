@@ -3,7 +3,7 @@ title: オーバーフロー キューを選択します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50a235b6-5f30-4c49-93d9-6c6f43edce64
 description: ダイアログを使用して選択、オーバーフロー キュー キューを選択する応答グループ キューがいっぱいになったときに呼び出しを転送する先となります。
-ms.openlocfilehash: 05418306495709fa65361001cc2cc7dc3e69875a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ac568927bbf35187b8d20ae3eefcf76f49b29fc6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989213"
 ---
 # <a name="select-overflow-queue"></a>オーバーフロー キューを選択します。
  

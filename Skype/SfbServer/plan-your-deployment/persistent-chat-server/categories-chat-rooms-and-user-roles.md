@@ -10,15 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: '概要: ビジネス サーバー 2015 の Skype での永続的なチャット サーバーのカテゴリ、チャット ルーム、およびユーザーと管理者の役割の詳細について参照してください。'
-ms.openlocfilehash: 73c7bd8863ba9560b8ef7d79b3e5dce1fbd797a1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 83aa18d427c97ba54dcc3c66e684a4e13ed0c5df
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983778"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の常設チャット カテゴリ、チャット ルーム、およびユーザーの役割
  
-**の概要:**ビジネス サーバー 2015 の Skype での永続的なチャット サーバーのカテゴリ、チャット ルーム、およびユーザーと管理者の役割についてを学習するには、このトピックを参照してください。
+**の概要:** ビジネス サーバー 2015 の Skype での永続的なチャット サーバーのカテゴリ、チャット ルーム、およびユーザーと管理者の役割についてを学習するには、このトピックを参照してください。
   
 チャット ルーム カテゴリを作成し、カテゴリおよびカテゴリ内のチャット ルームへのアクセスを指定することによって、チャット ルームへのアクセスを制御できます。 さまざまな管理者の役割を指定することもできます。 ここで説明する内容は次のとおりです。 
   
@@ -27,6 +28,9 @@ ms.lasthandoff: 03/28/2018
 - チャット ルームとユーザーの役割
     
 - 管理者の役割
+
+> [!NOTE] 
+> 永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。 同じ機能は、チームで使用できます。 詳細については、[マイクロソフトのチームにビジネス用の Skype からの旅](/microsoftteams/journey-skypeforbusiness-teams)を参照してください。 永続的なチャットを使用する場合は、選択肢は、いずれかをチームでは、この機能を必要とするユーザーを移行するまたはビジネス サーバー 2015 の Skype を使用し続ける。 
     
 ## <a name="categories-for-organizing-chat-rooms"></a>チャット ルームを整理するためのカテゴリ
 
@@ -75,10 +79,10 @@ ms.lasthandoff: 03/28/2018
 
 チャット ルームとユーザーの役割の構成および管理の詳細については、次のトピックを参照してください。
   
-- [ビジネス サーバー 2015 の Skype で永続的なチャットの管理者を作成します。](../../deploy/deploy-persistent-chat-server/create-a-persistent-chat-administrator.md)
+- [Skype for Business Server 2015 での常設チャット管理者の作成](../../deploy/deploy-persistent-chat-server/create-a-persistent-chat-administrator.md)
     
-- [ビジネス サーバー 2015 の Skype での永続的なチャット サーバー内のカテゴリを管理します。](../../manage/persistent-chat/categories.md)
+- [Skype for Business Server 2015 の常設チャット サーバーでのカテゴリの管理](../../manage/persistent-chat/categories.md)
     
-- [ビジネス サーバー 2015 の Skype での永続的なチャット サーバーのチャット ルームを管理します。](../../manage/persistent-chat/chat-rooms.md)
+- [Skype for Business Server 2015 での常設チャット サーバーのチャット ルームの管理](../../manage/persistent-chat/chat-rooms.md)
     
 

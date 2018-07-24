@@ -3,18 +3,18 @@ title: Skype Room System のドメイン参加に関する考慮事項
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: このトピックでは、Skype Room System アプライアンス PC をドメインに参加させる方法について説明します。
-ms.openlocfilehash: e858122b8c931c53a7cb2eff0fe58ff225547a07
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
+ms.openlocfilehash: b89ca5c5619c8d090aa765d0be1765b0b13900de
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972479"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Skype Room System のドメイン参加に関する考慮事項
  
@@ -57,17 +57,14 @@ $username = "contso.local\LRS01"
 $password = ConvertTo-SecureString "password123" -AsPlainText -Force
 $myCred = New-Object System.Management.Automation.PSCredential $username, $password
 Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomSystem,OU=Resources,DC=CONTOSO,DC=LOCAL"
-
 ```
 
-独立した OU を作成して継承をブロックしても、ハイ レベルな部分で問題を引き起こす可能性のあるポリシーがいくつか存在します。 No Override を設定したグループ ポリシーは、Block Policy Inheritance を設定した OU より優先されます。 詳細についてを参照してください「いいえオーバーライドとの比較にポリシーを継承」の記事でグループ ポリシーのドキュメントでhttp://technet.microsoft.com/en-us/library/cc978255.aspxです。
+独立した OU を作成して継承をブロックしても、ハイ レベルな部分で問題を引き起こす可能性のあるポリシーがいくつか存在します。 No Override を設定したグループ ポリシーは、Block Policy Inheritance を設定した OU より優先されます。 詳細については、グループ ポリシーのドキュメントに[上書きポリシー継承のブロックと比較して](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10))資料を参照してください。
   
 これらの問題を解決する手段は、1 つではないかもしれません。 組織の Active Directory の専門家に、適切な GPO 設定の OU、少なくとも上で説明したポリシーが存在しない OU が提供されていることを確認するようにしてください。 Skype ルーム システム デバイスのサービスの品質 (QoS) を有効にすることをお勧めします。
 
 ## <a name="see-also"></a>関連項目
-
-#### 
   
-[デバイスの構成: 新規作成または既存の編集](../../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
+[デバイス構成: 新規作成または現在の形式のままで編集](../../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 
-[サービスの品質を管理します。](../../plan-your-deployment/network-requirements/network-requirements.md#managing-quality-of-service)
+[サービスの品質の管理](../../plan-your-deployment/network-requirements/network-requirements.md#managing-quality-of-service)

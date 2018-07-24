@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 description: 永続的なチャット管理者は、作成し、チャット ルームのカテゴリを管理できます。 作成して、チャット ルームのカテゴリを管理するの一部として、永続的なチャット管理者は、プリンシパル (Active Directory ドメイン サービス グループ/コンテナー/ユーザー) を特定のカテゴリのチャット ルームのメンバーと作成者のアクセス権を持つを構成できます。 永続的なチャット管理者は、カテゴリに DeniedMembers を追加もでき、許可リストに明示的な除外リストになります。 DeniedMembers は、AllowedMembers では、何をオーバーライドします。
-ms.openlocfilehash: f8fc7179df8facb98408e4506cf681cbefb97c62
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d25ee31aa97925e5d68491e01609f4987913e60a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21015858"
 ---
 # <a name="select-denied-members"></a>拒否されたメンバーの選択
  
@@ -36,13 +37,9 @@ ms.lasthandoff: 03/28/2018
 
 の**メンバーシップ**、**拒否メンバー** ] セクションで追加またはユーザーと他の部屋から拒否されているメンバーに関連付けられている Active Directory のプリンシパルを削除します。
   
-### 
 
 永続的なチャット サーバーの機能と機能の詳細については、計画ドキュメントの[概要の永続的なチャット サーバー](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx)を参照してください。 永続的なチャット サーバーの構成の操作に関する詳細についてを参照してください[永続的なチャット サーバーの構成](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx)、展開に関するドキュメントおよび[Lync Server 2013 を管理する、永続的なチャット サーバー](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx)の操作マニュアルを参照します。
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [永続的なチャットのメンバーシップを理解します。](http://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
-

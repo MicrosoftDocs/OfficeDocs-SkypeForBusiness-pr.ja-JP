@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
+ROBOTS: NOINDEX, NOFOLLOW
 description: クライアント バージョン ポリシーは、一連のクライアント バージョン ルールで構成されます。これらのルールでは、ユーザーが特定のクライアントおよびクライアント バージョンでログオンしようとしたときに実行するアクションが定義されています。
-ms.openlocfilehash: 8f2e969b2724ed1239f7531bd4be03552be9039b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: cd89e0bd5bf6781ea8381563e592d57a3e68434a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991502"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988735"
 ---
 # <a name="client-version-rule"></a>クライアント バージョン ルール
  

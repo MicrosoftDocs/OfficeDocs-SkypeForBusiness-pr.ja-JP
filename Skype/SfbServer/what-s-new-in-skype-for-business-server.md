@@ -3,7 +3,7 @@ title: Skype for Business Server 2015 の新機能
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
@@ -11,15 +11,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
 description: '概要: ビジネス サーバー 2015 の Skype の新機能について学習するには、このトピックを読みます。 新しいクライアント エクスペリエンスの詳細については、Lync が、ビジネス用の Skype を参照してください - 新機能を参照してください。'
-ms.openlocfilehash: 0d8172e5031f8b2e51373051b2674e99f5539b6b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 9c5dd3996cb6c15de93b564fa800e01270d92b66
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21012452"
 ---
 # <a name="whats-new-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の新機能
 
-**の概要:**ビジネス サーバー 2015 の Skype の新機能について学習するには、このトピックを参照してください。 新しいクライアント エクスペリエンスの詳細については、 [Lync では、ビジネスの Skype では現在、新機能を参照してください--](https://go.microsoft.com/fwlink/p/?LinkId=529022)を参照してください。
+**の概要:** ビジネス サーバー 2015 の Skype の新機能について学習するには、このトピックを参照してください。 新しいクライアント エクスペリエンスの詳細については、 [Lync では、ビジネスの Skype では現在、新機能を参照してください--](https://go.microsoft.com/fwlink/p/?LinkId=529022)を参照してください。
   
 Lync は、エンタープライズ ・ レベルのセキュリティ、コンプライアンス、および Lync のコントロールで Skype によって触発されたエクスペリエンスを融合したビジネス、コミュニケーションおよびコラボレーション プラットフォームの Skype ではようになりました。 ビジネス用の Skype では、プレゼンス、IM、音声とビデオ通話、およびオンライン会議を始めとする機能が用意されています。 ビジネス用の Skype は、経験、サーバーの新しいリリースでは、Office 365 のサービスへの更新、新しいクライアントを提供します。 場合は、組織内のユーザーは、Skype についてよく知っていると簡単に共同作業者を検索して接続することがビジネスのための Skype のシンプルさ、メリット魅力的です。 場合は、組織内のユーザーは、Lync からビジネス用の Skype は、認識のすべての機能が、既にを使用していますで新鮮な新しいインタ フェースで簡単にコントロールし、新たに追加します。 だけでなく、新しいクライアント エクスペリエンスは、ビジネス サーバー 2015 の Skype は、オンプレミスのサーバー、およびハイブリッド ソリューションの管理性を向上させるためにいくつかの新機能を提供します。
   

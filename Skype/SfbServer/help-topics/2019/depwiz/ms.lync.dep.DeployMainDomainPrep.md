@@ -10,19 +10,20 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'ビジネス サーバーのユーザーのビジネス サーバーまたは Skype の Skype を実行しているホスト サーバーにドメインを準備するには、手順 5 を完了する必要があります: 準備現在のドメイン、ドメインの準備の実行に使用するセットアップのトピックで説明されているようです。 この手順を完了するには、準備するドメインの Domain Admins グループのメンバー、またはドメインが属するフォレストの Enterprise Admins グループのメンバーとしてログインする必要があります。 ドメインを準備するには、以下の操作を行います。'
-ms.openlocfilehash: 7b67521cef97efd2bdfc0da344a8619272899340
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: d2c51b472ad31c52eb86c4dd99d60747ce9bf1df
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979891"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008723"
 ---
 # <a name="prepare-current-domain"></a>現在のドメインの準備
  
 ビジネス サーバーのユーザーのビジネス サーバーまたは Skype の Skype を実行しているホスト サーバーにドメインを準備するのには行う必要があります**手順 5: 現在のドメインを準備する**、[ドメインの準備を実行するセットアップを使用して](http://technet.microsoft.com/library/95dab800-1f2c-4506-b36c-99986643b149.aspx)トピックの説明します。 この手順を完了するには、準備するドメインの Domain Admins グループのメンバー、またはドメインが属するフォレストの Enterprise Admins グループのメンバーとしてログインする必要があります。 ドメインを準備するには、以下の操作を行います。
   
-1. ビジネス サーバー 2015 インストール フォルダーまたはメディアの Skype、ビジネス サーバーの展開ウィザードは、Skype を起動するのには、Setup.exe を実行します。
+1. Business Server のインストール フォルダーまたはメディアの Skype、ビジネス サーバーの展開ウィザードは、Skype を起動するのには、Setup.exe を実行します。
     
 2. [**Active Directory の準備**] をクリックして、展開状態が判別されるまで待ちます。
     

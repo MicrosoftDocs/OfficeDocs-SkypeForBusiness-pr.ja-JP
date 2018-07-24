@@ -1,49 +1,48 @@
 ---
-title: Skype for Business Server 2015 への監視レポートのインストール
+title: Skype のビジネス サーバーの監視レポートをインストールします。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 7/21/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
-description: '概要: は、Skype のビジネス サーバー 2015 の監視レポートを生成するサービスをインストールする方法を説明します。'
-ms.openlocfilehash: 239274c6692358c06863d2e074bda1daf9d6c6b3
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: '概要: は、Skype のビジネス サーバーの監視レポートを生成するサービスをインストールする方法を説明します。'
+ms.openlocfilehash: 51d7e452be546c41daacbb0a0a77c142bace6e31
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569548"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016599"
 ---
-# <a name="install-monitoring-reports-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 への監視レポートのインストール
+# <a name="install-monitoring-reports-in-skype-for-business-server"></a>Skype のビジネス サーバーの監視レポートをインストールします。
  
-**の概要:** Skype のビジネス サーバー 2015 の監視レポートを生成するサービスをインストールする方法について説明します。
+**の概要:** Skype のビジネス サーバーの監視レポートを生成するサービスをインストールする方法について説明します。
   
-ビジネス サーバー 2015 監視レポートの Skype では、品質と組織内で行われる通信セッションの数に関する情報が豊富に提供します。 
+Skype ビジネス サーバー レポートの監視では、品質と組織内で行われる通信セッションの数に関する情報が豊富に提供します。 
   
 ## <a name="install-monitoring-reports"></a>監視レポートのインストール
 
-ビジネス サーバー 2015; の Skype をインストールすると、監視レポートが自動的にインストールされません。代わりに、個別に監視レポートをインストールする必要があり、だけ後に Skype ビジネス サーバーがコンピューターにインストールされています。
+ビジネス サーバーの Skype をインストールすると、監視レポートが自動的にインストールされません。代わりに、個別に監視レポートをインストールする必要があり、だけ後に Skype ビジネス サーバーがコンピューターにインストールされています。
   
 > [!NOTE]
 > 監視レポートは、監視データベースがインストールされているのと同じコンピューターにインストールすることをお勧めします。この操作を行うと、レポートへのアクセス許可の割り当てプロセスが簡単になります。監視ストアをホストしているコンピューターに監視レポートをインストールすると、別のコンピューター上で実行されている Reporting Services とデータベースが対話できるようにするためのアクセス許可を構成する必要がなくなります。 
   
 Skype ビジネス サーバー レポートの監視には、会議、ピア ツー ピア IM セッション、ユーザー登録、応答グループ アプリケーション、およびその他の詳細な情報を提供するように設計された 30 以上のレポートが含まれます。 2013 バージョンでは、Skype ビジネス サーバーの監視のレポートには、拡張機能の番号です。
   
-- **新しい音声の品質評価レポート**。 これらの新しいレポートには、[ビジネス サーバー 2015 の Skype でメディアの品質の比較レポート](../../manage/health-and-monitoring/comparison.md)を別の種類 (たとえば、ワイヤード (有線) の呼び出しとワイヤレスの呼び出し) の間の呼び出しの間での品質を比較するが含まれます。ユーザーが会議に参加する[ビジネス サーバー 2015 の Skype で会議参加時のレポート](../../manage/health-and-monitoring/join-time-report.md)の時間に関する情報を提供する必要があります。 
+- **新しい音声の品質評価レポート**。 これらの新しいレポートには、 [Skype ビジネス サーバー用のメディアの品質の比較レポート](../../manage/health-and-monitoring/comparison.md)を別の種類 (たとえば、ワイヤード (有線) の呼び出しとワイヤレスの呼び出し) の間の呼び出しの間での品質を比較するが含まれます。ユーザーが会議に参加する[ビジネス サーバーの Skype での会議結合時間レポート](../../manage/health-and-monitoring/join-time-report.md)の時間に関する情報を提供する必要があります。 
     
-- **分析とトラブルシューティングの両方のビデオとアプリケーションの共有セッションのレポートを向上します。** [ビジネス サーバー 2015 の Skype でのメディア品質概要レポート](../../manage/health-and-monitoring/summary.md)には、ビデオ、および[ビジネス サーバー 2015 の Skype のサーバー パフォーマンス レポート](../../manage/health-and-monitoring/server-performance.md)の詳細をサーバーのパフォーマンスの中に、呼び出しを共有するアプリケーションを分析する方法が用意されています。これらの呼び出しを生成します。 ビデオ、およびアプリケーションの測定値を共有するようになりました、[ビジネス サーバー 2015 の Skype でのピア ツー ピア セッション詳細レポート](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md)と[ビジネス サーバー 2015 の Skype で会議の詳細] レポート](../../manage/health-and-monitoring/detail-report.md)で報告されます。
+- **分析とトラブルシューティングの両方のビデオとアプリケーションの共有セッションのレポートを向上します。** [Skype ビジネス サーバー用に、メディア品質概要レポート](../../manage/health-and-monitoring/summary.md)には、ビデオと[Skype ビジネス サーバー用のサーバー パフォーマンス レポート](../../manage/health-and-monitoring/server-performance.md)の詳細を生成するこれらのサーバーのパフォーマンス中に、呼び出しの共有アプリケーションを分析する方法が用意されています。呼び出します。 ビデオ、およびアプリケーションの測定値を共有するようになりました[ビジネス サーバーの Skype でのピア ツー ピア セッション詳細レポート](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md)と[ビジネスのサーバー用の Skype で会議の詳細] レポート](../../manage/health-and-monitoring/detail-report.md)で報告されます。
     
 - **レポートのパフォーマンスの向上**: 応答時間とデータ取得時間が短縮され、レポート間の移動をすばやく簡単に行えるようになりました。
     
 個々のレポートの詳細については、監視レポートのドキュメントを参照してください。
   
 > [!NOTE]
-> ビジネス サーバー 2015 の Skype に含まれている別のレポートの QoE を呼び出す詳細サブレポートには。 ただし、このレポートは主に内部用であり、直接アクセスするためのものではありません。 
+> Skype にビジネスのサーバーが含まれて別のレポートの QoE を呼び出す詳細サブレポートには。 ただし、このレポートは主に内部用であり、直接アクセスするためのものではありません。 
   
-ビジネス サーバー監視レポートの Skype をインストールするのには 2 つの方法: ビジネス サーバーの展開ウィザードは、Skype を使用するか、Skype ビジネス サーバー 2015 ファイルのインストールに含まれている Windows PowerShell スクリプトを使用することができます。 どちらの方法でレポートをインストールする場合でも、最初に次のことを確認する必要があります。
+ビジネス サーバー監視レポートの Skype をインストールするのには 2 つの方法: ビジネス サーバーの展開ウィザードは、Skype を使用するか、ビジネス サーバーのインストール ファイルを Skype に付属している Windows PowerShell スクリプトを使用することができます。 どちらの方法でレポートをインストールする場合でも、最初に次のことを確認する必要があります。
   
 - 監視データベースのユーザー アカウントにデータベースの役割を追加する権限を持っている。
     
@@ -95,6 +94,6 @@ New-CsReportingConfiguration -Identity 'service:MonitoringDatabase:atl-sql-001.l
     
 3. Reporting Services 構成マネージャーで、[レポート マネージャー URL] をクリックします。すると、[レポート マネージャー URL] ウィンドウに 1 つ以上の URL が表示されます。いずれの URL もレポート用 URL として使用できますが、前述のように、ReportingUrl には HTTPS プロトコルを使用することをお勧めします。
     
-監視データベースのミラー データベースを設定した場合は、監視レポートをミラー データベースとも関連付ける必要があります。 [ビジネス サーバー 2015 の Skype でミラー データベースを使用して監視レポートを関連付ける](monitoring-reports-with-a-mirror-database.md)詳細についてはこの資料を参照してください。
+監視データベースのミラー データベースを設定した場合は、監視レポートをミラー データベースとも関連付ける必要があります。 詳細についてはこの資料[で Skype ビジネス サーバーのミラー データベースを使用して監視レポートを関連付ける](monitoring-reports-with-a-mirror-database.md)を参照してください。
   
 

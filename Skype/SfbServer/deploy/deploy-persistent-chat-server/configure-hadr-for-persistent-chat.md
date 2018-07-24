@@ -10,20 +10,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: '概要: ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの高可用性と障害回復を構成する方法の詳細については、このトピックを読みます。'
-ms.openlocfilehash: f0bf1a98bb8967a7310844d9aa85d17d4ef4d167
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c2e4ff1d210e5a8fa5fccbc002ebd1c4ca59a545
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004687"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバーの高可用性および障害復旧の構成
  
-**の概要:**ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの高可用性と障害回復を構成する方法の詳細については、このトピックを参照してください。
+**の概要:** ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの高可用性と障害回復を構成する方法の詳細については、このトピックを参照してください。
   
 ビジネス サーバー用の Skype は、バック エンド サーバー、データベース ・ ミラーリングなどの複数の高可用性モードをサポートします。 詳細については、[高可用性とビジネス サーバー 2015 の Skype での災害復旧の計画](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)を参照してください。
   
 > [!NOTE]
 > AlwaysOn 可用性グループは、永続的なチャット サーバーではサポートされていません。 
+
+> [!NOTE] 
+> 永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。 同じ機能は、チームで使用できます。 詳細については、[マイクロソフトのチームにビジネス用の Skype からの旅](/microsoftteams/journey-skypeforbusiness-teams)を参照してください。 永続的なチャットを使用する場合は、選択肢は、いずれかをチームでは、この機能を必要とするユーザーを移行するまたはビジネス サーバー 2015 の Skype を使用し続ける。
   
 高可用性と災害復旧について、永続的なチャットの展開を構成する前に、[高可用性とビジネス サーバー 2015 の Skype での永続的なチャット サーバーの障害回復の計画](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)の概念に精通していることを確認します。 拡大された永続的なチャット サーバー プールの永続的なチャット サーバーがこれらのトピックで説明されている災害復旧ソリューションがビルドされます。 計画の内容は、リソース要件、および永続的なチャット サーバーは、SQL Server のミラーリングを使用して、高い可用性と SQL Server のログ配布を含む、高可用性と災害復旧を可能にする拡大されたプール トポロジについて説明します。災害復旧します。
   
@@ -90,7 +94,7 @@ SQL Server Management Studio を使用すると、永続的なチャット サ�
     
 18. [**復元が次の期間内に行われない場合は警告する**] で警告のしきい値を選択します。
     
-19. [**復元ジョブ**] の [**スケジュール**] ボックスに一覧表示される復元スケジュールを確認します。 インストールのスケジュールをカスタマイズするには、[**スケジュール**] をクリックして**]**を必要に応じて、SQL Server エージェントのスケジュールを調整します。 このスケジュールは、バックアップ スケジュールとよく似た内容にする必要があります。
+19. [**復元ジョブ**] の [**スケジュール**] ボックスに一覧表示される復元スケジュールを確認します。 インストールのスケジュールをカスタマイズするには、[**スケジュール**] をクリックして **]** を必要に応じて、SQL Server エージェントのスケジュールを調整します。 このスケジュールは、バックアップ スケジュールとよく似た内容にする必要があります。
     
 20. [**データベースのプロパティ**] ダイアログ ボックスで、[**OK**] をクリックして構成のプロセスを開始します。
     

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
+ROBOTS: NOINDEX, NOFOLLOW
 description: 応答グループ キューは、エージェントが呼び出しに応答するまでの応答グループへの呼び出しを保持します。
-ms.openlocfilehash: c9ae9953248804de592f05243ef5a11009c7e045
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 7c56554571d09279ce896798d6c7e21dae5f9f3d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988356"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993496"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>応答グループのキュー: 新規作成または現在の形式のままで編集
  
@@ -68,6 +69,6 @@ ms.locfileid: "19988356"
     
   - **別のキューに転送する**このオプションを選択する場合は、キューのオーバーフローしきい値に達したときに呼び出しを受信するキューを参照します。
     
-応答グループの機能と機能の詳細については、 [Skype のビジネス サーバーで応答グループ アプリケーションの計画](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)を参照してください。 キューの操作についての詳細は、操作マニュアルの[応答グループ キューの管理](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx)を参照してください。
+応答のグループの特徴と機能についての詳細は、計画のドキュメントで[ビジネス サーバーの Skype で応答グループ アプリケーションの計画](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)を参照してください。 キューの操作についての詳細は、操作マニュアルの[応答グループ キューの管理](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx)を参照してください。
   
 

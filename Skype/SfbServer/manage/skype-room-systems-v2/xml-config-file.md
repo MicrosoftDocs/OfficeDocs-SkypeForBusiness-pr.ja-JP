@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 description: この資料では、カスタム テーマの適用を含め、Skype ルーム システム v2 デバイスによって使用される既定の設定のリモート管理について説明します。
-ms.openlocfilehash: a83416eb36f63391cdcf210e4fffb711c810d440
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 9310683d3dbe274721f2bdcd583492b63a10d821
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21015600"
 ---
 # <a name="manage-a-skype-room-systems-v2-console-settings-remotely-with-an-xml-configuration-file"></a>Skype Room Systems バージョン 2 のコンソールの設定を、XML 構成ファイルを使用してリモートで管理する
  
@@ -60,14 +61,13 @@ ms.lasthandoff: 05/24/2018
          </CustomThemeColor>
   </Theming>
 </SkypeSettings>
-
 ```
 
 XML ファイルの作成でエラーが含まれる場合 (変数値の型に誤りがある、要素の配置順序に誤りがある、要素が閉じられていないなどの場合)、エラーが見つかった場所までの設定が適用され、処理中はファイルの残りの部分は無視されます。 XML 内の不明な要素は無視されます。 パラメーターは削除されると、変更されないままデバイス上に残ります。 パラメーターの値が有効である場合は、前の値は変更されません。
   
 **XML 要素**
  
-|**要素**|**タイプ**|**レベル**|**使用法**|
+|**要素**|**種類**|**レベル**|**使用方法**|
 |:-----|:-----|:-----|:-----|
 |\<SkypeSettings\>  <br/> |すべての要素のコンテナー。  <br/> ||必須。  <br/> |
 | \<AutoScreenShare\> <br/> |ブール値 & #x 2777 です。 <br/> |最初 & #x 2776。 <br/> | true の場合、自動画面共有が有効になります。 <br/> |
@@ -75,10 +75,10 @@ XML ファイルの作成でエラーが含まれる場合 (変数値の型に�
 |\<ユーザー アカウント\>  <br/> |Container  <br/> |最初 & #x 2776。 <br/> |資格情報パラメーターのコンテナー。  <br/> サインイン アドレス、Exchange アドレス、または電子メール アドレスは、通常は RanierConf など、同じ<span></span>@contoso.com です。  <br/> |
 |\<SkypeMeetingsEnabled\>  <br/> |ブール値 & #x 2777 です。 <br/> |最初 & #x 2776。 <br/> |既定では有効です。  <br/> |
 |\<TeamsMeetingsEnabled\>  <br/> |ブール値 & #x 2777 です。 <br/> |最初 & #x 2776。 <br/> |既定では無効です。  <br/> XML ファイルと見なされます正しくない場合は両方\<SkypeMeetingsEnabled\>と\<TeamsMeetingsEnabled\>が無効になって、両方の設定が同時に有効にすることができますが、します。  <br/> |
-|\<SkypeSignInAddress\>  <br/> |文字列 3 <br/> ||コンソールの Skype for Business デバイス アカウントのサインイン名。  <br/> |
-|\<ExchangeAddress\>  <br/> |文字列 3 <br/> ||コンソールの Exchange デバイス アカウントのサインイン名。  <br/> ExchangeAddress が省略された場合、SkypeSignInAddress が自動的に再利用されることはありません。  <br/> |
+|\<SkypeSignInAddress\>  <br/> |String 3 <br/> ||コンソールの Skype for Business デバイス アカウントのサインイン名。  <br/> |
+|\<ExchangeAddress\>  <br/> |String 3 <br/> ||コンソールの Exchange デバイス アカウントのサインイン名。  <br/> ExchangeAddress が省略された場合、SkypeSignInAddress が自動的に再利用されることはありません。  <br/> |
 |\<DomainUsername\>  <br/> |文字列 & #x 2778 です。 <br/> ||コンソール デバイスのドメイン名およびユーザー名 (Seattle\RanierConf など)。  <br/> |
-|\<パスワード\>  <br/> |文字列 3 <br/> || パスワード パラメーターは、Skype for Business デバイス アカウントのサインインで使用されるものと同一のパスワードです。 <br/> |
+|\<パスワード\>  <br/> |String 3 <br/> || パスワード パラメーターは、Skype for Business デバイス アカウントのサインインで使用されるものと同一のパスワードです。 <br/> |
 | \<ConfigureDomain\> <br/> |文字列 & #x 2778 です。 <br/> ||複数のドメインをコンマで区切ってリスト表示することができます。  <br/> |
 |\<AutoRotatePassword\>  <br/> |ブール値 & #x 2777 です。 <br/> |||
 | \<DualScreenMode\> <br/> |ブール値 & #x 2777 です。 <br/> |最初 & #x 2776。 <br/> |True の場合、デュアル画面モードを有効にします。 それ以外の場合、デバイスでは 1 画面表示モードが使用されます。  <br/> |
@@ -86,9 +86,9 @@ XML ファイルの作成でエラーが含まれる場合 (変数値の型に�
 |\<EmailAddressForLogsAndFeedback\>  <br/> |文字列 & #x 2778 です。 <br/> ||[フィードバックの送信] ウィンドウが表示されたときにログの送信先となるオプションの電子メール アドレスを設定します。  <br/> |
 |\<SendLogsAndFeedback\>  <br/> |ブール値 & #x 2777 です。 <br/> || true の場合、ログが管理者に送信されます。それ以外の場合、フィードバックのみが管理者に送信されます (ログは送信されません)。 <br/> |
 | \<デバイス\> <br/> |Container  <br/> |最初 & #x 2776。 <br/> | 子要素内の接続済みのオーディオ デバイス名は、デバイス マネージャー アプリにリスト表示された値と同一のものになります。 この構成には、現在コンソールに接続していない A/V デバイスなど、現在システムに存在しないデバイスを含めることができます。 この構成はそれぞれのデバイスに対して保持されます。 <br/> |
-|\<MicrophoneForCommunication\>  <br/> |文字列 3 <br/> ||会議で録音デバイスとして使用されるマイクを設定します。  <br/> |
-|\<SpeakerForCommunication\>  <br/> |文字列 3 <br/> ||会議のスピーカーとして使用されるデバイス。 この設定は、使用されるスピーカー デバイスに、通話中の音声を聞かせるよう設定するために使用されます。  <br/> |
-|\<DefaultSpeaker\>  <br/> |文字列 3 <br/> ||HDMI インジェスト ソースから音声を再生するために使用されるデバイス。  <br/> |
+|\<MicrophoneForCommunication\>  <br/> |String 3 <br/> ||会議で録音デバイスとして使用されるマイクを設定します。  <br/> |
+|\<SpeakerForCommunication\>  <br/> |String 3 <br/> ||会議のスピーカーとして使用されるデバイス。 この設定は、使用されるスピーカー デバイスに、通話中の音声を聞かせるよう設定するために使用されます。  <br/> |
+|\<DefaultSpeaker\>  <br/> |String 3 <br/> ||HDMI インジェスト ソースから音声を再生するために使用されるデバイス。  <br/> |
 | \<テーマ\> <br/> |Container  <br/> |最初 & #x 2776。 <br/> |XML ファイルを使用して適用できる機能の 1 つに、所属組織のカスタム テーマがあります。 テーマの名前、背景イメージ、および色を指定することができます。  <br/> |
 |\<ThemeName\>  <br/> |文字列 & #x 2778 です。 <br/> || クライアントのテーマを特定するために使用されます。 テーマ名のオプションは、既定、提供されたプリセット テーマのいずれか、またはカスタムになります。 <br/>  カスタム テーマの名前は、*カスタム*の名前を常に使用する必要があります。 クライアント UI は、コンソールで、既定またはプリセットのいずれかに設定できますが、カスタム テーマの適用は管理者によってリモートで設定する必要があります。 <br/>  プリセット テーマには次のものが含まれます:  <br/>  Default <br/>  Blue Wave <br/>  Digital Forest <br/>  Dreamcatcher <br/>  Limeade <br/>  Pixel Perfect <br/>  Roadmap <br/>  Sunset <br/>  現在のテーマを無効にするのには、ThemeName の [テーマなし] を使用します。 <br/> |
 |\<CustomThemeImageUrl\>  <br/> |文字列 & #x 2778 です。 <br/> ||それ以外の場合に省略可能なユーザー定義のテーマを使用する場合に必要です。 カスタム テーマの画像の詳細については[カスタム テーマの画像](xml-config-file.md#Themes)の項を参照してください。 <br/> |
@@ -105,7 +105,7 @@ XML ファイルの作成でエラーが含まれる場合 (変数値の型に�
   
 ## <a name="manage-console-settings-using-an-xml-configuration-file"></a>XML 構成ファイルを使用したコンソール設定の管理
 
-Skype ルーム システム v2 のコンソールの場所に SkypeSettings.xml という名前の XML ファイルを検索する場合は、起動時に * * C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState** に示されている構成設定が適用されますXML ファイルで XML ファイルを削除します。
+起動時に、Skype ルーム システム v2 のコンソールの位置**C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**、SkypeSettings.xml という名前の XML ファイルを検索する場合に、構成設定を適用します。XML ファイル、XML ファイルの削除によって示されます。
   
 Skype ルーム システム v2 デバイスの数によって、企業があり、それらを構成するのには管理するために選択する方法がいくつかの XML 構成ファイルを配置する方法。 ファイルがコンソールにプッシュされたら、再起動して構成の変更を処理します。 処理に成功すると、XML 構成ファイルが削除されます。 Skype ルーム システム v2 のデバイスの管理の方法で説明します。
   
@@ -127,9 +127,6 @@ XML 構成ファイルはデバイスの起動時に更新され、テーマ画�
 ## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
 <a name="Themes"> </a>
 
-#### 
-
-[Skype ルームの管理システム v2](skype-room-systems-v2.md)
+[Skype Room Systems バージョン 2 を管理する](skype-room-systems-v2.md)
 
 [ファイル項目を構成します。](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
-

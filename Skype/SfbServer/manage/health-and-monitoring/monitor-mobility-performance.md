@@ -1,26 +1,29 @@
 ---
-title: Skype for Business Server 2015 でのモビリティのパフォーマンスの監視
+title: Skype でのパフォーマンスをビジネスのサーバーの移動を監視します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
-description: '概要: では、ビジネス サーバー 2015 の Skype のモビリティ サービス (Mcx) とユニファイド コミュニケーション Web API (UCWA) について説明します。'
-ms.openlocfilehash: 1981bff8398f3fab9206f9dab748c545268f7edf
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、ビジネスのサーバーに、モビリティ サービス (Mcx)、Skype では、ユニファイド コミュニケーション Web API (UCWA) について説明します。'
+ms.openlocfilehash: 4affcb532697f24c87d62e18fc26552639dc00e1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20990638"
 ---
-# <a name="monitor-mobility-for-performance-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのモビリティのパフォーマンスの監視
+# <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>Skype でのパフォーマンスをビジネスのサーバーの移動を監視します。
  
-**の概要:**ビジネス サーバー 2015 の Skype のモビリティ サービス (Mcx) とユニファイド コミュニケーション Web API (UCWA) について説明します。
+**の概要:** Business Server には、モビリティ サービス (Mcx)、Skype では、ユニファイド コミュニケーション Web API (UCWA) について説明します。
   
 ビジネス サーバー移動サービス (Mcx) と、ユニファイド コミュニケーション Web API (UCWA) の Skype では、フロント エンド サーバーとフロント エンド プールの負荷が増加します。 Lync 2013 モバイルを実行しているアプリとアップルのデバイスと同様に Lync 2010 のモバイルを実行している Android および Nokia のデバイスなど、モバイル アプリケーションが最小化されている場合でも、サーバーへの接続を維持するモバイル デバイスがデバイスよりも大きな負荷を課すことモバイル アプリケーションが最小化したときに、サーバーへの接続を終了します。 モビリティの使用量が増えるにつれて、モビリティのパフォーマンス、容量を増やす必要がある場合を決定するを監視する必要があります。
+
+> [!NOTE]
+> 従来のモバイル クライアント用の MCX サポートはビジネス サーバー 2019 の Skype で利用可能ではありません。 ユーザーは、現在のクライアントにアップグレードする必要があります。
   
 モビリティのパフォーマンスに影響を与えるいくつかの制限値があります。 
   
@@ -36,14 +39,14 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [ビジネス サーバー 2015 の Skype のサーバーのメモリ容量制限のためのモニター](server-memory-capacity-limits.md)
+- [Skype ビジネス サーバー用にサーバーのメモリ容量制限のためのモニター](server-memory-capacity-limits.md)
     
-- [ビジネス サーバー 2015 の Skype での移動サービスおよび UCWA の使用状況を監視します。](service-and-ucwa-usage.md)
+- [ビジネス サーバーの Skype での移動サービスおよび UCWA の使用状況を監視します。](service-and-ucwa-usage.md)
     
-- [Skype ビジネス サーバー 2015 の高パフォーマンスのモバイル サービスを構成します。](configure-service.md)
+- [Skype のビジネス サーバー用の高パフォーマンスのモバイル サービスを構成します。](configure-service.md)
     
-- [監視 IIS 要求トレース ログ ファイルでは、Skype ビジネス サーバー 2015 の](iis-request-tracing-log-files.md)
+- [Skype 内のログ ファイルのトレースをビジネスのサーバーを IIS 要求を監視します。](iis-request-tracing-log-files.md)
     
-- [ビジネス サーバー 2015 の Skype のモビリティ パフォーマンス カウンター](performance-counters.md)
+- [Skype ビジネス サーバーの移動のパフォーマンス カウンター](performance-counters.md)
     
 

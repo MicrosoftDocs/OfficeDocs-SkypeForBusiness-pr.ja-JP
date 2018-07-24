@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 でのダイヤルイン ユーザーへのようこそメールの送信
+title: ダイヤルに登録完了メールを送信するビジネス サーバーの Skype のユーザー
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
-description: '概要: ビジネス サーバー 2015 の Skype のユーザーがダイヤルイン会議を開始する方法を説明します。'
-ms.openlocfilehash: 0aa939e2ef742c554339967e31204461bca52b6f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、Skype のビジネス サーバーのユーザーにダイヤルイン会議を開始する方法を説明します。'
+ms.openlocfilehash: f21d130f84b248b2911d691dbcf80f2563ee60fb
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008681"
 ---
-# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのダイヤルイン ユーザーへのようこそメールの送信
+# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>ダイヤルに登録完了メールを送信するビジネス サーバーの Skype のユーザー
  
-**の概要:**ビジネス サーバー 2015 の Skype のユーザーがダイヤルイン会議を開始する方法について説明します。
+**の概要:** Skype のビジネス サーバーのユーザーにダイヤルイン会議を開始する方法について説明します。
   
 ダイヤルイン電話会議を構成し、テストして正常に機能することを確認したら、ユーザーの初期暗証番号 (PIN) を設定し、その機能の可用性に関してユーザーに伝えてください。 これには、初期 PIN や、ダイヤルイン電話会議設定 Web ページへのリンクなどについての指示を含めることができます。 
   
@@ -28,9 +28,9 @@ PIN を設定し、1 人のユーザーにようこそメールを送信する�
   
 **Set-CsPinSendCAWelcomeMail** スクリプトを繰り返し実行して PIN を設定し、ユーザー グループに電子メールを送信するスクリプトを作成できます。電子メール テンプレート (CAWelcomeEmailTemplate.html ファイル) を変更してイントラネット ページにリンクを追加するか、電子メール テキストを変更できます。
   
-## 
 
-### <a name="set-an-initial-pin-and-send-welcome-email"></a>初期 PIN を設定してようこそメールを送信する
+
+## <a name="set-an-initial-pin-and-send-welcome-email"></a>初期 PIN を設定してようこそメールを送信する
 
 1. RTCUniversalServerAdmins group のメンバーとしてログオンします。
     
@@ -51,7 +51,7 @@ PIN を設定し、1 人のユーザーにようこそメールを送信する�
 [-Credential <SMTP server credentials used to send email with the specified From address>]
   ```
 
-**Smtp サーバ**既定では、スクリプトはこのパラメーターは予約されている環境変数**$PSEmailServer**の値を使用します。 **$PSEmailServer**変数が設定されていない場合は、このパラメーターを指定する必要があります。
+**Smtp サーバ**既定では、スクリプトはこのパラメーターは予約されている環境変数 **$PSEmailServer**の値を使用します。 **$PSEmailServer**変数が設定されていない場合は、このパラメーターを指定する必要があります。
     
 **資格情報**既定では、スクリプトは、現在のユーザーの資格情報を使用します。 現在のユーザーが、指定のための電子メールを送信するアクセス許可を持っていない場合、アドレスからは、このパラメーターを指定する必要があります。 一般的に、差出人のアドレスに電子メール アドレスを指定しない場合、このパラメーターを指定します。
     

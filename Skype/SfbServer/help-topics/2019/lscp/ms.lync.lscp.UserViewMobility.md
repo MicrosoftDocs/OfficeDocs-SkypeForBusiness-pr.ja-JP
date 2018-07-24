@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6df69e2-c374-4a80-8197-5152b7d0b5d2
+ROBOTS: NOINDEX, NOFOLLOW
 description: ビューのモビリティ ポリシー] ダイアログ ボックスは、選択されたモビリティ ポリシーのプロパティを表示します。
-ms.openlocfilehash: ebd466bc4794b14b34dca10b664121fe5d0f0179
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 422b8b35f6f6ffffee6fabaeb2b4e5f442e5b8c4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991657"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21017222"
 ---
 # <a name="users-view-mobility-policy"></a>ユーザー: モビリティ ポリシーの表示
  

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: '概要: は、テスト ユーザー アカウントとビジネス サーバー代理トランザクションの Skype のウォッチャー ノードの設定を構成します。'
-ms.openlocfilehash: ee5330f10dd97e8ecc8a3e3e30962e6e8a69555b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 3881fc1878ed3b248aa3109b79a3e384ec4a5fb7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569876"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989889"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>監視ノードのテスト ユーザーおよび設定の構成
  
@@ -31,9 +31,9 @@ ms.locfileid: "19569876"
 ## <a name="configure-test-user-accounts"></a>テスト ユーザー アカウントの構成
 <a name="testuser"> </a>
 
-テスト用のアカウントには、実際のユーザーを表す必要はありませんが、有効な Active Directory アカウントをする必要があります。 さらに、これらのアカウントは Skype のビジネス サーバー 2015 に対して有効にする必要があります、有効な SIP アドレスでは、必要があり、(テスト CsPstnPeerToPeerCall の代理トランザクションを使用します) に、エンタープライズ VoIP を有効にする必要があります。 
+テスト用のアカウントには、実際のユーザーを表す必要はありませんが、有効な Active Directory アカウントをする必要があります。 さらに、これらのアカウントは Skype のビジネス サーバーに対して有効にする必要があります、有効な SIP アドレスでは、必要があり、(テスト CsPstnPeerToPeerCall の代理トランザクションを使用します) に、エンタープライズ VoIP を有効にする必要があります。 
   
-TrustedServer の認証方法を使用している場合に実行する必要があるのは、これらのアカウントが存在していることを確認し、説明に従って構成することのみです。 テストしようとする各プールに対して、少なくとも 3 つのテスト ユーザーを割り当てる必要があります。 ネゴシエート認証方法を使用する場合セット CsTestUserCredential コマンドレットを使用することもする必要があり、Skype のビジネスのサーバー管理シェルを有効にする代理トランザクションを使用するアカウントをテストします。 (これらのコマンドは、次の 3 つの Active Directory ユーザー アカウントが作成されていると、これらのアカウントが有効になっている Skype のビジネス サーバー 2015 と仮定)、次のようなコマンドを実行することによってこれを行います。
+TrustedServer の認証方法を使用している場合に実行する必要があるのは、これらのアカウントが存在していることを確認し、説明に従って構成することのみです。 テストしようとする各プールに対して、少なくとも 3 つのテスト ユーザーを割り当てる必要があります。 ネゴシエート認証方法を使用する場合セット CsTestUserCredential コマンドレットを使用することもする必要があり、Skype のビジネスのサーバー管理シェルを有効にする代理トランザクションを使用するアカウントをテストします。 (これらのコマンドは、次の 3 つの Active Directory ユーザー アカウントが作成されていると、これらのアカウントが有効になっている Skype のビジネス サーバーと仮定)、次のようなコマンドを実行することによってこれを行います。
   
 ```
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
@@ -84,7 +84,7 @@ $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:wa
 > [!NOTE]
 > このコマンドの結果は変数に格納する必要があります。この例では、$pstnTest という名前の変数です。 
   
-次に、**New-CsWatcherNodeConfiguration** コマンドレットを使用して、テストの種類 (変数 $pstnTest に格納されている) を Skype for Business Server 2015 プールに関連付けることができます。たとえば、次のコマンドでは、前に作成した 3 つのテスト ユーザーを追加し、PSTN のテストの種類も追加する新しい監視ノード構成をプール atl-cs-001.litwareinc.com に対し作成します。
+次に、ビジネス サーバー プールのため、Skype に (変数 $pstnTest に格納されている) テストの種類を関連付けるには、**新規 CsWatcherNodeConfiguration**コマンドレットを使用することができます。 たとえば、次のコマンドでは、前に作成した 3 つのテスト ユーザーを追加し、PSTN のテストの種類も追加する新しい監視ノード構成をプール atl-cs-001.litwareinc.com に対し作成します。
   
 ```
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
@@ -128,7 +128,7 @@ Tests パラメーターを使用しないで **New-CsWatcherNodeConfiguration**
     
 - JoinLauncher
     
-- MCXP2PIM (モバイル デバイス インスタント メッセージング)
+- MCXP2PIM (従来のモバイル インスタント メッセージング)
     
 - P2PVideoInteropServerSipTrunkAV
     
@@ -244,7 +244,7 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabl
 Remove-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com"
 ```
 
-このコマンドは、指定されたコンピューターからすべての監視ノード構成設定を削除します。これにより、コンピューターが代理トランザクションを自動的に実行することが防止されます。ただし、このコマンドは、System Center エージェント ファイルまたは Skype for Business Server 2015 システム ファイルをアンインストールしません。
+そのコマンドは、指定したコンピューター、そのコンピューターで自動的に代理トランザクションを実行できなくなるからウォッチャー ノードのすべての構成設定を削除します。 ただし、System Center のエージェント ・ ファイルまたはビジネス サーバーのシステム ファイルを Skype には、このコマンドはアンインストールされません。
   
 既定では、監視ノードは、テストを実行するときに組織の外部 Web URL を使用します。ただし、監視ノードは、組織の内部 Web URL を使用するように構成することもできます。これにより、管理者は、境界ネットワーク内に配置されたユーザーの URL アクセスを検証できます。監視ノードを外部 URL ではなく内部 URL を使用するように構成するには、UseInternalWebUrls プロパティを True ($True) に設定します。
   
@@ -326,7 +326,7 @@ Test-CsPstnPeerToPeerCall 代理トランザクションは、公衆交換電話
     
 ### <a name="unified-contact-store-synthetic-transaction"></a>統合連絡先ストア代理トランザクション
 
-統合連絡先ストア代理トランザクションは、Skype for Business Server 2015 が Exchange からユーザーに代わって連絡先を取得できることを検証します。
+統合連絡先ストアの代理トランザクションでは、ビジネスのサーバー Exchange からユーザーの代理の連絡先を取得するために Skype の機能を確認します。
   
 この代理トランザクションを使用するには、次の条件を満たす必要があります。
   
@@ -358,7 +358,10 @@ XMPP 代理トランザクションを有効にするには、XmppTestReceiverMa
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
 ```
 
-この例では、litwareinc.com 用のメッセージを XMPP ゲートウェイにルーティングするために、Skype for Business Server 2015 ルールが存在する必要があります。
+この例では、サーバーのビジネス ルールに、Skype は XMPP ゲートウェイへの litwareinc.com のメッセージをルーティングするために存在する必要があります。
+
+> [!NOTE]
+> XMPP ゲートウェイとプロキシ サーバー 2015 のビジネス用の Skype では利用ビジネス サーバー 2019 の Skype でサポートされていません。 詳細については、[移行する XMPP フェデレーション](../../../SfBServer2019/migration/migrating-xmpp-federation.md)を参照してください。 
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>Video Interop Server (VIS) 代理トランザクション
 
@@ -438,4 +441,4 @@ $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
 System Center Operations Manager から実行する代理トランザクションは、これらのログ ファイルのエラーを自動的に生成されます。 しかし、Skype for Business Server PowerShell が読み込まれて代理トランザクションを行う前に、実行が失敗した場合、これらのログは生成されません。 
   
 > [!IMPORTANT]
-> 既定では、ビジネス サーバー 2015 の Skype は、共有されていないフォルダーにログ ファイルを保存します。 これらのログを容易にアクセスするためには、このフォルダーを共有する必要があります。 例: \\atl-watcher-001.litwareinc.com\WatcherNode。 
+> 既定では、Skype のビジネス サーバーは、共有されていないフォルダーにログ ファイルを保存します。 これらのログを容易にアクセスするためには、このフォルダーを共有する必要があります。 例: \\atl-watcher-001.litwareinc.com\WatcherNode。 

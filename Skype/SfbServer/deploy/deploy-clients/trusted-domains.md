@@ -3,18 +3,18 @@ title: Skype Room System の信頼されたドメイン
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fb63ad4-6eda-4724-be63-10bf5e65cb2b
 description: このトピックでは、Skype Room System および Skype for Business で信頼されたドメインを構成する方法について説明します。
-ms.openlocfilehash: 83d6e313f8643f593e1e25488e403da448649bd6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: b55d1558bd45cc8f0726b054fed60b2a4c5e4794
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983764"
 ---
 # <a name="skype-room-system-trusted-domains"></a>Skype Room System の信頼されたドメイン
  

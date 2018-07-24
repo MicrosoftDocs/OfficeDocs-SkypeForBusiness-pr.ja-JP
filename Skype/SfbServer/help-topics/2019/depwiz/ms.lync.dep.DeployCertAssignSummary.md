@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9478bf4-4e1a-46a2-bf76-3ff08a193523
+ROBOTS: NOINDEX, NOFOLLOW
 description: 証明書の割り当てが完了したら、前に割り当てられる証明書の詳細が一覧表示される証明書の割り当ての概要が表示されます。 サブジェクト名とサブジェクト代替名が正しいことを確認する情報を確認します。 証明書の概要を確認したら、次へをクリックします。
-ms.openlocfilehash: e6be726adbfdd4cff9c7a68106b77f0c2adce5ba
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 659551b9e8c8d096521554150d60af914900e8e4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987761"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003015"
 ---
 # <a name="certificate-assignment-summary"></a>証明書の割り当て (概要)
  

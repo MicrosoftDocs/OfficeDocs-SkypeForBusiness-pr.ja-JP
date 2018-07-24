@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
 description: 作成し、永続的なチャット ルームを管理するカテゴリを使用して簡単にです。 永続的なチャット管理者は、各カテゴリに属している AllowedMembers および作成者を定義して、チャット ルームのデフォルトの設定と、カテゴリで作成したすべてのチャット ルームに適用される動作を定義することも。 永続的なチャット管理者は、作成し、コントロール パネルまたは Windows PowerShell コマンドレットを使用してカテゴリを管理します。
-ms.openlocfilehash: 3ced3c26147038cfaba23a8e532982fcf8810592
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: a8e79f8bb7c7c0fb12241c90f2962241eeb0d2aa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983400"
 ---
 # <a name="select-allowed-members"></a>許可されたメンバーの選択
  
@@ -38,13 +39,9 @@ ms.lasthandoff: 03/28/2018
 
 の**メンバーシップ**、[**許可されたメンバー** ] セクションを追加または削除、ユーザーおよびその他の Active Directory ドメイン サービス プリンシパル (ユーザー、配布グループ、組織単位、およびように) チャット ルームのメンバーとして追加することは許可されません。カテゴリに属しています。 カテゴリで許可されているプリンシパルは、(ルームが表示されない場合、ルームのメンバーのみ検索できるように、ディレクトリに) しない限り、カテゴリの 2 つの部屋を検索できます。
   
-### 
 
 永続的なチャット サーバーの機能と機能の詳細については、計画ドキュメントの[概要の永続的なチャット サーバー](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx)を参照してください。 永続的なチャット サーバーの構成の操作に関する詳細についてを参照してください[永続的なチャット サーバーの構成](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx)、展開に関するドキュメントおよび[Lync Server 2013 を管理する、永続的なチャット サーバー](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx)の操作マニュアルを参照します。
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [永続的なチャットのメンバーシップを理解します。](http://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
-

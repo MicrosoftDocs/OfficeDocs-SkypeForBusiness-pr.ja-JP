@@ -1,32 +1,32 @@
 ---
-title: Skype for Business Server 2015 での通話の評価
+title: Business Server に Skype で電話を評価する.
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/13/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
-description: 概要では、ビジネス サーバー 2015 のレート自分を呼び出す機能は、Skype について説明します。
-ms.openlocfilehash: 1e0088c563f38be59bda0fad10dbd367ea0646e9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、ビジネス サーバー用のレート自分を呼び出す機能は、Skype について説明します。'
+ms.openlocfilehash: 737d6a71f6880139d558d601a14d8f76c61d80f2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989064"
 ---
-# <a name="rate-my-call-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での通話の評価
+# <a name="rate-my-call-in-skype-for-business-server"></a>Business Server に Skype で電話を評価する.
  
-**の概要:**ビジネス サーバー 2015 のレート自分を呼び出す機能は、Skype を紹介します。
+**の概要:** ビジネス サーバーのマイ レートを呼び出す機能は、Skype を紹介します。
   
-レート マイ呼び出しは、Skype のビジネス 2015年 2016 上およびクライアント企業のエンド ・ ユーザーからのフィードバックを取得する方法を提供する Windows の新機能です。
+レート [呼び出すビジネス 2015年 2016 上およびクライアント企業のエンド ・ ユーザーからのフィードバックを取得する方法を提供する Windows 用 Skype の新機能をしました。
   
 レート [呼び出し] ウィンドウでは、「星」の評価システムと音声通話とビデオ通話用の定義済みのトークンを提供します。 さらに、管理者には、フィードバックを提供するユーザー設定フィールドが有効にすることができます。
   
 レート [呼び出しの収集したデータが既存の監視のレポートに現在含まれていないが、監視、別のレポートがあります。 SQL クエリを実行することによってアクセスできる SQL テーブル内のデータが収集されます。
   
-## <a name="rate-my-call-prerequisites"></a>私の呼び出しの必要条件を評価します。
+## <a name="rate-my-call-prerequisites"></a>通話の評価の前提条件
 
 ビジネス サーバーの展開について、Skype のユーザーは、レートの [呼び出しの機能にアクセスできる、前に次のコンポーネントのセットを展開し、構成する必要があります。
   
@@ -40,7 +40,7 @@ ms.lasthandoff: 03/28/2018
     
 - 通話品質ダッシュボード (CQD) を展開することをお勧めします
     
-## <a name="configure-rate-my-call"></a>電話のレートを構成します。
+## <a name="configure-rate-my-call"></a>通話の評価の構成
 
 レート自分を呼び出す機能は既定では、次の設定でクライアントのポリシーを有効になっています。
   
@@ -52,10 +52,9 @@ ms.lasthandoff: 03/28/2018
   
 ```
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
-
 ```
 
-## <a name="accessing-rate-my-call-data"></a>レート呼び出しデータにアクセスします。
+## <a name="accessing-rate-my-call-data"></a>通話の評価データへのアクセス
 
 監視データベース内の 2 つのテーブルでは、ユーザーからのデータが収集されます。
   
@@ -63,7 +62,7 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
   
  **[QoeMetrics] です。[dbo].[CallQualityFeedbackTokenDef]**-次の表には、トークンの定義が含まれています。
   
-トークンの定義は次のようにコーディングされています。
+トークンの定義は、次のように記述します。
   
 |||
 |:-----|:-----|
@@ -106,11 +105,11 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
 |501  <br/> |Reliabilty_Join  <br/> |
 |502  <br/> |Reliabilty_Invite  <br/> |
    
- **[QoeMetrics] です。[dbo].[CallQualityFeedback]**このテーブルには、有効になっている場合の「星」の投票および顧客のフィードバックからのポーリングの結果が含まれています。
+ **[QoeMetrics] です。[dbo].[CallQualityFeedback]** このテーブルには、有効になっている場合の「星」の投票および顧客のフィードバックからのポーリングの結果が含まれています。
   
 テーブルからデータを使用して呼び出すことができます、**を選択\*[Table.Name] から**クエリまたは Microsoft SQL Server Management Studio のを使用しています。
   
-次の SQL クエリを使用することができます。
+次の SQL クエリを使用できます。
   
  **音声**
   

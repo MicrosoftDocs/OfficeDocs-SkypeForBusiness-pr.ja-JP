@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 での電話会議ポリシーの作成
+title: ビジネス サーバーのため、Skype で会議ポリシーを作成します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
-description: '概要: ビジネス サーバー 2015 の Skype での会議ポリシーを作成する方法を説明します。'
-ms.openlocfilehash: 301474d57998d5c9a794a978c4ec8877b1e53bc7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、Skype のビジネス サーバーの会議ポリシーを作成する方法を説明します。'
+ms.openlocfilehash: 3c71962e42e083ada13b14bdecbefafbbc44f72b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996602"
 ---
-# <a name="create-conferencing-policies-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での電話会議ポリシーの作成
+# <a name="create-conferencing-policies-in-skype-for-business-server"></a>ビジネス サーバーのため、Skype で会議ポリシーを作成します。
  
-**の概要:**ビジネス サーバー 2015 の Skype での会議ポリシーを作成する方法について説明します。
+**の概要:** ビジネス サーバーの Skype での会議ポリシーを作成する方法について説明します。
   
 ビジネス サーバーのコントロール パネルの Skype を使用して、または Skype ビジネス サーバー管理シェルを使用して、会議ポリシーを作成できます。
   

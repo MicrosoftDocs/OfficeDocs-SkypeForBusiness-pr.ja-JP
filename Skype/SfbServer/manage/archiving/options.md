@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 でのアーカイブ オプションの管理
+title: ビジネス サーバーの Skype でのアーカイブ ・ オプションを管理します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
-description: '概要: ビジネス サーバー 2015 の Skype のアーカイブのオプションを構成する方法を説明します。'
-ms.openlocfilehash: 29800fef7054cd0e82f203d2ad6ec1ed53251ca4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、Skype のビジネス サーバー用のアーカイブのオプションを構成する方法について説明します。'
+ms.openlocfilehash: 235a0170a4301e48caeae17b7315a174ca2c8aee
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993568"
 ---
-# <a name="manage-archiving-options-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのアーカイブ オプションの管理
+# <a name="manage-archiving-options-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのアーカイブ ・ オプションを管理します。
 
-**の概要:**ビジネス サーバー 2015 の Skype のアーカイブのオプションを構成する方法について説明します。
+**の概要:** Skype のビジネス サーバー用のアーカイブのオプションを構成する方法について説明します。
   
 アーカイブは展開時に初期構成しますが、展開後に変更、追加、削除ができます。 アーカイブ オプションでは次の事項を指定します。 
   
@@ -42,7 +42,7 @@ ms.lasthandoff: 03/28/2018
     
 - 特定のプールのアーカイブの実装方法を指定するオプションのプールレベルの構成
     
-サイト構成やプール構成は削除できますが、グローバル構成は削除できません。 グローバル構成を削除すると、グローバル構成は自動的に既定値にリセットされます。 アーカイブ構成の実装方法の詳細について、アーカイブ構成の階層構造では、 [Skype のビジネス サーバー 2015 でアーカイブするための計画](../../plan-your-deployment/archiving/archiving.md)を参照してください。
+サイト構成やプール構成は削除できますが、グローバル構成は削除できません。 グローバル構成を削除すると、グローバル構成は自動的に既定値にリセットされます。 アーカイブ構成の実装方法の詳細について、アーカイブ構成の階層構造では、 [Skype のビジネス サーバーでアーカイブするための計画](../../plan-your-deployment/archiving/archiving.md)を参照してください。
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>コントロール パネルを使用してアーカイブ オプションを構成する
 
@@ -56,7 +56,7 @@ ms.lasthandoff: 03/28/2018
     
 ## <a name="configure-archiving-options-by-using-windows-powershell"></a>Windows PowerShell を使用してアーカイブ オプションを構成する
 
-次の表に示す Windows PowerShell コマンドレットを使用してアーカイブ オプションを構成することもできます。 などのすべての利用可能なパラメーターの構文の詳細については、 [Skype ビジネス サーバー 2015 管理シェルに](../management-shell.md)を参照してください。
+次の表に示す Windows PowerShell コマンドレットを使用してアーカイブ オプションを構成することもできます。 含むすべての利用可能なパラメーターの構文の詳細については、[ビジネス サーバー管理シェルの Skype](../management-shell.md)を参照してください。
   
 
 |**コマンドレット**|**説明**|

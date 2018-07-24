@@ -10,17 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
-description: Microsoft Lync Server 2013 を使用すると、エッジ サーバーおよびエッジ プールの各インタ フェースの IPv4 と IPv6 のアドレスを構成できます。 これを行うには、次の項目を行います。
-ms.openlocfilehash: a303c4dc3d6fe82617449795507ef87017676a4a
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+description: ビジネス サーバー用の Skype を使用すると、エッジ サーバーおよびエッジ プールの各インタ フェースの IPv4 と IPv6 のアドレスを構成できます。 これを行うには、次の項目を行います。
+ms.openlocfilehash: 5ddad12c17041b84c36ccdd99ee4ed76d27fb553
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974958"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016989"
 ---
 # <a name="add-edge-server-ip-options"></a>エッジ サーバーの IP オプションを追加します。
  
-Microsoft Lync Server 2013 を使用すると、エッジ サーバーおよびエッジ プールの各インタ フェースの IPv4 と IPv6 のアドレスを構成できます。 これを行うには、次の項目を行います。
+ビジネス サーバー用の Skype を使用すると、エッジ サーバーおよびエッジ プールの各インタ フェースの IPv4 と IPv6 のアドレスを構成できます。 これを行うには、次の項目を行います。
   
 - **内部インターフェイスの IPv4 を有効にする**:] チェック ボックスを選択して、エッジ サーバーまたはエッジ プールの内部インターフェイスに IPv4 アドレスを適用する場合は、
     

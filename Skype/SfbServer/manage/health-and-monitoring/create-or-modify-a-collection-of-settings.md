@@ -1,32 +1,32 @@
 ---
-title: Skype for Business Server 2015 での CDR 構成設定のコレクションの作成または変更
+title: 作成するか、Skype でビジネス サーバー用の CDR 構成設定のコレクションを変更します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
-description: '概要: は、Skype でのビジネス サーバー 2015 (CDR) を記録呼び出しの詳細について説明します。'
-ms.openlocfilehash: 9861c3e2fba0f601e47e093a664999052d128f95
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、Skype のビジネス サーバー (CDR) を記録呼び出しの詳細について説明します。'
+ms.openlocfilehash: f1bbf12f3766156b5f30ef3f2760669791e8c4c0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20970373"
 ---
-# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での CDR 構成設定のコレクションの作成または変更
+# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>作成するか、Skype でビジネス サーバー用の CDR 構成設定のコレクションを変更します。
  
-**の概要:**ビジネス サーバー 2015 の Skype で (CDR) の記録の呼び出しの詳細について説明します。
+**の概要:** Skype のビジネス サーバー (CDR) を記録呼び出しの詳細について説明します。
   
 通話詳細記録 (CDR) では、ピアツーピアのインスタント メッセージング セッション、ボイス オーバー IP (VoIP) 電話の通話、電話会議などの使用状況を追跡できます。この使用状況データの中には、通話の発信者と受信者、通話時刻、通話時間の情報が含まれます。
   
-ビジネス サーバー 2015 1 つの Skype をインストールすると、CDR 構成設定のグローバル コレクションが作成されます。 管理者は、サイト スコープでカスタム設定を作成することもできます。 これらのサイト スコープの設定が使用されるときは常に、グローバル設定よりも優先されます。 たとえば、Redmond サイトにサイト スコープの設定を作成する場合、Redmond での CDR の管理には (グローバル設定ではなく) それらの設定が使用されます。
+ビジネス サーバー 1 つの Skype をインストールすると、CDR 構成設定のグローバル コレクションが作成されます。 管理者は、サイト スコープでカスタム設定を作成することもできます。 これらのサイト スコープの設定が使用されるときは常に、グローバル設定よりも優先されます。 たとえば、Redmond サイトにサイト スコープの設定を作成する場合、Redmond での CDR の管理には (グローバル設定ではなく) それらの設定が使用されます。
   
 ビジネス サーバーのコントロール パネルまたは[新規 CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps)コマンドレットのいずれかの Skype を使用して、CDR 構成設定を作成できます。 Skype ビジネス サーバーのコントロール パネルの[設定 CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)コマンドレットを使用するには既存の設定を変更します。 作成または設定を変更するビジネス サーバーのコントロール パネルの Skype を使用する場合に使用可能な次のオプションになります。
   
-|**UI の設定**|**PowerShell のパラメーター**|**説明**|
+|**UI 設定**|**PowerShell パラメーター**|**説明**|
 |:-----|:-----|:-----|
 |名前  <br/> |ID  <br/> |作成する CDR 構成設定に対する一意の識別子。これらの設定はサイト スコープでのみ作成できます。  <br/> |
 |CDR の監視を有効にする  <br/> |EnableCDR  <br/> |CDR が有効かどうかを示します。  <br/> |

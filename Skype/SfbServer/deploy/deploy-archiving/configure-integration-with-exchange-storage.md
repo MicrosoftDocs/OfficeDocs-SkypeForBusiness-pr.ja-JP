@@ -1,26 +1,26 @@
 ---
-title: Skype for Business Server 2015 に対する Exchange ストレージとの統合の構成
+title: Exchange の記憶域を持つ Skype のビジネス サーバーの統合を構成します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f48b87f-a57f-4ed8-8c79-5c75b316b696
-description: '概要: ビジネス サーバー 2015 の Skype での Exchange ストレージとの統合を構成する方法については、このトピックを読みます。'
-ms.openlocfilehash: 2d814bb297999062aaf93160286031afec51c3a9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、Skype での Exchange の記憶域を持つビジネス サーバーの統合を構成する方法については、このトピックを読みます。'
+ms.openlocfilehash: 5f987ef0c2c47960a71c94a3b5a692062e787ed6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988333"
 ---
-# <a name="configure-integration-with-exchange-storage-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 に対する Exchange ストレージとの統合の構成
+# <a name="configure-integration-with-exchange-storage-for-skype-for-business-server"></a>Exchange の記憶域を持つ Skype のビジネス サーバーの統合を構成します。
  
-**の概要:**ビジネス サーバー 2015 の Skype での Exchange ストレージとの統合を構成する方法については、このトピックを参照してください。
+**の概要:** Skype で Exchange の記憶域を持つビジネス サーバーの統合を構成する方法については、このトピックを参照してください。
   
-配置内のすべてのユーザーの Microsoft Exchange の統合を使用する場合、ユーザーのアーカイブ ・ ポリシーをビジネス サーバー用 Skype を構成する必要はありません。 代わりに、インプレース保持に自分のメールボックスに、exchange の置かれているユーザー用にアーカイブをサポートするための Exchange インプレース保持ポリシーを構成します。 Exchange ストレージ統合を構成する前に、[ビジネス サーバー 2015 の Skype でアーカイブするための計画](../../plan-your-deployment/archiving/archiving.md)を読みます。 Exchange インプレース保持ポリシーの詳細については、Exchange 製品のマニュアルを参照してください。 
+配置内のすべてのユーザーの Microsoft Exchange の統合を使用する場合、ユーザーのアーカイブ ・ ポリシーをビジネス サーバー用 Skype を構成する必要はありません。 代わりに、インプレース保持に自分のメールボックスに、exchange の置かれているユーザー用にアーカイブをサポートするための Exchange インプレース保持ポリシーを構成します。 Exchange ストレージ統合を構成する前に、 [Skype のビジネス サーバーでアーカイブするための計画](../../plan-your-deployment/archiving/archiving.md)を読み取る。 Exchange インプレース保持ポリシーの詳細については、Exchange 製品のマニュアルを参照してください。 
   
 ## <a name="configure-integration-with-microsoft-exchange-storage"></a>Microsoft Exchange ストレージ統合を構成します。
 

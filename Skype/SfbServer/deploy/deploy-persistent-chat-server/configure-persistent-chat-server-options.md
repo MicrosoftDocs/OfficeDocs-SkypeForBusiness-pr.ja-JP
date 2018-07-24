@@ -10,15 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: '概要: は、Skype のビジネス サーバー 2015 のグローバル オプションを永続的なチャット サーバー、サイト、またはプールのレベルを構成する方法について説明します。'
-ms.openlocfilehash: 6fe06b6a5383178f0a9465624f7a0e739c2a32e6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1da6acc83c051e2de3b2453aae04f40c5b18d456
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988840"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバー オプションの構成
  
-**の概要:**ビジネス サーバー 2015 の Skype のグローバル オプションを永続的なチャット サーバー、サイト、またはプールのレベルを構成する方法について説明します。
+**の概要:** ビジネス サーバー 2015 の Skype のグローバル オプションを永続的なチャット サーバー、サイト、またはプールのレベルを構成する方法について説明します。
   
 サイト内のすべてのプールまたはサイト内の特定のプールにグローバルに適用できる永続的なチャット サーバーのいくつかのオプションを指定できます。 常設チャット サーバーには以下のオプションがあります。 
   
@@ -29,7 +30,10 @@ ms.lasthandoff: 03/28/2018
 - [参加者の更新制限]。 常設チャットから参加者の名簿の更新情報が送信されるチャット ルームの最大参加者数です。 グローバルな既定値は 75 です。
     
 - ルーム管理の URL です。 カスタム チャット ルーム管理に使用される URL です。 この設定により、カスタム ルーム管理ソリューションを使用できるようになります。 
-    
+   
+> [!NOTE] 
+> 永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。 同じ機能は、チームで使用できます。 詳細については、[マイクロソフトのチームにビジネス用の Skype からの旅](/microsoftteams/journey-skypeforbusiness-teams)を参照してください。 永続的なチャットを使用する場合は、選択肢は、いずれかをチームでは、この機能を必要とするユーザーを移行するまたはビジネス サーバー 2015 の Skype を使用し続ける。
+ 
 ## <a name="configure-persistent-chat-server-global-options"></a>永続的なチャット サーバーのグローバル オプションを構成します。
 
 永続的なチャット サーバーのグローバル オプションを構成するには。

@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: サーバー ツールの計画はビジネス用の Skype
-ms.openlocfilehash: a5c482dadf2ffd39e8927e1924e50117dd13e1c8
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: ea3c9375a1a28f5c36ad464fa7c71338383fe7bc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974030"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983120"
 ---
 # <a name="feature-overview-planning-tool"></a>機能概要 (計画ツール)
  
@@ -60,6 +60,9 @@ ms.locfileid: "19974030"
 - **常設チャット**
     
     常設チャットを使用すると、複数のユーザーが会話に参加し、特定のトピックに関するコンテンツ (テキスト、リンク、ファイルなど) を投稿したり、それらにアクセスしたりできます。セッション中、ユーザーはリアルタイムで通信できますが、各セッションの内容は永続的に保持されます。そのため、セッション終了後も会話の内容を確認できます。
+
+    > [!NOTE] 
+    > 永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。 同じ機能は、チームで使用できます。 詳細については、[マイクロソフトのチームにビジネス用の Skype のアップグレード](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams)を参照してください。 永続的なチャットの使用が必要な場合、選択肢としてはチームにこの機能を必要とするユーザーを移行するか、ビジネス サーバー 2015 の Skype を使用し続けます。
     
 ### <a name="users"></a>ユーザー
 
@@ -75,7 +78,7 @@ ms.locfileid: "19974030"
     
 - **XMPP ベースのサービス プロバイダーとのフェデレーション**
     
-    ビジネス サーバーの Skype では、(エッジ トランスポート サーバー上に展開される) 完全に統合された XMPP プロキシと、XMPP ゲートウェイは、フロント エンド サーバー上に展開を紹介します。 XMPP プロキシの構成の追加と展開することができ、XMPP ゲートウェイが、Skype は、XMPP ベースのパートナーに対して、インスタント メッセージング (IM) とプレゼンスから連絡先を追加するのにはビジネスのサーバーのユーザーを許可します。
+    (エッジ トランスポート サーバー上に展開される) 完全に統合された XMPP プロキシと、フロント エンド サーバー上に展開、XMPP ゲートウェイ サーバー 2015 のビジネス用の Skype が導入されています。 XMPP プロキシの構成の追加と展開することができ、XMPP ゲートウェイが、Skype は、XMPP ベースのパートナーに対して、インスタント メッセージング (IM) とプレゼンスから連絡先を追加するのにはビジネスのサーバーのユーザーを許可します。
     
 - **モビリティ**
     
@@ -84,6 +87,9 @@ ms.locfileid: "19974030"
 - **W15 Exchange メールボックス**
     
     ビジネス サーバー用の Skype を使用すると、ボイスメールのメッセージを格納で Exchange ユニファイド メッセージング (UM)。ボイスメール メッセージは、ユーザーの受信トレイの電子メール メッセージとして表示されます。
+
+    > [!NOTE]
+    > として以前に Exchange ユニファイド メッセージングは、不要になった使用可能な Exchange 2019 が、電話システムを使用してレコードのボイス メール メッセージと、ユーザーの Exchange メールボックスに記録を残すことができます。 詳細については、[クラウドのボイスメールの計画サービス](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md)を参照してください。
     
 ### <a name="voice"></a>音声
 
@@ -95,7 +101,10 @@ ms.locfileid: "19974030"
     
 - **Exchange ユニファイド メッセージング**
     
-    Exchange ユニファイド メッセージング (UM) 結合のボイス メールと電子メールを 1 つのメッセージング インフラストラクチャです。 ビジネス サーバー用の Skype を使用して、Exchange UM 通話応答、サブスクライバー アクセス、呼び出し通知、自動アテンダントのサービスを提供します。 これらのサービスを使用する場合は、ビジネスのサーバー共有の Active Directory トポロジでの Exchange UM と Skype を統合する必要があります。
+    Exchange ユニファイド メッセージング (UM) 結合のボイス メールと電子メールを 1 つのメッセージング インフラストラクチャです。 ビジネス サーバー 2015 の Skype を使用して、Exchange UM 通話応答、サブスクライバー アクセス、呼び出し通知、自動アテンダントのサービスを提供します。 これらのサービスを使用する場合は、ビジネスのサーバー共有の Active Directory トポロジでの Exchange UM と Skype を統合する必要があります。
+
+    > [!NOTE]
+    > として以前に Exchange ユニファイド メッセージングは、不要になった使用可能な Exchange 2019 が、電話システムを使用してレコードのボイス メール メッセージと、ユーザーの Exchange メールボックスに記録を残すことができます。 詳細については、[クラウドのボイスメールの計画サービス](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md)を参照してください。
     
 ### <a name="additional-deployment-options"></a>追加の展開オプション
 

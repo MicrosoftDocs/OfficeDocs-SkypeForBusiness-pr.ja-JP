@@ -1,27 +1,27 @@
 ---
-title: Skype for Business Server 2015 との相互運用に対応した VTC の構成
+title: ビジネス サーバーの Skype での相互運用のため、VTC を構成します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
-description: '概要: ビジネス サーバー 2015 の Skype 上で動作する VTC のデバイスを構成します。'
-ms.openlocfilehash: a88f34866a2a2147be0f30488e961552c6f19350
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: ビジネス サーバーの Skype 上で動作する VTC のデバイスを構成します。'
+ms.openlocfilehash: cc6b8d4fb48a0f43d646d204d399c575af503390
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21017908"
 ---
-# <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server-2015"></a>Skype for Business Server 2015 との相互運用に対応した VTC の構成
+# <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>ビジネス サーバーの Skype での相互運用のため、VTC を構成します。
  
-**の概要:**ビジネス サーバー 2015 の Skype 上で動作する VTC のデバイスを構成します。
+**の概要:** ビジネス サーバーの Skype 上で動作する VTC のデバイスを構成します。
   
-SIP トランクと CUCM ビデオ ゲートウェイ経由で Skype for Business VIS サーバーに接続する各 VTC に対して、以下の構成カスタマイズ手順を実行する必要があります。
+SIP トランクを使用してビジネス VIS サーバーの Skype と Cisco ユニファイド コミュニケーション マネージャー (CallManager、または CUCM) に接続する各 VTC の次の構成のカスタマイズの手順を実行する必要がビデオのゲートウェイです。
   
 ここで説明する設定は、CUCM を構成する方法の例として、VIS. を操作するには CUCM の別の機能を他の方法で設定/使用して同じ結果を実現することもできます。 特定のシナリオに最適な構成について推奨するものではありません。
   

@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 での仲介サーバーのファイルの展開ガイドライン
+title: Skype ビジネス サーバー用の仲介サーバーの展開ガイドライン
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -11,13 +10,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: このトピックでは、仲介サーバーの展開の計画のガイドラインについて説明します。
-ms.openlocfilehash: e1017e9fab43578fd3c10e8043c7dcc747d313b9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 0e5568b93e0edb0b30bf3edf0893f5eb43ac8d19
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967934"
 ---
-# <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での仲介サーバーのファイルの展開ガイドライン
+# <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>Skype ビジネス サーバー用の仲介サーバーの展開ガイドライン
  
 このトピックでは、仲介サーバーの展開の計画のガイドラインについて説明します。
   
@@ -39,7 +39,7 @@ PSTN ゲートウェイ、IP Pbx の場合、またはセッション ボーダ�
     
 - プール内のすべての仲介サーバーからのトラフィックをそのまま使用します。
     
-Microsoft Lync Server 2013 を使用することができます、フロント エンド プールに仲介サーバーを配置するかどうかを評価するために、計画ツールは、負荷を処理できます。 お客様の環境では、これら要件を満たすことはできません、する場合が、スタンドアロンの仲介サーバー プールを展開する必要があります。
+負荷を処理できる、フロント エンド プールに仲介サーバーを配置するかどうかを評価するために、Skype のビジネス ・ プランニング ・ ツールを使用できます。 お客様の環境では、これら要件を満たすことはできません、する場合が、スタンドアロンの仲介サーバー プールを展開する必要があります。
   
 ## <a name="central-site-and-branch-site-considerations"></a>中央サイトとブランチ サイトに関する考慮事項
 

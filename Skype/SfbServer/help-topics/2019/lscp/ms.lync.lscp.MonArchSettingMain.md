@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
+ROBOTS: NOINDEX, NOFOLLOW
 description: アーカイブ ビジネス サーバー展開は、有効にすると、次のオプションを無効にするなど、Skype のオプションを制御するアーカイブ構成を使用するとします。
-ms.openlocfilehash: 3bac88f44fea669c0eb1219046067f1e348c413c
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: d8e7adec0918cf13104857957442f1f0a5f4ff3d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973214"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004261"
 ---
 # <a name="archiving-configuration"></a>アーカイブ構成
  
@@ -64,5 +65,5 @@ ms.locfileid: "19973214"
     
 - **更新**すべてのアーカイブ構成オプションの状態を確認するのには**アーカイブの構成**ページを更新することができます。
     
-アーカイブ機能および Exchange の統合などの機能の詳細について「[ビジネス サーバー 2015 の Skype でアーカイブするための計画](../../../plan-your-deployment/archiving/archiving.md)、[ビジネス サーバー 2015 Skype アーカイブの展開](../../../deploy/deploy-archiving/deploy-archiving.md)、および[管理アーカイブの Skype での使用」を参照してください。ビジネス サーバー 2015年](../../../manage/archiving/archiving.md)。
+アーカイブ機能および Exchange の統合などの機能の詳細について「 [Skype ビジネス サーバーでアーカイブするための計画](../../../plan-your-deployment/archiving/archiving.md)、 [Skype ビジネス サーバー用のアーカイブの展開](../../../deploy/deploy-archiving/deploy-archiving.md)、および[管理は、ビジネス Skype アーカイブの使用」を参照してください。サーバー](../../../manage/archiving/archiving.md)。
 

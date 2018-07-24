@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 でのアーカイブ構成の削除
+title: ビジネス サーバーの Skype では、アーカイブの構成を削除します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
-description: '概要: ビジネス サーバー 2015 の Skype では、アーカイブの構成を削除する方法を説明します。'
-ms.openlocfilehash: 810c195f34a729218118744d4b6943e8dd60eb75
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: ビジネス サーバーの Skype では、アーカイブの構成を削除する方法を説明します。'
+ms.openlocfilehash: f8cb64cf7523cfaec26006560b4f77f39d904ead
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018936"
 ---
-# <a name="delete-an-archiving-configuration-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのアーカイブ構成の削除
+# <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>ビジネス サーバーの Skype では、アーカイブの構成を削除します。
 
-**の概要:**ビジネス サーバー 2015 の Skype では、アーカイブの構成を削除する方法について説明します。
+**の概要:** ビジネス サーバーの Skype では、アーカイブの構成を削除する方法について説明します。
   
 サイト構成やプール構成は削除できますが、グローバル構成は削除できません。グローバル構成を削除すると、グローバル構成は自動的に既定値にリセットされます。
   

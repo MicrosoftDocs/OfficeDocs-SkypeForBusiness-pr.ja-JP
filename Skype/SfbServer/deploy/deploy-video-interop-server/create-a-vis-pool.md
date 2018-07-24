@@ -1,29 +1,29 @@
 ---
-title: Skype for Business Server 2015 での VIS プールの作成
+title: Skype のビジネス サーバーの VIS プールを作成します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
-description: '概要: は、トポロジ ビルダーを使用して、ビジネス サーバー 2015 の Skype でのビデオの相互運用機能のサーバー プールを作成します。'
-ms.openlocfilehash: 89fcdf34480bc9b99295993d28e32ca547f07893
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: '概要: は、トポロジ ビルダーを使用してビジネスのサーバーの Skype でビデオの相互運用機能のサーバー プールを作成します。'
+ms.openlocfilehash: f284163bc52f4e62c3ec5b1c7966f3c663ee09f7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978817"
 ---
-# <a name="create-a-vis-pool-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での VIS プールの作成
+# <a name="create-a-vis-pool-in-skype-for-business-server"></a>Skype のビジネス サーバーの VIS プールを作成します。
  
-**の概要:** トポロジ ビルダーを使用して、ビジネス サーバー 2015 の Skype でのビデオの相互運用機能のサーバー プールを作成します。
+**の概要:** トポロジ ビルダーを使用してビジネス サーバーの Skype でのビデオの相互運用機能のサーバー プールを作成します。
   
 ### <a name="create-a-vis-or-vis-pool-using-topology-builder"></a>トポロジ ビルダーを使用して VIS または VIS プールを作成する
 
-1. フロントエンド サーバーでトポロジ ビルダーを開きます。 トポロジ ビルダーの左ペインを右クリックして * * ビデオの相互運用機能サーバー プール * ***新しいビデオの相互運用機能のサーバー プール**を選択します。 
+1. フロントエンド サーバーでトポロジ ビルダーを開きます。 トポロジ ビルダーの左ペインで、**ビデオの相互運用機能のサーバー プール**を右クリックし、**新しいビデオの相互運用機能のサーバー プール**を選択します。 
     
 2. この操作を行うと、[**ビデオ相互運用サーバー プールの新規作成**] ウィザードが表示されます。 新しいビデオの相互運用機能のサーバーのプールの FQDN を提供し、**このプールには 1 つのサーバー**または**このプールが複数のサーバーには**、お客様の要件に基づいて選択し、[**次**] を押します。
     
@@ -41,7 +41,7 @@ ms.lasthandoff: 05/24/2018
     
 5. TCP ポートまたは TLS ポートを設定します。
     
-    トポロジ ビルダーの左ウィンドウから新しく追加されたビデオの相互運用機能のサーバーを選択して右クリックして、**プロパティの編集**] を選択します。 要件に応じて TCP ポートまたは TLS ポートを有効にするか更新して、[**OK**] を選択します。 既定では TLS が追加されていますが、CUCM で完全にテストされているのは TCP のみです。
+    トポロジ ビルダーの左ウィンドウから新しく追加されたビデオの相互運用機能のサーバーを選択して右クリックして、**プロパティの編集**] を選択します。 要件に応じて TCP ポートまたは TLS ポートを有効にするか更新して、[**OK**] を選択します。 既定で TLS の追加は、TCP のみが完全にテストされてシスコ ユニファイド コミュニケーション マネージャーを使用して (CallManager、または CUCM)。
     
 6. ビデオ ゲートウェイを追加します。この操作を行うには、[共有コンポーネント] を展開して、[**ビデオ ゲートウェイ**] を右クリックして、[**新しいビデオ ゲートウェイ**] を選択します。
     
@@ -64,11 +64,8 @@ ms.lasthandoff: 05/24/2018
 トポロジ ビルダーを使用して実行するすべてのタスクはこれで完了します。新しい VIS サーバー (複数可) へのソフトウェアのインストール作業に進みます。
 ## <a name="see-also"></a>関連項目
 
-#### 
+[Skype で VIS のサーバーの役割をビジネスのサーバーの展開します。](deploy-the-vis-server-role.md)
 
-[ビジネス サーバー 2015 用 Skype で VIS のサーバーの役割を展開します。](deploy-the-vis-server-role.md)
-
-[ビジネス サーバー 2015 の Skype でのビデオの相互運用サーバーの計画](../../plan-your-deployment/video-interop-server.md)
+[ビジネス サーバーに、Skype でのビデオの相互運用サーバーを計画します。](../../plan-your-deployment/video-interop-server.md)
   
-[作成し、ビジネス サーバー 2015 の Skype の新しいトポロジを公開](../../deploy/install/create-and-publish-new-topology.md)
-
+[Skype for Business Server 2015 での新しいトポロジの作成および公開](../../deploy/install/create-and-publish-new-topology.md)

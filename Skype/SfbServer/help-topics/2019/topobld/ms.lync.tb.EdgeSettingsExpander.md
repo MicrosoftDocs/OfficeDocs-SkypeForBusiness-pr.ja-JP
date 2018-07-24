@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 既存の単一サーバー エッジ プールまたは複数サーバー エッジ プールの設定を編集するために、次のセクションが表示されます。
-ms.openlocfilehash: 642e71aed428326140dd72646426f833c8d760b7
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 601350dc96da80e04bccb975572b7655dc3c3e52
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964584"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987692"
 ---
 # <a name="edge-settings-expander"></a>エッジ設定エキスパンダー
  
@@ -28,23 +28,22 @@ ms.locfileid: "19964584"
     
 - エッジ サーバー構成
     
-## 
 
-### <a name="general-settings"></a>全般設定
+## <a name="general-settings"></a>全般設定
 
 エッジ サーバー プールの内部プールの完全修飾ドメイン名 (FQDN)。この設定を変更するには、プールの FQDN を編集します。
   
-設定した場合、Lync Server 2013 とのフェデレーションを Microsoft Lync Server 2010 または Microsoft Office 通信 Server 2007 R2 の信頼できるパートナーは、**このエッジ プール (ポート 5061) のフェデレーションを有効にする**チェック ボックスを選択します。
+Lync Server 2013、Microsoft Lync Server 2010、または Microsoft Office 通信 Server 2007 R2 の信頼できるパートナーとのフェデレーションを設定する場合、**このエッジ プール (ポート 5061) のフェデレーションを有効にする**] チェック ボックスを選択します。
   
 [**このエッジ プールの XMPP フェデレーションを有効化 (ポート 5269)**] を選択して、XMPP フェデレーションを有効にします。
   
 [**内部構成レプリケーション ポート (HTTPS)**] に対してポート番号を指定します。
   
-### <a name="next-hop-selection-settings"></a>次ホップ選択設定
+## <a name="next-hop-selection-settings"></a>次ホップ選択設定
 
 エッジ サーバーが内部インフラストラクチャと通信するために使用する [**次ホップ プール**] を設定または変更するには、ドロップダウン リスト ボックスからディレクター、ディレクター プール、フロントエンド サーバー、またはフロントエンド サーバーのプールを選択します。 ディレクターまたはフロント エンド トポロジ ビルダーで構成されているだけは、選択範囲に表示されます。
   
-### <a name="edge-server-configuration"></a>エッジ サーバー構成
+## <a name="edge-server-configuration"></a>エッジ サーバー構成
 
 エッジ サーバーの [**外部設定**] の設定を編集または指定するには、まず SIP アクセス、Web 会議、および音声ビデオ サービスに個別の IP アドレスを使用するかどうかを判断する必要があります。
   
@@ -60,7 +59,7 @@ ms.locfileid: "19964584"
 > [!IMPORTANT]
 > 別々の FQDN および IP アドレスまたはポートを使用することを含め、これらの設定のいずれかに変更を加える場合は、最初に構成された値に依存する他のすべてのサービスを更新する必要があります。 
   
-### 
+## <a name="see-also"></a>関連項目 
 
 詳細を定義して、エッジ サービスの設定の構成については、[エッジ トポロジの定義](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)を参照してください。
   

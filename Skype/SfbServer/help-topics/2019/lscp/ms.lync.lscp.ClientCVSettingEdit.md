@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
+ROBOTS: NOINDEX, NOFOLLOW
 description: クライアント バージョンの構成設定は、クライアント バージョンの制御を有効または無効にするために使用します。 グローバル クライアント バージョンの構成では、ビジネス サーバーの Skype をインストールしを有効にするか、クライアントのバージョン管理サーバー全体の展開を無効にするために使用します。 グローバル構成を有効にすると、ユーザーがログオンを試みたときに、適用されているすべてのクライアント バージョン ポリシーが有効になります。 クライアント バージョン制御を行わないようにする場合は、グローバル クライアントバージョン構成を無効にできます。
-ms.openlocfilehash: 3b03ae27b20ddd84a371c91c95bb3372457df33b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: a5647926d8fca4548dd376da6218e6f9aac27d3c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987579"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983771"
 ---
 # <a name="client-version-configuration-create-new-or-edit-existing"></a>クライアント バージョンの構成: 新規作成または現在の形式のままで編集
  

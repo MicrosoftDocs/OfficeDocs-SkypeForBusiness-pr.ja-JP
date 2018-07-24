@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 での会議の構成設定の削除
+title: 削除 Skype ビジネス サーバーの構成設定を満たす
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ebafb86-13b9-468e-beda-f85f6786da85
-description: '概要: を削除する方法を説明する会議出席ビジネス サーバー 2015 の Skype の設定を構成します。'
-ms.openlocfilehash: dec2e51dfe6ae0b9983515d849bc9fc416e9bcc4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: を削除する方法を学習する Skype ビジネス サーバーの構成設定に対応します。'
+ms.openlocfilehash: 289f8546514ee250b490115e1ca513250c466a94
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018827"
 ---
-# <a name="delete-meeting-configuration-settings-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での会議の構成設定の削除
+# <a name="delete-meeting-configuration-settings-in-skype-for-business-server"></a>削除 Skype ビジネス サーバーの構成設定を満たす
  
-**の概要:**削除する方法について説明会議出席ビジネス サーバー 2015 の Skype の設定を構成します。
+**の概要:** 削除する方法を学習 Skype ビジネス サーバーの構成設定に対応します。
   
 削除することができます Skype ビジネス サーバーのコントロール パネルを使用するか、Skype ビジネス サーバー管理シェルを使用して会議の構成設定。
   

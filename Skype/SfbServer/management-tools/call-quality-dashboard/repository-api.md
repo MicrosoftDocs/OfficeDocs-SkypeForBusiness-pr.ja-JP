@@ -3,7 +3,7 @@ title: ビジネス サーバー 2015 の Skype での通話品質のダッシ�
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,15 +11,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: '概要: は、通話品質のダッシュ ボードは、リポジトリ API について説明します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。'
-ms.openlocfilehash: 0f84e3967bd4f78f8852dbcfed8ce5d59cbe4e8c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 67378b6b0e927f45605a1ca0f7cdddffafac3022
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989095"
 ---
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype での通話品質のダッシュ ボード (救難) リポジトリ API
  
-**の概要:**通話品質のダッシュ ボードには、リポジトリ API について説明します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。
+**の概要:** 通話品質のダッシュ ボードには、リポジトリ API について説明します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。
   
 リポジトリ API は、ビジネス サーバー 2015 の Skype の品質のダッシュ ボードを呼び出すためのプログラムによるアクセスを提供します。
   
@@ -62,7 +63,6 @@ ms.lasthandoff: 03/28/2018
       <traceLog enabled="true" fileName="repository_trace.log" />
     </diagnostics>
  </repositoryConfiguration>
-
 ```
 
 

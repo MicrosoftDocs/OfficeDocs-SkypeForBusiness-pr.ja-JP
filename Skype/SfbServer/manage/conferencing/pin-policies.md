@@ -1,25 +1,24 @@
 ---
-title: ビジネス サーバー 2015 の Skype では、ダイヤルイン会議の暗証番号 (pin) ポリシーを管理します。
+title: ビジネス サーバーの Skype では、ダイヤルイン会議の暗証番号 (pin) ポリシーを管理します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
-description: '概要: ビジネス サーバー 2015 の Skype では、ダイヤルイン会議の暗証番号 (pin) ポリシーを管理する方法を説明します。'
-ms.openlocfilehash: ee6a303a59ef6bc17ca3bd3300a701505cf9042b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: '概要: ビジネス サーバーの Skype では、ダイヤルイン会議の暗証番号 (pin) ポリシーを管理する方法を説明します。'
+ms.openlocfilehash: 0fd6d8a3ebfaeee0c6b4b3757a7b58b8d3882d71
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569052"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013415"
 ---
-# <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype では、ダイヤルイン会議の暗証番号 (pin) ポリシーを管理します。
+# <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>ビジネス サーバーの Skype では、ダイヤルイン会議の暗証番号 (pin) ポリシーを管理します。
  
-**の概要:** ビジネス サーバー 2015 の Skype では、ダイヤルイン会議の暗証番号 (pin) ポリシーを管理する方法について説明します。
+**の概要:** ビジネス サーバーの Skype では、ダイヤルイン会議の暗証番号 (pin) ポリシーを管理する方法について説明します。
   
 組織の Active Directory ドメイン サービス (AD DS) の資格情報を持つサーバーのビジネス ユーザーの Skype は、暗証番号 (PIN) を使用して、認証済みユーザーとしてダイヤルイン会議に参加できます。 PIN ポリシーは、ダイヤルイン会議 PIN がどのように機能するかについてのルールを定義します。
   
@@ -27,7 +26,7 @@ ms.locfileid: "19569052"
   
 特定のポリシーをサイトまたは特定のユーザー グループに適用する場合は、新しい PIN ポリシーを作成できます。
   
-PIN ポリシーは、最も狭いスコープから最も広いスコープまでのどのスコープでも、ユーザーに適用されます。 ユーザーレベルの PIN ポリシーをユーザーに割り当てると、それらの設定は優先権を持ちます。 ユーザー ポリシーを割り当てない場合は、サイトレベルの PIN ポリシーがあれば、そのポリシーが適用されます。 ユーザー ポリシーもサイト ポリシーも適用されていない場合は、グローバル PIN ポリシーが既定の設定を提供します。
+PIN ポリシーは、最も狭いスコープから最も広いスコープまでのどのスコープでも、ユーザーに適用されます。ユーザーレベルの PIN ポリシーをユーザーに割り当てると、それらの設定は優先権を持ちます。ユーザー ポリシーを割り当てない場合は、サイトレベルの PIN ポリシーがあれば、そのポリシーが適用されます。ユーザー ポリシーもサイト ポリシーも適用されていない場合は、グローバル PIN ポリシーが既定の設定を提供します。
   
 ## <a name="view-information-about-pin-policies"></a>PIN ポリシーに関する情報を表示する
 
@@ -35,7 +34,7 @@ PIN ポリシーは、最も狭いスコープから最も広いスコープま�
   
 ### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用して、暗証番号 (pin) のポリシーに関する情報を表示
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは2015。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは.
     
 2.  Skype をビジネス サーバーのコントロール パネルを開きます。
     
@@ -59,7 +58,7 @@ Get-CsPinPolicy -Identity "site:Redmond"
   
 ### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用してグローバル ダイヤルイン会議 PIN ポリシーを変更します。
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは2015。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは.
     
 2.  Skype をビジネス サーバーのコントロール パネルを開きます。
     
@@ -104,7 +103,7 @@ Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
   
 ### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用して、ユーザーまたはサイトの PIN ポリシーを作成します。
 
-1. RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは2015。
+1. RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは.
     
 2.  Skype をビジネス サーバーのコントロール パネルを開きます。
     
@@ -155,7 +154,7 @@ New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
   
 ### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用して、ユーザーまたはサイトの PIN ポリシーを変更します。
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは2015。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは.
     
 2.  Skype をビジネス サーバーのコントロール パネルを開きます。
     
@@ -185,7 +184,7 @@ Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
   
 ### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用して、ユーザーまたはサイトの PIN ポリシーを削除します。
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは2015。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは.
     
 2.  Skype をビジネス サーバーのコントロール パネルを開きます。
     

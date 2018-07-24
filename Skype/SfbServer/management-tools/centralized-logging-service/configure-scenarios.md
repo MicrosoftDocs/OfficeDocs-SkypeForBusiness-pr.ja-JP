@@ -3,7 +3,7 @@ title: Skype for Business Server 2015 での集中ログ サービスのシナ�
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,15 +11,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: '概要: は、作成、変更、およびビジネス サーバー 2015 の Skype で集中ログ サービスのシナリオを削除する方法を説明します。'
-ms.openlocfilehash: e8b9575ed949e1769e867113be301deede981018
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: acfd7ae44d7fde1e585792e691c604d18471b29e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016398"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での集中ログ サービスのシナリオの構成
  
-**の概要:**作成、変更、およびビジネス サーバー 2015 の Skype で集中ログ サービスのシナリオを削除する方法について説明します。
+**の概要:** 作成、変更、およびビジネス サーバー 2015 の Skype で集中ログ サービスのシナリオを削除する方法について説明します。
   
 シナリオが (つまり、グローバル、サイト、プール、またはコンピューター) のスコープを定義し、一元的なログ サービスで使用するには、どのようなプロバイダーです。 シナリオを使用して、プロバイダー (S4、SIPStack、IM、プレゼンスなど) のトレースを有効または無効にします。 シナリオを構成することで、特定の問題の条件に対応する特定の論理コレクションのすべてのプロバイダーをグループ化できます。 シナリオのトラブルシューティングとログのニーズを満たすために変更する必要がある場合は、ビジネスのサーバー 2015 のデバッグ ツールの Skype に関数の namedEdit CsClsScenario を含む ClsScenarioEdit.psm1 をという名前の Windows PowerShell モジュールが提供されます。 このモジュールの目的は、指定したシナリオのプロパティを編集することです。 このトピックでは、このモジュールの使用方法の例を示します。 ビジネス サーバー 2015[のデバッグ ツール](https://go.microsoft.com/fwlink/p/?LinkId=285257)のいずれかに入る前に、Skype をダウンロードします。
   
@@ -222,5 +223,3 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   ```
   Edit-CsClsScenario AlwaysOn ChatServer -Level Info -Flags ALL
   ```
-
-

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 description: ミラー データベースの設定を構成するには、以下を定義します。
-ms.openlocfilehash: 2cd793883baf5e5d567e9248e60f6601f8e1aa96
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: fe86501c88282d5caa6ee5921617a1d06c5afaa8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19989763"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983449"
 ---
 # <a name="install-mirror-database-option-page"></a>ミラー データベースのオプション] ページをインストールします。
  
@@ -33,6 +33,3 @@ ms.locfileid: "19989763"
   
  [**ヘルプ**]: このヘルプ画面を表示します。
   
-## <a name="see-also"></a>関連項目
-
-[SQL がバック エンド サーバーの高可用性では、Skype のビジネス サーバーのミラーリングを導入します。](../../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)

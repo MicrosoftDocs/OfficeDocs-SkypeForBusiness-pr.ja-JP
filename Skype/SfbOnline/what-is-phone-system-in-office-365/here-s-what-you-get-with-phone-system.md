@@ -1,5 +1,5 @@
 ---
-title: Office 365 の電話システムで何が得られます
+title: Office 365 での電話システムで利用できる機能
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '機能、可用性、およびお客様のビジネス電話システム (PBX をクラウド) の計画およびセットアップする方法です。 '
-ms.openlocfilehash: e2ba535de48e11e503280b8bd65fbe78611dc47d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 4d3ec5d9d490a7ad0064611d36b788da69b726e2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975445"
 ---
-# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365 の電話システムで何が得られます
+# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365 での電話システムで利用できる機能
 
 PBX は、会社内の電話システムです。 Office 365 のアドオンの電話システムが PBX の機能を使用することがなく、複雑で高価な機器です。 
   
@@ -77,7 +78,7 @@ PBX は、会社内の電話システムです。 Office 365 のアドオンの�
   
 - [プランの呼び出しを設定します](../what-are-calling-plans-in-office-365/set-up-calling-plans.md): この資料には、電話番号の設定を取得するか、Skype ビジネスのために、既存の電話番号を転送する手順です。
     
-- [Office 365 (クラウド PBX) ソリューションの電話システムの計画](https://go.microsoft.com/fwlink/?LinkId=708645): この TechNet の記事が、展開オプションのすべてを配置します。 完全にクラウド専用のソリューションの計画についての情報もあります。 
+- [Office 365 (クラウド PBX) ソリューションの電話システムの計画](https://go.microsoft.com/fwlink/?LinkId=708645): この資料は、展開オプションのすべてをレイアウトします。 完全にクラウド専用のソリューションの計画についての情報もあります。 
     
 - [Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md): についてはライセンスで Office 365 に電話システムを購入する必要があります。
     

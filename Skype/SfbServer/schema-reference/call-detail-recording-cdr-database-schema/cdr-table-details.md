@@ -3,18 +3,19 @@ title: CDR ビジネス サーバー 2015 の Skype でのテーブルの詳細
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
 description: 次のトピックでは、通話詳細記録 (CDR) データベース スキーマ テーブルの各列について詳しく説明します。
-ms.openlocfilehash: 36426f194219ecb8cf64e071eb40b24e9dc52bc3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 631a7ad4bd24dc5c41302f6f67ad97b6add0a490
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21012438"
 ---
 # <a name="cdr-table-details-in-skype-for-business-server-2015"></a>CDR ビジネス サーバー 2015 の Skype でのテーブルの詳細
  
@@ -76,27 +77,27 @@ ms.lasthandoff: 03/28/2018
     
 - [ビジネス サーバー 2015 の Skype の Mcu のテーブル](mcus.md)
     
-- [メディア テーブル](media.md)
+- [Media テーブル](media.md)
     
-- [メディア テーブル](medialist.md)
+- [MediaList テーブル](medialist.md)
     
 - [MediationServers テーブル](mediationservers.md)
     
 - [MSMQProcessing テーブル](msmqprocessing.md)
     
-- [電話テーブル](phones.md)
+- [Phones テーブル](phones.md)
     
-- [プール テーブル](pools.md)
+- [Pools テーブル](pools.md)
     
 - [ProgressReport テーブル](progressreport.md)
     
 - [PurgeSettings テーブル](purgesettings.md)
     
-- [登録テーブル](registration.md)
+- [Registration テーブル](registration.md)
     
-- [ロール テーブル](roles.md)
+- [Roles テーブル](roles.md)
     
-- [サーバーのテーブル](servers.md)
+- [Servers テーブル](servers.md)
     
 - [SessionDetails テーブル](sessiondetails.md)
     
@@ -108,11 +109,11 @@ ms.lasthandoff: 03/28/2018
     
 - [タスク テーブル](task.md)
     
-- [テナントのテーブル](tenants.md)
+- [Tenants テーブル](tenants.md)
     
 - [UriTypes テーブル](uritypes.md)
     
-- [「ユーザー」テーブル](users.md)
+- [ユーザー テーブル](users.md)
     
 - [UserAgentDef テーブル](useragentdef.md)
     

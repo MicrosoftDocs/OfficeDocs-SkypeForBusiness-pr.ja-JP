@@ -1,5 +1,5 @@
 ---
-title: 統合ビジネス サーバー 2015 の Skype を設置し、Outlook Web App の構成します。
+title: ビジネス サーバーの設置型の Skype と Outlook Web App との統合を構成します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,17 +11,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: '概要: ビジネス サーバーおよび Outlook Web App の Skype を統合します。'
-ms.openlocfilehash: 4ac4d6a71f8006e813d09631f8ccf28742940ff2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 206100ce74731b9ffa6b2987e4884b7589f6e2c8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995849"
 ---
-# <a name="configure-integration-between-on-premises-skype-for-business-server-2015-and-outlook-web-app"></a>統合ビジネス サーバー 2015 の Skype を設置し、Outlook Web App の構成します。
+# <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>ビジネス サーバーの設置型の Skype と Outlook Web App との統合を構成します。
  
-**の概要:**ビジネス サーバーおよび Outlook Web App には、Skype を統合します。
+**の概要:** ビジネス サーバーおよび Outlook Web App には、Skype を統合します。
   
-サーバー 2015 のビジネス展開では、オンプレミスの Skype を使用しているお客様は、ハイブリッド展開モードで、Microsoft Exchange Online での Microsoft Outlook Web App での相互運用性を構成できます。 相互運用性機能には、シングル サインオンが含まれるほか、Outlook Web App インターフェイスとのインスタント メッセージングおよびプレゼンスの統合が含まれます。 この統合を有効にするには、次のタスクを完了して、設置の Skype ビジネス サーバーの展開にエッジ サーバーを構成する必要があります。 
+ビジネス サーバー展開では、オンプレミスの Skype を使用しているお客様は、ハイブリッド展開モードで、Microsoft Exchange Online での Microsoft Outlook Web App での相互運用性を構成できます。 相互運用性機能には、シングル サインオンが含まれるほか、Outlook Web App インターフェイスとのインスタント メッセージングおよびプレゼンスの統合が含まれます。 この統合を有効にするには、次のタスクを完了して、設置の Skype ビジネス サーバーの展開にエッジ サーバーを構成する必要があります。 
   
 - 共有 SIP アドレス スペースを構成する
     
@@ -31,7 +32,7 @@ ms.lasthandoff: 03/28/2018
     
 ## <a name="configure-a-shared-sip-address-space"></a>共有 SIP アドレス スペースを構成する
 
-Exchange のオンラインでのビジネス サーバー 2015 の設置型の Skype を統合するために共有 SIP アドレス スペースを構成する必要があります。 同じ SIP ドメインのアドレス スペースは、Skype のビジネス サーバーと Exchange のオンライン サービスの両方でサポートされています。
+Exchange のオンラインでのビジネスのサーバーの設置型の Skype を統合するために共有 SIP アドレス スペースを構成する必要があります。 同じ SIP ドメインのアドレス スペースは、Skype のビジネス サーバーと Exchange のオンライン サービスの両方でサポートされています。
   
 ビジネス サーバー管理シェルには、Skype を使用して、次の例に表示されているパラメーターを使用して、**セット CSAccessEdgeConfiguration**コマンドレットを実行して、エッジ サーバーのフェデレーションを構成します。
   
@@ -41,7 +42,7 @@ Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
 - **AllowFederatedUsers**パラメーターは、内部ユーザーがフェデレーション ドメインのユーザーと通信できるかどうかを指定します。 このプロパティは、内部ユーザーが、ビジネスのサーバーと Exchange のオンライン共有 SIP アドレス スペースのシナリオで Skype でのユーザーと通信できるかどうかも決定します。
     
-ビジネス サーバー管理シェルには、Skype の使用に関する詳細については、 [Skype](../../manage/management-shell.md)ビジネス サーバー 2015 の管理シェルを参照してください。
+ビジネス サーバー管理シェルには、Skype の使用に関する詳細については、 [Skype](../../manage/management-shell.md)ビジネス サーバー管理シェルを参照してください。
   
 ## <a name="configure-a-hosting-provider-on-the-edge-server"></a>エッジ サーバーにホスティング プロバイダーを構成する
 
@@ -86,9 +87,6 @@ Get-CsHostingProvider -LocalStore
 
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[ビジネス サーバー 2015 の Skype を提供するユーザーのボイス メールでホストされている Exchange UM](http://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx)
+[Skype を提供するビジネスのサーバーのユーザーのボイス メールでホストされている Exchange UM](http://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx)
   
-[ホストされている Exchange ユニファイド メッセージング統合の Skype ビジネス サーバー 2015 の](http://technet.microsoft.com/library/f4de0165-da3b-499e-98fc-28ddd0db02d5.aspx)
-
+[ホストされている Exchange ユニファイド メッセージング統合の Skype ビジネス サーバーの](http://technet.microsoft.com/library/f4de0165-da3b-499e-98fc-28ddd0db02d5.aspx)

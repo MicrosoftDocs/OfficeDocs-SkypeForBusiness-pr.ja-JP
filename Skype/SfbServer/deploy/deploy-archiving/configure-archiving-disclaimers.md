@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 での外部ユーザー宛てのアーカイブについての免責事項の構成
+title: Skype のビジネス サーバーの外部のユーザーのアーカイブの免責事項を構成します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
-description: '概要: は、Skype のビジネス サーバー 2015 のアーカイブの免責事項を構成する方法の詳細については、このトピックを読みます。'
-ms.openlocfilehash: 3790160024010084c69df7d9865f17622fca4f0d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、Skype のビジネス サーバーのアーカイブの免責事項を構成する方法の詳細については、このトピックを読みます。'
+ms.openlocfilehash: cb49135f80c1711e7e71d16b448e51d308f7ebea
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978670"
 ---
-# <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での外部ユーザー宛てのアーカイブについての免責事項の構成
+# <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Skype のビジネス サーバーの外部のユーザーのアーカイブの免責事項を構成します。
  
-**の概要:**Skype のビジネス サーバー 2015 のアーカイブの免責事項を構成する方法の詳細については、このトピックを参照してください。
+**の概要:** Skype のビジネス サーバーのアーカイブの免責事項を構成する方法の詳細については、このトピックを参照してください。
   
 組織で外部パートナーとの通信を行う場合は、相手との通信をアーカイブしていることを相手に伝える必要があります。 エッジ サーバーの展開、組織のフェデレーションを有効にすると、自動的にアーカイブの免責事項を外部パートナーに送信するかどうかが求められます。 
   

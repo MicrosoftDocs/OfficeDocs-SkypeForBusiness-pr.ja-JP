@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
+ROBOTS: NOINDEX, NOFOLLOW
 description: ユーザーの暗証番号 (pin) を生成するために選択は自動的に、有効な暗証番号 (pin) を生成します。
-ms.openlocfilehash: 501a614460a84656f2374a9aef7b43ea849cf42f
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: e6b5e8158c65827b07c4198429649426f20b1324
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20043851"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004993"
 ---
 # <a name="set-pin"></a>PIN の設定
  

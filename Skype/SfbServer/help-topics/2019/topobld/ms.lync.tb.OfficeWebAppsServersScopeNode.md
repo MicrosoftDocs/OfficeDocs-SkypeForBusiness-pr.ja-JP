@@ -10,13 +10,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
-description: Office Web アプリケーション サーバーを右クリックし、Office オンラインのウィザードを開くに新しい Office Web アプリケーション サーバーを選択します。
-ms.openlocfilehash: fc26da457beae979cd539cc524ee489041b4ea44
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+description: '[Office Web Apps サーバー] をクリックし、[新しい Office Web Apps サーバー] を選択して Office Online ウィザードを開きます。'
+ms.openlocfilehash: 58876626e778945a91b6155b18d21f28b5cdb4a9
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19992063"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20984359"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps サーバーのスコープ ノード
  
@@ -30,4 +30,4 @@ ms.locfileid: "19992063"
     
 ## <a name="see-also"></a>関連項目
 
-[Office Web アプリケーション サーバーと、Lync Server 2013 の統合を構成します。](http://technet.microsoft.com/library/3370ab55-9949-4f32-b88b-5cffed6aaad8.aspx)
+[Office Web アプリケーション サーバーとの統合を構成します。](http://technet.microsoft.com/library/3370ab55-9949-4f32-b88b-5cffed6aaad8.aspx)

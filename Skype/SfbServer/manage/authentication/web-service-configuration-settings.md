@@ -1,33 +1,33 @@
 ---
-title: Skype for Business 2015 での Web サービス構成設定の管理
+title: Skype でビジネス サーバー用の Web サービス構成設定を管理します。
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
-description: '概要: ビジネス サーバー 2015 の Skype での Web サービス構成の設定を管理します。'
-ms.openlocfilehash: a0976728ecd09392408fb719861681e0465d7bed
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: ビジネス サーバーの Skype での Web サービス構成の設定を管理します。'
+ms.openlocfilehash: 7724ef576142c2eb6cebb287a88b7761a69028aa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995835"
 ---
-# <a name="manage-web-service-configuration-settings-in-skype-for-business-server-2015"></a>Skype for Business 2015 での Web サービス構成設定の管理
+# <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Skype でビジネス サーバー用の Web サービス構成設定を管理します。
  
-**の概要:**ビジネス サーバー 2015 の Skype での Web サービス構成の設定を管理します。
+**の概要:** ビジネス サーバーの Skype での Web サービス構成の設定を管理します。
   
-2015 関連の web サーバーと Web サービスの Skype へのアクセスの認証方法を構成するのには、 **Web サービス**のページを使用できます。
+Skype 関連ビジネスのサーバーへのアクセスの認証方法を構成するのには**Web サービス**のページを使用する web サーバー、および Web サービスです。
   
 以下の手順に従って新しい Web サービス ポリシーを作成します。
   
 ### <a name="to-create-new-web-service-configuration-settings"></a>新しい Web サービス構成設定を作成するには
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは2015。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは.
     
 2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。  
     
@@ -53,13 +53,13 @@ ms.lasthandoff: 03/28/2018
     
 ## <a name="modify-existing-web-service-configuration-settings"></a>既存の Web サービス構成設定を変更する
 
-2015 関連の web サーバーと Web サービスの Skype へのアクセスの認証方法を構成するのには、 **Web サービス**のページを使用できます。
+Skype 関連ビジネスのサーバーへのアクセスの認証方法を構成するのには**Web サービス**のページを使用する web サーバー、および Web サービスです。
   
 既存の Web サービス ポリシーを変更するには、次の手順を実行します。
   
 ### <a name="to-modify-existing-web-service-configuration-settings"></a>既存の Web サービス構成設定を変更するには
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは2015。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは.
     
 2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。  
     
@@ -85,7 +85,7 @@ Web サービス構成設定を削除するには、次の手順を実行しま�
   
 ### <a name="to-delete-web-service-configuration-settings"></a>Web サービス構成設定を削除するには
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは2015。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは.
     
 2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。  
     

@@ -1,25 +1,25 @@
 ---
-title: Skype for Business Server 2015 でのユーザー PIN のロックまたはロック解除
+title: ロックまたはビジネスのサーバーのユーザーの Skype では、暗証番号 (pin) のロックを解除
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
-description: '概要: ロックまたはビジネス サーバー 2015 の Skype のユーザーのダイヤルイン会議 PIN のロックを解除します。'
-ms.openlocfilehash: 5bd4a334f9c0b543d9b4cade8631f992a920dfb1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: ロックまたは、Skype のビジネス サーバーのユーザーのダイヤルイン会議 PIN のロックを解除します。'
+ms.openlocfilehash: 89e971ac8c935c7998c206ce365c8899e0617cc4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986324"
 ---
-# <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのユーザー PIN のロックまたはロック解除
+# <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>ロックまたはビジネスのサーバーのユーザーの Skype では、暗証番号 (pin) のロックを解除
  
-**の概要:**ロックまたはビジネス サーバー 2015 の Skype のユーザーのダイヤルイン会議 PIN のロックを解除します。
+**の概要:** ロックまたは、Skype のビジネス サーバーのユーザーのダイヤルイン会議 PIN のロックを解除します。
   
 ビジネス サーバーのコントロール パネルの Skype の**ユーザー** ] セクションから、ユーザーの PIN をロック解除またはロックできます。
   

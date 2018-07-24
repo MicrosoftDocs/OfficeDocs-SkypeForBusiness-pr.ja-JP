@@ -3,23 +3,22 @@ title: Skype for Business Server に PIN 非使用の会議参加を構成する
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
-description: '概要: レス暗証番号 (pin) を構成する方法についてはビジネス サーバー 2015 の Skype に参加するオプションに対応します。'
-ms.openlocfilehash: 375c008cd8cec072e9d2b71de1765756e4c0f881
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: '概要: レス暗証番号 (pin) を構成する方法を説明する会議のビジネス サーバーの Skype に参加するオプションです。'
+ms.openlocfilehash: 843ea92a331391faa47e4cbc32191312c6dfbc6b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569342"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985964"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Skype for Business Server に PIN 非使用の会議参加を構成する
  
-**の概要:** レス暗証番号 (pin) を構成する方法については会議のビジネス サーバー 2015 の Skype に参加するオプションです。
+**の概要:** レス暗証番号 (pin) を構成する方法については会議のビジネス サーバーの Skype に参加するオプション。
   
 ダイヤルインの呼び出し元が会議に参加しようとすると、会議自動応答 (CAA) サービス、呼び出し側ロビー & #x 2014; とは異なる保持のペンで発表者がいない場合は、呼び出しとダイヤルインの呼び出し元の引出線の暗証番号 (pin) に入っていません。 PIN 非使用の会議参加オプションでは、ダイヤル イン発信者が最初の通話ユーザーであっても主催者 PIN を入力することなく会議に参加できます。 
   

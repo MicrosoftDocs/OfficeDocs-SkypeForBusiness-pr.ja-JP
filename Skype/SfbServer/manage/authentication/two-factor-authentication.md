@@ -1,31 +1,31 @@
 ---
-title: Skype for Business Server 2015 で 2 要素認証を管理する
+title: Skype のビジネス サーバーの 2 要素による認証を管理します。
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
-description: '概要: ビジネス サーバー 2015 の Skype での二要素認証を管理します。'
-ms.openlocfilehash: 5933afc311514e841d7fb96f41988d8f495d0bee
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、Skype のビジネス サーバーの 2 要素による認証を管理します。'
+ms.openlocfilehash: f6ea9eb228a0c36df3c1ab9318f766a68a370cad
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002858"
 ---
-# <a name="manage-two-factor-authentication-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 で 2 要素認証を管理する
+# <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Skype のビジネス サーバーの 2 要素による認証を管理します。
  
-**の概要:**ビジネス サーバー 2015 の Skype での二要素認証を管理します。
+**の概要:** Skype のビジネス サーバーの 2 要素による認証を管理します。
   
 2 要素認証では、ユーザーが 2 つの形式の認証情報または識別情報、つまりユーザー名/パスワードの組み合わせと、トークンまたは証明書を提示する必要があるため、セキュリティが強化されます。 これとも呼ばれるものがある場合、知っていること。 
   
 証明書を使用した 2 要素認証の一般的な例として、スマート カードの使用があります。スマート カードにはユーザー アカウントに関連付けられている証明書が格納されていて、サーバーに格納されているユーザー情報と証明書情報に対する検証を行うことができます。ユーザー情報 (ユーザー名とパスワード) と提供された証明書を比較することで、サーバーでは資格情報を検証し、ユーザーを認証します。
   
-サーバー 2015 のビジネス環境の 2 要素認証をサポートするための Skype を設定するときは、次の項目を検討してください。
+2 要素認証をサポートするには、ビジネスのサーバー環境に Skype を設定するときは、次の項目を検討してください。
   
 ## <a name="client-support"></a>クライアント サポート
 
@@ -33,7 +33,7 @@ Lync Server 2013 の累積的な更新: 2013年 7 月デスクトップ クラ�
   
 ## <a name="topology-requirements"></a>トポロジ要件
 
-お客様は、ビジネス サーバー 2015 のエッジ、ディレクター、およびユーザーのプールと専用の Skype を使用する 2 要素認証を導入するよう強くお勧めします。 ユーザーに対してパッシブ認証を有効にするには、次に示すように、他の役割およびサービスに対してその他の認証方法を無効にする必要があります。
+お客様は、ビジネスのサーバーのエッジ、ディレクター、およびユーザーのプールと専用の Skype を使用して 2 段階認証を導入するよう強くお勧めします。 ユーザーに対してパッシブ認証を有効にするには、次に示すように、他の役割およびサービスに対してその他の認証方法を無効にする必要があります。
   
 |**構成の種類**|**サービスの種類**|**サーバーの役割**|**無効にする認証の種類**|
 |:-----|:-----|:-----|:-----|
@@ -56,7 +56,7 @@ Microsoft Exchange 向けの二要素認証を導入しているお客様は、�
 
 連絡先が不要になった使用可能な二要素認証を使用してサインインした後に、統合連絡先ストアの機能を活用するように構成されているビジネス ユーザーの Skype が見つかります。
   
-統合連絡先ストアから既存のユーザーの連絡先を削除し、保存 Skype のビジネス サーバー 2015 の二要素認証を有効にする前に、**呼び出し CsUcsRollback**コマンドレットを使用する必要があります。
+統合連絡先ストアから既存のユーザーの連絡先を削除し、保存 Skype のビジネス サーバーの 2 要素認証を有効にする前に、**呼び出し CsUcsRollback**コマンドレットを使用する必要があります。
   
 ## <a name="skill-search"></a>スキル検索
 
@@ -72,7 +72,7 @@ Microsoft Exchange 向けの二要素認証を導入しているお客様は、�
   
 ### <a name="disablentcredentials"></a>DisableNTCredentials
 
-Kerberos または NTLM の認証方法とユーザーの Windows 資格情報を自動的に認証に使用します。 サーバー 2015 のビジネス展開を Kerberos または NTLM 認証が有効の典型的な Skype、ユーザー必要はありませんにサインインするたびに資格情報を入力します。
+Kerberos または NTLM の認証方法とユーザーの Windows 資格情報を自動的に認証に使用します。 ビジネス サーバー配置では、Kerberos または NTLM 認証が有効の典型的な Skype、ユーザー必要はありませんにサインインするたびに資格情報を入力します。
   
 PIN の入力を求めるメッセージが表示される前に、意図せず資格情報の入力を求められた場合は、クライアント コンピューターで **DisableNTCredentials** レジストリ キーが誤って (おそらくグループ ポリシーを使用して) 構成されている可能性があります。
   
@@ -108,9 +108,5 @@ Skype を外部ネットワークからビジネスの 2 要素認証をサポ�
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[ビジネス サーバー 2015 の Skype の二要素認証を構成します。](configure.md)
+[Skype のビジネス サーバーの 2 要素認証を構成します。](configure.md)
   
-[ビジネス サーバー 2015 の Skype の二要素認証を構成します。](configure.md)
-

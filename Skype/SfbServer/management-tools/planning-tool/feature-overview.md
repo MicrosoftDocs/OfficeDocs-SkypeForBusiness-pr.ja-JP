@@ -13,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Skype for Business Server 2015 計画ツール
-ms.openlocfilehash: 8d35b9babe99b4899cda51804f40dd6e3302feeb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ebc528c2c73a9bcb15141cf238ae9edb4b2055df
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987671"
 ---
 # <a name="feature-overview-planning-tool"></a>機能概要 (計画ツール)
  
@@ -33,6 +34,9 @@ Skype for Business Server 2015 計画ツール
     
 - **クラウドに所属しているユーザー**オンライン ビジネスのセントラル サイトに Skype からのホームとしているユーザーの数を入力します。
     
+> [!NOTE]
+> このツールは、ビジネス サーバー 2019 の Skype は更新されません。
+
 ## <a name="ui-elements"></a>UI 要素
 
 残りの要素は、作業の [**開始**] ウィザードに表示された質問への回答に従って設定されているか、ウィザードをスキップした場合は計画ツールによって自動的に設定されています。
@@ -76,6 +80,9 @@ Skype for Business Server 2015 計画ツール
 - **XMPP ベースのサービス プロバイダーとのフェデレーション**
     
     ビジネス サーバー 2015 の Skype では、(エッジ トランスポート サーバー上に展開される) 完全に統合された XMPP プロキシと、フロント エンド サーバー上に展開、XMPP ゲートウェイを紹介します。 XMPP プロキシの構成の追加と展開することができ、XMPP ゲートウェイは XMPP ベースのパートナーに対して、インスタント メッセージング (IM) とプレゼンスから連絡先を追加するのにはサーバー 2015 のビジネス ユーザーは、Skype では、します。
+
+> [!NOTE]
+> XMPP ゲートウェイとプロキシ サーバー 2015 のビジネス用の Skype では利用ビジネス サーバー 2019 の Skype でサポートされていません。 詳細については、[移行する XMPP フェデレーション](../../../SfBServer2019/migration/migrating-xmpp-federation.md)を参照してください。
     
 - **モビリティ**
     

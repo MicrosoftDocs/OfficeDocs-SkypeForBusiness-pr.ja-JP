@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
-description: テスト デバイス機能はデバイス更新機能と連携して動作します。 デバイスのテスト] ページにテスト デバイスを追加し、このデバイスを使用して本番デバイスに更新プログラムを展開する前に新しい更新プログラムの機能を検証できます。 デバイスをグローバルに (環境全体を使用して) テストしたり、単独のサイト内でテストしたりできます。 テスト デバイスは、そのメディア アクセス制御 (MAC) アドレスまたはシリアル番号で識別します。 デバイスを追加するとき、一覧に表示されます、[テスト デバイス] ページで、Skype のビジネス サーバーのコントロール パネルの。
-ms.openlocfilehash: 3f3c896f0ec6c373a4edfc3049a9838b815bb448
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: テスト デバイス機能はデバイス更新機能と連携して動作します。 [テスト デバイス] ページにテスト デバイスを追加すると、新しい更新プログラムをプロダクション デバイスに展開する前に、このデバイスを使用して更新プログラムの機能を検証できます。 デバイスをグローバルに (環境全体を使用して) テストしたり、単独のサイト内でテストしたりできます。 テスト デバイスは、そのメディア アクセス制御 (MAC) アドレスまたはシリアル番号で識別します。 デバイスを追加するとき、一覧に表示されます、[テスト デバイス] ページで、Skype のビジネス サーバーのコントロール パネルの。
+ms.openlocfilehash: 7f622fc52fe9da95bff18bb3d93080d298a82890
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974258"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018993"
 ---
 # <a name="test-device-create-new-or-edit-existing"></a>テスト デバイス: 新規作成または現在の形式のままで編集
  

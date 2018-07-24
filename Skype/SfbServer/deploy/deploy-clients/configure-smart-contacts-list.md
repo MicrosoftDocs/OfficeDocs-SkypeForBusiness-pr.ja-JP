@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server でのスマート連絡先リストの構成
+title: ビジネス クライアント用の Skype でスマート アドレス帳を構成します。
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 10/20/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
 description: '概要: ビジネス クライアント用の Skype でスマートの連絡先リストの機能を有効にする方法を説明します。'
-ms.openlocfilehash: f5b5b8f7baa0ce848765a0f2b62aabb118ecb224
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 72e8a2e5eb0640215ac4512ff210d30f31295fd8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20976213"
 ---
-# <a name="configure-smart-contacts-list-in-skype-for-business-server"></a>Skype for Business Server でのスマート連絡先リストの構成
+# <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>ビジネス クライアント用の Skype でスマート アドレス帳を構成します。
  
-**の概要:**ビジネス クライアント用の Skype でスマートの連絡先リストの機能を有効にする方法を説明します。
+**の概要:** ビジネス クライアント用の Skype でスマートの連絡先リストの機能を有効にする方法を説明します。
   
 スマート連絡先リスト機能を使用すると、エンド ユーザーの連絡先リストを自動的に設定できます。 最初に、ユーザーは、ビジネスの Skype を使用すると、自動的に参照してくださいそのマネージャーと他の人の中で。 Office 365 ユーザーは、既定でこの機能が有効になっているが、クライアントのポリシー設定を構成することにより、オンプレミス ユーザーのこの機能を有効する必要があります明示的にします。
   
@@ -78,13 +78,11 @@ Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
   
 - 構成を検証します。 
     
-- AD の組織に関する情報が表示されていることを確認します。
+- AD 組織情報が設定されていることを確認します。
     
 - ビジネス クライアントのログの詳細な分析の新しいユーザーの Skype を収集します。
     
 - ビジネス クライアント UI の Skype では、アドレス帳に接続できないというメッセージが表示されないことを確認します。 接続のアドレス帳を削除するには、ビジネスのクライアントの検索バーの Skype のユーザーの検索を実行します。
-    
-- アドレス帳との接続に問題がある場合は、STrace を使用して HTTPS トレースと HTTPReplay を収集し、収集したトレースを分析します。 詳細については、[関連するブログの投稿](https://blogs.msdn.microsoft.com/canberrapfe/2012/06/04/have-you-ever-wondered-what-web-service-urls-are-used-by-the-lync-client-strace-is-your-tool/)を参照してください。
     
 - AD DS レプリケーションの問題には、連絡先とユーザー最初にサインインしているビジネスの Skype が解決されていない可能性があります。
     

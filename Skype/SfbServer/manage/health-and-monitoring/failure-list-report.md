@@ -1,31 +1,30 @@
 ---
-title: Skype for Business Server 2015 のエラー リスト レポート
+title: Skype の一覧のレポートをビジネスのサーバーの障害
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-description: '概要: は、ビジネス サーバー 2015 の Skype のエラーの一覧のレポートについて説明します。'
-ms.openlocfilehash: 7cb146569958908e79700e725d473bc246295c9d
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: '概要: は、ビジネスのサーバーの Skype でエラーの一覧のレポートについて説明します。'
+ms.openlocfilehash: 3d40d7d73b6a4cb63e3885736a9a32f8b64ed989
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569321"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992634"
 ---
-# <a name="failure-list-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 のエラー リスト レポート
+# <a name="failure-list-report-in-skype-for-business-server"></a>Skype の一覧のレポートをビジネスのサーバーの障害 
  
-**の概要:** ビジネス サーバー 2015 の Skype のエラーの一覧のレポートについて説明します。
+**の概要:** ビジネス サーバーの Skype のエラーの一覧のレポートについて説明します。
   
 エラー リスト レポートは、エラーが発生したピアツーピア セッションまたは電話会議セッションに参加した個々の参加者に関する情報を提供します。この情報には、問題が発生したユーザーの URI、エラーに関連付けられている SIP 応答コードおよび診断 ID が含まれています。
   
 ## <a name="accessing-the-failure-list-report"></a>エラー リスト レポートへのアクセス
 
-エラーの一覧のレポートは、[ビジネス サーバー 2015 の Skype でのエラー分布レポート](failure-distribution-report.md)に次の測定値のいずれかをクリックしてアクセスされます。
+エラーの一覧のレポートは、[ビジネス サーバーの Skype でのエラー分布レポート](failure-distribution-report.md)に次の測定値のいずれかをクリックしてアクセスされます。
   
 - トップの診断理由 (セッション)
     
@@ -43,7 +42,7 @@ ms.locfileid: "19569321"
     
 - トップの発信元ユーザー エージェント (セッション)
     
-エラーの一覧のレポートからは、ピア ツー ピア セッションのセッションの詳細メトリックをクリックすると、[ビジネス サーバー 2015 の Skype でのピア ツー ピア セッション詳細レポート](peer-to-peer-session-detail-report.md)を表示できます。 また、電話会議の [電話会議] の指標をクリックすると、会議詳細レポートにもアクセスできます。
+エラーの一覧のレポートからは、ピア ツー ピア セッションのセッションの詳細メトリックをクリックすると、 [Business Server の Skype でのピア ツー ピア セッション詳細レポート](peer-to-peer-session-detail-report.md)を表示できます。 また、電話会議の [電話会議] の指標をクリックすると、会議詳細レポートにもアクセスできます。
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>エラー リスト レポートの活用
 
@@ -97,9 +96,9 @@ Count    Name
 
 次の表に、失敗した呼び出しごとにエラー リスト レポートで提供される情報を示します。
   
-**エラー] ボックスの一覧のレポートの判断基準**
+**エラー リスト レポートの指標**
 
-|**名**|**この項目を並べ替えることができますか。**|**説明**|
+|**名前**|**この項目での並べ替え**|**説明**|
 |:-----|:-----|:-----|
 |**レポートされた時刻** <br/> |不可  <br/> |レポートが記録された日時。  <br/> |
 |**要求** <br/> |不可  <br/> |失敗した SIP 要求の種類 (INVITE、BYE など)。  <br/> |

@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 のバックエンド サーバーの高可用性
+title: Skype の最後のサーバーの高可用性をビジネスのサーバーのバックアップします。
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 3/20/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -11,13 +10,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: ビジネス サーバーには、AlwaysOn 可用性グループ、AlwaysOn フェールオーバー クラスター インスタンス、データベース ミラーリング、SQL のフェールオーバー クラスタ リングなど、Skype でサポートされているバック エンド サーバーの高可用性オプションについて説明します。
-ms.openlocfilehash: f0831ffb757d04e954ece8a1874dffad9e6e74d0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 57cc09765ab8f753e60a5f76f5d93b385c7fd406
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983185"
 ---
-# <a name="back-end-server-high-availability-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 のバックエンド サーバーの高可用性
+# <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Skype の最後のサーバーの高可用性をビジネスのサーバーのバックアップします。
  
 ビジネス サーバーには、AlwaysOn 可用性グループ、AlwaysOn フェールオーバー クラスター インスタンス、データベース ミラーリング、SQL のフェールオーバー クラスタ リングなど、Skype でサポートされているバック エンド サーバーの高可用性オプションについて説明します。
   
@@ -75,6 +75,9 @@ SQL ミラーリングでは、データベース復旧モードは常に [**完
   
 > [!IMPORTANT]
 > 設定し、SQL を削除するのにはトポロジ ビルダーまたはコマンドレットを使用してミラーリングがサポートされているプライマリ、ミラー、および (必要な場合)、ミラーリング監視サーバーが同じドメインに属している場合にのみです。 異なるドメインのサーバーに SQL ミラーリングを設定する場合は、SQL Server のドキュメントを参照してください。 
+
+> [!NOTE]
+> SQL ミラーリング ビジネス サーバー 2015 の Skype で利用できるが、ビジネス サーバー 2019 の Skype でサポートされていません。 AlwaysOn 可用性グループ、AlwaysOn フェールオーバー クラスター インスタンス (FCI)、および SQL フェールオーバー クラスタ リング手法は、ビジネス サーバー 2019 の Skype で優先します。
   
 ### <a name="recovery-time-for-automatic-back-end-server-failover-with-database-mirroring"></a>データベース ミラーリングを使用したバックエンド サーバーの自動フェールオーバーの復旧時間
 
@@ -99,7 +102,7 @@ AlwaysOn 可用性グループまたは AlwaysOn フェールオーバー クラ
 > [!IMPORTANT]
 > AlwaysOn 可用性グループの複数のインスタンスのインスタンス名は同じである必要があります。 
   
-AlwaysOn 可用性グループを展開するための手順は、[ビジネス サーバー 2015 の Skype のバック エンド サーバー上の AlwaysOn 可用性グループの配置](../../deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md)を参照してください。
+AlwaysOn 可用性グループを展開する手順を実行するには、 [Skype のビジネス サーバーのバック エンド サーバー上の AlwaysOn 可用性グループの配置](../../deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md)を参照してください。
   
 ## <a name="sql-server-failover-clustering"></a>SQL Server フェールオーバー クラスタリング
 

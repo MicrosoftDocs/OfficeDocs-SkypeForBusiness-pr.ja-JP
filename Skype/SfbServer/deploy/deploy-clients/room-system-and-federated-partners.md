@@ -3,18 +3,18 @@ title: Skype Room System および Skype for Business のフェデレーショ�
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1cc20323-ecba-4e87-a861-e54193e64cf0
 description: このトピックでは、Skype for Business フェデレーション パートナー用に Skype Room System をセットアップする方法について説明します。
-ms.openlocfilehash: 040af495217217b3bfd10fb577b7194df354e027
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8099b5af72d4ce8e5a8be25c7fabc8563387dd46
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997952"
 ---
 # <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Skype Room System および Skype for Business のフェデレーション パートナー
  

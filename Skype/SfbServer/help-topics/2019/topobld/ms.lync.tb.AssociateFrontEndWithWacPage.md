@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 description: Office Web Apps サーバーでは、会議で使用するドキュメントをアップロードする発表者のようなサービスが提供されますが、以前のバージョンにはなかった追加機能が可能になりました。
-ms.openlocfilehash: ea7df7254dc17b3db0107df9d92ba69d8c51b128
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: af10702b84021caa5d2e9a7c874e3dcaad2f54ff
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19970662"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985810"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>フロントエンドと Office Web Apps サーバーとの関連付けページ
  
 Office Web Apps サーバーでは、会議で使用するドキュメントをアップロードする発表者のようなサービスが提供されますが、以前のバージョンにはなかった追加機能が可能になりました。
   
-ビジネス サーバー 2015 の構成は、Skype の機能オプションの 1 つとして会議を選択した場合を展開するため、Office Web アプリケーション サーバーを選択します。
+ビジネス サーバーの構成に、Skype の機能オプションの 1 つとして会議を選択した場合を展開するため、Office Web アプリケーション サーバーを選択します。
   
 このダイアログのオプションでは、次の選択肢が表示されます。
   

@@ -10,11 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
 description: ビジネス サーバー 2015 のストレスおよびパフォーマンス ツールの Skype は、キャパシティ ・ プランニングとパフォーマンス チューニングの非運用環境またはテスト環境で実行中に使用されます。
-ms.openlocfilehash: 0a0a5b17a6e45b2e8944e0e0dd4b3840fc62e102
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 9ccd4b851ad64f829a15bd6138764995f789dbf6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20984464"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype ビジネス 2015 のサーバの負荷およびパフォーマンス ツール
  
@@ -29,6 +30,9 @@ ms.lasthandoff: 03/28/2018
 - ビジネス サーバー展開では、Skype のパフォーマンスを測定します。
     
 トポロジ、および[ビジネス サーバー 2015 容量計画電卓の Skype](../../management-tools/capacity-planning-calculator.md)でトポロジを調整を設計する[ビジネス サーバー 2015 計画ツールの Skype](../../management-tools/planning-tool/planning-tool.md)を使用した後に、このツールを使用するが通常です。 
+
+> [!NOTE]
+> このツールは、ビジネス サーバー 2019 の Skype は更新されません。
   
 ## <a name="tests"></a>テスト
 
@@ -60,7 +64,7 @@ ms.lasthandoff: 03/28/2018
 
 詳細を知りたい場合は、以下の資料を確認してください。
   
-- [前提条件と、Skype のビジネス用のストレスおよびパフォーマンス ツールのセットアップ](prerequisites-and-setup.md)
+- [Skype for Busines Stress and Performance Tool の前提条件と設定](prerequisites-and-setup.md)
     
 - [ビジネス 2015 のサーバの負荷とパフォーマンス ツールの Skype のパフォーマンスのシナリオ](scenarios.md)
     

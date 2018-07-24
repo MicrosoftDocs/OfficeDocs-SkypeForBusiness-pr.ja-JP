@@ -3,21 +3,20 @@ title: Skype for Business Server 2015 でバックエンド サーバーの高�
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: SQL ミラーリングを展開できるようにするには、サーバーで最小限の SQL Server 2008 R2 を実行する必要があります。 このバージョンは、すべての関連サーバー (プライマリ、ミラー、およびミラーリング監視の各サーバー) で実行する必要があります。 詳細については、更新プログラム パッケージ 9 を SQL Server 2008 Service Pack 1 の累積を参照してください。
-ms.openlocfilehash: 9edbda5d793fed48d31625c3e0d53ab2f9e6d349
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: a0baf639b050d323a29eb347c14b38505f059ef2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569139"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016207"
 ---
-# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でバックエンド サーバーの高可用性を実現するための SQL ミラーリングの展開
+# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype のバック エンド サーバーの高可用性の SQL のミラーリングを導入します。
  
 
 SQL ミラーリングを展開できるようにするには、サーバーで最小限の SQL Server 2008 R2 を実行する必要があります。 このバージョンは、すべての関連サーバー (プライマリ、ミラー、およびミラーリング監視の各サーバー) で実行する必要があります。 詳細については、[更新プログラム パッケージ 9 SQL Server 2008 Service Pack 1 の累積](http://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921)を参照してください。
@@ -121,11 +120,11 @@ SQL ミラーリングの設定時には次の点に留意する必要があり�
     
   - [データベース ミラーリング エンドポイント (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=247347)
     
-## <a name="using-skype-for-business-server-management-shell-cmdlets-to-set-up-sql-mirroring"></a>Skype ビジネス サーバー管理シェルのコマンドレットを使用して SQL のミラーリングを設定するには
+## <a name="using-skype-for-business-server-2015-management-shell-cmdlets-to-set-up-sql-mirroring"></a>ビジネス サーバー 2015 管理シェル コマンドレット セットの Skype を使用して SQL ミラーのセットアップ
 
 ミラーリングを設定する最も簡単な方法は、トポロジ ビルダーを使用してですが、コマンドレットを使用しても行うことができます。
   
-1. Skype ビジネス サーバー管理シェル ウィンドウを開くし、次のコマンドレットを実行します。
+1. Skype ビジネス サーバー 2015 の管理シェル ウィンドウを開くし、次のコマンドレットを実行します。
     
    ```
    Install-CsMirrorDatabase [-ConfiguredDatabases] [-ForInstance] [-ForDefaultInstance] [-DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance >] -FileShare <fileshare> -SqlServerFqdn <primarySqlserverFqdn> [-SqlInstanceName] [-DatabasePathMap] [-ExcludeDatabaseList] [-DropExistingDatabasesOnMirror] -Verbose 

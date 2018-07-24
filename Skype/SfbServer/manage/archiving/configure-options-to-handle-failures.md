@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 での障害対処のアーカイブ オプションの構成
+title: ビジネス サーバーの Skype での障害を処理するためにアーカイブのオプションを構成します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
-description: '概要: アーカイブを妨げる障害をビジネス サーバー 2015 の IM と会議のセッションの場合は、Skype をブロックする方法を説明します。'
-ms.openlocfilehash: 4ad6b8eb496555751aab31949aa3e710749e0262
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: アーカイブを妨げるビジネス サーバー障害の IM と会議のセッションの場合は、Skype をブロックする方法を説明します。'
+ms.openlocfilehash: 952ee82ca3be045fc0407a6ce2f61fdaead12030
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998715"
 ---
-# <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での障害対処のアーカイブ オプションの構成
+# <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>ビジネス サーバーの Skype での障害を処理するためにアーカイブのオプションを構成します。
 
-**の概要:**アーカイブを妨げる障害をビジネス サーバー 2015 の IM と会議のセッションの場合は、Skype をブロックする方法を説明します。
+**の概要:** アーカイブを妨げるビジネス サーバー障害の IM と会議のセッションの場合は、Skype をブロックする方法を説明します。
   
 アーカイブは、組織の必要な場合、Skype のアーカイブを妨げるビジネス サーバー障害の発生時に IM および会議セッションをブロックできます。 この動作は重要モードと呼ばれることがあります。 たとえば、ストレージ サービスに問題が発生した場合、通信のアーカイブが有効になっているユーザーを対象に IM がブロックされます。 障害が解消されれば、IM も会議も自動的に復旧されます。 
   

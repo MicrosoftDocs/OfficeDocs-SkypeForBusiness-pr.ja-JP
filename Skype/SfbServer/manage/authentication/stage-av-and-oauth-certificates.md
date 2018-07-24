@@ -1,34 +1,34 @@
 ---
-title: Skype for Business Server 2015 での Set-CsCertificate で -Roll を使用した音声ビデオおよび OAuth 証明書のステージング
+title: Skype で AV と OAuth の証明書をビジネス サーバーのステージ ・ セット CsCertificate でロールを使用します。
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
-description: '概要: ステージの AV と OAuth の証明書サーバー 2015 のビジネス用の Skype のです。'
-ms.openlocfilehash: 7c5abf07c5b30e4e015936fcf0987e989f1d8117
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: '概要: ステージの AV と OAuth の証明書ビジネス サーバーの Skype のです。'
+ms.openlocfilehash: 3f616d7e67cf256cbf2a53ea86b3f051d959d4f5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996424"
 ---
-# <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-2015-using--roll-in-set-cscertificate"></a>Skype for Business Server 2015 での Set-CsCertificate で -Roll を使用した音声ビデオおよび OAuth 証明書のステージング
+# <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>Skype で AV と OAuth の証明書をビジネス サーバーのステージ ・ セット CsCertificate でロールを使用します。
  
-**の概要:** ステージ AV と OAuth の証明書サーバー 2015 のビジネス用の Skype のです。
+**の概要:** ステージ AV と OAuth の証明書ビジネス サーバーの Skype のです。
   
-オーディオ/ビデオ (A/V) の通信は、ビジネス サーバー 2015 の Skype の重要なコンポーネントです。 A に割り当てられている証明書に基づいて、アプリケーションの共有、オーディオおよびビデオ会議などの機能と音声ビデオ エッジ サービス、具体的には、A/V 認証サービスです。
+オーディオ/ビデオ (A/V) の通信は、Skype のビジネス サーバーの重要なコンポーネントです。 A に割り当てられている証明書に基づいて、アプリケーションの共有、オーディオおよびビデオ会議などの機能と音声ビデオ エッジ サービス、具体的には、A/V 認証サービスです。
   
 > [!IMPORTANT]
 > この新しい機能が用意されています a/V エッジ サービスおよび OAuthTokenIssuer 証明書。 A とその他の種類の証明書を準備することができます証明書の種類ですが、共存の問題からもメリットはありません音声ビデオ エッジ サービスと OAuth とを A と、音声ビデオ エッジ サービスの証明書は。
   
-Skype をビジネス サーバー 2015 の証明書を管理するために使用されるビジネス サーバー管理シェルの PowerShell コマンドレットの Skype は、A/V エッジ AudioVideoAuthentication 証明書の種類として証明書と、OAuthServer 証明書としてのサービスtypeOAuthTokenIssuer。 証明書を一意に識別するのには、このトピックの以降は、それらを参照、同じ識別子の種類、AudioVideoAuthentication andOAuthTokenIssuer で。
+Skype をビジネスのサーバー証明書の管理に使用されるビジネス サーバー管理シェルの PowerShell コマンドレットの Skype は、A/V エッジ AudioVideoAuthentication 証明書の種類として証明書と、OAuthServer 証明書としてのサービスtypeOAuthTokenIssuer。 証明書を一意に識別するのには、このトピックの以降は、それらを参照、同じ識別子の種類、AudioVideoAuthentication andOAuthTokenIssuer で。
   
-A/V 認証サービスは、クライアントおよびその他の A で使用されるトークンの発行を担当すると V の消費者です。 トークンが、証明書の属性から生成され、証明書が期限切れになったときの接続と新しい証明書によって生成された新しいトークンを使用して再度参加する必要性が失われます。 ビジネス サーバー 2015 の Skype の新機能では、この問題では、古いものを期限切れにし、引き続き一定期間の両方の証明書を許可する前に新しい証明書を段階的に機能を緩和します。 この機能は、ビジネスのサーバー管理シェル コマンドレットのセット CsCertificate Skype で更新された機能を使用します。 新しいパラメーターにロールバックするには、既存のパラメーターを使用して - EffectiveDate は、証明書ストアに新しい AudioVideoAuthentication 証明書が配置されます。 古い AudioVideoAuthentication 証明書に対して検証するのには発行されたトークンの残ります。 AudioVideoAuthentication 証明書の新規の場所に配置することから、次の一連のイベントが発生します。
+A/V 認証サービスは、クライアントおよびその他の A で使用されるトークンの発行を担当すると V の消費者です。 トークンが、証明書の属性から生成され、証明書が期限切れになったときの接続と新しい証明書によって生成された新しいトークンを使用して再度参加する必要性が失われます。 Skype ビジネス サーバー用の新機能でこの問題が古いものを期限切れにし、引き続き一定期間の両方の証明書を許可する前に新しい証明書を準備することが軽減されます。 この機能は、ビジネスのサーバー管理シェル コマンドレットのセット CsCertificate Skype で更新された機能を使用します。 新しいパラメーターにロールバックするには、既存のパラメーターを使用して - EffectiveDate は、証明書ストアに新しい AudioVideoAuthentication 証明書が配置されます。 古い AudioVideoAuthentication 証明書に対して検証するのには発行されたトークンの残ります。 AudioVideoAuthentication 証明書の新規の場所に配置することから、次の一連のイベントが発生します。
   
 > [!TIP]
 > Skype を使用して、証明書を管理するためのビジネス サーバー管理シェル コマンドレットは、エッジ サーバー上でそれぞれの目的とは別の証明書を要求できます。 Skype のビジネス サーバーの展開ウィザードの証明書ウィザードを使用して、証明書の作成に役立つが、通常どのカップル単一の証明書をエッジ サーバーのすべての証明書を使用して、**既定**の種類の。 ローリング証明書機能を使用する場合は、AudioVideoAuthentication 証明書を他の証明書の用途から切り離すことをお勧めします。 既定の種類の証明書をプロビジョニングおよびステージングすることもできますが、結合された証明書の AudioVideoAuthentication 部分のみがステージングによる恩恵を受けます。 (たとえば) に関連するインスタント メッセージの会話、証明書の有効期限が切れたときにする必要があるして再度ログインするには、アクセス エッジ サービスに関連付けられている新しい証明書を使用します。 ユーザーが Web 会議エッジ サービスを使用して Web 会議に関連する同様の現象が発生します。 OAuthTokenIssuer 証明書は、すべてのサーバーの間で共有される特定の種類の証明書です。 証明書が格納されているとを作成し、1 つの場所に証明書を管理する中央管理ストア内の他のすべてのサーバーです。
@@ -81,7 +81,7 @@ OAuthTokenIssuer 証明書をステージングするときは、証明書が有
   
 ![Roll および EffectiveDate パラメーターの使用](../../media/Ops_Certificate_Set_Roll_EffectiveTime_Timeline.jpg)
   
-|**引き出し**|**ステージ**|
+|**コールアウト**|**ステージ**|
 |:-----|:-----|
 |1  <br/> |開始: 2015 年 7 月 22 日午前 12:00:00  <br/> 現在の AudioVideoAuthentication 証明書の有効期限が 2015 年 7 月 22 日の午後 2:00:00 に終了します。これは証明書の有効期限タイムスタンプにより決定されます。既存の証明書が有効期限に達する前の 8 時間のオーバーラップ (既定のトークン寿命) を考慮して、証明書の交換とロールオーバーを計画します。この例では、午前 2:00:00 のリード タイムを使用して、管理者が有効時刻の午前 6:00:00 の前に新しい証明書を配置およびプロビジョニングするための適切な時間を確保しています。  <br/> |
 |2  <br/> |2015 年 7 月 22 日午前 2:00:00 ～ 2015 年 7 月 22 日午前 5:59:59  <br/> 6時 00分: 00 (4 時間以内リード タイムは、この例が、長くすることができます) の有効期間と、エッジ トランスポート サーバーの証明書を設定セット CsCertificate を使用する-タイプ\<証明書の使用法の種類\>・拇印\<新しい証明書の拇印\>-ロール ・ EffectiveDate\<新しい証明書の有効期間の日付時刻文字列\>  <br/> |
@@ -130,11 +130,8 @@ Remove-CsCertificate -Type OAuthTokenIssuer -Previous
 
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[サーバーからサーバーへの認証 (OAuth) とビジネス サーバー 2015 の Skype のパートナーのアプリケーションを管理します。](server-to-server-and-partner-applications.md)
+[サーバーからサーバーへの認証 (OAuth) とパートナーのアプリケーションで Skype ビジネス サーバーを管理します。](server-to-server-and-partner-applications.md)
 
 [セット CsCertificate](https://docs.microsoft.com/powershell/module/skype/set-cscertificate?view=skype-ps)
   
 [削除 CsCertificate](https://docs.microsoft.com/powershell/module/skype/remove-cscertificate?view=skype-ps)
-

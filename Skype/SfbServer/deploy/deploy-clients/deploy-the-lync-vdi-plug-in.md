@@ -1,23 +1,22 @@
 ---
-title: Skype for Business Server 2015 での Lync VDI プラグインの展開
+title: ビジネス サーバーの Skype では、プラグインの Lync VDI の導入します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: このトピックでは、Skype を使用してリモート仮想デスクトップへの接続中にビジネスの展開手順について説明します。
-ms.openlocfilehash: 4e4193998a9374c1aa0160999ad53a9ec3d8aab7
-ms.sourcegitcommit: 0f089f0c1bc641793c61928fb1c8fa62b2dfabee
+ms.openlocfilehash: d939d2b269d6488de1df09e3f8aff08e2b83458e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19927853"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986104"
 ---
-# <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server-2015"></a>Skype for Business Server 2015 での Lync VDI プラグインの展開
+# <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>ビジネス サーバーの Skype では、プラグインの Lync VDI の導入します。
  
 このトピックでは、Skype を使用してリモート仮想デスクトップへの接続中にビジネスの展開手順について説明します。 計画に関する考慮事項は、 [VDI 環境でのビジネス用の Skype を計画](../../plan-your-deployment/clients-and-devices/vdi-environments.md)します。
   
@@ -25,14 +24,14 @@ ms.locfileid: "19927853"
   
 ある 2 つのソリューションは、VDI のプラグイン コンポーネントでの使用可能ないずれかで提供されているマイクロソフトと Citrix が提供します。 マイクロソフトでは、新しい環境で新しい HDX リアルタイム最適化パック ソリューションを使用することをお勧めがライフ サイクルの残りの部分の元のプラグインの Lync VDI をサポートするために続行されます。 
   
-このトピックは、Microsoft Lync VDI プラグインは、Windows 7 と Windows 8 または Windows Server 2008 でのみサポートされ、のみ Lync 2013 または Skype ビジネス 2015年のクライアントをサポートするを展開する方法の詳細を説明します。 このプラグインを更新する予定はありませんが、ビジネスの Skype の[Citrix HDX のリアルタイム最適化パック](../../plan-your-deployment/clients-and-devices/vdi-environments.md#Citrix_RT)は必要に応じて更新されます。
+このトピックでは、Microsoft Lync VDI プラグイン、Windows 7 と Windows 8 または Windows Server 2008 ではサポートされてのみとのみ Lync 2013 または Skype をサポートする、ビジネス クライアント用の展開の詳細を説明します。 このプラグインを更新する予定はありませんが、ビジネスの Skype の[Citrix HDX のリアルタイム最適化パック](../../plan-your-deployment/clients-and-devices/vdi-environments.md#Citrix_RT)は必要に応じて更新されます。
   
 ## <a name="prepare-your-environment-for-the-lync-vdi-plug-in"></a>Lync VDI プラグイン向けに環境を準備する
 <a name="Prepare_vdi"> </a>
 
-1. ビジネス サーバー 2015 の Skype での Lync VDI プラグインのすべてのユーザーの EnableMediaRedirection を TRUE に設定されていることを確認します。 詳細については、[新規 CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicy?view=skype-ps)コマンドレットと[セット CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps)コマンドレットのヘルプ トピックを参照してください。
+1. ビジネス サーバーの Skype で Lync VDI プラグインのすべてのユーザーの EnableMediaRedirection を TRUE に設定されていることを確認します。 詳細については、[新規 CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicy?view=skype-ps)コマンドレットと[セット CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps)コマンドレットのヘルプ トピックを参照してください。
     
-2. データ センターのサーバーでは、ビジネス 2015年クライアントをすべての仮想デスクトップ上の Skype をインストールします。
+2. データ センター サーバーで、すべての仮想デスクトップ上のビジネス クライアント用の Skype をインストールします。
     
 3. ローカルのコンピューターでは、Lync VDI のプラグインをインストールします。
     
@@ -64,15 +63,13 @@ ms.locfileid: "19927853"
 ## <a name="sign-in-and-use-skype-for-business-on-the-virtual-desktop"></a>仮想デスクトップにサインインして、Skype for Business を使用します。
 <a name="SfB_signin"> </a>
 
-Lync VDI のプラグインを有効にすると、ユーザーによって、仮想デスクトップ上でビジネス 2015年の Skype にサインインするときがこれらの手順に従います。
+Lync VDI のプラグインを有効にすると、ユーザーによって、仮想デスクトップ上でビジネス用の Skype にサインインするときがこれらの手順に従います。
   
-1. ユーザーは、自分の資格情報で仮想デスクトップで実行されているビジネス 2015年クライアントの Skype を入力します。
+1. ユーザーが自分の資格情報で仮想デスクトップで実行されているビジネス クライアント用の Skype を入力します。
     
-2. ビジネス 2015年の Skype では、Lync VDI のプラグインが検出され後、Skype ビジネス 2015年の資格情報を再入力するように求めるプロンプトを表示します。 このダイアログ ボックスで、ことをお勧めユーザーが**自分のパスワードを保存**] チェック ボックスを選択、必要はありませんそれ以降のサインイン時に資格情報を入力するようにします。
+2. ビジネス用の Skype では、Lync VDI のプラグインが検出され後、Skype ビジネスの資格情報を再入力するように求めるプロンプトを表示します。 このダイアログ ボックスで、ことをお勧めユーザーが**自分のパスワードを保存**] チェック ボックスを選択、必要はありませんそれ以降のサインイン時に資格情報を入力するようにします。
     
-3. ビジネス 2015年の Skype では、Lync VDI のプラグインとのペアリングを開始します。 発生したときに、クライアントでは、ビジネス 2015年のステータス バーの Skype での 2 つのアイコンが表示されます。 左下のアイコンは利用可能なオーディオ デバイスがないことを示し、右下の点滅するアイコンは VDI ペアリングが進行中であることを示します。
-    4. VDI ペアリングが成功すると、通話に使用されるオーディオ デバイスおよび VDI ペアリングが成功したことを示すアイコンに変わります。
-    5. ユーザーことができます今すぐ参照してください自分のプレゼンス Skype ビジネス 2015年の互換性のあるデバイスは、ローカルのコンピューターに接続し、通話に応答したりいつものようにするため。
+3. ビジネス用の Skype では、Lync VDI のプラグインとのペアリングを開始します。 発生したときに、クライアントでは、ビジネス ・ ステータス ・ バーの Skype での 2 つのアイコンが表示されます。 左下のアイコンを示し、あるオーディオ デバイスは存在しません、右下で点滅しているアイコンは、VDI のペアが進行中のことを示します。。 呼び出しと VDI の成功の組み合わせを使用するオーディオ デバイスを示すためにアイコンを変更する VDI のペアリングが成功した後は、: b。 ユーザーことができますようになりましたを参照してください自分のプレゼンス Skype のビジネスの互換性のあるデバイスは、ローカルのコンピューターに接続し、通話に応答したりいつものようにするのです。
     
 ## <a name="troubleshoot-the-lync-vdi-plug-in"></a>Lync VDI プラグインのトラブルシューティング
 <a name="tshoot_VDI"> </a>
@@ -117,11 +114,11 @@ Lync VDI のプラグインのペアリングが失敗したとき、右下の�
     
   - UcVdi.dll
     
-- **ビジネス 2015年クライアントの Skype は、ローカル コンピューターで行われています。**
+- **ビジネス クライアント用の Skype は、ローカル コンピューターで行われています。**
     
-    使用して Lync VDI のプラグインでは、ローカル コンピューター上、Skype ビジネス 2015年のクライアントを実行しないでください、それ以外の場合の組み合わせは失敗します。 ベスト プラクティスとして、ユーザーは、ローカル コンピューター上、Skype ビジネス 2015年のクライアントをインストールしないでください。
+    プラグインでは、ローカル コンピューター上、Skype のビジネスのクライアントが実行されていない必要がありますの Lync VDI を使用するには、それ以外の場合の組み合わせは失敗します。 ベスト プラクティスとして、ユーザーは、ローカル コンピューター上、Skype のビジネスのクライアントをインストールしないでください。
     
 ## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
 <a name="tshoot_VDI"> </a>
 
-[VDI 環境でのビジネス用の Skype の計画](../../plan-your-deployment/clients-and-devices/vdi-environments.md)
+[VDI 環境における Skype for Business の計画](../../plan-your-deployment/clients-and-devices/vdi-environments.md)

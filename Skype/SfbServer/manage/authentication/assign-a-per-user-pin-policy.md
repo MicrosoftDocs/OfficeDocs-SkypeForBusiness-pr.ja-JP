@@ -1,26 +1,25 @@
 ---
-title: Skype for Business Server 2015 でのユーザー単位の PIN ポリシーの割り当て
+title: ビジネス サーバーの Skype のユーザー単位の PIN ポリシーを割り当てる
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
-description: '概要: ステージの AV と OAuth の証明書サーバー 2015 のビジネス用の Skype のです。'
-ms.openlocfilehash: 6eba19d67f2b2b04c98ed993fa02ca0c2052f28a
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: '概要: ステージの AV と OAuth の証明書ビジネス サーバーの Skype のです。'
+ms.openlocfilehash: fc7444aae0dfea0f22500f524490aea470c83903
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569513"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005954"
 ---
-# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのユーザー単位の PIN ポリシーの割り当て
+# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>ビジネス サーバーの Skype のユーザー単位の PIN ポリシーを割り当てる
 
-**の概要:** ステージ AV と OAuth の証明書サーバー 2015 のビジネス用の Skype のです。
+**の概要:** ステージ AV と OAuth の証明書ビジネス サーバーの Skype のです。
   
 ダイヤルイン会議の個人識別番号 (PIN) ポリシーは、個々 のビジネス サーバーのコントロール パネルの Skype で構成可能なユーザー アカウントの設定のいずれかです。
   
@@ -67,7 +66,7 @@ ms.locfileid: "19569513"
     > [!NOTE]
     > **ポリシーの割り当て**] ダイアログ ボックスを使用して構成することができます複数のポリシーがあるため**\<は、してください\>** のすべてのポリシー] ダイアログ ボックスで既定で選択します。 この設定を変更しないで、以前にユーザーに割り当てたポリシーを使用して続行します。
   
-   - Skype ビジネス サーバーの 2015 グローバル レベルのポリシーを自動的に選択するを許可するか、サイト レベルのポリシーを定義します。
+   - Skype ビジネス サーバーを自動的にグローバル レベル ポリシーを選択するを許可するか、サイト レベルのポリシーを定義します。
     
    - [**PIN ポリシー**] ページであらかじめ定義した、ユーザー単位の PIN ポリシーの名前をクリックします。
     
@@ -108,4 +107,4 @@ Windows PowerShell と**与える CsPinPolicy**コマンドレットを使用し
   
 ## <a name="see-also"></a>関連項目
 
-[ビジネス サーバー 2015 の Skype の新しい暗証番号 (pin) ポリシーを作成する.](create-a-new-pin-policy.md)
+[Skype のビジネス サーバーの新しい暗証番号 (pin) ポリシーを作成します。](create-a-new-pin-policy.md)

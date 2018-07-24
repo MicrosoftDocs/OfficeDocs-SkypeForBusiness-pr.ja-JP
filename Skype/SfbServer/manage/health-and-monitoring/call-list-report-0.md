@@ -1,26 +1,26 @@
 ---
-title: Skype for Business Server 2015 の通話リスト レポート
+title: Skype のビジネス サーバーの一覧のレポートを呼び出す
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
-description: '概要: は、ビジネス サーバー 2015 の Skype で使用される呼び出しリスト レポートについて説明します。'
-ms.openlocfilehash: 8e26f5e9dbe3b72cb07333dae7a10cc2d4bcb80d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、Skype のビジネスのサーバーが使用する呼び出しリスト レポートについて説明します。'
+ms.openlocfilehash: af9c729adf17fd0df24a76bd13f48501b0f2eba1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968355"
 ---
-# <a name="call-list-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の通話リスト レポート
+# <a name="call-list-report-in-skype-for-business-server"></a>Skype のビジネス サーバーの一覧のレポートを呼び出す
  
-**の概要:**ビジネス サーバー 2015 の Skype で使用される呼び出しリスト レポートについて説明します。
+**の概要:** ビジネス サーバーの Skype で使用される呼び出しリスト レポートについて説明します。
   
-呼び出しリスト レポートは、組織内で受信し、呼び出しごとにエクスペリエンスの品質 (QoE) メトリックを提供します。 通話リスト レポートにアクセスする方法を実際の測定値が報告されることに注意が異なります。 たとえば、[ビジネス サーバー 2015 の Skype でのデバイスのレポート](device-report.md)からレポートを開くもデバイスのレポートで報告されるメトリックスは、次のようにメトリックが表示されます。
+呼び出しリスト レポートは、組織内で受信し、呼び出しごとにエクスペリエンスの品質 (QoE) メトリックを提供します。 通話リスト レポートにアクセスする方法を実際の測定値が報告されることに注意が異なります。 たとえば、 [Skype ビジネス サーバー用のデバイスのレポート](device-report.md)からレポートを開くもデバイスのレポートで報告されるメトリックスは、次のようにメトリックが表示されます。
   
 - 発信者のマイク
     
@@ -32,7 +32,7 @@ ms.lasthandoff: 03/28/2018
     
 - 音声切り替え時間の比率 
     
-ただし、[ビジネス サーバー 2015 の Skype での場所のレポート](location-report.md)からの呼び出しの一覧のレポートを開くと、表示されませんこれらの指標のいずれか代わりに、上記のような測定値が表示されます。
+ただし、 [Skype のビジネス サーバーの場所のレポート](location-report.md)からの呼び出しの一覧のレポートを開くと、表示されませんこれらの指標のいずれか代わりに、上記のような測定値が表示されます。
   
 - 往復 (ミリ秒)
     
@@ -48,15 +48,15 @@ ms.lasthandoff: 03/28/2018
 
 通話リスト レポートには、次のいずれかのレポートからアクセスできます。
   
-- [ビジネス サーバー 2015 の Skype での場所のレポート](location-report.md)] をクリックして通話量または不適切な呼び出しの割合の指標)
+- [Skype ビジネス サーバーの場所のレポート](location-report.md)] をクリックして通話量または不適切な呼び出しの割合の指標)
     
-- [ビジネス サーバー 2015 の Skype でのデバイスのレポート](device-report.md)] をクリックして通話量または不適切な呼び出しの割合の指標)
+- [Skype ビジネス サーバー用のデバイスのレポート](device-report.md)] をクリックして通話量または不適切な呼び出しの割合の指標)
     
-- [ビジネス サーバー 2015 の Skype でのメディア品質概要レポート](summary.md)] をクリックして通話量または不適切な呼び出しの割合の指標)
+- [Skype ビジネス サーバー用に、メディア品質概要レポート](summary.md)] をクリックして通話量または不適切な呼び出しの割合の指標)
     
-- [ビジネス サーバー 2015 の Skype のサーバー パフォーマンス レポート](server-performance.md)] をクリックして通話量または不適切な呼び出しの割合の指標)
+- [Skype ビジネス サーバー用のサーバー パフォーマンス レポート](server-performance.md)] をクリックして通話量または不適切な呼び出しの割合の指標)
     
-呼び出しリストのレポート内からに、[詳細] のメトリックをクリックすると、[ビジネス サーバー 2015 の Skype の詳細レポートを呼び出す](call-detail-report.md)をアクセスできます。
+呼び出しリストのレポート内からに、[詳細] のメトリックをクリックすると、 [Business Server の Skype の詳細レポートを呼び出す](call-detail-report.md)をアクセスできます。
   
 ## <a name="making-the-best-use-of-the-call-list-report"></a>通話リスト レポートの活用
 
@@ -70,9 +70,9 @@ ms.lasthandoff: 03/28/2018
 
 次の表に、通話リスト レポートで提供される通話ごとの情報を示します。
   
-**レポート メトリックのリストを呼び出す**
+**通話リスト レポートの指標**
 
-|**名**|**この項目を並べ替えることができますか。**|**説明**|
+|**名前**|**この項目での並べ替え**|**説明**|
 |:-----|:-----|:-----|
 |**[詳細]** <br/> |不可  <br/> |この項目をクリックすると、その通話に関する補足的な情報が表示されます。  <br/> |
 |**[発信者]** <br/> |可  <br/> |通話の発信者の SIP アドレス。  <br/> |

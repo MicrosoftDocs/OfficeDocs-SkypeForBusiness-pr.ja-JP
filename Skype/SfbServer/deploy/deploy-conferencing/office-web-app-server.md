@@ -1,33 +1,33 @@
 ---
-title: Skype for Business Server 2015 での Office Web Apps サーバーとの統合の構成
+title: ビジネス サーバー用の Skype では、Office Web アプリケーション サーバーとの統合を構成します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
-description: '概要: は、web 会議のための PowerPoint プレゼンテーションを有効にするには、Office Web アプリケーション サーバーとビジネス サーバー 2015 の Skype 間での統合を構成する方法については、このトピックを読みます。'
-ms.openlocfilehash: da6b5765cf62fc97fcc20b72e2411db306b37f0e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、PowerPoint のプレゼンテーションを web 会議を有効にするには、Office Web アプリケーション サーバーと Skype ビジネス サーバーの間の統合を構成する方法については、このトピックを読みます。'
+ms.openlocfilehash: 558ba648cab4dfd2667251ea96bc83d313746f10
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997315"
 ---
-# <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での Office Web Apps サーバーとの統合の構成
+# <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>ビジネス サーバー用の Skype では、Office Web アプリケーション サーバーとの統合を構成します。
  
-**の概要:**Web 会議のための PowerPoint プレゼンテーションを有効にするには、Office Web アプリケーション サーバーとビジネス サーバー 2015 の Skype 間での統合を構成する方法については、このトピックを参照してください。
+**の概要:** Office Web アプリケーション サーバーと web 会議のための PowerPoint プレゼンテーションを有効にする Skype ビジネス サーバーの間の統合を構成する方法については、このトピックを参照してください。
   
-Skype ビジネス サーバー用には、web 会議のための PowerPoint プレゼンテーションを処理するために Office の Web アプリケーション サーバーが使用されています。 このアプローチの利点の詳細については、[ビジネス サーバー 2015 の Skype での会議の計画](../../plan-your-deployment/conferencing/conferencing.md)を参照してください。
+Skype ビジネス サーバー用には、web 会議のための PowerPoint プレゼンテーションを処理するために Office の Web アプリケーション サーバーが使用されています。 このアプローチの利点の詳細については、[ビジネスのサーバー用の Skype での会議の計画](../../plan-your-deployment/conferencing/conferencing.md)を参照してください。
   
 ビジネス サーバーは、Office Web アプリケーション サーバーを使用するの Skype を構成することができます、前に、Office Web アプリケーション サーバーが既に展開され、構成されていることを確認する必要があります。 Office Web アプリケーション サーバーについては、資料を参照してください[インフラストラクチャを展開します。 Office オンラインのサーバー](https://go.microsoft.com/fwlink/p/?linkid=257525)。 
   
 Office Web アプリケーション サーバーが正常にインストールされて正しく構成されている Web ファーム、行う必要がありますし、Skype、Skype をビジネスのために Office の Web アプリケーション サーバーの検出 URL を追加することによって新しいサーバーと通信するためにビジネスのサーバーの後サーバー トポロジです。 
   
 > [!NOTE]
-> Office Web アプリケーション サーバーの最新のイテレーションのビジネス サーバー 2015 Skype がサポートしている Office オンライン サーバーの名前です。 詳細については、 [Office オンラインのサーバーのマニュアル](https://technet.microsoft.com/en-us/library/jj219456%28v=office.16%29.aspx)を参照してください。 
+> Office オンライン サーバー、ビジネス サーバーの Skype がサポートしている Office Web アプリケーション サーバーの最新のイテレーションの名前です。 詳細については、 [Office オンラインのサーバーのマニュアル](https://technet.microsoft.com/en-us/library/jj219456%28v=office.16%29.aspx)を参照してください。 
   
 ## <a name="configure-skype-for-business-server-to-communicate-with-office-web-apps-server"></a>Office Web アプリケーション サーバーと通信するサーバーをビジネス用の Skype を構成します。
 
@@ -77,15 +77,15 @@ Office Web アプリケーション サーバー、トポロジに追加した�
   
  **Web 会議サーバー Office Web Apps サーバー検出が成功しました。**
   
- **Office Web アプリケーション サーバー内部の発表者のページ: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp;を埋め込む =**
+ **Office Web アプリケーション サーバー内部の発表者のページ: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp; 埋め込む =**
   
- **Office Web アプリケーション サーバー内部の出席者のページ: https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;を埋め込む = true&amp;=**
+ **Office Web アプリケーション サーバー内部の出席者のページ: https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp; 埋め込む = true&amp;=**
   
-外部ユーザー用のアクセスを構成済みである場合は、次のようなメッセージも表示されます:
+外部ユーザーのアクセスを構成した場合、以下のようにも表示されます。
   
- **Office Web アプリケーション サーバーの外部発表のページ: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp;を埋め込む**
+ **Office Web アプリケーション サーバーの外部発表のページ: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp; を埋め込む**
   
- **Office Web アプリケーション サーバー内部の出席者のページ: https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;を埋め込む = true&amp;**
+ **Office Web アプリケーション サーバー内部の出席者のページ: https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp; 埋め込む = true&amp;**
   
 表示する場合は、Office Web アプリケーション サーバーの検出のことを意味する 41033 のイベント ID を持つデータ MCU の LS イベントに失敗しました。 Skype ビジネス サーバーの場合は、新たに構成されている Office の Web アプリケーション サーバーを検出するために必要な回数だけ再試行されます。 検出プロセスが繰り返し失敗した場合、トポロジ ドキュメントから Office Web アプリケーション サーバーを削除、更新されたトポロジを公開する、接続の問題が解決された後に、トポロジに Office Web アプリケーション サーバーを追加してくださいしてください。
   

@@ -3,7 +3,7 @@ title: ローカル構成ストアのインストール (起動)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a3cb2e6-e253-4a3d-b1d7-2b93b3cfc36a
 description: 'コマンドの実行] ウィンドウには、中央管理ストアのローカルな読み取り専用レプリカをインストールするためのタスクの進捗状況が表示されます。 タスクの実行中は、コマンドの実行時に、作業ウィンドウが更新されます。 タスクの進捗状況を確認し、エラーや警告が表示されるに注意してください。 タスクが完了すると、メッセージのタスクの状態: 完了が表示され、ログ ファイルのドロップダウン リストには、ログ ファイルの名前が表示されます。 作成されたログ ファイルを表示するには、ログ ファイルを表示し、[ログの表示] をクリックするを選択します。 成功、エラー、および警告メッセージのすべてのログ ファイルを確認します。'
-ms.openlocfilehash: 642b6f9d0b008936528ff5c8204c573b3b5284a5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 167c75345d08051c93a62977f1e22c9b6fc9880f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987650"
 ---
 # <a name="install-local-configuration-store-invoke"></a>ローカル構成ストアのインストール (起動)
  

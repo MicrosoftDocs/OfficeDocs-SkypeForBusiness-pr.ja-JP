@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 での会議の構成設定の表示
+title: Skype ビジネス サーバーの構成設定の会議を表示
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
-description: '概要: を表示する方法を説明する会議出席ビジネス サーバー 2015 の Skype の設定を構成します。'
-ms.openlocfilehash: 382e50a0f41301953f4313c5019d1eb0d27804e5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: を表示する方法を学習する Skype ビジネス サーバーの構成設定に対応します。'
+ms.openlocfilehash: 44154b9cdba4743eed9c2a4153545651657d4e72
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988826"
 ---
-# <a name="view-meeting-configuration-settings-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での会議の構成設定の表示
+# <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>Skype ビジネス サーバーの構成設定の会議を表示
  
-**の概要:**表示する方法について説明会議出席ビジネス サーバー 2015 の Skype の設定を構成します。
+**の概要:** 表示する方法を学習 Skype ビジネス サーバーの構成設定に対応します。
   
 表示することができます Skype ビジネス サーバーのコントロール パネルを使用するか、Skype ビジネス サーバー管理シェルを使用して会議の構成設定。
   
@@ -35,9 +35,9 @@ ms.lasthandoff: 03/28/2018
     
 5. [**ファイル フィルターの編集**] で、[**詳細の表示**] チェック ボックスをオンにします。
     
-    **会議設定の編集 -\<ポリシー\>**が開き、選択したポリシーの設定を表示します。
+    **会議設定の編集 -\<ポリシー\>** が開き、選択したポリシーの設定を表示します。
     
-    詳細設定の構成については、[会議ビジネス サーバー 2015 の Skype での構成設定の作成](create-settings.md)を参照してください。
+    詳細設定の構成については、[会議の Skype ビジネス サーバーの構成設定の作成](create-settings.md)を参照してください。
     
 ## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Skype ビジネス サーバー管理シェルを使用して会議の構成設定の表示
 <a name="BKMK_ViewJoinSettings"> </a>
@@ -50,7 +50,7 @@ Get-CsMeetingConfiguration
 
 このコマンドは、次のような情報を返します。
   
-```
+<pre>
 Identity                        : Global
 PstnCallersBypassLobby          : True
 EnableAssignedConferenceType    : True
@@ -63,8 +63,7 @@ LegalURL                        :
 HelpURL                         :
 CustomFooterText                :
 AllowConferenceRecording        : True
-
-```
+</pre>
 
 パラメーターの完全な一覧を含む詳細については、 [Get CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps)を参照してください。
   

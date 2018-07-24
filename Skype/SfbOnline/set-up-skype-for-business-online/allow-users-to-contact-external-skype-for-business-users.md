@@ -1,5 +1,5 @@
 ---
-title: ビジネス ユーザー向けの外部の Skype の連絡先ユーザーを許可します。
+title: 外部の Skype for Business ユーザーに連絡できるようにする
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -25,13 +25,14 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'ユーザーが別の組織内のユーザーに問い合わせるか、外にそれらの連絡先を使用できるようにするのにはビジネス用の Skype を構成する方法を参照してください。 '
-ms.openlocfilehash: 59ef459db2af5fe42c7a84fbef2d2a09b70ee783
-ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
+ms.openlocfilehash: bd03e7c85b91bb9995dcbac3fc5d885cba2c7bd0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968462"
 ---
-# <a name="allow-users-to-contact-external-skype-for-business-users"></a>ビジネス ユーザー向けの外部の Skype の連絡先ユーザーを許可します。
+# <a name="allow-users-to-contact-external-skype-for-business-users"></a>外部の Skype for Business ユーザーに連絡できるようにする
 
 > [!NOTE]
 > ビジネス連合の Skype を 21Vianet と Office 365 のドイツの組織によって運営されて Office 365 を使用できません。 
@@ -48,6 +49,8 @@ ms.lasthandoff: 04/27/2018
 <a name="bk_preview"> </a>
 
 これを行う 2 つの組織で Office 365 の[管理者のアクセス許可](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)が必要です。
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
   
 1. Office 365 管理者アカウントでサインインします。 
     
@@ -67,7 +70,7 @@ ms.lasthandoff: 04/27/2018
     
 7. Windows Firewall を使用している場合は、Skype for Business が必要なポートを自動的に開きます。
     
-    組織がインターネットへの接続をネットワーク上のコンピューターを制限する別のファイアウォール ソリューションを使用している場合は、クライアント コンピューターは、次の[Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges)にアクセスすることを確認します。 インフラストラクチャの構成、ファイアウォールやプロキシのリストを許可する、送信する Fqdn を追加することがあります:**\*です。 api.skype.com**、 \***です。 users.storage.live.com**、と**graph.skype.com**。お使いのファイアウォールでポートを開く方法の詳細については、それに付属のマニュアルを確認してください。
+    組織がインターネットへの接続をネットワーク上のコンピューターを制限する別のファイアウォール ソリューションを使用している場合は、クライアント コンピューターは、次の[Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges)にアクセスすることを確認します。 インフラストラクチャの構成、ファイアウォールやプロキシのリストを許可する、送信する Fqdn を追加することがあります:**\*です。 api.skype.com**、 \***です。 users.storage.live.com**、と**graph.skype.com**。 お使いのファイアウォールでポートを開く方法の詳細については、それに付属のマニュアルを確認してください。
     
     すべてのポートを開く必要のリストは、 [Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges)を参照してください。
 
@@ -97,16 +100,16 @@ ms.lasthandoff: 04/27/2018
 ## <a name="how-to-find-others-and-be-found-when-connecting-with-another-business"></a>、他のユーザーを検索し、別のビジネスに接続するときを検出する方法
 <a name="bk_preview"> </a>
 
-ビジネス ユーザー向けの他の Skype での外部の通信を有効にした後、ユーザーは検索できます連合 Skype ビジネス ユーザー向けのサインイン名を検索し、: 例えば、Rob@contoso.com。連絡先の一覧にユーザーを追加する必要があります。
+ビジネス ユーザー向けの他の Skype での外部の通信を有効にした後、ユーザーは検索できます連合 Skype ビジネス ユーザー向けのサインイン名を検索し、: 例えば、Rob@contoso.com。 連絡先の一覧にユーザーを追加する必要があります。
   
 ![連合ビジネスでユーザーを検索するのには (これは、通常も、サインイン名)、電子メール アドレスを検索する必要があります。](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
   
 ## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>連合の企業との通信設定のヒント
 <a name="bk_preview"> </a>
 
-- ビジネス 2015年の Skype と Skype のオンライン ビジネスとの間のフェデレーションを構成するには、この TechNet の記事を参照してください:[ビジネス オンラインの Skype でフェデレーションを構成](https://technet.microsoft.com/en-us/library/jj205126.aspx)します。
+- ビジネス 2015年の Skype と Skype のオンライン ビジネスとの間のフェデレーションを構成するには、この資料を参照してください:[ビジネス オンラインの Skype でフェデレーションを構成](https://technet.microsoft.com/en-us/library/jj205126.aspx)します。
     
-- オンライン ビジネスの Lync と Skype との間のフェデレーションを構成するのには、この TechNet の記事を参照してください: [Lync のオンライン ・ カスタマーのフェデレーション サポートを構成します](https://technet.microsoft.com/en-us/library/hh202193.aspx)。
+- オンライン ビジネスの Lync と Skype との間のフェデレーションを構成するには、この資料を参照してください: [Lync のオンライン ・ カスタマーのフェデレーション サポートを構成します](https://technet.microsoft.com/en-us/library/hh202193.aspx)。
     
 - Office 365 のビジネス ユーザー向けの 2 つの Skype は別のドメインに相互通信している場合 (たとえば、ビデオの会話またはデスクトップの共有) の両方の組織内有効になっているビジネス機能の Skype のみ使用できます。
     

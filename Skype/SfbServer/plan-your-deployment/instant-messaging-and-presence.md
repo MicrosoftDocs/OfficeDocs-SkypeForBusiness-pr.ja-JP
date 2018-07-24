@@ -1,28 +1,28 @@
 ---
-title: Skype for Business Server 2015 でのインスタント メッセージングとプレゼンスの計画
+title: Business Server のインスタント メッセージングと Skype のプレゼンスの計画します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 6/28/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
-description: '概要: ビジネス サーバー 2015 にインスタント メッセージングとプレゼンスの Skype を計画する方法を説明します。'
-ms.openlocfilehash: 1934f0308cda59b52073c47d1652ad2286bd6977
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: ビジネスのサーバーにインスタント メッセージングとプレゼンスの Skype を計画する方法を説明します。'
+ms.openlocfilehash: e68a7b427545105db9ed543e2f1ad77411ba88b7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002234"
 ---
-# <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのインスタント メッセージングとプレゼンスの計画
+# <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Business Server のインスタント メッセージングと Skype のプレゼンスの計画します。
  
-**概要:** Skype for Business Server 2015 でインスタント メッセージングとプレゼンスを計画する方法について説明します。
+**の概要:** ビジネスのサーバーにインスタント メッセージングとプレゼンスの Skype を計画する方法について説明します。
   
-Skype for Business Server 2015 でのインスタント メッセージングとプレゼンスを計画します。 有効にするか、オフライン インスタント メッセージング (IM)、無効にするなど、特定の展開オプションの詳細については、[インスタント メッセージングを展開しビジネス サーバー 2015 の Skype のプレゼンス](../deploy/im-and-presence/im-and-presence.md)を参照してください。
+ビジネスのサーバーにインスタント メッセージングとプレゼンスの Skype を計画します。 有効にするか、オフライン インスタント メッセージング (IM)、無効にするなど、特定の展開オプションの詳細については、[インスタント メッセージングを展開しビジネス サーバーの Skype のプレゼンス](../deploy/im-and-presence/im-and-presence.md)を参照してください。
   
-## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのインスタント メッセージングとプレゼンスの計画
+## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Business Server のインスタント メッセージングと Skype のプレゼンスの計画します。
 
 フロント エンド サーバーを提供インスタント メッセージング (IM) とプレゼンスなどのビジネスのサーバーの機能のための Skype のコア ビジネス サーバー配置のすべての Skype に含まれています。 使用可能な 2 つのエディションがあります: 大規模な組織に主に設計されていますが、ビジネス サーバー Enterprise Edition の Skype と Skype ビジネス Server Standard Edition は、主に小規模な組織であるより小さいかどうかのハードウェアへの投資の完全な高可用性オプションを必要としません。 両方のエディションでは、IM、プレゼンス、会議、およびエンタープライズ VoIP を含むビジネス サーバー ワークロードのすべての Skype をサポートします。
   
@@ -32,7 +32,7 @@ Skype for Business Server 2015 でのインスタント メッセージングと
   
 ### <a name="technical-requirements"></a>技術要件
 
-インスタント メッセージング (IM) とプレゼンスは、常に Enterprise Edition フロントエンド プールと Standard Edition サーバーで実行されます。 サポートされているハードウェア、オペレーティング システム、およびデータベース ソフトウェアについては、 [Skype をビジネスのためのインフラストラクチャ](https://technet.microsoft.com/en-us/office/dn947483)と[ビジネス環境に、Skype の要件](requirements-for-your-environment/requirements-for-your-environment.md)を参照してください。
+インスタント メッセージング (IM) とプレゼンスは、常に Enterprise Edition フロントエンド プールと Standard Edition サーバーで実行されます。 サポートされているハードウェア、オペレーティング システム、およびデータベース ソフトウェアについては、[認定ゲートウェイ](../../SfbPartnerCertification/certification/infra-gateways.md)、 [2015 のビジネス環境について、Skype の要件](requirements-for-your-environment/requirements-for-your-environment.md)、およびビジネス サーバー 2019 の Skype のための[インフラストラクチャの要件を参照してください。](../../SfBServer2019/plan/system-requirements.md).
   
 ### <a name="enabling-communication-with-external-users"></a>外部ユーザーとの通信を有効にする
 
@@ -55,13 +55,13 @@ Skype for Business Server への投資による収益性は、ユーザーが外
   
 ### <a name="archiving-im-content"></a>IM コンテンツをアーカイブする
 
-Skype for Business Server には、組織で法令上の規制に従う必要がある場合に使用できる機能があります。アーカイブを使用すると、組織内のすべてのユーザーまたは指定する特定のユーザーの IM メッセージの内容をアーカイブすることができます。詳細については、「計画」のドキュメントの「Skype for Business Server 2015 でのアーカイブの計画 (Planning for Archiving in Skype for Business Server 2015)」を参照してください。 
+Skype for Business Server には、組織で法令上の規制に従う必要がある場合に使用できる機能があります。 アーカイブを使用すると、組織内のすべてのユーザーまたは指定する特定のユーザーの IM メッセージの内容をアーカイブすることができます。 詳細については、 [Skype のビジネス サーバーでアーカイブするための計画](archiving/archiving.md)を参照してください。 
   
-Microsoft Exchange Server 2013 も展開している場合は、Exchange データのアーカイブと Skype for Business Server データのアーカイブを統合して、1 つのツールを使用して両種類のアーカイブ データを検索することができます。 詳細については、Microsoft Exchange Server 2013 のアーカイブを使用するのには、ビジネス サーバー 2015 の Skype を設定するを参照してください。
+Microsoft Exchange Server 2013 も展開している場合は、Exchange データのアーカイブと Skype for Business Server データのアーカイブを統合して、1 つのツールを使用して両種類のアーカイブ データを検索することができます。 詳細については、[ビジネス サーバーで Exchange Server のアーカイブを使用する Skype の設定](../deploy/integrate-with-exchange-server/use-exchange-archiving.md)を参照してください。
   
 ### <a name="topologies-and-components"></a>トポロジとコンポーネント
 
-インスタント メッセージング (IM) とプレゼンスに必要な唯一のコンポーネントは次のとおりです。
+インスタント メッセージング (IM) とプレゼンスに必要なコンポーネントは、次に示すものだけです。
   
 - (プールと呼ばれます)、組織のフロント エンド サーバーまたは Standard Edition サーバーです。 これらのサーバーで、IM およびプレゼンス機能は常にオンになっています。 フロント エンド プール トポロジと管理の詳細については、[フロント エンド プールの高可用性と管理](high-availability-and-disaster-recovery/high-availability.md)を参照してください。
     
@@ -69,6 +69,6 @@ Microsoft Exchange Server 2013 も展開している場合は、Exchange デー�
     
 ### <a name="supported-collocation"></a>サポートされる併置
 
-併置の定義は、複数の役割がインストールされた単一のサーバーまたはサーバー グループが存在することです。 コロケーションの詳細については、[ビジネス サーバー 2015 の Skype のトポロジーの基本事項](topology-basics/topology-basics.md)を参照してください。 
+併置の定義は、複数の役割がインストールされた単一のサーバーまたはサーバー グループが存在することです。 コロケーションの詳細については、 [Skype のビジネス サーバーのトポロジの基礎](topology-basics/topology-basics.md)を参照してください。 
   
 

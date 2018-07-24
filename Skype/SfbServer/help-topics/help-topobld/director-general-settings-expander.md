@@ -3,7 +3,7 @@ title: ディレクターの一般的な設定の拡張
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 description: 既存の担当ディレクターの設定を編集するのには次のセクションが表示されます。
-ms.openlocfilehash: e806f917dbcfe3e626410d3bb76caad3c40ed5d3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: db15577c5dcb7230f3de97c51f42f8ba90d8bdf2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988854"
 ---
 # <a name="director-general-settings-expander"></a>ディレクターの一般的な設定の拡張
  
@@ -26,9 +27,9 @@ ms.lasthandoff: 03/28/2018
     
 - Web サービス
     
-## 
 
-### <a name="general-settings"></a>全般設定
+
+## <a name="general-settings"></a>全般設定
 
 ディレクター プールの完全修飾ドメイン名 (FQDN) です。 値を変更するには、サーバーの FQDN を編集します。 新しい値と一致しているドメイン ネーム システム (DNS) ホスト (A) レコードがある必要があります。
   
@@ -41,7 +42,7 @@ SQL Server ストアを監視します。
 > [!IMPORTANT]
 > 新しく定義したトポロジの公開前に、指定するサーバーが存在し、ドメインに参加している必要があります。 新しいファイル共有を作成した場合は、指定したサーバー上でファイル共有を作成しなければなりません。 
   
-### <a name="web-services"></a>Web サービス
+## <a name="web-services"></a>Web サービス
 
 編集またはディレクター プールの Web サービスの追加設定を指定、変更または、内部の Web サービスと外部の Web サービスの設定を指定します。
   
@@ -50,7 +51,7 @@ SQL Server ストアを監視します。
 > [!CAUTION]
 > 複数のフロント エンド プールまたはフロント エンド サーバーがある場合、外部 Web サービス FQDN 一意でなければなりません。 などの**pool01.contoso.com**としては、外部の Web サービス サーバーをフロント エンド サーバーの FQDN を定義する場合は、別のフロント エンド プールまたはフロント エンド サーバーの**pool01.contoso.com**を使用できません。 ダイレクタを展開するも、外部 Web サービスのすべてのダイレクタに対して定義されている FQDN またはディレクター プールは、他の一意である必要がありますディレクターまたはディレクター プールも、すべてのフロント エンド プールまたはフロント エンド サーバーです。 自己定義の FQDN を内部 web サービスをオーバーライドする場合は、各 FQDN 一意でなければなりませんから、他のすべてのフロント エンド プール、ディレクターまたはディレクター プールです。
   
-FQDN の上書きを選択した場合、プールの内部の Web サービス id の異なる FQDN を指定できます。 ディレクター プールに対して定義されている、既定では、設定、現在プール名です。
+[FQDN の上書き] を選択すると、プールの内部 Web サービス ID として別の FQDN を指定できます。 ディレクター プールに対して定義されている、既定では、設定、現在プール名です。
   
 HTTP と HTTPS の展開を必要とするは、ポートをリッスンし、公開されているを指定できます。 ポート 80 の既定の設定を HTTP とポート 443 の HTTPS の最も一般的な設定は、通常、インフラストラクチャの設計、組織内の特定の要件がある場合を除き、変更する必要はありません。
   

@@ -1,31 +1,31 @@
 ---
-title: Skype for Business Server 2015 のアーカイブの管理
+title: Skype ビジネス サーバーのアーカイブを管理します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63fd56cf-6d40-4db5-96fc-32d813930bcf
-description: '概要: は、Skype のビジネス サーバー 2015 のアーカイブを管理する方法を説明します。'
-ms.openlocfilehash: fb8359d47b1933e2575685bc532d69e6b9bb6c45
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、Skype のビジネス サーバーのアーカイブを管理する方法を説明します。'
+ms.openlocfilehash: 3044ad4bd8c5b551d5cc43c2d3f6ae9b111c7ca6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008076"
 ---
-# <a name="manage-archiving-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 のアーカイブの管理
+# <a name="manage-archiving-in-skype-for-business-server"></a>Skype ビジネス サーバーのアーカイブを管理します。
 
-**の概要:**Skype ビジネス サーバー 2015 のアーカイブを管理する方法について説明します。
+**の概要:** Skype ビジネス サーバーのアーカイブを管理する方法について説明します。
   
 組織のアーカイブを展開するときは、初期展開時に構成を指定します。 ただし、日常的な管理のためのアーカイブのサポートを実装する方法を変更するか、組織の新しい要件を満たすために、必要な場合があります。 たとえば、アーカイブとは異なる、特定のサイト、特定のプール、または組織内の特定のユーザーのサポートを設定する必要があります。 ユーザーは、Skype のビジネス サーバーのホームのこれを行うを作成し、アーカイブの構成オプションとユーザーのポリシーをカスタマイズします。 
   
-このトピックを参照する前に、[ビジネス サーバー 2015 の Skype でアーカイブするための計画](../../plan-your-deployment/archiving/archiving.md)し、[展開のビジネス サーバー 2015 の Skype のアーカイブ](../../deploy/deploy-archiving/deploy-archiving.md)内の情報に精通していることを確認します。
+このトピックを参照する前に、 [Skype のビジネス サーバーでアーカイブするための計画](../../plan-your-deployment/archiving/archiving.md)および[Skype ビジネス サーバーの配置のアーカイブ](../../deploy/deploy-archiving/deploy-archiving.md)内の情報に精通していることを確認します。
   
 > [!NOTE]
-> 展開で Microsoft Exchange 統合が有効の場合、インプレース保持上にメールボックスがある Exchange 所属のユーザーに対してアーカイブを有効にするかどうかは、Exchange のポリシーで管理されます。 詳細については、[ビジネス サーバー 2015 の Skype でアーカイブするための計画](../../plan-your-deployment/archiving/archiving.md)と[構成との統合ビジネス サーバー 2015 の Skype の Exchange の記憶域](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md)を参照してください。 
+> 展開で Microsoft Exchange 統合が有効の場合、インプレース保持上にメールボックスがある Exchange 所属のユーザーに対してアーカイブを有効にするかどうかは、Exchange のポリシーで管理されます。 詳細については、 [Skype のビジネス サーバーでアーカイブするための計画](../../plan-your-deployment/archiving/archiving.md)と[構成との統合 Skype ビジネス サーバー用の Exchange の記憶域](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md)を参照してください。 
   
 ## <a name="archiving-configuration-options"></a>構成オプションをアーカイブする
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 03/28/2018
     
 - データの削除とエクスポートのセットアップ
     
-これらのオプションは、グローバル レベル、サイト レベル、プール レベルで設定できます。 詳細については、[ビジネス サーバー 2015 の Skype での管理アーカイブ ・ オプション](options.md)を参照してください。
+これらのオプションは、グローバル レベル、サイト レベル、プール レベルで設定できます。 詳細については、 [Skype のビジネス サーバーの管理のアーカイブ オプション](options.md)を参照してください。
   
 ## <a name="archiving-policies"></a>アーカイブのポリシー
 
@@ -53,11 +53,11 @@ ms.lasthandoff: 03/28/2018
     
 - 外部通信
     
-これらのポリシーは、グローバル レベル、サイト レベル、ユーザー レベルで設定できます。 詳細については、 [Skype のビジネス サーバー 2015 のアーカイブ ・ ポリシーの管理](policies.md)を参照してください。
+これらのポリシーは、グローバル レベル、サイト レベル、ユーザー レベルで設定できます。 詳細については、 [Skype のビジネス サーバーでアーカイブ ・ ポリシーの管理](policies.md)を参照してください。
   
 ## <a name="manage-archiving-by-using-the-control-panel-or-by-using-windows-powershell"></a>コントロール パネルまたは Windows PowerShell コマンドレットを使用してアーカイブを管理する
 
-アーカイブは、コントロール パネルまたは Windows PowerShell コマンドレットを使用して管理できます。 次の表に、アーカイブの管理に役立つ使用可能なコマンドレットの一覧を示します。 などのすべての利用可能なパラメーターの構文の詳細については、 [Skype ビジネス サーバー 2015 管理シェルに](../management-shell.md)を参照してください。 
+アーカイブは、コントロール パネルまたは Windows PowerShell コマンドレットを使用して管理できます。 次の表に、アーカイブの管理に役立つ使用可能なコマンドレットの一覧を示します。 含むすべての利用可能なパラメーターの構文の詳細については、[ビジネス サーバー管理シェルの Skype](../management-shell.md)を参照してください。 
 
 
 |**コマンドレット**|**説明**|

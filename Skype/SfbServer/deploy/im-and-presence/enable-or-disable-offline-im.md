@@ -1,33 +1,33 @@
 ---
-title: Skype for Business Server 2015 でのオフライン インスタント メッセージング (IM) の有効化または無効化
+title: 有効にするか、ビジネスのサーバーのオフライン インスタント メッセージング (IM) では、Skype を無効にします。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 6/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0f44352-fb4a-45d3-85b0-a4320d4b8339
-description: 有効にするか、ビジネス サーバー 2015 のオフライン インスタント メッセージング (IM) では、Skype を無効にするについて説明します。
-ms.openlocfilehash: a9133ad82e4d25fae2aebd266273ecbb37c2a010
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 有効にするか、ビジネスのサーバーのオフライン インスタント メッセージング (IM) では、Skype を無効にするについて説明します。
+ms.openlocfilehash: f033a3953e2be215f4acb587414cad4faf35855f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019560"
 ---
-# <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのオフライン インスタント メッセージング (IM) の有効化または無効化
+# <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server"></a>有効にするか、ビジネスのサーバーのオフライン インスタント メッセージング (IM) では、Skype を無効にします。
  
-有効にするか、ビジネス サーバー 2015 のオフライン インスタント メッセージング (IM) では、Skype を無効にするについて説明します。
+有効にするか、ビジネスのサーバーのオフライン インスタント メッセージング (IM) では、Skype を無効にするについて説明します。
   
-## <a name="enable-offline-instant-messaging-im-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype でオフライン インスタント メッセージング (IM) を有効にします。
+## <a name="enable-offline-instant-messaging-im-in-skype-for-business-server"></a>ビジネス サーバーのオフライン インスタント メッセージング (IM) では、Skype を有効にします。
 
-オフライン IM は、ビジネスのクライアントは、Skype に組み込まれたクライアント側の機能 (2016 C2R 16.0.6701.1000 をビルドするまたはそれ以上)、Skype のビジネス クライアントからユーザーの Exchange メールボックスにメッセージを送信するように、Exchange Web サービス (EWS) を活用します。 オフライン IM では、Exchange Web サービス (EWS) を使用して、ビジネス クライアント用の Skype から受信者のメールボックスにオフライン メッセージを送信します。 EWS はオフライン メッセージを送信するためのビジネス クライアント用の Skype を使用する必要があります。 インスタント メッセージングとプレゼンスの計画の詳細については、[インスタント メッセージングとプレゼンスのビジネス サーバー 2015 Skype での計画](../../plan-your-deployment/instant-messaging-and-presence.md)を参照してください。
+オフライン IM は、ビジネスのクライアントは、Skype に組み込まれたクライアント側の機能 (2016 C2R 16.0.6701.1000 をビルドするまたはそれ以上)、Skype のビジネス クライアントからユーザーの Exchange メールボックスにメッセージを送信するように、Exchange Web サービス (EWS) を活用します。 オフライン IM では、Exchange Web サービス (EWS) を使用して、ビジネス クライアント用の Skype から受信者のメールボックスにオフライン メッセージを送信します。 EWS はオフライン メッセージを送信するためのビジネス クライアント用の Skype を使用する必要があります。 インスタント メッセージングとプレゼンスの計画の詳細については、[インスタント メッセージングとプレゼンス ビジネス サーバーの Skype での計画](../../plan-your-deployment/instant-messaging-and-presence.md)を参照してください。
   
 > [!NOTE]
 > (2016 C2R は、16.0.6920.1000 を構築)、ビジネス クライアント用の Skype が必要なユーザーのメールボックスで Exchange を社内設置型のホストが場合、 
   
-### <a name="to-enable-or-disable-offline-im-in-skype-for-business-server-2015-with-cu3"></a>CU3 のビジネス サーバーの 2015 の Skype で IM オフラインを無効にするを有効または
+### <a name="to-enable-or-disable-offline-im-in-skype-for-business-server"></a>ビジネス サーバーの Skype で IM オフラインを無効にするを有効または
 
 1. Skype をビジネス サーバー管理シェルを開きます。
     
@@ -58,13 +58,9 @@ ms.lasthandoff: 03/28/2018
 
 オフライン メッセージがピックアップして処理するときの 2 分のタイマーがあります。 オフライン メッセージを処理できない場合は、次のディレクトリに表示されます。 
   
-   ```
-  %localappdata%\microsoft\office\16.0\lync\SipUserAddress\History Spooler
-  ```
+  <pre>  %localappdata%\microsoft\office\16.0\lync\SipUserAddress\History Spooler   </pre>
 
 ビジネス ETL ログの主な Skype はオフライン メッセージの処理に関する情報が含まれます、調査とトラブルシューティングのため、最適な情報源です。 
   
 > [!NOTE]
-> オフライン メッセージが送信に失敗して [下書き] フォルダーがメッセージでいっぱいになったという問題が報告されています。これは、Exchange On-Premises のメールボックスで発生します。この問題は、2016 年 6 月 14 日の時点ですべての C2R チャネルで修正されました。  
-  
-
+> オフライン メッセージが送信に失敗して [下書き] フォルダーがメッセージでいっぱいになったという問題が報告されています。これは、Exchange On-Premises のメールボックスで発生します。この問題は、2016 年 6 月 14 日の時点ですべての C2R チャネルで修正されました。   

@@ -1,26 +1,26 @@
 ---
-title: Skype for Business Server 2015 での新しいファイル ストアへのファイル ストア データの移動
+title: Skype ビジネス サーバー用の新しいファイル ストアにデータをファイル ストアの移動
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/30/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
-description: サーバー 2015 のビジネス展開に、Skype のファイル ストアとしての機能になっているファイル サーバーを削除する必要がありますかは、現在の変更を保存使用できないその他のために必要な場合、新しい共有を作成する必要があります。 次の手順を実行する必要があります。
-ms.openlocfilehash: 567db1e418d5c5c63af8e52146c5d6e1272d7677
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: ビジネス サーバーの展開、Skype のファイル ストアとしての機能になっているファイル サーバーを削除する必要がありますかは、現在の変更を保存使用できないその他のために必要な場合、新しい共有を作成する必要があります。 次の手順を実行する必要があります。
+ms.openlocfilehash: a80e6b4e039f7423a3e622062b6bee237ee00947
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992309"
 ---
-# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での新しいファイル ストアへのファイル ストア データの移動
+# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Skype ビジネス サーバー用の新しいファイル ストアにデータをファイル ストアの移動
  
-サーバー 2015 のビジネス展開に、Skype のファイル ストアとしての機能になっているファイル サーバーを削除する必要がありますかは、現在の変更を保存使用できないその他のために必要な場合、新しい共有を作成する必要があります。 次の手順を実行する必要があります。
+ビジネス サーバーの展開、Skype のファイル ストアとしての機能になっているファイル サーバーを削除する必要がありますかは、現在の変更を保存使用できないその他のために必要な場合、新しい共有を作成する必要があります。 次の手順を実行する必要があります。
   
-1. サーバー 2015 のビジネス サービスを削除するファイル ストアを使用するの Skype を終了します。
+1. ビジネス サーバー サービスを削除するファイル ストアを使用するの Skype を終了します。
     
 2. トポロジ ビルダーのファイル ストアを定義し、格納する新しいファイルを展開で使用できるようにするのには変更を公開します。
     
@@ -32,7 +32,7 @@ ms.lasthandoff: 03/28/2018
     
 ### <a name="to-move-file-store-data-from-one-file-store-to-a-new-file-store"></a>ファイル ストアのデータを新しいファイル ストアに移動するには
 
-1. ビジネス サーバー 2015、管理ツールの Skype がインストールされている RTCUniversersalServerAdmins または CsServerAdministrator のグループのメンバーとしてコンピューターにログオンします。
+1. ビジネス サーバー、管理ツールの Skype がインストールされている RTCUniversersalServerAdmins または CsServerAdministrator のグループのメンバーとしてコンピューターにログオンします。
     
 2.  、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
     
@@ -42,7 +42,7 @@ ms.lasthandoff: 03/28/2018
     
 5. トポロジ ビルダーがインストールされているコンピューターに、Domain Admins グループおよび RTCUniversalServerAdmins グループのメンバーとしてログオンします。
     
-6. 開始トポロジ ビルダー: [**スタート**] ボタン [**すべてのプログラム**] をクリックして、**ビジネス サーバー 2015 の Skype**を**Skype ビジネス サーバー 2015 のトポロジ ビルダー**] をクリックします。
+6. 開始トポロジ ビルダー: [**スタート**] ボタン [**すべてのプログラム**] をクリックして、 **Skype**、 **Skype**] をクリックします。
     
 7. ファイル ストアを使用するサーバーまたはプールを選び、次を行います。
     

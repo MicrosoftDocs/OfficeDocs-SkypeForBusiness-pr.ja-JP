@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1925db10-223e-4213-84cc-1de933878b28
+ROBOTS: NOINDEX, NOFOLLOW
 description: 実行コマンドは、サーバーの役割を展開するのには、実行するタスクの実行中の概要を表示します。 タスクが完了した後を展開し、アクティブまたは非アクティブし、アンインストール、概要が表示されます。 さらに、ボックスの一覧で選択コマンドは、実行時に作成されるログ ファイルのいずれか。 、表示するログ ファイルを選択するドロップダウン リストを使用し、[ログの表示] をクリックします。
-ms.openlocfilehash: 285a0ed0a8a790216d2accbc7dd6aba99605eb8d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: a63f6bada6b477558208b644373dca6993e8238e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969765"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018909"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components-invoke"></a>セットアップまたはビジネスのサーバー コンポーネントの Skype を削除します (起動)
  

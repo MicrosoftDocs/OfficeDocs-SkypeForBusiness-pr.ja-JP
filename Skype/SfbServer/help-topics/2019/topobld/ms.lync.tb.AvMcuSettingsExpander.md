@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 description: A のプロパティを編集するのには次の操作が定義されている、V 会議サーバー プールとします。
-ms.openlocfilehash: 2882617450373b3e6ec0c22af6f59a1c432a4042
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 1d9222b895d9df025519c2e7ad01f37757f2ed68
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19975196"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20991495"
 ---
 # <a name="av-mcu-settings-expander"></a>AV MCU の設定の拡張
  
@@ -33,7 +33,6 @@ A を関連付けるには V 会議サーバーのプール、フロント エ�
 > [!NOTE]
 > フロント エンド プールが表示されない場合は、**この A に関連付けるフロント エンド プール] を選択/V 会議プール**ウィンドウで、A が併設されているか、/V 会議サーバー、フロント エンド プール、**の中で会議を追加するのには選択されていませんか機能**のフロント エンド プールのプロパティのセクションです。
   
-## 
 
 A の編集を完了するのには **[ok]** をクリックしたら、V 会議サーバー プールの設定とします。 変更を破棄するには、[**キャンセル**] をクリックします。
   

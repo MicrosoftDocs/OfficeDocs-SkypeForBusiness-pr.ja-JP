@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
+ROBOTS: NOINDEX, NOFOLLOW
 description: ビジネス サーバーの Skype は、ホーム ユーザーのために、配置での内部および外部通信のアーカイブを制御するのにには、アーカイブ ポリシーを使用します。 アーカイブ ポリシーには、グローバル ポリシーとオプションの 1 つ以上のサイト ポリシーやユーザー ポリシーが含まれます。
-ms.openlocfilehash: c8061d5b92656e473e628f95e0fe410df248f7ce
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 9bb8057cd7d3d6b82e55a6045713f0183b3d3b01
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987810"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000798"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>アーカイブ ポリシー: 新規作成または現在の形式のままで編集
  
@@ -46,5 +47,5 @@ ms.locfileid: "19987810"
     
 - **外部通信をアーカイブ**(PIC 設定し、匿名ユーザーを含む)、リモート ユーザーなどの外部ユーザーを含めるし、パートナーのフェデレーション通信のアーカイブを有効にするには、このチェック ボックスを選択します。 既定では、どのポリシーでこれが無効です。
     
-アーカイブ機能および Exchange の統合などの機能の詳細について「[ビジネス サーバー 2015 の Skype でアーカイブするための計画](../../../plan-your-deployment/archiving/archiving.md)、[ビジネス サーバー 2015 Skype アーカイブの展開](../../../deploy/deploy-archiving/deploy-archiving.md)、および[管理アーカイブの Skype での使用」を参照してください。ビジネス サーバー 2015年](../../../manage/archiving/archiving.md)。
+アーカイブ機能および Exchange の統合などの機能の詳細について「 [Skype ビジネス サーバーでアーカイブするための計画](../../../plan-your-deployment/archiving/archiving.md)、 [Skype ビジネス サーバー用のアーカイブの展開](../../../deploy/deploy-archiving/deploy-archiving.md)、および[管理は、ビジネス Skype アーカイブの使用」を参照してください。サーバー](../../../manage/archiving/archiving.md)。
 

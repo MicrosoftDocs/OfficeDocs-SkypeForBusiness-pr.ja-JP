@@ -1,24 +1,24 @@
 ---
-title: ビジネス サーバー 2015 の Skype での簡単な Url の DNS の要件
+title: Skype で簡単な Url のビジネス サーバー用の DNS の要件
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/9/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
-description: '概要: は、Skype のビジネス サーバー 2015 の DNS レコードを実装する前にこのトピックの簡単な URL の注意事項を確認します。'
-ms.openlocfilehash: 87346a7c4c03837e5ebfdf0143cdb7c786f0e43b
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+description: '概要: は、Skype のビジネス サーバーの DNS レコードを実装する前にこのトピックの簡単な URL の注意事項を確認します。'
+ms.openlocfilehash: 9786037cde74b77b855946551f5d4ed5ffc91701
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20984387"
 ---
-# <a name="dns-requirements-for-simple-urls-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype での簡単な Url の DNS の要件
+# <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>Skype で簡単な Url のビジネス サーバー用の DNS の要件
  
-**の概要:**Skype のビジネス サーバー 2015 の DNS レコードを実装する前に、このトピックの簡単な URL の注意事項を確認します。
+**の概要:** Skype のビジネス サーバーの DNS レコードを実装する前に、このトピックの簡単な URL の注意事項を確認します。
   
 単純な Url、ユーザーの参加する会議を簡単、Skype の取得 Business Server 管理ツールを簡単に管理者にします。 単純な Url を定義する SIP ドメインのいずれにも一致する必要がありますが、自身のドメインを使用します。 
   
@@ -46,7 +46,7 @@ Skype ビジネス サーバーの次の 3 つの簡単な Url をサポート�
 ## <a name="changing-simple-urls-after-deployment"></a>配置後に簡単な Url を変更します。
 <a name="BK_Valid"> </a>
 
-最初の展開後に、簡単な URL を変更する場合は、変更に及ぼす影響について、DNS レコードと証明書の簡単な Url に注意してくださいする必要があります。 簡単な URL のベースが変更された場合は、DNS レコードと証明書もを変更する必要があります。 変更するたとえば、https://SfB2015.contoso.com/Meetをhttps://meet.contoso.comに変更を基本 URL SfB2015.contoso.com から meet.contoso.com、DNS レコードと meet.contoso.com を参照する証明書を変更する必要があります。簡単な URL を変更した場合はhttps://SfB2015.contoso.com/Meetにhttps://SfB2015.contoso.com/Meetings、SfB2015.contoso.com のベース URL は同じですがないため DNS、または証明書の変更が必要です。
+最初の展開後に、簡単な URL を変更する場合は、変更に及ぼす影響について、DNS レコードと証明書の簡単な Url に注意してくださいする必要があります。 簡単な URL のベースが変更された場合は、DNS レコードと証明書もを変更する必要があります。 変更するたとえば、https://SfB2015.contoso.com/Meetをhttps://meet.contoso.comに変更を基本 URL SfB2015.contoso.com から meet.contoso.com、DNS レコードと meet.contoso.com を参照する証明書を変更する必要があります。 簡単な URL を変更した場合はhttps://SfB2015.contoso.com/Meetにhttps://SfB2015.contoso.com/Meetings、SfB2015.contoso.com のベース URL は同じですがないため DNS、または証明書の変更が必要です。
   
 簡単な URL 名を変更するたびに、変更を登録するには各ディレクターおよびフロント エンド サーバーで**有効にする CsComputer**を実行してください。
   
@@ -69,7 +69,7 @@ Skype ビジネス サーバーの次の 3 つの簡単な Url をサポート�
 |ダイヤルイン  <br/> |https://dialin.contoso.com  <br/> |
 |管理  <br/> |https://admin.contoso.com  <br/> |
    
-オプション 2 では、単純な Url は、ドメイン名 SfB2015.contoso.com に基づいています。したがって、すべての 3 種類の簡単な Url を有効にする DNS A レコードを 1 つだけ必要があります。 この DNS の A レコードでは、SfB2015.contoso.com を参照します。さらに、する必要があります別の DNS の A レコードの他の SIP ドメインの組織で。 
+オプション 2 では、単純な Url は、ドメイン名 SfB2015.contoso.com に基づいています。 したがって、すべての 3 種類の簡単な Url を有効にする DNS A レコードを 1 つだけ必要があります。 この DNS の A レコードでは、SfB2015.contoso.com を参照します。 さらに、する必要があります別の DNS の A レコードの他の SIP ドメインの組織で。 
   
 **簡単な URL 命名オプション 2**
 
@@ -111,7 +111,7 @@ Meet-ext.geolb.contoso.com
 次に、(meet.contoso.com のような) 会議簡易 URL を 2 つの GeoDNS アドレスに解決する CNAME レコードを作成します。
   
 > [!NOTE]
-> ネットワークでは、(を通じて、組織内から送信されるトラフィックを含め、外部リンクに、簡単な URL のすべてのトラフィックをルーティングする) hairpinning を使用する場合、だけ GeoDNS の外部アドレスを構成してのみに対応、簡単な URL を解決するには外部アドレスです。
+> ネットワークがヘアピン (組織内部からのトラフィックを含め、すべての簡易 URL トラフィックを外部リンク経由でルーティングすること) を使用している場合は、外部 GeoDNS アドレスを構成して、その外部アドレスのみに会議簡易 URL を解決できます。
   
 この方式を使用するとき、2 つのプールに要求を配布するラウンドロビン方式か、または (地理的に近いプールなど) 1 つのプールに主に接続し、もう 1 つのプールは接続障害の場合にのみ使用するように、各 GeoDNS アドレスを構成できます。 
   

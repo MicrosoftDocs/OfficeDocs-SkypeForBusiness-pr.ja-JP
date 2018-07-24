@@ -3,7 +3,7 @@ title: ハイパーリンクのプレフィックスを選択します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 description: ブロック、警告メッセージを送信、または (可能) にする (ブロック、または警告メッセージを送信) をオンまたはオフにできるようにするハイパーリンクの種類を選択するのには、[ハイパーリンク プレフィックスの選択] ダイアログ ボックスを使用して、下にあるカテゴリの中から、拡張子のチェック ボックスハイパーリンクのプレフィックスです。 矢印をクリックして、カテゴリを展開し、すべてのカテゴリのハイパーリンクのプレフィックスを表示します。 すべてのカテゴリのプレフィックスのハイパーリンクを選択する場合は、カテゴリ名を選択します。
-ms.openlocfilehash: 6b4b888ba6836b88fb70c030287e09bd15f4dba8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 341a2be3e951d6c72dc92725550d3b6d7644b334
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20990967"
 ---
 # <a name="select-hyperlink-prefix"></a>ハイパーリンクのプレフィックスを選択します。
  

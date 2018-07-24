@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
+ROBOTS: NOINDEX, NOFOLLOW
 description: ビジネス サーバー ・ コントロール ・ パネル、Skype のビジネス サーバー用の管理用の web ベースのユーザー インターフェイスは、Skype を開始します。 このコントロール パネルを使用して、以前のリリースの Microsoft 管理コンソールを使用して実行されていた種類の管理タスクを実行することができます。
-ms.openlocfilehash: 6dabfb48568d7b0eeff5148c4c35dc1a9ceec255
-ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
+ms.openlocfilehash: 543edca48ad12c5047e2a68004aaa5a9ec7f5178
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20088462"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968524"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルの最初の実行チェックリスト
  
@@ -38,6 +39,6 @@ Skype ビジネス サーバーを配置した後に実行するを強くお勧�
 |エンタープライズ VoIP を展開したか、展開することを望む場合は、SIP トランク接続を構成して、公衆交換電話網 (PSTN) への接続を有効にします。  <br/> |**音声ルーティング** <br/> |[トランクと変換ルールを構成します。](http://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx) <br/> |
 |エンタープライズ VoIP を展開した場合は、エンタープライズ VoIP ルーティング設定を確認します。  <br/> |**音声ルーティング** <br/> |[音声ルーティングをテストします。](http://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx) <br/> |
 |アーカイブ サーバーを展開した場合は、アーカイブのポリシーと設定が組織の法令順守の必要性に適合することを確認します。  <br/> |**監視およびアーカイブ** <br/> |[アーカイブを管理します。](http://technet.microsoft.com/library/48c6cc8c-c2c1-4534-9a8a-fd5eb738076a.aspx) <br/> |
-|監視サーバーを展開した場合は、監視サーバーのレポートを表示して使用状況と診断情報を確認します。  <br/> |**ホーム** <br/> |[Skype for Business Server 2015 でのシステムの状態および監視の管理](../../../manage/health-and-monitoring/health-and-monitoring.md) <br/> |
+|監視サーバーを展開した場合は、監視サーバーのレポートを表示して使用状況と診断情報を確認します。  <br/> |**ホーム** <br/> |[状態と Skype での監視は、ビジネスのサーバーを管理します。](../../../manage/health-and-monitoring/health-and-monitoring.md) <br/> |
    
 

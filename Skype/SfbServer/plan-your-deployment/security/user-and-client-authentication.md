@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 のユーザーとクライアントの認証
+title: ビジネス サーバーの Skype のユーザーとクライアントの認証
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 7/14/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
-description: 信頼されたユーザーは、ビジネス サーバー 2015 の Skype 内の信頼されたサーバーが資格情報を認証されています。 このサーバーは、通常、Standard Edition サーバー、エンタープライズ版フロント エンド サーバーまたはディレクターです。 Skype ビジネス サーバーは、ユーザーの資格情報、信頼できる単一のバックエンド ・ リポジトリとして、Active Directory ドメイン サービスに依存します。
-ms.openlocfilehash: d8fa9265a4c27432dd4c2dba6e15c07e39f348b8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 信頼されたユーザーは、Skype で信頼されたサーバーによってビジネスのサーバーの認証された資格情報を 1 つ。 このサーバーは、通常、Standard Edition サーバー、エンタープライズ版フロント エンド サーバーまたはディレクターです。 Skype ビジネス サーバーは、ユーザーの資格情報、信頼できる単一のバックエンド ・ リポジトリとして、Active Directory ドメイン サービスに依存します。
+ms.openlocfilehash: c16e70641d2ce6e25b932904e9371f7ddf03bdd8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21010647"
 ---
-# <a name="user-and-client-authentication-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 のユーザーとクライアントの認証
+# <a name="user-and-client-authentication-for-skype-for-business-server"></a>ビジネス サーバーの Skype のユーザーとクライアントの認証
  
-信頼されたユーザーは、ビジネス サーバー 2015 の Skype 内の信頼されたサーバーが資格情報を認証されています。 このサーバーは、通常、Standard Edition サーバー、エンタープライズ版フロント エンド サーバーまたはディレクターです。 Skype ビジネス サーバーは、ユーザーの資格情報、信頼できる単一のバックエンド ・ リポジトリとして、Active Directory ドメイン サービスに依存します。
+信頼されたユーザーは、Skype で信頼されたサーバーによってビジネスのサーバーの認証された資格情報を 1 つ。 このサーバーは、通常、Standard Edition サーバー、エンタープライズ版フロント エンド サーバーまたはディレクターです。 Skype ビジネス サーバーは、ユーザーの資格情報、信頼できる単一のバックエンド ・ リポジトリとして、Active Directory ドメイン サービスに依存します。
   
 認証では、ユーザーの資格情報が信頼されたサーバーに渡されます。 Skype ビジネス サーバーの状態と、ユーザーの場所に応じて、次の認証プロトコルを使用します。
   
@@ -27,11 +27,11 @@ ms.lasthandoff: 03/28/2018
 - 企業のファイアウォール外のエンドポイントから接続している Active Directory の資格情報を持つユーザーの**NTLM プロトコル**をします。 アクセス エッジ サービスでは、ディレクター、存在する場合、または認証のためのフロント エンド サーバーにログオン要求を渡します。 アクセス エッジ サービス自体には、認証は実行されません。
     
     > [!NOTE]
-    > NTLM プロトコルは Kerberos ほど攻撃に対して強くないので、NTLM の使用を最小限にしている組織もあります。 その結果、内部にビジネス サーバー 2015 の Skype へのアクセスを制限することがありますか、クライアントが VPN または DirectAccess 接続を介して接続されています。 
+    > NTLM プロトコルは Kerberos ほど攻撃に対して強くないので、NTLM の使用を最小限にしている組織もあります。 その結果、内部にビジネス サーバーの Skype へのアクセスを制限することがありますか、クライアントが VPN または DirectAccess 接続を介して接続されています。 
   
 - **ダイジェスト プロトコル**: いわゆる匿名ユーザーに対して使用されます。匿名ユーザーは、有効な Active Directory の資格情報は持たないが、社内会議に招待され、有効な会議キーを持つ外部ユーザーです。ダイジェスト認証は、他のクライアント操作には使用されません。
     
-ビジネス サーバー 2015 の認証のための Skype は、2 つのフェーズで構成されます。
+Skype ビジネス サーバーの認証には、2 つのフェーズで構成されます。
   
 1. クライアントとサーバーの間に、セキュリティ アソシエーションが確立されます。
     
@@ -43,6 +43,19 @@ ms.lasthandoff: 03/28/2018
   
 ICE プロトコルおよび TURN プロトコルでも、IETF TURN RFC に記載されているとおり、ダイジェスト認証が使用されます。
   
-クライアント証明書は、ビジネス サーバー 2015 の Skype によって認証されるユーザーに対して別の方法を提供します。 ユーザーでは、ユーザー名とパスワードを提供することではなく証明書と暗号化の課題を解決するために必要な証明書に対応する秘密キーがあります。 (この証明書は、サブジェクト名またはサブジェクトの別名ユーザーを識別し、ビジネス サーバー 2015 の Skype を実行しているサーバーによって信頼されているルート CA が発行する必要があります、証明書の有効期間内であるし、失効していないことをいる必要があります)認証を受けるには、ユーザーは暗証番号 (PIN) を入力するだけが必要です。 証明書は、ユーザー名とパスワードを入力するが難しい、電話、携帯電話、およびその他のデバイスの場合に特に役立ちます。
+クライアント証明書は、Skype でビジネスのサーバーの認証を受けるユーザーの代替の方法を提供します。 ユーザー名とパスワードを提供する代わりに、ユーザーは証明書と、暗号化認証の解決に必要な証明書に対応する秘密キーを持ちます。 (この証明書は、サブジェクト名またはサブジェクトの別名ユーザーを識別し、ビジネス サーバーの Skype を実行しているサーバーによって信頼されているルート CA が発行する必要がありますと、証明書の有効期間内であるし、失効していないをいる必要があります)認証を受けるには、ユーザーは暗証番号 (PIN) を入力するだけが必要です。 証明書は、ユーザー名とパスワードを入力するが難しい、電話、携帯電話、およびその他のデバイスの場合に特に役立ちます。
   
+### <a name="cryptographic-requirements-due-to-asp-net-45"></a>ASP .NET 4.5 のための暗号化の要件 
 
+ビジネス サーバー 2015 CU5 の Skype は、現在 ASP.NET 4.6 では、AES はサポートされていませんし、Skype の会議アプリケーション起動に失敗が発生する可能性があります。 クライアントがコンピューターのキーの検証値として AES を使用している場合は、sha-1、または IIS で Skype 会議アプリケーションのサイト レベルでサポートされている別のアルゴリズムをコンピューターのキーの値をリセットする必要があります。 必要に応じて、手順については[IIS 8.0 の ASP.NET 構成の管理](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management)を参照してください。
+  
+その他に次の値がサポートされます。
+  
+- HMACSHA256
+    
+- HMACSHA384
+    
+- HMACSHA512
+    
+ ASP.NET 4 ではサポートされていた AES、3DES、MD5 の値は使用できなくなりました。 [ASP.NET 4.5、2 pt. で暗号化の機能強化](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/)の詳細があります。
+  

@@ -1,25 +1,25 @@
 ---
-title: Skype for Business Server 2015 でのビデオ相互運用サーバーの構成
+title: ビジネス サーバー用の Skype でビデオの相互運用機能のサーバーを構成します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
-description: '概要: ビジネス サーバー 2015 の Skype でビデオの相互運用機能サーバー (VIS) の役割を構成します。'
-ms.openlocfilehash: 7192135f5822e3086de7533afbdc8492194a3889
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: ビジネス サーバーの Skype でビデオの相互運用機能サーバー (VIS) の役割を構成します。'
+ms.openlocfilehash: 68931d9523fba92211295805e2f041869bc3e774
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20982532"
 ---
-# <a name="configure-the-video-interop-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのビデオ相互運用サーバーの構成
+# <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>ビジネス サーバー用の Skype でビデオの相互運用機能のサーバーを構成します。
  
-**の概要:**ビジネス サーバー 2015 の Skype でのビデオの相互運用機能サーバー (VIS) の役割を構成します。
+**の概要:** ビジネス サーバー用には、Skype でビデオの相互運用機能サーバー (VIS) の役割を構成します。
   
  VIS は Windows PowerShell を使用してビデオのトランクに関連付ける設定を構成します。 グローバル スコープのビデオ トランク構成は、VIS サービスがインストールされると作成されます。 作成されたビデオ トランク構成は、VIS によって、スコープがより具体的なビデオ トランク構成を持たないすべてのトランクに適用されます。 ビデオ トランク構成とは、ビデオ トランクに適用可能な設定のコレクションです。
   
@@ -31,7 +31,7 @@ Skype あたり、ビジネス サーバー展開のグローバル スコープ
   
 ### <a name="configure-the-vis-using-windows-powershell"></a>Windows PowerShell を使用して VIS を構成します。
 
-1. VIS と次の Windows PowerShell コマンドレットを使用して、CUCM の間のトランクを使用するには、新しいビデオのトランク構成 (設定のコレクション) を作成します。
+1. VIS と Cisco ユニファイド コミュニケーション マネージャー (CallManager、または CUCM) との間のトランクを使用する新しいビデオのトランク構成 (設定のコレクション) を作成、次の Windows PowerShell コマンドレットを使用します。
     
    ```
    New-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls $true(or $false)
@@ -71,7 +71,7 @@ VIS と CUCM との予期される相互作用に干渉することになる既�
 要求の URI には、E.164 ではない数値が含まれているビデオ ゲートウェイからのビデオ SIP トランク コール、VIS、関連付けられているトランクに関連付けられているダイヤル プランの名前を読み取り、要求 URI への招待を VI での電話のコンテキストの一部で、ダイヤル プラン名が含まれますS は、フロント エンドに送信します。 これによって、フロントエンドの翻訳アプリケーションがそのダイヤル プランに関連付けられている正規化ルールを抽出して要求 URI に適用します。
 ## <a name="trunk-configuration-options"></a>トランク構成のオプション
 
-記載されているビデオのトランク構成の Windows PowerShell コマンドレットは、ビジネス サーバー 2015 の Skype にします。 ビデオのトランク構成に関連付けられている設定は、簡単な説明を必要とします。
+記載されているビデオのトランク構成の Windows PowerShell コマンドレットは、新しいビジネス サーバー 2015 の Skype にでした。 ビデオのトランク構成に関連付けられている設定は、簡単な説明を必要とします。
   
  **GatewaySendsRtcpForActiveCalls**このパラメーターは、かどうか RTCP パケット、VTC から用に送信される、VIS アクティブな呼び出しを指定します。 この場合のアクティブな通話とは、メディアが最低でも一方向に流れることのできる通話のことです。 GatewaySendsRtcpForActiveCalls を True に設定すると、30 秒を超える期間に RTCP パケットを受信しない場合、VIS は呼び出しを終了できます。 既定では**True です**。
   
@@ -85,7 +85,4 @@ VIS と CUCM との予期される相互作用に干渉することになる既�
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[ビジネス サーバー 2015 の Skype での相互運用のため CUCM を構成します。](configure-cucm-for-interoperation.md)
-
+[CUCM を Skype ビジネス サーバーの相互運用の構成します。](configure-cucm-for-interoperation.md)

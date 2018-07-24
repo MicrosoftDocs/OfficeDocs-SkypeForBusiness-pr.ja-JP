@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 description: Skype ルーム システム v2 の管理の概要です。
-ms.openlocfilehash: 5e6fe310051d5fc48875a878e64868a8a5672346
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: 81ad0e43f68127e3a178434ebdd8ac8a43c94adc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014904"
 ---
 # <a name="management-overview"></a>管理の概要 
 
@@ -39,7 +40,7 @@ Skype ルーム システム v2 のアプリケーションと接続されてい
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows 探して AutoAdminLogon = (dword) 1  <br/> |起動するように Skype ルーム システム v2 を有効に  <br/> |
 |電源管理 -\> AC、画面をオフに 10 分後  <br/> 電源管理 -\> Ac システムをスリープ状態を配置しません。  <br/> |により、接続されている表示をオフにして、自動的に復帰する Skype ルーム システム v2  <br/> |
-|net accounts /maxpwage:unlimited  <br/> またはローカル アカウントのパスワードの有効期限を無効にするのと同等のことを意味します。 これを行うには、障害が発生する Skype アカウントの期限切れのパスワードについて苦情を言ってログオンが失敗すると、最終的に。 したがってこれを設定して必要があります管理者アカウント、最終的にも期限切れにする] ボックスに、コンピューター上のすべてのローカル アカウントに影響を与えるこのこと注意してください。  <br/> |常にログインするように Skype アカウントを有効にする  <br/> |
+|net accounts /maxpwage:unlimited  <br/> または、ローカル アカウントでパスワードの期限切れを無効にする同等の手段。この設定に失敗すると、パスワードの期限が切れていることが通知され、Skype アカウントのログオンが失敗する原因になります。この影響はマシン上のすべてのローカル アカウントに及びます。したがって、この設定に失敗すると、ボックスの管理アカウントも最終的には期限切れになります。  <br/> |常にログインするように Skype アカウントを有効にする  <br/> |
    
 グループ ポリシーを使用してファイルを転送するは、[構成ファイルの項目](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)で説明します。
   
@@ -74,14 +75,14 @@ Skype ルーム システム v2 OS と Skype ルーム システム v2 アプリ
 
 トラブルシューティングと管理モードの詳細については、 [Skype ルームの管理のシステムのバージョン 2](room-systems-v2-operations.md#admin-mode-and-device-management)を参照してください。 
 
-### <a name="see-also"></a>関連項目
+## <a name="see-also"></a>関連項目
 
 [Skype ルーム システムのバージョン 2 のヘルプ](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Skype ルームの計画システム v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Skype Room Systems バージョン 2 の計画](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 
-[Skype の部屋を配置するシステム v2](../../deploy/deploy-clients/room-systems-v2.md)
+[Skype Room System バージョン 2 を展開する](../../deploy/deploy-clients/room-systems-v2.md)
 
-[Skype ルーム システム v2 のコンソールを構成します。](../../deploy/deploy-clients/console.md)
+[Skype Room Systems バージョン 2 コンソールを構成する](../../deploy/deploy-clients/console.md)
 
-[Skype ルーム システム v2 のコンソールの設定を XML 構成ファイルを使用してリモートで管理します。](xml-config-file.md)
+[Skype Room Systems バージョン 2 のコンソールの設定を、XML 構成ファイルを使用してリモートで管理する](xml-config-file.md)

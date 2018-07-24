@@ -3,7 +3,6 @@ title: サイトの選択
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,40 +10,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
-description: 環境内で利用可能なサイトを検索するのには、[サイト] ダイアログ ボックスの選択を使用します。 既存のサイトを使用するには、一覧の [サイト] をクリックし、[OK] をクリックします。
-ms.openlocfilehash: 7ebf146d6887ec0f2fafc8655c6d448fbd0573fb
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ROBOTS: NOINDEX, NOFOLLOW
+description: '[サイトの選択] ダイアログ ボックスを使用して、環境で使用可能なサイトを検索します。既存のサイトを使用するには、一覧でサイトをクリックして [OK] をクリックします。'
+ms.openlocfilehash: 6eb2c4ccaeb7b6558af78f655c97f3e549285829
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20044110"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993614"
 ---
 # <a name="select-a-site"></a>サイトの選択
- 
-[**サイトの選択**] ダイアログ ボックスを使用して、環境で使用可能なサイトを検索します。既存のサイトを使用するには、一覧でサイトをクリックして [**OK**] をクリックします。
-  
-> [!NOTE]
-> 使用可能なサイトをすべて取得するには、検索ボックスに何も入力せずに検索アイコンをクリックします。 
-  
- 
-  
-## <a name="tasks-you-can-perform"></a>実行できるタスク
 
-[**サイトの選択**] ページでは次のタスクを実行できます。
-  
-- [永続的なチャット サーバーのオプションをグローバルに、または永続的なチャット サーバー プールの構成します。](http://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
-    
-- [永続的なチャットのサイト ポリシーを作成します。](http://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
-    
- 
-  
-## <a name="to-configure-persistent-chat-options-globally"></a>永続的なチャット ルームのオプションをグローバルに構成するのには
+> [!NOTE] 
+> 永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。 同じ機能は、チームで使用できます。 詳細については、[マイクロソフトのチームにビジネス用の Skype のアップグレード](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams)を参照してください。 永続的なチャットの使用が必要な場合、選択肢としてはチームにこの機能を必要とするユーザーを移行するか、ビジネス サーバー 2015 の Skype を使用し続けます。
 
-**サイトを選択**すると、永続的なチャット サーバーのサイト設定を構成するサイトを選択します。
-  
-## <a name="to-create-a-persistent-chat-policy-for-a-site"></a>永続的なチャットのサイトのポリシーを作成するには
-
-[**サイトの選択**] でポリシーを適用するサイトをクリックします。 
-  
-永続的なチャット サーバーの機能と機能の詳細については、計画ドキュメントの[概要の永続的なチャット サーバー](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx)を参照してください。 永続的なチャット サーバーの構成の操作に関する詳細についてを参照してください[永続的なチャット サーバーの構成](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx)、展開に関するドキュメントおよび[Lync Server 2013 を管理する、永続的なチャット サーバー](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx)の操作マニュアルを参照します。
 

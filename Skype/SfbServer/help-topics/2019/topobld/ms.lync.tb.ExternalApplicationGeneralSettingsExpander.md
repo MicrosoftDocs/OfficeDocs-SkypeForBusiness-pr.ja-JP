@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 description: 既に定義されている信頼されたアプリケーション サーバーのプロパティを編集するには、これらの指示に従います。
-ms.openlocfilehash: f6acc3f31e294cab08b688327c7cc9b8f25bea3b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: b01e48a3d2a003295956df981c4b571a7494be34
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987285"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993100"
 ---
 # <a name="external-application-general-settings-expander"></a>外部アプリケーションの全般設定の拡張
  
@@ -38,7 +38,6 @@ ms.locfileid: "19987285"
 
 ドロップ ダウン リストから定義済みのエンタープライズ エディションのフロント エンド プールまたは標準的なフロント エンド サーバーのエディションを選択することによって、信頼されたアプリケーション サーバー プールの次ホップのサーバーを指定できます。 ディレクターまたはディレクター プールを選択し、信頼されたアプリケーション サーバーの次のホップの選択が有効な一覧には表示されません。
   
-## 
 
 受け入れるし、変更内容を保存して **[ok]** をクリックします。 変更を破棄してプロパティ ページを終了するには、[**キャンセル**] をクリックします。
   

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 description: New を指定するには、削除、既存のまたは、単純な Url をアクティブに変更するのには、次の操作を行います。
-ms.openlocfilehash: 5aa9b62c9c87002544fdc0ee5b045436ee80dd84
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 064d26bb3b77f0ba151ee3a6714e0ac233a7bfa0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19992224"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20990596"
 ---
 # <a name="simple-url-settings-expander"></a>簡単な URL の設定の拡張
  
@@ -44,7 +44,7 @@ URL を削除するには、URL を選択し、[**削除**] をクリックし�
   
 [プロパティの編集] ページで、すべての変更が完了したら、変更を保存するのには **[ok]** をクリックします。 変更を破棄するには、[**キャンセル**] をクリックします。
   
-## 
+###  <a name="see-also"></a>関連項目
 
 詳細については、[単純な Url を計画する](http://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)を参照してください。
   

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e32c6712-6dc9-4de9-8d74-9fdccf3de1ba
-description: 現在の環境でサポートするクライアントのバージョンを指定できます。 バージョンが異なる 2 つのクライアントが対話する場合、機能によっては一方のクライアントでは使用できても、他方のクライアントでは使用できないことがあります。 Skype ビジネス サーバーに含まれている機能の最大限に活用し、全体的なユーザー エクスペリエンスを向上させるために、環境内で使用されているクライアント バージョンを制限するのにはクライアント バージョン フィルターを使用することができます。 クライアント バージョン フィルターを使用すると、複数のクライアント バージョンをサポートすることで発生するコストを抑えることもできます。
-ms.openlocfilehash: bf1e521a5c847bff8968364556d51b82d0f934e2
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 現在の環境でサポートするクライアントのバージョンを指定できます。 バージョンが異なる 2 つのクライアントが対話する場合、機能によっては一方のクライアントでは使用できても、他方のクライアントでは使用できないことがあります。
+ms.openlocfilehash: 4364594de0ef476a802ab127f20b120689dd56a4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969597"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993804"
 ---
 # <a name="client-version-policy-create-new-or-edit-existing"></a>クライアント バージョン ポリシー: 新規作成または現在の形式のままで編集
  
@@ -51,5 +52,5 @@ ms.locfileid: "19969597"
     
 - **上下矢印キー**このオプション選択したクライアントのバージョンのルールを上下優先移動します。 ルールは、一覧の順序で処理されます。
     
-クライアントとクライアントのバージョン間での相互運用性に関する詳細については、計画ドキュメントの[クライアントの相互運用性](http://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)を参照してください。 クライアント バージョン ポリシーの使用についての詳細は、操作マニュアルで[の組織でサポートされるクライアント バージョンの指定](http://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx)を参照してください。
+クライアントとクライアントのバージョン間での相互運用性に関する詳細については、[クライアントの相互運用性](http://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)を参照してください。 クライアント バージョン ポリシーの使用についての詳細は、操作マニュアルで[の組織でサポートされるクライアント バージョンの指定](http://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx)を参照してください。
 

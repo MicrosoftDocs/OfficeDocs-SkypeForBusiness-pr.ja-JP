@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: パートナー企業やサービスの連絡先へのアクセスを内部ユーザーと外部ユーザーを許可するのには、エッジ トランスポート サーバーを構成できます。
-ms.openlocfilehash: da8580752a07d5d2552adbffd3bdf5924ad5b8e1
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: d3541fae214d64a87f9bbc51603e3ae19346c686
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19972365"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983813"
 ---
 # <a name="federation-planning-tool"></a>フェデレーション (計画ツール)
  
 パートナー企業やサービスの連絡先へのアクセスを内部ユーザーと外部ユーザーを許可するのには、エッジ トランスポート サーバーを構成できます。
   
- フェデレーションは、Microsoft Lync 2013 の場合と同様に動作します。 フェデレーション用の環境を準備する方法については、以下のトピックを参照してください。
+ フェデレーションで動作する Skype ビジネス サーバーの Microsoft Lync 2013 の場合と同様。 フェデレーション用の環境を準備する方法については、以下のトピックを参照してください。
   
 - [Lync Server 2013 と Office Communications Server のフェデレーションの計画](https://technet.microsoft.com/en-us/library/jj205335%28v=ocs.15%29.aspx)
     

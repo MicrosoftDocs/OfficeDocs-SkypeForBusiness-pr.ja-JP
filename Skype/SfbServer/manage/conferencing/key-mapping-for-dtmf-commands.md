@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 での DTMF コマンドの主要なマッピングの管理
+title: ビジネス サーバー Skype の DTMF コマンドのキー マッピングを管理します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
-description: '概要: ビジネス サーバー 2015 Skype でデュアル トーン多重周波数 (DTMF) コマンドのキー マッピングを管理する方法を説明します。'
-ms.openlocfilehash: 0dca7143b59b7cf4ded0302f763053e71be3bb2b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: ビジネス サーバー Skype でデュアル トーン多重周波数 (DTMF) コマンドのキー マッピングを管理する方法を説明します。'
+ms.openlocfilehash: 629db0c94b71b9cbf54ebf2c6f6a5074b4b611fa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992683"
 ---
-# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での DTMF コマンドの主要なマッピングの管理
+# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>ビジネス サーバー Skype の DTMF コマンドのキー マッピングを管理します。
  
-**の概要:**ビジネス サーバー 2015 Skype でデュアル トーン多重周波数 (DTMF) コマンドのキー マッピングを管理する方法について説明します。
+**の概要:** ビジネス サーバー Skype でデュアル トーン多重周波数 (DTMF) コマンドのキー マッピングを管理する方法について説明します。
   
 ダイヤルイン会議のユーザーは、電話キーパッドのキーを押して、デュアルトーン多重周波数 (DTMF) のコマンドを実行できます。DTMF コマンドを使用すると、会議にダイヤルインするユーザーは、電話のキーパッドを使用して会議設定 (自身をミュートおよびミュート解除したり、会議をロックおよびロック解除したりするなど) を制御できます。 
   

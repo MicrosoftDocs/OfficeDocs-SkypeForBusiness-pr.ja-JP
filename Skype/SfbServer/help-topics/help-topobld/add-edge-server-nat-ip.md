@@ -3,7 +3,7 @@ title: エッジ サーバーの NAT の IP を追加します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
 description: パブリック IP アドレスは、ネットワーク アドレス変換 (NAT) によって使用される IP アドレスです。 IP アドレスをパブリック ルーティング可能にする必要があります。 この辺のプールは、このウィザードの [機能の選択] ページ上の NAT オプションで変換の外部 IP アドレスを選択するために必要です。
-ms.openlocfilehash: 4bfbcb7d8859dc928c78c8e32b21604ef473317b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: be14b49a0d5ccac83dbee483d45aef91f1182621
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003118"
 ---
 # <a name="add-edge-server-nat-ip"></a>エッジ サーバーの NAT の IP を追加します。
  

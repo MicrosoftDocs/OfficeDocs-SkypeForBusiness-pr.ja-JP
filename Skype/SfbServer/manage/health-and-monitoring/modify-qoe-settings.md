@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 での QoE (Quality of Experience) 設定の変更
+title: ビジネス サーバーの Skype の高品質のエクスペリエンスの設定を変更します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
-description: 概要では、Skype のビジネス サーバー 2015 の QoE データの保存期間を指定する方法について説明します。
-ms.openlocfilehash: 99a85a389b225d57b48b52b3f6f1d5b66e93f122
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 概要では、Skype のビジネス サーバーの QoE データの保存期間を指定する方法について説明します。
+ms.openlocfilehash: a456a2528b78242849f651209e70c98046ebe0c3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21012667"
 ---
-# <a name="modify-quality-of-experience-settings-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での QoE (Quality of Experience) 設定の変更
+# <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>ビジネス サーバーの Skype の高品質のエクスペリエンスの設定を変更します。
  
-**の概要:**ビジネス サーバー 2015 の Skype で QoE データの保存期間を指定する方法について説明します。
+**の概要:** Skype のビジネス サーバーの QoE データの保存期間を指定する方法について説明します。
   
 既定では、QoE (Quality of Experience) データは 60 日後に削除されます。[**QoE データ**] ページの設定を使用して、データの保持期間を延長または短縮できます。QoE を無効にすると、QoE が有効化される前に取得されたデータも削除の対象になります。
   
@@ -67,7 +67,4 @@ QoE の保存期間の設定は、Windows PowerShell と**セット CsQoEConfigu
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [監視を展開します。](http://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
-

@@ -10,18 +10,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
 description: '概要: は、バックアップおよびビジネス サーバー 2015 の Skype での永続的なチャット サーバーのデータベースを復元する方法を説明します。'
-ms.openlocfilehash: 419085219ea995c680fe31fcca3597a884ceba5d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 9287037a0cf89f9451a31356b442bcba93f5010f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992807"
 ---
 # <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット データベースのバックアップと復元
  
-**の概要:**バックアップおよびビジネス サーバー 2015 の Skype での永続的なチャット サーバーのデータベースを復元する方法について説明します。
+**の概要:** バックアップおよびビジネス サーバー 2015 の Skype での永続的なチャット サーバーのデータベースを復元する方法について説明します。
   
 永続的なチャット サーバーには、履歴とコンテンツ、構成、ユーザー プロビジョニング、およびその他の関連するメタデータなど、チャット ルームのデータを格納する SQL Server データベースのソフトウェアが必要です。 さらに、組織にアーカイブするには、永続的なチャットの活動を必要とする規制があり、オプションのコンプライアンス サービスが有効になっている場合は、SQL Server データベース ソフトウェアを使用して内容を含めチャット イベントでは、次のように、コンプライアンス データを格納参加と、部屋のままです。 チャット ルームの内容は、永続的なチャット (mgc) データベースに格納されます。 コンプライアンス データはコンプライアンス データベース (mgccomp) に保管されます。 コンプライアンス データは非常に重要なビジネス データであり、定期的なバックアップが必要です。 
   
+> [!NOTE]
+> 永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。 同じ機能は、チームで使用できます。 詳細については、[マイクロソフトのチームにビジネス用の Skype からの旅](/microsoftteams/journey-skypeforbusiness-teams)を参照してください。 永続的なチャットを使用する場合は、選択肢は、いずれかをチームでは、この機能を必要とするユーザーを移行するまたはビジネス サーバー 2015 の Skype を使用し続ける。 
+
 ## <a name="back-up-the-databases"></a>データベースをバックアップする
 
 永続的なチャットのデータのバックアップの 2 つの方法もあります。 
@@ -65,5 +69,3 @@ Import-CsPersistentChatData -FileName <String> <COMMON PARAMETERS>
 ```
 Import-CsPersistentChatData -ByteInput <Byte > <COMMON PARAMETERS>
 ```
-
-

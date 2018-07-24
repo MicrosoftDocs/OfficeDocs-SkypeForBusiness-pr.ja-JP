@@ -3,7 +3,7 @@ title: 証明書の要求 (サブジェクト代替名)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
 description: サブジェクト名と、サブジェクト代替名] ページでは、サブジェクト名と証明書を構成するすべてのサブジェクト代替名の概要を提供します。 サブジェクト名とサブジェクト代替名の表示名は、トポロジ ビルダーで、配置を定義したときに作成されているために、定義のドキュメントから収集されます。
-ms.openlocfilehash: dc9a79de7ed5443eb8d8ffa74f49e8fae4a8aa27
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 72f2ecae3a3452de6e52b905cbd10f52535421f7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008062"
 ---
 # <a name="certificate-request-subject-alternate-names"></a>証明書の要求 (サブジェクト代替名)
  

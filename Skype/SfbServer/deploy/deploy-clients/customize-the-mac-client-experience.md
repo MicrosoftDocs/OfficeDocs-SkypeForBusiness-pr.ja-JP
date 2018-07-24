@@ -3,18 +3,18 @@ title: Skype for Business での Mac クライアントのエクスペリエン�
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 10/31/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: この記事では、Mac クライアント用の Skype for Business で利用できる、クライアントの基本設定と既定値について説明します。また、それらをアプリ以外から編集する方法についても説明します。
-ms.openlocfilehash: 8c779ad35d82b42bc8e162599265f6a25f7a65c3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 37ea82cc87e58303ab412c7adbd427dd11c74f89
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014641"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Skype for Business での Mac クライアントのエクスペリエンスをカスタマイズする
  
@@ -28,10 +28,10 @@ ms.lasthandoff: 03/28/2018
   
 これらの環境設定を設定するのにはクライアントの Mac のターミナルのプロンプトを表示し、として必要な既定値ライト com.microsoft.SkypeForBusiness のキー操作が次の表に記載されている基本設定キーを使用して、入力します。
   
-**クライアント基本設定のキー**
+**クライアントの基本設定のキー**
 
 
-|**キー**|**タイプ**|**値**|**説明**|
+|**キー**|**種類**|**値**|**説明**|
 |:-----|:-----|:-----|:-----|
 |AutoDetectAutoDicoveryURLs  <br/> |ブール値  <br/> |0 = 手動のサーバー構成  <br/> 1 = 自動のサーバー構成 (既定)  <br/> |ビジネス用の Skype でのトランスポートおよびサインイン時に使用するサーバーを識別する方法を指定します。 このポリシー設定を有効にする場合は、**internalAutoDiscoveryURL** および **externalAutoDiscoveryURL** を有効にする必要があります。 <br/> |
 |internalAutoDiscoveryURL  <br/> |文字列  <br/> |完全な自動検出 URL  <br/> |内部自動検出 URL  <br/> |
@@ -56,7 +56,6 @@ com.microsoft.SkypeForBusiness trustedDomainList を作成する既定値の配�
   
 com.microsoft.SkypeForBusiness trustedDomainList を作成する既定値の配列-"sfb.com"「abc.com」「test.org」を追加
   
-[Apple のリファレンス ・ ライブラリ](https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/defaults.1.mdl)の既定の設定] コマンドの使用に関するガイダンスが見つかります。 このページは作成後かなりの期間がたっているため保守管理がされなくなっていますが、既定のコマンドに関する情報は変わらず現在も適用できます。
   
 ### <a name="sample-unedited-settings"></a>未編集の設定のサンプル
 

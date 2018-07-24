@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 既存のリカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーの設定を編集するのには次のセクションが表示されます。
-ms.openlocfilehash: eb82254746ea74e06dcd51231712d4694fa8aa9c
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 194324a845442041b8dd2bc11274b100ba145276
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991601"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989078"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>ブランチ オフィス アプライアンス全般設定エキスパンダー
  
@@ -28,7 +28,6 @@ ms.locfileid: "19991601"
     
 - 仲介サーバーの設定
     
-## 
 
 リカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーには、次のように表示されます。
   
@@ -70,7 +69,6 @@ ms.locfileid: "19991601"
   
 仲介サーバーに関連付けられている 1 つ以上のゲートウェイがある場合は、関連付けられている最初のゲートウェイがデフォルト ゲートウェイになります。 別のゲートウェイをデフォルト ゲートウェイとして選択する必要がある場合は、デフォルトにするゲートウェイを選択して、[**デフォルトに設定**] をクリックします。
   
-### 
 
 詳細を定義して、リカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーの設定の構成については、[ブランチ サイトの復元ソリューション](http://technet.microsoft.com/library/1700f99b-709c-4e47-88eb-c0a5490e26e2.aspx)を参照してください。
   

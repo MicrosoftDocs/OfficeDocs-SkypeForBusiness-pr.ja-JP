@@ -1,24 +1,24 @@
 ---
-title: ビジネス サーバー 2015 の Skype でミラー データベースの監視レポートを関連付ける
+title: Skype でミラー データベース ビジネス サーバーの監視レポートを関連付ける
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
-description: '概要: ビジネス サーバー 2015 の Skype で使用されるミラー データベースの監視レポートを関連付ける方法を説明します。'
-ms.openlocfilehash: 246f16fd54133e2a6cf1e26a8126d0ec546bd686
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: Skype ビジネス サーバーの使用、ミラー データベースの監視レポートを関連付ける方法を説明します。'
+ms.openlocfilehash: e5d9072c2315a2d82f2f41559167a488747fa205
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000772"
 ---
-# <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype でミラー データベースの監視レポートを関連付ける
+# <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Skype でミラー データベース ビジネス サーバーの監視レポートを関連付ける 
  
-**の概要:**監視レポートをビジネス サーバー 2015 Skype で使用するミラー データベースに関連付ける方法について説明します。
+**の概要:** Skype ビジネス サーバーの使用、ミラー データベースの監視レポートを関連付ける方法について説明します。
   
 ## <a name="monitor-reports-with-a-mirror-database"></a>ミラー データベースを使用する監視レポート
 
@@ -66,9 +66,6 @@ ms.lasthandoff: 03/28/2018
     
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[ビジネス サーバー 2015 の Skype でのレポートの監視をインストールします。](install-monitoring-reports.md)
+[Skype のビジネス サーバーの監視レポートをインストールします。](install-monitoring-reports.md)
   
-[ビジネス サーバー 2015 の Skype でのレポートの監視を使用します。](../../manage/health-and-monitoring/monitoring-reports.md)
-
+[Skype ビジネス サーバーの監視のレポートの使用](../../manage/health-and-monitoring/monitoring-reports.md)

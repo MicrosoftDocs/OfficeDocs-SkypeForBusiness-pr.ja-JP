@@ -3,7 +3,6 @@ title: 先進認証でサポートされる Skype for Business トポロジ
 ms.author: tracyp
 author: MSFTTracyP
 manager: serdars
-ms.date: 12/4/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -12,11 +11,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: この記事では、どのオンラインおよびオンプレミス トポロジが Skype for Business での先進認証でサポートされるかを、各トポロジに適用されるセキュリティ機能とともに一覧表示します。
-ms.openlocfilehash: a6be001bf1aeeeba9823c291ee9726c33ec9009a
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: cc849dc1df0f4bf97bb362449ef1ded58596cb91
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001800"
 ---
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>先進認証でサポートされる Skype for Business トポロジ
  
@@ -34,7 +34,7 @@ Skype for Business、Skype for Business Online、Exchange Server、Exchange Onli
 
 2 つのサーバー アプリケーション、MA によって使用される Skype for Business トポロジを含む、2 つの Office 365 ワークロードで構成される可能性があります。
   
-- Skype for Business Server 2015 (CU 5) オンプレミス
+- Skype ビジネス サーバー (CU 5) 設置
     
 - Skype for Business Online (SFBO)
     
@@ -48,7 +48,7 @@ MA のもう 1 つの重要な部分は、ユーザーの認証 (authN) と承�
     
 - Active Directory フェデレーション サーバー (ADFS) オンプレミス
     
-これと同じように、Azure AD を使用したクラウドでの EXO および SFBO、オンプレミスの Exchange Server (EXCH) および Skype for Business Server 2015 (SFB) も該当します
+EXO と SFBO と Azure AD は、雲の中で、次のようになる少しようと Exchange Server (EXCH) およびビジネス サーバー (デバイス) の prem. 上の Skype
   
 ![すべてのアプリケーション (Exchange および Skype for Business) とワークロード (EXO および SFBO)、および MA をオンにするときに関与させられる両方の認証サーバー (ADFS および evoSTS) の例。](../../media/18a3b451-1e64-40fc-b47f-7ce9587814bb.PNG)
   

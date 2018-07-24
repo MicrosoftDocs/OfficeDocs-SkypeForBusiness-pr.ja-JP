@@ -1,25 +1,24 @@
 ---
-title: 'Skype for Business Server 2015 での SRS v1 管理 Web ポータルの展開 '
+title: ビジネス サーバーの Skype で SRS v1 の管理用の Web ポータルを展開します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/3/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
-description: ビジネス サーバー 2015 Skype ルーム システム v1 の Skype (SRS v1、Lync ルームのシステムと呼ばれていました) 管理用の Web ポータルは、組織が、Skype ルーム システムの会議室を維持するために使用できる web ポータルです。 管理者は、オーディオ/ビデオ デバイスを監視することによってなど、デバイスの稼働状態を監視するのに SRS v1 を管理する Web ポータルを使用できます。 このポータルでは、管理者はリモートで会議室の稼働状態を監視するための診断情報を収集できます。
-ms.openlocfilehash: 84f9d84861980f970fb496f957c712a1d7dfead4
-ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
+description: ビジネス サーバー Skype ルーム システム v1 の Skype (SRS v1、Lync ルームのシステムと呼ばれていました) 管理用の Web ポータルは、組織が、Skype ルーム システムの会議室を維持するために使用できる web ポータルです。 管理者は、オーディオ/ビデオ デバイスを監視することによってなど、デバイスの稼働状態を監視するのに SRS v1 を管理する Web ポータルを使用できます。 このポータルでは、管理者はリモートで会議室の稼働状態を監視するための診断情報を収集できます。
+ms.openlocfilehash: f9f11674bdc40a5a93b9d2e40c9a02a12fe30214
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20088533"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013364"
 ---
-# <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での SRS v1 管理 Web ポータルの展開 
+# <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>ビジネス サーバーの Skype で SRS v1 の管理用の Web ポータルを展開します。
  
-ビジネス サーバー 2015 Skype ルーム システム v1 の Skype (SRS v1、Lync ルームのシステムと呼ばれていました) 管理用の Web ポータルは、組織が、Skype ルーム システムの会議室を維持するために使用できる web ポータルです。 管理者は、オーディオ/ビデオ デバイスを監視することによってなど、デバイスの稼働状態を監視するのに SRS v1 を管理する Web ポータルを使用できます。 このポータルでは、管理者はリモートで会議室の稼働状態を監視するための診断情報を収集できます。
+ビジネス サーバー Skype ルーム システム v1 の Skype (SRS v1、Lync ルームのシステムと呼ばれていました) 管理用の Web ポータルは、組織が、Skype ルーム システムの会議室を維持するために使用できる web ポータルです。 管理者は、オーディオ/ビデオ デバイスを監視することによってなど、デバイスの稼働状態を監視するのに SRS v1 を管理する Web ポータルを使用できます。 このポータルでは、管理者はリモートで会議室の稼働状態を監視するための診断情報を収集できます。
   
 この機能を使用するのには SRS v1 を管理する Web ポータルをすべての Skype のビジネス サーバーのフロント エンド サーバーに展開する必要があります。 このガイドでは、管理者向けに SRS 管理 Web ポータルのインストールおよび設定方法について説明します。 Skype のビジネス サーバーの管理のための知識があるユーザーおよびビジネスのサーバー トポロジの Skype を変更するのには管理者権限があるユーザーに管理者のものです。
   

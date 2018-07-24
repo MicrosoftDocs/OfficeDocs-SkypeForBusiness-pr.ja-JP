@@ -3,7 +3,7 @@ title: ポリシーをユーザーに割り当てます。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f36a2699-5cf6-4995-9f6d-ec3519ca0903
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 03aea975fae29b6a905753a2365007fb5b8a584f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: a07f2216cbd67c23d732d56bc66abf806dcadf2c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993389"
 ---
 # <a name="users-assign-policies"></a>ポリシーを割り当てるユーザー。
  
@@ -26,7 +27,7 @@ ms.lasthandoff: 03/28/2018
     
 - [ユーザーがサインインできるクライアント バージョンを指定します。](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
     
-- [ビジネス サーバー 2015 の Skype のユーザー単位の PIN ポリシーを割り当てる](../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [Skype for Business Server 2015 でのユーザー単位の PIN ポリシーの割り当て](../../manage/authentication/assign-a-per-user-pin-policy.md)
     
 - [ユーザーのフェデレーション、リモート ユーザー アクセス、およびパブリック IM 接続を構成します。](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     

@@ -9,103 +9,107 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
-description: 'Summary: Read this topic to learn about Persistent Chat Server components and topologies in Skype for Business Server 2015.'
-ms.openlocfilehash: b5da90b6753a534ae705af96dcf871663017ea55
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+description: '概要: ビジネス サーバー 2015 の永続的なチャット サーバーのコンポーネントおよびトポロジでは、Skype については、このトピックを読みます。'
+ms.openlocfilehash: 9f771cddb8d3176840e8df1a34339f33e8ccac5f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968255"
 ---
 # <a name="plan-persistent-chat-server-topology"></a>常設チャット サーバー トポロジの計画
  
-**Summary:** Read this topic to learn about Persistent Chat Server components and topologies in Skype for Business Server 2015.
+**の概要:** ビジネス サーバー 2015 の永続的なチャット サーバーのコンポーネントおよびトポロジでは、Skype については、このトピックを参照してください。
   
-Persistent Chat Server supports both single-server and multiple-server configurations. You can install Persistent Chat Server on either a Skype for Business Server 2015 Enterprise Edition or Standard Edition Server. 
+永続的なチャット サーバーには、1 台のサーバーと複数サーバーの両方の構成がサポートされています。 ビジネス サーバー 2015 の Enterprise Edition または Standard Edition Server のいずれか、Skype で永続的なチャット サーバーをインストールできます。 
+
+> [!NOTE] 
+> 永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。 同じ機能は、チームで使用できます。 詳細については、[マイクロソフトのチームにビジネス用の Skype からの旅](/microsoftteams/journey-skypeforbusiness-teams)を参照してください。 永続的なチャットを使用する場合は、選択肢は、いずれかをチームでは、この機能を必要とするユーザーを移行するまたはビジネス サーバー 2015 の Skype を使用し続ける。 
   
-## <a name="persistent-chat-server-components"></a>Persistent Chat Server components
+## <a name="persistent-chat-server-components"></a>永続的なチャット サーバーのコンポーネント
 
 常設チャット サーバーは、次のコンポーネントで構成されます。
   
-- One or more computers running Persistent Chat Server and providing the following services:
+- 1 つまたは複数のコンピューター永続的なチャット サーバーを実行して、次のサービスを提供します。
     
-  - Persistent Chat service
+  - 永続的なチャット サービス
     
   - コンプライアンスが有効な場合にオンになるコンプライアンス サービス
     
-- One or more servers (more than one if mirroring is used) running the SQL Server back-end database for hosting the Persistent Chat content database where chat room content, rooms, and categories are stored.
+- 1 つまたは複数のサーバー (1 つ以上のミラーリングを使用する場合)、永続的なチャットのコンテンツ データベースをホストするための SQL Server バックエンド データベースを実行して、チャット ルームの内容、会議室、およびカテゴリが格納されています。
     
     > [!NOTE]
-    > The back-end database stores chat history data, including information about categories and Persistent Chat rooms that are created. 
+    > バック エンド データベースは、作成される永続的なチャット ルームのカテゴリに関する情報など、チャットの履歴データを格納します。 
   
-- If compliance is enabled, one or more servers (more than one if mirroring is used) running the SQL Server back-end database for hosting the Persistent Chat Compliance database, where compliance events and chat content for the purpose of compliance are stored.
+- コンプライアンスを有効にすると、1 つまたは複数のサーバー (1 つ以上のミラーリングを使用する場合)、永続的なチャット コンプライアンス データベースをホストするための SQL Server バックエンド データベースを実行しているコンプライアンスのためのコンプライアンスのイベントやチャットのコンテンツ、保存されます。
     
-For details about hardware and software requirements for Persistent Chat Server, see [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) and [Hardware and software requirements for Persistent Chat Server in Skype for Business Server 2015](hardware-and-software-requirements.md). 
+永続的なチャット サーバーのハードウェアおよびソフトウェアの要件についての詳細は、[ビジネス サーバー 2015 の Skype のサーバー要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)と[ビジネス サーバー 2015 の Skype での永続的なチャット サーバーのハードウェアおよびソフトウェアの要件](hardware-and-software-requirements.md)を参照してください。 
   
-## <a name="persistent-chat-server-topologies"></a>Persistent Chat Server topologies
+## <a name="persistent-chat-server-topologies"></a>永続的なチャット サーバーのトポロジ
 
-You can deploy Persistent Chat Server in single-server or multiple-server pools, and with single-pool or multiple-pool topology. Persistent Chat Server supports the following topologies:
+永続的なチャット サーバー プールの 1 つまたは複数のプールのトポロジと 1 台のサーバーまたは複数サーバーのプール内に配置できます。 永続的なチャット サーバーには、次のトポロジがサポートされています。
   
 -  Standard Edition Server と、フロント エンド サーバーに併置した常設チャット サーバー
     
--  Standard Edition Server with Persistent Chat Server on a separate server
+-  別のサーバー上の永続的なチャット サーバーで標準のエディション サーバー
     
--  Enterprise Edition Server with a single Persistent Chat Server on a separate server
+-  1 つ永続的なチャット サーバーと別のサーバーにエンタープライズ エディションのサーバー
     
--  Enterprise Edition Server with more than one Persistent Chat Server on separate servers
+-  1 つ以上の永続的なチャット サーバーを別々 のサーバーとエンタープライズ エディション サーバー
     
-Although you can deploy Persistent Chat Server on a Standard Edition Server, be aware that performance and scale will be affected, and high availability is not an option. Therefore, it is recommended that you deploy Persistent Chat on a Standard Edition Server primarily for proof of concept and evaluation purposes. 
+標準エディションのサーバー上の永続的なチャット サーバーを配置できますが、パフォーマンスと拡張性が影響を受けるとなる高可用性は、オプションではありません。 したがって、主の概念と評価のための証拠としての Standard Edition Server 上の永続的なチャットを展開することをお勧めします。 
   
-Skype for Business Server 2015 supports a variety of collocation scenarios, providing you the flexibility to save hardware costs by running multiple components on one server (if you have a small organization), or to run individual components on different servers (if you have a larger organization that needs scalability and performance). コンポーネントを併置するかどうかを決定する前に、スケーラビリティの要因を検討する必要があります。 Collocation scenarios differ for Skype for Business Server 2015 Enterprise Edition and Standard Edition servers. 
+ビジネス サーバー 2015 の Skype をサポートしているコロケーション シナリオでは、1 台のサーバー (小規模な組織の場合)、複数のコンポーネントを実行して、ハードウェアのコストを削減する、または別のサーバー (上の個々 のコンポーネントを実行する柔軟性を提供します。ある場合のスケーラビリティとパフォーマンスを必要とする大規模な組織)。 コンポーネントを併置するかどうかを決定する前に、スケーラビリティの要因を検討する必要があります。 コロケーションのシナリオでは、ビジネス サーバー 2015 の Enterprise Edition と Standard Edition サーバーの Skype で異なります。 
   
-以降のセクションでは、バックエンド データベース サーバーの併置シナリオやオプションなど、トポロジについてより詳細に説明します。 For details about collocation of all server roles and databases, see [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md).
+以降のセクションでは、バックエンド データベース サーバーの併置シナリオやオプションなど、トポロジについてより詳細に説明します。 コロケーションをすべてのサーバー ロールおよびデータベースの詳細については、[ビジネス サーバー 2015 の Skype のトポロジーの基本事項](../../plan-your-deployment/topology-basics/topology-basics.md)を参照してください。
   
 ### <a name="standard-edition-server-with-persistent-chat-server-collocated-on-the-front-end-server"></a>Standard Edition Server と、フロント エンド サーバーに併置した常設チャット サーバー
 
-Standard Edition では、常設チャットをフロントエンド サーバーに併置できます。 これは最もシンプルで最も基本的な構成です。 You must make sure that the existing Front End Server has enough capacity in terms of physical resources: CPU, memory, disk space, and so on.
+Standard Edition では、常設チャットをフロントエンド サーバーに併置できます。 これは最もシンプルで最も基本的な構成です。 既存のフロント エンド サーバーに物理リソースの不足のための容量があることを確認する必要があります: CPU、メモリ、ディスク領域、およびようにします。
   
-In addition, you can collocate the Persistent Chat Server back-end server and the Persistent Chat Compliance database (if enabled) on the local SQL Server Express back-end server. また、別々の SQL Server を専用のインスタンスで使用することもできます。 
+さらに、集約できます永続的なチャット サーバーのバックエンド サーバーと永続的なチャット コンプライアンス データベース (有効な場合) ローカルの SQL Server Express のバックエンド サーバーにします。 また、別々の SQL Server を専用のインスタンスで使用することもできます。 
   
 > [!IMPORTANT]
-> You cannot add additional servers to a Persistent Chat Server pool if the first Persistent Chat Server is collocated with a Standard Edition Front End Server. It is recommended that you install the first server as a standalone instance so that you can add more servers later, if needed. 
+> 最初の永続的なチャット サーバーが標準的な Edition フロント エンド サーバーに併設されている場合は、永続的なチャット サーバー プールにサーバーを追加することはできません。 としてインストールすることの最初のサーバー、スタンドアロン インスタンス以降より多くのサーバーを追加できるように、必要な場合をお勧めします。 
   
 ### <a name="standard-edition-server-with-persistent-chat-server-installed-on-a-separate-server"></a>Standard Edition サーバーと、別々のサーバーにインストールした常設チャット サーバー
 
 Standard Edition では、常設チャット サーバーをスタンドアロン インスタンスとしてインストールし、後で必要に応じてサーバーをさらに追加できます。   
   
-You can collocate the Persistent Chat Server back-end server and the Persistent Chat Compliance database (if enabled) on the local SQL Server Express back-end server. また、別々の SQL Server を専用のインスタンスで使用することもできます。 
+集約できます永続的なチャット サーバーのバックエンド サーバーと永続的なチャット コンプライアンス データベースが有効な場合) ローカルの SQL Server Express のバックエンド サーバーにします。 また、別々の SQL Server を専用のインスタンスで使用することもできます。 
   
 ### <a name="enterprise-edition-server-with-a-single-persistent-chat-server"></a>Enterprise Edition サーバーと単一の常設チャット サーバー
 
-Enterprise Edition では、常設チャット サーバーを別のコンピューターにインストールする必要があります。 つまり、常設チャット サーバーを Enterprise Edition フロント エンド サーバーに併置することはできません。 This deployment requires a separate server that runs Persistent Chat Server and the Compliance service (if enabled).
+Enterprise Edition では、常設チャット サーバーを別のコンピューターにインストールする必要があります。 つまり、常設チャット サーバーを Enterprise Edition フロント エンド サーバーに併置することはできません。 この展開には、永続的なチャット サーバーとコンプライアンス サービスが有効な場合) を実行する別のサーバーが必要です。
   
-You can, however, collocate the SQL Server database for Persistent Chat Server on the back-end database of an Enterprise Edition Front End pool.
+エンタープライズ エディションのフロント エンド プールのバック エンド データベースに永続的なチャット サーバーの SQL Server データベースをまとめてすることができます、ただし、です。
   
 > [!NOTE]
 > HA DR に SQL AlwaysOn 可用性グループを使用する場合は、これが常設チャット サーバーのデータベースでサポートされていないことに注意してください。 
   
-If you collocate the Persistent Chat database with the back-end database, you can either use a single instance of SQL Server for any or all of the databases, or you can use a separate instance of SQL Server for each database.
+バック エンド データベースに永続的なチャット データベースを連結する場合、データベースの一部またはすべての SQL Server の単一のインスタンスを使用することができますか、または各データベースの SQL Server の別のインスタンスを使用することができます。
   
 > [!IMPORTANT]
-> The server hosting the Persistent Chat database can host other databases. However, when you consider collocating the Persistent Chat database with other databases, be aware that if you are storing the messages of more than a few users, the disk space needed by the Persistent Chat database can grow very large. For this reason, we do not recommend collocating the Persistent Chat database with the back-end database. 
+> 永続的なチャットのデータベースをホストするサーバーは、他のデータベースをホストできます。 ただし、他のデータベースに永続的なチャットのデータベースの配置を検討する場合ありますを多くのユーザーのメッセージを格納する場合ディスク領域が必要な永続的なチャットのデータベースでが非常に大ききます。 このため、行うこと、永続的なチャットのデータベース バック エンド データベースを配置します。 
   
-The following figure shows all components of a topology for a single Persistent Chat Server with compliance enabled (optional).
+次の図、トポロジのすべてのコンポーネントの 1 つの永続的なチャット サーバー コンプライアンスが有効になっていると (省略可能)。
   
-**Single Server Topology**
+**単一サーバー トポロジ**
 
 ![常設チャット サーバー - 単一サーバー トポロジ](../../media/e1b39c28-8a4d-4c03-983b-4392889c2d14.png)
   
 ### <a name="enterprise-edition-server-with-multiple-persistent-chat-servers"></a>Enterprise Edition サーバーと複数の常設チャット サーバー
 
-With Enterprise Edition, you can deploy a multiple-server topology for greater capacity and reliability. A multiple-server topology is the same as the single-server topology except that multiple servers host Persistent Chat Server, and can scale higher. The multiple-server topology can include as many as four active computers running Persistent Chat Server (high availability and disaster recovery configurations will allow up to eight, but only four can be active and the remaining four on standby). Each server can support as many as 20,000 concurrent users, for a total of 80,000 concurrent users connected to a Persistent Chat Server pool with 4 servers. Multiple computers running Persistent Chat Server should reside in the same Active Directory Domain Services domain as Skype for Business Server and the Compliance service.
+Enterprise Edition では、容量と信頼性を向上するための複数サーバー トポロジを導入できます。 複数サーバー トポロジは、複数のサーバーは、永続的なチャット サーバーをホストし、それ以上に拡張できることを除いてシングル サーバー トポロジと同じです。 複数サーバー トポロジは、永続的なチャット サーバーを実行して、最大で 4 つのアクティブなコンピューターを含めることができます (8 個まで、高可用性と災害復旧の構成は許可するが、アクティブであり、残りのスタンバイ状態には 4 つを 4 つだけとして使用することができます)。 各サーバーは、合計で 4 台のサーバの永続的なチャット サーバー プールに接続されている 80,000 の同時接続ユーザーの最大 20,000 の同時接続ユーザーをサポートできます。 永続的なチャット サーバーを実行している複数のコンピューターは、ビジネス サーバーとコンプライアンス サービスの Skype と同じ Active Directory ドメイン サービス ドメインに存在すべきです。
   
-The following figure shows all the components of a multiple-server topology with multiple computers running Persistent Chat Server, the optional Compliance service, and a separate compliance database.
+次の図は、永続的なチャット サーバー、オプションのコンプライアンス サービスと独立したコンプライアンス データベースを実行する複数のコンピューターで、複数サーバー トポロジのすべてのコンポーネントを示しています。
   
-**Multiple Server Topology**
+**複数サーバー トポロジ**
 
 ![常設チャット サーバー - 複数サーバー トポロジ](../../media/8fc20997-7acc-46ea-8dea-11239ffd9458.png)
   
-複数サーバー トポロジでは、サーバー機能をプールできます。 In a server pool, the Persistent Chat services communicate and share data. For example, chat history that was originally posted to one Persistent Chat service is available from any Persistent Chat service in the system. A file that is uploaded through one Persistent Chat service can be accessed by any Persistent Chat service. Users can be connected to different Persistent Chat Server Front End Servers and can be communicating with each other. The default port of TCP 8011 connects a server to a server pool, and is used by the Persistent Chat services to communicate between themselves, or for administrative purposes.
+複数サーバー トポロジでは、サーバー機能をプールできます。 サーバー プールには、永続的なチャット サービスは通信やデータ共有します。 たとえば、1 つの永続的なチャット サービスにポストされた最初のチャットの履歴の永続的なチャット サービスから利用可能なシステムでは。 1 つの永続的なチャット サービスを介してアップロードされたファイルは、すべての永続的なチャット サービスでアクセスできます。 ユーザーは、さまざまな永続的なチャット サーバー フロント エンド サーバーに接続することし、相互に通信することができます。 TCP の既定ポート 8011 では、サーバーをサーバー プールに接続され、間で、または管理目的のために通信するために永続的なチャット サービスで使用されます。
   
-For example, in a four-server Persistent Chat Server deployment, where 80,000 users can be simultaneously signed in to Persistent Chat, the load is distributed evenly at 20,000 users per server. If one server becomes unavailable, the users who are connected to that server will lose their access to Persistent Chat Server. 切断されたユーザーは、利用できなくなったサーバーが復元されるまでは、残りのサーバーに自動的に転送されます。 
+などの 80,000 ユーザーに同時に署名できる永続的なチャットするのには、4 台のサーバー上の永続的なチャット サーバー展開で、負荷が均等に分散サーバーあたり 20,000 ユーザーで。 1 台のサーバーが使用できなくなった場合、そのサーバーに接続しているユーザーは、永続的なチャット サーバーへのアクセスをできなくなります。 切断されたユーザーは、利用できなくなったサーバーが復元されるまでは、残りのサーバーに自動的に転送されます。 
   
 

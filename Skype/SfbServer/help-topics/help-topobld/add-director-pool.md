@@ -3,7 +3,7 @@ title: ディレクター プールを追加します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 751ead48-b97f-4c6f-ba6b-14d446473658
 description: ディレクター プールの FQDN を定義するには、負荷分散されたプール内の 2 つ以上の取締役で構成される複数のコンピューター プール] または [単一コンピューターのプールを選択します。 ディレクター プールまたは 1 つのディレクターの FQDN への接続に使用される完全修飾ドメイン名 (FQDN) を入力する必要があります。 ディレクターのコンピューターのプールのハードウェア ロード バランサーの仮想 ip アドレスのドメイン ネーム システム (DNS) エントリまたは DNS の負荷分散のための共有の DNS エントリになります。
-ms.openlocfilehash: d71219f6e9c51d69bee8d2457cc30c19f4fa6c89
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7ba0efad72094fba880058e81ff701453d9e8252
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992288"
 ---
 # <a name="add-director-pool"></a>ディレクター プールを追加します。
  

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 57930738-0d43-4e2f-aaa1-bb0801e9ed32
+ROBOTS: NOINDEX, NOFOLLOW
 description: Edit Users (ユーザー編集) ウィザードを使用すると、展開の内部にあるユーザー アカウントを変更できます。 詳細については、ハイブリッドの管理ウィザードを使用して参照してください。
-ms.openlocfilehash: 8ec062fbb1edd09ebafc047470788826ef824ec4
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 767ae68c5fd8776744ae29950da546a36201122b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19997046"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998722"
 ---
 # <a name="hybrid-wizard-edit-users"></a>ハイブリッド ウィザード: ユーザー編集
  

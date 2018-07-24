@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 の会議に関するハードウェアおよびソフトウェア要件
+title: ビジネス サーバーの Skype での会議のためのハードウェアおよびソフトウェア要件
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
-description: '概要: ビジネス サーバー 2015 の Skype での会議のためのハードウェアおよびソフトウェア要件の詳細については、このトピックを読みます。'
-ms.openlocfilehash: dcabd3b0216eebfa3873b44b0d19d32522d6564f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: ビジネス サーバーの Skype での会議のためのハードウェアおよびソフトウェア要件の詳細については、このトピックを読みます。'
+ms.openlocfilehash: 5256469c20b0ec44065523ea1f3787f81409f888
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980035"
 ---
-# <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の会議に関するハードウェアおよびソフトウェア要件
+# <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>ビジネス サーバーの Skype での会議のためのハードウェアおよびソフトウェア要件
  
-**の概要:**ビジネス サーバー 2015 の Skype での会議のためのハードウェアおよびソフトウェア要件の詳細については、このトピックを参照してください。
+**の概要:** ビジネス サーバーの Skype での会議のためのハードウェアおよびソフトウェア要件の詳細については、このトピックを参照してください。
   
 ここでは、Web 会議、音声ビデオ (A/V) 会議、ダイヤルイン会議、およびインスタント メッセージング (IM) 会議のハードウェアおよびソフトウェア要件について説明します。 すべての会議の機能はフロントエンド サーバー上で実行されますが、以下の図に示すように、さまざまな種類の会議に対して追加の要件があります。
   
@@ -28,11 +28,11 @@ ms.lasthandoff: 03/28/2018
 
 ![会議のコンポーネント](../../media/9359b98b-b3ab-46a1-acf0-93c7bab6fc67.png)
   
- トポロジに関する考慮事項の詳細については、[ビジネス サーバー 2015 の Skype の会議トポロジの計画](conferencing-topology.md)を参照してください。
+ トポロジに関する考慮事項の詳細については、「 [Business Server Skype の会議トポロジを計画する](conferencing-topology.md)」を参照してください。
   
 ## <a name="hardware-and-software-requirements-for-front-end-servers"></a>フロントエンド サーバーのハードウェアおよびソフトウェア要件
 
-Web 会議、A/V 会議、ダイヤルイン会議、および IM 会議は、すべて同じ場所にフロント エンド サーバーとすると、サーバーのハードウェアおよびソフトウェアの要件は、フロント エンド サーバーと同じです。 これらの要件の詳細については、[ビジネス サーバー 2015 の Skype のサーバー要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)と[ビジネス サーバー 2015 の Skype の環境の要件](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)を参照してください。 
+Web 会議、A/V 会議、ダイヤルイン会議、および IM 会議は、すべて同じ場所にフロント エンド サーバーとすると、サーバーのハードウェアおよびソフトウェアの要件は、フロント エンド サーバーと同じです。 これらの要件の詳細については、[ビジネス サーバー 2015 の Skype のサーバー要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)と[ビジネス サーバー 2015 の Skype の環境要件](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)や[ビジネス サーバー 2019 の Skype のサーバーの要件](../../../SfBServer2019/plan/system-requirements.md)を参照してください。 
   
 ## <a name="requirements-for-web-conferencing"></a>Web 会議の要件
 
@@ -44,7 +44,7 @@ Web 会議を有効にすることにした場合、次のものを計画する�
     
 ### <a name="file-store"></a>ファイル ストア
 
-Business Server web 会議サービスの Skype では、ファイル ストア内の会議中に共有されているコンテンツを格納します。 展開の一環として、Standard Edition サーバーまたはエンタープライズ エディションのフロント エンド プールのファイル ストアとして使用するファイル共有を指定する必要があります。 ファイル ストアの既存のファイル共有を使用することができます。 またはファイル共有に配置するのになっているファイル サーバーの完全修飾ドメイン名 (FQDN) と新しいファイルの共有のフォルダー名を指定することで新しいファイルの共有を指定できます。 詳細については、[ビジネス サーバー 2015 の Skype でのファイル共有を作成する](../../deploy/install/create-a-file-share.md)を参照してください。 ファイル ストアにコンテンツを格納する前に、web 会議サービスは、コンテンツを暗号化します。
+Business Server web 会議サービスの Skype では、ファイル ストア内の会議中に共有されているコンテンツを格納します。 展開の一環として、Standard Edition サーバーまたはエンタープライズ エディションのフロント エンド プールのファイル ストアとして使用するファイル共有を指定する必要があります。 ファイル ストアの既存のファイル共有を使用することができます。 またはファイル共有に配置するのになっているファイル サーバーの完全修飾ドメイン名 (FQDN) と新しいファイルの共有のフォルダー名を指定することで新しいファイルの共有を指定できます。 詳細については、 [Skype のビジネス サーバーでファイル共有を作成](../../deploy/install/create-a-file-share.md)を参照してください。 ファイル ストアにコンテンツを格納する前に、web 会議サービスは、コンテンツを暗号化します。
   
 ビジネス サーバーのサポート ファイルを使用するの Skype では、直接接続型ストレージ (DAS) またはストレージ エリア ネットワーク (SAN)、分散ファイル システム (DFS) を含むのいずれかを共有し、ファイルの独立したディスク (RAID) の冗長な配列に格納します。 ビジネス サーバーの展開ウィザードの Skype は、ファイル共有の場所を定義した後 Skype ビジネス サーバーの作成ファイル共有内のフォルダー構造に似ています。 
   
@@ -68,21 +68,21 @@ Web 会議機能を使用するには、Office Web アプリケーション サ�
   
 ビジネス サーバー、SQL Server、またはその他のサーバー アプリケーションの Skype が実行されていないスタンドアロン コンピューターでは、office Web アプリケーション サーバーをインストールしてください。 (存在しないことをそのコンピューターにインストールされている Office のすべてのバージョン。)Office Web アプリケーション サーバーを実行するために使用する任意のコンピューターは、(.NET Framework 4.5、Windows PowerShell 3.0 など) がインストールされているソフトウェアの特定のセットも必要です。 証明書とインターネット インフォメーション サービス (IIS) の構成に関する情報と、これらの要件については、 [Microsoft Office Web アプリケーションの展開の web サイト](https://go.microsoft.com/fwlink/p/?linkid=257525)で詳細に説明します。 
   
-Office Web アプリケーション サーバーで動作するサーバーをビジネス用の Skype を構成する方法の詳細については、[ビジネス サーバー 2015 の Skype での Office Web アプリケーション サーバーとの統合の構成](../../deploy/deploy-conferencing/office-web-app-server.md)を参照してください。
+Office Web アプリケーション サーバーで動作するサーバーをビジネス用の Skype を構成する方法の詳細については、 [Skype ビジネス サーバー用に Office の Web アプリケーション サーバーと構成の統合](../../deploy/deploy-conferencing/office-web-app-server.md)を参照してください。
   
 ## <a name="requirements-for-audio-and-video-conferencing"></a>音声ビデオ会議の要件
 
 音声ビデオ会議を計画する場合、組織で必要な種類の会議メディアで求められるネットワーク帯域幅について理解する必要があります。 これには音声、ビデオ、パノラマ ビデオが含まれる可能性があります。 十分なネットワーク帯域幅がない場合、ユーザー エクスペリエンスが大幅に低下する可能性があります。 
   
-オーディオおよびビデオの容量を計画の会議の詳細については、[ビジネス 2015年の Skype のネットワーク要件の計画](../../plan-your-deployment/network-requirements/network-requirements.md)を参照してください。
+オーディオおよびビデオの容量を計画の会議の詳細については、[ビジネス用の Skype のネットワーク要件の計画](../../plan-your-deployment/network-requirements/network-requirements.md)を参照してください。
   
-通話受付管理 (CAC) を使用して、音声ビデオ会議で使用されるネットワーク帯域幅を管理できます。 これは、中央サイトとブランチ サイト間の帯域幅リンクの制限など、制限のあるネットワークで重要になります。 詳細については、[ビジネス サーバー 2015 の Skype の呼受付制御の計画](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)を参照してください。
+通話受付管理 (CAC) を使用して、音声ビデオ会議で使用されるネットワーク帯域幅を管理できます。 これは、中央サイトとブランチ サイト間の帯域幅リンクの制限など、制限のあるネットワークで重要になります。 詳細については、 [Skype のビジネス サーバーでの呼び出しの受付制御の計画](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)を参照してください。
   
 電話会議をネットワークに展開する場合、ユーザーが会議に参加するにはヘッドセットなどのオーディオ デバイスが必要です。 ビデオ会議を展開する場合は、Web カメラなどのビデオ デバイスをユーザー用に展開する必要があります。 オーディオ デバイスまたはビデオ デバイスのいずれの場合も、デバイスの展開とユーザー トレーニングを検討することが重要です。 詳細については、[クライアントとデバイスの計画](../../plan-your-deployment/clients-and-devices/clients-and-devices.md)を参照してください。 最適なユーザー エクスペリエンスを実現するには、Microsoft で認定された統合コミュニケーション (UC) デバイスをすべてのデバイスの種類に使用することをお勧めします。 UC 認定デバイスについての詳細は、[電話や Skype をビジネスのためのデバイス](https://go.microsoft.com/fwlink/?LinkId=619916)を参照してください。
   
 ## <a name="requirements-for-dial-in-conferencing"></a>ダイヤルイン会議の要件
 
-ダイヤルイン会議は、さまざまなコンポーネントを含むサーバーのビジネス会議ワークロードの Skype のオプション機能です。 ダイヤルイン会議に固有のコンポーネントの一部と、エンタープライズ VoIP コンポーネントは、いくつか。 このセクションでは、ダイヤルイン会議に必要なコンポーネントの要件について説明します。 仲介サーバーおよび公衆交換電話網 (PSTN) ゲートウェイの要件に関する詳細については、「[ビジネス サーバー 2015 の Skype での仲介サーバー コンポーネント](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)と[で Skype ビジネス サーバーのトポロジ ビルダーでの仲介サーバーの展開の使用」を参照していますください。2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)。
+ダイヤルイン会議は、さまざまなコンポーネントを含むサーバーのビジネス会議ワークロードの Skype のオプション機能です。 ダイヤルイン会議に固有のコンポーネントの一部と、エンタープライズ VoIP コンポーネントは、いくつか。 このセクションでは、ダイヤルイン会議に必要なコンポーネントの要件について説明します。 仲介サーバーおよび公衆交換電話網 (PSTN) ゲートウェイの要件に関する詳細については、 [Skype のビジネス サーバー内の仲介サーバー コンポーネント](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)と[ビジネス サーバーの Skype でトポロジ ビルダーでの仲介サーバーの展開](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)を参照してください。
   
 ### <a name="required-components"></a>必要なコンポーネント
 
@@ -142,7 +142,7 @@ Office Web アプリケーション サーバーで動作するサーバーを�
 |フロントエンド サーバー  <br/> |ビジネス サーバー アプリケーションの共有サービスの Skype  <br/> |49152-65535  <br/> |TCP  <br/> |アプリケーション共有で使用するメディア ポート範囲。  <br/> |
 |フロントエンド サーバー  <br/> |ビジネス サーバー会議アナウンス サービスの Skype  <br/> |5073  <br/> |TCP  <br/> |ビジネス サーバー会議アナウンス サービスの Skype の着信 SIP 要求を使用する (つまり、ダイヤルイン会議のため)。  <br/> |
 |すべての内部サーバー  <br/> |各種  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |すべての内部サーバーでのオーディオ会議で使用するメディア ポート範囲。 オーディオを終了するすべてのサーバーで使用される: フロント エンド サーバー (ビジネス Server 会議アテンダント サービスの Skype、ビジネス サーバー会議アナウンス サービスでは、Skype と Skype ビジネス サーバー オーディオ/ビデオ会議サービス用) と仲介サーバー。  <br/> |
-|Office Web Apps サーバー  <br/> ||443  <br/> ||Office Web アプリケーション サーバーへの接続には、Skype のビジネス サーバー 2015 によって使用されます。  <br/> |
+|Office Web Apps サーバー  <br/> ||443  <br/> ||Office Web アプリケーション サーバーに接続するのには、Skype のビジネス サーバーによって使用されます。  <br/> |
    
 **必要なクライアント ポート**
 

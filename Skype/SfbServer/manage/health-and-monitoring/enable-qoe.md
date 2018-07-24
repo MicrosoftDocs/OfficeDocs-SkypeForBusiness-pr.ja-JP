@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 での QoE (Quality of Experience) の有効化
+title: ビジネス サーバーの Skype での経験の質を有効にします。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
-description: '概要: ビジネス サーバー 2015 の高品質のエクスペリエンス (QoE) では、Skype を有効にする方法を説明します。'
-ms.openlocfilehash: 8c63a1bf493e601c4936b83cc9edfaa6e3727f26
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: ビジネスのサーバーの高品質のエクスペリエンス (QoE) では、Skype を有効にする方法を説明します。'
+ms.openlocfilehash: 37775223016a463fc7f090f82163fbf8271cd050
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993202"
 ---
-# <a name="enable-quality-of-experience-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での QoE (Quality of Experience) の有効化
+# <a name="enable-quality-of-experience-in-skype-for-business-server"></a>ビジネス サーバーの Skype での経験の質を有効にします。
  
-**の概要:**ビジネス サーバー 2015 の高品質のエクスペリエンス (QoE) では、Skype を有効にする方法について説明します。
+**の概要:** ビジネス サーバーに対して高品質のエクスペリエンス (QoE) Skype でを有効にする方法について説明します。
   
 QoE (Quality of Experience) は、メディアの品質と、通話およびセッションに関係する参加者、デバイス名、ドライバー、IP アドレス、およびエンドポイントの種類についての情報を示す数値データを記録します。 詳細については、計画ドキュメントの[監視を計画する](http://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)を参照してください。
   
@@ -29,7 +29,7 @@ QoE (Quality of Experience) は、メディアの品質と、通話およびセ�
   
 ### <a name="to-enable-qoe-by-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用して、QoE を有効にするには
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは2015。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは.
     
 2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。  
     

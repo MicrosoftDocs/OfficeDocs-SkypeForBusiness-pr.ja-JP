@@ -1,32 +1,32 @@
 ---
-title: Skype for Business Server 2015 での QoE (Quality of Experience) 構成設定の作成
+title: ビジネス サーバーのため、Skype で高品質なエクスペリエンスの構成設定を作成します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
-description: '概要: は、ビジネス サーバー 2015 の Skype の高品質のエクスペリエンス (QoE) の設定について説明します。'
-ms.openlocfilehash: a6ba2906b54ac5d963b0c8394c1fcf254cffd12d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、Skype でビジネス サーバー用のエクスペリエンスの品質 (QoE) の設定について説明します。'
+ms.openlocfilehash: 678f57ba06008244bf9872ee44b26ea0c1e9a0f2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968196"
 ---
-# <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での QoE (Quality of Experience) 構成設定の作成
+# <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>ビジネス サーバーのため、Skype で高品質なエクスペリエンスの構成設定を作成します。
  
-**の概要:**ビジネス サーバー 2015 の Skype の高品質のエクスペリエンス (QoE) の設定について説明します。
+**の概要:** ビジネス サーバーの Skype の高品質のエクスペリエンス (QoE) の設定について説明します。
   
 Quality of Experience (QoE) 指標は、ネットワーク パケットの損失数、バックグラウンド ノイズ、"ジッター" (パケット遅延のばらつき) の量など、組織内で行われる音声通話およびビデオ通話の品質を追跡します。これらの指標は、他のデータ (詳細な通話の記録など) とは別にデータベースに格納されます。このため、QoE は他のデータ記録と関係なく有効および無効にすることができます。
   
-ビジネス サーバー 2015 年、1 つの Skype をインストールすると QoE 構成設定のグローバル コレクションが作成されます。 管理者は、サイト スコープでカスタム設定を作成することもできます。 これらのサイト スコープの設定は、グローバル設定に優先して使用されます。 たとえば、Redmond サイト用のサイト スコープの設定を作成した場合は、グローバル設定ではなくこれらの設定を使用して Redmond の QoE が管理されます。
+ビジネス サーバー、1 つの Skype をインストールすると QoE 構成設定のグローバル コレクションが作成されます。 管理者は、サイト スコープでカスタム設定を作成することもできます。 これらのサイト スコープの設定は、グローバル設定に優先して使用されます。 たとえば、Redmond サイト用のサイト スコープの設定を作成した場合は、グローバル設定ではなくこれらの設定を使用して Redmond の QoE が管理されます。
   
 QoE 構成設定は、ビジネス サーバーのコントロール パネルまたは[新規 CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps)コマンドレットのいずれかの Skype を使用して作成できます。 新しい設定を作成するビジネス サーバーのコントロール パネルの Skype を使用している場合に使用可能な次のオプションになります。
   
-|**UI の設定**|**PowerShell のパラメーター**|**説明**|
+|**UI 設定**|**PowerShell パラメーター**|**説明**|
 |:-----|:-----|:-----|
 |名前  <br/> |Identity  <br/> |作成される設定の一意の ID。QoE 構成設定は、サイト スコープでのみ作成できます。  <br/> |
 |[QoE データの監視を有効にする]  <br/> |EnableQoE  <br/> |QoE レコードを収集して、監視データベースに保存するかどうかを指定します。  <br/> |

@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: Skype ビジネス サーバー web 会議のためには、ドキュメントの共同作業、アプリケーション共有、およびデスクトップ共有が含まれています。
-ms.openlocfilehash: 9f375f280ec43d90bcab7ded65e0ce0c08562a0d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 2e4e2c019d121efda80b68531a919216c54a5701
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19989084"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002525"
 ---
 # <a name="web-conferencing-planning-tool"></a>Web 会議 (計画ツール)
  
@@ -28,12 +28,12 @@ Skype ビジネス サーバー web 会議のためには、ドキュメント�
   
 組織で Web 会議を実現するための詳細を計画する方法については、以下のトピックを参照してください。 
   
-- [ビジネス サーバー 2015 に Skype で会議を計画します。](../../../plan-your-deployment/conferencing/conferencing.md)
+- [ビジネス サーバーに、Skype で会議を計画します。](../../../plan-your-deployment/conferencing/conferencing.md)
     
-- [ビジネス サーバー 2015 の Skype での会議のためのハードウェアおよびソフトウェア要件](../../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
+- [ビジネス サーバーの Skype での会議のためのハードウェアおよびソフトウェア要件](../../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
     
-- [ビジネス サーバー 2015 の Skype では、ダイヤルイン会議の計画](../../../plan-your-deployment/conferencing/dial-in-conferencing.md)
+- [ビジネス サーバーの Skype では、ダイヤルイン会議の計画](../../../plan-your-deployment/conferencing/dial-in-conferencing.md)
     
-- [ビジネス サーバー 2015 の Skype での大規模な会議の計画](../../../plan-your-deployment/conferencing/large-meetings.md)
+- [ビジネス サーバーの Skype での大規模な会議の計画](../../../plan-your-deployment/conferencing/large-meetings.md)
     
 

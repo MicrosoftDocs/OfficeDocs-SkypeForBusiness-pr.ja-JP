@@ -9,16 +9,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
-description: この記事では、Skype for Business Server 2015 の実装において Skype Room Systems バージョン 2 デバイスを管理するための Operations Management Suite の使用についてのプランニングの検討事項について考えます。
-ms.openlocfilehash: b117b243b638c9e06b21901f14515b51d6931d23
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: この資料では、ビジネスのサーバーの実装については、Skype で Skype ルーム システム v2 デバイスを管理する運用管理スイートを使用するための計画に関する考慮事項について説明します。
+ms.openlocfilehash: 3e39075ab16c8cd8d8c688043bf7fa370af1f5b0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20984758"
 ---
 # <a name="plan-skype-room-systems-v2-management-with-oms"></a>OMS を使用して Skype Room Systems バージョン 2 の管理を計画する
  
- この記事では、Skype for Business Server 2015 の実装において Skype Room Systems バージョン 2 デバイスを管理するための Operations Management Suite の使用についてのプランニングの検討事項について考えます。
+ この資料では、ビジネスのサーバーの実装については、Skype で Skype ルーム システム v2 デバイスを管理する運用管理スイートを使用するための計画に関する考慮事項について説明します。
   
 [操作の管理スイート](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-overview)(OMS) は、最初からクラウドのように設計された管理サービスのコレクションです。 展開して、オンプレミスのリソースを管理するのではなく OMS のコンポーネントは完全 Azure でホストされます。 構成は最小限とする起動してそのまま数分で。 カスタマイズのいくつかの作業では、個々 の部屋のシステムでは、システムの稼働状態や障害のリアルタイムの通知を提供することによって Skype ルーム システム v2 の会議システムを管理することも役に立ち、数千の Skype ルームのシステムを管理するに拡張できる可能性があります。v2 の会議室です。
   
@@ -60,9 +61,6 @@ OMS を使用すると、Skype ルーム システム v2 の会議デバイス�
     
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[OMS を使用して Skype ルーム システム v2 の管理を展開します。](../../deploy/deploy-clients/with-oms.md)
+[OMS を使用した Skype Room Systems バージョン 2 の管理を展開する](../../deploy/deploy-clients/with-oms.md)
   
-[OMS を使用して Skype ルーム システム v2 のデバイスを管理します。](../../manage/skype-room-systems-v2/oms.md)
-
+[OMS を使用した Skype Room Systems のデバイスを管理する](../../manage/skype-room-systems-v2/oms.md)

@@ -1,22 +1,22 @@
 ---
-title: Skype for Business Server 2015 のコア インフラストラクチャに対するベスト プラクティス
+title: Skype ビジネス サーバー用のコア ・ インフラストラクチャに関するベスト プラクティス
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 description: システムのフォールト トレランスを構築する方法として、ハードウェアを冗長構成にする、給電が途切れないようにする、セキュリティ更新プログラムやウイルス対策を定期的にインストールする、サーバーの利用状況を監視するなどの手段をすでに講じていることでしょう。 これらのプラクティスは、ビジネスのサーバー インフラストラクチャのため、Skype だけでなく、ネットワーク全体を活用できます。 これらのプラクティスを実装していない場合は、設定するように Skype をビジネス サーバーを展開する前にすることをお勧めします。
-ms.openlocfilehash: 9d79f98ebc66807f21f8d1eef468efc400dd5fbb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f88461e7563d28dce145d01a9b47a0176ef0d97f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996595"
 ---
-# <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 のコア インフラストラクチャに対するベスト プラクティス
+# <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>Skype ビジネス サーバー用のコア ・ インフラストラクチャに関するベスト プラクティス
  
 システムのフォールト トレランスを構築する方法として、ハードウェアを冗長構成にする、給電が途切れないようにする、セキュリティ更新プログラムやウイルス対策を定期的にインストールする、サーバーの利用状況を監視するなどの手段をすでに講じていることでしょう。 これらのプラクティスは、ビジネスのサーバー インフラストラクチャのため、Skype だけでなく、ネットワーク全体を活用できます。 これらのプラクティスを実装していない場合は、設定するように Skype をビジネス サーバーを展開する前にすることをお勧めします。
   

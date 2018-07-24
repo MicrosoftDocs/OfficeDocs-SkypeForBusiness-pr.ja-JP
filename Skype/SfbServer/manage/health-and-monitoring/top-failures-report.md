@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 のトップ エラー レポート
+title: Skype ビジネス サーバーの最上位の障害レポート
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
-description: '概要: は、ビジネス サーバー 2015 の Skype で最上位のエラー レポートについて説明します。'
-ms.openlocfilehash: 3eb536fdeaa606c16c78954401bc43e91dd520d9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、Skype でビジネス サーバーの最上位のエラー レポートについて説明します。'
+ms.openlocfilehash: 7050c156d78ed7b4c254976cf4fd2027f3a677d0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002159"
 ---
-# <a name="top-failures-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 のトップ エラー レポート
+# <a name="top-failures-report-in-skype-for-business-server"></a>Skype ビジネス サーバーの最上位の障害レポート
  
-**の概要:**ビジネス サーバー 2015 の Skype で最上位のエラー レポートについて説明します。
+**の概要:** ビジネス サーバーの Skype で最上位のエラー レポートについて説明します。
   
 トップ エラー レポートは、最もよく報告されているエラーに関する情報と、そのエラーの推移を示します。エラーは、次の 2 つのメトリックの組み合わせに基づいています。
   
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="accessing-the-top-failures-report"></a>トップ エラー レポートにアクセスする
 
-トップ エラー レポートには、[監視レポート] ホーム ページからアクセスします。 報告セッション メトリックをクリックするとクリックすると、[ビジネス サーバー 2015 の Skype でのエラー分布レポート](failure-distribution-report.md)します。
+トップ エラー レポートには、[監視レポート] ホーム ページからアクセスします。 報告セッション メトリックをクリックするとクリックすると、 [Business Server の Skype でのエラー分布レポート](failure-distribution-report.md)します。
   
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>トップ エラー レポートを最大限に利用する
 
@@ -52,7 +52,7 @@ ms.lasthandoff: 03/28/2018
   
 **トップ エラー レポートのフィルター**
 
-|**名**|**説明**|
+|**名前**|**説明**|
 |:-----|:-----|
 |**[開始]** <br/> |時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。  <br/> 7/7/2015 13:00  <br/> 開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 一週間は、日曜日から始まり、土曜日で終わるものとします。  <br/> |
 |**[終了]** <br/> |時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。  <br/> 7/7/2015 13:00  <br/> 終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 一週間は、日曜日から始まり、土曜日で終わるものとします。  <br/> |
@@ -67,9 +67,9 @@ ms.lasthandoff: 03/28/2018
 
 次の表に、トップ エラー レポートで提供される情報を示します。
   
-**トップ エラー レポートの判断基準**
+**トップ エラー レポートの指標**
 
-|**名**|**この項目を並べ替えることができますか。**|**説明**|
+|**名前**|**この項目での並べ替え**|**説明**|
 |:-----|:-----|:-----|
 |**[ランク]** <br/> |可  <br/> |報告されたセッションの数に基づく相対的なランク。  <br/> |
 |**[報告されたセッション]** <br/> |可  <br/> |診断 ID と SIP 応答コードに基づく、失敗したセッションの総数。  <br/> |

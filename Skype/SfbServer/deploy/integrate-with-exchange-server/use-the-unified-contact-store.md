@@ -1,5 +1,5 @@
 ---
-title: 統合連絡先ストアを使用するサーバー 2015 のビジネス用の Skype を構成します。
+title: 統合連絡先ストアを使用するための Skype for Business Server の構成
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,25 +10,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
-description: '概要: ビジネス サーバー 2015 2016 の Exchange Server や Exchange Server 2013 と Skype の統合連絡先ストアを構成します。'
-ms.openlocfilehash: 479032425c8a3d2d66bd341f54908a071dd5480d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: ビジネスのサーバーの Exchange Server と Skype の統合連絡先ストアを構成します。'
+ms.openlocfilehash: 6dccf6b2e6461ede26f49fa9efb3386bd04a9db3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988770"
 ---
-# <a name="configure-skype-for-business-server-2015-to-use-the-unified-contact-store"></a>統合連絡先ストアを使用するサーバー 2015 のビジネス用の Skype を構成します。
+# <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>統合連絡先ストアを使用するための Skype for Business Server の構成
  
-**の概要:**ビジネス サーバー 2015 2016 の Exchange Server や Exchange Server 2013 と Skype の統合連絡先ストアを構成します。
+**の概要:** 2016 の Exchange Server や Exchange Server 2013 と Skype のビジネス サーバーの統合連絡先ストアを構成します。
   
-統合連絡先ストアを使用すると、ユーザー 1 つの連絡先リストを維持し、ビジネス、Microsoft Outlook 2013 では、Microsoft Outlook Web App の 2013 の Skype を含めて、複数のアプリケーションで使用可能な連絡先です。 ユーザーの連絡先がないビジネス サーバー 2015 の Skype で保存され、必要に応じてを取得するユーザーは、統合連絡先ストアを有効にすると、します。 代わりに、自分の連絡先では、2016 の Exchange Server や Exchange Server 2013 に格納され、Exchange Web サービスを使用して取得します。
+統合連絡先ストアを使用すると、ユーザー 1 つの連絡先リストを維持し、ビジネス、Microsoft Outlook 2013 では、Microsoft Outlook Web App の 2013 の Skype を含めて、複数のアプリケーションで使用可能な連絡先です。 ユーザーは、ユーザーの連絡先がないビジネス サーバーの Skype で保存され、必要に応じてを取得、統合連絡先ストアを有効にすると、します。 代わりに、自分の連絡先では、2016 の Exchange Server や Exchange Server 2013 に格納され、Exchange Web サービスを使用して取得します。
   
 > [!NOTE]
 > 技術的には、連絡先情報は、1 組のユーザーの Exchange メールボックス内のフォルダーに格納されます。 自身の連絡先が Skype エンド ・ ユーザーに表示されるビジネス用連絡先の名前が付いたフォルダーに格納されています。連絡先についてのメタデータは、エンド ・ ユーザーに表示されていないサブフォルダーに格納されます。 
   
 ## <a name="enabling-the-unified-contact-store-for-a-user"></a>ユーザーに対して統合連絡先ストアを有効にする
 
-ビジネス サーバー 2015 2016 の Exchange Server や Exchange Server 2013 の Skype 間でサーバーからサーバーへの認証が既に構成されている場合も有効にしている統合連絡先ストアです。追加のサーバーを構成する必要はありません。 ただし、ユーザーの連絡先を統合連絡先ストアに移動するために、追加のユーザー アカウント構成を行う必要があります。 既定では、Skype のビジネス サーバーでは統合連絡先ストアではなくユーザーの連絡先が保持されます。
+Skype ビジネス サーバーと Exchange Server 間でサーバーからサーバーへの認証が既に構成されている場合、また有効にしている統合連絡先ストアです。追加のサーバーを構成する必要はありません。 ただし、ユーザーの連絡先を統合連絡先ストアに移動するために、追加のユーザー アカウント構成を行う必要があります。 既定では、Skype のビジネス サーバーでは統合連絡先ストアではなくユーザーの連絡先が保持されます。
   
 統合連絡先ストアへのアクセスは、Skype を使用してビジネス サーバー ユーザー サービス ポリシーによって管理されます。 ユーザーのサーバーのポリシーがあるだけ、1 つのプロパティ (UcsAllowed)。ユーザーの連絡先が格納される場所を決定するのにはこのプロパティを使用します。 UcsAllowed が True ($True) に設定されているユーザー サービス ポリシーによって、ユーザーが管理されている場合、ユーザーの連絡先は統合連絡先ストアにします。 によって、ユーザーが管理されている場合、ユーザーは、UcsAllowed が False ($False) に設定されているし、[自分の連絡先は Skype ビジネス サーバー用のポリシーをサービスします。
   
@@ -60,7 +61,7 @@ Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "AllowUnifiedContact
 Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 ```
 
-Test-CsUnifiedContactStore が成功すれば、統合連絡先ストアへのユーザー sip:kenmyer@litwareinc.com の連絡先の移行は完了しています。
+テスト CsUnifiedContactStore は成功した場合ことを意味、連絡先、ユーザー sip: kenmyer の @<span></span>litwareinc<span></span>.com 統合連絡先ストアに移行します。
   
 ## <a name="rolling-back-the-unified-contact-store"></a>統合連絡先ストアのロールバック
 

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
+ROBOTS: NOINDEX, NOFOLLOW
 description: エージェント グループでは、応答グループへの呼び出しに応答できるユーザー (エージェントと呼ばれます) およびグループ内のすべてのエージェントに適用される設定が定義されています。
-ms.openlocfilehash: af09b13d6fc6853a43719688b0f97ab60c20990f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 39a1ddb2520165a4060cb621f8948cad80f8b493
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988447"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985059"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>応答グループ: エージェント グループの新規作成または既存エージェント グループの編集
  
@@ -67,6 +68,6 @@ ms.locfileid: "19988447"
     
     上下矢印を使用すると、選択したエージェントがエージェント リスト内で上下に移動します。リスト内でのエージェントの順序により、ラウンド ロビンおよびシリアルのルーティングでエージェントが呼び出しを受ける順序が決まります。
     
-応答グループの機能と機能の詳細については、 [Skype のビジネス サーバーで応答グループ アプリケーションの計画](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)を参照してください。 エージェント グループの操作に関する詳細については、操作マニュアルで[エージェントの管理グループ](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)を参照してください。
+応答のグループの特徴と機能についての詳細は、計画のドキュメントで[ビジネス サーバーの Skype で応答グループ アプリケーションの計画](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)を参照してください。 エージェント グループの操作に関する詳細については、操作マニュアルで[エージェントの管理グループ](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)を参照してください。
   
 
