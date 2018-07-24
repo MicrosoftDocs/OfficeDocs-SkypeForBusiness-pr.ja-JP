@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 での既存のアーカイブ ポリシーの削除
+title: 既存のビジネス サーバー ポリシーでは、Skype のアーカイブを削除します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
-description: '概要: は、Skype のビジネス サーバー 2015 のアーカイブ ポリシーを削除する方法を説明します。'
-ms.openlocfilehash: aeb640cc832bffbded4765e5b6cc931a17365215
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、Skype のビジネス サーバーのアーカイブ ポリシーを削除する方法を説明します。'
+ms.openlocfilehash: 0446999923b462311f941b6653157b41000b1f43
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973102"
 ---
-# <a name="delete-an-existing-archiving-policy-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での既存のアーカイブ ポリシーの削除
+# <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>既存のビジネス サーバー ポリシーでは、Skype のアーカイブを削除します。
 
-**の概要:**ビジネス サーバー 2015 の Skype は、アーカイブ ・ ポリシーを削除する方法について説明します。
+**の概要:** Skype のビジネス サーバーのアーカイブ ポリシーを削除する方法について説明します。
   
 ユーザー ポリシーやサイト ポリシーは削除できますが、グローバル ポリシーは削除できません。 グローバル ポリシーを削除する場合 Skype ビジネス サーバーに自動的にポリシーをリセットする既定値にします。
   

@@ -1,28 +1,28 @@
 ---
-title: Skype for Business Server 2015 での QoE (Quality of Experience) 構成設定の削除
+title: ビジネス サーバーの Skype での高品質なエクスペリエンスの構成の設定を削除します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
-description: '概要: ビジネス サーバー 2015 の Skype の高品質のエクスペリエンス (QoE) の設定を削除する方法を説明します。'
-ms.openlocfilehash: 52008e14ca7a7b2a7a26726a2749f6d4dd083bbb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: ビジネスのサーバーの Skype でのエクスペリエンスの品質 (QoE) 設定を削除する方法を説明します。'
+ms.openlocfilehash: a0ed68fa6670f66512023e1dcf0754be5e95ed53
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21029410"
 ---
-# <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での QoE (Quality of Experience) 構成設定の削除
+# <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>ビジネス サーバーの Skype での高品質なエクスペリエンスの構成の設定を削除します。
  
-**の概要:**ビジネス サーバー 2015 の Skype の高品質のエクスペリエンス (QoE) の設定を削除する方法について説明します。
+**の概要:** ビジネス サーバーの Skype の高品質のエクスペリエンス (QoE) の設定を削除する方法について説明します。
   
 Quality of Experience (QoE) 指標は、ネットワーク パケットの損失数、バックグラウンド ノイズ、"ジッター" (パケット遅延のばらつき) の量など、組織内で行われる音声通話およびビデオ通話の品質を追跡します。これらの指標は、他のデータ (詳細な通話の記録など) とは別にデータベースに格納されます。このため、QoE は他のデータ記録と関係なく有効および無効にすることができます。
   
-ビジネス サーバー 2015 年、1 つの Skype をインストールすると QoE 構成設定のグローバル コレクションが作成されます。 また管理者には、個別のサイトに適用できるカスタム設定コレクションを作成するオプションがあります。 設計上、サイト スコープで構成した設定は、グローバル スコープで構成した設定より優先されます。 サイト スコープの設定を削除すると、サイトの QoE はグローバル設定を使って管理されます。
+ビジネス サーバー、1 つの Skype をインストールすると QoE 構成設定のグローバル コレクションが作成されます。 また管理者には、個別のサイトに適用できるカスタム設定コレクションを作成するオプションがあります。 設計上、サイト スコープで構成した設定は、グローバル スコープで構成した設定より優先されます。 サイト スコープの設定を削除すると、サイトの QoE はグローバル設定を使って管理されます。
   
 削除することも""グローバル設定に注意してください。 ただし、グローバル設定は実際に削除されるわけではありません。 代わりに、そのコレクションのすべてのプロパティが既定値にリセットされます。 たとえば、QoE 構成設定のコレクションでは削除が既定で有効になっています。 仮にグローバル コレクションを変更して削除を無効にしたとします。 後にグローバル設定を削除すると、すべてのプロパティは既定の値にリセットされます。 この場合、削除が再び有効になることを意味します。
   
@@ -72,5 +72,5 @@ QoE 構成設定を削除するには、Windows PowerShell と**削除 CsQoEConf
   
 ## <a name="see-also"></a>関連項目
 
-[ビジネス サーバー 2015 の通話の詳細記録と Skype で高品質なエクスペリエンスのデータベースを手動で削除します。](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
+[ビジネス サーバーの通話詳細記録と Skype で高品質なエクスペリエンスのデータベースを手動で削除します。](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
 

@@ -1,27 +1,28 @@
 ---
-title: Skype for Business Server 2015 での高解像度写真の使用の構成
+title: ビジネス サーバー用の Skype の高解像度の写真の使用を構成します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
-description: '概要: ビジネス サーバー 2015 の 2016 の Exchange Server や Exchange Server 2013 と Skype の高解像度の写真の使用を構成します。'
-ms.openlocfilehash: 43ca3ca0444339ff61811c8aad5860989e45ca33
-ms.sourcegitcommit: faea19005301c56a081b6e6157965becac76ec2f
+description: '概要: ビジネス サーバーの 2016 の Exchange Server や Exchange Server 2013 と Skype の高解像度の写真の使用を構成します。'
+ms.openlocfilehash: 224c8dc238d8427deddc706b883614fd04c9b133
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21007238"
 ---
-# <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での高解像度写真の使用の構成
+# <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>ビジネス サーバー用の Skype の高解像度の写真の使用を構成します。
  
-**の概要:** ビジネス サーバー 2015 2016 の Exchange Server や Exchange Server 2013 と Skype で高解像度の写真の使用を構成します。
+**の概要:** 2016 の Exchange Server や Exchange Server 2013 と Skype のビジネス サーバーの高解像度の写真の使用を構成します。
   
-ビジネス サーバー 2015 の Skype では、メールボックスの [ユーザーの 2016 の Exchange Server や Exchange Server 2013 できる写真のサイズの最大の 648 648 ピクセル ピクセル写真を保存できます。 さらに、Exchange Server に自動的にサイズを変更できますこれらの写真のさまざまな製品で使用するため必要に応じて。 通常次の 3 つの別の写真のサイズおよび解像度を意味します。
+ビジネス サーバーの Skype では、メールボックスの [ユーザーの 2016 の Exchange Server や Exchange Server 2013 できる写真のサイズの最大の 648 648 ピクセル ピクセル写真を格納できます。 さらに、Exchange Server に自動的にサイズを変更できますこれらの写真のさまざまな製品で使用するため必要に応じて。 通常次の 3 つの別の写真のサイズおよび解像度を意味します。
   
 - 64 × 64 ピクセル、thumbnailPhoto の Active Directory 属性を使用するサイズです。 Exchange Server に写真をアップロードする場合 Exchange が自動的にその写真の 64 ピクセルのバージョンで 64 ピクセルを作成およびユーザーの thumbnailPhoto の属性を更新します。 ただし、逆は真ではありません: Active Directory 内の thumbnailPhoto 属性を手動で更新する場合は、ユーザーの Exchange メールボックスにある写真に自動的に更新されません。
     

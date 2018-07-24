@@ -1,28 +1,28 @@
 ---
-title: Skype for Business Server 2015 のメディア品質メトリック分布レポート
+title: ビジネス サーバーの Skype で、メディア品質メトリック分布レポート
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
-description: '概要: は、ビジネス サーバー 2015 の Skype で、メディア品質メトリック分布レポートについて説明します。'
-ms.openlocfilehash: 8883a15e4d78ee0eb5fad298fcbdddea6aedb5a3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、ビジネスのサーバーの Skype で、メディア品質メトリック分布レポートについて説明します。'
+ms.openlocfilehash: ef15807cdc0377d2548a83f8da56de9b6cf85e04
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014139"
 ---
-# <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 のメディア品質メトリック分布レポート
+# <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>ビジネス サーバーの Skype で、メディア品質メトリック分布レポート 
  
-**の概要:**ビジネス サーバー 2015 の Skype で、メディア品質メトリック分布レポートについて説明します。
+**の概要:** ビジネス サーバーの Skype で、メディア品質メトリック分布レポートについて説明します。
   
 メディア品質メトリック分布レポートでは、ジッターやパケット損失などの QoE (Quality of Experience) 指標の分布値を示すグラフを確認することができます。たとえば、ユーザーが合計で 10 回の通話を行い、この 10 回の通話から以下のようなラウンドトリップ時間が報告されたとします。
   
-|**電話番号**|**ラウンド トリップ時間 (ミリ秒単位)**|
+|**通話番号**|**ラウンド トリップ時間 (ミリ秒)**|
 |:-----|:-----|
 |1  <br/> |50  <br/> |
 |2  <br/> |50  <br/> |
@@ -47,7 +47,7 @@ ms.lasthandoff: 03/28/2018
   
 **メディア品質メトリック分布レポートのフィルター**
 
-|**名**|**説明**|
+|**名前**|**説明**|
 |:-----|:-----|
 |**[開始]** <br/> |時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。  <br/> 7/7/2015 13:00  <br/> 開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 一週間は、日曜日から始まり、土曜日で終わるものとします。  <br/> |
 |**[終了]** <br/> |時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。  <br/> 7/7/2015 13:00  <br/> 終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 一週間は、日曜日から始まり、土曜日で終わるものとします。  <br/> |

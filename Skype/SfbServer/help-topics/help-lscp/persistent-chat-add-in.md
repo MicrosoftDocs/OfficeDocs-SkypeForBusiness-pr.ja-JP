@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
 description: 永続的なチャット ルームの Url に関連付けるには、永続的なチャット ページの追加のセクションを使用できます。 これらの URL は、チャット ルームにいるクライアントの会話拡張機能ウィンドウに表示されます。 管理者が登録済みアドインの一覧にアドインを追加し、チャット ルームのマネージャー/作成者が登録済みアドインの 1 つにルームを関連付けると、ユーザーはクライアントでこのアップグレードを表示できるようになります。
-ms.openlocfilehash: 8d4a74571b2d86295a0f7ffdff986f112380ffd7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4e2ec24b9cd6e47391a0e56a6696c622afec25ad
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006879"
 ---
 # <a name="persistent-chat-add-in"></a>常設チャット アドイン
  
@@ -30,7 +31,7 @@ ms.lasthandoff: 03/28/2018
 
 [**アドイン**] ページでは、次のタスクを実行できます。
   
-- [ビジネス サーバー 2015 の Skype での永続的なチャット ルームのアドインを構成します。](../../manage/persistent-chat/configure-add-ins.md)
+- [Skype for Business Server 2015 での常設チャット ルームのアドインの構成](../../manage/persistent-chat/configure-add-ins.md)
     
 ## <a name="to-configure-add-ins-for-chat-rooms"></a>チャット ルームのアドインを構成するには
 
@@ -56,7 +57,7 @@ ms.lasthandoff: 03/28/2018
     
 7. [**コミット**] をクリックします。
     
-### 
+## <a name="see-also"></a>関連項目
 
 持続チャット サーバーで永続的なチャット サーバーの機能と機能に関する詳細は、[ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの計画](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)、[ビジネス サーバー 2015 の Skype で永続的なチャット サーバーを展開](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)、および管理を[参照してください。ビジネス サーバー 2015 の Skype で](../../manage/persistent-chat/persistent-chat.md)。
   

@@ -1,9 +1,9 @@
 ---
 title: クライアント バージョンの構成
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 description: 環境内でサポートするクライアントのバージョンを指定するだけでなく、バージョン ポリシーを定義していないクライアントの既定のアクションを指定することも。 これにより、お客様の環境では、複数のクライアント バージョンのサポートに伴うコストを制御することができますで使用するクライアント バージョンを制限することができます。
-ms.openlocfilehash: 4b5f76d17c92d0dd478aa9a1a3fe902ccbf35c48
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5740684ee266bf3f976e355fb222988a7261277a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025927"
 ---
 # <a name="client-version-configuration"></a>クライアント バージョンの構成
  
@@ -43,7 +44,7 @@ ms.lasthandoff: 03/28/2018
     
 - **編集**クライアント バージョン ポリシーのいずれかのオプションを変更することができます。 このオプションを使用すると、以下を実行できます、します。
     
-  - **詳細を表示します。**このオプションは、クライアント バージョンの構成のオプションを変更できるダイアログ ボックスを開きます。
+  - **詳細を表示します。** このオプションは、クライアント バージョンの構成のオプションを変更できるダイアログ ボックスを開きます。
     
   - **すべてを選択**このオプションでは、一覧のすべてのクライアント バージョンの構成を選択します。
     

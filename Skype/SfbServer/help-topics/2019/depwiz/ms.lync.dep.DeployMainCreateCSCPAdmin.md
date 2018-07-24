@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
+ROBOTS: NOINDEX, NOFOLLOW
 description: Skype をビジネスのサーバーのアクセスを許可するには、次の操作を行います。
-ms.openlocfilehash: 9f9342b02f89b31c22a50f834aa08347ba7fd798
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: c90290184b461e6662672ef3b6c32096ca63871f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979030"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973088"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>Skype for Business Server コントロール パネル管理者の作成
  
@@ -49,7 +50,7 @@ Skype をビジネスのサーバーのアクセスを許可するには、次�
     
 - **CsUserAdministrator:** メンバーは、ユーザーの管理、有効化および無効化、ユーザーへの既存ポリシーの割り当てを実行できます。
     
-- **CsViewOnlyAdministrator:** メンバーには、展開と構成のサーバーの情報を表示できます。 このメンバーシップは、ビジネス サーバー 2015 の Skype を実行しているサーバーの稼働状態を監視するにはメンバーを使用します。
+- **CsViewOnlyAdministrator:** メンバーには、展開と構成のサーバーの情報を表示できます。 このメンバーシップは、Skype を実行するビジネスのサーバーのサーバーの稼働状態を監視するにはメンバーを使用します。
     
 - **CsVoiceAdministrator:** メンバーは、作成、構成、およびビジネス サーバーの Skype での音声関連の設定を管理することができます。
     

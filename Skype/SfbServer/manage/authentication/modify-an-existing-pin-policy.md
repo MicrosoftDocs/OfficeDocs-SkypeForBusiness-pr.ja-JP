@@ -1,25 +1,25 @@
 ---
-title: Skype for Business Server 2015 での既存の PIN ポリシーの変更
+title: ビジネス サーバーの Skype で既存の PIN ポリシーを変更します。
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
-description: '概要: ビジネス サーバー 2015 の Skype で既存の PIN ポリシーを変更します。'
-ms.openlocfilehash: bb9be5807da0e72dfbc59d2000af82b181bfc6d6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: ビジネス サーバーの Skype で既存の PIN ポリシーを変更します。'
+ms.openlocfilehash: 30b9926a7f8094cae1e23be6d0e9a0ade6d8d8a6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006186"
 ---
-# <a name="modify-an-existing-pin-policy-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での既存の PIN ポリシーの変更
+# <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>ビジネス サーバーの Skype で既存の PIN ポリシーを変更します。
  
-**の概要:**ビジネス サーバー 2015 の Skype で既存の PIN ポリシーを変更します。
+**の概要:** ビジネス サーバーの Skype で既存の PIN ポリシーを変更します。
   
 ビジネス IP 電話の Skype に接続しているユーザーに個人識別番号 (PIN) 認証を提供するのには、[ **PIN ポリシー** ] タブを使用できます。 PIN 認証を使用するには、Web サービス設定で [**PIN 認証を有効にする**] が選択されていることを確認してください。
   
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/28/2018
   
 ### <a name="to-modify-an-existing-pin-policy"></a>既存の PIN ポリシーを変更するには
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは2015。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは.
     
 2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
     

@@ -1,40 +1,40 @@
 ---
-title: Skype for Business Server 2015 での監視レポートの使用
+title: Skype ビジネス サーバーの監視のレポートの使用
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
-description: '概要: ビジネス サーバー 2015 の Skype でのレポートの監視について説明します。'
-ms.openlocfilehash: ff34efdf698e19006e99819c52c01c68dba2c3ae
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: Skype でレポートをビジネスのサーバーの監視について説明します。'
+ms.openlocfilehash: 68fcf3a738d2cf849bd51959a86f2d61e53db603
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003794"
 ---
-# <a name="using-monitoring-reports-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での監視レポートの使用
+# <a name="using-monitoring-reports-in-skype-for-business-server"></a>Skype ビジネス サーバーの監視のレポートの使用 
  
-**の概要:**ビジネス サーバー 2015 の Skype でのレポートの監視について説明します。
+**の概要:** Skype でレポートをビジネスのサーバーの監視について説明します。
   
-ビジネス サーバー 2015 の Skype には、Microsoft SQL Server レポート サービスによって公開されている標準的なレポートのセットが含まれています。 アクセスできる web ブラウザーを使用して、これらのレポートは、使用法、通話診断情報、およびメディアの品質については、すべてに基づく通話の詳細記録 (CDR) と高品質のエクスペリエンス (QoE) レコードが、CDR および QoE データベースに格納されているを提供します。
+Skype ビジネス サーバー用には、Microsoft SQL Server レポート サービスによって公開されている標準的なレポートのセットが含まれています。 アクセスできる web ブラウザーを使用して、これらのレポートは、使用法、通話診断情報、およびメディアの品質については、すべてに基づく通話の詳細記録 (CDR) と高品質のエクスペリエンス (QoE) レコードが、CDR および QoE データベースに格納されているを提供します。
   
 これらのレポートを使用するには、SQL Server のインスタンスを実行しているコンピューターの監視レポートをインストールする必要があります。
   
 ## <a name="in-this-section"></a>セクションの内容
 
-- [ビジネス サーバー 2015 の Skype での監視のダッシュ ボードを使用します。](monitoring-dashboard.md)システムの健全性とシステムの使用状況の概要を管理者に提供します。
+- [Skype ビジネス サーバーの監視のダッシュ ボードを使用します。](monitoring-dashboard.md)システムの健全性とシステムの使用状況の概要を管理者に提供します。
     
-- [ビジネス サーバー 2015 の Skype でのシステム使用状況レポート](system-usage-reports.md)ビジネス サーバーは、Skype で収集したデータを CDR に基づくシステムの使用状況に関する情報を提供します。
+- [ビジネス サーバーの Skype でのシステム使用状況レポート](system-usage-reports.md)ビジネス サーバーは、Skype で収集したデータを CDR に基づくシステムの使用状況に関する情報を提供します。
     
-- [呼び出す診断レポート (ユーザーごと) ビジネス サーバー 2015 の Skype で](call-diagnostic-reports-per-user.md)失敗したピア ツー ピア セッションおよび会議セッションのユーザーごとの情報を提供します。
+- [呼び出す診断レポート (ユーザー) ごと](call-diagnostic-reports-per-user.md)失敗したピア ツー ピア セッションおよび会議セッションのユーザーごとの情報を提供します。
     
-- [ビジネス サーバー 2015 の Skype で診断レポートを呼び出す](call-diagnostic-reports.md)要約情報と失敗したピア ツー ピア会議セッションの診断データを提供します。
+- [Skype ビジネス サーバーの診断レポートを呼び出す](call-diagnostic-reports.md)要約情報と失敗したピア ツー ピア会議セッションの診断データを提供します。
     
-- [ビジネス サーバー 2015 の Skype のメディア品質診断レポート](media-quality-diagnostic-reports.md)呼び出しの失敗の診断およびトラブルシューティングの情報だけでなく、通話の品質に関する情報を提供します。
+- [ビジネス サーバーの Skype でのメディア品質診断レポート](media-quality-diagnostic-reports.md)呼び出しの失敗の診断およびトラブルシューティングの情報だけでなく、通話の品質に関する情報を提供します。
     
 ## <a name="locating-records"></a>レコードの検索
 

@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 での電話会議ポリシーの変更
+title: ビジネス サーバーの Skype での会議ポリシーを変更します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b40ba905-e74a-4456-ac94-65471bc2d66d
-description: '概要: ビジネス サーバー 2015 の Skype での会議ポリシーを変更する方法を説明します。'
-ms.openlocfilehash: b0456db5d0c6131b3b3999a87fc824d6ee3b4b30
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: ビジネス サーバーの Skype での会議ポリシーを変更する方法を説明します。'
+ms.openlocfilehash: 5883af04310f671e536460dbd466ce583cb52ebd
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20970241"
 ---
-# <a name="modify-conferencing-policies-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での電話会議ポリシーの変更
+# <a name="modify-conferencing-policies-in-skype-for-business-server"></a>ビジネス サーバーの Skype での会議ポリシーを変更します。
  
-**の概要:**ビジネス サーバー 2015 の Skype での会議ポリシーを変更する方法について説明します。
+**の概要:** ビジネス サーバーの Skype での会議ポリシーを変更する方法について説明します。
   
 ビジネス サーバーのコントロール パネルの Skype を使用して、または Skype ビジネス サーバー管理シェルを使用して、会議ポリシーを変更できます。
   

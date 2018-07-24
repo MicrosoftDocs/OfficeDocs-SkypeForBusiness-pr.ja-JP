@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 のファイル共有の高可用性
+title: Skype で高可用性をビジネス サーバーの共有ファイル
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -11,13 +10,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
 description: ビジネス サーバーは、DFS を使用して Skype でファイル共有の可用性を確認する方法について説明します。
-ms.openlocfilehash: f96e4aaca70c501425528b12207eeab01027c9a9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 645aa70ffc0c42cddb6941c9766cb91bed898dc8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989910"
 ---
-# <a name="file-sharing-high-availability-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 のファイル共有の高可用性
+# <a name="file-sharing-high-availability-in-skype-for-business-server"></a>Skype で高可用性をビジネス サーバーの共有ファイル
  
 ビジネス サーバーは、DFS を使用して Skype でファイル共有の可用性を確認する方法について説明します。
   

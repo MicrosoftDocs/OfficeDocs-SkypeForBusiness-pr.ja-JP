@@ -1,26 +1,25 @@
 ---
-title: Skype for Business Server 2015 での監視ストアとフロントエンド プールの関連付け
+title: ビジネス サーバーのフロント エンド プールを Skype 監視ストアに関連付ける
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 9/1/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
-description: '概要: ビジネス サーバー 2015 の Skype で使用される監視ストアがフロント エンド プールに関連付ける方法を説明します。'
-ms.openlocfilehash: 6706185264df4220b723f72c0863f11d84e2dc05
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: Skype ビジネス サーバーの使用の監視ストアのフロント エンド プールに関連付ける方法を説明します。'
+ms.openlocfilehash: a7a7965016ed659d120cf4bff642e85e9941b193
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968210"
 ---
-# <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での監視ストアとフロントエンド プールの関連付け
- 
-**の概要:**ビジネス サーバー 2015 の Skype で使用される監視ストアがフロント エンド プールに関連付ける方法について説明します。
+# <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>ビジネス サーバーのフロント エンド プールを Skype 監視ストアに関連付ける 
+**の概要:** Skype ビジネス サーバーの使用の監視ストアのフロント エンド プールに関連付ける方法について説明します。
   
-ビジネス サーバー 2015 の Skype での監視データのみを収集できます監視ストア、トポロジ ビルダーでは、フロント エンド プールを定義するときに通常実行されるタスクに関連付けられているフロント エンド プールに。
+ビジネス サーバーの Skype で監視データのみを収集できます監視ストア、トポロジ ビルダーでは、フロント エンド プールを定義するときに通常実行されるタスクに関連付けられているフロント エンド プールに。
   
 ## <a name="associate-a-monitoring-store-with-a-front-end-pool"></a>フロントエンド プールへの監視ストアの関連付け
 

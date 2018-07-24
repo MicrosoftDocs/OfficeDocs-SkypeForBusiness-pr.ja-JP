@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 のビデオ相互運用サーバーの計画
+title: ビジネス サーバーに、Skype でのビデオの相互運用サーバーを計画します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 f1_keywords:
@@ -11,22 +10,23 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
-description: '概要: ビジネス サーバー 2015 のサード ・ パーティ製会議デバイスに Skype を統合するために計画するときにこのトピックを参照します。'
-ms.openlocfilehash: 1a0ae30cf383f9f05cc8c37ef2c1ba7b7c76cfb8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: ビジネス サーバーの会議のサード ・ パーティ製のデバイスに Skype を統合するために計画するときにこのトピックを参照します。'
+ms.openlocfilehash: c4308b27371c9e0da312eee0fa5c52602674c45c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975635"
 ---
-# <a name="plan-for-video-interop-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 のビデオ相互運用サーバーの計画
+# <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>ビジネス サーバーに、Skype でのビデオの相互運用サーバーを計画します。
  
-**の概要:**ビジネス サーバー 2015 のサード ・ パーティ製会議デバイスに Skype を統合するために計画するときに、このトピックを確認します。
+**の概要:** ビジネス サーバーの会議のサード ・ パーティ製のデバイスに Skype を統合するために計画するときに、このトピックを確認します。
   
 ビジネス サーバー用の Skype を使用して、特定のサード ・ パーティ製 VTC (ビデオ会議システム) のソリューションと統合することできるようになりました。 このビデオ会議の相互運用性を可能にする新しいサーバーの役割では、ビデオの相互運用機能サーバー (VIS)、オンプレミスのインストールでのみ使用可能なスタンドアロン サーバーの役割としては現在実装されています。 VIS では、サード パーティ製のテレビ会議システムと、Skype ビジネス サーバーの展開の間の媒介手段として機能します。 このリリースでは、VIS は Cisco/Tandberg ビデオ システムとの相互運用性に焦点を合わせています。 ビジネス サーバーのインストール、Skype でこの機能を使用するかどうかを決定するには、この資料を確認してください。
   
 ## <a name="device-interoperability"></a>デバイスの相互運用性
 
-相互運用性は、CUCM バージョン 10.5、および CUCM と VIS 間での TCP SIP トランクのセットアップにより、Cisco VTC でテストおよびサポートされています。
+相互運用性がテストされ、Cisco の VTCs を登録する際にサポートされている Cisco ユニファイド コミュニケーション マネージャーを使用して (CallManager、または CUCM) バージョン 10.5 および TCP SIP トランクが設定されて CUCM と、VIS. との間
   
 現在サポートされている VTC:
   
@@ -116,9 +116,9 @@ VIS は、ビデオ SIP トランク上で実行された CUCM からの着信�
     VIS は、ビデオ SIP トランクからの通話に 10 秒間のタイマーも実装します。 主の次のホップのフロント エンド プールは、このタイマーの値、呼び出しの s のバックアップの次ホップ プロキシに送信された招待状をプールは (100 の中を含む) いくつかの SIP メッセージが応答しませんでした、ビデオの SIP トランクおよび次のホップの主要フロント エンドからの呼び出しに使用された場合なく-version は、構成されている場合に実行されます。 
     
     > [!NOTE]
-    > バックアップの次のホップが最初に試行された場合、プライマリ試行されませんが、次にします。 
+    > 最初にバックアップ次ホップが試行された場合、次にプライマリは試行されません。 
   
-    管理者は、バックアップ ・ フロント エンド プールなどを使用して、保守にはプライマリのフロント エンド プール上で実行するときに VIS を強制的に Windows PowerShell のフェイル オーバー ・ コマンドを使用することも。
+    管理者は、Windows PowerShell フェールオーバー コマンドを使用して、たとえば、プライマリ フロント エンド プールを保守する必要がある場合などに、VIS がバックアップ フロント エンド プールを使用するように強制することもできます。
     
 ## <a name="co-existence-of-voice-and-video-trunks-to-the-same-gateway-peer"></a>同じゲートウェイ ピアに対する音声およびビデオ トランクの共存
 <a name="resiliency"> </a>
@@ -146,11 +146,11 @@ VIS は、Skype のビジネスの展開の一部としてのみ展開できま�
   
 VIS は、RTV と H.264 間のトランスコーディングをサポートしていません。 会議に参加する Lync 2013 より前のクライアントと VTC 間にビデオの相互運用性はありません。
   
-以前 Lync 2013 クライアント会議に参加することと、VTCs のビデオを受信しないモバイル クライアントが、優先度の高いスピーカーになったときに RTV を使用して送信するモバイル クライアントが発生します。
+会議に Lync 2013 より前のクライアントが参加する場合、モバイル クライアントが主発言者になると、モバイル クライアントは RTV を使用して送信するので、結果として VTC はビデオを受信しません。
   
-Lync 2013 を Skype のビジネス展開の一部である VIS で正常に動作するためには、Lync 2013 は、適切な CU を適用する VIS. を使用するには、Lync 2013 クライアント、CAA、および AVMCU をアップグレードする必要があります。
+Lync 2013 が、Skype for Business の展開に含まれる VIS と正しく連携するには、Lync 2013 は、VIS と連携できるように Lync 2013 クライアント、CAA、および AVMCU をアップグレードできる適切な CU を適用する必要があります。
   
-ビジネス デスクトップ クライアント Lync 2013 および Skype と VIS の相互運用性では、テストが完了しはサポートされています。
+VIS と、Lync 2013 および Skype for Business デスクトップ クライアント間の相互運用性はテスト済みで、サポートされています。
   
 非デスクトップ (アプリ、Ipad、Iphone、Windows Phone、LMX など) と VIS の相互運用性VIS のリリースの時点で該当するアプリケーション ストアから利用可能なビジネス クライアント用の Skype では、テストが完了しはサポートされています。
   
@@ -186,7 +186,4 @@ VIS を介してフェデレーション会議に参加する VTC は、Skype fo
 ## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
 <a name="resiliency"> </a>
 
-#### 
-
-[ビジネス サーバー 2015 の Skype でのビデオの相互運用サーバーを展開します。](../deploy/deploy-video-interop-server/deploy-video-interop-server.md)
-
+[ビジネス サーバーの Skype でのビデオの相互運用サーバーを展開します。](../deploy/deploy-video-interop-server/deploy-video-interop-server.md)

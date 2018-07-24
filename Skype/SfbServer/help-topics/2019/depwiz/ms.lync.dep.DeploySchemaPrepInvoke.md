@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f031eb6d-0749-4247-842c-c1e701027ffb
-description: 'コマンドの実行] ページには、Skype のビジネス サーバー 2015 のスキーマを拡張するのには、発行するコマンドの概要が表示されます。 タスクが完了すると、概要ペインにタスクが成功したか失敗したかが表示されます。 サマリー画面を確認し、そのタスクの進捗状況を確認してください: 完了 [サマリー] ペインが表示されます。 概要ペインの下のドロップダウン リストを使用して、ログ ファイル "スキーマの準備" を選択して表示できます。 ログ ファイルを確認するのにはログの表示] をクリックします。 スキーマの準備中にエラーが表示された場合、タスクで発生したエラーはここに記録されます。 エラーを修正するための操作を実行して、スキーマの準備を再実行できます。'
-ms.openlocfilehash: b992838aea493b7318d88d6ff04ce84ff4bd77a7
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: コマンドの実行] ページには、Skype のビジネス サーバーのスキーマを拡張するのには、発行するコマンドの概要が表示されます。
+ms.openlocfilehash: 629672673a240e66ca097f6a61af4caad7ee32c6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964428"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974600"
 ---
 # <a name="prepare-schema-invoke"></a>スキーマの準備 (起動)
  

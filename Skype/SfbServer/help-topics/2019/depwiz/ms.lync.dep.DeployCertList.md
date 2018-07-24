@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
-description: 証明書を割り当てるには、ローカル証明書ストアから証明書を選択します。 [次へ] をクリックします。
-ms.openlocfilehash: f9e1a37054206375eacf0fa4287e8148745fbcf0
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 証明書を割り当てるには、ローカル証明書ストアから証明書を選択します。[次へ] をクリックして続行します。
+ms.openlocfilehash: 62dcc2abfde1d2216288b8137a9ab2a2448d5404
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19992028"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987480"
 ---
 # <a name="certificate-list"></a>証明書のリスト
  

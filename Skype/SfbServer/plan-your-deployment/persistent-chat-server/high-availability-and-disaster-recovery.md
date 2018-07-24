@@ -10,20 +10,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: '概要: ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの高可用性と災害復旧を計画する方法の詳細については、このトピックを読みます。'
-ms.openlocfilehash: 2730d72b47d02772bf2c5c59c819bbe23e8816db
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 90f01de0ca7efef8fdcda4f03fa4bfaa28bd4fcc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971656"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの高可用性と災害復旧の計画
  
-**の概要:**ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの高可用性と災害復旧を計画する方法の詳細については、このトピックを参照してください。
+**の概要:** ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの高可用性と災害復旧を計画する方法の詳細については、このトピックを参照してください。
   
 高可用性と災害復旧の永続的なチャット サーバーの完全な処理に必要な通常以外の追加リソースが必要です。 
   
 > [!NOTE]
 > 常設チャット サーバー データベースで SQL AlwaysOn 可用性グループを使用することは、サポートされていません。 
+
+> [!NOTE] 
+> 永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。 同じ機能は、チームで使用できます。 詳細については、[マイクロソフトのチームにビジネス用の Skype からの旅](/microsoftteams/journey-skypeforbusiness-teams)を参照してください。 永続的なチャットを使用する場合は、選択肢は、いずれかをチームでは、この機能を必要とするユーザーを移行するまたはビジネス サーバー 2015 の Skype を使用し続ける。 
   
 ## <a name="resource-requirements"></a>リソースの要件
 
@@ -75,7 +79,7 @@ ms.lasthandoff: 03/28/2018
     
   - サイト 2 上に、フロントエンド サーバー プールと、SQL ログ配布のターゲットであるバックアップ データベース。
     
-**拡大の永続的なチャット サーバー プールのデータ ・ センターは、高帯域幅と低レーテンシーと地域にある場合**
+**データ センターが高帯域幅/低遅延の場所に設置されている場合の拡張常設チャット サーバー プール**
 
 ![高帯域幅/低遅延の常設チャット用に拡張されたプール](../../media/55cf3d4b-5f51-4d2f-84ca-b4a13dc5eba3.png)
   
@@ -99,7 +103,7 @@ ms.lasthandoff: 03/28/2018
     
   - サイト 2 上に、フロントエンド サーバー プールと、SQL ログ配布のターゲットであるバックアップ データベース。
     
-**拡大の永続的なチャット サーバー プールのデータ ・ センターでは、低帯域幅/高遅延の地域にある場合**
+**データ センターが低帯域幅/高遅延の場所に設置されている場合の拡張常設チャット サーバー プール**
 
 ![低帯域幅/高遅延の常設チャット用に拡張されたプール](../../media/40cbd902-57b8-4d57-a61c-cde4e0bd47f0.png)
   

@@ -11,18 +11,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 description: サイトのフェデレーション ルートの割り当てを設定するには、エッジ サーバーまたはエッジ サーバー プールで有効にするフェデレーション最初必要があります。 エッジ サーバーまたはプールでフェデレーションが有効でない場合、サイトのフェデレーション ルートの割り当ての設定は変更できません。
-ms.openlocfilehash: 7933809dc53be713a9a745e2c1fd100e4de1c6b6
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 260a5dd836adb0c2e99d660f134e57a15a257f18
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988286"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986814"
 ---
 # <a name="federation-route-settings-expander"></a>フェデレーション ルートの設定の拡張
  
 サイトのフェデレーション ルートの割り当てを設定するには、エッジ サーバーまたはエッジ サーバー プールで有効にするフェデレーション最初必要があります。 エッジ サーバーまたはプールでフェデレーションが有効でない場合、サイトのフェデレーション ルートの割り当ての設定は変更できません。
-  
-## 
 
 エッジ サーバーまたはプールでフェデレーション設定を構成すると場合、は、次のオプションを構成できます。 
   

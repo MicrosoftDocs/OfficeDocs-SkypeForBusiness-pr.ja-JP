@@ -1,22 +1,22 @@
 ---
-title: Skype for Business Server 2015 で Config.xml を使用してインストール タスクを実行する
+title: Config.xml を使用して、Skype のビジネスのクライアントのインストール ・ タスクを実行するのには
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
-description: 'Config.xml ファイルを使用して、追加のインストール手順の概要: 方法。'
-ms.openlocfilehash: f55683d672df890be8baf0ac7ca50b3170faf3d2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要:  Config.xml ファイルを使用して追加のインストール手順を指定する方法について説明します。'
+ms.openlocfilehash: ea869fe2b49d5c1a5b4e04c3bc75cfd52b66555e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003509"
 ---
-# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 で Config.xml を使用してインストール タスクを実行する
+# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Config.xml を使用して、Skype のビジネスのクライアントのインストール ・ タスクを実行するのには
  
 **概要: ** Config.xml ファイルを使用して追加のインストール手順を指定する方法について説明します。
   
@@ -47,13 +47,13 @@ Config.xml ファイルを使用して、Skype をビジネスのサイレント
 |**要素**|**説明**|
 |:-----|:-----|
 |Configuration  <br/> |最上位レベルの要素 (必須)。製品属性が含まれます。例: Product=Lync (Skype for Business クライアントで使用されます)  <br/> |
-|OptionState  <br/> | インストール中、特定の製品の機能が処理される方法を指定します。 Outlook 2016 の妨げになる共有コンポーネントが含まれている Business Connectivity Services のインストールを防ぐために次の属性を使用します。 <br/>  Id ="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
+|OptionState  <br/> | インストール中、特定の製品の機能が処理される方法を指定します。 干渉する Outlook の共有コンポーネントが含まれている Business Connectivity Services のインストールを防ぐために次の属性を使用します。 <br/>  Id ="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
 |Display  <br/> | セットアップがユーザーに表示する UI のレベル。一般的には次の属性があります。 <br/>  CompletionNotice =「はい」 | 」No"(default) <br/>  AcceptEula =「はい」 | 」No"(default) <br/> |
 |Logging  <br/> | セットアップが実行するログ記録の種類のオプション。一般的には次の属性があります。 <br/>  タイプ ="Off" | 」Standard"(default) | 「詳細」 <br/>  テンプレート ="_ファイル名_.txt」(ログ ファイルの名前)  <br/> |
 |Setting  <br/> | Windows インストーラーのプロパティの値を指定します。一般的には次の属性があります。<br/>  Id の設定 ="_名前_"(Windows インストーラー プロパティの名前)  <br/>  値 ="_値_"(プロパティに代入する値)  <br/> |
 |DistributionPoint  <br/> | インストールを実行するネットワーク インストール ポイントの完全修飾パス<br/>  場所 ="_パス_"  <br/> |
    
-次の例では、ビジネスの Skype の標準的なサイレント インストールの Config.xml ファイルを示します。 
+ビジネス クライアント用の Skype の場合は、標準的なサイレント インストール用の Config.xml ファイルを次の例に示します。 
   
 ```
 <Configuration Product="Lync"> 
@@ -75,9 +75,9 @@ Office のインストールとメンテナンス タスクを実行するのに
     
 3. 使用するサイレント オプションで要素のエントリを変更します。 コメント区切り記号を削除するかどうかを確認」\<!-"と"-\>」。 たとえば、次の構文を使用します。
     
-  ```
+  <pre>
   < DistributionPoint Location="\\server\share\Skype15" />
-  ```
+  </pre>
 
 4. Config.xml ファイルを保存します。
     

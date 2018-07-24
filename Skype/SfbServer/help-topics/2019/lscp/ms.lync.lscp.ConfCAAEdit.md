@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97a2b794-77da-40c0-9f9a-3c5fe6cc683d
+ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 97bda95c77d667cde2742fbec70cbafc0438aa69
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: b9f6873b8479572586781967401d16f0fd3f744c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973497"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995189"
 ---
 # <a name="dial-in-access-number-create-new-or-edit-existing"></a>ダイヤルイン アクセス番号: 新規作成または現在の形式のままで編集
  

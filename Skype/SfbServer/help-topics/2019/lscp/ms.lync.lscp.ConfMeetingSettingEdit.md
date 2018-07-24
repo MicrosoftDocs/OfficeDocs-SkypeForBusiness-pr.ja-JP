@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
-description: 会議の構成の設定では、ユーザーによってスケジュールされている会議にユーザーが参加するときの操作方法を定義します。 これらの設定は、スケジュールされている会議にのみ適用されます。 これらの設定は、クライアントで [今すぐミーティング] オプションをクリックして作成された臨時の会議には適用されません。
-ms.openlocfilehash: cdb5c64bc84c7fbc755296c0082ff3323b9a32cb
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 会議の構成の設定では、ユーザーによってスケジュールされている会議にユーザーが参加するときの操作方法を定義します。これらの設定は、スケジュールされている会議にのみ適用されます。クライアントの [今すぐミーティング] オプションをクリックして作成されるアドホック会議には適用されません。
+ms.openlocfilehash: bbcbd0858fd620bbe5158454401b2e1355995915
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19990759"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009702"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>会議構成: 新規作成または現在の形式のままで編集
  

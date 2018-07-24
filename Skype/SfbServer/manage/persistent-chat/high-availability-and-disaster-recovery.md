@@ -10,17 +10,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: '概要: ビジネス サーバー 2015 の永続的なチャット サーバーの高可用性と Skype では障害回復を管理する方法を説明します。'
-ms.openlocfilehash: 8bc80ff6a38238b81b658a7f4d9620dc3a56b9be
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 3c3da985f8d68f257257909fbc06e93868233468
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008224"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバーの高可用性および障害復旧の管理
  
-**の概要:**ビジネス サーバー 2015 の永続的なチャット サーバーの高可用性と Skype では障害回復を管理する方法について説明します。
+**の概要:** ビジネス サーバー 2015 の永続的なチャット サーバーの高可用性と Skype では障害回復を管理する方法について説明します。
   
 このトピックでは、フェイル オーバーとフェイル バックに永続的なチャット サーバーにする方法について説明します。 このトピックを読む前にするの Skype での永続的なチャット サーバーの[高可用性とビジネス サーバー 2015 の Skype での永続的なチャット サーバーの障害回復の計画](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)し[の構成の高可用性および災害復旧を参照してください。ビジネス サーバー 2015年](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)。
+
+> [!NOTE]
+> 永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。 同じ機能は、チームで使用できます。 詳細については、[マイクロソフトのチームにビジネス用の Skype からの旅](/microsoftteams/journey-skypeforbusiness-teams)を参照してください。 永続的なチャットを使用する場合は、選択肢は、いずれかをチームでは、この機能を必要とするユーザーを移行するまたはビジネス サーバー 2015 の Skype を使用し続ける。 
   
 ## <a name="fail-over-persistent-chat-server"></a>永続的なチャット サーバー上で失敗します。
 
@@ -64,7 +68,7 @@ ms.lasthandoff: 03/28/2018
     
   - **exec sp_who2** を実行して、mgc データベースへの接続を識別します。
     
-  - **kill \<spid\>**をこれらの接続を終了します。
+  - **kill \<spid\>** をこれらの接続を終了します。
     
   - データベースをオンラインにします。
     

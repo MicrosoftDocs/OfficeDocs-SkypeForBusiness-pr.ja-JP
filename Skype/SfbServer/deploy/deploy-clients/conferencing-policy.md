@@ -3,18 +3,18 @@ title: Skype Room System アカウント用の電話会議ポリシー
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: このトピックでは、Skype Room System アカウントに会議ポリシーを割り当てる方法について説明します。
-ms.openlocfilehash: 07ce5031bd053837d69d3ed3da27aabb344c3a65
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: a9eb05c8e29a3db216bc74e5e016c2c6a8413a33
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973424"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Skype Room System アカウント用の電話会議ポリシー
  
@@ -59,7 +59,7 @@ Skype ルームのシステム アカウントに割り当てられている会�
 |TotalReceiveVideoBitRateKb  <br/> |20000  <br/> |設定することこのできるだけ高くすることをお勧めします。 効果的な帯域幅は、会議の時に、ネットワークの状態に依存します。\*  <br/> |
 |EnableMultiViewJoin  <br/> |True  <br/> |TRUE にする必要があります Skype ルームのシステム ビューの複数のビデオ ストリームの  <br/> |
    
-* 帯域幅の計画方法の詳細については、[メディア トラフィック用のネットワーク帯域幅の要件](https://technet.microsoft.com/en-us/library/jj688118%28v=ocs.15%29.aspx)を参照してください。
+* 帯域幅の計画方法の詳細については、[メディア トラフィック用のネットワーク帯域幅の要件](../../plan-your-deployment/network-requirements/network-requirements.md#network-bandwidth-requirements-for-media-traffic)を参照してください。
   
 > [!NOTE]
 > Skype ルーム システムのクライアントでは、Lync Server 2010 プールのホーム サーバーがユーザーごとのスケジュールされたミーティングに参加しようとして、会議の開催者の会議ポリシー防ぐことが Skype ルーム システムのクライアント共同作業を実行します。 

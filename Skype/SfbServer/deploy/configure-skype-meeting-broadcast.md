@@ -3,7 +3,6 @@ title: Skype 会議ブロードキャストを使用できるようにオンプ�
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -15,15 +14,16 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: '概要: は、ハイブリッド展開のビジネスのサーバーの設置型の Skype の Skype 会議のブロードキャストを構成するのには実行する必要がある手順について説明します。'
-ms.openlocfilehash: e788a263223ea3fa0f4ce9ed844fb5b4eb0ae898
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 55b7c5c1e97c2e059ead73384ae2914b07d47c4b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004694"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Skype 会議ブロードキャストを使用できるようにオンプレミス展開を構成する
  
-**の概要:**設置型の Skype ビジネス サーバー ハイブリッド展開用の Skype 会議のブロードキャストを構成するために実行する必要がある手順について説明します。
+**の概要:** 設置型の Skype ビジネス サーバー ハイブリッド展開用の Skype 会議のブロードキャストを構成するために実行する必要がある手順について説明します。
   
 Skype 会議のブロードキャストは、Office 365 の一部であるオンライン サービスです。 ビジネス サーバー設置型の Skype を実行している環境で Skype 会議のブロードキャストを使用する場合は、このトピックで構成手順を実行する必要があります。 作業を開始する前に、環境をビジネス オンラインの Skype でのハイブリッドを構成する必要があります。 詳細については、[サーバーのビジネスとオンライン ビジネスの Skype の Skype 間のハイブリッド接続を計画](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)し、[サーバーのビジネスとオンライン ビジネスの Skype の Skype 間のハイブリッド接続の展開](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)を参照してください。
   
@@ -80,17 +80,8 @@ Skype でビジネス サーバー管理シェルの次のコマンドレット�
   
 ```
 New-CsAllowedDomain -Identity "noammeetings.lync.com"
-```
-
-```
 New-CsAllowedDomain -Identity "emeameetings.lync.com"
-```
-
-```
 New-CsAllowedDomain -Identity "apacmeetings.lync.com"
-```
-
-```
 New-CsAllowedDomain -Identity "resources.lync.com"
 ```
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: '概要: は、Skype のビジネス サーバー 2015 の永続的なチャット サーバーのコンプライアンス サービスを構成する方法について説明します。'
-ms.openlocfilehash: 99c09408fbc404edd7ccd6c3844f59dca77a35f0
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: e41afe6b9d6d36a73d818af7fc297e7b20006dcf
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568627"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026617"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバーのコンプライアンス サービスの構成
  
@@ -36,6 +36,9 @@ ms.locfileid: "19568627"
 - ファイルをダウンロードする
     
 この情報は、必要に応じてコンプライアンス SQL データベースから取得できます。 
+
+> [!NOTE]
+> 永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。 同じ機能は、チームで使用できます。 詳細については、[マイクロソフトのチームにビジネス用の Skype からの旅](/microsoftteams/journey-skypeforbusiness-teams)を参照してください。 永続的なチャットを使用する場合は、選択肢は、いずれかをチームでは、この機能を必要とするユーザーを移行するまたはビジネス サーバー 2015 の Skype を使用し続ける。 
   
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Windows PowerShell を使用してコンプライアンス サービスを構成する
 
@@ -128,9 +131,9 @@ Message 要素には、2 つの要素 (Sender、DateTimeUTC) と 3 つの属性 
 
 次の表で、メッセージ属性 Type、Content、ID について説明します。
   
-**メッセージ要素の属性**
+**Messages 要素の属性**
 
-|**属性**|**説明**|**オプションと必要です**|
+|**属性**|**説明**|**オプション/必須**|
 |:-----|:-----|:-----|
 |Type  <br/> |メッセージの型を指定します。メッセージの型については、「Messages 要素のメッセージ型」の表で説明しています。  <br/> |必須  <br/> |
 |Content  <br/> |メッセージの内容が含まれます。Type が Join または Part であるメッセージはこの属性を使用しません。  <br/> |省略可能  <br/> |
@@ -138,9 +141,9 @@ Message 要素には、2 つの要素 (Sender、DateTimeUTC) と 3 つの属性 
    
 各 Sender 要素には、5 つの属性 (Username、ID、Email、Internal、Uri) が含まれます。次の表で、これらの属性について説明します。
   
-**送信者要素の属性**
+**Sender 要素の属性**
 
-|**属性**|**説明**|**オプションと必要です**|
+|**属性**|**説明**|**オプション/必須**|
 |:-----|:-----|:-----|
 |Username  <br/> |送信者の名前。  <br/> |省略可能  <br/> |
 |ID  <br/> |送信者の一意の id。  <br/> |必須  <br/> |

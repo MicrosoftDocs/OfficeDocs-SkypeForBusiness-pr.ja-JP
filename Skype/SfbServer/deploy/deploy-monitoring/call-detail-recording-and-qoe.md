@@ -1,27 +1,26 @@
 ---
-title: ビジネス サーバー 2015 の Skype の通話の詳細記録と品質のエクスペリエンスの設定を構成します。
+title: ビジネス サーバーの Skype の通話の詳細記録と品質のエクスペリエンスの設定を構成します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
-description: ': の概要では、Skype のビジネス サーバー 2015 の CDR および QoE を構成する方法について説明します。'
-ms.openlocfilehash: 0d5a6ba25a524578a13f16c92149977b0180fbdb
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: '概要: は、Skype のビジネス サーバーの CDR および QoE を構成する方法について説明します。'
+ms.openlocfilehash: 7c94815efd30f7f3a30b3a72cfae756085e6aad4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569457"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21015004"
 ---
-# <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype の通話の詳細記録と品質のエクスペリエンスの設定を構成します。
+# <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>ビジネス サーバーの Skype の通話の詳細記録と品質のエクスペリエンスの設定を構成します。
  
-**の概要:** Skype のビジネス サーバー 2015 の CDR および QoE を構成する方法について説明します。
+**の概要:** Skype のビジネス サーバーの CDR および QoE を構成する方法について説明します。
   
-CDR と QoE の Skype のビジネス サーバー 2015 の SQL Server レポート サービスのレポートを使用して監視を構成します。
+CDR と QoE の Skype のビジネス サーバーの SQL Server レポート サービスのレポートを使用して監視を構成します。
   
 ## <a name="configure-cdr-and-qoe"></a>CDR および QoE の構成
 
@@ -31,14 +30,14 @@ CDR と QoE の Skype のビジネス サーバー 2015 の SQL Server レポー
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 ```
 
-ビジネス サーバー 2015 の Skype をインストールするときは、CDR と QoE の両方のグローバル構成設定の定義済みコレクションもインストールされます。 以下の表に、通話詳細記録で比較的よく使用される一部の設定の既定値を示します。
+ビジネス サーバーの Skype をインストールするときは、CDR と QoE の両方のグローバル構成設定の定義済みコレクションもインストールされます。 以下の表に、通話詳細記録で比較的よく使用される一部の設定の既定値を示します。
   
 |**プロパティ**|**説明**|**既定値**|
 |:-----|:-----|:-----|
 |EnableCDR  <br/> |CDR が有効かどうかを示します。True の場合、すべての CDR レコードが収集され、監視データベースに書き込まれます。  <br/> |True  <br/> |
 |EnablePurging  <br/> |CDR レコードをデータベースから定期的に削除するかどうかを示します。True の場合、KeepCallDetailForDays プロパティ (CDR レコードの場合) および KeepErrorReportForDays プロパティ (CDR エラーの場合) で指定されている期間を過ぎると、レコードが削除されます。False の場合、CDR レコードは無期限に保持されます。  <br/> |True  <br/> |
 |KeepCallDetailForDays  <br/> |CDR レコードをデータベース内に保持する日数を指定します。指定した日数を超えて存在する古いレコードはすべて自動的に削除されます。ただし、この処理は削除が有効になっている場合にのみ実行されます。  <br/> KeepCallDetailForDays には、1 ～ 2,562 日 (約 7 年間) の間の整数値を設定できます。  <br/> |60 (日)  <br/> |
-|KeepErrorReportForDays  <br/> |CDR エラー報告を保持する日数を示します。指定した日数より古いすべてのレポートが自動的に削除されます。 CDR エラー報告は、業務サーバー 2015 の Skype などのクライアント アプリケーションによってアップロードされた診断のレポートです。  <br/> このプロパティには、1 ～ 2,562 (日) の範囲の任意の整数値に指定できます。  <br/> |60 (日)  <br/> |
+|KeepErrorReportForDays  <br/> |CDR エラー報告を保持する日数を示します。指定した日数より古いすべてのレポートが自動的に削除されます。 CDR エラー報告は、Skype ビジネス サーバーのクライアント アプリケーションによってアップロードされた診断のレポートです。  <br/> このプロパティには、1 ～ 2,562 (日) の範囲の任意の整数値に指定できます。  <br/> |60 (日)  <br/> |
    
 同様に、一部の QoE 設定の既定値を以下の表に示します。
   

@@ -1,25 +1,25 @@
 ---
-title: Skype for Business Server 2015 での PIN ポリシーの削除
+title: ビジネス サーバーの Skype の暗証番号 (pin) ポリシーを削除します。
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
-description: '概要: ビジネス サーバー 2015 の Skype のユーザーのダイヤルイン会議の PIN を削除します。'
-ms.openlocfilehash: b64a4509105214358549f320cf8885d6386986f7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、Skype のビジネス サーバーのユーザーのダイヤルイン会議の PIN を削除します。'
+ms.openlocfilehash: 22c70204aa73430c49cf232dfba859d3ef54b74c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974897"
 ---
-# <a name="delete-a-pin-policy-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での PIN ポリシーの削除
+# <a name="delete-a-pin-policy-in-skype-for-business-server"></a>ビジネス サーバーの Skype の暗証番号 (pin) ポリシーを削除します。
  
-**の概要:**ビジネス サーバー 2015 の Skype のユーザーのダイヤルイン会議の PIN を削除します。
+**の概要:** Skype のビジネス サーバーのユーザーのダイヤルイン会議の PIN を削除します。
   
 暗証番号 (PIN) ポリシーを削除するには、次の手順を実行します。
   
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/28/2018
   
 ### <a name="to-delete-a-pin-policy-in-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype の暗証番号 (pin) ポリシーを削除するには
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは2015。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは.
     
 2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。  
     

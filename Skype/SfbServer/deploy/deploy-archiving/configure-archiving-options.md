@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 のアーカイブ オプションの構成
+title: Skype のビジネス サーバー用のアーカイブのオプションを構成します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
-description: '概要: ビジネス サーバー 2015 の Skype の初期のアーカイブ ・ オプションを構成する方法については、このトピックを読みます。 最初に設定する構成をアーカイブ、アーカイブを展開するが、変更、追加、および展開後の構成を削除することができます。'
-ms.openlocfilehash: 38923d436f2fc5543158dfce6f8bebde27c7c911
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: ビジネス サーバーの Skype の初期のアーカイブ ・ オプションを構成する方法については、このトピックを読みます。 最初に設定する構成をアーカイブ、アーカイブを展開するが、変更、追加、および展開後の構成を削除することができます。'
+ms.openlocfilehash: 186ebae95c3d4d27ef634c0ca9ae1bc99bbfa253
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020415"
 ---
-# <a name="configure-archiving-options-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 のアーカイブ オプションの構成
+# <a name="configure-archiving-options-for-skype-for-business-server"></a>Skype のビジネス サーバー用のアーカイブのオプションを構成します。
  
-**の概要:**ビジネス サーバー 2015 の Skype の初期のアーカイブ ・ オプションを構成する方法については、このトピックを参照してください。 最初に設定する構成をアーカイブ、アーカイブを展開するが、変更、追加、および展開後の構成を削除することができます。
+**の概要:** ビジネス サーバーの Skype の初期のアーカイブ ・ オプションを構成する方法については、このトピックを参照してください。 最初に設定する構成をアーカイブ、アーカイブを展開するが、変更、追加、および展開後の構成を削除することができます。
   
 構成するには、アーカイブ構成では、初期使用する Skype ビジネス サーバーのコントロール パネルの以下を指定します。
   
@@ -45,7 +45,7 @@ ms.lasthandoff: 03/28/2018
 > [!NOTE]
 > 適切なオプションをすべて指定してからアーカイブを有効にしてください。 
   
-方法の詳細については、アーカイブの構成は、実装するオプションを指定することを含むとアーカイブ構成の階層は、[ビジネス サーバー 2015 の Skype でアーカイブするための計画](../../plan-your-deployment/archiving/archiving.md)を参照してください。 管理する方法の詳細について、コントロール パネルを使用するか、Windows PowerShell を使用して、展開後の構成では、[ビジネス サーバー 2015 の Skype での管理アーカイブ ・ オプション](../../manage/archiving/options.md)を参照してください。
+方法の詳細については、アーカイブの構成は、実装するオプションを指定することを含むとアーカイブ構成の階層構造は、 [Skype のビジネス サーバーでアーカイブするための計画](../../plan-your-deployment/archiving/archiving.md)を参照してください。 詳細を管理する方法については、コントロール パネルを使用するか、Windows PowerShell を使用して、展開後の構成では、 [Skype のビジネス サーバーでアーカイブ ・ オプションを管理](../../manage/archiving/options.md)を参照してください。
   
 ## <a name="configure-global-level-archiving-options"></a>グローバル レベルのアーカイブ オプションを構成する
 

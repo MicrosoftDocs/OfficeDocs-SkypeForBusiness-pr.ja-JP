@@ -1,25 +1,24 @@
 ---
-title: Skype for Business Server 2015 での電話会議ディレクトリの作成
+title: ビジネス サーバーのため、Skype で会議ディレクトリを作成します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
-description: '概要: ビジネス サーバー 2015 の Skype での会議ディレクトリを作成する方法を説明します。'
-ms.openlocfilehash: 861172a76da68d39fd9f8213de6e45a892aa1780
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: '概要: は、Skype のビジネス サーバーの会議ディレクトリを作成する方法を説明します。'
+ms.openlocfilehash: d54f9782e43c85d5119d0d6138131dc1858ee8f0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568746"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967727"
 ---
-# <a name="create-conference-directories-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での電話会議ディレクトリの作成
+# <a name="create-conference-directories-in-skype-for-business-server"></a>ビジネス サーバーのため、Skype で会議ディレクトリを作成します。
  
-**の概要:** ビジネス サーバー 2015 の Skype での会議ディレクトリを作成する方法について説明します。
+**の概要:** ビジネス サーバーの Skype での会議ディレクトリを作成する方法について説明します。
   
 会議ディレクトリは、ビジネス用の Skype を使用する場合、会議に参加する参加者が使用する英数字のミーティング ID と、ダイヤルイン会議の参加者が会議に参加するのには使用する数値のみの会議 ID 間のマッピングを維持します。 
   

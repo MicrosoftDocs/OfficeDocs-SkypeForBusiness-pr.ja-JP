@@ -1,26 +1,25 @@
 ---
-title: Skype for Business Server 2015 で 2 要素認証を構成する
+title: Skype のビジネス サーバーの 2 要素認証を構成します。
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
-description: '概要: は、Skype のビジネス サーバー 2015 の二要素認証を構成します。'
-ms.openlocfilehash: 96e1e355aa248b8cfc0ac1efbca7e41f056022be
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: '概要: は、Skype のビジネス サーバーの 2 要素認証を構成します。'
+ms.openlocfilehash: 3b77a6cbbbeb7be83bb4a27491982d97939e1936
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569118"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969527"
 ---
-# <a name="configure-two-factor-authentication-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 で 2 要素認証を構成する
+# <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>Skype のビジネス サーバーの 2 要素認証を構成します。
  
-**の概要:** Skype のビジネス サーバー 2015 の二要素認証を構成します。
+**の概要:** Skype のビジネス サーバーの 2 要素認証を構成します。
   
 以下のセクションでは、展開に 2 要素認証を構成するために必要な手順について説明します。 二要素認証の詳細については、[オンライン管理者のユーザーの投稿をグリッドの多要素認証を有効にすると Office 365](https://go.microsoft.com/fwlink/p/?LinkId=313332)を参照してください。
   
@@ -143,7 +142,7 @@ ms.locfileid: "19569118"
     
     - [**キー使用法**] で、[**Exchange**] を選ぶ (このオプションのみ有効)
     
-    - **キーのサイズ**を 2048 を入力してください。
+    - [**キーのサイズ**] に、2048 と入力する
     
     - [**自動キー コンテナー名**] が選択されている
     
@@ -275,7 +274,7 @@ AD FS 2.0 でスマート カードを使用した認証をサポートできる
 
 ## <a name="configuring-skype-for-business-server-passive-authentication"></a>Skype for Business Server のパッシブ認証の構成
 
-次のセクションでは、パッシブ認証をサポートするサーバー 2015 のビジネス用の Skype を構成する方法について説明します。 有効になったら、二要素認証は有効になっているユーザーはビジネス クライアント用の Skype を使用してサインインするのには、物理または仮想スマート カードと PIN を有効なを使用する必要になります。
+次のセクションでは、パッシブ認証をサポートするためにサーバーをビジネス用の Skype を構成する方法について説明します。 有効になったら、二要素認証は有効になっているユーザーはビジネス クライアント用の Skype を使用してサインインするのには、物理または仮想スマート カードと PIN を有効なを使用する必要になります。
   
 > [!NOTE]
 > レジストラーと Web サービスのパッシブ認証はサービス レベルで有効にすることを強くお勧めします。レジストラーと Web サービスのパッシブ認証をグローバル レベルで有効にすると、サポートされるデスクトップ クライアントでサインインしていないユーザーが組織全体で認証エラーになる可能性があります。 
@@ -286,7 +285,7 @@ AD FS 2.0 でスマート カードを使用した認証をサポートできる
   
 ### <a name="to-create-a-custom-web-service-configuration"></a>カスタムの Web サービス構成設定を作成するには
 
-1. ビジネス管理者のアカウントは、Skype を使用してビジネス サーバー 2015 のフロント エンド サーバーは、Skype にログインします。
+1. ビジネス管理者のアカウントは、Skype を使用してビジネス サーバーのフロント エンド サーバーは、Skype にログインします。
     
 2. ビジネス サーバー管理シェルには、Skype を起動します。
     
@@ -325,7 +324,7 @@ Skype のビジネス Web サービスの証明書の認証を無効にすると
   
 ### <a name="to-create-a-custom-proxy-configuration"></a>カスタムのプロキシ構成設定を作成するには
 
-1. ビジネス サーバー管理シェル コマンド ラインの Skype、ビジネス サーバー 2015 エッジ プール、エンタープライズ プールと Standard Edition server を実行して、パッシブ認証を有効にするのには、各 Skype の新しいプロキシの構成を作成します次のコマンド:
+1. ビジネス サーバー管理シェル コマンド ラインの Skype から、次を実行して、パッシブ認証を有効にするビジネス サーバー エッジ プール、エンタープライズ プールと Standard Edition サーバーの各 Skype の新しいプロキシ構成を作成します。コマンド:
     
   ```
   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
@@ -343,6 +342,6 @@ Skype のビジネス Web サービスの証明書の認証を無効にすると
 
 ## <a name="see-also"></a>関連項目
 
-[ビジネス サーバー 2015 の Skype での二要素認証を管理します。](two-factor-authentication.md)
+[Skype のビジネス サーバーの 2 要素による認証を管理します。](two-factor-authentication.md)
   
-[ビジネス サーバー 2015 のビジネスのクライアントと Skype の Skype で二要素認証を使用します。](use.md)
+[Business Server のビジネスのクライアントと Skype の Skype で二要素認証を使用します。](use.md)

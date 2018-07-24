@@ -1,29 +1,28 @@
 ---
-title: Skype for Business Server 2015 と相互運用するための CUCM の構成
+title: CUCM を Skype ビジネス サーバーの相互運用の構成します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
-description: '概要: ビジネス サーバー 2015 の Skype 上で動作する CUCM を構成します。'
-ms.openlocfilehash: 04913508ba0200da4b34e8b1e18c3e57a5fc7141
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: '概要: CUCM ビジネス サーバーに対する Skype の使用を構成します。'
+ms.openlocfilehash: 6ace5eb2f6cb9763bf78b3930536ae50f8fee815
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501970"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986559"
 ---
-# <a name="configure-cucm-for-interoperation-with-skype-for-business-server-2015"></a>Skype for Business Server 2015 と相互運用するための CUCM の構成
+# <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>CUCM を Skype ビジネス サーバーの相互運用の構成します。
  
-**の概要:** CUCM ビジネス サーバー 2015 の Skype を使用するを構成します。
+**の概要:** CUCM ビジネス サーバーに対する Skype の使用を構成します。
   
 > [!CAUTION]
-> この機能は、TCP 経由のみで設定されたトランクを使用する CUCM バージョン 10.5 でテストされています。作業を続行する前に、CUCM 環境がこれらの条件を満たしていることを確認してください。 
+> この機能をテストする Cisco ユニファイド コミュニケーション マネージャーを使用して (CallManager、または CUCM) バージョン 10.5 のトランクを使用しての TCP 経由でのみ設定します。 作業を続行する前に、CUCM 環境がこれらの条件を満たしていることを確認してください。 
   
 ここで説明する設定は、CUCM を構成する方法の例として、VIS. を操作するには CUCM の別の機能を他の方法で設定/使用して同じ結果を実現することもできます。 特定のシナリオ向けの最適な構成に関する推奨事項は示されていません。
   
@@ -62,7 +61,7 @@ VIS との相互運用を実現するには、多くの CUCM の設定を確認�
    
 9. 同じ画面上には、SDP のプロファイル情報] セクションまでスクロールします。 [**SDP Session-level Bandwidth Modifier for Early Offer and Re-invites**] オプションは、既定では [TIAS and AS] に設定されています。 このオプションを [TIAS only] に変更します。 このオプションを既定の設定のままにする Skype のビジネス サーバーは帯域幅修飾子については、SIP メッセージでを理解できません。 TIAS は Transport Independent Application Specific (トランスポート非依存アプリケーション固有) の意味で、AS は Application Specific (アプリケーション固有) の意味です。 これらは、RFC3890 で規定されている SIP のオプションです。
     
-10. 同じ画面で、さらに下にスクロールします。 [SIP プロファイルのトランクの特定の構成を選択 * * 初期サポートの音声とビデオ通話 * * では、**必須 (必要な場合は、MTP を挿入する)** ] オプションを設定します。 この設定を行うと、CUCM で、Early Offer (アーリー オファー) を使用して発信 SIP 通話を設定できるようになります。 CUCM 8.5 以降の新機能の 1 つとして、メディア終端ポイント (MTP) が必要でない、Early Offer を使用した発信通話の設定をサポートしています。
+10. 同じ画面で、さらに下にスクロールします。 SIP プロファイルのトランクの特定の構成] の下は、**音声とビデオ通話の早期提供のサポート**を選択し、**必須 (必要な場合は、MTP を挿入する)** ] オプションを設定します。 この設定を行うと、CUCM で、Early Offer (アーリー オファー) を使用して発信 SIP 通話を設定できるようになります。 CUCM 8.5 以降の新機能の 1 つとして、メディア終端ポイント (MTP) が必要でない、Early Offer を使用した発信通話の設定をサポートしています。
     
 11. [SIP Options ping] セクションで、[Enable OPTIONS Ping to monitor destination status for Trunks with Service Type 'None (Default)'] の横にあるボックスがオンになっていることを確認します。
     
@@ -141,4 +140,4 @@ VIS との相互運用を実現するには、多くの CUCM の設定を確認�
   
 ## <a name="see-also"></a>関連項目
 
-[ビジネス サーバー 2015 の Skype での相互運用のため、VTC を構成します。](configure-a-vtc-for-interoperation.md)
+[ビジネス サーバーの Skype での相互運用のため、VTC を構成します。](configure-a-vtc-for-interoperation.md)

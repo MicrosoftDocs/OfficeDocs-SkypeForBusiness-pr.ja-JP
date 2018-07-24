@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 のバックエンド サーバーまたは Standard Edition サーバーのパッチまたは更新
+title: 修正プログラムを適用またはビジネスのサーバーの Skype のバック エンド サーバーまたは Standard Edition サーバーを更新します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 description: '概要: ビジネス サーバーの Skype のバック エンド サーバー上の更新プログラムまたは修正プログラムをインストールする方法を説明します。'
-ms.openlocfilehash: 14acff1aea501bf47dff95053259187570d2f990
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7815c42443afae6fef7aaec71399120fb61ece82
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969132"
 ---
-# <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 のバックエンド サーバーまたは Standard Edition サーバーのパッチまたは更新
+# <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>修正プログラムを適用またはビジネスのサーバーの Skype のバック エンド サーバーまたは Standard Edition サーバーを更新します。
  
-**の概要:**ビジネス サーバーの Skype のバック エンド サーバー上の更新プログラムまたは修正プログラムをインストールする方法について説明します。
+**の概要:** ビジネス サーバーの Skype のバック エンド サーバー上の更新プログラムまたは修正プログラムをインストールする方法について説明します。
   
 このトピックでは、エンタープライズ エディション バック エンド サーバーまたは Standard Edition サーバーに更新プログラムをインストールする方法について説明します。
   
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/28/2018
     
 2. 更新をダウンロードして、ローカル ハードディスクに抽出します。
     
-3. ビジネス サーバー管理シェルには、Skype を起動する: [**スタート**] ボタン、[**すべてのプログラム**] をクリックして、**ビジネス 2015年の Skype**をクリック**ビジネス サーバー管理シェルの Skype**.
+3. ビジネス サーバー管理シェルには、Skype を起動する: [**スタート**] ボタン、[**すべてのプログラム**] をクリックして、**ビジネスの Skype**をクリック**ビジネス サーバー管理シェルの Skype**.
     
 4. Skype をビジネス サーバー サービスを停止します。 コマンド ラインで次を入力します。
     
@@ -48,7 +48,7 @@ ms.lasthandoff: 03/28/2018
     
 7. 更新をインストールします。
     
-8. ビジネス サーバー管理シェルには、Skype を起動する: [**スタート**] ボタン、[**すべてのプログラム**] をクリックして、**ビジネス 2015年の Skype**をクリック**ビジネス サーバー管理シェルの Skype**.
+8. ビジネス サーバー管理シェルには、Skype を起動する: [**スタート**] ボタン、[**すべてのプログラム**] をクリックして、**ビジネスの Skype**をクリック**ビジネス サーバー管理シェルの Skype**です。
     
 9. -D のアセンブリをグローバル アセンブリ キャッシュ (GAC) をキャッチするには、もう一度ビジネス サーバー サービスの Skype を停止します。 コマンド ラインで次を入力します。
     
@@ -82,5 +82,3 @@ ms.lasthandoff: 03/28/2018
     Install-CsDatabase -Update -LocalDatabases
 
     ```
-
-

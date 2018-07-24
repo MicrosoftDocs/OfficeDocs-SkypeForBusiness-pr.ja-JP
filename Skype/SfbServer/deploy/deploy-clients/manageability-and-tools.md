@@ -3,18 +3,18 @@ title: Skype Room System の管理容易性とツール
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: このトピックでは、Skype Room System の管理ツールについて説明します。
-ms.openlocfilehash: c18c8a1e8f4580551dc809d3a8cedbf6f6a3fbfa
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8e509059cc2fdffc35bba0d43a84c0699aa536d5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977459"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Skype Room System の管理容易性とツール
  
@@ -24,19 +24,13 @@ ms.lasthandoff: 03/28/2018
 
 ビジネス サーバー設置型展開では Skype は、積極的に管理し、組織内で Skype ルーム システムの展開を監視する Skype ルーム システムの管理ポータルを使用できます。
   
-詳細については、次を参照してください。
+詳細については次の資料を参照してください。
   
-- [Lync Server 2013 で Lync の部屋のシステム管理用の Web ポータルを展開します。](http://technet.microsoft.com/library/ecba5b36-632e-40b9-9c2e-ab825baf7a46.aspx)
-    
-- [Lync ルーム システム管理用 Web ポータルの Lync Server 2013 環境を構成します。](http://technet.microsoft.com/library/1bf3cc55-cfa8-46ee-a8bc-6dab3bff76b2.aspx)
-    
-- [Lync Server 2013 で Lync ルーム システム管理用の Web ポータルをインストールします。](http://technet.microsoft.com/library/dd19e368-c338-4e21-a40d-6439d46a9748.aspx)
-    
-- [Lync ルーム システム管理用の Web ポータルを使用して、Lync Server 2013 で](http://technet.microsoft.com/library/c387b2a3-3e42-4642-af72-88126ed2820f.aspx)
+- [ビジネス サーバーの Skype で SRS v1 の管理用の Web ポータルを展開します。](../deploy-conferencing/room-system-v1-administrative-web-portal.md)
     
 ## <a name="system-center-operations-manager"></a>System Center Operations Manager
 
-[Skype ルーム システムの管理パック](https://www.microsoft.com/en-us/download/details.aspx?id=42320)をダウンロードし、SCOM サーバー上にインストールすることによって Skype ルームのシステムをシステム センター操作マネージャー (SCOM) を監視できます。 SCOM を使用するアラートを設定する、Skype ルーム システムの稼働状態の監視、稼動状況のレポートなどの作業を生成します。 Skype ルーム システム SCOM サーバーを指すように構成することを事前にインストールされているモニタリング ・ エージェントが付属します。 Skype ルーム システムのモニタリング ・ エージェントを構成する方法を知っている Skype ルーム システムの製造元から提供されたインストール ・ ガイドを参照してください。
+[Skype ルーム システムの管理パック](https://www.microsoft.com/download/details.aspx?id=42320)をダウンロードし、SCOM サーバー上にインストールすることによって Skype ルームのシステムをシステム センター操作マネージャー (SCOM) を監視できます。 SCOM を使用するアラートを設定する、Skype ルーム システムの稼働状態の監視、稼動状況のレポートなどの作業を生成します。 Skype ルーム システム SCOM サーバーを指すように構成することを事前にインストールされているモニタリング ・ エージェントが付属します。 Skype ルーム システムのモニタリング ・ エージェントを構成する方法を知っている Skype ルーム システムの製造元から提供されたインストール ・ ガイドを参照してください。
   
 ## <a name="exchange-checklist"></a>Exchange チェックリスト
 
@@ -52,10 +46,8 @@ ms.lasthandoff: 03/28/2018
 
 - 次のツールを実行します。
     
-  - ビジネスのベスト プラクティス アナライザーの Skype 
-    
-  - Skype のビジネスの稼働状態分析ツール (Excel) 
-    
+  - ビジネスのベスト プラクティス アナライザーの Skype     
+  - Skype のビジネスの稼働状態分析ツール (Excel)    
   - 32 ビットまたは 64 ビットの Business Connectivity アナライザーの Skype
     
 - [便利な新しいトラブルシューティングと分析ツールを Office 365 で](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/)確認します。 ビジネスのプールと、Office Web Apps サーバーの Skype してビジネスのクライアントは、Skype を使用して PowerPoint デッキを共有することができますを確認します。
@@ -100,7 +92,7 @@ Skype ルーム システムは、ビジネス ・ セキュリティ ・ モデ
     
   - ビジネス用の Skype を使用して、エンド ・ ツー ・ エンドの暗号化および認証のすべての通信モード
     
-  - Skype ルームのシステムでは、ビジネスのセキュリティとコンプライアンスの標準の Skype をサポートしています。 詳細については、「Lync Server 2013 のセキュリティの計画」を参照してください。
+  - Skype ルームのシステムでは、ビジネスのセキュリティとコンプライアンスの標準の Skype をサポートしています。 詳細については、 [Skype のビジネス サーバーでのセキュリティの計画](../../plan-your-deployment/security/security.md)を参照してください。
     
 ## <a name="license"></a>ライセンス
 
@@ -108,7 +100,7 @@ Skype ルーム システムは、ビジネス ・ セキュリティ ・ モデ
   
 ## <a name="license-keys"></a>ライセンス キー
 
-Skype ルームのシステムでは、バック グラウンドで、Skype のビジネス デスクトップ クライアントを実行します。 Skype ルーム システムがドメインのメンバーである場合は、KMS を検出します。 (およびボリューム ライセンス KMS Lync キーが自動的にアクティブ化がある場合)。 ボリューム ライセンスは、MAK では、xxxxx xxxxx xxxxx xxxxx が表示されるを入力しても提供します。 (インターネットにアクセスする必要が、MAK、KMS ではないを使用してアクティブにする)。 詳細については、Office 2013 のボリューム ライセンス認証を参照してください。
+Skype ルームのシステムでは、バック グラウンドで、Skype のビジネス デスクトップ クライアントを実行します。 Skype ルーム システムがドメインのメンバーである場合は、KMS を検出します。 (と自動的にアクティブには、ボリューム ライセンスの KMS キーがある場合)。 ボリューム ライセンスは、MAK では、xxxxx xxxxx xxxxx xxxxx が表示されるを入力しても提供します。 (インターネットにアクセスする必要が、MAK、KMS ではないを使用してアクティブにする)。 詳細については、Office 2013 のボリューム ライセンス認証を参照してください。
   
 - MAK キーを入力するには、OEM の設定に移動\>SRS ライセンス ツールです。 [状態の確認] をクリックします。 「製品のライセンス認証されていない」と表示されている、キーを入力します。
     
@@ -134,13 +126,13 @@ Skype を使用してビジネスのサーバーの場合は、Skype ルーム �
   
 管理システムのセットアップ、Skype ルーム システムの設定] の下で証明書をインストール\>証明書マネージャーです。 内部証明書のエンタープライズ ルート CA が必要です。
   
-必要な証明書を取得する方法の 1 つは、証明書を発行した CA を見つけることです。 Skype ビジネス上のサーバー、ビジネス用の Skype で PC 用の [設定] をクリックします\>ツール\>では、ダイヤルイン会議の設定です。 これによって、内部 Lync 証明書を発行した CA によって保護されている Web ページが開きます。 ブラウザーのアドレス バーのロック アイコンをクリックして、セキュリティ レポートを表示します。 [証明書の表示] をクリックし、CRL 配布ポイントのプロパティを調べます。 第 2 の CN パラメーターは、CA のサーバー名であることが必要です。 ここでそのアドレスを Windows エクスプ ローラーを開き\\ \< CA サーバー名\>\CertEnroll。 フラッシュ ドライブに 2 つの .crl ファイルと .crt ファイルをコピーし、SMART ボードの左側に格納します。
+必要な証明書を取得する方法の 1 つは、証明書を発行した CA を見つけることです。 Skype ビジネス上のサーバー、ビジネス用の Skype で PC 用の [設定] をクリックします\>ツール\>では、ダイヤルイン会議の設定です。 内部証明書を発行した CA がセキュリティで保護された web ページが開きます。 ブラウザーのアドレス バーのロック アイコンをクリックして、セキュリティ レポートを表示します。 [証明書の表示] をクリックし、CRL 配布ポイントのプロパティを調べます。 第 2 の CN パラメーターは、CA のサーバー名であることが必要です。 ここでそのアドレスを Windows エクスプ ローラーを開き\\ \< CA サーバー名\>\CertEnroll。 フラッシュ ドライブに 2 つの .crl ファイルと .crt ファイルをコピーし、SMART ボードの左側に格納します。
   
 Skype ルーム システム領域の信頼された証明機関] フォルダーの下に、.crt ファイルをインポートします。
   
 中間証明機関] フォルダーの下の Skype ルーム システムの .crl ファイルをインポートします。 (必要な .crl ファイルを表示する証明書マネージャーで [ファイル拡張子のフィルターを変更するのには)。
   
-注意: Office Web Apps 2013 サーバーでは、Lync と同じ CA を共有できます。CA を共有していない場合、会議で PowerPoint を共有できません。IT に連絡し、前述したように CA ネットワーク共有 CertEnroll から CRT ファイルおよび CRL ファイルを取得します。 
+注: Office の Web アプリ 2013 のサーバーは、ビジネスの Skype と同じ CA を共有できます。 CA を共有していない場合、会議で PowerPoint を共有できません。 IT に連絡し、前述したように CA ネットワーク共有 CertEnroll から CRT ファイルおよび CRL ファイルを取得します。 
   
 ドメインのメンバーシップは、Windows システムと Skype ・ ルーム ・ システムを扱うことができますし、それに使用できる Active Directory 証明書のさまざまな側面のいくつかあるために、いくつかの点を簡略化できます。 ただし、これは手動で管理することをお勧めします。
   

@@ -3,7 +3,7 @@ title: ビジネス サーバー 2015 の Skype で通話品質のダッシュ �
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,15 +11,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
 description: '概要: は、通話品質のダッシュ ボードの期間の API について説明します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。'
-ms.openlocfilehash: 038324064177c110c0736092985e9da1b330ea8b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 293844d253e70e291c063d2af64226abaed3c9d9
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21011079"
 ---
 # <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype で通話品質のダッシュ ボード (救難) のデータ API
  
-**の概要:**通話品質のダッシュ ボードには、期間の API について説明します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。
+**の概要:** 通話品質のダッシュ ボードには、期間の API について説明します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。
   
 データ API は、ビジネス サーバー 2015 の Skype の品質のダッシュ ボードを呼び出すためのプログラムによるアクセスを提供します。
   
@@ -56,7 +57,6 @@ ms.lasthandoff: 03/28/2018
     <add key="QoEDataLib.DebugMode" value="True" /> <!-- Setting this to True, allows seeing of the detail logs in status page -->
 …  </appSettings>
 </configuration>
-
 ```
 
 

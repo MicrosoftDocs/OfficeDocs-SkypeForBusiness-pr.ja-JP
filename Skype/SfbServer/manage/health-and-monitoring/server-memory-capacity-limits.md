@@ -1,29 +1,32 @@
 ---
-title: Skype for Business 2015 でのサーバーのメモリ容量制限の監視
+title: Skype ビジネス サーバー用にサーバーのメモリ容量制限のためのモニター
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
-description: '概要: ビジネス サーバー 2015 の Skype のサーバー メモリ容量の制限を監視する方法を説明します。'
-ms.openlocfilehash: df05cdf43a7f09f49760f9671c900d6a9ea992b1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、Skype でサーバーのメモリ容量制限のビジネスのサーバーを監視する方法を説明します。'
+ms.openlocfilehash: 05913ea5b32a9a40d7c577c4a0795ccb07db211f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978701"
 ---
-# <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server-2015"></a>Skype for Business 2015 でのサーバーのメモリ容量制限の監視
+# <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>Skype ビジネス サーバー用にサーバーのメモリ容量制限のためのモニター
  
-**の概要:**ビジネス サーバー 2015 の Skype のサーバー メモリ容量の制限を監視する方法を説明します。
+**の概要:** Skype でサーバーのメモリ容量制限のビジネスのサーバーを監視する方法を説明します。
   
 > [!CAUTION]
 > キャパシティ ・ プランニングを参照するこのトピックの情報は、Lync 2010 モバイル クライアントやモバイル サービス (Mcx) にのみ関係します。 キャパシティ ・ プランニングのユニファイド コミュニケーション Web API (UCWA)、Lync 2013 のモバイル クライアントで使用されているは、Lync Server 2013、計画ツールによって提供されます。 
+
+> [!NOTE]
+> 従来のモバイル クライアント用の MCX サポートはビジネス サーバー 2019 の Skype で利用可能ではありません。 ユーザーは、現在のクライアントにアップグレードする必要があります。
   
-モビリティの 2 つのパフォーマンス カウンターを使用しての現在の使用状況を判断し、ビジネス サーバー 2015 モビリティ サービスの (Mcx)、同様に UCWA のメモリ使用量を監視して、Skype の容量の計画を支援することができます。 UCWA、 **LS:WEB - UCWA**は、カウンターのカテゴリです。 モビリティ サービス (Mcx) は、カウンターは、 **LS:WEB のモバイル通信サービス**」カテゴリの下。 カウンターを監視するのには次のとおりです。
+モビリティの 2 つのパフォーマンス カウンターの現在の使用状況を判断し、ビジネス サーバー移動サービス (Mcx)、同様に UCWA のメモリ使用量を監視するため、Skype の容量を計画するためにすることができます。 UCWA、 **LS:WEB - UCWA**は、カウンターのカテゴリです。 モビリティ サービス (Mcx) は、カウンターは、 **LS:WEB のモバイル通信サービス**」カテゴリの下。 カウンターを監視するのには次のとおりです。
   
 - **Currently Active Session Count with Active Presence Subscriptions**。これは、UCWA または Mobility Service (Mcx) 経由で登録されたエンドポイントのうち、アクティブなプレゼンス サブスクリプションを持つエンドポイントの現在数 (常時接続されたモバイル ユーザーの数) です。
     
@@ -42,11 +45,8 @@ Mcx モビリティ サービス (MB) で使用されているメモリの合計
   
 フロント エンド サーバーには、フェールオーバーの状況で移動サービスをサポートするために利用可能な十分なメモリが必要があります。 **\Available Mbytes**カウンターを使用するかを使用するモバイル サービスを期待するメモリ容量を計画するため、前述の式を使用して、フロント エンド サーバー上で現在利用可能なメモリを監視できます。
   
-移動ユーザーの数を計画する際に、フロント エンド サーバー上の利用できるメモリ量が 1,500 MB よりも小さい場合は、モビリティ サービスをサポートするためにより多くのハードウェアを追加する必要があります。 詳細については、操作マニュアルの[ビジネス サーバー 2015 の Skype でのパフォーマンスのモニターの移動](monitor-mobility-performance.md)を参照してください。
+移動ユーザーの数を計画する際に、フロント エンド サーバー上の利用できるメモリ量が 1,500 MB よりも小さい場合は、モビリティ サービスをサポートするためにより多くのハードウェアを追加する必要があります。 詳細については、 [Skype ビジネス サーバーでパフォーマンス モニターの移動](monitor-mobility-performance.md)操作マニュアルを参照してください。
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[モビリティ ビジネス サーバー 2015 の Skype でのパフォーマンスを監視します。](monitor-mobility-performance.md)
-
+[Skype でのパフォーマンスをビジネスのサーバーの移動を監視します。](monitor-mobility-performance.md)

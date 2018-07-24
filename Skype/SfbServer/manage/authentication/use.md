@@ -1,25 +1,25 @@
 ---
-title: Skype for Business クライアントと Skype for Business Server 2015 で 2 要素認証を使用する
+title: Business Server のビジネスのクライアントと Skype の Skype で二要素認証を使用します。
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/13/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
-description: '概要: は、サーバー 2015 のビジネスおよびビジネス用の Skype、Skype で二要素認証を使用します。'
-ms.openlocfilehash: 6bb2133533b640cd573730ca608f5845164ea282
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、サーバーのビジネスとビジネスの Skype の Skype で二要素認証を使用します。'
+ms.openlocfilehash: 95e44c50dec37eea86b90317575a09509df80649
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986552"
 ---
-# <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server-2015"></a>Skype for Business クライアントと Skype for Business Server 2015 で 2 要素認証を使用する
+# <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>Business Server のビジネスのクライアントと Skype の Skype で二要素認証を使用します。
  
-**の概要:**サーバー 2015 のビジネスおよびビジネス用の Skype、Skype で二要素認証を使用します。
+**の概要:** ビジネス サーバーとビジネス用の Skype、Skype で二要素認証を使用します。
   
 ## <a name="sign-in-to-skype-for-business-for-the-first-time"></a>Skype for Business に初めてサインインする
 
@@ -45,10 +45,10 @@ ms.lasthandoff: 03/28/2018
 
 ビジネスの Skype の使用が終了したら、ディスプレイ画面を閉じることができます、セッションからサインアウト、またはすべてのファイル] メニューから、プログラムを終了します。 次の表で、オプションの違いについて説明します。
   
-|**オプション**|**何**|**それを実行する方法**|
+|**オプション**|**機能**|**実行する方法**|
 |:-----|:-----|:-----|
 |閉じる  <br/> |画面は閉じますが、ビジネス セッションの ID を引き続き実行するユーザーの識別に、Skype をことができます。 したがって、引き続き通知を受け取り、他のユーザーと対話できます。 <br/> <br/> ビジネス アイコンをタスク バーまたは、画面の下部にある通知領域での Skype をクリックすると、バックアップはいつでも表示を取得できます。  <br/> | ビジネスのメイン ウィンドウの Skype、次のいずれかの操作を行います。 <br/> 1、[**オプション**] ボタンを選択し、**ファイル**を選択して > **閉じる**。  <br/> 2. ウィンドウの右上隅の**閉じる**ボタン (X) をクリックします。 <br/> |
-|サインアウトする  <br/> |端点が、ユーザー ID、Skype のビジネスに関連付けられているセッションは、バック グラウンドで実行し続けます。 サインアウトすると、サインイン ウィンドウが表示されます。  <br/> **ヒント:**コンピューターから、ログオン ID とパスワードの記録を削除するのにはサインインするときは、**自分のサインイン情報を削除**を選択します。 このようにすると、サポート担当者が行うサインインの問題のトラブルシューティングが容易になることがあります。 また、権限のないユーザーがあなたの資格情報でログインすることは難しくなるため、サインイン情報のセキュリティも確保できます。 <br/> |ビジネスのメイン ウィンドウの Skype、**オプション**ボタンを選択し、[**ファイル**を選択して > **サインアウト**します。  <br/> |
+|サインアウトする  <br/> |端点が、ユーザー ID、Skype のビジネスに関連付けられているセッションは、バック グラウンドで実行し続けます。 サインアウトすると、サインイン ウィンドウが表示されます。  <br/> **ヒント:** コンピューターから、ログオン ID とパスワードの記録を削除するのにはサインインするときは、**自分のサインイン情報を削除**を選択します。 このようにすると、サポート担当者が行うサインインの問題のトラブルシューティングが容易になることがあります。 また、権限のないユーザーがあなたの資格情報でログインすることは難しくなるため、サインイン情報のセキュリティも確保できます。 <br/> |ビジネスのメイン ウィンドウの Skype、**オプション**ボタンを選択し、[**ファイル**を選択して > **サインアウト**します。  <br/> |
 |終了する  <br/> |Skype をビジネス ・ セッションの終了し、お使いのコンピューターで、ビジネス用の Skype をシャット ダウンします。 、終了後に再起動する場合は、選択**開始** > **すべてのプログラム**> ビジネス用の Skype です。 <br/> |ビジネスのメイン ウィンドウの Skype、**オプション**ボタンを選択し、[**ファイル**を選択して > **終了**です。  <br/> |
    
 ## <a name="sign-in-to-skype-for-business-with-a-smart-card"></a>スマート カードで Skype for Business にサインインする
@@ -61,7 +61,7 @@ ms.lasthandoff: 03/28/2018
     
 ### <a name="enroll-your-smart-card"></a>スマート カードを登録する
 
-スマート カードを使用して署名することができます、前にカード必要があります「登録」など、ユーザーの資格情報のカードを使用して識別する必要があるは、です。 カードが物理的または仮想であるかどうか、そうでは。 このプロセスは既に可能性がありますされてサーバー 2015 のビジネス管理者は、Skype でを実行します。 かわからないかどうかを行った場合に確認してください。
+スマート カードを使用して署名することができます、前にカード必要があります「登録」など、ユーザーの資格情報のカードを使用して識別する必要があるは、です。 カードが物理的または仮想であるかどうか、そうでは。 このプロセスは既に可能性がありますされてビジネス サーバーの管理者は、Skype でを実行します。 かわからないかどうかを行った場合に確認してください。
   
 > [!NOTE]
 > 各仮想スマート カードは、デバイスにのみ関連付けられているためにインストールされている、別のカードを使用する各 Windows 8 のコンピューターに登録する必要があります。 
@@ -123,7 +123,7 @@ ms.lasthandoff: 03/28/2018
     
 ### <a name="sign-in-to-skype-for-business-with-your-smart-card-credentials"></a>自分のスマート カードの資格情報で Skype for Business にサインインする
 
-最初にスマート カードを使用する前に、Skype ビジネス サインイン ページの**[サインイン情報を削除**をクリックすることをお勧めします。 これにより、コンピューターに保存されているすべてのサインイン情報がクリアされ、エラーの原因を取り除くことができます。
+最初にスマート カードを使用する前に、Skype ビジネス サインイン ページの **[サインイン情報を削除**をクリックすることをお勧めします。 これにより、コンピューターに保存されているすべてのサインイン情報がクリアされ、エラーの原因を取り除くことができます。
   
 ### <a name="to-sign-in-to-skype-for-business-with-your-smart-card-credentials"></a>自分のスマート カードの資格情報で Skype for Business にサインインするには、次の操作を行います。
 
@@ -142,9 +142,6 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[ビジネス サーバー 2015 の Skype での二要素認証を管理します。](two-factor-authentication.md)
+[Skype のビジネス サーバーの 2 要素による認証を管理します。](two-factor-authentication.md)
   
-[ビジネス サーバー 2015 の Skype の二要素認証を構成します。](configure.md)
-
+[Skype のビジネス サーバーの 2 要素認証を構成します。](configure.md)

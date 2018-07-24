@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 での大規模会議の計画
+title: ビジネス サーバーの Skype での大規模な会議の計画
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
-description: '概要: を実装して、ビジネス サーバー 2015 の Skype での大規模な会議を管理するためのベスト プラクティスについて学習するには、このトピックを読みます。'
-ms.openlocfilehash: 6a2af2ef9e7698f9141baf78f99b9bc9febfaa67
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: を実装して、Business Server の Skype での大規模な会議を管理するためのベスト プラクティスについて学習するには、このトピックを読みます。'
+ms.openlocfilehash: 0d78a679414ec9287837e494d94bdc708879f863
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20970515"
 ---
-# <a name="plan-for-large-meetings-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での大規模会議の計画
+# <a name="plan-for-large-meetings-in-skype-for-business-server"></a>ビジネス サーバーの Skype での大規模な会議の計画
  
-**の概要:**実装して、ビジネス サーバー 2015 の Skype での大規模な会議を管理するためのベスト プラクティスについて学習するには、このトピックを参照してください。
+**の概要:** 実装して、Business Server の Skype での大規模な会議を管理するためのベスト プラクティスについて学習するには、このトピックを参照してください。
   
 Skype ビジネス サーバーがサポートできるミーティングのサイズは、共有または専用のプールで会議をホストするかどうかによって異なります: 250 の参加者専用のプールに 1000 の参加者に共有プールから任意の場所です。 
   
@@ -56,7 +56,7 @@ Skype ビジネス サーバーがサポートできるミーティングのサ�
   
 Skype は、大規模な会議をホストしている専用ビジネス サーバー プールは、いずれかをホストする必要があり、専用のサポートを保証するプロセスをスケジューリングするバンドの外で事前に予約されている必要があるため、会議の時間を同時に最大 1000 のユーザーの 1 つだけの会議から、フロント エンド サーバーです。 一度に複数の大規模な会議をサポートする場合は、専用の大規模会議プールを複数設定する必要があります。
   
-会議トポロジを計画しているトポロジ、大きな会議をサポートしていますが[ビジネス サーバー 2015 の Skype での会議のためのハードウェアおよびソフトウェアの要件](hardware-and-software-requirements.md)と[を参照してください、ハードウェアとソフトウェア要件、および計画の詳細についてはビジネス サーバー 2015 の Skype](conferencing-topology.md)。
+会議トポロジを計画している[ビジネス サーバーの Skype での会議のためのハードウェアおよびソフトウェアの要件](hardware-and-software-requirements.md)と[に大きな会議をサポートするが表示されるトポロジのハードウェアおよびソフトウェア要件、および計画の詳細についてはSkype ビジネス サーバーの](conferencing-topology.md)です。
   
 ## <a name="implement-best-practices-for-large-meetings"></a>大規模な会議のベスト プラクティスを実装する
 
@@ -96,7 +96,7 @@ Skype は、大規模な会議をホストしている専用ビジネス サー�
     
 - 参加者の役割を変更する
     
-- Skype for Business (Lync) のドラッグ アンド ドロップ機能、電話ダイヤル アウト、または電子メールを使用して、会議中に追加の参加者を招待する
+- その他の参加者の招待を使用して、会議中にドラッグ アンド ドロップ機能、電話のダイヤル、またはメール
     
 - 聴衆また個々のユーザーをミュートおよびミュート解除する
     
@@ -197,6 +197,6 @@ Skype は、大規模な会議をホストしている専用ビジネス サー�
     
 - 必要でない限り [**匿名ユーザーを既定で承認する**] チェック ボックスがオンになっていないことを確認します。 この設定は、既定のアクセスの種類が割り当てられている会議を使用していない場合、ビジネス用の Skype のオンライン会議アドインでスケジュールの会議に影響します。 この設定の適切なオプションは、組織のニーズによって異なります。 組織のほとんどの大規模な会議が社内会議の場合は、このオプションを選択しないでください。 ほとんどの大規模な会議に外部ユーザーが参加できるようにする必要がある場合は、このオプションを選択します。
     
-会議ポリシーを作成する方法の詳細については、[ビジネス サーバー 2015 の Skype 会議ポリシーの管理](../../manage/conferencing/conferencing-policies.md)を参照してください。
+会議ポリシーを作成する方法の詳細については、 [Skype ビジネス サーバーの会議ポリシーの管理](../../manage/conferencing/conferencing-policies.md)を参照してください。
   
 

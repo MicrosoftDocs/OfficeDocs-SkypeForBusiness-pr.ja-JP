@@ -3,18 +3,18 @@ title: Skype ルーム システムの Skype のビジネス ソフトウェア�
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: このトピックでは、Skype for Business ソフトウェア ボリューム ライセンスがあるかどうかを確認する方法について説明します。
-ms.openlocfilehash: e91a009c29647031d91e791ba5fd41ccc4578d1e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ba582174483eb511387ae085aba97d02631665fc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965423"
 ---
 # <a name="skype-room-system-skype-for-business-software-license"></a>Skype Room System: Skype for Business ソフトウェア ライセンス
  
@@ -30,7 +30,7 @@ KMS では、ビジネスのボリューム ライセンスのアクティブ化
   
 詳細については、 [DNS を使用して、Office と Windows の KMS ホストを検出し、不正なインスタンスを削除する方法](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx)を参照してください。 
   
-KMS を設定するには、 [Office 2013 の KMS ライセンス認証](https://technet.microsoft.com/en-us/library/ee624357.aspx)と[の Office 2013 KMS と Active Directory のライセンス認証のための GVLKs](https://technet.microsoft.com/en-us/library/dn385360.aspx)を参照してください。
+KMS を設定するには、 [Office 2013 の KMS ライセンス認証](https://technet.microsoft.com/library/ee624357.aspx)と[の Office 2013 KMS と Active Directory のライセンス認証のための GVLKs](https://technet.microsoft.com/library/dn385360.aspx)を参照してください。
   
 Lync の Office 2013 汎用ボリューム ライセンス キー: 2MG3G-3BNTT-3MFW9-KDQW3-TCK7R (このキーと、ネットワーク上の KMS を検索する Skype ルーム システムのことです)。
   

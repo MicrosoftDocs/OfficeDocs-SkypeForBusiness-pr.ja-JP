@@ -1,26 +1,26 @@
 ---
-title: Skype for Business Server 2015 での電話会議サーバー構成設定の管理
+title: 会議サーバーの構成設定で Skype のビジネス サーバーを管理します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
-description: '概要: ビジネス サーバー 2015 の Skype で会議サーバーの構成設定を管理する方法を説明します。'
-ms.openlocfilehash: 88c127acdd569945eddb41e997034e5ea23ea2a6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: ビジネス サーバーの Skype で会議サーバーの構成設定を管理する方法を説明します。'
+ms.openlocfilehash: ede34c37e957340f0aa01ac511378d2f4bb3a80e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009895"
 ---
-# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での電話会議サーバー構成設定の管理
+# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>会議サーバーの構成設定で Skype のビジネス サーバーを管理します。
  
-**の概要:**ビジネス サーバー 2015 の Skype で会議サーバーの構成設定を管理する方法について説明します。
+**の概要:** 会議サーバーの構成設定で Skype のビジネス サーバーを管理する方法について説明します。
   
-このトピックでは、会議サーバーの構成設定を管理する方法について説明します。 予定し、会議を展開する方法の詳細については、[ビジネス サーバー 2015 の Skype での会議の計画](../../plan-your-deployment/conferencing/conferencing.md)および[ビジネス サーバー 2015 の Skype での展開の会議](../../deploy/deploy-conferencing/deploy-conferencing.md)を参照してください。
+このトピックでは、会議サーバーの構成設定を管理する方法について説明します。 予定し、会議を展開する方法の詳細については、[ビジネスのサーバー用の Skype での会議の計画](../../plan-your-deployment/conferencing/conferencing.md)と[ビジネス サーバーの Skype で会議を展開](../../deploy/deploy-conferencing/deploy-conferencing.md)を参照してください。
   
 会議構成設定の決定など、サイズが最大の会議の内容と配布資料です。アプリケーション共有会議サービス用の帯域幅の最大値格納域の制限と有効期限です。内部および外部の Url がサポートされているクライアントのダウンロードします。ユーザーが会議のヘルプとリソースを取得できる内部および外部の Url へのポインターアプリケーションの共有、クライアント側のオーディオ、ファイル転送、およびメディア トラフィックに使用するポートです。 これらの設定を使用すると、実際のサーバーそのものを管理できます。 Skype ビジネス サーバー管理シェルを使用してこれらの設定を設定できます。
   
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/28/2018
 
 Skype ビジネス サーバー管理シェルを使用して会議の構成の設定を管理するには、次のコマンドレットを使用します。
   
-**会議の構成設定**
+**電話会議の構成設定**
 
 |**コマンドレット**|**説明**|
 |:-----|:-----|
@@ -43,14 +43,13 @@ Skype ビジネス サーバー管理シェルを使用して会議の構成の�
   
 ```
 New-CsConferencingConfiguration -Identity site:Redmond -Organization Litwareinc
-
 ```
 
 このようなコレクションは、1 サイトにつき 1 つしか存在できません。Redmond サイトに既に会議構成設定のコレクションがある場合、このコマンドは失敗します。 
   
 次の例では、会議構成設定の新しいコレクションを定義します。これらの構成設定は、最初はメモリ内に格納され、後で Redmond サイトに適用されます。 
   
-最初のコマンドで **New-CsConferencingConfiguration** コマンドレットを使用して、設定に関する新しいメモリ内コレクションを作成し、変数 $x に格納します。 InMemory パラメーターを使用して、コレクションを直ちに Redmond サイトに適用する代わりに、メモリ内に作成するように指定します。
+最初のコマンドで **New-CsConferencingConfiguration** コマンドレットを使用して、設定に関する新しいメモリ内コレクションを作成し、変数 $x に格納します。InMemory パラメーターを使用して、コレクションを直ちに Redmond サイトに適用する代わりに、メモリ内に作成するように指定します。
   
 コレクションの作成後、2 番目のコマンドで Organization プロパティの値に Litwareinc を設定しています。 
   
@@ -60,9 +59,8 @@ New-CsConferencingConfiguration -Identity site:Redmond -Organization Litwareinc
 $x = New-CsConferencingConfiguration -Identity site:Redmond -InMemory
 $x.Organization = "Litwareinc"
 Set-CsConferencingConfiguration -Instance $x
-
 ```
 
-**Set-CsConferencingConfiguration** コマンドレットを呼び出さない場合、変更は有効になりません。 Windows PowerShell セッションの終了後または変数 $x の削除後、すぐに消滅します。
+**Set-CsConferencingConfiguration** コマンドレットを呼び出さない場合、変更は有効になりません。Windows PowerShell セッションの終了後または変数 $x の削除後、すぐに消滅します。
   
 

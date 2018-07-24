@@ -1,32 +1,32 @@
 ---
-title: Skype for Business Server 2015 でセットアップ コマンド ライン オプションを使用する
+title: Skype でビジネスのクライアントのセットアップ コマンド ライン オプションを使用してください。
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 10/20/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
 description: '概要: は、Office のセットアップで、Setup.exe コマンドライン操作について説明します。'
-ms.openlocfilehash: 0fa4f31750697f0bd0dbe87bbde025cbc7f530bd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 13005f96b353b8648ed676ef68af54b76a99e48c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974453"
 ---
-# <a name="use-setup-command-line-options-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でセットアップ コマンド ライン オプションを使用する
+# <a name="use-setup-command-line-options-with-skype-for-business-clients"></a>Skype でビジネスのクライアントのセットアップ コマンド ライン オプションを使用してください。
  
-**の概要:**Office セットアップで、Setup.exe コマンドライン操作について説明します。
+**の概要:** Office セットアップで、Setup.exe コマンドライン操作について説明します。
   
 Setup.exe コマンド ラインは、Office セットアップの操作ではほとんど使用されません。 セットアップのコマンド ライン オプションを使用するのではなく通常を使用します、Office カスタマイズ ツールと Config.xml ファイルの製品のセットアップおよび機能のカスタマイズ。
   
 Office Setup.exe コマンド ラインは、次の表に示すコマンドライン オプションを認識します。
   
-**Office セットアップのコマンド ライン オプション**
+**Office セットアップ コマンドライン オプション**
 
-|**セットアップ コマンド ライン オプション**|**説明**|
+|**セットアップ コマンドライン オプション**|**説明**|
 |:-----|:-----|
 |/admin  <br/> |Office カスタマイズ ツールを実行してセットアップ カスタマイズ ファイル (.msp ファイル) を作成します。  <br/> |
 |/adminfile [パス]  <br/> |指定したセットアップ カスタマイズ ファイルをインストールに適用します。特定のカスタマイズ ファイル (.msp ファイル) のパスを指定することも、カスタマイズ ファイルが格納されているフォルダーのパスを指定することもできます。  <br/> |
@@ -35,6 +35,5 @@ Office Setup.exe コマンド ラインは、次の表に示すコマンドラ�
 |/repair Skype  <br/> |ビジネス用の Skype を修復するユーザーのコンピューターからセットアップを実行します。  <br/> |
 |/uninstall Skype  <br/> |ユーザーのコンピューターからビジネス用の Skype を削除するのにはセットアップを実行します。  <br/> |
    
-セットアップ コマンド ライン オプションの使用に関する詳細についてを参照してください[https://go.microsoft.com/fwlink/p/?linkid=267515](https://go.microsoft.com/fwlink/p/?linkid=267515)。 
-  
+
 

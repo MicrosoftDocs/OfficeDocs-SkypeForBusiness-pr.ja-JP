@@ -3,18 +3,18 @@ title: Windows Phone 版 Skype for Business のインストールおよびテス
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: '概要: をインストールし、Windows Phone にビジネス用の Skype をテストする方法を説明します。'
-ms.openlocfilehash: 12916e26857e5d456338519adee6190c11bace7b
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 90e8b99532e51399f9f76e5e12d60a3eeab84481
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978048"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>Skype for Business Server 2015: Windows Phone 版 Skype for Business のインストールおよびテスト
  
@@ -109,9 +109,5 @@ ms.lasthandoff: 05/24/2018
     
 2. タップし、Windows Phone のビジネス アプリケーションでは、Skype を押したままとし、[**アンインストール**] を選択します。
     
-## <a name="see-also"></a>関連項目
 
-#### 
-
-[Windows Phone 8.1 のビジネス用の Skype の概要]()
 

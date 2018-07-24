@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
+ROBOTS: NOINDEX, NOFOLLOW
 description: ブロック (ブロック) をオンまたはオフにできるようにする) を許可するファイルの拡張子を選択するのには、[ファイルの拡張子を選択] ダイアログ ボックスを使用して [ファイル] 拡張機能のチェック ボックスは、拡張子を入力します。 カテゴリを展開し、すべてのファイルの拡張子は、そのカテゴリの表示にある矢印をクリックします。 すべてのカテゴリのファイルの拡張子を選択する場合は、カテゴリ名を選択します。
-ms.openlocfilehash: 413a53b7dfa3b3b13534df9e64d57063e5c09102
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: e9dd652859a5aeda5c1d8a95b20964018b88e3de
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979653"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975128"
 ---
 # <a name="select-file-type-extensions"></a>ファイルの拡張子を選択します。
  
@@ -26,6 +27,6 @@ ms.locfileid: "19979653"
   
 **選択したファイル拡張子**の一覧にすべての必要なファイルの拡張子を追加した後 [ **OK**] をクリックします。
   
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネスのサーバー用の Skype の管理](../../../manage/manage.md)を参照してください。
+ 
   
 

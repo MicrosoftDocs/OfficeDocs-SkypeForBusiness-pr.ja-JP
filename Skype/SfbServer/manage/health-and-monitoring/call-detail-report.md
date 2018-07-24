@@ -1,26 +1,26 @@
 ---
-title: Skype for Business Server 2015 の通話の詳細レポート
+title: Skype のビジネス サーバーの詳細レポートを呼び出す
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
-description: '概要: は、ビジネス サーバー 2015 の Skype で使用される呼び出しの詳細レポートについて説明します。'
-ms.openlocfilehash: 942562ed33462506c9da137b3e4377e102d0ec98
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、Skype のビジネスのサーバーが使用する呼び出しの詳細レポートについて説明します。'
+ms.openlocfilehash: 3f560a2d4217b5afd61036b39100b39888fe577a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978883"
 ---
-# <a name="call-detail-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の通話の詳細レポート
+# <a name="call-detail-report-in-skype-for-business-server"></a>Skype のビジネス サーバーの詳細レポートを呼び出す
  
-**の概要:**ビジネス サーバー 2015 の Skype で使用される呼び出しの詳細レポートについて説明します。
+**の概要:** ビジネス サーバーの Skype で使用される呼び出しの詳細レポートについて説明します。
   
-呼び出しの詳細レポートの提供についての詳細を個別に呼び出す。レポートには、2015 年のビジネス サーバーは次のようにレポート セクションに分かれての経験の評価尺度と Skype で収集された統計のほぼすべての品質が含まれています。
+呼び出しの詳細レポートの提供についての詳細を個別に呼び出す。レポートには、ほぼすべての品質の経験が含まれています測定基準および業務サーバーの場合は、Skype で収集される統計情報レポートのセクションに分かれて次のようにします。
   
 - 通話情報 
     
@@ -48,17 +48,17 @@ ms.lasthandoff: 03/28/2018
 
 通話の詳細レポートは、以下の任意のレポートから表示できます。
   
-- [ビジネス サーバー 2015 の Skype での場所のレポート](location-report.md)] をクリックして電話の数または不適切な呼び出しの割合のメトリックのいずれか)
+- [場所レポート] をクリックして電話の数または不適切な呼び出しの割合のメトリックのいずれか) ビジネス サーバー (場所 report.md) の Skype で
     
-- [ビジネス サーバー 2015 の Skype でのメディア品質概要レポート](summary.md)] をクリックして通話量または不適切な呼び出しの割合のメトリックのいずれか)
+- [メディア品質概要レポート] をクリックして通話量または不適切な呼び出しの割合のメトリックのいずれか) ビジネス サーバー (summary.md) の Skype で
     
-- [ビジネス サーバー 2015 の Skype でメディアの品質の比較レポート](comparison.md)([ビジネス サーバー 2015 の Skype での一覧のレポートを呼び出す](call-list-report-0.md)] をクリックし、[詳細] のメトリックをクリック) します。
+- [Skype ビジネス サーバー用のメディアの品質の比較レポート](comparison.md)( [Skype ビジネス サーバーでリスト レポートを呼び出す](call-list-report-0.md)] をクリックし、[詳細] のメトリックをクリックすると)。
     
-- [ビジネス サーバー 2015 の Skype のサーバー パフォーマンス レポート](server-performance.md)] をクリックして通話量または不適切な呼び出しの割合のメトリックのいずれか)
+- [Skype ビジネス サーバー用のサーバー パフォーマンス レポート](server-performance.md)] をクリックして通話量または不適切な呼び出しの割合のメトリックのいずれか)
     
-- [ビジネス サーバー 2015 の Skype での一覧のレポートを呼び出す](call-list-report-0.md)] をクリックして、[詳細] のメトリック)
+- [Skype ビジネス サーバーでリスト レポートを呼び出す](call-list-report-0.md)] をクリックして、[詳細] のメトリック)
     
-呼び出しの詳細レポート内からに次の測定値のいずれかをクリックすると、[ビジネス サーバー 2015 の Skype でのデバイスのレポート](device-report.md)をアクセスできます。
+呼び出しの詳細レポート内からに次の測定値のいずれかをクリックすると、 [Skype のビジネス サーバーでデバイスのレポート](device-report.md)をアクセスできます。
   
 - [キャプチャ デバイス]
     
@@ -82,9 +82,9 @@ ms.lasthandoff: 03/28/2018
 
 次の表に、各通話の通話の詳細レポートで提供される情報を示します。
   
-**詳細レポートのメトリックを呼び出す**
+**通話の詳細レポートの指標**
 
-|**名**|**この項目を並べ替えることができますか。**|**説明**|
+|**名前**|**この項目での並べ替え**|**説明**|
 |:-----|:-----|:-----|
 |**[発信者 PAI]** <br/> |不可  <br/> |呼び出しを開始したユーザーの P-Asserted-Identity。P-Asserted-Identity は、信頼されたネットワーク内でユーザーの証明済み ID を送信するのに使用されます。  <br/> |
 |**[発信者 URI]** <br/> |不可  <br/> |呼び出しを開始したユーザーの SIP アドレス。  <br/> |

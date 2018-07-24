@@ -1,29 +1,28 @@
 ---
-title: Skype for Business Server 2015 でのダイヤルイン会議アクセス番号の管理
+title: 'Skype でダイヤルイン会議のアクセス番号をビジネスのサーバーの管理します。 '
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
-description: '概要: ビジネス サーバー 2015 の Skype でのダイヤルイン会議のアクセス番号を管理する方法を説明します。'
-ms.openlocfilehash: 3bbde214863fa7d08214569e4d9aa2a767016eb4
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: '概要: ビジネス サーバーのダイヤルイン会議アクセス番号を Skype を管理する方法を説明します。'
+ms.openlocfilehash: a9e93b52a329a4fdce6817a758b6c6dcb29a0348
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569436"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008189"
 ---
-# <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのダイヤルイン会議アクセス番号の管理
+# <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Skype でダイヤルイン会議のアクセス番号をビジネスのサーバーの管理します。
  
-**の概要:** ビジネス サーバー 2015 の Skype でのダイヤルイン会議のアクセス番号を管理する方法について説明します。
+**の概要:** ビジネス サーバーのダイヤルイン会議アクセス番号を Skype を管理する方法について説明します。
   
-ダイヤルイン会議を展開するときには、ユーザーが公衆交換電話網 (PSTN) からダイヤルして電話会議のオーディオ部分に参加するための電話番号を設定する必要があります。 それらのダイヤルイン アクセス番号は、ミーティングの招待状と [ダイヤルイン会議の設定] Web ページに表示されます。 
+ダイヤルイン会議を展開するときには、ユーザーが公衆交換電話網 (PSTN) からダイヤルして電話会議のオーディオ部分に参加するための電話番号を設定する必要があります。それらのダイヤルイン アクセス番号は、ミーティングの招待状と [ダイヤルイン会議の設定] Web ページに表示されます。 
   
-このトピックでは、既存のダイヤルイン会議アクセス番号を表示、変更、または削除する方法について説明します。 初期のダイヤルイン アクセス番号を作成する方法の詳細については、 [Skype のビジネス サーバー 2015 でダイヤルイン会議の構成](../../deploy/deploy-conferencing/dial-in-conferencing.md)を参照してください。
+このトピックでは、既存のダイヤルイン会議アクセス番号を表示、変更、または削除する方法について説明します。 初期のダイヤルイン アクセス番号を作成する方法の詳細については、 [Skype のビジネス サーバーにダイヤルイン会議の構成](../../deploy/deploy-conferencing/dial-in-conferencing.md)を参照してください。
   
 ## <a name="view-dial-in-conferencing-access-numbers"></a>ダイヤルイン会議アクセス番号の表示
 
@@ -122,7 +121,7 @@ Regions            : {US}
     
     ダイヤルイン アクセス番号ごとに最大 4 つの第 2 言語を選択できます。ユーザーは、会議にダイヤルインする際に会議 ID を入力する前に、第 2 言語を選択できます。
     
-12. ダイヤルイン アクセス番号、**関連付けられた領域**の下の領域を追加する] をクリックして * * * * を追加、このダイヤルイン アクセス番号にダイヤル プランに関連付けられている 1 つまたは複数の領域をクリックし、し、[ **OK**] をクリックします。
+12. ダイヤルイン アクセス番号、**関連付けられた領域**の下の領域を追加するには、[**追加**] をクリックして、このダイヤルイン アクセス番号をダイヤル プランに関連付けられ、 **[ok]** をクリックし、1 つまたは複数の領域をクリックします。
     
 13. ダイヤルイン アクセス番号から地域を削除するには、[**関連付けられている地域**] で削除する地域をクリックし、[**削除**] をクリックします。
     
@@ -152,7 +151,7 @@ Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com
   
 ### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用して、ダイヤルイン会議アクセス番号を削除します。
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは2015。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは.
     
 2.  Skype をビジネス サーバーのコントロール パネルを開きます。
     

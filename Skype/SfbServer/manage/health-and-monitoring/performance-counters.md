@@ -1,34 +1,37 @@
 ---
-title: Skype for Business Server 2015 のモビリティ パフォーマンス カウンター
+title: Skype ビジネス サーバーの移動のパフォーマンス カウンター
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-description: '概要: は、ビジネス サーバー 2015 Mcx モビリティ サービスのユニファイド コミュニケーション Web API (UCWA) と、Skype を実行しているサーバーを監視するために使用できるパフォーマンス カウンターについて説明します。'
-ms.openlocfilehash: 7f82f263969deb5fc71e448f0e514dd0056c31eb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、ビジネス サーバー Mcx のモビリティ サービスのユニファイド コミュニケーション Web API (UCWA) と、Skype を実行しているサーバーを監視するために使用できるパフォーマンス カウンターについて説明します。'
+ms.openlocfilehash: a1e44d0ba7fec9eb50d7d1f1bcea78a85a1f4955
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969846"
 ---
-# <a name="mobility-performance-counters-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 のモビリティ パフォーマンス カウンター
+# <a name="mobility-performance-counters-in-skype-for-business-server"></a>Skype ビジネス サーバーの移動のパフォーマンス カウンター
  
-**の概要:**ビジネス サーバー 2015 Mcx モビリティ サービスのユニファイド コミュニケーション Web API (UCWA) と、Skype を実行しているサーバーを監視するために使用できるパフォーマンス カウンターについて説明します。
+**の概要:** ビジネス サーバー Mcx のモビリティ サービスのユニファイド コミュニケーション Web API (UCWA) と、Skype を実行しているサーバーを監視するために使用できるパフォーマンス カウンターについて説明します。
   
-次の表に、名前とビジネス サーバー 2015 Mcx モビリティ サービスのユニファイド コミュニケーション Web API (UCWA) と、Skype を実行しているサーバーを監視するために使用できるパフォーマンス カウンターの説明をします。 
+次の表に、名前とビジネス サーバー Mcx のモビリティ サービスのユニファイド コミュニケーション Web API (UCWA) と、Skype を実行しているサーバーを監視するために使用できるパフォーマンス カウンターの説明をします。 
   
 UCWA テーブル内のカウンターのカテゴリ名は、 **LS:WEB - UCWA**です。
   
 Mcx Mobility Service の表のカウンターのカテゴリ名は、**LS:WEB - Mobile Communication Service** です。
+
+> [!NOTE]
+> 従来のモバイル クライアント用の MCX サポートはビジネス サーバー 2019 の Skype で利用可能ではありません。 ユーザーは、現在のクライアントにアップグレードする必要があります。
   
 ## <a name="performance-counters-for-ucwa"></a>UCWA のパフォーマンス カウンター
 
-|**カウンター**|**説明**|
+|カウンター|説明|
 |:-----|:-----|
 |Active Application Count  <br/> |現在のアプリケーション数  <br/> |
 |Active Application Sharing Modality Count  <br/> |現在のアプリケーション共有モダリティ数  <br/> |
@@ -74,7 +77,7 @@ Mcx Mobility Service の表のカウンターのカテゴリ名は、**LS:WEB - 
 |Total Sessions Terminated Because of Idle Timeout  <br/> |ユーザーのアイドル タイムアウトが原因で終了したセッションの合計数  <br/> |
 |Total Throttled Applications  <br/> |制限されたアプリケーションの数  <br/> |
    
-**Mcx モビリティ サービスのパフォーマンス カウンター**
+**Mcx Mobility Service のパフォーマンス カウンター**
 
 |**カウンター**|**説明**|
 |:-----|:-----|
@@ -110,4 +113,5 @@ Mcx Mobility Service の表のカウンターのカテゴリ名は、**LS:WEB - 
 |Total Successful Inbound Voice Calls  <br/> |成功した着信音声通話の合計数  <br/> |
 |Total Successful Outbound Voice Calls  <br/> |成功した発信音声通話の合計数  <br/> |
    
-
+> [!NOTE]
+> 従来のモバイル クライアント用の MCX サポートはビジネス サーバー 2019 の Skype で利用可能ではありません。 ユーザーは、現在のクライアントにアップグレードする必要があります。

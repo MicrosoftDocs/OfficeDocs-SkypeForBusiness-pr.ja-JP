@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 での電話会議への入退出のアナウンスの管理
+title: 会議の参加を管理し、お知らせの Skype ビジネス サーバーのままに
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
-description: '概要: は、会議の参加を管理し、お知らせの Skype ビジネス サーバー 2015 のままにする方法を説明します。'
-ms.openlocfilehash: 33e01efebc7d188fe329c1c39718aaf661af1e44
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、会議の参加を管理し、お知らせの Skype ビジネス サーバーのままにする方法を説明します。'
+ms.openlocfilehash: 84c9b5f9457d16570e58b119329d6b8fcefa4205
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008492"
 ---
-# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での電話会議への入退出のアナウンスの管理
+# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>会議の参加を管理し、お知らせの Skype ビジネス サーバーのままに
  
-**の概要:**会議の参加を管理し、お知らせの Skype ビジネス サーバー 2015 のままにする方法を説明します。
+**の概要:** 会議の参加を管理し、お知らせの Skype ビジネス サーバーのままにする方法を説明します。
   
 ダイヤルイン ユーザーは、参加または会議のままにして、会議アナウンス アプリケーションの開始を発表したり、音を再生するか、名前を言うまでに終了します。 Skype ビジネス サーバー管理シェルは、次のパラメーターを使用して**セット CsDialinConferencing**コマンドレットを使用して、お知らせがどのように動作を変更できます。
   

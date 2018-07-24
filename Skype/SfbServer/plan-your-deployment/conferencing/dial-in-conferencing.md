@@ -1,28 +1,28 @@
 ---
-title: Skype for Business Server 2015 でのダイヤルイン会議の計画
+title: ビジネス サーバーの Skype では、ダイヤルイン会議の計画
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
-description: '概要: ビジネス サーバー 2015 の Skype では、ダイヤルイン会議の計画の詳細については、このトピックを読みます。'
-ms.openlocfilehash: d1e1109ff264655dc73afd26049be5844160bc0b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: ビジネス サーバーの Skype では、ダイヤルイン会議の計画の詳細については、このトピックを読みます。'
+ms.openlocfilehash: 1b051cc757c0e55fb2f16b790921da962738ade3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973578"
 ---
-# <a name="plan-for-dial-in-conferencing-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのダイヤルイン会議の計画
+# <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>ビジネス サーバーの Skype では、ダイヤルイン会議の計画
  
-**の概要:**ビジネス サーバー 2015 の Skype では、ダイヤルイン会議の計画の詳細については、このトピックを参照してください。
+**の概要:** ビジネス サーバーの Skype では、ダイヤルイン会議の計画の詳細については、このトピックを参照してください。
   
 ダイヤルイン会議は、Skype の電話から会議にダイヤルインして、会議のオーディオ部分に参加する会議の出席者が可能なビジネス サーバーのオプション機能です。 ダイヤルイン会議は音声会議のサブセットであり、追加構成が必要です。 ここでは、組織のダイヤルイン会議を展開する前の考慮事項について説明します。 
   
-ダイヤルイン会議に必要なコンポーネントのいくつかは、ダイヤルイン会議に固有およびエンタープライズ VoIP のコンポーネントは、いくつか。 ダイヤルイン会議では、エンタープライズ VoIP で使用するのと同じコンポーネントをいくつか使用しますが、エンタープライズ VoIP を展開しない場合でも、ダイヤルイン会議を展開できます。 ここでは、ダイヤルイン会議に必要なコンポーネントについて説明します。 完全なエンタープライズ VoIP ソリューションの計画に関する詳細については、[ビジネス サーバー 2015 の Skype でエンタープライズ VoIP ソリューションを計画する](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md)を参照してください。
+ダイヤルイン会議に必要なコンポーネントのいくつかは、ダイヤルイン会議に固有およびエンタープライズ VoIP のコンポーネントは、いくつか。 ダイヤルイン会議では、エンタープライズ VoIP で使用するのと同じコンポーネントをいくつか使用しますが、エンタープライズ VoIP を展開しない場合でも、ダイヤルイン会議を展開できます。 ここでは、ダイヤルイン会議に必要なコンポーネントについて説明します。 完全なエンタープライズ VoIP ソリューションの計画に関する詳細については、 [Skype のビジネス サーバーでエンタープライズ VoIP ソリューションを計画](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md)を参照してください。
   
 ダイヤルイン会議では、仲介サーバーを展開して公衆交換電話網 (PSTN) への接続を提供する必要があります。 組織でダイヤルイン会議を実現するには、仲介サーバーの展開に加えて、以下のことを考慮する必要があります。
   
@@ -41,13 +41,13 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="plan-for-pstn-connectivity"></a>PSTN 接続の計画
 
-ダイヤルイン会議には、1 つ以上の仲介サーバーと少なくとも 1 つの公衆交換電話網 (PSTN) ゲートウェイが必要です。 
+ダイヤルイン会議には、少なくとも 1 つの仲介サーバーと少なくとも 1 つの公衆交換電話網 (PSTN) ゲートウェイが必要です。 
   
-仲介サーバーは、中央サイトまたはブランチ サイトに展開できます。 中央サイトでは、仲介サーバーをフロントエンド プールまたは Standard Edition サーバー上に併置するか、スタンドアロンのサーバー上またはプールに展開できます。 ブランチ サイトでは、仲介サーバーをスタンドアロンのサーバー上か、存続可能ブランチ アプライアンスのコンポーネントとして展開できます。
+仲介サーバーは、中央サイトまたはブランチ サイトに展開できます。中央サイトでは、仲介サーバーをフロントエンド プールまたは Standard Edition サーバー上に併置するか、スタンドアロンのサーバー上またはプールに展開できます。ブランチ サイトでは、仲介サーバーをスタンドアロンのサーバー上か、存続可能ブランチ アプライアンスのコンポーネントとして展開できます。
   
 PSTN ゲートウェイは、中央サイトまたはブランチ サイトに展開できます。ブランチ サイトでは、PSTN ゲートウェイは、スタンドアロンの場合と存続可能ブランチ アプライアンスのコンポーネントの場合があります。
   
-仲介サーバーと PSTN ゲートウェイの要件に関する詳細についてを参照してください[ビジネス サーバー 2015 の Skype での仲介サーバー コンポーネント](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)、[ビジネス サーバー 2015 の Skype でトポロジ ビルダーでは、仲介サーバーの展開](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)、および[を定義するにゲートウェイビジネス サーバー 2015 の Skype でトポロジ ビルダー](../../deploy/deploy-enterprise-voice/define-a-gateway.md)。
+仲介サーバーと PSTN ゲートウェイの要件に関する詳細については、「 [Skype ビジネス サーバー用の仲介サーバー コンポーネント](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)、 [Skype のビジネス サーバーで、トポロジ ビルダーでの仲介サーバーの展開](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)、および[を定義するトポロジでは、ゲートウェイの使用」を参照していますください。ビルダー ビジネス サーバーの Skype で](../../deploy/deploy-enterprise-voice/define-a-gateway.md)。
   
 ## <a name="plan-for-dial-plans-access-numbers-and-conferencing-regions"></a>ダイヤル プラン、アクセス番号、および会議の地域を計画する
 
@@ -83,7 +83,7 @@ PSTN ゲートウェイは、中央サイトまたはブランチ サイトに�
     
 - すべての場所のすべてのユーザーが、任意のダイヤルイン アクセス番号を発信して会議に参加できます。
     
-ダイヤル プランを作成する方法の詳細についてを参照してください[を作成するまたはビジネス サーバー 2015 の Skype のダイヤル プランを変更する](../../deploy/deploy-enterprise-voice/dial-plans.md)と[を作成するビジネス 2015年の Skype の正規化ルールを変更または](../../deploy/deploy-enterprise-voice/normalization-rules.md)。 
+ダイヤル プランを作成する方法の詳細についてを参照してください[を作成するまたはビジネス サーバーの Skype のダイヤル プランを変更する](../../deploy/deploy-enterprise-voice/dial-plans.md)と[を作成するまたはビジネス用の Skype の正規化ルールを変更する](../../deploy/deploy-enterprise-voice/normalization-rules.md)です。 
   
 ## <a name="plan-for-conference-directories"></a>会議ディレクトリを計画する
 
@@ -105,7 +105,7 @@ PSTN ゲートウェイは、中央サイトまたはブランチ サイトに�
     
 - ダイヤルイン会議の設定ページへのリンク。このページには、アクセス番号とそれに関連付けられた言語の完全な一覧、暗証番号 (PIN) の作成、リセット、または解除する場所、およびデュアルトーン多重周波数 (DTMF) 制御などのその他の情報が含まれます。
     
-会議ポリシーの詳細については、[ビジネス サーバー 2015 の Skype にダイヤルイン会議を構成](../../deploy/deploy-conferencing/dial-in-conferencing.md)し、[ビジネス サーバー 2015 の Skype 会議ポリシーの管理](../../manage/conferencing/conferencing-policies.md)を参照してください。  
+会議ポリシーの詳細については、 [Skype のビジネス サーバーにダイヤルイン会議を構成](../../deploy/deploy-conferencing/dial-in-conferencing.md)し、[ビジネス サーバーの Skype 会議ポリシーの管理](../../manage/conferencing/conferencing-policies.md)を参照してください。  
 
 ## <a name="support-for-enterprise-and-anonymous-users"></a>エンタープライズ ユーザーと匿名ユーザーのサポート
 

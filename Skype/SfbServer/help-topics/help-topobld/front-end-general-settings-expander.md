@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 既存のフロントエンド プールまたは Standard Edition サーバーの設定を編集するには、以下のセクションに示す手順に従って操作します。
-ms.openlocfilehash: 84b26c929f2f662c93163df2fd73a6e3576a3a97
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 74a26ca009d0a050babd10e72aeae2e814905cd4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986870"
 ---
 # <a name="front-end-general-settings-expander"></a>フロントエンド全般設定エキスパンダー
  
@@ -133,7 +134,7 @@ Standard Edition サーバーには、全般、復元、Web サービス、お�
 
 以下の全般設定を構成できます。
   
-- * * FQDN * *。 FQDN を変更できないことに注意してください。 削除し、それに関連付けられた FQDN を変更するのには Standard Edition サーバーを再定義する必要があります。
+- [**FQDN**]。 FQDN を変更できないことに注意してください。 削除し、それに関連付けられた FQDN を変更するのには Standard Edition サーバーを再定義する必要があります。
     
 - [**すべての構成済み IP アドレスを使用する**] または [**選択された IP アドレスのみにサービスの使用を制限する**] を選択します。定義済みの IP アドレスにサービスを制限する設定を選択する場合は、PSTN の場合を除いて、すべての通信でサーバーが使用するプライマリ IP アドレスを定義します。PSTN 使用には、別の IP アドレスを定義します。[**IPv6 を有効にする**] を選択して、このサーバーに対して IPv6 を有効にすることもできます。
     

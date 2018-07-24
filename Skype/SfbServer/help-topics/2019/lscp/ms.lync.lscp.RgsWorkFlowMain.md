@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
+ROBOTS: NOINDEX, NOFOLLOW
 description: 応答グループ エージェント グループ、キュー、およびワークフローで構成されます。 応答グループ ワークフローは、応答グループ アプリケーションが電話の呼び出しを受信するときに実行するアクションを定義します。
-ms.openlocfilehash: 6af4d40b75ae090cd3e99746ea111e3d804aed60
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: eabf3dfdd8e9dd9f63bb7fed6e71c1a7b2cbed38
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19997025"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997534"
 ---
 # <a name="response-groups-workflow"></a>応答グループ ワークフロー
  
@@ -56,6 +57,6 @@ ms.locfileid: "19997025"
     
 - **有効になっています。** 呼び出しを受信するワークフローがアクティブかどうかを示します。
     
-応答グループの機能と機能の詳細については、 [Skype のビジネス サーバーで応答グループ アプリケーションの計画](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)を参照してください。 応答グループ ワークフローの操作についての詳細は、操作マニュアルを参照に[応答グループ ワークフローの管理](http://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx)を参照してください。
+応答のグループの特徴と機能についての詳細は、計画のドキュメントで[ビジネス サーバーの Skype で応答グループ アプリケーションの計画](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)を参照してください。 応答グループ ワークフローの操作についての詳細は、操作マニュアルを参照に[応答グループ ワークフローの管理](http://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx)を参照してください。
   
 

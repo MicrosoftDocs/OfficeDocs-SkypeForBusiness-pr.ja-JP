@@ -1,9 +1,8 @@
 ---
-title: (オプション) Skype for Business 2015 での応答グループ休日セットの定義
+title: (省略可能)ビジネス用の Skype を定義する応答グループ休日を設定します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,13 +10,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: 作成またはビジネス サーバーのエンタープライズ VoIP の Skype での応答グループ休日セットを変更します。
-ms.openlocfilehash: 0ee6ffa0afdff32096845d7450fa92ff6e720022
-ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
+ms.openlocfilehash: f959b69462ecc3d3d37d6febfbf043a48f9dd4ad
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974748"
 ---
-# <a name="optional-define-response-group-holiday-sets-in-skype-for-business-2015"></a>(オプション) Skype for Business 2015 での応答グループ休日セットの定義
+# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(省略可能)ビジネス用の Skype を定義する応答グループ休日を設定します。
  
 作成またはビジネス サーバーのエンタープライズ VoIP の Skype での応答グループ休日セットを変更します。
   
@@ -54,7 +54,7 @@ ms.lasthandoff: 05/24/2018
 
 ## <a name="see-also"></a>関連項目
 
-[設計とビジネス 2015年の Skype で応答グループ ワークフローを作成します。](designing-and-creating-response-group-workflows.md)
+[設計とビジネス用の Skype で応答グループ ワークフローを作成します。](designing-and-creating-response-group-workflows.md)
 
 [新しい-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 

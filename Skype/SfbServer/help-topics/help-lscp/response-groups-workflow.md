@@ -3,7 +3,7 @@ title: 応答グループ ワークフロー
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 description: 応答グループ エージェント グループ、キュー、およびワークフローで構成されます。 応答グループ ワークフローは、応答グループ アプリケーションが電話の呼び出しを受信するときに実行するアクションを定義します。
-ms.openlocfilehash: d4fa4f946c8dd54d0abab6bea41cc632f780f747
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 268d97ae92755da336577c3cdee8bd7ca916759c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006889"
 ---
 # <a name="response-groups-workflow"></a>応答グループ ワークフロー
  
@@ -54,7 +55,7 @@ ms.lasthandoff: 03/28/2018
     
 - **IVR**ハント グループまたは対話型のワークフローのワークフローは、あるかどうかを示します。
     
-- **有効になっています。**呼び出しを受信するワークフローがアクティブかどうかを示します。
+- **有効になっています。** 呼び出しを受信するワークフローがアクティブかどうかを示します。
     
 応答のグループの特徴と機能についての詳細は、計画のドキュメントで[ビジネス サーバー 2015 の Skype で応答グループ アプリケーションの計画](../../plan-your-deployment/enterprise-voice-solution/response-group.md)を参照してください。 応答グループ ワークフローの操作についての詳細は、操作マニュアルを参照に[応答グループ ワークフローの管理](http://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx)を参照してください。
   

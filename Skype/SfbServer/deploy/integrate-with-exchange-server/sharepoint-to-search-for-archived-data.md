@@ -3,25 +3,26 @@ title: アーカイブされた Skype for Business データを検索するた�
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
-description: '概要: ビジネス サーバー 2015 2016 の Exchange Server や Exchange Server 2013 と Skype でアーカイブ データを検索するのには SharePoint サーバーを構成します。'
-ms.openlocfilehash: 161e4dd530490d22d14f5392539e2cc3d788d6bd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: ビジネスのサーバーの Exchange Server と Skype でアーカイブされたデータを検索するのには SharePoint サーバーを構成します。'
+ms.openlocfilehash: efd3fc67faacba503736968786988aaf01f45073
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971800"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>アーカイブされた Skype for Business データを検索するための SharePoint Server の構成
  
-**の概要:**ビジネス サーバー 2015 2016 の Exchange Server や Exchange Server 2013 と Skype でアーカイブされたデータを検索するのには SharePoint サーバーを構成します。
+**の概要:** ビジネス サーバーの 2016 の Exchange Server や Exchange Server 2013 と Skype でアーカイブされたデータを検索するのには SharePoint サーバーを構成します。
   
-ビジネス サーバー 2015 の Exchange Server 2016 または Skype ではなく、Exchange Server 2013 でインスタント メッセージング、Web 会議の議事録を保存するための大きな利点の 1 つは、同じ場所にデータを格納できる管理者を 1 つのツールを使用するにはExchange のアーカイブ ・ データとアーカイブ済みの Skype ビジネス サーバーのデータを検索します。 (交換) するために同じデータが保存されているすべて、Exchange のアーカイブ ・ データを検索できるツールがビジネスのサーバーのデータのアーカイブされた Skype の検索もできます。
+インスタント メッセージング、Web 会議の議事録を保存するには、Exchange Server に大きな利点の 1 つビジネス サーバーの Skype ではなく、同じ場所にデータを格納すると、Exchange のアーカイブ ・ データを検索する 1 つのツールを使用する管理者をことができます。またはアーカイブ済みの Skype ビジネス サーバーのデータ。 (交換) するために同じデータが保存されているすべて、Exchange のアーカイブ ・ データを検索できるツールがビジネスのサーバーのデータのアーカイブされた Skype の検索もできます。
   
 アーカイブされたデータを検索しやすい 1 つのツールは、Microsoft SharePoint Server 2013 です。 Skype のビジネス サーバーのデータを検索する SharePoint を使用する場合は、Exchange が Skype のビジネス サーバーのアーカイブを構成するのに関連するすべての手順を完了してする必要があります。 Exchange Server と Skype のビジネス サーバーが正常に統合された後、し、SharePoint サーバー上で Exchange [Web サービスの管理 API](https://go.microsoft.com/fwlink/p/?LinkId=258305)をインストールしてください。 ダウンロードしたファイル (EWSManagedAPI.msi) は、SharePoint サーバーのどのフォルダーにでも保存できます。
   
@@ -29,7 +30,7 @@ ms.lasthandoff: 03/28/2018
   
 1. [**スタート**]、[**すべてのプログラム**]、[**アクセサリ**] の順にクリックし、[**コマンド プロンプト**] を右クリックし、[**管理者として実行**] をクリックして、コマンド ウィンドウを開きます。
     
-2. [コマンド] ウィンドウで、EWSManagedAPI.msi ファイルが保存されているフォルダーに現在のディレクトリを変更するのには、cd コマンドを使用します。 、C:\Downloads にファイルを保存した場合コマンド ウィンドウで次のコマンドを入力して Enter キーを押します。
+2. コマンド ウィンドウで、cd コマンドを使用して、EWSManagedAPI.msi ファイルが保存されているフォルダーに現在のディレクトリを変更します。 、C:\Downloads にファイルを保存した場合コマンド ウィンドウで次のコマンドを入力して Enter キーを押します。
     
    ```
    cd C:\Downloads
@@ -126,7 +127,7 @@ New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmye
     
 5. [新規: 情報開示セット] ページで、[**情報開示セット名**] ボックスにユーザーの電子メール エイリアスを入力します。 入力**電子的証拠開示 Lync\* ** [**フィルター** ] ボックスをクリック**追加&amp;ソースの管理**です。
     
-6. 追加&amp;ソースの管理] ページで、[**メールボックス]**の最初のテキスト ボックスにユーザーの電子メール エイリアスを入力します。 テキスト ボックスの横にある [メールボックスの確認] アイコンをクリックして、SharePoint が指定のメールボックスに接続できることを確認します。
+6. 追加&amp;ソースの管理] ページで、[**メールボックス]** の最初のテキスト ボックスにユーザーの電子メール エイリアスを入力します。 テキスト ボックスの横にある [メールボックスの確認] アイコンをクリックして、SharePoint が指定のメールボックスに接続できることを確認します。
     
 7. [**OK**] をクリックします。
     

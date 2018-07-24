@@ -1,9 +1,8 @@
 ---
-title: ビジネス サーバー 2015 の Skype のバック エンド サーバーに常時接続の可用性グループを展開します。
+title: ビジネス サーバーの Skype のバック エンド サーバーに常時接続の可用性グループを展開します。
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,14 +10,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: (インストール)、常に可用性グループに、Skype のビジネス サーバーの展開を展開します。
-ms.openlocfilehash: 7a277421c13243ba7096a794b59ed93218644f22
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 93d27fc86393a28f4c0e546d034cbf9819ecce87
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569506"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026733"
 ---
-# <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype のバック エンド サーバーに常時接続の可用性グループを展開します。
+# <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>ビジネス サーバーの Skype のバック エンド サーバーに常時接続の可用性グループを展開します。
  
 (インストール)、常に上の可用性グループ (AG)、Skype のビジネス サーバーの展開を展開します。
   
@@ -122,13 +121,13 @@ AG をどのように展開することを新しいプール、ミラーリン�
     
    - **概要**] ページで、すべての設定を確認して、[完了] をクリックします。
     
-7. 説明したように、フロント エンド プールを作成するトポロジ ビルダーを使用して、[を作成するビジネス サーバー 2015 の Skype の新しいトポロジを公開し、](../../deploy/install/create-and-publish-new-topology.md)。 実行すると、プールの SQL ストアとして、AG を指定します。
+7. 説明したように、フロント エンド プールを作成するトポロジ ビルダーを使用して、[を作成する Skype のビジネス サーバーの新しいトポロジを公開し、](../../deploy/install/create-and-publish-new-topology.md)。 実行すると、プールの SQL ストアとして、AG を指定します。
     
 8. プールと AG が配置されると、SQL ログインが各 AlwaysOn 可用性グループのレプリカであることを確認するのにはいくつかの最終的な手順を実行します。 
     
    - トポロジ ビルダーを開き**既存の展開からトポロジをダウンロード**するを選択して **[ok]** をクリックします。
     
-   - [Skype for Business Server]、使用するトポロジ、[**SQL Server ストア**] の順に展開します。 新しい AlwaysOn 可用性グループの SQL ストアを右クリックし、をクリックして * * 編集プロパティ * *。
+   - [Skype for Business Server]、使用するトポロジ、[**SQL Server ストア**] の順に展開します。 新しい AlwaysOn 可用性グループの SQL ストアを右クリックし、[**プロパティの編集**] をクリックします。
     
     - [ **SQL Server の FQDN** ] ボックスで、ページの下部にある AG のリスナーの FQDN の値を変更します。
     
@@ -418,7 +417,7 @@ AG をどのように展開することを新しいプール、ミラーリン�
     
     - トポロジ ビルダーを開き**既存の展開からトポロジをダウンロード**するを選択して **[ok]** をクリックします。
     
-    - [Skype for Business Server]、使用するトポロジ、[**SQL Server ストア**] の順に展開します。 、新しい AG の SQL ストアを右クリックし、をクリックして * * 編集プロパティ * *。
+    - [Skype for Business Server]、使用するトポロジ、[**SQL Server ストア**] の順に展開します。 、新しい AG の SQL ストアを右クリックし、[**プロパティの編集**] をクリックします。
     
     - [ **SQL Server の FQDN** ] ボックスで、ページの下部にある AG のリスナーの FQDN の値を変更します。
     

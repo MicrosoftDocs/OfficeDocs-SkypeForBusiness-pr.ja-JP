@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 管理シェル
+title: Skype for Business Server 管理シェル
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 9/20/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,22 +10,23 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: ビジネス サーバー管理シェルの Skype では、サーバーの管理と管理のコマンド ライン インターフェイスを提供します。 Windows PowerShell の上に構築し、Skype と従来の Lync server 製品に固有のコマンドレットが管理の包括的なセットが含まれています。
-ms.openlocfilehash: e4eb5f183af29dd5f9932fb15cdb86a0f78e7840
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 34bf761cfa6d9cfe648360319084b3a304d9f6e6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997357"
 ---
-# <a name="skype-for-business-server-2015-management-shell"></a>Skype for Business Server 2015 管理シェル
+# <a name="skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェル
  
 ビジネス サーバー管理シェルの Skype では、サーバーの管理と管理のコマンド ライン インターフェイスを提供します。 Windows PowerShell の上に構築し、Skype と従来の Lync server 製品に固有のコマンドレットが管理の包括的なセットが含まれています。
   
 Windows PowerShell を使用すると、Microsoft アプリケーションをコマンドラインから管理できます。 コマンド ライン環境、製品固有のコマンド、完全なスクリプト言語が用意されています。 Windows PowerShell は、2006 年の後半で Windows オペレーティング システム用のダウンロード可能なリリースとして初めて導入され、Microsoft Exchange Server 2007 の管理用のコマンド ライン インターフェイスとして採用されました。 それは、Lync Server 2010 から Lync と Skype のサーバーを含む、Microsoft サーバー製品の大部分に組み込まれています。 700 を超える Lync と Skype の特定のコマンドレットがビジネスのサーバー管理シェルの Skype で利用できます。
   
 > [!NOTE]
-> コマンドレット参照のビジネス用の Skype は、docs.microsoft.com に移動します。以下のリンクをクリックするとクリックすると、新しい docs.microsoft.com ページです。 そのコンテンツはオープン ソースとなり、GitHub を通したコミュニティへの投稿として利用できるようになりました。 投稿に興味はありますか? ここでは、リポジトリの索引にある readme ファイルを確認します。[https://github.com/MicrosoftDocs/office-docs-powershell](https://github.com/MicrosoftDocs/office-docs-powershell)
+> Skype for Business のコマンドレット リファレンスは docs.microsoft.com に移動しました。 下にあるリンクをクリックすると、新しい docs.microsoft.com page にアクセスします。 そのコンテンツはオープン ソースとなり、GitHub を通したコミュニティへの投稿として利用できるようになりました。 投稿に興味はありますか? ここでは、リポジトリの索引にある readme ファイルを確認します。[https://github.com/MicrosoftDocs/office-docs-powershell](https://github.com/MicrosoftDocs/office-docs-powershell)
   
-ビジネス サーバー 2015 の Skype は、Skype をビジネス サーバー管理シェルには、Skype を使用してビジネスのサーバーを管理する管理者を有効にする 700 以上のコマンドレットで出荷されます。 以下のようなコマンドを入力すると、コマンドレットのヘルプを、コマンド ラインから直接取得することができます。
+ビジネス サーバー管理シェルには、Skype を使用してビジネス サーバーの Skype を管理する管理者を有効にするコマンドレットが 700 を超えるビジネス サーバーの Skype が同梱されています。 以下のようなコマンドを入力すると、コマンドレットのヘルプを、コマンド ラインから直接取得することができます。
   
 ```
 Get-Help New-CsVoicePolicy -Full
@@ -64,10 +64,13 @@ Get-Command * -Module SkypeforBusiness -CommandType cmdlet
   ```
   // Save the help files
    Save-Help -DestinationPath \\UpdateShare\HelpDownload
-// Run Update-Help against the local help files
+  // Run Update-Help against the local help files
    Update-Help -Module SkypeforBusiness -SourcePath \\UpdateShare\HelpDownload
   ```
 
     詳細については、[更新可能なヘルプについて](https://technet.microsoft.com/library/hh847735.aspx)を参照してください。
+    
+    > [!NOTE]
+    > リモート PowerShell を使用している場合は、ファイアウォール経由の通信を許可する必要があります。 PowerShell リモート処理を使用するポートの詳細についてを参照してください[どのようなポートは PowerShell リモート処理の使用ですか?](https://blogs.technet.microsoft.com/christwe/2012/06/20/what-port-does-powershell-remoting-use/)です。
     
 

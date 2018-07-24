@@ -3,7 +3,7 @@ title: AV MCU とフロント エンドを関連付ける
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 314e3b0b-9ca7-423b-9c8e-80eb6013d36f
 description: A V 会議により、リアルタイムのオーディオおよびビデオの通信、ユーザーの間でと (つまり、ヘッドセット、オーディオ会議、ビデオ会議用の web カメラなどの適切なクライアント デバイスがある) 場合です。 展開が会議をサポートし、web 会議および A の両方を有効にするかどうかは V の会議に集約できます/A/V 会議サーバー、フロント エンド サーバー)、または 1 つまたは複数のスタンドアロン A を展開することができます/V 会議サーバー (A/V 会議プール). スタンドアロン A を展開するためのオプションを選択するかどうかは V 会議サーバーでは、必要がありますで定義したトポロジ ビルダーとします。
-ms.openlocfilehash: 7b38f9bc548c3c29d713f2c36a04b782ad7d6279
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1e6e95ef7f6dd216b5cb2fe87b1f4525ce900396
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975502"
 ---
 # <a name="associate-front-end-with-av-mcu"></a>AV MCU とフロント エンドを関連付ける
  

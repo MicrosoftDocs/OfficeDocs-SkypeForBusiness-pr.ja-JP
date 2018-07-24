@@ -3,18 +3,18 @@ title: Skype Room System のハイブリッド展開
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/17/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: ハイブリッド環境で Skype ルームのシステムを展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: e4ef63ec39106a2cb35201d43ca012b4ce173911
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ce57178a03a466b76edfbafdcc467d9458028845
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997294"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Skype Room System のハイブリッド展開
  
@@ -40,7 +40,7 @@ ms.lasthandoff: 03/28/2018
     
 4. ディレクトリの同期をトリガーし、同期が完了した後ことを確認ユーザーが AAD でマージする Office365 Exchange 管理センターでの受信者のリソースのプロパティを変更することがないこと。
     
-5. Lrstest5@LyncSample.com を使用して OWA の接続を確認します。(以前のバージョンでは、することを確認、オンラインのドメインを使用して OWA 接続。)
+5. Lrstest5@LyncSample.com を使用して OWA の接続を確認します。 (以前のバージョンでは、することを確認、オンラインのドメインを使用して OWA 接続。)
     
     メールボックスを作成した後、Exchange Online 管理シェルで Set-CalendarProcessing を使用してメールボックスを構成できます。詳細については、単一フォレストのオンプレミス展開の手順 3 ～ 6 を参照してください。
     

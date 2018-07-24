@@ -3,18 +3,19 @@ title: Skype for Business Server 2015 の常設チャット サーバーのハ�
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
+ms.date: 7/19/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: '概要: ビジネス サーバー 2015 の Skype での永続的なチャット サーバーのハードウェアおよびソフトウェアの要件の詳細については、このトピックを読みます。'
-ms.openlocfilehash: 4daf53219937a4ffcfee0e51d80cffb7f1626cf5
-ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
+ms.openlocfilehash: 16a04616a1ec15b4cfffc17cd3a3d9bc271b0dde
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2018
-ms.locfileid: "20363931"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21027004"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の常設チャット サーバーのハードウェアおよびソフトウェア要件
  
@@ -35,6 +36,9 @@ ms.locfileid: "20363931"
 - メッセージ キュー ソフトウェア。 展開されている場合は、永続的なチャット サーバーと永続的なチャット コンプライアンス サービスで使用されます。
     
 次のセクションでは、永続的なチャット サーバーと永続的なチャット データを格納しているデータベースの特定の要件について説明します。
+
+> [!NOTE] 
+> 永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。 同じ機能は、チームで使用できます。 詳細については、[マイクロソフトのチームにビジネス用の Skype からの旅](/microsoftteams/journey-skypeforbusiness-teams)を参照してください。 永続的なチャットを使用する場合は、選択肢は、いずれかをチームでは、この機能を必要とするユーザーを移行するまたはビジネス サーバー 2015 の Skype を使用し続ける。 
   
 ## <a name="front-end-server-requirements"></a>フロント エンド サーバーの要件
 

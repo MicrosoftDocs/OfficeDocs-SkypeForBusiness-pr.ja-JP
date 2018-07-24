@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
+ROBOTS: NOINDEX, NOFOLLOW
 description: エージェントは、応答グループの呼び出しに応答するように指定されているユーザーです。 応答グループには、そのグループへの呼び出しを受信できるエージェントを示すエージェント グループが割り当てられている必要があります。 エージェント グループを作成する方法の 1 つは、適格なユーザーを選択してカスタム グループを定義することです。 対象となるユーザーは、ビジネスのサーバーおよびエンタープライズ VoIP Skype は有効です。
-ms.openlocfilehash: b8d4071bca715712e7f90f3e7fcad64db0367ac7
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: c1455dcb42a13ebd9a4edc6b922a5ff3d14a94aa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19976472"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989472"
 ---
 # <a name="select-agents"></a>エージェントの選択
  

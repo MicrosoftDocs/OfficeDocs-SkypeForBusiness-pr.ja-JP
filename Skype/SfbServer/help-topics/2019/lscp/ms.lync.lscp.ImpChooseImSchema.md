@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
+ROBOTS: NOINDEX, NOFOLLOW
 description: ブロック、警告メッセージを送信、または (可能) にする (ブロック、または警告メッセージを送信) をオンまたはオフにできるようにするハイパーリンクの種類を選択するのには、[ハイパーリンク プレフィックスの選択] ダイアログ ボックスを使用して、下にあるカテゴリの中から、拡張子のチェック ボックスハイパーリンクのプレフィックスです。 矢印をクリックして、カテゴリを展開し、すべてのカテゴリのハイパーリンクのプレフィックスを表示します。 すべてのカテゴリのプレフィックスのハイパーリンクを選択する場合は、カテゴリ名を選択します。
-ms.openlocfilehash: 85b2e240921e18dcb596bf930faf88894f4a5a5e
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 4fbceccc00d95466190859d6eb8a9be9e5b4134b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964738"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989451"
 ---
 # <a name="select-hyperlink-prefix"></a>ハイパーリンクのプレフィックスを選択します。
  
@@ -26,6 +27,6 @@ ms.locfileid: "19964738"
   
 ハイパーリンクのプレフィックスのすべてを**選択したハイパーリンクのプレフィックス**] ボックスの一覧に追加した後 [ **OK**] をクリックします。
   
-詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネスのサーバー用の Skype の管理](../../../manage/manage.md)を参照してください。
+ 
   
 

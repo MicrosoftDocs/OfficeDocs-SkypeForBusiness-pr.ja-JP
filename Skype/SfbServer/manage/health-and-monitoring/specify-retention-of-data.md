@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 での CDR データの保持期間の指定
+title: ビジネス サーバー用の Skype での CDR のデータ保存期間を指定します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
-description: '概要: は、呼び出しの詳細 (CDR) データを Skype のビジネス サーバー 2015 の記録を管理する方法を説明します。'
-ms.openlocfilehash: cb15468f1980f0103c2333676a92ae1ca1280f1b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 概要では、Skype のビジネス サーバー (CDR) データを記録する呼び出しの詳細を管理する方法について説明します。
+ms.openlocfilehash: ce35d8d2cac0968cca912031ec5e406ebe93e2eb
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005833"
 ---
-# <a name="specify-retention-of-cdr-data-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での CDR データの保持期間の指定
+# <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>ビジネス サーバー用の Skype での CDR のデータ保存期間を指定します。
  
-**の概要:**(CDR) データを Skype のビジネス サーバー 2015 の記録の呼び出しの詳細を管理する方法について説明します。
+**の概要:** Skype のビジネス サーバー (CDR) データを記録する呼び出しの詳細を管理する方法について説明します。
   
 既定では、通話詳細記録 (CDR) データは 60 日後に削除されます。 [**通話詳細記録**] ページの設定を使用して、このデータを既定よりも長期間、または短期間保持できます。 CDR を無効にすると、CDR を有効にする前に取得されたデータも削除の対象になります。
   
@@ -29,7 +29,7 @@ CDR データの削除設定を構成するには、次の手順を実行しま�
   
 ### <a name="to-specify-retention-of-cdr-data"></a>CDR データの保持期間を指定するには
 
-1. RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは2015。
+1. RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは.
     
 2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。  
     
@@ -69,7 +69,4 @@ CDR 保存期間の設定は、Windows PowerShell とセット CsCdrConfiguratio
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[Skype でのビジネス サーバー 2015 (CDR) を記録する詳細を呼び出す](call-detail-recording-cdr.md)
-
+[Skype のビジネス サーバー (CDR) を記録する詳細を呼び出す](call-detail-recording-cdr.md)

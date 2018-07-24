@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 での会議の構成設定の作成
+title: 作成会議の Skype ビジネス サーバーの構成設定
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
-description: '概要: 作成する方法を説明する会議出席ビジネス サーバー 2015 の Skype の設定を構成します。'
-ms.openlocfilehash: 2d3bde2c856c85e0795f2e1d43fbb5cf705c7024
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: 作成する方法を説明する Skype ビジネス サーバーの構成設定に対応します。'
+ms.openlocfilehash: 8826bee3a5f96fd3d30bdc999db97f796f8a0b8e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997418"
 ---
-# <a name="create-meeting-configuration-settings-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での会議の構成設定の作成
+# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>作成会議の Skype ビジネス サーバーの構成設定
  
-**の概要:**作成する方法について説明会議出席ビジネス サーバー 2015 の Skype の設定を構成します。
+**の概要:** 作成する方法を学習 Skype ビジネス サーバーの構成設定に対応します。
   
 作成することができます Skype ビジネス サーバーのコントロール パネルを使用するか、Skype ビジネス サーバー管理シェルを使用して会議の構成設定。
   

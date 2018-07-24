@@ -1,32 +1,32 @@
 ---
-title: Skype for Business Server 2015 での電話会議ポリシーの管理
+title: Skype での会議のポリシーを管理するビジネス サーバー
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 34ec5e41-6fe6-450b-81b0-0d17b9989839
-description: '概要: ビジネス サーバー 2015 の Skype での会議ポリシーを管理する方法を説明します。'
-ms.openlocfilehash: 48ae623a9571b848ccb70b377416343eccca0c1c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: ビジネス サーバーの Skype での会議ポリシーを管理する方法を説明します。'
+ms.openlocfilehash: d5fed0c6615747069d71015fca33144ca41dd64b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986658"
 ---
-# <a name="manage-conferencing-policies-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での電話会議ポリシーの管理
+# <a name="manage-conferencing-policies-in-skype-for-business-server"></a>Skype での会議のポリシーを管理するビジネス サーバー
  
-**の概要:**ビジネス サーバー 2015 の Skype での会議ポリシーを管理する方法について説明します。
+**の概要:** ビジネス サーバーの Skype での会議ポリシーを管理する方法について説明します。
   
-このトピックでは、電話会議ポリシーを管理する方法について説明します。 予定し、会議を展開する方法の詳細については、[ビジネス サーバー 2015 の Skype での会議の計画](../../plan-your-deployment/conferencing/conferencing.md)および[ビジネス サーバー 2015 の Skype での展開の会議](../../deploy/deploy-conferencing/deploy-conferencing.md)を参照してください。
+このトピックでは、電話会議ポリシーを管理する方法について説明します。 予定し、会議を展開する方法の詳細については、[ビジネスのサーバー用の Skype での会議の計画](../../plan-your-deployment/conferencing/conferencing.md)と[ビジネス サーバーの Skype で会議を展開](../../deploy/deploy-conferencing/deploy-conferencing.md)を参照してください。
   
 電話会議ポリシーにより、会議に IP オーディオと IP ビデオを組み込むことができるかどうかから、出席可能な最大参加者数に至るまでの、さまざまなスケジューリングおよび参加オプションを定義できます。電話会議ポリシーを使用すると、セキュリティ、帯域幅、および会議の法的側面を管理できます。
   
-電話会議ポリシーは、グローバル スコープ、サイト スコープ、およびユーザー スコープの 3 つのレベルで定義できます。 設定の対象になるのは、最も狭いスコープから最も広いスコープまでのどのスコープでも、特定のユーザーです。 ポリシーをユーザーに割り当てると、それらの設定は優先権を持ちます。 ユーザー ポリシーを割り当てていない場合は、サイト設定が適用されます。 ユーザー ポリシーもサイト ポリシーも適用されていない場合は、グローバル ポリシーが既定の設定を提供します。
+電話会議ポリシーは、グローバル スコープ、サイト スコープ、およびユーザー スコープの 3 つのレベルで定義できます。設定の対象になるのは、最も狭いスコープから最も広いスコープまでのどのスコープでも、特定のユーザーです。ポリシーをユーザーに割り当てると、それらの設定は優先権を持ちます。ユーザー ポリシーを割り当てていない場合は、サイト設定が適用されます。ユーザー ポリシーもサイト ポリシーも適用されていない場合は、グローバル ポリシーが既定の設定を提供します。
   
-グローバル ポリシーは既定として存在するため、新しいグローバル ポリシーを作成することはできません。 また、既存のグローバル ポリシーを削除することはできませんが、既存のグローバル ポリシーを変更して既定の設定をカスタマイズすることはできます。
+グローバル ポリシーは既定として存在するため、新しいグローバル ポリシーを作成することはできません。また、既存のグローバル ポリシーを削除することはできませんが、既存のグローバル ポリシーを変更して既定の設定をカスタマイズすることはできます。
   
 ## <a name="manage-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用して、会議のポリシーを管理します。
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 03/28/2018
 
 Skype ビジネス サーバー管理シェルを使用して会議を管理するためには、次のコマンドレットを使用します。
   
-**会議ポリシーの設定**
+**電話会議ポリシーの設定**
 
 |**コマンドレット**|**説明**|
 |:-----|:-----|

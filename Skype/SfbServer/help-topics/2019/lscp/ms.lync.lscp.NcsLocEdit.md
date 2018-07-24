@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
+ROBOTS: NOINDEX, NOFOLLOW
 description: 場所ポリシーを構成すると、拡張 9-1-1 (E9-1-1) を有効にするかどうか、E9-1-1 の使用方法、およびユーザーと連絡先での場所情報の使用方法を指定することができます。
-ms.openlocfilehash: 48202c549f430f0b42ce18929a46989d69836329
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 41b2a73b40ab9ea1a94d128731917e8a551699b0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964520"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006143"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>場所のポリシー: 新規作成または現在の形式のままで編集
  

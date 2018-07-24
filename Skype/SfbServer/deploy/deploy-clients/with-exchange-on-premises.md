@@ -3,7 +3,6 @@ title: Skype Room Systems バージョン 2 と Exchange On-Premises を展開�
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/18/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,12 +10,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 description: 社内の Exchange とのハイブリッド環境で Skype ルーム システム v2 を展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 4fd9b1f2ef7f40f0dac72bd97c25b59d18698154
-ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
+ms.openlocfilehash: 930cc8916459562af89c15aefb60a2bf2c33c7e4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19887835"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965451"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-on-premises"></a>Skype Room Systems バージョン 2 と Exchange On-Premises を展開する
  
@@ -152,11 +151,11 @@ Skype for Business (プラン 3)] を選択します。 Skype ルーム シス�
 
 [Skype ルーム システム v2 用のアカウントを構成します。](room-systems-v2-configure-accounts.md)
 
-[Skype ルームの計画システム v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Skype Room Systems バージョン 2 の計画](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Skype の部屋を配置するシステム v2](room-systems-v2.md)
+[Skype Room System バージョン 2 を展開する](room-systems-v2.md)
   
-[Skype ルーム システム v2 のコンソールを構成します。](console.md)
+[Skype Room Systems バージョン 2 コンソールを構成する](console.md)
   
-[Skype ルームの管理システム v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Skype Room Systems バージョン 2 を管理する](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 

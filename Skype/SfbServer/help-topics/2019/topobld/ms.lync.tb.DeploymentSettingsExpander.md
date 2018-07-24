@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 description: 既存の展開のプロパティを編集するには、以下のセクションを参照してください。
-ms.openlocfilehash: e2ead1d674d6cfd3b01854d3ec0ca7bafd353b15
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 2784a1c2f21699a3d5cc30b2fcfba76bf1d3338c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991579"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21027241"
 ---
 # <a name="deployment-settings-expander"></a>展開設定エキスパンダー
  
@@ -71,7 +71,6 @@ URL を削除する必要がある場合は、URL を選択し、[**削除**] �
   
 中央管理ストアを移動する方法の詳細は、Windows PowerShell コマンドレットの参照に[移動 CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps)を参照してください。
   
-## 
 
 詳細を定義し、これらの設定の構成については、[定義してトポロジの構成](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx)を参照してください。
   

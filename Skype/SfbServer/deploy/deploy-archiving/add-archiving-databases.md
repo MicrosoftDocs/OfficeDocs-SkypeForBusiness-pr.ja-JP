@@ -1,30 +1,30 @@
 ---
-title: Skype for Business Server 2015 での既存の展開へのアーカイブ データベースの追加
+title: Skype で既存の展開にビジネスのサーバーにアーカイブ データベースを追加します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
-description: '概要: このサーバー 2015 のビジネスを展開するため、Skype にアーカイブ データベースを追加する方法についてを参照できます。'
-ms.openlocfilehash: 09185eed2a8bd0cc9b2a03fc6361abeadbd01829
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: ビジネス サーバーの展開について、Skype にアーカイブ データベースを追加する方法の詳細については、このトピックを読みます。'
+ms.openlocfilehash: 1b6aef3d1b00a6736206cd3cf4c0061f0e720ad6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969125"
 ---
-# <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での既存の展開へのアーカイブ データベースの追加
+# <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>Skype で既存の展開にビジネスのサーバーにアーカイブ データベースを追加します。
  
-**の概要:**サーバー 2015 のビジネスを展開するため、Skype にアーカイブ データベースを追加する方法の詳細については、このトピックを参照してください。
+**の概要:** ビジネス サーバーの展開について、Skype にアーカイブ データベースを追加する方法の詳細については、このトピックを参照してください。
   
 アーカイブをサポートするように展開を構成する前に、トポロジにアーカイブを組み込む必要があります。 このトピックの情報には、トポロジ ビルダーを使用する方法について説明します。
   
 - アーカイブ データベースをトポロジに追加する。
     
-- サーバー 2015 のビジネスを展開するため、Skype にアーカイブ データベースを追加するのには更新したトポロジを公開します。
+- ビジネス サーバーの展開について、Skype にアーカイブ データベースを追加するのには更新したトポロジを公開します。
     
 > [!NOTE]
 > 展開で、アーカイブ ・ データとすべてのユーザーの Exchange サーバー上のファイルを格納する Microsoft Exchange の統合を使用する場合は、 **SQL Server のアーカイブを保存**または**使用して SQL Server ストアにミラー化**の情報を指定することはしません。
@@ -69,7 +69,7 @@ ms.lasthandoff: 03/28/2018
     
     c. ミラーリングの関係で指定された SQL Server のインスタンスがある場合、**ミラーリングの関係ではこの SQL インスタンス**] チェック ボックスをオンを選択し、**ミラー ・ ポートの番号**] ボックスで、ポート番号を指定します。
     
-   - SQL Server のミラーリングを有効にするし、ミラーリング監視 (、第 3 に、独立した SQL Server のインスタンスを主要な SQL Server インスタンスとミラー インスタンスの稼働状態を検出することができます)、SQL Server を追加する、**のミラーリング監視を使用して SQL Server の自動を有効にするを選択します。フェイル オーバー ・**チェック ボックスをオンし、次のいずれかの操作を行います。
+   - SQL Server のミラーリングを有効にするし、ミラーリング監視 (、第 3 に、独立した SQL Server のインスタンスを主要な SQL Server インスタンスとミラー インスタンスの稼働状態を検出することができます)、SQL Server を追加する、**のミラーリング監視を使用して SQL Server の自動を有効にするを選択します。フェイル オーバー ・** チェック ボックスをオンし、次のいずれかの操作を行います。
     
     a. **SQL Server の FQDN**では、ミラーリング監視をミラーリングする新しい SQL Server を作成するサーバーの FQDN を指定します。
     
@@ -100,6 +100,6 @@ ms.lasthandoff: 03/28/2018
 6. [**公開ウィザードの完了**] ページで、トポロジが正常に公開されたことを確認し、[**完了**] をクリックします。
     
     > [!IMPORTANT]
-    > トポロジを公開した後、コンテンツをアーカイブする前に、アーカイブのオプションおよびポリシーを構成する必要があります。 詳細については、[アーカイブ ・ ビジネス サーバー 2015 の Skype のオプションを構成](configure-archiving-options.md)し、[アーカイブ ・ ビジネス サーバー 2015 の Skype のポリシーの構成](configure-archiving-policies.md)を参照してください。 
+    > トポロジを公開した後、コンテンツをアーカイブする前に、アーカイブのオプションおよびポリシーを構成する必要があります。 詳細については、[構成の Skype ビジネス サーバーのオプションのアーカイブ](configure-archiving-options.md)と[アーカイブ ・ Skype ビジネス サーバー用のポリシーの構成](configure-archiving-policies.md)を参照してください。 
   
 

@@ -1,32 +1,32 @@
 ---
-title: Skype for Business Server 2015 でのダイヤルイン会議の管理
+title: ビジネス サーバーの Skype では、ダイヤルイン会議を管理します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 85644a2d-7694-4573-8301-aa6490b43ff4
-description: '概要: ビジネス サーバー 2015 の Skype では、ダイヤルイン会議を管理する方法を説明します。'
-ms.openlocfilehash: 44427a9109fd061233d1c8676166788e162c7e08
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: ビジネス サーバーの Skype では、ダイヤルイン会議を管理する方法を説明します。'
+ms.openlocfilehash: dac805421539116f89e007c68689ffd89400d059
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969639"
 ---
-# <a name="manage-dial-in-conferencing-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのダイヤルイン会議の管理
+# <a name="manage-dial-in-conferencing-in-skype-for-business-server"></a>ビジネス サーバーの Skype では、ダイヤルイン会議を管理します。
  
-**の概要:**ビジネス サーバー 2015 の Skype では、ダイヤルイン会議を管理する方法について説明します。
+**の概要:** ビジネス サーバーの Skype では、ダイヤルイン会議を管理する方法について説明します。
   
-このトピックでは、ダイヤルイン会議を管理する方法について説明します。 計画および展開にダイヤルイン会議を構成する方法の詳細については、[ビジネス サーバー 2015 の Skype では、ダイヤルイン会議の計画](../../plan-your-deployment/conferencing/dial-in-conferencing.md)および[ビジネス サーバー 2015 の Skype でダイヤルイン会議の構成](../../deploy/deploy-conferencing/dial-in-conferencing.md)を参照してください。
+このトピックでは、ダイヤルイン会議を管理する方法について説明します。 計画および展開にダイヤルイン会議を構成する方法の詳細については、 [Skype のビジネス サーバーにダイヤルイン会議の計画](../../plan-your-deployment/conferencing/dial-in-conferencing.md)と[Skype のビジネス サーバーにダイヤルイン会議の構成](../../deploy/deploy-conferencing/dial-in-conferencing.md)を参照してください。
   
 ダイヤルイン会議を管理するために次のタスクを実行することができます: を有効にするまたはダイヤルイン会議を無効にする、アクセス番号を管理、ダイヤルイン会議の暗証番号 (pin) ポリシーを管理、会議の参加を管理し、お知らせのままに、DTMF のキー マッピングを変更します。コマンド、および [ようこそ] ユーザーがダイヤルイン会議。 
   
-ダイヤル プランを管理する方法の詳細についてを参照してください[を作成するビジネス サーバー 2015 の Skype のダイヤル プランを変更する、または](../../deploy/deploy-enterprise-voice/dial-plans.md)。
+ダイヤル プランを管理する方法の詳細についてを参照してください[を作成するまたはビジネス サーバーの Skype のダイヤル プランを変更する](../../deploy/deploy-enterprise-voice/dial-plans.md)です。
   
-PSTN 使用法の詳細については、[音声ポリシーを構成する、PSTN 使用法レコード、およびビジネス 2015年の Skype でのボイス ルート](../../deploy/deploy-enterprise-voice/voice-and-pstn.md)を参照してください。
+PSTN 使用法の詳細については、[音声ポリシーを構成する、PSTN 使用法レコード、およびビジネスのための Skype でのボイス ルート](../../deploy/deploy-enterprise-voice/voice-and-pstn.md)を参照してください。
   
 ## <a name="manage-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用して、ダイヤルイン会議を管理します。
 
@@ -50,7 +50,7 @@ PSTN 使用法の詳細については、[音声ポリシーを構成する、PS
 
 ビジネス サーバー管理シェルの Skype を使用して、ダイヤルイン会議を管理するためには、次のコマンドレットを使用します。
   
-**ダイヤルイン構成の設定**
+**ダイヤルイン会議の設定**
 
 |**コマンドレット**|**説明**|
 |:-----|:-----|
@@ -77,7 +77,7 @@ PSTN 使用法の詳細については、[音声ポリシーを構成する、PS
 |[セット CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |ダイヤルイン会議に使用するデュアルトーン多重周波数 (DTMF) シグナリング設定を変更します。  <br/> |
 |[セット CsDialPlan](https://docs.microsoft.com/powershell/module/skype/set-csdialplan?view=skype-ps) <br/> |既存のダイヤル プランを変更します。  <br/> |
    
-**暗証番号 (pin) ポリシーの設定**
+**PIN ポリシーの設定**
 
 |**コマンドレット**|**説明**|
 |:-----|:-----|

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
-description: Active Directory ドメイン サービスのスキーマを準備するのにはビジネス サーバーの展開ウィザードは、Skype で、スキーマの準備の手順を実行します。 スキーマの準備を開始して実行] をクリックします。 スキーマの準備の手順は、/Program ファイルと Microsoft Lync Server 2013/導入/セットアップ ディレクトリに指定されたスキーマ定義ファイルの展開ウィザードを実行しているシステム上を読み取ります。 これらのファイルをサポートまたはスキーマのディレクトリにインストール メディアにも利用できます。 [スキーマの準備] 手順では、スキーマを拡張し、プロセスの状態を報告します。 また、プロセスが完了したことも通知します。 概要画面では、プロセスのログを表示できます。 ログを調べ、正常に準備が完了したことを確認してください。
-ms.openlocfilehash: 7aea3a6f99182ba164d27e95ca2f34296d45c831
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Active Directory ドメイン サービスのスキーマを準備するのにはビジネス サーバーの展開ウィザードは、Skype で、スキーマの準備の手順を実行します。 [実行] をクリックしてスキーマの準備を開始します。
+ms.openlocfilehash: adc0ad796b608671816d50a93f75dc89f2a4a13b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987712"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020134"
 ---
 # <a name="prepare-schema"></a>スキーマの準備
  

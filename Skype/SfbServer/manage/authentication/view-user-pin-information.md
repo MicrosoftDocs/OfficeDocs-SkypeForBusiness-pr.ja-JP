@@ -1,30 +1,30 @@
 ---
-title: Skype for Business Server 2015 でのユーザー PIN 情報の表示
+title: ユーザー暗証番号 (pin) について、Skype のビジネス サーバーの表示
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
-description: '概要: ビジネス サーバー 2015 の Skype のユーザーの PIN 情報を表示します。'
-ms.openlocfilehash: 2521c9edba0b16eda6ea799b6b968a8c57bba245
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、Skype のビジネス サーバーのユーザーの暗証番号 (pin) の情報を表示します。'
+ms.openlocfilehash: 4b0eda76e4429ee5c6d658f4d161783bc4d356a3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008560"
 ---
-# <a name="view-user-pin-information-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのユーザー PIN 情報の表示
+# <a name="view-user-pin-information-in-skype-for-business-server"></a>ユーザー暗証番号 (pin) について、Skype のビジネス サーバーの表示
  
-**の概要:**ユーザー ビジネス サーバー 2015 の Skype の暗証番号 (pin) の情報を表示します。
+**の概要:** ユーザー暗証番号 (pin) について、Skype のビジネスのサーバーを表示します。
   
-として認証されたユーザーのダイヤルイン会議に参加するには、Active Directory ドメイン サービス (AD DS) の資格情報を持つサーバー 2015 のビジネス ユーザーは、Skype には、暗証番号 (PIN) が必要です。 ビジネス サーバーのコントロール パネルの Skype からのユーザーの暗証番号 (pin) の情報を表示することができます。
+として認証されたユーザーのダイヤルイン会議に参加するには、ビジネス サーバーのユーザーを Active Directory ドメイン サービス (AD DS) の資格情報は、Skype には、暗証番号 (PIN) が必要です。 ビジネス サーバーのコントロール パネルの Skype からのユーザーの暗証番号 (pin) の情報を表示することができます。
   
 > [!NOTE]
-> PIN が設定されているかどうかや PIN の最終変更日時などの PIN 状態情報を表示することはできますが、PIN の状態を調べても最新の PIN は確認できません。 ユーザーが PIN を失った場合は、[ユーザーのダイヤルイン会議ビジネス サーバー 2015 の Skype では、暗証番号 (pin) の設定](set-a-user-s-dial-in-conferencing-pin.md)の手順に従ってリセットできます。
+> PIN が設定されているかどうかや PIN の最終変更日時などの PIN 状態情報を表示することはできますが、PIN の状態を調べても最新の PIN は確認できません。 ユーザーが PIN を失った場合は、[ユーザーのダイヤルイン会議 Business Server の Skype では、暗証番号 (pin) の設定](set-a-user-s-dial-in-conferencing-pin.md)の手順に従ってリセットできます。
   
 ### <a name="to-view-a-users-pin-in-skype-for-business-server-control-panel"></a>Skype のビジネス サーバーのコントロール パネルのユーザーの暗証番号 (pin) を表示するのには
 
@@ -74,21 +74,18 @@ Get-CsClientPinInfo コマンドレットを使用して、ユーザーの PIN �
 
 次のような情報が表示されます。
 
-  ```
-  Identity          : sip:kenmyer@litwareinc.com
+<pre>
+Identity          : sip:kenmyer@litwareinc.com
 IsPinSet          : False
 IsLockedOut       : False
 LastPinChangeTime : 9/25/2012 1:35:03 PM
 PinExpirationTime :
-  ```
+</pre>
 
 詳細については、 [Get CsConferenceDisclaimer](https://docs.microsoft.com/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps)コマンドレットのヘルプ トピックを参照してください。
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[ビジネス サーバー 2015 の Skype のユーザーのダイヤルイン会議の PIN を設定します。](set-a-user-s-dial-in-conferencing-pin.md)
+[Skype のビジネス サーバーのユーザーのダイヤルイン会議の PIN を設定します。](set-a-user-s-dial-in-conferencing-pin.md)
   
-[ビジネス サーバー 2015 の Skype では、暗証番号 (pin)、ユーザーのロックを解除またはロック](lock-or-unlock-a-user-pin.md)
-
+[ロックまたはビジネスのサーバーのユーザーの Skype では、暗証番号 (pin) のロックを解除](lock-or-unlock-a-user-pin.md)

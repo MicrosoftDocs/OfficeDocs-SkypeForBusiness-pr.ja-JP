@@ -3,7 +3,7 @@ title: 暗証番号 (pin) ポリシーを新規作成または既存の編集
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,21 +12,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: d415b056e66ec0dd3757691f8b027c605f5bd01d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 2d24b25ddcd5c1b041bf4fb0ae10b72a28fc6f2c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014444"
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>暗証番号 (pin) ポリシー: 新規作成または既存の編集
  
 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
   
-- [ビジネス サーバー 2015 の Skype の新しい暗証番号 (pin) ポリシーを作成する.](../../manage/authentication/create-a-new-pin-policy.md)
+- [Skype for Business Server 2015 での新しい PIN ポリシーの作成](../../manage/authentication/create-a-new-pin-policy.md)
     
-- [ビジネス サーバー 2015 の Skype で既存の PIN ポリシーを変更します。](../../manage/authentication/modify-an-existing-pin-policy.md)
+- [Skype for Business Server 2015 での既存の PIN ポリシーの変更](../../manage/authentication/modify-an-existing-pin-policy.md)
     
-- [ビジネス サーバー 2015 の Skype での暗証番号 (pin) ポリシーを削除します。](../../manage/authentication/delete-a-pin-policy.md)
+- [Skype for Business Server 2015 での PIN ポリシーの削除](../../manage/authentication/delete-a-pin-policy.md)
     
 - [作成またはサイト グループまたはユーザーのグループのダイヤルイン会議の PIN 設定を変更します。](http://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
     

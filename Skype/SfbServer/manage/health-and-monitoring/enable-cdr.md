@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 での通話詳細記録の有効化
+title: ビジネス サーバーの Skype での通話の詳細記録を有効にします。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
-description: '概要: は、Skype でのビジネス サーバー 2015 (CDR) のレコードを記録呼び出しの詳細を有効にする方法を説明します。'
-ms.openlocfilehash: 3fe33f3cfde310b3674c125b7eb8ab1bf04f7c03
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、Skype のビジネス サーバー (CDR) のレコードを記録呼び出しの詳細を有効にする方法を説明します。'
+ms.openlocfilehash: 55fafd037e271166eaf94b460f656b811720e00f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995742"
 ---
-# <a name="enable-call-detail-recording-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での通話詳細記録の有効化
+# <a name="enable-call-detail-recording-in-skype-for-business-server"></a>ビジネス サーバーの Skype での通話の詳細記録を有効にします。
  
-**の概要:**呼び出しの詳細 (CDR) のレコードを Skype のビジネス サーバー 2015 の記録を有効にする方法を説明します。
+**の概要:** Skype のビジネス サーバー (CDR) のレコードを記録呼び出しの詳細を有効にする方法を説明します。
   
 通話詳細記録 (CDR) は、インスタント メッセージング、ボイス オーバー IP (VoIP) 通話、アプリケーション共有、ファイル送信などのピアツーピア アクティビティ、および会議に関する使用状況および診断情報を記録します。使用状況データは投資収益率 (ROI) の計算に、診断データはピアツーピア アクティビティおよび会議のトラブルシューティングに使用できます。 
   
@@ -29,7 +29,7 @@ ms.lasthandoff: 03/28/2018
   
 ### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype で CDR を有効にするには
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは2015。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは.
     
 2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
     

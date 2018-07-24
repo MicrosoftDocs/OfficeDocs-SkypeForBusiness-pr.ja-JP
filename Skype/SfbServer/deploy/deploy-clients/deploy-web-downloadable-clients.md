@@ -1,43 +1,43 @@
 ---
-title: Skype for Business Server 2015 で Web ダウンロード可能なクライアントを展開する
+title: Skype のダウンロード可能なクライアントの Web をビジネスのサーバーの展開します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/6/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'ビジネス Web アプリケーションの概要: が、Skype を導入し、Skype 会議アプリケーションがビジネスの Skype を使用します。'
-ms.openlocfilehash: a81e8744208261934635aee4f8a872a81b179c90
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 216d1a3bc82c3845a8302847c3488dd9f495fa74
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995842"
 ---
-# <a name="deploy-web-downloadable-clients-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 で Web ダウンロード可能なクライアントを展開する
+# <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Skype のダウンロード可能なクライアントの Web をビジネスのサーバーの展開します。
  
-**の概要:** Skype のビジネス Web アプリケーションの展開し、Skype 会議アプリケーションがビジネスの Skype を使用します。
+**の概要:** ビジネス 2015年の Web アプリケーションの Skype と Skype で使用してビジネス サーバー 2015 Skype の会議アプリケーションを展開します。
   
-ビジネス Web アプリケーションの Skype は、クライアントのビジネスの Skype をまだ持っていない会議のユーザーにビジネス サーバー 2015 と配備されている既定のオン ・ デマンドで Skype を実行するサーバーでインストールされている、インターネット インフォメーション サービス (IIS) web クライアントです。 このような会議ユーザーは通常ネットワークの外部から接続します。 ユーザーは会議 URL をクリックしたが、ビジネス クライアントがインストールされている Skype がない、常にユーザーにビジネス Web アプリケーションの最新バージョンの Skype を使用してミーティングに参加するためのオプションが表示されます。
+ビジネス Web アプリケーションの Skype では、ビジネス サーバー 2015 の Skype を実行するサーバーにインストールされているインターネット インフォメーション サービス (IIS) web クライアントとビジネス クライアント用の Skype をまだ持っていない会議のユーザーに要求時にデフォルトで配置されます。 このような会議ユーザーは通常ネットワークの外部から接続します。 ユーザーは会議 URL をクリックしたが、ビジネス クライアントがインストールされている Skype がない、常にユーザーにビジネス Web アプリケーションまたは Skype 会議アプリケーションの Skype の最新バージョンを使用してミーティングに参加するためのオプションが表示されます。
   
 ビジネス Web アプリケーションは、ユーザーのブラウザーでプラグインとして使用される Microsoft ActiveX コントロールを必要とするは、Skype の機能を音声、ビデオ、および共有します。 ActiveX コントロールを事前にインストールするか、インストールするメッセージが表示されたら、初めてのビジネス Web アプリケーションの Skype を使用する場合は、ユーザーを許可するか、機能にアクセスする最初の時間が必要な ActiveX コントロールです。
   
 > [!NOTE]
-> ビジネス 2015 エッジ サーバー展開では Skype は、境界ネットワークでの HTTPS のリバース プロキシは、クライアント アクセスのビジネス Web アプリケーションの Skype の必要があります。 簡易 URL を発行する必要もあります。 詳細については、[リバース プロキシ サーバーを設定](http://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx)し、[簡単な Url の計画](http://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)を参照してください。 
+> ビジネス 2015 エッジ サーバー展開では Skype は、境界ネットワークでの HTTPS のリバース プロキシは、クライアント アクセスのビジネス Web アプリケーションの Skype の必要があります。 簡易 URL を発行する必要もあります。 詳細については、[リバース プロキシ サーバーを設定](http://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx)し、 [Skype ビジネス サーバー用の簡単な Url の DNS の要件](../../plan-your-deployment/network-requirements/simple-urls.md)を参照してください。 
   
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Skype のビジネス Web アプリケーション用の多要素認証を有効にします。
 <a name="MFA"> </a>
 
-ビジネス Web アプリケーションの Skype のビジネス サーバー 2015 のバージョンの Skype では、多要素認証をサポートします。 だけでなくユーザー名とパスワード、スマート カードまたは外部ネットワークからビジネス ・ ミーティングの Skype にサインインするときに参加するユーザーを認証するために、ピンなどの追加の認証方法を要求できます。 Active Directory フェデレーション サービス (AD FS) のフェデレーション サーバーを展開して、Skype のビジネス サーバー 2015 のパッシブの認証を有効にすることによって、多要素認証を有効にできます。 AD FS を構成すると、Skype をビジネス ・ ミーティングに参加しようとする外部のユーザーが表示され、ユーザー名を格納する、AD FS の多要素認証の web ページとパスワードのこと、追加の認証方法と課題構成します。
+ビジネス Web アプリケーションの Skype と Skype 会議アプリケーションは、多要素認証をサポートします。 だけでなくユーザー名とパスワード、スマート カードまたは外部ネットワークからビジネス ・ ミーティングの Skype にサインインするときに参加するユーザーを認証するために、ピンなどの追加の認証方法を要求できます。 多要素認証を有効にするには、Active Directory フェデレーション サービス (AD FS) のフェデレーション サーバーを展開し、パッシブ サーバーで認証では、Skype をビジネスを有効にします。 AD FS を構成すると、Skype をビジネス ・ ミーティングに参加しようとする外部のユーザーが表示され、ユーザー名を格納する、AD FS の多要素認証の web ページとパスワードのこと、追加の認証方法と課題構成します。
   
 > [!IMPORTANT]
 > 多要素認証の AD FS を構成する場合の重要な考慮事項を次に示します。 
   
 - ADFS の多要素認証は、会議の参加者と開催者がともに同じ組織内に存在しているか、AD FS フェデレーション組織からのものである場合に機能します。ADFS の多要素認証は、Lync サーバーの Web インフラストラクチャでは現在サポートされていないため、Lync のフェデレーション ユーザーに対しては機能しません。
     
-- ハードウェア ロード バランサーを使用する場合、Skype のビジネス Web アプリケーション クライアントからのすべての要求は、同じフロント エンド サーバーによって処理されるよう、ロード バランサーの cookie の永続化を有効にします。
+- ハードウェア ロード バランサーを使用する場合、Skype のビジネス Web アプリケーションや会議アプリケーションのクライアントからのすべての要求は、同じフロント エンド サーバーによって処理されるよう、ロード バランサーの cookie の永続化を有効にします。
     
 - Skype ビジネス サーバーおよび AD FS サーバーの間で依存元パーティ信頼関係を確立するときに、ビジネス会議のため、Skype の最大長をスパンするのに十分な長さはトークンの有効期間を割り当てます。 通常、トークンの存続期間は 240 分で十分です。
     
@@ -65,13 +65,7 @@ ms.lasthandoff: 05/24/2018
     
     ```
    $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
-   ```
- 
-   ```
    Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
-   ```
-
-   ```
    Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
    ```
 
@@ -80,7 +74,7 @@ ms.lasthandoff: 05/24/2018
 
 BranchCache 機能は、Windows 7 および Windows Server 2008 R2 は、ビジネス Web アプリケーションの web コンポーネントの Skype に干渉することができます。 Skype の問題を防ぐため、ビジネス Web アプリケーションのユーザーに対して、BranchCache が有効になっていないことを確認します。 
   
-、Branchcache を使用を無効にする方法の詳細は、Microsoft ダウンロード センターでの word 文書形式で使用可能な BranchCache の展開ガイドを参照してください[http://go.microsoft.com/fwlink/p/?LinkId=268788](http://go.microsoft.com/fwlink/p/?LinkId=268788)と Windows Server 2008 R2 テクニカル ライブラリ内に HTML 形式の[https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?LinkId=268789)。
+Branchcache を使用を無効にする方法の詳細は、 [BranchCache の展開ガイド 』](https://docs.microsoft.com/en-us/windows-server/networking/branchcache/deploy/branchcache-deployment-guide)を参照してください。
   
 ## <a name="verifying-skype-for-business-web-app-deployment"></a>Skype のビジネス Web アプリケーションの配置の確認
 <a name="MFA"> </a>
@@ -119,10 +113,10 @@ Windows Server 2008 R2 を実行しているコンピューター上のプラグ
     
 5. 会議にもう一度参加します。
     
-## <a name="enable-skype-meetings-app-to-replace-skype-for-business-web-app-optional"></a>Skype 会議アプリを有効にして Skype for Business Web App を置き換える (オプション)
+## <a name="enable-skype-meetings-app-to-replace-skype-for-business-web-app-optional-skype-for-business-server-2015-only"></a>(省略可能、ビジネスのサーバー 2015 のみの Skype) のビジネス Web アプリケーションの Skype を置換する Skype の会議アプリケーションを有効にします。
 <a name="SMA_Enable"> </a>
 
-この手順はオプションです。 それを使用しない、外部ユーザーが引き続きビジネス Web アプリケーションの Skype を使用してミーティングに参加します。 
+この手順はオプションであり、Skype ビジネス サーバー 2015 CU5 およびそれ以降に適用されます。 それを使用しない、外部ユーザーが引き続きビジネス Web アプリケーションの Skype を使用してミーティングに参加します。 
   
 ### <a name="enable-simplified-meeting-join-and-skype-meetings-app"></a>簡素化された会議参加と Skype 会議アプリを有効にする
 
@@ -138,7 +132,7 @@ Windows Server 2008 R2 を実行しているコンピューター上のプラグ
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    マイクロソフトに送信される情報が、 [Skype](https://support.office.com/en-us/article/Skype-for-Business-data-collection-practices-c17e8ea6-b83b-4345-9401-47a6c8b13aad?ui=en-US&amp;rs=en-US&amp;ad=US)を厳格に遵守します。
+    マイクロソフトに送信される情報が、 [Skype](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/data-collection-practices)を厳格に遵守します。
     
 3. CDN を使用できない場合は、クリアテキストへのフォールバック Skype をローカルにホストされる Web アプリケーションのビジネス経験をする前にタイムアウトを設定します。 既定値は 6 秒です。 この値を 0 に設定すると、タイムアウトはなくなります。
     
@@ -149,15 +143,10 @@ Windows Server 2008 R2 を実行しているコンピューター上のプラグ
 ## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
 <a name="SMA_Enable"> </a>
 
-#### 
+[会議クライアント用の計画 (Web アプリおよび会議アプリ)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
 
-[会議クライアント (Web アプリケーションおよび会議アプリケーション) の計画します。](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
-  
-[会議クライアント (Web アプリケーションおよび会議アプリケーション) の計画します。](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
-
-[会議参加ページを構成します。](http://technet.microsoft.com/library/45880423-47f4-49af-b825-cbd8e3fc1046.aspx)
+[会議を構成するビジネス サーバーの Skype での参加のページ](../../manage/conferencing/meeting-join-page.md)
   
 [Microsoft Online Services のプライバシーに関する声明](https://www.microsoft.com/en-us/privacystatement/OnlineServices/Default.aspx)
   
 [ライセンス契約の条項とマニュアル](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;amp;DocumentTypeId=31)
-

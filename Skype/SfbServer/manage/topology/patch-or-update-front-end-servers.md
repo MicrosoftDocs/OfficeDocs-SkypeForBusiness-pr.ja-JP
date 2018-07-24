@@ -1,22 +1,22 @@
 ---
-title: Skype for Business Server 2015 でのフロントエンド サーバーのパッチまたは更新
+title: 修正プログラムを適用またはビジネスのサーバーの Skype でのフロント エンド サーバーを更新します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 4/4/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 20fa39ae-ecfb-4c72-9cc4-8e183d3c752f
 description: '概要: は、Skype でのフロント エンド サーバーにビジネスのサーバーのアップグレードやパッチを適用する方法を説明します。'
-ms.openlocfilehash: 1f5ccd6531338d1e6b47dd8363b9386bcbeba0fc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 29191192b1dab16b79cc594cc0a7b3b68aaa906f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972773"
 ---
-# <a name="patch-or-update-front-end-servers-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのフロントエンド サーバーのパッチまたは更新
+# <a name="patch-or-update-front-end-servers-in-skype-for-business-server"></a>修正プログラムを適用またはビジネスのサーバーの Skype でのフロント エンド サーバーを更新します。
  
 **の概要:** Skype でのフロント エンド サーバーにビジネスのサーバーのアップグレードやパッチを適用する方法について説明します。
   

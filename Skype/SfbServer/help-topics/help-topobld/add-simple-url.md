@@ -3,7 +3,7 @@ title: 簡単な URL を追加します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,15 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 description: 展開の定義に追加の簡単な Url を追加するには、新しい簡単な URL の URL を指定します。
-ms.openlocfilehash: cbe129419d52e0030311c62c1cd6afeec97eef36
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 20db564e90051ffa274aa46587603273a8ca7581
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21007275"
 ---
 # <a name="add-simple-url"></a>簡単な URL を追加します。
  
-展開の定義に追加の簡単な Url を追加するには、新しい簡単な URL の URL を指定します。 URL の形式は、 _http://\<簡単な URL の種類\>です\<。ドメイン名\>_または_http://\<ドメイン名\>/\<簡単な URL の種類\>_、簡単な URL は、次のいずれか。
+展開の定義に追加の簡単な Url を追加するには、新しい簡単な URL の URL を指定します。 URL の形式は、 _http://\<簡単な URL の種類\>です\<。ドメイン名\>_ または_http://\<ドメイン名\>/\<簡単な URL の種類\>_、簡単な URL は、次のいずれか。
   
 - 会議
     

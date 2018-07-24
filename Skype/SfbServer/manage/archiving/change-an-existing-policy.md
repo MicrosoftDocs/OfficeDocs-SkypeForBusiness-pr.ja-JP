@@ -1,27 +1,26 @@
 ---
-title: Skype for Business Server 2015 での既存のアーカイブ ポリシーの変更
+title: 既存のビジネス サーバー ポリシーでは、Skype のアーカイブを変更します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
-description: '概要: は、ユーザーのポリシーを Skype のビジネス サーバー 2015 のアーカイブを変更する方法を説明します。'
-ms.openlocfilehash: 21774eaff8b58c585b347e1f657aa7afcc3b6106
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: '概要: は、ユーザーのポリシーを Skype のビジネス サーバーのアーカイブを変更する方法を説明します。'
+ms.openlocfilehash: 6c92d4f7e4c2a464d248f6b981165de000615432
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569408"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974652"
 ---
-# <a name="change-an-existing-archiving-policy-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での既存のアーカイブ ポリシーの変更
+# <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>既存のビジネス サーバー ポリシーでは、Skype のアーカイブを変更します。
  
-**の概要:** ユーザーのポリシーを Skype のビジネス サーバー 2015 のアーカイブを変更する方法について説明します。
+**の概要:** ユーザーのポリシーを Skype のビジネス サーバーのアーカイブを変更する方法について説明します。
   
-ビジネス サーバー 2015 の Skype を最初に配置するときは、展開内のユーザーのアーカイブの実装方法を決定する初期のアーカイブ ・ ポリシーを設定します。 このトピックでは、ポリシーを管理および修正する方法について説明します。 
+ビジネス サーバーの Skype を最初に配置するときは、展開内のユーザーのアーカイブの実装方法を決定する初期のアーカイブ ・ ポリシーを設定します。 このトピックでは、ポリシーを管理および修正する方法について説明します。 
   
 ## <a name="change-archiving-policies-by-using-the-control-panel"></a>コントロール パネルを使用してアーカイブ ポリシーを変更する
 
@@ -48,7 +47,7 @@ ms.locfileid: "19569408"
 6. [**コミット**] をクリックします。
     
     > [!IMPORTANT]
-    > ユーザー ポリシーの設定は、そのポリシーを適用する特定のユーザーおよびユーザー グループにのみ適用されます。 詳細については、[ビジネス サーバー 2015 の Skype ユーザーにアーカイブ ・ ポリシーの適用](apply-a-policy-to-users.md)を参照してください。 
+    > ユーザー ポリシーの設定は、そのポリシーを適用する特定のユーザーおよびユーザー グループにのみ適用されます。 詳細については、 [Skype のビジネス サーバー内のユーザーにアーカイブ ・ ポリシーの適用](apply-a-policy-to-users.md)を参照してください。 
   
 ## <a name="change-archiving-policies-by-using-windows-powershell"></a>Windows PowerShell を使用してアーカイブ ポリシーを変更する
 

@@ -1,25 +1,25 @@
 ---
-title: Skype for Business Server 2015 での新しい PIN ポリシーの作成
+title: Skype のビジネス サーバーの新しい暗証番号 (pin) ポリシーを作成します。
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
-description: '概要: ビジネス サーバー 2015 の Skype の新しい暗証番号 (pin) ポリシーを作成します。'
-ms.openlocfilehash: d04c19f09830b971300d2ff9bf4a8a1d93994f7c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、Skype のビジネス サーバーの新しい暗証番号 (pin) ポリシーを作成します。'
+ms.openlocfilehash: 080b6efabc168d1d099c0f14abc394e8cd2d267a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977558"
 ---
-# <a name="create-a-new-pin-policy-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での新しい PIN ポリシーの作成
+# <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>Skype のビジネス サーバーの新しい暗証番号 (pin) ポリシーを作成します。
  
-**の概要:**ビジネス サーバー 2015 の Skype の新しい暗証番号 (pin) ポリシーを作成します。
+**の概要:** Skype のビジネスのサーバーに新しい暗証番号 (pin) ポリシーを作成します。
   
 **暗証番号 (pin) ポリシー**のページを使用すると、IP 電話でのビジネス用の Skype に接続しているユーザーに個人識別番号 (PIN) 認証を提供します。 PIN 認証を使用するには、Web サービス設定で [**PIN 認証を有効にする**] が選択されていることを確認してください。
   
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/28/2018
   
 ### <a name="to-create-a-user-or-site-pin-policy"></a>ユーザーまたはサイトの PIN ポリシーを作成するには
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは2015。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは.
     
 2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
     

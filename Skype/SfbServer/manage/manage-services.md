@@ -1,33 +1,33 @@
 ---
-title: ビジネス サーバー 2015 の Skype のサービスを管理します。
+title: Skype のサービスをビジネスのサーバーを管理します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
-description: この資料では、ビジネス サーバー 2015 トポロジの場合、Skype で実行されているサービスを管理する方法について説明します。
-ms.openlocfilehash: f8406d473b1d2ae644ac56d071313d2b488169fa
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: この資料では、ビジネスのサーバー トポロジの場合、Skype で実行されているサービスを管理する方法について説明します。
+ms.openlocfilehash: 0bf12ed7719be7804b2cb4d69e29a7d0a058e142
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977004"
 ---
-# <a name="manage-services-for-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype のサービスを管理します。
+# <a name="manage-services-for-skype-for-business-server"></a>Skype のサービスをビジネスのサーバーを管理します。
 
-この資料では、ビジネス サーバー 2015 トポロジの場合、Skype で実行されているサービスを管理する方法について説明します。
+この資料では、ビジネスのサーバー トポロジの場合、Skype で実行されているサービスを管理する方法について説明します。
   
-## <a name="view-a-list-of-computers-running-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype を実行しているコンピューターの一覧を表示します。
+## <a name="view-a-list-of-computers-running-skype-for-business-server"></a>Skype をビジネスのサーバーを実行しているコンピューターの一覧を表示します。
 <a name="view_list"> </a>
 
-Skype ビジネス サーバーのコントロール パネルを使用するには、トポロジ内のビジネス サーバー 2015 の Skype を実行しているし、それぞれのサービスの状態を表示するすべてのコンピューターの一覧を表示します。 コンピューター、プール、またはサイトでリストを並べ替えることができます。 
+Skype ビジネス サーバーのコントロール パネルを使用すると、ビジネスのサーバー トポロジでは、Skype を実行しているし、それぞれのサービスの状態を確認するすべてのコンピューターの一覧を表示します。 コンピューター、プール、またはサイトでリストを並べ替えることができます。 
   
 ### <a name="to-view-a-list-of-computers-running-skype-for-business-server"></a>Skype をビジネスのサーバーを実行しているコンピューターの一覧を表示するのには
 
-1. 、Skype のビジネス サーバー 2015 の定義済みの管理者の役割のいずれかに割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。 ビジネス サーバー 2015 の Skype で利用できる定義済みの管理者の役割についての詳細は、**役割ベースのアクセス制御のための計画**を参照してください。   
+1. 、Skype のビジネス サーバーの定義済みの管理者の役割のいずれかに割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。 詳細については、Skype のビジネス サーバーで使用できる定義済みの管理者の役割は、**役割ベースのアクセス制御のための計画**を参照してください。   
 2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。   
 3. 左側のナビゲーション ・ バーで [**トポロジ**] をクリックし、**状態**] をクリックします。   
 4. [**状態**] ページで、必要に応じて次のいずれかの操作を行います。
@@ -35,7 +35,7 @@ Skype ビジネス サーバーのコントロール パネルを使用するに
    - 最新のリストを表示するのには**更新**をクリックします。  
    - 検索フィールドにコンピューター名を入力して、特定のコンピューターを検索します。
     
-## <a name="view-the-status-of-services-running-on-a-skype-for-business-2015-server"></a>Skype ビジネス 2015年サーバーで実行されているサービスの状態を表示します。
+## <a name="view-the-status-of-services-running-on-a-skype-for-business-server"></a>Skype のビジネス サーバーで実行されているサービスの状態を表示します。
 <a name="view-status"> </a>
 
 ビジネス サーバー トポロジの場合、Skype で特定のコンピューター上で実行され、各サービスの状態を表示するすべてのサービスを表示するのには、ビジネス サーバーのコントロール パネルの Skype を使用できます。
@@ -83,7 +83,7 @@ Skype ビジネス サーバーのコントロール パネルを使用するに
   
 ### <a name="to-view-details-for-a-service"></a>サービスの詳細を表示するには
 
-1. 、Skype のビジネス サーバー 2015 の定義済みの管理者の役割のいずれかに割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。 ビジネス サーバー 2015 の Skype で利用できる定義済みの管理者の役割についての詳細は、**役割ベースのアクセス制御のための計画**を参照してください。
+1. 、Skype のビジネス サーバーの定義済みの管理者の役割のいずれかに割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。 詳細については、Skype のビジネス サーバーで使用できる定義済みの管理者の役割は、**役割ベースのアクセス制御のための計画**を参照してください。
 2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
 3. 左側のナビゲーション ・ バーで [**トポロジ**] をクリックし、**状態**] をクリックします。
 4. **状態**] ページでは、並べ替え、リストを検索やコンピューターを表示する] をクリックします。
@@ -94,18 +94,17 @@ Skype ビジネス サーバーのコントロール パネルを使用するに
    - その特定のサービスの詳細を表示するには、**プロパティ**] をクリックし、[**閉じる**] をクリックします。
    - 戻るには、トポロジ内のすべてのコンピューターの一覧に、[**閉じる**] をクリックします。
     
-## <a name="start-or-stop-skype-for-business-server-2015-services"></a>開始または Skype をビジネス サーバー 2015 サービスの停止
+## <a name="start-or-stop-skype-for-business-server-services"></a>開始または Skype をビジネス サーバー サービスの停止
 <a name="StartStop"> </a>
 
-Skype ビジネス サーバーのコントロール パネルを使用するにを開始または停止する特定のコンピューターで実行されているサーバー 2015 のビジネス サービスのすべての Skype を開始または特定のサービスを停止します。
+ビジネス サーバーのコントロール パネルの Skype を使用するにを開始または停止する特定のコンピューターで実行されているビジネスのサーバー サービスのすべての Skype または開始または特定のサービスを停止します。
   
 ### <a name="to-start-or-stop-all-skype-for-business-services-on-a-computer"></a>起動またはコンピューター上のすべての Skype のビジネス ・ サービスを停止するには
 
-1. RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは2015。 かどうかが割り当てられている、CsServerAdministrator または CsAdministrator の RBAC の役割には、次のようなコマンドを実行することによって判断できます。
+1. RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは. かどうかが割り当てられている、CsServerAdministrator または CsAdministrator の RBAC の役割には、次のようなコマンドを実行することによって判断できます。
     
   ```
   Get-CsAdminRoleAssignment -Identity "kenmyer"
-
   ```
 
 2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
@@ -129,11 +128,11 @@ Skype ビジネス サーバーのコントロール パネルを使用するに
 ## <a name="prevent-sessions-for-services"></a>サービスのセッションを防止します。
 <a name="prevent_session"> </a>
 
-サーバー 2015 のビジネス サービスの特定の Skype の新しいセッションを防ぐためにまたは特定のコンピューターで実行されているサーバー 2015 のビジネス サービスのすべての Skype の新しいセッションを防ぐためには、ビジネス サーバーのコントロール パネルの Skype を使用できます。
+ビジネス サーバー サービスが特定のコンピューターで実行されているすべての Skype の新しいセッションを防ぐために、またはビジネスのサーバー サービスの特定の Skype の新しいセッションを防ぐためには、ビジネス サーバーのコントロール パネルの Skype を使用できます。
   
 ### <a name="to-prevent-new-sessions-for-all-skype-for-business-services-on-a-computer"></a>コンピューター上のビジネス サービスのすべての Skype の新しいセッションを禁止するには
 
-1. RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは2015。
+1. RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは.
 2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
 3. 左側のナビゲーション ・ バーで [**トポロジ**] をクリックし、**状態**] をクリックします。
 4. [**状態**] ページで、並べ替えまたはとしてリストを検索は、新しいセッションを禁止し、クリックするサービスを実行しているコンピューターを検索するのには必要です。
@@ -142,7 +141,7 @@ Skype ビジネス サーバーのコントロール パネルを使用するに
     
 ### <a name="to-prevent-new-sessions-for-a-specific-service"></a>特定のサービスの新しいセッションを防止するには
 
-1. RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは2015。
+1. RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは.
 2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
 3. 左側のナビゲーション ・ バーで [**トポロジ**] をクリックし、**状態**] をクリックします。
 4. **状態**] ページで、並べ替え、またはサービスを実行しているコンピューターを検索するのには、必要に応じてリストを検索するか、開始、停止、および、クリックしています。 

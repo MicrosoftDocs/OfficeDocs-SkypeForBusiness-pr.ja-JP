@@ -1,25 +1,25 @@
 ---
-title: Skype for Business Server 2015 のウイルス スキャン除外範囲
+title: ビジネス サーバーの Skype の除外リストをスキャンするウイルス対策
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/24/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
-description: ビジネス サーバー 2015 の Skype でのウイルス対策プログラムの相互運用の概要です。
-ms.openlocfilehash: 054ed03146964de7ec0621138186e3c41843c236
-ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
+description: ビジネス サーバーの Skype でのウイルス対策プログラムの相互運用の概要です。
+ms.openlocfilehash: 2e85816b10a808224a79b065153ecf466c4911c8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009265"
 ---
-# <a name="antivirus-scanning-exclusions-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 のウイルス スキャン除外範囲
+# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>ビジネス サーバーの Skype の除外リストをスキャンするウイルス対策
  
-ビジネス サーバー 2015 の Skype でのウイルス対策プログラムの相互運用の概要です。
+ビジネス サーバーの Skype でのウイルス対策プログラムの相互運用の概要です。
 
 この資料には、管理者は Active Directory ドメインでのウイルス対策ソフトウェアで使用されている場合、サポートされているバージョンの Microsoft Windows を実行しているコンピューター上の潜在的な不安定の原因を特定するのに役立つ推奨事項が含まれています。環境またはマネージ ビジネス環境です。
 
@@ -27,15 +27,15 @@ ms.lasthandoff: 05/21/2018
 
 この資料には、セキュリティ設定を低くする方法、またはコンピューターのセキュリティ機能を一時的に無効する方法を示す情報が含まれています。 特定の問題の性質を理解するのにはこれらの変更を行うことができます。 これらの変更を行う前に、特定の環境でこの回避策の実装に関連付けられているリスクを評価することをお勧めします。 この回避策を実装する場合は、不要になったウイルス対策ソフトウェアによってスキャンされているファイルには、コンピューターを保護するために適切な追加の手順を実行します。
   
-ウイルス対策スキャナーがビジネス サーバー 2015 の Skype の操作に干渉しないことを確認するには、ウイルス対策スキャナーを実行するビジネス サーバー 2015 のサーバーまたはサーバーの役割の各 Skype の特定のプロセスおよびディレクトリを除外する必要があります。 除外が必要なプロセスとディレクトリを以下に示します。
+ウイルス対策スキャナーが、Skype のビジネス サーバーの操作に干渉しないことを確認するには、ウイルス対策スキャナーを実行するビジネスのサーバーまたはサーバーの役割の各 Skype の特定のプロセスおよびディレクトリを除外する必要があります。 除外が必要なプロセスとディレクトリを以下に示します。
   
 > [!NOTE]
-> 以下のフォルダーとファイルの場所は、ビジネス サーバー 2015 の Skype のデフォルトの場所です。 既定の設定を使用しなかったすべての場所については、ここに示す既定の場所の代わりに、組織で指定した場所を除外してください。 
+> 以下のフォルダーとファイルの場所は、Skype のビジネス サーバーの既定の場所です。 既定の設定を使用しなかったすべての場所については、ここに示す既定の場所の代わりに、組織で指定した場所を除外してください。 
   
 > [!IMPORTANT]
 > 一部のウイルス対策プログラムでは、除外リストに相対パスでなく絶対パスが必要な場合があります。 
   
-- ビジネス サーバー 2015 の Skype を処理します。
+- ビジネス サーバー用の Skype を処理します。
     
   - ABServer.exe
     
@@ -125,6 +125,9 @@ ms.lasthandoff: 05/21/2018
   - %systemroot%\SysWow64\LogFiles
     
   - %systemroot%\Microsoft.NET\assembly\GAC_MSIL
+
+    > [!NOTE]
+    > これらのパスがビジネスのサーバーのバージョンの Skype に固有に注意してください。 
     
   - %programfiles%\Skype for Business Server 2015
     

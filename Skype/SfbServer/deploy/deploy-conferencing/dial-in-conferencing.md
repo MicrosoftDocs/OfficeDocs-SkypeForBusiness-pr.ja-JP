@@ -1,26 +1,26 @@
 ---
-title: Skype for Business Server 2015 でのダイヤルイン会議の構成
+title: Skype のビジネス サーバーのダイヤルイン会議を構成します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
-description: '概要: は、Skype のビジネス サーバー 2015 のダイヤルイン会議を構成する方法については、このトピックを読みます。'
-ms.openlocfilehash: f6d724f522ac264699a3bf7a3fb63749f7da0c05
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、Skype のビジネス サーバーのダイヤルイン会議を構成する方法については、このトピックを読みます。'
+ms.openlocfilehash: a0ac408fbdf221d565f17c2d714d7aa1765d5097
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20982007"
 ---
-# <a name="configure-dial-in-conferencing-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのダイヤルイン会議の構成
+# <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Skype のビジネス サーバーのダイヤルイン会議を構成します。
  
-**の概要:**Skype のビジネス サーバー 2015 のダイヤルイン会議を構成する方法の詳細については、このトピックを参照してください。
+**の概要:** Skype のビジネス サーバーのダイヤルイン会議を構成する方法の詳細については、このトピックを参照してください。
   
-会議ワークロードおよびダイヤルイン会議の選択を含むトポロジを作成した後は、ダイヤルイン会議を構成する追加の手順を行う必要があります。 このトピックを参照する前に、必ず[ビジネス サーバー 2015 の Skype では、ダイヤルイン会議の計画](../../plan-your-deployment/conferencing/dial-in-conferencing.md)、[ビジネス サーバー 2015 の Skype での会議のためのハードウェアおよびソフトウェア要件](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)、および[展開フローチャートを参照してダイヤルイン会議のためのチェックリスト](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing)。 
+会議ワークロードおよびダイヤルイン会議の選択を含むトポロジを作成した後は、ダイヤルイン会議を構成する追加の手順を行う必要があります。 確認すること、このトピックを読む前に読んだ[ビジネス サーバーの Skype では、ダイヤルイン会議の計画](../../plan-your-deployment/conferencing/dial-in-conferencing.md)、[ビジネス サーバーの Skype での会議のためのハードウェアおよびソフトウェア要件](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)、および[展開フローチャートとチェックリストダイヤルイン会議](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing)。 
   
 ダイヤルイン会議を構成するには、次のタスクを実行する必要があります。
   
@@ -34,7 +34,7 @@ ms.lasthandoff: 03/28/2018
     
 - [Assign a Line URI to a user account](dial-in-conferencing.md#BKMK_AssignaLineURI)
     
-また、以下のオプションのタスクを実行することもできます。 これらの省略可能なタスクの詳細については、 [Skype のビジネス サーバー 2015 でダイヤルイン会議の管理](../../manage/conferencing/dial-in-conferencing.md)を参照してください。
+また、以下のオプションのタスクを実行することもできます。 これらの省略可能なタスクの詳細については、 [Skype のビジネス サーバーにダイヤルイン会議の管理](../../manage/conferencing/dial-in-conferencing.md)を参照してください。
   
 - ダイヤルイン会議の PIN ポリシーの管理
     
@@ -57,13 +57,13 @@ ms.lasthandoff: 03/28/2018
   
 ダイヤルイン会議のダイヤル プランをセットアップするには
   
-- エンタープライズ VoIP を展開するかどうかに関係なく、グローバル ダイヤル プランを変更して、ダイヤルイン会議の地域を追加し、正規化ルールによりダイヤルイン アクセス番号が正確に変換されることを確認します。 詳細についてを参照してください[を作成するビジネス サーバー 2015 の Skype のダイヤル プランを変更する、または](../../deploy/deploy-enterprise-voice/dial-plans.md)。
+- エンタープライズ VoIP を展開するかどうかに関係なく、グローバル ダイヤル プランを変更して、ダイヤルイン会議の地域を追加し、正規化ルールによりダイヤルイン アクセス番号が正確に変換されることを確認します。 詳細についてを参照してください[を作成するまたはビジネス サーバーの Skype のダイヤル プランを変更する](../../deploy/deploy-enterprise-voice/dial-plans.md)です。
     
-- エンタープライズ VoIP が展開されていない場合は、ダイヤルイン会議のアクセス電話番号に対応するダイヤル プランを作成します。 ダイヤルイン会議の地域を忘れないようにしてください。 詳細についてを参照してください[を作成するビジネス サーバー 2015 の Skype のダイヤル プランを変更する、または](../../deploy/deploy-enterprise-voice/dial-plans.md)。
+- エンタープライズ VoIP が展開されていない場合は、ダイヤルイン会議のアクセス電話番号に対応するダイヤル プランを作成します。 ダイヤルイン会議の地域を忘れないようにしてください。 詳細についてを参照してください[を作成するまたはビジネス サーバーの Skype のダイヤル プランを変更する](../../deploy/deploy-enterprise-voice/dial-plans.md)です。
     
-- エンタープライズ VoIP が展開されている場合は、必要に応じてエンタープライズ VoIP を変更して地域を含め、ダイヤルイン アクセス番号のための適切な正規化ルールを使用します。 また、ダイヤルイン アクセス番号のみのために使用する、専用のダイヤル プランを作成することもできます。 詳細についてを参照してください[を作成するビジネス サーバー 2015 の Skype のダイヤル プランを変更する、または](../../deploy/deploy-enterprise-voice/dial-plans.md)。
+- エンタープライズ VoIP が展開されている場合は、必要に応じてエンタープライズ VoIP を変更して地域を含め、ダイヤルイン アクセス番号のための適切な正規化ルールを使用します。 また、ダイヤルイン アクセス番号のみのために使用する、専用のダイヤル プランを作成することもできます。 詳細についてを参照してください[を作成するまたはビジネス サーバーの Skype のダイヤル プランを変更する](../../deploy/deploy-enterprise-voice/dial-plans.md)です。
     
-正規化ルールを作成する方法についてを参照してください[を作成するビジネス 2015年の Skype の正規化ルールを変更または](../../deploy/deploy-enterprise-voice/normalization-rules.md)。
+正規化ルールを作成する方法についてを参照してください[を作成するまたはビジネス用の Skype の正規化ルールを変更する](../../deploy/deploy-enterprise-voice/normalization-rules.md)です。
   
 ## <a name="configure-dial-in-conferencing-regions"></a>ダイヤルイン会議の地域の構成
 <a name="BKMK_ConfigureDialInRegions"> </a>
@@ -72,7 +72,7 @@ ms.lasthandoff: 03/28/2018
   
 すべてのダイヤル プランに地域を指定することは重要であるため、すべてのダイヤル プランに会議の地域があることを確認するようにお勧めします。 
   
-すべてのダイヤルイン会議のダイヤル プランで地域が設定されているかどうかを確認するには、**Get-CsDialPlan** コマンドレットを使用します。 ダイヤル プランに地域がない場合は、**Set-CsDialPlan** コマンドレットを使用して地域を設定できます。 既存のダイヤル プラン内の領域を更新するのには Skype ビジネス サーバーのコントロール パネルを使用することもできます。 Skype のビジネス サーバーのコントロール パネルの使用に関する詳細についてを参照してください[を作成するビジネス サーバー 2015 の Skype のダイヤル プランを変更する、または](../../deploy/deploy-enterprise-voice/dial-plans.md)。
+すべてのダイヤルイン会議のダイヤル プランで地域が設定されているかどうかを確認するには、**Get-CsDialPlan** コマンドレットを使用します。 ダイヤル プランに地域がない場合は、**Set-CsDialPlan** コマンドレットを使用して地域を設定できます。 既存のダイヤル プラン内の領域を更新するのには Skype ビジネス サーバーのコントロール パネルを使用することもできます。 Skype のビジネス サーバーのコントロール パネルの使用に関する詳細についてを参照してください[を作成するまたはビジネス サーバーの Skype のダイヤル プランを変更する](../../deploy/deploy-enterprise-voice/dial-plans.md)です。
   
 ### <a name="to-verify-whether-dial-plans-have-the-region-property-set"></a>ダイヤル プランで地域プロパティが設定されているかどうかを確認するには
 
@@ -123,9 +123,9 @@ ms.lasthandoff: 03/28/2018
 ## <a name="configure-dial-in-access-numbers"></a>ダイヤルイン アクセス番号を構成する
 <a name="BKMK_ConfigureDialInAccessNumbers"> </a>
 
-ダイヤルイン会議を展開するときには、ユーザーが公衆交換電話網 (PSTN) からダイヤルして電話会議のオーディオ部分に参加するための電話番号を設定する必要があります。 それらのダイヤルイン アクセス番号は、ミーティングの招待状と [ダイヤルイン会議の設定] Web ページに表示されます。
+ダイヤルイン会議を展開するときには、ユーザーが公衆交換電話網 (PSTN) からダイヤルして電話会議のオーディオ部分に参加するための電話番号を設定する必要があります。それらのダイヤルイン アクセス番号は、ミーティングの招待状と [ダイヤルイン会議の設定] Web ページに表示されます。
   
-ダイヤルイン アクセス番号を作成する前に、まずダイヤルイン会議の域を計画し、その地域のダイヤル プランを構成する必要があります。 詳細領域については、[ビジネス サーバー 2015 の Skype では、ダイヤルイン会議の計画](../../plan-your-deployment/conferencing/dial-in-conferencing.md)を参照してください。 ダイヤルイン会議の計画をダイヤルすると、構成の詳細について参照してください[を作成するビジネス サーバー 2015 の Skype のダイヤル プランを変更する、または](../../deploy/deploy-enterprise-voice/dial-plans.md)。
+ダイヤルイン アクセス番号を作成する前に、まずダイヤルイン会議の域を計画し、その地域のダイヤル プランを構成する必要があります。 領域に関する詳細については、 [Skype のビジネス サーバーにダイヤルイン会議の計画](../../plan-your-deployment/conferencing/dial-in-conferencing.md)を参照してください。 ダイヤルイン会議の計画をダイヤルすると、構成の詳細について参照してください[を作成するまたはビジネス サーバーの Skype のダイヤル プランを変更する](../../deploy/deploy-enterprise-voice/dial-plans.md)です。
   
 > [!NOTE]
 > 新しいダイヤルイン アクセス番号は、そのアクセス番号の Active Directory ドメイン サービス (AD DS) レプリケーションが完了するまで使用できません。レプリケーションが完了するまでに数時間かかることがあります。 
@@ -181,7 +181,7 @@ ms.lasthandoff: 03/28/2018
     
     ダイヤルイン アクセス番号ごとに最大 4 つの第 2 言語を選択できます。ユーザーは、会議にダイヤルインする際に会議 ID を入力する前に、第 2 言語を選択できます。
     
-12. ダイヤルイン アクセス番号、**関連付けられた領域**の下の領域を追加するには、[**追加**] をクリックして、このダイヤルイン アクセス番号をダイヤル プランに関連付けられ、 **[ok]**をクリックし、1 つまたは複数の領域をクリックします。
+12. ダイヤルイン アクセス番号、**関連付けられた領域**の下の領域を追加するには、[**追加**] をクリックして、このダイヤルイン アクセス番号をダイヤル プランに関連付けられ、 **[ok]** をクリックし、1 つまたは複数の領域をクリックします。
     
 13. ダイヤルイン アクセス番号から地域を削除するには、[**関連付けられている地域**] で削除する地域をクリックし、[**削除**] をクリックします。
     
@@ -192,7 +192,7 @@ ms.lasthandoff: 03/28/2018
 
 会議ポリシーは、参加者向けの会議機能を指定するユーザー アカウント設定です。会議ポリシーは、サイト スコープまたはユーザー スコープで作成できます。会議ポリシー設定には、会議の予約と参加の多くの側面が含まれます。複数の会議ポリシー設定で、参加者向けのダイヤルイン会議をサポートしています。ダイヤルイン会議を構成する際に、これらのフィールドが組織に適切に設定されていることを確認し、必要に応じて変更する必要があります。 
   
-会議ポリシーを構成する方法の詳細については、[ビジネス サーバー 2015 の Skype 会議ポリシーの管理](../../manage/conferencing/conferencing-policies.md)を参照してください。
+会議ポリシーを構成する方法の詳細については、 [Skype ビジネス サーバーの会議ポリシーの管理](../../manage/conferencing/conferencing-policies.md)を参照してください。
   
 ## <a name="assign-a-line-uri-to-a-user-account"></a>Assign a Line URI to a user account
 <a name="BKMK_AssignaLineURI"> </a>

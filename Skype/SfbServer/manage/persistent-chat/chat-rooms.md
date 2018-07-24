@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: '概要: ビジネス サーバー 2015 の Skype で永続的なチャット サーバーのチャット ルームを管理する方法を説明します。'
-ms.openlocfilehash: 7febc9736f43f3168d7bc62b0ddf833fa6b5864b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 25d13b8b44e16d476191fdae337eb72d73e77dbc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569401"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973776"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバーのチャット ルームの管理
  
@@ -23,6 +23,9 @@ ms.locfileid: "19569401"
   
 カテゴリを適切に使用すると、チャット ルームの作成と管理が簡単になります。 カテゴリを作成したり、チャット ルームに参加するを定義します。 チャット ルームを管理しようとすると、前に、[永続的なチャット カテゴリ、チャット ルーム、およびビジネス サーバー 2015 の Skype のユーザーの役割](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)と[業務サーバー 2015 の Skype での永続的なチャット サーバーの管理カテゴリ](categories.md)を読み取ることを確認してください。
   
+> [!NOTE]
+> 永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。 同じ機能は、チームで使用できます。 詳細については、[マイクロソフトのチームにビジネス用の Skype からの旅](/microsoftteams/journey-skypeforbusiness-teams)を参照してください。 永続的なチャットを使用する場合は、選択肢は、いずれかをチームでは、この機能を必要とするユーザーを移行するまたはビジネス サーバー 2015 の Skype を使用し続ける。 
+
 構成し、Windows PowerShell のコマンド ライン インターフェイスを使用するか、ビジネス クライアントのチャット ルームのメンバーである場合、Skype を使用して、チャット ルームを管理できます。 ここでは、Windows PowerShell コマンド ライン インターフェイスを使用してチャット ルームを管理する方法について説明します。 ビジネス クライアント用の Skype を使用してチャット ルームを管理する場合は、クライアントのヘルプを参照してください。 
   
 チャット ルームには、次の 2 種類のいずれかを指定できます: 標準および聴衆。 標準チャット ルームでは、すべてのメンバーがメッセージを投稿および閲覧できます。 種類が大会議室のチャット ルームでは、投稿できるのは発表者のみですが、すべてのユーザーが閲覧できますす。

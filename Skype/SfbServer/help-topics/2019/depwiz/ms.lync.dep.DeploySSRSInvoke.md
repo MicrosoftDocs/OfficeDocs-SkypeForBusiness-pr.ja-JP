@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
+ROBOTS: NOINDEX, NOFOLLOW
 description: 監視サーバーの展開を Microsoft SQL Server 2008 r2 でレポートまたは表示するのには Microsoft SQL Server 2012 レポート サービスでは、ページを実行するコマンドをインストールするのには、発行するコマンドの概要について必要な情報を入力したら、SQL Server Reporting Services にレポートします。
-ms.openlocfilehash: 39710ceb9c2612fcc7128fbf175f4c0c48952349
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 25c47787144809397db51a5ac477e8db446788d1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19967762"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014146"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>SQL Server Reporting Services (起動)
  

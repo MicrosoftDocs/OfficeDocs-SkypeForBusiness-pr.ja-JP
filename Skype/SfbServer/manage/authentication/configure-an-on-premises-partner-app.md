@@ -1,27 +1,27 @@
 ---
-title: Skype for Business Server 2015 のオンプレミス パートナー アプリケーションの構成
+title: Skype のビジネス サーバーの設置パートナー アプリケーションを構成します。
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
-description: '概要: は、Skype のビジネス サーバー 2015 の設置パートナー アプリケーションを構成します。'
-ms.openlocfilehash: 4a31d97f7a4c2f717084c72cbc349c4f495597ea
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、Skype のビジネス サーバーの設置パートナー アプリケーションを構成します。'
+ms.openlocfilehash: 1377957797108f3cbc8e290b7750e9fba489cbf8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009726"
 ---
-# <a name="configure-an-on-premises-partner-application-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 のオンプレミス パートナー アプリケーションの構成
+# <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>Skype のビジネス サーバーの設置パートナー アプリケーションを構成します。
  
-**の概要:**ビジネス サーバー 2015 の Skype のパートナー、オンプレミス アプリケーションを構成します。
+**の概要:** Skype のビジネス サーバーの設置パートナー アプリケーションを構成します。
   
-サーバー 2015 のビジネス パートナーのアプリケーションは、Skype を構成する必要がありますし、OAuthTokenIssuer の証明書を割り当てるとします。 (説明する手順構成 Microsoft Exchange Server 2013 と SharePoint、パートナーのアプリケーションとして動作するように省略可能である。)設置パートナー アプリケーションを構成するのには、次の Windows PowerShell スクリプトをコピーして、メモ帳 (または他の任意のテキスト エディター) にコードを貼り付けて起動する必要があります。
+サーバーのビジネス パートナーのアプリケーションを Skype を構成する必要がありますし、OAuthTokenIssuer の証明書を割り当てるとします。 (説明する手順構成 Microsoft Exchange Server 2013 と SharePoint、パートナーのアプリケーションとして動作するように省略可能である。)設置パートナー アプリケーションを構成するのには、次の Windows PowerShell スクリプトをコピーして、メモ帳 (または他の任意のテキスト エディター) にコードを貼り付けて起動する必要があります。
   
 ```
 if ((Get-CsPartnerApplication -ErrorAction SilentlyContinue) -ne $Null)
@@ -69,7 +69,6 @@ else
    }
 
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
-
 ```
 
 コードをコピーした後、スクリプトを .PS1 ファイル拡張子を使用して保存します (例: C:\Scripts\ServerToServerAuth.ps1)。 このスクリプトを実行する前に、メタデータの Url を置換する必要があります注https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1とhttp://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1それぞれの Exchange 2013 と SharePoint のサーバーによって使用されるメタデータの Url を持つ。 それぞれの製品のメタデータの URL を特定する方法については、Exchange 2013 と SharePoint の製品マニュアルを参照してください。
@@ -102,7 +101,7 @@ New-CsPartnerApplication : Cannot bind parameter 'MetadataUrl' to the target. Ex
 
 このエラー メッセージは、通常は次の 2 つのどちらかを意味します。1) スクリプトに指定されたいずれかの URL が無効である (いずれかのメタデータ URL が実際のメタデータ URL ではない)。または、2) いずれかのメタデータ URL に接続できない。これが発生した場合は、URL が正しいこと、およびアクセス可能であることを確認し、スクリプトを再実行します。
   
-ビジネス サーバー 2015 の Skype のパートナー アプリケーションを作成したら、Skype のビジネスのサーバーを Exchange 2013 のパートナーのアプリケーションを構成してください。 構成の EnterprisePartnerApplication.ps1 はスクリプトを実行して Exchange 2013 のパートナーのアプリケーションを構成することができます。実行する必要があるものは、Skype のビジネス サーバーのメタデータの URL を指定して、Skype のビジネス サーバーが新しいパートナー アプリケーションであることを示すだけです。 
+ビジネス サーバーの Skype のパートナーのアプリケーションを作成した後、Skype のビジネスのサーバーを Exchange 2013 のパートナーのアプリケーションを構成してください。 構成の EnterprisePartnerApplication.ps1 はスクリプトを実行して Exchange 2013 のパートナーのアプリケーションを構成することができます。実行する必要があるものは、Skype のビジネス サーバーのメタデータの URL を指定して、Skype のビジネス サーバーが新しいパートナー アプリケーションであることを示すだけです。 
   
 Skype ビジネス サーバー アプリケーションとして構成する、パートナーの交換、Exchange 管理シェルを開き次のようなコマンドを実行します。
   

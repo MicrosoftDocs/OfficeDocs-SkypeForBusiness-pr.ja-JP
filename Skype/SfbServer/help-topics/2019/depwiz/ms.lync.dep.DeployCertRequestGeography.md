@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aef0110c-b4b0-453c-a2dd-602372e64952
+ROBOTS: NOINDEX, NOFOLLOW
 description: 地理情報] ページでは、証明書の要求の追加情報を要求します。 このページでは、テキスト ボックスに、国、し、型の都道府県と市区町村を選択します。 省略形を使用する必要があり、都道府県と市区町村の名前をスペルする必要があることに注意してください。
-ms.openlocfilehash: 75b5d6aa8b07e5134155c0403dd75dd7be5c9616
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 3c0a2749100d4d188c80bdf664694438231ad5c5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973277"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025999"
 ---
 # <a name="certificate-request-geography"></a>証明書の要求 (地域)
  

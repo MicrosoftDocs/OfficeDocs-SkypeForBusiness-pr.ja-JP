@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
+ROBOTS: NOINDEX, NOFOLLOW
 description: サブジェクト名と、サブジェクト代替名] ページでは、サブジェクト名と証明書を構成するすべてのサブジェクト代替名の概要を提供します。 サブジェクト名とサブジェクト代替名の表示名は、トポロジ ビルダーで、配置を定義したときに作成されているために、定義のドキュメントから収集されます。
-ms.openlocfilehash: bef22c1afbe6bafcacc6b3ff289cb7903e3d5b6e
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 02a6f4a88c76004966b6d81bc55b3fef1c133e7c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19997060"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026758"
 ---
 # <a name="certificate-request-subject-alternate-names"></a>証明書の要求 (サブジェクト代替名)
  

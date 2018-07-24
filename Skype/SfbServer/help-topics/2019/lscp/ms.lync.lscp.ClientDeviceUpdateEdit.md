@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
+ROBOTS: NOINDEX, NOFOLLOW
 description: ログの最大キャッシュ ・ サイズ、最大ログ ファイル サイズ、またはログ ファイルがパージされる前に保持される期間の長さを決定するログ設定の編集] ページには、デバイスのログの構成を追加できます。 組織の要件に従って、これらの設定を変更することができます。
-ms.openlocfilehash: 712ba87ab19d2b69792ba720e984d64dd4aac478
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 7e2e5091c662f105b47e2a3a8574c144457753dc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19972330"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974439"
 ---
 # <a name="device-log-configuration-edit"></a>デバイスのログの構成: 編集
  
@@ -51,4 +52,4 @@ ms.locfileid: "19972330"
     
 ## <a name="see-also"></a>関連項目
 
-[デバイスのログの構成](ms.lync.lscp.ClientDeviceCfgMain.md)
+[デバイス ログの構成](ms.lync.lscp.ClientDeviceCfgMain.md)

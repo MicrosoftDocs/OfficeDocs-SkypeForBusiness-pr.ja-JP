@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
-description: デバイスのテスト] ページにテスト デバイスを追加し、このデバイスを使用して本番デバイスに更新プログラムを展開する前に新しい更新プログラムの機能を検証できます。 デバイスをグローバルに (環境全体を使用して) テストしたり、単独のサイト内でテストしたりできます。 テスト デバイスは、そのメディア アクセス制御 (MAC) アドレスまたはシリアル番号で識別します。 デバイスを追加するとき、一覧に表示されます、[テスト デバイス] ページで、Skype のビジネス サーバーのコントロール パネルの。
-ms.openlocfilehash: a95366b712d9dcdc44d6bc3b4f7f51af0d59f5aa
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: '[テスト デバイス] ページにテスト デバイスを追加すると、新しい更新プログラムをプロダクション デバイスに展開する前に、このデバイスを使用して更新プログラムの機能を検証できます。 デバイスをグローバルに (環境全体を使用して) テストしたり、単独のサイト内でテストしたりできます。 テスト デバイスは、そのメディア アクセス制御 (MAC) アドレスまたはシリアル番号で識別します。 デバイスを追加するとき、一覧に表示されます、[テスト デバイス] ページで、Skype のビジネス サーバーのコントロール パネルの。'
+ms.openlocfilehash: fad6d8295ba10715aa3808be053d4150ba546568
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969583"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20999950"
 ---
 # <a name="test-device"></a>テスト デバイス
  
@@ -53,7 +54,7 @@ ms.locfileid: "19969583"
 デバイスのテストについての詳細は、操作マニュアルの[更新プログラムの機能をテストするデバイスの追加](http://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx)を参照してください。
 ## <a name="see-also"></a>関連項目
 
-[テスト デバイス: 新規作成または既存の編集](ms.lync.lscp.ClientDeviceTestEdit.md)
+[テスト デバイス: 新規作成または現在の形式のままで編集](ms.lync.lscp.ClientDeviceTestEdit.md)
 
 [新しい-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
   

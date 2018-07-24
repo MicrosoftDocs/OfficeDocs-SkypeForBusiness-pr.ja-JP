@@ -1,28 +1,27 @@
 ---
-title: Skype for Business Server 2015 でのユーザーのダイヤルイン会議 PIN の設定
+title: Skype のビジネス サーバーのユーザーのダイヤルイン会議の PIN を設定します。
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
-description: '概要: ビジネス サーバー 2015 の Skype のユーザーのダイヤルイン会議の PIN を設定します。'
-ms.openlocfilehash: 557aaa3fc191e6423ae323e53d2dacdf5f0019b1
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: '概要: は、Skype のビジネス サーバーのユーザーのダイヤルイン会議の PIN を設定します。'
+ms.openlocfilehash: e5d14af74c208aaf29fffe94937afc1253a032da
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568822"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009383"
 ---
-# <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのユーザーのダイヤルイン会議 PIN の設定
+# <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>Skype のビジネス サーバーのユーザーのダイヤルイン会議の PIN を設定します。
  
-**の概要:** ビジネス サーバー 2015 の Skype のユーザーのダイヤルイン会議の PIN を設定します。
+**の概要:** Skype のビジネス サーバーのユーザーのダイヤルイン会議の PIN を設定します。
   
-として認証されたユーザーのダイヤルイン会議に参加するには、Active Directory ドメイン サービス (AD DS) の資格情報を持つサーバー 2015 のビジネス ユーザーは、Skype には、暗証番号 (PIN) が必要です。 ユーザーは、ダイヤルイン会議の PIN を忘れた場合またはビジネス サーバー 2015 の Skype を使用して、PIN を設定できませんが、Skype からビジネス サーバーのコントロール パネルのユーザーの PIN を設定できます。 PIN は自動で生成することも手動で作成することもできます。
+として認証されたユーザーのダイヤルイン会議に参加するには、ビジネス サーバーのユーザーを Active Directory ドメイン サービス (AD DS) の資格情報は、Skype には、暗証番号 (PIN) が必要です。 ユーザーはダイヤルイン会議の PIN を忘れた場合や、ビジネス サーバーの Skype を使用して PIN を設定できませんが、Skype からビジネス サーバーのコントロール パネルのユーザーの PIN を設定できます。 PIN は自動で生成することも手動で作成することもできます。
   
 > [!NOTE]
 > 最小サイズなど、PIN の具体的な特性は、ポリシーとして構成できます。グローバル ポリシーに加えて、個々のサイトまたはユーザーを対象にした PIN ポリシーを構成できます。 
@@ -63,7 +62,7 @@ ms.locfileid: "19568822"
     
 7. [**暗証番号 (PIN) の設定**] ダイアログ ボックスで、次のどちらかの手順を実行します。
     
-   - ユーザーの暗証番号 (pin) を生成するサーバー 2015 のビジネス用の Skype を許可するには、(既定値) **、有効な暗証番号 (pin) を自動的に生成**を選択します。
+   - Skype ビジネスのサーバー ユーザーの暗証番号 (pin) を生成するを許可するには、(既定値) **、有効な暗証番号 (pin) を自動的に生成**を選択します。
     
    - 自分の PIN を作成するには、[**特定の PIN を手動で入力**] をクリックして、テキスト ボックスをクリックし、PIN のポリシー設定で指定されている PIN の要件を満たす PIN を入力します。
     

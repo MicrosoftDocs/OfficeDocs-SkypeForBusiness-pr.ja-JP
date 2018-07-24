@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
+ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 2a45181b15fa3bb2a4766491e193a9770193e47b
-ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
+ms.openlocfilehash: 881497d467299e081010aaaf463690fe0050fe7b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20088519"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20999683"
 ---
 # <a name="users-new-lync-server-user"></a>Lync Server ユーザーの新しいユーザー。
  
@@ -45,8 +46,7 @@ ms.locfileid: "20088519"
 - [ユーザーのテレフォニーを構成します。](http://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
     
 - [ユーザーごとのモビリティ ポリシーを割り当てる](http://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
-    
-- [永続的なチャット ユーザーごとのポリシーを割り当てる](http://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
+
     
  
 

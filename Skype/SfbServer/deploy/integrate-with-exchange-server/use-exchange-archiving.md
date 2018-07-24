@@ -1,5 +1,5 @@
 ---
-title: Exchange Server のアーカイブを使用するサーバー 2015 のビジネス用の Skype を構成します。
+title: Skype ビジネス サーバーで Exchange Server のアーカイブを使用するを構成します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,21 +10,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
-description: '概要: ビジネス サーバー 2015 の 2016 の Exchange Server や Exchange Server 2013 と Skype の IM のトラン スクリプトを構成します。'
-ms.openlocfilehash: 280b86d223cc1dd90eb7fe7bc17e4ab3499e7f5d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: ビジネス サーバーの 2016 の Exchange Server や Exchange Server 2013 と Skype の IM のトラン スクリプトを構成します。'
+ms.openlocfilehash: eee0c67a1f0f1595fb0ba287fe6a3aa662e45d9c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014537"
 ---
-# <a name="configure-skype-for-business-server-2015-to-use-exchange-server-archiving"></a>Exchange Server のアーカイブを使用するサーバー 2015 のビジネス用の Skype を構成します。
+# <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>Skype ビジネス サーバーで Exchange Server のアーカイブを使用するを構成します。
  
-**の概要:**2016 の Exchange Server や Exchange Server 2013 と Skype のビジネス サーバー 2015 の IM のトラン スクリプトを構成します。
+**の概要:** 2016 の Exchange Server や Exchange Server 2013 と Skype のビジネス サーバーの IM のトラン スクリプトを構成します。
   
-ビジネス サーバー 2015 の Skype は、インスタント メッセージング、Web 会議のトラン スクリプトが SQL Server データベースではなく、2016 の Exchange Server や Exchange Server 2013 のユーザーのメールボックスにアーカイブのオプションに管理者になります。 管理者がこのオプションを有効にすると、トランスクリプトはユーザーのメールボックスの Purges フォルダーに書き込まれます。 Purges フォルダーは、Recoverable Items フォルダーにある隠しフォルダーです。 このフォルダーはエンドユーザーに表示するものではなく、フォルダーは Exchange の検索エンジンによってインデックスが作成されて、Exchange メールボックスの検索および Microsoft SharePoint Server 2013 を使用して探索することができます。 管理者がすべての電子通信のためのアーカイブを検索する 1 つのツールを使用できます Exchange インプレース保持機能 (電子メールやその他の Exchange の通信をアーカイブするための責任者) によって使用される同じフォルダーに情報が格納される、ため、ユーザーです。
+ビジネス サーバー用の Skype は、インスタント メッセージング、Web 会議のトラン スクリプトが SQL Server データベースではなく、2016 の Exchange Server や Exchange Server 2013 のユーザーのメールボックスにアーカイブのオプションに管理者になります。 管理者がこのオプションを有効にすると、トランスクリプトはユーザーのメールボックスの Purges フォルダーに書き込まれます。 Purges フォルダーは、Recoverable Items フォルダーにある隠しフォルダーです。 このフォルダーはエンドユーザーに表示するものではなく、フォルダーは Exchange の検索エンジンによってインデックスが作成されて、Exchange メールボックスの検索および Microsoft SharePoint Server 2013 を使用して探索することができます。 管理者がすべての電子通信のためのアーカイブを検索する 1 つのツールを使用できます Exchange インプレース保持機能 (電子メールやその他の Exchange の通信をアーカイブするための責任者) によって使用される同じフォルダーに情報が格納される、ため、ユーザーです。
   
 > [!IMPORTANT]
-> 会話のアーカイブを完全に無効にするには、会話の履歴も無効にする必要があります。 詳細については、次のトピックを参照してください:[ビジネス サーバー 2015 の Skype の内部と外部の通信のアーカイブを管理する](http://technet.microsoft.com/library/6c2cf941-3204-4f1a-a7e0-416c828056d9.aspx)、[新しい CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicy?view=skype-ps)、および[セット CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps)。 
+> 会話のアーカイブを完全に無効にするには、会話の履歴も無効にする必要があります。 詳細については、次のトピックを参照してください:[ビジネス サーバーの Skype の内部と外部の通信のアーカイブを管理する](http://technet.microsoft.com/library/6c2cf941-3204-4f1a-a7e0-416c828056d9.aspx)、[新しい CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicy?view=skype-ps)、および[セット CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps)。 
   
 Exchange Server に議事録を保存するために Skype ビジネス サーバーと Exchange Server 間でサーバーからサーバーへの認証を構成して開始する必要があります。 サーバーからサーバーへの認証が設定されて後を実行する Skype では、次のタスクのビジネス サーバー (のセットアップや構成によってする必要はありませんこれらすべてのタスクを完了するに注意してください)。
   

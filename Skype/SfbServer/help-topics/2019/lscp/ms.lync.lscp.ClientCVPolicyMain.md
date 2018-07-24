@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
-description: 現在の環境でサポートするクライアントのバージョンを指定できます。 バージョンが異なる 2 つのクライアントが対話する場合、機能によっては一方のクライアントでは使用できても、他方のクライアントでは使用できないことがあります。 Skype ビジネス サーバーに含まれている機能の最大限に活用し、全体的なユーザー エクスペリエンスを向上させるために、環境内で使用されているクライアント バージョンを制限するのにはクライアント バージョン フィルターを使用することができます。 クライアント バージョン フィルターを使用すると、複数のクライアント バージョンをサポートすることで発生するコストを抑えることもできます。
-ms.openlocfilehash: 539d0fe24678b9bc9784adf9d3512c1441298010
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 現在の環境でサポートするクライアントのバージョンを指定できます。 バージョンが異なる 2 つのクライアントが対話する場合、機能によっては一方のクライアントでは使用できても、他方のクライアントでは使用できないことがあります。
+ms.openlocfilehash: 2743c62f6fbd692723c4ed9ea464e665a65d0abc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969576"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009695"
 ---
 # <a name="client-version-policy"></a>クライアント バージョン ポリシー
  
@@ -26,7 +27,7 @@ ms.locfileid: "19969576"
 
 [**クライアント バージョン ポリシー**] ページでは、次のタスクを実行できます。
   
-- 既定の (**グローバル**) クライアント バージョン ポリシーを編集する。
+- (**グローバル**) の既定のクライアント バージョン ポリシーを編集します。
     
 - 特定のサイトまたはプールのクライアント バージョン ポリシーを作成する。
     

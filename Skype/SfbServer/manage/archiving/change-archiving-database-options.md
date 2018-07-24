@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 でのアーカイブ データベース オプションの変更
+title: ビジネス サーバーの Skype でのアーカイブ ・ データベースのオプションを変更します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
-description: '概要: は、Skype のビジネス サーバー 2015 用のアーカイブのデータベース オプションを変更する方法を説明します。'
-ms.openlocfilehash: 5bb7ee9329cc3fa7a0795115f9a0d11768ab7aa4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 概要では、Skype のビジネス サーバー用のアーカイブのデータベース オプションを変更する方法について説明します。
+ms.openlocfilehash: af1cc1e6398652efac5be20114dac6bf228ef892
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21010079"
 ---
-# <a name="change-archiving-database-options-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのアーカイブ データベース オプションの変更
+# <a name="change-archiving-database-options-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのアーカイブ ・ データベースのオプションを変更します。
 
-**の概要:**ビジネス サーバー 2015 の Skype 用のアーカイブのデータベース オプションを変更する方法について説明します。
+**の概要:** Skype のビジネス サーバー用のアーカイブのデータベース オプションを変更する方法について説明します。
   
 SQL Server のストレージを使用して、ユーザーのいずれかのストレージをアーカイブするためのアーカイブを展開する場合は、次のデータベース記憶域の変更を行うことができます。
   
@@ -91,7 +91,7 @@ SQL Server のストレージを使用して、ユーザーのいずれかのス
 8. 構成を保存するには、[**OK**] をクリックします。
     
     > [!IMPORTANT]
-    > トポロジ ビルダーで行った変更は、新しいトポロジを公開するまで有効になりません。 詳細については、[ビジネス サーバー 2015 の Skype で既存の展開へのアーカイブ ・ データベースの追加](../../deploy/deploy-archiving/add-archiving-databases.md)を参照してください。 
+    > トポロジ ビルダーで行った変更は、新しいトポロジを公開するまで有効になりません。 詳細については、 [Skype のビジネス サーバーで既存の展開へのアーカイブ ・ データベースの追加](../../deploy/deploy-archiving/add-archiving-databases.md)を参照してください。 
   
 ## <a name="change-the-location-of-the-archiving-database-by-using-windows-powershell"></a>Windows PowerShell を使用したアーカイブ データベースの場所の変更
 

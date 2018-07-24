@@ -1,26 +1,26 @@
 ---
-title: Skype for Business Server 2015 での電話会議の管理
+title: ビジネスのサーバーに対して Skype で会議を管理します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 825e051c-83a5-420d-a5ef-f77afa368e2e
-description: '概要: ビジネス サーバー 2015 の Skype で会議を管理する方法を説明します。'
-ms.openlocfilehash: 2239c5aae8754e381bf6cf7b8b41aa6ef31b8033
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: ビジネス サーバーの Skype で会議を管理する方法を説明します。'
+ms.openlocfilehash: 031c0b19d8132d9c8658702a5bdb30d84b418ae3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973340"
 ---
-# <a name="manage-conferencing-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での電話会議の管理
+# <a name="manage-conferencing-in-skype-for-business-server"></a>ビジネスのサーバーに対して Skype で会議を管理します。
  
-**の概要:**ビジネス サーバー 2015 の Skype で会議を管理する方法について説明します。
+**の概要:** ビジネス サーバーの Skype で会議を管理する方法について説明します。
   
-このトピックでは、電話会議を管理する方法について説明します。 予定し、会議を展開する方法の詳細については、[ビジネス サーバー 2015 の Skype での会議の計画](../../plan-your-deployment/conferencing/conferencing.md)および[ビジネス サーバー 2015 の Skype での展開の会議](../../deploy/deploy-conferencing/deploy-conferencing.md)を参照してください。
+このトピックでは、電話会議を管理する方法について説明します。 予定し、会議を展開する方法の詳細については、[ビジネスのサーバー用の Skype での会議の計画](../../plan-your-deployment/conferencing/conferencing.md)と[ビジネス サーバーの Skype で会議を展開](../../deploy/deploy-conferencing/deploy-conferencing.md)を参照してください。
   
 ビジネス サーバーの Skype では、次のように構成し、ポリシー設定を指定することによって会議の詳細を管理します。 いる用語の会議と会議も同義的に用いに注意してください。 ですが、一般に、会議会議の特定のインスタンスとして考えることができます。
   
@@ -66,7 +66,7 @@ ms.lasthandoff: 03/28/2018
     
   - コントロール パネルで、**[会議]、[音声ルーティング]** の順に選択します。
     
-  - ビジネス サーバー管理シェルの Skype は、 **- CsDialPlan**と**- CsVoice**コマンドレットを検索します。
+  - ビジネス サーバー管理シェルの Skype は、 **- CsDialPlan**と **- CsVoice**コマンドレットを検索します。
     
 - PIN のポリシー設定を管理するには:
     
@@ -80,7 +80,7 @@ ms.lasthandoff: 03/28/2018
 
 会議を管理するために次の Skype ビジネス サーバー管理シェル コマンドレットを使用できます。 
   
-**会議ポリシーの設定**
+**電話会議ポリシーの設定**
 
 |**コマンドレット**|**説明**|
 |:-----|:-----|
@@ -99,7 +99,7 @@ ms.lasthandoff: 03/28/2018
 |[削除 CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps) <br/> |会議の構成設定の既存のコレクションを削除します。  <br/> |
 |[セット CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |組織で現在使用されている会議の構成設定を変更します。  <br/> |
    
-**会議の構成設定**
+**電話会議の構成設定**
 
 |**コマンドレット**|**説明**|
 |:-----|:-----|
@@ -108,7 +108,7 @@ ms.lasthandoff: 03/28/2018
 |[削除 CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csconferencingconfiguration?view=skype-ps) <br/> |指定した電話会議の構成設定のコレクションを削除します。  <br/> |
 |[セット CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> |電話会議の構成設定の既存のコレクションを変更します。  <br/> |
    
-**ダイヤルイン構成の設定**
+**ダイヤルイン会議の設定**
 
 |**コマンドレット**|**説明**|
 |:-----|:-----|
@@ -135,7 +135,7 @@ ms.lasthandoff: 03/28/2018
 |[セット CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |ダイヤルイン会議に使用するデュアルトーン多重周波数 (DTMF) シグナリング設定を変更します。  <br/> |
 |[セット CsDialPlan](https://docs.microsoft.com/powershell/module/skype/set-csdialplan?view=skype-ps) <br/> |既存のダイヤル プランを変更します。  <br/> |
    
-**暗証番号 (pin) ポリシーの設定**
+**PIN ポリシーの設定**
 
 |**コマンドレット**|**説明**|
 |:-----|:-----|
@@ -145,7 +145,7 @@ ms.lasthandoff: 03/28/2018
 |[削除 CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/remove-cspinpolicy?view=skype-ps) <br/> |指定した暗証番号 (PIN) ポリシーを削除します。  <br/> |
 |[セット CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps) <br/> |1 つまたは複数の既存のクライアント暗証番号 (PIN) ポリシーを変更します。  <br/> |
    
-**その他の会議の設定**
+**その他の電話会議の設定**
 
 |**コマンドレット**|**説明**|
 |:-----|:-----|
@@ -167,7 +167,7 @@ ms.lasthandoff: 03/28/2018
 |[テスト CsDataConference](https://docs.microsoft.com/powershell/module/skype/test-csdataconference?view=skype-ps) <br/> |共有、PowerPoint のスライド、ホワイト ボードや投票を表示するなどの活動を含むビジネス サーバーの web 会議、Skype で 1 組のユーザーが参加できるかどうかを確認します。 コマンドレットでは、Business Server web 会議サービスの Skype が Office Web アプリケーション サーバーを検出できるし、クライアントが Office Web アプリケーション サーバーがブロードキャスト用の PowerPoint ファイルをアップロードできることも確認します。  <br/> |
 |[テスト CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |ユーザーがダイヤルイン会議のセッションに参加できるかどうかを確認します。  <br/> |
 |[テスト CsDialPlan](https://docs.microsoft.com/powershell/module/skype/test-csdialplan?view=skype-ps) <br/> |電話番号のテストをダイヤル プラン (以前はロケーション プロファイルと呼ばれていました) に対して行い、その番号に適用される正規化ルールと、その正規化ルールが適用された後の変換された番号を戻します。  <br/> |
-|[テスト CsMcxConference](https://docs.microsoft.com/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Skype サーバー移動サービスのビジネス会議に参加する 3 人のユーザーの機能をテストします。 IPhones と exchange インスタント メッセージとプレゼンス情報としてこのような処理を実行する Windows の電話などの携帯電話のモバイル サービスができます。保存し、内部での代わりに、ワイヤレスのプロバイダーでのボイス メールを取得します。ビジネス サーバーなどの機能の作業とダイヤルアウト会議を使用して呼び出し Skype の活用してください。  <br/> |
+|[テスト CsMcxConference](https://docs.microsoft.com/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Skype サーバー移動サービスのビジネス会議に参加する 3 人のユーザーの機能をテストします。 IPhones と exchange インスタント メッセージとプレゼンス情報としてこのような処理を実行する Windows の電話などの携帯電話のモバイル サービスができます。保存し、内部での代わりに、ワイヤレスのプロバイダーでのボイス メールを取得します。ビジネス サーバーなどの機能の作業とダイヤルアウト会議を使用して呼び出し Skype の活用してください。  <br/> **注:** ビジネス サーバー 2019 の Skype で、MCX を使用するクライアントがサポートされていません。|
 |[テスト CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) <br/> |1 組のユーザーが Unified Communications Web API (UCWA) を使用してオンライン会議に対するスケジュール設定、参加、実施ができるかどうかをテストします。  <br/> |
 |[デバッグ CsDataConference](https://docs.microsoft.com/powershell/module/skype/debug-csdataconference?view=skype-ps) <br/> |ビジネス サーバーの Skype に含まれているデータ会議機能の診断情報を取得します。  <br/> |
    

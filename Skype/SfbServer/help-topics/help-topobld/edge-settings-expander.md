@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 既存の単一サーバー エッジ プールまたは複数サーバー エッジ プールの設定を編集するために、次のセクションが表示されます。
-ms.openlocfilehash: 5e9e916283bf36e0d81af41477920ba19e13e9a8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8b11d82a1f5ea167e3149afbd819149de86b6302
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995327"
 ---
 # <a name="edge-settings-expander"></a>エッジ設定エキスパンダー
  
@@ -28,9 +29,9 @@ ms.lasthandoff: 03/28/2018
     
 - エッジ サーバー構成
     
-## 
 
-### <a name="general-settings"></a>全般設定
+
+## <a name="general-settings"></a>全般設定
 
 エッジ サーバー プールの内部プールの完全修飾ドメイン名 (FQDN)。この設定を変更するには、プールの FQDN を編集します。
   
@@ -40,11 +41,11 @@ ms.lasthandoff: 03/28/2018
   
 [**内部構成レプリケーション ポート (HTTPS)**] に対してポート番号を指定します。
   
-### <a name="next-hop-selection-settings"></a>次ホップ選択設定
+## <a name="next-hop-selection-settings"></a>次ホップ選択設定
 
 エッジ サーバーが内部インフラストラクチャと通信するために使用する [**次ホップ プール**] を設定または変更するには、ドロップダウン リスト ボックスからディレクター、ディレクター プール、フロントエンド サーバー、またはフロントエンド サーバーのプールを選択します。 ディレクターまたはフロント エンド トポロジ ビルダーで構成されているだけは、選択範囲に表示されます。
   
-### <a name="edge-server-configuration"></a>エッジ サーバー構成
+## <a name="edge-server-configuration"></a>エッジ サーバー構成
 
 エッジ サーバーの [**外部設定**] の設定を編集または指定するには、まず SIP アクセス、Web 会議、および音声ビデオ サービスに個別の IP アドレスを使用するかどうかを判断する必要があります。
   
@@ -60,7 +61,7 @@ ms.lasthandoff: 03/28/2018
 > [!IMPORTANT]
 > 別々の FQDN および IP アドレスまたはポートを使用することを含め、これらの設定のいずれかに変更を加える場合は、最初に構成された値に依存する他のすべてのサービスを更新する必要があります。 
   
-### 
+## <a name="see-also"></a>関連項目
 
 詳細を定義して、エッジ サービスの設定の構成については、[エッジ トポロジの定義](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)を参照してください。
   

@@ -1,9 +1,9 @@
 ---
 title: デバイス ログ構成の編集
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 description: ログの最大キャッシュ ・ サイズ、最大ログ ファイル サイズ、またはログ ファイルがパージされる前に保持される期間の長さを決定するログ設定の編集] ページには、デバイスのログの構成を追加できます。 組織の要件に従って、これらの設定を変更することができます。
-ms.openlocfilehash: 8003014f7b94824d0ef36a8d1328c6430e98d894
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: fac6dd8aae7c1081c268d35ea0336b41eb7c6f55
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969995"
 ---
 # <a name="device-log-configuration-edit"></a>デバイスのログの構成: 編集
  
@@ -41,9 +42,9 @@ ms.lasthandoff: 03/28/2018
     
 - **名**追加したり、デバイスのログの構成の名前を変更することができます。
     
-- **ファイルの最大サイズ (バイト単位)**ログ ファイルがパージされる前になることができます最大サイズを指定することができます。 デフォルトは、1,024,000 バイト (1 MB) です。
+- **ファイルの最大サイズ (バイト単位)** ログ ファイルがパージされる前になることができます最大サイズを指定することができます。 デフォルトは、1,024,000 バイト (1 MB) です。
     
-- **最大キャッシュ サイズ (バイト単位)**バイト単位でキャッシュをクリアする必要があり、データがログ ファイルに書き込まれることにする前にログ ファイルのキャッシュに保持できる情報の最大量を指定できます。 既定では 512,000 バイト (0.5 MB) です。
+- **最大キャッシュ サイズ (バイト単位)** バイト単位でキャッシュをクリアする必要があり、データがログ ファイルに書き込まれることにする前にログ ファイルのキャッシュに保持できる情報の最大量を指定できます。 既定では 512,000 バイト (0.5 MB) です。
     
 - **分 (1-60) のキャッシュをフラッシュするには**どのくらいの頻度を指定することがログ ファイルのキャッシュに格納された情報は、実際のログ ファイルに書き込まれます。 データがログに記録した後、キャッシュがクリアされます。 既定では 5 分です。
     
@@ -51,7 +52,4 @@ ms.lasthandoff: 03/28/2018
     
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[デバイスのログの構成](device-log-configuration.md)
-
+[デバイス ログの構成](device-log-configuration.md)

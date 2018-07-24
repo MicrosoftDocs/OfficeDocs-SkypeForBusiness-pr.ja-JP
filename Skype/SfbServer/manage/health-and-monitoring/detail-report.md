@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 の会議詳細レポート
+title: ビジネス サーバーの Skype で会議の詳細] レポート
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/13/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
-description: '概要: は、会議の詳細] レポートには、ビジネス サーバー 2015 の Skype の使用について説明します。'
-ms.openlocfilehash: 4c55b2f339aa3d591f01d73d0f60d8fbc0bb483f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、会議の詳細] レポートには、Skype ビジネス サーバーの使用について説明します。'
+ms.openlocfilehash: ebccaf35464c54eac6c1b8c5a2febf2ebea02b7e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971316"
 ---
-# <a name="conference-detail-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の会議詳細レポート
+# <a name="conference-detail-report-in-skype-for-business-server"></a>ビジネス サーバーの Skype で会議の詳細] レポート
  
-**の概要:**ビジネス サーバー 2015 の Skype で使用する会議の詳細レポートについて説明します。
+**の概要:** 会議の詳細] レポートには、Skype ビジネス サーバーの使用について説明します。
   
 会議詳細レポートには、電話会議に参加したすべてのユーザーに関する詳細な情報が示されます。たとえば、ユーザーが会議に参加した日時、ユーザーが電話会議から退場した日時、ユーザーが電話会議に接続するときに使用したエンドポイントのユーザー エージェントなどの情報を確認できます。各電話会議におけるユーザーの役割 (発表者、参加者など) に関する情報も確認できます。おそらく最も重要なことは、会議への参加と終了が正常に行われたユーザーと正常に行われなかったユーザーを簡単に確認できることです。
   
@@ -26,13 +26,13 @@ ms.lasthandoff: 03/28/2018
 
 会議詳細レポートには、次のレポートからアクセスできます。
   
-- [ビジネス サーバー 2015 の Skype での受付管理レポートの呼び出し](call-admission-control-report.md)] をクリックして、会議の詳細] のメトリック)
+- [ビジネス サーバーの Skype での受付管理レポートの呼び出し](call-admission-control-report.md)] をクリックして、会議の詳細] のメトリック)
     
-- [ビジネス サーバー 2015 の Skype の障害] ボックスの一覧のレポート](failure-list-report.md)] をクリックして会議の指標)
+- [Skype ビジネス サーバー用のエラー一覧のレポート](failure-list-report.md)] をクリックして会議の指標)
     
-- [ビジネス サーバー 2015 の Skype でのユーザー アクティビティ レポート](user-activity-report.md)] をクリックして会議 URI メトリック)
+- [Skype ビジネス サーバー用のユーザー アクティビティ レポート](user-activity-report.md)] をクリックして会議 URI メトリック)
     
-[会議の詳細] レポートからは、診断レポート (詳細) のメトリックをクリックすると、[ビジネス サーバー 2015 の Skype で診断レポート](diagnostic-report.md)を表示できます。
+[会議の詳細] レポートからは、診断レポート (詳細) のメトリックをクリックすると、 [Skype のビジネス サーバーの診断レポート](diagnostic-report.md)を表示できます。
   
 ## <a name="filters"></a>フィルター
 
@@ -42,9 +42,9 @@ ms.lasthandoff: 03/28/2018
 
 次の表は、会議詳細レポートの [電話会議情報] セクションに提供される情報を示しています。
   
-**会議情報の測定値**
+**電話会議情報の指標**
 
-|**名**|**説明**|
+|**名前**|**説明**|
 |:-----|:-----|
 |**[会議 URI]** <br/> |電話会議に割り当てられる URI。次に例を示します。  <br/> sip:kmyer@litwareinc.com;gruu;opaque=app:conf:focus:id:drg2y8v4  <br/> |
 |**[プールの FQDN]** <br/> |セッションに関係するレジストラー プールまたはエッジ サーバーの完全修飾名。  <br/> |
@@ -54,9 +54,9 @@ ms.lasthandoff: 03/28/2018
    
 次の表は、会議詳細レポートの [電話会議の参加] セクションに提供される情報を示しています。
   
-**会議への参加基準**
+**電話会議参加の指標**
 
-|**名**|**説明**|
+|**名前**|**説明**|
 |:-----|:-----|
 |**[ユーザー]** <br/> |会議に参加したユーザーの SIP アドレス。  <br/> |
 |**[役割]** <br/> |電話会議の参加者が担った役割 (発表者など)。  <br/> |
@@ -68,9 +68,9 @@ ms.lasthandoff: 03/28/2018
    
 会議の様相のセクションで、会議の詳細] レポートの情報を次の表に一覧します。
   
-**会議の様相の評価尺度**
+**電話会議のモダリティの指標**
 
-|**名**|**説明**|
+|**名前**|**説明**|
 |:-----|:-----|
 |**[ユーザー]** <br/> |会議に参加したユーザーの SIP アドレス。  <br/> |
 |**[参加時間]** <br/> |参加者が電話会議に参加した日時。  <br/> |

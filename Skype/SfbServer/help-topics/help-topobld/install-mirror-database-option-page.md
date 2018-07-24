@@ -3,7 +3,7 @@ title: ミラー データベースのオプション] ページをインスト�
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 description: ミラー データベースの設定を構成するには、以下を定義します。
-ms.openlocfilehash: c51c3c6e4ee4c86fe97830c639374ab9d97278da
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: aadb4ddc61603a827ff1e9f2bc1c2d332ad8d7db
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974593"
 ---
 # <a name="install-mirror-database-option-page"></a>ミラー データベースのオプション] ページをインストールします。
  
@@ -35,7 +36,4 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[ビジネス サーバー 2015 の Skype のバック エンド サーバーの高可用性の SQL のミラーリングを導入します。](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
-
+[Skype for Business Server 2015 でバックエンド サーバーの高可用性を実現するための SQL ミラーリングの展開](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)

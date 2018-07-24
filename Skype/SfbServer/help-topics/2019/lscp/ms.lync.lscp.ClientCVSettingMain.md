@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
+ROBOTS: NOINDEX, NOFOLLOW
 description: 環境内でサポートするクライアントのバージョンを指定するだけでなく、バージョン ポリシーを定義していないクライアントの既定のアクションを指定することも。 これにより、お客様の環境では、複数のクライアント バージョンのサポートに伴うコストを制御することができますで使用するクライアント バージョンを制限することができます。
-ms.openlocfilehash: f40a95956b2cee855dbdde0d9646afc44e187958
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 066079914d180faeb54dc682de4f6b628202c6cb
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19990731"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977371"
 ---
 # <a name="client-version-configuration"></a>クライアント バージョンの構成
  

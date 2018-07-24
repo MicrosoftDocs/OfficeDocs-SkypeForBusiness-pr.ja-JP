@@ -1,25 +1,25 @@
 ---
-title: Skype for Business Server 2015 でのレジストラー構成設定の管理
+title: ビジネス サーバーの Skype のレジストラー構成設定を管理します。
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
-description: '概要: ビジネス サーバー 2015 の Skype のレジストラー構成設定を管理します。'
-ms.openlocfilehash: 5cdcf1cba045f5105b1f375fbcebb22b7b00a25d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: ビジネス サーバーの Skype のレジストラー構成設定を管理します。'
+ms.openlocfilehash: 65dfae7e518ef1b561a6782f9555de2d5dd6a6fa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998996"
 ---
-# <a name="manage-registrar-configuration-settings-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのレジストラー構成設定の管理
+# <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>ビジネス サーバーの Skype のレジストラー構成設定を管理します。
  
-**の概要:**ビジネス サーバー 2015 の Skype のレジストラー構成設定を管理します。
+**の概要:** ビジネス サーバーの Skype のレジストラー構成設定を管理します。
   
 レジストラーを使用してプロキシ サーバーの認証方式を構成できます。指定する認証プロトコルにより、プール内のサーバーがクライアントに発行するチャレンジの種類が決まります。使用可能なプロトコルは以下のとおりです。
   
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/28/2018
     
 - **NTLM**つまり、パスワード ベースの認証、パスワードにチャレンジ応答型ハッシュ スキームを使用するクライアントに使用可能です。 これは、リモート ユーザーなど、キー配布センター (Kerberos ドメイン コントローラー) に接続できないクライアントの認証で使用できる唯一のクライアント認証方式です。 サーバーでリモート ユーザーのみの認証処理を行う場合は、NTLM を選択してください。
     
-- **証明書認証**これは、サーバーは、Lync の電話のエディションのクライアント、共通領域電話、ビジネス用の Skype、Lync の Windows ストア アプリから証明書を取得する必要がある場合に、新しい認証方法です。 Lync の電話のエディションのユーザー署名し個人識別番号 (PIN)、ビジネス サーバー 2015 の Skype を提供することで正常に認証し、ビジネス サーバーの準備、Skype、電話に SIP URI を準備した後、クライアントの署名証明書またはジョーを識別するユーザーの証明書 (Ex: SN=joe@contoso.com) に電話します。 この証明書は、レジストラー サービスと Web サービスでの認証に使用されます。
+- **証明書認証**これは、サーバーは、Lync の電話のエディションのクライアント、共通領域電話、ビジネス用の Skype、Lync の Windows ストア アプリから証明書を取得する必要がある場合に、新しい認証方法です。 Lync の電話のエディションのユーザー署名し個人識別番号 (PIN)、ビジネスのサーバー用の Skype を提供することで正常に認証し、ビジネス サーバーの準備、Skype、電話に SIP URI を準備した後、クライアントの署名証明書またはジョーを識別するユーザーの証明書 (Ex: SN=joe@contoso.com) に電話します。 この証明書は、レジストラー サービスと Web サービスでの認証に使用されます。
     
 > [!NOTE]
 > サーバーがリモートとエンタープライズ両方のクライアント認証をサポートする場合は、Kerberos と NTLM の両方を有効にすることをお勧めします。エッジ サーバーと内部サーバーは通信して、NTLM 認証のみがリモート クライアントに提供されるようにします。これらのサーバーで Kerberos のみが有効な場合、リモート ユーザーを認証できません。エンタープライズ ユーザーはサーバーに対しても認証を行い、Kerberos が使用されます。 
@@ -36,7 +36,7 @@ Lync Windows ストア アプリケーションのクライアントを使用す
   
 ### <a name="to-create-new-registrar-configuration-settings"></a>レジストラー構成設定を作成するには
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは2015。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは.
     
 2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。  
     
@@ -58,7 +58,7 @@ Lync Windows ストア アプリケーションのクライアントを使用す
     
 ## <a name="modify-existing-registrar-configuration-settings"></a>既存のレジストラー構成設定を変更する
 
-レジストラーを使用して、プロキシ サーバーの認証プロトコルを構成できます。 利用可能なプロトコルの詳細については、[ビジネス サーバー 2015 の Skype の管理レジストラー構成設定](registrar-configuration-settings.md)を参照してください。
+レジストラーを使用して、プロキシ サーバーの認証プロトコルを構成できます。 
   
 > [!NOTE]
 > サーバーがリモートとエンタープライズ両方のクライアント認証をサポートする場合は、Kerberos と NTLM の両方を有効にすることをお勧めします。エッジ サーバーと内部サーバーは通信して、NTLM 認証のみがリモート クライアントに提供されるようにします。これらのサーバーで Kerberos のみが有効な場合、リモート ユーザーを認証できません。エンタープライズ ユーザーはサーバーに対しても認証を行い、Kerberos が使用されます。 
@@ -67,7 +67,7 @@ Lync Windows ストア アプリケーションのクライアントを使用す
   
 ### <a name="to-modify-existing-registrar-configuration-settings"></a>既存のレジストラー構成設定を変更するには
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは2015。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは.
     
 2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。  
     
@@ -87,7 +87,7 @@ Lync Windows ストア アプリケーションのクライアントを使用す
     
 ### <a name="to-delete-registrar-configuration-settings"></a>レジストラー構成設定を削除するには
 
-1. RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは2015。
+1. RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは.
     
 2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
     

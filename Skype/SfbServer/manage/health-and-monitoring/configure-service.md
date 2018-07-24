@@ -1,27 +1,27 @@
 ---
-title: Skype for Business Server 2015 での高いパフォーマンスを実現する Mobility Service の構成
+title: Skype のビジネス サーバー用の高パフォーマンスのモバイル サービスを構成します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
-description: '概要: は、ビジネス サーバー 2015 の Skype では、モビリティ サービスについて説明します。'
-ms.openlocfilehash: 12f64ed75195bb94365686d76cdfca841e6c9c8e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、ビジネスのサーバーの Skype では、モビリティ サービスについて説明します。'
+ms.openlocfilehash: 5031d34a2fdcb1610325afbf58c5524a0ee28ca8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026807"
 ---
-# <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での高いパフォーマンスを実現する Mobility Service の構成
+# <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server"></a>Skype のビジネス サーバー用の高パフォーマンスのモバイル サービスを構成します。
  
-**の概要:**ビジネス サーバー 2015、Skype では、モビリティ サービスについて説明します。
+**の概要:** ビジネス サーバーは、Skype のモビリティ サービスについて説明します。
   
 > [!IMPORTANT]
-> このトピックは、ビジネス サーバー 2015 モビリティ サービス (Mcx) を Skype にのみ適用され、Lync Server 2013 の累積的な更新プログラムで提供されるようにユニファイド コミュニケーション Web API (UCWA) では適用されません: 年 2013年 2 月。 
+> このトピックは、ビジネス サーバー移動サービス (Mcx) の Skype にのみ適用し、Lync Server 2013 の累積的な更新プログラムで提供されるようにユニファイド コミュニケーション Web API (UCWA) では適用されません: 年 2013年 2 月。 
   
 モビリティ サービス (Mcx) では、インターネット インフォメーション サービス (IIS) 7.5 をインストールするとモビリティ サービスのインストーラーは、フロント エンド サーバー上でいくつかのパフォーマンス設定を構成します。 モビリティでは IIS 7.5 を使用することをお勧めします。 これらの設定は、同時ユーザー要求の最大数と、Mobility Service で利用できるスレッドの最大数に影響します。
   

@@ -1,26 +1,26 @@
 ---
-title: 会議を構成するビジネス サーバー 2015 の Skype での参加のページ
+title: 会議を構成するビジネス サーバーの Skype での参加のページ
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6537765e-4384-416f-92f1-a7f3b39ebe56
-description: '概要: 会議を構成する方法を学習する Skype のビジネス サーバー 2015 のページを結合します。'
-ms.openlocfilehash: c0b3ed39fc2f7a1a48635353cc1db673a4bd1cd5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: 会議を構成する方法を学習する Skype ビジネス サーバー用のページを結合します。'
+ms.openlocfilehash: 7574dee341e0226a6a6e2ee8c77cdfb2353beb5a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977615"
 ---
-# <a name="configure-the-meeting-join-page-in-skype-for-business-server-2015"></a>会議を構成するビジネス サーバー 2015 の Skype での参加のページ
+# <a name="configure-the-meeting-join-page-in-skype-for-business-server"></a>会議を構成するビジネス サーバーの Skype での参加のページ
  
-**の概要:**会議を構成する方法については Skype のビジネス サーバー 2015 のページを結合します。
+**の概要:** 会議を構成する方法については Skype ビジネス サーバー用のページを結合します。
   
-ユーザーが会議出席依頼、会議の会議のリンクをクリックすると結合のページは、ユーザーのコンピューターで、Skype のビジネスのクライアントが既にインストールされているかどうかを検出します。 クライアントが既にインストールされている場合、クライアントが開き、ミーティングに参加します。 クライアントがインストールされていない場合既定では、2015年バージョン Skype のビジネス クライアントが開きます。 
+ユーザーが会議出席依頼、会議の会議のリンクをクリックすると結合のページは、ユーザーのコンピューターで、Skype のビジネスのクライアントが既にインストールされているかどうかを検出します。 クライアントが既にインストールされている場合、クライアントが開き、ミーティングに参加します。 クライアントがインストールされていない場合既定ではビジネスの Skype クライアントを開きます。 
   
 ## <a name="configure-the-meeting-join-page"></a>会議を構成する結合のページ
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/28/2018
 
 |**パラメーターのセット CsWebServiceConfiguration**|**説明**|
 |:-----|:-----|
-|ShowJoinUsingLegacyClientLink  <br/> |ビジネス サーバー 2015 の Skype の設置型バージョンで使用するため、このパラメーターは廃止されました。  <br/> かどうか True に設定する、以外のクライアント アプリケーションを使用してミーティングに参加するユーザー ビジネス用の Skype は機会がある、現在のクライアント アプリケーションを使用してミーティングに参加します。 既定値は False です。  <br/> |
-|ShowAlternateJoinOptionsExpanded  <br/> |ビジネス サーバー 2015 の Skype の設置型バージョンで使用するため、このパラメーターは廃止されました。  <br/>  かどうかは True に設定すると、代替オプションのオンライン会議に参加するため自動的に展開され、ユーザーに表示します。 場合は False (既定値) に設定すると、これらのオプションを使用できるがユーザー自身でオプションの一覧を表示します。  <br/> |
+|ShowJoinUsingLegacyClientLink  <br/> |ビジネス サーバーの設置型バージョンの Skype を使用するため、このパラメーターは廃止されました。  <br/> かどうか True に設定する、以外のクライアント アプリケーションを使用してミーティングに参加するユーザー ビジネス用の Skype は機会がある、現在のクライアント アプリケーションを使用してミーティングに参加します。 既定値は False です。  <br/> |
+|ShowAlternateJoinOptionsExpanded  <br/> |ビジネス サーバーの設置型バージョンの Skype を使用するため、このパラメーターは廃止されました。  <br/>  かどうかは True に設定すると、代替オプションのオンライン会議に参加するため自動的に展開され、ユーザーに表示します。 場合は False (既定値) に設定すると、これらのオプションを使用できるがユーザー自身でオプションの一覧を表示します。  <br/> |
    
 

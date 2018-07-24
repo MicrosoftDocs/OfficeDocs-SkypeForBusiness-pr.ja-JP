@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 での会議の構成設定の変更
+title: 変更会議の Skype ビジネス サーバーの構成設定
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
-description: '概要: を変更する方法を説明する会議出席ビジネス サーバー 2015 の Skype の設定を構成します。'
-ms.openlocfilehash: 95f28f35859553f79fc6f74f8850f224bda54deb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: を変更する方法を学習する Skype ビジネス サーバーの構成設定に対応します。'
+ms.openlocfilehash: b4b8307711fcf7b120c867debe5ab3e2978f6ef7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978968"
 ---
-# <a name="modify-meeting-configuration-settings-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での会議の構成設定の変更
+# <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>変更会議の Skype ビジネス サーバーの構成設定
  
-**の概要:**変更する方法について説明会議出席ビジネス サーバー 2015 の Skype の設定を構成します。
+**の概要:** 変更する方法を学習 Skype ビジネス サーバーの構成設定に対応します。
   
 変更することができます Skype ビジネス サーバーのコントロール パネルを使用するか、Skype ビジネス サーバー管理シェルを使用して会議の構成設定。
   

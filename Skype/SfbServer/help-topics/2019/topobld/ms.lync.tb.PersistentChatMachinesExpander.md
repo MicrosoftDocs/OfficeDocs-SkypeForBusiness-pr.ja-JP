@@ -3,7 +3,6 @@ title: 常設チャット コンピューターのエキスパンダー
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,30 +10,15 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
-description: ライセンス認証や、サーバーまたはコンピューターの状態の設定に記載されているプールを使用して、展開済みの永続的なチャット サーバーまたは永続的なチャット サーバー プールを非アクティブ化します。 リスト内のサーバーまたはプールを選択し] をクリックするアクティブなサーバーまたはプールをアクティブとして設定するのには。
-ms.openlocfilehash: 30ffdd1f136f738ea21bec38242f86c6b3a5e360
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+description: ライセンス認証や、サーバーまたはコンピューターの状態の設定に記載されているプールを使用して、展開済みの永続的なチャット サーバーまたは永続的なチャット サーバー プールを非アクティブ化します。 一覧にあるサーバーまたはプールを選択し、[アクティブにする] をクリックすると、サーバーまたはプールはアクティブに設定されます。
+ms.openlocfilehash: 25a2dc09d45bb01be1f2e4e03093a3fe2186755a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974988"
 ---
 # <a name="persistent-chat-machines-expander"></a>常設チャット コンピューターのエキスパンダー
- 
-ライセンス認証や、サーバーまたは**コンピューターの状態の設定**に記載されているプールを使用して、展開済みの永続的なチャット サーバーまたは永続的なチャット サーバー プールを非アクティブ化します。 一覧にあるサーバーまたはプールを選択し、[**アクティブにする**] をクリックすると、サーバーまたはプールはアクティブに設定されます。
-  
-リスト内のサーバーまたはプールを選択することによって、非アクティブに展開済みの永続的なチャット サーバーまたは永続的なチャット サーバー プールを設定し、[**非アクティブ**] をクリックします。 ただし、少なくとも 1 台のサーバーがアクティブに設定されている必要があります。
-  
- [**OK**]: ダイアログでの変更を受け入れて確定します。
-  
- [**キャンセル**]: 変更を破棄してダイアログを閉じます。
-  
- [**ヘルプ**]: このヘルプ画面を表示します。
-  
-## <a name="see-also"></a>関連項目
 
-#### 
-
-[ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの計画](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
-  
-[ビジネス サーバー 2015 トポロジの場合、Skype に永続的なチャット サーバーを追加します。](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-
+> [!NOTE] 
+> 永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。 同じ機能は、チームで使用できます。 詳細については、[マイクロソフトのチームにビジネス用の Skype のアップグレード](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams)を参照してください。 永続的なチャットの使用が必要な場合、選択肢としてはチームにこの機能を必要とするユーザーを移行するか、ビジネス サーバー 2015 の Skype を使用し続けます。

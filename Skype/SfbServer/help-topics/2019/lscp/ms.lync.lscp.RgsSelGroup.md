@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
+ROBOTS: NOINDEX, NOFOLLOW
 description: 応答グループ キューは、エージェントが呼び出しに応答するまでの応答グループへの呼び出しを保持します。 キューには、エージェント グループが割り当てられます。 作成または、キューを編集するときは、キューに割り当てる 1 つまたは複数のエージェント グループを選択するのにグループの選択] ダイアログ ボックスを使用します。
-ms.openlocfilehash: 8b8ebcce726b92e40f20f077319dcec1272d35f2
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 288efe4395361b508e7ebe245155c55319161581
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974002"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967856"
 ---
 # <a name="select-groups"></a>グループを選択します。
  
