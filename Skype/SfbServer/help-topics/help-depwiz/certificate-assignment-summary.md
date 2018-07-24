@@ -3,7 +3,7 @@ title: 証明書の割り当て (概要)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,14 +12,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9478bf4-4e1a-46a2-bf76-3ff08a193523
 description: 証明書の割り当てが完了したら、前に割り当てられる証明書の詳細が一覧表示される証明書の割り当ての概要が表示されます。 サブジェクト名とサブジェクト代替名が正しいことを確認する情報を確認します。 証明書の概要を確認したら、次へをクリックします。
-ms.openlocfilehash: 1671706af0a3c6a3bf6b505177b4e6d22e40f257
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 55db559dd632302f68afc18606b22c09fb90fd78
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008140"
 ---
-# <a name="certificate-assignment-summary"></a><span data-ttu-id="eb10c-105">証明書の割り当て (概要)</span><span class="sxs-lookup"><span data-stu-id="eb10c-105">Certificate Assignment (Summary)</span></span>
+# <a name="certificate-assignment-summary"></a><span data-ttu-id="5f6ca-105">証明書の割り当て (概要)</span><span class="sxs-lookup"><span data-stu-id="5f6ca-105">Certificate Assignment (Summary)</span></span>
  
-<span data-ttu-id="eb10c-106">証明書の割り当てが完了したら、前に割り当てられる証明書の詳細が一覧表示される**証明書の割り当てのサマリー**が表示されます。</span><span class="sxs-lookup"><span data-stu-id="eb10c-106">Before the certificate assignment is finished, you are presented with a **Certificate Assignment Summary** that lists the details of the certificate that will be assigned.</span></span> <span data-ttu-id="eb10c-107">サブジェクト名とサブジェクト代替名が正しいことを確認する情報を確認します。</span><span class="sxs-lookup"><span data-stu-id="eb10c-107">Review the information to be sure that the subject name and the subject alternative names are correct.</span></span> <span data-ttu-id="eb10c-108">証明書の概要を確認したら、「**次へ**」をクリックしてします。</span><span class="sxs-lookup"><span data-stu-id="eb10c-108">When you have finished reviewing the certificate summary, click **Next**.</span></span>
+<span data-ttu-id="5f6ca-106">証明書の割り当てが完了したら、前に割り当てられる証明書の詳細が一覧表示される**証明書の割り当てのサマリー**が表示されます。</span><span class="sxs-lookup"><span data-stu-id="5f6ca-106">Before the certificate assignment is finished, you are presented with a **Certificate Assignment Summary** that lists the details of the certificate that will be assigned.</span></span> <span data-ttu-id="5f6ca-107">サブジェクト名とサブジェクト代替名が正しいことを確認する情報を確認します。</span><span class="sxs-lookup"><span data-stu-id="5f6ca-107">Review the information to be sure that the subject name and the subject alternative names are correct.</span></span> <span data-ttu-id="5f6ca-108">証明書の概要を確認したら、「**次へ**」をクリックしてします。</span><span class="sxs-lookup"><span data-stu-id="5f6ca-108">When you have finished reviewing the certificate summary, click **Next**.</span></span>
   
 

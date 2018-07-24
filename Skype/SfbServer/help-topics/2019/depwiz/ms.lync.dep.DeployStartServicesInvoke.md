@@ -10,18 +10,19 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
-description: コマンドの実行中のウィンドウの [概要] パネルには、ビジネスのサーバーの役割を持つサーバーを展開することで Skype のサービスを開始するに発行されたタスクのステータスが表示されます。 作業ウィンドウの概要には、サービス開始のリアルタイムの表示は行われません。 ビジネス サーバー サービスの Skype の初期起動処理を開始するのには長時間かかる場合があります。 タスクは、開始のコマンドを発行していますが、サービスが正常に開始されたかどうかを確認するために待機はしません。 サービスの開始とサービスの状態を監視する必要がある場合は、Windows サービス Microsoft 管理コンソール (MMC) を使用する必要があります。
-ms.openlocfilehash: b61cb966d7a3d9ba619ffcca14034f9899bba466
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: コマンドの実行中のウィンドウの [概要] パネルには、ビジネスのサーバーの役割を持つサーバーを展開することで Skype のサービスを開始するに発行されたタスクのステータスが表示されます。
+ms.openlocfilehash: 119f7027c09d67f8c1182e20186d568007f0ca71
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19965893"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026006"
 ---
-# <a name="start-services-invoke"></a><span data-ttu-id="449a1-107">サービスの開始 (起動)</span><span class="sxs-lookup"><span data-stu-id="449a1-107">Start Services (Invoke)</span></span>
+# <a name="start-services-invoke"></a><span data-ttu-id="3b049-103">サービスの開始 (起動)</span><span class="sxs-lookup"><span data-stu-id="3b049-103">Start Services (Invoke)</span></span>
  
-<span data-ttu-id="449a1-108">**コマンドの実行中**のウィンドウの [概要] パネルには、ビジネスのサーバーの役割を持つサーバーを展開することで Skype のサービスを開始するに発行されたタスクのステータスが表示されます。</span><span class="sxs-lookup"><span data-stu-id="449a1-108">The summary pane on the **Executing Commands** pane displays the status of the tasks issued to start the services for the Skype for Business Server role server that you are deploying.</span></span> <span data-ttu-id="449a1-109">作業ウィンドウの概要には、サービス開始のリアルタイムの表示は行われません。</span><span class="sxs-lookup"><span data-stu-id="449a1-109">The summary in the task pane does not represent a real-time indication of service startup.</span></span> <span data-ttu-id="449a1-110">ビジネス サーバー サービスの Skype の初期起動処理を開始するのには長時間かかる場合があります。</span><span class="sxs-lookup"><span data-stu-id="449a1-110">Some of the Skype for Business Server services may take an extended time to begin the initial startup process.</span></span> <span data-ttu-id="449a1-111">タスクは、開始のコマンドを発行していますが、サービスが正常に開始されたかどうかを確認するために待機はしません。</span><span class="sxs-lookup"><span data-stu-id="449a1-111">The tasks are issuing the command to start, but do not wait to determine if the service is successfully started.</span></span> <span data-ttu-id="449a1-112">サービスの開始とサービスの状態を監視する必要がある場合は、Windows サービス Microsoft 管理コンソール (MMC) を使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="449a1-112">If you must monitor the service startup and service status, you should use the Windows Services Microsoft Management Console (MMC).</span></span>
+<span data-ttu-id="3b049-104">**コマンドの実行中**のウィンドウの [概要] パネルには、ビジネスのサーバーの役割を持つサーバーを展開することで Skype のサービスを開始するに発行されたタスクのステータスが表示されます。</span><span class="sxs-lookup"><span data-stu-id="3b049-104">The summary pane on the **Executing Commands** pane displays the status of the tasks issued to start the services for the Skype for Business Server role server that you are deploying.</span></span> <span data-ttu-id="3b049-105">作業ウィンドウの概要には、サービス開始のリアルタイムの表示は行われません。</span><span class="sxs-lookup"><span data-stu-id="3b049-105">The summary in the task pane does not represent a real-time indication of service startup.</span></span> <span data-ttu-id="3b049-106">ビジネス サーバー サービスの Skype の初期起動処理を開始するのには長時間かかる場合があります。</span><span class="sxs-lookup"><span data-stu-id="3b049-106">Some of the Skype for Business Server services may take an extended time to begin the initial startup process.</span></span> <span data-ttu-id="3b049-107">タスクは、開始のコマンドを発行していますが、サービスが正常に開始されたかどうかを確認するために待機はしません。</span><span class="sxs-lookup"><span data-stu-id="3b049-107">The tasks are issuing the command to start, but do not wait to determine if the service is successfully started.</span></span> <span data-ttu-id="3b049-108">サービスの開始とサービスの状態を監視する必要がある場合は、Windows サービス Microsoft 管理コンソール (MMC) を使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3b049-108">If you must monitor the service startup and service status, you should use the Windows Services Microsoft Management Console (MMC).</span></span>
   
-<span data-ttu-id="449a1-p103">作業ウィンドウの下に、[**サービスの開始**] ログ ファイルを表示するドロップダウン リストがあります。ログ ファイルを表示するには、[**ログの表示**] をクリックします。タスクを完了するには、[**完了**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="449a1-p103">Under the task pane is a drop-down list that displays the **Start Services** log file. To view the log file, click **View Log**. Click **Finish** to complete the task.</span></span>
+<span data-ttu-id="3b049-p102">作業ウィンドウの下に、[**サービスの開始**] ログ ファイルを表示するドロップダウン リストがあります。ログ ファイルを表示するには、[**ログの表示**] をクリックします。タスクを完了するには、[**完了**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="3b049-p102">Under the task pane is a drop-down list that displays the **Start Services** log file. To view the log file, click **View Log**. Click **Finish** to complete the task.</span></span>
   
 

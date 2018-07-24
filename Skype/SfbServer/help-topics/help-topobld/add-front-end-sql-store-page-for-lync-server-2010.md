@@ -3,7 +3,7 @@ title: Lync Server 2010 のフロント エンドの Sql ストアのページ�
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,35 +12,36 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84bbd899-4ce1-4b3b-9bdb-a08cefb626d3
 description: 構成している新しいフロント エンド プールの SQL Server ストアのプロパティを定義するとします。
-ms.openlocfilehash: 2bea8b7c058d04cb20e2abb4d5f3867dc736cb64
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 95b5f33e400947b6e1990179f9838d6418a2bece
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006916"
 ---
-# <a name="add-front-end-sql-store-page-for-lync-server-2010"></a><span data-ttu-id="ad640-103">Lync Server 2010 のフロント エンドの Sql ストアのページを追加します。</span><span class="sxs-lookup"><span data-stu-id="ad640-103">Add Front End Sql Store Page for Lync Server 2010</span></span>
+# <a name="add-front-end-sql-store-page-for-lync-server-2010"></a><span data-ttu-id="0c5cd-103">Lync Server 2010 のフロント エンドの Sql ストアのページを追加します。</span><span class="sxs-lookup"><span data-stu-id="0c5cd-103">Add Front End Sql Store Page for Lync Server 2010</span></span>
  
-<span data-ttu-id="ad640-104">構成している新しいフロント エンド プールの SQL Server ストアのプロパティを定義するとします。</span><span class="sxs-lookup"><span data-stu-id="ad640-104">You define the properties of the SQL Server stores for the new Front End pool that you are configuring.</span></span>
+<span data-ttu-id="0c5cd-104">構成している新しいフロント エンド プールの SQL Server ストアのプロパティを定義するとします。</span><span class="sxs-lookup"><span data-stu-id="0c5cd-104">You define the properties of the SQL Server stores for the new Front End pool that you are configuring.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="ad640-105">Standard Edition サーバーを構成する場合、このダイアログ ボックスが表示されますが、設定を構成することはできません。</span><span class="sxs-lookup"><span data-stu-id="ad640-105">If you are configuring a Standard Edition server, this dialog will be displayed but you will not be able to configure settings.</span></span> <span data-ttu-id="ad640-106">[**次へ**] をクリックして続行します。</span><span class="sxs-lookup"><span data-stu-id="ad640-106">Click **Next** to continue.</span></span>
+> <span data-ttu-id="0c5cd-105">Standard Edition サーバーを構成する場合、このダイアログ ボックスが表示されますが、設定を構成することはできません。</span><span class="sxs-lookup"><span data-stu-id="0c5cd-105">If you are configuring a Standard Edition server, this dialog will be displayed but you will not be able to configure settings.</span></span> <span data-ttu-id="0c5cd-106">[**次へ**] をクリックして続行します。</span><span class="sxs-lookup"><span data-stu-id="0c5cd-106">Click **Next** to continue.</span></span>
   
-<span data-ttu-id="ad640-107">設定を構成できます。</span><span class="sxs-lookup"><span data-stu-id="ad640-107">Settings that you can configure:</span></span>
+<span data-ttu-id="0c5cd-107">設定を構成できます。</span><span class="sxs-lookup"><span data-stu-id="0c5cd-107">Settings that you can configure:</span></span>
   
-- <span data-ttu-id="ad640-108">**以前に定義された SQL Server ストアを使用する**: フロント エンド プールのストアの一覧から既存の SQL Server ストアを選択します。</span><span class="sxs-lookup"><span data-stu-id="ad640-108">**Use a previously defined SQL Server store**: Select an existing SQL Server store from the list for the Front End pool store.</span></span>
+- <span data-ttu-id="0c5cd-108">**以前に定義された SQL Server ストアを使用する**: フロント エンド プールのストアの一覧から既存の SQL Server ストアを選択します。</span><span class="sxs-lookup"><span data-stu-id="0c5cd-108">**Use a previously defined SQL Server store**: Select an existing SQL Server store from the list for the Front End pool store.</span></span>
     
-- <span data-ttu-id="ad640-109">新しい SQL Server ストアを作成する**新しい SQL Server の定義を保存**を選択します。</span><span class="sxs-lookup"><span data-stu-id="ad640-109">Select **Define a new SQL Server store** to create a new SQL Server store.</span></span>
+- <span data-ttu-id="0c5cd-109">新しい SQL Server ストアを作成する**新しい SQL Server の定義を保存**を選択します。</span><span class="sxs-lookup"><span data-stu-id="0c5cd-109">Select **Define a new SQL Server store** to create a new SQL Server store.</span></span>
     
-    <span data-ttu-id="ad640-110">**SQL Server の FQDN**で SQL Server の完全修飾ドメイン名を入力します。</span><span class="sxs-lookup"><span data-stu-id="ad640-110">You type the fully qualified domain name of the SQL Server in **SQL Server FQDN**</span></span>
+    <span data-ttu-id="0c5cd-110">**SQL Server の FQDN**で SQL Server の完全修飾ドメイン名を入力します。</span><span class="sxs-lookup"><span data-stu-id="0c5cd-110">You type the fully qualified domain name of the SQL Server in **SQL Server FQDN**</span></span>
     
-    <span data-ttu-id="ad640-111">の**既定のインスタンス**が最初に選択されます。</span><span class="sxs-lookup"><span data-stu-id="ad640-111">The **Default instance** is selected initially.</span></span> <span data-ttu-id="ad640-112">インスタンスを定義する場合は、**名前付きインスタンス**を選択し、作成する必要があるインスタンスの名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="ad640-112">If you prefer to define an instance, select **Named instance** and type the name of the instance that you need to create.</span></span>
+    <span data-ttu-id="0c5cd-111">の**既定のインスタンス**が最初に選択されます。</span><span class="sxs-lookup"><span data-stu-id="0c5cd-111">The **Default instance** is selected initially.</span></span> <span data-ttu-id="0c5cd-112">インスタンスを定義する場合は、**名前付きインスタンス**を選択し、作成する必要があるインスタンスの名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="0c5cd-112">If you prefer to define an instance, select **Named instance** and type the name of the instance that you need to create.</span></span>
     
- <span data-ttu-id="ad640-113">**戻る**: 前のダイアログに戻ります。</span><span class="sxs-lookup"><span data-stu-id="ad640-113">**Back**: Goes back to the previous dialog</span></span>
+ <span data-ttu-id="0c5cd-113">**戻る**: 前のダイアログに戻ります。</span><span class="sxs-lookup"><span data-stu-id="0c5cd-113">**Back**: Goes back to the previous dialog</span></span>
   
- <span data-ttu-id="ad640-114">**次**: 変更をコミットし、次のステップ] ダイアログ ボックスに移動</span><span class="sxs-lookup"><span data-stu-id="ad640-114">**Next**: Commits the changes and moves to the next step dialog</span></span>
+ <span data-ttu-id="0c5cd-114">**次**: 変更をコミットし、次のステップ] ダイアログ ボックスに移動</span><span class="sxs-lookup"><span data-stu-id="0c5cd-114">**Next**: Commits the changes and moves to the next step dialog</span></span>
   
- <span data-ttu-id="ad640-115">**キャンセル**: 変更を破棄し、構成をキャンセルします。</span><span class="sxs-lookup"><span data-stu-id="ad640-115">**Cancel**: Discards changes and cancels the configuration</span></span>
+ <span data-ttu-id="0c5cd-115">**キャンセル**: 変更を破棄し、構成をキャンセルします。</span><span class="sxs-lookup"><span data-stu-id="0c5cd-115">**Cancel**: Discards changes and cancels the configuration</span></span>
   
- <span data-ttu-id="ad640-116">**ヘルプ**: このトピックなどの情報のヘルプを表示</span><span class="sxs-lookup"><span data-stu-id="ad640-116">**Help**: Displays help information, such as this topic</span></span>
+ <span data-ttu-id="0c5cd-116">**ヘルプ**: このトピックなどの情報のヘルプを表示</span><span class="sxs-lookup"><span data-stu-id="0c5cd-116">**Help**: Displays help information, such as this topic</span></span>
   
 

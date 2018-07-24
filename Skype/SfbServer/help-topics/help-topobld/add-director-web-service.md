@@ -3,7 +3,7 @@ title: ディレクター Web サービスを追加します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,18 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3ed3bdde-c3b5-4fe9-a96b-37099cbd6234
 description: ベース URL は、https:// の部分を除いた URL の Web サービス ID です。 たとえば、プールの Web サービスの完全な URL は、 https://pool01.contoso.net、ベース URL は、pool01.contoso.net です。
-ms.openlocfilehash: c65d7d9276aaa394d1810136a97dcc8c075d3607
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e59511075fdc651312127e4aa0f8d6c18d9489fb
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006791"
 ---
-# <a name="add-director-web-service"></a><span data-ttu-id="8daa4-104">ディレクター Web サービスを追加します。</span><span class="sxs-lookup"><span data-stu-id="8daa4-104">Add Director Web Service</span></span>
+# <a name="add-director-web-service"></a><span data-ttu-id="393a1-104">ディレクター Web サービスを追加します。</span><span class="sxs-lookup"><span data-stu-id="393a1-104">Add Director Web Service</span></span>
  
-<span data-ttu-id="8daa4-105">ベース URL は、https:// の部分を除いた URL の Web サービス ID です。</span><span class="sxs-lookup"><span data-stu-id="8daa4-105">The base URL is the Web Services identity for the URL, minus the https://.</span></span> <span data-ttu-id="8daa4-106">たとえば、プールの Web サービスの完全な URL は、 https://pool01.contoso.net、ベース URL は、pool01.contoso.net です。</span><span class="sxs-lookup"><span data-stu-id="8daa4-106">For example, if the full URL for the Web Services of the pool is https://pool01.contoso.net, the base URL is pool01.contoso.net.</span></span>
+<span data-ttu-id="393a1-105">ベース URL は、https:// の部分を除いた URL の Web サービス ID です。</span><span class="sxs-lookup"><span data-stu-id="393a1-105">The base URL is the Web Services identity for the URL, minus the https://.</span></span> <span data-ttu-id="393a1-106">たとえば、プールの Web サービスの完全な URL は、 https://pool01.contoso.net、ベース URL は、pool01.contoso.net です。</span><span class="sxs-lookup"><span data-stu-id="393a1-106">For example, if the full URL for the Web Services of the pool is https://pool01.contoso.net, the base URL is pool01.contoso.net.</span></span>
   
-<span data-ttu-id="8daa4-107">単一のディレクターを展開する場合は、内部の Web サービス プール完全修飾ドメイン名 (FQDN) をオーバーライドできません。</span><span class="sxs-lookup"><span data-stu-id="8daa4-107">You cannot override the internal Web Services pool fully qualified domain name (FQDN) if you are deploying only a single Director.</span></span> <span data-ttu-id="8daa4-108">内部の別のベース URL を指定するには、ドメイン ネーム システム (DNS) の負荷分散ディレクターのプールを構成する場合 (とプールの FQDN とは異なる必要があります可能性があります、たとえば、内部の\<、ベース URL\>)。</span><span class="sxs-lookup"><span data-stu-id="8daa4-108">If you are configuring a Domain Name System (DNS) load balancing for pool of Directors, you can specify a different internal base URL (which must be different from the pool FQDN and could be, for example, internal-\<your base URL\>).</span></span>
+<span data-ttu-id="393a1-107">単一のディレクターを展開する場合は、内部の Web サービス プール完全修飾ドメイン名 (FQDN) をオーバーライドできません。</span><span class="sxs-lookup"><span data-stu-id="393a1-107">You cannot override the internal Web Services pool fully qualified domain name (FQDN) if you are deploying only a single Director.</span></span> <span data-ttu-id="393a1-108">内部の別のベース URL を指定するには、ドメイン ネーム システム (DNS) の負荷分散ディレクターのプールを構成する場合 (とプールの FQDN とは異なる必要があります可能性があります、たとえば、内部の\<、ベース URL\>)。</span><span class="sxs-lookup"><span data-stu-id="393a1-108">If you are configuring a Domain Name System (DNS) load balancing for pool of Directors, you can specify a different internal base URL (which must be different from the pool FQDN and could be, for example, internal-\<your base URL\>).</span></span>
   
-<span data-ttu-id="8daa4-109">異なる外部ベース URL を指定する名前付け規則を区別するために、内部のベース URL から。</span><span class="sxs-lookup"><span data-stu-id="8daa4-109">You can specify an external base URL that is different it from your internal base URL to differentiate domain naming.</span></span> <span data-ttu-id="8daa4-110">内部ドメインには、contoso.net、ですが、外部ドメイン名は、contoso.com などです。Contoso.com ドメイン名を使用して外部ベース URL を定義します。</span><span class="sxs-lookup"><span data-stu-id="8daa4-110">For example, your internal domain is contoso.net, but your external domain name is contoso.com. You would define the external base URL by using the contoso.com domain name.</span></span> <span data-ttu-id="8daa4-111">これは、エッジの展開のリバース プロキシ サーバーには重要です。</span><span class="sxs-lookup"><span data-stu-id="8daa4-111">This is important for reverse proxy servers for an edge deployment.</span></span> <span data-ttu-id="8daa4-112">外部ベース URL のドメイン名は、リバース プロキシの FQDN のドメイン名と同じにする必要があります。</span><span class="sxs-lookup"><span data-stu-id="8daa4-112">The external base URL domain name should be the same as the domain name of the FQDN of the reverse proxy.</span></span> 
+<span data-ttu-id="393a1-109">異なる外部ベース URL を指定する名前付け規則を区別するために、内部のベース URL から。</span><span class="sxs-lookup"><span data-stu-id="393a1-109">You can specify an external base URL that is different it from your internal base URL to differentiate domain naming.</span></span> <span data-ttu-id="393a1-110">内部ドメインには、contoso.net、ですが、外部ドメイン名は、contoso.com などです。</span><span class="sxs-lookup"><span data-stu-id="393a1-110">For example, your internal domain is contoso.net, but your external domain name is contoso.com.</span></span> <span data-ttu-id="393a1-111">Contoso.com ドメイン名を使用して外部ベース URL を定義します。</span><span class="sxs-lookup"><span data-stu-id="393a1-111">You would define the external base URL by using the contoso.com domain name.</span></span> <span data-ttu-id="393a1-112">これは、エッジの展開のリバース プロキシ サーバーには重要です。</span><span class="sxs-lookup"><span data-stu-id="393a1-112">This is important for reverse proxy servers for an edge deployment.</span></span> <span data-ttu-id="393a1-113">外部ベース URL のドメイン名は、リバース プロキシの FQDN のドメイン名と同じにする必要があります。</span><span class="sxs-lookup"><span data-stu-id="393a1-113">The external base URL domain name should be the same as the domain name of the FQDN of the reverse proxy.</span></span> 
   
 

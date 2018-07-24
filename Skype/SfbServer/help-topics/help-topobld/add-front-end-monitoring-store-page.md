@@ -3,7 +3,7 @@ title: フロント エンドの監視ストアのページを追加します。
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,41 +12,39 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 description: 次のプロパティを構成することによって SQL Server の監視ストアを定義します。
-ms.openlocfilehash: fe95cab603729736b0483774baa7111837a31c8b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ea2a477bc970f0f431f2290b40bcb2b100ccc942
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967720"
 ---
-# <a name="add-front-end-monitoring-store-page"></a><span data-ttu-id="449af-103">フロント エンドの監視ストアのページを追加します。</span><span class="sxs-lookup"><span data-stu-id="449af-103">Add Front End Monitoring Store Page</span></span>
+# <a name="add-front-end-monitoring-store-page"></a><span data-ttu-id="78200-103">フロント エンドの監視ストアのページを追加します。</span><span class="sxs-lookup"><span data-stu-id="78200-103">Add Front End Monitoring Store Page</span></span>
  
-<span data-ttu-id="449af-104">次のプロパティを構成することによって**SQL Server の監視ストアを定義**します。</span><span class="sxs-lookup"><span data-stu-id="449af-104">You **Define the Monitoring SQL Server store** by configuring the following properties:</span></span>
+<span data-ttu-id="78200-104">次のプロパティを構成することによって**SQL Server の監視ストアを定義**します。</span><span class="sxs-lookup"><span data-stu-id="78200-104">You **Define the Monitoring SQL Server store** by configuring the following properties:</span></span>
   
-- <span data-ttu-id="449af-105">**SQL Server の監視を格納**: SQL Server の完全修飾ドメイン名 (および、必要に応じてインスタンス) を一覧から選択します。</span><span class="sxs-lookup"><span data-stu-id="449af-105">**Monitoring SQL Server store**: Select a SQL Server fully qualified domain name (and, optionally an instance) from the list.</span></span>
+- <span data-ttu-id="78200-105">**SQL Server の監視を格納**: SQL Server の完全修飾ドメイン名 (および、必要に応じてインスタンス) を一覧から選択します。</span><span class="sxs-lookup"><span data-stu-id="78200-105">**Monitoring SQL Server store**: Select a SQL Server fully qualified domain name (and, optionally an instance) from the list.</span></span>
     
-    <span data-ttu-id="449af-106">新しい SQL Server の FQDN の定義、およびオプションでサーバーの監視ストアのインスタンス名を作成する**新規**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="449af-106">Click **New** to create a new SQL Server FQDN definition, and optionally an instance name for the Monitoring Server store.</span></span>
+    <span data-ttu-id="78200-106">新しい SQL Server の FQDN の定義、およびオプションでサーバーの監視ストアのインスタンス名を作成する**新規**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="78200-106">Click **New** to create a new SQL Server FQDN definition, and optionally an instance name for the Monitoring Server store.</span></span>
     
-- <span data-ttu-id="449af-107">データベース ミラーリング監視サーバーを追加する場合は、**ストアを有効にする SQL Server のミラー化**] チェック ボックスを選択します。</span><span class="sxs-lookup"><span data-stu-id="449af-107">Select the **Enable SQL Server store mirroring** check box if you want to add database mirroring for the Monitoring Server.</span></span>
+- <span data-ttu-id="78200-107">データベース ミラーリング監視サーバーを追加する場合は、**ストアを有効にする SQL Server のミラー化**] チェック ボックスを選択します。</span><span class="sxs-lookup"><span data-stu-id="78200-107">Select the **Enable SQL Server store mirroring** check box if you want to add database mirroring for the Monitoring Server.</span></span>
     
-    <span data-ttu-id="449af-108">リストから**SQL Server の監視は、ミラーを格納**する既存を選択します。</span><span class="sxs-lookup"><span data-stu-id="449af-108">Select an existing **Monitoring SQL Server store mirror** from the list.</span></span>
+    <span data-ttu-id="78200-108">リストから**SQL Server の監視は、ミラーを格納**する既存を選択します。</span><span class="sxs-lookup"><span data-stu-id="78200-108">Select an existing **Monitoring SQL Server store mirror** from the list.</span></span>
     
-    <span data-ttu-id="449af-109">新しい SQL Server の FQDN の定義、および必要に応じてミラー ストアのインスタンス名を作成する**新規**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="449af-109">Click **New** to create a new SQL Server FQDN definition, and optionally an instance name for the mirror store.</span></span>
+    <span data-ttu-id="78200-109">新しい SQL Server の FQDN の定義、および必要に応じてミラー ストアのインスタンス名を作成する**新規**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="78200-109">Click **New** to create a new SQL Server FQDN definition, and optionally an instance name for the mirror store.</span></span>
     
-- <span data-ttu-id="449af-110">**ストアを有効にする SQL Server のミラーリング**を選択した場合は、必要に応じて**使用して SQL Server の自動フェイル オーバー機能を有効にする補助をミラーリングする**ミラーリング監視ストアを一覧から、SQL Server を選択するを選択します。</span><span class="sxs-lookup"><span data-stu-id="449af-110">If you selected **Enable SQL Server store mirroring**, optionally select **Use SQL Server mirroring witness to enable automatic failover** to select a SQL Server mirroring witness store from the list.</span></span>
+- <span data-ttu-id="78200-110">**ストアを有効にする SQL Server のミラーリング**を選択した場合は、必要に応じて**使用して SQL Server の自動フェイル オーバー機能を有効にする補助をミラーリングする**ミラーリング監視ストアを一覧から、SQL Server を選択するを選択します。</span><span class="sxs-lookup"><span data-stu-id="78200-110">If you selected **Enable SQL Server store mirroring**, optionally select **Use SQL Server mirroring witness to enable automatic failover** to select a SQL Server mirroring witness store from the list.</span></span>
     
-    <span data-ttu-id="449af-111">新しい SQL Server の FQDN の定義、および必要に応じてミラーリング監視ストアのインスタンス名を作成する**新規**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="449af-111">Click **New** to create a new SQL Server FQDN definition, and optionally an instance name for the mirroring witness store.</span></span>
+    <span data-ttu-id="78200-111">新しい SQL Server の FQDN の定義、および必要に応じてミラーリング監視ストアのインスタンス名を作成する**新規**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="78200-111">Click **New** to create a new SQL Server FQDN definition, and optionally an instance name for the mirroring witness store.</span></span>
     
-<span data-ttu-id="449af-112">前のプール定義ダイアログに戻るには、[**戻る**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="449af-112">Click **Back** to go back to the previous pool definition dialog.</span></span>
+<span data-ttu-id="78200-112">前のプール定義ダイアログに戻るには、[**戻る**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="78200-112">Click **Back** to go back to the previous pool definition dialog.</span></span>
   
-<span data-ttu-id="449af-113">構成を続行するのには、このダイアログ ボックスのオプションの入力が終了したら**次へ**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="449af-113">Click **Next** after you have finished entering the options for this dialog to proceed with the configuration.</span></span>
+<span data-ttu-id="78200-113">構成を続行するのには、このダイアログ ボックスのオプションの入力が終了したら**次へ**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="78200-113">Click **Next** after you have finished entering the options for this dialog to proceed with the configuration.</span></span>
   
-<span data-ttu-id="449af-114">すべての変更と、ウィザードを終了する**キャンセル**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="449af-114">Click **Cancel** to discard all changes and end the wizard.</span></span>
+<span data-ttu-id="78200-114">すべての変更と、ウィザードを終了する**キャンセル**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="78200-114">Click **Cancel** to discard all changes and end the wizard.</span></span>
   
-<span data-ttu-id="449af-115">このページのような状況依存のヘルプにアクセスするには、[**ヘルプ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="449af-115">Click **Help** to access context sensitive help, such as this page.</span></span>
+<span data-ttu-id="78200-115">このページのような状況依存のヘルプにアクセスするには、[**ヘルプ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="78200-115">Click **Help** to access context sensitive help, such as this page.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="449af-116">関連項目</span><span class="sxs-lookup"><span data-stu-id="449af-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="78200-116">関連項目</span><span class="sxs-lookup"><span data-stu-id="78200-116">See also</span></span>
 
-#### 
-
-[<span data-ttu-id="449af-117">ビジネス サーバー 2015 の Skype でのフロント エンド プールと監視ストアを関連付ける</span><span class="sxs-lookup"><span data-stu-id="449af-117">Associate a monitoring store with a Front End pool in Skype for Business Server 2015</span></span>](../../deploy/deploy-monitoring/associate-a-monitoring-store.md)
-
+[<span data-ttu-id="78200-117">Skype for Business Server 2015 での監視ストアとフロントエンド プールの関連付け</span><span class="sxs-lookup"><span data-stu-id="78200-117">Associate a monitoring store with a Front End pool in Skype for Business Server 2015</span></span>](../../deploy/deploy-monitoring/associate-a-monitoring-store.md)

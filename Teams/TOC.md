@@ -195,7 +195,6 @@
 ## アプリとサービス
 ### [Teams でのアプリの管理設定](admin-settings.md)
 ### [Teams でプライベートのチャットやチャネルのボットを追加する](add-bots.md)
-### [チーム テナント アプリケーション カタログにアプリケーションを発行します。](tenant-apps-catalog-teams.md)
 ### [Teams で組み込みタブとカスタム タブを使用する](built-in-custom-tabs.md)
 ### [Teams で Office 365 コネクタとカスタム コネクタを使用する](office-365-custom-connectors.md)
 ### [T-Bot を使用して Teams のユーザーをサポートする](t-bot.md)

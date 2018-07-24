@@ -10,22 +10,23 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
+ROBOTS: NOINDEX, NOFOLLOW
 description: ブロック、警告メッセージを送信、または (可能) にする (ブロック、または警告メッセージを送信) をオンまたはオフにできるようにするハイパーリンクの種類を選択するのには、[ハイパーリンク プレフィックスの選択] ダイアログ ボックスを使用して、下にあるカテゴリの中から、拡張子のチェック ボックスハイパーリンクのプレフィックスです。 矢印をクリックして、カテゴリを展開し、すべてのカテゴリのハイパーリンクのプレフィックスを表示します。 すべてのカテゴリのプレフィックスのハイパーリンクを選択する場合は、カテゴリ名を選択します。
-ms.openlocfilehash: 85b2e240921e18dcb596bf930faf88894f4a5a5e
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 4fbceccc00d95466190859d6eb8a9be9e5b4134b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964738"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989451"
 ---
-# <a name="select-hyperlink-prefix"></a><span data-ttu-id="1a991-105">ハイパーリンクのプレフィックスを選択します。</span><span class="sxs-lookup"><span data-stu-id="1a991-105">Select Hyperlink Prefix</span></span>
+# <a name="select-hyperlink-prefix"></a><span data-ttu-id="b2e26-105">ハイパーリンクのプレフィックスを選択します。</span><span class="sxs-lookup"><span data-stu-id="b2e26-105">Select Hyperlink Prefix</span></span>
  
-<span data-ttu-id="1a991-106">ブロック、警告メッセージを送信、または (可能) にする (ブロック、または警告メッセージを送信) をオンまたはオフにできるようにするハイパーリンクの種類を選択するのには、[**ハイパーリンク プレフィックスの選択**] ダイアログ ボックスを使用してから、その拡張機能のチェック ボックスを[**ハイパーリンク プレフィックス**] カテゴリです。</span><span class="sxs-lookup"><span data-stu-id="1a991-106">Use the **Select Hyperlink Prefix** dialog box to select the types of hyperlinks that you want to block, send a warning message, or allow by selecting (to block or send a warning message) or clearing (to allow) the check boxes for their extensions from the categories under **Hyperlink prefixes**.</span></span> <span data-ttu-id="1a991-107">矢印をクリックして、カテゴリを展開し、すべてのカテゴリのハイパーリンクのプレフィックスを表示します。</span><span class="sxs-lookup"><span data-stu-id="1a991-107">Click the arrow to expand a category and view all of the hyperlink prefixes for that category.</span></span> <span data-ttu-id="1a991-108">すべてのカテゴリのプレフィックスのハイパーリンクを選択する場合は、カテゴリ名を選択します。</span><span class="sxs-lookup"><span data-stu-id="1a991-108">If you want to select all of the hyperlink prefixes for a category, select the category name.</span></span> 
+<span data-ttu-id="b2e26-106">ブロック、警告メッセージを送信、または (可能) にする (ブロック、または警告メッセージを送信) をオンまたはオフにできるようにするハイパーリンクの種類を選択するのには、[**ハイパーリンク プレフィックスの選択**] ダイアログ ボックスを使用してから、その拡張機能のチェック ボックスを[**ハイパーリンク プレフィックス**] カテゴリです。</span><span class="sxs-lookup"><span data-stu-id="b2e26-106">Use the **Select Hyperlink Prefix** dialog box to select the types of hyperlinks that you want to block, send a warning message, or allow by selecting (to block or send a warning message) or clearing (to allow) the check boxes for their extensions from the categories under **Hyperlink prefixes**.</span></span> <span data-ttu-id="b2e26-107">矢印をクリックして、カテゴリを展開し、すべてのカテゴリのハイパーリンクのプレフィックスを表示します。</span><span class="sxs-lookup"><span data-stu-id="b2e26-107">Click the arrow to expand a category and view all of the hyperlink prefixes for that category.</span></span> <span data-ttu-id="b2e26-108">すべてのカテゴリのプレフィックスのハイパーリンクを選択する場合は、カテゴリ名を選択します。</span><span class="sxs-lookup"><span data-stu-id="b2e26-108">If you want to select all of the hyperlink prefixes for a category, select the category name.</span></span> 
   
-<span data-ttu-id="1a991-109">**ハイパーリンクのプレフィックス**のハイパーリンクのプレフィックスを選択することが記載されている表示されない場合] の下**の一覧に新しいハイパーリンクのプレフィックスを追加**、テキスト ボックスに拡張子を入力し、し、[**追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="1a991-109">If you do not see a hyperlink prefix that you want to select listed in **Hyperlink prefixes**, type the extension in the text box under **Add new hyperlink prefixes to the list**, and then click **Add**.</span></span> 
+<span data-ttu-id="b2e26-109">**ハイパーリンクのプレフィックス**のハイパーリンクのプレフィックスを選択することが記載されている表示されない場合] の下**の一覧に新しいハイパーリンクのプレフィックスを追加**、テキスト ボックスに拡張子を入力し、し、[**追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="b2e26-109">If you do not see a hyperlink prefix that you want to select listed in **Hyperlink prefixes**, type the extension in the text box under **Add new hyperlink prefixes to the list**, and then click **Add**.</span></span> 
   
-<span data-ttu-id="1a991-110">ハイパーリンクのプレフィックスのすべてを**選択したハイパーリンクのプレフィックス**] ボックスの一覧に追加した後 [ **OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="1a991-110">After you have added all of the hyperlink prefixes that you want to the **Selected hyperlink prefixes** list, click **OK**.</span></span>
+<span data-ttu-id="b2e26-110">ハイパーリンクのプレフィックスのすべてを**選択したハイパーリンクのプレフィックス**] ボックスの一覧に追加した後 [ **OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="b2e26-110">After you have added all of the hyperlink prefixes that you want to the **Selected hyperlink prefixes** list, click **OK**.</span></span>
   
-<span data-ttu-id="1a991-111">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネスのサーバー用の Skype の管理](../../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="1a991-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server](../../../manage/manage.md).</span></span>
+ 
   
 

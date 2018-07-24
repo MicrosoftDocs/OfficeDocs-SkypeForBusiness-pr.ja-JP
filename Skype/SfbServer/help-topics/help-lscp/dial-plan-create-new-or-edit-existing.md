@@ -3,7 +3,7 @@ title: ダイヤル プランの新規作成または既存の編集
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,23 +12,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 8288194807003abe3e76b244ddc9f5172d152393
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 14a71d1ed3b60f5e258156eb36c8a5643257c7ca
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981010"
 ---
-# <a name="dial-plan-create-new-or-edit-existing"></a><span data-ttu-id="e93b2-104">ダイヤル プラン: 新規作成または既存の編集</span><span class="sxs-lookup"><span data-stu-id="e93b2-104">Dial Plan: Create New or Edit Existing</span></span>
+# <a name="dial-plan-create-new-or-edit-existing"></a><span data-ttu-id="b9ac0-104">ダイヤル プラン: 新規作成または既存の編集</span><span class="sxs-lookup"><span data-stu-id="b9ac0-104">Dial Plan: Create New or Edit Existing</span></span>
  
-<span data-ttu-id="e93b2-p102">目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="e93b2-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="b9ac0-p102">目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="b9ac0-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="e93b2-107">作成またはビジネス サーバー 2015 の Skype のダイヤル プランを変更します。</span><span class="sxs-lookup"><span data-stu-id="e93b2-107">Create or modify a dial plan in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/dial-plans.md)
+- [<span data-ttu-id="b9ac0-107">Skype for Business 2015 でのダイヤル プランの作成または変更</span><span class="sxs-lookup"><span data-stu-id="b9ac0-107">Create or modify a dial plan in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/dial-plans.md)
     
-- [<span data-ttu-id="e93b2-108">ダイヤル プランを変更します。</span><span class="sxs-lookup"><span data-stu-id="e93b2-108">Modify a Dial Plan</span></span>](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
+- [<span data-ttu-id="b9ac0-108">ダイヤル プランを変更します。</span><span class="sxs-lookup"><span data-stu-id="b9ac0-108">Modify a Dial Plan</span></span>](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
     
-- [<span data-ttu-id="e93b2-109">作成またはビジネス 2015年の Skype の正規化ルールを変更します。</span><span class="sxs-lookup"><span data-stu-id="e93b2-109">Create or modify a normalization rule in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [<span data-ttu-id="b9ac0-109">Skype for Business 2015 での正規化ルールの作成または変更</span><span class="sxs-lookup"><span data-stu-id="b9ac0-109">Create or modify a normalization rule in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/normalization-rules.md)
     
-- [<span data-ttu-id="e93b2-110">正規化ルールを手動で変更をします。</span><span class="sxs-lookup"><span data-stu-id="e93b2-110">Create or Modify a Normalization Rule Manually</span></span>](http://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
+- [<span data-ttu-id="b9ac0-110">正規化ルールを手動で変更をします。</span><span class="sxs-lookup"><span data-stu-id="b9ac0-110">Create or Modify a Normalization Rule Manually</span></span>](http://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
     
-<span data-ttu-id="e93b2-111">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="e93b2-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="b9ac0-111">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="b9ac0-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

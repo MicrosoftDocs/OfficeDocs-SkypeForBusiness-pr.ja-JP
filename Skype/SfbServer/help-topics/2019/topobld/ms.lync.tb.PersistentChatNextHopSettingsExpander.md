@@ -3,7 +3,6 @@ title: 常設チャットの次ホップ設定エキスパンダー
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,27 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
 description: 永続的なチャットの次ホップ プールを構成するには、フロント エンド サーバーまたはフロント エンド プールをリストから選択します。
-ms.openlocfilehash: cd7051aac31b185f619e254e0856f7f2af72842e
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: d1734e46b33234b10a61e0e15b3e861e3f5d9915
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026660"
 ---
-# <a name="persistent-chat-next-hop-settings-expander"></a><span data-ttu-id="5cfab-103">常設チャットの次ホップ設定エキスパンダー</span><span class="sxs-lookup"><span data-stu-id="5cfab-103">Persistent Chat Next Hop Settings Expander</span></span>
- 
-<span data-ttu-id="5cfab-104">永続的なチャットの**次ホップ プール**を構成するには、フロント エンド サーバーまたはフロント エンド プールをリストから選択します。</span><span class="sxs-lookup"><span data-stu-id="5cfab-104">You configure the Persistent Chat **Next hop pool** by selecting a Front End Server or Front End pool from the list.</span></span>
-  
- <span data-ttu-id="5cfab-105">[**OK**]: ダイアログでの変更を受け入れて確定します。</span><span class="sxs-lookup"><span data-stu-id="5cfab-105">**OK** Accepts and commits changes to the dialog.</span></span>
-  
- <span data-ttu-id="5cfab-106">[**キャンセル**]: 変更を破棄してダイアログを閉じます。</span><span class="sxs-lookup"><span data-stu-id="5cfab-106">**Cancel** Discards changes and closes the dialog.</span></span>
-  
- <span data-ttu-id="5cfab-107">[**ヘルプ**]: このヘルプ画面を表示します。</span><span class="sxs-lookup"><span data-stu-id="5cfab-107">**Help** Displays this help screen.</span></span>
-  
-## <a name="see-also"></a><span data-ttu-id="5cfab-108">関連項目</span><span class="sxs-lookup"><span data-stu-id="5cfab-108">See also</span></span>
+# <a name="persistent-chat-next-hop-settings-expander"></a><span data-ttu-id="37f31-103">常設チャットの次ホップ設定エキスパンダー</span><span class="sxs-lookup"><span data-stu-id="37f31-103">Persistent Chat Next Hop Settings Expander</span></span>
 
-#### 
-
-[<span data-ttu-id="5cfab-109">ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの計画</span><span class="sxs-lookup"><span data-stu-id="5cfab-109">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
-  
-[<span data-ttu-id="5cfab-110">ビジネス サーバー 2015 トポロジの場合、Skype に永続的なチャット サーバーを追加します。</span><span class="sxs-lookup"><span data-stu-id="5cfab-110">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-
+> [!NOTE] 
+> <span data-ttu-id="37f31-104">永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="37f31-104">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="37f31-105">同じ機能は、チームで使用できます。</span><span class="sxs-lookup"><span data-stu-id="37f31-105">The same functionality is available in Teams.</span></span> <span data-ttu-id="37f31-106">詳細については、[マイクロソフトのチームにビジネス用の Skype のアップグレード](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="37f31-106">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="37f31-107">永続的なチャットの使用が必要な場合、選択肢としてはチームにこの機能を必要とするユーザーを移行するか、ビジネス サーバー 2015 の Skype を使用し続けます。</span><span class="sxs-lookup"><span data-stu-id="37f31-107">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
