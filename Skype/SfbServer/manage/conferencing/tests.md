@@ -1,25 +1,24 @@
 ---
-title: Skype for Business Server 2015 でのダイヤルイン会議のテスト
+title: Skype のビジネス サーバーのダイヤルイン会議をテストします。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
-description: '概要: は、Skype のビジネス サーバー 2015 のダイヤルイン会議をテストする方法を説明します。'
-ms.openlocfilehash: 7e6e53d5d4ee3e3e28beadc54ca86a79c6118637
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: '概要: は、Skype のビジネス サーバーのダイヤルイン会議をテストする方法を説明します。'
+ms.openlocfilehash: 258c860a0a808b40384a766bc5151e671789a03c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569272"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966413"
 ---
-# <a name="test-dial-in-conferencing-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのダイヤルイン会議のテスト
+# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Skype のビジネス サーバーのダイヤルイン会議をテストします。
  
-**の概要:** Skype のビジネス サーバー 2015 のダイヤルイン会議をテストする方法について説明します。
+**の概要:** Skype のビジネス サーバーのダイヤルイン会議をテストする方法について説明します。
   
 ダイヤルイン会議構成の最後の確認作業として、どのアクセス番号も使用しないダイヤルイン会議の地域があるダイヤル プランやダイヤルイン会議の地域が指定されていないアクセス番号を検索します。 ダイヤルイン会議の設定の Web ページとダイヤルイン アクセス番号が正しく動作していることも確認する必要があります。
   

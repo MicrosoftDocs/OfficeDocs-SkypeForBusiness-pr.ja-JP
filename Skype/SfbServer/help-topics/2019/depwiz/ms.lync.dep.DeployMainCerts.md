@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 332ec40f-78be-440a-8c1d-ada6114897db
+ROBOTS: NOINDEX, NOFOLLOW
 description: '手順 3: を要求するには、インストールまたは実行をクリックすると、証明書ウィザードで証明書の開始を割り当てます。 ウィザードで構成されている証明書は、ビジネスのサーバー トポロジが構成され、中央管理ストアにトポロジ ビルダーによって公開されるため、Skype の定義に基づいています。 を組織内のオンライン証明機関 (CA) の証明書ウィザードを正常に実行するには、コンピューターのローカル管理者グループのメンバーであるユーザーとしてコンピューターにログオンしている必要があります。 コンピューターと CA が存在するドメインで認証されたドメイン ユーザーである必要があります。 証明書ウィザードでは、組織の CA にアクセスするための代替の資格情報を指定する機能を提供します。'
-ms.openlocfilehash: 12f55778d5c8652c9b04d3d26193dae75c2dad53
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: cf61a6e2c065ea01e18ae5935c3b4e0e49d9ea36
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19992140"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966216"
 ---
 # <a name="request-install-or-assign-certificates"></a>証明書の要求、インストール、または割り当て
  

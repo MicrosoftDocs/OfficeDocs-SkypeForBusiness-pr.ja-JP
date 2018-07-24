@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 の診断レポート
+title: Skype ビジネス サーバーの診断レポート
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-description: '概要: は、Skype のビジネス サーバー 2015 の診断レポートについて説明します。'
-ms.openlocfilehash: 86639f5687cb6d19ff18c9aafb869a74fb777113
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、Skype のビジネス サーバーの診断レポートについて説明します。'
+ms.openlocfilehash: 15ef3d6e5663dee7ec0056ed48dc45119ad09db2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966385"
 ---
-# <a name="diagnostic-report-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の診断レポート
+# <a name="diagnostic-report-in-skype-for-business-server"></a>Skype ビジネス サーバーの診断レポート
  
-**の概要:**ビジネス サーバー 2015 の Skype で診断レポートについて説明します。
+**の概要:** Skype のビジネス サーバーの診断レポートについて説明します。
   
 診断レポートは、失敗したセッションの診断およびトラブルシューティングの情報を提供します。 この情報には、診断の ID とセッションが失敗したときに報告された診断ヘッダーの両方が含まれています。 診断 ID は、(ms 診断ヘッダーの形式) で診断ヘッダー診断 ID に対して、付属の説明を提供しますが、SIP メッセージに関連付けられた一意の識別子 レポートには、レポート コンポーネントによって認識されている重要なトラブルシューティングの詳細も含まれています。 例:
   
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/28/2018
     
 ## <a name="accessing-the-diagnostic-report"></a>診断レポートへのアクセス
 
-診断レポートは、[ビジネス サーバー 2015 の Skype でのピア ツー ピア セッション詳細レポート](peer-to-peer-session-detail-report.md)または、会議の詳細] レポートのいずれかの診断レポート (詳細) のメトリックをクリックしてアクセスできます。
+診断レポートは、[ビジネスのサーバー用の Skype でのピア ツー ピア セッション詳細レポート](peer-to-peer-session-detail-report.md)または、会議の詳細] レポートのいずれかの診断レポート (詳細) のメトリックをクリックしてアクセスできます。
   
 ## <a name="filters"></a>フィルター
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 03/28/2018
   
 **診断レポートの指標**
 
-|**名**|**この項目を並べ替えることができますか。**|**説明**|
+|**名前**|**この項目での並べ替え**|**説明**|
 |:-----|:-----|:-----|
 |**レポート時刻** <br/> |不可  <br/> |レポートが記録された日時。  <br/> |
 |**応答コード** <br/> |不可  <br/> |セッションが失敗したときに送信された SIP 応答コード。  <br/> |
