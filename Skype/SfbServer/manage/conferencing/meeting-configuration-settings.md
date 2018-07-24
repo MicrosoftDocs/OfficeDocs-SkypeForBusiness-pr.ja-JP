@@ -1,64 +1,64 @@
 ---
-title: Skype for Business Server 2015 での会議の構成設定の管理
+title: 管理会議の Skype ビジネス サーバーの構成設定
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
-description: '概要: を管理する方法を説明する会議出席ビジネス サーバー 2015 の Skype の設定を構成します。'
-ms.openlocfilehash: 30b19eee5e298bfaa5eefe1eee50c9ea615b5682
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: を管理する方法を学習する Skype ビジネス サーバーの構成設定に対応します。'
+ms.openlocfilehash: 28f0dc37579f762b8ae3b0ac8ac58440c6ce5e24
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966067"
 ---
-# <a name="manage-meeting-configuration-settings-in-skype-for-business-server-2015"></a><span data-ttu-id="2e885-103">Skype for Business Server 2015 での会議の構成設定の管理</span><span class="sxs-lookup"><span data-stu-id="2e885-103">Manage meeting configuration settings in Skype for Business Server 2015</span></span>
+# <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a><span data-ttu-id="a7168-103">管理会議の Skype ビジネス サーバーの構成設定</span><span class="sxs-lookup"><span data-stu-id="a7168-103">Manage meeting configuration settings in Skype for Business Server</span></span>
  
-<span data-ttu-id="2e885-104">**の概要:**管理する方法については会議出席ビジネス サーバー 2015 の Skype の設定を構成します。</span><span class="sxs-lookup"><span data-stu-id="2e885-104">**Summary:** Learn how to manage meeting configuration settings in Skype for Business Server 2015.</span></span>
+<span data-ttu-id="a7168-104">**の概要:** 管理する方法については Skype ビジネス サーバーの構成設定に対応します。</span><span class="sxs-lookup"><span data-stu-id="a7168-104">**Summary:** Learn how to manage meeting configuration settings in Skype for Business Server.</span></span>
   
-<span data-ttu-id="2e885-105">このトピックでは、会議の構成設定を管理する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="2e885-105">This topic describes how to manage meeting configuration settings.</span></span> <span data-ttu-id="2e885-106">予定し、会議を展開する方法の詳細については、[ビジネス サーバー 2015 の Skype での会議の計画](../../plan-your-deployment/conferencing/conferencing.md)および[ビジネス サーバー 2015 の Skype での展開の会議](../../deploy/deploy-conferencing/deploy-conferencing.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="2e885-106">For more information about how to plan and deploy conferencing, see [Plan for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferencing in Skype for Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md).</span></span>
+<span data-ttu-id="a7168-105">このトピックでは、会議の構成設定を管理する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="a7168-105">This topic describes how to manage meeting configuration settings.</span></span> <span data-ttu-id="a7168-106">予定し、会議を展開する方法の詳細については、[ビジネスのサーバー用の Skype での会議の計画](../../plan-your-deployment/conferencing/conferencing.md)と[ビジネス サーバーの Skype で会議を展開](../../deploy/deploy-conferencing/deploy-conferencing.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a7168-106">For more information about how to plan and deploy conferencing, see [Plan for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferencing in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).</span></span>
   
-<span data-ttu-id="2e885-107">会議の構成設定を制御するだけでなく、ユーザーが作成できる会議の種類を決定する方法なども匿名ユーザーやダイヤルイン会議のユーザーがこれらの会議に参加できます。</span><span class="sxs-lookup"><span data-stu-id="2e885-107">Meeting configuration settings dictate the type of meetings that users can create, in addition to controlling how (or even if) anonymous users and dial-in conferencing users can join these meetings.</span></span> <span data-ttu-id="2e885-108">これらの設定のみに影響を与えるスケジュールされたミーティングです。ビジネス用の Skype で即時会議のオプション] をクリックして作成、臨時会議には影響しません。</span><span class="sxs-lookup"><span data-stu-id="2e885-108">Note that these settings only affect scheduled meetings; they do not affect ad-hoc meetings created by clicking the Meet Now option in Skype for Business.</span></span>
+<span data-ttu-id="a7168-107">会議の構成設定では、ユーザーが作成できる会議の種類を指定でき、さらにこの会議への匿名ユーザーやダイヤルイン会議ユーザーの参加方法について (または、参加可能かどうかについても) 制御できます。</span><span class="sxs-lookup"><span data-stu-id="a7168-107">Meeting configuration settings dictate the type of meetings that users can create, in addition to controlling how (or even if) anonymous users and dial-in conferencing users can join these meetings.</span></span> <span data-ttu-id="a7168-108">これらの設定のみに影響を与えるスケジュールされたミーティングです。ビジネス用の Skype で即時会議のオプション] をクリックして作成、臨時会議には影響しません。</span><span class="sxs-lookup"><span data-stu-id="a7168-108">Note that these settings only affect scheduled meetings; they do not affect ad-hoc meetings created by clicking the Meet Now option in Skype for Business.</span></span>
   
-<span data-ttu-id="2e885-109">会議の構成設定では、次の設定を定義します。</span><span class="sxs-lookup"><span data-stu-id="2e885-109">Meeting configuration settings define the following:</span></span>
+<span data-ttu-id="a7168-109">会議の構成設定では、次の設定を定義します。</span><span class="sxs-lookup"><span data-stu-id="a7168-109">Meeting configuration settings define the following:</span></span>
   
-- <span data-ttu-id="2e885-110">公衆交換電話網 (PSTN) からダイヤルインするユーザーをロビーに移動するかどうか</span><span class="sxs-lookup"><span data-stu-id="2e885-110">Whether users dialing in from the public switched telephone network (PSTN) go to the lobby</span></span>
+- <span data-ttu-id="a7168-110">公衆交換電話網 (PSTN) からダイヤルインするユーザーをロビーに移動するかどうか</span><span class="sxs-lookup"><span data-stu-id="a7168-110">Whether users dialing in from the public switched telephone network (PSTN) go to the lobby</span></span>
     
-- <span data-ttu-id="2e885-111">発表者の条件</span><span class="sxs-lookup"><span data-stu-id="2e885-111">Who can be a presenter</span></span>
+- <span data-ttu-id="a7168-111">発表者の条件</span><span class="sxs-lookup"><span data-stu-id="a7168-111">Who can be a presenter</span></span>
     
-- <span data-ttu-id="2e885-112">会議の種類を既定で割り当てるかどうか</span><span class="sxs-lookup"><span data-stu-id="2e885-112">Whether conference type is assigned by default</span></span>
+- <span data-ttu-id="a7168-112">会議の種類を既定で割り当てるかどうか</span><span class="sxs-lookup"><span data-stu-id="a7168-112">Whether conference type is assigned by default</span></span>
     
-- <span data-ttu-id="2e885-113">匿名 (認証されていない) ユーザーを既定で許可するかどうか</span><span class="sxs-lookup"><span data-stu-id="2e885-113">Whether anonymous (unauthenticated) users are admitted by default</span></span>
+- <span data-ttu-id="a7168-113">匿名 (認証されていない) ユーザーを既定で許可するかどうか</span><span class="sxs-lookup"><span data-stu-id="a7168-113">Whether anonymous (unauthenticated) users are admitted by default</span></span>
     
-<span data-ttu-id="2e885-114">ビジネス サーバーのコントロール パネルの Skype を使用して、または Skype ビジネス サーバー管理シェルを使用して、会議の特性を定義できます。</span><span class="sxs-lookup"><span data-stu-id="2e885-114">You can define characteristics of meetings by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.</span></span> 
+<span data-ttu-id="a7168-114">ビジネス サーバーのコントロール パネルの Skype を使用して、または Skype ビジネス サーバー管理シェルを使用して、会議の特性を定義できます。</span><span class="sxs-lookup"><span data-stu-id="a7168-114">You can define characteristics of meetings by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.</span></span> 
   
-<span data-ttu-id="2e885-115">指定できます (デフォルトで作成)、グローバル レベルの設定を達成するには、サイト レベルでは、または、プールのレベル。</span><span class="sxs-lookup"><span data-stu-id="2e885-115">You can specify meeting settings at the global level (created by default), site level, or pool level.</span></span> <span data-ttu-id="2e885-116">既定では、グローバル設定が会議に関する操作性を定義します。</span><span class="sxs-lookup"><span data-stu-id="2e885-116">By default, the global settings define the meeting experience.</span></span> <span data-ttu-id="2e885-117">プール レベル設定を作成すると、その設定は、そのプールがホストするすべての会議に適用されます。</span><span class="sxs-lookup"><span data-stu-id="2e885-117">If you create pool-level settings, those settings apply to all meetings hosted by that pool.</span></span> <span data-ttu-id="2e885-118">プール レベル設定を作成しない場合は、サイト レベル設定が存在すればそれが適用されます。</span><span class="sxs-lookup"><span data-stu-id="2e885-118">If you do not create pool-level settings, site-level settings apply, if they exist.</span></span> <span data-ttu-id="2e885-119">サイト レベル設定を定義しない場合は、グローバル設定がすべての会議に適用されます。</span><span class="sxs-lookup"><span data-stu-id="2e885-119">If you do not define site-level settings, the global settings apply to all meetings.</span></span>
+<span data-ttu-id="a7168-115">指定できます (デフォルトで作成)、グローバル レベルの設定を達成するには、サイト レベルでは、または、プールのレベル。</span><span class="sxs-lookup"><span data-stu-id="a7168-115">You can specify meeting settings at the global level (created by default), site level, or pool level.</span></span> <span data-ttu-id="a7168-116">既定では、グローバル設定が会議に関する操作性を定義します。</span><span class="sxs-lookup"><span data-stu-id="a7168-116">By default, the global settings define the meeting experience.</span></span> <span data-ttu-id="a7168-117">プール レベル設定を作成すると、その設定は、そのプールがホストするすべての会議に適用されます。</span><span class="sxs-lookup"><span data-stu-id="a7168-117">If you create pool-level settings, those settings apply to all meetings hosted by that pool.</span></span> <span data-ttu-id="a7168-118">プール レベル設定を作成しない場合は、サイト レベル設定が存在すればそれが適用されます。</span><span class="sxs-lookup"><span data-stu-id="a7168-118">If you do not create pool-level settings, site-level settings apply, if they exist.</span></span> <span data-ttu-id="a7168-119">サイト レベル設定を定義しない場合は、グローバル設定がすべての会議に適用されます。</span><span class="sxs-lookup"><span data-stu-id="a7168-119">If you do not define site-level settings, the global settings apply to all meetings.</span></span>
   
-## <a name="manage-meeting-settings-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="2e885-120">ビジネス サーバーのコントロール パネルの Skype を使用して、会議の設定を管理します。</span><span class="sxs-lookup"><span data-stu-id="2e885-120">Manage meeting settings by using Skype for Business Server Control Panel</span></span>
+## <a name="manage-meeting-settings-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="a7168-120">ビジネス サーバーのコントロール パネルの Skype を使用して、会議の設定を管理します。</span><span class="sxs-lookup"><span data-stu-id="a7168-120">Manage meeting settings by using Skype for Business Server Control Panel</span></span>
 
-<span data-ttu-id="2e885-121">ビジネス サーバーのコントロール パネルの Skype を使用して、会議の設定の管理。</span><span class="sxs-lookup"><span data-stu-id="2e885-121">To manage meeting settings by using Skype for Business Server Control Panel:</span></span>
+<span data-ttu-id="a7168-121">ビジネス サーバーのコントロール パネルの Skype を使用して、会議の設定の管理。</span><span class="sxs-lookup"><span data-stu-id="a7168-121">To manage meeting settings by using Skype for Business Server Control Panel:</span></span>
   
-1. <span data-ttu-id="2e885-122">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="2e885-122">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1. <span data-ttu-id="a7168-122">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="a7168-122">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
     
-2.  <span data-ttu-id="2e885-123">Skype をビジネス サーバーのコントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="2e885-123">Open Skype for Business Server Control Panel.</span></span>
+2.  <span data-ttu-id="a7168-123">Skype をビジネス サーバーのコントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="a7168-123">Open Skype for Business Server Control Panel.</span></span>
     
-3. <span data-ttu-id="2e885-124">左側のナビゲーション バーで、[**会議**] をクリックし、[**会議の構成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="2e885-124">In the left navigation bar, click **Conferencing**, and then click **Meeting Configuration**.</span></span>
+3. <span data-ttu-id="a7168-124">左側のナビゲーション バーで、[**会議**] をクリックし、[**会議の構成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a7168-124">In the left navigation bar, click **Conferencing**, and then click **Meeting Configuration**.</span></span>
     
-## <a name="manage-meeting-settings-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="2e885-125">ビジネス サーバー管理シェルの Skype を使用して、会議の設定を管理します。</span><span class="sxs-lookup"><span data-stu-id="2e885-125">Manage meeting settings by using Skype for Business Server Management Shell</span></span>
+## <a name="manage-meeting-settings-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="a7168-125">ビジネス サーバー管理シェルの Skype を使用して、会議の設定を管理します。</span><span class="sxs-lookup"><span data-stu-id="a7168-125">Manage meeting settings by using Skype for Business Server Management Shell</span></span>
 
-<span data-ttu-id="2e885-126">Skype ビジネス サーバー管理シェルを使用して会議を管理するためには、次のコマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="2e885-126">To manage meetings by using Skype for Business Server Management Shell, use the following cmdlets:</span></span>
+<span data-ttu-id="a7168-126">Skype ビジネス サーバー管理シェルを使用して会議を管理するためには、次のコマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="a7168-126">To manage meetings by using Skype for Business Server Management Shell, use the following cmdlets:</span></span>
   
-<span data-ttu-id="2e885-127">**会議の構成設定**</span><span class="sxs-lookup"><span data-stu-id="2e885-127">**Meeting configuration settings**</span></span>
+<span data-ttu-id="a7168-127">**会議の構成設定**</span><span class="sxs-lookup"><span data-stu-id="a7168-127">**Meeting configuration settings**</span></span>
 
-|<span data-ttu-id="2e885-128">**コマンドレット**</span><span class="sxs-lookup"><span data-stu-id="2e885-128">**Cmdlet**</span></span>|<span data-ttu-id="2e885-129">**説明**</span><span class="sxs-lookup"><span data-stu-id="2e885-129">**Description**</span></span>|
+|<span data-ttu-id="a7168-128">**コマンドレット**</span><span class="sxs-lookup"><span data-stu-id="a7168-128">**Cmdlet**</span></span>|<span data-ttu-id="a7168-129">**説明**</span><span class="sxs-lookup"><span data-stu-id="a7168-129">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="2e885-130">Get CsMeetingConfiguration</span><span class="sxs-lookup"><span data-stu-id="2e885-130">Get-CsMeetingConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps) <br/> |<span data-ttu-id="2e885-131">組織で現在使用されている会議の構成設定に関する情報を戻します。</span><span class="sxs-lookup"><span data-stu-id="2e885-131">Returns information about the meeting configuration settings currently in use in your organization.</span></span>  <br/> |
-|[<span data-ttu-id="2e885-132">新しい-CsMeetingConfiguration</span><span class="sxs-lookup"><span data-stu-id="2e885-132">New-CsMeetingConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> |<span data-ttu-id="2e885-133">サイト スコープまたはサービス スコープで会議の構成設定の新しいコレクションを作成します。</span><span class="sxs-lookup"><span data-stu-id="2e885-133">Creates a new collection of meeting configuration settings at the site or service scope.</span></span>  <br/> |
-|[<span data-ttu-id="2e885-134">削除 CsMeetingConfiguration</span><span class="sxs-lookup"><span data-stu-id="2e885-134">Remove-CsMeetingConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps) <br/> |<span data-ttu-id="2e885-135">会議の構成設定の既存のコレクションを削除します。</span><span class="sxs-lookup"><span data-stu-id="2e885-135">Deletes an existing collection of meeting configuration settings.</span></span>  <br/> |
-|[<span data-ttu-id="2e885-136">セット CsMeetingConfiguration</span><span class="sxs-lookup"><span data-stu-id="2e885-136">Set-CsMeetingConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |<span data-ttu-id="2e885-137">組織で現在使用されている会議の構成設定を変更します。</span><span class="sxs-lookup"><span data-stu-id="2e885-137">Modifies the meeting configuration settings currently in use in your organization.</span></span>  <br/> |
+|[<span data-ttu-id="a7168-130">Get CsMeetingConfiguration</span><span class="sxs-lookup"><span data-stu-id="a7168-130">Get-CsMeetingConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps) <br/> |<span data-ttu-id="a7168-131">組織で現在使用されている会議の構成設定に関する情報を戻します。</span><span class="sxs-lookup"><span data-stu-id="a7168-131">Returns information about the meeting configuration settings currently in use in your organization.</span></span>  <br/> |
+|[<span data-ttu-id="a7168-132">新しい-CsMeetingConfiguration</span><span class="sxs-lookup"><span data-stu-id="a7168-132">New-CsMeetingConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> |<span data-ttu-id="a7168-133">サイト スコープまたはサービス スコープで会議の構成設定の新しいコレクションを作成します。</span><span class="sxs-lookup"><span data-stu-id="a7168-133">Creates a new collection of meeting configuration settings at the site or service scope.</span></span>  <br/> |
+|[<span data-ttu-id="a7168-134">削除 CsMeetingConfiguration</span><span class="sxs-lookup"><span data-stu-id="a7168-134">Remove-CsMeetingConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps) <br/> |<span data-ttu-id="a7168-135">会議の構成設定の既存のコレクションを削除します。</span><span class="sxs-lookup"><span data-stu-id="a7168-135">Deletes an existing collection of meeting configuration settings.</span></span>  <br/> |
+|[<span data-ttu-id="a7168-136">セット CsMeetingConfiguration</span><span class="sxs-lookup"><span data-stu-id="a7168-136">Set-CsMeetingConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |<span data-ttu-id="a7168-137">組織で現在使用されている会議の構成設定を変更します。</span><span class="sxs-lookup"><span data-stu-id="a7168-137">Modifies the meeting configuration settings currently in use in your organization.</span></span>  <br/> |
    
 
