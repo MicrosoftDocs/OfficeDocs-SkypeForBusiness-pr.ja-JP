@@ -1,24 +1,24 @@
 ---
-title: Skype for Business Server 2015 でのアーカイブの有効化または無効化
+title: 有効にするか、Skype のビジネス サーバーのアーカイブを無効にします。
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
-description: '概要: は、有効または、Skype のビジネス サーバー 2015 のアーカイブを無効にする方法を説明します。'
-ms.openlocfilehash: ef4e24025d0f1c27b0249b4ea237a579882e74c2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、有効または、Skype のビジネス サーバーのアーカイブを無効にする方法を説明します。'
+ms.openlocfilehash: a0d32a3bacb604c326db13034bf5315c7f3d4d99
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965892"
 ---
-# <a name="enable-or-disable-archiving-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのアーカイブの有効化または無効化
+# <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>有効にするか、Skype のビジネス サーバーのアーカイブを無効にします。
 
-**の概要:**有効にするか、Skype のビジネス サーバー 2015 のアーカイブを無効にする方法を説明します。
+**の概要:** 有効にするか、Skype のビジネス サーバーのアーカイブを無効にする方法を説明します。
   
 ## <a name="enable-or-disable-archiving-by-using-the-control-panel"></a>コントロール パネルを使用してアーカイブを有効または無効にする
 
@@ -40,7 +40,7 @@ ms.lasthandoff: 03/28/2018
     
 ## <a name="enable-or-disable-archiving-by-using-windows-powershell"></a>Windows PowerShell を使用してアーカイブを有効または無効にする
 
-アーカイブは、**Set-CsArchivingConfiguration** コマンドレットを使用して有効または無効にすることもできます。 たとえば、次のコマンドは、IM セッションのみがアーカイブされるようにすべてのアーカイブ構成設定を変更します。 コマンドは、組織で使用して現在アーカイブのすべての構成設定を取得するためにパラメーターを指定せず**取得 CsArchivingConfiguration**コマンドレットを呼び出します。 このコレクションは**、コマンドレット、場所、EnableArchiving プロパティは設定のみを選択する**にはパイプ、(-eq)"ImAndWebConf"です。 **セット CsArchivingConfiguration**コマンドレットは、コレクション内の各項目を受け取るし、"ImOnly"に EnableArchiving の値を変更するには、フィルター処理されたコレクションはパイプは。
+アーカイブは、**Set-CsArchivingConfiguration** コマンドレットを使用して有効または無効にすることもできます。 たとえば、次のコマンドは、IM セッションのみがアーカイブされるようにすべてのアーカイブ構成設定を変更します。 コマンドは、組織で使用して現在アーカイブのすべての構成設定を取得するためにパラメーターを指定せず**取得 CsArchivingConfiguration**コマンドレットを呼び出します。 このコレクションは **、コマンドレット、場所、EnableArchiving プロパティは設定のみを選択する**にはパイプ、(-eq)"ImAndWebConf"です。 **セット CsArchivingConfiguration**コマンドレットは、コレクション内の各項目を受け取るし、"ImOnly"に EnableArchiving の値を変更するには、フィルター処理されたコレクションはパイプは。
   
 ```
 Get-CsArchivingConfiguration | Where-Object {$_.EnableArchiving -eq "ImAndWebConf"} | Set-CsArchivingConfiguration -EnableArchiving "ImOnly"

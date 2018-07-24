@@ -1,28 +1,28 @@
 ---
-title: Skype for Business Server 2015 での会議の構成設定の管理
+title: 管理会議の Skype ビジネス サーバーの構成設定
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
-description: '概要: を管理する方法を説明する会議出席ビジネス サーバー 2015 の Skype の設定を構成します。'
-ms.openlocfilehash: 30b19eee5e298bfaa5eefe1eee50c9ea615b5682
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: を管理する方法を学習する Skype ビジネス サーバーの構成設定に対応します。'
+ms.openlocfilehash: 28f0dc37579f762b8ae3b0ac8ac58440c6ce5e24
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966067"
 ---
-# <a name="manage-meeting-configuration-settings-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での会議の構成設定の管理
+# <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>管理会議の Skype ビジネス サーバーの構成設定
  
-**の概要:**管理する方法については会議出席ビジネス サーバー 2015 の Skype の設定を構成します。
+**の概要:** 管理する方法については Skype ビジネス サーバーの構成設定に対応します。
   
-このトピックでは、会議の構成設定を管理する方法について説明します。 予定し、会議を展開する方法の詳細については、[ビジネス サーバー 2015 の Skype での会議の計画](../../plan-your-deployment/conferencing/conferencing.md)および[ビジネス サーバー 2015 の Skype での展開の会議](../../deploy/deploy-conferencing/deploy-conferencing.md)を参照してください。
+このトピックでは、会議の構成設定を管理する方法について説明します。 予定し、会議を展開する方法の詳細については、[ビジネスのサーバー用の Skype での会議の計画](../../plan-your-deployment/conferencing/conferencing.md)と[ビジネス サーバーの Skype で会議を展開](../../deploy/deploy-conferencing/deploy-conferencing.md)を参照してください。
   
-会議の構成設定を制御するだけでなく、ユーザーが作成できる会議の種類を決定する方法なども匿名ユーザーやダイヤルイン会議のユーザーがこれらの会議に参加できます。 これらの設定のみに影響を与えるスケジュールされたミーティングです。ビジネス用の Skype で即時会議のオプション] をクリックして作成、臨時会議には影響しません。
+会議の構成設定では、ユーザーが作成できる会議の種類を指定でき、さらにこの会議への匿名ユーザーやダイヤルイン会議ユーザーの参加方法について (または、参加可能かどうかについても) 制御できます。 これらの設定のみに影響を与えるスケジュールされたミーティングです。ビジネス用の Skype で即時会議のオプション] をクリックして作成、臨時会議には影響しません。
   
 会議の構成設定では、次の設定を定義します。
   
