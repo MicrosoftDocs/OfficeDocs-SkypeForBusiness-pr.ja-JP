@@ -10,18 +10,19 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7bb385b7-18c2-42a3-b8a9-cea7bf0c8fc9
-description: 設定またはエッジ トランスポート サーバーを社内のインフラストラクチャとの通信に使用する次ホップ プールを変更する、リストから、ディレクター、ディレクター プール、フロント エンド サーバー、またはフロント エンド サーバー プールを選択します。 ダイレクタまたはトポロジ ビルダーで構成されているフロント エンド サーバーのみが一覧に表示します。
-ms.openlocfilehash: 5c2009e9cd62c2bac2171379eadbeb0d4f9a6255
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: エッジ サーバーが内部インフラストラクチャと通信するために使用する [次ホップ プール] を設定または変更するには、リストからディレクター、ディレクター プール、フロントエンド サーバー、またはフロントエンド サーバーのプールを選択します。 ダイレクタまたはトポロジ ビルダーで構成されているフロント エンド サーバーのみが一覧に表示します。
+ms.openlocfilehash: a5912dba3266af38f2316d4f578a2cecf68108b8
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973193"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21057224"
 ---
-# <a name="edge-next-hop-settings-expander"></a><span data-ttu-id="234a8-104">エッジの次ホップ設定エキスパンダー</span><span class="sxs-lookup"><span data-stu-id="234a8-104">Edge Next Hop Settings Expander</span></span>
+# <a name="edge-next-hop-settings-expander"></a><span data-ttu-id="1a999-104">エッジの次ホップ設定エキスパンダー</span><span class="sxs-lookup"><span data-stu-id="1a999-104">Edge Next Hop Settings Expander</span></span>
  
-<span data-ttu-id="234a8-105">エッジ サーバーが内部インフラストラクチャと通信するために使用する [**次ホップ プール**] を設定または変更するには、リストからディレクター、ディレクター プール、フロントエンド サーバー、またはフロントエンド サーバーのプールを選択します。</span><span class="sxs-lookup"><span data-stu-id="234a8-105">To set or modify the **Next hop pool** that the Edge Servers will use to communicate to the internal infrastructure, select a Director, Director pool, Front End Server, or Front End Server pool, from the list.</span></span> <span data-ttu-id="234a8-106">ダイレクタまたはトポロジ ビルダーで構成されているフロント エンド サーバーのみが一覧に表示します。</span><span class="sxs-lookup"><span data-stu-id="234a8-106">Only Directors or Front End Servers that have been configured in Topology Builder appear in the list.</span></span>
+<span data-ttu-id="1a999-105">エッジ サーバーが内部インフラストラクチャと通信するために使用する [**次ホップ プール**] を設定または変更するには、リストからディレクター、ディレクター プール、フロントエンド サーバー、またはフロントエンド サーバーのプールを選択します。</span><span class="sxs-lookup"><span data-stu-id="1a999-105">To set or modify the **Next hop pool** that the Edge Servers will use to communicate to the internal infrastructure, select a Director, Director pool, Front End Server, or Front End Server pool, from the list.</span></span> <span data-ttu-id="1a999-106">ダイレクタまたはトポロジ ビルダーで構成されているフロント エンド サーバーのみが一覧に表示します。</span><span class="sxs-lookup"><span data-stu-id="1a999-106">Only Directors or Front End Servers that have been configured in Topology Builder appear in the list.</span></span>
   
-<span data-ttu-id="234a8-107">詳細を定義して、エッジ サービスの設定の構成については、[エッジ トポロジの定義](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="234a8-107">For details about defining and configuring the settings for Edge services, see [Define Your Edge Topology](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span></span>
+<span data-ttu-id="1a999-107">詳細を定義して、エッジ サービスの設定の構成については、[エッジ トポロジの定義](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="1a999-107">For details about defining and configuring the settings for Edge services, see [Define Your Edge Topology](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span></span>
   
 

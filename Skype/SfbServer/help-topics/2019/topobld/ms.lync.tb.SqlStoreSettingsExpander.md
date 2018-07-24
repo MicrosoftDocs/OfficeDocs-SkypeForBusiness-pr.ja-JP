@@ -10,32 +10,33 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
+ROBOTS: NOINDEX, NOFOLLOW
 description: SQL Server データベースのプロパティを編集するには、SQL Server データベース インスタンスを変更してください。 1 台のコンピューターから、アーカイブ サーバー データベースを移動するなどのタスクを実行するのには、[プロパティの編集] ダイアログ ボックスを使うことはできません。 さらに、使うことはできません、プロパティの編集] ダイアログ ボックスをホストする SQL Server のインスタンスを変更するのには、中央管理ストアです。
-ms.openlocfilehash: d9ba91dca9cb6e0e779f154925a4d00065458866
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: aaab5adde793a585d632c3e246f0023c92f244b0
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19972232"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21066508"
 ---
-# <a name="sql-store-settings-expander"></a><span data-ttu-id="92b02-105">SQL ストアの設定の拡張</span><span class="sxs-lookup"><span data-stu-id="92b02-105">SQL Store Settings Expander</span></span>
+# <a name="sql-store-settings-expander"></a><span data-ttu-id="29f45-105">SQL ストアの設定の拡張</span><span class="sxs-lookup"><span data-stu-id="29f45-105">SQL Store Settings Expander</span></span>
  
-<span data-ttu-id="92b02-106">SQL Server データベースのプロパティを編集するには、SQL Server データベース インスタンスを変更してください。</span><span class="sxs-lookup"><span data-stu-id="92b02-106">To edit the properties of a SQL Server database, you must change the SQL Server database instance.</span></span> <span data-ttu-id="92b02-107">1 台のコンピューターから、アーカイブ サーバー データベースを移動するなどのタスクを実行するのには、[**プロパティの編集**] ダイアログ ボックスを使うことはできません。</span><span class="sxs-lookup"><span data-stu-id="92b02-107">You cannot use the **Edit Properties** dialog box to perform tasks such as moving your Archiving Server database from one computer to another.</span></span> <span data-ttu-id="92b02-108">さらに、使うことはできません、**プロパティの編集**] ダイアログ ボックスをホストする SQL Server のインスタンスを変更するのには、中央管理ストアです。</span><span class="sxs-lookup"><span data-stu-id="92b02-108">In addition, you cannot use the **Edit Properties** dialog box to change the instance of SQL Server that hosts the Central Management store.</span></span>
+<span data-ttu-id="29f45-106">SQL Server データベースのプロパティを編集するには、SQL Server データベース インスタンスを変更してください。</span><span class="sxs-lookup"><span data-stu-id="29f45-106">To edit the properties of a SQL Server database, you must change the SQL Server database instance.</span></span> <span data-ttu-id="29f45-107">1 台のコンピューターから、アーカイブ サーバー データベースを移動するなどのタスクを実行するのには、[**プロパティの編集**] ダイアログ ボックスを使うことはできません。</span><span class="sxs-lookup"><span data-stu-id="29f45-107">You cannot use the **Edit Properties** dialog box to perform tasks such as moving your Archiving Server database from one computer to another.</span></span> <span data-ttu-id="29f45-108">さらに、使うことはできません、**プロパティの編集**] ダイアログ ボックスをホストする SQL Server のインスタンスを変更するのには、中央管理ストアです。</span><span class="sxs-lookup"><span data-stu-id="29f45-108">In addition, you cannot use the **Edit Properties** dialog box to change the instance of SQL Server that hosts the Central Management store.</span></span>
   
-## <a name="editing-the-properties-of-a-sql-server-database"></a><span data-ttu-id="92b02-109">SQL Server データベースのプロパティの編集</span><span class="sxs-lookup"><span data-stu-id="92b02-109">Editing the Properties of a SQL Server Database</span></span>
+## <a name="editing-the-properties-of-a-sql-server-database"></a><span data-ttu-id="29f45-109">SQL Server データベースのプロパティの編集</span><span class="sxs-lookup"><span data-stu-id="29f45-109">Editing the Properties of a SQL Server Database</span></span>
 
-<span data-ttu-id="92b02-110">中央管理ストア以外のデータベースで使用される SQL Server のインスタンスを変更するには、トポロジ ビルダーで次の手順を行います。</span><span class="sxs-lookup"><span data-stu-id="92b02-110">To change the instance of SQL Server that is used by any database other than the Central Management store, complete the following procedure in Topology Builder:</span></span>
+<span data-ttu-id="29f45-110">中央管理ストア以外のデータベースで使用される SQL Server のインスタンスを変更するには、トポロジ ビルダーで次の手順を行います。</span><span class="sxs-lookup"><span data-stu-id="29f45-110">To change the instance of SQL Server that is used by any database other than the Central Management store, complete the following procedure in Topology Builder:</span></span>
   
-### <a name="to-modify-an-instance-of-sql-server"></a><span data-ttu-id="92b02-111">SQL Server のインスタンスを変更するのには</span><span class="sxs-lookup"><span data-stu-id="92b02-111">To modify an instance of SQL Server</span></span>
+### <a name="to-modify-an-instance-of-sql-server"></a><span data-ttu-id="29f45-111">SQL Server のインスタンスを変更するのには</span><span class="sxs-lookup"><span data-stu-id="29f45-111">To modify an instance of SQL Server</span></span>
 
-1. <span data-ttu-id="92b02-112">**SQL ストア**ノードの下の適切なデータベースを選択し、 **[プロパティの編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="92b02-112">Select the appropriate database under the **SQL stores** node, and then click **Edit Properties**.</span></span>
+1. <span data-ttu-id="29f45-112">**SQL ストア**ノードの下の適切なデータベースを選択し、 **[プロパティの編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="29f45-112">Select the appropriate database under the **SQL stores** node, and then click **Edit Properties**.</span></span>
     
-2. <span data-ttu-id="92b02-113">**プロパティの編集**] ダイアログ ボックスで、次のいずれかの操作を行います。</span><span class="sxs-lookup"><span data-stu-id="92b02-113">In the **Edit Properties** dialog box, do one of the following:</span></span>
+2. <span data-ttu-id="29f45-113">**プロパティの編集**] ダイアログ ボックスで、次のいずれかの操作を行います。</span><span class="sxs-lookup"><span data-stu-id="29f45-113">In the **Edit Properties** dialog box, do one of the following:</span></span>
     
-  - <span data-ttu-id="92b02-114">既定の SQL Server のインスタンスを使用して、**既定のインスタンス**を選択し、[ **OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="92b02-114">To use the default SQL Server instance, select **Default Instance** and then click **OK**.</span></span>
+  - <span data-ttu-id="29f45-114">既定の SQL Server のインスタンスを使用して、**既定のインスタンス**を選択し、[ **OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="29f45-114">To use the default SQL Server instance, select **Default Instance** and then click **OK**.</span></span>
     
-  - <span data-ttu-id="92b02-115">名前付きデータベース インスタンスを使用するには、**という名前のインスタンス**を選択して、テキスト ボックスで、インスタンス名を入力し、[ **OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="92b02-115">To use a named database instance, select **Named Instance**, enter the instance name in the text box, and then click **OK**.</span></span> <span data-ttu-id="92b02-116">のみ、インスタンス名 (ArchivingInstance など)、および全体の SQL Server のパスではなくを入力する必要があります。</span><span class="sxs-lookup"><span data-stu-id="92b02-116">You should enter only the instance name (for example, ArchivingInstance), and not the entire SQL Server path.</span></span>
+  - <span data-ttu-id="29f45-115">名前付きデータベース インスタンスを使用するには、**という名前のインスタンス**を選択して、テキスト ボックスで、インスタンス名を入力し、[ **OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="29f45-115">To use a named database instance, select **Named Instance**, enter the instance name in the text box, and then click **OK**.</span></span> <span data-ttu-id="29f45-116">のみ、インスタンス名 (ArchivingInstance など)、および全体の SQL Server のパスではなくを入力する必要があります。</span><span class="sxs-lookup"><span data-stu-id="29f45-116">You should enter only the instance name (for example, ArchivingInstance), and not the entire SQL Server path.</span></span>
     
-<span data-ttu-id="92b02-117">**プロパティの編集**] ダイアログ ボックスでの作業は、トポロジ ビルダーには入力したデータベース ・ インスタンスが有効なインスタンスは確認できません。</span><span class="sxs-lookup"><span data-stu-id="92b02-117">When you are working in the **Edit Properties** dialog box, Topology Builder will not verify that the database instance that you have entered is a valid instance.</span></span> <span data-ttu-id="92b02-118">などの場合、インスタンス名として typeArchivingInstanec を誤ってとは、 **[ok]** をクリックし、トポロジ ビルダーは、無効なインスタンスを受け取ります。。</span><span class="sxs-lookup"><span data-stu-id="92b02-118">For example, if you inadvertently typeArchivingInstanec as the instance name and then click **OK**, Topology Builder will accept that invalid instance.</span></span> <span data-ttu-id="92b02-119">このトポロジを公開する前に、この間違いを修正する必要があります: SQL Server のインスタンスが見つかりません、トポロジ ビルダーが作成されませんインスタンスをするのです。</span><span class="sxs-lookup"><span data-stu-id="92b02-119">Before you can publish this topology, you must correct this mistake: if a SQL Server instance cannot be found, Topology Builder will not create that instance for you.</span></span>
+<span data-ttu-id="29f45-117">**プロパティの編集**] ダイアログ ボックスでの作業は、トポロジ ビルダーには入力したデータベース ・ インスタンスが有効なインスタンスは確認できません。</span><span class="sxs-lookup"><span data-stu-id="29f45-117">When you are working in the **Edit Properties** dialog box, Topology Builder will not verify that the database instance that you have entered is a valid instance.</span></span> <span data-ttu-id="29f45-118">などの場合、インスタンス名として typeArchivingInstanec を誤ってとは、 **[ok]** をクリックし、トポロジ ビルダーは、無効なインスタンスを受け取ります。。</span><span class="sxs-lookup"><span data-stu-id="29f45-118">For example, if you inadvertently typeArchivingInstanec as the instance name and then click **OK**, Topology Builder will accept that invalid instance.</span></span> <span data-ttu-id="29f45-119">このトポロジを公開する前に、この間違いを修正する必要があります: SQL Server のインスタンスが見つかりません、トポロジ ビルダーが作成されませんインスタンスをするのです。</span><span class="sxs-lookup"><span data-stu-id="29f45-119">Before you can publish this topology, you must correct this mistake: if a SQL Server instance cannot be found, Topology Builder will not create that instance for you.</span></span>
   
 

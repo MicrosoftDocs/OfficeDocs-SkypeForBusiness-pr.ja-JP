@@ -10,16 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0429444b-97cc-41a1-94e0-3e2e5fdfa9ca
+ROBOTS: NOINDEX, NOFOLLOW
 description: 外部 IPv4 では、アクセス エッジ サービス、Web 会議エッジ サービス、および A を示す外部 IP アドレスを入力または音声ビデオ エッジ サービスです。
-ms.openlocfilehash: 73912cf28ff45b8f42925ae4c71bdb0f774f686a
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 3558631449f3e3840b6f75de3917001d281fe16d
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19978049"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21061309"
 ---
-# <a name="add-edge-machine-external-ipv4"></a><span data-ttu-id="8e3ff-103">マシン外部 IPv4 のエッジを追加します。</span><span class="sxs-lookup"><span data-stu-id="8e3ff-103">Add Edge Machine External IPv4</span></span>
+# <a name="add-edge-machine-external-ipv4"></a><span data-ttu-id="80784-103">マシン外部 IPv4 のエッジを追加します。</span><span class="sxs-lookup"><span data-stu-id="80784-103">Add Edge Machine External IPv4</span></span>
  
-<span data-ttu-id="8e3ff-104">**外部 IPv4**では、アクセス エッジ サービス、Web 会議エッジ サービス、および A を示す外部 IP アドレスを入力または音声ビデオ エッジ サービスです。</span><span class="sxs-lookup"><span data-stu-id="8e3ff-104">In **External IPv4**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
+<span data-ttu-id="80784-104">**外部 IPv4**では、アクセス エッジ サービス、Web 会議エッジ サービス、および A を示す外部 IP アドレスを入力または音声ビデオ エッジ サービスです。</span><span class="sxs-lookup"><span data-stu-id="80784-104">In **External IPv4**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
   
 
