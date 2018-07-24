@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
-description: 編集またはエッジ トランスポート サーバーの外部の設定を指定、まず必要があります決定するセッション開始プロトコル (SIP) のアクセス、Web 会議エッジ サービス、およびオーディオ/ビデオ エッジ サービスに個別の IP アドレスを使用するかどうか。
-ms.openlocfilehash: 96d34ed48238da6d3c80b1bb9fb03714560fd89c
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: エッジ サーバーの [外部設定] を編集または指定するには、まず、セッション開始プロトコル (SIP) アクセス、Web 会議エッジ サービス、および音声ビデオ エッジ サービスで別々の IP アドレスを使用するかどうかを決める必要があります。
+ms.openlocfilehash: 4edc676da68538c9860083b1e27f7e16eb89f846
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19965998"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069583"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>エッジ サーバーの FQDN 設定エキスパンダー
  

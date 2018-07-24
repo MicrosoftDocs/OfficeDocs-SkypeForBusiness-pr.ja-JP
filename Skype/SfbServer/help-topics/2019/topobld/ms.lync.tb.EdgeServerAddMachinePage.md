@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bdae4545-942e-4f76-9d3f-6ac5d1ebe213
+ROBOTS: NOINDEX, NOFOLLOW
 description: 各プール内のエッジ サーバーとして追加するコンピューターの完全修飾ドメイン名 (FQDN) を指定します。 コンピューターを一覧に追加すると、コンピューターの FQDN を更新したり、トポロジを公開する前にいつでも、プールから削除できます。 トポロジ ビルダーでは、サーバーを削除し、新しい FQDN を持つプールに新しいサーバーを追加、トポロジを公開すると、FQDN を変更する必要です。 エッジ プールのトポロジの設計についての詳細は、エッジの展開に関するドキュメントでエッジ トポロジの定義を参照してください。
-ms.openlocfilehash: 60daa862f30d10b1a4a582eed3cb09fa6ff36520
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: e226a4e459fa2fef557d012734b4f22b4a957f22
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19975091"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21060778"
 ---
 # <a name="edge-server-add-machine"></a>エッジ サーバー コンピューターを追加します。
  

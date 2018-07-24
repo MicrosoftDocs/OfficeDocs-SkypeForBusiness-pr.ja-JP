@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
+ROBOTS: NOINDEX, NOFOLLOW
 description: このノードは、そのサーバーとプールまたはこの SQL Server を使用するサーバーにこの Microsoft SQL Server と SQL Server のインスタンスの完全修飾ドメイン名 (FQDN) を示しています。 以下のアクションを実行できます。
-ms.openlocfilehash: 76f5340da001491a0df687a833f51f2465e234ef
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: b77c3fd9b72c979f76a3c347951c099e2561f089
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19965571"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21058536"
 ---
 # <a name="sql-instance-scope-node"></a>SQL インスタンス スコープ ノード
  

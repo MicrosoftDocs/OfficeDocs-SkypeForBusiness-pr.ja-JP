@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
+ROBOTS: NOINDEX, NOFOLLOW
 description: 復元機能では、レジストラー プールの高可用性と災害復旧を提供します。 プライマリのレジストラーでは、レジストラーは、障害が発生したレジストラーに引き継ぐことができますバックアップの障害が発生した場合は、バックアップ レジストラーを提供することにより、ユーザーがログオンし、通信を許可します。 可能性のある環境での機能の制限、プライマリ レジストラーによっては、システムが失敗しました。
-ms.openlocfilehash: b1609bfa8fd3fe9fb58d02c2154a3427c5ba94c0
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: ff8193ced1f731812cdd4d4095013d1a7cf72cee
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964689"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21067539"
 ---
 # <a name="registrar-settings-expander"></a>レジストラーの設定の拡張
  

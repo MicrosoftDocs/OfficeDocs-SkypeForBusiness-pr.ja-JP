@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
+ROBOTS: NOINDEX, NOFOLLOW
 description: 新しいセッション開始プロトコル (SIP) トランクを定義するには、次の情報を提供します。
-ms.openlocfilehash: 6f7dd7d8ab3aaa86eef78a5973194012e2e3b32c
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 9b237903239786737e194755ec69025a5f6a0478
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19978056"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21059043"
 ---
 # <a name="define-a-new-trunk"></a>新しい樹幹を定義します。
  
@@ -38,4 +39,4 @@ ms.locfileid: "19978056"
 
 [Skype ビジネス サーバーは M:N trunk](../../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
 
-[SIP トランクを実装する方法は?](http://technet.microsoft.com/library/273a22b1-8a4c-4187-acf8-c57d5c6598ce.aspx)
+[SIP トランキングの実装方法](http://technet.microsoft.com/library/273a22b1-8a4c-4187-acf8-c57d5c6598ce.aspx)

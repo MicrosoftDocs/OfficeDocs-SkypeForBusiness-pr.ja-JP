@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f6e69ed-4add-4dc8-acb8-dfe050819f5a
+ROBOTS: NOINDEX, NOFOLLOW
 description: このウィザードを使用すると、サイトの新しいフロント エンド プールを定義します。 各サイトには、少なくとも 1 つのエンタープライズ プールまたは Standard Edition サーバーが必要です。 ウィザードを使用して、新しいフロント エンド プールを作成するための要件についての詳細を定義して構成するフロント エンド プールを展開に関するドキュメントを参照してください。
-ms.openlocfilehash: 3b5a79a848c0dda8ba798790fa828cd5eb5fcf9b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 3c89bdcf3ae2116b8e28d8601d4c5633a076f7f8
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979198"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069174"
 ---
 # <a name="front-end-start-page"></a>フロント エンドのスタート ページ
  

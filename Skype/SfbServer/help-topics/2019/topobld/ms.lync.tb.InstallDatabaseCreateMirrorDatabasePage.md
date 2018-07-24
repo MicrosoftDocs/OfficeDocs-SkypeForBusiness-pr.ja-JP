@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
+ROBOTS: NOINDEX, NOFOLLOW
 description: このドキュメントは暫定版であり、変更される可能性があります。空白のトピックがプレースホルダーとして含まれています。
-ms.openlocfilehash: b3b0d992d27fd49a2c1141cece790d99947911a3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7c5ce978f46390b01e284352733c3508b51646f2
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975824"
+ms.locfileid: "21064342"
 ---
 # <a name="install-database-create-mirror-database-page"></a>インストール データベースがミラー データベースのページを作成します。
  

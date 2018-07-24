@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d065268-a694-49a1-b285-9be80a09995c
+ROBOTS: NOINDEX, NOFOLLOW
 description: 信頼されたアプリケーション プールの完全修飾ドメイン名 (FQDN) を定義するには、次のように指定します。
-ms.openlocfilehash: 1a6bd10d1091d5e3b494a5c20e3ff294c279ccba
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: c8241e5e037b4f7993c73e1a10982465ac14dcaf
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19976852"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21067610"
 ---
 # <a name="add-trusted-application-pool-fqdn"></a>信頼されたアプリケーション プールの FQDN を追加します。
  

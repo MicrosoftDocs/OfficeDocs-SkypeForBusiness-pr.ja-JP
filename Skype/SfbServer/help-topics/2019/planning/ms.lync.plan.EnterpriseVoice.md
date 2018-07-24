@@ -11,13 +11,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
-description: エンタープライズ VoIP では、Skype ビジネス サーバーの拡張または置換の従来の構内交換 (機 PBX) システムを提供するスタンドアロンのボイス オーバー インターネット プロトコル (VoIP) を提供します。 エンタープライズ VoIP ユーザーは、組織の VoIP ネットワークや PBX、仕事仲間を呼び出すことができ、組織外の従来の電話番号を呼び出すことができます。 エンタープライズ VoIP ソリューションには、回答などの一般的な通話機能が含まれています、転送、転送、保持、そらす、リリース、駐車、および強化された 9-1-1 (~ 9-1-1) の呼び出し (~ 9-1-1 は、米国でのみ使用可能です)。エンタープライズ VoIP には、現在および以前の ip アドレスと USB デバイスの広い範囲がサポートされています。
-ms.openlocfilehash: 2da7fc040bbe922bdc51bf53375a8f607b887aaa
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: エンタープライズ VoIP では、Skype ビジネス サーバーの拡張または置換の従来の構内交換 (機 PBX) システムを提供するスタンドアロンのボイス オーバー インターネット プロトコル (VoIP) を提供します。
+ms.openlocfilehash: f507ae79ae7547d5ee10bb7bb628d509cb0882c6
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19989042"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069273"
 ---
 # <a name="enterprise-voice-planning-tool"></a>エンタープライズ VoIP (計画ツール)
  

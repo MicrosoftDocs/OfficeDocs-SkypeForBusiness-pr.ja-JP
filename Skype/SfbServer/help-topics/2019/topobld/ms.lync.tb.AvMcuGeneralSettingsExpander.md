@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
+ROBOTS: NOINDEX, NOFOLLOW
 description: A のプロパティを編集するのには V 会議サーバーのプールを/定義済みで、次を行うことができます。
-ms.openlocfilehash: 8029dd22de0032a2a19f33d94eca8390df2a3125
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ab4c89d0fb9f291aa1963622f426405aeafd53f7
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20982364"
+ms.locfileid: "21060048"
 ---
 # <a name="av-mcu-general-settings-expander"></a>AV MCU の全般的な設定の拡張
  

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
+ROBOTS: NOINDEX, NOFOLLOW
 description: すべてエンタープライズ エディション フロント エンド サーバーのセントラル サイトに配置されている必要はありませんが A V 会議サービスの使用同じスタンドアロン A/V 会議のプールです。 各 A の V 会議のプール、プールおよび A は 1 つだけ必要があるかどうかの完全修飾ドメイン名 (FQDN) を指定する必要があります V 会議サーバーまたは複数の負荷分散/A/V 会議サーバーです。
-ms.openlocfilehash: 67cb56d1a8556464906e0b05bae26c0c6a2e7340
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: c58d2e405d642209f91e38d98d5c6cbef924cd2e
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19966852"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21060089"
 ---
 # <a name="add-av-mcu-pool"></a>追加の A/V MCU のプール
  

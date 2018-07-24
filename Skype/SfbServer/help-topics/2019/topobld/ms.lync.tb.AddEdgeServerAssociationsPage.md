@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
+ROBOTS: NOINDEX, NOFOLLOW
 description: このページを使用して、A のこのエッジ プールを使用するフロント エンド プールと Standard Edition サーバーを選択するのには/V のトラフィック。
-ms.openlocfilehash: 6742683ae38b5f49bd3acbf1a02abd1b770137f8
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 38d997c7753dd97ae9a6368e3092c6d571f0ad1f
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988902"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21063387"
 ---
 # <a name="add-edge-server-associations"></a>エッジ サーバーの関連付けを追加します。
  

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
+ROBOTS: NOINDEX, NOFOLLOW
 description: サーバーの役割をフロントエンド プールに今すぐ関連付けて、他のサーバーの展開に必要な特定の機能のサポートを有効にできます。後でサーバーの役割をフロントエンド プールに関連付けることもできます。フロントエンド プールに関連付けることができるサーバーの役割には、次のものがあります。
-ms.openlocfilehash: 64e4f73d549b2f504ef366b6344982104acfcc7b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 87d17ac4f0a9d631342962920854b4bb9ead5e9d
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19972344"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21066409"
 ---
 # <a name="add-front-end-associations"></a>フロントエンドの関連付けの追加
  

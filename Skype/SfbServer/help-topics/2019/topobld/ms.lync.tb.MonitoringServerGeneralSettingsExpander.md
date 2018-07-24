@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
-description: トポロジ ビルダーでプロパティを編集できます、個々 の監視サーバーのコンソール ツリーで、監視サーバーを右クリックし、ツールバーの [操作] をクリックし、か、[操作] ウィンドウでタスクをクリックし、プロパティの編集] をクリックして、次のオプションのいずれかを変更するとします。
-ms.openlocfilehash: fb4bc9a26cddc3497a7f80f02821ae578742a199
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: トポロジ ビルダーで、個々の監視サーバーのプロパティを編集できます。それには、コンソール ツリーで監視サーバーを右クリックしてからツール バーで [アクション] をクリックするか、[操作] ウィンドウでタスクをクリックしてから [プロパティの編集] をクリックし、次のオプションのいずれかを変更します。
+ms.openlocfilehash: fbea857fc4588ae43b936e647f0d2697a5da5cd2
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19977041"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21057381"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>監視サーバー全般設定エキスパンダー
  

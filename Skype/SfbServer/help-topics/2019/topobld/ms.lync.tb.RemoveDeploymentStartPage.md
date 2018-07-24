@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
+ROBOTS: NOINDEX, NOFOLLOW
 description: 全体の展開を解除したい場合にのみ展開の削除ウィザードを実行します。 このウィザードでは、1 つのフロント エンド サーバーで構成される空のトポロジを作成します。 このウィザードを実行し、空のトポロジを公開すると後、は、元のトポロジに戻すことはできません。
-ms.openlocfilehash: 3e83ba506cf3376a90a7ec245816627328853816
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 2e94504c9ab33392219ad98ecad39ad37794800e
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19966719"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21066011"
 ---
 # <a name="remove-deployment-introduction"></a>展開の概要を削除します。
  

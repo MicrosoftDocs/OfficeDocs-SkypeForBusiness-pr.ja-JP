@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02ae996c-a1c6-4ff4-b6d6-bdef4ad44d2a
+ROBOTS: NOINDEX, NOFOLLOW
 description: 作成しているフロント エンド プールの完全修飾ドメイン名 (FQDN) を指定します。 フロント エンド プールを含むトポロジを公開した後は、プールの FQDN を変更できません。 プールの名前を変更する場合は、プールを削除し、新しい FQDN を持つ新しいプールを追加します。
-ms.openlocfilehash: 3ff70f03ce447a30d081ad5ce3b45e52ecb4a81b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 9730c1857ccb68e5aeb05a66d89e306aa9646246
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19997109"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21068234"
 ---
 # <a name="add-front-end-pool-fqdn"></a>フロント エンド プールの FQDN を追加します。
  

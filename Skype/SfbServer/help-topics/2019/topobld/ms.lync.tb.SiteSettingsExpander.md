@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
+ROBOTS: NOINDEX, NOFOLLOW
 description: 既存のサイトのプロパティを編集するには、次の操作を行います。
-ms.openlocfilehash: 5dd36f11528152be260f378fd2253b5655834088
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 04d98f60432b3db7e848ae4e932e4a9c06707085
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20971870"
+ms.locfileid: "21059683"
 ---
 # <a name="lync-server-site-settings-expander"></a>Lync Server のサイト設定の拡張
  

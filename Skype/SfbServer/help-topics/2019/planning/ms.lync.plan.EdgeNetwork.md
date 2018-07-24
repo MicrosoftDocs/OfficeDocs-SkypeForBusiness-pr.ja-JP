@@ -11,13 +11,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
+ROBOTS: NOINDEX, NOFOLLOW
 description: ほとんどのエッジ コンポーネントは、境界ネットワークに展開されます。 境界ネットワークのエッジ トポロジは、次のコンポーネントで構成されます。 場合を除き、コンポーネントは、Skype ビジネス サーバー用にエッジ サーバーのシナリオの一部、境界ネットワーク内です。 エッジ コンポーネントには、次のものが含まれます。
-ms.openlocfilehash: 331bc8f8bd34868e97e8c7de6b573108d0e9a071
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 489898cb144b99f069665ccb4f6f8aed3004b3bb
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975663"
+ms.locfileid: "21057776"
 ---
 # <a name="edge-network-planning-tool-in-skype-for-business"></a>ビジネス用の Skype では、エッジ ネットワーク (計画ツール) 
  

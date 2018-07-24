@@ -3,7 +3,7 @@ title: 管理チームは、マイクロソフトの商用クラウド試用版�
 author: ChuckEdmonson
 ms.author: chucked
 manager: lolaj
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -11,12 +11,12 @@ ms.service: msteams
 localization_priority: Normal
 description: マイクロソフトのチームに許可されていない office 365 のユーザーは、チームの 1 年間の試用版を開始できます。
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: ec12fa2687255fb3097d4bbe637389bc643d77cd
-ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
+ms.openlocfilehash: 23d36f161b19af18ff379c2a929ea5b701b8cc6b
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20412334"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21068924"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理チームは、マイクロソフトの商用クラウド試用版の提供
 =======================================================
@@ -33,7 +33,7 @@ ms.locfileid: "20412334"
 - マイクロソフトのチーム (Teams1、IW のチーム)
 - Office Online
 - Office 365 の PowerApps 1 を計画します。
-- SharePoint オンライン プラン 1
+- SharePoint Online Kiosk
 - 影響を与える
 - Yammer エンタープライズ
 
@@ -56,9 +56,11 @@ ms.locfileid: "20412334"
 
 ![チーム IW 試用版のスタート ページのスクリーン ショットです。](media/iw-trial-start-screen.png)
 
-IW 試用版には、組織全体に 1 年間の試用期間が与えられます。 組織内の他の対象となるユーザーは、同じプロセスを経由して IW の試用版にサインアップできます。
- 
+試用版には、組織全体に 1 年間の試用期間が与えられます。 この試用版には 500,000 のライセンスが割り当てできるようにします。 ライセンスが割り当てられている各、試用版は、SharePoint のオンライン ・ ストレージの 2 GB を割り当てられます。 組織内の他の対象となるユーザーは、同じプロセスを経由して、試用版にサインアップできます。
+
 組織内のすべての試用版は、同じ開始日と終了日は、日付を共有する最初のユーザーが試用版の署名します。 などのユーザー A が、2018 年 4 月 25 日の最初の試用版を起動し、ユーザー B が、2018 年 6 月 3日の試用版を起動する場合両方のユーザーの試用期限が切れます、2019 年 4 月 25 日に。
+
+最初に試用版にサインアップした人は、サブスクリプションの「所有者」です。 その人だけでは、サブスクリプションを管理できます。 
 
 ## <a name="manage-the-trial"></a>試用版を管理します。
 

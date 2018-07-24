@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
+ROBOTS: NOINDEX, NOFOLLOW
 description: 既に定義されている信頼されたアプリケーション サーバーのプロパティを編集するには、これらの指示に従います。
-ms.openlocfilehash: b01e48a3d2a003295956df981c4b571a7494be34
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ab11480cf7772be8e85463866359da7ea6f2b27e
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20993100"
+ms.locfileid: "21069569"
 ---
 # <a name="external-application-general-settings-expander"></a>外部アプリケーションの全般設定の拡張
  

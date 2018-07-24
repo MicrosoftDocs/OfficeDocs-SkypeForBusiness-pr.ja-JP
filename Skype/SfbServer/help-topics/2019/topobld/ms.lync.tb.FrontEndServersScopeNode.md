@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
-description: エンタープライズ エディションのフロント エンド プール] は、このサイトのフロント エンド プールを一覧表示し、標準エディションのフロント エンド サーバーのノードは、このサイトで Standard Edition サーバーを一覧表示します。 以下のアクションを実行できます。
-ms.openlocfilehash: cc9c7e04e3037d2e3d9e8d0c658579d76c9601c3
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: '[Enterprise Edition フロントエンドのプール] ノードには、このサイトのフロントエンドのプールが一覧表示され、[Standard Edition フロントエンド サーバー] ノードには、このサイトの Standard Edition サーバーが一覧表示されます。以下のアクションを実行できます。'
+ms.openlocfilehash: f6ca2a8b27b0868492862c551cebfe12e9e32ffa
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991018"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21065586"
 ---
 # <a name="front-end-servers-scope-node"></a>フロントエンド サーバー スコープ ノード
  

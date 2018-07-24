@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
-description: 信頼済みアプリケーション サーバー] ノードは、このサイトで信頼されたアプリケーション プールを一覧表示します。 信頼されたアプリケーション プールには、信頼されているマイクロソフトのユニファイド コミュニケーションは、アプリケーションの実行が、Skype をビジネスのサーバーの役割を実行しないサーバーが含まれています。 以下のアクションを実行できます。
-ms.openlocfilehash: 4d71f5527b97b290c03ff125b49c5a2a57d22d3d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: '[信頼されたアプリケーション サーバー] ノードには、このサイトの信頼されたアプリケーション プールの一覧が表示されます。 信頼されたアプリケーション プールには、信頼されているマイクロソフトのユニファイド コミュニケーションは、アプリケーションの実行が、Skype をビジネスのサーバーの役割を実行しないサーバーが含まれています。 以下のアクションを実行できます。'
+ms.openlocfilehash: 24f167f8ab81983d596c2686da7342c6858830ff
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19990064"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21062623"
 ---
 # <a name="external-applications-scope-node"></a>外部アプリケーション スコープ ノード
  

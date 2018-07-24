@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 337f5424-5bb4-45ef-83ca-117ada93498c
+ROBOTS: NOINDEX, NOFOLLOW
 description: このノードには、このサーバーの完全修飾ドメイン名 (FQDN) および IP アドレス構成が表示されます。以下のアクションを実行できます。
-ms.openlocfilehash: 891d87a8abbca5ab8c594496e35798d87e8482cd
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: e45cafd4d859d8f327759db71d4e69b218beefc9
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19967825"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21063689"
 ---
 # <a name="machine-scope-node"></a>コンピューター スコープ ノード
  
