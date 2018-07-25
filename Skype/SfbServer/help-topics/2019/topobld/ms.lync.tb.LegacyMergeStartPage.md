@@ -10,16 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 04f160cf-13c3-4d9d-80ab-78908fe86abe
+ROBOTS: NOINDEX, NOFOLLOW
 description: ビジネス サーバーの Skype での従来の配置をマージするには、次へをクリックします。
-ms.openlocfilehash: 126fd401c7ef87a0012690a45abf5a0d3031e484
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 0f9e606dfe184fd2084f3a65c65de456d2c485e7
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974825"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21082574"
 ---
-# <a name="legacy-merge-start"></a><span data-ttu-id="b1748-103">従来のマージの開始</span><span class="sxs-lookup"><span data-stu-id="b1748-103">Legacy Merge Start</span></span>
+# <a name="legacy-merge-start"></a><span data-ttu-id="6a26c-103">従来のマージの開始</span><span class="sxs-lookup"><span data-stu-id="6a26c-103">Legacy Merge Start</span></span>
  
-<span data-ttu-id="b1748-104">ビジネス サーバーの Skype での従来の配置をマージするには、**次**の手順をクリックします。</span><span class="sxs-lookup"><span data-stu-id="b1748-104">To begin merging a legacy deployment with Skype for Business Server, click **Next**.</span></span> 
+<span data-ttu-id="6a26c-104">ビジネス サーバーの Skype での従来の配置をマージするには、**次**の手順をクリックします。</span><span class="sxs-lookup"><span data-stu-id="6a26c-104">To begin merging a legacy deployment with Skype for Business Server, click **Next**.</span></span> 
   
 
