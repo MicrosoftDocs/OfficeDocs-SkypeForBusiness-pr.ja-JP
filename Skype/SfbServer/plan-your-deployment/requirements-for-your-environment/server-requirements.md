@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: '概要: このトピックを使用すると、Skype for Business Server 2015 サーバーを準備することができます。ここにはハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件と推奨が掲載されており、サーバー ファームのインストールと展開を正常に実行できるようになります。'
-ms.openlocfilehash: dfcde40c8084279dca39e830a84ad6e9631530dd
-ms.sourcegitcommit: 98c0d578f5ebbe884a5965ccaba131ee4dd84185
+ms.openlocfilehash: c0ff92de1c822a49fe94deec9a21f100ed291d35
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/05/2018
-ms.locfileid: "19046021"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967453"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 のサーバー要件
  
@@ -98,7 +98,29 @@ ms.locfileid: "19046021"
   
 > [!NOTE]
 > 監視サーバーの役割、SQL Server レポート サービスをインストールする必要がありますしようとしているもが、この post-RTM までに常に SQL をサポートしようとしていないかを知る必要があります。 
+
+### <a name="microsoft-exchange-storage"></a>Microsoft Exchange ストレージ
+PowerPoint プレゼンテーションなどの会議コンテンツ ファイルは、添付ファイルとしてアーカイブされます。 Exchange 対応のデータのアーカイブ データをビジネス用の Skype を格納する場合は、Exchange を使用して、Exchange を展開するため、記憶域の最大サイズがミーティングのコンテンツ ファイルのストレージをサポートしていることを確認してください。 展開して、Microsoft Exchange の統合オプションを使用してアーカイブを有効にする前に Exchange を展開する必要があります。 
+    
+    If you choose to use Exchange storage, you do not need to deploy separate SQL Server databases for archiving, unless you have Skype for Business users who are not homed on your Exchange servers. If you deploy archiving using the Microsoft Exchange integration option, Skype for Business archive data is stored with Exchange compliance data only for the users who are homed on your Exchange servers. 
   
+## <a name="hardware-and-software-requirements-for-archiving-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 のアーカイブに関するハードウェアおよびソフトウェア要件
+  
+いない定義済みのサーバーの役割は、アーカイブ、アーカイブのための別のサーバーをインストールする必要はありません。 統合されたデータ コレクション エージェントがインストールされ、各エンタープライズ エディションのフロント エンド プールおよびすべての Standard Edition Server に自動的にアクティブにします。 トポロジ ビルダーを使用して、アーカイブ トポロジを有効にして発行する必要があります。
+    
+アーカイブ アーカイブのための別のファイル ストアを設定しないために、コンテンツ ファイルを満たすための一時的な記憶域のビジネス サーバー ファイルの記憶域、Skype を使用します。
+    
+Microsoft メッセージ キューは、必要ではありません。
+    
+アーカイブ ストレージ用のインフラストラクチャを設定する必要があります。 これには、Exchange のいずれかを選択するか、SQL Server を使用してストレージのアーカイブが含まれます。   ビジネス ・ サーバのアーカイブのインフラストラクチャ要件の Skype は、Skype のビジネス サーバーの展開の場合と同じです。 詳細については、[ビジネス環境に、Skype の要件](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)を参照してください。 
+  
+> [!NOTE]
+> Exchange サーバーではないユーザーをサポートする Microsoft Exchange の統合オプションを使用しない場合は、64 ビット SQL Server データベースを使用して、アーカイブ ・ ストレージを配置する必要があります。 
+    
+展開とアーカイブを有効にする前に SQL Server プラットフォームを設定する必要があります。 トポロジの公開に使用するアカウントに適切な管理権限とアクセス許可がある場合、トポロジを公開するときにアーカイブ データベース (LcsLog) を作成できます。 インストール手順の一部を含め、データベースを後で作成することもできます。 詳細については、SQL Server は、 [SQL Server のマニュアル](https://go.microsoft.com/fwlink/p/?linkID=129045)を参照してください。
+    
+アーカイブに関する負荷の増加は、重大な問題になる可能性があります。 そのため、ディスク領域は十分にフロント エンド サーバーがアーカイブを有効にすることを行う必要があります。
+
 ### <a name="sql-mirroring-sql-clustering-and-sql-always-on"></a>SQL ミラーリング、SQL クラスタリング、および SQL AlwaysOn
 
 ビジネス サーバー 2015 の Skype での SQL のミラーリングまたは SQL のクラスタ リングを使用することは、サポートされています。 SQL ミラーリングの設定を Skype ビジネス サーバー トポロジ ビルダーをします。 SQL クラスターを設定することに専心する場合は、SQL Server でそれを行います。
@@ -129,8 +151,11 @@ ms.locfileid: "19046021"
 SQL のミラーリングの詳細を参照する場合は、ビジネス サーバー 2015 トピックの Skype にバック エンド サーバーの高可用性があります。 ビジネス サーバー 2015 の Skype には準備が整ってクラスタ リングを取得するための手順については、SQL Server のクラスタ リングを構成します。 さらにリンクで[2014](https://technet.microsoft.com/en-us/library/hh231721.aspx)、 [2012 年 5](https://technet.microsoft.com/en-us/library/hh231721%28v=sql.110%29.aspx)、および[2008](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx)の SQL でのクラスタ リング フェイル オーバーします。
   
 > [!NOTE]
-> このリリースの新しい機能として、SQL AlwaysOn がサポートされます。 サポートされているし、詳細を確認できる[ビジネス サーバー 2015 の Skype のバック エンド サーバーの高可用性](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)のトピックについてです。
-  
+> 2015 のリリースには SQL 常にオンのサポートです。 サポートされているし、詳細を確認できる[ビジネス サーバー 2015 の Skype のバック エンド サーバーの高可用性](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)のトピックについてです。
+
+> [!NOTE]
+> SQL ミラーリング ビジネス サーバー 2015 の Skype で利用できるが、ビジネス サーバー 2019 の Skype でサポートされていません。 AlwaysOn 可用性グループ、AlwaysOn フェールオーバー クラスター インスタンス (FCI)、および SQL フェールオーバー クラスタ リング手法は、ビジネス サーバー 2019 の Skype で優先します。  
+
 ## <a name="software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment"></a>Skype for Business Server 2015 の展開前にインストールすべきソフトウェア
 <a name="Software"> </a>
 
@@ -141,7 +166,7 @@ SQL のミラーリングの詳細を参照する場合は、ビジネス サー
 |**ソフトウェア/役割**|**詳細**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |これらのサーバーのすべての Skype では、Windows PowerShell 3.0 がインストールされている必要があります。  <br/> • Windows Server 2012 または Windows Server 2012 R2 のインストールを実行している場合、設定するとしているは既にあるためです。  <br/> • Windows Server 2008 R2 にアップグレードを実行している場合、それを取得する[Windows Management Framework 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=34595)をダウンロードできます。 <br/> **ヒント:** したら正しい PowerShell で、BuildVersion 6.2.9200.0 であることを確認後に、PowerShell でメッセージが表示や入力`$PSVersionTable`。 これによって、必要な情報が得られます。  <br/> |
-|Microsoft .NET Framework  <br/> |WCF サービスは、インストールした**サーバー マネージャー**で、[Windows 機能としてないダウンロードのために必要な**機能**です。 <br/> • をする必要があります、 **HTTP アクティブ化**のオプションのもがチェックされ、インストールされて、それをチェックする場合は既にインストールされている場合や、この機能をインストールすると、次のようにします。 <br/> ![[.NET Framework 4.5 の機能] の HTTP アクティブ化のオプションを表示するスクリーン ショットです。](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)も気にしないで他のものがインストールされるように HTTP アクティブ化をインストールする必要ことを示すその他のポップアップを取得します。 これは通常の動作のため、[OK] をクリックして先に進みます。 このメッセージが表示されない場合、これらの機能は既にインストールされていると見なして、先に進みます。  <br/> 通常 Microsoft.NET Framework がインストールされている Windows Server 2012 R2 または Windows Server 2016 がインストールされている場合。 Skype ビジネス サーバーは、次の Microsoft.NET Framework のバージョンで動作します。  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6.x  <br/> • .NET 4.7 (ビジネス サーバー CU 5 またはそれ以降のリリースの Skype)  <br/>  .NET Framework 3.5 は既定では Windows Server 2008 R2 コンピューターにインストールする可能性があります (必ず確認してくださいアップグレードする前に) が、実際にするの新しいインストールの場合) または Windows Server 2012 R2 の Windows Server 2012 サーバー上にします。 それを追加するにはインストール ドライブまたはメディアへのアクセスを必要があります (Windows サーバーをインストールして、元の場所またはファイルをインストールされるようになりました)。 その後、先に進んで、サーバー マネージャーの機能としてインストールし、要求されたらインストール メディア (具体的には **\sources\sxs** フォルダー) を指定して、インストールを続行します。 <br/> |
+|Microsoft .NET Framework  <br/> |WCF サービスは、インストールした**サーバー マネージャー**で、[Windows 機能としてないダウンロードのために必要な**機能**です。 <br/> • をする必要があります、 **HTTP アクティブ化**のオプションのもがチェックされ、インストールされて、それをチェックする場合は既にインストールされている場合や、この機能をインストールすると、次のようにします。 <br/> ![[.NET Framework 4.5 の機能] の HTTP アクティブ化のオプションを表示するスクリーン ショットです。](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)も気にしないで他のものがインストールされるように HTTP アクティブ化をインストールする必要ことを示すその他のポップアップを取得します。 これは通常の動作のため、[OK] をクリックして先に進みます。 このメッセージが表示されない場合、これらの機能は既にインストールされていると見なして、先に進みます。  <br/> 通常 Microsoft.NET Framework がインストールされている Windows Server 2012 R2 または Windows Server 2016 がインストールされている場合。 Skype ビジネス サーバーは、次の Microsoft.NET Framework のバージョンで動作します。  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6.x  <br/> • .NET 4.7.1 以上のビジネス サーバー CU 5 またはそれ以降のリリースの Skype)  <br/>  .NET Framework 3.5 は既定では Windows Server 2008 R2 コンピューターにインストールする可能性があります (必ず確認してくださいアップグレードする前に) が、実際にするの新しいインストールの場合) または Windows Server 2012 R2 の Windows Server 2012 サーバー上にします。 それを追加するにはインストール ドライブまたはメディアへのアクセスを必要があります (Windows サーバーをインストールして、元の場所またはファイルをインストールされるようになりました)。 その後、先に進んで、サーバー マネージャーの機能としてインストールし、要求されたらインストール メディア (具体的には **\sources\sxs** フォルダー) を指定して、インストールを続行します。 <br/> |
 |メディア ファンデーション  <br/> |Windows Server 2016、Windows Server 2012 と Windows Server 2012 R2 の Windows Media フォーマット ランタイムは、Microsoft メディア ファンデーションをインストールします。  <br/> 会議のために使用される、すべてのフロント エンド サーバーと Standard Edition サーバーでは、アナウンスや音楽のコール パーク、アナウンス、および応答グループ アプリケーションを再生する Windows Media オーディオ (.wma) ファイルを実行する、Windows Media フォーマット ランタイムが必要です。  <br/> |
 |Windows Identity Foundation  <br/> |ビジネス サーバー 2015 の Skype のサーバーからサーバーへの認証シナリオをサポートするために Windows アイデンティティ基盤の 3.5 が必要です。  <br/> • Windows Server 2012 と Windows Server 2012 R2 の場合は、何もダウンロードする必要はありません。 **サーバー マネージャー**を開いて、[**役割と機能の追加ウィザード**] に進みます。 [**機能**] セクションの一覧に [**Windows Identity Foundation 3.5**] が表示されています。 オンの場合は完了です。 オンになっていない場合は、これを選択して [次へ] をクリックし、[**インストール**] をアクティブにします。 <br/> |
 |リモート サーバー管理ツール  <br/> |役割管理ツール: AD DS および AD LDS ツール  <br/> |

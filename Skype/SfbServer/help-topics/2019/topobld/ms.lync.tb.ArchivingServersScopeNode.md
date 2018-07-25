@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
-description: トポロジ ビルダーでは、するか、コンソール ツリーで、アーカイブ サーバーを右クリックし、ツールバーの [操作] をクリックしてまたは [操作] ウィンドウで、タスク クリックし、次のアーカイブによって、個々 のアーカイブ サーバーに関連するタスクを実行することができます。サーバーのオプションです。
-ms.openlocfilehash: a42a215a3a8af193c68c12bdf953948d449d3536
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: トポロジ ビルダーでは、コンソール ツリーの [アーカイブ サーバー] を右クリックするか、ツール バーの [アクション] をクリックするか、または [アクション] ウィンドウでタスクをクリックして、次のアーカイブ サーバー オプションをクリックすることにより、個々のアーカイブ サーバーに関連するタスクを実行できます。
+ms.openlocfilehash: 881ccca58456f227f868a2a0e288b2c0a139583d
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19967573"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21082644"
 ---
 # <a name="archiving-servers-scope-node"></a>アーカイブ サーバーのスコープ ノード
  

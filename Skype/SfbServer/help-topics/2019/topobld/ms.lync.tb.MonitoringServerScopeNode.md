@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'トポロジ ビルダーでは、ツールバーの [操作] をクリックしてまたは [操作] ウィンドウで、タスクをクリックするのいずれかをクリックすると、コンソール ツリーで、監視を実行するサーバーを右クリックしていずれかの監視を実行している個々 のサーバーに関連するタスクを実行できます。監視を実行するサーバーの次のオプション:'
-ms.openlocfilehash: 006bfb85db15bd5d842644ca63edf55cf3b9b495
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: ea748113fa701b0b8c65078704b9b570514fafb3
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987277"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21082601"
 ---
 # <a name="monitoring-scope-node"></a>監視のスコープ ノード
  

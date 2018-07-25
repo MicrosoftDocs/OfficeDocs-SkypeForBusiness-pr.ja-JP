@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
+ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーを使用して構成したトポロジを公開します。 フロント エンド サーバーまたはフロント エンド プールは、中央管理ストアを保持しているの役割を仮定したリストから選択するように求められます。 フロント エンド サーバーまたはフロント エンド プールを 1 つだけでは、任意の時点で、この役割を保持できます。
-ms.openlocfilehash: 295d94686b6fa2c2e351089e9dfb80e66506c103
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 1f815bd49cecf84ca92f653d39915014a3a510db
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19978063"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21082658"
 ---
 # <a name="publish-topology-select-cms-page"></a>トポロジの選択の CMS のページを公開します。
  
