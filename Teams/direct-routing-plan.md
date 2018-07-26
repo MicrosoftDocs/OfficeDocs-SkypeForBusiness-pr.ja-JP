@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft 電話システム直接ルーティングを使用する方法マイクロソフトの電話システムに、サポートされている、お客様が用意したセッション ボーダー コント ローラー (SBC) の接続については、このトピックを参照してください。
-ms.openlocfilehash: f38748988268fdb2d515cf8a09550f4826b47c70
-ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.openlocfilehash: 4aa222a98a0c95dd49b40172543aa1f5482a964f
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "20084562"
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21148518"
 ---
 # <a name="plan-direct-routing"></a>直接ルーティングを計画します。
 
@@ -76,7 +76,6 @@ Microsoft 電話システム直接ルーティングするには、マイクロ�
 
 直接ルーティングのユーザーには、次のライセンスの Office 365 に割り当てられている必要があります。 
 
-- Skype for Business Online (プラン 2) 
 - マイクロソフトの電話システム 
 - Microsoft Teams 
 - Microsoft オーディオ会議 

@@ -6,15 +6,16 @@ manager: serdars
 ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
-ms.reviwer: laal
+ms.reviewer: laal
 description: Microsoft Teams のゲスト アクセス機能を 4 つの異なる承認レベルで管理します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe399bb7b28f834575aeff344ff3fc4cca1b5dae
-ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
+ms.openlocfilehash: 0d31bb8eafdaa6a04fe34f8433e8484ec447e7c1
+ms.sourcegitcommit: 2ce680aba13d1d781019b766a04e4e7d46d4f72c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21136308"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセスを承認する
 ===========================================
@@ -36,27 +37,27 @@ ms.lasthandoff: 03/09/2018
 ![ゲスト アクセスの承認の依存関係の図](media/teams_dependencies_image1.png)
 
 
-##<a name="azure-active-directory"></a>Azure Active Directory
+## <a name="azure-active-directory"></a>Azure Active Directory
 
 Azure AD ビジネス ツー ビジネス (B2B) コラボレーションでは、潜在的なゲスト ユーザーへの招待の送信はテナントの管理者に制限されません。 代わりに、ポリシーを使用して、招待を送信できる役割が設定されているユーザーに、招待状を送信する権限を委任します。
 
-招待の設定は、テナント レベルで適用され、ディレクトリ、テナント、アプリケーション レベルでゲストのエクスペリエンスを制御します。 来園者をサポートするために最低でも、**メンバーを招待**する必要がありますに設定する**[はい]**。
+招待の設定は、テナント レベルで適用され、ディレクトリ、テナント、アプリケーション レベルでゲストのエクスペリエンスを制御します。 来園者をサポートするために最低でも、**メンバーを招待**する必要がありますに設定する **[はい]**。
 
 
 ![Azure Active Directory ポータルのユーザー設定のスクリーンショット。](media/teams_dependencies_image2.png)
 
 Azure AD には、外部のユーザーを構成するのには次の設定が含まれています。
-- **ゲスト ユーザーのアクセス許可が制限されます**: **[はい]** [来園者がディレクトリの特定のタスクのアクセス許可を持つ、ユーザー、グループ、またはその他のディレクトリ リソースを次のように列挙されていないことを意味します。 さらに、来園者は、ディレクトリ内の管理役割に割り当てることができません。 来園者は****ことを意味では、通常のユーザーのディレクトリにあるディレクトリ データへのアクセスがありません。
+- **ゲスト ユーザーのアクセス許可が制限されます**: **[はい]** [来園者がディレクトリの特定のタスクのアクセス許可を持つ、ユーザー、グループ、またはその他のディレクトリ リソースを次のように列挙されていないことを意味します。 さらに、来園者は、ディレクトリ内の管理役割に割り当てることができません。 来園者は**** ことを意味では、通常のユーザーのディレクトリにあるディレクトリ データへのアクセスがありません。
 - **管理者グループおよびゲストの招待者のロールにユーザーを招待できます**:**はい**できることを意味管理者グループおよびユーザーを「ゲスト招待者」の役割テナントには、来園者を招待します。 **なし**には、管理者ことを意味し、ユーザーは、テナントには、来園者を招待できません。
 - **メンバーが招待することができます**:**はい**ディレクトリの管理者以外のメンバーが、Azure AD、SharePoint サイトまたは Azure のリソースなど、セキュリティで保護されたリソースに対する共同作業を行うには、来園者を招待することを意味します。 ディレクトリに来園者は管理者のみが招待することができます**しない**ことを意味します。
-- **来園者が招待することができます**: **[はい]**をディレクトリ内には、来園者自身に招待できます、Azure AD、SharePoint サイトまたは Azure のリソースなど、セキュリティで保護されたリソースに対する共同作業を行うには、他のゲストを意味します。 来園者は**ない**ことを意味は、組織との共同作業には、他のゲストを招待できません。
+- **来園者が招待することができます**: **[はい]** をディレクトリ内には、来園者自身に招待できます、Azure AD、SharePoint サイトまたは Azure のリソースなど、セキュリティで保護されたリソースに対する共同作業を行うには、他のゲストを意味します。 来園者は**ない**ことを意味は、組織との共同作業には、他のゲストを招待できません。
  
 
 
 > [!NOTE]
 > ゲストとして、テナントにどのドメインを招待することができますを管理することもできます。 [Office 365 のグループへのゲスト アクセスの許可/禁止](https://technet.microsoft.com/library/a86bb46f-0e5b-43a3-b6ef-7394f344a8da)を参照してください。 
 
-##<a name="microsoft-teams"></a>Microsoft Teams
+## <a name="microsoft-teams"></a>Microsoft Teams
 Microsoft Teams では、自分の組織においてゲストのエクスペリエンスを有効にするか無効にするかを制御できます。 この設定は既定で無効になっていて、Microsoft Teams のテナント レベルのみで適用されます。
 
 
@@ -64,11 +65,11 @@ Microsoft Teams では、自分の組織においてゲストのエクスペリ�
 Office 365 管理センターで Microsoft Teams ゲスト アクセスの設定を管理できます。 詳細については、「[Microsoft Teams へのゲスト アクセスをオンまたはオフにする](set-up-guests.md)」をご覧ください。 
 
 
-##<a name="office-365-groups"></a>Office 365 グループ
+## <a name="office-365-groups"></a>Office 365 グループ
 
 Office 365 グループから、自分の組織内のすべての Office 365 グループおよび Microsoft Teams へのゲスト ユーザーおよびゲスト アクセスの追加を制御できます。
 
-1. Office 365 グローバル管理アカウントを使用して、[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) にサインインします。
+1. Office 365 のグローバル管理者アカウントを使用してサインイン[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)。
     
   
 2. ナビゲーション メニューで [**設定**] を選択し、[**Services &amp; add-ins (サービスとアドイン)**] を選択します。
@@ -90,7 +91,7 @@ Office 365 グループから、自分の組織内のすべての Office 365 グ
 上記の設定は、テナント レベルで適用され、Office 365 グループおよび Microsoft Teams でのゲストのエクスペリエンスを制御します。
 
 
-##<a name="sharepoint-online-and-onedrive-for-business"></a>SharePoint Online と OneDrive for Business
+## <a name="sharepoint-online-and-onedrive-for-business"></a>SharePoint Online と OneDrive for Business
 
 Teams は、SharePoint Online と OneDrive for Business を利用して、チャネルとチャット会話のファイルやドキュメントを保管します。  
   

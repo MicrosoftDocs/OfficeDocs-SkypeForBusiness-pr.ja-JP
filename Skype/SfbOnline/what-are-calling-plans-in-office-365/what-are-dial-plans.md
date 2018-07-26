@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'ダイヤルの通話プラン (PSTN の呼び出しのダイヤル プラン) の種類は、Office 365 を使用し、組織のいずれかを選択する方法について説明します。  '
-ms.openlocfilehash: 5df6b2e9f9e5ccb83d6320cbd43f78ef4fc44424
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 27e65cb0651171f7e0a5d0262db0072b4d620851
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933167"
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21145295"
 ---
 # <a name="what-are-dial-plans"></a>ダイヤル プランについて
 
@@ -127,7 +127,7 @@ Skype for Business Online でのダイヤル プランの継承モデルは次�
 |7digitcallingRedmond  <br/> |7 桁の番号をレドモンドの電話番号に変換します。  <br/> |^ (\\d{7}) $  <br/> |+1425$1  <br/> |5550100 は +14255550100 に変換されます  <br/>|
 |RedmondOperator  <br/> |0 をレドモンドのオペレーター呼び出し番号に変換します。  <br/> |^0$  <br/> |+14255550100  <br/> |0 は +14255550100 に変換されます  <br/> |
 |RedmondSitePrefix  <br/> |オンネット プレフィックス (6) およびレドモンドのサイト コード (222) 付きの番号を変換します。  <br/> |^6222 (\\d{4}) $  <br/> |+1425555$1  <br/> |62220100 は +14255550100 に変換されます  <br/> |
-|5digitRange  <br/> |3 から 7 を含むその範囲で始まる 5 桁の内線番号を変換します。  <br/> |^ ([3-7]\\d{4}) $  <br/> |+142570$1  <br/> |54567 は +14255554567 に変換されます  <br/> |
+|5digitRange  <br/> |3 から 7 を含むその範囲で始まる 5 桁の内線番号を変換します。  <br/> |^ ([3-7]\\d{4}) $  <br/> |+ 142555$ 1 <br/> |54567 は +14255554567 に変換されます  <br/> |
 |PrefixAdded  <br/> |1 桁目と 3 桁目に制限を付けて、9 桁の番号の前に国番号を追加します。  <br/> |^ ([2-9]\\d\\d [2-9]\\d{6}) $  <br/> |1$1  <br/> |4255554567 は 14255554567 に変換されます  <br/> |
 |NoTranslation  <br/> |5 桁と一致しますが、変換は行いません。  <br/> |^ (\\d{5}) $  <br/> |$1  <br/> |34567 は 34567 に変換されます  <br/> |
    
