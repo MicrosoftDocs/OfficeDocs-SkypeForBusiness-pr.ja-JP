@@ -3,7 +3,7 @@ title: 教育管理者向けのマイクロソフトのチーム
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 06/18/2018
+ms.date: 07/26/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
@@ -12,19 +12,19 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b411722b94e7a540fe5af4dc8b098ad935876c00
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6eb38d1dc24094233bac94f75967bf8f1e42b93d
+ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20995988"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "21251885"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>教育管理者向けのマイクロソフトのチーム
 ==============================================
 
 ## <a name="adoption-content"></a>採用コンテンツ
 
-学校の情報やロゴをカスタマイズした電子メール メッセージ、ポスター、チラシを作成します。 または、印刷の準備完了のポスターやチラシを使用して、組織のマイクロソフトのチームに興奮を取得します。
+学校の情報やロゴをカスタマイズした電子メール メッセージ、ポスター、チラシを作成します。 または、印刷の準備完了のポスター、チラシ、およびその他の配布資料を使用して、組織のマイクロソフトのチームに興奮を取得します。
 
 |カスタマイズ可能な電子メール テンプレート |         |
 |---------|---------|
@@ -37,6 +37,10 @@ ms.locfileid: "20995988"
 |**教育 - 値のマイクロソフトのチームを発表**<br>[カスタマイズ可能な .docx ファイルをダウンロードします。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-intro-values.docx?raw=true)<br>[印刷の準備完了の .pdf ファイルをダウンロードします。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-posters-values.pdf?raw=true)<br>![教育 - 値のポスターを導入するマイクロソフトのチームのスクリーン ショットです。](media/poster-intro-values.png)    |**教育の機能のマイクロソフトのチームを発表**<br>[カスタマイズ可能な .docx ファイルをダウンロードします。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/team-edu-customizable-poster-intro-features.docx?raw=true)<br>[印刷の準備完了の .pdf ファイルをダウンロードします。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-poster-features.pdf?raw=true)<br>![教育のポスターの機能を導入するマイクロソフト チームのスクリーン ショットです。](media/poster-intro-features.png)          |
 |**マイクロソフト チームの値とパワーを与えます。**<br>[カスタマイズ可能な .docx ファイルをダウンロードします。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-empower-values.docx?raw=true)<br>[印刷の準備完了の .pdf ファイルをダウンロードします。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-posters-values.pdf?raw=true)<br>![マイクロソフト チームのポスターの値を持つことのスクリーン ショットです。](media/poster-empower-values.png)   |**マイクロソフト チームの機能を強化します。**<br>[カスタマイズ可能な .docx ファイルをダウンロードします。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-empower-features.docx?raw=true)<br>[印刷の準備完了の .pdf ファイルをダウンロードします。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-poster-features.pdf?raw=true)<br>![マイクロソフト チームのポスターの機能を持つことのスクリーン ショットです。](media/poster-empower-features.png)          |
 |**教育に関するマイクロソフトのチームの値**<br>[カスタマイズ可能な .docx ファイルをダウンロードします。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-flyer-values.docx?raw=true)<br>[印刷の準備完了の .pdf ファイルをダウンロードします。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-flyer-values.pdf?raw=true)<br>![教育チラシのマイクロソフト チームの値のスクリーン ショットです。](media/flyer-values.png)    |**教育に関するマイクロソフトのチームの機能**<br>[カスタマイズ可能な .docx ファイルをダウンロードします。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-flyer-values.docx?raw=true)<br>[印刷の準備完了の .pdf ファイルをダウンロードします。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-flyer-features.pdf?raw=true)<br>![マイクロソフト チームの教育のご案内のための機能のスクリーン ショットです。](media/flyer-features.png)        |
+
+|印刷の準備完了パケット  |        |
+|---------|---------|
+|**教育のためのマイクロソフトのチームを始めるヒントし、秘訣**<br>[印刷の準備完了の .pdf ファイルをダウンロードします。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-packet-get-started.pdf?raw=true)<br>![Get のスクリーン ショット教育パケットに対するマイクロソフトのチームで開始します。](media/package-teams-edu-get-started.png)    |
 
 ## <a name="call-to-action"></a>実施すべき内容
 

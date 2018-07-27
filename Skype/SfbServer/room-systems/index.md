@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Skype ルーム システム v2 では、展開、システムを管理する方法を導入するため関連する考慮事項です。
-ms.openlocfilehash: d52f44c302b9f99389b45c1f8e74bef6ef362447
-ms.sourcegitcommit: 3356670f2849306ce329899509d2104fe0404939
+ms.openlocfilehash: 02dcbb2ccdd1b7737dff25475fa8f623d5cff926
+ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19949794"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "21249230"
 ---
 <h2>Skype ルーム システム v2 & #x 2013 です。 <br>Skype ルーム システムの次世代 </h2>
 <ul class="panelContent cardsW cols cols2">
@@ -78,7 +78,7 @@ ms.locfileid: "19949794"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>展開</h3>
+                        <h3>の展開</h3>
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@ ms.locfileid: "19949794"
 </ul>
 
 > [!NOTE]
-> Skype ルーム システム v2 は、使用で Skype ビジネス サーバー 2015 または Skype のオンライン ビジネスの。 間もなくに非常にマイクロソフトのチームのサポートをします。 <br><br>Lync Server 2013 のような以前のプラットフォームは、Skype ルーム システム v2 を使用する必要もありません。 
+> Skype ルーム システム v2 は、オンライン ビジネスのビジネス サーバー 2015、マイクロソフトのチーム、または Skype のビジネス サーバー 2019 の Skype、Skype での使用です。  <br><br>Lync Server 2013 のような以前のプラットフォームは、Skype ルーム システム v2 を使用する必要もありません。 
 
 これらの資料は、計画、展開、およびこれらのデバイスの管理を担当する人とシステムのユーザーのものです。 ユーザーは Skype ルーム システム v2[のオンライン ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)に興味になります。
 
