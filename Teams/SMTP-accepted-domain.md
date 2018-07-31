@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Teams SMTP ドメインを承認済みドメインとして Exchange Online に追加する"
+title: マイクロソフト チーム SMTP ドメインを追加、許可された送信者のドメインと Exchange オンライン
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,26 +7,27 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anprakas
-description: "Microsoft Teams SMTP ドメインを承認済みドメインとして Exchange Online に追加し、チーム メンバーに通知を送信する方法を説明します。"
+description: マイクロソフト チーム SMTP ドメインを追加、許可された送信者のドメインと Exchange オンラインのチーム メンバーに通知を送信するについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f671d64b2928c3b5a81d38993143d9755ce42ba
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 2d69e2890589169da126f237562d32a89d378edb
+ms.sourcegitcommit: 046cc4a880f3b6b5f912278483cf28fa25619b6e
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "21597576"
 ---
-<a name="add-the-microsoft-teams-smtp-domain-as-an-accepted-domain-in-exchange-online"></a><span data-ttu-id="9271c-103">Microsoft Teams SMTP ドメインを承認済みドメインとして Exchange Online に追加する</span><span class="sxs-lookup"><span data-stu-id="9271c-103">Add the Microsoft Teams SMTP domain as an accepted domain in Exchange Online</span></span> 
+<a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a><span data-ttu-id="cef95-103">マイクロソフト チーム SMTP ドメインを追加、許可された送信者のドメインと Exchange オンライン</span><span class="sxs-lookup"><span data-stu-id="cef95-103">Add the Microsoft Teams SMTP domain as an allowed sender domain in Exchange Online</span></span> 
 =============================================================================
 
-<span data-ttu-id="9271c-p101">管理コンソールに Office 365 グループを作成するか、Outlook を使って Office 365 グループを作成するかに関わらず、グループに追加したチーム メンバーへの通知の送信には Exchange Online が使用されます。通知は、既定のドメイン SMTP FQDN であるテナントから生成されます。</span><span class="sxs-lookup"><span data-stu-id="9271c-p101">Whether you create an Office 365 Group in the admin console or by using Outlook, Exchange Online is used to send notifications of a team member being added to a Group. These messages are generated from your tenant as they represent your default domain SMTP FQDN.</span></span>
+<span data-ttu-id="cef95-p101">管理コンソールに Office 365 グループを作成するか、Outlook を使って Office 365 グループを作成するかに関わらず、グループに追加したチーム メンバーへの通知の送信には Exchange Online が使用されます。通知は、既定のドメイン SMTP FQDN であるテナントから生成されます。</span><span class="sxs-lookup"><span data-stu-id="cef95-p101">Whether you create an Office 365 Group in the admin console or by using Outlook, Exchange Online is used to send notifications of a team member being added to a Group. These messages are generated from your tenant as they represent your default domain SMTP FQDN.</span></span>
 
 ![Outlook 電子メールの、ユーザーがグループに追加されたことを示すメッセージ ヘッダーの例を示すスクリーンショット。](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image1.jpg)
 
-<span data-ttu-id="9271c-p102">Teams は追加済みのチーム メンバーに通知を送信するために Microsoft Exchange Online も使用します。SMTP メッセージのドメイン FQDN の場合は、「@email.teams.microsoft.com」という形式が使用され、この形式はスパム フィルタリングによって検出されます。次の画像が示すように、Outlook はこのメッセージを外部送信者として認識し、画像や特定のコンテンツの遮断といった標準的なセキュリティ機能を適用します。</span><span class="sxs-lookup"><span data-stu-id="9271c-p102">Teams uses Microsoft Exchange Online as well to send notifications to team members when they’ve been added. The difference being the domain FQDN of the SMTP message is “@email.teams.microsoft.com” and could be caught by spam filtering. As you can see from the image below, Outlook considers this message as an external sender which is subject to standard security features such as blocking images and certain content.</span></span>
+<span data-ttu-id="cef95-107">チームを使用して Microsoft Exchange Online にも追加されたことをチーム メンバーに通知します。</span><span class="sxs-lookup"><span data-stu-id="cef95-107">Teams uses Microsoft Exchange Online as well to send notifications to team members when they’ve been added.</span></span> <span data-ttu-id="cef95-108">ドメインの FQDN は、SMTP メッセージの違いは、"@email.teams.microsoft.com"し、迷惑メール フィルターによってキャッチされる可能性があります。</span><span class="sxs-lookup"><span data-stu-id="cef95-108">The difference being the domain FQDN of the SMTP message is “@email.teams.microsoft.com” and could be caught by spam filtering.</span></span>
 
 ![Outlook 電子メールの、ユーザーがグループに追加されたことを示すメッセージ ヘッダーの例を示すスクリーンショット。](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image2.jpg)
 
-<span data-ttu-id="9271c-111">最良の結果と円滑な操作を実現するため、Microsoft Teams SMTP ドメインを Exchange Online スパム構成の「承認済みドメイン」リストに追加することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="9271c-111">For best result and seamless operation, consider adding the Microsoft Teams SMTP domain to your “accepted domains” list in your Exchange Online spam configuration:</span></span>
+<span data-ttu-id="cef95-110">最良の結果とシームレスな操作では、Exchange オンラインの迷惑メール構成の「許可された送信者のドメイン] 一覧に、マイクロソフト チームの SMTP ドメインを追加することを検討します。</span><span class="sxs-lookup"><span data-stu-id="cef95-110">For best result and seamless operation, consider adding the Microsoft Teams SMTP domain to your “allowed sender domains” list in your Exchange Online spam configuration:</span></span>
 
 ![Exchange Online スパム構成の [許可] リスト セクションのスクリーンショット。](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image3.png)
