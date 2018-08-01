@@ -1,11 +1,25 @@
--タイトル: ライブ イベントのチームは何ですか?作成者: TonySmith ms.author: tonysmit マネージャー: serdars ms.date: 2018/7/11 ms.topic: ms.service の記事: msteams ms.reviwer: tonysmit の説明: どのようにマイクロソフトのチームで大規模なオンライン ユーザーを対象に、ビデオ、およびコンテンツをブロードキャストするユーザーを有効にするイベントの説明Yammer、および Microsoft のストリーム。  
-appliesto。 
-- Microsoft Teams
 ---
-
+title: ライブ イベントをチームは何ですか。
+author: tonysmith
+ms.author: tonysmit
+manager: serdars
+ms.topic: article
+ms.service: msteams
+ms.reviwer: tonysmit
+description: どのようにビデオ、およびマイクロソフトのチーム、Yammer、および Microsoft のストリームでの大規模なオンライン ユーザーを対象にコンテンツをブロードキャストするユーザーを有効にするイベントについて説明します。
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: e8050f105202063a0404de281100deaeca29584d
+ms.sourcegitcommit: d802b3091f9dccc851093eed0e2acbc34d1e9d9b
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "21653686"
+---
 # <a name="what-are-teams-live-events"></a>ライブ イベントをチームは何ですか。
-**概要**: どのようにビデオ、およびマイクロソフトのチーム、Yammer、および Microsoft のストリームでの大規模なオンライン ユーザーを対象にコンテンツをブロードキャストするユーザーを有効にするイベントについて説明します。  
-注: これは、プレビューまたは以前のリリースの機能です。
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
+
+どのようにビデオ、およびマイクロソフトのチーム、Yammer、および Microsoft のストリームでの大規模なオンライン ユーザーを対象にコンテンツをブロードキャストするユーザーを有効にするイベントについて説明します。  
 
 ## <a name="overview"></a>概要
 Microsoft 365 でのライブ イベントは、ビデオ、および大規模なオンライン ユーザーを対象にコンテンツをブロードキャストするユーザーを有効にします。  Microsoft 365 のライブ イベントは、接続全体の契約のライフ サイクル全体を通じて参加者と、実行中に、前後のライブ イベントの促進、新たなレベルへのストリーミング ライブのビデオを表示します。 ライブ イベントを作成するには、対象ユーザー、チーム、またはコミュニティが存在する、Microsoft のストリーム、マイクロソフトのチームまたは Yammer を使用して任意の場所にします。  
@@ -13,13 +27,6 @@ Microsoft 365 でのライブ イベントは、ビデオ、および大規模�
 マイクロソフトのチームでは、チャット ベースのコラボレーション、会議の呼び出しと、ライブ イベントと、会議の出席者を展開することができます。 マイクロソフトのチームのライブ イベントは、大規模なオンライン ユーザーにビデオ、および会議のコンテンツをブロードキャストするユーザーを有効にすると、チームの会議の拡張です。 これらは、一対多の通信の相互作用をリードしているイベントのホストと、ホストによって共有されているコンテンツを表示するのには、対象ユーザーへの参加が主な目的は場所のものです。 出席者が Yammer、チーム、および Microsoft のストリーム、ライブまたは記録されたイベントを見ることができ、モデレートの Q & A を使用して、発表者と対話できるか、Yammer の会話です。 
 
 ライブ イベントは、次のバージョンの Skype 会議のブロードキャストと見なされ、最終的には、チームでは、Skype 会議をブロードキャストすることで提供される機能を置き換えます。 ライブ イベントのパブリック プレビュー リリースでは、マイクロソフトが新しい、または今後のイベントのサービスの中断は生じませんが、Skype 会議をブロードキャストをサポートするために継続します。 参加者の数などの画面を共有するには、新しい機能を活用してチームでのライブ イベントを試すし、エンコーダーの外部のハードウェアとソフトウェアのサポートすることをお勧めします。 
-
-関連記事: 
-
-- [Yammer、マイクロソフトのチーム、および Microsoft のストリーム内の Microsoft 365 の間でのライブ イベント](https://docs.microsoft.com/stream/live-event-m365)
-- [マイクロソフトのチームでのライブ イベント](https://support.office.com/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a)
-- [Yammer のライブ イベント](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
-- [Microsoft ストリームでのライブ イベント](https://review.docs.microsoft.com/stream/live-event-overview)
 
 ## <a name="key-components"></a>主要なコンポーネント
 次の図は、Microsoft の 365 のライブ イベントに関連する高レベルのコンポーネントを示しています。 
@@ -50,7 +57,7 @@ ECDN の目標は、ビデオ コンテンツをインターネットから取�
 - (準備中にクイック スタート) ランプ
 
 ### <a name="attendee-experience"></a>参加者の経験
-参加者の経験は、ライブ イベントの最も重要な側面と、出席者が問題なくライブ イベントに参加できることが重要です。 参加者経験では、Azure のメディア プレーヤーを使用してし、デスクトップ、ブラウザー、およびモバイル (iOS、Android) の間で動作します。 Microsoft 365 は、Yammer とチーム共同作業の 2 つのハブとライブの参加者としての経験に統合されているこれらのコラボレーション ツールです。 ベースの外部のエンコーダーのライブ イベントは、Microsoft ストリーム ポータルの出席者でもアクセスできます。
+参加者の経験は、ライブ イベントの最も重要な側面と、出席者が問題なくライブ イベントに参加できることが重要です。 参加者経験では、Azure のメディア プレーヤーを使用してし、デスクトップ、ブラウザー、およびモバイル (iOS、Android) の間で動作します。 Office 365 は、Yammer とチーム共同作業の 2 つのハブとライブの参加者としての経験に統合されているこれらのコラボレーション ツールです。 ベースの外部のエンコーダーのライブ イベントは、Microsoft ストリーム ポータルの出席者でもアクセスできます。
 
 ## <a name="prerequisites"></a>前提条件
 
@@ -63,12 +70,12 @@ ECDN の目標は、ビデオ コンテンツをインターネットから取�
 - ユーザーは、(外部のエンコーダーの生産) の Microsoft のストリームでのライブ イベントを作成するアクセス許可を持っています。
 
 > [!NOTE]
-> O365 の来園者、連合、および匿名ユーザーは、生産者またはチームのライブ イベントで発表者として招待できません。 
+> 製作者またはチームのライブ イベントで発表者として office 365 の来園者、連合、および匿名ユーザーの参加を要請することはできません。 
  
 ### <a name="who-can-watch-live-event"></a>ライブ イベントを監視します。
 ライブ イベントに参加できるユーザーを表示するのには次の表を確認します。 
 
-|出席者の表示/非表示           |クイック スタート  |外部エンコーダー  |
+|**出席者の表示/非表示**           |**クイック スタート** |**外部エンコーダー**  |
 |------------------------------|-------------|------------------|
 |公開 (匿名ユーザー)      |  あり        |  なし              |
 |ゲスト ユーザー *                   |  なし         |  なし              |
@@ -161,7 +168,7 @@ Kollective のクラウド ベースのスマートのピアリング配布プ�
 #### <a name="configure-ecdn-for-quick-start-live-events"></a>「クイック スタート」のライブ イベント eCDN を構成します。 
 PowerShell を使用してマイクロソフトのチームでは、ライブ イベントの eCDN のプロバイダーを構成できます。 注: 1 つの eCDN ・ プロバイダーのみを構成できます、テナントの任意の時点で。 
 
-ハイブ eCDN プロバイダーを構成します。 
+**ハイブ eCDN プロバイダーを構成します。** 
 
 [セット CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) PowerShell コマンドレットを使用するには eCDN のプロバイダーを構成します。 
 1. ハイブ相手からライセンス ID と API テンプレートの URL を取得します。 
@@ -170,7 +177,7 @@ PowerShell を使用してマイクロソフトのチームでは、ライブ �
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
 ```
 
-Kollective eCDN プロバイダーを構成します。 
+**Kollective eCDN プロバイダーを構成します。** 
 
 [セット CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) PowerShell コマンドレットを使用するには eCDN のプロバイダーを構成します。 
 1. Kollective 連絡先から API トークンおよび API のテンプレートの URL を取得します。 
@@ -179,13 +186,10 @@ Kollective eCDN プロバイダーを構成します。
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
 ```
 
-ランプ eCDN プロバイダーを構成します。 
-
-準備中 
+**ランプ eCDN プロバイダーを構成します。**
 
 #### <a name="configure-ecdn-for-external-encoder-live-events"></a>「外部エンコーダー」のライブ イベント eCDN を構成します。 
 外部エンコーダーを使用して、ライブのイベントを作成する場合は、[マイクロソフトのストリームで、eCDN のプロバイダーを構成する](https://docs.microsoft.com/stream/network-caching)にもする必要があります。 「クイック スタート」を通じてマイクロソフトのチームまたは Yammer のライブ イベントを作成する場合は、マイクロソフト チームと同様に統合するには、SDN と eCDN のプロバイダーを構成する必要があります。
-
 
 ### <a name="enable-live-event-scheduling-for-the-user"></a>ユーザーのライブ イベントのスケジュール設定を有効にします。
 チームのユーザーの既定では、ライブ イベントのスケジュールが有効になっています。  
@@ -248,7 +252,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ### <a name="configure-attendee-visibility-options"></a>出席者の表示/非表示のオプションを構成します。
 これにより、適切な参加者の可視性を持つイベントを作成するライブ イベントを開催します。
 
-|値  |動作  |
+|**値**  |**動作**  |
 |---------|---------|
 |全員     |ライブ イベントを次の出席者の可視性を作成するオプションをユーザーが持っている: 会社、および特定のユーザーのすべてのメンバーを公開します。 |
 |EveryoneInCompany     |ユーザーは、ライブ イベントを次の出席者の可視性を作成するオプションを持っている: 会社および特定のユーザーのすべてのメンバーです。 ユーザーは、匿名ユーザーが参加できるライブ イベントを作成できません。|
@@ -270,7 +274,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility 
 
 これにより、ライブ イベントは、常に記録、記録されることはないかどうか、またはイベントの開催者は、かのイベントが記録することができるかどうか制御する管理者です。  
 
-|値  |動作  |
+|**値**  |**動作**  |
 |---------|---------|
 |常に有効になっています。 |このユーザーごとのライブ イベントは、常に記録されます。 ユーザーには、オーバーライドするためのオプションを持っていません。 ライブのイベントが記録される場合は、イベントのチーム メンバーは、イベントの後にレコーディングをダウンロードすることと出席者は、イベント終了後のイベントを監視できます。 |
 |AlwaysDisabled |このユーザーが開催するライブ イベントが記録されることはありません。 ユーザーには、オーバーライドするためのオプションを持っていません。 ライブのイベントが記録される場合は、イベント チームのメンバーの記録は作成されず、出席者はイベントが上にあるを見ることはできません。 |
@@ -319,3 +323,10 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
   - [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
 
+
+### <a name="related-topics"></a>関連トピック: 
+
+- [Yammer、マイクロソフトのチーム、および Microsoft のストリーム内の Microsoft 365 の間でのライブ イベント](https://docs.microsoft.com/stream/live-event-m365)
+- [マイクロソフトのチームでのライブ イベント](https://support.office.com/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a)
+- [Yammer のライブ イベント](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
+- [Microsoft ストリームでのライブ イベント](https://review.docs.microsoft.com/stream/live-event-overview)
