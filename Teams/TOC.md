@@ -134,15 +134,21 @@
 <!-- ============================================================ -->
 # セキュリティとコンプライアンス
 ## [Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)
-## [Skype for Business と Teams のデータ収集方法](/SkypeForBusiness/legal-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Teams のコンテンツに対して電子情報開示の調査を行う](ediscovery-investigation.md)
 ## [Teams での ID モデルと認証](identify-models-authentication.md)
 ## [Teams ユーザーまたはチームに訴訟ホールドを適用する](legal-hold.md)
 ## [Teams でイベントの監査ログを検索する](audit-log-events.md)
 ## [Teams のコンテンツ検索を使用する](content-search.md)
+## [マイクロソフト チームのフランスの準拠のアクセシビリティの宣言](accessibility-declaration-of-conformance-in-france-for-teams.md)
+##  [Skype のビジネスをオンラインで、マイクロソフトのチーム向けのアクセシビリティ](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [英国内の演習用のコード](/SkypeForBusiness/legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [英国のコードの対応処理](/SkypeForBusiness/legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [無料のダイヤルアウト期間](/SkypeForBusiness/legal-and-regulatory/?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [データ収集方法](/SkypeForBusiness/legal-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [緊急呼び出しラベル](/SkypeForBusiness/legal-and-regulatory/emergency-calling-lables?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [緊急通話の利用条件](/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
 <!-- ============================================================ -->
-
-
 <!-- ============================================================ -->
 # Office 365 との相互運用性
 ## [移行とビジネス用の Skype では、相互運用性](migration-interop-guidance-for-teams-with-skype.md)
