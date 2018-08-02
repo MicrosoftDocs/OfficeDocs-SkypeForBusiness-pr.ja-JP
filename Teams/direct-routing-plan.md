@@ -4,17 +4,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft 電話システム直接ルーティングを使用する方法マイクロソフトの電話システムに、サポートされている、お客様が用意したセッション ボーダー コント ローラー (SBC) の接続については、このトピックを参照してください。
-ms.openlocfilehash: 4aa222a98a0c95dd49b40172543aa1f5482a964f
-ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
+ms.openlocfilehash: 66929e86e6e049ee1dd5c839bfcc4adcc3edf35f
+ms.sourcegitcommit: 9e112a00c9766af8bd30bc13980201d23d1928d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "21148518"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21752564"
 ---
 # <a name="plan-direct-routing"></a>直接ルーティングを計画します。
 
@@ -107,8 +108,10 @@ SBC ドメイン名は、テナントの「ドメイン」に登録された名�
 |**DNS 名**|**SBC の FQDN を使用することができます。**|**FQDN 名の例**|
 |:--- |:--- |:--- |
 contoso.com|あり|**有効な名前。**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
-|contoso.onmicrosoft.com|なし|**無効な名前:**<br/>(「ドメイン」でドメイン名の europe.contoso.com を最初に登録する必要があります) sbc1.europe.contoso.com
-|
+|contoso.onmicrosoft.com|なし|<br/>使用して *. SBC 名を onmicrosoft.com ドメインはサポートされていません
+
+新しいドメイン名を使用する場合。 など、テナントは、テナントに登録されている domin 名として contoso.com を持ちます。 Sbc1.sip.contoso.com を使用するには。 Sbc1.sip.contoso.com の名前を持つ SBC をペアにする前に、テナントの「ドメイン」でドメイン名の sip.contoso.com を登録する必要があります。 SBC sbc1.sip.contoso.com をペアリングしようとすると、エラー メッセージが表示「は使用できません"sbc1.sip.contoso.com"ドメインとして、このテナント用に構成されていません」
+ドメイン名を追加した後は、「チーム」lisence UPN の user@sip.contoso.com と assing のユーザーを作成する必要があります。 テナント、ユーザーの「ドメイン」に新しい名前を作成しユーザーに割り当てられている lisence を追加後にドメイン名完全にプロビジョニングするには最大 24 時間かかる場合があります。 
 
 会社が 1 つのテナントのいくつかの SIP アドレス スペースを必要があります。 たとえば、会社とがあります SIP アドレス空間 contoso.com fabrikam.com 2 つ目の SIP アドレス スペースとして。 一部のユーザーがあるアドレスに user@contoso.com と一部のユーザーがアドレス user@fabrikam.com にあります。 
 
@@ -212,7 +215,7 @@ SBC では、sip.pstnhub.microsoft.com を解決するための DNS クエリを
 - [は](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
 - リボン (以前は Sonus)。
    - [SBC エッジ シリーズ](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
-   - [TBD SBC ・ コア ・ シリーズ](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
+   - [SBC のコア ・ シリーズ](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
 - ThinkTel: ThinkTel は、企業に半角を販売していないが、SBC の認定を受けることができます。  
  
 ## <a name="see-also"></a>関連項目
