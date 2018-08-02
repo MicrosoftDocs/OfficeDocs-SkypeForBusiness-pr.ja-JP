@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft 電話システム直接ルーティングを構成する方法について説明します。
-ms.openlocfilehash: c73141e4f77816d5e090a1cf0208eb66a1e29811
-ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.openlocfilehash: 112381db7d4d2bc160917b41c7e8e437ef737bcf
+ms.sourcegitcommit: d619e44d685e2109b995ffd67ff4b98e5647c8ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "20084564"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21762944"
 ---
 # <a name="configure-direct-routing"></a>直接ルーティングを構成します。
 
@@ -530,47 +530,8 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 
 ## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-the-users"></a>ユーザー優先の呼び出し元のクライアントとして Microsoft チームの設定します。
 
-直接ルーティングは、マイクロソフトのチームが、ユーザーの優先呼び出し側のクライアントであることを確認する必要がありますので、マイクロソフトのチームにのみ呼び出しをルーティングします。 これは、TeamsCallingPolicy と、TeamsInteropPolicy によって制御されます。 
+チーム Cleint を使用する場合に、ユーザーからの呼び出しルーティングだけのルートを指示します。 組織は、チームの cleint を使用してのみ、チームのみ] 設定モードでのアップグレードのポリシーを推奨します。 組織では、オンライン ビジネスのビジネス サーバーまたは Skype の Skype を使用する場合は、 [Skype のビジネスおよびチームの理解の共存およびアップグレードの旅](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)の次のドキュメントを確認、適切なオプションを選択してください。 
 
-1. まず、オンライン ビジネスの管理センターの Skype でのリモート PowerShell セッションで次のコマンドレットを使用して、ユーザーが割り当てられているポリシーを参照してください。 
-
-  ```
-  Get-CsOnlineUser -identity <User Name> | fl *teams*
-  ```
- 
-2. 次に、別のポリシーのインスタンスを確認します。 
-
-  ```
-  Get-CsTeamsCallingPolicy
-  ``` 
- および 
-
-  ```
-  Get-CsTeamsInteropPolicy
-  ``` 
-
-マイクロソフトのチームのユーザーがサービスを使用する前に、必要に応じて呼び出し元のポリシーを適用し、呼び出しを許可するために追加の手順があります。
-
-### <a name="teams-calling-policy"></a>チームのポリシーの呼び出し
-
-ユーザーが AllowCalling で、TeamsCallingPolicy を持っているかどうかを確認する必要があります true です。 このポリシーは、テナントのグローバル ポリシーまたはユーザーに与えられている特定のポリシーに、できます。 特定のポリシーをユーザーに付与する場合は、コマンドレットを使用することができます。
-
-```
-Grant-CsTeamsCallingPolicy -PolicyName <policy> -Identity <User Name>
-```
-
-### <a name="teams-interop-policy"></a>チームの相互運用機能のポリシー
-
-ユーザーがマイクロソフトのチームを設定するのには優先呼び出し側のクライアントを持っていることを確認します。 これにより 2 つの方法であります。
-
-- ユーザーは、クライアントの Microsoft のチームに優先する呼び出し元クライアントを設定します。
-- ユーザーには、優先する呼び出し元クライアントを設定するポリシーが割り当てられています。
-
-優先する呼び出し元クライアントとマイクロソフトのチームを設定するポリシーを割り当てるには、CallingDefaultClient のポリシーをユーザーが許可されていることを確認するチームを = します。 例コマンドレットは、次に示します。
-
-```
-Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingTeamsChatTeams -Identity “<User Name>”
-```
 
 ## <a name="see-also"></a>関連項目
 
