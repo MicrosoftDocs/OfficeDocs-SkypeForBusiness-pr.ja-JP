@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 description: この資料では、カスタム テーマの適用を含め、Skype ルーム システム v2 デバイスによって使用される既定の設定のリモート管理について説明します。
-ms.openlocfilehash: 9310683d3dbe274721f2bdcd583492b63a10d821
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9e8ff661dfab6810d1072b86dddcb8621c63b8d0
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21015600"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21711052"
 ---
 # <a name="manage-a-skype-room-systems-v2-console-settings-remotely-with-an-xml-configuration-file"></a>Skype Room Systems バージョン 2 のコンソールの設定を、XML 構成ファイルを使用してリモートで管理する
  
@@ -39,6 +39,9 @@ ms.locfileid: "21015600"
              <ConfigureDomain>domain1, domain2</ConfigureDomain>
              <AutoRotatePassword>1</AutoRotatePassword>
   </UserAccount>    
+  <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
+  <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
+  <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
   <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled> 
   <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled> 
   <DualScreenMode>true</DualScreenMode>
@@ -74,14 +77,16 @@ XML ファイルの作成でエラーが含まれる場合 (変数値の型に�
 |\<HideMeetingName\>  <br/> |ブール値 & #x 2777 です。 <br/> |最初 & #x 2776。 <br/> |true の場合、会議名が非表示になります。  <br/> |
 |\<ユーザー アカウント\>  <br/> |Container  <br/> |最初 & #x 2776。 <br/> |資格情報パラメーターのコンテナー。  <br/> サインイン アドレス、Exchange アドレス、または電子メール アドレスは、通常は RanierConf など、同じ<span></span>@contoso.com です。  <br/> |
 |\<SkypeMeetingsEnabled\>  <br/> |ブール値 & #x 2777 です。 <br/> |最初 & #x 2776。 <br/> |既定では有効です。  <br/> |
-|\<TeamsMeetingsEnabled\>  <br/> |ブール値 & #x 2777 です。 <br/> |最初 & #x 2776。 <br/> |既定では無効です。  <br/> XML ファイルと見なされます正しくない場合は両方\<SkypeMeetingsEnabled\>と\<TeamsMeetingsEnabled\>が無効になって、両方の設定が同時に有効にすることができますが、します。  <br/> |
 |\<SkypeSignInAddress\>  <br/> |String 3 <br/> ||コンソールの Skype for Business デバイス アカウントのサインイン名。  <br/> |
 |\<ExchangeAddress\>  <br/> |String 3 <br/> ||コンソールの Exchange デバイス アカウントのサインイン名。  <br/> ExchangeAddress が省略された場合、SkypeSignInAddress が自動的に再利用されることはありません。  <br/> |
 |\<DomainUsername\>  <br/> |文字列 & #x 2778 です。 <br/> ||コンソール デバイスのドメイン名およびユーザー名 (Seattle\RanierConf など)。  <br/> |
 |\<パスワード\>  <br/> |String 3 <br/> || パスワード パラメーターは、Skype for Business デバイス アカウントのサインインで使用されるものと同一のパスワードです。 <br/> |
 | \<ConfigureDomain\> <br/> |文字列 & #x 2778 です。 <br/> ||複数のドメインをコンマで区切ってリスト表示することができます。  <br/> |
 |\<AutoRotatePassword\>  <br/> |ブール値 & #x 2777 です。 <br/> |||
-| \<DualScreenMode\> <br/> |ブール値 & #x 2777 です。 <br/> |最初 & #x 2776。 <br/> |True の場合、デュアル画面モードを有効にします。 それ以外の場合、デバイスでは 1 画面表示モードが使用されます。  <br/> |
+|\<TeamsMeetingsEnabled\>  <br/> |ブール値 & #x 2777 です。 <br/> |最初 & #x 2776。 <br/> |既定では無効です。  <br/> XML ファイルと見なされます正しくない場合は両方\<SkypeMeetingsEnabled\>と\<TeamsMeetingsEnabled\>が無効になって、両方の設定が同時に有効にすることができますが、します。  <br/> |
+|\<IsTeamsDefaultClient > |ブール値 & #x 2777 です。 <br/> |最初 & #x 2776。 <br/> |既定では無効です。 <br/>|
+|\<BluetoothAdvertisementEnabled > |ブール値 & #x 2777 です。 <br/> |最初 & #x 2776。 <br/> |既定では有効です。 <br/>|
+|\<DualScreenMode\> <br/> |ブール値 & #x 2777 です。 <br/> |最初 & #x 2776。 <br/> |True の場合、デュアル画面モードを有効にします。 それ以外の場合、デバイスでは 1 画面表示モードが使用されます。  <br/> |
 |\<SendLogs\>  <br/> |Container  <br/> |最初 & #x 2776。 <br/> ||
 |\<EmailAddressForLogsAndFeedback\>  <br/> |文字列 & #x 2778 です。 <br/> ||[フィードバックの送信] ウィンドウが表示されたときにログの送信先となるオプションの電子メール アドレスを設定します。  <br/> |
 |\<SendLogsAndFeedback\>  <br/> |ブール値 & #x 2777 です。 <br/> || true の場合、ログが管理者に送信されます。それ以外の場合、フィードバックのみが管理者に送信されます (ログは送信されません)。 <br/> |

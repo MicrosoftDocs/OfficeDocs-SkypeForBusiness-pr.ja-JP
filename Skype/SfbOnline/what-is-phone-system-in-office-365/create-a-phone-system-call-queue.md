@@ -1,5 +1,5 @@
 ---
-title: 電話システム呼び出しキューを作成します。
+title: 電話システムの通話キューを作成する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 119e56f27edc992466a6565235715d2703b1cb12
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
+ms.openlocfilehash: 9b86bec84846dff36e509488eb34f0415fe8cd95
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21708352"
 ---
-# <a name="create-a-phone-system-call-queue"></a>電話システム呼び出しキューを作成します。
+# <a name="create-a-phone-system-call-queue"></a>電話システムの通話キューを作成する
 
 電話システム キューには、保留中の呼び出しを自動的に配置する機能などを検索する人の中に呼び出しを処理するために次の呼び出しを使用可能なエージェントの機能の電話番号への呼び出し際に使用するあいさつ文が含まれています。呼び出しが保留中の音楽をリッスンしています。 組織の 1 つまたは複数の呼び出しキューを作成します。
   
@@ -89,6 +90,14 @@ ms.lasthandoff: 05/25/2018
   - iPhone ビジネス クライアント用の Skype (バージョン 6.16.0 以降)
     
   - iPad ビジネス クライアント用の Skype (バージョン 6.16.0 以降)
+
+  - チーム Windows クライアント (32 および 64 ビット バージョン)
+
+  - マイクロソフト チームの Mac クライアント
+
+  - マイクロソフト チームの iPhone アプリ
+
+  - マイクロソフト チーム Android アプリ
     
 ## <a name="step-2---getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>ステップ 2 - 有料またはフリーダイヤルのサービス電話番号の取得または移行
 
@@ -98,6 +107,8 @@ Before you can create and set up your call queues, you will need to get or trans
 > 米国以外のユーザーは、サービス番号を取得するビジネス管理センターの Skype を使うことはできません。 [組織の電話番号を管理](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)する代わりに、米国の外側から行う方法を参照してください。
   
 ## <a name="step-3---create-a-new-call-queue"></a>ステップ 3 - 新しい通話キューの作成
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
 
 In the **Skype for Business admin center**, click **Call routing** > **Call queues**, then click **Add new**:
   
@@ -152,7 +163,7 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
 ***
 ![番号 1](../images/sfbcallout1.png)<br/><br/>コール エージェント (最大 50) を指定できます。
 *    **電話システム**のライセンスを持つオンラインのユーザー、またはエンタープライズ VoIP の計画を呼び出すことを有効にします。 <br/><br/> **注:** オンラインにいる人が、組織内への呼び出しをリダイレクトするのには、**電話システム**のライセンスが必要しエンタープライズ VoIP を有効にすることも計画を呼び出します。 「[Skype for Business と Microsoft Teams のライセンスを割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)」をご覧ください。 エンタープライズ VoIP を有効にするには、Windows PowerShell を使用できます。 例を実行します。`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` <br/><br/>
-*    オンラインのユーザーに、**電話システム**のライセンスを呼び出す計画、Office 365 のグループ、メールが有効な配布リスト、またはセキュリティ グループに追加されるとします。 配布リストまたは通話キューからの呼び出しの受信を開始するのにはセキュリティ グループに追加された新しいエージェントの最大 30 分間がかかる場合があります。 新しく作成した配布リストまたはセキュリティ グループでは、呼び出しキューで使用できるようになるには最大で 48 時間をかかる場合があります。 新しく作成された Office 365 グループは、利用可能なほぼ瞬時に。 <br/> 
+*    オンライン ・ ユーザー**電話システム**ライセンス計画を呼び出すと、Office 365 のグループ、メールが有効な配布リスト、またはセキュリティ グループに追加されます。 配布リストまたは通話キューからの呼び出しの受信を開始するのにはセキュリティ グループに追加された新しいエージェントの最大 30 分間がかかる場合があります。 新しく作成した配布リストまたはセキュリティ グループでは、呼び出しキューで使用できるようになるには最大で 48 時間をかかる場合があります。 新しく作成された Office 365 グループは、利用可能なほぼ瞬時に。 <br/> 
 
     > [!NOTE] 
     > ユーザーには、設置がホストされている Lync Server 2010 の使用はサポートされていません。           

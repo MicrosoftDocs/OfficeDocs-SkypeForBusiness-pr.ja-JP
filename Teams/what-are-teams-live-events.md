@@ -9,12 +9,12 @@ ms.reviwer: tonysmit
 description: どのようにビデオ、およびマイクロソフトのチーム、Yammer、および Microsoft のストリームでの大規模なオンライン ユーザーを対象にコンテンツをブロードキャストするユーザーを有効にするイベントについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8050f105202063a0404de281100deaeca29584d
-ms.sourcegitcommit: d802b3091f9dccc851093eed0e2acbc34d1e9d9b
+ms.openlocfilehash: 4017e059f202a89451b9aad419fd007bb4758765
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "21653686"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21711071"
 ---
 # <a name="what-are-teams-live-events"></a>ライブ イベントをチームは何ですか。
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
@@ -147,7 +147,7 @@ ECDN の目標は、ビデオ コンテンツをインターネットから取�
 ### <a name="set-up-your-network-for-live-events-in-microsoft-teams"></a>マイクロソフトのチームでのライブ イベント用にネットワークを設定します
 クイック スタートのライブ イベントでは、[マイクロソフトのチームの組織のネットワークを準備](https://docs.microsoft.com/en-us/microsoftteams/prepare-network)するのには必要です。  
 
-クイック スタートと外部エンコーダーの両方のライブ イベント 
+クイック スタートと外部エンコーダーの両方のライブ イベント、Url、IP アドレス、ポート、およびチームとストリームを正しく構成する必要があるプロトコルの詳細で最新の状態の一覧については、 [Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges)を移動します。 マイクロソフトが継続的に Office 365 のサービスを向上させることし、新しい機能を追加するには、必要なポート、Url、つまり時間の経過と共に IP アドレスを変更することがあります。 この情報を更新または変更されたときに通知を受信する RSS 経由で購読することをお勧めします。
 
 ### <a name="set-up-ecdn-provider-for-live-events-in-microsoft-teams"></a>マイクロソフトのチームでのライブ イベントの eCDN のプロバイダーを設定します 
 適応のビットレート (ABR) のストリーミングを使用して、ライブ イベントのビデオの再生は、ユニキャスト ストリーム、つまり、万人がインターネットから自分のビデオ ストリームを取得します。 ライブ イベントや、組織の大部分に送信されるビデオは、膨大なインターネットの帯域幅のあるユーザーによって消費されている可能性があります。  ライブ イベントの場合は、このインターネット トラフィックを削減する組織では、マイクロソフトのソリューションは、統合のライブ イベントでは、ソフトウェアを提供するビデオの配信パートナーには、ネットワーク (SDNs) またはエンタープライズ ・ コンテンツ配信ネットワーク (eCDNs) が定義されている信頼されています。 これらの SDN/eCDN ・ プラットフォームを犠牲にエンド ユーザー エクスペリエンスを表示することがなくネットワークの帯域幅を最適化するために組織を有効化します。 パートナーは、エンタープライズ ネットワーク上よりスケーラブルで効率的なビデオ配信を有効にするに役立ちます。
