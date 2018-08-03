@@ -10,12 +10,12 @@ ms.reviewer: marcl, ninadara
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee04fc9452342b78dc94a3c5c4e977f944d9164b
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: b7053bade0b01a35ba8e43607b182c9faec63879
+ms.sourcegitcommit: c12afd4dd5509a4552b2999430953273d36db039
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246547"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21779520"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
   
@@ -59,7 +59,7 @@ ms.locfileid: "20246547"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|先進認証でエラーが発生 - フォーム認証が有効になっていない  <br/> |多要素認証で最初のエラーが発生した場合、Web アプリを使用して認証を行います。  <br/> 詳細については、「[Active Directory フェデレーション サービスの prompt=login パラメーターのサポート](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-prompt-login)」をご覧ください。  <br/> |Set -MsolDomainFederationSettings -DomainName yourdomainhere -PreferredAuthenticationProtocol WsFed -SupportsMfa $False -PromptLoginBehavior の設定が無効になっていることを確認してください。  <br/> |2017/06/19  <br/> |
+|先進認証でエラーが発生 - フォーム認証が有効になっていない  <br/> |多要素認証で最初のエラーが発生した場合、Web アプリを使用して認証を行います。  <br/> 詳細については、「[Active Directory フェデレーション サービスの prompt=login パラメーターのサポート](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-prompt-login)」をご覧ください。  <br/> |この設定を確認する: `Set -MsolDomainFederationSettings -DomainName yourdomainhere -PreferredAuthenticationProtocol WsFed -SupportsMfa $False -PromptLoginBehavior Disabled`。  <br/> |2017/06/19  <br/> |
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
@@ -104,15 +104,15 @@ ms.locfileid: "20246547"
 ## <a name="client"></a>クライアント
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|Teams が自動的に更新されない   <br/> | Microsoft Teams が既定の場所ではなく、インストール スクリプトを使用して [Program Files] にインストールされると、クライアントは最新バージョンを利用できる場合でも自動更新されません。    <br/> | これは意図した仕様です。 必ず既定の場所 user\Appdata にアプリケーションをインストールしてください。  <br/> | 2017/09/07  <br/> |
+|Teams が自動的に更新されない   <br/> | Microsoft Teams が既定の場所ではなく、インストール スクリプトを使用して [Program Files] にインストールされると、クライアントは最新バージョンを利用できる場合でも自動更新されません。    <br/> | これは意図した仕様です。 デフォルトの場所にアプリケーションをインストールしてください: `user\Appdata`。  <br/> | 2017/09/07  <br/> |
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|ドライブを C:\users にシンボリックリンク付けする、またはマッピングすると、アプリが白画面で起動します。  <br/> | Microsoft Teams が既定の場所ではなく、インストール スクリプトを使用して [Program Files] にインストールされると、クライアントは最新バージョンを利用できる場合でも自動更新されません。   <br/> | これは意図した仕様です。 必ず既定の場所 user\Appdata にアプリケーションをインストールしてください。 マッピングが存在しなくてはならない場合は、Microsoft Teams の Web バージョンを使用する必要があります。  <br/> | 2017/09/07  <br/> |
+|ドライブを C:\users にシンボリックリンク付けする、またはマッピングすると、アプリが白画面で起動します。  <br/> | Microsoft Teams が既定の場所ではなく、インストール スクリプトを使用して [Program Files] にインストールされると、クライアントは最新バージョンを利用できる場合でも自動更新されません。   <br/> | これは意図した仕様です。 デフォルトの場所にアプリケーションをインストールしてください: `user\Appdata`。 マッピングが存在しなくてはならない場合は、Microsoft Teams の Web バージョンを使用する必要があります。  <br/> | 2017/09/07  <br/> |
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|ドライブを C:\users にシンボリックリンク付けする、またはマッピングすると、アプリが白画面で起動します。  <br/> |C:\users\<user>\appData という既定の場所が、C:\users フォルダーを移動したり、シンボリックリンクを使用したりすることによって変更されると、アプリは白画面で起動します。   <br/> |既知の回避策はありません。 マッピングが存在しなくてはならない場合は、Microsoft Teams の Web バージョンを使用する必要があります。   <br/> |2017/03/13  <br/> |
+|ドライブを C:\users にシンボリックリンク付けする、またはマッピングすると、アプリが白画面で起動します。  <br/> |ときの既定の場所`C:\users\<user>\appData`移動することによって変更された、 `C:\users` 、白い画面でアプリケーションを起動フォルダー、またはシンボリック リンクを使用して、します。   <br/> |既知の回避策はありません。 マッピングが存在しなくてはならない場合は、Microsoft Teams の Web バージョンを使用する必要があります。   <br/> |2017/03/13  <br/> |
 
 ## <a name="environment"></a>環境
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
@@ -131,7 +131,7 @@ ms.locfileid: "20246547"
 ## <a name="meetings"></a>会議
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|ユーザーが会議/コネクタにアクセスできないのに Exchange Online メールボックスを持っている。 <br/> |ユーザーはアクティブに Exchange Online 内のサービスからの EWS を遮断していますが、MS Teams を EWS ポリシーに準拠するようにする必要があります。 <br/> |MS Teams が準拠しているようにするには、EWSAllowList 内で MS Teams のために次のユーザー エージェント文字列を追加する必要があります: *skypespaces* (アスタリスクを含めます)。 完全なコマンドは set-organizationconfig -ewsallowlist *skypespaces* になります。<br/> 詳細については、「https://technet.microsoft.com/en-us/library/aa997443(v=exchg.160).aspx」をご覧ください。 <br/> |2017/05/30  <br/>|
+|ユーザーが会議/コネクタにアクセスできないのに Exchange Online メールボックスを持っている。 <br/> |ユーザーはアクティブに Exchange Online 内のサービスからの EWS を遮断していますが、MS Teams を EWS ポリシーに準拠するようにする必要があります。 <br/> |MS チームを準拠させるには、MS のチーム、EWSAllowList 内の次のユーザー エージェント文字列を追加する必要があります: `*skypespaces*`、アスタリスクを含みます。 完全なコマンドは次のとおりです。`set-organizationconfig -ewsallowlist *skypespaces*`<br/> 詳細については、「https://technet.microsoft.com/en-us/library/aa997443(v=exchg.160).aspx」をご覧ください。 <br/> |2017/05/30  <br/>|
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
@@ -235,5 +235,5 @@ ms.locfileid: "20246547"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|  
-|Teams デスクトップ アプリが白画面を表示する  <br/> | <br/> |コンピューターのグラフィックス ドライバーを削除または再インストールを行うか、次のような GPU の無効化フラグを使用したコマンド ラインから Teams を開始します。<ul><li>Windows の場合: コマンド プロンプトを開いて、 cd %localappdata%\microsoft\teams\current run Teams.exe --disable-gpu と入力します</li><li>Mac の場合: ターミナルを開始して、cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu を入力します</li></ul> <br/> |<br/> |
+|Teams デスクトップ アプリが白画面を表示する  <br/> | <br/> |コンピューターのグラフィックス ドライバーを削除または再インストールを行うか、次のような GPU の無効化フラグを使用したコマンド ラインから Teams を開始します。<ul><li>Windows: コマンド プロンプトを開き、次を入力してください。`cd %localappdata%\microsoft\teams\current run Teams.exe --disable-gpu`</li><li>開始ターミナル for Mac: し、次を入力します。`cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu`</li></ul> <br/> |<br/> |
 

@@ -10,17 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
 description: 各レコードは、1 つのエンドポイントのオーディオ信号の測定値を表します。 通常、各呼び出しには、2 つのレコードが含まれています、1 に対して、呼び出し元、呼び出し先の 1 つは、です。
-ms.openlocfilehash: 25d565538ecdf7cae15ff23f539a2e2eddf8680f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 0ffab37f49e55f73d8d414258e208265e2b5e9ff
+ms.sourcegitcommit: c12afd4dd5509a4552b2999430953273d36db039
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21781649"
 ---
 # <a name="audiosignal-table"></a>AudioSignal テーブル
  
 各レコードは、1 つのエンドポイントのオーディオ信号の測定値を表します。 通常、各呼び出しには、2 つのレコードが含まれています、1 に対して、呼び出し元、呼び出し先の 1 つは、です。 
   
-|**列**|**データ型**|**キーまたはインデックス**|**詳細**|
+|**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |[MediaLine テーブル](medialine-0.md)から参照されています。  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primary  <br/> |[MediaLine テーブル](medialine-0.md)から参照されています。  <br/> |
@@ -53,5 +54,6 @@ ms.lasthandoff: 03/28/2018
 |**SendSignalLevelCh2** <br/> |int  <br/> ||信号レベル 2 のチャネルで送信されるとします。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
 |**SendNoiseLevelCh1** <br/> |int  <br/> ||ノイズのレベル 1 のチャネルで送信されるとします。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
 |**SendNoiseLevelCh2** <br/> |int  <br/> ||ノイズのレベル 2 のチャネルで送信されるとします。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-   
+|**RenderLoopbackSignalLevel** <br/> |int  <br/> ||再生用のスピーカーに送信する信号の dBFS のレベルです。 ゲインの調整が受信した信号に加えられたすべてのアカウントです。 <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |   
+|**RenderNoiseLevel** <br/> |int  <br/> ||DBFS の再生用のスピーカーに送信する信号のノイズのコンテンツのレベルします。 <br/> |
 
