@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: このトピックでは、Office 365 に Skype Room System アカウントをプロビジョニングする方法について説明します。
-ms.openlocfilehash: 63b195dd2989e6da2d3a2cecdbc76ccff741cd87
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b248168870366db8f685db48197badb3bacf935f
+ms.sourcegitcommit: 4660539cf0a6f7fde5de0a68bc4866089962ce80
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21010042"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "22102054"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Skype Room System アカウントの Office 365 でのプロビジョニング
  
@@ -98,11 +98,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 
 Skype のビジネス オンライン アカウントはオンラインの Exchange フォレストから Skype をオンライン ビジネスのフォレストを使用して同期のアカウントに制限があるとリソース ルーム後メールボックス アカウントが作成され、以前に示すように、有効になっている、Windows Azure Active Directory フォレストです。 次の手順は、オンライン ビジネスのプールの Skype の Skype ルームのシステム アカウントを準備する必要があります。 この手順は、それらが有効な Exchange オンラインと両方のこれらのアカウントと同期されます Skype オンライン ビジネスのと同じ方法であるため既存のリソース メールボックスのアカウントまたは (confrm1 または confrm2) に、新しく作成したアカウントの両方に対して同じです。
   
-<<<<<<< 見出し
 1. リモート PowerShell セッションを作成します。 コネクタ モジュールのオンライン ビジネスおよび Microsoft オンライン サービス サインイン アシスタントの Skype をダウンロードし、コンピューターが構成されているかどうかを確認する必要があります注意してください。 詳細については、 [Windows PowerShell には、コンピューターの設定](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)を参照してください。
-=======
-1. リモート PowerShell セッションを作成します。 コネクタ モジュールのオンライン ビジネスおよび Microsoft オンライン サービス サインイン アシスタントの Skype をダウンロードし、コンピューターが構成されているかどうかを確認する必要があります注意してください。 詳細については、 [Windows PowerShell には、コンピューターの設定](http://technet.microsoft.com/library/bca143e2-659a-4161-9220-59ffd9fc2874.aspx)を参照してください。
->>>>>>> 0a230b02c47ae4de6638a638b76ed38243c71ab9
     
    ```
    Import-Module LyncOnlineConnector

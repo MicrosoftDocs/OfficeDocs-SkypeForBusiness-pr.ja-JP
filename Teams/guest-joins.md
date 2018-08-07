@@ -10,12 +10,12 @@ ms.reviewer: laal
 description: ゲストがどのような方法で Microsoft Teams のチームに参加するよう招待されるかについての簡単な概要を理解します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa6efbf95d0f68b6871aa0693a6e6bf1062b9f84
-ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
+ms.openlocfilehash: 8d8853e9b383d90ca2b030edd6f6a9f896a6bed7
+ms.sourcegitcommit: 4660539cf0a6f7fde5de0a68bc4866089962ce80
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/08/2018
-ms.locfileid: "20211053"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "22100134"
 ---
 <a name="how-a-guest-joins-a-team"></a>ゲストがチームに参加する方法
 ========================
@@ -33,7 +33,7 @@ Microsoft Teams でのチーム所有者は、Web またはデスクトップを
 
 ゲストをチームのメンバーにする方法を次に示します。
 
-- **手順 1** チーム所有者または Office 365 管理者は[チームにゲストを追加します](https://support.office.com/article/adds-a-guest-to-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_addingguests)。
+- **手順 1** チーム所有者または Office 365 管理者は[チームにゲストを追加します](https://support.office.com/en-us/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)。
     
   
 - **手順 2** Office 365 管理者またはチーム所有者は必要に応じてゲストが利用できる操作を管理します。 たとえば、チャネルの追加または削除、ファイルへのアクセスの無効化といった操作をゲストに許可します。

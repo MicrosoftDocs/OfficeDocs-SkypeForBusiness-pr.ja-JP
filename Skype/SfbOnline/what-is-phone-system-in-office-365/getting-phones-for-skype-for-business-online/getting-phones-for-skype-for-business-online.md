@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: c58f9c6fe4174f58f4c430fe121cd071a0b5b9a5
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: f12952944c85c77778a018de0f4f4b2bd39945b0
+ms.sourcegitcommit: 4660539cf0a6f7fde5de0a68bc4866089962ce80
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19494014"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "22101966"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Skype for Business Online で使う電話を入手する
 
@@ -46,7 +46,7 @@ Office 365 での電話システムと Skype for Business Server のためのパ
 |**電話機のパートナー** <br/> |**Skype for Business 固有の製品 ID** <br/> |
 |Polycom  <br/> |製品 ID -019  <br/> |
 |Yealink  <br/> |SIP-TXXG Skype for Business Edition  <br/> |
-|は  <br/> |UCXXXHDEG (SfB)  <br/> |
+|AudioCodes  <br/> |UCXXXHDEG (SfB)  <br/> |
    
 Polycom 電話機の詳細については、「[マイクロソフト対応音声ソリューション](http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html)」をご覧ください。
   
@@ -55,7 +55,9 @@ Yealink 電話の詳細については、[ビジネスの IP 電話の Skype](ht
 AudioCodes 電話機の詳細については、「[Skype for Business の IP 電話機](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions)」をご覧ください。
   
 > [!NOTE]
-> Lync Phone Edition は Skype for Business Online でサポートされます。LPE プラットフォームのメインストリーム サポートは 2014 年 4 月 10 日に終了します。延長サポートは Lync Server 2013 の製品サポート期間に合わせて 2023 年 4 月 11 日までになります。LPE のライフサイクルの詳細については、「[Microsoft 製品ライフサイクル](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO)」をご覧ください。LPE CAP モデルは Skype for Business Online でサポートされません。
+> ビジネス online では、Skype では、マイクロソフトのチームではなく、Lync の電話のエディションがサポートされます。 LPE プラットフォームのメイン ストリーム サポートは、Lync Server 2013 の製品のサポート ライフ サイクルに合わせて自動的に 4 月、11/2023 まで延長サポートに 2014 年 4 月/10/で終了しました。 LPE のライフ サイクルの詳細については、[マイクロソフト製品のライフ サイクル](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO)を参照してください。 LPE キャップ モデルは、オンライン ビジネスの Skype でサポートされていません。
+>
+> 今年の後半、Office 365 で、TLS 1.2 より前の任意のバージョンはサポートしません。 LPE の基になるオペレーティング システムでは、TLS 1.2 をサポートすることは、Office 365 への接続をもはや LPE はサポートされません。 詳細については、 [Office 365 の TLS 1.2 の使用義務の準備](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365)を参照してください。
   
 ## <a name="supported-firmware"></a>サポートされているファームウェア
 
