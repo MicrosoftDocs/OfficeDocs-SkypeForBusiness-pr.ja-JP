@@ -10,18 +10,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: この資料では、Skype ルーム システム v2 をサポートするための要件について説明します。
-ms.openlocfilehash: 405b7cd6fefd7fb6fbd6168957bbc2b41a83bea8
-ms.sourcegitcommit: 1d3b18265488fa14175f72d80fb8a2aa25a3ae62
+ms.openlocfilehash: c6267f24771954c31cfc4c75f8fff7b1aa8b9b66
+ms.sourcegitcommit: 1f345f13c8edf04efb0a8dd02d6c11f793ba201a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "20509536"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "22111847"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Skype Room Systems バージョン 2 の要件
  
 この資料では、Skype ルーム システム v2 をサポートするための要件について説明します。 
   
 [Skype ルーム システムの配置のバージョン 2](../../deploy/deploy-clients/room-systems-v2.md)で説明したようにアカウントを作成し、 [Skype ルーム システム v2 のコンソールの構成](../../deploy/deploy-clients/console.md)で説明したように、ミーティング コンソールの設定、展開が含まれます。 [Skype ビジネス アドオン ライセンス](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)を参照する必要もあります。
+
+> [!NOTE]
+> Skype ルーム システム v2 は、オンライン ビジネスのビジネス サーバー 2015、マイクロソフトのチーム、または Skype のビジネス サーバー 2019 の Skype、Skype での使用です。  <br><br>Lync Server 2013 のような以前のプラットフォームは、Skype ルーム システム v2 を使用する必要もありません。 
   
 ## <a name="hardware-requirements"></a>ハードウェア要件
 
@@ -34,13 +37,13 @@ Skype ルーム システム v2 は、別の部屋のサイズによっては、
 **サポートされるタブレット**
 |タブレット|プロセッサ|RAM|ディスク|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 4    |Core i5  |4 GB  |128 GB  |
-|Surface Pro 4    |Core i5  |8 GB  |256 GB  |    
+|Surface Pro 4       |Core i5  |4 GB  |128 GB  |
+|Surface Pro 4       |Core i5  |8 GB  |256 GB  |    
 |Surface Pro (2017)  |Core i5  |4 GB  |128 GB  |
 |Surface Pro (2017)  |Core i5  |8 GB  |256 GB  |
 |Surface Pro (2017)  |Core i7  |8 GB  |128 GB  |
-|Surface Pro (2017)  |Core i7  |16 GB  |512 GB  |
-|Surface Pro (2017) |Core i7  |16 GB  |1 TB  |
+|Surface Pro (2017)  |Core i7  |16 GB |512 GB  |
+|Surface Pro (2017)  |Core i7  |16 GB |1 TB    |
    
 > [!NOTE]
 > M3 プロセッサはサポートされていません。
@@ -62,7 +65,7 @@ Skype ルーム システム v2 は、別の部屋のサイズによっては、
 
  
 **USB オーディオおよびビデオの周辺機器についての認定済みファームウェア バージョン**
-|**Skype ルーム システム v2 の周辺機器**|**ファームウェアのバージョンの Skype ルーム システム v2 の認定**|
+|Skype ルーム システム v2 の周辺機器|ファームウェアのバージョンの Skype ルーム システム v2 の認定|
 |:-----|:-----|
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> |v240|
 |[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |オーディオ - 1.0.172  <br/> ビデオ - 1.0.156  <br/> |
@@ -114,7 +117,7 @@ Skype ルーム システム v2 は、別の部屋のサイズによっては、
 |部屋の種類|人数|最適な部屋のサイズ別のデバイス|コメント|
 |:-----|:-----|:-----|:-----|
 |**フォーカス** <br/> 10' x 9'  <br/> |2 ~ 4  <br/> |Logitech Connect  <br/> Logitech MeetUp  <br/> Polycom CX5100  <br/> ||
-|**小規模 ** <br/> 16' x 16'  <br/> |4 ～ 6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100  <br/> |Logitech (ロジクール) PTZ Pro の logitech (ロジクール) のグループにバンドルされることがよくあります。  <br/> |
+|**小規模** <br/> 16' x 16'  <br/> |4 ～ 6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100  <br/> |Logitech (ロジクール) PTZ Pro の logitech (ロジクール) のグループにバンドルされることがよくあります。  <br/> |
 |**中規模** <br/> 18' x 20'  <br/> |6 ～ 12  <br/> |Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100  <br/> ||
 |**大規模** <br/> 15' x 32 '  <br/> |12 ～ 16  <br/> |Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100  <br/> ||
    
