@@ -1,1 +1,1 @@
-<span data-ttu-id="959df-101">これはプレビューまたは先行リリースの機能です。</span><span class="sxs-lookup"><span data-stu-id="959df-101">This is a preview or early release feature.</span></span>
+<span data-ttu-id="5f0ec-101">これはプレビューまたは先行リリースの機能です。</span><span class="sxs-lookup"><span data-stu-id="5f0ec-101">This is a preview or early release feature.</span></span>
