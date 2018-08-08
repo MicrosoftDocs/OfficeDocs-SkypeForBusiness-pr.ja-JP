@@ -86,6 +86,7 @@
 ### [通話品質ダッシュボードで利用できるディメンションとメジャー](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Skype for Business の通話分析をセットアップする](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [通話分析を使用して Skype for Business の低い通話品質をトラブルシューティングする](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [通話品質ダッシュボードでのストリーム分類](/SkypeForBusiness/using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 <!-- ============================================================ -->
 
 
