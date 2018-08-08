@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 でのネットワーク地域リンクの作成
+title: Skype のビジネス サーバーのネットワーク地域リンクを作成します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,19 +13,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: 作成または、Skype でのエンタープライズ VoIP 通話受付制御ビジネスのサーバーの使用は、ネットワーク地域リンクを変更します。
-ms.openlocfilehash: e0fbabb811ec604b3a0155074a01bc4b02bd6152
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: f184e18da816bae693fd209a97704681240538e7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965430"
 ---
-# <a name="create-network-region-links-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのネットワーク地域リンクの作成
+# <a name="create-network-region-links-in-skype-for-business-server"></a>Skype のビジネス サーバーのネットワーク地域リンクを作成します。
  
 作成または、Skype でのエンタープライズ VoIP 通話受付制御ビジネスのサーバーの使用は、ネットワーク地域リンクを変更します。 
   
-ネットワーク内の地域は、物理的な WAN 接続を経由してリンクされます。 地域のネットワーク リンクでは、電話受付制御 (CAC) 用に構成されている 2 つの領域間のリンクを作成し、これらの領域間でのオーディオおよびビデオのトラフィックの帯域幅の制限を設定します。
+ネットワーク内の地域は、物理的な WAN 接続を経由してリンクされます。ネットワーク地域リンクは、通話受付管理 (CAC) 用に構成された 2 つの地域間のリンクを作成し、これらの地域間の音声トラフィックとビデオ トラフィックに帯域幅制限を設定します。
   
-トポロジの例では、North America 地域と APAC 地域間のリンク、および EMEA 地域と APAC 地域間のリンクを含みます。 地域リンクの帯域幅情報の表に示すよう WAN の帯域幅が指定されている各地域のこれらのリンクの[の使用例: ビジネス サーバー 2015 の Skype の呼受付制御の要件を収集する](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)。
+トポロジの例では、North America 地域と APAC 地域間のリンク、および EMEA 地域と APAC 地域間のリンクを含みます。 地域リンクの帯域幅情報の表に示すよう WAN の帯域幅が指定されている各地域のこれらのリンクの[の使用例: ビジネス サーバー Skype の呼受付制御の要件の収集](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)。
   
 ### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>Skype ビジネス サーバー管理シェルを使用してネットワーク地域リンクを作成するには
 
@@ -69,8 +69,6 @@ ms.lasthandoff: 05/03/2018
     
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [新しい-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
   
 [Get CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)
@@ -78,4 +76,3 @@ ms.lasthandoff: 05/03/2018
 [セット CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
   
 [削除 CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)
-

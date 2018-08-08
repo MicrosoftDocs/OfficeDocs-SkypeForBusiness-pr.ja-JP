@@ -2,21 +2,23 @@
 title: オーディオ会議 - マイクロソフトのチームでの成功を定義します。
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: オーディオ会議の展開の結果を測定し、希望する結果を達成したことを確認します。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
-ms.openlocfilehash: 3da7257ed094913ac377c7b91e5f2c1d7982fa7e
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: a0c42b1a01caf58e3c20fe8deda25cc78a3ac374
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695751"
 ---
 # <a name="define-my-success"></a>自分の成功を定義します。
 

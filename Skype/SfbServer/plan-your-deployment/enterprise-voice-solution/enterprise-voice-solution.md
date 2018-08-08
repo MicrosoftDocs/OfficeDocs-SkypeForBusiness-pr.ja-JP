@@ -1,9 +1,8 @@
 ---
-title: ビジネス サーバー 2015 の Skype でエンタープライズ VoIP ソリューションを計画します。
+title: Skype でエンタープライズ VoIP ソリューションをビジネスのサーバーの計画します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/21/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
-description: '概要: は、ビジネス サーバー 2015 の Skype に統合された音声との通信ソリューションを計画するためのオプションについて説明します。'
-ms.openlocfilehash: 9e0b0be7652f8f400e697086b09b447f7f97e958
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: '概要: は、ビジネスのサーバーの Skype に統合された音声との通信ソリューションを計画するためのオプションについて説明します。'
+ms.openlocfilehash: 5043646f122aec8f7ba80b8b584b6e77f18a9062
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988558"
 ---
-# <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype でエンタープライズ VoIP ソリューションを計画します。
+# <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Skype でエンタープライズ VoIP ソリューションをビジネスのサーバーの計画します。
  
-**の概要:** ビジネス サーバー 2015 の Skype に統合された音声との通信ソリューションを計画するためのオプションについて説明します。
+**の概要:** ビジネス サーバーの Skype に統合された音声との通信ソリューションを計画するためのオプションについて説明します。
   
 Skype ビジネス サーバーが 2 つ設置エンタープライズ VoIP のオプションを提供しています-エンタープライズ VoIP と作業時間を使用して呼び出し、ビジネス サーバーの展開について、Skype で、組織の電話システムを統合するため、真のコミュニケーションを統合ソリューションです。 両方のオプションは、組織の内外の他のユーザーと音声通話を開始するビジネス クライアント用の Skype を使用するユーザーを有効にします。
   
@@ -30,7 +30,7 @@ Skype ビジネス サーバーが 2 つ設置エンタープライズ VoIP の�
   
 エンタープライズ VoIP と作業時間を使用して呼び出しの両方を同時使用することもできます。
   
-- エンタープライズ VoIP は、最も包括的な音声を提供します。 ソフトウェア ベースのボイス オーバー IP (VoIP) ソリューションで、Outlook および Exchange との機能豊富な統合、および応答グループ、コール パーク、チーム呼び出し、グループ通話ピックアップ、拡張緊急 E9-1-1 のサポートなどの多くの強力な機能を提供します。 エンタープライズ VoIP のでは、ユーザーは自分のコンピューター、または従来の PSTN の代わりに、VoIP 対応の電話や PBX 電話ヘッドセットなどのオーディオ デバイスを使用します。
+- エンタープライズ VoIP は最も完成度の高い音声サービスです。 ソフトウェア ベースのボイス オーバー IP (VoIP) ソリューションで、Outlook および Exchange との機能豊富な統合、および応答グループ、コール パーク、チーム呼び出し、グループ通話ピックアップ、拡張緊急 E9-1-1 のサポートなどの多くの強力な機能を提供します。 エンタープライズ VoIP のでは、ユーザーは自分のコンピューター、または従来の PSTN の代わりに、VoIP 対応の電話や PBX 電話ヘッドセットなどのオーディオ デバイスを使用します。
     
 - 作業を使用して呼び出すには、既存の PBX 電話システムとのビジネス ソリューションは、Skype を統合するための方法が用意されています。 ビジネスでの展開、または外部のユーザーであっても、他のユーザーを呼び出す Skype の呼び出しを使用して有効になっているユーザーことができますをクリックします。 この通話は、ユーザーの PBX 電話を使用して行われます。 さらに、これらのユーザーは、会議に参加するビジネス用の Skype でクリックできます。
     
@@ -45,11 +45,10 @@ Skype ビジネス サーバーが 2 つ設置エンタープライズ VoIP の�
   
 ## <a name="see-also"></a>関連項目
 
-#### 
 
-[ビジネス サーバー 2015 の Skype でエンタープライズ VoIP の計画](enterprise-voice.md)
+[ビジネスのサーバーに、Skype でエンタープライズ VoIP を計画します。](enterprise-voice.md)
   
-[Skype ビジネス サーバー 2015 の作業時間を使用して呼び出すのための計画](call-via-work.md)
+[Skype ビジネス サーバーの作業時間を使用して呼び出すのための計画](call-via-work.md)
   
-[ビジネス 2015年の Skype でのリモート通話コントロールの計画](remote-call-control.md)
+[ビジネス用の Skype でのリモート通話コントロールの計画](remote-call-control.md)
 

@@ -13,30 +13,31 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
-description: '概要: IT プロフェッショナルはビジネス サーバー 2015 Skype の計画中に、Skype のビジネス Web アプリケーションおよび Skype 会議アプリケーションのサポート要件を確認する必要があります。 この記事はこれらのアプリのユーザー向けのものではありません。'
-ms.openlocfilehash: 1e843f0f6ba5d25958f4396c272d97943445239f
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: '概要: IT プロフェッショナルは Skype ビジネス サーバーの計画中に、Skype のビジネス Web アプリケーションおよび Skype 会議アプリケーションのサポート要件を確認する必要があります。 この記事はこれらのアプリのユーザー向けのものではありません。'
+ms.openlocfilehash: f0fbf6cfec073ba3fdd25bdd4cb87c458144d3b7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009681"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>会議クライアント用の計画 (Web アプリおよび会議アプリ)
  
-**の概要:** IT プロフェッショナルは、Skype のビジネス サーバー 2015 計画中に、Skype のビジネス Web アプリケーションおよび Skype 会議アプリケーションのサポート要件を確認する必要があります。 この記事はこれらのアプリのユーザー向けのものではありません。
+**の概要:** IT プロフェッショナルは、Skype ビジネス サーバーの計画中に、Skype のビジネス Web アプリケーションおよび Skype 会議アプリケーションのサポート要件を確認する必要があります。 この記事はこれらのアプリのユーザー向けのものではありません。
   
 ビジネス サーバーの Skype を実装した後、組織のユーザーはビジネスのクライアントの展開プロセスの一部としてインストールされている Skype をおそらくがあります。 
   
 後で、そのユーザーは会議を作成し、組織の外部ユーザーを招待し、それらの会議の出席者で、Skype ビジネス クライアント用のすべてのバージョンがない可能性があります。 それらのユーザーは、会議出席依頼の URL をクリックして、クライアントがないことが検出され、せず、Skype クライアントのビジネスの招待者をダウンロードして会議に参加することができますので、会議専用の軽量なクライアントをインストールするように求められます。
   
 > [!NOTE]
-> ビジネス Web アプリケーションの Skype と Skype 会議アプリケーションは、せずに、Skype のビジネスをミーティングにログインしようとするときにのみ使用。 これらのアプリケーションについては、ユーザーが、 [https://aka.ms/smahelp](https://aka.ms/smahelp)。 
+> ビジネス Web アプリケーションの Skype と Skype 会議アプリケーションには、せずに、ビジネスの Skype 会議にログインしようとしています。 これらのアプリケーションについては、ユーザーが、 [https://aka.ms/smahelp](https://aka.ms/smahelp)。 
   
 > [!NOTE]
 > 事前ビジネス Web アプリケーションや、Skype 会議アプリケーションのいずれかの Skype をインストールできませんが、[スマート フォン](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-1)や[タブレット](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-2)のユーザーは、ミーティングに参加するのには使用できる低コストのモバイル クライアントをインストールできる場合があります。
   
 既定では、会議をホストしているサーバーはダウンロードし、ミーティングに参加する Web アプリケーションのビジネス用の Skype をインストールするユーザーを指示します。 ビジネス Web アプリケーションの Skype では、フロント エンド サーバーに格納され、会議の出席者に送信されます。 
   
-ビジネス サーバー CU5 の Skype から始めて、Skype 会議アプリケーションのビジネス Web アプリケーションでは、Skype の代わりとして使用できるが、Skype の会議アプリケーションを提供する[の Skype を置換する Skype 会議アプリケーションを有効にする」に記載する追加の構成が必要です。ビジネスの Web アプリケーション (オプション)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)。 Skype 会議アプリケーションが有効な場合、ユーザーは Office 365 コンテンツ配信ネットワーク (CDN) からではなく、Skype をビジネスのサーバーのアプリケーションの最新バージョンをダウンロードします。
+ビジネス サーバー 2015 の Skype、Skype 会議アプリケーション CU5、ビジネスの Web アプリケーションからの Skype の代わりとして使用可能です。 が、Skype の会議アプリケーションを提供する[を交換するのには Skype 会議アプリケーションを有効にする」に記載する追加の構成が必要です。(省略可能) のビジネス Web アプリケーションの Skype](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)。  Skype 会議アプリケーションが有効な場合、ユーザーは Office 365 コンテンツ配信ネットワーク (CDN) からではなく、Skype をビジネスのサーバーのアプリケーションの最新バージョンをダウンロードします。 ビジネス サーバー 2019 Skype 会議アプリケーションの Skype の唯一のオプションです。
   
 Skype 会議アプリケーションは、ダウンロードし、アプリケーションをインストールして Internet Explorer のユーザーの 1 回のクリックの結合を含めて、会議に参加するための簡略化されたブラウザー エクスペリエンスを提供します。 Skype 会議アプリケーションも、多くの改良に theSkype ビジネス Web アプリケーションの信頼性と会議の経験をします。 
   
@@ -86,7 +87,7 @@ Skype 会議アプリケーションは、Windows 10、Windows 8.1、Windows 8 �
 ## <a name="network-requirements"></a>ネットワーク要件
 <a name="Network"> </a>
 
-接続の問題を満たすビジネス Web アプリケーションまたは Skype 会議アプリケーションのエクスペリエンスの Skype のユーザーが、組織のネットワーク インフラストラクチャが構成されていない Office 365 のサポート[Office 365 の Url と IP アドレスの範囲](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)で説明するよう可能性があります。 ビジネス サーバー 2015 のビジネス オンラインまたは Skype の会議を Skype のユーザーによって作成されたかどうか、そうでは。 
+接続の問題を満たすビジネス Web アプリケーションまたは Skype 会議アプリケーションのエクスペリエンスの Skype のユーザーが、組織のネットワーク インフラストラクチャが構成されていない Office 365 のサポート[Office 365 の Url と IP アドレスの範囲](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)で説明するよう可能性があります。 Business Server のオンライン ビジネスや Skype の会議を Skype のユーザーによって作成されたかどうか、そうでは。 
   
 ユーザーがネットワーク上に存在し、構成が記載どおりに行われていない場合、多くのアプリの機能が機能したりしなかったりする可能性があり、会議に接続することがまったくできない場合があります。
   
@@ -95,10 +96,10 @@ Skype 会議アプリケーションは、Windows 10、Windows 8.1、Windows 8 �
 
 この表では、Web アプリケーションのビジネス、Skype 会議アプリケーションでは、Lync Web App のビジネス クライアント用の Skype、Skype のユーザーに利用可能な会議の機能を比較します。 機能比較のための Lync Web App が表示されている: ユーザーのみをダウンロードし、会議が Lync 2013 のサーバーでホストされている場合は、Lync Web App を使用します。
 
-| 機能 | 2016 のビジネス クライアント用の Skype | Mac クライアントのビジネス用の Skype | Skype 会議アプリ | Skype for Business Web App | Lync Web App |
+| 機能 | Skype ビジネス 2016年または 2019年クライアント | Mac クライアントのビジネス用の Skype | Skype 会議アプリ | Skype for Business Web App | Lync Web App |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|コンピューター オーディオの追加  <br/> |& #x 2714 です。|& #x 2714 です。|& #x 2714;(requires plug-in)  <br/> |& #x 2714;(requires plug-in)  <br/> |& #x 2714;(requires plug-in)  <br/> |
-|ビデオの追加  <br/> |& #x 2714 です。|& #x 2714 です。|& #x 2714;(requires plug-in)  <br/> |& #x 2714;(requires plug-in)  <br/> |& #x 2714;(requires plug-in)  <br/> |
+|コンピューター オーディオの追加  <br/> |& #x 2714 です。|& #x 2714 です。|& #x 2714 です。(プラグインが必要です)  <br/> |& #x 2714 です。(プラグインが必要です)  <br/> |& #x 2714 です。(プラグインが必要です)  <br/> |
+|ビデオの追加  <br/> |& #x 2714 です。|& #x 2714 です。|& #x 2714 です。(プラグインが必要です)  <br/> |& #x 2714 です。(プラグインが必要です)  <br/> |& #x 2714 です。(プラグインが必要です)  <br/> |
 |オーディオを認証済み参加者の電話に切り替え  <br/> |& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|
 |オーディオをゲスト参加者の電話に切り替え  <br/> |& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|||
 |マルチパーティのビデオの表示 (ギャラリー ビュー)  <br/> |& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|
@@ -158,24 +159,13 @@ Skype 会議アプリケーションは、Windows 10、Windows 8.1、Windows 8 �
     
 - 可能性があります必要がある[JavaScript を有効に](https://support.office.com/en-us/article/Turn-on-JavaScript-for-Skype-Meetings-App-Skype-for-Business-Web-App-3d997bf9-637c-4fe6-8ee3-9e62bfda52cd)するのにをサポートする正常に動作する Web アプリケーションのビジネス機能のいくつかの Skype には、ブラウザーで。
     
-### <a name="cryptographic-requirements-due-to-asp-net-45"></a>ASP .NET 4.5 のための暗号化の要件
+### <a name="aes-support"></a>AES のサポート 
 
-ビジネス サーバー 2015 CU5 の Skype は、現在 ASP.NET 4.6 では、AES はサポートされていませんし、Skype の会議アプリケーション起動に失敗が発生する可能性があります。 クライアントがコンピューターのキーの検証値として AES を使用している場合は、sha-1、または IIS で Skype 会議アプリケーションのサイト レベルでサポートされている別のアルゴリズムをコンピューターのキーの値をリセットする必要があります。 必要に応じて、手順については[IIS 8.0 の ASP.NET 構成の管理](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management)を参照してください。
-  
-その他に次の値がサポートされます。
-  
-- HMACSHA256
-    
-- HMACSHA384
-    
-- HMACSHA512
-    
- AES、3 des と MD5 が使用できなくなったが、ASP.NET 4 での値です。[ASP.NET 4.5、2 pt. で暗号化の機能強化](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/)の詳細があります。
+ビジネス サーバー 2015 CU5 の Skype は、現在 ASP.NET 4.6 では、AES はサポートされていませんし、Skype の会議アプリケーション起動に失敗が発生する可能性があります。 [ASP .NET 4.5 のための暗号化の要件](../security/user-and-client-authentication.md#cryptographic-requirements-due-to-asp-net-45)には、詳細情報があります。
   
 ## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
 <a name="BKMK_Conferencing"> </a>
 
-#### 
-[ビジネス サーバー 2015 の Skype での Web ダウンロード可能なクライアントを展開します。](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
+[Skype のダウンロード可能なクライアントの Web をビジネスのサーバーの展開します。](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 
 [Skype 会議アプリケーションでサポートされるプラットフォーム](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)

@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 のエンタープライズ VoIP のセキュリティおよび構成の前提条件
+title: Skype ビジネス サーバーでエンタープライズ VoIP のセキュリティおよび構成の前提条件
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
-description: '概要: は、ビジネス サーバー 2015 の Skype でエンタープライズ VoIP のセキュリティおよび構成の前提条件について説明します。'
-ms.openlocfilehash: 2ece3aaa99c1e81afd9241e8d435ac0ab3328893
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: '概要: は、ビジネスのサーバーに、Skype でエンタープライズ VoIP のセキュリティおよび構成の前提条件について説明します。'
+ms.openlocfilehash: 2738f1b39500673bd68b6c4f0c5cfdfb5b8b45d5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21017391"
 ---
-# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 のエンタープライズ VoIP のセキュリティおよび構成の前提条件
+# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Skype ビジネス サーバーでエンタープライズ VoIP のセキュリティおよび構成の前提条件
  
-**の概要:** ビジネス サーバー 2015 の Skype でエンタープライズ VoIP のセキュリティおよび構成の前提条件について説明します。
+**の概要:** Business Server には、Skype でエンタープライズ VoIP のセキュリティおよび構成の前提条件について説明します。
   
 エンタープライズ VoIP を展開するには、前に、インフラストラクチャが次のセキュリティ、ユーザー構成、およびシナリオ固有のハードウェアの前提条件を満たしていることを確認します。 
   
@@ -43,7 +43,7 @@ ms.lasthandoff: 05/03/2018
 - マイクロソフトまたはサードパーティの CA (証明機関) インフラストラクチャのいずれかを使用して、MKI (Managed key infrastructure) が展開され、構成されていること。
     
     > [!NOTE]
-    > Skype のビジネス サーバー用の証明書の要件に関する詳細については、 [Skype のビジネス サーバー 2015 の環境の要件](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)を参照してください。 
+    > 詳細については、Skype のビジネス サーバー用の証明書の要件は、[ビジネス サーバー 2015 の Skype の環境要件](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)や[ビジネス サーバー 2019 の Skype のサーバーの要件](../../../SfBServer2019/plan/system-requirements.md)を参照してください。 
   
 ## <a name="user-configuration"></a>ユーザー構成
 
@@ -58,8 +58,8 @@ ms.lasthandoff: 05/03/2018
 
 ソフトウェアとエンタープライズ VoIP に必要な環境を確認した後ことができますか。
   
-- [ビジネス サーバー 2015 の Skype でトポロジ ビルダーでは、仲介サーバーの展開](deploy-a-mediation-server.md)] で説明されているようですが、前面の一部として仲介サーバーがインストールされているために、スタンドアロンの仲介サーバーまたはプールを展開する場合に、仲介サーバーをインストールします。プールまたは Standard Edition サーバーの展開プロセスは 1 か所を終了します。
+- [Skype ビジネス サーバーのトポロジ ビルダーでの仲介サーバーの展開](deploy-a-mediation-server.md)] で説明されているようですが、仲介サーバーがフロント エンドの一部としてインストールされているために、スタンドアロンの仲介サーバーまたはプールを展開する場合、仲介サーバーをインストールします。プールまたは Standard Edition サーバーの展開プロセスは 1 か所です。
     
-- または、[ビジネス サーバー 2015 の Skype でトランクを構成する](configure-trunks.md)で説明したようにエンタープライズ VoIP ユーザーは、ルートの呼び出しに設定の構成を開始します。
+- または、 [Skype ビジネス サーバー用に構成するトランク](configure-trunks.md)で説明するようにエンタープライズ VoIP ユーザーは、ルートの呼び出しに設定の構成を開始します。
     
 

@@ -3,7 +3,6 @@ title: OMS を使用した Skype Room Systems バージョン 2 の管理を展�
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 4/20/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,11 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: この資料では、マイクロソフトの運用管理スイートを使用して、エンド ・ ツー ・ エンドの統合された方法で Skype ルーム システム v2 のデバイスの管理を展開する方法について説明します。
-ms.openlocfilehash: 7d8dc8a7e7f5a74c68fbc7bf5ecb98664c2b02ad
-ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
+ms.openlocfilehash: d56b67d17cd66ceaf88a2cbe0b222d4769667c4c
+ms.sourcegitcommit: 1f345f13c8edf04efb0a8dd02d6c11f793ba201a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2018
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "22109038"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>OMS を使用した Skype Room Systems バージョン 2 の管理を展開する
  
@@ -41,13 +41,13 @@ ms.lasthandoff: 05/21/2018
 7.  [追加の運用管理ソフトウェア ・ パッケージ ・ ソリューションを構成します。](with-oms.md#Solutions)
 
 > [!IMPORTANT]
-> Skype ルームのすべてのシステムにエージェントの展開を開始する前に実行する必要があるいくつかの Skype ルーム システム固有の手順はまだありますが、最小限の構成では、操作の管理スイートは、Windows オペレーティング システムを実行するコンピューターを監視できます、デバイスです。
+> Skype のすべてのルームにエージェントの展開を開始する前に実行する必要があるいくつかの Skype ルーム システム v2 固有の手順はまだありますが、最小限の構成では、操作の管理スイートは、Windows オペレーティング システムを実行するコンピューターを監視できます、システム デバイス。
 > したがって、コントロールのセットアップと構成の正しい順序ですべての構成手順を実行するを強くお勧めします。 最終結果の品質は、初期構成の品質に非常に依存します。
 
 ## <a name="validate-operations-management-suite-configuration"></a>操作の管理スイートの構成を検証します。
 <a name="validate_OMS"> </a>
 
-Skype ルーム ・ システム ・ デバイスからのログの収集を開始するのには、操作管理スイートのワークスペースが必要です。 ワークスペースは、独自のデータ リポジトリ、データ ソース、およびソリューションの一意なログ分析環境です。 既に既存のログ分析機能のワークスペースがある場合、Skype ルーム システム配置を監視するために使用可能性がありますまたは作成することができる場合は、専用のログ分析ワークスペースを Skype の部屋のシステムを監視するのには特定が必要です。
+Skype ルーム システム v2 のデバイスからのログの収集を開始するのには、操作管理スイートのワークスペースが必要です。 ワークスペースは、独自のデータ リポジトリ、データ ソース、およびソリューションの一意なログ分析環境です。 既に既存のログ分析機能のワークスペースがある場合、Skype ルーム システム v2 配置を監視するために使用可能性がありますまたは作成することができます Skype ルーム システム v2 の監視に専用のログ分析ワークスペースが必要です。
 
 [Azure ポータルでのログの分析機能のワークスペースを作成する](https://docs.microsoft.com/azure/log-analytics/log-analytics-quick-create-workspace)この資料の指示に従って、新しいログの分析機能のワークスペースを作成する場合は、
 
@@ -55,28 +55,28 @@ Skype ルーム ・ システム ・ デバイスからのログの収集を開�
 > ログ分析機能を使用して、オペレーションの管理スイートで、Azure サブスクリプションはアクティブにする必要があります。 Azure サブスクリプションをお持ちでない場合は、開始点として[無料の試用版サブスクリプション](https://azure.microsoft.com/free)を作成できます。
 
 
-### <a name="configure-operations-management-suite-to-collect-skype-room-systems-event-logs"></a>Skype ルームのシステム イベント ログを収集するための運用管理スイートを構成します。
+### <a name="configure-operations-management-suite-to-collect-skype-room-systems-v2-event-logs"></a>Skype ルーム システム v2 のイベント ログを収集するための運用管理スイートを構成します。
 
 のみ、ログ分析機能は、設定で指定されている Windows のイベント ログからイベントを収集します。 各ログには、選択した重大度のレベルのイベントのみが収集されます。
 
-Skype ルーム システムのデバイスとアプリケーションの状態を監視するために必要なログを収集するための運用管理スイートを構成する必要があります。 Skype ルーム システム v2 のデバイスでは、Skype の部屋のシステム イベント ログを使用します。
+Skype ルーム システム v2 のデバイスとアプリケーションの状態を監視するために必要なログを収集するための運用管理スイートを構成する必要があります。 Skype ルーム システム v2 のデバイスでは、 **Skype の部屋のシステム**イベント ログを使用します。
 
-Skype ルームのシステム イベントを収集する運用管理ソフトウェア ・ パッケージを構成するには、[ログの分析では、Windows イベント ログ データ ソース](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-windows-events)を参照してください。
+Skype ルーム システム v2 のイベントを収集する運用管理ソフトウェア ・ パッケージを構成するには、[ログ分析では、Windows イベント ログ データ ソース](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-windows-events)を参照してください。
 
 ![イベント ログの設定](../../media/Deploy_OMS_2.png "イベント ログの設定")
 
 
 > [!IMPORTANT]
-> Skype ルームのシステム イベント ログを選択し、**エラー**、**警告**、および**情報**のチェック ボックスをオンします。
+> **Skype ルームのシステム**イベント ログを選択し、**エラー**、**警告**、および**情報**のチェック ボックスをオンします。
 
 ## <a name="configure-test-devices-for-operations-management-suite-setup"></a>操作の管理スイートのセットアップのテスト デバイスを構成します。
 <a name="configure_test_devices"> </a>
 
-Skype ルームのシステムに関連するイベントを監視することができる運用管理ソフトウェア ・ パッケージを準備する必要があります。 1 つか 2 つの Skype ルーム システム デバイスに物理的にアクセスしているものがある操作の管理スイートのエージェントを展開する必要がありますから開始して、テスト デバイスは、いくつかのデータを生成し、ログ分析機能のワークスペースに押し込みます。
+Skype ルーム システム v2 に関連するイベントを監視することができる運用管理ソフトウェア ・ パッケージを準備する必要があります。 エージェントの操作の管理スイートを 1 つか 2 つ Skype ルーム システム v2 ・ デバイスに物理的にアクセスしているものがあるに配置する必要がありますから開始して、テスト デバイスは、いくつかのデータを生成し、ログ分析機能のワークスペースに押し込みます。
 
 ### <a name="install-operations-management-suite-agents-to-test-devices"></a>デバイスをテストするのには操作の管理スイートのエージェントをインストールします。
 
-テスト デバイスに[接続の Windows コンピューター](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows)で提供されている手順を使用して操作管理スイート エージェントを展開します。 この資料で Windows を展開する Microsoft の監視エージェントの運用管理スイートのワークスペース ID を取得する方法についての手順に関する詳細情報は、Skype ルーム システムのデバイスを取得するのにはプライマリ ・ キーに接続され、運用管理ソフトウェア ・ パッケージの展開、およびログ分析へのエージェント接続を確認する手順。
+テスト デバイスに[接続の Windows コンピューター](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows)で提供されている手順を使用して操作管理スイート エージェントを展開します。 この記事は、監視エージェントの Windows、Skype ルーム システム v2 のデバイスを取得する操作管理スイート*ワークスペース ID*と*プライマリ ・ キー*を取得するための手順を展開するための手順に関する詳細情報を提供します。ログ分析へのエージェント接続を確認する手順、運用管理ソフトウェア ・ パッケージの展開に接続されています。
 
 ### <a name="generate-sample-skype-room-systems-events"></a>サンプル Skype ルームのシステム イベントを生成します。
 
@@ -84,19 +84,19 @@ Skype ルームのシステムに関連するイベントを監視すること�
 
 1.  [マイクロソフトの運用管理スイートのポータル](http://aka.ms/omsportal)にサインインします。
 
-2.  Skype ルーム システム デバイスによって生成されたイベントの一覧を表示します。
+2.  Skype ルーム システム v2 デバイスによって生成されたイベントの一覧を表示します。
     1.  **ログの検索**に移動し、ユーザー設定フィールドを持つレコードを取得するクエリを使用します。
     2.  サンプル クエリ。`Event | where Source == "SRS-App"`
 
 3.  クエリが正常なハートビート イベントを含むログ レコードを返すことを確認します。
 
 4.  ハードウェアの問題を生成し、運用管理ソフトウェア ・ パッケージに必要なイベントを記録することを検証します。
-    1.  Skype ルーム システムのシステムのテストで周辺機器の 1 つを外します。 カメラ、スピーカー フォン、マイク、または部屋の前面表示可能性があります。
+    1.  Skype ルーム システム v2 のシステムのテストで周辺機器の 1 つを外します。 カメラ、スピーカー フォン、マイク、または部屋の前面表示可能性があります。
     2.  運用管理スイートで事前に設定するイベント ログの 10 分間待ちます。
     3.  ハードウェア エラー イベントのリストにクエリを使用します。`Event | where EventID == 3001`
 
 5.  、アプリケーションの問題を生成し、必要なイベントを記録することを検証します。
-    1.  Skype ルーム システム アプリケーションの構成を変更して、不正なセッション開始プロトコル (SIP) アドレスとパスワードのペアを入力します。
+    1.  Skype ルーム システム v2 アプリケーションの構成を変更し、不正なセッション開始プロトコル (SIP) アドレスとパスワードのペアを入力します。
     2.  運用管理スイートで事前に設定するイベント ログの 10 分間待ちます。
     3.  アプリケーション エラー イベントのリストにクエリを使用します。`Event | where EventID == 2001`
 
@@ -112,30 +112,31 @@ Skype ルームのシステムに関連するイベントを監視すること�
 
 1.  [マイクロソフトの運用管理スイートのポータル](http://aka.ms/omsportal)にサインインします。
 
-2.  Skype ルーム システム デバイスによって生成されたイベントの一覧を表示します。
+2.  Skype ルーム システム v2 デバイスによって生成されたイベントの一覧を表示します。
     1.  **ログの検索**に移動し、ユーザー設定フィールドを持つレコードを取得するクエリを使用します。
     2.  サンプル クエリ。`Event | where Source == "SRS-App"`
 
 3.  レコードのいずれかを選択、左側にあるボタンを選択し、フィールドの展開ウィザードを起動します。
 
-![フィールドの抽出ウィザード](../../media/Deploy_OMS_3.png "フィールドの抽出ウィザード")
+   ![フィールドの抽出ウィザード](../../media/Deploy_OMS_3.png "フィールドの抽出ウィザード")
 
 4.  RenderedDescription から抽出し、フィールドのタイトルを提供したいデータを強調表示します。 表 1 には、使用するフィールド名が用意されています。
 
-![ユーザー設定フィールドの定義](../../media/Deploy_OMS_4.png "ユーザー設定フィールドの定義")
+   ![ユーザー設定フィールドの定義](../../media/Deploy_OMS_4.png "ユーザー設定フィールドの定義")
 
-5.  表 1 に示すようにマッピングを使用します。 運用管理スイートが自動的に追加、 ** \_CF**文字列の新しいフィールドを定義するとき。
+5.  *表 1*に示すようにマッピングを使用します。 運用管理スイートが自動的に追加、 ** \_CF**文字列の新しいフィールドを定義するとき。
 
 > [!IMPORTANT]
 > JSON との操作の管理スイートのすべてのフィールドは大文字小文字を区別することを忘れないでください。
 
 > 次の表に、[イベント Id] チェック ボックスをオンの状態に注意してください。 カスタム フィールドの値を正常に抽出する操作の管理スイートの場合は、このチェック ボックスの状態を確認することを確認します。
+> 
 > ![ユーザー設定フィールドの定義](../../media/Deploy_OMS_5.png "ユーザー設定フィールドの定義") 
 
 **表 1**
 
-| **JSON フィールド**               | **OMS ユーザー設定フィールド**       | **イベント ID** |
-|------------------------------|----------------------------|-----------------|
+| JSON フィールド                   | OMS カスタム フィールド           | イベント ID        |
+|:-----------------------------|:---------------------------|:----------------|
 | 説明                  | SRSEventDescription_CF     | 選択されていません。    |
 | ResourceState                | SRSResourceState_CF        | 選択されていません。    |
 | OperationName                | SRSOperationName_CF        | 選択されていません。    |
@@ -182,7 +183,7 @@ Skype ルームのシステムに関連するイベントを監視すること�
 #### <a name="configure-the-overview-tile"></a>概要タイルを構成します。
 1.  **ビュー デザイナー**を開きます。
 2.  **概要タイル**を選択し、ギャラリーから**2 つの数値**を選択します。
-3.  タイル**Skype ルーム システム**の名前を指定します。
+3.  **Skype ルーム システム v2**のタイルの名前を指定します。
 4.  **最初のタイル**を定義します。<br>
     **凡例:** 最後の月以内にハートビートを送信するデバイス<br>
     **クエリ:**```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```
@@ -199,7 +200,7 @@ Skype ルームのシステムに関連するイベントを監視すること�
     **新しいグループ:** 選択
 4.  **タイル**のプロパティを定義します。<br>
     **凡例:** アクティブなデバイス (ハートビートの最後の 20 分間で送信されます)<br>
-    **クエリを並べて表示:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
+    **タイルのクエリ: ** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
 5.  **リスト**のプロパティを定義します。<br>
     **クエリの一覧を表示:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 6.  **列のタイトル**を定義します。<br>
@@ -216,7 +217,7 @@ Skype ルームのシステムに関連するイベントを監視すること�
     **新しいグループ:** 選択されていません。
 3.  **タイル**のプロパティを定義します。<br>
     **凡例:** 非アクティブなデバイス (ハートビート メッセージは最後の 20 分間で送信されます)<br>
-    **クエリを並べて表示:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
+    **タイルのクエリ: ** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
 4.  **リスト**のプロパティを定義します。<br>
     **クエリの一覧を表示:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
 5.  **列のタイトル**を定義します。<br>
@@ -230,11 +231,11 @@ Skype ルームのシステムに関連するイベントを監視すること�
 
 1.  ギャラリーから**リストの数と**を選択し、新たにコピーします。
 2.  **全般**プロパティを定義します。<br>
-    **グループ タイトル:** ハードウェア<br>
+    **グループ タイトル:** ハードウェアのステータス<br>
     **新しいグループ:** 選択
 3.  **タイル**のプロパティを定義します。<br>
     **凡例:** 最後の 1 時間以内にハードウェア エラーが発生したデバイス <br>
-    **クエリを並べて表示:**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
+    **タイルのクエリ: ** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  **リスト**のプロパティを定義します。<br>
     **クエリの一覧を表示:**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer```
 5.  **列のタイトル**を定義します。<br>
@@ -244,7 +245,31 @@ Skype ルームのシステムに関連するイベントを監視すること�
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == 3001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
 7.  **適用**され、し、**閉じる**を選択します。
 
-### <a name="create-a-tile-that-displays-skype-room-systems-application-versions"></a>Skype ルーム システムのアプリケーションのバージョンを表示するタイルを作成します。
+### <a name="create-a-tile-that-displays-skype-room-systems-v2-operating-system-versions"></a>Skype ルーム システム v2 バージョンのオペレーティング システムを表示するタイルを作成します。
+
+1.  ギャラリーから、**ドーナツとリスト**を選択し、新しいタイルです。
+2.  **全般**プロパティを定義します。<br>
+    **グループ タイトル:** Syetem の動作の詳細 <br>
+    **新しいグループ:** 選択
+3.  **ヘッダー**のプロパティを定義します。<br>
+    **タイトル:** オペレーティング システムのバージョン<br>
+    **サブタイトル:** 特定の OS バージョンを実行しているデバイス
+4.  **ドーナツ**のプロパティを定義します。<br>
+    **クエリ:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize OS_Version = max(SRSOSLongVersion_CF) by Computer | summarize AggregatedValue = count() by OS_Version | sort by OS_Version asc```<br>
+    **テキストを中央揃え:** デバイス<br>
+    **操作:** 合計
+5.  **リスト**のプロパティを定義します。<br>
+    **クエリの一覧を表示:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSOSLongVersion_CF = max(SRSOSLongVersion_CF) by Computer | sort by Computer asc```<br>
+    **グラフを非表示にする:** 選択<br>
+    **スパーク ラインを有効にする:** 選択されていません。
+6.  **列のタイトル**を定義します。<br>
+    **名:** 表示名<br>
+    **値:** 空のままに
+7.  **ナビゲーション クエリ**を定義します。<br>
+    ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSDisplayName_CF, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
+8.  **適用**し、[**閉じる**を選択します。
+
+### <a name="create-a-tile-that-displays-skype-room-systems-v2-application-versions"></a>Skype ルーム システム v2 のアプリケーションのバージョンを表示するタイルを作成します。
 
 1.  ギャラリーから、**ドーナツとリスト**を選択し、新しいタイルです。
 2.  **全般**プロパティを定義します。<br>
@@ -276,7 +301,7 @@ Skype ルームのシステムに関連するイベントを監視すること�
     **新しいグループ:** 選択されていません。
 3.  **タイル**のプロパティを定義します。<br>
     **凡例:** 最後の時間でアプリケーション エラーが発生したデバイス<br>
-    **クエリを並べて表示:**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
+    **タイルのクエリ: ** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  **リスト**のプロパティを定義します。<br>
     **クエリの一覧を表示:**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 5.  **列のタイトル**を定義します。<br>
@@ -294,7 +319,7 @@ Skype ルームのシステムに関連するイベントを監視すること�
     **新しいグループ:** 選択されていません。
 3.  **タイル**のプロパティを定義します。<br>
     **凡例:** デバイスのアプリケーションの再起動では、最後の 24 時間、および再起動の回数<br>
-    **クエリを並べて表示:**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```
+    **タイルのクエリ: ** ```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```
 4.  **リスト**のプロパティを定義します。<br>
     **クエリの一覧を表示:**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```
 5.  **列のタイトル**を定義します。<br>
@@ -310,7 +335,7 @@ Skype ルームのシステムに関連するイベントを監視すること�
 マイクロソフトの運用管理スイートのポータルまたは操作の管理スイートのモバイル クライアントの[Windows Phone を](https://www.microsoft.com/en-us/store/p/microsoft-operations-management-suite/9wzdncrfjz2r)、 [iOS](https://itunes.apple.com/us/app/microsoft-operations-management-suite/id1042424859)、 [Android](https://play.google.com/store/apps/details?id=com.microsoft.operations.AndroidPhone)を使用するには、ビューにアクセスします。
 
 ## <a name="configure-alerts-in-operations-management-suite"></a>運用管理スイートで警告を構成します。
-<a name="Alerts"></a> 、Skype ルーム システムとデバイスが問題を検出すると、マイクロソフトの運用管理スイートは、問題の詳細を管理者に通知するアラートを発生させることもできます。
+<a name="Alerts"></a> 、Skype ルーム システムとバージョン 2 のデバイスが問題を検出すると、マイクロソフトの運用管理スイートは、問題の詳細を管理者に通知するアラートを発生させることもできます。
 
 運用管理スイートには、定期的にスケジュールされたログの検索を実行する組み込みの警告メカニズムが含まれています。 ログの検索の結果には、いくつか特定の条件が一致する場合は、アラートのレコードが作成されます。
 
@@ -324,12 +349,12 @@ Skype ルームのシステムに関連するイベントを監視すること�
 運用管理スイートでのアラートの詳細については、[ログ分析機能で通知を理解する](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts)を参照してください。
 
 > [!NOTE]
-> 次の例は、Skype ルーム システム デバイス、ハードウェアやアプリケーション エラーが生成されると電子メール警告を送信します。 
+> 次の例は、Skype ルーム システム v2 デバイスは、ハードウェアまたはアプリケーション エラーを生成する場合に電子メール警告を送信します。 
 
 
-### <a name="configure-an-email-alert-for-skype-room-systems-hardware-issues"></a>Skype ルーム システムのハードウェアの問題の電子メール通知を構成します。
+### <a name="configure-an-email-alert-for-skype-room-systems-v2-hardware-issues"></a>Skype ルーム システム v2 のハードウェアの問題に関する電子メール通知を構成します。
 
-最後の時間内でハードウェアの問題があった Skype ・ ルーム ・ システム ・ デバイスを確認する警告ルールを構成します。
+最後の時間内でハードウェアの問題があった Skype ルーム システム v2 のデバイスを確認する警告ルールを構成します。
 1.  [マイクロソフトの運用管理スイートのポータル](http://aka.ms/omsportal)にサインインします。
 
 2.  **ログの検索対象**を選択します。
@@ -346,21 +371,21 @@ Skype ルームのシステムに関連するイベントを監視すること�
 4.  クエリを実行すると、**アラート**を選択します。 **警告ルールの追加**] ページが表示されます。
 
 5.  以下の情報を使用して通知設定を構成します。<br>
-    **ルールの名前:** Skype ルーム システムのハードウェア障害の警告<br>
+    **ルールの名前:** Skype ルーム システム v2 ハードウェア障害の警告<br>
     **説明:** 最後の時間内でハードウェアの問題が発生したデバイスの一覧<br>
     **重要度:** 重要です<br>
     **クエリ:** 事前設定の検索クエリを使用します。<br>
     **時間:** 1 時間<br>
     **通知の頻度:** 1 時間<br>
     **結果の数:** 0 より大きい<br>
-    **電子メールの件名:** Skype ルーム システムのハードウェア障害の警告<br>
+    **電子メールの件名:** Skype ルーム システム v2 ハードウェア障害の警告<br>
     **受信者:** 区切り記号としてセミコロンを使用して、電子メール アドレスが含まれます<br>
 
 6.  **保存**を選択します。
 
-### <a name="configure-an-email-alert-for-skype-room-systems-application-issues"></a>Skype ルーム システムのアプリケーションの問題の電子メール通知を構成します。
+### <a name="configure-an-email-alert-for-skype-room-systems-v2-application-issues"></a>Skype ルーム システム v2 のアプリケーションの問題に関する電子メール通知を構成します。
 
-最後の時間内でアプリケーションの問題を抱えている Skype ・ ルーム ・ システム ・ デバイスを確認する警告のルールを構成します。
+Skype ルーム システムの最後の時間内でアプリケーションの問題があった v2 デバイスを確認する警告のルールを構成します。
 1.  **ログの検索対象**を選択します。
 
 2.  次のクエリを入力し、し、[**実行**] を選択します。<br>
@@ -375,14 +400,14 @@ Skype ルームのシステムに関連するイベントを監視すること�
 3.  クエリを実行すると、**アラート**を選択します。 **警告ルールの追加**] ページが表示されます。
 
 4.  以下の情報を使用して通知設定を構成します。<br>
-    **ルールの名前:** Skype ルーム システムのアプリケーション エラーのアラート<br>
+    **ルールの名前:** Skype ルーム システム v2 アプリケーション エラー アラート<br>
     **説明:** 最後の時間内でアプリケーションの問題が発生したデバイスの一覧<br>
     **重要度:** 重要です<br>
     **クエリ:** 事前設定の検索クエリを使用します。<br>
     **時間:** 1 時間<br>
     **通知の頻度:** 1 時間<br>
     **結果の数:** 0 より大きい<br>
-    **電子メールの件名:** Skype ルーム システムのアプリケーション エラーのアラート<br>
+    **電子メールの件名:** Skype ルーム システム v2 アプリケーション エラー アラート<br>
     **受信者:** 区切り記号としてセミコロンを使用して、電子メール アドレスが含まれます
 
 5.  **保存**を選択します。
@@ -401,15 +426,15 @@ Skype ルームのシステムに関連するイベントを監視すること�
 > Azure ポータルを使用して追加または、Azure に操作の管理スイートの警告を拡張するため、操作の管理スイートのワークスペースが設定されている場合、操作の管理スイートのアラートを変更する必要があります。 詳細については、 [Azure に OMS のポータルから移動できるようにする通知](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-alerts-extend)を参照してください。
 
 ## <a name="configure-all-devices-for-operations-management-suite"></a>操作の管理スイートのすべてのデバイスを構成します。
-<a name="configure_all_devices"></a>ダッシュ ボード、アラートを構成した後は、設定および監視、展開を完了するすべての Skype ルーム システム デバイスでの操作の管理スイートのエージェントを構成します。
+<a name="configure_all_devices"></a>ダッシュ ボード、アラートを構成した後を設定し、監視の展開を完了するすべての Skype ルーム システム v2 のデバイスでの操作の管理スイートのエージェントを構成します。
 
 インストールし、各デバイス上の操作の管理スイートのエージェントを手動で構成できますが、既存のソフトウェア展開ツールおよび方法を活用するを強くお勧めします。
 
-最初に、Skype の部屋のシステム デバイスを作成する場合は、ビルド処理の一部として操作の管理スイートのエージェントのセットアップと構成手順が含まれます。 詳細については、[コマンド ・ ラインを使用してエージェントのインストール](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows#install-the-agent-using-the-command-line)を参照してください。
+最初に、Skype ルーム システム v2 のデバイスを作成する場合は、ビルド処理の一部として操作の管理スイートのエージェントのセットアップと構成手順が含まれます。 詳細については、[コマンド ・ ラインを使用してエージェントのインストール](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows#install-the-agent-using-the-command-line)を参照してください。
 
 ### <a name="deploying-operations-management-suite-agents-by-using-a-group-policy-object"></a>グループ ポリシー オブジェクトを使用して、オペレーションの管理スイートのエージェントを展開します。
 
-管理スイートの操作を実装する前に Skype ルーム システム デバイスは、既に展開されている場合を設定し、Active Directory グループ ポリシーを使用してエージェントを構成する提供されたスクリプトを使用することができます。
+既にを展開した場合、Skype ルーム システム v2 のデバイス管理ソフトウェア ・ パッケージの操作を実装する前を設定し、Active Directory グループ ポリシーを使用してエージェントを構成するのに提供されているスクリプトを使用することができます。
 
 1.  共有のネットワーク パスを作成し、**ドメイン コンピューター**グループに読み取りアクセスを許可します。
 
@@ -419,7 +444,7 @@ Skype ルームのシステムに関連するイベントを監視すること�
     1.  コマンド プロンプト ウィンドウを開き、 **MMASetup AMD64.exe/c**を実行し、
     2.  作成した共有を指定し、コンテンツを抽出します。
 
-4.  新しいグループ ポリシー オブジェクトを作成し、Skype ルーム システムのコンピューター アカウントが格納されている組織単位に割り当てます。
+4.  新しいグループ ポリシー オブジェクトを作成し、Skype ルーム システム v2 のコンピューター アカウントが格納されている組織単位に割り当てます。
 
 5.  PowerShell 実行ポリシーを構成します。
     1.  新しく作成したグループ ポリシー オブジェクトを編集し、コンピューターの構成に移動\\ポリシー\\管理用テンプレート\\Windows コンポーネントの\\Windows PowerShell
@@ -434,7 +459,7 @@ Skype ルームのシステムに関連するイベントを監視すること�
     6.  **追加**して、**参照**を選択します。
     7.  コピーした ps1 スクリプトを選択します。
 
-7.  Skype ルーム ・ システム ・ デバイスがインストールされ、2 つ目の再起動で、Microsoft の監視エージェントを構成します。
+7.  Skype ルーム システム v2 のデバイスがインストールされ、2 つ目の再起動で、Microsoft の監視エージェントを構成します。
 
 
     ```
@@ -495,7 +520,6 @@ Skype ルームのシステムに関連するイベントを監視すること�
 
 ## <a name="see-also"></a>関連項目
 
-#### 
-[OMS を使用して Skype ルーム システム v2 の管理を計画します。](../../plan-your-deployment/clients-and-devices/oms-management.md)
+[OMS を使用して Skype Room Systems バージョン 2 の管理を計画する](../../plan-your-deployment/clients-and-devices/oms-management.md)
   
-[OMS を使用して Skype ルーム システム v2 のデバイスを管理します。](../../manage/skype-room-systems-v2/oms.md)
+[OMS を使用した Skype Room Systems のデバイスを管理する](../../manage/skype-room-systems-v2/oms.md)

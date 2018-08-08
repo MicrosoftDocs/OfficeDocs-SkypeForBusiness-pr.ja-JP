@@ -13,14 +13,15 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
-description: 'システム要件およびビジネス サーバー 2015 の Skype のネットワークやインフラストラクチャの要件に関するトピックの概要: アウトライン。 Skype for Business Server 2015 をインストールおよび展開するために何かをインストールまたは構成する必要がある場合は、ここで説明します。'
-ms.openlocfilehash: c3ad031a79d7a880036da5fb5eed1ad938505747
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: '概要: Skype for Business Server 2015 のシステム要件と、ネットワークまたはインフラストラクチャに関する要件を扱ったトピックの概要を示します。Skype for Business Server 2015 をインストールおよび展開するために何かをインストールまたは構成する必要がある場合は、ここで説明します。'
+ms.openlocfilehash: 98729469459f451727f2285c64dcff3a7fe15f9e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000456"
 ---
-# <a name="requirements-for-your-skype-for-business-environment"></a>Skype for Business Server 2015 環境の要件
+# <a name="requirements-for-your-skype-for-business-2015-environment"></a>2015 のビジネス環境について、Skype の要件
  
 **概要:** Skype for Business Server 2015 のシステム要件と、ネットワークまたはインフラストラクチャに関する要件を扱ったトピックの概要を示します。Skype for Business Server 2015 をインストールおよび展開するために何かをインストールまたは構成する必要がある場合は、ここで説明します。
   

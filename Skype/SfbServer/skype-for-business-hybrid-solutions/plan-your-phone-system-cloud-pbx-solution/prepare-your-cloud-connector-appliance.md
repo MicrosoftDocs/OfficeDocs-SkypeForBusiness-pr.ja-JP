@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Office 365 の電話システム (クラウド PBX) とともに展開および使用するために Cloud Connector アプライアンスを準備する方法について説明します。
-ms.openlocfilehash: 130d593ba94eff9da163363a652bc389b713d1b0
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 54ee8394c9da5b00e6a9c9afa7d4a1f3419c2f41
+ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "20176091"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Cloud Connector アプライアンスの準備
  
@@ -80,7 +81,7 @@ Office 365 の電話システム (クラウド PBX) とともに展開および�
   Set-CcSiteDirectory <UNC File path>
   ```
 
-    サイトの高可用性 (HA) を展開する場合、サイト内の各ホスト サーバー上の同じ場所に**サイト ディレクトリ**を設定するのには、コマンドレットを実行することを確認します。
+    サイトに高可用性 (HA) を展開する場合は、コマンドレットを実行してサイト内の各ホスト サーバーの同じ場所に**サイト ディレクトリ**を設定してください。
     
     ログオンしてサイト内で各アプライアンスを展開する場合、現在のログオン アカウントに**サイト ディレクトリ**への適切なアクセス権があることを確認してください。
     
@@ -117,7 +118,7 @@ Office 365 の電話システム (クラウド PBX) とともに展開および�
     ファイル名を含む、外部証明書への完全なパスを指定します。 証明書はローカルまたはファイル共有に格納できます。 証明書を共有フォルダーに格納する場合、その共有フォルダーは各サイトの最初のアプライアンス上に作成し、同一のサイトに属するその他のアプライアンスによってアクセス可能である必要があります。 このコマンドレットは、外部証明書を**アプライアンス ディレクトリ**にコピーします。
     
     > [!IMPORTANT]
-    > **クラウド コネクタ バージョン 1.4.2 を更新した場合か、後で**、秘密キーと完全な証明書チェーンを含むルート CA 証明書、中間 CA の証明書ですが、準備された外部の証明書に含まれていることを確認 >**がある場合。クラウド コネクタ バージョン 1.4.2 が更新されていない**、準備された外部証明書に秘密キーが含まれているかどうかを確認します。 この外部証明書は、既定で Windows で信頼されている認証局が発行したものである必要があります。
+    > **Cloud Connector バージョン 1.4.2 以降に更新している場合は**、準備した外部証明書に、プライベート キー、およびルート CA 証明書および中間 CA 証明書を含む完全な証明書チェーンが含まれていることを確認します。 **Cloud Connector のバージョン1.4.2　にまだ更新していない場合は**、準備した外部証明書にプライベート キーが含まれていることを確認します。 この外部証明書は、既定で Windows で信頼されている認証局が発行したものである必要があります。
   
 ## <a name="set-the-path-for-the-external-pstn-gatewaysbc-certificate"></a>外部 PSTN ゲートウェイ/SBC 証明書のパスの設定
 
@@ -159,12 +160,12 @@ Export-CcConfigurationSampleFile
 
 サンプルのテンプレートは**アプライアンス ディレクトリ**に保存されています。
   
-環境に応じた値でファイルを更新したら、ファイルを CloudConnector.ini として**アプライアンス ディレクトリ**に保存します。 **アプライアンス ディレクトリ**へのパスを決定するのには、 **Get CcApplianceDirectory**を実行することができます。
+環境に応じた値でファイルを更新したら、ファイルを CloudConnector.ini として**アプライアンス ディレクトリ**に保存します。**Get-CcApplianceDirectory** を実行して**アプライアンス ディレクトリ**へのパスを決めることができます。
   
 .ini ファイルを更新するとき、次を考慮します。
   
 > [!NOTE]
-> このセクションでは .ini ファイルのすべての値を取り上げておらず、特別な考慮が必要な値のみを説明しています。 完全なリストは、[ビジネス クラウド コネクタ ・ エディションの Skype の計画](plan-skype-for-business-cloud-connector-edition.md)のトピック[を確認する展開のパラメーター](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams)を参照してください > アプライアンスの追加や新しいサイトを変更する必要がある値の詳細については、[を参照してください。1 つのサイトで高可用性 (HA) 複数サイトの展開と比較して](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site)[クラウド コネクタで複数のサイトを展開する](deploy-multiple-sites-in-cloud-connector.md)」のです。 
+> このセクションでは .ini ファイルのすべての値を取り上げておらず、特別な考慮が必要な値のみを説明しています。 完全なリスト、[ビジネス クラウド コネクタ ・ エディションの Skype の計画](plan-skype-for-business-cloud-connector-edition.md)のトピック[を決定する展開のパラメーター](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) 」を参照してください。 追加のアプライアンスまたは新しいサイト用に変更する必要がある値の詳細については、トピック [ の「](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site)マルチサイト展開と高可用性 (HA) 対応の単一サイトの比較[Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md)」を参照してください。 
   
 - **SiteName:** デフォルト値は **Site1** です。Cloud Connector の展開前にこれを更新する必要があります。その理由は、**Register-CcAppliance** を実行して既存または新規のサイトにアプライアンスを登録するとき、コマンドレットが **SiteName** を使ってどのサイトに登録するかを決めるからです。
     
@@ -174,13 +175,13 @@ Export-CcConfigurationSampleFile
     
 - **HardwareType:** 設定または、null 値のままにしない、**通常**の既定値が適用されます。 [Skype ビジネス クラウド コネクタ ・ エディションのための計画](plan-skype-for-business-cloud-connector-edition.md)で説明するように、ホスト マシンごとの 500 の同時呼び出しをサポートするクラウドのコネクタの大きなバージョンを展開する場合は、**標準**を使用します。 50 の同時通話をサポートする小規模な展開の場合は **Minimum** を使用します。
     
-- **インターネット/Corpnet/管理仮想スイッチ:** 作成した仮想スイッチの名前を追加します。 管理仮想スイッチの場合は、デフォルト値をそのまま残します。 展開スクリプトは展開の始まりで管理仮想スイッチを作成し、展開の終わりに削除します。
+- **インターネット/Corpnet/管理仮想スイッチ:** 作成した仮想スイッチの名前を追加します。管理仮想スイッチの場合は、デフォルト値をそのまま残します。展開スクリプトは展開の始まりで管理仮想スイッチを作成し、展開の終わりに削除します。
     
 - **ManagementIPPrefix:** ネットワーク セクションの ManagementIPPrefix は、他の内部 IP とは異なるサブネットである必要があります。例えば、デフォルト値が示すように、ManagementIPPrefix は 192.168.213.0、AD IPAddress は 192.168.0.238 となります。
     
     展開スクリプトは管理ネットワーク アダプターを仮想マシンごとに作成し、管理 IP を割り当て、それを管理仮想スイッチに接続します。これによりホスト サーバーは、この管理ネットワーク経由で各仮想マシンに接続しそれらを管理できます。管理仮想スイッチは展開が終了すると削除されます。
     
-- **ベースの VM の特定の構成:****変換 CcIsoToVhdx**コマンドレットでは、このセクションの設定を構成しなければなりません。
+- **ベース VM 固有の設定:** このセクションの設定は **Convert-CcIsoToVhdx** コマンドレットに対して設定する必要があります。
     
     ベース VM イメージを準備するとき、ベース VM は内部ネットワーク スイッチに接続されます。次の設定は、VM がインターネットに接続できるようにするために重要です。
     
@@ -306,7 +307,7 @@ Skype for Business Cloud Connector エディションの展開時に CceService 
 
 Skype for Business Online と Office 365 の電話システムを使用している Office 365 テナントが必要です。 テナントを設定し、クラウドのコネクタを使用する前に構成されていることを確認してください。
   
-いくつかの Office 365 のセットアップ手順では、テナント リモート PowerShell (TRPS) を使用して、Office 365 テナントを構成する必要があります。 **これはホスト サーバー上にインストールしてください。** PowerShell からのオンライン ビジネス モジュールの Skype をダウンロードする:[Windows PowerShell モジュール ビジネス オンラインの Skype](https://www.microsoft.com/en-us/download/details.aspx?id=39366)です。
+いくつかの Office 365 のセットアップ手順では、テナント リモート PowerShell (TRPS) を使用して、Office 365 テナントを構成する必要があります。 **これはホスト サーバー上にインストールしてください。** PowerShell からのオンライン ビジネス モジュールの Skype をダウンロードする: [Windows PowerShell モジュール ビジネス オンラインの Skype](https://www.microsoft.com/en-us/download/details.aspx?id=39366)です。
   
 クラウド コネクタのオンライン管理、CceOnlineManagmentAdministrator などのビジネス管理者のアカウント用の専用の Skype を作成します。 このアカウントはアプライアンスによって使用され、アプライアンスの追加や削除、自動 OS 更新の有効化や無効化、自動バイナリ更新の有効化や無効化を行うことができます。 このアカウントのパスワードが期限切れにならないように設定すると、サービスが期限切れになるたびにパスワードを変更する必要がなくなります。
   

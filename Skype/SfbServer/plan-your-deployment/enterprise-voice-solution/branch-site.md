@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 のブランチ サイトの SIP トランキング
+title: Skype ビジネス サーバー用のブランチ サイトの SIP トランク
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,17 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
 description: ビジネス サーバーのエンタープライズ VoIP は、Skype でのブランチ サイトに SIP トランクについて説明します。
-ms.openlocfilehash: 862a39e7472ab461725957cea6e5a89e0c156286
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e14d6ba3101c1981b719ea0f030d2e92fbd4ab7b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966272"
 ---
-# <a name="branch-site-sip-trunking-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 のブランチ サイトの SIP トランキング
+# <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>Skype ビジネス サーバー用のブランチ サイトの SIP トランク
  
 ビジネス サーバーのエンタープライズ VoIP は、Skype でのブランチ サイトに SIP トランクについて説明します。
   
-場合によっては、選択したブランチ サイトでの分散型 SIP トランクを実装する必要があります。 SIP かどうかを判断するのにはトランクがために必要なブランチ サイトとブランチ サイトで SIP トランクを展開するためのサポートされているトポロジ オプションの詳細については、 [SIP サーバー 2015 のビジネス用の Skype でトランク](sip-trunking.md)を参照してください。
+場合によっては、選択したブランチ サイトでの分散型 SIP トランクを実装する必要があります。 ブランチ サイトとブランチ サイトの SIP トランクを展開するためのサポートされているトポロジ オプションの詳細について、SIP かどうかを判断するのにはトランクが必要な[Skype ビジネス サーバー用のトランクの SIP](sip-trunking.md)を参照してください。
   
 ## <a name="example-branch-site-sip-trunk-requirements-analysis"></a>ブランチ サイト SIP トランク要件例の分析
 

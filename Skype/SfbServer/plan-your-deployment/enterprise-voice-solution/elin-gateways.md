@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 での ELIN ゲートウェイの場所の管理
+title: ビジネス サーバーの Skype の ELIN ゲートウェイの場所を管理します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: 意思決定の計画に必要な場所情報のデータベース、または ~ 9-1-1 展開のビジネス サーバーのエンタープライズ VoIP の Skype で、ELIN ゲートウェイを使用して、ような外部データベースです。
-ms.openlocfilehash: c89f09af2011d316485094f9fc817580b56d1d81
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ace81abc47ac401db48b7a34fe9a229a29f18881
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974236"
 ---
-# <a name="manage-locations-for-elin-gateways-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での ELIN ゲートウェイの場所の管理
+# <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>ビジネス サーバーの Skype の ELIN ゲートウェイの場所を管理します。
  
 意思決定の計画に必要な場所情報のデータベース、または ~ 9-1-1 展開のビジネス サーバーのエンタープライズ VoIP の Skype で、ELIN ゲートウェイを使用して、ような外部データベースです。
   
@@ -57,9 +57,9 @@ ELIN ゲートウェイを使用する場合は、都市の住所、建物内の
 
 建物のスペースをどのように場所に区切るかを決めたら、いくつの ELIN を各場所に割り当てるかを決める必要があります。たとえば、階数やテナント数が多い建物では建物内のエリアごとに別の緊急ゾーンが割り当てられる場合があります。一般的には建物の 1 つの階を 1 つの場所として指定し、さらに 1 つの場所に 1 つ以上の ELIN を割り当てます。ELIN は緊急通報の際に呼び出し元番号として使用されます。ELIN に使用できる電話番号については、各自の PSTN 通信業者にお問い合わせください。次の表には、1 つの住所に含まれる複数の場所の例を示します。
   
-**サンプルの場所と ELIN の割り当て**
+**場所と ELIN の割り当てのサンプル**
 
-|**領域の構築**|**場所**|**ELIN**|
+|**建物内のエリア**|**場所**|**ELIN**|
 |:-----|:-----|:-----|
 |1 階  <br/> |1  <br/> |425-555-0100  <br/> |
 |2 階  <br/> |2  <br/> |425-555-0111  <br/> |
@@ -83,7 +83,7 @@ ELIN ゲートウェイを使用する場合は、都市の住所、建物内の
   
 セカンダリ場所情報サービスのオプションを使用するとサード ・ パーティ製のデータベースに接続するのには、グループ化し、オフラインのプラットフォームを使用して場所を管理できます。 この方法の利点は、場所をネットワーク ID に関連付けることに加えて、場所をユーザーに関連付けられることです。 つまり、場所情報サービスが、Skype のビジネス クライアントに、セカンダリ場所情報サービスから発信される、複数のアドレスを返すことができます。 その後、ユーザーは最適な場所を選択できます。 
   
-位置情報サービスとの統合、サードパーティのデータベースはビジネス サーバーの場所の要求/応答スキーマの Skype に従う必要があります。 詳細については、 [E911 サポート プロトコル用の Web サービス](https://go.microsoft.com/fwlink/p/?linkid=213819)を参照してください。 セカンダリ場所情報サービスの展開に関する詳細情報は、展開に関するドキュメントで[ビジネス サーバー 2015 の Skype でのセカンダリ場所情報サービスの構成](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md)を参照してください。
+位置情報サービスとの統合、サードパーティのデータベースはビジネス サーバーの場所の要求/応答スキーマの Skype に従う必要があります。 詳細については、 [E911 サポート プロトコル用の Web サービス](https://go.microsoft.com/fwlink/p/?linkid=213819)を参照してください。 セカンダリ場所情報サービスの展開に関する詳細情報は、展開に関するドキュメントで[Skype ビジネス サーバーでセカンダリ場所情報サービスの構成](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md)を参照してください。
   
 場所データベースの設定についての詳細は、展開に関するドキュメントの[場所データベースの構成](http://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx)を参照してください。
   

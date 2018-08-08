@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 のフロント エンド サーバーの VoIP コンポーネント
+title: Skype ビジネス サーバーのフロント エンド サーバーの VoIP コンポーネント
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
 description: ビジネス サーバーには、翻訳サービスなど、さまざまなルーティング コンポーネント、Skype でのフロント エンド サーバー上に配置されているエンタープライズ VoIP のコンポーネントについて説明します。
-ms.openlocfilehash: a95b437128f7ddb8dd78462d3a8443e972dd75bc
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 24cac38b62cb92fc0d2353edad1238d02b290d75
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980824"
 ---
-# <a name="front-end-server-voip-components-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 のフロント エンド サーバーの VoIP コンポーネント
+# <a name="front-end-server-voip-components-for-skype-for-business-server"></a>Skype ビジネス サーバーのフロント エンド サーバーの VoIP コンポーネント
  
 ビジネス サーバーには、翻訳サービスなど、さまざまなルーティング コンポーネント、Skype でのフロント エンド サーバー上に配置されているエンタープライズ VoIP のコンポーネントについて説明します。
   
@@ -36,7 +36,7 @@ ms.lasthandoff: 05/03/2018
     
 - 内部クラスター ルーティング コンポーネント
     
-- [ビジネス サーバー 2015 の Skype での仲介サーバー コンポーネント](mediation-server.md)
+- [Skype ビジネス サーバー用の仲介サーバーのコンポーネント](mediation-server.md)
     
 ## <a name="translation-service"></a>変換サービス
 

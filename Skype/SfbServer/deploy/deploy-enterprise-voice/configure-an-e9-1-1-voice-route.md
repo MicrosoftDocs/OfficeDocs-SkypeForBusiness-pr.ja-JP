@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 での E9-1-1 ボイス ルートの構成
+title: ビジネス サーバー用の Skype で ~ 9-1-1 のボイス ルートを構成します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: ビジネス サーバーのエンタープライズ VoIP の Skype で ~ 9-1-1 ボイス ルートを構成します。
-ms.openlocfilehash: b61b77fce36e0415d9c6f1189d8ecf2a5659d2f9
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 85259b6490b0f14d94d4d7c26f343d638911d909
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568229"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988749"
 ---
-# <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での E9-1-1 ボイス ルートの構成
+# <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>ビジネス サーバー用の Skype で ~ 9-1-1 のボイス ルートを構成します。
  
 ビジネス サーバーのエンタープライズ VoIP の Skype で ~ 9-1-1 ボイス ルートを構成します。 
   
-E9-1-1 を展開するには、まず緊急通話用のボイス ルートを構成する必要があります。 ボイス ルートを作成する方法についてを参照してください[を作成するビジネス 2015年の Skype でのボイス ルートを変更、または](create-or-modify-a-voice-route.md)。 展開にプライマリ SIP トランクおよびセカンダリ SIP トランクが含まれている場合などは、複数のルートを定義できます。 
+E9-1-1 を展開するには、まず緊急通話用のボイス ルートを構成する必要があります。 ボイス ルートを作成する方法についてを参照してください[を作成するまたはビジネス用の Skype でのボイス ルートを変更する](create-or-modify-a-voice-route.md)です。 展開にプライマリ SIP トランクおよびセカンダリ SIP トランクが含まれている場合などは、複数のルートを定義できます。 
   
 > [!NOTE]
 > ~ 9-1-1、招待の場所に関する情報を含む、ゲートウェイを介して、緊急通話のルーティングを ~ 9-1-1 のサービス プロバイダーに接続する SIP トランクを構成する必要があります。 これを行うには、True に**セット CsTrunkConfiguration**コマンドレットに EnablePIDFLOSupport フラグを設定します。 EnablePIDFLOSupport の既定値は、False です。 例:`Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.`フォールバックの公衆は交換電話網 (PSTN) ゲートウェイと緊急位置識別番号 (ELIN) ゲートウェイの受信場所を有効にする必要はありません。
@@ -38,7 +37,7 @@ E9-1-1 を展開するには、まず緊急通話用のボイス ルートを構
     
 3. 次のコマンドレットを実行して、新しい PSTN 使用法レコードを作成します。 
     
-    これは、[場所のポリシー] の [**PSTN**] 設定で使用する名前と同じである必要があります。 展開には複数の電話使用法レコードが含まれますが、次の例では、使用可能な PSTN 使用法の現在の一覧に "Emergency Usage" を追加しています。 詳細については、[音声ポリシーを構成する、PSTN 使用法レコード、およびビジネス 2015年の Skype でのボイス ルート](voice-and-pstn.md)を参照してください。
+    これは、[場所のポリシー] の [**PSTN**] 設定で使用する名前と同じである必要があります。 展開には複数の電話使用法レコードが含まれますが、次の例では、使用可能な PSTN 使用法の現在の一覧に "Emergency Usage" を追加しています。 詳細については、[音声ポリシーを構成する、PSTN 使用法レコード、およびビジネスのための Skype でのボイス ルート](voice-and-pstn.md)を参照してください。
     
    ```
    Set-CsPstnUsage -Usage @{add='EmergencyUsage'}

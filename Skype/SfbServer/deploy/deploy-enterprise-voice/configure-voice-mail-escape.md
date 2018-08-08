@@ -1,9 +1,8 @@
 ---
-title: Skype for Business 2015 でのボイス メール エスケープの構成
+title: ビジネス用の Skype でボイス メールのエスケープを構成します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
-description: '概要: ビジネス サーバー管理シェルには、Skype を使用して、ビジネス サーバー 2015 の Skype でボイス メールのエスケープを構成する方法を説明します。'
-ms.openlocfilehash: dea96ffb9eb670a430e9f983660a793444812438
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: '概要: ビジネス サーバー管理シェルには、Skype を使用して、Skype のビジネス サーバーのボイス メールのエスケープを構成する方法を説明します。'
+ms.openlocfilehash: 3e8686690634b9571cae963b8ca91d73a6758e26
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985137"
 ---
-# <a name="configure-voice-mail-escape-in-skype-for-business-2015"></a>Skype for Business 2015 でのボイス メール エスケープの構成
+# <a name="configure-voice-mail-escape-in-skype-for-business"></a>ビジネス用の Skype でボイス メールのエスケープを構成します。
  
-**の概要:** ビジネス サーバー管理シェルには、Skype を使用して、ビジネス サーバー 2015 の Skype でボイス メールのエスケープを構成する方法について説明します。
+**の概要:** ビジネス サーバー管理シェルには、Skype を使用して、Skype のビジネス サーバーのボイス メールのエスケープを構成する方法について説明します。
   
 ユーザーは、携帯電話の同時呼び出しを構成、呼び出し元は通常場合に送られますユーザーの個人用のボイス メール、携帯電話のオン/オフ、バッテリ電源では、範囲外です。 ビジネス サーバーの Skype でユーザーをビジネスに関連する通話を企業内のボイス メール システムにルーティングできます。 具体的には、タイマーを構成することができ、Skype ビジネス サーバーのユーザーの中に通信事業者のボイス メール システム (およびユーザーの個人用のボイス メール) から切断する場合は、応答が定義されている時間の範囲内での通信事業者のボイス メール、企業のシステムの残りのエンドポイントでは、鳴り続けます。 この方法では、呼び出し元はユーザーの企業のボイス メールに自動的にルーティングされます。
   
@@ -42,14 +42,10 @@ ms.lasthandoff: 05/03/2018
 
 ```
 Set-CsVoicePolicy UserVoicePolicy -EnableVoiceMailEscapeTimer $true - PSTNVoicemailEscapeTimer 2000
-
 Set-CsVoicePolicy -Identity site:SitePolicy -EnableVoiceMailEscapeTimer $true -PSTNVoicemailEscapeTimer 1500
-
 ```
 
 ## <a name="see-also"></a>関連項目
-
-#### 
 
 [通話機能と特権を承認するには、音声ポリシーと PSTN 使用法レコードの構成](http://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
 

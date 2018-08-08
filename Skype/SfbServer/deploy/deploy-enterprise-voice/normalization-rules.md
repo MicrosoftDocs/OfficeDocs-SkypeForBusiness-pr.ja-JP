@@ -1,9 +1,8 @@
 ---
-title: Skype for Business 2015 での正規化ルールの作成または変更
+title: 作成するか、ビジネスの Skype の正規化ルールを変更
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
-description: '概要: 定義、作成、およびビジネス サーバー 2015 の Skype の正規化ルールを変更する方法を説明します。'
-ms.openlocfilehash: 5ee0b138d118d0c437255cb3e90321019119aedf
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: '概要: 定義、作成、および業務サーバーの Skype の正規化ルールを変更する方法を説明します。'
+ms.openlocfilehash: d9c56d96c0eb9069e4ec02b196a326ad8b599e75
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972549"
 ---
-# <a name="create-or-modify-a-normalization-rule-in-skype-for-business-2015"></a>Skype for Business 2015 での正規化ルールの作成または変更
+# <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>作成するか、ビジネスの Skype の正規化ルールを変更
  
-**の概要:** 定義、作成、およびビジネス サーバー 2015 の Skype の正規化ルールを変更する方法について説明します。
+**の概要:** 定義、作成、および業務サーバーの Skype の正規化ルールを変更する方法について説明します。
   
 定義、作成、および業務サーバーの Skype での正規化ルールを変更します。
   
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/03/2018
 
 1. ビジネス サーバーのコントロール パネルの Skype を開く
     
-2. (省略可能)手順に従って、[を作成するまたはビジネス サーバー 2015 の Skype のダイヤル プランを変更する](dial-plans.md)手順 11] または [ステップ 10 の[ダイヤル プランの変更](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)をします。
+2. (省略可能)手順に従って、[を作成するまたはビジネス サーバーの Skype のダイヤル プランを変更する](dial-plans.md)手順 11] または [ステップ 10 の[ダイヤル プランの変更](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)をします。
     
 3. **新しい正規化ルール**または**正規化ルールの編集**、**名前**(たとえば、5DigitExtension) で標準化されている番号のパターンを説明する名前を入力します。
     
@@ -72,13 +72,13 @@ ms.lasthandoff: 05/03/2018
 11. [**ダイヤル プラン**] ページで [**確定**] をクリックして、[**すべて確定**] をクリックします。 
     
     > [!NOTE]
-    > 正規化ルールを作成または変更するときにはいつでも、[**すべて確定**] コマンドを実行して構成の変更を公開する必要があります。 詳細については、操作マニュアルの[発行保留中のビジネス 2015年の Skype で音声ルーティング構成の変更](voice-route-config-changes.md)を参照してください。
+    > 正規化ルールを作成または変更するときにはいつでも、[**すべて確定**] コマンドを実行して構成の変更を公開する必要があります。 詳細については、操作マニュアルの[発行保留中のビジネス用の Skype で音声ルーティング構成の変更](voice-route-config-changes.md)を参照してください。
   
 ### <a name="to-define-a-normalization-rule-manually"></a>正規化ルールを手動で定義するには
 
 1. ビジネス サーバーのコントロール パネルの Skype を開く
     
-2. (省略可能)手順に従って、[を作成するビジネス サーバー 2015 の Skype のダイヤル プランを変更する、または](dial-plans.md)。 
+2. (省略可能)手順に従って、[を作成するまたはビジネス サーバーの Skype のダイヤル プランを変更する](dial-plans.md)です。 
     
 3. **新しい正規化ルール**または**正規化ルールの編集**では、(たとえば、正規化の rule5DigitExtension の名前) の**名前**で標準化されている番号のパターンを説明する名前を入力します。
     
@@ -105,6 +105,6 @@ ms.lasthandoff: 05/03/2018
 11. [**ダイヤル プラン**] ページで [**確定**] をクリックして、[**すべて確定**] をクリックします。
     
     > [!NOTE]
-    > 正規化ルールを作成または変更するときにはいつでも、[**すべて確定**] コマンドを実行して構成の変更を公開する必要があります。 詳細については、操作マニュアルの[発行保留中のビジネス 2015年の Skype で音声ルーティング構成の変更](voice-route-config-changes.md)を参照してください。
+    > 正規化ルールを作成または変更するときにはいつでも、[**すべて確定**] コマンドを実行して構成の変更を公開する必要があります。 詳細については、操作マニュアルの[発行保留中のビジネス用の Skype で音声ルーティング構成の変更](voice-route-config-changes.md)を参照してください。
   
 

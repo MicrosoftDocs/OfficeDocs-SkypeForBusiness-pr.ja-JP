@@ -1,9 +1,8 @@
 ---
-title: Skype for Business 2015 での通話管理機能の展開
+title: ビジネス用の Skype での通話管理機能を導入します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
 description: ビジネス サーバーのエンタープライズ VoIP の Skype での通話管理機能を配置しています。
-ms.openlocfilehash: 181c8e983416c91e6847869786170ad2f73c8728
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: a63f53970b25c9148c65c95890df14e77feb0008
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025660"
 ---
-# <a name="deploy-call-management-features-in-skype-for-business-2015"></a>Skype for Business 2015 での通話管理機能の展開
+# <a name="deploy-call-management-features-in-skype-for-business"></a>ビジネス用の Skype での通話管理機能を導入します。
  
 ビジネス サーバーのエンタープライズ VoIP の Skype での通話管理機能を配置しています。
   
@@ -38,12 +38,12 @@ ms.lasthandoff: 05/03/2018
   
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [ビジネス 2015年の Skype のコール パークの展開プロセス](deployment-process-for-call-park.md)
+- [ビジネス用の Skype のコール パークの展開プロセス](deployment-process-for-call-park.md)
     
-- [Deployment process for Group Call Pickup in Skype for Business 2015](deployment-process-for-group-call-pickup.md)
+- [ビジネス用の Skype でグループを呼び出すのピックアップのための展開プロセス](deployment-process-for-group-call-pickup.md)
     
-- [ビジネス 2015年の Skype で応答グループの展開のプロセス](deployment-process-for-response-group.md)
+- [ビジネス用の Skype で応答グループの展開のプロセス](deployment-process-for-response-group.md)
     
-- [ビジネス サーバー 2015 の Skype [お知らせ] アプリケーションの展開プロセス](deployment-process-for-the-announcement-application.md)
+- [ビジネス サーバーの Skype [お知らせ] アプリケーションの展開プロセス](deployment-process-for-the-announcement-application.md)
     
 

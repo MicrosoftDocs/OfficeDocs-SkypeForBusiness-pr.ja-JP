@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server でメディア バイパスを無効にしてトランクを構成する
+title: メディアが Skype のビジネス サーバーのバイパスなしトランクを構成します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,19 +12,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
-description: '概要: は、Skype のビジネス サーバー 2015 対応メディア バイ パスなしのトランクを構成します。'
-ms.openlocfilehash: 82b168da814da96555afe967d901f152d35718b3
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: '概要: は、Skype のビジネス サーバー対応メディア バイ パスなしのトランクを構成します。'
+ms.openlocfilehash: ae33fd67c85401e9fe9ce366bec75d824f7c77b7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500978"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972521"
 ---
-# <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server-2015"></a>Skype for Business Server でメディア バイパスを無効にしてトランクを構成する
+# <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>メディアが Skype のビジネス サーバーのバイパスなしトランクを構成します。
  
-**の概要:** ビジネス サーバー 2015 の Skype 対応でメディア バイ パスなしのトランクを構成します。
+**の概要:** Skype 対応でビジネスのサーバーのメディア バイ パスなしのトランクを構成します。
   
-メディア バイパスを無効にしてトランクを構成する場合は、次の手順を実行します。 トランクでメディア バイ パスを有効に構成する場合は、[ビジネス サーバー 2015 の Skype で使用しないメディアを使用してトランクの構成](configure-trunk-with-media-bypass.md)を参照してください。
+メディア バイパスを無効にしてトランクを構成する場合は、次の手順を実行します。 トランクでメディア バイ パスを有効に構成する場合は、 [Skype のビジネス サーバーで使用しないメディアを使用してトランクの構成](configure-trunk-with-media-bypass.md)を参照してください。
   
 以下で説明するトランク構成とは、トランクに適用される一連のパラメーターをグループ化したものです。これらのパラメーターは、このトランク構成に割り当てられたものです。特定のトランク構成は、グローバルに (つまり特定のサイトまたはプール構成を持っていないすべてのトランクを対象とする)、またはサイトあるいはプールに対してスコープ指定できます。プールレベル トランク構成は、単一のトランクに固有のトランク構成のスコープを指定する目的で使用されます。
   
@@ -83,7 +82,7 @@ ms.locfileid: "19500978"
     
      - PSTN 使用法レコードからルートを削除するには、ルートを選択して [**削除**] をクリックします。
     
-     - 新しいルートを定義してこの PSTN 使用法レコードに関連付けるには、[**新規**] をクリックします。 詳細についてを参照してください[を作成するビジネス 2015年の Skype でのボイス ルートを変更、または](create-or-modify-a-voice-route.md)。
+     - 新しいルートを定義してこの PSTN 使用法レコードに関連付けるには、[**新規**] をクリックします。 詳細についてを参照してください[を作成するまたはビジネス用の Skype でのボイス ルートを変更する](create-or-modify-a-voice-route.md)です。
     
      - この PSTN 使用法レコードに関連付けられているルートを編集するには、ルートを選択して [**詳細の表示**] をクリックします。
     
@@ -99,7 +98,7 @@ ms.locfileid: "19500978"
     
      - PSTN 使用法レコードからルートを削除するには、ルートを選択して [**削除**] をクリックします。
     
-     - 新しいルートを定義してこの PSTN 使用法レコードに関連付けるには、[**新規**] をクリックします。 詳細についてを参照してください[を作成するビジネス 2015年の Skype でのボイス ルートを変更、または](create-or-modify-a-voice-route.md)。
+     - 新しいルートを定義してこの PSTN 使用法レコードに関連付けるには、[**新規**] をクリックします。 詳細についてを参照してください[を作成するまたはビジネス用の Skype でのボイス ルートを変更する](create-or-modify-a-voice-route.md)です。
     
      - この PSTN 使用法レコードに関連付けられているルートを編集するには、ルートを選択して [**詳細の表示**] をクリックします。
     
@@ -125,7 +124,7 @@ ms.locfileid: "19500978"
     
    - エンタープライズ VoIP 展開で利用可能なすべての変換ルールの一覧から 1 つまたは複数のルールを選択するのには [**選択**] をクリックします。 [**変換ルールの選択**] で、トランクに関連付けるルールをクリックして、[**OK**] をクリックします。
     
-   - 新しい変換ルールを定義してトランクに関連付ける場合は、[**新規**] をクリックします。 変換規則についての詳細は、[ビジネス サーバー 2015 の Skype での変換の規則](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)を参照してください。
+   - 新しい変換ルールを定義してトランクに関連付ける場合は、[**新規**] をクリックします。 変換規則についての詳細は、 [Skype のビジネス サーバーの変換規則](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)を参照してください。
     
    - 既にトランクに関連付けられている変換ルールを編集するには、ルールの名前をクリックして、[**詳細の表示**] をクリックします。 
     
@@ -140,7 +139,7 @@ ms.locfileid: "19500978"
     
    - エンタープライズ VoIP 展開で利用可能なすべての変換ルールの一覧から 1 つまたは複数のルールを選択するのには [**選択**] をクリックします。 [**変換ルールの選択**] で、トランクに関連付けるルールをクリックして、[**OK**] をクリックします。
     
-  - 新しい変換ルールを定義してトランクに関連付ける場合は、[**新規**] をクリックします。 変換規則についての詳細は、[ビジネス サーバー 2015 の Skype での変換の規則](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)を参照してください。
+  - 新しい変換ルールを定義してトランクに関連付ける場合は、[**新規**] をクリックします。 変換規則についての詳細は、 [Skype のビジネス サーバーの変換規則](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)を参照してください。
     
    - 既にトランクに関連付けられている変換ルールを編集するには、ルールの名前をクリックして、[**詳細の表示**] をクリックします。 
     
@@ -161,10 +160,11 @@ ms.locfileid: "19500978"
 18. [**トランク構成**] ページで [**確定**] をクリックして、[**すべて確定**] をクリックします。 
     
     > [!NOTE]
-    > トランクの構成を作成または変更するときは常に、[**すべて確定**] コマンドを実行して、構成の変更を公開する必要があります。 詳細については、操作マニュアルの[発行保留中のビジネス 2015年の Skype で音声ルーティング構成の変更](voice-route-config-changes.md)を参照してください。
+    > トランクの構成を作成または変更するときは常に、[**すべて確定**] コマンドを実行して、構成の変更を公開する必要があります。 詳細については、操作マニュアルの[発行保留中のビジネス用の Skype で音声ルーティング構成の変更](voice-route-config-changes.md)を参照してください。
   
 ## <a name="see-also"></a>関連項目
 
-[ビジネス サーバー 2015 の Skype でのメディア バイ パスを使用してトランクを構成します。](configure-trunk-with-media-bypass.md)
+[ビジネス サーバーの Skype でのメディア バイ パスを使用してトランクを構成します。](configure-trunk-with-media-bypass.md)
 
 [変換ルールを定義します。](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
+

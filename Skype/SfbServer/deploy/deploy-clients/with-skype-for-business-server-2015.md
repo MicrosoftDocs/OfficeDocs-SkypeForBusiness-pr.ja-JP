@@ -1,9 +1,8 @@
 ---
-title: Skype Room Systems バージョン 2 と Skype for Business Server 2015 を展開する
+title: Skype の部屋を配置する Skype のビジネス サーバーでシステム v2
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/18/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,15 +11,15 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
-description: ビジネス サーバー 2015 の Skype と Skype ルーム システム v2 を展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: da5d0319e3dd582d6f446471424814ece3a9d178
-ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
+description: ビジネス サーバーの Skype と Skype ルーム システム v2 を展開する方法の詳細については、このトピックを参照してください。
+ms.openlocfilehash: a1d46012979cd908a00113c4573133da63e844ba
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19887828"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20976829"
 ---
-# <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a>Skype Room Systems バージョン 2 と Skype for Business Server 2015 を展開する
+# <a name="deploy-skype-room-systems-v2-with-skype-for-business-server"></a>Skype の部屋を配置する Skype のビジネス サーバーでシステム v2
   
 このトピックでは、単一フォレストでは、設置型の展開がある場合に Skype ルーム システムのバージョン 2 のデバイスのアカウントを追加する方法について説明します。
   
@@ -28,9 +27,9 @@ ms.locfileid: "19887828"
 
 ユーザー アカウントを設定する最も簡単な方法では、リモートの Windows PowerShell を使用してそれらを構成します。 マイクロソフトでは、 [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)、新しいユーザー アカウントを作成または Skype ルーム システム v2 の互換性のあるユーザー アカウントにそれらを有効にするためにある既存のリソース アカウントの検証を支援するスクリプトを提供します。 場合は、Skype ルーム システム v2 デバイスを使用してアカウントを構成するのには、次の手順に従うことができます。
   
-## <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a>Skype Room Systems バージョン 2 と Skype for Business Server 2015 を展開する
+## <a name="deploy-skype-room-systems-v2-with-skype-for-business-server"></a>Skype の部屋を配置する Skype のビジネス サーバーでシステム v2
 
-ビジネス サーバー 2015 の Skype と Skype ルーム システム v2 を展開する前に、要件を満たしていることを確認してください。 詳細については、 [Skype ルーム システム v2 の要件](../../plan-your-deployment/clients-and-devices/requirements.md)を参照してください。
+ビジネス サーバーの Skype と Skype ルーム システム v2 を展開する前に、要件を満たしていることを確認します。 詳細については、 [Skype ルーム システム v2 の要件](../../plan-your-deployment/clients-and-devices/requirements.md)を参照してください。
   
 Skype ルーム システム v2 を展開する作業を開始する前に、関連付けられているコマンドレットを実行する適切なアクセス許可があることを確認します。
   
@@ -48,7 +47,7 @@ Skype ルーム システム v2 を展開する作業を開始する前に、関
  
    ```
 
-   $StrExchangeServer は、Exchange サーバーの完全修飾ドメイン名 (FQDN)、$strLyncFQDN は、サーバー 2015 のビジネスを展開するため、Skype の FQDN を確認します。
+   $StrExchangeServer は、Exchange サーバーの完全修飾ドメイン名 (FQDN)、$strLyncFQDN は、ビジネスのサーバーの展開に、Skype の FQDN を確認します。
     
 2. セッションを確立するには後、するが新しいメールボックスを作成して、RoomMailboxAccount、として有効にか既存の会議室メールボックスの設定を変更します。 これにより、Skype ルーム システム v2 を認証するためにアカウントが許可されます。
     
@@ -86,7 +85,7 @@ Skype ルーム システム v2 を展開する作業を開始する前に、関
    Set-AdUser $acctUpn -Enabled $true
    ```
 
-6. ビジネス サーバー 2015 のプールのため、Skype の Skype ルーム システム v2 Active Directory アカウントを有効にすると、ビジネス サーバー 2015 の Skype でデバイスのアカウントを有効にします。
+6. ビジネス サーバー プールのため、Skype の Skype ルーム システム v2 Active Directory アカウントを有効にすると、Business Server の Skype でデバイスのアカウントを有効にします。
     
    ```
    Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com 
@@ -106,7 +105,7 @@ Skype ルーム システム v2 を展開する作業を開始する前に、関
 
    繰り返しますが、提供されるドメイン コントローラーと電話番号の例は、実際に使用する情報に置き換える必要があります。パラメータ値 $true は同じままです。
     
-## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-2015-on-premises"></a>Exchange との社内のビジネス サーバー 2015 の Skype のサンプル: ルームのアカウントのセットアップ
+## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>Exchange およびビジネス上のサーバー設置型の Skype のサンプル: ルームのアカウントのセットアップ
 
 ```
 New-Mailbox -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force) 
@@ -126,10 +125,10 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 
 [Skype ルーム システム v2 用のアカウントを構成します。](room-systems-v2-configure-accounts.md)
 
-[Skype ルームの計画システム v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Skype Room Systems バージョン 2 の計画](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Skype の部屋を配置するシステム v2](room-systems-v2.md)
+[Skype Room System バージョン 2 を展開する](room-systems-v2.md)
   
-[Skype ルーム システム v2 のコンソールを構成します。](console.md)
+[Skype Room Systems バージョン 2 コンソールを構成する](console.md)
   
-[Skype ルームの管理システム v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Skype Room Systems バージョン 2 を管理する](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

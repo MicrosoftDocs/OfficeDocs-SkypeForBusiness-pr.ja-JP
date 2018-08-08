@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 の直接 SIP 接続
+title: ビジネス サーバーの Skype で直接 SIP 接続
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: ビジネス サーバー両方 PSTN ゲートウェイの Skype とエンタープライズ VoIP では、IP-PBX との間は、直接 SIP 接続がサポートされています。
-ms.openlocfilehash: c9dca75a7b1c7ac8fa60bafc5b7a2c2fa7b51490
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0ac21bcd0df60a2b4cb9393e8cc2e047d4f9fdf7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006579"
 ---
-# <a name="direct-sip-connections-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の直接 SIP 接続
+# <a name="direct-sip-connections-in-skype-for-business-server"></a>ビジネス サーバーの Skype で直接 SIP 接続
  
 ビジネス サーバー両方 PSTN ゲートウェイの Skype とエンタープライズ VoIP では、IP-PBX との間は、直接 SIP 接続がサポートされています。
   
@@ -123,7 +123,7 @@ ms.lasthandoff: 05/03/2018
 
 仲介サーバーは、インターネット テレフォニー サービス プロバイダー、または 2 つの組み合わせによって提供される複数のゲートウェイでは、セッション ボーダー コント ローラー (SBCs) 経由で呼び出しをルーティングできます。 さらに、プール内の複数の仲介サーバーは、複数のゲートウェイと対話できます。 仲介サーバーとゲートウェイの間で定義された論理ルートは、トランクと呼ばれます。 内部ユーザーは、PSTN の呼び出しを配置すると、フロント エンド プールの発信ルーティングのロジックは、その呼び出しのルーティングに使用できるすべての可能な組み合わせの上でルーティングするには、どのトランクを選択します。 DNS の負荷分散を使用 [プール内の特定の仲介サーバーとの問題により、ゲートウェイに到達するために呼び出しが失敗した場合、呼び出しは、プール内の別の仲介サーバーに再試行されます。 
   
-複数ゲートウェイの計画の詳細については、 [Skype のビジネス サーバー 2015 で M:N のトランク](m-n-trunk.md)を参照してください。
+複数ゲートウェイの計画の詳細については、 [Skype のビジネス サーバーは M:N trunk](m-n-trunk.md)を参照してください。
   
 詳細については、他の発信ルーティング拡張機能は、[ルートの呼び出し](http://technet.microsoft.com/library/a2ddf327-2ec4-407b-af0f-276f2b13eefd.aspx)を参照してください。
   

@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 でのメディア バイパスの展開
+title: ビジネス サーバーの Skype でのメディア バイ パスを展開します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,17 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 description: ビジネス サーバーのエンタープライズ VoIP の Skype でのメディア バイ パスを展開します。 前提条件と展開プロセスのチェックリストも掲載しています。
-ms.openlocfilehash: ffd026465b5ad4463b8df2c3184e39198bfe5045
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ead9ebb099bd671dbbc28607bf11e1131ac7569a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965437"
 ---
-# <a name="deploy-media-bypass-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのメディア バイパスの展開
+# <a name="deploy-media-bypass-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのメディア バイ パスを展開します。
  
 ビジネス サーバーのエンタープライズ VoIP の Skype でのメディア バイ パスを展開します。 前提条件と展開プロセスのチェックリストも掲載しています。
   
-このトピックは、既に発行している PSTN 接続を提供するか、少なくとも 1 つまたは複数の仲介サーバーとゲートウェイは、少なくとも 1 つのピアを構成するものとします。 これらのタスクの詳細については、 [Skype のビジネス サーバー 2015 でトポロジ ビルダーでの仲介サーバーを展開](deploy-a-mediation-server.md)し、[ビジネス サーバー 2015 の Skype でトポロジ ビルダーでゲートウェイを定義する](define-a-gateway.md)を参照してください。
+このトピックは、既に発行している PSTN 接続を提供するか、少なくとも 1 つまたは複数の仲介サーバーとゲートウェイは、少なくとも 1 つのピアを構成するものとします。 これらのタスクの詳細については、 [Skype のビジネス サーバーで、トポロジ ビルダーでの仲介サーバーを展開](deploy-a-mediation-server.md)し、 [Skype のビジネス サーバーで、トポロジ ビルダーでゲートウェイを定義する](define-a-gateway.md)を参照してください。
   
  接続するピアが SIP トランキング プロバイダーの SBC の場合は、プロバイダーが認定プロバイダーであることとプロバイダーがメディア バイパスをサポートしていることを確認してください。たとえば、多くの SIP トランキング プロバイダーが、その SBC に仲介サーバーからのトラフィックを受信することだけを許可します。その場合は、当該のトランクに対してバイパスを有効にしないでください。また、組織がその内部ネットワーク IP アドレスを SIP トランキング プロバイダーに公開していなければ、メディア バイパスを有効にすることはできません。
   
@@ -42,10 +42,10 @@ ms.lasthandoff: 05/03/2018
 
 次の表に、メディア バイパスの展開プロセスの概要を示します。 
   
-|**フェーズ**|**手順**|**ロール**|**展開に関するドキュメント**|
+|**フェーズ**|**手順**|**役割**|**「展開」のドキュメント**|
 |:-----|:-----|:-----|:-----|
-|メディア バイパスのトランクの構成  <br/> |メディア バイパスの 1 つ以上のトランクを構成します (まだ行っていない場合)。  <br/> | RTCUniversalServerAdmins グループ、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator のロールのメンバーのメンバー <br/> |[ビジネス サーバー 2015 の Skype でのメディア バイ パスを使用してトランクを構成します。](configure-trunk-with-media-bypass.md) <br/> |
-|メディア バイパスをグローバルに構成する  <br/> |ネットワーク サイトおよびネットワーク地域に基づいて、PSTN へのすべての通話または特定の通話のメディア バイパスを構成します。  <br/> | RTCUniversalServerAdmins グループ、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator のロールのメンバーのメンバー <br/> |[常に仲介サーバーをバイパスするサーバー 2015 のビジネス用の Skype でのメディア バイ パスを構成します。](bypass-the-mediation-server.md) <br/> [サイトと地域の情報を使用してサーバー 2015 のビジネス用の Skype でメディア バイ パスのグローバル設定を構成します。](use-site-and-region-information.md) <br/> |
+|メディア バイパスのトランクの構成  <br/> |メディア バイパスの 1 つ以上のトランクを構成します (まだ行っていない場合)。  <br/> | RTCUniversalServerAdmins グループ、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator のロールのメンバーのメンバー <br/> |[ビジネス サーバーの Skype でのメディア バイ パスを使用してトランクを構成します。](configure-trunk-with-media-bypass.md) <br/> |
+|メディア バイパスをグローバルに構成する  <br/> |ネットワーク サイトおよびネットワーク地域に基づいて、PSTN へのすべての通話または特定の通話のメディア バイパスを構成します。  <br/> | RTCUniversalServerAdmins グループ、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator のロールのメンバーのメンバー <br/> |[Skype ビジネス サーバーを常に仲介サーバーをバイパスするためのメディア バイ パスを構成します。](bypass-the-mediation-server.md) <br/> [ビジネス サーバーは、サイトと地域の情報を使用するの Skype でメディア バイ パスのグローバル設定を構成します。](use-site-and-region-information.md) <br/> |
 |必要に応じたネットワーク サイトとサブネットの関連付け  <br/> |メディア バイパスを構成してサイトおよび地域の情報を使用するには、展開のサブネットをネットワーク サイトおよび地域に関連付ける必要があります (別の音声機能でまだ完了していない場合)。  <br/> | RTCUniversalServerAdmins グループ、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator のロールのメンバーのメンバー <br/> |[Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets) <br/> |
    
 

@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 での割り当てられていない番号範囲の作成または変更
+title: 作成またはビジネス サーバーの Skype に割り当てられていない番号の範囲を変更します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: 作成、変更またはビジネス サーバーのエンタープライズ VoIP は、Skype で知らせアプリケーションの割り当てられていない数値の範囲を削除します。 この設定によって、割り当てられていない番号への通話を処理する方法が影響を受けます。
-ms.openlocfilehash: 72a6751ec203b9b3451f5080e610ca0c09007db9
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 671d5d79e9ad38323aaa8adfb5e25f8e42976494
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500927"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967122"
 ---
-# <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での割り当てられていない番号範囲の作成または変更
+# <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>作成またはビジネス サーバーの Skype に割り当てられていない番号の範囲を変更します。
  
 作成、変更またはビジネス サーバーのエンタープライズ VoIP は、Skype で知らせアプリケーションの割り当てられていない数値の範囲を削除します。 この設定によって、割り当てられていない番号への通話を処理する方法が影響を受けます。
   

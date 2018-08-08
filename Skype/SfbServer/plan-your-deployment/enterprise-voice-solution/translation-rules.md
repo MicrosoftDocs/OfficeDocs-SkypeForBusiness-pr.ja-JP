@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 での変換ルール
+title: Skype ビジネス サーバー用の変換規則
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: 変換規則について説明し、ビジネス サーバーのエンタープライズ VoIP の Skype で文字列の正規化をダイヤルします。
-ms.openlocfilehash: c72e3909fdc0e4485683382b84a5d737fa75b8fc
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 4ef5f92b8c5ef91abeb5ce2b6ea1e4c0eebe7580
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973187"
 ---
-# <a name="translation-rules-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での変換ルール
+# <a name="translation-rules-in-skype-for-business-server"></a>Skype ビジネス サーバー用の変換規則
  
 変換規則について説明し、ビジネス サーバーのエンタープライズ VoIP の Skype で文字列の正規化をダイヤルします。
   
@@ -37,7 +37,7 @@ ms.lasthandoff: 05/03/2018
   
 翻訳ルールを実装する方法の詳細については、展開に関するドキュメントの[変換ルールの定義](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)を参照してください。
   
-|**説明**|**開始桁の数字**|**長さ**|**桁を削除する**|**数字を追加するには**|**パターンに一致します。**|**変換**|**例**|
+|**説明**|**先頭の数字**|**長さ**|**削除する数字**|**追加する数字**|**パターンに一致します。**|**変換**|**例**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |米国内の従来の長距離電話ダイヤル  <br/> (取り除く、'+')  <br/> |+1  <br/> |ちょうど 12  <br/> |1  <br/> |0  <br/> |^\+(1\d{10}) $  <br/> |$1  <br/> |+14255551010 を 14255551010 に変換  <br/> |
 |米国長距離国際電話ダイヤル  <br/> (取り除く '+' 011 を追加)  <br/> |+  <br/> |11 以上  <br/> |1  <br/> |011  <br/> |^\+(\d{9}\d+)$  <br/> |011$1  <br/> |+441235551010 を 011441235551010 に変換  <br/> |

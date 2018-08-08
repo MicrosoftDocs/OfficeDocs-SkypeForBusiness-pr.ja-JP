@@ -3,7 +3,7 @@ title: Skype for Business Server 2015 の技術図面
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: hub-page
 ms.prod: skype-for-business-itpro
@@ -13,22 +13,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
-description: '概要: は、計画、実装、またはビジネス サーバー 2015 の Skype を管理しているときに、必要に応じてこれらのポスターを確認します。'
-ms.openlocfilehash: 4a83cd7877e087bb8efcb69190aec9be0b2753ea
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: '概要: は、計画、実装、または Skype をビジネスのサーバーの管理中に、必要に応じてこれらのポスターを確認します。'
+ms.openlocfilehash: 4ddc9e61f3266c357cc7dd1b88b293efb8e79e09
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980838"
 ---
-# <a name="technical-diagrams-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 の技術図面
+# <a name="technical-diagrams-for-skype-for-business-server"></a>ビジネス サーバーの Skype の技術関連の図 
 
-**の概要:** 計画、実装、またはビジネス サーバー 2015 の Skype を管理しながら必要に応じて、これらのポスターを確認してください。
+**の概要:** 計画、実装、または Skype をビジネスのサーバーの管理中に、必要に応じてこれらのポスターを確認します。
   
 これらの図は Visio (.vsdx) 形式 (Visio 2015) と PDF 形式で表示できます。 ドキュメントを印刷する方法の詳細については、[大容量のポスターを印刷するためのヒント](technical-diagrams.md#tips)を参照してください。
   
 これらのファイルを表示するために、他のソフトウェアが必要になることがあります。詳細については、次の表を参照してください。
   
-|**ファイルの種類**|**ソフトウェア**|
+|ファイルの種類|ソフトウェア|
 |:--- |:--- |
 |.vsd  <br/> |Visio 2010、Visio 2013、または[無料の Visio ビューアー](https://go.microsoft.com/fwlink/p/?LinkId=393676) <br/> Visio Viewer を使用する場合は、VSD リンクを右クリックし、[**対象をファイルに保存**] をクリックしてファイルをコンピューターに保存し、コンピューター上でそのファイルを開きます。  <br/> |
 |.pdf  <br/> |[Adobe Reader](https://go.microsoft.com/fwlink/p/?LinkId=393675)など、任意の PDF ビューアー <br/> |
@@ -36,14 +37,14 @@ ms.lasthandoff: 05/03/2018
    
 ## <a name="posters"></a>ポスター
 
-これらのポスターは、それぞれ固有の技術エリアの詳細を示していて、TechNet の対応する記事やダウンロード センターで提供されるコンテンツとともに使用することが想定されています。 
+これらのポスターは、特定の技術領域について詳しく説明や、対応する記事またはダウンロード センターで利用可能なコンテンツで使用するものでは。 
   
 |**タイトル**|**説明**|
 |:-----|:-----|
-|**Skype for Business Server 2015 のプロトコル負荷** <br/>![デバイス プロトコル ワークロード ポスター](media/0dccf933-eab3-4793-a8a4-4f6b9b0b4fa0.png)<br/>[PDF バージョン](https://go.microsoft.com/fwlink/p/?LinkId=550989)(モバイル デバイスやタブレット コンピューターに最適) <br/> [Visio のバージョン](https://go.microsoft.com/fwlink/p/?LinkId=550991)(Visio を使用してユーザーに最適) <br/> |このポスターをダウンロードして、複雑度が異なるサービスがある環境での Skype for Business 2015 のサーバーとクライアントの要件に関する理解を深めてください。<br/>  <br/> サイズ: タブロイド サイズの 11 x 17 インチ (複数シート、ほとんどのオフィス プリンターで印刷できるサイズ)  <br/> <br/> このポスターは、Visio 2015 で作成されました。特定の環境に対する変更は必要ありません。  <br/> |
-|**Skype for Business 通話の品質保証の方法論** <br/> ![CQM ポスターの](media/69d33707-8dc4-446a-8d72-0a77be59a64a.png)[PDF 版](https://go.microsoft.com/fwlink/p/?LinkId=617899)(モバイル デバイスやタブレット コンピューターに最適) の縮小表示 <br/> [Visio のバージョン](https://go.microsoft.com/fwlink/p/?LinkId=617900)(Visio を使用してユーザーに最適) <br/> |CQM (通話の品質保証の方法論) の解説については、このポスターをダウンロードしてください。この Skype for Business 向けの通話の品質保証の方法論は、エンタープライズ VoIP 機能などの実装の通話品質とユーザー エクスペリエンスに影響する問題を見つけて解消するために役立ちます。  <br/> <br/> ボード ゲームとしてそれを再生したい場合に、印刷可能なカードとの規則を取得するのにには、[詳細ページをダウンロード](https://go.microsoft.com/fwlink/p/?LinkId=617898)するを使用します。 [CQM のスコアカード](https://go.microsoft.com/fwlink/p/?LinkId=617904)には、このポスターを使用します。  <br/><br/> サイズ: 86.36 x 111.76 cm  <br/> <br/> このポスターは、Visio 2015 で作成されました。特定の環境に対する変更は必要ありません。<br/> |
-|**Skype 音声ソリューションのビジネス** <br/> ![ポスター縮小版の音声ソリューションを計画します。](media/1d3371f3-d554-4d6b-ac4f-a927bbe50b26.png) <br/> [PDF バージョン](https://go.microsoft.com/fwlink/?linkid=869123)(モバイル デバイスやタブレット コンピューターに最適) <br/> [Visio のバージョン](https://go.microsoft.com/fwlink/?linkid=869124)(Visio を使用してユーザーに最適) <br/> |Microsoft は、公衆交換電話網 (PSTN) 経由で固定電話および携帯電話に発信できるさまざまなオプションを提供しており、これらは Skype for Business Online の Office 365 とオンプレミスの Skype for Business Server 展開のどちらにユーザーのアカウントが所属していても、関係なく使用できます。このポスターでは、さまざまな Microsoft 音声サービスについて説明し、お客様の組織の現在の状況や将来の計画を基にしてお客様に最適なオプションを選ぶためのガイドを提供します。 <br/> <br/> サイズ: 86.36 x 111.76 cm  <br/><br/> このポスターは、Visio 2015 で作成されました。特定の環境に対する変更は必要ありません。  <br/> |
-|**Skype for Business のアーキテクチャ モデル** <br/> ![ビジネス アーキテクチャ モデルの縮小版の Skype](media/0734153f-af7b-4cf3-b095-96bdd1de3fb0.png) <br/> [PDF バージョン](https://go.microsoft.com/fwlink/?linkid=869125)(モバイル デバイスやタブレット コンピューターに最適) <br/> [Visio のバージョン](https://go.microsoft.com/fwlink/?linkid=869126)(Visio を使用してユーザーに最適) <br/> |このポスター シリーズは、Skype for Business Online と Skype for Business オンプレミスを利用できる基本的なアーキテクチャ モデルの違いに対する認識を　IT の専門家に喚起することを目的としています。 ベストのどちらの構成に適した、組織のニーズと将来の計画を開始します。 もう一方は、必要に応じて検討して使用します。 などの Exchange と SharePoint またはマイクロソフトのクラウド PBX ソリューションを活用するソリューションとの統合を検討します。  <br/><br/> サイズ: 27.94 x 43.18 cm  <br/><br/> このポスターは、Visio 2010 で作成されました。特定の環境に対する変更は必要ありません。  <br/> |
+|**Skype ビジネス サーバー プロトコルの負荷** <br/>![SfB のプロトコル負荷のポスター](media/0dccf933-eab3-4793-a8a4-4f6b9b0b4fa0.png)<br/>[PDF バージョン](https://go.microsoft.com/fwlink/p/?LinkId=550989)(モバイル デバイスやタブレット コンピューターに最適) <br/> [Visio のバージョン](https://go.microsoft.com/fwlink/p/?LinkId=550991)(Visio を使用してユーザーに最適) <br/> |ビジネスのサーバーおよびクライアント サービスの複雑さの別のレベルの下の Skype の要件を理解するのには、このポスターをダウンロードしてください。<br/>  <br/> サイズ: タブロイド サイズの 11 x 17 インチ (複数シート、ほとんどのオフィス プリンターで印刷できるサイズ)  <br/> <br/> このポスターは、Visio 2015 で作成されました。特定の環境に対する変更は必要ありません。  <br/> |
+|**Skype for Business 通話の品質保証の方法論** <br/> ![CQM ポスターの](media/69d33707-8dc4-446a-8d72-0a77be59a64a.png)[PDF 版](https://go.microsoft.com/fwlink/p/?LinkId=617899)(モバイル デバイスやタブレット コンピューターに最適) の縮小表示 <br/> [Visio のバージョン](https://go.microsoft.com/fwlink/p/?LinkId=617900)(Visio を使用してユーザーに最適) <br/> |CQM を特定し、品質とユーザーが発生するエンタープライズ ボイス機能の実装の呼び出しに影響する問題を排除するために役立つビジネス サーバー 2015 の Skype の呼び出し品質方法の詳細については、このポスターをダウンロードしてください。  <br/> <br/> ボード ゲームとしてそれを再生したい場合に、印刷可能なカードとの規則を取得するのにには、[詳細ページをダウンロード](https://go.microsoft.com/fwlink/p/?LinkId=617898)するを使用します。 [CQM のスコアカード](https://go.microsoft.com/fwlink/p/?LinkId=617904)には、このポスターを使用します。  <br/><br/> サイズ: 86.36 x 111.76 cm  <br/> <br/> このポスターは、Visio 2015 で作成されました。特定の環境に対する変更は必要ありません。<br/> |
+|**Skype 音声ソリューションのビジネス** <br/> ![音声ソリューションの計画ポスターのサムネイル](media/1d3371f3-d554-4d6b-ac4f-a927bbe50b26.png) <br/> [PDF バージョン](https://go.microsoft.com/fwlink/?linkid=869123)(モバイル デバイスやタブレット コンピューターに最適) <br/> [Visio のバージョン](https://go.microsoft.com/fwlink/?linkid=869124)(Visio を使用してユーザーに最適) <br/> |マイクロソフトは、オンライン ビジネスやビジネスのため、設置型の Skype で Skype を Office 365 で、自分のアカウントが存在するかどうか、さまざまな landlines と携帯電話を通じて、パブリック交換電話網 (PSTN)--を呼び出すため、ユーザーを有効にするためのオプションを提供していますサーバー 2015年展開します。 このポスターでは、さまざまな Microsoft 音声サービスについて説明し、お客様の組織の現在の状況や将来の計画を基にしてお客様に最適なオプションを選ぶためのガイドを提供します。 <br/> <br/> サイズ: 86.36 x 111.76 cm  <br/><br/> このポスターは、Visio 2015 で作成されました。特定の環境に対する変更は必要ありません。  <br/> |
+|**Skype for Business のアーキテクチャ モデル** <br/> ![Skype for Business のアーキテクチャ モデルのサムネイル](media/0734153f-af7b-4cf3-b095-96bdd1de3fb0.png) <br/> [PDF バージョン](https://go.microsoft.com/fwlink/?linkid=869125)(モバイル デバイスやタブレット コンピューターに最適) <br/> [Visio のバージョン](https://go.microsoft.com/fwlink/?linkid=869126)(Visio を使用してユーザーに最適) <br/> |このポスター シリーズは、オンライン ビジネスの Skype と Skype の社内サーバー 2015 をビジネスに使用できる別の基本的なアーキテクチャ モデルの認識を高めるための IT プロフェッショナルのユーザー向けの対象としています。 ベストのどちらの構成に適した、組織のニーズと将来の計画を開始します。 もう一方は、必要に応じて検討して使用します。 などの Exchange と SharePoint またはマイクロソフトのクラウド PBX ソリューションを活用するソリューションとの統合を検討します。  <br/><br/> サイズ: 27.94 x 43.18 cm  <br/><br/> このポスターは、Visio 2010 で作成されました。特定の環境に対する変更は必要ありません。  <br/> |
    
 ## <a name="visual-assets"></a>ビジュアル アセット
 

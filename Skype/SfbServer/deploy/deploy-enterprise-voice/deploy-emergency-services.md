@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 での E9-1-1 の展開
+title: ビジネス サーバーの Skype で緊急サービスを展開します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cc6a656a-6043-4b9b-85c2-5708b9bb1c06
 description: ビジネス サーバーのエンタープライズ VoIP は、Skype で ~ 9-1-1 を展開します。 前提条件と展開プロセスのチェックリストも掲載しています。
-ms.openlocfilehash: 82e14f2fb86ec949a60b95746fc3ef41f9cf3b50
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 1ae67f58a4a5afb6eff9ea9eaee2e456469f0e25
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018964"
 ---
-# <a name="deploy-emergency-services-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での E9-1-1 の展開
+# <a name="deploy-emergency-services-in-skype-for-business-server"></a>ビジネス サーバーの Skype で緊急サービスを展開します。
  
 ビジネス サーバーのエンタープライズ VoIP は、Skype で ~ 9-1-1 を展開します。 前提条件と展開プロセスのチェックリストも掲載しています。
   
@@ -36,11 +36,11 @@ ms.lasthandoff: 05/03/2018
 
 次の表に、E9-1-1 展開プロセスの概要を示します。
   
-|**フェーズ**|**手順**|**ロール**|**展開に関するドキュメント**|
+|**段階**|**手順**|**役割**|**「展開」のドキュメント**|
 |:-----|:-----|:-----|:-----|
-|音声使用、ルート、およびトランクを構成する  <br/> |1. 新しい PSTN 使用法レコードを作成します。 これは、場所のポリシーの [**PSTN の使用法**] 設定で使用する名前と同じです。 <br/> 2. 作成やボイス ルートを前の手順で作成した PSTN 使用法レコードに割り当てる ~ 9-1-1 が SIP トランクまたは ELIN ゲートウェイ ゲートウェイの属性をポイントします。  <br/> 3. SIP トランク ~ 9-1-1 サービス ・ プロバイダーの**セット CsTrunkConfiguration EnablePIDFLOSupport**コマンドレットを使用して、PIDF-LO データを渡すための SIP の上 ~ 9-1-1 の呼び出しを処理するトランクを設定します。 <br/> 4. 必要に応じて、SIP トランク ~ 9-1-1 サービス プロバイダーの作成、または ~ 9-1-1 サービス プロバイダーの SIP トランクによって処理されない通話のローカルの PSTN ルートを割り当てます。 このルートは、E9-1-1 サービス プロバイダーへの接続が利用できない場合に使用されます。 E9-1-1 サービス プロバイダーがサポートしている場合は、911 ダイヤル文字列を国または地域の Emergency Call Response Center (ECRC) の Direct Inward Dialing (DID) 番号に変換するトランク構成ルールをゲートウェイに割り当てます。  <br/> |CSVoiceAdmin  <br/> |[ビジネス サーバー 2015 の Skype で ~ 9-1-1 のボイス ルートを構成します。](configure-an-e9-1-1-voice-route.md) <br/> |
-|場所のポリシーを作成し、ユーザーおよびサブネットに割り当てる  <br/> |1. グローバルの場所のポリシーを確認します。  <br/> 2.。 ユーザー レベルのスコープを持つ場所ポリシーを作成します。または、組織にさまざまな緊急時の使用法を備えた 1 つ以上のサイトがある場合は、ネットワーク レベルのスコープを持つ場所のポリシーを作成します。  <br/> 3. 場所ポリシーをネットワーク サイトに割り当てます。  <br/> 4. 適切なサブネットをネットワーク サイトに追加します。  <br/> 5. (オプション) 割り当てユーザー ポリシーへの場所のポリシーです。  <br/> |CSVoiceAdmin  <br/> CSLocationAdmin (場所のポリシーの作成を除く)  <br/> |[ビジネス サーバー 2015 の Skype での場所のポリシーを作成します。](create-location-policies.md) <br/> [ビジネス サーバー 2015 の Skype のネットワークのサイトに場所のポリシーを追加します。](add-a-location-policy-to-a-network-site.md) <br/> [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets) <br/> |
-|場所データベースを構成する  <br/> |1. 場所へのネットワーク要素のマッピングを使用してデータベースを設定します。  <br/> 2. ELIN ゲートウェイを追加する ELINs、 \<[得意先名]\>列です。  <br/> 3. アドレスを検証するために ~ 9-1-1 のサービス ・ プロバイダーへの接続を構成します。  <br/> 4 ~ 9-1-1 サービスのプロバイダーのアドレスを検証します。  <br/> 5. 更新したデータベースを公開します。  <br/> 6. の ELIN ゲートウェイでは、PSTN 電話会社の自動ロケーション識別 (ALI) データベースに、ELINs をアップロードします。  <br/> |CSVoiceAdmin  <br/> CSLocationAdmin  <br/> |[ビジネス サーバー 2015 の Skype での場所のデータベースを構成します。](configure-the-location-database.md) <br/> |
-|高度な機能を構成する (オプション)  <br/> |1. SNMP アプリケーションの URL を構成します。  <br/> 2. セカンダリ場所情報サービスの場所の URL を構成します。  <br/> |CSVoiceAdmin  <br/> |[ビジネス サーバー 2015 の Skype で SNMP アプリケーションを構成します。](configure-an-snmp-application.md) <br/> [ビジネス サーバー 2015 の Skype でセカンダリ場所情報サービスを構成します。](secondary-location-information-service.md) <br/> |
+|音声使用、ルート、およびトランクを構成する  <br/> |1. 新しい PSTN 使用法レコードを作成します。 これは、場所のポリシーの [**PSTN の使用法**] 設定で使用する名前と同じです。 <br/> 2. 作成やボイス ルートを前の手順で作成した PSTN 使用法レコードに割り当てる ~ 9-1-1 が SIP トランクまたは ELIN ゲートウェイ ゲートウェイの属性をポイントします。  <br/> 3. SIP トランク ~ 9-1-1 サービス ・ プロバイダーの**セット CsTrunkConfiguration EnablePIDFLOSupport**コマンドレットを使用して、PIDF-LO データを渡すための SIP の上 ~ 9-1-1 の呼び出しを処理するトランクを設定します。 <br/> 4. 必要に応じて、SIP トランク ~ 9-1-1 サービス プロバイダーの作成、または ~ 9-1-1 サービス プロバイダーの SIP トランクによって処理されない通話のローカルの PSTN ルートを割り当てます。 このルートは、E9-1-1 サービス プロバイダーへの接続が利用できない場合に使用されます。 E9-1-1 サービス プロバイダーがサポートしている場合は、911 ダイヤル文字列を国または地域の Emergency Call Response Center (ECRC) の Direct Inward Dialing (DID) 番号に変換するトランク構成ルールをゲートウェイに割り当てます。  <br/> |CSVoiceAdmin  <br/> |[ビジネス サーバー用の Skype で ~ 9-1-1 のボイス ルートを構成します。](configure-an-e9-1-1-voice-route.md) <br/> |
+|場所のポリシーを作成し、ユーザーおよびサブネットに割り当てる  <br/> |1. グローバルの場所のポリシーを確認します。  <br/> 2.。 ユーザー レベルのスコープを持つ場所ポリシーを作成します。または、組織にさまざまな緊急時の使用法を備えた 1 つ以上のサイトがある場合は、ネットワーク レベルのスコープを持つ場所のポリシーを作成します。  <br/> 3. 場所ポリシーをネットワーク サイトに割り当てます。  <br/> 4. 適切なサブネットをネットワーク サイトに追加します。  <br/> 5. (オプション) 割り当てユーザー ポリシーへの場所のポリシーです。  <br/> |CSVoiceAdmin  <br/> CSLocationAdmin (場所のポリシーの作成を除く)  <br/> |[Skype でビジネスのサーバーの場所のポリシーを作成します。](create-location-policies.md) <br/> [Skype 内のネットワーク サイトにビジネス サーバーの場所のポリシーを追加します。](add-a-location-policy-to-a-network-site.md) <br/> [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets) <br/> |
+|場所データベースを構成する  <br/> |1. 場所へのネットワーク要素のマッピングを使用してデータベースを設定します。  <br/> 2. ELIN ゲートウェイを追加する ELINs、 \<[得意先名]\>列です。  <br/> 3. アドレスを検証するために ~ 9-1-1 のサービス ・ プロバイダーへの接続を構成します。  <br/> 4 ~ 9-1-1 サービスのプロバイダーのアドレスを検証します。  <br/> 5. 更新したデータベースを公開します。  <br/> 6. の ELIN ゲートウェイでは、PSTN 電話会社の自動ロケーション識別 (ALI) データベースに、ELINs をアップロードします。  <br/> |CSVoiceAdmin  <br/> CSLocationAdmin  <br/> |[Skype でビジネスのサーバーの場所データベースを構成します。](configure-the-location-database.md) <br/> |
+|高度な機能を構成する (オプション)  <br/> |1. SNMP アプリケーションの URL を構成します。  <br/> 2. セカンダリ場所情報サービスの場所の URL を構成します。  <br/> |CSVoiceAdmin  <br/> |[Skype のビジネス サーバーの SNMP アプリケーションを構成します。](configure-an-snmp-application.md) <br/> [Skype のビジネス サーバーのセカンダリ場所情報サービスを構成します。](secondary-location-information-service.md) <br/> |
    
 

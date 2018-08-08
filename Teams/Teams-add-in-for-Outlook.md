@@ -4,22 +4,23 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 audience: Admin
-ms.date: 04/09/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ninadara
-localization_priority: Normal
+ms.reviewer: ''
+localization_priority: Priority
 description: Microsoft Teams は、ユーザーが  Outlook から Teams の会議をスケジュール設定することができるようになるアドインを Outlook にインストールします。
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 109911e27a881ea09fb9854bb84ab19222722c39
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: 76b1dcb9c7f34780d4e49611d6e97f2ca890b329
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987129"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================
@@ -63,6 +64,7 @@ Teams の会議アドインは継続して機能が開発されていますの�
 - 現在のところ、会議に招待できるのは自分の会社内のユーザーのみで、外部ユーザーは会議に参加することができません。
 - このアドインは、特定の参加者でスケジュール設定された会議向けで、チャネル内の会議向けではありません。 チャネル会議は Teams 内でスケジュール設定される必要があります。 現在、Outlook の Teams の会議アドインを利用できるのは Windows ユーザーのみですが、Mac 向けのサポートも近日中に予定されています。
 - 認証プロキシがユーザーの PC および Teams サービスのネットワーク パス内にある場合、アドインは機能しません。
+- アドインを段階的ロールアウトされているが、組織にまだ利用できない可能性があります。
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
@@ -77,3 +79,6 @@ Teams の会議アドインは継続して機能が開発されていますの�
 アドインを無効にする方法につぃての全般的なガイドラインについては、「[Office プログラムでアドインを表示、管理、インストールする](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)」をご覧ください。
 
 Microsoft Teams での会議と通話については[こちら](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)をご覧ください。
+
+[!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
+

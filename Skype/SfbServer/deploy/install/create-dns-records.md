@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 2015 での DNS レコードの作成
+title: Skype のビジネス サーバー用の DNS レコードを作成します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,21 +13,22 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
-description: '概要: は、DNS を構成し、ビジネス サーバー 2015 の Skype のインストール用の DNS レコードを作成する方法を説明します。 マイクロソフト評価センターからのビジネス サーバー 2015 の Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: 67114ce24da3676a3278c9685169d1a1f2bed4db
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: '概要: は、DNS を構成し、ビジネス サーバーの Skype のインストール用の DNS レコードを作成する方法を説明します。 ビジネスのサーバーで Microsoft の評価の中心からの Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
+ms.openlocfilehash: ca28eb2a439ea807f24969b9a5537b6a2aae4fa9
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018893"
 ---
-# <a name="create-dns-records-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 での DNS レコードの作成
+# <a name="create-dns-records-for-skype-for-business-server"></a>Skype のビジネス サーバー用の DNS レコードを作成します。
  
-**の概要:** DNS を構成し、ビジネス サーバー 2015 の Skype のインストール用の DNS レコードを作成する方法について説明します。 マイクロソフト評価センターからのビジネス サーバー 2015 の Skype の無料試用版をダウンロード: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
+**の概要:** DNS を構成し、ビジネス サーバーの Skype のインストール用の DNS レコードを作成する方法について説明します。 ビジネスのサーバーで Microsoft の評価の中心からの Skype の無料試用版をダウンロード: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
   
-正常に動作するサーバーをビジネスの Skype は、いくつかのドメイン ネーム システム (DNS) 設定の必要があります。 これは、クライアントがサービスにアクセスする方法を認識し、サーバーが相互を認識するようにするためです。 ユーザーが DNS エントリを割り当てればドメイン全体で使用できるようになるため、これらの設定を完了する必要があるのは、展開ごとに 1 回だけです。 手順 1 ～ 5 は任意の順序で実行できます。 ただし、手順 6、7、および 8 は、手順 1 ～ 5 の後に、図の順序で実行する必要があります。 DNS レコードの作成は、8 つの手順のうちの 5 番目です。 DNS の計画についての詳細については、 [Skype のビジネス サーバー 2015 の環境の要件](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)を参照してください。
+正常に動作するサーバーをビジネスの Skype は、いくつかのドメイン ネーム システム (DNS) 設定の必要があります。 これは、クライアントがサービスにアクセスする方法を認識し、サーバーが相互を認識するようにするためです。 ユーザーが DNS エントリを割り当てればドメイン全体で使用できるようになるため、これらの設定を完了する必要があるのは、展開ごとに 1 回だけです。 手順 1 ～ 5 は任意の順序で実行できます。 ただし、手順 6、7、および 8 は、手順 1 ～ 5 の後に、図の順序で実行する必要があります。 DNS レコードの作成は、8 つの手順のうちの 5 番目です。 DNS の計画についての詳細については、 [Skype のビジネス サーバーの環境要件](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)や[ビジネス サーバー 2019 の Skype のサーバーの要件](../../../SfBServer2019/plan/system-requirements.md)を参照してください。
   
 > [!IMPORTANT]
-> これは、Windows サーバーの DNS 環境で DNS レコードを作成する方法の例では同様に重要です。 ビジネス サーバーでは、Skype に必要なその他の多くの DNS エントリがあるし、DNS レコードを作成する手順は、組織内の DNS を管理するために使用しているシステムによって異なります。 DNS の要件の一覧は、[ビジネス サーバー 2015 の Skype の DNS の要件](../../plan-your-deployment/network-requirements/dns.md)を参照してください。 
+> これは、Windows サーバーの DNS 環境で DNS レコードを作成する方法の例では同様に重要です。 ビジネス サーバーでは、Skype に必要なその他の多くの DNS エントリがあるし、DNS レコードを作成する手順は、組織内の DNS を管理するために使用しているシステムによって異なります。 DNS の要件の一覧は、 [Skype ビジネス サーバー用の DNS の要件](../../plan-your-deployment/network-requirements/dns.md)を参照してください。 
   
 ![概要図](../../media/d2fc733c-6a80-4d17-a02f-93b8c4bfb999.png)
   
@@ -35,10 +36,10 @@ ms.lasthandoff: 05/03/2018
 
 DNS レコードは、Skype ビジネス サーバーで正常に動作し、ユーザーがアクセスできる必要があります。
   
-この例では、DNS 負荷分散される、pool.contoso.local という名前の FQDN を使用しています。 このプールは、Skype ビジネス サーバー 2015 の Enterprise Edition を実行している 3 つのサーバーで構成されています。 1 台の Standard Edition フロントエンド サーバーに搭載できるサーバーは 1 台のみです。 この例のように、DNS 負荷分散されるサーバー プールを作成するのではなくフロントエンドの役割を参照する場合、Standard Edition を使用することで、1 台の Standard Edition サーバーの完全修飾ドメイン名 (FQDN) のみを使用することになります。 フロントエンドの役割のみを使用するこのシンプルな例には、次の表の DNS エントリが含まれます。 特定の DNS の要件を計画するには、[ビジネス サーバー 2015 の Skype の DNS の要件](../../plan-your-deployment/network-requirements/dns.md)を参照してください。 
+この例では、DNS 負荷分散される、pool.contoso.local という名前の FQDN を使用しています。 このプールは、Skype ビジネス Server Enterprise Edition を実行している 3 つのサーバーで構成されています。 1 台の Standard Edition フロントエンド サーバーに搭載できるサーバーは 1 台のみです。 この例のように、DNS 負荷分散されるサーバー プールを作成するのではなくフロントエンドの役割を参照する場合、Standard Edition を使用することで、1 台の Standard Edition サーバーの完全修飾ドメイン名 (FQDN) のみを使用することになります。 フロントエンドの役割のみを使用するこのシンプルな例には、次の表の DNS エントリが含まれます。 特定の DNS の要件を計画するには、 [Skype ビジネス サーバー用の DNS の要件](../../plan-your-deployment/network-requirements/dns.md)を参照してください。 
   
  
-|**説明**|**レコードの種類**|**名**|**解決します。**|**負荷分散の種類**|
+|**説明**|**レコードの種類**|**名前**|**解決先**|**負荷分散の種類**|
 |:-----|:-----|:-----|:-----|:-----|
 |内部 Web サービスの FQDN  <br/> |A  <br/> |webint.contoso.local  <br/> |内部 Web サービスの VIP  <br/> |サポートされるソフトウェアとハードウェア  <br/> |
 |プールの FQDN  <br/> |A  <br/> |pool.contoso.local  <br/> |サーバー SFB01 の IP アドレス  <br/> |DNS  <br/> |
@@ -70,20 +71,20 @@ DNS レコードは、Skype ビジネス サーバーで正常に動作し、ユ
     
 6. [**IP アドレス**] ボックスで、個々のフロントエンド サーバーの IP アドレスを入力し、適用可能な場合は [**関連付けられたポインター (PTR) レコードを作成する**] または [**同じ所有者名の DNS レコードの更新を認証されたユーザーに許可する**] を選択します。ここでは、Web サービスを除き、すべてのトラフィックの負荷分散に DNS が使用されると想定されています。この例では、表に示すように、3 台のフロントエンド サーバーがあります。
     
-   |**サーバー名**|**タイプ**|**データ**|
+   |**サーバー名**|**種類**|**データ**|
    |:-----|:-----|:-----|
    |SFB01  <br/> |ホスト (A)  <br/> |10.0.0.5 に対し  <br/> |
    |SFB02  <br/> |ホスト (A)  <br/> |10.0.0.6  <br/> |
    |SFB03  <br/> |ホスト (A)  <br/> |10.0.0.7  <br/> |
    
-7. 次に、プールの DNS 負荷分散のエントリを作成します。 DNS 負荷分散により、同じ DNS プール名を使用しながら、DNS ではプールの個別のサーバーに要求を送信することができます。 DNS および負荷分散に関する詳細については、 [Skype のビジネス サーバー 2015 の DNS の要件](../../plan-your-deployment/network-requirements/dns.md)を参照してください。 
+7. 次に、プールの DNS 負荷分散のエントリを作成します。 DNS 負荷分散により、同じ DNS プール名を使用しながら、DNS ではプールの個別のサーバーに要求を送信することができます。 DNS および負荷分散に関する詳細については、 [Skype ビジネス サーバー用の DNS の要件](../../plan-your-deployment/network-requirements/dns.md)を参照してください。 
     
     > [!NOTE]
     > 複数のサーバーをまとめてプールにする操作は、Enterprise Edition 展開でのみ使用できます。Enterprise Server または Standard Edition サーバーを 1 台展開している場合は、その 1 台のサーバー用の A レコードのみを作成する必要があります。 
   
     たとえば、pool.contoso.local という名前のプールと 3 台のフロントエンド サーバーがある場合は、次の DNS エントリを作成します。
     
-   |**FQDN**|**タイプ**|**データ**|
+   |**FQDN**|**種類**|**データ**|
    |:-----|:-----|:-----|
    |pool.contoso.local  <br/> |ホスト (A)  <br/> |10.0.0.5 に対し  <br/> |
    |pool.contoso.local  <br/> |ホスト (A)  <br/> |10.0.0.6  <br/> |
@@ -119,7 +120,7 @@ DNS レコードは、Skype ビジネス サーバーで正常に動作し、ユ
     
 5. 従来のクライアントをサポートしていて、SRV レコードの作成が完了している場合は、**nslookup** プロンプトで「**set type=srv**」と入力して、Enter キーを押します。
     
-6. タイプ * * _sipinternaltls._tcp。 *ドメイン** * (_sipinternaltls._tcp.contoso.local など)、し、Enter キーを押します。
+6. **_Sipinternaltls._tcp を入力します。*ドメイン***(_sipinternaltls._tcp.contoso.local など)、し、Enter キーを押します。
     
 7. 想定される出力は、図に示す出力のようになります。サンプル出力にはすべての DNS レコードが表示されているわけではありませんが、すべてのレコードを確認する必要があります。 
     

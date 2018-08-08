@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 でのネットワーク サイトへの場所ポリシーの追加
+title: Skype 内のネットワーク サイトにビジネス サーバーの場所のポリシーを追加します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
 description: ビジネス サーバーのエンタープライズ VoIP の Skype のネットワーク サイトへの ~ 9-1-1 の場所のポリシーを割り当てます。
-ms.openlocfilehash: d167fb40e4a6318ce0621d365782cab3848cf284
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 862b6d91371199fe3f9380acf7e2898539153f28
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568264"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20979826"
 ---
-# <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのネットワーク サイトへの場所ポリシーの追加
+# <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Skype 内のネットワーク サイトにビジネス サーバーの場所のポリシーを追加します。
  
 ビジネス サーバーのエンタープライズ VoIP の Skype のネットワーク サイトへの ~ 9-1-1 の場所のポリシーを割り当てます。 
   
-次の例は、既存のネットワーク サイトに[ビジネス サーバー 2015 の Skype で作成する場所のポリシー](create-location-policies.md)で定義された**Redmond**の場所のポリシーを追加する方法、および**Redmond**の場所を使用する新しいネットワーク サイトを作成する方法を表示します。ポリシーです。
+次の例では、既存のネットワーク サイトに[Skype ビジネス サーバー用に作成する場所のポリシー](create-location-policies.md)で定義された**Redmond**の場所のポリシーを追加する方法、および**Redmond**の場所のポリシーを使用する新しいネットワーク サイトを作成する方法を示しています。
   
 ネットワークのサイトの操作に関する詳細については、次のコマンドレットは Lync Server 管理シェルのマニュアルを参照してください。
   

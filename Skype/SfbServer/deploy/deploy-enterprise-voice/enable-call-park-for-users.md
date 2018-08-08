@@ -1,9 +1,8 @@
 ---
-title: Skype for Business 2015 でのユーザーに対するコール パークの有効化
+title: ビジネス用の Skype のユーザーのコール パークを有効にします。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: ビジネス サーバーのエンタープライズ VoIP のユーザーが Skype のコール パークを有効にします。
-ms.openlocfilehash: b93a9393a095a4860bfd8f392f95d834dad6fa71
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 44e72cab776b08cbd0290bb15010d36d370d86b3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968224"
 ---
-# <a name="enable-call-park-for-users-in-skype-for-business-2015"></a>Skype for Business 2015 でのユーザーに対するコール パークの有効化
+# <a name="enable-call-park-for-users-in-skype-for-business"></a>ビジネス用の Skype のユーザーのコール パークを有効にします。
  
 ビジネス サーバーのエンタープライズ VoIP のユーザーが Skype のコール パークを有効にします。
   
@@ -64,7 +64,7 @@ ms.lasthandoff: 05/03/2018
 
 ## <a name="see-also"></a>関連項目
 
-#### 
 
-[作成し、音声ポリシーを変更またはビジネス 2015年の Skype の PSTN 使用法レコードを構成します。](voice-policy-and-pstn-usage-records.md)
+
+[作成し、音声ポリシーを変更または Skype ビジネスのために PSTN 使用法レコードを構成します。](voice-policy-and-pstn-usage-records.md)
 

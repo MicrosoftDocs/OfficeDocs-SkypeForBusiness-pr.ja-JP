@@ -1,9 +1,8 @@
 ---
-title: Skype for Business 2015 でのエージェント グループの作成または変更
+title: 作成するか、ビジネスの Skype でエージェント グループを変更
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: 作成またはビジネス サーバーのエンタープライズ VoIP の Skype での応答グループのエージェント グループを変更します。
-ms.openlocfilehash: 5555272fdcaa7b9a3576dc2b943eaeda064e3bb5
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: a6b57eca83c230c86e041eb6727d5b3696b689d1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568346"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018950"
 ---
-# <a name="create-or-modify-an-agent-group-in-skype-for-business-2015"></a>Skype for Business 2015 でのエージェント グループの作成または変更
+# <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>作成するか、ビジネスの Skype でエージェント グループを変更
  
 作成またはビジネス サーバーのエンタープライズ VoIP の Skype での応答グループのエージェント グループを変更します。
   

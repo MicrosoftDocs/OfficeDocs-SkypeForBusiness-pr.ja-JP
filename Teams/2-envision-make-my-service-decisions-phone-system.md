@@ -2,20 +2,22 @@
 title: 計画を呼び出すサービスの決定 - マイクロソフトのチームとの電話システムの作成します。
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: 通話プランと、ライセンスを選択して緊急時の場所とボイスメールと呼び出し元の ID のような機能を構成する、や電話番号を転送します。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b7b1aaff60d6aa35fa10334c8d55e6a057eccaf
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 12a58e28fce68960fab2e2a91cdc4f2c3d6524ca
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246507"
 ---
 # <a name="make-my-service-decisions"></a>[サービスの決定を行う
 
@@ -23,7 +25,7 @@ ms.lasthandoff: 04/05/2018
 
 ## <a name="calling-in-teams"></a>Teams での通話
 
-マイクロソフト チームは、ユーザーが配置し、その公衆交換電話網 (PSTN) との間に電話を受けます。 ユーザーは、配置して、国内または国際電話の通話をボイスメール緊急通報 (enhanced 911) は、高度な機能を使用して、チームのクライアント アプリケーションから受信の自分専用の電話番号を使用できます。
+マイクロソフト チームは、ユーザーが配置し、その公衆交換電話網 (PSTN) との間に電話を受けます。 ユーザーは、配置して、国内または国際電話の通話をボイスメールを含む高度な機能で、チームのクライアント アプリケーションから受信の自分専用の電話番号を使用できます。
 
 > [!NOTE]
 > 展開があるは、スコープ内の計画を呼び出す機能を持つチームの電話システムを識別するための最新のチーム ロードマップ<https://aka.ms/skype2teamsroadmap>。
@@ -35,7 +37,7 @@ ms.lasthandoff: 04/05/2018
 PSTN への接続を有効にするには、組織は、その通信サービス ・ プロバイダーとして Microsoft を使用できます。 最終的には、必要がありますが聞ける独自通信サービス ・ プロバイダーに電話システムの PSTN への接続を有効にするオプションです。
 
 > [!IMPORTANT]
-> 電話システムの独自の電気通信サービス プロバイダーを選択する機能は、将来的に利用できます。 投影されたタイムラインの詳細については、 [Skype をビジネスでマイクロソフト チーム機能のロードマップ](https://aka.ms/skype2teamsroadmap)を参照してください。
+> チーム展開を電話システムの通信サービス プロバイダーを使用することも電話システムの直接のルーティングに使用できます。 直接ルーティングの詳細については、[直接ルーティング ガイド](2-envision-make-my-service-decisions-direct-routing.md)を参照してください。
 
 ## <a name="phone-system-with-calling-plans"></a>通話プランが設定された電話システム
 
@@ -58,6 +60,9 @@ PSTN への接続を有効にするには、組織は、その通信サービス
 > [!IMPORTANT]
 > 多国籍組織を使用できるように計画を呼び出すための法的な制約のための Office 365 サブスクリプション契約基づいている必要がある国または地域で計画を呼び出すサービスが利用可能なまたはサービスの計画を呼び出すことができます。購入しました。
 
+> [!NOTE]
+> 計画を呼び出すことが使用できない場合にお住まいの地域、[電話システムの直接のルーティング](2-envision-make-my-service-decisions-direct-routing.md)を使用 PSTN の機能を備えたチームを使用してユーザーを有効にできます。
+
 組織が計画を呼び出してサービスを取得できることを確認するには後に、、ユーザーの所在地、またはオフィスの場所を実装する場合の利用可能な国や地域の一覧を基に、計画を呼び出すサービスのリストをコンパイルします。
 
 <br>
@@ -68,13 +73,13 @@ PSTN への接続を有効にするには、組織は、その通信サービス
 
 > [!TIP]
 > プランの呼び出しサイトの有効化] ボックスの一覧で、電話システムの例を次に示します。
->|オフィス   |場所 |電話システム サービス  |
->|---------|---------|---------|
->|One Epping Road|オーストラリア|旧 PSTN サービス|
->|100 Cyberport Road|香港特別自治区|旧 PSTN サービス|
->|One Marina Boulevard|シンガポール|旧 PSTN サービス|
->|32 London Bridge Street|イギリス|通話プランが設定された電話システム|
->|39 quai du Président Roosevelt|フランス|通話プランが設定された電話システム|
+> | **事業所**                     | **場所**   | **電話システム サービス** |
+> |--------------------------------|----------------|--------------------------|
+> | One Epping Road                | オーストラリア      | 旧 PSTN サービス |
+> | 100 Cyberport Road             | 香港特別自治区  | 電話システムの直接のルーティング |
+> | One Marina Boulevard           | シンガポール      | 電話システムの直接のルーティング |
+> | 32 London Bridge Street        | イギリス | 通話プランが設定された電話システム |
+> | 39 quai du Président Roosevelt | フランス         | 通話プランが設定された電話システム |
 
 <!--ENDOFSECTION-->
 
@@ -85,15 +90,15 @@ Office 365 のプランを呼び出すことで、組織内のすべてのユー
 設定をするときの電話番号計画を呼び出すことで、数をユーザーに割り当てる前に、各電話番号に緊急アドレスを割り当てる必要があります。 この指定は、緊急通話をサポートするために必要な操作です。 緊急対応サービスが使用する正しい形式であることを確認するのには緊急時のアドレスを検証する必要があります。
 
 > [!IMPORTANT]
-> 緊急のサービスを呼び出すことが計画を呼び出すことでサービスのより従来の電話サービスの動作が異なる。 これらの違いを理解してすべてのユーザーに伝えることが重要です。 詳細については、[緊急の呼び出しの条項および条件](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions)を参照してください。
+> 緊急のサービスを呼び出すことが計画を呼び出すことでサービスのより従来の電話サービスの動作が異なる。 これらの違いを理解してすべてのユーザーに伝えることが重要です。 詳細については、[緊急の呼び出しの条項および条件](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)を参照してください。
 
 検証済みの緊急時のアドレスを指定するだけでなく緊急時の場所を定義し、アドレス内でより正確な場所を提供する緊急検証済みのアドレスに関連付けることがことができます。 通常、緊急対応の場所はユーザーが勤務するビルの番号、階、棟、オフィス番号です。
 
 緊急計画を呼び出す場所の詳細については、以下の資料を確認してください。
 
--   [緊急対応の場所、住所、通話ルーティングの概要](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)
+-   [緊急対応の場所、アドレス、通話ルーティングの概要](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)
 
--   [緊急通話の利用条件](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions)
+-   [緊急通話の利用条件](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)
 
 <br>
 |         |         |         |
@@ -181,7 +186,7 @@ Azure ボイスメール サービス、電源、電話システムのボイス�
 
 場合は、組織では、電気通信サービスのプロバイダーと Microsoft を使用しようとして、ユーザーのビジネス要件に適切な計画を呼び出すのアドオンを入手する必要があります。 一般に、組織の全員国内の計画を呼び出すことのライセンスを持つほとんどのユーザーを提供することができますので、国際通話を配置する必要があります。
 
-2 種類のライセンスの計画を呼び出すことがあります。
+通話プラン ライセンスには次の 2 つの種類があります。
 
 -   国内通話プラン
 
@@ -303,7 +308,7 @@ Office 365 テナントの場合、通話時間 (分) は国や地域別と通�
 
 -   [Office 365 に電話番号を転送します。](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
--   電話番号の管理フォームのダウンロード
+-   [電話番号の移行に関するよくある質問](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
 
 <br>
 |         |         |         |
@@ -319,13 +324,13 @@ Office 365 の電話システムの機能で、ダイヤル プランでは、�
 
 Office 365 の電話システムの機能では、ダイヤル プランの 2 種類があります。
 
--   **サービスのダイヤル プラン:**これは、既定の Office 365 の使用状況の場所に基づいて、ユーザーに適用されているダイヤル プランと、変更することはできません。
+-   **サービスのダイヤル プラン:** これは、既定の Office 365 の使用状況の場所に基づいて、ユーザーに適用されているダイヤル プランと、変更することはできません。
 
--   **のテナントのダイヤル プラン:**これは、さらに次の 2 種類に分かれているテナント内のカスタマイズ可能なダイヤル プランです。
+-   **のテナントのダイヤル プラン:** これは、さらに次の 2 種類に分かれているテナント内のカスタマイズ可能なダイヤル プランです。
 
-    -   **テナント グローバル ダイヤル プラン:**テナント内のすべてのユーザーに適用されるダイヤル プランです。
+    -   **テナント グローバル ダイヤル プラン:** テナント内のすべてのユーザーに適用されるダイヤル プランです。
 
-    -   **テナント ユーザー ダイヤル プラン:**ダイヤル プランを特定のユーザーだけに適用されます。
+    -   **テナント ユーザー ダイヤル プラン:** ダイヤル プランを特定のユーザーだけに適用されます。
 
 ユーザーに割り当てられている有効なダイヤル プランは、(ユーザーの Office 365 の使用状況の場所に基づく) サービスのダイヤル プランの組み合わせと、テナントのダイヤル プラン (これはテナント グローバル ダイヤル プランまたはユーザーのテナントのダイヤル プランのいずれかを指定できます)。
 
@@ -347,15 +352,15 @@ Office 365 の電話システムの機能では、ダイヤル プランの 2 �
 >|テナント ダイヤル プランの名前<br>_説明_  |正規化ルールの名前<br>_説明_  |パターン<br>変換<br>IsInternalExtension  |
 >|---------|---------|---------|
 >|**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde、NSW、AU ダイヤル プラン_|**AU-NSW-NorthRyde-OER-Internal**<br>_One Epping Road オフィスの内部番号 (x7000 - x7999)、North Ryde、NSW、オーストラリア_|^(7\d{3})$<br>+6125550$1<br>True|
->||**AU-NSW-Local**<br>_NSW、オーストラリアの市内番号の正規化_|^([2-9]\d{7})$<br>+612$1<br>False|
->||**AU-TollFree**<br>_オーストラリアの無料電話番号の正規化_|^(1[38]\d{4,8})\d*$<br>+61$1<br>False|
->||**AU-Service**<br>_オーストラリアのサービス番号の正規化_|^(000\|1[0125]\d{1,8})$<br>$1<br>False|
+>||**AU-NSW-Local**<br>_NSW、オーストラリアの市内番号の正規化_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
+>||**AU-TollFree**<br>_オーストラリアの無料電話番号の正規化_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
+>||**AU-Service**<br>_オーストラリアのサービス番号の正規化_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
 >|**SG-Singapore-OMB**<br>_OMB Singapore、SG ダイヤル プラン_|**SG-OMB-Internal**<br>_行政管理予算局のオフィス、シンガポールの内部番号 (x8000-経費"x 8999)_|^(8\d{3})$<br>+656888$1<br>True|
->||**SG-TollFree**<br>_シンガポールの無料電話番号の正規化_|^(1?800\d{7})\d*$<br>+65$1<br>False|
->||**SG-Service**<br>_シンガポールのサービス番号の正規化_|^(1\d{3,4}\|9\d{2})$<br>$1<br>False|
+>||**SG-TollFree**<br>_シンガポールの無料電話番号の正規化_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
+>||**SG-Service**<br>_シンガポールのサービス番号の正規化_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
 >|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux、フランスのダイヤル プラン_|**FR-39qdPR-Internal**<br>_39 quai du Président ルーズベルトのオフィス、Issy の内部番号 ("x-7999 x7000-経費)-ゴ-Moulineaux (フランス)_|^(7\d{3})$<br>+3319999$1<br>True|
->||**FR-TollFree**<br>_フランスの無料電話番号の正規化_|^0?(80\d{7})\d*$<br>+33$1<br>False|
->||**FR-Service**<br>_フランスのサービス番号の正規化_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>False|
+>||**FR-TollFree**<br>_フランスの無料電話番号の正規化_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
+>||**FR-Service**<br>_フランスのサービス番号の正規化_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
 > [!TIP]
@@ -390,8 +395,6 @@ Office 365 の電話システムの機能では、ダイヤル プランの 2 �
 -   電話番号の取得、電話番号、緊急対応の場所に関する詳細
 
 -   ボイスメール設定の詳細
-
--   会議ブリッジの設定の割り当て
 
 -   発信者番号のマスク処理の設定の詳細
 

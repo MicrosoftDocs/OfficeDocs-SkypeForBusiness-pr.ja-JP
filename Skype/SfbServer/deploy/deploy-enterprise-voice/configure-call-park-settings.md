@@ -1,9 +1,8 @@
 ---
-title: Skype for Business 2015 でのコール パーク設定の構成
+title: ビジネス用の Skype のコール パーク設定を構成します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: Skype ビジネス サーバーのエンタープライズ VoIP のコール パーク設定を変更します。
-ms.openlocfilehash: c0aacdf23788c56d2bd0204665d5971dc715df3b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 518cefda9cd6186c8362dea83bb80acb046d441d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568305"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019518"
 ---
-# <a name="configure-call-park-settings-in-skype-for-business-2015"></a>Skype for Business 2015 でのコール パーク設定の構成
+# <a name="configure-call-park-settings-in-skype-for-business"></a>ビジネス用の Skype のコール パーク設定を構成します。
  
 Skype ビジネス サーバーのエンタープライズ VoIP のコール パーク設定を変更します。
   
@@ -32,7 +31,7 @@ Skype ビジネス サーバーのエンタープライズ VoIP のコール パ
   
 次の設定のいずれかを構成するのにには、**新規 CsCpsConfiguration**コマンドレットまたは**セット CsCpsConfiguration**コマンドレットを使用します。
   
-|**このオプション:**|**これを指定します。**|
+|**このオプション:**|**指定する内容:**|
 |:-----|:-----|
 |**CallPickupTimeoutThreshold** <br/> |通話が保留されてから、呼び出しに応答した電話にかけ直されるまでの経過時間。  <br/> この値は、hh:mm:ss の形式で入力し、時間、分、および秒を指定する必要があります。最小値は 10 秒、最大値は 10 分です。既定値は 00:01:30 です。  <br/> |
 |**EnableMusicOnHold** <br/> |通話が保留されている間、発信者に対して音楽を再生するかどうか。  <br/> 値は True または False です。既定値は True です。  <br/> |
@@ -60,7 +59,7 @@ Skype ビジネス サーバーのエンタープライズ VoIP のコール パ
 
 ## <a name="see-also"></a>関連項目
 
-[ビジネス 2015年の保留中の inSkype のコール パークの音楽をカスタマイズします。](customize-call-park-music-on-hold.md)
+[Skype for Business 2015 でのコール パーク保留音のカスタマイズ](customize-call-park-music-on-hold.md)
 
 [新しい-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
   

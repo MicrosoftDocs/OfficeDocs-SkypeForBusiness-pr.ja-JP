@@ -1,9 +1,8 @@
 ---
-title: Skype for Business 2015 でのユーザーに対するグループ通話ピックアップの有効化とグループ番号の割り当て
+title: ユーザーのグループを呼び出すピックアップを有効にして、ビジネスの Skype でグループ番号を割り当てる
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 description: Skype でグループを呼び出すのピックアップのためビジネス サーバーのエンタープライズ VoIP に対してユーザーを有効にして、グループ番号を割り当てます。
-ms.openlocfilehash: ce360bc1f66f3e7b55d3c0f8ea9e392d957f25ea
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 5a4173a16a40557742a7cdbd47edb917f89b4737
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006521"
 ---
-# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business-2015"></a>Skype for Business 2015 でのユーザーに対するグループ通話ピックアップの有効化とグループ番号の割り当て
+# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>ユーザーのグループを呼び出すピックアップを有効にして、ビジネスの Skype でグループ番号を割り当てる 
  
 Skype でグループを呼び出すのピックアップのためビジネス サーバーのエンタープライズ VoIP に対してユーザーを有効にして、グループ番号を割り当てます。
   
@@ -46,8 +46,6 @@ Skype でグループを呼び出すのピックアップのためビジネス �
    ```
 
 ## <a name="see-also"></a>関連項目
-
-#### 
 
 [ユーザーに対して無効にするグループ ピックアップ](http://technet.microsoft.com/library/91b06f9e-2840-45a2-bbb3-6a29179b9a9f.aspx)
 

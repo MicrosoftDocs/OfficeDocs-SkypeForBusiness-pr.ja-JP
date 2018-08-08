@@ -3,7 +3,6 @@ title: Skype for Business Server の通話中オプションのインストー�
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 7/6/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,16 +11,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
-description: インストールして Skype でビジネス サーバー 2015 のビジー状態のオプションを構成する方法についてお読みください。
-ms.openlocfilehash: ff0f9a892d0882adcc2af0c4c41c1177b3488520
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: インストールし、Skype のビジネス サーバーのビジー状態のオプションを構成する方法の詳細を表示します。
+ms.openlocfilehash: 9bf647c1a1ccc5cbcad44b6a32e7763014d31547
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003895"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Skype for Business Server の通話中オプションのインストールおよび構成
  
-インストールして Skype でビジネス サーバー 2015 のビジー状態のオプションを構成する方法についてお読みください。
+インストールし、Skype のビジネス サーバーのビジー状態のオプションを構成する方法の詳細を表示します。
   
 通話中オプションは、2016 年 7 月の累積更新プログラムで導入された新たなボイス ポリシーで、ユーザーが通話中や会議中の場合、または通話を保留にしている場合の着信処理方法を構成することができます。 着信があった場合に、話中音を流すかボイスメールに転送できます。 
   
@@ -102,14 +102,13 @@ ms.lasthandoff: 05/03/2018
   
 ```
 Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
-
 ```
 
-その次の例では、コマンドが「Chrystal Velasquez」というユーザーの通話中オプションを構成します。 この構成では、通話中に着信があるとボイスメールに転送されます。
+その次の例では、コマンドが「Chrystal Velasquez」というユーザーの通話中オプションを構成します。この構成では、通話中に着信があるとボイスメールに転送されます。
+
   
 ```
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy 
-
 ```
 
 [Get CsBusyOptions](http://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx)コマンドレットを使用して、使用中のオプションの構成情報を取得できます。 次の例では、"KenMyer@Contoso.com"の使用中のオプション設定を返します。
@@ -122,7 +121,6 @@ Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
   
 ```
 Remove-CsBusyOptions -Identity "Ken Myer"
-
 ```
 
 ビジー状態のオプションを構成するのにを使用するコマンドレットの詳細については、[セット CsBusyOptions](http://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx)、 [Get CsBusyOptions](http://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx)、および[削除 CsBusyOptions](http://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx)のテクニカル リファレンスの内容を参照してください。
@@ -137,24 +135,21 @@ $p2 = New-CsClsProvider -Name Sipstack -Type WPP -Level Info -Flags
  "TF_PROTOCOL,TF_CONNECTION,TF_SECURITY,TF_DIAG,TF_SHOW_CONFERENCE,TF_SHOW_ALLREQUESTS,TF_SHOW_ALLSIPHEADERS" -Role Registrar
 $p3 = New-CsClsProvider -Name BusyOptions -Type WPP -Level Verbose -Flags All
 New-CsClsScenario -Parent Global -Name BusyOptions -Provider @{Add=$p1,$p2,$p3} 
-
 ```
 
 ## <a name="verify-and-troubleshoot"></a>確認とトラブルシューティング
 
 ビジー状態のオプションをインストールすると、サーバー アプリケーションの一覧を取得する[Get CsServerApplication](https://docs.microsoft.com/powershell/module/skype/get-csserverapplication?view=skype-ps)コマンドレットを使用して、インストールが成功したことを確認できます。 通話中オプションが正しくインストールされていれば、通話中オプション構成が次のように表示されます。
   
-|||
-|:-----|:-----|
-|ID   <br/> |  : Service:Registrar:pool0.vdomain.com/BusyOptions <br/> |
-|[Priority]  <br/> | : 5 <br/> |
-|Uri   <br/> |: http://www.microsoft.com/LCS/BusyOptions  <br/> |
-|名前  <br/> |  : BusyOptions <br/> |
-|Enabled  <br/> |: True  <br/> |
-|Critical  <br/> |: False  <br/> |
-|移動し ScriptName  <br/> | : <br/> |
-|Script   <br/> | : <br/> |
-   
-ビジー状態のオプションのインストールが正常に完了したことと、Skype ビジネス サーバーがビジー状態のオプションを正常に読み込まれたことを確認するのに Windows イベント ビューアーを使用することもできます。 ビジー状態のオプションを確認するには、開く**イベント ビューアー -\>アプリケーションとサービス ログの\>Skype (または Lync) サーバー**およびイベント ID を検索する = 30253。
+<pre>
+Identity   : Service:Registrar:pool0.vdomain.com/BusyOptions 
+Priority   : 5 
+Uri        : http://www.microsoft.com/LCS/BusyOptions 
+Name       : BusyOptions 
+Enabled    : True 
+Critical   : False  
+ScriptName : 
+Script     : 
+</pre> 
   
-
+ビジー状態のオプションのインストールが正常に完了したことと、Skype ビジネス サーバーがビジー状態のオプションを正常に読み込まれたことを確認するのに Windows イベント ビューアーを使用することもできます。 ビジー状態のオプションを確認するには、開く**イベント ビューアー -\>アプリケーションとサービス ログの\>Skype (または Lync) サーバー**およびイベント ID を検索する = 30253。

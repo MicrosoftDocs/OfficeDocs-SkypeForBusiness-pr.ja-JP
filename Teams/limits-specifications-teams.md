@@ -3,19 +3,21 @@ title: 制限とマイクロソフトのチームの仕様
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/09/2018
+ms.date: 07/17/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ninadara
+ms.reviewer: ''
 description: 制限、仕様、およびマイクロソフトのチームに適用されるその他の要件について説明します。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dff28cb59dabbf3d9d43dbde00cba73541280b39
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: 18db7bc405dcc06a14fccd1a7b3e81ee5f625d0f
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21708333"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>制限とマイクロソフトのチームの仕様
 =============================================
@@ -38,7 +40,7 @@ ms.lasthandoff: 04/16/2018
 
 |機能     | 最大数の制限 |
 |------------|---------------|
-|会議に出席する人の数  | 80    |
+|会議に出席する人の数  | 250    |
 |プライベート チャットの参加者の数  | 20    |
 
 <a name="storage"></a>ストレージ
@@ -54,7 +56,7 @@ SharePoint Online ドキュメント ライブラリと OneDrive for Business �
 
 |機能                 |Office 365 Business Essentials  |Office 365 Business Premium   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
-|ストレージ                 |1 組織につき 1 TB と購入したライセンスあたり 0.5 GB  |1 組織につき 1 TB と購入したライセンスあたり 0.5 GB  |1 組織につき 1 TB と購入したライセンスあたり 0.5 GB   |1 組織につき 1 TB と購入したライセンスあたり 0.5 GB |1 組織につき 1 TB と購入したライセンスあたり 0.5 GB  |1 組織につき 1 TB           |
+|ストレージ                 |1 組織につき 1 TB とライセンスの購入に 10 GB  |1 組織につき 1 TB とライセンスの購入に 10 GB  |1 組織につき 1 TB とライセンスの購入に 10 GB   |1 組織につき 1 TB とライセンスの購入に 10 GB |1 組織につき 1 TB とライセンスの購入に 10 GB  |1 組織につき 1 TB           |
 |チームのファイル用のストレージ |サイト コレクションまたはグループごとに最大 25 TB |サイト コレクションまたはグループごとに最大 25 TB |サイト コレクションまたはグループごとに最大 25 TB |サイト コレクションまたはグループごとに最大 25 TB |サイト コレクションまたはグループごとに最大 25 TB |サイト コレクションまたはグループごとに最大 25 TB |
 |ファイルのアップロード制限       |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
 
@@ -81,7 +83,7 @@ SharePoint Online ドキュメント ライブラリと OneDrive for Business �
 
 詳細については、 [Exchange Online の制限](https://technet.microsoft.com/library/exchange-online-limits.aspx)を参照してください。
 
-<a name="browsers"></a>ブラウザー 
+<a name="browsers"></a> ブラウザー 
 --------
 
 [!INCLUDE [browser-support](includes/browser-support.md)]

@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 でのセカンダリ場所情報サービスの構成
+title: Skype のビジネス サーバーのセカンダリ場所情報サービスを構成します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
 description: ~ 9-1-1 では、Skype のビジネス サーバーのエンタープライズ VoIP のセカンダリ ・ サイトのソース (SLS) データベースを構成します。
-ms.openlocfilehash: 4eaab1b6dfaae9b1298cce3544d89f8b6724733e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 36bbe6183fa6f4eb086c8676e17c63f63fc994a4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006528"
 ---
-# <a name="configure-a-secondary-location-information-service-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのセカンダリ場所情報サービスの構成
+# <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>Skype のビジネス サーバーのセカンダリ場所情報サービスを構成します。
  
 ~ 9-1-1 では、Skype のビジネス サーバーのエンタープライズ VoIP のセカンダリ ・ サイトのソース (SLS) データベースを構成します。 
   
@@ -37,8 +37,6 @@ Skype ビジネス サーバーは、セカンダリ場所ソース (SLS) のデ
    ```
 
 ## <a name="see-also"></a>関連項目
-
-#### 
 
 [セット CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
 

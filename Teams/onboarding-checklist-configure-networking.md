@@ -2,20 +2,22 @@
 title: マイクロソフト チームのネットワークを構成するための契約時のチェックリスト
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: チームのネットワークを構成する場合、コア、to do のタスクと活動このチェックリストに従います。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39c0fe1eb20ca19179f02c9f0395696118770e8d
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: a45fbca1bdec4a5f3cd566a251b4bef3ff0ef20f
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19694905"
 ---
 # <a name="configure-networking"></a>ネットワークを構成します。
 

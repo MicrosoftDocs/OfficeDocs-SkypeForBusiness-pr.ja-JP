@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 での帯域幅ポリシー プロファイルの作成
+title: ビジネス サーバーの Skype で帯域幅ポリシー プロファイルの作成します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,19 +13,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: 作成または、Skype でのエンタープライズ VoIP 通話受付制御がビジネスのサーバーに使用する帯域幅ポリシーを変更します。
-ms.openlocfilehash: 6cb3e22151596fe388f5f72f3a9325c97671e257
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ddc74ad5327651225bb6f0e78f83d8248c290806
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986444"
 ---
-# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での帯域幅ポリシー プロファイルの作成
+# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>ビジネス サーバーの Skype で帯域幅ポリシー プロファイルの作成します。 
  
 作成または、Skype でのエンタープライズ VoIP 通話受付制御がビジネスのサーバーに使用する帯域幅ポリシーを変更します。 
   
-帯域幅ポリシーでは、リアルタイムのオーディオおよびビデオのモダリティの帯域幅の使用上の制限を定義します。 帯域幅ポリシーは、tobandwidth が適用されているポリシー プロファイルは、呼受付制御の複数のネットワーク サイトに適用することができます。
+帯域幅ポリシーは、リアルタイムのオーディオおよびビデオのモダリティについて、帯域幅使用量の制限を定義します。 帯域幅ポリシーは、tobandwidth が適用されているポリシー プロファイルは、呼受付制御の複数のネットワーク サイトに適用することができます。
   
-ガイドラインについて、どのような帯域幅を制限する必要があります、CAC の展開の設定は、[ビジネス サーバー 2015 の Skype の呼受付制御の計画](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)を参照してください。
+ガイドラインについて、どのような帯域幅を制限する必要があります、CAC の展開の設定は、[ビジネス サーバーの Skype で通話受付制御の計画](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)を参照してください。
   
 次の手順で作成されるポリシーの例は、オーディオ トラフィック全体、個々のオーディオ セッション、ビデオ トラフィック全体、および個々のビデオ セッションに制限を設定します。たとえば、5Mb_Link の帯域幅のポリシーのプロファイルは次の制限値を設定します。 
   
@@ -91,8 +91,6 @@ ms.lasthandoff: 05/03/2018
     
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [新しい-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/new-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
 [Get CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/get-csnetworkbandwidthpolicyprofile?view=skype-ps)
@@ -100,4 +98,3 @@ ms.lasthandoff: 05/03/2018
 [セット CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/set-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
 [削除 CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkbandwidthpolicyprofile?view=skype-ps)
-

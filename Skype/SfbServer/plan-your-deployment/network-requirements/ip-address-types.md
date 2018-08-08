@@ -3,7 +3,6 @@ title: Skype for Business での IP アドレスの種類の構成
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 7/22/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
-description: '概要: ビジネス サーバー 2015 の Skype を実装する前に以下の IP アドレス タイプの考慮事項を確認します。'
-ms.openlocfilehash: adebab15a0c10310b25af30f6e933625df61dc3d
-ms.sourcegitcommit: a612ebe25e06c2cb090f776325712caf3cf3b943
+description: '概要: は、Skype をビジネスのサーバーを実装する前に以下の IP アドレス タイプの考慮事項を確認します。'
+ms.openlocfilehash: 6d1e3a53e65bb3d1b3475dc19a7a2f9e1101195d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "19630148"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967165"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Skype for Business での IP アドレスの種類の構成
  
-**の概要:** ビジネス サーバー 2015 の Skype を実装する前に以下の IP アドレス タイプの考慮事項を確認します。
+**の概要:** Skype をビジネスのサーバーを実装する前に以下の IP アドレス タイプの考慮事項を確認します。
   
 IP アドレスの種類を展開するには、トポロジ ビルダーでトポロジ設定を使用します。 このセクションでは、フロント エンド サーバー、仲介サーバー、およびエッジ トランスポート サーバーの IP アドレスの種類を展開する方法について説明します。
   
@@ -37,7 +36,7 @@ IP アドレスの種類を展開するには、トポロジ ビルダーでト�
     
 2. [**プロパティの編集**] ダイアログ ボックスで、構成する IP アドレスの種類を選択します。デュアル スタック構成の場合は、次の図のように、[**IPv4 を有効にする**] および [**IPv6 を有効にする**] を選択します。
     
-   **フロント エンド サーバー プールのプロパティ] ダイアログ ボックスを編集します。**
+   **フロントエンド サーバー プールの [プロパティの編集] ダイアログ ボックス**
 
   - [**すべての構成済み IP アドレスを使用する**]。コンピューター上で定義されているすべての IP アドレスの使用を許可する場合は、このオプションを選択します。 
     
@@ -63,7 +62,7 @@ IP アドレスの種類を展開するには、トポロジ ビルダーでト�
     
 - [**プロパティの編集**] ダイアログ ボックスで、構成する IP アドレスの種類を選択します。デュアル スタック構成の場合は、次の図のように、[**IPv4 を有効にする**] および [**IPv6 を有効にする**] を選択します。
     
-   **仲介サーバー プールのプロパティ] ダイアログ ボックスを編集します。**
+   **仲介サーバー プールの [プロパティの編集] ダイアログ ボックス**
 
   - [**すべての構成済み IP アドレスを使用する**]。コンピューター上で定義されているすべての IP アドレスの使用を許可する場合は、このオプションを選択します。 
     

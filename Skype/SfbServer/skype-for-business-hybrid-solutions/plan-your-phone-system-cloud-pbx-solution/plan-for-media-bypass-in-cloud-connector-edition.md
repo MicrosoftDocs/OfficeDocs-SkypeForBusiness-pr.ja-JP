@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: このトピックでは、Cloud Connector エディション バージョン 2.0 以降でのメディア バイパスの実装を計画する上で考慮すべき事項を説明します。 メディアを展開する方法については省略し、クラウド コネクタのエディションで使用しない展開メディアを参照してください。
-ms.openlocfilehash: a2dfca68d7bfe02ae0701dc13d76bc24121a1cb8
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 70c7f8721386c3ef0270e7ef938624a70184b942
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967137"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Cloud Connector エディションでのメディア バイパスを計画する
  
@@ -35,7 +36,7 @@ ms.lasthandoff: 05/03/2018
   
 次のトポロジでは、-はない採用メディアをバイパスなど、Skype のビジネスのクライアントは、PSTN の呼び出しを外部、Office 365 には、SIP シグナリングおよび Office 365 によって、エンド ・ ユーザーの音声信号のトラフィックを指示し、ポリシーです。 クラウド コネクタのユーザーは、ボイス ポリシーは、クラウドのコネクタ エッジ サーバー、PSTN セッション ボーダー コント ローラー (SBC) またはクラウド コネクタの仲介サーバー経由でゲートウェイにシグナリング トラフィックをルーティングする信号のトラフィックを指示します。 メディア フロー ビジネス クライアント用の Skype からクラウド コネクタの仲介サーバー、ゲートウェイ、SBC、次の図に示すように。
   
-**メディアとメディアのない信号の経路をバイパスします。**
+**メディア バイパスを使用しない場合のメディアと信号の経路**
 
 ![メディア バイパスなしの信号](../../media/5cd7e3bf-2565-4bd9-ad5a-f03e13c01060.png)
   
@@ -43,7 +44,7 @@ PSTN からの着信通話は、同一の信号経路を逆方向で使用しま
   
 次のトポロジでは、-は採用メディアをバイパス、信号は、同じパスですが、メディアのビジネスのクライアント、および SBC またはゲートウェイ、Skype 間で直接フローを次の図に示すように。
   
-**メディアとメディアを使用して信号の経路をバイパスします。**
+**メディア バイパスを使用する場合のメディアと信号の経路**
 
 ![メディア バイパスありの信号](../../media/60400c38-4921-4964-89f2-5e53b68fb497.png)
   
@@ -51,7 +52,7 @@ PSTN からの着信通話は、同一の信号経路を逆方向で使用しま
 
 メディア バイ パスは、クラウドのコネクタの 1 つのアプライアンスを使用して複数のサイトに、テレフォニー サービスを提供する場合にも役立ちます。 クラウドのコネクタは、送信元または送信先の番号を基に呼をルーティングできません、ために、ほとんどの企業では、ルーティングを決定するのには、SBC やクラウドのコネクタの背後にあるゲートウェイを展開します。 このシナリオでは、次の図に示すようにメディア バイパスによりクライアントと中央 SBC またはゲートウェイ間の転送が排除されています。
   
-**複数サイトのアプリケーション**
+**マルチサイトでの適用**
 
 ![Cloud Connector のマルチサイトの例](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
   
@@ -78,7 +79,7 @@ PSTN からの着信通話は、同一の信号経路を逆方向で使用しま
   
 リリース チャネルの詳細については、 [Office 365 用リソースの更新チャンネルの概要](https://support.office.com/en-us/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US)を参照してください。
   
-さまざまなチャネルでクライアントの現在のリリース バージョンは、 [Office 365 クライアントのチャネルのリリースの更新](https://technet.microsoft.com/en-us/office/mt465751.aspx)を参照してください。 
+さまざまなチャネルでクライアントの現在のリリース バージョンは、[リリースの Office 365 用リソースへの更新情報](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)を参照してください。 
   
 ## <a name="cloud-connector-capacity-considerations-with-media-bypass"></a>メディア バイパスに関連する Cloud Connector の容量の考慮事項
 
@@ -111,7 +112,4 @@ PSTN からの着信通話は、同一の信号経路を逆方向で使用しま
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[クラウド コネクタのエディションでのメディア バイ パスを展開します。](deploy-media-bypass-in-cloud-connector.md)
-
+[Cloud Connector エディションでメディア バイパスを展開する](deploy-media-bypass-in-cloud-connector.md)

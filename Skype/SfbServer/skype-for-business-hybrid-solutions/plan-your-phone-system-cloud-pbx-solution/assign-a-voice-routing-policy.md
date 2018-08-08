@@ -16,11 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: '概要: Office 365 の電話システムを使用して設置した PSTN 接続を持つユーザーの音声ポリシーを割り当てる方法の詳細については、このトピックを読み取り。'
-ms.openlocfilehash: 0699e4c4da94c680f86ec607950a1c3b42b5690a
-ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
+ms.openlocfilehash: 43d8939e6e0cd49f66234e127f05cb421700a15a
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569499"
 ---
 # <a name="assign-a-voice-routing-policy"></a>音声ルーティング ポリシーの割り当て
  
@@ -51,14 +52,12 @@ ms.lasthandoff: 05/10/2018
     
   ```
   Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
-
   ```
 
     例:
     
   ```
   Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
-
   ```
 
 ## <a name="creating-a-new-voice-routing-policy"></a>新しい音声ルーティング ポリシーを作成する

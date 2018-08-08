@@ -1,5 +1,5 @@
 ---
-title: トポロジ内のサーバーへの Skype for Business Server 2015 のインストール
+title: トポロジ内のサーバーへの Skype for Business Server のインストール
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,16 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
-description: '概要では、トポロジ内の各サーバー上のビジネス サーバー 2015 システム コンポーネントの Skype をインストールする方法について説明します。 マイクロソフト評価センターからのビジネス サーバー 2015 の Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: 810e08cc6844f29d12536f89f3b877e7a2be8bce
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: '概要では、トポロジ内の各サーバーでサーバーのビジネス システムのコンポーネントの Skype をインストールする方法について説明します。 ビジネスのサーバーで Microsoft の評価の中心からの Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
+ms.openlocfilehash: 41fbe8db0d279d9cace577e1977c093fd794693b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20994706"
 ---
-# <a name="install-skype-for-business-server-2015-on-servers-in-the-topology"></a>トポロジ内のサーバーへの Skype for Business Server 2015 のインストール
+# <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>トポロジ内のサーバーへの Skype for Business Server のインストール
  
-**の概要:** トポロジ内の各サーバー上のビジネス サーバー 2015 システム コンポーネントの Skype をインストールする方法について説明します。 [マイクロソフト評価センター](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)からサーバー 2015 をビジネス用には、Skype の無料試用版をダウンロードします。
+**の概要:** トポロジ内の各サーバーでサーバーのビジネス システムのコンポーネントの Skype をインストールする方法について説明します。 [マイクロソフト評価センター](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)からビジネス サーバー用には、Skype の無料試用版をダウンロードします。
   
 トポロジが中央管理ストアにロードされ、Active Directory の役割を実行するサーバーが認識して、トポロジ内のサーバーごとにサーバーのビジネス システムの Skype をインストールする必要があります。 手順 1 ～ 5 は任意の順序で実行できます。 ただし、図に示すように手順 6、7、および 8 では、手順 1 5 からの後を行う必要があります。 8 手順 7 は、ビジネスのサーバー システムに Skype をインストールします。
   
@@ -54,13 +55,13 @@ ms.lasthandoff: 05/03/2018
   
 ### <a name="install-skype-for-business-server-system"></a>Skype をビジネスのサーバー システムをインストールします。
 
-1. Skype ビジネス サーバー 2015 のインストール メディアを挿入します。 自動的にセットアップが開始されない場合は、[**セットアップ**] をダブルクリックします。
+1. Skype ビジネス サーバーのインストール メディアを挿入します。 自動的にセットアップが開始されない場合は、[**セットアップ**] をダブルクリックします。
     
 2. インストール メディアでは、Microsoft Visual C++ が実行されている必要があります。これをインストールするかどうかを確認するダイアログが表示されるので、[**はい**] をクリックします。
     
 3. 使用許諾契約書の内容をよく読んでください。同意する場合は [**使用許諾契約書に同意します**] を選択し、[**OK**] をクリックします。 
     
-4. スマート設定は、接続するために Microsoft Update (MU) からの更新を確認して、インストール プロセス中に、インターネットに、図に示すように、ビジネス サーバー 2015 の Skype の機能です。 これで製品に最新の更新プログラムがインストールされていることを確認できるため、作業がしやすくなります。 [**インストール**] をクリックしてインストールを開始します。
+4. スマート セットアップは、Skype のビジネス サーバーを接続するために Microsoft Update (MU) からの更新を確認して、インストール プロセス中に、インターネットに、図に示すように機能です。 これで製品に最新の更新プログラムがインストールされていることを確認できるため、作業がしやすくなります。 [**インストール**] をクリックしてインストールを開始します。
     
     > [!NOTE]
     > 多くの組織は社内環境に Windows Server Update Services (WSUS) を展開しています。 管理者は WSUS を使用すると、Microsoft Update からリリースされた更新プログラムを、社内ネットワークにあるコンピューターに配布するかどうかを完全に管理できます。 累積的な更新プログラム 1 のリリースの一部として Skype ビジネス サーバー用には、WSUS で使用するスマート セットアップのサポートが導入されています。 Wsus では最初にビジネス サーバー用の Skype を導入する、埋め込みのアップグレード機能を使用して Lync Server 2013 の環境からアップグレードするユーザーはスマート セットアップの Skype for Windows の更新プログラムを WSUS から更新プログラムを取得するのではなく取得することMU です。 スマート セットアップを使用することを希望する顧客は、Setup.exe を実行する前にすべてのコンピューターで SmartSetupWithWSUS.psq を実行する必要があります。 
@@ -118,7 +119,7 @@ ms.lasthandoff: 05/03/2018
     > [!IMPORTANT]
     > ハッシュ ダイジェストや署名アルゴリズムを選択するには、証明書を使用するクライアントやサーバー、そのクライアントやサーバーが通信するその他のコンピューターやデバイスに関する理解のほか、証明書で使用されるアルゴリズムの使用方法も把握する必要があります。 長さがオペレーティング ・ システムと一部のクライアント アプリケーションでサポートされているどのダイジェストについては、 [Windows PKI のブログ -](https://go.microsoft.com/fwlink/p/?LinkId=287002)を参照してください。 
   
-    各 Standard Edition またはフロントエンド サーバーには最大 4 つの証明書 (oAuthTokenIssuer 証明書、既定の証明書、Web 内部証明書、Web 外部証明書) が必要です。 ただし、既定の証明書を要求して、適切なサブジェクトの別名エントリや oAuthTokenIssuer 証明書を割り当てることもできます。 詳細証明書の要件については、 [Skype のビジネス サーバー 2015 の環境の要件](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)を参照してください。
+    各 Standard Edition またはフロントエンド サーバーには最大 4 つの証明書 (oAuthTokenIssuer 証明書、既定の証明書、Web 内部証明書、Web 外部証明書) が必要です。 ただし、既定の証明書を要求して、適切なサブジェクトの別名エントリや oAuthTokenIssuer 証明書を割り当てることもできます。 詳細証明書の要件については、 [Skype のビジネス サーバーの環境要件](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)や[ビジネス サーバー 2019 の Skype のサーバーの要件](../../../SfBServer2019/plan/system-requirements.md)を参照してください。
     
     > [!IMPORTANT]
     > 次の手順では、内部 Active Directory 証明書サービス ベースの証明機関から取得した証明書を構成する方法を説明します。 

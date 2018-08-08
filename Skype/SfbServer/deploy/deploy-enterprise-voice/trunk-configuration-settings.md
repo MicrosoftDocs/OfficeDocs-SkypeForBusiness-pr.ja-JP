@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 でのトランク構成設定の新しいコレクションの作成
+title: ビジネス サーバーの Skype でトランクの新しいコレクションの構成設定を作成します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,15 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: '概要: ビジネス サーバーのコントロール パネルの Skype を使用して、構成設定のトランクの新しいコレクションを作成する方法を説明します。'
-ms.openlocfilehash: 2dd402e61e87642234410b74cb5c6b28b89c69a9
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e77e6fb0a84761363eb81b62858e800e2e5d65fa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025801"
 ---
-# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのトランク構成設定の新しいコレクションの作成
- 
+# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>ビジネス サーバーの Skype でトランクの新しいコレクションの構成設定を作成します。 
+
 **の概要:** ビジネス サーバーのコントロール パネルの Skype を使用して、構成設定のトランクの新しいコレクションを作成する方法について説明します。
   
 SIP トランクの構成では、仲介サーバーと、公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX (Public Branch eXchange)、サービス プロバイダーのセッション境界コントローラー (SBC) のいずれかとの間の関係と機能を定義します。たとえば、次の設定ができます。

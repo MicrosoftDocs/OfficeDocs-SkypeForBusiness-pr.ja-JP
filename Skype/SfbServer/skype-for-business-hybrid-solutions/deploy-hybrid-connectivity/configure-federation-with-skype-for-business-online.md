@@ -17,11 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a10bd1d5-c003-46db-9f57-7d55d3fa08da
 description: '概要: は、オンライン ビジネスの設置型展開と Skype との間の相互運用性を構成する方法について説明します。'
-ms.openlocfilehash: 403cabdd808cd197ece2289564b14fea62a5c72a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 6a48e3cc579fd3827cc95f7f36d0c637d540ed56
+ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "20176120"
 ---
 # <a name="configure-federation-with-skype-for-business-online"></a>Skype for Business Online とのフェデレーションを構成する
  
@@ -76,13 +77,9 @@ $CSSession = New-CsOnlineSession -Credential $cred
 Import-PSSession $CSSession -AllowClobber
 ```
 
-ビジネス オンラインの Skype でのリモート PowerShell セッションを確立する方法の詳細については、 [Lync オンラインで使用する Windows PowerShell への接続](http://technet.microsoft.com/library/6167dad9-9628-4fdb-bed1-bdb3f7108e64.aspx)を参照してください。
-  
-Skype を使用して、オンライン ビジネスのコネクタの PowerShell モジュールの詳細については、 [Lync Online の管理に Windows PowerShell を使用する](http://technet.microsoft.com/library/9ef2d853-10fb-4e02-a552-dcf6818d7153.aspx)を参照してください。
+PowerShell を Skype でオンライン ビジネスでの使用についての詳細については、 [Windows PowerShell には、コンピューターの設定](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)を参照してください。
+
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [新しい-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/new-cshostingprovider?view=skype-ps)
-

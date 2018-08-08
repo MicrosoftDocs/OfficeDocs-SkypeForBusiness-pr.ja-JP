@@ -2,20 +2,22 @@
 title: マイクロソフトのチームやビジネス用の Skype でのユーザーからのフィードバックの調査
 author: dearbeen
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: クラウド ボイスの実装では、マイクロソフトのチームやビジネス用の Skype を向上させるためにユーザーからのフィードバックを収集します。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71ac2dd26b0b60293602aadb83284e0bf5c25739
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 92336183b6c96e789ce079119a1acc05ba3da4af
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695439"
 ---
 # <a name="user-feedback-surveys"></a>ユーザーからのフィードバックの調査 
 

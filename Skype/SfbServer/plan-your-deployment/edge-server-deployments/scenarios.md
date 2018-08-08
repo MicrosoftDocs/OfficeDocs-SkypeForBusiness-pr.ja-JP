@@ -1,8 +1,7 @@
 ---
-title: Skype for Business Server 2015 のエッジ サーバーのシナリオ
+title: Skype のビジネス サーバーのサーバーのシナリオをエッジします。
 ms.author: heidip
 author: microsoftheidi
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -12,16 +11,17 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
-description: '概要: ビジネス サーバー 2015 の Skype で、エッジ サーバーのトポロジを計画するためのこれらのシナリオを確認します。'
-ms.openlocfilehash: 9afe23c626f2a266061c250740e52bc55dd2697d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: '概要: ビジネス サーバーの Skype で、エッジ サーバーのトポロジを計画するためのこれらのシナリオを確認します。'
+ms.openlocfilehash: e3e6a5c0c20a8c72725456f3c67834f84123b093
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009664"
 ---
-# <a name="edge-server-scenarios-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 のエッジ サーバーのシナリオ
+# <a name="edge-server-scenarios-in-skype-for-business-server"></a>Skype のビジネス サーバーのサーバーのシナリオをエッジします。
  
-**の概要:** ビジネス サーバー 2015 の Skype で、エッジ サーバーのトポロジを計画するためのこれらのシナリオを確認します。
+**の概要:** ビジネス サーバーの Skype で、エッジ サーバーのトポロジを計画するためのこれらのシナリオを確認します。
   
 視覚化して、ビジネス エッジ サーバーのトポロジを実装するためには、どのような Skype の決定を支援するいくつかのシナリオの図があります。 適切な候補を選択すれば、対処する必要がある環境の要件を調査できます。 次に示す図はすべてのシナリオに適用されるため、最初に説明します。
   
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/03/2018
   
 ダイアグラムのいずれかのダイレクタは、省略可能なコンポーネント) を含めません。 ですが、これについて個別に読み取ることができます (これは、他の計画のトピックに記載されて)。
   
-前述したように、IPv6 のサンプル データには、図です。 [ビジネス サーバー 2015 の Skype でエッジ サーバーの展開計画](edge-server-deployments.md)のドキュメントのほとんどは、IPv4 を参照してください。 ですが、IPv6 を使用する場合に確実にサポートされています。 割り当てられたアドレス空間内の IPv6 アドレスを必要があり、IPv4 の ip アドレスと内部と外部のアドレスを使用する必要があります、ことに注意してください。 、、Windows のおかげで使用できるデュアル ・ スタック機能は、IPv4 と IPv6 のとは別のネットワーク スタックします。 これはする必要がある場合、IPv4 を割り当てるには、IPv6 のアドレスを同時にします。
+前述したように、IPv6 のサンプル データには、図です。 [Skype ビジネス サーバー用にエッジ サーバーの展開計画](edge-server-deployments.md)のドキュメントのほとんどは、IPv4 を参照してください。 ですが、IPv6 を使用する場合に確実にサポートされています。 割り当てられたアドレス空間内の IPv6 アドレスを必要があり、IPv4 の ip アドレスと内部と外部のアドレスを使用する必要があります、ことに注意してください。 、、Windows のおかげで使用できるデュアル ・ スタック機能は、IPv4 と IPv6 のとは別のネットワーク スタックします。 これはする必要がある場合、IPv4 を割り当てるには、IPv6 のアドレスを同時にします。
   
 NAT64 を許可する NAT デバイス (IPv4 を IPv6) と NAT66 (ipv6 IPv6))、これは、Skype のビジネス サーバーで使用するために有効なと。
   

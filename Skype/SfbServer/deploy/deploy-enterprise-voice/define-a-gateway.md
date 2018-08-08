@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 でのトポロジ ビルダーを使用したゲートウェイの定義
+title: ビジネス サーバーの Skype でトポロジ ビルダーでゲートウェイを定義します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
-description: '概要: ビジネス サーバー 2015 の Skype でトポロジ ビルダーで、PSTN ゲートウェイを定義する方法を説明します。'
-ms.openlocfilehash: ae8656d60d819a92a22db6e97f83ea847ee15765
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: '概要: は、Skype でトポロジ ビルダーでビジネス サーバーの PSTN ゲートウェイを定義する方法を説明します。'
+ms.openlocfilehash: c83951c26a125c568535bfba7d487324a9b725d0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998554"
 ---
-# <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのトポロジ ビルダーを使用したゲートウェイの定義
+# <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>ビジネス サーバーの Skype でトポロジ ビルダーでゲートウェイを定義します。
  
-**の概要:** ビジネス サーバー 2015 の Skype でトポロジ ビルダーで、PSTN ゲートウェイを定義する方法について説明します。
+**の概要:** ビジネス サーバーの Skype でトポロジ ビルダーで、PSTN ゲートウェイを定義する方法について説明します。
   
 以下の手順を実行するには、エンタープライズ VoIP が有効なユーザーに公衆交換電話網 (PSTN) への接続を提供する仲介サーバーを関連付けることができますピアを定義するのにはトポロジ ビルダーを使用します。 仲介サーバーのピアには、PSTN ゲートウェイ、IP PBX、または、セッション ボーダー コント ローラー (SBC) は、インターネット テレフォニー サービス プロバイダー (ITSP)、SIP トランクを構成することで接続するができます。
   

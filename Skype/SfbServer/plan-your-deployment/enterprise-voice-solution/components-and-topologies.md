@@ -1,9 +1,8 @@
 ---
-title: Skype for Business 2015 の通話受付管理のコンポーネントとトポロジ
+title: コンポーネントおよびトポロジの受付制御に電話 Skype ビジネス
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: MPLS ネットワーク、SIP トランク、またサードパーティの PSTN ゲートウェイまたは PBX を使用している場合の通話受付管理 (CAC) の計画について説明します。 ビジネス サーバーのエンタープライズ VoIP Skype に適用されます。
-ms.openlocfilehash: bedb1737827eb18d56c15c088756c4eec9bab8c2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d08d5ca63c02a2ddf12f3f53a5e4952a7a366a71
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977708"
 ---
-# <a name="components-and-topologies-for-call-admission-control-in-skype-for-business-2015"></a>Skype for Business 2015 の通話受付管理のコンポーネントとトポロジ
+# <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>コンポーネントおよびトポロジの受付制御に電話 Skype ビジネス
  
 MPLS ネットワーク、SIP トランク、またサードパーティの PSTN ゲートウェイまたは PBX を使用している場合の通話受付管理 (CAC) の計画について説明します。 ビジネス サーバーのエンタープライズ VoIP Skype に適用されます。
   
@@ -36,7 +36,7 @@ Multiprotocol Label Switching (MPLS) では、すべてのサイトがフル メ
   
 MPLS ネットワークで通話受付管理 (CAC) を展開するには、MPLS クラウドを表すネットワーク地域を作成し、MPLS の各サテライト サイトを表すネットワーク サイトを作成します。 次の図で、前の図の MPLS ネットワークの例を表すための、ネットワーク地域およびネットワーク サイトの構成方法について説明します。 全体的な帯域幅および帯域幅セッションの制限は、各ネットワーク サイトから MPLS クラウドを表すネットワーク地域までの WAN リンクの容量に基づきます。
   
-**ネットワークの領域と、MPLS ネットワークのネットワーク サイト**
+**MPLS ネットワークのネットワーク地域およびネットワーク サイト**
 
 ![MPLS が含まれない通話受付管理 (CAC)](../../media/CAC_MPLS_2.jpg)
   
@@ -57,7 +57,7 @@ SIP トランクに CAC を構成するには、CAC の展開時に次の作業�
     > [!NOTE]
     > ITSP では、このネットワーク サイト構成は機能しません。 帯域幅ポリシーの値は、手順 2 で実際に適用されます。 
   
-2. 手順 1 で作成したサイトの関連するパラメーター値を使用して、SIP トランクのサイト間リンクを作成します。 たとえば、企業内のネットワーク サイトの名前を NetworkSiteID1 パラメーターの値として使用し、ITSP ネットワーク サイトの名前を NetworkSiteID2 パラメーターの値として使用します。 詳細については、展開に関するドキュメント、および[新規 CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)[ビジネス サーバー 2015 の Skype のネットワーク サイト間ポリシーの作成](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md)を参照してください。
+2. 手順 1 で作成したサイトの関連するパラメーター値を使用して、SIP トランクのサイト間リンクを作成します。 たとえば、企業内のネットワーク サイトの名前を NetworkSiteID1 パラメーターの値として使用し、ITSP ネットワーク サイトの名前を NetworkSiteID2 パラメーターの値として使用します。 詳細については、展開に関するドキュメント、および[新規 CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps) [Skype ビジネス サーバー用のネットワーク サイト間ポリシーの作成](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md)を参照してください。
     
 3. セッション ボーダー コント ローラー (SCB) の IP アドレスを取得、ITSP からメディアの終了点です。 サブネット マスクが 32 の IP アドレスを、ITSP を表すネットワーク サイトに追加します。 詳細については、[ネットワーク サイトとサブネットを関連付ける](http://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx)を参照してください。
     
@@ -69,7 +69,7 @@ SIP トランクに CAC を構成するには、CAC の展開時に次の作業�
 
 CAC は、WAN で展開できるサード パーティの PBX または PSTN ゲートウェイに仲介サーバーのゲートウェイ インターフェイスからリンクします。
   
-**ケース 1: CAC を仲介サーバーと PSTN ゲートウェイ間**
+**ケース 1: 仲介サーバーおよび PSTN ゲートウェイ間の CAC**
 
 ![ケース 1: 仲介サーバーと PSTN ゲートウェイ間の CAC](../../media/CAC_gateways_1.jpg)
   
@@ -94,7 +94,7 @@ CAC は、WAN で展開できるサード パーティの PBX または PSTN ゲ
 
 この構成はケース 1 に類似したものです。 どちらの場合で、仲介サーバーは、どのようなデバイスは、WAN リンクの反対側の端にあるメディアを終了するを知っているし、次ホップとして仲介サーバー、PSTN ゲートウェイまたは PBX メディア終端ポイント (MTP) の IP アドレスが構成されています。
   
-**ケース 2: CAC を仲介サーバーと MTP でサード パーティの PBX との間**
+**ケース 2: 仲介サーバーおよび MTP を含むサードパーティ製 PBX 間の CAC**
 
 ![ケース 2: 仲介サーバーと PBX (MTP が含まれる) 間の CAC](../../media/CAC_gateways_2.jpg)
   
@@ -119,7 +119,7 @@ CAC は、WAN で展開できるサード パーティの PBX または PSTN ゲ
 
 ケース 3 は、最初の 2 つのケースとは少し異なります。 サード パーティの PBX に MTP がない場合は、送信セッションのサード ・ パーティ製 PBX、仲介サーバーへの要求を認識しません、メディアが PBX の境界で終了。 この例では、メディアは仲介サーバーおよびサードパーティ製エンドポイント デバイスの間で直接フローします。
   
-**ケース 3: CAC を仲介サーバーと MTP のないサード パーティの PBX との間**
+**ケース 3: 仲介サーバーおよび MTP が含まれないサードパーティ製 PBX 間の CAC**
 
 ![ケース 3: 仲介サーバーと PBX (MTP が含まれない) 間の CAC](../../media/CAC_gateways_3.jpg)
   

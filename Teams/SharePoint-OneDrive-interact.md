@@ -1,21 +1,23 @@
 ---
-title: "Microsoft Teams との SharePoint Online と OneDrive for Business の連携"
+title: Microsoft Teams との SharePoint Online と OneDrive for Business の連携
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 07/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: snigdhav
-description: "プライベート チャット ファイルの格納方法、チーム、チャネル、ドキュメント ライブラリの関係など、Microsoft Teams との SharePoint Online および OneDrive for Business の連携について説明します。"
+description: プライベート チャット ファイルの格納方法、チーム、チャネル、ドキュメント ライブラリの関係など、Microsoft Teams との SharePoint Online および OneDrive for Business の連携について説明します。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef80cf3f52e9a661bca8694bd679ba18dd4cf04e
-ms.sourcegitcommit: 9094c87dec3f8d7d05c7e879d357a6ed428d7cdf
-ms.translationtype: HT
+ms.openlocfilehash: f91836848f6a7698025e118542628cbce44166c6
+ms.sourcegitcommit: 046cc4a880f3b6b5f912278483cf28fa25619b6e
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "21597584"
 ---
 <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Microsoft Teams との SharePoint Online と OneDrive for Business の連携
 =============================================================================
@@ -24,9 +26,12 @@ Microsoft Teams の各チームには SharePoint Online にチーム サイト�
 
 プライベート チャット ファイルは送信者の OneDrive for Business フォルダーに格納され、権限はファイル共有プロセスの一環としてすべての参加者に付与されます。
 
-テナントで SharePoint Online を有効にしていない場合、Teams のユーザーはチームでファイルを共有できません。プライベート チャットのユーザーも、OneDrive for Business (SharePoint ライセンスに関連付けられている) が SharePoint Online の機能を必要とするため、ファイルを共有できません。
+ユーザーは、割り当てられているし、SharePoint Online のライセンスでは有効になっていない、Office 365 でのビジネス ・ ストレージの OneDrive はありません。 ファイルの共有は、チャネルで作業する続行されますが、ユーザーが Office 365 でのビジネス ・ ストレージの OneDrive にチャットでファイルを共有できません。
 
-SharePoint Online ドキュメント ライブラリと OneDrive for Business にファイルを格納することで、テナントレベルで構成されるすべてのコンプライアンス ルールが順守されます。
+SharePoint Online ドキュメント ライブラリと OneDrive for Business にファイルを格納することで、テナントレベルで構成されるすべてのコンプライアンス ルールが順守されます。 
+
+> [!NOTE]
+> この時点でマイクロソフトのチームは、Sharepoint の設置型との統合がサポートされていません。
 
 チーム、チャネル、ドキュメント ライブラリの関係の例を次に示します。
 

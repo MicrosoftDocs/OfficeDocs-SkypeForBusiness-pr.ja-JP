@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 の SIP トランキング
+title: Skype ビジネス サーバーでの SIP トランク
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,17 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: ビジネス サーバーのエンタープライズ VoIP の Skype での SIP トランクに関する説明します。
-ms.openlocfilehash: 39300bfd518729cf99e41accfc64412bbcf4afb4
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 19029bd2006d269736e4b49830d202ddf07c6a79
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980077"
 ---
-# <a name="sip-trunking-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の SIP トランキング
+# <a name="sip-trunking-in-skype-for-business-server"></a>Skype ビジネス サーバーでの SIP トランク
  
 ビジネス サーバーのエンタープライズ VoIP の Skype での SIP トランクに関する説明します。
   
-セッション開始プロトコル (SIP) は、基本的な電話サービスおよび追加のリアルタイム通信サービス (インスタント メッセージング、会議、プレゼンス検出、マルチメディアなど) のボイス オーバー IP (VoIP) 通信セッションを開始および管理するために使用します。 このセクションでは、SIP トランク、ローカル ネットワークの境界を越える SIP 接続の型を実装するための計画に関する情報を提供します。
+セッション開始プロトコル (SIP) は、基本的な電話サービスおよび追加のリアルタイム通信サービス (インスタント メッセージング、会議、プレゼンス検出、マルチメディアなど) のボイス オーバー IP (VoIP) 通信セッションを開始および管理するために使用します。ここでは、ローカル ネットワークの境界を越えて広がる種類の SIP 接続である、SIP トランクを実装するための計画情報について説明します。
   
 ## <a name="what-is-sip-trunking"></a>SIP トランクとは
 
@@ -61,7 +61,7 @@ SIP トランクは直接サービス プロバイダーに接続されるため
 
 用語のトランクは、回線交換方式の技術から派生します。 電話の交換機を接続する専用の物理行を指します。 SIP トランクが独立した 2 つの SIP ネットワーク間の接続をその前身である多重 (TDM) のトランク、時間の区分と同様に、ビジネス サーバーのエンタープライズの Skype と、ITSP。 回線交換方式のトランクとは異なりは、SIP トランクは、サポートされている SIP トランキング接続の種類のいずれかを介して確立できる仮想の接続です。
   
-これに対し、直接 SIP 接続は、ローカル ネットワークの境界を越えない SIP 接続です (つまり、内部ネットワーク内の公衆交換電話網 (PSTN) ゲートウェイまたは構内交換機 (PBX) に接続します)。 ビジネス サーバーは、Skype で直接 SIP 接続を使用する方法についての詳細は、[ビジネス サーバー 2015 の Skype での直接 SIP 接続](direct-sip.md)を参照してください。 
+これに対し、直接 SIP 接続は、ローカル ネットワークの境界を越えない SIP 接続です (つまり、内部ネットワーク内の公衆交換電話網 (PSTN) ゲートウェイまたは構内交換機 (PBX) に接続します)。 ビジネス サーバーは、Skype で直接 SIP 接続を使用する方法に関する詳細については、 [Skype ビジネス サーバー用に、直接 SIP 接続](direct-sip.md)を参照してください。 
   
 ## <a name="how-do-i-implement-sip-trunking"></a>SIP トランキングの実装方法
 
@@ -69,7 +69,7 @@ SIP トランクを実装するため、Skype ビジネス サーバーのクラ
   
 各仲介サーバーは、内部ネットワーク インターフェイスと外部ネットワーク インターフェイスを持ちます。 内部インターフェイスは、フロント エンド サーバーに接続します。 外部インターフェイスが一般的と呼ばれるゲートウェイ インターフェイス公衆交換電話網 (PSTN) ゲートウェイまたは IP PBX に仲介サーバーの接続に使用されてきましたので。 SIP トランクを実装するには、ITSP の外部エッジ コンポーネントに、仲介サーバーの外部インターフェイスを接続します。 ITSP の外部エッジ コンポーネントとは、セッション ボーダー コントローラー (SBC)、ルーター、またはゲートウェイです。
   
-詳細については、仲介サーバーは、[ビジネス サーバー 2015 の Skype での仲介サーバーのコンポーネント](mediation-server.md)を参照してください。 
+詳細については、仲介サーバーは、[ビジネスのサーバー用の Skype での仲介サーバー コンポーネント](mediation-server.md)を参照してください。 
   
 ### <a name="centralized-vs-distributed-sip-trunking"></a>集中型と分散型 SIP トランキングの比較
 
@@ -94,7 +94,7 @@ SIP トランクを実装するため、Skype ビジネス サーバーのクラ
 集中型 SIP トランキングと分散型 SIP トランキングのどちらを展開するかを決定するには、費用便益分析が必要です。 必要のない場合にも分散型展開モデルを選択した方が有益な場合があります。 完全に一元的な展開では、すべてのブランチ サイトのトラフィックが WAN リンク経由でルーティングされます。 WAN リンクに必要な帯域幅に費用をかけるより、分散型 SIP トランキングを使用したい場合があります。 フェデレーションを使用してブランチ サイトで Standard Edition サーバーをセントラル サイトに配置することがなど、リカバリ性に優れたブランチ アプライアンスまたは小さいゲートウェイの存続可能ブランチ サーバーを配置することがあります。
   
 > [!NOTE]
-> 詳細については、分散型 SIP トランキングは、[ビジネス サーバー 2015 の Skype のブランチ サイトの SIP トランク](branch-site.md)を参照してください。 
+> 分散型 SIP トランクに関する詳細については、 [Skype のビジネス サーバーでブランチ サイトの SIP トランク](branch-site.md)を参照してください。 
   
 ### <a name="supported-sip-trunking-connection-types"></a>サポートされている SIP トランキング接続の種類
 
@@ -182,7 +182,5 @@ VPN サーバーを使用する場合、次のガイドラインに従うこと�
     
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[ビジネス サーバー 2015 の Skype のブランチ サイトの SIP トランク](branch-site.md)
+[Skype ビジネス サーバー用のブランチ サイトの SIP トランク](branch-site.md)
 

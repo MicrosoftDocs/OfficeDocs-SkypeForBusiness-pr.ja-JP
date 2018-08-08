@@ -16,12 +16,13 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 0d16ec3a-28f0-4483-96e7-8e68f30398fa
-description: '概要: は、Skype ビジネス サーバーとビジネス オンラインの Skype との間のハイブリッドの接続を展開する方法については、このトピックを読みます。'
-ms.openlocfilehash: d96cff493daf8efa213c635a5a1454bfa370de9a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: '概要: このトピックでは、Skype for Business Server と Skype for Business Online 間でハイブリッド接続を展開する方法を説明します。'
+ms.openlocfilehash: d2f2792f46f50b8b4889a4659993bb4fa22dcbc0
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21708340"
 ---
 # <a name="deploy-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Skype for Business Server と Skype for Business Online 間でハイブリッド接続を展開する
  
@@ -33,12 +34,9 @@ Skype ビジネス サーバーとビジネス オンラインの Skype との�
   
 次の表は、ビジネスをオンラインで、Microsoft Office 365 の Skype でハイブリッド展開の環境を準備するために必要な手順を示します。 
   
-|**手順**|**説明**|
+|**ステップ**|**説明**|
 |:-----|:-----|
-|Office 365 テナント アカウントを作成し、オンライン ビジネスの Skype を有効にします。  <br/> |[Office 365](https://go.microsoft.com/fwlink/p/?LinkId=254980)のオンライン ビジネスでは、Office 365 と Skype について説明します。  <br/> お客様の環境が Office 365 の準備ができていることを確認するには、[システム要件](https://go.microsoft.com/fwlink/p/?LinkId=401408)を参照してください。  <br/> Office 365 のセットアップの詳細については、 [Office 365 の概要](https://go.microsoft.com/fwlink/p/?LinkId=254982)を参照してください。  <br/> |
-|Office 365 テナントに自分のドメインを追加し、所有権を確認  <br/> | Office 365 テナントにドメインを追加して、Office 365 でそのドメインを検証します。 この検証は、ドメインの所有者が自分であることを確認するために必要な手順です。 <br/> Office 365 テナントに自分のドメインを追加するには、以下の[Office 365 にドメインを追加](https://go.microsoft.com/fwlink/p/?LinkId=254983)で説明した手順を。  <br/> |
-|作業中のディレクトリ同期を準備します。  <br/> |作業中のディレクトリ同期処理では、Office 365 と同期して継続的に、オンプレミスの Active Directory を保持します。 これにより、各ユーザー アカウントおよびグループの同期バージョンを作成できるだけでなく、ローカルの Microsoft Exchange Server 環境から Microsoft Exchange Online へのグローバル アドレス一覧 (GAL) の同期を実行できるようになります。 詳細については、[ディレクトリの統合ツール](https://go.microsoft.com/fwlink/p/?LinkId=530320)を参照してください。  <br/> > [!IMPORTANT]> する必要があります設置とオンラインの展開では、組織内のビジネス ユーザー向けのすべての Skype の AD のアカウントを同期する場合でも、オンライン ビジネスのユーザーが Skype に移動できません。 すべてのユーザーを同期しない場合、組織のオンプレミス展開のユーザーとオンライン ユーザーとの間の通信が正常に動作しない可能性があります。           |
+|Office 365 テナント アカウントを作成し、オンライン ビジネスの Skype を有効にします。  <br/> |[Office 365](https://go.microsoft.com/fwlink/p/?LinkId=254980)のオンライン ビジネスでは、Office 365 と Skype について説明します。  <br/> お客様の環境が Office 365 の準備ができていることを確認するには、[システム要件](https://products.office.com/en-US/office-system-requirements)を参照してください。  <br/> Office 365 のセットアップの詳細については、 [Office 365 の概要](https://go.microsoft.com/fwlink/p/?LinkId=254982)を参照してください。  <br/> |
+|Office 365 テナントに自分のドメインを追加し、所有権を確認  <br/> | Office 365 テナントにドメインを追加して、Office 365 でそのドメインを検証します。 この検証は、ドメインの所有者が自分であることを確認するために必要な手順です。 <br/> Office 365 テナントに自分のドメインを追加するには、以下の[Office 365 にドメインを追加](https://support.office.com/en-us/article/add-a-domain-to-office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611?ui=en-US&rs=en-US&ad=US)で説明した手順を。  <br/> |
+|作業中のディレクトリ同期を準備します。  <br/> |作業中のディレクトリ同期処理では、Office 365 と同期して継続的に、オンプレミスの Active Directory を保持します。 これにより、各ユーザー アカウントおよびグループの同期バージョンを作成できるだけでなく、ローカルの Microsoft Exchange Server 環境から Microsoft Exchange Online へのグローバル アドレス一覧 (GAL) の同期を実行できるようになります。 詳細については、[ディレクトリの統合ツール](https://go.microsoft.com/fwlink/p/?LinkId=530320)を参照してください。  <br/>  **重要**オンライン ビジネスのユーザーが Skype に移動しない場合でも、設置とオンラインの展開では、組織内のビジネス ユーザー向けのすべての Skype の AD のアカウントを同期する必要があります。 すべてのユーザーを同期しない場合、組織のオンプレミス展開のユーザーとオンライン ユーザーとの間の通信が正常に動作しない可能性があります。           |
 |パイロット ユーザーを移動する  <br/> |準備し、Skype のオンライン ビジネスの環境を構成する手順を完了したら、パイロット ユーザーをオンラインの Office 365 テナントに移行を開始できます。 [Skype ビジネスをオンラインにするには、社内設置型からユーザーを移動する](move-users-from-on-premises-to-skype-for-business-online.md)を参照してください。  <br/> |
-|ハイブリッド展開でユーザーを管理する  <br/> |ハイブリッド展開内のユーザーを管理する方法の詳細については、[ハイブリッド展開でユーザーを管理する](http://technet.microsoft.com/library/6924ed7b-30a9-4be7-b952-90655625f2c8.aspx)を参照してください。  <br/> |
-   
-

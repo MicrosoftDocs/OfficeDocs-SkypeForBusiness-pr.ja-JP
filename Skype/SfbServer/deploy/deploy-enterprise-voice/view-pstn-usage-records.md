@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 での PSTN 使用法レコードの表示
+title: ビジネス用の Skype の PSTN 使用法レコードの表示
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 description: '概要: ビジネス サーバー管理シェルのビジネス サーバーのコントロール パネルまたは、Skype、Skype を使用して PSTN 使用法レコードを表示する方法を説明します。'
-ms.openlocfilehash: e4e58326fade20a48b032cf6cdc575894152fac0
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: c5775f619c1da1e94ff6aad0b4794e686611ab92
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967144"
 ---
-# <a name="view-pstn-usage-records-in-skype-for-business-2015"></a>Skype for Business Server 2015 での PSTN 使用法レコードの表示
+# <a name="view-pstn-usage-records-in-skype-for-business"></a>ビジネス用の Skype の PSTN 使用法レコードの表示
  
 **の概要:** ビジネス サーバー管理シェルのビジネス サーバーのコントロール パネルまたは、Skype、Skype を使用して PSTN 使用法レコードを表示する方法について説明します。
   
@@ -47,14 +47,12 @@ ms.lasthandoff: 05/03/2018
 
     このコマンドは、次のような情報を返します。
     
-  ```
+<pre>
   Identity : Global
   Usage    : {Internal, Local, Long Distance}
-  ```
+</pre>
 
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[作成し、音声ポリシーを変更またはビジネス 2015年の Skype の PSTN 使用法レコードを構成します。](voice-policy-and-pstn-usage-records.md)
+[作成し、音声ポリシーを変更または Skype ビジネスのために PSTN 使用法レコードを構成します。](voice-policy-and-pstn-usage-records.md)
 

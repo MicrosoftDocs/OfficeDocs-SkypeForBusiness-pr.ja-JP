@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rramesan
 description: マイクロソフト チームのゲスト アクセスでゲスト アクセスを設定するのには、このチェックリストを使用します。
+localization_priority: Priority
 ms.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e53800ddf452fd6596abe3e4404c79352483e946
-ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
+ms.openlocfilehash: 9eec0425f7060597fc0d6a669a9b76821f141421
+ms.sourcegitcommit: 0fa147c33b1d7b5790af8d93339700ab62939430
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19744272"
 ---
 <a name="teams-guest-access-checklist"></a>チームのゲスト アクセスのチェックリスト
 ==========================================
@@ -63,23 +65,24 @@ ms.lasthandoff: 03/09/2018
 
 **設定**に移動し、Office 365 管理センターで、 > **サービスおよびアドイン** > **Office 365 のグループ**です。
 
-**グループ コンテンツには、組織のアクセス以外のグループのメンバー**になっている****を確認します。 この設定をオフにすると、来園者は任意のグループのコンテンツにアクセスできません。
+**グループ コンテンツには、組織のアクセス以外のグループのメンバー**になっている**** を確認します。 この設定をオフにすると、来園者は任意のグループのコンテンツにアクセスできません。
 
-**オン**に設定**、グループの所有者のグループを組織外のユーザーを追加**することを確認します。 この設定をオフにすると、チームの所有者は新しいゲストを追加するのにはできません。 (ただし、管理者が、Azure AD にゲスト ユーザーに追加した場合、チームの所有者になりますチームにそのユーザーを追加すること。)最低限、この設定は guest アクセスをサポートするために"on"にする必要があります。
+**オン**に設定 **、グループの所有者のグループを組織外のユーザーを追加**することを確認します。 この設定をオフにすると、チームの所有者は新しいゲストを追加するのにはできません。 最低限、この設定は guest アクセスをサポートするために"on"にする必要があります。
 
 これらの設定を構成する方法の詳細については、[マイクロソフトのチームでのゲスト アクセスを許可](Teams-dependencies.md)し、 [Office 365 のグループへのゲスト アクセスの許可/禁止](https://go.microsoft.com/fwlink/?linkid=869658)の「Office 365 グループ」を参照してください。
  
 
 
 ## <a name="-configure-settings-in-azure-ad-business-to-business-b2b"></a>□ Azure AD の企業間 (B2B) の設定の構成
-1. Https://portal.azure.com にサインインします。
+1. サインインするのにhttps://portal.azure.com。
 2. **Azure Active directory**は、左側のウィンドウでクリックします。
 3. [**管理**] で、**ユーザー設定**をクリックします。
-4. **外部ユーザー**の場合は、**メンバーを招待できる**、 **Yes**に設定されていることを確認します。![のスクリーン ショットは、AAD の設定の表示/非表示の例を示しています。 ](media/guest-access-checklist-AADSettings1.png)
+4. **外部ユーザー**] の下の [**外部管理の共同作業の設定**] をクリックします
+5. **外部コラボレーションの設定**] ページで**メンバーを招待できる**、 **Yes**に設定されていることを確認します。![のスクリーン ショットは、AAD の設定の表示/非表示の例を示しています。 ](media/guest-access-checklist-AADSettings1.png)
 
     
 
-来園者をサポートするために少なくとも ► は、 **[はい]**に設定してください**メンバーを招待できます**。
+来園者をサポートするために少なくとも ► は、 **[はい]** に設定してください**メンバーを招待できます**。
 
 > > [!NOTE]
 > **メンバーを招待****なし**に設定して Office 365 のグループとマイクロソフトのチームでのゲスト アクセスを有効にする場合、管理者はディレクトリへのゲストの招待状を制御できます。 来園者は、ディレクトリには後に、追加できますチームに管理者以外のメンバー (チーム所有者) によって。
@@ -97,7 +100,7 @@ ms.lasthandoff: 03/09/2018
 1. Office 365 管理センターにサインインします。
 2. **管理センター**] をクリックし、 **SharePoint**を選択します。
 3. SharePoint 管理センターでは、**共有**を選択します。
-4. オプションの確認**、組織外の共有を許可しない**が選択されて*いない*場合。![のスクリーン ショットは、Sparepoint のオンライン設定の表示/非表示の例を示しています。 ](media/guest-access-checklist-SPOSettings1.png)
+4. オプションの確認 **、組織外の共有を許可しない**が選択されて*いない*場合。![のスクリーン ショットは、Sparepoint のオンライン設定の表示/非表示の例を示しています。 ](media/guest-access-checklist-SPOSettings1.png)
 
 
 

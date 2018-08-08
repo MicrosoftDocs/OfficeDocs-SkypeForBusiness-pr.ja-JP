@@ -1,132 +1,134 @@
 ---
-title: Steering committee for Microsoft Teams cloud voice deployment
+title: クラウド ボイスの展開をマイクロソフト チームの運営委員会
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Identify a governing group of key stakeholders and project leaders to identify deployment objectives, track progress, and remove blockers.
+description: 展開の目標の特定、進行状況を追跡およびブロックを削除するには、主要な関係者とプロジェクト リーダーの管理グループを識別します。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30553d989a48fb008b6dc52c759150b2997ac01b
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: b4f3651ca59819ba732f5fe1e705201d4ee44757
+ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "20266130"
 ---
-# <a name="steering-committee"></a>Steering committee
+# <a name="steering-committee"></a>運営委員会
 
-## <a name="steering-committee-overview"></a>Steering committee overview
+## <a name="steering-committee-overview"></a>運営委員会の概要
 
-A steering committee is a governing group of key stakeholders and project leaders who have been brought together to guide a project or program toward its defined business outcomes. The steering committee isn’t directly responsible for *how* the project is delivered, but rather *what* the project delivers to the business.
+運営委員会の主要な関係者がプロジェクト リーダーの管理グループでは一緒にプロジェクトまたはプログラムは、定義されたビジネス結果になります。 運営委員会が*どのように*プロジェクトが配信されるではなく*どのような*プロジェクトがビジネスに提供を直接担当ではありません。
 
-Every project requires an agreed-on vision and charter. To deliver the projects’ desired outcomes the vision must be clearly defined, it needs to be monitored and maintained. This becomes the responsibility of the steering committee: to drive decisions, advise, provide strategic oversight, to serve as advocates to the organization for the project’s initiatives, and—when necessary—remove blockers.
+すべてのプロジェクトには、合意済みのビジョンとチャーターが必要です。 プロジェクトのビジョンを明確に定義する必要が希望する成果を実現するには、監視および管理に必要です。 これは、運営委員会の責任になります: 意思、アドバイスのプロジェクトの計画、組織の代弁者として機能する、戦略的な監視を提供して -必要な場合に、ブロックを削除します。
 
-Your organization should put significant thought into the formation of the steering committee. The committee must ensure that the project achieves the business objectives you’ve defined for driving change throughout the organization, meet periodically to discuss the current pulse of the project, and help remove any obstacles that are encountered during the journey.
+組織は、運営委員会の形成に重要な思考を置く必要があります。 委員会によってプロジェクトが、プロジェクトの現在のパルスを説明するには、定期的に対応、組織全体にわたって変更を推進するために定義されているし、削除中に発生した障害物がないため、ビジネス目標を達成する必要があることを確認します旅。
 
-The committee should define its charter to include some key objectives:
+委員会は、いくつかの重要な目的を含むように、チャーターを定義する必要があります。
 
--   Keep a strong alignment between the project team and the executive sponsor or executive leadership.
+-   プロジェクト チームとスポンサー、または経営幹部のリーダーシップの間の厳密な配置を保持します。
 
--   Provide insight into the status of the project to the executive sponsor or executive leadership.
+-   エグゼクティブ スポンサーまたは経営幹部のリーダーシップ、プロジェクトの状態についての情報を提供します。
 
--   Allow the executive sponsor or executive leadership team to provide direction and input to the project and ensure that it aligns with overarching business goals, by adjusting project plans, objective key results (OKRs), and other project activities.
+-   方向を提供し、プロジェクトへの入力し、ビジネス目標、プロジェクト計画、主要目的の結果 (OKRs)、およびその他のプロジェクトの活動を調整することで包括的なと揃うことを確認するには、エグゼクティブ スポンサーまたは経営幹部のリーダーシップ ・ チームを許可します。
 
-The steering committee meets at a recurring interval throughout the lifetime of a project to ensure alignment between the organizational leadership and the project team. This critical meeting ensures that the direction of the project has leadership’s full support and incorporates any feedback provided by leadership into the project to drive success. The committee uses these meetings to gain insight into project status, and also to:
+運営委員会は、組織のリーダーシップとプロジェクト チームの連携を確保するためのプロジェクトの有効期間全体での定期的な間隔で満たしています。 この重要な会議では、プロジェクトの方向はリーダーシップの完全なサポートを持つし、ドライブの成功のためのプロジェクトのリーダーシップによって提供されるすべてのフィードバックを組み込むことを保証します。 委員会は、プロジェクトの進捗状況、および見通しを得るためにこれらの会議を使用します。
 
--   Agree on business outcomes that align to the business case, and to ensure the project is driving towards delivery of these outcomes.
+-   ビジネスの成果にビジネス ・ ケース、およびプロジェクトにこれらの結果の配信に影響を与えていることを確認することに合意します。
 
--   Check and approve the project for accuracy and compliance with the business case.
+-   確認し、正確性とビジネス ・ ケースの遵守のためのプロジェクトを承認します。
 
--   Review and verify changes made to the business case that could affect any defined outcomes.
+-   確認し、任意に定義された結果に影響を与えるビジネス ・ ケースに加えられた変更を確認します。
 
--   Make strategic decisions regarding the prioritization of project deliverables, and approve interim deliverables.
+-   プロジェクトの成果物の優先順位付けに関する戦略的意思決定を行い、暫定的な成果物を承認します。
 
--   Identify, manage, and mitigate gaps, risks, and issues where additional influence is required from the committee.
+-   識別、管理、および、ギャップ、リスク、およびその他の影響が、委員会から必要がある問題を軽減します。
 
--   Gather support from the executive sponsor or executive leadership team for issues that require escalation, prioritizing and resolving any conflicts between stakeholder business units. 
+-   エグゼクティブ スポンサーまたは優先順位付け、利害関係者のビジネス単位間で競合を解決して、エスカレーションが必要な問題の経営幹部のリーダーシップ ・ チームからのサポートを収集します。 
 
--   Provide formal feedback and recommendations to executive leadership, the change advisory board, or other business and IT stakeholders, as applicable.
+-   正式なフィードバックと経営幹部のリーダーシップ、変更諮問委員会では、またはその他のビジネスおよび IT 関係者の適切な推奨事項を提供します。
 
-## <a name="identify-members-of-the-steering-committee"></a>Identify members of the steering committee
+## <a name="identify-members-of-the-steering-committee"></a>運営委員会のメンバーを識別します。
 
-A committee is only as effective as its participants are influential. The steering committee needs to maintain representation from both business and technical decision makers, along with any of the core project team leadership and partner teams who contribute to the solution.
+委員会を効果的に、その参加者は、influential だけです。 運営委員会は、ビジネスおよび技術的意思決定者、コア プロジェクト チームにおけるリーダーシップと、ソリューションに貢献するパートナー チームのいずれかとの両方の形式を維持する必要があります。
 
-Every steering committee needs strong leadership and clearly defined roles and responsibilities. To set realistic expectations for the committee’s performance and the participation of its members, you must document and agree on assigned roles and responsibilities. You absolutely must have a responsive executive sponsor and business leadership on this committee to provide effective influence across the organization and ensure a diverse perspective.
+各運営委員会には、強力な指導力と明確に定義された役割と責任が必要があります。 委員会のパフォーマンスと、メンバーの参加の現実的な期待を設定するには、文書化し、割り当てられた役割と責任について合意する必要があります。 必要があるビジネスのリーダーシップ、エグゼクティブ スポンサーの応答性の高いこの委員会を組織全体にわたって効果的な影響を提供し、多様な観点で。
 
 > [!NOTE]
-> Adjust roles and responsibility based on your organization and project team design. In smaller organizations, these roles can overlap.
+> 役割と責任は、組織やプロジェクト チームの設計を調整します。 小規模な組織では、これらの役割がオーバー ラップできます。
 
 | タイトル | 役割 | 連絡先 | Email |
 |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-----------|
-| エグゼクティブ スポンサー | Advocate for the project, ensure its direction stays in alignment with the vision of the organization. Serve as ultimate authority to make decisions the committee can’t agree on. | | |
-| Business Decision Maker(s) | Advocate for the project, ensure its direction stays in alignment with the vision of the organization | | |
-| Architect | Ensure that technology decisions are achievable and align to agreed-on business outcomes. | | |
-| Core Project Team | Provide details about any specific component, either technical or non-technical (such as adoption and change management) | | |
-| 品質のチャンピオン | Be accountable for putting together quality metrics. | | |
-| Program/Project Manager | Take responsibility for the presentation and collection of feedback to incorporate into the project. | | |
-| Partner Account Team | Provide feedback from the partner’s point of view from a broader perspective, other partner activities. | | |
-| Partner Project Team | Provide feedback from the partner’s point of view regarding the delivery of the project | | |
+| エグゼクティブ スポンサー | プロジェクトのその方向のまま、組織のビジョンに合わせて配置することを確認します。 委員会を決定する最高の権限が合意できないとサービスを提供します。 | | |
+| ビジネス意思決定の Maker(s) | プロジェクトのその方向のまま、組織のビジョンに合わせて配置することを確認 | | |
+| アーキテクト | テクノロジに関する意思決定が実現可能なは、合意済みのビジネスの成果に合わせて整列するようにします。 | | |
+| コア プロジェクト チーム | 技術または (変更の導入と管理) などの技術情報以外のいずれかで、任意の特定のコンポーネントに関する詳細情報を提供します。 | | |
+| 品質チャンピオン | 品質基準をまとめる責任者であります。 | | |
+| プログラム/プロジェクト ・ マネージャー | プレゼンテーションやプロジェクトに組み込むためのフィードバックの収集の責任を負います。 | | |
+| パートナー ・ アカウント ・ チーム | パートナーの側から見ると他のパートナーの活動のより広範な観点からのフィードバックを提供します。 | | |
+| パートナー ・ プロジェクト ・ チーム | パートナーの側から見ると、プロジェクトの配信に関するフィードバックを提供します。 | | |
 
-## <a name="schedule-steering-committee-meetings"></a>Schedule steering committee meetings 
+## <a name="schedule-steering-committee-meetings"></a>運営委員会の会議のスケジュール設定します。 
 
-Although every organization and every project team is structured in slightly different ways, the steering committee meeting should never become just another project standup meeting. Consider the objectives of the steering committee meeting: it’s your opportunity to keep the project on track by gathering support and direction from the executive sponsor or executive leadership. Make sure that everyone attends this meeting so there’s direct messaging between the entire project team and executive sponsor or executive leadership and there is no miscommunication when the message is relayed.
+すべての組織およびすべてのプロジェクト チームは、少し異なる方法で構成されているが運営委員会の会議はプロジェクトの 1 つのスタンド アップ ミーティングをことはありませんにする必要があります。 運営委員会会議の目標を検討してください: 経営幹部のリーダーシップ、エグゼクティブ スポンサーからのサポートと方向を収集することによって、プロジェクトを常に管理するには、セールス ・ チャンスであります。 直接全体のプロジェクト チームやスポンサー、経営幹部のリーダーシップ間のメッセージングとメッセージを中継する際、連絡はありませんので、この会議を参加することを確認します。
 
-When scheduling a committee meeting, take into consideration the project and organizational cadence. Try to schedule it either weekly or every other week, based on your executive sponsors’ preference and the pace of your organization.
+委員会が会議をスケジュールするとき考慮に入れる、プロジェクトと組織のリズム。 エグゼクティブ ・ スポンサーの優先順位と、組織のペースで毎週または隔週、ベースのいずれかのようにスケジュールしてください。
 
 > [!TIP]
-> If yours is a fast-moving environment, don’t let too much time pass between meetings—that can lead to problems that could have been avoided by meeting more frequently. However, in a slower-paced environment, holding a meeting every week can lead to meeting fatigue, which might decrease the effectiveness of the steering committee. Use your experience and judgement to determine the appropriate cadence, and always remember that you can change the schedule. Don't meet just for the sake of meeting.
+> 会議の間でやり取りする時間がかかりすぎることあなたは、動きの速い環境である場合はありません-より頻繁に満たすことによって防ぐことがある問題をもたらすことができます。 ただし、ペースで学習できる低速環境で毎週会議を保持している可能性が会議の疲労は、運営委員会の有効性が低下する可能性があります。 経験と判断を使用して、適切なリズムを判断し、常にスケジュールを変更できることに注意してください。 会議のためにすぐに対応できないといいます。
 
-### <a name="prepare-for-the-meeting"></a>Prepare for the meeting
+### <a name="prepare-for-the-meeting"></a>会議を準備します。
 
-To make the most of everyone’s time, you need to prepare for the meeting. The core team can start to prepare the material for the steering committee meeting. The [Steering Committee Template – Link to sample PPT template] Steering Committee Template can be used as a starting point for preparation.
+全員の時間のほとんどをするためには、会議の準備をする必要があります。 コア チームは、運営委員会の会議資料の準備を開始できます。 [運営委員会テンプレート-PPT テンプレートのサンプルへのリンク] 運営委員会のテンプレートは、準備のための開始点として使用できます。
 
 次のアセットを完了し、ミーティングのプレゼンテーション デッキに含まれている必要があります。
 
--   Follow-up on prior steering committee action items
+-   以前の運営委員会の実施項目をフォロー アップ
 
--   Steering committee PowerPoint, project high-level status report
+-   PowerPoint の運営委員会、プロジェクトの高レベルの状態レポート
 
-    -   Look at the project all up from a monthly/quarterly/yearly–type review.
+    -   プロジェクトを毎月、四半期、年 – 型レビューからすべてを見てください。
 
-    -   Identify key project milestones:
+    -   主要なプロジェクトのマイルス トーンを識別します。
 
-        -   Discuss the importance and impact of milestones (these should be captured in the risks register).
+        -   (リスク レジスターにこれらキャプチャする必要があります) のマイルス トーンの影響と重要性について説明します。
 
-        -   Decide on go/no-go for upcoming migrations based on preparation, particularly with business decision makers.
+        -   続行/中止の準備として、特にビジネスの意思決定者に基づく今後の移行を決定します。
 
-    -   Call out project execution dates and high-impact activities.
+    -   プロジェクトの実行の日付とインパクトの活動を呼び出します。
 
-    -   Report on the OKRs that were identified as important to the committee; be sure to include usage, user sentiment, quality and reliability metrics.
+    -   役員にとって重要なものとして識別された OKRs のレポートします。使用率、ユーザー市場での評判、品質と信頼性の測定値を含めることを確認します。
 
--   Steering Committee PowerPoint, project weekly status report
+-   PowerPoint の運営委員会、毎週の進捗レポート
 
-    -   Contains highlight and lowlights, key issues, and action items, and next steps.
+    -   ハイライトとお、重要な問題、およびアクション アイテムと次のステップが含まれています。
 
-    -   Contains more technical detail focused on day to day issues and less on overall project status.
+    -   日々 の問題に焦点をプロジェクトの全体的な状態よりも技術的な詳細の詳細が含まれています。
 
--   Issues log and risks register [Link Risk-Issues Log (Web Content)]
+-   懸案事項ログおよび[リスクの登録](1-envision-define-my-success-cloud-voice.md#define-okrs-ksis-and-risks)
 
     -   委員会を追跡しているすべての問題の状態を共有します。
 
         -   すべてのバグの更新プログラムを提供する準備をします。
 
-    -   Identify any new items that could affect the success of achieving business outcomes.
+    -   ビジネスの成果を達成するための成功に影響を与えるすべての新しいアイテムを識別します。
 
         -   プロジェクトに与える影響を特定します。
 
-        -   Identify the affected individuals or business units.
+        -   影響を受ける個人またはビジネス ・ ユニットを識別します。
 
         -   次のステップを特定し、どのような支援委員会のメンバーから必要な場合があります。
 
--   Quality overview: use reports from the Quality Champion [LINK to Planning for Service Management and Quality (Web Content)]
+-   品質の概要:[品質の支持者](envision-planning-for-service-management-and-quality-complete-guide.md#the-quality-champion-role)からのレポートを使用します。
 
     -   覚悟を詳細にこれらの品質評価レポートの結果を説明し、記載されているすべての問題を修正するための推奨事項が含まれます。
 
-    -   Adjust the quality reports each week to focus on the following areas:
+    -   次の分野に重点を置くには、毎週の品質評価レポートを調整します。
 
         -   組織の全体的な品質の傾向
 
@@ -154,7 +156,7 @@ To make the most of everyone’s time, you need to prepare for the meeting. The 
 
 5.  しようとします (該当する場合)、他のユーザーの作業の作業とユーザーのフィードバックについては、正のニュースを促進します。 指示し、ストーリーを販売します。 フィードバックが完全に負の場合は、それについて説明し、負の値のユーザー エクスペリエンスの問題に対処するのには何が行われることを説明する準備をしてください。
 
-    a.  Take the opportunity to give kudos to individual team members for the good work they’re doing. 優れた、ハード作業は特に、リーダーシップ ・ チームの前に、チーム メンバーが達成されているときを認識するように重要です。
+    a.  やって良い作業の個々 のチーム メンバーへの賞賛を与える機会を利用します。 優れた、ハード作業は特に、リーダーシップ ・ チームの前に、チーム メンバーが達成されているときを認識するように重要です。
 
 6.  常に、次のステップに同意し、会議での合意を実施項目の所有者を識別するための会議の終了を保存します。
 
@@ -162,7 +164,7 @@ To make the most of everyone’s time, you need to prepare for the meeting. The 
 
 ## <a name="next-steps"></a>次のステップ
 
-After reviewing the overview of the steering committee, it’s now time to act. The project team should begin their work to implement the steering committee into the project’s timeline and prepare a regular steering committee meeting cadence. 理想的には、前にプロジェクトの開始とのすべてのフェーズでは、全体のガイダンスを提供する場合は、成功するプロジェクト チームをガイドする委員会が形成委員会の形式です。
+運営委員会の概要を確認して、今度は機能します。プロジェクト チームは、プロジェクトのタイムラインに運営委員会を実装し、正規の運営委員会会議のリズムを準備する作業を開始する必要があります。 理想的には、前にプロジェクトの開始とのすべてのフェーズでは、全体のガイダンスを提供する場合は、成功するプロジェクト チームをガイドする委員会が形成委員会の形式です。
 
 1.  運営委員会のメンバーを識別します。 自分自身で作成してください。
 
@@ -204,16 +206,16 @@ After reviewing the overview of the steering committee, it’s now time to act. 
 
         -   すべての委員会のメンバーには、強力な代弁者は組織に導入されている変更をする必要があります。
 
-        -   Keep the committee size limited to those who are absolutely needed to provide an accurate picture and those who can make or influence decisions across business units. 組織の階層と各メンバーの直接の行の影響を理解することが不可欠になるブロックが表示される場合。
+        -   作成したり、ビジネス ・ ユニット間での決定に影響を与える人や正確な状況を提供するのには絶対に必要なすべての人に制限されている委員会のサイズを保持します。 組織の階層と各メンバーの直接の行の影響を理解することが不可欠になるブロックが表示される場合。
 
-        -   Engage the project managers and team leaders in committee discussions and deliberations. Be ready to invite additional core team members to bring clarity to in-depth discussions that might be needed in specific areas.
+        -   による審査委員会のディスカッションで、プロジェクト マネージャーとチーム リーダーに伝えます。 特定の領域で必要となる詳細な説明をわかりやすくするためにその他のコア チームのメンバーを招待する準備があります。
 
 ソリューションのライフ サイクル全体を通して、委員会の役割が変更されます。 ように予見し、契約時は、委員会にいくつかの調整が必要なドライブの値のフェーズに移動します。
 
 -   会議のリズムを調整します。 組織の動的を確認し、会議が頻繁に発生する必要があるかどうかを判断します。 Dwindle に組織の変更が開始したら、上位レベルのコミュニケーションの頻度が減少可能性があります。 適切な場合は、毎月または四半期ごとの会議リズムに会議を変更することを調査します。
 
--   Adjust the representatives in the meeting. ドライブの値の段階に移動するソリューションには、コア プロジェクト チームが新しいプロジェクトに再割り当てすることが可能性があります。 サポートとして報告しているチームを更新する必要があり、操作は、ソリューションの状態にある潜在顧客になります。
+-   会議の代表者を調整します。 ドライブの値の段階に移動するソリューションには、コア プロジェクト チームが新しいプロジェクトに再割り当てすることが可能性があります。 サポートとして報告しているチームを更新する必要があり、操作は、ソリューションの状態にある潜在顧客になります。
 
--   定義と運用上の OKRs を報告します。 主な結果と成功の指標は、ソリューションのライフ サイクル全体を通して変更されます。 ビジネスの成果を追跡し、報告を続けます。 続行すると、ビジネスの成果を促進するのコンテキストでの音声ソリューションの信頼性、品質を報告します。 Additional metrics and key results, such as, user sentiment, user adoption and support metrics will become the top indicators of success.
+-   定義と運用上の OKRs を報告します。 主な結果と成功の指標は、ソリューションのライフ サイクル全体を通して変更されます。 ビジネスの成果を追跡し、報告を続けます。 続行すると、ビジネスの成果を促進するのコンテキストでの音声ソリューションの信頼性、品質を報告します。 その他の測定値とキーの結果など、ユーザー、ユーザーが積極的なサポート指標の成功の上のインジケーターになります。
 
--   ソリューションの複数のドライブの値の段階をカバーするのに大規模な運営委員会が包括的なを使用します。 効率的に運営委員会を使用する機会を見つけます。 Use the committee to provide guidance across a larger sphere of solutions.
+-   ソリューションの複数のドライブの値の段階をカバーするのに大規模な運営委員会が包括的なを使用します。 効率的に運営委員会を使用する機会を見つけます。 委員会を使用して、ソリューションの大きな球体の間でのガイダンスを提供します。

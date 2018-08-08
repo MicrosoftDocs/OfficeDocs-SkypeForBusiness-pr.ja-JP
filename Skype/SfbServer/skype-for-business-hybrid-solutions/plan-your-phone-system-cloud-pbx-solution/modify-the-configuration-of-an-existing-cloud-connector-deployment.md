@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: ビジネス クラウド コネクタ エディション 1.4.1 またはそれ以降の展開は、既存の Skype の構成を変更するには、このトピックの手順を実行します。
-ms.openlocfilehash: 86efbf21efae3dc95508528850a984912e4930a1
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0a89c4a03d7cb316674490bc81768f27cd1a9c66
+ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "20176084"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>既存の Cloud Connector の展開構成の変更
  
@@ -235,7 +236,6 @@ Get-CcCredential -AccountType CABackupFile -DisplayPassword
 Get-CcCredential -AccountType CceService -DisplayPassword
 Get-CcCredential -AccountType VMAdmin -DisplayPassword
 Get-CcCredential -AccountType DomainAdmin -DisplayPassword
-
   ```
 
 2. アプライアンスを放電し、手動でのメンテナンス モードに移動する Enter CcUpdate コマンドレットを実行します。
@@ -279,7 +279,7 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
 
 新しい SIP ドメイン (または複数の SIP ドメイン) を既存のクラウドのコネクタの配置に追加するには、次の操作を行います。
   
-1. Office 365 でドメインを更新する手順を完了し、DNS レコードを追加できることを確認します。 Office 365 でドメインを設定する方法の詳細については、 [Office 365 でドメインを設定](https://support.office.com/en-us/article/Video-Set-up-your-domain-in-Office-365-703dfec1-882d-4e33-b647-937f731887b7?ui=en-US&amp;rs=en-US&amp;ad=US)ビデオを参照してください。
+1. Office 365 でドメインを更新する手順を完了し、DNS レコードを追加できることを確認します。 Office 365 でドメインを設定する方法の詳細については、 [Office 365 にドメインの追加](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)を参照してください。
     
 2. 新しい SIP ドメイン、またはドメインを持つクラウド コネクタ構成ファイルを更新します。
     
@@ -300,7 +300,7 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
 
 クラウド コネクタ展開にプライマリ SIP ドメインを変更する場合は、次の操作を行います。
   
-1. Office 365 でドメインを更新する手順を完了し、DNS レコードを追加できることを確認します。 Office 365 でドメインを設定する方法の詳細については、 [Office 365 でドメインを設定](https://support.office.com/en-us/article/Video-Set-up-your-domain-in-Office-365-703dfec1-882d-4e33-b647-937f731887b7?ui=en-US&amp;rs=en-US&amp;ad=US)ビデオを参照してください。
+1. Office 365 でドメインを更新する手順を完了し、DNS レコードを追加できることを確認します。 Office 365 でドメインを設定する方法の詳細については、 [Office 365 にドメインの追加](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)を参照してください。
     
 2. 新しい SIP ドメインとは、クラウドのコネクタの構成ファイルを更新します。
     
@@ -322,7 +322,7 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
 
 6. 
     
-    ビジネス オンライン PowerShell の Skype で次のコマンドレットを実行して、各サイトのサイトへの登録を削除します。
+    Skype for Business Online の PowerShell で次のコマンドを実行して、各サイトのサイト登録を削除します。
     
   ```
   Remove-CsHybridPSTNSite

@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 でのネットワーク サイト間ポリシーの作成
+title: ビジネス サーバーの Skype のネットワーク サイト間ポリシーを作成します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,17 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: サイト間ポリシー、Skype でのエンタープライズ VoIP 通話受付制御がビジネスのサーバーに使用するネットワークを作成します。
-ms.openlocfilehash: f8c09f850a001b634ee63199210733000775fd0a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 49405bbaa1d761f1acc10c7506e44992cc03a153
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988523"
 ---
-# <a name="create-network-intersite-policies-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのネットワーク サイト間ポリシーの作成
+# <a name="create-network-intersite-policies-in-skype-for-business-server"></a>ビジネス サーバーの Skype のネットワーク サイト間ポリシーを作成します。
  
 サイト間ポリシー、Skype でのエンタープライズ VoIP 通話受付制御がビジネスのサーバーに使用するネットワークを作成します。 
   
-ネットワーク サイト間ポリシーは、それらの間の直接の WAN リンクが含まれるサイト間の帯域幅の制限を定義します。
+ネットワーク サイト間ポリシーは、WAN リンクで直接接続されたサイト間の帯域幅制限を定義します。
   
 > [!IMPORTANT]
 > ネットワーク サイト間ポリシーは、2 つのネットワーク サイト間に直接クロス リンクがある場合に必要な*だけ*です。
@@ -45,8 +45,6 @@ North America 地域のトポロジの例では、Reno と Albuquerque のサイ
     
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [新しい-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
   
 [Get CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/get-csnetworkintersitepolicy?view=skype-ps)
@@ -54,4 +52,3 @@ North America 地域のトポロジの例では、Reno と Albuquerque のサイ
 [セット CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/set-csnetworkintersitepolicy?view=skype-ps)
   
 [削除 CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkintersitepolicy?view=skype-ps)
-

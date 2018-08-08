@@ -16,11 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
 description: 概要では、Skype で設置型のオンラインでのビジネス サーバーのユーザー アカウントを移動する方法について説明します。
-ms.openlocfilehash: 867fb34cbbb0e908fd8af521cff9a1867caa30a7
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 098dc36e6551839d599042993b156073197753ec
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025682"
 ---
 # <a name="move-users-from-skype-for-business-online-to-on-premises"></a>ビジネス上でオンラインに設置型の Skype のユーザーの移動
  
@@ -69,9 +70,7 @@ ms.lasthandoff: 05/03/2018
   Import-PSSession $CSSession -AllowClobber
   ```
 
-    ビジネス オンラインの Skype でのリモート PowerShell セッションを確立する方法の詳細については、 [Lync オンラインで使用する Windows PowerShell への接続](http://technet.microsoft.com/library/6167dad9-9628-4fdb-bed1-bdb3f7108e64.aspx)を参照してください。
-    
-    Skype を使用して、オンライン ビジネスのコネクタの PowerShell モジュールの詳細については、 [Lync Online の管理に Windows PowerShell を使用する](http://technet.microsoft.com/library/9ef2d853-10fb-4e02-a552-dcf6818d7153.aspx)を参照してください。
+    PowerShell を Skype でオンライン ビジネスでの使用についての詳細については、 [Windows PowerShell には、コンピューターの設定](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)を参照してください。
     
 - 共有 SIP アドレス スペースのオンライン、テナントを構成する必要があります。 これを行うには、まずリモート Powershell セッション Skype でのオンライン ビジネスです。 続いて、次のコマンドレットを実行します。
     
@@ -130,9 +129,9 @@ ms.lasthandoff: 05/03/2018
     
   - オンプレミスのリバース プロキシ サーバーの FQDN を指すように **lyncdiscover.contoso.com** A レコードを更新します。
     
-  - 更新、* * *_sip* 。 Lync の設置型のアクセス エッジ サービスのパブリック IP または VIP アドレスに解決するには SRV の _tls.contoso.com** を記録します。
+  - 更新、 ** *_sip* 。 _tls.contoso.com** Lync の設置型のアクセス エッジ サービスのパブリック IP または VIP アドレスに解決するには、SRV レコード。
     
-  - 更新、* * *_sipfederationtls* 。 ビジネス サーバー 2015 設置のため、Skype のアクセス エッジ サービスのパブリック IP または VIP アドレスに解決するには SRV の _tcp.contoso.com** を記録します。
+  - 更新、 ** *_sipfederationtls* 。 _tcp.contoso.com**のビジネス サーバー 2015 設置、Skype のアクセス エッジ サービスのパブリック IP または VIP アドレスに解決するには、SRV レコード。
     
   - 組織で使用するには、DNS が (「DNS の分散管理」とも呼ばれます) を分割する場合は、内部の DNS ゾーンで名前を解決するユーザーは、フロント エンド プールに割り当て、を確認します。
     
@@ -144,9 +143,6 @@ ms.lasthandoff: 05/03/2018
     
   ```
   $cred = Get-Credential
-  ```
-
-  ```
   Move-CsUser -Identity <username>@contoso.com  -Target "<fe-pool>.contoso.com " -Credential $cred -HostedMigrationOverrideURL <URL>
   ```
 
@@ -191,7 +187,7 @@ ms.lasthandoff: 05/03/2018
   Get-CsUser | fl DisplayName,HostingProvider,SipAddress,Enabled
   ```
 
-|**作業中のディレクトリ属性**|**属性名**|**オンラインのユーザーに適切な値**|**オンプレミス ユーザーの適切な値**|
+|**Active Directory 属性**|**属性名**|**オンライン ユーザーに適切な値**|**オンプレミス ユーザーの適切な値**|
 |:-----|:-----|:-----|:-----|
 |msRTCSIP DeploymentLocator  <br/> |HostingProvider  <br/> |sipfed.online.lync.com  <br/> |SRV  <br/> |
 |msRTCSIP PrimaryUserAddress  <br/> |SIPAddress  <br/> |sip:userName@contoso.com  <br/> |sip:userName@contoso.com  <br/> |

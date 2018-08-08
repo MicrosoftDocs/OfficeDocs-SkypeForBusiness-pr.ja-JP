@@ -1,9 +1,8 @@
 ---
-title: Skype for Business 2015 での複数の緊急電話番号を構成する
+title: ビジネス用の Skype で複数の緊急番号を構成します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 4/21/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,18 +11,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
-description: このトピックでは、Skype for Business Server 2015 で複数の緊急電話番号を構成する方法について説明します。
-ms.openlocfilehash: ad2f048294b7eeef6d675fdf80884ae13cc75a61
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: Skype のビジネス サーバーの複数の緊急番号を構成する方法の詳細については、このトピックを参照してください。
+ms.openlocfilehash: 01dc72e2d165ff3c4076aa4180768ca941607b93
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985424"
 ---
-# <a name="configure-multiple-emergency-numbers-in-skype-for-business-2015"></a>Skype for Business 2015 での複数の緊急電話番号を構成する
+# <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>ビジネス用の Skype で複数の緊急番号を構成します。
  
-このトピックでは、Skype for Business Server 2015 で複数の緊急電話番号を構成する方法について説明します。
+Skype のビジネス サーバーの複数の緊急番号を構成する方法の詳細については、このトピックを参照してください。
   
-Skype ビジネス サーバーがクライアントの複数の緊急番号をサポートしています。 複数の緊急番号は 2016年 6 月で導入された新しい機能を累積的な更新です。 複数の緊急番号をサポートするために、環境を構成する前に、[ビジネス サーバー 2015 の Skype で緊急番号が複数の計画](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)を参照してください。
+Skype ビジネス サーバーがクライアントの複数の緊急番号をサポートしています。 複数の緊急番号は 2016年 6 月で導入された新しい機能を累積的な更新です。 複数の緊急番号をサポートするために、環境を構成する前に、 [Skype のビジネス サーバーで複数の緊急番号の計画](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)を参照してください。
   
 > [!NOTE]
 > かどうかにないまだアップグレード 2016年 11 月累積的な更新は、 [Skype のビジネス サーバー 2015 への更新](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015)を参照してください。 2016年 11 月の累積的な更新をサポート緊急時の番号の数は 5 から 100 に増加します。 
@@ -36,7 +36,6 @@ Skype ビジネス サーバーがクライアントの複数の緊急番号を�
   
 ```
 > $a = New-CsEmergencyNumber -DialString 911 
-
 ```
 
 次のコマンドでは、Set-CsLocationPolicy コマンドレットで EmergencyNumbers パラメータを指定して、番号を特定の場所のポリシーに関連付けます。

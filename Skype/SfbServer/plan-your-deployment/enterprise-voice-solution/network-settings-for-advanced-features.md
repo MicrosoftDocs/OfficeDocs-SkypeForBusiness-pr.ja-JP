@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 での高度なエンタープライズ VoIP 機能のネットワーク設定
+title: Skype で高度なエンタープライズ VoIP 機能のビジネス サーバー用のネットワーク設定
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,18 +12,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
-description: ネットワーク領域、ネットワーク サイト、および IP サブネットについて説明します。 これら 2015 年のビジネス用の Skype でメディアをバイパスするために計画を展開するように構成する必要がありますすべて Skype で通話受付制御用の計画ビジネス サーバー 2015)、または Skype でのビジネス サーバー 2015 のビジネス サーバーのエンタープライズ VoIP の Skype で緊急サービスを計画します。
-ms.openlocfilehash: c08ac0a4e5f93c15cc3bfa43bd622381017118be
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: ネットワーク領域、ネットワーク サイト、および IP サブネットについて説明します。 これらの計画、ビジネスの Skype でメディアをバイパスするために計画を展開するように構成する必要がありますすべて受付制御に電話 Skype ビジネス サーバー)、または Skype のビジネス サーバーのビジネス サーバーのエンタープライズ VoIP の Skype で緊急サービスを計画します。
+ms.openlocfilehash: ca8cbe6de733f5a2a27552229d3f71c9fbad3b4d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981193"
 ---
-# <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での高度なエンタープライズ VoIP 機能のネットワーク設定
+# <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Skype で高度なエンタープライズ VoIP 機能のビジネス サーバー用のネットワーク設定
  
-ネットワーク領域、ネットワーク サイト、および IP サブネットについて説明します。 これらはすべて構成する必要がある[ビジネス 2015年の Skype で使用しないメディアの計画](media-bypass.md)、[ビジネス サーバー 2015 の Skype の呼受付制御の計画](call-admission-control.md)を展開する)、またはの Skype の[ビジネス サーバー 2015 の Skype で緊急時のサービスの計画](emergency-services.md)をビジネス サーバーのエンタープライズ VoIP。
+ネットワーク領域、ネットワーク サイト、および IP サブネットについて説明します。 Business Server の[ビジネス用の Skype で使用しないメディアの計画](media-bypass.md)、[ビジネス サーバーの Skype で通話受付制御の計画](call-admission-control.md)、または Skype の[Skype ビジネス サーバーの緊急サービスの計画](emergency-services.md)をを展開するこれらのすべてを構成する必要があります。エンタープライズ VoIP。
   
-Skype ビジネス サーバーには次の 3 つの高度なエンタープライズ VoIP 機能:[ビジネス サーバー 2015 の Skype の呼受付制御のための計画](call-admission-control.md))、[ビジネス サーバー 2015 の Skype で緊急時のサービスの計画](emergency-services.md)、およびメディアの[計画のバイパスの Skype でビジネス 2015年](media-bypass.md)。 これらの機能は、ネットワーク サイトをネットワーク地域、ネットワーク サイト、およびビジネスのサーバー トポロジの Skype では、各サブネットの関連付けの特定の構成要件を共有します。 
+Skype ビジネス サーバーには次の 3 つの高度なエンタープライズ VoIP 機能: ビジネス用の Skype でメディアをバイパスするための計画[ビジネス サーバーの Skype で通話受付制御の計画](call-admission-control.md)、[ビジネス サーバーの Skype で緊急時のサービスの計画](emergency-services.md)、および[](media-bypass.md). これらの機能は、ネットワーク サイトをネットワーク地域、ネットワーク サイト、およびビジネスのサーバー トポロジの Skype では、各サブネットの関連付けの特定の構成要件を共有します。 
   
 このトピックでは、エンタープライズ VoIP 機能を高度なこれらの 3 つのすべてに共通する構成要件の概要を説明します。
   
@@ -37,11 +37,11 @@ Skype ビジネス サーバーには次の 3 つの高度なエンタープラ�
   
 CAC では、すべてのネットワーク領域の領域内のメディア トラフィックを管理するビジネス サーバー中央サイトに関連付けられている、Skype である必要があります (つまり、決定を下すかどうかに関して、構成したポリシーに基づいてリアルタイムのオーディオまたはビデオ ・ セッションを確立できます)。 Business Server の中央サイトの Skype は、地理的な場所ですが、プールとして構成されているサーバーの論理ではなくグループまたはプールのセットを表していません。 
   
-ネットワークの領域を構成するには、Skype の**ネットワークの構成**] セクションで [**地域**] タブを使用して、ビジネス サーバーのコントロール パネルのか**新規 CsNetworkRegion**またはビジネス用**セット CsNetworkRegion** Skype を実行します。サーバー管理シェル コマンドレットです。 手順についてを参照してください[ネットワークの領域を展開、サイトとサブネットで Skype ビジネス 2015年の](../../deploy/deploy-enterprise-voice/deploy-network.md)展開に関するドキュメントのまたは、Skype ビジネス サーバー管理シェルのドキュメントを参照してください。
+ネットワークの領域を構成するには、Skype の**ネットワークの構成**] セクションで [**地域**] タブを使用して、ビジネス サーバーのコントロール パネルのか**新規 CsNetworkRegion**またはビジネス用**セット CsNetworkRegion** Skype を実行します。サーバー管理シェル コマンドレットです。 手順については、展開に関するドキュメントの[ネットワーク領域の展開、サイトとサブネットでビジネス用の Skype](../../deploy/deploy-enterprise-voice/deploy-network.md)を参照するか、サーバー管理シェルのビジネス ドキュメントの Skype を参照してください。
   
 同じネットワーク地域の定義は、すべての 3 つの高度なエンタープライズ VoIP 機能によって共有されます。 いずれかの機能にネットワーク地域を既に作成している場合、他の機能に新しいネットワーク地域を作成する必要はありません。 ただし、機能固有の設定を適用するために、既存のネットワーク地域定義を変更することが必要になる場合があります。 たとえば、E9-1-1 (関連付けられた中央サイトは不要) にネットワーク地域を作成しており、通話受付管理を後で展開する場合、中央サイトを指定するには、各ネットワーク地域定義を変更する必要があります。
   
-領域に関連付けるビジネス サーバーのセントラル サイトに、Skype のネットワーク、ビジネス サーバーのコントロール パネルでの Skype の**ネットワークの構成**セクションを使用するか**新規 CsNetworkRegion**を実行して、セントラル サイトの名前を指定します。または**セット CsNetworkRegion**コマンドレットを選択します。 手順についてを参照してください[ネットワークの領域を展開、サイトとサブネットで Skype ビジネス 2015年の](../../deploy/deploy-enterprise-voice/deploy-network.md)展開に関するドキュメントのまたは、Skype ビジネス サーバー管理シェルのドキュメントを参照してください。
+領域に関連付けるビジネス サーバーのセントラル サイトに、Skype のネットワーク、ビジネス サーバーのコントロール パネルでの Skype の**ネットワークの構成**セクションを使用するか**新規 CsNetworkRegion**を実行して、セントラル サイトの名前を指定します。または**セット CsNetworkRegion**コマンドレットを選択します。 手順については、展開に関するドキュメントの[ネットワーク領域の展開、サイトとサブネットでビジネス用の Skype](../../deploy/deploy-enterprise-voice/deploy-network.md)を参照するか、サーバー管理シェルのビジネス ドキュメントの Skype を参照してください。
   
 ## <a name="network-sites"></a>ネットワーク サイト
 
@@ -69,11 +69,9 @@ CAC では、すべてのネットワーク領域の領域内のメディア ト
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[ビジネス サーバー 2015 に Skype で通話受付制御を計画します。](call-admission-control.md)
+[ビジネス サーバーに、Skype で通話受付制御を計画します。](call-admission-control.md)
   
-[ビジネス サーバー 2015 に Skype で緊急サービスを計画します。](emergency-services.md)
+[ビジネス サーバーに、Skype で緊急サービスを計画します。](emergency-services.md)
   
-[ビジネス 2015年の Skype でのメディア バイ パスの計画します。](media-bypass.md)
+[ビジネス用の Skype でメディアをバイパスするための計画します。](media-bypass.md)
 

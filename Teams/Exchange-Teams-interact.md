@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: crowe
 description: チームの作成、チームへの参加、チャネルの作成など、Microsoft Teams と様々な Exchange のセットアップとの間に存在する機能について説明します。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65bbcc3155147141b99f63be686a92b85f87c119
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: a89f3670d2dda14ae5d15647213aca5d1d5398af
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569916"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携 
 =========================================
@@ -34,8 +36,8 @@ Exchange Online 専用 – レガシーまたは Exchange On-premises にホス�
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|はい|はい|はい|あり|はい|はい|はい|はい|はい|はい|はい|はい|はい|
 |**Exchange Online 専用 vNext**|はい|はい|あり|あり|あり|はい|はい|あり|はい|はい|はい|あり|はい|
-|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|[はい] (許可されたリスト)|なし|なし|あり|なし|なし|あり|あり|なし|[はい] (Exchange 2013 +)|なし|あり|はい|
-|**Exchange On-premises** (Azure AD との同期が必要)|[はい] (許可されたリスト)|なし|なし|あり|[はい] (Exchange 2016 CU3 +)|なし|あり|あり|なし|[はい] (Exchange 2013 +)|なし|あり|はい|
+|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|([許可一覧](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US)) を [はい] します。|なし|なし|あり|なし|なし|あり|あり|なし|[はい] (Exchange 2013 +)|なし|あり|はい|
+|**Exchange On-premises** (Azure AD との同期が必要)|([許可一覧](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US)) を [はい] します。|なし|なし|あり|[はい] (Exchange 2016 CU3 +)|なし|あり|あり|なし|[はい] (Exchange 2013 +)|なし|あり|はい|
                                                             
 *\*Exchange 2016 CU3 以降でサポートされます*
 

@@ -2,20 +2,22 @@
 title: マイクロソフトのチームのユーザーを準備します。
 author: dearbeen
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: 目標を定義する、どのような受け入れのような理解すること、およびトレーニングとサポートを提供することによってユーザーの採用を推進するための計画を作成します。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a655a7afe3d487cd6afc059a9a40ad12cf880b2
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 223a3a92eb5e51098f86030904f9c5445b84d24a
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695527"
 ---
 # <a name="prepare-my-users"></a>自分のユーザーを準備します。
 

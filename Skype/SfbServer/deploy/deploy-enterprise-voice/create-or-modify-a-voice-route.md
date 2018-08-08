@@ -1,9 +1,8 @@
 ---
-title: Skype for Business 2015 でのボイス ルートの作成または変更
+title: 作成またはビジネス用の Skype でのボイス ルートを変更します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
-description: '概要: ビジネス サーバー 2015 のビジネス サーバーのコントロール パネルの Skype を使用して、Skype でのボイス ルートを変更または作成する方法を説明します。'
-ms.openlocfilehash: a999cf8ce068aeca217995bf9f8b0395beaa1d2b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: '概要: ビジネス サーバーのビジネス サーバーのコントロール パネルの Skype を使用して、Skype でのボイス ルートを変更または作成する方法を説明します。'
+ms.openlocfilehash: 3704e973e392337700effc0d4c3278656f706d73
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013204"
 ---
-# <a name="create-or-modify-a-voice-route-in-skype-for-business-2015"></a>Skype for Business 2015 でのボイス ルートの作成または変更
+# <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>作成またはビジネス用の Skype でのボイス ルートを変更します。
  
-**の概要:** ビジネス サーバー 2015 のビジネス サーバーのコントロール パネルの Skype を使用して、Skype でのボイス ルートを変更または作成する方法について説明します。
+**の概要:** Business Server のビジネス サーバーのコントロール パネルの Skype を使用して、Skype でのボイス ルートを変更または作成する方法について説明します。
   
 ### <a name="to-create-a-voice-route-by-using-the-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用してボイス ルートを作成するには
 
@@ -57,7 +57,7 @@ ms.lasthandoff: 05/03/2018
 11. 1 つまたは複数の公衆交換電話網 (PSTN) 使用法を音声ルートに関連付けるには、[**選択**] をクリックして、エンタープライズ VoIP 展開用に定義されている PSTN 使用法レコードの一覧からレコードを選択します。
     
     > [!NOTE]
-    > 使用可能な PSTN 使用法レコードの各プロパティを表示するには、[ビジネス 2015年の Skype でのビューの PSTN 使用法レコード](view-pstn-usage-records.md)を参照してください。 > を作成するか、PSTN 使用法レコードを編集を参照してください[を作成する音声ポリシーを変更してビジネス 2015年の Skype の PSTN 使用法レコードを構成する](voice-policy-and-pstn-usage-records.md)
+    > 使用可能な PSTN 使用法レコードの各プロパティを表示するには、[ビジネスの Skype でのビューの PSTN 使用法レコード](view-pstn-usage-records.md)を参照してください。 > を作成するか、PSTN 使用法レコードを編集を参照してください[を作成する音声ポリシーの変更や、ビジネスの Skype の PSTN 使用法レコードを構成する](voice-policy-and-pstn-usage-records.md)
   
 12. 最適なパフォーマンスを得るために、PSTN 使用法レコードを並べ替えます。 リスト内のレコードの位置を変更するには、レコード名を強調表示しをクリックして印または下矢印。
     
@@ -69,7 +69,7 @@ ms.lasthandoff: 05/03/2018
 14. [**OK**] をクリックして音声ルートを保存します。
     
     > [!IMPORTANT]
-    > 音声ルートを作成したときは毎回、[**すべて確定**] コマンドを実行して構成の変更を公開する必要があります。 詳細については、[発行保留中のビジネス 2015年の Skype で音声ルーティング構成の変更](voice-route-config-changes.md)を参照してください。 
+    > 音声ルートを作成したときは毎回、[**すべて確定**] コマンドを実行して構成の変更を公開する必要があります。 詳細については、[発行保留中のビジネス用の Skype で音声ルーティング構成の変更](voice-route-config-changes.md)を参照してください。 
   
 ### <a name="to-modify-a-voice-route"></a>音声ルートを変更するには
 
@@ -91,7 +91,7 @@ ms.lasthandoff: 05/03/2018
     
    - **照合するパターンの作成**ツールを使用して正規表現を生成するには、次の値を入力します。次の 2 種類の照合パターンを指定できます。
     
-   - **許可する番号の先頭の数字**: このルートが対応する必要のあるプレフィックス値を入力します (必要に応じて先頭に + を付けます)。 +425 を入力して、[**追加**] をクリックします。 このルートに含める各プレフィックス値について、この手順を繰り返します。
+   - **許可する番号の先頭の数字**: このルートが対応する必要のあるプレフィックス値を入力します (必要に応じて先頭に + を付けます)。たとえば、「+425」と入力して、[**追加**] をクリックします。このルートに含める各プレフィックス値について、この手順を繰り返します。
     
    - **例外**: プレフィックス値に 1 つまたは複数の例外を指定する場合、そのプレフィックスをハイライトして、[**例外**] をクリックします。 一致するパターンを 1 つまたは複数の値のタイプは*ない*場合がこれに対応するためにルーティングします。 やなどのルートから +425237 で始まる番号を除外するには、[**例外**] フィールドで値の + 425237 を入力し、[ **OK**] をクリックします。
     
@@ -104,7 +104,7 @@ ms.lasthandoff: 05/03/2018
 9. ボイス ルートに関連付ける 1 つまたは複数の PSTN 使用法には、[**選択**] をクリックしてエンタープライズ VoIP を展開するために定義されている PSTN 使用法レコードの一覧からレコードを選択します。
     
     > [!NOTE]
-    > 使用可能な PSTN 使用法レコードの各プロパティを表示するには、[ビジネス 2015年の Skype でのビューの PSTN 使用法レコード](view-pstn-usage-records.md)を参照してください。 > を作成するか、PSTN 使用法レコードを編集を参照してください[を作成する音声ポリシーを変更してビジネス 2015年の Skype の PSTN 使用法レコードを構成する](voice-policy-and-pstn-usage-records.md)です。 
+    > 使用可能な PSTN 使用法レコードの各プロパティを表示するには、[ビジネスの Skype でのビューの PSTN 使用法レコード](view-pstn-usage-records.md)を参照してください。 > を作成するか、PSTN 使用法レコードを編集を参照してください[を作成する音声ポリシーの変更や、ビジネスの Skype の PSTN 使用法レコードを構成する](voice-policy-and-pstn-usage-records.md)です。 
   
 10. 最適なパフォーマンスを得るために、PSTN 使用法レコードを並べ替えます。 リスト内のレコードの位置を変更するには、レコード名を強調表示しをクリックして印または下矢印。
     
@@ -118,15 +118,13 @@ ms.lasthandoff: 05/03/2018
 13. [**ルート**] ページの [**確定**] をクリックして、[**すべて確定**] をクリックします。 
     
     > [!NOTE]
-    > 音声ルートを作成または変更するときは常に、[**すべて確定**] コマンドを実行して、構成の変更を公開する必要があります。 詳細については、操作マニュアルの[発行保留中のビジネス 2015年の Skype で音声ルーティング構成の変更](voice-route-config-changes.md)を参照してください。
+    > 音声ルートを作成または変更するときは常に、[**すべて確定**] コマンドを実行して、構成の変更を公開する必要があります。 詳細については、操作マニュアルの[発行保留中のビジネス用の Skype で音声ルーティング構成の変更](voice-route-config-changes.md)を参照してください。
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[ビジネス 2015年の Skype の PSTN 使用法レコードの表示](view-pstn-usage-records.md)
+[ビジネス用の Skype の PSTN 使用法レコードの表示](view-pstn-usage-records.md)
   
-[作成し、音声ポリシーを変更またはビジネス 2015年の Skype の PSTN 使用法レコードを構成します。](voice-policy-and-pstn-usage-records.md)
+[作成し、音声ポリシーを変更または Skype ビジネスのために PSTN 使用法レコードを構成します。](voice-policy-and-pstn-usage-records.md)
   
-[発行保留中のビジネス 2015年の Skype で音声ルーティング構成の変更](voice-route-config-changes.md)
+[発行保留中のビジネス用の Skype で音声ルーティング構成の変更](voice-route-config-changes.md)
 

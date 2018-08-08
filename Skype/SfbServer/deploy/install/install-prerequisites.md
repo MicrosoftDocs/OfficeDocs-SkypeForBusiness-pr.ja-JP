@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 2015 の前提条件のインストール
+title: ビジネス サーバーの Skype のための前提条件をインストールします。
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,16 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
-description: '概要: については、サーバーとサーバーの役割がビジネス サーバー 2015 の Skype をインストールする前に構成する必要があります。 マイクロソフト評価センターからのビジネス サーバー 2015 の Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: f37954b4eddffbcef08c270dc86234e3a56e7079
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+description: '概要: については、サーバーとサーバーの役割の業務サーバーの Skype をインストールする前に構成する必要があります。 ビジネスのサーバーで Microsoft の評価の中心からの Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
+ms.openlocfilehash: ffd286262686d1faf55591f88df75b0e0323acc2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972921"
 ---
-# <a name="install-prerequisites-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 の前提条件のインストール
+# <a name="install-prerequisites-for-skype-for-business-server"></a>ビジネス サーバーの Skype のための前提条件をインストールします。
  
-**の概要:** サーバーとビジネス サーバー 2015 の Skype をインストールする前に構成する必要がありますサーバーの役割について説明します。 [マイクロソフト評価センター](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)からサーバー 2015 をビジネス用には、Skype の無料試用版をダウンロードします。
+**の概要:** サーバーとサーバーのビジネスの Skype をインストールする前に構成する必要がありますサーバーの役割について説明します。 [マイクロソフト評価センター](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)からビジネス サーバー用には、Skype の無料試用版をダウンロードします。
   
 必須コンポーネントのインストールは、トポロジ内のサーバーごとに必要な役割と機能をインストールすることによって Windows のサーバーを設定するので構成されます。 要件は、サーバーをトポロジに満たす役割に基づいています。 手順 1 ～ 5 は任意の順序で実行できます。 ただし、手順 6、7、8 は、図に説明されているように手順 1 ～ 5 の後で順番どおりに行う必要があります。 8 のステップ 1 は、必須コンポーネントをインストールします。
   
@@ -30,7 +31,7 @@ ms.lasthandoff: 05/08/2018
   
 ## <a name="setup-windows-server"></a>Windows Server をセットアップする
 
-ビジネス サーバー 2015 の Skype では、インストールする前に Windows サーバー オペレーティング システムおよび前提条件の多くを必要です。 前提条件の計画に関する詳細については、[ビジネス サーバー 2015 の Skype のサーバーの要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)を参照してください。 
+Skype ビジネス サーバー用には、インストールする前に Windows サーバー オペレーティング システムおよび前提条件の数値が必要があります。 前提条件の計画に関する詳細については、 [Skype ビジネス サーバー用のサーバーの要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)を参照してください。 
   
 > [!TIP]
 > この手順では Windows Server 2012 R2 を使用します。別のバージョンの Windows Server を使用する場合は、手順が若干異なることがあります。 
@@ -48,7 +49,7 @@ ms.lasthandoff: 05/08/2018
 
 必要な役割と機能はサーバー マネージャーを使用してをインストールすることができます。 
     
-1. [ビジネス サーバー 2015 の Skype のサーバー要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)に記載されている前提条件のソフトウェア機能をインストールします。 必要なソフトウェアは、ビジネス サーバー 2015 の Skype を実行するサーバーにする必要があります。
+1. [Skype ビジネス サーバー用のサーバーの要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)に記載されている前提条件のソフトウェア機能をインストールします。 Skype ビジネス サーバーを実行するサーバー上で必要なソフトウェアがある必要があります。
     
     > [!CAUTION]
     > 既定では、必要な機能のソース ファイルのすべてが Windows Server 2012 R2 でインストールされるわけではありません。 サーバーがインターネットに接続されていない場合は、必要な機能をインストールするために、Windows Server 2012 R2 メディアを挿入し、[**代替ソース パスの指定**] を選択する必要があります。 ソース ファイルは sources\sxs ディレクトリにあります。 たとえば、Windows Server 2012 R2 メディアをドライブ D に挿入した場合は、パスを `d:\sources\sxs` に設定します。 Windows Update で最新の更新プログラムを入手しておいてください。 インターネットに接続していない場合は、関連するすべての更新プログラムと、必要な更新プログラムの前提条件を手動でインストールする必要があります。 
@@ -61,6 +62,6 @@ ms.lasthandoff: 05/08/2018
 
 
 > [!IMPORTANT]
-> ディレクター、常設チャット、エッジなど、フロントエンド サーバー以外の役割を実行するサーバーには、また別の前提条件があります。 サーバーの種類ごとに必要な正確な前提条件の詳細については、[ビジネス サーバー 2015 の Skype のサーバーの要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)を参照してください。 
+> ディレクター、常設チャット、エッジなど、フロントエンド サーバー以外の役割を実行するサーバーには、また別の前提条件があります。 サーバーの種類ごとに必要な正確な前提条件の詳細については、 [Skype ビジネス サーバー用のサーバーの要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)を参照してください。 
   
 

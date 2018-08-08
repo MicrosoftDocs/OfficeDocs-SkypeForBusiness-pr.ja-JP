@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 での PSTN 接続の計画
+title: ビジネス サーバーに、Skype で PSTN への接続を計画します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
 description: ビジネス サーバーの PSTN への接続では、Skype でエンタープライズ VoIP の計画。
-ms.openlocfilehash: 228391049988c2eb886c0cb4e7caccce6f55ff3b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ed8b4d29dd6d2fdfc3592fba4236f4a99b9ee05d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003872"
 ---
-# <a name="plan-for-pstn-connectivity-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での PSTN 接続の計画
+# <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>ビジネス サーバーに、Skype で PSTN への接続を計画します。
  
 ビジネス サーバーの PSTN への接続では、Skype でエンタープライズ VoIP の計画。
   
@@ -38,14 +38,14 @@ Skype ビジネス サーバーの次のオプションを使用して信頼性�
   
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [ビジネス サーバー 2015 の Skype での SIP トランク](sip-trunking.md)
+- [Skype ビジネス サーバーでの SIP トランク](sip-trunking.md)
     
-- [ビジネス サーバー 2015 の Skype で直接 SIP 接続](direct-sip.md)
+- [ビジネス サーバーの Skype で直接 SIP 接続](direct-sip.md)
     
-- [ビジネス サーバー 2015 の Skype で M:N トランク](m-n-trunk.md)
+- [Skype ビジネス サーバーは M:N trunk](m-n-trunk.md)
     
-- [ビジネス サーバー 2015 の Skype での変換規則](translation-rules.md)
+- [Skype ビジネス サーバー用の変換規則](translation-rules.md)
     
-- [ビジネス サーバー 2015 のアウト バウンドの音声が Skype でルーティングの計画](outbound-voice-routing.md)
+- [発信の音声が Skype のビジネス サーバーのルーティングの計画](outbound-voice-routing.md)
     
 

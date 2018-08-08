@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 のエンタープライズ VoIP の計画
+title: ビジネスのサーバーに、Skype でエンタープライズ VoIP を計画します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: エンタープライズ VoIP の Skype の基本の Business Server の計画、サイト、地域、サイト間のネットワーク リンクを含むおよび音声の使用量のトラフィックを見積もるします。
-ms.openlocfilehash: f1bd8f2f8514f34390cd085bd1407894e9788620
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 413887b29a45ccdf022a4fb4c847cb0b504bb4b1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977942"
 ---
-# <a name="plan-for-enterprise-voice-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 のエンタープライズ VoIP の計画
+# <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>ビジネスのサーバーに、Skype でエンタープライズ VoIP を計画します。
  
 エンタープライズ VoIP の Skype の基本の Business Server の計画、サイト、地域、サイト間のネットワーク リンクを含むおよび音声の使用量のトラフィックを見積もるします。
   
@@ -54,24 +54,24 @@ Microsoft Lync Server 2013、計画ツールは、ユーザーのトラフィッ
 
 エンタープライズ VoIP 展開の計画に関する詳細については次のセクションを参照してください。
   
-- [Skype でエンタープライズ VoIP のサーバー 2015 のビジネスに必要なコンポーネント](components-required-for-enterprise-voice.md)
+- [Skype でエンタープライズ VoIP のサーバーのビジネスに必要なコンポーネント](components-required-for-enterprise-voice.md)
     
-- [ビジネス サーバー 2015 の Skype の PSTN への接続の計画](pstn-connectivity-0.md)
+- [ビジネス サーバーに、Skype で PSTN への接続を計画します。](pstn-connectivity-0.md)
     
-- [ビジネス サーバー 2015 の Skype で高度なエンタープライズ VoIP 機能のネットワーク設定](network-settings-for-advanced-features.md)
+- [Skype で高度なエンタープライズ VoIP 機能のビジネス サーバー用のネットワーク設定](network-settings-for-advanced-features.md)
     
-- [ビジネス サーバー 2015 に Skype で通話受付制御を計画します。](call-admission-control.md)
+- [ビジネス サーバーに、Skype で通話受付制御を計画します。](call-admission-control.md)
     
-- [ビジネス サーバー 2015 に Skype で緊急サービスを計画します。](emergency-services.md)
+- [ビジネス サーバーに、Skype で緊急サービスを計画します。](emergency-services.md)
     
-- [ビジネス 2015年の Skype でのメディア バイ パスの計画します。](media-bypass.md)
+- [ビジネス用の Skype でメディアをバイパスするための計画します。](media-bypass.md)
     
-- [ビジネス 2015年の Skype でプライベート電話回線の計画](private-telephone-lines.md)
+- [ビジネス用の Skype でプライベート電話回線の計画](private-telephone-lines.md)
     
-- [ビジネス 2015年の Skype に場所ベースのルーティングの計画](location-based-routing.md)
+- [Skype のビジネスの場所ベースのルーティングの計画](location-based-routing.md)
     
-- [ビジネス 2015年の Skype での通話管理機能の計画](call-management-features.md)
+- [ビジネス用の Skype での通話管理機能の計画](call-management-features.md)
     
-- [ビジネス サーバー 2015 の Skype でエンタープライズ VoIP の復元の計画](enterprise-voice-resiliency.md)
+- [ビジネス サーバーに、Skype でエンタープライズ VoIP の復元を計画します。](enterprise-voice-resiliency.md)
     
 

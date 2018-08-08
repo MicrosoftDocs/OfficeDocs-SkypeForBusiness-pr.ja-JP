@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 2015 用の Active Directory の準備
+title: Skype のビジネス サーバーの Active Directory を準備します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,28 +13,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
-description: '概要: ビジネス サーバー 2015 の Skype のインストールの場合、Active Directory ドメインを準備する方法を説明します。 マイクロソフト評価センターからのビジネス サーバー 2015 の Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: 97aa431627fd8e17734060b8447b0434cb8f1949
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: '概要: は、Skype のインストールのビジネス サーバーの Active Directory ドメインを準備する方法を説明します。 ビジネスのサーバーで Microsoft の評価の中心からの Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
+ms.openlocfilehash: 6f562a8a229f98deabce7956d5419f45e3022c12
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568390"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998596"
 ---
-# <a name="prepare-active-directory-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 用の Active Directory の準備
+# <a name="prepare-active-directory-for-skype-for-business-server"></a>Skype のビジネス サーバーの Active Directory を準備します。
  
-**の概要:** ビジネス サーバー 2015 の Skype のインストールの場合、Active Directory ドメインを準備する方法について説明します。 [マイクロソフト評価センター](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)からサーバー 2015 をビジネス用には、Skype の無料試用版をダウンロードします。
+**の概要:** インストール Skype のビジネス サーバーの Active Directory ドメインを準備する方法について説明します。 [マイクロソフト評価センター](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)からビジネス サーバー用には、Skype の無料試用版をダウンロードします。
   
-Skype ビジネス サーバーは、Active Directory と緊密に動作します。 Skype でビジネスのサーバーを使用する Active Directory ドメインを準備する必要があります。 このプロセスは展開ウィザードで行われ、ドメインに対して 1 回だけ実行されます。 これは、プロセスではグループを作成してドメインを変更しますが、その処理は 1 回だけ必要であるためです。 手順 1 ～ 5 は任意の順序で実行できます。 ただし、手順 6、7、および 8 は、手順 1 ～ 5 の後に、図の順序で実行する必要があります。 Active Directory の準備は、8 つの手順の 4 番目です。 Active Directory の計画の詳細については、 [Skype のビジネス サーバー 2015 の環境の要件](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)を参照してください。
+Skype ビジネス サーバーは、Active Directory と緊密に動作します。 Skype でビジネスのサーバーを使用する Active Directory ドメインを準備する必要があります。 このプロセスは展開ウィザードで行われ、ドメインに対して 1 回だけ実行されます。 これは、プロセスではグループを作成してドメインを変更しますが、その処理は 1 回だけ必要であるためです。 手順 1 ～ 5 は任意の順序で実行できます。 ただし、手順 6、7、および 8 は、手順 1 ～ 5 の後に、図の順序で実行する必要があります。 Active Directory の準備は、8 つの手順の 4 番目です。 Active Directory の計画の詳細については、 [Skype のビジネス サーバーの環境要件](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)や[ビジネス サーバー 2019 の Skype のサーバーの要件](../../../SfBServer2019/plan/system-requirements.md)を参照してください。
   
 ![概要図](../../media/2c52d307-7859-4009-9489-024b2e130bb3.png)
   
 ## <a name="prepare-active-directory"></a>Active Directory の準備
 
-ビジネス サーバー 2015 の Skype は、Active Directory ドメイン サービス (AD DS) と緊密に統合します。 ビジネス サーバー 2015 の Skype をインストールするには、最初に、Active Directory を準備する必要があります。 展開ウィザードが**Active Directory の準備**をという名前のセクションでは、ビジネスのサーバーの Skype で使用するための Active Directory 環境を準備します。
+Skype ビジネス サーバーは、Active Directory ドメイン サービス (AD DS) と緊密に統合します。 ビジネス サーバー用の Skype をインストールするには、最初に、Active Directory を準備する必要があります。 展開ウィザードが**Active Directory の準備**をという名前のセクションでは、ビジネスのサーバーの Skype で使用するための Active Directory 環境を準備します。
   
 > [!NOTE]
-> ビジネス サーバー 2015 の Skype では、追跡し、すべてのトポロジ内のサーバーと通信する (AD DS) を使用します。 Skype ビジネス サーバーが正常に動作できるように、すべてのサーバーをドメインに参加する必要があります。 
+> ビジネス サーバーの Skype は、追跡し、すべてのトポロジ内のサーバーと通信する (AD DS) を使用します。 Skype ビジネス サーバーが正常に動作できるように、すべてのサーバーをドメインに参加する必要があります。 
   
 > [!IMPORTANT]
 > "Active Directory の準備" の手順は、展開のドメインごとに 1 回だけ実行する必要があります。 
@@ -54,7 +54,7 @@ Skype ビジネス サーバーは、Active Directory と緊密に動作しま�
   
 3. [**Active Directory の準備**] リンクをクリックします。
     
-4. **ステップ 1: スキーマを準備します。**
+4. **手順 1: スキーマの準備**
     
     a. 手順 1 の前提条件を確認します。"手順 1" というタイトルの下にあるドロップダウンをクリックすると、この情報を参照できます。
     
@@ -66,7 +66,7 @@ Skype ビジネス サーバーは、Active Directory と緊密に動作しま�
     
     e。 [**完了**] をクリックしてスキーマの準備ウィザードを閉じ、"Active Directory の準備" の手順に戻ります。
     
-5. **手順 2: スキーマ パーティションのレプリケーションを確認します。**
+5. **手順 2: スキーマ パーティションのレプリケーションの確認**
     
     a. ドメインのドメイン コントローラーにログオンします。
     
@@ -78,7 +78,7 @@ Skype ビジネス サーバーは、Active Directory と緊密に動作しま�
     
     e。 スキーマ コンテナーで、**CN=ms-RTC-SIP-SchemaVersion** を検索します。 このオブジェクトが存在し、**rangeUpper** 属性の値が 1150 で、**rangeLower** 属性の値が 3 の場合、スキーマは正しく更新され、レプリケートされています。 このオブジェクトが存在しないか、**rangeUpper** および **rangeLower** 属性の値が指定された値と異なる場合、スキーマは変更されていないか、レプリケートされていません。
     
-6. **ステップ 3: 現在のフォレストを準備します。**
+6. **手順 3: 現在のフォレストの準備**
     
     a. 手順 3 の前提条件を確認します。"手順 3" というタイトルの下にあるドロップダウンをクリックすると、この情報を参照できます。
     
@@ -100,7 +100,7 @@ Skype ビジネス サーバーは、Active Directory と緊密に動作しま�
     
      ![フォレスト レプリケーションの確認](../../media/20835669-b8ff-445b-aa8d-51cce46a8b0e.png)
   
-7. **手順 4: グローバル カタログのレプリケーションを確認します。**
+7. **手順 4: グローバル カタログのレプリケーションの確認**
     
     a. フォレストの準備を実行したフォレスト内のドメイン コントローラー (他のドメイン コントローラーからリモート サイトにあるドメイン コントローラーを推奨) で、[**Active Directory ユーザーとコンピューター**] を開きます。
     
@@ -110,7 +110,7 @@ Skype ビジネス サーバーは、Active Directory と緊密に動作しま�
     
     d. グループが表示されていない場合、レプリケーションを強制的に実行するか、15 分待ってから右側のウィンドウを更新することができます。 グループが表示されている場合、レプリケーションは完了しています。
     
-8. **手順 5: 現在のドメインを準備します。**
+8. **手順 5: 現在のドメインの準備**
     
     a. 手順 5 の前提条件の情報を確認します。
     
@@ -124,7 +124,7 @@ Skype ビジネス サーバーは、Active Directory と緊密に動作しま�
     
     Skype ビジネス サーバー オブジェクトが見つかったら、それ以外の場合サービスがすべてのドメインで、次の手順を完了する必要があるされません。 オブジェクトには、ユーザー、連絡先オブジェクト、管理グループなどのすべての種類の Active Directory オブジェクトや、他のすべての種類のオブジェクトが含まれます。 必要な場合は、ドメインを追加するだけ、Skype で、ビジネスのサーバー オブジェクトのセット CsUserReplicatorConfiguration ADDomainNamingContextList を使用できます。
     
-9. **手順 6: ドメイン内のレプリケーションを確認します。**
+9. **手順 6: ドメイン内のレプリケーションの確認**
     
     a. PowerShell を起動する**アプリケーション**のページから**ビジネス サーバー管理シェルの Skype**をクリックします。
     
@@ -148,7 +148,7 @@ Skype ビジネス サーバーは、Active Directory と緊密に動作しま�
   
     c. 結果が**LC_DOMAINSETTINGS_STATE_READY**の場合は、ドメインが正常に複製されます。
     
-10. **手順 7: ビジネス サーバーのコントロール パネルの管理アクセス権を Skype に提供するためのユーザーを追加します。**
+10. **手順 7: Skype for Business Server コントロール パネルへの管理アクセスを提供するためのユーザーの追加**
     
     a. Domain Admins グループまたは RTCUniversalServerAdmins グループのメンバーとしてログオンします。
     
@@ -161,7 +161,7 @@ Skype ビジネス サーバーは、Active Directory と緊密に動作しま�
     e。 [**メンバー**] タブで、選択したユーザーまたはグループが表示されていることを確認します。 [**OK**] をクリックします。
     
     > [!CAUTION]
-    > ビジネス サーバーのコントロール パネルの Skype は、役割ベースのアクセス制御ツールです。 CsAdministrator グループのメンバーシップは、利用可能なすべての構成機能のビジネス サーバーのコントロール パネルの [フル コントロールの Skype を使用しているユーザーを与えます。 特定の機能向けに設計されたその他の役割も使用できます。 使用できるロールの詳細については、 [Skype のビジネス サーバー 2015 の環境の要件](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)を参照してください。 管理グループのメンバーになるために Skype ビジネス サーバーに対して有効にするユーザーがないことに注意してください。 
+    > ビジネス サーバーのコントロール パネルの Skype は、役割ベースのアクセス制御ツールです。 CsAdministrator グループのメンバーシップは、利用可能なすべての構成機能のビジネス サーバーのコントロール パネルの [フル コントロールの Skype を使用しているユーザーを与えます。 特定の機能向けに設計されたその他の役割も使用できます。 使用できるロールの詳細については、 [Skype のビジネス サーバーの環境要件](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)や[ビジネス サーバー 2019 の Skype のサーバーの要件](../../../SfBServer2019/plan/system-requirements.md)を参照してください。 管理グループのメンバーになるために Skype ビジネス サーバーに対して有効にするユーザーがないことに注意してください。 
   
     > [!CAUTION]
     > セキュリティとロール ベースのアクセス制御の整合性を確保するため、ユーザーがビジネス サーバー配置の Skype の管理を実行するどのような役割を定義するグループにユーザーを追加します。 
@@ -175,4 +175,4 @@ Skype ビジネス サーバーは、Active Directory と緊密に動作しま�
 
 ## <a name="see-also"></a>関連項目
  
-[ビジネス サーバー 2015 の Skype の active Directory ドメイン サービス](../../plan-your-deployment/security/active-directory-domain-services.md)
+[Skype for Business Server 2015 用の Active Directory ドメイン サービス](../../plan-your-deployment/security/active-directory-domain-services.md)

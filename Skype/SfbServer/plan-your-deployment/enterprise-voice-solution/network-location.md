@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 での場所の判断に使用するネットワーク要素の定義
+title: Skype ビジネス サーバーの場所を決定するためのネットワーク要素を定義します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 description: 意思決定されるネットワーク ・ コンポーネントを計画するために必要なビジネス サーバーのエンタープライズ VoIP の Skype で ~ 9-1-1 の配置の場所に呼び出し元のマップに使用します。
-ms.openlocfilehash: ddf769a6389b7affcabacd936dba6e560d4a887c
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 2ccbb6ece628748fca0e5e8e679eb4511db37c6e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004455"
 ---
-# <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での場所の判断に使用するネットワーク要素の定義
+# <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server"></a>Skype ビジネス サーバーの場所を決定するためのネットワーク要素を定義します。
  
 意思決定されるネットワーク ・ コンポーネントを計画するために必要なビジネス サーバーのエンタープライズ VoIP の Skype で ~ 9-1-1 の配置の場所に呼び出し元のマップに使用します。
   

@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 での SIP トランク サービス プロバイダーの場所の管理
+title: ビジネス サーバーの Skype では、SIP トランク サービス プロバイダーの場所を管理します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: 意思決定の計画に必要な場所情報のデータベース、または ~ 9-1-1 展開のビジネス サーバーのエンタープライズ VoIP の Skype で、SIP トランキング プロバイダーを使用して、ような外部データベースです。
-ms.openlocfilehash: 61aec2a537a9351c73c9e1e903685f686d500517
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 079e921debe9e5b61839795e61db199a018879aa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996775"
 ---
-# <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での SIP トランク サービス プロバイダーの場所の管理
+# <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>ビジネス サーバーの Skype では、SIP トランク サービス プロバイダーの場所を管理します。
  
 意思決定の計画に必要な場所情報のデータベース、または ~ 9-1-1 展開のビジネス サーバーのエンタープライズ VoIP の Skype で、SIP トランキング プロバイダーを使用して、ような外部データベースです。
   
@@ -51,7 +51,7 @@ Skype ビジネス サーバーでネットワーク内のクライアントを�
   
 セカンダリ場所情報サービスのオプションを使用するとサード ・ パーティ製のデータベースに接続するのには、グループ化し、オフラインのプラットフォームを使用して場所を管理できます。 この方法の利点は、場所をネットワーク ID に関連付けることに加えて、場所をユーザーに関連付けられることです。 つまり、場所情報サービスが、Skype のビジネス クライアントに、セカンダリ場所情報サービスから発信される、複数のアドレスを返すことができます。 その後、ユーザーは最適な場所を選択できます。 
   
-位置情報サービスとの統合、サードパーティのデータベースは、Lync Server の場所要求/応答スキーマに従う必要があります。 詳細については、「 [」[MS E911WS]: E911 サポート プロトコル仕様の Web サービス"](https://go.microsoft.com/fwlink/p/?linkid=213819). セカンダリ場所情報サービスの展開に関する詳細情報は、展開に関するドキュメントで[ビジネス サーバー 2015 の Skype でのセカンダリ場所情報サービスの構成](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md)を参照してください。
+位置情報サービスとの統合、サードパーティのデータベースは、Lync Server の場所要求/応答スキーマに従う必要があります。 詳細については、「 [」[MS E911WS]: E911 サポート プロトコル仕様の Web サービス"](https://go.microsoft.com/fwlink/p/?linkid=213819). セカンダリ場所情報サービスの展開に関する詳細情報は、展開に関するドキュメントで[Skype ビジネス サーバーでセカンダリ場所情報サービスの構成](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md)を参照してください。
   
 場所データベースの設定についての詳細は、展開に関するドキュメントの[場所データベースの構成](http://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx)を参照してください。
   

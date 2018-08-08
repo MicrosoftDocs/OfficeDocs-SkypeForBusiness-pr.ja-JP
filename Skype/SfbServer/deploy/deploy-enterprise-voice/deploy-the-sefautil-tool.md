@@ -1,9 +1,8 @@
 ---
-title: Skype for Business 2015 での SEFAUtil ツールの展開
+title: ビジネス用の Skype で SEFAUtil ツールを展開します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: ビジネス サーバーの Skype で SEFAUtil ツールを展開します。
-ms.openlocfilehash: 4def73d0bca655569275f61d9ebfeafb4ab7e3d4
-ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
+ms.openlocfilehash: 55079f1727a6671a41e87582edd5810a4daa731f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001204"
 ---
-# <a name="deploy-the-sefautil-tool-in-skype-for-business-2015"></a>Skype for Business 2015 での SEFAUtil ツールの展開
+# <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>ビジネス用の Skype で SEFAUtil ツールを展開します。
  
 ビジネス サーバーの Skype で SEFAUtil ツールを展開します。
   
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/10/2018
 すべてのフロント エンド プールで SEFAUtil ツールを実行するには、展開に。 SEFAUtil ツールを実行するには、必要がありますを実行するステップ 1、2、3、Skype からビジネス展開ウィザードのアプリケーションの信頼されたコンピューターにします。 SEFAUtil は、証明書と同様に、ローカル構成ストアが存在する必要があります。
   
 > [!NOTE]
-> SEFAUtil を実行しているの詳細については、Technet のブログ記事を参照してください"[を実行している SEFAutil を取得する方法ですか?](https://go.microsoft.com/fwlink/?LinkId=278940)"です。 
+> SEFAUtil を実行しているの詳細については、ブログの記事を参照してください"[を実行している SEFAutil を取得する方法ですか?](https://go.microsoft.com/fwlink/?LinkId=278940)"です。 
   
 ### <a name="to-deploy-sefautil"></a>SEFAUtil を展開するには
 

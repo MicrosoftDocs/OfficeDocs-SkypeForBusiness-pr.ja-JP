@@ -1,9 +1,8 @@
 ---
-title: Skype for Business 2015 でのコール パーク オービット範囲の作成または変更
+title: 作成またはビジネス用の Skype でコール パークの移動範囲を変更します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: 作成またはビジネス サーバーのエンタープライズ VoIP の Skype では、コール パーク軌道範囲テーブルを変更します。
-ms.openlocfilehash: 805323783cee06f76ee4bf0c1c2ecdb427070a8f
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ccbde7291a97e834aade35fb62dc074064f9d58c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009733"
 ---
-# <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business-2015"></a>Skype for Business 2015 でのコール パーク オービット範囲の作成または変更
+# <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>作成またはビジネス用の Skype でコール パークの移動範囲を変更します。
  
 作成またはビジネス サーバーのエンタープライズ VoIP の Skype では、コール パーク軌道範囲テーブルを変更します。
   
@@ -99,11 +99,8 @@ ms.lasthandoff: 05/03/2018
 
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [新しい-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
   
 [セット CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
   
 [コール パークの移動範囲を削除します。](http://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)
-

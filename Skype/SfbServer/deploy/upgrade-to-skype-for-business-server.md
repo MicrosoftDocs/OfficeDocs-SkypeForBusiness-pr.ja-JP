@@ -14,17 +14,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: '概要: ビジネス サーバー 2015 Skype まで Lync Server 2013 からアップグレードする方法を説明します。 マイクロソフト評価センターからのビジネス サーバー 2015 の Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: 0c869527fe9e07187149b63ed3c360b0290c8a87
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 5fb00af65aa3aa63c32b9d54be03010747d4e83b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019887"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>Skype for Business Server 2015 へのアップグレード
  
 **の概要:** ビジネス サーバー 2015 Skype まで Lync Server 2013 からアップグレードする方法について説明します。 [マイクロソフト評価センター](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)からサーバー 2015 をビジネス用には、Skype の無料試用版をダウンロードします。
   
 アップグレードする Lync Server 2013 Skype ビジネス サーバー 2015 のビジネス サーバー トポロジ ビルダーと、インプレース アップグレードの新機能は、Skype を使用して、このドキュメントの手順を使用します。 Lync Server 2010 または通信サーバー 2007 R2 の Office からアップグレードする場合は、[ビジネス サーバー 2015 の Skype へのアップグレード計画](../plan-your-deployment/upgrade.md)を参照してください。
+
+> [!NOTE]
+> インプレース アップグレードはビジネス サーバー 2015 の Skype で利用できるが、ビジネス サーバー 2019 の Skype でサポートされていません。 Coexistance のサポートに並べて、[ビジネス サーバー 2019 の Skype への移行](../../SfBServer2019/migration/migration-to-skype-for-business-server-2019.md)の詳細についてを参照してください。
   
 ## <a name="upgrade-from-lync-server-2013"></a>Lync Server 2013 からのアップグレード
 
@@ -232,17 +236,14 @@ Disable-CsComputer -Scorch
   
 ページの下部にあるすべてのメッセージを確認して、問題のトラブルシューティングに役立てます。詳細情報を表示するには、[**ログの表示**] をクリックします。
   
-埋め込みのアップグレードに失敗**を確認するアップグレードの準備完了**、または * * 不足している前提条件 * * をインストールして、確認、最新の Windows Server、Lync Server、および SQL Server の更新プログラムを適用すると、サーバーにあるすべての必要なソフトウェアおよびロールは、インストールされています。 必要な要素のリストは、[ビジネス サーバー 2015 の Skype のサーバー要件](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)と[ビジネス サーバー 2015 の Skype のための前提条件のインストール](install/install-prerequisites.md)を参照してください。
+埋め込みのアップグレードは、**アップグレードの準備完了を確認**または**不足している必須コンポーネントのインストール**に失敗すると場合、すべて最新 Windows サーバー、Lync Server、および SQL Server の更新プログラムを適用し、必要なすべてのソフトウェアには、サーバーの役割は、ことを確認します。インストールされています。 必要な要素のリストは、[ビジネス サーバー 2015 の Skype のサーバー要件](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)と[ビジネス サーバー 2015 の Skype のための前提条件のインストール](install/install-prerequisites.md)を参照してください。
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[ビジネス サーバー 2015 の Skype にアップグレードしようとしてください。](../plan-your-deployment/upgrade.md)
+[Skype for Business Server 2015 へのアップグレードの計画](../plan-your-deployment/upgrade.md)
   
-[ビジネス サーバー 2015 の Skype のサーバーの要件](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Skype for Business Server 2015 のサーバー要件](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[ビジネス サーバー 2015 の Skype のための前提条件をインストールします。](install/install-prerequisites.md)
+[Skype for Business Server 2015 の前提条件のインストール](install/install-prerequisites.md)
   
-[ビジネス サーバー 2015 の Skype をインストールします。](install/install.md)
-
+[Skype for Business Server 2015 のインストール](install/install.md)

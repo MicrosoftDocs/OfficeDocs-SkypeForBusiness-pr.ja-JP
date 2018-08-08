@@ -1,9 +1,8 @@
 ---
-title: Skype for Business 2015 での音声ルーティング構成に対する保留中の変更の公開
+title: 発行保留中のビジネス用の Skype で音声ルーティング構成の変更
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
-description: '概要: 確認、発行、またはビジネス サーバー 2015 のビジネス サーバーのコントロール パネルの Skype を使用して、Skype での音声ルーティング構成の変更をキャンセルする方法を説明します。'
-ms.openlocfilehash: 34da8d44a778d5a469cc7069e0024dd3b43517ab
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: '概要: 確認、発行、またはビジネスのサーバーのビジネス サーバーのコントロール パネルの Skype を使用して、Skype での音声ルーティング構成の変更をキャンセルする方法を説明します。'
+ms.openlocfilehash: 8df40de8861c16b2ab3dc40bb9f3fadec95a4842
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006514"
 ---
-# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business-2015"></a>Skype for Business 2015 での音声ルーティング構成に対する保留中の変更の公開
+# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>発行保留中のビジネス用の Skype で音声ルーティング構成の変更
  
-**の概要:** 確認、発行、またはビジネス サーバー 2015 のビジネス サーバーのコントロール パネルの Skype を使用して、Skype での音声ルーティング構成の変更をキャンセルする方法を説明します。
+**の概要:** 確認、発行、またはビジネスのサーバーのビジネス サーバーのコントロール パネルの Skype を使用して、Skype での音声ルーティング構成の変更をキャンセルする方法を説明します。
   
 [**音声ルーティング**] グループの各ページで会議設定のいずれかを変更した後は、ここでの手順を実行して、保留中の変更を確認、公開、またはキャンセルします。
   
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/03/2018
 > 保留中の変更すべては、[**すべて確定**] コマンドを実行することによって同時に公開する必要があります。保留中の変更のどれかを選択して公開することはできません。保留中の変更を公開する前に、[**未確定の変更の確認**] コマンドを実行し、公開しない保留中の変更をすべてキャンセルしてください。
   
 > [!NOTE]
-> 保留中の変更を確定する前に [**音声ルーティング**] グループのページから移動して離れると、すべての保留中の変更が失われます。 ただし、現在の構成 (保留中の変更を含む) を音声構成ファイルにエクスポートしておき、後でインポートして更新された構成を公開することができます。 詳細については、[エクスポートまたはインポート ビジネス 2015年の Skype でのボイス ルート構成ファイル](voice-route-configuration-import-export.md)を参照してください。 
+> 保留中の変更を確定する前に [**音声ルーティング**] グループのページから移動して離れると、すべての保留中の変更が失われます。 ただし、現在の構成 (保留中の変更を含む) を音声構成ファイルにエクスポートしておき、後でインポートして更新された構成を公開することができます。 詳細については、[ビジネスの Skype でのボイス ルートの構成ファイルをエクスポートまたはインポート](voice-route-configuration-import-export.md)を参照してください。 
   
 ### <a name="to-review-publish-or-cancel-voice-routing-configuration-changes"></a>音声ルーティング構成の変更を確認、公開、または取り消すには
 

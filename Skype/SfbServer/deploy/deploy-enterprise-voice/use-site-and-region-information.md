@@ -1,9 +1,8 @@
 ---
-title: サイトと地域の情報を使用してサーバー 2015 のビジネス用の Skype でメディア バイ パスのグローバル設定を構成します。
+title: ビジネス サーバーは、サイトと地域の情報を使用するの Skype でメディア バイ パスのグローバル設定を構成します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: ビジネス サーバーのエンタープライズ VoIP の特定のサイトと Skype 内の領域のみに使用するメディア バイ パスを構成します。
-ms.openlocfilehash: ce9daafdde21bc2d30a942ce6b888f2cc7c4e2ff
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 081be80d969c2503abc7e2de4e9865b6057a363b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995980"
 ---
-# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-2015-to-use-site-and-region-information"></a>サイトと地域の情報を使用してサーバー 2015 のビジネス用の Skype でメディア バイ パスのグローバル設定を構成します。
+# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>ビジネス サーバーは、サイトと地域の情報を使用するの Skype でメディア バイ パスのグローバル設定を構成します。
  
 ビジネス サーバーのエンタープライズ VoIP の特定のサイトと Skype 内の領域のみに使用するメディア バイ パスを構成します。 
   
@@ -52,11 +52,9 @@ ms.lasthandoff: 05/03/2018
     
 次に、「[Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets)」の説明に従ってネットワーク サイトにサブネットを追加します。すべてのサブネットをネットワーク サイトに関連付けたら、メディア バイパスの展開は完了です。
 > [!IMPORTANT]
-> ネットワーク地域とネットワーク サイトを作成していない場合は、メディア バイパスを展開する前にこれらを作成する必要があります。 詳細については、[ネットワークの領域を展開、サイト、およびビジネス 2015年の Skype のサブネットを](deploy-network.md)参照してください。 
+> ネットワーク地域とネットワーク サイトを作成していない場合は、メディア バイパスを展開する前にこれらを作成する必要があります。 詳細については、[ネットワークの領域を展開、サイトとサブネットでビジネス用の Skype](deploy-network.md)を参照してください。 
   
 ## <a name="see-also"></a>関連項目
-
-#### 
 
 [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets)
 

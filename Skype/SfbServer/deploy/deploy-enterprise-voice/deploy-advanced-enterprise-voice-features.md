@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 での高度なエンタープライズ VoIP 機能の展開
+title: ビジネス サーバー用の Skype での高度なエンタープライズ VoIP 機能を導入します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,32 +13,33 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
 description: ビジネス サーバーの Skype での高度なエンタープライズ VoIP 機能を展開します。
-ms.openlocfilehash: fc36659dff4bc83cd1a7862b366c88b1f275bd14
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ca9d25ec79c6eb86fca8055b5ae00748cf9c3468
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20999437"
 ---
-# <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での高度なエンタープライズ VoIP 機能の展開
+# <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a>ビジネス サーバー用の Skype での高度なエンタープライズ VoIP 機能を導入します。
  
 ビジネス サーバーの Skype での高度なエンタープライズ VoIP 機能を展開します。
   
 組織に基本的なエンタープライズ VoIP 機能を構成した後は、このセクションの手順に従い、オプションで 1 つ以上の高度なエンタープライズ VoIP 機能を展開することができます。 
   
-- [ビジネス 2015年の Skype でのメディア バイ パスの計画します。](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
+- [ビジネス用の Skype でメディアをバイパスするための計画します。](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
     
-- [ビジネス サーバー 2015 に Skype で通話受付制御を計画します。](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+- [ビジネス サーバーに、Skype で通話受付制御を計画します。](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
     
-- [ビジネス サーバー 2015 に Skype で緊急サービスを計画します。](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
+- [ビジネス サーバーに、Skype で緊急サービスを計画します。](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
     
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [ネットワーク領域、サイト、およびビジネス 2015年の Skype でサブネットを配置します。](deploy-network.md)
+- [ネットワーク領域、サイト、およびビジネスの Skype でサブネットを配置します。](deploy-network.md)
     
-- [ビジネス サーバー 2015 に Skype でのメディア バイ パスを展開します。](deploy-media-bypass.md)
+- [ビジネス サーバーの Skype でのメディア バイ パスを展開します。](deploy-media-bypass.md)
     
-- [ビジネス サーバー 2015 に Skype で通話受付制御を展開します。](deploy-call-admission-control.md)
+- [ビジネス サーバーの Skype で通話受付制御を展開します。](deploy-call-admission-control.md)
     
-- [ビジネス サーバー 2015 の Skype で緊急サービスを展開します。](deploy-emergency-services.md)
+- [ビジネス サーバーの Skype で緊急サービスを展開します。](deploy-emergency-services.md)
     
 

@@ -1,5 +1,5 @@
 ---
-title: Skype for Business のデスクトップ クライアント機能の比較
+title: ビジネス サーバー 2015 の Skype のデスクトップ クライアントの機能の比較
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -14,19 +14,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: '概要: どのような機能がどのクライアントでサポートされているを理解するのにこれらのテーブルを使用できるは、ビジネス サーバー 2015 の Skype または Skype オンライン ビジネス管理者の。'
-ms.openlocfilehash: 867586ffd901baf4bc0c9dfe7fe880811cf4042d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 2a65dcf1825bac80cc002962ce589e851ea2d3b3
+ms.sourcegitcommit: 3d7b62f24db33f9685d8dc08561394c434705a88
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "21223925"
 ---
-# <a name="desktop-client-feature-comparison-for-skype-for-business"></a>Skype for Business のデスクトップ クライアント機能の比較
+# <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype のデスクトップ クライアントの機能の比較
  
 **の概要:** ビジネス サーバー 2015 の Skype または Skype オンライン ビジネス管理者は、どのような機能がどのクライアントでサポートされているを理解するのにこれらのテーブルを使用できます。
   
  展開した場合、またはビジネス用の Skype にアップグレードする前に、どのクライアントが既に組織で使用されていることを確認します。 次の表を使用すると、それらのクライアントの機能のサポートへの影響を把握できます。 これによって、ユーザーへの変更点の伝達や、ロールアウト プロセスの調整、最新のクライアントにアップグレードするメリットの十分な理解が容易になります。
   
 Skype のビジネスをオンラインで利用可能なビジネス サーバー 2015 の Skype で利用可能ないくつかの機能は、詳細は[オンライン、またはハイブリッドのユーザー アカウントの制限](desktop-feature-comparison.md#Online-Hybrid)を参照してください。 Skype ビジネス オンライン管理者は、それらに利用可能なさまざまなプランについては、 [Skype](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx)を参照してください必要があります。
+
+ビジネス サーバー 2019 の Skype のサポート クライアントの[ビジネス 2019年の Skype のデスクトップ クライアントの機能の比較](../../../SfBServer2019/plan/feature-comparison.md)を参照してください。
   
 次の表では、各クライアントは、Skype ビジネス サーバー 2015 または Skype のビジネスをオンラインで利用できる機能を示しています。 スマート フォンやタブレット クライアントの機能の比較は、 [Skype ビジネス向けのモバイル クライアントの機能の比較](mobile-feature-comparison.md)を参照することもできます。 ユーザーが使用できる機能は、組織が購入するクライアント アクセス ライセンスまたはユーザー サブスクリプション ライセンスによっても影響を受けます。 ユーザーに対して Full または Basic クライアントを展開するかどうかは、組織が購入を選択したライセンスまたはプランに応じて変わります。 詳細については[ライセンス ガイド](https://products.office.com/en-us/skype-for-business/it-pros)を参照してください。
   
@@ -92,9 +95,9 @@ Skype のビジネスをオンラインで利用可能なビジネス サーバ�
 |Outlook での IM 会話のログ記録  <br/> |& #x 2714 です。|& #x 2714; サーバー側の会話の履歴がオンになっているかどうか  <br/> |& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|& #x 2714 です。||Communicator for Mac に保存  <br/> |Lync for Mac に保存  <br/> |
 |準備された会話テンプレートの使用  <br/> |||||& #x 2714 です。|& #x 2714 です。||||
 |スペル チェックの実行  <br/> |& #x 2714 です。|& #x 2714 です。||& #x 2714 です。|||||& #x 2714 です。|
-|(SharePoint サーバーの統合) でスキル検索  <br/> (ビジネス サーバーと SharePoint 2013 の設置の設置型の Skype は、スキル検索に必要な)。  <br/> |& #x 2714 です。||& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|& #x 2714 です。||||
+|スキルの検索 (SharePoint Server との統合を利用)   <br/> (ビジネス サーバーと SharePoint 2013 の設置の設置型の Skype は、スキル検索に必要な)。  <br/> |& #x 2714 です。||& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|& #x 2714 です。||||
 |常設チャット (グループ チャット) の統合  <br/> (ビジネス オンラインの Skype では使用できません)  <br/> |& #x 2714 です。||& #x 2714 です。|||||||
-|ビジネス会議を 1 つクリックするだけで、Skype に永続的なチャット ルームをエスカレートします。  <br/> (ビジネス オンラインの Skype では使用できません)  <br/> |& #x 2714 です。||& #x 2714 です。|||||||
+|1 回のクリック操作で常設チャット ルームから Skype for Business 会議へのエスカレート  <br/> (ビジネス オンラインの Skype では使用できません)  <br/> |& #x 2714 です。||& #x 2714 です。|||||||
 |IM ウィンドウでの送信者と受信者のインライン画像  <br/> |& #x 2714 です。||& #x 2714 です。|& #x 2714 です。||||||
 |インク メッセージの送信  <br/> ||||& #x 2714 です。||||||
 |インク メッセージの受信  <br/> |& #x 2714 です。||& #x 2714 です。|& #x 2714 です。||||||
@@ -222,6 +225,7 @@ Skype 間のセッションで、Skype for Business Online プラン 1 のユー
 |先進認証  <br/> |& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|||||||
 |多要素認証  <br/> |& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|||||||
 |証明書ベースの認証  <br/> |& #x 2714; (ドメインに参加しているデバイスのみ)  <br/> |& #x 2714 です。|& #x 2714; (ドメインに参加しているデバイスのみ)  <br/> |||||||
+|Kerberos 認証  <br/> |& #x 2714 です。||& #x 2714 です。|||||||
    
 ## <a name="archiving-compliance-and-logging-support"></a>アーカイブ、コンプライアンス、ログのサポート
 <a name="BKMK_Archiving"> </a>
@@ -282,5 +286,6 @@ Skype 間のセッションで、Skype for Business Online プラン 1 のユー
 ## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
 <a name="Types"> </a>
 
-[クライアントとデバイスの計画](clients-and-devices.md)
+[クライアントおよびデバイスの計画](clients-and-devices.md)
 
+[Windows インストーラー (MSI) を使用するビジネス用の Skype のバージョンの最新の更新プログラム](../../sfb-client-updates.md)

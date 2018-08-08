@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 でのトランクの構成
+title: ビジネス サーバー用の Skype でトランクを構成します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
-description: '概要: は、Skype のビジネス サーバー 2015 の仲介サーバーとエンタープライズ VoIP のピア間のトランクを構成する方法について説明します。'
-ms.openlocfilehash: 4944cac2b06d837facf0cf014fb3a4fd32343305
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: '概要: は、Skype のビジネス サーバーの仲介サーバーとエンタープライズ VoIP のピア間のトランクを構成する方法について説明します。'
+ms.openlocfilehash: 7d40201cbf2305f464f66ead66ae3a8e7126ca03
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992393"
 ---
-# <a name="configure-trunks-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのトランクの構成
+# <a name="configure-trunks-in-skype-for-business-server"></a>ビジネス サーバー用の Skype でトランクを構成します。
  
-**の概要:** ビジネス サーバー 2015 の Skype での仲介サーバーとエンタープライズ VoIP のピア間のトランクを構成する方法について説明します。
+**の概要:** Skype のビジネス サーバーの仲介サーバーとエンタープライズ VoIP のピア間のトランクを構成する方法について説明します。
   
 エンタープライズ VoIP 展開の一部として、仲介サーバーと 1 つ以上のエンタープライズ VoIP クライアントと、組織内のデバイスの公衆交換電話網 (PSTN) 接続を提供する次のピア間のトランクを構成できます。
   
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/03/2018
     
 - 構内交換機 (PBX)
     
-詳細については、 [Skype のビジネス サーバー 2015 の PSTN への接続の計画](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md)を参照してください。
+詳細については、 [Skype のビジネス サーバーの PSTN への接続の計画](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md)を参照してください。
   
 ビジネス サーバーの機能のための Skype では、ゲートウェイと仲介サーバーの間で複数のアソシエーションをサポートします。 これらの関連付けは、仲介サーバー プールと公衆交換電話網 (PSTN) ゲートウェイ、セッション ボーダー コント ローラー (SBC)、または IP PBX との間の論理的な関連付けには、トランクを定義することによって行われます。 ゲートウェイを仲介サーバー (つまり、トランクなど) に関連付けるには、トポロジ ビルダーを使用します。
   

@@ -1,9 +1,8 @@
 ---
 title: Skype Room Systems バージョン 2 コンソールを構成する
 ms.author: jambirk
-author: jambirk
+author: Travis-Snoozy
 manager: serdars
-ms.date: 2/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,11 +11,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: この記事では、Skype Room Systems バージョン 2 コンソール デバイスとその周辺機器の設定方法を説明します。
-ms.openlocfilehash: 96fb2a88d699ca364f02f24af58d2f17dc555e11
-ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
+ms.openlocfilehash: e9675b091723dc3b021543acedd278404788be13
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013697"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Skype Room Systems バージョン 2 コンソールを構成する
  
@@ -26,13 +26,13 @@ ms.lasthandoff: 05/21/2018
   
 - [インストール イメージを準備する](console.md#Prep_Image)
     
-- [タブレット デバイスにプライベート CA 証明書をインストールします。](console.md#Certs)
+- [タブレット デバイスにプライベート CA 証明書をインストールする](console.md#Certs)
     
 - [Windows 10 と Skype ルーム システム v2 のコンソール アプリケーションをインストールします。](console.md#Reimage)
    
 - [コンソールの初期設定](console.md#Initial)
     
-- [Skype ルーム システム v2 の展開のチェックリスト](console.md#Checklist)
+- [Skype Room System バージョン 2 の展開チェックリスト](console.md#Checklist)
     
 > [!NOTE]
 > Skype ルーム システム v2 は、ビジネス環境をデバイスのアカウントが正しく設定されて[Skype ルーム システムの配置のバージョン 2](room-systems-v2.md)で説明したように正しく構成されている Skype でのみ動作します。 
@@ -40,7 +40,7 @@ ms.lasthandoff: 05/21/2018
 ## <a name="prepare-the-installation-image"></a>インストール イメージを準備する
 <a name="Prep_Image"> </a>
 
-Surface Pro 4 または Surface Pro の Skype ルーム システム v2 のアプリケーションをインストールするには、FAT32 ディスクとしてフォーマットされたメモリの 32 GB 以上の USB ストレージ デバイスが必要です。 存在しないはずの他のデバイス上のファイルは、USB 記憶装置上の既存のファイルはすべて失われます。 
+Surface Pro 4 または Surface Pro の Skype ルーム システム v2 のアプリケーションをインストールするには、FAT32 ディスクとしてフォーマットされたメモリの 32 GB 以上の USB ストレージ デバイスが必要です。 デバイス上に他にファイルがないようにしてください。USB ストレージ上の既存のファイルはすべて失われます。 
   
 > [!NOTE]
 > 次の手順に従ってコンソール イメージを作成しないと、予期しない動作が発生する可能性があります。 Skype ルーム システム v2 のイメージの作成については、Windows 10 企業記念日の更新プログラム (バージョン 1607) がサポートされていません。 
@@ -48,15 +48,14 @@ Surface Pro 4 または Surface Pro の Skype ルーム システム v2 のア�
 > [!NOTE]
 > Windows 10 企業記念日を更新、Windows ストアを使用して Skype ルーム システム v2 更新 3 への移動で既存の Skype ルーム システム v2 機能しますが、次のように、新規インストールを行う必要があります。 
   
-1. [MSU](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu)をダウンロードします。
-2. [CreateSrsMedia.ps1 スクリプト](https://go.microsoft.com/fwlink/?linkid=867842)をダウンロードします。
-3. MSU を KB4056892 の CreateSrsMedia.ps1 スクリプトと同じディレクトリに配置します。
-4. 10 の Windows コンピューターで管理者特権のプロンプトから CreateSrsMedia.ps1 スクリプトを実行します。
+1. [CreateSrsMedia.ps1 スクリプト](https://go.microsoft.com/fwlink/?linkid=867842)をダウンロードします。
+2. (省略可能)ダウンロードし、スクリプトと同じディレクトリに、必要な言語パックの CAB ファイルを配置します。 言語パックを取得する場所がわからない場合に、作成するメディアの種類に応じた適切な言語パックのファイルをダウンロードできるスクリプトを示します。
+3. Windows 10 マシン上で管理者特権でのプロンプトから CreateSrsMedia.ps1 スクリプトを実行します。
 
 
-Skype ルーム システム v2 の USB セットアップ ディスクを作成するスクリプトの指示に従います。 完了したら、USB ディスクをコンピューターから削除し、 [Windows の 10 をインストール](console.md#Reimage)して Skype ルーム システム v2 のコンソール アプリケーションです。
+Skype ルーム システム v2 の USB セットアップ ディスクを作成するスクリプトの指示に従います。 完了したら、コンピュータから USB ディスクを削除し、「[Windows 10 と Skype Room Systems バージョン 2 コンソール アプリをインストールする](console.md#Reimage)」に進みます。
     
-## <a name="install-windows-10-and-the-skype-room-systems-v2-console-app"></a>Windows 10 と Skype Room Systems バージョン 2 コンソール アプリをインストールする 
+## <a name="install-windows-10-and-the-skype-room-systems-v2-console-app"></a>Windows 10 と Skype Room Systems バージョン 2 コンソール アプリをインストールする
 <a name="Reimage"> </a>
 
 次に、作成したイメージを適用する必要があります。 タブレットは、アプライアンスとして実行され、Skype ルーム システム v2 アプリケーションのみを実行するのには既定のユーザーを指定します。 
@@ -129,7 +128,7 @@ Windows をインストールすると、Skype ルーム システム v2 アプ�
     
 3. "ドメインの構成] の下で、Skype のビジネス サーバーの FQDN を設定します。 ビジネスの SIP ドメインの Skype ユーザーの Exchange ドメインと異なる場合は、このフィールドに、Exchange ドメインを入力します。
     
-4. [ **次へ**] をクリックします。
+4. [**次へ**] をクリックします。
     
 5. [機能] 画面で指定されたデバイスを選択し、[**次へ**] をクリックします。 既定では、自動画面共有はオンで、会議名の非表示はオフになっています。 選択対象のデバイスは次のとおりです。
     
@@ -143,7 +142,7 @@ Windows をインストールすると、Skype ルーム システム v2 アプ�
     
 6. **[完了]** をクリックします。
     
-アプリケーションはビジネス サーバー 2015 の上で入力した資格情報を持つ Skype にサインインします。 すぐに開始する必要がありでこれらの同じ資格情報を使用して Exchange の予定表の同期を開始する必要がありますも。 アプリケーションの使用方法の詳細については、 [Skype ルーム システム バージョン 2 のヘルプ](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)を参照してください。
+アプリケーションは、ビジネス サーバーは、上で入力した資格情報を持つ Skype にサインインします。 すぐに開始する必要がありで同じ資格情報を使用して Exchange の予定表の同期を開始する必要がありますも。 アプリケーションの使用方法の詳細については、 [Skype ルーム システム バージョン 2 のヘルプ](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)を参照してください。
   
 > [!IMPORTANT]
 > Skype ルーム システム v2 では、認定されたコンソールのハードウェア (logitech (ロジクール) SmartDock) の存在に依存しています。 Surface Pro 4 または Surface Pro に読み込まれている Skype ルーム システム v2 のアプリケーションが含まれている正常に作成されたイメージはコンソールのハードウェアが検出された場合を除き、過去の初期セットアップ手順は起動しません。 
@@ -211,7 +210,7 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Skype_Room_Syste
 |☐  <br/> |管理者アカウントのパスワードが設定されており、確認済みである  <br/> |
 |☐  <br/> |Surface Pro 4 または Surface Pro のすべてのシステム アップデートが適用済みである  <br/> |
    
-**オーディオ/ビデオ周辺機器**
+**音声/ビデオ周辺機器**
 
 |||
 |:-----|:-----|
@@ -223,7 +222,7 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Skype_Room_Syste
 |☐  <br/> |オーディオ入力デバイスが機能し、適切に配置されている  <br/> |
 |☐  <br/> |オーディオ出力デバイスが機能し、適切に配置されている  <br/> |
    
-**ドッキング ステーション**
+**ドック**
 
 |||
 |:-----|:-----|
@@ -236,13 +235,10 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Skype_Room_Syste
 ## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
 <a name="Checklist"> </a>
 
-#### 
-
-[Skype ルームの計画システム v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Skype Room Systems バージョン 2 の計画](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Skype の部屋を配置するシステム v2](room-systems-v2.md)
+[Skype Room System バージョン 2 を展開する](room-systems-v2.md)
   
-[Skype ルーム システム v2 のコンソールを構成します。](console.md)
+[Skype Room Systems バージョン 2 コンソールを構成する](console.md)
   
-[Skype ルームの管理システム v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
-
+[Skype Room Systems バージョン 2 を管理する](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

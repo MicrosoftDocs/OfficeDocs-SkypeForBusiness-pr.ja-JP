@@ -3,29 +3,87 @@ title: Microsoft Teams のクライアントを取得する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/27/2018
+ms.date: 07/05/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ninadara; vichau
-localization_priority: Normal
+ms.reviewer: vichau, majafry
+localization_priority: Priority
 description: Microsoft Teams で利用できる、Web、デスクトップ (Windows および Mac)、およびモバイル (Android、iOS、Windows Phone) などのさまざまなクライアントを使用する方法について説明します。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 579bc0290c8375adf23a17aa8121fb7a8d363718
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: 083e45097c7f2495bb73dc51a64d25202fafc13b
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21708361"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 ===========================
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Microsoft Teams には、Web、デスクトップ (Windows および Mac)、およびモバイル (Android、iOS、Windows Phone) で利用できるクライアントがあります。これらのクライアントはすべてアクティブなインターネット接続が必要で、オフライン モードをサポートしていません。
+マイクロソフトのチームには、クライアント デスクトップ (Windows および Mac) は、web、およびモバイル (Android、iOS、および Windows Phone) があります。 これらのクライアントはすべてアクティブなインターネット接続が必要で、オフライン モードをサポートしていません。
+
+<a name="desktop-client"></a>デスクトップ クライアント
+--------------
+
+マイクロソフト チームのデスクトップ クライアントは、スタンドアロン アプリケーションと現在の Office 365 用リソースの一部ではありません。 チームは、Windows (7 +)、32 ビットと 64 ビットの両方のバージョンと macOS (10.10 +) の両方に使用できます。 Windows で Teams を使用するには .NET Framework 4.5 以降が必要です。.NET Framework 4.5 以降がない場合は、Teams のインストーラーでインストールすることになります。 
+
+デスクトップ クライアントは、チーム会議、グループ通話、およびプライベートな 1 対 1 での通話に対応するリアルタイム通信のサポート (オーディオ、ビデオ、およびコンテンツ共有) を提供します。
+
+デスクトップ クライアントは、適切なローカルのアクセス許可を持っているエンド ユーザーによって、[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) から直接ダウンロードおよびインストールできます (管理者権限は、Teams クライアントを PC にインストールする場合には必要ありませんが、Mac では必要になります) 。
+
+IT 管理者は、システム センター構成マネージャー (Windows) または Jamf Pro (macOS) など、組織内のコンピューターにインストール ファイルを配布するが推奨される方法を選択できます。 Windows ディストリビューションの MSI パッケージを取得するには、[マイクロソフト チームのインストールは、MSI を使用して](msi-deployment.md)参照してください。
+
+> [!NOTE]
+> これらのメカニズムによるクライアントの配布は、Microsoft Teams クライアントの初回インストール時にのみ利用でき、それ以降の更新では利用できません。
+
+### <a name="windows"></a>Windows
+
+Windows のマイクロソフトのチームのインストールには、32 ビットおよび 64 ビット アーキテクチャでは、ダウンロード可能なインストーラーが提供されます。
+
+> [!NOTE]
+> マイクロソフト チームのアーキテクチャ (32 ビットと 64 ビット) は、Windows とインストールされている Office のアーキテクチャに依存しません。
+
+Windows クライアントは、ユーザーのプロファイルにある AppData フォルダーに展開されます。ユーザーのローカル プロファイルに展開すると、クライアントは管理者特権を必要とせずにインストール可能になります。Windows クライアントは次の場所にインストールされます。
+
+- %appdata%\\local\\Microsoft\\Teams
+
+- %appdata%\\roaming\\Microsoft\\Teams
+
+ユーザーは、最初にマイクロソフトのチームのクライアントを使用して呼び出しを開始するとき、Windows ファイアウォールの設定で通信を許可するユーザーの入力を求める警告がわかります。 呼び出し機能しますが、警告を終了したときにもあるために、このメッセージを無視するようにユーザーを指示することがあります。
+
+![[Windows セキュリティの重要な警告] ダイアログのスクリーンショット。](media/Get_clients_for_Microsoft_Teams_image3.png)
+
+> [!NOTE]
+> Windows ファイアウォール設定は、[キャンセル] の選択によりプロンプトが受け入れられなかった場合でも変更されます。TCP および UDP プロトコルの両方に関するブロック アクションで、teams.exe に関する2 つの着信ルールが作成されます。
+
+### <a name="mac"></a>Mac
+
+Mac ユーザーは、macOS のコンピューターでパッケージのインストール ファイルを使用してチームをインストールできます。 Mac クライアントをインストールするには管理アクセスが必要です。 /Applications フォルダーには、macOS クライアントがインストールされています。
+
+#### <a name="install-teams-by-using-the-pkg-file"></a>PKG ファイルを使用してチームをインストールします。
+
+1. [チームがページをダウンロード](https://teams.microsoft.com/downloads)するから**Mac**では、下の [**ダウンロード**] をクリックします。
+2. PKG ファイルをダブルクリックします。
+3. インストールを完了するのにはインストール ウィザードに従います。
+4. チームは、/Applications フォルダーにインストールされます。 コンピューター全体にインストールすることをお勧めします。
+
+> [!NOTE]
+> 、インストール中に、PKG は、管理者の資格情報を求められます。 ユーザーは、ユーザーが管理者かどうかに関係なく、管理者の資格情報を入力する必要があります。
+
+ユーザー現在チームの攻撃力のインストールには、パッケージのインストールを交換したい場合、ユーザーする必要があります。
+
+1. チームのアプリケーションを終了します。
+2. チームのアプリケーションをアンインストールします。
+3. PKG ファイルをインストールします。
+
+IT 管理者は、Jamf Pro など、組織内のすべての Mac にインストール ファイルを配布するのには、チームの管理された展開を使用できます。
+
+> [!NOTE]
+> パッケージのインストールで問題が発生する場合お知らせします。 この資料の最後にある [**フィードバック**] セクションでは、**製品に関するフィードバック**をクリックします。
 
 <a name="web-client"></a>Web クライアント 
 ----------
@@ -34,50 +92,7 @@ Web クライアント ([https://teams.microsoft.com](https://go.microsoft.com/f
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-Web クライアントは、[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) への接続時にブラウザー バージョンの検出を実行します。サポートされていないブラウザー バージョンを検出した場合、Web インターフェイスへのアクセスをブロックし、ユーザーによるデスクトップ クライアントまたはモバイル アプリのダウンロードを推奨します。
-
-<a name="desktop-client"></a>デスクトップ クライアント
---------------
-
-Microsoft Teams デスクトップ クライアントはスタンドアロン アプリケーションであり、現在は Office Pro Plus の一部ではありません。 Microsoft Teams は、32 ビットおよび 64 ビット バージョンの Windows (7 以上)、および MacOS (10.10 以上) で利用できます。 Windows で Teams を使用するには .NET Framework 4.5 以降が必要です。.NET Framework 4.5 以降がない場合は、Teams のインストーラーでインストールすることになります。 
-
-デスクトップ クライアントは、チーム会議、グループ通話、およびプライベートな 1 対 1 での通話に対応するリアルタイム通信のサポート (オーディオ、ビデオ、およびコンテンツ共有) を提供します。
-
-デスクトップ クライアントは、適切なローカルのアクセス許可を持っているエンド ユーザーによって、[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) から直接ダウンロードおよびインストールできます (管理者権限は、Teams クライアントを PC にインストールする場合には必要ありませんが、Mac では必要になります) 。
-
-IT 管理者は好みの方法で、System Center Configuration Manager (Windows)、Casper Suite (MacOS) のような組織内のコンピューターにインストール ファイルを配布できます。 Windows ディストリビューションの MSI パッケージを取得するには、「[MSI を使用して Microsoft Teams をインストールする](msi-deployment.md)」をご覧ください。
-
-> [!NOTE]
-> これらのメカニズムによるクライアントの配布は、Microsoft Teams クライアントの初回インストール時にのみ利用でき、それ以降の更新では利用できません。
-
-
-#### <a name="windows"></a>Windows
-
-Windows 用のMicrosoft Teams インストールでは、32 ビットおよび 64 ビット アーキテクチャでダウンロード可能なインストーラーを提供しています。そのアーキテクチャは、オンライン ダウンロードで既定として提示される OS のアーキテクチャと一致する必要があります。
-
-
-
-> [!NOTE]
-> Microsoft Teams のアーキテクチャ (32 ビットと 64 ビット) はインストールされている Office のアーキテクチャに依存しません。
-
-Windows クライアントは、ユーザーのプロファイルにある AppData フォルダーに展開されます。ユーザーのローカル プロファイルに展開すると、クライアントは管理者特権を必要とせずにインストール可能になります。Windows クライアントは次の場所にインストールされます。
-
--   %appdata%\\local\\Microsoft\\Teams
-
--   %appdata%\\roaming\\Microsoft\\Teams
-
-ユーザーが Microsoft Teams クライアントを使用して初めて通話を開始すると、ユーザーに通信の許可を求める Windows ファイアウォール設定に関する警告が通知される場合があります。警告を受け入れなくても通話は機能するため、このメッセージを無視するように指示される場合があります。
-
-![[Windows セキュリティの重要な警告] ダイアログのスクリーンショット。](media/Get_clients_for_Microsoft_Teams_image3.png)
-
-
-> [!NOTE]
-> Windows ファイアウォール設定は、[キャンセル] の選択によりプロンプトが受け入れられなかった場合でも変更されます。TCP および UDP プロトコルの両方に関するブロック アクションで、teams.exe に関する2 つの着信ルールが作成されます。
-
-#### <a name="mac"></a>Mac
-
-Microsoft は Mac OSX コンピュータ用の DMG インストール ファイルも提供しています。 Mac クライアントをインストールするには管理アクセスが必要です。 Mac OSX クライアントは /Applications フォルダーにインストールされます。
-
+Web クライアントへの接続時にブラウザーのバージョンの検出を実行する[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)。 サポートされていないブラウザーのバージョンが検出された場合、web インタ フェースへのアクセスをブロックし、ユーザーがデスクトップ クライアントまたはモバイル アプリケーションをダウンロードすることをお勧めです。
 
 <a name="mobile-clients"></a>モバイル クライアント
 --------------
@@ -91,6 +106,9 @@ Microsoft Teams モバイル アプリのサポートされるモバイル プ�
 -   **iOS**: 10.0 以降
 
 -   **Windows Phone**: Windows 10 Mobile
+
+> [!NOTE]
+> モバイル版は、チームが正常に機能するために一般に公開する必要があります。
 
 モバイル アプリはそれぞれのモバイル プラットフォームのアプリ ストアからのみ配布および更新され、MDM (モバイル デバイス管理) ソリューションまたはサイド ロードからは配布することはできません。
 

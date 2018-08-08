@@ -1,9 +1,8 @@
 ---
-title: ビジネス サーバー 2015 の Skype でお知らせを削除をします。
+title: 作成またはビジネス サーバーの Skype でお知らせを削除します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: 作成またはビジネス サーバーのエンタープライズ VoIP の Skype のアプリケーションを発表のお知らせを削除します。 この設定によって、割り当てられていない番号への通話を処理する方法が影響を受けます。
-ms.openlocfilehash: 2b290c54f805951cdb3dede67c3dafe1a0d542d1
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 3270daf8d157be0b6307f4112081cb331f84d69f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019511"
 ---
-# <a name="create-or-delete-an-announcement-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype でお知らせを削除をします。
+# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>作成またはビジネス サーバーの Skype でお知らせを削除します。
  
 作成またはビジネス サーバーのエンタープライズ VoIP の Skype のアプリケーションを発表のお知らせを削除します。 これは、割り当てられていない番号への通話の処理方法に影響します。
   
@@ -114,9 +114,7 @@ ms.lasthandoff: 05/24/2018
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[ビジネス サーバー 2015 の Skype でお知らせを削除をします。](create-an-announcement.md)
+[作成またはビジネス サーバーの Skype でお知らせを削除します。](create-an-announcement.md)
 
 [インポート-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
   

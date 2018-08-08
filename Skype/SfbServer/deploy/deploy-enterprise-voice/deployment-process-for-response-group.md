@@ -1,9 +1,8 @@
 ---
-title: Skype for Business 2015 での応答グループの展開プロセス
+title: ビジネス用の Skype で応答グループの展開のプロセス
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: 展開プロセスとビジネス サーバーのエンタープライズ VoIP の Skype で応答グループの手順を実行します。
-ms.openlocfilehash: e84d8507ca64228a1bf6773110b5122d25286636
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: c6b46aae2a7bcf46bba02780cf04032149ebcba9
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981172"
 ---
-# <a name="deployment-process-for-response-group-in-skype-for-business-2015"></a>Skype for Business 2015 での応答グループの展開プロセス
+# <a name="deployment-process-for-response-group-in-skype-for-business"></a>ビジネス用の Skype で応答グループの展開のプロセス
  
 展開プロセスとビジネス サーバーのエンタープライズ VoIP の Skype で応答グループの手順を実行します。
   
@@ -68,7 +68,7 @@ ms.lasthandoff: 05/03/2018
     
 ### <a name="enabling-users"></a>ユーザーの有効化
 
-応答グループを構成する最初の手順は、エージェント グループを作成するのには。 エージェント グループを作成することができます、前に、ビジネスおよびエンタープライズ VoIP の Skype の応答グループのエージェントとなるユーザーを有効にする必要があります。 ビジネス用の Skype のユーザーを有効にすることは、通常、Enterprise Edition サーバーまたは Standard Edition サーバーの展開の手順です。 ビジネス用の Skype のユーザーを有効にする方法の詳細は、[有効または無効にするユーザーが Lync Server 2013 プレビュー](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)を参照してください。 エンタープライズ VoIP に対してユーザーを有効にすることは、通常、エンタープライズ VoIP 展開のステップです。 詳細については、 [Skype のビジネス サーバー 2015 でエンタープライズ VoIP のユーザーを有効にする](enable-users-for-enterprise-voice.md)を参照してください。 
+応答グループを構成する最初の手順は、エージェント グループを作成するのには。 エージェント グループを作成することができます、前に、ビジネスおよびエンタープライズ VoIP の Skype の応答グループのエージェントとなるユーザーを有効にする必要があります。 ビジネス用の Skype のユーザーを有効にすることは、通常、Enterprise Edition サーバーまたは Standard Edition サーバーの展開の手順です。 ビジネス用の Skype のユーザーを有効にする方法の詳細は、[有効または無効にするユーザーが Lync Server 2013 プレビュー](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)を参照してください。 エンタープライズ VoIP に対してユーザーを有効にすることは、通常、エンタープライズ VoIP 展開のステップです。 詳細については、 [Skype のビジネス サーバーでエンタープライズ VoIP のユーザーを有効にする](enable-users-for-enterprise-voice.md)を参照してください。 
   
 ### <a name="complying-with-fips-requirements"></a>FIPS 要件の準拠
 
@@ -131,11 +131,11 @@ SQL Server 2008 R2 および SQL Server 2012 を使用して、Latin_General_100
 
 **応答グループの展開プロセス**
 
-|**フェーズ**|**手順**|**アクセス許可**|**展開に関するドキュメント**|
+|**段階**|**手順**|**アクセス許可**|**「展開」のドキュメント**|
 |:-----|:-----|:-----|:-----|
-|ビジネスおよびエンタープライズ VoIP の Skype のユーザーを有効にします。  <br/> |ビジネスおよびエンタープライズ VoIP の Skype のエージェントとなるユーザーを有効にします。 ユーザーをエージェント グループに追加する前に、ユーザーを有効にする必要があります。 通常、ユーザーは、ビジネスの Skype の Enterprise Edition または Standard Edition サーバーの展開時に有効です。 ユーザーは、エンタープライズ VoIP の展開中にエンタープライズ VoIP に対して有効です。  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[有効にするか、Lync Server 2013 プレビューを表示するユーザーを無効にします。](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx) <br/> [ビジネス サーバー 2015 の Skype でエンタープライズ VoIP のユーザーを有効にします。](enable-users-for-enterprise-voice.md) <br/> |
-|エージェント グループ、キュー、ワークフローから構成される応答グループを作成および構成する  <br/> |1。 には、次のビジネス サーバーのコントロール パネルまたはビジネス サーバー管理シェルの Skype、Skype を使用します。  <br/> a. エージェント グループを作成して構成する  <br/> b. キューを作成して構成する  <br/> 2. 必要に応じて、グループの業務時間や休日の定義済みの応答を作成するのにビジネス サーバー管理シェルの Skype を使用します。  <br/> 3. 使用ワークフロー (ハント グループまたは対話型音声応答 (IVR) 通話フロー) を作成するには、応答グループ構成ツールまたはビジネス サーバー管理シェルの Skype は、カスタムの応答グループ営業時間および休日を含みます。  <br/> Skype を通じてビジネス サーバーのコントロール パネルの応答グループ構成ツールにアクセスできます。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[応答グループ エージェント グループを作成します。](http://technet.microsoft.com/library/2a80de17-ead0-46e8-8a27-7a4e233dbde0.aspx) <br/> [応答グループ キューを作成します。](http://technet.microsoft.com/library/49cb86c7-2cfd-4a53-8408-d407475174ed.aspx) <br/> [(省略可能)ビジネス 2015年の Skype での定義の応答グループ営業時間](optional-define-response-group-business-hours.md) <br/> [(省略可能)ビジネス 2015年の Skype を定義する応答グループ休日を設定します。](optional-define-response-group-holiday-sets.md) <br/> [設計とビジネス 2015年の Skype で応答グループ ワークフローを作成します。](designing-and-creating-response-group-workflows.md) <br/> |
-|(オプション) アプリケーションレベルの設定をカスタマイズする  <br/> |Skype ビジネス サーバー管理シェルを使用すると、既定の音楽-保留中の構成、既定の音楽-保留中のオーディオ ファイル、エージェント リングバックの猶予期間、および呼び出しのコンテキストの構成をカスタマイズできます。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[ビジネス 2015年の Skype のアプリケーション レベルの応答グループの設定を管理します。](managing-application-level-response-group-settings.md) <br/> |
+|ビジネスおよびエンタープライズ VoIP の Skype のユーザーを有効にします。  <br/> |ビジネスおよびエンタープライズ VoIP の Skype のエージェントとなるユーザーを有効にします。 ユーザーをエージェント グループに追加する前に、ユーザーを有効にする必要があります。 通常、ユーザーは、ビジネスの Skype の Enterprise Edition または Standard Edition サーバーの展開時に有効です。 ユーザーは、エンタープライズ VoIP の展開中にエンタープライズ VoIP に対して有効です。  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[有効にするか、Lync Server 2013 プレビューを表示するユーザーを無効にします。](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx) <br/> [ビジネス サーバーの Skype でエンタープライズ VoIP のユーザーを有効にします。](enable-users-for-enterprise-voice.md) <br/> |
+|エージェント グループ、キュー、ワークフローから構成される応答グループを作成および構成する  <br/> |1。 には、次のビジネス サーバーのコントロール パネルまたはビジネス サーバー管理シェルの Skype、Skype を使用します。  <br/> a. エージェント グループを作成して構成する  <br/> b. キューを作成して構成する  <br/> 2. 必要に応じて、グループの業務時間や休日の定義済みの応答を作成するのにビジネス サーバー管理シェルの Skype を使用します。  <br/> 3. 使用ワークフロー (ハント グループまたは対話型音声応答 (IVR) 通話フロー) を作成するには、応答グループ構成ツールまたはビジネス サーバー管理シェルの Skype は、カスタムの応答グループ営業時間および休日を含みます。  <br/> Skype を通じてビジネス サーバーのコントロール パネルの応答グループ構成ツールにアクセスできます。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[応答グループ エージェント グループを作成します。](http://technet.microsoft.com/library/2a80de17-ead0-46e8-8a27-7a4e233dbde0.aspx) <br/> [応答グループ キューを作成します。](http://technet.microsoft.com/library/49cb86c7-2cfd-4a53-8408-d407475174ed.aspx) <br/> [(省略可能)ビジネス用の Skype を定義する応答グループの営業時間](optional-define-response-group-business-hours.md) <br/> [(省略可能)ビジネス用の Skype を定義する応答グループ休日を設定します。](optional-define-response-group-holiday-sets.md) <br/> [設計とビジネス用の Skype で応答グループ ワークフローを作成します。](designing-and-creating-response-group-workflows.md) <br/> |
+|(オプション) アプリケーションレベルの設定をカスタマイズする  <br/> |Skype ビジネス サーバー管理シェルを使用すると、既定の音楽-保留中の構成、既定の音楽-保留中のオーディオ ファイル、エージェント リングバックの猶予期間、および呼び出しのコンテキストの構成をカスタマイズできます。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[ビジネス用の Skype のアプリケーション レベルの応答グループの設定を管理します。](managing-application-level-response-group-settings.md) <br/> |
 |(オプション) 応答グループの管理を委任する  <br/> |ユーザーに CsResponseGroupManager ロールを割り当て、応答グループの構成を委任します。 応答グループ マネージャーは、割り当てられている応答グループを構成できます。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[ロール ベースのアクセス制御のための計画](http://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx) <br/> |
 |応答グループ展開を検証する  <br/> |ハント グループ ワークフローおよび対話型音声応答ワークフローに対する通話への応答をテストして、構成が正常に機能していることを確認します。  <br/> |-  <br/> |-  <br/> |
    

@@ -16,12 +16,13 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
-description: '概要: は、Skype のビジネス サーバーとビジネス オンラインの Skype との間のハイブリッドの接続を計画する方法については、このトピックを読みます。 多くの Skype for Business ハイブリッド ソリューションを展開する上で、ハイブリッド接続の設定は最初に行う手順となります。'
-ms.openlocfilehash: d61bdd8ecf7ce35e1f80e5b69ede590d5d2c1cd1
-ms.sourcegitcommit: c8963d8a1de4197ddb72229b3c26460e9e0aae77
+description: '概要: このトピックでは、Skype for Business Server と Skype for Business Online 間でハイブリッド接続を計画する方法を説明します。 多くの Skype for Business ハイブリッド ソリューションを展開する上で、ハイブリッド接続の設定は最初に行う手順となります。'
+ms.openlocfilehash: 2cd4c66ebd36542fa90cb8b8bcd0aa88da0d8df0
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21145366"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Skype for Business Server と Skype for Business Online 間のハイブリッド接続を計画する
  
@@ -35,19 +36,19 @@ ms.lasthandoff: 05/22/2018
     
 - [インフラストラクチャの要件](plan-hybrid-connectivity.md#BKMK_Infrastructure)
     
-- [複数フォレストのサポート](plan-hybrid-connectivity.md#BKMK_MultiForest)
+- [マルチ フォレストのサポート](plan-hybrid-connectivity.md#BKMK_MultiForest)
     
-- [Exchange の共存](plan-hybrid-connectivity.md#BKMK_Exchange)
+- [Exchange との共存](plan-hybrid-connectivity.md#BKMK_Exchange)
     
 - [管理者の資格情報](plan-hybrid-connectivity.md#BKMK_Credentials)
     
-- [ビジネス オンライン PowerShell の Skype](plan-hybrid-connectivity.md#BKMK_PowerShell)
+- [Skype for Business Online PowerShell](plan-hybrid-connectivity.md#BKMK_PowerShell)
     
-- [ビジネス クライアントをサポートするための Skype](plan-hybrid-connectivity.md#BKMK_ClientSupport)
+- [Skype for Business のクライアント サポート](plan-hybrid-connectivity.md#BKMK_ClientSupport)
     
-- [トポロジの要件](plan-hybrid-connectivity.md#BKMK_Topology)
+- [トポロジ要件](plan-hybrid-connectivity.md#BKMK_Topology)
     
-- [フェデレーションの許可/禁止リストの要件](plan-hybrid-connectivity.md#BKMK_Federation)
+- [フェデレーション許可/禁止の一覧の要件](plan-hybrid-connectivity.md#BKMK_Federation)
     
 - [DNS の設定](plan-hybrid-connectivity.md#BKMK_DNS)
     
@@ -127,6 +128,9 @@ Skype for Business Server と Skype for Business Online との間でハイブリ
   
 - 1 つ設置 Skype のビジネス サーバーまたはサポートされているトポロジに展開されている Lync Server の展開です。 このトピックでは、[トポロジの要件](plan-hybrid-connectivity.md#BKMK_Topology)を参照してください。
     
+    > [!NOTE]
+    > オンプレミス環境に存在するすべての SIP ドメインは、Office 365 のテナントと逆でも存在する必要があります。 のみいくつかの SIP ドメインをオンラインができませんし、いくつかのドメインの設置型のみです。 それ以外の場合、プレゼンス、IM、およびその他の機能が正しく動作しません。
+    
 - 有効にし、ビジネス オンラインの Skype での Microsoft Office 365 テナントです。 
     
     > [!NOTE]
@@ -205,9 +209,9 @@ Exchange Server との共存の詳細については、サポートを含む条�
     
 ホーム ユーザー、組織内を決定する前に、クライアントのサポート、さまざまな Skype のビジネスのサーバーの構成を決定する[ビジネス用の Skype のデスクトップ クライアントの機能の比較](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)を表示します。 以下の項目もご覧ください。
   
-- [クライアントとデバイスの計画](../plan-your-deployment/clients-and-devices/clients-and-devices.md)
+- [クライアントおよびデバイスの計画](../plan-your-deployment/clients-and-devices/clients-and-devices.md)
     
-- [Skype ビジネス向けのモバイル クライアントの機能の比較](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)
+- [Skype for Business のモバイル クライアント機能の比較](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)
     
 ## <a name="topology-requirements"></a>トポロジ要件
 <a name="BKMK_Topology"> </a>
@@ -278,7 +282,9 @@ Skype でオンライン ビジネスのハイブリッド展開を構成する�
 |エッジ Web 会議サービス FQDN の DNS A レコード、たとえば、webcon.contoso.com は Web 会議のエッジ外部 IP に解決される  <br/> |ユーザーのコンピューターが社内ネットワークに接続されています。  <br/> |オンライン ユーザーを有効にして、オンプレミスのホストされた会議でのコンテンツを提供または表示する。コンテンツには、PowerPoint ファイル、ホワイトボード、投票、および共有メモがあります。  <br/> |
    
 所属する組織での DNS の構成方法によっては、内部 DNS 解決をこれらのレコードに適用するために、対応する SIP ドメインに対して組織内でホストする DNS ゾーンにこれらのレコードを追加する必要があります。
-  
+
+[!NOTE] _sipfederationtls._tcp。\<sipdomain.com\>からエッジ サーバーの SRV レコードの解決は、ハイブリッド構成に必要な。 エッジ サーバーがこれらのレコードを解決できない場合、オンプレミスのユーザーは、プレゼンスを参照するか、オンラインのユーザーと通信することはできません。
+
 ## <a name="firewall-considerations"></a>ファイアウォールの考慮事項
 <a name="BKMK_Firewall"> </a>
 
@@ -294,7 +300,7 @@ Microsoft Online Services のデータ ・ センターの場所、によって�
 内部通信に必要なポートのほかに、次のポートも構成して、ハイブリッド接続を有効にする必要があります。
   
 
-|**プロトコル**|**TCP または UDP**|**ソース IP**|**宛先 IP**|**発信元ポート**|**宛先ポート**|**メモ**|
+|**プロトコル**|**TCP または UDP**|**発信元 IP アドレス**|**送信先 IP アドレス**|**発信元ポート**|**送信先ポート**|**メモ**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |SIP (MTLS)  <br/> |TCP  <br/> |アクセス エッジ  <br/> |Office 365  <br/> |任意  <br/> |5061  <br/> |信号  <br/> |
 |SIP (MTLS)  <br/> |TCP  <br/> |Office 365  <br/> |アクセス エッジ  <br/> |任意  <br/> |5061  <br/> |信号  <br/> |

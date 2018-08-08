@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 でのトポロジ ビルダーでの追加トランクの定義
+title: Skype でトポロジ ビルダーでビジネスのサーバーの追加トランクを定義します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,23 +12,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
-description: '概要: ビジネス サーバー 2015 の Skype でトポロジ ビルダーでの仲介サーバーとゲートウェイ ピアとの間の他のトランクを定義する方法を説明します。'
-ms.openlocfilehash: e76555d0f03b884ad3f3c91c5ca4ad5d687711a2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: '概要: は、Skype でトポロジ ビルダーでビジネス サーバーの仲介サーバーとゲートウェイ ピアとの間の他のトランクを定義する方法を説明します。'
+ms.openlocfilehash: 65ed4bb850c88c873b61090cbc34a133cb9d95e8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20979742"
 ---
-# <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのトポロジ ビルダーでの追加トランクの定義
+# <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>Skype でトポロジ ビルダーでビジネスのサーバーの追加トランクを定義します。
  
-**の概要:** ビジネス サーバー 2015 の Skype でトポロジ ビルダーでの仲介サーバーとゲートウェイ ピアとの間の他のトランクを定義する方法について説明します。
+**の概要:** ビジネス サーバーの Skype でトポロジ ビルダーでは、仲介サーバーとゲートウェイ ピアとの間の他のトランクを定義する方法について説明します。
   
 以下の手順を実行する仲介サーバーのピアを関連付けることができます追加のトランクを定義します。 ピアが接続を公衆交換電話網 (PSTN) とエンタープライズ VoIP が有効なユーザーを提供します。 ピアとなるのは、PSTN ゲートウェイ、IP-PBX、またはインターネット テレフォニー サービス プロバイダー (ITSP) のセッション ボーダー コントローラー (SBC) などです。
   
 トランクは、仲介サーバーとゲートウェイ間の論理接続です。
   
 > [!NOTE]
-> このトピックであると想定 PSTN ゲートウェイのセットアップとルートのトランクを少なくとも 1 つ配置されているか、スタンドアロン仲介サーバーまたはプールの展開に関するドキュメントで[ビジネス サーバー 2015 の Skype でトポロジ ビルダーでゲートウェイを定義](define-a-gateway.md)する」で説明されているようです。
+> このトピックであると想定 PSTN ゲートウェイのセットアップとルートのトランクを少なくとも 1 つ配置されているか、スタンドアロン仲介サーバーまたはプールの展開に関するドキュメントで[Skype のビジネス サーバーで、トポロジ ビルダーでゲートウェイを定義](define-a-gateway.md)する」で説明されているようです。
   
 ### <a name="to-define-an-additional-trunk-between-a-mediation-server-and-a-gateway-peer"></a>仲介サーバーとゲートウェイ ピアとの間の他のトランクを定義するのには
 

@@ -2,20 +2,22 @@
 title: 決定を下すオーディオ会議サービス - マイクロソフトのチーム
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: 会議、ライセンスと可用性については、会議ブリッジの設定を構成する、取得または電話番号を転送し、テナントを選択するダイヤル プランです。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa51cda9a9ce57d7672b152b45eb9c8e3cf4ba46
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 577ee414529223dbc435d8570a55adb6883fd8a2
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695623"
 ---
 # <a name="make-my-service-decisions"></a>[サービスの決定を行う
 
@@ -286,7 +288,7 @@ Office 365 の電話会議サービスには次が含まれます。
 
 -   [Office 365 に電話番号を転送します。](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
--   電話番号の管理フォームのダウンロード
+-   [電話番号の移行に関するよくある質問](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
 
 <br>
 |         |         |         |
@@ -302,13 +304,13 @@ Office 365 の電話システムの機能で、ダイヤル プランでは、�
 
 Office 365 の電話システムの機能では、ダイヤル プランの 2 種類があります。
 
--   **サービスのダイヤル プラン:**これは、既定の Office 365 の使用状況の場所に基づいて、ユーザーに適用されているダイヤル プランと、変更することはできません。
+-   **サービスのダイヤル プラン:** これは、既定の Office 365 の使用状況の場所に基づいて、ユーザーに適用されているダイヤル プランと、変更することはできません。
 
--   **のテナントのダイヤル プラン:**これは、さらに次の 2 種類に分かれているテナント内のカスタマイズ可能なダイヤル プランです。
+-   **のテナントのダイヤル プラン:** これは、さらに次の 2 種類に分かれているテナント内のカスタマイズ可能なダイヤル プランです。
 
-    -   **テナント グローバル ダイヤル プラン:**テナント内のすべてのユーザーに適用されるダイヤル プランです。
+    -   **テナント グローバル ダイヤル プラン:** テナント内のすべてのユーザーに適用されるダイヤル プランです。
 
-    -   **テナント ユーザー ダイヤル プラン:**ダイヤル プランを特定のユーザーだけに適用されます。
+    -   **テナント ユーザー ダイヤル プラン:** ダイヤル プランを特定のユーザーだけに適用されます。
 
 ユーザーに割り当てられている有効なダイヤル プラン (ユーザーの Office 365 の使用状況の場所に基づく) サービスのダイヤル プランの組み合わせは、テナントのダイヤル プラン (テナント グローバル ダイヤル プランまたはテナントのユーザーのダイヤル プランのいずれかであることができます)。
 
@@ -330,15 +332,15 @@ Office 365 の電話システムの機能では、ダイヤル プランの 2 �
 >|テナント ダイヤル プランの名前<br>_説明_  |正規化ルールの名前<br>_説明_  |パターン<br>変換<br>IsInternalExtension  |
 >|---------|---------|---------|
 >|**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde、NSW、AU ダイヤル プラン_|**AU-NSW-NorthRyde-OER-Internal**<br>_One Epping Road オフィスの内部番号 (x7000 - x7999)、North Ryde、NSW、オーストラリア_|^(7\d{3})$<br>+6125550$1<br>True|
->||**AU-NSW-Local**<br>_NSW、オーストラリアの市内番号の正規化_|^([2-9]\d{7})$<br>+612$1<br>False|
->||**AU-TollFree**<br>_オーストラリアの無料電話番号の正規化_|^(1[38]\d{4,8})\d*$<br>+61$1<br>False|
->||**AU-Service**<br>_オーストラリアのサービス番号の正規化_|^(000\|1[0125]\d{1,8})$<br>$1<br>False|
+>||**AU-NSW-Local**<br>_NSW、オーストラリアの市内番号の正規化_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
+>||**AU-TollFree**<br>_オーストラリアの無料電話番号の正規化_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
+>||**AU-Service**<br>_オーストラリアのサービス番号の正規化_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
 >|**SG-Singapore-OMB**<br>_OMB Singapore、SG ダイヤル プラン_|**SG-OMB-Internal**<br>_行政管理予算局のオフィス、シンガポールの内部番号 (x8000-経費"x 8999)_|^(8\d{3})$<br>+656888$1<br>True|
->||**SG-TollFree**<br>_シンガポールの無料電話番号の正規化_|^(1?800\d{7})\d*$<br>+65$1<br>False|
->||**SG-Service**<br>_シンガポールのサービス番号の正規化_|^(1\d{3,4}\|9\d{2})$<br>$1<br>False|
+>||**SG-TollFree**<br>_シンガポールの無料電話番号の正規化_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
+>||**SG-Service**<br>_シンガポールのサービス番号の正規化_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
 >|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux、フランスのダイヤル プラン_|**FR-39qdPR-Internal**<br>_39 quai du Président ルーズベルトのオフィス、Issy の内部番号 ("x-7999 x7000-経費)-ゴ-Moulineaux (フランス)_|^(7\d{3})$<br>+3319999$1<br>True|
->||**FR-TollFree**<br>_フランスの無料電話番号の正規化_|^0?(80\d{7})\d*$<br>+33$1<br>False|
->||**FR-Service**<br>_フランスのサービス番号の正規化_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>False|
+>||**FR-TollFree**<br>_フランスの無料電話番号の正規化_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
+>||**FR-Service**<br>_フランスのサービス番号の正規化_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
 > [!TIP]

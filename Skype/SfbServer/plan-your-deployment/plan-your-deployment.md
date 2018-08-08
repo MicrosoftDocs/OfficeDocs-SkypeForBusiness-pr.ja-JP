@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fefd4fff-57cc-4019-b3eb-3535ad3729a8
 description: '概要: は、これらの概念、論理を開発する方法について説明へのリンクと Skype のビジネス サーバー 2015 機能、サーバー、およびトポロジの構成の物理設計について説明します。'
-ms.openlocfilehash: 66f6e8a6ea422f3f264d1773385a28eb57a1d587
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ef4992a4beb7fe8621b5730d7b1a976c8f3cb80c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20991367"
 ---
 # <a name="plan-for-your-skype-for-business-server-2015-deployment"></a>Skype for Business Server 2015 展開の計画
  
@@ -33,17 +34,17 @@ Skype をビジネス サーバーの展開を計画する方法の詳細につ�
   
 ||**コンテンツ**|**説明**|
 |:--- |:--- |:--- |
-|![技術図面のアイコン](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[ビジネス サーバー 2015 の Skype の技術関連の図](../technical-diagrams.md) <br/> |アーキテクチャの選択肢を大きな図で示します。  <br/> |
+|![技術図面のアイコン](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Skype for Business Server 2015 の技術図面](../technical-diagrams.md) <br/> |アーキテクチャの選択肢を大きな図で示します。  <br/> |
 |![ビデオのアイコン](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|[ビジネス用の Skype: 簡単な説明](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be) <br/> [ビジネス用の Skype: 新規ユーザーのためのステップ バイ ステップ ガイド](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be) <br/> |ビデオ プレゼンテーション、トレーニングのビジネス用の Skype を検出します。  <br/> |
    
-## <a name="technet-articles-about-planning-for-skype-for-business-server"></a>Skype ビジネス サーバーの計画についての TechNet の記事
+##  <a name="articles-about-planning-for-skype-for-business-server"></a>Skype ビジネス サーバーの計画に関する記事
 
 ビジネスのサーバーに、Skype を計画する方法については、以下の資料は、オンラインで表示する使用できます。 
   
-|**ソリューションの計画**|**サーバーのアーキテクチャ、クライアントとデバイスを計画します。**|
+|**ソリューションの計画**|**サーバー アーキテクチャ、クライアント、およびデバイスの計画**|
 |:-----|:-----|
 |![ソリューション コンテンツのアイコン](../media/3959ce46-bd94-40be-8a58-6108bc3583a8.png)           <br/> どのソリューションが組織に適しているかを判断するには、以下の記事を読みください。  <br/> |![サーバー アーキテクチャ コンテンツのアイコン](../media/1d7d8156-1ca9-4124-a17f-6bce5aa91966.png)           <br/> サーバー アーキテクチャ、およびクライアントとデバイスのサポートを計画するには、以下の記事を読みください。  <br/> |
-|**[インスタント メッセージングとプレゼンスのビジネス サーバー 2015 Skype での計画](instant-messaging-and-presence.md)** プレゼンス、インスタント メッセージング (IM) の要件は? インスタント メッセージング (IM) とプレゼンスに含まれるすべての Skype ビジネス サーバーの展開が、技術上の要件では、外部ユーザーは、アーカイブとの通信に関する決定を行う必要があります。 <br/> |**[ビジネス サーバー 2015 の Skype の環境の要件](requirements-for-your-environment/environmental-requirements.md)** <br/> **[ビジネス サーバー 2015 の Skype のサーバーの要件](requirements-for-your-environment/server-requirements.md)** <br/> **[ビジネス 2015年の Skype のネットワーク要件を計画します。](network-requirements/network-requirements.md)** <br/> ビジネス サーバーの Skype のための前提条件を決定するには、まずこれらのトピックを参照します。  <br/> |
+|**[インスタント メッセージングとプレゼンスのビジネス サーバー 2015 Skype での計画](instant-messaging-and-presence.md)** プレゼンス、インスタント メッセージング (IM) の要件は? インスタント メッセージング (IM) とプレゼンスに含まれるすべての Skype ビジネス サーバーの展開が、技術上の要件では、外部ユーザーは、アーカイブとの通信に関する決定を行う必要があります。 <br/> |**[Skype for Business Server 2015 の環境要件](requirements-for-your-environment/environmental-requirements.md)** <br/> **[Skype for Business Server 2015 のサーバー要件](requirements-for-your-environment/server-requirements.md)** <br/> **[Skype for Business 2015 のネットワーク要件の計画](network-requirements/network-requirements.md)** <br/> ビジネス サーバーの Skype のための前提条件を決定するには、まずこれらのトピックを参照します。  <br/> |
 |**[ビジネス サーバー 2015 の Skype でエンタープライズ VoIP ソリューションを計画します。](enterprise-voice-solution/enterprise-voice-solution.md)** 音声要件を挙げてください。 ビジネス サーバーの展開について、Skype で、組織の電話システムを統合する方法を定義します。エンタープライズ VoIP は、ボイス オーバー IP (VoIP) ソリューションでは、Outlook および Exchange.Call を使用する作業との統合を含む、豊富な機能セットを提供する--最も包括的な音声サービスは、既存のビジネス ソリューションは、Skype を統合するための方法を提供しています。PBX 電話システムです。 <br/> |**[ビジネス サーバー 2015 の Skype のトポロジーの基本事項](topology-basics/topology-basics.md)** その他の準備をする前に行う適切なトポロジの Skype のビジネス サーバーの配置を知りたいでしょう。 決定する必要があります最初には、ビジネスのサーバー用に Skype の設置型展開をする場合、またはハイブリッド展開でのサーバーをオンラインでビジネスの展開に、Skype でこれを結合しようとしている場合です。 コロケーション シナリオとサーバーのトポロジを計画するには、このセクションのトピックを参照します。 <br/> |
 |**[ビジネス サーバー 2015 の Skype でのビデオの相互運用サーバーの計画](video-interop-server.md)** ビデオ、組織の要件を挙げてください。 ビジネス サーバー ビデオの相互運用機能の Skype は、Cisco の遠隔会議システム (VTCs) を直接ここで統合できます。 ビデオの機能と、技術要件についての記事をお読みください。 <br/> |**[ビジネス サーバー 2015 の Skype にアップグレードしようとしています。](upgrade.md)** Lync Server の以前のバージョンからアップグレードするか。 アップグレードを計画する方法についての情報を検索します。 <br/> |
 |**[ビジネスとの交換用 Skype を統合しようとしています。](integrate-with-exchange/integrate-with-exchange.md)** 組織の展開 Exchange Server と Skype の両方ビジネス サーバーのでしょうか。 その場合は、両方の製品の機能を統合する方法に関するを参照します。 たとえば、プレゼンス情報とデータをアーカイブします。 <br/> |**[クライアントとデバイスの計画](clients-and-devices/clients-and-devices.md)** Skype ビジネス サーバーは、組織のユーザーに配置することができますクライアント インターフェイスのコレクションをサポートします。 周到に計画することの従業員は、必要な情報を取得し、ビジネスの Skype が使用できるようにする場所にいています。 <br/> |
@@ -58,6 +59,6 @@ Skype をビジネス サーバーの展開を計画する方法の詳細につ�
   
 ||**コンテンツ**|**説明**|
 |:--- |:--- |:--- |
-|![TechCenter のアイコン](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[IT 担当者向けのビジネス サーバーの Skype](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |TechCenter やリソース センターにアクセスすると、ビデオ、コミュニティ サイト、ドキュメント、ダウンロードなどを利用できます。  <br/> |
+|![ドキュメントのアイコン](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[IT 担当者向けのビジネス サーバーの Skype](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |アクセスのビデオ、コミュニティ サイト、ドキュメント、ダウンロード、および詳細には、リソース センターを参照してください。  <br/> |
 |![開発者向けコンテンツのアイコン](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype の開発者用プラットフォーム](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |ビジネス サーバーには、コード サンプル、トレーニング、および Sdk を含む、Skype の開発者向けリソースを検索します。  <br/> |
 |![ニュース、ブログなどのアイコン](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[変更管理と導入](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office のブログ](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Office 365 の技術的なブログ](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) <br/> [Skype チームのブログ](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |ビジネス サーバーのチームを作成してドキュメント Skype からのニュースを維持します。  <br/> |

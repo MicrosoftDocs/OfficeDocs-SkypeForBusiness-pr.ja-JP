@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: ハードウェア、ソフトウェア、およびビジネス用の Skype を実行して、mac 上のインフラストラクチャの要件の詳細については、このトピックを読む
-ms.openlocfilehash: a963a3bd563f82a2fd26b2a72e0610c10c0be742
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 72dfe6aa8479631a3bd3bf6be69e5a5ac2e10dff
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020654"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Mac クライアントの要件にビジネス用の Skype
  
@@ -27,10 +28,10 @@ ms.lasthandoff: 05/24/2018
   
 ## <a name="hardware-and-software-requirements-for-skype-for-business-on-the-mac"></a>Mac での Skype for Business のハードウェア要件およびソフトウェア要件
 
-Mac クライアントのビジネスの Skype では、Mac OS X 許可されて、それ以上を必要とし、少なくとも 100 MB のディスク領域を使用します。 すべての内蔵オーディオ デバイスおよび内蔵ビデオ デバイスの使用をサポートしています。 外付けデバイスは、 [Lync で使用するための認定されたデバイスの一覧](https://go.microsoft.com/fwlink/p/?LinkId=798223)にする必要があります。 
+Mac クライアントのビジネスの Skype では、Mac OS X 許可されて、それ以上を必要とし、少なくとも 100 MB のディスク領域を使用します。 すべての内蔵オーディオ デバイスおよび内蔵ビデオ デバイスの使用をサポートしています。 外付けデバイスは、 [Skype](https://partnersolutions.skypeforbusiness.com/solutionscatalog)でなければなりません。 
   
 > [!NOTE]
-> このリストは暫定版と一部のデバイスを Lync では、認定されたことがありますが、mac でのビジネス用の Skype ではサポートされません。 > 必要なハードウェアの最小の[システム要件](https://products.office.com/en-us/office-system-requirements)を参照してください。
+> このリストは暫定版と一部のデバイスを Lync では、認定されたことがありますが、mac でのビジネス用の Skype ではサポートされません。 必要なハードウェアの最小の[システム要件](https://products.office.com/en-us/office-system-requirements)を参照してください。
   
 ### <a name="legacy-mac-clients"></a>従来の Mac クライアント
 
@@ -39,17 +40,19 @@ Mac クライアントのビジネスの Skype では、Mac OS X 許可されて
 - マイクロソフトの Lync for Mac 2011 の ( [Lync](https://go.microsoft.com/fwlink/p/?LinkId=268786)を参照してください)
     
 - マイクロソフトの Communicator for Mac 2011 ( [Communicator for Mac 2011 の 『 導入ガイド 』](https://go.microsoft.com/fwlink/p/?LinkId=268787)を参照してください)
-    
+ 
+ビジネス サーバー 2019 の Skype によって、これらのクライアントがサポートされていません。
+   
 ## <a name="infrastructure-requirements-for-skype-for-business-on-the-mac"></a>Mac 上の Skype for Business インフラストラクチャー要件
 <a name="Infrastructure"> </a>
 
 Mac クライアントのビジネス用の Skype は、ユニファイド コミュニケーション Web API (UCWA)、モビリティ クライアントを使用するだけでなく、ユニファイド コミュニケーション管理プラットフォーム (UCMP) を活用します。
   
-クライアントでは、アクセス エッジ サーバーがある必要があり、リバース プロキシがサポートされている構成に展開する、モバイル クライアントと同様の要件があります。 さらに、モバイルのアカウントを有効にする必要があります。
+クライアントでは、アクセス エッジ サーバーがある必要があり、リバース プロキシがサポートされている構成に展開する、モバイル クライアントと同様の要件があります。 
   
 ### <a name="authentication"></a>認証
 
-Mac クライアントのビジネスの Skype では、NTLM 認証をサポートします。 さらに、Mac クライアントでは、マイクロソフトの先進認証および複数要素の認証を導入して有効にしている場合にこれらをサポートします。
+Mac クライアントのビジネスの Skype では、証明書ベースの認証、マイクロソフト現代認証、および展開し、有効にしたとき、多元的な認証をサポートします。
   
 > [!NOTE]
 > 現在の制限のためは、ユーザーの Exchange の資格情報はビジネスの資格情報は、Skype と同じである必要があります。 
@@ -73,11 +76,8 @@ HTTP 証明書失効リストが定義済みで、クライアントがアクセ
 ## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
 <a name="Infrastructure"> </a>
 
-#### 
-
-[ビジネス サーバー 2015 の Skype の DNS の要件](../../plan-your-deployment/network-requirements/dns.md)
+[Skype のビジネス サーバー用の DNS の要件](../../plan-your-deployment/network-requirements/dns.md)
 
 [よく寄せられる質問](https://go.microsoft.com/fwlink/p/?LinkId=798227)
   
 [既知の問題](https://go.microsoft.com/fwlink/p/?LinkId=798228)
-

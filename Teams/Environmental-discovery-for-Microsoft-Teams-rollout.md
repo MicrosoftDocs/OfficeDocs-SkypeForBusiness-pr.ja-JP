@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: ビジネスの Skype からマイクロソフトのチームへの旅を計画する際に詳細な環境の検出を実行する方法。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b5fde916c4fe9ece9ad80ec63dad1618fa0d1ae5
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: e62d6425f5e38d4763f54c27821a544d3c063420
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246531"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>マイクロソフト チーム展開の環境の探索
 ===================================================
@@ -72,13 +74,13 @@ Office 365 テナントに関する情報をキャプチャするのにには、
 > | 生産 Office 365 テナントに注意してください。 <br>名前と、[応答] 列の ID <br/>複数のテナントがある場合 <br>組織に関連付けられています。 <br>すべての Id に注意してください。  | テナントの名前。 <br/>テナント ID:| |
 > | どのような地域では、テナント配置でしょうか。| | |
 > | これらのテナントの Office 365 のマルチ テナントや <br>専用でしょうか。 | <input type="checkbox">マルチ テナント<br/> <input type="checkbox">専用 | |
-> | 現在使用中の Microsoft Online 製品はどれですか? <br/>ごとに有効になっているユーザーの数に注意してください。 <br>[コメント] 列でサービスします。 | <input type="checkbox">マイクロソフト チーム <br/> <input type="checkbox">ビジネス用の Skype <br>&nbsp;&nbsp; &nbsp;オンライン <br/> <input type="checkbox">Exchange オンライン <br/> <input type="checkbox">SharePoint オンライン <br/> <input type="checkbox">ビジネスの OneDrive <br/> <input type="checkbox">Yammer <br/> <input type="checkbox">その他の|                                   |
+> | 現在使用中の Microsoft Online 製品はどれですか? <br/>ごとに有効になっているユーザーの数に注意してください。 <br>[コメント] 列でサービスします。 | <input type="checkbox">マイクロソフト チーム <br/> <input type="checkbox">ビジネス用の Skype <br>&nbsp; &nbsp; &nbsp;オンライン <br/> <input type="checkbox">Exchange オンライン <br/> <input type="checkbox">SharePoint オンライン <br/> <input type="checkbox">ビジネスの OneDrive <br/> <input type="checkbox">Yammer <br/> <input type="checkbox">その他の|                                   |
 > | Skype にどのようなライセンスのレベルが有効になっています。 <br>ユーザーのオンライン ビジネスですか。 | <input type="checkbox">E1 と G1 <br/> <input type="checkbox">E2/G2 <br/> <input type="checkbox">E3/G3 <br/> <input type="checkbox">E4 と第 4 世代の E5 | ユーザーの数 <br>各 SKU には。 |
 > | 現在の Active Directory フォレストとは <br>環境での機能レベルですか。 <br/>複数のフォレストがある場合は、詳細情報を注意してください。 <br>[コメント] 列にします。 | <input type="checkbox">Windows Server 2000 <br/> <input type="checkbox">Windows Server 2003 <br/> <input type="checkbox">Windows Server 2008<br/> <input type="checkbox">Windows Server 2008 R2 <br/> <input type="checkbox">Windows Server 2012 <br/> <input type="checkbox">Windows Server 2012 R2 <br/> <input type="checkbox">Windows Server 2016| |
 > | ディレクトリの内容を使用しています <br>今日の同期でしょうか。 |<input type="checkbox">未同期 (クラウドのみ) <br/> <input type="checkbox">Azure Active Directory <br>&nbsp;&nbsp; &nbsp;の接続 <br/> <input type="checkbox">他の (で指定します <br>&nbsp;&nbsp; &nbsp;[コメント] 列です)。| |
 > | フェデレーション ID は現在展開されていますか? <br/>(Active Directory フェデレーション サービスまたは <br>サード ・ パーティ製) | <input type="checkbox">うん <br/> <input type="checkbox">違います | |
 > | フェデレートされた識別情報を使用する場合とは、 <br>フェデレーション インフラストラクチャですか。 | <input type="checkbox">Windows 2008 R2 の AD FS <br/> <input type="checkbox">Windows 2012 の AD FS <br/> <input type="checkbox">Windows 2012 R2 の AD FS <br/> <input type="checkbox">Windows 2016 の AD FS <br/> <input type="checkbox">サード ・ パーティ製のフェデレーション <br>&nbsp;&nbsp; &nbsp;ゲートウェイ <br>&nbsp;&nbsp; &nbsp;(詳細については、注意してください、 <br>&nbsp;&nbsp; &nbsp;[コメント] 列です)。 | |
-> | 現在作業中の Office 365 を管理している場合 <br>テナントは、SMTP とのドメインが、 <br>テナントに関連付けられているユーザーを対象となるでしょうか。 | <input type="checkbox">なし – ない Office 365 <br>&nbsp;&nbsp; &nbsp;のテナント <br/> <input type="checkbox">いいえ、ユーザーの SMTP と SIP <br>&nbsp;&nbsp; &nbsp;ドメインに関連付けられていません。 <br>&nbsp;&nbsp; &nbsp;ですべてのテナントに <br>&nbsp;&nbsp; &nbsp;Office 365 <br/> <input type="checkbox">[はい]、ユーザーの SMTP と SIP <br>&nbsp;&nbsp; &nbsp;ドメインに関連付けられています。 <br>&nbsp;&nbsp; &nbsp;、既存のテナントで <br>&nbsp;&nbsp; &nbsp;Office 365 で | |
+> | 現在作業中の Office 365 を管理している場合 <br>テナントは、SMTP とのドメインが、 <br>テナントに関連付けられているユーザーを対象となるでしょうか。 | <input type="checkbox">なし – ない Office 365 <br>&nbsp;&nbsp; &nbsp;のテナント <br/> <input type="checkbox">いいえ、ユーザーの SMTP と SIP <br>&nbsp;&nbsp; &nbsp;ドメインに関連付けられていません。 <br>&nbsp;&nbsp; &nbsp;ですべてのテナントに <br>&nbsp; &nbsp; &nbsp;Office 365 <br/> <input type="checkbox">[はい]、ユーザーの SMTP と SIP <br>&nbsp;&nbsp; &nbsp;ドメインに関連付けられています。 <br>&nbsp;&nbsp; &nbsp;、既存のテナントで <br>&nbsp;&nbsp; &nbsp;Office 365 で | |
 > | ユーザーの Upn は、プライマリ SMTP アドレスに一致してでしょうか。 | <input type="checkbox">うん <br/> <input type="checkbox">違います <br/> <input type="checkbox">一貫性がないです。 | |
 
 <a name="existing-collaboration-platform-summary"></a>既存のコラボレーション プラットフォームの概要
@@ -96,6 +98,7 @@ Office 365 テナントに関する情報をキャプチャするのにには、
 > | 展開その他のサードパーティのプラットフォームがあります。 <br>現在使用中ですか。 その場合は、ユーザーの数を注意してください。 <br>これらのプラットフォームと、コメントの使用方法の詳細 <br>列。 | <input type="checkbox">Cisco WebEx <br/> <input type="checkbox">余裕期間 <br/> <input type="checkbox">他の (コメントの場合に指定します。 <br>&nbsp;&nbsp; &nbsp;列)。 | ユーザーの数: <br/>詳細:|
 > | これらのサード ・ パーティからユーザーを移動する予定します。 <br>チームをするためのプラットフォームですか。 | <input type="checkbox">うん <br/> <input type="checkbox">違います | |
 > | 現在のテレフォニーと会議のソリューションとは <br>このイニシアティブのスコープ内にあるユーザーですか。 | | |
+> | [SBC の直接ルーティングをサポートする](https://docs.microsoft.com/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs)、オフィスでは、このイニシアチブのスコープ内に配置していますか。 <br>[はい]、[コメント] 列に詳細に注意してください。| <input type="checkbox">うん <br/> <input type="checkbox">違います ||
 
 <a name="collaboration-platform-deployment-details"></a>コラボレーション プラットフォームの配置の詳細
 -----------------------------------------

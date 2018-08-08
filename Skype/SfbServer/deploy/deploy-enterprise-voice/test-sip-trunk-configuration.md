@@ -1,9 +1,8 @@
 ---
-title: Business Server 2015 での SIP トランク構成設定のテスト
+title: Skype のビジネス サーバーの SIP トランクの構成設定をテストします。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c8712308-0e2d-4e39-8f90-d1a250487a94
 description: '概要: ビジネス サーバー管理シェルには、Skype を使用して、SIP トランクの構成設定をテストする方法を説明します。'
-ms.openlocfilehash: d71fe946a9a205d6305595ad9c5202d44b89ce56
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ea0874eabacfb814c5cc668654c56c86c788beff
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20984072"
 ---
-# <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server-2015"></a>Business Server 2015 での SIP トランク構成設定のテスト
+# <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Skype のビジネス サーバーの SIP トランクの構成設定をテストします。
  
 **の概要:** ビジネス サーバー管理シェルには、Skype を使用して、SIP トランクの構成設定をテストする方法について説明します。
   

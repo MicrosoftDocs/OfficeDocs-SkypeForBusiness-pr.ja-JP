@@ -1,8 +1,7 @@
 ---
-title: Skype for Business Server 2015 のエッジ サーバーのシステム要件
+title: Skype のビジネス サーバーのサーバーのシステム要件をエッジします。
 ms.author: heidip
 author: microsoftheidi
-ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,13 +12,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: '概要: は、Skype でエッジ サーバーのビジネス サーバーのシステム要件について説明します。'
-ms.openlocfilehash: aaf8e45c005ff6295e1c0927d6a29abade383bfb
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ede0f7f933f246496593519afa035f09ef402bfb
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013139"
 ---
-# <a name="edge-server-system-requirements-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 のエッジ サーバーのシステム要件
+# <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Skype のビジネス サーバーのサーバーのシステム要件をエッジします。
  
 **の概要:** ビジネス サーバーの Skype でエッジ サーバーのシステム要件について説明します。
   
@@ -60,6 +60,9 @@ ms.lasthandoff: 05/03/2018
   
 > [!NOTE]
 > エッジ トランスポート サーバーは、ビジネス クライアントに対して有効になっている Skype の接続と (フェデレーションのシナリオ) では、他のエッジ サーバーに配置されます。 他のエンド ポイント クライアントやサーバーの種類からは接続できません。 XMPP ゲートウェイ サーバーにより、構成済みの XMPP パートナーとの接続を実現できます。 ただしこの場合も、フェデレーション シナリオで有効なものだけが、実際に機能するクライアントとフェデレーションの種類です。 
+
+> [!NOTE]
+> XMPP ゲートウェイとプロキシ サーバー 2015 のビジネス用の Skype では利用ビジネス サーバー 2019 の Skype でサポートされていません。 詳細については、[移行する XMPP フェデレーション](../../../SfBServer2019/migration/migrating-xmpp-federation.md)を参照してください。
   
 ### <a name="reverse-proxies"></a>リバース プロキシ
 <a name="ReverseProxies"> </a>
@@ -84,7 +87,7 @@ ms.lasthandoff: 05/03/2018
     
 - モバイル デバイスを Office 365 から push 通知が有効にします。
     
-[テレフォニー インフラストラクチャ](https://technet.microsoft.com/en-us/office/dn947483)をビジネスの Skype のページで、現在のリバース プロキシの推奨事項をご覧ください。 したがって、リバース プロキシ。
+[テレフォニー インフラストラクチャ](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)をビジネスの Skype のページで、現在のリバース プロキシの推奨事項をご覧ください。 したがって、リバース プロキシ。
   
 - 以下から構成される公開済みの外部 Web サービスに接続するために、公開証明書を介して、環境に導入されているトランスポート層セキュリティ (TLS) を使用できる必要があります。
     
@@ -131,7 +134,7 @@ ms.lasthandoff: 05/03/2018
 ### <a name="load-balancers"></a>ロード バランサー
 <a name="LoadBalancers"> </a>
 
-Skype ビジネス サーバー 2015 の拡張エッジ ・ トポロジーを統合するが最適化された DNS の負荷分散、新しい展開し、これをお勧めします。 高可用性が必要な場合は、特定の状況の 1 つのハードウェア ロード バランサーを使用してお勧めします。
+Skype ビジネス サーバーの拡張エッジ ・ トポロジーを統合するが最適化された DNS の負荷分散、新しい展開し、これをお勧めします。 高可用性が必要な場合は、特定の状況の 1 つのハードウェア ロード バランサーを使用してお勧めします。
   
 - Exchange UM UM に**以前**Exchange 2013 を使用してリモート ・ ユーザ用です。
     
@@ -139,7 +142,7 @@ Skype ビジネス サーバー 2015 の拡張エッジ ・ トポロジーを�
 > ロード バランサーを混在させることができない点に注意することが非常に重要です。 ビジネス サーバー環境に、Skype ですべてのインタ フェースは DNS または HLB のいずれかを使用する必要があります。 
   
 > [!NOTE]
-> ビジネス サーバー 2015 の Skype のサポートされていない (DSR) NAT を直接サーバーに返します。 
+> (DSR) の NAT は、Skype のビジネスのサーバーのサポートされていないを直接サーバーに返します。 
   
 #### <a name="hardware-load-balancer-requirements-for-edge-servers-edge-servers-running-the-av-edge-service"></a>A を実行しているエッジ サーバーのエッジ サーバーのハードウェア ロード バランサーの要件と音声ビデオ エッジ サービス
 
@@ -157,7 +160,7 @@ Skype ビジネス サーバー 2015 の拡張エッジ ・ トポロジーを�
     
 #### <a name="hlb-requirements"></a>HLB の要件
 
-としての Lync Server 2013 では、Skype ビジネス サーバー 2015 のない cookie ベースのアフィニティ要件の多く。 Cookie ベースの永続化**しない限り、**サーバーのビジネス環境に、Skype での Lync Server 2010 フロント エンド サーバーまたはフロント エンド プールが存在することを使用する必要はありません。 Lync Server 2010 の推奨される構成方法で cookie ベースのアフィニティが必要です。
+Skype ビジネス サーバーの cookie ベースのアフィニティ要件の多くがありません。 したがって、cookie ベースの永続化**しない限り**を使用する必要はありません (これは、Skype ビジネス 2015 のサーバーに固有の) しようとしているサーバーのビジネス環境に、Skype での Lync Server 2010 フロント エンド サーバーまたはフロント エンド プールが存在します。 Lync Server 2010 の推奨される構成方法で cookie ベースのアフィニティが必要です。
   
 > [!NOTE]
 > HLB 用に Cookie ベースのアフィニティを有効にすることを決定した場合、環境で不要であっても、そのような操作に問題はありません。 
@@ -179,7 +182,7 @@ Cookie ベースのアフィニティが**必要**である展開の場合:
 - HTTP 応答が受信した HTTP 要求が同じ TCP 接続上の前の HTTP 応答で cookie を受けていたかどうかに関係なく、cookie を持っていないすべての設定、ハードウェア ロード バランサーの cookie**が必要**です。 場合は、ハードウェア ロード バランサーは、1 つの TCP 接続を使用**しない必要があります**最適化後にのみ発生する cookie の挿入を最適化します。
     
 > [!NOTE]
-> HLB の構成ソース アフィニティと 20 分間 TCP クライアントの使用状況やアプリケーションとの対話を通じてセッション状態が維持されるために Skype のビジネス サーバー 2015 とそのクライアントの問題ではセッションの有効期間を使用する一般的なです。 
+> HLB の構成ソース アフィニティと 20 分間 TCP クライアントの使用状況やアプリケーションとの対話を通じてセッション状態が維持されるためのビジネス サーバーとそのクライアントでは、Skype の問題は、セッションの有効期間を使用する一般的なです。 
   
 モバイル デバイスを展開する場合、HLB で、TCP セッション内の個々の要求を負荷分散できるようにする必要があります (実際には、ターゲット IP アドレスに基づいて個々の要求を負荷分散できる必要があります)。
   
@@ -188,7 +191,7 @@ Cookie ベースのアフィニティが**必要**である展開の場合:
   
 (省略可能) ディレクターおよび (必要な) のフロント エンド プールの Web サービスの HLB の要件を以下に示します。
   
-- 内部の Web サービスの Vip は、HLB の Source_addr の永続性 (内部ポート 80、443) を設定します。 ビジネス サーバー 2015 の Skype は、Source_addr の持続性は単一の IP アドレスからの複数の接続がセッション状態を維持するために 1 つのサーバーに送信常にことを意味します。
+- 内部の Web サービスの Vip は、HLB の Source_addr の永続性 (内部ポート 80、443) を設定します。 ビジネス サーバーの Skype は、Source_addr の持続性は、複数の接続が単一の IP アドレスから常にサーバーに送信されます 1 つ、セッション状態を維持するためを意味します。
     
 - TCP アイドル タイムアウト 1800 秒を使用すること。
     
@@ -196,7 +199,7 @@ Cookie ベースのアフィニティが**必要**である展開の場合:
     
 #### <a name="summary-of-hlb-affinity-requirements"></a>HLB のアフィニティ要件の概要
 
-|**クライアント/ユーザーの場所**|**外部 web サービスの FQDN の類似性の要件**|**内部 web サービスの FQSN の類似性の要件**|
+|**クライアント/ユーザーの場所**|**外部 Web サービスの FQDN のアフィニティ要件**|**内部 Web サービスの FQDN のアフィニティ要件**|
 |:-----|:-----|:-----|
 |Skype のビジネス Web アプリケーション (内部および外部ユーザー)  <br/> モバイル デバイス (内部および外部ユーザー)  <br/> |アフィニティなし  <br/> |送信元アドレスのアフィニティ  <br/> |
 |Skype のビジネス Web アプリケーション (外部ユーザーの場合のみ)  <br/> モバイル デバイス (内部および外部ユーザー)  <br/> |アフィニティなし  <br/> |送信元アドレスのアフィニティ  <br/> |
@@ -206,17 +209,17 @@ Cookie ベースのアフィニティが**必要**である展開の場合:
 
 特定のサービスが不要になったハードウェアや通信の障害によって、使用できるかを決定する、ハードウェアのロード バランサーのポートの監視を定義します。 などの場合は、フロント エンド サーバー サービス (RTCSRV) を停止すると、フロント エンド サーバーまたはフロント エンド プールで障害が発生したため、HLB の監視も停止 Web サービス上のトラフィックを受信します。 HLB の外部インターフェイスに関する以下の部分を監視する目的で、HLB にポート監視を実装する必要があります。
   
-|**仮想 ip アドレスとポート**|**ノード ・ ポート**|**ノードのコンピューターとモニター**|**持続プロファイル**|**メモ**|
+|**仮想 IP/ポート**|**ノード ポート**|**ノード コンピューター/モニター**|**保存プロファイル**|**メモ**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<プール\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |フロントエンド  <br/> 5061  <br/> |なし  <br/> |HTTPS  <br/> |
 |\<プール\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |フロントエンド  <br/> 5061  <br/> |なし  <br/> |HTTP  <br/> |
    
 ## <a name="hardware-and-software-requirements"></a>ハードウェアおよびソフトウェア要件
 
-全体的な[ビジネス サーバー 2015 の Skype のサーバー要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)のドキュメントでエッジ サーバーのハードウェアおよびソフトウェア要件を説明しました。
+全体的な[ビジネス サーバー 2015 の Skype のサーバー要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)と[ビジネス サーバー 2019 の Skype のシステム要件](../../../SfBServer2019/plan/system-requirements.md)のドキュメントでエッジ サーバーのハードウェアおよびソフトウェア要件を説明しました。
   
 ## <a name="collocation"></a>併置
 
-[Skype ビジネス サーバー 2015 のトポロジの基本](../../plan-your-deployment/topology-basics/topology-basics.md)ドキュメントでエッジ サーバーのコロケーションを取り上げた。
+[Skype ビジネス サーバーのトポロジの基本](../../plan-your-deployment/topology-basics/topology-basics.md)ドキュメントでエッジ サーバーのコロケーションを取り上げた。
   
 

@@ -1,9 +1,8 @@
 ---
-title: Skype for Business 2015 での音声ポリシー、PSTN 使用法レコード、およびボイス ルートの構成
+title: ビジネス用の Skype での音声ポリシー、PSTN 使用法レコード、およびボイス ルートを構成します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
-description: '概要: ビジネス サーバー 2015 の Skype での音声ポリシー、PSTN 使用法レコード、およびボイス ルートを構成する方法を説明します。'
-ms.openlocfilehash: b0d5d9edaf94cb0c8041ef5ef679ad81b9c54edd
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: '概要: ビジネス サーバーに、Skype で音声ポリシー、PSTN 使用法レコード、およびボイス ルートを構成する方法を説明します。'
+ms.openlocfilehash: 0292ae0f7f8579c4856059587ed75b172617fe72
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006507"
 ---
-# <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business-2015"></a>Skype for Business 2015 での音声ポリシー、PSTN 使用法レコード、およびボイス ルートの構成
+# <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business"></a>ビジネス用の Skype での音声ポリシー、PSTN 使用法レコード、およびボイス ルートを構成します。
  
-**の概要:** ビジネス サーバー 2015 の Skype での音声ポリシー、PSTN 使用法レコード、およびボイス ルートを構成する方法について説明します。
+**の概要:** ビジネス サーバーに、Skype で音声ポリシー、PSTN 使用法レコード、およびボイス ルートを構成する方法について説明します。
   
 音声ポリシー、PSTN 使用法レコード、およびボイス ルートは、一体的に関わり合っています。音声ポリシーは、一連の通話機能を選択し、PSTN 使用法レコードのセット (音声ポリシーを割り当てられるユーザーまたはグループを対象に、承認される権限を指定します) にポリシーを割り当てることで、構成します。PSTN 使用法レコードは、ボイス ルートにも割り当てられます。これにより、ルートとこの PSTN 使用法レコードの使用を許可されたユーザーが照合されます。つまり、ユーザーはルートと一致する PSTN 使用法レコードが割り当てられている場合のみ、そのルートに電話をかけることができます。
   
@@ -35,16 +35,16 @@ ms.lasthandoff: 05/03/2018
   
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [作成し、音声ポリシーを変更またはビジネス 2015年の Skype の PSTN 使用法レコードを構成します。](voice-policy-and-pstn-usage-records.md)
+- [作成し、音声ポリシーを変更または Skype ビジネスのために PSTN 使用法レコードを構成します。](voice-policy-and-pstn-usage-records.md)
     
-- [ビジネス 2015年の Skype でボイス メールのエスケープを構成します。](configure-voice-mail-escape.md)
+- [ビジネス用の Skype でボイス メールのエスケープを構成します。](configure-voice-mail-escape.md)
     
-- [ビジネス 2015年の Skype の PSTN 使用法レコードの表示](view-pstn-usage-records.md)
+- [ビジネス用の Skype の PSTN 使用法レコードの表示](view-pstn-usage-records.md)
     
-- [作成またはビジネス 2015年の Skype でのボイス ルートを変更します。](create-or-modify-a-voice-route.md)
+- [作成またはビジネス用の Skype でのボイス ルートを変更します。](create-or-modify-a-voice-route.md)
     
-- [ビジネス 2015年の Skype でボイス ルート構成ファイルをインポートまたはエクスポート](voice-route-configuration-import-export.md)
+- [ビジネス用 Skype でのボイス ルート構成ファイルをインポートまたはエクスポート](voice-route-configuration-import-export.md)
     
-- [発行保留中のビジネス 2015年の Skype で音声ルーティング構成の変更](voice-route-config-changes.md)
+- [発行保留中のビジネス用の Skype で音声ルーティング構成の変更](voice-route-config-changes.md)
     
 

@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: コネクタ Edition のクラウド展開のトラブルシューティングを行います。
-ms.openlocfilehash: 2e4f0d2a258e48e4c953fb8ea4175c64b585b91f
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 82fcc8e45e231617b5804c9caac4c8adc638457b
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246471"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Cloud Connector 展開をトラブルシューティングする
  
@@ -84,7 +85,7 @@ ms.lasthandoff: 05/03/2018
 
 - 
     
-    **問題: Active Directory サーバーとフォレストをインストールすると、CMS サーバーまたは仲介サーバーがドメインに参加しません正しく。**
+    **問題: Active Directory とフォレストをインストールした後、CMS サーバーや仲介サーバーがドメインに正しく参加しない。**
     
     **解決策:** この問題を解決するには、次の手順を実行します。
     
@@ -117,7 +118,7 @@ ms.lasthandoff: 05/03/2018
     
     **問題: Windows Update の適用中にホスト サーバーが再起動され、サーバーによる呼び出しに失敗する。**
     
-    **の解像度:** 高可用性環境を展開する場合マイクロソフト提供しています 1 つのホスト ・ マシン (配備インスタンス) を移動するためにコマンドレットまたは現在のトポロジを確認し、Windows の更新プログラムを手動でインストールするとします。 これを実現するのにには、次の手順を使用します。
+    **解決策:** 高可用性環境を展開した場合は、Windows Update を手動で確認およびインストールするときに、1 台のホスト マシン (展開インスタンス) を現在のトポロジに移動するか、またはそこから移動するのに役立つコマンドレットが用意されています。これを行うには、次の手順を実行します。
     
 1. ホスト サーバーで、管理者として PowerShell コンソールを起動して、次を実行します。
     
@@ -175,9 +176,8 @@ ms.lasthandoff: 05/03/2018
   Unregister-CsHybridPSTNAppliance -Force
   ```
 
-- 
     
-    **問題: Get CcRunningVersion コマンドレットは、ホストで実行されている展開済みのアプライアンスがある場合に空の値を返します。**
+-    **問題: Get CcRunningVersion コマンドレットは、ホストで実行されている展開済みのアプライアンスがある場合に空の値を返します。**
     
     **解決策:** これは、1.3.4 か 1.3.8 から 1.4.1 にアップグレードした場合に発生します。.msi を使用してバージョン 1.4.1 をインストールした場合は、他のコマンドレットを実行する前に `Register-CcAppliance` を実行する必要があります。`Register-CcAppliance` で、module.ini ファイルを %UserProfile%\CloudConnector から %ProgramData%\CloudConnector に移行します。実行しなかった場合は、新しい module.ini が %ProgramData%\CloudConnector フォルダーに作成され、1.3.4 または 1.3.8 の実行中/バックアップ バージョン情報が置き換わります。
     
@@ -202,31 +202,29 @@ ms.lasthandoff: 05/03/2018
     
     **証明機関の証明書が侵害され、サイトでは、アプライアンスが 1 つだけがある場合**は、次の手順を実行します。
     
-1. サービスと、アプライアンスをメンテナンス モードにするのには Enter CcUpdate コマンドレットを実行します。
+1. Enter-CcUpdate コマンドレットを実行して、サービスをドレインし、アプライアンスをメンテナンス モードにします。
     
 2. 次のコマンドレットを実行して、リセットし、新しい証明機関の証明書とすべての内部サーバー証明書を作成します。
     
     2.0 より前に、のリリースをクラウド コネクタ。
     
-  ```
-  Reset-CcCACertificate 
-Renew-CcServerCertificate 
-Remove-CcLegacyServerCertificate 
-
-  ```
+    ```
+    Reset-CcCACertificate 
+    Renew-CcServerCertificate 
+    Remove-CcLegacyServerCertificate 
+    ```
 
     またはクラウド コネクタ 2.0 以降のリリース。
     
-  ```
-  Reset-CcCACertificate 
-Update-CcServerCertificate 
-Remove-CcLegacyServerCertificate 
+    ```
+    Reset-CcCACertificate 
+    Update-CcServerCertificate 
+    Remove-CcLegacyServerCertificate 
+    ```
 
-  ```
-
-3. サービスを開始する終了 CcUpdate コマンドレットを実行し、メンテナンス モードを終了します。
+3. Exit-CcUpdate コマンドレットを実行して、サービスを開始し、メンテナンス モードを終了します。
     
-4. アプライアンスのローカル ファイルにエクスポート CcRootCertificate コマンドレットを実行し、PSTN ゲートウェイは、エクスポートする証明書をインストールします。
+4. アプライアンスのローカル ファイルで Export-CcRootCertificate コマンドレットを実行し、エクスポートした証明書を PSTN ゲートウェイにコピーしてインストールします。
     
     **証明機関の証明書が侵害され、は、サイト内の複数のアプライアンスのかどうか**は、サイト内には、各アプライアンスを次の一連のステップを実行します。
     
@@ -240,27 +238,25 @@ Remove-CcLegacyServerCertificate
     
     2.0 より前に、のリリースをクラウド コネクタ。
     
-  ```
-  Reset-CcCACertificate
-Renew-CcServerCertificate
-Remove-CcLegacyServerCertificate 
-
-  ```
+    ```
+    Reset-CcCACertificate
+    Renew-CcServerCertificate
+    Remove-CcLegacyServerCertificate 
+    ```
 
     またはクラウド コネクタ 2.0 以降のリリース。
     
-  ```
-  Reset-CcCACertificate
-Update-CcServerCertificate
-Remove-CcLegacyServerCertificate 
-
-  ```
+    ```
+    Reset-CcCACertificate
+    Update-CcServerCertificate
+    Remove-CcLegacyServerCertificate 
+    ```
 
   - 最初のアプライアンスでは、CA のファイルのバックアップを作成するのには次のコマンドレットを実行します\<SiteRoot\>フォルダー。 以降では、同じサイト内の他のすべてのアプライアンス、リセット CcCACertificate コマンドレットでは、CA のバックアップ ファイルを自動的に消費されます. アプライアンスでは、同じルート証明書を使用します。
     
-  ```
-  Backup-CcCertificationAuthority
-  ```
+    ```
+    Backup-CcCertificationAuthority
+    ```
 
   - サービスを開始し、保守モードを終了する終了 CcUpdate コマンドレットを実行します。 
     
@@ -274,58 +270,60 @@ Remove-CcLegacyServerCertificate
   Set-CcCredential -AccountType TenantAdmin
   ```
 
-- 
-    
-    **問題: 展開に使用するホスト サーバーのアカウントのパスワードを変更すると後が表示されたら、次のエラー メッセージ:"寄せ SecureString: で使用できない無効なキーが指定されている状態です"ビジネス クラウド コネクタの %ProgramFiles%\Skype で。Edition\ManagementService\CceManagementService.log または Get CcCredential コマンドレットを実行しているとき。**
+- **問題: 展開に使用するホスト サーバーのアカウントのパスワードを変更すると後が表示されたら、次のエラー メッセージ:"寄せ SecureString: で使用できない無効なキーが指定されている状態です"ビジネス クラウド コネクタの %ProgramFiles%\Skype で。Edition\ManagementService\CceManagementService.log または Get CcCredential コマンドレットを実行しているとき。**
     
     **の解像度:** クラウド コネクタのすべての資格情報は、次のファイルに格納されます:"%systemdrive%\programdata\cloudconnector\credentials。\<CurrentUser\>.xml」です。 ホスト サーバーのパスワードが変更されたときは、ローカルに保存された資格情報を更新する必要があります。
     
-    **クラウド コネクタ バージョン 1.4.2 を実行している場合**は、すべてのクラウドのコネクタのパスワードを再生成、次の手順。
+    **Cloud Connector バージョン 1.4.2 を実行している場合は、** 次の手順を実行してすべての Cloud Connector パスワードを再生成します。
     
-1. ホスト サーバーを再起動します。
+    1. ホスト サーバーを再起動します。
     
-2. 次のファイルを削除します。"% SystemDrive%\Programdata\Cloudconnector\credentials。\<CurrentUser\>.xml」です。
+    2. 次のファイルを削除します。"% SystemDrive%\Programdata\Cloudconnector\credentials。\<CurrentUser\>.xml」です。
     
-3. 管理者として PowerShell コンソールを起動し、実行して"登録 CcAppliance-ローカル"次の説明、パスワードを再入力します。 クラウドのコネクタの配置の前に入力した同じパスワードを入力します。
+    3. 管理者として PowerShell コンソールを起動し、実行して"登録 CcAppliance-ローカル"次の説明、パスワードを再入力します。 クラウドのコネクタの配置の前に入力した同じパスワードを入力します。
     
     **クラウド コネクタ バージョン 2.0 以降を実行している場合**は、次の手順でクラウドのコネクタのすべてのパスワードを再生成します。
     
-1. ホスト サーバーを再起動します。
+    1. ホスト サーバーを再起動します。
     
-2. 次のファイルを削除します。"% SystemDrive%\Programdata\Cloudconnector\credentials。\<CurrentUser\>.xml」です。
+    2. 次のファイルを削除します。"% SystemDrive%\Programdata\Cloudconnector\credentials。\<CurrentUser\>.xml」です。
     
-3. 管理者として PowerShell コンソールを起動し、実行して"登録 CcAppliance-ローカル"次の説明、パスワードを再入力します。 
+    3. 管理者として PowerShell コンソールを起動し、実行して"登録 CcAppliance-ローカル"次の説明、パスワードを再入力します。 
     
     キャッシュされているファイルが Cloud Connector バージョン 1.4.2 で生成されたファイルである場合は、パスワードを求められたときに CceService パスワードの VMAdmin パスワードを使用します。その他すべてのアカウントについては、Cloud Connector の展開で前回使用したパスワードと同じパスワードを入力します。
     
     キャッシュされているパスワード ファイルが Cloud Connector バージョン 1.4.2 で生成されたファイルであり、DomainAdmin と VMAdmin のパスワードが異なる場合は、次の手順を実行する必要があります。
     
-1. Set-CcCredential -AccountType DomainAdmin を次のように実行します。
+    1. Set-CcCredential -AccountType DomainAdmin を次のように実行します。
     
-1. 以前のアカウントの資格情報を求められた場合は、CceService パスワードに使用した資格情報を入力します。
+    2. 以前のアカウントの資格情報を求められた場合は、CceService パスワードに使用した資格情報を入力します。
     
-2. 新しいアカウントの資格情報を求められた場合は、以前使用していた DomainAdmin パスワードを入力します。
+    3. 新しいアカウントの資格情報を求められた場合は、以前使用していた DomainAdmin パスワードを入力します。
     
     クラウド コネクタ バージョン 2.0 またはそれ以降、デフォルトでキャッシュされたパスワード ファイルが生成された場合 VmAdmin と DomainAdmin パスワードを使用して、同じ CceService として。 DomainAdmin と VMAdmin のパスワードを変更した場合は、次の手順を行う必要があります。
     
-1. Set-CcCredential -AccountType DomainAdmin を次のように実行します。
+    1. Set-CcCredential -AccountType DomainAdmin を次のように実行します。
     
-1. 以前のアカウントの資格情報を求められた場合は、CceService パスワードに使用した資格情報を入力します。
+        1. 以前のアカウントの資格情報を求められた場合は、CceService パスワードに使用した資格情報を入力します。
     
-2. 新しいアカウントの資格情報を求められた場合は、以前使用していた DomainAdmin パスワードを入力します。
+        2. 新しいアカウントの資格情報を求められた場合は、以前使用していた DomainAdmin パスワードを入力します。
     
-2. Set-CcCredential -AccountType VmAdmin を次のように実行します。
+    2. Set-CcCredential -AccountType VmAdmin を次のように実行します。
     
-1. 以前のアカウントの資格情報を求められた場合は、CceService パスワードに使用した資格情報を入力します。
+        1. 以前のアカウントの資格情報を求められた場合は、CceService パスワードに使用した資格情報を入力します。
     
-2. 新しいアカウントの資格情報を求められた場合は、以前使用していた VmAdmin パスワードを入力します。 
+        2. 新しいアカウントの資格情報を求められた場合は、以前使用していた VmAdmin パスワードを入力します。 
     
-- 
-    
-    **問題: クラウド バージョン 2.1 以降では、コネクタで、アプライアンス上のレジスタ CcAppliance またはその他のコマンドレットを実行している場合、エラー メッセージが表示次のように:"の各オブジェクト: '共通' が見つかりませんこのオブジェクトのプロパティです。プロパティが存在することを確認します。14: C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1:681 文字で」**
+- **問題: クラウド バージョン 2.1 以降では、コネクタで、アプライアンス上のレジスタ CcAppliance またはその他のコマンドレットを実行している場合、エラー メッセージが表示次のように:"の各オブジェクト: '共通' が見つかりませんこのオブジェクトのプロパティです。プロパティが存在することを確認します。14: C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1:681 文字で」**
     
     **の解像度:** クラウド コネクタ 2.1 以降を必要と.NET Framework 4.6.1 以降。 アプライアンスのバージョン 4.6.1 の.NET Framework を更新してくださいまたはそれ以降、cmdlet(s) をもう一度実行するとします。
-    
+
+- **問題: クラウド コネクタ版 2.1 をインストール CcAppliance を実行している場合、エラー メッセージは、次のように:"エラーのための新しいインスタンスのインストールに失敗しました: XmlNode プロパティを設定する値として文字列のみを使用することができますので「状態」を設定することはできません」**
+
+   **の解像度:** Cloudconnector.ini で [共通] のセクションでは、[追加してください「状態」の構成以下のよう: 市外 = 米国の州都市区町村 = レドモンド
+
+   "State"行を Cloudconnector.ini ファイルから削除することはできませんが、"State"行の値を持つには必須ではありません。
+
 - **問題: 次のエラー メッセージを受信する「ディス マウント WindowsImage: ディス マウント WindowsImage で失敗しました。エラー コード = 0xc1550115"をインストールするか、クラウドのコネクタのエディションをアップグレードするとします。**
     
     **の解像度:** PowerShell コンソールを実行して、管理者として起動"DISM のクリーンアップ-Wim'"です。 これが問題のあるすべてのイメージをクリーンアップします。 再インストール CcAppliance を実行するか、自動的にアップグレードするのにはビットを待ちます。
@@ -346,9 +344,7 @@ Remove-CcLegacyServerCertificate
   Set-CsCceApplianceDeploymentStatus -Identity <Appliance Identity GUID> -Action Deploy -Status Finished
   ```
 
-- 
-    
-    **問題: ホスト サーバーまたは仮想マシン上で Windows Update を手動で確認してインストールする必要がある。**
+-  **問題: ホスト サーバーまたは仮想マシン上で Windows Update を手動で確認してインストールする必要がある。**
     
     **解決策:** Skype for Business Cloud Connector エディションが備える自動 OS 更新プログラムを活用することをお勧めします。アプライアンスをオンライン管理に登録して、自動 OS 更新を有効にすると、ホスト サーバーと仮想マシンが自動的に Windows Update を確認して、OS 更新の時間枠設定に従ってインストールします。
     
@@ -358,15 +354,13 @@ Remove-CcLegacyServerCertificate
     
     Cloud Connector 展開を手動で更新する方法については、次のセクションを参照してください。
     
-- 
-    
-    **問題: クラウド コネクタは、新しいビルドに更新すると、クラウドのコネクタのコマンドレットが更新されません。** 場合があります、これは自動更新が発生した場合、PowerShell のウィンドウは開いたまま場合に発生します。
+-   **問題: クラウド コネクタは、新しいビルドに更新すると、クラウドのコネクタのコマンドレットが更新されません。** 場合があります、これは自動更新が発生した場合、PowerShell のウィンドウは開いたまま場合に発生します。
     
     **の解像度:** 更新されたコマンドレットを読み込むには、次の手順のいずれかの操作を行います。
     
-  - クラウド コネクタ アプライアンスでは、PowerShell を閉じ、PowerShell をもう一度します。
+     - クラウド コネクタ アプライアンスでは、PowerShell を閉じ、PowerShell をもう一度します。
     
-  - または、インポート モジュール CloudConnector を実行することができます-強制します。 
+     - または、インポート モジュール CloudConnector を実行することができます-強制します。 
     
 ## <a name="install-windows-updates-manually"></a>Windows の更新プログラムを手動でインストールします。
 
@@ -415,5 +409,3 @@ Remove-CcLegacyServerCertificate
 - %ProgramFiles%\WindowsPowerShell\Modules\CloudConnector
     
 - Microsoft.Rtc.CCE.ManagementService.exe プロセスです。
-    
-

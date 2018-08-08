@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 での "勤務先から通話" の計画
+title: Skype ビジネス サーバーの作業時間を使用して呼び出すのための計画
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 10/31/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: ビジネス サーバーの Skype の呼び出しを使用して作業の計画、できます Skype のビジネスとお使いの PBX 電話システムとの統合ユーザーは、PBX 電話を制御するビジネス用の Skype を使用できるようにします。
-ms.openlocfilehash: 29c7c894d15621c0560eeef30ac7e5cbb28044fa
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 3a79ac426ff009ddc934d5bb4b1dadd0077941dc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003928"
 ---
-# <a name="plan-for-call-via-work-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での "勤務先から通話" の計画
+# <a name="plan-for-call-via-work-in-skype-for-business-server"></a>Skype ビジネス サーバーの作業時間を使用して呼び出すのための計画
  
 ビジネス サーバーの Skype の呼び出しを使用して作業の計画、できます Skype のビジネスとお使いの PBX 電話システムとの統合ユーザーは、PBX 電話を制御するビジネス用の Skype を使用できるようにします。
   
@@ -98,9 +98,7 @@ ms.lasthandoff: 05/03/2018
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[ビジネス 2015年の Skype でのリモート通話コントロールの計画](remote-call-control.md)
+[ビジネス用の Skype でのリモート通話コントロールの計画](remote-call-control.md)
   
-[Skype ビジネス サーバー 2015 の作業時間を使用して呼び出しを配置します。](../../deploy/deploy-call-via-work.md)
+[Skype for Business Server 2015 での "勤務先から通話" の展開](../../deploy/deploy-call-via-work.md)
 

@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 での "勤務先から通話" の展開
+title: Skype ビジネス サーバーの作業時間を使用して呼び出しを配置します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 10/31/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,18 +11,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
-description: '概要: は、ユーザーの一部またはすべてのビジネス サーバー 2015 の Skype の呼び出しを使用して作業を配置する方法を説明します。'
-ms.openlocfilehash: e101cf39daedb8d94879b6cf99cd0c7b4ae00e8d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: '概要: ビジネスのサーバーの一部またはすべてのユーザーの Skype の呼び出しを使用して作業を配置する方法を説明します。'
+ms.openlocfilehash: 60890f510f5f895f3a99f070cd9cf1a7c997da61
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20991046"
 ---
-# <a name="deploy-call-via-work-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での "勤務先から通話" の展開
+# <a name="deploy-call-via-work-in-skype-for-business-server"></a>Skype ビジネス サーバーの作業時間を使用して呼び出しを配置します。
  
-**の概要:** ビジネス サーバー 2015 の一部またはすべてのユーザーの Skype の呼び出しを使用して作業を配置する方法について説明します。
+**の概要:** ビジネス サーバーの一部またはすべてのユーザーの Skype の呼び出しを使用して作業を配置する方法について説明します。
   
-ユーザーの作業を使用して呼び出しを配置するのにには、次の手順を使用します。 [ビジネス サーバー 2015 の Skype の呼び出しを使用して作業を計画](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)の計画に関する考慮事項が説明します。 Lync Server のリモート呼び出しの以前のバージョンでは、コントロールは、Lync Server は PBX 電話を制御するユーザーを有効にする機能でした。 ビジネス サーバーの Skype は、この機能は作業時間を使用して呼び出しを交換済み。 
+ユーザーの作業を使用して呼び出しを配置するのにには、次の手順を使用します。 計画に関する考慮事項については、 [Skype ビジネス サーバー用の呼び出しを使用して作業の計画](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)で説明します。 Lync Server のリモート呼び出しの以前のバージョンでは、コントロールは、Lync Server は PBX 電話を制御するユーザーを有効にする機能でした。 ビジネス サーバーの Skype は、この機能は作業時間を使用して呼び出しを交換済み。 
   
 ## <a name="prerequisites-for-call-via-work"></a>作業を使用して呼び出すのための前提条件
 
@@ -72,9 +72,7 @@ ms.lasthandoff: 05/03/2018
 - 次のコマンドレットを入力します。
     
   ```
-  New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber
-    <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
-
+  New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber  <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
   ```
 
     などの次のコマンドレット ContosoUser1CvWP と呼ばれる作業の呼び出しを使用してポリシーを作成、管理のコールバック番号を使用するユーザーが必要で、コールバック番号を 1-555-789-1234 に設定。
@@ -99,7 +97,5 @@ ms.lasthandoff: 05/03/2018
 
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[Skype ビジネス サーバー 2015 の作業時間を使用して呼び出すのための計画](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
+[Skype ビジネス サーバーの作業時間を使用して呼び出すのための計画](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
 

@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Teams 用に組織のネットワークを準備する"
+title: Microsoft Teams 用に組織のネットワークを準備する
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,15 +7,17 @@ ms.date: 02/26/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: arachman
-description: "ネットワーク要件、帯域幅要件、その他の考慮事項といった Microsoft Teams ネットワークの準備と管理について説明します。"
+description: ネットワーク要件、帯域幅要件、その他の考慮事項といった Microsoft Teams ネットワークの準備と管理について説明します。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e734014ff72c8b7eb6ba0e9f27cce7489ec3daf9
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: 3fec119a29ea29d9d5c897395c82e27fdaed5e48
+ms.sourcegitcommit: 8c13d6279760749f60776a3c9e46118f029ae818
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 06/23/2018
+ms.locfileid: "20024199"
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する
 =================================================
@@ -35,7 +37,7 @@ Teams は 3 つの形態のトラフィックを組み合わせて使用しま�
 
 Microsoft Teams でリアルタイム メディアの最適な操作性を実現するには、Office 365 のネットワーク要件を満たす必要があります  詳細については、「[Skype for Business Online におけるメディアの品質とネットワーク接続性のパフォーマンス](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US)」をご覧ください。
 
-次の 2 つの重要なネットワーク セグメント (クライアントから Microsoft Edge、Customer Edge から Microsoft Edge) は、以下の要件を満たす必要があります。
+2 つ定義するネットワーク セグメント (マイクロソフトのエッジにクライアント) およびマイクロソフトのエッジにエッジを顧客、次の推奨事項を検討してください。
 
 
 |値  |クライアントから Microsoft Edge  |Customer Edge から Microsoft Edge  |
@@ -57,22 +59,23 @@ Microsoft Teams でリアルタイム メディアの最適な操作性を実現
 
 Microsoft Teams の帯域幅の計算は複雑であるため、それを支援する計算ツールが用意されています。 この計算ツールにアクセスするには、「[Network Planner in MyAdvisor (MyAdvisor での Network Planner)](http://aka.ms/bwcalc/)」に移動してください。
 
-以下の内容は、付属的な背景情報として利用できます。ただし、[Network Planner](https://aka.ms/bwcalc) を使用して必要な項目を追跡する場合は、推奨事項として参考にしてください。
+<!--
+The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.
 
 > [!IMPORTANT]
->必要とされる帯域幅が利用できない場合は、Microsoft Teams 内部のメディア スタックにより、利用可能な帯域幅の不足量を補うため音声/ビデオ セッションの品質が低下し、その結果、通話や会議の品質も影響を受けます。 Teams クライアントはビデオの品質よりもオーディオの品質を優先します。 したがって、必要とされる帯域幅を利用可能な状態にすることが極めて重要になります。
+>If the required bandwidth is not available, the media stack inside Teams will degrade the quality of the audio/video session to accommodate for that lower amount of available bandwidth, impacting the quality of the call/meeting. The Teams client will attempt to prioritize the quality of audio over the quality of video. It is therefore extremely important to have the expected bandwidth available.
 
 
-|アクティビティ  |ダウンロードの帯域幅  |アップロードの帯域幅  |トラフィック フロー |
+|Activity  |Download Bandwidth  |Upload Bandwidth  |Traffic Flow |
 |---------|---------|---------|---------|
-|**ピアツーピア音声通話**     |0.1 Mb         |0.1Mb         |クライアント <> クライアント         |
-|**ピアツーピア ビデオ通話 (全画面)**     |4 Mb         |4Mb         |クライアント <> クライアント          |
-|**ピアツーピア デスクトップ共有 (1920*1080 解像度)**     |4 Mb         |4 Mb         |クライアント <> クライアント          |
-|**2 人が参加する会議**     |4 Mb         |4 Mb         |クライアント <> Office 365         |
-|**3 人が参加する会議**     |8 Mb         |6.5 Mb         |クライアント <> Office 365           |
-|**4 人が参加する会議**     |5.5 Mb         |4 Mb         |クライアント <> Office 365           |
-|**5 人以上が参加する会議**     |6 Mb         |1.5 Mb         |クライアント <> Office 365           |
-
+|**Peer to peer Audio Call**     |0.1 Mb         |0.1Mb         |Client <> Client         |
+|**Peer to peer Video Call (full screen)**     |4 Mb         |4Mb         |Client <> Client          |
+|**Peer to peer Desktop Sharing (1920*1080 resolution)**     |4 Mb         |4 Mb         |Client <> Client          |
+|**2 Participant Meeting**     |4 Mb         |4 Mb         |Client <> Office 365         |
+|**3 participant meeting**     |8 Mb         |6.5 Mb         |Client <> Office 365           |
+|**4 participant meeting**     |5.5 Mb         |4 Mb         |Client <> Office 365           |
+|**5 participant+ meeting**     |6 Mb         |1.5 Mb         |Client <> Office 365           |
+-->
 
 <a name="additional-network-considerations"></a>ネットワークに関する追加の考慮事項
 ---------------

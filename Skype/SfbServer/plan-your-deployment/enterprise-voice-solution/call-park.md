@@ -1,9 +1,8 @@
 ---
-title: Skype for Business 2015 のコール パークの計画
+title: Skype のコール パークのビジネス向けの計画
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: 保留と部門への呼び出しを転送するのに挿入する実際の呼び出しを有効にする Skype のコール パーク ビジネス サーバーのエンタープライズ VoIP の計画。 キャパシティ ・ プランニング、サポートされている呼び出し、およびサポートされているクライアントが含まれています。
-ms.openlocfilehash: 71166aa866f2242248dc090da19212a5e1122161
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: a675100f8b40e1ab293c0240ea0acbe3beb7fa27
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988551"
 ---
-# <a name="plan-for-call-park-in-skype-for-business-2015"></a>Skype for Business 2015 のコール パークの計画
+# <a name="plan-for-call-park-in-skype-for-business"></a>Skype のコール パークのビジネス向けの計画
  
 保留と部門への呼び出しを転送するのに挿入する実際の呼び出しを有効にする Skype のコール パーク ビジネス サーバーのエンタープライズ VoIP の計画。 キャパシティ ・ プランニング、サポートされている呼び出し、およびサポートされているクライアントが含まれています。
   
@@ -126,7 +126,7 @@ IP、構内交換機 (PBX)、公衆交換電話網 (PSTN)、または携帯電�
   
 **コール パークのユーザー モデル**
 
-|**メトリック**|**各フロント エンド プール<br/>で 8 台のフロント エンド サーバー)**|**各 Standard Edition サーバー**|
+|**指標**|**各フロント エンド プール<br/>で 8 台のフロント エンド サーバー)**|**Standard Edition サーバーごと**|
 |:-----|:-----|:-----|
 |保留率  <br/> |8 分間に 1 回  <br/> |1 分間に 1 回  <br/> |
 |取得通話保留率  <br/> |8 分間に 1 回  <br/> |1 分間に 1 回  <br/> |

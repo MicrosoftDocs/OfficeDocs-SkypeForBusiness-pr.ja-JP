@@ -1,9 +1,8 @@
 ---
-title: Skype for Business 2015 のメディア バイパスの計画
+title: ビジネス用の Skype でメディアをバイパスするための計画します。
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: ビジネス サーバーのエンタープライズ VoIP の Skype でメディアを計画するために必要な決定を省略します。 これには、通話受付管理 (CAC) との相互運用が含まれます。
-ms.openlocfilehash: c02dd1fcae6db59972a991ef76b55f7d0cbdce9e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: a6e7cd2a37af67415962a4f0a2e0c390160f66f3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020858"
 ---
-# <a name="plan-for-media-bypass-in-skype-for-business-2015"></a>Skype for Business 2015 のメディア バイパスの計画
+# <a name="plan-for-media-bypass-in-skype-for-business"></a>ビジネス用の Skype でメディアをバイパスするための計画します。
  
 ビジネス サーバーのエンタープライズ VoIP の Skype でメディアを計画するために必要な決定を省略します。 これには、通話受付管理 (CAC) との相互運用が含まれます。
   
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/03/2018
   
 次の図は、メディア バイパスを使用した場合と使用しない場合の、トポロジ内のメディアと信号の基本経路を示しています。
   
-**メディアと、メディアのない信号の経路をバイパスします。**
+**メディア バイパスを使用した場合と使用しない場合の、メディアと信号の経路**
 
 ![音声 CAC メディア バイパス接続の適用](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
   

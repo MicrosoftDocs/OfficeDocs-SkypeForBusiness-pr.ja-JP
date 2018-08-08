@@ -1,9 +1,8 @@
 ---
-title: Skype for Business 2015 でのアプリケーション レベルの応答グループ設定の管理
+title: ビジネス用の Skype のアプリケーション レベルの応答グループの設定を管理します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: ビジネス サーバーのエンタープライズ VoIP の Skype で、保留中の音楽やリングバックの設定など、アプリケーション レベルの応答グループ設定を管理します。
-ms.openlocfilehash: eaf31904958997561be056da728ff3b0b31f9d8b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 1aa3234860193cac40e6ca8a39323013847606fb
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21012303"
 ---
-# <a name="managing-application-level-response-group-settings-in-skype-for-business-2015"></a>Skype for Business 2015 でのアプリケーション レベルの応答グループ設定の管理
+# <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>ビジネス用の Skype のアプリケーション レベルの応答グループの設定を管理します。
  
 ビジネス サーバーのエンタープライズ VoIP の Skype で、保留中の音楽やリングバックの設定など、アプリケーション レベルの応答グループ設定を管理します。
   
@@ -55,11 +55,8 @@ ms.lasthandoff: 05/03/2018
 
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [Get CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
   
 [セット CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csrgsconfiguration?view=skype-ps)
   
 [インポート-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
-

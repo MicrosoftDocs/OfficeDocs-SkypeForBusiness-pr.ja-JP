@@ -1,9 +1,8 @@
 ---
-title: Skype for Business 2015 でのボイス ルート構成ファイルのエクスポートまたはインポート
+title: ビジネス用 Skype でのボイス ルート構成ファイルをインポートまたはエクスポート
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
-description: '概要: ビジネス サーバー 2015 のビジネス サーバーのコントロール パネルの Skype を使用して、Skype で音声ルーティング構成ファイルをインポートまたはエクスポートする方法を説明します。'
-ms.openlocfilehash: ba16e68ec3218a06d1baf21c238b14e3f566f630
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: '概要: ビジネス サーバーのビジネス サーバーのコントロール パネルの Skype を使用して、Skype で音声ルーティング構成ファイルをインポートまたはエクスポートする方法を説明します。'
+ms.openlocfilehash: 462bcf471e4a43bfedf32b0d062731ea7cbd06f9
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965409"
 ---
-# <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business-2015"></a>Skype for Business 2015 でのボイス ルート構成ファイルのエクスポートまたはインポート
+# <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>ビジネス用 Skype でのボイス ルート構成ファイルをインポートまたはエクスポート
  
-**の概要:** ビジネス サーバー 2015 のビジネス サーバーのコントロール パネルの Skype を使用して、Skype で音声ルーティング構成ファイルをインポートまたはエクスポートする方法について説明します。
+**の概要:** Business Server のビジネス サーバーのコントロール パネルの Skype を使用して、Skype で音声ルーティング構成ファイルをインポートまたはエクスポートする方法について説明します。
   
 音声ルーティング構成を公開せずに保存する場合、この手順を実行して、音声ルーティング構成のスナップショットを保存して取得します。 
   
@@ -57,6 +57,6 @@ ms.lasthandoff: 05/03/2018
 6. [**確定**] をクリックし、[**すべて確定**] をクリックします。
     
     > [!NOTE]
-    > 音声構成ファイルをインポートする場合は、必ず [**すべて確定**] コマンドを実行して構成変更を公開する必要があります。 詳細については、操作マニュアルの[発行保留中のビジネス 2015年の Skype で音声ルーティング構成の変更](voice-route-config-changes.md)を参照してください。
+    > 音声構成ファイルをインポートする場合は、必ず [**すべて確定**] コマンドを実行して構成変更を公開する必要があります。 詳細については、操作マニュアルの[発行保留中のビジネス用の Skype で音声ルーティング構成の変更](voice-route-config-changes.md)を参照してください。
   
 

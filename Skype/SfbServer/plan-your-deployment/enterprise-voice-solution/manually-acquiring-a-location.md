@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 で手動で場所を取得する場合のユーザー エクスペリエンスの定義
+title: ビジネス サーバーの Skype 内の場所を手動で取得するためのユーザー エクスペリエンスを定義します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d37f67d3-e248-483b-b64c-3986559ef357
 description: ビジネス サーバーのエンタープライズ VoIP の Skype で、SIP トランキング プロバイダーを使用して ~ 9-1-1 の展開でユーザーの移動を計画しています。
-ms.openlocfilehash: 3e5c8776768212c6be179700a33261382949deee
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0b439cc52a5724f5642bd8c61288cededefe754c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988480"
 ---
-# <a name="define-the-user-experience-for-manually-acquiring-a-location-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 で手動で場所を取得する場合のユーザー エクスペリエンスの定義
+# <a name="define-the-user-experience-for-manually-acquiring-a-location-in-skype-for-business-server"></a>ビジネス サーバーの Skype 内の場所を手動で取得するためのユーザー エクスペリエンスを定義します。
  
 ビジネス サーバーのエンタープライズ VoIP の Skype で、SIP トランキング プロバイダーを使用して ~ 9-1-1 の展開でユーザーの移動を計画しています。
   

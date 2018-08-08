@@ -1,47 +1,55 @@
 ---
-title: ユーザーの導入を介して Microsoft Teams の価値を創出する
-author: LolaJacobsen
-ms.author: lolaj
+title: ユーザーが積極的にマイクロソフトのチームでマイクロソフトのチームでのメリットをもたらします
+author: dearbeen
+ms.author: dearbeen
 manager: serdars
-ms.date: 03/02/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
-description: Skype for Business から Microsoft Teams への移行を続けるためのガイダンス
+ms.reviewer: dearbeen
+description: ビジネスの Skype からマイクロソフトのチームへの旅を続行するためのガイダンス
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2162fdf8a942c9a45949c52efaf4fc9b70b76b00
-ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
+ms.openlocfilehash: 082ad5913cfd95750eaac9f36b424b62610c0c26
+ms.sourcegitcommit: 1d3b18265488fa14175f72d80fb8a2aa25a3ae62
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 07/19/2018
+ms.locfileid: "20506645"
 ---
-<a name="drive-value-with-microsoft-teams-through-user-adoption"></a>ユーザーの導入を介して Microsoft Teams の価値を創出する
-================================================================
+![オペレーショナル ・ エクセレンスの段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-op-excellence.png "オペレーショナル ・ エクセレンスの段階に重点を置いて、旅アップグレードの段階")
 
+この資料では、オペレーショナル ・ エクセレンスの段階と同時に開始のチームにビジネス用の Skype からのアップグレードが完了したら、アップグレードの旅の一部です。
 
-変更を実現するには時間がかかりますが、今すぐに価値を創出してその恩恵を受けることができます。 Skype for Business を継続的に使用しながら、組織で Teams への移行を同時に進めることで、Office 365 が備えるインテリジェント コミュニケーションの価値を解き放ち、将来的な Teams への移行を成功させることができます。
+# <a name="drive-operational-excellence-with-microsoft-teams"></a>マイクロソフトのチームでの運用の改善を推進します。
 
-Microsoft は、お客様が長期的な成功を収めることを支援する実践的なガイダンスの提供に取り組んでいます。 Teams への移行を続行するには以下のリソースを活用してください。今後数か月にリリースされる追加のリソースもご覧ください。
+テクノロジーは、前例のないペースで革新です。 最新情報を入手し、現代の職場環境を有効にすることは、組織がどのように動作するかの標準になっています。 マイクロソフト チーム、マイクロソフト 365、およびマイクロソフトのインテリジェント通信のビジョンを展開するのには継続的、実践計画をある場所に、組織が長期的な成功に設定されていることを確認できます。 健全性と品質の導入を最適化するためにユーザーの勢いを継続し、継続的にオンラインになる時間の経過と共に新しい機能の計画、環境の監視に最適な運用プランが含まれます。 
 
-## <a name="promote-adoption-of-teams-alongside-skype-for-business"></a>Skype for Business と共存する Teams の導入を促進する 
+## <a name="monitor-for-network-health-and-quality"></a>ネットワークの健全性と品質を監視します。
 
-- 共存する Skype and Teams の[ユーザー準備状況](https://go.microsoft.com/fwlink/?linkid=859044)リソースをカスタマイズおよび共有する)
+ネットワークの状態では、ユーザー エクスペリエンスに影響します。 ユーザーが不適切な経験を持っている場合 (たとえば、呼び出しの切断やラグ時間の会議に参加するとき) と相互に関連この技術自体であるため、テクノロジが動作しないような印象のままになることと、サポートされていないアプリケーションのドアを開きます。 監視し、ネットワークの正常性を軽減するための計画を実装すると、サポート デスクへの呼び出しを減らすだけでなく好ましいユーザー環境を実現するのに役立ちます。 詳細については、以下の資料を参照してください。
 
-- Teams の[トレーニング](https://support.office.com/article/Office-Training-Center-b8f02f81-ec85-4493-a39b-4c48e6bc4bfb) リソースを共有して学習曲線を促進する
+-   [自分のサービスを実施します。](upgrade-operate-my-service.md)
+-   [モニターの品質](upgrade-monitor-quality.md)
+-   [サービスを強化します。](upgrade-enhance-my-service.md)
 
-- ユーザー向けの Teams [ヘルプ](https://support.office.com/teams) トピックを提供してユーザーの参加を加速化する
+## <a name="drive-user-momentum-and-adoption"></a>ユーザーの運動量と導入を促進します。
 
-- 導入管理や変更管理を実施するのは初めてですか? [Office 365 導入ガイド](https://go.microsoft.com/fwlink/?linkid=859045)を活用する
+最大のメリットとチームと共同でビジネス成果を実現するには、ユーザーする必要があります実際に使用します。 ただし、初期興奮 wane がちですが、古い方法で作業するユーザーを簡単に元に戻します。 ユーザーの採用を促進し、含めることができますが、継続的な導入計画をチームの興奮を維持します。
 
+-   宣伝させ、他のユーザーのためにピアのチャンピオンが参加しています。
+-   活動の向上と普及の推進に関するヒントについては、 [Office 365 の導入ガイド](https://go.microsoft.com/fwlink/?linkid=859045)を確認しています。
+-   意識を強化し、ベスト ・ プラクティスを共有する[チームのお客様の成功キット](http://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)を活用することです。
+-   採用の成長を支えるための正式な[管理戦略を採用し、変更](http://www.successwithteams.com/)を実装します。
 
-## <a name="get-your-organization-ready-for-your-future-move-to-teams"></a>チームへの今後の移行の準備ができて、組織を取得します。
+## <a name="prepare-for-new-functionality"></a>新しい機能のための準備します。
 
-- [ロードマップ](https://go.microsoft.com/fwlink/?linkid=859047) を使用して Teams への移行をナビゲートする
+特定のテクノロジのライフ サイクルは、動的成長サイクルに移動します。 つまり、チーム、および Microsoft 365 一定のリズムでの照明の新しい機能では、展開ロードマップが続行されます。 組織内での変更サイクルを確立するには、継続的な共同作業の向上を管理し、最大限の価値を実現する準備が整ったら、ようにします。 これを含めることができます。
 
-- Teams の展開のアシスタンスについて、[Teams リソース](https://go.microsoft.com/fwlink/?linkid=859048)や [FastTrack](https://go.microsoft.com/fwlink/?linkid=859049) を参照する
+-   チーム[のロードマップ](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)を監視します。
+-   フォームを準備し、新しい機能を実装する (下図のように) 計画の変更を実装します。 技術とユーザーの両方の準備活動を含めることを確認します。
 
-- Teams の展開や移行についてヘルプが必要なときに[パートナー](https://go.microsoft.com/fwlink/?linkid=859050)に問い合わせる
-
-
-
+![例のフォームに予想されるリリースの日付と次の手順および所有者の一覧に、新しい機能についてのメモが表示されています。](media/upgrade-change-plan-form.png "例のフォームに予想されるリリースの日付と次の手順および所有者の一覧に、新しい機能についてのメモが表示されています。")

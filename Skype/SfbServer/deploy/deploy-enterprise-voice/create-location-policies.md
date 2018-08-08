@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 での場所ポリシーの作成
+title: Skype でビジネスのサーバーの場所のポリシーを作成します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,28 +13,29 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: 構成する方法の詳細については、このトピックでは、Skype で緊急サービス (~ 9-1-1) の場所のポリシーを強化ビジネス サーバーのエンタープライズ VoIP を参照してください。
-ms.openlocfilehash: 2bb2d7fad7906d78d5118f219b0b85d92dd97b23
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 525c0a1a7a22a31e129c50ebebd68483a31cb87c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987265"
 ---
-# <a name="create-location-policies-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での場所ポリシーの作成
+# <a name="create-location-policies-in-skype-for-business-server"></a>Skype でビジネスのサーバーの場所のポリシーを作成します。
  
 構成する方法の詳細については、このトピックでは、Skype で緊急サービス (~ 9-1-1) の場所のポリシーを強化ビジネス サーバーのエンタープライズ VoIP を参照してください。 
   
-ビジネス サーバーの Skype では、~ 9-1-1 のビジネスのクライアントのクライアントの登録中に Skype を有効にするのに場所のポリシーを使用します。 場所ポリシーには、E9-1-1 の実装方法を定義する設定が含まれます。 詳細については、 [Skype のビジネス サーバー 2015 の場所のポリシーの計画](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)を参照してください。
+ビジネス サーバーの Skype では、~ 9-1-1 のビジネスのクライアントのクライアントの登録中に Skype を有効にするのに場所のポリシーを使用します。 場所ポリシーには、E9-1-1 の実装方法を定義する設定が含まれます。 詳細については、 [Skype のビジネス サーバーの場所のポリシーの計画](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)を参照してください。
   
 ビジネス コントロール パネルの Skype を使用して、または[新規 CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps)コマンドレットを使用して、場所のポリシーを定義します。
   
 > [!NOTE]
-> Skype ビジネス サーバーがクライアントの複数の緊急番号の構成をサポートしています。 複数の緊急番号を構成する場合は、[ビジネス サーバー 2015 の Skype で複数の緊急番号計画](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)および[ビジネス 2015年の Skype で複数の緊急番号の構成](configure-multiple-emergency-numbers.md)内の情報に従ってください。 
+> Skype ビジネス サーバーがクライアントの複数の緊急番号の構成をサポートしています。 複数の緊急番号を構成する場合は、 [Skype ビジネス サーバーの複数の緊急番号に計画](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)し、[ビジネスの Skype で複数の緊急番号の構成](configure-multiple-emergency-numbers.md)内の情報に従ってください。 
   
 グローバルの場所のポリシーを編集して、マークされた新しい場所のポリシーを作成できます。場所のポリシーが関連付けられたサブネット内部に配置されていない場合や、場所のポリシーが直接割り当てられていない場合に、クライアントはグローバル ポリシーを取得します。マークされたポリシーは、サブネットまたはユーザーに割り当てられます。 
   
 場所のポリシーを作成するには、作成するユーザーが RTCUniversalServerAdmins グループまたは CsVoiceAdministrator 管理者役割のメンバーか、あるいは同等の管理者権限とアクセス許可を持つ必要があります。
   
-詳細については、 [Skype のビジネス サーバー 2015 の場所のポリシーの計画](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)を参照してください。 この手順での cmdlet は、次の値を使用して定義される場所のポリシーを使用します。 コマンドレットのパラメーターと値の詳細については、[新規 CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps)を参照してください。
+詳細については、 [Skype のビジネス サーバーの場所のポリシーの計画](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)を参照してください。 この手順での cmdlet は、次の値を使用して定義される場所のポリシーを使用します。 コマンドレットのパラメーターと値の詳細については、[新規 CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps)を参照してください。
   
 |**要素**|**値**|
 |:-----|:-----|
@@ -62,14 +62,12 @@ ms.lasthandoff: 05/03/2018
     
    ```
    Set-CsLocationPolicy -Identity Global -EnhancedEmergencyServicesEnabled $true -LocationRequired "disclaimer" -EnhancedEmergencyServiceDisclaimer "Your company policy requires you to set a location. If you do not set a location emergency services will not be able to locate you in an emergency. Please set a location." -PstnUsage "emergencyUsage" -EmergencyDialString "911" -ConferenceMode "twoway" -ConferenceUri "sip:+14255550123@litwareinc.com" -EmergencyDialMask "112" NotificationUri "sip:security@litwareinc.com" -UseLocationForE911Only $true -LocationRefreshInterval 2
-
    ```
 
 3. 次のコマンドレットを実行してマークされた場所のポリシーを作成します。
     
    ```
    New-CsLocationPolicy -Identity Tag:Redmond - EnhancedEmergencyServicesEnabled $true -LocationRequired "disclaimer" -EnhancedEmergencyServiceDisclaimer "Your company policy requires you to set a location. If you do not set a location emergency services will not be able to locate you in an emergency. Please set a location." -UseLocationForE911Only $false -PstnUsage "EmergencyUsage" -EmergencyDialString "911" -EmergencyDialMask "112" -NotificationUri "sip:security@litwareinc.com" -ConferenceUri "sip:+14255550123@litwareinc.com" -ConferenceMode "twoway" -LocationRefreshInterval 2
-
    ```
 
 4. 次のコマンドレットを実行して、ステップ 3 で作成したマークされた場所のポリシーをユーザー ポリシーに適用します。
@@ -77,5 +75,3 @@ ms.lasthandoff: 05/03/2018
    ```
    (Get-CsUser | where { $_.Name -match "UserName" }) | Grant-CsLocationPolicy -PolicyName Redmond
    ```
-
-

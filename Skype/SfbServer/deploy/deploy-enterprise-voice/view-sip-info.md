@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 での個別の SIP トランク情報の表示
+title: ビジネス サーバーの Skype での個々 の SIP トランクに関する情報を表示
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
-description: '概要: ビジネス サーバー 2015 の Skype での SIP トランクに関する情報を表示する方法を説明します。'
-ms.openlocfilehash: fb9990ec4315ffd26f51adaee2414810a053a97f
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: '概要: は、Skype のビジネス サーバーの SIP トランクに関する情報を表示する方法を説明します。'
+ms.openlocfilehash: 10f45def1727c083f89afcdba43fb9c1c4e7e45e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568243"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968699"
 ---
-# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での個別の SIP トランク情報の表示
+# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>ビジネス サーバーの Skype での個々 の SIP トランクに関する情報を表示
  
-**の概要:** ビジネス サーバー 2015 の Skype での SIP トランクに関する情報を表示する方法について説明します。
+**の概要:** Skype のビジネス サーバーの SIP トランクに関する情報を表示する方法について説明します。
   
 SIP トランクを使用して、Skype をビジネス サーバーの音声トラフィックの IP 電話ネットワークに、パブリック交換電話網 (PSTN) 経由で接続します。 以前のバージョンの製品では、トランクを使用して仲介サーバーから PSTN ゲートウェイに発信通話がルーティングされ、各ゲートウェイは 1 つのトランクに制限されていました。 その結果、PSTN ゲートウェイと SIP トランクは実質的に同一でした。 管理者にとって、このことは、関連付けられている PSTN ゲートウェイに関する情報を表示するだけで個々の SIP トランクに関する情報を表示できることを意味していました。
   

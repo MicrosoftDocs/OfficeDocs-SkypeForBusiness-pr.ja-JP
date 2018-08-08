@@ -2,20 +2,22 @@
 title: マイクロソフトのチームのサービスの管理を計画します。
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: 提供し、運用上の役割を計画し、品質の支持者を割り当てることにより、高品質の展開を管理します。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31a5f9a88feb775ec385808ca92f3c9368cf73e6
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 3857bde4a71e3745c4e83546c0ad1b0114469197
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695503"
 ---
 # <a name="plan-my-service-management"></a>[サービスの管理を計画します。
 
@@ -65,6 +67,7 @@ Envision のフェーズの早い段階で運用上の役割のマッピング�
 |ID の運用|(Active Directory、Active Directory フェデレーション サービス、Azure AD) の id インフラストラクチャを管理します。|TBA|TBA|
 |導入/変更管理|意識、トレーニング、およびソリューションの導入を管理します。|TBA|TBA|
 |Exchange の運用|Exchange 環境を管理します。|TBA|TBA|
+|テレフォニーの操作|SBC の電話番号を管理します。|TBA|TBA|
 
 詳細な運用上の役割のマッピングをより容易にする、各操作上の役割に関連付けられているタスクを含む、[運用上の役割のマッピング ブック](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_16)を使用するには、わかりやすくするための役割と責任の範囲の周囲を提供する詳細を取得するには音声のワークロードをクラウドをサポートします。
 

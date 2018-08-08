@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: このトピックでは、リモート仮想デスクトップへの接続中に、ビジネスの Skype を使用するための計画に関する考慮事項について説明します。
-ms.openlocfilehash: 2b682b010211f46ebd405131ed47bebc1b0d1e29
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 40591ed1e0560d23bb48979bdaa6b18d2c68c9ef
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972528"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>VDI 環境における Skype for Business の計画
  
@@ -34,7 +35,7 @@ VDI プラグイン コンポーネントで使用できるソリューション
 - VMWare とのコラボレーションで開発したビジネス用の Skype の**VMWare 水平仮想化パック**を使用すると、仮想デスクトップで、優れたユーザー エクスペリエンスを提供しながらビジネスの Skype を提供します。 このソリューションは、クライアントでのメディア エンジンを活用することによって最適なソリューションを作り出し、音声通話やビデオ通話に対するメディア オフロード機能を提供するクライアント エンドポイントとともに機能します。 いずれか 1 対 1 の共同作業のためのエンドポイント間で直接、オーディオとビデオを配信したりする、中心的なマルチポイント コントロール ユニット (MCU) マルチパーティの会議または会議の負荷を軽減するソリューションです。
     
 > [!NOTE]
-> Citrix HDX のリアルタイム最適化パックまたは地平線の VMWare 仮想化パックでは、ビジネスの基本的な 2015 2016 クライアントの Skype はサポートされていません。 
+> Citrix HDX のリアルタイム最適化パックまたは地平線の VMWare 仮想化パックでは、ビジネスの基本的なクライアントの Skype はサポートされていません。 
   
 ## <a name="citrix-hdx-realtime-optimization-pack"></a>Citrix HDX RealTime Optimization Pack
 <a name="Citrix_RT"> </a>
@@ -87,7 +88,7 @@ VMWare VDI 環境のソリューションは、ビジネス 2015年、2016 の�
     
 - [Lync VDI プラグインの前提条件](vdi-environments.md#VDI_prereq)
     
-- [ビジネス サーバー 2015 の Skype では、プラグインの Lync VDI の導入します。](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
+- [ビジネス サーバーの Skype では、プラグインの Lync VDI の導入します。](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
     
 - Citrix サポート技術情報センターの記事[CTX138408](https://support.citrix.com/article/CTX138408)
     
@@ -116,13 +117,13 @@ Lync VDI のプラグインは、動的仮想チャネル (DVCs) と呼ばれる
 VDI 環境でバーチャル マシン、およびユーザーのローカル コンピューターは、このセクションで概説する要件を満たす必要があります。
   
 > [!NOTE]
->  環境のインストール方法および展開方法の詳細については、仮想化ソリューション プロバイダーにお問い合わせください。 HYPER-V とリモート デスクトップ サービスに基づく仮想化環境の展開に関する一般的な情報は、Microsoft TechNet ライブラリの以下の資料を参照してください: [HYPER-V で](https://go.microsoft.com/fwlink/p/?linkid=247514)、 [Windows Server 2008 R2 でのリモート デスクトップ サービス](https://go.microsoft.com/fwlink/p/?linkid=247513) 
+>  環境のインストール方法および展開方法の詳細については、仮想化ソリューション プロバイダーにお問い合わせください。 HYPER-V とリモート デスクトップ サービスに基づく仮想化環境の展開に関する一般的な情報は、Microsoft のライブラリでは、以下の資料を参照してください: [HYPER-V で](https://go.microsoft.com/fwlink/p/?linkid=247514)、 [Windows Server 2008 R2 でのリモート デスクトップ サービス](https://go.microsoft.com/fwlink/p/?linkid=247513) 
   
 最新のサービス パックで Windows 8 の、Windows 7 または Windows Server 2008 R2 でバーチャル マシンを構成しなければなりません。
   
 ユーザーのローカル コンピューターでは、次の要件を満たす必要があります。
   
-- ビジネス サーバー 2015 または Lync Server 2013 の Skype のユーザーが所属する必要があります。
+- ビジネス サーバーまたは Lync Server 2013 の Skype のユーザーが所属する必要があります。
     
 - ローカル コンピューターが SP1、SP1、または Windows 8 と Windows 7 と Windows の組み込みの標準的な 7 を実行しなければなりません。
     
@@ -165,5 +166,5 @@ Lync VDI のプラグインは、Office 365 環境ではサポートされてい
 ## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
 <a name="Citrix_RT"> </a>
 
-[ビジネス サーバー 2015 の Skype では、プラグインの Lync VDI の導入します。](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
+[ビジネス サーバーの Skype では、プラグインの Lync VDI の導入します。](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
 

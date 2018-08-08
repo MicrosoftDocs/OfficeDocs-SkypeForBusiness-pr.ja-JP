@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 で場所データベースを構成する
+title: Skype でビジネスのサーバーの場所データベースを構成します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,38 +13,38 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: 構成、設定、および公開 ~ 9-1-1 場所データベース Skype のビジネス サーバーのエンタープライズ VoIP の。
-ms.openlocfilehash: f07eafbbbfcbb62c7176e35faba48e0d1281ce39
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: bbeb695cea58feae073e5579eacbe3558d632735
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568332"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018876"
 ---
-# <a name="configure-the-location-database-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 で場所データベースを構成する
+# <a name="configure-the-location-database-in-skype-for-business-server"></a>Skype でビジネスのサーバーの場所データベースを構成します。
  
 構成、設定、および公開 ~ 9-1-1 場所データベース Skype のビジネス サーバーのエンタープライズ VoIP の。 
   
 クライアントがネットワーク内の各自の場所を自動検出できるようにするには、まず場所データベースを構成する必要があります。 
   
-場所データベースを構成するには、次の作業を行います。
+場所データベースを構成するには、次のタスクを実行します。
   
 - ネットワーク要素と場所のマッピングをデータベースに設定します。 ELIN が含まれてする必要があります、緊急位置識別番号 (ELIN) ゲートウェイを使用する場合、 \<[得意先名]\>フィールドです。
     
     場所のデータベースに情報を読み込んでいない場合に、場所のポリシーの **[場所 (必須)]** を **[はい]** または **[免責事項]** に設定すると、クライアントから場所の情報を手動で入力するように指示されます。
     
-- ~ 9-1-1 のサービス プロバイダーによって管理されている住所のマスター ガイド (MSAG) に対してアドレスを検証します。
+- E9-1-1 サービス プロバイダーで保持されている主要道路住所案内 (MSAG) と照らし合わせて住所を確認します。
     
 - 更新したデータベースを公開します。
     
 ## <a name="populate-the-location-database"></a>場所データベースの設定
 
-ネットワーク内のクライアントを自動的に検索するには、するには、まず、都市へのネットワーク要素をマップするネットワーク wiremap の場所のデータベースを設定する必要が (つまり、会社の住所) アドレスです。 ワイヤマップの定義には、サブネット、ワイヤレス アクセス ポイント、スイッチ、およびポートを使用できます。
+ネットワーク内のクライアントを自動で検出するために、まず、ネットワーク要素を正式な住所にマップする、ネットワークのワイヤマップを場所データベースに読み込む必要があります。ワイヤマップの定義には、サブネット、ワイヤレス アクセス ポイント、スイッチ、およびポートを使用できます。
   
 住所は場所データベースに個別に追加することも、次の表に示す列形式を含む CSV ファイルを使用して一括で追加することもできます。
   
 緊急位置識別番号 (ELIN) ゲートウェイを使用している場合、各場所の **[CompanyName]** フィールドに ELIN を含めます。各場所に複数の ELIN をセミコロンで区切って含めることができます。
   
-|**ネットワーク要素**|**必須の列**|
+|**ネットワーク要素**|**必要な列**|
 |:-----|:-----|
 |**ワイヤレス アクセス ポイント** <br/> |\<BSSID\>、\<の説明\>、\<の場所\>、\<[得意先名]\>、\<HouseNumber\>、\<HouseNumberSuffix\>、\<PreDirectional\>、.  <br/> .\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<市\>、\<の状態\>、\<[郵便番号]\>、\<国\>  <br/> |
 |**サブネット** <br/> |\<サブネット\>、\<の説明\>、\<の場所\>、\<[得意先名]\>、\<HouseNumber\>、\<HouseNumberSuffix\>、\<PreDirectional\>、.  <br/> .\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<市\>、\<の状態\>、\<[郵便番号]\>、\<国\>  <br/> |

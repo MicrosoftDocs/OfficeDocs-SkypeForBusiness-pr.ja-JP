@@ -1,9 +1,8 @@
 ---
-title: Skype for Business 2015 でのグループ通話ピックアップの計画
+title: ビジネスで Skype グループ通話のピックアップのための計画
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: Skype でグループを呼び出すのピックアップのためのビジネス サーバーのエンタープライズ VoIP の計画、ユーザーが他の人の本来の機能の呼び出しに応答できます。
-ms.openlocfilehash: 6a2fde93d6fcbfa4e2b382f3512d65a8d986a8ba
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 17c3d453fa54ea72c02c022d33b0b2f1c61e8b0b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016199"
 ---
-# <a name="plan-for-group-call-pickup-in-skype-for-business-2015"></a>Skype for Business 2015 でのグループ通話ピックアップの計画
+# <a name="plan-for-group-call-pickup-in-skype-for-business"></a>ビジネスで Skype グループ通話のピックアップのための計画
  
 Skype でグループを呼び出すのピックアップのためのビジネス サーバーのエンタープライズ VoIP の計画、ユーザーが他の人の本来の機能の呼び出しに応答できます。
   
@@ -115,7 +115,7 @@ Skype でグループを呼び出すのピックアップのためのビジネ�
   
 **グループ通話ピックアップ ユーザー モデル**
 
-|**メトリック**|**各フロント エンド プール<br/>で 8 台のフロント エンド サーバー)**|**各 Standard Edition サーバー**|
+|**指標**|**各フロント エンド プール<br/>で 8 台のフロント エンド サーバー)**|**Standard Edition サーバーごと**|
 |:-----|:-----|:-----|
 |グループあたりの推奨ユーザー数  <br/> |50  <br/> |50  <br/> |
 |推奨グループ数  <br/> |500  <br/> |60  <br/> |

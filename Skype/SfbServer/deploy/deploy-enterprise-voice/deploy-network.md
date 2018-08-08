@@ -1,9 +1,8 @@
 ---
-title: Skype for Business 2015 でのネットワーク領域、サイト、サブネットの展開
+title: ネットワーク領域、サイト、およびビジネスの Skype でサブネットを配置します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,23 +13,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 作成ネットワーク地域、ネットワーク サイトを変更してビジネス サーバーの Skype のネットワークのサブネットを関連付けます。 これらのすべては、高度なエンタープライズ VoIP 機能に使用します。 メディアのバイパス、受付制御、およびロケーション ベースのルーティングを呼び出します。
-ms.openlocfilehash: f519e404459489709870aceefdc7fe35e4b2696e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 427ab9102fe7a840aee68e0dbc2c372b908930e8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980775"
 ---
-# <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business-2015"></a>Skype for Business 2015 でのネットワーク領域、サイト、サブネットの展開
+# <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>ネットワーク領域、サイト、およびビジネスの Skype でサブネットを配置します。
  
 作成ネットワーク地域、ネットワーク サイトを変更してビジネス サーバーの Skype のネットワークのサブネットを関連付けます。 これらのすべては、高度なエンタープライズ VoIP 機能に使用します。 メディアのバイパス、受付制御、およびロケーション ベースのルーティングを呼び出します。
   
-高度なエンタープライズ VoIP 機能として、[call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)、[media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)、[ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)、[E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md) を挙げることができます。 すべてのこれらの機能は、ネットワーク地域、ネットワーク サイト、およびサブネットを作成する必要があります。 たとえば、これらの各機能では、トポロジ内にある各サブネットを特定のネットワーク サイトに関連付け、各ネットワーク サイトをネットワーク地域に関連付ける必要があります。 これらの用語の詳細については、[ビジネス サーバー 2015 の Skype で高度なエンタープライズ VoIP 機能のネットワーク設定](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)を参照してください。
+高度なエンタープライズ VoIP 機能として、[call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)、[media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)、[ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)、[E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md) を挙げることができます。 これらの各機能を使用するには、ネットワーク地域、ネットワーク サイト、サブネットを作成する必要があります。 たとえば、これらの各機能では、トポロジ内にある各サブネットを特定のネットワーク サイトに関連付け、各ネットワーク サイトをネットワーク地域に関連付ける必要があります。 これらの用語の詳細については、 [Skype のビジネス サーバーで高度なエンタープライズ VoIP 機能のネットワーク設定](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)を参照してください。
   
 通話受付管理および E9-1-1 には、ネットワーク サイトの追加構成要件があります。
   
-- 呼受付制御では、帯域幅ポリシーのプロファイルは、WAN の帯域幅の制限によって制限されるサイトごとに指定する必要があります。 呼受付制御を展開する場合は、必要な[ビジネス サーバー 2015 の Skype で帯域幅ポリシー プロファイルを作成する](create-bandwidth-policy-profiles.md)ネットワーク サイトを構成する前に。
+- 通話受付管理では、WAN の帯域幅が制限されているサイトごとに帯域幅ポリシー プロファイルを指定する必要があります。 呼受付制御を展開する場合は、する必要があります[Skype ビジネス サーバー用に帯域幅ポリシー プロファイルを作成する](create-bandwidth-policy-profiles.md)ネットワーク サイトを構成する前にします。
     
-- ~ 9-1-1 では、場所のポリシーは、サイトごとに指定する必要があります。 ~ 9-1-1 を展開する場合は、必要な[ビジネス サーバー 2015 の Skype の場所のポリシーを作成する](create-location-policies.md)ネットワーク サイトを構成する前に。
+- E9-1-1 では、サイトごとに 場所のポリシーを指定する必要があります。 ~ 9-1-1 を展開する場合は、する必要があります[Skype ビジネス サーバー用に作成する場所のポリシー](create-location-policies.md)ネットワーク サイトを構成する前にします。
     
 ## <a name="create-or-modify-a-network-region"></a>ネットワーク地域の作成または変更
 
@@ -52,7 +52,6 @@ ms.lasthandoff: 05/03/2018
     
    ```
    New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
-
    ```
 
     この例では、「北米」と呼ばれるネットワーク領域を作成したサイト ID のシカゴでの中央サイトに関連付けられています。
@@ -93,7 +92,6 @@ ms.lasthandoff: 05/03/2018
     
    ```
    Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
-
    ```
 
     この例では、説明を変更することによって「北米」(このトピックで前述した手順を使用して作成された) と呼ばれる、既存のネットワークの領域を変更します。 「北米」領域の説明が存在していた場合は、このコマンドで上書き値です。説明が設定されていない場合、この設定にします。
@@ -136,7 +134,6 @@ ms.lasthandoff: 05/03/2018
     
    ```
    New-CsNetworkSite -NetworkSiteID Chicago -Description "Corporate headquarters"-NetworkRegionID NorthAmerica
-
    ```
 
     「シカゴ」と呼ばれるネットワーク サイトを作成するこの例では、「北米」ネットワークの領域にあります。
@@ -190,7 +187,6 @@ ms.lasthandoff: 05/03/2018
     
    ```
    Set-CsNetworkSite -Identity Albuquerque -NetworkRegionID NorthAmerica
-
    ```
 
     この例では、「アルバカーキ」と呼ばれるサイトは「北米」ネットワークの領域に移動します。 ネットワーク サイトの構成を変更して、通話受付管理、E9-1-1、またはメディア バイパスを展開するには、Set-CsNetworkSite コマンドレットをそれぞれ BWPolicyProfileID または LocationPolicy パラメーターと組み合わせて実行し、ネットワーク サイトの設定を変更します。
@@ -317,7 +313,6 @@ ms.lasthandoff: 05/03/2018
 ## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
 <a name="BKMK_AssociateSubnets"> </a>
 
-#### 
 
 [新しい-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
   

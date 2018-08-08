@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 ての仲介サーバーのファイルのインストール
+title: ビジネス サーバーの Skype での仲介サーバーのファイルをインストールします。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,23 +12,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
-description: '概要: ビジネス サーバー 2015 の Skype での仲介サーバーのファイルをインストールする方法を説明します。'
-ms.openlocfilehash: 2d296cc43e58f18037176c498149db97698b7c03
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: '概要: ビジネス サーバーの Skype での仲介サーバーのファイルをインストールする方法を説明します。'
+ms.openlocfilehash: b3314e5443a7aa881fa849fd3e3b5b639f72664e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002482"
 ---
-# <a name="install-the-files-for-mediation-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 ての仲介サーバーのファイルのインストール
+# <a name="install-the-files-for-mediation-server-in-skype-for-business-server"></a>ビジネス サーバーの Skype での仲介サーバーのファイルをインストールします。
  
-**の概要:** ビジネス サーバー 2015 の Skype での仲介サーバーのファイルをインストールする方法について説明します。
+**の概要:** ビジネス サーバーの Skype での仲介サーバーのファイルをインストールする方法について説明します。
   
 この手順を正常に完了するには、少なくともローカルの管理者または RTCUniversalReadOnlyAdmins グループのメンバーシップを持つドメイン ユーザーとして、サーバーにログオンしている必要があります。
   
 Skype の仲介サーバーのプールおよびを定義するのにトポロジ ビルダーを使用した後に、仲介サーバー プールに追加したコンピューターにファイルをインストールするのにはビジネス サーバーの展開ウィザードを実行するのには、このトピックの手順を使用します。 仲介サーバーのファイルをインストールする場合もインストールして仲介サーバー プール内の各コンピューターに必要な証明書を割り当てます。 
   
 > [!NOTE]
-> このトピックには、 [Skype のビジネス サーバー 2015 でトポロジ ビルダーでの仲介サーバーの展開](deploy-a-mediation-server.md)で説明するよう既に定義しているトポロジでは、スタンドアロンの仲介サーバー プールを発行が想定しています。 
+> このトピックには、 [Skype のビジネス サーバーで、トポロジ ビルダーでの仲介サーバーの展開](deploy-a-mediation-server.md)で説明するよう既に定義しているトポロジでは、スタンドアロンの仲介サーバー プールを発行が想定しています。 
   
 ### <a name="to-install-the-files-for-a-stand-alone-mediation-server-pool"></a>スタンドアロンの仲介サーバー プールにファイルをインストールするには
 
@@ -59,5 +59,5 @@ Skype の仲介サーバーのプールおよびを定義するのにトポロ�
     
 13. ビジネス サーバーのコントロール パネルの Skype を実行しているコンピューターに仲介サーバーのサービスの状態が緑のチェック マークとして表示されているビジネス サーバーのコントロール パネルの [**トポロジ**] ページで Skype を確認します。 赤色の X が表示された場合は、仲介サーバーを選択します。 [**操作**] メニューで、**すべてのサービスの開始**をクリックします。 
     
-仲介サーバー プールに複数のコンピューターを追加する場合は、仲介サーバー プール内の他のすべてのコンピューターでこの手順で手順を実行します。 仲介サーバーの他のすべてのコンピューターのファイルをインストールする必要はない場合、は、[ビジネス サーバー 2015 の Skype でトランクを構成する](configure-trunks.md)間、この仲介サーバー プール (またはすべてのトランク接続の設定を構成するのにはの手順を実行し、サイトに仲介サーバー) とそのピア。
+仲介サーバー プールに複数のコンピューターを追加する場合は、仲介サーバー プール内の他のすべてのコンピューターでこの手順で手順を実行します。 場合は、他のコンピューター用の仲介サーバーのファイルをインストールする必要はありませんは、この仲介サーバー プール (またはすべての仲介との間のトランク接続の設定を構成するのには[Skype ビジネス サーバー用に構成するトランク](configure-trunks.md)の手順を実行し、サイト サーバー) とそのピア。
 

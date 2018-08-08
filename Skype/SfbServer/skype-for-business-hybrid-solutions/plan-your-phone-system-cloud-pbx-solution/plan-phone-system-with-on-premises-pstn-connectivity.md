@@ -17,11 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 設置 PSTN への接続では、Office 365 (クラウド PBX) の電話システムの計画の考慮事項について説明します。
-ms.openlocfilehash: 79d414e26b2fe260c6fe647c818911e77ce3bfaa
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b92a98e52f9ccf914a8100555fa683bb01d05d5b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001727"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Skype で設置した PSTN 接続を持つビジネス サーバーの Office 365 の電話システムを計画します。
  
@@ -49,13 +50,13 @@ Office 365 のライセンスや計画などの電話システムに関する詳
 > [!CAUTION]
 > オンプレミス環境で Skype for Business Online に移動する前に、Lync Phone Edition デバイスを最小要求ファームウェアに更新する必要があります。
 オンプレミスからオンラインにユーザーを移動してからファームウェアを更新すると、ユーザーは電話を使用して接続できなくなります。 この問題を訂正するには、ユーザーをオンプレミス環境に戻して、電話を最小ファームウェアに更新する必要があります。 最小ファームウェアに更新するか、電話をハード リセットしてから、ユーザーをオンプレミス環境に戻すことは試みないでください。
-場合はデバイスがオンライン ビジネスの Skype でサポートされていない暗証番号 (pin) 認証を使用して既定値、最小のファームウェアではありません、ハード リセットが実行されます。 詳細については、[オンライン ビジネスの Skype の電話を取得](https://support.office.com/en-us/article/Getting-phones-for-Skype-for-Business-Online-91f2d947-45fc-4fab-bd8b-2e313531c477?ui=en-US&amp;rs=en-US&amp;ad=US)を参照してください。
+デバイスが最小ファームウェアになっていないときにハード リセットを実行すると、既定で PIN 認証を使用するようになります。これは、Skype for Business Online でサポートされていません。 詳細については、[オンライン ビジネスの Skype の電話を取得](https://support.office.com/en-us/article/Getting-phones-for-Skype-for-Business-Online-91f2d947-45fc-4fab-bd8b-2e313531c477?ui=en-US&amp;rs=en-US&amp;ad=US)を参照してください。
   
 Office 365 の電話システムを設置した PSTN 接続に配布すると、ユーザーを移動できます、クラウドに移行する Skype 経由でオンライン ビジネスの独自のペースでは、その設置した PSTN 接続を維持しながら。 PBX がある場合は、PBX を引き続き使用して、クラウドに移動するユーザーに PSTN 接続を提供します。 ビジネス オンラインと Office 365 の電話システムに Skype ユーザーを移動すると、従来の PBX 電話は動作しなくなりますがの電話番号にルーティング、Skype のいずれかのビジネス クライアント用の Pc やスマート フォンだけでなく、Skype の準拠のビジネス デスクの電話番号のs。 移植すると後で Office 365 のユーザーと従来の PBX のユーザーの電話システムことができます通常互いを呼び出すし、PSTN の呼び出しが通常の電話番号を使用して作成されます。
   
 カスタム機能や、コール センターのような従来の PBX への主要なアドオンが備わっていることがあります。 カスタム機能が Office 365 の電話システムで現在利用可能ないない場合は、そのカスタム機能の設置型レガシ PBX は、単なるポートと Office 365 の電話システムにカスタム機能にアクセスする必要はありませんユーザーを必要とするそれらのユーザーをおく必要があります。設置 PSTN 接続します。
   
-ビジネス サーバー 2015 の Skype を直接と互換性がある従来の Pbx の一覧については、 [Microsoft Lync のインフラストラクチャの修飾](https://technet.microsoft.com/en-us/office/dn788945.aspx)を参照してください。 ユーザーの PBX がこの一覧にない場合は、オンライン ビジネスの Skype で Office 365 の電話システムとユーザーの PBX に接続するセッション ボーダー コント ローラーを使用できます。
+ビジネス サーバー 2015 の Skype を直接と互換性がある従来の Pbx の一覧については、 [Microsoft Lync のインフラストラクチャの修飾](https://docs.microsoft.com/en-us/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway)を参照してください。 ユーザーの PBX がこの一覧にない場合は、オンライン ビジネスの Skype で Office 365 の電話システムとユーザーの PBX に接続するセッション ボーダー コント ローラーを使用できます。
   
 ### <a name="network-considerations-for-quality-and-performance"></a>ネットワークの品質とパフォーマンスに関する考慮事項
 
@@ -103,7 +104,7 @@ PSTN への接続を設置し、Skype をユーザーの移動と Office 365 の
     > [!NOTE]
     > 使用する AAD Connect のパーションは、バージョン 1.0.9125.0 以降である必要があります。それよりも前のバージョンの AAD Connect ツールまたは DirSync を使用している場合は、サポートされているバージョンにアップグレードしてください。現在のインストールをアップグレードして、環境で定義しているカスタム ルールを維持できます。 
   
-- **ハイブリッド展開を構成します。**かどうか、Skype をビジネス ユーザーには、現在すべてホームか、オンラインまたは設置型、またはある場合は現在、ミックス、[展開のハイブリッドで説明されているビジネス サーバーまたは Lync Server 2013 では、Skype のハイブリッド展開を構成する手順を完了する必要がありますビジネス サーバーの Skype と Skype オンライン ビジネスの間の接続](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)。 ハイブリッド展開の詳細について、[サーバーのビジネスとオンライン ビジネスの Skype の Skype 間でのハイブリッド接続を計画](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)を参照してください。 
+- **ハイブリッド展開を構成します。** かどうか、Skype をビジネス ユーザーには、現在すべてホームか、オンラインまたは設置型、またはある場合は現在、ミックス、[展開のハイブリッドで説明されているビジネス サーバーまたは Lync Server 2013 では、Skype のハイブリッド展開を構成する手順を完了する必要がありますビジネス サーバーの Skype と Skype オンライン ビジネスの間の接続](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)。 ハイブリッド展開の詳細について、[サーバーのビジネスとオンライン ビジネスの Skype の Skype 間でのハイブリッド接続を計画](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)を参照してください。 
     
     Lync Server 2013 を使用する場合は、 [Lync Server 2013 ハイブリッド](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx)を参照してください。
     

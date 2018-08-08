@@ -1,9 +1,8 @@
 ---
-title: Skype のビジネス サーバー 2015 の受付制御の展開の最終チェックリストを呼び出す
+title: 受付制御の展開の最終チェックリストを Skype のビジネス サーバーの呼び出し
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
 description: ビジネス サーバーのエンタープライズ VoIP の電話受付制御 (CAC) Skype でを展開するための最終的なチェックリストです。
-ms.openlocfilehash: beec5c03f47d8f06ec862c3e9a3609fba7b66f2c
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e5791aa6f3b32e423f36021314bec930fa7f74e5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025675"
 ---
-# <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server-2015"></a>通話受付管理の展開: Skype for Business Server 2015 の最終チェックリスト
+# <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>受付制御の配置を呼び出す: ビジネス サーバーの Skype の最終チェックリスト
  
 ビジネス サーバーのエンタープライズ VoIP の電話受付制御 (CAC) Skype でを展開するための最終的なチェックリストです。 
   
@@ -31,11 +31,11 @@ ms.lasthandoff: 05/03/2018
     > [!NOTE]
     > エッジ サーバーは CAC を実装する必要はありません。 
   
-- 指定された[ビジネス サーバー 2015 の Skype で通話受付制御を有効にする](enable-call-admission-control.md)と、CAC が有効であることを確認します。
+- 指定された[ビジネス サーバーの Skype で通話受付制御を有効にする](enable-call-admission-control.md)と、CAC が有効であることを確認します。
     
 - すべてのセントラル サイトで CAC が有効化されていることを確認します。 これは、トポロジ ビルダーを実行できます。 警告が生成されるは、発行するとき場合は、無視*しません*。
     
-- エンタープライズ ネットワークで管理されているすべてのサブネットがネットワーク構成設定で構成されていることを確認します。 [展開ネットワーク領域、サイト、およびビジネス 2015年の Skype でのサブネット](deploy-network.md)で説明したようにもすべてのサブネットがネットワーク サイトに関連付けられていることが重要です。
+- エンタープライズ ネットワークで管理されているすべてのサブネットがネットワーク構成設定で構成されていることを確認します。 [ネットワークの領域を展開、サイトとサブネットでビジネス用の Skype](deploy-network.md)で説明したようにもすべてのサブネットがネットワーク サイトに関連付けられていることが重要です。
     
 - すべてのフロントエンド サーバー、存続可能ブランチ アプライアンス (SBA)、音声ビデオ会議サーバー (別プールの場合)、および仲介サーバーのサブネットまたは IP アドレスがネットワーク構成設定で構成されていることを確認します。
     

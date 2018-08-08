@@ -1,8 +1,7 @@
 ---
-title: Skype for Business Server 2015 でのエッジ展開の検証
+title: ビジネス サーバーの Skype で、エッジ配置を検証します。
 ms.author: heidip
 author: microsoftheidi
-ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,22 +10,23 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
-description: '概要: は、Skype のビジネス サーバー 2015 のエッジ サーバーまたはエッジ サーバー プールの展開が機能していることを確認する方法を説明します。'
-ms.openlocfilehash: b8adc5e8d652607156d0136671b1f149fbfe27b4
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: '概要: は、Skype のビジネス サーバーのエッジ サーバーまたはエッジ サーバー プールの展開が機能していることを確認する方法を説明します。'
+ms.openlocfilehash: cb239e2777926796761dd91c1460e1147772a34a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21015098"
 ---
-# <a name="validate-your-edge-deployment-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でのエッジ展開の検証
+# <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>ビジネス サーバーの Skype で、エッジ配置を検証します。
  
-**の概要:** ビジネス サーバー 2015 の Skype でエッジ サーバーまたはエッジ サーバー プールの展開が機能していることを確認する方法について説明します。
+**の概要:** Skype のビジネス サーバーのエッジ サーバーまたはエッジ サーバー プールの展開が機能していることを確認する方法について説明します。
   
-エッジ サーバーまたはエッジ サーバー プールを展開して、正しく動作しているかを把握する必要があります。 エッジ環境に接続されていることを確認するのに役立ついくつかをここでは、内部のサーバーに、外部ユーザー経由で接続できるサーバー 2015 のビジネス環境について、Skype、エッジです。
+エッジ サーバーまたはエッジ サーバー プールを展開して、正しく動作しているかを把握する必要があります。 エッジ環境に接続されていることを確認するのに役立ついくつかをここでは、内部のサーバーに、外部ユーザー経由で接続できるサーバーのビジネス環境に、Skype、エッジです。
   
 ## <a name="verify-connectivity-between-your-internal-servers-and-your-edge-servers"></a>内部サーバーとエッジ サーバーの間の接続を検証する
 
-接続の検証は、エッジ トランスポート サーバーがインストールされている場合も、エッジ サーバーまたはエッジ サーバー プールに自動的に行われます、中にも確認できます自分用の Windows PowerShell にします。 保存、一元管理があるか、ビジネス サーバー 2015 のコア ・ コンポーネント (OcsCore.msi) は、Skype 上の任意のドメイン結合されたコンピューターがインストールされている内部サーバー上には、Get CsManagementStoreReplicationStatus コマンドレットを実行します。
+接続の検証は、エッジ トランスポート サーバーがインストールされている場合も、エッジ サーバーまたはエッジ サーバー プールに自動的に行われます、中にも確認できます自分用の Windows PowerShell にします。 保存、一元管理がビジネス サーバーのコア コンポーネント (OcsCore.msi) は、Skype 上の任意のドメイン結合されたコンピューターがインストールされている内部サーバーに Get CsManagementStoreReplicationStatus コマンドレットを実行します。
   
 このコマンドを実行した最初の結果では、レプリケーションに対して、状態が True ではなく False と示される場合があります。その場合は Invoke-CsManagementStoreReplication コマンドレットを実行し、レプリケーションが完了するまでしばらく待ってから、再び Get-CsManagementStoreReplicationStatus コマンドレットを実行します。
   

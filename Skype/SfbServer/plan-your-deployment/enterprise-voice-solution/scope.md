@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 での E9-1-1 展開の範囲の定義
+title: Skype のビジネス サーバーの ~ 9-1-1 の展開の範囲を定義します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
 description: ビジネス サーバーのエンタープライズ VoIP の Skype で ~ 9-1-1 展開の計画のために必要なを決定します。
-ms.openlocfilehash: 4836f6b91404d0c2df2eeb4b3e1deaa63f5fe094
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 93cb665a17f7fc1be7c26efc1065377ab82cc482
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006546"
 ---
-# <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での E9-1-1 展開の範囲の定義
+# <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server"></a>Skype のビジネス サーバーの ~ 9-1-1 の展開の範囲を定義します。
  
 ビジネス サーバーのエンタープライズ VoIP の Skype で ~ 9-1-1 展開の計画のために必要なを決定します。
   
