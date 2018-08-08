@@ -12,21 +12,14 @@ localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 ROBOTS: NOINDEX, NOFOLLOW
 description: このドキュメントは暫定版であり、変更される可能性があります。空白のトピックがプレースホルダーとして含まれています。
-ms.openlocfilehash: 7c5ce978f46390b01e284352733c3508b51646f2
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 03048decb58ec1db1bff93133e3c2f504be414b3
+ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21064342"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22196115"
 ---
 # <a name="install-database-create-mirror-database-page"></a>インストール データベースがミラー データベースのページを作成します。
  
-このドキュメントは暫定版であり、変更される可能性があります。空白のトピックがプレースホルダーとして含まれています。
-  
-発行プロセス中に SQL Server のミラー データベースをインストールしないようにする場合は、トポロジ ビルダー内の任意のノードを右クリックして**データベースのインストール**を使用してそれらをインストールします。 ストアを選択する、ミラーをインストールします。 高度な設定を定義する**設定**をクリックします。
-  
-## <a name="see-also"></a>関連項目
-
-[インストール CsMirrorDatabase](https://docs.microsoft.com/powershell/module/skype/install-csmirrordatabase?view=skype-ps)
-  
-[インストール CsDatabase](https://docs.microsoft.com/powershell/module/skype/install-csdatabase?view=skype-ps)
+> [!NOTE]
+> SQL ミラーリング ビジネス サーバー 2015 の Skype で利用できるが、ビジネス サーバー 2019 の Skype でサポートされていません。 AlwaysOn 可用性グループ、AlwaysOn フェールオーバー クラスター インスタンス (FCI)、および SQL フェールオーバー クラスタ リング手法は、ビジネス サーバー 2019 の Skype で優先します。
