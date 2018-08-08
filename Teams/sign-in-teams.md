@@ -9,15 +9,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
 description: 現代の認証を使用して、マイクロソフトのチームに署名するためのガイダンスです。
-localization_priority: Normal
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 443f20b1ecd8295acc4f731211c69d23a79f28dd
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: 4c24625d44bc174a60275b6532001b5f7efc9efc
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "19003367"
 ---
 <a name="sign-in-to-microsoft-teams"></a>マイクロソフトのチームへのサインイン
 ==========================

@@ -1,5 +1,5 @@
 ---
-title: "ゲストのエクスペリエンスについて"
+title: ゲストのエクスペリエンスについて
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
@@ -7,15 +7,17 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
-description: "ゲスト ユーザーが利用できる Microsoft Teams の機能性について説明します。"
+description: ゲスト ユーザーが利用できる Microsoft Teams の機能性について説明します。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 500d8b0aa1ed8f006fdbab2d67771c2d65ebaa53
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 9d30b7b554b07ccc29233210419f2a3129349a1e
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "19178883"
 ---
 <a name="what-the-guest-experience-is-like"></a>ゲストのエクスペリエンスについて
 =================================
@@ -59,6 +61,8 @@ ms.lasthandoff: 02/19/2018
 |チャネル ファイルを共有する  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
 |チャット ファイルを共有する  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |アプリ (タブ、ボット、コネクタ) を追加する  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|会議を作成またはスケジュールにアクセス  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|ビジネス ・ ストレージのアクセス OneDrive  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |テナント全体およびチーム/チャネルのゲスト アクセス ポリシーを作成する  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Office 365 テナントのドメイン外のユーザーを招待する <br/>  *この機能はチーム所有者によって制御されます。*  <br/> <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |チームを作成する  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||

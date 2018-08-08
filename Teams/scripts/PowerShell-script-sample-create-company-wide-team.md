@@ -1,18 +1,20 @@
 ---
-title: "PowerShell スクリプトの例 - Microsoft Teams で会社全体のチームを作成する"
+title: PowerShell スクリプトの例 - Microsoft Teams で会社全体のチームを作成する
 author: ninadara
 ms.author: ninadara
 manager: serdars
 ms.date: 02/07/2018
 ms.topic: article
 ms.service: msteams
-description: "この PowerShell スクリプトを使用して、会社全体にわたるパブリックなチームを Teams で作成します。"
+description: この PowerShell スクリプトを使用して、会社全体にわたるパブリックなチームを Teams で作成します。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 6092979771353a8edaad4229bbcd16a3f85bbb60
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 26933c97aaa5d16c28a771e3d45c31174b807c07
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "18999160"
 ---
 <a name="powershell-script-sample---create-a-company-wide-team-in-microsoft-teams"></a>PowerShell スクリプトの例 - Microsoft Teams で会社全体のチームを作成する
 -------------------------------------------------------------------------

@@ -8,15 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor, lolaj
 description: 構想 (計画)、参加 (提供)、価値の創出 (運用) を通して Microsoft Teams の電話会議の計画、展開、管理を行うための実践的なガイダンス。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 51efc627e9aa7e86fdff6ed842e3b2f1956aa528
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 8f5f6eef85352a0c20d08b3e3bf2a327abfd9ca0
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "19004843"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議についての実践的なガイダンスを提供します。
 ============================================================
@@ -433,15 +435,15 @@ Office 365 の電話システム機能には、次の 2 種類のダイヤル �
 >|テナント ダイヤル プランの名前<br>_説明_  |正規化ルールの名前<br>_説明_  |パターン<br>変換<br>IsInternalExtension  |
 >|---------|---------|---------|
 >|**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde、NSW、AU ダイヤル プラン_|**AU-NSW-NorthRyde-OER-Internal**<br>_One Epping Road オフィスの内部番号 (x7000 - x7999)、North Ryde、NSW、オーストラリア_|^(7\d{3})$<br>+6125550$1<br>True|
->||**AU-NSW-Local**<br>_NSW、オーストラリアの市内番号の正規化_|^([2-9]\d{7})$<br>+612$1<br>False|
->||**AU-TollFree**<br>_オーストラリアの無料電話番号の正規化_|^(1[38]\d{4,8})\d*$<br>+61$1<br>False|
->||**AU-Service**<br>_オーストラリアのサービス番号の正規化_|^(000\|1[0125]\d{1,8})$<br>$1<br>False|
+>||**AU-NSW-Local**<br>_NSW、オーストラリアの市内番号の正規化_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
+>||**AU-TollFree**<br>_オーストラリアの無料電話番号の正規化_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
+>||**AU-Service**<br>_オーストラリアのサービス番号の正規化_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
 >|**SG-Singapore-OMB**<br>_OMB Singapore、SG ダイヤル プラン_|**SG-OMB-Internal**<br>_OMB オフィスの内部番号 (x8000 – x8999)、シンガポール_|^(8\d{3})$<br>+656888$1<br>True|
->||**SG-TollFree**<br>_シンガポールの無料電話番号の正規化_|^(1?800\d{7})\d*$<br>+65$1<br>False|
->||**SG-Service**<br>_シンガポールのサービス番号の正規化_|^(1\d{3,4}\|9\d{2})$<br>$1<br>False|
+>||**SG-TollFree**<br>_シンガポールの無料電話番号の正規化_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
+>||**SG-Service**<br>_シンガポールのサービス番号の正規化_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
 >|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux、フランスのダイヤル プラン_|**FR-39qdPR-Internal**<br>_39 quai du Président Roosevelt オフィスの内部番号 (x7000 – x7999)、Issy-les-Moulineaux、フランス_|^(7\d{3})$<br>+3319999$1<br>True|
->||**FR-TollFree**<br>_フランスの無料電話番号の正規化_|^0?(80\d{7})\d*$<br>+33$1<br>False|
->||**FR-Service**<br>_フランスのサービス番号の正規化_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>False|
+>||**FR-TollFree**<br>_フランスの無料電話番号の正規化_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
+>||**FR-Service**<br>_フランスのサービス番号の正規化_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
 > [!TIP]
