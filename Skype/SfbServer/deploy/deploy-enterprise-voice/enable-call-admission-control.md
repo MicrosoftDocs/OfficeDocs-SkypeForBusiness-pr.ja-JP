@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 での通話受付管理の有効化
+title: ビジネス サーバーの Skype で通話受付制御を有効にします。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,58 +13,56 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
 description: ビジネス サーバーのエンタープライズ VoIP には、Skype で通話受付制御を有効にします。
-ms.openlocfilehash: 321b7838a2a818a9791b72e3851312006eb8dc7e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 1a9e719e6c008fcd8bf8c12612f8eea15447648e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009709"
 ---
-# <a name="enable-call-admission-control-in-skype-for-business-server-2015"></a><span data-ttu-id="1f89d-103">Skype for Business Server 2015 での通話受付管理の有効化</span><span class="sxs-lookup"><span data-stu-id="1f89d-103">Enable call admission control in Skype for Business Server 2015</span></span>
+# <a name="enable-call-admission-control-in-skype-for-business-server"></a><span data-ttu-id="ed17e-103">ビジネス サーバーの Skype で通話受付制御を有効にします。</span><span class="sxs-lookup"><span data-stu-id="ed17e-103">Enable call admission control in Skype for Business Server</span></span>
  
-<span data-ttu-id="1f89d-104">ビジネス サーバーのエンタープライズ VoIP には、Skype で通話受付制御を有効にします。</span><span class="sxs-lookup"><span data-stu-id="1f89d-104">Enable call admission control in Skype for Business Server Enterprise Voice.</span></span> 
+<span data-ttu-id="ed17e-104">ビジネス サーバーのエンタープライズ VoIP には、Skype で通話受付制御を有効にします。</span><span class="sxs-lookup"><span data-stu-id="ed17e-104">Enable call admission control in Skype for Business Server Enterprise Voice.</span></span> 
   
-<span data-ttu-id="1f89d-105">通話受付管理展開のネットワーク設定を構成したら、帯域幅ポリシーを反映させるために CAC を有効にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="1f89d-105">After you have configured your network settings for call admission control deployment, you must enable CAC to put your bandwidth policies into effect.</span></span>
+<span data-ttu-id="ed17e-105">通話受付管理展開のネットワーク設定を構成したら、帯域幅ポリシーを反映させるために CAC を有効にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="ed17e-105">After you have configured your network settings for call admission control deployment, you must enable CAC to put your bandwidth policies into effect.</span></span>
   
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="1f89d-106">Skype ビジネス サーバー管理シェルを使用して呼受付制御を有効にするには</span><span class="sxs-lookup"><span data-stu-id="1f89d-106">To enable call admission control by using Skype for Business Server Management Shell</span></span>
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="ed17e-106">Skype ビジネス サーバー管理シェルを使用して呼受付制御を有効にするには</span><span class="sxs-lookup"><span data-stu-id="ed17e-106">To enable call admission control by using Skype for Business Server Management Shell</span></span>
 
-1. <span data-ttu-id="1f89d-107">Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="1f89d-107">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="ed17e-107">Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="ed17e-107">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-2. <span data-ttu-id="1f89d-p101">Set-CsNetworkConfiguration コマンドレットを実行して、ネットワークの CAC を有効にします。たとえば、以下を実行します。</span><span class="sxs-lookup"><span data-stu-id="1f89d-p101">Run the Set-CsNetworkConfiguration cmdlet to enable CAC in your network. For example, run:</span></span>
+2. <span data-ttu-id="ed17e-p101">Set-CsNetworkConfiguration コマンドレットを実行して、ネットワークの CAC を有効にします。たとえば、以下を実行します。</span><span class="sxs-lookup"><span data-stu-id="ed17e-p101">Run the Set-CsNetworkConfiguration cmdlet to enable CAC in your network. For example, run:</span></span>
     
    ```
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 1
    ```
 
-    <span data-ttu-id="1f89d-110">ネットワークの CAC を無効にする場合は、次のように実行します。</span><span class="sxs-lookup"><span data-stu-id="1f89d-110">If you want to disable CAC in your network, run the following:</span></span>
+    <span data-ttu-id="ed17e-110">ネットワークの CAC を無効にする場合は、次のように実行します。</span><span class="sxs-lookup"><span data-stu-id="ed17e-110">If you want to disable CAC in your network, run the following:</span></span>
     
    ```
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 0
    ```
 
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="1f89d-111">ビジネス サーバーのコントロール パネルの Skype を使用して呼受付制御を有効にするには</span><span class="sxs-lookup"><span data-stu-id="1f89d-111">To enable call admission control by using Skype for Business Server Control Panel</span></span>
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="ed17e-111">ビジネス サーバーのコントロール パネルの Skype を使用して呼受付制御を有効にするには</span><span class="sxs-lookup"><span data-stu-id="ed17e-111">To enable call admission control by using Skype for Business Server Control Panel</span></span>
 
-1. <span data-ttu-id="1f89d-112">Skype をビジネス サーバーのコントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="1f89d-112">Open Skype for Business Server Control Panel.</span></span>
+1. <span data-ttu-id="ed17e-112">Skype をビジネス サーバーのコントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="ed17e-112">Open Skype for Business Server Control Panel.</span></span>
     
-2. <span data-ttu-id="1f89d-113">左側のナビゲーション バーで [**ネットワーク構成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="1f89d-113">In the left navigation bar, click **Network Configuration**.</span></span>
+2. <span data-ttu-id="ed17e-113">左側のナビゲーション バーで [**ネットワーク構成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ed17e-113">In the left navigation bar, click **Network Configuration**.</span></span>
     
-3. <span data-ttu-id="1f89d-114">[**グローバル**] ナビゲーション ボタンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="1f89d-114">Click the **Global** navigation button.</span></span>
+3. <span data-ttu-id="ed17e-114">[**グローバル**] ナビゲーション ボタンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="ed17e-114">Click the **Global** navigation button.</span></span>
     
-4. <span data-ttu-id="1f89d-115">一覧で [**グローバル**] をクリックし、[**編集**] メニューの [**詳細の表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="1f89d-115">Click **Global** in the list, and then select **Show Details** on the **Edit** menu.</span></span>
+4. <span data-ttu-id="ed17e-115">一覧で [**グローバル**] をクリックし、[**編集**] メニューの [**詳細の表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ed17e-115">Click **Global** in the list, and then select **Show Details** on the **Edit** menu.</span></span>
     
-5. <span data-ttu-id="1f89d-116">[**グローバル設定の編集**] ページの [**通話受付管理の有効化**] チェック ボックスをオンにします。</span><span class="sxs-lookup"><span data-stu-id="1f89d-116">On the **Edit Global Settings** page, select the **Enable call admission control** check box.</span></span>
+5. <span data-ttu-id="ed17e-116">[**グローバル設定の編集**] ページの [**通話受付管理の有効化**] チェック ボックスをオンにします。</span><span class="sxs-lookup"><span data-stu-id="ed17e-116">On the **Edit Global Settings** page, select the **Enable call admission control** check box.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="1f89d-117">展開全体で通話受付管理を無効にする場合は、このチェック ボックスをオフにします。</span><span class="sxs-lookup"><span data-stu-id="1f89d-117">If you want to disable call admission control throughout your deployment, clear this check box.</span></span> 
+    > <span data-ttu-id="ed17e-117">展開全体で通話受付管理を無効にする場合は、このチェック ボックスをオフにします。</span><span class="sxs-lookup"><span data-stu-id="ed17e-117">If you want to disable call admission control throughout your deployment, clear this check box.</span></span> 
   
-6. <span data-ttu-id="1f89d-118">[**確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="1f89d-118">Click **Commit**.</span></span> 
+6. <span data-ttu-id="ed17e-118">[**確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ed17e-118">Click **Commit**.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="1f89d-119">関連項目</span><span class="sxs-lookup"><span data-stu-id="1f89d-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ed17e-119">関連項目</span><span class="sxs-lookup"><span data-stu-id="ed17e-119">See also</span></span>
 
-#### 
-
-[<span data-ttu-id="1f89d-120">Get CsNetworkConfiguration</span><span class="sxs-lookup"><span data-stu-id="1f89d-120">Get-CsNetworkConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
+[<span data-ttu-id="ed17e-120">Get CsNetworkConfiguration</span><span class="sxs-lookup"><span data-stu-id="ed17e-120">Get-CsNetworkConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
   
-[<span data-ttu-id="1f89d-121">セット CsNetworkConfiguration</span><span class="sxs-lookup"><span data-stu-id="1f89d-121">Set-CsNetworkConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csnetworkconfiguration?view=skype-ps)
+[<span data-ttu-id="ed17e-121">セット CsNetworkConfiguration</span><span class="sxs-lookup"><span data-stu-id="ed17e-121">Set-CsNetworkConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csnetworkconfiguration?view=skype-ps)
   
-[<span data-ttu-id="1f89d-122">削除 CsNetworkConfiguration</span><span class="sxs-lookup"><span data-stu-id="1f89d-122">Remove-CsNetworkConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkconfiguration?view=skype-ps)
-
+[<span data-ttu-id="ed17e-122">削除 CsNetworkConfiguration</span><span class="sxs-lookup"><span data-stu-id="ed17e-122">Remove-CsNetworkConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkconfiguration?view=skype-ps)

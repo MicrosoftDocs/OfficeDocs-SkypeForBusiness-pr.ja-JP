@@ -1,46 +1,50 @@
 ---
-title: "ツールとワークショップ - Microsoft Teams の計画、提供、導入"
+title: ツールとワークショップ - Microsoft Teams の計画、提供、導入
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/24/2018
+ms.date: 07/17/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ninadara, lolaj, rowille
-description: "組織による Microsoft Teams の使用の開始をサポートするためのツール、ワークショップ、スタートアップ キットの計画。"
+ms.reviewer: lolaj, rowille
+description: 組織による Microsoft Teams の使用の開始をサポートするためのツール、ワークショップ、スタートアップ キットの計画。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 353d53287260da365646271ef886c95fe839bf6a
-ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
-ms.translationtype: HT
+ms.openlocfilehash: 1a560c9927cec0b1b1b5fc95f088e86505fdc0cf
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966152"
 ---
-<a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a><span data-ttu-id="861f6-103">ツールとワークショップ: Microsoft Teams の計画、提供、導入</span><span class="sxs-lookup"><span data-stu-id="861f6-103">Tools and workshops: Plan, deliver, and operate Microsoft Teams</span></span>
-=============================================================
+# <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a><span data-ttu-id="8a8fa-103">ツールとワークショップ: Microsoft Teams の計画、提供、導入</span><span class="sxs-lookup"><span data-stu-id="8a8fa-103">Tools and workshops: Plan, deliver, and adopt Microsoft Teams</span></span>
 
-<span data-ttu-id="861f6-104">組織で Teams を計画、提供、導入するための手順を記載した以下のツールをダウンロードしてください。</span><span class="sxs-lookup"><span data-stu-id="861f6-104">Download these tools to walk you through planning, delivering, and operating Teams in your organization.</span></span>
+<span data-ttu-id="8a8fa-104">組織で Teams を計画、提供、導入するための手順を記載した以下のツールをダウンロードしてください。</span><span class="sxs-lookup"><span data-stu-id="8a8fa-104">Download these tools to walk you through planning, delivering, and adopting Teams in your organization.</span></span>
 
 
-- [<span data-ttu-id="861f6-105">Microsoft Teams カスタマー サクセス キット</span><span class="sxs-lookup"><span data-stu-id="861f6-105">Microsoft Teams Customer Success Kit</span></span>](http://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) 
+- [<span data-ttu-id="8a8fa-105">Microsoft Teams カスタマー サクセス キット</span><span class="sxs-lookup"><span data-stu-id="8a8fa-105">Microsoft Teams Customer Success Kit</span></span>](http://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) 
     
-    <span data-ttu-id="861f6-106">このキットには、自分の組織での Teams のロールアウトおよび導入の促進のために使用できる、広範なプレゼンテーション、電子メールのテンプレート、ヒントとテクニック、およびポスターが含まれています。</span><span class="sxs-lookup"><span data-stu-id="861f6-106">This kit contains a wide range of presentations, email templates, tips & tricks, and posters that you can use to roll out and drive adoption of Teams in your organization.</span></span> <span data-ttu-id="861f6-107">管理者、チーム リーダー、および各部門のユース ケースの例に対応した、2 つのクイック スタート ガイドが含まれています。</span><span class="sxs-lookup"><span data-stu-id="861f6-107">It includes two quick start guides for administrators, team leaders and use case examples for every department.</span></span> <span data-ttu-id="861f6-108">これらのリソースを使用して、マーケティング、営業、財務、人事、IT、エンジニアリング、プロジェクト管理などの組織のさまざまな機能において、Teams を最大限に活用します。</span><span class="sxs-lookup"><span data-stu-id="861f6-108">You’ll find tips to make the most of Teams for various functions in your organization, including Marketing, Sales, Finance, Human Resources, Information Technology, Engineering, and Project Management.</span></span> 
+    <span data-ttu-id="8a8fa-106">このキットには、プレゼンテーション、電子メール テンプレート、ヒントとテクニック、およびポスターを展開し、組織内のチームの導入に使用できるさまざまなが含まれています。</span><span class="sxs-lookup"><span data-stu-id="8a8fa-106">This kit contains a wide range of presentations, email templates, tips & tricks, and posters that you can use to roll out and drive the adoption of Teams in your organization.</span></span> <span data-ttu-id="8a8fa-107">管理者とチーム リーダー、および部門ごとに、使用例の 2 つのクイック スタート ガイドが含まれています。</span><span class="sxs-lookup"><span data-stu-id="8a8fa-107">It includes two quick-start guides for administrators and team leaders, and use case examples for every department.</span></span> <span data-ttu-id="8a8fa-108">チームで、マーケティング、セールス、財務、人事管理を含む、組織内のさまざまな機能を最大限に活用するのにはこれらのリソースを使用して、IT、エンジニア リング、およびプロジェクト管理。</span><span class="sxs-lookup"><span data-stu-id="8a8fa-108">Use these resources to make the most of Teams for various functions in your organization, including Marketing, Sales, Finance, Human Resources, IT, Engineering, and Project Management.</span></span> 
 
 
-- [<span data-ttu-id="861f6-109">管理者のクイック スタート ガイド</span><span class="sxs-lookup"><span data-stu-id="861f6-109">Admin quick start guide</span></span>](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)
+- [<span data-ttu-id="8a8fa-109">管理者のクイック スタート ガイド</span><span class="sxs-lookup"><span data-stu-id="8a8fa-109">Admin quick start guide</span></span>](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)
     
-    <span data-ttu-id="861f6-110">このドキュメントでは Teams  を正常に有効にするための 5 つの実装段階について説明します。</span><span class="sxs-lookup"><span data-stu-id="861f6-110">This document walks you through the five implementation phases for successfully enabling Teams.</span></span> <span data-ttu-id="861f6-111">このドキュメントには組織の現在の Office 365 環境に関する情報を収集する技術計画アンケートが含まれています。</span><span class="sxs-lookup"><span data-stu-id="861f6-111">It includes a technical planning questionnaire that captures information about your organization's current Office 365 environment.</span></span> <span data-ttu-id="861f6-112">ワークショップ リーダーはこの情報を基にワークショップのプレゼンテーションをカスタマイズできます。</span><span class="sxs-lookup"><span data-stu-id="861f6-112">This information lets the workshop leader customize the workshop presentation.</span></span> <span data-ttu-id="861f6-113">アンケートでは、判断ポイントや次のステップの情報もワークショップから収集されます。</span><span class="sxs-lookup"><span data-stu-id="861f6-113">The questionnaire also captures your decisions and next steps from the workshop.</span></span>
+    <span data-ttu-id="8a8fa-110">このドキュメントでは Teams  を正常に有効にするための 5 つの実装段階について説明します。</span><span class="sxs-lookup"><span data-stu-id="8a8fa-110">This document walks you through the five implementation phases for successfully enabling Teams.</span></span> <span data-ttu-id="8a8fa-111">組織の現在の Office 365 環境に関する情報をキャプチャする技術コンサルティングに関するアンケートを掲載しています。</span><span class="sxs-lookup"><span data-stu-id="8a8fa-111">It includes a technical planning questionnaire that captures information about your organization’s current Office 365 environment.</span></span> <span data-ttu-id="8a8fa-112">ワーク ショップのリーダーでは、ワーク ショップ ・ プレゼンテーションをカスタマイズするのには、この情報を使用できます。</span><span class="sxs-lookup"><span data-stu-id="8a8fa-112">The workshop leader can use this information to customize the workshop presentation.</span></span> <span data-ttu-id="8a8fa-113">アンケートでは、判断ポイントや次のステップの情報もワークショップから収集されます。</span><span class="sxs-lookup"><span data-stu-id="8a8fa-113">The questionnaire also captures your decisions and next steps from the workshop.</span></span>
 
-- [<span data-ttu-id="861f6-114">ワークショップ - Teams の計画、提供、運用</span><span class="sxs-lookup"><span data-stu-id="861f6-114">Workshop: Plan, deliver, & operate Teams</span></span>](http://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx) 
+- [<span data-ttu-id="8a8fa-114">ワークショップ - Teams の計画、提供、運用</span><span class="sxs-lookup"><span data-stu-id="8a8fa-114">Workshop: Plan, deliver, & operate Teams</span></span>](http://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx) 
     
-    <span data-ttu-id="861f6-115">この PowerPoint セットを使用して、組織でワークショップを実施し、Teams のロールアウトを計画します。</span><span class="sxs-lookup"><span data-stu-id="861f6-115">Use this PowerPoint deck to lead a workshop with your organization to plan your Teams rollout.</span></span> <span data-ttu-id="861f6-116">このワークショップでは Teams を紹介し、判断ポイントと次のステップを通してお客様のチームをガイドします。</span><span class="sxs-lookup"><span data-stu-id="861f6-116">The workshop introduces Teams and guides your team through decision points and next steps.</span></span>
+    <span data-ttu-id="8a8fa-115">この PowerPoint プレゼンテーションを使用して、組織、チームのロールアウトを計画するワーク ショップを提案します。</span><span class="sxs-lookup"><span data-stu-id="8a8fa-115">Use this PowerPoint presentation to lead a workshop with your organization to plan your Teams rollout.</span></span> <span data-ttu-id="8a8fa-116">ワーク ショップは、チームを紹介し、チームでの意思決定ポイントと次の手順を説明します。</span><span class="sxs-lookup"><span data-stu-id="8a8fa-116">The workshop introduces Teams, and guides your team through decision points and next steps.</span></span>
 
+- [<span data-ttu-id="8a8fa-117">Office 365 の政府機関のお客様</span><span class="sxs-lookup"><span data-stu-id="8a8fa-117">Office 365 Government Customers</span></span>](plan-for-government-gcc.md)
 
-### <a name="see-also"></a><span data-ttu-id="861f6-117">関連項目</span><span class="sxs-lookup"><span data-stu-id="861f6-117">See also</span></span>
+   <span data-ttu-id="8a8fa-118">チームへの旅は、エンタープライズのお客様からの経験と同様です。</span><span class="sxs-lookup"><span data-stu-id="8a8fa-118">Your journey to Teams is much like our enterprise customers’ experience.</span></span> <span data-ttu-id="8a8fa-119">マイクロソフトのチームが、テナントに一般に利用可能になると、資料の[マイクロソフト 365 政府の GCC の展開の計画](plan-for-government-gcc.md)と[管理のクイック スタート ガイド](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)を開始することお勧めします。</span><span class="sxs-lookup"><span data-stu-id="8a8fa-119">As Microsoft Teams becomes generally available to your tenants, we encourage you to start with our [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md) article and [Admin quick start guide](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx).</span></span> <span data-ttu-id="8a8fa-120">[セキュリティとコンプライアンス](security-compliance-overview.md)の概要を使用すると、自信のチーム環境でできます。</span><span class="sxs-lookup"><span data-stu-id="8a8fa-120">Our [security and compliance](security-compliance-overview.md) overview will help you feel confident about Teams in your environment.</span></span>
 
-[<span data-ttu-id="861f6-118">Teams のための IT 管理者の準備状況のリソース</span><span class="sxs-lookup"><span data-stu-id="861f6-118">IT admin readiness for Teams</span></span>](ITAdmin-readiness.md)
+### <a name="see-also"></a><span data-ttu-id="8a8fa-121">関連項目</span><span class="sxs-lookup"><span data-stu-id="8a8fa-121">See also</span></span>
 
-[<span data-ttu-id="861f6-119">Teams のロールアウトをサポートするツールを入手する</span><span class="sxs-lookup"><span data-stu-id="861f6-119">Get tools to support a rollout of Teams</span></span>](rollout-tools.md)
+[<span data-ttu-id="8a8fa-122">Teams のための IT 管理者の準備状況のリソース</span><span class="sxs-lookup"><span data-stu-id="8a8fa-122">IT admin readiness for Teams</span></span>](ITAdmin-readiness.md)
+
+[<span data-ttu-id="8a8fa-123">Teams のロールアウトをサポートするツールを入手する</span><span class="sxs-lookup"><span data-stu-id="8a8fa-123">Get tools to support a rollout of Teams</span></span>](rollout-tools.md)
 
 

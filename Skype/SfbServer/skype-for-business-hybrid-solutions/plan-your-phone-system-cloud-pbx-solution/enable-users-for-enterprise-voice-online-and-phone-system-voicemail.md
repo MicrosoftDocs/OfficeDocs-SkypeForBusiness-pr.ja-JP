@@ -16,162 +16,162 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: ビジネス ユーザー向けに、Skype のインターネット電話サービスを Office 365 に電話システムを有効にする方法を説明します。
-ms.openlocfilehash: 1810be3f891e1f66e724133732ed16e94a1d8015
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 7855fd7cdb2bfd30b99bf6ad17543e7aea973a6b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569562"
 ---
-# <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a><span data-ttu-id="6f87c-103">エンタープライズ VoIP でオンラインと Office 365 のボイスメールに電話システムのユーザーを有効にします。</span><span class="sxs-lookup"><span data-stu-id="6f87c-103">Enable users for Enterprise Voice online and Phone System in Office 365 Voicemail</span></span>
+# <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a><span data-ttu-id="ee7d6-103">エンタープライズ VoIP でオンラインと Office 365 のボイスメールに電話システムのユーザーを有効にします。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-103">Enable users for Enterprise Voice online and Phone System in Office 365 Voicemail</span></span>
  
-<span data-ttu-id="6f87c-104">ビジネス ユーザー向けに、Skype のインターネット電話サービスを Office 365 に電話システムを有効にする方法を説明します。</span><span class="sxs-lookup"><span data-stu-id="6f87c-104">Learn how to enable Phone System in Office 365 voice services for your Skype for Business users.</span></span>
+<span data-ttu-id="ee7d6-104">ビジネス ユーザー向けに、Skype のインターネット電話サービスを Office 365 に電話システムを有効にする方法を説明します。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-104">Learn how to enable Phone System in Office 365 voice services for your Skype for Business users.</span></span>
   
-<span data-ttu-id="6f87c-105">設置した PSTN 接続を Office 365 に電話システムを展開する最後の手順は、Office 365 とボイスメールの電話システムのユーザーを有効にするのには。</span><span class="sxs-lookup"><span data-stu-id="6f87c-105">The final step in deploying Phone System in Office 365 with on-premises PSTN connectivity is to enable your users for Phone System in Office 365 and voicemail.</span></span> <span data-ttu-id="6f87c-106">これらの機能を有効にするには、Office 365 の全体管理者の役割を持つユーザーであり、リモート PowerShell を実行できる必要があります。</span><span class="sxs-lookup"><span data-stu-id="6f87c-106">To enable these capabilities, you must be a user with the Office 365 Global Administrator role, and be able to run remote PowerShell.</span></span> <span data-ttu-id="6f87c-107">Skype for Business Online でエンタープライズ VoIP がまだ有効でないユーザー アカウントに対して、このトピックの手順を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="6f87c-107">You need to follow the steps in this topic for all user accounts that do not already have Enterprise Voice enabled for Skype for Business Online.</span></span>
+<span data-ttu-id="ee7d6-105">設置した PSTN 接続を Office 365 に電話システムを展開する最後の手順は、Office 365 とボイスメールの電話システムのユーザーを有効にするのには。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-105">The final step in deploying Phone System in Office 365 with on-premises PSTN connectivity is to enable your users for Phone System in Office 365 and voicemail.</span></span> <span data-ttu-id="ee7d6-106">これらの機能を有効にするには、Office 365 の全体管理者の役割を持つユーザーであり、リモート PowerShell を実行できる必要があります。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-106">To enable these capabilities, you must be a user with the Office 365 Global Administrator role, and be able to run remote PowerShell.</span></span> <span data-ttu-id="ee7d6-107">Skype for Business Online でエンタープライズ VoIP がまだ有効でないユーザー アカウントに対して、このトピックの手順を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-107">You need to follow the steps in this topic for all user accounts that do not already have Enterprise Voice enabled for Skype for Business Online.</span></span>
   
-## <a name="enable-phone-system-in-office-365-voice-services"></a><span data-ttu-id="6f87c-108">Office 365 のインターネット電話サービスの電話システムを有効にします。</span><span class="sxs-lookup"><span data-stu-id="6f87c-108">Enable Phone System in Office 365 voice services</span></span>
+## <a name="enable-phone-system-in-office-365-voice-services"></a><span data-ttu-id="ee7d6-108">Office 365 のインターネット電話サービスの電話システムを有効にします。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-108">Enable Phone System in Office 365 voice services</span></span>
 
-<span data-ttu-id="6f87c-109">Office 365 のボイスとボイス メールの電話システムで、ユーザーを有効にするのには、Skype のビジネス オンラインのコネクタは、サーバーに展開するを参照して、ホスト ボイス メールに対してユーザーを有効にするチェックのように、いくつかの初期手順を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="6f87c-109">To enable a user for Phone System in Office 365 Voice and voicemail, you'll need to perform some initial steps, like checking to see of the Skype for Business Online Connector is deployed on your servers and enable your users for hosted voicemail.</span></span>
+<span data-ttu-id="ee7d6-109">Office 365 のボイスとボイス メールの電話システムで、ユーザーを有効にするのには、Skype のビジネス オンラインのコネクタは、サーバーに展開するを参照して、ホスト ボイス メールに対してユーザーを有効にするチェックのように、いくつかの初期手順を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-109">To enable a user for Phone System in Office 365 Voice and voicemail, you'll need to perform some initial steps, like checking to see of the Skype for Business Online Connector is deployed on your servers and enable your users for hosted voicemail.</span></span>
   
-### <a name="to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail"></a><span data-ttu-id="6f87c-110">Office 365 のボイスとボイス メールの電話システムのユーザーを有効にするには</span><span class="sxs-lookup"><span data-stu-id="6f87c-110">To enable your users for Phone System in Office 365 voice and voicemail</span></span>
+### <a name="to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail"></a><span data-ttu-id="ee7d6-110">Office 365 のボイスとボイス メールの電話システムのユーザーを有効にするには</span><span class="sxs-lookup"><span data-stu-id="ee7d6-110">To enable your users for Phone System in Office 365 voice and voicemail</span></span>
 
-1. <span data-ttu-id="6f87c-111">作業を開始する前に、ビジネス オンライン コネクタ (Windows PowerShell モジュール) の Skype がフロント エンド サーバーで運用されていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="6f87c-111">Before you begin, check that the Skype for Business Online Connector (Windows PowerShell module) is deployed on your Front End Servers.</span></span> <span data-ttu-id="6f87c-112">そうでない場合は、[ダウンロード センター](https://www.microsoft.com/en-us/download/details.aspx?id=39366)からダウンロードできます。</span><span class="sxs-lookup"><span data-stu-id="6f87c-112">If it's not, you can download it from [the download center](https://www.microsoft.com/en-us/download/details.aspx?id=39366).</span></span> <span data-ttu-id="6f87c-113">このモジュールを使用して、 [Skype のオンライン ビジネスの管理には、コンピューター](https://technet.microsoft.com/en-us/library/dn362839%28v=ocs.15%29.aspx)を構成する方法の詳細が表示されます。</span><span class="sxs-lookup"><span data-stu-id="6f87c-113">You can find more information about using this module at [Configuring your computer for Skype for Business Online management](https://technet.microsoft.com/en-us/library/dn362839%28v=ocs.15%29.aspx).</span></span>
+1. <span data-ttu-id="ee7d6-111">作業を開始する前に、ビジネス オンライン コネクタ (Windows PowerShell モジュール) の Skype がフロント エンド サーバーで運用されていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-111">Before you begin, check that the Skype for Business Online Connector (Windows PowerShell module) is deployed on your Front End Servers.</span></span> <span data-ttu-id="ee7d6-112">そうでない場合は、[ダウンロード センター](https://www.microsoft.com/en-us/download/details.aspx?id=39366)からダウンロードできます。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-112">If it's not, you can download it from [the download center](https://www.microsoft.com/en-us/download/details.aspx?id=39366).</span></span> <span data-ttu-id="ee7d6-113">このモジュールを使用して、 [Skype のオンライン ビジネスの管理には、コンピューター](https://technet.microsoft.com/en-us/library/dn362839%28v=ocs.15%29.aspx)を構成する方法の詳細が表示されます。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-113">You can find more information about using this module at [Configuring your computer for Skype for Business Online management](https://technet.microsoft.com/en-us/library/dn362839%28v=ocs.15%29.aspx).</span></span>
     
-2. <span data-ttu-id="6f87c-114">管理者として、Windows Powershell を起動します。</span><span class="sxs-lookup"><span data-stu-id="6f87c-114">Start Windows PowerShell as an administrator.</span></span>
+2. <span data-ttu-id="ee7d6-114">管理者として、Windows Powershell を起動します。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-114">Start Windows PowerShell as an administrator.</span></span>
     
-3. <span data-ttu-id="6f87c-115">次のコマンドを入力し、Enter キーを押します。</span><span class="sxs-lookup"><span data-stu-id="6f87c-115">Type the following and press Enter:</span></span>
+3. <span data-ttu-id="ee7d6-115">次のコマンドを入力し、Enter キーを押します。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-115">Type the following and press Enter:</span></span>
     
   ```
   Import-Module skypeonlineconnector
   ```
 
-4. <span data-ttu-id="6f87c-116">次のコマンドを入力し、Enter キーを押します。</span><span class="sxs-lookup"><span data-stu-id="6f87c-116">Type the following and press Enter:</span></span>
+4. <span data-ttu-id="ee7d6-116">次のコマンドを入力し、Enter キーを押します。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-116">Type the following and press Enter:</span></span>
     
   ```
   $cred = Get-Credential
   ```
 
-    <span data-ttu-id="6f87c-117">Enter キーを押すと、[Windows PowerShell 資格情報の要求] ダイアログ ボックスが表示されます。</span><span class="sxs-lookup"><span data-stu-id="6f87c-117">After you press Enter, you should see the Windows PowerShell Credential dialog box.</span></span>
+    <span data-ttu-id="ee7d6-117">Enter キーを押すと、[Windows PowerShell 資格情報の要求] ダイアログ ボックスが表示されます。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-117">After you press Enter, you should see the Windows PowerShell Credential dialog box.</span></span>
     
-5. <span data-ttu-id="6f87c-118">テナント管理者のユーザー名とパスワードを入力し、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="6f87c-118">Type your tenant admin username and password, and click **OK**.</span></span>
+5. <span data-ttu-id="ee7d6-118">テナント管理者のユーザー名とパスワードを入力し、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-118">Type your tenant admin username and password, and click **OK**.</span></span>
     
-6. <span data-ttu-id="6f87c-119">PowerShell ウィンドウで、次のコマンドを入力し、Enter キーを押します。</span><span class="sxs-lookup"><span data-stu-id="6f87c-119">In the PowerShell window, type the following and press Enter:</span></span>
+6. <span data-ttu-id="ee7d6-119">PowerShell ウィンドウで、次のコマンドを入力し、Enter キーを押します。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-119">In the PowerShell window, type the following and press Enter:</span></span>
     
   ```
   $Session = New-CsOnlineSession -Credential $cred -Verbose
   ```
 
-7. <span data-ttu-id="6f87c-120">次のコマンドレットを入力して、セッションをインポートします。</span><span class="sxs-lookup"><span data-stu-id="6f87c-120">Import the session by typing the following cmdlet:</span></span>
+7. <span data-ttu-id="ee7d6-120">次のコマンドレットを入力して、セッションをインポートします。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-120">Import the session by typing the following cmdlet:</span></span>
     
   ```
   Import-PSSession $Session -AllowClobber
   ```
 
-    <span data-ttu-id="6f87c-121">実行すると、PowerShell、Skype のビジネス サーバーのビジネス コマンドレットをローカルの Skype は既に読み込まれて PowerShell を開いたとき。</span><span class="sxs-lookup"><span data-stu-id="6f87c-121">When running PowerShell on a Skype for Business Server, the local Skype for Business cmdlets are already loaded when you open PowerShell.</span></span> <span data-ttu-id="6f87c-122">同じ名前のオンプレミスのコマンドレットを上書きするオンラインのコマンドレットを使用するのには、AllowClobber パラメーターを指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="6f87c-122">You must specify the -AllowClobber parameter to allow the online cmdlets to overwrite the on-premises cmdlets with the same name.</span></span>
+    <span data-ttu-id="ee7d6-121">実行すると、PowerShell、Skype のビジネス サーバーのビジネス コマンドレットをローカルの Skype は既に読み込まれて PowerShell を開いたとき。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-121">When running PowerShell on a Skype for Business Server, the local Skype for Business cmdlets are already loaded when you open PowerShell.</span></span> <span data-ttu-id="ee7d6-122">同じ名前のオンプレミスのコマンドレットを上書きするオンラインのコマンドレットを使用するのには、AllowClobber パラメーターを指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-122">You must specify the -AllowClobber parameter to allow the online cmdlets to overwrite the on-premises cmdlets with the same name.</span></span>
     
-8. <span data-ttu-id="6f87c-123">Set-CsUser コマンドレットを使用して、次のように、$EnterpriseVoiceEnabled および $HostedVoiceMail プロパティをユーザーに割り当てます。</span><span class="sxs-lookup"><span data-stu-id="6f87c-123">Use the Set-CsUser cmdlet to assign the $EnterpriseVoiceEnabled and $HostedVoiceMail properties to your user as follows:</span></span>
+8. <span data-ttu-id="ee7d6-123">Set-CsUser コマンドレットを使用して、次のように、$EnterpriseVoiceEnabled および $HostedVoiceMail プロパティをユーザーに割り当てます。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-123">Use the Set-CsUser cmdlet to assign the $EnterpriseVoiceEnabled and $HostedVoiceMail properties to your user as follows:</span></span>
     
   ```
   Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
   ```
 
-    <span data-ttu-id="6f87c-124">例:</span><span class="sxs-lookup"><span data-stu-id="6f87c-124">For example:</span></span>
+    <span data-ttu-id="ee7d6-124">例:</span><span class="sxs-lookup"><span data-stu-id="ee7d6-124">For example:</span></span>
     
   ```
   Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
   ```
 
     > [!NOTE]
-    > <span data-ttu-id="6f87c-125">SIP アドレス、ユーザー プリンシパル名 (UPN)、ドメイン名とユーザー名 (domain\username)、および Active Directory での表示名 ("小林 良太") でユーザーを指定することもできます。</span><span class="sxs-lookup"><span data-stu-id="6f87c-125">You can also specify a user by their SIP address, User Principal name (UPN), domain name and username (domain\username), and display name in Active Directory ("Bob Kelly").</span></span> 
+    > <span data-ttu-id="ee7d6-125">SIP アドレス、ユーザー プリンシパル名 (UPN)、ドメイン名とユーザー名 (domain\username)、および Active Directory での表示名 ("小林 良太") でユーザーを指定することもできます。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-125">You can also specify a user by their SIP address, User Principal name (UPN), domain name and username (domain\username), and display name in Active Directory ("Bob Kelly").</span></span> 
   
-## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system-in-office-365"></a><span data-ttu-id="6f87c-126">回線 URI を更新し、ダイヤル プランを有効にして Office 365 の電話システムのユーザーの</span><span class="sxs-lookup"><span data-stu-id="6f87c-126">Update the Line URI and dial plan for users enabled for Phone System in Office 365</span></span>
+## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system-in-office-365"></a><span data-ttu-id="ee7d6-126">回線 URI を更新し、ダイヤル プランを有効にして Office 365 の電話システムのユーザーの</span><span class="sxs-lookup"><span data-stu-id="ee7d6-126">Update the Line URI and dial plan for users enabled for Phone System in Office 365</span></span>
 
-<span data-ttu-id="6f87c-127">このセクションでは、行の URI を更新し、ダイヤル プランを有効にして Office 365 の電話システムのユーザーの方法を説明します。</span><span class="sxs-lookup"><span data-stu-id="6f87c-127">This section describes how to update the Line URI and dial plan for users enabled for Phone System in Office 365.</span></span> 
+<span data-ttu-id="ee7d6-127">このセクションでは、行の URI を更新し、ダイヤル プランを有効にして Office 365 の電話システムのユーザーの方法を説明します。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-127">This section describes how to update the Line URI and dial plan for users enabled for Phone System in Office 365.</span></span> 
   
-### <a name="to-update-the-line-uri"></a><span data-ttu-id="6f87c-128">回線 URI を更新するには</span><span class="sxs-lookup"><span data-stu-id="6f87c-128">To update the Line URI</span></span>
+### <a name="to-update-the-line-uri"></a><span data-ttu-id="ee7d6-128">回線 URI を更新するには</span><span class="sxs-lookup"><span data-stu-id="ee7d6-128">To update the Line URI</span></span>
 
-1. <span data-ttu-id="6f87c-129">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="6f87c-129">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1. <span data-ttu-id="ee7d6-129">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-129">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
     
-2. <span data-ttu-id="6f87c-130">スタート メニューかデスクトップ ショートカットを使用して、Skype for Business Server のコントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="6f87c-130">Use the Start menu or desktop shortcut to open the Skype for Business Server Control Panel.</span></span>
+2. <span data-ttu-id="ee7d6-130">スタート メニューかデスクトップ ショートカットを使用して、Skype for Business Server のコントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-130">Use the Start menu or desktop shortcut to open the Skype for Business Server Control Panel.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="6f87c-131">また、ブラウザー ウィンドウを開いて管理 URL を入力し、Skype for Business Server のコントロール パネルを開くこともできます。</span><span class="sxs-lookup"><span data-stu-id="6f87c-131">You can also open a browser window, and then enter the Administrator URL to open the Skype for Business Server Control Panel.</span></span> 
+    > <span data-ttu-id="ee7d6-131">また、ブラウザー ウィンドウを開いて管理 URL を入力し、Skype for Business Server のコントロール パネルを開くこともできます。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-131">You can also open a browser window, and then enter the Administrator URL to open the Skype for Business Server Control Panel.</span></span> 
   
-3. <span data-ttu-id="6f87c-132">左側のナビゲーション バーで [**ユーザー**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="6f87c-132">In the left navigation bar, click **Users**.</span></span>
+3. <span data-ttu-id="ee7d6-132">左側のナビゲーション バーで [**ユーザー**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-132">In the left navigation bar, click **Users**.</span></span>
     
-4. <span data-ttu-id="6f87c-133">[**ユーザーの検索**] ボックスに、有効にするユーザー アカウントの表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) の全体か先頭の部分の文字列を入力して、[**検索**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="6f87c-133">In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account that you want to enable, and then click **Find**.</span></span>
+4. <span data-ttu-id="ee7d6-133">[**ユーザーの検索**] ボックスに、有効にするユーザー アカウントの表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) の全体か先頭の部分の文字列を入力して、[**検索**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-133">In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account that you want to enable, and then click **Find**.</span></span>
     
-5. <span data-ttu-id="6f87c-134">表で、回線 URI を変更する Skype for Business ユーザー アカウントをクリックします。</span><span class="sxs-lookup"><span data-stu-id="6f87c-134">In the table, click the Skype for Business user account that you want to change line URI.</span></span>
+5. <span data-ttu-id="ee7d6-134">表で、回線 URI を変更する Skype for Business ユーザー アカウントをクリックします。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-134">In the table, click the Skype for Business user account that you want to change line URI.</span></span>
     
-6. <span data-ttu-id="6f87c-p104">[**回線 URI**] をクリックし、正規化された一意の電話番号 (たとえば、tel:+14255550200) を入力して、[**確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="6f87c-p104">Click **Line URI**, and type a unique, normalized phone number (for example, tel:+14255550200). Then click **Commit**.</span></span>
+6. <span data-ttu-id="ee7d6-p104">[**回線 URI**] をクリックし、正規化された一意の電話番号 (たとえば、tel:+14255550200) を入力して、[**確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-p104">Click **Line URI**, and type a unique, normalized phone number (for example, tel:+14255550200). Then click **Commit**.</span></span>
     
-## <a name="update-the-dial-plan-using-on-premises-windows-powershell-cmdlets"></a><span data-ttu-id="6f87c-137">オンプレミスの Windows Powershell コマンドレットを使用してダイヤル プランを更新する</span><span class="sxs-lookup"><span data-stu-id="6f87c-137">Update the dial plan using on-premises Windows PowerShell cmdlets</span></span>
+## <a name="update-the-dial-plan-using-on-premises-windows-powershell-cmdlets"></a><span data-ttu-id="ee7d6-137">オンプレミスの Windows Powershell コマンドレットを使用してダイヤル プランを更新する</span><span class="sxs-lookup"><span data-stu-id="ee7d6-137">Update the dial plan using on-premises Windows PowerShell cmdlets</span></span>
 
-<span data-ttu-id="6f87c-138">ユーザーごとに Windows PowerShell と[与える CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps)コマンドレットのダイヤル プランを割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="6f87c-138">You can assign per-user dial plans with Windows PowerShell and the [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) cmdlet.</span></span> <span data-ttu-id="6f87c-139">実行できますこのコマンドレットのいずれか、Skype からビジネス サーバー 2015 または Windows PowerShell のリモート セッションから。</span><span class="sxs-lookup"><span data-stu-id="6f87c-139">You can run this cmdlet either from the Skype for Business Server 2015 or from a remote session of Windows PowerShell.</span></span>
+<span data-ttu-id="ee7d6-138">ユーザーごとに Windows PowerShell と[与える CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps)コマンドレットのダイヤル プランを割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-138">You can assign per-user dial plans with Windows PowerShell and the [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) cmdlet.</span></span> <span data-ttu-id="ee7d6-139">実行できますこのコマンドレットのいずれか、Skype からビジネス サーバー 2015 または Windows PowerShell のリモート セッションから。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-139">You can run this cmdlet either from the Skype for Business Server 2015 or from a remote session of Windows PowerShell.</span></span>
   
-### <a name="to-assign-a-per-user-dial-plan-to-a-single-user"></a><span data-ttu-id="6f87c-140">単一のユーザーにユーザー単位のダイヤル プランを割り当てるには</span><span class="sxs-lookup"><span data-stu-id="6f87c-140">To assign a per-user dial plan to a single user</span></span>
+### <a name="to-assign-a-per-user-dial-plan-to-a-single-user"></a><span data-ttu-id="ee7d6-140">単一のユーザーにユーザー単位のダイヤル プランを割り当てるには</span><span class="sxs-lookup"><span data-stu-id="ee7d6-140">To assign a per-user dial plan to a single user</span></span>
 
-- <span data-ttu-id="6f87c-141">[許可 CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps)コマンドレットを使用して、Ken Myer のユーザーにユーザーごとのダイヤル プラン RedmondDialPlan を割り当てます。</span><span class="sxs-lookup"><span data-stu-id="6f87c-141">Use the [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) cmdlet to assign the per-user dial plan RedmondDialPlan to the user Ken Myer:</span></span>
+- <span data-ttu-id="ee7d6-141">[許可 CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps)コマンドレットを使用して、Ken Myer のユーザーにユーザーごとのダイヤル プラン RedmondDialPlan を割り当てます。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-141">Use the [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) cmdlet to assign the per-user dial plan RedmondDialPlan to the user Ken Myer:</span></span>
     
   ```
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName "RedmondDialPlan"
   ```
 
-### <a name="to-assign-a-per-user-dial-plan-to-multiple-users"></a><span data-ttu-id="6f87c-142">複数のユーザーにユーザー単位のダイヤル プランを割り当てるには</span><span class="sxs-lookup"><span data-stu-id="6f87c-142">To assign a per-user dial plan to multiple users</span></span>
+### <a name="to-assign-a-per-user-dial-plan-to-multiple-users"></a><span data-ttu-id="ee7d6-142">複数のユーザーにユーザー単位のダイヤル プランを割り当てるには</span><span class="sxs-lookup"><span data-stu-id="ee7d6-142">To assign a per-user dial plan to multiple users</span></span>
 
-- <span data-ttu-id="6f87c-143">次のコマンドは、ユーザーごとのダイヤル プラン RedmondDialPlan を、Redmond 市で働くすべてのユーザーに割り当てます。</span><span class="sxs-lookup"><span data-stu-id="6f87c-143">The following command assigns the per-user dial plan RedmondDialPlan to all the users who work in the city of Redmond.</span></span> <span data-ttu-id="6f87c-144">このコマンドで使用される、LdapFilter パラメーターの詳細については、 [Get CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)コマンドレットのドキュメントを参照してください。</span><span class="sxs-lookup"><span data-stu-id="6f87c-144">For more information on the LdapFilter parameter used in this command, see the documentation for the [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) cmdlet:</span></span>
+- <span data-ttu-id="ee7d6-143">次のコマンドは、ユーザーごとのダイヤル プラン RedmondDialPlan を、Redmond 市で働くすべてのユーザーに割り当てます。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-143">The following command assigns the per-user dial plan RedmondDialPlan to all the users who work in the city of Redmond.</span></span> <span data-ttu-id="ee7d6-144">このコマンドで使用される、LdapFilter パラメーターの詳細については、 [Get CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)コマンドレットのドキュメントを参照してください。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-144">For more information on the LdapFilter parameter used in this command, see the documentation for the [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) cmdlet:</span></span>
     
   ```
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
-
   ```
 
 > [!NOTE]
-> <span data-ttu-id="6f87c-p107">グローバルまたはユーザーのダイヤル プランを、オンライン ユーザーに対して使用することができます。サイトのダイヤル プランはこれらのユーザーに、オンプレミスでホストされオンプレミス サイトに割り当てられているユーザーに対して適用する目的だけで使用することはできません。</span><span class="sxs-lookup"><span data-stu-id="6f87c-p107">You may use either Global or User dial plans for online users. Site dial plans cannot be used as these only apply to users who are hosted on premises and are assigned to an on-premises site.</span></span> 
+> <span data-ttu-id="ee7d6-p107">グローバルまたはユーザーのダイヤル プランを、オンライン ユーザーに対して使用することができます。サイトのダイヤル プランはこれらのユーザーに、オンプレミスでホストされオンプレミス サイトに割り当てられているユーザーに対して適用する目的だけで使用することはできません。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-p107">You may use either Global or User dial plans for online users. Site dial plans cannot be used as these only apply to users who are hosted on premises and are assigned to an on-premises site.</span></span> 
   
-### <a name="to-unassign-a-per-user-dial-plan"></a><span data-ttu-id="6f87c-147">ユーザー単位のダイヤル プランの割り当てを解除するには</span><span class="sxs-lookup"><span data-stu-id="6f87c-147">To unassign a per-user dial plan</span></span>
+### <a name="to-unassign-a-per-user-dial-plan"></a><span data-ttu-id="ee7d6-147">ユーザー単位のダイヤル プランの割り当てを解除するには</span><span class="sxs-lookup"><span data-stu-id="ee7d6-147">To unassign a per-user dial plan</span></span>
 
-- <span data-ttu-id="6f87c-148">Ken Myer に割り当てられていたすべてのユーザーごとのダイヤル プランの割り当てを解除する[許可 CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps)コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="6f87c-148">Use the [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) cmdlet to unassign any per-user dial plan previously assigned to Ken Myer.</span></span> <span data-ttu-id="6f87c-149">ユーザーごとのダイヤル プランの割り当てが解除されると、Ken Myer は自動的にグローバル ダイヤル プランまたはこのユーザーの拡張レジストラーまたは PSTN ゲートウェイに割り当てられたサービス スコープのダイヤル プランを使用して管理されるようになります。</span><span class="sxs-lookup"><span data-stu-id="6f87c-149">After the per-user dial plan is unassigned, Ken Myer will automatically be managed by using the global dial plan or the service-scope dial plan assigned to his Registrar or PSTN gateway.</span></span> <span data-ttu-id="6f87c-150">サービス スコープのダイヤル プランはグローバル ダイヤル プランより優先されます。</span><span class="sxs-lookup"><span data-stu-id="6f87c-150">A service scope dial plan takes precedence over the global dial plan:</span></span>
+- <span data-ttu-id="ee7d6-148">Ken Myer に割り当てられていたすべてのユーザーごとのダイヤル プランの割り当てを解除する[許可 CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps)コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-148">Use the [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) cmdlet to unassign any per-user dial plan previously assigned to Ken Myer.</span></span> <span data-ttu-id="ee7d6-149">ユーザーごとのダイヤル プランの割り当てが解除されると、Ken Myer は自動的にグローバル ダイヤル プランまたはこのユーザーの拡張レジストラーまたは PSTN ゲートウェイに割り当てられたサービス スコープのダイヤル プランを使用して管理されるようになります。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-149">After the per-user dial plan is unassigned, Ken Myer will automatically be managed by using the global dial plan or the service-scope dial plan assigned to his Registrar or PSTN gateway.</span></span> <span data-ttu-id="ee7d6-150">サービス スコープのダイヤル プランはグローバル ダイヤル プランより優先されます。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-150">A service scope dial plan takes precedence over the global dial plan:</span></span>
     
   ```
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
   ```
 
-## <a name="update-the-voice-routing-policies-using-on-premises-windows-powershell-cmdlets"></a><span data-ttu-id="6f87c-151">オンプレミスの Windows Powershell コマンドレットを使用して音声ルーティング ポリシーを更新するには</span><span class="sxs-lookup"><span data-stu-id="6f87c-151">Update the voice routing policies using on-premises Windows PowerShell cmdlets</span></span>
+## <a name="update-the-voice-routing-policies-using-on-premises-windows-powershell-cmdlets"></a><span data-ttu-id="ee7d6-151">オンプレミスの Windows Powershell コマンドレットを使用して音声ルーティング ポリシーを更新するには</span><span class="sxs-lookup"><span data-stu-id="ee7d6-151">Update the voice routing policies using on-premises Windows PowerShell cmdlets</span></span>
 
-<span data-ttu-id="6f87c-152">このセクションでは、Office 365 の電話システムが有効なユーザーの音声ルーティング ポリシーを更新する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="6f87c-152">This section describes how to update the voice routing policies for users enabled for Phone System in Office 365.</span></span>
+<span data-ttu-id="ee7d6-152">このセクションでは、Office 365 の電話システムが有効なユーザーの音声ルーティング ポリシーを更新する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-152">This section describes how to update the voice routing policies for users enabled for Phone System in Office 365.</span></span>
   
-<span data-ttu-id="6f87c-153">Office 365 ユーザーの電話システムには、呼び出しが正常にルーティングするために割り当てられている音声ルーティング ポリシーが必要です。</span><span class="sxs-lookup"><span data-stu-id="6f87c-153">Phone System in Office 365 users must have a Voice Routing Policy assigned to them for calls to route successfully.</span></span> <span data-ttu-id="6f87c-154">これは、呼び出しを適切にルーティングできるように割り当てる音声ポリシーを必要するオンプレミスの企業音声ユーザーとは異なります。</span><span class="sxs-lookup"><span data-stu-id="6f87c-154">This differs from on-premises business voice users who require a Voice Policy to be assigned to them to allow calls to route successfully.</span></span> <span data-ttu-id="6f87c-155">音声ルーティング ポリシーには、電話システムのユーザーの Office 365 で承認された呼び出しおよびルートを定義する PSTN 使用法が含まれている必要があります。</span><span class="sxs-lookup"><span data-stu-id="6f87c-155">The Voice Routing Policy should contain PSTN usages that define authorized calls and routes for Phone System in Office 365 users.</span></span> <span data-ttu-id="6f87c-156">これらの PSTN 使用法は、既存の音声ポリシーから新しい音声ルーティング ポリシーにコピーできます。</span><span class="sxs-lookup"><span data-stu-id="6f87c-156">You can copy these PSTN usages from existing Voice Policies to new Voice Routing Policies.</span></span> <span data-ttu-id="6f87c-157">詳細については、[新規 CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="6f87c-157">For more information, see [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).</span></span>
+<span data-ttu-id="ee7d6-153">Office 365 ユーザーの電話システムには、呼び出しが正常にルーティングするために割り当てられている音声ルーティング ポリシーが必要です。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-153">Phone System in Office 365 users must have a Voice Routing Policy assigned to them for calls to route successfully.</span></span> <span data-ttu-id="ee7d6-154">これは、呼び出しを適切にルーティングできるように割り当てる音声ポリシーを必要するオンプレミスの企業音声ユーザーとは異なります。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-154">This differs from on-premises business voice users who require a Voice Policy to be assigned to them to allow calls to route successfully.</span></span> <span data-ttu-id="ee7d6-155">音声ルーティング ポリシーには、電話システムのユーザーの Office 365 で承認された呼び出しおよびルートを定義する PSTN 使用法が含まれている必要があります。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-155">The Voice Routing Policy should contain PSTN usages that define authorized calls and routes for Phone System in Office 365 users.</span></span> <span data-ttu-id="ee7d6-156">これらの PSTN 使用法は、既存の音声ポリシーから新しい音声ルーティング ポリシーにコピーできます。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-156">You can copy these PSTN usages from existing Voice Policies to new Voice Routing Policies.</span></span> <span data-ttu-id="ee7d6-157">詳細については、[新規 CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-157">For more information, see [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="6f87c-158">Office 365 のユーザーにすべての電話システムが許可されている呼び出し元の機能を定義する BusinessVoice という名前の同じのオンラインの音声ポリシーに割り当てられてなどの同時呼び出しを許可します。</span><span class="sxs-lookup"><span data-stu-id="6f87c-158">All Phone System in Office 365 users are assigned the same online Voice Policy named BusinessVoice which defines the calling features allowed; for example, Allow Simultaneous Ring.</span></span> 
+> <span data-ttu-id="ee7d6-158">Office 365 のユーザーにすべての電話システムが許可されている呼び出し元の機能を定義する BusinessVoice という名前の同じのオンラインの音声ポリシーに割り当てられてなどの同時呼び出しを許可します。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-158">All Phone System in Office 365 users are assigned the same online Voice Policy named BusinessVoice which defines the calling features allowed; for example, Allow Simultaneous Ring.</span></span> 
   
-### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a><span data-ttu-id="6f87c-159">単一のユーザーにユーザーごとの音声ルーティング ポリシーを割り当てるには</span><span class="sxs-lookup"><span data-stu-id="6f87c-159">To assign a per-user voice routing policy to a single user</span></span>
+### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a><span data-ttu-id="ee7d6-159">単一のユーザーにユーザーごとの音声ルーティング ポリシーを割り当てるには</span><span class="sxs-lookup"><span data-stu-id="ee7d6-159">To assign a per-user voice routing policy to a single user</span></span>
 
-- <span data-ttu-id="6f87c-160">[許可 CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps)コマンドレットを使用して、Ken Myer のユーザーに、ユーザーごとの音声ルーティング ポリシー RedmondVoiceRoutingPolicy を割り当てます。</span><span class="sxs-lookup"><span data-stu-id="6f87c-160">Use the [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) cmdlet to assign the per-user voice routing policy RedmondVoiceRoutingPolicy to the user Ken Myer:</span></span>
+- <span data-ttu-id="ee7d6-160">[許可 CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps)コマンドレットを使用して、Ken Myer のユーザーに、ユーザーごとの音声ルーティング ポリシー RedmondVoiceRoutingPolicy を割り当てます。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-160">Use the [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) cmdlet to assign the per-user voice routing policy RedmondVoiceRoutingPolicy to the user Ken Myer:</span></span>
     
   ```
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName "RedmondVoiceRoutingPolicy"
   ```
 
-### <a name="to-assign-a-per-user-voice-routing-policy-to-multiple-users"></a><span data-ttu-id="6f87c-161">複数のユーザーにユーザーごとの音声ルーティング ポリシーを割り当てるには</span><span class="sxs-lookup"><span data-stu-id="6f87c-161">To assign a per-user voice routing policy to multiple users</span></span>
+### <a name="to-assign-a-per-user-voice-routing-policy-to-multiple-users"></a><span data-ttu-id="ee7d6-161">複数のユーザーにユーザーごとの音声ルーティング ポリシーを割り当てるには</span><span class="sxs-lookup"><span data-stu-id="ee7d6-161">To assign a per-user voice routing policy to multiple users</span></span>
 
-- <span data-ttu-id="6f87c-162">次のコマンドは、ユーザー単位の音声ルーティング ポリシー RedmondVoiceRoutingPolicy を Redmond 市で働くすべてのユーザーに割り当てます。</span><span class="sxs-lookup"><span data-stu-id="6f87c-162">The next command assigns the per-user voice routing policy RedmondVoiceRoutingPolicy to all the users who work in the city of Redmond.</span></span> <span data-ttu-id="6f87c-163">このコマンドで使用される、LdapFilter パラメーターの詳細については、 [Get CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="6f87c-163">For more information on the LdapFilter parameter used in this command, see [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).</span></span>
+- <span data-ttu-id="ee7d6-162">次のコマンドは、ユーザー単位の音声ルーティング ポリシー RedmondVoiceRoutingPolicy を Redmond 市で働くすべてのユーザーに割り当てます。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-162">The next command assigns the per-user voice routing policy RedmondVoiceRoutingPolicy to all the users who work in the city of Redmond.</span></span> <span data-ttu-id="ee7d6-163">このコマンドで使用される、LdapFilter パラメーターの詳細については、 [Get CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-163">For more information on the LdapFilter parameter used in this command, see [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).</span></span>
     
   ```
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsVoiceRoutingPolicy -PolicyName "RedmondVoiceRoutingPolicy"
   ```
 
     > [!NOTE]
-    > <span data-ttu-id="6f87c-p111">グローバルまたはユーザーの音声ルーティング ポリシーを、オンライン ユーザーに対して使用することができます。サイトの音声ルーティング ポリシーはこれらのユーザーに、オンプレミスでホストされオンプレミス サイトに割り当てられているユーザーに対して適用する目的だけで使用することはできません。</span><span class="sxs-lookup"><span data-stu-id="6f87c-p111">You may use either Global or User voice routing policies for online users. Site voice routing policies cannot be used as these only apply to users who are hosted on premises and are assigned to an on-premises site.</span></span> 
+    > <span data-ttu-id="ee7d6-p111">グローバルまたはユーザーの音声ルーティング ポリシーを、オンライン ユーザーに対して使用することができます。サイトの音声ルーティング ポリシーはこれらのユーザーに、オンプレミスでホストされオンプレミス サイトに割り当てられているユーザーに対して適用する目的だけで使用することはできません。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-p111">You may use either Global or User voice routing policies for online users. Site voice routing policies cannot be used as these only apply to users who are hosted on premises and are assigned to an on-premises site.</span></span> 
   
-### <a name="to-unassign-a-per-user-voice-routing-policy"></a><span data-ttu-id="6f87c-166">ユーザー単位の音声ルーティング ポリシーを割り当て解除するには</span><span class="sxs-lookup"><span data-stu-id="6f87c-166">To unassign a per-user voice routing policy</span></span>
+### <a name="to-unassign-a-per-user-voice-routing-policy"></a><span data-ttu-id="ee7d6-166">ユーザー単位の音声ルーティング ポリシーを割り当て解除するには</span><span class="sxs-lookup"><span data-stu-id="ee7d6-166">To unassign a per-user voice routing policy</span></span>
 
-- <span data-ttu-id="6f87c-167">許可-CsVoiceRoutingPolicy を使用して、Ken Myer に割り当てられていたすべてのユーザーごとの音声ルーティング ポリシーの割り当てを解除します。</span><span class="sxs-lookup"><span data-stu-id="6f87c-167">Use the Grant-CsVoiceRoutingPolicy to unassign any per-user voice routing policy previously assigned to Ken Myer.</span></span> <span data-ttu-id="6f87c-168">ユーザー単位の音声ルーティング ポリシーが割り当て解除された後、Ken Myer は、グローバル音声ルーティング ポリシーによって、自動的に管理されます。</span><span class="sxs-lookup"><span data-stu-id="6f87c-168">After the per-user voice routing policy is unassigned, Ken Myer will automatically be managed by using the global voice routing policy.</span></span>
+- <span data-ttu-id="ee7d6-167">許可-CsVoiceRoutingPolicy を使用して、Ken Myer に割り当てられていたすべてのユーザーごとの音声ルーティング ポリシーの割り当てを解除します。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-167">Use the Grant-CsVoiceRoutingPolicy to unassign any per-user voice routing policy previously assigned to Ken Myer.</span></span> <span data-ttu-id="ee7d6-168">ユーザー単位の音声ルーティング ポリシーが割り当て解除された後、Ken Myer は、グローバル音声ルーティング ポリシーによって、自動的に管理されます。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-168">After the per-user voice routing policy is unassigned, Ken Myer will automatically be managed by using the global voice routing policy.</span></span>
     
   ```
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 
-    <span data-ttu-id="6f87c-169">詳細については、[補助金 CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="6f87c-169">For more information, see [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps).</span></span>
+    <span data-ttu-id="ee7d6-169">詳細については、[補助金 CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="ee7d6-169">For more information, see [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps).</span></span>
     
 

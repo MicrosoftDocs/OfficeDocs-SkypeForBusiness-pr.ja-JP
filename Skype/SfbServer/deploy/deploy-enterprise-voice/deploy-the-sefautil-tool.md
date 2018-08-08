@@ -1,9 +1,8 @@
 ---
-title: Skype for Business 2015 での SEFAUtil ツールの展開
+title: ビジネス用の Skype で SEFAUtil ツールを展開します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,65 +13,66 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: ビジネス サーバーの Skype で SEFAUtil ツールを展開します。
-ms.openlocfilehash: 4def73d0bca655569275f61d9ebfeafb4ab7e3d4
-ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
+ms.openlocfilehash: 55079f1727a6671a41e87582edd5810a4daa731f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001204"
 ---
-# <a name="deploy-the-sefautil-tool-in-skype-for-business-2015"></a><span data-ttu-id="f2587-103">Skype for Business 2015 での SEFAUtil ツールの展開</span><span class="sxs-lookup"><span data-stu-id="f2587-103">Deploy the SEFAUtil tool in Skype for Business 2015</span></span>
+# <a name="deploy-the-sefautil-tool-in-skype-for-business"></a><span data-ttu-id="95023-103">ビジネス用の Skype で SEFAUtil ツールを展開します。</span><span class="sxs-lookup"><span data-stu-id="95023-103">Deploy the SEFAUtil tool in Skype for Business</span></span>
  
-<span data-ttu-id="f2587-104">ビジネス サーバーの Skype で SEFAUtil ツールを展開します。</span><span class="sxs-lookup"><span data-stu-id="f2587-104">Deploying the SEFAUtil tool in Skype for Business Server.</span></span>
+<span data-ttu-id="95023-104">ビジネス サーバーの Skype で SEFAUtil ツールを展開します。</span><span class="sxs-lookup"><span data-stu-id="95023-104">Deploying the SEFAUtil tool in Skype for Business Server.</span></span>
   
-<span data-ttu-id="f2587-105">展開し、コール ピックアップのグループを管理、ビジネス サーバーのバージョンの SEFAUtil ツールは、Skype を使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="f2587-105">To deploy and manage Group Call Pickup, you need to use the Skype for Business Server version of the SEFAUtil tool.</span></span> 
+<span data-ttu-id="95023-105">展開し、コール ピックアップのグループを管理、ビジネス サーバーのバージョンの SEFAUtil ツールは、Skype を使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="95023-105">To deploy and manage Group Call Pickup, you need to use the Skype for Business Server version of the SEFAUtil tool.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="f2587-106">マイクロソフト ユニファイド コミュニケーション管理 API (UCMA) 5 のランタイムは、SEFAUtil ツールを実行しようとするすべてのコンピューターにインストールしなければなりません。</span><span class="sxs-lookup"><span data-stu-id="f2587-106">Microsoft Unified Communications Managed API (UCMA) 5 Runtime must be installed on any computer where you plan to run the SEFAUtil tool.</span></span> <span data-ttu-id="f2587-107">ここからダウンロード:[ユニファイド コミュニケーション マネージ API 5.0 ランタイム](https://www.microsoft.com/en-us/download/details.aspx?id=47344)です。</span><span class="sxs-lookup"><span data-stu-id="f2587-107">Download it here: [Unified Communications Managed API 5.0 Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=47344).</span></span> <span data-ttu-id="f2587-108">ここでは、ランタイムが含まれています、UCMA 5 SDK をダウンロードすることもできます: [UCMA 5.0 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=47345)です。</span><span class="sxs-lookup"><span data-stu-id="f2587-108">You can also download the UCMA 5 SDK, which includes the runtime, here: [UCMA 5.0 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=47345).</span></span>
+> <span data-ttu-id="95023-106">マイクロソフト ユニファイド コミュニケーション管理 API (UCMA) 5 のランタイムは、SEFAUtil ツールを実行しようとするすべてのコンピューターにインストールしなければなりません。</span><span class="sxs-lookup"><span data-stu-id="95023-106">Microsoft Unified Communications Managed API (UCMA) 5 Runtime must be installed on any computer where you plan to run the SEFAUtil tool.</span></span> <span data-ttu-id="95023-107">ここからダウンロード:[ユニファイド コミュニケーション マネージ API 5.0 ランタイム](https://www.microsoft.com/en-us/download/details.aspx?id=47344)です。</span><span class="sxs-lookup"><span data-stu-id="95023-107">Download it here: [Unified Communications Managed API 5.0 Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=47344).</span></span> <span data-ttu-id="95023-108">ここでは、ランタイムが含まれています、UCMA 5 SDK をダウンロードすることもできます: [UCMA 5.0 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=47345)です。</span><span class="sxs-lookup"><span data-stu-id="95023-108">You can also download the UCMA 5 SDK, which includes the runtime, here: [UCMA 5.0 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=47345).</span></span>
   
-<span data-ttu-id="f2587-109">すべてのフロント エンド プールで SEFAUtil ツールを実行するには、展開に。</span><span class="sxs-lookup"><span data-stu-id="f2587-109">You can run the SEFAUtil tool in any Front End pool in your deployment.</span></span> <span data-ttu-id="f2587-110">SEFAUtil ツールを実行するには、必要がありますを実行するステップ 1、2、3、Skype からビジネス展開ウィザードのアプリケーションの信頼されたコンピューターにします。</span><span class="sxs-lookup"><span data-stu-id="f2587-110">To run the SEFAUtil tool you must run Steps 1, 2, and 3 from the Skype for Business Deployment Wizard on the Trusted Application Computer.</span></span> <span data-ttu-id="f2587-111">SEFAUtil は、証明書と同様に、ローカル構成ストアが存在する必要があります。</span><span class="sxs-lookup"><span data-stu-id="f2587-111">SEFAUtil requires the local configuration store to be present, as well as a certificate.</span></span>
+<span data-ttu-id="95023-109">すべてのフロント エンド プールで SEFAUtil ツールを実行するには、展開に。</span><span class="sxs-lookup"><span data-stu-id="95023-109">You can run the SEFAUtil tool in any Front End pool in your deployment.</span></span> <span data-ttu-id="95023-110">SEFAUtil ツールを実行するには、必要がありますを実行するステップ 1、2、3、Skype からビジネス展開ウィザードのアプリケーションの信頼されたコンピューターにします。</span><span class="sxs-lookup"><span data-stu-id="95023-110">To run the SEFAUtil tool you must run Steps 1, 2, and 3 from the Skype for Business Deployment Wizard on the Trusted Application Computer.</span></span> <span data-ttu-id="95023-111">SEFAUtil は、証明書と同様に、ローカル構成ストアが存在する必要があります。</span><span class="sxs-lookup"><span data-stu-id="95023-111">SEFAUtil requires the local configuration store to be present, as well as a certificate.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="f2587-112">SEFAUtil を実行しているの詳細については、Technet のブログ記事を参照してください"[を実行している SEFAutil を取得する方法ですか?](https://go.microsoft.com/fwlink/?LinkId=278940)"です。</span><span class="sxs-lookup"><span data-stu-id="f2587-112">For more details about running SEFAUtil, see the Technet blog article, "[How to get SEFAutil running?](https://go.microsoft.com/fwlink/?LinkId=278940)".</span></span> 
+> <span data-ttu-id="95023-112">SEFAUtil を実行しているの詳細については、ブログの記事を参照してください"[を実行している SEFAutil を取得する方法ですか?](https://go.microsoft.com/fwlink/?LinkId=278940)"です。</span><span class="sxs-lookup"><span data-stu-id="95023-112">For more details about running SEFAUtil, see the  blog article, "[How to get SEFAutil running?](https://go.microsoft.com/fwlink/?LinkId=278940)".</span></span> 
   
-### <a name="to-deploy-sefautil"></a><span data-ttu-id="f2587-113">SEFAUtil を展開するには</span><span class="sxs-lookup"><span data-stu-id="f2587-113">To deploy SEFAUtil</span></span>
+### <a name="to-deploy-sefautil"></a><span data-ttu-id="95023-113">SEFAUtil を展開するには</span><span class="sxs-lookup"><span data-stu-id="95023-113">To deploy SEFAUtil</span></span>
 
-1. <span data-ttu-id="f2587-114">RTCUniversalServerAdmins グループのまたは**セットアップ アクセス許可の委任**で説明したように必要なユーザー権限を持つメンバーとしてビジネス サーバー管理シェルの Skype がインストールされているコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="f2587-114">Log on to the computer where Skype for Business Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in **Delegate Setup Permissions**.</span></span>
+1. <span data-ttu-id="95023-114">RTCUniversalServerAdmins グループのまたは**セットアップ アクセス許可の委任**で説明したように必要なユーザー権限を持つメンバーとしてビジネス サーバー管理シェルの Skype がインストールされているコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="95023-114">Log on to the computer where Skype for Business Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in **Delegate Setup Permissions**.</span></span>
     
-2. <span data-ttu-id="f2587-115">Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="f2587-115">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="95023-115">Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="95023-115">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="f2587-116">SEFAUtil ツールは、信頼済みアプリケーション プールに含まれるコンピューターでのみ実行できます。</span><span class="sxs-lookup"><span data-stu-id="f2587-116">The SEFAUtil tool can be run only on a computer that is part of a trusted application pool.</span></span> <span data-ttu-id="f2587-117">必要な場合は、SEFAUtil を実行しようとするフロント エンド プール用の信頼されたアプリケーション プールを定義します。</span><span class="sxs-lookup"><span data-stu-id="f2587-117">If needed, define a trusted application pool for the Front End pool where you plan to run SEFAUtil.</span></span> <span data-ttu-id="f2587-118">コマンド ラインで、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="f2587-118">At the command line, run:</span></span>
+3. <span data-ttu-id="95023-116">SEFAUtil ツールは、信頼済みアプリケーション プールに含まれるコンピューターでのみ実行できます。</span><span class="sxs-lookup"><span data-stu-id="95023-116">The SEFAUtil tool can be run only on a computer that is part of a trusted application pool.</span></span> <span data-ttu-id="95023-117">必要な場合は、SEFAUtil を実行しようとするフロント エンド プール用の信頼されたアプリケーション プールを定義します。</span><span class="sxs-lookup"><span data-stu-id="95023-117">If needed, define a trusted application pool for the Front End pool where you plan to run SEFAUtil.</span></span> <span data-ttu-id="95023-118">コマンド ラインで、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="95023-118">At the command line, run:</span></span>
     
    ```
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
 
-4. <span data-ttu-id="f2587-p104">SEFAUtil ツールを信頼済みアプリケーションとして定義します。コマンド ラインで、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="f2587-p104">Define the SEFAUtil tool as a trusted application. At the command line, run:</span></span>
+4. <span data-ttu-id="95023-p104">SEFAUtil ツールを信頼済みアプリケーションとして定義します。コマンド ラインで、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="95023-p104">Define the SEFAUtil tool as a trusted application. At the command line, run:</span></span>
     
    ```
    New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
    ```
 
     > [!NOTE]
-    > <span data-ttu-id="f2587-121">必要に応じて、別のポートを使用できます。</span><span class="sxs-lookup"><span data-stu-id="f2587-121">You can use a different port if needed.</span></span> 
+    > <span data-ttu-id="95023-121">必要に応じて、別のポートを使用できます。</span><span class="sxs-lookup"><span data-stu-id="95023-121">You can use a different port if needed.</span></span> 
   
-5. <span data-ttu-id="f2587-p105">変更を加えたトポロジを有効にします。コマンド ラインで、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="f2587-p105">Enable the topology with your changes. At the command line, run:</span></span>
+5. <span data-ttu-id="95023-p105">変更を加えたトポロジを有効にします。コマンド ラインで、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="95023-p105">Enable the topology with your changes. At the command line, run:</span></span>
     
   ```
   Enable-CsTopology
   ```
 
-6. <span data-ttu-id="f2587-124">まだインストールしていない場合は、[この場所](https://www.microsoft.com/en-us/download/details.aspx?id=52631)、およびインストールの手順 3 で作成する信頼されたアプリケーション プールにから SEFAUtil ツールのビジネスのサーバーのバージョンの Skype をダウンロードします。</span><span class="sxs-lookup"><span data-stu-id="f2587-124">If you haven't already, download the Skype for Business Server version of the SEFAUtil tool from [this location](https://www.microsoft.com/en-us/download/details.aspx?id=52631), and install it on the trusted application pool you created in step 3.</span></span>
+6. <span data-ttu-id="95023-124">まだインストールしていない場合は、[この場所](https://www.microsoft.com/en-us/download/details.aspx?id=52631)、およびインストールの手順 3 で作成する信頼されたアプリケーション プールにから SEFAUtil ツールのビジネスのサーバーのバージョンの Skype をダウンロードします。</span><span class="sxs-lookup"><span data-stu-id="95023-124">If you haven't already, download the Skype for Business Server version of the SEFAUtil tool from [this location](https://www.microsoft.com/en-us/download/details.aspx?id=52631), and install it on the trusted application pool you created in step 3.</span></span>
     
-7. <span data-ttu-id="f2587-125">次のように、SEFAUtil ツールが正常に実行していることを確認します。</span><span class="sxs-lookup"><span data-stu-id="f2587-125">Verify that the SEFAUtil tool is running correctly, as follows:</span></span> 
+7. <span data-ttu-id="95023-125">次のように、SEFAUtil ツールが正常に実行していることを確認します。</span><span class="sxs-lookup"><span data-stu-id="95023-125">Verify that the SEFAUtil tool is running correctly, as follows:</span></span> 
     
-    <span data-ttu-id="f2587-126">a.</span><span class="sxs-lookup"><span data-stu-id="f2587-126">a.</span></span> <span data-ttu-id="f2587-127">管理者特権で Windows コマンド プロンプトからツールを実行し、展開内のユーザーの着信転送設定を表示します。</span><span class="sxs-lookup"><span data-stu-id="f2587-127">Run the tool from the Windows command prompt with administrator privileges to display the call forwarding settings of a user in your deployment.</span></span>
+    <span data-ttu-id="95023-126">a.</span><span class="sxs-lookup"><span data-stu-id="95023-126">a.</span></span> <span data-ttu-id="95023-127">管理者特権で Windows コマンド プロンプトからツールを実行し、展開内のユーザーの着信転送設定を表示します。</span><span class="sxs-lookup"><span data-stu-id="95023-127">Run the tool from the Windows command prompt with administrator privileges to display the call forwarding settings of a user in your deployment.</span></span>
     
-    <span data-ttu-id="f2587-128">b.</span><span class="sxs-lookup"><span data-stu-id="f2587-128">b.</span></span> <span data-ttu-id="f2587-129">ユーザーの着信転送設定を表示します。</span><span class="sxs-lookup"><span data-stu-id="f2587-129">Display the call forwarding settings of a user.</span></span> <span data-ttu-id="f2587-130">コマンド ラインで、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="f2587-130">At the command line, run:</span></span>
+    <span data-ttu-id="95023-128">b.</span><span class="sxs-lookup"><span data-stu-id="95023-128">b.</span></span> <span data-ttu-id="95023-129">ユーザーの着信転送設定を表示します。</span><span class="sxs-lookup"><span data-stu-id="95023-129">Display the call forwarding settings of a user.</span></span> <span data-ttu-id="95023-130">コマンド ラインで、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="95023-130">At the command line, run:</span></span>
     
   ```
   SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
   ```
 
-<span data-ttu-id="f2587-131">ユーザーの着信転送設定が表示されます。</span><span class="sxs-lookup"><span data-stu-id="f2587-131">The call forwarding settings for the user will be displayed.</span></span>
+<span data-ttu-id="95023-131">ユーザーの着信転送設定が表示されます。</span><span class="sxs-lookup"><span data-stu-id="95023-131">The call forwarding settings for the user will be displayed.</span></span>
     
 
