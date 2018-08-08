@@ -12,14 +12,17 @@ localization_priority: Normal
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 ROBOTS: NOINDEX, NOFOLLOW
 description: Exchange UM 自動応答未使用の番号の範囲への着信呼び出しを処理するを選択するのにを選択して Exchange UM 自動応答] ダイアログ ボックスを使用します。
-ms.openlocfilehash: fa8733ea3c8e005c934ffaacc71a77516bc360e6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3ee269d4ab746bb46a658aae5987810d54164b0a
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20987797"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22138403"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Exchange UM の自動応答を選択します。
+
+> [!NOTE]
+> Exchange UM のまま Skype で利用可能なビジネス サーバー 2019 の Exchange 2013 または Exchange 2016 2019 のビジネス用の Skype を統合する場合です。 2019 の Exchange でのサポートの変更により、Exchange UM の統合は、ボイスメールのクラウドとクラウドの自動応答の機能のための emphasised ことです。  [計画クラウド ボイスメール サービス](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md)[計画クラウド ボイスメール サービス] と[Skype ビジネス サーバーと Exchange Server の移行のための計画](../../../../SfBServer2019/hybrid/plan-um-migration.md)を参照してください (../../../SfBServer2019/hybrid/plan-um-migration.md) の詳細について。
  
 Exchange UM 自動応答未使用の番号の範囲への着信呼び出しを処理するを選択するのに**を選択して Exchange UM 自動応答**] ダイアログ ボックスを使用します。
   

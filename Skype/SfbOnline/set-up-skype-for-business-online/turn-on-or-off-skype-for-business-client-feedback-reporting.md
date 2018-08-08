@@ -16,16 +16,16 @@ f1keywords: None
 ms.custom:
 - Setup
 description: ユーザーの問題を報告し、経験についてマイクロソフトに直接フィードバックを提供できるようにするビジネス アプリケーションからのフィードバックのツールの組み込みの Skype を使用するビジネス ユーザー向けに、Skype を有効にできます。
-ms.openlocfilehash: 9e995a61337a8393b869161e143d76f1df5454ae
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 09ddaa9952ab5d536c6a95937ca71c4c056a15e0
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568355"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22135542"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Skype for Business クライアントのフィードバック レポートをオンまたはオフにする
 
-ユーザーの問題を報告し、経験についてマイクロソフトに直接フィードバックを提供できるようにするビジネス アプリケーションからのフィードバックのツールの組み込みの Skype を使用するビジネス ユーザー向けに、Skype を有効にできます。 
+オンライン ビジネス ユーザーがビジネス アプリケーションからのフィードバックのツールの組み込みの Skype を使用して、ユーザーが問題を報告し、経験についてマイクロソフトに直接フィードバックを提供できるようにするのには、Skype を有効にすることができます。 
   
 ![Skype for Business client reporting.](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
   
@@ -91,7 +91,7 @@ Windows PowerShell の起動の詳細については、「[単一の Windows Pow
     
   - [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [クイック リファレンス: Windows PowerShell を使用した一般的な Lync Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
 
 ## <a name="related-topics"></a>See also
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)

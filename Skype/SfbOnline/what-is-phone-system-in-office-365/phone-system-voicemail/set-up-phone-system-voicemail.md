@@ -1,5 +1,5 @@
 ---
-title: 電話システムのボイス メールを設定します
+title: 電話システム ボイスメールをセットアップする
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up the phone system (Cloud PBX) voicemail for your Skype for Business users. '
-ms.openlocfilehash: 93dd33eefe587c548e346974cc86fe2608b392ec
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: f5dcf6012dc9ac6659d35c29a31ee6a5ff40eec2
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22135532"
 ---
-# <a name="set-up-phone-system-voicemail"></a>電話システムのボイス メールを設定します
+# <a name="set-up-phone-system-voicemail"></a>電話システム ボイスメールをセットアップする
 
 この資料では、 [Office 365 の管理者用](http://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)ビジネスでのすべてのユーザーの電話システム ボイスメール機能を設定したいのです。
   
@@ -80,7 +81,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscription $false
 
 ### <a name="turning-on-transcription-profanity-masking-for-your-organization"></a>組織の議事録の不適切なマスキングを有効にします。
 
-組織の既定での議事録の不適切なマスキングが無効です。 有効にするには、ビジネス要件がある場合は、議事録の不適切な[設定 CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx)を使用して、マスキングを有効にできます。 これを行う場合は、次を実行します。
+組織の既定での議事録の不適切なマスキングが無効です。 有効にするというビジネス要件がある場合は、議事録の不適切な[設定 CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx)を使用して、マスキングを有効にできます。 これを行う場合は、次を実行します。
   
 ```
 Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
@@ -88,7 +89,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
 
 ### <a name="turning-off-transcription-for-a-user"></a>ユーザーのトランスクリプションをオフにする
 
-ユーザー ポリシーは組織の既定の設定より前に評価されます。たとえば、ボイスメール トランスクリプションがすべてのユーザーに対して有効になっている場合、[Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798309.aspx) コマンドレットを使用して、特定のユーザーに対するトランスクリプションを無効にするポリシーを割り当てることができます。
+ユーザー ポリシーは組織の既定の設定より前に評価されます。 などのすべてのユーザーは、ボイスメールの議事録が有効である場合は、[許可 CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798309.aspx)コマンドレットを使用して特定のユーザーの議事録作成を無効にするポリシーを割り当てることができます。
   
 単一ユーザーに対するトランスクリプションを無効にするには、次を実行します。
   
@@ -98,7 +99,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:am
 
 ### <a name="turning-on-transcription-profanity-masking-for-a-user"></a>ユーザーの議事録の不適切なマスキングを有効にします。
 
-特定のユーザーの議事録の不適切なマスキングを有効にするには、 [Grant CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798309.aspx)コマンドレットを使用して特定のユーザーの議事録の不適切なマスキングを有効にするポリシーを割り当てることができます。
+議事録の不適切な特定のユーザーのマスキングを有効にするには、議事録の不適切な[補助金 CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798309.aspx)コマンドレットを使用して特定のユーザーのマスキングを有効にするポリシーを割り当てることができます。
   
 議事録の不適切な単一のユーザー用のマスキングを有効にするには、次のコマンドを実行します。
   

@@ -12,16 +12,16 @@ localization_priority: Normal
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 監視サーバーの展開を Microsoft SQL Server 2008 r2 でレポートまたは表示するのには Microsoft SQL Server 2012 レポート サービスでは、ページを実行するコマンドをインストールするのには、発行するコマンドの概要について必要な情報を入力したら、SQL Server Reporting Services にレポートします。
-ms.openlocfilehash: 25c47787144809397db51a5ac477e8db446788d1
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4d2eff38570e24a063558fe62c8db7c89bc03cf3
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21014146"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22138566"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>SQL Server Reporting Services (起動)
  
-監視サーバーの展開を Microsoft SQL Server 2008 r2 でレポートまたは表示するのには Microsoft SQL Server 2012 レポート サービスでは、ページを実行するコマンドをインストールするのには、発行するコマンドの概要について必要な情報を入力したら、SQL Server Reporting Services にレポートします。
+後に Microsoft SQL Server レポート サービス サーバーの監視レポートを展開するため必要な情報を指定するには、ページの実行コマンドには、SQL Server レポートにレポートをインストールするのには実行されるコマンドの概要が表示されます。サービスです。
   
 コマンドの概要を調べ、コマンドによって表示されたエラーまたは警告メッセージがないかどうかを確認します。ログ ファイルが生成された場合は、概要ウィンドウのドロップダウン リストからそのログ ファイルを選択し、[**ログの表示**] をクリックしてログ ファイルを表示します。
   
