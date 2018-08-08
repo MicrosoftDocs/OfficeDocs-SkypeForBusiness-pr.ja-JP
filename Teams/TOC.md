@@ -144,9 +144,9 @@
 ##  [Skype のビジネスをオンラインで、マイクロソフトのチーム向けのアクセシビリティ](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ##  [英国内の演習用のコード](/SkypeForBusiness/legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ##  [英国のコードの対応処理](/SkypeForBusiness/legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-##  [無料のダイヤルアウト期間](/SkypeForBusiness/legal-and-regulatory/?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [無料のダイヤルアウト期間](/SkypeForBusiness/legal-and-regulatory/complimentary-dial-out-period?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [データ収集方法](/SkypeForBusiness/legal-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-##  [緊急呼び出しラベル](/SkypeForBusiness/legal-and-regulatory/emergency-calling-lables?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [緊急呼び出しラベル](/SkypeForBusiness/legal-and-regulatory/emergency-calling-labels?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ##  [緊急通話の利用条件](/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 <!-- ============================================================ -->
@@ -189,6 +189,7 @@
 ## 会議
 ### [チュートリアル: Teams での会議](Tutorial-Meetings-in-Teams.yml)
 ### [会議からダイヤルアウトして他のユーザーが参加できるようにする](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [特定のユーザーのフリーダイヤル番号を無効にする](/SkypeForBusiness/audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [ユーザーが会議に参加するときに名前を記録できるようにする](/SkypeForBusiness/audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [会議の入退室通知をオンまたはオフにする](/SkypeForBusiness/audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [チーム クラウドのミーティングのレコーディング](cloud-recording.md)
@@ -232,7 +233,7 @@
 #### [電話会議の電話番号](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [ユーザーの会議 ID をリセットする](/SkypeForBusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [ユーザーの電話会議の PIN をリセットする](/SkypeForBusiness/audio-conferencing-in-office-365/reset-the-audio-conferencing-pin-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [ユーザーの電話会議の PIN をリセットする](/SkypeForBusiness/audio-conferencing-in-office-365/reset-the-audio-conferencing-pin?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [電話会議の電話番号のリストを表示する](/SkypeForBusiness/audio-conferencing-in-office-365/see-a-list-of-audio-conferencing-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [電話会議用に有効になっているユーザーのリストを表示する](/SkypeForBusiness/audio-conferencing-in-office-365/see-a-list-of-users-that-are-enabled-for-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [ユーザーに割り当てられている会議 ID を表示、変更、リセットする](/SkypeForBusiness/audio-conferencing-in-office-365/see-change-and-reset-a-conference-id-assigned-to-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)

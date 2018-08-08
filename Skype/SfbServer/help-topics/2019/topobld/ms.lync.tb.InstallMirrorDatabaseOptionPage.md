@@ -12,25 +12,14 @@ localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 ROBOTS: NOINDEX, NOFOLLOW
 description: ミラー データベースの設定を構成するには、以下を定義します。
-ms.openlocfilehash: 878df89da759de661729d1e248722cbe8e755085
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 6dedf85e90791062d97e5030f0521fe648dc48c8
+ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21064036"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22196051"
 ---
-# <a name="install-mirror-database-option-page"></a><span data-ttu-id="13c08-103">ミラー データベースのオプション] ページをインストールします。</span><span class="sxs-lookup"><span data-stu-id="13c08-103">Install Mirror Database Option Page</span></span>
+# <a name="install-mirror-database-option-page"></a><span data-ttu-id="1a103-103">ミラー データベースのオプション] ページをインストールします。</span><span class="sxs-lookup"><span data-stu-id="1a103-103">Install Mirror Database Option Page</span></span>
  
-<span data-ttu-id="13c08-104">**ミラー データベースの設定**を構成するには、以下を定義します。</span><span class="sxs-lookup"><span data-stu-id="13c08-104">You configure **Mirror Database Settings** by defining the following:</span></span>
-  
-- <span data-ttu-id="13c08-105">**ファイルへのパスを共有**ミラーリング対象のデータベースの SQL Server のバックアップ ファイルの場所を定義するを入力します。</span><span class="sxs-lookup"><span data-stu-id="13c08-105">Type the **Path to file share** to define the location for the backup SQL Server files for the database being mirrored.</span></span>
-    
-    > [!NOTE]
-    > <span data-ttu-id="13c08-106">プライマリ SQL Server のインスタンス (名前付きインスタンスまたは既定のインスタンス) は、ここを定義するファイル共有に対する書き込みアクセス許可が必要です。</span><span class="sxs-lookup"><span data-stu-id="13c08-106">The primary SQL Server instance (either named instance or default instance) must have write permissions to the file share you define here.</span></span> <span data-ttu-id="13c08-107">ミラーの SQL Server のインスタンス (名前付きインスタンスまたは既定のインスタンス) 読み取り権限が必要、同じファイル共有にします。</span><span class="sxs-lookup"><span data-stu-id="13c08-107">The mirror SQL Server instance (either named instance or default instance) must have read permissions to the same file share.</span></span> 
-  
- <span data-ttu-id="13c08-108">[**OK**]: ダイアログでの変更を受け入れて確定します。</span><span class="sxs-lookup"><span data-stu-id="13c08-108">**OK** Accepts and commits changes to the dialog.</span></span>
-  
- <span data-ttu-id="13c08-109">[**キャンセル**]: 変更を破棄してダイアログを閉じます。</span><span class="sxs-lookup"><span data-stu-id="13c08-109">**Cancel** Discards changes and closes the dialog.</span></span>
-  
- <span data-ttu-id="13c08-110">[**ヘルプ**]: このヘルプ画面を表示します。</span><span class="sxs-lookup"><span data-stu-id="13c08-110">**Help** Displays this help screen.</span></span>
-  
+> [!NOTE]
+> <span data-ttu-id="1a103-104">SQL ミラーリング ビジネス サーバー 2015 の Skype で利用できるが、ビジネス サーバー 2019 の Skype でサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="1a103-104">SQL Mirroring is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="1a103-105">AlwaysOn 可用性グループ、AlwaysOn フェールオーバー クラスター インスタンス (FCI)、および SQL フェールオーバー クラスタ リング手法は、ビジネス サーバー 2019 の Skype で優先します。</span><span class="sxs-lookup"><span data-stu-id="1a103-105">The  AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering methods are preferred with Skype for Business Server 2019.</span></span>
