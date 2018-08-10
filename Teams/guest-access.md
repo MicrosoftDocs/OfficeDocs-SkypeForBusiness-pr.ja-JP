@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
 description: Microsoft Teams でのゲスト アクセスにより、組織内のチームは組織外の人にチームおよびチャネルへのアクセス権を付与することで、それらの人と共同作業することができるようになります。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ac614aa35e3aa453a7522559e6fda8045404ae9
-ms.sourcegitcommit: 70fc5217f588e10ab0edb400f329ea597efaab52
+ms.openlocfilehash: 405f0138cfb368d70aec9195c493e8da604177d4
+ms.sourcegitcommit: c18710a46018fe4c1d0ceb99710f18bbc25aad54
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 08/10/2018
+ms.locfileid: "19178998"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセス
 ======================================
@@ -38,7 +40,8 @@ Microsoft Teams でのゲスト アクセスにより、組織内のチームは
 ゲストとは、従業員、学生または組織の一員ではないユーザーを指します。 ゲストは組織内での学校アカウントまたは職場アカウントを持ちません。 たとえば、ゲストにはパートナー、製造元、供給元、コンサルタントなどが含まれます。 すべてのユーザーは、マイクロソフトのチームでは、ゲストとして追加できます。 これは、(Azure Active Directory アカウント) を使用して企業や消費者の電子メール アカウント (Outlook.com、Gmail.com またはその他のユーザー) を持つすべてのユーザーがチーム チャット、会議、およびファイルへのフル アクセスを持つチームにゲストとして参加できることを意味します。
 来園者はチームでは、同じコンプライアンスと監査の保護として、Office 365 の残りの部分についてし、Azure AD 内で安全に管理することができます。
 
-  
+> [!NOTE]
+> スタンドアロン Office 365 サブスクリプション プランを使用して組織内のユーザーのみ、Exchange オンライン計画 2 など招待できない組織には、ゲストとしてチームがこれらのユーザーに同じ組織に属していると見なされるためです。 チームを使用するこれらのユーザーに割り当てる必要があります Office 365 のビジネス プレミアム、Office 365 の企業、および Office 365 の教育のサブスクリプションを持つ。  
       
 
 Teams では、企業データを完全に制御して保持しながら、チーム、ドキュメント、リソース、チャット、アプリケーションへの外部アクセスをパートナーに提供できます。 来園者は Azure Active Directory 内で安全に管理できるし、同じコンプライアンスと監査の保護として、Office 365 の残りの部分は来園者はチームで対応します。  
