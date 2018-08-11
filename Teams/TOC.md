@@ -17,6 +17,7 @@
 ## [制限とチームの仕様](limits-specifications-teams.md)
 ## [Teams でチームを作成するときの Office 365 グループの計画](plan-office-365-groups.md)
 ## [Teams のロールアウトをサポートするツールを入手する](rollout-tools.md)
+## [チームの管理のための計画](plan-teams-governance.md)
 ## [Microsoft 365 政府の GCC の展開の計画](plan-for-government-gcc.md)
 ## 採用を推進
 ### [変更管理戦略を作成します。](change-management-strategy.md)
@@ -298,6 +299,7 @@
 # 教育チーム
 ## [クイック スタート - 教育用 Teams の管理者](teams-quick-start-edu.yml)
 ## [教育管理者のチーム リソース](resources-teams-edu.md)
+## [管理者のマイクロソフト教育ガバナンスに関する FAQ](plan-teams-governance-edu.md)
 <!-- ============================================================ -->
 
 # [Teams 用の PowerShell コマンドレット リファレンス](https://docs.microsoft.com/powershell/module/teams)
