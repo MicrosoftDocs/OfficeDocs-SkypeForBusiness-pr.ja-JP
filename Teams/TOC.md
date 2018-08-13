@@ -39,6 +39,7 @@
 ## [組織内のチームの機能を管理します。](enable-features-office-365.md)
 ### [新しいマイクロソフトのチームとビジネス管理センターの Skype に移行する際のチームを管理します。](manage-teams-skypeforbusiness-admin-center.md)
 ### [Teams で役割と権限を割り当てる](assign-roles-permissions.md)
+### [チーム テナント アプリケーション カタログにアプリケーションを発行します。](tenant-apps-catalog-teams.md)
 ## [現代の認証](sign-in-teams.md)
 ## [他の組織内のチームのユーザーとの通信します。](let-your-teams-users-communicate-with-other-people.md)
 ## [クラウド ボイスの展開の手引き](cloud-voice-deployment.md)
