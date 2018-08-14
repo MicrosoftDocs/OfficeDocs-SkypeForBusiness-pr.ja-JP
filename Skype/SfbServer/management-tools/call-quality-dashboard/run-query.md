@@ -11,32 +11,33 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
 description: '概要: は、品質のダッシュ ボードを呼び出すためのデータ API の一部であるクエリの実行の操作について説明します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。'
-ms.openlocfilehash: 6e294625e173854382e39abc098a0480871586ac
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 3720ce118537963e5093741c4f05315e887bd60d
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569748"
 ---
-# <a name="run-query"></a><span data-ttu-id="bdbee-104">クエリを実行します。</span><span class="sxs-lookup"><span data-stu-id="bdbee-104">Run Query</span></span>
+# <a name="run-query"></a><span data-ttu-id="90dd2-104">クエリを実行します。</span><span class="sxs-lookup"><span data-stu-id="90dd2-104">Run Query</span></span>
  
-<span data-ttu-id="bdbee-105">**の概要:**品質のダッシュ ボードを呼び出すためのデータ API の一部であるクエリの実行の操作について説明します。</span><span class="sxs-lookup"><span data-stu-id="bdbee-105">**Summary:** Learn about the Run Query operation, which is part of the Data API for Call Quality Dashboard.</span></span> <span data-ttu-id="bdbee-106">通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。</span><span class="sxs-lookup"><span data-stu-id="bdbee-106">Call Quality Dashboard is a tool for Skype for Business Server 2015.</span></span>
+<span data-ttu-id="90dd2-105">**の概要:** 品質のダッシュ ボードを呼び出すためのデータ API の一部であるクエリの実行の操作について説明します。</span><span class="sxs-lookup"><span data-stu-id="90dd2-105">**Summary:** Learn about the Run Query operation, which is part of the Data API for Call Quality Dashboard.</span></span> <span data-ttu-id="90dd2-106">通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。</span><span class="sxs-lookup"><span data-stu-id="90dd2-106">Call Quality Dashboard is a tool for Skype for Business Server 2015.</span></span>
   
-<span data-ttu-id="bdbee-107">クエリの実行操作は、品質のダッシュ ボードを呼び出すためのデータ API の一部です。</span><span class="sxs-lookup"><span data-stu-id="bdbee-107">The Run Query operation is part of the Data API for Call Quality Dashboard.</span></span>
+<span data-ttu-id="90dd2-107">クエリの実行操作は、品質のダッシュ ボードを呼び出すためのデータ API の一部です。</span><span class="sxs-lookup"><span data-stu-id="90dd2-107">The Run Query operation is part of the Data API for Call Quality Dashboard.</span></span>
   
-## <a name="run-query"></a><span data-ttu-id="bdbee-108">クエリを実行します。</span><span class="sxs-lookup"><span data-stu-id="bdbee-108">Run Query</span></span>
+## <a name="run-query"></a><span data-ttu-id="90dd2-108">クエリを実行します。</span><span class="sxs-lookup"><span data-stu-id="90dd2-108">Run Query</span></span>
 
-<span data-ttu-id="bdbee-109">操作には、指定した寸法、測定、およびフィルターに基づいて、キューブに対してクエリを実行する機能が用意されています。 クエリを実行し、データを返します。</span><span class="sxs-lookup"><span data-stu-id="bdbee-109">Run Query operation provides the ability to run a query on the cube based on specified dimensions, measurements, and filters and return back the data.</span></span>
+<span data-ttu-id="90dd2-109">操作には、指定した寸法、測定、およびフィルターに基づいて、キューブに対してクエリを実行する機能が用意されています。 クエリを実行し、データを返します。</span><span class="sxs-lookup"><span data-stu-id="90dd2-109">Run Query operation provides the ability to run a query on the cube based on specified dimensions, measurements, and filters and return back the data.</span></span>
   
 
-|<span data-ttu-id="bdbee-110">**メソッド**</span><span class="sxs-lookup"><span data-stu-id="bdbee-110">**Method**</span></span>|<span data-ttu-id="bdbee-111">**URI を要求します。**</span><span class="sxs-lookup"><span data-stu-id="bdbee-111">**Request URI**</span></span>|<span data-ttu-id="bdbee-112">**HTTP のバージョン**</span><span class="sxs-lookup"><span data-stu-id="bdbee-112">**HTTP Version**</span></span>|
+|<span data-ttu-id="90dd2-110">**メソッド**</span><span class="sxs-lookup"><span data-stu-id="90dd2-110">**Method**</span></span>|<span data-ttu-id="90dd2-111">**URI を要求します。**</span><span class="sxs-lookup"><span data-stu-id="90dd2-111">**Request URI**</span></span>|<span data-ttu-id="90dd2-112">**HTTP のバージョン**</span><span class="sxs-lookup"><span data-stu-id="90dd2-112">**HTTP Version**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="bdbee-113">投稿</span><span class="sxs-lookup"><span data-stu-id="bdbee-113">POST</span></span>  <br/> |<span data-ttu-id="bdbee-114">https://\<ポータル\>/QoEDataService/RunQuery</span><span class="sxs-lookup"><span data-stu-id="bdbee-114">https://\<portal\>/QoEDataService/RunQuery</span></span>  <br/> |<span data-ttu-id="bdbee-115">HTTP 1.1/</span><span class="sxs-lookup"><span data-stu-id="bdbee-115">HTTP/1.1</span></span>  <br/> |
+|<span data-ttu-id="90dd2-113">投稿</span><span class="sxs-lookup"><span data-stu-id="90dd2-113">POST</span></span>  <br/> |<span data-ttu-id="90dd2-114">https://\<ポータル\>/QoEDataService/RunQuery</span><span class="sxs-lookup"><span data-stu-id="90dd2-114">https://\<portal\>/QoEDataService/RunQuery</span></span>  <br/> |<span data-ttu-id="90dd2-115">HTTP 1.1/</span><span class="sxs-lookup"><span data-stu-id="90dd2-115">HTTP/1.1</span></span>  <br/> |
    
- <span data-ttu-id="bdbee-116">**URI パラメーター**を [なし] です。</span><span class="sxs-lookup"><span data-stu-id="bdbee-116">**URI Parameters** - None.</span></span>
+ <span data-ttu-id="90dd2-116">**URI パラメーター**を [なし] です。</span><span class="sxs-lookup"><span data-stu-id="90dd2-116">**URI Parameters** - None.</span></span>
   
- <span data-ttu-id="bdbee-117">**要求ヘッダー**の追加のヘッダーではありません。</span><span class="sxs-lookup"><span data-stu-id="bdbee-117">**Request Headers** - No additional headers.</span></span>
+ <span data-ttu-id="90dd2-117">**要求ヘッダー**の追加のヘッダーではありません。</span><span class="sxs-lookup"><span data-stu-id="90dd2-117">**Request Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="bdbee-118">**要求の本体**をここでは、JSON 内のサンプル要求ペイロードです。</span><span class="sxs-lookup"><span data-stu-id="bdbee-118">**Request Body** - Here is a sample request payload in JSON.</span></span> <span data-ttu-id="bdbee-119">ディメンション、フィルター、およびクエリに必要な測定が含まれています。</span><span class="sxs-lookup"><span data-stu-id="bdbee-119">It contains dimensions, filters, and measurement required for a query.</span></span>
+ <span data-ttu-id="90dd2-118">**要求の本体**をここでは、JSON 内のサンプル要求ペイロードです。</span><span class="sxs-lookup"><span data-stu-id="90dd2-118">**Request Body** - Here is a sample request payload in JSON.</span></span> <span data-ttu-id="90dd2-119">ディメンション、フィルター、およびクエリに必要な測定が含まれています。</span><span class="sxs-lookup"><span data-stu-id="90dd2-119">It contains dimensions, filters, and measurement required for a query.</span></span>
   
 ```
 {
@@ -69,24 +70,23 @@ ms.lasthandoff: 03/28/2018
 "Type": 0
 }
 }
-
 ```
 
- <span data-ttu-id="bdbee-120">*フィルター*の結果のデータ セットは、興味のあるデータのサブセットのみを反映するように適用するフィルター式の一覧です。</span><span class="sxs-lookup"><span data-stu-id="bdbee-120">*Filters*  - A list of filter expressions to be applied such that the resulting data set will reflect only the subset of the data that are of interest.</span></span>
+ <span data-ttu-id="90dd2-120">*フィルター*の結果のデータ セットは、興味のあるデータのサブセットのみを反映するように適用するフィルター式の一覧です。</span><span class="sxs-lookup"><span data-stu-id="90dd2-120">*Filters*  - A list of filter expressions to be applied such that the resulting data set will reflect only the subset of the data that are of interest.</span></span>
   
- <span data-ttu-id="bdbee-121">*ディメンション*のデータを集約するために使用されるディメンションの一覧です。</span><span class="sxs-lookup"><span data-stu-id="bdbee-121">*Dimensions*  - A list of dimensions that will be used for aggregating the data.</span></span> <span data-ttu-id="bdbee-122">1 つ以上のディメンションが必要ですが、サブの集計の追加レベルを取得するのには複数のディメンションを指定することがあります。</span><span class="sxs-lookup"><span data-stu-id="bdbee-122">At least one dimension is required but multiple dimensions may be specified to obtain additional level of sub-aggregations.</span></span>
+ <span data-ttu-id="90dd2-121">*ディメンション*のデータを集約するために使用されるディメンションの一覧です。</span><span class="sxs-lookup"><span data-stu-id="90dd2-121">*Dimensions*  - A list of dimensions that will be used for aggregating the data.</span></span> <span data-ttu-id="90dd2-122">1 つ以上のディメンションが必要ですが、サブの集計の追加レベルを取得するのには複数のディメンションを指定することがあります。</span><span class="sxs-lookup"><span data-stu-id="90dd2-122">At least one dimension is required but multiple dimensions may be specified to obtain additional level of sub-aggregations.</span></span>
   
- <span data-ttu-id="bdbee-123">*測定値*- 測定値とも呼ばれるファクトは、集計に必要な基準のリストは、指定した寸法に基づいています。</span><span class="sxs-lookup"><span data-stu-id="bdbee-123">*Measurements*  - A list of measurements, also known as facts, that are the desired metrics to be aggregated based on the dimensions you specified.</span></span>
+ <span data-ttu-id="90dd2-123">*測定値*- 測定値とも呼ばれるファクトは、集計に必要な基準のリストは、指定した寸法に基づいています。</span><span class="sxs-lookup"><span data-stu-id="90dd2-123">*Measurements*  - A list of measurements, also known as facts, that are the desired metrics to be aggregated based on the dimensions you specified.</span></span>
   
- <span data-ttu-id="bdbee-124">*傾向*の結果データをカスタマイズするのには追加のコントロールの説明です。</span><span class="sxs-lookup"><span data-stu-id="bdbee-124">*Trend*  - Additional control instructions to customize the result data.</span></span>
+ <span data-ttu-id="90dd2-124">*傾向*の結果データをカスタマイズするのには追加のコントロールの説明です。</span><span class="sxs-lookup"><span data-stu-id="90dd2-124">*Trend*  - Additional control instructions to customize the result data.</span></span>
   
- <span data-ttu-id="bdbee-125">**応答**- 応答には、HTTP ステータス コード、応答ヘッダーのセットが含まれています。</span><span class="sxs-lookup"><span data-stu-id="bdbee-125">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
+ <span data-ttu-id="90dd2-125">**応答**- 応答には、HTTP ステータス コード、応答ヘッダーのセットが含まれています。</span><span class="sxs-lookup"><span data-stu-id="90dd2-125">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
   
- <span data-ttu-id="bdbee-126">**ステータス コード**が正常終了した操作では、ステータス コード 200 (OK) を返します。</span><span class="sxs-lookup"><span data-stu-id="bdbee-126">**Status Code** - A successful operation returns status code 200 (OK).</span></span>
+ <span data-ttu-id="90dd2-126">**ステータス コード**が正常終了した操作では、ステータス コード 200 (OK) を返します。</span><span class="sxs-lookup"><span data-stu-id="90dd2-126">**Status Code** - A successful operation returns status code 200 (OK).</span></span>
   
- <span data-ttu-id="bdbee-127">**応答ヘッダー**の追加のヘッダーではありません。</span><span class="sxs-lookup"><span data-stu-id="bdbee-127">**Response Headers** - No additional headers.</span></span>
+ <span data-ttu-id="90dd2-127">**応答ヘッダー**の追加のヘッダーではありません。</span><span class="sxs-lookup"><span data-stu-id="90dd2-127">**Response Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="bdbee-128">**応答本体**の JSON のサンプル応答の内容を次に示します。</span><span class="sxs-lookup"><span data-stu-id="bdbee-128">**Response Body** - Below is a sample response payload in JSON.</span></span> <span data-ttu-id="bdbee-129">データを格納するデータ テーブルが含まれている、メタ ・ データは、クエリの実行時間とキャッシュからデータがあるかどうかが表示を含めることもできます。</span><span class="sxs-lookup"><span data-stu-id="bdbee-129">It contains a data table which contains the data, also it will contain a meta data, which shows query execution time and whether or not the data is from the cache.</span></span>
+ <span data-ttu-id="90dd2-128">**応答本体**の JSON のサンプル応答の内容を次に示します。</span><span class="sxs-lookup"><span data-stu-id="90dd2-128">**Response Body** - Below is a sample response payload in JSON.</span></span> <span data-ttu-id="90dd2-129">データを格納するデータ テーブルが含まれている、メタ ・ データは、クエリの実行時間とキャッシュからデータがあるかどうかが表示を含めることもできます。</span><span class="sxs-lookup"><span data-stu-id="90dd2-129">It contains a data table which contains the data, also it will contain a meta data, which shows query execution time and whether or not the data is from the cache.</span></span>
   
 ```
 {
@@ -122,10 +122,8 @@ ms.lasthandoff: 03/28/2018
 
 ```
 
- <span data-ttu-id="bdbee-130">*実行時*のサーバーにデータを返すにかかった時間の合計です。</span><span class="sxs-lookup"><span data-stu-id="bdbee-130">*Execution Time*  - The total time it took for the server to return the data.</span></span> <span data-ttu-id="bdbee-131">これは、キャッシュされない場合があります。</span><span class="sxs-lookup"><span data-stu-id="bdbee-131">This may or may not involve cache.</span></span>
+ <span data-ttu-id="90dd2-130">*実行時*のサーバーにデータを返すにかかった時間の合計です。</span><span class="sxs-lookup"><span data-stu-id="90dd2-130">*Execution Time*  - The total time it took for the server to return the data.</span></span> <span data-ttu-id="90dd2-131">これは、キャッシュされない場合があります。</span><span class="sxs-lookup"><span data-stu-id="90dd2-131">This may or may not involve cache.</span></span>
   
- <span data-ttu-id="bdbee-132">*データ結果*のクエリの結果です。</span><span class="sxs-lookup"><span data-stu-id="bdbee-132">*Data Result*  - The result of the query.</span></span> <span data-ttu-id="bdbee-133">ディメンションのメンバーのすべての順列とディメンションのメンバーの名前として指定された測定値の集計値を格納している各要素を含む 2 次元配列することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="bdbee-133">It is a two-dimensional array containing all permutations of the dimensions' members, and each element containing the dimensions' member names as well as the aggregated values of the specified Measurements.</span></span>
+ <span data-ttu-id="90dd2-132">*データ結果*のクエリの結果です。</span><span class="sxs-lookup"><span data-stu-id="90dd2-132">*Data Result*  - The result of the query.</span></span> <span data-ttu-id="90dd2-133">ディメンションのメンバーのすべての順列とディメンションのメンバーの名前として指定された測定値の集計値を格納している各要素を含む 2 次元配列することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="90dd2-133">It is a two-dimensional array containing all permutations of the dimensions' members, and each element containing the dimensions' member names as well as the aggregated values of the specified Measurements.</span></span>
   
- <span data-ttu-id="bdbee-134">*結果はキャッシュから*の診断です。</span><span class="sxs-lookup"><span data-stu-id="bdbee-134">*Result is From Cache*  - For diagnostics.</span></span> <span data-ttu-id="bdbee-135">QoE キューブと、キャッシュから結果が付属しているかどうかを示します。</span><span class="sxs-lookup"><span data-stu-id="bdbee-135">Indicates whether the result came from the cache or from the QoE Cube.</span></span>
-  
-
+ <span data-ttu-id="90dd2-134">*結果はキャッシュから*の診断です。</span><span class="sxs-lookup"><span data-stu-id="90dd2-134">*Result is From Cache*  - For diagnostics.</span></span> <span data-ttu-id="90dd2-135">QoE キューブと、キャッシュから結果が付属しているかどうかを示します。</span><span class="sxs-lookup"><span data-stu-id="90dd2-135">Indicates whether the result came from the cache or from the QoE Cube.</span></span>

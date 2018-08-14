@@ -12,29 +12,27 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 description: Office Web Apps サーバーでは、会議で使用するドキュメントをアップロードする発表者のようなサービスが提供されますが、以前のバージョンにはなかった追加機能が可能になりました。
-ms.openlocfilehash: af9d5667f425309dc097afa62081cedfee02791c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8bd011e47b4e4f9bf590e893e0998ddb09170154
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503432"
 ---
-# <a name="associate-front-end-with-office-web-apps-server-page"></a><span data-ttu-id="9940b-103">フロントエンドと Office Web Apps サーバーとの関連付けページ</span><span class="sxs-lookup"><span data-stu-id="9940b-103">Associate Front End With Office Web Apps Server Page</span></span>
+# <a name="associate-front-end-with-office-web-apps-server-page"></a><span data-ttu-id="b60a9-103">フロントエンドと Office Web Apps サーバーとの関連付けページ</span><span class="sxs-lookup"><span data-stu-id="b60a9-103">Associate Front End With Office Web Apps Server Page</span></span>
  
-<span data-ttu-id="9940b-104">Office Web Apps サーバーでは、会議で使用するドキュメントをアップロードする発表者のようなサービスが提供されますが、以前のバージョンにはなかった追加機能が可能になりました。</span><span class="sxs-lookup"><span data-stu-id="9940b-104">The Office Web Apps Server provides services similar to a presenter uploading a document for use in a meeting, but enables additional features that the prior versions did not.</span></span>
+<span data-ttu-id="b60a9-104">Office Web Apps サーバーでは、会議で使用するドキュメントをアップロードする発表者のようなサービスが提供されますが、以前のバージョンにはなかった追加機能が可能になりました。</span><span class="sxs-lookup"><span data-stu-id="b60a9-104">The Office Web Apps Server provides services similar to a presenter uploading a document for use in a meeting, but enables additional features that the prior versions did not.</span></span>
   
-<span data-ttu-id="9940b-105">ビジネス サーバー 2015 の構成は、Skype の機能オプションの 1 つとして会議を選択した場合を展開するため、Office Web アプリケーション サーバーを選択します。</span><span class="sxs-lookup"><span data-stu-id="9940b-105">You select an Office Web Apps Server for your deployment if you have chosen Conferencing as one of your feature options for your Skype for Business Server 2015 configuration.</span></span>
+<span data-ttu-id="b60a9-105">ビジネス サーバー 2015 の構成は、Skype の機能オプションの 1 つとして会議を選択した場合を展開するため、Office Web アプリケーション サーバーを選択します。</span><span class="sxs-lookup"><span data-stu-id="b60a9-105">You select an Office Web Apps Server for your deployment if you have chosen Conferencing as one of your feature options for your Skype for Business Server 2015 configuration.</span></span>
   
-<span data-ttu-id="9940b-106">このダイアログのオプションでは、次の選択肢が表示されます。</span><span class="sxs-lookup"><span data-stu-id="9940b-106">The options in this dialog present you with these choices:</span></span>
+<span data-ttu-id="b60a9-106">このダイアログのオプションでは、次の選択肢が表示されます。</span><span class="sxs-lookup"><span data-stu-id="b60a9-106">The options in this dialog present you with these choices:</span></span>
   
-1. <span data-ttu-id="9940b-107">**Office Web アプリケーション サーバーとプールを関連付ける**を提供し、会議のユーザーに Office の Web アプリケーション サーバーを展開する場合にこのチェック ボックスをオンします。</span><span class="sxs-lookup"><span data-stu-id="9940b-107">**Associate pool with an Office Web Apps Server** - You select this check box if you will provide and deploy an Office Web Apps Server for your conferencing users.</span></span>
+1. <span data-ttu-id="b60a9-107">**Office Web アプリケーション サーバーとプールを関連付ける**を提供し、会議のユーザーに Office の Web アプリケーション サーバーを展開する場合にこのチェック ボックスをオンします。</span><span class="sxs-lookup"><span data-stu-id="b60a9-107">**Associate pool with an Office Web Apps Server** - You select this check box if you will provide and deploy an Office Web Apps Server for your conferencing users.</span></span>
     
-2. <span data-ttu-id="9940b-108">このチェック ボックスをオンにした場合、リストを使用して、すでに定義済みの Office Web Apps サーバーを選択します。</span><span class="sxs-lookup"><span data-stu-id="9940b-108">If you have selected the check box, you use the list to select an already defined Office Web Apps Server.</span></span>
+2. <span data-ttu-id="b60a9-108">このチェック ボックスをオンにした場合、リストを使用して、すでに定義済みの Office Web Apps サーバーを選択します。</span><span class="sxs-lookup"><span data-stu-id="b60a9-108">If you have selected the check box, you use the list to select an already defined Office Web Apps Server.</span></span>
     
-3. <span data-ttu-id="9940b-109">[**新規**] をクリックして、展開用の新しい Office Web Apps サーバーを定義します。</span><span class="sxs-lookup"><span data-stu-id="9940b-109">Click **New** to define a new Office Web Apps Server for your deployment.</span></span>
+3. <span data-ttu-id="b60a9-109">[**新規**] をクリックして、展開用の新しい Office Web Apps サーバーを定義します。</span><span class="sxs-lookup"><span data-stu-id="b60a9-109">Click **New** to define a new Office Web Apps Server for your deployment.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="9940b-110">関連項目</span><span class="sxs-lookup"><span data-stu-id="9940b-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b60a9-110">関連項目</span><span class="sxs-lookup"><span data-stu-id="b60a9-110">See also</span></span>
 
-#### 
-
-[<span data-ttu-id="9940b-111">リバース プロキシ サーバーを使用して、Office Web アプリケーション サーバーの公開</span><span class="sxs-lookup"><span data-stu-id="9940b-111">Publishing Office Web Apps Server Using a Reverse Proxy Server</span></span>](http://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)
-
+[<span data-ttu-id="b60a9-111">リバース プロキシ サーバーを使用して、Office Web アプリケーション サーバーの公開</span><span class="sxs-lookup"><span data-stu-id="b60a9-111">Publishing Office Web Apps Server Using a Reverse Proxy Server</span></span>](http://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)
