@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: tblPrincipalType には、tblPrincipal テーブルに含まれるものを分類するためにプリンシパルの種類が含まれています。
-ms.openlocfilehash: 3d1ec9b83561f06d3f8b1871223aafdf5c0775cb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d5c710e1301344c853ef39aeff3b57f62c630c95
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19505126"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -22,7 +23,7 @@ tblPrincipalType には、tblPrincipal テーブルに含まれるものを分�
   
 **列**
 
-|**列**|**タイプ**|**説明**|
+|**列**|**種類**|**説明**|
 |:-----|:-----|:-----|
 |ptypeID  <br/> |smallint、null でないです。  <br/> |プリンシパルの種類の id。  <br/> |
 |ptypeDesc  <br/> |nvarchar (256)、null でないです。  <br/> |型の説明です。  <br/> |
@@ -50,7 +51,4 @@ tblPrincipalType には、tblPrincipal テーブルに含まれるものを分�
    
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [tblPrincipal](tblprincipal.md)
-

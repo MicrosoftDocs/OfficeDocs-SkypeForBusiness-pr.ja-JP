@@ -1,7 +1,7 @@
 ---
 title: ビジネス サーバー 2015 の Skype のデスクトップ クライアントの機能の比較
 ms.author: jambirk
-author: jambirk
+author: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: '概要: どのような機能がどのクライアントでサポートされているを理解するのにこれらのテーブルを使用できるは、ビジネス サーバー 2015 の Skype または Skype オンライン ビジネス管理者の。'
-ms.openlocfilehash: 2a65dcf1825bac80cc002962ce589e851ea2d3b3
-ms.sourcegitcommit: 3d7b62f24db33f9685d8dc08561394c434705a88
+ms.openlocfilehash: 73d25486544c4832b9fe30235128c8c3d4c5ae82
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "21223925"
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22391820"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype のデスクトップ クライアントの機能の比較
  
@@ -102,6 +102,7 @@ Skype のビジネスをオンラインで利用可能なビジネス サーバ�
 |インク メッセージの送信  <br/> ||||& #x 2714 です。||||||
 |インク メッセージの受信  <br/> |& #x 2714 です。||& #x 2714 です。|& #x 2714 です。||||||
 |IM メッセージを「重要度 - 高」として設定  <br/> |& #x 2714 です。||& #x 2714 です。|||||||
+|ピア ツー ピア IM 会話内のファイルを転送します。<br/> |& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|||& #x 2714 です。|
    
 ## <a name="meetings-support"></a>会議のサポート
 <a name="BKMK_Conferencing"> </a>
@@ -288,4 +289,4 @@ Skype 間のセッションで、Skype for Business Online プラン 1 のユー
 
 [クライアントおよびデバイスの計画](clients-and-devices.md)
 
-[Windows インストーラー (MSI) を使用するビジネス用の Skype のバージョンの最新の更新プログラム](../../sfb-client-updates.md)
+[Windows インストーラー (MSI) を使用する Skype for Business の各バージョンに対する最新の更新プログラム](../../sfb-client-updates.md)

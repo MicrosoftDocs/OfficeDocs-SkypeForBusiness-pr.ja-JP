@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: db402ac4-4c30-405e-b322-6aae5df81f46
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順についてはオンライン Skype で VIS プールを作成するビジネス サーバー 2015 のください。
-ms.openlocfilehash: 3e4d39a54fbb165ea49be330cec2361e4d3619bc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: beb867319181bcda1a532d7446e70e87e71150f3
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503852"
 ---
 # <a name="add-vis-usage"></a>VIS 使用法の追加
  
@@ -32,7 +33,4 @@ Windows PowerShell を使用して、サーバー上のビデオの相互運用�
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[ビジネス サーバー 2015 の Skype でのビデオの相互運用サーバーの計画](../../plan-your-deployment/video-interop-server.md)
-
+[Skype for Business Server 2015 のビデオ相互運用サーバーの計画](../../plan-your-deployment/video-interop-server.md)

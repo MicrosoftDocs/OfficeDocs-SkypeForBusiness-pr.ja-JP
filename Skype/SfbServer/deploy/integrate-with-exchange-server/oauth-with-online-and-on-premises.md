@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: OAuth を構成するオンライン ビジネスの社内の Exchange と Skype との間の認証は、ビジネスおよび Exchange の統合機能の機能のサポート」に記載の Skype を使用できます。
-ms.openlocfilehash: adb811a8934fdc6ea574dc934efa57ee28e6fba6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: cb822dd183e913fd1b3258cc136572380592733f
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22138610"
 ---
 # <a name="configure-oauth-between-skype-for-business-online-and-exchange-on-premises"></a>オンプレミスの Exchange と Skype for Business Online 間での OAuth の構成
  
@@ -71,7 +72,6 @@ Set-MailUser -Identity $user.Identity -HiddenFromAddressListsEnabled $True -Doma
   
 ```
 New-ManagementRoleAssignment -Role UserApplication -User $user.Identity -DomainController <DomainControllerFQDN> 
-
 ```
 
 ```
@@ -142,7 +142,7 @@ Exchange 組織用の検証済みのドメインを指定します。 このド�
 > [!NOTE]
 > 次のスクリプトを正常に実行するには、先のセクションの手順 4 で説明したように、Azure Active Directory 用 Windows PowerShell を Microsoft Online Azure AD テナントに接続することが必要です。 
   
-1. 次のテキストを、たとえば RegisterEndpoints.ps1 という名前の PowerShell スクリプト ファイルに保存します。 この例では、ワイルドカードを使用して、contoso.com のすべてのエンドポイントを登録します。Contoso.com を交換して、オンプレミスの Exchange 組織のホスト名の権限を持つ
+1. 次のテキストを、たとえば RegisterEndpoints.ps1 という名前の PowerShell スクリプト ファイルに保存します。 この例では、contoso.com のすべてのエンドポイントを登録するためにワイルドカードを使用しています。 Contoso.com を交換して、オンプレミスの Exchange 組織のホスト名の権限を持つ
     
   ```
   $externalAuthority="*.<your Verified Domain>" 
@@ -167,4 +167,8 @@ Outlook の [会話履歴] フォルダーにモバイル クライアントの�
     
 4. このユーザーに対して Outlook を起動し、Outlook の [会話履歴] フォルダーに会話が表示されることを確認します。
     
+代わりに、トラフィックを見てください。 OAuth のハンド シェークのトラフィックが非常に特徴的な (そして基本認証と同様に表示されない)、特に領域、どこを開始するために次のような発行元のトラフィックを参照してください: @ 00000004-0000-0ff1-ce00-000000000000 (こともありますが、前@ 記号)、渡されるトークンです。 ユーザー名またはパスワード、OAuth のポイントは表示されません。 ですが、'Office' の発行元が表示されます – ここでは「4」業務と、サブスクリプション レルムの Skype。
 
+場合は必ず正常に OAuth を使用している、確認しておきます内容を予測して、どのようなトラフィックのようになります知っています。 [予想される結果を次のとおりです](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)が、ここでは、ごく標準的な[Microsoft アプリケーションで、OAuth トラフィックの例](http://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf)(読み取り、更新トークンを使用しないが非常に役立ちます)、あり、Fiddler の拡張機能に、OAuth JWT (JSON を表示できるようになります。Web トークン)。 
+
+[を設定するには 1 つの例](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/)を次のとおりですが、このプロセスに着手するときに任意のネットワーク トレース ツールを使用することができます。

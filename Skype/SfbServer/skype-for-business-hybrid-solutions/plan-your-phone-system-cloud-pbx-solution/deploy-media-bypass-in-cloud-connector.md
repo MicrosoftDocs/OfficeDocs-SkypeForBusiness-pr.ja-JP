@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: クラウド コネクタ版 version 2.0 以降でメディアをバイパスを展開する手順については、このトピックを参照してください。
-ms.openlocfilehash: 61beeec57bf245b899a898beb7bca8b14e462dca
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 4d0400682702c528e9e1ccb324731378d8c09b2c
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246688"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Cloud Connector エディションでメディア バイパスを展開する
  
@@ -43,7 +44,7 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 
 メディア バイパスの有効化は 2 つのプロセスで行います。 New-CsNetworkMedia コマンドレットでは、新しい構成がすぐに保存されません。メモリ内に設定が作成されるだけです。 このコマンドレットで作成したオブジェクトを変数として保存し、ネットワーク構成の MediaBypassSettings プロパティに割り当てる必要があります。 詳細についてを参照してください[の使用例: メディアが複雑な複数サイトの環境で web サイトの DNS レコードを使用しない](deploy-media-bypass-in-cloud-connector.md#Example)。
   
-設置とオンラインのコンポーネント間のレプリケーションで、ユーザーを有効にする前に必要なコマンドを実行することをお勧めします、最大 24 時間がかかる場合があります。
+オンプレミスとオンライン コンポーネント間のレプリケーションには最長で 24 時間かかります。したがって、ユーザーを有効化する前に必要なコマンドを実行しておくことをお勧めします。
   
 ## <a name="confirm-media-bypass-settings"></a>メディア バイパス設定を確認する
 
@@ -54,7 +55,6 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 Get-CsTenantHybridConfiguration -LocalStore
 Get-CsNetworkConfiguration -LocalStore
-
 ```
 
 設置型のレプリケーションを確認して、クラウドのコネクタの仲介サーバーに接続、PowerShell で次のコマンドを実行、ことを確認するその Enabled = True と AlwaysBypass = True
@@ -67,7 +67,7 @@ Get-CsNetworkConfiguration -LocalStore
   
 1. %appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog を開きます。 
     
-2. Hybridconfigserviceinternalurl を検索し、定義した URL に一致することを確認します。
+2. hybridconfigserviceinternalurl を探して、定義した URL とそこに表示されている URL が一致することを確認します。
     
 ## <a name="change-media-bypass-parameters"></a>メディア バイパス パラメータを変更する
 
@@ -179,11 +179,12 @@ Windows 2016 DNS ポリシーの詳細については、[地理的な場所ベ�
 4. クライアント サブネットを適切なゾーン範囲に接続する DNS ポリシーを作成して、DNS が確実に解決されるようにします。
     
 この時点では、hybridvoice.adatum.biz のアムステルダムのサブネットから DNS クエリーを実行しているクライアントは 192.168.1.45、192.168.1.46、192.168.1.47、192.168.1.48 のアドレスを返します。その一方で、シアトルから同様のクエリーを実行しているクライアントは 10.10.1.8、10.10.1.9、10.10.1.10 を返します。
+
+> [!NOTE]
+> CCE アプライアンスは、更新された設定を取得するように思える場合、は、アプライアンスをリモート PowerShell を使用してテナントに接続できるかどうかを確認してください。 Get CsHybridPSTNAppliance とアプライアンスの状態を確認するか、Get CcApplianceStatus の状態を確認する CCE ホストで PowerShell を使用するリモート PowerShell を使用できます。
+
   
 ## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
 <a name="Example"> </a>
 
-#### 
-
-[クラウド コネクタのエディションでのメディア バイ パスを計画します。](plan-for-media-bypass-in-cloud-connector-edition.md)
-
+[Cloud Connector エディションでのメディア バイパスを計画する](plan-for-media-bypass-in-cloud-connector-edition.md)

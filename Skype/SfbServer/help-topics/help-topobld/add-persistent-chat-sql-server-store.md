@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8e6064a-8127-4c25-8685-06f49d8bbfce
 description: 永続的なチャット サーバーまたはプールの永続的なチャット サーバーのデータベースを提供する SQL Server ストアを構成するとします。
-ms.openlocfilehash: 062092ff60fa30f7b8ac19725a12a3f62e1b9ec6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 58c18c7ae541ff4413e6cbaf17c2d4ad8933c191
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503719"
 ---
 # <a name="add-persistent-chat-sql-server-store"></a>常設チャット SQL Server ストアの追加
  
@@ -46,17 +47,14 @@ SQL Server データベースおよび永続的なチャットのデータのミ
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの計画](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Skype for Business Server 2015 の常設チャット サーバーの計画](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
 [ビジネス サーバー 2015 トポロジの場合、Skype に永続的なチャット サーバーを追加します。](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
   
-[ビジネス サーバー 2015 の Skype での永続的なチャット サーバーのハードウェアおよびソフトウェアの要件](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
+[Skype for Business Server 2015 の常設チャット サーバーのハードウェアおよびソフトウェア要件](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
   
-[ビジネス サーバー 2015 の Skype のサーバーの要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Skype for Business Server 2015 のサーバー要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[ビジネス サーバー 2015 の Skype のトポロジーの基本事項](../../plan-your-deployment/topology-basics/topology-basics.md)
+[Skype for Business Server 2015 のトポロジの基本](../../plan-your-deployment/topology-basics/topology-basics.md)
   
-[ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの高可用性と障害回復を構成します。](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
-
+[Skype for Business Server 2015 での常設チャット サーバーの高可用性および障害復旧の構成](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)

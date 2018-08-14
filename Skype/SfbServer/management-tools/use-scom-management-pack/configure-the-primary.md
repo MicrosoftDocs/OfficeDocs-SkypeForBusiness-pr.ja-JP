@@ -11,15 +11,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: '概要: は、プライマリ管理サーバーを構成する、System Center Operations Manager をインストールして、Skype のビジネス サーバー 2015 の管理パックをインポートします。'
-ms.openlocfilehash: 6554ddc3fbe99ba70663b72794eb59dfc5d0d3e3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5495b2752143995c5ad054b460542554e33d355a
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569952"
 ---
 # <a name="configure-the-primary-management-server"></a>プライマリ管理サーバーの構成
  
-**の概要:**プライマリ管理サーバーを構成して、System Center Operations Manager をインストール Skype のビジネス サーバー 2015 の管理パックをインポートします。
+**の概要:** プライマリ管理サーバーを構成して、System Center Operations Manager をインストール Skype のビジネス サーバー 2015 の管理パックをインポートします。
   
 新しい状態監視の業務サーバー 2015 の Skype に含まれている機能を最大限に活用するには、プライマリ管理サーバーとして動作するコンピューターを指定する必要があります。 そのコンピューターにシステム センター操作マネージャーの 2012 SP1 または R2 またはシステム センターの Operations Manager 2007 R2 をインストールする必要があります。 さらに、まず、Operations Manager のバックエンド データベースとして機能する SQL Server のサポートされているバージョンをインストールする必要があります。
   
@@ -109,5 +110,3 @@ System Center Operations Manager をインストールするときは、その�
   ```
   Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2015.Monitoring.ComponentAndUser.mp"
   ```
-
-

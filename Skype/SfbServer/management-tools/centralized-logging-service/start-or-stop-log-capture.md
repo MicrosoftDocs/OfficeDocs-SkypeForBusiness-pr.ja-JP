@@ -11,15 +11,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: '概要: 開始またはビジネス サーバー 2015 の Skype のログ サービスの一元的なログのキャプチャ セッションを停止する方法を説明します。'
-ms.openlocfilehash: 81db8c521f96306e118ebe5fe8053ff6e849dd54
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: dee3a9cd1b5feaf241795de6595f755b3f321409
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19570158"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での CLS ログ キャプチャの開始または終了
  
-**の概要:**開始またはビジネス サーバー 2015 の Skype のログ サービスの一元的なログのキャプチャ セッションを停止する方法について説明します。
+**の概要:** 開始またはビジネス サーバー 2015 の Skype のログ サービスの一元的なログのキャプチャ セッションを停止する方法について説明します。
   
 集中ログ サービスを使用してトレース ログをキャプチャするには、コンピューターとプールの 1 つまたは複数のログを記録するコマンドを発行します。 どのコンピューターまたはプールを AlwaysOn、別の事前定義されたシナリオでは、やなどを作成した場合)、実行するには、どのようなシナリオを定義するパラメーターも発行するビジネス サーバー コンポーネント (たとえば、S4、SipStack) をトレースするのには、どのような Skype。
   
@@ -70,11 +71,10 @@ ms.lasthandoff: 03/28/2018
     
 2. 追加のパラメーターを使用して、このログ記録コマンドを管理できます。 -を使用することができますを実行するシナリオでは、時間の長さを調整する期間です。 定義することも、コンピューター、コンピューターの完全修飾ドメイン名 (Fqdn)、コンマで区切られたリストまたは、プールでは、コンマ区切りのログオンを実行するプールの Fqdn の一覧です。
     
-    プール"pool01.contoso.net"の UserReplicator のシナリオでログ セッションを開始するとします。 また、このログ セッションの期間を 8 時間に指定します。 この場合、次のように入力します。
+    UserReplicator というシナリオによるログ セッションをプール “pool01.contoso.net” で開始するとします。 また、このログ セッションの期間を 8 時間に指定します。 この場合、次のように入力します。
     
   ```
   Start-CsClsLogging -Scenario UserReplicator -Duration 8:00 -Pools "pool01.contoso.net"
-
   ```
 
     このシナリオが正常に実行されると、次のような結果が返されます。
@@ -139,7 +139,4 @@ Start-CsClsLogging と対になる Stop-CsClsLogging コマンドレットは、
 ## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
 <a name="stop"> </a>
 
-#### 
-
-[ビジネス 2015年の Skype での一元的なログ記録サービス](centralized-logging-service.md)
-
+[Skype for Business 2015 の集中ログ サービス](centralized-logging-service.md)

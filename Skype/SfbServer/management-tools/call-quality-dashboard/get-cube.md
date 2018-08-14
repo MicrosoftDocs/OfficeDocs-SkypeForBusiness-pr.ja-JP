@@ -11,15 +11,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
 description: '概要: は、品質のダッシュ ボードを呼び出すためのデータ API の一部では、キューブの取得操作について説明します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。'
-ms.openlocfilehash: e39a88e249dc807b201b08d966285d93ae7f82a6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: bbb2419fb66f6ecf397a2ccbcb4fe2858ce0d8fe
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569146"
 ---
 # <a name="get-cube"></a>キューブを取得します。
  
-**の概要:**品質のダッシュ ボードを呼び出すためのデータ API の一部では、キューブの取得操作について説明します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。
+**の概要:** 品質のダッシュ ボードを呼び出すためのデータ API の一部では、キューブの取得操作について説明します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。
   
 キューブの取得操作は、品質のダッシュ ボードを呼び出すためのデータ API の一部です。
   
@@ -88,7 +89,6 @@ ms.lasthandoff: 03/28/2018
 "Description": "Description of Audio Good Streams JPDR Count"
 }]
 }
-
 ```
 
  *Kpi*に予約されています。 要求ペイロードの Kpi セクションは、キューブで定義されている Kpi の値を返すクエリの実行操作を使用します。 Kpi が存在しない QoE キューブにまだです。

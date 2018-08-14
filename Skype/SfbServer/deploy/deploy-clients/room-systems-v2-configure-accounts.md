@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Exchange Skype ルーム システム v2 のアカウントを構成し、ビジネスの Skype の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 8284795df5f3cc50db0a4089deb9755239e5876e
-ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
+ms.openlocfilehash: 8b0858d3d1ec5523ad95b74989a594a1cebc7848
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19887899"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967783"
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>Skype ルーム システム v2 用のアカウントを構成します。
  
@@ -28,11 +28,11 @@ Skype ルーム システム v2 と交換し、ビジネスの Skype を統合�
   
 - オンラインの展開: 組織の環境を Office 365 の完全に展開します。 詳細については、 [Office 365 で v2 を Skype ルーム システムの展開](with-office-365.md)を参照してください。
     
-- 設置型展開: 組織が、制御しているサーバーは、Active Directory、Exchange、およびビジネス サーバー 2015 の Skype がホストされています。 詳細については、[ビジネス サーバー 2015 の Skype で v2 を Skype ルーム システムの展開](with-skype-for-business-server-2015.md)を参照してください。
+- 設置型展開: 組織が、制御しているサーバーは、Active Directory、Exchange、および Skype のビジネス サーバーがホストされています。 詳細については、[業務サーバーの Skype で v2 を Skype ルーム システムの展開](with-skype-for-business-server-2015.md)を参照してください。
     
 - ハイブリッド展開: 設置型およびいくつかの Office 365 を通じてオンラインでホストでホストされているいくつかのサービスを組み合わせています。 Skype ルーム システム v2 では、ハイブリッドの次のシナリオがサポートされています。 
     
-  - Exchange Online の社内のビジネス サーバー 2015 の Skype で。 詳細については、 [Exchange オンライン (ハイブリッド) と v2 を Skype ルーム システムの展開](with-exchange-online.md)を参照してください。
+  - Exchange オンライン ビジネス上のサーバー設置型の Skype で。 詳細については、 [Exchange オンライン (ハイブリッド) と v2 を Skype ルーム システムの展開](with-exchange-online.md)を参照してください。
     
   - ビジネス オンラインの Skype では、社内設置型に交換します。 詳細については、[設置型 (ハイブリッド) 上での交換と v2 を Skype ルーム システムの展開](with-exchange-on-premises.md)を参照してください。
     
@@ -62,7 +62,7 @@ Skype ルーム システム v2 では、Active Directory、Exchange、および
 
 これらのプロパティでは、Skype ルーム システム v2 を使用するユーザー アカウントの最小構成を表します。 ユーザー アカウントによっては、追加のセットアップが必要な場合があります。
   
-|**プロパティ**|**目的**|
+|**プロパティ**|**用途**|
 |:-----|:-----|
 |Exchange メールボックス (Exchange 2013 SP1 以降、または Exchange のオンライン)  <br/> |Exchange メールボックスを持つアカウントを有効にすると、受信し、会議出席依頼、およびメールの両方を送信し、Skype ルーム システム v2 デバイス上の会議の予定表を表示する機能、ユーザー アカウントが与えられます。 Skype ルーム システム v2 のメールボックスは、会議室メールボックスである必要があります。  <br/> |
 |ビジネス用の Skype が有効になっています。  <br/> |ビデオ通話、IM、および画面共有など、さまざまな会議機能を使用するためには、ビジネス用の Skype を有効にする必要があります。 ビジネス オンラインの Skype と Skype のビジネス サーバーの両方がサポートされています。  <br/> |
@@ -72,19 +72,19 @@ Skype ルーム システム v2 では、Active Directory、Exchange、および
 
 プロパティの中に基本的な構成が単純な環境で設定するユーザー アカウントを許可するには環境は、Skype ルーム システム v2 を正常に使用するために満たす必要のあるディレクトリのアカウントにその他の制限を持っている可能性のある、ユーザー アカウントです。
   
-|**プロパティ**|**目的**|
+|**プロパティ**|**用途**|
 |:-----|:-----|
 |証明書ベースの認証  <br/> |証明書は、Exchange と Skype のビジネス サーバーの両方に必要な可能性があります。 証明書を展開するには、管理者としてログインしたときに証明書をロードできます。  <br/> |
    
 ユーザー アカウントを設定する最も簡単な方法では、リモートの Windows PowerShell を使用してそれらを構成します。 マイクロソフトでは、 [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)、新しいユーザー アカウントを作成または Skype ルーム システム v2 の互換性のあるユーザー アカウントにそれらを有効にするためにある既存のリソース アカウントの検証を支援するスクリプトを提供します。
   
-Windows PowerShell コマンドレット経由で Office 365 の UI を使用する場合は、いくつかの手順を手動で実行することができます。 [Office 365 を使用してデバイスのアカウントを作成する](https://technet.microsoft.com/itpro/surface-hub/create-a-device-account-using-office-365)を参照してください。
+Windows PowerShell コマンドレット経由で Office 365 の UI を使用する場合は、いくつかの手順を手動で実行することができます。 [Office 365 を使用してデバイスのアカウントを作成する](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365)を参照してください。
   
 ## <a name="see-also"></a>関連項目
 
-[Skype ルームの計画システム v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Skype Room Systems バージョン 2 の計画](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Skype ルーム システム v2 のコンソールを構成します。](console.md)
+[Skype Room Systems バージョン 2 コンソールを構成する](console.md)
   
-[Skype ルームの管理システム v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Skype Room Systems バージョン 2 を管理する](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 

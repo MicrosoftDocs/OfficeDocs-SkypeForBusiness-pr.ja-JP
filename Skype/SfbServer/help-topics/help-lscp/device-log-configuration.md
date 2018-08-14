@@ -1,7 +1,7 @@
 ---
 title: デバイス ログの構成
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 description: デバイス更新 Web サービスは、デバイス更新アクティビティが記録されるログ ファイルを自動的に作成します。 組織のデータ管理戦略の一環として、ログ データのキャッシュのサイズ、ログ ファイルのサイズ、またはパージされる前にログ ファイルが保持される期間の長さのしきい値を設定する可能性があります。 組織の要件に従って、これらの設定を変更することができます。 デバイス更新 Web サービスが自動的にログ ファイルを削除しないようにした場合は、ログ ファイルを必要に応じて手動で削除する必要があります。 ログ設定はグローバルに、またはサイトごとに変更できます。
-ms.openlocfilehash: e5a88c7437b654846fd464133b953465cd5d3e2a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7fcd2ff0ff09daec267bbc80e70c2cb0e374c5ee
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503446"
 ---
 # <a name="device-log-configuration"></a>デバイス ログの構成
  
@@ -48,7 +49,7 @@ ms.lasthandoff: 03/28/2018
     
 - **編集**一覧でデバイス ログ構成のオプションを変更することができます。 このオプションを使用すると、以下を実行できます、します。
     
-  - **詳細を表示します。**このオプションは、デバイスのログの構成のオプションを変更できるダイアログ ボックスを開きます。
+  - **詳細を表示します。** このオプションは、デバイスのログの構成のオプションを変更できるダイアログ ボックスを開きます。
     
   - **すべてを選択**一覧にすべてのデバイスのログ構成を選択します。
     
@@ -58,7 +59,4 @@ ms.lasthandoff: 03/28/2018
     
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [デバイス更新アクティビティのログ ファイルの設定を変更します。](http://technet.microsoft.com/library/9b57f126-1853-43b3-bbd4-06401e6498bd.aspx)
-

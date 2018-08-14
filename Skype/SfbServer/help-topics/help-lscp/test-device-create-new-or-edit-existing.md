@@ -1,7 +1,7 @@
 ---
 title: テスト デバイスの新規作成または既存の編集
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -11,12 +11,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
-description: テスト デバイス機能はデバイス更新機能と連携して動作します。 デバイスのテスト] ページにテスト デバイスを追加し、このデバイスを使用して本番デバイスに更新プログラムを展開する前に新しい更新プログラムの機能を検証できます。 デバイスをグローバルに (環境全体を使用して) テストしたり、単独のサイト内でテストしたりできます。 テスト デバイスは、そのメディア アクセス制御 (MAC) アドレスまたはシリアル番号で識別します。 デバイスを追加するとき、一覧に表示されます、[テスト デバイス] ページで、Skype のビジネス サーバーのコントロール パネルの。
-ms.openlocfilehash: 765bd7db9cbce369a92d3bb532076e480374ebb4
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: テスト デバイス機能はデバイス更新機能と連携して動作します。 [テスト デバイス] ページにテスト デバイスを追加すると、新しい更新プログラムをプロダクション デバイスに展開する前に、このデバイスを使用して更新プログラムの機能を検証できます。 デバイスをグローバルに (環境全体を使用して) テストしたり、単独のサイト内でテストしたりできます。 テスト デバイスは、そのメディア アクセス制御 (MAC) アドレスまたはシリアル番号で識別します。 デバイスを追加するとき、一覧に表示されます、[テスト デバイス] ページで、Skype のビジネス サーバーのコントロール パネルの。
+ms.openlocfilehash: 67b43120fd5dbb6d7c2ad887e2c8604ac63ad182
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503866"
 ---
 # <a name="test-device-create-new-or-edit-existing"></a>テスト デバイス: 新規作成または現在の形式のままで編集
  
@@ -51,8 +52,6 @@ ms.lasthandoff: 05/24/2018
 デバイスのテストについての詳細は、操作マニュアルの[更新プログラムの機能をテストするデバイスの追加](http://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx)を参照してください。
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [テスト デバイス](test-device.md)
 
 [新しい-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
@@ -60,4 +59,3 @@ ms.lasthandoff: 05/24/2018
 [セット CsTestDevice](https://docs.microsoft.com/powershell/module/skype/set-cstestdevice?view=skype-ps)
   
 [組織内のデバイスのソフトウェア更新プログラムを表示](http://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)
-

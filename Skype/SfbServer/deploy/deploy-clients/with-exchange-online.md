@@ -3,7 +3,6 @@ title: Skype Room Systems バージョン 2 と Exchange Online を展開する
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/18/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Exchange オンラインで Skype ルーム システム v2 を展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: dad47f56d96da0f84383b2638684c65554e5a8f9
-ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
+ms.openlocfilehash: b413168d04123256472e6d01cb8cd1858619a714
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19887892"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974673"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>Skype Room Systems バージョン 2 と Exchange Online を展開する 
  
@@ -85,7 +84,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 3. このアカウントのパスワードを入力します。確認のためにもう一度入力する必要があります。[**パスワードを無期限にする**] チェック ボックスだけがオンになっていることを確認します。
     
     > [!NOTE]
-    > **パスワードを無期限にする**を選択することは、Skype ルーム システム v2 のビジネス サーバー 2015 の Skype の要件です。 ドメイン ルールによって無期限のパスワードが禁止される場合があります。 その場合は、Skype ルーム システム v2 のユーザー アカウントごとに例外を作成する必要があります。
+    > **パスワードを無期限にする**を選択することは、Skype ルーム システム v2 に Skype ビジネス サーバーのための必要条件です。 ドメイン ルールによって無期限のパスワードが禁止される場合があります。 その場合は、Skype ルーム システム v2 のユーザー アカウントごとに例外を作成する必要があります。
   
 4. アカウントを作成するには、**[完了]** をクリックします。
     
@@ -93,7 +92,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
     
 ### <a name="assign-an-office-365-license"></a>Office 365 ライセンスを割り当てる
 
-1. ユーザー アカウントは、Exchange およびビジネス サーバー 2015 の Skype が動作することを確認するのには有効な Office 365 ライセンスを所有する必要があります。 ライセンスがあれば、利用場所を割り当てるユーザー アカウントにする必要があります-どのようなライセンスは、アカウントの利用可能な決定です。
+1. ユーザー アカウントは、Exchange と Skype のビジネス サーバーが動作することを確認するのには有効な Office 365 ライセンスを所有する必要があります。 ライセンスがあれば、利用場所を割り当てるユーザー アカウントにする必要があります-どのようなライセンスは、アカウントの利用可能な決定です。
     
 2. 次に、Get MsolAccountSku を使用して、Office 365 テナントの使用可能な Sku の一覧を取得します。
     
@@ -106,7 +105,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    ```
 
 
-### <a name="enable-the-user-account-with-skype-for-business-server-2015"></a>Skype for Business Server 2015 でユーザー アカウントを有効にする
+### <a name="enable-the-user-account-with-skype-for-business-server"></a>ビジネス サーバーの Skype でのユーザー アカウントを有効にします。
 
 1. 次のように PC からリモートの Windows PowerShell セッションを作成します。
     
@@ -116,19 +115,19 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
     Import-PSSession $cssess -AllowClobber
     ```
 
-2. ビジネス サーバー 2015 の Skype の Skype ルーム システム v2 アカウントを有効にするするには、このコマンドを実行します。
+2. ビジネスのサーバーでは、Skype の Skype ルーム システム v2 アカウントを有効にするには、このコマンドを実行します。
     
    ```
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
    ```
 
-    このコマンドを使用してサーバー 2015 のビジネス ユーザーの既存の Skype から値を取得するには、環境内の RegistrarPool パラメーターを使用するのにはどのような値がわからない場合
+    ビジネス サーバーのユーザーがこのコマンドを使用して既存の Skype から値を取得するには、環境内の RegistrarPool パラメーターを使用するのにはどのような値がわからない場合
     
    ```
    Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
 
-### <a name="assign-a-skype-for-business-server-2015-license-to-your-skype-room-systems-v2-account"></a>Skype for Business Server 2015 のライセンスを Skype Room Systems バージョン 2 アカウントに割り当てる
+### <a name="assign-a-skype-for-business-server-license-to-your-skype-room-systems-v2-account"></a>ビジネス サーバー ライセンス、Skype アカウントに割り当てる、Skype ルーム システム v2
 
 1. テナント管理者としてログイン、Office 365 管理ポータルを開くし、管理アプリケーションでをクリックします。
     
@@ -149,11 +148,11 @@ Skype for Business (プラン 3)] を選択します。 Skype ルーム シス�
 
 [Skype ルーム システム v2 用のアカウントを構成します。](room-systems-v2-configure-accounts.md)
 
-[Skype ルームの計画システム v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Skype Room Systems バージョン 2 の計画](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Skype の部屋を配置するシステム v2](room-systems-v2.md)
+[Skype Room System バージョン 2 を展開する](room-systems-v2.md)
   
-[Skype ルーム システム v2 のコンソールを構成します。](console.md)
+[Skype Room Systems バージョン 2 コンソールを構成する](console.md)
   
-[Skype ルームの管理システム v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Skype Room Systems バージョン 2 を管理する](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 

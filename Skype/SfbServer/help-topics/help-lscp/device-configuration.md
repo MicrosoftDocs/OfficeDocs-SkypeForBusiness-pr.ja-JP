@@ -1,7 +1,7 @@
 ---
 title: デバイス構成
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 description: デバイスの構成は、全体またはサイト内のいずれか、ビジネス電話のエディション デバイスでは、Skype を管理するために使用される設定のコレクションです。 これらの設定を使用すると、必須のセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定、非アクティブな電話を指定の時間の経過後に自動的にロックするかどうかなどを構成できます。
-ms.openlocfilehash: 20afbcfb48e5e556e017e67b283070e597d32295
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 14314e32c4ed277a1d823bfc3671f9b126f977e4
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503201"
 ---
 # <a name="device-configuration"></a>デバイス構成
  
@@ -52,9 +53,6 @@ ms.lasthandoff: 05/24/2018
     
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[デバイスの構成: 新規作成または既存の編集](device-configuration-create-new-or-edit-existing.md)
+[デバイス構成: 新規作成または現在の形式のままで編集](device-configuration-create-new-or-edit-existing.md)
 
 [セット CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
-

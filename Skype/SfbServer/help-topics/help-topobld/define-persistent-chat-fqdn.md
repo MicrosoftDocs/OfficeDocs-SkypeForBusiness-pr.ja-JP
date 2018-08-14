@@ -11,12 +11,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
-description: 新しい永続的なチャットのサーバーまたは新しい永続的なチャット プールの定義ウィザードを使用して永続的なチャット サーバー プールを作成するとします。 複数コンピューターのプール] または [単一コンピューターのプールを選択します。 単一コンピューター プールを選択し、後で複数コンピューター プールが必要になった場合は、その単一コンピューター プールを削除してから複数コンピューター プールを定義する必要があります。
-ms.openlocfilehash: b4fbeb54c926573e908b361e7556fab9d87da848
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 新しい永続的なチャットのサーバーまたは新しい永続的なチャット プールの定義ウィザードを使用して永続的なチャット サーバー プールを作成するとします。 複数コンピューター プールまたは単一コンピューター プールを選択してください。 単一コンピューター プールを選択し、後で複数コンピューター プールが必要になった場合は、その単一コンピューター プールを削除してから複数コンピューター プールを定義する必要があります。
+ms.openlocfilehash: 5dc548f791abe6aa0b697d69bc30ecf3af54d701
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503936"
 ---
 # <a name="define-persistent-chat-fqdn"></a>常設チャットの FQDN の定義
  
@@ -26,9 +27,6 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの計画](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Skype for Business Server 2015 の常設チャット サーバーの計画](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
 [ビジネス サーバー 2015 トポロジの場合、Skype に永続的なチャット サーバーを追加します。](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-

@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 description: SIP トランクの設定を編集または変更するには、次の操作を行います。
-ms.openlocfilehash: 13ea9abfb6d53b57333c2c96b8a2f8adde963ebf
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e0b88dbd6d3cdd97da7a8b8f27c9c00a8395afb6
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19504783"
 ---
 # <a name="trunk-settings-expander"></a>トランク設定エキスパンダー
  
@@ -41,9 +42,6 @@ SIP トランクの設定を編集または変更するには、次の操作を�
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [SIP トランクの展開のチェックリスト](http://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
   
 [コンポーネントおよび SIP トランキングのトポロジ](http://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)
-

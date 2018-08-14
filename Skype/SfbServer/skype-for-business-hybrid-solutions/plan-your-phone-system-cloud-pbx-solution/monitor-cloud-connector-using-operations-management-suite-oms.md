@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: 運用管理スイート (OMS) を使用して、クラウド コネクタ バージョン 2.1 とそれ以降の展開を監視する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 8cb454cfcb61bb11e0545ab5ff7dd45d1403ce55
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 160fcfc4baade7bc59d41771b0fd86d3cb725cab
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569762"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>運用管理スイート (OMS) を使用してクラウドのコネクタを監視します。
  
@@ -152,8 +153,7 @@ OMS のアラートの 2 種類があります: 結果の通知とメートル�
 - エラー メッセージのクエリは次のとおりです。
     
   ```
-  Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003)
- | summarize arg_max(TimeGenerated, EventID) by Computer | where EventID == 25003
+  Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003)  | summarize arg_max(TimeGenerated, EventID) by Computer | where EventID == 25003
   ```
 
     クエリを使用して、コンピューターのフィルターで*コンピューターに"MediationServer"が含まれている場合*。 フィルターは、名前に文字列"MediationServer"が含まれているコンピューターのみを選択します。
@@ -165,8 +165,7 @@ OMS のアラートの 2 種類があります: 結果の通知とメートル�
 - リセット警告のクエリは次のとおりです。
     
   ```
-  Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003)
- | summarize arg_max(TimeGenerated, EventID) by Computer  | where EventID == 2500
+  Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003) | summarize arg_max(TimeGenerated, EventID) by Computer  | where EventID == 2500
   ```
 
     リセットのクエリは、まったく逆クエリ エラーのことです。 各コンピューターの場合を返しますいずれかの最後のイベントは、サービスを開始するイベントです。nothing が返されます場合、最後のイベントは、サービスの停止イベントです。
@@ -178,9 +177,7 @@ OMS のアラートの 2 種類があります: 結果の通知とメートル�
 - エラー メッセージのクエリは次のとおりです。
     
   ```
-  Perf | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName 
-== "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize
- TotalCalls = sum(CounterValue) by Computer| where TotalCalls >= 500
+  Perf | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName == "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls >= 500
   ```
 
     各コンピューターのクエリが表示されます着信呼び出しおよび発信呼び出しの合計の最後のカウンター、2 つの値。 いずれかが返されますを合計した値が 500 を超えている場合にログを記録nothing が返されますされていない場合。 つまり、クエリ サーバーの同時呼び出しを時間帯に多くのリストが返されます。
@@ -188,10 +185,7 @@ OMS のアラートの 2 種類があります: 結果の通知とメートル�
 - リセット警告のクエリは次のとおりです。
     
   ```
-  Perf  | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName ==
- "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize
- TotalCalls = sum(CounterValue) by Computer| where TotalCalls < 500
-
+  Perf  | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName ==  "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls < 500
   ```
 
     リセットのクエリは、まったく逆クエリ エラーのことです。 各コンピューターのクエリが表示されます着信呼び出しおよび発信呼び出しの合計の最後のカウンター、2 つの値。 500 未満の場合は、合計値は 1 つのログが返されますそれ以外は何も返されます。
@@ -201,8 +195,7 @@ OMS のアラートの 2 種類があります: 結果の通知とメートル�
 この警告を作成するには、クエリは次のとおりです。
   
 ```
-search *| where Computer contains "MediationServer" | where (Type == "Perf" or Type == "Event") | where ((ObjectName ==
- "Processor" and CounterName == "% Processor Time") or EventLog == "Lync Server") | where (CounterValue > 90 or EventID == 22003)
+search *| where Computer contains "MediationServer" | where (Type == "Perf" or Type == "Event") | where ((ObjectName ==  "Processor" and CounterName == "% Processor Time") or EventLog == "Lync Server") | where (CounterValue > 90 or EventID == 22003)
 ```
 
 クエリは、すべてのコンピューターと戻り値のいずれかのプロセッサ使用率が 90%、またはサービスを超えた場合、1 つのログが停止したことから、すべてのプロセッサの使用状況カウンターとサービスの停止イベントが表示されます。 

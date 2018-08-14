@@ -1,7 +1,7 @@
 ---
 title: クライアント バージョン ポリシー
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
 description: 現在の環境でサポートするクライアントのバージョンを指定できます。 バージョンが異なる 2 つのクライアントが対話する場合、機能によっては一方のクライアントでは使用できても、他方のクライアントでは使用できないことがあります。 ビジネス サーバー 2015 の Skype に含まれている機能の最大限に活用し、全体的なユーザー エクスペリエンスを向上させるために、環境内で使用されているクライアント バージョンを制限するのにはクライアント バージョン フィルターを使用することができます。 クライアント バージョン フィルターを使用すると、複数のクライアント バージョンをサポートすることで発生するコストを抑えることもできます。
-ms.openlocfilehash: cdba87f684af4a0bac4f36e9a856957a70499840
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e4f40e06a5c968542b5faf7bb468891b533caab1
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503173"
 ---
 # <a name="client-version-policy"></a>クライアント バージョン ポリシー
  
@@ -49,7 +50,7 @@ ms.lasthandoff: 03/28/2018
     
 - **編集**クライアント バージョン ポリシーのいずれかのオプションを変更することができます。 このオプションを使用すると、以下を実行できます、します。
     
-  - **詳細を表示します。**このオプションは、クライアント バージョン ポリシーのオプションを変更できるダイアログ ボックスを開きます。
+  - **詳細を表示します。** このオプションは、クライアント バージョン ポリシーのオプションを変更できるダイアログ ボックスを開きます。
     
   - **すべてを選択**このオプションでは、一覧のすべてのクライアント バージョン ポリシーを選択します。
     

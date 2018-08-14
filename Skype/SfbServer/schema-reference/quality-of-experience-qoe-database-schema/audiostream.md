@@ -10,17 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: 各レコードは、1 つのオーディオ ストリームを表します。 オーディオ メディアの 1 つの行には、通常 2 つのオーディオ ストリームが含まれています。
-ms.openlocfilehash: 63cd2f63eed5d423750a50a23ae347a97725d65f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 2e910eb3f6717beed4ba228237f16b96471aea29
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19570052"
 ---
 # <a name="audiostream-table"></a>AudioStream テーブル
  
 各レコードは、1 つのオーディオ ストリームを表します。 オーディオ メディアの 1 つの行には、通常 2 つのオーディオ ストリームが含まれています。
   
-|列。|データ型。|キー/インデックス。|詳細情報。|
+|列|データ型|キー/インデックス|詳細|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |[MediaLine テーブル](medialine-0.md)から参照されています。  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primary  <br/> |[MediaLine テーブル](medialine-0.md)から参照されています。  <br/> |
@@ -55,7 +56,7 @@ ms.lasthandoff: 03/28/2018
 |**RatioStretchedSamplesAvg** <br/> |decimal(5,2)  <br/> ||一般的なサンプルにオーディオの修復機能によって生成された、拡大されたサンプルの平均比率です。  <br/> |
 |**RatioCompressedSamplesAvg** <br/> |decimal(5,2)  <br/> ||一般的なサンプルにオーディオの修復機能によって生成される圧縮のサンプルの平均比率です。  <br/> |
 |**受信** <br/> |bit  <br/> | <br/> |受信機側でのデータのストリームを受信するとします。  <br/> |
-|**送信** <br/> |bit  <br/> | <br/> |送信側のデータのストリームを受信するとします。  <br/> |
+|**発信** <br/> |bit  <br/> | <br/> |送信側のデータのストリームを受信するとします。  <br/> |
 |**SenderIsCallerPAI** <br/> |bit  <br/> | <br/> |1 は、ストリームの方向は、呼び出し元から呼び出し先を意味します。  <br/> 0 では、ストリームの方向は、呼び出し先から呼び出し元を表します。  <br/> |
 |**JitterInterArrivalSD** <br/> |float  <br/> ||ジッターの到着時間の標準偏差です。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
 |**ConcealRatioMax** <br/> |float  <br/> ||治癒者によって非表示にするパケットの最大の比率です。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
@@ -84,5 +85,3 @@ ms.lasthandoff: 03/28/2018
 |**AudioPostFECPLR** <br/> |float  <br/> ||パケット損失の割合が前方エラー修正を適用した後です。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
 |**EncodeStereoPercent** <br/> |float  <br/> ||ステレオとしてエンコードされた呼び出しの割合です。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
 |**AecCaptureStereoPercent** <br/> |float  <br/> ||音響エコー キャンセラをステレオとしてキャプチャされた呼び出しの割合です。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
-   
-

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Cloud Connector と Office 365 テナントの統合を構成する方法を説明します。
-ms.openlocfilehash: 40cb3334fb3d45432ada1a63aae8368a60433ad0
-ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
+ms.openlocfilehash: d5ae0b70a22219ee0430908bd3b3752d6ebd6357
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "19649644"
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211152"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Cloud Connector と Office 365 テナントの統合を構成する
  
@@ -34,7 +34,7 @@ Skype for Business Cloud Connector エディションのインストールが完
 
 すべてのアプライアンスで仲介サーバーをポイントするように、各 PSTN ゲートウェイのトランクを設定します。プール FQDN はプール内のすべてのサーバーで同じであるため、各トランクは、仲介サーバー プール FQDN ではなく、1 つの仲介サーバーの FQDN または IP アドレスをポイントする必要があります。トランクは同じ優先順位で設定する必要があります。
   
-仲介サーバーとゲートウェイの間で TLS を使用する場合は、次のように MTLS をサポートするために仲介サーバーとゲートウェイを構成する必要があります。
+仲介サーバーとゲートウェイ間で TLS を使用している場合は、ゲートウェイと仲介サーバーが MTLS をサポートするように、次のように構成する必要があります。
   
 1. ルート CA を Cloud Connector Active Directory コンピューターからエクスポートします。
     
@@ -44,13 +44,13 @@ Skype for Business Cloud Connector エディションのインストールが完
     
   - 既存の Web Server テンプレートを変更して認証済みユーザーを登録できるようにするか、新しい Web Server テンプレートを作成して別のプロパティを構成して認証済みユーザーが登録できるようにします。 詳細については、[証明書テンプレート](https://technet.microsoft.com/en-us/library/cc730705.aspx)を参照してください。
     
-  - 有効にした Web Server テンプレートを選択して、証明書スナップインを使用して証明書を要求します。 件名に共通名を追加し、別名に DNS 名とゲートウェイの FQDN を追加して、[キー] オプションで秘密キーをエクスポート可能にする [秘密キー] が選択されていることを確認します。 詳細については、[証明書の要求](https://technet.microsoft.com/en-us/library/cc730689.aspx)を参照してください。
+  - 有効にした Web Server テンプレートを選択して、証明書スナップインを使用して証明書を要求します。 件名に共通名を追加し、別名に DNS 名とゲートウェイの FQDN を追加して、[キー] オプションで秘密キーをエクスポート可能にする [秘密キー] が選択されていることを確認します。 
     
 4. 秘密キーを使用して SSL 証明書をエクスポートし、PSTN ゲートウェイ ベンダーから提供された指示に従って、証明書をインポートします。
     
 ## <a name="update-the-domain-for-your-tenant"></a>テナントのドメインを更新する
 
-Office 365 でドメインを更新する手順を完了し、DNS レコードを追加できることを確認します。 Office 365 でドメインを設定する方法の詳細についてを参照してください[ビデオ: Office 365 でドメインを設定します](https://support.office.com/en-us/article/Video-Set-up-your-domain-in-Office-365-703dfec1-882d-4e33-b647-937f731887b7?ui=en-US&amp;rs=en-US&amp;ad=US)。
+Office 365 でドメインを更新する手順を完了し、DNS レコードを追加できることを確認します。 Office 365 でドメインを設定する方法の詳細については、 [Office 365 にドメインの追加](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)を参照してください。
   
 ## <a name="add-dns-records-in-office-365-for-your-edge"></a>Office 365 でのエッジに必要な DNS レコードの追加
 
@@ -64,7 +64,7 @@ Office 365 でドメインを更新する手順を完了し、DNS レコード�
   
 ## <a name="set-up-hybrid-connectivity-between-cloud-connector-edition-and-office-365"></a>Cloud Connector エディションと Office 365 との間でのハイブリッド接続をセットアップする
 
-ビジネス クラウド コネクタのエディションの展開では、Skype と、Office 365 テナントとの間のハイブリッドの接続を構成するには、リモート PowerShell セッションで次のコマンドレットを実行します。 リモート PowerShell セッションを確立する方法についてを参照してください:[ビジネス オンラインの Skype を管理するために Windows PowerShell を使用](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)します。
+ビジネス クラウド コネクタのエディションの展開では、Skype と、Office 365 テナントとの間のハイブリッドの接続を構成するには、リモート PowerShell セッションで次のコマンドレットを実行します。 リモート PowerShell セッションを確立する方法についてを参照してください: [Windows PowerShell には、コンピューターを設定](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)します。
   
 このコマンドレットでは、アクセス エッジ外部 FQDN が設定されます。 コマンドの最初に、\<アクセス エッジの外部 FQDN\> SIP アクセス エッジ ロールの 1 つにする必要があります。 既定では、この必要があります ap.\<ドメイン名\>。
   
@@ -80,7 +80,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
 
 すべてのアプライアンスで仲介サーバーをポイントするように、各 PSTN ゲートウェイのトランクを設定します。プール FQDN はプール内のすべてのサービス プロファイルバージョンで同じであるため、各トランクは、仲介サーバー プール FQDN ではなく、1 つの仲介サーバーの FQDN または IP アドレスをポイントする必要があります。トランクは、同じ優先順位で設定する必要があります。
   
-仲介サーバーとゲートウェイの間で TLS を使用する場合は、次のように MTLS をサポートするために仲介サーバーとゲートウェイを構成する必要があります。
+仲介サーバーとゲートウェイ間で TLS を使用している場合は、ゲートウェイと仲介サーバーが MTLS をサポートするように、次のように構成する必要があります。
   
 1. ルート CA を Cloud Connector Active Directory コンピューターからエクスポートします。
     
@@ -90,7 +90,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
     
   - 既存の Web Server テンプレートを変更して認証済みユーザーを登録できるようにするか、新しい Web Server テンプレートを作成して別のプロパティを構成して認証済みユーザーが登録できるようにします。 詳細については、[証明書テンプレート](https://technet.microsoft.com/library/cc730705.aspx)を参照してください。
     
-  - 有効にした Web Server テンプレートを選択して、証明書スナップインを使用して証明書を要求します。 件名に共通名を追加し、別名に DNS 名とゲートウェイの FQDN を追加して、[キー] オプションで秘密キーをエクスポート可能にする [秘密キー] が選択されていることを確認します。 詳細については、[証明書の要求](https://technet.microsoft.com/library/cc730689.aspx)を参照してください。
+  - 有効にした Web Server テンプレートを選択して、証明書スナップインを使用して証明書を要求します。 件名に共通名を追加し、別名に DNS 名とゲートウェイの FQDN を追加して、[キー] オプションで秘密キーをエクスポート可能にする [秘密キー] が選択されていることを確認します。 
     
 4. 秘密キーを使用して SSL 証明書をエクスポートし、PSTN ゲートウェイ ベンダーから提供された指示に従って、証明書をインポートします。
     
@@ -102,7 +102,7 @@ Office 365 管理ポータルにログインし、オンラインの音声サー
   
 ## <a name="enable-users-for-phone-system-in-office-365-voice-and-voicemail-services"></a>Office 365 の電話システムの音声およびボイスメール サービスを利用できるようにする
 
-ユーザーを Office 365 に追加したら、ボイス メールを含む、Office 365 の電話システムの音声サービスを利用できるようにします。 これらの機能を有効にするには、Office 365 Global Administrator ロールのアカウントを使用して Office 365 テナントにログ インし、リモート PowerShell を実行できる必要があります。 リモート PowerShell セッションを確立する方法についてを参照してください:[ビジネス オンラインの Skype を管理するために Windows PowerShell を使用します。](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)
+ユーザーを Office 365 に追加したら、ボイス メールを含む、Office 365 の電話システムの音声サービスを利用できるようにします。 これらの機能を有効にするには、Office 365 Global Administrator ロールのアカウントを使用して Office 365 テナントにログ インし、リモート PowerShell を実行できる必要があります。 リモート PowerShell セッションを確立する方法についてを参照してください: [Windows PowerShell には、コンピューターを設定します](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)
   
 - ユーザーに、ポリシーを設定し、ユーザーのビジネス電話番号、 **Id**パラメーターの値を指定するを構成します。
     
@@ -141,7 +141,7 @@ Grant-CsVoiceRoutingPolicy -PolicyName InternationalCallsDisallowed -Identity $u
   
 ## <a name="assign-users-to-pstn-sites"></a>ユーザーを PSTN サイトに割り当てる
 
-サイトを 1 つだけ展開した場合でも、テナントのリモート PowerShell を使用して、サイトをユーザーに割り当てます。 リモート PowerShell セッションを確立する方法についてを参照してください:[ビジネス オンラインの Skype を管理するために Windows PowerShell を使用](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)します。
+サイトを 1 つだけ展開した場合でも、テナントのリモート PowerShell を使用して、サイトをユーザーに割り当てます。 リモート PowerShell セッションを確立する方法についてを参照してください: [Windows PowerShell には、コンピューターを設定](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)します。
   
 ```
 # Set the site to users
@@ -166,7 +166,7 @@ P2P の呼び出しは、PSTN 会議にエスカレートされ、オンライ�
     
     クラウド コネクタ (.ini ファイルの最初の SIP ドメイン) の既定の SIP ドメインをユーザー ドメインとして使用します。
     
-    (E5) などの Office 365 のライセンスを作成するアカウントに割り当てます。
+    なお、ライセンスの割り当てはのみ、ユーザーに伝達、Skype のビジネスのオンライン ディレクトリに必要な。 アカウントを作成、変更を反映するためには、最大で 1 時間を許可し、このアカウントからライセンスを削除するには、(E5) などの Office 365 のライセンスを割り当てます。
     
 2. テナント管理者の資格情報とそのユーザーに、仲介サーバーとエッジ サーバーの FQDN を設定するのには次のコマンドレットのアカウントを交換し実行を使用してテナントのリモート PowerShell セッションを開始する\<表示名\>のユーザーの表示名を持つ、アカウントを作成します。
     

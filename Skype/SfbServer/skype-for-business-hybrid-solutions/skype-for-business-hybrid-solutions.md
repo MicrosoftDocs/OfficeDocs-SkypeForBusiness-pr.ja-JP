@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0b038686-ed36-4867-9653-14cc08c919cb
 description: Skype のビジネスのハイブリッド展開の計画に関する情報を検索します。
-ms.openlocfilehash: f77c58497b40551a23ce32ab66718999edcc360c
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 124286ea60b1bd032d9d736284a738c63aea2dc6
+ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "20176192"
 ---
 # <a name="skype-for-business-hybrid-solutions"></a>ハイブリッド ソリューションのビジネス用の Skype
  
@@ -29,7 +30,7 @@ Skype のビジネスのハイブリッド展開の計画に関する情報を�
     
 - [Skype ビジネス オンラインに、既存のオンプレミス Skype のビジネス環境を追加します。](skype-for-business-hybrid-solutions.md#BKMK_HybridConnectivity)
     
-- [Office 365 (クラウド PBX) の電話システムの活用します。](skype-for-business-hybrid-solutions.md#BKMK_CloudPBX)
+- [Office 365 の電話システム (クラウド PBX) を活用する](skype-for-business-hybrid-solutions.md#BKMK_CloudPBX)
     
 - [Exchange や SharePoint と統合する](skype-for-business-hybrid-solutions.md#BKMK_IntegratewExchangeSharePoint)
     
@@ -78,9 +79,9 @@ Office 365 のハイブリッド ・ ソリューションの 2 つの電話シ�
   
 Office 365 のハイブリッド サービス提供では次の 2 つの電話システムがあります。 
   
-- [ビジネス サーバーの展開のため、Skype が提供する設置接続と Office 365 の電話システム](skype-for-business-hybrid-solutions.md#BKMK_Server)
+- [Skype for Business Server 展開で提供されるオンプレミス接続を備えた Office 365 の電話システム](skype-for-business-hybrid-solutions.md#BKMK_Server)
     
-- [設置接続の Skype から提供されたビジネス サーバー クラウド コネクタのエディションの Office 365 の電話システム](skype-for-business-hybrid-solutions.md#BKMK_CCE)
+- [Skype for Business Server Cloud Connector エディションで提供されるオンプレミス接続を備えた Office 365 の電話システム](skype-for-business-hybrid-solutions.md#BKMK_CCE)
     
 ### <a name="phone-system-in-office-365-with-on-premises-connectivity-provided-by-your-skype-for-business-server-deployment"></a>Skype for Business Server 展開で提供されるオンプレミス接続を備えた Office 365 の電話システム
 <a name="BKMK_Server"> </a>
@@ -207,22 +208,22 @@ Skype でオンライン ビジネスの Exchange Server を統合すると、�
   
 - [マイクロソフト クラウドの IT アーキテクチャのリソース](https://aka.ms/clouditarch)
     
-- [エンタープライズ設計者向けのマイクロソフトのクラウド id](https://aka.ms/cloudidarch)
+- [エンタープライズ設計者向けのマイクロソフトのクラウド id](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
     
 - [組織が Office 365 のエンタープライズの準備ができて取得します。](https://aka.ms/O365EntPrep)
     
-- [Skype ビジネス サーバーとビジネス オンラインの Skype との間のハイブリッド接続を計画します。](plan-hybrid-connectivity.md)
+- [Skype for Business Server と Skype for Business Online 間のハイブリッド接続を計画する](plan-hybrid-connectivity.md)
     
-- [Skype ビジネス サーバーとビジネス オンラインの Skype との間のハイブリッドの接続を展開します。](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
+- [Skype for Business Server と Skype for Business Online 間でハイブリッド接続を展開する](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
     
 - [Office 365 ソリューションの電話システム](plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md#BKMK_PBXOfferings)
     
-- [ビジネスとの交換用 Skype を統合しようとしてください。](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)
+- [Skype for Business と Exchange の統合の計画](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)
     
 このトピックのポスター バージョンをダウンロードする場合は、以下にアクセスしてください。
   
-- [Skype ビジネス アーキテクチャ モデル (pdf)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype for Business Architectural Models.pdf)
+- [Skype ビジネス アーキテクチャ モデル (pdf)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.pdf)
     
-- [Skype ビジネス アーキテクチャ モデル (Visio)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype for Business Architectural Models.vsd)
+- [Skype ビジネス アーキテクチャ モデル (Visio)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.vsd)
     
 

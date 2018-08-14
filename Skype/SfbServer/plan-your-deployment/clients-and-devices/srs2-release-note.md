@@ -1,7 +1,7 @@
 ---
 title: リリース ノート
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 4/17/2018
 ms.audience: ITPro
@@ -9,11 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: この資料では、Skype ルーム システム v2 の累積的な機能強化について説明します。
-ms.openlocfilehash: 3c8c314000fddf78f9247efaefa989f586c1e7b4
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: bd99a4c3772836d6352228bfd90cecd592af557f
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20412326"
 ---
 # <a name="release-notes"></a>リリース ノート 
 
@@ -97,8 +98,7 @@ Skype ルーム システム v2 リリース 3.0.12.0 (アップデート 3) は
 - パブリック ビルドのフィードバックを提供する機能     
 - 会議の結合の信頼性を向上させる遠隔測定     
 - 追加 OMS の報告     
-- デバイスをリモートで構成する IT 管理者の機能 
-    <!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
+- デバイスをリモートで構成する IT 管理者の機能<!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
 
 
 ### <a name="2020-03152017"></a>2.0.2.0 (2017/03/15)
@@ -139,8 +139,6 @@ Skype ルーム システム v2 リリース 3.0.12.0 (アップデート 3) は
 <a name="See"> </a>  
 ## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
 
-
-#### 
 [Skype ルーム システムのバージョン 2 のヘルプ](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Skype のビジネス環境を準備します。](srs-v2-prep.md)
@@ -149,6 +147,6 @@ Skype ルーム システム v2 リリース 3.0.12.0 (アップデート 3) は
 
 [Skype ルーム システム v2 の既知の問題](../../manage/skype-room-systems-v2/known-issues.md)
 
-[Skype ルームの計画システム v2](skype-room-systems-v2-0.md)
+[Skype Room Systems バージョン 2 の計画](skype-room-systems-v2-0.md)
 
-[Skype ルームの管理システム v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Skype Room Systems バージョン 2 を管理する](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015 での複数の緊急電話番号の計画
+title: ビジネス サーバーに、Skype で複数の緊急番号を計画します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
-description: このトピックでは、Skype for Business Server 2015 で複数の緊急電話番号を計画する方法について説明します。
-ms.openlocfilehash: f70132e555b79e88ca09c54c0ce02544bf3d9bf8
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+description: ビジネス サーバーに、Skype で複数の緊急番号を計画する方法については、このトピックを参照してください。
+ms.openlocfilehash: 48b71f5f4810378ec05ae769de4ec57b9a840a79
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20979784"
 ---
-# <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での複数の緊急電話番号の計画
+# <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>ビジネス サーバーに、Skype で複数の緊急番号を計画します。
  
-このトピックでは、Skype for Business Server 2015 で複数の緊急電話番号を計画する方法について説明します。
+ビジネス サーバーに、Skype で複数の緊急番号を計画する方法については、このトピックを参照してください。
   
 Skype ビジネス サーバーがクライアントの複数の緊急番号の構成をサポートしています。 複数の緊急番号は 2016年 6 月で導入された新しい機能を累積的な更新です。 米国の緊急電話番号 (911) は 1 つですが、多くの国では複数の緊急電話番号が利用されています。 など、英国では、999、英国では、特定の緊急電話番号と 112、欧州連合の緊急電話番号の両方をサポートします。 
   
@@ -32,7 +32,7 @@ Skype ビジネス サーバーがクライアントの複数の緊急番号の�
 
 どのように緊急時の呼び出しを定義するポリシーを実装する場所を作成することで緊急の呼び出しを構成します。 場所のポリシーを使用して、どのような番号は、緊急の呼び出しを構成する要素を定義するのには、米国の 911 など999 と英国で 112。 緊急の呼び出しの動作は、どのような緊急通話は、のユーザーが有効になっているかどうかおよびその、場所のポリシーが決定します。 かどうか企業のセキュリティを自動的に通知するか、および通話をルーティングする方法を定義することもできます。
   
-定義して、場所のポリシーを変更する方法の詳細については、[ビジネス サーバー 2015 の Skype の場所のポリシーを計画](location-policies.md)し、 [Skype ビジネス サーバー 2015 の場所ポリシーの作成](../../deploy/deploy-enterprise-voice/create-location-policies.md)を参照してください。 これらのトピックでは、場所のポリシーに関する概念を説明します。ただし、複数の緊急番号を構成する[ビジネス 2015年の Skype で緊急番号が複数の構成](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)の指示を従う必要があります。
+定義して、場所のポリシーを変更する方法の詳細については、 [Skype のビジネス サーバーの場所のポリシーを計画](location-policies.md)し、 [Skype ビジネス サーバー用に作成する場所のポリシー](../../deploy/deploy-enterprise-voice/create-location-policies.md)を参照してください。 これらのトピックでは、場所のポリシーに関する概念を説明します。ただし、[ビジネス用の Skype で複数の緊急番号を構成する](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)複数の緊急番号を構成するのにはの指示を従う必要があります。
   
 複数の緊急電話番号を計画する場合は、以下の点に留意してください。
   
@@ -66,12 +66,12 @@ Skype ビジネス サーバーがクライアントの複数の緊急番号の�
     
 - ユーザーがダイヤル文字列と一致する番号をダイヤルする場合、ダイヤル マスクは必要ありません。 たとえば、ユーザーがダイヤルする番号が 911 の場合、ダイヤル文字列は 911 であるため、マスクは必要ありません。 
     
-複数の緊急番号を構成する方法の詳細については、[ビジネス 2015年の Skype の番号を複数のシステム構成](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)を参照してください。
+複数の緊急番号を構成する方法の詳細については、[ビジネスの Skype の番号を複数の緊急時の構成](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)を参照してください。
   
 次の表に、場所のポリシーの例を示します (例を示すことを目的としており、すべての属性が示されているわけではありません)。
   
 
-|**場所ポリシーの名前**|**E911 が有効になっています。**|**緊急ダイヤル文字列**|**ダイヤル マスク**|**緊急番号**|**PSTN 使用法**|**必要な場所**|
+|**場所のポリシー名**|**E911 有効**|**緊急ダイヤル文字列**|**ダイヤル マスク**|**緊急番号**|**PSTN 使用法**|**対象場所**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |米国  <br/> |はい  <br/> |911  <br/> | 112; 999 <br/> ||USEmergency  <br/> |はい  <br/> |
 |US-Hospital  <br/> |はい  <br/> |911  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |はい  <br/> |
@@ -91,17 +91,17 @@ Skype ビジネス サーバーがクライアントの複数の緊急番号の�
 
 次の表に、クライアントによる複数の緊急電話番号のサポート状況を示します。その他のクライアント サポートも引き続きテストされ、リリースされる予定です。定期的に再確認してください。
 
-|**Windows**|**バージョン**|
+|**Windows **|**Version**|
 |:-----|:-----|
 |**クイック実行** <br/> |バージョン 1604 (ビルド 6868.2062) の 2016 - 5 月 10 日にリリースされた CC (現在のチャネル)  <br/> |
 ||FRDC (最新機能提供チャネルの最初のリリース) 2016 年 6 月 14 日リリース - バージョン 1605 (ビルド 6965.2058)  <br/> |
 ||DC (保留にされたチャネル) 2016 年 10 月 11 日リリース - バージョン 1605 (ビルド 6965.2092)  <br/> |
 |**MSI** <br/> |6 月 7 日更新-[https://support.microsoft.com/en-us/kb/3115087](https://support.microsoft.com/en-us/kb/3115087) <br/> |
-|**Mac と iOS** <br/> |**バージョン** <br/> |
+|**Mac と iOS** <br/> |**Version** <br/> |
 ||Skype for Mac クライアントのバージョン 16.9 のビジネス  <br/> ビジネス iOS クライアント バージョン 6.16 の Skype  <br/> |
-|**Android** <br/> |**バージョン** <br/> |
+|**Android** <br/> |**Version** <br/> |
 ||ビジネス Android クライアント バージョン 6.17 の Skype  <br/> |
-|**Lync の電話のエディション** <br/> |**バージョン** <br/> |
+|**Lync Phone Edition** <br/> |**Version** <br/> |
 || Aastra 6721ip Aastra 6725ip 電話 - 2016年 9 月の累積的な更新 (ビルド 7577.4512)-[https://support.microsoft.com/en-us/kb/3194831](https://support.microsoft.com/en-us/kb/3194831) <br/> |
 || HP 4110 および HP 4120 電話 - 2016年 9 月の累積的な更新 (ビルド 7577.4512)-[https://support.microsoft.com/en-us/kb/3194832](https://support.microsoft.com/en-us/kb/3194832) <br/> |
 ||ポリコム CX500、CX600 のポリコム、およびポリコム CX3000 電話 - 2016年 9 月の累積的な更新 (ビルド 7577.4512)-[https://support.microsoft.com/en-us/kb/3194833](https://support.microsoft.com/en-us/kb/3194833) <br/> |

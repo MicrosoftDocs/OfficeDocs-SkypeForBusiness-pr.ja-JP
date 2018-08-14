@@ -3,7 +3,6 @@ title: Skype Room Systems バージョン 2 と Office 365 を展開する
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/8/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Office 365 で Skype ルーム システム v2 を展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: bf23da871b3e736bd9fce2ee821b716fc43830b1
-ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
+ms.openlocfilehash: 442bfa306f611d9ba642d3b74d431cfda4c46770
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19887906"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21027353"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>Skype Room Systems バージョン 2 と Office 365 を展開する 
  
@@ -183,11 +182,11 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 
 [Skype ルーム システム v2 用のアカウントを構成します。](room-systems-v2-configure-accounts.md)
 
-[Skype ルームの計画システム v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Skype Room Systems バージョン 2 の計画](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Skype の部屋を配置するシステム v2](room-systems-v2.md)
+[Skype Room System バージョン 2 を展開する](room-systems-v2.md)
   
-[Skype ルーム システム v2 のコンソールを構成します。](console.md)
+[Skype Room Systems バージョン 2 コンソールを構成する](console.md)
   
-[Skype ルームの管理システム v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Skype Room Systems バージョン 2 を管理する](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 

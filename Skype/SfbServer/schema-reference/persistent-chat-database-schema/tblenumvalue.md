@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
 description: tblEnumValue は、Node テーブルで使用されている属性の表示/非表示と動作の値を含むハードコーディングされたテーブルです。
-ms.openlocfilehash: 4957f87401dc93cc98d18fa5b1844e13daaefabd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4e17e5fc167342c106e7b5354d90c7fc284785c3
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19505077"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  
@@ -22,7 +23,7 @@ tblEnumValue は、Node テーブルで使用されている属性の表示/非�
   
 **列**
 
-|**列**|**タイプ**|**説明**|
+|**列**|**種類**|**説明**|
 |:-----|:-----|:-----|
 |valueID  <br/> |smallint、null でないです。  <br/> |値の ID です。  <br/> |
 |attributeID  <br/> |smallint、null でないです。  <br/> |属性の ID です。  <br/> |
@@ -47,7 +48,4 @@ tblEnumValue は、Node テーブルで使用されている属性の表示/非�
    
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [tblNode](tblnode.md)
-

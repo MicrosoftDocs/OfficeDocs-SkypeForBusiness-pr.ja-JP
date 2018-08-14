@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17f8b87e-36a6-4f6a-8630-7c76b61a7595
 description: tblEnumAttribute は、Node テーブルで使用されている可視性と動作の属性を含むハードコーディングされたテーブルです。
-ms.openlocfilehash: 24208b56aba586af500a2f659a2d5cbf1a47234d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: bd386bc77d15c627597a5680277235a05d0c8039
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19504867"
 ---
 # <a name="tblenumattribute"></a>tblEnumAttribute
  
@@ -22,7 +23,7 @@ tblEnumAttribute は、Node テーブルで使用されている可視性と動�
   
 **列**
 
-|**列**|**タイプ**|**説明**|
+|**列**|**種類**|**説明**|
 |:-----|:-----|:-----|
 |attributeID  <br/> |smallint、null でないです。  <br/> |属性の ID です。  <br/> |
 |attributeName  <br/> |nvarchar (256)、null でないです。  <br/> |属性の名前です。  <br/> |
@@ -42,7 +43,4 @@ tblEnumAttribute は、Node テーブルで使用されている可視性と動�
    
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [tblNode](tblnode.md)
-

@@ -1,7 +1,7 @@
 ---
 title: クライアントおよびデバイスの計画
 ms.author: jambirk
-author: jambirk
+author: PhillipGarding
 manager: serdars
 ms.date: 2/20/2018
 ms.audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'ビジネス用の Skype のサポートされているクライアントとアプリケーションの概要: レビューします。'
-ms.openlocfilehash: 4e8e5eccec587855d2af5c204710bc0afff50049
-ms.sourcegitcommit: 3d7b62f24db33f9685d8dc08561394c434705a88
+ms.openlocfilehash: f17061c9112ca4820f47b93b2c7b515b0873c711
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "21223800"
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22391742"
 ---
 # <a name="plan-for-clients-and-devices"></a>クライアントおよびデバイスの計画
  
@@ -173,4 +173,4 @@ MSI は、ビジネス 2015年、2016 のクライアントに、Skype で使用
 
 ## <a name="see-also"></a>関連項目 
 
-[Windows インストーラー (MSI) を使用するビジネス用の Skype のバージョンの最新の更新プログラム](../../sfb-client-updates.md)
+[Windows インストーラー (MSI) を使用する Skype for Business の各バージョンに対する最新の更新プログラム](../../sfb-client-updates.md)

@@ -11,15 +11,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
 description: '概要: は、ディメンション メンバーを取得する操作について説明します。 ディメンション メンバーの取得操作は、品質のダッシュ ボードを呼び出すためのデータ API の一部です。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。'
-ms.openlocfilehash: 6da1b8f6d93dc197df320f1fb5875a6269a9b45a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e15f63d5ad52c9fbc52d692fd5bbb0480a41a50a
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569279"
 ---
 # <a name="get-dimension-members"></a>ディメンション メンバーを取得します。
  
-**の概要:**ディメンション メンバーを取得する操作について説明します。 ディメンション メンバーの取得操作は、品質のダッシュ ボードを呼び出すためのデータ API の一部です。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。
+**の概要:** ディメンション メンバーを取得する操作について説明します。 ディメンション メンバーの取得操作は、品質のダッシュ ボードを呼び出すためのデータ API の一部です。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。
   
 ディメンション メンバーの取得操作は、品質のダッシュ ボードを呼び出すためのデータ API の一部です。
   
@@ -47,7 +48,6 @@ ms.lasthandoff: 03/28/2018
 "PageNumber": 0,
 "PageSize": 8000
 }
-
 ```
 
  **応答**- 応答には、HTTP ステータス コード、応答ヘッダーのセットが含まれています。
@@ -82,7 +82,4 @@ ms.lasthandoff: 03/28/2018
 ["[2031-01-01T00:00:00]",
 "January 2031"]]
 }
-
 ```
-
-

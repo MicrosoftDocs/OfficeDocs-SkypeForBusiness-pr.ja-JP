@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
 description: このドキュメントは暫定版であり、変更される可能性があります。空白のトピックがプレースホルダーとして含まれています。
-ms.openlocfilehash: 3cf88c4f1a9b4241df20fdbd3afded1bcbe82a26
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 611ff6613a59cc755b5082d0e6ef99aa3583ab66
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503810"
 ---
 # <a name="publish-topology-reset-pool-page"></a>トポロジの公開でのプールのリセット ページ
  
@@ -26,7 +27,4 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[作成し、ビジネス サーバー 2015 の Skype の新しいトポロジを公開](../../deploy/install/create-and-publish-new-topology.md)
-
+[Skype for Business Server 2015 での新しいトポロジの作成および公開](../../deploy/install/create-and-publish-new-topology.md)

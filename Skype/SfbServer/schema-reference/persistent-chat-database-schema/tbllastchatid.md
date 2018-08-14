@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17a4ffbe-cca9-4ec5-ae46-38a15274889a
 description: tblLastChatId には、ユーザーごとに生成された (および tblChat テーブルで使用されている) 最後のチャット ID が含まれています。
-ms.openlocfilehash: 4a22dc9ba1c2dbe15ae0a24de6e4f347a62deaee
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: dc25eb68ee1b4069ba54133548f743ca45b73e16
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19505091"
 ---
 # <a name="tbllastchatid"></a>tblLastChatId
  
@@ -22,7 +23,7 @@ tblLastChatId には、ユーザーごとに生成された (および tblChat �
   
 **列**
 
-|**列**|**タイプ**|**説明**|
+|**列**|**種類**|**説明**|
 |:-----|:-----|:-----|
 |ノード  <br/> |int 型、null でないです。  <br/> |ノード ID (チャット ルーム タイプのみ)。  <br/> |
 |lastChatID  <br/> |bigint 型の値、null でないです。  <br/> |最後に使用されるチャットの id。  <br/> |
@@ -36,7 +37,4 @@ tblLastChatId には、ユーザーごとに生成された (および tblChat �
    
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [tblChat](tblchat.md)
-

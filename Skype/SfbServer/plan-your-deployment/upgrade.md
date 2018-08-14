@@ -3,7 +3,7 @@ title: Skype for Business Server 2015 へのアップグレードの計画
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,31 +14,35 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: '概要: は、ビジネス サーバー 2015 の Skype へのアップグレードを計画する場合を考慮する必要がある事項について説明します。 マイクロソフト評価センターからのビジネス サーバー 2015 の Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: d5d7885f7392ee5316b526ff90682303f6fed421
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 15f8ba6568fc4ca26d1c9fd33a59a026a34def33
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009145"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>Skype for Business Server 2015 へのアップグレードの計画
  
 概要: は、ビジネス サーバー 2015 の Skype へのアップグレードを計画する場合を考慮する必要がある事項について説明します。 マイクロソフト評価センターからのビジネス サーバー 2015 の Skype の無料試用版をダウンロード: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
   
 ビジネス サーバー 2015 Skype にアップグレードする計画の一環として、どのようにビジネス サーバー 2015 年の Skype に推奨されるアップグレード パスを理解するこのトピックを使用して、埋め込みのアップグレードは、サポートされる共存シナリオとは、どのようなアップグレード ・ プロセス次のようにします。
+
+> [!NOTE]
+> インプレース アップグレードはビジネス サーバー 2015 の Skype で利用できるが、ビジネス サーバー 2019 の Skype でサポートされていません。 Coexistance のサポートに並べて、[ビジネス サーバー 2019 の Skype への移行](../../SfBServer2019/migration/migration-to-skype-for-business-server-2019.md)の詳細についてを参照してください。
   
 ## <a name="recommended-upgrade-paths-to-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype に推奨されるアップグレード ・ パス
 
  ビジネス サーバー 2015 の Skype Lync Server 2013、Lync Server 2010 の場合、または通信サーバー 2007 R2 の Office からアップグレードするには、次のアップグレード パスを使用します。
   
 > [!CAUTION]
-> 一括アップグレードを実行すると、Lync Server 2013 から Skype for Business Server 2015 に会議ディレクトリが自動的に移動されます。ただし、会議ディレクトリを手動で移動する場合は、必ず Skype for Business Server 2015 の管理シェルを使用してください。Lync Server 2013 管理シェルを使用して Lync Server 2013 から Skype for Business Server 2015 に会議ディレクトリを移動すると、データ損失が発生する可能性があります。一般に、Skype for Business Server 2015 を操作する場合は、その内容を問わず、Skype for Business Server 2015 ツール セットを使用する必要があります。 
+> 一括アップグレードを実行すると、Lync Server 2013 から Skype for Business Server 2015 に会議ディレクトリが自動的に移動されます。ただし、会議ディレクトリを手動で移動する場合は、必ず Skype for Business Server 2015 の管理シェルを使用してください。Lync Server 2013 管理シェルを使用して Lync Server 2013 から Skype for Business Server 2015 に会議ディレクトリを移動すると、データ損失が発生する可能性があります。一般に、Skype for Business Server 2015 を操作する場合は、その内容を問わず、Skype for Business Server 2015 ツール セットを使用する必要があります。  
   
-|**バージョン**|**推奨事項**|
+|**バージョン**|**推奨される手順**|
 |:-----|:-----|
 |Lync Server 2013  <br/> | アップグレードするには、ビジネス サーバー トポロジ ビルダーおよび各プールに関連付けられているサーバーのインプレース アップグレードの新機能、Skype を使用します。 詳細な手順については、[ビジネス サーバー 2015 の Skype に Lync Server 2013 からのアップグレードを計画](upgrade.md#BKMK_PlanUpgradeFromLync2013)し、[ビジネス サーバー 2015 の Skype へのアップグレード](../deploy/upgrade-to-skype-for-business-server.md)を参照してください。 <br/> |
 |Lync Server 2010 + Lync Server 2013 (デュアル モード)  <br/> |まず、Lync Server 2013 にアップグレードし、アップグレード Skype をビジネス サーバー 2015 のインプレース アップグレードの新機能を使用しています。 ただし、トポロジが主に Lync Server 2010 である場合は、Lync Server 2013 コンポーネントを Lync Server 2010 にロールバックしてから、Skype for Business Server 2015 に直接アップグレードすることもできます。 この場合は、一括アップグレードを利用することはできず、Lync Server 2010 と Skype for Business Server 2015 の単純な共存を使用します。 3 つの共存はサポートされていませんが、2 つの共存はサポートされています。  <br/> |
 |Lync Server 2010  <br/> |Skype for Business Server 2015 の新しいプールを表示してから、この新しいプールにユーザーを移行します。 その後、Lync Server 2010 の古いプールを使用停止することができます。 Lync Server 2010 から Skype for Business Server 2015 へのアップグレードは、Lync Server 2010 から Lync Server 2013 へのアップグレードに似ています。 [Lync Server 2013 に Lync Server 2010 の移行](https://go.microsoft.com/fwlink/p/?LinkId=526615)を参照してください。  <br/> |
-|Office Communications Server 2007 R2  <br/> | 2 つのオプションのいずれかを選択します。 <br/>  サーバー 2015 のビジネス環境の新しい Skype を設定します。 <br/>  または、ハードウェアとソフトウェアがビジネス サーバー 2015 の Skype の要件を満たしている場合に Lync Server 2013 では、アップグレードし、アップグレード Skype をビジネス サーバー 2015 のインプレース アップグレードの新機能を使用しています。 詳細については、[ビジネス サーバー 2015 の Skype のサーバー要件](requirements-for-your-environment/server-requirements.md)と[Lync Server 2013 への Office 通信 Server 2007 R2 からの移行](https://go.microsoft.com/fwlink/p/?LinkId=526616)を参照してください。  <br/> |
+|Office Communications Server 2007 R2  <br/> | 次の 2 つのオプションのいずれかを選択します。 <br/>  サーバー 2015 のビジネス環境の新しい Skype を設定します。 <br/>  または、ハードウェアとソフトウェアがビジネス サーバー 2015 の Skype の要件を満たしている場合に Lync Server 2013 では、アップグレードし、アップグレード Skype をビジネス サーバー 2015 のインプレース アップグレードの新機能を使用しています。 詳細については、[ビジネス サーバー 2015 の Skype のサーバー要件](requirements-for-your-environment/server-requirements.md)と[Lync Server 2013 への Office 通信 Server 2007 R2 からの移行](https://go.microsoft.com/fwlink/p/?LinkId=526616)を参照してください。  <br/> |
    
 > [!NOTE]
 > SQL Server 2014 はビジネス サーバー 2015 の Skype ではサポートされていますが、Lync Server 2013 でサポートされていません。 2014 の SQL Server を SQL Server 2012 にアップグレードする場合は、プールする必要がありますまずアップグレードする Skype をビジネス サーバー 2015 の埋め込みのアップグレード方法を使用してこのドキュメントで説明したように。 アップグレードすることができますし、2014 の SQL Server に SQL Server 2012 から[2014 の SQL Server へのアップグレード](https://msdn.microsoft.com/en-us/library/bb677622%28v=sql.120%29.aspx)を参照してください。 データベースの要件に関する詳細については、[ビジネス サーバー 2015 の Skype のサーバーの要件](requirements-for-your-environment/server-requirements.md)を参照してください。 
@@ -58,7 +62,7 @@ Skype に Lync Server 2013 のシステムをアップグレードするには�
   
 ### <a name="create-an-in-place-upgrade-plan"></a>一括アップグレード計画の作成
 
-含む計画を作成します。
+次の内容を含む計画を作成します。
   
 1. 現在のトポロジを理解します。
     
@@ -85,7 +89,7 @@ Skype に Lync Server 2013 のシステムをアップグレードするには�
     
 - オフラインという手法では、ダウンタイムを必要とします。
     
-メンテナンス期間中に [オフラインでメソッドのアップグレードをスケジュールすることをお勧めします。 と、ダウンタイムがユーザーに通知します。
+オフラインのアップグレードをメンテナンス ウィンドウ内にスケジュールして、ダウンタイムをユーザーに通知することが推奨されます。
   
 > [!NOTE]
 > Lync Server 2013 内にあるペアになったプールをアップグレードし、両方のプールを Skype for Business Server 2015 にアップグレードしようとする場合は、最初のプールをアップグレードした直後に、2 番目のプールも必ずアップグレードしてください。1 つのプールが Lync Server 2013 を実行しており、2 番目のプールが Skype for Business Server 2015 を実行している場合は、障害復旧オプションは最小化されます。たとえば、1 つのプールが 2013 を実行し、2 番目が 2015 を実行していて、障害が発生した場合は、データの損失が生じる恐れがあります。ペアになったプールが同じバージョンでない場合は、障害モードでプール フェールオーバーがサポートされていないためです。 
@@ -182,11 +186,8 @@ Lync Server 2010 および Lync Server 2013 の共存トポロジに Lync Server
 ## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
 <a name="BKMK_PlanUpgradeFromLync2013"> </a>
 
-#### 
-
-[ビジネス サーバー 2015 の Skype へのアップグレード](../deploy/upgrade-to-skype-for-business-server.md)
+[Skype for Business Server 2015 へのアップグレード](../deploy/upgrade-to-skype-for-business-server.md)
   
-[ビジネス サーバー 2015 の Skype の環境の要件](requirements-for-your-environment/environmental-requirements.md)
+[Skype for Business Server 2015 の環境要件](requirements-for-your-environment/environmental-requirements.md)
   
-[ビジネス サーバー 2015 の Skype のサーバーの要件](requirements-for-your-environment/server-requirements.md)
-
+[Skype for Business Server 2015 のサーバー要件](requirements-for-your-environment/server-requirements.md)

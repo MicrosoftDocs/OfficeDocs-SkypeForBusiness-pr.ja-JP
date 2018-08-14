@@ -13,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 description: ほとんどのエッジ コンポーネントは、境界ネットワークに展開されます。 境界ネットワークのエッジ トポロジは、次のコンポーネントで構成されます。 を除き、コンポーネントは、ビジネス サーバー 2015 の Skype でエッジ サーバーのシナリオの一部であるし、境界ネットワークでは。 エッジ コンポーネントには、次のものが含まれます。
-ms.openlocfilehash: 48b574c749d96a0b252b2f5d90946cb3c66991a5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8a7dab2c702127bfffa8823fb364e87274cc00c2
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503306"
 ---
 # <a name="edge-network-planning-tool"></a>エッジ ネットワーク (計画ツール)
  
@@ -35,9 +36,6 @@ ms.lasthandoff: 03/28/2018
     
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[ビジネス サーバー 2015 の Skype でエッジ サーバーの展開の計画](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
+[Skype for Business Server 2015 でのエッジ サーバーの展開の計画](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
   
-[ビジネス サーバー 2015 の Skype でエッジ サーバー システム要件](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
-
+[Skype for Business Server 2015 のエッジ サーバーのシステム要件](../../plan-your-deployment/edge-server-deployments/system-requirements.md)

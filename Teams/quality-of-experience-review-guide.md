@@ -2,7 +2,7 @@
 title: マイクロソフト チームの経験の評価ガイドの品質
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 04/12/2018
 ms.topic: article
 ms.service: msteams
@@ -12,11 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c0a251887b6c71c113c4ec9a25a812d4b9f6b827
-ms.sourcegitcommit: 0d584174263c044c2ba12e32d2c924349226075c
+ms.openlocfilehash: 7579a87d2c59a47304d06fd05e11b37a97544a79
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19694921"
 ---
 # <a name="quality-of-experience-review-guide"></a>レビュー ガイドの経験の質
 
@@ -1138,12 +1139,12 @@ _表 11 - ネットワークのパフォーマンスの要件_
 
 | 指標                           | クライアントから Microsoft Edge           | Customer Edge から Microsoft Edge    |
 |----------------------------------|------------------------------------|------------------------------------|
-| 待機時間 (1 つの方法)                | \<50 ms                            | \<30 ミリ秒                            |
-| RTT (ラウンドト リップ時間) の待機時間 | \<100 ミリ秒                           | \<60 ms                            |
-| バースト パケット ロス                | \<200 ミリ秒間隔で 10%   | \<200 ミリ秒の間隔中に 1%    |
+| 遅延 (一方向)                | \<50 ms                            | \<30 ミリ秒                            |
+| 遅延 (RTT または往復時間) | \<100 ミリ秒                           | \<60 ms                            |
+| バースト パケット損失                | \<200 ミリ秒間隔で 10%   | \<200 ミリ秒の間隔中に 1%    |
 | パケット損失                      | \<15 秒間隔で 1%    | \<0.1 15 秒間隔中に %  |
-| パケット間到着ジッタ      | \<15 秒間隔で 30 ms | \<15 秒間隔で 15 ms |
-| パケット順序の変更                   | \<0.05% の不適切な順序のパケット       | \<不適切な順序のパケットの 0.01%      |
+| パケット到着間ジッター      | \<15 秒間隔で 30 ms | \<15 秒間隔で 15 ms |
+| パケットの並べ替え                   | \<0.05% の不適切な順序のパケット       | \<不適切な順序のパケットの 0.01%      |
 
 詳細については、[メディアの品質とネットワークのパフォーマンス](https://aka.ms/performancerequirements)に関する次の資料の「チームと Skype オンライン ビジネスの
 

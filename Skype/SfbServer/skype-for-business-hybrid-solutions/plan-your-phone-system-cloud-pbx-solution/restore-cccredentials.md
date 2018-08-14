@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aeca610b-db0a-45cf-95b9-ae9a6bbccb45
 description: Cc-資格情報の復元コマンドレットでは、ビジネスのクラウド コネクタのエディションの展開の現在の Skype のすべての資格情報を復元します。
-ms.openlocfilehash: 045d7f651408b1cbdbd508966da3272ac61d7c04
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: bb74444c5f63b792abf6c12c317c1a824298426c
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569734"
 ---
 # <a name="restore-cccredentials"></a>復元 CcCredentials
  
@@ -23,7 +24,6 @@ Cc-資格情報の復元コマンドレットでは、ビジネスのクラウ�
 このコマンドレットは、クラウド コネクタ版 2.1 のビジネスには、Skype に適用されます。
   
 ```
-
 Restore-CcCredentials 
 ```
 

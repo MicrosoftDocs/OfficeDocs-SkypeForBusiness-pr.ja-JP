@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
 description: 概要では、Skype で設置型のオンラインでのビジネス サーバーのユーザー アカウントを移動する方法について説明します。
-ms.openlocfilehash: 098dc36e6551839d599042993b156073197753ec
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a2d49033e499d9a52af04fcb9e23d8ed483859f5
+ms.sourcegitcommit: c18710a46018fe4c1d0ceb99710f18bbc25aad54
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21025682"
+ms.lasthandoff: 08/09/2018
+ms.locfileid: "22301443"
 ---
 # <a name="move-users-from-skype-for-business-online-to-on-premises"></a>ビジネス上でオンラインに設置型の Skype のユーザーの移動
  
@@ -191,7 +191,7 @@ ms.locfileid: "21025682"
 |:-----|:-----|:-----|:-----|
 |msRTCSIP DeploymentLocator  <br/> |HostingProvider  <br/> |sipfed.online.lync.com  <br/> |SRV  <br/> |
 |msRTCSIP PrimaryUserAddress  <br/> |SIPAddress  <br/> |sip:userName@contoso.com  <br/> |sip:userName@contoso.com  <br/> |
-|sRTCSIP UserEnabled  <br/> |Enabled  <br/> |True  <br/> |True  <br/> |
+|msRTCSIP UserEnabled  <br/> |Enabled  <br/> |True  <br/> |True  <br/> |
    
 10. 移動された各ユーザーは、いったんログアウトしてからログインし直す必要があります。ユーザーは、ログイン時に連絡先リストを確認し、必要に応じて連絡先を追加する必要があります。
     

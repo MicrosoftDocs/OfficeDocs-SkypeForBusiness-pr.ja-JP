@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 description: ビジネス サーバー 2015 計画ツールの Skype を移動するには、ツールバー、特定のページのボタン、リンク、およびコンテキスト固有のウィンドウの組み合わせを使用します。 コンテキスト固有のウィンドウには、特定のページの選択オプションに関連する計画および処理能力の設計情報が表示されます。
-ms.openlocfilehash: a2e8ff3c25476c6524656d2d11abf624603d6acd
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: aaa31f044b4a1e4cd1ad6c697f638d44ffb65202
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19505154"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の計画ツールのナビゲート
  
@@ -43,11 +44,8 @@ ms.lasthandoff: 05/24/2018
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
-[ビジネス サーバー 2015 の Skype の初期トポロジ設計を作成します。](create-the-initial-design.md)
+[Skype for Business Server 2015 の初期トポロジ設計の作成](create-the-initial-design.md)
 
 [デザインを編集](http://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
   
-[管理者レポートを確認します。](http://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)
-
+[管理者レポートの確認](http://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)
