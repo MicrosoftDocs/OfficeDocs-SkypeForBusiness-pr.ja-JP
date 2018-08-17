@@ -1,349 +1,351 @@
 ---
-title: マイクロソフトのチームのサービス管理のガイドの計画
+title: Microsoft Teams のサービス管理ガイドの計画
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: サービス、ネットワーク、およびエンドポイントの状態と動作を定義して品質の支持者の役割を管理することにより、質の高いチームのユーザー エクスペリエンスを提供します。
+description: サービス、ネットワーク、エンドポイントの動作状態を管理することや、運用や品質チャンピオンの役割を定義することによって、高品質な Teams のユーザー エクスペリエンスを実現します。
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cccd06cd9bd5ee458497fbb41db56955bb9a5ee9
-ms.sourcegitcommit: d70e5a5e7d05a2226c1d011895fb12187d73fad0
-ms.translationtype: MT
+ms.openlocfilehash: 584268a3b1b36f11518ed10e04b995b2d84b9bc1
+ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20396880"
 ---
-# <a name="plan-for-service-management-and-quality"></a>サービスの管理と品質の計画
+# <a name="plan-for-service-management-and-quality"></a>サービス管理と品質の計画
 
-このドキュメントは、マイクロソフトのチームを Envision フェーズです。
+このドキュメントは、Microsoft Teams の構想フェーズに関する情報を提供します。
  
 ## <a name="introduction"></a>はじめに
 
-このコンテンツを提供し、高品質のマイクロソフト チーム配置を維持するために必要な要件の概要を紹介します。 Envision フェーズの最初のパイロットまたは運用展開の前に、サービスの管理と品質の計画での展開を成功させることを確認することができます。
+この内容は、高品質な Microsoft Teams の展開の実現と保守管理のために必須となる要件の概要を提供するものです。 最初のパイロットまたは本稼働展開の前に、構想フェーズの間にサービス管理と品質について計画することにより、確実に正常な展開を実行できるようにすることができます。
 
-ガイダンスは、次のセクションに分かれています。
+このガイダンスは、以下のセクションで構成されています。
 
--   まず、ユーザーの操作性と品質を支持する主要なコンポーネントの概要です。 これには、マイクロソフトのチームに契約時の前に重点領域が強調表示されます。
+-   最初に、品質を下支えするユーザー エクスペリエンスと主要コンポーネントの概要を示します。 ここでは、Microsoft Teams を使い始める前に焦点をあてる領域をハイライトします。
 
--   2 つ目は、最初のユーザーのパイロットまたは生産の展開の前に、マイクロソフトのチームを管理するために、サポート モデルを計画するためガイダンスを指定します。 このセクションでは、品質のチームの配置を維持するために定期的に実行する必要のあるタスクについて説明します。 さらに、このセクションでは紹介を詳しく理解し、これらのタスクを任せていますを使用します。
+-   2 番目に、最初のユーザー パイロットまたは本稼働展開の前に、Microsoft Teams を管理するサポート モデルを計画するためのガイダンスを提供します。 このセクションでは、高品質な Teams の展開を保守管理するために、定期的に実行する必要があるタスクについて説明します。 さらに、このセクションでは、これらのタスクを理解して運用可能な状態にするために利用できる、追加のガイダンスも提供します。
 
--   3 番目に、特定のガイダンスは、マイクロソフトのチームをサポートするために計画、ネットワークおよび組織内のエンドポイントを持つことができます。
+-   3 番目には、自分の組織内で Microsoft Teams をサポートするようにネットワークおよびエンドポイントを計画するのに役立つ具体的なガイダンスを提供します。
 
--   最後に、次の手順は、関連するコンテンツへの参照で集計されます。
+-   最後に、次の段階の各手順を、関連コンテンツへの参照先と一緒にまとめて紹介します。
 
-## <a name="key-components-that-affect-user-experience"></a>ユーザー エクスペリエンスに影響を与える主要なコンポーネント
+## <a name="key-components-that-affect-user-experience"></a>ユーザー エクスペリエンスに影響がおよぶ主要コンポーネント
 
-ユーザー エクスペリエンスに影響を与える主要なコンポーネントは、このセクションで確認されます。 主要なコンポーネントを確認するには、前に、組織のビジネス目標を実現するための重要性と操作性を理解することが重要です。 最初にユーザー エクスペリエンスを定義する方法を確認してみましょう。
+ユーザー エクスペリエンスに影響する主要コンポーネントをこのセクションで再確認します。 主要コンポーネントを再確認する前に、組織のビジネス目標を達成するためのユーザー エクスペリエンスについて、およびその重要性について理解することが必要不可欠です。 ユーザー エクスペリエンスの定義について、最初に確認しましょう。
 
 ### <a name="user-experience-defined"></a>ユーザー エクスペリエンスの定義
 
-マイクロソフトのチームを展開し、ビジネス ・ プロセスのワークフローを強化するために通信を組み込む場合は、ビジネス目標を実現できます。 品質ドライブの導入と使用法: かどうか、組織が、人を喜びとしている高品質のサービスを提供し、個人やチームの信頼を獲得でき、新しい革新的な方法のサービスを使用してビジネス上の利点を促進するを検索します。
+Microsoft Teams を展開し、自分のビジネス プロセスに通信を組み込んでワークフローを強化することにより、ビジネス目標を達成することができます。 品質により、普及率と使用率が上がります。自分の組織がユーザーのためになる高品質なサービスを提供すると、個人とチームが確信を持って、ビジネス上のメリット創出を促進するサービスの使用について、新しい革新的な方法を見つけることができます。
 
-チームとユーザーの経験は、これの中核となる、人の感情と、サービスに対する姿勢です。 ユーザー エクスペリエンスをどのようなを提供しますか。 チームを使用する方法を理解し、例外的な通話の音質が発生していると、場所に関係なく確実に接続できることを日常のワークフローへの組み込みのユーザーの範囲です。 ユーザーの操作性が本質的に非常に広範ですこのドキュメントでは、組織内で制御可能な要素にのみ焦点を当てます。
+その中心には、Teams に対するユーザーのエクスペリエンス、つまりサービスに対する人間の感情や姿勢があります。 ユーザー エクスペリエンスの向上につながる要素は何でしょうか? ユーザーが Teams の使用方法を理解していること、およびその知識を日々のワークフローに組み込むこと、場所を問わずに卓越した通話品質を体験できること、信頼度の高い接続が可能であることなど、さまざまな要素にわたります。 ユーザー エクスペリエンスは、実際にはとても広範な要素から成り立っています。このドキュメントでは、自分の組織によって制御することができる要素に限定して、焦点をあてます。
 
-優れたユーザー エクスペリエンスを提供するきわめて重要な配置に固有の要件がある-特にとクラウドの音声を使用して機能チームにします。 リアルタイム トラフィックの優先順位の指定を必要に応じてその他のコミュニケーションとコラボレーションの投資で第一級市民として、マイクロソフトのチームを扱うことが重要です。 次のセクションでは、ユーザー エクスペリエンスに影響を与える主要なコンポーネントの概要を示します。 それ以上のセクションではガイダンスが提供されますを展開し、品質を構成する主要なコンポーネントを管理する計画を開始する方法について。
+素晴らしいユーザー エクスペリエンスを提供するために、特に Teams でクラウド音声機能を使用する場合において、必要不可欠となる展開には、特定の要件があります。 他の通信やコラボレーションへの投資とともに、Microsoft Teams を第一級オブジェクトとして取り扱い、リアルタイムのトラフィックを優先するようにすることが重要です。 次のセクションでは、ユーザー エクスペリエンスに影響する主要コンポーネントの概要を示します。 その先のセクションでは、高品質を構成する主要コンポーネントの展開および保守管理の計画をどのように開始するかについてのガイダンスを提示します。
 
-### <a name="key-components-of-quality"></a>品質の主要なコンポーネント
+### <a name="key-components-of-quality"></a>品質の主要コンポーネント
 
-組織またはパートナーのサポート チームの配置の Envision フェーズ中に、次の 3 つの主要コンポーネントの計画を開始する必要があります: 管理、ネットワーク、およびエンドポイントにサービスを提供します。 3 つすべての領域の組み合わせは、ユーザー エクスペリエンスの質に不可欠です。
+組織または協力パートナーは、Teams の展開の構想フェーズ中にサービス管理、ネットワーク、エンドポイントという 3 つの主要コンポーネントについての計画を開始する必要があります。 3 つの領域すべてを組み合わせたものが、ユーザー エクスペリエンスの品質の基本となります。
 
-![品質、およびサービスの管理がすべての 3 つのコンポーネントに重なっている 3 つのコンポーネントを説明する図。](media/envision-planning-for-service-management-and-quality-complete-guide-image1.png)
+![品質の 3 つのコンポーネントについて、およびサービス管理がどのようにこれらの 3 つのコンポーネントと重なっているかを示す図。](media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "品質の 3 つのコンポーネントについて、およびサービス管理がどのようにこれらの 3 つのコンポーネントと重なっているかを示す図。")
 
-#### <a name="service-management"></a>サービスの管理
+#### <a name="service-management"></a>サービス管理
 
-サービスの管理は、責任の範囲の 2 つのカテゴリに分類できます。
+サービス管理は、責任についての次の 2 つの明確なカテゴリに分類されます。
 
--   **マイクロソフトの責任**です。 マイクロソフトでは、インフラストラクチャ ・ コンポーネントを Office 365 サービスを構成する必要があります。 マイクロソフトは、信頼性と高品質の経験を持つチームに接続するユーザーのいずれかが提供されることを確実にお客様に責任を負う。
+-   **Microsoft の責任**。 Microsoft は、Office 365 サービスを構成するインフラストラクチャ コンポーネントにつて責任を負います。 Microsoft は、カスタマーに対して、Teams に接続しているすべてのユーザーが高信頼性と高品質のエクスペリエンスを得られることを保証する責任があります。
 
--   **お客様の責任**です。 組織は、Office 365 サービス、ネットワークの設置、およびユーザーのエンドポイントのさまざまな側面を管理する責任者です。 たとえば、Office 365 には、新しい IP アドレスを追加するユーザーの中断を回避するのには新しいエンドポイントへの通信を許可する適切なファイアウォールを更新する必要があります。
+-   **カスタマーの責任**。 自分、および自分の組織は、Office 365 サービス、オンプレミス ネットワーク、ユーザー エンドポイントのさまざまな側面を管理することについて、責任を負います。 たとえば、新しい IP アドレスが Office 365 に追加されたら、ユーザーが混乱しないよう新しいエンドポイントへの通信を許可するために、該当するファイアーウォールを更新する必要があります。
 
-計画サービスの管理の詳細については、[サービスの管理の計画](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#Plan-for-service-management)を参照してください。
+サービス管理の計画に関する詳細なガイダンスについては、「[サービス管理の計画](#plan-for-service-management)」をご覧ください。
 
 #### <a name="network"></a>ネットワーク 
 
-ほとんどの組織でネットワークが最初に設計されていますデータや、データ センターに存在するアプリケーションへのアクセスを提供します。 Office 365 のようなクラウド ベースのアプリケーションでは、チームが必要とする新しいアクセスとデータ ・ フローをサポートするためにこれらのネットワークへの変更が必要です。 チームのユーザーを有効するには、組織で、前に、評価し、現在のネットワークを最適化する必要があります。 これは、クラウドのボイス機能を利用する際に非常に重要です。
+多くの組織では、ネットワークは当初、データセンターに常駐しているデータやアプリケーションへのアクセスを提供するために設計されています。 Office 365 のようなクラウド ベースのアプリケーションは、Teams で必要となる新しいアクセスおよびデータ フローをサポートするために、それらのネットワークに対応する変更が求められます。 組織内の Teams のユーザーを有効にすることができるようになる前に、現在のネットワークの評価と最適化を実施する必要があります。 これは、クラウド音声の機能を利用するときに、特に重要です。
 
-従来のネットワークでは、ユーザーがチームにアクセスするのには組織の境界ネットワークを通過する必要があります。 多くの組織では、プロキシ サーバー、ファイアウォール、およびブロック、影響を及ぼすこと、またはネットワーク トラフィック用に最適化されていないパスを提供する Vpn などのセキュリティ ベースのデバイスがあります。
+従来のネットワークでは、ユーザーは Teams にアクセスする組織の境界ネットワークを横断する必要があります。 多くの組織では、ネットワーク トラフィックのために最適化されていないパスを遮断、妨害、提供することができる、プロキシ サーバー、ファイアウォール、VPN などのセキュリティに基づくデバイスを利用しています。
 
-さらに、コアの内部ネットワークを最適化したり、リアルタイム メディアを含め、チームの作業負荷をサポートするための十分な能力と品質を提供する適切なサイズにする必要があります。 帯域幅の計画、改善計画を使用することができ、ネットワークを確実に最適化は、Office 365 に高品質かつ効率的なパスを提供します。
+さらに、中核の内部ネットワークは、リアルタイムのメディアを含む Teams の負荷に対応できる十分な容量と品質を提供するために、最適化され、規模が適正化されている必要があります。 帯域幅の計画、修復、最適化を使用して、お使いのネットワークが Office 365 への高品質で効率的なパスを確実に提供できるようにします。
 
-ネットワークの計画に関する詳細なガイダンスは、[ネットワークの構成を計画する](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#Plan-for-network-quality)を参照してください。
+ネットワークの計画に関する詳細なガイダンスについては、「[ネットワーク品質の計画](#plan-for-network-quality)」をご覧ください。
 
 #### <a name="endpoints"></a>エンドポイント
 
-マイクロソフト チームは、さまざまなエンドポイントをサポートしています。 電話のタブレット Pc からは、ほぼすべてのデバイスからのチームをどこにでもアクセスできます。
+Microsoft Teams はさまざまなエンドポイントをサポートします。 PC やタブレットや電話など、実質的にあらゆるデバイスでどの場所からでも Teams にアクセスすることができます。
 
-最良のエクスペリエンスをユーザーに提供可能であれば、する必要があります Envision フェーズ中にこれらの重要な側面を検討してください: エンドポイントでは、チームのハードウェアとソフトウェアの要件を達成しますか? 構成され、Wi-fi ネットワークをサポートするエンドポイントを最適化しますか。 音声通話を送受信するデバイスを使用するか。 これらのデバイスは、チームに対して最適化を行うのでしょうか。
+ユーザーに最高のエクスペリエンスを提供するには、構想フェーズ中に次の重要な点について考慮する必要があります。自分のエンドポイントが Teams のハードウェア要件およびソフトウェア要件に適合しているかどうか。 Wi-Fi ネットワークをサポートするようにエンドポイントを構成して最適化しているかどうか。 音声通話の発着信を行うためにどのデバイスを使用するか。 これらのデバイスが Teams のために最適化されているか。
 
-エンドポイントの計画に関する詳細なガイダンスは、[エンドポイントの品質評価の計画](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#Plan-for-endpoint-quality)を参照してください。
+エンドポイントの計画に関する詳細なガイダンスについては、「[エンドポイント品質の計画](#plan-for-endpoint-quality)」をご覧ください。
 
-## <a name="plan-for-service-management"></a>サービスの管理の計画
+## <a name="plan-for-service-management"></a>サービス管理の計画
 
-サービスの管理は、展開およびユーザーに対して有効にされた後、マイクロソフトのチーム サービスの日常的な操作をカバーする広範なトピックです。 The Teams service encompasses Microsoft Office 365 and the infrastructure components that are deployed on-premises (for example, networking).
+サービス管理の内容は、展開されてユーザーに対して利用できる状態にされている、Microsoft Teams サービスの日常的な運用を網羅するものです。 Teams サービスは、Microsoft Office 365 およびオンプレミスで展開されている (ネットワーキングなどの) インフラストラクチャ コンポーネントを組み込んでいます。
 
-ほとんどの場合、サービス管理の概念はほとんどの組織にとって新しい概念ではありません。 おそらく既に実装しているプロセスと既存のサービスに関連付けられているタスクです。 とはいえ、何がある場所を計画するときサービスの管理の現在、将来的にマイクロソフトのチームをサポートするためを追加することができます可能性があります。
+サービス管理の概念は、ほとんどの組織において、新しい概念ではない可能性が高いです。 既存のサービスに関連付けられているプロセスやタスクは、既に実施されているのではないでしょうか。 これはすなわち、現在のサービス管理の計画を立てるときに整備したものが、将来的に Microsoft Teams をサポートするために増強することになる可能性があるということです。
 
-サービスの管理には、すべてのアクティビティが含まれますのプロセスが関与するエンド ツー エンドのマイクロソフトのチームを管理します。 前述のとおり、いくつかのコンポーネント サービス管理の — インフラストラクチャ ・ コンポーネントを Office 365 サービス自体を構成する: マイクロソフトの責任では、顧客は、チームのさまざまな側面を管理するには、そのユーザーに責任を負うが、ネットワーク、およびエンドポイントを提供します。 ドキュメントのこのセクションで、サービス管理の観点からお客様の責任に焦点を当てます。
+サービス管理は、Microsoft Teams のエンドツーエンドの管理に関与するすべてのアクティビティとプロセスを組み込んでいます。 前述したように、サービス管理の一部のコンポーネント、すなわち、Office 365 サービス自体の構成要素であるインフラストラクチャ コンポーネントについては、Microsoft が責任を負います。一方で、カスタマーは自分のユーザーに対して、Teams の多様な側面、ネットワーク、およびユーザーが提供するエンドポイントの管理について責任を負うことになります。 このドキュメントのこのセクションでは、サービス管理の観点から、カスタマーの責任について焦点をあてます。
 
-![Qualilty、およびサービスの管理がすべての 3 つのコンポーネントに重なっている 3 つのコンポーネントを説明する図。 With a focus on Service Mangement.](media/envision-planning-for-service-management-and-quality-complete-guide-image2.png)
+![品質の 3 つのコンポーネントと、それらの 3 つのコンポーネントとサービス管理がどのように重なり合っているかを示す図。サービス管理に焦点があてられている状態。](media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "品質の 3 つのコンポーネントと、それらの 3 つのコンポーネントとサービス管理がどのように重なり合っているかを示す図。サービス管理に焦点があてられている状態。")
 
-### <a name="introduction-to-the-operations-guide"></a>Introduction to the Operations Guide 
+### <a name="introduction-to-the-operations-guide"></a>運用ガイドの概要 
 
-**What**, **Who**, and **How** are three important questions that need to be answered when it comes to service management.
+**何が**、**誰が**、**どのように**、というのはサービス管理に関して、回答される必要がある 3 つの重要な質問です。
 
-You can use the Operations Guide [Link to Operations Guide] to help you address all three of these questions. The guide provides a list of activities to be performed on a daily, weekly, monthly, and as-needed basis. These activities and tasks are critical for maintaining a high-quality Teams deployment. 展開を成功させるための Envision フェーズの早い段階で実行する必要がある計画の重要な側面は、サービス管理の特定のアクティビティを実行するために担当者を決定します。 After you’ve figured out the tasks and activities, they need to be understood and followed by the groups or individuals that you assign to them. The Operations Guide provides knowledge and guidance for how to perform each of the tasks, and/or references to outside content.
+これらの 3 つのすべての問いに対応できるようになるために、「[運用ガイド](1-drive-value-operate-my-service.md)」を使用することができます。 このガイドには、日単位、週単位、月単位、および必要なときに実行される各アクティビティのリストが含まれています。 これらのアクティビティとタスクは、高品質の Teams 展開を保守管理するために必要不可欠です。 サービス管理において特定のアクティビティを実行する責任が誰にあるのかを判別することは、計画での必要不可欠な要素であり、正常な展開を確実に実現するために、構想フェーズにおいて早期に行う必要があります。 自分でタスクとアクティビティを把握したら、それらのタスクやアクティビティが割り当てられるグループや個人によって理解され、従われる必要があります。 運用ガイドには、各タスクの実行方法に関する知識やガイダンス、および外部コンテンツの参考資料が含まれます。
 
-### <a name="operational-role-mapping"></a>Operational role mapping
+### <a name="operational-role-mapping"></a>運用の役割マッピング
 
-Planning for service management early is a critical milestone, because the operations phase begins when the first pilot users are enabled. The project team must review and agree on the tasks and activities required, identify the team that’s responsible for each operational task, and then get a commitment and sign-off from each respective team.
+最初のパイロット ユーザーが有効になると、運用フェーズが開始するため、サービス管理を早期に計画することは重要なマイルストーンになります。 プロジェクト チームは必要とされるタスクとアクティビティについて再確認して合意し、各運用タスクの責任を負うチームを特定して、それらの各チームから別個に誓約書を締結する必要があります。
 
-サインオフが完了した後、担当チームが開始する必要がありますし、これらの役割と責任に任せています。 This might include training and readiness, updating the staffing model, or ensuring that external partners are ready to deliver.
+締結が完了したら、責任を負うチームは該当する役割と責任の運用を開始する必要があります。 この過程には、トレーニングと準備、人材配置モデルの更新、外部のパートナーによる提供準備が完了していることの確認が含まれます。
 
-Envision のフェーズの早い段階で運用上の役割のマッピングには、パイロット、および操作をランプの中に、運用タスクを起動してすべての準備ができている、展開を開始した後かどうかを確認するすべてのチームが有効にします。
+構想フェーズにおいて早期に運用の役割をマッピングすると、すべてのチームがパイロット中に運用タスクを開始することができるようになり、運用が飛躍的に向上し、展開の開始後にすべてが準備完了であることを確認することができます。
 
-The Operations Guide provides a list of common tasks mapped to typical roles that should be valid in most scenarios. You need to customize these responsibilities to work for your organization.
+運用ガイドは、多くのシナリオにおいて有効である、標準的な役割にマッピングされた一般的なタスクのリストを提供します。 自分の組織に適した形にこれらの責任をカスタマイズする必要があります。
 
-### <a name="the-quality-champion-role"></a>The Quality Champion role
+### <a name="the-quality-champion-role"></a>品質チャンピオンの役割
 
-A group or individual needs to be accountable for quality in all organizations. This is the most important role in service management. The Quality Champion is a customer role that's assigned to a person or group who is passionate about their users' experience. This role requires the skills to identify trends in the environment and the sponsorship to work with other teams to drive remediation. The best candidate for the Quality Champion is typically the customer service owner, who—depending on the organization’s size and complexity—could be any person or group who is passionate about user experience.
+すべての組織において、グループまたは個人が品質について責任を負う必要があります。 これは、サービス管理において最も重要な役割です。 品質チャンピオンは、カスタマーの役割の 1 つで、ユーザーのエクスペリエンスについて熱心に取り組んでいるユーザーまたはグループに割り当てられます。 この役割は、環境での傾向を特定するスキルと、修復を推進するために他のチームと協力するスポンサーシップを必要とします。 通常、品質チャンピオンの最良候補は顧客サービスの所有者で、組織の規模や複雑さに応じて、ユーザー エクスペリエンスについて熱心に取り組んでいる人またはグループになります。
 
-The Quality Champion leverages existing tools and documented processes, such as the Call Quality Dashboard (CQD) and the Quality Experience Review Guide, to monitor user experience, identify quality trends, and drive remediation where needed. The Quality Champion works with the respective teams to drive remediation actions, reporting to a steering committee on their progress and open issues.
+品質チャンピオンは、通話品質ダッシュボード (CQD) および品質エクスペリエンスのレビュー ガイドなどの、既存のツールや文書化されたプロセスを活用して、ユーザー エクスペリエンスの監視、品質の傾向、および必要な場合に修復の推進を行います。 品質チャンピオンはそれぞれのチームと協力して修復アクションを促し、その進捗状況や未解決案件を運営委員会に報告します。
 
-The tasks and activities associated with the role have been documented in the Operations Guide. This role should be assigned early in the Envision phase. A key step in operationalizing the role of Quality Champion is gaining the knowledge required for the role and ensuring the prerequisites are in place to deliver on the tasks. A key task for this role is running a regular Quality Experience Review.
+この役割に関連付けられたタスクとアクティビティは、運用ガイドで文書化されています。 この役割は、構想フェーズで早期に割り当てられる必要があります。 品質チャンピオンの役割を運用できる状態にする場合、その役割で必須となる知識を得ることと、前提条件がタスクで実現できる状態に確立されていることを確認することが主な手順になります。 この役割の主なタスクは、定期的な品質エクスペリエンスのレビューを実行することです。
 
-### <a name="introduction-to-the-quality-experience-review-guide"></a>Introduction to the Quality Experience Review Guide
+### <a name="introduction-to-the-quality-experience-review-guide"></a>品質エクスペリエンスのレビュー ガイドの概要
 
-The Quality Experience Review Guide has a set of activities that assess and provide remediation guidance in key areas that have the greatest impact for improving user experience as shown in the figure below.
+品質エクスペリエンスのレビュー ガイドには、下記で図示されているユーザー エクスペリエンスの改善で影響が最大となる主要領域の評価と、その領域での修復ガイダンスを提供する、アクティビティのセットが含まれています。
 
-![A diagram that indicates the key areas that are examined during a quality experience review.](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png)
+![品質エクスペリエンスのレビュー中に確認される主要領域を示す図。](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "品質エクスペリエンスのレビュー中に確認される主要領域を示す図。")
 
-By continually assessing and remediating the areas described in this document, you can reduce their potential to negatively affect user experience. Most user-experience problems encountered in a deployment can be grouped into the following categories:
+このドキュメントで説明されている領域の評価と修復を継続的に行うことで、ユーザー エクスペリエンスに悪影響がおよぶ潜在的な可能性を減らすことができます。 展開で生じる多くのユーザー エクスペリエンスに関する問題は、次のカテゴリにグループ化されます。
 
--   Incomplete firewall or proxy configuration
+-   不完全なファイアウォールまたはプロキシの構成
 
--   Poor Wi-Fi coverage
+-   貧弱な Wi-Fi の有効範囲
 
--   Insufficient bandwidth
+-   不十分な帯域幅
 
 -   VPN
 
--   最適化されていない、または組み込みのオーディオ デバイスの使用
+-   最適化されていない内蔵音声デバイスの使用
 
 -   問題のあるサブネットまたはネットワーク デバイス
 
-品質のエクスペリエンス評価ガイドで提供されるガイダンスを報告し、説明したとおりで、オーディオを採用し、影響を最大化に重点を置いた各領域を調査する主要なツールとして呼び出す品質ダッシュ ボード (救難) オンラインを使用して重点的に説明します。 Any optimizations made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.
+品質エクスペリエンスのレビュー ガイドで提供されるガイダンスでは、普及率と影響を最大化する音声に焦点をあてながら、各領域についてのレポート作成と調査を行うための主要ツールとして通話品質ダッシュボード (COD) の使用を重視しています。 音声エクスペリエンスを改善するためにネットワークに対して行われた最適化は、ビデオおよびデスクトップ共有を改善することにも直接転用されます。
 
-We highly recommend that you nominate the Quality Champion early on. After being nominated, they should start to familiarize themselves with the content in the Quality Experience Review Guide.
+マイクロソフトは、早い段階で品質チャンピオンを指名することをお勧めします。 指名された品質チャンピオンは、品質エクスペリエンスのレビュー ガイドの内容について理解を深め始める必要があります。
 
-The Quality Experience Review Guide can be found [here](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true).
+品質エクスペリエンスのレビュー ガイドは[こちら](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)でご覧いただけます。
 
-## <a name="plan-for-network-quality"></a>ネットワークの品質管理の計画 
+## <a name="plan-for-network-quality"></a>ネットワーク品質の計画 
 
-Planning for network quality will be the focus for the following section.
+ネットワーク品質の計画は、次のセクションでの重要項目です。
 
-![Diagram describing the 3 components of quality, and how service management overlaps all 3 components. With a focus on Network.](media/envision-planning-for-service-management-and-quality-complete-guide-image4.png)
+![品質の 3 つのコンポーネントと、それらの 3 つのコンポーネントとサービス管理がどのように重なり合っているかを示す図。ネットワークに焦点があてられている状態。](media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "品質の 3 つのコンポーネントと、それらの 3 つのコンポーネントとサービス管理がどのように重なり合っているかを示す図。ネットワークに焦点があてられている状態。")
 
-As previously mentioned, planning for network quality prior to onboarding to Microsoft Teams is critical. For further guidance for network readiness, see [Prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network).
+前述したように、Microsoft Teams を使い始める前に、ネットワーク品質についての計画を立てることが重要です。 ネットワークの準備に関するより詳細なガイダンスについては、「[Microsoft Teams 用に組織のネットワークを準備する](prepare-network.md)」をご覧ください。
 
-In most organizations, networks can comprise both managed and unmanaged networks.
+多くの組織では、ネットワークは管理対象と非管理対象のネットワークで構成されます。
 
-Managed networks are components of the network infrastructure that an organization has direct control over. As a result, managed networks have a direct influence on the quality that can be provided to real-time traffic workloads.
+管理対象ネットワークは、組織が直接制御することができる、ネットワーク インフラストラクチャのコンポーネントです。 そのため、管理対象ネットワークは、リアルタイムのトラフィック負荷に対して提供される品質に、直接的な影響をおよぼします。
 
-Conversely, unmanaged networks are segments of the network that a customer has limited control, or no control, over.
+反対に、非管理対象ネットワークは、カスタマーによる制御が限られているか、不可能なネットワークのセグメントです。
 
-Internet connections between the organization and Office 365 are networks where a customer has limited control. The networks are managed by an ISP, but organizations should be able to influence the quality of the network by upgrading their bandwidth, advocating for route optimizations, or—if all else fails—switching ISPs.
+組織と Office 365 との間のインターネット接続は、カスタマーによる制御が限られているネットワークとなります。 ネットワークは ISP によって管理されますが、組織は帯域幅をアップグレードしたり、ルートの最適化を支援したり、他の手段が上手くいかない場合に ISP を切り替えたりすることによって、ネットワークの品質に影響を与えられる必要があります。
 
-Home networks or networks in hotels or coffee shops are examples of networks where a customer has no control.
+自宅のネットワーク、またはホテルやカフェのネットワークは、カスタマーによる制御が不可能なネットワークの例となります。
 
-In the following sections, we will focus on the quality requirements of managed networks.
+次以降のセクションでは、管理対象ネットワークの品質要件について焦点をあてます。
 
-### <a name="key-network-planning-areas"></a>Key network planning areas
+### <a name="key-network-planning-areas"></a>主要なネットワーク計画の領域
 
-The following sections focus on the important areas for delivering a high-quality network.
-
-> [!NOTE]
-> Many networks evolve over time due to upgrades, expansion, or other business requirements. Ensure that you have operational processes in place to maintain these areas as part of your service management planning.
-
-#### <a name="bandwidth"></a>Bandwidth
-
-Bandwidth planning is a critical aspect of the network readiness activity. マイクロソフトのチームの作業負荷に対して、十分な帯域幅があることを保証することが不可欠です。 適切なサイズの既存のネットワークには、何が現在準備されている、現在の使用率を理解する必要がありますと、最終的には、残りの利用可能な帯域幅。
-
-To measure current utilization, you need to monitor the network. This measurement can then be used as the starting point for bandwidth planning. In addition, the network should be continually monitored during the deployment and after the deployment to ensure that the network is sufficiently provisioned.
+次以降のセクションは、高品質ネットワークを提供するための重要な領域について焦点をあてます。
 
 > [!NOTE]
-> When monitoring network utilization, it’s important to avoid using averages over the day. These averages can include non-core hours that skew the result. Averages can hide peak periods and mask an underlying problem.
+> 多くのネットワークは時間の経過とともに、アップグレード、拡張、その他のビジネス上の要件によって、進展します。 自分のサービス管理計画の一部として、これらの領域の保守管理のための運用プロセスが確立されていることを確認します。
 
-The [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) helps you determine and organize network requirements for your deployment in just a few simple steps. By using the tool to gather your organization's networking details and Cloud Voice usage, you can get an approximate calculation of the network requirements you’ll need for your Cloud Voice deployment, manage and export these details for reporting, and view areas for further investigation and next steps.
+#### <a name="bandwidth"></a>帯域幅
 
-#### <a name="quality-of-service-qos"></a>Quality of service (QoS)
+帯域幅の計画は、ネットワーク準備のアクティビティの重要な要素です。 Microsoft Teams の負荷に対して十分な帯域幅があることを確認することは必要不可欠です。 既存のネットワークのサイズを適正化することができるようになるために、現在プロビジョニングされているもの、現在の使用状況、および最終的には、利用可能な残りの帯域幅について把握している必要があります。
 
-QoS should be implemented on all segments of the managed network, even networks that have been adequately provisioned for bandwidth. In the latter case, QoS acts as a risk mitigation in the event of unanticipated network load. When QoS is implemented, voice traffic will be prioritized so that these unanticipated events don’t affect quality.
+現在の使用状況を計測するには、ネットワークを監視する必要があります。 その場合、この計測を帯域幅の計画の開始点として使用することができます。 さらに、ネットワークは展開中および展開後において、ネットワークが十分にプロビジョニングされていることを確認するために、継続的に監視される必要があります。
 
-QoS の実装では、出口のポイントまでのエンドポイントとエンドポイントに出口のポイントから、ネットワークの領域を含める必要があります。 これは、双方向の音声トラフィックが優先されていることを確認します。 QoS should be implemented on both wired and Wi-Fi networks.
+> [!NOTE]
+> ネットワークの使用状況を監視するときは、1 日での平均値を使用しないようにすることが重要です。 このような平均値は、コアタイム以外の時間帯が含まれていることがあり、使用状況の実態を歪めている可能性があります。 平均値では、ピークの時間帯が隠されてしまい、根底にある問題を識別できない可能性が生じます。
 
-QoS を実装する、ネットワーク上での次のガイダンスに役立つ[マイクロソフトのチームでは、品質のサービス](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams)
+[ネットワーク プランナー](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)は、自分の展開のためのネットワーク要件を、いくつかの簡単な手順で判別して整備するのに役立ちます。 このツールを使用して自分の組織のネットワーキングの詳細とクラウド音声の使用状況を収集すると、クラウド音声の展開で必要なネットワーク要件の概算値を得ることや、レポートのためにこれらの詳細を管理してエクスポートすることや、さらなる調査対象の領域および以降の手順を確認することができます。
 
-#### <a name="proxy-servers"></a>Proxy servers
+#### <a name="quality-of-service-qos"></a>サービスの品質 (QoS)
 
-Many organizations view traffic destined for the internet as a security risk, and they mitigate this risk by monitoring and evaluating traffic at the egress points in the network. プロキシ サーバーは、この要件を満たすために展開できるデバイスのクラスです。
+QoS は、管理対象ネットワークのすべてのセグメントで実装される必要があり、ネットワークが帯域幅について適切にプロビジョニングされている場合でも、必要となります。 このような場合では、QoS は、想定外のネットワーク負荷が生じた場合のリスクを軽減するものとして機能します。 QoS が実装されると、音声トラフィックが優先されるため、想定外のイベントが発生しても品質に影響することはありません。
 
-パケット検査や変更、ペイロードを実行する場合、プロキシ サーバーに問題が発生します。 This can lead to call setup failures, dropped calls, and poor call quality. リアルタイム メディアは、強制的にプロキシ サーバーを通過する場合は、チームでメディアのスタックは TCP で、さらに品質が低下することに失敗する強制されます。 UDP は、TCP 経由で常に優先します。
+QoS の実装は、エンドポイントからエグレス ポイントに至るまで、およびエグレス ポイントからエンドポイントに戻るまでの、ネットワークの領域を対象範囲とする必要があります。 これにより、双方向で音声トラフィックが優先化されます。 QoS は有線ネットワークと Wi-Fi ネットワークの両方で実装される必要があります。
 
-さらに、プロキシ サーバーいないが設計されているマイクロソフトのチームの作業負荷では具体的には、Office 365 の追加の負荷を処理するために、リアルタイムのメディアを含みます。
+お使いのネットワークに QoS を実装する場合は、[Microsoft Teams でのサービスの品質 (QoS)](qos-in-teams.md) のガイダンスが役立ちます。
 
-Due to the potential problems a proxy server can introduce, and these additional capacity concerns, Microsoft recommends bypassing the proxy server and making a direct connection to Office 365.
+#### <a name="proxy-servers"></a>プロキシ サーバー
 
-プロキシ サーバーをバイパスするための構成はベンダーによって異なりますが、一般的な方法通常では、プロキシ自動構成 (PAC) ファイルを更新します。 PAC ファイルは、プロキシを通過するトラフィックと、どのようなトラフィックをバイパスすることを説明する構成ファイルです。
+多くの組織は、インターネット向けに設計されたトラフィックをセキュリティ上のリスクとして見ており、このリスクを軽減するためにネットワークのエグレス ポイントでトラフィックの監視と評価を行っています。 プロキシ サーバーは、この要件を満たすために展開することができるデバイスのクラスです。
 
-Some proxy server vendors provide an automated process for ensuring the configuration is up to date. 更新された PAC ファイルをダウンロードするには、ベンダーがこの自動プロセスを提供していない場合は、 <https://aka.ms/o365proxies>。
+プロキシ サーバーは、パケット検査またはペイロードに対する変更の実行時に問題を引き起こす可能性があります。 これにより、セットアップが失敗したり、通話が途中で切れたり、通話品質が低下する可能性があります。 リアルタイム メディアが強制的にプロキシ サーバーを横断させられると、Teams のメディア スタックが強制的に TCP にフェールバックされ、品質がさらに低下する可能性があります。 UDP は常に TCP よりも優先されます。
 
-[Skype オンライン ビジネスとチームのためのプロキシ サーバー](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)
+また、プロキシ サーバーは Office 365 の追加の負荷、具体的にはリアルタイム メディアを含む Microsoft Teams の作業負荷を対処するように設計されていない可能性があります。
+
+プロキシ サーバーが引き起こす可能性のある潜在的な問題や、追加の容量に関する問題などにより、マイクロソフトはプロキシ サーバーをバイパスして Office 365 への直接接続を確立することをお勧めします。
+
+プロキシ サーバーをバイパスするために必要な構成は、ベンダーの間で異なりますが、一般的な手法には通常、プロキシの自動構成 (PAC) ファイルの更新が含まれます。 PAC ファイルは、どのトラフィックがプロキシを通るか、およびどのトラフィックがプロキシをバイパスするかが記述されている構成ファイルです。
+
+一部のプロキシ サーバーのベンダーは、確実に構成が最新の状態になるように、自動化されたプロセスを提供します。 ご利用のベンダーがこの自動化プロセスを提供しない場合は、更新された PAC ファイルを <https://aka.ms/o365proxies> からダウンロードすることができます。
+
+[Skype for Business Online および Teams 向けのプロキシ サーバー](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)
 
 #### <a name="firewalls"></a>ファイアウォール
 
-右側のポートとプロトコルは、すべての Office 365 の ip アドレスや Url を開くことを確認は、マイクロソフトのチームにアクセスする必要があります。 高品質の展開が重要です。 Simply making a call or joining a conference call is not enough to be sure your firewall is properly configured.
+Microsoft Teams にアクセスすることができるようにするには、正しいポートとプロトコルがすべての Office 365 の IP および URL に対して開いていることを確認することが必要です。 これは、高品質の展開においても必要不可欠です。 単純に通話を発信したり、電話会議の通話に参加したりするだけでは、ご利用のファイアウォールが適切に構成されていることを確認するには不十分です。
 
-ファイアウォールで TCP を開くだけの場合は、セッションが確立されますが優先のトランスポート (UDP) がネゴシエートされません。 最高のユーザー エクスペリエンスを提供するファイアウォールを開放するには、TCP と UDP の両方が必要です。
+TCP のみがファイアウォール上で開かれている場合、セッションは確立されますが、優先トランスポート (UDP) はネゴシエートされません。 TCP および UDP は、最高のユーザー エクスペリエンスを提供するために、両方ともファイアウォール上で開かれる必要があります。
 
-ステートフルの性質のためは、TCP は、リアルタイム メディアに適していないし、マイクロソフトのチームのフェイル バックのネットワーク トランスポートとしてのみ提供されています。 Tcp の場合、パケットの遅延や損失がある場合、パケット必要があります再送信されるまで、それらを確認しています。 これにより、メディア パケットが現在のメディア パケットのタイムリーな配信と競争する必要がなくなります。 ユーザーのチームのクライアントでは、オーディオをストレッチしようとして、ネットワークの状態により音のアーティファクトを生成することができます。 TCP のオーバーヘッドを一般に許容可能な経験はユーザー エクスペリエンスの低下にシフトことができます。 このため、UDP の状態のネットワーク トランスポートが必要です。
+そのステートフルな性質により、TCP はリアルタイム メディアに対しては優先されず、Microsoft Teams のフェールバック ネットワーク トランスポートとしてのみ提供されます。 TCP では、パケットの遅延や消失が発生した場合に、それらのパケットについて確認応答が返されるまで、再送信される必要があります。 この場合、現在のメディア パケットの適切なタイミングでの配信の競合とにまったく関与しないメディア パケットになります。 ユーザーの Teams クライアントはオーディオの引き延ばしを試みます。ネットワークの状態によっては、音によるアーチファクトが生成される可能性があります。 TCP の追加のオーバーヘッドにより、全般的に許容できるエクスペリエンスが、低品質のユーザー エクスペリエンスに変わる可能性があります。 この理由から、ステートレス ネットワーク トランスポート UDP が必要になります。
 
-マイクロソフト チームのファイアウォールを実行するための完全ガイドは、 [Office 365 の Url と IP アドレスの範囲](https://aka.ms/o365ips)の記事で提供されます。
+Microsoft Teams 用のファイアウォールを開くことについての完全なガイダンスは、「[Office 365 URL および IP アドレス範囲](https://aka.ms/o365ips)」の記事で提供されています。
 
-ファイアウォールが開かれた後は、クラウドのボイス機能の接続性を検証するために[Microsoft ネットワーク評価ツール](https://www.microsoft.com/en-us/download/details.aspx?id=53885)を使用できます。
+ファイアウォールが開かれたら、[Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) を使用して、クラウド音声の機能のための接続を検証することができます。
 
 > [!IMPORTANT]
-> Microsoft Office 365 の ip アドレスや Url は、時間の経過と共に変更されます。 サービス管理の計画の一環として、することが重要業務プロセスが存在し、グループ[Office 365 の Url と IP アドレスの範囲](https://aka.ms/o365ips)を監視し、それに応じて更新プログラムを確認する責任を負うことを確認します。
+> Microsoft Office 365 の IP および URL は時の経過とともに変わります。 サービス管理の計画の一部として、運用プロセスが確立していることと、[Office 365 のURL と IP アドレス範囲](https://aka.ms/o365ips)を監視して必要に応じて更新を行う責任がグループにあることを確認することが重要です。
 
-#### <a name="local-internet-egress"></a>ローカルのインターネットの出口
+#### <a name="local-internet-egress"></a>ローカルのインターネット エグレス
 
-多くのネットワークは、ハブを使用して、スポークのトポロジを設計されました。 このトポロジでは、インターネット トラフィック通常走査 WAN 中央データ センターにインターネットに現れた (組み入れる) 前にします。 全体的なコストの削減を目標として、ネットワーク セキュリティ デバイスを集中管理するこれは、多くの場合です。
+多くのネットワークは、ハブおよびスポーク トポロジを使用するよう設計されたものです。 このトポロジでは、インターネットのトラフィックは通常、インターネットに出現 (エグレス) する前に、 WAN を横断して中央データセンターに到達します。 これは多くの場合、総コストを削減する目的で、ネットワーク セキュリティ デバイスを一元化するために行われます。
 
-WAN 経由のトラフィックの背面の運搬は、遅延時間を増加し、品質とユーザー エクスペリエンスに悪影響を与えるには。 マイクロソフト チームは、Microsoft の大規模なグローバル ・ ネットワーク上で稼働するために多くの場合ネットワーク ピアリングの場所、ユーザーの近くに ユーザーができるだけ早くその場所に近いと、音声用に最適化されたネットワークにローカルのインターネット ポイントから egressing でパフォーマンスを向上させる可能性があります表示されます。 一部のワークロードでは、DNS 要求を使用して、トラフィックの送受信をフロント エンド サーバーに最も近い。 このような場合、ローカル出口ポイントを使用する場合はローカルの DNS 解決とペアリングされてが重要です。
+WAN でのバックホーリングのトラフィックは待機時間を増大させ、品質とユーザー エクスペリエンスに悪影響をおよぼします。 Microsoft Teams は Microsoft の大規模なグローバル ネットワーク上で実行されるため、多くの場合、ユーザーに近いネットワーク ピアリングの場所が存在します。 ユーザーの場所に近いローカルのインターネット ポイントから出て、音声に最適化されたネットワークにできるだけ早く入ることにより、ユーザーはより良質なパフォーマンスを得る可能性が高くなります。 一部の負荷については、最も近いフロントエンド サーバーにトラフィックを送信するために DNS 要求が使用されます。 そのような場合、ローカル エグレス ポイントを使用するときにローカル DNS 解決と組み合わせることが重要です。 
 
-マイクロソフトのグローバル ・ ネットワークへのネットワーク パスを最適化すると、パフォーマンスが向上し、最終的に最高のエクスペリエンスをユーザーに提供されます。 詳細については、[最適な接続および Office 365 のパフォーマンス](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694)を投稿するブログを参照してください。
+Microsoft のグローバル ネットワークへのネットワークパスを最適化すると、パフォーマンスが改善され、最終的にユーザーのための最高のエクスぺリエンスが提供されます。 詳細については、「[Getting the best connectivity and performance in Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694)」のブログ投稿をご覧ください。
 
 #### <a name="vpn"></a>VPN
 
-Vpn は、多くの組織に貴重なサービスを提供します。 残念ながら、通常ないよう設計されています。 またはされるリアルタイムのメディアをサポートするように構成します。 いくつかの Vpn にも UDP をサポートされて可能性があります。 Vpn は、トラフィックの暗号化済みのメディア上の暗号化の追加の層も紹介します。 さらに、マイクロソフトのチーム サービスへの接続は、VPN デバイス経由のトラフィックの髪の毛の固定のための効率的なできない場合があります。 さらには想定していない容量の観点からチームを必要とする予想される負荷に対応するため。
+VPN は多くの組織に対して、価値のあるサービスを提供します。 残念ながら、これらは通常、リアルタイム メディアをサポートするように設計または構成されていません。 一部の VPN は、UDP をサポートしていない可能性もあります。 VPN は、既に暗号化されたメディア トラフィック上に暗号化の追加階層の導入も行います。 さらに、VPN デバイスを介したヘアピン型トラフィックが原因で、Microsoft Teams サービスへの接続が効率的ではない可能性もあります。 さらに、それらは必ずしも、Teams によって要求される予想負荷に対応するように容量の観点から設計されているわけではありません。
 
-チームのトラフィックを VPN を回避する代替パスを提供することをお勧めします。 これは通常、分割トンネル VPN として呼ばれます。 スプリット トンネリングを意味 Office 365 用には、そのトラフィックは VPN を通過しないですが、Office 365 に直接送られます。 この変更は品質に良い影響を与えるがも VPN デバイスと組織のネットワークの負荷の軽減の第 2 の利点を提供します。
+Teams トラフィックのために VPN をバイパスする代替パスを提供することをお勧めします。 これはスプリット トンネル VPN として一般に知られています。 スプリット トンネルでは、Office 365 のトラフィックは VPN を横断せずに、Office 365 に直接移動します。 この変更は、品質に良い影響をおよぼしますが、二次的な利点として、VPN デバイスおよび組織のネットワークの負荷を低減します。
 
-スプリット トンネルを実装するには、VPN のベンダーの構成の詳細を参照してください。
+スプリット トンネルを実行するには、構成の詳細について、VPN ベンダーに相談してください。
 
-#### <a name="wi-fi"></a>Wi-fi
+#### <a name="wi-fi"></a>Wi-Fi
 
-VPN と同様、Wi-fi ネットワークは設計やリアルタイム メディアをサポートするように構成しないとは限りません。 計画、および最適化する、チームをサポートするために Wi-fi ネットワークは、品質の展開の重要な考慮事項です。
+VPN と同様に、Wi-Fi ネットワークは必ずしもリアルタイム メディアをサポートするように設計または構成されているわけではありません。 Teams をサポートするために Wi-Fi ネットワークのための計画を立てたり、最適化を行うことは、高品質の展開を実現するための重要な考慮事項です。
 
-Wi-fi ネットワークを最適化するために用意されているいくつかの要因があります。
+Wi-Fi ネットワークの最適化には、いくつかの要素が関与します。
 
--   メディア トラフィックをすることを確認するには、QoS または Wi-fi マルチ メディア (WMM) の実装を取得する優先度は、それに応じて Wi-fi ネットワークを経由します。
+-   Wi-Fi ネットワーク上でメディア トラフィックが確実に優先されるように QoS または Wi-Fi マルチメディア (WMM) を実装すること。
 
--   計画と W Fi のバンドとアクセスを最適化する位置をポイントします。 2.4 GHz の範囲は、アクセス ポイントの配置によって、十分な経験を提供可能性がありますが、アクセス ポイントの範囲で動作するその他の消費者向けデバイス影響を受けることがよくあります。 5 GHz の範囲はより高密度の範囲のため、リアルタイム メディアに適していますが、十分なカバレッジを取得するより多くのアクセス ポイントが必要です。 エンドポイントは、その範囲をサポートし、それに応じてそれらの帯域を活用するように構成する必要があります。
+-   W-Fi バンドとアクセス ポイントの配置の計画と最適化。 アクセス ポイントの配置に応じて、2.4 GHz 帯で十分なエクスペリエンスが提供される可能性がありますが、アクセスポイントは、多くの場合にその帯域で動作するその他のコンシューマー デバイスによって影響を受けます。 5 GHz 帯は、その密度により、リアルタイム メディアにより適していますが、十分なカバレッジを得るためにより多くのアクセスポイントを必要とします。 エンドポイントも、その帯をサポートしており、それらの帯を利用できるように構成されている必要があります。
 
--   デュアル バンド Wi-fi ネットワークを展開している場合は、バンドのステアリングを実装することを検討してください。 バンドのステアリングは、5 Ghz の範囲を使用するデュアル バンドのクライアントに影響を及ぼす Wi-fi ベンダーによって実装されている手法です。
+-   デュアル バンドの Wi-Fi ネットワークが展開されている場合は、バンド ステアリングの実装を検討してください。 バンド ステアリングは Wi-Fi ベンダーによって実装された技術で、デュアル バンド クライアントが 5 GHz 帯を使用するように仕向けます。
 
--   チャネル重複 – 同じチャネルのアクセス ポイントが近すぎる信号の重なりが発生し、意図せず競合しているユーザーの不正な操作の結果として、ときにします。 互いに連続してアクセス ポイントがチャンネルが重複しないよりも上にあることを確認します。
+-   チャネルのオーバーラップ – 同じチャネルのアクセス ポイントがお互いに近すぎる場合、信号のオーバーラップや意図しない競合が発生して、ユーザーのエクスペリエンスが低下する可能性があります。 お互いに隣り合っているアクセス ポイントが、オーバーラップしていないチャネル上にあることを確認します。
 
-各ワイヤレス ベンダーでは、独自のワイヤレス ソリューションを展開するための推奨事項があります。 特定のガイダンスについては、仕入先を相談することをお勧めします。
+各無線ベンダーは、その無線ソリューションを展開する場合の推奨事項をそれぞれ持っています。 詳細なガイダンスについては、ご利用のベンダーに相談することをお勧めします。
 
 ### <a name="network-readiness-assessment"></a>ネットワークの準備状況の評価
 
-ネットワークの準備活動の一部には、ネットワークの評価が含まれています。 計画と構成が完了したら後、評価するのに役立つオンボードのユーザーの前に、ネットワークの品質の基準の理解マイクロソフトのチームに。 評価の結果も、識別し、チームのユーザーを有効にする前に修復作業を優先順位を設定できます。
+ネットワーク準備のアクティビティの一部として、ネットワーク評価が含まれます。 計画と構成を完了したら、ユーザーが Microsoft Teams を使い始めるようになる前に、評価によりネットワークの品質についての基本的な理解を得ることができます。 評価の結果は、Teams のユーザーを有効にする前に、修復の取り組みを特定して優先順位を付けることにも役立ちます。
 
-ワイヤード (有線) の両方に、ネットワークの評価を実行する必要があり、すべての建物の可能な Wi-fi ネットワークがチームでのボイス機能をクラウドします。
+ネットワーク評価は、Teams でのクラウド音声の機能に対応するよう設定されているすべての建物の有線および Wi-Fi ネットワークの両方で実行される必要があります。
 
-ネットワークの評価は、マイクロソフトのパートナー、サード ・ パーティ製のツールまたは[Microsoft ネットワーク評価ツール](https://www.microsoft.com/en-us/download/details.aspx?id=53885)を使用して実行できます。 私たちも詳細に説明して準備ガイダンスの一部として Microsoft ネットワーク評価ツールを使用して評価を実行する方法について[ここでは](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11).
+ネットワーク評価は、Microsoft パートナー、サード パーティ製のツール、または [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) を使用することによって実行されます。 準備ガイダンスの一部として、Microsoft Network Assessment Tool を使用した評価の実行方法についてのより詳しいガイダンスを、[こちら](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11)でご覧いただけます。
 
-## <a name="plan-for-endpoint-quality"></a>エンドポイントの品質管理の計画
+## <a name="plan-for-endpoint-quality"></a>エンドポイント品質の計画
 
-次の図からわかるように、エンドポイントは、エンド ・ ユーザーに対して、高品質なエクスペリエンスを提供することの重要な基盤です。
+下図で見ることができるように、エンドポイントは、ユーザーに対して高品質のエクスペリエンスを提供するための、重要な構成要素です。
 
-![品質、およびサービスの管理がすべての 3 つのコンポーネントに重なっている 3 つのコンポーネントを説明する図。 端点に重点を置いた。](media/envision-planning-for-service-management-and-quality-complete-guide-image5.png)
+![品質の 3 つのコンポーネントと、それらの 3 つのコンポーネントとサービス管理がどのように重なり合っているかを示す図。エンドポイントに焦点があてられている状態。](media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "品質の 3 つのコンポーネントと、それらの 3 つのコンポーネントとサービス管理がどのように重なり合っているかを示す図。エンドポイントに焦点があてられている状態。")
 
-マイクロソフトのチームの端点は、Pc、Mac、タブレット、およびモバイル デバイスを含め、多くのデバイスで実行できます。 経験の一部を含むだけでなく、そのデバイスは、ユーザーがデバイスに接続する方法などのデバイスの内蔵マイクとスピーカー、イヤー ・ バッド、または、最適化されたヘッドセットを使用します。 最適化されたヘッドセットを使用すると、全体的なユーザー エクスペリエンスを追加できます。
+Microsoft Teams のエンドポイントは、PC、Mac、タブレット、モバイル デバイスなど、多くのデバイス上で実行することができます。 エクスペリエンスの一部には、デバイスだけではなく、ユーザーがどのようにしてデバイスに接続するか、たとえば、デバイスの内蔵マイク/スピーカーを使用するか、イヤホンを使用するか、最適化されたヘッドセットを使用するか、ということも組み込まれています。 最適化されたヘッドセットを使用すると、全体的なユーザー エクスペリエンスが向上します。
 
-エンドポイントの計画では、次のガイダンスを使用すると、組織の正常な契約時のチームが発生することを確認できます。
+エンドポイントの計画についての次のガイダンスは、自分の組織が正常に Teams を使い始められるようになるために役立つ情報を提供します。
 
 ### <a name="endpoint-capability"></a>エンドポイントの機能
 
-計画の最初の部分は、すべての Pc を確認して、組織内の他のデバイスは、マイクロソフトのチームを実行できます。 これは、ハードウェアの要件を見るだけでなくが、他の PC が何をバック グラウンドでの理解も含まれます。 多くの組織では、侵入検知システムやデバイスの基本のパフォーマンスに影響を与えるウイルス対策ソフトウェアなど、他のソフトウェアを実行します。
+計画で最初に行うことは、組織内のすべての PC およびその他のデバイスが Microsoft Teams を実行できることを確認することです。 これには、単にハードウェア要件を確認するだけではなく、PC がバックグラウンドで他に何を実行しているかを理解することも含まれます。 多くの組織は、侵入検出システムやマルウェア対策ソフトウェアなどの、デバイスの基本パフォーマンスに影響する可能性がある、他のソフトウェアを実行しています。
 
-マイクロソフトのチームでは、使用可能なクライアントの web、デスクトップ (Windows および Mac) とモバイル (Android、iOS、および Windows Mobile) があります。 各プラットフォームのソフトウェア要件については、[マイクロソフトのチームのクライアントを取得する](https://docs.microsoft.com/microsoftteams/get-clients)を参照してください。
+Microsoft Teams には、Web、デスクトップ (Windows および Mac)、モバイル (Android、iOS、Windows Mobile) で利用できるクライアントがあります。 各プラットフォームのソフトウェア要件の詳細については、「[Microsoft Teams のクライアントを取得する](get-clients.md)」をご覧ください。
 
 ### <a name="endpoint-firewalls"></a>エンドポイントのファイアウォール
 
-クライアント側のファイアウォールでは、ユーザーの操作性に大きな影響を与えるをことができます。 クライアント側のファイアウォールは、呼び出しを確立することを防ぐだけでなく、通話の音質に影響を与えます。 [Office 365 の Url と IP アドレスの範囲](https://aka.ms/o365ips)内の情報に基づいて、クライアント ファイアウォールで適切な除外を構成します。 サード パーティ ベンダーは、除外リストを作成する方法の具体的なガイダンスがあります。
+クライアント側のファイアウォールはユーザー エクスペリエンスに大きな影響をおよぼす可能性があります。 クライアント側のファイアウォールは、通話が確立されないようにするだけではなく、通話品質に影響する可能性があります。 「[Office 365 URL および IP アドレス範囲](https://aka.ms/o365ips)」の情報に基づいて、クライアントのファイアウォールでの例外を適切に構成します。 ご利用のサードパーティ ベンダーには、例外の作成方法についての固有のガイダンスがあります。
 
 > [!NOTE]
-> マイクロソフト チームは、適切なファイアウォール構成で Windows ファイアウォールを自動的に更新されます。
+> Microsoft Teams は、適切なファイアウォール構成で自動的に Windows ファイアウォールを更新します。
 
-### <a name="wi-fi-recommendations-for-endpoints"></a>エンドポイントの Wi-fi の推奨事項
+### <a name="wi-fi-recommendations-for-endpoints"></a>エンドポイント向けの Wi-Fi の推奨事項
 
-マイクロソフトのチームでリアルタイムの作業負荷をサポートするために最適化された Wi-fi ネットワークの展開の計画とは、計画の重要な必要があります。 次のセクションでは、端点を計画するときにいくつかの一般的な落とし穴を避けるために役立ついくつかの一般的なガイダンスを提供します。
+Microsoft Teams のリアルタイムの負荷をサポートするために最適化された Wi-Fi ネットワークの計画と展開には、大きな計画が必要になります。 次のセクションでは、エンドポイント向けの計画を行うときのよくある落とし穴を避けるために役立つ、いくつかの全般的なガイダンスを提供します。
 
-#### <a name="wi-fi-drivers"></a>Wi-fi ドライバー
+#### <a name="wi-fi-drivers"></a>Wi-Fi ドライバー
 
-Wi-fi ドライバーによっては、問題が発生する可能性があります。 例として、ドライバーは、品質の低下の呼び出しの原因と、アクセス ポイント間で非常に積極的な移動の動作があります。 これは、一般的なものではありませんが、PC の Wi-fi ドライバーが更新され、展開する前にテストすることを確認することが重要です。
+一部の Wi-Fi ドライバーには問題がある可能性があります。 たとえば、ドライバーによりアクセス ポイント間で非常に積極的なローミング動作が行われる場合があり、その結果として通話品質が下がります。 これは、一般的なことではありませんが、展開を行う前に PC 上の Wi-Fi ドライバーが更新済みでテスト済みであることを確認するのは重要なことです。
 
-#### <a name="wi-fi-bands"></a>Wi-fi バンド
+#### <a name="wi-fi-bands"></a>Wi-Fi バンド
 
-Wi-fi 機器は現在、2.4 GHz および 5.0 GHz で使用されているバンドの主に 2 種類あります。 組織では、両方のバンドを提供する場合は、5.0 GHz バンドを使用するのには、ドライバーの設定を構成してください。 このバンドはスループットの点ではるかに高密度と、2.4 GHz 帯域内で発生する障害で影響を受ける小さい。 この推奨事項では、5.0 GHz のネットワーク帯域を正しく最適化したことを前提としています。
+現在の Wi-Fi 機器では、2.4 GHz と 5.0 GHz という 2 つの主な種類のバンドが使用されています。 自分の組織が両方のバンドを提供している場合、ドライバーの設定を、5.0 GHz バンドを優先するように構成する必要があります。 このバンドでは、スループットの点で密度がより高く、2.4 GHz バンドで生じる干渉による影響がより少なくなります。 この推奨事項は、5.0 GHz のネットワーク バンドを正しく最適化したことを想定しています。
 
-#### <a name="wi-fi-radio-type"></a>Wi-fi 無線タイプ
+#### <a name="wi-fi-radio-type"></a>Wi-Fi 無線タイプ
 
-新しい Wi-fi 無線の種類をサポートしているデバイスを計画します。 802.11ac を活用する場合は、Wi-fi の非常に優れたパフォーマンスを取得できます以降にアップデートを提供するデバイスです。
+新しい Wi-Fi 無線タイプをサポートするデバイス向けの計画です。 プロビジョニングしたデバイス上で 802.11ac またはより新しいタイプを利用すると、優れた Wi-Fi パフォーマンスを得ることができます。
 
-#### <a name="wireless-avoidance"></a>ワイヤレスの回避
+#### <a name="wireless-avoidance"></a>ワイヤレス回避
 
-組織によっては、Wi-fi を完全に回避する場合します。 場合がありますこのガイドはユーザーがワイヤード (有線) ネットワークに直接接続するには推奨事項を用意されています。 場合によっては、ネットワークのバインド順序可能性があります優先ワイヤレス接続されているコンティニュ ワイヤード (有線) 接続する PC が接続されている場合でも、その接続を使用します。 この予期しない動作を避けるためには、このシナリオを回避するのにはバインドの順序を構成します。
+組織によっては、Wi-Fi を完全に回避することを希望します。 このガイダンスは、有線ネットワークに直接接続するユーザーに対する推奨事項として提供されることがあります。 場合によっては、PC が優先接続に接続されていても、ネットワークのバインド順でワイヤレス接続が優先されているため、その無線接続を継続して使用することがあります。 このような意図しない動作を回避するには、このシナリオを回避するようにバインド順を構成します。
 
 #### <a name="80211-power-save-protocol"></a>802.11 省電力プロトコル
 
-組織は、ワイヤレス アクセス ポイントを使用している、または 802.11 の電源をサポートしないルーター プロトコルの保存、通話の中断や Windows のデバイスで実行されているマイクロソフトのチームでの不適切な呼び出し品質が発生する可能性があります。 ワイヤレス アクセス ポイントまたはルーターをアップグレードしない場合は、バッテリ電源で実行されているデバイス上の Windows の電源プランの設定を更新する必要があります。 次の[資料をサポート](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you)することでさらに詳細と構成のガイダンスが提供されます。
+自分の組織が、802.11 省電力プロトコルをサポートしていないワイヤレス アクセス ポイントまたはルーターを使用する場合、Windows デバイスで実行されている Microsoft Teams で通話が切れたり通話の品質が下がる可能性があります。 ワイヤレス アクセス ポイントまたはルーターをアップグレードすることができない場合は、バッテリで動作しているデバイスで Windows 電源プラン設定を更新する必要があります。 より詳細な情報と、構成についてのガイダンスは次の[サポート記事](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you)で提供されています。
 
-### <a name="devices-for-teams"></a>チーム用のデバイス
+### <a name="devices-for-teams"></a>Teams 用のデバイス
 
-マイクロソフト チームは、会議や電話システムとして使用できます。 これらの機能を使用して、チームのために使用されるインタ フェース デバイスは、ユーザー エクスペリエンスの重要な役割を果たします。
+Microsoft Teams は会議のために、または電話システムとして使用することができます。 これらの機能を使用するとき、Teams のために使用されるインターフェイス デバイスは、ユーザー エクスペリエンスにおいて重要な役割を果たします。
 
-組み込み PC スピーカーとマイクを使用しては、その構成を持っているユーザーに受け入れ可能な場合がありますサウンドです。 ですが、通常これらのデバイスは、ノイズの除去用に最適化されたし、周囲のノイズの任意の種類、ダウン ストリームに影響を与え他のユーザーの呼び出しにします。 これらのシナリオ用に最適化されたデバイスを活用することと、質の高い環境を実現するのに役立ちます。
+内蔵の PC スピーカーとマイクを使用する構成で、ユーザーが許容できる音質が得られる場合があります。 ただし、これらのデバイスは、通常はノイズ キャンセレーションのために最適化されておらず、あらゆる種類の周囲の雑音が、通話の相手に対してダウンストリームの影響を生じる可能性があります。 このようなシナリオに最適化されたデバイスを利用すると、高品質のエクスぺリエンスを確保することができるようになります。
 
-各デバイスは、ユーザーのニーズを満たす必要があります。 別のペルソナのヘッドセットなどのデバイスを調整し、組織内のユース ケースにする必要があります。 ペルソナとデバイスのマッピングの手順は、計画プロセスの一部として完了する必要があります。
+各デバイスが、自分のユーザーのニーズに合う必要があります。 ヘッドセットなどのデバイスを組織内のそれぞれの人やユース ケースに合わせて調整する必要があります。 人からデバイスへのマッピングの実施を、計画プロセスの一部として完了している必要があります。
 
-デバイスを選択したら、それらを最終的な検証のためのパイロット テスト計画に含まれます。 試験運用で、デバイスの戦略を確実にフィードバックを収集するアンケートを活用して、最適です。
+デバイスを選択したら、それらを最終検証のパイロット テスト計画に含めます。 パイロット中にアンケートを活用して、デバイス戦略が適正であることを確認するために、フィードバックを収集します。
 
-この時点でビジネス認定プログラムは、Skype で認定されているオーディオ デバイスの使用をお勧めします。 このプログラムによって認定デバイスを検索するには、[ビジネスの Skype の USB デバイスの認定](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)ソリューション カタログを参照してください。
+現時点では、Skype for Business の認証プログラムを通して認証されたオーディオ デバイスを使用することをお勧めします。 このプログラムで認証されたデバイスを検索する方法については、[Skype for Business 用として認証された USB デバイス](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) ソリューションのカタログをご覧ください。
 
-詳細については、「[クライアントとデバイスの準備ワーク ショップ](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13)の使用」を参照していますください。
+詳細については、「[Client and Devices - Readiness Workshop (クライアントとデバイス - 準備ワークショップ)](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13)」をご覧ください。
 
-## <a name="client-updates"></a>クライアント用更新プログラム
+## <a name="client-updates"></a>クライアントの更新
 
-マイクロソフトのチームの主な利点の 1 つは、あるクライアントが保つように自動的に。 PC と Mac 上のクライアントは、新しいビルドをチェックし、アプリケーションがアイドル状態のときに、新しいクライアントをダウンロードするバック グラウンド プロセスを使用して更新されます。 クライアントのダウンロード サイズは、約 100 MB です。
+Microsoft Teams の主なメリットの 1 つに、クライアントが自動的に最新状態に維持されるということがあります。 PC と Mac 上のクライアントは、アプリがアイドル状態のときに新しいビルドがあるかを確認したり、新しいクライアントをダウンロードしたりする、バックグラウンド プロセスを使用して更新されます。 クライアントのダウンロード サイズは約 100 MB です。
 
-組織は、任意のコントロールまたは更新プロセスを管理するポリシー設定へのアクセスにすることはありません。 新しいビルドで発見することがある問題のリスクを軽減するには、エンドポイントの最後の既知の正常なバージョンが保持されます。 新しいビルドに問題がある場合マイクロソフト チーム サービスは以前のバージョンにエンドポイントを自動的に戻すことができます。
+組織が更新プロセスを管理するためのポリシー設定に対して制御を行うことや、アクセスしたりすることはまったくできません。 新しいビルドで発見される可能性がある問題のリスクを軽減するために、最新の既知の良好なバージョンがエンドポイントで保持されます。 新しいビルドで問題がある場合は、Microsoft Teams サービスがエンドポイントを自動的に以前のバージョンに戻します。
 
-## <a name="next-steps-and-references"></a>次の手順を実行および参照
+## <a name="next-steps-and-references"></a>次以降の手順と参考資料
 
-このテーブルには、関連するコンテンツへのリンクを持つ計画の活動の概要が含まれています。
+この表には、関連コンテンツへのリンクが付いた、計画アクティビティの概要が含まれています。
 
-| エリア | 詳細 | 参照 |
+| 領域 | 詳細 | 参照先 |
 |-----------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Plan for service management | Conduct an operational role mapping exercise <br/> Signoff from accountable teams <br/> Role readiness | [運用ガイド](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service) |
-| | 品質の Champion(s) を指名します。 <br/> 品質の精鋭の準備| [救難を学習します。](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [品質体験レビュー ガイド](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) |
-| | エクスペリエンスの品質レビュー テンプレートをインストールします。 <br/> 構築ファイルをアップロードします。 | [QERLite templates](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-1-2.zip?raw=true) <br/> [アップロードの構築について](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?ui=en-US&rs=en-US&ad=US#upload-building-information)|
-| ネットワークの品質管理の計画 | ネットワークの計画を実行します。 | [ネットワーク プランナー](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
-| | QoS を実装します。 | [マイクロソフトのチームでのサービスの品質](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams) |
-| | プロキシ サーバーを使用しません。 | [プロキシのガイダンス](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |
-| | スプリット トンネルの VPN を実装します。 | [VPN のスプリット トンネルのガイダンス](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
-| | リアルタイム メディアの Wi-fi ネットワークを最適化します。  | サード パーティ ベンダーを参照してください。 |
-| | ローカルのインターネットの出口を実装します。 | [ローカルのインターネットの出口](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |
-| | ネットワーク接続を実装します。 <br/> ネットワーク接続を検証します。 | [Office 365 URLs and IP addresses](https://aka.ms/o365ips) |
-| | | [Network Assessment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=53885) |
-| | Perform network assessment | [ネットワーク対応の評価](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
-| エンドポイントの品質管理の計画 | Update endpoint firewalls | [Office 365 URLs and IP addresses](https://aka.ms/o365ips) |
-| | Validate software requirements | [Get Clients for Microsoft Teams](https://docs.microsoft.com/microsoftteams/get-clients) |
-| | Implement endpoint Wi-Fi recommendations | Consult 3rd Party Vendors |
-| | デバイスをマッピングするようにペルソナを実施します。 <br/> デバイスをプロビジョニングし、パイロットに | [クライアントとデバイスの準備ワーク ショップ](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [デバイス カタログ](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
+| サービス管理の計画 | 運用の役割マッピングの実施 <br/> 責任のあるチームからのサインオフ <br/> 役割の準備 | [運用ガイド](1-drive-value-operate-my-service.md) |
+| | 品質チャンピオンの指名 <br/> 品質チャンピオンの準備| [CQD についての学習](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [品質エクスペリエンスのレビュー ガイド](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) |
+| | 品質エクスペリエンスのレビュー テンプレートのインストール <br/> 建物ファイルのアップロード | [QERLite テンプレート](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-2-1.zip?raw=true) <br/> [建物の情報のアップロード](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)|
+| ネットワーク品質の計画 | ネットワーク プランナーの実行 | [ネットワーク プランナー](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
+| | QoS の実装 | [Microsoft Teams でのサービスの品質 (QoS)](qos-in-teams.md) |
+| | プロキシ サーバーのバイパス | [プロキシのガイダンス](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |
+| | スプリット トンネル VPN の実装 | [VPN スプリット トンネルのガイダンス ](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
+| | リアルタイム メディアのための Wi-Fi ネットワークの最適化  | サード パーティ ベンダーに相談 |
+| | ローカルのインターネット エグレスの実施 | [ローカルのインターネット エグレス](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |
+| | ネットワーク接続の実施 <br/> ネットワーク接続の確認 | [Office 365 の URL と IP アドレス](https://aka.ms/o365ips) |
+| | | [ネットワーク評価ツール](https://www.microsoft.com/download/details.aspx?id=53885) |
+| | ネットワーク評価の実行 | [ネットワークの準備状況の評価](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
+| エンドポイント品質の計画 | エンドポイントのファイアウォールの更新 | [Office 365 の URL と IP アドレス](https://aka.ms/o365ips) |
+| | ソフトウェア要件の確認 | [Microsoft Teams のクライアントを取得する](get-clients.md) |
+| | エンドポイントの Wi-Fi 推奨事項の実施 | サード パーティ ベンダーに相談 |
+| | 人からデバイスへのマッピングの実施 <br/> デバイスのプロビジョニングとパイロット実施 | [クライアントとデバイス - 準備ワークショップ](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [デバイス カタログ](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
