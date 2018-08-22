@@ -207,6 +207,7 @@
 
 ## アプリとサービス
 ### [Teams でのアプリの管理設定](admin-settings.md)
+### [アプリケーションのアクセス許可をチームと考慮事項](app-permissions.md)
 ### [Teams でプライベートのチャットやチャネルのボットを追加する](add-bots.md)
 ### [Teams で組み込みタブとカスタム タブを使用する](built-in-custom-tabs.md)
 ### [Teams で Office 365 コネクタとカスタム コネクタを使用する](office-365-custom-connectors.md)
