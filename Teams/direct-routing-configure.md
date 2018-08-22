@@ -9,18 +9,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft 電話システム直接ルーティングを構成する方法について説明します。
-ms.openlocfilehash: 112381db7d4d2bc160917b41c7e8e437ef737bcf
-ms.sourcegitcommit: d619e44d685e2109b995ffd67ff4b98e5647c8ea
+ms.openlocfilehash: 664aae1a213859a6e4e73ec4c75ce39b6058788e
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21762944"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546527"
 ---
 # <a name="configure-direct-routing"></a>直接ルーティングを構成します。
 
 されていない場合は、前提条件の[直接ルーティングの計画](direct-routing-plan.md)が読み込まれ、他の手順を確認する必要があります、Microsoft の電話システムのネットワークを構成する前にします。 
 
-この資料では、マイクロソフト電話システム直接ルーティングを構成する方法について説明します。 ペア、サポートされているセッション ボーダー コント ローラー (SBC) に直接ルーティングする方法とを公衆交換電話網 (PSTN) を接続するのには直接ルーティングを使用するマイクロソフトのチームのユーザーを構成する方法を説明します。 この資料で説明した手順を完了するには、管理者には、PowerShell コマンドレットをある程度が必要があります。 PowerShell を使用の詳細については、 [Windows PowerShell には、コンピューターの設定](https://technet.microsoft.com/library/dn362831.aspx)を参照してください。 
+この資料では、マイクロソフト電話システム直接ルーティングを構成する方法について説明します。 ペア、サポートされているセッション ボーダー コント ローラー (SBC) に直接ルーティングする方法とを公衆交換電話網 (PSTN) を接続するのには直接ルーティングを使用するマイクロソフトのチームのユーザーを構成する方法を説明します。 この資料で説明した手順を完了するには、管理者には、PowerShell コマンドレットをある程度が必要があります。 PowerShell を使用の詳細については、 [Windows PowerShell には、コンピューターの設定](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)を参照してください。 
 
 SBC が、SBC の製造元の推奨どおりに構成されて既にいることを確認することをお勧めします。 
 
@@ -43,7 +43,7 @@ SBC が、SBC の製造元の推奨どおりに構成されて既にいること
 
 ### <a name="connect-to--skype-for-business-online-by-using-powershell"></a>PowerShell を使用して、オンライン ビジネスの Skype に接続します。 
 
-直接ルーティング インターフェイスに SBC をペアにするには、テナントに接続している PowerShell セッションを使用できます。 PowerShell セッションを開くには、するには、 [Windows PowerShell には、コンピューターの設定](https://technet.microsoft.com/library/dn362831.aspx)で説明する手順に従ってください。 
+直接ルーティング インターフェイスに SBC をペアにするには、テナントに接続している PowerShell セッションを使用できます。 PowerShell セッションを開くには、するには、 [Windows PowerShell には、コンピューターの設定](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)で説明する手順に従ってください。 
  
 リモート PowerShell セッションを確立すると後を検証してください、SBC を管理するためにコマンドを表示することができます。 コマンドを検証するには、入力または PowerShell セッションで次のコピーと貼り付けし Enter キーを押します。 
 

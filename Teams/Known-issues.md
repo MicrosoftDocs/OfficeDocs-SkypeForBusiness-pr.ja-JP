@@ -3,19 +3,19 @@ title: Microsoft Teams の既知の問題
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 5/9/2018
+ms.date: 8/21/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: marcl, ninadara
+ms.reviewer: marcl
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7053bade0b01a35ba8e43607b182c9faec63879
-ms.sourcegitcommit: c12afd4dd5509a4552b2999430953273d36db039
+ms.openlocfilehash: 8ca61e36069262ddb2ea43dde300c169d6992ba8
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21779520"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546400"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
   
@@ -131,7 +131,7 @@ ms.locfileid: "21779520"
 ## <a name="meetings"></a>会議
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|ユーザーが会議/コネクタにアクセスできないのに Exchange Online メールボックスを持っている。 <br/> |ユーザーはアクティブに Exchange Online 内のサービスからの EWS を遮断していますが、MS Teams を EWS ポリシーに準拠するようにする必要があります。 <br/> |MS チームを準拠させるには、MS のチーム、EWSAllowList 内の次のユーザー エージェント文字列を追加する必要があります: `*skypespaces*`、アスタリスクを含みます。 完全なコマンドは次のとおりです。`set-organizationconfig -ewsallowlist *skypespaces*`<br/> 詳細については、「https://technet.microsoft.com/en-us/library/aa997443(v=exchg.160).aspx」をご覧ください。 <br/> |2017/05/30  <br/>|
+|ユーザーが会議/コネクタにアクセスできないのに Exchange Online メールボックスを持っている。 <br/> |ユーザーはアクティブに Exchange Online 内のサービスからの EWS を遮断していますが、MS Teams を EWS ポリシーに準拠するようにする必要があります。 <br/> |MS チームを準拠させるには、MS のチーム、EWSAllowList 内の次のユーザー エージェント文字列を追加する必要があります: `*skypespaces*`、アスタリスクを含みます。 完全なコマンドは次のとおりです。`set-organizationconfig -ewsallowlist *skypespaces*`<br/> 詳細については、「https://docs.microsoft.com/en-us/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps」をご覧ください。 <br/> |2017/05/30  <br/>|
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|

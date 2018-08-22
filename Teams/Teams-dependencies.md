@@ -10,12 +10,12 @@ ms.reviewer: laal
 description: Microsoft Teams のゲスト アクセス機能を 4 つの異なる承認レベルで管理します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d31bb8eafdaa6a04fe34f8433e8484ec447e7c1
-ms.sourcegitcommit: 2ce680aba13d1d781019b766a04e4e7d46d4f72c
+ms.openlocfilehash: 9864289048b05ed80ddfeb016bf943f3f670f5b5
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "21136308"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546408"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセスを承認する
 ===========================================
@@ -55,7 +55,7 @@ Azure AD には、外部のユーザーを構成するのには次の設定が�
 
 
 > [!NOTE]
-> ゲストとして、テナントにどのドメインを招待することができますを管理することもできます。 [Office 365 のグループへのゲスト アクセスの許可/禁止](https://technet.microsoft.com/library/a86bb46f-0e5b-43a3-b6ef-7394f344a8da)を参照してください。 
+> ゲストとして、テナントにどのドメインを招待することができますを管理することもできます。 [Office 365 のグループへのゲスト アクセスの許可/禁止](https://docs.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups)を参照してください。 
 
 ## <a name="microsoft-teams"></a>Microsoft Teams
 Microsoft Teams では、自分の組織においてゲストのエクスペリエンスを有効にするか無効にするかを制御できます。 この設定は既定で無効になっていて、Microsoft Teams のテナント レベルのみで適用されます。
@@ -104,7 +104,7 @@ Teams のゲスト アクセスの完全な操作性を有効にするため、O
 
 - SharePoint Online: **Only allow sharing with external users already in the directory (ディレクトリに既に存在する外部ユーザーのみとの共有を許可する)**
     
-    詳しくは、「[SharePoint Online 環境の外部共有を管理する](https://support.office.com/article/Manage-external-sharing-for-your-SharePoint-Online-environment-c8a462eb-0723-4b0b-8d0a-70feafe4be85)」をご覧ください。
+    詳しくは、「[SharePoint Online 環境の外部共有を管理する](https://docs.microsoft.com/en-us/sharepoint/external-sharing-overview)」をご覧ください。
     
   
 - Office 365 グループ: **Let group owners add people outside the organization to groups (グループ所有者に組織外のユーザーをグループに追加させる)**

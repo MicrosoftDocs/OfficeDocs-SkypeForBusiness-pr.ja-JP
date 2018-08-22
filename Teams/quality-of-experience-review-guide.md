@@ -3,7 +3,7 @@ title: マイクロソフト チームの経験の評価ガイドの品質
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 04/12/2018
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7579a87d2c59a47304d06fd05e11b37a97544a79
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: ff9834b5bb59b0dd37ba5ff6d4053cd7b5188499
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19694921"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546646"
 ---
 # <a name="quality-of-experience-review-guide"></a>レビュー ガイドの経験の質
 
@@ -138,7 +138,7 @@ _表 2 - 不適切な呼び出しサービス メトリックス_
 | ジッター \>30 ミリ秒                                   | これは、連続するパケットの遅延時間の平均の変更です。 チームやビジネス用の Skype は、ジッター バッファーからのいくつかのレベルに適応できます。 だけ変位を超えた場合、バッファリングの参加者がジッタの影響を通知することをお勧めします。                                                                                                                         | 異なる速度で到着するパケットには、ロボットの音を再生するのには、スピーカーの音声が発生します。                                                                                       |
 | パケット損失率\>10% または 0.1                    | これは多くの場合、失われたパケットの割合として定義されます。 パケットが失われる音質に直接影響 — から小規模で個人消失したパケットを連続バースト損失への影響がほとんどないその原因のオーディオを完全にカットします。                                                                                                                               | 目的地にドロップしていない到着をされているパケットには、ビデオ、および共有メディア、進入復行の音節と単語、結果と動作が不安定でギャップが発生します。 |
 | 往復時間\>500 ms                         | これは、b、A 点に戻ると、A 点から IP パケットを取得するのにかかる時間このネットワーク伝播遅延は、2 つの点と光の速度との間の物理的な距離に関連付けられてし、ネットワーク パスにさまざまなデバイスで実行される追加のオーバーヘッドが含まれています。                                                                                  | 時間がかかりすぎて、目的地に到着するパケットには、walkie-talkie 効果があります。                                                                                 |
-| NMOS の低下の平均値\>1.0                  | これらのネットワークのメトリックの 1 つ以上個別に低下でしたが、相互ネットワーク[を意味する意見のスコア](https://technet.microsoft.com/library/bb894481(v=office.12).aspx)を削除するには、(NMOS) 複数のポイントが原因で発生します。 ネットワーク接続が、よくありませんが、品質が減少することの呼び出し時に十分な問題が発生しましたが必ずしもないです。 | ジッター、パケット損失の組み合わせは、これと -ほど-往復応答時間が増加します。 ユーザーには、これらの現象の組み合わせが発生している可能性があります。          |
+| NMOS の低下の平均値\>1.0                  | これらのネットワークのメトリックの 1 つ以上個別に低下でしたが、相互ネットワーク[を意味する意見のスコア](https://docs.microsoft.com/en-us/previous-versions/office/communications-server/bb894481(v=office.12))を削除するには、(NMOS) 複数のポイントが原因で発生します。 ネットワーク接続が、よくありませんが、品質が減少することの呼び出し時に十分な問題が発生しましたが必ずしもないです。 | ジッター、パケット損失の組み合わせは、これと -ほど-往復応答時間が増加します。 ユーザーには、これらの現象の組み合わせが発生している可能性があります。          |
 | 非表示の文字列のサンプルの平均比率\>7% または「0.07」 | これらのネットワークのメトリックの 1 つ以上個別に不良でしたが、メディア クライアントが自動修復の原因となった。 隠しオーディオ サンプルは、破棄されたネットワーク パケットによって発生する通常の急激な遷移を除去するために使用される手法です。                                                                                                                | 高い値では、損失補填の重要なレベルが適用され、結果、オーディオがゆがんでいる、または失われたを示します。                                                  |
 
 #### <a name="client-and-device-readiness"></a>クライアントとデバイスの準備
@@ -161,7 +161,7 @@ _表 2 - 不適切な呼び出しサービス メトリックス_
 1 つ 1 つの戦略は、ユーザーの操作性よりも、デバイスの準備方法に影響しません。 ほとんどの組織は (デスクの電話やその他の専用のオーディオ デバイスなど) のユーザーから不要なデバイスを削除するのには満足し、チームやビジネス用の Skype への切り替えに関する主要な業務の妥当性は多くの場合。 ただし、これらの組織は同じ場合もありますお交換用のデバイスを提供する場合でも、これらのデバイスは、低コスト。 今日のラップトップと Pc では、内蔵マイクとスピーカー、装備もは用に最適化されたビジネス クラスのボイス オーバー IP (VoIP)。 これは、多くの場合は不十分な経験すべての参加者の雑音の多い環境では、スピーカーの場合は特に マイクロソフトのデバイスの認定プログラムは、チームやビジネス用の Skype の認定デバイスを使用して、電話の呼び出しでユーザーが参加すると、それが生成されることに認定されていないデバイスよりも優れた操作性を保証します。
 
 あるチームとビジネス ユーザーの Skype を使用して、認定ヘッドセットまたはスピーカー デスクトップ クライアントを使用して、音声通話に参加するときに常にお勧めします。
-マイクロソフト認定のデバイスの詳細については、この[電話と認定されたデバイスについての記事](https://technet.microsoft.com/office/dn788944.aspx)を参照してください。 デバイスを管理する方法について、このガイドでは、後で[デバイスのレポート](#devices-investigations)を使用します。 さらに、デバイスの対応戦略を強化するためにレートの [呼び出しのサンプル レポートを使用することもできます。
+マイクロソフト認定のデバイスの詳細については、この[電話と認定されたデバイスについての記事](https://docs.microsoft.com/en-us/SkypeForBusiness/lync-cert/ip-phones)を参照してください。 デバイスを管理する方法について、このガイドでは、後で[デバイスのレポート](#devices-investigations)を使用します。 さらに、デバイスの対応戦略を強化するためにレートの [呼び出しのサンプル レポートを使用することもできます。
 
 ### <a name="user-experience"></a>ユーザー エクスペリエンス
 
@@ -295,7 +295,7 @@ _図 3 - チームと Skype のオンライン ビジネスの展開の重要な
 
 #### <a name="skype-for-business-online-using-powershell"></a>PowerShell を使用してビジネス オンラインの Skype
 
-1.  [PowerShell を使用してオンライン ビジネスの Skype に接続](https://technet.microsoft.com/library/dn362839(v=ocs.15).aspx)します。
+1.  [PowerShell を使用してオンライン ビジネスの Skype に接続](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)します。
 
 2.  次のコマンドを実行します。  
     **(Get cstenant) .tenantid**
@@ -477,7 +477,7 @@ _表 4 - レポートのフィルター_
 
 ## <a name="import-the-cqd-templates"></a>救難テンプレートをインポートします。
 
-このガイドには、 [2 つの curated 救難テンプレート](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-2-1.zip?raw=true)が含まれています。 これらのテンプレートでは、救難の使用を促進、迅速にビジネスの経験をユーザーのチームまたは Skype の影響の救難のスキルを活用する機会を提供します。 建物を使用する、最適化されたすべてのネットワーク テンプレートで、次のセクションで説明したように収集し、救難に建物の情報をアップロードする作業中にデータ ファイルを使用することができます。
+このガイドには、 [2 つの curated 救難テンプレート](https://aka.ms/qertemplates)が含まれています。 これらのテンプレートでは、救難の使用を促進、迅速にビジネスの経験をユーザーのチームまたは Skype の影響の救難のスキルを活用する機会を提供します。 建物を使用する、最適化されたすべてのネットワーク テンプレートで、次のセクションで説明したように収集し、救難に建物の情報をアップロードする作業中にデータ ファイルを使用することができます。
 
 **テンプレートをインポートする (。CQDX) 救難をオンラインに**
 
@@ -1048,7 +1048,7 @@ _27 – HTTP プロキシの使用を構築し、サブネットの図します�
 
 -   [Office 365 クライアント更新プログラムのチャネルのリリース](https://technet.microsoft.com/office/mt465751?f=255&MSPPError=-2147217396)
 
--   [Office 365 のバージョンとビルド番号を実行する] をクリックします。](https://support.office.com/article/Version-and-build-numbers-of-update-channel-releases-ae942449-1fca-4484-898b-a933ea23def7)
+-   [Office 365 のバージョンとビルド番号を実行する] をクリックします。](https://docs.microsoft.com/en-us/officeupdates/update-history-office365-proplus-by-date)
 
 -   [ビジネス用の Skype をダウンロードし、更新](https://technet.microsoft.com/office/dn788954.aspx)
 
@@ -1154,7 +1154,7 @@ _表 11 - ネットワークのパフォーマンスの要件_
 
 ### <a name="building-data-file"></a>データ ファイルの作成
 
--   [有効にして、Skype のオンライン ビジネスの救難を使用します。](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-in-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)
+-   [有効にして、Skype のオンライン ビジネスの救難を使用します。](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)
 
 <a name="CQD-training"></a>
 
@@ -1164,17 +1164,17 @@ _表 11 - ネットワークのパフォーマンスの要件_
 
 -   [救難のファースト](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Configuring%20Call%20Quality%20Dashboard%20to%20monitor%20your%20Skype%20for%20Business%20Online%20Environment)ステップ ガイドとワーク ショップです。
 
--   [救難のディメンションとメジャーのオンライン ガイド](https://support.office.com/article/Dimensions-and-measures-available-in-Call-Quality-Dashboard-in-Skype-for-Business-Online-e97aeeee-9e43-416f-b433-9cdd63d8874b)
+-   [救難のディメンションとメジャーのオンライン ガイド](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard)
 
 ### <a name="call-analytics-training"></a>コール分析トレーニング
 
 -   [コール分析の概要](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309)
 
--   [Skype for Business の通話分析をセットアップする](https://support.office.com/article/Set-up-Skype-for-Business-Call-Analytics-FBF7247A-84AE-46CC-9204-2C45B1C734CD)
+-   [Skype for Business の通話分析をセットアップする](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics)
 
--   [呼び出しを分析し、通話品質のダッシュ ボード](https://support.office.com/article/What-s-the-difference-between-Call-Analytics-and-Call-Quality-Dashboard-4CD5FE35-8463-4996-A252-086CD3CA2D9A)
+-   [呼び出しを分析し、通話品質のダッシュ ボード](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)
 
--   [通話分析を使用して Skype for Business の低い通話品質をトラブルシューティングする](https://support.office.com/article/Use-Call-Analytics-to-troubleshoot-poor-Skype-for-Business-call-quality-66945036-ae87-4c08-a0bb-984e50d6b009)
+-   [通話分析を使用して Skype for Business の低い通話品質をトラブルシューティングする](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)
 
 ### <a name="call-analytics-support"></a>分析機能のサポートにお問い合わせ
 
@@ -1190,6 +1190,6 @@ _表 11 - ネットワークのパフォーマンスの要件_
 
 -   [Office 365 導入のコンテンツ パック](https://blogs.office.com/2017/05/22/announcing-the-public-preview-of-the-office-365-adoption-content-pack-in-powerbi/)
 
--   [Skype for Business Online のレポート](https://support.office.com/article/Skype-for-Business-Online-reporting-4935cddf-fafa-442d-91a3-246af01f8373)
+-   [Skype for Business Online のレポート](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-online-reporting/skype-for-business-online-reporting)
 
 -   [マイクロソフト チームの報告](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/New-usage-reports-for-Microsoft-Teams/ba-p/132614)

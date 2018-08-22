@@ -4,12 +4,12 @@ hide_bc: true
 title: Microsoft Teams のドキュメンテーションと実践的なガイダンス
 description: Microsoft Teams のドキュメンテーションと実践的なガイダンス
 ms.topic: hub-page
-ms.openlocfilehash: 1d7b8162f79cfc51da611830e2bd9fae9e6d84a0
-ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
+ms.openlocfilehash: a9fa022e0d70655f916ab76988199fa6d06b648e
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20088338"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546352"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -129,6 +129,63 @@ ms.locfileid: "20088338"
                                                 <div class="cardText">
                                                     <h3>トレーニング &amp; ビデオを見つける</h3>
                                                     <p>Teams トレーニングを見つける (自分用およびユーザー用)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/microsoftteams/platform/overview">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt="a settings symbol with a code symbol" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>マイクロソフトのチームの開発者用プラットフォームの概要</h3>
+                                                    <p>マイクロソフトのチームの開発者用プラットフォームと、使用して便利で強力なアプリケーションを構築する方法について説明します。</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Community-400x140.svg" alt="a users symbol with a globe symbol" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>マイクロソフト チームのテクニカル コミュニティ</h3>
+                                                    <p>質問するチームのテクニカル コミュニティに参加する&amp;の回答を紹介し、チームのブログを読む</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/powershell/module/teams/?view=teams-ps">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Powershell-400x140.svg" alt="a PowerShell logo on a book symbol" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Teams 用の PowerShell コマンドレット リファレンス</h3>
+                                                    <p>チームの PowerShell モジュールおよびコマンドレットを取得します。</p>
                                                 </div>
                                             </div>
                                         </div>

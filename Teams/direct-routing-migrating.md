@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 移行する直接ルーティングでは、Skype のオンライン ビジネスとチームの構成の分析観点の必要なものについて説明します。
-ms.openlocfilehash: 04e8f141776dd3003352b3df888092960e23dcf6
-ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
+ms.openlocfilehash: 859ab19162f8cf16cc419f7f871fc0059e4566d6
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/08/2018
-ms.locfileid: "20211145"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546598"
 ---
 # <a name="migrating-to-direct-routing"></a>直接ルーティングへの移行
 
@@ -79,8 +79,8 @@ Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2
 
 ビジネス サーバーの Skype で設置した PSTN 接続の電話システムからの移行に関する詳細については、以下を参照してください。
 
-- [計画](https://technet.microsoft.com/en-us/library/mt455212.aspx)
-- [展開します。](https://technet.microsoft.com/en-us/library/mt634319.aspx) 
+- [計画](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
+- [展開します。](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
 
 ルーティング情報を次のように既に構成済みの音声を削除することをお勧めします。
 
@@ -91,8 +91,8 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
 
 クラウド コネクタ経由の PSTN への接続を設置と電話システムからの移行の詳細については、以下を参照してください。
 
-- [計画](https://technet.microsoft.com/en-us/library/mt605227.aspx)  
-- [展開します。](https://technet.microsoft.com/en-us/library/mt634319.aspx)
+- [計画](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
+- [展開します。](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
 - [ユーザー構成](https://docs.microsoft.com/en-us/powershell/module/skype/set-csuserpstnsettings?view=skype-ps) 
 
 ルーティング情報を次のように既に構成済みの音声を削除することをお勧めします。
