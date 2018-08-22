@@ -1,5 +1,5 @@
 ---
-title: 電話会議の自動案内の言語を設定する
+title: ビジネス オンラインの Skype で電話会議の自動応答の言語を設定します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,22 +14,24 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: See how to select the auto-attendant lanugages for a dial-in conferencing number.
-ms.openlocfilehash: 44c05f081115ddf50eefd8df97765b3cbd82ef56
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+description: ビジネス オンラインの Skype での音声会議自動アテンダントの言語のオーディオ会議の番号を選択する方法を参照してください。
+ms.openlocfilehash: 026a09290c6e008493784c0d883220e03d13559f
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703770"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490517"
 ---
-# <a name="set-auto-attendant-languages-for-audio-conferencing"></a>電話会議の自動案内の言語を設定する
+# <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>ビジネス オンラインの Skype で電話会議の自動応答の言語を設定します。
 
-[] Skype for Business および Microsoft Teams 用の電話会議の自動案内は、ダイヤルインの通話者に対して、会議に参加するときに複数の言語で挨拶メッセージを出すことができます。
+> [!Note]
+> マイクロソフトのチームでの自動応答の言語の設定方法の詳細については、[マイクロソフトのチームで、オーディオ会議の自動応答の言語設定](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams)を参照してください。
+
+ビジネス用の Skype のオーディオ会議自動アテンダントを呼びかけますオーディオ呼び出し元のさまざまな言語で会議に参加するとき。
   
 第 1 言語 1 つと、第 2 言語 4 つまで選びます。設定する第 1 言語が最初に使用され、第 2 言語は選択した順に自動応答で使用されます。 
   
@@ -40,21 +42,6 @@ ms.locfileid: "19703770"
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>電話会議の自動応答の言語を設定する
-
-![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
-
-1. 左側のナビゲーションでは、**会議**に移動 > **会議ブリッジ**です。
-
-2. 電話会議の電話番号を選択します] ボックスの一覧から、ページの上部にある、[**編集**] をクリックします。
-
-3. 右側のウィンドウで、既定の言語を選択し、別の言語を選択します。 
- 
-    > [!NOTE]
-    > デフォルトおよびサポートされている別の言語が一覧表示されます。 選択するために、リスト内の順序は、呼び出し元に表示される言語の順序になります。 
-
-4. [**適用**] をクリックします。
-
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **オンライン ビジネスの Skype を使用します。**
 
 この手順を実行するには、[Office 365 の管理者ロールについて](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)または[Office 365 の管理者ロールについて](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)としてログインしている必要があります。
     

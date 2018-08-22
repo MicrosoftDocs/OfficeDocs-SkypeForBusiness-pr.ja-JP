@@ -1,5 +1,5 @@
 ---
-title: 電話会議を有効になっているユーザーの一覧を参照してください。
+title: ビジネス オンラインの Skype で電話会議を有効になっているユーザーの一覧を参照してください。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,35 +14,33 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'ダイヤルイン会議から、Skype のビジネス管理センター内では有効になっている、組織内のユーザーの一覧を表示する方法について説明します。 '
-ms.openlocfilehash: 28fb899586c6a0904126249b769e6fb0004878ca
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 441fb797fa3e1325fe5c63a2b1d6a86d876ebb5b
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490627"
 ---
-# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing"></a>電話会議を有効になっているユーザーの一覧を参照してください。
+# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>ビジネス オンラインの Skype で電話会議を有効になっているユーザーの一覧を参照してください。
 
-有効にした後 Skype ビジネスまたはマイクロソフトのチームのユーザーの電話会議を組織内で有効になっているユーザーの一覧を表示できます。 オーディオ会議プロバイダーを使用しているユーザーの既定のダイヤルインの電話番号の種類の一覧内の各ユーザーに対しても表示されます、ボックスの一覧を確認する場合と、組織は、動的な会議 Id、静的な会議 Id を有効になっていません。オーディオ会議会議を開催します。
+> [!NOTE]
+> マイクロソフトのチームでの有効なユーザーについては、[マイクロソフトのチームでの電話会議を有効になっているユーザーの一覧を参照してください](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams)参照してください。
+
+有効にした後 Skype ビジネス ユーザー向け電話会議を組織内で有効になっているユーザーの一覧を表示できます。 オーディオ会議プロバイダーを使用しているユーザーの既定のダイヤルインの電話番号の種類の一覧内の各ユーザーに対しても表示されます、ボックスの一覧を確認する場合と、組織は、動的な会議 Id、静的な会議 Id を有効になっていません。オーディオ会議会議を開催します。
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="viewing-a-list-of-users"></a>ユーザーの一覧を表示します。
 
-![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
-
-- 左側のナビゲーションでは、**ユーザー**をクリックします。
-
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
-    
+   
 - In the left navigation go to **Dial-in conferencing** > **Dial-in users**. Select the user that you want to enable for dial-in conferencing.
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-    
 ## <a name="what-else-should-i-know"></a>他に必要な情報はありますか?
 
 - 有効になっているユーザーの一覧を表示すると、ボックスの一覧からユーザーを選択し、アクション ペインを使用して、そのユーザーの電話会議の設定を編集するのにはできます。
@@ -75,7 +73,7 @@ ms.lasthandoff: 05/03/2018
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Go to the Office 365 admin centerSkype for Business.
 
-- Windows PowerShell で行うのは、ユーザーを管理し、ユーザーに何を許可して何を禁止するかを管理することです。Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     

@@ -1,5 +1,5 @@
 ---
-title: 他のユーザーが参加できるように会議からダイヤルアウトする
+title: 他のユーザーが参加できるようにビジネス会議のため、Skype からの発信
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,25 +14,31 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
-ms.openlocfilehash: 66cf9e662231a9afefe605649e8bae0d4652713b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 392b237c36841990caacbaafd7c6d3dd8ebc7d77
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490467"
 ---
-# <a name="dialing-out-from-a-meeting-so-other-people-can-join-it"></a>他のユーザーが参加できるように会議からダイヤルアウトする
+# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>他のユーザーが参加できるようにビジネス会議のため、Skype からの発信
 
-会議の開催者としては、携帯電話を使用して同じ会議に参加する他のユーザーをできるようにするビジネスまたはマイクロソフトのチームのアプリケーションに、Skype を使用してダイヤルできます。 必須ではありませんが、誰かにダイヤルアウトするときには、国/地域番号が含まれる完全な番号をダイヤルすることをお勧めします。 ダイヤルアウトを実行するには、次の手順に従います。
+> [!NOTE]
+> チームの会議からのアウト ダイヤルについての情報を探している場合は、[他のユーザーが参加できるように、チーム会議からの発信](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it)を参照してください。
+
+会議の開催者としては、携帯電話を使用して同じ会議に他の人の結合を使用するビジネス アプリケーションの Skype を使用してダイヤルできます。 必須ではありませんが、誰かにダイヤルアウトするときには、国/地域番号が含まれる完全な番号をダイヤルすることをお勧めします。 ダイヤルアウトを実行するには、次の手順に従います。
   
-- ことができますダイヤル ・ アウト、Skype を使用して、アプリケーションのビジネスまたはマイクロソフトのチームのミーティングに参加する場合にのみです。
+- ことができますダイヤル ・ アウトのビジネス アプリケーション、Skype を使用してミーティングに参加する場合にのみ。
     
 - オーディオ会議の会議の開催者として有効になっています。
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
  **手順 1:** 招待、ミーティング中には、電話番号にダイアル アウトするには、**多くの人を招待する**] オプションを使用します。
   
@@ -50,7 +56,7 @@ ms.lasthandoff: 05/03/2018
 
 [Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
-- [Skype for Business と Microsoft Teams のアドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+- [Skype ビジネス アドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
 ## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 

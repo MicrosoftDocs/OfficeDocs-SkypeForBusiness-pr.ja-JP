@@ -1,5 +1,5 @@
 ---
-title: オーディオ会議の会議の暗証番号 (pin) の長さを設定します。
+title: ビジネス オンラインの Skype で電話会議の会議の暗証番号 (pin) の長さを設定します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,37 +14,32 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: パラメーターの長さと、PIN の要件を説明し、ビジネスの Skype での会議の長さを設定する方法を参照してください。
-ms.openlocfilehash: 318e24bf30563d0a790584f9c1ccceb01d93c793
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 54ee8e70972a7033a9a759f8df37647ba5a2b700
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490567"
 ---
-# <a name="set-the-pin-length-for-audio-conferencing-meetings"></a>オーディオ会議の会議の暗証番号 (pin) の長さを設定します。
+# <a name="set-the-pin-length-for-audio-conferencing-meetings-in-skype-for-business-online"></a>ビジネス オンラインの Skype で電話会議の会議の暗証番号 (pin) の長さを設定します。
 
-ビジネスまたはマイクロソフトのチームの Skype の電話会議を設定は、ときに、オーディオ会議ブリッジが表示されます。 会議用ブリッジは、1 つまたは複数の電話番号を含めることができます。 設定した電話番号はビジネスおよびマイクロソフトのチームのアプリケーションの Skype の会議の招待に含まれます。
+
+> [!NOTE]
+> マイクロソフトのチームでの暗証番号 (pin) の長さを設定する方法については、[マイクロソフトのチーム内の電話会議の会議の暗証番号 (pin) の長さを設定する](/en-us/MicrosoftTeams/Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams)を参照してください。
+
+ビジネス用の Skype の電話会議を設定するときに、オーディオ会議ブリッジが表示されます。 会議用ブリッジは、1 つまたは複数の電話番号を含めることができます。 設定した電話番号は、ビジネス アプリケーションの Skype の会議の招待に含まれます。
   
-オーディオ会議ブリッジ、電話を使用して会議にダイヤルインしている人のための呼び出しに応答します。 自動応答から、設定によっては、音声メッセージを呼び出し元に応答、通知を再生でき、自分の名前を記録するための呼び出し元に問い合わせてください。 **マイクロソフト ブリッジの設定**では、会議の通知の設定を変更することができ、会議の参加、会議の開催者によって使用されているピンの長さを設定します。 ミーティングの開催者は、ビジネスまたはマイクロソフトのチームのアプリケーションに、Skype を使用してミーティングに参加することはできない場合は、会議を開始するためのピンを使用します。
+オーディオ会議ブリッジ、電話を使用して会議にダイヤルインしている人のための呼び出しに応答します。 自動応答から、設定によっては、音声メッセージを呼び出し元に応答、通知を再生でき、自分の名前を記録するための呼び出し元に問い合わせてください。 **マイクロソフト ブリッジの設定**では、会議の通知の設定を変更することができ、会議の参加、会議の開催者によって使用されているピンの長さを設定します。 ミーティングの開催者は、ビジネス アプリケーションに、Skype を使用してミーティングに参加することはできない場合は、会議を開始するためのピンを使用します。
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-the-pin-length"></a>暗証番号 (pin) の長さを設定
-
-![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
-
-1. 左側のナビゲーションでは、**会議**に移動 > **会議ブリッジ**です。 
-
-2. **会議ブリッジ**のページの上部には、**ブリッジの設定**をクリックします。 
-
-3. **ブリッジ設定**ペインで、[**暗証番号 (pin) の長さ**PIN の桁数を選択します。
-
-4. [**適用**] をクリックします。
-
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
  
 1. 既定値は 5 です。
     
@@ -53,14 +48,11 @@ ms.lasthandoff: 05/03/2018
 > [!NOTE]
 > PIN とは異なる、会議の id です。 会議 Id は、ミーティングに参加するときに、呼び出し元が使用されます。 ミーティングに使用されます。 暗証番号 (pin) を使用して、会議の開催者は、呼び出し元を認証します。 
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-  
 ## <a name="want-to-know-more-about-pin-settings"></a>暗証番号 (pin) の設定の詳細を知りたいとしていますか。
 
 - ピンすることが 4 から 12 桁の数字です。デフォルトは 5 です。 番号は、ピンを作成するときにのみ使用されます。 文字と特殊文字は使用されません。
     
-- 暗証番号 (pin) にのみ必要な場合、Skype ビジネスまたはマイクロソフトのチームのユーザーの会議の開催者に会議が開始されていない既に。 場合はすべてのユーザーがダイヤルイン会議、PIN は、会議の開催者、会議を開始するために必要。
+- のみ、暗証番号 (pin) は、会議の開催者とビジネス ユーザーは、Skype は、会議を既に開始されていない場合は必須です。 場合はすべてのユーザーがダイヤルイン会議、PIN は、会議の開催者、会議を開始するために必要。
     
 - 暗証番号 (pin) のセキュリティ設定は、すべての Microsoft のブリッジに関連付けられている電話番号に適用されます。 各ブリッジに関連付けられている電話番号を使用するすべての会議に適用されます。 
     

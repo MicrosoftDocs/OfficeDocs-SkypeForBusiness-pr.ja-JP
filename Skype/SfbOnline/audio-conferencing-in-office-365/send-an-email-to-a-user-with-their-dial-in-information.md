@@ -1,5 +1,5 @@
 ---
-title: ユーザーにダイヤルイン情報が含まれたメールを送信する
+title: ビジネス オンラインの Skype では、そのオーディオ会議を持つユーザーに電子メールを送信します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,22 +14,24 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: ユーザーの音声会議情報を使用して電子メールを送信します。
-ms.openlocfilehash: 28d3f83259033b5e587c299464a334710797e149
-ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
+description: オンライン ビジネスの Skype で、ユーザーの音声会議情報を使用して電子メールを送信します。
+ms.openlocfilehash: 1b692597f574739c8412a9ec0c6866687e169beb
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20324125"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490647"
 ---
-# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information"></a>ユーザーにダイヤルイン会議情報が含まれたメールを送信する
+# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>ビジネス オンラインの Skype で電話会議情報を持つユーザーに電子メールを送信します。
 
-ビジネスまたはマイクロソフトのチームのユーザーの Skype の電話会議の情報を送信する必要があります。 **Skype**を使用してクリックして**電子メールを使用して会議情報を送信する**ユーザーのプロパティ] の下で、これを行うことができます。 この電子メールを送信するとき、すべてが含まれますのオーディオ会議の情報を含みます。
+> [!Note]
+> オーディオ会議の情報をマイクロソフトのチーム内のユーザーに送信する方法の詳細については、[マイクロソフトの Teasms で、オーディオ会議の情報を持つユーザーに電子メールを送信する](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams)を参照してください。
+
+Skype ビジネス ユーザー向けのオーディオ会議の情報を送信する必要があります。 **Skype**を使用してクリックして**電子メールを使用して会議情報を送信する**ユーザーのプロパティ] の下で、これを行うことができます。 この電子メールを送信するとき、すべてが含まれますのオーディオ会議の情報を含みます。
   
 - ユーザー用の会議の電話番号またはダイヤルイン電話番号。
     
@@ -44,14 +46,6 @@ ms.locfileid: "20324125"
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>オーディオ会議の情報を使用して電子メールをユーザーに送信します。
-
-![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
-
-1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
-
-2. ページの上部で、[**編集**] をクリックします。
-
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
 
 1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
 

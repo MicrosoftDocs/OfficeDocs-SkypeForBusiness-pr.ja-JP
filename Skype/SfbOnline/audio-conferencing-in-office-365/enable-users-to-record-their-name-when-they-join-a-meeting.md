@@ -1,5 +1,5 @@
 ---
-title: ユーザーが会議に参加したときに自分の名前を記録できるようにする
+title: Skype でオンライン ビジネスの会議に参加するときに自分の名前を記録するようにユーザーを有効にします。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,42 +14,28 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Learn how to enable or disable whether your users can record their names when they join a meeting '
-ms.openlocfilehash: 940d4eefb6a997b03bb25fc558faf15ce9edb507
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+description: 有効にするか、Skype でオンライン ビジネスの会議に参加するときに、ユーザーがそれらの名前を記録できるようであるかどうかを無効にする方法を説明します。
+ms.openlocfilehash: b920f0cfea6aa607f5bc3ea7c8a53b5668ba02da
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703496"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490727"
 ---
-# <a name="enable-users-to-record-their-name-when-they-join-a-meeting"></a>ユーザーが会議に参加したときに自分の名前を記録できるようにする
+# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Skype でオンライン ビジネスの会議に参加するときに自分の名前を記録するようにユーザーを有効にします。
+
+> [!Note]
+> チームでそれらの名前を記録できるようにする場合は、[マイクロソフトのチームでミーティングに参加するときは、その名前を記録するようにユーザーを有効にする](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams)を参照してください。
 
 [] Skype for Business Online でダイヤルイン会議をセットアップしているときには、電話番号とダイヤルインまたは電話会議ブリッジと呼ばれるものを受け取ります。会議ブリッジには、1 つ以上の電話番号 (専用または共有の電話番号の場合もある) が含まれることがあります。
   
 ユーザーが電話を使って会議にダイヤルインすると、その通話は会議ブリッジによって応答されます。会議ブリッジでは、自動応答の音声プロンプトで発信者に応答してから、設定に応じて、お知らせを再生したり、発信者に名前を記録するように依頼したり、会議開催者の PIN セキュリティをセットアップしたりします。PIN が会議開催者に与えられて、開催者は会議を開始できるようになります。ただし、PIN がなくても会議を開始できるように設定できます。
 
-> [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-  
 ## <a name="set-whether-callers-should-record-their-name"></a>発信者が名前を記録すべきかどうかを設定する
-
-![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
-
-1. 左側のナビゲーションでは、**会議**に移動 > **会議ブリッジ**です。 
-
-2. **会議ブリッジ**のページの上部には、**ブリッジの設定**をクリックします。 
-
-3. 有効にするまたは**ミーティングのエントリを有効にして終了の通知をオンにする**を無効にします。
-
-4. [**適用**] をクリックします。
-
-
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
     
 1. 既定値は 5 です。
     

@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 管理者は、オーディオ会議、エンド ・ ユーザー PSTN の呼び出しのユーザーが可能なタイプを制御できます。
-ms.openlocfilehash: 473baddce6ddac5fa523f02477cd89f6a2c4f4a2
-ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
+ms.openlocfilehash: 6096816ef9fb98811ec3ebed5a56b90a90b58c29
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22193015"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490577"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー
 
@@ -50,11 +50,11 @@ ms.locfileid: "22193015"
 
 2. ページの上部で、[**編集**] をクリックします。
 
-3. **会議ブリッジ**の横にあるメニューをクリックし、ドロップダウン リストで [**編集**] をクリックします。
+3. **オーディオ会議**の横にある [**編集**] をクリックします。
 
-4. **会議ブリッジ プロバイダー**ウィンドウで、[**このユーザーの会議からのダイアル アウトの制限**、ダイアル アウトの制限オプションを選択を選択します。
+4. **会議からの発信アクセス許可**を [ダイヤルアウトの制限オプションを選択を選択します。
 
-5. [**適用**] をクリックします。 
+5. [ **保存**] をクリックします。 
 
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
 

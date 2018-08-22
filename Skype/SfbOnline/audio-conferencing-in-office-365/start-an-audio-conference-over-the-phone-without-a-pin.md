@@ -1,5 +1,5 @@
 ---
-title: 電話 PIN なしで、オーディオ会議の開始します。
+title: 電話 Skype の暗証番号 (pin) なしで、オーディオ会議をオンライン ビジネスの開始します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,41 +14,33 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable anonymous callers from joining a meeting from the Skype for Business admin center or using a PowerShell script. '
-ms.openlocfilehash: 4deb415e9fd7154d72b7d598bcc5dfb8eabed6ed
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: f0e65b3ea4ad5c989137307a1c41bc70bc092086
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490557"
 ---
-# <a name="start-an-audio-conference-over-the-phone-without-a-pin"></a>電話 PIN なしで、オーディオ会議の開始します。
+# <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>電話 Skype の暗証番号 (pin) なしで、オーディオ会議をオンライン ビジネスの開始します。
 
-[] 会議にダイヤルインしたのに、Skype for Business または Microsoft Teams 会議の開催者が会議を開始していないために、保留音の音楽を聞きながら会議のロビーで待たされるのは、ユーザーにとって不快な場合があります。 
+> [!Note]
+> マイクロソフトのチームで、オーディオ会議、暗証番号 (pin) なしの起動方法の詳細については、[マイクロソフトのチームで暗証番号 (pin) に電話で、オーディオ会議の開始](/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams)を参照してください。
+
+ビジネス会議の開催者の Skype 会議を開始していないために、音楽を聞いたり、会議のロビーで開催される会議にダイヤルインするユーザーに不満がある場合があります。 
   
 会議の開催者を呼び出す場合、会議出席依頼には、既定では、会議を開始するのには、暗証番号 (pin) が必要です。 できますを設定することをだれでも会議にダイヤルイン会議を開始するのには暗証番号 (pin) には求められません。 Skype for Business 管理センターを使用すると、この設定を 1 人のユーザーに対して有効または無効にすることができます。
   
-あるユーザーが Skype for Business または Microsoft Teams アプリから会議を開始した場合、会議の開催者に PIN が要求されることはありません。 PIN が必要であるのは、会議の開催者が電話で自分の会議に参加する場合のみです。 会議の暗証番号 (pin) は、**オーディオ会議**のライセンスが割り当てられている音声会議が有効になっていると、オーディオのユーザーに送信されます。 [オーディオ会議の情報を持つユーザーに電子メールを送信](send-an-email-to-a-user-with-their-dial-in-information.md)し、[ユーザーが電話会議の設定を変更するときに自動的に送信される電子メール](emails-sent-to-users-when-their-settings-change.md)を参照してください。
+他のビジネス アプリケーションの Skype から会議が開始された場合、暗証番号 (pin) は会議の開催者の必要はありません。 PIN が必要であるのは、会議の開催者が電話で自分の会議に参加する場合のみです。 会議の暗証番号 (pin) は、**オーディオ会議**のライセンスが割り当てられている音声会議が有効になっていると、オーディオのユーザーに送信されます。 [オーディオ会議の情報を持つユーザーに電子メールを送信](send-an-email-to-a-user-with-their-dial-in-information.md)し、[ユーザーが電話会議の設定を変更するときに自動的に送信される電子メール](emails-sent-to-users-when-their-settings-change.md)を参照してください。
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>匿名の発信者の会議への参加を有効または無効にする
-
-![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
-
-1. 左側のナビゲーションでは、**ユーザー**をクリックします。 
-
-2. の一覧でユーザーを選択し、ページの上部にある**編集**を] をクリックします。 
-
-3. **会議ブリッジ**の横にあるメニューをクリックし、し、[**編集**] をクリックします。
-
-4. **会議ブリッジのプロバイダー**のウィンドウでを有効にするまたは**許可が認証されていない呼び出し元は会議の最初のユーザーを無効にします。かどうか、ロビーで待機、認証されたユーザーが参加するまで**。
-    
-4. [**適用**] をクリックします。 
-
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
     
 1. **電話会議**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **のユーザー**です。 
     
@@ -58,8 +50,7 @@ ms.lasthandoff: 05/03/2018
     
 4. [ **保存**] をクリックします。 
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
     
  **Windows Powershell を使用します。**
   

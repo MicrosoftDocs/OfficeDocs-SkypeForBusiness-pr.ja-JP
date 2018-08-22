@@ -1,5 +1,5 @@
 ---
-title: ユーザーの会議 ID をリセットする
+title: ビジネス オンラインの Skype のユーザーの会議 ID をリセットします。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,40 +14,30 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: "Learn the steps to reset a user's meeting conference ID, and get links to meeting update and migration tools. "
-ms.openlocfilehash: eb827cff5bdfbc86bf85aab63a8f29165a91f034
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+description: 'ユーザーをリセットする手順の Skype での会議 ID のビジネス オンラインでは、会議の会議出席依頼の更新と移行ツールへのリンクを取得するかを説明します。 '
+ms.openlocfilehash: ac37d682d45b22eff61392ee05d7c369d67c3b67
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490537"
 ---
-# <a name="reset-a-conference-id-for-a-user"></a>ユーザーの会議 ID をリセットする
+# <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>ビジネス オンラインの Skype のユーザーの会議 ID をリセットします。
+
+> [!NOTE]
+> マイクロソフトのチームでの会議 ID をリセットする方法の詳細については、[マイクロソフトのチーム内のユーザーの会議 ID のリセット](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams)を参照してください。
 
 動的な会議 ID では、会議出席依頼と会議へのコールを呼び出し元で使用できるダイヤルインの電話番号の下に含まれています。 ユーザーは、電話番号をダイヤルするとき、会議のための自動応答は、会議に出席することができますので、この会議 ID を入力するのには呼び出し元を求められます。
   
 > [!NOTE]
-> 会議プロバイダーがマイクロソフトの場合は、ユーザーの会議 Id が既定で動的なだけに設定されます。 残念ながら、ビジネス管理センターまたは Windows Powershell を使用するようになりましたが、静的に Skype で変更することはありませんサポートされていません。
-会議 Id が自動的に設定だけ Skype ビジネスおよびマイクロソフトのチームのユーザーが電話会議を有効になっているのです。 
-  
+> 会議プロバイダーがマイクロソフトの場合は、ユーザーの会議 Id が既定で動的なだけに設定されます。 残念ながら、ビジネス管理センターまたは Windows Powershell を使用するようになりましたが、静的に Skype で変更することはありませんサポートされていません。 会議 Id は自動的に Skype の電話会議を有効にするビジネス ユーザー向けにのみ設定します。 
+
 ## <a name="resetting-the-conference-id-for-a-user"></a>ユーザーの会議 ID をリセットします。
-
-![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
-
-1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
-
-2. ページの上部で、[**編集**] をクリックします。
-
-3. **会議ブリッジ**の横にあるメニューをクリックし、ドロップダウン リストに**会議 id をリセット**] をクリックします。
-
-2. **会議 id のリセット**] ウィンドウで、 **[ok]** をクリックします。 A conference ID will be automatically created and an email sent to the user with the new conference ID. 既定では、ユーザーに電子メールが送信されますが、これを無効にできます。   
-
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
-    
+   
 1. **ビジネス管理センターの Skype**では、[**電話会議**] をクリックします > **ユーザー**ユーザーを選択し、し、[操作] ウィンドウの [**会議 ID** ] の [**リセット**] をクリックします。
     
 2. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. A conference ID will be automatically created and an email sent to the user with the new conference ID. 既定では、ユーザーに電子メールが送信されますが、これを無効にできます。
@@ -80,7 +70,7 @@ ms.lasthandoff: 05/08/2018
 
 - Windows PowerShell で行うのは、ユーザーを管理し、ユーザーに何を許可して何を禁止するかを管理することです。Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
-  - [Windows PowerShell と Lync Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
     

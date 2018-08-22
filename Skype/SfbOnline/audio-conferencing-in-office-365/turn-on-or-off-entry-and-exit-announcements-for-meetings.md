@@ -1,5 +1,5 @@
 ---
-title: 会議の入退室通知をオンまたはオフにする
+title: エントリ無効を切り替えるし、Skype でのオンライン ビジネスの会議のお知らせを終了します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,45 +14,31 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'エントリを有効にして、Skype、Skype を使用するビジネス管理センターのオンライン ビジネスの会議のためにアナウンスをオンまたはオフを終了する方法について説明します。 '
-ms.openlocfilehash: 9cd2c95d0dde2e61ca1f0378fe91a215bdfc2682
-ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
+ms.openlocfilehash: d6d1b70713ac0cd7a38f7de9cb84f0acb54cbe30
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20302153"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490487"
 ---
-# <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings"></a>会議の入退室通知をオンまたはオフにする
+# <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-skype-for-business-online"></a>エントリ無効を切り替えるし、Skype でのオンライン ビジネスの会議のお知らせを終了します。
 
-Office 365 に電話会議を設定する場合、オーディオ会議ブリッジが表示されます。 会議用ブリッジは、ビジネスまたはマイクロソフトのチームの会議のため、Skype へのコールを使用する 1 つまたは複数の電話番号を含めることができます。 
+> [!Note]
+> マイクロソフトのチームでの開始と終了のお知らせについては、[マイクロソフトのチームでの会議の開始と終了のお知らせを切り替えるには、有効にする](/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams)を参照してください。
+
+Office 365 に電話会議を設定する場合、オーディオ会議ブリッジが表示されます。 会議用ブリッジは、ビジネス会議のため、Skype へのコールを使用する 1 つまたは複数の電話番号を含めることができます。 
   
-会議用ブリッジの電話を使用して会議にダイヤルインするユーザーが呼び出しに応答します。 会議用ブリッジ会議自動アテンダントからの音声メッセージを呼び出し元に応答しの設定によってことができます再生の通知は、呼び出し元が自分の名前を記録し、暗証番号 (pin) のセキュリティを設定するに問い合わせてください。 Skype をビジネスまたはマイクロソフトのチーム会議の開催者に、暗証番号 (pin) が与えられたことができ、Skype を使用してアプリケーションのビジネスまたはマイクロソフトのチームのミーティングを開始することはできない場合は、会議を開始することです。 できます、ただし、ように設定すると、暗証番号 (pin) が会議を開始する必要はありません。
+会議用ブリッジの電話を使用して会議にダイヤルインするユーザーが呼び出しに応答します。 会議用ブリッジ会議自動アテンダントからの音声メッセージを呼び出し元に応答しの設定によってことができます再生の通知は、呼び出し元が自分の名前を記録し、暗証番号 (pin) のセキュリティを設定するに問い合わせてください。 Skype をビジネス会議の開催者に、暗証番号 (pin) が与えられ、ビジネス アプリケーションに、Skype を使用してミーティングを開始することはできない場合は、会議を開始することができます。 できます、ただし、ように設定すると、暗証番号 (pin) が会議を開始する必要はありません。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-meeting-join-options"></a>ミーティングの参加オプションの設定
-
-![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
-
-1. 左側のナビゲーションでは、**会議**に移動 > **会議ブリッジ**です。 
-
-2. **会議ブリッジ**のページの上部には、**ブリッジの設定**をクリックします。 
-
-3. **ブリッジの設定**ウィンドウを有効にするまたは**ミーティングのエントリを有効にして終了の通知をオンにする**を無効にします。 これがデフォルトで選択されます。 場合はこのオプションをオフにすると、データを入力したり、会議を離れると、会議に参加しているユーザーが通知されません。
-    
-4. [**開始/終了のお知らせの種類****名前や電話番号**」または「**トーン**を選択します。
-    
-5. 有効にするか、**ミーティングに参加する前に自分の名前を記録するための呼び出し元の確認**を無効にします。
-    
-6. 変更を行ったら、[**適用**を] をクリックします。
-
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
     
 1. 既定値は 5 です。
     

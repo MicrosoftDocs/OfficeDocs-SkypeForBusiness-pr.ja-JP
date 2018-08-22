@@ -1,5 +1,5 @@
 ---
-title: 設定を変更するときにユーザーに送信される e メール
+title: ビジネス オンラインの Skype での設定を変更するときにユーザーに送信される e メール
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,19 +14,22 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'についてどのような情報が自動的にユーザーに電子メールで送信された、ダイヤルイン会議の設定を変更する場合について説明します。 '
-ms.openlocfilehash: 47225eff4d7d8bd091b2b7ba9d795c600cbd4b0e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'どのような情報については自動的にユーザーに電子メールで送信されたビジネス オンラインの Skype で、ダイヤルイン会議の設定を変更するときについて説明します。 '
+ms.openlocfilehash: cfa3e86be0d282e335b20a094e60835df3471358
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490507"
 ---
-# <a name="emails-sent-to-users-when-their-settings-change"></a>設定を変更するときにユーザーに送信される e メール
+# <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>ビジネス オンラインの Skype での設定を変更するときにユーザーに送信される e メール
+
+> [!Note]
+> マイクロソフトのチームで情報を自動的にメールを検索する場合は、[マイクロソフトのチームでの設定を変更する場合にユーザーに電子メールの送信](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams)を参照してください。
 
 [オーディオ会議を](set-up-audio-conferencing.md)有効になっているユーザーにメールが自動送信オーディオ会議プロバイダーに Microsoft を使用します。
   
@@ -34,7 +37,7 @@ ms.lasthandoff: 05/03/2018
   
 - **またはマイクロソフトに電話会議プロバイダーを変更するときに、オーディオ会議のライセンスが割り当てられます。**
     
-     この電子メールには、会議、音声会議、ユーザーの指示およびリンク ビジネス オンライン会議の更新ツールの既存の会議を更新するために使用されるため、Skype を使用するのには、暗証番号 (pin) の既定の会議電話番号、会議 ID が含まれています、ユーザーです。 [ビジネスおよびマイクロソフトのチームのライセンスの割り当ての Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)または[オーディオ会議プロバイダーとしての Microsoft の割り当て](assign-microsoft-as-the-audio-conferencing-provider.md)を参照してください。
+     この電子メールには、会議、音声会議、ユーザーの指示およびリンク ビジネス オンライン会議の更新ツールの既存の会議を更新するために使用されるため、Skype を使用するのには、暗証番号 (pin) の既定の会議電話番号、会議 ID が含まれています、ユーザーです。 [ビジネス ライセンスの割り当ての Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)または[オーディオ会議プロバイダーとしての Microsoft の割り当て](assign-microsoft-as-the-audio-conferencing-provider.md)を参照してください。
     
     > [!NOTE]
     > 会議 Id を動的に組織を有効になっている、会議 Id を表す一意のすべてのユーザーの会議をスケジュールするがあります。 [組織で電話会議の動的な Id](using-audio-conferencing-dynamic-ids-in-your-organization.md)を設定できます。 
@@ -43,7 +46,7 @@ ms.lasthandoff: 05/03/2018
     
      ![Skype ビジネスのライセンスを確認します。](../images/audio-conferencing-user-enabled.png)
   
-    調べることができます Skype について[Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)を見ることによってビジネスのライセンス。
+    調べることができます Skype について[Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)ビジネス アドオンのライセンスを確認することによってビジネスのライセンス。
     
 - **会議 ID または既定の会議の電話番号、ユーザーの変更。**
     
@@ -77,6 +80,9 @@ ms.lasthandoff: 05/03/2018
     
      ![ダイヤルイン会議が無効になります。](../images/audio-conferencing-turned-off.png)
   
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>送信される電子メール メッセージに変更を加える
 
 ユーザーの電子メール アドレスなど*の*連絡先情報に記載されている表示名を自動的に送信される電子メールには、変更を行うことができます。 既定では、電子メールの送信者になりますから、Office 365 は、電子メール アドレスを変更し、名前を表示できます Windows PowerShell と[セット CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285)コマンドレットを使用します。 SendEmailFromDisplayName パラメーターにメールの表示名を入力する
@@ -102,18 +108,8 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 
 ユーザーに e メールを送信を無効にするとは、ユーザーにライセンスが割り当てられているを取得するときにも電子メールが送信されません。 会議 ID は、ここでは既定の会議の電話番号、および、さらに、オーディオ会議の暗証番号 (pin) をユーザーに送信されません。 このような場合は、別の電子メールを送信することによって、またはそれらを呼び出すことによってユーザーに通知する必要があります。
   
-既定では、電子メールは、ユーザーに送信されますが、マイクロソフトのチーム、Skype を使ってビジネス管理センター、または Windows PowerShell の音声会議用の電子メールを受信しないようにする場合は。 
-
-![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
-
-1. 左側のナビゲーションでは、**会議**に移動 > **会議ブリッジ**です。 
-
-2. **会議ブリッジ**のページの上部には、**ブリッジの設定**をクリックします。 
-
-3. **ブリッジの設定**ウィンドウで、有効または、**ユーザーのダイヤルインの設定を変更する場合に e メールを自動的に送信**を無効にします。
-
-4. [ **保存**] をクリックします。
-  
+既定では、e メールは、ユーザーに送信されますが、音声会議用の電子メールを受信しないようにする場合は、ビジネス管理センターまたは Windows PowerShell の Skype を使用することができます。 
+ 
 ![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png)  **ビジネス管理センターの Skype を使用します。**
     
 1. 既定値は 5 です。

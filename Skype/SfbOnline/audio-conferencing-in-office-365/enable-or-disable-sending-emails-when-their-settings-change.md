@@ -1,5 +1,5 @@
 ---
-title: 有効にするかの設定を変更すると、送信メールを無効にします。
+title: 有効にするか、オンライン ビジネスの Skype で電話会議の設定を変更すると送信メールを無効にします。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,21 +14,24 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '有効にするか、暗証番号 (pin) の変更など、既定の会議の設定番号を変更するときに、ユーザーに e メールを送信することから、Skype を無効にする方法を説明します。 '
-ms.openlocfilehash: a588c5b425fe3d71ecd6d73193348b98e8e2f298
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 4d52603fb0d2701cbebd58644cd002dbc94baf89
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490587"
 ---
-# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change"></a>有効にするか、オーディオ会議の設定を変更すると、送信メールを無効にします。
+# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>有効にするか、オンライン ビジネスの Skype で電話会議の設定を変更すると送信メールを無効にします。
 
-ユーザーは、電話会議が有効になっているときに自動的に電子メールで通知されます。 ただし、Skype のビジネスおよびマイクロソフトのチームのユーザーに送信される電子メールの数を削減したい場合があります。 このような場合は、電子メールの送信を無効にできます。
+> [!Note]
+> 有効にするか、マイクロソフトのチームでの送信メールを無効にする場合は、[有効にするかマイクロソフトのチームでのオーディオ会議設定を変更すると、送信メールを無効にする](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams)を参照してください。
+
+ユーザーは、電話会議が有効になっているときに自動的に電子メールで通知されます。 場合があります、ただし、Skype をビジネス ユーザーに送信される電子メールの数を減らしたいとします。 このような場合は、電子メールの送信を無効にできます。
   
 オーディオ会議の電子メールをユーザーが有効になっているか、オーディオ会議は、会議 ID と既定の会議の電話番号の変更と、PIN をリセットすると無効にすると、電子メールを含む、ユーザーに送信されません送信メールを無効にした場合.
   
@@ -51,21 +54,14 @@ ms.lasthandoff: 05/03/2018
   - オーディオ会議プロバイダーのユーザーの変更されたとき Microsoft から別のプロバイダーまたは **[なし]** にします。
     
   - マイクロソフトにユーザーの電話会議プロバイダーが変更されたとき。
-    
+
+
 ## <a name="enable-or-disable-email-from-being-sent-to-users"></a>有効にするか、ユーザーに送信される電子メールを無効にします。
 
-有効にするか、ユーザーに送信される電子メールを無効にするのには、マイクロソフトのチーム、ビジネス管理センターでは、Skype または Windows PowerShell を使用できます。
+You can use the Skype for Business admin center or Windows PowerShell to enable or disable email from being sent to users.
 
-![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
-1. 左側のナビゲーションでは、**会議**に移動 > **会議ブリッジ**です。 
-
-2. **会議ブリッジ**のページの上部には、**ブリッジの設定**をクリックします。 
-
-3. **ブリッジの設定**ウィンドウで、有効または、**ユーザーのダイヤルインの設定を変更する場合に e メールを自動的に送信**を無効にします。
-
-4. [ **保存**] をクリックします。
-  
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
+ 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
     
 1. **Skype**ビジネス管理センターは、左側のナビゲーションでは、[**電話会議**] をクリックします。
     

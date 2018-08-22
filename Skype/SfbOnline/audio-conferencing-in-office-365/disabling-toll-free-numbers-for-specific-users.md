@@ -1,5 +1,5 @@
 ---
-title: 特定のユーザーのフリーダイヤル番号を無効にする
+title: オンライン ビジネスのユーザーに特定の Skype のフリー ダイヤル番号を無効にします。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -13,20 +13,22 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 管理者は、開催者が、ミーティングのフリー ダイヤル番号を使用する方法を制御できます。
-ms.openlocfilehash: 4bee4449dd8e21ded52f40cc04832bd40b15c139
-ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
+ms.openlocfilehash: 1cd144af4f57b3c4ecb19de6c4aeea36f5d2baed
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22193046"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490547"
 ---
-# <a name="disabling-toll-free-numbers-for-specific-users"></a>特定のユーザーのフリーダイヤル番号を無効にする
+# <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>オンライン ビジネスのユーザーに特定の Skype のフリー ダイヤル番号を無効にします。
+
+> [!Note]
+> チームのユーザーの無効化のツールを必要としない番号の詳細については、[チームの特定のユーザーのフリー ダイヤル番号を無効にする](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users)を参照してください。
 
 組織では、その Microsoft オーディオ会議用ブリッジにフリー ダイヤル番号が含まれる場合は、許可または特定の開催者の会議での使用を防止できます。  
 
@@ -43,24 +45,8 @@ ms.locfileid: "22193046"
 
  - 参加者は、有料電話番号を使用して、開催者の会議への参加を継続できます。 
 
-> [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>特定のユーザーのフリーダイヤル番号を無効にする 
 
-![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
-
-1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
-
-2. ページの上部で、[**編集**] をクリックします。
-
-3. **会議ブリッジ**の横にあるメニューをクリックし、ドロップダウン リストで [**編集**] をクリックします。
-
-4. **会議ブリッジのプロバイダー**のウィンドウで**このユーザーのミーティングに参加するのには、組織の会議用ブリッジ内のフリー ダイヤル番号を使用して許可する**オフにします。 
-
-5. クリックして**を適用します**。 
-
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
 
 1. **電話会議**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **のユーザー**、および利用可能なユーザーの一覧からユーザーを選択します。 
 

@@ -1,5 +1,5 @@
 ---
-title: 携帯電話への招待に含まれている番号を設定します。
+title: Skype でオンライン ビジネスの携帯電話への招待に含まれている番号を設定します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,21 +14,24 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: 0ade5a68483319fe437d83c51dbe40ddb4f0fbc0
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 7aa426a1ede348e29230b177ecf790d9d32d7fbd
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490477"
 ---
-# <a name="set-the-phone-numbers-included-on-invites"></a>携帯電話への招待に含まれている番号を設定します。
+# <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Skype でオンライン ビジネスの携帯電話への招待に含まれている番号を設定します。
 
-ビジネスおよびマイクロソフトのチーム会議では、Skype を作成し、電話を使用してその会議にダイヤルインするユーザーを許可し、組織内のユーザーを Office 365 での音声会議に使用できます。 、Office 365 では、マイクロソフトのオーディオ会議ブリッジまたは、承認済みの音声会議プロバイダー (ACP) によってホストされているサード ・ パーティ製のオーディオ会議ブリッジを使用するオプションがあります。
+> [!Note]
+> 会議に関する情報をマイクロソフト チームの電話番号を招待、[携帯電話に含まれている番号は、マイクロソフトのチームで招待の設定](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams)を参照してください。
+
+ビジネス会議や Skype を作成し、電話を使用してその会議にダイヤルインするユーザーを許可し、組織内のユーザーを Office 365 での音声会議に使用できます。 、Office 365 では、マイクロソフトのオーディオ会議ブリッジまたは、承認済みの音声会議プロバイダー (ACP) によってホストされているサード ・ パーティ製のオーディオ会議ブリッジを使用するオプションがあります。
   
 > [!NOTE]
 > 電話会議のすべてのダイヤルイン番号のリストを含んでいるリソースはありません。 かどうかダイヤルインの電話番号では、領域または国/地域を表示するを検索する場合は、 **Skype**を使用して、 > **音声** > **の電話番号**をクリックし、**追加**新しいサービスの番号を****. **国/地域**、**状態の範囲のリストを使用して**と検索をフィルター処理する**市区町村**> また、有料無料のサービスの番号を検索する場合は、**フリー ダイヤル**から**の状態または地域を選択**リストです。
@@ -37,29 +40,11 @@ ms.lasthandoff: 05/08/2018
   
 > [!NOTE]
 > 会議主催者の会議出席依頼には、1 つの有料電話番号と 1 つの無料電話番号を含めることができますが、会議出席依頼の下部に、会議に参加するために使用できるダイヤルイン電話番号のすべての一覧を表示するリンクも記載されています。 
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>会議の開催者の既定のダイヤルインの電話番号を設定します。
-
-![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
-
-1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
-
-    ![マイクロソフトのチームとビジネス管理センターの Skype のユーザーの選択を示しています](../images/teamsselectusers.png)
-
-2. ページの上部で、[**編集**] をクリックします。
-
-    ![マイクロソフトのチームとビジネス管理センターの Skype での編集] をクリックします。](../images/teamsedituser.png)
-
-3. **オーディオ会議**の横にある [**編集**] をクリックします。 
-    
-    ![編集をクリックしてオーディオ会議](../images/teamseditaudioconf.png)
-
-4. **有料電話番号**や**フリー ダイヤル番号**のフィールドを使用すると、ユーザーの数を入力します。
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -88,26 +73,12 @@ ms.lasthandoff: 05/08/2018
   - **マイクロソフトではプロバイダー**:**既定の有料電話番号**を使用し、ユーザーの既定の番号を選択するのには**既定の無料電話番号**を一覧表示します。
     
     > [!NOTE]
-    > ユーザーの既定の無料電話番号として設定できるようになるには、少なくとも 1 つの無料電話番号が会議ブリッジに割り当てられている必要があります。 フリー ダイヤル番号を取得するには、 [Skype のビジネスおよびマイクロソフトのチームの取得サービスの電話番号](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)を参照してください。 
+    > ユーザーの既定の無料電話番号として設定できるようになるには、少なくとも 1 つの無料電話番号が会議ブリッジに割り当てられている必要があります。 フリー ダイヤル番号を取得するには、[ビジネスの Skype の取得サービスの電話番号](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)を参照してください。 
   
   - **サード パーティ プロバイダー**:**有料電話番号**や**フリー ダイヤル番号**のフィールドを使用して、ユーザーの数値を入力します。
 
 
-## <a name="change-the-audio-conferencing-phone-number-for-users"></a>ユーザーの電話会議の電話番号を変更します。
-
-![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
-
-1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
-
-2. ページの上部で、[**編集**] をクリックします。
-
-3. **オーディオ会議**の横にある [**編集**] をクリックします。 
-    
-4. **有料電話番号**や**フリー ダイヤル番号**のフィールドを使用すると、ユーザーの数を入力します。
-
 ## <a name="reset-audio-conferencing-phone-numbers"></a>電話会議の電話番号をリセットする
-
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
 
 1. [ **Skype for Business 管理センター**] で、[ **電話会議**] を選びます。
     
@@ -118,7 +89,7 @@ ms.lasthandoff: 05/08/2018
 既定では、ユーザーの会議の設定を変更すると、ユーザーに電子メールが送信されます。 これを変更する場合は、「[電話会議の設定が変更されたときのメールの自動送信を有効または無効にする](enable-or-disable-sending-emails-when-their-settings-change.md)」をご覧ください。
   
 > [!IMPORTANT]
-> ユーザーの電話会議設定を変更するときは、繰り返し発生する今後の Skype for Business 会議および Microsoft Teams 会議が更新されて、出席者に送信されるようにする必要があります。 
+> ユーザーの電話会議の設定を変更すると、会議の定期的な予定と将来の Skype の更新し、出席者に送信する必要があります。 
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell で管理する方法
 
@@ -135,7 +106,7 @@ ms.lasthandoff: 05/08/2018
 - ユーザーの元の既定の電話番号または所在地に基づいて既定の有料または無料電話番号を変更するには、 **Set-CsOnlineDialInConferencingUserDefaultNumber** コマンドレットを使用します。
     
     > [!NOTE]
-    > BridgeID を探すには、 **Get-CsOnlineDialInConferencingBridge** を使用します。
+    > BridgeID を検索するには、 **Get CsOnlineDialInConferencingBridge**コマンドレットを使用します。
   
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings 

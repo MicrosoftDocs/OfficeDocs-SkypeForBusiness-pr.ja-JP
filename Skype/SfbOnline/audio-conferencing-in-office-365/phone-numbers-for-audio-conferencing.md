@@ -1,5 +1,5 @@
 ---
-title: オーディオ会議用電話番号
+title: ビジネス オンラインの Skype で電話会議の電話番号
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,35 +14,36 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Learn what countries and regions have dial-in conferencing numbers, and how they are automatically assigned.
-ms.openlocfilehash: 3c1440b29a2ceb35775ba3ed8151defb4093f94d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 31dccb2c46ef957b9490a8a1c61f7a20563ecf92
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490498"
 ---
-# <a name="phone-numbers-for-audio-conferencing"></a>オーディオ会議用電話番号
+# <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>ビジネス オンラインの Skype で電話会議の電話番号
 
-ビジネスおよびマイクロソフトのチームに Skype の**電話会議**を設定は、ダイヤルインの電話番号は、組織に自動的に割り当てられます。 **Skype**に移動して、オーディオ会議ブリッジに割り当てられている電話番号を確認することができます > **電話会議** > **マイクロソフトのブリッジ**です。 You can select the dial-in conferencing default phone number that will be given to users when they are enabled for dial-in conferencing.
+> [!NOTE]
+> マイクロソフト チームの電話番号については、[マイクロソフトのチームでの電話会議の電話番号](/MicrosoftTeams/phone-numbers-for-audio-conferencing-in-teams)を参照してください。
+
+ビジネス用の Skype の**電話会議**を設定すると、組織にダイヤルインの電話番号が自動的に割り当てられます。 **Skype**に移動して、オーディオ会議ブリッジに割り当てられている電話番号を確認することができます > **電話会議** > **マイクロソフトのブリッジ**です。 You can select the dial-in conferencing default phone number that will be given to users when they are enabled for dial-in conferencing.
   
 > [!NOTE]
 > 電話会議のすべてのダイヤルイン番号のリストを含んでいるリソースはありません。 かどうかダイヤルインの電話番号では、領域または国/地域を表示する場合は、 **Skype**を使用して、 > **音声** > **の電話番号**を**追加**] をクリックし、**新しいサービス番号**です。 [**国/地域**]、[**都道府県/地域**]、[**市区町村**] のリストを使用して、検索をフィルタします。 また、サービスのフリー ダイヤル番号を検索する場合は、**フリー ダイヤル**から**の状態または地域を選択**の一覧です。
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>会議のオーディオのカバレッジと価格設定
 
-すべての国や地域、電話会議がある都市の一覧については、[国やオーディオ会議や予定を呼び出すことで利用可能な地域](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を参照してください。 価格情報を参照してください。 
-  
-[電話会議の料金](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
+すべての国や地域、電話会議がある都市の一覧については、[国やオーディオ会議や予定を呼び出すことで利用可能な地域](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を参照してください。 価格情報、[オーディオ会議のための価格設定](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)を参照してください。
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>会議の出席依頼に表示されるダイヤルイン電話番号
 
-ビジネス オンラインまたはマイクロソフトのチームのユーザーは、Skype では、Outlook または Outlook Web App の会議をスケジュール、会議出席依頼のユーザーに設定されている既定の電話会議の番号が含まれます。 1 つまたは複数のユーザーに対して別の既定の番号を選択する場合は、 **Skype**に移動して変更することが > **電話会議** > **のユーザー**です。 「[出席依頼に含まれている会議の開催者のために電話会議の電話番号を設定する](set-the-phone-numbers-included-on-invites.md)」をご覧ください。
+Skype のオンライン ビジネスのユーザーが Outlook または Outlook Web App で会議をスケジュールする場合は、会議出席依頼のユーザーに設定されている既定の電話会議の番号が含まれます。 1 つまたは複数のユーザーに対して別の既定の番号を選択する場合は、 **Skype**に移動して変更することが > **電話会議** > **のユーザー**です。 「[出席依頼に含まれている会議の開催者のために電話会議の電話番号を設定する](set-the-phone-numbers-included-on-invites.md)」をご覧ください。
   
 その他のダイヤルイン番号は、会議の出席依頼の [ **電話番号の検索**] リンクをクリックして表示できます。
   
@@ -66,7 +67,7 @@ ms.lasthandoff: 05/03/2018
 > [!CAUTION]
 > 組織がこれらの国/地域は、ベネズエラ、インドネシア、アラブ首長国連邦 (アラブ首長国連邦) の有料電話番号の可用性に制限のため、オーディオ会議の有料電話番号が自動的に割り当てられているを必要はありません。 これらの場所からの無料電話番号は、利用可能なインベントリに応じて利用可能になります。 
   
-専用の電話会議の電話番号は、サービス番号を取得し、組織に割り当てることです。 **ビジネス管理センターの Skype**を使用してサービスの番号をご覧ください。 詳細については、 [Skype のビジネスおよびマイクロソフトのチームの取得サービスの電話番号](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)を参照してください。
+専用の電話会議の電話番号は、サービス番号を取得し、組織に割り当てることです。 **ビジネス管理センターの Skype**を使用してサービスの番号をご覧ください。 詳細については、[サービスの電話番号の取得](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)を参照してください。
   
 組織に自動的に割り当てられている電話番号を持っているそれらの国/地域の一覧については、[オーディオ会議や予定を呼び出すための国および地域の可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を参照してください。
   

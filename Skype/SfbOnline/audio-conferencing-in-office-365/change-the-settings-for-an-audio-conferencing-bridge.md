@@ -1,5 +1,5 @@
 ---
-title: オーディオ会議ブリッジの設定を変更します。
+title: 電話会議ブリッジの設定を変更する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '呼び出し元のメッセージを表示し、ビジネスまたはマイクロソフトのチームのアプリケーションの Skype を使用していないことと、名前と会議の開催者のピンを収集するために使用する会議用ブリッジの設定を変更する必要があります手順を取得します。 '
-ms.openlocfilehash: 439907b6b1055db2487491c4b0be89cbb96bdf72
-ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
+ms.openlocfilehash: c649859d718ece3a8316ea8baa76be3be751561b
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490658"
 ---
-# <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>オーディオ会議ブリッジの設定を変更します。
+# <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>電話会議ブリッジの設定を変更する
 
 Office 365 に電話会議を設定する場合、オーディオ会議ブリッジと呼ばれますから、ユーザーの電話番号が表示されます。 会議用ブリッジは、1 つまたは複数の電話番号を含めることができます。 これらの電話番号は、呼び出し元が、会議にダイヤルインするときに使用されます。 電話番号では、ビジネスまたはマイクロソフトのチームの会議出席依頼の Skype の下部に含まれています。
   
@@ -35,7 +36,7 @@ Office 365 に電話会議を設定する場合、オーディオ会議ブリッ
   > [!IMPORTANT]
   > PIN がだけが必要なとき、Skype アプリケーション ユーザーのビジネスまたはマイクロソフトのチームの会議の開催者が会議を既に開始していません。 場合はすべてのユーザーがダイヤルイン会議、暗証番号 (pin) は会議の開催者、会議を開始する必要があります。 
 
-> [!CAUTION]
+> [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="teams-logo-30x30pngimagesteams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) ビジネス管理センターは、マイクロソフトのチームと Skype を使用してください。
@@ -60,7 +61,7 @@ Office 365 に電話会議を設定する場合、オーディオ会議ブリッ
 5. ユーザーに電子メールを送信するかどうかを指定するには、有効または **、オーディオ会議の構成が変更された場合、ユーザーに e メールを自動的に送信**を無効にします。
     詳細については、[電子メールは、ユーザーが電話会議の設定を変更するときに自動的に送信](emails-sent-to-users-when-their-settings-change.md)を参照してください。
  
-6. [**適用**] をクリックします。 
+6. [ **保存**] をクリックします。 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

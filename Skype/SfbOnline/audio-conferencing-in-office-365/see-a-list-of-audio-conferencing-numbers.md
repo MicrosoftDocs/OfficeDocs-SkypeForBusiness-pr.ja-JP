@@ -1,5 +1,5 @@
 ---
-title: オーディオ会議の番号の一覧を参照してください。
+title: オンライン ビジネスは、Skype で電話会議の番号の一覧を参照してください。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,47 +14,41 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'ビジネス用の Skype から、会議にダイヤルイン番号を検索する方法について説明します。 '
-ms.openlocfilehash: bccd4a5c02dbb6bc32c27e315b80a39705284429
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+description: 'ビジネス オンラインの Skype 内から、会議にダイヤルイン番号を調べる方法について説明します。 '
+ms.openlocfilehash: 84d6f4d1d1d1358a62ec8d0eb2334c92c416adea
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490597"
 ---
-# <a name="see-a-list-of-audio-conferencing-numbers"></a>オーディオ会議の番号の一覧を参照してください。
+# <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>オンライン ビジネスは、Skype で電話会議の番号の一覧を参照してください。
 
-設定するとオーディオ会議を Skype のビジネスおよびマイクロソフトのチームのユーザーに対して、オーディオ会議のために利用可能な電話番号を表示できます。 このリストには、すべての組織に利用可能な電話会議の電話番号があります。
+> [!NOTE]
+> マイクロソフトのチームでのオーディオ会議の番号については、[マイクロソフトのチームでの電話会議の番号の一覧を参照してください](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams)参照してください。
+
+設定するとオーディオ会議を Skype のビジネス ユーザー向け、オーディオ会議のために利用可能な電話番号を表示できます。 このリストには、すべての組織に利用可能な電話会議の電話番号があります。
   
  **価格を検索してください。** [オーディオ会議の価格](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)を参照してください。
   
 > [!IMPORTANT]
-> **オーディオ会議のすべてのダイヤルイン番号の一覧が含まれているリソースはありません。** かどうかダイヤルインの電話番号では、領域または国/地域を表示する検索する場合に、**ビジネス管理センターの Skype** > **音声** > **の電話番号**を**追加**] をクリックし、**新しいサービス番号**です。 [**国/地域**]、[**都道府県/地域**]、[**市区町村**] のリストを使用して、検索をフィルタします。 また、サービスのフリー ダイヤル番号を検索する場合は、**フリー ダイヤル**から**の状態または地域を選択**の一覧です。
+> **電話会議のすべてのダイヤルイン番号のリストを含んでいるリソースはありません。** かどうかダイヤルインの電話番号では、領域または国/地域を表示する検索する場合に、**ビジネス管理センターの Skype** > **音声** > **の電話番号**を**追加**] をクリックし、**新しいサービス番号**です。 [**国/地域**]、[**都道府県/地域**]、[**市区町村**] のリストを使用して、検索をフィルタします。 また、サービスのフリー ダイヤル番号を検索する場合は、**フリー ダイヤル**から**の状態または地域を選択**の一覧です。
   
-1 つの電話番号が組織で使用可能な場合に適用されます既定の番号としてのすべてのユーザー。 複数の電話番号が利用できる場合は、ユーザーごとに既定の電話番号を選択します。 この既定の番号は、Skype でビジネスおよびマイクロソフトのチームの会議出席依頼に含まれます。
+1 つの電話番号が組織で使用可能な場合に適用されます既定の番号としてのすべてのユーザー。 複数の電話番号が利用できる場合は、ユーザーごとに既定の電話番号を選択します。 この既定の番号は、Skype でビジネス会議出席依頼に含まれます。
   
 1 人のユーザーのダイヤルインの電話番号を変更するのには[携帯電話への招待に含まれている番号の設定](set-the-phone-numbers-included-on-invites.md)を確認できます。
   
 > [!NOTE]
 > 国内のダイヤルイン番号は専用の組織には、既定の電話番号として設定することが唯一のものです。 ただし、国際ダイヤルの番号は、複数の組織間で共有できます。 
-  
-## <a name="to-view-your-audio-conferencing-phone-numbers"></a>電話会議の電話番号を表示するのには
 
-![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
-
-1. 左側のナビゲーションでは、**会議**に移動 > **会議ブリッジ**です。 
-2.  オーディオ会議で使用可能な電話番号を表示します。
-
-- オーディオ会議自動アテンダントによって使用される主言語と保存場所を表示することもできます。
-
-> [!Note]
+> [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
+## <a name="to-view-your-audio-conferencing-phone-numbers"></a>電話会議の電話番号を表示するのには
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     

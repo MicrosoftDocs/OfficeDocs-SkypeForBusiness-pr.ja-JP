@@ -1,5 +1,5 @@
 ---
-title: ユーザーの電話会議の設定を管理します。
+title: ビジネス オンラインの Skype のユーザーの電話会議の設定を管理します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,43 +14,25 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Office 365 の管理者としては、オーディオ会議設定を編集することができます-プロバイダー、既定の有料または無料電話番号、会議 ID、暗証番号 (pin) など、組織内の個々 のユーザーのです。 組織の設定を編集する場合は、オーディオ会議の管理を参照してください。 組織内で設定します。
-ms.openlocfilehash: 141ede21a99ff251786c7dfc63f4c55358b61c72
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+description: 'Office 365 管理者としてビジネス オンラインのオーディオ会議設定の Skype を編集することができます-プロバイダー、既定の有料または無料電話番号、会議 ID、暗証番号 (pin) など、組織内の個々 のユーザーのです。 '
+ms.openlocfilehash: ed8038955174a19e7861c872e1a095644288e6c2
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490527"
 ---
-# <a name="manage-the-audio-conferencing-settings-for-a-user"></a>ユーザーの電話会議の設定を管理します。
+# <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>ビジネス オンラインの Skype のユーザーの電話会議の設定を管理します。
+
+> [!Note]
+> マイクロソフトのチームでのユーザー設定を管理する場合は、[マイクロソフトのチーム内のユーザーの電話会議の設定を管理する](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams)を参照してください。
 
 Office 365 の管理者としては、オーディオ会議設定を編集することができます-プロバイダー、既定の有料または無料電話番号、会議 ID、暗証番号 (pin) など、組織内の個々 のユーザーのです。 組織の設定を編集する場合は、[組織内でのオーディオ会議設定の管理](manage-the-audio-conferencing-settings-for-my-organization.md)を参照してください。
 
-![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
-
-1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
-
-2. ページの上部で、[**編集**] をクリックします。
-
-3. [**オーディオ会議**では、次のいずれかを変更します。
-
-|**設定**|**説明**|
-|:-----|:-----|
-|**電話会議**|音声会議をオンまたはオフ、ユーザーをクリックして**音声会議**の横にあるし、[**電話会議**] ウィンドウで**編集**を、**オーディオ会議**で、オフを切り替えます。|
-|**会議の情報を電子メールで送信します。**  |すぐに自分の会議 ID と電話番号を使用してユーザーに電子メールを送信する場合にのみ、このリンクをクリックします。 (このメールは含まれません、暗証番号 (pin) です。)[オーディオ会議の情報を持つユーザーに電子メールを送信する](send-an-email-to-a-user-with-their-dial-in-information.md)を参照してください。  |
-|**会議 ID**  |ユーザーの会議 ID をリセットする必要がある場合は、**会議 ID のリセット**をクリックします。 詳細については、[ユーザーの会議 ID をリセットする](reset-a-conference-id-for-a-user.md)を参照してください。  |
-|**暗証番号 (PIN)** |ユーザーの PIN をリセットする必要がある場合は、 **PIN のリセット**をクリックします。 詳細については、[オーディオ会議の PIN のリセット](reset-the-audio-conferencing-pin.md)を参照してください。 |
-|**既定の会議通話の電話番号**(必須) |これらをオーディオ会議ブリッジで設定されている番号となります。 ビジネスおよびマイクロソフトのチームの会議出席依頼の Skype に表示する数値書式を設定します。 既定の有料電話番号を変更するには、**編集**をクリックします次に**電話会議**をしに、**オーディオ会議**ウィンドウで、**有料電話番号**の下の番号を選択します。 |
-|**このユーザーからの招待は、フリー ダイヤル番号を含めることができます。**|この設定を変更するには、**オーディオ会議**の横にあると、[**電話会議**] ウィンドウで**編集**をクリックして、**このユーザーからの要求を達成するためのフリー ダイヤル番号**で、オフを切り替えます。 |
-|**ダイヤルアウトのアクセス許可**|この設定を変更するには、**オーディオ会議**の横にあると、[**電話会議**] ウィンドウで**編集**をクリックして、**会議からの発信アクセス許可**] の下のオプションを選択します。|
-
-![ユーザーの電話会議の設定を示しています。](../images/sfbaudioconf-usersettings.png)
- 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
  
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
