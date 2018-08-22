@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 国/地域を選択して、電話会議、電話システム、通話プラン、コミュニケーション クレジット、および有料電話番号と無料電話番号を利用できるかどうかを確認できます。
-ms.openlocfilehash: d4fd54348cf1897a60c235f3f4fa408c051b3f0b
-ms.sourcegitcommit: 18ae1505642e985f7fb62d2e70e37e8489b5ef15
+ms.openlocfilehash: 5844b271cb89d669dac11d2dda67b62ed4bd22c1
+ms.sourcegitcommit: bc125c655e76129b086f821011f63a983fb23e7b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "20034648"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22554035"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>国および地域ごとの電話会議および通話プランの利用可能性
 
@@ -158,9 +158,6 @@ Skype for Business または Microsoft Teams サービスの 1 つが利用で�
 > 一部の無料電話番号は、特定の国内または特定の国のエリア内から使用する場合のみに機能するため、有料電話番号または無料電話番号にダイヤルアウトすることができない場合があります。 たとえば、米国からブラジル国内の無料電話番号にダイヤルアウトする場合、その通話はブラジル国内またはブラジルの特定の地域から発生したものでなかったために、失敗してしまうことがあります。 無料電話番号にダイヤルアウトする機能は、ダイヤルされた無料電話番号の制限に応じて大きく異なります。 Office 365 においては、この動作を制御することはできません。そのため、ダイヤルされた無料電話番号と、無料電話番号の制限によって、機能や操作のエクスペリエンスが異なる可能性があります。 
   
 以下のリストにない世界の他の国/地域に会議からダイヤルアウトすることは、[Office 365 コミュニケーション クレジット](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)を使用して行うことができます。 このようなユーザーの場合は、[組織のためにコミュニケーション クレジットをセットアップする](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)必要があります。
-  
-> [!NOTE]
-> 導入期間中は、追加料金なしで、折り返し先機能を使用するとき、または他のユーザーを会議に追加するときに、すべての組織のユーザーが次の国/地域のいずれかにダイヤルアウトできます。ただし、この操作は[音声会議の無料のダイヤルアウト期間](../legal-and-regulatory/complimentary-dial-out-period.md)において行うことができます。 
   
 ### <a name="phone-system"></a>電話システム
 電話システムでは、自分の組織の着信通話に応答させるために (有料電話番号または無料電話番号で) 自動応答や通話キューを作成することができます。また、ユーザーのために通話プランを追加すると、それらのユーザーは Skype for Business を使用して通話の発信と受信、通話の転送、ミュートとミュートの解除などの基本的な通話制御タスクを処理できるようになります。 **電話システム**のユーザーがアドレス帳の名前をクリックすると、Skype for Business によってその連絡先に通話が発信されます。 **電話システム**のユーザーは、Skype for Business で利用できるモバイル デバイス、ノート PC や PC のヘッドセット、さまざまな IP 電話を使って、通話の発信と受信を行うことができます。
