@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 ROBOTS: NOINDEX, NOFOLLOW
 description: クライアント バージョン ポリシーは、一連のクライアント バージョン ルールで構成されます。これらのルールでは、ユーザーが特定のクライアントおよびクライアント バージョンでログオンしようとしたときに実行するアクションが定義されています。
-ms.openlocfilehash: cd89e0bd5bf6781ea8381563e592d57a3e68434a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ddebab20af21be8a6c3cbff558cec6d118dd60d0
+ms.sourcegitcommit: c85211a22921d02ffa9f300a4f8350ffbb90b38c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988735"
+ms.lasthandoff: 08/10/2018
+ms.locfileid: "22601914"
 ---
 # <a name="client-version-rule"></a>クライアント バージョン ルール
  
@@ -35,7 +35,7 @@ ms.locfileid: "20988735"
 
 以下は、ページ上のメニュー、コマンド、フィールド、およびプロパティについての説明です。
   
-- **ユーザー エージェント**クライアントの種類を一覧から選択できます。 次の表は、ユーザー エージェントのコードを定義します。
+- **ユーザー エージェント**クライアントの種類を一覧から選択できます。 次の表は、ユーザー エージェントのコードを定義します。 このリストには、レガシ クライアントの種類、それらの一部がサポートされていませんが含まれています。  
     
 |**クライアント名**|**ユーザー エージェント**|
 |:-----|:-----|

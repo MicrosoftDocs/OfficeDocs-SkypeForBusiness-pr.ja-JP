@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: このトピックでは、Office 365 に Skype Room System アカウントをプロビジョニングする方法について説明します。
-ms.openlocfilehash: b248168870366db8f685db48197badb3bacf935f
-ms.sourcegitcommit: 4660539cf0a6f7fde5de0a68bc4866089962ce80
+ms.openlocfilehash: 8120fb2fe8db35eb3907128d65f5b55bb5f544ec
+ms.sourcegitcommit: a9556a51f7f970fc05ab0acc9998401db3c1aa57
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "22102054"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "22601977"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Skype Room System アカウントの Office 365 でのプロビジョニング
  
@@ -26,7 +26,7 @@ ms.locfileid: "22102054"
 
 オンライン テナントは、次の要件を満たしている必要があります。
   
-- Office 365 のプランは、ビジネス オンライン プラン 2、プラン 3、または Office 365 の E1、E3 または E5 の Skype を含める必要があります。
+- Office 365 のプランは、プラン 2 のオンライン ビジネス、または Office 365 の E1、E3 E5 の Skype を含める必要があります。 <br/>Skype のビジネスのオンラインの計画の詳細については、 [Skype](https://technet.microsoft.com/library/jj822172.aspx)を参照してください。
     
 - テナントには、会議の機能を有効にするビジネスのための Skype が必要です。
     
@@ -44,9 +44,9 @@ Skype Room アカウントの場合は、次のライセンスが必要です。
   
 - ビジネス オンライン計画 2 または Office 365 の E1、E3 のライセンスは、Skype は、Skype 会議を有効にする必要があります。
     
-- 電話番号、部屋を有効にすることができますので、エンタープライズ VoIP 機能を備えた部屋を entitle、ビジネス オンライン計画 2 クラウド PBX のアドオンまたは Office 365 の E5 に、Skype は、必要な (1) です。
+- 電話番号、部屋を有効にすることができますので、エンタープライズ VoIP 機能を備えた部屋を entitle、ビジネス オンライン プラン 2 には、電話システムのライセンスの Office 365 の E5、Skype は、必要な (1) です。
     
-- ある会議内で PSTN 会議を利用できるかどうかは、会議開催者のライセンスによって決まります。
+- 会議にダイヤルイン機能が必要な場合は、音声会議や電話システムのライセンスを必要があります。  会議からのダイヤル ・ アウト機能が必要な場合、国内または国内および海外を呼び出すことを計画する必要があります。 
     
 - Skype Room アカウントの場合は、リソース メールボックス アカウントとして構成する必要があるため、Exchange Online ライセンスは不要です。
     
@@ -138,4 +138,7 @@ Office 365 では、別のパスワードの有効期限ポリシーを構成し
 
 詳細については、 [Windows PowerShell には、コンピューターの設定](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)を参照してください。
   
+## <a name="validate"></a>検証
+
+検証、ビジネス クライアント用の Skype を使用して作成したアカウントにサインインできるように。
 

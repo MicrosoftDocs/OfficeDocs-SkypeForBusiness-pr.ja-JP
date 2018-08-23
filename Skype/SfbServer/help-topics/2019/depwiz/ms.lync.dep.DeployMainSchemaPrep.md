@@ -12,16 +12,16 @@ localization_priority: Normal
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Active Directory ドメイン サービスのスキーマを準備するのにはビジネス サーバーの展開ウィザードは、Skype で、スキーマの準備の手順を実行します。 [実行] をクリックしてスキーマの準備を開始します。
-ms.openlocfilehash: 829c3062fcbfc1dab41e56de63e7a469f8e6e069
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: 5cc9f4136d86408296a95c8bad0ffdbd13185d8d
+ms.sourcegitcommit: ddedcfe6efd4d8adec794a70c904468a45fbdeb4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22138542"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "22601963"
 ---
 # <a name="prepare-schema"></a>スキーマの準備
  
-Active Directory ドメイン サービスのスキーマを準備するのにはビジネス サーバーの展開ウィザードは、Skype で、スキーマの準備の手順を実行します。 [**実行**] をクリックしてスキーマの準備を開始します。 [スキーマの準備] 手順では、展開ウィザードが実行されているシステムの \Program Files\Microsoft Lync Server 2013\Deployment\Setup ディレクトリにある指定されたスキーマ定義ファイルを読み取ります。 これらのファイルは、インストール メディアの \Support\Schema ディレクトリにもあります。 [スキーマの準備] 手順では、スキーマを拡張し、プロセスの状態を報告します。 また、プロセスが完了したことも通知します。 概要画面では、プロセスのログを表示できます。 ログを調べ、正常に準備が完了したことを確認してください。
+Active Directory ドメイン サービスのスキーマを準備するのにはビジネス サーバーの展開ウィザードは、Skype で、スキーマの準備の手順を実行します。 [**実行**] をクリックしてスキーマの準備を開始します。 スキーマの準備の手順は、定義ファイル、\Program Files\Skype のビジネス サーバーの 2019\Deployment\Setup ディレクトリにで展開ウィザードが実行されているシステムで指定されたスキーマを読み取ります。 これらのファイルは、インストール メディアの \Support\Schema ディレクトリにもあります。 [スキーマの準備] 手順では、スキーマを拡張し、プロセスの状態を報告します。 また、プロセスが完了したことも通知します。 概要画面では、プロセスのログを表示できます。 ログを調べ、正常に準備が完了したことを確認してください。
   
 > [!IMPORTANT]
 > スキーマを拡張するには、Schema Admins グループおよび Enterprise Admins グループのメンバーとしてドメインにログインする必要があります。 

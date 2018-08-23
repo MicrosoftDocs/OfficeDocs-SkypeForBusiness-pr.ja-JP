@@ -1,7 +1,7 @@
 ---
 title: 環境を準備します。
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: この資料では、Skype ルーム システム v2 を展開するためのインフラストラクチャの準備作業について説明します。
-ms.openlocfilehash: b8f1e52686cfab957f2fb81a33deecc778514673
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 694da63ea29d1d0455faa568f2ee9956fb26948f
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "19179281"
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22601942"
 ---
 # <a name="prepare-your-environment"></a>環境を準備します。
 
@@ -110,9 +110,9 @@ Skype ルーム システム v2 は、Windows OS のプロキシ設定を継承�
     
 このアプリケーションを使用するには、以下に説明されているエンドポイントに接続できる必要があります。IP アドレスを表示するには、トラフィックのフローを説明する表の下にある [IP アドレス] セクションを展開します。
   
-**ファイアウォール プロキシのホスト名とポートの例**
+**ファイアウォール プロキシのホスト名/ポートの例**
 
-|**目的**|**ソースまたは資格情報**|**発信元ポート**|**宛先**|**CDN**|**Office 365 の ExpressRoute**|**宛先 IP**|**宛先ポート**|
+|**用途**|**ソースまたは資格情報**|**発信元ポート**|**宛先**|**CDN**|**ExpressRoute for Office 365**|**送信先 IP アドレス**|**送信先ポート**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |認証と ID  <br/> |[Office 365 の認証と id](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity)を参照してください。 <br/> |||
 |ポータルと共有  <br/> |[Office 365](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity)を参照してください。 <br/> |||
@@ -155,7 +155,7 @@ Skype ルーム システム v2 のデフォルトのパスワードは、「デ
   
 ドメイン管理者をローカル管理者として設定したグループ ポリシーを設定することで、ローカル管理者のパスワードを管理することもできます。
   
-ローカルの管理者パスワードは、セットアップ中には選択肢に含まれているではありません。
+セットアップ中に、ローカル管理者パスワードの選択は含まれません。
   
 ### <a name="machine-account"></a>コンピューター アカウント
 
@@ -165,15 +165,12 @@ Skype ルーム システム v2 のデフォルトのパスワードは、「デ
   
 ## <a name="see-also"></a>関連項目
 
-#### 
-
 [Skype ルームの計画システム v2](skype-room-systems-v2-0.md)
 
-[Skype ルーム システム v2 の要件](requirements.md)
+[Skype Room Systems バージョン 2 の要件](requirements.md)
   
-[Skype の部屋を配置するシステム v2](../../deploy/deploy-clients/room-systems-v2.md)
+[Skype Room System バージョン 2 を展開する](../../deploy/deploy-clients/room-systems-v2.md)
   
-[Skype ルーム システム v2 のコンソールを構成します。](../../deploy/deploy-clients/console.md)
+[Skype Room Systems バージョン 2 コンソールを構成する](../../deploy/deploy-clients/console.md)
   
-[Skype ルームの管理システム v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
-
+[Skype Room Systems バージョン 2 を管理する](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

@@ -1,7 +1,7 @@
 ---
 title: バージョンのサポート
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 4/17/2018
 ms.audience: ITPro
@@ -9,11 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: この資料では、Skype ルーム システム v2 のライフ サイクルのサポートについて説明します。
-ms.openlocfilehash: 596197a240d4cf44e8bcf0d0069f9cad5d5e6777
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 86f71f1ddd554c9a9d368cdb725367a368257453
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22601956"
 ---
 # <a name="version-support"></a>バージョンのサポート
  
@@ -38,11 +39,8 @@ ms.lasthandoff: 05/24/2018
 <a name="See"> </a>  
 ## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
 
-
-#### 
 [Skype ルーム システムのバージョン 2 のヘルプ](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Skype ルーム システム v2 のリリース ・ ノート](srs2-release-note.md)
 
-[Skype ルームの計画システム v2](skype-room-systems-v2-0.md)
-
+[Skype Room Systems バージョン 2 の計画](skype-room-systems-v2-0.md)
