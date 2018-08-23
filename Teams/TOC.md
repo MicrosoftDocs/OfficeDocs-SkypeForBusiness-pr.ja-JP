@@ -40,6 +40,7 @@
 ### [新しいマイクロソフトのチームとビジネス管理センターの Skype に移行する際のチームを管理します。](manage-teams-skypeforbusiness-admin-center.md)
 ### [Teams で役割と権限を割り当てる](assign-roles-permissions.md)
 ### [チーム テナント アプリケーション カタログにアプリケーションを発行します。](tenant-apps-catalog-teams.md)
+### [チームで動作する Skype の会議アプリケーションを構成します。](configure-skype-meetings-app-to-work-with-teams.md)
 ## [現代の認証](sign-in-teams.md)
 ## [他の組織内のチームのユーザーとの通信します。](let-your-teams-users-communicate-with-other-people.md)
 ## [クラウド ボイスの展開の手引き](cloud-voice-deployment.md)
