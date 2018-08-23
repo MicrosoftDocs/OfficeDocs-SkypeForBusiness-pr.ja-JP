@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: この記事では、Mac クライアント用の Skype for Business で利用できる、クライアントの基本設定と既定値について説明します。また、それらをアプリ以外から編集する方法についても説明します。
-ms.openlocfilehash: 37ea82cc87e58303ab412c7adbd427dd11c74f89
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ae7f3a5c63a77820aba24e93d820ae2eff9176ad
+ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21014641"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22912844"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Skype for Business での Mac クライアントのエクスペリエンスをカスタマイズする
  
@@ -31,20 +31,20 @@ ms.locfileid: "21014641"
 **クライアントの基本設定のキー**
 
 
-|**キー**|**種類**|**値**|**説明**|
+| キー | 型 | 値 | 説明 |
 |:-----|:-----|:-----|:-----|
-|AutoDetectAutoDicoveryURLs  <br/> |ブール値  <br/> |0 = 手動のサーバー構成  <br/> 1 = 自動のサーバー構成 (既定)  <br/> |ビジネス用の Skype でのトランスポートおよびサインイン時に使用するサーバーを識別する方法を指定します。 このポリシー設定を有効にする場合は、**internalAutoDiscoveryURL** および **externalAutoDiscoveryURL** を有効にする必要があります。 <br/> |
-|internalAutoDiscoveryURL  <br/> |文字列  <br/> |完全な自動検出 URL  <br/> |内部自動検出 URL  <br/> |
-|externalAutoDiscoveryURL  <br/> |文字列  <br/> |完全な自動検出 URL  <br/> |外部自動検出 URL  <br/> |
-|httpProxyDomain  <br/> |文字列  <br/> ||HTTP プロキシ ドメイン  <br/> |
-|httpProxyUserName  <br/> |文字列  <br/> ||HTTP プロキシ ユーザー名  <br/> |
-|httpProxyPassword  <br/> |文字列  <br/> ||HTTP プロキシ パスワード  <br/> |
-|trustedDomainList  <br/> |配列  <br/> ||HTTP リダイレクトでの信頼済みのドメインのリスト。  <br/> |
-|autoAcceptTimeout  <br/> |数値  <br/> |300 (既定)  <br/> |サーバー側の会話履歴がないユーザーの自動承認タイムアウト。  <br/> |
-|warnWhenUnknownLocationForE911  <br/> |ブール値  <br/> |0 = 無効  <br/> 1 = 有効  <br/> |不明な場所から緊急電話番号にダイヤルするときにユーザーに警告します。  <br/> |
-|sipAddress  <br/> |文字列  <br/> ||SIP アドレス (電子メール) ビジネスのための Skype にサインインするために使用します。  <br/> |
-|ユーザー名  <br/> |文字列  <br/> ||UPN (ユーザー名) ビジネスのための Skype にサインインするために使用します。  <br/> |
-|userNameInAdvancedOnly  <br/> |ブール値  <br/> |0 = サインイン用のメイン画面にし、[詳細プロパティ] ダイアログ ボックスで、[ユーザー名] フィールドを表示  <br/> 1 = [詳細プロパティ] ダイアログ ボックス (既定値) でのみ、[ユーザー名] フィールドを表示  <br/> |サインイン時にユーザー名フィールドが表示される場所を指定します。  <br/> |
+|AutoDetectAutoDiscoveryURLs    |ブール値    |0 = 手動のサーバー構成  <br/> 1 = 自動のサーバー構成 (既定)    |ビジネス用の Skype でのトランスポートおよびサインイン時に使用するサーバーを識別する方法を指定します。 このポリシー設定を有効にする場合は、**internalAutoDiscoveryURL** および **externalAutoDiscoveryURL** を有効にする必要があります。   |
+|internalAutoDiscoveryURL    |文字列    |完全な自動検出 URL    |内部自動検出 URL    |
+|externalAutoDiscoveryURL    |文字列    |完全な自動検出 URL    |外部自動検出 URL    |
+|httpProxyDomain    |文字列    ||HTTP プロキシ ドメイン    |
+|httpProxyUserName    |文字列    ||HTTP プロキシ ユーザー名    |
+|httpProxyPassword    |文字列    ||HTTP プロキシ パスワード    |
+|trustedDomainList    |配列    ||HTTP リダイレクトでの信頼済みのドメインのリスト。    |
+|autoAcceptTimeout    |数値    |300 (既定)    |サーバー側の会話履歴がないユーザーの自動承認タイムアウト。    |
+|warnWhenUnknownLocationForE911    |ブール値    |0 = 無効  <br/> 1 = 有効    |不明な場所から緊急電話番号にダイヤルするときにユーザーに警告します。    |
+|sipAddress    |文字列    ||SIP アドレス (電子メール) ビジネスのための Skype にサインインするために使用します。    |
+|ユーザー名    |文字列    ||UPN (ユーザー名) ビジネスのための Skype にサインインするために使用します。    |
+|userNameInAdvancedOnly    |ブール値    |0 = サインイン用のメイン画面にし、[詳細プロパティ] ダイアログ ボックスで、[ユーザー名] フィールドを表示  <br/> 1 = [詳細プロパティ] ダイアログ ボックス (既定値) でのみ、[ユーザー名] フィールドを表示    |サインイン時にユーザー名フィールドが表示される場所を指定します。    |
    
 ### <a name="usage-examples"></a>使用例
 
@@ -55,7 +55,6 @@ com.microsoft.SkypeForBusiness trustedDomainList を作成する既定値の配�
 複数のドメインを信頼済みのドメインのリストに追加するには、次に示すような trustedDomainList キーを使用します。
   
 com.microsoft.SkypeForBusiness trustedDomainList を作成する既定値の配列-"sfb.com"「abc.com」「test.org」を追加
-  
   
 ### <a name="sample-unedited-settings"></a>未編集の設定のサンプル
 
@@ -109,7 +108,4 @@ com.microsoft.SkypeForBusiness trustedDomainList を作成する既定値の配�
     firstRun = 0;
     showEndCallDialog = 1;
 }
-
 ```
-
-

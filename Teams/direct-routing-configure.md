@@ -1,7 +1,7 @@
 ---
 title: 直接ルーティングを構成します。
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft 電話システム直接ルーティングを構成する方法について説明します。
-ms.openlocfilehash: bad3709635ccca83a4093e5115e46352f5dcaaff
-ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
+ms.openlocfilehash: 44181b47f4edaca019bb51fd0819dd6c17360fae
+ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 08/23/2018
-ms.locfileid: "22599431"
+ms.locfileid: "22914753"
 ---
 # <a name="configure-direct-routing"></a>直接ルーティングを構成します。
 
@@ -519,9 +519,9 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 結果は、ジョンの森の呼び出しに適用されるボイス ポリシーは、制限はありませんしは米国、カナダ、および国際通話に使用できる通話のルーティングのロジックに従います。
 
 
-## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-the-users"></a>ユーザー優先の呼び出し元のクライアントとして Microsoft チームの設定します。
+## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>マイクロソフトのチームを優先する呼び出し元クライアントとユーザーの設定します。
 
-チーム Cleint を使用する場合に、ユーザーからの呼び出しルーティングだけのルートを指示します。 組織は、チームのクライアントを使用してのみ、チームのみ] 設定モードでのアップグレードのポリシーを推奨します。 組織では、オンライン ビジネスのビジネス サーバーまたは Skype の Skype を使用する場合は、 [Skype のビジネスおよびチームの理解の共存およびアップグレードの旅](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)の次のドキュメントを確認、適切なオプションを選択してください。 
+直接ルーティング ルートのみを呼び出しのユーザーとの間のチームのクライアントを使用する場合。 のみ、組織には、チームが使用しているチームのみ] 設定モードでのアップグレードのポリシーを推奨します。 詳細については次の資料を参照してくださいし、適切なオプションを選択する組織は、オンライン ビジネスのビジネス サーバーまたは Skype の Skype を使用する場合:[共存を理解しビジネスとチームの Skype の旅をアップグレード](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)します。 
 
 
 ## <a name="see-also"></a>関連項目

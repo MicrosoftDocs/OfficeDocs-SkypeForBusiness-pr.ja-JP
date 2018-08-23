@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft 電話システム直接ルーティングを使用する方法マイクロソフトの電話システムに、サポートされている、お客様が用意したセッション ボーダー コント ローラー (SBC) の接続については、このトピックを参照してください。
-ms.openlocfilehash: b6740951e65a2c917c95cce884f3c2a42ea004e7
-ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
+ms.openlocfilehash: 7abf23aeb74807597b337c66e769b0625d862d0f
+ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 08/23/2018
-ms.locfileid: "22599463"
+ms.locfileid: "22914121"
 ---
 # <a name="plan-direct-routing"></a>直接ルーティングを計画します。
 
@@ -110,8 +110,8 @@ SBC ドメイン名は、テナントの「ドメイン」に登録された名�
 contoso.com|あり|**有効な名前。**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
 |contoso.onmicrosoft.com|なし|<br/>使用して *. SBC 名を onmicrosoft.com ドメインはサポートされていません
 
-新しいドメイン名を使用する場合。 など、テナントは、テナントに登録されているドメインの名前と contoso.com を持ちます。 Sbc1.sip.contoso.com を使用するには。 Sbc1.sip.contoso.com の名前を持つ SBC をペアにする前に、テナントの「ドメイン」でドメイン名の sip.contoso.com を登録する必要があります。 SBC sbc1.sip.contoso.com をペアリングしようとすると、エラー メッセージが表示"ことはできませんを使用して"sbc1.sip.contoso.com"ドメインとして、このテナント用に構成されていません。
-ドメイン名を追加した後は、UPN の user@sip.contoso.com でユーザーを作成し、「チーム」ライセンスを割り当てる必要があります。 テナント、ユーザーの「ドメイン」に新しい名前を作成しユーザーに割り当てられているライセンスの追加後にドメイン名を完全にプロビジョニングするのには最大 24 時間かかる場合があります。 
+新しいドメイン名を使用すると仮定します。 など、テナントには、テナントにドメイン名が登録されているし、sbc1.sip.contoso.com を使用する contoso.com です。 名前 sbc1.sip.contoso.com に SBC をペアには、前に、テナントの「ドメイン」でドメイン名の sip.contoso.com を登録してください。 ドメイン名を登録する前に sbc1.sip.contoso.com を持つ SBC をペアリングしようとすると、次のエラーが表示されます:"ことはできませんを使用して"sbc1.sip.contoso.com"ドメインとして、このテナント用に構成されていません。
+ドメイン名を追加した後は、UPN の user@sip.contoso.com でユーザーを作成し、「チーム」ライセンスを割り当てる必要があります。 完全に準備が後にそのドメイン名は新しい名前を持つユーザーが作成され、ユーザーにライセンスが割り当てられている、テナントの「ドメイン」を追加するに最大 24 時間がかかる場合があります。 
 
 会社が 1 つのテナントのいくつかの SIP アドレス スペースを必要があります。 たとえば、会社とがあります SIP アドレス空間 contoso.com fabrikam.com 2 つ目の SIP アドレス スペースとして。 一部のユーザーがあるアドレスに user@contoso.com と一部のユーザーがアドレス user@fabrikam.com にあります。 
 

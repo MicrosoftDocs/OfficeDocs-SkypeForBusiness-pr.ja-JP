@@ -1,7 +1,7 @@
 ---
 title: (SCCM) では、MSI を使用してマイクロソフトのチームをインストールします。
-author: ninadara
-ms.author: ninadara
+author: Lester-Hewett
+ms.author: lehewe
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
@@ -11,12 +11,12 @@ description: 管理者は、ユーザーまたはコンピューターを選択�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad50a2f7dbece3eb72f4709fa1873828519f4c77
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f0371a4f64c363723360b749a9e7b160b673eda0
+ms.sourcegitcommit: a9556a51f7f970fc05ab0acc9998401db3c1aa57
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997801"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "22913412"
 ---
 <a name="install-microsoft-teams-using-msi-with-sccm"></a>(SCCM) では、MSI を使用してマイクロソフトのチームをインストールします。
 ===========================================

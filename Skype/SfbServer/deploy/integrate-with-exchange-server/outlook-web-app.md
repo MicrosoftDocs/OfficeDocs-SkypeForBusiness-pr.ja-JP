@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: '概要: ビジネス サーバーおよび Outlook Web App の Skype を統合します。'
-ms.openlocfilehash: 206100ce74731b9ffa6b2987e4884b7589f6e2c8
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5ad1f6bc898a29c2a5e0f326d3a5edc4d782bab2
+ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20995849"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22914097"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>ビジネス サーバーの設置型の Skype と Outlook Web App との統合を構成します。
  
@@ -53,7 +53,7 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 ```
 
 > [!NOTE]
-> 中国の 21Vianet により運営されている Office 365 を使用している場合は、この例の **ProxyFqdn** パラメーターの値 ("exap.um.outlook.com") を、21Vianet により運営されているサービスの FQDN である "exap.um.partner.outlook.cn" に置き換えます。
+> 中国の 21Vianet により運営されている Office 365 を使用している場合は、この例の ProxyFqdn パラメーターの値 ("exap.um.outlook.com") を、21Vianet により運営されているサービスの FQDN である "exap.um.partner.outlook.cn" に置き換えます。 を使用している Office 365 の GCC の高い場合、FQDN を持つ次の使用例がある場合 ("exap.um.outlook.com") で ProxyFqdn パラメーターの値を交換して、GCC を:"exap.um.office365.us"です。
   
 - **アイデンティティ**では、(たとえば、Exchange オンライン) を作成するホスティング プロバイダーの一意の文字列値の識別子を指定します。 空白を含む値は、二重引用符で囲む必要があります。
     
