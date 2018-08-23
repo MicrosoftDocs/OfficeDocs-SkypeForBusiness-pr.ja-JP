@@ -1,1 +1,1 @@
-当社では Microsoft Teams の機能を管理する方法を頻繁に更新しているため、ここでの手順は Microsoft Teams および Skype for Business の管理センターでは多少異なる場合があります。
+Skype for Business Online の機能を管理する方法を頻繁に更新しているため、ここに示す手順は多少異なる場合があります。
