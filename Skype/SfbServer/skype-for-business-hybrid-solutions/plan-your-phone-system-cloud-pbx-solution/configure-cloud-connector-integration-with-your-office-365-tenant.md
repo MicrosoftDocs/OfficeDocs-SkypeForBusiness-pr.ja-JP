@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Cloud Connector と Office 365 テナントの統合を構成する方法を説明します。
-ms.openlocfilehash: d5ae0b70a22219ee0430908bd3b3752d6ebd6357
-ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
+ms.openlocfilehash: 01a3eac7356846b7d3b153ff4e01c9b52c3744ce
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/08/2018
-ms.locfileid: "20211152"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599415"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Cloud Connector と Office 365 テナントの統合を構成する
  
@@ -168,7 +168,13 @@ P2P の呼び出しは、PSTN 会議にエスカレートされ、オンライ�
     
     なお、ライセンスの割り当てはのみ、ユーザーに伝達、Skype のビジネスのオンライン ディレクトリに必要な。 アカウントを作成、変更を反映するためには、最大で 1 時間を許可し、このアカウントからライセンスを削除するには、(E5) などの Office 365 のライセンスを割り当てます。
     
-2. テナント管理者の資格情報とそのユーザーに、仲介サーバーとエッジ サーバーの FQDN を設定するのには次のコマンドレットのアカウントを交換し実行を使用してテナントのリモート PowerShell セッションを開始する\<表示名\>のユーザーの表示名を持つ、アカウントを作成します。
+2. グローバルを使用してテナント Azure AD リモート PowerShell セッションまたはユーザー管理者の資格情報を起動し、Azure AD ユーザー アカウントの部門を設定するのには次のコマンドレットのように構成しの実行はステップ 1 を"HybridMediationServer"にします。
+
+ ```
+  Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
+  ```
+
+3. テナント Skype をビジネス テナント管理者の資格情報、し、そのユーザーに、仲介サーバーとエッジ サーバーの FQDN を設定するのには次のコマンドレットのアカウント、交換用の Skype を使用してビジネス リモート PowerShell セッションを開始\<表示名\>アカウントのユーザーの表示名では、手順 1 で作成します。
     
   ```
   Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>

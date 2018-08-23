@@ -10,12 +10,12 @@ ms.reviewer: marcl
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ca61e36069262ddb2ea43dde300c169d6992ba8
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: 07cccce7a0c0b13a42c776bff8b5b0367792d7a2
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546400"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599369"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
   
@@ -43,6 +43,10 @@ ms.locfileid: "22546400"
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
 |「割り当て」アプリケーションは、visble を無効にした場合  <br/> |管理センターでは、「割り当て」アプリケーションが無効である場合は、EDU ライセンス ユーザーのチームのクライアント内で表示されているままです。 無効になっていることを選択することを示す、"Doh エラーを返します! エラーの発生しています..."  <br/> |回避策なし。  <br/> |12/29/17  <br/> |
+
+|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
+|:-----|:-----|:-----|:-----|
+|チームの所有者は、コネクタを削除するのにはできません。  <br/> |所有者としてコネクタを削除しようとすると、それ以外の場合、コネクタを追加することができます、許可するメンバーを作成、更新、およびコネクタを削除する] が無効になっているスローのときにユーザーを示すエラーが発生はこれを行うためのアクセス許可。 <br/> |許可するメンバーを作成、更新、およびコネクタを削除する] は、一時的に有効にすると、コネクタを削除するのには所有者をことができます。  <br/> |7/27/18  <br/> |
 
 ## <a name="authentication"></a>認証
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|

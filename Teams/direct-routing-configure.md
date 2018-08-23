@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft 電話システム直接ルーティングを構成する方法について説明します。
-ms.openlocfilehash: 664aae1a213859a6e4e73ec4c75ce39b6058788e
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: bad3709635ccca83a4093e5115e46352f5dcaaff
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546527"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599431"
 ---
 # <a name="configure-direct-routing"></a>直接ルーティングを構成します。
 
@@ -518,19 +518,10 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 
 結果は、ジョンの森の呼び出しに適用されるボイス ポリシーは、制限はありませんしは米国、カナダ、および国際通話に使用できる通話のルーティングのロジックに従います。
 
-## <a name="enable-calling-for-microsoft-teams"></a>マイクロソフト チームの呼び出しを有効にします。
-
-ユーザーは、マイクロソフトのチームでは、[通話] タブを参照してください、マイクロソフトのチームで、テナントの秘密の呼び出しを有効にする必要があります。 その手順は次のとおりです。
-
-1.  Office 365 の管理センターでテナント管理者としてサインインします。
-2.  **設定とサービス、およびアドイン**に移動し、**マイクロソフトのチーム**を選択します。 
-3.  **通話や会議**を展開し、****プライベートの許可を呼び出すこと**がである**ことを確認します。
-
-    ![スクリーン ショット、プライベート通話を有効にする許可を表示します。](media/ConfigDirectRouting-CallsandMeetingsDialog.png)
 
 ## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-the-users"></a>ユーザー優先の呼び出し元のクライアントとして Microsoft チームの設定します。
 
-チーム Cleint を使用する場合に、ユーザーからの呼び出しルーティングだけのルートを指示します。 組織は、チームの cleint を使用してのみ、チームのみ] 設定モードでのアップグレードのポリシーを推奨します。 組織では、オンライン ビジネスのビジネス サーバーまたは Skype の Skype を使用する場合は、 [Skype のビジネスおよびチームの理解の共存およびアップグレードの旅](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)の次のドキュメントを確認、適切なオプションを選択してください。 
+チーム Cleint を使用する場合に、ユーザーからの呼び出しルーティングだけのルートを指示します。 組織は、チームのクライアントを使用してのみ、チームのみ] 設定モードでのアップグレードのポリシーを推奨します。 組織では、オンライン ビジネスのビジネス サーバーまたは Skype の Skype を使用する場合は、 [Skype のビジネスおよびチームの理解の共存およびアップグレードの旅](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)の次のドキュメントを確認、適切なオプションを選択してください。 
 
 
 ## <a name="see-also"></a>関連項目
