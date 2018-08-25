@@ -4,6 +4,11 @@
 # [Skype for Business Server 2015](../skype-for-business-server-2015.md)
 ## [技術図面](../technical-diagrams.md)
 ## [Skype for Business Server の新機能](../what-s-new-in-skype-for-business-server.md)
+
+## [ビジネス用の Skype をダウンロードし、更新](../software-updates.md)
+### [クライアント用更新プログラム](../sfb-client-updates.md)
+### [サーバーの更新](../sfb-server-updates.md)
+
 ## [ハイブリッド ソリューションのビジネス用の Skype](../skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions.md)
 ### [電話システム (PBX をクラウド) ソリューションを計画します。](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md)
 #### [電話システムを設置した PSTN 接続の計画します。](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
