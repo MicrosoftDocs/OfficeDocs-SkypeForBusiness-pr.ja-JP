@@ -11,12 +11,12 @@ localization_priority: Priority
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Skype for Business Server 2015 および Lync 2013 用の更新プログラムの検索と管理を 1 つの場所で実行します。 このページのリンクを使用して、更新プログラムの詳細情報の確認や、更新プログラムのダウンロードを行ってください。
-ms.openlocfilehash: 2550fd9cdd734dbec38992ad03c96a7b7eb7d78d
-ms.sourcegitcommit: 2ce680aba13d1d781019b766a04e4e7d46d4f72c
+ms.openlocfilehash: c83e3994c47876e6064b58265848c64487e47b76
+ms.sourcegitcommit: 3915a89d072f0f801d5662286bea08839ed2a9e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "21139269"
+ms.lasthandoff: 08/17/2018
+ms.locfileid: "22601907"
 ---
 # <a name="skype-for-business-updates"></a>Skype for Business の更新プログラム
 
@@ -28,7 +28,7 @@ Skype for Business Online および Office 365 の最新の更新プログラム
 
 |パッケージ名|KB 番号|リリース日|
 |:--- |:--- |:--- |
-|Skype for Business Server 2015 の更新プログラム |[KB 3061064](https://support.microsoft.com/kb/3061064) |2018 年 3 月  |
+|Skype for Business Server 2015 の更新プログラム |[KB 3061064](https://support.microsoft.com/kb/3061064) |2018 年 7 月  |
 |Skype for Business Server、Enterprise Web App 用の累積的な更新プログラム | [KB 4018462](https://support.microsoft.com/kb/4018462) |2017 年 5 月 |
 |Skype for Business Server、帯域幅ポリシー サービス用の累積的な更新プログラム | [KB 4012658](https://support.microsoft.com/kb/4012658) |2017 年 5 月 |
 |Skype for Business Server、Unified Communications Managed API 5.0 Runtime 用の累積的な更新プログラム | [KB 4012657](https://support.microsoft.com/kb/4012657) |2017 年 5 月 |
