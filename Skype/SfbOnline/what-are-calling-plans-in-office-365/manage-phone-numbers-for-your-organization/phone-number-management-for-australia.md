@@ -1,5 +1,5 @@
 ---
-title: オーストラリアの電話番号の管理
+title: オーストラリアでの電話番号の管理
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,38 +18,39 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 取得し、オーストラリアの電話番号を Skype のビジネスをオンラインで、マイクロソフトのチームの管理上の情報を検索するのにには、次の表を使用します。
-ms.openlocfilehash: 7ed10dde6866016f9689cba7f1f0e014e87c4d76
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
-ms.translationtype: MT
+description: この表を使用して、オーストラリアで Skype for Business Online と Microsoft Teams 用に電話番号を取得して管理する方法についての情報を確認できます。
+ms.openlocfilehash: 296936f84d215d7b3a917ff2ecc4ddea15f483c4
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23244775"
 ---
-# <a name="phone-number-management-for-australia"></a>オーストラリアの電話番号の管理
+# <a name="phone-number-management-for-australia"></a>オーストラリアでの電話番号の管理
 > [!IMPORTANT]
-> オーストラリアには、プレビューし、早期導入企業のお客様をできるだけです。 詳細については、 [Telstra は、Office 365 の呼び出し](http://aka.ms/TelstraVoicePlan)を参照してください。 
+> カナダではプレビュー カスタマーと早期導入したカスタマーのみが利用できます。 詳細については、 「[Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan)」を参照してください。
 
-オーストラリアで私たちが提携しました Telstra の購入とプロビジョニングの計画を呼び出します。 Telstra 販売計画を呼び出すと電話番号の管理するユーザーとサービスの両方の番号の自動応答のサポートを提供してキューを呼び出します。 ただし、サービス番号、電話会議用のライセンスも販売し、する Office 365 によって管理されています。
+当社はオーストラリアで、通話プランの購入と事前設定に関して Telstra 社 と提携しました。 Telstra 社は、通話プランを販売し、自動応答とコール キューに関して、ユーザーとサービス電話番号両方に電話番号管理のサポートを提供します。 ただし、電話会議用のサービス電話番号とライセンスは、引き続き Office 365 で販売、管理します。
 
-[Telstra は、Office 365 の呼び出し](http://aka.ms/TelstraVoicePlan)の方法については。
+詳細については、 「[Tesltra Calling for Office 365](https://aka.ms/TelstraVoicePlan)」を参照してください。
 
-取得し、オーストラリアの電話番号を Skype のビジネスをオンラインで、マイクロソフトのチームの管理上の情報を検索するのにには、次の表を使用します。 
+この表を使用して、オーストラリアで Skype for Business Online と Microsoft Teams 用に電話番号を取得して管理する方法についての情報を確認できます。
 
-詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
-  
-|**実行する操作**|**これらの手順を実行して正しいフォームをダウンロードする**|
+詳細については、「[組織の電話番号の管理](manage-phone-numbers-for-your-organization.md)」を参照してください。
+
+|**実行する操作**|**これらの手順を実行して正しいフォームをダウンロード**|
 |:-----|:-----|
-|オーストラリアの計画を呼び出すための新しいユーザーの電話番号を取得します。   <br/> |ユーザーのための新しい電話番号には、 [Office 365 の Telstra を呼び出すこと](http://aka.ms/TelstraVoicePlan)を連絡してください。 それらを追加しますこれらの数値、組織に、ユーザーに割り当てることができますので。 <br/> 
-|自動応答の電話システムを使用することができますし、オーストラリアのキューを呼び出し、新しいサービス電話番号を取得します。 <br/> |新しい電話番号は、 [Office 365 の Telstra を呼び出すこと](http://aka.ms/TelstraVoicePlan)を連絡してください。 それらを追加しますこれらの数値、組織に、自動応答に割り当てるし、キューを呼び出すことができますように。 <br/>|
-|オーストラリアで、オーディオ会議の新しいサービスの電話番号を取得します。   <br/> |[私たちにお問い合わせください](mailto:ptnapac@microsoft.com)ください。|
-|ユーザー、自動応答、および呼び出しキューを Office 365 に転送する電話番号を取得する必要があります。  <br/> |電話番号を転送するのには[Office 365 の Telstra を呼び出すこと](http://aka.ms/TelstraVoicePlan)をお問い合わせください。 組織にこれらの番号を追加します。  <br/> |
-|オーディオ会議で使用するために Office 365 に転送する電話番号を取得する必要があります。  |[お問い合わせください。](mailto:ptnapac@microsoft.com) |
-|変更緊急時対応計画を呼び出す電話番号を持っているユーザーに割り当てられています。 |緊急のアドレスを変更するのには[Office 365 の Telstra を呼び出すこと](http://aka.ms/TelstraVoicePlan)をお問い合わせください。 この情報を更新できます。|
-|サービス番号にユーザー数を変更する必要があります。 |オーストラリアでは、この種類のサービスはサポートされていません。 
-   
+|オーストラリアで通話プランのユーザー電話番号を取得する。   <br/> |ユーザー用の新規の電話番号を取得するには、「[Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan)」にお問い合わせください。 同社がそれらの電話番号を組織に追加し、ユーザーに割り当てられるようにします。 <br/>
+|オーストラリアで、電話システムの自動応答とコール キューとともに使用できるサービス電話番号を取得する。 <br/> |新規の電話番号を取得するには、「[Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan)」にお問い合わせください。 同社がそれらの電話番号を組織に追加し、自動応答とコール キューに割り当てられるようにします。 <br/>|
+|オーストラリアで、電話会議の新しいサービス電話番号を取得する。   <br/> |[お問い合わせください](mailto:ptnapac@microsoft.com)。|
+|ユーザー、自動応答、コール キューのために電話番号を Office 365 に転送する必要がある。  <br/> |新規の電話番号を取得するには、「[Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan)」にお問い合わせください。 同社が組織にこれらの番号を追加します。  <br/> |
+|電話会議で使用するために電話番号を Office 365 に転送する必要がある。  |[お問い合わせください](mailto:ptnapac@microsoft.com) |
+|コール プラン電話番号を持っているユーザーに割り当てられた緊急アドレス指定を変更する。 |緊急アドレスを変更するには 「[Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan)」にお問い合わせください。 同社がこの情報を更新します。|
+|ユーザーの電話番号をサービス電話番号に変更する必要がある。 |オーストラリアでは、この種類のサービスはサポートされていません。
+
 ## <a name="related-topics"></a>関連トピック
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[[Skype for Business 新しい電話番号の申請](manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。
+[[[Skype for Business 新しい電話番号の申請](manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](manage-phone-numbers-for-your-organization.md)
 
-[緊急通話の利用条件](../../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[緊急通話の利用規約](../../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
