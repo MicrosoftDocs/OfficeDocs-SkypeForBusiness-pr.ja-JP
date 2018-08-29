@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
 description: ビジネス サーバーの Skype は、の監視は使用状況に関する情報と、ユーザーに関連する通信セッションに関するエクスペリエンスの品質 (QoE) データを収集するために使用されます。
-ms.openlocfilehash: 8caee9bfde06545a5f2c509a6305cce4d793a30f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 7974f8925817a15d0144ee5324d7d7b68d61c672
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979660"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23253579"
 ---
-# <a name="monitoring-planning-tool"></a><span data-ttu-id="41608-103">(プランニング ・ ツール) の監視</span><span class="sxs-lookup"><span data-stu-id="41608-103">Monitoring (Planning Tool)</span></span>
- 
-<span data-ttu-id="41608-104">ビジネス サーバーの Skype は、の監視は使用状況に関する情報と、ユーザーに関連する通信セッションに関するエクスペリエンスの品質 (QoE) データを収集するために使用されます。</span><span class="sxs-lookup"><span data-stu-id="41608-104">In Skype for Business Server, monitoring is used to collect usage information and Quality of Experience (QoE) data about the communication sessions that your users are involved in.</span></span>
-  
-<span data-ttu-id="41608-105">サーバーの監視の計画の詳細については、[監視の計画](http://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="41608-105">For more details about planning for Monitoring Server, see [Planning for Monitoring](http://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).</span></span>
-  
+# <a name="monitoring-planning-tool"></a><span data-ttu-id="ec2f6-103">(プランニング ・ ツール) の監視</span><span class="sxs-lookup"><span data-stu-id="ec2f6-103">Monitoring (Planning Tool)</span></span>
+
+<span data-ttu-id="ec2f6-104">ビジネス サーバーの Skype は、の監視は使用状況に関する情報と、ユーザーに関連する通信セッションに関するエクスペリエンスの品質 (QoE) データを収集するために使用されます。</span><span class="sxs-lookup"><span data-stu-id="ec2f6-104">In Skype for Business Server, monitoring is used to collect usage information and Quality of Experience (QoE) data about the communication sessions that your users are involved in.</span></span>
+
+<span data-ttu-id="ec2f6-105">サーバーの監視の計画の詳細については、[監視の計画](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="ec2f6-105">For more details about planning for Monitoring Server, see [Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).</span></span>
+
 

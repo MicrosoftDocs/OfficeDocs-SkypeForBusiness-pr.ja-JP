@@ -12,19 +12,19 @@ localization_priority: Normal
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
 ROBOTS: NOINDEX, NOFOLLOW
 description: Web 会議の外部 FQDN は、外部ユーザーがオンプレミス会議への参加を許可します。 従来のエッジ サーバーの web 会議の外部インターフェイスの完全修飾ドメイン名 (FQDN) を入力します。
-ms.openlocfilehash: 7ba81731c463196eda4c47dc615f27eb15246259
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: bd8fba515f2eb9a3f272f7d2f4f70bbc4a0716f5
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069625"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23253572"
 ---
-# <a name="legacy-merge"></a><span data-ttu-id="3a454-104">従来のマージ</span><span class="sxs-lookup"><span data-stu-id="3a454-104">Legacy Merge</span></span>
- 
-<span data-ttu-id="3a454-105">**Web カンファレンスの外部 FQDN**では、オンプレミス会議に参加する外部ユーザーを許可します。</span><span class="sxs-lookup"><span data-stu-id="3a454-105">The **Web Conferencing external FQDN** permits external users to join on-premises meetings.</span></span> <span data-ttu-id="3a454-106">従来のエッジ サーバーの web 会議の外部インターフェイスの完全修飾ドメイン名 (FQDN) を入力します。</span><span class="sxs-lookup"><span data-stu-id="3a454-106">Enter the fully qualified domain name (FQDN) of the web conferencing external interface of the legacy Edge Server.</span></span>
-  
-<span data-ttu-id="3a454-107">会議クライアント用に構成された既定の伝送制御プロトコル (TCP) セッション開始プロトコル (SIP) ポートを**443**の**外部の Web 会議の外部ポート**の値には。</span><span class="sxs-lookup"><span data-stu-id="3a454-107">The **External Web Conferencing external port** value of **443** is the default Transmission Control Protocol (TCP) Session Initiation Protocol (SIP) port configured for conferencing clients.</span></span> <span data-ttu-id="3a454-108">既定値が使用できない場合は、**外部の Web 会議の外部ポート**の値を更新します。</span><span class="sxs-lookup"><span data-stu-id="3a454-108">If the default value was not used, update the **External Web Conferencing external port** value.</span></span>
-  
-<span data-ttu-id="3a454-109">フェデレーションのこのエッジ サーバーを使用する場合は、[**このエッジ プールがフェデレーションとパブリック IM 接続の使用**] チェック ボックスを選択します。</span><span class="sxs-lookup"><span data-stu-id="3a454-109">Select the **This Edge pool is used for federation and public IM connectivity** check box if you plan to use this Edge Server for federation.</span></span> <span data-ttu-id="3a454-110">展開される複数のエッジ サーバーがあれば、フェデレーションの 1 つだけ有効にします。</span><span class="sxs-lookup"><span data-stu-id="3a454-110">If you have multiple Edge Servers deployed, only one of them will be enabled for federation.</span></span> <span data-ttu-id="3a454-111">このボックスをオンにしないし、フェデレーションを有効にすることを決定後、する必要がありますトポロジ ビルダー結合ウィザードを再度実行すると、トポロジを公開します。</span><span class="sxs-lookup"><span data-stu-id="3a454-111">If you do not check this box and you decide later that you want to enable federation, you must run the Topology Builder Merge wizard again, as well as publish your topology.</span></span> <span data-ttu-id="3a454-112">詳細については、「[フェーズ 4: トポロジを結合します](http://technet.microsoft.com/library/81eb5bb2-1fd7-4611-a2aa-eb2393c8abc9.aspx).</span><span class="sxs-lookup"><span data-stu-id="3a454-112">For details, see [Phase 4: Merge Topologies](http://technet.microsoft.com/library/81eb5bb2-1fd7-4611-a2aa-eb2393c8abc9.aspx).</span></span>
-  
+# <a name="legacy-merge"></a><span data-ttu-id="98693-104">従来のマージ</span><span class="sxs-lookup"><span data-stu-id="98693-104">Legacy Merge</span></span>
+
+<span data-ttu-id="98693-105">**Web カンファレンスの外部 FQDN**では、オンプレミス会議に参加する外部ユーザーを許可します。</span><span class="sxs-lookup"><span data-stu-id="98693-105">The **Web Conferencing external FQDN** permits external users to join on-premises meetings.</span></span> <span data-ttu-id="98693-106">従来のエッジ サーバーの web 会議の外部インターフェイスの完全修飾ドメイン名 (FQDN) を入力します。</span><span class="sxs-lookup"><span data-stu-id="98693-106">Enter the fully qualified domain name (FQDN) of the web conferencing external interface of the legacy Edge Server.</span></span>
+
+<span data-ttu-id="98693-107">会議クライアント用に構成された既定の伝送制御プロトコル (TCP) セッション開始プロトコル (SIP) ポートを**443**の**外部の Web 会議の外部ポート**の値には。</span><span class="sxs-lookup"><span data-stu-id="98693-107">The **External Web Conferencing external port** value of **443** is the default Transmission Control Protocol (TCP) Session Initiation Protocol (SIP) port configured for conferencing clients.</span></span> <span data-ttu-id="98693-108">既定値が使用できない場合は、**外部の Web 会議の外部ポート**の値を更新します。</span><span class="sxs-lookup"><span data-stu-id="98693-108">If the default value was not used, update the **External Web Conferencing external port** value.</span></span>
+
+<span data-ttu-id="98693-109">フェデレーションのこのエッジ サーバーを使用する場合は、[**このエッジ プールがフェデレーションとパブリック IM 接続の使用**] チェック ボックスを選択します。</span><span class="sxs-lookup"><span data-stu-id="98693-109">Select the **This Edge pool is used for federation and public IM connectivity** check box if you plan to use this Edge Server for federation.</span></span> <span data-ttu-id="98693-110">展開される複数のエッジ サーバーがあれば、フェデレーションの 1 つだけ有効にします。</span><span class="sxs-lookup"><span data-stu-id="98693-110">If you have multiple Edge Servers deployed, only one of them will be enabled for federation.</span></span> <span data-ttu-id="98693-111">このボックスをオンにしないし、フェデレーションを有効にすることを決定後、する必要がありますトポロジ ビルダー結合ウィザードを再度実行すると、トポロジを公開します。</span><span class="sxs-lookup"><span data-stu-id="98693-111">If you do not check this box and you decide later that you want to enable federation, you must run the Topology Builder Merge wizard again, as well as publish your topology.</span></span> <span data-ttu-id="98693-112">詳細については、「[フェーズ 4: トポロジを結合します](https://technet.microsoft.com/library/81eb5bb2-1fd7-4611-a2aa-eb2393c8abc9.aspx).</span><span class="sxs-lookup"><span data-stu-id="98693-112">For details, see [Phase 4: Merge Topologies](https://technet.microsoft.com/library/81eb5bb2-1fd7-4611-a2aa-eb2393c8abc9.aspx).</span></span>
+
 
