@@ -16,12 +16,12 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 2e828a413956719a25a4944f29a70cdabf1c7842
-  ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+  ms.openlocfilehash: f6c5be006d2e76efcd58cc4e6a63b6a0bf357570
+  ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 07/17/2018
-  ms.locfileid: "20393946"
+  ms.lasthandoff: 08/28/2018
+  ms.locfileid: "23253534"
 items:
 - durationInMinutes: 1
   content: >
@@ -69,13 +69,13 @@ items:
   content: "\nTeams での会議を理解するには、以下をご覧ください。\n-   [Meetings and calls (会議と通話)](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)の「Have meetings (会議を開催する)」 (推定所要時間: 6 分)\n\n-   「[Meet now (今すぐ会議)](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf?ui=en-US&rs=en-US&ad=US)」ビデオ (1 時間 45 分)\n\n-   「[Scheduled meetings (予約された会議)](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137?ui=en-US&rs=en-US&ad=US)」ビデオ (1 時間 45 分)\n\n-   「[9 tips for meeting with Microsoft Teams (Microsoft Teams での会議に関する 9 のヒント)](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)」で会議ロビー、匿名での会議への参加などについて解説します (推定所要時間: 6 分)\n"
 - title: シナリオ - 会議の種類
   durationInMinutes: 1
-  content: "\nGarth はオフィスが複数ある Contoso で働いています。 Garth は他の場所のオフィスにいる人と定期的に連絡を取る必要があります。\n\n-  彼のプロジェクト チームは毎週月曜日に 1 時間の会議を行います。 メンバーは既に Microsoft Teams にそれぞれのプロジェクトの専用チャネルを持っているため、Garth はその定期的な同期のために「チャネル会議」を予約します。これにより次のような複数のメリットが Garth とチームに対して生じます。\n   -   チームのすべてのメンバーが自動的に招待されます。\n   -   会議前、会議中または会議後の、会議に関連するディスカッションが、チャネル ディスカッションの一部に含まれます。\n   -   会議およびディスカッションは、チームのメンバー全員が見ることができます。\n-   Garth は相手と個別に同期する必要があるのですが、それらの会議の内容は、他の人が見ることができないようにするつもりです。 そのために、Garth は「プライベート会議」のスケジュールを設定します。  \n    プライベート会議により、Garth は会議が始まる前にチャットを開始することができます。 この会議前のエクスペリエンスにより、Garth がチームの主要メンバーと資料を事前に共有することや、議題について話し合うことができるようになるため、会議をより効果的に実施できるようになります。 これと同じチャットを、会議中にメモを取るために利用したり、フォローアップのために後で使用したりすることができます。\n-   チームの自分たちのチャネルでのディスカッションが盛り上がってしまい、Garth はメンバーたちに速やかに結論を出すように仕向ける必要があることがあります。 彼はメンバー全員が入力を行っている中、ビデオ通話がより効果的なコミュニケーション手段であると判断します。 この状況において、Garth は現在の会話で [**今すぐ会議**] を選択することによって臨時の会議を予約することになります。\n"
+  content: "\nGarth はオフィスが複数ある Contoso で働いています。 Garth は他の場所のオフィスにいる人と定期的に連絡を取る必要があります。\n\n-  彼のプロジェクト チームは毎週月曜日に 1 時間の会議を行います。 メンバーは既に Microsoft Teams にそれぞれのプロジェクトの専用チャネルを持っているため、Garth はその定期的な同期のために「チャネル会議」を予約します。これにより次のような複数のメリットが Garth とチームに対して生じます。\n   -   チームのすべてのメンバーが自動的に招待されます。\n   -   会議前、会議中または会議後の、会議に関連するディスカッションが、チャネル ディスカッションの一部に含まれます。\n   -   会議およびディスカッションは、チームのメンバー全員が見ることができます。\n-   Garth は相手と個別に同期する必要があるのですが、それらの会議の内容は、他の人が見ることができないようにするつもりです。 そのために、Garth は「プライベート会議」のスケジュールを設定します。\n    プライベート会議により、Garth は会議が始まる前にチャットを開始することができます。 この会議前のエクスペリエンスにより、Garth がチームの主要メンバーと資料を事前に共有することや、議題について話し合うことができるようになるため、会議をより効果的に実施できるようになります。 これと同じチャットを、会議中にメモを取るために利用したり、フォローアップのために後で使用したりすることができます。\n-   チームの自分たちのチャネルでのディスカッションが盛り上がってしまい、Garth はメンバーたちに速やかに結論を出すように仕向ける必要があることがあります。 彼はメンバー全員が入力を行っている中、ビデオ通話がより効果的なコミュニケーション手段であると判断します。 この状況において、Garth は現在の会話で [**今すぐ会議**] を選択することによって臨時の会議を予約することになります。\n"
 - title: 会議のクライアント
   durationInMinutes: 5
   content: "\n会議への参加は、さまざまなクライアントから行うことができます。 Teams をどのプラットフォームで利用できるかについては、「[Microsoft Teams のクライアントを取得する](https://docs.microsoft.com/MicrosoftTeams/get-clients)」 (推定所要時間: 3 分) をご覧ください。\n\nさらに、電話会議を使用することによって、参加者は会議に通常の電話機から会議にダイヤル インして出席したり、会議からダイヤル アウトしたりすることができます。\n電話会議の詳細については、専用のトレーニングで取り上げられます。\n\nWindows 版の Outlook では、自分の予定表から直接会議を予約するためのアドインを使用することができます。 「[Outlook で Teams の会議アドインを使用する](https://docs.microsoft.com/MicrosoftTeams/teams-add-in-for-outlook)」(推定所要時間: 2 分) をご覧ください。\n"
 - title: 会議の要件と考慮事項
   durationInMinutes: 4
-  content: "\n###<a name=\"licensing\"></a>ライセンス\n会議の開催に必要なのは Microsoft Teams のライセンスのみで、それ以外の追加のライセンスは不要です。ただし、一部のシナリオにおいては、追加のライセンスが必要になります。\n\n電話会議は、通常の電話機からでも Teams 会議に参加することができるため、それらの参加者には追加のライセンスが必要です。 これについては、電話会議の専用トレーニングにおいて、取り上げられます。\n\n詳細については、「[Microsoft Teams 用の Office 365 ライセンス](https://docs.microsoft.com/microsoftteams/office-365-licensing)」をご覧ください。\n\n###<a name=\"bandwidth-and-media-flow\"></a>帯域幅とメディアのフロー\nTeams では、リアルタイムの通信を始めるための方法が 2 つあります。\n-   ユーザーが別のユーザーに直接通話を発信できる\n-   ユーザーは (臨時または予約した) 会議を作成することができます。通話では、メディア (オーディオ、ビデオ、デスクトップまたはアプリケーション共有) が可能な限り直接伝送されます。 たとえば、2 人のユーザー間にファイアウォールがない場合 (両者ともに同じネットワークの内側にいる場合など)、メディアのトラフィックは一方のユーザーから他方のユーザーに直接伝送されます。 ファイアウォールがユーザー間の直接のトラフィックを遮断する場合、そのトラフィックはリレー経由で送信されます。\n\n会議の場合は、すべてのトラフィックが Office 365 内に存在する電話会議サービスに最初に送信されます。 音声トラフィックはそこで収集され、送り戻される前に混ぜ合わされます。ビデオ トラフィックおよびアプリケーション共有またはデスクトップ共有は受信されてから出席者に配信されます。\n    \n帯域幅の計画についてはこのトレーニングでは取り上げられませんが、ユーザー エクスペリエンスのためには極めて重要となります。\n\n詳細については、「[Microsoft Teams 用に組織のネットワークを準備する](https://docs.microsoft.com/microsoftteams/prepare-network)」をご覧ください。\n\n###<a name=\"exchange-dependencies\"></a>Exchange の依存関係\n\nオンプレミスの Exchange Server を使用しているユーザーの場合、Teams クライアントからの会議の作成や表示に関して、またコンプライアンスに関連して、(Exchange Server のバージョンによって) いくつかの制限事項がある可能性があります。\n適用可能性のある制限事項については「[Exchange と Microsoft Teams の連携](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact)」をご覧ください (推定所要時間: 3 分) \n"
+  content: "\n###<a name=\"licensing\"></a>ライセンス\n会議の開催に必要なのは Microsoft Teams のライセンスのみで、それ以外の追加のライセンスは不要です。ただし、一部のシナリオにおいては、追加のライセンスが必要になります。\n\n電話会議は、通常の電話機からでも Teams 会議に参加することができるため、それらの参加者には追加のライセンスが必要です。 これについては、電話会議の専用トレーニングにおいて、取り上げられます。\n\n詳細については、「[Microsoft Teams 用の Office 365 ライセンス](https://docs.microsoft.com/microsoftteams/office-365-licensing)」をご覧ください。\n\n###<a name=\"bandwidth-and-media-flow\"></a>帯域幅とメディアのフロー\nTeams では、リアルタイムの通信を始めるための方法が 2 つあります。\n-   ユーザーが別のユーザーに直接通話を発信できる\n-   ユーザーは (臨時または予約した) 会議を作成することができます。通話では、メディア (オーディオ、ビデオ、デスクトップまたはアプリケーション共有) が可能な限り直接伝送されます。 たとえば、2 人のユーザー間にファイアウォールがない場合 (両者ともに同じネットワークの内側にいる場合など)、メディアのトラフィックは一方のユーザーから他方のユーザーに直接伝送されます。 ファイアウォールがユーザー間の直接のトラフィックを遮断する場合、そのトラフィックはリレー経由で送信されます。\n\n会議の場合は、すべてのトラフィックが Office 365 内に存在する電話会議サービスに最初に送信されます。 音声トラフィックはそこで収集され、送り戻される前に混ぜ合わされます。ビデオ トラフィックおよびアプリケーション共有またはデスクトップ共有は受信されてから出席者に配信されます。\n\n帯域幅の計画についてはこのトレーニングでは取り上げられませんが、ユーザー エクスペリエンスのためには極めて重要となります。\n\n詳細については、「[Microsoft Teams 用に組織のネットワークを準備する](https://docs.microsoft.com/microsoftteams/prepare-network)」をご覧ください。\n\n###<a name=\"exchange-dependencies\"></a>Exchange の依存関係\n\nオンプレミスの Exchange Server を使用しているユーザーの場合、Teams クライアントからの会議の作成や表示に関して、またコンプライアンスに関連して、(Exchange Server のバージョンによって) いくつかの制限事項がある可能性があります。\n適用可能性のある制限事項については「[Exchange と Microsoft Teams の連携](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact)」をご覧ください (推定所要時間: 3 分) \n"
 - title: 会議の構成のオプション
   durationInMinutes: 1
   content: "\nIT 管理者である場合は、ビデオや画面の共有といったモダリティを無効にするだけでなく、異なる種類の会議を有効または無効にすることができます。 IT 専門家の立場で構成できるオプションの詳細な説明については、「[通話と会議](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365#calls-and-meetings)」 (推定所要時間: 1 分) をご覧ください。 この記事には、会議の参加者の最大数も記載されています。\n"
@@ -84,7 +84,7 @@ items:
   content: "\nこの演習では、Teams での会議をテストする機会があります。 各操作の実行方法については説明しませんが、いくつかのシナリオを試してみることをお勧めします。\n\n###<a name=\"requirements\"></a>要件\n-   Teams を使用するための適切なライセンスを備えた Office 365 テナント\n    -   テスト専用のテナントを使用することを強く推奨します。\n    -   テスト用のテナントがない場合は、[Office 365 Enterprise E5 Trial](https://go.microsoft.com/fwlink/p/?LinkID=698279) で試用テナントの利用を登録することができます。\n    -   実稼働環境ではいかなるテストも実行しないでください。 設定またはポリシーの変更により、すべてのユーザーに悪影響が及び、ユーザー エクスペリエンスにも影響が生じる可能性があります。\n-   2 つ以上のエンドポイント\n   -   エンドポイントは 2 台の PC でも構いませんが、携帯電話上でクライアントを使用することもできます。\n\n###<a name=\"suggested-scenarios-to-test\"></a>推奨されるテスト シナリオ\n-   チャネル会議、臨時会議、プライベート会議などの異なる会議の種類を Teams クライアント内から予約します。\n-   [Outlook アドイン](https://docs.microsoft.com/MicrosoftTeams/Teams-add-in-for-Outlook)を使用して会議を予約します。\n-   予約された会議では、会議の開始前にチャット (議題についてのディスカッションなど) を始めます。\n-   会議に参加し、音声のみ、ビデオ、デスクトップ共有などの、さまざまなシナリオやワークロードをテストします。\n-   匿名で会議に参加するとどのようになるかを確認するために (「InPrivate」閲覧を使う場面も考えられます)、テナントにサインインすることなくブラウザーから会議に参加します。\n-   管理ポータルにサインインして、会議の設定の一部を変更します (たとえば、プライベート会議のスケジュール設定を無効にします)。 これによりどのような影響がユーザー エクスペリエンスに生じるでしょうか。\n"
 - title: レポート
   durationInMinutes: 2
-  content: "\nレポートにおいて、確認するべき領域は次の 2 つです。\n-   使用量: 開催されている会議の数について\n-   品質: 会議の品質について\n\nこれらの両方の領域について注意して監視する必要があります。\n-   使用量が低いことは、ユーザーが何らかの理由によりこの製品を使用していないことを意味します。 できることは、次の追加的な調査を実施して、理由を特定することのみです。 理由として考えられるのは、会議がユーザーの要件を満たしていないと認知されていることや、啓発不足やトレーニング不足、または品質の問題などです。\n-   低品質は、一方で、ユーザーと Office 365 との間の接続に問題があることを意味します。 低品質により、ユーザー エクスペリエンスの悪化と低使用量につながる可能性があります。\n    使用量のレポートの詳細については、「[管理センターの Office 365 レポート - Microsoft Teams ユーザー アクティビティ](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524) (推定所要時間: 5 分) をご覧ください。\n\n品質の管理については、このトレーニングの対象範囲外ですが、次のトレーニング資料をご覧ください。\n\n-   品質チャンピオンの役割については、「[品質チャンピオンの役割](https://docs.microsoft.com/microsoftteams/envision-planning-for-service-management-and-quality-complete-guide)」をご覧ください。\n-   通話品質ダッシュボードの詳細については、「[Investigate Media Quality using CQD (CQD を使用してメディア品質を調査する)](http://aka.ms/sof-cqd)」をご覧ください。\n"
+  content: "\nレポートにおいて、確認するべき領域は次の 2 つです。\n-   使用量: 開催されている会議の数について\n-   品質: 会議の品質について\n\nこれらの両方の領域について注意して監視する必要があります。\n-   使用量が低いことは、ユーザーが何らかの理由によりこの製品を使用していないことを意味します。 できることは、次の追加的な調査を実施して、理由を特定することのみです。 理由として考えられるのは、会議がユーザーの要件を満たしていないと認知されていることや、啓発不足やトレーニング不足、または品質の問題などです。\n-   低品質は、一方で、ユーザーと Office 365 との間の接続に問題があることを意味します。 低品質により、ユーザー エクスペリエンスの悪化と低使用量につながる可能性があります。\n    使用量のレポートの詳細については、「[管理センターの Office 365 レポート - Microsoft Teams ユーザー アクティビティ](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524) (推定所要時間: 5 分) をご覧ください。\n\n品質の管理については、このトレーニングの対象範囲外ですが、次のトレーニング資料をご覧ください。\n\n-   品質チャンピオンの役割については、「[品質チャンピオンの役割](https://docs.microsoft.com/microsoftteams/envision-planning-for-service-management-and-quality-complete-guide)」をご覧ください。\n-   通話品質ダッシュボードの詳細については、「[Investigate Media Quality using CQD (CQD を使用してメディア品質を調査する)](https://aka.ms/sof-cqd)」をご覧ください。\n"
 - title: 次のステップ
   durationInMinutes: 1
   content: >-
@@ -100,7 +100,7 @@ items:
     ### <a name="next-steps"></a>次のステップ
 
 
-    1.  個人用に設定された展開についてのガイダンスのために [MyAdvisor](http://aka.ms/myadvisor) に登録する
+    1.  個人用に設定された展開についてのガイダンスのために [MyAdvisor](https://aka.ms/myadvisor) に登録する
 
     2.  Teams での会議の使用を開始する
 
@@ -111,4 +111,4 @@ items:
         - [チームのブログ](https://aka.ms/teamsblog)に従います。
         - [チームのロードマップ](https://aka.ms/skype2teamsroadmap)を参照してください。
         - [リリース ノート](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)にリリースされた最新の機能について説明します。
-    5.  [その他のトレーニングおよびチュートリアル](http://aka.ms/Teamsacademy)を探索してください。
+    5.  [その他のトレーニングおよびチュートリアル](https://aka.ms/Teamsacademy)を探索してください。

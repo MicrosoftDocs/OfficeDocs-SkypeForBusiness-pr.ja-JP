@@ -10,17 +10,17 @@ ms.reviewer: marcl
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07cccce7a0c0b13a42c776bff8b5b0367792d7a2
-ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
+ms.openlocfilehash: 78cce988c89ed127ca3c3b3c2606549bf28bf37f
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22599369"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23243208"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
-  
+
 この記事では、Microsoft Teams の既知の問題を、機能の領域ごとにまとめています。
-## 
+##
 
 ## <a name="administration"></a>管理
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
@@ -80,7 +80,7 @@ ms.locfileid: "22599369"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|Safari Web クライアント サポート  <br/> |Microsoft Teams Web クライアントを Safari で開こうとすると、デスクトップ クライアントのダウンロードに移動します。 Microsoft は Safari のサポートについて検証中で、[Teams ロードマップ](http://aka.ms/TeamsRoadmap)を介して更新情報を共有する予定です。  <br/> |サポートされるインターネット ブラウザーである Internet Explorer 11 以降、Microsoft Edge 12 以降、Chrome 51.0 以降、Firefox 47.0 以降を使用してください。  <br/> |2016/11/02  <br/> |
+|Safari Web クライアント サポート  <br/> |Microsoft Teams Web クライアントを Safari で開こうとすると、デスクトップ クライアントのダウンロードに移動します。 Microsoft は Safari のサポートについて検証中で、[Teams ロードマップ](https://aka.ms/TeamsRoadmap)を介して更新情報を共有する予定です。  <br/> |サポートされるインターネット ブラウザーである Internet Explorer 11 以降、Microsoft Edge 12 以降、Chrome 51.0 以降、Firefox 47.0 以降を使用してください。  <br/> |2016/11/02  <br/> |
 
 ## <a name="channels"></a>チャネル
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
@@ -238,6 +238,6 @@ ms.locfileid: "22599369"
 |チームを削除すると、関連付けられているグループも削除されます  <br/> |チームが削除されると、前提となる Office 365 グループが削除されることに気付かない場合があります。 また、前提となる Office 365 グループが削除されると、チームも同様に削除されます。  <br/> |Microsoft Teams の追加の言語によって、ユーザーにこの情報が提供されます。 この情報は、Office 365 グループのインターフェイスには表示されません。 ヘルプ デスクで削除されたグループ/チームを復元することができます。  <br/> |2017/03/13  <br/> |
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
-|:-----|:-----|:-----|:-----|  
+|:-----|:-----|:-----|:-----|
 |Teams デスクトップ アプリが白画面を表示する  <br/> | <br/> |コンピューターのグラフィックス ドライバーを削除または再インストールを行うか、次のような GPU の無効化フラグを使用したコマンド ラインから Teams を開始します。<ul><li>Windows: コマンド プロンプトを開き、次を入力してください。`cd %localappdata%\microsoft\teams\current run Teams.exe --disable-gpu`</li><li>開始ターミナル for Mac: し、次を入力します。`cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu`</li></ul> <br/> |<br/> |
 

@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4c4225d4-3a51-4f54-a6cb-c262e07c51fd
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: f5960a7c47ce41c7451e970fbbd8498d34080157
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2383c3cc6b129c6d812cdca5f261752421948092
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20990588"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23248304"
 ---
 # <a name="configure-a-network-region-link-create-new-or-edit-existing"></a>ネットワーク地域リンクを構成する: 新規作成または既存の編集
- 
+
 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-  
-- [ネットワーク地域リンクを構成します。](http://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
-    
+
+- [ネットワーク地域リンクを構成します。](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
+
 詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。
 

@@ -11,12 +11,12 @@ localization_priority: Priority
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Skype for Business Server 2015 および Lync 2013 用の更新プログラムの検索と管理を 1 つの場所で実行します。 このページのリンクを使用して、更新プログラムの詳細情報の確認や、更新プログラムのダウンロードを行ってください。
-ms.openlocfilehash: c83e3994c47876e6064b58265848c64487e47b76
-ms.sourcegitcommit: 3915a89d072f0f801d5662286bea08839ed2a9e6
+ms.openlocfilehash: e3b1ae326494a14c502a7427d30f664646bfe373
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/17/2018
-ms.locfileid: "22601907"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23253056"
 ---
 # <a name="skype-for-business-updates"></a>Skype for Business の更新プログラム
 
@@ -76,7 +76,7 @@ Skype for Business Online および Office 365 の最新の更新プログラム
 * * *
 
 ## <a name="lync-server-2013-update-history"></a>Lync Server 2013 更新履歴
-    
+
 |パッケージ名|KB 番号|リリース日|
 |:--- |:--- |:--- |
 |Lync Server 2013 累積更新プログラム 9  |[KB 2809243](https://www.microsoft.com/en-us/download/details.aspx?id=36820) |2017 年 7 月 |
@@ -90,7 +90,7 @@ Skype for Business Online および Office 365 の最新の更新プログラム
 |Lync Server 2013、仲介サーバー用の累積更新プログラム 5.0.8308.956 |[KB 3140586](https://support.microsoft.com/kb/3140586)|2016 年 4 月 |
 |Lync Server 2013、応答グループ サービス用の累積更新プログラム 5.0.8308.956 |[KB 3140585](https://support.microsoft.com/kb/3140585)|2016 年 4 月 |
 |Lync Server 2013、会議サーバー用の累積更新プログラム 5.0.8308.956 |[KB 3140584](https://support.microsoft.com/kb/3140584)|2016 年 4 月 |
-|Lync Server 2013、フロント エンド サーバーおよびエッジ サーバー用の累積更新プログラム 5.0.8308.956 |[KB 3140582](https://support.microsoft.com/kb/3140582)|2016 年 4 月 | 
+|Lync Server 2013、フロント エンド サーバーおよびエッジ サーバー用の累積更新プログラム 5.0.8308.956 |[KB 3140582](https://support.microsoft.com/kb/3140582)|2016 年 4 月 |
 |Lync Server 2013、コア コンポーネント用の累積更新プログラム 5.0.8308.956 |[KB 3140581](https://support.microsoft.com/kb/3140581)|2016 年 4 月 |
 |Lync Server 2013、Web コンポーネント サーバー用の累積更新プログラム 5.0.8308.945 |[KB 3126638](https://support.microsoft.com/kb/3126638)|2016 年 1 月 |
 |Lync Server 2013、コア コンポーネント用の累積更新プログラム 5.0.8308.945 |[KB 3126637](https://support.microsoft.com/kb/3126637)|2016 年 1 月 |
@@ -205,7 +205,7 @@ Skype for Business Online および Office 365 の最新の更新プログラム
 
 ### <a name="resource-kit-technical-reference"></a>リソース キット (テクニカル リファレンス)
 
-[Microsoft Lync Server 2010 リソース キット](https://www.microsoft.com/download/en/details.aspx?id=22644)のダウンロード サイトにアクセスして、章単位でダウンロードまたは[リソース キットの 19 章すべてを含んでいる](http://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip) .zip ファイルをダウンロードしてください。
+[Microsoft Lync Server 2010 リソース キット](https://www.microsoft.com/download/en/details.aspx?id=22644)のダウンロード サイトにアクセスして、章単位でダウンロードまたは[リソース キットの 19 章すべてを含んでいる](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip) .zip ファイルをダウンロードしてください。
 
 ### <a name="group-chat"></a>グループ チャット
 
@@ -226,9 +226,9 @@ Skype for Business Online および Office 365 の最新の更新プログラム
 
 ## <a name="additional-information"></a>追加情報
 
-ソフトウェア更新プログラムには、あらゆる更新プログラム、更新プログラムのロールアップ、サービス パック、機能パック、緊急更新プログラム、セキュリティ更新プログラム、修正プログラムが含まれています。 Microsoft のソフトウェア更新プログラムを言い表すために使われる標準的な用語の説明については、[KB 824684](https://support.microsoft.com/kb/824684) をご覧ください。 
+ソフトウェア更新プログラムには、あらゆる更新プログラム、更新プログラムのロールアップ、サービス パック、機能パック、緊急更新プログラム、セキュリティ更新プログラム、修正プログラムが含まれています。 Microsoft のソフトウェア更新プログラムを言い表すために使われる標準的な用語の説明については、[KB 824684](https://support.microsoft.com/kb/824684) をご覧ください。
 
- 
+
 ## <a name="related-topics"></a>関連トピック
 
 - [Skype for Business Server 2015 のインストール](https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/install/install)

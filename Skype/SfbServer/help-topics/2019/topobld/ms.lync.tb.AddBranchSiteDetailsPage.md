@@ -12,23 +12,23 @@ localization_priority: Normal
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 ROBOTS: NOINDEX, NOFOLLOW
 description: サイトのサイト詳細を指定するには、次の操作を実行します。
-ms.openlocfilehash: 58d8edfc6ea78cfcf25018e37e4b848a437ee1af
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: b89f5dd4359f0fcd949d17f1c18ae36306e57572
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21057266"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23258558"
 ---
 # <a name="add-branch-site-details"></a>ブランチ サイトの詳細の追加
- 
+
 サイトのサイト詳細を指定するには、次の操作を実行します。
-  
+
 新しいブランチ サイトの市区町村名を指定します。市区町村の値はオプションのエントリです。
-  
+
 新しいブランチ サイトの都道府県名を指定します。都道府県の値はオプションのエントリです。
-  
+
 新しいブランチ サイトの国/地域コードを指定します。国/地域コードの値はオプションのエントリです。
-  
-詳細については、[サイト](http://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx)を参照してください。
-  
+
+詳細については、[サイト](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx)を参照してください。
+
 

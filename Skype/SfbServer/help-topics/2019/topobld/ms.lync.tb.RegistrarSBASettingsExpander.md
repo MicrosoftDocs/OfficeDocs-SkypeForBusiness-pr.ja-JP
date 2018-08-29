@@ -12,32 +12,32 @@ localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 ROBOTS: NOINDEX, NOFOLLOW
 description: 弾力性の設定を編集し、次のプロパティを構成します。
-ms.openlocfilehash: 83ad2a3bff1e305d3d8559c6244313ebf05f173f
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: b4394ae2a7244ae818335bd7c4b21c6d8930f03d
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21057203"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23260672"
 ---
 # <a name="registrar-sba-settings-expander"></a>SBA のレジストラーの設定の拡張
- 
+
 **弾力性**の設定を編集し、次のプロパティを構成します。
-  
+
 - 一覧から**ユーザーの関連付けられているサービスおよびバックアップ レジストラー プール**を選択します。
-    
+
     必要に応じて、**自動フェイル オーバーおよびフェイル バック音声**のチェック ボックスを選択します。
-    
+
     **音声障害検出の間隔 (秒)** と**音声のフェイル バックの間隔 (秒)** を構成します。 既定では、間隔は、音声障害を検出するための 120 秒ボイスのフェイル バックの 240 秒です。
-    
+
     > [!CAUTION]
-    > 復元が期待どおりに動作するためには、フェイル オーバーとフェイル バックの間隔を定義する秒数を慎重にテストする必要があります。 間隔を低に設定する (つまりより小さい 120 秒) や、フェイル オーバーとフェイル バックの設定が非常に密接に実際のフェールオーバーおよびフェールバックが期待どおりに動作していません。 
-  
+    > 復元が期待どおりに動作するためには、フェイル オーバーとフェイル バックの間隔を定義する秒数を慎重にテストする必要があります。 間隔を低に設定する (つまりより小さい 120 秒) や、フェイル オーバーとフェイル バックの設定が非常に密接に実際のフェールオーバーおよびフェールバックが期待どおりに動作していません。
+
  [**OK**]: ダイアログでの変更を受け入れて確定します。
-  
+
  [**キャンセル**]: 変更を破棄してダイアログを閉じます。
-  
+
  [**ヘルプ**]: このヘルプ画面を表示します。
-  
+
 ## <a name="see-also"></a>関連項目
 
-[エンタープライズ VoIP の復元の計画](http://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
+[エンタープライズ VoIP の復元の計画](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)

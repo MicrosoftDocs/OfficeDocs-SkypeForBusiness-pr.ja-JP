@@ -12,24 +12,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 14a71d1ed3b60f5e258156eb36c8a5643257c7ca
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 86044261bfad621b69921e505eab8bef9cb456b4
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20981010"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23245755"
 ---
 # <a name="dial-plan-create-new-or-edit-existing"></a>ダイヤル プラン: 新規作成または既存の編集
- 
+
 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-  
+
 - [Skype for Business 2015 でのダイヤル プランの作成または変更](../../deploy/deploy-enterprise-voice/dial-plans.md)
-    
-- [ダイヤル プランを変更します。](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
-    
+
+- [ダイヤル プランを変更します。](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
+
 - [Skype for Business 2015 での正規化ルールの作成または変更](../../deploy/deploy-enterprise-voice/normalization-rules.md)
-    
-- [正規化ルールを手動で変更をします。](http://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
-    
+
+- [正規化ルールを手動で変更をします。](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
+
 詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。
 

@@ -16,12 +16,12 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 4cb5a14f2bce0a9450788de178cff8e27cbc4e33
-  ms.sourcegitcommit: 1fde3af8f5c93c1328842990c7d14cbc0fbfdf97
+  ms.openlocfilehash: 698bb6a90d3ba6b64b3288b60d55eec2dac17453
+  ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 07/05/2018
-  ms.locfileid: "20201416"
+  ms.lasthandoff: 08/28/2018
+  ms.locfileid: "23253439"
 items:
 - durationInMinutes: 1
   content: >
@@ -49,7 +49,7 @@ items:
     -   レポート
 
 
-    オーディオ会議は、チームの会議に機能を追加します。 [会議は、マイクロソフトのチームで](http://aka.ms/tr-meetings)は、このチュートリアルの前に完了することをお勧めします。
+    オーディオ会議は、チームの会議に機能を追加します。 [会議は、マイクロソフトのチームで](https://aka.ms/tr-meetings)は、このチュートリアルの前に完了することをお勧めします。
 
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
@@ -98,7 +98,7 @@ items:
     ### <a name="next-steps"></a>次のステップ
 
 
-    1.  個人用に設定された展開についてのガイダンスのために [MyAdvisor](http://aka.ms/myadvisor) に登録する
+    1.  個人用に設定された展開についてのガイダンスのために [MyAdvisor](https://aka.ms/myadvisor) に登録する
 
     2.  チームで電話会議を使用して起動します。
 
@@ -109,4 +109,4 @@ items:
         - [チームのブログ](https://aka.ms/teamsblog)に従います。
         - [チームのロードマップ](https://aka.ms/skype2teamsroadmap)を参照してください。
         - [リリース ノート](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)にリリースされた最新の機能について説明します。
-    5.  [その他のトレーニングおよびチュートリアル](http://aka.ms/Teamsacademy)を探索してください。
+    5.  [その他のトレーニングおよびチュートリアル](https://aka.ms/Teamsacademy)を探索してください。

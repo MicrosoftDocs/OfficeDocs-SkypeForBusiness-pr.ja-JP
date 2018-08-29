@@ -12,18 +12,18 @@ localization_priority: Normal
 ms.assetid: e08a6a2d-1f88-4a84-b6e5-b84dcded4a86
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: bdb46b68355f1880e6530b5823675f139252d923
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6c912f2b6ef4e07e55f5dcef89e0a50d127e5ca0
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20998582"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23258320"
 ---
 # <a name="associate-a-subnet-add-new-or-edit-existing"></a>サブネットを関連付ける: 新しく追加するか、既存の編集
- 
+
 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-  
-- [ネットワークのサブネットを設定します。](http://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
-    
- 
+
+- [ネットワークのサブネットを設定します。](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
+
+
 

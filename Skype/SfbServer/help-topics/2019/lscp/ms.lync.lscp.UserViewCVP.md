@@ -12,18 +12,18 @@ localization_priority: Normal
 ms.assetid: 446915b6-462e-4cc1-8584-9f59f7eb8cc8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: a4fa5c144d433fd5a862cdf47925245666152b24
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0a05626a421b2481cf1a7fd22390ff570b5ff1d4
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002256"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23254586"
 ---
 # <a name="users-view-or-configure-client-version-policy"></a>ユーザーを表示またはクライアント バージョン ポリシーを構成します。
- 
+
 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-  
-- [ユーザーがサインインできるクライアント バージョンを指定します。](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
-    
- 
+
+- [ユーザーがサインインできるクライアント バージョンを指定します。](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
+
+
 

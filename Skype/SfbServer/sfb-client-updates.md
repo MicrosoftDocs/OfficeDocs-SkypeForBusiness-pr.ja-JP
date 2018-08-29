@@ -9,35 +9,35 @@ ms.prod: skype-for-business-itpro
 localization_priority: Priority
 ms.collection: IT_Skype16
 description: IT 専門家向けに、Skype for Business 2016、Skype for Business 2015、および Lync 2013 クライアントの永続バージョンに対する最新の更新プログラム関連情報へのリンクを提供します。
-ms.openlocfilehash: 38784d3de178078b2a679b16ac69caa9d22c7474
-ms.sourcegitcommit: 973cb74fca3fe50fbd38f80f5975b6f3d17e0b68
+ms.openlocfilehash: cf87fbb903e7bff015f77881ede956a4c4999b07
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2018
-ms.locfileid: "21822543"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23247592"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Windows インストーラー (MSI) を使用する Skype for Business の各バージョンに対する最新の更新プログラム
 
 このページのリンクを使用して、Skype for Business 2016、Skype for Business 2015、および Lync 2013 クライアントの永続バージョンに対する最新の更新プログラムの詳細情報の確認やダウンロードを行うことができます。
-  
-> [!NOTE] 
+
+> [!NOTE]
 > - この記事の情報は、WIndows インストーラー (MSI) のインストール テクノロジを使用する Skype for Business の永続バージョンについてのみ適用されます。 具体的には、Office Professional Plus 2016 に含まれている Skype for Business のような、Skype for Business のボリューム ライセンスのバージョンをインストールした場合です。
 > - この記事の情報は、Office 365 ProPlus に含まれている Skype for Business のような、Skype for Businss の Office 365 バージョンについては適用されません。
 > - 最新のモバイル クライアントの更新プログラムの場合は、お使いのモバイル クライアントのアプリ ストア (iTunes、Google Play、または Microsoft Store) に移動して、詳細を表示して更新プログラムをインストールしてください。
 > - 現在使用している Skype for Business のバージョンを確認する場合は、「[What version of Skype for Business do I have? (利用している Skype for Business のバージョンは何でしょうか?)](https://support.microsoft.com/en-us/help/3195481/how-to-check-the-version-of-skype-for-business-2016)」をご覧ください。
-> - Office の更新プログラムのインストールの詳細については、「[Office の更新プログラムをインストールする](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5)」をご覧ください。 
-  
+> - Office の更新プログラムのインストールの詳細については、「[Office の更新プログラムをインストールする](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5)」をご覧ください。
+
 Office 365 との Skype for Business の互換性およびオンプレミス環境は、お使いの展開に応じて異なります。
-  
+
 - Office 365 は、Skype for Business 2016 の最新バージョンを含む、メインストリーム サポート内の Skype for Business のすべてのバージョンと連携して機能します。 Skype for Business の以前のバージョンについては、Office 365 と連携して機能し続ける可能性があるのは、拡張サポートが有効なバージョンのみです。ただし、利用できる機能は削減されます。 詳細については、「[マイクロソフト製品サポート ライフサイクル ポリシー](https://support.microsoft.com/lifecycle)」をご覧ください。
-    
+
 - Skype for Business Server のオンプレミス展開については、次に示すお使いの Skype for Business のバージョンのシステム要件に従ってください。
-    
+
   - [Skype for Business 環境の要件](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)
-    
+
   - [Lync Server 2013: システム要件](https://technet.microsoft.com/en-us/library/jj205115(v=ocs.15).aspx)
-    
-  
+
+
 ## <a name="skype-for-business-2016-client-updates"></a>Skype for Business 2016 クライアントの更新プログラム
 |パッケージ名|KB 番号|リリース日|
 |:---  |:---  |:---  |
@@ -107,7 +107,7 @@ Office 365 との Skype for Business の互換性およびオンプレミス環�
 |Skype for Business 2015/Lync 2013 用のセキュリティ更新プログラム|[KB 3118348](https://support.microsoft.com/kb/3118348) | 2016 年 10 月 |
 |Skype for Business 2015/Lync 2013 用の更新プログラム|[KB 3118281 ](https://support.microsoft.com/kb/3118281) | 2016 年 9 月 |
 |Skype for Business 2015/Lync 2013 用のセキュリティ更新プログラム|[KB 3115431](https://support.microsoft.com/kb/3115431) | 2016 年 8 月 |
-|Skype for Business 2015/Lync 2013 用の更新プログラム|[KB 3115261 ](http://support.microsoft.com/kb/3115261) | 2016 年 7 月 |
+|Skype for Business 2015/Lync 2013 用の更新プログラム|[KB 3115261 ](https://support.microsoft.com/kb/3115261) | 2016 年 7 月 |
 |Skype for Business 2015/Lync 2013 用のセキュリティ更新プログラム|[KB 3114944](https://support.microsoft.com/kb/3114944) | 2016 年 4 月 |
 |Skype for Business 2015/Lync 2013 用の更新プログラム|[KB 3114831 ](https://support.microsoft.com/kb/3114831) | 2016 年 3 月 |
 |Skype for Business 2015/Lync 2013 用の更新プログラム|[KB 3114732 ](https://support.microsoft.com/kb/3114732) | 2016 年 2 月 |
@@ -129,7 +129,7 @@ Office 365 との Skype for Business の互換性およびオンプレミス環�
 
 
 * * *
-   
+
 ## <a name="lync-2013-client-updates"></a>Lync 2013 クライアントの更新プログラム
 
 パッケージ名|KB 番号|リリース日|

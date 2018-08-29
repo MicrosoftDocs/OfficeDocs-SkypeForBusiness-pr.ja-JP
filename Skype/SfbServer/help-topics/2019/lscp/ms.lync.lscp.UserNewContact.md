@@ -12,38 +12,38 @@ localization_priority: Normal
 ms.assetid: 05e0d949-0cc6-4d3c-b935-a09a6ad52adc
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 680c801d09d89bfccfec60c69fb22ced84edf4b0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 93f0c4b66c7f18bb42e6abddcec1c92ec3f75949
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20984702"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23247578"
 ---
 # <a name="users-new-contact-objects"></a>新しい連絡先オブジェクトのユーザー:
- 
+
 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-  
-- [有効または無効にするユーザー](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
-    
-- [ユーザーの既定の会議エクスペリエンスを変更する会議ポリシーを割り当てください。](http://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
-    
-- [ユーザーがサインインできるクライアント バージョンを指定します。](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
-    
+
+- [有効または無効にするユーザー](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+
+- [ユーザーの既定の会議エクスペリエンスを変更する会議ポリシーを割り当てください。](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
+
+- [ユーザーがサインインできるクライアント バージョンを指定します。](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
+
 - [ビジネス サーバーの Skype のユーザー単位の PIN ポリシーを割り当てる](../../../manage/authentication/assign-a-per-user-pin-policy.md)
-    
-- [ユーザーのフェデレーション、リモート ユーザー アクセス、およびパブリック IM 接続を構成します。](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
-    
-- [ユーザーの通信のアーカイブを構成します。](http://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
-    
-- [場所のポリシーをユーザーに割り当てる](http://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
-    
+
+- [ユーザーのフェデレーション、リモート ユーザー アクセス、およびパブリック IM 接続を構成します。](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+
+- [ユーザーの通信のアーカイブを構成します。](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
+
+- [場所のポリシーをユーザーに割り当てる](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+
 - [ビジネス サーバーの Skype でエンタープライズ VoIP のユーザーを有効にします。](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
-    
-- [ユーザーのフェデレーション、リモート ユーザー アクセス、およびパブリック IM 接続を構成します。](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
-    
-- [ユーザーのテレフォニーを構成します。](http://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
-    
-- [ユーザーごとのモビリティ ポリシーを割り当てる](http://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
-    
- 
+
+- [ユーザーのフェデレーション、リモート ユーザー アクセス、およびパブリック IM 接続を構成します。](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+
+- [ユーザーのテレフォニーを構成します。](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+
+- [ユーザーごとのモビリティ ポリシーを割り当てる](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
+
+
 

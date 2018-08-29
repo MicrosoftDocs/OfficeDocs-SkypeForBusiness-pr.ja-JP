@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6eb38d1dc24094233bac94f75967bf8f1e42b93d
-ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
+ms.openlocfilehash: af9d574abb69068095c31a9aaac0270b3fc7e960
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "21251885"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23248804"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>教育管理者向けのマイクロソフトのチーム
 ==============================================
@@ -44,15 +44,15 @@ ms.locfileid: "21251885"
 
 ## <a name="call-to-action"></a>実施すべき内容
 
-- 実践的な「[Microsoft Teams Interactive Demo (Microsoft Teams のインタラクティブなデモ)](http://teamsdemo.office.com/)」を確認する (所要時間 5 分)
+- 実践的な「[Microsoft Teams Interactive Demo (Microsoft Teams のインタラクティブなデモ)](https://teamsdemo.office.com/)」を確認する (所要時間 5 分)
 - [Office 365 管理センター](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)で Microsoft Teams をオンにする (Office 365 管理者でサインインする)
 - Teams クライアントをダウンロードする: [すべてのデバイスで Teams をオンにする](https://teams.microsoft.com/downloads)
 - [Education ヘルプ センター](https://support.office.com/education)で Office 365 for Education について学ぶ
-    
+
 ## <a name="additional-resources"></a>その他のリソース
 
 - [Microsoft Teams のロードマップ](https://aka.ms/teamsroadmap)
-- [Tech Community Blog ](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog) で最新情報を入手する 
+- [Tech Community Blog ](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog) で最新情報を入手する
 - Matt Soseman の「The Productive Cloud (生産的なクラウド)」ブログの [Microsoft Teams PowerShell Support (Microsoft Teams の PowerShell のサポート)](https://blogs.technet.microsoft.com/skypehybridguy/2017/11/07/microsoft-teams-powershell-support/)」に関する記事
 - [提案を送信する](https://aka.ms/eduuservoice)
 - [サポートに問い合わせる](https://aka.ms/o365portal)
