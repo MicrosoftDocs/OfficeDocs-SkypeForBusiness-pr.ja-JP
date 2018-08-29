@@ -12,18 +12,18 @@ localization_priority: Normal
 ms.assetid: 35c1511f-8143-4893-a91c-5bc7c18ec0bf
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: c5721d75e516c944ccfb441dce1706bd0c90a0f1
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fa6c14eea9937faeda5bf3e7eba5621d7c793a31
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988777"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23248982"
 ---
 # <a name="configure-a-network-region-route"></a>ネットワーク地域ルートを構成します。
- 
+
 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-  
-- [ネットワーク地域のルートを構成します。](http://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
-    
- 
+
+- [ネットワーク地域のルートを構成します。](https://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
+
+
 

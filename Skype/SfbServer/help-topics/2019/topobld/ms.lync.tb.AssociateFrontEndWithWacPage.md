@@ -12,27 +12,27 @@ localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Office Web Apps サーバーでは、会議で使用するドキュメントをアップロードする発表者のようなサービスが提供されますが、以前のバージョンにはなかった追加機能が可能になりました。
-ms.openlocfilehash: 390a6d5522f82926c7ea5154c9bf582d3dab3d9f
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 06ad45689f64e94b9f9f82994fa55f200f881bf0
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21058977"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23256358"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>フロントエンドと Office Web Apps サーバーとの関連付けページ
- 
+
 Office Web Apps サーバーでは、会議で使用するドキュメントをアップロードする発表者のようなサービスが提供されますが、以前のバージョンにはなかった追加機能が可能になりました。
-  
+
 ビジネス サーバーの構成に、Skype の機能オプションの 1 つとして会議を選択した場合を展開するため、Office Web アプリケーション サーバーを選択します。
-  
+
 このダイアログのオプションでは、次の選択肢が表示されます。
-  
+
 1. **Office Web アプリケーション サーバーとプールを関連付ける**を提供し、会議のユーザーに Office の Web アプリケーション サーバーを展開する場合にこのチェック ボックスをオンします。
-    
+
 2. このチェック ボックスをオンにした場合、リストを使用して、すでに定義済みの Office Web Apps サーバーを選択します。
-    
+
 3. [**新規**] をクリックして、展開用の新しい Office Web Apps サーバーを定義します。
-    
+
 ## <a name="see-also"></a>関連項目
 
-[リバース プロキシ サーバーを使用して、Office Web アプリケーション サーバーの公開](http://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)
+[リバース プロキシ サーバーを使用して、Office Web アプリケーション サーバーの公開](https://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)

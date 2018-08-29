@@ -1,5 +1,5 @@
 ---
-title: カスタム外部アクセス ポリシーを作成します。
+title: カスタム外部アクセス ポリシーを作成する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,41 +15,42 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: ビジネス オンラインの Skype を使用すると、その他の外部アクセス ポリシーを作成できます。 複数の組み合わせを作成することが、クライアント、または会議のポリシーとは異なり、シナリオのほとんどをカバーできる 3 つの定義済みの外部アクセス ポリシーがあります。
-ms.openlocfilehash: 8d0cff680ebf225a9dc62e585f39ab3f0b27e3c3
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
-ms.translationtype: MT
+description: Skype for Business Online を使用すると、その他の外部アクセス ポリシーを作成できます。 複数な組み合わせを作成できるクライアントポリシーや会議ポリシーとは異なり、シナリオのほとんどをカバーできる 3 つの定義済み外部アクセス ポリシーがあります。
+ms.openlocfilehash: e166aa9af162fd6432c8932d5842ea0fd00a36b3
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568314"
 ---
-# <a name="create-custom-external-access-policies"></a>カスタム外部アクセス ポリシーを作成します。
+# <a name="create-custom-external-access-policies"></a>カスタム外部アクセス ポリシーを作成する
 
-ビジネス オンラインの Skype を使用すると、その他の外部アクセス ポリシーを作成できます。 複数の組み合わせを作成することが、クライアント、または会議のポリシーとは異なり、シナリオのほとんどをカバーできる 3 つの定義済みの外部アクセス ポリシーがあります。 これらは：
+Skype for Business Online を使用すると、その他の外部アクセス ポリシーを作成できます。 複数な組み合わせを作成できるクライアントポリシーや会議ポリシーとは異なり、シナリオのほとんどをカバーできる 3 つの定義済み外部アクセス ポリシーがあります。 次の項目があります。
   
-- 連合なしまたは Skype の消費者のアクセス (_タグ: NoFederationAndPIC_ )
+- フェデレーション アクセスまたは Skype 消費者アクセスなし (_タグ: NoFederationAndPIC_ )
     
-- フェデレーションのアクセスのみ (_タグ: FederationOnly_ )
+- フェデレーション アクセスのみ (_タグ: FederationOnly_ )
     
-- 連合し、消費者のアクセス (_FederationAndPICDefault_)
+- フェデレーション アクセスと消費者アクセス (_FederationAndPICDefault_)
     
-外部のカスタム ポリシーを使用すると追加を作成するポリシーを上記の設定でカバーされていません。 ポリシーの作成時に必要なすべてのパラメーターを設定する必要があり、それらを後で変更することができませんでした。 新しいカスタム ポリシーを作成する Skype の消費者のアクセスなどのコントロール機能を使用するか、公開を無効にするポリシーではクラウド オーディオ/ビデオ、定義済みの設定の対象でなかったものであります。 カスタム外部アクセス ポリシーは、クライアント、モビリティ、および会議のポリシーと同じ構文に従います。 これらの設定に関する詳細情報を調べることができます[ここ](https://technet.microsoft.com/en-us/library/mt228132.aspx)。
+カスタム外部ポリシーを使用すると、上記の設定でカバーされない追加ポリシーを作成できます。 ポリシーを作成した時に、すべての必要なパラメーターを設定する必要があり、設定したパラメーターを後で変更することはできませんでした。 新しいカスタム ポリシーを作成すると、Skype 消費者アクセスなどの機能やパブリック クラウド オーディオ/ビデオを無効にするポリシーなどを管理できます。これは、定義済みの設定でサポートされていなかったものです。 カスタム外部アクセス ポリシーは、クライアントやモビリティ、会議のポリシーと同じ構文に従います。 これらの設定に関する詳細は、 [ここ](https://technet.microsoft.com/en-us/library/mt228132.aspx)からご覧いただけます。
   
-この作業をするためには、ユーザーする必要がありますでは、2016 年のサポートされているバージョンでサポートされているビジネス アプリケーションの Skype をクイック実行。 ビジネス 2016年クイック実行クライアントの Skype の次の最小バージョンが必要です。
+カスタム外部アクセス ポリシーを機能させるには、ユーザーは、そのポリシーに対応している 2016 クイック実行 Skype for Business アプリケーションのサポートされているバージョンを使用していなければなりません。 Skype for Business 2016 クイック実行クライアントの次の最小バージョンが必要です。
   
-|**タイプ**|**リリース日**|**バージョン**|**ビルド**|
+|**種類**|**リリース日**|**バージョン**|**ビルド**|
 |:-----|:-----|:-----|:-----|
-|現在のチャネルの最初のリリース  <br/> |2016/11/17  <br/> |16.0.7571.2006  <br/> |バージョン 1611 (ビルド 7571.2006)  <br/> |
-|現在のチャネル  <br/> |2016/12/6  <br/> |16.0.7571.2072  <br/> |バージョン 1611 (ビルド 7571.2072)  <br/> |
-|チャネルの遅延  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |バージョン 1609 (ビルド 7369.2118)  <br/> |
+|最新機能提供チャネルの最初のリリース  <br/> |2016 年 11 月 17 日  <br/> |16.0.7571.2006  <br/> |バージョン 1611 (ビルド 7571.2006)  <br/> |
+|最新機能提供チャネル  <br/> |2016 年 12 月 6 日  <br/> |16.0.7571.2072  <br/> |バージョン 1611 (ビルド 7571.2072)  <br/> |
+|段階的提供チャネル  <br/> |2017 年 2 月 22 日  <br/> |16.0.7369.2118  <br/> |バージョン 1609 (ビルド 7369.2118)  <br/> |
    
 > [!CAUTION]
-> ビジネス Windows アプリケーションまたは Mac クライアントの以前のバージョンの Skype を使用しているユーザーはファイルを転送することがあります。 
+> Skype for Business Windows アプリケーションまたは Mac クライアントの以前のバージョンを使用しているユーザーは、ファイルを転送することがあります。 
   
 ## <a name="verify-and-start-windows-powershell"></a>Windows PowerShell を検証および開始する
 
 - **Windows PowerShell バージョン 3.0 以降を実行していることを確認する**
     
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+1. 3.0 以降のバージョンが実行されていることを確認する場合: **[スタート] メニュー** > **[Windows PowerShell]**。
     
 2. [ _Windows PowerShell_] ウィンドウに「 **Get-Host**」と入力して、バージョンを確認します。
     
@@ -61,7 +62,7 @@ ms.lasthandoff: 05/25/2018
     
 - **Windows PowerShell セッションを開始する**
     
-1. From the **Start Menu** > **Windows PowerShell**.
+1.  **[スタート] メニュー**の [ > **Windows PowerShell**]。
     
 2. [ **Windows PowerShell**] ウィンドウで、次を実行して、Office 365 の組織に接続します。
     
@@ -75,16 +76,15 @@ ms.lasthandoff: 05/25/2018
     Import-PSSession $session
   ```
 
-  Windows PowerShell を開始する方法の詳細を設定する場合は、 [1 つの Windows PowerShell のウィンドウ内のすべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)か、 [Windows PowerShell を使用して、オンライン ビジネスの Skype への接続](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)を参照してください。
+  Windows PowerShell の起動の詳細については、「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)」または「[Windows PowerShell を使用した Skype for Business  への接続](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)」を参照してください。
     
 ## <a name="create-a-custom-external-access-policy-for-a-user"></a>ユーザー独自の外部アクセス ポリシーを作成します。
 
-これを行う場合は、次を実行します。
+作成するには、次を実行します。
   
 > 
   ```
-  New-CsExternalAccessPolicy -Identity BlockSkypeVideo -EnablePublicCloudAccess $True -EnablePublicCloudAudioVideoAccess $False -EnableFederationAccess $True 
--EnableOutsideAccess $True
+  New-CsExternalAccessPolicy -Identity BlockSkypeVideo -EnablePublicCloudAccess $True -EnablePublicCloudAudioVideoAccess $False -EnableFederationAccess $True -EnableOutsideAccess $True
   ```
 
 > 
@@ -94,11 +94,11 @@ ms.lasthandoff: 05/25/2018
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShell では、ユーザーの管理とユーザーが許可または許可することに関するすべてが行えます。 Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Office 365 PowerShell を使用しなければならない理由](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell には、ただ Office 365 管理センターを使用するだけではなく、速度、単純さ、生産性において多くの利点があります。次のトピックでこれらの利点について説明します。
     
@@ -108,12 +108,12 @@ ms.lasthandoff: 05/25/2018
     
   - [クイック リファレンス: Windows PowerShell を使用した一般的な Lync Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>See also
-[ブロック ポイント ツー ポイントのファイルの転送](block-point-to-point-file-transfers.md)
+## <a name="related-topics"></a>関連トピック
+[ポイント ツー ポイントのファイル転送をブロックする](block-point-to-point-file-transfers.md)
 
 [組織のクライアント ポリシーをセットアップする](set-up-client-policies-for-your-organization.md)
 
-[組織内の会議ポリシーを設定します](set-up-conferencing-policies-for-your-organization.md)
+[組織の電話会議ポリシーをセットアップする](set-up-conferencing-policies-for-your-organization.md)
 
   
  

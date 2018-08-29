@@ -3,7 +3,7 @@ title: サーフェスのハブのマイクロソフトのチームを配置し�
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/23/2018
+ms.date: 08/29/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7757f7d220ae58914a296e3dc3850179219b475
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 96eb92c45af065b5f09ab9312f79198377067c4a
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20981580"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23246159"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>サーフェスのハブのマイクロソフトのチームを配置します。
 ======================================
@@ -141,9 +141,6 @@ Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Microsoft ストアからのサーフェスのハブのチームをインストールします。 
 
-> [!NOTE]
-> サーフェス ハブ (プレビュー) でマイクロソフトのチームを使用するには、Windows 内部のプログラムでデバイスを登録する必要があります。 内部からプログラムを終了するには、クラウドの回復を使用してサーフェスのハブをリセットする必要があります。<br> Windows 内部からのプログラムのメンバーになる、表面のハブを遠隔測定を完全に Windows の内部からのプログラムに参加する前に設定しなければなりません。 GDPR の規制により、既定の設定を Windows の遠隔測定の最近完全からに変更基本的な eu 加盟国で。 Windows 内部からのプログラムに参加する前に、設定を確認する必要があります。 Windows 内部からプログラムへの参加に設定する基本的な遠隔測定の表面のハブのリセットが必要なときにしようとしています。 サーフェスのハブで Windows の遠隔測定の設定を検証するには、**設定**を選択します > **プライバシー** > **フィードバックと診断**、および**完全**に設定します。
-
 これらは、Microsoft ストアからのサーフェスのハブのチームをインストールします。 
  
 1. マイクロソフトのストアを開始します。<br>
@@ -201,5 +198,3 @@ InTune を使用して既定の通話や会議のアプリケーション ポリ
 
 サーフェス ハブ デバイスを再起動します。 デバイスを再起動した後は、開始画面から、チームのアプリケーションを起動し、カレンダーから会議に参加することができます。
 
-> [!NOTE]
-> デバイスや、組織のデバイスは、現在 Windows 内部からのプログラムの一部と全般的なデータ保護規制 (GDPR) で対象となる国では (または基本の遠隔測定の設定を手動で変更がある) 場合は、チェックする必要があります再します。有効に完全な遠隔測定を内部からプログラムに参加する前にします。 GDPR は、基本的な遠隔測定を設定するのには、EU 内のサーフェスのハブ デバイスの既定の動作を変更します。

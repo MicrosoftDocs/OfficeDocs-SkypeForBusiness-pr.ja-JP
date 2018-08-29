@@ -12,21 +12,21 @@ localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 ROBOTS: NOINDEX, NOFOLLOW
 description: このドキュメントは暫定版であり、変更される可能性があります。空白のトピックがプレースホルダーとして含まれています。
-ms.openlocfilehash: ca751d23ee0263ebfefdf3e19c2d7229c7e6b65e
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: f2706abd440d55e30a0fb485fff5d7a95643bd34
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069266"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23255846"
 ---
 # <a name="office-communications-server-scope-node"></a>Office 通信サーバーのスコープ ノード
- 
+
 このドキュメントは暫定版であり、変更される可能性があります。空白のトピックがプレースホルダーとして含まれています。
-  
+
 ノードの下のセクションを展開する**Office 通信 Server 2007 の R2**をクリックするか、**トポロジ**のオプションにアクセスする、またはこの**ヘルプ**ページにアクセスするを右クリックします。
-  
+
 ## <a name="see-also"></a>関連項目
 
-[トポロジ ビルダー結合ウィザードを使用して差し込み印刷します。](http://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
-  
-[トポロジ情報を確認します。](http://technet.microsoft.com/library/aa4c424e-f87c-4be6-8df6-a0cd193b11fc.aspx)
+[トポロジ ビルダー結合ウィザードを使用して差し込み印刷します。](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
+
+[トポロジ情報を確認します。](https://technet.microsoft.com/library/aa4c424e-f87c-4be6-8df6-a0cd193b11fc.aspx)

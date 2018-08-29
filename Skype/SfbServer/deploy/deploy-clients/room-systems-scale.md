@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 大規模な展開で Skype ルーム システム v2 を展開する方法については、このトピックを参照してください。
-ms.openlocfilehash: 5ed6e041eb862c7bb50bde89ef172f9012ca8c2e
-ms.sourcegitcommit: 81c6775fdcf8726d2df83c421a85b7908f1f7412
+ms.openlocfilehash: 3b34d584bf98326257964e30431f622a0be6dee2
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/17/2018
-ms.locfileid: "22601998"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23247458"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>システム センター構成マネージャーを使用して Skype ルーム システム v2 を展開します。
 
@@ -81,7 +81,7 @@ Skype ルーム システム v2 が構成マネージャーを展開するには
 
 2.  Skype ルーム システム v2 の導入、サービスを提供し、**プロパティ**を選択し、配布ポイント サーバーを選択します。
 
-3.  **PXE** ] タブを選択し、次の設定が有効になっていることを確認します。 
+3.  **PXE** ] タブを選択し、次の設定が有効になっていることを確認します。
     -   クライアントの pxe ブートのサポートを有効にします。
     -   受信 PXE 要求に応答するには、この配布ポイントを許可します。
     -   不明なコンピューターのサポートを有効にします。
@@ -212,7 +212,7 @@ Skype ルーム システム v2 が構成マネージャーを展開するには
       Wait-Process -name wusa
    }
 ```
-3.  必須の Windows 更新プログラム パッケージを同じフォルダーにダウンロードします。  
+3.  必須の Windows 更新プログラム パッケージを同じフォルダーにダウンロードします。
     > [!NOTE]
     > この資料が公開された時点で、 [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu)だけが必要でした。 [Skype ルーム システム v2 のコンソールを構成する](console.md)、他の更新プログラムが必要なかどうかを確認してください。
 
@@ -319,21 +319,21 @@ Active Directory ドメインに参加しないデバイスのルート証明書
         strHTMLText = strHTMLText & "<br><br> Click Accept to use this as the computer name and continue deployment, or Change to set a new name."
         strHTMLText = strHTMLText & "<p><input type=""button"" value=""Accept"" name = ""Accept_Button"" onclick=""SetComputerName"" />"
         strHTMLText = strHTMLText & " <input type=""button"" value=""Change"" name = ""Change_Button"" onclick=""ChangeComputerName"" />"
-        TextArea2.innerHTML = strHTMLText   
+        TextArea2.innerHTML = strHTMLText
     End Sub
-    
+
     Sub SetComputerName()
         dim result
         result = MsgBox("Computer Name to be assigned: " & strNewComputerName &vbcrlf & "Are you sure you want to continue?", 36)
-        If (result = vbYes) then 
-            SET env = CreateObject("Microsoft.SMS.TSEnvironment") 
+        If (result = vbYes) then
+            SET env = CreateObject("Microsoft.SMS.TSEnvironment")
             env("OSDComputerName") = strNewComputerName
-            self.close  
+            self.close
         elseif (result = vbNo) then
             Window_OnLoad
         End If
     End Sub
-    
+
     Sub UpdateComputerName()
         strNewComputerName = newcomputername.value
         if len(trim(strNewComputerName)) = 0 then
@@ -342,26 +342,26 @@ Active Directory ドメインに参加しないデバイスのルート証明書
         end if
         SetComputerName
     End Sub
-    
+
     Sub ChangeComputerName()
         TextArea2.innerHTML = "<p>Type the new computer name and click Accept:  <input type=""text"" name=""newcomputername"" value =" & strNewComputerName & " />"
         TextArea2.innerHTML = TextArea2.innerHTML & "<br><input type=""button"" value=""Update"" name = ""Update_Button"" onclick=""UpdateComputerName"" />"
     End Sub
-    
+
     Sub Window_OnLoad
         Set oTSProgressUI = CreateObject("Microsoft.SMS.TsProgressUI")
         oTSProgressUI.CloseProgressDialog
         GenerateComputerName
     End Sub
     </script>
-    
+
     <body>
     <span id = "TextArea1"></span>
     <span id = "TextArea2">
     </span>
     </body>
     </html>
-    
+
     ```
 3.  **ソフトウェア ライブラリ**には、構成マネージャー コンソールで、 \> **アプリケーション管理** \> **パッケージ**、および**パッケージの作成**を選択します。
 
@@ -390,16 +390,16 @@ Active Directory ドメインに参加しないデバイスのルート証明書
 <?xml version="1.0" encoding="utf-8"?>
 <unattend xmlns="urn:schemas-microsoft-com:unattend">
     <settings pass="specialize">
-        <component name="Microsoft-Windows-Embedded-BootExp" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="NonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <component name="Microsoft-Windows-Embedded-BootExp" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="NonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <DisableBootMenu>1</DisableBootMenu>
             <DisplayDisabled>1</DisplayDisabled>
         </component>
-        <component name="Microsoft-Windows-powercpl" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <component name="Microsoft-Windows-powercpl" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <PreferredPlan>8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c</PreferredPlan>
         </component>
     </settings>
     <settings pass="oobeSystem">
-        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <OOBE>
                 <HideEULAPage>true</HideEULAPage>
                 <HideLocalAccountScreen>true</HideLocalAccountScreen>
@@ -625,11 +625,11 @@ Skype ルーム システム v2 は Surface Pro と Surface Pro 4 の両方の�
     16. **ローカル Skype ユーザーの追加**: この手順が自動的に Windows にサインインして Skype ルーム システム v2 アプリケーションを起動するために使用するローカル Skype アカウントを作成します。 この手順は、それに関連付けられている任意のソフトウェア パッケージを持っていないし、カスタマイズすることの必要はありません。
 
     17. **設定セットアップおよび SRS のアプリケーションを構成する**: この操作により、Skype ルーム システム v2 アプリケーションのインストール、次の起動時にオペレーティング システムの。
-        -   **SRS v2 – SRS セットアップ パッケージの構成**と**ファイル システムのリダイレクトを無効にする 64 ビット**がオンになっていることを確認します。       
+        -   **SRS v2 – SRS セットアップ パッケージの構成**と**ファイル システムのリダイレクトを無効にする 64 ビット**がオンになっていることを確認します。
 
 > [!IMPORTANT]
 > タスク シーケンスの手順が記載されている順序である必要がありますが非常に重要です。 手順の順序を変更または追加の手順を構成するには、展開を壊れる可能性があります。
-> 
+>
 > **設定セットアップおよび SRS のアプリケーションを構成する**の手順は、タスク シーケンスの最後のステップをする必要があります、それ以外の場合、展開が失敗可能性があります。
 
 ### <a name="create-deployment-for-the-task-sequence"></a>展開タスク シーケンスを作成します。

@@ -18,29 +18,29 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: 2949f170aef6567d186adcd8414e39c7689537e2
-ms.sourcegitcommit: e5a54e2ead0edd9e450bbed4b6e50b3cfd2e91c0
+ms.openlocfilehash: 95194240a110a5372a6891c884e729b5a0cc7d43
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "21645212"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23245439"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>通話品質ダッシュボードで利用できるディメンションとメジャー
 
 マイクロソフト チームの呼び出し品質ダッシュ ボード (救難) とオンライン ビジネスの Skype では、ビジネス サービスのマイクロソフトのチームと Skype を使用して行われた通話の品質の洞察を得るために。 このトピックでは CQD によって公開されたディメンションとメジャーについての詳細な情報が提供されます。 救難およびそれを有効にする方法の詳細について[を有効にしてマイクロソフトのチームとビジネス オンラインの Skype の品質ダッシュ ボードの呼び出しを使用して](turning-on-and-using-call-quality-dashboard.md)参照してください。
-  
+
 ## <a name="first-and-second-endpoint-classification"></a>第 1 と第 2 のエンドポイントの分類
 
 通話品質ダッシュボード (CQD) の多くのディメンションとメジャーは、第 1 または第 2 としてラベル付けされます。次のロジックによって、ストリームまたは通話内に関与しているどのエンドポイントが第 1 としてラベル付けされるかが決まります。
-  
+
 - ストリーム/呼び出しでサーバーが関係している場合、サーバーのエンドポイント (AV MCU、仲介サーバーなど) には必ず最初。
-    
+
 - 第 2 は、ストリームが 2 つのサーバー エンドポイント間のものでない限り、常にクライアント エンドポイントになります。
-    
+
 - 場合両方のエンドポイントの順序は、最初と同じ型、2 つ目は内部順序に基づいてユーザー エージェントのカテゴリの。 これにより、順序付けに整合性が確保されます。
-    
+
 たとえば、次の各行はストリーム内に関与するユーザー エージェントのペアを表しています。
-  
+
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**呼び出し元のユーザー エージェント カテゴリ** <br/> |**呼び出し先のユーザー エージェント カテゴリ** <br/> |**First Endpoint** <br/> |**Second Endpoint** <br/> |**First Is Caller** <br/> |
@@ -51,14 +51,14 @@ ms.locfileid: "21645212"
 |仲介サーバー  <br/> |AV-MCU  <br/> |仲介サーバー  <br/> |AV-MCU  <br/> |TRUE  <br/> |
 |OC (Skype for Business のクライアント)  <br/> |OC 電話 (Skype for Business IP 電話)  <br/> |OC (Skype for Business のクライアント)  <br/> |OC 電話 (Skype for Business IP 電話)  <br/> |TRUE  <br/> |
 |OC 電話 (Skype for Business IP 電話)  <br/> |OC (Skype for Business のクライアント)  <br/> |OC (Skype for Business のクライアント)  <br/> |OC 電話 (Skype for Business IP 電話)  <br/> |FALSE  <br/> |
-   
+
 > [!NOTE]
 > 第 1 と第 2 の分類は、どちらのエンドポイントが呼び出し元か呼び出し先であるかということとは別のことです。[第 1 が呼び出し元] ディメンションは、どちらのエンドポイントが呼び出し元か呼び出し先であるかを識別するために使用できます。
-  
+
 ## <a name="dimensions"></a>ディメンション
 
 次の表に、CQD で現在利用できるディメンションを一覧表示します。
-  
+
 |||||
 |:-----|:-----|:-----|:-----|
 |**ディメンション名** <br/> |**データの種類/単位** <br/> |**説明** <br/> |**値** <br/> |
@@ -321,17 +321,17 @@ ms.locfileid: "21645212"
 |Inside Corp Pair  <br/> |ペアの列挙  <br/> | エンドポイントが企業ネットワークの内部と外部のどちらに配置されていたかを示すペア (サブネット マッピングに基づく)。例の値は次のとおりです。 <br/>  内部 : 内部 <br/>  内部 : 外部 <br/>  外部 : 外部 <br/> |**値の例:** 内部: 内部  <br/> |
 |Scenario Pair  <br/> |ペアの列挙  <br/> |エンドポイントが企業ネットワークの内部と外部のどちらに配置されていたかを示すペア (サブネット マッピングとネットワーク接続の詳細に基づく)。  <br/> **注:** ペアを指定する '-'。           |列挙内の空白値は、エンドポイントのどちらかまたは両方で、ネットワーク接続の種類が不明であったことを示します。 <br/>**値の例:** クライアント内部--クライアントの内側に wifi  <br/> |
 |チームは、します。  <br/> |ブール型  <br/> |True、ストリームの最初または 2 番目のユーザー エージェントが、マイクロソフトのチームの端点であることを示します。  <br/> False は、ユーザー エージェントでは、Skype をビジネスの端点のことを示します。  |**値の例:** 場合は true。  |
-   
+
 ### <a name="notes-on-dimension-data-typeunits"></a>ディメンション データの種類/単位についてのメモ:
 
 #### <a name="range"></a>レンジ
 
 値のレンジまたはグループとして提供されるディメンションは、次の形式で示されます。
-  
+
  _\<文字列の順序を並べ替える\>[\<範囲の下限値\> - \<上限値の排他的な\>)_
-  
+
 たとえば、デュレーション (分) ディメンションは、通話のデュレーションを秒単位で表し、値のレンジとして報告された値が付きます。
-  
+
 |||
 |:-----|:-----|
 |**Duration (Minutes)** <br/> |**意味** <br/> |
@@ -340,22 +340,22 @@ ms.locfileid: "21645212"
 |065: [2 - 3)  <br/> |2 分 < = ストリーム デュレーション < 3 分  <br/> |
 |066: [3 - 4)  <br/> |3 分 < = ストリーム デュレーション < 4 分  <br/> |
 |…  <br/> |…  <br/> |
-   
+
 データを表示するときに並び順を制御するのに <並び順の文字列> を使用します。たとえば、デュレーション (分) < "065" でのフィルターは、2 分未満のデュレーションでのストリームを示します (頭の 0 は、フィルターが想定どおりに機能するために必要です)。
-  
+
 > [!NOTE]
-> 並び順文字列の実際の値は重大ではありません。 
-  
+> 並び順文字列の実際の値は重大ではありません。
+
 #### <a name="enumeration-pair"></a>列挙のペア
 
 列挙のペアとして提供されるディメンションは、次の形式で示されます。
-  
+
  _\<列挙値を 1 つの端点から\>: \<、もう一方のエンドポイントからの列挙値\>_
-  
+
 列挙の値の順序は一貫したものですが、第 1 または第 2 のエンドポイントの順序は反映していません。
-  
+
 たとえば、ネットワーク接続の詳細ペアは、2 つのエンドポイントでのネットワーク接続の詳細の値を示します。
-  
+
 |||
 |:-----|:-----|
 |**Network Connection Detail Pair** <br/> |**意味** <br/> |
@@ -363,15 +363,15 @@ ms.locfileid: "21645212"
 |有線 : WiFi  <br/> |第 1 のエンドポイントは有線イーサネット接続を使用、第 2 のエンドポイントは Wi-Fi 接続を使用。または第 2 のエンドポイントが有線イーサネット接続を使用し、第 1 のエンドポイントが Wi-Fi 接続を使用。  <br/> |
 |: WiFi  <br/> |第 1 のエンドポイントは WiFi 接続を使用、第 2 のエンドポイントによって使用されたネットワーク接続は不明。または、第 2 のエンドポイントが WiFi 接続を使用、第 1 のエンドポイントによって使用されたネットワーク接続は不明。  <br/> |
 |…  <br/> |…  <br/> |
-   
+
 #### <a name="blank-values"></a>空白値
 
 上記の表に、ディメンションが空白になる原因として考えられるものを一覧表示しています。[QoE 記録が利用可能] ディメンションが False の場合に、多くのディメンションおよびメジャーが空白になります。これは通常、通話が正常に確立されなかった場合に発生します。
-  
+
 ## <a name="measures"></a>メジャー
 
 次の表に、通話品質ダッシュボード (CQD) で現在利用できるメジャーを一覧表示します。
-  
+
 ||||
 |:-----|:-----|:-----|
 |**メジャーの名前** <br/> |**単位** <br/> |**説明** <br/> |
@@ -425,10 +425,10 @@ ms.locfileid: "21645212"
 |Second Feedback Token Audio Issue Count  <br/> |評価されたストリームの数  <br/> |第 2 のエンドポイントを使用してユーザーが音声に関する問題を示したストリームの数。  <br/> |
 |First Feedback Token Video Issue Count  <br/> |評価されたストリームの数  <br/> |1 番目のエンドポイントを使用して、ユーザーがビデオの問題を示すストリームの数です。  <br/> |
 |Second Feedback Token Video Issue Count  <br/> |評価されたストリームの数  <br/> |2 番目のエンドポイントを使用して、ユーザーがビデオの問題を示すストリームの数です。  <br/> |
-|Audio SLA Good Call Count  <br/> |通話の数  <br/> |ネットワークのパフォーマンスを目標として分類されるビジネス音声品質の SLA ([ボリューム ライセンスのマイクロソフト製品やオンライン サービス](http://aka.ms/voicequalitysla)) は、Skype のスコープ内での音声通話の数です。  <br/> |
-|Audio SLA Poor Call Count  <br/> |通話の数  <br/> |ビジネス音声品質 SLA ([ボリューム ライセンスのマイクロソフト製品やオンライン サービス](http://aka.ms/voicequalitysla)) として、ネットワークのパフォーマンス目標を満たしていない分類は、Skype のスコープ内での音声通話の数です。  <br/> |
-|Audio SLA Call Count  <br/> |通話の数  <br/> |ビジネス音声品質の SLA ([ボリューム ライセンスのマイクロソフト製品やオンライン サービス](http://aka.ms/voicequalitysla)) は、Skype のスコープ内での音声通話の数です。  <br/> |
-|Audio SLA Good Call Percentage  <br/> |パーセンテージ  <br/> |ネットワーク パフォーマンス ターゲットを満たしていると分類された Skype for Business 音声品質 SLA ([マイクロソフト製品およびオンライン サービスのボリューム ライセンス](http://aka.ms/voicequalitysla)) の範囲内にある音声通話のパーセンテージ。  <br/> |
+|Audio SLA Good Call Count  <br/> |通話の数  <br/> |ネットワークのパフォーマンスを目標として分類されるビジネス音声品質の SLA ([ボリューム ライセンスのマイクロソフト製品やオンライン サービス](https://aka.ms/voicequalitysla)) は、Skype のスコープ内での音声通話の数です。  <br/> |
+|Audio SLA Poor Call Count  <br/> |通話の数  <br/> |ビジネス音声品質 SLA ([ボリューム ライセンスのマイクロソフト製品やオンライン サービス](https://aka.ms/voicequalitysla)) として、ネットワークのパフォーマンス目標を満たしていない分類は、Skype のスコープ内での音声通話の数です。  <br/> |
+|Audio SLA Call Count  <br/> |通話の数  <br/> |ビジネス音声品質の SLA ([ボリューム ライセンスのマイクロソフト製品やオンライン サービス](https://aka.ms/voicequalitysla)) は、Skype のスコープ内での音声通話の数です。  <br/> |
+|Audio SLA Good Call Percentage  <br/> |パーセンテージ  <br/> |ネットワーク パフォーマンス ターゲットを満たしていると分類された Skype for Business 音声品質 SLA ([マイクロソフト製品およびオンライン サービスのボリューム ライセンス](https://aka.ms/voicequalitysla)) の範囲内にある音声通話のパーセンテージ。  <br/> |
 |Audio Good Call Stream Count  <br/> |ストリームの数  <br/> |両方のオーディオ ストリームの呼び出し (呼び出しレグ) でないとしてまったく役に立たなかったネットワークの基準に基づいて分類するオーディオ ストリームの数がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
 |Audio Poor Call Stream Count  <br/> |ストリームの数  <br/> |呼び出し (呼び出しレグ) で少なくとも 1 つのオーディオ ストリームがネットワーク メトリックに基づく劣としてどのように分類された場所のオーディオ ストリームの数がここに表示されます:[品質のダッシュ ボードの呼び出しでストリームのクラス分け](stream-classification-in-call-quality-dashboard.md)します。  <br/> |
 |Audio Unclassified Call Stream Count  <br/> |ストリームの数  <br/> |両方のオーディオ ストリームの呼び出し (呼び出しレグ) 分類できなかったネットワークの測定基準の欠如のためのオーディオ ストリームの数です。  <br/> |
@@ -496,13 +496,12 @@ ms.locfileid: "21645212"
 |Firewall IP Blocked Media Failure Percentage  <br/> |パーセンテージ  <br/> |ネットワーク機器が Skype for Business サーバーへのアクセスをブロックしたために確立できなかったストリームのパーセンテージ。これらの失敗は、通常はプロキシ、ファイアウォール、その他のネットワーク セキュリティ デバイスが、Office 365 の Skype for Business によって使用された IP アドレスとポートにアクセスするように正しく構成されていないことを示します。  <br/> |
 |Media Failed Due To Firewall DPI Stream Count  <br/> |ストリームの数  <br/> |ネットワーク機器が Skype for Business トラフィックへのアクセスを許可しないディープ パケット インスペクションのために確立できなかったストリームの数。これらの失敗は、通常はプロキシ、ファイアウォール、その他のネットワーク セキュリティ デバイスが、Office 365 の Skype for Business によって使用された IP アドレスとポートにアクセスするように正しく構成されていないことを示します。  <br/> |
 |Firewall DPI Media Failure Percentage  <br/> |パーセンテージ  <br/> |ネットワーク機器が Skype for Business トラフィックへのアクセスを許可しないディープ パケット インスペクションのために確立できなかったストリームのパーセンテージ。これらの失敗は、通常はプロキシ、ファイアウォール、その他のネットワーク セキュリティ デバイスが、Office 365 の Skype for Business によって使用された IP アドレスとポートにアクセスするように正しく構成されていないことを示します。  <br/> |
-   
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+
+## <a name="related-topics"></a>関連トピック
 [Skype for Business の通話分析をセットアップする](set-up-call-analytics.md)
 
 [通話分析を使用して Skype for Business の低い通話品質をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [呼び出しを分析し、通話品質のダッシュ ボード](Difference-between-call-analytics-and-call-quality-dashboard.md)
 
-  
- 
+

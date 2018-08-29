@@ -12,12 +12,12 @@ MS.collection: Strat_MT_TeamsAdmin
 description: クラウド、同期済み、フェデレーションなど、Microsoft Teams のさまざまな ID モデルを紹介します。また、多要素認証についても紹介します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdc9c61938afe2173f5fe1326a0431d781144c7b
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
-ms.translationtype: MT
+ms.openlocfilehash: da61ca04e97670084a4df866c8bcfbe794343662
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "18999785"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23248561"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft Teams での ID モデルと認証
 ==========================================
@@ -45,7 +45,7 @@ Microsoft Teams は、Office 365 で利用できるすべての ID モデルを�
 
 詳細については、[Choosing a sign-in model for Office 365 (Office 365 のサインイン モデルを選ぶ)](https://go.microsoft.com/fwlink/?linkid=854626)および[Office 365 ID と Azure Active Directory について](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9)を参照してください。
 
-<a name="multi-factor-authentication"></a>複数要素の認証 
+<a name="multi-factor-authentication"></a>複数要素の認証
 ----------------------------
 
 Office 365 プランでは、Office 365 サービスへのユーザー ログインのセキュリティを高める多要素認証 (MFA) をサポートしています。Office 365 の MFA では、ユーザーはパスワードを正しく入力した後に、自分のスマートフォンで電話、テキスト メッセージ、またはアプリの通知を承認します。この 2 番目の認証要素が満たされた後に、ユーザーはサイン インできるようになります。
@@ -58,4 +58,4 @@ MFA に登録したユーザーは、次回のサインイン時に、2 番目�
 |テナント タイプ  |MFA の 2 番目の要素に関する利用可能なオプション  |メモ  |
 |---------|---------|---------|
 |**クラウドのみ**     |Office 365 の MFA <ul><li>電話</li><li>テキスト メッセージ</li><li>モバイル アプリへの通知</li><li>モバイル アプリの確認コード</li></ul>        |[Office 365 展開用の多要素認証の計画](https://support.office.com/article/Plan-for-multi-factor-authentication-for-Office-365-Deployments-043807b2-21db-4d5c-b430-c8a6dee0e6ba)         |
-|**ハイブリッド セットアップ (同期済みまたはフェデレーション ID モデル)**     |<ul><li>Office 365 の MFA</li><li>Azure MFA モジュール (ADFS 統合)</li><li>物理または仮想スマート カード (ADFS 統合)</li></ul>         |注意: その他の MFA ソリューションは、[Identity providers that are compatible with Azure AD federation (Azure AD との互換性がある ID プロバイダー)](http://go.microsoft.com/fwlink/p/?LinkId=510953) で確認できます。         |
+|**ハイブリッド セットアップ (同期済みまたはフェデレーション ID モデル)**     |<ul><li>Office 365 の MFA</li><li>Azure MFA モジュール (ADFS 統合)</li><li>物理または仮想スマート カード (ADFS 統合)</li></ul>         |注意: その他の MFA ソリューションは、[Identity providers that are compatible with Azure AD federation (Azure AD との互換性がある ID プロバイダー)](https://go.microsoft.com/fwlink/p/?LinkId=510953) で確認できます。         |
