@@ -13,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
 description: ブランチ サイトの復元に関する詳細については、ブランチ サイトの音声の復元の計画を参照してください。
-ms.openlocfilehash: 1520683c7ea9bb4334bddb544da3267ff649b71e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 24c4958fb16f20e5b929219ce54e6083b8addfc6
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974607"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23262394"
 ---
-# <a name="branch-sites-planning-tool"></a><span data-ttu-id="ae389-103">ブランチ サイト (計画ツール)</span><span class="sxs-lookup"><span data-stu-id="ae389-103">Branch Sites (Planning Tool)</span></span>
- 
-<span data-ttu-id="ae389-104">ブランチ サイトの復元に関する詳細については、[ブランチ サイトの音声の復元の計画](http://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="ae389-104">For details about branch-site resiliency, see [Planning for Branch-Site Voice Resiliency](http://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).</span></span>
-  
+# <a name="branch-sites-planning-tool"></a><span data-ttu-id="13ba6-103">ブランチ サイト (計画ツール)</span><span class="sxs-lookup"><span data-stu-id="13ba6-103">Branch Sites (Planning Tool)</span></span>
+
+<span data-ttu-id="13ba6-104">ブランチ サイトの復元に関する詳細については、[ブランチ サイトの音声の復元の計画](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="13ba6-104">For details about branch-site resiliency, see [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).</span></span>
+
 

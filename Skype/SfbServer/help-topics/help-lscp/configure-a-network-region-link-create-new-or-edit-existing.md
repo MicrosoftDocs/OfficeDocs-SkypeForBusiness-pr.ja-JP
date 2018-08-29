@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4c4225d4-3a51-4f54-a6cb-c262e07c51fd
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: f5960a7c47ce41c7451e970fbbd8498d34080157
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2383c3cc6b129c6d812cdca5f261752421948092
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20990588"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23248304"
 ---
-# <a name="configure-a-network-region-link-create-new-or-edit-existing"></a><span data-ttu-id="fe565-104">ネットワーク地域リンクを構成する: 新規作成または既存の編集</span><span class="sxs-lookup"><span data-stu-id="fe565-104">Configure a Network Region Link: Create New or Edit Existing</span></span>
- 
-<span data-ttu-id="fe565-p102">目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="fe565-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="fe565-107">ネットワーク地域リンクを構成します。</span><span class="sxs-lookup"><span data-stu-id="fe565-107">Configuring Network Region Links</span></span>](http://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
-    
-<span data-ttu-id="fe565-108">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="fe565-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+# <a name="configure-a-network-region-link-create-new-or-edit-existing"></a><span data-ttu-id="c387e-104">ネットワーク地域リンクを構成する: 新規作成または既存の編集</span><span class="sxs-lookup"><span data-stu-id="c387e-104">Configure a Network Region Link: Create New or Edit Existing</span></span>
+
+<span data-ttu-id="c387e-p102">目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="c387e-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+
+- [<span data-ttu-id="c387e-107">ネットワーク地域リンクを構成します。</span><span class="sxs-lookup"><span data-stu-id="c387e-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
+
+<span data-ttu-id="c387e-108">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c387e-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

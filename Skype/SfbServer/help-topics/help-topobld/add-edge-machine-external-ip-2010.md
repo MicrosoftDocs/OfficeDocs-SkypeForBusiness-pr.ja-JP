@@ -12,25 +12,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17906fc5-1b5c-4819-849d-bebf0496a763
 description: アクセス エッジ サービス、Web 会議エッジ サービス、および A の外部の場所にエッジ サーバーを指すようにこのページのプロパティを構成することができます/音声ビデオ エッジ サービスです。
-ms.openlocfilehash: 969c403d91b2bbd3b2c7622a9c9e4e21c67be5b5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6db8a328ed70f33563b238e404567f4d8bdf04dc
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974299"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23261687"
 ---
-# <a name="add-edge-machine-external-ip-2010"></a><span data-ttu-id="1bc9d-103">境界コンピューターの外部 IP 2010 を追加します。</span><span class="sxs-lookup"><span data-stu-id="1bc9d-103">Add Edge Machine External IP 2010</span></span>
- 
-<span data-ttu-id="1bc9d-104">アクセス エッジ サービス、Web 会議エッジ サービス、および A の外部の場所にエッジ サーバーを指すようにこのページのプロパティを構成することができます/音声ビデオ エッジ サービスです。</span><span class="sxs-lookup"><span data-stu-id="1bc9d-104">You can configure the properties on this page to point the Edge Server to the external locations of the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
-  
-- <span data-ttu-id="1bc9d-105">[**外部 IPv4 アドレス**、**アクセス エッジ サービス**、 **Web 会議エッジ サービス**では、エッジ サーバーの外部 IPv4 アドレスを入力し、 **A/V エッジ サービス**。</span><span class="sxs-lookup"><span data-stu-id="1bc9d-105">Under **External IPv4 addresses**, type the external IPv4 addresses of the Edge Server in **Access Edge service**, **Web Conferencing Edge service**, and **A/V Edge service**.</span></span>
-    
-- <span data-ttu-id="1bc9d-106">保存し、トポロジの文書に変更をコミットするのには、 **[ok]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="1bc9d-106">Click **OK** to save and commit your changes to the topology document.</span></span>
-    
-- <span data-ttu-id="1bc9d-107">変更を破棄して、**エッジ プール サーバーの追加**ウィザードを終了する**キャンセル**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="1bc9d-107">Click **Cancel** to discard your changes and close the **Add server to the Edge Pool** wizard.</span></span>
-    
-- <span data-ttu-id="1bc9d-108">このヘルプ トピック**のヘルプ**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="1bc9d-108">Click **Help** to read this Help topic.</span></span>
-    
-<span data-ttu-id="1bc9d-109">既存のトポロジにエッジ サーバーを追加する方法の詳細は、[エッジ トポロジの定義](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="1bc9d-109">For details about adding Edge Servers to an existing topology, see [Define Your Edge Topology](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span></span> <span data-ttu-id="1bc9d-110">エッジ サーバーを移行する方法についてを参照してください[フェーズ 5: Lync Server 2013 プレビュー エッジ サーバーの追加パイロット プールに](http://technet.microsoft.com/library/d2fd0a2f-8fec-4f86-a5b0-7f7d03172016.aspx)。</span><span class="sxs-lookup"><span data-stu-id="1bc9d-110">For information about migrating Edge Servers, see [Phase 5: Add Lync Server 2013 Preview Edge Server to Pilot Pool](http://technet.microsoft.com/library/d2fd0a2f-8fec-4f86-a5b0-7f7d03172016.aspx).</span></span>
-  
+# <a name="add-edge-machine-external-ip-2010"></a><span data-ttu-id="9bd18-103">境界コンピューターの外部 IP 2010 を追加します。</span><span class="sxs-lookup"><span data-stu-id="9bd18-103">Add Edge Machine External IP 2010</span></span>
+
+<span data-ttu-id="9bd18-104">アクセス エッジ サービス、Web 会議エッジ サービス、および A の外部の場所にエッジ サーバーを指すようにこのページのプロパティを構成することができます/音声ビデオ エッジ サービスです。</span><span class="sxs-lookup"><span data-stu-id="9bd18-104">You can configure the properties on this page to point the Edge Server to the external locations of the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
+
+- <span data-ttu-id="9bd18-105">[**外部 IPv4 アドレス**、**アクセス エッジ サービス**、 **Web 会議エッジ サービス**では、エッジ サーバーの外部 IPv4 アドレスを入力し、 **A/V エッジ サービス**。</span><span class="sxs-lookup"><span data-stu-id="9bd18-105">Under **External IPv4 addresses**, type the external IPv4 addresses of the Edge Server in **Access Edge service**, **Web Conferencing Edge service**, and **A/V Edge service**.</span></span>
+
+- <span data-ttu-id="9bd18-106">保存し、トポロジの文書に変更をコミットするのには、 **[ok]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="9bd18-106">Click **OK** to save and commit your changes to the topology document.</span></span>
+
+- <span data-ttu-id="9bd18-107">変更を破棄して、**エッジ プール サーバーの追加**ウィザードを終了する**キャンセル**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="9bd18-107">Click **Cancel** to discard your changes and close the **Add server to the Edge Pool** wizard.</span></span>
+
+- <span data-ttu-id="9bd18-108">このヘルプ トピック**のヘルプ**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="9bd18-108">Click **Help** to read this Help topic.</span></span>
+
+<span data-ttu-id="9bd18-109">既存のトポロジにエッジ サーバーを追加する方法の詳細は、[エッジ トポロジの定義](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9bd18-109">For details about adding Edge Servers to an existing topology, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span></span> <span data-ttu-id="9bd18-110">エッジ サーバーを移行する方法についてを参照してください[フェーズ 5: Lync Server 2013 プレビュー エッジ サーバーの追加パイロット プールに](https://technet.microsoft.com/library/d2fd0a2f-8fec-4f86-a5b0-7f7d03172016.aspx)。</span><span class="sxs-lookup"><span data-stu-id="9bd18-110">For information about migrating Edge Servers, see [Phase 5: Add Lync Server 2013 Preview Edge Server to Pilot Pool](https://technet.microsoft.com/library/d2fd0a2f-8fec-4f86-a5b0-7f7d03172016.aspx).</span></span>
+
 

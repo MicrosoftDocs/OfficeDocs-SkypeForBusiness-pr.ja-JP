@@ -16,21 +16,21 @@ ms.collection:
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 ROBOTS: NOINDEX, NOFOLLOW
 description: ビジネス サーバ ハイブリッドの管理ウィザードの Skype を Skype でオンライン ビジネスのハイブリッド環境を構成する際に使用します。
-ms.openlocfilehash: 012acb21f78707a17f8c90fde490d4d7d9a2b1fb
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b656aae6b60858c4637d49532a6fcf34d8631ccc
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20971140"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23248405"
 ---
-# <a name="hybrid-wizard-sign-in-to-office-365"></a><span data-ttu-id="153de-103">ハイブリッド ウィザード: Office 365 へのサインイン</span><span class="sxs-lookup"><span data-stu-id="153de-103">Hybrid wizard: Sign in to Office 365</span></span>
- 
-<span data-ttu-id="153de-104">ビジネス サーバ ハイブリッドの管理ウィザードの Skype を Skype でオンライン ビジネスのハイブリッド環境を構成する際に使用します。</span><span class="sxs-lookup"><span data-stu-id="153de-104">Use the Skype for Business Server Hybrid Manageability wizard to help you configure your environment for hybrid with Skype for Business Online.</span></span>
-  
-## <a name="sign-in-to-office-365"></a><span data-ttu-id="153de-105">Office 365 にサインインする</span><span class="sxs-lookup"><span data-stu-id="153de-105">Sign in to Office 365</span></span>
+# <a name="hybrid-wizard-sign-in-to-office-365"></a><span data-ttu-id="9555b-103">ハイブリッド ウィザード: Office 365 へのサインイン</span><span class="sxs-lookup"><span data-stu-id="9555b-103">Hybrid wizard: Sign in to Office 365</span></span>
 
-<span data-ttu-id="153de-p101">Office 365 テナント用のユーザー名とパスワードを入力して、Office 365 テナントを使用する内部設置型の展開にログインして接続します。Office 365 にサインアップしたときに onmicrosoft ドメイン用に作成された管理アカウント (admin@contoso.onmicrosoft.com など) を使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="153de-p101">Enter the user name and password for your Office 365 tenant to login and connect your on-premises deployment with your Office 365 tenant. You'll need to use the admin account that was created for the onmicrosoft domain when you signed up for Office 365, for example, admin@contoso.onmicrosoft.com.</span></span>
-  
-<span data-ttu-id="153de-108">ハイブリッド環境を設定する方法の詳細については、[ハイブリッド展開の概要](http://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="153de-108">For more information about how to configure your environment for hybrid, see [Overview of hybrid deployments](http://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).</span></span>
-  
+<span data-ttu-id="9555b-104">ビジネス サーバ ハイブリッドの管理ウィザードの Skype を Skype でオンライン ビジネスのハイブリッド環境を構成する際に使用します。</span><span class="sxs-lookup"><span data-stu-id="9555b-104">Use the Skype for Business Server Hybrid Manageability wizard to help you configure your environment for hybrid with Skype for Business Online.</span></span>
+
+## <a name="sign-in-to-office-365"></a><span data-ttu-id="9555b-105">Office 365 にサインインする</span><span class="sxs-lookup"><span data-stu-id="9555b-105">Sign in to Office 365</span></span>
+
+<span data-ttu-id="9555b-p101">Office 365 テナント用のユーザー名とパスワードを入力して、Office 365 テナントを使用する内部設置型の展開にログインして接続します。Office 365 にサインアップしたときに onmicrosoft ドメイン用に作成された管理アカウント (admin@contoso.onmicrosoft.com など) を使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="9555b-p101">Enter the user name and password for your Office 365 tenant to login and connect your on-premises deployment with your Office 365 tenant. You'll need to use the admin account that was created for the onmicrosoft domain when you signed up for Office 365, for example, admin@contoso.onmicrosoft.com.</span></span>
+
+<span data-ttu-id="9555b-108">ハイブリッド環境を設定する方法の詳細については、[ハイブリッド展開の概要](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9555b-108">For more information about how to configure your environment for hybrid, see [Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).</span></span>
+
 

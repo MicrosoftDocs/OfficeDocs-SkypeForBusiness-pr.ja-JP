@@ -12,45 +12,45 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 description: 環境内でサポートするクライアントのバージョンを指定するだけでなく、バージョン ポリシーを定義していないクライアントの既定のアクションを指定することも。 これにより、お客様の環境では、複数のクライアント バージョンのサポートに伴うコストを制御することができますで使用するクライアント バージョンを制限することができます。
-ms.openlocfilehash: 5740684ee266bf3f976e355fb222988a7261277a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f2b15966b135ffcaf8379a9ea2b1c3da377c3686
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21025927"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23254477"
 ---
-# <a name="client-version-configuration"></a><span data-ttu-id="6bd8f-104">クライアント バージョンの構成</span><span class="sxs-lookup"><span data-stu-id="6bd8f-104">Client Version Configuration</span></span>
- 
-<span data-ttu-id="6bd8f-105">環境内でサポートするクライアントのバージョンを指定するだけでなく、バージョン ポリシーを定義していないクライアントの既定のアクションを指定することも。</span><span class="sxs-lookup"><span data-stu-id="6bd8f-105">In addition to specifying the version of clients that you want to support in your environment, you can also specify a default action for clients that do not already have a version policy defined.</span></span> <span data-ttu-id="6bd8f-106">これにより、お客様の環境では、複数のクライアント バージョンのサポートに伴うコストを制御することができますで使用するクライアント バージョンを制限することができます。</span><span class="sxs-lookup"><span data-stu-id="6bd8f-106">This enables you to restrict which client versions are used in your environment, which can help you to control the costs associated with supporting multiple client versions.</span></span>
-  
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="6bd8f-107">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="6bd8f-107">Tasks you can perform</span></span>
+# <a name="client-version-configuration"></a><span data-ttu-id="65dda-104">クライアント バージョンの構成</span><span class="sxs-lookup"><span data-stu-id="65dda-104">Client Version Configuration</span></span>
 
-<span data-ttu-id="6bd8f-108">**クライアント バージョンの構成**] ページで、次のタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="6bd8f-108">You can perform the following tasks on the **Client Version Configuration** page:</span></span>
-  
-- <span data-ttu-id="6bd8f-109">(**グローバル**) の既定のクライアント バージョンの構成を編集します。</span><span class="sxs-lookup"><span data-stu-id="6bd8f-109">Edit the default ( **Global**) client version configuration.</span></span>
-    
-- <span data-ttu-id="6bd8f-110">特定のサイトのクライアント バージョンの構成を作成します。</span><span class="sxs-lookup"><span data-stu-id="6bd8f-110">Create client version configuration for a particular site.</span></span>
-    
-- <span data-ttu-id="6bd8f-111">有効にして、既存のクライアント バージョンの構成を無効にします。</span><span class="sxs-lookup"><span data-stu-id="6bd8f-111">Enable and disable existing client version configurations.</span></span>
-    
+<span data-ttu-id="65dda-105">環境内でサポートするクライアントのバージョンを指定するだけでなく、バージョン ポリシーを定義していないクライアントの既定のアクションを指定することも。</span><span class="sxs-lookup"><span data-stu-id="65dda-105">In addition to specifying the version of clients that you want to support in your environment, you can also specify a default action for clients that do not already have a version policy defined.</span></span> <span data-ttu-id="65dda-106">これにより、お客様の環境では、複数のクライアント バージョンのサポートに伴うコストを制御することができますで使用するクライアント バージョンを制限することができます。</span><span class="sxs-lookup"><span data-stu-id="65dda-106">This enables you to restrict which client versions are used in your environment, which can help you to control the costs associated with supporting multiple client versions.</span></span>
+
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="65dda-107">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="65dda-107">Tasks you can perform</span></span>
+
+<span data-ttu-id="65dda-108">**クライアント バージョンの構成**] ページで、次のタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="65dda-108">You can perform the following tasks on the **Client Version Configuration** page:</span></span>
+
+- <span data-ttu-id="65dda-109">(**グローバル**) の既定のクライアント バージョンの構成を編集します。</span><span class="sxs-lookup"><span data-stu-id="65dda-109">Edit the default ( **Global**) client version configuration.</span></span>
+
+- <span data-ttu-id="65dda-110">特定のサイトのクライアント バージョンの構成を作成します。</span><span class="sxs-lookup"><span data-stu-id="65dda-110">Create client version configuration for a particular site.</span></span>
+
+- <span data-ttu-id="65dda-111">有効にして、既存のクライアント バージョンの構成を無効にします。</span><span class="sxs-lookup"><span data-stu-id="65dda-111">Enable and disable existing client version configurations.</span></span>
+
 > [!NOTE]
-> <span data-ttu-id="6bd8f-112">匿名ユーザーがサイトに関連付けられていないため、グローバル レベルのポリシーだけでは匿名ユーザーが影響を受けます。</span><span class="sxs-lookup"><span data-stu-id="6bd8f-112">Because anonymous users are not associated with a site, anonymous users are affected by global-level policies only.</span></span> 
-  
-## <a name="ui-reference"></a><span data-ttu-id="6bd8f-113">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="6bd8f-113">UI Reference</span></span>
+> <span data-ttu-id="65dda-112">匿名ユーザーがサイトに関連付けられていないため、グローバル レベルのポリシーだけでは匿名ユーザーが影響を受けます。</span><span class="sxs-lookup"><span data-stu-id="65dda-112">Because anonymous users are not associated with a site, anonymous users are affected by global-level policies only.</span></span>
 
-<span data-ttu-id="6bd8f-114">以下は、ページ上のメニュー、コマンド、フィールド、およびプロパティについての説明です。</span><span class="sxs-lookup"><span data-stu-id="6bd8f-114">The following lists describe the menus, command, fields, and properties on the page.</span></span>
-  
-- <span data-ttu-id="6bd8f-115">**新しい**特定のサイトのクライアント バージョンの構成を作成することができます。</span><span class="sxs-lookup"><span data-stu-id="6bd8f-115">**New** You can create a client version configuration for a particular site.</span></span>
-    
-- <span data-ttu-id="6bd8f-116">**編集**クライアント バージョン ポリシーのいずれかのオプションを変更することができます。</span><span class="sxs-lookup"><span data-stu-id="6bd8f-116">**Edit** You can change the options of any of the client version policies.</span></span> <span data-ttu-id="6bd8f-117">このオプションを使用すると、以下を実行できます、します。</span><span class="sxs-lookup"><span data-stu-id="6bd8f-117">Using this option, you can do the following:</span></span>
-    
-  - <span data-ttu-id="6bd8f-118">**詳細を表示します。** このオプションは、クライアント バージョンの構成のオプションを変更できるダイアログ ボックスを開きます。</span><span class="sxs-lookup"><span data-stu-id="6bd8f-118">**Show details** This option opens a dialog box in which you can change the options for a client version configuration.</span></span>
-    
-  - <span data-ttu-id="6bd8f-119">**すべてを選択**このオプションでは、一覧のすべてのクライアント バージョンの構成を選択します。</span><span class="sxs-lookup"><span data-stu-id="6bd8f-119">**Select All** This option selects all client version configurations in the list.</span></span>
-    
-  - <span data-ttu-id="6bd8f-120">**削除**このオプションは、選択したクライアントのバージョンのすべての構成を削除します。</span><span class="sxs-lookup"><span data-stu-id="6bd8f-120">**Delete** This option deletes all selected client version configurations.</span></span>
-    
-- <span data-ttu-id="6bd8f-121">**更新**クライアント バージョンの構成] ボックスの一覧のすべてのクライアント バージョンの構成オプションの状態を確認するのにを更新することができます。</span><span class="sxs-lookup"><span data-stu-id="6bd8f-121">**Refresh** You can refresh the client version configuration list to verify the status of the options of all client version configurations.</span></span>
-    
-<span data-ttu-id="6bd8f-122">クライアントとクライアントのバージョン間での相互運用性に関する詳細については、計画ドキュメントに[Lync 2013 プレビューでのクライアントの相互運用性](http://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="6bd8f-122">For details about interoperability among clients and client versions, see [Client Interoperability in Lync 2013 Preview](http://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in the Planning documentation.</span></span> <span data-ttu-id="6bd8f-123">クライアント バージョンの構成の操作に関する詳細については、操作マニュアルの[変更クライアントに明示的にサポートされていないまたは制限付きサイトの既定のアクション](http://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="6bd8f-123">For details about working with client version configurations, see [Modify the Default Action for Clients Not Explicitly Supported or Restricted](http://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) in the Operations documentation.</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="65dda-113">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="65dda-113">UI Reference</span></span>
+
+<span data-ttu-id="65dda-114">以下は、ページ上のメニュー、コマンド、フィールド、およびプロパティについての説明です。</span><span class="sxs-lookup"><span data-stu-id="65dda-114">The following lists describe the menus, command, fields, and properties on the page.</span></span>
+
+- <span data-ttu-id="65dda-115">**新しい**特定のサイトのクライアント バージョンの構成を作成することができます。</span><span class="sxs-lookup"><span data-stu-id="65dda-115">**New** You can create a client version configuration for a particular site.</span></span>
+
+- <span data-ttu-id="65dda-116">**編集**クライアント バージョン ポリシーのいずれかのオプションを変更することができます。</span><span class="sxs-lookup"><span data-stu-id="65dda-116">**Edit** You can change the options of any of the client version policies.</span></span> <span data-ttu-id="65dda-117">このオプションを使用すると、以下を実行できます、します。</span><span class="sxs-lookup"><span data-stu-id="65dda-117">Using this option, you can do the following:</span></span>
+
+  - <span data-ttu-id="65dda-118">**詳細を表示します。** このオプションは、クライアント バージョンの構成のオプションを変更できるダイアログ ボックスを開きます。</span><span class="sxs-lookup"><span data-stu-id="65dda-118">**Show details** This option opens a dialog box in which you can change the options for a client version configuration.</span></span>
+
+  - <span data-ttu-id="65dda-119">**すべてを選択**このオプションでは、一覧のすべてのクライアント バージョンの構成を選択します。</span><span class="sxs-lookup"><span data-stu-id="65dda-119">**Select All** This option selects all client version configurations in the list.</span></span>
+
+  - <span data-ttu-id="65dda-120">**削除**このオプションは、選択したクライアントのバージョンのすべての構成を削除します。</span><span class="sxs-lookup"><span data-stu-id="65dda-120">**Delete** This option deletes all selected client version configurations.</span></span>
+
+- <span data-ttu-id="65dda-121">**更新**クライアント バージョンの構成] ボックスの一覧のすべてのクライアント バージョンの構成オプションの状態を確認するのにを更新することができます。</span><span class="sxs-lookup"><span data-stu-id="65dda-121">**Refresh** You can refresh the client version configuration list to verify the status of the options of all client version configurations.</span></span>
+
+<span data-ttu-id="65dda-122">クライアントとクライアントのバージョン間での相互運用性に関する詳細については、計画ドキュメントに[Lync 2013 プレビューでのクライアントの相互運用性](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="65dda-122">For details about interoperability among clients and client versions, see [Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in the Planning documentation.</span></span> <span data-ttu-id="65dda-123">クライアント バージョンの構成の操作に関する詳細については、操作マニュアルの[変更クライアントに明示的にサポートされていないまたは制限付きサイトの既定のアクション](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="65dda-123">For details about working with client version configurations, see [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) in the Operations documentation.</span></span>
 

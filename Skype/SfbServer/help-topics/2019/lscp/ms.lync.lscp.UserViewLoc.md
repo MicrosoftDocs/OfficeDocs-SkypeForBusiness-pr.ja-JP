@@ -12,18 +12,18 @@ localization_priority: Normal
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 0408dd3e75798147bb96d0c21d6d911562e1c9a9
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 96315ea754a435230c4d8f4ed92ca74f43914e58
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20992697"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23252976"
 ---
-# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="68bf7-104">ユーザーを表示または場所のポリシーを構成します。</span><span class="sxs-lookup"><span data-stu-id="68bf7-104">Users: View or Configure Location Policy</span></span>
- 
-<span data-ttu-id="68bf7-p102">目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="68bf7-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="68bf7-107">場所のポリシーをユーザーに割り当てる</span><span class="sxs-lookup"><span data-stu-id="68bf7-107">Assign a Location Policy to a User</span></span>](http://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
-    
- 
+# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="6e67f-104">ユーザーを表示または場所のポリシーを構成します。</span><span class="sxs-lookup"><span data-stu-id="6e67f-104">Users: View or Configure Location Policy</span></span>
+
+<span data-ttu-id="6e67f-p102">目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="6e67f-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+
+- [<span data-ttu-id="6e67f-107">場所のポリシーをユーザーに割り当てる</span><span class="sxs-lookup"><span data-stu-id="6e67f-107">Assign a Location Policy to a User</span></span>](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+
+
 

@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 446915b6-462e-4cc1-8584-9f59f7eb8cc8
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 3170a14c5e6a38aa660a70ed706cf29623e4065e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: dd42e59f7aa9ed3757c10244a8d43d6ddab29e50
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21029385"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23262429"
 ---
-# <a name="users-view-or-configure-client-version-policy"></a><span data-ttu-id="d4a54-104">ユーザーを表示またはクライアント バージョン ポリシーを構成します。</span><span class="sxs-lookup"><span data-stu-id="d4a54-104">Users: View or Configure Client Version Policy</span></span>
- 
-<span data-ttu-id="d4a54-p102">目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="d4a54-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="d4a54-107">ユーザーがサインインできるクライアント バージョンを指定します。</span><span class="sxs-lookup"><span data-stu-id="d4a54-107">Specify Client Versions Supported for Sign-in by a User</span></span>](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
-    
-<span data-ttu-id="d4a54-108">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d4a54-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+# <a name="users-view-or-configure-client-version-policy"></a><span data-ttu-id="8578e-104">ユーザーを表示またはクライアント バージョン ポリシーを構成します。</span><span class="sxs-lookup"><span data-stu-id="8578e-104">Users: View or Configure Client Version Policy</span></span>
+
+<span data-ttu-id="8578e-p102">目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="8578e-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+
+- [<span data-ttu-id="8578e-107">ユーザーがサインインできるクライアント バージョンを指定します。</span><span class="sxs-lookup"><span data-stu-id="8578e-107">Specify Client Versions Supported for Sign-in by a User</span></span>](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
+
+<span data-ttu-id="8578e-108">詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="8578e-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

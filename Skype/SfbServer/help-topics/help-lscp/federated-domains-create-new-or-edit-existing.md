@@ -12,18 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90979ccd-7439-4a66-b82d-222df1554d66
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: e0bf930427c2dd43f6cc2dc2a1871f5086ac81fd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d35be53b1f50b280b6a961db1f0764f4b6acd406
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23257354"
 ---
-# <a name="federated-domains-create-new-or-edit-existing"></a><span data-ttu-id="ac77a-104">フェデレーション ドメイン: 新規作成または現在の形式のままで編集</span><span class="sxs-lookup"><span data-stu-id="ac77a-104">Federated Domains: Create New or Edit Existing</span></span>
- 
-<span data-ttu-id="ac77a-p102">目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="ac77a-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="ac77a-107">フェデレーション パートナーのアクセスを構成します。</span><span class="sxs-lookup"><span data-stu-id="ac77a-107">Configure Access for Federated Partners</span></span>](http://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
-    
-- [<span data-ttu-id="ac77a-108">監視し、フェデレーション パートナーのアクセスを制御します。</span><span class="sxs-lookup"><span data-stu-id="ac77a-108">Monitor and Control Federated Partner Access</span></span>](http://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
-    
+# <a name="federated-domains-create-new-or-edit-existing"></a><span data-ttu-id="e0589-104">フェデレーション ドメイン: 新規作成または現在の形式のままで編集</span><span class="sxs-lookup"><span data-stu-id="e0589-104">Federated Domains: Create New or Edit Existing</span></span>
+
+<span data-ttu-id="e0589-p102">目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="e0589-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+
+- [<span data-ttu-id="e0589-107">フェデレーション パートナーのアクセスを構成します。</span><span class="sxs-lookup"><span data-stu-id="e0589-107">Configure Access for Federated Partners</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+
+- [<span data-ttu-id="e0589-108">監視し、フェデレーション パートナーのアクセスを制御します。</span><span class="sxs-lookup"><span data-stu-id="e0589-108">Monitor and Control Federated Partner Access</span></span>](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
+
 
