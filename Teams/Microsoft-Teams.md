@@ -4,12 +4,12 @@ hide_bc: true
 title: Microsoft Teams のドキュメンテーションと実践的なガイダンス
 description: Microsoft Teams のドキュメンテーションと実践的なガイダンス
 ms.topic: hub-page
-ms.openlocfilehash: a9fa022e0d70655f916ab76988199fa6d06b648e
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: 519a5a254fcc75b0f29c8f83c7bdf87b00103ccf
+ms.sourcegitcommit: 309941f79f0f8dbcbce620fe90e9f73dd0bcfcbd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546352"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23289900"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -90,7 +90,7 @@ ms.locfileid: "22546352"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Cloud Voice</h3>
-                                                    <p>Teams を使用して電話会議および電話システムの展開を開始するために必要な実践的なガイダンスを見つける</p>
+                                                    <p>オーディオ会議、通話プランを展開し、チーム内のシステムの電話</p>
                                                 </div>
                                             </div>
                                         </div>
