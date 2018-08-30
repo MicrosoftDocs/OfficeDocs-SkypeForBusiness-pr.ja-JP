@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype ルーム システムの次世代を Skype ルーム システム v2 では、管理の詳細については、このトピックを参照してください。
-ms.openlocfilehash: d8dfb5c04d73717e8f20352c6cb422498f5a9b34
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: ae5f8537db63aac74adbcdc8ec13cb7aaa44ad77
+ms.sourcegitcommit: c9b68cbc8199d21a3fa4275db7a663695784afb3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "19179288"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23485793"
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a>Skype ルーム システム v2 のメンテナンスと運用 
  
@@ -57,7 +57,7 @@ Skype ルーム システム v2 がうまく実行されていない、工場出
 次の表に、可能なリモート操作とそれを実行するために使用できる方法を示します。
   
 
-|**ワークグループ**|**ドメインに参加していません。**|**ドメインに参加して**|
+|**ワークグループ **|**ドメインに参加していない場合**|**ドメインに参加している場合**|
 |:-----|:-----|:-----|
 |再起動  <br/> |リモート デスクトップ  <br/> リモート Powershell  <br/> |(さらに設定する必要があります)、リモート デスクトップ  <br/> リモート Powershell を (さらに設定する必要があります)  <br/> SCCM  <br/> |
 |OS の更新  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
@@ -73,9 +73,9 @@ Skype ルーム システム v2 がうまく実行されていない、工場出
 
 |**設定**|**により、**|
 |:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AdminAutoLogon = (dword) 1  <br/> |起動するように Skype ルーム システム v2 を有効に  <br/> |
+|HKLM\SOFTWARE\Microsoft\Windows 指定できます AdminAutoLogon = (REG_SZ) 1  <br/> |起動するように Skype ルーム システム v2 を有効に  <br/> |
 |電源管理 -\> AC、画面をオフに 10 分後  <br/> 電源管理 -\> Ac システムをスリープ状態を配置しません。  <br/> |により、接続されている表示をオフにして、自動的に復帰する Skype ルーム システム v2  <br/> |
-|net accounts /maxpwage:unlimited  <br/> またはローカル アカウントのパスワードの有効期限を無効にするのと同等のことを意味します。 これを行うには、障害が発生する Skype アカウントの期限切れのパスワードについて苦情を言ってログオンが失敗すると、最終的に。 したがってこれを設定して必要があります管理者アカウント、最終的にも期限切れにする] ボックスに、コンピューター上のすべてのローカル アカウントに影響を与えるこのこと注意してください。  <br/> |常にログインするように Skype アカウントを有効にする  <br/> |
+|net accounts /maxpwage:unlimited  <br/> または、ローカル アカウントでパスワードの期限切れを無効にする同等の手段。この設定に失敗すると、パスワードの期限が切れていることが通知され、Skype アカウントのログオンが失敗する原因になります。この影響はマシン上のすべてのローカル アカウントに及びます。したがって、この設定に失敗すると、ボックスの管理アカウントも最終的には期限切れになります。  <br/> |常にログインするように Skype アカウントを有効にする  <br/> |
    
 グループ ポリシーを使用してファイルを転送するは、[構成ファイルの項目](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)で説明します。
   

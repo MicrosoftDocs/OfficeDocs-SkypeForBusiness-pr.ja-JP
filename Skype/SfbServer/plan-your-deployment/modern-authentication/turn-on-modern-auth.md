@@ -11,12 +11,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: 認証方法の詳細に制御を管理者に提供するこの資料のアウトライン コマンドレットでは、業務上の内側と外側を使用します。 管理者は、認証方法を有効にまたは内部、または外部のネットワークにします。
-ms.openlocfilehash: d460632d810eace4a6b43665d1d8e3335e3eae3c
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: 2922d270f7a033a1523083ed15adefc5fb5f331d
+ms.sourcegitcommit: c9b68cbc8199d21a3fa4275db7a663695784afb3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546558"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23485807"
 ---
 # <a name="turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>内部と外部のネットワークに従来の認証方法をオフにします。
 
@@ -59,7 +59,7 @@ __1 の説明を入力:__ 既定値は、この__シナリオの MA がオンに
 
 __タイプ 2 の説明:__ このトポロジ NTLM*外部*ブロックですが、NTLM または Kerberos (ADAL をサポートしていないクライアント) が*内部で*動作します。 ADAL をクライアントがサポートしている場合 MA を内部的に使用します。
 
-__タイプ 3 の説明:__ このトポロジでは、すべてのユーザーの MA が必要です。 ADAL 対応のすべてのクライアントは、このトポロジでは、動作させるし、パスワードは利用できません。
+__タイプ 3 の説明:__ このトポロジでは、すべてのユーザーの MA が必要です。 ADAL 対応のすべてのクライアントは、このトポロジで動作し、Auth. の証明書ベースのパスワードの使用を無効にするなどの場合は、パスワードは利用できません。
 
 __タイプ 4 の説明:__ このトポロジは、NTLM*外部*と MA を内部でブロックします。 により、従来の認証メソッド*内部で*(ADAL に対応したクライアント) を使用する*すべてのクライアント*ができます。
 
