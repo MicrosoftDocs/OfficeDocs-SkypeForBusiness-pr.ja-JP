@@ -20,27 +20,28 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'If you have more than 999 phone numbers to transferred to Skype for Business, learn how to submit a port order service request to get them moved. '
-ms.openlocfilehash: 7ba7743cc8cc5bf6ab29b38680308929f638b47d
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 72b30cb4f7eb2345eae854eb3487fc7752fa4682
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780829"
 ---
 # <a name="submitting-a-service-request-for-local-number-porting"></a>電話番号移行サービスのリクエストを発行する
 
-ビジネス オンラインの (ユーザー、または含む有料または無料のサービス番号) のための 999 を超える数の電話番号を Skype に転送する場合を参照してください[、組織の電話番号を管理します](https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US)。
+ビジネス オンラインの (ユーザー、または含む有料または無料のサービス番号) のための 999 を超える数の電話番号を Skype に転送する場合は、[組織の電話番号の管理](/microsoftteams/manage-phone-numbers-for-your-organization)を参照してください。
 
 > [!NOTE]
 > 無料電話番号
   
-## <a name="related-topics"></a>[米国 (無料の電話番号) 用の承認状 (LOA) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.S. (Toll Free numbers) (v.3.1) (en-US).pdf)
-電話番号の管理フォームのダウンロード
+## <a name="related-topics"></a>関連トピック
+[電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[通話プランで使用されるさまざまな種類の電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[通話プランで使用されるさまざまな種類の電話番号](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[[Skype for Business 新しい電話番号の申請](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。
+[[[Skype for Business 新しい電話番号の申請](/microsoftteams/manage-phone-numbers-for-your-organization)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[緊急通話の利用条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   

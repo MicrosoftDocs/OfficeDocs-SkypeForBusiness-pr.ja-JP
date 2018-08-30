@@ -1,5 +1,5 @@
 ---
-title: 請求先電話番号とは何ですか。
+title: 請求先電話番号について
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,28 +20,29 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: については、Skype をビジネスの電話番号を請求するは、数値を転送する方法に関するステップ バイ ステップの指示を取得する場所です。
-ms.openlocfilehash: 498ccb436adb181aa1399c9643dcaf52f3884663
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: e73a8d003d3be6b14aaacc36fe0c9a8b3f4159b1
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780931"
 ---
-# <a name="what-is-my-billing-telephone-number"></a>請求先電話番号とは何ですか。
+# <a name="what-is-my-billing-telephone-number"></a>請求先電話番号について
 
 請求先電話番号 (BTN) は、料金の請求書に含まれており、サービスプロバイダーまたは通信業者によって請求されるメインの電話番号です。 1 つだけの電話番号を持つアカウントから電話番号を転送する場合にこの電話番号を配置する必要があります。 持つ複数のアカウントからの電話番号を転送する場合は、請求書を見てまたは自分のアカウントの請求先の電話番号を特定するには、サービスプロバイダーまたは通信業者に問い合わせてください。
   
- **完全な手順については、 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)を参照してください。**
+ **完全な手順については、 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)を参照してください。**
 
 > [!NOTE]
 > 無料電話番号
 
   
-## <a name="related-topics"></a>[米国 (無料の電話番号) 用の承認状 (LOA) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.S. (Toll Free numbers) (v.3.1) (en-US).pdf)
-電話番号の管理フォームのダウンロード
+## <a name="related-topics"></a>関連トピック
+[電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[通話プランで使用されるさまざまな種類の電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[通話プランで使用されるさまざまな種類の電話番号](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[緊急通話の利用条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

@@ -1,5 +1,5 @@
 ---
-title: 理由番号のライセンス認証があると不完全なでしょうか。
+title: 番号のアクティブ化が未完了として表示される理由
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。
-ms.openlocfilehash: e18d7562c39f18b07022f2670fd7284e5362a702
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: a62fe50b56edd63490a7c1ba9579b2e5b16a7255
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780847"
 ---
-# <a name="why-is-number-activation-listed-as-incomplete"></a>理由番号のライセンス認証があると不完全なでしょうか。
+# <a name="why-is-number-activation-listed-as-incomplete"></a>番号のアクティブ化が未完了として表示される理由
 
 住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 場合は電話番号はアクティブにし、アドレスの検証のため**不完全である**と記載されているいくつかの理由を作成し、サービス リクエストを送信する必要があります。 これをどのように行うかは、所属する組織のサイズに基づきます。
   
@@ -97,12 +98,12 @@ ms.lasthandoff: 04/26/2018
 > 無料電話番号
 
   
-## <a name="related-topics"></a>[米国 (無料の電話番号) 用の承認状 (LOA) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.S. (Toll Free numbers) (v.3.1) (en-US).pdf)
-電話番号の管理フォームのダウンロード
+## <a name="related-topics"></a>関連トピック
+[電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[通話プランで使用されるさまざまな種類の電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[通話プランで使用されるさまざまな種類の電話番号](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[緊急通話の利用条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
