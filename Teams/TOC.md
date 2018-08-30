@@ -69,6 +69,40 @@
 
 
 <!-- ============================================================ -->
+# [チームにビジネス用の Skype からのアップグレード](Journey-SkypeforBusiness-Teams.md)
+## [チュートリアル: Skype for Business から Teams への移行](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [基本的なアップグレードします。](upgrade-basic.md)
+### [サンプルの電子メールやアンケート](upgrade-emails-surveys.md)
+## [Pro のアップグレードします。](upgrade-pro.md)
+## [アップグレード、旅の計画](upgrade-plan-journey.md)
+### [プロジェクトの利害関係者を参加させる](upgrade-enlist-stakeholders.md)
+### [プロジェクト スコープを定義します。](upgrade-define-project-scope.md)
+### [共存と相互運用性を理解します。](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [アップグレード、旅を選択します。](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [品質管理の計画](upgrade-plan-for-quality.md)
+## [チームの環境を準備します。](upgrade-prepare-environment.md)
+### [チームの IT スタッフを準備します。](upgrade-prepare-IT-pros.md)
+### [前提条件](upgrade-plan-journey-prerequisites.md)
+### [お客様の環境を評価します。](upgrade-plan-journey-evaluate-environment.md)
+### [ネットワークを準備します。](upgrade-prepare-environment-prepare-network.md)
+### [サービスを準備します。](upgrade-prepare-environment-prepare-service.md)
+## [チームの組織を準備します。](upgrade-prepare-organization.md)
+### [組織変更の導入準備を評価します。](upgrade-org-change-readiness.md)
+### [ユーザーの準備の計画を準備します。](upgrade-user-readiness.md)
+## [ユーザーのパイロットを実施します。](pilot-essentials.md)
+## [チームへのアップグレードを実行します。](upgrade-to-teams.md)
+### [チームをオンラインでビジネス用の Skype からのアップグレード](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+### [Skype からチームへのビジネスのハイブリッドをアップグレードします。](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
+### [Skype から設置型のビジネスにアップグレード チーム](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
+## [ユーザーの採用により価値を創出.](continue-journey.md)
+### [サービスを動作します。](upgrade-operate-my-service.md)
+### [モニターの品質](upgrade-monitor-quality.md)
+### [サービスを強化します。](upgrade-enhance-my-service.md)
+## [FAQ](FAQ-journey.md)
+
+<!-- ============================================================ -->
+
+<!-- ============================================================ -->
 # 管理
 ## [レビュー ガイドの経験の質](quality-of-experience-review-guide.md)
 <!--## Call analytics
@@ -102,40 +136,6 @@
 ## [ビデオ - Audio Conferencing in Teams (Teams での電話会議)](audio-conferencing-videos.md)
 <!-- ============================================================ -->
 
-
-<!-- ============================================================ -->
-# [マイクロソフトのチームにビジネス用の Skype からのアップグレード](Journey-SkypeforBusiness-Teams.md)
-## [チュートリアル: Skype for Business から Teams への移行](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-## [基本的なアップグレードします。](upgrade-basic.md)
-### [サンプルの電子メールやアンケート](upgrade-emails-surveys.md)
-## [Pro のアップグレードします。](upgrade-pro.md)
-## [アップグレード、旅の計画](upgrade-plan-journey.md)
-### [プロジェクトの利害関係者を参加させる](upgrade-enlist-stakeholders.md)
-### [プロジェクト スコープを定義します。](upgrade-define-project-scope.md)
-### [共存と相互運用性を理解します。](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-#### [アップグレード、旅を選択します。](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [品質管理の計画](upgrade-plan-for-quality.md)
-## [チームの環境を準備します。](upgrade-prepare-environment.md)
-### [チームの IT スタッフを準備します。](upgrade-prepare-IT-pros.md)
-### [前提条件](upgrade-plan-journey-prerequisites.md)
-### [お客様の環境を評価します。](upgrade-plan-journey-evaluate-environment.md)
-### [ネットワークを準備します。](upgrade-prepare-environment-prepare-network.md)
-### [サービスを準備します。](upgrade-prepare-environment-prepare-service.md)
-## [チームの組織を準備します。](upgrade-prepare-organization.md)
-### [組織変更の導入準備を評価します。](upgrade-org-change-readiness.md)
-### [ユーザーの準備の計画を準備します。](upgrade-user-readiness.md)
-## [ユーザーのパイロットを実施します。](pilot-essentials.md)
-## [チームへのアップグレードを実行します。](upgrade-to-teams.md)
-### [チームをオンラインでビジネス用の Skype からのアップグレード](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-### [Skype からチームへのビジネスのハイブリッドをアップグレードします。](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
-### [Skype から設置型のビジネスにアップグレード チーム](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
-## [ユーザーの採用により価値を創出.](continue-journey.md)
-### [サービスを動作します。](upgrade-operate-my-service.md)
-### [モニターの品質](upgrade-monitor-quality.md)
-### [サービスを強化します。](upgrade-enhance-my-service.md)
-## [FAQ](FAQ-journey.md)
-
-<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # セキュリティとコンプライアンス
@@ -270,7 +270,7 @@
 #### [通話プランで使用されるさまざまな種類の電話番号](/SkypeForBusiness/what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [ユーザー用の電話番号の取得](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [取得できる電話番号の数について](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [組織の電話番号の管理](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [[[Skype for Business 新しい電話番号の申請](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [ユーザーの電話番号を検索する](/SkypeForBusiness/what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [組織の電話番号のリストを表示する](/SkypeForBusiness/what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [電話番号を新しいサービス プロバイダーに移行するための PIN を設定する](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
