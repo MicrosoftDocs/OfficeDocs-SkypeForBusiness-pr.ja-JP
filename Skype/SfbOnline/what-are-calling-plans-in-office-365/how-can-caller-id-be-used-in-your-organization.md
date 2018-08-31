@@ -1,5 +1,5 @@
 ---
-title: 呼び出し元 ID 利用する方法、組織内
+title: 組織内での発信者番号通知の使用方法
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,77 +19,78 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: CallingLineIdentity と呼ばれるポリシーを使用して、電話システムのユーザーの受信と送信の両方の呼び出しに呼び出し元の ID を制御できます。
-ms.openlocfilehash: a1a809805b96152e4b205c8f38b3c8409014eb55
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
-ms.translationtype: MT
+description: 発信者番号通知は、CallingLineIdentity と呼ばれるポリシーを使用して、電話システム ユーザーの着信と発信の両方で制御できます。
+ms.openlocfilehash: 04ee6f0bc074318f30d0257e7466d2d2ec7262aa
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23778997"
 ---
-# <a name="how-can-caller-id-be-used-in-your-organization"></a><span data-ttu-id="0ea68-103">呼び出し元 ID 利用する方法、組織内</span><span class="sxs-lookup"><span data-stu-id="0ea68-103">How can caller ID be used in your organization</span></span>
+# <a name="how-can-caller-id-be-used-in-your-organization"></a><span data-ttu-id="7d874-103">組織内での発信者番号通知の使用方法</span><span class="sxs-lookup"><span data-stu-id="7d874-103">How can caller ID be used in your organization</span></span>
 
-<span data-ttu-id="0ea68-104">CallingLineIdentity と呼ばれるポリシーを使用して、電話システムのユーザーの受信と送信の両方の呼び出しに呼び出し元の ID を制御できます。</span><span class="sxs-lookup"><span data-stu-id="0ea68-104">Caller ID can be controlled for both inbound and outbound calls for Phone System users by using a policy called CallingLineIdentity.</span></span>
+<span data-ttu-id="7d874-104">発信者番号通知は、CallingLineIdentity と呼ばれるポリシーを使用して、電話システム ユーザーの着信と発信の両方で制御できます。</span><span class="sxs-lookup"><span data-stu-id="7d874-104">Caller ID can be controlled for both inbound and outbound calls for Phone System users by using a policy called CallingLineIdentity.</span></span>
   
-<span data-ttu-id="0ea68-105">発信者番号機能は、PSTN への接続に関係なくすべての電話システムのユーザーが使用できます。</span><span class="sxs-lookup"><span data-stu-id="0ea68-105">The Caller ID functionality is available to all Phone System users regardless of PSTN connectivity:</span></span>
+<span data-ttu-id="7d874-105">発信者番号通知機能は、PSTN 接続に関係なくすべての電話システムのユーザーが使用できます。</span><span class="sxs-lookup"><span data-stu-id="7d874-105">The Caller ID functionality is available to all Phone System users regardless of PSTN connectivity:</span></span>
   
-- <span data-ttu-id="0ea68-106">オンラインの PSTN への接続</span><span class="sxs-lookup"><span data-stu-id="0ea68-106">Online PSTN Connectivity</span></span>
+- <span data-ttu-id="7d874-106">オンラインの PSTN 接続</span><span class="sxs-lookup"><span data-stu-id="7d874-106">Online PSTN Connectivity</span></span>
     
-- <span data-ttu-id="0ea68-107">ビジネス クラウド コネクタ ・ エディションの Skype での PSTN への接続を設置 (クラウド コネクタ版 1.4.2 が必要ですし、以降も)</span><span class="sxs-lookup"><span data-stu-id="0ea68-107">On-Premises PSTN Connectivity with Skype for Business Cloud Connector Edition (requires Cloud Connector Edition 1.4.2 and beyond)</span></span>
+- <span data-ttu-id="7d874-107">Skype for Business Cloud Connector Edition を使用したオンプレミスの PSTN 接続 (Cloud Connector Edition 1.4.2 以降が必要です)</span><span class="sxs-lookup"><span data-stu-id="7d874-107">On-Premises PSTN Connectivity with Skype for Business Cloud Connector Edition (requires Cloud Connector Edition 1.4.2 and beyond)</span></span>
     
-- <span data-ttu-id="0ea68-108">(内外のビジネス サーバー 2015 CU5 Skype が必要です) ビジネス サーバーの Skype での PSTN への接続を設置</span><span class="sxs-lookup"><span data-stu-id="0ea68-108">On-Premises PSTN Connectivity with Skype for Business Server (requires Skype for Business Server 2015 CU5 and beyond)</span></span>
+- <span data-ttu-id="7d874-108">Skype for Business Server を使用したオンプレミスの SPTN 接続 (Skype for Business Server 2015 CU5 以降が必要です）</span><span class="sxs-lookup"><span data-stu-id="7d874-108">On-Premises PSTN Connectivity with Skype for Business Server (requires Skype for Business Server 2015 CU5 and beyond)</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="0ea68-109">このポリシーは、ビジネス 2015年サーバーの Skype では使用できません。</span><span class="sxs-lookup"><span data-stu-id="0ea68-109">This policy isn't available in Skype for Business 2015 Server.</span></span> 
+> <span data-ttu-id="7d874-109">このポリシーは、Skype for Business 2015 Server では使用できません。</span><span class="sxs-lookup"><span data-stu-id="7d874-109">This policy isn't available in Skype for Business 2015 Server.</span></span> 
   
-## <a name="outbound-caller-id"></a><span data-ttu-id="0ea68-110">発信の呼び出し元の ID</span><span class="sxs-lookup"><span data-stu-id="0ea68-110">Outbound caller ID</span></span>
+## <a name="outbound-caller-id"></a><span data-ttu-id="7d874-110">発信側の発信者番号通知</span><span class="sxs-lookup"><span data-stu-id="7d874-110">Outbound caller ID</span></span>
 
-<span data-ttu-id="0ea68-111">PSTN 発信者番号通知の送信に使用できるオプションは次の 3 つです。</span><span class="sxs-lookup"><span data-stu-id="0ea68-111">There are three options available for outbound PSTN Caller ID:</span></span>
+<span data-ttu-id="7d874-111">発信側の PSTN 発信者番号通知に使用できるオプションは次の 3 つです。</span><span class="sxs-lookup"><span data-stu-id="7d874-111">There are three options available for outbound PSTN Caller ID:</span></span>
   
-- <span data-ttu-id="0ea68-112">既定では、ユーザーに割り当てられている電話番号です。</span><span class="sxs-lookup"><span data-stu-id="0ea68-112">The telephone number assigned to the user, which is the default.</span></span>
+- <span data-ttu-id="7d874-112">ユーザーに割り当てられた電話番号。既定です。</span><span class="sxs-lookup"><span data-stu-id="7d874-112">The telephone number assigned to the user, which is the default.</span></span>
     
-- <span data-ttu-id="0ea68-113">*サービス*として分類されている電話番号と Office 365 の電話の計画を呼び出すので*フリー ダイヤル*の番号は、在庫を番号します。</span><span class="sxs-lookup"><span data-stu-id="0ea68-113">A telephone number that is classified as a *service* and *toll-free* number in your Calling Plans in Office 365 telephone number inventory.</span></span> <span data-ttu-id="0ea68-114">これは通常、組織の自動アテンダントまたは呼び出しのキューに割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="0ea68-114">It is usually assigned to an organizational auto attendant or call queue.</span></span>
+- <span data-ttu-id="7d874-113">Office 365 の電話番号インベントリの通話プランで*サービス*電話番号と*無料*電話番号として分類されている電話番号。</span><span class="sxs-lookup"><span data-stu-id="7d874-113">A telephone number that is classified as a *service* and *toll-free* number in your Calling Plans in Office 365 telephone number inventory.</span></span> <span data-ttu-id="7d874-114">これは通常、組織の自動応答またはコール キューに割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="7d874-114">It is usually assigned to an organizational auto attendant or call queue.</span></span>
     
-- <span data-ttu-id="0ea68-115">匿名に設定します。</span><span class="sxs-lookup"><span data-stu-id="0ea68-115">Set to anonymous.</span></span>
+- <span data-ttu-id="7d874-115">非通知に設定。</span><span class="sxs-lookup"><span data-stu-id="7d874-115">Set to anonymous.</span></span>
     
-<span data-ttu-id="0ea68-116">ただし、発信呼び出し元 ID のこれらの種類の電話番号を割り当てることはできません。</span><span class="sxs-lookup"><span data-stu-id="0ea68-116">However, you can't assign these types of phone numbers for the outbound caller ID:</span></span>
+<span data-ttu-id="7d874-116">ただし、以下の種類の電話番号を発信側の発信者番号通知に割り当てることはできません。</span><span class="sxs-lookup"><span data-stu-id="7d874-116">However, you can't assign these types of phone numbers for the outbound caller ID:</span></span>
   
-- <span data-ttu-id="0ea68-117">計画を呼び出す電話番号の*ユーザー*として分類されている任意の電話番号の番号の在庫</span><span class="sxs-lookup"><span data-stu-id="0ea68-117">Any phone numbers that are classified as a  *user*  in your Calling Plans telephone number inventory</span></span>
+- <span data-ttu-id="7d874-117">通話プランの電話番号インベントリで*ユーザー*として分類されているすべての電話番号。</span><span class="sxs-lookup"><span data-stu-id="7d874-117">Any phone numbers that are classified as a  *user*  in your Calling Plans telephone number inventory</span></span>
     
-- <span data-ttu-id="0ea68-118">Skype のビジネス サーバー設置型の電話番号</span><span class="sxs-lookup"><span data-stu-id="0ea68-118">A Skype for Business Server on-premises phone number</span></span>
+- <span data-ttu-id="7d874-118">Skype for Business Server のオンプレミスの電話番号</span><span class="sxs-lookup"><span data-stu-id="7d874-118">A Skype for Business Server on-premises phone number</span></span>
     
-<span data-ttu-id="0ea68-119">発信の呼び出し元の ID を設定するには、[ユーザーの発信者番号の設定](set-the-caller-id-for-a-user.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="0ea68-119">To set the outbound caller ID, see [Set the Caller ID for a user](set-the-caller-id-for-a-user.md).</span></span>
+<span data-ttu-id="7d874-119">発信側の発信者番号通知を設定するには、「[ユーザーの発信者番号通知を設定する](set-the-caller-id-for-a-user.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7d874-119">To set the outbound caller ID, see [Set the Caller ID for a user](set-the-caller-id-for-a-user.md).</span></span>
   
-### <a name="end-user-control-of-outbound-caller-id"></a><span data-ttu-id="0ea68-120">発信呼び出し元 ID のユーザー コントロール</span><span class="sxs-lookup"><span data-stu-id="0ea68-120">End User Control of Outbound Caller ID</span></span>
+### <a name="end-user-control-of-outbound-caller-id"></a><span data-ttu-id="7d874-120">発信側の発信者番号通知のエンド ユーザー コントロール</span><span class="sxs-lookup"><span data-stu-id="7d874-120">End User Control of Outbound Caller ID</span></span>
 
-<span data-ttu-id="0ea68-121">EnableUserOverride 属性は、**匿名**の発信者番号通知設定を変更するのには 1 つまたは複数のユーザーを有効にします。</span><span class="sxs-lookup"><span data-stu-id="0ea68-121">The EnableUserOverride attribute enables single or multiple users to change their Caller ID setting to **Anonymous**.</span></span> <span data-ttu-id="0ea68-122">LineURI または代替のいずれかの CallingIDSubstitute パラメーターを持つ CallingLineIdentity ポリシーが構成されている場合こののみ適用されます。</span><span class="sxs-lookup"><span data-stu-id="0ea68-122">This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute.</span></span> <span data-ttu-id="0ea68-123">EnableUserOverride の既定値は、False です。</span><span class="sxs-lookup"><span data-stu-id="0ea68-123">The default value of EnableUserOverride is False.</span></span>
+<span data-ttu-id="7d874-121">EnableUserOverride 属性を使用すると、単独または複数のユーザーが発信者番号通知の設定を **非通知**に変更できます。</span><span class="sxs-lookup"><span data-stu-id="7d874-121">The EnableUserOverride attribute enables single or multiple users to change their Caller ID setting to **Anonymous**.</span></span> <span data-ttu-id="7d874-122">これが適用されるのは、CallingLineIdentity のポリシーが LineURI または Substitute のいずれかの CallingIDSubstitute パラメーターで構成されている場合のみです。</span><span class="sxs-lookup"><span data-stu-id="7d874-122">This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute.</span></span> <span data-ttu-id="7d874-123">EnableUserOverride の既定値は False です。</span><span class="sxs-lookup"><span data-stu-id="7d874-123">The default value is False.</span></span>
   
-<span data-ttu-id="0ea68-124">エンド ・ ユーザーは、Skype のビジネス デスクトップ クライアントの**呼び出しの転送の設定**] タブを使用して、**匿名**の呼び出し元の ID を設定できます。</span><span class="sxs-lookup"><span data-stu-id="0ea68-124">Your end users can set their caller ID to **Anonymous** by using the **Call Forward Settings** tab in the Skype for Business desktop client.</span></span>
+<span data-ttu-id="7d874-124">エンド ユーザーは、Skype for Business デスクトップ クライアントの [**通話転送設定**] タブを使って発信者番号通知を**非通知**に設定できます。</span><span class="sxs-lookup"><span data-stu-id="7d874-124">Your end users can set their caller ID to **Anonymous** by using the **Call Forward Settings** tab in the Skype for Business desktop client.</span></span>
   
 ||||
 |:-----|:-----|:-----|
-|<span data-ttu-id="0ea68-125">**Windows**</span><span class="sxs-lookup"><span data-stu-id="0ea68-125">**Windows**</span></span> <br/> |<span data-ttu-id="0ea68-126">**バージョン**</span><span class="sxs-lookup"><span data-stu-id="0ea68-126">**Version**</span></span> <br/> |<span data-ttu-id="0ea68-127">**サポート**</span><span class="sxs-lookup"><span data-stu-id="0ea68-127">**Supported**</span></span> <br/> |
-|<span data-ttu-id="0ea68-128">クイック実行</span><span class="sxs-lookup"><span data-stu-id="0ea68-128">Click-to-Run</span></span>  <br/> |<span data-ttu-id="0ea68-129">2016 年 12 月 6 日 - 1611 (ビルド 7571.2072) のバージョンでリリースされた現在のチャネル</span><span class="sxs-lookup"><span data-stu-id="0ea68-129">Current Channel released on December 6, 2016 - version 1611 (Build 7571.2072)</span></span>  <br/> |<span data-ttu-id="0ea68-130">あり</span><span class="sxs-lookup"><span data-stu-id="0ea68-130">Yes</span></span>  <br/> |
-|<span data-ttu-id="0ea68-131">クイック実行</span><span class="sxs-lookup"><span data-stu-id="0ea68-131">Click-to-Run</span></span>  <br/> |<span data-ttu-id="0ea68-132">2017 年 2 月 22日 - 1701 (ビルド 7766.2060) のバージョンでリリースされた延期のチャネルの最初のリリース</span><span class="sxs-lookup"><span data-stu-id="0ea68-132">First Release for Deferred Channel released on February 22, 2017 - Version 1701 (Build 7766.2060)</span></span>  <br/> |<span data-ttu-id="0ea68-133">あり</span><span class="sxs-lookup"><span data-stu-id="0ea68-133">Yes</span></span>  <br/> |
-|<span data-ttu-id="0ea68-134">クイック実行</span><span class="sxs-lookup"><span data-stu-id="0ea68-134">Click-to-Run</span></span>  <br/> |<span data-ttu-id="0ea68-135">チャネルは、2017 年 6 月 13日-1701 (ビルド 7766.2092) のバージョンのリリースを延期</span><span class="sxs-lookup"><span data-stu-id="0ea68-135">Deferred Channel released on June 13, 2017 - Version 1701 (Build 7766.2092)</span></span>  <br/> |<span data-ttu-id="0ea68-136">はい</span><span class="sxs-lookup"><span data-stu-id="0ea68-136">Yes</span></span>  <br/> |
-|<span data-ttu-id="0ea68-137">MSI</span><span class="sxs-lookup"><span data-stu-id="0ea68-137">MSI</span></span>  <br/> |<span data-ttu-id="0ea68-138">Skype for Business</span><span class="sxs-lookup"><span data-stu-id="0ea68-138">Skype for Business</span></span>  <br/> |<span data-ttu-id="0ea68-139">なし</span><span class="sxs-lookup"><span data-stu-id="0ea68-139">No</span></span>  <br/> |
-|<span data-ttu-id="0ea68-140">Mac</span><span class="sxs-lookup"><span data-stu-id="0ea68-140">Mac</span></span>  <br/> |<span data-ttu-id="0ea68-141">Skype for Business</span><span class="sxs-lookup"><span data-stu-id="0ea68-141">Skype for Business</span></span>  <br/> |<span data-ttu-id="0ea68-142">なし</span><span class="sxs-lookup"><span data-stu-id="0ea68-142">No</span></span>  <br/> |
+|<span data-ttu-id="7d874-125">**Windows**</span><span class="sxs-lookup"><span data-stu-id="7d874-125">**Windows**</span></span> <br/> |<span data-ttu-id="7d874-126">**バージョン**</span><span class="sxs-lookup"><span data-stu-id="7d874-126">**Version**</span></span> <br/> |<span data-ttu-id="7d874-127">**サポート**</span><span class="sxs-lookup"><span data-stu-id="7d874-127">**Supported?**</span></span> <br/> |
+|<span data-ttu-id="7d874-128">クイック実行</span><span class="sxs-lookup"><span data-stu-id="7d874-128">Click-to-Run</span></span>  <br/> |<span data-ttu-id="7d874-129">2016 年 12 月 6 日 - バージョン 1611 (ビルド 7571.2072) でリリースされた現在のチャネル</span><span class="sxs-lookup"><span data-stu-id="7d874-129">Current Channel released on December 6, 2016 - version 1611 (Build 7571.2072)</span></span>  <br/> |<span data-ttu-id="7d874-130">あり</span><span class="sxs-lookup"><span data-stu-id="7d874-130">Yes</span></span>  <br/> |
+|<span data-ttu-id="7d874-131">クイック実行</span><span class="sxs-lookup"><span data-stu-id="7d874-131">Click-to-Run</span></span>  <br/> |<span data-ttu-id="7d874-132">2017 年 2 月 22日 - バージョン 1701 (ビルド 7766.2060) でリリースされた段階的提供チャネルの最初のリリース</span><span class="sxs-lookup"><span data-stu-id="7d874-132">First Release for Deferred Channel released on February 22, 2017 - Version 1701 (Build 7766.2060)</span></span>  <br/> |<span data-ttu-id="7d874-133">あり</span><span class="sxs-lookup"><span data-stu-id="7d874-133">Yes</span></span>  <br/> |
+|<span data-ttu-id="7d874-134">クイック実行</span><span class="sxs-lookup"><span data-stu-id="7d874-134">Click-to-Run</span></span>  <br/> |<span data-ttu-id="7d874-135">2017年 6 月 13日 - バージョン 1701 (ビルド 7766.2092) でリリースされた段階的提供チャネル</span><span class="sxs-lookup"><span data-stu-id="7d874-135">Deferred Channel released on June 13, 2017 - Version 1701 (Build 7766.2092)</span></span>  <br/> |<span data-ttu-id="7d874-136">あり</span><span class="sxs-lookup"><span data-stu-id="7d874-136">Yes</span></span>  <br/> |
+|<span data-ttu-id="7d874-137">MSI</span><span class="sxs-lookup"><span data-stu-id="7d874-137">MSI</span></span>  <br/> |<span data-ttu-id="7d874-138">Skype for Business</span><span class="sxs-lookup"><span data-stu-id="7d874-138">Skype for Business</span></span>  <br/> |<span data-ttu-id="7d874-139">なし</span><span class="sxs-lookup"><span data-stu-id="7d874-139">No</span></span>  <br/> |
+|<span data-ttu-id="7d874-140">Mac</span><span class="sxs-lookup"><span data-stu-id="7d874-140">Mac</span></span>  <br/> |<span data-ttu-id="7d874-141">Skype for Business</span><span class="sxs-lookup"><span data-stu-id="7d874-141">Skype for Business</span></span>  <br/> |<span data-ttu-id="7d874-142">なし</span><span class="sxs-lookup"><span data-stu-id="7d874-142">No</span></span>  <br/> |
    
-## <a name="inbound-caller-id"></a><span data-ttu-id="0ea68-143">発信者番号通知を受信します。</span><span class="sxs-lookup"><span data-stu-id="0ea68-143">Inbound Caller ID</span></span>
+## <a name="inbound-caller-id"></a><span data-ttu-id="7d874-143">着信側の発信者番号通知</span><span class="sxs-lookup"><span data-stu-id="7d874-143">Inbound Caller ID</span></span>
 
-<span data-ttu-id="0ea68-144">BlockIncomingCallerID 属性では、PSTN 通話の着信の呼び出し元 ID をブロックします。</span><span class="sxs-lookup"><span data-stu-id="0ea68-144">The BlockIncomingCallerID attribute allows for blocking the caller ID on incoming PSTN calls.</span></span> <span data-ttu-id="0ea68-145">この属性を設定することができますが、ユーザー設定] ページで、エンド ・ ユーザーには使用できません。</span><span class="sxs-lookup"><span data-stu-id="0ea68-145">You can set this attribute, but it isn't available to your end users on the user settings page.</span></span> <span data-ttu-id="0ea68-146">オンラインの PSTN への接続のみで現在使用可能になります。</span><span class="sxs-lookup"><span data-stu-id="0ea68-146">And it is currently available only with Online PSTN connectivity.</span></span>
+<span data-ttu-id="7d874-144">BlockIncomingCallerID 属性を使用すると、着信した PSTN 通話の発信者番号通知をブロックできます。</span><span class="sxs-lookup"><span data-stu-id="7d874-144">The BlockIncomingCallerID attribute allows for blocking the caller ID on incoming PSTN calls.</span></span> <span data-ttu-id="7d874-145">この属性を設定することはできますが、ユーザー設定ページではエンド ユーザーには使用できません。</span><span class="sxs-lookup"><span data-stu-id="7d874-145">You can set this attribute, but it isn't available to your end users on the user settings page.</span></span> <span data-ttu-id="7d874-146">また、現在はオンラインの PSTN 接続のみで使用可能です。</span><span class="sxs-lookup"><span data-stu-id="7d874-146">And it is currently available only with Online PSTN connectivity.</span></span>
   
-<span data-ttu-id="0ea68-147">発信の呼び出し元の ID を設定するには、[ユーザーの発信者番号の設定](set-the-caller-id-for-a-user.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="0ea68-147">To set the outbound caller ID, see [Set the Caller ID for a user](set-the-caller-id-for-a-user.md).</span></span>
+<span data-ttu-id="7d874-147">発信側の発信者番号通知を設定するには、「[ユーザーの発信者番号通知を設定する](set-the-caller-id-for-a-user.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7d874-147">To set the outbound caller ID, see [Set the Caller ID for a user](set-the-caller-id-for-a-user.md).</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="0ea68-148">[米国 (無料の電話番号) 用の承認状 (LOA) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.S. (Toll Free numbers) (v.3.1) (en-US).pdf)</span><span class="sxs-lookup"><span data-stu-id="0ea68-148">Related topics</span></span>
-<span data-ttu-id="0ea68-149">電話番号の管理フォームのダウンロード</span><span class="sxs-lookup"><span data-stu-id="0ea68-149">[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)</span></span>
+## <a name="related-topics"></a><span data-ttu-id="7d874-148">関連トピック</span><span class="sxs-lookup"><span data-stu-id="7d874-148">Related topics</span></span>
+[<span data-ttu-id="7d874-149">電話番号の移行に関するよくある質問</span><span class="sxs-lookup"><span data-stu-id="7d874-149">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="0ea68-150">通話プランで使用されるさまざまな種類の電話番号</span><span class="sxs-lookup"><span data-stu-id="0ea68-150">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[<span data-ttu-id="7d874-150">通話プランで使用されるさまざまな種類の電話番号</span><span class="sxs-lookup"><span data-stu-id="7d874-150">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-<span data-ttu-id="0ea68-151">[[Skype for Business 新しい電話番号の申請](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。</span><span class="sxs-lookup"><span data-stu-id="0ea68-151">[Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)</span></span>
+<span data-ttu-id="7d874-151">[[[Skype for Business 新しい電話番号の申請](/microsoftteams/manage-phone-numbers-for-your-organization)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/microsoftteams/manage-phone-numbers-for-your-organization)</span><span class="sxs-lookup"><span data-stu-id="7d874-151">[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)</span></span>
 
-[<span data-ttu-id="0ea68-152">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="0ea68-152">Emergency calling terms and conditions</span></span>](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="7d874-152">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="7d874-152">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="0ea68-153">[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="0ea68-153">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="7d874-153">[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="7d874-153">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  

@@ -1,5 +1,5 @@
 ---
-title: 他のユーザーが参加できるようにビジネス会議のため、Skype からの発信
+title: 他のユーザーが参加できるように Skype for Business からダイヤルアウトする
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,46 +18,46 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
-ms.openlocfilehash: 392b237c36841990caacbaafd7c6d3dd8ebc7d77
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
-ms.translationtype: MT
+description: Skype for Business を使用して会議の開催者が他のユーザーを呼び出せるようにするための必要事項とその方法を説明します。
+ms.openlocfilehash: 9edf87ee8c4b2b931463a1bb6725d8967bc2325d
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490467"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779232"
 ---
-# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a><span data-ttu-id="cde03-103">他のユーザーが参加できるようにビジネス会議のため、Skype からの発信</span><span class="sxs-lookup"><span data-stu-id="cde03-103">Dialing out from a Skype for Business meeting so other people can join it</span></span>
+# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a><span data-ttu-id="f131b-103">他のユーザーが参加できるように Skype for Business からダイヤルアウトする</span><span class="sxs-lookup"><span data-stu-id="f131b-103">Dialing out from a meeting so other people can join it</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="cde03-104">チームの会議からのアウト ダイヤルについての情報を探している場合は、[他のユーザーが参加できるように、チーム会議からの発信](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="cde03-104">If you're looking for information about dialing out from a Teams meeting, see [Dialing out from a Teams meeting so other people can join it](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it).</span></span>
+> <span data-ttu-id="f131b-104"> Teams の会議からのダイヤル アウトについての情報をお求めの場合は、「[他のユーザーが参加できるように Teams 会議からダイアル アウトする](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f131b-104">If you're looking for information about dialing out from a Teams meeting, see [Dialing out from a Teams meeting so other people can join it](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it).</span></span>
 
-<span data-ttu-id="cde03-105">会議の開催者としては、携帯電話を使用して同じ会議に他の人の結合を使用するビジネス アプリケーションの Skype を使用してダイヤルできます。</span><span class="sxs-lookup"><span data-stu-id="cde03-105">As the meeting organizer, you can dial out using the Skype for Business app to let other people join the same meeting using their phone.</span></span> <span data-ttu-id="cde03-106">必須ではありませんが、誰かにダイヤルアウトするときには、国/地域番号が含まれる完全な番号をダイヤルすることをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="cde03-106">Although it's not required, when you are dialing out to someone, it's recommended that you dial the full number, including the country/region code.</span></span> <span data-ttu-id="cde03-107">ダイヤルアウトを実行するには、次の手順に従います。</span><span class="sxs-lookup"><span data-stu-id="cde03-107">To get dial-out to work:</span></span>
+<span data-ttu-id="f131b-105">会議の開催者は、Skype for Business アプリを使用してダイヤルアウトし、他の参加者が自分の電話を使って同じ会議に参加できるようにすることができます。</span><span class="sxs-lookup"><span data-stu-id="f131b-105">As the meeting organizer, you can dial out using a Skype for Business client to let other people join the same meeting using their phone.</span></span> <span data-ttu-id="f131b-106">必須ではありませんが、あるユーザーをダイヤルアウトするときには、国コードまたは地域コードも含め、番号すべてをダイヤルすることをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="f131b-106">Although it's not required, when you are dialing out to someone, it's recommended that you dial the full number, including the country/region code.</span></span> <span data-ttu-id="f131b-107">ダイヤルアウトを実行するには、次の手順に従います。</span><span class="sxs-lookup"><span data-stu-id="f131b-107">To get dial-out to work:</span></span>
   
-- <span data-ttu-id="cde03-108">ことができますダイヤル ・ アウトのビジネス アプリケーション、Skype を使用してミーティングに参加する場合にのみ。</span><span class="sxs-lookup"><span data-stu-id="cde03-108">You can dial-out only if you join a meeting using a Skype for Business app.</span></span>
+- <span data-ttu-id="f131b-108">Skype for Business または Microsoft Teams アプリを使用して会議に参加している場合のみダイヤルアウトを実行できます。</span><span class="sxs-lookup"><span data-stu-id="f131b-108">You can dial-out only if you join a meeting using a Skype for Business client.</span></span>
     
-- <span data-ttu-id="cde03-109">オーディオ会議の会議の開催者として有効になっています。</span><span class="sxs-lookup"><span data-stu-id="cde03-109">You as the meeting organizer have been enabled for audio conferencing.</span></span>
+- <span data-ttu-id="f131b-109">会議の開催者は、電話会議を使用できます。</span><span class="sxs-lookup"><span data-stu-id="f131b-109">You as the meeting organizer have been enabled for dial-in conferencing.</span></span>
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
- <span data-ttu-id="cde03-110">**手順 1:** 招待、ミーティング中には、電話番号にダイアル アウトするには、**多くの人を招待する**] オプションを使用します。</span><span class="sxs-lookup"><span data-stu-id="cde03-110">**Step 1:** In the invite meeting, use the **Invite More People** option to dial out to a phone number.</span></span>
+ <span data-ttu-id="f131b-110">**手順 1:** 会議への招待で、[ **他の人を招待**] オプションを使用して、電話番号をダイヤルアウトすることができます。</span><span class="sxs-lookup"><span data-stu-id="f131b-110">**Step 1:** In the invite meeting you can use the **Invite More People** option to dial out to a phone number.</span></span>
   
-![Dial-out with Skype for Business.](../images/9896abec-7a6f-4148-ad09-76a1cf4b56e1.png)
+![Skype for Business でダイヤルアウトします。](../images/9896abec-7a6f-4148-ad09-76a1cf4b56e1.png)
   
- <span data-ttu-id="cde03-112">**手順 2:** ボックスで国/地域コードを含む、すべての電話番号を入力します。</span><span class="sxs-lookup"><span data-stu-id="cde03-112">**Step 2:** Enter the full phone number, including the country/region code in the box.</span></span>
+ <span data-ttu-id="f131b-112">**手順 2:** 国コードまたは地域コードも含めた番号すべてを枠内に入力します。</span><span class="sxs-lookup"><span data-stu-id="f131b-112">**Step 2:** Enter the full phone number including the country/region code in the box.</span></span>
   
-![Dial-out phone number in Skype for Business](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
+![Skype for Business で電話番号をダイヤルアウトする](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
   
-## <a name="supported-countries-and-regions"></a><span data-ttu-id="cde03-114">サポートされている国と地域</span><span class="sxs-lookup"><span data-stu-id="cde03-114">Supported countries and regions</span></span>
+## <a name="supported-countries-and-regions"></a><span data-ttu-id="f131b-114">サポートされている国と地域</span><span class="sxs-lookup"><span data-stu-id="f131b-114">Supported countries and regions</span></span>
 
-<span data-ttu-id="cde03-115">ダイヤルアウトは一部の国と地域でのみ使用可能です。</span><span class="sxs-lookup"><span data-stu-id="cde03-115">Dial-out is only available to some countries/regions.</span></span> <span data-ttu-id="cde03-116">完全なリストは、[オーディオ会議や予定を呼び出すための国および地域の可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="cde03-116">For complete list, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</span></span>
+<span data-ttu-id="f131b-115">ダイヤルアウトは一部の国と地域でのみ使用可能です。</span><span class="sxs-lookup"><span data-stu-id="f131b-115">Dial-out is only available to some countries/regions.</span></span> <span data-ttu-id="f131b-116">詳細リストについては、「[国および地域ごとの電話会議および通話プランの利用可能性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="f131b-116">[Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)</span></span>
   
-## <a name="want-to-know-more-about-audio-conferencing"></a><span data-ttu-id="cde03-117">オーディオ会議の詳細を知りたいとしていますか。</span><span class="sxs-lookup"><span data-stu-id="cde03-117">Want to know more about audio conferencing?</span></span>
+## <a name="want-to-know-more-about-audio-conferencing"></a><span data-ttu-id="f131b-117">電話会議の詳細</span><span class="sxs-lookup"><span data-stu-id="f131b-117">Want to know more about dial-in conferencing?</span></span>
 
-[<span data-ttu-id="cde03-118">Office 365 での電話会議を使用または購入する</span><span class="sxs-lookup"><span data-stu-id="cde03-118">Try or purchase Audio Conferencing in Office 365</span></span>](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[<span data-ttu-id="f131b-118">Office 365 で電話会議を使用または購入する</span><span class="sxs-lookup"><span data-stu-id="f131b-118">Try or purchase Audio Conferencing in Office 365</span></span>](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
-- [<span data-ttu-id="cde03-119">Skype ビジネス アドオン ライセンス</span><span class="sxs-lookup"><span data-stu-id="cde03-119">Skype for Business add-on licensing</span></span>](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+- [<span data-ttu-id="f131b-119">Skype for Business と Teams のアドオン ライセンス</span><span class="sxs-lookup"><span data-stu-id="f131b-119">Skype for Business and Teams add-on licensing</span></span>](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
-## <a name="related-topics"></a><span data-ttu-id="cde03-120">このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。</span><span class="sxs-lookup"><span data-stu-id="cde03-120">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="f131b-120">関連トピック</span><span class="sxs-lookup"><span data-stu-id="f131b-120">Related topics</span></span>
 
-[<span data-ttu-id="cde03-121">Skype for Business をインストールする</span><span class="sxs-lookup"><span data-stu-id="cde03-121">Install Skype for Business</span></span>](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)
+[<span data-ttu-id="f131b-121">Skype for Business をインストールする</span><span class="sxs-lookup"><span data-stu-id="f131b-121">Install Skype for Business</span></span>](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)
