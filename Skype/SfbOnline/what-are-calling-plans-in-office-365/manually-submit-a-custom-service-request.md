@@ -20,17 +20,18 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn the steps you need to do to submit a port order request when you have more than 999 phone numbers to Skype for Business. '
-ms.openlocfilehash: e524ddd8c86837033fe34caba5260c3f6547987f
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 81f15ee3d5cf2dda1664f3414ae11c0dea7b588e
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779270"
 ---
 # <a name="manually-submit-a-custom-service-request"></a>カスタム サービスの依頼を手動で送信する
 
-ダイヤルイン会議用ブリッジ、自動応答、またはその他のサービス番号の番号をサービスがあれば、無料電話番号も、ビジネスの Skype に転送する必要がある 999 を超える数のユーザー (サブスクライバー) の電話番号する必要があります[管理する電話組織の番号](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)です。
+ダイヤルイン会議用ブリッジ、自動応答、またはその他のサービス番号の番号をサービスがあれば、無料電話番号も、ビジネスの Skype に転送する必要がある 999 を超える数のユーザー (サブスクライバー) の電話番号する必要があります[管理する電話組織の番号](/microsoftteams/manage-phone-numbers-for-your-organization)です。
 
-一部の国/地域の電話番号を取得またはリリース番号、またはアドレスを変更する場合に、カスタム サービスの要求を手動で送信する必要がも。 それぞれの国や地域に必要なものや移植数の詳細については、[組織の電話番号の管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)を参照してください。
+一部の国/地域の電話番号を取得またはリリース番号、またはアドレスを変更する場合に、カスタム サービスの要求を手動で送信する必要がも。 それぞれの国や地域に必要なものや移植数の詳細については、[組織の電話番号の管理](/microsoftteams/manage-phone-numbers-for-your-organization)を参照してください。
 
 
 ## <a name="if-you-need-to-create-and-submit-a-service-request-follow-these-steps"></a>場合は作成し、サービスの要求に従って、次の手順を送信する必要があります。
@@ -107,14 +108,14 @@ ms.lasthandoff: 04/26/2018
 > [!NOTE]
 > 無料電話番号
 
-## <a name="related-topics"></a>[米国 (無料の電話番号) 用の承認状 (LOA) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.S. (Toll Free numbers) (v.3.1) (en-US).pdf)
-電話番号の管理フォームのダウンロード
+## <a name="related-topics"></a>関連トピック
+[電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[通話プランで使用されるさまざまな種類の電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[通話プランで使用されるさまざまな種類の電話番号](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[[Skype for Business 新しい電話番号の申請](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。
+[[[Skype for Business 新しい電話番号の申請](/microsoftteams/manage-phone-numbers-for-your-organization)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[緊急通話の利用条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

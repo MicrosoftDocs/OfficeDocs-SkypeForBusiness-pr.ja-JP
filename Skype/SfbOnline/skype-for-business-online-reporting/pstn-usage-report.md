@@ -18,12 +18,12 @@ ms.custom:
 - Reporting
 description: ビジネス管理センターのレポート領域の新しい Skype では、組織内を呼び出し、オーディオ会議のアクティビティを示しています。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 たとえば、Skype for Business での PSTN 使用状況の詳細レポートを使用して、通話の着信/発信に費やした分数とそれらの通話の料金を確認できます。 使用状況を把握して、組織内での使用状況を確認するのには請求先の詳細を呼び出すように、呼び出しのコストを含むオーディオ会議の PSTN 使用法の詳細を表示することができます。
 search.appverid: MET150
-ms.openlocfilehash: 3c2148b54c04950867feef1844a4ca1595f708e5
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: 562911b6ceb4751a1a808d4e8f63ddaddddfad99
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246490"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779186"
 ---
 # <a name="pstn-usage-report"></a>PSTN の使用状況のレポート
 
@@ -31,7 +31,7 @@ ms.locfileid: "20246490"
   
 利用可能な他のレポートの[レポートの概要](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)をご覧ください。
   
-このレポートとは、ビジネス レポートの場合は、他の Skype によって、活動を組織全体にわたって使用率の呼び出しなどの詳細情報が表示します。 これらの詳細については、調査する計画、およびその他のビジネスの決定、組織と[の通信のクレジット](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)を設定するために非常に役に立つ
+このレポートとは、ビジネス レポートの場合は、他の Skype によって、活動を組織全体にわたって使用率の呼び出しなどの詳細情報が表示します。 これらの詳細については、調査する計画、およびその他のビジネスの決定、組織と[の通信のクレジット](/microsoftteams/what-are-communications-credits)を設定するために非常に役に立つ
   
 > [!NOTE]
 > Office 365 管理センターに管理者としてログオンすると、すべての Skype for Business レポートを表示できます。 

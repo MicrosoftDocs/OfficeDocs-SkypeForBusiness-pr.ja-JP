@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft 電話システム直接ルーティングを構成する方法について説明します。
-ms.openlocfilehash: 44181b47f4edaca019bb51fd0819dd6c17360fae
-ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
+ms.openlocfilehash: c84e8b28d6a13e3dca64a08a63aa516556357dde
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22914753"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779772"
 ---
 # <a name="configure-direct-routing"></a>直接ルーティングを構成します。
 
@@ -31,7 +31,7 @@ SBC が、SBC の製造元の推奨どおりに構成されて既にいること
 
 - [マイクロソフトの電話システムと SBC のペアし、ペアを検証します。](#pair-the-sbc-to-direct-routing-service-of-phone-system)
 - [直接ルーティング サービスのユーザーを有効にします。](#enable-users-for-direct-routing-service)
-- [マイクロソフトのチームが、ユーザーの優先呼び出し側のクライアントであることを確認します。](#set-microsoft-teams-as-the-preferred-calling-client-for-the-users) 
+- [マイクロソフトのチームが、ユーザーの優先呼び出し側のクライアントであることを確認します。](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
 
 ## <a name="pair-the-sbc-to-direct-routing-service-of-phone-system"></a>電話システムのルーティング サービスを指示する SBC をペアします。 
 
@@ -517,7 +517,6 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 </pre>
 
 結果は、ジョンの森の呼び出しに適用されるボイス ポリシーは、制限はありませんしは米国、カナダ、および国際通話に使用できる通話のルーティングのロジックに従います。
-
 
 ## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>マイクロソフトのチームを優先する呼び出し元クライアントとユーザーの設定します。
 

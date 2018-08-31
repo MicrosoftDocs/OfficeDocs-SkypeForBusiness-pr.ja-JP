@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 8f8d6bc1e2fc08e98c11b00bfda4e66c978c69a7
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: b4a8c3c167c8830dfc240b4ce5000f96c5ccbb3f
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241935"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779027"
 ---
 # <a name="whats-the-status-of-my-port-orders"></a>ポート注文のステータスとは
 
@@ -42,19 +42,19 @@ ms.locfileid: "23241935"
 |**エラー** <br/> |なし  <br/> |あり  <br/> |あり  <br/> |はい (現時点では、削除できませんポート順序エラーが表示される場合。 ポートの順序を再作成する必要があるか、[ビジネス製品の管理のヘルプのサポートに問い合わせてください](https://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx)する必要があります。  <br/> |失われたキャリアには、注文が拒否されました。  <br/> |
 |**完了** <br/> |あり  <br/> |なし  <br/> |なし  <br/> |なし  <br/> |数値が正常に転送されました。  <br/> |
 |**キャンセル** <br/> |なし  <br/> |あり  <br/> |なし  <br/> |なし  <br/> |管理者は、注文をキャンセルしました。  <br/> |
-
- **完全な手順については、 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)を参照してください。**
-
+   
+ **完全な手順については、 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)を参照してください。**
+ 
 > [!NOTE]
 > 無料電話番号
 
 
 ## <a name="related-topics"></a>関連トピック
-[電話番号の移行に関するよくある質問](transferring-phone-numbers-common-questions.md)
+[電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[通話プランで使用されるさまざまな種類の電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[通話プランで使用されるさまざまな種類の電話番号](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[緊急通話の利用条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

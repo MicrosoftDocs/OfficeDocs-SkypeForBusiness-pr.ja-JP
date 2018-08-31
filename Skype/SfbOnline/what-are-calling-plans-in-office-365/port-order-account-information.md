@@ -1,5 +1,5 @@
 ---
-title: ポートの順序のアカウント情報
+title: 番号移行注文のアカウント情報
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: '新しいローカル番号のポートの注文ウィザードを使用する場合する必要がありますどのようなアカウント情報を説明します。 '
-ms.openlocfilehash: bd2f929a7268db03c1d9e3660d6f3df20ff9cc72
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 69d972709e0711f8ac17131a81c604044d869c85
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780483"
 ---
-# <a name="port-order-account-information"></a>ポートの順序のアカウント情報
+# <a name="port-order-account-information"></a>番号移行注文のアカウント情報
 
 ポートの注文を送信するのには**新しいローカル番号のポートの注文**ウィザードで、[**アカウント情報**] ページを使用する場合する必要があります、山では、同じ情報のほとんどすべてを含みます。
   
@@ -66,19 +67,19 @@ ms.lasthandoff: 04/26/2018
 > [!CAUTION]
 > **サービス プロバイダーまたは携帯電話会社のサービスを解除しないでください。**> **電話番号を Skype for Business Online に移行するためには、以前のサービスが有効になっていることが必要です。**> **サービス プロバイダーまたは携帯電話会社のアカウントを凍結しないでください。 アカウントを凍結すると、そのアカウントの携帯電話会社を変更することができません。 凍結を解除するには、承認済みユーザーが現在の携帯電話会社に対して注文を発行する必要があります。 携帯電話会社によっては、このプロセスに 1 ～ 3 週間を要することがあります。**> 
   
- **完全な手順については、 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)を参照してください。**
+ **完全な手順については、 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)を参照してください。**
 
  > [!NOTE]
 > 無料電話番号
   
-## <a name="related-topics"></a>[米国 (無料の電話番号) 用の承認状 (LOA) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.S. (Toll Free numbers) (v.3.1) (en-US).pdf)
-電話番号の管理フォームのダウンロード
+## <a name="related-topics"></a>関連トピック
+[電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[通話プランで使用されるさまざまな種類の電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[通話プランで使用されるさまざまな種類の電話番号](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-(../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[[[Skype for Business 新しい電話番号の申請](/microsoftteams/manage-phone-numbers-for-your-organization)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[緊急通話の利用条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

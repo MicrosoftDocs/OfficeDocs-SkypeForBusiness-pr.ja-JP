@@ -1,5 +1,5 @@
 ---
-title: セッション詳細レポート
+title: セッションの詳細レポート
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,22 +16,22 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: 新しい Office 365 のレポート ダッシュ ボードによって、組織で Office 365 製品間でのアクティビティの概要がわかります。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。
+description: '[] 新しい Office 365 の [ レポート] ダッシュボードには、組織内の Office 365 製品全体にわたるアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。'
 search.appverid: MET150
-ms.openlocfilehash: 63d0d049e7522d1e62f717c063eb92f658a5623f
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: ae892766be3b9bc18f37ae8b551678a738743325
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933177"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780857"
 ---
-# <a name="session-details-report"></a>セッション詳細レポート
+# <a name="session-details-report"></a>セッションの詳細レポート
 
 [] 新しい Office 365 の [ **レポート**] ダッシュボードには、組織内の Office 365 製品全体にわたるアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 たとえば、 **Skype**ビジネス セッションの詳細のレポートを使用すると、個々 のユーザーの呼び出しの経験についての詳細を参照してください。
   
 利用可能な他のレポートの[レポートの概要](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)を確認してください。
   
-このレポートとは、ビジネス レポートの他の Skype を使用すれば詳細セッションの詳細を含む、組織全体での活動です。 これらの詳細については、調査する計画、およびその他のビジネスの決定、組織と[の通信のクレジット](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)を設定するために非常に役に立つ。
+このレポートとは、ビジネス レポートの他の Skype を使用すれば詳細セッションの詳細を含む、組織全体での活動です。 これらの詳細については、調査する計画、およびその他のビジネスの決定、組織と[の通信のクレジット](/microsoftteams/what-are-communications-credits)を設定するために非常に役に立つ。
   
 > [!NOTE]
 > 管理者として Office 365 管理センターにログオンすると、すべての Skype for Business レポートを見ることができます。 

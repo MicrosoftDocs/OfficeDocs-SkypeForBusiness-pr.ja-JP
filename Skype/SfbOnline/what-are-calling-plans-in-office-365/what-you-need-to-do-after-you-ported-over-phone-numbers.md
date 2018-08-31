@@ -20,17 +20,18 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: ビジネス用の Skype に電話番号を移植した後次の操作に必要なものを参照してください。
-ms.openlocfilehash: acec8952f77402538f7eabae9330f7f031e70155
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 9011ba858bf57c9bd1b425fffc19ac508f3f4f23
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779260"
 ---
 # <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>自分の電話番号の上に移植した後に、何をする必要がありますか。
 
 ポート注文を送信した後は、キャリアにお問い合わせくださいされ、それらの詳細されます。 最終転送日が設定されている電子メールを使用するを通知します。 ただし、順序を受け入れ、さあ、必要な緊急のアドレスを作成するためにキャリアを待っている間に、これらの数値を使用します。
   
-- 詳細については[緊急の場所、住所、および通話のルーティングとは?](what-are-emergency-locations-addresses-and-call-routing.md)。
+- 詳細については[緊急の場所、住所、および通話のルーティングとは?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)。
     
 - ことができます[追加または削除する、組織の緊急事態に対処](add-or-remove-an-emergency-address-for-your-organization.md)する必要がある場合。
     
@@ -42,12 +43,12 @@ ms.lasthandoff: 04/26/2018
 > 無料電話番号
 
     
-## <a name="related-topics"></a>[米国 (無料の電話番号) 用の承認状 (LOA) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.S. (Toll Free numbers) (v.3.1) (en-US).pdf)
-電話番号の管理フォームのダウンロード
+## <a name="related-topics"></a>関連トピック
+[電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[通話プランで使用されるさまざまな種類の電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[通話プランで使用されるさまざまな種類の電話番号](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[緊急通話の利用条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

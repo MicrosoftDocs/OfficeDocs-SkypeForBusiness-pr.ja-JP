@@ -1,5 +1,5 @@
 ---
-title: PSTN 分プール レポート
+title: PSTN の利用分数プール レポート
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,14 +18,14 @@ ms.custom:
 - Reporting
 description: ビジネス管理センターのレポート領域の新しい Skype では、組織内を呼び出し、オーディオ会議のアクティビティを示しています。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 などのビジネス PSTN 分プール レポートの Skype を使用すると、組織内で現在の月の期間中に消費する分の数を参照してください。
 search.appverid: MET150
-ms.openlocfilehash: 876455807887694f7e885038e7473634a40f5f21
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: a12597faf9f5669809cbf97a2ea8a054c65a8a0c
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933059"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779670"
 ---
-# <a name="pstn-minute-pools-report"></a>PSTN 分プール レポート
+# <a name="pstn-minute-pools-report"></a>PSTN の利用分数プール レポート
 
 >[!NOTE]
 >このレポートには、顧客をプレビューするのにはできるだけです。
@@ -34,7 +34,7 @@ ms.locfileid: "19933059"
   
 利用可能な他のレポートの[レポートの概要](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)をご覧ください。
   
-このレポートとは、ビジネス レポートの場合は、他の Skype 詳細を確認できます活動を組織全体にわたって。 これらの詳細については、調査、計画、および組織と[の通信のクレジット](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)を設定するための他のビジネスの意思決定を行うときに非常に役に立つ
+このレポートとは、ビジネス レポートの場合は、他の Skype 詳細を確認できます活動を組織全体にわたって。 これらの詳細については、調査、計画、および組織と[の通信のクレジット](/microsoftteams/what-are-communications-credits)を設定するための他のビジネスの意思決定を行うときに非常に役に立つ
   
 > [!NOTE]
 > 管理者として Office 365 管理センターにログオンすると、すべての Skype for Business レポートを見ることができます。 
