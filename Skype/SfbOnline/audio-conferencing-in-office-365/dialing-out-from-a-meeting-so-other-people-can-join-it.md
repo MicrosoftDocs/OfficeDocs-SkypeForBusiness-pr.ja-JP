@@ -1,5 +1,5 @@
 ---
-title: 他のユーザーが参加できるようにビジネス会議のため、Skype からの発信
+title: 他のユーザーが参加できるように Skype for Business からダイヤルアウトする
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,46 +18,46 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
-ms.openlocfilehash: 392b237c36841990caacbaafd7c6d3dd8ebc7d77
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
-ms.translationtype: MT
+description: Skype for Business を使用して会議の開催者が他のユーザーを呼び出せるようにするための必要事項とその方法を説明します。
+ms.openlocfilehash: 9edf87ee8c4b2b931463a1bb6725d8967bc2325d
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490467"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779232"
 ---
-# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>他のユーザーが参加できるようにビジネス会議のため、Skype からの発信
+# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>他のユーザーが参加できるように Skype for Business からダイヤルアウトする
 
 > [!NOTE]
-> チームの会議からのアウト ダイヤルについての情報を探している場合は、[他のユーザーが参加できるように、チーム会議からの発信](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it)を参照してください。
+>  Teams の会議からのダイヤル アウトについての情報をお求めの場合は、「[他のユーザーが参加できるように Teams 会議からダイアル アウトする](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it)」を参照してください。
 
-会議の開催者としては、携帯電話を使用して同じ会議に他の人の結合を使用するビジネス アプリケーションの Skype を使用してダイヤルできます。 必須ではありませんが、誰かにダイヤルアウトするときには、国/地域番号が含まれる完全な番号をダイヤルすることをお勧めします。 ダイヤルアウトを実行するには、次の手順に従います。
+会議の開催者は、Skype for Business アプリを使用してダイヤルアウトし、他の参加者が自分の電話を使って同じ会議に参加できるようにすることができます。 必須ではありませんが、あるユーザーをダイヤルアウトするときには、国コードまたは地域コードも含め、番号すべてをダイヤルすることをお勧めします。 ダイヤルアウトを実行するには、次の手順に従います。
   
-- ことができますダイヤル ・ アウトのビジネス アプリケーション、Skype を使用してミーティングに参加する場合にのみ。
+- Skype for Business または Microsoft Teams アプリを使用して会議に参加している場合のみダイヤルアウトを実行できます。
     
-- オーディオ会議の会議の開催者として有効になっています。
+- 会議の開催者は、電話会議を使用できます。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
- **手順 1:** 招待、ミーティング中には、電話番号にダイアル アウトするには、**多くの人を招待する**] オプションを使用します。
+ **手順 1:** 会議への招待で、[ **他の人を招待**] オプションを使用して、電話番号をダイヤルアウトすることができます。
   
-![Dial-out with Skype for Business.](../images/9896abec-7a6f-4148-ad09-76a1cf4b56e1.png)
+![Skype for Business でダイヤルアウトします。](../images/9896abec-7a6f-4148-ad09-76a1cf4b56e1.png)
   
- **手順 2:** ボックスで国/地域コードを含む、すべての電話番号を入力します。
+ **手順 2:** 国コードまたは地域コードも含めた番号すべてを枠内に入力します。
   
-![Dial-out phone number in Skype for Business](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
+![Skype for Business で電話番号をダイヤルアウトする](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
   
 ## <a name="supported-countries-and-regions"></a>サポートされている国と地域
 
-ダイヤルアウトは一部の国と地域でのみ使用可能です。 完全なリストは、[オーディオ会議や予定を呼び出すための国および地域の可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を参照してください。
+ダイヤルアウトは一部の国と地域でのみ使用可能です。 詳細リストについては、「[国および地域ごとの電話会議および通話プランの利用可能性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)」をご覧ください。
   
-## <a name="want-to-know-more-about-audio-conferencing"></a>オーディオ会議の詳細を知りたいとしていますか。
+## <a name="want-to-know-more-about-audio-conferencing"></a>電話会議の詳細
 
-[Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Office 365 で電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
-- [Skype ビジネス アドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+- [Skype for Business と Teams のアドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business をインストールする](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)

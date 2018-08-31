@@ -1,5 +1,5 @@
 ---
-title: 呼び出し元 ID 利用する方法、組織内
+title: 組織内での発信者番号通知の使用方法
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,75 +19,76 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: CallingLineIdentity と呼ばれるポリシーを使用して、電話システムのユーザーの受信と送信の両方の呼び出しに呼び出し元の ID を制御できます。
-ms.openlocfilehash: a1a809805b96152e4b205c8f38b3c8409014eb55
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
-ms.translationtype: MT
+description: 発信者番号通知は、CallingLineIdentity と呼ばれるポリシーを使用して、電話システム ユーザーの着信と発信の両方で制御できます。
+ms.openlocfilehash: 04ee6f0bc074318f30d0257e7466d2d2ec7262aa
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23778997"
 ---
-# <a name="how-can-caller-id-be-used-in-your-organization"></a>呼び出し元 ID 利用する方法、組織内
+# <a name="how-can-caller-id-be-used-in-your-organization"></a>組織内での発信者番号通知の使用方法
 
-CallingLineIdentity と呼ばれるポリシーを使用して、電話システムのユーザーの受信と送信の両方の呼び出しに呼び出し元の ID を制御できます。
+発信者番号通知は、CallingLineIdentity と呼ばれるポリシーを使用して、電話システム ユーザーの着信と発信の両方で制御できます。
   
-発信者番号機能は、PSTN への接続に関係なくすべての電話システムのユーザーが使用できます。
+発信者番号通知機能は、PSTN 接続に関係なくすべての電話システムのユーザーが使用できます。
   
-- オンラインの PSTN への接続
+- オンラインの PSTN 接続
     
-- ビジネス クラウド コネクタ ・ エディションの Skype での PSTN への接続を設置 (クラウド コネクタ版 1.4.2 が必要ですし、以降も)
+- Skype for Business Cloud Connector Edition を使用したオンプレミスの PSTN 接続 (Cloud Connector Edition 1.4.2 以降が必要です)
     
-- (内外のビジネス サーバー 2015 CU5 Skype が必要です) ビジネス サーバーの Skype での PSTN への接続を設置
+- Skype for Business Server を使用したオンプレミスの SPTN 接続 (Skype for Business Server 2015 CU5 以降が必要です）
     
 > [!NOTE]
-> このポリシーは、ビジネス 2015年サーバーの Skype では使用できません。 
+> このポリシーは、Skype for Business 2015 Server では使用できません。 
   
-## <a name="outbound-caller-id"></a>発信の呼び出し元の ID
+## <a name="outbound-caller-id"></a>発信側の発信者番号通知
 
-PSTN 発信者番号通知の送信に使用できるオプションは次の 3 つです。
+発信側の PSTN 発信者番号通知に使用できるオプションは次の 3 つです。
   
-- 既定では、ユーザーに割り当てられている電話番号です。
+- ユーザーに割り当てられた電話番号。既定です。
     
-- *サービス*として分類されている電話番号と Office 365 の電話の計画を呼び出すので*フリー ダイヤル*の番号は、在庫を番号します。 これは通常、組織の自動アテンダントまたは呼び出しのキューに割り当てられます。
+- Office 365 の電話番号インベントリの通話プランで*サービス*電話番号と*無料*電話番号として分類されている電話番号。 これは通常、組織の自動応答またはコール キューに割り当てられます。
     
-- 匿名に設定します。
+- 非通知に設定。
     
-ただし、発信呼び出し元 ID のこれらの種類の電話番号を割り当てることはできません。
+ただし、以下の種類の電話番号を発信側の発信者番号通知に割り当てることはできません。
   
-- 計画を呼び出す電話番号の*ユーザー*として分類されている任意の電話番号の番号の在庫
+- 通話プランの電話番号インベントリで*ユーザー*として分類されているすべての電話番号。
     
-- Skype のビジネス サーバー設置型の電話番号
+- Skype for Business Server のオンプレミスの電話番号
     
-発信の呼び出し元の ID を設定するには、[ユーザーの発信者番号の設定](set-the-caller-id-for-a-user.md)を参照してください。
+発信側の発信者番号通知を設定するには、「[ユーザーの発信者番号通知を設定する](set-the-caller-id-for-a-user.md)」を参照してください。
   
-### <a name="end-user-control-of-outbound-caller-id"></a>発信呼び出し元 ID のユーザー コントロール
+### <a name="end-user-control-of-outbound-caller-id"></a>発信側の発信者番号通知のエンド ユーザー コントロール
 
-EnableUserOverride 属性は、**匿名**の発信者番号通知設定を変更するのには 1 つまたは複数のユーザーを有効にします。 LineURI または代替のいずれかの CallingIDSubstitute パラメーターを持つ CallingLineIdentity ポリシーが構成されている場合こののみ適用されます。 EnableUserOverride の既定値は、False です。
+EnableUserOverride 属性を使用すると、単独または複数のユーザーが発信者番号通知の設定を **非通知**に変更できます。 これが適用されるのは、CallingLineIdentity のポリシーが LineURI または Substitute のいずれかの CallingIDSubstitute パラメーターで構成されている場合のみです。 EnableUserOverride の既定値は False です。
   
-エンド ・ ユーザーは、Skype のビジネス デスクトップ クライアントの**呼び出しの転送の設定**] タブを使用して、**匿名**の呼び出し元の ID を設定できます。
+エンド ユーザーは、Skype for Business デスクトップ クライアントの [**通話転送設定**] タブを使って発信者番号通知を**非通知**に設定できます。
   
 ||||
 |:-----|:-----|:-----|
 |**Windows** <br/> |**バージョン** <br/> |**サポート** <br/> |
-|クイック実行  <br/> |2016 年 12 月 6 日 - 1611 (ビルド 7571.2072) のバージョンでリリースされた現在のチャネル  <br/> |あり  <br/> |
-|クイック実行  <br/> |2017 年 2 月 22日 - 1701 (ビルド 7766.2060) のバージョンでリリースされた延期のチャネルの最初のリリース  <br/> |あり  <br/> |
-|クイック実行  <br/> |チャネルは、2017 年 6 月 13日-1701 (ビルド 7766.2092) のバージョンのリリースを延期  <br/> |はい  <br/> |
+|クイック実行  <br/> |2016 年 12 月 6 日 - バージョン 1611 (ビルド 7571.2072) でリリースされた現在のチャネル  <br/> |あり  <br/> |
+|クイック実行  <br/> |2017 年 2 月 22日 - バージョン 1701 (ビルド 7766.2060) でリリースされた段階的提供チャネルの最初のリリース  <br/> |あり  <br/> |
+|クイック実行  <br/> |2017年 6 月 13日 - バージョン 1701 (ビルド 7766.2092) でリリースされた段階的提供チャネル  <br/> |あり  <br/> |
 |MSI  <br/> |Skype for Business  <br/> |なし  <br/> |
 |Mac  <br/> |Skype for Business  <br/> |なし  <br/> |
    
-## <a name="inbound-caller-id"></a>発信者番号通知を受信します。
+## <a name="inbound-caller-id"></a>着信側の発信者番号通知
 
-BlockIncomingCallerID 属性では、PSTN 通話の着信の呼び出し元 ID をブロックします。 この属性を設定することができますが、ユーザー設定] ページで、エンド ・ ユーザーには使用できません。 オンラインの PSTN への接続のみで現在使用可能になります。
+BlockIncomingCallerID 属性を使用すると、着信した PSTN 通話の発信者番号通知をブロックできます。 この属性を設定することはできますが、ユーザー設定ページではエンド ユーザーには使用できません。 また、現在はオンラインの PSTN 接続のみで使用可能です。
   
-発信の呼び出し元の ID を設定するには、[ユーザーの発信者番号の設定](set-the-caller-id-for-a-user.md)を参照してください。
+発信側の発信者番号通知を設定するには、「[ユーザーの発信者番号通知を設定する](set-the-caller-id-for-a-user.md)」を参照してください。
   
-## <a name="related-topics"></a>[米国 (無料の電話番号) 用の承認状 (LOA) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.S. (Toll Free numbers) (v.3.1) (en-US).pdf)
-電話番号の管理フォームのダウンロード
+## <a name="related-topics"></a>関連トピック
+[電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[通話プランで使用されるさまざまな種類の電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[通話プランで使用されるさまざまな種類の電話番号](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[[Skype for Business 新しい電話番号の申請](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。
+[[[Skype for Business 新しい電話番号の申請](/microsoftteams/manage-phone-numbers-for-your-organization)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[緊急通話の利用条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
