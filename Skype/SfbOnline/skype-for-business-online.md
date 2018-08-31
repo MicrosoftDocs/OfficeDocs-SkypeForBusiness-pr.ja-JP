@@ -12,12 +12,12 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-ms.openlocfilehash: 8df54547474376266cabad2f70be6877f12f246d
-ms.sourcegitcommit: 75f9d15ec5c6284191c28e783761619326b57d53
-ms.translationtype: HT
+ms.openlocfilehash: 453046594d649e6adff96bf28a54bd1c7112d821
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/13/2018
-ms.locfileid: "19862902"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780967"
 ---
 # <a name="skype-for-business-online-admin"></a>Skype for Business Online の管理
 
@@ -118,7 +118,7 @@ ms.locfileid: "19862902"
 
 ---
 
-<h2>新着情報</h2>
+<h2>新機能</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -133,7 +133,7 @@ ms.locfileid: "19862902"
                     <div class="cardText">
                         <h3>記事</h3>
                         <p><a 
-                        href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">組織内の電話システムのセットアップ</a></p>
+                        href="/microsoftteams/setting-up-your-phone-system">組織内の電話システムの設定</a></p>
                         <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">電話会議とのサードパーティの統合</a></p>
                     </div>
                 </div>
@@ -151,8 +151,8 @@ ms.locfileid: "19862902"
                     </div>
                     <div class="cardText">
                         <h3>新機能</h3>
-                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">カナダでの通話プラン (一般提供 (GA))</a></p>
-                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">オーストラリアでの通話プラン (プレビューのみ)</a></p>
+                        <p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">カナダでの通話プラン (一般提供 (GA))</a></p>
+                        <p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">オーストラリアでの通話プラン (プレビューのみ)</a></p>
                     </div>
                 </div>
             </div>
@@ -169,7 +169,7 @@ ms.locfileid: "19862902"
                     </div>
                     <div class="cardText">
                         <h3>主な更新</h3>
-                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing">電話会議をセットアップする</a></p>
+                        <p><a href="/microsoftteams/audio-conferencing-in-office-365">電話会議をセットアップする</a></p>
                     </div>
                 </div>
             </div>
@@ -187,7 +187,7 @@ ms.locfileid: "19862902"
                 <div class="card">
                     <div class="cardText">
                         <h3>電話会議</h3>
-                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions">Office 365 での電話会議</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">組織の電話会議の設定を管理する</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions">電話会議に関するよくある質問</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">電話会議プロバイダーを比較する</a></p><p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">自分の国や地域で電話会議や PTSN 会議が使用できるかを確認する</a></p>
+                        <p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Office 365 での電話会議</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">組織の電話会議の設定を管理する</a></p><p><a href="/MicrosoftTeams/audio-conferencing-common-questions">電話会議に関するよくある質問</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">電話会議プロバイダーを比較する</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">自分の国や地域で電話会議や PTSN 会議が使用できるかを確認する</a></p>
                     </div>
                 </div>
             </div>
@@ -211,7 +211,7 @@ ms.locfileid: "19862902"
                 <div class="card">
                     <div class="cardText">
                         <h3>アドオン ライセンス</h3>
-                        <p><a href="/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing">Skype for Business と Microsoft Teams のアドオン ライセンス</a></p><p><a href="/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits">コミュニケーション クレジットについて</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing">Skype for Business と Microsoft Teams のアドオン ライセンス</a></p><p><a href="/MicrosoftTeams/what-are-communications-credits">コミュニケーション クレジットについて</a></p>
                     </div>
                 </div>
             </div>
@@ -223,7 +223,7 @@ ms.locfileid: "19862902"
                 <div class="card">
                     <div class="cardText">
                         <h3>通話プラン</h3>
-                        <p><a href="/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365">Office 365 の通話プランについて</a></p><p><a href="/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans">通話プランのセットアップ</a></p><p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">自分の国や地域で通話プランが使用できるかを確認する</a></p>
+                        <p><a href="/MicrosoftTeams/what-are-calling-plans-in-office-365">Office 365 の通話プランについて</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">通話プランのセットアップ</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">自分の国や地域で通話プランが使用できるかを確認する</a></p>
                     </div>
                 </div>
             </div>
@@ -235,7 +235,7 @@ ms.locfileid: "19862902"
                 <div class="card">
                     <div class="cardText">
                         <h3>電話システム</h3>
-                        <p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/what-is-phone-system-in-office-365">Office 365 での電話システムについて</a></p><p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system">Office 365 での電話システムで利用できる機能</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Office 365 での電話システムについて</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Office 365 での電話システムで利用できる機能</a></p>
                </div>
                 </div>
             </div>
