@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: この資料では、Skype ルーム システム v2 をサポートするための要件について説明します。
-ms.openlocfilehash: 0cb0a2cc0508f3499c94971647a22a936fc0648d
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: ce5b8343973fca50970132accd7833641ed9c5a1
+ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22601935"
+ms.lasthandoff: 09/01/2018
+ms.locfileid: "23797345"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Skype Room Systems バージョン 2 の要件
  
@@ -51,9 +51,9 @@ Skype ルーム システム v2 は、別の部屋のサイズによっては、
 **サポートされているコンソール**
 |コンソール|プロセッサ|RAM|ディスク|
 |:-----|:-----|:-----|:-----|
-|[Lenovo ハブ 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8 GB  |128 GB  |  
+|[Lenovo ThinkSmart ハブ 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8 GB  |128 GB  |  
 |[会議室 G2 の HP のエリート スライス](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5  |8 GB  |128 GB  |  
-    
+
 - 会議にタブレットをセキュリティで保護する次のようなドッキング ステーション オプションのいずれかのルームのテーブルです。 
     
   - [Logitech (ロジクール) SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
