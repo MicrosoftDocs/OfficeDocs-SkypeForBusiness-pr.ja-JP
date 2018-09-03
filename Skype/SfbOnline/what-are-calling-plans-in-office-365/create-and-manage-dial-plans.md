@@ -19,12 +19,13 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn how to create calling dial plans (PSTN Calling dial plans) in Office 365 and how to manage them. '
-ms.openlocfilehash: 5390765db0d70acb789c6dcf4a2fd4dc488e613e
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
-ms.translationtype: MT
+description: 'Office 365 で通話のダイヤル プラン (PSTN の通話のダイヤル プラン) を作成する方法とそれを管理する方法について説明します。 '
+ms.openlocfilehash: a0bbe698e348461d9f8295035e02afcb537eb503
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779290"
 ---
 # <a name="create-and-manage-dial-plans"></a>ダイヤル プランを作成および管理する
 
@@ -37,7 +38,7 @@ ms.lasthandoff: 05/25/2018
 
  **Windows PowerShell バージョン 3.0 以降を実行していることを確認する**
   
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+1. 3.0 以降のバージョンが実行されていることを確認する場合: **[スタート] メニュー** > **[Windows PowerShell]**。
     
 2. [ _Windows PowerShell_] ウィンドウに「 **Get-Host**」と入力して、バージョンを確認します。
     
@@ -49,7 +50,7 @@ ms.lasthandoff: 05/25/2018
   
  **Windows PowerShell セッションを開始する**
   
-1. From the **Start Menu** > **Windows PowerShell**.
+1. [**スタート メニュー**]  >  [**Windows PowerShell**] から開きます。
     
 2. [ **Windows PowerShell**] ウィンドウで、次を実行して、Office 365 の組織に接続します。
     
@@ -64,7 +65,7 @@ ms.lasthandoff: 05/25/2018
     Import-PSSession $session
   ```
 
-Windows PowerShell を開始する方法の詳細を設定する場合は、 [1 つの Windows PowerShell のウィンドウ内のすべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)か、 [Windows PowerShell を使用して、オンライン ビジネスの Skype への接続](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)を参照してください。
+Windows PowerShell の起動の詳細については、「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)」または「[Windows PowerShell を使用した Skype for Business への接続](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)」を参照してください。
   
 ## <a name="creating-and-managing-your-dial-plans"></a>ダイヤル プランの作成と管理
 
@@ -202,7 +203,7 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShell で行うのは、ユーザーを管理し、ユーザーに何を許可して何を禁止するかを管理することです。Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -216,14 +217,14 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
     
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>See also
-電話番号の管理フォームのダウンロード
+## <a name="related-topics"></a>関連トピック
+[電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[通話プランで使用されるさまざまな種類の電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[通話プランで使用されるさまざまな種類の電話番号](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[[Skype for Business 新しい電話番号の申請](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。
+[[[Skype for Business 新しい電話番号の申請](/microsoftteams/manage-phone-numbers-for-your-organization)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[緊急通話の利用条件](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
