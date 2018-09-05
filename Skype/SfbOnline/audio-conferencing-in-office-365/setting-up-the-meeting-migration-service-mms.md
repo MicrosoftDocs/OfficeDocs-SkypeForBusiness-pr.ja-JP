@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Meeting Migration Service (MMS) は Skype for Business サービスの 1 つで、バックグラウンドで動作して、ユーザーのために Skype for Business および Microsoft Teams 会議を自動的に更新します。MMS はユーザーが会議移行ツールを実行して Skype for Business および Microsoft Teams 会議を更新しなくても済むように設計されています。
-ms.openlocfilehash: 820726451c1ed9a28d29882903348f231ee4ce16
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
-ms.translationtype: MT
+ms.openlocfilehash: 013e68ada16f15b3a410823680ec062b9fb7fa3a
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703810"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780503"
 ---
 # <a name="setting-up-the-meeting-migration-service-mms"></a>Meeting Migration Service (MMS) のセットアップ
 
-Meeting Migration Service (MMS) は Skype for Business サービスの 1 つで、バックグラウンドで動作して、ユーザーのために Skype for Business および Microsoft Teams 会議を自動的に更新します。 MMS はユーザーが会議移行ツールを実行して Skype for Business および Microsoft Teams 会議を更新しなくても済むように設計されています。  このツールは、マイクロソフトのチーム ミーティングにビジネス会議のため Skype を移行しません。  
+Meeting Migration Service (MMS) は Skype for Business サービスの 1 つで、バックグラウンドで動作して、ユーザーのために Skype for Business 会議と Microsoft Teams 会議を自動的に更新します。MMS は、ユーザーが会議移行ツールを実行して Skype for Business 会議と Microsoft Teams 会議を更新しなくても済むように設計されています。このツールは、Microsoft Teams 会議に Skype for Business 会議を移行しません。  
   
  **要件**
   
@@ -63,7 +63,7 @@ MMS は次の 2 つの主要シナリオでユーザーのために Skype 会議
   
 - MMS ではユーザーのメールボックスを Exchange Online で利用できる状態にする必要があるため、オンプレミスの Exchange Server からの移行も実行している場合は、先にユーザーのメールボックスを Exchange Online に移動します。
     
-- Assign the **Audio Conferencing** license to the user before you run the `Move-CSUser` cmdlet to migrate the user. This is because MMS also updates meetings when audio conferencing settings are changed for a user. If you don't assign the license first, MMS will update all meetings again when you assign the license.
+- **電話会議**のライセンスをユーザーに割り当ててから、`Move-CSUser` コマンドレットを実行してユーザーを移行します。これは、電話会議設定がユーザーのために変更されるときに、MMS が会議も更新するためです。最初にライセンスを割り当てていない場合、ライセンスを割り当てるときに、MMS がすべての会議も再度更新します。
     
 ### <a name="if-youre-currently-using-a-third-party-audio-conferencing-provider-acp"></a>現在サードパーティの音声会議プロバイダー (ACP) を使用している場合
 
@@ -89,7 +89,7 @@ MMS は次の場合に既存の Skype for Business Online および Microsoft Te
     
 - ユーザーを新しい電話会議ブリッジに移行する場合
     
-- 電話番号が電話会議ブリッジから割り当てられていない場合。これは複雑なシナリオで、追加手順を必要とします。詳細については、「[電話会議ブリッジの有料または無料の電話番号を変更する](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)」をご覧ください。
+- 電話番号が電話会議ブリッジから割り当てられていない場合。これは複雑なシナリオで、追加手順を必要とします。詳細については、「[電話会議ブリッジの有料または無料の電話番号を変更する](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)」をご覧ください。
     
 > [!IMPORTANT]
 > Microsoft ブリッジを使用している場合、MMS は会議の更新のみを行います。サードパーティの電話会議プロバイダーを使用している場合、ユーザーは会議を手動で更新する必要があります。この場合、[Meeting Migration Tool](https://go.microsoft.com/fwlink/p/?linkid=626047) を使用できます。 
@@ -124,7 +124,7 @@ MMS が会議を移行するのにかかる時間の量は、影響するユー�
     
 - MMS は会議が移行されるときにオンライン会議の情報ブロックのすべてを置き換えます。このため、ユーザーがそのブロックを編集した場合は、それらの変更は上書きされます。オンライン会議の情報ブロック以外の会議の詳細に含まれているコンテンツは影響しません。
     
-     ![The meeting block that gets updated by MMS](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
+     ![MMS で更新される会議ブロック。](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
   
 - 作成された、または会議に添付された会議コンテンツ (ホワイトボード、投票など) は、MMS が動作すると保持されません。会議の開催者が事前にコンテンツを会議に添付している場合、そのコンテンツは MMS の動作後に再作成する必要があります。
     
@@ -140,14 +140,14 @@ MMS が会議を移行するのにかかる時間の量は、影響するユー�
   
 ## <a name="managing-mms"></a>MMS の管理
 
-Windows PowerShell を使用して MMS を管理し、継続的な移行の状態を確認する必要があります。 このセクションの情報は、PowerShell を使用した Skype for Business の組織の管理に慣れていることを前提としています。 PowerShell を初めて使用する場合は、この資料の最後に[、Skype をビジネスの組織を管理するために PowerShell を使用する](setting-up-the-meeting-migration-service-mms.md#WPSInfo)を参照してください。
+Windows PowerShell を使用して MMS を管理し、進行中の移行のステータスを確認する必要があります。 このセクションの情報は、PowerShell を使用した Skype for Business の組織の管理に慣れていることを前提としています。 新しい PowerShell を使用する場合は、この記事の最後にある「[PowerShell を使用した Skype for Business の組織の管理](setting-up-the-meeting-migration-service-mms.md#WPSInfo)」セクションをご覧ください。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ### <a name="how-do-i-check-the-status-of-meeting-migrations"></a>会議の移行のステータスを確認する方法を教えてください。
 
-`Get-CsMeetingMigrationStatus` コマンドレットを使用して、会議の移行のステータスを確認します。次に例を示します。
+コマンドレットを使用して、会議の移行のステータスを確認します。次に例を示します。`Get-CsMeetingMigrationStatus`
   
 すべての MMS の移行に関する概要ステータスを取得するには、次のコマンドを実行します。
   
@@ -157,7 +157,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 これによって、すべての移行状態が次のように表形式で表示されます。
   
-UserCount の状態--<br/> 保留中の 21<br/>InProgress 6<br/> 失敗 2 <br/> 成功 131
+UserCount の状態---------------<br/> 保留中の 21<br/>InProgress 6<br/> 失敗 2 <br/> 成功 131
 > [!IMPORTANT]
 > 移行が失敗したことを確認した場合は、それらの問題を解決する措置をできるだけ早く行います。問題に対処するまで、これらのユーザーによって開催される会議にダイヤルインすることはできません。詳細については、「[エラーが発生した場合の対処方法を教えてください。](setting-up-the-meeting-migration-service-mms.md#Troubleshooting)」セクションをご覧ください。
   
@@ -176,7 +176,7 @@ Get-CsMeetingMigrationStatus -UserId "ashaw@contoso.com"
 ### <a name="what-do-i-do-if-there-is-an-error"></a>エラーが発生した場合の対処方法を教えてください。
 <a name="Troubleshooting"> </a>
 
-`Get-CsMeetingMigrationStatus` コマンドレットを実行して概要ビューを表示すると、状態が 失敗となっている移行が確認される場合があります。対処方法は次のとおりです。
+コマンドレットを実行して概要ビューを表示すると、状態が 失敗となっている移行が確認される場合があります。対処方法は次のとおりです。`Get-CsMeetingMigrationStatus`
   
 1. 影響を受けているユーザーを特定します。次のコマンドを実行して、影響を受けているユーザーと、報告された特定のエラーのリストを取得します。
     
@@ -252,7 +252,7 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com
 
  **Windows PowerShell バージョン 3.0 以降を実行していることを確認する**
   
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+1. 3.0 以降のバージョンが実行されていることを確認する場合: **[スタート] メニュー** > **[Windows PowerShell]**。
     
 2. [ _Windows PowerShell_] ウィンドウに「 **Get-Host**」と入力して、バージョンを確認します。
     
@@ -264,7 +264,7 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com
   
  **Windows PowerShell セッションを開始する**
   
-1. From the **Start Menu** > **Windows PowerShell**.
+1. [**スタート メニュー**]  >  [**Windows PowerShell**] から開きます。
     
 2. [ **Windows PowerShell**] ウィンドウで、次を実行して、Office 365 の組織に接続します。
     
