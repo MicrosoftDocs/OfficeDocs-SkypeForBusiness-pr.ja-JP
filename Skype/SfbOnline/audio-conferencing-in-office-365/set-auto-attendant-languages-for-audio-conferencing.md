@@ -1,5 +1,5 @@
 ---
-title: ビジネス オンラインの Skype で電話会議の自動応答の言語を設定します。
+title: Skype for Business Online で電話会議の自動案内の言語を設定する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,20 +18,20 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: ビジネス オンラインの Skype での音声会議自動アテンダントの言語のオーディオ会議の番号を選択する方法を参照してください。
-ms.openlocfilehash: 026a09290c6e008493784c0d883220e03d13559f
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
-ms.translationtype: MT
+description: Skype for Business Online の自動会議番号については、自動会議の自動案内言語の選択方法を参照してください。
+ms.openlocfilehash: fe0abceba1f01b148f1a81163525be0750ef4980
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490517"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779077"
 ---
-# <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>ビジネス オンラインの Skype で電話会議の自動応答の言語を設定します。
+# <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Skype for Business Online で電話会議の自動案内の言語を設定する
 
 > [!Note]
-> マイクロソフトのチームでの自動応答の言語の設定方法の詳細については、[マイクロソフトのチームで、オーディオ会議の自動応答の言語設定](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams)を参照してください。
+> Microsoft Teams での自動案内言語設定に関する詳細については、[Microsoft Teams で電話会議の自動案内の言語を設定する](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams)を参照してください。
 
-ビジネス用の Skype のオーディオ会議自動アテンダントを呼びかけますオーディオ呼び出し元のさまざまな言語で会議に参加するとき。
+Skype for Business 用の電話会議の自動案内は、ダイヤルインの通話者に対して、会議に参加するときに複数の言語で挨拶メッセージを出すことができます。
   
 第 1 言語 1 つと、第 2 言語 4 つまで選びます。設定する第 1 言語が最初に使用され、第 2 言語は選択した順に自動応答で使用されます。 
   
@@ -43,7 +43,7 @@ ms.locfileid: "22490517"
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>電話会議の自動応答の言語を設定する
 
-この手順を実行するには、[Office 365 の管理者ロールについて](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)または[Office 365 の管理者ロールについて](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)としてログインしている必要があります。
+この手順を実行するには、[Office 365 のグローバル管理者](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)または[Skype for Business の管理者](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)である必要があります。
     
 1. **Skype for Business 管理センター**の左のナビゲーションで、[ **電話会議**] に移動し、[ **Microsoft ブリッジ**] をクリックします。
     
@@ -58,7 +58,7 @@ ms.locfileid: "22490517"
     
 ## <a name="want-else-should-i-know"></a>その他の情報
 
-- 電話会議でサポートされる言語のリストを確認するには、「[ダイヤルイン会議でサポートされる言語](audio-conferencing-supported-languages.md)」をご覧ください。
+- 電話会議でサポートされる言語のリストを確認するには、「[ダイヤルイン会議でサポートされる言語](/MicrosoftTeams/audio-conferencing-supported-languages)」をご覧ください。
     
 - 専用電話番号には言語を設定できますが、共有電話番号には設定できません。
     
@@ -70,6 +70,6 @@ ms.locfileid: "22490517"
   
 詳細については、「[Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)」をご覧ください。
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>関連トピック
 
 [Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
