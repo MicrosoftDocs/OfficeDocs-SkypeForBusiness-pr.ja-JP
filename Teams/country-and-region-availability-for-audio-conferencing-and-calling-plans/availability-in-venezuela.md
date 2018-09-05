@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ベネズエラの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: da3d7ea3887ee57b960a525c8b48418a48af2309
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 9704b9893215982a980467e5e5a803862673289c
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783295"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829147"
 ---
 # <a name="availability-in-venezuela"></a>ベネズエラでの利用可能性
 
@@ -40,7 +40,7 @@ ms.locfileid: "23783295"
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |なし  <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用不可  <br/> |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信のクレジットが必要です。  <br/> |
    
 ## <a name="phone-system"></a>電話システム
 

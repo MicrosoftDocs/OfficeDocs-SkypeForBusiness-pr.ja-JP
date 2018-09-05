@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: トリニダード ・ トバゴの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: 147efe757dda5855cf7a1646f60d72863c3d4c91
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: de167d9018ca6d1227ddf387adac31f6c5958845
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785615"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829211"
 ---
 # <a name="availability-in-trinidad-and-tobago"></a>トリニダード ・ トバゴで可用性を実現
 
@@ -40,7 +40,7 @@ ms.locfileid: "23785615"
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |なし  <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用不可  <br/> |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信のクレジットが必要です。  <br/> |
    
 ## <a name="phone-system"></a>電話システム
 

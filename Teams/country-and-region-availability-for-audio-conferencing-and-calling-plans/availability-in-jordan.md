@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ヨルダンの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: 479bd629edf0761d4bee7b5e6ca9f43b3b18ee98
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: cae52abaf335a78412176da8ee97899e36b7fddd
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783335"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829307"
 ---
 # <a name="availability-in-jordan"></a>ヨルダンの可用性
 
@@ -40,7 +40,7 @@ ms.locfileid: "23783335"
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |なし  <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用不可  <br/> |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信のクレジットが必要です。  <br/> |
    
 ## <a name="phone-system"></a>電話システム
 

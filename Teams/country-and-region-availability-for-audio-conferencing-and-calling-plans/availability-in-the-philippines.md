@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: フィリピンの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: da8850ad1a1f4c3d91f9b18ca1c5869c2939d685
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 1538c718213392ec93b3f7d8288ae2bc396bec43
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23786023"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829395"
 ---
 # <a name="availability-in-the-philippines"></a>フィリピンで可用性を実現
 
@@ -40,7 +40,7 @@ ms.locfileid: "23786023"
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |はいの場合。 <br/><ul><li> マニラ</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。  <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用不可  <br/> |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信のクレジットが必要です。  <br/> |
    
 ## <a name="phone-system"></a>電話システム
 

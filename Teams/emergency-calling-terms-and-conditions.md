@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '従来の電話サービスと緊急サービス (911) どのようにして呼び出しを実行する方法について説明します。 '
-ms.openlocfilehash: 880f48625698be871e39c651e452afd228026716
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 9d9b3536ee5835cfdfadad82b71bb6a61f0a2361
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785463"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829123"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>緊急通話の利用条件
 
@@ -32,7 +32,7 @@ ms.locfileid: "23785463"
 
 重要な情報
   
-などの機能を呼び出し、緊急サービスの相違点: (i) Skype のビジネスで、緊急サービス呼び出し、問題の緊急サービスにルーティングされる呼び出しにつながる呼び出し元の実際の場所がわからないことがありますコール センターや、間違った場所にディスパッチされている緊急時のサービス(ii) ユーザーのデバイスは電源障害が発生している電源が入っていない、または、この何らかの理由でそれ以外はインターネットにアクセスできない、ユーザー行うことはできません計画を呼び出すことによって、緊急サービス呼び出しで Office 365 です。(iii) Office 365 のプランを呼び出すことで使用できる任意の場所、世界でインターネット接続が利用可能な可能性の呼び出しをルーティングされませんのでユーザーがその国または地域以外の場所からの緊急サービス呼び出しを作成しないでください。その国または地域で適切なコール センターです。
+などの機能を呼び出し、緊急サービスの相違点: (i) Skype ビジネスとチームので、緊急サービス呼び出し、問題の緊急時にルーティングされる呼び出しにつながる呼び出し元の実際の場所がわからないことがありますコール センターのサービスや緊急時のサービスが、間違った場所にディスパッチされています。(ii) ユーザーのデバイスは電源障害が発生している電源が入っていない、または、この何らかの理由でそれ以外はインターネットにアクセスできない、ユーザー行うことはできません計画を呼び出すことによって、緊急サービス呼び出しで Office 365 です。(iii) Office 365 のプランを呼び出すことで使用できる任意の場所、世界でインターネット接続が利用可能な可能性の呼び出しをルーティングされませんのでユーザーがその国または地域以外の場所からの緊急サービス呼び出しを作成しないでください。その国または地域で適切なコール センターです。
   
 ## <a name="related-topics"></a>関連トピック
 [電話番号の移行に関するよくある質問](transferring-phone-numbers-common-questions.md)
@@ -41,7 +41,7 @@ ms.locfileid: "23785463"
 
 [[[Skype for Business 新しい電話番号の申請](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[緊急通話についての免責事項のラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ボスニア ・ ヘルツェゴビナで使用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: 43545d18c8db4babc9af49924d75732123fa07cc
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 6c785a913b2fe8855e8e7d9d89b37c63fcd7c6d3
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784007"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829275"
 ---
 # <a name="availability-in-bosnia-amp-herzegovina"></a>ボスニアにおける可用性&amp;・ ヘルツェゴビナ
 
@@ -40,7 +40,7 @@ ms.locfileid: "23784007"
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |なし  <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用不可  <br/> |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信のクレジットが必要です。  <br/> |
    
 ## <a name="phone-system"></a>電話システム
 

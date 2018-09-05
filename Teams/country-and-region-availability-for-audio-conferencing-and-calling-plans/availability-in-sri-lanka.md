@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: スリランカの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: f0e8c801723a858435649fb7c6d49e2da92ff45c
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: f53df43b5c8487bd6dec8828362ae51a16a1daa9
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785079"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829427"
 ---
 # <a name="availability-in-sri-lanka"></a>スリランカの可用性
 
@@ -40,7 +40,7 @@ ms.locfileid: "23785079"
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> | 電話番号が特定の都市や地域に関連していません。 専用の電話番号を設定する場合は、[Skype のビジネスおよびマイクロソフトのチームの取得サービスの電話番号](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)を参照してください。  <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用不可  <br/> |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信のクレジットが必要です。  <br/> |
    
 ## <a name="phone-system"></a>電話システム
 

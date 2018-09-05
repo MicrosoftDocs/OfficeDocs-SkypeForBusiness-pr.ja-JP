@@ -20,12 +20,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: エジプトの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: cc2dec14b917227c0e33016afd6a67049c62953e
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: acebd35da3c464e21554cc2c97b0090f1f92d2d5
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784743"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829283"
 ---
 # <a name="availability-in-egypt"></a>エジプトの可用性
 
@@ -39,7 +39,7 @@ ms.locfileid: "23784743"
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |なし  <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用不可  <br/> |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信のクレジットが必要です。  <br/> |
    
 ## <a name="phone-system"></a>電話システム
 

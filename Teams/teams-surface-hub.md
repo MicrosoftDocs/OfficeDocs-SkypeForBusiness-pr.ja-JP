@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96eb92c45af065b5f09ab9312f79198377067c4a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: aed0cc2b26fa55dcf47b2d90bbd974720c371663
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246159"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829267"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>サーフェスのハブのマイクロソフトのチームを配置します。
 ======================================
@@ -157,7 +157,7 @@ Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
 通話や会議アプリケーションの既定ポリシーを構成するための 2 つのオプションがあります。 
 
 - **オプション 1**: USB キーを使用して構成します。 
-- **オプション 2**: InTune などの MDM を使用して構成します。
+- **オプション 2**: Intune などの MDM を使用して構成します。
  
 ### <a name="option-1-configure-via-usb-key"></a>オプション 1: は、USB キーを使用して構成します。 
  
@@ -180,9 +180,11 @@ Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
 9. サーフェス ハブ デバイスを再起動します。 
 10. デバイスを再起動した後は、開始画面から、チームのアプリケーションを起動し、カレンダーから会議に参加することができます。 
 
-### <a name="option-2-configure-via-mdm-such-as-intune"></a>InTune などの MDM を使用してオプション 2: を構成します。 
+### <a name="option-2-configure-via-mdm-such-as-intune"></a>Intune などの MDM を使用してオプション 2: を構成します。 
 
-InTune を使用して既定の通話や会議のアプリケーション ポリシーを構成するのにには、次を使用します。
+Intune を使用して既定の通話や会議のアプリケーション ポリシーを構成するのにには、次を使用します。
+
+.
 
 |設定   |値    |説明    |
 |----------|---------|---------|

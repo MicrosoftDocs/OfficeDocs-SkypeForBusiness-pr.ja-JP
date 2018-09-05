@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: アラブ首長国連邦の利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: bd9f28ef033277eb399d4c3fe4d20af13050042c
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 36393f1107e19478a6e9c22787489cab69126a5a
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784023"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829291"
 ---
 # <a name="availability-in-the-united-arab-emirates-uae"></a>アラブ首長国連邦 (アラブ首長国連邦) の可用性
 
@@ -40,7 +40,7 @@ ms.locfileid: "23784023"
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |なし  <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用不可  <br/> |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信のクレジットが必要です。  <br/> |
    
 ## <a name="phone-system"></a>電話システム
 

@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: パキスタンの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: 5131eba4979b1bf0566353c8e6f10141c861417d
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 279ab7a49fecca7780d0e3a94bf9c30719973e57
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785783"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829235"
 ---
 # <a name="availability-in-pakistan"></a>パキスタンの可用性
 
@@ -40,7 +40,7 @@ ms.locfileid: "23785783"
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |なし  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |はいの場合。<br/><ul><li> カラチ</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。  <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用不可  <br/> |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信のクレジットが必要です。  <br/> |
    
 ## <a name="phone-system"></a>電話システム
 

@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: (コスタリカ) の利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: a865070b8e549314f7325c4c8a7b37cc3843a880
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: df08aa02c97d362ca20d11e15252bf9a568a4db4
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783271"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829243"
 ---
 # <a name="availability-in-costa-rica"></a>(コスタリカ) の可用性
 
@@ -40,7 +40,7 @@ ms.locfileid: "23783271"
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |電話番号が特定の都市や地域に関連していません。  <br/> 専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。  <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用不可  <br/> |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信のクレジットが必要です。  <br/> |
    
 ## <a name="phone-system"></a>電話システム
 

@@ -20,12 +20,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plansfor Business and Microsoft Teams available for Moldova."
-ms.openlocfilehash: f991a2d8f582206b992d0cad5431d7907bd9041d
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: f2bf4ccd20ae06c80970f1483549d76179051d3c
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785903"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829299"
 ---
 # <a name="availability-in-moldova"></a>モルドバでの可用性
 
@@ -39,7 +39,7 @@ ms.locfileid: "23785903"
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |なし  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |なし  <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用不可  <br/> |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信のクレジットが必要です。  <br/> |
    
 ## <a name="phone-system"></a>電話システム
 

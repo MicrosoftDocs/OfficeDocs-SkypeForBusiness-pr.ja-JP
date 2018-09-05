@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: アルゼンチンの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: f1c121e27ce6e17dfd30c5d6220a3c240fa3b079
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 6f1c4c047523de5e9a9ac6da9aadb669bb976a1e
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783927"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829355"
 ---
 # <a name="availability-in-argentina"></a>アルゼンチンの可用性
 
@@ -40,7 +40,7 @@ ms.locfileid: "23783927"
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |はいの場合。<br/><ul><li>ブエノスアイレス</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。  <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> | 利用不可 <br/> |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> | 通信のクレジットが必要です。 <br/> |
    
 ## <a name="phone-system"></a>電話システム
 
