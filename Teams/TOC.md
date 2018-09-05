@@ -105,25 +105,20 @@
 <!-- ============================================================ -->
 # 管理
 ## [レビュー ガイドの経験の質](quality-of-experience-review-guide.md)
-## 分析機能を呼び出す
+## 通話の音質をモニターし、QoS
+### [Teams でのサービス品質 (QoS)](QoS-in-Teams.md)
+### [呼び出しを分析し、通話品質のダッシュ ボード](difference-between-call-analytics-and-call-quality-dashboard.md)
 ### [通話品質ダッシュボードで利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [分析機能の呼び出しを設定します](set-up-call-analytics.md)
 ### [通話分析を使用して低い通話品質をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [呼び出しを分析し、通話品質のダッシュ ボード](difference-between-call-analytics-and-call-quality-dashboard.md)
-
+### [通話品質ダッシュボードでのストリーム分類](stream-classification-in-call-quality-dashboard.md)
 ## トラブルシューティングとサポート
 ### [Teams の既知の問題](Known-issues.md)
 ### [Teams のサポート リソース](support-resources.md)
 ### [Teams クライアントの接続性の問題をトラブルシューティングする](connectivity-issues.md)
 ### [Teams のトラブルシューティングでログ ファイルを使用する](log-files.md)
 ### [Teams のサービス正常性を確認する](service-health.md)
-## 通話品質と QoS を監視する
-### [Teams でのサービス品質 (QoS)](QoS-in-Teams.md)
-### [呼び出しを分析し、通話品質のダッシュ ボード](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [通話品質ダッシュボードで利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
-### [Skype for Business の通話分析をセットアップする](set-up-call-analytics.md)
-### [通話分析を使用して Skype for Business の低い通話品質をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [通話品質ダッシュボードでのストリーム分類](stream-classification-in-call-quality-dashboard.md)
+
 <!-- ============================================================ -->
 
 
