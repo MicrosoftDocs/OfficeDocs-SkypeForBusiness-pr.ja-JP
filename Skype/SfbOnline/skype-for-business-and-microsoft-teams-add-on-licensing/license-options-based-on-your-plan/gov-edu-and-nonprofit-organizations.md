@@ -1,5 +1,5 @@
 ---
-title: GOV、EDU、および非営利組織
+title: 政府機関、教育機関、および非営利団体
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,16 +19,17 @@ f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'GOV、EDU および非営利組織の計画には、アドオン ・ ライセンスと機能について説明します。 '
-ms.openlocfilehash: cc0777a6dd62e8353ef381c9f0e379e552c6bf18
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
-ms.translationtype: MT
+description: '政府機関、教育機関 および非営利組織 のプラン用のアドオン ライセンスと機能について説明します。 '
+ms.openlocfilehash: bf1678efce8f6e08398147db7bb88c771da75bbb
+ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 09/04/2018
+ms.locfileid: "19493984"
 ---
-# <a name="gov-edu-and-non-profit-organizations"></a>GOV、EDU、および非営利組織
+# <a name="gov-edu-and-non-profit-organizations"></a>政府機関、教育機関、および非営利団体
 
-.Gov、.edu、および非営利組織のビジネス機能のほとんどの Skype です。 詳細については、次の表を参照してください。
+Skype for Business の大半の機能は、政府機関、教育機関、および非営利組織で利用できます。 詳細については、次の表を参照してください。
 
 |**Skype for Business の機能**|**政府機関 (GCC) で使用可能**|**政府機関 (非 GCC) で使用可能**|**教育機関で使用可能**|**非営利団体で使用可能**|
 |:-----|:-----|:-----|:-----|:-----|
