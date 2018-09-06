@@ -13,12 +13,12 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 8f5f6eef85352a0c20d08b3e3bf2a327abfd9ca0
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: 7f79257847780ec4c3f9b0c4dd2cda25241a3518
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "19004843"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779223"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議についての実践的なガイダンスを提供します。
 ============================================================
@@ -234,7 +234,7 @@ Network Readiness Assessment の結果により、必要なネットワーク最
 
 ## <a name="availability-of-audio-conferencing"></a>電話会議の利用可否
 
-電話会議は以下の[国と地域](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)で利用できます。
+電話会議は以下の[国と地域](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)で利用できます。
 
 > [!IMPORTANT]
 > 法的な規制により、多国間組織での電話会議の利用には、電話会議サービスが提供されている国や地域または電話会議サービスが商用的に利用可能な国や地域から Office 365 サブスクリプションの契約が提供される必要があります。

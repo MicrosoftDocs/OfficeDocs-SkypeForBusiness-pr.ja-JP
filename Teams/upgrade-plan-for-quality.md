@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f0050834f55568a6a747d84e8efdffb3e898d226
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 6114120998425acdd443ab852b3f39fd2549b5ff
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398030"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779949"
 ---
 ![技術的な準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いて、旅アップグレードの段階")
 
@@ -148,7 +148,7 @@ ms.locfileid: "20398030"
 
 早い段階で品質の支持者を指名するを強くお勧めします。 後、指定されている品質のエクスペリエンス評価ガイドの内容を十分に理解する、開始する必要があります。
 
-品質の経験の確認ガイドを参照して[ここで](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)。
+品質の経験の確認ガイドを参照して[ここで](https://aka.ms/qerguide)。
 
 ## <a name="plan-for-network-quality"></a>ネットワークの品質管理の計画 
 
@@ -341,8 +341,8 @@ Wi-fi 機器は現在、2.4 GHz および 5.0 GHz で使用されているバン
 | エリア | 詳細 | 参照 |
 |-----------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | サービスの管理の計画 | 操作上の役割のマッピング手順を実行します。 <br/> 責任を負うチームからサインオフ <br/> ロールの準備 | [運用ガイド](1-drive-value-operate-my-service.md) |
-| | 品質の Champion(s) を指名します。 <br/> 品質の精鋭の準備| [救難を学習します。](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [品質体験レビュー ガイド](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) |
-| | エクスペリエンスの品質レビュー テンプレートをインストールします。 <br/> 構築ファイルをアップロードします。 | [QERLite テンプレート](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-2-1.zip?raw=true) <br/> [アップロードの構築について](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)|
+| | 品質の Champion(s) を指名します。 <br/> 品質の精鋭の準備| [救難を学習します。](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [品質体験レビュー ガイド](https://aka.ms/qerguide) |
+| | エクスペリエンスの品質レビュー テンプレートをインストールします。 <br/> 構築ファイルをアップロードします。 | [QERLite テンプレート](https://aka.ms/qertemplates) <br/> [アップロードの構築について](turning-on-and-using-call-quality-dashboard.md)|
 | ネットワークの品質管理の計画 | ネットワークの計画を実行します。 | [ネットワーク プランナー](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
 | | QoS を実装します。 | [マイクロソフトのチームでのサービスの品質](qos-in-teams.md) |
 | | プロキシ サーバーを使用しません。 | [プロキシのガイダンス](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |

@@ -10,40 +10,40 @@ localization_priority: Priority
 ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
-description: この記事では、Skype Room Systems バージョン 2 コンソール デバイスとその周辺機器の設定方法を説明します。
-ms.openlocfilehash: e9675b091723dc3b021543acedd278404788be13
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: この資料では、Skype ルーム システム v2 のコンソールとその周辺機器を設定する方法について説明します。
+ms.openlocfilehash: c2be3c1a8ee36120eac0198da364ab0101ae482e
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21013697"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23828716"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Skype Room Systems バージョン 2 コンソールを構成する
  
-この記事では、Skype Room Systems バージョン 2 コンソール デバイスとその周辺機器の設定方法を説明します。
+この資料では、Skype ルーム システム v2 のコンソールとその周辺機器を設定する方法について説明します。
   
-ビジネスおよび Exchange アカウントに必要な Skype が既に作成して[Skype ルーム システムの配置のバージョン 2](room-systems-v2.md)で説明したようにテストする場合のみ、この手順を実行する必要があります。 ハードウェアとソフトウェアの[Skype ルーム システム v2 の要件](../../plan-your-deployment/clients-and-devices/requirements.md)」に記載する必要があります。 このトピックには次のセクションが含まれています。
+ビジネスおよび Exchange アカウントに必要な Skype が既に作成して[Skype ルーム システムの配置のバージョン 2](room-systems-v2.md)で説明したようにテストする場合のみ、この手順を実行する必要があります。 ハードウェアとソフトウェアの[Skype ルーム システム v2 の要件](../../plan-your-deployment/clients-and-devices/requirements.md)」に記載する必要があります。 このトピックには次のセクションが含まれます。
   
-- [インストール イメージを準備する](console.md#Prep_Image)
+- [インストール メディアを準備します。](console.md#Prep_Media)
     
-- [タブレット デバイスにプライベート CA 証明書をインストールする](console.md#Certs)
+- [コンソールにプライベート CA 証明書をインストールします。](console.md#Certs)
     
-- [Windows 10 と Skype ルーム システム v2 のコンソール アプリケーションをインストールします。](console.md#Reimage)
+- [Windows 10 と Skype Room Systems バージョン 2 コンソール アプリをインストールする](console.md#Reimage)
    
 - [コンソールの初期設定](console.md#Initial)
     
-- [Skype Room System バージョン 2 の展開チェックリスト](console.md#Checklist)
+- [Skype ルーム システム v2 の展開のチェックリスト](console.md#Checklist)
     
 > [!NOTE]
 > Skype ルーム システム v2 は、ビジネス環境をデバイスのアカウントが正しく設定されて[Skype ルーム システムの配置のバージョン 2](room-systems-v2.md)で説明したように正しく構成されている Skype でのみ動作します。 
   
-## <a name="prepare-the-installation-image"></a>インストール イメージを準備する
-<a name="Prep_Image"> </a>
+## <a name="prepare-the-installation-media"></a>インストール メディアを準備します。
+<a name="Prep_Media"> </a>
 
-Surface Pro 4 または Surface Pro の Skype ルーム システム v2 のアプリケーションをインストールするには、FAT32 ディスクとしてフォーマットされたメモリの 32 GB 以上の USB ストレージ デバイスが必要です。 デバイス上に他にファイルがないようにしてください。USB ストレージ上の既存のファイルはすべて失われます。 
+Skype ルーム システム v2 のコンソール アプリケーションをインストールするには、FAT32 ディスクとしてフォーマットされたメモリの 32 GB 以上の USB ストレージ デバイスが必要です。 デバイス上に他にファイルがないようにしてください。USB ストレージ上の既存のファイルはすべて失われます。
   
 > [!NOTE]
-> 次の手順に従ってコンソール イメージを作成しないと、予期しない動作が発生する可能性があります。 Skype ルーム システム v2 のイメージの作成については、Windows 10 企業記念日の更新プログラム (バージョン 1607) がサポートされていません。 
+> 予期しない動作になる可能性があります、次の手順に従って、Skype ルーム システム v2 のインストール メディアを作成するに失敗しました。 Skype ルーム システム v2 のインストール メディアの作成については、Windows 10 企業記念日の更新プログラム (バージョン 1607) がサポートされていません。
   
 > [!NOTE]
 > Windows 10 企業記念日を更新、Windows ストアを使用して Skype ルーム システム v2 更新 3 への移動で既存の Skype ルーム システム v2 機能しますが、次のように、新規インストールを行う必要があります。 
@@ -53,34 +53,40 @@ Surface Pro 4 または Surface Pro の Skype ルーム システム v2 のア�
 3. Windows 10 マシン上で管理者特権でのプロンプトから CreateSrsMedia.ps1 スクリプトを実行します。
 
 
-Skype ルーム システム v2 の USB セットアップ ディスクを作成するスクリプトの指示に従います。 完了したら、コンピュータから USB ディスクを削除し、「[Windows 10 と Skype Room Systems バージョン 2 コンソール アプリをインストールする](console.md#Reimage)」に進みます。
+Skype ルーム システム v2 の USB セットアップ ディスクを作成するスクリプトの指示に従います。 完了したら、USB ディスクをコンピューターから削除し、 [Windows の 10 をインストール](console.md#Reimage)して Skype ルーム システム v2 のコンソール アプリケーションです。
     
 ## <a name="install-windows-10-and-the-skype-room-systems-v2-console-app"></a>Windows 10 と Skype Room Systems バージョン 2 コンソール アプリをインストールする
 <a name="Reimage"> </a>
 
-次に、作成したイメージを適用する必要があります。 タブレットは、アプライアンスとして実行され、Skype ルーム システム v2 アプリケーションのみを実行するのには既定のユーザーを指定します。 
-  
-1. タブレットを電源に接続します。 完全に電源オフの状態から開始します。 必要に応じて、タブレットの電源が切れるまで、電源ボタンを押したままにします。
+作成したセットアップ メディアを適用する必要があります。 アプライアンスとターゲット ・ デバイスが実行され、既定のユーザーは、Skype ルーム システム v2 のコンソール アプリケーションを実行するだけに設定されます。
+
+1. ドッキング ステーション (例えば、Surface Pro) でターゲット ・ デバイスをインストールする場合は、ドッキング ステーションから取り外します。
+
+2. ターゲット ・ デバイスがネットワークに接続されていないことを確認します。
+
+3. ターゲット ・ デバイスが AC 電源に接続されていることを確認します。
+
+4. USB セットアップ ディスクをターゲット ・ デバイスに差し込みます。
+
+5. USB セットアップ ディスクから起動します。 製造元の指示を参照してください。 場合は、ターゲット ・ デバイスは、Surface Pro は、USB のセットアップ ディスクから起動するのには次の手順を使用します。
+
+    1. キーを押し、ボリューム ダウン (-) ボタンを押したままです。
+
+    2. キーを押し、電源ボタンを離します。
+
+    3. Windows セットアップが起動したら、ボリューム ダウン (-) ボタンを離します。
+
+8. インストールが完了したら、システムがシャット ダウンします。
     
-2. USB セットアップ ディスクをタブレットに取り付けます。
-    
-3. タブレットのボリューム ダウン (-) ボタンを押したままにします。 
-    
-4. タブレットの電源ボタンを押して、離します。
-    
-5. Windows セットアップが起動したら、ボリューム ダウン (-) ボタンを離します。
-    
-6. インストールが完了したら、システムがシャット ダウンします。
-    
-システムがシャット ダウンした後、USB のセットアップ ディスクを削除すると安全です。 この段階で、タブレットをドックに設置し、お使いの会議室に必要な周辺機器を接続できます。 製造元の指示を参照してください。
+システムがシャット ダウンした後、USB のセットアップ ディスクを削除すると安全です。 この時点で、(ドッキング ベースの製品を使用する) 場合は、そのドッキング ステーションにターゲット devcie を配置、会議室に必要な周辺機器を接続してネットワークに接続できます。 製造元の指示を参照してください。
   
  
 ### <a name="selecting-a-language-in-creators-update"></a>Creators Update での言語の選択
 
-作成者の更新では、暗黙の言語の選択が必要な実際のアプリケーションの言語を使用してユーザーを提供しないシナリオで ApplyCurrentRegionAndLanguage.ps1 スクリプトを使用する必要があります (など、フランス語で発生するようにアプリケーションが欲しいが、次の英語で)。
+作成者の更新では、暗黙の言語の選択が必要な実際のアプリケーションの言語を使用してユーザーを提供しないシナリオで ApplyCurrentRegionAndLanguage.ps1 スクリプトを使用する必要があります (フランス語、考案するコンソール アプリケーションをするなどが、それは、次の英語で)。
   
 > [!NOTE]
-> 次の操作指示は、Windows Creators Update を使用して作成されたデバイスに対してのみ機能します。 新しいプロビジョニング システムに対して適切に再イメージングされていないレガシー/販売中のシステムは、これらの操作指示を利用できませんが、手動での介入を必要とする最初の問題からは損害を受けます (Anniversary Edition では、セットアップの一部としてアプリの言語を明示的に選ぶことができます)。 
+> 次の手順は、作成者の Windows 更新プログラムを使用して作成されたコンソールに対してのみ機能します。 新しいプロビジョニング システムでメディアを使用して設定されていないレガシ/市場でのシステムは、これらの手順を使用することはできませんが、この手動による介入を必要とする最初の問題からは低くもする必要があります (記念日のエディションを選択できます、アプリケーションの言語設定の一部として明示的に)。
   
 ### <a name="to-apply-your-desired-language"></a>必要な言語を適用するには
 
@@ -116,13 +122,13 @@ Skype ルーム システム v2 の USB セットアップ ディスクを作成
     
 13. システムを再起動します。
     
-Skype ルーム システムのバージョン 2 のデバイスに、目的の言語が適用されます。
-## <a name="initial-set-up-of-the-console"></a>コンソールの初期設定 
+Skype ルーム システム v2 のコンソールに、目的の言語が適用されます。
+## <a name="initial-set-up-of-the-console"></a>コンソールの初期設定
 <a name="Initial"> </a>
 
-Windows をインストールすると、Skype ルーム システム v2 アプリケーションが次回起動したとき、または、/reboot オプションが選択された場合の初期のセットアップ プロセスに移動します。
+Windows をインストールすると、Skype ルーム システム v2 のコンソール アプリケーションが次回起動したとき、または、/reboot オプションが選択された場合の初期のセットアップ プロセスに移動します。
   
-1. [ユーザー アカウント] 画面が表示されます。デバイスで使用するルーム アカウントの Skype サインイン アドレス (ユーザー@ドメイン形式) を入力します。
+1. [ユーザー アカウント] 画面が表示されます。 Skype サインインのアドレスを入力 (user@domain 形式) で、コンソールで使用する部屋のアカウントです。
     
 2. ルーム アカウントのパスワードを入力し、確認のためにもう一度入力します。
     
@@ -142,28 +148,28 @@ Windows をインストールすると、Skype ルーム システム v2 アプ�
     
 6. **[完了]** をクリックします。
     
-アプリケーションは、ビジネス サーバーは、上で入力した資格情報を持つ Skype にサインインします。 すぐに開始する必要がありで同じ資格情報を使用して Exchange の予定表の同期を開始する必要がありますも。 アプリケーションの使用方法の詳細については、 [Skype ルーム システム バージョン 2 のヘルプ](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)を参照してください。
+Skype ルーム システム v2 のコンソール アプリケーションは、ビジネス サーバー、上で入力した資格情報を持つ Skype にサインインします。 すぐに開始する必要がありで同じ資格情報を使用して Exchange の予定表の同期を開始する必要がありますも。 コンソール アプリケーションの使用方法の詳細については、 [Skype ルーム システム バージョン 2 のヘルプ](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)を参照してください。
   
 > [!IMPORTANT]
-> Skype ルーム システム v2 では、認定されたコンソールのハードウェア (logitech (ロジクール) SmartDock) の存在に依存しています。 Surface Pro 4 または Surface Pro に読み込まれている Skype ルーム システム v2 のアプリケーションが含まれている正常に作成されたイメージはコンソールのハードウェアが検出された場合を除き、過去の初期セットアップ手順は起動しません。 
+> Skype ルーム システム v2 では、認定されたコンソールのハードウェアの存在に依存しています。 Skype ルーム システム v2 のコンソール アプリケーションが含まれている正常に作成されたイメージはコンソールのハードウェアが検出された場合を除き、過去の最初のセットアップ手順は起動しません。 Surface Pro ベースのソリューションでは、Surface Pro が必要に接続するこのチェックに合格するのには、付属のドッキング ハードウェア。
   
 > [!NOTE]
-> 英語以外の一部の言語のユーザーは、記号がタッチ キーボードでサポートされない場合に、コンソールに接続した物理的なキーボードが初期設定において必要になることがあります。 
+> 英語以外の言語の一部のユーザーは、タッチ キーボードでは、シンボルはサポートされていない、初期セットアップ時にコンソールに接続されている物理的なキーボードを必要があります。
   
-### <a name="install-a-private-ca-certificate-on-the-tablet-device"></a>タブレット デバイスにプライベート CA 証明書をインストールする
+### <a name="install-a-private-ca-certificate-on-the-console"></a>コンソールにプライベート CA 証明書をインストールします。
 <a name="Certs"> </a>
 
-Skype ルーム システムのバージョン 2 のデバイスは、ビジネスおよび Exchange のサーバーに接続するため、Skype で使用する証明書を信頼する必要があります。 O365 の場合、これらのサーバーはパブリックの証明機関を使用し、これらは Windows 10 で自動的に信頼されるため、この処理は自動的に行われます。 証明機関がプライベートの場合は Active Directory および Windows の証明機関と設置型展開の 2 とおりの方法で Skype ルーム システム v2 デバイスに証明書を追加できます。
+Skype ルーム システム v2 のコンソールでは、ビジネスおよび Exchange のサーバーに接続するため、Skype で使用する証明書を信頼する必要があります。 O365 の場合、これらのサーバーはパブリックの証明機関を使用し、これらは Windows 10 で自動的に信頼されるため、この処理は自動的に行われます。 証明機関がプライベートの場合は Active Directory および Windows の証明機関と設置型展開の 2 とおりの方法で Skype ルーム システム v2 のコンソールに証明書を追加できます。
   
-- 証明機関が Active Directory に対して公開されていることを前提とした場合 (通常の展開オプション)、デバイスを Active Directory に参加させると、必要な証明書は自動的に追加されます。
+- コンソールを Active Directory に参加させることができ、証明機関を指定する必要な証明書が Active Directory (通常の展開オプション) を発行するが自動的に追加します。
     
-- イメージング処理の後に証明書を手動でインストールすることができます。この操作を行う前に、[コンソールの初期設定](console.md#Initial)を完了する必要があります。 
+- イメージング処理の後に証明書を手動でインストールすることができます。 これを行う前に[初期がコンソールの設定](console.md#Initial)を完了する必要があります。
     
 ### <a name="to-manually-install-the-certificate"></a>証明書を手動でインストールするには 
 
 1. CA 証明書をお使いのコンピューターにダウンロードして、C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer に保存します。
     
-2. 管理者モードでサーフェスの 4 を配置する ([管理者モードとデバイスの管理](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#AdminMode)を参照してください)。
+2. 管理者モードでコンソールを配置する ([管理者モードとデバイスの管理](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#AdminMode)を参照してください)。
     
 3. 次のコマンドを実行します。
     
@@ -171,10 +177,10 @@ Skype ルーム システムのバージョン 2 のデバイスは、ビジネ�
   certutil -addstore -f -enterprise root "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer"
   ```
 
-### <a name="join-an-active-directory-domain-optional"></a>Active Directory のドメインに参加します (オプション)
+### <a name="join-an-active-directory-domain-optional"></a>(省略可能) Active Directory のドメインに参加します。
 <a name="Certs"> </a>
 
-Skype ルーム システム v2 のデバイスは、ドメインに参加できます。 Skype ルーム システム v2 のデバイスは、多くのワークステーションのポリシーは Skype ルーム システム v2 と互換性がないため PC ワークステーションから別の OU に配置してください。 一般的な例は、パスワードの強制ポリシー Skype ルーム システム v2 が自動的に起動できなくなります。 GPO の設定の管理方法については、 [Skype ルームの管理のシステムのバージョン 2](../../manage/skype-room-systems-v2/room-systems-v2-operations.md)を参照してください。 
+Skype ルーム システム v2 のコンソールは、ドメインに参加できます。 Skype ルーム システム v2 のコンソールは、多くのワークステーションのポリシーは Skype ルーム システム v2 と互換性がないため PC ワークステーションから別の OU に配置してください。 一般的な例は、パスワードの強制ポリシー Skype ルーム システム v2 が自動的に起動できなくなります。 GPO の設定の管理方法については、 [Skype ルームの管理のシステムのバージョン 2](../../manage/skype-room-systems-v2/room-systems-v2-operations.md)を参照してください。
   
 ### <a name="to-join-skype-room-system-v2-to-a-domain"></a>Skype Room System バージョン 2 をドメインに参加させるには
 
@@ -188,7 +194,7 @@ Skype ルーム システム v2 のデバイスは、ドメインに参加でき
   Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
   ```
 
-たとえば、完全修飾ドメイン redmond.corp.microsoft.com は、「Skype ルーム システム v2」で、Skype ルーム システム v2 のデバイスが必要な場合は、リソース OU の子 OU の場合は、コマンドになります。
+たとえば、完全修飾ドメイン redmond.corp.microsoft.com は、「Skype ルーム システム v2」で、Skype ルーム システム v2 のコンソールが必要な場合は、リソース OU の子 OU の場合は、コマンドになります。
   
 ```
 Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Skype_Room_System,OU=Resources,DC=redmond,DC=corp,DC=microsoft,DC=com"
@@ -196,10 +202,10 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Skype_Room_Syste
 
  ドメインに参加させるときに、コンピューターの名前を変更したい場合は、コンピューターの新しい名前の後に、新しい名前のフラグを使用します。
   
-## <a name="skype-room-systems-v2-deployment-checklist"></a>Skype Room System バージョン 2 の展開チェックリスト
+## <a name="skype-room-systems-v2-deployment-checklist"></a>Skype ルーム システム v2 の展開のチェックリスト
 <a name="Checklist"> </a>
 
-コンソール デバイスとそのすべての周辺機器が完全に構成されていることを最終確認するときは、以下のチェックリストを使用します。
+コンソールとそのすべての周辺機器が完全に構成されている最終的な検証を行う際に、次のチェックリストを使用します。
   
 **アプリケーションの設定**
 
@@ -208,9 +214,9 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Skype_Room_Syste
 |☐  <br/> |ルーム アカウント名と電話番号 (PSTN が有効な場合) が、コンソール画面の右上に正しく表示される  <br/> |
 |☐  <br/> |Windows コンピューター名が正しく設定されている (リモート管理に役立つ)  <br/> |
 |☐  <br/> |管理者アカウントのパスワードが設定されており、確認済みである  <br/> |
-|☐  <br/> |Surface Pro 4 または Surface Pro のすべてのシステム アップデートが適用済みである  <br/> |
+|☐  <br/> |すべてのファームウェア更新プログラムが適用されています。  <br/> |
    
-**音声/ビデオ周辺機器**
+**オーディオ/ビデオ周辺機器**
 
 |||
 |:-----|:-----|

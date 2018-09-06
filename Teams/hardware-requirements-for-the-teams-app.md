@@ -3,21 +3,22 @@ title: チームの Microsoft アプリケーションのハードウェア要�
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
+ms.date: 08/28/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
 localization_priority: Priority
-description: インストールし、マイクロソフトのチームのデスクトップ アプリケーションを実行するために必要なハードウェア要件について説明します。
+description: インストールし、マイクロソフトのチームを実行するために必要なハードウェア要件について説明します。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20c0e8b261dd6142a4b1b915ff259e634bfce122
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: ce2e9c065d170c0e535075668f8e67728f0429dc
+ms.sourcegitcommit: 309941f79f0f8dbcbce620fe90e9f73dd0bcfcbd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "19104928"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23289923"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>チームの Microsoft アプリケーションのハードウェア要件
 
@@ -48,7 +49,15 @@ ms.locfileid: "19104928"
 |音声    |  互換性のあるマイクとスピーカー、マイク、または同等のデバイスを使ってヘッドセット       |
 |ビデオ通話や会議 | ビデオ通話、オンライン会議で適切に動作することをお勧め 2.0 GHz のプロセッサと 4.0 GB の RAM を持つコンピューターを使用して (または上位)。
 
-### <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
-[チームのアプリケーションを取得します。](get-clients.md)
+## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>モバイル デバイス上のアプリケーションをチームのためのハードウェア要件
 
-[MSI を使用してマイクロソフトのチームのアプリケーションをインストールします。](msi-deployment.md)
+モバイル プラットフォームでは、マイクロソフトのチームを使用できます。
+
+- Android - には、Android 4.4 以降が必要です。
+
+- iOS - には、iOS 10.0 またはそれ以降が必要です。 IPhone、iPad、iPod のタッチと互換性があります。
+
+### <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+- [チームのアプリケーションを取得します。](get-clients.md)
+- [モバイル デバイスに関するマイクロソフトのチーム](https://support.office.com/en-us/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
+- [MSI を使用してマイクロソフトのチームのアプリケーションをインストールします。](msi-deployment.md)

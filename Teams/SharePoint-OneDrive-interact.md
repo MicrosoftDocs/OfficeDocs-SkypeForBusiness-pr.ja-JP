@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f91836848f6a7698025e118542628cbce44166c6
-ms.sourcegitcommit: 046cc4a880f3b6b5f912278483cf28fa25619b6e
+ms.openlocfilehash: 19d5be5ebab02b839354a79af6a75e3ade9f3000
+ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "21597584"
+ms.lasthandoff: 09/01/2018
+ms.locfileid: "23797324"
 ---
 <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Microsoft Teams との SharePoint Online と OneDrive for Business の連携
 =============================================================================
@@ -41,6 +41,12 @@ SharePoint Online ドキュメント ライブラリと OneDrive for Business �
 
 > [!NOTE]
 > 既定の SharePoint サイトとドキュメント ライブラリを別のもので置き換えることは現時点ではできません。 この機能が必要であるという要望をいただきましたので、現在検討中です。 [Teams ロードマップ](https://aka.ms/teamsroadmap)または [Teams UserVoice](https://aka.ms/TeamsUserVoice) をチェックして、今後利用できるようになる機能について継続的に把握します。
+
+> [!TIP]
+> 自分のチームは、既存の SharePoint へのリンクは、サイトまたは、既存の sharepoint ドキュメント ライブラリには、タブを追加します。
+> 1. タブの横にあるプラス記号を選択します。
+> 2. **Web サイト**を選択します。
+> 3. 名前を入力し、SharePoint サイトまたはドキュメント ライブラリの URL を入力します。
 
 各ユーザーについては、他のユーザー (1 対 1 または 1 対多数 ) とのプライベート チャットで共有したすべてのファイルは OneDrive フォルダーの **Microsoft Teams Chat Files** に格納されます。このフォルダーには、指定したユーザーのみにアクセスを制限する権限が自動的に設定されます。
 

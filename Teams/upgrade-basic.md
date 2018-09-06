@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04a5f6d09270b489d8f3a26e1b127d79b0d491b0
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 94e1fdc1caa477df281336859e4b537dfd86d080
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398110"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780660"
 ---
 <a name="about-upgrade-basic"></a>
 # <a name="upgrade-basic"></a>基本的なアップグレードします。 
@@ -123,7 +123,7 @@ ms.locfileid: "20398110"
 
 **リソース:**
 
--   [共存およびアップグレードの設定を設定します。](upgrade-basic-powershell.md)
+-   [共存およびアップグレードの設定を設定します。](setting-your-coexistence-and-upgrade-settings.md)
 
 [ページのトップへ](#about-upgrade-basic)
 
@@ -156,7 +156,7 @@ ms.locfileid: "20398110"
 
 **リソース:**
 
--   [共存を設定し、設定をアップグレードします。](upgrade-basic-powershell.md)
+-   [共存を設定し、設定をアップグレードします。](setting-your-coexistence-and-upgrade-settings.md)
 -   [電子メールのサンプル: ユーザーがチームの開始](upgrade-emails-surveys.md#step-7-email)
 
 [ページのトップへ](#about-upgrade-basic)

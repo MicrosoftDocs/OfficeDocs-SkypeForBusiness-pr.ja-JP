@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Priority
 ms.collection: IT_Skype16
 description: IT 専門家向けに、Skype for Business 2016、Skype for Business 2015、および Lync 2013 クライアントの永続バージョンに対する最新の更新プログラム関連情報へのリンクを提供します。
-ms.openlocfilehash: cf87fbb903e7bff015f77881ede956a4c4999b07
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
-ms.translationtype: HT
+ms.openlocfilehash: 015285bb5a513f0d490a596af28b83b662a518ce
+ms.sourcegitcommit: c9b68cbc8199d21a3fa4275db7a663695784afb3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247592"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23485800"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Windows インストーラー (MSI) を使用する Skype for Business の各バージョンに対する最新の更新プログラム
 
@@ -36,7 +36,6 @@ Office 365 との Skype for Business の互換性およびオンプレミス環�
   - [Skype for Business 環境の要件](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)
 
   - [Lync Server 2013: システム要件](https://technet.microsoft.com/en-us/library/jj205115(v=ocs.15).aspx)
-
 
 ## <a name="skype-for-business-2016-client-updates"></a>Skype for Business 2016 クライアントの更新プログラム
 |パッケージ名|KB 番号|リリース日|
@@ -72,8 +71,6 @@ Office 365 との Skype for Business の互換性およびオンプレミス環�
 |Skype for Business 2016 用のセキュリティ更新プログラム |[KB 3114372](https://support.microsoft.com/kb/3114372) | 2015 年 12 月|
 |Skype for Business 2016 用のセキュリティ更新プログラム |[KB 3085634](https://support.microsoft.com/kb/3085634) | 2015 年 11 月|
 |Skype for Business 2016 用のセキュリティ更新プログラム |[KB 2910994](https://support.microsoft.com/kb/2910994) | 2015 年 9 月|
-
-
 
 ## <a name="skype-for-business-2015-client-updates"></a>Skype for Business 2015 クライアントの更新プログラム
 
@@ -118,15 +115,12 @@ Office 365 との Skype for Business の互換性およびオンプレミス環�
 |Skype for Business 2015/Lync 2013 用のセキュリティ更新プログラム|[KB 3085500](https://support.microsoft.com/kb/3085500) | 2015 年 9 月 |
 |Skype for Business 2015/Lync 2013 用の更新プログラム|[KB 3054791 ](https://support.microsoft.com/kb/3054791) | 2015 年 6 月 |
 
-
 ### <a name="skype-for-business-on-mac-client-updates"></a>Mac クライアント版 Skype for Business の更新プログラム
 
 |パッケージ名|リリース日|
 |:--- |:--- |
 |[Mac 版 Skype for Business 用の更新プログラム](https://www.microsoft.com/en-us/download/details.aspx?id=54108) | 2018 年 6 月 |
 |[Mac 版 Skype for Business 用の最新リリースノート](https://support.office.com/article/cece9f93-add1-4d93-9a38-56cc598e5781#OS_Type=Mac) | 2018 年 6 月 |
-
-
 
 * * *
 
@@ -175,8 +169,6 @@ Office 365 との Skype for Business の互換性およびオンプレミス環�
 |Skype for Business 2015/Lync 2013 用のセキュリティ更新プログラム|[KB 3085500](https://support.microsoft.com/kb/3085500) | 2015 年 9 月 |
 |Skype for Business 2015/Lync 2013 用の更新プログラム|[KB 3054791 ](https://support.microsoft.com/kb/3054791) | 2015 年 6 月 |
 
-
-
 ### <a name="lync-phone-edition-updates"></a>Lync Phone Edition の更新プログラム
 
 パッケージ名|KB 番号|リリース日|
@@ -201,7 +193,6 @@ Office 365 との Skype for Business の互換性およびオンプレミス環�
 |[Polycom CX500、Polycom CX600、および Polycom CX3000 用の Lync Phone Edition](https://www.microsoft.com/download/en/details.aspx?id=23866) | 2017 年 4 月 |
 |[Polycom CX700 および LG-Nortel IP Phone 8540 用の Lync Phone Edition](https://www.microsoft.com/download/en/details.aspx?id=21644) | 2015 年 12 月 |
 
-
 ### <a name="lync-basic-2013-trial-software"></a>Lync Basic 2013 試用版ソフトウェア
 
 パッケージ名|リリース日|
@@ -211,14 +202,12 @@ Office 365 との Skype for Business の互換性およびオンプレミス環�
 
 * * *
 
-
 ### <a name="lync-for-mac-2011-client-updates"></a>Lync for Mac 2011 クライアントの更新プログラム
 
 パッケージ名|KB 番号|リリース日|
 |:--- |:--- |:--- |
 |Lync for Mac 2011 の更新プログラム |[KB 3175174](https://support.microsoft.com/kb/3175174)|2016 年 7 月|
 |Lync for Mac 2011 用の累積的な更新プログラム |[KB 3074981](https://support.microsoft.com/kb/3074981)|2015 年 7 月|
-
 
 ### <a name="lync-2010-client-updates"></a>Lync 2010 クライアントの更新プログラム
 
@@ -234,7 +223,6 @@ Office 365 との Skype for Business の互換性およびオンプレミス環�
 |Lync 2010 用のセキュリティ更新プログラム |[KB 3096735](https://support.microsoft.com/kb/3096735) | 2015 年 11 月|
 |Lync 2010 用のセキュリティ更新プログラム |[KB 3081087](https://support.microsoft.com/kb/3081087) | 2015 年 9 月|
 |Lync 2010 用の累積的な更新プログラム |[KB 3072611](https://support.microsoft.com/kb/3072611) | 2015 年 7 月|
-
 
 ### <a name="lync-2010-attendant-updates"></a>Lync 2010 Attendant の更新プログラム
 
@@ -276,3 +264,6 @@ Office 365 との Skype for Business の互換性およびオンプレミス環�
 |[Lync 2010 試用版 (32 ビット) ](https://www.microsoft.com/en-us/download/details.aspx?id=5484)| 2010 年 11 月 |
 |[Lync 2010 試用版 (64 ビット) ](https://www.microsoft.com/en-us/download/details.aspx?id=10400)| 2010 年 11 月 |
 
+## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+
+- [Skype for Business Server の更新プログラム](sfb-server-updates.md)

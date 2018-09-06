@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 577ee414529223dbc435d8570a55adb6883fd8a2
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 3a4e1fed56742dbeb246b89d2a40e96ed3ccb683
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695623"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779987"
 ---
 # <a name="make-my-service-decisions"></a>[サービスの決定を行う
 
@@ -54,7 +54,7 @@ ms.locfileid: "19695623"
 
 ## <a name="availability-of-audio-conferencing"></a>電話会議の利用可否
 
-チームでのオーディオ会議の実装を計画する前に、[オーディオ会議や予定を呼び出すための国および地域の可用性](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)の詳細と、オーディオ会議サービスの可用性を確認する必要があります。
+チームでのオーディオ会議の実装を計画する前に、[オーディオ会議や予定を呼び出すための国および地域の可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)の詳細と、オーディオ会議サービスの可用性を確認する必要があります。
 
 > [!IMPORTANT]
 > 多国籍組織では、使用できるオーディオ会議のための法的な制約のための国や地域がオーディオ会議サービスは、商業的に利用可能な場所から Office 365 サブスクリプションの契約を供給する必要があります。

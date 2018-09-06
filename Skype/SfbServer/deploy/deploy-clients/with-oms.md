@@ -12,23 +12,23 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: この資料では、マイクロソフトの運用管理スイートを使用して、エンド ・ ツー ・ エンドの統合された方法で Skype ルーム システム v2 のデバイスの管理を展開する方法について説明します。
-ms.openlocfilehash: 3e6c162619d42fcf181a3f3b279f6b89106d4a1c
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: 0d1cd51bb80a287078ca4d85bdaec721e78d24ff
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22391778"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23256351"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>OMS を使用した Skype Room Systems バージョン 2 の管理を展開する
- 
+
 この資料では、設定およびマイクロソフトの運用管理スイートを使用して、Skype ルーム システム v2 のデバイスの統合された、エンド ・ ツー ・ エンドの管理を展開する方法について説明します。
-  
+
 基本的な遠隔測定を提供するマイクロソフトの運用管理スイートを構成することができ、警告するためは、Skype の会議室のデバイスを管理します。 管理ソリューションが完成に近づくにつれて、追加のデータとデバイスの可用性とパフォーマンスの詳細なビューを作成する管理機能を導入することができます。
 
 によって、このガイドに従うと、デバイスの可用性、アプリケーションおよびハードウェアの健康状態、および Skype ルーム システム v2 のアプリケーションのバージョンの配布のレポート、詳細なステータスを取得するのに例を次のようなダッシュ ボードを使用できます。
 
 ![SRS v2 の OMS のサンプルの表示](../../media/Deploy_OMS_1.png "SRS v2 の OMS のサンプルの表示")
-  
+
 高いレベルでは、次のタスクを実行する必要があります。
 
 
@@ -82,7 +82,7 @@ Skype ルーム システム v2 に関連するイベントを監視すること
 
 操作の管理スイートのエージェントがテストのデバイス上に配置されると、ログ分析機能が必要なイベント ログ データを収集することを確認します。
 
-1.  [マイクロソフトの運用管理スイートのポータル](http://aka.ms/omsportal)にサインインします。
+1.  [マイクロソフトの運用管理スイートのポータル](https://aka.ms/omsportal)にサインインします。
 
 2.  Skype ルーム システム v2 デバイスによって生成されたイベントの一覧を表示します。
     1.  **ログの検索**に移動し、ユーザー設定フィールドを持つレコードを取得するクエリを使用します。
@@ -110,7 +110,7 @@ Skype ルーム システム v2 に関連するイベントを監視すること
 
 キャプチャしたイベント ログから、ユーザー設定のフィールドを抽出するには、以下の手順を実行します。
 
-1.  [マイクロソフトの運用管理スイートのポータル](http://aka.ms/omsportal)にサインインします。
+1.  [マイクロソフトの運用管理スイートのポータル](https://aka.ms/omsportal)にサインインします。
 
 2.  Skype ルーム システム v2 デバイスによって生成されたイベントの一覧を表示します。
     1.  **ログの検索**に移動し、ユーザー設定フィールドを持つレコードを取得するクエリを使用します。
@@ -130,8 +130,8 @@ Skype ルーム システム v2 に関連するイベントを監視すること
 > JSON との操作の管理スイートのすべてのフィールドは大文字小文字を区別することを忘れないでください。
 
 > 次の表に、[イベント Id] チェック ボックスをオンの状態に注意してください。 カスタム フィールドの値を正常に抽出する操作の管理スイートの場合は、このチェック ボックスの状態を確認することを確認します。
-> 
-> ![ユーザー設定フィールドの定義](../../media/Deploy_OMS_5.png "ユーザー設定フィールドの定義") 
+>
+> ![ユーザー設定フィールドの定義](../../media/Deploy_OMS_5.png "ユーザー設定フィールドの定義")
 
 **表 1**
 
@@ -170,8 +170,8 @@ Skype ルーム システム v2 に関連するイベントを監視すること
 
 操作の管理スイートのダッシュ ボードにインポートし、デバイスをすぐに監視を開始できます。 ダッシュ ボードにインポートするのには以下の手順を実行するには。
 
-1.  [SkypeRoomSystems_v2.omsview](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomSystems_v2.omsview)ダッシュ ボード ファイルを取得します。
-2.  [マイクロソフトの運用管理スイートのポータル](http://aka.ms/omsportal)にサインインします。
+1.  [SkypeRoomSystems_v2.omsview](https://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomSystems_v2.omsview)ダッシュ ボード ファイルを取得します。
+2.  [マイクロソフトの運用管理スイートのポータル](https://aka.ms/omsportal)にサインインします。
 3.  **ビュー デザイナー**を開きます。
 4.  **インポート**] を選択し、 **SkypeRoomSystems_v2.omsview**ファイルを選択します。
 5.  **保存**を選択します。
@@ -349,13 +349,13 @@ Skype ルーム システム v2 に関連するイベントを監視すること
 運用管理スイートでのアラートの詳細については、[ログ分析機能で通知を理解する](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts)を参照してください。
 
 > [!NOTE]
-> 次の例は、Skype ルーム システム v2 デバイスは、ハードウェアまたはアプリケーション エラーを生成する場合に電子メール警告を送信します。 
+> 次の例は、Skype ルーム システム v2 デバイスは、ハードウェアまたはアプリケーション エラーを生成する場合に電子メール警告を送信します。
 
 
 ### <a name="configure-an-email-alert-for-skype-room-systems-v2-hardware-issues"></a>Skype ルーム システム v2 のハードウェアの問題に関する電子メール通知を構成します。
 
 最後の時間内でハードウェアの問題があった Skype ルーム システム v2 のデバイスを確認する警告ルールを構成します。
-1.  [マイクロソフトの運用管理スイートのポータル](http://aka.ms/omsportal)にサインインします。
+1.  [マイクロソフトの運用管理スイートのポータル](https://aka.ms/omsportal)にサインインします。
 
 2.  **ログの検索対象**を選択します。
 
@@ -364,7 +364,7 @@ Skype ルーム システム v2 に関連するイベントを監視すること
     Event
     | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h)
     | summarize arg_max(TimeGenerated, *) by Computer
-    | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF 
+    | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF
     |sort by TimeGenerated desc
     ```
 
@@ -438,7 +438,7 @@ Skype ルーム システムの最後の時間内でアプリケーションの�
 
 1.  共有のネットワーク パスを作成し、**ドメイン コンピューター**グループに読み取りアクセスを許可します。
 
-2.  運用管理スイート エージェントの Windows からの 64 ビット バージョンをダウンロードします。<http://go.microsoft.com/fwlink/?LinkID=517476>
+2.  運用管理スイート エージェントの Windows からの 64 ビット バージョンをダウンロードします。<https://go.microsoft.com/fwlink/?LinkID=517476>
 
 3.  ネットワーク共有には、セットアップ パッケージの内容を抽出します。
     1.  コマンド プロンプト ウィンドウを開き、 **MMASetup AMD64.exe/c**を実行し、
@@ -464,34 +464,34 @@ Skype ルーム システムの最後の時間内でアプリケーションの�
 
     ```
     # Install-OMSAgent.ps1
-    <# 
-    Date:        04/20/2018 
-    Script:      Install-OMSAgent.ps1 
+    <#
+    Date:        04/20/2018
+    Script:      Install-OMSAgent.ps1
     Version:     1.0
-    #> 
-    
+    #>
+
     # Set the parameters
     $WorkspaceId = "<your workspace id>"
     $WorkspaceKey = "<your workspace key>"
     $SetupPath = "\\Server\Share"
-    
+
     $SetupParameters = "/qn NOAPM=1 ADD_OPINSIGHTS_WORKSPACE=1 OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE=0 OPINSIGHTS_WORKSPACE_ID=$WorkspaceId OPINSIGHTS_WORKSPACE_KEY=$WorkspaceKey AcceptEndUserLicenseAgreement=1"
-    
+
     # $SetupParameters = $SetupParameters + " OPINSIGHTS_PROXY_URL=<Proxy server URL> OPINSIGHTS_PROXY_USERNAME=<Proxy server username> OPINSIGHTS_PROXY_PASSWORD=<Proxy server password>"
-    
+
     # Start PowerShell logging
-    Start-Transcript -Path C:\OMSAgentInstall.Log  
-    
+    Start-Transcript -Path C:\OMSAgentInstall.Log
+
     # Check if the Microsoft Monitoring Agent is installed
     $mma = New-Object -ComObject 'AgentConfigManager.MgmtSvcCfg'
-    
-    # Check if the Microsoft Monitoring agent is installed 
+
+    # Check if the Microsoft Monitoring agent is installed
     if (!$mma)
     {
         #Install agent
         Start-Process -FilePath "$SetupPath\Setup.exe" -ArgumentList $SetupParameters -ErrorAction Stop -Wait
     }
-    
+
     # Check if the agent has a valid configuration
     $CheckOMS = $mma.GetCloudWorkspace($WorkspaceId).AgentId
     if (!$CheckOMS)
@@ -499,12 +499,12 @@ Skype ルーム システムの最後の時間内でアプリケーションの�
         # Apply new configuration
         $mma.AddCloudWorkspace($WorkspaceId, $WorkspaceKey)
         $mma.ReloadConfiguration()
-    } 
-    
-    Stop-Transcript 
-    
+    }
+
+    Stop-Transcript
+
     ```
-    
+
 > [!NOTE]
 > エージェントを再構成して、別のワークスペースに移動する、または最初のインストール後にプロキシの設定を変更する必要がある場合は、[エージェント ログの分析機能を維持して管理](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-manage)の資料を参照できます。
 
@@ -521,5 +521,5 @@ Skype ルーム システムの最後の時間内でアプリケーションの�
 ## <a name="see-also"></a>関連項目
 
 [OMS を使用して Skype Room Systems バージョン 2 の管理を計画する](../../plan-your-deployment/clients-and-devices/oms-management.md)
-  
+
 [OMS を使用した Skype Room Systems のデバイスを管理する](../../manage/skype-room-systems-v2/oms.md)

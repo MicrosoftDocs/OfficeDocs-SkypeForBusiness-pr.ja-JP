@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12a58e28fce68960fab2e2a91cdc4f2c3d6524ca
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: 477a68996e50c916923948fecbb1dc1e978450b9
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246507"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780912"
 ---
 # <a name="make-my-service-decisions"></a>[サービスの決定を行う
 
@@ -55,7 +55,7 @@ PSTN への接続を有効にするには、組織は、その通信サービス
 
 ## <a name="availability-of-calling-plans"></a>通話プランの利用可否
 
-チームでプランの呼び出しの実装を計画する前に、計画を呼び出すサービスは利用可能なお住まいの地域で[オーディオ会議や予定を呼び出すための国および地域の可用性](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)を確認することによってを確認します。
+チームでプランの呼び出しの実装を計画する前に、計画を呼び出すサービスは利用可能なお住まいの地域で[オーディオ会議や予定を呼び出すための国および地域の可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を確認することによってを確認します。
 
 > [!IMPORTANT]
 > 多国籍組織を使用できるように計画を呼び出すための法的な制約のための Office 365 サブスクリプション契約基づいている必要がある国または地域で計画を呼び出すサービスが利用可能なまたはサービスの計画を呼び出すことができます。購入しました。
@@ -166,11 +166,11 @@ Azure ボイスメール サービス、電源、電話システムのボイス�
 >|ユーザー  |発信における発信者番号のマスク処理の有効化  |発信者番号のマスク処理の種類  |ユーザーによる上書きの許可  | 受信における発信者番号のマスク処理の有効化  |
 >|---------|---------|---------|---------|---------|
 >|Emily Braun|いいえ|該当なし|はい|いいえ|
->|Lidia Holloway|はい|サービス番号 (OrgAA、+44 20 7946 0000)|いいえ|あり|
+>|Lidia Holloway|はい|サービス番号 (OrgAA、+44 20 7946 0000)|いいえ|はい|
 >|ルイ Lahr|いいえ|該当なし|はい|いいえ|
 >|Marcel Beauchamp|はい|サービス番号 (OrgAA、TBA)|いいえ|はい|
 >|Rachelle Cormier|はい|匿名化|はい|いいえ|
->|Isabell Potvin|はい|サービス番号 (OrgAA、TBA)|いいえ|あり|
+>|Isabell Potvin|はい|サービス番号 (OrgAA、TBA)|いいえ|はい|
 
 <!--ENDOFSECTION-->
 
@@ -228,7 +228,7 @@ Office 365 テナントの場合、通話時間 (分) は国や地域別と通�
 
 <!--ENDOFSECTION-->
 
-## <a name="communications-credits"></a>コミュニケーション クレジット
+## <a name="communications-credits"></a>通信クレジット
 
 通信のクレジットを使用すると、ユーザー ダイヤルアウトできるよう、オーディオ会議の会議 (会議の開催者の発信元の国/地域) の外側で世界中の任意の場所から他のユーザー追加するからです。 通信のクレジット、組織のユーザーを有効にするのには、次の月の請求サイクルまで待機することがなく、分を呼び出すための割り当てが面倒な方、後は、発信呼び出しを行うに設定できます。 さらに、通信のクレジットは、国際の呼び出しは、「支払の 1 分あたりの」モデルを使用して、請求を作成する機能、国内を呼び出すことを計画に割り当てられているユーザーを提供します。
 

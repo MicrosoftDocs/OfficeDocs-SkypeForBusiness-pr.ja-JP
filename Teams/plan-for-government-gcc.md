@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c54e553edb464dc094c45b4e9dd545827b625d3
-ms.sourcegitcommit: 046cc4a880f3b6b5f912278483cf28fa25619b6e
+ms.openlocfilehash: 8091bb4e973d4e7376dd6d420578b10123051226
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "21600518"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835040"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Microsoft 365 政府の GCC の展開の計画
 
@@ -64,7 +64,9 @@ Microsoft 365 政府の GCC をいくつかの相違がある、政府のクラ�
 | アプリ       | アプリケーション (コンポーネント、タブ、コネクタなど) は使用できません、最初に、利用できるように、すべてのコンポーネントは、FedRAMP 中コンプライアンス基準を満たしてとすぐに取り組んでいます。 |
 | チャネルを電子メールで送信します。             | 政府の計画では、現在のアーキテクチャの機能はサポートされていません。 |
 | プレゼンスの統合            | 私たちはこの重要な機能の最初の企業のお客様のための仕上げの作業です。 政府の顧客に利用可能な将来的にします。 |
-| 電子メール通知         | 米国政府の計画では、現在のアーキテクチャの機能はサポートされていません。 作業は、この機能が使用できるように米国政府の計画の顧客、将来的に継続的です。 |
+| チームとデバイス間の相互運用機能のチャット ユーザー            | 相互運用機能は、統合プレゼンス サービス (UPS) に依存して、UPS の GCC のチームのテナントを有効にするまで使用できません。 |
+
+|通知を電子メールで送信。米国政府の計画では、現在のアーキテクチャの機能はサポートされていません。 作業は、この機能が使用できるように米国政府の計画の顧客、将来的に継続的です。 |
 
 
 |    |     |
@@ -84,13 +86,17 @@ Microsoft 365 政府の GCC をいくつかの相違がある、政府のクラ�
 
 持つことに、このサービスがお客様の組織は、[このサービスは、ここに適用する](https://products.office.com/en-us/government/eligibility-validation)プロセスを開始します。
 
-## <a name="step-5-deploy-teams-for-collaboration"></a>手順 5 です。 チームの共同作業を展開します。
+## <a name="step-5-plan-for-governance"></a>手順 5 です。 ガバナンスの計画
+
+コーポレート ・ ガバナンスとどのように満たすことがお客様の要件を決定します。 詳細については、[チームの管理のための計画](plan-teams-governance.md)に移動します。
+
+## <a name="step-6-deploy-teams-for-collaboration"></a>手順 6。 チームの共同作業を展開します。
 
 Microsoft 365 政府の GCC では、onboarded をした後[FastTrack](https://fasttrack.microsoft.com/fasttrack-faq)と、選択したパートナー サービスにオンボードを使用する標準的な展開方法に従います。
 
 準備ができたら、[チーム、およびチャネルを通じて、組織内でのコラボレーションを有効に](teams-overview.md)するチームを展開します。 採用し、変更管理のチームまたはチームのエキスパートと協力することを確認します。
 
-## <a name="step-6-deploy-teams-for-meetings-and-voice"></a>手順 6。 会議および音声のチームを配置します。
+## <a name="step-7-deploy-teams-for-meetings-and-voice"></a>手順 7 です。 会議および音声のチームを配置します。
 
 広く利害関係者グループにチームを使用して、会議や[クラウドのボイス機能](cloud-voice-deployment.md)を展開するための計画を開始する絶好の機会です。
 

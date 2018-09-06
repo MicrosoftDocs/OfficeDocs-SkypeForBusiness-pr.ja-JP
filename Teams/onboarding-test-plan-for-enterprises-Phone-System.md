@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c69ffab7fcca4fa7f2374e3527793e863ee22ef6
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: fceaa215835b5ef231a29f896656835da940dbde
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19694835"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779807"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>定義し、企業のチームのテスト計画での計画を呼び出すと、電話のシステムを文書化 
 ============================================================================================
@@ -93,7 +93,7 @@ ms.locfileid: "19694835"
 
 | エンタープライズ ・ クラス   | 共同会議    | プラットフォームとデバイス   | IT プロフェッショナル  | 追加のビジネス グループ、サイト固有  | チームの最新のロードマップで満たされる要件 |
 |-------------------------------------------|----------------------------|------------------|------------------------|-------------------|-------------------|
-| <ul><li>電話システムの機能を呼び出します。<ul><li>ブラインド転送</li><li>通話のブロック</li><li>呼び出しの転送</li><li>発信者番号マスク</li><li>E911 のサポート</li><li>拡張ダイヤル</li><li>呼び出しの保留中</li><li>複数の呼び出しの処理</li><li>同時呼び出し</li><li>Azure のボイスメール</li></ul></li><li>通話プランのサポート</li></ul> |<ul><li>ビジネス用の Skype-に-チームの呼び出し</li></ul> |<ul><li> Windows、Mac チーム クライアントとの会議機能をサポート</li><li>ブラウザー チーム クライアントの会議機能をサポートしています。<ul><li>クロム</li><li>Microsoft Edge</li></ul></li><li>iOS および Android チーム クライアント会議機能をサポートします。</li><li>TTY サポート</li></ul> | <ul><li>通話品質の診断ポータル</li><li>テナントのダイヤル プラン</li><li>テナントの発信者番号通知のポリシー</li><li>通話品質の分析 (救難) を有効にします。</li></ul> | <ul><li>チームが会議の会社のラップトップ コンピューターのイメージに基づく機能の検証します。</li><li>特定の言語のサポート</li><li>シナリオの特定のユーザーまたは特定のサイトに適用される GPO の設定</li></ul> | あり  |
+| <ul><li>電話システムの機能を呼び出します。<ul><li>ブラインド転送</li><li>通話のブロック</li><li>呼び出しの転送</li><li>発信者番号マスク</li><li>E911 のサポート</li><li>拡張ダイヤル</li><li>呼び出しの保留中</li><li>複数の呼び出しの処理</li><li>同時呼び出し</li><li>Azure のボイスメール</li></ul></li><li>通話プランのサポート</li></ul> |<ul><li>ビジネス用の Skype-に-チームの呼び出し</li></ul> |<ul><li> Windows、Mac チーム クライアントとの会議機能をサポート</li><li>ブラウザー チーム クライアントの会議機能をサポートしています。<ul><li>クロム</li><li>Microsoft Edge</li></ul></li><li>iOS および Android チーム クライアント会議機能をサポートします。</li><li>TTY サポート</li></ul> | <ul><li>通話品質の診断ポータル</li><li>テナントのダイヤル プラン</li><li>テナントの発信者番号通知のポリシー</li><li>通話品質の分析 (救難) を有効にします。</li></ul> | <ul><li>チームが会議の会社のラップトップ コンピューターのイメージに基づく機能の検証します。</li><li>特定の言語のサポート</li><li>シナリオの特定のユーザーまたは特定のサイトに適用される GPO の設定</li></ul> | はい  |
 
 
 
@@ -654,7 +654,7 @@ Microsoft のネットワーク評価ツールでは、定義済みの期間お�
 通常、最新の請求書または請求書に必要情報を見つけること、現在のサービス プロバイダーからです。
 
 > [!TIP]
->   移植することができますまたは内のすべての転送電話番号に国/地域は現在サポートされています。ただし、ポートの注文要求を送信する方法は、国/地域の電話番号を供給する場所によって異なる場合があります。 現在サポートされている国や地域の最新のリストは、[国やオーディオ会議や予定を呼び出すことで利用可能な地域](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)を参照してください。
+>   移植することができますまたは内のすべての転送電話番号に国/地域は現在サポートされています。ただし、ポートの注文要求を送信する方法は、国/地域の電話番号を供給する場所によって異なる場合があります。 現在サポートされている国や地域の最新のリストは、[国やオーディオ会議や予定を呼び出すことで利用可能な地域](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を参照してください。
 
 >   計画を呼び出すと、電話システムに電話番号を転送する方法について、潜在的な制限: [Office 365 に電話番号を転送](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)し、[フリー ダイヤル Office 365 内での制限](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.)を参照してください。
 
