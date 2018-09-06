@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Office 365 で Skype ルーム システム v2 を展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 442bfa306f611d9ba642d3b74d431cfda4c46770
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c623d689f876cfe36c7c8308a7f62526be217ec1
+ms.sourcegitcommit: a9556a51f7f970fc05ab0acc9998401db3c1aa57
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21027353"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "22601970"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>Skype Room Systems バージョン 2 と Office 365 を展開する 
  
@@ -31,14 +31,16 @@ Office 365 で Skype ルーム システム v2 を展開する前に、要件を
   
 ビジネス用の Skype を有効にするには、以下が必要です。
   
-- Skype ビジネス online (プラン 2) 以上で、Office 365 のプランです。 このプランでは会議機能をサポートする必要があります。
+- (プラン 2 の場合、または企業レベルの計画)、オンライン ビジネスの Skype 以降、Office 365 のプランで。 計画では、ダイヤルイン会議機能を許可する必要があります。
     
-- エンタープライズ VoIP (PSTN テレフォニー) が必要な場合 Skype ルーム システム v2 のテレフォニー サービス プロバイダーを使用する必要があります Skype ビジネス online (プラン 3)。
+- 会議にダイヤルイン機能が必要な場合は、音声会議や電話システムのライセンスを必要があります。  会議からのダイヤル ・ アウト機能が必要な場合、国内または国内および海外を呼び出すことを計画する必要があります。 
     
 - テナント ユーザーは、Exchange のメールボックスが必要です。
     
-- Skype ルーム システム v2 アカウントが必要ですがビジネス オンライン (プラン 2) の Skype または Skype ビジネス オンライン (プラン 3) のライセンスが、Exchange のオンライン ・ ライセンスは必要ありません。
-    
+- Skype ルーム システム v2 アカウントにする必要が、最小値で、Skype ビジネス オンライン (プラン 2) のライセンスが、Exchange Online のライセンスは必要ありません。
+
+Skype のビジネスのオンラインの計画の詳細については、 [Skype](https://technet.microsoft.com/library/jj822172.aspx)を参照してください。
+
 ### <a name="add-a-device-account"></a>デバイス アカウントを追加する
 
 1. PC 上でリモートの Windows PowerShell セッションを開始し、Exchange に接続します。 関連するコマンドレットを実行するために適切な権限が設定されていることを確認します。 環境で使用し、変更できるコマンドレットの例を次に示します。
@@ -178,6 +180,11 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 > [!NOTE]
 > この操作によって、CloudPBX および PSTNCallingDomesticAndInternational が追加されます。さらに、管理者インターフェースを使用して、電話番号を割り当てる必要があります。 
   
+## <a name="validate"></a>検証
+
+検証、ビジネス クライアント用の Skype を使用して作成したアカウントにサインインできるように。
+
+
 ## <a name="see-also"></a>関連項目
 
 [Skype ルーム システム v2 用のアカウントを構成します。](room-systems-v2-configure-accounts.md)

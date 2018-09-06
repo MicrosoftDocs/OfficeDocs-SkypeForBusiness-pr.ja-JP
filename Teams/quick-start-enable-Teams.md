@@ -3,7 +3,7 @@ title: 'クイック スタート: Microsoft Teams の計画ガイド'
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/22/2018
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj, tonysmit
@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28f286a04bf52e3d4cb4fd7ad48278843b5ed134
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: bc4e1815b6d3b649c8af518068ca2d6ff3e9adbc
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "19001824"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23242815"
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>クイック スタート: Microsoft Teams の計画ガイド
 ==========================================================
@@ -29,9 +29,9 @@ ms.locfileid: "19001824"
 
 ## <a name="step-1-get-your-people-together"></a>手順 1: ユーザーをまとめて編成する
 
-使用する Teams の展開でのステークホルダーおよび意思決定グループとして機能するように、会社、IT 部門、ユーザー コミュニティに属している人たちのグループを編成します。 より小規模な組織では、2、3 人のユーザーのグループになるかもしれません。 正常に導入を完了するために、確実にこれらの 3 つのコミュニティすべてのユーザーを含めるようにしてください。  
+使用する Teams の展開でのステークホルダーおよび意思決定グループとして機能するように、会社、IT 部門、ユーザー コミュニティに属している人たちのグループを編成します。 より小規模な組織では、2、3 人のユーザーのグループになるかもしれません。 正常に導入を完了するために、確実にこれらの 3 つのコミュニティすべてのユーザーを含めるようにしてください。
 
-各グループは、一般化の流れの中でお互いに重なる役割を果たすこともありますが、固有のスキルを持ち寄ってきます。 IT 専門家は、すべての Office 365 サービスにわたりエンドツーエンドの結合を確保しながら、エクスペリエンスの正常性、セキュリティ、管理容易性について焦点をあてることがよくあります。 ビジネス ユーザーは、貴重なテスト ケースとなる実践的なシナリオやビジネス ニーズをもたらします。 テストが成功し、広範な展開の計画を行うためには、両方の観点が必要となります。    
+各グループは、一般化の流れの中でお互いに重なる役割を果たすこともありますが、固有のスキルを持ち寄ってきます。 IT 専門家は、すべての Office 365 サービスにわたりエンドツーエンドの結合を確保しながら、エクスペリエンスの正常性、セキュリティ、管理容易性について焦点をあてることがよくあります。 ビジネス ユーザーは、貴重なテスト ケースとなる実践的なシナリオやビジネス ニーズをもたらします。 テストが成功し、広範な展開の計画を行うためには、両方の観点が必要となります。
 
 ## <a name="step-2-prioritize-your-business-scenarios"></a>手順 2: ビジネス シナリオに優先順位を設定する
 
@@ -42,7 +42,7 @@ ms.locfileid: "19001824"
 
 ![Microsoft 365 展開チームの例のスクリーンショット。](media/quick-start-enable-Teams-Microsoft365-Deployment-Team.png)
 
-Microsoft Teams でチーム、チャネル、タブの計画を行うときの考慮事項についての簡単なガイダンスを含んでいるこの短いビデオを視聴します。 
+Microsoft Teams でチーム、チャネル、タブの計画を行うときの考慮事項についての簡単なガイダンスを含んでいるこの短いビデオを視聴します。
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
@@ -50,7 +50,7 @@ Microsoft Teams でチーム、チャネル、タブの計画を行うときの�
 
 ## <a name="step-3-complete-technical-planning"></a>手順 3: 技術計画を完成する
 
-効率的な技術計画は、優れたユーザー エクスペリエンスの基礎となります。 所属する組織が所有しているライセンスが 50 シートを超えていて、[対象となるプラン](https://technet.microsoft.com/library/dn783224.aspx) に参加している場合は、[FastTrack の特典](https://technet.microsoft.com/library/dn783224.aspx?f=255&MSPPError=-2147217396)を利用することができます。この特典は、追加で費用がかからずに、計画、展開、サービス導入にいたるまでのガイドとして利用できます。 また、この作業をお客様自身で完了することもできます。その場合は、Office 365 アカウントでサインインすると [FastTrack](https://fasttrack.microsoft.com/) から利用できるようになる FastTrack オンボーディング ウィザードを使用します。 以下の情報は、この手順を Teams のために完了するのに役立ちます。 少なくとも、次の 4 つの記事の内容を確認する必要があります。
+効率的な技術計画は、優れたユーザー エクスペリエンスの基礎となります。 所属する組織が所有しているライセンスが 50 シートを超えていて、[対象となるプラン](https://docs.microsoft.com/en-us/fasttrack/fasttrack-benefit-for-office-365) に参加している場合は、[FastTrack の特典](https://docs.microsoft.com/en-us/fasttrack/fasttrack-benefit-for-office-365)を利用することができます。この特典は、追加で費用がかからずに、計画、展開、サービス導入にいたるまでのガイドとして利用できます。 また、この作業をお客様自身で完了することもできます。その場合は、Office 365 アカウントでサインインすると [FastTrack](https://fasttrack.microsoft.com/) から利用できるようになる FastTrack オンボーディング ウィザードを使用します。 以下の情報は、この手順を Teams のために完了するのに役立ちます。 少なくとも、次の 4 つの記事の内容を確認する必要があります。
 
 1.  [Teams の導入に向けた環境の準備を確認する](environment-readiness.md)
 2.  [Teams 用にネットワークを準備する](prepare-network.md)
@@ -88,12 +88,12 @@ Teams を展開しているときに、モバイル エクスペリエンスを�
 
 1. **ベスト プラクティスについて、「[Office 365 Adoption Guidance]( https://aka.ms/office365adoptionguide)**」を読みます。 「[Microsoft Teams の変更管理戦略を作成する](change-management-strategy.md)」の記事を参考にして、お客様自身のアプローチを文書化します。
 1. **「[Office 365 アクティビティ レポート](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)**」を詳しく調べて、現在の環境全体にわたる使用状況を把握します。 お客様が会社における Office 365 管理者ではない場合は、管理者に問い合わせて、アクティビティ レポートにアクセスできるように、レポートを読むためのアクセス許可を付与してもらいます。
-2. Office 365 および Teams についてのエクスペリエンスに関して、**従業員からのフィードバックを取得します**。 組織のユーザーが 2500 人より少ない場合は、Teams の公開チャネルを使用します。 組織の規模が Teams での現在のメンバーシップ制限を超えている場合は、Yammer のパブリック グループを使用します。 
+2. Office 365 および Teams についてのエクスペリエンスに関して、**従業員からのフィードバックを取得します**。 組織のユーザーが 2500 人より少ない場合は、Teams の公開チャネルを使用します。 組織の規模が Teams での現在のメンバーシップ制限を超えている場合は、Yammer のパブリック グループを使用します。
 
 4. **チャンピオンを育成し、成功したことについて強調します。** 従業員に対して、新しいツールを抱えながらそれらを会社のビジネス成果に結びつく革新的な方法で使用していることについて報奨を与えます。 そうすることで、より着実に Office 365 と Teams の継続的な導入が確実になります。
 
 
 ## <a name="next-steps"></a>次のステップ
 1. [ツールとワークショップ: Teams の計画、提供、導入](planning-workshop-practical-guide.md)に移動します
-2. 「[Quick start guide: Successfully enable Teams (クイック スタート ガイド: Teams を正常に利用できるようにする)](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)」の技術計画に関するアンケートをダウンロードして記入します。
-3. 組織内で Teams を起動するためのワークショップ「[Microsoft Teams の計画、提供、運用](http://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx)」をダウンロードします。
+2. 「[Quick start guide: Successfully enable Teams (クイック スタート ガイド: Teams を正常に利用できるようにする)](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)」の技術計画に関するアンケートをダウンロードして記入します。
+3. 組織内で Teams を起動するためのワークショップ「[Microsoft Teams の計画、提供、運用](https://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx)」をダウンロードします。

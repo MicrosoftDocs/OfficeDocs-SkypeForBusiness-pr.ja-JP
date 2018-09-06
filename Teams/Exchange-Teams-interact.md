@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a89f3670d2dda14ae5d15647213aca5d1d5398af
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 3cf488377302fda32ff1c569c114818977ea10fc
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569916"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599361"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携 
 =========================================
@@ -34,10 +34,10 @@ Exchange Online 専用 – レガシーまたは Exchange On-premises にホス�
 
 | ユーザーのメールボックスのホスト先: | 証拠開示が可能| 訴訟ホールド | 保存期間| チームとチャネルの管理 |会議を作成して表示する| ユーザー プロフィールの写真を変更する | 通話履歴 | 連絡先を管理します。 | Outlook の連絡先にアクセスします。 | ボイスメール |コネクタを追加して構成する|タブを追加して構成する|ボットを追加して構成する| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|はい|はい|はい|あり|はい|はい|はい|はい|はい|はい|はい|はい|はい|
-|**Exchange Online 専用 vNext**|はい|はい|あり|あり|あり|はい|はい|あり|はい|はい|はい|あり|はい|
-|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|([許可一覧](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US)) を [はい] します。|なし|なし|あり|なし|なし|あり|あり|なし|[はい] (Exchange 2013 +)|なし|あり|はい|
-|**Exchange On-premises** (Azure AD との同期が必要)|([許可一覧](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US)) を [はい] します。|なし|なし|あり|[はい] (Exchange 2016 CU3 +)|なし|あり|あり|なし|[はい] (Exchange 2013 +)|なし|あり|はい|
+|**Exchange Online**|はい|はい|はい|はい|はい|はい|はい|はい|はい|はい|はい|はい|はい|
+|**Exchange Online 専用 vNext**|はい|はい|はい|はい|はい|はい|はい|はい|はい|はい|はい|はい|はい|
+|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|([許可一覧](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US)) を [はい] します。|なし|なし|はい|なし|なし|はい|はい|なし|[はい] (Exchange 2013 +)|なし|はい|はい|
+|**Exchange On-premises** (Azure AD との同期が必要)|([許可一覧](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US)) を [はい] します。|なし|なし|はい|[はい] (Exchange 2016 CU3 +)|なし|はい|はい|なし|[はい] (Exchange 2013 +)|なし|なし|はい|
                                                             
 *\*Exchange 2016 CU3 以降でサポートされます*
 

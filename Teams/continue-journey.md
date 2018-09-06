@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 082ad5913cfd95750eaac9f36b424b62610c0c26
-ms.sourcegitcommit: 1d3b18265488fa14175f72d80fb8a2aa25a3ae62
+ms.openlocfilehash: 1d6b45c13cf387ff31044ea7d439a0a1e5081eca
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "20506645"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23247536"
 ---
 ![オペレーショナル ・ エクセレンスの段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-op-excellence.png "オペレーショナル ・ エクセレンスの段階に重点を置いて、旅アップグレードの段階")
 
@@ -26,7 +26,7 @@ ms.locfileid: "20506645"
 
 # <a name="drive-operational-excellence-with-microsoft-teams"></a>マイクロソフトのチームでの運用の改善を推進します。
 
-テクノロジーは、前例のないペースで革新です。 最新情報を入手し、現代の職場環境を有効にすることは、組織がどのように動作するかの標準になっています。 マイクロソフト チーム、マイクロソフト 365、およびマイクロソフトのインテリジェント通信のビジョンを展開するのには継続的、実践計画をある場所に、組織が長期的な成功に設定されていることを確認できます。 健全性と品質の導入を最適化するためにユーザーの勢いを継続し、継続的にオンラインになる時間の経過と共に新しい機能の計画、環境の監視に最適な運用プランが含まれます。 
+テクノロジーは、前例のないペースで革新です。 最新情報を入手し、現代の職場環境を有効にすることは、組織がどのように動作するかの標準になっています。 マイクロソフト チーム、マイクロソフト 365、およびマイクロソフトのインテリジェント通信のビジョンを展開するのには継続的、実践計画をある場所に、組織が長期的な成功に設定されていることを確認できます。 健全性と品質の導入を最適化するためにユーザーの勢いを継続し、継続的にオンラインになる時間の経過と共に新しい機能の計画、環境の監視に最適な運用プランが含まれます。
 
 ## <a name="monitor-for-network-health-and-quality"></a>ネットワークの健全性と品質を監視します。
 
@@ -42,7 +42,7 @@ ms.locfileid: "20506645"
 
 -   宣伝させ、他のユーザーのためにピアのチャンピオンが参加しています。
 -   活動の向上と普及の推進に関するヒントについては、 [Office 365 の導入ガイド](https://go.microsoft.com/fwlink/?linkid=859045)を確認しています。
--   意識を強化し、ベスト ・ プラクティスを共有する[チームのお客様の成功キット](http://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)を活用することです。
+-   意識を強化し、ベスト ・ プラクティスを共有する[チームのお客様の成功キット](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)を活用することです。
 -   採用の成長を支えるための正式な[管理戦略を採用し、変更](http://www.successwithteams.com/)を実装します。
 
 ## <a name="prepare-for-new-functionality"></a>新しい機能のための準備します。

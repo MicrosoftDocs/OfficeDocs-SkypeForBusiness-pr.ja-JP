@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a561e6d81394aa9bf7c3e1b9b8b0ac9f2b3a7ed
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 8295884d973dc873a7646be629bd639adba2156a
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695583"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779126"
 ---
 <a name="define-and-document-your-audio-conferencing-in-teams-test-plan-for-enterprises"></a>定義し、企業のチームのテスト計画で、オーディオ会議を文書化 
 ===============================================================================
@@ -91,7 +91,7 @@ ms.locfileid: "19695583"
 
 | エンタープライズ ・ クラス   | 共同会議    | プラットフォームとデバイス   | IT プロフェッショナル  | 追加のビジネス グループ、サイト固有  | チームの最新のロードマップで満たされる要件 |
 |-------------------------------------------|----------------------------|------------------|------------------------|-------------------|-------------------|
-| <ul><li>経由で電話会議の会議をスケジュールするには。<ul><li>Outlook スケジュール追加で</li><li>Teams クライアント</li></ul></li><li>チャネルと秘密の会議をホストしています。</li><li>最大 80 の参加者との会議をホストしています。</li><li>音声会議機能</li><li>匿名の結合</li><li>ロビーのサポート</li><li>参加者の管理</li><li>他の参加者をミュートします。</li><li>チーム クライアント経由でデバイスの管理</li></ul> |<ul><li>会議のライフ サイクル管理/前後時に</li><li>デスクトップ共有</li><li>会話</li><li>没入感の会議エクスペリエンス</li><li>アプリケーション共有</li><li>アプリケーション共有内のコントロールを提供および実行</li></ul> |<ul><li> Windows、Mac チーム クライアントとの会議機能をサポート</li><li>ブラウザー チーム クライアントの会議機能をサポートしています。<ul><li>クロム</li><li>Microsoft Edge</li></ul></li><li>iOS および Android チーム クライアント会議機能をサポートします。</li></ul> | <ul><li>通話品質の診断ポータル</li><li>テナントの電話会議ポリシー</li><li>通話品質の分析 (救難) を有効にします。</li></ul> | <ul><li>チームが会議の会社のラップトップ コンピューターのイメージに基づく機能の検証します。</li><li>特定の言語のサポート</li><li>シナリオの特定のユーザーまたは特定のサイトに適用される GPO の設定</li></ul> | あり  |
+| <ul><li>経由で電話会議の会議をスケジュールするには。<ul><li>Outlook スケジュール追加で</li><li>Teams クライアント</li></ul></li><li>チャネルと秘密の会議をホストしています。</li><li>最大 80 の参加者との会議をホストしています。</li><li>音声会議機能</li><li>匿名の結合</li><li>ロビーのサポート</li><li>参加者の管理</li><li>他の参加者をミュートします。</li><li>チーム クライアント経由でデバイスの管理</li></ul> |<ul><li>会議のライフ サイクル管理/前後時に</li><li>デスクトップ共有</li><li>会話</li><li>没入感の会議エクスペリエンス</li><li>アプリケーション共有</li><li>アプリケーション共有内のコントロールを提供および実行</li></ul> |<ul><li> Windows、Mac チーム クライアントとの会議機能をサポート</li><li>ブラウザー チーム クライアントの会議機能をサポートしています。<ul><li>クロム</li><li>Microsoft Edge</li></ul></li><li>iOS および Android チーム クライアント会議機能をサポートします。</li></ul> | <ul><li>通話品質の診断ポータル</li><li>テナントの電話会議ポリシー</li><li>通話品質の分析 (救難) を有効にします。</li></ul> | <ul><li>チームが会議の会社のラップトップ コンピューターのイメージに基づく機能の検証します。</li><li>特定の言語のサポート</li><li>シナリオの特定のユーザーまたは特定のサイトに適用される GPO の設定</li></ul> | はい  |
 
 #### <a name="audio-conferencing-user-functionality-definition"></a>オーディオ会議のユーザーの機能の定義
 
@@ -655,7 +655,7 @@ Office 365 へのポートにダイヤルイン番号 (サービス) として�
 通常、最新の請求書または請求書に必要情報を見つけること、現在のサービス プロバイダーからです。
 
 > [!TIP]
-> 移植することができますまたは内のすべての転送電話番号に国/地域は現在サポートされています。ただし、ポートの注文要求を送信する方法は、国/地域の電話番号を供給する場所によって異なる場合があります。 最新のリストについては現在サポートされている国や地域、[国およびオーディオ会議や予定を呼び出すことで利用可能な地域](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)を参照してください </br/>。<br/>
+> 移植することができますまたは内のすべての転送電話番号に国/地域は現在サポートされています。ただし、ポートの注文要求を送信する方法は、国/地域の電話番号を供給する場所によって異なる場合があります。 最新のリストについては現在サポートされている国や地域、[国およびオーディオ会議や予定を呼び出すことで利用可能な地域](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を参照してください </br/>。<br/>
 >   電話会議に電話番号を転送する方法について、潜在的な制限: [Office 365 に電話番号を転送](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)し、[フリー ダイヤル Office 365 内での制限](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.)を参照してください。
 
 #### <a name="step-3"></a>手順 3

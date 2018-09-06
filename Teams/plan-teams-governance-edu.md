@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf271132e9de19d5952e05e12b91b3a9e87ea529
-ms.sourcegitcommit: c85211a22921d02ffa9f300a4f8350ffbb90b38c
+ms.openlocfilehash: 4991990143b0292f83b5c71b8b2bf01a5d612184
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/10/2018
-ms.locfileid: "22331271"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599455"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>管理者のマイクロソフト教育ガバナンスに関する FAQ
 
@@ -30,7 +30,7 @@ ms.locfileid: "22331271"
 -   **クラス分け**組織内のユーザーが、Office 365 のグループを作成するときに設定する分類を作成します。 
 
 > [!IMPORTANT]
-> 命名ポリシー グループには、Office 365 のグループのメンバーは、一意のユーザーの Azure Active Directory プレミアム P1 のライセンスが必要です。
+> Office 365 グループ名前付けポリシーを使用すると、1 つまたは複数の Office 365 のグループのメンバーである個々 のユーザーの Azure Active Directory プレミアム P1 ライセンスまたは EDU の Azure AD の基本的なライセンスが必要です。
 
 詳細については、 [Office のグループ ポリシーの名前を付ける](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)を参照してください。
 
@@ -57,6 +57,9 @@ ms.locfileid: "22331271"
 -   PowerShell のチームとのチャネルを作成および設定を構成する自動的にします。 詳細については、[マイクロソフト チームの PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)を参照してください。
 -   (現在のベータ版) で Microsoft グラフ API を使用して、作成、構成、クローンを作成すると、およびチームをアーカイブできます。 詳細については、[マイクロソフトのチームで作業するのには Microsoft のグラフの API を使用](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview)を参照してください。
 
+> [!TIP]
+> 学校のデータの同期は、唯一の先生と生徒をクラス内では、そのクラスのメンバーを参照できるように、同期クラスと[非表示のグループ メンバーシップを有効にする](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945)ごとに、Office 365 のグループを作成します。 別のプロセスを使用して作成する場合、クラスのグループは、同じプライバシーの要件を満たすために新規 UnifiedGroup コマンドレットの HiddenGroupMembershipEnabled パラメーターを使用します。
+
 ## <a name="how-do-i-deal-with-teams-when-the-semester-or-quarter-ends"></a>対処チームと共同で、半期または四半期が終了したときですか。
 
 学校半期または四半期が上にあるとき、チームのデータを処理する方法についてまずと思われることをお勧めします。 削除するか、いつでも利用できる受講者のコースを行った後にでもするかどうか。 学校カレンダーに留意してください任意のポリシーを設定するは、祝日と競合しないようにします。 戦略を実装するのに次のツールを使用できます。
@@ -66,6 +69,9 @@ ms.locfileid: "22331271"
 
 -   **チームのアーカイブ:** この設定は、読み取り専用モードにチームを配置します。 まだブラウズや検索しますが、誰の新しい投稿を追加できます。 [アーカイブまたは復元チーム](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)は、チームのオーナーがチームをアーカイブする方法について説明します。チームの所有者では、アーカイブまたはチームを復元するには[グラフの API (ベータ版)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview)も使用できます。
  
+> [!IMPORTANT]
+> Office 365 のグループの有効期限ポリシーを使用して、1 つまたは複数の Office 365 のグループのメンバーである個々 のユーザーの Azure Active Directory プレミアム P1 のライセンスが必要です。
+
 ## <a name="are-there-team-templates-for-my-faculty-members-to-use-when-creating-a-team"></a>チームを作成するときに使用する自分の学部のチーム テンプレートがありますか。
 
 はい。 新しいチームを作成するとき、ユーザーは**既存のテンプレートからチームを作成**を選択でき、チーム所有者も使用可能なテンプレートから新しいチームを作成する[グラフの API (ベータ版)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview)を使用します。
