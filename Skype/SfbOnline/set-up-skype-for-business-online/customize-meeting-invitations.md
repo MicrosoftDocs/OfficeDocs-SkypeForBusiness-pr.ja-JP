@@ -1,5 +1,5 @@
 ---
-title: ミーティングの招待状をカスタマイズします。
+title: 会議出席依頼をカスタマイズする
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,60 +16,63 @@ f1keywords:
 - ms.lync.lac.MeetingInvitation
 ms.custom:
 - Setup
-description: 'グラフィックのロゴ、ヘルプと有効な Url、およびフッターのテキストを持つ Skype ミーティングの招待状をカスタマイズします。 '
-ms.openlocfilehash: f6c5c65c1f12010a6ee6cc625748dfa0287a856a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
-ms.translationtype: MT
+description: 'グラフィックのロゴ、ヘルプと法務の URL、フッターのテキストを含む Skype 会議出席依頼をカスタマイズします。 '
+ms.openlocfilehash: 1f53ce183ebe62923948a33a7ac6b14f3c61f04a
+ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/04/2018
+ms.locfileid: "19500556"
 ---
-# <a name="customize-meeting-invitations"></a><span data-ttu-id="f5047-103">ミーティングの招待状をカスタマイズします。</span><span class="sxs-lookup"><span data-stu-id="f5047-103">Customize meeting invitations</span></span>
+# <a name="customize-meeting-invitations"></a><span data-ttu-id="dfa70-103">会議出席依頼をカスタマイズする</span><span class="sxs-lookup"><span data-stu-id="dfa70-103">Customize meeting invitations</span></span>
 
-<span data-ttu-id="f5047-104">、管理者としては、ビジネスの会議出席依頼のすべての Skype にはサポート用 web サイトと免責事項、会社のロゴ、およびその他のテキストを追加するへのリンクなど、ユーザーが必要がありますいくつかの有益な情報が含まれているかを確認できます。</span><span class="sxs-lookup"><span data-stu-id="f5047-104">As an admin, you can ensure that all Skype for Business meeting invitations include some helpful information your users might need, such as links to your support website and legal disclaimer, your company logo, and other text you want to include.</span></span> 
+<span data-ttu-id="dfa70-104">管理者は、すべての Skype for Business の会議出席依頼にサポート Web サイトへのリンクや法的免責事項、会社のロゴ、その他のテキスト、記載したいその他の情報が含まれていることを確認できます。</span><span class="sxs-lookup"><span data-stu-id="dfa70-104">As an admin, you can ensure that all Skype for Business meeting invitations include some helpful information your users might need, such as links to your support website and legal disclaimer, your company logo, and other text you want to include.</span></span> 
   
-## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a><span data-ttu-id="f5047-105">会議出席依頼には、ロゴを作成するためのヒント</span><span class="sxs-lookup"><span data-stu-id="f5047-105">Tips for creating a logo for meeting invitations</span></span>
-<span data-ttu-id="f5047-106"><a name="__top"> </a></span><span class="sxs-lookup"><span data-stu-id="f5047-106"></span></span>
+## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a><span data-ttu-id="dfa70-105">会議出席依頼のロゴを作成するためのヒント</span><span class="sxs-lookup"><span data-stu-id="dfa70-105">Tips for creating a logo for meeting invitations</span></span>
+<span data-ttu-id="dfa70-106"><a name="__top"> </a></span><span class="sxs-lookup"><span data-stu-id="dfa70-106"></span></span>
 
-1. <span data-ttu-id="f5047-107">188 ピクセル 30 ピクセルの高さ (非常に小さいです) では、イメージを作成します。</span><span class="sxs-lookup"><span data-stu-id="f5047-107">Create an image that is no more than 188 pixels wide by 30 pixels tall (it's quite small).</span></span>
+1. <span data-ttu-id="dfa70-107">幅 188 ピクセル未満、高さ 30 ピクセルの(非常に小さい)イメージを作成します。</span><span class="sxs-lookup"><span data-stu-id="dfa70-107">Create an image that is no more than 188 pixels wide by 30 pixels tall (it's quite small).</span></span>
     
-2. <span data-ttu-id="f5047-108">イメージを JPG 形式で保存します。</span><span class="sxs-lookup"><span data-stu-id="f5047-108">Save the image in JPG format.</span></span>
+2. <span data-ttu-id="dfa70-108">イメージを JPG 形式で保存します。</span><span class="sxs-lookup"><span data-stu-id="dfa70-108">Save the image in JPG format.</span></span>
     
-3. <span data-ttu-id="f5047-109">お客様のビジネスのすべてのユーザーがアクセスできる中央の場所にイメージを格納するなどのネットワーク共有の仕事フォルダーをドロップ ボックスには、共有の OneDrive などです。</span><span class="sxs-lookup"><span data-stu-id="f5047-109">Store the image in a central location that everyone in your business can access, such as a network share, shared OneDrive for Business folder, Dropbox, etc.</span></span>
+3. <span data-ttu-id="dfa70-109">ネットワークの共有、ビジネスフォルダ用の共有 OneDrive、Dropboxなど、お客様のビジネスのすべてのユーザーがアクセスできる中央の場所にイメージを保存します。</span><span class="sxs-lookup"><span data-stu-id="dfa70-109">Store the image in a central location that everyone in your business can access, such as a network share, shared OneDrive for Business folder, Dropbox, etc.</span></span>
     
-    <span data-ttu-id="f5047-110">ここで、会議出席依頼に追加できます。</span><span class="sxs-lookup"><span data-stu-id="f5047-110">Now you can add it to your meeting invitations.</span></span> <span data-ttu-id="f5047-111">次の手順を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f5047-111">See the next steps.</span></span>
+    <span data-ttu-id="dfa70-110">会議出席依頼に追加できるようになります。</span><span class="sxs-lookup"><span data-stu-id="dfa70-110">Now you can add it to your meeting invitations.</span></span> <span data-ttu-id="dfa70-111">次の手順を参照してください。</span><span class="sxs-lookup"><span data-stu-id="dfa70-111">See the next section.</span></span>
     
-## <a name="customize-your-meeting-invitations"></a><span data-ttu-id="f5047-112">会議出席依頼をカスタマイズします。</span><span class="sxs-lookup"><span data-stu-id="f5047-112">Customize your meeting invitations</span></span>
-<span data-ttu-id="f5047-113"><a name="__top"> </a></span><span class="sxs-lookup"><span data-stu-id="f5047-113"></span></span>
+## <a name="customize-your-meeting-invitations"></a><span data-ttu-id="dfa70-112">会議出席依頼をカスタマイズする</span><span class="sxs-lookup"><span data-stu-id="dfa70-112">Customize meeting invitations</span></span>
+<span data-ttu-id="dfa70-113"><a name="__top"> </a></span><span class="sxs-lookup"><span data-stu-id="dfa70-113"></span></span>
 
-1. <span data-ttu-id="f5047-114">職場または学校のアカウントを使用して、Office 365 にサインインします。</span><span class="sxs-lookup"><span data-stu-id="f5047-114">Sign in to Office 365 with your work or school account.</span></span>
-    
-2. <span data-ttu-id="f5047-115">Office 365 管理センターから、**管理者が中央揃え**」を選択します > **ビジネス用の Skype**です。</span><span class="sxs-lookup"><span data-stu-id="f5047-115">From the Office 365 admin center, choose **Admin centers** > **Skype for Business**.</span></span>
-    
-3. <span data-ttu-id="f5047-116">ビジネス管理センターの Skype、**オンライン会議**を選択します。</span><span class="sxs-lookup"><span data-stu-id="f5047-116">In the Skype for Business admin center, choose **online meetings**.</span></span> 
-    
-4. <span data-ttu-id="f5047-117">以下のボックスを完了します。</span><span class="sxs-lookup"><span data-stu-id="f5047-117">Complete the following boxes:</span></span>
-    
-    ![ここでは、会議出席依頼をカスタマイズするフォームを完了するときのように表示可能性があります。](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png) 
+<span data-ttu-id="dfa70-114">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**</span><span class="sxs-lookup"><span data-stu-id="dfa70-114">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
 
-   <span data-ttu-id="f5047-119">**ロゴの URL:**ロゴを保存する場所の URL を入力します。</span><span class="sxs-lookup"><span data-stu-id="f5047-119">**Logo URL:** Enter the URL where your logo is stored.</span></span> <span data-ttu-id="f5047-120">必要がありますは、JPG 形式であることを忘れないでください!</span><span class="sxs-lookup"><span data-stu-id="f5047-120">Remember that it must be in JPG format!</span></span> 
+1. <span data-ttu-id="dfa70-115">職場または学校のアカウントで Office 365 にサインインします。</span><span class="sxs-lookup"><span data-stu-id="dfa70-115">Sign in to Office 365 with your work or school account.</span></span>
+    
+2. <span data-ttu-id="dfa70-116">Office 365 管理センターで、 **管理センター** > **Skype for Business**を選択します。</span><span class="sxs-lookup"><span data-stu-id="dfa70-116">From the Office 365 admin center, choose **Admin centers** > **Skype for Business**.</span></span>
+    
+3. <span data-ttu-id="dfa70-117">Skype for Business 管理センターで、**オンライン会議**を選択します。</span><span class="sxs-lookup"><span data-stu-id="dfa70-117">In the Skype for Business admin center, choose Users.</span></span> 
+    
+4. <span data-ttu-id="dfa70-118">以下のボックスに入力してください:</span><span class="sxs-lookup"><span data-stu-id="dfa70-118">Complete the following boxes:</span></span>
+    
+    ![会議出席依頼をカスタマイズするフォームに入力するときの表示を以下に示します。](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png) 
+
+   <span data-ttu-id="dfa70-120">**ロゴの URL:** ロゴを保存する場所の URL を入力します。</span><span class="sxs-lookup"><span data-stu-id="dfa70-120">**Logo URL:** Enter the URL where your logo is stored.</span></span> <span data-ttu-id="dfa70-121">JPG フォーマットにする必要があることに留意してください！</span><span class="sxs-lookup"><span data-stu-id="dfa70-121">Remember that it must be in JPG format!</span></span> 
  
-   <span data-ttu-id="f5047-121">**ヘルプ URL:**組織のサポート web サイトがユーザーの問題がある場合に移動できるようにする場合は、ここに URL を入力します。</span><span class="sxs-lookup"><span data-stu-id="f5047-121">**Help URL:** If your organization has a support website you want people to go to if they have problems, enter the URL here.</span></span> 
+   <span data-ttu-id="dfa70-122">**ヘルプ URL:** ユーザーが問題を抱えている場合に訪問するサポート ウェブサイトがお客様の組織にある場合、こちらに URL を入力してください。</span><span class="sxs-lookup"><span data-stu-id="dfa70-122">**Help URL:** If your organization has a support website you want people to go to if they have problems, enter the URL here.</span></span> 
 
-   <span data-ttu-id="f5047-122">**法的 URL:**組織の有効な web サイトの法的な懸念事項がある場合に移動するようにする場合は、ここに URL を入力します。</span><span class="sxs-lookup"><span data-stu-id="f5047-122">**Legal URL:** If your organization has a legal website you want people to go to if they have legal concerns, enter the URL here.</span></span>
+   <span data-ttu-id="dfa70-123">**法的 URL:**  ユーザーに法的な懸念がある場合に訪問する法的ウェブサイトがお客様の組織にある場合、こちらに URL を入力してください。</span><span class="sxs-lookup"><span data-stu-id="dfa70-123">**Legal URL:** If your organization has a legal website you want people to go to if they have legal concerns, enter the URL here.</span></span>
     
-   <span data-ttu-id="f5047-123">**フッター テキスト:**ユーザーの目的となるテキストのみの脚注を入力します。</span><span class="sxs-lookup"><span data-stu-id="f5047-123">**Footer text:** Enter a text-only footnote that will be appropriate for your users.</span></span>  
+   <span data-ttu-id="dfa70-124">**フッター テキスト:** ユーザーに適切なテキストのみの脚注を入力します。</span><span class="sxs-lookup"><span data-stu-id="dfa70-124">**Footer text:** Enter a text-only footnote that will be appropriate for your users.</span></span>  
   
    
-5. <span data-ttu-id="f5047-124">[ **保存**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="f5047-124">Choose **Save**.</span></span>
+5. <span data-ttu-id="dfa70-125">**保存** を選択します。</span><span class="sxs-lookup"><span data-stu-id="dfa70-125">Choose **Save**.</span></span>
     
-6. <span data-ttu-id="f5047-125">1 時間など、すべての Office 365 サービスの間で値を設定するのには変更を待機します。</span><span class="sxs-lookup"><span data-stu-id="f5047-125">Wait an hour or so for the changes to get populated across all Office 365 services.</span></span> <span data-ttu-id="f5047-126">Outlook に移動し、Skype 会議の変更内容がどのように確認します。</span><span class="sxs-lookup"><span data-stu-id="f5047-126">Then go to Outlook and schedule a Skype meeting to see what your changes look like.</span></span> 
+6. <span data-ttu-id="dfa70-126">Office 365 サービス全体に変更が反映されるまで 1 時間ほど待ちます。</span><span class="sxs-lookup"><span data-stu-id="dfa70-126">Wait an hour or so for the changes to get populated across all Office 365 services.</span></span> <span data-ttu-id="dfa70-127">その後 Outlook に移動し、Skype 会議をスケジュールし、変更がどのように反映されるか確認します。</span><span class="sxs-lookup"><span data-stu-id="dfa70-127">Then go to Outlook and schedule a Skype meeting to see what your changes look like.</span></span> 
     
-    ![ここでは、カスタムの招待状がどんなものか、画像なし](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
+    ![カスタム出席依頼がどのようなものかを図を使用せずに以下に示します](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
-## <a name="related-topics"></a><span data-ttu-id="f5047-128">このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。</span><span class="sxs-lookup"><span data-stu-id="f5047-128">Related topics</span></span>
-<span data-ttu-id="f5047-129"><a name="__top"> </a></span><span class="sxs-lookup"><span data-stu-id="f5047-129"></span></span>
+## <a name="related-topics"></a><span data-ttu-id="dfa70-129">関連トピック</span><span class="sxs-lookup"><span data-stu-id="dfa70-129">Related topics</span></span>
+<span data-ttu-id="dfa70-130"><a name="__top"> </a></span><span class="sxs-lookup"><span data-stu-id="dfa70-130"></span></span>
 
-[<span data-ttu-id="f5047-130">Office 365 での電話会議を使用または購入する</span><span class="sxs-lookup"><span data-stu-id="f5047-130">Try or purchase Audio Conferencing in Office 365</span></span>](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[<span data-ttu-id="dfa70-131">Office 365 の電話会議を試用または購入する</span><span class="sxs-lookup"><span data-stu-id="dfa70-131">Try or purchase Audio Conferencing in Office 365</span></span>](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
   
  
