@@ -1,5 +1,5 @@
 ---
-title: ミーティングの招待状をカスタマイズします。
+title: 会議出席依頼をカスタマイズする
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,60 +16,63 @@ f1keywords:
 - ms.lync.lac.MeetingInvitation
 ms.custom:
 - Setup
-description: 'グラフィックのロゴ、ヘルプと有効な Url、およびフッターのテキストを持つ Skype ミーティングの招待状をカスタマイズします。 '
-ms.openlocfilehash: f6c5c65c1f12010a6ee6cc625748dfa0287a856a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
-ms.translationtype: MT
+description: 'グラフィックのロゴ、ヘルプと法務の URL、フッターのテキストを含む Skype 会議出席依頼をカスタマイズします。 '
+ms.openlocfilehash: 1f53ce183ebe62923948a33a7ac6b14f3c61f04a
+ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/04/2018
+ms.locfileid: "19500556"
 ---
-# <a name="customize-meeting-invitations"></a>ミーティングの招待状をカスタマイズします。
+# <a name="customize-meeting-invitations"></a>会議出席依頼をカスタマイズする
 
-、管理者としては、ビジネスの会議出席依頼のすべての Skype にはサポート用 web サイトと免責事項、会社のロゴ、およびその他のテキストを追加するへのリンクなど、ユーザーが必要がありますいくつかの有益な情報が含まれているかを確認できます。 
+管理者は、すべての Skype for Business の会議出席依頼にサポート Web サイトへのリンクや法的免責事項、会社のロゴ、その他のテキスト、記載したいその他の情報が含まれていることを確認できます。 
   
-## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>会議出席依頼には、ロゴを作成するためのヒント
+## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>会議出席依頼のロゴを作成するためのヒント
 <a name="__top"> </a>
 
-1. 188 ピクセル 30 ピクセルの高さ (非常に小さいです) では、イメージを作成します。
+1. 幅 188 ピクセル未満、高さ 30 ピクセルの(非常に小さい)イメージを作成します。
     
 2. イメージを JPG 形式で保存します。
     
-3. お客様のビジネスのすべてのユーザーがアクセスできる中央の場所にイメージを格納するなどのネットワーク共有の仕事フォルダーをドロップ ボックスには、共有の OneDrive などです。
+3. ネットワークの共有、ビジネスフォルダ用の共有 OneDrive、Dropboxなど、お客様のビジネスのすべてのユーザーがアクセスできる中央の場所にイメージを保存します。
     
-    ここで、会議出席依頼に追加できます。 次の手順を参照してください。
+    会議出席依頼に追加できるようになります。 次の手順を参照してください。
     
-## <a name="customize-your-meeting-invitations"></a>会議出席依頼をカスタマイズします。
+## <a name="customize-your-meeting-invitations"></a>会議出席依頼をカスタマイズする
 <a name="__top"> </a>
 
-1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
-    
-2. Office 365 管理センターから、**管理者が中央揃え**」を選択します > **ビジネス用の Skype**です。
-    
-3. ビジネス管理センターの Skype、**オンライン会議**を選択します。 
-    
-4. 以下のボックスを完了します。
-    
-    ![ここでは、会議出席依頼をカスタマイズするフォームを完了するときのように表示可能性があります。](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png) 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
 
-   **ロゴの URL:**ロゴを保存する場所の URL を入力します。 必要がありますは、JPG 形式であることを忘れないでください! 
+1. 職場または学校のアカウントで Office 365 にサインインします。
+    
+2. Office 365 管理センターで、 **管理センター** > **Skype for Business**を選択します。
+    
+3. Skype for Business 管理センターで、**オンライン会議**を選択します。 
+    
+4. 以下のボックスに入力してください:
+    
+    ![会議出席依頼をカスタマイズするフォームに入力するときの表示を以下に示します。](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png) 
+
+   **ロゴの URL:** ロゴを保存する場所の URL を入力します。 JPG フォーマットにする必要があることに留意してください！ 
  
-   **ヘルプ URL:**組織のサポート web サイトがユーザーの問題がある場合に移動できるようにする場合は、ここに URL を入力します。 
+   **ヘルプ URL:** ユーザーが問題を抱えている場合に訪問するサポート ウェブサイトがお客様の組織にある場合、こちらに URL を入力してください。 
 
-   **法的 URL:**組織の有効な web サイトの法的な懸念事項がある場合に移動するようにする場合は、ここに URL を入力します。
+   **法的 URL:**  ユーザーに法的な懸念がある場合に訪問する法的ウェブサイトがお客様の組織にある場合、こちらに URL を入力してください。
     
-   **フッター テキスト:**ユーザーの目的となるテキストのみの脚注を入力します。  
+   **フッター テキスト:** ユーザーに適切なテキストのみの脚注を入力します。  
   
    
-5. [ **保存**] を選びます。
+5. **保存** を選択します。
     
-6. 1 時間など、すべての Office 365 サービスの間で値を設定するのには変更を待機します。 Outlook に移動し、Skype 会議の変更内容がどのように確認します。 
+6. Office 365 サービス全体に変更が反映されるまで 1 時間ほど待ちます。 その後 Outlook に移動し、Skype 会議をスケジュールし、変更がどのように反映されるか確認します。 
     
-    ![ここでは、カスタムの招待状がどんなものか、画像なし](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
+    ![カスタム出席依頼がどのようなものかを図を使用せずに以下に示します](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 <a name="__top"> </a>
 
-[Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Office 365 の電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
   
  
