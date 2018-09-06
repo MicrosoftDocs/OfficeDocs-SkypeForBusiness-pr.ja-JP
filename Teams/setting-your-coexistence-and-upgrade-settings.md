@@ -11,12 +11,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2f5b518beceb00909e7b6b97f7bfd6eb513edd8
-ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
+ms.openlocfilehash: 16cbe6c20661da3c4e6dd18255055b2c661a4758
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "21148426"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23845582"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>共存およびアップグレードの設定を設定します。
 
@@ -68,4 +68,4 @@ ms.locfileid: "21148426"
 
 [共存を理解し、Skype のビジネスとチームの旅をアップグレード](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-[ビジネスのチームとは、Skype を使用する組織の移行と相互運用性のガイド](https://docs.microsoft.com/en-us/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
+[ビジネスのチームとは、Skype を使用する組織の移行と相互運用性のガイド](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)

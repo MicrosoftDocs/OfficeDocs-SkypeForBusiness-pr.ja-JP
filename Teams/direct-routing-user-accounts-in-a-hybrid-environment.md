@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: ユーザーの作成」と「どの組み合わせがサポートまたはサポートされていないのさまざまな組み合わせについて説明します。
-ms.openlocfilehash: 03fd0f57d4c9f504c2f40d6675e44c8ba96adb13
-ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.openlocfilehash: 04f0237dd7df6c856b6fef117f435ea2db052c82
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "20084557"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23846262"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>PSTN への接続を持つハイブリッド環境でのユーザー アカウント
 
@@ -66,4 +66,4 @@ PSTN への接続でのビジネスのハイブリッド環境に、Skype では
 **必要があります**が、ユーザーのすべてのユーザーのオブジェクト設置型で、作成する AD Azure AD 接続ツールを使用した Azure AD に同期するとします。 ユーザーの有効化なチームと Skype ビジネスは**サポートされていません**のハイブリッド構成では、Azure AD で直接ユーザー オブジェクトが作成されている場合。 など、新入社員、チームに対して直接有効にするは、ユーザーの新しいユーザーのユーザーは設置型のビジネス用の Skype で最初にホーム、オンライン登録者への移動する必要があります。 最初を有効にするエンタープライズ VoIP の**サポートされていない**とプールを設置せず、ビジネスまたはチームのオンライン Skype でユーザーを作成しています。
   
 
-ビジネス用の Skype のユーザーを有効にする必要があります、エンタープライズ VoIP を使用してオンプレミス Skype のビジネス ユーザーの管理ツールです。 ビジネス オンラインのみが**サポートされていない**ため、Skype のユーザーを有効にします。 ハイブリッド構成で、ビジネスの Skype のユーザーを有効にする方法の詳細については[この資料](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises#special-considerations-when-enabling-users-for-enterprise-voice-on-premises)を参照してください。
+ビジネス用の Skype のユーザーを有効にする必要があります、エンタープライズ VoIP を使用してオンプレミス Skype のビジネス ユーザーの管理ツールです。 ビジネス オンラインのみが**サポートされていない**ため、Skype のユーザーを有効にします。 ハイブリッド構成で、ビジネスの Skype のユーザーを有効にする方法の詳細については[この資料](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises#special-considerations-when-enabling-users-for-enterprise-voice-on-premises)を参照してください。

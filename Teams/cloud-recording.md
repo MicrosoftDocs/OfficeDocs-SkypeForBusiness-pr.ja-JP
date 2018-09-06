@@ -9,19 +9,19 @@ description: Microsoft Teams での Cloud Voice の機能の展開について�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64a0dd2cccfe92fe1385b40caa45551bfe91bba9
-ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
+ms.openlocfilehash: 6c1ca0045eb980a83852426b9c0b2c12f1e317f0
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23835024"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23845534"
 ---
 # <a name="teams-cloud-meeting-recording"></a>チーム クラウドのミーティングのレコーディング
 
 > [!Note]
 > [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-マイクロソフトのチームで、ユーザーは、チームの会議やオーディオ、ビデオ、およびアクティビティを共有する画面のキャプチャ グループの呼び出しを記録できます。 自動の議事録を記録するためのオプションをユーザーがクローズド キャプションおよび重要なディスカッション アイテムの検索とのミーティングのレコーディングで再生、トラン スクリプトです。 録音では、クラウドでの動作し、ユーザーを共有できるように、安全に組織全体に、[マイクロソフトのストリーム](https://docs.microsoft.com/en-us/stream/)に保存されます。
+マイクロソフトのチームで、ユーザーは、チームの会議やオーディオ、ビデオ、およびアクティビティを共有する画面のキャプチャ グループの呼び出しを記録できます。 自動の議事録を記録するためのオプションをユーザーがクローズド キャプションおよび重要なディスカッション アイテムの検索とのミーティングのレコーディングで再生、トラン スクリプトです。 録音では、クラウドでの動作し、ユーザーを共有できるように、安全に組織全体に、[マイクロソフトのストリーム](https://docs.microsoft.com/stream/)に保存されます。
 
 関連:[エンド ・ ユーザーのドキュメントを記録、チーム会議](https://aka.ms/recordmeeting)
 
@@ -44,21 +44,21 @@ ms.locfileid: "23835024"
 
 ### <a name="enable-microsoft-stream-for-users-in-the-organization"></a>組織内のユーザーに対して Microsoft ストリームを有効にします。
 
-Microsoft ストリームは、対象の Office 365 サブスクリプションの一部として、またはスタンドアロン サービスとして利用できます。  [ストリームのライセンスの概要](https://docs.microsoft.com/en-us/stream/license-overview)の詳細についてを参照してください。  ビジネスに関する重要事項でマイクロソフトのストリームが含まれていないこと、またはビジネス プレミアム プランに注意してください。
+Microsoft ストリームは、対象の Office 365 サブスクリプションの一部として、またはスタンドアロン サービスとして利用できます。  [ストリームのライセンスの概要](https://docs.microsoft.com/stream/license-overview)の詳細についてを参照してください。  ビジネスに関する重要事項でマイクロソフトのストリームが含まれていないこと、またはビジネス プレミアム プランに注意してください。
 
-方法[Office 365 のユーザーにライセンスを割り当てる](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)ユーザーが Microsoft のストリームにアクセスできるようにする方法の詳細について説明します。 [この資料](https://docs.microsoft.com/en-us/stream/disable-user-organization)で定義されているユーザー、Microsoft のストリームがブロックされていないことを確認します。
+方法[Office 365 のユーザーにライセンスを割り当てる](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)ユーザーが Microsoft のストリームにアクセスできるようにする方法の詳細について説明します。 [この資料](https://docs.microsoft.com/stream/disable-user-organization)で定義されているユーザー、Microsoft のストリームがブロックされていないことを確認します。
 
 ### <a name="ensure-that-users-have-upload-video-permissions-in-microsoft-stream"></a>Microsoft ストリーム内のビデオのアクセス許可をユーザーがアップロードがいることを確認します。
 
-既定で、ストリームで指定されたコンテンツを作成して、ストリームが有効になっているし、ライセンスがユーザーに割り当てられている会社内のすべてのユーザーできます。 Microsoft ストリームには、管理者は、ストリーム内の[コンテンツを作成するための従業員を制限する](https://docs.microsoft.com/en-us/stream/restrict-uploaders)ことができます。 この制限の一覧にあるユーザーはミーティングを記録することができません。
+既定で、ストリームで指定されたコンテンツを作成して、ストリームが有効になっているし、ライセンスがユーザーに割り当てられている会社内のすべてのユーザーできます。 Microsoft ストリームには、管理者は、ストリーム内の[コンテンツを作成するための従業員を制限する](https://docs.microsoft.com/stream/restrict-uploaders)ことができます。 この制限の一覧にあるユーザーはミーティングを記録することができません。
 
 ### <a name="notify-employees-to-consent-to-company-guidelines-in-microsoft-stream"></a>Microsoft ストリーム内の会社のガイドラインに同意するものを従業員に通知します。
 
-Microsoft ストリームの管理者は、[会社の規定のポリシーを設定する](https://docs.microsoft.com/en-us/stream/company-policy-and-consent)には、従業員にコンテンツを保存する前にこのポリシーをそのまま使用する必要がありますユーザーする必要がありますようにマイクロソフトのチームでのレコーディングの前にします。 組織の記録機能をロールアウトする前にユーザーが、ポリシーに同意したことを確認します。
+Microsoft ストリームの管理者は、[会社の規定のポリシーを設定する](https://docs.microsoft.com/stream/company-policy-and-consent)には、従業員にコンテンツを保存する前にこのポリシーをそのまま使用する必要がありますユーザーする必要がありますようにマイクロソフトのチームでのレコーディングの前にします。 組織の記録機能をロールアウトする前にユーザーが、ポリシーに同意したことを確認します。
 
 ### <a name="enabledisable-cloud-recording-for-users"></a>クラウドのユーザーの記録を有効または無効にします。
 
-ユーザーの会議はできるかを記録するかどうかにコントロールするチーム PowerShell の TeamsMeetingPolicy で AllowCloudRecording の設定を使用します。 Office 365 の PowerShell での TeamsMeetingPolicy の管理に関する詳細については、[ここで](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
+ユーザーの会議はできるかを記録するかどうかにコントロールするチーム PowerShell の TeamsMeetingPolicy で AllowCloudRecording の設定を使用します。 Office 365 の PowerShell での TeamsMeetingPolicy の管理に関する詳細については、[ここで](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
 会議の開催者と録音の開始側の両方がミーティングを記録するのには書き込み権限を持っている必要があることに注意してください。 カスタム ポリシーは、ユーザーに割り当てている、しない限り、ユーザーはグローバル ポリシーは既定で有効になっている記録を取得します。
 
@@ -85,7 +85,7 @@ Microsoft ストリームの管理者は、[会社の規定のポリシーを設
 
 ユーザーは、チーム ミーティングを記録、議事録がミーティングを記録した後自動的に生成するかどうかを確認できます。 管理者には、会議の開催者と録音の開始側の議事録作成機能が無効になりますが、録音の開始側は、ミーティングのレコーディングの議事録を作成するを取得できません。
 
-録音の開始側がミーティングのレコーディングの議事録を作成する選択を取得するかどうかにコントロールする PowerShell のチームの TeamsMeetingPolicy で AllowTranscription の設定を使用します。 Office 365 の PowerShell での TeamsMeetingPolicy の管理に関する詳細については、[ここで](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
+録音の開始側がミーティングのレコーディングの議事録を作成する選択を取得するかどうかにコントロールする PowerShell のチームの TeamsMeetingPolicy で AllowTranscription の設定を使用します。 Office 365 の PowerShell での TeamsMeetingPolicy の管理に関する詳細については、[ここで](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
 カスタム ポリシーは、ユーザーに割り当てている、しない限り、グローバル ポリシーが無効になっている既定で有効になっているを取得します。
 
@@ -109,13 +109,13 @@ Microsoft ストリームの管理者は、[会社の規定のポリシーを設
 
 ### <a name="planning-for-storage"></a>ストレージのプランニング
 
-1 時間の記録のサイズは、400 MB です。 録画したファイルに必要な能力を理解し、Microsoft のストリームで利用可能な十分なストレージがあることを確認してください。  読み取りサブスクリプションおよびその他の記憶域を購入する方法に含まれている記憶域の基本を理解するのには[ここ](https://docs.microsoft.com/en-us/stream/license-overview)です。
+1 時間の記録のサイズは、400 MB です。 録画したファイルに必要な能力を理解し、Microsoft のストリームで利用可能な十分なストレージがあることを確認してください。  読み取りサブスクリプションおよびその他の記憶域を購入する方法に含まれている記憶域の基本を理解するのには[ここ](https://docs.microsoft.com/stream/license-overview)です。
 
 ## <a name="manage-meeting-recordings"></a>ミーティングのレコーディングを管理します。
-ミーティングのレコーディングは、テナントが所有するコンテンツと見なされます。 記録の所有者が会社を辞める場合、管理者開くことができます記録ビデオの URL Microsoft ストリームで管理者モードで。 管理者、録音を削除、記録、メタデータを更新したり、ビデオの録画用のアクセス許可を変更できます。 [ストリーム内の管理機能](https://docs.microsoft.com/en-us/stream/manage-content-permissions)について説明します。
+ミーティングのレコーディングは、テナントが所有するコンテンツと見なされます。 記録の所有者が会社を辞める場合、管理者開くことができます記録ビデオの URL Microsoft ストリームで管理者モードで。 管理者、録音を削除、記録、メタデータを更新したり、ビデオの録画用のアクセス許可を変更できます。 [ストリーム内の管理機能](https://docs.microsoft.com/stream/manage-content-permissions)について説明します。
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>コンプライアンスと eDiscovery のミーティングのレコーディング
-ミーティングのレコーディングは、Office 365 層 C 準拠では、Microsoft のストリームに格納されます。 Microsoft ストリームの会議またはコールのレコーディングに興味があるコンプライアンス管理者の電子的証拠開示の要求をサポートするために録画完了したメッセージは、マイクロソフト チームのコンプライアンスのコンテンツの検索機能で利用可能なです。 コンプライアンス管理者ことができますコンプライアンス ・ コンテンツの検索・ プレビュー内のアイテムの件名に「記録」のキーワードを検索し、会議を見つけて組織でのレコーディングを呼び出します。 すべてのレコーディングを表示するための前提条件では、管理者のアクセス権を持つ Microsoft ストリームに設定する必要があります。 [ストリーム内の管理者のアクセス許可の割り当て](https://docs.microsoft.com/en-us/stream/assign-administrator-user-role)の詳細を表示します。
+ミーティングのレコーディングは、Office 365 層 C 準拠では、Microsoft のストリームに格納されます。 Microsoft ストリームの会議またはコールのレコーディングに興味があるコンプライアンス管理者の電子的証拠開示の要求をサポートするために録画完了したメッセージは、マイクロソフト チームのコンプライアンスのコンテンツの検索機能で利用可能なです。 コンプライアンス管理者ことができますコンプライアンス ・ コンテンツの検索・ プレビュー内のアイテムの件名に「記録」のキーワードを検索し、会議を見つけて組織でのレコーディングを呼び出します。 すべてのレコーディングを表示するための前提条件では、管理者のアクセス権を持つ Microsoft ストリームに設定する必要があります。 [ストリーム内の管理者のアクセス許可の割り当て](https://docs.microsoft.com/stream/assign-administrator-user-role)の詳細を表示します。
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 

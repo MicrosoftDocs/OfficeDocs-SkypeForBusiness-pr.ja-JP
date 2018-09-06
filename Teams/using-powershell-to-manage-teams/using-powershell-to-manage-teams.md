@@ -8,12 +8,12 @@ ms.service: msteams
 description: マイクロソフト チームの機能のすべてを管理する Windows PowerShell を使用するについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a83d6281352ca4ef6a5a8d57d3a27692c7288d6
-ms.sourcegitcommit: 41e325c5440e26cc39a3c8945020f597f8dfac96
+ms.openlocfilehash: 3c85f402f6ade08fa2bc5f31a02bf41cab0aad51
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22213359"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23845558"
 ---
 # <a name="using-powershell-to-manage-teams"></a>PowerShell を使用して、チームを管理するには
 
@@ -41,15 +41,15 @@ PowerShell を使用して、マイクロソフトのチームのリモート管
 
 
 ### <a name="step-2-install-powershell-30-or-higher"></a>手順 2: インストールの PowerShell 3.0 以降
-[このトピックを使用して、ヘルプを参照](https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-3-0) 
+[このトピックを使用して、ヘルプを参照](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-3-0) 
 
 ### <a name="step-3-download-and-install-the-teams-connector-module"></a>手順 3: をダウンロードして、チームのコネクタ モジュールをインストール
-[このトピックを使用して、ヘルプを参照](https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 
+[このトピックを使用して、ヘルプを参照](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 
 
 イザベルからのダウンロード リンクを以下に示します。https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3
 
 ### <a name="step-4-connect-using-the-teams-connector-module"></a>手順 4: 接続がチームのコネクタ モジュールを使用します。
-[このトピックを使用して、ヘルプを参照](https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 
+[このトピックを使用して、ヘルプを参照](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 
 
 ### <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 - [PowerShell でのチームの機能を管理します。](manage-features-with-powershell.md)

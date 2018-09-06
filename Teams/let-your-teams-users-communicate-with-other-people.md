@@ -12,12 +12,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: ユーザーが別の組織内のユーザーと通信できるようにするのにはチームを構成する方法を参照してください。
-ms.openlocfilehash: b8c3705b288abd81e85bd941ab019bb8e8e0e40e
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: 3eaffac3571abc70d4964ea4a8955f187d1e988f
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829115"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23844638"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>チームのユーザーのチャットを使用し、チームの別の組織内のユーザーとの通信
 
@@ -35,7 +35,7 @@ ms.locfileid: "23829115"
 
 ### <a name="step-1---make-sure-to-set-up-the-ports-and-urls-that-are-needed"></a>手順 1 - ポートおよび必要な Url を設定することを確認します。
 
-**企業間の通信を設定する際に発生する最も一般的な問題は、取得[Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges)右です。**
+**企業間の通信を設定する際に発生する最も一般的な問題は、取得[Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)右です。**
 
 ### <a name="step-2---enable-your-organization-to-communicate-with-another-teams-organization"></a>手順 2 - 別のチームの組織と通信するために組織を有効にします。
 
@@ -47,7 +47,7 @@ ms.locfileid: "23829115"
 
    3. 許可リストに他の組織のドメインを追加するには、**追加のドメイン**をクリックします。 **ドメインの追加**] ウィンドウで、**許可**し、次に**行われる**ドメインの名前をクリックしてに配置します。
 
-   4. 電話会議の設定を使用してユーザーにメールを送信することもできます。**** 
+   4. [ **保存**] をクリックします。 
 
    5. その他のチームの組織の管理者は、同じ手順を確認します。 などの**ドメインを許可する**ボックスの一覧で、管理者が自社のドメインを入力する必要があります。
 

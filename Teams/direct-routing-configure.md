@@ -9,18 +9,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft 電話システム直接ルーティングを構成する方法について説明します。
-ms.openlocfilehash: 455ae4bd419dd4e92152615adc42f879168e4f15
-ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
+ms.openlocfilehash: 23be9bae259767ffd4eb26d03a22f5449b4b9222
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23835032"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23845942"
 ---
 # <a name="configure-direct-routing"></a>直接ルーティングを構成します。
 
 されていない場合は、前提条件の[直接ルーティングの計画](direct-routing-plan.md)が読み込まれ、他の手順を確認する必要があります、Microsoft の電話システムのネットワークを構成する前にします。 
 
-この資料では、マイクロソフト電話システム直接ルーティングを構成する方法について説明します。 ペア、サポートされているセッション ボーダー コント ローラー (SBC) に直接ルーティングする方法とを公衆交換電話網 (PSTN) を接続するのには直接ルーティングを使用するマイクロソフトのチームのユーザーを構成する方法を説明します。 この資料で説明した手順を完了するには、管理者には、PowerShell コマンドレットをある程度が必要があります。 PowerShell を使用の詳細については、 [Windows PowerShell には、コンピューターの設定](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)を参照してください。 
+この資料では、マイクロソフト電話システム直接ルーティングを構成する方法について説明します。 ペア、サポートされているセッション ボーダー コント ローラー (SBC) に直接ルーティングする方法とを公衆交換電話網 (PSTN) を接続するのには直接ルーティングを使用するマイクロソフトのチームのユーザーを構成する方法を説明します。 この資料で説明した手順を完了するには、管理者には、PowerShell コマンドレットをある程度が必要があります。 PowerShell を使用の詳細については、 [Windows PowerShell には、コンピューターの設定](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)を参照してください。 
 
 SBC が、SBC の製造元の推奨どおりに構成されて既にいることを確認することをお勧めします。 
 
@@ -43,7 +43,7 @@ SBC が、SBC の製造元の推奨どおりに構成されて既にいること
 
 ### <a name="connect-to--skype-for-business-online-by-using-powershell"></a>PowerShell を使用して、オンライン ビジネスの Skype に接続します。 
 
-直接ルーティング インターフェイスに SBC をペアにするには、テナントに接続している PowerShell セッションを使用できます。 PowerShell セッションを開くには、するには、 [Windows PowerShell には、コンピューターの設定](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)で説明する手順に従ってください。 
+直接ルーティング インターフェイスに SBC をペアにするには、テナントに接続している PowerShell セッションを使用できます。 PowerShell セッションを開くには、するには、 [Windows PowerShell には、コンピューターの設定](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)で説明する手順に従ってください。 
  
 リモート PowerShell セッションを確立すると後を検証してください、SBC を管理するためにコマンドを表示することができます。 コマンドを検証するには、入力または PowerShell セッションで次のコピーと貼り付けし Enter キーを押します。 
 
@@ -97,9 +97,9 @@ Enabled               : True
 
 |必須。|名前|説明|既定|可能な値|種類と制限|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|はい|FQDN|SBC の FQDN 名 |なし|NoneFQDN 名、制限は 63 文字|文字列、[コンピューター、ドメイン、サイト、および Ou の Active Directory の名前付け規則](https://support.microsoft.com/en-us/help/909264)で許可の文字の一覧|
+|あり|FQDN|SBC の FQDN 名 |なし|NoneFQDN 名、制限は 63 文字|文字列、[コンピューター、ドメイン、サイト、および Ou の Active Directory の名前付け規則](https://support.microsoft.com/help/909264)で許可の文字の一覧|
 |なし|MediaBypass |将来使用するために予約されているパラメーターです。 SBC の示されているパラメーターには、メディア バイ パスがサポートされていて、管理者がそれを使用します。|なし|True<br/>False|ブール型|
-|はい|SipSignallingPort |トランスポート層セキュリティ (TLS) プロトコルを使用して直接ルーティング サービスと通信するために使用するポートをリッスンします。|なし|任意のポート|0 から 65535 まで |
+|あり|SipSignallingPort |トランスポート層セキュリティ (TLS) プロトコルを使用して直接ルーティング サービスと通信するために使用するポートをリッスンします。|なし|任意のポート|0 から 65535 まで |
 |なし|FailoverTimeSeconds |10 (既定値) に設定すると、10 秒以内に、ゲートウェイが応答しない送信の呼び出しにルーティングされる次の使用可能なトランクです。トランクを追加することはありません、し、呼び出しは自動的に削除します。 低速のネットワークとゲートウェイの応答を持つ組織内を可能性があります可能性のある呼び出しが不必要に削除されています。 既定値は 10 です。|10|数値|Int|
 |なし|ForwardCallHistory |通話履歴の情報をトランク経由で転送するかどうかを指定します。 Office 365 の PSTN のプロキシに 2 つのヘッダーが送信が有効な場合: 履歴情報と Referred で。 既定値は**False** ($False) です。 |False|True<br/>False|ブール型|
 |なし|ForwardPAI|P-Asserted-Identity (PAI) ヘッダーを通話とともに転送するかどうかを示します。 PAI ヘッダーがあれば、発信者 ID を確認できます。 既定値は**False** ($False) です。|False|True<br/>False|ブール型|
@@ -158,8 +158,8 @@ Enabled               : True
 
 Office 365 で新しいユーザーを作成するための 2 つのオプションがあります。 ただし、組織が選択し、1 つのオプションを使用して、ルーティングの問題を回避することお勧めします。 
 
-- オンプレミスの Active Directory でユーザーを作成し、ユーザーがクラウドを同期します。 [Azure Active Directory と統合、設置ディレクトリ](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect)を参照してください。  
-- Office 365 管理者ポータルで直接ユーザーを作成します。 [追加ユーザー個別にまたは一括で Office 365 の管理者のヘルプ](https://support.office.com/en-us/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)を参照してください。 
+- オンプレミスの Active Directory でユーザーを作成し、ユーザーがクラウドを同期します。 [Azure Active Directory と統合、設置ディレクトリ](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)を参照してください。  
+- Office 365 管理者ポータルで直接ユーザーを作成します。 [追加ユーザー個別にまたは一括で Office 365 の管理者のヘルプ](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)を参照してください。 
 
   ビジネス 2015年または Lync 2010 と 2013 の設置型の Skype と共存するシステムを構築する場合のみサポートされているオプションは、オンプレミスの Active Directory でユーザーを作成し、(オプション 1) をクラウドに移行するユーザーを同期するのには。 
 
@@ -520,7 +520,7 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 
 ## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>マイクロソフトのチームを優先する呼び出し元クライアントとユーザーの設定します。
 
-直接ルーティング ルートのみを呼び出しのユーザーとの間のチームのクライアントを使用する場合。 のみ、組織には、チームが使用しているチームのみ] 設定モードでのアップグレードのポリシーを推奨します。 詳細については次の資料を参照してくださいし、適切なオプションを選択する組織は、オンライン ビジネスのビジネス サーバーまたは Skype の Skype を使用する場合:[共存を理解しビジネスとチームの Skype の旅をアップグレード](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)します。 
+直接ルーティング ルートのみを呼び出しのユーザーとの間のチームのクライアントを使用する場合。 のみ、組織には、チームが使用しているチームのみ] 設定モードでのアップグレードのポリシーを推奨します。 詳細については次の資料を参照してくださいし、適切なオプションを選択する組織は、オンライン ビジネスのビジネス サーバーまたは Skype の Skype を使用する場合:[共存を理解しビジネスとチームの Skype の旅をアップグレード](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)します。 
 
 
 ## <a name="see-also"></a>関連項目

@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements.
-ms.openlocfilehash: e4270a56e24d621511c94c9dc925fb1d1ca120ba
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: d33f4037517936b39bd81ccb6ec5b7df3ef5a3b8
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783071"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23846438"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype for Business と Microsoft Teams のデータ収集方法
 
@@ -52,7 +52,7 @@ ms.locfileid: "23783071"
 |ユーザー Id  <br/> |E296D735-4F36-4E18-7C3B-52E1A02A0164  <br/> |ID は、2 回ハッシュされます (クライアントで 1 回、利用統計情報サービスでもう一回)。ハッシュによって、ID を特定のユーザーに結び付けることができなくなります。  <br/> |
 |DeviceID  <br/> |5E872200-F546-4CCD-8F23-AF5F507AA2DD  <br/> |デバイス ID は、デバイス上でランダムに生成される GUID であり、利用統計情報サービスに送信されます。  <br/> |
 
-全数調査データには、組織またはユーザーを特定できる情報は含まれていません。詳細については、「[Skype for Business のプライバシーに関する声明](https://www.microsoft.com/privacystatement/en-us/SkypeforBusiness/Default.aspx)」をご覧ください。
+全数調査データには、組織またはユーザーを特定できる情報は含まれていません。詳細については、「[Skype for Business のプライバシーに関する声明](https://www.microsoft.com/privacystatement/SkypeforBusiness/Default.aspx)」をご覧ください。
 
 全数調査データは、既定でオンになり、管理者やエンド ユーザーがオフにすることはできません。
 
@@ -73,7 +73,7 @@ ms.locfileid: "23783071"
 
 使用状況データには、ユーザーを特定できる情報は含まれていません。
 
-使用状況データの収集は、既定でオンになりますが、オンプレミスの管理者が、Skype for Business Server 2015 の DisableAutomaticSendTracing グループ ポリシー設定を使用してオフにすることができます。この設定をオフにすると、組織のすべてのユーザーが影響を受けます。「[Skype for Business Server 2015 でのクライアント ブートストラップ ポリシーの構成](https://technet.microsoft.com/EN-US/library/gg425941.aspx)」を参照してください。
+使用状況データの収集は、既定でオンになりますが、オンプレミスの管理者が、Skype for Business Server 2015 の DisableAutomaticSendTracing グループ ポリシー設定を使用してオフにすることができます。この設定をオフにすると、組織のすべてのユーザーが影響を受けます。「[Skype for Business Server 2015 でのクライアント ブートストラップ ポリシーの構成](https://technet.microsoft.com/library/gg425941.aspx)」を参照してください。
 
 エンド ユーザーは使用状況データの収集のオンとオフを切り替えることはできません。
 
@@ -94,11 +94,11 @@ Skype 会議アプリと Join Launcher Web ページでは、利用統計情報�
 |Conversation thread ID (会話スレッド ID)  <br/> |AdDO8hsJqilU93hQHC3OZaPR2saEA = =  <br/> ||
 |ユーザー Id  <br/> |amosmarble <br/> |この ID はテキスト形式で送信され、利用統計情報サービスでハッシュされてから保存されます。  <br/> |
 
-エラー報告データには、ユーザーの IP アドレスや SIP URI (Session Initiation Protocol Uniform Resource Identifier) などの個人を特定できる情報が含まれる場合もあります。収集されるデータの詳細な説明については、「[Skype for Business のプライバシーに関する声明](https://www.microsoft.com/privacystatement/en-us/SkypeforBusiness/Default.aspx)」を参照してください。
+エラー報告データには、ユーザーの IP アドレスや SIP URI (Session Initiation Protocol Uniform Resource Identifier) などの個人を特定できる情報が含まれる場合もあります。収集されるデータの詳細な説明については、「[Skype for Business のプライバシーに関する声明](https://www.microsoft.com/privacystatement/SkypeforBusiness/Default.aspx)」を参照してください。
 
 エラー報告には次の 2 つが必要です。
 
-- サーバーまたはテナント管理センターで DisableAutomaticSendTracing グループ ポリシー設定を False に設定する必要があります (これが既定の状態です)。詳細については、「[Skype for Business Server 2015 でのクライアント ブートストラップ ポリシーの構成](https://technet.microsoft.com/EN-US/library/gg425941.aspx)」を参照してください。
+- サーバーまたはテナント管理センターで DisableAutomaticSendTracing グループ ポリシー設定を False に設定する必要があります (これが既定の状態です)。詳細については、「[Skype for Business Server 2015 でのクライアント ブートストラップ ポリシーの構成](https://technet.microsoft.com/library/gg425941.aspx)」を参照してください。
     
 - エンド ・ ユーザーが、[全般] タブから個別にオプトイン (歯車のアイコンをクリックして![歯車アイコン](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)し、表示される [**全般**] タブで**オプション**] ダイアログ ボックスを開きます) ビジネス クライアント用の Skype にします。
     
@@ -114,6 +114,6 @@ Skype 会議アプリでは、MeetingUxEnableTelemetry によってエラー報�
 中国の 21Vianet によって運営されている Office 365 を使用している場合は、「[Set up your network for Lync Online](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf)」を参照してください。
 
 ## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
-[カスタマー エクスペリエンス向上プログラム](https://www.microsoft.com/products/ceip/en-US/default.mspx)
+[カスタマー エクスペリエンス向上プログラム](https://www.microsoft.com/products/ceip/default.mspx)
 
 [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

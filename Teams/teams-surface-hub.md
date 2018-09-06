@@ -15,17 +15,17 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aed0cc2b26fa55dcf47b2d90bbd974720c371663
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: 17ba794c2a0b2a09081da41b5fad5df2bee5bb4c
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829267"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23844766"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>サーフェスのハブのマイクロソフトのチームを配置します。
 ======================================
 
-Microsoft Surface のハブのマイクロソフトのチームを配置する前に、ハードウェア、オペレーティング システム、およびその他の要件を満たしていることを確認してください。 詳細については、 [Microsoft Surface ハブ管理者ガイド](https://docs.microsoft.com/en-us/surface-hub/)を参照してください。
+Microsoft Surface のハブのマイクロソフトのチームを配置する前に、ハードウェア、オペレーティング システム、およびその他の要件を満たしていることを確認してください。 詳細については、 [Microsoft Surface ハブ管理者ガイド](https://docs.microsoft.com/surface-hub/)を参照してください。
 
 ## <a name="set-up-user-accounts"></a>ユーザー アカウントを設定します
  
@@ -103,7 +103,7 @@ Get-MsolAccountSku
 Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
 ```
 
-7\。 次に、サーフェスのハブのチームを持つデバイスのアカウントを有効にする必要があります。 お客様の環境は、 [Microsoft Surface ハブ管理者ガイド 』](https://docs.microsoft.com/en-us/surface-hub/)で定義されている要件を満たしていることを確認します。
+7\。 次に、サーフェスのハブのチームを持つデバイスのアカウントを有効にする必要があります。 お客様の環境は、 [Microsoft Surface ハブ管理者ガイド 』](https://docs.microsoft.com/surface-hub/)で定義されている要件を満たしていることを確認します。
 
 次のように、リモートの Windows PowerShell セッションを開始 (オンライン PowerShell のビジネス コンポーネントの Skype をインストールすることを確認する)。
 

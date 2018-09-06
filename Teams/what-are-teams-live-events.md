@@ -9,12 +9,12 @@ ms.reviwer: tonysmit
 description: どのようにビデオ、およびマイクロソフトのチーム、Yammer、および Microsoft のストリームでの大規模なオンライン ユーザーを対象にコンテンツをブロードキャストするユーザーを有効にするイベントについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad798ae4b0fa1fc5d2430f418c43c716a1f2ed74
-ms.sourcegitcommit: bc125c655e76129b086f821011f63a983fb23e7b
+ms.openlocfilehash: 21f524d6156e13f5c27fe12da97dd287c9f2f3bc
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22554070"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23846622"
 ---
 # <a name="what-are-teams-live-events"></a>ライブ イベントをチームは何ですか。
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
@@ -47,8 +47,8 @@ Microsoft 365 でのライブ イベントでは、多様な運用シナリオ�
 ### <a name="streaming-platform"></a>プラットフォームのストリーミング
 ライブ イベントをストリーミング プラットフォームは、次の 4 つの部分で構成されています。
 
-- **Azure のメディア サービス**  [Azure のメディア サービス](https://docs.microsoft.com/en-us/azure/media-services/previous/)では、今日の最も人気のあるモバイル デバイスでの大規模な対象ユーザーに到達するのには、ブロードキャスト品質ビデオ ストリームのサービスを示します。 メディア サービスのユーザー補助の設定、配布、およびスケーラビリティを強化し、ローカルまたは世界中の対象ユーザーにコンテンツをストリーム配信を容易かつコスト ・ パフォーマンスは、-コンテンツを保護しながら。
-- **Azure コンテンツ配信ネットワーク (CDN)** ストリームがライブになった後、 [Azure コンテンツ配信ネットワーク (CDN)](https://docs.microsoft.com/en-us/azure/cdn/)を通じて配信されます。 Azure のメディア サービスでは、端点のストリーミング用の統合された CDN を提供します。 これにより、ストリームのバッファリングのない世界中で表示します。
+- **Azure のメディア サービス**  [Azure のメディア サービス](https://docs.microsoft.com/azure/media-services/previous/)では、今日の最も人気のあるモバイル デバイスでの大規模な対象ユーザーに到達するのには、ブロードキャスト品質ビデオ ストリームのサービスを示します。 メディア サービスのユーザー補助の設定、配布、およびスケーラビリティを強化し、ローカルまたは世界中の対象ユーザーにコンテンツをストリーム配信を容易かつコスト ・ パフォーマンスは、-コンテンツを保護しながら。
+- **Azure コンテンツ配信ネットワーク (CDN)** ストリームがライブになった後、 [Azure コンテンツ配信ネットワーク (CDN)](https://docs.microsoft.com/azure/cdn/)を通じて配信されます。 Azure のメディア サービスでは、端点のストリーミング用の統合された CDN を提供します。 これにより、ストリームのバッファリングのない世界中で表示します。
 - **エンタープライズ コンテンツ配信ネットワーク (eCDN)** ECDN の目標は、ビデオ コンテンツをインターネットから取得し、ネットワークのパフォーマンスに影響を与えずに、企業全体でコンテンツを配布すること。 使用できます、次のいずれかの認定 eCDN パートナー組織内で保持されているライブのイベント用にネットワークを最適化します。
     - ハイブ
     - Kollective
@@ -140,9 +140,9 @@ Office 365 のライセンスが認証されたユーザーとしてのライブ
 ライブ イベントを設定するときにいくつかの手順を行う必要があります。
 
 ### <a name="step-1-set-up-your-network-for-live-events-in-microsoft-teams"></a>手順 1: マイクロソフトのチームでのライブ イベントのネットワークのセットアップします。
-クイック スタートのライブ イベントでは、[マイクロソフトのチームの組織のネットワークを準備](https://docs.microsoft.com/en-us/microsoftteams/prepare-network)するのには必要です。  
+クイック スタートのライブ イベントでは、[マイクロソフトのチームの組織のネットワークを準備](https://docs.microsoft.com/microsoftteams/prepare-network)するのには必要です。  
 
-### <a name="step-2-get-and-assign-licenses"></a>手順 2: を取得し、ライセンスを割り当てる
+### <a name="step-2-get-and-assign-licenses"></a>手順 2: ライセンスを取得して割り当てる
 正しいライセンスの割り当てがあることを確認して[を作成し、ライブ イベントのスケジュールを設定することができますでしょうか。](#who-can-create-and-schedule-live-events)と[のライブ イベントを監視するですか?](#who-can-watch-live-events)。
 
 ### <a name="step-3-enable-live-event-scheduling-for-users"></a>手順 3: ユーザーのライブ イベントのスケジュール設定を有効にします。
@@ -356,7 +356,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
 Windows PowerShell には、ただ Office 365 管理センターを使用するだけではなく、速度、単純さ、生産性において多くの利点があります。次のトピックでこれらの利点について説明します。
  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
  - [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
- - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
+ - [クイック リファレンス: Windows PowerShell を使用した一般的な Lync Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
 
 ### <a name="related-topics"></a>関連トピック: 
 - [Yammer、マイクロソフトのチーム、および Microsoft のストリーム内の Microsoft 365 の間でのライブ イベント](https://docs.microsoft.com/stream/live-event-m365)

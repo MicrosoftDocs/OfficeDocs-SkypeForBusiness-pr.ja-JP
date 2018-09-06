@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: この資料では、監視し、直接ルーティングの構成をトラブルシューティングする方法について説明します。
-ms.openlocfilehash: 850fa11a6ebbd5e193c4fd7258d65714f1bc9499
-ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
+ms.openlocfilehash: 1a29ec3f58666752cb22bc4a8b3adbe24a0399bf
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20314970"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23844774"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>監視し、直接ルーティングのトラブルシューティングを行う
 
@@ -72,7 +72,7 @@ Sbc1.contoso.com は、前述のとおり、一定の間隔のオプションの
 
 直接ルーティング サービスには非常にわかりやすいエラー コードの分析機能を呼び出すか、SBC のログに報告します。 
 
-コール品質のダッシュ ボードでは、通話の音質と信頼性に関する情報を提供します。 分析機能の呼び出しを使用して問題をトラブルシューティングする方法の詳細について[を有効にしてマイクロソフトのチームとビジネス オンラインの Skype の品質ダッシュ ボードの呼び出しを使用して](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)[不適切な呼び出し品質のトラブルシューティングを行うコール分析機能の使用](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)を参照してください。 
+コール品質のダッシュ ボードでは、通話の音質と信頼性に関する情報を提供します。 分析機能の呼び出しを使用して問題をトラブルシューティングする方法の詳細について[を有効にしてマイクロソフトのチームとビジネス オンラインの Skype の品質ダッシュ ボードの呼び出しを使用して](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)[不適切な呼び出し品質のトラブルシューティングを行うコール分析機能の使用](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)を参照してください。 
 
 呼び出しの失敗が発生した場合は、分析機能の呼び出しは、トラブルシューティングするための標準の SIP コードを提供します。 
 

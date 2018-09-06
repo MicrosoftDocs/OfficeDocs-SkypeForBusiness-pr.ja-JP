@@ -10,12 +10,12 @@ ms.reviewer: marcl
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b88d0767c2815e276fe791b0751fb7090f8d446
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: a3f97c5a28bdbd266750c10b113ab826ab8ba272
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779431"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23843990"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -32,7 +32,7 @@ ms.locfileid: "23779431"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|テナント全体のコネクタに対する管理者による管理機能が利用できなくなっている  <br/> |コネクタをクライアントとオンライン バージョンの両方に追加しようとすると、「予期しないエラーが発生しました。 もう一度やり直してください」というエラーが表示されます。 Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Teams の設定で無効にします。 サポート記事をご覧くださいhttps://msdn.microsoft.com/en-us/microsoft-teams/connectors  <br/> |2017/06/21  <br/> |
+|テナント全体のコネクタに対する管理者による管理機能が利用できなくなっている  <br/> |コネクタをクライアントとオンライン バージョンの両方に追加しようとすると、「予期しないエラーが発生しました。 もう一度やり直してください」というエラーが表示されます。 Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Teams の設定で無効にします。 サポート記事をご覧くださいhttps://msdn.microsoft.com/microsoft-teams/connectors  <br/> |2017/06/21  <br/> |
 
 ## <a name="apps"></a>アプリ
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
@@ -134,7 +134,7 @@ ms.locfileid: "23779431"
 ## <a name="meetings"></a>会議
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|ユーザーが会議/コネクタにアクセスできないのに Exchange Online メールボックスを持っている。 <br/> |ユーザーはアクティブに Exchange Online 内のサービスからの EWS を遮断していますが、MS Teams を EWS ポリシーに準拠するようにする必要があります。 <br/> |MS チームを準拠させるには、MS のチーム、EWSAllowList 内の次のユーザー エージェント文字列を追加する必要があります: `*skypespaces*`、アスタリスクを含みます。 完全なコマンドは次のとおりです。`set-organizationconfig -ewsallowlist *skypespaces*`<br/> 詳細については、「https://docs.microsoft.com/en-us/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps」をご覧ください。 <br/> |2017/05/30  <br/>|
+|ユーザーが会議/コネクタにアクセスできないのに Exchange Online メールボックスを持っている。 <br/> |ユーザーはアクティブに Exchange Online 内のサービスからの EWS を遮断していますが、MS Teams を EWS ポリシーに準拠するようにする必要があります。 <br/> |MS チームを準拠させるには、MS のチーム、EWSAllowList 内の次のユーザー エージェント文字列を追加する必要があります: `*skypespaces*`、アスタリスクを含みます。 完全なコマンドは次のとおりです。`set-organizationconfig -ewsallowlist *skypespaces*`<br/> 詳細については、「https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps」をご覧ください。 <br/> |2017/05/30  <br/>|
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|

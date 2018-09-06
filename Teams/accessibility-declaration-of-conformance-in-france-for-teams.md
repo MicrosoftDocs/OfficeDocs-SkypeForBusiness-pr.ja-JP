@@ -16,12 +16,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: "マイクロソフト チーム est l'outil de チャット collaboratif d'Office 365 qui intègre toutes les personnes、contenus et besoin 流し込み être と impliquée、outils ない votre équipe et efficace。 "
-ms.openlocfilehash: 380b233b5246be518214d72771a7113ba733e54f
-ms.sourcegitcommit: 1d3b18265488fa14175f72d80fb8a2aa25a3ae62
+ms.openlocfilehash: 148071fdea294893b4107cc31347d4e4b1dc8e2c
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "20518704"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23846918"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration デ conformité en matière d'accessibilité
 
@@ -37,11 +37,11 @@ Du produit のバージョン: 1.1.84.22103
 
 サイト web:[マイクロソフトのチーム](https://teams.microsoft.com/)
 
-流し込みと d'informations にお問い合わせください:[マイクロソフト チームのサポート](https://support.office.com/en-us/teams)
+流し込みと d'informations にお問い合わせください:[マイクロソフト チームのサポート](https://support.office.com/teams)
 
 サイト web en matière d'accessibilité: [Microsoft ユーザー補助の設定](https://www.microsoft.com/accessibility/)
 
-サービス de réponse aux 質問 d'utilisateurs en 状況 de ハンディキャップ: [eDAD](https://support.microsoft.com/en-us/answerdesk/accessibility)
+サービス de réponse aux 質問 d'utilisateurs en 状況 de ハンディキャップ: [eDAD](https://support.microsoft.com/answerdesk/accessibility)
 
 Obtenir de l'aide サー ce 親密な関係、veuillez [nous envoyer 解除メール](mailto:edad@microsoft.com?subject=Conformance%20Statement)を打設します。
 
@@ -204,4 +204,4 @@ Le présent ドキュメント est fourni 比べて titre indicatif。 MICROSOFT
 
 ## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 
-[フランスでの Skype for Business Online のアクセシビリティ ソリューション](https://docs.microsoft.com/en-us/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france)
+[フランスでの Skype for Business Online のアクセシビリティ ソリューション](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france)

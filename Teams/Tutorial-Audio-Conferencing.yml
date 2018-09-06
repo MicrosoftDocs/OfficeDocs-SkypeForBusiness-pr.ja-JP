@@ -16,12 +16,12 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 698bb6a90d3ba6b64b3288b60d55eec2dac17453
-  ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+  ms.openlocfilehash: aedc8c450c7d3aebfb4c73378e53859dae8d08f2
+  ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 08/28/2018
-  ms.locfileid: "23253439"
+  ms.lasthandoff: 09/06/2018
+  ms.locfileid: "23845662"
 items:
 - durationInMinutes: 1
   content: >
@@ -64,7 +64,7 @@ items:
     新機能のアイディアなど、Teams に関する製品フィードバックをご提供いただける場合は、「[UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)」にアクセスしてください。
 - title: チームでの音声会議
   durationInMinutes: 12
-  content: "\nオーディオ会議、参加者を使用して通常の電話、チームの会議に参加-か携帯電話から会議にダイヤルイン会議内からの発信機能を使用しています。 オーディオ会議の詳細については、次のリソースを参照してください。\n-   [電話会議機能](https://products.office.com/skype-for-business/audio-conferencing#Features)(推定読み込み時間 1 分)\n-   [マイクロソフトのチームとの会議のための 9 のヒント](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)(読み取りの時間を推定する\"\\#1 - オーディオ会議を使用してミーティングに参加」が 1 分; 全体の資料を参照する場合の詳細)\n-   [オーディオ会議のよく寄せられる質問](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions)(推定読み込み時間 7 分)\n-   [他の人が参加するための会議からの発信](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)(2 分の時間を読む推定)\n"
+  content: "\nオーディオ会議、参加者を使用して通常の電話、チームの会議に参加-か携帯電話から会議にダイヤルイン会議内からの発信機能を使用しています。 オーディオ会議の詳細については、次のリソースを参照してください。\n-   [電話会議機能](https://products.office.com/skype-for-business/audio-conferencing#Features)(推定読み込み時間 1 分)\n-   [マイクロソフトのチームとの会議のための 9 のヒント](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)(読み取りの時間を推定する\"\\#1 - オーディオ会議を使用してミーティングに参加」が 1 分; 全体の資料を参照する場合の詳細)\n-   [オーディオ会議のよく寄せられる質問](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions)(推定読み込み時間 7 分)\n-   [他の人が参加するための会議からの発信](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)(2 分の時間を読む推定)\n"
 - title: 'シナリオ: オーディオ会議'
   durationInMinutes: 1
   content: "\nGarth は、contoso 社の企業では、複数のオフィスで動作します。 Garth は頻繁に他のオフィスの所在地のユーザーに接続する必要があるし、彼はチーム会議の大ファンであるため、多くの場合は自宅からその道に出た、します。 Garth は、会議出席依頼を送信するときに、オーディオ会議の情報が自動的に追加します。 これにより、次のシナリオが可能にします。\n-   Alice が Garth の会議に出席したいですが、外出先では、彼女と、信頼性の高いネットワークへのアクセス権を持たない。 したがって、彼女ミーティング招待状からダイヤルインの座標を使用してミーティングに参加します。 ダイヤルインの処理中に、暗証番号 (pin) 認証に使用、「Alice。」とシステムが認識が彼女のため\n-   ホテルには、現在は、Bob は、自分の PC 上のチームのクライアントを使用してミーティングに参加します。 残念ながら、ホテルでのインターネット接続経由でのオーディオの品質が優れたされていない、ボブに電話をかける自分の電話番号、公衆交換電話網 (PSTN) 経由で参加する会議です。\n-   会議の参加者は、別の電話番号でユーザーを追加することを呼び出し中に場合に、それらだけでダイアル アウトができる携帯電話に番号し、会議に他のユーザーを表示します。\n-   他のユーザーは、PC、Mac、またはモバイル デバイス上のチームのクライアントからも参加できます。\n"
