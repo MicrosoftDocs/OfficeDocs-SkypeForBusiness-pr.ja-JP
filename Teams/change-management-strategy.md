@@ -1,19 +1,20 @@
 ---
-title: "Microsoft Teams の変更管理戦略を作成する"
+title: Microsoft Teams の変更管理戦略を作成する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "主要なステークホルダー、ビジネスの成果、成功の測定方法の特定、チャンピオンの管理を通して Microsoft Teams の変更管理戦略を作成する方法について説明します。"
+description: 主要なステークホルダー、ビジネスの成果、成功の測定方法の特定、チャンピオンの管理を通して Microsoft Teams の変更管理戦略を作成する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73fa7f0decc5080166e85049bb7619b9b3c29ad5
-ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
-ms.translationtype: HT
+ms.openlocfilehash: 17fad2be5fdd25df6708c806dc7cd40e19a066b4
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23843878"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Microsoft Teams の変更管理戦略を作成する
 =======================================================
@@ -140,7 +141,7 @@ Teams の変更管理のためのベスト プラクティスは次のとおり�
 
 プロジェクト チームには、自分の組織から IT 管理者を配置する必要があります。 それらの各管理者ユーザーには、Office 365 管理ポータルのエクスペリエンスに組み込まれているOffice 365 Microsoft Teams の使用量レポートへのアクセス権があります。 この情報により、会社での Microsoft Teams の使用状況が示されます。 Teams の操作性や機能についての意見や、追加で使用したい機能などについてのアイディアを、ユーザーから直接受け取ることもお勧めします。 これらの実例を自社内で共有することは、ユーザー コミュニティで時間をかけて持続的に変更を定着させるために、極めて価値のあることになります。  
 
-Office 365 管理ポータルでの Microsoft Teams の使用量レポートの詳細については、[こちら](https://support.office.com/en-us/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)をご覧ください
+Office 365 管理ポータルでの Microsoft Teams の使用量レポートの詳細については、[こちら](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)をご覧ください
 
 > [!TIP]
 > 自分のパブリック チームまたは Yammer コミュニティを使用して、使用量についての洞察を収集します。 それらを #TeamsStories タグを使用して共有し、簡単に引き出せるできるようにします。  1 か月ごとに、イントラネットで #TeamsStory を共有し、組織での生産性とコラボレーションを向上するために変更を受け入れている従業員をハイライト表示します。  

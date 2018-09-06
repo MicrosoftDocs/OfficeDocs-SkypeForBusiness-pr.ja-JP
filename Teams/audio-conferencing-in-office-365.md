@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 7e76f6de9ca0f3d49e3a6dc7984a3a26804131c6
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 2979977c06e34314f90e28723a9d688053761c93
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784031"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848610"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Office 365 での電話会議
 Office 365 での音声会議では、電話から会議の呼び出しすることができます。 オーディオ会議では、最大で 250 の電話の参加者を使用できます。
@@ -42,7 +42,7 @@ Office 365 での音声会議では、電話から会議の呼び出しするこ
 出席者が会議に参加した後しことができますダイヤル、Skype ビジネスまたはマイクロソフトのチームの会議のために他の呼び出し元を招待します。 [他のユーザーが参加できるように、チーム会議からの発信](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)または[他のユーザーが参加できるように、ビジネス会議のため、Skype からの発信](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)を参照してください。
 
 ## <a name="what-does-it-cost"></a>かかる費用はいくらですか。
-価格情報については、「[電話会議の価格](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)」を参照してください。
+価格情報については、「[電話会議の価格](https://products.office.com/skype-for-business/audio-conferencing#Requirements)」を参照してください。
 
 ## <a name="where-is-it-available"></a>場所があることでしょうか。
 オーディオ会議では、ユーザーが有料電話番号と無料電話番号を使用して会議にダイヤルインすることができます。 (サービス) の有料電話番号は、電話会議には有効にしているときに自動的に組織に共有の電話会議の番号として割り当てられます。 専用の有料電話番号および無料電話番号は、追加の都市から組織に割り当てることができます。
@@ -76,14 +76,14 @@ Office 365 での音声会議では、電話から会議の呼び出しするこ
 > [!CAUTION]
 > 組織がこれらの国/地域は、ベネズエラ、インドネシア、アラブ首長国連邦 (アラブ首長国連邦) の有料電話番号の可用性に制限のため、オーディオ会議の有料電話番号が自動的に割り当てられているを必要はありません。 これらの場所からの無料電話番号は、利用可能なインベントリに応じて利用可能になります。 
   
-組織に自動的に割り当てられている電話番号を持っているそれらの国/地域の一覧については、[オーディオ会議や予定を呼び出すための国および地域の可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を参照してください。
+電話番号が組織に自動的に割り当てられている国や地域のリストを確認するには、「[電話会議と通話プランを使用できる国および地域](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)」を参照してください。
   
 ## <a name="how-do-you-get-dedicated-phone-numbers"></a>専用の電話番号を取得するにはどうするでしょうか。
 専用の電話会議の電話番号は、サービス番号を取得し、組織に割り当てることです。 3 つの方法のいずれかで、会議用のブリッジは、専用の有料電話番号と無料電話番号を取得できます。
 
 - **ビジネス管理センターは、Skype を使用します。** 一部の国/地域のビジネス管理センターは、Skype を使用して、会議ブリッジの番号を取得できます。 [取得サービスの電話番号](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)を参照してください。
     
-- **既存の番号を移植します。** ポート、または現在のサービス プロバイダーまたは電話のキャリアからの既存の番号を Office 365 に転送できます。 [Office 365 に電話番号を転送](transfer-phone-numbers-to-office-365.md)または詳細については[、組織の電話番号の管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)作業を行いやすくにを参照してください。  
+- **既存の番号を移行する。** ポート、または現在のサービス プロバイダーまたは電話のキャリアからの既存の番号を Office 365 に転送できます。 [Office 365 に電話番号を転送](transfer-phone-numbers-to-office-365.md)または詳細については[、組織の電話番号の管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)作業を行いやすくにを参照してください。  
   
 - **新規の番号を取得するには、リクエスト フォームを使用してください。** 場合があります (国または地域) によってことはできません、Skype を使用するビジネス管理センターでは、新しい電話番号を取得するか、特定の電話番号または市外局番が必要です。 その場合は、フォームをダウンロードして記入してからマイクロソフトに返送する必要があります。 詳細については「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 」を参照してください。
 
@@ -96,4 +96,4 @@ Office 365 での音声会議では、電話から会議の呼び出しするこ
   
 [マイクロソフトのチームでの電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md) 
 
-[ビジネス オンラインの Skype で電話会議の電話番号](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
+[Skype for Business Online の電話会議の電話番号](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)

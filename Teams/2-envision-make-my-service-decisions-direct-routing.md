@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 464b8089c8310f7b449804ebfacc00dac383f7b5
-ms.sourcegitcommit: b0aca7e2aea5b2606ad24a6d93c31f441f3184f5
+ms.openlocfilehash: 4483bd8e86315c3ff8386e10cd46b6a37043240b
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "21343367"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848602"
 ---
 # <a name="make-my-service-decisions"></a>[サービスの決定を行う
 
@@ -84,7 +84,7 @@ PSTN への接続を有効にするには、ことができますルーティン
 
 Azure ボイスメール サービス、電源、電話システムのボイスメール ボイスメール出金のみの Exchange メールボックスをサポートしています、サード ・ パーティ製の電子メール システムをサポートしていません。
 
-電話システムのボイスメールはボイスメールの議事録作成機能を備えています。この機能は組織のすべてのユーザーに対して既定で有効になっています。 ビジネス ニーズは、特定のユーザーまたは組織全体のすべてのユーザーのボイスメールの議事録作成を無効にする必要があります。 ボイスメールの議事録作成を有効にする場合、組織は、ボイスメールの議事録の不適切なマスキングを有効にする必要かどうかについても考慮する必要があります。 詳細については[、組織内のボイス メール ポリシーの設定](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail)を参照してください。
+電話システムのボイスメールはボイスメールの議事録作成機能を備えています。この機能は組織のすべてのユーザーに対して既定で有効になっています。 ビジネス ニーズは、特定のユーザーまたは組織全体のすべてのユーザーのボイスメールの議事録作成を無効にする必要があります。 ボイスメールの議事録作成を有効にする場合、組織は、ボイスメールの議事録の不適切なマスキングを有効にする必要かどうかについても考慮する必要があります。 詳細については[、組織内のボイス メール ポリシーの設定](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail)を参照してください。
 
 電話システムの実装でボイスメールの詳細については、[電話システムのボイス メールの設定](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail)を参照してください。
 

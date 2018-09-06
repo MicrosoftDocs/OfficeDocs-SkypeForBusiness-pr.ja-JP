@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 電話会議ライセンスをご購入いただく場合、Microsoft はお客様の組織の電話会議ブリッジ をホストします。電話会議ブリッジではさまざまな場所からダイヤルイン電話番号を受け取るため、会議の開催者や参加者はそれらの番号を使用して電話で Skype for Business 会議または Microsoft Teams 会議に参加できます。
-ms.openlocfilehash: 178bafb7327fa4734a5f743c4a2eebdab07fc0d9
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 69783cdfeaa1787a2da432491ff15f2a3a147d68
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783215"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848594"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>電話会議ブリッジの電話番号を変更する
 
@@ -153,7 +153,7 @@ Meeting Migration Service の詳細については、「 [Meeting Migration Serv
 4. また、Skype のビジネス オンライン ビジネス オンラインの Skype に接続するリモートの Windows PowerShell セッションを作成することを可能にするため Windows PowerShell モジュールをインストールする必要があります。 このモジュールでは、64 ビット コンピューターでのみサポートされ、[オンライン ビジネスの Skype のモジュールを Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=294688)に Microsoft ダウンロード センターからダウンロードすることができます。
 メッセージが表示されたら、コンピューターを再起動します。
 
-詳細については、「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)」を参照してください。
+詳細については、「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://technet.microsoft.com/library/dn568015.aspx)」を参照してください。
 
 ### <a name="to-start-windows-powershell"></a>Windows PowerShell を開始する場合
 
@@ -174,7 +174,7 @@ Meeting Migration Service の詳細については、「 [Meeting Migration Serv
     Import-PSSession $session
   ```
 
-Windows PowerShell を開始する方法の詳細を設定する場合は、 [1 つの Windows PowerShell のウィンドウ内のすべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)か、 [Windows PowerShell を使用して、オンライン ビジネスの Skype への接続](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)を参照してください。
+Windows PowerShell を開始する方法の詳細を設定する場合は、 [1 つの Windows PowerShell のウィンドウ内のすべての Office 365 サービスに接続する](https://technet.microsoft.com/library/dn568015.aspx)か、 [Windows PowerShell を使用して、オンライン ビジネスの Skype への接続](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx)を参照してください。
 
 ### <a name="save-time-and-automate"></a>自動化して時間を節約
 

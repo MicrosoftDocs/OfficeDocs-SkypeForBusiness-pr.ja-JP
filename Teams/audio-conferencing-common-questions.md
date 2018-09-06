@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: オーディオ会議を使用する場合、お客様から取得する上位の質問の一部を次に示します。
-ms.openlocfilehash: 2ab4a7dc64cd08f2f7421f1ba6672892d879abd0
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 3b9c6e11f0f086191a9aae72e56edb1af31027c3
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784887"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848586"
 ---
 # <a name="audio-conferencing-common-questions"></a>電話会議に関するよくある質問
 
@@ -85,11 +85,11 @@ ms.locfileid: "23784887"
 
 オーディオ会議では、最大で 250 の電話の参加者を使用できます。
   
-会議の制限の詳細については、 [Skype](https://technet.microsoft.com/en-us/library/skype-for-business-online-limits.aspx#bkmk_Meeting_LyncOnlineLimits)を参照してください。
+会議の制限の詳細については、 [Skype](https://technet.microsoft.com/library/skype-for-business-online-limits.aspx#bkmk_Meeting_LyncOnlineLimits)を参照してください。
   
 ## <a name="why-did-users-start-receiving-emails-with-their-audio-conferencing-information"></a>理由ユーザー開始でした、オーディオ会議の情報を含む電子メールを受信しますか。
 
-できるようにする、[管理](https://support.office.com/en-us/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)、送信し、電子メールで、オーディオ会議の情報と暗証番号 (pin) を更新する新しい機能を追加しました。 に関する詳細については、[有効にするかマイクロソフトのチームでのオーディオ会議設定を変更すると、送信メールを無効にする](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)を参照してください、それを無効にする方法を含んでいるか、[を有効にするか、ビジネスの Skype で電話会議の設定を変更すると、送信メールを無効にします。オンライン](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change)です。
+できるようにする、[管理](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)、送信し、電子メールで、オーディオ会議の情報と暗証番号 (pin) を更新する新しい機能を追加しました。 に関する詳細については、[有効にするかマイクロソフトのチームでのオーディオ会議設定を変更すると、送信メールを無効にする](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)を参照してください、それを無効にする方法を含んでいるか、[を有効にするか、ビジネスの Skype で電話会議の設定を変更すると、送信メールを無効にします。オンライン](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change)です。
   
 ## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype の設置型展開の一部であるユーザーが電話会議を使用できますか。
 
@@ -105,14 +105,14 @@ Skype の会議のブロードキャストに参加する電話会議が有効�
   
 ## <a name="can-a-user-get-operator-assistance-during-a-meeting"></a>ユーザーが会議中に演算子のサポートを入手できますか。
 
-ユーザーの任意の演算子に関するヘルプを表示またはを押してサポートできない残念ですが、*、ミーティング中に 0 です。 会議のオーディオに問題がある場合は、組織の管理者が[マイクロソフトの Office 365 サポート](https://support.office.com/en-us/article/Microsoft-support-for-Office-365-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)に問い合わせてください。
+ユーザーの任意の演算子に関するヘルプを表示またはを押してサポートできない残念ですが、*、ミーティング中に 0 です。 会議のオーディオに問題がある場合は、組織の管理者が[マイクロソフトの Office 365 サポート](https://support.office.com/article/Microsoft-support-for-Office-365-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)に問い合わせてください。
   
 ## <a name="how-does-a-user-access-or-change-their-conference-id"></a>ユーザーのアクセスをまたは、会議の ID を変更する方法
 
 ビジネスまたはマイクロソフトのチームのユーザーは、Skype では、Outlook と web 上の Outlook で会議をスケジュールすることによってそれらに割り当てられている会議 ID を検索できます。 また、ユーザーはそれらを設定した後に送信される電子メールの会議 ID を検索できます。
   
 > [!NOTE]
-> ユーザーは、会議 ID をリセットできません。 会議 ID は、[管理者](https://support.office.com/en-us/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504)、組織によってのみリセットできます。 
+> ユーザーは、会議 ID をリセットできません。 会議 ID は、[管理者](https://support.office.com/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504)、組織によってのみリセットできます。 
   
 ユーザー アクセスできるようにし、組織の管理者からの支援機能なしの会議 ID をリセットするためのソリューションに取り組んでいます
   
@@ -153,5 +153,5 @@ Skype の会議のブロードキャストに参加する電話会議が有効�
   
 [マイクロソフトのチームでの電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md) 
 
-[ビジネス オンラインの Skype で電話会議の電話番号](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
+[Skype for Business Online の電話会議の電話番号](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
   

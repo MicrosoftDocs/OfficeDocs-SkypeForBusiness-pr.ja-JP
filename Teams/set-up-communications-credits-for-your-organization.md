@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 50cda7ee7236f6f59c5a5d1f341a880d81bf3e66
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 954189d1bf358390a0f0b5b3f91650a94fd691ac
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783255"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848626"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>組織のために通信クレジットをセットアップする
 
@@ -119,7 +119,7 @@ You can also see information by [signing in to the Office 365 admin center](http
     
 - [利用可能残高を追加してコミュニケーション クレジットを管理する](add-funds-and-manage-communications-credits.md)
     
-- [クラウド コネクタを構成して](https://technet.microsoft.com/en-us/library/mt605228.aspx)、[クラウドのコネクタをダウンロード](https://aka.ms/CloudConnectorInstaller)
+- [クラウド コネクタを構成して](https://technet.microsoft.com/library/mt605228.aspx)、[クラウドのコネクタをダウンロード](https://aka.ms/CloudConnectorInstaller)
 
   
  

@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 12ebb45fdeb145f72e2fe4e501cc144216c155e1
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 0652428cf33db0af1043fc672f1962dca1c4f9c6
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783287"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848634"
 ---
 # <a name="set-up-calling-plans"></a>通話プランのセットアップ
 ビジネス ユーザー向けの他の Skype への呼び出しを自由が、ユーザーが、組織では、外からの電話を呼び出せるようにする場合、国内を呼び出すことを計画、または、国際の呼び出し Office 365 で。 お客様のビジネスにこれを設定するのには簡単です。 
@@ -120,14 +120,14 @@ Skype のビジネス管理センターでは、[**音声**] に移動 > **音�
 
 Windows PowerShell を使うことができる場合は、次のコマンドレットを使用して、ユーザーへの電話番号の割り当てを自動化できます。 
   
-- [Get-CsOnlineTelephoneNumber](https://technet.microsoft.com/en-us/library/mt243818.aspx): Business Voice Directory から電話番号を取得します。
+- [Get-CsOnlineTelephoneNumber](https://technet.microsoft.com/library/mt243818.aspx): Business Voice Directory から電話番号を取得します。
     
-- [Set-CsOnlineVoiceUser](https://technet.microsoft.com/en-us/library/mt243817.aspx): 電話番号を設定します。
+- [Set-CsOnlineVoiceUser](https://technet.microsoft.com/library/mt243817.aspx): 電話番号を設定します。
     
-詳しくは、「[クイック リファレンス: Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://technet.microsoft.com/en-us/library/dn362776%28v=ocs.15%29.aspx)」ご覧ください。
+詳しくは、「[クイック リファレンス: Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://technet.microsoft.com/library/dn362776%28v=ocs.15%29.aspx)」ご覧ください。
   
    > [!NOTE]
-   > さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。
+   > さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。
 
 
 ## <a name="related-topics"></a>関連トピック

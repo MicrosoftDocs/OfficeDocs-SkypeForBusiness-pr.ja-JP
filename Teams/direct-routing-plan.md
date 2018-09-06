@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft 電話システム直接ルーティングを使用する方法マイクロソフトの電話システムに、サポートされている、お客様が用意したセッション ボーダー コント ローラー (SBC) の接続については、このトピックを参照してください。
-ms.openlocfilehash: aa816f0e7da1745e3c8ced9f174b2f60eb2e38ce
-ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
+ms.openlocfilehash: 1749d5b26be6e3cc4c55bb9a90e47e637fc67230
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23835008"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848618"
 ---
 # <a name="plan-direct-routing"></a>直接ルーティングを計画します。
 
@@ -37,9 +37,9 @@ Microsoft 電話システム直接ルーティングするには、マイクロ�
 - 組織では、サード ・ パーティ製のアナログ デバイス、コール センターへの接続が必要です。 
 - 組織には、PSTN のキャリアで既存の契約があります。
 
-直接ルーティングでは、Microsoft を呼び出す予定の追加のライセンスを持つユーザーもサポートしています。 詳細については、 [Office 365 のプランを呼び出す](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)と、[使用許諾契約とその他の要件](#licensing-and-other-requirements)を参照してください。 
+直接ルーティングでは、Microsoft を呼び出す予定の追加のライセンスを持つユーザーもサポートしています。 詳細については、 [Office 365 のプランを呼び出す](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)と、[使用許諾契約とその他の要件](#licensing-and-other-requirements)を参照してください。 
 
-直接ルーティングでは、ユーザーは、スケジュールされた会議に参加すると、ダイヤルイン番号が Microsoft オーディオ会議サービスは、適切なライセンスを必要とするによって提供されます。  発信では、Microsoft のオーディオ会議サービスは、適切なライセンスを必要とするオンラインの呼び出し機能を使用して呼び出しを配置します。 (その発信ルーティングせず直接ルーティングを使用に注意してください)。詳細については、[チームとのオンライン会議](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions)を参照してください。 
+直接ルーティングでは、ユーザーは、スケジュールされた会議に参加すると、ダイヤルイン番号が Microsoft オーディオ会議サービスは、適切なライセンスを必要とするによって提供されます。  発信では、Microsoft のオーディオ会議サービスは、適切なライセンスを必要とするオンラインの呼び出し機能を使用して呼び出しを配置します。 (その発信ルーティングせず直接ルーティングを使用に注意してください)。詳細については、[チームとのオンライン会議](https://products.office.com/microsoft-teams/online-meeting-solutions)を参照してください。 
  
 直接ルーティングの展開の計画は、実装を成功させるキーです。 この資料では、インフラストラクチャとライセンスの要件について説明し、SBC の接続に関する情報を提供します。 
 
@@ -62,15 +62,15 @@ Microsoft 電話システム直接ルーティングするには、マイクロ�
 |SBC に接続されているテレフォニー トランク|1 つまたは複数のテレフォニーのトランクは、SBC に接続されています。 一方の端に、SBC は直接ルーティングを使用して Microsoft の電話システムに接続します。 SBC は、テレフォニー アダプターのアナログ Pbx などのサード パーティ製のテレフォニーのエンティティに接続し、ようにもできます。 SBC に接続されているすべての PSTN 接続性オプションが動作します。 (注: SBC に PSTN トランクの構成は、SBC ベンダーまたはトランクのプロバイダーを参照してください)。|
 |Office 365 テナント|ホームのマイクロソフトのチームのユーザーの構成と、SBC への接続に使用する Office 365 テナントです。|
 |ユーザー登録|Office 365 のユーザーが所属する必要があります。<br/>ユーザーのチームでの音声を有効にすることはできません会社、設置型の Skype ビジネスまたは Lync の環境を Office 365 のハイブリッド接続の場合は、設置型のホームです。<br/><br/>ユーザーのレジストラーを確認するには、ビジネス オンラインの PowerShell コマンドレットの次の Skype を使用します。<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>コマンドレットの出力を表示する必要があります。<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|ドメイン|1 つ以上のドメインが、Office 365 テナントに追加します。<br/><br/>**注:** 既定のドメインを使用することはできません *.、onmicrosoft.com、テナントが自動的に作成します。<br/><br/>ドメインを表示するには、ビジネス オンラインの PowerShell コマンドレットの次の Skype を使用できます。<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>ドメインと Office 365 のテナントの詳細については、[ドメインに関する FAQ](https://support.office.com/en-us/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)を参照してください。|
+|ドメイン|1 つ以上のドメインが、Office 365 テナントに追加します。<br/><br/>**注:** 既定のドメインを使用することはできません *.、onmicrosoft.com、テナントが自動的に作成します。<br/><br/>ドメインを表示するには、ビジネス オンラインの PowerShell コマンドレットの次の Skype を使用できます。<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>ドメインと Office 365 のテナントの詳細については、[ドメインに関する FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)を参照してください。|
 |SBC のパブリック IP アドレス|SBC への接続に使用できるパブリック IP アドレスです。 SBC の種類に基づいて、SBC は NAT を使用できます。|
 |SBC の完全修飾ドメイン名 (FQDN)|FQDN のドメイン部分が、Office 365 テナントに登録されたドメインのいずれかを SBC の FQDN です。 詳細については、 [SBC のドメイン名](#sbc-domain-names)を参照してください。|
 |SBC のパブリック DNS エントリ |SBC の FQDN をパブリック IP アドレスにマップするパブリック DNS エントリです。 |
 |SBC の信頼された証明書の公開 |直接ルーティングですべての通信に使用する SBC の証明書です。 詳細については[、SBC の信頼された証明書の公開](#public-trusted-certificate-for-the-sbc)を参照してください。|
 |直接ルーティングするための接続ポイント |直接ルーティングするための接続ポイントは、次の 3 つの Fqdn です。<br/><br/>`sip.pstnhub.microsoft.com`– グローバル FQDN が最初に試行する必要があります。<br/>`sip2.pstnhub.microsoft.com`– セカンダリ FQDN は、地理的に 2 番目の優先度の領域にマップします。<br/>`sip3.pstnhub.microsoft.com`– の第 3 の FQDN は、3 番目の優先度の領域に地理的にマップします。<br/><br/>構成要件についてを参照してください[SIP シグナリング: Fqdn およびファイアウォールのポート](#sip-signaling-fqdns-and-firewall-ports)。|
-|ファイアウォールの IP アドレスとメディアの直接ルーティング用のポート |SBC がクラウド内の次のサービスを通信します。<br/><br/>SIP プロキシは、信号を処理します。<br/>メディア プロセッサは、メディアの処理のときに、メディアのバイパスを除く<br/><br/>これら 2 つのサービスでは、このドキュメントで後述する、マイクロソフトのクラウドで個別の IP アドレスがあります。<br/><br/>詳細については、 [Office 365 の Url と IP アドレスの範囲](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)で、[マイクロソフトのチーム セクション](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)を参照してください。 |
+|ファイアウォールの IP アドレスとメディアの直接ルーティング用のポート |SBC がクラウド内の次のサービスを通信します。<br/><br/>SIP プロキシは、信号を処理します。<br/>メディア プロセッサは、メディアの処理のときに、メディアのバイパスを除く<br/><br/>これら 2 つのサービスでは、このドキュメントで後述する、マイクロソフトのクラウドで個別の IP アドレスがあります。<br/><br/>詳細については、 [Office 365 の Url と IP アドレスの範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)で、[マイクロソフトのチーム セクション](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)を参照してください。 |
 |メディア プロファイルを転送します。|TCP と RTP/SAVP <br/>UDP/RTP/SAVP|
-ファイアウォールの IP アドレスとポートはマイクロソフトのチームのメディアの |詳細については、 [Office 365 の Url と IP アドレスの範囲](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)を参照してください。 |
+ファイアウォールの IP アドレスとポートはマイクロソフトのチームのメディアの |詳細については、 [Office 365 の Url と IP アドレスの範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)を参照してください。 |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>ライセンスおよびその他の要件 
@@ -95,9 +95,9 @@ Microsoft 電話システム直接ルーティングするには、マイクロ�
 
 同じユーザーについての計画を呼び出すと、直接ルーティング接続を混在させるオプションですが、役立つ可能性があります、たとえば、ユーザーが割り当てられている、Microsoft を呼び出すことを計画していますが、SBC を使用していくつかの呼び出しをルーティングしようとするとします。 最も一般的なシナリオの 1 つは、サード パーティの Pbx への呼び出しです。  サード パーティの Pbx とその Pbx に接続されている電話への呼び出しを除く、すべての呼び出しをルーティングして、を介して Microsoft の計画を呼び出すことです。SBC には、サード パーティの Pbx に接続されている電話への呼び出しが、エンタープライズ ネットワークと PSTN に常にそのためです。 
 
-電話システムのライセンスの詳細については、 [Office と Office 365 を最大限に活用](https://products.office.com/en-us/compare-all-microsoft-office-products?tab=2)し、 [Office 365 のプランのオプション](https://technet.microsoft.com/en-us/library/office-365-plan-options.aspx)を参照してください。 
+電話システムのライセンスの詳細については、 [Office と Office 365 を最大限に活用](https://products.office.com/compare-all-microsoft-office-products?tab=2)し、 [Office 365 のプランのオプション](https://technet.microsoft.com/library/office-365-plan-options.aspx)を参照してください。 
 
-電話システムのライセンスの詳細については、 [Skype](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)を参照してください。 
+電話システムのライセンスの詳細については、 [Skype](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)を参照してください。 
 
 ## <a name="sbc-domain-names"></a>SBC ドメイン名
 
@@ -107,7 +107,7 @@ SBC ドメイン名は、テナントの「ドメイン」に登録された名�
 
 |**DNS 名**|**SBC の FQDN を使用することができます。**|**FQDN 名の例**|
 |:--- |:--- |:--- |
-contoso.com|はい|**有効な名前。**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
+contoso.com|あり|**有効な名前。**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
 |contoso.onmicrosoft.com|なし|<br/>使用して *. SBC 名を onmicrosoft.com ドメインはサポートされていません
 
 新しいドメイン名を使用すると仮定します。 など、テナントには、テナントにドメイン名が登録されているし、sbc1.sip.contoso.com を使用する contoso.com です。 名前 sbc1.sip.contoso.com に SBC をペアには、前に、テナントの「ドメイン」でドメイン名の sip.contoso.com を登録してください。 ドメイン名を登録する前に sbc1.sip.contoso.com を持つ SBC をペアリングしようとすると、次のエラーが表示されます:"ことはできませんを使用して"sbc1.sip.contoso.com"ドメインとして、このテナント用に構成されていません。
@@ -219,7 +219,7 @@ SBC では、sip.pstnhub.microsoft.com を解決するための DNS クエリを
 検証済みのデバイスは、チームの直接のルーティングのための認定として表示されます。 認定済みのデバイスは、すべてのシナリオで動作が保証されます。 マイクロソフトと確立された SBC ベンダーとの間の共同サポート プロセスもあります。  
 
 認定されているプロセスでは、次のベンダーです。
-- [は](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
+- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
 - リボン通信 (以前は Sonus)。
    - [SBC エッジ シリーズ](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
    - [SBC のコア ・ シリーズ](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
