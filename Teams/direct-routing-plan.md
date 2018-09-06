@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft 電話システム直接ルーティングを使用する方法マイクロソフトの電話システムに、サポートされている、お客様が用意したセッション ボーダー コント ローラー (SBC) の接続については、このトピックを参照してください。
-ms.openlocfilehash: 7abf23aeb74807597b337c66e769b0625d862d0f
-ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
+ms.openlocfilehash: aa816f0e7da1745e3c8ced9f174b2f60eb2e38ce
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22914121"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835008"
 ---
 # <a name="plan-direct-routing"></a>直接ルーティングを計画します。
 
@@ -107,7 +107,7 @@ SBC ドメイン名は、テナントの「ドメイン」に登録された名�
 
 |**DNS 名**|**SBC の FQDN を使用することができます。**|**FQDN 名の例**|
 |:--- |:--- |:--- |
-contoso.com|あり|**有効な名前。**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
+contoso.com|はい|**有効な名前。**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
 |contoso.onmicrosoft.com|なし|<br/>使用して *. SBC 名を onmicrosoft.com ドメインはサポートされていません
 
 新しいドメイン名を使用すると仮定します。 など、テナントには、テナントにドメイン名が登録されているし、sbc1.sip.contoso.com を使用する contoso.com です。 名前 sbc1.sip.contoso.com に SBC をペアには、前に、テナントの「ドメイン」でドメイン名の sip.contoso.com を登録してください。 ドメイン名を登録する前に sbc1.sip.contoso.com を持つ SBC をペアリングしようとすると、次のエラーが表示されます:"ことはできませんを使用して"sbc1.sip.contoso.com"ドメインとして、このテナント用に構成されていません。
@@ -220,7 +220,7 @@ SBC では、sip.pstnhub.microsoft.com を解決するための DNS クエリを
 
 認定されているプロセスでは、次のベンダーです。
 - [は](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
-- リボン (以前は Sonus)。
+- リボン通信 (以前は Sonus)。
    - [SBC エッジ シリーズ](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
    - [SBC のコア ・ シリーズ](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
 - ThinkTel: ThinkTel は、企業に半角を販売していないが、SBC の認定を受けることができます。  

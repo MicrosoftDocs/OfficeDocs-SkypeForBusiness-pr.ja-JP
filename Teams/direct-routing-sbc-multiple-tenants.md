@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 複数のテナントを処理する 1 つのセッション ボーダー コント ローラー (SBC) を構成する方法について説明します。
-ms.openlocfilehash: 80176a97152050cbddfe4d8b1c189cde377a7c25
-ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.openlocfilehash: 062c8e597b62757f3fb91773444bece7f047ac51
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "20084561"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835016"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントのセッション ボーダー コント ローラーを構成します。
 
@@ -51,7 +51,7 @@ ms.locfileid: "20084561"
 展開し、SBC ホスティング シナリオでは、半角を構成する方法の詳細な手順については、SBC の製造元のマニュアルを参照してください。
 
 - **は:**[直接ルーティングの構成に関する注意事項](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)」の接続は SBC マイクロソフト チーム直接ルーティングのホスティング モデル構成メモにします」で説明したシナリオをホストしている SBC の構成 
-- **リボン:** シナリオをホストしている SBC、コア ・ シリーズのみがサポートされています。 [リボン SBC コア Microsoft チーム構成ガイド 』](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)を参照してください。
+- **通信のリボン:** シナリオをホストしている SBC、コア ・ シリーズのみがサポートされています。 [リボン通信 SBC コア Microsoft チーム構成ガイド 』](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)を参照してください。
 
 > [!NOTE]
 > 「連絡先」ヘッダーを構成する方法に注意してください。 Contact ヘッダーを使用して、招待の受信メッセージにお客様のテナントを検索します。 
@@ -110,7 +110,7 @@ SBC には、接続の認証に証明書が必要です。 キャリアは SBC �
 
     ![ベースのドメインを追加します。](media/direct-routing-2-sbc-add-domain.png)
 
-3. [ **次へ**] をクリックします。
+3. [**次へ**] をクリックします。
 4. 例では、テナントは既に検証済みのドメイン名として adatum.biz を持っています。 ウィザードは要求されません追加の検証 customers.adatum.biz が既に登録されている名前のサブドメインであるためです。 ただし、前に確認されていませんが、FQDN を追加する場合は、検証のプロセスを経由する必要があります。 検証のプロセスでは、[以下に説明](#add-a-subdomain-to-the-customer-tenant-and-verify-it)します。
 
     ![確認ドメイン名の確認](media/direct-routing-3-sbc-verify-domain.png)
@@ -150,7 +150,7 @@ SBC には、接続の認証に証明書が必要です。 キャリアは SBC �
 
     ![お客様のサブドメインを追加します。](media/direct-routing-5-sbc-add-customer-domain.png)
 
-3. [ **次へ**] をクリックします。
+3. [**次へ**] をクリックします。
 4. テナントの FQDN が登録されたことはありません。 次の手順でドメインを確認する必要があります。 **代わりに TXT レコードを追加する**を選択します。 
 
     ![[ドメインの確認] ページのオプション](media/direct-routing-6-sbc-verify-customer-domain.png)

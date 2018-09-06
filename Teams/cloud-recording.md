@@ -9,12 +9,12 @@ description: Microsoft Teams での Cloud Voice の機能の展開について�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8edf168d099df6c7d799cf0e513f0343f4902b67
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 64a0dd2cccfe92fe1385b40caa45551bfe91bba9
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242497"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835024"
 ---
 # <a name="teams-cloud-meeting-recording"></a>チーム クラウドのミーティングのレコーディング
 
@@ -114,9 +114,13 @@ Microsoft ストリームの管理者は、[会社の規定のポリシーを設
 ## <a name="manage-meeting-recordings"></a>ミーティングのレコーディングを管理します。
 ミーティングのレコーディングは、テナントが所有するコンテンツと見なされます。 記録の所有者が会社を辞める場合、管理者開くことができます記録ビデオの URL Microsoft ストリームで管理者モードで。 管理者、録音を削除、記録、メタデータを更新したり、ビデオの録画用のアクセス許可を変更できます。 [ストリーム内の管理機能](https://docs.microsoft.com/en-us/stream/manage-content-permissions)について説明します。
 
+## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>コンプライアンスと eDiscovery のミーティングのレコーディング
+ミーティングのレコーディングは、Office 365 層 C 準拠では、Microsoft のストリームに格納されます。 Microsoft ストリームの会議またはコールのレコーディングに興味があるコンプライアンス管理者の電子的証拠開示の要求をサポートするために録画完了したメッセージは、マイクロソフト チームのコンプライアンスのコンテンツの検索機能で利用可能なです。 コンプライアンス管理者ことができますコンプライアンス ・ コンテンツの検索・ プレビュー内のアイテムの件名に「記録」のキーワードを検索し、会議を見つけて組織でのレコーディングを呼び出します。 すべてのレコーディングを表示するための前提条件では、管理者のアクセス権を持つ Microsoft ストリームに設定する必要があります。 [ストリーム内の管理者のアクセス許可の割り当て](https://docs.microsoft.com/en-us/stream/assign-administrator-user-role)の詳細を表示します。
+
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
 Windows PowerShell is all about managing users and what users are allowed or not allowed to do. Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。 Windows PowerShell には、実行しようとする設定の変更多くのユーザーを一度に 1 つなど、Office 365 管理センターを使用するだけでスピード、シンプルさと生産性に多くの利点があります。 To get started with Windows PowerShell, see these topics:
 
 - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
 - [Windows PowerShell 用にコンピューターをセットアップする](https://go.microsoft.com/fwlink/?LinkId=525038)
+
