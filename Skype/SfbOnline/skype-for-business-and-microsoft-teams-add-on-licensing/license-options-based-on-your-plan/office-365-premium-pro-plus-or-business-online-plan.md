@@ -7,6 +7,7 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオン ライセンスと機能について、また、Office 365 Premium、Office 365 ProPlus、Skype for Business Online プラン 2 を購入する方法について説明します。 '
-ms.openlocfilehash: 1badf0702239992e159b866c2ea67672157654b7
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 8b34eafe26c184336f3f55784ab0d682c9c04ae0
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779087"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849893"
 ---
 # <a name="office-365-premium-office-365-proplus-or-skype-for-business-online-plan-2"></a>Office 365 Premium、Office 365 ProPlus、Skype for Business Online Plan 2
 

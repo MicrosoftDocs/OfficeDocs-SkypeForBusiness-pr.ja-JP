@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: d935a90d-ea61-433d-a820-b400ed9c1f5d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,18 +21,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Microsoft を Skype for Business のダイヤルイン会議プロバイダーとして割り当てる方法について説明します。
-ms.openlocfilehash: 934513c3f119044f05835e49fe73f8aba74de753
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: efa3b1987feab2ba830f87e8fb8a402fed82684b
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703730"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23857261"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Microsoft を電話会議プロバイダーとして割り当てる
 
 Skype for Business と Microsoft Teams で Office 365 の電話会議を使用するには、組織内のユーザーは、それらに割り当てる電話会議ライセンスを取得する必要があります。 ライセンス付与と必要コストの詳細については、 [Office 365 の電話会議のトライアルと購入](try-or-purchase-audio-conferencing-in-office-365.md) を参照してください。
 
-Microsoft の電話会議はダイヤルイン電話番号、PIN、会議 ID を提供します。会議の参加者はこれらを使用して組織の会議に参加することができます。 必要なのは、Skype for Business 会議や Microsoft Teams 会議を計画したり開催しようとしているユーザーに対し、Microsoft を電話会議プロバイダーとして割り当てることだけです。
+Microsoft の電話会議はダイヤルイン電話番号、PIN、会議 ID を提供します。会議の参加者はこれらを使用して組織の会議に参加することができます。 必要なのは、Microsoft を電話会議プロバイダーとして Skype for Business 会議または Microsoft Teams 会議をスケジュールまたは開催しようとしている人に割り当てることだけです。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -40,7 +41,7 @@ Microsoft の電話会議はダイヤルイン電話番号、PIN、会議 ID を
 
 ### <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-using-the-skype-for-business-admin-center"></a>![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Skype for Business 管理センターを使用する
 
-1. [**Office 365 管理センター**]  >  [**Skype for Business**] を開きます。
+1. [**Office 365 管理センター**] >  [**Skype for Business**] に移動します。
     
 2. [**Skype for Business 管理センター**] の、左側のナビゲーションにある [**電話会議**] を開きます。
     
@@ -49,7 +50,7 @@ Microsoft の電話会議はダイヤルイン電話番号、PIN、会議 ID を
 4. ユーザーのプロパティ ページの [**プロバイダー名**] の下にあるドロップダウン リストで [**Microsoft**] を選択します。
     
     > [!NOTE]
-    > Microsoft を電話会議プロバイダーとして使用しており、複数の電話番号があるため、**既定の市外局番** ドロップダウン リストを使用してユーザー向けに既定の電話番号を選択することができます。
+    > Microsoft を電話会議プロバイダーとして使用しており、複数の電話番号があるため、[**既定の市外局番**] ドロップダウン リストを使って、ユーザーに既定の電話番号を選ぶことができます。
   
 5. [**保存**] をクリックします。
 
@@ -64,10 +65,10 @@ Microsoft の電話会議はダイヤルイン電話番号、PIN、会議 ID を
 > プロバイダーが **Microsoft** に変更されるとき、ユーザーの電話会議情報 (電話会議 ID、有料電話番号と無料電話番号) が置き換えられます。プロバイダーを変更する前にこの情報を保存する必要があります。 
 
   
-少数のユーザー向けでプロバイダーを Microsoft に変更するには、[Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx) コマンドレットを使用できます。
+少数のユーザーでプロバイダーを Microsoft に変更するには、[Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx) コマンドレットを使用できます。
   
 
-### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a>多数のユーザー向けに Windows PowerShell スクリプトを使用する
+### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a>多数のユーザーに Windows PowerShell スクリプトを使用する
 時間を節約して自動化するために、次の PowerShell スクリプトを使用して、多数のユーザーのために Microsoft を電話会議プロバイダーとして設定することができます。
 
 プロバイダーが **Microsoft** に変更されるとき、ユーザーの電話会議情報 (電話会議 ID、有料電話番号と無料電話番号) が置き換えられます。プロバイダーを変更する前にこの情報を保存する必要があります。 

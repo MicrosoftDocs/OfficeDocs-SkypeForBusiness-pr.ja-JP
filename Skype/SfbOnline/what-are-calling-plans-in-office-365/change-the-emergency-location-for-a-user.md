@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 2d5d3c87-af1e-487e-b86c-261f2e5a0661
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'ユーザー用の緊急対応の場所を変更する方法を説明します。無制限の数の場所を利用して、従業員がフロアや建物を移動するときの緊急対応の場所を変更できます。 '
-ms.openlocfilehash: 6f554a4233f6b3c60711281978212e1cbec35c10
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: e3805daa8248da44de84330ea5de694126e9e32c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779280"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863275"
 ---
 # <a name="change-the-emergency-location-for-a-user"></a>ユーザー用の緊急対応の場所を変更する
 
@@ -37,20 +38,20 @@ Office 365 の通話プランの取得方法とかかる費用については、
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. [**Office 365 管理センター** ] >  [**Skype for Business**] に移動します。
+2. [**Office 365 管理センター**] >  [**Skype for Business**] に移動します。
     
-3. 左側のナビゲーションで、**[音声]** > **[音声ユーザー]** に移動します。
+3. 左側のナビゲーションで、**[音声]** > **[音声ユーザー]** を選びます。
     
     > [!IMPORTANT]
     > Skype for Business 管理センターの左にあるナビゲーションで [**音声**] オプションが表示される場合、最初に少なくとも 1 つの **Enterprise E5 ライセンス**、1 つの**電話システム** アドオン ライセンス、または 1 つの**電話会議**アドオン ライセンスを購入する必要があります。
     
 4. **音声ユーザー**ページで、緊急対応の場所を変更するユーザーを見つけて、選択します。
     
-5. [操作] ウィンドウの [ **緊急対応の場所**] で、[ **変更**] をクリックします。
+5. 操作ウィンドウの [**緊急対応の場所**] で [**変更**] をクリックします。
     
 6. **番号の割り当て**ページで、**[場所の変更]** をクリックします。 
     
-7. [ **緊急対応の住所を次に変更**] の [ 市区町村の検索] ボックスで、市区町村の名前を入力し、[ **検索**] をクリックします。
+7. [**緊急対応の住所を次に変更**] のボックスに都市の名前を入力し、[**検索**] をクリックします。
     
 8. リストから緊急対応の場所を選択し、[ **保存**] をクリックします。
     
@@ -63,7 +64,7 @@ Office 365 の通話プランの取得方法とかかる費用については、
 
 [住所検証について](what-is-address-validation.md)
 
-[組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)
+[組織の電話番号の管理](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
