@@ -1,7 +1,7 @@
 ---
 title: MSI を使用してマイクロソフトのチームをインストールします。
-author: ninadara
-ms.author: ninadara
+author: Lester-Hewett
+ms.author: lehewe
 manager: serdars
 ms.date: 03/21/2018
 ms.topic: article
@@ -9,52 +9,53 @@ ms.service: msteams
 ms.reviewer: ''
 description: 管理者が一括してチームの msi ファイルを使用できますユーザーまたはコンピューターを選択するのには、マイクロソフトのチームを配置します。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 655b028cb6f51538f4b65bbdb371c7b785f8763a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7176b990c41f2792f0955ac3ca2e937632a707d7
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20972900"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854142"
 ---
-<a name="install-microsoft-teams-using-msi"></a><span data-ttu-id="958c4-103">MSI を使用してマイクロソフトのチームをインストールします。</span><span class="sxs-lookup"><span data-stu-id="958c4-103">Install Microsoft Teams using MSI</span></span>
+<a name="install-microsoft-teams-using-msi"></a><span data-ttu-id="c057a-103">MSI を使用してマイクロソフトのチームをインストールします。</span><span class="sxs-lookup"><span data-stu-id="c057a-103">Install Microsoft Teams using MSI</span></span>
 =================================
 
-<span data-ttu-id="958c4-104">マイクロソフトは MSI ファイル ( [32 ビット](https://aka.ms/teams32bitmsi)と[64 ビット](https://aka.ms/teams64bitmsi)の両方) を選択するのにはチームの一括展開の管理者が使用できるを提供する広範な展開のシステム センター構成マネージャーでは、グループ ポリシー、または任意のサードパーティ製の配布メカニズムを使用して、ユーザーまたはコンピューターです。</span><span class="sxs-lookup"><span data-stu-id="958c4-104">To use System Center Configuration Manager, or Group Policy, or any third-party distribution mechanisms for broad deployment, Microsoft has provided MSI files (both [32-bit](https://aka.ms/teams32bitmsi) and [64-bit](https://aka.ms/teams64bitmsi)) that admins can use for bulk deployment of Teams to select users or computers.</span></span> <span data-ttu-id="958c4-105">管理者は、これらのファイルを使用して、リモートで展開するチームのユーザーがチームのアプリケーションを手動でダウンロードする必要はありません。</span><span class="sxs-lookup"><span data-stu-id="958c4-105">Admins can use these files to remotely deploy Teams so that users do not have to manually download the Teams app.</span></span> <span data-ttu-id="958c4-106">展開されると、チームが自動的にそのコンピューター上でサインインしているすべてのユーザーに対して起動します。</span><span class="sxs-lookup"><span data-stu-id="958c4-106">When deployed, Teams will auto launch for all users who sign in on that machine.</span></span> <span data-ttu-id="958c4-107">マシンのすべての新しいユーザーは、この展開からな利点がありますので、コンピューターにパッケージを展開することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="958c4-107">We recommend that you deploy the package to the computer, so all new users of the machine will also benefit from this deployment.</span></span> 
+<span data-ttu-id="c057a-104">マイクロソフトは MSI ファイル ( [32 ビット](https://aka.ms/teams32bitmsi)と[64 ビット](https://aka.ms/teams64bitmsi)の両方) を選択するのにはチームの一括展開の管理者が使用できるを提供する広範な展開のシステム センター構成マネージャーでは、グループ ポリシー、または任意のサードパーティ製の配布メカニズムを使用して、ユーザーまたはコンピューターです。</span><span class="sxs-lookup"><span data-stu-id="c057a-104">To use System Center Configuration Manager, or Group Policy, or any third-party distribution mechanisms for broad deployment, Microsoft has provided MSI files (both [32-bit](https://aka.ms/teams32bitmsi) and [64-bit](https://aka.ms/teams64bitmsi)) that admins can use for bulk deployment of Teams to select users or computers.</span></span> <span data-ttu-id="c057a-105">管理者は、これらのファイルを使用して、リモートで展開するチームのユーザーがチームのアプリケーションを手動でダウンロードする必要はありません。</span><span class="sxs-lookup"><span data-stu-id="c057a-105">Admins can use these files to remotely deploy Teams so that users do not have to manually download the Teams app.</span></span> <span data-ttu-id="c057a-106">展開されると、チームが自動的にそのコンピューター上でサインインしているすべてのユーザーに対して起動します。</span><span class="sxs-lookup"><span data-stu-id="c057a-106">When deployed, Teams will auto launch for all users who sign in on that machine.</span></span> <span data-ttu-id="c057a-107">マシンのすべての新しいユーザーは、この展開からな利点がありますので、コンピューターにパッケージを展開することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="c057a-107">We recommend that you deploy the package to the computer, so all new users of the machine will also benefit from this deployment.</span></span> 
  
 > [!Note] 
-> <span data-ttu-id="958c4-108">SCCM の詳細については、[システム センター構成マネージャーの概要](https://docs.microsoft.com/sccm/core/understand/introduction)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="958c4-108">To learn more about SCCM, see [Introduction to System Center Configuration Manager](https://docs.microsoft.com/sccm/core/understand/introduction).</span></span>
+> <span data-ttu-id="c057a-108">SCCM の詳細については、[システム センター構成マネージャーの概要](https://docs.microsoft.com/sccm/core/understand/introduction)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c057a-108">To learn more about SCCM, see [Introduction to System Center Configuration Manager](https://docs.microsoft.com/sccm/core/understand/introduction).</span></span>
 
-## <a name="deployment-procedure-recommended"></a><span data-ttu-id="958c4-109">(推奨) の展開手順</span><span class="sxs-lookup"><span data-stu-id="958c4-109">Deployment procedure (recommended)</span></span>
-1. <span data-ttu-id="958c4-110">最新のパッケージを取得します。</span><span class="sxs-lookup"><span data-stu-id="958c4-110">Retrieve the latest package.</span></span>
-2. <span data-ttu-id="958c4-111">MSI によって事前設定の既定値を使用します。</span><span class="sxs-lookup"><span data-stu-id="958c4-111">Use the defaults prepopulated by the MSI.</span></span>
-3. <span data-ttu-id="958c4-112">可能な場合にコンピューターに展開します。</span><span class="sxs-lookup"><span data-stu-id="958c4-112">Deploy to computers when possible.</span></span>
+## <a name="deployment-procedure-recommended"></a><span data-ttu-id="c057a-109">(推奨) の展開手順</span><span class="sxs-lookup"><span data-stu-id="c057a-109">Deployment procedure (recommended)</span></span>
+1. <span data-ttu-id="c057a-110">最新のパッケージを取得します。</span><span class="sxs-lookup"><span data-stu-id="c057a-110">Retrieve the latest package.</span></span>
+2. <span data-ttu-id="c057a-111">MSI によって事前設定の既定値を使用します。</span><span class="sxs-lookup"><span data-stu-id="c057a-111">Use the defaults prepopulated by the MSI.</span></span>
+3. <span data-ttu-id="c057a-112">可能な場合にコンピューターに展開します。</span><span class="sxs-lookup"><span data-stu-id="c057a-112">Deploy to computers when possible.</span></span>
 
-## <a name="how-the-microsoft-teams-msi-package-works"></a><span data-ttu-id="958c4-113">マイクロソフト チームの MSI パッケージが機能するしくみ</span><span class="sxs-lookup"><span data-stu-id="958c4-113">How the Microsoft Teams MSI package works</span></span>
+## <a name="how-the-microsoft-teams-msi-package-works"></a><span data-ttu-id="c057a-113">マイクロソフト チームの MSI パッケージが機能するしくみ</span><span class="sxs-lookup"><span data-stu-id="c057a-113">How the Microsoft Teams MSI package works</span></span>
 
-<span data-ttu-id="958c4-114">チームの msi ファイルには、プログラム ファイルのインストーラーが配置されます。</span><span class="sxs-lookup"><span data-stu-id="958c4-114">The Teams MSI will place an installer in Program Files.</span></span> <span data-ttu-id="958c4-115">ユーザーが新しい Windows ユーザー プロファイルにサインインするたびに、インストーラーが起動され、チームのアプリケーションのコピーをそのユーザーの appdata フォルダーにインストールされます。</span><span class="sxs-lookup"><span data-stu-id="958c4-115">Whenever a user signs into a new Windows User Profile, the installer will be launched and a copy of the Teams application will be installed in that user's appdata folder.</span></span> <span data-ttu-id="958c4-116">Appdata フォルダーにインストールされているチームのアプリケーションがユーザーに割り当てられている場合、MSI インストーラーはそのユーザーのプロセスをスキップします。</span><span class="sxs-lookup"><span data-stu-id="958c4-116">If a user already has the Teams app installed in the appdata folder, the MSI installer will skip the process for that user.</span></span>
+<span data-ttu-id="c057a-114">チームの msi ファイルには、プログラム ファイルのインストーラーが配置されます。</span><span class="sxs-lookup"><span data-stu-id="c057a-114">The Teams MSI will place an installer in Program Files.</span></span> <span data-ttu-id="c057a-115">ユーザーが新しい Windows ユーザー プロファイルにサインインするたびに、インストーラーが起動され、チームのアプリケーションのコピーをそのユーザーの appdata フォルダーにインストールされます。</span><span class="sxs-lookup"><span data-stu-id="c057a-115">Whenever a user signs into a new Windows User Profile, the installer will be launched and a copy of the Teams application will be installed in that user's appdata folder.</span></span> <span data-ttu-id="c057a-116">Appdata フォルダーにインストールされているチームのアプリケーションがユーザーに割り当てられている場合、MSI インストーラーはそのユーザーのプロセスをスキップします。</span><span class="sxs-lookup"><span data-stu-id="c057a-116">If a user already has the Teams app installed in the appdata folder, the MSI installer will skip the process for that user.</span></span>
 
-<span data-ttu-id="958c4-117">クライアントが自動的に更新プログラムの新しいバージョンがサービスから利用可能なを検出したときのため、更新プログラムを展開する MSI を使わないでください。</span><span class="sxs-lookup"><span data-stu-id="958c4-117">Do not use the MSI to deploy updates, because the client will auto update when it detects a new version is available from the service.</span></span> <span data-ttu-id="958c4-118">再配置するのには、最新のインストーラーは、以下に示す MSI を再配置のプロセスを使用します。</span><span class="sxs-lookup"><span data-stu-id="958c4-118">To re-deploy the latest installer use the process of redeploying MSI described below.</span></span> <span data-ttu-id="958c4-119">以前のバージョンの MSI パッケージを展開する場合、クライアントは自動更新可能な場合は、ユーザーのです。</span><span class="sxs-lookup"><span data-stu-id="958c4-119">If you deploy an older version of the MSI package, the client will auto-update when possible for the user.</span></span> <span data-ttu-id="958c4-120">非常に古いバージョンを取得を展開する場合、ユーザーはチームを使用するのには、前に msi ファイルはアプリケーションの更新をトリガーします。</span><span class="sxs-lookup"><span data-stu-id="958c4-120">If a very old version gets deployed, the MSI will trigger an application update before the user is able to use Teams.</span></span> 
+<span data-ttu-id="c057a-117">クライアントが自動的に更新プログラムの新しいバージョンがサービスから利用可能なを検出したときのため、更新プログラムを展開する MSI を使わないでください。</span><span class="sxs-lookup"><span data-stu-id="c057a-117">Do not use the MSI to deploy updates, because the client will auto update when it detects a new version is available from the service.</span></span> <span data-ttu-id="c057a-118">再配置するのには、最新のインストーラーは、以下に示す MSI を再配置のプロセスを使用します。</span><span class="sxs-lookup"><span data-stu-id="c057a-118">To re-deploy the latest installer use the process of redeploying MSI described below.</span></span> <span data-ttu-id="c057a-119">以前のバージョンの MSI パッケージを展開する場合、クライアントは自動更新可能な場合は、ユーザーのです。</span><span class="sxs-lookup"><span data-stu-id="c057a-119">If you deploy an older version of the MSI package, the client will auto-update when possible for the user.</span></span> <span data-ttu-id="c057a-120">非常に古いバージョンを取得を展開する場合、ユーザーはチームを使用するのには、前に msi ファイルはアプリケーションの更新をトリガーします。</span><span class="sxs-lookup"><span data-stu-id="c057a-120">If a very old version gets deployed, the MSI will trigger an application update before the user is able to use Teams.</span></span> 
 
 > [!Important] 
-> <span data-ttu-id="958c4-121">この更新プログラムの流れが切れることは、デフォルトのインストール先を変更することお勧めしないです。</span><span class="sxs-lookup"><span data-stu-id="958c4-121">We don't recommended that you change the default install locations, as this could break the update flow.</span></span> <span data-ttu-id="958c4-122">非常に古いバージョンを持つと、ユーザーがサービスにアクセスする、最終的にブロックします。</span><span class="sxs-lookup"><span data-stu-id="958c4-122">Having too old a version will eventually block users from accessing the service.</span></span> 
+> <span data-ttu-id="c057a-121">この更新プログラムの流れが切れることは、デフォルトのインストール先を変更することお勧めしないです。</span><span class="sxs-lookup"><span data-stu-id="c057a-121">We don't recommended that you change the default install locations, as this could break the update flow.</span></span> <span data-ttu-id="c057a-122">非常に古いバージョンを持つと、ユーザーがサービスにアクセスする、最終的にブロックします。</span><span class="sxs-lookup"><span data-stu-id="c057a-122">Having too old a version will eventually block users from accessing the service.</span></span> 
 
 
-## <a name="target-computer-requirements"></a><span data-ttu-id="958c4-123">対象のコンピューターの要件</span><span class="sxs-lookup"><span data-stu-id="958c4-123">Target computer requirements</span></span>
+## <a name="target-computer-requirements"></a><span data-ttu-id="c057a-123">対象のコンピューターの要件</span><span class="sxs-lookup"><span data-stu-id="c057a-123">Target computer requirements</span></span>
 
-- <span data-ttu-id="958c4-124">4.5 またはそれ以降の .NET framework</span><span class="sxs-lookup"><span data-stu-id="958c4-124">.NET framework 4.5 or later</span></span>
-- <span data-ttu-id="958c4-125">Windows 7 またはそれ以降</span><span class="sxs-lookup"><span data-stu-id="958c4-125">Windows 7 or later</span></span>
-- <span data-ttu-id="958c4-126">3 GB (推奨)、各ユーザー プロファイル用のディスク領域の</span><span class="sxs-lookup"><span data-stu-id="958c4-126">3 GB of disk space for each user profile (recommended)</span></span>
+- <span data-ttu-id="c057a-124">4.5 またはそれ以降の .NET framework</span><span class="sxs-lookup"><span data-stu-id="c057a-124">.NET framework 4.5 or later</span></span>
+- <span data-ttu-id="c057a-125">Windows 7 またはそれ以降</span><span class="sxs-lookup"><span data-stu-id="c057a-125">Windows 7 or later</span></span>
+- <span data-ttu-id="c057a-126">3 GB (推奨)、各ユーザー プロファイル用のディスク領域の</span><span class="sxs-lookup"><span data-stu-id="c057a-126">3 GB of disk space for each user profile (recommended)</span></span>
 
-## <a name="clean-up-and-redeployment-procedure"></a><span data-ttu-id="958c4-127">クリーンアップと再配置の手順</span><span class="sxs-lookup"><span data-stu-id="958c4-127">Clean up and redeployment procedure</span></span>
-<span data-ttu-id="958c4-128">ユーザー プロファイルからチームをアンインストールすると、MSI インストーラーは、ユーザーがチームのアプリケーションがアンインストールされ、不要になったチームをそのユーザーのプロファイルのインストールに追跡します。</span><span class="sxs-lookup"><span data-stu-id="958c4-128">If a user uninstalls Teams from their User Profile, the MSI installer will track that the user has uninstalled the Teams app and no longer install Teams for that User Profile.</span></span> <span data-ttu-id="958c4-129">アンインストールされた特定のコンピューターにこのユーザーのチームを再配置する、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="958c4-129">To redeploy Teams for this user on a particular computer where it was uninstalled, do the following:</span></span>
+## <a name="clean-up-and-redeployment-procedure"></a><span data-ttu-id="c057a-127">クリーンアップと再配置の手順</span><span class="sxs-lookup"><span data-stu-id="c057a-127">Clean up and redeployment procedure</span></span>
+<span data-ttu-id="c057a-128">ユーザー プロファイルからチームをアンインストールすると、MSI インストーラーは、ユーザーがチームのアプリケーションがアンインストールされ、不要になったチームをそのユーザーのプロファイルのインストールに追跡します。</span><span class="sxs-lookup"><span data-stu-id="c057a-128">If a user uninstalls Teams from their User Profile, the MSI installer will track that the user has uninstalled the Teams app and no longer install Teams for that User Profile.</span></span> <span data-ttu-id="c057a-129">アンインストールされた特定のコンピューターにこのユーザーのチームを再配置する、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="c057a-129">To redeploy Teams for this user on a particular computer where it was uninstalled, do the following:</span></span>
 
-1. <span data-ttu-id="958c4-130">チーム アプリケーションのすべてのユーザー プロファイルのインストールをアンインストールします。</span><span class="sxs-lookup"><span data-stu-id="958c4-130">Uninstall Teams App installed for every user profile.</span></span> 
-2. <span data-ttu-id="958c4-131">アンインストール後、% の localappdata%\Microsoft\Teams\ の下を再帰的にディレクトリを削除します。</span><span class="sxs-lookup"><span data-stu-id="958c4-131">After uninstall, delete directory recursively under %localappdata%\Microsoft\Teams\.</span></span> 
-3. <span data-ttu-id="958c4-132">その特定のコンピューターに MSI パッケージを再展開します。</span><span class="sxs-lookup"><span data-stu-id="958c4-132">Redeploy the MSI package to that particular computer.</span></span>
+1. <span data-ttu-id="c057a-130">チーム アプリケーションのすべてのユーザー プロファイルのインストールをアンインストールします。</span><span class="sxs-lookup"><span data-stu-id="c057a-130">Uninstall Teams App installed for every user profile.</span></span> 
+2. <span data-ttu-id="c057a-131">アンインストール後、% の localappdata%\Microsoft\Teams\ の下を再帰的にディレクトリを削除します。</span><span class="sxs-lookup"><span data-stu-id="c057a-131">After uninstall, delete directory recursively under %localappdata%\Microsoft\Teams\.</span></span> 
+3. <span data-ttu-id="c057a-132">その特定のコンピューターに MSI パッケージを再展開します。</span><span class="sxs-lookup"><span data-stu-id="c057a-132">Redeploy the MSI package to that particular computer.</span></span>
 
 > [!TIP] 
-> <span data-ttu-id="958c4-133">SCCM を使用して、手順 1 と 2 を実行するのには、[マイクロソフトのチームの配置のクリーンアップ](.\scripts\Powershell-script-teams-deployment-clean-up.md)スクリプトを使用できます。</span><span class="sxs-lookup"><span data-stu-id="958c4-133">You can use our [Microsoft Teams deployment clean up](.\scripts\Powershell-script-teams-deployment-clean-up.md) script to accomplish steps 1 and 2 via SCCM.</span></span>                              
+> <span data-ttu-id="c057a-133">SCCM を使用して、手順 1 と 2 を実行するのには、[マイクロソフトのチームの配置のクリーンアップ](.\scripts\Powershell-script-teams-deployment-clean-up.md)スクリプトを使用できます。</span><span class="sxs-lookup"><span data-stu-id="c057a-133">You can use our [Microsoft Teams deployment clean up](.\scripts\Powershell-script-teams-deployment-clean-up.md) script to accomplish steps 1 and 2 via SCCM.</span></span>                              
 
