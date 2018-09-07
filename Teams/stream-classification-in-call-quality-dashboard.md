@@ -8,6 +8,7 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: ストリーム品質がMicrosoft TeamsとSkype for Business Onlineの通話品質ダッシュボードでどのように分類されているかをご覧ください。
-ms.openlocfilehash: a77ca0605589c99b88ba3287bf8febcc7514cbd1
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: fc5028fbf8955b4988b29121474e775478175fd1
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783559"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23871023"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>通話品質ダッシュボードでのストリーム分類
 

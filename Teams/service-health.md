@@ -1,19 +1,21 @@
 ---
-title: "Microsoft Teams のサービス正常性を確認する"
+title: Microsoft Teams のサービス正常性を確認する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Teams サービスや Exchange、SharePoint、OneDrive for Business といったその他の Office 365 コンポーネントが正常であることを確認することをお勧めします。"
+search.appverid: MET150
+description: Teams サービスや Exchange、SharePoint、OneDrive for Business といったその他の Office 365 コンポーネントが正常であることを確認することをお勧めします。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6f3fb65770f86447a1463ec3ac054d22ffcbf6f
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 7c9a528187461fe513eb7aa5782696f80313bc5d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867606"
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>Microsoft Teams のサービス正常性を確認する
 ===========================================
