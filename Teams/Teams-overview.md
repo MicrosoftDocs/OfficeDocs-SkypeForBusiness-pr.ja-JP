@@ -9,17 +9,18 @@ ms.service: msteams
 ms.reviewer: ''
 description: Microsoft Teams とそのインフラストラクチャについて、および Office 365 と組み合わせた Teams の使用について説明します。
 localization_priority: Priority
+search.appverid: MET150
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86698a3bb7535a20b7fb1b6833062d118f2f9eae
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: dbee055a5d91c6e0e453f0f539cba823226c347e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967130"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867582"
 ---
 <a name="overview-of-microsoft-teams"></a>Microsoft Teams の概要
 ===========================
@@ -118,10 +119,4 @@ Office 365 の各アプリケーションの一般的な使用例を示します
 
 ## <a name="teams-client-release-noteshttpssupportofficecomarticlerelease-notes-for-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de"></a>[Teams クライアントのリリース ノート](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
 
-## <a name="what-happened-to-the-teams-admin-faq"></a>Teams 管理者のよくあるご質問 (FAQ) はどうなりましたか?
 
-Teams 管理者のよくあるご質問 (FAQ) は、最初に Teams をリリースした時点では便利でしたが、次第に「散らかった引き出し」のような状態になり、特定の情報を見つけ出すのが難しくなってしまいました。 このため、よくあるご質問 (FAQ) は廃止して、お客様が現在参照されているこの Teams のドキュメンテーションに FAQ に関する有益な情報を統合しました。 よくあるご質問 (FAQ) に記載されていた情報はコンテキストに応じてこのドキュメンテーションですべて見つかります。
-
-見つからない場合は、ここのものを探す場合についてお聞かせください、後述の「**フィードバック**」のです。 私たちは、24 時間以内の回答をお送りしてみます。
-
-なお、[Skype for Business から Teams への移行](FAQ-journey.md)に関するよくあるご質問 (FAQ) **は**現在もご利用いただけます。 

@@ -8,16 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 description: チームの作業負荷が Office 365 のフローでは、さまざまなトポロジを利用する方法について説明します。
-ms.openlocfilehash: 2374349f426de6fb25d25cc4ded7c6c8a776dd1d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 69b4deb078a0626c8a7cc4dce808825f2d038bac
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964542"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861818"
 ---
 # <a name="microsoft-teams-online-call-flows"></a>マイクロソフト チーム オンライン呼び出しのフロー
 
@@ -50,7 +51,7 @@ ms.locfileid: "19964542"
 
 ### <a name="connectivity-to-office-365"></a>Office 365 への接続
 
-チームのサービスには、[インターネットへの接続](https://support.office.com/en-us/article/connectivity-to-the-internet-64b420ef-0218-48f6-8a34-74bb27633b10)が必要です。 チームのエンドポイントの Url と IP アドレスの範囲は、 [Office 365 の Url と IP アドレスの範囲](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)に表示されます。 (注: TCP ポート 80 および 443 への接続を開く必要があり、UDP のポート 3478 から 3481)。さらに、ビジネスのオンライン サービスの Skype の依存関係があるチームのサービスもこのサービスをインターネットに接続に必要なためです。
+チームのサービスには、[インターネットへの接続](https://support.office.com/article/connectivity-to-the-internet-64b420ef-0218-48f6-8a34-74bb27633b10)が必要です。 チームのエンドポイントの Url と IP アドレスの範囲は、 [Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)に表示されます。 (注: TCP ポート 80 および 443 への接続を開く必要があり、UDP のポート 3478 から 3481)。さらに、ビジネスのオンライン サービスの Skype の依存関係があるチームのサービスもこのサービスをインターネットに接続に必要なためです。
 
 チーム メディア フローの接続は、IETF の氷 (対話型の接続確立) の標準の手順を使用して実装されます。
 

@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: anach
 description: 監査および報告、コンプライアンスのコンテンツ検索、電子情報開示などを含む、Microsoft Teams のセキュリティとコンプライアンス機能の概要
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7dbbee64837e9a00ec09e09d93342741bee3a7c7
-ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
+ms.openlocfilehash: 7a778288b32e9f8ce84e5ec037a531a8357e181c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "20265900"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850224"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンスの概要
 ======================================================
@@ -34,11 +35,11 @@ Teams は販売開始時点から Tier C 準拠です。これにより、ISO 27
 
 ## <a name="auditing-and-reporting"></a>監査と報告
 
-監査ログの検索は、Office 365 のセキュリティとコンプライアンスの中心に右のプラグし、アラートを設定すると、レポートの監査イベントを作成することにより、特定のワークロードのエクスポートまたは全体で管理および調査の結果、一般的なイベントを設定する機能を公開する、監査タイムラインの制限はありません。 監査ログのすべてのデータは、Office 365 のセキュリティとコンプライアンス ・ センター内でアラートの設定、フィルタ リングの利用可能なであり、さらに分析のためエクスポートします。 Office 365 のセキュリティとコンプライアンスの中心にあるマイクロソフト チーム イベントの監査ログの検索を実行する方法の詳細についてはこの[リンク](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)を参照してください。 
+監査ログの検索は、Office 365 のセキュリティとコンプライアンスの中心に右のプラグし、アラートを設定すると、レポートの監査イベントを作成することにより、特定のワークロードのエクスポートまたは全体で管理および調査の結果、一般的なイベントを設定する機能を公開する、監査タイムラインの制限はありません。 監査ログのすべてのデータは、Office 365 のセキュリティとコンプライアンス ・ センター内でアラートの設定、フィルタ リングの利用可能なであり、さらに分析のためエクスポートします。 Office 365 のセキュリティとコンプライアンスの中心にあるマイクロソフト チーム イベントの監査ログの検索を実行する方法の詳細についてはこの[リンク](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)を参照してください。 
 
 ## <a name="compliance-content-search"></a>コンプライアンスのコンテンツ検索
 
-コンテンツの検索をフィルタ リング機能が豊富なすべてのチーム データを検索するために使用し、コンプライアンス、訴訟をサポートするための特定のコンテナーをエクスポートできます。 これは、電子的証拠開示のサポート案件の有無にかかわらずを実行できます。 これにより、コンプライアンスの管理者にすべてのユーザー間でチームのデータを収集し、確認して、エクスポートしてさらに処理できます。 Office 365 のセキュリティ対応センターにおいてマイクロソフトのチームのコンテンツ コンプライアンス ・ コンテンツの検索を実行する方法の詳細についてはこの[リンク](https://support.office.com/en-us/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4?ui=en-US&rs=en-US&ad=US#teamsandgroups)を参照してください。 
+コンテンツの検索をフィルタ リング機能が豊富なすべてのチーム データを検索するために使用し、コンプライアンス、訴訟をサポートするための特定のコンテナーをエクスポートできます。 これは、電子的証拠開示のサポート案件の有無にかかわらずを実行できます。 これにより、コンプライアンスの管理者にすべてのユーザー間でチームのデータを収集し、確認して、エクスポートしてさらに処理できます。 Office 365 のセキュリティとコンプライアンスの中心でマイクロソフトのチームのコンテンツ コンプライアンス ・ コンテンツの検索を実行する方法の詳細についてはこの[リンク](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4)を参照してください。 
 
 ヒント: フィルター処理の条件のみコンテンツのマイクロソフトのチームにすなわちチャットし、チャネルのメッセージ、会議、および呼び出しの種類の MicrosoftTeams を使用できます。 
 
@@ -48,9 +49,9 @@ Teams は販売開始時点から Tier C 準拠です。これにより、ISO 27
 
 セキュリティとコンプライアンスの中心とチームのコンテンツをコンテンツの検索を実行コンプライアンスでは、電子的証拠開示を行う方法の詳細については、次のリンクを参照してください。 
 
-[電子情報開示](https://support.office.com/en-us/article/manage-legal-investigations-in-office-365-2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e?ui=en-US&rs=en-US&ad=US) 
+[電子情報開示](https://support.office.com/article/manage-legal-investigations-in-office-365-2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e) 
 
-[コンテンツの検索](https://support.office.com/en-us/article/search-for-content-in-office-365-df2d1e0f-b476-42c9-aade-4a260b24f193)
+[コンテンツの検索](https://support.office.com/article/search-for-content-in-office-365-df2d1e0f-b476-42c9-aade-4a260b24f193)
 
 お客様が活用して、インプレース電子証拠開示、または [高度な電子的証拠開示] ごとの要件 (https://support.office.com/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4)。 次の表にその違いを示します。
 
@@ -69,7 +70,7 @@ Teams は販売開始時点から Tier C 準拠です。これにより、ISO 27
 
 ## <a name="legal-hold"></a>訴訟ホールド
 
-訴訟、中には多くの場合必要なことすべてのデータは、ユーザー (管理者) に関連付けられているまたはチームが保持されます immutably の場合の証拠として使えるようにします。 これは、法的保存要件に、ユーザー (ユーザーのメールボックス) またはチームを配置することによって実現されます。 インプレース (対象となるクエリまたはフィルター処理されたコンテンツからメールボックスまたはサイト コレクションのサブセット) を押しながらまたは訴訟 (メールボックスまたはサイト コレクション全体) を押したままにチーム内のすべてのチームを配置すると、保留リストは、グループのメールボックスに置かれます。 これにより、エンド ・ ユーザーを削除または、グループのメールボックスに取り込まれ、チャネルのメッセージを編集した場合でもそのコンテンツのコピーを変更できないが維持され、eDisscovery の検索で使用できます。 訴訟ホールドの場合は、通常、電子情報開示ケース内に適用されます。 参照してください[この](https://support.office.com/en-us/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a)記事を保存し、Office 365 のセキュリティおよびコンプライアンス ・ センター内の保留の詳細についてのヘルプです。 
+訴訟、中には多くの場合必要なことすべてのデータは、ユーザー (管理者) に関連付けられているまたはチームが保持されます immutably の場合の証拠として使えるようにします。 これは、法的保存要件に、ユーザー (ユーザーのメールボックス) またはチームを配置することによって実現されます。 インプレース (対象となるクエリまたはフィルター処理されたコンテンツからメールボックスまたはサイト コレクションのサブセット) を押しながらまたは訴訟 (メールボックスまたはサイト コレクション全体) を押したままにチーム内のすべてのチームを配置すると、保留リストは、グループのメールボックスに置かれます。 これにより、エンド ・ ユーザーを削除または、グループのメールボックスに取り込まれ、チャネルのメッセージを編集した場合でもそのコンテンツのコピーを変更できないが維持され、eDisscovery の検索で使用できます。 訴訟ホールドの場合は、通常、電子情報開示ケース内に適用されます。 参照してください[この](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a)記事を保存し、Office 365 のセキュリティおよびコンプライアンス ・ センター内の保留の詳細についてのヘルプです。 
 
 ## <a name="information-protection-architecture-for-microsoft-teams"></a>マイクロソフトのチームの情報保護アーキテクチャです。 
 
@@ -134,7 +135,7 @@ Office 365 用のリテンション ・ ポリシーの構成の詳細につい�
 
 ### <a name="can-we-include-teams-in-org-wide-policies"></a>チームを組織全体のポリシーは含めることができますか。 
 
-いいえ、されていません。 チームの場所の行またはチームのこれらのコマンドレットを使用して、チームのチャットおよびチャネルのメッセージの特定のポリシーを作成する必要があります:[新しい TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps) & [新規 TeamsComplianceRetentionRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)。 これらのコマンドレットでは、get し、同様のバージョンを設定します。
+いいえ、されていません。 チームの場所の行またはチームのこれらのコマンドレットを使用して、チームのチャットおよびチャネルのメッセージの特定のポリシーを作成する必要があります:[新しい TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps) & [新規 TeamsComplianceRetentionRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)。 これらのコマンドレットでは、get し、同様のバージョンを設定します。
 
 ### <a name="are-these-retention-policies-retroactive"></a>これらのアイテム保持ポリシーは、さかのぼって適用しますか。 
 
@@ -164,10 +165,10 @@ Exchange Online のメールボックスのグループとユーザーのメー�
 
 |ポリシー|ルール|
 |---|---|
-|[新しい-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps)| [新しい-TeamsRetentionComplianceRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)|
-|[Get TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancepolicy?view=exchange-ps)| [Get TeamsRetentionComplianceRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancerule?view=exchange-ps)|
-|[セット TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancepolicy?view=exchange-ps)| [セット TeamsRetentionComplianceRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancerule?view=exchange-ps)|
-|[削除 TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancepolicy?view=exchange-ps)| [削除 TeamsRetentionComplianceRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancerule?view=exchange-ps)|
+|[新しい-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps)| [新しい-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)|
+|[Get TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancepolicy?view=exchange-ps)| [Get TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancerule?view=exchange-ps)|
+|[セット TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancepolicy?view=exchange-ps)| [セット TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancerule?view=exchange-ps)|
+|[削除 TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancepolicy?view=exchange-ps)| [削除 TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancerule?view=exchange-ps)|
 
 ### <a name="if-there-are-multiple-retention-policies-for-teams-with-varying-durations-which-one-wins"></a>チームのさまざまな期間、どちらかを wins での複数の保存ポリシーがある場合ですか。
 
@@ -226,9 +227,11 @@ Exchange Online のメールボックスのグループとユーザーのメー�
 Teams のデータはご利用の Office 365 テナントに関連付けられている地理的領域内に存在します。 現在、Teams は南北アメリカ、EMEA、および APAC 地域をサポートしています。 
 
 > [!IMPORTANT]
-> 現在、英国とインドにおいては Teams によるデータ常駐が提供されるのは新しいテナントに対してのみです。 新しいテナントは、Teams に 1 人のユーザーもサインインさせていない任意のテナントとして定義されます。 英国およびインド国内の既存のテナントは、(2018 年に予定されている) 移行プランが発表されるまで、それぞれ EMEA および APAC 地域に残り続けます。
+> チーム現在提供していますデータ常駐英国、カナダ、およびインドで新しいテナントのみにします。 新しいテナントは、Teams に 1 人のユーザーもサインインさせていない任意のテナントとして定義されます。 (CY2019 では予測) の移行計画を発表するまで、EMEA、南北アメリカ、APAC 地域のままに、英国、カナダ、およびインドからの既存のテナントが続行されます。
 
-インドおよび英国での Teams によるデータ常駐の開始の詳細については、Ansuman Acharya のブログの投稿記事「[Microsoft Teams launches India Data Residency, other geos coming soon (Microsoft Teams でのデータ常駐がインドで開始、その他の地域でも近日中に開始)](https://go.microsoft.com/fwlink/?linkid=867773)」をお読みください。
+インドおよび英国での Teams によるデータ常駐の開始の詳細については、Ansuman Acharya のブログの投稿記事「[Microsoft Teams launches India Data Residency, other geos coming soon (Microsoft Teams でのデータ常駐がインドで開始、その他の地域でも近日中に開始)](https://go.microsoft.com/fwlink/?linkid=867773)」をお読みください。 
+
+チームのカナダのデータの常駐サービスの詳細については、[マイクロソフトのチーム カナダ データ常駐の起動、オーストラリアおよび日本の準備中](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178)を参照してください。 
 
 どの地域でご利用のテナントのデータが格納されるかを確認するには、[[Office 365 管理センター](https://portal.office.com/adminportal/home)]  >  [**設定**]  >  [**組織概要**] に移動してください。 下にスクロールして [**データの場所**] に移動します。 
 
@@ -239,11 +242,11 @@ Teams のデータはご利用の Office 365 テナントに関連付けられ�
 
 マイクロソフト チームに大きく依存して Exchange Online、SharePoint Online および Skype 会議、予定表のように、中核となる生産性の向上のためにオンライン ビジネスの相互運用機能のチャットし、ファイルの共有です。 これらのクラウド アプリケーションに設定されている条件付きのアクセス ポリシーは、マイクロソフトのチーム - すべてのクライアント上に直接、マイクロソフトのチームに署名するときに適用されます。 
 
-マイクロソフト チームは Azure Active Directory のアクセスの条件付きポリシーでクラウド アプリケーションとして個別にサポートします。 マイクロソフト チームのクラウド アプリケーションに設定されている条件付きのアクセス ポリシーは、ユーザーがサインインするときに、マイクロソフトのチームに適用されます。 ただし、Exchange オンラインや SharePoint Online のような他のアプリケーションに適切なポリシーのないユーザーがありますこれらのリソースに直接アクセスすることです。 Azure ポータル内の条件付きのアクセス ポリシーの設定に関する詳細については、ダウンロードはこちら: (https://docs.microsoft.com/en-us/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
+マイクロソフト チームは Azure Active Directory のアクセスの条件付きポリシーでクラウド アプリケーションとして個別にサポートします。 マイクロソフト チームのクラウド アプリケーションに設定されている条件付きのアクセス ポリシーは、ユーザーがサインインするときに、マイクロソフトのチームに適用されます。 ただし、Exchange オンラインや SharePoint Online のような他のアプリケーションに適切なポリシーのないユーザーがありますこれらのリソースに直接アクセスすることです。 Azure ポータル内の条件付きのアクセス ポリシーの設定に関する詳細については、ダウンロードはこちら: (https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
 
 Windows と Mac のデスクトップ クライアントをマイクロソフトのチームでは、最新の認証をサポートします。 現代の認証は、サインインのベースに、Azure Active ディレクトリ認証ライブラリ (ADAL) を Microsoft Office クライアント アプリケーションのプラットフォーム間で表示されます。
 
-マイクロソフト チームのデスクトップ アプリケーションでは、AppLocker をサポートします。  AppLocker の前提条件の詳細についてを参照してください: AppLocker を使用するための要件 (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/applocker/requirements-to-use-applocker)。
+マイクロソフト チームのデスクトップ アプリケーションでは、AppLocker をサポートします。  AppLocker の前提条件の詳細についてを参照してください: AppLocker を使用するための要件 (https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/requirements-to-use-applocker)。
 
 <a name="privacy-in-teams"></a>Teams でのプライバシー
 --------------------------

@@ -7,6 +7,7 @@ ms.date: 03/23/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
+search.appverid: MET150
 description: テナント全体を管理する方法を理解し、チームのチームから移行する際のユーザーの設定が新しいマイクロソフトのチームとビジネス管理センターの Skype に Office 365 の管理センターで発生します。
 localization_priority: Priority
 ms.custom:
@@ -15,12 +16,12 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 5528ecfc3d47738e0f34b56f007e36d193d95da6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b81853b33f457dd8a69890774b4b7ff8902d8226
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968189"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864828"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-and-skype-for-business-admin-center"></a>新しいマイクロソフトのチームとビジネス管理センターの Skype に移行する際のチームを管理します。
 ======================================================
@@ -44,7 +45,7 @@ ms.locfileid: "20968189"
 2018 を 3 月中旬以降では、次の機能が新しいマイクロソフトのチームとビジネス管理センターの Skype で利用可能でした。 
 
 - **マイクロソフト チーム メッセージング ポリシー**: メッセージング シナリオでのクライアント エクスペリエンスの Microsoft チームの管理をユーザー レベルのポリシーを作成します。
-- **マイクロソフト チーム ポリシーのアップグレード**: ビジネス用の Skype とマイクロソフトのチームとの間の相互運用性とアップグレードのエクスペリエンスを構成します。 参照してください、 https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype。 
+- **マイクロソフト チーム ポリシーのアップグレード**: ビジネス用の Skype とマイクロソフトのチームとの間の相互運用性とアップグレードのエクスペリエンスを構成します。 参照してください、 https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype。 
 - **マイクロソフト チームのゲストの設定をメッセージング**: マイクロソフトのチームでのゲスト アカウントのメッセージング機能を制御します。 
 - **フェデレーション設定**: マイクロソフトのチームのテナントとビジネス用の Skype との間のフェデレーションを管理します。 
 - **ユーザー管理**: ポリシーを割り当てるし、ユーザー アカウントを構成します。 

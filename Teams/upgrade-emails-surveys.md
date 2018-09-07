@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: サンプルの電子メールおよびビジネス用の Skype からチームへのアップグレードの迅速な 10 のステップのアクション プランでのカラムで使用するアンケート
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 723a90609b6ef704d368e93ce915ac9027d58d4a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 89a4f9f1d43c3bb10038460104fa6198c2939b87
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244517"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850884"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>サンプルの電子メールおよびアップグレードの基本的な通信のためのアンケート
 

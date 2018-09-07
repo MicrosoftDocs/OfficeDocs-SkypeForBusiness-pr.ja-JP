@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: タスクと活動の品質とマイクロソフトのチームの使用率を監視するために必要な
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6049dc1a3bbaf29b9f6b678731e2bf3d3b73b7b4
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 42d48f9a6bd841ce2756e783e712ee01ed108c55
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398022"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862620"
 ---
 ![オペレーショナル ・ エクセレンスの段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-op-excellence.png "オペレーショナル ・ エクセレンスの段階に重点を置いて、旅アップグレードの段階")
 

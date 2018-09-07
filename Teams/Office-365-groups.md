@@ -8,15 +8,16 @@ ms.topic: article
 ms.service: msteams
 description: Office 365 グループとグループ メンバーシップがどのように Microsoft Teams と連携しているかについて説明します。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9d7c37a0aa53f45036388bdedfc5bdc87b1cc8a
-ms.sourcegitcommit: 5fb3957b658b48edf3d9878a9d53a4002b8f55d8
+ms.openlocfilehash: 9ef86beea194dde66e3ce5d7f54bde7a522dd605
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23520063"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850024"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365 のグループとマイクロソフトのチーム
 =====================================
@@ -33,7 +34,7 @@ Office 365 管理者は、Office 365 のグループを定義、メンバーの�
 > [!NOTE]
 > Office 365 グループを削除するが Outlook と OWA の永続的な会話とチームの会議のエイリアスのメールボックスへの招待、削除とマーク、SharePoint サイトを削除。 チームを削除し、Outlook では、効果との間に約 20 分を要する。 チーム チーム クライアントから削除されますすぐにビューからすべてのチームのメンバーであります。 持つチーム機能を利用して Office 365 のグループのメンバーを削除する場合は、チームが削除された影響を受ける人のチームのクライアントのビューから削除される前に、約 2 時間の遅延が可能性があります。
 >
->[この](https://support.office.com/en-us/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)削除した Office 365 のグループを復元する方法についてお読みください。
+>[この](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)削除した Office 365 のグループを復元する方法についてお読みください。
 
 <a name="group-membership"></a>グループ メンバーシップ
 ----------------

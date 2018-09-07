@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: rowille
 description: チーム機能、機能、および利便性のオーディオ会議をテストを通じて、組織の期待を満たしていることを検証します。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8295884d973dc873a7646be629bd639adba2156a
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: e60a434e352c0165ef71075307617c009555ff34
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779126"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862786"
 ---
 <a name="define-and-document-your-audio-conferencing-in-teams-test-plan-for-enterprises"></a>定義し、企業のチームのテスト計画で、オーディオ会議を文書化 
 ===============================================================================
@@ -91,7 +92,7 @@ ms.locfileid: "23779126"
 
 | エンタープライズ ・ クラス   | 共同会議    | プラットフォームとデバイス   | IT プロフェッショナル  | 追加のビジネス グループ、サイト固有  | チームの最新のロードマップで満たされる要件 |
 |-------------------------------------------|----------------------------|------------------|------------------------|-------------------|-------------------|
-| <ul><li>経由で電話会議の会議をスケジュールするには。<ul><li>Outlook スケジュール追加で</li><li>Teams クライアント</li></ul></li><li>チャネルと秘密の会議をホストしています。</li><li>最大 80 の参加者との会議をホストしています。</li><li>音声会議機能</li><li>匿名の結合</li><li>ロビーのサポート</li><li>参加者の管理</li><li>他の参加者をミュートします。</li><li>チーム クライアント経由でデバイスの管理</li></ul> |<ul><li>会議のライフ サイクル管理/前後時に</li><li>デスクトップ共有</li><li>会話</li><li>没入感の会議エクスペリエンス</li><li>アプリケーション共有</li><li>アプリケーション共有内のコントロールを提供および実行</li></ul> |<ul><li> Windows、Mac チーム クライアントとの会議機能をサポート</li><li>ブラウザー チーム クライアントの会議機能をサポートしています。<ul><li>クロム</li><li>Microsoft Edge</li></ul></li><li>iOS および Android チーム クライアント会議機能をサポートします。</li></ul> | <ul><li>通話品質の診断ポータル</li><li>テナントの電話会議ポリシー</li><li>通話品質の分析 (救難) を有効にします。</li></ul> | <ul><li>チームが会議の会社のラップトップ コンピューターのイメージに基づく機能の検証します。</li><li>特定の言語のサポート</li><li>シナリオの特定のユーザーまたは特定のサイトに適用される GPO の設定</li></ul> | はい  |
+| <ul><li>経由で電話会議の会議をスケジュールするには。<ul><li>Outlook スケジュール追加で</li><li>Teams クライアント</li></ul></li><li>チャネルと秘密の会議をホストしています。</li><li>最大 80 の参加者との会議をホストしています。</li><li>音声会議機能</li><li>匿名の結合</li><li>ロビーのサポート</li><li>参加者の管理</li><li>他の参加者をミュートします。</li><li>チーム クライアント経由でデバイスの管理</li></ul> |<ul><li>会議のライフ サイクル管理/前後時に</li><li>デスクトップ共有</li><li>会話</li><li>没入感の会議エクスペリエンス</li><li>アプリケーション共有</li><li>アプリケーション共有内のコントロールを提供および実行</li></ul> |<ul><li> Windows、Mac チーム クライアントとの会議機能をサポート</li><li>ブラウザー チーム クライアントの会議機能をサポートしています。<ul><li>クロム</li><li>Microsoft Edge</li></ul></li><li>iOS および Android チーム クライアント会議機能をサポートします。</li></ul> | <ul><li>通話品質の診断ポータル</li><li>テナントの電話会議ポリシー</li><li>通話品質の分析 (救難) を有効にします。</li></ul> | <ul><li>チームが会議の会社のラップトップ コンピューターのイメージに基づく機能の検証します。</li><li>特定の言語のサポート</li><li>シナリオの特定のユーザーまたは特定のサイトに適用される GPO の設定</li></ul> | あり  |
 
 #### <a name="audio-conferencing-user-functionality-definition"></a>オーディオ会議のユーザーの機能の定義
 

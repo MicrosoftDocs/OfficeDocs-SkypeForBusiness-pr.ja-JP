@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 4a57e3d0-8b08-494f-a195-b44afa9cbc0d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Skype for Business の既定のシステム メッセージにどの言語を設定できるかを理解します。 '
-ms.openlocfilehash: 0542ab5fba13b6a243f42c89aa87eb288c5c7f60
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: a5bb115e84e37ddd1e98fd2c504ce86ec4f24b67
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783103"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850810"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>ボイスメールの応答メッセージとメッセージで使用する言語
 
@@ -62,7 +63,7 @@ Skype for Business がシステムの応答メッセージで使用する言語�
 |スペイン語  <br/> |スペイン  <br/> |es-ES  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
 |スペイン語  <br/> |メキシコ  <br/> |es-MX  <br/> |はい、ただしスペインのスペイン語 (es-ES) が使用されます。  <br/> |はい  <br/> |はい、ただしスペインのスペイン語 (es-ES) が使用されます。  <br/> |
 |スウェーデン語  <br/> |スウェーデン  <br/> |sv-SE  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
-|トルコ語  <br/> |トルコ  <br/> |tr-TR  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
+|トルコ語  <br/> |トルコ  <br/> |tr-TR  <br/> |あり  <br/> |あり  <br/> |いいえ  <br/> |
    
 ## <a name="related-topics"></a>関連トピック
 [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

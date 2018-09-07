@@ -7,18 +7,19 @@ ms.date: 03/23/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: ''
 description: 現代の認証を使用して、マイクロソフトのチームに署名するためのガイダンスです。
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c24625d44bc174a60275b6532001b5f7efc9efc
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: 5899d002ff6492f06b42f824e8799dfc30b9f42f
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "19003367"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849884"
 ---
 <a name="sign-in-to-microsoft-teams"></a>マイクロソフトのチームへのサインイン
 ==========================
@@ -53,5 +54,5 @@ ms.locfileid: "19003367"
 
 現代の認証は、チームを使用して、ユーザーがプロセスを完了することがない場合されること、ドメインまたは組織の Office 365 のエンタープライズ ・ アカウントに問題があるすべての組織で使用できます。 
 
-詳細についてを参照してください[マイクロソフトのチームへのサインインに問題が生じる理由ですか?](https://support.office.com/en-US/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)です。
+詳細についてを参照してください[マイクロソフトのチームへのサインインに問題が生じる理由ですか?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)です。
 

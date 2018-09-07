@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: マイクロソフトのチームがビジネスを展開するため、現在の Skype を基に、アップグレード ・ パスを選択します。
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee46c0af4da4e2101b8052d22a1f91c1769b12d7
-ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
+ms.openlocfilehash: d61cc95b9cb86579ccc64beb53bbcdff3fd420c7
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "21148191"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23868326"
 ---
 ![展開に重点を置いて、アップグレードの旅の段階や実装段階](media/upgrade-banner-deployment.png "展開に重点を置いて、アップグレードの旅の段階や実装段階")
 

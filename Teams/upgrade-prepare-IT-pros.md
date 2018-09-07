@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: 展開して、マイクロソフトのチームをサポートするには、組織の IT スタッフを準備します。
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03bc7daf391f79b98eebddf137dda04e55432e4a
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 75dd948b7cc04a41a4d4d814c756897c1c9e4f66
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398134"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23868518"
 ---
 ![技術的な準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いて、旅アップグレードの段階")
 

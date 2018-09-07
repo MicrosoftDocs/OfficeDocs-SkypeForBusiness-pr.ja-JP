@@ -9,6 +9,7 @@ ms.topic: article
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -24,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 国/地域を選択して、電話会議、電話システム、通話プラン、コミュニケーション クレジット、および有料電話番号と無料電話番号を利用できるかどうかを確認できます。
-ms.openlocfilehash: dede3b8c1d3e844399973046d0569f8b3e3fca20
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 6be4aa215277fb8e5a1d4186cdac17eed5ca3d1f
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785607"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853344"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>国および地域ごとの電話会議および通話プランの利用可能性
 
@@ -149,7 +150,7 @@ Skype for Business または Microsoft Teams サービスの 1 つが利用で�
 
 電話会議の詳細については、「[電話会議に関するよくある質問](../audio-conferencing-common-questions.md)」をご覧ください。
 
-[電話会議の料金](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements) 
+[電話会議の料金](https://products.office.com/skype-for-business/audio-conferencing#Requirements) 
   
 #### <a name="using-the-call-me-feature-or-when-adding-other-people-to-a-meeting-so-they-can-join-it"></a>折り返し先機能の使用、または他のユーザーを会議に参加できるようにするために追加する場合
 電話会議では、「*折り返し機能*」という名前の機能があり、この機能を使用して他のユーザーをダイヤルイン会議に参加できるようにすることができます。 上にあるドロップダウン リストを使用して国/地域を検索し、この機能を利用できるかどうかを確認します。
@@ -164,7 +165,7 @@ Skype for Business または Microsoft Teams サービスの 1 つが利用で�
 
 Office 365 から個々のユーザーの電話番号を取得することに加えて、電話会議 (会議ブリッジ用) や、自動応答および通話キューといったサービスのための有料電話番号または無料電話番号を検索して取得することもできます。 これらはサービス番号と呼ばれます。 電話番号を取得[するサービスの電話番号](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)を参照してください。 ただし、自分のユーザーに対しては、通話プランの割り当て後に、ユーザーの電話番号を割り当てて通話の発信や受信をできるようにすることができます。 これらの電話番号を検索するには、するには、[ユーザーの電話番号を取得](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)するに移動します。 詳細については、「[ユーザーの電話番号の割り当て、変更、削除を行う](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user)」をご覧ください。 
 
-[電話システムの料金](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
+[電話システムの料金](https://products.office.com/skype-for-business/phone-system#Requirements)
 
 > [!NOTE]
 > これらの場所の一部では、有料電話番号の使用可能性が、在庫レベルによって随時変わる場合があります。 

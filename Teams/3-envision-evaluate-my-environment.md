@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: 組織の導入準備評価、正しい TCP および UDP ポートを開いて、任意のネットワークの修復を実行するには、ペルソナとネットワークの分析を使用します。
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72c7e7cc159634edcbd6b108c60fe42108adebac
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 1ba38b78727e21286c05eed556ad0238b2359499
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20396766"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23857204"
 ---
 # <a name="evaluate-my-environment"></a>自分の環境を評価します。
 
@@ -191,7 +192,7 @@ Wi-fi ネットワークを最適化するために用意されているいく�
 
 -   *クライアントのセグメント*は、クライアントが存在する論理ネットワーク セグメントです。
 
-ネットワーク評価ツールを使用して、両方のセグメントをテストする必要があります。 セグメントをテストするには、ディレクトリに移動し、コマンド プロンプトで**networkassessmenttool.exe**を入力します。 結果は、Results.tsv をという名前のファイルに書き込まれ、各セグメントの[要件](https://docs.microsoft.com/en-us/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance?ui=en-US&rs=en-US&ad=US)を比較することができます。
+ネットワーク評価ツールを使用して、両方のセグメントをテストする必要があります。 セグメントをテストするには、ディレクトリに移動し、コマンド プロンプトで**networkassessmenttool.exe**を入力します。 結果は、Results.tsv をという名前のファイルに書き込まれ、各セグメントの[要件](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)を比較することができます。
 
 両方のセグメントが高品質の展開の要件を満たす必要があることに注意してください。 ネットワークのパフォーマンスを示す優れた指標を取得するには、直線を 1 時間に 2 回ツールを実行することをお勧めします。
 

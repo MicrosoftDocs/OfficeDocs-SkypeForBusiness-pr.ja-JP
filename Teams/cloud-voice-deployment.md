@@ -3,21 +3,22 @@ title: Cloud Voice の展開
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 06/07/2018
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: MyAdvisor
 description: Microsoft Teams での Cloud Voice の機能の展開についての実践的なガイダンス
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12c7f9378144134a0e09d90e838ca3bc62178ffb
-ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
+ms.openlocfilehash: 001c1b0f69108630267f368b065cc8d72c0b38c5
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20302136"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855280"
 ---
 # <a name="cloud-voice-deployment"></a>Cloud Voice の展開
 
@@ -41,7 +42,7 @@ Office 365 の電話会議では、参加者はどの電話端末からでも Te
 
 通話プランは、オンライン ビジネスのチームと Skype 経由で配信、電話システムの機能のアドオン サービスです。 通話プランには、マイクロソフトのチームで作業するのにはビジネス オンラインの Skype で該当するユーザーが所属することが必要です。 通話プランを提供、お客様のビジネスの基本の電話番号と、行い、PSTN 上で、組織外の電話を受信することができます。
 
-詳細についてを参照して[ここでは Office 365 の電話システムで取得して](https://support.office.com/article/Here-s-what-you-get-with-Phone-System-in-Office-365-bc9756d1-8a2f-42c4-98f6-afb17c29231c) [Office 365 のプランを呼び出すことは何ですか?](https://support.office.com/article/What-are-Calling-Plans-in-Office-365-3dc773b9-95e0-4448-b2f1-887c54022429)
+詳細についてを参照して[ここでは Office 365 の電話システムで取得して](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) [Office 365 のプランを呼び出すことは何ですか?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)
 
 
 ## <a name="phone-system-direct-routing-direct-routing"></a>システムの電話、直接ルーティング (「ダイレクト ルーティング」)

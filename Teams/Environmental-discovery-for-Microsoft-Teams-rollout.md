@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: ビジネスの Skype からマイクロソフトのチームへの旅を計画する際に詳細な環境の検出を実行する方法。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e62d6425f5e38d4763f54c27821a544d3c063420
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: 700f92c357e99db970742577c5381510ff450c14
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246531"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23870478"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>マイクロソフト チーム展開の環境の探索
 ===================================================

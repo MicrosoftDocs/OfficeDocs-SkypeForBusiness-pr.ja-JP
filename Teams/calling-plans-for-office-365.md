@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -24,12 +25,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 63aa3171733dad8d1f788f1817db864be36e1dfa
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: a7f8a5f5e824fb31a7a3a312bd9d804e8948f605
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23782983"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850902"
 ---
 # <a name="calling-plans-for-office-365"></a>Office 365 の通話プラン
 
@@ -86,7 +87,7 @@ ms.locfileid: "23782983"
     
 - [Skype for Business と Microsoft Teams のアドオン ライセンス](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
     
-- [ビジネス クラウド コネクタ ・ エディションの Skype の計画](https://technet.microsoft.com/EN-US/library/Mt605227.aspx): 独自の PSTN への接続で、Office 365 の電話システムを設定する方法について説明します。
+- [ビジネス クラウド コネクタ ・ エディションの Skype の計画](https://technet.microsoft.com/library/Mt605227.aspx): 独自の PSTN への接続で、Office 365 の電話システムを設定する方法について説明します。
     
 - [Office 365 の電話システム (クラウド PBX) ソリューションを計画する](https://go.microsoft.com/fwlink/p/?LinkId=717926)
     
@@ -101,7 +102,7 @@ ms.locfileid: "23782983"
     
 - [利用可能残高を追加してコミュニケーション クレジットを管理する](add-funds-and-manage-communications-credits.md)
     
-- [クラウド コネクタを構成して](https://technet.microsoft.com/en-us/library/mt605228.aspx)、[クラウドのコネクタをダウンロード](https://aka.ms/CloudConnectorInstaller)
+- [クラウド コネクタを構成して](https://technet.microsoft.com/library/mt605228.aspx)、[クラウドのコネクタをダウンロード](https://aka.ms/CloudConnectorInstaller)
   
   
  

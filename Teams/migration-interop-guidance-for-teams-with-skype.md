@@ -8,15 +8,16 @@ ms.service: msteams
 ms.reviewer: lehewe
 description: チームにビジネス用の Skype からの移行を管理するためのガイダンス
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f97554c0e03ae1e337d2c4b77e472edebab453e
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: 11ba2e2d6d59ecd53dd1824f50c53022e15f2b69
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246665"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854184"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>ビジネスのチームとは、Skype を使用する組織の移行と相互運用性のガイド
 
@@ -273,22 +274,22 @@ TeamsAppPolicy が使用可能になるまで基本的には TeamsUpgradePolicy 
 
 ## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 
-[Get CsTeamsInteropPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/get-csteamsinteroppolicy?view=skype-ps)
+[Get CsTeamsInteropPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsinteroppolicy?view=skype-ps)
 
-[許可 CsTeamsInteropPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsinteroppolicy?view=skype-ps)
+[許可 CsTeamsInteropPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsinteroppolicy?view=skype-ps)
 
-[削除 CsTeamsInteropPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csteamsinteroppolicy?view=skype-ps)
+[削除 CsTeamsInteropPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsinteroppolicy?view=skype-ps)
 
-[Get CsTeamsUpgradeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/get-csteamsupgradeconfiguration?view=skype-ps)
+[Get CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradeconfiguration?view=skype-ps)
 
-[Get CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/get-csteamsupgradepolicy?view=skype-ps)
+[Get CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradepolicy?view=skype-ps)
 
-[許可 CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[許可 CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
 
-[新しい-CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csteamsupgradepolicy?view=skype-ps)
+[新しい-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsupgradepolicy?view=skype-ps)
 
-[削除 CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csteamsupgradepolicy?view=skype-ps)
+[削除 CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsupgradepolicy?view=skype-ps)
 
-[セット CsTeamsUpgradeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsupgradeconfiguration?view=skype-ps)
+[セット CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsupgradeconfiguration?view=skype-ps)
 
-[セット CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsupgradepolicy?view=skype-ps)
+[セット CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsupgradepolicy?view=skype-ps)

@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: lehewe
 description: 米国政府の規制の対象となるデータを処理するエンティティでドライブ Office 365 の展開を IT プロフェッショナルのためのガイダンス
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8091bb4e973d4e7376dd6d420578b10123051226
-ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
+ms.openlocfilehash: 708dda8e38d879d11589696cd901213a68b03cd8
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23835040"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23869382"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Microsoft 365 政府の GCC の展開の計画
 
@@ -38,9 +39,9 @@ Office 365 の機能を楽しむだけでなくは、組織はマイクロソフ
 -   組織の顧客のコンテンツへのアクセスは、スクリーンの Microsoft の担当者に限定されます。
 -   Microsoft 365 政府の GCC は、証明書および米国の公的機関のお客様に必要な認定に準拠します。
 
-Microsoft 365 政府 - 米国政府の[Office 365 の政府の計画](https://products.office.com/en-us/government/compare-office-365-government-plans)などの[特典を受ける](https://products.office.com/en-us/government/compare-office-365-government-plans#EligibilityRequirements)お客様は、提供する GCC の詳細についてを見つけることができます。
+Microsoft 365 政府 - 米国政府の[Office 365 の政府の計画](https://products.office.com/government/compare-office-365-government-plans)などの[特典を受ける](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)お客様は、提供する GCC の詳細についてを見つけることができます。
 
-[Office 365 の米国政府のサービスの説明](https://technet.microsoft.com/en-us/library/mt774581.aspx)では、プラットフォームの利点は、米国内でのコンプライアンス要件を満たすことの中心は、について説明します。
+[Office 365 の米国政府のサービスの説明](https://technet.microsoft.com/library/mt774581.aspx)では、プラットフォームの利点は、米国内でのコンプライアンス要件を満たすことの中心は、について説明します。
 
 > [!Tip]
 > サービスの説明内の情報のテーブルを Excel ブックに転送し、2 つの列を追加することができます:**はい/いいえ、組織内での関連性**と**Y か N は、自分の組織のニーズに対応**します。 このサービスが組織のニーズを満たしていることを確認するのには、同僚と、この一覧を確認できます。
@@ -84,7 +85,7 @@ Microsoft 365 政府の GCC をいくつかの相違がある、政府のクラ�
 
 ## <a name="step-4-apply-for-microsoft-365-government---gcc"></a>手順 4 します。 Microsoft 365 政府の GCC を適用します。
 
-持つことに、このサービスがお客様の組織は、[このサービスは、ここに適用する](https://products.office.com/en-us/government/eligibility-validation)プロセスを開始します。
+持つことに、このサービスがお客様の組織は、[このサービスは、ここに適用する](https://products.office.com/government/eligibility-validation)プロセスを開始します。
 
 ## <a name="step-5-plan-for-governance"></a>手順 5 です。 ガバナンスの計画
 

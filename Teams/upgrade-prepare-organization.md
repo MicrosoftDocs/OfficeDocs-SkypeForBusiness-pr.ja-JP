@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: 変更を受け入れるように、組織の準備を評価し、ビジネスの Skype からマイクロソフトのチームにアップグレードする準備ができたユーザーを取得するための計画を準備します。
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03f9704ca129d8925ae1c68dabedb0153feae406
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: bfbff0262365bedc88bc0cdc6630c0ccfbc6c465
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398078"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23857416"
 ---
 ![ユーザーの準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-user-readiness.png "ユーザーの準備段階に重点を置いて、旅アップグレードの段階")
 

@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: このガイドを使用して、提供し、高品質のマイクロソフト チーム配置を維持するために必要な要件について説明します。
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6114120998425acdd443ab852b3f39fd2549b5ff
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 58f99698f5168f428900095a813a8361955255e6
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779949"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854150"
 ---
 ![技術的な準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いて、旅アップグレードの段階")
 
@@ -345,7 +346,7 @@ Wi-fi 機器は現在、2.4 GHz および 5.0 GHz で使用されているバン
 | | エクスペリエンスの品質レビュー テンプレートをインストールします。 <br/> 構築ファイルをアップロードします。 | [QERLite テンプレート](https://aka.ms/qertemplates) <br/> [アップロードの構築について](turning-on-and-using-call-quality-dashboard.md)|
 | ネットワークの品質管理の計画 | ネットワークの計画を実行します。 | [ネットワーク プランナー](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
 | | QoS を実装します。 | [マイクロソフトのチームでのサービスの品質](qos-in-teams.md) |
-| | プロキシ サーバーを使用しません。 | [プロキシのガイダンス](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |
+| | プロキシ サーバーを使用しません。 | [プロキシのガイダンス](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a) |
 | | スプリット トンネルの VPN を実装します。 | [VPN のスプリット トンネルのガイダンス](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
 | | リアルタイム メディアの Wi-fi ネットワークを最適化します。  | サード パーティ ベンダーを参照してください。 |
 | | ローカルのインターネットの出口を実装します。 | [ローカルのインターネットの出口](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |

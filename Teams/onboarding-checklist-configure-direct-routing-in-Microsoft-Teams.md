@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: rowille
 description: チームに直接ルーティングを構成する場合、コア、to do のタスクと活動このチェックリストに従います。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 211ef5564f51598cc6e09ab75ee281757641e9ce
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: df2d9742f3f1c42917edff70e2174e3f04b9221d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779367"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862870"
 ---
 # <a name="configure-direct-routing-in-microsoft-teams"></a>マイクロソフトのチームに直接ルーティングを構成します。
 
@@ -30,7 +31,7 @@ ms.locfileid: "23779367"
 |3|計画し、ライセンスを取得|直接ルーティングのユーザーには、次のライセンスの Office 365 に割り当てられている必要があります。<ul><li>Skype for Business Online (プラン 2)<li>マイクロソフトの電話システム<li>Microsoft Teams<li>Microsoft オーディオ会議</ul>直接ルーティングに計画を呼び出すことが許可されているユーザーもサポートしています。 計画を呼び出すと、電話システムは、直接ルーティング インターフェイスを使用していくつかの呼び出しをルーティングできます。<br><br>オーディオ会議のライセンスにダイヤルアウトするか、ダイヤルイン番号を提供することによって、スケジュールされたミーティングの場合は、外部の参加者を追加する必要があります。||[ルーティングのライセンスを送る](https://docs.microsoft.com/microsoftteams/direct-routing-plan#licensing-and-other-requirements)|
 |4|セッション ボーダー コント ローラー (SBC) のドメイン名の計画します。|SBC ドメイン名は、テナントの「ドメイン」に登録された名前のいずれかをする必要があります。<br><br>**注:** 使用することはできません *. onmicrosoft.com、SBC の完全修飾ドメイン名 (FQDN) にします。<br><br>SBC ドメイン名は、各 SBC に必要な証明書の計画で重要なもあります。||[SBC ドメイン名](https://docs.microsoft.com/microsoftteams/direct-routing-plan#sbc-domain-names)|
 |5|証明書の計画|証明書署名要求 (CSR) を生成することで、SBC の証明書を要求することを強くお勧めします。<br><br>証明書には、[件名]、[共通名、または [サブジェクト代替名フィールドに SBC の FQDN が必要です。 または、直接ルーティングの場合と、共通名またはサブジェクト代替名にワイルドカードをサポートします。<br><br>SBC の CSR を生成する具体的な方法については、SBC の製造元によって提供されるマニュアルを参照してください。<br><br>**追加の情報**列内のアーティクルには、サポートされているルート証明機関が一覧表示されます。||[SBC の信頼された証明書の公開](https://docs.microsoft.com/microsoftteams/direct-routing-plan#public-trusted-certificate-for-the-sbc)|
-|6|計画およびファイアウォールのポートを構成します。|直接ルーティングするための接続ポイントは、次の 3 つの Fqdn です。<ul><li>sip.pstnhub.microsoft.com<li>sip2.pstnhub.microsoft.com<li>sip3.pstnhub.microsoft.com</ul>ポイントを接続し、SBCs の間のトラフィックは、企業のファイアウォールで許可されていなければなりません。 SBC を構成する場合、SBC の TCP ポートを定義します。<br><br>メディア トラフィックは、UDP では。 この種のトラフィックは、メディア ・ プロセッサ ・ コンポーネントとの間をフローします。 SBCs とメディア プロセッサとの間の双方向のトラフィックが、ファイアウォールにもできる必要があります。<br><br>**注:** メディア プロセッサがある動的な IP アドレス、および静的 IP アドレスが表示されます後。 の[Azure データ センターの IP の範囲](https://www.microsoft.com/en-us/download/details.aspx?id=41653)に記載されている任意の IP アドレスを許可することが重要です。||[SIP シグナル: Fqdn およびファイアウォールのポート](https://docs.microsoft.com/microsoftteams/direct-routing-plan#sip-signaling-fqdns-and-firewall-ports)<br><br>[メディア トラフィック: IP アドレスとポートの範囲](https://docs.microsoft.com/microsoftteams/direct-routing-plan#media-traffic-port-ranges)<br><br>[Azure データ センターの IP の範囲](https://www.microsoft.com/en-us/download/details.aspx?id=41653)|
+|6|計画およびファイアウォールのポートを構成します。|直接ルーティングするための接続ポイントは、次の 3 つの Fqdn です。<ul><li>sip.pstnhub.microsoft.com<li>sip2.pstnhub.microsoft.com<li>sip3.pstnhub.microsoft.com</ul>ポイントを接続し、SBCs の間のトラフィックは、企業のファイアウォールで許可されていなければなりません。 SBC を構成する場合、SBC の TCP ポートを定義します。<br><br>メディア トラフィックは、UDP では。 この種のトラフィックは、メディア ・ プロセッサ ・ コンポーネントとの間をフローします。 SBCs とメディア プロセッサとの間の双方向のトラフィックが、ファイアウォールにもできる必要があります。<br><br>**注:** メディア プロセッサがある動的な IP アドレス、および静的 IP アドレスが表示されます後。 の[Azure データ センターの IP の範囲](https://www.microsoft.com/download/details.aspx?id=41653)に記載されている任意の IP アドレスを許可することが重要です。||[SIP シグナル: Fqdn およびファイアウォールのポート](https://docs.microsoft.com/microsoftteams/direct-routing-plan#sip-signaling-fqdns-and-firewall-ports)<br><br>[メディア トラフィック: IP アドレスとポートの範囲](https://docs.microsoft.com/microsoftteams/direct-routing-plan#media-traffic-port-ranges)<br><br>[Azure データ センターの IP の範囲](https://www.microsoft.com/download/details.aspx?id=41653)|
 |7|SBCs を構成します。|マイクロソフトでは、直接ルーティングとペアにする認定の SBCs のみサポートします。<br><br>SBCs を構成するには、**追加の情報**列の記事、ベンダー固有のガイダンスと手順を使用します。||[セッション ボーダー コント ローラー (SBCs) のサポート](https://docs.microsoft.com/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs)|
 |8|直接ルーティングのペアの SBCs|直接ルーティングでは、自分のトランクを使用してダイヤル トーンと PSTN の呼び出し元の機能を提供する各サイトの SBCs を組み合わせる必要があります。<br><br>その特定のサイトの SBC の検証は既にと共に直接ルーティングまたはペアを構成する前に実行しない場合。<br><br>マイクロソフトでは、のみ、認定された SBC の対に直接ルーティングをサポートします。 検証サイトの SBC を認定します。||[電話システムのルーティング サービスを指示する SBC をペアします。](https://docs.microsoft.com/microsoftteams/direct-routing-configure#pair-the-sbc-to-direct-routing-service-of-phone-system)|
 |9|SBC のペアを検証します。|実行、`Get-CsOnlinePSTNGateway`各 SBC の特定のサイト用にペア化し、パラメーターを**有効**に**は True**の値が表示されることを確認するためのコマンドレットです。<br><br>SBC を取得することを確認するのには、SBC の管理インターフェイスを使用して**200 [OK]** 送信 SIP オプションに対応します。|||

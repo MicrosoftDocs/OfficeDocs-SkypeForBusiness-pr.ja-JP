@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 06/07/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: 契約時のチェックリストを使用して、Office 365 をチームに準備し、チームの中心的な機能、ネットワークを構成し、音声のワークロードをクラウドします。
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6cde789ed0a2c3e6bba56ac1213898a5240d6e81
-ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
+ms.openlocfilehash: e115ac93a63fb007787a4324c56793c996723c64
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20302209"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850206"
 ---
 # <a name="prepare-my-service"></a>サービスを準備します。
 

@@ -8,15 +8,16 @@ ms.topic: article
 ms.service: msteams
 description: 組織のニーズを満たすように Microsoft Teams でチームを組織するためのベスト プラクティスについて説明します。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be7cd35a85d220163d7d0c762883e7e1018c3115
-ms.sourcegitcommit: fa8732e704f00096c7ff041aba91e617a8d44e29
+ms.openlocfilehash: aa2d931561922a8b5e92e3ec695b4cd8ad4fdb83
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/13/2018
-ms.locfileid: "19875254"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867590"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Microsoft Teams でチームを編成するためのベスト プラクティス
 ======================================================
@@ -36,7 +37,7 @@ ms.locfileid: "19875254"
 
 チームを作成したら、会話を行いたい複数の領域について考えるとよいでしょう。このようにすることで、目標に向かう推進力が生まれ、最初のチャネルが作成されるため、ユーザーも力を入れる場所が分かるようになり、既存の会話も見つけやすくなります。チャネルの名前は説明的にすると、チャネル内の会話が何を達成しようとしているのかが分かりやすくなります。チャネルに新しいタブを追加して OneNote、PowerBI のようなツールを追加したり、Web ページやその他のコンテンツへのリンクを追加して、ユーザーがコンテンツを検索したり考えを共有しやすくしたりできます。
 
-エンド ・ ユーザー、[チームで作業](https://support.office.com/en-us/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams)をこれらの簡単なヒントの詳細についてください。 
+エンド ・ ユーザー、[チームで作業](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams)をこれらの簡単なヒントの詳細についてください。 
 
 <a name="channel-best-practices"></a>チャネルのベスト ・ プラクティス
 ----------------------
@@ -52,6 +53,6 @@ ms.locfileid: "19875254"
 
 削除することはできません現時点では、unfavorite または一般的なチャネルです。 チャネルの名前を付けるときは、一般的なチャネルの後、チャンネルをアルファベット順に並んで、覚えておいてください。  多くのチャネルを持つチームでは、チームに移動したときに自動的に表示するチャンネルを制御するのに「お気に入りチャンネル」機能を使用します。 
 
-詳細について[チャネルで動作して](https://support.office.com/en-us/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels)これらの簡単なヒントとエンド ・ ユーザー向けです。 
+詳細について[チャネルで動作して](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels)これらの簡単なヒントとエンド ・ ユーザー向けです。 
 
 

@@ -1,7 +1,7 @@
 ---
 title: MSI を使用してマイクロソフトのチームをインストールします。
-author: ninadara
-ms.author: ninadara
+author: Lester-Hewett
+ms.author: lehewe
 manager: serdars
 ms.date: 03/21/2018
 ms.topic: article
@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: ''
 description: 管理者が一括してチームの msi ファイルを使用できますユーザーまたはコンピューターを選択するのには、マイクロソフトのチームを配置します。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 655b028cb6f51538f4b65bbdb371c7b785f8763a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7176b990c41f2792f0955ac3ca2e937632a707d7
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20972900"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854142"
 ---
 <a name="install-microsoft-teams-using-msi"></a>MSI を使用してマイクロソフトのチームをインストールします。
 =================================

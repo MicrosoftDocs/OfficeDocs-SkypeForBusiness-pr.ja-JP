@@ -1,5 +1,5 @@
 ---
-title: セッション ボーダー コント ローラーが直接ルーティングするための認定の一覧
+title: ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,48 +9,48 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: ''
-description: SBC を証明する、選択した SBC ベンダーとマイクロソフトのパートナーは、直接ルーティング機能します。
+description: マイクロソフトは、ダイレクト ルーティングで機能する SBC を認定するために、選ばれた SBC ベンダーと提携しています。
 ms.openlocfilehash: f233bdfcb579bbab3d9c9a13f0ab500a8c512d2e
 ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23850836"
 ---
-# <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>セッション ボーダー コント ローラーが直接ルーティングするための認定の一覧
+# <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
-マイクロソフトと提携することを確認するための選択されているセッション ボーダー コント ローラー (SBC) ベンダー、SBCs を直接ルーティング作業。 
+マイクロソフトは、ダイレクト ルーティングで機能する SBC を認定するために、選ばれた セッション ボーダー コントローラー (SBC) ベンダーと提携しています。 
 
-各ベンダーはマイクロソフト。 
+各ベンダーと、マイクロソフトは次のことを行います。 
 
-- SIP 相互接続プロトコルの SBC ベンダーと共同で動作します。
-- サード ・ パーティ製ラボを使用して大量のテストを実行します。テストに合格したデバイスのみが認定されています。 
-- 運用環境および運用前環境で認定されたすべてのデバイスでは、毎日のテストを実行します。 運用前環境でデバイスを検証する認定の SBCs でクラウドに直接ルーティングのコードの新しいバージョンが動作するを保証します。 
-- SBC ベンダーとの共同サポート プロセスがあります。
+- SIP 相互接続プロトコルについて、SBC ベンダーと協力して取り組みます。
+- サードパーティのラボで、集中的なテストを実行します。そのテストに通過したデバイスのみが認定されます。 
+- すべての認定済みデバイスに対して、実稼働環境と実稼働前環境で毎日テストを実行します。 実稼働前環境でデバイスを検証することにより、クラウド内の新しいバージョンのダイレクト ルーディング コードが認定済み SBC で機能することが保証されます。 
+- SBC ベンダーとの共同サポート プロセスを実施します。
  
 
   > [!NOTE]
-  > マイクロソフトは、認定済みのデバイスまたはデバイスは、直接ルーティングを使用して接続している場合のみ電話システムをサポートします。 マイクロソフトでは、認定されていないデバイスが直接ルーティングを使用して電話システムに接続されているサポート ・ リクエストを拒否する権利を留保します。 
+  > マイクロソフトは、認定済みの 1 つまたは複数のデバイスがダイレクト ルーティングを介して接続されている電話システムのみをサポートします。 マイクロソフトは、認定済みでないデバイスがダイレクト ルーティングを介して電話システムに接続されている場合に、サポート ケースを拒否する権利を留保します。 
 
-直接ルーティングの認定デバイスを次の表にします。 
+以下の表に、ダイレクト ルーティングに対応する認定済みデバイスを一覧表示します。 
 
-[直接ルーティングに関する詳細を表示](https://aka.ms/dr)します。 直接ルーティングの SBC 証明プログラムに関する質問がある場合は、drsbccertification@microsoft.com にメールしてください。
+[ダイレクト ルーティングの詳細についてはこちらをご覧ください](https://aka.ms/dr)。 ダイレクト ルーティングの SBC 認証プログラムに関する質問がある場合は、drsbccertification@microsoft.com にメールでお問い合わせください。
 
 
-|仕入先  |製品  |メディア以外のバイパス  |メディアのバイパス  |ソフトウェアのバージョン|
+|ベンダー  |製品  |非メディア バイパス  |メディア バイパス  |ソフトウェア バージョン|
 |---------|---------|---------|---------|---------|
-|[は](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/sbcs-media-gateways)    |   Mediant 500 SBC       |    & #10004;     |    保留中      |     7.20A.200.055     |
-|  |   Mediant 800 SBC       |    & #10004;      |     保留中    |      7.20A.200.055    |
-|     |      Mediant 2600 SBC    |     & #10004;     |    保留中     |    7.20A.200.055      |
-|     |   Mediant 4000 SBC       |     & #10004;     |    保留中     |    7.20A.200.055      |
-|     |    Mediant 1000B SBC   |    & #10004;      |  保留中       |    7.20A.200.055   |
-|     |   SBC の仮想エディション    |   & #10004;   |保留中         |     7.20A.200.055     |
-|[リボン通信](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110    |    & #10004;      |   保留中      |     V6.2     |
-|     |SBC 5210     |     & #10004;     |    保留中     |    V6.2      |
-|     | SBC 5400     |    & #10004;  |    保留中     |   V6.2    |
-|     |SBC 7000     |     & #10004;  |    保留中     |    V6.2      |
-|     | SBC のスウェーデン語  |   & #10004;    |    保留中     |    V6.2      |
-|     |SBC 1000   |     & #10004;   |     保留中    |    V7.0.2   |& #10004; 
-|     | SBC 2000    |     & #10004;   |    保留中     |    V7.0.2      |
-|[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)     |    365 SBC を考える      |  & #10004;       |    保留中     |   V1.4       |
+|[AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/sbcs-media-gateways)    |   Mediant 500 SBC       |    &#10004;     |    保留中      |     7.20A.200.055     |
+|  |   Mediant 800 SBC       |    &#10004;      |     保留中    |      7.20A.200.055    |
+|     |      Mediant 2600 SBC    |     &#10004;     |    保留中     |    7.20A.200.055      |
+|     |   Mediant 4000 SBC       |     &#10004;     |    保留中     |    7.20A.200.055      |
+|     |    Mediant 1000B  SBC   |    &#10004;      |  保留中       |    7.20A.200.055   |
+|     |   Virtual Edition SBC    |   &#10004;   |保留中         |     7.20A.200.055     |
+|[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110    |    &#10004;      |   保留中      |     V6.2     |
+|     |SBC 5210     |     &#10004;     |    保留中     |    V6.2      |
+|     | SBC 5400     |    &#10004;  |    保留中     |   V6.2    |
+|     |SBC 7000     |     &#10004;  |    保留中     |    V6.2      |
+|     | SBC SWe  |   &#10004;    |    保留中     |    V6.2      |
+|     |SBC 1000   |     &#10004;   |     保留中    |    V7.0.2   |&#10004; 
+|     | SBC 2000    |     &#10004;   |    保留中     |    V7.0.2      |
+|[ThinkTel](https://www.thinktel.ca/services/think-365/think-365-overview/)     |    Think 365 SBC      |  &#10004;       |    保留中     |   V1.4       |
 |     |         |         |         |         |

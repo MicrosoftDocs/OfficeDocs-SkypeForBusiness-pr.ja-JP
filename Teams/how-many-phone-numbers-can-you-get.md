@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 61dfb27c-5bfa-4481-a930-9c026e73ff3a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,18 +21,18 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 組織で使用する電話番号を取得しようと考えているときに、割り当て済みのライセンスで提供される数以上の電話番号を取得することができます。 ただし、取得できる数は、電話番号のタイプと、ご購入された割り当て済みライセンスのタイプに応じて変わります。 さまざまな種類のビジネス オンラインの Skype で使用される別の電話番号を知るために計画を呼び出すことのために使用する電話番号をクリックすることができます。
-ms.openlocfilehash: 53c470e528fefbb793fbb2d75d732cfb31730ef3
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: a0d4e1273a49ac4f9e82cb98c8baddf22772f9d4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784735"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856308"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>取得できる電話番号の数について
 
 組織で使用する電話番号を取得しようと考えているときに、割り当て済みのライセンスで提供される数以上の電話番号を取得することができます。 ただし、取得できる数は、電話番号のタイプと、ご購入された割り当て済みライセンスのタイプに応じて変わります。 Skype でオンライン ビジネスのために使用する別の電話番号を知るために[さまざまな種類の計画を呼び出すために使用する電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)をクリックすることができます。
   
-ビジネス管理センターでは、Skype で**電話番号**のページを表示できるよう、電話番号の数を確認することができます。 または[Get CsOnlineTelephoneNumberAvailableCount](https://technet.microsoft.com/en-us/library/mt634605.aspx)コマンドレットを実行することができます。
+ビジネス管理センターでは、Skype で**電話番号**のページを表示できるよう、電話番号の数を確認することができます。 または[Get CsOnlineTelephoneNumberAvailableCount](https://technet.microsoft.com/library/mt634605.aspx)コマンドレットを実行することができます。
   
 > [!IMPORTANT]
 > 下記の制限には、お客様がマイクロソフトに移行した電話番号は含まれません。 

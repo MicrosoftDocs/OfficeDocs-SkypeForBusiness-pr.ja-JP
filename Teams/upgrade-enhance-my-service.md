@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: チーム サービスを向上させるアップグレードした後、すべての興味深い機能拡張のチームのロードマップを監視する機会を定期的に評価します。
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efdbdd28759f42e1fcba5cb62f2c7a8a97f99bb0
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: c89894f0df37ea1e29cea65e091b7bd4f4670fc0
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398094"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864456"
 ---
 ![オペレーショナル ・ エクセレンスの段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-op-excellence.png "オペレーショナル ・ エクセレンスの段階に重点を置いて、旅アップグレードの段階")
 
@@ -31,7 +32,7 @@ ms.locfileid: "20398094"
 ## <a name="enhance-my-service-overview"></a>[サービスの概要」を強化します。
 チームを組織に正常に展開し、品質と信頼性、次の手順でサービスが動作して、サービスを強化するためにあらゆる機会があるかどうかを定期的に評価します。 これは、クラウド サービスの管理の標準の最新の計画は継続的なサービスの向上の一部です。 
 
-常に最大限のサービスを受信するかどうかを確認するのには、組織に関係のある新しい機能の拡張の[チームのパブリック ・ ロードマップ](https://products.office.com/en-us/business/office-365-roadmap?filters=microsoft%20teams)を監視します。 Office 365 管理ポータルへのアクセス権があれば、当社からの新機能と変更機能、メッセージ センターを使用して定期的に更新が表示されます。 
+常に最大限のサービスを受信するかどうかを確認するのには、組織に関係のある新しい機能の拡張の[チームのパブリック ・ ロードマップ](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)を監視します。 Office 365 管理ポータルへのアクセス権があれば、当社からの新機能と変更機能、メッセージ センターを使用して定期的に更新が表示されます。 
 
 さらに、組織が成長し、変更、ためにを再検討して、組織の現在のニーズを満たすために、サービスが構成されているかどうかを確認するのには一定の間隔で、ビジネス ユース ケースを更新する時間を講じてください。  組織内からのフィードバック チャネルを確立することによって、ユーザーと社内のエキスパートから実際のフィードバックを受信することを確認します。 これらは、非公式の会話では、通常の meeetings、または実行、チームは、チャネルまたは Yammer コミュニティ。 
 

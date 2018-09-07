@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: MyAdvisor, lolaj
 description: 構想 (計画)、参加 (提供)、価値の創出 (運用) を通して Microsoft Teams の電話会議の計画、展開、管理を行うための実践的なガイダンス。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-redirect_url: https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 7f79257847780ec4c3f9b0c4dd2cda25241a3518
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
+ms.openlocfilehash: f48643f21dd6614aa8cc3f0085cd395ffaddcba8
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779223"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850268"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議についての実践的なガイダンスを提供します。
 ============================================================

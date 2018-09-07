@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 26602564-0f15-44e6-a27b-c8f26668ba7f
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: ビジネス オンラインの Skype では、電話番号を使用する目的に応じて異なる電話番号の種類を使用します。
-ms.openlocfilehash: 4fb30c2c751cc016a5e5e1504484b406236abde6
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: ee1c469268629fff87cf04f2a2cec94c179db5b0
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23782975"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23868262"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>通話プランで使用されるさまざまな種類の電話番号
 

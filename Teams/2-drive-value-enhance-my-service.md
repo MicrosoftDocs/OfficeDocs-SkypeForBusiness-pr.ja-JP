@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: チーム サービスの強化、すべての興味深い機能拡張のチームのロードマップを監視する機会を定期的に評価します。
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 98ccde7b481b8b57f32979bc73f6c69f4e0d24cd
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 57de86e056c9023bcafbf5d475081b8f50afbe36
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19694811"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856030"
 ---
 # <a name="enhance-my-service"></a>サービスを強化します。
 
@@ -26,11 +27,11 @@ ms.locfileid: "19694811"
 ## <a name="enhance-my-service-overview"></a>[サービスの概要」を強化します。
 あらゆる機会があるかどうかを定期的に評価するためには、正常に展開オーディオ会議や電話システム サービスの計画を呼び出すと、組織にし、品質と信頼性、次の手順でサービスを動作しています。サービスを強化します。 これは、クラウド サービスの管理の標準の最新の計画は継続的なサービスの向上の一部です。 
 
-常に最大限のサービスを受信するかどうかを確認するのには、組織に関係のある新しい機能の拡張の[チームのパブリック ・ ロードマップ](https://products.office.com/en-us/business/office-365-roadmap?filters=microsoft%20teams)を監視します。 Office 365 管理ポータルにアクセスできる場合に関する新機能と変更機能、メッセージ センターを使用してマイクロソフトから定期的に更新が表示されます。 
+常に最大限のサービスを受信するかどうかを確認するのには、組織に関係のある新しい機能の拡張の[チームのパブリック ・ ロードマップ](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)を監視します。 Office 365 管理ポータルにアクセスできる場合に関する新機能と変更機能、メッセージ センターを使用してマイクロソフトから定期的に更新が表示されます。 
 
 さらに、組織が成長し、変更、ためにを再検討して、組織の現在のニーズを満たすために、サービスが構成されているかどうかを確認するのには一定の間隔で、ビジネス ユース ケースを更新する時間を講じてください。  組織内からのフィードバック チャネルを確立することによって、ユーザーと社内のエキスパートから現実の世界からのフィードバックを取得することを確認します。 これらは、非公式の会話では、正規の meeetings や、チームでは、チャネルまたは Yammer コミュニティ。 
 
-サービスを強化するために営業案件が表示、右に時間がかかります。 実装の段階に戻って (https://docs.microsoft.com/en-us/MicrosoftTeams/quick-start-enable-teams) 、エンド ツー エンドの同一のガイダンスを適用します。 小さな変更を行う場合は、可能性のあるすべてのアクティビティとの完全なタスクを完了する必要がありますが、各アクティビティとタスクが成功した結果での最善の機会を持たせるための方法に沿って評価をする必要があることはできません。
+サービスを強化するために営業案件が表示、右に時間がかかります。 実装の段階に戻って (https://docs.microsoft.com/MicrosoftTeams/quick-start-enable-teams) 、エンド ツー エンドの同一のガイダンスを適用します。 小さな変更を行う場合は、可能性のあるすべてのアクティビティとの完全なタスクを完了する必要がありますが、各アクティビティとタスクが成功した結果での最善の機会を持たせるための方法に沿って評価をする必要があることはできません。
 
 
 <table>

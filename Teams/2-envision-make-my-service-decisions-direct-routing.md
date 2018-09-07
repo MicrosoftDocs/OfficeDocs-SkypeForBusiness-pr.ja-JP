@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 07/09/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: については直接ルーティングでは、ライセンス、および意思決定をする必要があります。
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4483bd8e86315c3ff8386e10cd46b6a37043240b
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: cf52071419b3ee9bb606649d6fa50870e23879cc
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23848602"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23869462"
 ---
 # <a name="make-my-service-decisions"></a>[サービスの決定を行う
 

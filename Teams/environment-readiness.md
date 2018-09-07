@@ -9,22 +9,23 @@ ms.service: msteams
 ms.reviewer: dansteve
 description: Microsoft Teams の導入に向けた環境の準備の確認事項について説明します。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1121256cef2a719b9f6fccebac9a88fe9f5bea25
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: 287d4a859b51446d0e5765fe5552609e7c0ff0c9
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "19136346"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849812"
 ---
 <a name="check-your-environments-readiness-for-microsoft-teams"></a>Microsoft Teams の導入に向けた環境の準備を確認する
 ===========================================
 
 クラウドへの移行作業は各組織によって異なり、現在の状況が Teams がどのように機能するかに大きな影響を与えます。
 
-教育機関は、マイクロソフトのチームを展開する前に[学校のデータの同期を展開](https://docs.microsoft.com/en-us/schooldatasync/)するよう強くお勧めします。 学校のデータの同期では、マイクロソフトのチームや他のアプリケーションのクラスおよびグループを自動的に作成するのには、学校の SIS の名簿のデータを使用します。
+教育機関は、マイクロソフトのチームを展開する前に[学校のデータの同期を展開](https://docs.microsoft.com/schooldatasync/)するよう強くお勧めします。 学校のデータの同期では、マイクロソフトのチームや他のアプリケーションのクラスおよびグループを自動的に作成するのには、学校の SIS の名簿のデータを使用します。
 
 Teams の最適な操作性を実現するには、組織で Exchange Online と SharePoint Online を展開している必要があります。これらのサービスを展開していない場合や他のセットアップを利用している場合は、ヘルプのこれらのリンクをご覧ください。
 
@@ -38,6 +39,6 @@ Teams の最適な操作性を実現するには、組織で Exchange Online と
 
 -   組織で SharePoint Online が導入されていない場合は、「[Microsoft Teams との SharePoint Online と OneDrive for Business の連携](SharePoint-OneDrive-interact.md)」をご覧ください。
 
-- 組織は、教育機関、学生情報システム (SIS)、マイクロソフトのチームを展開する前に[学校のデータの同期を展開する](https://docs.microsoft.com/en-us/schooldatasync/)を使用する場合。
+- 組織は、教育機関、学生情報システム (SIS)、マイクロソフトのチームを展開する前に[学校のデータの同期を展開する](https://docs.microsoft.com/schooldatasync/)を使用する場合。
 
                                                                                

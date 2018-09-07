@@ -8,15 +8,16 @@ ms.topic: article
 ms.service: msteams
 description: チーム クライアントと Office 365 管理 web コンソールでは、についての会話を使用して、チームを教育する方法を使用して、パブリックとプライベートのグループを選択するなどの Office 365 のグループを計画する場合をする必要があります決定事項について説明します。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f89b6c8c21a196903ff476ffa1a072b7c999b6ce
-ms.sourcegitcommit: 5fb3957b658b48edf3d9878a9d53a4002b8f55d8
+ms.openlocfilehash: 735044773ba6b0e63d5a2b544345b3bff25b6dc5
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23520071"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854110"
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Microsoft Teams でチームを作成するときの Office 365 グループの計画
 ==========================================================
@@ -46,4 +47,4 @@ Office 365 グループの計画と Microsoft Teams による影響 (または M
 
 -   [追加または Office 365 の管理センターを使用して Office 365 のグループからメンバーを削除します。](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
 
--   [削除された Office 365 のグループを復元します。](https://support.office.com/en-us/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)
+-   [削除された Office 365 のグループを復元します。](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)

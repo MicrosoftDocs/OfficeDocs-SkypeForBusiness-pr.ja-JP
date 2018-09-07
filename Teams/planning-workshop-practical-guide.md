@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: lolaj, rowille
 description: 組織による Microsoft Teams の使用の開始をサポートするためのツール、ワークショップ、スタートアップ キットの計画。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38f80f4840ec91bea2e6460b671edaa39a33d751
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: f1d4ddfba74e33f86ae8a8af113c95579997632d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23252446"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23852036"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>ツールとワークショップ: Microsoft Teams の計画、提供、導入
 

@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: rowille
 description: チーム機能、機能、および使いやすさで電話システムをテストによって、組織の期待を満たしていることを検証します。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fceaa215835b5ef231a29f896656835da940dbde
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: fffb52988da639f21246b0c5d27f2c8554b459ac
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779807"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855426"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>定義し、企業のチームのテスト計画での計画を呼び出すと、電話のシステムを文書化 
 ============================================================================================
@@ -93,7 +94,7 @@ ms.locfileid: "23779807"
 
 | エンタープライズ ・ クラス   | 共同会議    | プラットフォームとデバイス   | IT プロフェッショナル  | 追加のビジネス グループ、サイト固有  | チームの最新のロードマップで満たされる要件 |
 |-------------------------------------------|----------------------------|------------------|------------------------|-------------------|-------------------|
-| <ul><li>電話システムの機能を呼び出します。<ul><li>ブラインド転送</li><li>通話のブロック</li><li>呼び出しの転送</li><li>発信者番号マスク</li><li>E911 のサポート</li><li>拡張ダイヤル</li><li>呼び出しの保留中</li><li>複数の呼び出しの処理</li><li>同時呼び出し</li><li>Azure のボイスメール</li></ul></li><li>通話プランのサポート</li></ul> |<ul><li>ビジネス用の Skype-に-チームの呼び出し</li></ul> |<ul><li> Windows、Mac チーム クライアントとの会議機能をサポート</li><li>ブラウザー チーム クライアントの会議機能をサポートしています。<ul><li>クロム</li><li>Microsoft Edge</li></ul></li><li>iOS および Android チーム クライアント会議機能をサポートします。</li><li>TTY サポート</li></ul> | <ul><li>通話品質の診断ポータル</li><li>テナントのダイヤル プラン</li><li>テナントの発信者番号通知のポリシー</li><li>通話品質の分析 (救難) を有効にします。</li></ul> | <ul><li>チームが会議の会社のラップトップ コンピューターのイメージに基づく機能の検証します。</li><li>特定の言語のサポート</li><li>シナリオの特定のユーザーまたは特定のサイトに適用される GPO の設定</li></ul> | はい  |
+| <ul><li>電話システムの機能を呼び出します。<ul><li>ブラインド転送</li><li>通話のブロック</li><li>呼び出しの転送</li><li>発信者番号マスク</li><li>E911 のサポート</li><li>拡張ダイヤル</li><li>呼び出しの保留中</li><li>複数の呼び出しの処理</li><li>同時呼び出し</li><li>Azure のボイスメール</li></ul></li><li>通話プランのサポート</li></ul> |<ul><li>ビジネス用の Skype-に-チームの呼び出し</li></ul> |<ul><li> Windows、Mac チーム クライアントとの会議機能をサポート</li><li>ブラウザー チーム クライアントの会議機能をサポートしています。<ul><li>クロム</li><li>Microsoft Edge</li></ul></li><li>iOS および Android チーム クライアント会議機能をサポートします。</li><li>TTY サポート</li></ul> | <ul><li>通話品質の診断ポータル</li><li>テナントのダイヤル プラン</li><li>テナントの発信者番号通知のポリシー</li><li>通話品質の分析 (救難) を有効にします。</li></ul> | <ul><li>チームが会議の会社のラップトップ コンピューターのイメージに基づく機能の検証します。</li><li>特定の言語のサポート</li><li>シナリオの特定のユーザーまたは特定のサイトに適用される GPO の設定</li></ul> | あり  |
 
 
 

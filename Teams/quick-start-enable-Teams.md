@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: lolaj, tonysmit
 description: このガイドは、所属する組織で使用する Microsoft Teams を計画、実装、導入するための手順を説明します。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc4e1815b6d3b649c8af518068ca2d6ff3e9adbc
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: fbebf57b4da07f25d9687c27acd70e5cfd25930e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242815"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854998"
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>クイック スタート: Microsoft Teams の計画ガイド
 ==========================================================
@@ -50,7 +51,7 @@ Microsoft Teams でチーム、チャネル、タブの計画を行うときの�
 
 ## <a name="step-3-complete-technical-planning"></a>手順 3: 技術計画を完成する
 
-効率的な技術計画は、優れたユーザー エクスペリエンスの基礎となります。 所属する組織が所有しているライセンスが 50 シートを超えていて、[対象となるプラン](https://docs.microsoft.com/en-us/fasttrack/fasttrack-benefit-for-office-365) に参加している場合は、[FastTrack の特典](https://docs.microsoft.com/en-us/fasttrack/fasttrack-benefit-for-office-365)を利用することができます。この特典は、追加で費用がかからずに、計画、展開、サービス導入にいたるまでのガイドとして利用できます。 また、この作業をお客様自身で完了することもできます。その場合は、Office 365 アカウントでサインインすると [FastTrack](https://fasttrack.microsoft.com/) から利用できるようになる FastTrack オンボーディング ウィザードを使用します。 以下の情報は、この手順を Teams のために完了するのに役立ちます。 少なくとも、次の 4 つの記事の内容を確認する必要があります。
+効率的な技術計画は、優れたユーザー エクスペリエンスの基礎となります。 所属する組織が所有しているライセンスが 50 シートを超えていて、[対象となるプラン](https://docs.microsoft.com/fasttrack/fasttrack-benefit-for-office-365) に参加している場合は、[FastTrack の特典](https://docs.microsoft.com/fasttrack/fasttrack-benefit-for-office-365)を利用することができます。この特典は、追加で費用がかからずに、計画、展開、サービス導入にいたるまでのガイドとして利用できます。 また、この作業をお客様自身で完了することもできます。その場合は、Office 365 アカウントでサインインすると [FastTrack](https://fasttrack.microsoft.com/) から利用できるようになる FastTrack オンボーディング ウィザードを使用します。 以下の情報は、この手順を Teams のために完了するのに役立ちます。 少なくとも、次の 4 つの記事の内容を確認する必要があります。
 
 1.  [Teams の導入に向けた環境の準備を確認する](environment-readiness.md)
 2.  [Teams 用にネットワークを準備する](prepare-network.md)

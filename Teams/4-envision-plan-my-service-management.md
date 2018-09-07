@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: 提供し、運用上の役割を計画し、品質の支持者を割り当てることにより、高品質の展開を管理します。
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3857bde4a71e3745c4e83546c0ad1b0114469197
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 33992e8f239a723b53b87159b3c09816b6bd0b20
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695503"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867902"
 ---
 # <a name="plan-my-service-management"></a>[サービスの管理を計画します。
 
@@ -107,7 +108,7 @@ Envision のフェーズの早い段階で運用上の役割のマッピング�
 
 品質のエクスペリエンス評価ガイドで提供されるガイダンスを報告し、説明したとおりで、オーディオを採用し、影響を最大化に重点を置いた各領域を調査する主要なツールとして呼び出す品質ダッシュ ボード (救難) オンラインを使用して重点的に説明します。 すべてが最適化され、ネットワーク、オーディオ ・ エクスペリエンスを向上させるためには、ビデオ、およびデスクトップの共有の機能強化にも直接変換します。
 
-早い段階で品質の支持者を指名するを強くお勧めします。 後、指定されている[品質体験レビュー ガイド](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)の内容に慣れるために、開始する必要があります。
+早い段階で品質の支持者を指名するを強くお勧めします。 後、指定されている[品質体験レビュー ガイド](https://aka.ms/qerguide)の内容に慣れるために、開始する必要があります。
 
 
 

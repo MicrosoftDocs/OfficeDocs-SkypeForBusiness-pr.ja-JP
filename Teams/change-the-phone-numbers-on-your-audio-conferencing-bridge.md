@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 6403f6d1-c05a-44ab-a6e0-558000e246f4
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 電話会議ライセンスをご購入いただく場合、Microsoft はお客様の組織の電話会議ブリッジ をホストします。電話会議ブリッジではさまざまな場所からダイヤルイン電話番号を受け取るため、会議の開催者や参加者はそれらの番号を使用して電話で Skype for Business 会議または Microsoft Teams 会議に参加できます。
-ms.openlocfilehash: 69783cdfeaa1787a2da432491ff15f2a3a147d68
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 3de53df00f364a4aad6efe416a83e5389cc0b8ef
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23848594"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23852084"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>電話会議ブリッジの電話番号を変更する
 

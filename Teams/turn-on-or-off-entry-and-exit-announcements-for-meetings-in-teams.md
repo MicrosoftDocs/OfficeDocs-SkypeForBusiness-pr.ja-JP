@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: f2c7b5ea-07b6-4b77-8023-bec9596fcc32
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'エントリをオンにし、マイクロソフトのチーム会議で発表をオンまたはオフを終了する方法について説明します。 '
-ms.openlocfilehash: b1409c34adce4bdb32013c184e273072858d3322
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 44b3c88b9e4284c7606d57661022dbe21d236147
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23781176"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23851008"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>エントリ無効を切り替えるし、マイクロソフトのチームでの会議のお知らせを終了します。
 
@@ -57,7 +58,7 @@ Windows PowerShell は、ユーザーと、ユーザーに許可されている�
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-Windows PowerShell の詳細については、[マイクロソフト チームの PowerShell の参照](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps)の詳細についてを参照してください。
+Windows PowerShell の詳細については、[マイクロソフト チームの PowerShell の参照](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)の詳細についてを参照してください。
   
 ## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 

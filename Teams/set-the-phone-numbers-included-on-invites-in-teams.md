@@ -1,0 +1,75 @@
+---
+title: Microsfot チームの携帯電話への招待に含まれている番号を設定します。
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.reviewer: oscarr
+ms.topic: article
+ms.assetid: 32954439-d365-4125-872f-b37466ecb035
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+search.appverid: MET150
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
+ms.audience: Admin
+appliesto:
+- Microsoft Teams
+localization_priority: Priority
+f1keywords: None
+ms.custom:
+- Audio Conferencing
+description: 'Microsfot チーム会議に参加するのには呼び出し元の既定の電話番号を作成する手順を取得します。 '
+ms.openlocfilehash: 54778aac19d090b4c609da1c5a63da3ba146ae44
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23857448"
+---
+# <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>マイクロソフトのチームでの携帯電話への招待に含まれている番号の設定します。
+
+マイクロソフト チームの会議を作成して、電話を使用してその会議にダイヤルインするユーザーを許可し、組織内のユーザーを Office 365 での音声会議に使用できます。 、Office 365 では、マイクロソフトのオーディオ会議ブリッジまたは、承認済みの音声会議プロバイダー (ACP) によってホストされているサード ・ パーティ製のオーディオ会議ブリッジを使用するオプションがあります。
+  
+会議ブリッジは、組織用のダイヤルイン電話番号のセットを提供します。これらの番号はすべて会議開催者が作成した会議に参加するために使用できますが、会議出席依頼にどの番号を含めるか選ぶことができます。
+  
+> [!NOTE]
+> 会議主催者の会議出席依頼には、1 つの有料電話番号と 1 つの無料電話番号を含めることができますが、会議出席依頼の下部に、会議に参加するために使用できるダイヤルイン電話番号のすべての一覧を表示するリンクも記載されています。 
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
+  
+## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>設定または会議の開催者またはユーザーの既定の電話会議の電話番号を変更します。
+
+1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
+
+    ![マイクロソフトのチームとビジネス管理センターの Skype のユーザーの選択を示しています](media/teamsselectusers.png)
+
+2. ページの上部で、[**編集**] をクリックします。
+
+    ![マイクロソフトのチームとビジネス管理センターの Skype での編集] をクリックします。](media/teamsedituser.png)
+
+3. **オーディオ会議**の横にある [**編集**] をクリックします。 
+    
+    ![編集をクリックしてオーディオ会議](media/teamseditaudioconf.png)
+
+4. **有料電話番号**や**フリー ダイヤル番号**のフィールドを使用すると、ユーザーの数を入力します。
+
+
+> [!IMPORTANT]
+> ユーザーの電話会議の設定を変更すると、マイクロソフトのチーム会議の定期的な予定と今後の更新し、出席者に送信する必要があります。 
+
+## <a name="want-to-use-windows-powershell"></a>Windows PowerShell を使用する場合
+
+Windows PowerShell は、ユーザーと、ユーザーに許可されていることと許可されていないことを管理するためにあるということです。Windows PowerShell があれば、一元管理を使用して Office 365 を管理し、複数のタスクを抱えているときに、日常の仕事を簡素化することができます。Windows PowerShell を開始するには、これらのトピックを参照してください。
+    
+  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
+    
+  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+    
+Windows PowerShell の詳細については、[マイクロソフト チームの PowerShell の参照](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)の詳細についてを参照してください。 
+  
+    
+## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+
+[Office 365 での電話会議を使用または購入する](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

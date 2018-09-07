@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: bc9bd328-c5b2-44e5-af15-e02bf00e1c81
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'ユーザーおよびその他のダイヤルイン会議の設定に、ダイヤルイン会議のライセンスおよび会議 ID を割り当てるには、マイクロソフトのチームの手順を参照してください。 '
-ms.openlocfilehash: 2e372c76cbbedeaa7558b4308366262e93cb5b91
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: b9b3198f5d66b36e986eeab72fdf5dd31521fb14
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780373"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23866836"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-microsoft-teams"></a>マイクロソフトのチームで、組織内でのオーディオ会議設定を管理します。
 
@@ -69,11 +70,11 @@ ms.locfileid: "23780373"
     
 **The conference ID and default dial-in conferencing phone number is included on the meeting invite but not the PIN.**
   
-詳細については[マイクロソフト チームの PowerShell のリファレンス](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps)を参照してください。
+詳細については[マイクロソフト チームの PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)を参照してください。
     
 ## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>You can also use the Windows PowerShell and run:
 
-Change the senders contact information of email messages sent to users 既定では、Office 365 は、電子メールの送信者が電子メール アドレスを変更し、Windows PowerShell を使用して名前を表示できます。 詳細については[マイクロソフト チームの PowerShell のリファレンス](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps)を参照してください。
+Change the senders contact information of email messages sent to users 既定では、Office 365 は、電子メールの送信者が電子メール アドレスを変更し、Windows PowerShell を使用して名前を表示できます。 詳細については[マイクロソフト チームの PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)を参照してください。
   
 ## <a name="reset-the-meeting-conference-id"></a>Sign in to Office 365 with your work or school account.
 
@@ -215,7 +216,7 @@ Windows PowerShell は、ユーザーと、ユーザーに許可されている�
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-Windows PowerShell の詳細については、[マイクロソフト チームの PowerShell の参照](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps)の詳細についてを参照してください。
+Windows PowerShell の詳細については、[マイクロソフト チームの PowerShell の参照](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)の詳細についてを参照してください。
   
     
 ## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。

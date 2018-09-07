@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: MyAdvisor
 description: 構想 (計画)、参加 (提供)、価値の創出 (運用) を通して Microsoft Teams の通話プランが設定された電話システムの計画、展開、管理を行うための実践的なガイダンス。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-redirect_url: https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: c697da99ab2ca96794448dca93f45ae29efa103d
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
+ms.openlocfilehash: 2ce4d09113cc75381379fa6f9481eca2ae27c2ea
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779893"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853656"
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Microsoft Teams の通話プランが設定された電話システムの実践的なガイダンス
 =========================================================================
@@ -27,7 +28,7 @@ ms.locfileid: "23779893"
 
 Office 365 の通話プランは、Teams と Skype for Business Online を介して提供される電話システム機能用のアドオン サービスです。 通話プランを利用することで、ビジネス ユーザーは代表電話番号を入手でき、公衆交換電話網 (PSTN) を介して組織外での通話の受信と発信を行うことができます。
 
-詳しくは、「[Office 365 での電話システムで利用できる機能](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system)」と「[Office 365 の通話プランについて](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)」をご覧ください。
+詳しくは、「[Office 365 での電話システムで利用できる機能](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system)」と「[Office 365 の通話プランについて](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)」をご覧ください。
 
 この実践的なガイダンスでは、Office 365 FastTrack のお客様が通話プランを実装した電話システムを正しく計画、提供、運用できるよう、導入フレームワークと 3 つの段階 (構想、参加、価値の創出) について説明します。
 
@@ -150,7 +151,7 @@ KSI は主要成果の質と成功を測定し、良い結果と悪い結果を�
 
 環境の検出には、通話プランが設定された電話システムのビジネス ユース ケースをサポートするための PC およびモバイル デバイスの準備状況 (ハードウェア要件からソフトウェア要件まで) の評価など、エンドユーザー コンピューティングに関連するすべての事項が含まれます。
 
-環境の検出では、[電話番号を Microsoft に移行する](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)必要があるかどうかも明らかになります。 これによって、組織は必要性の有無に応じてプロジェクト計画を調整し、番号の移行に必要な情報を準備することができます。 環境の検出を行うには、[Discovery Questionnaire (検出アンケート)](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_3) を使用します。
+環境の検出では、[電話番号を Microsoft に移行する](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)必要があるかどうかも明らかになります。 これによって、組織は必要性の有無に応じてプロジェクト計画を調整し、番号の移行に必要な情報を準備することができます。 環境の検出を行うには、[Discovery Questionnaire (検出アンケート)](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_3) を使用します。
 
 環境の検出では、Network Readiness Assessment を実行して、通話プランが設定された電話システムの実装をサポートする準備がネットワークで整っているかを確認する必要があります。
 
@@ -263,8 +264,8 @@ Network Readiness Assessment の結果により、必要とされるネットワ
 
 通話プランは Office 365 の電話システム機能へのアドオンです。そのため、通話プランを利用するには電話システムのライセンスが必要になります。
 
-[電話システム ライセンス](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)は、Office 365 E5 サブスクリプション プランの一部、または Office 365 E1 または Office 365 E3 サブスクリプション プランへのアドオンとして利用できます。
-[通話プラン ライセンス](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)には次の 2 つの種類があります。
+[電話システム ライセンス](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)は、Office 365 E5 サブスクリプション プランの一部、または Office 365 E1 または Office 365 E3 サブスクリプション プランへのアドオンとして利用できます。
+[通話プラン ライセンス](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)には次の 2 つの種類があります。
 
 -   国内通話プラン
 -   国内/国際通話プラン
@@ -278,11 +279,11 @@ Network Readiness Assessment の結果により、必要とされるネットワ
 
 Office 365 テナントの場合、通話時間 (分) は国や地域別と通話プランの種類ごとに累積されます。 テナントに割り当てられた月ごとの通話時間の限度に達すると、その月の残りの期間、通話プラン サービス (緊急通話を除く) が停止されます。 翌月の 1 日目から通話プラン サービスが自動的に再開されます。
 
-通話時間の限度に達した後、翌月の請求サイクルが始まるまで待たずに発信できるようにするために、組織のコミュニケーション クレジットを設定することができます。 [コミュニケーション クレジット](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)では、国内通話プランが割り当てられたユーザーも「1 分単位の支払い」モデルで請求される国際通話を利用できるようにすることができます。
+通話時間の限度に達した後、翌月の請求サイクルが始まるまで待たずに発信できるようにするために、組織のコミュニケーション クレジットを設定することができます。 [コミュニケーション クレジット](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)では、国内通話プランが割り当てられたユーザーも「1 分単位の支払い」モデルで請求される国際通話を利用できるようにすることができます。
 
-通信クレジットを実装するには、最初に初回購入金額を決定します。 推奨される金額については、[コミュニケーション クレジット](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)の記事をご覧ください。
+通信クレジットを実装するには、最初に初回購入金額を決定します。 推奨される金額については、[コミュニケーション クレジット](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)の記事をご覧ください。
 
-[コミュニケーション クレジット](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) の記事には、組織が自動リチャージを使用する場合のリチャージ実行 (資金の最小金額) の推奨金額も記載されています。 自動リチャージの金額は実際の使用量に応じて決定する必要があります。 コミュニケーション クレジットの使用量を経時的に監視して、必要に応じてリチャージの金額を調整する必要があります。
+[コミュニケーション クレジット](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) の記事には、組織が自動リチャージを使用する場合のリチャージ実行 (資金の最小金額) の推奨金額も記載されています。 自動リチャージの金額は実際の使用量に応じて決定する必要があります。 コミュニケーション クレジットの使用量を経時的に監視して、必要に応じてリチャージの金額を調整する必要があります。
 
 コミュニケーション クレジットの使用はユーザーごとに制御できるため、ビジネス ニーズに応じて組織内の各個人にクレジットを割り当てることができます。
 
@@ -314,30 +315,30 @@ Office 365 テナントの場合、通話時間 (分) は国や地域別と通�
 
 ## <a name="phone-numbers-and-emergency-locations"></a>電話番号と緊急対応の場所
 
-Office 365 の通話プランでは、組織内の各ユーザーに固有の DID (直通社内通話) 番号とそれに対応する[確認済みの緊急対応の住所](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)が指定されている必要があります。
+Office 365 の通話プランでは、組織内の各ユーザーに固有の DID (直通社内通話) 番号とそれに対応する[確認済みの緊急対応の住所](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)が指定されている必要があります。
 
-電話番号については、[Microsoft から直接取得するか](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)、既存の電話番号を [Microsoft に移行する](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)ことができます。
+電話番号については、[Microsoft から直接取得するか](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)、既存の電話番号を [Microsoft に移行する](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)ことができます。
 
 > [!NOTE]
 > Microsoft への電話番号の移行における複雑さは、国や地域、キャリヤ、関与する回路の数、その他多くの関連する要因によって大きく左右されます。 電話番号の移行の計画について詳しくは、「[Number Porting Guide (番号の移行ガイド)](https://go.microsoft.com/fwlink/?linkid=859011)」をご覧ください。
 
 Microsoft から直接に電話番号を取得するには、次のいずれかのオプションを使用します。
 
-- [Skype for Business 管理センター](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)
+- [Skype for Business 管理センター](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)
 - [リモート Windows PowerShell のコマンドレット](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
-- [新しい電話番号を要求するフォームを送信](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)します。
+- [新しい電話番号を要求するフォームを送信](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)します。
 
 New Telephone Number Request  (新規電話番号要求) フォームは、連続した電話番号を申し込むことができるため、電話番号の取得を計画している場合に最適です。 Skype for Business 管理センターまたはリモート Windows PowerShell はすべての国や地域で利用できるわけではありません。
 
 最初の 2 つの方法 (Skype for Business 管理センターまたはリモート Windows PowerShell) は、連続した電話番号をまとめて取得する必要がなく、単一の電話番号の取得をすばやく行う場合に適しています。
 
 > [!NOTE]
-> 組織が契約している通話プランのライセンスの数に応じて、Microsoft から取得できる[電話番号の数](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)に制限があります。 ユーザー (サブスクライバー) の電話番号の場合、その数は (国内通話プラン + 国内/国際通話プランのライセンス) x 1.1 +10 で算出されます。 たとえば、通話プラン ライセンスを持つユーザーが 50 人いる場合、65 個の電話番号を取得できます ((50 x 1.1) + 10)。
+> 組織が契約している通話プランのライセンスの数に応じて、Microsoft から取得できる[電話番号の数](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)に制限があります。 ユーザー (サブスクライバー) の電話番号の場合、その数は (国内通話プラン + 国内/国際通話プランのライセンス) x 1.1 +10 で算出されます。 たとえば、通話プラン ライセンスを持つユーザーが 50 人いる場合、65 個の電話番号を取得できます ((50 x 1.1) + 10)。
 
 通話プランの電話番号を設定する際に、番号をユーザーに割り当てる前に各電話番号に対して緊急対応の住所を指定する必要があります。 この指定は、緊急通話をサポートするために必要な操作です。 緊急対応の住所は、確実に緊急応答サービスで使用できる正しい形式のものとして認識される必要があります。
 
 > [!IMPORTANT]
-> 通話プラン サービスでは、緊急サービスへの通話は従来の電話サービスでの通話の動作と異なります。 この違いを理解し、すべてのユーザーに伝えることが重要です。 詳しくは、「[緊急通話の利用条件](https://docs.microsoft.com/en-us/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)」をご覧ください。
+> 通話プラン サービスでは、緊急サービスへの通話は従来の電話サービスでの通話の動作と異なります。 この違いを理解し、すべてのユーザーに伝えることが重要です。 詳しくは、「[緊急通話の利用条件](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)」をご覧ください。
 
 確認済みの緊急対応の住所に加えて、緊急対応の場所を定義することができます。この場所を確認済みの緊急対応の住所に関連付けて、その住所での正確な場所を指定することができます。 通常、緊急対応の場所はユーザーが勤務するビルの番号、階、棟、オフィス番号です。
 
@@ -345,7 +346,7 @@ New Telephone Number Request  (新規電話番号要求) フォームは、連�
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>通話プランの実装においてユーザーの場所またはオフィスに対して電話番号を取得する方法 (Microsoft から取得または既存の電話番号の移行) を決定します。</li><li>Microsoft から取得する場合は、通話プランの実装の範囲内のユーザーの場所またはオフィスに対して電話番号を取得する方法 (フォーム提出または自動) を決定します。</li><li>通話プランの実装の範囲内のユーザーの場所またはオフィスについて収集する緊急対応の場所の正確さを決定します。</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>通話プランの実装の範囲内のそれぞれのユーザーの場所またはオフィスに対して電話番号を取得する方法を詳しく記述する電話番号取得のマスタープランを文書化します。</li><li>該当する場合は、場所またはオフィスごとに <a href="https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization">New Telephone Number Request (新規電話番号要求)</a> フォームを入力します。</li><li>既存の電話番号を移行する場合は、「<a href="https://go.microsoft.com/fwlink/?linkid=859011">Number Porting Guide (番号の移行ガイド)</a>」を参照して、通話プランの実装タイムラインを調整してください。</li><li>通話プランの実装の範囲内の各ユーザーの場所またはオフィスの詳細な緊急対応の住所と場所を文書化します。</li></ul>
+|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>通話プランの実装の範囲内のそれぞれのユーザーの場所またはオフィスに対して電話番号を取得する方法を詳しく記述する電話番号取得のマスタープランを文書化します。</li><li>該当する場合は、場所またはオフィスごとに <a href="https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization">New Telephone Number Request (新規電話番号要求)</a> フォームを入力します。</li><li>既存の電話番号を移行する場合は、「<a href="https://go.microsoft.com/fwlink/?linkid=859011">Number Porting Guide (番号の移行ガイド)</a>」を参照して、通話プランの実装タイムラインを調整してください。</li><li>通話プランの実装の範囲内の各ユーザーの場所またはオフィスの詳細な緊急対応の住所と場所を文書化します。</li></ul>
 
 > [!TIP]
 > 次のテンプレートを使用して、電話番号の取得の詳細、電話番号、緊急対応の場所の詳細を文書化できます。
@@ -388,7 +389,7 @@ Azure ボイスメール サービスが提供する電話システムのボイ�
 
 ## <a name="calling-identity"></a>発信者番号
 
-既定で、すべての通話の発信で発信に割り当てられた電話番号が発信者番号として使用されます。 通話の受信者は即座にその発信者を識別して通話を受け入れるか拒否するか決めることができます。 発信者の識別情報を保護するために、オフィスのメインライン番号 (通常、[自動応答](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)のサービス番号) を発信者番号として使用して本来の発信者番号をマスクすることや、発信者番号の表示をすべて禁止することが、ビジネスにおける合法な要件となる場合があります。
+既定で、すべての通話の発信で発信に割り当てられた電話番号が発信者番号として使用されます。 通話の受信者は即座にその発信者を識別して通話を受け入れるか拒否するか決めることができます。 発信者の識別情報を保護するために、オフィスのメインライン番号 (通常、[自動応答](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)のサービス番号) を発信者番号として使用して本来の発信者番号をマスクすることや、発信者番号の表示をすべて禁止することが、ビジネスにおける合法な要件となる場合があります。
 
 <br>
 |         |         |         |
@@ -409,7 +410,7 @@ Azure ボイスメール サービスが提供する電話システムのボイ�
 
 ## <a name="dial-plans"></a>ダイヤル プラン
 
-Office 365 の電話システム機能である[ダイヤル プラン](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)は、通話の認証およびルーティングの目的で、ダイヤルされた電話番号を代替形式 (通常、[E.164](https://go.microsoft.com/fwlink/?linkid=859014) 形式) に変換する正規化ルールです。 
+Office 365 の電話システム機能である[ダイヤル プラン](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)は、通話の認証およびルーティングの目的で、ダイヤルされた電話番号を代替形式 (通常、[E.164](https://go.microsoft.com/fwlink/?linkid=859014) 形式) に変換する正規化ルールです。 
 
 ダイヤル プランでは、ユーザーは従来の使い慣れた方法で通話を行うことができます (市内通話の場合に市外局番を省略、国内通話の場合に国番号を省略、会議ダイヤルアウト実行時に短い桁をダイヤル)。
 
@@ -421,7 +422,7 @@ Office 365 の電話システム機能には、次の 2 種類のダイヤル �
     -   **テナント - ユーザー ダイヤル プラン** - 特定のユーザーにのみ適用されるダイヤル プラン。
 
 > [!NOTE]
-> 詳細と例については、「[ダイヤル プランについて](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)」をご覧ください。
+> 詳細と例については、「[ダイヤル プランについて](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)」をご覧ください。
 
 ユーザーに有効なダイヤル プランを割り当てるには、サービス ダイヤル プラン (ユーザーが Office 365 を使用する場所に基づく) とテナント ダイヤル プラン (テナント - グローバル ダイヤル プランまたはテナント - ユーザー ダイヤル プランのいずれか) を組み合わせます。
 
@@ -494,6 +495,6 @@ Office 365 の電話システム機能には、次の 2 種類のダイヤル �
 <br>
 ## <a name="see-also"></a>関連項目
 
-[通話プランの設定](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
+[通話プランの設定](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
 [クイック スタート ガイド: Microsoft Teams での通話プランの設定](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)
