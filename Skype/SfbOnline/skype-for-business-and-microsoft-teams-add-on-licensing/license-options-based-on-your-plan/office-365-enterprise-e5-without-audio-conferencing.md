@@ -7,6 +7,7 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオン ライセンス、機能、そして Office 365 Enterprise (電話会議なし) のプランを購入する方法について説明します。 '
-ms.openlocfilehash: 8324aa11eb148a05b741f6e7ee703041c074e9cf
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: eeb855fa3aff944556686abd9b5b6f0d3721e22b
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780621"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850139"
 ---
 # <a name="office-365-enterprise-e5-without-audio-conferencing"></a>Office 365 Enterprise E5 (電話会議なし)
 

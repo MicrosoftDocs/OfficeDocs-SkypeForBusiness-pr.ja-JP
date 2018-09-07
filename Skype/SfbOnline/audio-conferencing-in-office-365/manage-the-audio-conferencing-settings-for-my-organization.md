@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: bc9bd328-c5b2-44e5-af15-e02bf00e1c81
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'ダイヤルイン会議ライセンスと会議 ID を、ユーザーとその他多くのダイヤルイン会議設定に割り当てるには、Skype for Business Online の手順をご覧ください。 '
-ms.openlocfilehash: 7f4387e7d818730de3b2b0336453a3f6ec9b39e7
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 9babf0d9df978708f231e0e3dced1329ce0af437
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780493"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23851469"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Skype for Business Online で組織の電話会議の設定を管理する
 
@@ -37,27 +38,27 @@ ms.locfileid: "23780493"
 ## <a name="assign-an-audio-conferencing-license"></a>電話会議のライセンスを割り当てる
 
 > [!NOTE]
-> To assign a license for a user**** Office 365 管理センターを使用する必要があります。 「[Skype for Business のライセンスを割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)」 をご覧ください。
+> To assign a license for a user**** 職場または学校のアカウントを使用して、Office 365 にサインインします。 |||UNTRANSLATED_CONTENT_START|||See [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).|||UNTRANSLATED_CONTENT_END|||
 
- **ユーザーへライセンスを割り当てるには**
+ **最大 20 人までのライセンスを同時に割り当てている場合は、[ ビューの選択] ボックスを使用していずれかのオプションを選択するか、独自のビューを作成することができます。次に [ 編集]、[ 次へ] を 2 回クリックし、ライセンスを選択して、[ 送信] をクリックします。また、Windows Powershell を使用してライセンスを複数のユーザーに割り当てることもできます。操作手順と PowerShell のサンプル スクリプトについては、「Skype for Business と Microsoft Teams のライセンスを割り当てる」をご覧ください。**
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
 
 2. 次に [ **編集**]、[ **次へ**] を 2 回クリックし、ライセンスを選択して、[  > ] をクリックします。****
 
     > [!NOTE]
-    > 操作手順と PowerShell のサンプル スクリプトについては、「**Skype for Business と Microsoft Teams のライセンスを割り当てる**」をご覧ください。 操作ウィンドウの [ **製品ライセンス**] で [ **編集**] をクリックします。**** Windows PowerShell を使用して複数のユーザーにライセンスを割り当てることもできます。 手順とサンプルの PowerShell スクリプトについては、「[Skype for Business のライセンスを割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)」をご覧ください。
+    > 操作手順と PowerShell のサンプル スクリプトについては、「**Skype for Business と Microsoft Teams のライセンスを割り当てる**」をご覧ください。 操作ウィンドウの [ **製品ライセンス**] で [ **編集**] をクリックします。**** [ 製品ライセンス] ページで [ 電話会議] をオンにして、[ 保存] をクリックします。ライセンスの詳細については、「Skype for Business と Microsoft Teams のアドオン ライセンス」をご覧ください。 手順とサンプルの PowerShell スクリプトについては、「[Skype for Business のライセンスを割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)」をご覧ください。
 
-3. [**製品のライセンス**] の下にある [操作] ウィンドウで、[**編集**] をクリックします。
+3. **製品のライセンス**の下にある操作ウィンドウで [ **編集**] をクリックします。
 
-4. [**製品のライセンス**] ページで、[**電話会議**] をオンにして [**保存**] をクリックします。 ライセンスについての詳細は、「[Skype for Business のアドイン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)「 を参照してください。
+4. [ **製品ライセンス** ] ページで、 **電話会議** を有効にして、[ **保存**] をクリックします。 ライセンスについての詳細は、「[Skype for Business のアドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)」を参照してください。
 
 > [!NOTE]
 > ユーザーに会議 ID を割り当てる
 
-## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>電話会議ユーザーに送信されたメールを有効化または無効化する
+## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Skype for Business 管理センターまたは Windows PowerShell を使用すると、ユーザーへのメール送信を有効または無効にすることができます。
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
 
@@ -119,9 +120,9 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
     > [!IMPORTANT]
     >  After a new conference ID is created, the old conference ID can't be used by callers.[](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)[](https://go.microsoft.com/fwlink/?LinkID=626047)[](https://www.microsoft.com/en-us/download/details.aspx?id=54079)
 
-「[ユーザーの会議 ID をリセットする](reset-a-conference-id-for-a-user.md)」 をご覧ください。
+|||UNTRANSLATED_CONTENT_START|||See [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).|||UNTRANSLATED_CONTENT_END|||
 
-## <a name="reset-a-conference-organizers-pin"></a>会議主催者の PIN をリセットする
+## <a name="reset-a-conference-organizers-pin"></a>静的会議 ID は自動的に作成されユーザーに割り当てられますが、ユーザーがそれを使いたくないため特定の番号に設定しようと考える場合や、ユーザーが会議 ID を覚えられない、または紛失してしまう場合があります。Skype for Business 管理センターおよび Windows PowerShell を使用すると、ユーザーの会議 ID を表示、変更、リセットすることができます。
 
 ユーザーが計画する会議ごとに、固有の会議 ID が割り当てられます。 会議 ID は自動的に作成されてユーザーに割り当てられますが、ユーザーがこの ID を使用したくない場合や、特定の番号に設定したい場合、またはユーザーが会議 ID を思い出せなかったり失くしてしまう場合もあることでしょう。 Skype for Business 管理センターと Windows PowerShell を使用して、ユーザーの会議 ID を閲覧、変更、リセットすることができます。
 
@@ -159,13 +160,13 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 
 2. Sign in to Office 365 with your work or school account.**** > ****
 
-3. 左側のナビゲーションで、[**電話会議**]  >  [**ユーザー**] の順に開きます。電話会議用に有効化したいユーザーを選択してください。
+3. Go to the **Office 365 admin center** > **Skype for Business**.
 
 4. [操作] ウィンドウで、[**有料番号**] を、また許可されている場合は [**無料番号**] も設定することができます。
 
-5. [**保存**] をクリックします。
+5. |||UNTRANSLATED_CONTENT_START|||Click **Save**.|||UNTRANSLATED_CONTENT_END|||
 
-「[会議招集に含まれる電話番号を設定する](set-the-phone-numbers-included-on-invites.md)」 をご覧ください。
+「[出席依頼に含まれている会議の開催者のために電話会議の電話番号を設定する](set-the-phone-numbers-included-on-invites.md)」をご覧ください。
 
 
 ## <a name="choosing-audio-conferencing-bridge-settings"></a>電話会議ブリッジの設定を選択する
@@ -183,7 +184,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 
   - **Enable meeting entry and exit notifications to be turned on** This is selected by default. However if you uncheck it, users that have already joined the meeting by default won't be notified when someone enters or leaves the meeting.
 
-    これは、ユーザーが Skype for Business アプリを使用して会議に参加し、会議の Skype 会議 **オプション** メニューで **ユーザーが参加または退席した時に通知する** を変更した場合に、会議ごとに設定することができます。
+    これは、ユーザーが Skype for Business アプリを使用して会議に参加し、会議の Skype 会議 ** オプション** メニューで ** ユーザーが参加または退席した時に通知する** を変更した場合に、会議ごとに設定することができます。
 
   - 「**電話会議ブリッジの設定を変更する**」をご覧ください。
 
@@ -331,6 +332,6 @@ Windows PowerShell を使用して組織レベルで管理できる複数の設�
 
 ## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 
-[ユーザーの電話会議の設定を管理する](manage-the-audio-conferencing-settings-for-a-user.md)
+[See also](manage-the-audio-conferencing-settings-for-a-user.md)
 
 

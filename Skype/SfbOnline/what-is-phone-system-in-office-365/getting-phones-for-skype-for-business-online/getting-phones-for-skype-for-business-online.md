@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 91f2d947-45fc-4fab-bd8b-2e313531c477
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,26 +21,26 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Skype for Business で使用できるPolycom、HP、Mitel 製の電話の種類と、必要なライセンスについて説明します。 '
-ms.openlocfilehash: 92a91d97efabeaaebb074e41e41bc9a8812fa0c5
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 441effac4256ee01f713e10e592ea3402726d5f3
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780611"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863765"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Skype for Business Online で使う電話を入手する
 
 [] Skype for Business Online は、Skype for Business アプリよりも従来式の電話の機能性や操作性を利用したいユーザー向けに、デスクトップ電話に適合および対応しています。このトピックでは、Skype for Business Online での使用でサポートされる電話およびファームウェアのバージョンについて説明し、組織内で電話機をセットアップする際に役立つその他の情報を提供します。
   
-最新の更新内容およびサポート対象のデバイスに関する最新情報については、[Skype for Business のデバイス カタログ](http://partnersolutions.skypeforbusiness.com/solutionscatalog)をご覧ください。
+最新の更新内容およびサポート対象のデバイスに関する最新情報については、「[Skype for Business のデバイス カタログ](http://partnersolutions.skypeforbusiness.com/solutionscatalog)」をご覧ください。
   
 ## <a name="supported-phones"></a>サポートされる電話
 
-Skype for Business Online ユーザーの場合は、 *Certified for Skype for Business の電話機について認定済み*  に示されている複数のモデルと、[Skype for Business のデバイス カタログ](http://partnersolutions.skypeforbusiness.com/solutionscatalog)の Skype for Business Online カテゴリの下に一覧表示されている、Lync Phone Edition (LPE) が動作する電話機から選ぶことができます。
+Skype for Business Online ユーザーの場合は、 [* Skype for Business の電話機について認定済み*] に示されている複数のモデルと、[[Skype for Business のデバイス カタログ](http://partnersolutions.skypeforbusiness.com/solutionscatalog)] の Skype for Business Online カテゴリの下に一覧表示されている、Lync Phone Edition (LPE) が動作する電話機から選ぶことができます。
   
 Office 365 での電話システムと Skype for Business Server のためのパートナー IP 電話プログラム (PIP) を通して広範なデバイスを開発および認定するために、Polycom、Yealink、AudioCodes と提携し、緊密に協業を進めています。
   
-大事な点ですが、Skype for Business 用として新しい電話機を注文する際、 *適正な製品 ID*  がある電話機を購入してください。このような製品 ID により、お客様は受け取った電話機に Skype for Business Online の対象バージョンがインストール済みであることを確認できます。
+Skype for Business 用として新しい電話機を注文する際は、 *適正な製品 ID*  が付いた電話機をご購入ください。 このような製品 ID により、お客様は受け取った電話機に Skype for Business Online の対象バージョンがインストール済みであることを確認できます。
   
 |||
 |:-----|:-----|
@@ -55,13 +56,13 @@ Yealink 電話機の詳細については、「[Skype for Business の IP 電話
 AudioCodes 電話機の詳細については、「[Skype for Business の IP 電話機](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions)」をご覧ください。
   
 > [!NOTE]
-> Lync Phone Edition は Skype for Business Online でサポートされます。ただし、Microsoft Teams ではサポートされません。LPE プラットフォームのメインストリーム サポートは 2014 年 4 月 10 日に終了します。延長サポートは Lync Server 2013 の製品サポート期間に合わせて 2023 年 4 月 11 日までになります。LPE のライフサイクルの詳細については、「[Microsoft 製品ライフサイクル](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO)」をご覧ください。LPE CAP モデルは Skype for Business Online でサポートされません。
+> Lync Phone Edition は Skype for Business Online でサポートされていますが、Microsoft Teams ではサポートされていません。 LPE プラットフォームのメインストリーム サポートは 2014 年 4 月 10 日に終了しました。延長サポートは Lync Server 2013 の製品サポート期間に合わせて 2023 年 4 月 11 日までになります。 LPE のライフ サイクルの詳細については、 「[マイクロソフト製品ライフ サイクル](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO)」をご覧ください。 LPE CAP モデルは Skype for Business Online でサポートされません。
 >
 > 今年の後半に、Office 365 は、TLS 1.2 以前の全バージョンのサポートを終了します。 LPE の基盤となるオペレーティング システムでは TLS 1.2 をサポートしていないため、LPE の Office 365 への接続はサポートされなくなります。 詳細については、「[Office 365での TLS 1.2 の必須使用に対する準備](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365)」を参照してください。
   
 ## <a name="supported-firmware"></a>サポートされるファームウェア
 
-サポート対象の電話で、Office 365 の電話システムと機能する必要な最低限のソフトウェア リリースは次のとおりです。
+サポート対象の電話が、Office 365 の電話システムで機能するために必要な最低限のソフトウェア リリースは次のとおりです。
   
 ||||
 |:-----|:-----|:-----|
@@ -89,7 +90,7 @@ Skype for Business Online の電話機には、ユーザー ライセンス以�
 |**機能** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
 |ユーザー資格情報でのサイン イン  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |なし  <br/> |
 |PC (ペアリング) 経由のサイン イン、Windows のみ  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |
-|(Web サイン イン) 使用でのサイン イン  <br/>  <br/> **注:** 展開ガイドのサポート可否マトリックスを確認してください。           |あり  <br/> |あり  <br/> |あり  <br/> |なし  <br/> |
+|(Web サイン イン) 使用でのサイン イン  <br/>  <br/> **注:** 展開ガイドのサポート可否マトリックスをご確認ください。           |あり  <br/> |あり  <br/> |あり  <br/> |なし  <br/> |
 |シングルクリックでの会議への参加  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |
 |クリックしてダイヤル (ペアリング)  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |
 |会議のコントロール  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |

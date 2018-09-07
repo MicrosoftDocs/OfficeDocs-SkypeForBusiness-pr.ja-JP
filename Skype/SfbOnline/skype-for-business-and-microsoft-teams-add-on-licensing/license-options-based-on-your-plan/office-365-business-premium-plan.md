@@ -7,6 +7,7 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオン ライセンス、機能、そして Office 365 Business Premium プランを購入する方法について説明します。 '
-ms.openlocfilehash: ac7a09c99b72f643ad10516009154e65c51c1e48
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 3c1c4fd8dc5cc680ce79a3c1c1e1c0208d00619a
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779007"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861563"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 
@@ -43,7 +44,7 @@ ms.locfileid: "23779007"
     > 従業員が Skype for Business を使用して Skype ユーザーを検索できるようにトグルを設定する必要があります。 [Skype for Business ユーザーが Skype 連絡先を追加できるようにする](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md) を参照してください。
 
 
-- **オプション 2。プランをアップグレードして、電話システムと国内・国際通話プランを購入します** 。
+- **オプション 2。プランをアップグレードして、電話システムと国内または国内・国際通話プランを購入します** 。
 
     > [!Important]
     > Skype for Business Online のプラン 2 は、Office Business Premium のサブスクリプションに含まれていますが、 **クラウドの音声呼び出し機能を追加することはできません**。 そのため、Enterprise E5 (または Enterprise E3) プランを検討して、そちらの方がよりコスト効率が良いか確認することをおすすめします。
@@ -52,7 +53,7 @@ ms.locfileid: "23779007"
 
 2. **電話システム** アドオンを購入します。
     
-3. [Office 365 の通話プラン](/MicrosoftTeams/calling-plans-for-office-365)を購入します。このプランは **電話システム**を購入した後にのみ購入できます。
+3. [Office 365 の通話プラン](/MicrosoftTeams/calling-plans-for-office-365)を購入します。このプランは **電話システム**アドオンを購入した後にのみ購入できます。
     
     この 2 番目のオプションは、外部との通話の発着信を行うユーザーを何人か抱えている会社に適しています。
 

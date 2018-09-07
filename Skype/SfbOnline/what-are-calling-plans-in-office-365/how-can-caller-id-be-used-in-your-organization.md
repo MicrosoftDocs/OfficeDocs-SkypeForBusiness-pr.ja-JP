@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 5a0bd8ba-3334-46ee-becf-1025597737f6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 発信者番号通知は、CallingLineIdentity と呼ばれるポリシーを使用して、電話システム ユーザーの着信と発信の両方で制御できます。
-ms.openlocfilehash: 04ee6f0bc074318f30d0257e7466d2d2ec7262aa
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 410712a8fd0a6f28b0bc2821daae8143b38ceb63
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23778997"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854227"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>組織内での発信者番号通知の使用方法
 
@@ -71,7 +72,7 @@ EnableUserOverride 属性を使用すると、単独または複数のユーザ�
 |**Windows** <br/> |**バージョン** <br/> |**サポート** <br/> |
 |クイック実行  <br/> |2016 年 12 月 6 日 - バージョン 1611 (ビルド 7571.2072) でリリースされた現在のチャネル  <br/> |あり  <br/> |
 |クイック実行  <br/> |2017 年 2 月 22日 - バージョン 1701 (ビルド 7766.2060) でリリースされた段階的提供チャネルの最初のリリース  <br/> |あり  <br/> |
-|クイック実行  <br/> |2017年 6 月 13日 - バージョン 1701 (ビルド 7766.2092) でリリースされた段階的提供チャネル  <br/> |あり  <br/> |
+|クイック実行  <br/> |2017年 6 月 13日 - バージョン 1701 (ビルド 7766.2092) でリリースされた段階的提供チャネル  <br/> |はい  <br/> |
 |MSI  <br/> |Skype for Business  <br/> |なし  <br/> |
 |Mac  <br/> |Skype for Business  <br/> |なし  <br/> |
    

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 5412636c-ad0e-48a5-b199-5925156abee4
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '米国とヨーロッパで公衆交換電話網 (PSTN) を使用して業務を行うユーザーの緊急対応の住所を変更する方法の手順を参照してください。 '
-ms.openlocfilehash: 62deeae8624ad0eb6b85c25a39c475b0d1d0b198
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 5f08e7503e95028e5045404dc4a0ba294addd481
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779047"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860551"
 ---
 # <a name="change-the-emergency-address-for-a-user"></a>ユーザーの緊急対応の住所を変更する
 
-Office 365 の通話プランを設定している場合、電話番号またはユーザーごとに緊急対応の住所を割り当てる必要があります。 欧州諸国では、Office 365 から電話番号を取得するとき、または Office 365 に電話番号を転送するときに、緊急対応の住所が電話番号と関連付けられます。 米国では、電話番号がユーザーに割り当てられるときに、緊急対応の住所が電話番号と関連付けられます。 緊急対応の住所が割り当てられたユーザーが新しい場所に引っ越す場合、緊急対応の住所は変更できます。 緊急対応の住所および場所の詳細については、「[緊急対応の場所、住所、通話ルーティングの概要](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)」を参照してください。
+Office 365 の通話プランを設定している場合、電話番号またはユーザーごとに緊急対応の住所を割り当てる必要があります。 欧州諸国では、Office 365 から電話番号を取得するとき、または Office 365 に電話番号を転送するときに、緊急対応の住所が電話番号と関連付けられます。 米国では、電話番号がユーザーに割り当てられるときに、緊急対応の住所が電話番号と関連付けられます。 緊急対応の住所が割り当てられたユーザーが新しい場所に引っ越す場合、緊急対応の住所は変更できます。 緊急対応の場所および住所の詳細については、「[緊急対応の場所、アドレス、通話ルーティングの概要](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)」をご覧ください。
   
 Office 365 の通話プランの取得方法とかかる費用については、「[Skype for Business と Microsoft Teams アドオン ライセンシング](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)」を参照してください。
   
@@ -41,18 +42,18 @@ Office 365 の通話プランの取得方法とかかる費用については、
     
 2. **[Office 365 管理センター]** > **[Skype for Business]** に進みます。
     
-3. 左側のナビゲーションで、**[音声]** > **[音声ユーザー]** に移動します。
+3. 左側のナビゲーションで、**[音声]** > **[音声ユーザー]** を選びます。
     
     > [!IMPORTANT]
-    > Skype for Business 管理センターの左にあるナビゲーションで **[音声]** オプションが表示される場合、最初に少なくとも 1 つの **Enterprise E5 ライセンス**、1 つの**電話システム** アドオン ライセンス、または 1 つの**電話会議**アドオン ライセンスを購入する必要があります。
+    > Skype for Business 管理センターの左にあるナビゲーションで [**音声**] オプションが表示される場合、最初に少なくとも 1 つの **Enterprise E5 ライセンス**、1 つの**電話システム** アドオン ライセンス、または 1 つの**電話会議**アドオン ライセンスを購入する必要があります。
     
-4.  **音声ユーザー**ページで、緊急対応の住所を変更するユーザーを見つけて、選択します。
+4. **音声ユーザー**ページで、緊急対応の住所を変更するユーザーを見つけて、選択します。
     
-5. [操作] ウィンドウの [**緊急対応の場所**] で [**変更**] をクリックします。
+5. 操作ウィンドウの [**緊急対応の場所**] で [**変更**] をクリックします。
     
-6.  **番号の割り当て**ページで、**[場所の変更]** をクリックします。 
+6. **番号の割り当て**ページで、**[場所の変更]** をクリックします。 
     
-7. [**緊急対応の住所を次に変更**] の [市区町村の検索] ボックスで、市区町村の名前を入力し、[**検索**] をクリックします。
+7. [**緊急対応の住所を次に変更**] のボックスに都市の名前を入力し、[**検索**] をクリックします。
     
     > [!IMPORTANT]
     > 既に検証されている緊急対応の住所のみ変更できます。 検証されていない緊急対応の住所を変更するには、その住所を変更して、別の緊急対応の住所を作成します。 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: aa2ec464-3481-4bbb-8c14-e13e18093df5
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Skype for Business の新しい番号の取得方法、既存の番号の移行または転送方法、およびユーザーに変更を表示する方法を説明します。 '
-ms.openlocfilehash: 62eac75000ed1ff20576d3ce3f8f73719704a12e
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: ae5ee7e524f4bdea937d926ea7c1ba399fae4e77
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779542"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23858035"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>ユーザー用に電話番号を取得する
 
@@ -33,31 +34,31 @@ ms.locfileid: "23779542"
   
 新しいユーザー番号を取得する方法には次の 3 通りあります。
 
-- **Skype for Business 管理センターを使用する。** 国または地域によって、Skype for Business 管理センターを使用して、ユーザーの番号を取得できます。[ 「ユーザーの電話番号の取得](getting-phone-numbers-for-your-users.md)」を参照してください。
+- **Skype for Business 管理センターを使用する。** 国または地域によって、Skype for Business 管理センターを使用して、ユーザーの番号を取得できます。[ 「ユーザーの電話番号の取得](getting-phone-numbers-for-your-users.md)」をご覧ください。
     
-- **既存の番号を移行する。** 現在のサービス プロバイダーまたは電話通信会社から、Office 365 に既存の番号を移行または転送できます。 この方法の詳細については、「[Office 365 に電話番号を移行](/microsoftteams/transfer-phone-numbers-to-office-365)」または「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization)」を参照してください。  
+- **既存の番号を移行する。** 現在のサービス プロバイダーまたは電話通信会社から、Office 365 に既存の番号を移行または転送できます。 この方法の詳細については、「[Office 365 に電話番号を移行](/microsoftteams/transfer-phone-numbers-to-office-365)」または「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization)」をご覧ください。  
   
-- **新規の番号を取得するには、リクエスト フォームを使用してください。** (国または地域によって) Skype for Business 管理センターを使用して新しい電話番号を取得できない場合、特定の電話番号または地域コードが必要になることがあります。 その場合は、フォームをダウンロードして記入してからマイクロソフトに返送する必要があります。 詳細については「[組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization) 」を参照してください。
+- **新規の番号を取得するには、リクエスト フォームをご使用ください。** (国または地域によって) Skype for Business 管理センターを使用して新しい電話番号を取得できない場合や、特定の電話番号または地域コードが必要になる場合があります。 その場合は、フォームをダウンロードして記入してからマイクロソフトに返送する必要があります。 詳細については「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization) 」をご覧ください。
     
 [ **新しいユーザー番号を追加**] ページを使用して、電話番号の確認、検索、取得、予約を行う必要があります。[ **国または地域**]、[ **都道府県**]、[ **市区町村**] で検索してから、ユーザー用に必要となる電話番号の数を入力できます。
   
 > [!NOTE]
 > 組織の電話番号の設定でサポートが必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」を利用できます。 
   
-## <a name="get-new-phone-numbers-for-your-users"></a>ユーザーの新しい電話番号を取得する
+## <a name="get-new-phone-numbers-for-your-users"></a>ユーザーの電話番号を取得する
 
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **[Office 365 管理センター]** > **[Skype for Business]** に進みます。
+2. ** [Office 365 管理センター] ** > ** [Skype for Business]** に移動します。
     
-3. 左側のナビゲーションで **[音声]** > **[電話番号]** に進み、**[新しい番号を追加]**![ 、[ボタンを追加]](../images/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)をクリックし、**[新しいユーザーの番号]** をクリックします。
+3. 左側のナビゲーションで[音声][電話番号] に進み、[新しい番号を追加] 、[ボタンを追加]をクリックし、[新しいユーザーの番号] をクリックします。** **  >  ** ** ** ** ![ ](../images/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png) ** **
     
     > [!IMPORTANT]
-    > Skype for Business 管理センターの左にあるナビゲーションで **[音声]** オプションが表示される場合、最初に少なくとも 1 つの **Enterprise E5 ライセンス**、1 つの**電話システム** アドオン ライセンス、または 1 つの**電話会議**アドオン ライセンスを購入する必要があります。
+    > Skype for Business 管理センターの左にあるナビゲーションで [**音声**] オプションが表示される場合、最初に少なくとも 1 つの **Enterprise E5 ライセンス**、1 つの**電話システム** アドオン ライセンス、または 1 つの**電話会議**アドオン ライセンスを購入する必要があります。
     
-4. **新しい番号の追加**ページで、次を選択します。
+4. [**新しい番号の追加**] ページで、次を選択します。
     
   - **国/地域**
     
@@ -72,14 +73,14 @@ ms.locfileid: "23779542"
   
 6. [ **番号を表示**] をクリックすると、電話番号の完全なリストを表示できます。リストにある電話番号を選びたくない場合には、この方法が便利です。
     
-7. 目的の電話番号を選んでから、[ **番号の入手**] をクリックします。
+7. 目的の電話番号を選んでから、[**番号の入手**] をクリックします。
     
     > [!IMPORTANT]
-    > (サブスクライバー) のユーザーの電話番号の数は、割り当てられた** 国内通話プラン**  / ** 国内と国際通話プラン** ライセンスの合計数に 1.1 をかけて、さらに 10 個の電話番号を足した数と同じです。 たとえば、国内通話プラン / 国内と国際通話プランの合計ユーザー数が 50 人の場合、取得できる電話番号の数は **65** 個 **(50 x 1.1 + 10)** となります。 詳細は、「[取得できる電話番号の数について](/microsoftteams/how-many-phone-numbers-can-you-get)」を参照してください。 さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。 
+    > (サブスクライバー) のユーザーの電話番号の数は、割り当てられた** 国内通話プラン**  / ** 国内と国際通話プラン** ライセンスの合計数に 1.1 をかけて、さらに 10 個の電話番号を足した数と同じです。 たとえば、国内通話プラン / 国内と国際通話プランの合計ユーザー数が 50 人の場合、取得できる電話番号の数は **65** 個 **(50 x 1.1 + 10)** となります。 詳細は、「[取得できる電話番号の数について](/microsoftteams/how-many-phone-numbers-can-you-get)」をご覧ください。 さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。 
   
  **使用中のサービス プロバイダーまたは携帯電話会社から電話番号を移行または転送する**
   
-- ユーザー用に必要な電話番号が 999 個以下であれば、Skype for Business 管理センターの **新しい電話番号のポート注文**ウィザードを使用できます。 電話番号を Skype for Business Online に転送するには [Office 365に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365) の手順に従います。
+- ユーザー用に必要な電話番号が 999 個以下であれば、Skype for Business 管理センターの **新しい電話番号のポート注文**ウィザードを使用できます。 電話番号を Skype for Business Online に転送するには「[Office 365に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)」の手順に従います。
     
 - 電話番号が 999 個よりも多い電話番号を移行する必要がある場合は、「[カスタム サービスの依頼を手動で送信する](manually-submit-a-custom-service-request.md)」を参照して移行注文サービスの依頼または注文を発行し、Office 365 に移行される電話番号をすべて取得します。
     
@@ -89,7 +90,7 @@ ms.locfileid: "23779542"
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **[Office 365 管理センター]** > **[Skype for Business]** に進みます。
+2. ** [Office 365 管理センター] ** > ** [Skype for Business]** に移動します。
     
 3. 左側のナビゲーションで、**[音声]** > **[電話番号]** に進みます。組織用の電話番号が、**番号**の下に一覧表示されます。
     

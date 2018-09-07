@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 11cadb26-534d-41db-af6b-1f648edfd907
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '公衆交換電話網 (PSTN) で Skype for Business が使用する組織の緊急対応の場所を追加、変更、削除する方法を説明します。 '
-ms.openlocfilehash: 000d798002ce3ef8c313baa44542c1a755fa558b
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 3ba8845b8765b15ac11df80122001fb3ac7d040c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780903"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23857773"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>組織の緊急対応の場所を追加、変更、削除する
 
@@ -37,7 +38,7 @@ Office 365 の通話プランの取得方法とプランの費用については
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. [**Office 365 管理センター**]  >  [**Skype for Business**] に移動します。
+2. **[Office 365 管理センター]** > **[Skype for Business]** に移動します。
     
 3. 左側のナビゲーションで [**音声**]  >  [**緊急対応の場所**] に移動し、場所を追加する緊急対応の住所を選びます。
     
@@ -54,13 +55,13 @@ Office 365 の通話プランの取得方法とプランの費用については
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. [**Office 365 管理センター**]  >  [**Skype for Business**] に移動します。
+2. **[Office 365 管理センター]** > **[Skype for Business]** に移動します。
     
-3. 左側のナビゲーションで [**音声** ] >  [**緊急対応の場所**] に移動し、場所を追加する緊急対応の住所を選びます。
+3. 左側のナビゲーションで [音声 ] [緊急対応の場所] に移動し、場所を追加する緊急対応の住所を選びます。** **  >  ** **
     
 4. [操作] ウィンドウの [**関連付けられている場所**] の横にある [**変更**] をクリックします。
     
-5.  [**関連付けられている場所**] で、リスト内の位置へのリンクをクリックを選択し、[**関連づけられている場所の詳細を変更**] に新しい場所の詳細情報を入力し、[**送信**] をクリックします。
+5. [**関連付けられている場所**] で、リスト内の位置へのリンクをクリックを選択し、[**関連づけられている場所の詳細を変更**] に新しい場所の詳細情報を入力し、[**送信**] をクリックします。
     
 6. [**保存**] をクリックします。
     
@@ -68,7 +69,7 @@ Office 365 の通話プランの取得方法とプランの費用については
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. [**Office 365 管理センター**]  >  [**Skype for Business**] に移動します。
+2. **[Office 365 管理センター]** > **[Skype for Business]** に移動します。
     
 3. 左側のナビゲーションで [**音声**]  >  [**緊急対応の場所**] に移動し、場所を追加する緊急対応の住所を選びます。
     

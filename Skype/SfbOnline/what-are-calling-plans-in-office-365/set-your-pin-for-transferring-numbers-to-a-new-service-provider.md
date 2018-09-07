@@ -1,5 +1,5 @@
 ---
-title: 番号を新しいサービス プロバイダーに転送するための PIN を設定する
+title: 番号を新しいサービス プロバイダーに移行するための PIN を設定する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: f1defa5b-e49c-4d8c-a5f8-3f736201af5e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 電話番号を Skype for Business Online から別の電話サービス プロバイダーまたは通信業者に転送または移行するには、PIN を手動で設定する必要があります。 PIN を設定した後、電話番号を移行するときにその PIN を含める必要があります。
-ms.openlocfilehash: 4dc60b489a6b382df5764f0c011f716f36a17cd8
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 144e3b0527b8557bbbb6a7f9c1b51ad2d61a0f1f
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779143"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23851715"
 ---
-# <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>番号を新しいサービス プロバイダーに転送するための PIN を設定する
+# <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>番号を新しいサービス プロバイダーに移行するための PIN を設定する
 
-電話番号を Skype for Business Online から別の電話サービス プロバイダーまたは通信業者に転送または 移行する には、PIN を手動で設定する必要があります。* * PIN を設定した後、電話番号を移行するときにその PIN を含める必要があります。 
+電話番号を Skype for Business Online から別の電話サービス プロバイダーまたは通信業者に転送または 移行する には、PIN を手動で設定する必要があります。** PIN を設定した後、電話番号を移行するときにその PIN を含める必要があります。 
   
 > [!IMPORTANT]
 > 移行した PIN は、米国内の組織においてのみ使用されます。 

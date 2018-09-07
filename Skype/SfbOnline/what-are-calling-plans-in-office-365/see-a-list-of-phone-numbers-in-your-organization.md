@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 93098bc5-df63-4a1f-8734-0b72a6280a69
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 組織のすべての電話番号、ユーザーに割り当てられているすべての電話番号、Skype for Business 管理センターから音声ユーザーに割り当てられているすべての電話番号のリストを表示する方法について説明します。
-ms.openlocfilehash: cb945b8456a9443b34390b6f83606ef5570ffdaf
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: ee90dbdecb292f4185a34212830bc216e0bc9ea4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779338"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854307"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>組織の電話番号のリストを表示する
 
@@ -38,9 +39,9 @@ Office 365 の電話会議など、ユーザーまたはその他のサービス
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. ** [Office 365 Admin センター] ** > ** [Skype for Business]** に移動します。
+2. ** [Office 365 管理センター] ** > ** [Skype for Business]** に移動します。
     
-3. **[Skype for Business 管理センター]** の左にあるナビゲーションで、**[音声]** >  **[電話番号]** と移動します。
+3. [Skype for Business 管理センター] の左にあるナビゲーションで、[音声] [電話番号] と移動します。** ** ** **  >  ** **
     
     > [!IMPORTANT]
     > Skype for Business 管理センターの左にあるナビゲーションで [**音声**] オプションが表示されるためには、最初に少なくとも 1 つの **Enterprise E5 ライセンス**、1 つの**電話システム** アドオン ライセンス、または 1 つの**電話会議**アドオン ライセンスを購入する必要があります。
@@ -53,7 +54,7 @@ Office 365 の電話会議など、ユーザーまたはその他のサービス
     
   - 設定した電話 **番号の範囲**
     
-  -  **ユーザーに割り当てられている**電話番号
+  - **ユーザーに割り当てられている**電話番号
     
   - ダイヤルイン会議用に **会議に割り当てられている** 電話番号
     
@@ -70,7 +71,7 @@ Office 365 の電話会議など、ユーザーまたはその他のサービス
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. ** [Office 365 Admin センター] ** > ** [Skype for Business]** に移動します。
+2. ** [Office 365 管理センター] ** > ** [Skype for Business]** に移動します。
     
 3. **[Skype for Business 管理センター]** の左にあるナビゲーションで、**[音声]** >  **[音声ユーザー]** と選びます。
     
@@ -90,11 +91,11 @@ Office 365 の電話会議など、ユーザーまたはその他のサービス
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
 
 
-電話の発信や受信をするためは、組織内のユーザーをセットアップする場合、まずは電話番号を取得してから、それらをユーザーに割り当てる必要があります。 電話番号を取得したら、ユーザーに割り当てられている電話番号を持っているユーザーと持っていないユーザー、ならびにユーザーがオンラインでまたは内部設置型でホストされているかについてのリストを表示することができます。
+通話の発信や受信をするために組織内のユーザーをセットアップする場合、まずは電話番号を取得してから、それらをユーザーに割り当てる必要があります。 電話番号を取得したら、ユーザーに割り当てられている電話番号を持っているユーザーと持っていないユーザー、ならびにユーザーがオンラインでまたは内部設置型でホストされているかについてのリストを表示することができます。
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. ** [Office 365 Admin センター] ** > ** [Skype for Business]** に移動します。
+2. ** [Office 365 管理センター] ** > ** [Skype for Business]** に移動します。
     
 3. **[Skype for Business 管理センター]** の左にあるナビゲーションで、**[音声]** >  **[音声ユーザー]** と選びます。
     

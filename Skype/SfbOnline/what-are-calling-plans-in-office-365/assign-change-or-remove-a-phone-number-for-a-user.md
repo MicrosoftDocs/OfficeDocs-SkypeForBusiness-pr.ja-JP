@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 91089761-cb87-4119-885b-3713840dd9f7
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 外部のビジネスやクライアントがコールインできるように、勤務先電話番号を Skype for Business ユーザーに割り当てる、変更する、または削除する方法を学びます。
-ms.openlocfilehash: 8c80bf9da5471f1a7293a01ed9e2d56f6e1aa15b
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: a522e4fd6cbd41c34b2547ab6be0f7590de0a8b3
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780941"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860593"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>ユーザーの電話番号の割り当て、変更、削除を行う
 
@@ -53,7 +54,7 @@ Office 365 の通話プランの取得方法とかかる費用については、
   
  ## <a name="assign-a-phone-number-to-a-user"></a>電話番号をユーザーに割り当てる
  
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
  
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -61,13 +62,13 @@ Office 365 の通話プランの取得方法とかかる費用については、
     
 3. 左のナビゲーションで、[ **音声**]  > **[音声ユーザー] **の順にクリックします。
    > [!NOTE]
- Skype for Business 管理センターの左にあるナビゲーションで **[音声]** オプションが表示される場合、最初に少なくとも 1 つの **Enterprise E5 ライセンス**、1 つの**電話システム** アドオン ライセンス、または 1 つの**電話会議**アドオン ライセンスを購入する必要があります。
+ Skype for Business 管理センターの左にあるナビゲーションで [**音声**] オプションが表示される場合、最初に少なくとも 1 つの **Enterprise E5 ライセンス**、1 つの**電話システム** アドオン ライセンス、または 1 つの**電話会議**アドオン ライセンスを購入する必要があります。
  
    
     
-4.  **ボイス ユーザー** ページで、ユーザー、または電話番号を割り当てるユーザーを見つけて、選択します。
+4. **ボイス ユーザー** ページで、ユーザー、または電話番号を割り当てるユーザーを見つけて、選択します。
     
-5. [操作] ウィンドウで、[**番号を割り当てる**] をクリックします。
+5. [操作] ウィンドウで、 **割り当てる番号** をクリックします。
     
 6. **番号の割り当て** ページの **割り当てる番号を選択** 一覧で、ユーザー用の電話番号を選びます。
     
@@ -85,7 +86,7 @@ Office 365 の通話プランの取得方法とかかる費用については、
 
  ## <a name="change-a-phone-number-for-a-user"></a>ユーザーの電話番号を変更する
  
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
  
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -97,19 +98,19 @@ Office 365 の通話プランの取得方法とかかる費用については、
     
 5. [操作] ウィンドウの、 **割り当て番号**の下で、[ **変更**] をクリックします。 
     
-6.  **番号の割り当て**ページで、[**番号の変更**] をクリックします。
+6. **番号の割り当て**ページで、[**番号の変更**] をクリックします。
     
-7.  **番号の割り当て**ページの [ **割り当てる番号を選択する**の下で、リストを使用して、新しい電話番号を選択します。 
+7. **番号の割り当て**ページの [ **割り当てる番号を選択する**の下で、リストを使用して、新しい電話番号を選択します。 
     
 8. 関連付けられた緊急対応の住所を変更するには、[**場所を変更**] をクリックして、**緊急対応の住所の変更**の下で、一覧から場所を選択します。または、定義されている場所が多くある場合、[検索] ボックスに都市の名前を入力して、[**検索**] をクリックします。
     
-9. [**保存**] をクリックします。
+9. [ **保存**] をクリックします。
     
 
 
  ## <a name="remove-a-phone-number-from-a-user"></a>ユーザーの電話番号を削除する
  
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
  
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -121,7 +122,7 @@ Office 365 の通話プランの取得方法とかかる費用については、
     
 5. [操作] ウィンドウの、 **割り当て番号**の下で、[ **削除**] をクリックします。 
     
-6.  **選択されている割り当て番号を削除しますか？** ページで、[ **はい**] をクリックします。
+6. **選択されている割り当て番号を削除しますか？** ページで、[ **はい**] をクリックします。
     
 
 ## <a name="related-topics"></a>関連トピック

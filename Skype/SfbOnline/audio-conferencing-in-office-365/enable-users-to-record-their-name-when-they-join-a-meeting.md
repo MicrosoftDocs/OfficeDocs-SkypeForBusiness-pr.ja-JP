@@ -1,5 +1,5 @@
 ---
-title: Skype でオンライン ビジネスの会議に参加するときに自分の名前を記録するようにユーザーを有効にします。
+title: Skype for Business Online で会議に参加するときにユーザーが自分の名前を記録できるようにする
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 1d649328-ada7-422d-a074-d6da4da36970
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -18,18 +19,18 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 有効にするか、Skype でオンライン ビジネスの会議に参加するときに、ユーザーがそれらの名前を記録できるようであるかどうかを無効にする方法を説明します。
-ms.openlocfilehash: b920f0cfea6aa607f5bc3ea7c8a53b5668ba02da
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
-ms.translationtype: MT
+description: ユーザーが Skype for Business Online で会議に参加するときに、自分の名前を記録できるかを有効または無効にする方法を学びます。
+ms.openlocfilehash: 6022d7ebf0e653bc43373cb00faabc207f91562a
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490727"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850043"
 ---
-# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Skype でオンライン ビジネスの会議に参加するときに自分の名前を記録するようにユーザーを有効にします。
+# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Skype for Business Online で会議に参加するときにユーザーが自分の名前を記録できるようにする
 
 > [!Note]
-> チームでそれらの名前を記録できるようにする場合は、[マイクロソフトのチームでミーティングに参加するときは、その名前を記録するようにユーザーを有効にする](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams)を参照してください。
+> ユーザーが自分の名前を Teams に記録できるようにする必要がある場合は、「[Microsoft Teams で会議に参加するときにユーザーが自分の名前を記録できるようにする](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams)」を参照してください。
 
 [] Skype for Business Online でダイヤルイン会議をセットアップしているときには、電話番号とダイヤルインまたは電話会議ブリッジと呼ばれるものを受け取ります。会議ブリッジには、1 つ以上の電話番号 (専用または共有の電話番号の場合もある) が含まれることがあります。
   
@@ -37,7 +38,7 @@ ms.locfileid: "22490727"
 
 ## <a name="set-whether-callers-should-record-their-name"></a>発信者が名前を記録すべきかどうかを設定する
     
-1. 既定値は 5 です。
+1. **Skype for Business 管理センター**の左側にあるナビゲーションで、[**電話会議**]  >  [**Microsoft ブリッジ設定**] の順に開きます。
     
 2. [ **会議参加エクスペリエンス**] の [ **会議の入退出の通知をオンにする**] で、次のいずれかを選びます。
     
@@ -66,11 +67,11 @@ ms.locfileid: "22490727"
     
   - [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [クイック リファレンス: Windows PowerShell を使用した一般的な Lync Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=294688)
+    > Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行[](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 
 [Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

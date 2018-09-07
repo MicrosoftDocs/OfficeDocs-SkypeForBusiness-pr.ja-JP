@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: c7323490-d9b7-421a-aa76-5bd485f80583
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Office 365 の電話システムは、ユーザーの割り当てられた電話番号である既定の発信者番号を提供します。ユーザーのために発信者番号 (通話回線番号) を変更または禁止することができます。組織での発信者番号の使用方法の詳細については、組織内での発信者番号の使用方法をご覧ください。
-ms.openlocfilehash: cf6f1aab6f865a87186b7acb793e5aa7829907aa
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: cb32a7dcc38dcdd7fbaa5bf414d711953d237deb
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780819"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23858657"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>ユーザーに発信者番号を設定する
 [] Office 365 の電話システムは、ユーザーの割り当てられた電話番号である既定の発信者番号を提供します。ユーザーのために発信者番号 (通話回線番号) を変更または禁止することができます。組織での発信者番号の使用方法の詳細については、[組織内での発信者番号の使用方法](how-can-caller-id-be-used-in-your-organization.md)をご覧ください。
@@ -131,7 +132,7 @@ Windows PowerShell の起動方法の詳細については、「[単一の Windo
     
 作成済みのポリシーがある場合は、[Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx) コマンドレットを使用して、既存のポリシーを変更できます。次に、[Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) を使用して設定をユーザーに適用します。
   
-### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>発信者番号からの着信を禁止するように設定する
+### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>着信する発信者番号を禁止するように設定する
 
 - 着信する発信者番号を禁止するには、次を実行します。
     

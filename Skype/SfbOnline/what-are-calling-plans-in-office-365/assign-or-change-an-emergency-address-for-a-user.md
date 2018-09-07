@@ -1,5 +1,5 @@
 ---
-title: ユーザーの緊急対応の住所の割り当てまたは変更を行う
+title: ユーザーの緊急番号の割り当て、変更を行う
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 1411b594-1e88-44c9-9f60-2202f9bb8553
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,14 +21,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 公衆交換電話網 (PSTN) を使用して業務を行うユーザーの緊急対応の住所と電話番号を設定する方法の手順を説明します。
-ms.openlocfilehash: 35247b7ca6dc1073a4a110ab7c95e11a75cbbc8a
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: e4ca1934ddb604c5efd81fd6a21b6f18d39b144b
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780885"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854869"
 ---
-# <a name="assign-or-change-an-emergency-address-for-a-user"></a>ユーザーの緊急対応の住所の割り当てまたは変更を行う
+# <a name="assign-or-change-an-emergency-address-for-a-user"></a>ユーザーの緊急番号の割り当て、変更を行う
 
 Office 365 の通話プランを設定している場合、電話番号と緊急対応の住所をユーザーごとに割り当てる必要があります。 作成されていない緊急対応の住所を電話番号に関連付けることはできません。 詳細は、「[緊急の場所、住所、通話ルーティングの概要](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)」を参照してください。
   
@@ -37,7 +38,7 @@ Office 365 の通話プランの取得方法とプランの費用については
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. [**Office 365 管理センター**]  >  [**Skype for Business**] に移動します。
+2. |||UNTRANSLATED_CONTENT_START|||Go to the **Office 365 admin center** > **Skype for Business**.|||UNTRANSLATED_CONTENT_END|||
     
 3. 左側のナビゲーションには、 **音声**、し、 **ユーザーの音声**をクリックします。
     
@@ -46,7 +47,7 @@ Office 365 の通話プランの取得方法とプランの費用については
     
 4. **音声ユーザー**ページで、緊急対応の住所を変更するユーザーを見つけて、選択します。
     
-5. [操作] ウィンドウの [**緊急対応の場所**] で [**変更**] をクリックします。
+5. 操作ウィンドウの [ **緊急対応の場所**] で [ **変更**] をクリックします。
     
     > [!NOTE]
     > 既に検証が済んだ緊急対応の住所のみ変更できます。 検証されていない緊急対応の住所を変更するには、その住所を変更して、別の緊急対応の住所を作成します。 
@@ -57,10 +58,10 @@ Office 365 の通話プランの取得方法とプランの費用については
     
 8. アドレスのドロップダウン リストから緊急対応の住所を選択し、[**保存**] をクリックします。 
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 [住所検証について](what-is-address-validation.md)
 
-[組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)
+[|||UNTRANSLATED_CONTENT_START|||Manage phone numbers for your organization|||UNTRANSLATED_CONTENT_END|||](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
 

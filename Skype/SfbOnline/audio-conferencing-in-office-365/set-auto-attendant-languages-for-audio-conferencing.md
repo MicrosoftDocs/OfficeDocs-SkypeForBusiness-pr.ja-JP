@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 26d73dda-ab26-4af4-8aec-d17f3479ae50
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -18,13 +19,13 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Skype for Business Online の自動会議番号については、自動会議の自動案内言語の選択方法を参照してください。
-ms.openlocfilehash: fe0abceba1f01b148f1a81163525be0750ef4980
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+description: Skype for Business Online の電話会議番号については、電話会議の自動案内言語の選択方法を参照してください。
+ms.openlocfilehash: 70313648f04b05e622ddb34e871ff1b303ac02a7
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779077"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864987"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Skype for Business Online で電話会議の自動案内の言語を設定する
 

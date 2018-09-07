@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: cc22c49a-c644-4151-a2fc-a1474148f8ba
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,20 +21,20 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '国または地域、都道府県、市区町村別に、ユーザーに割り当てられる電話番号を検索し、必要な番号の数を指定する方法を説明します。 '
-ms.openlocfilehash: 94eeed0921a769547d5047310bf224a9b90dd6f0
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 057eca4ba0f884fb1c81cb8ee8e45be6a19194bf
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779402"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850149"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>ユーザーの電話番号を検索する
 
-組織内のユーザーが電話の発信や受信をできるように設定するには、 [ **Skype for Business 管理センター**] を使って最初にユーザーに割り当てることができる電話番号を取得する必要があります。ユーザーに割り当てる電話番号は組織用に選んだ電話番号であり、ユーザーのプロパティを編集して [ **番号を割り当てる**] をクリックすると、その番号はドロップダウン リストに一覧表示されます。
+組織内でユーザーが電話の発信や受信をできるように設定するには、 [ **Skype for Business 管理センター**] を使って最初に電話番号を取得し、ユーザーに割り当てられるようにする必要があります。 ユーザーに割り当てる電話番号は組織用に選んだ電話番号であり、ユーザーのプロパティを編集して [ **番号を割り当てる**] をクリックすると、その番号はドロップダウン リストに一覧表示されます。
   
-ユーザーに電話番号を割り当てられるようになる前に、[**新しい番号**] ページを使用して、地域内で使用できる番号を検索しなくてはなりません。[**国または地域**]、[**都道府県**]、[**市区町村**] で検索してから、ユーザー用に必要となる電話番号の数を入力できます。 
+ユーザーに電話番号を割り当てる前に、**新しい番号**ページを使用して、エリア内で利用可能な番号を検索する必要があります。 [ **国または地域**]、[ **都道府県**]、[ **市区町村**] で検索してから、ユーザー用に必要となる電話番号の数を入力できます。 
   
-電話番号の取得でサポートが必要な場合は、「[組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)」または「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」を利用できます。
+電話番号の取得でサポートが必要な場合は、「[組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)」または「[一般法人向けサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」を利用できます。
   
 ## <a name="search-for-phone-numbers"></a>電話番号を検索する
 
