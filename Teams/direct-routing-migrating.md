@@ -7,14 +7,15 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
+search.appverid: MET150
 ms.collection: ''
 description: 移行する直接ルーティングでは、Skype のオンライン ビジネスとチームの構成の分析観点の必要なものについて説明します。
-ms.openlocfilehash: 550d256565a3c679f643d531730db066a5b514cf
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 44f364b75bb1039120c1685c3e169b8acaf4ff91
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23844686"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23865608"
 ---
 # <a name="migrating-to-direct-routing"></a>直接ルーティングへの移行
 

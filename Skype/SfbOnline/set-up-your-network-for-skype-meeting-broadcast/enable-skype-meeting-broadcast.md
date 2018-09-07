@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 5299cce0-850e-42dc-b6ae-2d0ee775c4a9
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: 組織のユーザーが Skype 会議ブロードキャストを使用できるようにする前に、それを有効にしておく必要があります。この手順を実行するには、Windows PowerShell の使い方を知っておく必要があります。Windows PowerShell に慣れていない場合は、マイクロソフトのパートナーに依頼してこの手順を実行することを考慮してください。
-ms.openlocfilehash: 2564cf8acc809cb3b3973519bfea3518c851eb34
-ms.sourcegitcommit: 0fa147c33b1d7b5790af8d93339700ab62939430
+ms.openlocfilehash: ba30af3285f7e66f46e771f66132c89d7513852d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19744263"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850053"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Skype 会議ブロードキャストを有効にする
 
@@ -43,7 +44,7 @@ ms.locfileid: "19744263"
 
 1. Windows PowerShell のバージョン 3.0 以上を実行していることを確認します。
     
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+1. 3.0 以降のバージョンが実行されていることを確認する場合: **[スタート] メニュー** > **[Windows PowerShell]**。
     
 2. [ _Windows PowerShell_] ウィンドウに「 **Get-Host**」と入力して、バージョンを確認します。
     

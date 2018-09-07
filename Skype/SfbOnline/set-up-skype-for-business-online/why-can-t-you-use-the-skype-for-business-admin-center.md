@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: c182d564-1674-4491-b1d9-3e0cb657d4cc
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,11 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'して使用することはできません Skype でビジネス管理センター、および他の機能、サービスを別の Microsoft のデータ センターに移行されている場合について説明します。 '
-ms.openlocfilehash: b591b5352ba0d676462fabbaac446ecc769e204a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: d0b67b7193d6bc56617807d3c14d1196ee66d76c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854201"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>使用できない理由、Skype オンライン ビジネスの管理センターに今すぐですか。
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: dfa736b9-4920-4f48-b8c0-b5487ec6086f
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: ビジネス オンライン スケジュール、生産、およびブロードキャストの会議、またはイベントを 10,000 の出席者に大規模なオンライン ユーザーを対象にできるようにするには、Skype の Skype 会議のブロードキャスト機能について説明します。
-ms.openlocfilehash: 190911fcf87e0b3042bc8895ade016756a58a1ec
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: e1f10ad5036e2866cc480491e98bd2dd7396895a
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23251660"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862217"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Skype 会議ブロードキャスト用にネットワークをセットアップする
 
@@ -94,7 +95,7 @@ Skype 会議のブロードキャストの[Skype 会議のブロードキャス�
 
 場合は、他のセットアップで実行する必要がありますが、オンライン ビジネスの組織と、設置型展開の Lync Server 2010、Microsoft Lync Server 2013、および Skype、Skype ビジネス サーバー 2015 のとオンライン両方のユーザーが存在している設置ビジネス オンラインの Skype で通信し、すべてのユーザーを作成し、Skype の会議のブロードキャストに参加できるように、設置型の組織を有効にするのには、上記に追加します。 それらの要件とはどのようなものを表示するには、 [Skype 会議のブロードキャスト用の設置型展開の構成](https://go.microsoft.com/fwlink/?LinkId=617070)を参照してください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 
 [Skype 会議ブロードキャストを有効にする](enable-skype-meeting-broadcast.md)
 

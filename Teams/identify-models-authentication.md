@@ -8,16 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 description: クラウド、同期済み、フェデレーションなど、Microsoft Teams のさまざまな ID モデルを紹介します。また、多要素認証についても紹介します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da61ca04e97670084a4df866c8bcfbe794343662
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: d50ae5c3aec3a9868baff07b9078e0d17a7a0605
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248561"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23852028"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft Teams での ID モデルと認証
 ==========================================

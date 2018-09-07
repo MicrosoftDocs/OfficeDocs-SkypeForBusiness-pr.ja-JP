@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 51c2f7ac-2b72-488d-b1ea-f00e1e88ee7a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,13 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: ビジネス管理センターのレポート領域の新しい Skype では、組織内を呼び出し、オーディオ会議のアクティビティを示しています。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 などのビジネス PSTN 分プール レポートの Skype を使用すると、組織内で現在の月の期間中に消費する分の数を参照してください。
-search.appverid: MET150
-ms.openlocfilehash: a12597faf9f5669809cbf97a2ea8a054c65a8a0c
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 41f1e0c2dcc7504341bb6d9076c7a99b63ed50a9
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779670"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23865111"
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN の利用分数プール レポート
 
@@ -59,7 +59,7 @@ ms.locfileid: "23779670"
 ![ビジネス PSTN の分の Skype のプール レポート](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   
 ***
-![番号 1](../images/sfbcallout1.png)<br/>(機能) のライセンスと使用法の場所での分のプールの内訳を表に示します。 
+![ナンバー 1](../images/sfbcallout1.png)<br/>(機能) のライセンスと使用法の場所での分のプールの内訳を表に示します。 
 *    **機能**は、呼び出しに使用されるライセンスおよびサービス プランです。 このレポートに表示されるライセンスおよびサービスの計画は次のとおりです。
      * MCOPSTN1 - 国内の呼び出し (3000 分分 1200 米国と EU の計画の計画
      * MCOPSTN2 - 国際通話プラン
@@ -72,9 +72,9 @@ ms.locfileid: "23779670"
 *    **総分数**は、月の利用分の合計数です。 
 *    **使用率**は、月の利用時間の割合です。 
 ***
-![番号 2](../images/sfbcallout2.png)<br/>1 つ以上の列の全データをまとめたビューを作成したい場合は、列を [ **特定の列を基準にグループ化するには、ここに列ヘッダーをドラッグ アンド ドロップします**] にクリック アンド ドラッグします。 
+![ナンバー 2](../images/sfbcallout2.png)<br/>1 つ以上の列の全データをまとめたビューを作成したい場合は、列を [ **特定の列を基準にグループ化するには、ここに列ヘッダーをドラッグ アンド ドロップします**] にクリック アンド ドラッグします。 
 ***
-![番号 3](../images/sfbcallout3.png)<br/>また、[ **Excel にエクスポート**] をクリックまたはタップして、レポート データを Excel の .csv ファイルにエクスポートすることもできます。 <br/><br/> これにより、すべてのユーザーのデータがエクスポートされ、単純な並べ替えとフィルター処理を行ってさらに分析することができます。 2000 未満のユーザーをした場合は、並べ替えし、フィルター処理、レポート内のテーブル内でします。 ユーザー数が 2000 を超える場合は、フィルター処理と並べ替えを行うために、データをエクスポートする必要があります。
+![ナンバー 3](../images/sfbcallout3.png)<br/>また、[ **Excel にエクスポート**] をクリックまたはタップして、レポート データを Excel の .csv ファイルにエクスポートすることもできます。 <br/><br/> これにより、すべてのユーザーのデータがエクスポートされ、単純な並べ替えとフィルター処理を行ってさらに分析することができます。 2000 未満のユーザーをした場合は、並べ替えし、フィルター処理、レポート内のテーブル内でします。 ユーザー数が 2000 を超える場合は、フィルター処理と並べ替えを行うために、データをエクスポートする必要があります。
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Skype for Business のその他のレポートを表示しますか?
 

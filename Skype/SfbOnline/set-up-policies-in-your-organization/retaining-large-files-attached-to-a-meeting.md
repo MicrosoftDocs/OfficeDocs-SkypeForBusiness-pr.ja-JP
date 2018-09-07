@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 12203a1a-4a9f-4838-88c5-3740ea16ed8d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,11 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Skype ビジネス会議、どの参加者を選択し、開いてできますし、ダウンロードのためにファイルを添付することができます。 Skype ビジネス会議のための添付ファイルはメールボックスを持つ証拠保全に、Office 365 リテンション ・ ポリシーが適用される、または Office 365 のセキュリティ、電子的証拠開示のケースに関連付けられている保留リストに配置されます。 任意の参加者のメールボックスに保持されます。&amp;コンプライアンス センターです。 このコンテンツは、自分のメールボックス内の参加者の回復可能なアイテム フォルダーに保存されます。
-ms.openlocfilehash: ddd4742b3e30ed09a7e538d40712577ab26edfda
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: b38f2ec56fb53932c08ede2a8c6f39557216a6b8
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864977"
 ---
 # <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>ビジネス会議のため、Skype に接続されている大容量のファイルを保持します。
 

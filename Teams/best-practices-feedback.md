@@ -8,15 +8,16 @@ ms.topic: article
 ms.service: msteams
 description: 最高のチーム エクスペリエンスを可能にする Microsoft Teams でのユーザー フィードバック方法のベスト プラクティスについて説明します。
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 015eb9ea0e9e9fab0397a1f94749bcb7bf2c98c6
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
-ms.translationtype: MT
+ms.openlocfilehash: fb8044f56e3327116630347f639e9249eb537b93
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "18999086"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23866852"
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Microsoft Teams でのユーザー フィードバックの方法のベスト プラクティス
 ===========================================================

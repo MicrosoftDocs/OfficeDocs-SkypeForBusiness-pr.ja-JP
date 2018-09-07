@@ -1,5 +1,5 @@
 ---
-title: 設定し、Skype のオンライン ビジネスの委任のトラブルシューティング
+title: Skype for Business Online の代理のセットアップとトラブルシューティング
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: e676b911-5f82-41d8-b4ce-3d0d45c3cd04
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,13 +17,14 @@ f1keywords: None
 ms.custom:
 - Setup
 description: この資料を設定し、オンライン ビジネスの委任のため Skype をトラブルシューティングする方法について説明します。 この記事では、設定の推奨事項、ベスト ・ プラクティス、およびトラブルシューティング手順を実行するためのガイダンスを提供します。
-ms.openlocfilehash: 13df45590905bd6bbf7498ec6d2ab912cf976228
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: bb1f8639d045d156d5095e33a4a012987604c6e1
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856491"
 ---
-# <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>設定し、Skype のオンライン ビジネスの委任のトラブルシューティング
+# <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Skype for Business Online の代理のセットアップとトラブルシューティング
 
 この資料を設定し、オンライン ビジネスの委任のため Skype をトラブルシューティングする方法について説明します。 この記事では、設定の推奨事項、ベスト ・ プラクティス、およびトラブルシューティング手順を実行するためのガイダンスを提供します。
   
@@ -53,7 +55,7 @@ ms.lasthandoff: 04/18/2018
 ||**Outlook 2013**|**Outlook 2016**|
 |:-----|:-----|:-----|
 |**Lync と Skype クライアントの基本的なビジネスの**| サポートされていません |サポートされていません
-|**ビジネス 2015年の Skype**|サポート対象| サポート対象|
+|**Skype for Business 2015**|サポート対象| サポート対象|
 |**ビジネス 2016年の Skype**|サポート対象| サポート対象|
 
    
@@ -85,7 +87,7 @@ ms.lasthandoff: 04/18/2018
     
 2. **自分の代理人のメンバーを編集**] を選択します。
     
-3. **追加**] を選択、追加する代理人を選択し、 **[ok]**を選択します。
+3. **追加**] を選択、追加する代理人を選択し、 **[ok]** を選択します。
     
  **呼び出しの転送タブが表示されません。**
   
@@ -129,10 +131,10 @@ ms.lasthandoff: 04/18/2018
     > [!NOTE]
     > ビジネスの基本的なクライアントの Skype をインストールするは削除して、委任を解除します。 
   
-- **MAPI のステータス**値には、 **[ok]**がない場合は、 **SIP**と**SMTP**の値と一致していることを確認します。
+- **MAPI のステータス**値には、 **[ok]** がない場合は、 **SIP**と**SMTP**の値と一致していることを確認します。
     
     > [!NOTE]
-    > ビジネスおよび Outlook の Skype を初めて起動した後、 **[ok]**として表示するのには MAPI の状態までに数分かかることができます。
+    > ビジネスおよび Outlook の Skype を初めて起動した後、 **[ok]** として表示するのには MAPI の状態までに数分かかることができます。
   
 - セキュリティ グループを作成し、そのセキュリティ グループのアクセス許可を委任を追加することがサポートされていません。
     

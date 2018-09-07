@@ -6,15 +6,17 @@ manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: laal
 description: 組織に新しいゲスト ユーザーを追加するために管理者が利用できる Microsoft Teams デスクトップ、Web クライアント、Azure Active Directory B2B コラボレーション ポータルなどのツールについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e84c8f29416f94b78b287275cd473388931105ea
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: d97820a6cd5069c1e813ffbf83af20d393c084b5
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849838"
 ---
 <a name="add-a-guest-to-a-team"></a>チームにゲストを追加する
 =====================

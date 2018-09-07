@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 8c563b81-22c9-4024-9efe-9fe28c7bbc96
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,15 +17,16 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn how to plan and deploy Skype for Business in small, medium, and large organizations and making it available to your users. '
-ms.openlocfilehash: 83c2b0060f7edbb39c24709db2880b8aed014553
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 6af2ed700783fef853052b39c60270baf86919e9
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23858797"
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>Office 365 で Skype for Business クライアントを展開する
 
-この資料は、**[管理者](https://support.office.com/en-us/article/eac4d046-1afd-4f1a-85fc-8219c79e1504?ui=en-US&rs=en-US&ad=US)**では、配置方法ビジネス アプリケーションの Skype ユーザーに、組織内のオプションについて説明します。
+この資料は、**[管理者](https://support.office.com/en-us/article/eac4d046-1afd-4f1a-85fc-8219c79e1504?ui=en-US&rs=en-US&ad=US)** では、配置方法ビジネス アプリケーションの Skype ユーザーに、組織内のオプションについて説明します。
   
 ビジネス ユーザーは、Skype を展開する前に、[オンライン ビジネスの Skype の設定](set-up-skype-for-business-online.md)資料では、手順 1 ~ 3 を行っています。 これによって、ご使用のドメインで Skype for Business がセットアップされ、すべてのユーザーにライセンスが割り当てられ、組織用に IM と[Skype for Business Online でプレゼンスを設定する](configure-presence-in-skype-for-business-online.md)が構成されます。
   
@@ -33,7 +35,7 @@ ms.lasthandoff: 04/18/2018
   
 ## <a name="for-most-small-and-medium-sized-businesses"></a>ほとんどの中小規模の企業の場合
 
- **ステップ バイ ステップのインストール手順:**小規模または中規模のビジネスがある場合は、単に自分の PC 上のビジネス アプリケーションの Skype をインストールするのには、ユーザーに依頼することをお勧めします。 次の手順を参照するように:[ビジネスの Skype をインストール](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb?ui=en-US&rs=en-US&ad=US)します。 Mac を使用している場合は、 [Office 365 の Mac の 2011 年の Lync をセットアップ](https://support.office.com/en-us/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88?ui=en-US&rs=en-US&ad=US)することをポイントします。 ビジネス アプリケーションの Skype は、Office アプリケーションの残りの部分から個別にインストールします。
+ **ステップ バイ ステップのインストール手順:** 小規模または中規模のビジネスがある場合は、単に自分の PC 上のビジネス アプリケーションの Skype をインストールするのには、ユーザーに依頼することをお勧めします。 次の手順を参照するように:[ビジネスの Skype をインストール](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb?ui=en-US&rs=en-US&ad=US)します。 Mac を使用している場合は、 [Office 365 の Mac の 2011 年の Lync をセットアップ](https://support.office.com/en-us/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88?ui=en-US&rs=en-US&ad=US)することをポイントします。 ビジネス アプリケーションの Skype は、Office アプリケーションの残りの部分から個別にインストールします。
   
  **Office 365 ProPlus のお客様:** お客様の会社で E3 プランなどの Office 365 ProPlus が含まれる Office 365 プランを使用している場合、ユーザーが Word、Excel、PowerPoint などをダウンロードしてインストールすると、同時に Skype for Business アプリがインストールされます。つまり、Office をすべてアンインストールしないと Skype for Business をアンインストールできません。
   

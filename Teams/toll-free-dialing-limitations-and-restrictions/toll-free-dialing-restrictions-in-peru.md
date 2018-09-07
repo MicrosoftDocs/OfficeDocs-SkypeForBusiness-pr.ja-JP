@@ -9,6 +9,7 @@ ms.assetid: 5fd20329-475c-4fb0-82f1-5cef07723e09
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: fc1ffcb2bf0444ea281f2c2ed38d9e23d3b79aab
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: db6a6cf0b6d1e0ea49f0918219ab9a82779b1120
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784103"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860502"
 ---
 # <a name="toll-free-dialing-restrictions-in-peru"></a>ペルーのフリー ダイヤルのダイヤルの制限
 

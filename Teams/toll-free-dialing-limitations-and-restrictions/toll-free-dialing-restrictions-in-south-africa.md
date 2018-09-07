@@ -9,6 +9,7 @@ ms.assetid: 08ef2b9b-e891-46ae-aa7f-26bce663b519
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: 429dc1a3916ffad60831db7487d31a83a90d7bcf
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: fd4c4b3d13f6c4ba434b9d52d749152c208e1bed
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784079"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864334"
 ---
 # <a name="toll-free-dialing-restrictions-in-south-africa"></a>南アフリカのフリー ダイヤルのダイヤルの制限
 

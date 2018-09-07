@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: cf2f90e5-d587-4a0b-89c4-9d93a5231a9b
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 新しいローカル番号のポートの注文ウィザードを使用すると、アカウントに変更を加える権限を持つ人を追加する必要がある理由について説明します。
-ms.openlocfilehash: 13b6b96f7f4701f02715059b3edd0c8e1b2cf284
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: d1849b5205441c6f75c4215b49ff1faa82989210
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779348"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854391"
 ---
 # <a name="authorized-person-on-the-account"></a>アカウントで承認されたユーザー
 

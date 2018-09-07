@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 9af52080-dd56-4b66-b056-41ed1a7aaae3
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,12 +18,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'グラフィックのロゴ、ヘルプと法務の URL、フッターのテキストを含む Skype 会議出席依頼をカスタマイズします。 '
-ms.openlocfilehash: 1f53ce183ebe62923948a33a7ac6b14f3c61f04a
-ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
-ms.translationtype: HT
+ms.openlocfilehash: b7f9fc41257d24f6c8ffa78304164c67261573c1
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/04/2018
-ms.locfileid: "19500556"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849987"
 ---
 # <a name="customize-meeting-invitations"></a>会議出席依頼をカスタマイズする
 
@@ -39,16 +40,16 @@ ms.locfileid: "19500556"
     
     会議出席依頼に追加できるようになります。 次の手順を参照してください。
     
-## <a name="customize-your-meeting-invitations"></a>会議出席依頼をカスタマイズする
+## <a name="customize-your-meeting-invitations"></a>会議出席依頼をカスタマイズします。
 <a name="__top"> </a>
 
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
 
-1. 職場または学校のアカウントで Office 365 にサインインします。
+1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
 2. Office 365 管理センターで、 **管理センター** > **Skype for Business**を選択します。
     
-3. Skype for Business 管理センターで、**オンライン会議**を選択します。 
+3. ビジネス管理センターの Skype、**オンライン会議**を選択します。 
     
 4. 以下のボックスに入力してください:
     
@@ -63,16 +64,16 @@ ms.locfileid: "19500556"
    **フッター テキスト:** ユーザーに適切なテキストのみの脚注を入力します。  
   
    
-5. **保存** を選択します。
+5. [ **保存**] を選びます。
     
 6. Office 365 サービス全体に変更が反映されるまで 1 時間ほど待ちます。 その後 Outlook に移動し、Skype 会議をスケジュールし、変更がどのように反映されるか確認します。 
     
     ![カスタム出席依頼がどのようなものかを図を使用せずに以下に示します](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 <a name="__top"> </a>
 
-[Office 365 の電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
   
  

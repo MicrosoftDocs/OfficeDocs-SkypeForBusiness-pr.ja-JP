@@ -5,15 +5,16 @@ ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 description: マイクロソフト チームの機能のすべてを管理する Windows PowerShell を使用するについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c85f402f6ade08fa2bc5f31a02bf41cab0aad51
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 3deddb614be2ad5ee1389dcf53d8dab749a8567b
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23845558"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855646"
 ---
 # <a name="using-powershell-to-manage-teams"></a>PowerShell を使用して、チームを管理するには
 

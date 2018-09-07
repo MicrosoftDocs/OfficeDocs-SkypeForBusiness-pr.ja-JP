@@ -8,14 +8,15 @@ ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
+search.appverid: MET150
 ms.collection: ''
 description: Microsoft 電話システム直接ルーティングを使用する方法マイクロソフトの電話システムに、サポートされている、お客様が用意したセッション ボーダー コント ローラー (SBC) の接続については、このトピックを参照してください。
-ms.openlocfilehash: 1749d5b26be6e3cc4c55bb9a90e47e637fc67230
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 0f2fceee07b3c742496be7e9fdf5c714d66f8bc1
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23848618"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861742"
 ---
 # <a name="plan-direct-routing"></a>直接ルーティングを計画します。
 
@@ -68,9 +69,9 @@ Microsoft 電話システム直接ルーティングするには、マイクロ�
 |SBC のパブリック DNS エントリ |SBC の FQDN をパブリック IP アドレスにマップするパブリック DNS エントリです。 |
 |SBC の信頼された証明書の公開 |直接ルーティングですべての通信に使用する SBC の証明書です。 詳細については[、SBC の信頼された証明書の公開](#public-trusted-certificate-for-the-sbc)を参照してください。|
 |直接ルーティングするための接続ポイント |直接ルーティングするための接続ポイントは、次の 3 つの Fqdn です。<br/><br/>`sip.pstnhub.microsoft.com`– グローバル FQDN が最初に試行する必要があります。<br/>`sip2.pstnhub.microsoft.com`– セカンダリ FQDN は、地理的に 2 番目の優先度の領域にマップします。<br/>`sip3.pstnhub.microsoft.com`– の第 3 の FQDN は、3 番目の優先度の領域に地理的にマップします。<br/><br/>構成要件についてを参照してください[SIP シグナリング: Fqdn およびファイアウォールのポート](#sip-signaling-fqdns-and-firewall-ports)。|
-|ファイアウォールの IP アドレスとメディアの直接ルーティング用のポート |SBC がクラウド内の次のサービスを通信します。<br/><br/>SIP プロキシは、信号を処理します。<br/>メディア プロセッサは、メディアの処理のときに、メディアのバイパスを除く<br/><br/>これら 2 つのサービスでは、このドキュメントで後述する、マイクロソフトのクラウドで個別の IP アドレスがあります。<br/><br/>詳細については、 [Office 365 の Url と IP アドレスの範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)で、[マイクロソフトのチーム セクション](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)を参照してください。 |
+|ファイアウォールの IP アドレスとメディアの直接ルーティング用のポート |SBC がクラウド内の次のサービスを通信します。<br/><br/>SIP プロキシは、信号を処理します。<br/>メディア プロセッサは、メディアの処理のときに、メディアのバイパスを除く<br/><br/>これら 2 つのサービスでは、このドキュメントで後述する、マイクロソフトのクラウドで個別の IP アドレスがあります。<br/><br/>詳細については、 [Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)で、[マイクロソフトのチーム セクション](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)を参照してください。 |
 |メディア プロファイルを転送します。|TCP と RTP/SAVP <br/>UDP/RTP/SAVP|
-ファイアウォールの IP アドレスとポートはマイクロソフトのチームのメディアの |詳細については、 [Office 365 の Url と IP アドレスの範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)を参照してください。 |
+ファイアウォールの IP アドレスとポートはマイクロソフトのチームのメディアの |詳細については、 [Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)を参照してください。 |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>ライセンスおよびその他の要件 

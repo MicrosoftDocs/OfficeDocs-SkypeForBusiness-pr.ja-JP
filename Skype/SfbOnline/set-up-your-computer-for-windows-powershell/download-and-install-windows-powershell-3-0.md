@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: d739cd71-3c18-42ea-879f-b408bf53b1f4
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,12 +18,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Download, install, and then use Windows PowerShell 3.0 to create a remote PowerShell session that connects to Skype for Business Online.
-ms.openlocfilehash: 9c2b0f02d9da7e44cdb5585314c13a6bafbe58c6
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 8470a095e516179d1d328f47c1fe10d5a9e00aa6
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568324"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862887"
 ---
 # <a name="download-and-install-windows-powershell-30"></a>Windows PowerShell 3.0 をダウンロードしてインストールします。
 

@@ -9,6 +9,7 @@ ms.assetid: cde2f823-753a-4202-8ca6-081ac056b5a5
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ニュージーランドの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: d0809eeb2f80c494790870b0fd5882306846da3b
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: a16e6f4482a57cbbb418434cf251f92e6b34b408
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784847"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23859492"
 ---
 # <a name="availability-in-new-zealand"></a>ニュージーランドの可用性
 

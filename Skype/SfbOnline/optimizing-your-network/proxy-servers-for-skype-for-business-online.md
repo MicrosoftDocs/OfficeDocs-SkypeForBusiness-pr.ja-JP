@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 7acaf2c2-35fa-490f-84cd-822e446e0fc7
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: この記事は、Skype for Business でのプロキシ サーバーの使用に関するガイダンスを提供します。
-ms.openlocfilehash: fcae4ec366845818d515a4d78c79ea77d038a4a5
-ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
+ms.openlocfilehash: 3d83e2f6d4eb2b88a52eb949217ac2f00c72acff
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/08/2018
-ms.locfileid: "20211024"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850015"
 ---
 # <a name="proxy-servers-for-skype-for-business-online"></a>Skype for Business Online 向けのプロキシ サーバー
 

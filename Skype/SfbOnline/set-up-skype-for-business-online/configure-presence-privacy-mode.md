@@ -1,5 +1,5 @@
 ---
-title: プレゼンス プライバシー モードを構成します。
+title: プレゼンス プライバシー モードを設定する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: b33d57fe-b9cf-43c1-961a-edf28db738e8
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,13 +18,14 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'ユーザーが、利用可能時間を表示する方法より細かく制御できますように、ユーザーのプライバシー モードを設定する方法について説明します。 '
-ms.openlocfilehash: 9181962111e8e637af816351eb88ac32f7e50dcc
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: e2fb222046dc936d8fbd010dc8016da2b06e1ae8
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862803"
 ---
-# <a name="configure-presence-privacy-mode"></a>プレゼンス プライバシー モードを構成します。
+# <a name="configure-presence-privacy-mode"></a>プレゼンス プライバシー モードを設定する
 
 ビジネス オンライン プレゼンスの設定の Skype では、会議室、またはオフィスの外に使用されるかどうかを参照できるメンバーがより詳細に制御人を示します。 詳細については Skype のビジネスが存在し、プライバシーの設定、[ビジネス オンラインの Skype のプレゼンスを構成する](configure-presence-in-skype-for-business-online.md)を参照してください。 
   

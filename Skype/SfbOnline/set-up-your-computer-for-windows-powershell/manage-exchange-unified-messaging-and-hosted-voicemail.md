@@ -1,5 +1,5 @@
 ---
-title: Exchange ユニファイド メッセージングを管理し、ボイスメールのホスト
+title: Exchange ユニファイド メッセージングとホスト型ボイス メールを管理する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 707198df-df85-4833-9c15-aa29b71f085c
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,13 +17,14 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Use PowerShell to manage Exchange Unified Messaging capabilities such as Auto Attendant and Subscriber Access and hosted voicemail in Skype for Business Online.
-ms.openlocfilehash: 33fe3c7a3c19916a8a70008f467035c832e5ecb3
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 10c1891272a81731c94e5f0f459bb91e532e8387
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849795"
 ---
-# <a name="manage-exchange-unified-messaging-and-hosted-voicemail"></a>Exchange ユニファイド メッセージングを管理し、ボイスメールのホスト
+# <a name="manage-exchange-unified-messaging-and-hosted-voicemail"></a>Exchange ユニファイド メッセージングとホスト型ボイス メールを管理する
 
 [] 一連のコマンドレットを使用して、Exchange ユニファイド メッセージング、Skype for Business Online のホスト型ボイスメールを管理できます。
   

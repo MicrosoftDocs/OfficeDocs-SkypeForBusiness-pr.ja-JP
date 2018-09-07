@@ -1,5 +1,5 @@
 ---
-title: 活動レポート
+title: アクティビティ レポート
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 8cbe2eb2-1194-4fd7-b1ee-9f9287c82424
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,15 +19,14 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'ビジネス アクティビティ レポートの場合、Skype を取得する方法、含まれる内容、およびデータを解釈する方法について説明します。 '
-search.appverid: MET150
-ms.openlocfilehash: c827ed5c853a1f3e474f5f115a0dd1ef1975b5f7
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: d13ca7f70880d7ad0f3c6376e167c6222682887d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933109"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855577"
 ---
-# <a name="activity-report"></a>活動レポート
+# <a name="activity-report"></a>アクティビティ レポート
 
 [] 新しい Office 365 の [ **レポート**] ダッシュボードには、組織内の Office 365 製品全体にわたるアクティビティの概要が表示されます。 各製品内のアクティビティに関するより詳細な洞察を提供する個々 の製品レベルのレポートへドリルすることができます。 などの**Skype**ビジネス アクティビティのレポートを使用して、ユーザーがピア ツー ピアを使用してどの程度か、会議セッション、または会議セッションに関与しているどのくらい別に整理します。 
 
@@ -55,26 +55,26 @@ ms.locfileid: "19933109"
 ![Skype のビジネスのオンライン活動レポート](../images/670c8bc6-d29c-4033-87fc-a20d324c9aae.png)
   
 ***
-![番号 1](../images/sfbcallout1.png)<br/>
+![ナンバー 1](../images/sfbcallout1.png)<br/>
 過去 7 日間、30 日、90 日または 180 日間での傾向の**Skype**ビジネス アクティビティの電子メール活動のレポートを表示できます。 ただし、クリックした場合、レポート内の特定の日に、テーブル (番号 7 を参照してください) データが表示されます (ないレポートが生成された日付) の現在の日付から日数は 28 日までにします。
 
 > [!NOTE]
 > 特定の日の詳細をクリックすると、テーブルはレポートが生成された日付までの 30 日間のデータを表示のみです。
 
 ***
-![番号 2](../images/sfbcallout2.png)<br/>
+![ナンバー 2](../images/sfbcallout2.png)<br/>
 各レポートには、このレポートが生成された日付が表示されます。 レポートは、通常、活動の時間から 24-48 時間の遅延時間を反映します。 
 ***
-![番号 3](../images/sfbcallout3.png)<br/>
+![ナンバー 3](../images/sfbcallout3.png)<br/>
 利用状況の傾向を理解して、組織内に保持されている会議の活動の数を確認するのには、**アクティビティ**グラフを対話型のグラフのデータを使用します。 表示 合計数と種類の**ピア ツー ピア セッション**、**組織**および**Participated**の会議のセッションで、組織全体で。 
 ***
-![番号 4](../images/sfbcallout4.png)<br/>
+![ナンバー 4](../images/sfbcallout4.png)<br/>
 **ユーザー**グラフの対話型のグラフのデータを使用して、利用状況の傾向を理解して、組織内に保持されている会議の活動に参加している一意のユーザーの数を表示します。 までわかるだろうと、**ピア ツー ピア セッション**、**組織**、および**Participated**の種類のユーザーの合計数会議セッションにします。
 ***
-![番号 5](../images/sfbcallout5.png)<br/>
+![ナンバー 5](../images/sfbcallout5.png)<br/>
 凡例の項目をクリックして、グラフに表示する系列をフィルター処理できます。 **アクティビティ**グラフで、をクリックしてなど、**ピア ツー ピア セッション**、**構成されている**、または**Participated** 1 つずつに関連する情報のみを表示する] をタップします。 この選択を変更しても、グリッド テーブルの情報は変更されません。 
 ***
-![番号 6](../images/sfbcallout6.png)<br/>
+![ナンバー 6](../images/sfbcallout6.png)<br/>
 各グラフには、「X」軸（水平）と「Y」軸（垂直）があります。
 *    **アクティビティ**グラフでは、Y 軸にピアで構成されており、保持されている会議セッションに参加しての合計数です。
 *    **ユーザー**アクティビティ チャートの Y 軸はピア ツー ピアの種類ごとに参加している一意のユーザーの数に整理され、会議に参加しました。

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 74eda791-c41f-4fd9-ae0b-913342e7ab04
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,13 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: ビジネス管理センターのレポート領域の新しい Skype では、組織内を呼び出し、オーディオ会議のアクティビティを示しています。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 たとえば、Skype for Business での PSTN 使用状況の詳細レポートを使用して、通話の着信/発信に費やした分数とそれらの通話の料金を確認できます。 使用状況を把握して、組織内での使用状況を確認するのには請求先の詳細を呼び出すように、呼び出しのコストを含むオーディオ会議の PSTN 使用法の詳細を表示することができます。
-search.appverid: MET150
-ms.openlocfilehash: 562911b6ceb4751a1a808d4e8f63ddaddddfad99
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 6003199b69395001dc47d77f83927ac32e06e5a4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779186"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862243"
 ---
 # <a name="pstn-usage-report"></a>PSTN の使用状況のレポート
 
@@ -54,7 +54,7 @@ ms.locfileid: "23779186"
 ![Skype for Business PSTN 使用状況レポート](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)
 
 ***
-![番号 1](../images/sfbcallout1.png)<br/>この表は、ユーザーごとの、すべての PSTN 使用状況の詳細を示しています。また、Skype for Business が割り当てられているすべてのユーザーと、ユーザーの PSTN 使用状況を示しています。表では、列を追加したり、削除したりすることができます。
+![ナンバー 1](../images/sfbcallout1.png)<br/>この表は、ユーザーごとの、すべての PSTN 使用状況の詳細を示しています。また、Skype for Business が割り当てられているすべてのユーザーと、ユーザーの PSTN 使用状況を示しています。表では、列を追加したり、削除したりすることができます。
 *    **通話 ID** は通話の識別番号です。Microsoft サービス サポートへの通話で使用される固有の識別子です。
 *    [ **ユーザー ID**] は、ユーザーのサインイン名です。
 *    **電話番号**は着信通話を受けた Skype for Business の電話番号、または発信通話でダイヤルされた番号です。
@@ -94,9 +94,9 @@ ms.locfileid: "23779186"
      *    **MCOMEETADD** - オーディオ会議
      *    **MCOMEETACPEA** - 電話会議の分あたりの支払 
 ***
-![番号 2](../images/sfbcallout2.png)<br/>1 つ以上の列の全データをまとめたビューを作成したい場合は、列を [ **特定の列を基準にグループ化するには、ここに列ヘッダーをドラッグ アンド ドロップします**] にクリック アンド ドラッグします。
+![ナンバー 2](../images/sfbcallout2.png)<br/>1 つ以上の列の全データをまとめたビューを作成したい場合は、列を [ **特定の列を基準にグループ化するには、ここに列ヘッダーをドラッグ アンド ドロップします**] にクリック アンド ドラッグします。
  ***
-![番号 3](../images/sfbcallout3.png)<br/>レポートをエクスポートすることもできます。 タブにデータを区切られて、Excel ファイルをクリックするか、 **Excel にエクスポート**] ボタンをタップします。 <br/><br/> これにより、すべてのユーザーのデータがエクスポートされ、単純な並べ替えとフィルター処理を行ってさらに分析することができます。 ユーザー数が 2000 未満である場合は、レポート自体のテーブル内で並べ替えとフィルター処理を行うことができます。 
+![ナンバー 3](../images/sfbcallout3.png)<br/>レポートをエクスポートすることもできます。 タブにデータを区切られて、Excel ファイルをクリックするか、 **Excel にエクスポート**] ボタンをタップします。 <br/><br/> これにより、すべてのユーザーのデータがエクスポートされ、単純な並べ替えとフィルター処理を行ってさらに分析することができます。 ユーザー数が 2000 未満である場合は、レポート自体のテーブル内で並べ替えとフィルター処理を行うことができます。 
     > [!Note] 
     > Despite the export file named as .CSV (which implies a comma delimited export), as there may be commas in the data set, the file is actually delimited with **TABS** and not **COMMAS**.
 

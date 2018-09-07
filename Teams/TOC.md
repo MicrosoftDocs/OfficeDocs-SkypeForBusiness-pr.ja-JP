@@ -65,6 +65,11 @@
 ### [チームの業務用の試用版の提供を管理します。](iw-trial-teams.md)
 ### [組織のためにコミュニケーション クレジットをセットアップする](set-up-communications-credits-for-your-organization.md)
 ### [コミュニケーション クレジットについて](what-are-communications-credits.md)
+## サポートされているデバイス
+### [IP 電話](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [USB オーディオ デバイスやビデオ デバイス](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [会議室デバイスおよびソリューション](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
 <!-- ============================================================ -->
 
 
@@ -197,7 +202,7 @@
 ### [Outlook で Teams の会議アドインを使用する](teams-add-in-for-outlook.md)
 ### [Meeting Migration Service (MMS) のセットアップ](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### ライブ イベント
-#### [ライブ イベントをチームは何ですか。](what-are-teams-live-events.md)
+#### [ライブ イベントをチームは何ですか。](teams-live-events/what-are-teams-live-events.md)
 
 
 

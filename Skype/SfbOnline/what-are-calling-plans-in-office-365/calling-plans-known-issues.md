@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: baa3645a-0518-472e-942e-971c63ba4ca0
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '(PSTN の呼び出し)、Office 365 と何ができるかについては、それらの呼び出し元の計画に関する既知の問題について説明します。 '
-ms.openlocfilehash: 6846fc2e5bd2e1293ca5185a642a813275921ea4
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: e43aecea6bd19c6b346de68577f471214818d43f
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779300"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854159"
 ---
 # <a name="calling-plans-known-issues"></a>通話プランの既知の問題
 

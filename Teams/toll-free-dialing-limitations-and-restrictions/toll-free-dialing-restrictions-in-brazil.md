@@ -9,6 +9,7 @@ ms.assetid: 582cb0db-88e3-4986-a8f5-84363f232c31
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: c4cd0f2e7db3eeda2b4bccd1dca0016731818daa
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 03fbfb40f9454a379418876fa801165aa4236a93
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785679"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862056"
 ---
 # <a name="toll-free-dialing-restrictions-in-brazil"></a>ブラジルのフリー ダイヤルのダイヤルの制限
 

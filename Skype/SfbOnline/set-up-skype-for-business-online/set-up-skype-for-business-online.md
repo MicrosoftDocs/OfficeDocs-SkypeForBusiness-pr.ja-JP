@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 40296968-e779-4259-980b-c2de1c044c6e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -21,12 +22,12 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: 'ビジネス用の Skype をインストールするのには、ドメイン、ユーザー、IM およびプレゼンスを組織の設定について説明します。 オーディオ会議、電話システムおよび計画を呼び出すには、Skype の会議のブロードキャストを設定する方法を参照してください。 '
-ms.openlocfilehash: 264edbeeaaca9eb2b057760ec6432deedb4b78e4
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: b4db326212b472539a483a406a7c940f0802978d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23252528"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864491"
 ---
 # <a name="set-up-skype-for-business-online"></a>Skype for Business Online のセットアップ
 
@@ -42,7 +43,7 @@ Office 365 サブスクリプションの場合、Skype の設定を支援する
 
 ビジネス用の Skype を使用し、ビジネス ユーザーから*外部*の**呼び出し**を受信する場合はします。
 
-- **オプション 1。無料の [Skype アプリ](https://www.skype.com/)** を使用します。 非常に小規模なビジネスでは、(1-2 のユーザーなど) がある場合は、Skype のアプリケーションを使用してが移動する場合に適してします。 国内通話と国際通話で利用する場合は、より安価な手段となります。 まだ会議通話を押しながら、ビデオ通話は、してプレゼンテーション用にデスクトップを共有できます。 [レートと支払オプションをチェック アウト](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled)します。
+- **オプション 1。無料の [Skype アプリ](https://www.skype.com/)** を使用します。 非常に小規模なビジネスでは、(1-2 のユーザーなど) がある場合は、Skype のアプリケーションを使用してが移動する場合に適してします。 国内通話と国際通話で利用する場合は、より安価な手段となります。 まだ会議通話を押しながら、ビデオ通話は、してプレゼンテーション用にデスクトップを共有できます。 [料金と支払オプションを確認](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled)してください。
 
 - **オプション 2 です。計画をアップグレードし、Office 365 の電話システムとの呼び出しのプランを購入する**です。 どれだけこのコストは、スイッチを確認、[ビジネス製品の管理のヘルプのサポートに問い合わせてください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)するにはし、すべての処理をすることがあるを確認する最も簡単な方法です。
 
@@ -170,7 +171,7 @@ Skype 会議のブロードキャストを設定する手順の概要を以下�
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 <a name="bkmk_more"> </a>
 
 [Skype for Business Server と Skype for Business Online 間のハイブリッド接続を計画する](https://go.microsoft.com/fwlink/p/?linkid=400791)

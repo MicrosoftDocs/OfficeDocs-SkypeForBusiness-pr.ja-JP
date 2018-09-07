@@ -9,6 +9,7 @@ ms.assetid: 267abb97-5a9c-4ed3-aa6d-47cb63d39cd0
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 米国の利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: 135e75d6f5cf1ed069c64c5d3b73855d7b1f3981
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 781c65a23ff4af160636de1fc016dd8637425c9f
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783687"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23866604"
 ---
 # <a name="availability-in-the-united-states-us"></a>米国 (米国) の可用性
 

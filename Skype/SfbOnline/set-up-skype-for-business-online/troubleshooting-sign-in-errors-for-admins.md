@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: cdd4801a-2fe1-4aab-bbb6-db5f95f972d1
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'これらの問題のトラブルシューティングを行って Skype のオンライン ビジネスの記号のエラーや作業の一般的な原因を説明します。 '
-ms.openlocfilehash: 88ff25ab4603810d41e92e25a62bfecb3c376246
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 63bcd69fa4db2266647960c119c198797c154f75
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255789"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850215"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>管理者の Skype をビジネス オンラインのサインインのエラーのトラブルシューティング
 

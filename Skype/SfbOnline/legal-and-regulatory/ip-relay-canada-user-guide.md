@@ -7,6 +7,7 @@ ms.reviewer: mikedav, allancar
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,12 +18,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: カナダの IP 中継アカウントを使用する方法です。
-ms.openlocfilehash: 4dbffb89c890fac92fdd59b1d7529ecb887bc643
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: b5f6d268db302b4b0446c5f692bb7e27daa60b17
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246767"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863033"
 ---
 # <a name="ip-relay-in-canada---user-guide"></a>カナダでの IP 中継 - 『ユーザーガイド』
 
@@ -79,7 +80,7 @@ IP メッセージ リレー オペレーターは 911 にお問い合わせく�
 > [!IMPORTANT]
 > Northern911 は、マイクロソフトのための IP のリレー サービスを管理します。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 
 [カナダでの IP 中継 - サインアップ](ip-relay-canada-email-signup.md)
 

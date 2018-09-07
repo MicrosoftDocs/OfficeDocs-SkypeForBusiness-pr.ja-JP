@@ -7,6 +7,7 @@ ms.reviewer: mikedav, allancar
 ms.topic: article
 ms.service: msteams
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -16,12 +17,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: "マイクロソフト チーム est l'outil de チャット collaboratif d'Office 365 qui intègre toutes les personnes、contenus et besoin 流し込み être と impliquée、outils ない votre équipe et efficace。 "
-ms.openlocfilehash: 148071fdea294893b4107cc31347d4e4b1dc8e2c
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: e2e7580b46a7505d741ce5531320e519827ec2ca
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23846918"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855720"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration デ conformité en matière d'accessibilité
 

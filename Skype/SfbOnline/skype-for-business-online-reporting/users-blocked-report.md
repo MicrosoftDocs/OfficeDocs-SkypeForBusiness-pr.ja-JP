@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 0ac844b2-1b08-4e5a-addf-03cde7af7a40
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,13 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'このレポートとは、ビジネス レポートの場合は、他の Skype によって、PSTN の使用法を含む、組織全体での活動の詳細情報が表示します。 '
-search.appverid: MET150
-ms.openlocfilehash: 0b6bc07afb44b4bb2ba7e2b31f51443c93645655
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 508d41de4a8b67e1a266bead6f91445acd041a7e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933049"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860619"
 ---
 # <a name="users-blocked-report"></a>ブロックされているユーザーのレポート
 
@@ -50,17 +50,17 @@ ms.locfileid: "19933049"
 
 テーブルでは、呼び出しからブロックされているユーザーのすべての分類を示します。 電話システムまたはそれらに割り当てられた電話会議を持っているすべてのユーザーが表示されます。 表では、列を追加したり、削除したりすることができます。
 ***
-![番号 1](../images/sfbcallout1.png)
+![ナンバー 1](../images/sfbcallout1.png)
 *   **ユーザー ID**は、ユーザーのサインインには。
 *   **電話番号**は、ユーザーに割り当てられている番号です。 
 *   **ブロック操作**は、呼び出しを行うユーザーがブロックされた時刻 (UTC) です。
 *   **ブロック操作**は、ユーザーを禁止するのには実行されたアクションの種類です。
 *   **ブロック アクションの理由**は、ユーザーは、呼び出しでブロックされています理由です。
 ***
-![番号 2](../images/sfbcallout2.png)<br/>
+![ナンバー 2](../images/sfbcallout2.png)<br/>
 1 つ以上の列の全データをまとめたビューを作成したい場合は、列を [ **特定の列を基準にグループ化するには、ここに列ヘッダーをドラッグ アンド ドロップします**] にクリック アンド ドラッグします。
 ***
-![番号 3](../images/sfbcallout3.png)<br/>
+![ナンバー 3](../images/sfbcallout3.png)<br/>
 また、[ **Excel にエクスポート**] をクリックまたはタップして、レポート データを Excel の .csv ファイルにエクスポートすることもできます。
 
 これにより、すべてのユーザーのデータがエクスポートされ、単純な並べ替えとフィルター処理を行ってさらに分析することができます。 2000 未満のユーザーをした場合は、並べ替えし、フィルター処理、レポート内のテーブル内でします。 ユーザー数が 2000 を超える場合は、フィルター処理と並べ替えを行うために、データをエクスポートする必要があります。

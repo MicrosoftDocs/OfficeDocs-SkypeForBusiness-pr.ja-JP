@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 77b26eac-8228-4161-ba9f-733b187bd836
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,13 +21,14 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: '個々 のユーザーについては、ビジネスの Skype を次のように変更する方法について: オーディオおよびビデオ会議、通話の記録との会議。 '
-ms.openlocfilehash: 930960117a46639e86ed2d24c286a5270b21acb9
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 1296ec96d194be80ae3c48a947a0398f0eefb4e3
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860331"
 ---
-# <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>管理者: 個々 のユーザーについては、ビジネスの Skype を構成します。
+# <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>管理者: 個別のユーザーの Skype for Business の設定を構成する
 
 この資料では、管理者がユーザーの数が少ないためにビジネスの Skype をどのように構成する方法について説明します。 一括でこれらの手順を行うには、Windows PowerShell コマンドレットを使用することができますへのリンク掲載されています。
   
@@ -40,6 +42,8 @@ ms.lasthandoff: 04/18/2018
 <a name="__toc325019204"> </a>
 
 次の手順を実行する[管理者のアクセス許可](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)が必要です。
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -92,8 +96,8 @@ ms.lasthandoff: 04/18/2018
 |**電話会議の設定**|**説明**|
 |:-----|:-----|
 |**プロバイダー名** <br/> |リストから、プロバイダーを選択します。  <br/> |
-|**有料電話番号** (必須) <br/> |サード ・ パーティ製 ACP では、これらの電話番号は、オーディオ会議プロバイダーから入手したものです。 場合は、ユーザーは、Microsoft を使用してオーディオ会議プロバイダーとしては、これらをオーディオ会議ブリッジで設定されている番号となります。 ビジネスおよびマイクロソフトのチームの会議出席依頼の Skype に表示する数値書式を設定します。  <br/> |
-|**フリー ダイヤル番号** <br/> |サード ・ パーティ製 ACP では、これらの電話番号は、オーディオ会議プロバイダーから入手したものです。 場合は、ユーザーは、Microsoft を使用してオーディオ会議プロバイダーとしては、これらをオーディオ会議ブリッジで設定されている番号となります。 ビジネスおよびマイクロソフトのチームの会議出席依頼の Skype に表示する数値書式を設定します。  <br/> |
+|**有料電話番号** (必須) <br/> |サード ・ パーティ製 ACP では、これらの電話番号は、オーディオ会議プロバイダーから入手したものです。 ユーザーが、Microsoft を電話会議プロバイダーとして使用している場合は、これらは電話会議ブリッジで設定されている番号となります。 ビジネスおよびマイクロソフトのチームの会議出席依頼の Skype に表示する数値書式を設定します。  <br/> |
+|**フリー ダイヤル番号** <br/> |サード ・ パーティ製 ACP では、これらの電話番号は、オーディオ会議プロバイダーから入手したものです。 ユーザーが、Microsoft を電話会議プロバイダーとして使用している場合は、これらは電話会議ブリッジで設定されている番号となります。 ビジネスおよびマイクロソフトのチームの会議出席依頼の Skype に表示する数値書式を設定します。  <br/> |
 |**会議 ID と暗証番号 (pin)**(必須) <br/> |参加者暗証番号 (pin)、または会議コード、このユーザーが自動的にスケジュールし、サード ・ パーティ製のオーディオ会議プロバイダーから提供されているミーティングに参加するために使用します。 場合は、ユーザーは、Microsoft を使用してオーディオ会議プロバイダーとしては、必要な必要はありません。  <br/> |
    
 一括でこれらの設定を構成するには、PowerShell を使用します。 「[出席依頼に含まれている会議の開催者のために電話会議の電話番号を設定する](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md)」をご覧ください。
