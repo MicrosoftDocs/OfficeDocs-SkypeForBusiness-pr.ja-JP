@@ -7,15 +7,16 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rramesan
+search.appverid: MET150
 description: IT 管理者は、テナントレベルでのゲストの追加、ゲスト ユーザー ポリシーと権限の設定と管理、ゲストを招待できるユーザーの判別、ゲスト ユーザーのアクティビティに関するレポートの取得を行うことができます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc06626f745eec4106e65da206123fa68b4e208c
-ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
+ms.openlocfilehash: b1f4faf77d55da9e16ab49c7b2b3e6bc3a8727f8
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23834912"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867710"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセスを管理する
 ======================================

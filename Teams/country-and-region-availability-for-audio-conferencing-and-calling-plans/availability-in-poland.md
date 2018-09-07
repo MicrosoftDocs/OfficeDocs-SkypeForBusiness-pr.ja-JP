@@ -9,6 +9,7 @@ ms.assetid: c5dcb36b-9700-46c8-8499-d5cadb218a37
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ポーランドの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: ad154e0871ca63930514c5f5e73bc09b83f60f2a
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 533876b2cc512bf86efa796b1aa353f4f9e6b7d6
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784143"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23868070"
 ---
 # <a name="availability-in-poland"></a>ポーランドの可用性
 

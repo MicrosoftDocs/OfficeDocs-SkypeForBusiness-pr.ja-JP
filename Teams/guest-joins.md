@@ -7,15 +7,16 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
+search.appverid: MET150
 description: ゲストがどのような方法で Microsoft Teams のチームに参加するよう招待されるかについての簡単な概要を理解します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0290cb4446f46800cdbed1372e5f09403004307b
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: 3f729a497ed3ae978ce2157ccdc31af81c53cf36
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22135551"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850072"
 ---
 <a name="how-a-guest-joins-a-team"></a>ゲストがチームに参加する方法
 ========================

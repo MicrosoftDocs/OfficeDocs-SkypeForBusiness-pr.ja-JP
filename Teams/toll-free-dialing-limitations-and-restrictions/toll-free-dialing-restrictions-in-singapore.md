@@ -9,6 +9,7 @@ ms.assetid: d6faef8b-ff3c-4434-9613-496899b02a1c
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: 84ab892a45893098c62f4159cc32ac1e3d58f991
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: c2d49ca6f2cad629a500d7dda6769f9102f73af4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784919"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23869766"
 ---
 # <a name="toll-free-dialing-restrictions-in-singapore"></a>シンガポールでフリー ダイヤルのダイヤルの制限
 
