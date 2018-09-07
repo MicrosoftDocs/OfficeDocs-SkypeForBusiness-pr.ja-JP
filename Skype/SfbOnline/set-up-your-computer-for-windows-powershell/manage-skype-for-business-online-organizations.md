@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: c71f0d4d-5b6b-40ac-bc4a-6b97c05a121a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,36 +17,37 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: オンライン ビジネスのテナントに、Skype に関する情報を取得するのにには、Windows PowerShell と Get CsTenant と Get CsTenantLicensingConfiguration コマンドレットを使用します。
-ms.openlocfilehash: 1b58686b2330b43cc5978752ac4f6b4a91f9588e
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 279f9431c69605377fcc0070bf9c81a027cb4064
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863335"
 ---
-# <a name="manage-skype-for-business-online-organizations"></a><span data-ttu-id="eb3f5-103">Skype のオンライン ビジネスの組織を管理します。</span><span class="sxs-lookup"><span data-stu-id="eb3f5-103">Manage Skype for Business Online organizations</span></span>
+# <a name="manage-skype-for-business-online-organizations"></a><span data-ttu-id="06484-103">Skype のオンライン ビジネスの組織を管理します。</span><span class="sxs-lookup"><span data-stu-id="06484-103">Manage Skype for Business Online organizations</span></span>
 
-<span data-ttu-id="eb3f5-104">**Get CsTenant**と**Get CsTenantLicensingConfiguration**コマンドレットを使用して、情報のオンライン ビジネスのテナントに、Skype のご覧ください。</span><span class="sxs-lookup"><span data-stu-id="eb3f5-104">You can find information about your Skype for Business Online tenant by using the **Get-CsTenant** and **Get-CsTenantLicensingConfiguration** cmdlets.</span></span>
+<span data-ttu-id="06484-104">**Get CsTenant**と**Get CsTenantLicensingConfiguration**コマンドレットを使用して、情報のオンライン ビジネスのテナントに、Skype のご覧ください。</span><span class="sxs-lookup"><span data-stu-id="06484-104">You can find information about your Skype for Business Online tenant by using the **Get-CsTenant** and **Get-CsTenantLicensingConfiguration** cmdlets.</span></span>
   
-## <a name="manage-skype-for-business-online-tenants"></a><span data-ttu-id="eb3f5-105">Skype のオンライン ビジネスのテナントを管理します。</span><span class="sxs-lookup"><span data-stu-id="eb3f5-105">Manage Skype for Business Online tenants</span></span>
+## <a name="manage-skype-for-business-online-tenants"></a><span data-ttu-id="06484-105">Skype のオンライン ビジネスのテナントを管理します。</span><span class="sxs-lookup"><span data-stu-id="06484-105">Manage Skype for Business Online tenants</span></span>
 
-<span data-ttu-id="eb3f5-106">オンライン ビジネスのテナントに、Skype に関する情報を返すには、追加パラメーターを指定せず[取得 CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599)コマンドレットを呼び出します。</span><span class="sxs-lookup"><span data-stu-id="eb3f5-106">To return information about your Skype for Business Online tenant, call the [Get-CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) cmdlet without any additional parameters.</span></span>
+<span data-ttu-id="06484-106">オンライン ビジネスのテナントに、Skype に関する情報を返すには、追加パラメーターを指定せず[取得 CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599)コマンドレットを呼び出します。</span><span class="sxs-lookup"><span data-stu-id="06484-106">To return information about your Skype for Business Online tenant, call the [Get-CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) cmdlet without any additional parameters.</span></span>
   
 ```
 Get-CsTenant
 ```
 
-<span data-ttu-id="eb3f5-107">名前と ID は、テナントだけを返す、このコマンドを使用します。</span><span class="sxs-lookup"><span data-stu-id="eb3f5-107">To return just the tenant name and ID, use this command.</span></span>
+<span data-ttu-id="06484-107">名前と ID は、テナントだけを返す、このコマンドを使用します。</span><span class="sxs-lookup"><span data-stu-id="06484-107">To return just the tenant name and ID, use this command.</span></span>
   
 ```
 Get-CsTenant | Select-Object Name, TenantID
 ```
 
-<span data-ttu-id="eb3f5-108">[セット CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602) [セット CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994080.aspx)などのコマンドレットを実行する場合、 _TenantID_パラメーターの値が必要です。</span><span class="sxs-lookup"><span data-stu-id="eb3f5-108">The value of the  _TenantID_ parameter is required when running cmdlets such as [Set-CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602) and [Set-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994080.aspx).</span></span>
+<span data-ttu-id="06484-108">[セット CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602) [セット CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994080.aspx)などのコマンドレットを実行する場合、 _TenantID_パラメーターの値が必要です。</span><span class="sxs-lookup"><span data-stu-id="06484-108">The value of the  _TenantID_ parameter is required when running cmdlets such as [Set-CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602) and [Set-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994080.aspx).</span></span>
   
-<span data-ttu-id="eb3f5-109">指定したテナントのライセンス情報は、Skype のオンライン ビジネスの管理センターで使用できるかどうかに関する情報を検索するには、 [Get CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606)コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="eb3f5-109">To find information about whether licensing information for the specified tenant is available in the Skype for Business Online admin center, use the [Get-CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606) cmdlet.</span></span>
+<span data-ttu-id="06484-109">指定したテナントのライセンス情報は、Skype のオンライン ビジネスの管理センターで使用できるかどうかに関する情報を検索するには、 [Get CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606)コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="06484-109">To find information about whether licensing information for the specified tenant is available in the Skype for Business Online admin center, use the [Get-CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606) cmdlet.</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="eb3f5-110">このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。</span><span class="sxs-lookup"><span data-stu-id="eb3f5-110">Related topics</span></span>
-[<span data-ttu-id="eb3f5-111">Windows PowerShell を使用してビジネスのオンライン管理のための skype には、コンピューターを設定します</span><span class="sxs-lookup"><span data-stu-id="eb3f5-111">Set up your computer for skype for business online management using Windows PowerShell</span></span>](set-up-your-computer-for-windows-powershell.md)
+## <a name="related-topics"></a><span data-ttu-id="06484-110">このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。</span><span class="sxs-lookup"><span data-stu-id="06484-110">Related topics</span></span>
+[<span data-ttu-id="06484-111">Windows PowerShell を使用してビジネスのオンライン管理のための skype には、コンピューターを設定します</span><span class="sxs-lookup"><span data-stu-id="06484-111">Set up your computer for skype for business online management using Windows PowerShell</span></span>](set-up-your-computer-for-windows-powershell.md)
 
   
  

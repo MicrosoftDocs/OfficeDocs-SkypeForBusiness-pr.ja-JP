@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 5c274a36-9e7a-4399-af08-688ffc75b8ac
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,31 +21,31 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: '会社のビジネスでは、Skype での配置し、それを見つけることができます。 '
-ms.openlocfilehash: 4c7cf17a0b1845b7b5383e2d7f4c6b4e5809ae22
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 4de285245348d3ca57c3891496d2f0af848cadba
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779412"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850033"
 ---
-# <a name="what-should-i-put-in-for-the-company-name"></a><span data-ttu-id="aa26a-103">会社名に記入する内容について</span><span class="sxs-lookup"><span data-stu-id="aa26a-103">What should I put in for the company name?</span></span>
+# <a name="what-should-i-put-in-for-the-company-name"></a><span data-ttu-id="300b8-103">会社名に記入する内容について</span><span class="sxs-lookup"><span data-stu-id="300b8-103">What should I put in for the company name?</span></span>
 
-<span data-ttu-id="aa26a-104">これは、会社または組織の名前です。</span><span class="sxs-lookup"><span data-stu-id="aa26a-104">This is the name of your company or organization.</span></span> <span data-ttu-id="aa26a-105">会社の名前は、次のような空白が含まれている、25 文字までに制限します。</span><span class="sxs-lookup"><span data-stu-id="aa26a-105">The name of the company is limited to 25 characters, which includes spaces.</span></span> <span data-ttu-id="aa26a-106">ポート注文要求を処理する会社の名前が使用されていません。争議の場合に使用されますか何かがない正しい電話番号を移植するとき。</span><span class="sxs-lookup"><span data-stu-id="aa26a-106">The name of the company isn't used to process the port order request; it is used in the case of a dispute or if something is incorrect when the phone numbers are being ported over.</span></span> <span data-ttu-id="aa26a-107">ボックスに会社名の全体を収めることはできません、ファイルと、遅延はありませんか、ポートの注文をキャンセルします。</span><span class="sxs-lookup"><span data-stu-id="aa26a-107">If you can't fit the entire name of the company in the box, it won't delay or cancel the port order.</span></span>
+<span data-ttu-id="300b8-104">これは、会社または組織の名前です。</span><span class="sxs-lookup"><span data-stu-id="300b8-104">This is the name of your company or organization.</span></span> <span data-ttu-id="300b8-105">会社の名前は、次のような空白が含まれている、25 文字までに制限します。</span><span class="sxs-lookup"><span data-stu-id="300b8-105">The name of the company is limited to 25 characters, which includes spaces.</span></span> <span data-ttu-id="300b8-106">ポート注文要求を処理する会社の名前が使用されていません。争議の場合に使用されますか何かがない正しい電話番号を移植するとき。</span><span class="sxs-lookup"><span data-stu-id="300b8-106">The name of the company isn't used to process the port order request; it is used in the case of a dispute or if something is incorrect when the phone numbers are being ported over.</span></span> <span data-ttu-id="300b8-107">ボックスに会社名の全体を収めることはできません、ファイルと、遅延はありませんか、ポートの注文をキャンセルします。</span><span class="sxs-lookup"><span data-stu-id="300b8-107">If you can't fit the entire name of the company in the box, it won't delay or cancel the port order.</span></span>
   
- <span data-ttu-id="aa26a-108">**完全な手順については、 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)を参照してください。**</span><span class="sxs-lookup"><span data-stu-id="aa26a-108">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**</span></span>
+ <span data-ttu-id="300b8-108">**完全な手順については、 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)を参照してください。**</span><span class="sxs-lookup"><span data-stu-id="300b8-108">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**</span></span>
  
 > [!NOTE]
-> <span data-ttu-id="aa26a-109">無料電話番号</span><span class="sxs-lookup"><span data-stu-id="aa26a-109">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="300b8-109">無料電話番号</span><span class="sxs-lookup"><span data-stu-id="300b8-109">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
   
-## <a name="related-topics"></a><span data-ttu-id="aa26a-110">関連トピック</span><span class="sxs-lookup"><span data-stu-id="aa26a-110">Related topics</span></span>
-[<span data-ttu-id="aa26a-111">電話番号の移行に関するよくある質問</span><span class="sxs-lookup"><span data-stu-id="aa26a-111">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a><span data-ttu-id="300b8-110">関連トピック</span><span class="sxs-lookup"><span data-stu-id="300b8-110">Related topics</span></span>
+[<span data-ttu-id="300b8-111">電話番号の移行に関するよくある質問</span><span class="sxs-lookup"><span data-stu-id="300b8-111">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="aa26a-112">通話プランで使用されるさまざまな種類の電話番号</span><span class="sxs-lookup"><span data-stu-id="aa26a-112">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[<span data-ttu-id="300b8-112">通話プランで使用されるさまざまな種類の電話番号</span><span class="sxs-lookup"><span data-stu-id="300b8-112">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[<span data-ttu-id="aa26a-113">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="aa26a-113">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="300b8-113">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="300b8-113">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="aa26a-114">[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="aa26a-114">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="300b8-114">[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="300b8-114">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  
