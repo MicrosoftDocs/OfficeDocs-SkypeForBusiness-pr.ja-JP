@@ -16,40 +16,40 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: '国または地域、都道府県、市区町村別に、ユーザーに割り当てられる電話番号を検索し、必要な番号の数を指定する方法を説明します。 '
-ms.openlocfilehash: 057eca4ba0f884fb1c81cb8ee8e45be6a19194bf
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: d3d131e850fef1afe95763a0e48b6c7c766b55ed
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850149"
+ms.locfileid: "23884113"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>ユーザーの電話番号を検索する
 
-組織内でユーザーが電話の発信や受信をできるように設定するには、 [ **Skype for Business 管理センター**] を使って最初に電話番号を取得し、ユーザーに割り当てられるようにする必要があります。 ユーザーに割り当てる電話番号は組織用に選んだ電話番号であり、ユーザーのプロパティを編集して [ **番号を割り当てる**] をクリックすると、その番号はドロップダウン リストに一覧表示されます。
+電話の通話を送受信するには、組織内のユーザーを設定すると、 **Skype**を使用し、最初のユーザーに割り当てることができる電話番号を取得ください。 ユーザーに割り当てる電話番号は組織用に選んだ電話番号であり、ユーザーのプロパティを編集して [ **番号を割り当てる**] をクリックすると、その番号はドロップダウン リストに一覧表示されます。
   
-ユーザーに電話番号を割り当てる前に、**新しい番号**ページを使用して、エリア内で利用可能な番号を検索する必要があります。 [ **国または地域**]、[ **都道府県**]、[ **市区町村**] で検索してから、ユーザー用に必要となる電話番号の数を入力できます。 
+ユーザーに電話番号を割り当てる前に、**新しい番号**ページを使用して、エリア内で利用可能な番号を検索する必要があります。 **国/地域**、**状態**、および**市区町村**を検索し、ユーザーにする必要がありますが、電話番号の番号を入力できます。 
   
-電話番号の取得でサポートが必要な場合は、「[組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)」または「[一般法人向けサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」を利用できます。
+電話番号を取得するいくつかのヘルプが必要な場合は、[組織の電話番号の管理](/microsoftteams/manage-phone-numbers-for-your-organization)や[ビジネス製品の管理のヘルプのサポートの連絡先](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)を確認すること
   
 ## <a name="search-for-phone-numbers"></a>電話番号を検索する
 
  **ユーザーの電話番号を検索するには**
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
 2. **[Office 365 管理センター]** > **[Skype for Business]** に移動します。
     
-3. 左側のナビゲーションで **[音声]** > **[電話番号]** に進み、**[新しい番号を追加]**  >  **[新しいユーザーの番号]** をクリックします。
+3. In the left navigation go to **Voice** > **Phone numbers**, and then click **Add new number** > **New user numbers**.
   
     > [!IMPORTANT]
-    > Skype for Business 管理センターの左にあるナビゲーションで **[音声]** オプションが表示される場合、最初に少なくとも 1 つの **Enterprise E5 ライセンス**、1 つの**電話システム** アドオン ライセンス、または 1 つの**電話会議**アドオン ライセンスを購入する必要があります。  
+    > ビジネス管理センターの Skype では、左側のナビゲーションの**音声**オプションを表示するため、まず**E5 のエンタープライズ ライセンス**を少なくとも 1 つ、1 つの**電話システム**のアドオン ライセンスまたはアドオンのライセンスが 1 つの**電話会議**を購入する必要があります。  
     
     
 4. [ **新しいユーザー番号を追加**] ページで、 **国**および **都道府県**のリストをクリックして、番号を選択する都道府県を選択して、次に [ **市区町村**] リストから市区町村の市外局番を選択します。
@@ -64,7 +64,7 @@ ms.locfileid: "23850149"
 7. 目的の電話番号を選んでから、[ **番号を取得**] を選びます。
     
     > [!IMPORTANT]
-    > 保持しているライセンス数よりも多くの電話番号を取得できます。 取得できる電話番号の数を確認するには、保持しているライセンス数にライセンス数の 10% を加算し、さらに 10 を加えます。 たとえば、**100 の 国内通話プラン**と** 国際通話プラン** のライセンスがある場合、それらの 100 ユーザー用の電話番号をまだ取得していなければ、120 の電話番号を予約できます。 詳細は、「[取得できる電話番号の数について](/microsoftteams/how-many-phone-numbers-can-you-get)」を参照してください
+    > ライセンスがある場合よりも、他の電話番号を取得することができます。 取得できる電話番号の数を確認するには、保持しているライセンス数にライセンス数の 10% を加算し、さらに 10 を加えます。 たとえば、**国内を呼び出すことを計画****国際対応の計画を呼び出すこと**の 100 のライセンスがあれば、予約できます 120 の電話番号、100 ユーザーのためのいくつかの電話番号を既に入手していないすると仮定した場合します。 詳細は、「[取得できる電話番号の数について](/microsoftteams/how-many-phone-numbers-can-you-get)」を参照してください
 
 ## <a name="related-topics"></a>関連トピック
 [電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)

@@ -7,18 +7,18 @@ ms.date: 06/08/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 description: チームの作業負荷が Office 365 のフローでは、さまざまなトポロジを利用する方法について説明します。
-ms.openlocfilehash: 69b4deb078a0626c8a7cc4dce808825f2d038bac
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e1fcd36e9f5bea175887cad827e07f6ede556740
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861818"
+ms.locfileid: "23891811"
 ---
 # <a name="microsoft-teams-online-call-flows"></a>マイクロソフト チーム オンライン呼び出しのフロー
 

@@ -15,17 +15,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: 取得し、オーストラリアの電話番号を Skype のビジネスをオンラインで、マイクロソフトのチームの管理上の情報を検索するのにには、次の表を使用します。
-ms.openlocfilehash: bb77b41539b2de7ed439a434ba6303a89b60e059
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 1992b7db86d253b84b23d304b8cb3022b74daf4c
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23870983"
+ms.locfileid: "23884517"
 ---
 # <a name="phone-number-management-for-australia"></a>オーストラリアの電話番号の管理
 > [!IMPORTANT]

@@ -16,25 +16,25 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords:
 - O365P_DialInConfDesc
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
-description: '電話機を使用して電話会議に参加する必要のある社内のユーザー向けに、ダイヤルインまたは電話会議をセットアップする方法を説明します。 '
-ms.openlocfilehash: 33e499719825a195484c6340bed09afeaa70f5ee
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+description: '電話を使用して会議に参加する必要のあるビジネスで、ユーザーのダイヤルインまたはオーディオ会議を設定する方法について説明します。 '
+ms.openlocfilehash: 3ac6b6dbe562b7aff14394b5dbd2888ce04eb1c7
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850197"
+ms.locfileid: "23887953"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams"></a>Skype for Business および Microsoft Teams の電話会議のセットアップ
 
-自分の組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Skype for Business と Microsoft Teams には、このような状況に最適な電話会議の機能があります。 ユーザーは、モバイル デバイスや PC 上の Skype for Business アプリや Microsoft Teams アプリを使用しなくても、電話機を使用して Skype for Business 会議や Microsoft Teams 会議を呼び出すことができます。 
+自分の組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Skype ビジネスおよびマイクロソフトのチームには、これだけのオーディオ会議機能を搭載! 人は、ビジネスまたはマイクロソフトのチームのアプリケーションをモバイル デバイスまたは PC 上で、Skype を使用する代わりに、電話を使用するビジネスまたはマイクロソフトのチームの会議、Skype を呼び出すことができます。 
   
-必要なのは、会議を計画したり主催しようとしているユーザー向けに電話会議をセットアップすることだけです。 ダイヤルインする会議参加者には、割り当てられたライセンスやその他のセットアップは必要ありません。
+のみ、スケジュールや会議を計画している人の電話会議を設定する必要があります。 ダイヤルインする会議参加者には、割り当てられたライセンスやその他のセットアップは必要ありません。
   
 電話会議についてよく寄せられる質問については、「[電話会議についてよくある質問](/MicrosoftTeams/audio-conferencing-common-questions)」を参照してください。
 
@@ -63,11 +63,11 @@ ms.locfileid: "23850197"
 
 電話会議では、ユーザーの電話番号を使うことはできません。サービス番号を取得する必要があります。 会議ブリッジ用に、有料または無料のサービス番号のいずれかを取得することができます。 有料サービス番号と無料サービス番号を取得する方法は 3 通りあります。 
   
-- **Skype for Business 管理センターを使用する。** いくつかの国/地域では、Skype for Business 管理センターを使用して、会議ブリッジ用にサービス番号を取得できます。「[サービス電話番号の取得](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)」を参照してください。
+- **ビジネス管理センターは、Skype を使用します。** いくつかの国/地域では、Skype for Business 管理センターを使用して、会議ブリッジ用にサービス番号を取得できます。「[サービス電話番号の取得](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)」を参照してください。
     
-- **既存のサービス番号を移行する。** 現在のサービス プロバイダーまたは電話通信会社から、Office 365 に既存の番号を移行します。 この方法の詳細については、「[Office 365 に電話番号を移行](/microsoftteams/transfer-phone-numbers-to-office-365)」または「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization)」を参照してください。  
+- **既存のサービスの番号を移植します。** ポートまたは現在のサービス プロバイダーまたは電話のキャリアからの既存の番号を Office 365 に転送。 この方法の詳細については、「[Office 365 に電話番号を移行](/microsoftteams/transfer-phone-numbers-to-office-365)」または「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization)」を参照してください。  
   
-- **新規の番号を取得するには、リクエスト フォームを使用してください。** 国や地域によっては、Skype for Business 管理センターを使用して新規のサービス番号を取得できない場合や、特定の電話番号や地域コードが必要になる場合があります。 その場合は、フォームをダウンロードして記入してからマイクロソフトに返送する必要があります。 詳細については「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization) 」を参照してください。 
+- **新規の番号を取得するには、リクエスト フォームを使用してください。** 場合があります (国または地域) によってことはできませんビジネス管理センターでは、Skype を使用して、新しいサービスの番号を取得するか、特定の電話番号または市外局番が必要です。 その場合は、フォームをダウンロードして記入してからマイクロソフトに返送する必要があります。 詳細については「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization) 」を参照してください。 
     
 ## <a name="step-4-assign-a-service-number-to-the-conferencing-bridge"></a>手順 4: 会議ブリッジにサービス番号を割り当てる
 <a name="__top"> </a>
@@ -76,7 +76,7 @@ ms.locfileid: "23850197"
 
 電話会議ブリッジに新規の電話番号を割り当てるには:
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する:**
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターに、Skype を使用する:**
 
  [**Office 365 管理センター**]  >  [**管理センター**]  >  [**Skype for Business**]  >  [**音声**]  >  [**電話番号**] の順に開き、電話番号を選択して [**割り当て**] をクリックします。
 
@@ -91,7 +91,7 @@ ms.locfileid: "23850197"
 
 ダッシュボードから、[**会議**]  >  [**会議ブリッジ**] の順に開き、会議ブリッジ電話番号を選択して [**編集**] をクリックし、既定言語を選択します。
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する:**
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターに、Skype を使用する:**
 
 [**Office 365 管理センター**]  >  [**管理センター**]  >  [**Skype for Business**]  >  [**電話会議**]  >  [**Microsoft ブリッジの設定**] の順に開き、会議ブリッジ電話番号を選択して [**言語の設定**] をクリックします。
 
@@ -104,7 +104,7 @@ ms.locfileid: "23850197"
 
 ダッシュボードから、[**会議**]  >  [**会議ブリッジ**]  >  [**ブリッジの設定**] の順に開きます。 [**ブリッジの設定**] ウィンドウが開きます。 詳細については、[電話会議ブリッジの設定を変更する](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge) を参照してください。
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する:**
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターに、Skype を使用する:**
 
 [**Office 365 管理センター**]  >  [**管理センター**]  >  [**Skype for Business**]  >  [**電話会議**]  >  [**Microsoft ブリッジの設定**] の順に開きます。 [**Microsoft ブリッジの設定** ] ページが開きます。 詳細については、[電話会議ブリッジの設定を変更する](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge) を参照してください。
 
@@ -118,7 +118,7 @@ ms.locfileid: "23850197"
 
 ダッシュボードから、[**ユーザー**] をクリックしてリストからユーザーを選択し、[**編集**] をクリック、[**電話会議**] の次にある [**編集**] をクリックして、[**電話会議**] ウィンドウで [**有料番号**] と [**無料番号**] の番号リストから、番号を選択します。
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business 管理センターを使用する:**
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターに、Skype を使用する:**
 
 [**Office 365 管理センター**]  >  [**Skype for Business**]  >  [**電話会議**]  >  [**ユーザー**] の順に開き、リストからユーザーを選択して [**編集**] をクリックします。 さらに詳細が必要な場合は、「[Microsoft を電話会議プロバイダーとして割り当てる](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)」を参照してください。
 
@@ -126,9 +126,9 @@ ms.locfileid: "23850197"
 ## <a name="step-8-set-up-meeting-invitations-optional"></a>手順 8: 会議の招集をセットアップする（オプション）
 <a name="__top"> </a>
  
-ユーザー向けに設定されているダイヤルイン番号は、会議の出席者に送信される会議招集に自動的に追加されます。 ただし、必要に応じて、独自のヘルプや法律のリンク、テキスト メッセージ、小さな会社のグラフィックを追加できます。 「[会議出席依頼をカスタマイズする](../set-up-skype-for-business-online/customize-meeting-invitations.md)」を参照してください。
+ユーザー向けに設定されているダイヤルイン番号は、会議の出席者に送信される会議招集に自動的に追加されます。 ただし、必要に応じて、独自のヘルプや法律のリンク、テキスト メッセージ、小さな会社のグラフィックを追加できます。 [ミーティングの招待状をカスタマイズする](../set-up-skype-for-business-online/customize-meeting-invitations.md)を参照してください。
    
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 
 [電話会議に関するよくある質問](/MicrosoftTeams/audio-conferencing-common-questions)
   

@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: '概要: ビジネス サーバーのコントロール パネルの Skype を使用して、SIP トランクの構成設定を変更する方法を説明します。'
-ms.openlocfilehash: 2a507b49318491528b025c3a8aba67e43a9dd82c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 176e685fd0eb2677854329640014528a24d8bebf
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20998169"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23888354"
 ---
 # <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>ビジネス サーバーの Skype で SIP トランク構成設定を変更します。
  

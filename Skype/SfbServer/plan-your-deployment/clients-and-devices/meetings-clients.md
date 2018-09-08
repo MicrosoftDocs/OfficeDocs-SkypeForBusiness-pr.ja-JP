@@ -7,19 +7,19 @@ ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: '概要: IT プロフェッショナルは Skype ビジネス サーバーの計画中に、Skype のビジネス Web アプリケーションおよび Skype 会議アプリケーションのサポート要件を確認する必要があります。 この記事はこれらのアプリのユーザー向けのものではありません。'
-ms.openlocfilehash: ba1c01625c987235c65fe2139eae4cc94989ff51
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: dc1e050bf09c7473c98af526761ef3d1aab416d9
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22391763"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885630"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>会議クライアント用の計画 (Web アプリおよび会議アプリ)
  

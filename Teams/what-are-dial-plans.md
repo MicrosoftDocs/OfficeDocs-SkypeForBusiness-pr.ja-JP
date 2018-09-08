@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'ダイヤルの通話プラン (PSTN の呼び出しのダイヤル プラン) の種類は、Office 365 を使用し、組織のいずれかを選択する方法について説明します。  '
-ms.openlocfilehash: 17f53a9e657ce384dbcb8c6184448765ca5733ff
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: d0a803316326ca4bc4909ad0e15fa4bfc75a3d00
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865426"
+ms.locfileid: "23889473"
 ---
 # <a name="what-are-dial-plans"></a>ダイヤル プランについて
 
@@ -141,7 +141,7 @@ Skype for Business Online でのダイヤル プランの継承モデルは次�
 > 前の表に示した正規化ルールの名前にはスペースが含まれていませんが、必要に応じて含めることもできます。たとえば、表に最初に示されている名前は、「5 digit extension」と「5-digit Extension」のどちらの形式で記述しても有効になります。 
   
 
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 
 [ダイヤル プランを作成および管理する](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans)
 

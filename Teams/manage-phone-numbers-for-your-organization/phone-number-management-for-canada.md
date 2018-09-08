@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: この表で、カナダでの Skype for Business Online および Microsoft Teams の電話番号の取得と管理についての情報を確認できます。
-ms.openlocfilehash: f3f60e8671275ea52b1a094827cca6c82d3704bf
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 38efe1280b13d9f7228170e936890adb6001e8f8
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865394"
+ms.locfileid: "23889707"
 ---
 # <a name="phone-number-management-for-canada"></a>カナダでの電話番号の管理
 

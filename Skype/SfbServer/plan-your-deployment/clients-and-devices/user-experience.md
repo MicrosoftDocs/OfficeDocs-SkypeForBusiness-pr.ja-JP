@@ -7,19 +7,19 @@ ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: ': の概要については、新しい Skype のビジネスとオンライン ビジネス、ビジネス サーバー 2015 の Skype、Skype のビジネス サーバー 2015、Lync Server 2013 では、Skype を使用しているかどうか、更新プログラムのユーザー、お客様の環境を準備するための手順やLync Server 2010。'
-ms.openlocfilehash: 61f0aad551230c8639a2ea17b612b1aa09bb54df
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: 6c34ea8d47556015c4e357c1f6f9f052fba8cb47
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22391749"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885255"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>ビジネス 2015年クライアント エクスペリエンスのユーザーのための Skype を計画します。
  

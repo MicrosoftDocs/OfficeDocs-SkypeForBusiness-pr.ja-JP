@@ -8,23 +8,24 @@ ms.topic: article
 ms.assetid: 1b46da6d-f93a-4cc0-9ae8-af765935b007
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'どのような情報については自動的にユーザーに電子メールで送信されたビジネス オンラインの Skype で、ダイヤルイン会議の設定を変更するときについて説明します。 '
-ms.openlocfilehash: cfa3e86be0d282e335b20a094e60835df3471358
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
+ms.openlocfilehash: 2ffe61d165b7cbfe6f91af9b819f892f88433724
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490507"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23890428"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>ビジネス オンラインの Skype での設定を変更するときにユーザーに送信される e メール
 
@@ -102,7 +103,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 > [!NOTE]
 >  電子メール アドレス情報を変更する場合は、環境内の受信電子メール ポリシーが、アドレスから指定されたユーザーから送信される電子メールを許可するかどうかを確認する必要があります。 ** 連絡先情報を上書きする場合は、電子メールがユーザーに正しく送信されるかを確認してください。 1 つのユーザー、組織内でこれをテストすることによってこれを行うことができます。
   
-会議 ID をリセットする
+会議 ID をリセットする[](https://go.microsoft.com/fwlink/?LinkId=627285)
   
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>しない場合は電子メールを送信しますか。
 
@@ -112,7 +113,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
  
 ![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png)  **ビジネス管理センターの Skype を使用します。**
     
-1. 既定値は 5 です。
+1. 既定値は 5 です。******** > ****
     
 2. **Microsoft ブリッジの設定**] ページをオンまたはオフの**オーディオ会議の設定を変更する場合、ユーザーに e メールを自動的に送信**します。 
     
@@ -121,7 +122,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
-The conference ID and default dial-in conferencing phone number is included on the meeting invite but not the PIN.
+**The conference ID and default dial-in conferencing phone number is included on the meeting invite but not the PIN.**
   
 1. 電子メールを送信するすべてのユーザーを無効にするのには、次を実行します。
     
@@ -129,13 +130,13 @@ The conference ID and default dial-in conferencing phone number is included on t
   Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
   ```
 
-会議 ID をリセットする
+会議 ID をリセットする[](https://go.microsoft.com/fwlink/?LinkId=627285)
   
 ## <a name="what-else-should-you-know-about-this-email"></a>このようなメールについて知っておくべきその他のこと
 
 - 詳細を有効にして、自動的に電子メールを送信するユーザーを無効にすると、[有効にするかオーディオ会議の設定を変更すると、送信メールを無効にする](enable-or-disable-sending-emails-when-their-settings-change.md)を参照してください。
     
-- ユーザーには、オーディオの情報が失われ、それらすべてのオーディオ情報に送信できるようにする必要があります。 ビジネス管理センターは、Skype を使用してオーディオ会議のプロパティをユーザーの [**電子メール経由での会議の情報を送信**をクリックすると、これを行うことができます。 If you do this, an email will be sent that only includes conference ID and conference phone number, but the PIN won't be included. ただし、この情報には、オーディオ会議暗証番号 (pin) にはが含まれていません。
+- ユーザーには、オーディオの情報が失われ、それらすべてのオーディオ情報に送信できるようにする必要があります。 ビジネス管理センターは、Skype を使用してオーディオ会議のプロパティをユーザーの [**電子メール経由での会議の情報を送信**をクリックすると、これを行うことができます。 [電話会議の情報が記載されたメールをユーザーに送信する](send-an-email-to-a-user-with-their-dial-in-information.md) を参照してください。 ただし、この情報には、オーディオ会議暗証番号 (pin) にはが含まれていません。
     
     送信されるメールの例を以下に示します。
     
@@ -145,7 +146,7 @@ The conference ID and default dial-in conferencing phone number is included on t
 
 - 既定では、電子メールの送信者になりますから、Office 365 は、電子メール アドレスを変更し、名前を表示できます Windows PowerShell と[セット CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285)コマンドレットを使用します。
     
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
+- Windows PowerShell は、ユーザーと、ユーザーに許可されていることと許可されていないことを管理するためにあるということです。Windows PowerShell があれば、一元管理を使用して Office 365 を管理し、複数のタスクを抱えているときに、日常の仕事を簡素化することができます。Windows PowerShell を開始するには、これらのトピックを参照してください。
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
     
@@ -157,10 +158,10 @@ The conference ID and default dial-in conferencing phone number is included on t
     
   - [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [クイック リファレンス: Windows PowerShell を使用した一般的な Lync Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=294688)
+    > Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行[](https://go.microsoft.com/fwlink/?LinkId=294688)
   
 ## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 

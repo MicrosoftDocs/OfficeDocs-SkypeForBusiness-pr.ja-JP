@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: チーム向けの Office 365 を構成する場合、コア、to do のタスクと活動このチェックリストに従います。
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e657fcefbd86f361f41e47369452b87f6463c83
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: c91953bbf44607ef6a277a020dea6581fa38d88a
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865144"
+ms.locfileid: "23889489"
 ---
 # <a name="enable-office-365"></a>Office 365 を有効にします。
  

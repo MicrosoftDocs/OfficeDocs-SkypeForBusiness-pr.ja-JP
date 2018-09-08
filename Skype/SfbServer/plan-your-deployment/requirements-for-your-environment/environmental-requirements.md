@@ -7,18 +7,19 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: '概要: ビジネス サーバー 2015 の Skype の非サーバー要件を構成します。 これらに該当するのは、Active Directory、DNS、証明書、ファイル共有など、展開を実行する前に構成しようとするさまざまな事項です。'
-ms.openlocfilehash: 61b5d0a9bbce1fc2549f01f7f13209e87f74caf0
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 59bcc654b2999db5b13baa08fd83f74e06c5b1cf
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23884143"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 の環境要件
  
@@ -75,7 +76,7 @@ ms.lasthandoff: 05/08/2018
     
 - Windows Server 2008
     
-- Windows Server 2003
+- Windows Server 2003
     
 これらの環境では、書き込み可能なドメイン コントローラーを使用できれば、読み取り専用ドメイン コントローラーも使用できます。
   
@@ -269,7 +270,7 @@ Unicode 文字またはアンダー スコアを使用しない確実です。 �
     
 Standard Edition サーバーの証明書:
   
-|**証明書**|**サブジェクト名/共通名**|**代わりのサブジェクト名**|**例**|**コメント**|
+|**証明書**|**サブジェクト名/共通名**|**サブジェクトの別名**|**例**|**コメント**|
 |:-----|:-----|:-----|:-----|:-----|
 |既定  <br/> |プールの FQDN  <br/> |プールの FQDN およびサーバーの FQDN  <br/> SIP ドメインが複数あり、自動クライアント構成が有効な場合は、証明書ウィザードによって、サポートされている各 SIP ドメインの FQDN が検出され、追加されます。  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密なドメイン ネーム システム (DNS) マッチングが必要な場合は、sip.sipdomain のエントリ (所有する各 SIP ドメイン用) も必要となります。  <br/> |SN=se01.contoso.com です。SAN=se01.contoso.com  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密な DNS マッチングが必要な場合は、SAN=sip.contoso.com、SAN=sip.fabrikam.com も必要です。  <br/> |Standard Edition サーバーの Standard Edition サーバーにサーバーの FQDN とは、プールの FQDN と同じです。  <br/> このウィザードでは、セットアップ時に指定した SIP ドメインが検出され、サブジェクトの別名に自動的に追加されます。  <br/> また、この証明書はサーバー間認証でも使用できます。  <br/> |
 |内部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> • 内部 web FQDN は、サーバーの FQDN と同じ)  <br/> および  <br/> • 対応の簡単な Url  <br/> ・ ダイヤルで簡単な URL  <br/> • 管理の簡単な URL  <br/> または  <br/> • 簡単な Url のワイルドカード エントリ  <br/> |SN=se01.contoso.com です。SAN=se01.contoso.com です。SAN=meet.contoso.com です。SAN=meet.fabrikam.com です。SAN=dialin.contoso.com です。SAN=admin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=se01.contoso.com です。SAN=se01.contoso.com です。SAN =\*. contoso.com  <br/> |内部 web トポロジ ビルダー内の FQDN を無効にすることはできません。  <br/> 会議の簡易 URL が複数存在する場合、それらすべてを SAN として含める必要があります。  <br/> 簡易 URL エントリではワイルドカード エントリがサポートされます。  <br/> |
@@ -277,7 +278,7 @@ Standard Edition サーバーの証明書:
    
 フロント エンド プール内のフロント エンド サーバーの証明書:
   
-|**証明書**|**サブジェクト名/共通名**|**代わりのサブジェクト名**|**例**|**コメント**|
+|**証明書**|**サブジェクト名/共通名**|**サブジェクトの別名**|**例**|**コメント**|
 |:-----|:-----|:-----|:-----|:-----|
 |既定  <br/> |プールの FQDN  <br/> |プールの FQDN およびサーバーの FQDN  <br/> SIP ドメインが複数あり、自動クライアント構成が有効な場合は、証明書ウィザードによって、サポートされている各 SIP ドメインの FQDN が検出され、追加されます。  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密なドメイン ネーム システム (DNS) マッチングが必要な場合は、sip.sipdomain のエントリ (所有する各 SIP ドメイン用) も必要となります。  <br/> |SN=eepool.contoso.com です。SAN=eepool.contoso.com です。SAN=ee01.contoso.com  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密な DNS マッチングが必要な場合は、SAN=sip.contoso.com、SAN=sip.fabrikam.com も必要です。  <br/> |このウィザードでは、セットアップ時に指定した SIP ドメインが検出され、サブジェクトの別名に自動的に追加されます。  <br/> また、この証明書はサーバー間認証でも使用できます。  <br/> |
 |内部 Web  <br/> |プールの FQDN  <br/> |次のうちのすべて:  <br/> • 内部 web FQDN (これは、サーバーの FQDN と同じ)  <br/> • サーバーの FQDN  <br/> • Skype ビジネス プールの FQDN  <br/> および  <br/> • 対応の簡単な Url  <br/> ・ ダイヤルで簡単な URL  <br/> • 管理の簡単な URL  <br/> または  <br/> • 簡単な Url のワイルドカード エントリ  <br/> |SN=ee01.contoso.com です。SAN=ee01.contoso.com です。SAN=meet.contoso.com です。SAN=meet.fabrikam.com です。SAN=dialin.contoso.com です。SAN=admin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=ee01.contoso.com です。SAN=ee01.contoso.com です。SAN =\*. contoso.com  <br/> |対応の複数の簡単な Url の場合は、サブジェクト代替名としては、それらのすべてを含むようにできました。  <br/> 簡易 URL エントリではワイルドカード エントリがサポートされます。  <br/> |
@@ -285,7 +286,7 @@ Standard Edition サーバーの証明書:
    
 ディレクターの証明書:
   
-|**証明書**|**サブジェクト名/共通名**|**代わりのサブジェクト名**|**例**|
+|**証明書**|**サブジェクト名/共通名**|**サブジェクトの別名**|**例**|
 |:-----|:-----|:-----|:-----|
 |既定  <br/> |ディレクター プール  <br/> |ディレクター、ディレクター プールの FQDN の FQDN です。  <br/> このプールは、クライアントの自動ログオン サーバー、グループ ポリシーで厳密な DNS マッチングのために必要な場合は、(各 SIP ドメイン) の sip.sipdomain のエントリ必要もあります。  <br/> |pool.contoso.com です。SAN=dir01.contoso.com  <br/> このダイレクタ ・ プールは、クライアントの自動ログオン サーバーと、グループ ポリシーで厳密な DNS マッチングが必要なする必要も SAN=sip.contoso.com。SAN=sip.fabrikam.com  <br/> |
 |内部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> • 内部 web FQDN は、サーバーの FQDN と同じ)  <br/> • サーバーの FQDN  <br/> • Skype ビジネス プールの FQDN  <br/> および  <br/> • 対応の簡単な Url  <br/> ・ ダイヤルで簡単な URL  <br/> • 管理の簡単な URL  <br/> または  <br/> • 簡単な Url のワイルドカード エントリ  <br/> |SN=dir01.contoso.com です。SAN=dir01.contoso.com です。SAN=meet.contoso.com です。SAN=meet.fabrikam.com です。SAN=dialin.contoso.com です。SAN=admin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=dir01.contoso.com です。SAN の SAN=dir01.contoso.com =\*. contoso.com  <br/> |
@@ -293,13 +294,13 @@ Standard Edition サーバーの証明書:
    
 スタンドアロンの仲介サーバーの証明書:
   
-|**証明書**|**サブジェクト名/共通名**|**代わりのサブジェクト名**|**例**|
+|**証明書**|**サブジェクト名/共通名**|**サブジェクトの別名**|**例**|
 |:-----|:-----|:-----|:-----|
 |既定  <br/> |プールの FQDN  <br/> |プールの FQDN  <br/> プール メンバー サーバーの FQDN  <br/> |SN = medsvr-pool.contoso.net です。SAN = medsvr-pool.contoso.net です。SAN=medsvr01.contoso .net  <br/> |
    
 リカバリ性に優れたブランチ アプライアンス用の証明書:
   
-|**証明書**|**サブジェクト名/共通名**|**代わりのサブジェクト名**|**例**|
+|**証明書**|**サブジェクト名/共通名**|**サブジェクトの別名**|**例**|
 |:-----|:-----|:-----|:-----|
 |既定  <br/> |アプライアンスの FQDN  <br/> |SIP。\<sipdomain\> (SIP ドメインごとに 1 つだけのエントリが必要)  <br/> |SN=sba01.contoso .net です。SAN=sip.contoso.com です。SAN=sip.fabrikam.com  <br/> |
    

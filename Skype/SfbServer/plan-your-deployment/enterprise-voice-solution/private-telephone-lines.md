@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9cc4f9e1-7b7a-4699-bd05-f16669ef2d21
 description: ビジネス サーバーのエンタープライズ VoIP は、Skype でのプライベートの (セカンダリ) 電話回線を計画します。
-ms.openlocfilehash: 0dd8cb184fbcab8fd9499825c08d6bf1e3abb388
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f8bc6b19ab28971de87cdf985373b8b70d67a36c
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21014602"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23884136"
 ---
 # <a name="plan-for-private-telephone-lines-with-skype-for-business"></a>ビジネス用の Skype でプライベート電話回線の計画
  

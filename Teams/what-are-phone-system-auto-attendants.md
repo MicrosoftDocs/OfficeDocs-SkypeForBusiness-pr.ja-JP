@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
 description: '自動応答の電話システム (PBX をクラウド) とは、それらを使用する方法について説明します。 '
-ms.openlocfilehash: 63b07a38a416a6a4eb6cefdf563967c0f7475fb0
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: f37bed2629926154c037ec8dbaf5e61e9b9ec8d2
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23852374"
+ms.locfileid: "23889934"
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>電話システムの自動応答について
 
@@ -244,7 +244,7 @@ Office 365 で電話システムの自動応答を設定するには、[電話�
   
 ### <a name="getting-service-numbers-for-an-auto-attendant"></a>自動応答のサービス番号の取得
 
-Before you can create and set up your auto attendants, you will need to get or transfer your existing toll or toll-free service numbers. 有料または無料のサービスの電話番号を取得すると表示されます、 **Skype**で > **音声** > **電話番号**と**番号の種類**の一覧には、無料**サービスとして一覧表示されます**. サービス番号を取得するには、 [Skype のビジネスおよびマイクロソフトのチームの取得サービスの電話番号](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)を参照するか、転送し、既存のサービス番号にする場合は、 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)を参照してください。
+自動応答を作成しセットアップする前に、既存の有料または無料のサービス番号を取得もしくは転送する必要があります。 有料または無料のサービスの電話番号を取得すると表示されます、 **Skype**で > **音声** > **電話番号**と**番号の種類**の一覧には、無料**サービスとして一覧表示されます**. サービス番号を取得するには、 [Skype のビジネスおよびマイクロソフトのチームの取得サービスの電話番号](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)を参照するか、転送し、既存のサービス番号にする場合は、 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)を参照してください。
   
 > [!NOTE]
 > 米国以外のユーザーは、サービス番号を取得するビジネス管理センターの Skype を使うことはできません。 [組織の電話番号の管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)へ移動を行う方法について参照してください。
@@ -259,7 +259,7 @@ Before you can create and set up your auto attendants, you will need to get or t
 New-CsCallingLineIdentity -Identity "UKSalesQueue" -CallingIdSubstitute "Service" -ServiceNumber 14258828080 -EnableUserOverride $False -Verbose
 ```
 
- **Grant-CallingLineIdentity** コマンドレットを使用してユーザーのポリシーを適用します。 これを行う場合は、次を実行します。
+**Grant-CallingLineIdentity** コマンドレットを使用してユーザーのポリシーを適用します。 これを行う場合は、次を実行します。
   
 ```
 Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
@@ -267,7 +267,7 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
 [呼び出し元 ID 利用する方法、組織内](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization)、組織内の呼び出し元 ID の設定を変更する方法の詳細を取得できます。
   
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 [Office 365 での電話システムで利用できる機能](here-s-what-you-get-with-phone-system.md)
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor
 description: 構想 (計画)、参加 (提供)、価値の創出 (運用) を通して Microsoft Teams の通話プランが設定された電話システムの計画、展開、管理を行うための実践的なガイダンス。
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 2ce4d09113cc75381379fa6f9481eca2ae27c2ea
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 1ef49826026d2a172f5d01b161eb1dfc17fd55b6
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23853656"
+ms.locfileid: "23884129"
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Microsoft Teams の通話プランが設定された電話システムの実践的なガイダンス
 =========================================================================

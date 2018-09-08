@@ -9,16 +9,16 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 提供し、運用上の役割を計画し、品質の支持者を割り当てることにより、高品質の展開を管理します。
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33992e8f239a723b53b87159b3c09816b6bd0b20
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: a690bca5512aa7f3969a82e414156ee461ea6250
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867902"
+ms.locfileid: "23889424"
 ---
 # <a name="plan-my-service-management"></a>[サービスの管理を計画します。
 

@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
 description: 制限、仕様、およびマイクロソフトのチームに適用されるその他の要件について説明します。
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60f90a18378dc00da7dc218a85f072cecaa8b943
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 34aec991af50ef3b06d43d705e97f6e9bba70714
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867798"
+ms.locfileid: "23889818"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>制限とマイクロソフトのチームの仕様
 =============================================

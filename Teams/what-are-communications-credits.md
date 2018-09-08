@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 8aa163b3f606320085e6af5770d02329f6120d94
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 799019b1c63b0f9c01bd3e3462525afb6064c929
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23852254"
+ms.locfileid: "23887603"
 ---
 # <a name="what-are-communications-credits"></a>通信クレジットについて
 
@@ -96,7 +96,7 @@ You can also see information about pricing by [signing in to the Office 365 admi
   
 各機能に必要なライセンスの表を確認するには、「[Skype for Business と Microsoft Teams のアドオン ライセンス](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)」をご覧ください。
   
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 [Skype for Business PSTN 使用状況レポート](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)
 
   
