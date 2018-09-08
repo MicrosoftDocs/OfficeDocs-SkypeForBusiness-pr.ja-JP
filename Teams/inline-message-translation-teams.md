@@ -8,19 +8,19 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: salilda
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 description: マイクロソフトのチームでのインライン変換を使用する方法について説明します。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb7876d015fb736785fdaab99b1ed71b8e05b9dc
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 191fe1e5517fdce9aba6fd17e084c866df200e82
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855822"
+ms.locfileid: "23882909"
 ---
 <a name="use-inline-message-translation-in-microsoft-teams"></a>インライン メッセージの変換を使用して、マイクロソフトのチームで 
 =================================================

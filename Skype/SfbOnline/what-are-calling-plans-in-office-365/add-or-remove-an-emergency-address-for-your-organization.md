@@ -16,23 +16,23 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Skype for Business のアカウントに緊急対応の住所を追加する方法を学びます。 '
-ms.openlocfilehash: 0697c8195a109d31bf3b9f5624da249a9e4fcfb7
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: e89942cc53bbe82898851ab744f8ba387ea5c31d
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23864773"
+ms.locfileid: "23882165"
 ---
 # <a name="add-or-remove-an-emergency-address-for-your-organization"></a>組織の緊急対応の住所を追加または削除する
 
 緊急対応の住所は電話番号に関連付けられている必要がありますが、いつこの関連付けが行われるかは国や地域によって異なります。 例えば米国では、電話番号をユーザーに割り当てるときに、緊急対応の住所を関連付ける必要があります。 英国では、Office 365 から電話番号を取得するか、現在のサービス プロバイダーから電話番号を移すときに、緊急対応の住所をその電話番号に関連付ける必要があります。
   
-どの国や地域であっても、緊急対応の住所に 1 つ以上の場所を追加すること、また、緊急対応の住所を削除することができます。 組織内の物理的な場所の数に応じて、建物、階、オフィスなどを表示した複数の場所を作成できます。 詳細については、「[緊急対応の場所、住所、通話のルーティングの概要](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)」 をご覧ください。
+どの国や地域であっても、緊急対応の住所に 1 つ以上の場所を追加すること、また、緊急対応の住所を削除することができます。 、組織内の物理的な場所の数によっては建物、フロア、オフィスのそれらを作成できます。 詳細については、「[緊急対応の場所、住所、通話のルーティングの概要](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)」 をご覧ください。
   
 Office 365 の通話プランの取得方法とプランの費用については、「[Skype for Business と Microsoft Teams アドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)」をご覧ください。
   
@@ -40,39 +40,39 @@ Office 365 の通話プランの取得方法とプランの費用については
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **[Office 365 管理センター]** > **[Skype for Business]** に移動します。
+2. ** [Office 365 管理センター] ** > ** [Skype for Business]** に移動します。
     
 3. 左側のナビゲーションで、[**音声**][ > **緊急対応の場所**] に移動し、[**新しい住所を追加** ] ボタンをクリックします。
     
     > [!Important]
-    > Skype for Business 管理センターの左にあるナビゲーションで [**音声**] オプションが表示されるためには、最初に少なくとも 1 つの **Enterprise E5 ライセンス**、1 つの**電話システム** アドオン ライセンス、または 1 つの**電話会議**アドオン ライセンスを購入する必要があります。
+    > ビジネス管理センターの Skype では、左側のナビゲーションの**音声**オプションを表示するため、まず**E5 のエンタープライズ ライセンス**を少なくとも 1 つ、1 つの**電話システム**のアドオン ライセンスまたはアドオンのライセンスが 1 つの**電話会議**を購入する必要があります。
     
 4. アクション ウィンドウで、[**新しい住所**] の下のボックスに必要な情報を入力します。
     
-5. 住所に関するすべての情報を入力した後、[**検証**] をクリックします。
+5. すべての住所の情報を入力したら、[**確認**] をクリックします。
     
     > [!IMPORTANT]
-    > 住所の検証では、住所が正しく、形式が正しいことを確認します。 緊急対応の住所の一部が誤っていても (市区町村名の誤入力などがあっても)、検証をパスすることがあります。 誤記があっても検証をパスした場合、誤記がある市区町村名と住所の他の正しい部分の組み合わせによって、適切な緊急派遣センターに通話をルーティングするために十分な情報になります。 
+    > 住所の検証では、住所が正規の住所で、形式が正しいことが確認されます。 緊急アドレスは部分的に正しいなど、市区町村の名前を誤って入力する場合と渡すことがまだ検証が可能です。 誤記があっても検証をパスした場合、誤記がある市区町村名と住所の他の正しい部分の組み合わせによって、適切な緊急派遣センターに通話をルーティングするために十分な情報になります。 
   
     住所の確認ができないとき、米国の住所を確認しようとする場合は、[**確認要求を送信** ] をクリックし、米国外の場合は、[**住所の確認についてのヘルプを表示するためのサービス  リクエストを開く** ] をクリックします。
     
-6. 住所が検証されたら、[**保存**] をクリックします。
+6. 住所が検証されたら、[ **保存**] をクリックします。
     
 ## <a name="to-remove-an-emergency-address"></a>緊急対応の住所を削除するには
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **[Office 365 管理センター]** > **[Skype for Business]** に移動します。
+2. ** [Office 365 管理センター] ** > ** [Skype for Business]** に移動します。
     
-3. 左側のナビゲーションで、[**音声**][ > **緊急対応の場所**] に移動し、削除する住所を選択して、[操作] ウィンドウ内の [**削除**] をクリックします。
+3. 左側のナビゲーションでは、[**音声**] に移動 > **緊急の場所**は、削除するアドレスを選択し、[操作] ウィンドウの [**削除**] をクリックします。
     
     > [!IMPORTANT]
-    > Skype for Business 管理センターの左にあるナビゲーションで [**音声**] オプションが表示されるためには、最初に少なくとも 1 つの **Enterprise E5 ライセンス**、1 つの**電話システム** アドオン ライセンス、または 1 つの**電話会議**アドオン ライセンスを購入する必要があります。
+    > ビジネス管理センターの Skype では、左側のナビゲーションの**音声**オプションを表示するため、まず**E5 のエンタープライズ ライセンス**を少なくとも 1 つ、1 つの**電話システム**のアドオン ライセンスまたはアドオンのライセンスが 1 つの**電話会議**を購入する必要があります。
     
 ## <a name="related-topics"></a>関連トピック
 [緊急対応の場所、アドレス、通話ルーティングの概要](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
 
-[組織の電話番号の管理](/microsoftteams/manage-phone-numbers-for-your-organization)
+[[[Skype for Business 新しい電話番号の申請](/microsoftteams/manage-phone-numbers-for-your-organization)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
 

@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: チーム機能、機能、および使いやすさで電話システムをテストによって、組織の期待を満たしていることを検証します。
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fffb52988da639f21246b0c5d27f2c8554b459ac
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: cc9ab85d285042cbb4080edefaa6d5775b406c63
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855426"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23887340"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>定義し、企業のチームのテスト計画での計画を呼び出すと、電話のシステムを文書化 
 ============================================================================================

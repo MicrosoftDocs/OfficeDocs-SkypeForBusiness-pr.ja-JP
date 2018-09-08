@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 description: 標準のオーディオ会議のユーザーごとのライセンスだけでなく、ボリューム、およびライセンスの組織は、組織の音声会議機能を有効にするのには、1 分あたりの支払の案内も選択できます。
-ms.openlocfilehash: 251116ee5f362710c07a7a53ce4a11f53f3cd09c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e4d2679de8ca6239e8a63dcac6a17fac6bc19fab
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855764"
+ms.locfileid: "23887722"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>分数ごと従量課金制電話会議
 
@@ -58,7 +58,7 @@ ms.locfileid: "23855764"
   
 ## <a name="want-to-find-out-more-about-pricing"></a>価格設定に関する詳細を確認しますか。
 
- **価格を検索してください。** [価格を表示し、アドオンのライセンスを購入する方法](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing#bkmk_how)や、次のいずれかを参照してください。
+ **価格を見る** [価格を表示し、アドオンのライセンスを購入する方法](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing#bkmk_how)や、次のいずれかを参照してください。
   
 - [電話会議の料金](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
     
@@ -66,7 +66,7 @@ ms.locfileid: "23855764"
     
 - [通話プランの価格設定](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
     
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
   
 [Skype for Business と Microsoft Teams のアドオン ライセンス](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
   

@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
 description: '概要: 確認、発行、またはビジネスのサーバーのビジネス サーバーのコントロール パネルの Skype を使用して、Skype での音声ルーティング構成の変更をキャンセルする方法を説明します。'
-ms.openlocfilehash: 8df40de8861c16b2ab3dc40bb9f3fadec95a4842
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fa31026627aa70d3c33412a0b6454e3a87cefd8d
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006514"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886589"
 ---
 # <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>発行保留中のビジネス用の Skype で音声ルーティング構成の変更
  

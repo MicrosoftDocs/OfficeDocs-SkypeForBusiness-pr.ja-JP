@@ -7,17 +7,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: lehewe
 description: チームにビジネス用の Skype からの移行を管理するためのガイダンス
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11ba2e2d6d59ecd53dd1824f50c53022e15f2b69
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 1028f599b3b5cacf23fa920b85c42cf8a5bd4673
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854184"
+ms.locfileid: "23884236"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>ビジネスのチームとは、Skype を使用する組織の移行と相互運用性のガイド
 
@@ -272,7 +272,7 @@ TeamsAppPolicy が使用可能になるまで基本的には TeamsUpgradePolicy 
 - をチームで新しい会話を作成するときのチャットもまだ認めません TeamsUpgradePolicy または移動先のユーザーの TeamsInteropPolicy。 修正プログラムが予定されています。
 - をビジネス用の Skype の新しい会話を作成するときのチャットもまだ認めません TeamsUpgradePolicy または TeamsInteropPolicy 組織は UPS とメッセージングの相互運用機能をまだ有効になっていない場合です。
 
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 
 [Get CsTeamsInteropPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsinteroppolicy?view=skype-ps)
 

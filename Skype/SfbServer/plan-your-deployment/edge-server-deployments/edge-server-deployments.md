@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
 description: '概要: は、サーバーのエッジをビジネス環境に、Skype を計画します。 このトピックでは、エッジの概念を紹介し、より詳細なトピックで体系的に学習できるようにします。'
-ms.openlocfilehash: 41a1d2771e43a4e217aa8bac6b98331a31d67c92
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f558a4a9623e54a38e134716afe9b95021f237dc
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20965444"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886123"
 ---
 # <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>Skype でビジネス サーバー用のエッジ サーバー展開の計画
  

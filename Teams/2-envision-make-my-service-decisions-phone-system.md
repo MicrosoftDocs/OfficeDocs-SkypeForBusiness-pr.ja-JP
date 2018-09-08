@@ -9,16 +9,16 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 通話プランと、ライセンスを選択して緊急時の場所とボイスメールと呼び出し元の ID のような機能を構成する、や電話番号を転送します。
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90cdd9efb2d4b80f9ad8c9ef9bb38dd2adf8bbcd
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 2eb201c72c66f39478c5ade6b9400e819f2fe932
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23859998"
+ms.locfileid: "23887363"
 ---
 # <a name="make-my-service-decisions"></a>[サービスの決定を行う
 
@@ -229,7 +229,7 @@ Office 365 テナントの場合、通話時間 (分) は国や地域別と通�
 
 <!--ENDOFSECTION-->
 
-## <a name="communications-credits"></a>通信クレジット
+## <a name="communications-credits"></a>コミュニケーション クレジット
 
 通信のクレジットを使用すると、ユーザー ダイヤルアウトできるよう、オーディオ会議の会議 (会議の開催者の発信元の国/地域) の外側で世界中の任意の場所から他のユーザー追加するからです。 通信のクレジット、組織のユーザーを有効にするのには、次の月の請求サイクルまで待機することがなく、分を呼び出すための割り当てが面倒な方、後は、発信呼び出しを行うに設定できます。 さらに、通信のクレジットは、国際の呼び出しは、「支払の 1 分あたりの」モデルを使用して、請求を作成する機能、国内を呼び出すことを計画に割り当てられているユーザーを提供します。
 

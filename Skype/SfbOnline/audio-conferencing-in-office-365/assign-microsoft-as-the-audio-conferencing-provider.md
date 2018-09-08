@@ -16,23 +16,23 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Microsoft を Skype for Business のダイヤルイン会議プロバイダーとして割り当てる方法について説明します。
-ms.openlocfilehash: efa3b1987feab2ba830f87e8fb8a402fed82684b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
+ms.openlocfilehash: 5654dc1da157498b1cb17271aa58959d2ffa541b
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23857261"
+ms.locfileid: "23883457"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Microsoft を電話会議プロバイダーとして割り当てる
 
 Skype for Business と Microsoft Teams で Office 365 の電話会議を使用するには、組織内のユーザーは、それらに割り当てる電話会議ライセンスを取得する必要があります。 ライセンス付与と必要コストの詳細については、 [Office 365 の電話会議のトライアルと購入](try-or-purchase-audio-conferencing-in-office-365.md) を参照してください。
 
-Microsoft の電話会議はダイヤルイン電話番号、PIN、会議 ID を提供します。会議の参加者はこれらを使用して組織の会議に参加することができます。 必要なのは、Microsoft を電話会議プロバイダーとして Skype for Business 会議または Microsoft Teams 会議をスケジュールまたは開催しようとしている人に割り当てることだけです。
+Microsoft の電話会議はダイヤルイン電話番号、PIN、会議 ID を提供します。会議の参加者はこれらを使用して組織の会議に参加することができます。 オーディオ会議プロバイダーとしてマイクロソフトをスケジュールまたは Skype をビジネスまたはマイクロソフトのチーム会議をリードする人に割り当てる必要があるだけです。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -41,18 +41,18 @@ Microsoft の電話会議はダイヤルイン電話番号、PIN、会議 ID を
 
 ### <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-using-the-skype-for-business-admin-center"></a>![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Skype for Business 管理センターを使用する
 
-1. [**Office 365 管理センター**] >  [**Skype for Business**] に移動します。
+1. ** [Office 365 管理センター] ** > ** [Skype for Business]** に移動します。
     
-2. [**Skype for Business 管理センター**] の、左側のナビゲーションにある [**電話会議**] を開きます。
+2. **Skype**ビジネス管理センターは、左側のナビゲーションでは、[**電話会議**に移動します。
     
 3. バナーが表示されて「割り当てられた**電話会議** ライセンスはあるが、電話会議プロバイダーとしての Microsoft のセットがないユーザーが存在します」という通知を受けた場合は、[**クリックしてユーザーを移動**] をクリックします。 バナーが表示されない場合は、[**Skype for Business 管理センター**] で [**ユーザー**] をクリックし、[**電話会議に移動する準備のできたユーザー**] フィルターを選択します。
     
-4. ユーザーのプロパティ ページの [**プロバイダー名**] の下にあるドロップダウン リストで [**Microsoft**] を選択します。
+4. [**プロバイダー名**] で、ユーザーの [プロパティ] ページのドロップダウン ボックスの一覧で**Microsoft**を選択します。
     
     > [!NOTE]
-    > Microsoft を電話会議プロバイダーとして使用しており、複数の電話番号があるため、[**既定の市外局番**] ドロップダウン リストを使って、ユーザーに既定の電話番号を選ぶことができます。
+    > オーディオ会議プロバイダーとして、Microsoft を使用している複数の電話番号があるため、ユーザーの既定の音声番号を選択するのには、**有料電話番号が既定**のドロップ ダウン リストを使用できます。
   
-5. [**保存**] をクリックします。
+5. [ **保存**] をクリックします。
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -65,10 +65,10 @@ Microsoft の電話会議はダイヤルイン電話番号、PIN、会議 ID を
 > プロバイダーが **Microsoft** に変更されるとき、ユーザーの電話会議情報 (電話会議 ID、有料電話番号と無料電話番号) が置き換えられます。プロバイダーを変更する前にこの情報を保存する必要があります。 
 
   
-少数のユーザーでプロバイダーを Microsoft に変更するには、[Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx) コマンドレットを使用できます。
+マイクロソフトのユーザー数が少ないためにプロバイダーを変更するには、[有効にする CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx)コマンドレットを使用することができます。
   
 
-### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a>多数のユーザーに Windows PowerShell スクリプトを使用する
+### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a>多数のユーザーのために Windows PowerShell スクリプトを使用する
 時間を節約して自動化するために、次の PowerShell スクリプトを使用して、多数のユーザーのために Microsoft を電話会議プロバイダーとして設定することができます。
 
 プロバイダーが **Microsoft** に変更されるとき、ユーザーの電話会議情報 (電話会議 ID、有料電話番号と無料電話番号) が置き換えられます。プロバイダーを変更する前にこの情報を保存する必要があります。 
@@ -89,7 +89,7 @@ Script.ps1 -CsvFile <Path of the csv file>
 ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
-**例 3:** この例では、このスクリプトを使用して、組織内の多数のユーザーのために電話会議プロバイダーを Intercall (または他のプロバイダー) から **Microsoft** に変更することができます。
+**例 3:** この例では、ことができますスクリプトを使用するこの Intercall からオーディオ会議プロバイダー (または別のプロバイダー) を変更するのには**マイクロソフト**に大規模な数のユーザーの組織内。
     
   ```
   Script.ps1 -ACPProviderName <Provider>

@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 58bd6284-0bc0-420b-bc08-7035b348c03c
 description: ビジネス サーバーのエンタープライズ VoIP の Skype で ~ 9-1-1 展開の場合、サービス ・ プロバイダーを選択します。
-ms.openlocfilehash: 2eb9900c4c8d5d19893a37c558f07ea06241c956
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0ec2da13cb7dfcd90bc2ffcd5baad962421aeb08
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21005024"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23884600"
 ---
 # <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server"></a>ビジネス サーバーの Skype の ~ 9-1-1 サービス プロバイダーを選ぶ
  

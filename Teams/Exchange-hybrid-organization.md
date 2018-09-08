@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: crowe
 description: Microsoft Teams で使用する Exchange ハイブリッド展開の組織を構成する方法について説明します。
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 046b7ab0381391b16a306d36322086882c03f18a
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: 02d09e235872644355481f52be8764799ad32871
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849820"
+ms.locfileid: "23881942"
 ---
 <a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a>Microsoft Teams で使用する Exchange ハイブリッド展開の組織を構成する
 ======================================================================

@@ -14,17 +14,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
 description: '電話システムで何ができる場合について説明します。 '
-ms.openlocfilehash: 4282ce54bfeed1109f19dd1eb7064fc64375efb8
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: bd0dc1af2e775eb4b62c77666bb9d010ecd4fe87
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23853384"
+ms.locfileid: "23883075"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365 での電話システムについて
 
@@ -72,7 +72,7 @@ Office 365 の通話プランを使用すると、検索、取得、およびユ
 
 開始する準備ができた場合は、[組織内の電話システムの設定](setting-up-your-phone-system.md)を参照してください。
 
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 - [Skype for Business と Microsoft Teams のアドオン ライセンス](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
 - [[[Skype for Business 新しい電話番号の申請](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [通話プランで使用されるさまざまな種類の電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)

@@ -14,18 +14,18 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: マイクロソフトのチームで、ユーザーの音声会議情報を使用して電子メールを送信します。
-ms.openlocfilehash: 3ee0d5f7eda551e5231cae535dec08439c19e081
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 85e219481884bb08a2574809b6170c232abccf83
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850778"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23892093"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>マイクロソフトのチームで、オーディオ会議の情報を持つユーザーに電子メールを送信します。
 
@@ -49,20 +49,20 @@ ms.locfileid: "23850778"
 
 2. ページの上部で、[**編集**] をクリックします。
 
-3. [**オーディオ会議****電子メールで会議の情報を送信**をクリックします。
+3. [**電話会議**] の [**電話会議情報をメールで送信**] をクリックします。
 
 
 ## <a name="what-else-should-you-know-about-this-email"></a>このようなメールについて知っておくべきその他のこと
 
 - 送信される、組織内のユーザーを有効にした後には、オーディオ会議のいくつかの電子メールがあります。
     
-  - ときに、**オーディオ会議**のライセンスが割り当てられます。
+  - **電話会議** のライセンスがユーザーに割り当てられた場合。
     
   - リセットすると手動で電話会議のユーザーの暗証番号 (pin) です。
     
   - ユーザーの会議 ID を手動でリセットした場合。
     
-  - これらのファイルから、**オーディオ会議**のライセンスが削除されます。
+  - **電話会議** のライセンスがユーザーから削除された場合。
     
   - オーディオ会議プロバイダーのユーザーの変更されたとき Microsoft から別のプロバイダーまたは **[なし]** にします。
     
@@ -81,6 +81,6 @@ Windows PowerShell は、ユーザーと、ユーザーに許可されている�
 Windows PowerShell の詳細については、[マイクロソフト チームの PowerShell の参照](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)の詳細についてを参照してください。
     
   
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 
 [Office 365 での電話会議を使用または購入する](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

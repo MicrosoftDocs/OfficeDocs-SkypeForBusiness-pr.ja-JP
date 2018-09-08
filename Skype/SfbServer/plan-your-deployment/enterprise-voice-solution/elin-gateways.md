@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: 意思決定の計画に必要な場所情報のデータベース、または ~ 9-1-1 展開のビジネス サーバーのエンタープライズ VoIP の Skype で、ELIN ゲートウェイを使用して、ような外部データベースです。
-ms.openlocfilehash: 09397c84e69ee9df2c40bd1783c8f57a58aa21d4
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 622593285ef4b1643f19d54f6c7d2f5c1e956c84
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23252920"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885665"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>ビジネス サーバーの Skype の ELIN ゲートウェイの場所を管理します。
 

@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 作成ネットワーク地域、ネットワーク サイトを変更してビジネス サーバーの Skype のネットワークのサブネットを関連付けます。 これらのすべては、高度なエンタープライズ VoIP 機能に使用します。 メディアのバイパス、受付制御、およびロケーション ベースのルーティングを呼び出します。
-ms.openlocfilehash: c4598a1a8ffd46412ce16992788af060e5df0b98
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c0f8f63c6141e2cb163abad66665eee2d83c181f
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260406"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23883909"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>ネットワーク領域、サイト、およびビジネスの Skype でサブネットを配置します。
 

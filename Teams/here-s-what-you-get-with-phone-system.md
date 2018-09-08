@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
 description: '機能、可用性、およびお客様のビジネス電話システム (PBX をクラウド) の計画およびセットアップする方法です。 '
-ms.openlocfilehash: e21b74ab9b9214588f5cca45c78d16bc51f40b41
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: fcd8bf89ce6aee5d4b76f669445e2f78f994b54c
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855880"
+ms.locfileid: "23887745"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365 での電話システムで利用できる機能
 

@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
 description: ビジネス サーバーのエンタープライズ VoIP の Skype のネットワーク サイトへの ~ 9-1-1 の場所のポリシーを割り当てます。
-ms.openlocfilehash: 862b6d91371199fe3f9380acf7e2898539153f28
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e8ff532d66531cbe92ca661d9eaa5780e5b9f56c
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20979826"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885743"
 ---
 # <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Skype 内のネットワーク サイトにビジネス サーバーの場所のポリシーを追加します。
  

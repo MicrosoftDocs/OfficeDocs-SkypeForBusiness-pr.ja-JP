@@ -1,5 +1,5 @@
 ---
-title: 組織での電話会議の動的 ID の使用
+title: 組織で電話会議の動的な Id を使用します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,7 +16,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 Robots: noindex
 ms.custom:
@@ -24,10 +24,10 @@ ms.custom:
 redirect_url: https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user
 redirect_document_id: true
 description: ''
-ms.openlocfilehash: b28bd2df5381762944503799c30572ec4993cd06
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: adea717fe439dbe31b340726a74340ae0de2e0d0
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849775"
+ms.locfileid: "23885682"
 ---

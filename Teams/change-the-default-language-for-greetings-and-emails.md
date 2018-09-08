@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
 description: 'Skype for Busineses をセットアップして、組織のボイスメールの既定応答メッセージで別の言語を使用する方法を説明します。 '
-ms.openlocfilehash: 712f7ac65e3a473968632bb8dcc0569bd9471b0d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 1ab3b5cdb59af465cd299940ad7ccd98940181e3
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855670"
+ms.locfileid: "23887523"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>応答メッセージとメールに使用する既定の言語を変更する
 

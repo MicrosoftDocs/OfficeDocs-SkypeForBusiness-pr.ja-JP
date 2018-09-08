@@ -1,5 +1,5 @@
 ---
-title: 組織内での発信者番号通知の使用方法
+title: 組織内での発信者番号の使用方法
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,19 +16,19 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: 発信者番号通知は、CallingLineIdentity と呼ばれるポリシーを使用して、電話システム ユーザーの着信と発信の両方で制御できます。
-ms.openlocfilehash: 410712a8fd0a6f28b0bc2821daae8143b38ceb63
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: c2a508e89f9fbf279e048fcdccca1ac1b0534305
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854227"
+ms.locfileid: "23883566"
 ---
-# <a name="how-can-caller-id-be-used-in-your-organization"></a>組織内での発信者番号通知の使用方法
+# <a name="how-can-caller-id-be-used-in-your-organization"></a>組織内での発信者番号の使用方法
 
 発信者番号通知は、CallingLineIdentity と呼ばれるポリシーを使用して、電話システム ユーザーの着信と発信の両方で制御できます。
   
@@ -63,13 +63,13 @@ ms.locfileid: "23854227"
   
 ### <a name="end-user-control-of-outbound-caller-id"></a>発信側の発信者番号通知のエンド ユーザー コントロール
 
-EnableUserOverride 属性を使用すると、単独または複数のユーザーが発信者番号通知の設定を **非通知**に変更できます。 これが適用されるのは、CallingLineIdentity のポリシーが LineURI または Substitute のいずれかの CallingIDSubstitute パラメーターで構成されている場合のみです。 EnableUserOverride の既定値は False です。
+EnableUserOverride 属性を使用すると、単独または複数のユーザーが発信者番号通知の設定を **非通知**に変更できます。 これが適用されるのは、CallingLineIdentity のポリシーが LineURI または Substitute のいずれかの CallingIDSubstitute パラメーターで構成されている場合のみです。 EnableUserOverride の既定値は、False です。
   
 エンド ユーザーは、Skype for Business デスクトップ クライアントの [**通話転送設定**] タブを使って発信者番号通知を**非通知**に設定できます。
   
 ||||
 |:-----|:-----|:-----|
-|**Windows** <br/> |**バージョン** <br/> |**サポート** <br/> |
+|**Windows** <br/> |**Version** <br/> |**サポート** <br/> |
 |クイック実行  <br/> |2016 年 12 月 6 日 - バージョン 1611 (ビルド 7571.2072) でリリースされた現在のチャネル  <br/> |あり  <br/> |
 |クイック実行  <br/> |2017 年 2 月 22日 - バージョン 1701 (ビルド 7766.2060) でリリースされた段階的提供チャネルの最初のリリース  <br/> |あり  <br/> |
 |クイック実行  <br/> |2017年 6 月 13日 - バージョン 1701 (ビルド 7766.2092) でリリースされた段階的提供チャネル  <br/> |はい  <br/> |

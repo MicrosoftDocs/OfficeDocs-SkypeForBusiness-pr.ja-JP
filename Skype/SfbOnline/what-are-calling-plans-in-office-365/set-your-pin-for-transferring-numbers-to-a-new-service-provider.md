@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: 電話番号を Skype for Business Online から別の電話サービス プロバイダーまたは通信業者に転送または移行するには、PIN を手動で設定する必要があります。 PIN を設定した後、電話番号を移行するときにその PIN を含める必要があります。
-ms.openlocfilehash: 144e3b0527b8557bbbb6a7f9c1b51ad2d61a0f1f
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: ef688c6aa7aabd1880513994236cb62353eab665
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851715"
+ms.locfileid: "23890110"
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>番号を新しいサービス プロバイダーに移行するための PIN を設定する
 
@@ -55,16 +55,16 @@ ms.locfileid: "23851715"
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **[Office 365 管理センター] ** > **[管理センター] ** > ** [Skype for Business]** に移動します。
+2. **Office 365 管理センター**を参照して > **管理センター** > **ビジネス用の Skype**です。
     
-3. 左側のナビゲーションで、**[音声]**、 > **[移行順序]** を選択します。
+3. 左側のナビゲーションの**音声**を選択します > **ポート注文**します。
     
 4. 別の通信業者に転送または移行する番号に使われる **[PIN の設定と管理]** をクリックします。
     
 5. [**移行する PIN の設定または変更**] パネルで、PIN を入力し、[**保存**] をクリックします。
 
 > [!NOTE]
-> さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。
+> 無料電話番号
     
 ## <a name="related-topics"></a>関連トピック
 [電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)

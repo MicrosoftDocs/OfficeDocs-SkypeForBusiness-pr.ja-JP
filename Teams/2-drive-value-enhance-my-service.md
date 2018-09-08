@@ -9,16 +9,16 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: チーム サービスの強化、すべての興味深い機能拡張のチームのロードマップを監視する機会を定期的に評価します。
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57de86e056c9023bcafbf5d475081b8f50afbe36
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 9890da6722c2f9ba5bbbc759f105f19654ed4f27
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23856030"
+ms.locfileid: "23882220"
 ---
 # <a name="enhance-my-service"></a>サービスを強化します。
 

@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'どのような情報については自動的にユーザーに電子メールで送信されたマイクロソフトのチームで、ダイヤルイン会議の設定を変更するときについて説明します。 '
-ms.openlocfilehash: a352ecb335469e1e988c625f638c6136675dc5fc
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: f351f7a1107c3f52ddc2c9f60b7cd79feb31388c
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23871047"
+ms.locfileid: "23890063"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>マイクロソフトのチームでの設定を変更するときにユーザーに送信される電子メール
 
@@ -117,7 +117,7 @@ Windows PowerShell は、ユーザーと、ユーザーに許可されている�
 Windows PowerShell の詳細については、[マイクロソフト チームの PowerShell の参照](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)の詳細についてを参照してください。
   
   
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 
 [電話会議の設定が変更されたときのメールの自動送信を有効または無効にする](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
   

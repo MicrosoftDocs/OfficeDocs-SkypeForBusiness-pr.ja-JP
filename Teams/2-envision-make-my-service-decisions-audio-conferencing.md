@@ -9,16 +9,16 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 会議、ライセンスと可用性については、会議ブリッジの設定を構成する、取得または電話番号を転送し、テナントを選択するダイヤル プランです。
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e17632977816261b99e4c2ae22a70c8961a040e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: da156ea46486d1b6eddffce61cfb655aecf90d1e
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854054"
+ms.locfileid: "23889647"
 ---
 # <a name="make-my-service-decisions"></a>[サービスの決定を行う
 

@@ -8,7 +8,7 @@ ms.topic: article
 audience: Admin
 ms.service: msteams
 ms.reviewer: ''
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 description: さまざまな Office 365 ライセンスについて、どのライセンスで Microsoft Teams のユーザーが有効になるかについて、およびライセンスを有効にしたり無効にしたりする方法について説明します。
 ms.custom:
@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4133f239c2b8f710d76d11360bb3d837037b0d5
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 14498eef72af9f72e67ae51e3e40717ef6ce4709
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854102"
+ms.locfileid: "23884054"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Microsoft Teams 用の Office 365 ライセンス
 ========================================

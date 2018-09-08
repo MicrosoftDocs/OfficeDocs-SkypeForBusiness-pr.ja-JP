@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
 description: '概要: は、Skype でトポロジ ビルダーでビジネス サーバーの PSTN ゲートウェイを定義する方法を説明します。'
-ms.openlocfilehash: c83951c26a125c568535bfba7d487324a9b725d0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 50c5dca09608f6b0ef9046109e434f3ccbbba0d3
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20998554"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886797"
 ---
 # <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>ビジネス サーバーの Skype でトポロジ ビルダーでゲートウェイを定義します。
  

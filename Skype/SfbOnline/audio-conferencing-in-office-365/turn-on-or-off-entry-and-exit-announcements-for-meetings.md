@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Skype for Business 管理センターを使用して、Skype for Business Online 会議で、エントリと退出のお知らせを有効または無効にする方法を説明します。 '
-ms.openlocfilehash: 8d91db2014439eb2c9e38f65215cf85d6f047157
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: b00c52d905fb031c7f0eaebc57f9fbb88549daa0
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23863265"
+ms.locfileid: "23884062"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-skype-for-business-online"></a>Skype for Business Online で会議のエントリと退出のお知らせを有効または無効にする
 
@@ -41,20 +41,20 @@ Office 365 で電話会議を設定する場合、電話会議ブリッジが表
   
 ## <a name="setting-meeting-join-options"></a>会議の参加オプションの設定
     
-1. **Skype for Business 管理センター**の左側にあるナビゲーションで、[**電話会議**]  >  [**Microsoft ブリッジ設定**] の順に開きます。
+1. 既定値は 5 です。******** > ****
     
-2. [ **会議参加のエクスペリエンス**] の下にある[**会議のエントリと退出の通知を有効にする**] を選択するかクリアします。 既定ではこれはすでに選択されています。 クリアすると、すでに会議に参加しているユーザーには、他のユーザーが会議にエントリ、または会議から退出した場合でも通知がされなくなります。
+2. **会議参加の経験**をするには、[をオンまたはオフの**ミーティングのエントリを有効にしてオンにする通知を終了**します。 既定ではこれはすでに選択されています。 場合はこのオプションをオフにすると、データを入力したり、会議を離れると、会議に参加しているユーザーが通知されません。
     
 3. [**エントリ/退出のお知らせの種類**] の下にある [**名前または電話番号**] または [**トーン**] を選択します。
     
-4. [**会議に参加する前に名前を記録するように参加者に依頼する**] をオンまたはオフにします。
+4. 確認するか、**ミーティングに参加する前に自分の名前を記録するための呼び出し元の確認**をオフにします。
     
 5. 変更したら [ **保存**] をクリックします。
     
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell で管理する方法
 
-- 時間を節約したり、自動化したりするには、[Set-CsOnlineDialInConferencingTenantSettings](https://docs.microsoft.com/en-us/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) コマンドレットを使用できます。
+- 時間を短縮または、これを自動化するには、[セット CsOnlineDialInConferencingTenantSettings](https://docs.microsoft.com/en-us/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps)コマンドレットを使用することができます。
     
 -  Windows PowerShell の場合、Skype for Business Online はユーザーの管理と、ユーザーが許可されている操作や許可されていない操作の管理に使います。Windows PowerShell により、単一の管理ポイントを使って Office 365 を管理でき、複数の作業を実行する必要があるときに日常業務を合理化できます。Windows PowerShell を使い始めるには、次のトピックを参照してください。
     
@@ -62,7 +62,7 @@ Office 365 で電話会議を設定する場合、電話会議ブリッジが表
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell には、一度に多くのユーザー向けの設定変更をする場合など、速度、簡単さ、生産性の面で Office 365 管理センターだけを使用するよりも多くの利点があります。 次のトピックで、これらの利点を説明します。 
+- Windows PowerShell には、実行しようとする設定の変更多くのユーザーを一度に 1 つなどの Office 365 管理センターを使用するだけでスピード、シンプルさと生産性に多くの利点があります。 次のトピックで、これらの利点を説明します。 
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     

@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 適切なファームウェアを取得する、必要な場合に更新する、ライセンスを割り当てる、そして Skype for Business オンラインの電話の設定を構成する配置手順を学びます。
-ms.openlocfilehash: 3b695f0198e5edb23a8746babb071742d7b7712f
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+description: 適切なファームウェアを取得し、更新が必要な場合、ライセンスを割り当てるビジネス オンライン電話の Skype の設定を構成する配置手順を説明します。
+ms.openlocfilehash: b9e38b9bff83f1ed1abc511fad815dd13b0eee75
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860461"
+ms.locfileid: "23887372"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Skype for Business Online 電話機の展開レポート
 
@@ -39,7 +39,7 @@ ms.locfileid: "23860461"
 
 まず最初に、メーカーの管理ガイドと電話機のマニュアルをダウンロードすることをお勧めします。
   
-- Polycom 電話の場合は、[Polycom 展開ガイド] を参照してください ((http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html)。
+- ポリコム電話の場合は、[ポリコム展開ガイド] を参照してください ((http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html)。
     
 - Yealink 電話機については、『[Yealink Skype for Business HD SIP Phones Solution (Yealink Skype for Business HD SIP 電話機のソリューション)](http://www.yealink.com/products_top_2.html)』をご覧ください。
     
@@ -94,7 +94,7 @@ Skype for Business インバンド管理の Windows PowerShell コマンドレ�
   
 ### <a name="step-6---preparing-for-users-to-sign-in"></a>ステップ 6 - ユーザーのサインインの準備
 
-ユーザーが正常に Skype for Business Online 電話機にサインインし、通話できるようにするには、ユーザーに正しいライセンスが割り当てられていることを確認する必要があります。 最低でも、電話システムのライセンスと通話プランを割り当てる必要があります。 詳細については、 [Skype for Business と Microsoft Teams アドオン ライセンス](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) および [Skype for Business と Microsoft Teams ライセンスの割り当て](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)を表示できます。
+ユーザーが正常に Skype for Business Online 電話機にサインインし、通話できるようにするには、ユーザーに正しいライセンスが割り当てられていることを確認する必要があります。 最低でも、電話システムのライセンスと通話プランを割り当てる必要があります。 詳細については、 [Skype](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)および[ビジネスおよびマイクロソフトのチームのライセンスを Skype の割り当て](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)を表示できます。
   
 通話プランの詳細については、「[Office 365 の通話プランについて](/microsoftteams/what-are-calling-plans-in-office-365)」を読むことで確認できます。
   
@@ -117,7 +117,7 @@ Skype for Business インバンド管理の Windows PowerShell コマンドレ�
     > [!NOTE]
     > PIN 認証は、LPE およびパートナーの IP 電話機向けの Skype for Business Online ではサポートされていません。 
   
-- **PC の使用** ユーザーの PC に Better Together over Ethernet (BToE) ソフトウェアがインストールされ、有効化されている場合、ユーザーは Windows Skype for Business アプリの認証ウィンドウを使用して電話機にログインできます。 その他の情報については、「[ステップ 7 (省略可能) - デバイス ペアリングおよび Better Together over Ethernet (BToE) を使用する場合](deploying-skype-for-business-online-phones.md#BK_BTOE)」をご覧ください。
+- **PC の使用** ユーザーの PC に Better Together over Ethernet (BToE) ソフトウェアがインストールされ、有効化されている場合、ユーザーは Windows Skype for Business アプリの認証ウィンドウを使用して電話機にログインできます。 その他の情報[(オプション) - と相乗効果 (BToE) のイーサネット デバイスのペアがある場合の手順 7](deploying-skype-for-business-online-phones.md#BK_BTOE)を参照してください。
     
     > [!NOTE]
     > ユーザーは、電話機にサインインするために組織のユーザー名およびパスワードを使用する必要があります。たとえば、ユーザー名として  *amosm@contoso.com*  のような UPN 形式を使用します。
@@ -180,7 +180,7 @@ Skype for Business インバンド管理の Windows PowerShell コマンドレ�
 |オンプレミス  <br/> |オンライン/オンプレミス  <br/> |ユーザー名/パスワード  <br/> |あり  <br/> |あり  <br/> |該当なし  <br/> |
 |オンプレミス  <br/> |オンライン/オンプレミス  <br/> |PC 経由のサイン イン(BTOE)  <br/> |あり  <br/> |あり  <br/> |該当なし  <br/> |
    
-- **電話機の機能** 機能セットは IP 電話機パートナーによって多少異なる場合があります。 完全な機能セットについて、および各電話機メーカーの機能の詳細情報については、「[Skype for Business Online で使う電話を入手する](getting-phones-for-skype-for-business-online.md)」をご覧ください。
+- **電話機の機能** 機能セットは IP 電話機パートナーによって多少異なる場合があります。 完全な機能の設定し、電話のメーカーごとの機能の詳細については、[オンライン ビジネスの Skype の電話を取得](getting-phones-for-skype-for-business-online.md)を参照してください。
     
 - **電話のロック** は、電話機を保護するために Skype for Business 認定済み電話機に最近導入されてた機能です。この機能が有効な場合、ユーザーは正常な認証後に PIN を作成するように求められます。PIN の作成後、定義したアイドル タイムアウトを過ぎると電話機がロックされます。さらに、ユーザーは電話機を手動でロックするか、電話のペアリングを使用して電話のロックを同期させることもできます。電話のロックの PIN を複数回誤って入力すると、ユーザーが電話機からサインアウトされるか、管理者のコードを使用して電話機をロック解除する必要があります。ただし、これは電話機パートナーによって異なります。ユーザーの PIN は 6 桁から 15 桁です。
     

@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Online で会議に参加するときにユーザーが自分の名前を記録できるようにする
+title: Skype でオンライン ビジネスの会議に参加するときに自分の名前を記録するようにユーザーを有効にします。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,19 +15,19 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: ユーザーが Skype for Business Online で会議に参加するときに、自分の名前を記録できるかを有効または無効にする方法を学びます。
-ms.openlocfilehash: 6022d7ebf0e653bc43373cb00faabc207f91562a
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+description: 有効にするか、Skype でオンライン ビジネスの会議に参加するときに、ユーザーがそれらの名前を記録できるようであるかどうかを無効にする方法を説明します。
+ms.openlocfilehash: 0e330d5efdd7325a8db48aa679d6ecbb9264c345
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850043"
+ms.locfileid: "23884723"
 ---
-# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Skype for Business Online で会議に参加するときにユーザーが自分の名前を記録できるようにする
+# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Skype でオンライン ビジネスの会議に参加するときに自分の名前を記録するようにユーザーを有効にします。
 
 > [!Note]
 > ユーザーが自分の名前を Teams に記録できるようにする必要がある場合は、「[Microsoft Teams で会議に参加するときにユーザーが自分の名前を記録できるようにする](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams)」を参照してください。
@@ -38,7 +38,7 @@ ms.locfileid: "23850043"
 
 ## <a name="set-whether-callers-should-record-their-name"></a>発信者が名前を記録すべきかどうかを設定する
     
-1. **Skype for Business 管理センター**の左側にあるナビゲーションで、[**電話会議**]  >  [**Microsoft ブリッジ設定**] の順に開きます。
+1. 既定値は 5 です。******** > ****
     
 2. [ **会議参加エクスペリエンス**] の [ **会議の入退出の通知をオンにする**] で、次のいずれかを選びます。
     
@@ -72,6 +72,6 @@ ms.locfileid: "23850043"
     > [!NOTE]
     > Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行[](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 
 [Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

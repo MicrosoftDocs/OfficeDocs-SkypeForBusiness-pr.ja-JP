@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: ネットワーク領域、ネットワーク サイト、および IP サブネットについて説明します。 これらの計画、ビジネスの Skype でメディアをバイパスするために計画を展開するように構成する必要がありますすべて受付制御に電話 Skype ビジネス サーバー)、または Skype のビジネス サーバーのビジネス サーバーのエンタープライズ VoIP の Skype で緊急サービスを計画します。
-ms.openlocfilehash: a58598bedb7919d97d78cc5a43cc0e807118612e
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 6dad93aa2d5ef235b07f2189329f94d94b1a3d02
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263775"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885658"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Skype で高度なエンタープライズ VoIP 機能のビジネス サーバー用のネットワーク設定
 

@@ -16,19 +16,19 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords:
 - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
 - ms.lync.lac.VASAMissingGeoCodes
 ms.custom:
 - Calling Plans
 description: 国や地域ごとに、Skype for Business Online および Microsoft Teams のユーザーの電話番号を取得する手順が異なります。 必要な情報を取得するには、以下の国または地域へのリンク先に移動してください。
-ms.openlocfilehash: 31d1b0b7d1a2719d4645addaa96aa8d82fd090fb
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: f1fd767a3013064a2bba0db03595b56a1431ec0f
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858458"
+ms.locfileid: "23885407"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>組織のために電話番号を管理する
 組織のユーザーとサービスの両方の番号 (有料とフリー ダイヤル)を取得する 3 つの方法があります。
@@ -83,7 +83,7 @@ ms.locfileid: "23858458"
 - [ビジネス製品 - 管理者ヘルプのサポートに問い合わせて](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)組織の電話番号設定のヘルプを表示します。
   
     
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 
 [緊急通話の利用条件](../emergency-calling-terms-and-conditions.md)
 

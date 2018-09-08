@@ -1,5 +1,5 @@
 ---
-title: Office 365 の Skype for Business Online の電話会議を試用または購入する
+title: Skype のオンライン ビジネスを Office 365 に電話会議を購入するか
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,64 +8,65 @@ ms.topic: article
 ms.assetid: d080bb8c-3465-47bb-ad2b-9428f1a3fd24
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords:
 - ms.lync.lac.CpcGettingStarted
 ms.custom:
 - Audio Conferencing
 description: 'Office 365 の電話会議 (PSTN 会議) ライセンスを試す方法または購入する方法を参照して、ダイヤル インできる電話会議をセットアップしてください。 '
-ms.openlocfilehash: 081dd7146eb30a10efd4f2ed88ed070f04ea589e
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
-ms.translationtype: HT
+ms.openlocfilehash: 248156cb326c4614be717b6f851d0ea04b28dd39
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779067"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23888316"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Office 365 の Skype for Business Online の電話会議を試用または購入する
+# <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Skype のオンライン ビジネスを Office 365 に電話会議を購入するか
 
 > [!Note]
 > Microsoft Teams での電話会議の詳細については、「[Microsoft Teams で Office 365 の Skype の電話会議を試用または購入する](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams)」を参照してください。
 
 
-組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Skype for Business には、こういった状況に最適な、電話会議機能があります。 参加者は、モバイル デバイスや PC で Skype for Business アプリを使用する代わりに、電話を使って Skype for Business 会議にコールインできます。
+自分の組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 ビジネス用の Skype には、これだけの電話会議機能が含まれています! 参加者は、モバイル デバイスや PC で Skype for Business アプリを使用する代わりに、電話を使って Skype for Business 会議にコールインできます。
 
-必要なのは、会議の計画者または主催者のために電話会議をセットアップすることだけです。 会議の出席者にミーティングへのライセンスが割り当てられている必要はなく、その他のセットアップも必要ありません。
+のみ、スケジュールや会議を計画している人の電話会議を設定する必要があります。 会議の出席者にミーティングへのライセンスが割り当てられている必要はなく、その他のセットアップも必要ありません。
 
 価格情報については、「[電話会議の価格](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)」を参照してください。
 
-## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>手順 1: 電話会議のライセンスを購入し、割り当てる
+## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>手順 1: を購入し、オーディオ会議のライセンスを割り当てる
 
 この手順を実行するには、[Office 365 の管理者の役割](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) を持っている必要があります。
 
 ### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>ユーザーの電話会議のライセンスを購入し、割り当てる場合:
 
-1. 自分の国や地域で**電話会議**が使用可能かどうか確認します。 「[国および地域ごとの電話会議および通話プランの利用可能性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)」をご覧ください。 
+1. **オーディオ会議**は、国/地域で利用可能なかどうかを確認します。 [国やオーディオ会議や予定を呼び出すことで利用可能な地域](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)です。 
     
 2. **電話会議** のライセンスを取得します。 以下を希望する場合:
 
   - 購入する前に**お試し**ください。電話会議が含まれる Office 365 Enterprise E5 の無料試用版にサインアップできます。 [Office 365 Enterprise E5 の試用版](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)を参照してください。
 
-  - **購入**するには、「[Skype for Business　と Microsoft Teams のアドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)」を参照してください。
+  - **購入**をするには、 [Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)を参照してください。
 
 3. 会議を計画したり主催しようとしてる組織のユーザーに対して購入した [一般法事向け Office 365 ライセンスの割り当てや削除](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) を行います。
 
-4. 電話会議のアドオン ライセンスおよびコミュニケーション クレジットのライセンスを購入した場合も割り当てます。 手順については、「[Skype for Business と Microsoft Teams のライセンスを割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)」をご覧ください。
+4. 電話会議のアドオン ライセンスおよびコミュニケーション クレジットのライセンスを購入した場合も割り当てます。 手順については、[ビジネスおよびマイクロソフトのチームのライセンスを Skype を割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)を参照してください。
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>分数ごと従量課金制電話会議ライセンスを購入し割り当てる場合:
 
 ライセンス供与されている大口の顧客の場合、分数ごと従量課金制電話会議のライセンスを取得できます。 分数ごと従量課金制電話会議のライセンスの詳細については、 [分数ごと従量課金制電話会議](/microsoftteams/audio-conferencing-pay-per-minute)を参照してください。 
   
-1. 自分の国や地域で**電話会議**が使用可能かどうか確認します。 「[国および地域ごとの電話会議および通話プランの利用可能性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)」をご覧ください。 
+1. **オーディオ会議**は、国/地域で利用可能なかどうかを確認します。 [オーディオ会議や予定を呼び出すための国および地域の可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)です。 
     
 2. **電話会議** のライセンスを取得します。 分数ごと従量課金ライセンスを取得するには、アカウントの担当者にお問い合わせください。
     
-3. 組織のために[組織のコミュニケーション クレジットを設定](/microsoftteams/set-up-communications-credits-for-your-organization)します。 コミュニケーション クレジットの設定については、「[コミュニケーション クレジットとは](/microsoftteams/what-are-communications-credits)」を参照してください 。
+3. 組織の[組織の通信のクレジットの設定](/microsoftteams/set-up-communications-credits-for-your-organization)をします。 コミュニケーション クレジットの設定については、「[コミュニケーション クレジットとは](/microsoftteams/what-are-communications-credits)」を参照してください 。
     
     > [!IMPORTANT]
     > コミュニケーション クレジットが設定されていない場合、電話会議が分数ごと従量課金ライセンスを持つすべてのユーザーに対して機能しません。
@@ -83,13 +84,13 @@ ms.locfileid: "23779067"
 
 次の手順は**オプション**ですが、管理者の多くは次の設定を行うのを好みます。
 
-1. [会議出席依頼をカスタマイズする](../set-up-skype-for-business-online/customize-meeting-invitations.md)。 ユーザー向けに設定されているダイヤルイン番号は、会議の出席者に送信される会議出席依頼に自動的に追加されます。 ただし、独自のヘルプや法的リンク、テキスト メッセージ、会社の小さな画像を追加できます。
+1. [ミーティングの招待状をカスタマイズ](../set-up-skype-for-business-online/customize-meeting-invitations.md)します。 ユーザー向けに設定されているダイヤルイン番号は、会議の出席者に送信される会議出席依頼に自動的に追加されます。 ただし、独自のヘルプや法的リンク、テキスト メッセージ、会社の小さな画像を追加できます。
 
-2. [会議出席依頼に含める電話番号を設定する](set-the-phone-numbers-included-on-invites.md)。 これは、ユーザーが参加を予定している会議で表示される電話番号です。
+2. [携帯電話への招待に含まれている番号を設定](set-the-phone-numbers-included-on-invites.md)します。 これは、ユーザーが参加を予定している会議で表示される電話番号です。
 
 3. 発信者が電話会議の電話番号にかけたときに、電話会議の自動応答が発信者に応答する際に使われる[電話会議の自動応答言語を設定します](set-auto-attendant-languages-for-audio-conferencing.md)。 この手順は、Microsoft を電話会議プロバイダーとして使用している場合にのみ適用されます。
 
-4. [電話会議の PIN の長さを設定します](set-the-pin-length-for-audio-conferencing-meetings.md)。
+4. [オーディオ会議の会議の暗証番号 (pin) の長さを設定](set-the-pin-length-for-audio-conferencing-meetings.md)します。
 
 
 > [!NOTE]

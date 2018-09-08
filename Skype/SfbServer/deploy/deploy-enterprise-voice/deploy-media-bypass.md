@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 description: ビジネス サーバーのエンタープライズ VoIP の Skype でのメディア バイ パスを展開します。 前提条件と展開プロセスのチェックリストも掲載しています。
-ms.openlocfilehash: ead9ebb099bd671dbbc28607bf11e1131ac7569a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9b850b05308d7518e95b8c93159f9462fcc7f945
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20965437"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885429"
 ---
 # <a name="deploy-media-bypass-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのメディア バイ パスを展開します。
  

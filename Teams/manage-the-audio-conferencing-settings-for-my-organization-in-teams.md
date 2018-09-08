@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'ユーザーおよびその他のダイヤルイン会議の設定に、ダイヤルイン会議のライセンスおよび会議 ID を割り当てるには、マイクロソフトのチームの手順を参照してください。 '
-ms.openlocfilehash: b9b3198f5d66b36e986eeab72fdf5dd31521fb14
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 7af89da74b0b83872954444a847d40f0d7851087
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23866836"
+ms.locfileid: "23884706"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-microsoft-teams"></a>マイクロソフトのチームで、組織内でのオーディオ会議設定を管理します。
 
@@ -109,7 +109,7 @@ Change the senders contact information of email messages sent to users 既定で
 
 2. ページの上部で、[**編集**] をクリックします。
 
-3. [**オーディオ会議****電子メールで会議の情報を送信**をクリックします。 
+3. [**電話会議**] の [**電話会議情報をメールで送信**] をクリックします。 
 
     > [!NOTE]
     > この操作を行っても、電話会議の PIN はユーザーに送信されません。 

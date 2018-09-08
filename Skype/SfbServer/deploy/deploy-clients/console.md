@@ -6,17 +6,17 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: この資料では、Skype ルーム システム v2 のコンソールとその周辺機器を設定する方法について説明します。
-ms.openlocfilehash: c2be3c1a8ee36120eac0198da364ab0101ae482e
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: d652f4e7ccfd8b8630ce48b028f8f4ce7226a693
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23828716"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23887515"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Skype Room Systems バージョン 2 コンソールを構成する
  

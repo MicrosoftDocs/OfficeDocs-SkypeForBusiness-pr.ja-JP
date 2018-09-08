@@ -9,16 +9,16 @@ ms.service: msteams
 ms.reviewer: laal
 search.appverid: MET150
 description: Microsoft Teams でのゲスト アクセスにより、組織内のチームは組織外の人にチームおよびチャネルへのアクセス権を付与することで、それらの人と共同作業することができるようになります。
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 415066ef24eb83713c44c67cebe1fe0d6cdccb7c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 3d3a3156e7e39d58ba66a109bcb996333604b86b
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23859092"
+ms.locfileid: "23882062"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセス
 ======================================

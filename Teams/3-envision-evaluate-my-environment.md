@@ -9,16 +9,16 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 組織の導入準備評価、正しい TCP および UDP ポートを開いて、任意のネットワークの修復を実行するには、ペルソナとネットワークの分析を使用します。
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ba38b78727e21286c05eed556ad0238b2359499
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: c864b6a18c6513da1eabe6f9c108879d6b5d5541
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23857204"
+ms.locfileid: "23885238"
 ---
 # <a name="evaluate-my-environment"></a>自分の環境を評価します。
 

@@ -7,17 +7,17 @@ ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 description: Office 365 URL と IP アドレスの範囲を正しく構成する方法と、Microsoft Teams サービスとの接続で利用可能な転送プロキシのバイパス方法と、ネットワークとセキュリティ ポリシーの要件について説明します。
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a21130d3e1c2e81203bb409fc2a53c77645bf0ba
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: fddcd7a43b6296172b3bac0a7aad31032a585618
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851924"
+ms.locfileid: "23889545"
 ---
 <a name="office-365-urls-and-ip-address-ranges"></a>Office 365 の URL と IP アドレスの範囲
 =====================================

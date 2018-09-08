@@ -1,5 +1,5 @@
 ---
-title: サービス電話番号の取得
+title: サービスの電話番号の取得
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,33 +16,33 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Office 365 から、ユーザーの電話番号を取得するだけでなく、検索、電話会議 (会議ブリッジ用) 、自動応答、および通話キュー (サービス番号とも呼ばれます) などのサービスの無料または有料電話番号を取得できます。 サービス電話番号では、ユーザーまたは登録者の電話番号に比べて、より多くの通話に同時に対応できます。
-ms.openlocfilehash: a332f7b5b1d7a253453946784d16a0ac3c5b8305
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+description: Office 365 から、ユーザーの電話番号を取得するだけでなく検索し、有料またはオーディオの会議 (会議ブリッジ) の自動応答、および呼び出しキュー (サービス番号とも呼ばれます) などのサービスの無料電話番号を取得できます。 サービス用電話番号の同時通話容量は、ユーザーまたは登録者の電話番号より大きくなります。
+ms.openlocfilehash: f5627333475d04b14805a1749ccf56b1337047d4
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860905"
+ms.locfileid: "23884072"
 ---
 # <a name="getting-service-phone-numbers"></a>サービスの電話番号の取得
 
-Office 365 から、ユーザーの電話番号を取得するだけでなく、検索、電話会議 (会議ブリッジ用) 、自動応答、および通話キュー (サービス番号とも呼ばれます) などのサービスの無料または有料電話番号を取得できます。 サービス用電話番号の同時通話容量は、ユーザーまたは登録者の電話番号より大きくなります。 たとえば、サービス電話番号では同時に 100 件の通話を処理できますが、ユーザーの電話番号では同時に数件の通話しか処理できません。
+Office 365 から、ユーザーの電話番号を取得するだけでなく検索し、有料またはオーディオの会議 (会議ブリッジ) の自動応答、および呼び出しキュー (サービス番号とも呼ばれます) などのサービスの無料電話番号を取得できます。 サービス用電話番号の同時通話容量は、ユーザーまたは登録者の電話番号より大きくなります。 などのサービス数 100 コールの同時に処理できます、ユーザーの電話番号で、いくつかの呼び出しを同時に処理のみことができますが。
   
 > [!NOTE]
-> Office 365 コミュニケーション クレジットは、フリー ダイヤル番号を取得できるように、最初にセットアップする必要があります。 「[組織のためにコミュニケーション クレジットをセットアップする](/microsoftteams/set-up-communications-credits-for-your-organization)」を参照してください。 
+> Office 365 コミュニケーション クレジットは、フリー ダイヤル番号を取得できるように、最初にセットアップする必要があります。 [組織の通信のクレジットの設定](/microsoftteams/set-up-communications-credits-for-your-organization)を参照してください。 
   
-サービス番号を取得して Skype for Business と Microsoft Teams で使用できるようにするには、次の 2 つの方法があります。
+使用できるようにする Skype でビジネスおよびマイクロソフトのチームには、サービス番号を取得する 2 とおりの方法があります。
   
 - Office 365 から新しい番号を取得します。
     
-- 現在のサービス プロバイダーまたは電話会社から Office 365 に既存の番号を移行または転送します。
+- ポートまたはサービス プロバイダーまたは電話のキャリアから、既存の番号を Office 365 に転送します。
     
     > [!NOTE]
-    > サービス番号を転送する場合は、同時通話容量を考慮して正しく構成するために、[Microsoft サポート](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)に連絡することを強くお勧めします。
+    > サービス番号を転送するときは、同時呼び出し元の容量が大きくと見なされ、正しく構成されていることを確認するのには[Microsoft のサポート](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)を問い合わせることを強くお勧めします。
   
 ## <a name="get-new-service-numbers"></a>新しいサービス番号を取得する
 
@@ -50,14 +50,14 @@ Office 365 から、ユーザーの電話番号を取得するだけでなく、
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. **Office 365 管理センター** > **Skype for Business**に移動します。
+2. ** [Office 365 管理センター] ** > ** [Skype for Business]** に移動します。
     
-3. 左側のナビゲーションで、**[音声]**  >  **[電話番号]**  >  **[新しい番号を追加]** と進み、**[新しいサービス番号]** をクリックします。
+3. 左側のナビゲーションでは、**音声**に移動 > **電話番号** > **新しい番号を追加**し、**新しいサービスの番号**をクリックします。
     
     > [!IMPORTANT] 
-    > Skype for Business 管理センターの左のナビゲーションに  **[音声]** オプションが表示されるようにするには、最初に **Enterprise E5 ライセンス**、**電話システム** アドオン ライセンス、または **電話会議** アドオン ライセンスを少なくとも 1 件購入する必要があります。
+    > ビジネス管理センターの Skype では、左側のナビゲーションの**音声**オプションを表示するため、まず**E5 のエンタープライズ ライセンス**を少なくとも 1 つ、1 つの**電話システム**のアドオン ライセンスまたはアドオンのライセンスが 1 つの**電話会議**を購入する必要があります。
     
-4. [**新しいサービス番号の追加**] ページで、次を選択します。
+4. **新しいサービス番号の追加**] ページで、次の手順を選択します。
     
   - **国/地域**
     
@@ -65,18 +65,18 @@ Office 365 から、ユーザーの電話番号を取得するだけでなく、
     
   - **市区町村**
     
-5. [**数量**] の下に、組織に必要な電話番号の数を入力し、[**追加**] をクリックして、予約を作成します。 電話番号を選ぶのに与えられた時間は 10 分間です。選ぶのに 10 分以上かかると、電話番号は電話番号のプールに戻ります。
+5. [ **数量**] の下に、組織に必要な電話番号の数を入力し、[ **追加**] をクリックして、予約を作成します。 自分の電話番号を選択するのには 10 分間があります。10 分以上を実行する場合、電話番号は電話番号のプールに返されます。
     
     > [!NOTE]
-    > [**取得できる合計ユーザー数**] の横に表示されるライセンス数に基づいた電話番号の数を確認できます。 詳細は、「[取得できる電話番号の数について](/microsoftteams/how-many-phone-numbers-can-you-get)」を参照してください
+    > 横に表示されているライセンスの数に基づいた、電話番号の数を確認することができます**合計サービス番号をことができます取得**。 詳細についてを参照してください[電話番号の数を取得することができますか?](/microsoftteams/how-many-phone-numbers-can-you-get)
   
-6. [**番号を表示**] をクリックすると、電話番号の完全なリストを表示できます。 リストにある電話番号を選びたくない場合には、この方法が便利です。
+6. [ **番号を表示**] をクリックすると、電話番号の完全なリストを表示できます。 リストで特定の電話番号を選択したくない場合に便利です。
     
-7. 目的の電話番号を選んでから、[**番号の入手**] を選びます。
+7. 目的の電話番号を選んでから、[ **番号の入手**] を選びます。
     
 ### <a name="assign-service-numbers"></a>サービス番号を割り当てる
 
-取得したサービス電話番号は、電話会議ブリッジに割り当てることができます。 これを行う場合は、「[電話会議ブリッジの有料または無料の電話番号を変更する](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)」をご覧ください。
+サービス番号を作成したら、それらに割り当てて、オーディオ会議ブリッジにします。 これを行う場合は、「[電話会議ブリッジの有料または無料の電話番号を変更する](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)」をご覧ください。
   
 ### <a name="port-or-transfer-existing-service-numbers"></a>既存のサービス番号を移行または転送する
 
@@ -85,8 +85,8 @@ Office 365 から、ユーザーの電話番号を取得するだけでなく、
 > [!NOTE]
 > さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。 
   
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
-[Office 365 の電話システムで利用できる機能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+## <a name="related-topics"></a>関連トピック
+[Office 365 での電話システムで利用できる機能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [国および地域ごとの電話会議および通話プランの利用可能性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 

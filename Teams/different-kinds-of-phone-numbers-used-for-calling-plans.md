@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: ビジネス オンラインの Skype では、電話番号を使用する目的に応じて異なる電話番号の種類を使用します。
-ms.openlocfilehash: ee1c469268629fff87cf04f2a2cec94c179db5b0
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 0740b3f467dd14c25632e533a6849ef83488da9b
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23868262"
+ms.locfileid: "23883182"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>通話プランで使用されるさまざまな種類の電話番号
 

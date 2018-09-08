@@ -7,7 +7,7 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
@@ -16,11 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: 電話システムを使用して、Office 365 (クラウド PBX) でユーザーが、最初にエンタープライズ VoIP を有効にして、電話番号を割り当てる必要があります。 これを行う設置型展開で、ユーザーのホームでも、設置型の展開を使用しています。
-ms.openlocfilehash: 1099aa825d76017df3afe64cf6d7b3c39391a883
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 8d00120b0b0fd74baed1ceb003a46cfc2468d502
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23883377"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>設置型のエンタープライズ VoIP のユーザーを有効にします。
  

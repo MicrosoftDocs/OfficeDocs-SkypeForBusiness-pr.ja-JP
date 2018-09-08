@@ -14,17 +14,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 管理者は、開催者が、ミーティングのフリー ダイヤル番号を使用する方法を制御できます。
-ms.openlocfilehash: 8fafe87823308035d2626d891ae12b72c2bcfeca
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 6d37fdb6e85f6c1325c4ebea179ad54aab91fa4c
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23852158"
+ms.locfileid: "23887381"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>チームの特定のユーザーのフリー ダイヤル番号を無効にします。
 

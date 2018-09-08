@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'エントリをオンにし、マイクロソフトのチーム会議で発表をオンまたはオフを終了する方法について説明します。 '
-ms.openlocfilehash: 44b3c88b9e4284c7606d57661022dbe21d236147
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 94a091590ff00d2c78278e8ad559b61b1e732130
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851008"
+ms.locfileid: "23884630"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>エントリ無効を切り替えるし、マイクロソフトのチームでの会議のお知らせを終了します。
 
@@ -60,6 +60,6 @@ Windows PowerShell は、ユーザーと、ユーザーに許可されている�
     
 Windows PowerShell の詳細については、[マイクロソフト チームの PowerShell の参照](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)の詳細についてを参照してください。
   
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 
 [電話会議に関するよくある質問](audio-conferencing-common-questions.md)

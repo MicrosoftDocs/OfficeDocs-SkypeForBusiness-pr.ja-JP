@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: ビジネスの Skype を使用しながら、チームのすべてを表示するのにはマイクロソフトのチームのパイロットを起動するためのガイダンスは、組織を提供できます。
-localization_priority: Priority
+localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1a21c14182f0a4666eb5ae236cc9ac382a6bced
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: eff70f1a815f8ad9910143a08f38b058ae6e4148
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867918"
+ms.locfileid: "23882202"
 ---
 ![展開に重点を置いて、アップグレードの旅の段階や実装段階](media/upgrade-banner-deployment.png "展開に重点を置いて、アップグレードの旅の段階や実装段階")
 

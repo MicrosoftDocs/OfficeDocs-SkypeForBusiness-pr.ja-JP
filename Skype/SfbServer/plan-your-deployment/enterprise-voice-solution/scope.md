@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
 description: ビジネス サーバーのエンタープライズ VoIP の Skype で ~ 9-1-1 展開の計画のために必要なを決定します。
-ms.openlocfilehash: 0c9b027a5dc8680d00808ee2c4b05cca5fee3952
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 01b6b1656826977444928583ff08e8cb23b2982d
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260056"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886290"
 ---
 # <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server"></a>Skype のビジネス サーバーの ~ 9-1-1 の展開の範囲を定義します。
 

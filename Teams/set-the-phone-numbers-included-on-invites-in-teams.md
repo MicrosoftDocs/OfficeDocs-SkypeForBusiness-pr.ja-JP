@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Microsfot チーム会議に参加するのには呼び出し元の既定の電話番号を作成する手順を取得します。 '
-ms.openlocfilehash: 54778aac19d090b4c609da1c5a63da3ba146ae44
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: eddab0762b679dba08dd9981d6ae61a1403ebf47
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23857448"
+ms.locfileid: "23882961"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>マイクロソフトのチームでの携帯電話への招待に含まれている番号の設定します。
 
@@ -70,6 +70,6 @@ Windows PowerShell は、ユーザーと、ユーザーに許可されている�
 Windows PowerShell の詳細については、[マイクロソフト チームの PowerShell の参照](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)の詳細についてを参照してください。 
   
     
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 
 [Office 365 での電話会議を使用または購入する](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

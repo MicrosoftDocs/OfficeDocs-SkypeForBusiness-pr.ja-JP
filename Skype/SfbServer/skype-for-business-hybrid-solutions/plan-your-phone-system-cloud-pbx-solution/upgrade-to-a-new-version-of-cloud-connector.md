@@ -7,17 +7,18 @@ ms.date: 11/15/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: 既存の Cloud Connector Edition 展開をアップグレードする方法について説明します。
-ms.openlocfilehash: 925b19360115e74a147f8b32c6faa42b84971f60
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b727f3cb7feea7f080f2e75278294e855c65b197
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23887538"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Cloud Connector 新バージョンへのアップグレード
  
@@ -65,7 +66,7 @@ ms.lasthandoff: 05/03/2018
 ## <a name="upgrade-a-single-site-to-a-new-version"></a>単一サイトの新バージョンへのアップグレード
 <a name="BKMK_Upgrade"> </a>
 
-アップグレードするサイト内の 1 つだけのアプライアンスがある場合は、次の操作を行います。
+アップグレードするサイトにアプライアンスが 1 台のみある場合は、次を行います。
   
 1. 既存のクラウドのコネクタのバージョンをアンインストール**コントロール パネルの [\>プログラム\>プログラムと機能**。
     
@@ -116,6 +117,6 @@ Set-CcCredential -AccountType TenantAdmin
 ## <a name="upgrade-multiple-sites-to-a-new-version"></a>マルチサイトの新バージョンへのアップグレード
 <a name="BKMK_Upgrade"> </a>
 
-単一サイトのアップグレードの手順に従い、展開でサイトごとに一度に 1 つのサイトずつアップグレードします。 確認と各サイトをアップグレードした後[、クラウドのコネクタの配置を検証](validate-your-cloud-connector-deployment.md)します。
+単一サイトのアップグレードの手順に従い、展開でサイトごとに一度に 1 つのサイトずつアップグレードします。各サイトをアップグレードしたら、必ず[Validate your Cloud Connector deployment](validate-your-cloud-connector-deployment.md)を行ってください。
   
 

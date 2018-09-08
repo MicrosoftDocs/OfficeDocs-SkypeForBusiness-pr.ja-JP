@@ -15,45 +15,45 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '匿名の発信者による Skype for Business 管理センターからの会議への参加や PowerShell スクリプトの使用を有効または無効にする方法を説明します。 '
-ms.openlocfilehash: 746e21b7b1a8d15c31dfe11e46ac09edfbb29b99
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: a87fe66eca889e7424ed34376dbf499f8bbfef81
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858707"
+ms.locfileid: "23885163"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>Skype for Business Online で PIN を使用せずに電話で電話会議を開始する
 
 > [!Note]
 > Microsoft Teams で PIN を使用せずに電話会議を開始する場合の詳細については、「[Microsoft Teams で PIN を使用せずに 電話で電話会議を開始する](/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams)」をご覧ください。
 
-会議にダイヤルインしたのに、Skype for Business 会議の開催者が会議を開始していないために、保留音の音楽を聞きながら会議のロビーで待たされるのは、ユーザーにとって不快な場合があります。 
+ビジネス会議の開催者の Skype 会議を開始していないために、音楽を聞いたり、会議のロビーで開催される会議にダイヤルインするユーザーに不満がある場合があります。 
   
-会議の開催者が会議にダイヤルインする場合、既定では、会議を始めるには PIN が必要です。 管理者は、どのようなユーザーが会議にダイヤルインしても会議の開始に PIN を求められることがないように、会議を設定できます。 Skype for Business 管理センターを使用すると、この設定を 1 人のユーザーに対して有効または無効にすることができます。
+会議の開催者を呼び出す場合、会議出席依頼には、既定では、会議を開始するのには、暗証番号 (pin) が必要です。 できますを設定することをだれでも会議にダイヤルイン会議を開始するのには暗証番号 (pin) には求められません。 Skype for Business 管理センターを使用すると、この設定を 1 人のユーザーに対して有効または無効にすることができます。
   
-あるユーザーが Skype for Business アプリから会議を開始した場合、会議の開催者に PIN が要求されることはありません。PIN が必要であるのは、会議の開催者が電話で自分の会議に参加する場合のみです。音声ユーザーに **電話会議**ライセンスが割り当てられているか、ユーザーがダイヤルイン会議で有効である場合、会議の PIN はそのユーザーに送信されます。「[ユーザーにダイヤルイン会議情報が含まれたメールを送信する](send-an-email-to-a-user-with-their-dial-in-information.md)」および「[電話会議の設定が変更されたユーザーにメールを自動的に送信する](emails-sent-to-users-when-their-settings-change.md)」をご覧ください。
+他のビジネス アプリケーションの Skype から会議が開始された場合、暗証番号 (pin) は会議の開催者の必要はありません。 PIN が必要であるのは、会議の開催者が電話で自分の会議に参加する場合のみです。 会議の暗証番号 (pin) は、**オーディオ会議**のライセンスが割り当てられている音声会議が有効になっていると、オーディオのユーザーに送信されます。 [オーディオ会議の情報を持つユーザーに電子メールを送信](send-an-email-to-a-user-with-their-dial-in-information.md)し、[ユーザーが電話会議の設定を変更するときに自動的に送信される電子メール](emails-sent-to-users-when-their-settings-change.md)を参照してください。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>匿名の発信者の会議への参加を有効または無効にする
     
-1. **[Skype for Business 管理センター]** の左側のナビゲーションで **[電話会議]** > **[ダイヤルイン ユーザー]** と選択します。 
+1. **電話会議**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **のユーザー**です。 
     
-2. 一覧でユーザーを選び、操作ウィンドウで [ **編集**] をクリックします。 
+2. の一覧でユーザーを選択し、[操作] ウィンドウの [**編集**] をクリックします。 
     
-3. ユーザーのプロパティのページの [ **会議のオプション**] で、[ **認証されていない発信者が、会議に出席する最初の人物になることを許可します。許可しない場合、認証されていない発信者は、認証されたユーザーが参加するまでロビーで待機します。**] をオンまたはオフにします。
+3. ユーザーのプロパティ] ページで [**ミーティングのオプション**] でオンまたはオフ**許可が認証されていない呼び出し元は、会議の最初の人に。かどうか、ロビーで待機、認証されたユーザーが参加するまで**。
     
-4. [**保存**] をクリックします。 
+4. [ **保存**] をクリックします。 
 
 
     
- **Windows Powershell を使用する**
+ **Windows Powershell を使用します。**
   
 - 次のコマンドレットを実行します。 
     
@@ -63,19 +63,19 @@ ms.locfileid: "23858707"
 
 ## <a name="what-else-should-you-know"></a>その他の情報
 
-- PIN をリセットする必要がある場合は、「[電話会議の PIN をリセットする](reset-the-audio-conferencing-pin.md)」をご覧ください。
+- PIN をリセットする場合は、[オーディオ会議の PIN のリセット](reset-the-audio-conferencing-pin.md)を参照してください。
     
-- 匿名アクセスが有効、または会議の開始に PIN が必要でない設定になっている場合:
+- 匿名アクセス、または、会議を開始するのには暗証番号 (pin) を必要としない] がオンの場合
     
-  - 会議がまだ開始していない場合 (会議にまだ誰もいない場合): 発信者には開催者であるかどうかを確認するメッセージが表示されます。発信者が「はい」と答えると、PIN の入力を求められます。PIN を入力した後、会議が始まり、そのユーザーが会議に参加します。
+  - 会議が開始されていない場合 (は誰もまだ会議で): 彼は、開催者の場合、呼び出し元が求められます、PIN のよう求められますその場合、[はい] と PIN を入力した後、ミーティングを開始し、ユーザーがミーティングに参加します。
     
-  - 会議が既に開始している場合 (会議に既に他のユーザーがいる場合): 発信者に開催者であるかどうかを確認するメッセージが表示されることはなく、PIN の入力も求められません。会議は既に始まっていて、発信者はその会議に参加します。
+  - 会議が既に開始されている場合 (他のユーザーが既に会議): 開催者は、彼とはしないよう求められます暗証番号 (pin) の場合、呼び出し元は要求されません。会議は既に開始されていると、呼び出し元に参加します。
     
-- 匿名アクセスが無効、または会議の開始に PIN が必要な設定になっている場合:
+- 匿名アクセス、または、会議を開始するのには暗証番号 (pin) を必要としないが無効の場合
     
-  - 会議がまだ開始していない場合 (会議にまだ誰もいない場合): 発信者に開催者であるかどうかを確認するメッセージが表示されることはなく、PIN の入力も求められません。 開催者の設定がオフになっているため、会議が始まり、匿名の発信者が会議に参加します。
+  - 会議が開始されていない場合 (は誰もまだ会議で): 開催者は、彼女と彼女がするメッセージは表示されません、暗証番号 (pin) の場合、呼び出し元は要求されません。 開催者の設定がオフになっているため、会議が始まり、匿名の発信者が会議に参加します。
     
-  - 会議が既に開始している場合 (会議に既に他のユーザーがいる場合): 発信者に開催者であるかどうかを確認するメッセージが表示されることはなく、PIN の入力も求められません。会議は既に始まっていて、発信者はその会議に参加します。
+  - 会議が既に開始されている場合 (他のユーザーが既に会議): 場合は、開催者は、彼女と暗証番号 (pin) の彼女を求められますことはありませんが、呼び出し元は要求されません; 会議は既に開始されていると、呼び出し元に参加します。
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell で管理する方法
 
@@ -83,7 +83,7 @@ ms.locfileid: "23858707"
     
 -  Windows PowerShell の場合、Skype for Business Online はユーザーの管理と、ユーザーが許可されている操作や許可されていない操作の管理に使います。Windows PowerShell により、単一の管理ポイントを使って Office 365 を管理でき、複数の作業を実行する必要があるときに日常業務を合理化できます。Windows PowerShell を使い始めるには、次のトピックを参照してください。
     
-  - [Office 365 PowerShell のご使用をお勧めする理由](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
@@ -98,6 +98,6 @@ ms.locfileid: "23858707"
     > [!NOTE]
     > Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行[](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 
 [Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj, tonysmit
 description: このガイドは、所属する組織で使用する Microsoft Teams を計画、実装、導入するための手順を説明します。
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fbebf57b4da07f25d9687c27acd70e5cfd25930e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 56033a3efc5e163ddd67f6f45bff590204c03783
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854998"
+ms.locfileid: "23882084"
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>クイック スタート: Microsoft Teams の計画ガイド
 ==========================================================

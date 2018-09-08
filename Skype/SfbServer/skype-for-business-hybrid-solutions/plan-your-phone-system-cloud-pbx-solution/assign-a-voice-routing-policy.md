@@ -7,7 +7,7 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: '概要: Office 365 の電話システムを使用して設置した PSTN 接続を持つユーザーの音声ポリシーを割り当てる方法の詳細については、このトピックを読み取り。'
-ms.openlocfilehash: 43d8939e6e0cd49f66234e127f05cb421700a15a
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 6acc7188cbb76c101890591a822ac03a686a8246
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569499"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886063"
 ---
 # <a name="assign-a-voice-routing-policy"></a>音声ルーティング ポリシーの割り当て
  

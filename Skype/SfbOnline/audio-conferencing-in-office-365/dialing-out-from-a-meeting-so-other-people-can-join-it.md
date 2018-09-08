@@ -1,5 +1,5 @@
 ---
-title: 他のユーザーが参加できるように Skype for Business からダイヤルアウトする
+title: 他のユーザーが参加できるようにビジネス会議のため、Skype からの発信
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,49 +15,49 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Skype for Business を使用して会議の開催者が他のユーザーを呼び出せるようにするための必要事項とその方法を説明します。
-ms.openlocfilehash: 630802b034200b3ab029446f6300b1d8ddcccbb0
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: 2fe59b977384e9c76dfde4a9fd609510dc69a5d4
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851451"
+ms.locfileid: "23887316"
 ---
-# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>他のユーザーが参加できるように Skype for Business からダイヤルアウトする
+# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>他のユーザーが参加できるようにビジネス会議のため、Skype からの発信
 
 > [!NOTE]
 > Teams の会議からのダイヤル アウトについての情報をお求めの場合は、「[他のユーザーが参加できるように Teams 会議からダイアル アウトする](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it)」を参照してください。
 
-会議の開催者は、Skype for Business アプリを使用してダイヤルアウトし、他の参加者が自分の電話を使って同じ会議に参加できるようにすることができます。 必須ではありませんが、他のユーザーにダイヤルアウトする際には、国や地域番号も含め、番号をすべてダイヤルすることをお勧めします。 ダイヤルアウトを実行するには、次の手順に従います。
+会議の開催者としては、携帯電話を使用して同じ会議に他の人の結合を使用するビジネス アプリケーションの Skype を使用してダイヤルできます。 必須ではありませんが、誰かにダイヤルアウトするときには、国/地域番号が含まれる完全な番号をダイヤルすることをお勧めします。 ダイヤルアウトを実行するには、次の手順に従います。
   
-- Skype for Business アプリを使用して会議に参加している場合のみダイヤルアウトを実行できます。
+- ことができますダイヤル ・ アウトのビジネス アプリケーション、Skype を使用してミーティングに参加する場合にのみ。
     
-- 会議の開催者は、電話会議を使用できます。
+- オーディオ会議の会議の開催者として有効になっています。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
- **手順 1:** 会議への招待で、[ **他の人を招待**] オプションを使用して、電話番号をダイヤルアウトすることができます。
+ **手順 1:** 招待、ミーティング中には、電話番号にダイアル アウトするには、**多くの人を招待する**] オプションを使用します。
   
-![Skype for Business でダイヤルアウトします。](../images/9896abec-7a6f-4148-ad09-76a1cf4b56e1.png)
+![Dial-out with Skype for Business.](../images/9896abec-7a6f-4148-ad09-76a1cf4b56e1.png)
   
- **手順 2:** 国コードまたは地域コードも含めた番号すべてを枠内に入力します。
+ **手順 2:** ボックスで国/地域コードを含む、すべての電話番号を入力します。
   
-![Skype for Business で電話番号をダイヤルアウトする](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
+![Dial-out phone number in Skype for Business](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
   
 ## <a name="supported-countries-and-regions"></a>サポートされている国と地域
 
-ダイヤルアウトは一部の国と地域でのみ使用可能です。 詳細リストについては、「[国および地域ごとの電話会議および通話プランの利用可能性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)」をご覧ください。
+ダイヤルアウトは一部の国と地域でのみ使用可能です。 完全なリストは、[オーディオ会議や予定を呼び出すための国および地域の可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)を参照してください。
   
-## <a name="want-to-know-more-about-audio-conferencing"></a>電話会議の詳細
+## <a name="want-to-know-more-about-audio-conferencing"></a>オーディオ会議の詳細を知りたいとしていますか。
 
-[Office 365 での電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
-- [Skype for Business のアドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+- [Skype ビジネス アドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
 ## <a name="related-topics"></a>関連トピック
 

@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: チームで音声のワークロードをクラウドを構成する場合、コア、to do のタスクと活動このチェックリストに従います。
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 323439969652a6845a7ed2da9c6057263e1233c8
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: d3c81a88c7e846cd0826a896781f259aa27e177a
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867998"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23892683"
 ---
 # <a name="configure-cloud-voice-workloads-in-microsoft-teams"></a>マイクロソフトのチームでの音声のワークロードをクラウドを構成します。
 

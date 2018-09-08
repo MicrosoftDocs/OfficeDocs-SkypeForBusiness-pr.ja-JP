@@ -17,30 +17,30 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'アドオン ライセンス、ライセンス購入で使用できる機能、お使いの製品のためのライセンス購入方法、既存ライセンスの使用方法を説明します。 Office 365、通信クレジット、通話プランの価格とプランの詳細な情報を知ることができます。 '
-ms.openlocfilehash: f010c45f4351f505c36522ab45ce22f2442eea40
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+description: 'については、アドオン ・ ライセンスに関する機能するでしょう、それらをお使いの製品の購入方法として、既存のキャリアを使用する方法です。 Office 365 では、通信のクレジットの価格設定と計画の詳細についての情報を入手でき、通話プランします。 '
+ms.openlocfilehash: 778f2b829c09442f105576a2407c51e1d9799ae2
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858343"
+ms.locfileid: "23883997"
 ---
 # <a name="skype-for-business-and-microsoft-teams-add-on-licensing"></a>Skype for Business と Microsoft Teams のアドオン ライセンス
 
 ## <a name="what-are-add-on-licenses"></a>アドオン ライセンスとは何ですか。
 
-アドオン ライセンスは特定の Skype for Business の機能および Microsoft Teams の機能のライセンスです。 企業によっては、特定の機能を状況に応じて手頃な価格で購入しようという場合があります。 機能の追加には、その機能を使用するユーザーごとに 1 つのアドオン ライセンスの購入が必要です。
+アドオン ライセンスは特定の Skype for Business の機能および Microsoft Teams の機能のライセンスです。 企業によっては、特定の機能を状況に応じて手頃な価格で購入しようという場合があります。 機能を追加するには、それを使用するユーザーごとに 1 つのアドオン ライセンスを購入します。
 
-Skype for Business と Microsoft Teams のライセンス体系は、可能な限りの柔軟さを提供できるように設計されています。 たとえば、基本的な Skype for Business の機能をしばらく使った後で、電話会議や Office 365 での電話システムなどの追加の機能を使用する状況になったときに、アドオン ライセンスを購入できます。
+Skype ビジネスとマイクロソフト チームのライセンスは、最大限の柔軟性を提供する設計されています。 たとえば、基本的な Skype for Business の機能をしばらく使った後で、電話会議や Office 365 での電話システムなどの追加の機能を使用する状況になったときに、アドオン ライセンスを購入できます。
 
 ## <a name="how-does-add-on-licensing-affect-cost"></a>アドオンのライセンスはどのようにコストに影響をあたえるでしょうか？
 
-多くのビジネスにとって、企業プランのソフトウェアのバンドルを購入すると、総体的にコスト削減が実現できます。 一般的に、複数のアドオン ライセンスをプランの一部ではなく個別に購入すると合計コストが高くなることがあります。
+多くのビジネスにとって、企業プランのソフトウェアのバンドルを購入すると、総体的にコスト削減が実現できます。 通常、計画の一部として個別の代わりにいくつかのアドオン ・ ライセンスを購入するときになる場合結合のコストが高い。
 
 コストの詳細については、 [価格を表示し、アドオンのライセンスを購入する方法](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) や、次のいずれかを参照してください。
 
@@ -48,7 +48,7 @@ Skype for Business と Microsoft Teams のライセンス体系は、可能な�
 
 - [電話システムの料金](https://products.office.com/en-us/skype-for-business/phone-system)
 
-- [通話プランの価格](https://products.office.com/en-us/skype-for-business/calling-plans)
+- [通話プランの価格設定](https://products.office.com/en-us/skype-for-business/calling-plans)
 
 ## <a name="what-features-can-i-get-with-add-on-licenses"></a>アドオン ライセンスで入手できる機能は何ですか。
 
@@ -57,27 +57,27 @@ Skype for Business と Microsoft Teams のライセンス体系は、可能な�
 |||
 |:-----|:-----|
 |**機能** <br/> |**説明** <br/> |
-|**電話会議** <br/> |組織内のユーザーが、コンピュータではなく電話を使い Skype for Business や Microsoft Teams の会議にコールインする必要がある場合があります。 このような場合には、電話会議機能を使用します。  <br/> 国または地域でオーディオ会議が利用可能かどうかを調べるには、 [オーディオ会議や呼び出しプランが利用可能な国および地域](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)を参照してください。 <br/> コストを検索する場合は、 [オーディオ会議のための要件](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements)を参照してください。  <br/> |
+|**電話会議** <br/> |組織内のユーザーは、自分のコンピューターを使用する代わりに、ビジネスまたはマイクロソフトのチームの会議のため、Skype へのコールに電話を使用する必要があります。 このような状況で、電話会議機能を使用します。  <br/> 国または地域でオーディオ会議が利用可能かどうかを調べるには、 [オーディオ会議や呼び出しプランが利用可能な国および地域](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)を参照してください。 <br/> コストを検索する場合は、 [オーディオ会議のための要件](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements)を参照してください。  <br/> |
 |**会議へのダイヤルイン アクセスのための無料電話番号や、世界中の電話番号に発信して誰かを追加するために会議からダイヤルアウトする機能** <br/> |オーディオ会議を追加する場合は、 [コミュニケーション クレジットを設定](/microsoftteams/set-up-communications-credits-for-your-organization)することをおすすめします。 <br/> |
 |**電話システム** <br/> |PBX は会社内の電話システムです。Office 365 での電話システムは、Office 365 のホスト型の電話サービスです。従来式と革新的な PBX 機能の両方を備えていますが、複雑で高価な機器は必要ありません。[Office 365 での電話システムで利用できる機能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)。  <br/> コストを検索する場合は、 [電話システムの要件](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements)を参照してください。  <br/> |
-|**通話プラン** <br/> |他の Skype for Business ユーザーへの通話は無料ですが、会社外の電話番号に発信するためには、[通話プラン](/MicrosoftTeams/calling-plans-for-office-365)が必要になります。 Office 365 には国内通話プランと、国内および国際通話プランがあります。  <br/> コストを検索する場合は、 [通話プランの要件](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)を参照してください。  <br/> |
-|**Skype Room Systems v2** <br/> |これはアドオンではありませんが、会議室にビデオ、音声、コンテンツの共有をもたらす機能です。 [ Skype Room Systems v2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) を参照してください。  <br/> |
+|**通話プラン** <br/> |ビジネス ユーザー向けの他の Skype への呼び出しを自由がする場合は、お客様のビジネスの電話番号を呼び出すことができることをユーザー[を呼び出すことを計画](/MicrosoftTeams/calling-plans-for-office-365)します。 Office 365 には国内通話プランと、国内および国際通話プランがあります。  <br/> コストを検索する場合は、 [通話プランの要件](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)を参照してください。  <br/> |
+|**Skype Room Systems v2** <br/> |これはアドオンではありませんが、会議室にビデオ、音声、コンテンツの共有をもたらす機能です。 [Skype ルームのシステムのバージョン 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)を参照してください。  <br/> |
 
-すべてのアドオン オプションについてサポートが必要ですか？ [一般法人向けサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+他のすべてのアドオン ・ オプションについて説明する必要がありますか。 [ビジネス製品 - 管理者ヘルプのサポートに問い合わせてください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
 ## <a name="license-options-based-on-your-plan"></a>プランに基づいたライセンスオプション
 
 使用できる、アドオン ライセンス オプションは、Office 365 または Skype for Business に依存します。 プランに特有の情報、機能、およびオプションは、次のトピックを参照してください。
 
 - [Office 365 Business Premium](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
-- [Office 365 Premium、Office 365 ProPlus、Skype for Business Online プラン 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
-- [Office 365 Enterprise E1、E3、E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
-- [Office 365 Enterprise E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
-- [Office 365 Enterprise E5 (電話会議なし)](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
+- [Office 365 のプレミアム、Office 365 用のリソース、またはビジネス用の Skype オンライン 2 を計画](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
+- [Office 365 エンタープライズ E1、E3 および E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
+- [Office 365 エンタープライズ E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
+- [(オーディオ会議) なしで office 365 のエンタープライズ E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
 - [Skype Room Systems v2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
 - [GOV、EDU、および非営利団体](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
 
-Skype for Business のプランごとの機能や比較の詳細な一覧については、「[Skype for Business Online サービスの説明](https://go.microsoft.com/fwlink/?LinkId=730729)」をご覧ください。
+機能とビジネス ・ プランの各 Skype の比較の詳細については、 [Skype](https://go.microsoft.com/fwlink/?LinkId=730729)を参照してください。
 
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>価格の確認とアドオン ライセンスの購入方法
 <a name="bkmk_how"> </a>
@@ -95,7 +95,7 @@ Skype for Business のプランごとの機能や比較の詳細な一覧につ�
 
 ハイブリッド ユーザー向けにオンプレミス PSTN 接続を使用している場合は、 *電話システム*  のライセンス **のみ**をユーザーに割り当てる必要があります。同時に PSTN 通話プランも割り当て **ないでください** 。
 
-内部設置型 PSTN 接続のある電話システムを含む展開計画に関する詳細なドキュメントは、「[Office 365 電話システム (クラウド PBX) ソリューションを計画する](https://technet.microsoft.com/en-us/library/mt612869.aspx)」を参照してください。
+電話システムを設置した PSTN 接続を含め、展開の計画に関する詳細なドキュメントは、 [Office 365 (クラウド PBX) ソリューションの電話システムの計画](https://technet.microsoft.com/en-us/library/mt612869.aspx)を参照してください。
 
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
@@ -110,4 +110,4 @@ Skype for Business のプランごとの機能や比較の詳細な一覧につ�
     
 - [利用可能残高を追加してコミュニケーション クレジットを管理する](/microsoftteams/add-funds-and-manage-communications-credits)
     
-- 「[Cloud Connector を構成](https://technet.microsoft.com/en-us/library/mt605228.aspx)」し、「[Cloud Connector をダウンロード](https://aka.ms/CloudConnectorInstaller)」する
+- [クラウド コネクタを構成して](https://technet.microsoft.com/en-us/library/mt605228.aspx)、[クラウドのコネクタをダウンロード](https://aka.ms/CloudConnectorInstaller)

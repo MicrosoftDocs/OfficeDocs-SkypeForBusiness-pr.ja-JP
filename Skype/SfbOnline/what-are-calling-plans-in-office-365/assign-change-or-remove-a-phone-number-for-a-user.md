@@ -16,21 +16,21 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: 外部のビジネスやクライアントがコールインできるように、勤務先電話番号を Skype for Business ユーザーに割り当てる、変更する、または削除する方法を学びます。
-ms.openlocfilehash: a522e4fd6cbd41c34b2547ab6be0f7590de0a8b3
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: 4bc70c327330a4d52bcd0c712ce44d237dde02e0
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860593"
+ms.locfileid: "23890013"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>ユーザーの電話番号の割り当て、変更、削除を行う
 
-Office 365 の通話プランをセットアップするときに、ユーザーに電話番号を割り当てます。 
+Office 365 のプランの呼び出しを設定すると、ユーザーに電話番号を割り当てます。 
 
 Microsoft Teams クライアントで、[**呼び出し**] をクリックすると、割り当てる電話番号が一覧表示されます。
 
@@ -50,19 +50,19 @@ Skype for Business クライアントで、割り当てる電話番号が [ **�
 Office 365 の通話プランの取得方法とかかる費用については、[Skype for Business と Microsoft Teams アドオン ライセンシング](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)を参照してください。
   
 > [!NOTE]
-> ユーザーが割り当てられたライセンスを持っているかを確認するには、**  [Skype for Business 管理センター]**   > **[音声] ** > **[音声ユーザー] **に移動して、ユーザーを選択します。 ライセンスが割り当てられている場合は、 **割り当てられたライセンス**の下にライセンスが表示されます。 Office 365 管理センターを使用することもできます。 
+> ユーザーが割り当てられたライセンスを持っているかを確認するには、**  [Skype for Business 管理センター]**   > **[音声] ** > **[音声ユーザー] **に移動して、ユーザーを選択します。 ライセンスが割り当てられている場合は、 **割り当てられたライセンス**の下にライセンスが表示されます。 Office 365 の管理ページを使用できます。 
   
- ## <a name="assign-a-phone-number-to-a-user"></a>電話番号をユーザーに割り当てる
+ ## <a name="assign-a-phone-number-to-a-user"></a>ユーザーに電話番号を割り当てる
  
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
  
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. ** [Office 365 管理センター] ** > **[管理センター] ** > ** [Skype for Business]** に移動します。
+2. **Office 365 管理センター**を参照して > **管理センター** > **ビジネス用の Skype**です。
     
 3. 左のナビゲーションで、[ **音声**]  > **[音声ユーザー] **の順にクリックします。
    > [!NOTE]
- Skype for Business 管理センターの左にあるナビゲーションで [**音声**] オプションが表示される場合、最初に少なくとも 1 つの **Enterprise E5 ライセンス**、1 つの**電話システム** アドオン ライセンス、または 1 つの**電話会議**アドオン ライセンスを購入する必要があります。
+ ビジネス管理センターの Skype では、左側のナビゲーションの**音声**オプションを表示するため、まず**E5 のエンタープライズ ライセンス**を少なくとも 1 つ、1 つの**電話システム**のアドオン ライセンスまたはアドオンのライセンスが 1 つの**電話会議**を購入する必要があります。
  
    
     
@@ -70,7 +70,7 @@ Office 365 の通話プランの取得方法とかかる費用については、
     
 5. [操作] ウィンドウで、 **割り当てる番号** をクリックします。
     
-6. **番号の割り当て** ページの **割り当てる番号を選択** 一覧で、ユーザー用の電話番号を選びます。
+6. [**割り当てる番号の選択**] ボックスの一覧で**番号を割り当てる**] ページで、ユーザーの電話番号を選択します。
     
     > [!TIP]
     > 電話番号一覧が表示されない場合、最初に[ユーザーの電話番号を取得する](getting-phone-numbers-for-your-users.md)必要があります。 または、**Skype for Business 管理センター**を使用している場合は、 > **音声** > **電話番号** ページで、[**追加**] をクリックしてから、[ **新しいユーザーの番号**] をクリックします。 
@@ -80,25 +80,25 @@ Office 365 の通話プランの取得方法とかかる費用については、
 8. 電話番号と緊急対応の場所を選択した後、[ **保存**] をクリックします。
     
     > [!NOTE]
-    > Office 365 と Skype for Business Online との間の遅延時間により、ユーザーを有効にするのに最大 24 時間かかる可能性があります。 24 時間経過しても電話番号が正しく割り当てられない場合は、「[一般法人向けサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」を参照してください。 役立つ情報が提供されます。 
+    > により、Office 365 とオンライン ビジネスの Skype との間の遅延時間、かかることが可能性のあるユーザーを有効にするには、最大で 24 時間です。 24 時間経過しても電話番号が正しく割り当てられない場合は、「[一般法人向けサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」を参照してください。 私たちはここに役立つ! 
   
 
 
- ## <a name="change-a-phone-number-for-a-user"></a>ユーザーの電話番号を変更する
+ ## <a name="change-a-phone-number-for-a-user"></a>ユーザーの電話番号を変更します。
  
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
  
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. ** [Office 365 管理センター] ** > **[管理センター] ** > ** [Skype for Business]** に移動します。
+2. **Office 365 管理センター**を参照して > **管理センター** > **ビジネス用の Skype**です。
     
 3. 左のナビゲーションで、[ **音声**]  > **[音声ユーザー] **の順にクリックします。
     
 4. **音声ユーザー** ページで、ユーザー、または電話番号を変更するユーザーを見つけて、選択します。
     
-5. [操作] ウィンドウの、 **割り当て番号**の下で、[ **変更**] をクリックします。 
+5. [操作] ウィンドウで、**割り当て番号**の下の [**変更**] をクリックします。 
     
-6. **番号の割り当て**ページで、[**番号の変更**] をクリックします。
+6. **番号の割り当て**] ページで、**変更番号**をクリックします。
     
 7. **番号の割り当て**ページの [ **割り当てる番号を選択する**の下で、リストを使用して、新しい電話番号を選択します。 
     
@@ -114,13 +114,13 @@ Office 365 の通話プランの取得方法とかかる費用については、
  
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. ** [Office 365 管理センター] ** > **[管理センター] ** > ** [Skype for Business]** に移動します。
+2. **Office 365 管理センター**を参照して > **管理センター** > **ビジネス用の Skype**です。
     
 3. 左のナビゲーションで、[ **音声**]  > **[音声ユーザー] **の順にクリックします。
     
 4. **音声ユーザー** ページで、ユーザー、または電話番号を削除するユーザーを見つけて、選択します。
     
-5. [操作] ウィンドウの、 **割り当て番号**の下で、[ **削除**] をクリックします。 
+5. [操作] ウィンドウで、[**割り当ての数**、[**削除**] をクリックします。 
     
 6. **選択されている割り当て番号を削除しますか？** ページで、[ **はい**] をクリックします。
     
@@ -128,7 +128,7 @@ Office 365 の通話プランの取得方法とかかる費用については、
 ## <a name="related-topics"></a>関連トピック
 [住所検証について](what-is-address-validation.md)
 
-[組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)
+[[[Skype for Business 新しい電話番号の申請](/microsoftteams/manage-phone-numbers-for-your-organization)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
 

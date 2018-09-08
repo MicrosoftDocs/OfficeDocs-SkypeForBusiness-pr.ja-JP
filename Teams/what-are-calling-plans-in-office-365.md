@@ -16,18 +16,18 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'どのような Office 365 Callings 計画 (PSTN 通話) については、どのような領域では使用、およびそれを設定する方法の手順に移動する場所です。 '
-ms.openlocfilehash: 21d770044b2d72dc51915cfc6384501dbcc120e7
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 240a709c838beaa221be3235f05f92f65faaa1ee
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860534"
+ms.locfileid: "23890022"
 ---
 # <a name="what-are-calling-plans-in-office-365"></a>Office 365 の通話プランについて
 
@@ -57,7 +57,7 @@ ms.locfileid: "23860534"
 > さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。
 
 
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 [Skype for Business と Microsoft Teams のアドオン ライセンス](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
 
 [電話番号の移行に関するよくある質問](transferring-phone-numbers-common-questions.md)

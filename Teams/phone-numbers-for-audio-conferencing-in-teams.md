@@ -15,18 +15,18 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: ダイヤルイン会議番号がある国と地域、およびそれらの番号の自動割り当て方法について説明します。
-ms.openlocfilehash: ff1234e1447b4c74033971208b2a09275126f145
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 79e02a1216917b830629b707ffaff784d37edc1e
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851100"
+ms.locfileid: "23891739"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>マイクロソフトのチームでの電話会議の電話番号
 
@@ -74,6 +74,6 @@ ms.locfileid: "23851100"
 - ユーザーのダイヤルインの電話番号を設定するには、[携帯電話への招待に含まれている番号の設定](set-the-phone-numbers-included-on-invites-in-teams.md)を参照してください。
 
    
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 
 [Office 365 での電話会議を使用または購入する](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

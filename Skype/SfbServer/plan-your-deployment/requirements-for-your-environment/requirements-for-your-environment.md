@@ -7,19 +7,19 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
 description: '概要: Skype for Business Server 2015 のシステム要件と、ネットワークまたはインフラストラクチャに関する要件を扱ったトピックの概要を示します。Skype for Business Server 2015 をインストールおよび展開するために何かをインストールまたは構成する必要がある場合は、ここで説明します。'
-ms.openlocfilehash: 98729469459f451727f2285c64dcff3a7fe15f9e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 50844d0ed48604796ca2f9c399408c10291f4c10
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21000456"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23883902"
 ---
 # <a name="requirements-for-your-skype-for-business-2015-environment"></a>2015 のビジネス環境について、Skype の要件
  

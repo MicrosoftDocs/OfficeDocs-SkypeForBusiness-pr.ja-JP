@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '有効にするか、暗証番号 (pin) などの設定が変更されたときにユーザー、またはマイクロソフトのチームで既定の会議番号の変更に電子メールを送信することから Skype を無効にする方法を説明します。 '
-ms.openlocfilehash: 5d18d039c379bb56a861ba6f6a36d23f301150b4
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: a59553f26ee39e042fa28d9e58e7f5ae2aae21be
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861892"
+ms.locfileid: "23892503"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>有効にするか、マイクロソフトのチームでのオーディオ会議設定を変更すると、送信メールを無効にします。
 
@@ -41,7 +41,7 @@ ms.locfileid: "23861892"
 
 - 送信される、組織内のユーザーを有効にした後には、オーディオ会議のいくつかの電子メールがあります。
     
-  - ときに、**オーディオ会議**のライセンスが割り当てられます。
+  - **電話会議** のライセンスがユーザーに割り当てられた場合。
     
   - リセットすると手動で電話会議のユーザーの暗証番号 (pin) です。
     
@@ -87,7 +87,7 @@ Windows PowerShell は、ユーザーと、ユーザーに許可されている�
 Windows PowerShell の詳細については、[マイクロソフト チームの PowerShell の参照](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)の詳細についてを参照してください。
     
   
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 
 [オーディオ会議設定を変更するときにユーザーに送信される電子メール](emails-sent-to-users-when-their-settings-change-in-teams.md)
 
