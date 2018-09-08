@@ -7,77 +7,77 @@ ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: ハードウェア、ソフトウェア、およびビジネス用の Skype を実行して、mac 上のインフラストラクチャの要件の詳細については、このトピックを読む
-ms.openlocfilehash: a6ed93f2cec7a88f0de4eafc6363a63d392de9ad
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: 184f94dfb272ce2160667d31825309001ab8396d
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22391834"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886379"
 ---
-# <a name="skype-for-business-on-mac-client-requirements"></a><span data-ttu-id="37983-103">Mac クライアントの要件にビジネス用の Skype</span><span class="sxs-lookup"><span data-stu-id="37983-103">Skype for Business on Mac client requirements</span></span>
+# <a name="skype-for-business-on-mac-client-requirements"></a><span data-ttu-id="62a37-103">Mac クライアントの要件にビジネス用の Skype</span><span class="sxs-lookup"><span data-stu-id="62a37-103">Skype for Business on Mac client requirements</span></span>
  
-<span data-ttu-id="37983-104">ハードウェア、ソフトウェア、およびビジネス用の Skype を実行して、mac 上のインフラストラクチャの要件の詳細については、このトピックを読む</span><span class="sxs-lookup"><span data-stu-id="37983-104">Read this topic to learn about hardware, software, and infrastructure requirements for running Skype for Business on a Mac.</span></span>
+<span data-ttu-id="62a37-104">ハードウェア、ソフトウェア、およびビジネス用の Skype を実行して、mac 上のインフラストラクチャの要件の詳細については、このトピックを読む</span><span class="sxs-lookup"><span data-stu-id="62a37-104">Read this topic to learn about hardware, software, and infrastructure requirements for running Skype for Business on a Mac.</span></span>
   
-<span data-ttu-id="37983-105">[Mac クライアントのビジネス用の Skype](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3#Mac)は、ダウンロード可能です。</span><span class="sxs-lookup"><span data-stu-id="37983-105">The [Skype for Business on the Mac Client](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3#Mac) is available for download.</span></span>
+<span data-ttu-id="62a37-105">[Mac クライアントのビジネス用の Skype](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3#Mac)は、ダウンロード可能です。</span><span class="sxs-lookup"><span data-stu-id="62a37-105">The [Skype for Business on the Mac Client](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3#Mac) is available for download.</span></span>
   
-## <a name="hardware-and-software-requirements-for-skype-for-business-on-the-mac"></a><span data-ttu-id="37983-106">Mac での Skype for Business のハードウェア要件およびソフトウェア要件</span><span class="sxs-lookup"><span data-stu-id="37983-106">Hardware and software requirements for Skype for Business on the Mac</span></span>
+## <a name="hardware-and-software-requirements-for-skype-for-business-on-the-mac"></a><span data-ttu-id="62a37-106">Mac での Skype for Business のハードウェア要件およびソフトウェア要件</span><span class="sxs-lookup"><span data-stu-id="62a37-106">Hardware and software requirements for Skype for Business on the Mac</span></span>
 
-<span data-ttu-id="37983-107">Mac クライアントのビジネスの Skype では、Mac OS X 許可されて、それ以上を必要とし、少なくとも 100 MB のディスク領域を使用します。</span><span class="sxs-lookup"><span data-stu-id="37983-107">The Skype for Business on the Mac client requires Mac OS X El Capitan and higher, and uses at least 100MB of disk space.</span></span> <span data-ttu-id="37983-108">すべての内蔵オーディオ デバイスおよび内蔵ビデオ デバイスの使用をサポートしています。</span><span class="sxs-lookup"><span data-stu-id="37983-108">We support the use of all built-in audio and video devices.</span></span> <span data-ttu-id="37983-109">外付けデバイスは、 [Skype](https://partnersolutions.skypeforbusiness.com/solutionscatalog)でなければなりません。</span><span class="sxs-lookup"><span data-stu-id="37983-109">External devices must be in the [Skype for Business Solutions Catalog](https://partnersolutions.skypeforbusiness.com/solutionscatalog).</span></span> 
+<span data-ttu-id="62a37-107">Mac クライアントのビジネスの Skype では、Mac OS X 許可されて、それ以上を必要とし、少なくとも 100 MB のディスク領域を使用します。</span><span class="sxs-lookup"><span data-stu-id="62a37-107">The Skype for Business on the Mac client requires Mac OS X El Capitan and higher, and uses at least 100MB of disk space.</span></span> <span data-ttu-id="62a37-108">すべての内蔵オーディオ デバイスおよび内蔵ビデオ デバイスの使用をサポートしています。</span><span class="sxs-lookup"><span data-stu-id="62a37-108">We support the use of all built-in audio and video devices.</span></span> <span data-ttu-id="62a37-109">外付けデバイスは、 [Skype](https://partnersolutions.skypeforbusiness.com/solutionscatalog)でなければなりません。</span><span class="sxs-lookup"><span data-stu-id="62a37-109">External devices must be in the [Skype for Business Solutions Catalog](https://partnersolutions.skypeforbusiness.com/solutionscatalog).</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="37983-110">このリストは暫定版と一部のデバイスを Lync では、認定されたことがありますが、mac でのビジネス用の Skype ではサポートされません。</span><span class="sxs-lookup"><span data-stu-id="37983-110">This list is preliminary and some devices may be qualified for Lync, but not supported on Skype for Business on the Mac.</span></span> <span data-ttu-id="37983-111">必要なハードウェアの最小の[システム要件](https://products.office.com/en-us/office-system-requirements)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="37983-111">Refer to the [System requirements](https://products.office.com/en-us/office-system-requirements) for the minimum hardware required.</span></span>
+> <span data-ttu-id="62a37-110">このリストは暫定版と一部のデバイスを Lync では、認定されたことがありますが、mac でのビジネス用の Skype ではサポートされません。</span><span class="sxs-lookup"><span data-stu-id="62a37-110">This list is preliminary and some devices may be qualified for Lync, but not supported on Skype for Business on the Mac.</span></span> <span data-ttu-id="62a37-111">必要なハードウェアの最小の[システム要件](https://products.office.com/en-us/office-system-requirements)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="62a37-111">Refer to the [System requirements](https://products.office.com/en-us/office-system-requirements) for the minimum hardware required.</span></span>
   
-### <a name="legacy-mac-clients"></a><span data-ttu-id="37983-112">従来の Mac クライアント</span><span class="sxs-lookup"><span data-stu-id="37983-112">Legacy Mac clients</span></span>
+### <a name="legacy-mac-clients"></a><span data-ttu-id="62a37-112">従来の Mac クライアント</span><span class="sxs-lookup"><span data-stu-id="62a37-112">Legacy Mac clients</span></span>
 
-<span data-ttu-id="37983-113">ビジネス サーバー 2015 の Skype では、Mac OS 10.5.8 または最新の service pack を実行しているか (Intel ベース) オペレーティング システム (Mac OS 10.9 オペレーティング システムは現在サポートされていません) を解放するコンピューターで次のレガシ クライアントもサポートします。</span><span class="sxs-lookup"><span data-stu-id="37983-113">Skype for Business Server 2015 also supports the following legacy clients on computers that are running Mac OS 10.5.8 or latest service pack or release (Intel-based) operating systems (Mac OS 10.9 operating system is not currently supported).</span></span> <span data-ttu-id="37983-114">詳細については、サポートされている機能は、[ビジネスの Skype のデスクトップ クライアントの機能の比較](desktop-feature-comparison.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="37983-114">For details about supported features, see [Desktop client feature comparison for Skype for Business](desktop-feature-comparison.md).</span></span>
+<span data-ttu-id="62a37-113">ビジネス サーバー 2015 の Skype では、Mac OS 10.5.8 または最新の service pack を実行しているか (Intel ベース) オペレーティング システム (Mac OS 10.9 オペレーティング システムは現在サポートされていません) を解放するコンピューターで次のレガシ クライアントもサポートします。</span><span class="sxs-lookup"><span data-stu-id="62a37-113">Skype for Business Server 2015 also supports the following legacy clients on computers that are running Mac OS 10.5.8 or latest service pack or release (Intel-based) operating systems (Mac OS 10.9 operating system is not currently supported).</span></span> <span data-ttu-id="62a37-114">詳細については、サポートされている機能は、[ビジネスの Skype のデスクトップ クライアントの機能の比較](desktop-feature-comparison.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="62a37-114">For details about supported features, see [Desktop client feature comparison for Skype for Business](desktop-feature-comparison.md).</span></span>
   
-- <span data-ttu-id="37983-115">マイクロソフトの Lync for Mac 2011 の ( [Lync](https://go.microsoft.com/fwlink/p/?LinkId=268786)を参照してください)</span><span class="sxs-lookup"><span data-stu-id="37983-115">Microsoft Lync for Mac 2011 (see [Lync for Mac 2011 Deployment Guide](https://go.microsoft.com/fwlink/p/?LinkId=268786))</span></span>
+- <span data-ttu-id="62a37-115">マイクロソフトの Lync for Mac 2011 の ( [Lync](https://go.microsoft.com/fwlink/p/?LinkId=268786)を参照してください)</span><span class="sxs-lookup"><span data-stu-id="62a37-115">Microsoft Lync for Mac 2011 (see [Lync for Mac 2011 Deployment Guide](https://go.microsoft.com/fwlink/p/?LinkId=268786))</span></span>
     
-- <span data-ttu-id="37983-116">マイクロソフトの Communicator for Mac 2011 ( [Communicator for Mac 2011 の 『 導入ガイド 』](https://go.microsoft.com/fwlink/p/?LinkId=268787)を参照してください)</span><span class="sxs-lookup"><span data-stu-id="37983-116">Microsoft Communicator for Mac 2011 (see [Communicator for Mac 2011 Deployment Guide](https://go.microsoft.com/fwlink/p/?LinkId=268787))</span></span>
+- <span data-ttu-id="62a37-116">マイクロソフトの Communicator for Mac 2011 ( [Communicator for Mac 2011 の 『 導入ガイド 』](https://go.microsoft.com/fwlink/p/?LinkId=268787)を参照してください)</span><span class="sxs-lookup"><span data-stu-id="62a37-116">Microsoft Communicator for Mac 2011 (see [Communicator for Mac 2011 Deployment Guide](https://go.microsoft.com/fwlink/p/?LinkId=268787))</span></span>
  
-<span data-ttu-id="37983-117">ビジネス サーバー 2019 の Skype によって、これらのクライアントがサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="37983-117">These clients are not supported by Skype for Business Server 2019.</span></span>
+<span data-ttu-id="62a37-117">ビジネス サーバー 2019 の Skype によって、これらのクライアントがサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="62a37-117">These clients are not supported by Skype for Business Server 2019.</span></span>
    
-## <a name="infrastructure-requirements-for-skype-for-business-on-the-mac"></a><span data-ttu-id="37983-118">Mac 上の Skype for Business インフラストラクチャー要件</span><span class="sxs-lookup"><span data-stu-id="37983-118">Infrastructure requirements for Skype for Business on the Mac</span></span>
-<span data-ttu-id="37983-119"><a name="Infrastructure"> </a></span><span class="sxs-lookup"><span data-stu-id="37983-119"></span></span>
+## <a name="infrastructure-requirements-for-skype-for-business-on-the-mac"></a><span data-ttu-id="62a37-118">Mac 上の Skype for Business インフラストラクチャー要件</span><span class="sxs-lookup"><span data-stu-id="62a37-118">Infrastructure requirements for Skype for Business on the Mac</span></span>
+<span data-ttu-id="62a37-119"><a name="Infrastructure"> </a></span><span class="sxs-lookup"><span data-stu-id="62a37-119"></span></span>
 
-<span data-ttu-id="37983-120">Mac クライアントのビジネス用の Skype は、ユニファイド コミュニケーション Web API (UCWA)、モビリティ クライアントを使用するだけでなく、ユニファイド コミュニケーション管理プラットフォーム (UCMP) を活用します。</span><span class="sxs-lookup"><span data-stu-id="37983-120">The Skype for Business on the Mac client leverages both the Unified Communications Management Platform (UCMP) as well as the Unified Communications Web API (UCWA) that our mobility clients use.</span></span>
+<span data-ttu-id="62a37-120">Mac クライアントのビジネス用の Skype は、ユニファイド コミュニケーション Web API (UCWA)、モビリティ クライアントを使用するだけでなく、ユニファイド コミュニケーション管理プラットフォーム (UCMP) を活用します。</span><span class="sxs-lookup"><span data-stu-id="62a37-120">The Skype for Business on the Mac client leverages both the Unified Communications Management Platform (UCMP) as well as the Unified Communications Web API (UCWA) that our mobility clients use.</span></span>
   
-<span data-ttu-id="37983-121">クライアントでは、アクセス エッジ サーバーがある必要があり、リバース プロキシがサポートされている構成に展開する、モバイル クライアントと同様の要件があります。</span><span class="sxs-lookup"><span data-stu-id="37983-121">The client has the same requirements as our mobility clients in that you must have an Access Edge Server and Reverse Proxy deployed in a supported configuration.</span></span> 
+<span data-ttu-id="62a37-121">クライアントでは、アクセス エッジ サーバーがある必要があり、リバース プロキシがサポートされている構成に展開する、モバイル クライアントと同様の要件があります。</span><span class="sxs-lookup"><span data-stu-id="62a37-121">The client has the same requirements as our mobility clients in that you must have an Access Edge Server and Reverse Proxy deployed in a supported configuration.</span></span> 
   
-### <a name="authentication"></a><span data-ttu-id="37983-122">認証</span><span class="sxs-lookup"><span data-stu-id="37983-122">Authentication</span></span>
+### <a name="authentication"></a><span data-ttu-id="62a37-122">認証</span><span class="sxs-lookup"><span data-stu-id="62a37-122">Authentication</span></span>
 
-<span data-ttu-id="37983-123">Mac クライアントのビジネスの Skype では、証明書ベースの認証、マイクロソフト現代認証、および展開し、有効にしたとき、多元的な認証をサポートします。</span><span class="sxs-lookup"><span data-stu-id="37983-123">The Skype for Business on the Mac client supports Cert-based authentication, Microsoft Modern Authentication, and Multi-Factor Authentication when deployed and enabled.</span></span>
+<span data-ttu-id="62a37-123">Mac クライアントのビジネスの Skype では、証明書ベースの認証、マイクロソフト現代認証、および展開し、有効にしたとき、多元的な認証をサポートします。</span><span class="sxs-lookup"><span data-stu-id="62a37-123">The Skype for Business on the Mac client supports Cert-based authentication, Microsoft Modern Authentication, and Multi-Factor Authentication when deployed and enabled.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="37983-124">現在の制限のためは、ユーザーの Exchange の資格情報はビジネスの資格情報は、Skype と同じである必要があります。</span><span class="sxs-lookup"><span data-stu-id="37983-124">Due to a current limitation, the user's Exchange credentials must be the same as their Skype for Business credentials.</span></span> 
+> <span data-ttu-id="62a37-124">現在の制限のためは、ユーザーの Exchange の資格情報はビジネスの資格情報は、Skype と同じである必要があります。</span><span class="sxs-lookup"><span data-stu-id="62a37-124">Due to a current limitation, the user's Exchange credentials must be the same as their Skype for Business credentials.</span></span> 
   
-### <a name="certificates"></a><span data-ttu-id="37983-125">証明書</span><span class="sxs-lookup"><span data-stu-id="37983-125">Certificates</span></span>
+### <a name="certificates"></a><span data-ttu-id="62a37-125">証明書</span><span class="sxs-lookup"><span data-stu-id="62a37-125">Certificates</span></span>
 
-<span data-ttu-id="37983-126">アクセス エッジ サーバー、リバース プロキシ サーバー、およびフロント エンド サーバーで使用している証明書では、SHA-512 ハッシュ アルゴリズムは使用しないでください。</span><span class="sxs-lookup"><span data-stu-id="37983-126">Certificates in use on the Access Edge, Reverse Proxy and Front End servers must not use the SHA-512 hash algorithm.</span></span>
+<span data-ttu-id="62a37-126">アクセス エッジ サーバー、リバース プロキシ サーバー、およびフロント エンド サーバーで使用している証明書では、SHA-512 ハッシュ アルゴリズムは使用しないでください。</span><span class="sxs-lookup"><span data-stu-id="62a37-126">Certificates in use on the Access Edge, Reverse Proxy and Front End servers must not use the SHA-512 hash algorithm.</span></span>
   
-<span data-ttu-id="37983-127">HTTP 証明書失効リストが定義済みで、クライアントがアクセスできる必要があります。</span><span class="sxs-lookup"><span data-stu-id="37983-127">The HTTP Certificate Revocation List must be defined and accessible by the client.</span></span> <span data-ttu-id="37983-128">などをサポートしていません LDAP エントリの証明書、証明書失効リストとして。</span><span class="sxs-lookup"><span data-stu-id="37983-128">For example, we don't support an LDAP entry in the certificate as your Certificate Revocation List.</span></span>
+<span data-ttu-id="62a37-127">HTTP 証明書失効リストが定義済みで、クライアントがアクセスできる必要があります。</span><span class="sxs-lookup"><span data-stu-id="62a37-127">The HTTP Certificate Revocation List must be defined and accessible by the client.</span></span> <span data-ttu-id="62a37-128">などをサポートしていません LDAP エントリの証明書、証明書失効リストとして。</span><span class="sxs-lookup"><span data-stu-id="62a37-128">For example, we don't support an LDAP entry in the certificate as your Certificate Revocation List.</span></span>
   
-### <a name="dns"></a><span data-ttu-id="37983-129">DNS</span><span class="sxs-lookup"><span data-stu-id="37983-129">DNS</span></span>
+### <a name="dns"></a><span data-ttu-id="62a37-129">DNS</span><span class="sxs-lookup"><span data-stu-id="62a37-129">DNS</span></span>
 
-<span data-ttu-id="37983-130">モビリティは、適切に動作する Mac クライアントのビジネスの Skype の正しく展開する必要があります。</span><span class="sxs-lookup"><span data-stu-id="37983-130">Mobility must be properly deployed for the Skype for Business on the Mac client to function properly.</span></span> <span data-ttu-id="37983-131">失敗する場合の一般的なシナリオは、インターネット ネットワークに次の両方の解決可能な DNS エントリがある場合です。</span><span class="sxs-lookup"><span data-stu-id="37983-131">A common failure scenario is to have both of the following DNS entries resolvable on the internal network:</span></span>
+<span data-ttu-id="62a37-130">モビリティは、適切に動作する Mac クライアントのビジネスの Skype の正しく展開する必要があります。</span><span class="sxs-lookup"><span data-stu-id="62a37-130">Mobility must be properly deployed for the Skype for Business on the Mac client to function properly.</span></span> <span data-ttu-id="62a37-131">失敗する場合の一般的なシナリオは、インターネット ネットワークに次の両方の解決可能な DNS エントリがある場合です。</span><span class="sxs-lookup"><span data-stu-id="62a37-131">A common failure scenario is to have both of the following DNS entries resolvable on the internal network:</span></span>
   
-- <span data-ttu-id="37983-132">lyncdiscoverinternal。\<sipdomain\></span><span class="sxs-lookup"><span data-stu-id="37983-132">lyncdiscoverinternal.\<sipdomain\></span></span>
+- <span data-ttu-id="62a37-132">lyncdiscoverinternal。\<sipdomain\></span><span class="sxs-lookup"><span data-stu-id="62a37-132">lyncdiscoverinternal.\<sipdomain\></span></span>
     
-- <span data-ttu-id="37983-133">lyncdiscover。\<sipdomain\></span><span class="sxs-lookup"><span data-stu-id="37983-133">lyncdiscover.\<sipdomain\></span></span>
+- <span data-ttu-id="62a37-133">lyncdiscover。\<sipdomain\></span><span class="sxs-lookup"><span data-stu-id="62a37-133">lyncdiscover.\<sipdomain\></span></span>
     
-<span data-ttu-id="37983-134">詳細についてを参照してください: [Lync Server 2013 でのモビリティの展開](https://go.microsoft.com/fwlink/p/?LinkId=798224)、および[Microsoft Lync Server 2010 モビリティのガイド](https://go.microsoft.com/fwlink//p/?LinkId=798226)です。</span><span class="sxs-lookup"><span data-stu-id="37983-134">For more information, refer to: [Deploying Mobility in Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=798224), and the [Microsoft Lync Server 2010 Mobility Guide](https://go.microsoft.com/fwlink//p/?LinkId=798226).</span></span>
+<span data-ttu-id="62a37-134">詳細についてを参照してください: [Lync Server 2013 でのモビリティの展開](https://go.microsoft.com/fwlink/p/?LinkId=798224)、および[Microsoft Lync Server 2010 モビリティのガイド](https://go.microsoft.com/fwlink//p/?LinkId=798226)です。</span><span class="sxs-lookup"><span data-stu-id="62a37-134">For more information, refer to: [Deploying Mobility in Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=798224), and the [Microsoft Lync Server 2010 Mobility Guide](https://go.microsoft.com/fwlink//p/?LinkId=798226).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="37983-135">この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。</span><span class="sxs-lookup"><span data-stu-id="37983-135">See also</span></span>
-<span data-ttu-id="37983-136"><a name="Infrastructure"> </a></span><span class="sxs-lookup"><span data-stu-id="37983-136"></span></span>
+## <a name="see-also"></a><span data-ttu-id="62a37-135">この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。</span><span class="sxs-lookup"><span data-stu-id="62a37-135">See also</span></span>
+<span data-ttu-id="62a37-136"><a name="Infrastructure"> </a></span><span class="sxs-lookup"><span data-stu-id="62a37-136"></span></span>
 
-[<span data-ttu-id="37983-137">Skype のビジネス サーバー用の DNS の要件</span><span class="sxs-lookup"><span data-stu-id="37983-137">DNS requirements for Skype for Business Server</span></span>](../../plan-your-deployment/network-requirements/dns.md)
+[<span data-ttu-id="62a37-137">Skype のビジネス サーバー用の DNS の要件</span><span class="sxs-lookup"><span data-stu-id="62a37-137">DNS requirements for Skype for Business Server</span></span>](../../plan-your-deployment/network-requirements/dns.md)
 
-[<span data-ttu-id="37983-138">よく寄せられる質問</span><span class="sxs-lookup"><span data-stu-id="37983-138">Frequently Asked Questions</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=798227)
+[<span data-ttu-id="62a37-138">よく寄せられる質問</span><span class="sxs-lookup"><span data-stu-id="62a37-138">Frequently Asked Questions</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=798227)
   
-[<span data-ttu-id="37983-139">既知の問題</span><span class="sxs-lookup"><span data-stu-id="37983-139">Known issues </span></span>](https://go.microsoft.com/fwlink/p/?LinkId=798228)
+[<span data-ttu-id="62a37-139">既知の問題</span><span class="sxs-lookup"><span data-stu-id="62a37-139">Known issues </span></span>](https://go.microsoft.com/fwlink/p/?LinkId=798228)

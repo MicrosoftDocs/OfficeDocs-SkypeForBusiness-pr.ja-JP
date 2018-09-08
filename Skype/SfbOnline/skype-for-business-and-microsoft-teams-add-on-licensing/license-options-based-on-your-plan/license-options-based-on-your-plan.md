@@ -15,17 +15,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom: None
 description: ボイスメールの電話システムについて説明します。
-ms.openlocfilehash: 0cf6497dc109d63de6604f7ce6ed564b15558df2
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: 961b45de4049b7ab323f4e2cd8a6441711078113
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849931"
+ms.locfileid: "23881874"
 ---
-# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="a1ff5-103">プランに基づいたライセンスオプション</span><span class="sxs-lookup"><span data-stu-id="a1ff5-103">License options based on your plan</span></span>
+# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="0253d-103">プランに基づいたライセンスオプション</span><span class="sxs-lookup"><span data-stu-id="0253d-103">License options based on your plan</span></span>
 
 
