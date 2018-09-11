@@ -3,7 +3,7 @@ title: 制限とマイクロソフトのチームの仕様
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/17/2018
+ms.date: 09/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
@@ -13,12 +13,12 @@ MS.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34aec991af50ef3b06d43d705e97f6e9bba70714
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8712a40e61fbef9971637a2abdddb0fe401fca02
+ms.sourcegitcommit: 1f5786a82ad535652da22e755e9c1d3063e5425f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889818"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23935793"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>制限とマイクロソフトのチームの仕様
 =============================================
@@ -30,11 +30,13 @@ ms.locfileid: "23889818"
 
 |機能    | 最大数の制限 |
 |-----------|---------------|
-|ユーザーが作成できるチームの数 | 250         |
+|ユーザーが作成できるチームの数 | 250 オブジェクト制限 & sup1; の対象となります。         |
 |チームのメンバーの数 | 2,500       |
 |グローバル管理者が作成できるチームの数        | 無制限   |
 |チーム、Office 365 テナントの数を持つことができます。    | 500,000     |
 |1 チームあたりのチャンネル数    | 200         |
+
+& sup1;Azure Active Directory 内の任意のディレクトリ オブジェクトは、この制限の方向にカウントします。
 
 <a name="meetings-and-calls"></a>会議と呼び出し 
 ------------------

@@ -3,7 +3,7 @@ title: 管理チームは、マイクロソフトの商用クラウド試用版�
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 08/31/2018
+ms.date: 09/11/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -12,12 +12,12 @@ search.appverid: MET150
 localization_priority: Normal
 description: マイクロソフトのチームに許可されていない office 365 のユーザーは、チームの 1 年間の試用版を開始できます。
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 10977a95d5ff86d72964270a2c6daa7d9764448e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 7fba776f109b8785b72000af4981d64015f3054c
+ms.sourcegitcommit: 1f5786a82ad535652da22e755e9c1d3063e5425f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858822"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23935817"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理チームは、マイクロソフトの商用クラウド試用版の提供
 =======================================================
@@ -40,6 +40,8 @@ ms.locfileid: "23858822"
 - SharePoint Online Kiosk
 - 影響を与える
 - Yammer エンタープライズ
+
+提供は、最大 500,000 ユーザーがテナントごとに割り当てられます。 試用版のライセンスでは、各評価版のユーザーの SharePoint のオンライン ・ ストレージの 2 GB を割り当てられます。
 
 ## <a name="who-is-eligible"></a>ユーザーが対象となります。
 
