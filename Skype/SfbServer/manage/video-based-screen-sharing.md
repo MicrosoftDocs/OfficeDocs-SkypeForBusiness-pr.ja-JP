@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype 画面ビデオ ・ ベース (VbSS) を共有するためのビジネス サーバーの計画と構成について
-ms.openlocfilehash: 8f76fbe0879cc9abd452d8b1e0064627c215b20e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a658453af5f71d7bb8103411ed16c534e3004a03
+ms.sourcegitcommit: aa3258aeb5aa1296c4bb251a9d258b8896457b7b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968327"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23935476"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>ビデオ ベースの画面共有 Skype のビジネス サーバー 
  
@@ -120,7 +120,7 @@ VbSS の帯域幅:
 - ASMCU が VbSS をサポートできる最低限のビルドに満たない環境でアカウントがホストされている。
 - ビジネス クライアントで、Skype の古いバージョンを使用している他のユーザーのセッションに参加する場合などのすべてのユーザーを使用して 16.0.6330.1000、ビジネス ルーム システム デバイスでは、Skype または Skype のビジネス ・ モバイル ・ アプリケーションよりも下位にある任意の Windows クライアント バージョンです。 
 - 場合は、Skype からは、ビジネスの Web アプリケーションのユーザーを共有しています。
-- Businesson Mac の Skype を使用している他のユーザーが置かれて Skype のオンライン ビジネスの場合です。
+- Mac でのビジネスの Skype を使用している他のユーザーが置かれて Skype のオンライン ビジネスの場合です。
 - 場合は他のユーザーは、任意のプログラムまたは Windows の共有を開始します。
 - 場合は他のユーザーは、セッションの記録を開始します。
 - セッション中に誰かがリモート画面コントロールを起動した場合。
