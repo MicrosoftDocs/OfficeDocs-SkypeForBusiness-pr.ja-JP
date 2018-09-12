@@ -5,9 +5,10 @@
 ### [リリース ノート](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
 ### [環境を準備します。](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
 ### [要件](../plan-your-deployment/clients-and-devices/requirements.md)
+### [オンライン ライセンス](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
 ### [OMS を使用して管理を計画します。](../plan-your-deployment/clients-and-devices/oms-management.md)
-## 展開
-### [配置の概要](../deploy/deploy-clients/room-systems-v2.md)
+## の展開
+### [展開の概要](../deploy/deploy-clients/room-systems-v2.md)
 ### [アカウントを構成します。](../deploy/deploy-clients/room-systems-v2-configure-accounts.md)
 ### [Office 365 を使用](../deploy/deploy-clients/with-office-365.md)
 ### [ビジネス サーバー 2015 の Skype で](../deploy/deploy-clients/with-skype-for-business-server-2015.md)
@@ -25,15 +26,15 @@
 ### [回復ツールを使用します。](../manage/skype-room-systems-v2/recovery-tool.md)
 # Skype ルーム システム (v1)
 ## 計画
-### [ビジネス サーバーの Skype の Skype の部屋のシステムを導入します。](../deploy/deploy-clients/deploy-skype-room-system.md)
-## 展開
-### [Skype ルーム システムを交換し、Skype アカウントのプロビジョニング](../deploy/deploy-clients/skype-room-system-exchange-and-skype-accounts.md)
+### [Skype for Business Server での Skype Room System の展開](../deploy/deploy-clients/deploy-skype-room-system.md)
+## の展開
+### [Skype Room System Exchange および Skype アカウントのプロビジョニング](../deploy/deploy-clients/skype-room-system-exchange-and-skype-accounts.md)
 #### [Skype ルーム システムの単一フォレストの展開と設置型](../deploy/deploy-clients/single-forest-on-premises-deployments.md)
 #### [Skype ルーム システム複数のフォレストに設置型の展開](../deploy/deploy-clients/multiple-forest-on-premises-deployments.md)
-#### [Office 365 で Skype ルームのシステム アカウントのプロビジョニング](../deploy/deploy-clients/provisioning-skype-room-system-accounts-in-office-365.md)
+#### [Skype Room System アカウントの Office 365 でのプロビジョニング](../deploy/deploy-clients/provisioning-skype-room-system-accounts-in-office-365.md)
 #### [Skype ルーム システムのハイブリッド展開](../deploy/deploy-clients/hybrid-deployments.md)
-#### [Skype ルームのシステムとビジネスの Skype のフェデレーション パートナー](../deploy/deploy-clients/room-system-and-federated-partners.md)
-### [Skype ルームのシステム アカウントの会議ポリシー](../deploy/deploy-clients/conferencing-policy.md)
+#### [Skype Room System および Skype for Business のフェデレーション パートナー](../deploy/deploy-clients/room-system-and-federated-partners.md)
+### [Skype Room System アカウント用の電話会議ポリシー](../deploy/deploy-clients/conferencing-policy.md)
 ### [Skype ルーム システムの信頼されたドメイン](../deploy/deploy-clients/trusted-domains.md)
 ### [Skype ルーム システムの移行に関する考慮事項](../deploy/deploy-clients/migration-considerations.md)
 ### [Skype ルーム システムのドメインに関する考慮事項への参加](../deploy/deploy-clients/domain-joining-considerations.md)
@@ -41,4 +42,4 @@
 ### [Skype ルームのシステム管理の容易性とツール](../deploy/deploy-clients/manageability-and-tools.md)
 ### [Skype ルーム システム ルームのセットアップ スクリプト](../deploy/deploy-clients/room-setup-scripts.md)
 ## 管理
-### [Skype ルーム システムのアカウントを管理します。](../deploy/deploy-clients/manage-skype-room-system-accounts.md)
+### [Skype Room System アカウントを管理する](../deploy/deploy-clients/manage-skype-room-system-accounts.md)
