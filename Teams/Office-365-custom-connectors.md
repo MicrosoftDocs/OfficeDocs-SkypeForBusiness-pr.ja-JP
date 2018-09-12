@@ -11,12 +11,12 @@ search.appverid: MET150
 description: コネクタは、頻繁に使用するサービスからのコンテンツや更新をチャネルに直接配信して、チームを最新の状態に保ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5bb29766d17ea51fdac1e898fdfa6fde72526314
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 7b5a0af4327169c6ba8b640e48184591002c94ea
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867598"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937877"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Microsoft Teams で Office 365 コネクタとカスタム コネクタを使用する
 =======================================================
@@ -25,7 +25,7 @@ ms.locfileid: "23867598"
 
 チームのメンバーは、チームのアクセス許可、およびサービス活動のすべてのチーム メンバーに通知する場合、コネクタを使用した一般的なクラウド サービスをチームを接続できます。 コネクタは、コネクタのままには、セットアップでは最初に、メンバーの後でも機能を引き続きします。 追加と削除] アクセス許可を持つすべてのチーム メンバーには、他のメンバーがコネクタの設定を変更できます。
 
-Office 365 コネクタは、Microsoft Teams と Office 365 グループの両方で使用できます。そのため、すべてのメンバーが同期された状態を容易に保つことができ、関連情報をすばやく受信できます。Microsoft Teams と Exchange は同じコネクタ モデルを使用するため、両方のプラットフォームで同一のコネクタを使用できます。
+Office 365 のコネクタは、両方のマイクロソフトのチームで使用できると Office 365 のグループ、すべてのメンバーを容易にすることの同期を維持し、関連情報を迅速に表示されます。 マイクロソフトのチームと Exchange の両方は、同一のコネクタのモデルは、両方のプラットフォーム内で同じコネクタを使用して、使用します。 チームが依存している Office 365 のグループのコネクタを無効にすると、チームも同様のコネクタを作成する機能が無効ことただし、注目に値します。
 
 現時点では、コネクタは Microsoft Teams デスクトップと Web クライアントでのみ追加できます。ただし、コネクタによって投稿された情報はモバイルを含む**すべてのクライアント**で表示できます。
 

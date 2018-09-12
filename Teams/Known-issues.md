@@ -11,12 +11,12 @@ search.appverid: MET150
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa72e0b417b324bbd66f80ae399bc15ddde779a2
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 4085a0da14c1b3ee298247acd28f5a7bccf2ee53
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850252"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937891"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -51,7 +51,7 @@ ms.locfileid: "23850252"
 ## <a name="authentication"></a>認証
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|Internet Explorer または Edge から Teams に参加しようとすると、プログラムが一貫してループし続けるかクラッシュしてしまい、サイン インを実行しない。   <br/> | 所属する組織で Internet Explorer の [信頼済みサイト] を有効にしていて、その信頼済みサイトが Teams で許可されていないために、Teams の web ベース アプリケーションが正常にログインを実行しません。 <br/>|管理者の権限またはグループ ポリシー オブジェクトで、IE の設定を次のように変更します。<br/><ol><li>[**インターネット オプション**] &gt; [**プライバシー**] &gt; [**詳細設定**] で、[ファースト パーティの Cookie] と [サード パーティの Cookie] を許可し、[**常にセッション Cookie を許可する**] のチェック ボックスを選択します。</li><li>[**インターネット オプション**] &gt; [**信頼済みサイト**] &gt; [**サイト**] をクリックして、次のすべてを追加します。<ul><li>https://\*.microsoft.com</li><li>https://\*.microsoftonline.com</li><li>https://\*.teams.skype.com</li><li>https://\*.teams.microsoft.com</li><li>https://\*.sfbassets.com</li><li>https://\*.skypeforbusiness.com</li></ul></li></ol><br/><b>注意</b>: 常に Teams の信頼済み URL のすべてと、「[Office 365 URL および IP アドレス範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)」に記載されているすべての要件を確認し、許可してください。   <br/> |2017/11/01  <br/> |
+|Internet Explorer または Edge から Teams に参加しようとすると、プログラムが一貫してループし続けるかクラッシュしてしまい、サイン インを実行しない。   <br/> | 所属する組織で Internet Explorer の [信頼済みサイト] を有効にしていて、その信頼済みサイトが Teams で許可されていないために、Teams の web ベース アプリケーションが正常にログインを実行しません。 <br/>|管理者の権限またはグループ ポリシー オブジェクトで、IE の設定を次のように変更します。<br/><ol><li>[**インターネット オプション**] &gt; [**プライバシー**] &gt; [**詳細設定**] で、[ファースト パーティの Cookie] と [サード パーティの Cookie] を許可し、[**常にセッション Cookie を許可する**] のチェック ボックスを選択します。</li><li>[**インターネット オプション**] &gt; [**信頼済みサイト**] &gt; [**サイト**] をクリックして、次のすべてを追加します。<ul><li>https://\login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>注意</b>: 常に Teams の信頼済み URL のすべてと、「[Office 365 URL および IP アドレス範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)」に記載されているすべての要件を確認し、許可してください。   <br/> |2017/11/01  <br/> |
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|

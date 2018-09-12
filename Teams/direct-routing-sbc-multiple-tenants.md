@@ -10,12 +10,12 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: ''
 description: 複数のテナントを処理する 1 つのセッション ボーダー コント ローラー (SBC) を構成する方法について説明します。
-ms.openlocfilehash: 3073800a6c200bcaeffafb557d6ea149dee598cd
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 66f529c5a64c56a25a826cac8e26b3e7219cd1de
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23866460"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937993"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントのセッション ボーダー コント ローラーを構成します。
 
@@ -52,7 +52,7 @@ ms.locfileid: "23866460"
 展開し、SBC ホスティング シナリオでは、半角を構成する方法の詳細な手順については、SBC の製造元のマニュアルを参照してください。
 
 - **は:**[直接ルーティングの構成に関する注意事項](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)」の接続は SBC マイクロソフト チーム直接ルーティングのホスティング モデル構成メモにします」で説明したシナリオをホストしている SBC の構成 
-- **通信のリボン:** シナリオをホストしている SBC、コア ・ シリーズのみがサポートされています。 [リボン通信 SBC コア Microsoft チーム構成ガイド 』](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)を参照してください。
+- **通信のリボン:** リボンの中核となる一連の SBCs を構成する方法に関するドキュメントは、[リボン通信 SBC コア Microsoft チーム構成ガイド](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)をこのページの[リボン最適なベスト ・ プラクティスの通信事業者を構成するマイクロソフト チームの直接のルーティングのためを参照してください。SBC エッジ](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 
 > [!NOTE]
 > 「連絡先」ヘッダーを構成する方法に注意してください。 Contact ヘッダーを使用して、招待の受信メッセージにお客様のテナントを検索します。 

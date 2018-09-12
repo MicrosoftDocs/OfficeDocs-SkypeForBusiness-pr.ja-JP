@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: この資料では、Skype ルーム システム v2 では、Skype ルーム システムの次世代を展開するため、関連する計画に関する考慮事項について説明します。
-ms.openlocfilehash: b62e062eebfd9a79cf49b98fe6f477a0288f71d1
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: f793753b6fad2c544a4ab845b5cd220792a9b8d1
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22601949"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937843"
 ---
 # <a name="plan-skype-room-systems-v2"></a>Skype ルームの計画システム v2 
 
@@ -50,7 +50,7 @@ Surface Pro/ドッキング ステーションの組み合わせだけでなく�
 
 通常、バンドル、統合された単位含まれてプレインストールされているソフトウェアは、Surface Pro のシステムを個別にサポートされているコンポーネントを購入する場合、ソフトウェアをインストールする必要があります。 手順については、[デバイス上のソフトウェアをインストールする方法には、この資料](../../deploy/deploy-clients/room-systems-scale.md)を参照してください。 
 
-ビジネス online では、Skype または Skype ビジネスのハイブリッドまたは設置型展開の場合、Skype ルーム システム v2 を展開できます。 間もなくに非常にマイクロソフトのチームのサポートをします。
+ビジネス online では、Skype または Skype ビジネスのハイブリッドまたは設置型展開の場合、Skype ルーム システム v2 を展開できます。  必要なライセンスについては、 [Skype ルーム システム v2 のライセンス](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)を参照してください。
 
 |    |     |
 |-----------|------------|

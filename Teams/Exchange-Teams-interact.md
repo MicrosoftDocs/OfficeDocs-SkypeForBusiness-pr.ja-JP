@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2655e96ceccbfdc0a915af370820a913471a3a4
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: f4c3f795df06735c735ac29b6f46c6c8d8e9d46c
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23891451"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937867"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携 
 =========================================
@@ -37,8 +37,8 @@ Exchange Online 専用 – レガシーまたは Exchange On-premises にホス�
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|はい|はい|はい|あり|はい|はい|はい|はい|はい|はい|はい|はい|はい|
 |**Exchange Online 専用 vNext**|はい|はい|あり|あり|あり|はい|はい|あり|はい|はい|はい|あり|はい|
-|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|([許可一覧](https://support.office.com/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c)) を [はい] します。|なし|なし|あり|なし|なし|あり|あり|なし|[はい] (Exchange 2013 +)|なし|あり|はい|
-|**Exchange On-premises** (Azure AD との同期が必要)|([許可一覧](https://support.office.com/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c)) を [はい] します。|なし|なし|あり|[はい] (Exchange 2016 CU3 +)|なし|あり|あり|なし|[はい] (Exchange 2013 +)|なし|なし|はい|
+|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|([許可一覧](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US)) を [はい] します。|なし|なし|あり|なし|なし|あり|あり|なし|なし|なし|あり|はい|
+|**Exchange On-premises** (Azure AD との同期が必要)|([許可一覧](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US)) を [はい] します。|なし|なし|あり|[はい] (Exchange 2016 CU3 +)|なし|あり|あり|なし|なし|なし|なし|はい|
                                                             
 *\*Exchange 2016 CU3 以降でサポートされます*
 

@@ -3,22 +3,22 @@ title: Microsoft Teams のセキュリティとコンプライアンスの概要
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/02/2018
+ms.date: 09/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
-description: 監査および報告、コンプライアンスのコンテンツ検索、電子情報開示などを含む、Microsoft Teams のセキュリティとコンプライアンス機能の概要
+description: 監査しレポート作成、コンプライアンス ・ コンテンツの検索、電子的証拠開示などを含む、マイクロソフトのチームのセキュリティとコンプライアンスの機能の概要について説明します。
 localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a2cf9a0b34be89b493b75473fb89efee6943977
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: fc686b520c9bd765539ff5fd9f636bc876583a41
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887041"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937899"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンスの概要
 ======================================================
@@ -224,14 +224,16 @@ Exchange Online のメールボックスのグループとユーザーのメー�
 <a name="location-of-data-in-teams"></a>Teams のデータの場所
 -------------------------
 
-Teams のデータはご利用の Office 365 テナントに関連付けられている地理的領域内に存在します。 現在、Teams は南北アメリカ、EMEA、および APAC 地域をサポートしています。 
+Teams のデータはご利用の Office 365 テナントに関連付けられている地理的領域内に存在します。 現時点では、チームでは、オーストラリア、カナダ、インド、日本、英国、南北アメリカ、APAC、および EMEA 地域をサポートしています。 
 
 > [!IMPORTANT]
-> チーム現在提供していますデータ常駐英国、カナダ、およびインドで新しいテナントのみにします。 新しいテナントは、Teams に 1 人のユーザーもサインインさせていない任意のテナントとして定義されます。 (CY2019 では予測) の移行計画を発表するまで、EMEA、南北アメリカ、APAC 地域のままに、英国、カナダ、およびインドからの既存のテナントが続行されます。
+> チーム現在提供していますデータ常駐オーストラリア、カナダ、インド、日本、および英国で新しいテナントのみにします。 新しいテナントは、Teams に 1 人のユーザーもサインインさせていない任意のテナントとして定義されます。 APAC 地域に格納されている、チームのデータが存在するオーストラリア、インド、日本からの既存のテナントが続行されます。 カナダ、英国内の既存のテナントは、南北アメリカに格納されているデータには、EMEA 地域では、それぞれ。
 
-インドおよび英国での Teams によるデータ常駐の開始の詳細については、Ansuman Acharya のブログの投稿記事「[Microsoft Teams launches India Data Residency, other geos coming soon (Microsoft Teams でのデータ常駐がインドで開始、その他の地域でも近日中に開始)](https://go.microsoft.com/fwlink/?linkid=867773)」をお読みください。 
+インドおよび英国での Teams によるデータ常駐の開始の詳細については、Ansuman Acharya のブログの投稿記事「[Microsoft Teams launches India Data Residency, other geos coming soon (Microsoft Teams でのデータ常駐がインドで開始、その他の地域でも近日中に開始)](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827)」をお読みください。 
 
-チームのカナダのデータの常駐サービスの詳細については、[マイクロソフトのチーム カナダ データ常駐の起動、オーストラリアおよび日本の準備中](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178)を参照してください。 
+チームのカナダのデータの常駐サービスの詳細については、[マイクロソフト チーム カナダ データ常駐の起動、オーストラリアおよび日本の準備中](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178)に、Varun Sagar のブログ投稿を参照してください。 
+
+チームのオーストラリアと日本のデータ常駐サービスの起動に関する詳細については、[マイクロソフト チームの起動のオーストラリアと日本のデータの常駐](https://go.microsoft.com/fwlink/?linkid=867773)Varun Sagar のブログ記事を参照してください。 
 
 どの地域でご利用のテナントのデータが格納されるかを確認するには、[[Office 365 管理センター](https://portal.office.com/adminportal/home)]  >  [**設定**]  >  [**組織概要**] に移動してください。 下にスクロールして [**データの場所**] に移動します。 
 
@@ -240,9 +242,9 @@ Teams のデータはご利用の Office 365 テナントに関連付けられ�
 <a name="how-do-conditional-access-policies-work-for-teams"></a>チームの条件付きのアクセス ポリシーの動作方法
 -------------------------
 
-マイクロソフト チームに大きく依存して Exchange Online、SharePoint Online および Skype 会議、予定表のように、中核となる生産性の向上のためにオンライン ビジネスの相互運用機能のチャットし、ファイルの共有です。 これらのクラウド アプリケーションに設定されている条件付きのアクセス ポリシーは、マイクロソフトのチーム - すべてのクライアント上に直接、マイクロソフトのチームに署名するときに適用されます。 
+マイクロソフトのチームに大きく依存して SharePoint Online では、Exchange Online と Skype オンライン ビジネスの会議、予定表、相互運用機能のチャット、ファイル共有と同様に、中核となる生産性の向上をします。 これらのクラウド アプリケーションに設定されている条件付きのアクセス ポリシーは、ユーザー直接サインインしているマイクロソフトのチームのすべてのクライアントの場合、マイクロソフトのチームに適用されます。 
 
-マイクロソフト チームは Azure Active Directory のアクセスの条件付きポリシーでクラウド アプリケーションとして個別にサポートします。 マイクロソフト チームのクラウド アプリケーションに設定されている条件付きのアクセス ポリシーは、ユーザーがサインインするときに、マイクロソフトのチームに適用されます。 ただし、Exchange オンラインや SharePoint Online のような他のアプリケーションに適切なポリシーのないユーザーがありますこれらのリソースに直接アクセスすることです。 Azure ポータル内の条件付きのアクセス ポリシーの設定に関する詳細については、ダウンロードはこちら: (https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
+マイクロソフト チームは Azure Active Directory のアクセスの条件付きポリシーでクラウド アプリケーションとして個別にサポートします。 マイクロソフト チームのクラウド アプリケーションに設定されている条件付きのアクセス ポリシーは、ユーザーがサインインするときに、マイクロソフトのチームに適用されます。 ただし、Exchange Online や SharePoint Online のような他のアプリケーションに適切なポリシー、ユーザー可能性がありますもがなければこれらのリソースに直接アクセスすること。 Azure ポータル内の条件付きのアクセス ポリシーの設定に関する詳細についてを参照して: (https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
 
 Windows と Mac のデスクトップ クライアントをマイクロソフトのチームでは、最新の認証をサポートします。 現代の認証は、サインインのベースに、Azure Active ディレクトリ認証ライブラリ (ADAL) を Microsoft Office クライアント アプリケーションのプラットフォーム間で表示されます。
 

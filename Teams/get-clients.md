@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bbadb9324942cdb354570673a0fd923c9e04bdbd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 134d6d310762bc43d578085fd3f1031112307ee9
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891330"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937884"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 ===========================
@@ -48,11 +48,15 @@ Windows のマイクロソフトのチームのインストールには、32 ビ
 > [!NOTE]
 > マイクロソフト チームのアーキテクチャ (32 ビットと 64 ビット) は、Windows とインストールされている Office のアーキテクチャに依存しません。
 
-Windows クライアントは、ユーザーのプロファイルにある AppData フォルダーに展開されます。ユーザーのローカル プロファイルに展開すると、クライアントは管理者特権を必要とせずにインストール可能になります。Windows クライアントは次の場所にインストールされます。
+Windows クライアントは、ユーザーのプロファイル内にある AppData フォルダーに配置されます。 ユーザーのローカル プロファイルを展開すると、昇格された権限を必要とせずにインストールされるようにクライアントが使用できます。 Windows クライアントは、次の場所を活用します。
 
-- %appdata%\\local\\Microsoft\\Teams
+- %Localappdata%\\Microsoft\\チーム
 
-- %appdata%\\roaming\\Microsoft\\Teams
+- %Localappdata%\\Microsoft\\TeamsMeetingsAddin
+
+- %Appdata%\\Microsoft\\チーム
+
+- %Localappdata\\SquirrelTemp
 
 ユーザーは、最初にマイクロソフトのチームのクライアントを使用して呼び出しを開始するとき、Windows ファイアウォールの設定で通信を許可するユーザーの入力を求める警告がわかります。 呼び出し機能しますが、警告を終了したときにもあるために、このメッセージを無視するようにユーザーを指示することがあります。
 
