@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: この表で、米国 (およびプエルトリコ) での Skype for Business Online および Microsoft Teams の電話番号の取得と管理についての情報を確認できます。
-ms.openlocfilehash: a6764bcce4268c03f47cb1b12c37e078b37360b5
-ms.sourcegitcommit: b3304459b4ac19d0782982d8e975202decfac4d5
+ms.openlocfilehash: 227d0fe10b5a59b23a08399f34e08ced4e897675
+ms.sourcegitcommit: d500337cb2c96c1cbcc3200638b941a189a05158
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/12/2018
-ms.locfileid: "23949242"
+ms.locfileid: "23951563"
 ---
 # <a name="phone-number-management-for-the-us"></a>米国での電話番号の管理
 
@@ -38,8 +38,8 @@ ms.locfileid: "23949242"
 |:-----|:-----|
 |ビジネス管理センターは、Skype で記載されていない新規のユーザーの電話番号を取得します。  <br/> |「[英国での新しい電話番号の申請 (ユーザー番号) (v.3.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-u.s.-(user-numbers)-(v.3.0)-(en-us).pdf?raw=true)」をダウンロードして記入し、[マイクロソフトに送信します](mailto:gcstnmsd@microsoft.com)。  <br/> |
 |Skype のビジネス管理センターに登録されていない新しいサービスの電話番号を取得します。 <br/> |アメリカ合衆国内のサービス数、[このフォームをダウンロード](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-numbers-inside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf?raw=true)してください、設定、また、[弊社に送信](mailto:ptn@microsoft.com)します。
-|電話番号をマイクロソフトに移行させる必要があります。  <br/> | 次のフォームのいずれかをダウンロードします。 <br/> [米国 (ユーザー番号およびサービス番号) 用の承認状 (LOA) (v.3.1)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.1)-(en-us).pdf?raw=true)<br/><br/>
-            [米国 (無料の電話番号) 用の承認状 (LOA) (v.3.2) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.2)-(en-us).pdf?raw=true)<br/><br/>**注:** 999 を超えるサブスクライバーまたはユーザーの電話番号を取得しようとする場合は、承認状 (LOA) を記入して送信する必要があります。 詳細については、「[Office 365 に電話番号を移行する](../transfer-phone-numbers-to-office-365.md)」をご覧ください。          <br/>  <br/>   記入し、[マイクロソフトに送信します](mailto:ptn@microsoft.com)。  <br/> |
+|電話番号をマイクロソフトに移行させる必要があります。  <br/> | 次のフォームのいずれかをダウンロードします。 <br/> [米国 (ユーザー番号およびサービス番号) 用の承認状 (LOA) (v.3.1)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.1)-(en-us).pdf?raw=true)<br/>
+            [米国 (無料の電話番号) 用の承認状 (LOA) (v.3.2) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/Letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.2)-(en-us).pdf?raw=true)<br/><br/>**注:** 999 を超えるサブスクライバーまたはユーザーの電話番号を取得しようとする場合は、承認状 (LOA) を記入して送信する必要があります。 詳細については、「[Office 365 に電話番号を移行する](../transfer-phone-numbers-to-office-365.md)」をご覧ください。          <br/>  <br/>   記入し、[マイクロソフトに送信します](mailto:ptn@microsoft.com)。  <br/> |
 |ユーザーの番号をサービス番号に変更することができます。  <br/> |サービス番号に変換するユーザー番号のリストと PIN を[マイクロソフトに送信](mailto:ptn@microsoft.com)します。 PIN をセットアップする方法については、[こちら](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)をご覧ください。  <br/> |
 |番号を、ある Office 365 組織から別の組織に移行する必要があります。  <br/> |移行するユーザー (サブスクライバー) の電話番号のリストを、番号の転送元の組織の PIN とともに、[マイクロソフトに送信](mailto:ptn@microsoft.com)します。 PIN をセットアップする方法については、[こちら](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)をご覧ください。  <br/> |
    
