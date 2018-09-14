@@ -1,7 +1,8 @@
 ---
 title: 既知の問題
 ms.author: jambirk
-author: davgroom
+author: jambirk
+ms.reviewer: davgroom
 manager: serdars
 ms.date: 4/17/2018
 ms.audience: ITPro
@@ -9,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: この資料では、機能分野別の Skype ルーム システム v2 の既知の問題について説明します。
-ms.openlocfilehash: 2880cdfd2098a0c6ac63e5aab8157e76381943f6
-ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
+ms.openlocfilehash: 9512403d22d77505c6e2fe4f5160d40537927133
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20412312"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965899"
 ---
 # <a name="known-issues"></a>既知の問題 
  

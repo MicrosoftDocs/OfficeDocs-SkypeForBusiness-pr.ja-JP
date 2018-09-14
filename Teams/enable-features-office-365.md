@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86fa8178b52c621c664afc49edd4f8d2c81c1fea
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0ff482ccd6486fcab836565033a0cf7e02517717
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882054"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965621"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Office 365 組織でマイクロソフトのチーム機能を管理します。
 

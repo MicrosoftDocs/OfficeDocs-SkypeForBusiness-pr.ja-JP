@@ -2,6 +2,7 @@
 title: VDI 環境における Skype for Business の計画
 ms.author: jambirk
 author: jambirk
+ms.reviewer: krishra
 manager: serdars
 ms.date: 1/9/2018
 ms.audience: ITPro
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: このトピックでは、リモート仮想デスクトップへの接続中に、ビジネスの Skype を使用するための計画に関する考慮事項について説明します。
-ms.openlocfilehash: 978a93f91ae985302d2b02d226dee4c1ddb476b7
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: e4e23ecfba1e7d789dccd5a6cea0e32733643ce4
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883874"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965692"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>VDI 環境における Skype for Business の計画
  

@@ -12,12 +12,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42ac2b70b0ab0ba014decbef423ee82c6d45ddb2
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 50e9bf67a920b36ade9eabf037bd4a0a551e7ad6
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849846"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965650"
 ---
 <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 ==================================
@@ -36,12 +36,12 @@ ms.locfileid: "23849846"
 | [チュートリアル: Teams での通話について理解する](tutorial-calling-in-teams.yml)  |  このトレーニングでは、Office 365 の電話システム機能によって提供される Teams の通話機能について紹介します。 電話システムを実装するために必要となる技術計画や、電話システムを構成する方法や、その実装での使用量と通話品質を監視する方法についての説明も含まれます。  |
 | [電話会議のビデオ](audio-conferencing-videos.md) |IT 管理者に Teams での電話会議を紹介するビデオ。  |
 | [チュートリアル: Teams での会議](tutorial-meetings-in-teams.yml) | このトレーニングでは、チームでミーティングを紹介します。 会議機能、および要件と計画に関する考慮事項について説明します。 |
-| Deploying and operating Teams (Teams の展開と運用)   | <iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
-| マイクロソフト チーム (プレビュー) のルーティングを指示します。   | <iframe width="350" height="200" src="https://www.youtube.com/embed/dVkc5Bs926Q" frameborder="0" allowfullscreen></iframe>   |
-| Deep dive into Guest Access (ゲスト アクセスの詳細) <br>Coffee in the Cloud session with Laith Al and Karuana Gatimu (Laith Al とKaruana Gatimu と Coffee in the Cloud セッション)  | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
-| e-Discovery in Microsoft Teams (Microsoft Teams における電子情報開示) <br> Coffee in the Cloud session with Ansuman Acharya and Karuana Gatimu (Ansuman Acharya と Karuana Gatimu との Coffee in the Cloud セッション)  | <iframe width="350" height="200" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
-| Teams: Step-by-step intro for using, enabling and managing the experience (Teams: エクスペリエンスの使用、有効化、管理の手順) <br> Microsoft Mechanics session with Dan Stevenson and Jeremy Chapman (Dan Stevenson と Jeremy Chapman との Microsoft Mechanics セッション) |  <iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |
-| Managing the App Experience in Microsoft Teams (Microsoft Teams でのアプリの機能と操作性を管理する) <br> Coffee in the Cloud session with Karuana Gatimu (Karuana Gatimu と Coffee in the Cloud セッション)  | <iframe width="350" height="200" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
+| Deploying and operating Teams (Teams の展開と運用)   | <iframe width="320" height="240" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
+| マイクロソフト チーム (プレビュー) のルーティングを指示します。   | <iframe width="320" height="240" src="https://www.youtube.com/embed/dVkc5Bs926Q" frameborder="0" allowfullscreen></iframe>   |
+| Deep dive into Guest Access (ゲスト アクセスの詳細) <br>Coffee in the Cloud session with Laith Al and Karuana Gatimu (Laith Al とKaruana Gatimu と Coffee in the Cloud セッション)  | <iframe width="320" height="240" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
+| e-Discovery in Microsoft Teams (Microsoft Teams における電子情報開示) <br> Coffee in the Cloud session with Ansuman Acharya and Karuana Gatimu (Ansuman Acharya と Karuana Gatimu との Coffee in the Cloud セッション)  | <iframe width="320" height="240" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
+| Teams: Step-by-step intro for using, enabling and managing the experience (Teams: エクスペリエンスの使用、有効化、管理の手順) <br> Microsoft Mechanics session with Dan Stevenson and Jeremy Chapman (Dan Stevenson と Jeremy Chapman との Microsoft Mechanics セッション) |  <iframe width="320" height="240" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |
+| Managing the App Experience in Microsoft Teams (Microsoft Teams でのアプリの機能と操作性を管理する) <br> Coffee in the Cloud session with Karuana Gatimu (Karuana Gatimu と Coffee in the Cloud セッション)  | <iframe width="320" height="240" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
 
 
 

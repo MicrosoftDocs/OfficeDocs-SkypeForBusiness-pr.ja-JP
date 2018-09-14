@@ -1,7 +1,8 @@
 ---
 title: Skype for Business のモバイル クライアント機能の比較
 ms.author: jambirk
-author: PhillipGarding
+author: jambirk
+ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: '概要: Skype ビジネス サーバーの計画中にモバイル クライアントの機能のサポートを確認します。'
-ms.openlocfilehash: ebd8da383ad7b0fd21f308c72df0f8cee9913440
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: f04d0162113db68e2507930e827904110b69066f
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884615"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965749"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Skype for Business のモバイル クライアント機能の比較
  

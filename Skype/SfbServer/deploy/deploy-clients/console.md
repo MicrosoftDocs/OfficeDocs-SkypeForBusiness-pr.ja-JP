@@ -1,7 +1,8 @@
 ---
 title: Skype Room Systems バージョン 2 コンソールを構成する
 ms.author: jambirk
-author: Travis-Snoozy
+author: jambirk
+ms.reviewer: Travis-Snoozy
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -11,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: この資料では、Skype ルーム システム v2 のコンソールとその周辺機器を設定する方法について説明します。
-ms.openlocfilehash: d652f4e7ccfd8b8630ce48b028f8f4ce7226a693
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 57ee754d99c9c0fcec62347146c79e9da5995fe1
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887515"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965707"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Skype Room Systems バージョン 2 コンソールを構成する
  

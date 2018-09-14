@@ -1,7 +1,8 @@
 ---
 title: 環境を準備します。
 ms.author: jambirk
-author: davgroom
+author: jambirk
+ms.reviewer: davgroom
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: この資料では、Skype ルーム システム v2 を展開するためのインフラストラクチャの準備作業について説明します。
-ms.openlocfilehash: 694da63ea29d1d0455faa568f2ee9956fb26948f
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: 8b31889d70dae54736648905204b721127b668f1
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22601942"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965983"
 ---
 # <a name="prepare-your-environment"></a>環境を準備します。
 
