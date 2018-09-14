@@ -1,0 +1,1 @@
+<span data-ttu-id="46029-101">マイクロソフトは Microsoft Teams の機能を管理する方法を頻繁に更新しているため、ここでの手順が実際の手順と少し異なる可能性があります。</span><span class="sxs-lookup"><span data-stu-id="46029-101">We are frequently updating how you can manage features found in Microsoft Teams so the steps here might be a little different in the Microsoft Teams and Skype for Business admin center.</span></span>
