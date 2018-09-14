@@ -3,7 +3,7 @@ title: マイクロソフト チームが Microsoft 365 政府の GCC の展開�
 author: lolajacobsen
 ms.author: lehewe
 manager: serdars
-ms.date: 07/26/2018
+ms.date: 09/14/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lehewe
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 430b6c6de5468442f7a290b07b28eb59d276e00c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 34c13d9094512a52c334acf2b660b11b6579c886
+ms.sourcegitcommit: 63c391ce9144ba5b296050ac189f77f5cea78707
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885773"
+ms.lasthandoff: 09/14/2018
+ms.locfileid: "23973687"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Microsoft 365 政府の GCC の展開の計画
 
@@ -66,8 +66,7 @@ Microsoft 365 政府の GCC をいくつかの相違がある、政府のクラ�
 | チャネルを電子メールで送信します。             | 政府の計画では、現在のアーキテクチャの機能はサポートされていません。 |
 | プレゼンスの統合            | 私たちはこの重要な機能の最初の企業のお客様のための仕上げの作業です。 政府の顧客に利用可能な将来的にします。 |
 | チームとデバイス間の相互運用機能のチャット ユーザー            | 相互運用機能は、統合プレゼンス サービス (UPS) に依存して、UPS の GCC のチームのテナントを有効にするまで使用できません。 |
-
-|通知を電子メールで送信。米国政府の計画では、現在のアーキテクチャの機能はサポートされていません。 作業は、この機能が使用できるように米国政府の計画の顧客、将来的に継続的です。 |
+| 電子メール通知         | 米国政府の計画では、現在のアーキテクチャの機能はサポートされていません。 作業は、この機能が使用できるように米国政府の計画の顧客、将来的に継続的です。 |
 
 
 |    |     |
