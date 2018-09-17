@@ -1,5 +1,5 @@
 ---
-title: エントリ無効を切り替えるし、マイクロソフトのチームでの会議のお知らせを終了します。
+title: Microsoft Teams で会議の入退室通知をオンまたはオフにする
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,36 +19,36 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'エントリをオンにし、マイクロソフトのチーム会議で発表をオンまたはオフを終了する方法について説明します。 '
+description: 'Microsoft Teams の会議の入退室通知をオンまたはオフにする方法について説明します。 '
 ms.openlocfilehash: 94a091590ff00d2c78278e8ad559b61b1e732130
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23884630"
 ---
-# <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>エントリ無効を切り替えるし、マイクロソフトのチームでの会議のお知らせを終了します。
+# <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Microsoft Teams で会議の入退室通知をオンまたはオフにする
 
-Office 365 で電話会議を設定する場合、電話会議ブリッジが表示されます。 会議用ブリッジは、マイクロソフトのチーム会議へのコールを使用する 1 つまたは複数の電話番号を含めることができます。 
+Office 365 の電話会議をセットアップしている場合、電話会議ブリッジを取得します。 電話会議ブリッジには、ユーザーが Microsoft Teams の会議にダイヤルインするために使用する 1 つまたは複数の電話番号を含めることができます。 
   
-会議ブリッジは、電話機を使用して会議にダイヤルインしようとしているユーザーの呼び出しに答えます。 会議ブリッジは、まず会議の自動応答の音声プロンプトで呼び出し元に応答します。設定によっては、次に通知を再生、呼び出し元に名前を記録するよう依頼し、PIN セキュリティをセットアップします。 マイクロソフトのチーム会議の開催者に、暗証番号 (pin) が与えられるし、マイクロソフトのチームのアプリケーションを使用してミーティングを開始することはできない場合は、会議を開始することができます。 ただし、会議を開始するのに PIN が必要ないように設定をすることもできます。
+電話会議ブリッジは、電話機を使用して会議にダイヤルインしているユーザーの通話に応答します。 会議ブリッジは、まず会議の自動応答の音声プロンプトで呼び出し元に応答します。設定によっては、次に通知を再生、呼び出し元に名前を記録するよう依頼し、PIN セキュリティをセットアップします。 PIN は Microsoft Teams の会議の開催者に付与され、Microsoft Teams アプリを使用して会議を開始することができない場合に、PIN で会議を開始することができます。 ただし、会議を開始するのに PIN を必要としないように設定することができます。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="setting-meeting-join-options"></a>会議の参加オプションの設定
+## <a name="setting-meeting-join-options"></a>会議参加のオプションを設定する
 
-1. 左側のナビゲーションでは、**会議**に移動 > **会議ブリッジ**です。 
+1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 
-2. **会議ブリッジ**のページの上部には、**ブリッジの設定**をクリックします。 
+2. [**会議ブリッジ**] ページの最上部で、[**ブリッジの設定**] をクリックします。 
 
-3. **ブリッジの設定**ウィンドウを有効にするまたは**ミーティングのエントリと終了の通知**を無効にします。 既定ではこれはすでに選択されています。 場合はこのオプションをオフにすると、データを入力したり、会議を離れると、会議に参加しているユーザーが通知されません。
+3. [**ブリッジ設定**] ウィンドウで、[**会議の開始と終了の通知**] を有効または無効にします。 これは既定では選択されています。 この選択をクリアすると、既に参加済みのユーザーは、誰かが入ってきたり退出したりしたときに通知を受け取りません。
     
-4. [**エントリ/退出のお知らせの種類**] の下にある [**名前または電話番号**] または [**トーン**] を選択します。
+4. [**開始/終了のお知らせの種類**] で、[**名前または電話番号**] または [**トーン**] を選択します。
     
-5. **名前や電話番号**を選択した場合は、有効または、**ミーティングに参加する前に自分の名前を記録するための呼び出し元の確認**を無効にします。
+5. [**名前または電話番号**] を選ぶ場合は、[**発信者に、会議に参加する前に自分の名前を記録するように要求します**] を有効または無効にします。
     
-6. [ **保存**] をクリックします。
+6. [**保存**] をクリックします。
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
@@ -58,7 +58,7 @@ Windows PowerShell は、ユーザーと、ユーザーに許可されている�
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-Windows PowerShell の詳細については、[マイクロソフト チームの PowerShell の参照](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)の詳細についてを参照してください。
+Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)」をご覧ください。
   
 ## <a name="related-topics"></a>関連トピック
 
