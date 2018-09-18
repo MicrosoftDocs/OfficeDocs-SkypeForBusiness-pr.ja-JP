@@ -3,6 +3,7 @@ title: 別の組織内のチームのユーザーとの通信します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
+ms.date: 09/12/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -13,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: ユーザーが別の組織内のユーザーと通信できるようにするのにはチームを構成する方法を参照してください。
-ms.openlocfilehash: da76d75ba44215b11b68550fa06d1fab87f19e56
-ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
+ms.openlocfilehash: d7423109d4fba01ca85c1602bfcf92190b539abf
+ms.sourcegitcommit: 116d17befc17503968e00e45be338834aa2185b2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23937828"
+ms.lasthandoff: 09/18/2018
+ms.locfileid: "23998628"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>チームのユーザーのチャットを使用し、チームの別の組織内のユーザーとの通信
 
@@ -30,9 +31,11 @@ ms.locfileid: "23937828"
     
 - 他のユーザーを検索し、連絡先、電子メール アドレスを使用することができるチームを使用している世界で。 他のユーザーは、外部アクセスを有効にして、他方のドメインを許可する、これは動作します。 動作しない場合は、他のユーザーを確認してください彼または彼女の構成は、ドメインをブロックされていません。
 
-これらの手順に従います。
+これによって、ユーザーは検索、呼び出し、インスタント メッセージを送信するとあなたとの会議を設定します。 チームとのチャネルにアクセスする外部のユーザーを実行する場合に、ゲスト アクセスに優れた方法で可能性があります。 手順を確認してくださいこの記事で[ゲスト アクセスを有効に](set-up-guests.md)するのにはユーザーが通信できるようにします。
 
 ## <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>チームのユーザーのチャットを使用し、チームの別の組織内のユーザーとの通信
+
+これらの手順に従います。
 
 ### <a name="step-1---make-sure-to-set-up-the-ports-and-urls-that-are-needed"></a>手順 1 - ポートおよび必要な Url を設定することを確認します。
 
@@ -50,7 +53,7 @@ ms.locfileid: "23937828"
    
    4. 場合は制限の組織が通信できるようにするユーザーと組織内で、**追加のドメイン**をクリックすると、許可リストに他の組織のドメインを追加します。 **ドメインの追加**] ウィンドウで、**許可**し、次に**行われる**ドメインの名前をクリックしてに配置します。
 
-   4. [ **保存**] をクリックします。 
+   4. [**保存**] をクリックします。 
 
    5. その他のチームの組織の管理者は、同じ手順を確認します。 などの**ドメインを許可する**ボックスの一覧で、管理者が組織は、そのユーザーと通信できますが制限される場合、お客様のビジネスのドメインを入力する必要があります。 
 
