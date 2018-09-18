@@ -1,5 +1,5 @@
 ---
-title: マイクロソフトのチームでの電話会議の番号の一覧を参照してください。
+title: Microsoft Teams で電話会議の電話番号のリストを表示する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,23 +19,23 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'マイクロソフト チーム内から、会議にダイヤルイン番号を検索する方法について説明します。 '
+description: 'Microsoft Teams 内でダイヤルイン電話会議の電話番号を調べる方法について説明します。 '
 ms.openlocfilehash: 2690d446b181ed3fe634c805f93c2aa09396dffe
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23887418"
 ---
-# <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>マイクロソフトのチームでの電話会議の番号の一覧を参照してください。
+# <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Microsoft Teams で電話会議の電話番号のリストを表示する
 
-マイクロソフトのチームのユーザーの電話会議を設定すると、ときに、オーディオ会議のために利用可能な電話番号を表示できます。 あなたの組織に連絡可能な電話会議のすべての電話番号がリストに追加されます。
+Microsoft Teams ユーザーに対して電話会議をセットアップすると、それらのユーザーが電話会議で利用可能な電話番号を表示することができます。 リストには、自分の組織で利用可能な電話会議の電話番号がすべて含まれます。
   
- **価格を見る** [オーディオ会議の価格](https://products.office.com/skype-for-business/audio-conferencing#Requirements)を参照してください。
+ **価格を見る** 「[電話会議の料金](https://products.office.com/skype-for-business/audio-conferencing#Requirements)」をご覧ください。
   
-組織内で連絡可能な電話番号が1つのみの場合、その番号がすべてのユーザーの既定値の番号として使用されます。 複数の電話番号で連絡可能な場合は、各ユーザーが既定値の電話番号を選択することができます。 この既定の番号は、マイクロソフトのチーム ミーティング招待状に含まれます。
+組織内で連絡可能な電話番号が1つのみの場合、その番号がすべてのユーザーの既定値の番号として使用されます。 複数の電話番号が利用できる場合は、各ユーザーに既定の電話番号を選択することができます。 この既定の電話番号は、Microsoft Teams の会議の招待状に含まれます。
   
-1 人のユーザーのダイヤルイン番号を変更するには、 [「招待状にある電話番号を設定する」](set-the-phone-numbers-included-on-invites-in-teams.md) を参照してください。
+1 人のユーザーのダイヤルイン電話番号を変更する方法は、「[招待状に含まれている電話番号を設定する](set-the-phone-numbers-included-on-invites-in-teams.md)」で確認することができます。
   
 > [!NOTE]
 > 国内のダイヤルイン番号は組織専用で、既定値の電話番号として設定することができる唯一の番号です。 ただし、海外のダイヤルイン番号は、複数の組織間で共有することができます。 
@@ -43,12 +43,12 @@ ms.locfileid: "23887418"
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="to-view-your-audio-conferencing-phone-numbers"></a>電話会議の電話番号を表示するには
+## <a name="to-view-your-audio-conferencing-phone-numbers"></a>自分の電話会議の電話番号を表示するには
 
-1. 左側のナビゲーションでは、**会議**に移動 > **会議ブリッジ**です。 
-2.  オーディオ会議で使用可能な電話番号を表示します。
+1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
+2.  電話会議で利用可能な電話番号を表示します。
 
-- オーディオ会議自動アテンダントによって使用される主言語と保存場所を表示することもできます。
+- 場所と、電話会議の自動応答で使用される第 1 言語を表示することもできます。
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
@@ -58,7 +58,7 @@ Windows PowerShell は、ユーザーと、ユーザーに許可されている�
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-Windows PowerShell の詳細については、[マイクロソフト チームの PowerShell の参照](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)の詳細についてを参照してください。
+Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)」をご覧ください。
   
 ## <a name="related-topics"></a>関連トピック
 

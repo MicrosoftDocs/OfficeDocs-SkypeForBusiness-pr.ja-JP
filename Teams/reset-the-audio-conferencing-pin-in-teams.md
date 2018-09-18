@@ -1,5 +1,5 @@
 ---
-title: オーディオ会議では、マイクロソフトのチームには、暗証番号 (pin) をリセットします。
+title: Microsoft Teams で電話会議の PIN をリセットする
 mms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,56 +15,56 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'ピンについて何を理解する必要があり、マイクロソフトのチームでそれらをリセットする方法を紹介します。 '
-ms.openlocfilehash: 4570c96ab529c114f2d0bb8708eb145650de18b1
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: MT
+description: 'PIN について知っておくべきことと、Microsoft Teams でそれらをリセットする方法について確認します。 '
+ms.openlocfilehash: 9c63df504150dce7ba1d46329fc86a27c75ced8d
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23866468"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23892955"
 ---
-# <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>オーディオ会議では、マイクロソフトのチームには、暗証番号 (pin) をリセットします。
+# <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Microsoft Teams で電話会議の PIN をリセットする
 
-PIN は、電話会議が有効になっているマイクロソフトのチームのユーザーごとに作成される番号のコードです。 オーディオ会議のピンは、会議の開催者は、電話会議を開始することを許可することを識別するミーティングの開催者によって使用されます。 会議を開始するのには、マイクロソフトのチームのアプリケーションを使用する場合、暗証番号 (pin) は必要ありません。 ユーザーが PIN を忘れたり、電話会議を有効になっていなかったときに送信された電子メールで見つけられないという場合は、管理者が自分の PIN をリセットできますか、独自の PIN をリセットすることができます。
+PIN は数で構成されるコードで、電話会議の利用が有効になっている各 Microsoft Teams ユーザーに対して作成されます。 電話会議 PIN は会議の開催者によって、自分たちが会議の開催者であることを識別し、電話を経由して会議を開始することができるようにするために使用されます。 会議を開始するために Microsoft Teams アプリを使用する場合、PIN は必要ありません。 ユーザーが PIN を忘れてしまい、電話会議の利用が有効になったときに送られてきたメールから見つけることができない場合は、管理者がそれらのユーザーの PIN をリセットするか、ユーザー自身が自分の PIN をリセットすることができます。
   
-マイクロソフト チームのアプリケーションまたは開催者参加させるとき、ユーザーの PIN と電話を使用して認証されたユーザーが参加するとき、会議を開始できます。 会議の開始に PIN が必要な場合、電話で参加するユーザーはロビーで待機し、会議が開始するまで保留音を聞くことになります。 会議の開催者が、電話で会議を開始するための PIN を要求しない場合、発信者は会議に参加しようとするときに PIN の提示を求められません。
+会議を開始できるのは、認証済みユーザーが Microsoft Teams アプリを使用して参加する場合か、開催者が自分の PIN を使用して電話で参加する場合です。 会議の開始に PIN が必要な場合、電話で参加するユーザーはロビーで待機し、会議が開始するまで保留音を聞くことになります。 会議の開催者が、電話で会議を開始するための PIN を要求しない場合、発信者は会議に参加しようとするときに PIN の提示を求められません。
 
-## <a name="reset-a-users-pin"></a>ユーザーの PIN をリセットします。
+## <a name="reset-a-users-pin"></a>ユーザーの PIN をリセットする
 
-1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
+1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
 2. ページの上部で、[**編集**] をクリックします。
 
-3. **オーディオ会議**では、[ **PIN のリセット**] をクリックします。
+3. [**電話会議**] の下で、[**PIN のリセット**] をクリックします。
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
    
-## <a name="have-a-user-reset-his-or-her-own-pin"></a>ユーザーが自分の PIN のリセット
+## <a name="have-a-user-reset-his-or-her-own-pin"></a>ユーザーに自分の PIN をリセットさせる
 
-1. ユーザーには、 [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing)。
-2. **PIN のリセット**] をクリックします。 
+1. ユーザーに [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing) に移動してもらいます。
+2. [**PIN のリセット**] をクリックします。 
 
 
 ## <a name="what-else-should-you-know-about-pins"></a>PIN について知っておくべきその他のこと
 
-- セキュリティ保護のため、PIN のリセット時に PIN は 1 回だけ管理者に表示されます。 暗証番号 (pin) は、管理者がリセットされますが後の暗証番号 (pin) が表示されます。。
+- セキュリティ保護のため、PIN のリセット時に PIN は管理者に 1 回だけ表示されます。 PIN は管理者によってリセットされた後、*********** とリストに表示されます。
     
-- デフォルトで有効化は自動的にユーザーに電子メールを送信して、ユーザー音声会議や、PIN をリセットする場合は有効にしている場合、PIN の電子メールが送信されます。 自動的に無効にした場合電子メールを送信するユーザーに PIN リセットの電子メールを送信しないユーザーに暗証番号 (pin) の情報を手動で送信する必要があります。
+- ユーザーへのメールの自動送信は既定で有効です。ユーザーが電話会議で有効になるか、PIN がリセットされると、ユーザーは自分の PIN が記載されたメールを受信します。 ただし、メールの自動送信を無効にしても、ユーザーには PIN リセットのメールは送信されず、そのユーザーには手動で PIN 情報を送信する必要があります。
     
 - 会議が始まると、ロビー内のすべてのユーザーは自動的にその会議に参加します。 たとえば、会議が始まる前に 2 人の参加者が会議に参加しようとすると、ロビーで待って保留音を聞くことになります。会議の開催者が自分の PIN を使用して電話で参加すると、会議が始まり、ロビーにいる参加者が会議に参加します。
     
-- 既定の設定では、匿名の呼び出しを開始するための会議を許可しないようにします。
+- 既定の設定では、匿名の発信者が会議を開始することはできません。
     
-- オーディオ会議のユーザーを有効にすると、既定で送信される会議の情報と PIN を含む電子メール。 ユーザーは PIN をリセットすると、新しい暗証番号 (pin) はでは、プライマリ SMTP アドレス (エイリアス)、ユーザーに設定されている電子メールのユーザーに送信されますので、Office 365 のメールボックスに必要です。
+- 電話会議でユーザーを有効にすると、既定でユーザーに電話会議の情報と PIN が記載されたメールが送信されます。 ユーザーは Office 365 メールボックスを持っている必要があります。PIN がリセットされると、ユーザーに設定されているプライマリ SMTP アドレス (エイリアス) へのメールで、新しい PIN がユーザーに送信されるためです。
     
-- オーディオ会議を設定するときは、組織内のピンに必要な数字を設定します。 ピンは 12 桁、4 - デフォルトは 5 です。 暗証番号 (pin) の長さの設定を変更すると、設定は、新しく生成されたピンの位置にのみ適用し、オーディオ会議を有効になっている既存のユーザーの暗証番号 (pin) の設定に適用されていません。 [オーディオ会議の会議の暗証番号 (pin) の長さの設定](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md)を参照してください。
+- 電話会議をセットアップすると、所属する組織の PIN で必要な桁数を設定することになります。 PIN は 4 桁から 12 桁の間にすることができます。既定では 5 桁です。 PIN の長さの設定を変更すると、その設定は新たに生成された PIN のみに適用され、電話会議で有効になっている既存のユーザーの PIN 設定には適用されません。 「[Set the length of the PIN for Audio Conferencing meetings (電話会議の PIN の長さを設定する)](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md)」をご覧ください。
     
-- 既定で電子メールは、ユーザーの Office 365 のプライマリ SMTP アドレスに設定されます。 Office 365 以外のアドレス、Hotmail または MSN の電子メール アドレスに電子メールを送信できます。 デフォルトの電子メール アドレスは、Windows PowerShell を使用してオーバーライドできます。 これは、ユーザーが Office 365 の Exchange メールボックスを持っていない場合に便利です。
+- 既定では、メールはユーザーの Office 365 プライマリ SMTP アドレスに送信されるように設定されています。 Hotmail や MSN のメール アドレスなどの Office 365 以外のアドレスにメールを送信することもできます。 Windows PowerShell を使用して、既定のメール アドレスを上書きすることができます。 これは、ユーザーが Office 365 の Exchange メールボックスを持っていない場合に便利です。
 
     
 
@@ -76,8 +76,8 @@ Windows PowerShell は、ユーザーと、ユーザーに許可されている�
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-Windows PowerShell の詳細については、[マイクロソフト チームの PowerShell の参照](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)の詳細についてを参照してください。
+Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)」をご覧ください。
   
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 
-[ユーザーの会議 ID をリセットする](reset-a-conference-id-for-a-user-in-teams.md)
+[ユーザーのために会議 ID をリセットする](reset-a-conference-id-for-a-user-in-teams.md)

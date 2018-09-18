@@ -15,7 +15,7 @@ appliesto:
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
 ms.openlocfilehash: 0d8ed28eb941618a4faf10dddb4c700d2a0d2baf
 ms.sourcegitcommit: 14b0724058fc31ff92af9e2bcde4680796a04936
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/13/2018
 ms.locfileid: "23965524"
@@ -325,7 +325,7 @@ Microsoft から直接に電話番号を取得するには、次のいずれか�
 
 - [Skype for Business 管理センター](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)
 - [リモート Windows PowerShell のコマンドレット](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
-- [新しい電話番号を要求するフォームを送信](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)します。
+- [新規電話番号の申請フォームを送信する](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。
 
 New Telephone Number Request  (新規電話番号要求) フォームは、連続した電話番号を申し込むことができるため、電話番号の取得を計画している場合に最適です。 Skype for Business 管理センターまたはリモート Windows PowerShell はすべての国や地域で利用できるわけではありません。
 
@@ -440,8 +440,8 @@ Office 365 の電話システム機能には、次の 2 種類のダイヤル �
 >|テナント ダイヤル プランの名前<br>説明  |正規化ルールの名前<br>_説明_  |パターン<br>変換<br>IsInternalExtension  |
 >|---------|---------|---------|
 >|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux、フランスのダイヤル プラン_|**FR-39qdPR-Internal**<br>_39 quai du Président Roosevelt オフィスの内部番号 (x7000 – x7999)、Issy-les-Moulineaux、フランス_|^(7\d{3})$<br>+3319999$1<br>True|
->||**FR-TollFree**<br>_フランスの無料電話番号の正規化_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
->||**FR-Service**<br>_フランスのサービス番号の正規化_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
+>||**FR-TollFree**<br>_フランスの無料電話番号の正規化_|^0?(80\d{7})\d*$<br>+33$1<br>False|
+>||**FR-Service**<br>_フランスのサービス番号の正規化_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>False|
 
 <br>
 > [!TIP]

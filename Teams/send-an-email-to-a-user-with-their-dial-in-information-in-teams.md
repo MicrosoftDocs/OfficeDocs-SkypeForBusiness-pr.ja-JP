@@ -1,5 +1,5 @@
 ---
-title: マイクロソフトのチームで、オーディオ会議の情報を持つユーザーに電子メールを送信します。
+title: Microsoft Teams で電話会議の情報が記載されたメールをユーザーに送信する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,56 +19,56 @@ search.appverid: MET150
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: マイクロソフトのチームで、ユーザーの音声会議情報を使用して電子メールを送信します。
+description: Microsoft Teams で電話会議の情報が記載されたメールをユーザーに送信します。
 ms.openlocfilehash: 85e219481884bb08a2574809b6170c232abccf83
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/08/2018
 ms.locfileid: "23892093"
 ---
-# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>マイクロソフトのチームで、オーディオ会議の情報を持つユーザーに電子メールを送信します。
+# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Microsoft Teams で電話会議の情報が記載されたメールをユーザーに送信する
 
-マイクロソフトのチームのユーザーの電話会議の情報を送信する必要があります。 [ユーザーのプロパティ] で**電子メールを使用して会議情報を送信**をクリックしてこれを行うことができます。 この電子メールを送信するとき、すべてが含まれますのオーディオ会議の情報を含みます。
+Microsoft Teams ユーザーに電話会議の情報を送信することが必要になる場合があります。 そのような場合は、ユーザーのプロパティの [**電話会議情報をメールで送信**] をクリックします。 送信するメールには、次のようなすべての電話会議の情報が含まれています。
   
 - ユーザー用の会議の電話番号またはダイヤルイン電話番号。
     
 - ユーザーの会議 ID。
     
    
-送信されるメールの例を以下に示します。
+ユーザーに送信されるメールの例を次に示します。
   
 ![ダイヤルイン会議のメール](media/audio-conferencing-info.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>オーディオ会議の情報を使用して電子メールをユーザーに送信します。
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>電話会議の情報が記載されたメールをユーザーに送信する
 
-1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
+1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
 2. ページの上部で、[**編集**] をクリックします。
 
-3. [**電話会議**] の [**電話会議情報をメールで送信**] をクリックします。
+3. [**電話会議**] の下で、[**電話会議情報をメールで送信**] をクリックします。
 
 
-## <a name="what-else-should-you-know-about-this-email"></a>このようなメールについて知っておくべきその他のこと
+## <a name="what-else-should-you-know-about-this-email"></a>このメールについて知っておくべきその他のこと
 
-- 送信される、組織内のユーザーを有効にした後には、オーディオ会議のいくつかの電子メールがあります。
+- 組織内のユーザーが電話会議で有効になった後に、それらのユーザーに送信されるメールは複数あります。
     
   - **電話会議** のライセンスがユーザーに割り当てられた場合。
     
-  - リセットすると手動で電話会議のユーザーの暗証番号 (pin) です。
+  - ユーザーの電話会議の PIN を手動でリセットした場合。
     
   - ユーザーの会議 ID を手動でリセットした場合。
     
   - **電話会議** のライセンスがユーザーから削除された場合。
     
-  - オーディオ会議プロバイダーのユーザーの変更されたとき Microsoft から別のプロバイダーまたは **[なし]** にします。
+  - ユーザーの電話会議プロバイダーが Microsoft から別のプロバイダー、または [**なし**] に変更された場合。
     
-  - マイクロソフトにユーザーの電話会議プロバイダーが変更されたとき。
+  - ユーザーの電話会議プロバイダーが Microsoft に変更された場合。
     
-- 既定では、電子メールの送信者が、Office 365 からなりますが、電子メール アドレスを変更し、Windows PowerShell を使用して名前を表示できます。 詳細については[マイクロソフト チームの PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)を参照してください。
+- 既定では、メールの送信者は Office 365 ですが、Windows PowerShell を使用してメール アドレスと表示名を変更することができます。 詳細については、[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)をご覧ください。
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
@@ -78,7 +78,7 @@ Windows PowerShell は、ユーザーと、ユーザーに許可されている�
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-Windows PowerShell の詳細については、[マイクロソフト チームの PowerShell の参照](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)の詳細についてを参照してください。
+Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)」をご覧ください。
     
   
 ## <a name="related-topics"></a>関連トピック

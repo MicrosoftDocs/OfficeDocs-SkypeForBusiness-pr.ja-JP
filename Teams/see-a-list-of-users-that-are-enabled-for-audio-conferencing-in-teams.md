@@ -1,5 +1,5 @@
 ---
-title: マイクロソフトのチームでの電話会議を有効になっているユーザーの一覧を参照してください。
+title: Microsoft Teams で電話会議用に有効になっているユーザーのリストを表示する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,36 +19,36 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'ダイヤルイン会議からマイクロソフトのチーム内では有効になっている、組織内のユーザーの一覧を表示する方法について説明します。 '
+description: 'Microsoft Teams から、ダイヤルイン会議で有効になっている組織のユーザーのリストを表示する方法を説明します。 '
 ms.openlocfilehash: 9bbdd5fd8536554c942db19c8c9f5ac41789c461
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23884448"
 ---
-# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>マイクロソフトのチームでの電話会議を有効になっているユーザーの一覧を参照してください。
+# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams で電話会議用に有効になっているユーザーのリストを表示する
 
-オーディオ会議の組織でマイクロソフトのチームのユーザーを有効にした後は、有効になっているユーザーの一覧を表示できます。 オーディオ会議プロバイダーを使用しているユーザーの既定のダイヤルインの電話番号の種類の一覧内の各ユーザーに対しても表示されます、ボックスの一覧を確認する場合と、組織は、動的な会議 Id、静的な会議 Id を有効になっていません。オーディオ会議会議を開催します。
+自分の組織内の Microsoft Teams ユーザーを電話会議で有効にした後、それらの有効になっているユーザーのリストを表示することができます。 リストを調べると、リスト内の各ユーザーが使用している電話会議プロバイダーの種類、既定のダイヤルイン電話番号、および組織が動的な会議 ID を有効にしていない場合は、それらのユーザーが開催する電話会議用の静的な会議 ID も表示されています。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="viewing-a-list-of-users"></a>ユーザーの一覧を表示します。
+## <a name="viewing-a-list-of-users"></a>ユーザーのリストの表示
 
-- 左側のナビゲーションでは、**ユーザー**をクリックします。
+- 左側のナビゲーションで [**ユーザー**] をクリックします。
 
 
-## <a name="what-else-should-i-know"></a>他に必要な情報はありますか?
+## <a name="what-else-should-i-know"></a>その他の情報
 
-- 有効になっているユーザーの一覧を表示すると、そのユーザーの電話会議の設定を編集する] ボックスの一覧からユーザーを選択します。
+- 有効になっているユーザーのリストを表示すると、そのリストからユーザーを選択して、そのユーザーについての電話会議設定を編集することができます。
     
-- オーディオ会議プロバイダーとして、Microsoft を使用するように構成された単一のユーザーを選択すると既定の電話番号との動的な会議 Id、組織が有効になっているかどうかを表示することができます、会議の会議 ID をリセットすることができますが、ユーザーを整理します。
+- Microsoft を電話会議プロバイダーとして使用するよう構成されている 1 人のユーザーを選択すると、既定の電話番号と、組織が動的な会議 ID に対して有効になっているかどうかを表示したり、そのユーザーが開催する会議の会議 ID をリセットすることができます。
     
-- サード ・ パーティ製のオーディオ会議プロバイダーを使用するように構成されている 1 人のユーザーを選択すると、(設定されている) 場合、オーディオ会議プロバイダー、有料電話番号、およびフリー ダイヤルの電話番号の名前を表示できます。
+- サードパーティの電話会議プロバイダーを使用するよう構成されている 1 人のユーザーを選択すると、その電話会議プロバイダーの名前、有料電話番号、無料電話番号 (セットアップしている場合) を表示することができます。
     
    
-- [検索] ボタンを使用するには、リスト内の個々 のユーザーを検索します。
+- 検索ボタンを使用して、リスト内の個別のユーザーを検索することができます。
     
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
@@ -59,7 +59,7 @@ Windows PowerShell は、ユーザーと、ユーザーに許可されている�
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-Windows PowerShell の詳細については、[マイクロソフト チームの PowerShell の参照](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)の詳細についてを参照してください。
+Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)」をご覧ください。
     
 ## <a name="related-topics"></a>関連トピック
 

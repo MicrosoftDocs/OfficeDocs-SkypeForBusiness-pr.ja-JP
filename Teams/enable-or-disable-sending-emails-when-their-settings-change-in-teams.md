@@ -1,5 +1,5 @@
 ---
-title: 有効にするか、マイクロソフトのチームでのオーディオ会議設定を変更すると、送信メールを無効にします。
+title: Microsoft Teams で電話会議の設定が変更されたときのメールの自動送信を有効または無効にする
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,61 +19,61 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: '有効にするか、暗証番号 (pin) などの設定が変更されたときにユーザー、またはマイクロソフトのチームで既定の会議番号の変更に電子メールを送信することから Skype を無効にする方法を説明します。 '
+description: 'Microsoft Teams での PIN や既定の電話番号などの設定が変更されたときに、Skype でユーザーにメールを送信することを有効または無効にする方法を説明します。 '
 ms.openlocfilehash: a59553f26ee39e042fa28d9e58e7f5ae2aae21be
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23892503"
 ---
-# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>有効にするか、マイクロソフトのチームでのオーディオ会議設定を変更すると、送信メールを無効にします。
+# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Microsoft Teams で電話会議の設定が変更されたときのメールの自動送信を有効または無効にする
 
-ユーザーは、電話会議が有効になっているときに自動的に電子メールで通知されます。 場合があります、ただし、マイクロソフトのチームのユーザーに送信される電子メールの数を減らしたいとします。 このような場合は、電子メールの送信を無効にできます。
+ユーザーが電話会議で有効になっている場合、ユーザーにはメールで自動的に通知されます。 しかしながら、Microsoft Teams ユーザーに送信されるメールの数を削減する必要がある場合もあります。 そのような場合に、メールの送信を無効にすることができます。
   
-オーディオ会議の電子メールをユーザーが有効になっているか、オーディオ会議は、会議 ID と既定の会議の電話番号の変更と、PIN をリセットすると無効にすると、電子メールを含む、ユーザーに送信されません送信メールを無効にした場合.
+メールの送信を無効にすると、ユーザーが電話会議で有効または無効になったとき、ユーザーの PIN がリセットされたとき、会議 ID および既定の電話会議の電話番号が変更されたときなどに、電話会議のメールがユーザーに送信されなくなります。
   
-電話会議が有効になっているときに、ユーザーに送信されるメールの例を以下に示します。
+次に示しているのは、電話会議が有効になっているユーザーに送信されるメールの例です。
   
-![オーディオ会議の電子メール](media/audio-conferencing-user-enabled.png)
+![電話会議のメール](media/audio-conferencing-user-enabled.png)
   
-## <a name="when-are-emails-being-sent-to-your-users"></a>メール ユーザーに送信するのでしょうか。
+## <a name="when-are-emails-being-sent-to-your-users"></a>ユーザーにメールが送信されるとき
 
-- 送信される、組織内のユーザーを有効にした後には、オーディオ会議のいくつかの電子メールがあります。
+- 組織内のユーザーが電話会議で有効になった後に、それらのユーザーに送信されるメールは複数あります。
     
   - **電話会議** のライセンスがユーザーに割り当てられた場合。
     
-  - リセットすると手動で電話会議のユーザーの暗証番号 (pin) です。
+  - ユーザーの電話会議の PIN を手動でリセットした場合。
     
   - ユーザーの会議 ID を手動でリセットした場合。
     
-  - **電話会議**のライセンスは、それらから削除されます。
+  - **電話会議**ライセンスがユーザーから解除された場合。
     
-  - オーディオ会議プロバイダーのユーザーの変更されたとき Microsoft から別のプロバイダーまたは **[なし]** にします。
+  - ユーザーの電話会議プロバイダーが Microsoft から別のプロバイダー、または [**なし**] に変更された場合。
     
-  - マイクロソフトにユーザーの電話会議プロバイダーが変更されたとき。
+  - ユーザーの電話会議プロバイダーが Microsoft に変更された場合。
 
 
-## <a name="enable-or-disable-email-from-being-sent-to-users"></a>有効にするか、ユーザーに送信される電子メールを無効にします。
+## <a name="enable-or-disable-email-from-being-sent-to-users"></a>ユーザーに送信されているメールを有効または無効にする
 
-有効にするか、ユーザーに送信される電子メールを無効にするのには、マイクロソフトのチームまたは Windows PowerShell を使用できます。
+Microsoft Teams または Windows PowerShell を使用してメールがユーザーに送信されるのを有効または無効にすることができます。
 
-![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
-1. 左側のナビゲーションでは、**会議**に移動 > **会議ブリッジ**です。 
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Microsoft Teams と Skype for Business 管理センターを使用する: **
+1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 
-2. **会議ブリッジ**のページの上部には、**ブリッジの設定**をクリックします。 
+2. [**会議ブリッジ**] ページの最上部で、[**ブリッジの設定**] をクリックします。 
 
-3. **ブリッジの設定**ウィンドウで、有効または、**ユーザーのダイヤルインの設定を変更する場合に e メールを自動的に送信**を無効にします。
+3. [**ブリッジの設定**] ペインで、[**ダイヤルイン設定が変わると、ユーザーに自動的に電子メールが送信されます**] を有効または無効にします。
 
-4. [ **保存**] をクリックします。
+4. [**保存**] をクリックします。
 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-**The conference ID and default dial-in conferencing phone number is included on the meeting invite but not the PIN.**
+**Windows PowerShell を使用する**
   
-詳細については[マイクロソフト チームの PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)を参照してください。
+詳細については、[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)をご覧ください。
 
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
@@ -84,13 +84,13 @@ Windows PowerShell は、ユーザーと、ユーザーに許可されている�
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-Windows PowerShell の詳細については、[マイクロソフト チームの PowerShell の参照](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)の詳細についてを参照してください。
+Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)」をご覧ください。
     
   
 ## <a name="related-topics"></a>関連トピック
 
-[オーディオ会議設定を変更するときにユーザーに送信される電子メール](emails-sent-to-users-when-their-settings-change-in-teams.md)
+[電話会議の設定が変更されたときにユーザーに送信されるメール](emails-sent-to-users-when-their-settings-change-in-teams.md)
 
-[ユーザーに電話会議情報が含まれたメールを送信する](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
+[電話会議の情報が記載されたメールをユーザーに送信する](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
 
 

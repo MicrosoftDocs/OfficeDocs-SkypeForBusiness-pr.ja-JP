@@ -1,5 +1,5 @@
 ---
-title: マイクロソフトのチーム内のユーザーの会議 ID をリセットします。
+title: Microsoft Teams でユーザーの会議 ID をリセットする
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,48 +19,48 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'ユーザーをリセットする手順は、マイクロソフト チームの会議 ID を会議の会議出席依頼の更新と移行ツールへのリンクを取得するかを説明します。 '
+description: 'Microsoft Teams でユーザーの会議 ID をリセットする手順と、会議の更新および移行のツールへのリンクを取得する手順を説明します。 '
 ms.openlocfilehash: 4e338e5ad00792a48e0a6c9e0791c0c5e4b759ac
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23887853"
 ---
-# <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>マイクロソフトのチーム内のユーザーの会議 ID をリセットします。
+# <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Microsoft Teams でユーザーの会議 ID をリセットする
 
 動的な会議 ID は、発信者が会議にコールインするのに使用できるダイヤルイン番号と一緒に、会議出席依頼の下に含まれています。 ユーザーが電話番号をダイヤルするときに、発信者が会議に参加できるように、会議の自動応答は発信者にこの会議 ID の入力を求めます。
   
 > [!NOTE]
-> 会議プロバイダーが Microsoft の場合、ユーザーの会議 ID がデフォルトで「動的のみ」に設定されます。 残念ながら、これは、静的になるように変更することはありませんサポートされていません。 会議 Id は、マイクロソフトのチームのユーザーが電話会議を有効になっているだけ自動的に設定されています。 
+> お使いの電話会議プロバイダーが Microsoft の場合、ユーザーの会議 ID は既定で動的のみに設定されます。 これを変更して静的にすることは、現在サポート対象外のため、できません。 会議 ID は、電話会議で有効になっている Microsoft Teams ユーザーに対してのみ、自動的に設定されます。 
 
 
-## <a name="resetting-the-conference-id-for-a-user"></a>ユーザーの会議 ID をリセットします。
+## <a name="resetting-the-conference-id-for-a-user"></a>ユーザーのために会議 ID をリセットする
 
-1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
+1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
 2. ページの上部で、[**編集**] をクリックします。
 
-3. **オーディオ会議**の下には、**会議 ID のリセット**をクリックします。
+3. [**電話会議**] の下で、[**会議 ID のリセット**] をクリックします。
 
-2. **会議 ID のリセット**] ウィンドウで、[**リセット**] をクリックします。 A conference ID will be automatically created and an email sent to the user with the new conference ID. 既定では、ユーザーに電子メールが送信されますが、これを無効にできます。   
+2. [**会議 ID のリセット**] ウィンドウで、[**リセット**] をクリックします。 会議 ID は自動的に作成され、新しい会議 ID が記載されたメールがユーザーに送信されます。 既定では、メールはユーザーに送信されます。ただし、この動作はオフにすることができます。   
 
     
 > [!NOTE]
-> 会議 ID をリセットした後は、新しい会議 ID を持つ電子メールをユーザーに送信されます。 この送信されます、プライマリ電子メール アドレスに、多くの場合、Office 365 メールボックスです。 電子メールには、新しい会議 ID、既定のダイヤルに電話番号と既存のミーティングを更新するための手順が含まれています。 
+> 会議 ID をリセットした後、新しい会議 ID が記載されたメールがユーザーに送信されます。 このメールはプライマリ メール アドレスに送信され、多くの場合は、Office 365 のメールボックスに送られます。 メールには、新しい会議 ID、既定のダイヤルイン電話番号、既存の会議を更新するための手順が含まれています。 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="what-else-should-i-know"></a>他に必要な情報はありますか?
+## <a name="what-else-should-i-know"></a>その他の情報
 
-- **オーディオ会議**セクション内のユーザーの [**電子メールで会議の情報を送信**] をクリックして、会議 ID とダイヤルインの電話番号を含む電子メールでユーザーにすべての会議の情報を送信できます。 PIN は送信されません。
+- [**電話会議**] セクションのユーザーについて [**電話会議情報をメールで送信**] をクリックすると、会議 ID とダイヤルイン電話番号を含んでいるメールで、会議に必要なすべての情報をユーザーに送信することができます。 このメールでは PIN は送信されません。
     
-- 会議 ID が 7 桁の数字を含めるし、その長さを変更することはできません。
+- 会議 ID は 7 桁の値です。この長さを変更することはできません。
     
-- 会議 ID をリセットすると、新しい会議 ID が [ **電話会議 ID**] に一覧表示されます。
+- 会議 ID をリセットすると、新しい会議 ID が [**会議 ID**] に一覧表示されます。
     
-- You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use Skype for Business Meeting Migration Tool to update their existing meetings. 
+- 新しい会議 ID が作成されると、発信者は以前の会議 ID を使用することができなくなります。 ユーザーに対して、新しい会議 ID が招待状に追加されるようにするために、既存の会議の招待をスケジュールし直すことを通知する必要があります。 
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
@@ -70,8 +70,8 @@ Windows PowerShell は、ユーザーと、ユーザーに許可されている�
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-Windows PowerShell の詳細については、[マイクロソフト チームの PowerShell の参照](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)の詳細についてを参照してください。
+Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)」をご覧ください。
     
 ## <a name="related-topics"></a>関連トピック
 
-[オーディオ会議の暗証番号 (pin) をリセットします。](reset-the-audio-conferencing-pin-in-teams.md)
+[電話会議の PIN をリセットする](reset-the-audio-conferencing-pin-in-teams.md)

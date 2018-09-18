@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a470ddec93526fe5ea3aa5a24a835d37d971426c
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/08/2018
 ms.locfileid: "23892691"
@@ -38,7 +38,7 @@ Teams は 3 つの形態のトラフィックを組み合わせて使用しま�
 
 Microsoft Teams でリアルタイム メディアの最適な操作性を実現するには、Office 365 のネットワーク要件を満たす必要があります  詳細については、「[Skype for Business Online におけるメディアの品質とネットワーク接続性のパフォーマンス](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)」をご覧ください。
 
-2 つ定義するネットワーク セグメント (マイクロソフトのエッジにクライアント) およびマイクロソフトのエッジにエッジを顧客、次の推奨事項を検討してください。
+2 つの重要なネットワーク セグメント (クライアントから Microsoft Edge、Customer Edge から Microsoft Edge) については、以下の推奨事項を考慮してください。
 
 
 |値  |クライアントから Microsoft Edge  |Customer Edge から Microsoft Edge  |

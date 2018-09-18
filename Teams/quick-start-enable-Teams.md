@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 56033a3efc5e163ddd67f6f45bff590204c03783
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23882084"
@@ -47,7 +47,7 @@ Microsoft Teams でチーム、チャネル、タブの計画を行うときの�
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
-マイクロソフトのチームが、Office 365 テナントに有効になっていないと、以下の管理者が Office 365 は[チームへのユーザー アクセスの管理](user-access.md)の記事で、ユーザーを確実にあるアプリケーションへのアクセス。
+Microsoft Teams がご利用の Office 365 テナントで有効ではなく、自分が Office 365 管理者である場合は、「[Teams へのユーザー アクセスを管理する](user-access.md)」の記事の指示に従って、自分の組織のユーザーが確実にアプリケーションにアクセスできるようにしてください。
 
 ## <a name="step-3-complete-technical-planning"></a>手順 3: 技術計画を完成する
 

@@ -1,5 +1,5 @@
 ---
-title: マイクロソフトのチームでミーティングの電話会議の暗証番号 (pin) の長さを設定します。
+title: Microsoft Teams で電話会議用の PIN の長さを設定する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,43 +19,43 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: パラメーターの長さと、PIN の要件を説明し、マイクロソフトのチームでの会議の長さを設定する方法を参照してください。
+description: PIN の長さと要件のパラメーターについて、および Microsoft Teams の会議での長さを設定する方法について、説明します。
 ms.openlocfilehash: 0300bba9139bdf98315b8af4200dd729ff6e70a1
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23882992"
 ---
-# <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>マイクロソフトのチームでミーティングの電話会議の暗証番号 (pin) の長さを設定します。
+# <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>Microsoft Teams で電話会議用の PIN の長さを設定する
 
-マイクロソフト チームの電話会議を設定するときに、オーディオ会議ブリッジが表示されます。 会議用ブリッジは、1 つまたは複数の電話番号を含めることができます。 チームの Microsoft アプリケーションの会議の招待に設定した電話番号が含まれます。
+Microsoft Teams の電話会議をセットアップしている場合、電話会議ブリッジを取得します。 電話会議ブリッジには、1 つまたは複数の電話番号を含めることができます。 設定する電話番号は、Microsoft Teams アプリの会議の招待状に含まれます。
   
-オーディオ会議ブリッジ、電話を使用して会議にダイヤルインしている人のための呼び出しに応答します。 自動応答から、設定によっては、音声メッセージを呼び出し元に応答、通知を再生でき、自分の名前を記録するための呼び出し元に問い合わせてください。 **マイクロソフト ブリッジの設定**では、会議の通知の設定を変更することができ、会議の参加、会議の開催者によって使用されているピンの長さを設定します。 ミーティングの開催者は、マイクロソフト チームのアプリケーションを使用してミーティングに参加することはできない場合は、会議を開始するためのピンを使用します。
+電話会議ブリッジは、電話機を使用して会議にダイヤルインしているユーザーの通話に応答します。 発信者に自動応答の音声案内で応答し、それから設定に応じて、通知メッセージを再生し、発信者に自分の名前を記録するように求めます。 **Microsoft のブリッジの設定**により、会議の通知の設定や会議参加のエクスペリエンスを変更したり、会議の開催者によって使用される PIN の長さを設定したりすることができます。 会議の開催者は、Microsoft Teams アプリを使用して会議に参加することができない場合に、PIN を使用して会議を開始します。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="setting-the-pin-length"></a>暗証番号 (pin) の長さを設定
+## <a name="setting-the-pin-length"></a>PIN の長さを設定する
 
-1. 左側のナビゲーションでは、**会議**に移動 > **会議ブリッジ**です。 
+1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 
-2. **会議ブリッジ**のページの上部には、**ブリッジの設定**をクリックします。 
+2. [**会議ブリッジ**] ページの最上部で、[**ブリッジの設定**] をクリックします。 
 
-3. **ブリッジ設定**ペインで、[**暗証番号 (pin) の長さ**PIN の桁数を選択します。
+3. [**ブリッジの設定**] ペインの、[ **PIN の長さ**] の下で、PIN で必要な桁数を選択します。
 
-4. [ **保存**] をクリックします。
+4. [**保存**] をクリックします。
 
 > [!NOTE]
-> PIN とは異なる、会議の id です。 会議 Id は、ミーティングに参加するときに、呼び出し元が使用されます。 ミーティングに使用されます。 暗証番号 (pin) を使用して、会議の開催者は、呼び出し元を認証します。 
+> PIN は会議 ID とは異なります。 会議 ID は発信者が会議に参加するときに使用するものです。 会議を識別するために使用されます。 PIN は、会議の開催者が発信者を認証するために使用するものです。 
 
-## <a name="want-to-know-more-about-pin-settings"></a>暗証番号 (pin) の設定の詳細を知りたいとしていますか。
+## <a name="want-to-know-more-about-pin-settings"></a>PIN 設定の詳細について調べる
 
-- ピンすることが 4 から 12 桁の数字です。デフォルトは 5 です。 番号は、ピンを作成するときにのみ使用されます。 文字と特殊文字は使用されません。
+- PIN は 4 桁から 12 桁の間にすることができます。既定では 5 桁です。 PIN を作成するときに、使われるのは数字のみです。 英字および特殊文字は使われません。
     
-- のみ、暗証番号 (pin) は、マイクロソフトのチームのユーザーが会議を既に開始していないときに、会議の開催者に必要な。 場合はすべてのユーザーがダイヤルイン会議、PIN は、会議の開催者、会議を開始するために必要。
+- PIN が必要になるのは、Microsoft Teams のユーザーがまだ会議を開始していないときの、会議の開催者のみです。 全員が会議にダイヤルインすると、会議の開催者が会議を開始するために PIN が必要になります。
     
-- 暗証番号 (pin) のセキュリティ設定は、すべての Microsoft のブリッジに関連付けられている電話番号に適用されます。 各ブリッジに関連付けられている電話番号を使用するすべての会議に適用されます。 
+- PIN のセキュリティ設定は、Microsoft ブリッジに関連付けられているすべての電話番号に適用されます。 また、指定されたブリッジに関連付けられている電話番号を使用するすべての会議にも適用されます。 
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
@@ -65,7 +65,7 @@ Windows PowerShell は、ユーザーと、ユーザーに許可されている�
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-Windows PowerShell の詳細については、[マイクロソフト チームの PowerShell の参照](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)の詳細についてを参照してください。
+Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)」をご覧ください。
     
   
 ## <a name="related-topics"></a>関連トピック

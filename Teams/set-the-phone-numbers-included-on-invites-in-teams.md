@@ -1,5 +1,5 @@
 ---
-title: Microsfot チームの携帯電話への招待に含まれている番号を設定します。
+title: Microsfot Teams で招待状に含まれている電話番号を設定する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,17 +19,17 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Microsfot チーム会議に参加するのには呼び出し元の既定の電話番号を作成する手順を取得します。 '
+description: '発信者が Microsfot Teams 会議に参加するための既定の電話番号を作成する手順を説明します。 '
 ms.openlocfilehash: eddab0762b679dba08dd9981d6ae61a1403ebf47
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23882961"
 ---
-# <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>マイクロソフトのチームでの携帯電話への招待に含まれている番号の設定します。
+# <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Microsfot Teams で招待状に含まれている電話番号を設定する
 
-マイクロソフト チームの会議を作成して、電話を使用してその会議にダイヤルインするユーザーを許可し、組織内のユーザーを Office 365 での音声会議に使用できます。 、Office 365 では、マイクロソフトのオーディオ会議ブリッジまたは、承認済みの音声会議プロバイダー (ACP) によってホストされているサード ・ パーティ製のオーディオ会議ブリッジを使用するオプションがあります。
+Office 365 の電話会議では、組織内のユーザーが Microsoft Teams 会議を作成することができます。ユーザーは電話を使用して作成した会議にダイヤルインすることができます。 Office 365 では、Microsoft を電話会議ブリッジとして使うか、承認済みの電話会議プロバイダー (ACP) によってホストされているサードパーティ ダイヤルイン会議ブリッジを使うオプションを選ぶことができます。
   
 会議ブリッジは、組織用のダイヤルイン電話番号のセットを提供します。これらの番号はすべて会議開催者が作成した会議に参加するために使用できますが、会議出席依頼にどの番号を含めるか選ぶことができます。
   
@@ -39,25 +39,25 @@ ms.locfileid: "23882961"
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>設定または会議の開催者またはユーザーの既定の電話会議の電話番号を変更します。
+## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>会議の開催者またはユーザーのために、既定の電話会議の電話番号を設定または変更する
 
-1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
+1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
-    ![マイクロソフトのチームとビジネス管理センターの Skype のユーザーの選択を示しています](media/teamsselectusers.png)
+    ![Microsoft Teams と Skype for Business の管理センターでのユーザーの選択を示す](media/teamsselectusers.png)
 
 2. ページの上部で、[**編集**] をクリックします。
 
-    ![マイクロソフトのチームとビジネス管理センターの Skype での編集] をクリックします。](media/teamsedituser.png)
+    ![Microsoft Teams と Skype for Business の管理センターで [編集] をクリックする](media/teamsedituser.png)
 
-3. **オーディオ会議**の横にある [**編集**] をクリックします。 
+3. [**電話会議**] の隣で、[**編集**] をクリックします。 
     
-    ![編集をクリックしてオーディオ会議](media/teamseditaudioconf.png)
+    ![電話会議の隣の [編集] をクリックする](media/teamseditaudioconf.png)
 
-4. **有料電話番号**や**フリー ダイヤル番号**のフィールドを使用すると、ユーザーの数を入力します。
+4. [**有料電話番号**] または [**無料電話番号**] フィールドを使用してユーザーの電話番号を入力します。
 
 
 > [!IMPORTANT]
-> ユーザーの電話会議の設定を変更すると、マイクロソフトのチーム会議の定期的な予定と今後の更新し、出席者に送信する必要があります。 
+> ユーザーの電話会議設定を変更するときは、繰り返し発生する今後の Microsoft Teams 会議が更新されて、出席者に送信されるようにする必要があります。 
 
 ## <a name="want-to-use-windows-powershell"></a>Windows PowerShell を使用する場合
 
@@ -67,7 +67,7 @@ Windows PowerShell は、ユーザーと、ユーザーに許可されている�
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-Windows PowerShell の詳細については、[マイクロソフト チームの PowerShell の参照](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)の詳細についてを参照してください。 
+Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)」をご覧ください。 
   
     
 ## <a name="related-topics"></a>関連トピック

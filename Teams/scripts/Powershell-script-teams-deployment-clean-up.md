@@ -1,25 +1,25 @@
 ---
-title: PowerShell スクリプトのサンプルをクリーンアップをマイクロソフト チームの展開を支援します。
+title: Microsoft Teams の展開のクリーン アップを支援する PowerShell スクリプトのサンプル
 author: Lester-Hewett
 ms.author: lehewe
 manager: serdars
 ms.date: 03/21/2018
 ms.topic: article
 ms.service: msteams
-description: ターゲット マシン上または特定のユーザーに対して、マイクロソフトのチームをクリーンアップするには、この PowerShell スクリプトを使用します。
+description: この PowerShell スクリプトを使用して、対象のマシン上の、または特定のユーザーの Microsoft Teams をクリーン アップします。
 localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 ms.openlocfilehash: 9b95ca42e1f110b72d092ada65b2d672627fac4f
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23887283"
 ---
-<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a>PowerShell スクリプトのサンプルをマイクロソフトのチームの配置のクリーンアップします。
+<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a>PowerShell スクリプトのサンプル - Microsoft Teams の展開のクリーン アップ
 -------------------------------------------------------------------------
 
-この PowerShell スクリプトは、ターゲット コンピューターまたはユーザーからマイクロソフトのチームのクリーンアップを活用できます。 対象となるコンピューター上のすべてのユーザーのアクティビティが実行する必要があります。 
+この PowerShell スクリプトは、対象のマシンまたはユーザーから Microsoft Teams をクリーンアップするために利用することができます。 これは、対象のマシン上のユーザーそれぞれについて、実行する必要があります。 
 
 
 ## <a name="sample-script"></a>サンプル スクリプト

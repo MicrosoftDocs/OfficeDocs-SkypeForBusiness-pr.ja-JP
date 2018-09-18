@@ -1,5 +1,5 @@
 ---
-title: マイクロソフトのチームで、オーディオ会議のための自動応答の言語を設定します。
+title: Microsoft Teams で電話会議の自動案内の言語を設定する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,21 +15,21 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: マイクロソフトのチームで、オーディオ会議自動アテンダントの言語のオーディオ会議の番号を選択する方法を参照してください。
-ms.openlocfilehash: 4be8da4bf65d189c2bfba5ceb8dd6cc7a1cbee53
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: MT
+description: Microsoft Teams での電話会議番号に対応する電話会議の自動案内の言語を選択する方法を確認します。
+ms.openlocfilehash: 73498e348b45b0fa2d9996344b569a92320a06b6
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23853376"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23893019"
 ---
-# <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>マイクロソフトのチームで、オーディオ会議のための自動応答の言語を設定します。
+# <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams で電話会議の自動案内の言語を設定する
 
-マイクロソフト チームのオーディオ会議自動アテンダントを呼びかけますオーディオ呼び出し元のさまざまな言語で会議に参加するとき。
+Microsoft Teams での電話会議の自動案内は、発信者に向けて、会議に参加するときに複数の言語で挨拶メッセージを出すことができます。
   
 第 1 言語 1 つと、第 2 言語 4 つまで選びます。設定する第 1 言語が最初に使用され、第 2 言語は選択した順に自動応答で使用されます。 
   
@@ -39,18 +39,18 @@ ms.locfileid: "23853376"
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="set-the-conferencing-auto-attendant-languages"></a>電話会議の自動応答の言語を設定する
+## <a name="set-the-conferencing-auto-attendant-languages"></a>電話会議の自動案内の言語を設定する
 
-1. 左側のナビゲーションでは、**会議**に移動 > **会議ブリッジ**です。
+1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。
 
-2. 電話会議の電話番号を選択します] ボックスの一覧から、ページの上部にある、[**編集**] をクリックします。
+2. 電話会議の電話番号をリストから選択して、ページの最上部で、[**編集**] をクリックします。
 
-3. 右側のウィンドウで、既定の言語を選択し、別の言語を選択します。 
+3. 右側のペインで、希望する既定の言語と、任意の代替言語を選びます。 
  
     > [!NOTE]
-    > デフォルトおよびサポートされている別の言語が一覧表示されます。 選択するために、リスト内の順序は、呼び出し元に表示される言語の順序になります。 
+    > サポートされる既定の言語と代替言語はリストに表示されます。 リスト内での言語の選択順が、発信者に対して提示される言語の順になります。 
 
-4. [ **保存**] をクリックします。
+4. [**保存**] をクリックします。
 
     
 ## <a name="want-else-should-i-know"></a>その他の情報
@@ -63,9 +63,9 @@ ms.locfileid: "23853376"
     
 ## <a name="want-to-use-windows-powershell"></a>Windows PowerShell を使用する場合
 
-詳細については[マイクロソフト チームの PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)を参照してください。
+詳細については、[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)をご覧ください。
   
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 
 [Office 365 での電話会議を使用または購入する](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 

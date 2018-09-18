@@ -1,5 +1,5 @@
 ---
-title: MSI を使用してマイクロソフトのチームをインストールします。
+title: MSI を使用して Microsoft Teams をインストールする
 author: Lester-Hewett
 ms.author: lehewe
 manager: serdars
@@ -7,7 +7,7 @@ ms.date: 03/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
-description: 管理者が一括してチームの msi ファイルを使用できますユーザーまたはコンピューターを選択するのには、マイクロソフトのチームを配置します。
+description: 管理者は Teams MSI を使用して、Microsoft Teams を選択したユーザーまたはコンピューターに一括展開することができます。
 localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
@@ -15,47 +15,47 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 78ceb6fa0cd70b5cf6fc25bc9537939beea99b7c
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23882039"
 ---
-<a name="install-microsoft-teams-using-msi"></a>MSI を使用してマイクロソフトのチームをインストールします。
+<a name="install-microsoft-teams-using-msi"></a>MSI を使用して Microsoft Teams をインストールする
 =================================
 
-マイクロソフトは MSI ファイル ( [32 ビット](https://aka.ms/teams32bitmsi)と[64 ビット](https://aka.ms/teams64bitmsi)の両方) を選択するのにはチームの一括展開の管理者が使用できるを提供する広範な展開のシステム センター構成マネージャーでは、グループ ポリシー、または任意のサードパーティ製の配布メカニズムを使用して、ユーザーまたはコンピューターです。 管理者は、これらのファイルを使用して、リモートで展開するチームのユーザーがチームのアプリケーションを手動でダウンロードする必要はありません。 展開されると、チームが自動的にそのコンピューター上でサインインしているすべてのユーザーに対して起動します。 マシンのすべての新しいユーザーは、この展開からな利点がありますので、コンピューターにパッケージを展開することをお勧めします。 
+System Center Configuration Manager、またはグループ ポリシー、または任意のサードパーティの配布メカニズムを広範囲の展開に使用するために、マイクロソフトは管理者が選択したユーザーまたはコンピューターへの Teams の一括展開で使用することができる MSI ファイル ([32-bit](https://aka.ms/teams32bitmsi) と [64-bit](https://aka.ms/teams64bitmsi) の両方) を提供しています。 管理者はこれらのファイルを使用してリモートで Teams を展開することができます。このため、ユーザーは Teams アプリを手動でダウンロードする必要がありません。 展開した場合、Teams はそのマシンにサインインするすべてのユーザーに対して自動的に起動します。 コンピューターにパッケージを展開して、マシンの新しいユーザー全員がこの展開のメリットを得られるようにすることをお勧めします。 
  
 > [!Note] 
-> SCCM の詳細については、[システム センター構成マネージャーの概要](https://docs.microsoft.com/sccm/core/understand/introduction)を参照してください。
+> SCCM の詳細については、「[System Center Configuration Manager の概要](https://docs.microsoft.com/sccm/core/understand/introduction)」をご覧ください。
 
-## <a name="deployment-procedure-recommended"></a>(推奨) の展開手順
+## <a name="deployment-procedure-recommended"></a>展開の手順 (推奨)
 1. 最新のパッケージを取得します。
-2. MSI によって事前設定の既定値を使用します。
-3. 可能な場合にコンピューターに展開します。
+2. MSI によって事前に入力された既定値を使用します。
+3. 可能な場合、コンピューターに展開します。
 
-## <a name="how-the-microsoft-teams-msi-package-works"></a>マイクロソフト チームの MSI パッケージが機能するしくみ
+## <a name="how-the-microsoft-teams-msi-package-works"></a>Microsoft Teams MSI パッケージがどのように機能するか
 
-チームの msi ファイルには、プログラム ファイルのインストーラーが配置されます。 ユーザーが新しい Windows ユーザー プロファイルにサインインするたびに、インストーラーが起動され、チームのアプリケーションのコピーをそのユーザーの appdata フォルダーにインストールされます。 Appdata フォルダーにインストールされているチームのアプリケーションがユーザーに割り当てられている場合、MSI インストーラーはそのユーザーのプロセスをスキップします。
+Teams MSI はインストーラーを Program Files に配置します。 ユーザーが新しい Windows ユーザー プロファイルにサインインするときは常に、インストーラーが起動して Teams アプリケーションのコピーがそのユーザーのアプリデータ フォルダーにインストールされます。 ユーザーが既にアプリデータ フォルダーに Teams アプリをインストール済みの場合、MSI インストーラーはそのユーザーについてはプロセスをスキップします。
 
-クライアントが自動的に更新プログラムの新しいバージョンがサービスから利用可能なを検出したときのため、更新プログラムを展開する MSI を使わないでください。 再配置するのには、最新のインストーラーは、以下に示す MSI を再配置のプロセスを使用します。 以前のバージョンの MSI パッケージを展開する場合、クライアントは自動更新可能な場合は、ユーザーのです。 非常に古いバージョンを取得を展開する場合、ユーザーはチームを使用するのには、前に msi ファイルはアプリケーションの更新をトリガーします。 
+更新プログラムを展開するのに MSI を使用しないでください。クライアントは、サービスから利用可能な新しいバージョンを見つけたら、自動更新します。 最新のインストーラーを再展開するには、以下に説明されている MSI の再展開のプロセスを使用します。 MSI パッケージの以前のバージョンを展開すると、クライアントは自動更新をそのユーザーで可能なときに実行します。 かなり昔のバージョンが展開された場合、MSI はユーザーが Teams を使用できる状態になる前にアプリケーションの更新を開始します。 
 
 > [!Important] 
-> この更新プログラムの流れが切れることは、デフォルトのインストール先を変更することお勧めしないです。 非常に古いバージョンを持つと、ユーザーがサービスにアクセスする、最終的にブロックします。 
+> 既定のインストール場所を変更することは、更新フローが崩れる可能性があるため、お勧めしません。 かなり昔のバージョンを利用すると、ユーザーがサービスにアクセスするのを妨げる結果になってしまいます。 
 
 
-## <a name="target-computer-requirements"></a>対象のコンピューターの要件
+## <a name="target-computer-requirements"></a>ターゲット コンピューターの要件
 
-- 4.5 またはそれ以降の .NET framework
-- Windows 7 またはそれ以降
-- 3 GB (推奨)、各ユーザー プロファイル用のディスク領域の
+- .NET Framework 4.5 以降
+- Windows 7 以降
+- 各ユーザー プロファイルで 3 GB のディスク容量 (推奨)
 
-## <a name="clean-up-and-redeployment-procedure"></a>クリーンアップと再配置の手順
-ユーザー プロファイルからチームをアンインストールすると、MSI インストーラーは、ユーザーがチームのアプリケーションがアンインストールされ、不要になったチームをそのユーザーのプロファイルのインストールに追跡します。 アンインストールされた特定のコンピューターにこのユーザーのチームを再配置する、次の操作を行います。
+## <a name="clean-up-and-redeployment-procedure"></a>クリーン アップと展開の手順
+ユーザーがユーザー プロファイルから Teams をアンインストールすると、MSI のインストーラーは、そのユーザーが Teams アプリをアンインストールしたことと、そのユーザー プロファイルで今後 Teams をインストールする機会がないことを記録します。 このユーザーのために Teams がアンインストールされた特定のコンピューター上でユーザーを再展開するには、次の手順を実行します。
 
-1. チーム アプリケーションのすべてのユーザー プロファイルのインストールをアンインストールします。 
-2. アンインストール後、% の localappdata%\Microsoft\Teams\ の下を再帰的にディレクトリを削除します。 
-3. その特定のコンピューターに MSI パッケージを再展開します。
+1. それぞれのユーザー プロファイルでインストールされている Teams アプリをすべてアンインストールします。 
+2. アンインストール後、%localappdata%\Microsoft\Teams\ 以下のディレクトリを再帰的に削除します。 
+3. MSI パッケージをその特定のコンピューターに再展開します。
 
 > [!TIP] 
-> SCCM を使用して、手順 1 と 2 を実行するのには、[マイクロソフトのチームの配置のクリーンアップ](.\scripts\Powershell-script-teams-deployment-clean-up.md)スクリプトを使用できます。                              
+> [Microsoft Teams の展開のクリーン アップ](.\scripts\Powershell-script-teams-deployment-clean-up.md) スクリプトを使用して、SCCM を介して手順 1 と 2 を完了することができます。                              
 
