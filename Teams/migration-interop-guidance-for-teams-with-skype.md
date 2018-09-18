@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1028f599b3b5cacf23fa920b85c42cf8a5bd4673
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: bfd2c7efd606a143fffca25c7379f2a29bf505da
+ms.sourcegitcommit: 2a1766158b21f0387cd8e4a00aab2dcde4059fbb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884236"
+ms.lasthandoff: 09/18/2018
+ms.locfileid: "23999025"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>ビジネスのチームとは、Skype を使用する組織の移行と相互運用性のガイド
 
@@ -63,15 +63,14 @@ ms.locfileid: "23884236"
 
 5.  ビジネス ユーザーのチームと Skype との間の相互運用機能は、使用可能な*ビジネス用の Skype でチームのユーザーは、オンライン ホーム サーバーの場合*だけです。 Skype ビジネス ユーザーが所属することができますか、オンプレミス (と Skype をビジネスのハイブリッドの設定が必要です) またはオンラインです。 設置型のビジネスが Skype に置かれているユーザーは、(このドキュメントの後半で定義)、島のモードでチームを使用することができますが、チームを使用して、相互運用機能またはビジネスの Skype を使用して他のユーザーとフェデレーションを行うことはできません。  
 
-6.  チームにユーザーをアップグレードするのには (モードでは TeamsUpgradePolicy を付与、つまり = TeamsOnly)、ビジネスの Skype のオンライン ユーザーのホーム必要があります。 これは、相互運用性、フェデレーション、およびチームのユーザーの完全な管理を確実に必要です。 ホーム設置型であるユーザーをアップグレードするのにを使用して、 `Move-CsUser` 、設置から管理用ツールの最初の移動に Skype ユーザーは、オンライン ビジネスです。 次 TeamsUpgradePolicy と TeamsInteropPolicy をオンラインのユーザーに付与または TeamsOnly モードを割り当てるには、現代のポータルを使用します。
+6.  チームにユーザーをアップグレードするのには (モードでは TeamsUpgradePolicy を付与、つまり = TeamsOnly)、ビジネスの Skype のオンライン ユーザーのホーム必要があります。 これは、相互運用性、フェデレーション、およびチームのユーザーの完全な管理を確実に必要です。 ホーム設置型であるユーザーをアップグレードするのにを使用して、 `Move-CsUser` 、設置から管理用ツールの最初の移動に Skype ユーザーは、オンライン ビジネスです。 次 TeamsUpgradePolicy と TeamsInteropPolicy をオンラインのユーザーに付与または TeamsOnly モードを割り当てるには、現代のポータルを使用します。 1 回ビジネス サーバー 2015 船の Skype の CU8、顧客だけで使用して、新しい`-MoveToTeams`でスイッチを`Move-CsUser`1 に 2 つの手順を結合します。
 
 7.  アップグレードと相互運用機能を管理するための中核となるポリシーは、TeamsUpgradePolicy と TeamsInteropPolicy です。  ただし、TeamsInteropPolicy が廃止されている、すべての機能の方は TeamsUpgradePolicy が優先されます。 移行が完了するまで、顧客が設定 TeamsUpgradePolicy と TeamsInteropPolicy の両方一貫して (説明した[後](#important)でこのドキュメント) を正しく機能させる、または自動的には、この新しい近代的なポータルを使用して必要があります。
 
 8.  チームの電話システムの機能を使用するユーザー必要がありますモードでは TeamsOnly (すなわち、Skype でオンライン ビジネスのホームをアップグレードしてチーム)、および Microsoft 電話システム直接ルーティングする (これは、独自の SIP の電話システムを使用できるように構成する必要がありますかトランクと SBC) ことも、Office 365 を呼び出すことを計画します。 直接ルーティングは、[一般に利用可能な](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277)2018 年 6 月 28 日の時点で。  
 
-9.  オーディオ会議でチームのミーティングのスケジュール (ダイヤルインまたはダイヤルアウトを PSTN 経由で) は、オンライン ビジネスの Skype をホームとしているユーザーにのみ現在利用可能です。 オンプレミス Skype のビジネス アカウントでチームのユーザーのサポートを計画します。
+9.  オーディオ会議でチームのミーティングのスケジュール (ダイヤルインまたはダイヤルアウトを PSTN 経由で) は、オンライン ビジネスの Skype をホームとしているユーザーにのみ現在利用可能です。 オンプレミス Skype のビジネス アカウントでチームのユーザーのサポートは、タップでは。
 
-10. 組織ではないまだ有効になっている統合プレゼンス サービス (UPS) のメッセージのルーティングは使用できない TeamsInteropPolicy (ChatDefaultClient) または TeamsUpgradePolicy (モード) のいずれかです。 UPS の導入は、今後数週間以内に完了すると、TeamsInteropPolicy または TeamsUpgradePolicy が受け入れられます。 最終的に唯一の TeamsUpgradePolicy は受け入れられます。
 
 ## <a name="coexistence-modes"></a>共存モード
 
@@ -165,7 +164,7 @@ $Policy が上記の id の値のいずれか、次のコマンドレットの�
 
 ## <a name="federation-considerations"></a>フェデレーションに関する考慮事項
 
-チームからビジネス用の Skype を使用して別のユーザーのフェデレーションでは、ビジネスの Skype でオンライン チームのユーザーが所属する必要があります。 フェデレーションでは、パイロットと段階的に利用可能になります。 組織では、フェデレーションが必要とする場合は、フェデレーションのサポートになるまではアップグレードしないでください。 最終的のビジネス、オンプレミス ユーザーが Skype で所属チームは他のチームのユーザーとフェデレーションを行うことになります。
+チームからビジネス用の Skype を使用して別のユーザーのフェデレーションでは、ビジネスの Skype でオンライン チームのユーザーが所属する必要があります。 最終的のビジネス、オンプレミス ユーザーが Skype で所属チームは他のチームのユーザーとフェデレーションを行うことになります。
 
 フェデレーション サポートを有効にすると、TeamsUpgradePolicy (および移行中に TeamsInteropPolicy) は、受信フェデレーション チャットと通話のルーティングを制御します。 ユーザーが組織内でフェデレーション通信を開始する他の組織を容易にするをお勧めするいずれかの方法を具体的にはルーティング モードを選択する島ではなく、ビジネスまたはチームは、Skype にします。
 </br>
@@ -267,10 +266,6 @@ TeamsAppPolicy が使用可能になるまで基本的には TeamsUpgradePolicy 
 |**状態**|タップのお客様は、今すぐ管理エクスペリエンスの 3 つのモードを参照してください。 変更 1 土地のサポート、その他のモードが利用できます。 SfBOnly モードは現在は禁止、チームを使用しますが、将来的にします。 |
 |||
 
-## <a name="known-issues"></a>既知の問題
-
-- をチームで新しい会話を作成するときのチャットもまだ認めません TeamsUpgradePolicy または移動先のユーザーの TeamsInteropPolicy。 修正プログラムが予定されています。
-- をビジネス用の Skype の新しい会話を作成するときのチャットもまだ認めません TeamsUpgradePolicy または TeamsInteropPolicy 組織は UPS とメッセージングの相互運用機能をまだ有効になっていない場合です。
 
 ## <a name="related-topics"></a>関連トピック
 
