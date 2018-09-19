@@ -13,18 +13,17 @@ ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: '(PSTN の呼び出し)、Office 365 と何ができるかについては、それらの呼び出し元の計画に関する既知の問題について説明します。 '
-ms.openlocfilehash: e43aecea6bd19c6b346de68577f471214818d43f
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 7db9f99a2884d78c07df1cb5d020ae9e8335515c
+ms.sourcegitcommit: d21e7ef1d4e36f4aced606e11837c693e8fd6410
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854159"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "23999166"
 ---
 # <a name="calling-plans-known-issues"></a>通話プランの既知の問題
 

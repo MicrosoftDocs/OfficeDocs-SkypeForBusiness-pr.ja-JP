@@ -15,42 +15,27 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'ダイヤルイン会議プロバイダー、ステータス、およびいくつかの回避策として、Microsoft を使用する場合は、既知の問題の一覧を取得します。 '
-ms.openlocfilehash: e5c6144081eb68426d3be53efb0ac9e9acbf41bd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 997cc5007df35b307cb714b891bc60764bd4a645
+ms.sourcegitcommit: d21e7ef1d4e36f4aced606e11837c693e8fd6410
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887463"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "23999176"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>電話会議のトラブルシューティングと既知の問題
 
- **[] **この記事は、電話会議プロバイダーとして Microsoft を利用している Skype for Business ユーザーと Microsoft Teams ユーザーを対象としています。サードパーティーの電話会議プロバイダー (ACP) を利用しているお客様は対象ではありません。****
+ **この資料が、Skype のビジネス ユーザーが Microsoft を使用して、オーディオ会議プロバイダーとしてです。それは、サード ・ パーティ製の音声会議プロバイダー (ACP) を使用しているユーザーには適用されません。**
   
 ## <a name="troubleshooting-and-known-issues"></a>トラブルシューティングと既知の問題
 
 Microsoft を電話会議プロバイダーとして使う電話会議には、現在追跡中で、積極的に調査が行われている問題があります。この問題は、Office 365 の今後のリリースで機能が更新されると解決される可能性があります。
   
-当面この情報は、電話会議のセットアップと、組織内の Skype for Business または Microsoft Teams アプリを使用するユーザーの処理で発生する可能性のある問題をトラブルシューティングするときの参考用としてください。
-  
-### <a name="microsoft-teams-app"></a>Microsoft Teams アプリ
-
-|**問題**|**動作/現象**|**既知の回避策**|**発見日**|
-|:-----|:-----|:-----|:-----|
-|同じ発信元電話番号の PSTN 発信者が、会議の参加者リストで同じユーザーとして表示される。  <br/> |複数の PSTN 発信者が会議に参加すると、それらの発信者番号が単一の番号としてマスキングされている場合、会議の参加者リストに単一の発信者として表示されてしまいます。  <br/> |回避策なし。  <br/> |9/25/2017  <br/> |
-|会議情報パネルが断続的に表示されない。  <br/> |ユーザーが会議ブリッジの電話番号または会議 ID を調べようと試みるときに、会議情報パネルが Teams クライアントに表示されない場合があります。  <br/> |会議の詳細または Outlook の予定表を参照して、会議ブリッジの電話番号または会議 ID を確認してください。  <br/> |9/25/2017  <br/> |
-|Outlook アドインからの会議の招待が、非 US ロケールに対する PSTN 調整で文字化けして表示される。  <br/> |非 US ロケールで設定されたコンピューター上の Microsoft Teams で Outlook アドインを使用してプライベート会議をスケジュールするときに、PSTN 調整で文字化けが発生することがあります。  <br/> |回避策なし。  <br/> |9/25/2017  <br/> |
-|ダイヤル アウトで 5 桁以上の数字を使う必要がある。  <br/> |会議からダイヤル アウトを試みるユーザーは、短縮桁ダイヤルを E.164 に正規化するダイヤル プランの正規化ルールが利用可能である場合でも、5 桁以上の数字を入力する必要があります。  <br/> |社内の内線番号ではなく、完全な DID 番号またはローカルの電話番号の形式で入力してダイヤル アウトしてください。  <br/> |9/25/2017  <br/> |
-|ダイヤル アウトのコントロールが断続的に表示されない。  <br/> |ダイヤル アウトのコントロールが会議情報パネルで表示されない場合がある。  <br/> |回避策なし。  <br/> |9/25/2017  <br/> |
-|静的会議 ID が Microsoft Teams 会議でサポートされない。  <br/> |管理者が既定の設定を動的会議 ID から静的会議 ID に上書きすると、その設定が Microsoft Teams 会議で有効になりません。 [組織内のオーディオ会議を使用して動的な Id](using-audio-conferencing-dynamic-ids-in-your-organization.md)を参照してください。  <br/> |回避策なし。  <br/> |9/25/2017  <br/> |
-|Skype for Business オンプレミス ユーザーは PSTN 会議の座標を使用できません  <br/> |Skype for Business Online、電話会議、および Teams ライセンスが割り当てられているユーザーが Skype for Business オンプレミス ユーザーの場合、Teams を使用してスケジュールされているすべての会議には、PSTN 会議の座標は含まれません。 <br/> |回避策なし。  <br/> |2/1/2018  <br/> |
-   
-### <a name="skype-for-business-app"></a>Skype for Business アプリ
+ここでは、これを参照として使用オーディオ会議の設定を取得して、組織内のビジネスの Skype を使用するユーザーの作業に潜在的な問題をトラブルシューティングする場合。
 
 |**問題**|**動作/現象**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|

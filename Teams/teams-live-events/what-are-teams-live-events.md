@@ -10,12 +10,12 @@ search.appverid: MET150
 description: どのようにビデオ、およびマイクロソフトのチーム、Yammer、および Microsoft のストリームでの大規模なオンライン ユーザーを対象にコンテンツをブロードキャストするユーザーを有効にするイベントについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fb22c259e97e27aa45d4874bc95aef7962c6024
-ms.sourcegitcommit: 53089c4c9bdf219f02eae2827432a4f40eaa9cd5
+ms.openlocfilehash: b99bd690bf504645d2967dbab31c3f58fc50fd92
+ms.sourcegitcommit: d21e7ef1d4e36f4aced606e11837c693e8fd6410
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23893709"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "23999245"
 ---
 # <a name="what-are-teams-live-events"></a>ライブ イベントをチームは何ですか。
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -67,7 +67,7 @@ Organizaiton で大規模な会議を保持するためにチームのライブ 
 次の前提条件は、チームのライブ イベントのスケジュールを設定する必要があります。
 
 ここでは、ライセンスを割り当てる必要があります。  
-- Office 365 エンタープライズ E3 または E5 のライセンスです。 
+- Office 365 エンタープライズ E1、E3、E5 のライセンス、または Office 365 の A3 または A5 のライセンスです。 
 - マイクロソフトのチーム、ビジネス用の Skype とストリームの Microsoft のライセンスです。
 
 Office 365 のライセンスが認証されたユーザーとしてのライブ イベントに参加するために必要なですが、これは使用される運用方法に依存する必要があります。
