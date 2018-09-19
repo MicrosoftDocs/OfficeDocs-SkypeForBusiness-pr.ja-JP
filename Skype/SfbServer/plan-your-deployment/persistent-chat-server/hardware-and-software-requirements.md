@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: '概要: ビジネス サーバー 2015 の Skype での永続的なチャット サーバーのハードウェアおよびソフトウェアの要件の詳細については、このトピックを読みます。'
-ms.openlocfilehash: 16a04616a1ec15b4cfffc17cd3a3d9bc271b0dde
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 487ee3beac288bc3573d640afa18aa790774b9c3
+ms.sourcegitcommit: a9bf4de79c84d239488455575322188a03535f71
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21027004"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "24013531"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の常設チャット サーバーのハードウェアおよびソフトウェア要件
  
@@ -63,6 +63,8 @@ ms.locfileid: "21027004"
 データベース サーバー プラットフォームを準備するには、各コンピューターがハードウェア要件を満たしていることを確認した後、必要なソフトウェアをインストールします。 データベースの永続的なチャット サーバーのサーバー プラットフォームでは、ビジネス サーバー 2015 のバックエンド データベース サーバーに、Skype と同じハードウェアが必要です。 詳細については、[ビジネス サーバー 2015 の Skype のサーバーの要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)を参照してください。
   
 次のどちらかのソフトウェア アプリケーションがデータベース サーバーにインストールされていることを確認してください。
+
+- Service Pack 1 とすると、Microsoft SQL Server 2016 は、Skype でビジネス サーバーの累積的な更新プログラム 7 またはそれ以降のリリースを実行しなければなりません。 最新の service pack と 2016 の SQL Server を実行していることをお勧めします。 2016 の Microsoft SQL Server をインストールする方法の詳細については、 [SQL Server 2016 のインストール](https://docs.microsoft.com/pt-pt/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016)を参照してください。
 
 - Microsoft SQL Server の 2014 年とするは、ビジネス サーバーの累積的な更新 6 またはそれ以降のリリースの Skype で実行する必要があります。 最新の service pack と 2014 を SQL Server を実行していることをお勧めします。 2014 の Microsoft SQL Server をインストールする方法の詳細については、 [SQL Server の 2014 のインストール](https://docs.microsoft.com/pt-pt/sql/database-engine/install-windows/install-sql-server?view=sql-server-2014)を参照してください。
 

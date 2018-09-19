@@ -8,17 +8,18 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
+ms.collection: Teams_ITAdmin_PracticalGuidance
 description: タスクとサービスの稼働状態を監視および評価の使用状況、ネットワークの品質を確保など、チームのサービス管理に必要な作業です。
 localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4ad66e072b68a27848c3504f9b968b03bde1d4e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 4a3ff11ecf2a4c3ce6aba581adb0d50e7188b351
+ms.sourcegitcommit: a9bf4de79c84d239488455575322188a03535f71
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882327"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "24013516"
 ---
 # <a name="operate-my-service"></a>自分のサービスを実施します。
 
