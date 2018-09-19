@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4c3f795df06735c735ac29b6f46c6c8d8e9d46c
-ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
+ms.openlocfilehash: a422cb18cf6105ead7f0a76096a6cb5a755a1906
+ms.sourcegitcommit: 8537814aabddd7e7a6d1148c8c71ea14ae0c499a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23937867"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "24009046"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携 
 =========================================
@@ -33,14 +33,16 @@ Exchange Online 専用 – レガシーまたは Exchange On-premises にホス�
 
 **サポートされるアクション:** 
 
-| ユーザーのメールボックスのホスト先: | 証拠開示が可能| 訴訟ホールド | 保存期間| チームとチャネルの管理 |会議を作成して表示する| ユーザー プロフィールの写真を変更する | 通話履歴 | 連絡先を管理します。 | Outlook の連絡先にアクセスします。 | ボイスメール |コネクタを追加して構成する|タブを追加して構成する|ボットを追加して構成する| 
+| ユーザーのメールボックスのホスト先: | 電子情報開示| 訴訟ホールド | 保存期間| チームとチャネルの管理 |会議を作成して表示する| ユーザー プロフィールの写真を変更する | 通話履歴 | 連絡先を管理します。 | Outlook の連絡先にアクセスします。 | ボイスメール |コネクタを追加して構成する|タブを追加して構成する|ボットを追加して構成する| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|はい|はい|はい|あり|はい|はい|はい|はい|はい|はい|はい|はい|はい|
-|**Exchange Online 専用 vNext**|はい|はい|あり|あり|あり|はい|はい|あり|はい|はい|はい|あり|はい|
-|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|([許可一覧](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US)) を [はい] します。|なし|なし|あり|なし|なし|あり|あり|なし|なし|なし|あり|はい|
-|**Exchange On-premises** (Azure AD との同期が必要)|([許可一覧](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US)) を [はい] します。|なし|なし|あり|[はい] (Exchange 2016 CU3 +)|なし|あり|あり|なし|なし|なし|なし|はい|
+|**Exchange Online**|<sup>2</sup>を [はい] します。|<sup>2</sup>を [はい] します。|はい|あり|はい|はい|はい|はい|はい|はい|はい|はい|はい|
+|**Exchange Online 専用 vNext**|<sup>2</sup>を [はい] します。|<sup>2</sup>を [はい] します。|あり|あり|あり|はい|はい|あり|はい|はい|はい|あり|はい|
+|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|はい ([許可一覧](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))<sup>2</sup>|はい、<sup>2、3</sup>|なし|あり|なし|なし|あり|あり|なし|なし|なし|あり|はい|
+|**Exchange On-premises** (Azure AD との同期が必要)|はい ([許可一覧](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))<sup>2</sup>|はい、<sup>2、3</sup>|なし|あり|[はい] (Exchange 2016 CU3 +)|なし|あり|あり|なし|なし|なし|なし|あり|
                                                             
-*\*Exchange 2016 CU3 以降でサポートされます*
+<sup>1</sup> 2016 CU3 を交換しての上には、サポート  
+<sup>2</sup>電子的証拠開示およびチャネルのメッセージでのコンプライアンスのための法的保持義務は、ホストのすべてのオプションに対してサポートされます。  
+<sup>3</sup>チーム秘密のチャット メッセージは未サポートこのホスティング オプションは、法的保持義務を。
 
 追加情報:
 
@@ -55,6 +57,8 @@ Exchange Online 専用 – レガシーまたは Exchange On-premises にホス�
 -   ユーザーが Microsoft Teams でチームを作成するためには、Office 365 グループの作成について有効になっている必要があります。
 
 -   Microsoft Teams では、電子情報開示、コンテンツ検索、アーカイブ、訴訟ホールドのようなセキュリティおよびコンプライアンスの機能は Exchange Online と SharePoint Online の環境で最適に動作します。チャネルの会話の場合、メッセージは Exchange Online 内のグループ メールボックスにジャーナリングされます。これらのメッセージは電子情報開示で利用できます。SharePoint Online と OneDrive for Business (職場または学校のアカウントを使用) が組織全体とユーザーに対して有効な場合は、これらのコンプライアンス機能も Teams 内のすべてのファイルに対して利用できます。
+
+-   設置型の Exchange (ハイブリッド展開)、 [Exchange および Exchange Online 組織間で認証を構成する OAuth](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx)で説明したように、OAuth を構成する必要があります。 
 
 > [!NOTE]
 > すべての会議のディスカッションを検出可能にするというコンプライアンス要件が組織に対して課せられている場合、会議の開催者が Exchange オンプレミス メールボックスを利用しているならば、プライベート会議を無効にすることをお勧めします。
