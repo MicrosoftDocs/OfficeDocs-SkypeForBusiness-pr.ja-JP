@@ -328,7 +328,6 @@
 #### [電話会議に関するよくある質問](audio-conferencing-common-questions.md)
 #### [分数ごとの従量課金制の電話会議 ](audio-conferencing-pay-per-minute.md)
 #### [電話会議でサポートされる言語](audio-conferencing-supported-languages.md)
-#### [電話会議のトラブルシューティングと既知の問題](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [電話会議ブリッジの設定を変更する](change-the-settings-for-an-audio-conferencing-bridge.md)
 #### [電話会議ブリッジの電話番号を変更する](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 #### [会議からダイヤルアウトして他のユーザーが参加できるようにする](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
@@ -473,7 +472,7 @@
 #### [監視し、直接ルーティングのトラブルシューティングを行う](direct-routing-monitor-and-troubleshoot.md)
 #### [PSTN への接続を持つハイブリッド環境でのユーザー アカウント](direct-routing-user-accounts-in-a-hybrid-environment.md)
 #### [複数のテナントのセッション ボーダー コント ローラーを構成します。](direct-routing-sbc-multiple-tenants.md)
-#### [セッション ボーダー コント ローラーが直接ルーティングするための認定の一覧](direct-routing-border-controllers.md)
+#### [ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト](direct-routing-border-controllers.md)
 ### [マイクロソフト チーム オンライン呼び出しのフロー](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 
