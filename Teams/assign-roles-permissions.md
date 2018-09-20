@@ -1,9 +1,9 @@
 ---
-title: Microsoft Teams で役割と権限を割り当てる
+title: チーム所有者およびマイクロソフトのチームのメンバーを割り当てる
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 08/27/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dansteve
@@ -13,20 +13,20 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da4bae93a35775141c246145e1375e73963ec120
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a2fd9f611d616f368973ced432e886bf4ba9d8f5
+ms.sourcegitcommit: ab4476127222d9f0aa9ee503132ff9bdabcaf9bc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892699"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "24021811"
 ---
-<a name="assign-roles-and-permissions-in-microsoft-teams"></a>Microsoft Teams で役割と権限を割り当てる
-===============================================
+<a name="assign-team-owners-and-members-in-microsoft-teams"></a>チーム所有者およびマイクロソフトのチームのメンバーを割り当てる
+=================================================
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Microsoft Teams には、**所有者**と**メンバー**の 2 つの役割があります。既定では、新しいチームを作成するユーザーに所有者の状態が付与されます。既存の Office 365 グループからチームを作成する場合は、そのグループの権限が継承されます。
+マイクロソフトのチーム内では、2 つのユーザー ロール:**所有者**と**メンバー**です。 既定では、新しいチームを作成したユーザーに所有者のステータスが与えられます。 チームが既存の Office 365 グループから作成されると、アクセス許可は継承されます。
 
 所有者とメンバーの権限の違いを以下の表に示します。
 
@@ -43,7 +43,7 @@ Microsoft Teams には、**所有者**と**メンバー**の 2 つの役割が�
 |**タブの追加**      |はい         |はい*         |
 |**コネクタの追加**      |はい         |はい*         |
 |**ボットの追加**      |はい         |はい*         |
-\* 所有者はこれらの項目をチーム レベルでオフにできます。その場合、メンバーは項目にアクセスできなくなります。
+\*これらの項目がオフにするチーム レベルでは、所有者によって場合、メンバーにはアクセスすることはありません。
 
 \*\*チームへのメンバーの追加後、所有者はメンバーを所有者の状態に昇格させることもできます。また、所有者は自分のステータスをメンバーに降格させることもできます。
 

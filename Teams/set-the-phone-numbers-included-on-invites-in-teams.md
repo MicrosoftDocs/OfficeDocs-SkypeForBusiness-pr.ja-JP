@@ -1,5 +1,5 @@
 ---
-title: Microsfot Teams で招待状に含まれている電話番号を設定する
+title: マイクロソフトのチームでの携帯電話への招待に含まれている番号の設定します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,17 +19,17 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: '発信者が Microsfot Teams 会議に参加するための既定の電話番号を作成する手順を説明します。 '
-ms.openlocfilehash: eddab0762b679dba08dd9981d6ae61a1403ebf47
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+description: 'マイクロソフトのチーム ミーティングに参加するのには呼び出し元の既定の電話番号を作成する手順を取得します。 '
+ms.openlocfilehash: be873d6419e74027c3db9a157c82379836a7a463
+ms.sourcegitcommit: ab4476127222d9f0aa9ee503132ff9bdabcaf9bc
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882961"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "24021851"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Microsfot Teams で招待状に含まれている電話番号を設定する
 
-Office 365 の電話会議では、組織内のユーザーが Microsoft Teams 会議を作成することができます。ユーザーは電話を使用して作成した会議にダイヤルインすることができます。 Office 365 では、Microsoft を電話会議ブリッジとして使うか、承認済みの電話会議プロバイダー (ACP) によってホストされているサードパーティ ダイヤルイン会議ブリッジを使うオプションを選ぶことができます。
+マイクロソフト チームの会議を作成して、電話を使用してその会議にダイヤルインするユーザーを許可し、組織内のユーザーを Office 365 での音声会議に使用できます。 、Office 365 では、マイクロソフトのオーディオ会議ブリッジまたは、承認済みの音声会議プロバイダー (ACP) によってホストされているサード ・ パーティ製のオーディオ会議ブリッジを使用するオプションがあります。
   
 会議ブリッジは、組織用のダイヤルイン電話番号のセットを提供します。これらの番号はすべて会議開催者が作成した会議に参加するために使用できますが、会議出席依頼にどの番号を含めるか選ぶことができます。
   
