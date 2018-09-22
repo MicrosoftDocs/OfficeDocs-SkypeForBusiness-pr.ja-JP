@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Skype for Business の新しい番号の取得方法、既存の番号の移行または転送方法、およびユーザーに変更を表示する方法を説明します。 '
-ms.openlocfilehash: 836e277c60bbedae8e18325e6419b51f00409904
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 9bbeaa180cf09e969af412c6ee10651d7a9a7f04
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884501"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958133"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>ユーザー用に電話番号を取得する
 
@@ -117,7 +117,7 @@ ms.locfileid: "23884501"
 
 [緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

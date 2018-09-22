@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: については、Skype をビジネスの電話番号を請求するは、数値を転送する方法に関するステップ バイ ステップの指示を取得する場所です。
-ms.openlocfilehash: 748ea9603cf0e3fef7dc19dc2a148025e33ab205
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: b0eb2d3b2a4740759b2ea13eb5cddb1691392a48
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849785"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958263"
 ---
 # <a name="what-is-my-billing-telephone-number"></a>請求先電話番号について
 
@@ -45,7 +45,7 @@ ms.locfileid: "23849785"
 
 [緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

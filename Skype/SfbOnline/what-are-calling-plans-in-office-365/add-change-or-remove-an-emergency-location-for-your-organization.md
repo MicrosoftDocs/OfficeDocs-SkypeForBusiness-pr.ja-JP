@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '公衆交換電話網 (PSTN) で Skype for Business が使用する組織の緊急対応の場所を追加、変更、削除する方法を説明します。 '
-ms.openlocfilehash: 68c4e60288a85f39b198eb0ea1bd05e6a1e7f5e6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 862d62af8db8275e304c1522ae19a80d9ebcfec4
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883680"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958273"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>組織の緊急対応の場所を追加、変更、削除する
 
@@ -77,7 +77,7 @@ Office 365 の通話プランの取得方法とプランの費用については
     
 5. [**関連づけられている場所**] で、場所のリンクの横にある [**削除**] をクリックします。
     
-6. [ **保存**] をクリックします。
+6. [**保存**] をクリックします。
     
 ## <a name="related-topics"></a>関連トピック
 [住所検証について](what-is-address-validation.md)
@@ -86,7 +86,7 @@ Office 365 の通話プランの取得方法とプランの費用については
 
 [緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

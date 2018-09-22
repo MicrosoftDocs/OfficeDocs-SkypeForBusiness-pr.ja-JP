@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 設定し、分析機能の呼び出しを使用して特定し、Skype のビジネスおよびマイクロソフトのチームの通話品質の問題に関するトラブルシューティングを行います。
-ms.openlocfilehash: dfb21c852142b0ba6ec90d5c216ace0eecbf8003
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: de2484dac64623ed3f37c544877d48187f5ca5f9
+ms.sourcegitcommit: 63a560c05b4fa3bda3abc31ef5dffe60e61e4d67
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861976"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24961005"
 ---
 # <a name="set-up-call-analytics"></a>分析機能の呼び出しを設定します
 
@@ -71,11 +71,11 @@ Skype のオンライン ビジネスの管理、分析機能の呼び出しを�
     > [!NOTE]
     > **マイクロソフトのチームとビジネス管理センターの Skype**を使用する場合は左側のナビゲーションでは、**従来のポータル**をクリックします。
   
-3. **(プレビュー) を呼び出して分析機能**では、**アクセス許可**をクリックします。
+3. **ツール**を選択 > **Skype**を呼び出すビジネス分析 (プレビュー) を > **の設定**、し、[**権限**] をクリックします。
     
 4. **第 1 層**および**第 2 層**のボックスには、Office 365 のセキュリティ グループを追加します。 各ロールに複数のグループを追加できます。
     
-     ![スクリーン ショットは、第 1 層および第 2 層のアクセス許可のオプションを使用して分析を呼び出すページのアクセス許可を示しています。](media/ed5b6b05-b407-4363-8cf0-a6e79027f64b.png)
+     ![スクリーン ショットは、第 1 層および第 2 層のアクセス許可のオプションを使用して分析を呼び出すページのアクセス許可を示しています。](media/setup-call-analytics-image1.png)
   
  どちらのアクセス許可レベルを持つユーザーが専用の URL を使用して分析機能の呼び出しを取得*https://adminportal.services.skypeforbusiness.com*。
   
@@ -90,7 +90,7 @@ Skype ビジネス管理者の場合は、ビジネス オンライン コール
   
 .Tsv または .csv ファイルを最初から作成する場合は、[テナントのデータ ファイルの形式とデータ ファイルの構造の構築](turning-on-and-using-call-quality-dashboard.md#BKMKTenantDataFile)を参照してください。
   
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 <a name="BKMK_UploadFiles"> </a>
 
 [通話分析を使用して低い通話品質をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)

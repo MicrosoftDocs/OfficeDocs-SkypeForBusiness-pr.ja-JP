@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: '内容に追加する必要アカウント番号として、ビジネスの Skype と入手できる場所を参照してください。 '
-ms.openlocfilehash: ef6cdc8a5eeebb3f64a41410062b045da08b066f
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 3f539b886e16eaa106347fbff113763fb451ddb5
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23863293"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958243"
 ---
 # <a name="what-should-i-put-in-for-the-account-number"></a>アカウントの番号に記入する内容について
 
@@ -47,7 +47,7 @@ ms.locfileid: "23863293"
 
 [緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

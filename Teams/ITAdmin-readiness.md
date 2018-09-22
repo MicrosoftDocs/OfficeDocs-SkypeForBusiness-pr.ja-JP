@@ -1,50 +1,262 @@
 ---
 title: Microsoft Teams の管理者トレーニング
-author: LolaJacobsen
-ms.author: lolaj
+author: LanaChin
+ms.author: v-lanac
 manager: serdars
-ms.date: 03/12/2018
-ms.topic: article
+layout: landingpage
+ms.date: 09/21/2018
+ms.topic: landing page
 ms.service: msteams
 search.appverid: MET150
-description: Microsoft Teams を紹介し、Microsoft Teams を計画、展開、運用する方法を管理者向けに説明するトレーニング ビデオ。
-ms.custom:
-- NewAdminCenter_Update
+description: トレーニング ビデオ、チュートリアル、およびその他のリソースを計画する方法には、展開、およびマイクロソフトのチームを実行します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04f8951422737ebe0b8371797f57c734632f8843
-ms.sourcegitcommit: 2a1766158b21f0387cd8e4a00aab2dcde4059fbb
+ms.openlocfilehash: 1c6d3601e72e829f2c00fd166c3b249872e48347
+ms.sourcegitcommit: 63a560c05b4fa3bda3abc31ef5dffe60e61e4d67
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/18/2018
-ms.locfileid: "23998985"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24960956"
 ---
-<a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
-==================================
+# <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
+
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-組織での Teams とドライブの用途について説明します。 新しいビデオがあるか、定期的に確認してください。
+チームについて説明し、組織内の使用状況をドライブするには、これらのチュートリアル、ビデオ、およびその他のトレーニング リソースを使用します。 新しいコンテンツをここに戻って頻繁にチェックします。 
 
+<ul class="panelContent cardsFTitle">
+    <li>
+        <a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="Get started" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>チームと共同で開始します。</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+   <li>
+        <a href="https://docs.microsoft.com/microsoftteams/tutorial-journey-skypeforbusiness-to-teams">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/flag-blue.svg" alt="Flag" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>チームに、ビジネスの Skype からアップグレードの旅に、チュートリアルを実施します。</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+   <li>
+        <a href="https://docs.microsoft.com/microsoftteams/enduser-training">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Users people" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>ユーザーのトレーニングを受ける</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+ <li>
+        <a href="https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/video-play.svg" alt="video play" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>YouTube でチームのチャネルを確認します。</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+ <li>
+        <a href="https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/success.svg" alt="success" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>YouTube でクラウドのチャネルでコーヒーのベスト ・ プラクティスと方法のビデオを表示します。</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
 
-|  |  |
-|---------|---------|
-| [マイクロソフトのチームにビジネス用の Skype からのアップグレードのチュートリアル:](tutorial-journey-skypeforbusiness-to-teams.yml) |手順を説明するすべてのオンライン ビジネス用 Skype からチームへのアップグレードについて理解する必要があります。  |
-| [チームで電話会議のチュートリアル:](Tutorial-Audio-Conferencing.yml) | この対話型トレーニングでは、チームでのオーディオ会議について説明します。 |
-| [クイック スタート: 教育管理者は、マイクロソフトのチーム](teams-quick-start-edu.yml) |教育機関の IT 管理者の場合は、Teams を組織全体にわたり展開します。   |
-| [クイック スタート: マイクロソフトのチームでプランの呼び出しを構成します。](configuring-teams-calling-quickstartguide.md)| Teams で通話プランを設定するためのクイック スタート ガイドです。 |
-| [チュートリアル: Teams での通話について理解する](tutorial-calling-in-teams.yml)  |  このトレーニングでは、Office 365 の電話システム機能によって提供される Teams の通話機能について紹介します。 電話システムを実装するために必要となる技術計画や、電話システムを構成する方法や、その実装での使用量と通話品質を監視する方法についての説明も含まれます。  |
-| [電話会議のビデオ](audio-conferencing-videos.md) |IT 管理者に Teams での電話会議を紹介するビデオ。  |
-| [チュートリアル: Teams での会議](tutorial-meetings-in-teams.yml) | このトレーニングでは、チームでミーティングを紹介します。 会議機能、および要件と計画に関する考慮事項について説明します。 |
-| IT プロフェッショナル向けのマイクロソフトのチームの基礎  |<iframe width="320" height="240" src="https://www.youtube.com/embed/xJBvJTDiQqg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>|
-| Deploying and operating Teams (Teams の展開と運用)   | <iframe width="320" height="240" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
-| Windows デスクトップ クライアント   | <iframe width="320" height="240" src="https://www.youtube.com/embed/zp1_wGzq1ic?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> |
-| マイクロソフト チーム (プレビュー) のルーティングを指示します。   | <iframe width="320" height="240" src="https://www.youtube.com/embed/dVkc5Bs926Q" frameborder="0" allowfullscreen></iframe>   |
-| Deep dive into Guest Access (ゲスト アクセスの詳細) <br>Coffee in the Cloud session with Laith Al and Karuana Gatimu (Laith Al とKaruana Gatimu と Coffee in the Cloud セッション)  | <iframe width="320" height="240" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
-| e-Discovery in Microsoft Teams (Microsoft Teams における電子情報開示) <br> Coffee in the Cloud session with Ansuman Acharya and Karuana Gatimu (Ansuman Acharya と Karuana Gatimu との Coffee in the Cloud セッション)  | <iframe width="320" height="240" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
-| Teams: Step-by-step intro for using, enabling and managing the experience (Teams: エクスペリエンスの使用、有効化、管理の手順) <br> Microsoft Mechanics session with Dan Stevenson and Jeremy Chapman (Dan Stevenson と Jeremy Chapman との Microsoft Mechanics セッション) |  <iframe width="320" height="240" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |
-| Managing the App Experience in Microsoft Teams (Microsoft Teams でのアプリの機能と操作性を管理する) <br> Coffee in the Cloud session with Karuana Gatimu (Karuana Gatimu と Coffee in the Cloud セッション)  | <iframe width="320" height="240" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
+    
+</ul>
+****************
 
-
+<h2>おすすめトレーニング</h2>
+<ul class="panelContent cardsW">
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Skype for Business から Teams への移行</h3>
+                         <p>[チュートリアル: Skype for Business から Teams への移行](tutorial-journey-skypeforbusiness-to-teams.yml)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>アーキテクチャ</h3><p>[ビデオ: 基礎・ チームの主要なコンポーネント](https://www.youtube.com/watch?v=xJBvJTDiQqg)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>計画し、展開</h3>
+                         <p>[クイック スタート: Teams の計画ガイド](quick-start-enable-teams.md)</p>
+                         <p>[ビデオ: チームの Windows デスクトップ クライアント](https://www.youtube.com/watch?v=zp1_wGzq1ic)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li> <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>教育用 Teams</h3>
+                        <p>[クイック スタート: 教育の管理者のチーム](teams-quick-start-edu.yml)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+<li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>チームとチャネル</h3>
+                         <p>[ビデオ: チームを稼動させる](https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b)</p>
+                         <p>[チームの所有者のガイドを目指すビデオ:](https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547")</p>
+                         <p>[チュートリアル: PowerShell を使用して会社全体のチームを作成する](company-wide-team-creation-powershell.yml)</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>セキュリティとコンプライアンス</h3>
+                       <p>[ビデオ: チームで電子的証拠開示を理解します。](https://www.youtube.com/watch?v=OF65_p_07cE)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+        <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>会議</h3>
+                        <p>[チュートリアル: Teams での会議](tutorial-meetings-in-teams.yml)</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>アプリケーションとツール</h3>
+                        <p>[ビデオ: タブのツールを追加します。](https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3)</p>
+                        <p>[[コマンド] ボックスを使用するビデオ。](https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b)</p>
+                        <p>[ビデオ: コマンド バーの概要](https://www.youtube.com/watch?v=wYrRCRphrp0)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+<li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>電話会議</h3>
+                         <p>[チームで電話会議のチュートリアル:](tutorial-audio-conferencing.yml)</p>
+                         <p>[ビデオ: オーディオ会議の概要](https://www.youtube.com/watch?v=AGPvaW4Vg0o)</p>
+                         <p>[ビデオ: は、オーディオ会議を計画します。](https://www.youtube.com/watch?v=AWbuvcWcYIc)</p>
+                         <p>[ビデオ: 番号、電話会議の移植](https://www.youtube.com/watch?v=5k0C21KAsns)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>通話プラン</h3>
+                         <p>[クイック スタート: チームの計画を呼び出すことを構成します。](configuring-teams-calling-quickstartguide.md)</p>
+                         <p>[チュートリアル: Teams での通話について理解する](tutorial-calling-in-teams.yml)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>直接のルーティング</h3>
+                        <p>[ビデオ: 直接のチーム - プレビュー用のルーティング](https://www.youtube.com/watch?v=dVkc5Bs926Q)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+      </ul>
 
 

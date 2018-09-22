@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65ad125380a60116592a68eeac466c46d7daa723
-ms.sourcegitcommit: 2a1766158b21f0387cd8e4a00aab2dcde4059fbb
+ms.openlocfilehash: 07cc04f47da980bfb5a637c1cfe6bc2b72a26f8f
+ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/18/2018
-ms.locfileid: "23998993"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "24967360"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================
@@ -48,9 +48,9 @@ Teams の会議アドインでは、ユーザーが認証要件を使用して T
 
 ## <a name="enable-private-meetings"></a>プライベート会議を有効にする
 
-プラグインがデプロイされるようにするには、[Office 365 管理センター](https://portal.office.com/adminportal/home)で [Allow scheduling for private meetings (プライベート会議の予約を許可する)] が有効になっている必要があります。
+チームと Skype プラグインのビジネス管理センターの配置を取得するを有効にする必要があります秘密の会議のスケジュール設定を使用できます。 **会議**には、管理センターで、 > **ミーティングのポリシー**、し、 **[全般**] セクションで、表示または非表示**プライベートな会議のスケジュールを許可する**にします)。
 
-![Office 365 管理センターの [通話と会議] セクションの設定を示すスクリーンショット。](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
+![チームとビジネス管理センターの Skype の設定のスクリーン ショットです。](media/teams-add-in-for-outlook-image1.png)
 
 Teams クライアントはユーザーが必要としているのが 32 ビット版か 64 ビット版かを判断して正しいアドインをインストールします。
 

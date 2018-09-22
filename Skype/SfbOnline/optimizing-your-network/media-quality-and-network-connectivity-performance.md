@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: このトピックは、オンライン ビジネス サービスの Skype のネットワーク パフォーマンスの要件のセットを定義し、ネットワークの評価に基づくビジネス オンラインの Skype、ネットワーク間の接続、インターネットまたは ExpressRoute を使用する選択する方法接続します。 Azure ExpressRoute Office 365 に専用の接続を導入する場合、別の Skype のオンライン ビジネスの展開シナリオで、ExpressRoute の接続を計画する方法のガイダンスも提供します。
-ms.openlocfilehash: ce4a1379310d9dd7fdcad6c8242c792103f05c18
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: dbe927794d8660a801596dac32623574e314ee44
+ms.sourcegitcommit: 3a7d2131717327d9b2d16848758e31e10326a0bd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850233"
+ms.lasthandoff: 09/20/2018
+ms.locfileid: "24057613"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Skype for Business Online におけるメディアの品質とネットワーク接続性のパフォーマンス
 
@@ -58,10 +58,8 @@ Azure の ExpressRoute では、Office 365 サービスの Skype を含むオン
 
 ユーザーが会議を行い、オーディオ デバイスとビデオ デバイスを使用する環境と周辺領域は、オーディオとビデオの品質のもう 1 つの要因です。ノイズのある環境から通話しているユーザーのオーディオは、エコーがかかり、こもっていて、不明瞭です。暗くて照明が不十分な環境にいるユーザーは、ビデオで明るくクリアな画質を実現することができません。会議室の設定で、マイクとビデオ デバイスの場所は、参加者が受信する音声と画像の品質に直接影響します。
   
-ビジネス アプリケーション**ツール**のユーザーのオーディオおよびビデオ機能の使用状況が明確、Skype を取得する > **オプション** > **オーディオ デバイス**または**ビデオ デバイス**が使用中のデバイスに変更を加えるし、それの設定をカスタマイズします。 **コール品質の確認**] をクリックして呼び出しのオーディオ品質を確認することもできます。 If they click **Check Call Quality**, they can then report the quality and issues found with the test call.
-  
-![Testing audio in the Skype for Business client.](../images/1730a71e-a09d-4702-8eb6-ef1346a091fa.png)
-  
+ビジネス アプリケーション**ツール**のユーザーのオーディオおよびビデオ機能の使用状況が明確、Skype を取得する > **オプション** > **オーディオ デバイス**または**ビデオ デバイス**が使用中のデバイスに変更を加えると、その設定をカスタマイズします。
+
 #### <a name="network"></a>ネットワーク
 
 IP ネットワークを介したリアルタイム メディアの品質は、ネットワーク接続の品質が特に量に大きな影響します。
@@ -338,7 +336,7 @@ Contoso 社の他の配置オプションを次に示します。 この例で�
   
 ![ExpressRoute クラウド コネクタ 2 つです。](../images/06d967a9-64f5-4d7d-98ed-3f3add1b7c2b.png)
   
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business Online の ExpressRoute および QoS](expressroute-and-qos-in-skype-for-business-online.md)
 
