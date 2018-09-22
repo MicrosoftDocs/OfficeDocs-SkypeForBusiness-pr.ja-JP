@@ -177,7 +177,7 @@
 ### [フランスでの Skype for Business Online のアクセシビリティ ソリューション](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## チームとチャネル
 ### [Teams でのチームとチャネルの概要](teams-channels-overview.md)
-### [Teams で役割と権限を割り当てる](assign-roles-permissions.md)
+### [チーム所有者およびマイクロソフトのチームのメンバーを割り当てる](assign-roles-permissions.md)
 ### [Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
 ### [チュートリアル: PowerShell を使用して会社全体のチームを作成する](company-wide-team-creation-powershell.yml)
 ## [ゲスト アクセス](guest-access.md)
@@ -203,6 +203,8 @@
 ### [チーム クラウドのミーティングのレコーディング](cloud-recording.md)
 ### [Outlook で Teams の会議アドインを使用する](teams-add-in-for-outlook.md)
 ### [Meeting Migration Service (MMS) のセットアップ](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [クラウド ビデオの相互運用機能](cloud-video-interop.md)
+#### [クラウド ビデオの相互運用機能を設定します。](cloud-video-interop-for-teams-set-up.md)
 ### ライブ イベント
 #### [ライブ イベントをチームは何ですか。](teams-live-events/what-are-teams-live-events.md)
 
@@ -465,8 +467,10 @@
 #### [ボイスメールの応答メッセージとメッセージで使用する言語](languages-for-voicemail-greetings-and-messages.md)
 #### [ユーザーに発信者番号を設定する](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [電話システムの自動応答をセットアップする](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [自動アテンダントの実装例](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [電話システム ボイスメールをセットアップする](set-up-phone-system-voicemail.md)
 #### [電話システムの自動応答について](what-are-phone-system-auto-attendants.md)
+#### [自動アテンダントが応答し、チームから直接キューの呼び出しを呼び出す](answer-auto-attendant-and-call-queue-calls.md)
 ### 電話システムの直接のルーティング
 #### [直接ルーティングを計画します。](direct-routing-plan.md)
 #### [直接ルーティングを構成します。](direct-routing-configure.md)

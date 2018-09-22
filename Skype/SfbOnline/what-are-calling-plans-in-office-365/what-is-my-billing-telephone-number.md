@@ -21,31 +21,31 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: については、Skype をビジネスの電話番号を請求するは、数値を転送する方法に関するステップ バイ ステップの指示を取得する場所です。
-ms.openlocfilehash: 748ea9603cf0e3fef7dc19dc2a148025e33ab205
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: b0eb2d3b2a4740759b2ea13eb5cddb1691392a48
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849785"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958263"
 ---
-# <a name="what-is-my-billing-telephone-number"></a><span data-ttu-id="61e77-103">請求先電話番号について</span><span class="sxs-lookup"><span data-stu-id="61e77-103">What is my billing telephone number?</span></span>
+# <a name="what-is-my-billing-telephone-number"></a><span data-ttu-id="5493c-103">請求先電話番号について</span><span class="sxs-lookup"><span data-stu-id="5493c-103">What is my billing telephone number?</span></span>
 
-<span data-ttu-id="61e77-104">請求先電話番号 (BTN) は、料金の請求書に含まれており、サービスプロバイダーまたは通信業者によって請求されるメインの電話番号です。</span><span class="sxs-lookup"><span data-stu-id="61e77-104">The billing telephone number (BTN) is the main phone number that is included on your bill and billed by your service provider or carrier.</span></span> <span data-ttu-id="61e77-105">1 つだけの電話番号を持つアカウントから電話番号を転送する場合にこの電話番号を配置する必要があります。</span><span class="sxs-lookup"><span data-stu-id="61e77-105">If you are transferring a phone number from an account that has only one phone number, you will need to put this phone number in.</span></span> <span data-ttu-id="61e77-106">持つ複数のアカウントからの電話番号を転送する場合は、請求書を見てまたは自分のアカウントの請求先の電話番号を特定するには、サービスプロバイダーまたは通信業者に問い合わせてください。</span><span class="sxs-lookup"><span data-stu-id="61e77-106">If you are transferring phone numbers from an account that has more than one, you can look at your bill or contact your service provider or carrier to determine what the billing telephone number is for your account.</span></span>
+<span data-ttu-id="5493c-104">請求先電話番号 (BTN) は、料金の請求書に含まれており、サービスプロバイダーまたは通信業者によって請求されるメインの電話番号です。</span><span class="sxs-lookup"><span data-stu-id="5493c-104">The billing telephone number (BTN) is the main phone number that is included on your bill and billed by your service provider or carrier.</span></span> <span data-ttu-id="5493c-105">1 つだけの電話番号を持つアカウントから電話番号を転送する場合にこの電話番号を配置する必要があります。</span><span class="sxs-lookup"><span data-stu-id="5493c-105">If you are transferring a phone number from an account that has only one phone number, you will need to put this phone number in.</span></span> <span data-ttu-id="5493c-106">持つ複数のアカウントからの電話番号を転送する場合は、請求書を見てまたは自分のアカウントの請求先の電話番号を特定するには、サービスプロバイダーまたは通信業者に問い合わせてください。</span><span class="sxs-lookup"><span data-stu-id="5493c-106">If you are transferring phone numbers from an account that has more than one, you can look at your bill or contact your service provider or carrier to determine what the billing telephone number is for your account.</span></span>
   
- <span data-ttu-id="61e77-107">**完全な手順については、 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)を参照してください。**</span><span class="sxs-lookup"><span data-stu-id="61e77-107">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**</span></span>
+ <span data-ttu-id="5493c-107">**完全な手順については、 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)を参照してください。**</span><span class="sxs-lookup"><span data-stu-id="5493c-107">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="61e77-108">無料電話番号</span><span class="sxs-lookup"><span data-stu-id="61e77-108">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="5493c-108">無料電話番号</span><span class="sxs-lookup"><span data-stu-id="5493c-108">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
   
-## <a name="related-topics"></a><span data-ttu-id="61e77-109">関連トピック</span><span class="sxs-lookup"><span data-stu-id="61e77-109">Related topics</span></span>
-[<span data-ttu-id="61e77-110">電話番号の移行に関するよくある質問</span><span class="sxs-lookup"><span data-stu-id="61e77-110">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a><span data-ttu-id="5493c-109">関連トピック</span><span class="sxs-lookup"><span data-stu-id="5493c-109">Related topics</span></span>
+[<span data-ttu-id="5493c-110">電話番号の移行に関するよくある質問</span><span class="sxs-lookup"><span data-stu-id="5493c-110">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="61e77-111">通話プランで使用されるさまざまな種類の電話番号</span><span class="sxs-lookup"><span data-stu-id="61e77-111">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[<span data-ttu-id="5493c-111">通話プランで使用されるさまざまな種類の電話番号</span><span class="sxs-lookup"><span data-stu-id="5493c-111">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[<span data-ttu-id="61e77-112">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="61e77-112">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="5493c-112">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="5493c-112">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="61e77-113">[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="61e77-113">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="5493c-113">[Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="5493c-113">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  
