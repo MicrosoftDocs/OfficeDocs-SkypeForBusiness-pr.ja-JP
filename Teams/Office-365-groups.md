@@ -12,17 +12,20 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e2fcb69ce4bcba3905b52874d52d97ab9015cbc
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 386dc9ba6552f4b8cb8110b3351e8073e76a6113
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883689"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975109"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365 のグループとマイクロソフトのチーム
 =====================================
 
-Office 365 のグループは、Office 365 の間アプリケーションのメンバーシップ サービスです。基本的なレベルでは、Office 365 グループは、Azure Active Directory のオブジェクトのメンバーは、疎結合、Yammer グループでは、SharePoint チーム サイトを含む関連の作業負荷を一覧では、Exchange メールボックスのリソース、プランナー、PowerBI、OneNote を共有します。追加したり、Active Directory 内の他のグループ ベースのセキュリティ オブジェクトと同じように、グループにユーザーを削除することができます。
+> [!Tip]
+> チームが Azure Active Directory (AAD)、Office 365 のグループ、Exchange、SHarePoint およびビジネスのための OneDrive とどのように対話する方法については、次のセッションを監視する:[マイクロソフトのチームの基礎](https://aka.ms/teams-foundations)
+
+Office 365 のグループは、Office 365 の間アプリケーションのメンバーシップ サービスです。 基本的なレベルでは、Office 365 グループは、Azure Active Directory のオブジェクトのメンバーは、疎結合、Yammer グループでは、SharePoint チーム サイトを含む関連の作業負荷を一覧では、Exchange メールボックスのリソース、プランナー、PowerBI、OneNote を共有します。 追加したり、Active Directory 内の他のグループ ベースのセキュリティ オブジェクトと同じように、グループにユーザーを削除することができます。
 
 Office 365 管理者は、Office 365 のグループを定義、メンバーの追加、および交換、共有メールボックス、SharePoint ドキュメント ライブラリ、Yammer のグループなどのように機能を活用します。 Office 365 のグループの詳細についてを参照してください: [Office 365 のグループについて学習](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)します。
 

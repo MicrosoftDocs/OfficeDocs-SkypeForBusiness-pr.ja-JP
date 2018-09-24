@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff969701b9e0641ef09810f00a7aa34410e32b45
-ms.sourcegitcommit: 69d1cea64425f03e562b5fb930493e27b61db96b
+ms.openlocfilehash: 92fe72b8352e9a2152361f410f9e39f1f296a3c8
+ms.sourcegitcommit: 2d76fad92b6d6c5d1bd223a717fd6c534ecaa5be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24968288"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24974432"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>クラウド ビデオ マイクロソフト チームの相互運用機能を設定します。
 
@@ -88,7 +88,7 @@ ms.locfileid: "24968288"
 ## <a name="schedule"></a>スケジュール
 
 次に、ビデオの相互運用機能の座標を使用してチームの会議のスケジュールを設定します。 有効なユーザーを使用してチームのミーティングをスケジュールできます。
-- Outlook クライアント アドインの追加
+- [アドインを Outlook の会議のチーム](teams-add-in-for-outlook.md)
 - チームのクライアント デスクトップ コンピューターとモバイル
 
 

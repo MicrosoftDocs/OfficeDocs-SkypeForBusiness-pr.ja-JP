@@ -13,15 +13,18 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a422cb18cf6105ead7f0a76096a6cb5a755a1906
-ms.sourcegitcommit: 8537814aabddd7e7a6d1148c8c71ea14ae0c499a
+ms.openlocfilehash: d69ba0fc113667149b212547cd04ed02e814ba50
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "24009046"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975125"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携 
 =========================================
+
+> [!Tip]
+> チームが Azure Active Directory (AAD)、Office 365 のグループ、Exchange、SharePoint およびビジネスのための OneDrive とどのように対話する方法については、次のセッションを監視する:[マイクロソフトのチームの基礎](https://aka.ms/teams-foundations)
 
 Microsoft Teams の全機能を活用するには、どのユーザーも Exchange Online、SharePoint Online、Office 365 グループの作成へのアクセスを許可されている必要があります。
 
@@ -35,8 +38,8 @@ Exchange Online 専用 – レガシーまたは Exchange On-premises にホス�
 
 | ユーザーのメールボックスのホスト先: | 電子情報開示| 訴訟ホールド | 保存期間| チームとチャネルの管理 |会議を作成して表示する| ユーザー プロフィールの写真を変更する | 通話履歴 | 連絡先を管理します。 | Outlook の連絡先にアクセスします。 | ボイスメール |コネクタを追加して構成する|タブを追加して構成する|ボットを追加して構成する| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|<sup>2</sup>を [はい] します。|<sup>2</sup>を [はい] します。|はい|あり|はい|はい|はい|はい|はい|はい|はい|はい|はい|
-|**Exchange Online 専用 vNext**|<sup>2</sup>を [はい] します。|<sup>2</sup>を [はい] します。|あり|あり|あり|はい|はい|あり|はい|はい|はい|あり|はい|
+|**Exchange Online**|<sup>2</sup>を [はい] します。|<sup>2</sup>を [はい] します。|あり|はい|はい|はい|はい|はい|はい|はい|はい|あり|はい|
+|**Exchange Online 専用 vNext**|<sup>2</sup>を [はい] します。|<sup>2</sup>を [はい] します。|あり|あり|はい|はい|あり|はい|はい|はい|あり|あり|はい|
 |**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|はい ([許可一覧](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))<sup>2</sup>|はい、<sup>2、3</sup>|なし|あり|なし|なし|あり|あり|なし|なし|なし|あり|はい|
 |**Exchange On-premises** (Azure AD との同期が必要)|はい ([許可一覧](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))<sup>2</sup>|はい、<sup>2、3</sup>|なし|あり|[はい] (Exchange 2016 CU3 +)|なし|あり|あり|なし|なし|なし|なし|あり|
                                                             

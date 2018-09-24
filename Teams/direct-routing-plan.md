@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: ''
 description: Microsoft 電話システム直接ルーティングを使用する方法マイクロソフトの電話システムに、サポートされている、お客様が用意したセッション ボーダー コント ローラー (SBC) の接続については、このトピックを参照してください。
-ms.openlocfilehash: 0f2fceee07b3c742496be7e9fdf5c714d66f8bc1
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 91d188f63a0645d0df81817dd98dbd3ef54418a9
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861742"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975203"
 ---
 # <a name="plan-direct-routing"></a>直接ルーティングを計画します。
 
@@ -136,7 +136,8 @@ SBC はのみ 1 つの FQDN が必要し、ペアのテナント内のすべて�
 - Baltimore CyberTrust Root
 - Buypass
 - Cybertrust
-- クラス 3 の主要な公共の証明機関 
+- クラス 3 の主要な公共の証明機関
+- Comodo は、ルート CA をセキュリティで保護します。
 - Deutsche telekom 社 
 - DigiCert のグローバル ルート CA 
 - 委託

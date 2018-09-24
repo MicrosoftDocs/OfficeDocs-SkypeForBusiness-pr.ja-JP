@@ -13,15 +13,18 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7aaf355c1f1fc65855c7bffb7c5632929a084b88
-ms.sourcegitcommit: 3a7d2131717327d9b2d16848758e31e10326a0bd
+ms.openlocfilehash: 3141eb3f7d584e2140c95ec509e14285cc1cfe7c
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2018
-ms.locfileid: "24057604"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975101"
 ---
 <a name="install-microsoft-teams-using-msi"></a>MSI を使用して Microsoft Teams をインストールする
 =================================
+
+> [!Tip]
+> Windows デスクトップ クライアント、それを計画する方法および展開方法の利点について説明するのには次のセッションを監視する:[チームの Windows デスクトップ クライアント](https://aka.ms/teams-clients)
 
 マイクロソフトは MSI ファイル ( [32 ビット](https://aka.ms/teams32bitmsi)と[64 ビット](https://aka.ms/teams64bitmsi)の両方) を選択するのにはチームの一括展開の管理者が使用できるを提供する広範な展開のシステム センター構成マネージャーでは、グループ ポリシー、または任意のサードパーティ製の配布メカニズムを使用して、ユーザーまたはコンピューターです。 管理者は、これらのファイルを使用して、リモートで展開するチームのユーザーがチームのアプリケーションを手動でダウンロードする必要はありません。 展開されると、チームが自動的にそのコンピューター上でサインインしているすべてのユーザーに対して起動します。 (アプリケーションのインストール後の自動起動を無効にします。 [以下を参照してください](#disable-auto-lanuch-for-the-msi-installer))。マシンのすべての新しいユーザーは、この展開からな利点がありますので、コンピューターにパッケージを展開することをお勧めします。 
  
@@ -59,7 +62,7 @@ ms.locfileid: "24057604"
 > [!TIP] 
 > SCCM を使用して、手順 1 と 2 を実行するのには、[マイクロソフトのチームの配置のクリーンアップ](.\scripts\Powershell-script-teams-deployment-clean-up.md)スクリプトを使用できます。  
                     
-## <a name="disable-auto-lanuch-for-the-msi-installer"></a>MSI インストーラーの自動 lanuch を無効にします。
+## <a name="disable-auto-launch-for-the-msi-installer"></a>MSI インストーラーの自動起動を無効にします。
 
 自動起動を無効にする場合は、次のコマンド プロンプトを入力します。
 
