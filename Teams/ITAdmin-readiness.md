@@ -11,12 +11,12 @@ search.appverid: MET150
 description: トレーニング ビデオ、チュートリアル、およびその他のリソースを計画する方法には、展開、およびマイクロソフトのチームを実行します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c6d3601e72e829f2c00fd166c3b249872e48347
-ms.sourcegitcommit: 63a560c05b4fa3bda3abc31ef5dffe60e61e4d67
+ms.openlocfilehash: e3ee2ac75015f26317f85d6cf4ecf79e71496f0b
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24960956"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975093"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 
@@ -140,7 +140,7 @@ ms.locfileid: "24960956"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>アーキテクチャ</h3><p>[ビデオ: 基礎・ チームの主要なコンポーネント](https://www.youtube.com/watch?v=xJBvJTDiQqg)</p>
+                        <h3>アーキテクチャ</h3><p>[ビデオ: 基礎・ チームの主要なコンポーネント](http://aka.ms/teams-foundations)</p>
                     </div>
                 </div>
             </div>
@@ -152,7 +152,7 @@ ms.locfileid: "24960956"
                     <div class="cardText">
                         <h3>計画し、展開</h3>
                          <p>[クイック スタート: Teams の計画ガイド](quick-start-enable-teams.md)</p>
-                         <p>[ビデオ: チームの Windows デスクトップ クライアント](https://www.youtube.com/watch?v=zp1_wGzq1ic)</p>
+                         <p>[ビデオ: チームの Windows デスクトップ クライアント](http://aka.ms/teams-clients)</p>
                     </div>
                 </div>
             </div>
