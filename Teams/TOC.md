@@ -40,6 +40,7 @@
 ## [組織内のチームを有効にします。](Office-365-set-up.md)
 ## [組織内のチームの機能を管理します。](enable-features-office-365.md)
 ### [新しいマイクロソフトのチームとビジネス管理センターの Skype に移行する際のチームを管理します。](manage-teams-skypeforbusiness-admin-center.md)
+### [マイクロソフトのチームとビジネス管理センターの Skype のチームを管理します。](manage-teams-in-modern-portal.md)
 ### [チームの所有者およびチームのメンバーを割り当てる](assign-roles-permissions.md)
 ### [チーム テナント アプリケーション カタログにアプリケーションを発行します。](tenant-apps-catalog-teams.md)
 ### [チームで動作する Skype の会議アプリケーションを構成します。](configure-skype-meetings-app-to-work-with-teams.md)
@@ -78,6 +79,7 @@
 <!-- ============================================================ -->
 # [チームにビジネス用の Skype からのアップグレード](Journey-SkypeforBusiness-Teams.md)
 ## [チュートリアル: Skype for Business から Teams への移行](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [チームのクラスルーム ・ トレーニング](instructor-led-training-teams-landing-page.md)
 ## [基本的なアップグレードします。](upgrade-basic.md)
 ### [サンプルの電子メールやアンケート](upgrade-emails-surveys.md)
 ## [Pro のアップグレードします。](upgrade-pro.md)
@@ -131,6 +133,7 @@
 
 <!-- ============================================================ -->
 # トレーニング
+## [チームのクラスルーム ・ トレーニング](instructor-led-training-teams-landing-page.md)
 ## [Teams の管理者トレーニング](itadmin-readiness.md)
 ## [Teams のエンド ユーザー トレーニング](enduser-training.md)
 ## [ビデオ - Audio Conferencing in Teams (Teams での電話会議)](audio-conferencing-videos.md)
