@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: '概要: どのような機能がどのクライアントでサポートされているを理解するのにこれらのテーブルを使用できるは、ビジネス サーバー 2015 の Skype または Skype オンライン ビジネス管理者の。'
-ms.openlocfilehash: cb0955dcb695b0431e73b1f575087b06ec3b0449
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 1dc94b9cb6b723d344994babe655921045b2acb0
+ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965735"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "25002390"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype のデスクトップ クライアントの機能の比較
  
@@ -111,7 +111,8 @@ Skype のビジネスをオンラインで利用可能なビジネス サーバ�
 次の表に、会議のサポートに関する機能を示します。
   
 > [!NOTE]
->  ビジネス会議機能を Skype は、Skype のビジネス オンライン スタンドアロン計画 1 では使用できません。
+>  ビジネス会議機能を Skype は、Skype のビジネス オンライン スタンドアロン計画 1 では使用できません。  プラン 1 は[廃止](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement
+)されています。
 
 Skype 間のセッションで、Skype for Business Online プラン 1 のユーザーは、共有機能にアクセスできるユーザーから招待を受けた場合にデスクトップ共有とアプリケーション共有に参加できます。   
 詳細については、 [Skype](https://technet.microsoft.com/library/jj822172.aspx)を参照してください。 

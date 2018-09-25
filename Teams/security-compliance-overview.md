@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 331e4d600c26123079315a77d5d99f17496c12a9
-ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
+ms.openlocfilehash: 0ef01893872f1bd53fa420f4b2dc77abb21461c9
+ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "24967432"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "25002375"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンスの概要
 ======================================================
@@ -84,115 +84,6 @@ Teams は販売開始時点から Tier C 準拠です。これにより、ISO 27
 
 > [!IMPORTANT]
 > できるチームのコンテンツを検出するのには 24 時間の遅延です。
-
-## <a name="retention-policies"></a>リテンション ・ ポリシー
-
-チームの会話は、永続的な既定値が永久に保持されています。 リテンション ・ ポリシーの導入により、管理者を構成できます (保存と削除の両方) の保持ポリシー セキュリティとコンプライアンス センターでチーム チャット、およびチャネルのメッセージを。 これにより、組織のコンプライアンス (つまり、保持ポリシーを特定の期間のデータを保持] または [特定の期間の後、責任と見なされる場合データ (つまり、削除ポリシーを削除します。 チーム ・ リテンション ・ ポリシーは、データを削除するときはチーム サービスすべて永続的なデータ ストレージの場所から削除されますを確認します。 
-
-チームのリテンション ・ ポリシーを管理するための設定と Office 365 のセキュリティとコンプライアンス センターは、**データ ・ ガバナンス**のコマンドレットを使用して、 > **保存**します。
-
-チーム ・ リテンション ・ ポリシーはサポートしています。 
-    
-- 保存: 指定された期間のチームのデータを保持して、何もしません。
-- 保存とし、[削除: 指定した期間のチームのデータを保持し、削除
-- 削除: 指定した期間の後のチームのデータを削除します。
-
-チーム ・ リテンション ・ ポリシーをサポートしていません。
-
-- チャットのチームとチームのチャネル メッセージの場所に高度な保存ポリシーが適用されません。
-- 30 日以内の期間
-
-管理者は、チームのプライベート チャット (チャットが 1:1 または 1 対多) とチャネルのメッセージをチームの別の保存ポリシーを設定できます。 多くの場合、組織は複数のチャネル メッセージは、複数のプロジェクトに関連する会話は、通常よりも負債としてプライベート チャット データを検討してください。 セキュリティとコンプライアンス ・ センター、**データの管理**でこれらのポリシーを設定します > **保存**します。 **チャネルのメッセージをチーム**と**チームのチャット**をオンにし、(もは次の図に示すように) これらの場所の保存ポリシーを定義し、します。 
-
-**チームのメッセージのチャネル**を有効にするとき、チームはこのポリシーを適用するを指定できます。 たとえば、X、Y、および Z は、チームの管理者ことができます 1 年間でこれらのチームを個別に選択)、削除ポリシーを設定、チームの残りの部分に 3 年間の削除ポリシーを適用します。 
-
-特定のユーザーを選択し、一意の保持ポリシーを適用することによって**チームのチャット**の同じことを行うことができます。 
-
-![Exchange と SharePoint への Teams データのワークフローの図。](media/Retention-Policies.png)
-
-
-> [!IMPORTANT]
-> チームのチャネルのメッセージの場所とチーム チャットの場所は、Exchange Online のメールボックス (メールボックスをユーザーとグループ) に格納されているチームの会話にしか対応します。 メッセージは、すべての関連する記憶域、つまりメールボックス、基板、およびチャット サービスから削除されます。 
-> 
-> ビジネスおよび SharePoint の OneDrive に保存されている、チームのファイルの保存ポリシーを管理するために、リテンション ・ ポリシーを使用します。
-
-
-
-
-仕様では、削除チーム ファイルのポリシーを構成して SharePoint Online OneDrive の事業所です。 その結果、ポリシーがそれらのメッセージは削除する前に、チーム チャットやチャネルのメッセージで参照されているファイルを削除できなかったことができます。 この例では、ファイルは表示されますチームのメッセージが、ファイルをクリックすると、(に起こる場合も、ポリシーがない場合はファイルが SharePoint Online またはビジネスのための OneDrive から手動で削除する場合)、"ファイルが見つかりません"というエラーが表示されます。
-
-
-Office 365 用のリテンション ・ ポリシーの構成の詳細については、[保存ポリシーの概要](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423)を参照してください。
- 
-
-## <a name="retention-policies-faq"></a>リテンション ・ ポリシーに関する FAQ
-
-### <a name="what-types-of-policies-can-i-setup-in-retention-policies-and-how-do-they-work"></a>リテンション ・ ポリシーでどのような種類のポリシーがセットアップされ、どのように動作するでしょうか。
-
-SSecurity/コンプライアンス ・ センターで、チーム、またはその他のワークロードでは、リテンション ・ ポリシーを設定すると 2 つの主な種類のポリシーを設定できます。 
-- 保存: これらのポリシーでは、エンド ユーザー ツールで何が起きても、時間の特定の期間のデータが保持されることを確認します。 これらは、コンプライアンス上の理由からデータが保存され、この時点までには、電子的証拠開示に利用可能な有効期限が切れることを確認します。 時間を経過した後、ポリシーは何もしない、またはデータを削除するかどうかを指定できます。 チームでエンド ・ ユーザー、チームのメッセージを削除する場合でも、7 年間、保持ポリシーを作成する場合これらのメッセージは保持されます電子的証拠開示の 7 年間。
-- 削除: これらのポリシーでは、データが組織の負債ではないことを確認します。 、指定した期間の後は、チームに関連するすべての記憶域からデータが削除されます。 
-
-### <a name="can-we-include-teams-in-org-wide-policies"></a>チームを組織全体のポリシーは含めることができますか。 
-
-いいえ、されていません。 チームの場所の行またはチームのこれらのコマンドレットを使用して、チームのチャットおよびチャネルのメッセージの特定のポリシーを作成する必要があります:[新しい TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps) & [新規 TeamsComplianceRetentionRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)。 これらのコマンドレットでは、get し、同様のバージョンを設定します。
-
-### <a name="are-these-retention-policies-retroactive"></a>これらのアイテム保持ポリシーは、さかのぼって適用しますか。 
-
-います。 60 日よりも古いデータを削除する保持ポリシーを作成する場合は、60 日以上前に作成したチームのデータが削除されます。 
-
-### <a name="what-is-the-default-retention-policy"></a>デフォルトの保存ポリシーとは何ですか。 
-
-既定では、チーム チャット、チャネル、およびファイルのデータは永久保持します。 ユーザーは、何かを削除できますが、リテンション ・ ポリシーがない場合は、チームのデータ (ユーザーおよびグループ) は、Exchange オンライン メールボックスにアーカイブが常に、電子的証拠開示のないままです。 
-
-### <a name="can-i-target-sets-of-users-or-teams-in-a-policy"></a>ユーザーまたはチームのポリシーのセットを対象することができますか。 
-
-はい、次のように実行します。 ポリシーの作成ウィザードのステップでは、場所では、または (**チームは、メッセージをチャネル**) のチームまたはユーザー (**チーム チャット**) を除外して組織の対象となるポリシーを作成できます。 
-
-### <a name="what-is-the-main-difference-between-using-the-group-mailbox-location-row-and-teams-channel-messages-location-row-in-retention-policies"></a>グループのメールボックスの場所の行とチームのチャネルのメッセージの場所の行を使用して、リテンション ・ ポリシーでの主な違いは何ですか。 
-
-Exchange Online のメールボックスのグループとユーザーのメールボックスの場所の行を使用する場合、チームのデータが指定されたメールボックスから削除されます。 ただし、メールボックスからこの、だけデータを削除します。 チャット サービスなど、他のチームのデータは、削除されません。 チーム ・ リテンション ・ ポリシーを使用して、チームのすべてのデータを適切に管理することをお勧めします。 チーム ・ リテンション ・ ポリシーは、すべてストレージの場所: メールボックス、チャット サービス、チーム クライアントからチームのデータを削除します。 
-
-注: チームは、保持ポリシーの機能の起動、唯一のチーム ポリシーが Exchange メールボックスの場所 (ユーザーまたはグループ) 内に格納されているチームの項目を削除します。 メールボックスでは、他のポリシー設定は、チームのアイテムに適用できません。 これまでは、true ですが保持ポリシーの機能の起動が修正されています。 
-
-### <a name="what-happens-to-skype-for-business-online-and-teams-interop-chats--are-they-affected-by-retention-policies"></a>どうなる Skype ビジネス オンラインでチームの相互運用機能チャット – のリテンション ・ ポリシーによって影響をあるか
-
-はい、オンライン ビジネスとチームの相互運用機能のチャットの Skype 同様に動作します。 ビジネス オンライン チャットの Skype は、チームには、そのチーム チャットのスレッド内のメッセージとなり、取得、適切なメールボックスに取り込まれ。 動作: を同じフロー、チームの削除ポリシーはチームのスレッドからこれらのメッセージを削除します。 ただし、会話の履歴がオンになって Skype のオンライン ビジネスの場合は、オンライン ビジネスのクライアント側の Skype からそれらを保存しているメールボックスにこのチャットのデータはチーム ・ リテンション ・ ポリシーによって処理されません。
-
-### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>どうすればこれらのセキュリティとコンプライアンスの中心のコマンドレットを使用しますか。 どう使用する必要がありますか。 
-
-そうですよ。 [セキュリティとコンプライアンス センターの Powershell コマンドレット]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)を使用するチーム ・ リテンション ・ ポリシーを作成できます。 オンライン Exchange コマンドレットがないことを覚えておいてください。 ここでは、コマンドレットのチームを作成しました。 従う既存の用語とスタイルから保存のコマンドレットが現在利用可能なセキュリティとコンプライアンスの中心にします。
-
-|ポリシー|ルール|
-|---|---|
-|[新しい-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps)| [新しい-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)|
-|[Get TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancepolicy?view=exchange-ps)| [Get TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancerule?view=exchange-ps)|
-|[セット TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancepolicy?view=exchange-ps)| [セット TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancerule?view=exchange-ps)|
-|[削除 TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancepolicy?view=exchange-ps)| [削除 TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancerule?view=exchange-ps)|
-
-### <a name="if-there-are-multiple-retention-policies-for-teams-with-varying-durations-which-one-wins"></a>チームのさまざまな期間、どちらかを wins での複数の保存ポリシーがある場合ですか。
-
-[リテンション ・ ポリシーの原則](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423)に従ってし、も実行することをお勧めします。 短い答えは次のとおりです。 
--   削除を優先、常に情報を保持
--   最長の保存期間を常に優先します。
--   明示的なインクルードが場所で暗黙の信頼を優先します。
--   最短の削除期間 wins
-
-
-
-## <a name="retention-policies-known-issues"></a>リテンション ・ ポリシーに関する既知の問題
-
-1. 選択チームのチャネル メッセージの場所の行で、チームでもないチームには、Office 365 のグループを参照してください可能性があります。 これは、将来的に解決されます。
-
-1. チームのチャットの場所の行で [ユーザーの選択] の下、来園者とユーザーのメールボックスではないを表示ことがあります。 リテンション ・ ポリシーを来園者を設定する必要はないし、これらの一覧から削除することに努めています。 
-
-1. Exchange のライフ サイクルのアシスタント (ELC) は毎日実行されるが、7 日間の SLA。 結果として、60 日より古いアイテムを削除するのには、チームの保持ポリシーがあれば、これらの項目でした永続化を 67 日間のことができます。 新しい状況ではありません - 交換モデルに依存しています。 もちろん、ほとんどの場合、時間はかかりません。
-
-
-| | | |
-|---------|---------|---------|
-|![判断ポイント アイコン。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |判断ポイント         |組織で必要とされているセキュリティとコンプライアンスの機能を教えてください。組織はセキュリティとコンプライアンスのビジネス要件を満たすために必要なライセンスを所有していますか?         |
-|![次のステップ アイコン。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |次のステップ         |必要なセキュリティとコンプライアンスの機能を文書化します。         |
 
 <a name="licensing"></a>ライセンス
 ---------------
