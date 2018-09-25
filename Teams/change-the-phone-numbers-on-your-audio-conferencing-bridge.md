@@ -7,9 +7,12 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 6403f6d1-c05a-44ab-a6e0-558000e246f4
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -21,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 電話会議ライセンスをご購入いただく場合、Microsoft はお客様の組織の電話会議ブリッジ をホストします。電話会議ブリッジではさまざまな場所からダイヤルイン電話番号を受け取るため、会議の開催者や参加者はそれらの番号を使用して電話で Skype for Business 会議または Microsoft Teams 会議に参加できます。
-ms.openlocfilehash: 32376134a6faa6944c6a4bb3e36a92cf3407ebce
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5cd9a925ecf7dd24d900ebcbd30de3a30ec7a97d
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23892495"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016750"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>電話会議ブリッジの電話番号を変更する
 
@@ -46,7 +49,7 @@ ms.locfileid: "23892495"
 
 1. 自分の職場のアカウントで Office 365 にサインインします。
 
-2. [**Office 365 管理センター**]  >  [**管理センター**]  >  [**Skype for Business**]  >  [**音声**]  >  [**電話番号**] の順に開きます。
+2. **Office 365 管理センター**を参照して > **管理センター** > **チームと Skype** > **レガシー ポータル** > **音声** > **の電話番号**です。
 
 3. リストから電話番号を選択し、[操作] ウィンドウで [ **割り当て**] をクリックします。
 
@@ -65,7 +68,7 @@ ms.locfileid: "23892495"
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
 
-2. [**Office 365 管理センター**]  >  [**管理センター**]  >  [**Skype for Business**]  >  [**電話会議**]  >  [**ユーザー**] の順に開き、リスト内のユーザーを選択します。
+2. **Office 365 管理センター**を参照して > **管理センター** > **チームと Skype** > **レガシー ポータル** > **オーディオ会議** > **ユーザー**と、リスト内のユーザーを選択します。
 
 3. [操作] ウィンドウで [ **編集**] をクリックします。
 
@@ -129,7 +132,7 @@ Meeting Migration Service の詳細については、「 [Meeting Migration Serv
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
 
-2. [**Office 365 管理センター**]  >  [**管理センター**]  >  [**Skype for Business**]  >  [**音声**]  >  [**電話番号**] の順に開きます。
+2. **Office 365 管理センター**を参照して > **管理センター** > **チームと Skype** > **レガシー ポータル** > **音声** > **の電話番号**です。
 
 3. リストから電話番号を選択し、[操作] ウィンドウで [ **割り当てを解除**] をクリックします。
 

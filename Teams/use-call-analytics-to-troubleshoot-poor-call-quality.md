@@ -8,8 +8,12 @@ ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- skype-for-business-online
+- msteams
+ms.collection:
+- Teams_ITAdmin_Help
+- Adm_Skype4B_Online
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -20,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Skype のビジネス通話や会議のためのユーザーの問題を解決するのには、分析機能の呼び出しの詳細については、デバイス、ネットワーク、および接続を使用します。
-ms.openlocfilehash: 9142b8ecd5c2fe0d24bb91c51c4625f5bf559ee9
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 80e129bf5979ffc5fcb1d5475f286c22115d6015
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23869982"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013916"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>通話分析を使用して低い通話品質をトラブルシューティングする
 
@@ -76,7 +80,7 @@ ms.locfileid: "23869982"
 |オーディオ ネットワークに不適切な呼び出しが分類されます。  <br/> |セッション  <br/> |ネットワークの品質の問題は、パケット損失、ジッター、NMOS の低下、RTT などの分野において発生したまたは比率を非表示。 不適切な呼び出しを分類するための条件の詳細については、この[マイクロソフトのブログ記事](https://go.microsoft.com/fwlink/p/?linkid=852133)を参照してください。  <br/> |
 |デバイスが機能しません。  <br/> |デバイス  <br/> | デバイスが正常に機能はありません。 比率が機能していないデバイスは次のとおりです。 <br/>  DeviceRenderNotFunctioningEventRatio > = 0.005 <br/>  DeviceCaptureNotFunctioningEventRatio > = 0.005 <br/> |
    
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 [Skype for Business の通話分析をセットアップする](set-up-call-analytics.md)
 
 [呼び出しを分析し、通話品質のダッシュ ボード](difference-between-call-analytics-and-call-quality-dashboard.md)

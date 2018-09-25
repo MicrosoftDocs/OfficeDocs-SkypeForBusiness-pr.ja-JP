@@ -7,6 +7,7 @@ ms.reviewer: jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -15,12 +16,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: メッセージング ポリシーとそれらを使用してメッセージング チームのチャットを制御する方法について説明します。
-ms.openlocfilehash: ef252f958f08c75d0fcfb8af0a06aadf776d3668
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e0abb9297a6950e2e35cb50d2ae7befa3174da9d
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850918"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013514"
 ---
 # <a name="what-are-messaging-policies-in-teams"></a>チーム内のポリシーをメッセージングは何でしょうか。
 
@@ -39,5 +40,5 @@ ms.locfileid: "23850918"
 - **会話での使用のステッカー**これをオンにした場合、ユーザーは、他の人とチャットで会話ステッカーを含めることができます。
 
 
-### <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+### <a name="related-topics"></a>関連トピック
 [チームでミーティングのポリシー](meeting-policies-in-teams.md)

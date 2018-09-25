@@ -7,8 +7,12 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: 2ea29f57-e728-4451-ba3a-3fadea90fbf1
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- skype-for-business-online
+- msteams
+ms.collection:
+- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -20,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: 968338a7427285c96e7263a616f8ddcf8d3a4675
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 0d23e2fdb184b57a63cbf3c19ed34a9c5f849404
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855756"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014998"
 ---
 # <a name="toll-free-dialing-restrictions-in-taiwan"></a>台湾のフリー ダイヤルの制限
 
@@ -43,7 +47,7 @@ ms.locfileid: "23855756"
 |携帯電話ネットワークの状態  <br/> |部分的。コメント参照。  <br/> |
 |コメント、制限、アクセスの問題など  <br/> |KG Telecom からは有線アクセス不可。携帯電話アクセス: 通話時間は課金されない。携帯電話アクセスの場合: KG Telecom を除くすべての携帯電話ネットワークからアクセス可能。  <br/> |
    
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 
 [フリー ダイヤルの制限事項と制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 

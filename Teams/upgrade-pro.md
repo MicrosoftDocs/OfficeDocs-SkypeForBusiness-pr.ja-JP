@@ -11,15 +11,15 @@ description: 大規模な組織になっていることや、頻度の高いビ�
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff25edcfc24df1040aa7d23606e62d4beccb08dd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: e3faa5874071f7587f94cf4f1719b877a9aed1d4
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23891507"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013668"
 ---
 # <a name="upgrade-pro"></a>Pro のアップグレードします。
 
@@ -113,5 +113,5 @@ _7 ~ 45 日間: チームにビジネス用の Skype からのアップグレー
 > Pro アップグレード コンテンツは継続的に進化しています。 最新のガイダンスをご確認し、[チームのブログ](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)を読むことを確認します。 
 
 > [!Important]
-> なら管理者が、Office 365 テナントに、PowerShell コマンドレットまたはチームの管理センターでのアップグレードのオプションを表示を開始する可能性があります。 アップグレードすることも、必ずしもこの変更の準備ができました。 最適なユーザー エクスペリエンスでは、チームが共同作業とコミュニケーション要件を満たしていることを確認、ネットワークが、チームをサポートし、チームにユーザーをアップグレードする前に、ユーザーの準備の計画を実装する準備があることを確認します。
+> なら管理者が、Office 365 テナントに、PowerShell コマンドレットまたはチームとビジネス管理センターの Skype でのアップグレードのオプションを表示を開始する可能性があります。 アップグレードすることも、必ずしもこの変更の準備ができました。 最適なユーザー エクスペリエンスでは、チームが共同作業とコミュニケーション要件を満たしていることを確認、ネットワークが、チームをサポートし、チームにユーザーをアップグレードする前に、ユーザーの準備の計画を実装する準備があることを確認します。
  

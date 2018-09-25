@@ -7,9 +7,12 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.assetid: bb9f2a8d-f5be-41ed-9d19-25dea5ca9f52
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -21,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 1e4f48caff52cf648e075d9c4c4972076e124c00
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: f82788d34e492b6dd3fe54c60168b8d83b3c09e2
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23891694"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25018010"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>組織のために通信クレジットをセットアップする
 
@@ -58,9 +61,11 @@ ms.locfileid: "23891694"
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. In the left navigation of the Office 365 admin center, go to **Billing** > **Subscriptions** > **Add-ons** > **Buy add-ons**, and then choose **Communications Credits** > **Buy now**.
+2. Office 365 の管理ページの左側のナビゲーションでは、**請求**に移動 > **購読** > **サブスクリプションを追加**します。
+
+3. **アドオンのサブスクリプション**を展開し、**通信のクレジット**を選択し、 > **今すぐ購入**します。
     
-3. **通信のクレジット**申し込みのページでの情報を入力し、[**次へ**] をクリックします。
+4. **通信のクレジット**申し込みのページでの情報を入力し、[**次へ**] をクリックします。
     
   - **預金**: アカウントに投入する金額を入力します。自動再チャージを有効にしない場合、これらの利用可能残高が使い果たされると、コミュニケーション クレジットを使用して有効になっている通話機能に支障が生じます (着信無料通話サービスなど)。残高が 0 になるたびにコミュニケーション クレジットの残高を手動で補充することを回避するには、自動再チャージ機能を有効にすることを推奨します。
     
@@ -75,7 +80,7 @@ ms.locfileid: "23891694"
       > [!NOTE]
     > 利用可能残高は、サービス利用時の Microsoft が公開しているレートで、コミュニケーション クレジットのみに適用されます。購入日から 12 か月以内に使用されなかった残高は、有効期限切れとなり、使用できなくなります。 
     
-4. 支払い情報を入力して、[ **注文**] をクリックします。
+5. 支払い情報を入力して、[ **注文**] をクリックします。
     >[!IMPORTANT]
     >一括ライセンス契約の場合は、支払いにエンタープライズ契約番号を選択できます。 エンタープライズ契約番号が複数ある場合は、どのエンタープライズ アグリーメントを支払いに使用するかを選択することができます。 エンタープライズ 契約番号 (存在する場合) に関連付けるよう、特定の発注書番号を指定することもできます。
     

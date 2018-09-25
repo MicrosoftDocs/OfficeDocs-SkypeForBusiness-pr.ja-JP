@@ -7,8 +7,12 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: d8f9ab66-dd1a-4d1e-86de-c9092cbb9707
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- skype-for-business-online
+- msteams
+ms.collection:
+- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -20,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: 6bc817aa8b26d1e285e3298ed7832b8d8342dcd9
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e1a0f328f893ed2e361732c434db5b43ebf43473
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865378"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015406"
 ---
 # <a name="toll-free-dialing-restrictions-in-bosnia-and-herzegovina"></a>ボスニア ・ ヘルツェゴビナでフリー ダイヤルのダイヤルの制限
 
@@ -43,7 +47,7 @@ ms.locfileid: "23865378"
 |携帯電話ネットワークの状態  <br/> |部分的。コメント参照。  <br/> |
 |コメント、制限、アクセスの問題など  <br/> |HT Eronet/Mostar、Telekom Srpske/MTEL、BHT 固定回線および携帯電話ネットワークからアクセス可能。  <br/> |
    
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 [フリー ダイヤルの制限事項と制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)

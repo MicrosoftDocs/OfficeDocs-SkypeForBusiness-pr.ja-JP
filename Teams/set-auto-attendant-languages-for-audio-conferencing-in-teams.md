@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 26d73dda-ab26-4af4-8aec-d17f3479ae50
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Microsoft Teams での電話会議番号に対応する電話会議の自動案内の言語を選択する方法を確認します。
-ms.openlocfilehash: 73498e348b45b0fa2d9996344b569a92320a06b6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: b9613b5e64bad0428975a6acd3b11db16a42c680
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23893019"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017954"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams で電話会議の自動案内の言語を設定する
 
@@ -48,7 +48,7 @@ Microsoft Teams での電話会議の自動案内は、発信者に向けて、�
 3. 右側のペインで、希望する既定の言語と、任意の代替言語を選びます。 
  
     > [!NOTE]
-    > サポートされる既定の言語と代替言語はリストに表示されます。 リスト内での言語の選択順が、発信者に対して提示される言語の順になります。 
+    > デフォルトおよびサポートされている別の言語が一覧表示されます。 選択するために、リスト内の順序は、呼び出し元に表示される言語の順序になります。 
 
 4. [**保存**] をクリックします。
 

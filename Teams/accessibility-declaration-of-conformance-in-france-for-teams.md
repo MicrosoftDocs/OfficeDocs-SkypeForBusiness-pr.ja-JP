@@ -5,8 +5,12 @@ author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
 ms.topic: article
-ms.service: msteams
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- msteams
+- skype-for-business-online
+ms.collection:
+- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Skype for Business
@@ -17,12 +21,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: "マイクロソフト チーム est l'outil de チャット collaboratif d'Office 365 qui intègre toutes les personnes、contenus et besoin 流し込み être と impliquée、outils ない votre équipe et efficace。 "
-ms.openlocfilehash: e2e7580b46a7505d741ce5531320e519827ec2ca
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 740bb149a5bf69942887c488c20a449a05a538a7
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855720"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013402"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration デ conformité en matière d'accessibilité
 
@@ -203,6 +207,6 @@ Le présent ドキュメント n'est pas la norme EN 301 549 v 1.1.2 (2015-04) e
 
 Le présent ドキュメント est fourni 比べて titre indicatif。 MICROSOFT NE FOURNIT AUCUNE GARANTIE、EXPRESSE OU TACITE、DANS LE PRÉSENT のドキュメントです。
 
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 
 [フランスでの Skype for Business Online のアクセシビリティ ソリューション](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france)

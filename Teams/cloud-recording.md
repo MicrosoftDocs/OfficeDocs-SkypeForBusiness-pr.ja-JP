@@ -5,17 +5,18 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 description: Microsoft Teams での Cloud Voice の機能の展開についての実践的なガイダンス
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14b7003ca1ccecd0574e9c7e06de5cd81d85547e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 41cb6fdc7d27b90939be540d04b73fdc1f052818
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851176"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014180"
 ---
 # <a name="teams-cloud-meeting-recording"></a>チーム クラウドのミーティングのレコーディング
 
@@ -36,7 +37,7 @@ ms.locfileid: "23851176"
 - ユーザーに同意した、会社のガイドラインでは場合、によって管理者の設定
 - ユーザーはレコーディングを保存する Microsoft のストリームに十分な記憶域を持つ
 - ユーザーは、TeamsMeetingPolicy AllowCloudRecording を true に設定されている設定を持っています。
-- ユーザーは、オーディオとビデオの議事録を自動的に作成するかどうかを選択できるように、ユーザーは TeamsMeetingPolicy.AllowTranscription を true に設定されている設定を持っています。
+- ユーザーは、オーディオとビデオの議事録を自動的に作成するかどうかを選択できるように、ユーザーは TeamsMeetingPolicy AllowTranscription を true に設定されている設定を持っています。
 - ユーザーは匿名、ゲスト、または会議でのフェデレーションのユーザーではありません。
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>チーム、組織内のユーザーのクラウド ミーティングのレコーディングの設定します。

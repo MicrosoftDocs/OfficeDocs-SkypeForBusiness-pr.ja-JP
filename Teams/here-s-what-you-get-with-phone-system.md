@@ -7,9 +7,12 @@ msreviewer: jastarck, makolomi
 ms.topic: article
 ms.assetid: bc9756d1-8a2f-42c4-98f6-afb17c29231c
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -21,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '機能、可用性、およびお客様のビジネス電話システム (PBX をクラウド) の計画およびセットアップする方法です。 '
-ms.openlocfilehash: fcd8bf89ce6aee5d4b76f669445e2f78f994b54c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ac97c6d194673087ad90be88e649b7cb067ba89f
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887745"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017480"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365 での電話システムで利用できる機能
 

@@ -7,26 +7,29 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 61dfb27c-5bfa-4481-a930-9c026e73ff3a
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: 組織で使用する電話番号を取得しようと考えているときに、割り当て済みのライセンスで提供される数以上の電話番号を取得することができます。 ただし、取得できる数は、電話番号のタイプと、ご購入された割り当て済みライセンスのタイプに応じて変わります。 さまざまな種類のビジネス オンラインの Skype で使用される別の電話番号を知るために計画を呼び出すことのために使用する電話番号をクリックすることができます。
-ms.openlocfilehash: a0d4e1273a49ac4f9e82cb98c8baddf22772f9d4
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: b5c095f6030f1a5874e04df3b3be7ce9dac62dd4
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23856308"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014356"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>取得できる電話番号の数について
 

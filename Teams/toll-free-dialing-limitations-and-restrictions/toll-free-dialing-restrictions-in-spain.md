@@ -7,8 +7,12 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: 4db7b657-22ee-4211-afd3-23413bcc3bd9
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- skype-for-business-online
+- msteams
+ms.collection:
+- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -20,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: 021cd1762e49204168755e55981ea8dc417c29c0
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 890fa7bedf69e6baa6282065e304e274d028c5cd
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867958"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25012538"
 ---
 # <a name="toll-free-dialing-restrictions-in-spain"></a>スペインのフリー ダイヤルの制限
 
@@ -43,7 +47,7 @@ ms.locfileid: "23867958"
 |携帯電話ネットワークの状態  <br/> |○ 有料サービス料金で使用可能。  <br/> |
 |コメント、制限、アクセスの問題など  <br/> |異なる出力パルスを使用した携帯電話識別番号を使用可能。  <br/> |
    
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 
 [フリー ダイヤルの制限事項と制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 

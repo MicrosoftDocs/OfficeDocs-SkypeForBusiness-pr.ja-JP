@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 1b46da6d-f93a-4cc0-9ae8-af765935b007
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,25 +20,25 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft Teams でダイヤルイン会議の設定を変更したときにユーザーに自動的に送信される情報について説明します。 '
-ms.openlocfilehash: f351f7a1107c3f52ddc2c9f60b7cd79feb31388c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: b1bd7764f7780267d9f2a98a3203f49d2c0e938e
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890063"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016166"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Microsoft Teams で設定を変更したときにユーザーに送信されるメール
 
 Microsoft を電話会議プロバイダーとして使用して[電話会議を利用できる](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)ようになっているユーザーに、メールが自動的に送信されます。
   
-既定では、電話会議を利用できるユーザーに対して送信されるメールには、4 つの種類があります。 ただし、ユーザーに送信されるメールの数を制限する場合は、この設定をオフにすることができます。 Office 365 の電話会議は、次の場合にユーザーにメールを送信します。
+既定では、電話会議が有効になっているユーザーに送信される電子メールの 4 つの種類があります。 ただし、ユーザーに送信するメールの数を制限する場合は、オフにすることができます。 Office 365 のオーディオ会議は、ユーザーの電子メールを送信時に電子メールを送信します。
   
 - **電話会議のライセンスが割り当てられているか、電話会議プロバイダーを Microsoft に変更している場合。**
     
-     このメールには会議 ID、既定の電話会議の電話番号、ユーザーの電話会議 PIN、およびユーザーのために既存の会議を更新するために使用される Skype for Business Online Meeting Update Tool の操作手順とリンクが記載されています。 「[Skype for Business と Microsoft Teams のライセンスを割り当てる](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)」または「[Microsoft を電話会議プロバイダーとして割り当てる](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)」をご覧ください。
+     この電子メールには、会議、音声会議、ユーザーの指示およびリンク ビジネス オンライン会議の更新ツールの既存の会議を更新するために使用されるため、Skype を使用するのには、暗証番号 (pin) の既定の会議電話番号、会議 ID が含まれています、ユーザーです。 [ビジネスおよびマイクロソフトのチームのライセンスの割り当ての Skype](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)または[オーディオ会議プロバイダーとしての Microsoft の割り当て](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)を参照してください。
     
     > [!NOTE]
-    > 所属する組織で、動的な会議 ID が有効になっている場合、すべてのユーザーの会議に固有の会議 ID が設定されます。 [組織での電話会議の動的 ID ](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user)をセットアップすることができます。 
+    > 会議 Id を動的に組織を有効になっている、会議 Id を表す一意のすべてのユーザーの会議をスケジュールするがあります。 [組織で電話会議の動的な Id](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user)を設定できます。 
   
     このメールの例を次に示します。
     
@@ -48,7 +48,7 @@ Microsoft を電話会議プロバイダーとして使用して[電話会議を
     
 - **ユーザーの会議 ID または既定の電話会議の電話番号が変更された場合。**
     
-    このメールには会議 ID、既定の電話会議の電話番号、およびユーザーのために既存の会議を更新するために使用される Skype for Business Online Meeting Update Tool の操作手順とリンクが記載されています。 ただし、このメールにはユーザーの電話会議 PIN は含まれていません。 「[ユーザーのために会議 ID をリセットする](reset-a-conference-id-for-a-user-in-teams.md)」をご覧ください。
+    この電子メールには、会議 ID、既定の会議の電話番号、指示およびリンク ビジネス オンライン会議の更新ツールを使用して、ユーザーの既存の会議を更新するため、Skype を使用するのにが含まれています。 ですが、この電子メールにはユーザーの電話会議暗証番号 (pin) にはが含まれていません。 [](reset-a-conference-id-for-a-user-in-teams.md)Reset a conference organizer's PIN
   
     このメールの例を次に示します。
     
@@ -56,7 +56,7 @@ Microsoft を電話会議プロバイダーとして使用して[電話会議を
   
 - **ユーザーの電話会議の PIN がリセットされる場合。**
     
-    このメールには、ユーザーに向けた組織の電話会議 PIN、既存の会議 ID、および既定の電話会議の電話番号が記載されます。 「[電話会議の PIN をリセットする](reset-the-audio-conferencing-pin-in-teams.md)」をご覧ください。
+    この電子メールには、電話会議の開催者の暗証番号 (pin) では、既存の会議 ID、およびユーザーの既定の会議電話番号が含まれています。 [オーディオ会議の PIN のリセット](reset-the-audio-conferencing-pin-in-teams.md)を参照してください。
     
   
     このメールの例を次に示します。
@@ -65,7 +65,7 @@ Microsoft を電話会議プロバイダーとして使用して[電話会議を
   
 - **ユーザーのライセンスが削除されたか、電話会議プロバイダーが Microsoft から他のプロバイダーに変更または、なしに設定された場合**
     
-    これは、**電話会議**ライセンスがユーザーから削除された場合、ユーザーの電話会議プロバイダーを Microsoft からサードパーティの電話会議プロバイダーに変更する場合、またはプロバイダーを [**なし**] に設定する場合に発生します。 このメールには、ユーザーが Skype for Business Online Meeting Update Tool を使用して、既定の電話会議番号や会議 ID などの電話会議固有の情報を削除するための操作指示および情報が記載されています。
+    これは、**オーディオ会議**のライセンスが削除されると、ユーザー、またはサード ・ パーティ製のオーディオ会議プロバイダーをマイクロソフトからユーザーの電話会議プロバイダーを変更する場合、プロバイダーを **[なし]** に設定する場合に発生します。 この電子メールには、説明および既定の会議電話番号] または [会議 ID などの特定の情報、オーディオ会議を削除するのには会議の更新ツールのオンライン ビジネスの Skype を使用するユーザーの情報が含まれています。
     
     「[一般法人向け Office 365 ライセンスの割り当てまたは解除方法](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)」をご覧ください。
     
@@ -78,11 +78,11 @@ Microsoft を電話会議プロバイダーとして使用して[電話会議を
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>ユーザーに送信されるメールのメッセージを変更する
 
-自動的にユーザーに送信されるメールの、*差出人*の連絡先情報に含まれるメール アドレスや表示名を、変更することができます。 既定では、メールの送信者は Office 365 ですが、Windows PowerShell を使用してメール アドレスと表示名を変更することができます。 詳細については、[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)をご覧ください。
+ユーザーの電子メール アドレスなど*の*連絡先情報に記載されている表示名を自動的に送信される電子メールには、変更を行うことができます。 既定では、電子メールの送信者は、Office 365 からなりますが、電子メール アドレスを変更し、Windows PowerShell を使用して名前を表示できます。 詳細については[マイクロソフト チームの PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)を参照してください。
   
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>ユーザーにメールが送信されないようにする場合
 
-ユーザーへのメールの送信を無効にすると、ユーザーにライセンスが割り当てられたときでもメールは送信されません。 この場合、会議 ID、既定の電話会議の電話番号、およびより重要であるユーザーの電話会議の PIN はユーザーに送信されません。 このような場合は、ユーザーに別個のメールを送信するか、電話をすることによって伝える必要があります。
+ユーザーに e メールを送信を無効にするとは、ユーザーにライセンスが割り当てられているを取得するときにも電子メールが送信されません。 会議 ID は、ここでは既定の会議の電話番号、および、さらに、オーディオ会議の暗証番号 (pin) をユーザーに送信されません。 このような場合は、別の電子メールを送信することによって、またはそれらを呼び出すことによってユーザーに通知する必要があります。
   
 既定では、メールはユーザーに送信されますが、Microsoft Teams または Windows PowerShell を使用して、電話会議についてのメールをユーザーが受け取らないようにすることができます。 
 

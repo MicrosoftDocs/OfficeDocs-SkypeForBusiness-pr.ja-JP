@@ -7,8 +7,12 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: a20ec223-e20d-4744-abfa-ab1d1127082a
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- skype-for-business-online
+- msteams
+ms.collection:
+- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -20,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: e35601ff416c043ec3bfc83cbc09406140e4e491
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 02dc66934c30decdf3f015a7bd9848c6ca376c98
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854466"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013450"
 ---
 # <a name="toll-free-dialing-restrictions-in-thailand"></a>タイのフリー ダイヤルの制限
 
@@ -43,7 +47,7 @@ ms.locfileid: "23854466"
 |携帯電話ネットワークの状態  <br/> |○ コメント参照。  <br/> |
 |コメント、制限、アクセスの問題など  <br/> |携帯電話アクセス: ローミング ユーザー以外は通話時間が課金されない。ローミング ユーザーはローカル通話時間として課金される。携帯電話アクセスの場合: すべての携帯電話ネットワークからアクセス可能。  <br/> |
 
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 
 [フリー ダイヤルの制限事項と制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 

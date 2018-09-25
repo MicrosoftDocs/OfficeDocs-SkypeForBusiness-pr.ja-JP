@@ -7,11 +7,14 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: none
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- Teams_ITAdmin_Help
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: この表で、カナダでの Skype for Business Online および Microsoft Teams の電話番号の取得と管理についての情報を確認できます。
-ms.openlocfilehash: 38efe1280b13d9f7228170e936890adb6001e8f8
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8338d67db1095a9b3041450976192bf2e3b526cc
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889707"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015878"
 ---
 # <a name="phone-number-management-for-canada"></a>カナダでの電話番号の管理
 

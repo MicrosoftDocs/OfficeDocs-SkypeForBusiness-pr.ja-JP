@@ -10,15 +10,17 @@ ms.reviewer: MyAdvisor, lolaj
 search.appverid: MET150
 description: Microsoft Teams で通話プランを設定するためのクイック スタート ガイドです。
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86a4862a547df6f50d0831616a42824d9f8c3287
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: 6a1fb82f57035f238ce222bf7f21b72983d21075
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882099"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015934"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>クイック スタート ガイド: Microsoft Teams での通話プランの設定
 ==============================================================
@@ -46,7 +48,7 @@ Teams のアップグレード ポリシーと Teams の相互運用ポリシー
 > 必要な PowerShell コマンドレットを検索するには、[Skype for Business PowerShell コマンドレットに関するドキュメント](https://docs.microsoft.com/powershell/module/skype)で [**フィルター**] ボックスに「CsTeamsUpgradePolicy」または「CsTeamsInteropPolicy」と入力します。
 
 ### <a name="default-teams-upgrade-and-interop-policies"></a>既定の Teams のアップグレード ポリシーと相互運用ポリシー
-Teams の既定のポリシーは、Teams の展開時に既存のビジネス ワークフローが中断されることがないように構成されています。 既定では、ユーザーへの VoIP 通話、PSTN 通話、フェデレーション通話は、ポリシーを更新して Teams への着信通話を有効にするまで、Skype for Business にルーティングされます。 このメカニズムにより、Teams のパイロットや展開を開始したときに、音声サービスに意図しない中断が発生するのが回避されます。
+Teams の既定のポリシーは、Teams の展開時に既存のビジネス ワークフローが中断されることがないよう設定されています。 既定では、ユーザーへの VoIP 通話、PSTN 通話、フェデレーション通話は、ポリシーを更新して Teams への着信通話を有効にするまで、Skype for Business にルーティングされます。 このメカニズムにより、Teams のパイロットや展開を開始したときに発生する可能性のある意図しない中断が回避されます。
 
 Teams のアップグレード ポリシーは、既定では、Teams または Skype for Business のどちらにチャットや通話がルーティングされるかを決める、Teams の相互運用ポリシーを受け継ぐレガシー モードで維持されます。
 
@@ -87,7 +89,7 @@ Teams で PSTN 着信通話を受信するには、`CallingDefaultClient` パラ
 * **Skype for Business を利用していないお客様の場合**、このポリシーが有効であるときは、PSTN 通話は Teams で受信されます。
 
 > [!WARNING]
-> 現時点では、`CallingDefaultClient` を Teams に変更すると、Skype for Business IP 電話への通話にも影響がおよびます。 Skype for Business IP 電話で着信通話を受信できなくなり、Teams クライアントでのみ着信音が鳴ります。 既存の認定済み SIP 電話のサポートについては、「[Skype for Business から Microsoft Teams へ: 機能のロードマップ](https://aka.ms/skype2teamsroadmap)」をご覧ください。
+> 現時点では、`CallingDefaultClient` を Teams に変更すると、Skype for Business IP 電話への通話にも影響を及ぼします。 Skype for Business IP 電話で着信通話を受信できなくなり、Teams クライアントでのみ着信音が鳴ります。 既存の認定済み SIP 電話のサポートについては、「[Skype for Business から Microsoft Teams へ: 機能のロードマップ](https://aka.ms/skype2teamsroadmap)」をご覧ください。
 
 ### <a name="how-to-configure-users-to-receive-pstn-calls-in-teams"></a>Teams でユーザーが PSTN 通話を受信する用に設定する方法
 レガシーの Teams のアップグレード ポリシーを使用しているときに、Teams に通話をリダイレクトするには、上記の説明に従って Skype for Business の Windows PowerShell リモート セッションを介して Teams の相互運用ポリシーを適用します。

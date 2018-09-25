@@ -7,8 +7,12 @@ ms.reviewer: mikedav, wlooney
 ms.topic: article
 ms.assetid: 553fa13c-92d2-4d5c-a3d5-41a073cb047c
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- skype-for-business-online
+- msteams
+ms.collection:
+- Teams_ITAdmin_Help
+- Adm_Skype4B_Online
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -20,12 +24,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'オンにし、ビジネス オンライン コール品質のダッシュ ボードに、Skype を使用し、通話の品質の概要のレポートを取得する方法を参照してください。 '
-ms.openlocfilehash: 4e6ef7fc8358d75c5043ec8cc34615db0a4dfe23
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: bf7540d7c83fb8a3f7507fb4a8fcbcd8e820e2e2
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23870486"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017890"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>有効にして、マイクロソフトのチームと Skype のオンライン ビジネスの品質のダッシュ ボードの呼び出しを使用して
 
@@ -248,7 +252,7 @@ ms.locfileid: "23870486"
   
 ![品質のダッシュ ボードのストリームの合計数を呼び出します。](media/21d5d0dc-2321-415e-8ef2-cea06165601c.png)
 
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 [Skype for Business の通話分析をセットアップする](set-up-call-analytics.md)
 
 [分析機能の呼び出しを使用して不適切な通話の音質をトラブルシューティングするには](use-call-analytics-to-troubleshoot-poor-call-quality.md)

@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 1d649328-ada7-422d-a074-d6da4da36970
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Microsoft Teams でユーザーが会議に参加したときに自分の名前を記録できるようにするかどうかの設定方法について説明します。
-ms.openlocfilehash: c09cd9b5fd0a8934c61a37212de53d750f7deac7
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: 8583ca92de2544946eb898d128e423b6df62cb24
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23893003"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25012938"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Microsoft Teams でユーザーが会議に参加したときに自分の名前を記録できるようにする
 
@@ -36,7 +36,7 @@ ms.locfileid: "23893003"
   
 ## <a name="set-whether-callers-should-record-their-name"></a>発信者が名前を記録すべきかどうかを設定する
 
-1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
+1. マイクロソフトのチームとのビジネス管理センターは、左側のナビゲーションでは、Skype で**の会議**に移動 > **会議ブリッジ**です。 
 
 2. [**会議ブリッジ**] ページの最上部で、[**ブリッジの設定**] をクリックします。 
 

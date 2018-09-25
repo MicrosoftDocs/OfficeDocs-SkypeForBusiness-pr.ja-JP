@@ -3,7 +3,7 @@ title: ビジネスおよびマイクロソフトのチームの共存と Skype 
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
-ms.date: 07/16/2018
+ms.date: 09/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -11,15 +11,15 @@ description: Skype のビジネスとマイクロソフトのチームの共存�
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06e425f062c47f8fa05fa69e1354fee472804e90
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 158e563151fe426f6abbbeb7519ba9e793f2d202
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887571"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013410"
 ---
 ![プロジェクトの定義の段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-project-definition.png "プロジェクトの定義の段階に重点を置いて、旅アップグレードの段階")
 
@@ -48,13 +48,13 @@ ms.locfileid: "23887571"
 **島**と呼ばれるこの共存モードでは、別の島としてクライアント アプリケーションの動作します。 Skype のビジネス、およびチームに問い合わせることによってビジネスの Skype は、チームに説明します。 ユーザーは、両方のクライアントを実行し、通信が開始されたクライアントでネイティブに通信できます。 次のように、**島**のモードでの相互運用性の必要性はありません。
 
 > [!Tip]
-> ほとんどの組織では、**島**のモードで展開する可能性があります。 チームに迅速に移動しようとすると、長期間の共存をサポートするために期待しないで、**島**のモードを使用するをお勧めします。 
+> 今後モード**のみのチーム**と**チームの共同作業によるビジネスの Skype**のモードが使用できる場合は、新しいオンライン ・ ユーザーの既定のモード必要があります**チームの共同作業によるビジネスの Skype**では、組織の準備ができているまで**チームのみ**に移動します。   **アイランド**モードで既存のユーザー、組織が準備が完了するとすぐに**チームのみ**のモードに直接移動します。 
 
 ### <a name="skype-for-business-only"></a>Skype ビジネスだけに
 
 この共存モードでは、ユーザーはビジネス用の Skype に残る-チームではありません-チャット、会議、および呼び出し機能、および、チームおよびチャネルのためのチームを使用しないのです。 このモードは、今日利用可能ですただし、現在の実装では、チームの様相はないユーザーの自動的にオフにします。 この機能は、期限の迫っています。 間に、管理者は、Skype の唯一の通信アプリケーションとビジネスのために維持する必要があるすべてのユーザーのチームのライセンスを削除できます。
 
-### <a name="teams-only-this-mode-is-rolling-out-starting-in-summer-2018"></a>チームにのみ (このモードは、展開夏 2018 で開始)
+### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-by-fall-2018"></a>チームにのみ (ローリング開始モードはこの夏 2018 し秋 2018、すべてのテナントに完了する)
 
 組織の唯一のコミュニケーションとコラボレーションのツールとして、チームを使用する一部またはすべてのユーザーの準備ができたらとすぐに**チームのみ**のモードにそれらのユーザーをアップグレードできます。
 
@@ -87,6 +87,7 @@ ms.locfileid: "23887571"
 ## <a name="interoperability-of-teams-and-skype-for-business"></a>チームやビジネス用の Skype の相互運用性
 
 相互運用性は、同じ組織内のビジネス ユーザーのチーム、およびビジネスのための Skype 経由で通信するためにチームと Skype の機能です。
+
 
 ### <a name="native-interop-and-interop-escalation"></a>ネイティブの相互運用機能と相互運用機能のエスカレーション
 

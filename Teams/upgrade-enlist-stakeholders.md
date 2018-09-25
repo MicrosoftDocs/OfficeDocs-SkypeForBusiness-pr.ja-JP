@@ -11,15 +11,15 @@ description: アップグレードのプロジェクト チームに提供する
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe32df433159512d4e24d2bde7c2db76db23c32a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 89de20a88ab128dbef994150a9767ba45e4064a5
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883282"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013034"
 ---
 ![プロジェクト利害関係者のチームを収集することに重点を置いて、旅アップグレードの段階](media/upgrade-banner-stakeholders.png "プロジェクト利害関係者のチームを収集することに重点を置いて、旅アップグレードの段階")
 
@@ -54,7 +54,7 @@ ms.locfileid: "23883282"
 | ネットワーク リード                    | ネットワークの設計と実行の洞察を提供します。                             | 
 | セキュリティ リード                   | セキュリティの設計、プロセス、および実装の洞察を提供します。             | 
 | 同期通信の潜在顧客 | プレゼンス、会議、チャットなどのツールと、呼び出しを所有しています。                       | 
-| Led が非同期のコラボレーション  | 非同期 SharePoint、OneDrive などのツールを所有しています。               | 
+| 非同期のコラボレーションの潜在顧客  | 非同期 SharePoint、OneDrive などのツールを所有しています。               | 
 | テレフォニー リード                  | テレフォニーの設計と実装の洞察を提供します。                      | 
 | 所有者のサービスと品質のチャンピオン | チームすべてをユーザー エクスペリエンスの質を含む操作を所有します。 | 
 | デスクトップとデバイスのリード        | クライアント、デバイス、およびデスクトップ アプリケーションへの入力を提供します。                          | 

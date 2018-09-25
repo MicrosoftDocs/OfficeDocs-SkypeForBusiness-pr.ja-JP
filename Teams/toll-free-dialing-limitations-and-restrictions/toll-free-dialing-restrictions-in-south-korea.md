@@ -7,8 +7,12 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: bbd48199-0fe5-4458-b29b-d2b2f44e6e8e
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- skype-for-business-online
+- msteams
+ms.collection:
+- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -20,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: 0dd8c31966edbf5ecc0666e4ea37b3e616866a89
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 69ba5015c264297bc9cc68740e1b87fe0a3127dd
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23859376"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013996"
 ---
 # <a name="toll-free-dialing-restrictions-in-south-korea"></a>韓国でフリー ダイヤルのダイヤルの制限
 
@@ -43,7 +47,7 @@ ms.locfileid: "23859376"
 |携帯電話ネットワークの状態  <br/> |あり  <br/> |
 |コメント、制限、アクセスの問題など  <br/> |なし  <br/> |
    
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 
 [フリー ダイヤルの制限事項と制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 

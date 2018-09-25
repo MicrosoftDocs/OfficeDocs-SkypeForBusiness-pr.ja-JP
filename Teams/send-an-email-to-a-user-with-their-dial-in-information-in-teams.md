@@ -7,9 +7,9 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 7440d3e2-1b49-4258-bd2c-79e9072f8c8d
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Microsoft Teams で電話会議の情報が記載されたメールをユーザーに送信します。
-ms.openlocfilehash: 85e219481884bb08a2574809b6170c232abccf83
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: 9ebd650e487b4ef3108d50ecce31eea0a936b176
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892093"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25012322"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Microsoft Teams で電話会議の情報が記載されたメールをユーザーに送信する
 
-Microsoft Teams ユーザーに電話会議の情報を送信することが必要になる場合があります。 そのような場合は、ユーザーのプロパティの [**電話会議情報をメールで送信**] をクリックします。 送信するメールには、次のようなすべての電話会議の情報が含まれています。
+マイクロソフトのチームのユーザーの電話会議の情報を送信する必要があります。 [ユーザーのプロパティ] で**電子メールを使用して会議情報を送信**をクリックしてこれを行うことができます。 この電子メールを送信するとき、すべてが含まれますのオーディオ会議の情報を含みます。
   
 - ユーザー用の会議の電話番号またはダイヤルイン電話番号。
     
@@ -68,7 +68,7 @@ Microsoft Teams ユーザーに電話会議の情報を送信することが必�
     
   - ユーザーの電話会議プロバイダーが Microsoft に変更された場合。
     
-- 既定では、メールの送信者は Office 365 ですが、Windows PowerShell を使用してメール アドレスと表示名を変更することができます。 詳細については、[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)をご覧ください。
+- 既定では、電子メールの送信者が、Office 365 からなりますが、電子メール アドレスを変更し、Windows PowerShell を使用して名前を表示できます。 詳細については[マイクロソフト チームの PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)を参照してください。
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 

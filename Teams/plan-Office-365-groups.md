@@ -9,15 +9,15 @@ ms.service: msteams
 description: チーム クライアントと Office 365 管理 web コンソールでは、についての会話を使用して、チームを教育する方法を使用して、パブリックとプライベートのグループを選択するなどの Office 365 のグループを計画する場合をする必要があります決定事項について説明します。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82ebbab5be855e71eeaa6e6b5efb95e214a8f57e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a3b132ec619d34ac716de4ca303112fda38d67f2
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892667"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013098"
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Microsoft Teams でチームを作成するときの Office 365 グループの計画
 ==========================================================

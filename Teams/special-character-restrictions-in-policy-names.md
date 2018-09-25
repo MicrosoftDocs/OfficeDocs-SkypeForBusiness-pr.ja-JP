@@ -6,8 +6,12 @@ manager: serdars
 ms.reviewer: jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: msteams
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- msteams
+- skype-for-business-online
+ms.collection:
+- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -18,12 +22,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: ポリシーおよびその修正を行うことができますの名前に特殊文字を含むが、どのような問題を参照してください。
-ms.openlocfilehash: 61902c3cdeafbacbf316b99834e7ac32286443b4
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e1d46f70b42b96b2f3811c97d0110946fd013cd7
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23853416"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017504"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>チーム ポリシー内の特殊文字の制限は?
 
@@ -97,7 +101,7 @@ Windows PowerShell は、ユーザーと、ユーザーに許可されている�
     
 - 多くのユーザーの設定を同時に変更するときなどは、Office 365 管理センターのみを使用するよりも、Windows PowerShell の方に、速度、わかりやすさ、生産性の点で多くのメリットがあります。
     
-  - [Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center such as when you are making setting changes for many users at one time.](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Windows PowerShell と Lync Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     
     [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
     

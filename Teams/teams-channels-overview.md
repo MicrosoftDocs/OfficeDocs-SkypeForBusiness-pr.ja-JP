@@ -9,15 +9,15 @@ ms.service: msteams
 search.appverid: MET150
 description: 財務、イベント計画、販売など、多岐にわたる要件で利用できるさまざまなチーム、チャネル、アプリについて紹介します。
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43b8a50322167ff9e5673ee62c0d53c226be632b
-ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
+ms.openlocfilehash: 70591f040508453832943c65122f0fa0b07ef35b
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "24967376"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014662"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要
 =================================================

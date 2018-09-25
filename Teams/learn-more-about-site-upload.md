@@ -9,17 +9,18 @@ ms.service: msteams
 ms.reviewer: ''
 localization_priority: Normal
 search.appverid: MET150
+ms.collection: Teams_ITAdmin_Help
 description: サイトにアップロードする方法をについて説明します。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d1f66c9787cb64a3026f3783b3f5de884f86a1d
-ms.sourcegitcommit: a9bf4de79c84d239488455575322188a03535f71
+ms.openlocfilehash: c9f9c093e7a80a7f4f3165f58cd6dc34f532ab7e
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "24013524"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017416"
 ---
 <a name="adding-and-updating-locations-data"></a>追加して、場所データを更新します。
 ============================
@@ -35,7 +36,7 @@ ms.locfileid: "24013524"
 3. [**アップロード**] をクリックします。 
 
 
-サンプル テンプレートをダウンロードすることができます[ここ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.tsv?raw=true)。
+サンプル テンプレートをダウンロードすることができます[ここ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)。
 
 次の例を使用すると、データ ファイルの作成に役立ちます。 
 

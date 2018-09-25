@@ -7,9 +7,12 @@ ms.reviewer: mikedav, roykuntz, jastark, oscarr
 ms.topic: article
 ms.assetid: 6b8d5ddb-59c1-4ee7-b171-18e5ace2dcd6
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -22,12 +25,12 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されます無料電話番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: 201e969693d516c1aa946eab7e22d116dd0f2f22
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 92629f1be80a3174603f854d8d9c0e0e2e7254dc
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862048"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013258"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>フリー ダイヤルの制限事項と制限事項
 

@@ -6,8 +6,12 @@ manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- skype-for-business-online
+- msteams
+ms.collection:
+- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -21,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: エジプトの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: c026c3782b877d96a4998d7397b5489ea9bcf3ac
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 3575214935ae2c2d6af069257280bddb2f570a92
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23856260"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014308"
 ---
 # <a name="availability-in-egypt"></a>エジプトの可用性
 

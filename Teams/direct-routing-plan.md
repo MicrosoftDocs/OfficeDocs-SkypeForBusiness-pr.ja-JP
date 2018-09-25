@@ -6,17 +6,22 @@ manager: serdars
 ms.audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
+ms.service:
+- msteams
+- skype-for-business-online
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: ''
+ms.collection: Teams_ITAdmin_Help
+appliesto:
+- Microsoft Teams
 description: Microsoft 電話システム直接ルーティングを使用する方法マイクロソフトの電話システムに、サポートされている、お客様が用意したセッション ボーダー コント ローラー (SBC) の接続については、このトピックを参照してください。
-ms.openlocfilehash: 91d188f63a0645d0df81817dd98dbd3ef54418a9
-ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
+ms.openlocfilehash: ddfada14916b14c374479109732dbe1fa35a0174
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24975203"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017616"
 ---
 # <a name="plan-direct-routing"></a>直接ルーティングを計画します。
 

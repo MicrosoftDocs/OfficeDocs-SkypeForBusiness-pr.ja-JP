@@ -10,15 +10,15 @@ ms.reviewer: rowille
 description: チームを使用して、マイクロソフトの教育グループの管理者からよく寄せられる質問への回答です。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29e242cfdfe4e4e01c20efd2ec9dae996746b493
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 867c5c6a2c4a2bf3456e7956ad1a212ccd75f317
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883222"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014500"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>管理者のマイクロソフト教育ガバナンスに関する FAQ
 

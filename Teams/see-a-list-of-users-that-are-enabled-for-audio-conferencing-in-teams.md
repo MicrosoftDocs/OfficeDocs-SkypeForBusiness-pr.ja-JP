@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: bd0cd155-4c6d-424d-a2c9-af7974a2d34c
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft Teams から、ダイヤルイン会議で有効になっている組織のユーザーのリストを表示する方法を説明します。 '
-ms.openlocfilehash: 9bbdd5fd8536554c942db19c8c9f5ac41789c461
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: e82d0d265e89c5b717ff25ea7c58ec240b38bea0
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884448"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014036"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams で電話会議用に有効になっているユーザーのリストを表示する
 
-自分の組織内の Microsoft Teams ユーザーを電話会議で有効にした後、それらの有効になっているユーザーのリストを表示することができます。 リストを調べると、リスト内の各ユーザーが使用している電話会議プロバイダーの種類、既定のダイヤルイン電話番号、および組織が動的な会議 ID を有効にしていない場合は、それらのユーザーが開催する電話会議用の静的な会議 ID も表示されています。
+オーディオ会議の組織でマイクロソフトのチームのユーザーを有効にした後は、有効になっているユーザーの一覧を表示できます。 オーディオ会議プロバイダーを使用しているユーザーの既定のダイヤルインの電話番号の種類の一覧内の各ユーザーに対しても表示されます、ボックスの一覧を確認する場合と、組織は、動的な会議 Id、静的な会議 Id を有効になっていません。オーディオ会議会議を開催します。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

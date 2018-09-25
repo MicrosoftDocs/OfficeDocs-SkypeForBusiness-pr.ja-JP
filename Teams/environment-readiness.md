@@ -10,15 +10,15 @@ ms.reviewer: dansteve
 description: Microsoft Teams の導入に向けた環境の準備の確認事項について説明します。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55c1efa3cdbe9dc6295a294e682265a51509a60c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7b02cea9763207c9a756d98b3eecf1e4c579fdc3
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889569"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013178"
 ---
 <a name="check-your-environments-readiness-for-microsoft-teams"></a>Microsoft Teams の導入に向けた環境の準備を確認する
 ===========================================

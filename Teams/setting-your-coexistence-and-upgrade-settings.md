@@ -5,6 +5,7 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: bjwhalen
 search.appverid: MET150
 description: 共存モードを選択し、他の共存の設定を設定するには、この資料が役立ちます。
@@ -12,12 +13,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69687729ac9d9575b79e53c1ff00396d0db8e51c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 2a83382ff46e5a698e3755f2c1d2d859dddd65f0
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23856332"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013202"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>共存およびアップグレードの設定を設定します。
 
@@ -64,7 +65,7 @@ ms.locfileid: "23856332"
 3. **使用して組織全体の設定**以外の**共存モード**を選択する場合は、ビジネス アプリケーションをチームへのアップグレードの準備中で Skype のユーザーの通知を有効にするオプションがあります。 ユーザーの通知を有効にするには、**ビジネス ユーザーの Skype の通知**オプションをオンにします。
 4. 変更を加えた後、[**保存**] をクリックします。
 
-### <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+### <a name="related-topics"></a>関連トピック
 [旅を計画します。](upgrade-plan-journey.md)
 
 [共存を理解し、Skype のビジネスとチームの旅をアップグレード](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)

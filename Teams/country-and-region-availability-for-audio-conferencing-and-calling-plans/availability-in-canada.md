@@ -7,8 +7,12 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 44ac6f2b-e566-45bf-acc6-24b5184f1554
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- skype-for-business-online
+- msteams
+ms.collection:
+- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -22,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: カナダで利用できる Skype for Business と Microsoft Teams の Office 365 サービスを以下に示します。
-ms.openlocfilehash: 1d4593469ca0ff930a76af6e11f71cdf80cb06c6
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: f317f86a5e2a8f09a56a7314fe6cccd273f29e94
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860428"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017544"
 ---
 # <a name="availability-in-canada"></a>カナダでの利用可能性
 

@@ -5,23 +5,25 @@ ms.author: lolaj
 manager: serdars
 ms.date: 03/23/2018
 ms.topic: article
-ms.service: msteams
+ms.service:
+- msteams
+- skype-for-business-online
 ms.reviewer: ''
 search.appverid: MET150
 description: テナント全体を管理する方法を理解し、チームのチームから移行する際のユーザーの設定が新しいマイクロソフトのチームとビジネス管理センターの Skype に Office 365 の管理センターで発生します。
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: dddb73e5b616fead421d1b610eff6229b4191d06
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: e54dfb0bc62e94e0a870aefc192851ce7b8a53fe
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965700"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013900"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>新しいマイクロソフトのチームとビジネス管理センターの Skype に移行する際のチームを管理します。
 ======================================================
@@ -76,7 +78,7 @@ ms.locfileid: "23965700"
 |カスタム クラウド ストレージ     |ドロップ ボックス        |TeamsClientConfiguration         |テナント         |
 |カスタム クラウド ストレージ     |Google ドライブ        |TeamsClientConfiguration         |テナント         |
 |カスタム クラウド ストレージ     |ShareFile        |TeamsClientConfiguration         |テナント         |
-|ユーザーとライセンスの種類を設定     |すべてのユーザーの Microsoft チームのオンとオフをオンにします。          |使用されなくなりました。 ライセンスを割り当てるには、Office 365 管理センターを使用します。        |         |
+|ユーザーとライセンスの種類を設定     |すべてのユーザーの Microsoft チームのオンとオフをオンにします。          |推奨されていません。 ライセンスを割り当てるには、Office 365 管理センターを使用します。  ゲストを有効にする無効にすることは、移動 TeamsClientConfiguration - AllowGuestUser      |         |
 |チームとチャネル     |         |Azure Active Directory グループの管理 (現在のエクスペリエンスと同じ) にリダイレクトします。              |ユーザー         |
 |チームとチャネル     |         |AAD グループの管理 (現在のエクスペリエンスと同じ) にリダイレクトします。             |ユーザー          |
 |通話や会議     |プライベート会議の予約を許可する         |TeamsMeetingPolicy         |ユーザー          |

@@ -11,15 +11,15 @@ description: ビジネス用の Skype からチームへのアップグレード
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea1e371ae10991c5a8d5d9121da9f78fb44af430
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7ba3471b2a51a4629d316a4507a08cd02e30022a
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883214"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015646"
 ---
 <a name="about-upgrade-basic"></a>
 # <a name="upgrade-basic"></a>基本的なアップグレードします。 
@@ -151,7 +151,7 @@ ms.locfileid: "23883214"
 
 *(1 日にアップグレードします)*
 
-今日は、組織が正式に、コミュニケーションとコラボレーションのソリューションとしてチームにアップグレードの日です。 Office 365 管理ポータルでは、**チームだけ**に共存モードを設定することによってアップグレードを有効にします。 ビジネス クライアントがチームにアップグレードされているため、Skype では、ユーザーは通知を受け取ります。
+今日は、組織が正式に、コミュニケーションとコラボレーションのソリューションとしてチームにアップグレードの日です。 チーム/Skype のビジネス管理センターで、**チームだけ**に共存モードを設定することによってアップグレードを有効にします。 (**組織全体の設定**には、管理センターで、 > **のチームをアップグレード**します)。ビジネス クライアントがチームにアップグレードされているため、Skype では、ユーザーは通知を受け取ります。
 
 すべてのユーザーがアップグレードされた後、チームを歓迎する電子メールを送信することをお勧めします。
 

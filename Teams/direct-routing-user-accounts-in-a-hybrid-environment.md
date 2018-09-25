@@ -5,17 +5,22 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
+ms.service:
+- msteams
+- skype-for-business-online
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: ''
+ms.collection: Teams_ITAdmin_Help
+appliesto:
+- Microsoft Teams
 description: ユーザーの作成」と「どの組み合わせがサポートまたはサポートされていないのさまざまな組み合わせについて説明します。
-ms.openlocfilehash: 8690d294755ed75b1c79a2c1fa61a4df196bc070
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: aa2d5b7b98b4a683f7f79ee9fb9b76e04a40263b
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851312"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014212"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>PSTN への接続を持つハイブリッド環境でのユーザー アカウント
 
@@ -25,7 +30,7 @@ ms.locfileid: "23851312"
  
 - Skype ビジネス サーバー 2015 または Lync Server 2013 の 
 - Office 365 テナント 
-- ビジネス サーバーの Skype と Skype ビジネス オンラインまたはチームのテナントの間で構成されているハイブリッド接続 
+- ビジネス サーバーの Skype と Skype ビジネス オンラインまたはマイクロソフトのチームのテナントの間で構成されているハイブリッド接続 
 - クライアントとの間の公衆交換電話網 (PSTN) 通話を送受信するを有効にするユーザー
 
  

@@ -6,17 +6,18 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: lucarras
 search.appverid: MET150
 description: コネクタは、頻繁に使用するサービスからのコンテンツや更新をチャネルに直接配信して、チームを最新の状態に保ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b5a0af4327169c6ba8b640e48184591002c94ea
-ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
+ms.openlocfilehash: 41d9101ced23c4d0ffb51c0bdb63ee739f3dc28b
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23937877"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013708"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Microsoft Teams で Office 365 コネクタとカスタム コネクタを使用する
 =======================================================

@@ -7,19 +7,19 @@ ms.date: 09/12/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection: Teams_ITAdmin_Help
 ms.audience: Admin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: ユーザーが別の組織内のユーザーと通信できるようにするのにはチームを構成する方法を参照してください。
-ms.openlocfilehash: d7423109d4fba01ca85c1602bfcf92190b539abf
-ms.sourcegitcommit: 116d17befc17503968e00e45be338834aa2185b2
+ms.openlocfilehash: 3c01724d10867c210ff5fe13981b9ddfb801f8f1
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/18/2018
-ms.locfileid: "23998628"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013306"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>チームのユーザーのチャットを使用し、チームの別の組織内のユーザーとの通信
 

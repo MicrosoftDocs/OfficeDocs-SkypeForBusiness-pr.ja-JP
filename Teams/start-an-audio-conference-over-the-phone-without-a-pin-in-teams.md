@@ -7,10 +7,11 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: d5b1f775-d7ed-4d30-853a-1d49f81e8fde
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- -msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,20 +21,20 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '匿名の発信者が Teams 管理センターから会議に参加することを有効または無効にする方法を説明します。 '
-ms.openlocfilehash: c68e3a0bd9992eb53811941113a30e9362c78227
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: 4aec566b165385a111162641f233cd1b1e3027f4
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883000"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014108"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Microsoft Teams で PIN を使用せずに電話で電話会議を開始する
 
 ユーザーが会議にダイヤルインしたのに、Microsoft Teams 会議の開催者が会議を開始していないため、保留音の音楽を聞きながら会議のロビーで待たされると、不快な思いをしてしまう可能性があります。 
   
-会議の開催者が会議にダイヤルインする場合、既定では、会議を開始するために PIN が必要です。 どのユーザーが会議にダイヤルインしても会議の開始で PIN を求められることがないように、会議を設定することができます。 管理センターを使用して、この設定を 1 人のユーザーに対して有効または無効にすることができます。
+会議の開催者を呼び出す場合、会議出席依頼には、既定では、会議を開始するのには、暗証番号 (pin) が必要です。 できますを設定することをだれでも会議にダイヤルイン会議を開始するのには暗証番号 (pin) には求められません。 有効にするか、1 人のユーザーに対してこの設定を無効にするのには、管理センターを使用できます。
   
-あるユーザーが Microsoft Teams アプリから会議を開始した場合、会議の開催者に PIN が要求されることはありません。 PIN が必要になるのは、会議の開催者が電話で自分の会議に参加する場合のみです。 ユーザーに**電話会議**ライセンスが割り当てられているか、ユーザーが電話会議会議で有効である場合、会議の PIN がその電話会議ユーザーに送信されます。 「[電話会議の情報が記載されたメールをユーザーに送信する](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)」および「[電話会議の設定が変更されたときにユーザーに自動的に送信されるメール](emails-sent-to-users-when-their-settings-change-in-teams.md)」をご覧ください。
+誰かマイクロソフトのチームのアプリケーションから会議が開始された場合、暗証番号 (pin) は会議の開催者のために必要はありません。 PIN が必要であるのは、会議の開催者が電話で自分の会議に参加する場合のみです。 会議の暗証番号 (pin) は、**オーディオ会議**のライセンスが割り当てられている音声会議が有効になっていると、オーディオのユーザーに送信されます。 [オーディオ会議の情報を持つユーザーに電子メールを送信](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)し、[ユーザーが電話会議の設定を変更するときに自動的に送信される電子メール](emails-sent-to-users-when-their-settings-change-in-teams.md)を参照してください。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -68,7 +69,7 @@ ms.locfileid: "23883000"
     
 - 匿名アクセスが無効、または会議の開始に PIN が必要な設定になっている場合:
     
-  - 会議がまだ開始していない場合 (会議にまだ誰もいない場合): 発信者に開催者であるかどうかを確認するメッセージが表示されることはなく、PIN の入力も求められません。 開催者の設定がオフになっているため、会議が始まり、匿名の発信者が会議に参加します。
+  - 会議が開始されていない場合 (は誰もまだ会議で): 開催者は、彼女と彼女がするメッセージは表示されません、暗証番号 (pin) の場合、呼び出し元は要求されません。 開催者の設定がオフになっているため、会議が始まり、匿名の発信者が会議に参加します。
     
   - 会議が既に開始している場合 (会議に既に他のユーザーがいる場合): 発信者に開催者であるかどうかを確認するメッセージが表示されることはなく、PIN の入力も求められません。会議は既に始まっていて、発信者はその会議に参加します。
     

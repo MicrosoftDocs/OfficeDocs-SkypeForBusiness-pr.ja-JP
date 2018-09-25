@@ -5,16 +5,17 @@ ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 description: マイクロソフト チームの機能のすべてを管理する Windows PowerShell を使用するについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51ebac4bed4b390758fe3fd2989f274febef6f7f
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 51c3bf4f2f1ad7e2d391617d37051e1b09610a5c
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23868214"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015846"
 ---
 # <a name="using-powershell-to-manage-teams"></a>PowerShell を使用して、チームを管理するには
 これをビジョン化、機能を設定するためのリファレンス トピックとして私は。 各機能のセットでは、すべてのコマンドレットが Get ヘルプ トピックへのリンクを持つテーブルに記載されているがあります。
@@ -45,4 +46,4 @@ ms.locfileid: "23868214"
 ## <a name="messaging-policies"></a>メッセージング ポリシー
 |コマンドレット名 |   何 |   Get-help PS コマンドレットへのリンク。コマンドレット名 |   何 |   Get-help PS コマンドレットへのリンク。コマンドレット名 |   何 |   Get-help PS コマンドレットへのリンク。コマンドレット名 |   何 |   Get-help PS コマンドレットへのリンク |
 
-### <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+### <a name="related-topics"></a>関連トピック

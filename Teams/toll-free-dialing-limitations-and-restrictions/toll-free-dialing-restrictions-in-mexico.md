@@ -7,8 +7,12 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: 576e0cc3-0a1a-43bf-a6fc-3a28e47ecd58
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- skype-for-business-online
+- msteams
+ms.collection:
+- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -20,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: 1f832feda232c13fe1863ba196175f8d2b6a6baf
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: d8cf496707b1f56227d9a22728e56381e9d88096
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861916"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015710"
 ---
 # <a name="toll-free-dialing-restrictions-in-mexico"></a>メキシコでフリー ダイヤルのダイヤルの制限
 
@@ -43,7 +47,7 @@ ms.locfileid: "23861916"
 |携帯電話ネットワークの状態  <br/> |部分的。コメント参照。  <br/> |
 |コメント、制限、アクセスの問題など  <br/> |携帯電話のローミングからのアクセスは保証されない。  <br/> 001-800 番号形式の場合: 固定ネットワーク アクセスの場合 - Telmex。 携帯電話アクセスの場合 - Telcel のみ。 通話時間が課金される。 追加料金なし、市内通話および市外のプロバイダーとして Telmex にエンドユーザー様がある場合。  <br/> 01-800 番号形式の場合: 携帯電話アクセスの通話時間が課金される。  <br/> |
    
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 
 [フリー ダイヤルの制限事項と制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 

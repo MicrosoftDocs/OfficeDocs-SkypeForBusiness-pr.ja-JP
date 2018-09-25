@@ -7,26 +7,29 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 783fad3f-b77c-422b-b91f-7c8b0af324fb
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '呼び出し元のメッセージを表示し、ビジネスまたはマイクロソフトのチームのアプリケーションの Skype を使用していないことと、名前と会議の開催者のピンを収集するために使用する会議用ブリッジの設定を変更する必要があります手順を取得します。 '
-ms.openlocfilehash: 314730714ad8ce78e5b3bf72d10544720b624600
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 3a1f73d4840aa59fcc217d1f04b9bff09fc0e7c7
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23864368"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017110"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>電話会議ブリッジの設定を変更する
 
@@ -62,7 +65,7 @@ Office 365 に電話会議を設定する場合、オーディオ会議ブリッ
 5. ユーザーに電子メールを送信するかどうかを指定するには、有効または **、オーディオ会議の構成が変更された場合、ユーザーに e メールを自動的に送信**を無効にします。
     詳細については、[マイクロソフトのチームで、オーディオ会議の設定を変更する場合にユーザーに自動的に電子メールの送信](emails-sent-to-users-when-their-settings-change-in-teams.md)または[Skype のオンライン ビジネスでの設定を変更するときにユーザーに送信された電子メール](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change)を参照してください。
  
-6. [ **保存**] をクリックします。 
+6. [**保存**] をクリックします。 
 
 
 ## <a name="sfb-logo-30x30pngmediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![sfb-logo-30x30.png](media/sfb-logo-30x30.png)  Skype for Business 管理センターを使用する

@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: bc9bd328-c5b2-44e5-af15-e02bf00e1c81
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'ダイヤルイン電話会議ライセンスと会議 ID をユーザーおよびその他の多くのダイヤルイン電話会議の設定に割り当てるための Microsoft Teams での手順を確認します。 '
-ms.openlocfilehash: 7af89da74b0b83872954444a847d40f0d7851087
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: 40a6dd3e545e913a134ae7bac80b5ec3085dc96a
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884706"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015334"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-microsoft-teams"></a>Microsoft Teams で組織の電話会議の設定を管理する
 
@@ -37,7 +37,7 @@ ms.locfileid: "23884706"
 ## <a name="assign-an-audio-conferencing-license"></a>電話会議のライセンスを割り当てる
 
 > [!NOTE]
-> Teams を使用してライセンスを割り当てることはできません。 Office 365 管理センターを使用する必要があります。 In the left navigation of the Office 365 admin center, go to UsersActive users > and then select the user or users from the list of available users. 
+> チームを使用してライセンスを割り当てることはできません。 職場または学校のアカウントを使用して、Office 365 にサインインします。 In the left navigation of the Office 365 admin center, go to UsersActive users > and then select the user or users from the list of available users. 
   
  最大 20 人までのライセンスを同時に割り当てている場合は、[ ビューの選択] ボックスを使用していずれかのオプションを選択するか、独自のビューを作成することができます。次に [ 編集]、[ 次へ] を 2 回クリックし、ライセンスを選択して、[ 送信] をクリックします。また、Windows Powershell を使用してライセンスを複数のユーザーに割り当てることもできます。操作手順と PowerShell のサンプル スクリプトについては、「Skype for Business と Microsoft Teams のライセンスを割り当てる」をご覧ください。
   
@@ -46,7 +46,7 @@ ms.locfileid: "23884706"
 2. 次に [ **編集**]、[ **次へ**] を 2 回クリックし、ライセンスを選択して、[  > ] をクリックします。****
     
     > [!NOTE]
-    > 操作手順と PowerShell のサンプル スクリプトについては、「**Skype for Business と Microsoft Teams のライセンスを割り当てる**」をご覧ください。 次に [**編集**]、[**次へ**] を 2 回クリックしてからライセンスを選択し、[**送信**] をクリックします。  
+    > 操作手順と PowerShell のサンプル スクリプトについては、「**Skype for Business と Microsoft Teams のライセンスを割り当てる**」をご覧ください。 操作ウィンドウの [ **製品ライセンス**] で [ **編集**] をクリックします。****  
   
 3. 操作ウィンドウの [**製品ライセンス**] で [ **編集**] をクリックします。 
     
@@ -74,7 +74,7 @@ ms.locfileid: "23884706"
     
 ## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>ユーザーに送信された、送信者のメール メッセージ内の連絡先情報を変更する
 
-Change the senders contact information of email messages sent to users 既定では、メールの送信者は Office 365 ですが、Windows PowerShell を使用してメール アドレスと表示名を変更することができます。 詳細については、[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)をご覧ください。
+Change the senders contact information of email messages sent to users 既定では、Office 365 は、電子メールの送信者が電子メール アドレスを変更し、Windows PowerShell を使用して名前を表示できます。 詳細については[マイクロソフト チームの PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)を参照してください。
   
 ## <a name="reset-the-meeting-conference-id"></a>会議 ID をリセットする
 
@@ -84,13 +84,13 @@ Change the senders contact information of email messages sent to users 既定で
 
 3. [**電話会議**] の下で、[**会議 ID のリセット**] をクリックします。  
 
-4. [**会議 ID をリセットしますか?**] ウィンドウで、[**リセット**] をクリックします。 It's enabled by default. これは既定では有効になっています。
+4. **会議 ID をリセットしますか?** ] ウィンドウで、[**リセット**] をクリックします。 It's enabled by default. After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use Skype for Business Meeting Migration Tool to update their existing meetings. To see how to download, install and run the Lync Meeting Update Tool, see:> Meeting Update Tool for Skype for Business and LyncSkype for Business Online, Meeting Migration Tool (64-bit)Skype for Business Online, Meeting Migration Tool (32-bit)
 
 「[ユーザーのために会議 ID をリセットする](reset-a-conference-id-for-a-user-in-teams.md)」をご覧ください。
   
 ## <a name="reset-a-conference-organizers-pin"></a>電話会議の開催者の PIN をリセットする
 
-ユーザーがスケジュール設定した各会議には、一意の会議 ID が割り当てられます。 会議 ID は自動的に作成されユーザーに割り当てられますが、ユーザーがそれを使いたくないため特定の番号に設定しようと考える場合や、ユーザーが会議 ID を覚えられない、または紛失してしまう場合があります。 
+ユーザーをスケジュールする会議ごとに固有の会議 ID が割り当てられますを取得 会議 ID が自動的に作成され、ユーザーに割り当てられているがあります、ユーザーは、この 1 つを使用する場合は、特定の数に設定するとユーザーが覚えられないか、会議 ID が失われています。 
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
@@ -141,7 +141,7 @@ Change the senders contact information of email messages sent to users 既定で
 
 3. [**ブリッジ設定**] ウィンドウで、[**会議の開始と終了の通知**] を有効または無効にします。
 
-    これは既定では有効になっています。 このオプションを無効にすると、既定ですでに参加済みのユーザーは、誰かが入ってきたり退出したりしたときの通知を受け取りません。
+    これは既定で有効になります。 このオプションを無効にした場合データを入力したり、会議を離れるときに既定では、会議に参加しているユーザーが通知されません。
 
 4. [**開始/終了のお知らせの種類**] で、[**トーン**] または [**名前または電話番号**] のどちらかを選びます。 
 
@@ -190,22 +190,24 @@ Change the senders contact information of email messages sent to users 既定で
 
 3. [**既定の言語**] と [**代替言語 (オプション)**] で必要な言語を選びます。
 
+4. [**保存**] をクリックします。
 
-「[電話会議の自動案内の言語を設定する](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)」をご覧ください。
+
+You can also set the primary and secondary languages that are supported when you select Microsoft as the dial-in conferencing provider. The order that you select in the drop-downs will be the order of the languages that will be presented to the callers.[](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
   
-## <a name="see-audio-conferencing-dial-in-numbers"></a>電話会議のダイヤルイン番号を確認する
+## <a name="see-audio-conferencing-dial-in-numbers"></a>You can also set the primary and secondary languages that are supported when you select Microsoft as the dial-in conferencing provider.
 
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 
-2. リストから電話番号を選択し、[**編集**] をクリックします。 ここでは次の操作を行うことができます。
+2. リストから電話番号を選択し、[**編集**] をクリックします。 Go to the Office 365 admin centerSkype for Business.
     
   - 電話会議で使うために Office 365 によって設定された電話番号を表示する。 
     
-  - 場所や、電話会議の自動応答で使用する第 1 言語を表示する。
+  - 場所、およびオーディオ会議自動アテンダントによって使用される主言語を表示します。
 
   
-「[電話会議の電話番号のリストを表示する](see-a-list-of-audio-conferencing-numbers-in-teams.md)」をご覧ください。
+You can select the dial-in conferencing default phone number that will be given to users when they are enabled for dial-in conferencing.[](see-a-list-of-audio-conferencing-numbers-in-teams.md)
   
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
@@ -221,6 +223,6 @@ Windows PowerShell の詳細については、「[Microsoft Teams PowerShell の
     
 ## <a name="related-topics"></a>関連トピック
 
-[ユーザーの電話会議の設定を管理する](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
+See also
 
 
