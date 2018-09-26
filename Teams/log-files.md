@@ -11,12 +11,12 @@ search.appverid: MET150
 description: Microsoft Teams によって生成されるデバッグ ログ、メディア ログ、デスクトップ ログ、これらのログの場所、トラブルシューティングでのログの活用について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f0f06e291694a9a5c22d1188802ef1dabe55af7d
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 95d28bac036476c417ccbe7929a23ab9fb37f3a8
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016582"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25018901"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Microsoft Teams のトラブルシューティングでログ ファイルを使用する
 =================================================
@@ -48,7 +48,7 @@ Microsoft サポートでサポート リクエストを作成する際、サポ
 <a name="debug-logs"></a>デバッグ ログ
 ---------------------------
 
-デバッグ ログは最も一般的なログで、すべての Microsoft サポート ケースで必要とされます。このログは Window と Mac デスクトップ クライアント、ブラウザー ベースのクライアントで生成されます。ログはテキストベースで、下から上に読み取られます。ログは任意のテキストベースのエディタで読み取ることができます。クライアントにログインすると、新規のログが作成されます。
+これらは最も一般的なログであり、すべてのマイクロソフトのサポートの場合に必要な。 デバッグ ログは、Windows と Mac のデスクトップ クライアントとブラウザー ベースのクライアントによって作成されました。 ログは、テキスト ベースを下から読み終えています。 任意のテキスト ベースのエディターを使用して読み取ることができ、クライアントへのログイン時に新しいログが作成されます。
 
 デバッグ ログには次のデータ フローが表示されます。
 

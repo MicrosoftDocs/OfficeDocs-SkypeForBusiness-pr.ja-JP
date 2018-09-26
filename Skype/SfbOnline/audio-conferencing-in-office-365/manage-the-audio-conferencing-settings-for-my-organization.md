@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'ユーザーおよびその他のダイヤルイン会議の設定にダイヤルイン会議のライセンスおよび会議 ID を割り当てる手順についてはオンライン ビジネスの Skype を参照してください。 '
-ms.openlocfilehash: 55e0e09e9b1b0875fd2ebd19aea5c3ae99392299
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7e420ef2c434807bf9e78cc1c61f808db745f3bc
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890332"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25018926"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Skype for Business Online で組織の電話会議の設定を管理する
 
@@ -98,7 +98,7 @@ ms.locfileid: "23890332"
 If you want to change the email address information, you need to make sure that the inbound email policies of your organization allow emails that come from the custom email address.
 
 ```
-Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"
+Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"
 ```
 
 「ダイヤルイン会議の設定が変更されたユーザーにメールを自動的に送信する」を参照してください。

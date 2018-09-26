@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft Teams でユーザーの会議 ID をリセットする手順と、会議の更新および移行のツールへのリンクを取得する手順を説明します。 '
-ms.openlocfilehash: 8cc418b050b254930a74db8b0894dc14ccc090e5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: bed015c92e197c1ee2dc1b48e495eee98445e3f0
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014132"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019045"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Microsoft Teams でユーザーの会議 ID をリセットする
 
@@ -38,11 +38,13 @@ ms.locfileid: "25014132"
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>ユーザーのために会議 ID をリセットする
 
-1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
+![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) ビジネス管理センターは、マイクロソフトのチームと Skype を使用してください。
 
-2. ページの上部で、[**編集**] をクリックします。
+1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
 
-3. [**電話会議**] の下で、[**会議 ID のリセット**] をクリックします。
+2. [**編集**] をクリックします。
+
+3. **オーディオ会議**の下には、**会議 ID のリセット**をクリックします。
 
 2. **会議 ID のリセット**] ウィンドウで、[**リセット**] をクリックします。 A conference ID will be automatically created and an email sent to the user with the new conference ID. 既定では、ユーザーに電子メールが送信されますが、これを無効にできます。   
 
@@ -53,13 +55,13 @@ ms.locfileid: "25014132"
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="what-else-should-i-know"></a>その他の情報
+## <a name="what-else-should-i-know"></a>他に必要な情報はありますか?
 
 - **オーディオ会議**セクション内のユーザーの [**電子メールで会議の情報を送信**] をクリックして、会議 ID とダイヤルインの電話番号を含む電子メールでユーザーにすべての会議の情報を送信できます。 PIN は送信されません。
     
-- 会議 ID は 7 桁の値です。この長さを変更することはできません。
+- 会議 ID が 7 桁の数字を含めるし、その長さを変更することはできません。
     
-- 会議 ID をリセットすると、新しい会議 ID が [**会議 ID**] に一覧表示されます。
+- 会議 ID をリセットすると、新しい会議 ID が [ **電話会議 ID**] に一覧表示されます。
     
 - You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use Skype for Business Meeting Migration Tool to update their existing meetings. 
 
@@ -75,4 +77,4 @@ Windows PowerShell の詳細については、「[Microsoft Teams PowerShell の
     
 ## <a name="related-topics"></a>関連トピック
 
-[電話会議の PIN をリセットする](reset-the-audio-conferencing-pin-in-teams.md)
+[オーディオ会議の暗証番号 (pin) をリセットします。](reset-the-audio-conferencing-pin-in-teams.md)

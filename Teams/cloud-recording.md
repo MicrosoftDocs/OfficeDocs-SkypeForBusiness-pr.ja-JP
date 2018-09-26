@@ -11,12 +11,12 @@ description: Microsoft Teams での Cloud Voice の機能の展開について�
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41cb6fdc7d27b90939be540d04b73fdc1f052818
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 068ddc726a366f5ee34b23dca0f76699d4c76afc
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014180"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019077"
 ---
 # <a name="teams-cloud-meeting-recording"></a>チーム クラウドのミーティングのレコーディング
 
@@ -62,7 +62,7 @@ Microsoft ストリームの管理者は、[会社の規定のポリシーを設
 
 ユーザーの会議はできるかを記録するかどうかにコントロールするチーム PowerShell の TeamsMeetingPolicy で AllowCloudRecording の設定を使用します。 Office 365 の PowerShell での TeamsMeetingPolicy の管理に関する詳細については、[ここで](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
-会議の開催者と録音の開始側の両方がミーティングを記録するのには書き込み権限を持っている必要があることに注意してください。 カスタム ポリシーは、ユーザーに割り当てている、しない限り、ユーザーはグローバル ポリシーは既定で有効になっている記録を取得します。
+会議の開催者と録音の開始側の両方がミーティングを記録するのには書き込み権限を持っている必要があることに注意してください。 カスタム ポリシーは、ユーザーに割り当てている、しない限り、ユーザーはグローバル ポリシーは既定で無効になっている AllowTranscription を取得します。
 
 グローバル ポリシーにユーザーが、ユーザーの特定のポリシーの割り当てを削除するのには次のコマンドレットを使用します。
 

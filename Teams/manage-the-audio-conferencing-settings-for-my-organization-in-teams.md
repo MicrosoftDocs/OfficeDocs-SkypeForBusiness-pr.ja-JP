@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'ダイヤルイン電話会議ライセンスと会議 ID をユーザーおよびその他の多くのダイヤルイン電話会議の設定に割り当てるための Microsoft Teams での手順を確認します。 '
-ms.openlocfilehash: 40a6dd3e545e913a134ae7bac80b5ec3085dc96a
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 1cf3240a2b6cf286e14a8180346f8db0ed755a46
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015334"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019095"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-microsoft-teams"></a>Microsoft Teams で組織の電話会議の設定を管理する
 
@@ -78,13 +78,13 @@ Change the senders contact information of email messages sent to users 既定で
   
 ## <a name="reset-the-meeting-conference-id"></a>会議 ID をリセットする
 
-1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
+![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
 
-2. ページの上部で、[**編集**] をクリックします。
+1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
 
-3. [**電話会議**] の下で、[**会議 ID のリセット**] をクリックします。  
+2. [**電話会議**] の下で、[**会議 ID のリセット**] をクリックします。  
 
-4. **会議 ID をリセットしますか?** ] ウィンドウで、[**リセット**] をクリックします。 It's enabled by default. After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use Skype for Business Meeting Migration Tool to update their existing meetings. To see how to download, install and run the Lync Meeting Update Tool, see:> Meeting Update Tool for Skype for Business and LyncSkype for Business Online, Meeting Migration Tool (64-bit)Skype for Business Online, Meeting Migration Tool (32-bit)
+3. **会議 ID をリセットしますか?** ] ウィンドウで、[**リセット**] をクリックします。 It's enabled by default. After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use Skype for Business Meeting Migration Tool to update their existing meetings. To see how to download, install and run the Lync Meeting Update Tool, see:> Meeting Update Tool for Skype for Business and LyncSkype for Business Online, Meeting Migration Tool (64-bit)Skype for Business Online, Meeting Migration Tool (32-bit)
 
 「[ユーザーのために会議 ID をリセットする](reset-a-conference-id-for-a-user-in-teams.md)」をご覧ください。
   
@@ -92,103 +92,105 @@ Change the senders contact information of email messages sent to users 既定で
 
 ユーザーをスケジュールする会議ごとに固有の会議 ID が割り当てられますを取得 会議 ID が自動的に作成され、ユーザーに割り当てられているがあります、ユーザーは、この 1 つを使用する場合は、特定の数に設定するとユーザーが覚えられないか、会議 ID が失われています。 
 
-1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
+![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
 
-2. ページの上部で、[**編集**] をクリックします。
+1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
 
-3. [**電話会議**] の下で、[**PIN のリセット**] をクリックしてから、[**リセット**] をクリックします。 
+2. [**電話会議**] の下で、[**PIN のリセット**] をクリックしてから、[**リセット**] をクリックします。 
   
-    
 リセットの直後に 1 回表示された後は、ユーザーのプロパティには PIN に代わって "*****" が表示されます。 
   
 「[電話会議の PIN をリセットする](reset-the-audio-conferencing-pin-in-teams.md)」をご覧ください。
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>電話会議の情報が記載されたメールをユーザーに送信する
 
-1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
+![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
 
-2. ページの上部で、[**編集**] をクリックします。
+1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
 
-3. [**電話会議**] の下で、[**電話会議情報をメールで送信**] をクリックします。 
+2. [**電話会議**] の下で、[**電話会議情報をメールで送信**] をクリックします。 
 
     > [!NOTE]
     > この操作を行っても、電話会議の PIN はユーザーに送信されません。 
 
-  
 「[電話会議の情報が記載されたメールをユーザーに送信する](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)」をご覧ください。
   
-## <a name="setting-the-phone-numbers-included-on-invites"></a>招待状に含まれている電話番号を設定する
+## <a name="set-the-phone-numbers-included-on-invites"></a>出席依頼に含まれている電話番号を設定する
 
-1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
+![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
 
-2. [**電話会議**] の隣で、[**編集**] をクリックします。
+1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
+
+2. **オーディオ会議**の横にある [**編集**] をクリックします。
  
-3. [**電話会議**] ウィンドウで、[**有料電話番号**] と、可能な場合は [**フリーダイヤル番号**] を設定することができます。
+3. **オーディオ会議**のウィンドウで**電話番号**を設定でき、許可された場合、**フリー ダイヤルの番号**です。
 
-4. [**保存**] をクリックします。
+4. The default dial-in conferencing phone number of a user is the number that is shown on the meeting invite when they schedule a meeting.
     
-「[招待状に含まれている電話番号を設定する](set-the-phone-numbers-included-on-invites-in-teams.md)」をご覧ください。
+「[出席依頼に含まれている会議の開催者のために電話会議の電話番号を設定する](set-the-phone-numbers-included-on-invites-in-teams.md)」をご覧ください。
   
   
-## <a name="choosing-audio-conferencing-bridge-settings"></a>電話会議ブリッジの設定を選ぶ
+## <a name="choose-audio-conferencing-bridge-settings"></a>オーディオ会議ブリッジの設定を選択します。
 
-**発信者が会議に参加するときの会議エクスペリエンスを設定する**
+**** Setting dial-in conferencing bridge settings
 
+![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 
-2. [**会議ブリッジ**] ページの最上部で、[**ブリッジの設定**] をクリックします。 
+2. **会議ブリッジ**のページの上部には、**ブリッジの設定**をクリックします。 
 
 3. [**ブリッジ設定**] ウィンドウで、[**会議の開始と終了の通知**] を有効または無効にします。
 
     これは既定で有効になります。 このオプションを無効にした場合データを入力したり、会議を離れるときに既定では、会議に参加しているユーザーが通知されません。
 
-4. [**開始/終了のお知らせの種類**] で、[**トーン**] または [**名前または電話番号**] のどちらかを選びます。 
+4. **開始/終了のお知らせの種類**、[**トーン**] または [**名前または電話番号**を選択します。 
 
-    [**名前または電話番号**] を選ぶと、[**発信者に、会議に参加する前に自分の名前を記録するように要求します**] を有効または無効にすることもできます。 
+    **名前や電話番号**を選択する場合を有効にするまたは、**ミーティングに参加する前に自分の名前を記録するための呼び出し元の確認**を無効にすることもできます。 
 
 5. [**保存**] をクリックします。
 
     
-[](change-the-settings-for-an-audio-conferencing-bridge.md)職場または学校のアカウントを使用して、Office 365 にサインインします。
+Go to the Office 365 admin centerSkype for Business.[](change-the-settings-for-an-audio-conferencing-bridge.md)
   
- **会議の PIN の長さサイズを設定する**
+ **In the Skype for Business admin center, in the left navigation go to dial-in conferencingMicrosoft bridge settings.**
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 
-2. [**会議ブリッジ**] ページの最上部で、[**ブリッジの設定**] をクリックします。 
+2. **会議ブリッジ**のページの上部には、**ブリッジの設定**をクリックします。 
 
-3. [**ブリッジの設定**] ウィンドウで、[**PIN の長さ**] リストに PIN の桁数を入力し、[**保存**] をクリックします。
+3. **ブリッジの設定**ウィンドウで、 **PIN の長さ**] ボックスの一覧で、[暗証番号 (pin) に使用桁の番号を入力し、し、[**保存**] をクリックします。
 
-    PIN は 4 桁から 12 桁の間の値にする必要があります。既定値は 5 桁です。
+    The PIN can only be from 4 to 12 digits.
 
     
 職場または学校のアカウントを使用して、Office 365 にサインインします。[](change-the-settings-for-an-audio-conferencing-bridge.md)
   
- **電話会議ユーザーに送信されているメールを有効または無効にする**
-
+ **Sign in to Office 365 with your work or school account.**
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 
-2. [**会議ブリッジ**] ページの最上部で、[**ブリッジの設定**] をクリックします。 
+2. **会議ブリッジ**のページの上部には、**ブリッジの設定**をクリックします。 
 
-3. [**ブリッジの設定**] ペインで、[**電話会議設定が変わると、ユーザーに自動的に電子メールが送信されます**] を有効または無効にします。
+3. **ブリッジの設定**ウィンドウを有効にするか **、オーディオ会議の設定を変更する場合、ユーザーに e メールを自動的に送信**を無効にします。
 
 4. [**保存**] をクリックします。 
  
-    電話会議設定をメールでユーザーに送ることもできます。その場合は、ユーザーの電話会議プロパティに移動して、[ **電話会議情報をメールで送信**] をクリックします。
+    ユーザーのオーディオ会議のプロパティに移動し、**電子メールで会議の情報を送信**] をクリックしてユーザーに、電話会議の設定を使用する電子メールを送信することも。
     
     この操作を行うと、会議 ID と電話会議の番号のみが含まれるメールが送信されますが、そのメールに PIN は含まれません。
 
-「[電話会議の情報が記載されたメールをユーザーに送信する](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)」をご覧ください。
+If you do this, an email will be sent that only includes conference ID and conference phone number, but the PIN won't be included.
     
-## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>電話会議ブリッジの第 1 (既定) 言語と第 2 (代替) 言語を表示および設定する
+## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>参照してくださいし、オーディオ会議ブリッジに (既定値) をプライマリとセカンダリ (代替) の言語を設定します。
+
+![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 
 2. リストから電話番号を選択し、[**編集**] をクリックします。
 
-3. [**既定の言語**] と [**代替言語 (オプション)**] で必要な言語を選びます。
+3. [**既定の言語**および **(省略可能) 別の言語**の言語を選択してください。
 
 4. [**保存**] をクリックします。
 
@@ -197,6 +199,7 @@ You can also set the primary and secondary languages that are supported when you
   
 ## <a name="see-audio-conferencing-dial-in-numbers"></a>You can also set the primary and secondary languages that are supported when you select Microsoft as the dial-in conferencing provider.
 
+![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 

@@ -474,7 +474,7 @@
 #### [ボイスメールの応答メッセージとメッセージで使用する言語](languages-for-voicemail-greetings-and-messages.md)
 #### [ユーザーに発信者番号を設定する](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [電話システムの自動応答をセットアップする](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [自動アテンダントの実装例](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [小規模企業の例では、自動応答を設定](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [電話システム ボイスメールをセットアップする](set-up-phone-system-voicemail.md)
 #### [電話システムの自動応答について](what-are-phone-system-auto-attendants.md)
 #### [自動アテンダントが応答し、チームから直接キューの呼び出しを呼び出す](answer-auto-attendant-and-call-queue-calls.md)

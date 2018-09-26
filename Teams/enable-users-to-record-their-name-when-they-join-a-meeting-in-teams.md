@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Microsoft Teams でユーザーが会議に参加したときに自分の名前を記録できるようにするかどうかの設定方法について説明します。
-ms.openlocfilehash: 8583ca92de2544946eb898d128e423b6df62cb24
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: cb29fccf8e1997b4c7a82900e3fa6600c603a9a9
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012938"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019061"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Microsoft Teams でユーザーが会議に参加したときに自分の名前を記録できるようにする
 
@@ -36,13 +36,15 @@ ms.locfileid: "25012938"
   
 ## <a name="set-whether-callers-should-record-their-name"></a>発信者が名前を記録すべきかどうかを設定する
 
-1. マイクロソフトのチームとのビジネス管理センターは、左側のナビゲーションでは、Skype で**の会議**に移動 > **会議ブリッジ**です。 
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) ビジネス管理センターは、マイクロソフトのチームと Skype を使用してください。
 
-2. [**会議ブリッジ**] ページの最上部で、[**ブリッジの設定**] をクリックします。 
+1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 
-3. [**会議の開始と終了の通知**] を有効または無効にします。
+2. **会議ブリッジ**のページの上部には、**ブリッジの設定**をクリックします。 
 
-4. 通知を有効にする場合、[**名前または電話番号**] を [**開始/終了のお知らせの種類**] で選択して、[**発信者に、会議に参加する前に自分の名前を記録するように要求します**] をオンにします。
+3. 有効にするか、**ミーティングのエントリと終了の通知**を無効にします。
+
+4. 通知を有効にする場合**の名前や電話番号****の開始/終了のお知らせの種類**] を選択しを有効にし、 **、会議に参加する前に自分の名前を記録するための呼び出し元に問い合わせてください**。
 
 6. [**保存**] をクリックします。
     

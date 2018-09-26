@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft Teams 内でダイヤルイン電話会議の電話番号を調べる方法について説明します。 '
-ms.openlocfilehash: 0b7ddc14fd87d62dd276c5b8c76a67572ed484a1
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: de92f552a873cf51a0cc8487d08cacca387e3e7a
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017328"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019037"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Microsoft Teams で電話会議の電話番号のリストを表示する
 
@@ -45,7 +45,7 @@ ms.locfileid: "25017328"
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>自分の電話会議の電話番号を表示するには
 
-1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
+1. マイクロソフトのチームとのビジネス管理センターは、左側のナビゲーションでは、Skype で**の会議**に移動 > **会議ブリッジ**です。 
 2.  電話会議で利用可能な電話番号を表示します。
 
 - 場所と、電話会議の自動応答で使用される第 1 言語を表示することもできます。

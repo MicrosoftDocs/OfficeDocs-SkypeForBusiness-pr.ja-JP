@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '自動応答の電話システム (PBX をクラウド) とは、それらを使用する方法について説明します。 '
-ms.openlocfilehash: d8edb924b030c9008374c8d6f49df5328b630677
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5d73a32e7df8e25c24ba7eeaa958d9b8bc4dd80d
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013804"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019103"
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>電話システムの自動応答について
 
@@ -55,7 +55,7 @@ Office 365 で電話システムの自動応答を設定するには、[電話�
 - 組織は、エンタープライズの E3 と**電話システム**のライセンスまたはエンタープライズ E5 のライセンス (最低) が必要です。 自動応答に使用するサービスの数の数値への影響を割り当てられている**電話システム**のユーザー ライセンスの数が利用できます。 ことが自動応答の数は、組織に割り当てられている番号の**電話システム**と**オーディオ会議**ライセンスに依存します。 ライセンスの詳細については、[Skype for Business と Microsoft Teams のアドオン ライセンス](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)をご覧ください。
     
     > [!TIP]
-    > 演算子または**電話システム**のライセンスを持つオンラインのユーザーは、メニュー ・ オプションへの呼び出しをリダイレクトするには、エンタープライズ VoIP を有効にするまたは割り当てを呼び出すことを計画にする必要があります。 詳細については「[Skype for Business と Microsoft Teams のライセンスを割り当てる](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)」をご覧ください。 Windows PowerShell を使用することもできます。 例を実行します。`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > 演算子または**電話システム**のライセンスを持つオンラインのユーザーは、メニュー ・ オプションへの呼び出しをリダイレクトするには、エンタープライズ VoIP を有効にするまたは割り当てを呼び出すことを計画にする必要があります。 「[Skype for Business と Microsoft Teams のライセンスを割り当てる](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)」をご覧ください。 Windows PowerShell を使用することもできます。 例を実行します。`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - 取得し、自動応答のサービスのフリー ダイヤル番号を使用して、通信のクレジットを設定する必要があります。 これを行うを参照してください[通信のクレジットは何ですか?](what-are-communications-credits.md)し、[組織の通信のクレジットを設定](set-up-communications-credits-for-your-organization.md)。
     
@@ -276,5 +276,5 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
 [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-  
- 
+[小規模企業の例では、自動応答を設定](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
+

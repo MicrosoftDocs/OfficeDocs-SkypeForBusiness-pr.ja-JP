@@ -235,7 +235,8 @@
 ### [組織内の電話システムの設定](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [電話システムの自動応答について](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [電話システムの自動応答をセットアップする](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
-#### [自動アテンダントの実装例](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)
+#### [小規模企業の例では、自動応答を設定](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)
+
 
 ## [Skype 会議ブロードキャスト用にネットワークをセットアップする](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
 ### [ブロックされた Skype 会議ブロードキャストのユーザー ライセンス](../set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)

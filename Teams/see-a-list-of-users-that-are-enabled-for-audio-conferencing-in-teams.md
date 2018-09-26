@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft Teams から、ダイヤルイン会議で有効になっている組織のユーザーのリストを表示する方法を説明します。 '
-ms.openlocfilehash: e82d0d265e89c5b717ff25ea7c58ec240b38bea0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a05aa000b2289499c030ac564a5f09eeefdd865a
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014036"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019121"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams で電話会議用に有効になっているユーザーのリストを表示する
 
@@ -36,7 +36,7 @@ ms.locfileid: "25014036"
   
 ## <a name="viewing-a-list-of-users"></a>ユーザーのリストの表示
 
-- 左側のナビゲーションで [**ユーザー**] をクリックします。
+- マイクロソフトのチームとのビジネス管理センターは、左側のナビゲーションでは、Skype では、[**ユーザー**] をクリックします。
 
 
 ## <a name="what-else-should-i-know"></a>その他の情報
