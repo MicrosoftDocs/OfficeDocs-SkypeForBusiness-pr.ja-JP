@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5028f5f1ee848d4fa7af7e15083dc06d90f9f38a
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 714c30326519974c1d5e0483e8c181bb6ebf2a27
+ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017962"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25040789"
 ---
 <a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>マイクロソフト チーム テナント アプリケーション カタログにアプリケーションを発行します。
 =======================================================
@@ -27,9 +27,11 @@ ms.locfileid: "25017962"
 
 チーム テナント アプリケーション カタログでは、組織用に構築された基幹業務アプリケーションを配布することができに依存することは、ユーザーに重要なビジネス機能を完了します。 
  
-チーム クライアントから直接チーム テナント アプリケーション カタログにアプリケーションを発行できます。
+グローバル管理者の資格情報を使用して、チームのクライアントにサインインし、組織のアプリケーションを発行します。 
 
 ## <a name="publish-an-app-to-the-tenant-apps-catalog-from-the-teams-client"></a>テナント アプリケーション カタログにチームのクライアントからアプリケーションを発行します。
+
+注: 組織のアプリケーションを発行するのには、グローバル管理者の資格情報を使用してマイクロソフトのチームのクライアントにサインインする必要があります。
 
 ### <a name="get-a-teams-app-package"></a>チームのアプリケーション パッケージを取得します。
 
@@ -37,7 +39,7 @@ ms.locfileid: "25017962"
 
 ### <a name="go-to-the-tenant-apps-catalog"></a>テナント アプリケーション カタログに移動します。
 
-マイクロソフト チーム ストアから、特定の組織 (Contoso など) での新しいセクションを選択します。 ユーザーが組織内では、カタログでアプリケーションを表示でき、チームのメンバーになっているうちにそれらをインストールすることができます。 
+マイクロソフト チームのクライアントを起動し、グローバル管理者の資格情報を使用してサインインします。 マイクロソフト チーム ストアから、特定の組織 (Contoso など) での新しいセクションを選択します。 ユーザーが組織内では、カタログでアプリケーションを表示でき、チームのメンバーになっているうちにそれらをインストールすることができます。 
 
 ![スクリーン ショット チームのアプリケーション ストアのアプリ カタログを表示します。](media/private-app-store-teams-image01.png)
 

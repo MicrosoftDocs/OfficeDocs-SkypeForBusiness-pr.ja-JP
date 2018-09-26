@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07f546db5acb8afa0dc457122a2462b9d0affea3
-ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
+ms.openlocfilehash: 8741a76ccfbc9ef16cbf9c4298bacace25ac36ad
+ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "25002432"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25040773"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>クラウド ビデオの相互運用機能のマイクロソフトのチーム
 
@@ -49,7 +49,9 @@ ms.locfileid: "25002432"
 **エンタープライズの準備完了**
 
 - HD ビデオ (1080 p) およびコンテンツ (VBSS)
-- H.323 および SIP の会議室のデバイスのサポート ・ チームと Exchange のネイティブのスケジューリング ・ VMR ではなくゲートウェイの設計
+- H.323 および SIP の会議室のデバイスのサポート
+- ネイティブ チームおよび交換のスケジュール
+- VMR ではなくゲートウェイの設計
 
 **クラウドのスケール**
 
@@ -86,7 +88,7 @@ ms.locfileid: "25002432"
 
 ## <a name="business-workflow-scenarios"></a>ビジネス ワークフロー シナリオ
 
-- **-> マイクロソフト チームの業務サーバーの Skype:** 組織には、サードパーティ製のデバイスと Skype からマイクロソフトのチームへのビジネス prem のサーバーの移動  
+- **-> マイクロソフト チームの業務サーバーの Skype:** 組織は、サードパーティ製のデバイスと Skype からマイクロソフトのチームへのビジネス prem のサーバーの移動にいます。  
 - **ビジネス用の Skype は、マイクロソフトのチームをオンライン ->:** 組織がからに移行するマイクロソフト チーム Skype ビジネスをオンラインにします。
 - **-> マイクロソフト チームの cisco UC:** 組織は、マイクロソフトのチームには、Cisco の移動は、Cisco のデバイスを交換する準備ができていません。
 - **-> マイクロソフト チームの混合システム:** 組織は、(Cisco BroadSoft、デバイスのサーバー SfBO) いくつかのシステム、環境内に並べています。

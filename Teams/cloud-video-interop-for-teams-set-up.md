@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92fe72b8352e9a2152361f410f9e39f1f296a3c8
-ms.sourcegitcommit: 2d76fad92b6d6c5d1bd223a717fd6c534ecaa5be
+ms.openlocfilehash: e2090036aa5e1a05e46581d365d9b6b4aeb94b32
+ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24974432"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25040781"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>クラウド ビデオ マイクロソフト チームの相互運用機能を設定します。
 
@@ -104,4 +104,4 @@ VTC のデバイスでチームの会議を結合するには次のようにし�
 - ワンタッチ ダイヤル
     - 統合のチームの部屋を使っている場合は、(せずにすべてのダイヤル文字列を入力する必要がある)、パートナーによって提供されているワンタッチ ダイヤル機能を使用できます。
 
-最後に、engaeg を使用して、オーディオ、ビデオ、およびコンテンツの共有を使用して、ミーティングでチームのユーザーとします。 
+最後に、オーディオ、ビデオ、およびコンテンツの共有を使用して、ミーティングでチームのユーザーと連携します。 
