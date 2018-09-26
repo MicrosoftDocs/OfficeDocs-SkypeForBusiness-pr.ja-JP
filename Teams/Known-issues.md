@@ -12,12 +12,12 @@ search.appverid: MET150
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00ff17cc8fb28f0279f1356937465668dc6b7afe
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: d2b6a411e3dd4f2d7f337e6823cc41d98e508423
+ms.sourcegitcommit: 72e2c4622deb3a7f4c0eafbee91dcf139ef44775
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015486"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25090211"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -213,6 +213,10 @@ ms.locfileid: "25015486"
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
 |プランナー オンラインでの Teams プランナー統合 <br/> |プランナーのタスク バケットが、プランナー オンラインのエクスペリエンスで表示されません。  <br/> |回避策なし。 <br/> |2017/02/28  <br/>|
+
+|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
+|:-----|:-----|:-----|:-----|
+|SharePoint ページのタブが空白の画面を表示します。<br/> |SharePoint Online の修飾のドメインは現在サポートされていません。 ユーザー エクスペリエンスは、ページ タブの SharePoint を追加しようと、空白の画面です。 <br/> |回避策なし。 <br/> |8/20/18  <br/>|
 
 ## <a name="teams"></a>Teams
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
