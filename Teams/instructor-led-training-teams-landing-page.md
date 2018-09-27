@@ -8,12 +8,12 @@ ms.topic: hub-page
 ms.author: dearbeen
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: ed79bef2980c505c6e23a92c12af576ec5f31e3e
-ms.sourcegitcommit: 7f721d89559831de2cf1495feb0fc57b22b77d78
+ms.openlocfilehash: 5f721ccc993e31ae0040df7ea841ef13e86dae26
+ms.sourcegitcommit: 72e2c4622deb3a7f4c0eafbee91dcf139ef44775
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25019339"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25090227"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -41,7 +41,7 @@ ms.locfileid: "25019339"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>#ThisIsTeams - マイクロソフトのチームの毎日のデモ</h3>
+                                                    <h3>#ThisIsTeams - マイクロソフトのチームの概要</h3>
                                                     <p>Microsoft Teams とは何ですか? チームとするを機能させる方法を発見するには、この 30 分間向きの方は参加します。</p>
                                                 </div>
                                             </div>
@@ -61,7 +61,7 @@ ms.locfileid: "25019339"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>チームの概要</h3>
-                                                    <p>チャット、チーム、およびチャネルを使用してミーティングの開催、ユーザーは、チームを使用して、自信を基盤には、このセッションを終了します。</p>
+                                                    <p>チャット、チーム、およびチャネルを使用してミーティングの開催、ユーザーは、自信を持ってチームを使用する基盤でこのセッションを終了することにします。</p>
                                                 </div>
                                             </div>
                                         </div>
