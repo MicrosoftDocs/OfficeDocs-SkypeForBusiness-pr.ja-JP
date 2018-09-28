@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Microsoft Teams で電話会議の情報が記載されたメールをユーザーに送信します。
-ms.openlocfilehash: 9ebd650e487b4ef3108d50ecce31eea0a936b176
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 3b1cb1eb4fcf654a4ab3d3cb227416b0cf700817
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012322"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347465"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Microsoft Teams で電話会議の情報が記載されたメールをユーザーに送信する
 
@@ -45,28 +45,30 @@ ms.locfileid: "25012322"
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>電話会議の情報が記載されたメールをユーザーに送信する
 
-1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) ビジネス管理センターは、マイクロソフトのチームと Skype を使用してください。
+
+1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
 
 2. ページの上部で、[**編集**] をクリックします。
 
-3. [**電話会議**] の下で、[**電話会議情報をメールで送信**] をクリックします。
+3. [**電話会議**] の [**電話会議情報をメールで送信**] をクリックします。
 
 
-## <a name="what-else-should-you-know-about-this-email"></a>このメールについて知っておくべきその他のこと
+## <a name="what-else-should-you-know-about-this-email"></a>このようなメールについて知っておくべきその他のこと
 
-- 組織内のユーザーが電話会議で有効になった後に、それらのユーザーに送信されるメールは複数あります。
+- 送信される、組織内のユーザーを有効にした後には、オーディオ会議のいくつかの電子メールがあります。
     
   - **電話会議** のライセンスがユーザーに割り当てられた場合。
     
-  - ユーザーの電話会議の PIN を手動でリセットした場合。
+  - リセットすると手動で電話会議のユーザーの暗証番号 (pin) です。
     
   - ユーザーの会議 ID を手動でリセットした場合。
     
   - **電話会議** のライセンスがユーザーから削除された場合。
     
-  - ユーザーの電話会議プロバイダーが Microsoft から別のプロバイダー、または [**なし**] に変更された場合。
+  - オーディオ会議プロバイダーのユーザーの変更されたとき Microsoft から別のプロバイダーまたは **[なし]** にします。
     
-  - ユーザーの電話会議プロバイダーが Microsoft に変更された場合。
+  - マイクロソフトにユーザーの電話会議プロバイダーが変更されたとき。
     
 - 既定では、電子メールの送信者が、Office 365 からなりますが、電子メール アドレスを変更し、Windows PowerShell を使用して名前を表示できます。 詳細については[マイクロソフト チームの PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)を参照してください。
   

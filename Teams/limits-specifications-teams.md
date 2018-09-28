@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af408506195878a4c213044e6c2223ae75bb815b
-ms.sourcegitcommit: 72e2c4622deb3a7f4c0eafbee91dcf139ef44775
+ms.openlocfilehash: e2288ea2c2359098bc66e317ff57ef16c7900e98
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25090187"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347204"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>制限とマイクロソフトのチームの仕様
 =============================================
@@ -32,6 +32,7 @@ ms.locfileid: "25090187"
 |-----------|---------------|
 |ユーザーが作成できるチームの数 | 250 オブジェクト制限 & sup1; の対象となります。         |
 |チームのメンバーの数 | 2,500       |
+|組織全体にわたるチームのメンバーの数 | 1,000       |
 |グローバル管理者が作成できるチームの数        | 500,000   |
 |チーム、Office 365 テナントの数を持つことができます。    | 500,000     |
 |1 チームあたりのチャンネル数    | 200         |

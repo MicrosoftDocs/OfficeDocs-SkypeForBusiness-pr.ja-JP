@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Microsoft Teams での電話会議番号に対応する電話会議の自動案内の言語を選択する方法を確認します。
-ms.openlocfilehash: b9613b5e64bad0428975a6acd3b11db16a42c680
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a9586e7d6741d49342a34a694c2a5def7406946c
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017954"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347491"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams で電話会議の自動案内の言語を設定する
 
@@ -41,16 +41,18 @@ Microsoft Teams での電話会議の自動案内は、発信者に向けて、�
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>電話会議の自動案内の言語を設定する
 
+![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) ビジネス管理センターは、マイクロソフトのチームと Skype を使用してください。
+
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。
 
-2. 電話会議の電話番号をリストから選択して、ページの最上部で、[**編集**] をクリックします。
+2. 電話会議の電話番号を選択します] ボックスの一覧から、ページの上部にある、[**編集**] をクリックします。
 
-3. 右側のペインで、希望する既定の言語と、任意の代替言語を選びます。 
+3. 右側のウィンドウで、既定の言語を選択し、別の言語を選択します。 
  
     > [!NOTE]
     > デフォルトおよびサポートされている別の言語が一覧表示されます。 選択するために、リスト内の順序は、呼び出し元に表示される言語の順序になります。 
 
-4. [**保存**] をクリックします。
+4. [ **保存**] をクリックします。
 
     
 ## <a name="want-else-should-i-know"></a>その他の情報
@@ -63,7 +65,7 @@ Microsoft Teams での電話会議の自動案内は、発信者に向けて、�
     
 ## <a name="want-to-use-windows-powershell"></a>Windows PowerShell を使用する場合
 
-詳細については、[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)をご覧ください。
+詳細については[マイクロソフト チームの PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)を参照してください。
   
 ## <a name="related-topics"></a>関連トピック
 

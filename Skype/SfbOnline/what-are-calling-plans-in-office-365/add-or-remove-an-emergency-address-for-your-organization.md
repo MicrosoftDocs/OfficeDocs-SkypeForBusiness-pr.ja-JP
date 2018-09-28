@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Skype for Business のアカウントに緊急対応の住所を追加する方法を学びます。 '
-ms.openlocfilehash: 06cd8202198b49efbf2c478e233865a681d2ce34
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: a4edcfa5673ac20c571bfae4d26f41facb9f0c80
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958183"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347063"
 ---
 # <a name="add-or-remove-an-emergency-address-for-your-organization"></a>組織の緊急対応の住所を追加または削除する
 
@@ -40,7 +40,7 @@ Office 365 の通話プランの取得方法とプランの費用については
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. ** [Office 365 管理センター] ** > ** [Skype for Business]** に移動します。
+2. 移動、**マイクロソフトのチームとビジネス管理センターの Skype** > **従来のポータル**です。
     
 3. 左側のナビゲーションで、[**音声**][ > **緊急対応の場所**] に移動し、[**新しい住所を追加** ] ボタンをクリックします。
     
@@ -62,7 +62,7 @@ Office 365 の通話プランの取得方法とプランの費用については
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. ** [Office 365 管理センター] ** > ** [Skype for Business]** に移動します。
+2. 移動、**マイクロソフトのチームとビジネス管理センターの Skype** > **従来のポータル**です。
     
 3. 左側のナビゲーションでは、[**音声**] に移動 > **緊急の場所**は、削除するアドレスを選択し、[操作] ウィンドウの [**削除**] をクリックします。
     

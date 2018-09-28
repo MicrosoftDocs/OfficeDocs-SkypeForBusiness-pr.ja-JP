@@ -26,12 +26,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them.
-ms.openlocfilehash: 69ed5566d516f89b5b3f2c96ab37e43690693708
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 660854bc851be4409962f1177917e86f2ae3482d
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017898"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347546"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>Office 365 に電話番号を移行する
 
@@ -53,7 +53,7 @@ ms.locfileid: "25017898"
  
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. 移動、**マイクロソフトのチームとビジネス管理センターの Skype** > **従来のポータル**です。
     
 3. In the left navigation go to **Voice** > **Port orders** > click **Add**.
     
@@ -81,7 +81,7 @@ ms.locfileid: "25017898"
     
   - サービス アドレスの [ **市区町村**]、[ **都道府県**]、[ **郵便番号**]。
     
-6. [ **番号**] ページで、移行する電話番号を E.164 形式で入力します。たとえば、北アメリカの電話番号には +1XXXYYYZZZZ の形式を使用します。複数の電話番号はカンマを使用して区切ります。
+6. [ **番号**] ページで、移行する電話番号を E.164 形式で入力します。 たとえば、北アメリカの電話番号には +1XXXYYYZZZZ の形式を使用します。 複数の電話番号を区切るコンマを使用します。
     
     > [!NOTE]
     > 完全な移行を行う場合は、リストにサービスの請求先電話番号 (BTN) を含める必要があります。部分的な移行を行う場合は、リストからサービスの請求先電話番号 (BTN) を除外します。 
@@ -90,7 +90,7 @@ ms.locfileid: "25017898"
     
 7. [ **続行**] をクリックします。
     
-8. [ **転送日**] ページの [ **日**] ボックスでは、[ **開始時間**] ボックスで日付を選び、時間 (EST) を選んでから、[ **次へ**] をクリックします。
+8. **日**」ドロップ ダウン リストで、**日付を転送**] ページで、[日付を選択**開始時刻**」ドロップ ダウン リストで、[時刻 (EST) を選択し、[**次へ**] をクリックします。
     
 9. [ **承認状**] ページで、各ボックスをオンにします。続いて [ **署名**] ボックスの下で、アカウントを変更することが承認されているユーザーを入力します。これは、[ **アカウント情報**] ページの [ **認証する人物**] で使う同じ名前です。続いて [ **次へ**] をクリックします。
     

@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Office 365 の電話会議 (PSTN 会議) ライセンスを試す方法または購入する方法を参照して、ダイヤル インできる電話会議をセットアップしてください。 '
-ms.openlocfilehash: 1538781a2704ae65922d57f8ac556fd3e57d7fe4
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: efe5ab7189a5012b27b12838844325240b5891f5
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014300"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347554"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>チームが Microsoft Office 365 に電話会議を購入するか
 
@@ -38,7 +38,7 @@ ms.locfileid: "25014300"
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>手順 1: を購入し、オーディオ会議のライセンスを割り当てる
 
-この手順を実行するには、[Office 365 の管理者の役割](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) を持っている必要があります。
+次の手順を実行するのには、[グローバル管理者または課金管理者](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)でなければなりません。
 
 ### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>ユーザーの電話会議のライセンスを購入し、割り当てる場合:
 

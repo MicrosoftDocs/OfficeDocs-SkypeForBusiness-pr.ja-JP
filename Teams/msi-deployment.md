@@ -3,7 +3,6 @@ title: MSI を使用して Microsoft Teams をインストールする
 author: Lester-Hewett
 ms.author: lehewe
 manager: serdars
-ms.date: 03/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
@@ -13,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63ee69d56cff0fd3d25ae6aa16a02fc45340dce4
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b72f40e624c63349913688e11ffc30be5a93a92b
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014380"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347122"
 ---
 <a name="install-microsoft-teams-using-msi"></a>MSI を使用して Microsoft Teams をインストールする
 =================================
@@ -66,5 +65,5 @@ ms.locfileid: "25014380"
 
 自動起動を無効にする場合は、次のコマンド プロンプトを入力します。
 
-`msiexec /i Teams_windows.exe OPTIONS="noAutoStart=false"`
+`msiexec /i Teams_windows.exe OPTIONS="noAutoStart=true"`
 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'PIN について知っておくべきことと、Microsoft Teams でそれらをリセットする方法について確認します。 '
-ms.openlocfilehash: f331298915cea6240baeb2f6f6086ec8b9ade675
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: 292cc1c042816236fed35b536dd529b49e902203
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25019069"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347499"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Microsoft Teams で電話会議の PIN をリセットする
 
@@ -35,19 +35,23 @@ PIN は、電話会議が有効になっているマイクロソフトのチー�
 
 ## <a name="reset-a-users-pin"></a>ユーザーの PIN をリセットする
 
-1. マイクロソフトのチームとのビジネス管理センターは、左側のナビゲーションでは、Skype で**ユーザー**] をクリックし、利用可能なユーザーの一覧からユーザーを選択します。
+![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) ビジネス管理センターは、マイクロソフトのチームと Skype を使用してください。
 
-2. **オーディオ会議**では、[ **PIN のリセット**] をクリックします。
+1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
 
-3. [**リセット**] をクリックします。
+2. [**編集**] をクリックします。
+
+3. **オーディオ会議**では、[ **PIN のリセット**] をクリックします。
+
+4. [**リセット**] をクリックします。
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
    
-## <a name="have-a-user-reset-his-or-her-own-pin"></a>ユーザーに自分の PIN をリセットさせる
+## <a name="have-a-user-reset-his-or-her-own-pin"></a>ユーザーが自分の PIN のリセット
 
-1. ユーザーに [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing) に移動してもらいます。
-2. [**PIN のリセット**] をクリックします。 
+1. ユーザーには、 [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing)。
+2. **PIN のリセット**] をクリックします。 
 
 
 ## <a name="what-else-should-you-know-about-pins"></a>PIN について知っておくべきその他のこと
@@ -58,7 +62,7 @@ PIN は、電話会議が有効になっているマイクロソフトのチー�
     
 - 会議が始まると、ロビー内のすべてのユーザーは自動的にその会議に参加します。 たとえば、会議が始まる前に 2 人の参加者が会議に参加しようとすると、ロビーで待って保留音を聞くことになります。会議の開催者が自分の PIN を使用して電話で参加すると、会議が始まり、ロビーにいる参加者が会議に参加します。
     
-- 既定の設定では、匿名の発信者が会議を開始することはできません。
+- 既定の設定では、匿名の呼び出しを開始するための会議を許可しないようにします。
     
 - オーディオ会議のユーザーを有効にすると、既定で送信される会議の情報と PIN を含む電子メール。 ユーザーは PIN をリセットすると、新しい暗証番号 (pin) はでは、プライマリ SMTP アドレス (エイリアス)、ユーザーに設定されている電子メールのユーザーに送信されますので、Office 365 のメールボックスに必要です。
     
@@ -80,4 +84,4 @@ Windows PowerShell の詳細については、「[Microsoft Teams PowerShell の
   
 ## <a name="related-topics"></a>関連トピック
 
-[ユーザーのために会議 ID をリセットする](reset-a-conference-id-for-a-user-in-teams.md)
+[ユーザーの会議 ID をリセットする](reset-a-conference-id-for-a-user-in-teams.md)

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft Teams 内でダイヤルイン電話会議の電話番号を調べる方法について説明します。 '
-ms.openlocfilehash: de92f552a873cf51a0cc8487d08cacca387e3e7a
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: e2a3684e7f2c0264e36a6e30ce2df4adf2537895
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25019037"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347378"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Microsoft Teams で電話会議の電話番号のリストを表示する
 
@@ -45,10 +45,12 @@ ms.locfileid: "25019037"
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>自分の電話会議の電話番号を表示するには
 
-1. マイクロソフトのチームとのビジネス管理センターは、左側のナビゲーションでは、Skype で**の会議**に移動 > **会議ブリッジ**です。 
-2.  電話会議で利用可能な電話番号を表示します。
+![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) ビジネス管理センターは、マイクロソフトのチームと Skype を使用してください。
 
-- 場所と、電話会議の自動応答で使用される第 1 言語を表示することもできます。
+1. 左側のナビゲーションでは、**会議**に移動 > **会議ブリッジ**です。 
+2. オーディオ会議で使用可能な電話番号を表示します。
+
+- オーディオ会議自動アテンダントによって使用される主言語と保存場所を表示することもできます。
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 

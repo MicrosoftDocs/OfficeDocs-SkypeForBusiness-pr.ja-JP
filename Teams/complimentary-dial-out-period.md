@@ -24,12 +24,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: お客様は、Skype for Business Online PSTNサービス利用規約およびお客様のボリュームライセンス契約で許可されているとおり、Office 365通話プランとOffice 365音声会議を使用することができます。
-ms.openlocfilehash: 9e807e5bca0ed17d798a7fd71b9c8db76e146750
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9f3db1ee225633bc4a1d4084dc674d6253e49276
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017512"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347394"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音声会議の無料ダイヤル アウト期間
 
@@ -39,7 +39,7 @@ ms.locfileid: "25017512"
   
 ### <a name="complimentary-dial-out-period"></a>無料のダイヤルアウト期間
 
-マイクロソフトは、Office 365音声会議サービスを導入しているお客様のメリットとして、2018年6月30日までにOffice 365音声会議ライセンスを割り当てたユーザー主催によるミーティングのダイアルアウトに関する追加の利点を提供しています。 2018 年 6 月 30日使用期間の次の 44 の国での電話番号に、会議内からの通話のダイヤル ・ アウトを行うには、会議の開催者に与えられた権限に基づいて、ライセンスを受けたユーザーが開催するミーティングに出席するユーザを許可可能性があります。
+Office 365 のオーディオ会議サービスを導入するお客様に追加のメリットとして、マイクロソフトは、2018 年 6 月 30日から Office 365 のオーディオ会議のライセンスが割り当てられているユーザーによって開催されるミーティングからダイヤルアウトに関連するその他の利点を提供しています。 2018 年 6 月 30日使用期間の次の 44 の国での電話番号に、会議内からの通話のダイヤル ・ アウトを行うには、会議の開催者に与えられた権限に基づいて、ライセンスを受けたユーザーが開催するミーティングに出席するユーザを許可可能性があります。
   
 |    |
 |-----|

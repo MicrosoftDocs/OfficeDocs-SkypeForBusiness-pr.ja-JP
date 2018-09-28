@@ -21,16 +21,16 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: ダイヤルイン電話会議の電話番号を利用できる国と地域について、およびそれらの電話番号がどのように自動的に割り当てられるかを説明します。
-ms.openlocfilehash: c16f2280441ba3a253e1656d989b9a90702f4599
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 29fd127fd132d953aafcec46807e2fd6012e7c4b
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017552"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347412"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議の電話番号
 
-マイクロソフトのチームでは、**オーディオ会議**を設定する場合、組織にダイヤルインの電話番号が自動的に割り当てられます。 携帯電話を表示するのには、マイクロソフトのチームとのビジネス管理センターでは、Skype で、オーディオ会議ブリッジに割り当てられている番号には、**会議** > **会議ブリッジ**です。 You can select the dial-in conferencing default phone number that will be given to users when they are enabled for dial-in conferencing.[](see-a-list-of-audio-conferencing-numbers-in-teams.md)
+マイクロソフトのチームでは、**オーディオ会議**を設定する場合、組織にダイヤルインの電話番号が自動的に割り当てられます。 携帯電話を表示するのには、マイクロソフトのチームとのビジネス管理センターでは、Skype で、オーディオ会議ブリッジに割り当てられている番号には、**会議** > **会議ブリッジ**です。 詳細については、[オーディオ会議の番号の一覧を参照してください](see-a-list-of-audio-conferencing-numbers-in-teams.md)に移動します。
   
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>電話会議の有効範囲と料金
