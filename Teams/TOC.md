@@ -187,7 +187,7 @@
 ### [Teams でのチームとチャネルの概要](teams-channels-overview.md)
 ### [チーム所有者およびマイクロソフトのチームのメンバーを割り当てる](assign-roles-permissions.md)
 ### [Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
-### [チュートリアル: PowerShell を使用して会社全体のチームを作成する](company-wide-team-creation-powershell.yml)
+### [チームで、組織全体にわたるチームを作成します。](create-an-org-wide-team.md)
 ## [ゲスト アクセス](guest-access.md)
 ### [ゲストがチームに参加する方法](guest-joins.md)
 ### [ゲストのエクスペリエンスについて](guest-experience.md)
