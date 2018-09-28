@@ -8,16 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: サービス、ネットワーク、エンドポイントの動作状態を管理することや、運用や品質チャンピオンの役割を定義することによって、高品質な Teams のユーザー エクスペリエンスを実現します。
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin
+localization_priority: Normal
+search.appverid: MET150
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 584268a3b1b36f11518ed10e04b995b2d84b9bc1
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 29b17157178f8e7565fd6f484d6d95262c76ce05
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20396880"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015582"
 ---
 # <a name="plan-for-service-management-and-quality"></a>サービス管理と品質の計画
 
@@ -139,9 +140,9 @@ Microsoft Teams はさまざまなエンドポイントをサポートします�
 
 品質エクスペリエンスのレビュー ガイドで提供されるガイダンスでは、普及率と影響を最大化する音声に焦点をあてながら、各領域についてのレポート作成と調査を行うための主要ツールとして通話品質ダッシュボード (COD) の使用を重視しています。 音声エクスペリエンスを改善するためにネットワークに対して行われた最適化は、ビデオおよびデスクトップ共有を改善することにも直接転用されます。
 
-マイクロソフトは、早い段階で品質チャンピオンを指名することをお勧めします。 指名された品質チャンピオンは、品質エクスペリエンスのレビュー ガイドの内容について理解を深め始める必要があります。
+マイクロソフトは、早い段階で品質チャンピオンを指名することをお勧めします。 指名された品質チャンピオンは、品質エクスペリエンスのレビュー ガイドの内容についてよく理解するよう努める必要があります。
 
-品質エクスペリエンスのレビュー ガイドは[こちら](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)でご覧いただけます。
+品質エクスペリエンスのレビュー ガイドは[こちら](https://aka.ms/qerguide)でご覧いただけます。
 
 ## <a name="plan-for-network-quality"></a>ネットワーク品質の計画 
 
@@ -224,7 +225,7 @@ Microsoft Teams 用のファイアウォールを開くことについての完�
 
 多くのネットワークは、ハブおよびスポーク トポロジを使用するよう設計されたものです。 このトポロジでは、インターネットのトラフィックは通常、インターネットに出現 (エグレス) する前に、 WAN を横断して中央データセンターに到達します。 これは多くの場合、総コストを削減する目的で、ネットワーク セキュリティ デバイスを一元化するために行われます。
 
-WAN でのバックホーリングのトラフィックは待機時間を増大させ、品質とユーザー エクスペリエンスに悪影響をおよぼします。 Microsoft Teams は Microsoft の大規模なグローバル ネットワーク上で実行されるため、多くの場合、ユーザーに近いネットワーク ピアリングの場所が存在します。 ユーザーの場所に近いローカルのインターネット ポイントから出て、音声に最適化されたネットワークにできるだけ早く入ることにより、ユーザーはより良質なパフォーマンスを得る可能性が高くなります。 一部の負荷については、最も近いフロントエンド サーバーにトラフィックを送信するために DNS 要求が使用されます。 そのような場合、ローカル エグレス ポイントを使用するときにローカル DNS 解決と組み合わせることが重要です。 
+WAN でのバックホーリングのトラフィックは待機時間を増大させ、品質とユーザー エクスペリエンスに悪影響をおよぼします。 Microsoft Teams は Microsoft の大規模なグローバル ネットワーク上で実行されるため、多くの場合、ユーザーに近いネットワーク ピアリングの場所が存在します。 ユーザーの場所に近いローカルのインターネット ポイントから出て、音声に最適化されたネットワークにできるだけ早く入ることにより、ユーザーはより良質なパフォーマンスを得る可能性が高くなります。 一部の負荷については、最も近いフロントエンド サーバーにトラフィックを送信するために DNS 要求が使用されます。 そのような場合、ローカル エグレス ポイントを使用するときにローカル DNS 解決と組み合わせることが重要です。
 
 Microsoft のグローバル ネットワークへのネットワークパスを最適化すると、パフォーマンスが改善され、最終的にユーザーのための最高のエクスぺリエンスが提供されます。 詳細については、「[Getting the best connectivity and performance in Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694)」のブログ投稿をご覧ください。
 
@@ -334,11 +335,11 @@ Microsoft Teams の主なメリットの 1 つに、クライアントが自動�
 | 領域 | 詳細 | 参照先 |
 |-----------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | サービス管理の計画 | 運用の役割マッピングの実施 <br/> 責任のあるチームからのサインオフ <br/> 役割の準備 | [運用ガイド](1-drive-value-operate-my-service.md) |
-| | 品質チャンピオンの指名 <br/> 品質チャンピオンの準備| [CQD についての学習](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [品質エクスペリエンスのレビュー ガイド](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) |
-| | 品質エクスペリエンスのレビュー テンプレートのインストール <br/> 建物ファイルのアップロード | [QERLite テンプレート](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-2-1.zip?raw=true) <br/> [建物の情報のアップロード](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)|
+| | 品質チャンピオンの指名 <br/> 品質チャンピオンの準備| [CQD についての学習](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [品質エクスペリエンスのレビュー ガイド](https://aka.ms/qerguide) |
+| | 品質エクスペリエンスのレビュー テンプレートのインストール <br/> 建物ファイルのアップロード | [QERLite テンプレート](https://aka.ms/qertemplates) <br/> [建物の情報のアップロード](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)|
 | ネットワーク品質の計画 | ネットワーク プランナーの実行 | [ネットワーク プランナー](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
 | | QoS の実装 | [Microsoft Teams でのサービスの品質 (QoS)](qos-in-teams.md) |
-| | プロキシ サーバーのバイパス | [プロキシのガイダンス](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |
+| | プロキシ サーバーのバイパス | [プロキシのガイダンス](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a) |
 | | スプリット トンネル VPN の実装 | [VPN スプリット トンネルのガイダンス ](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
 | | リアルタイム メディアのための Wi-Fi ネットワークの最適化  | サード パーティ ベンダーに相談 |
 | | ローカルのインターネット エグレスの実施 | [ローカルのインターネット エグレス](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |
