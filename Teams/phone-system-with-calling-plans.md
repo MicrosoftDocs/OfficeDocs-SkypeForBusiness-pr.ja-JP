@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 0d8ed28eb941618a4faf10dddb4c700d2a0d2baf
-ms.sourcegitcommit: 14b0724058fc31ff92af9e2bcde4680796a04936
-ms.translationtype: HT
+ms.openlocfilehash: e4c86bb7d918a30b0abe185d67b717904702bc93
+ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965524"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25352299"
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Microsoft Teams の通話プランが設定された電話システムの実践的なガイダンス
 =========================================================================
@@ -231,8 +231,7 @@ Network Readiness Assessment の結果により、必要とされるネットワ
 <br>
 通話プランが設定された電話システムの技術計画
 ------------------------------------------------------
-
-通話プランが設定された電話システムの実装を計画するには、ビジネス要件を満たすソリューションの実装に向けて組織が十分な準備を行うことができるよう、事前に一連の意思決定を行う必要があります。 この意思決定は技術実装計画で文書化します。
+<a name="technical-planning-for-phone-system-with-calling-plans"></a>計画を呼び出すと、電話システムの技術的な実装の計画、一連の決定の行う必要があります事前に組織のビジネス要件に合ったソリューションを実装する準備をします。 この意思決定は技術実装計画で文書化します。
 
 ## <a name="availability-of-calling-plans"></a>通話プランの利用可否
 

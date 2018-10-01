@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: e611b66efb09091303c98dba6c3cdf55d693bc8c
-ms.sourcegitcommit: 14b0724058fc31ff92af9e2bcde4680796a04936
+ms.openlocfilehash: d3f16e8eecb9396b4258094e761464625c2db548
+ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965532"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25352307"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議についての実践的なガイダンスを提供します。
 ============================================================
@@ -229,8 +229,7 @@ Network Readiness Assessment の結果により、必要なネットワーク最
 <br>
 音声会議での電話会議の計画  
 -----------------------------------------
-
-電話会議の技術実装を計画するには、ビジネス要件を満たすソリューションの実装に向けて組織が十分な準備を行うことができるよう、事前に一連の意思決定を行う必要があります。 この意思決定は技術実装計画で文書化します。
+<a name="technical-planning-for-audio-conferencing"></a>オーディオ会議の技術的な実装の計画には、一連の決定の行う必要があります事前に組織のビジネス要件に合ったソリューションを実装する準備をします。 この意思決定は技術実装計画で文書化します。
 
 ## <a name="availability-of-audio-conferencing"></a>電話会議の利用可否
 
