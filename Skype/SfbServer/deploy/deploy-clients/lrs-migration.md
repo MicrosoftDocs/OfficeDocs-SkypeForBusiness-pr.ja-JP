@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: Skype ルーム システム v2 のソフトウェアを使用して Lync ルーム システム デバイスを移行する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: e552f3979bf64a0fe1ebadebdf39a9a55da1e28c
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 18cc3f954480a000bfe962e0a4b461e05568479b
+ms.sourcegitcommit: 6447a3aa060452c8d6879524cd6a56aecf33b152
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347538"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25354005"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>Lync ルーム システム (LRS) デバイスを Skype ルーム システム v2 に移行します。 
-Skype ルーム システム バージョン 1 (SRS v1) ソフトウェアとデバイスを Lync ルーム システム (LRS) に到達、2018 年 10 月 9日のサポートは終了します。 つまり、Skype ルームのシステム ソフトウェアは、製品の更新プログラムまたはこの日付以降後の修正プログラムを取得できません。 Skype ルーム システム v1 のソフトウェアを使用して Lync ルームのシステム デバイスを持つお客様は Skype ルーム システム バージョン 2 (SRS v2) にそのデバイスをアップグレードするのにはお勧めします。
+Skype ルーム システム バージョン 1 (SRS v1) ソフトウェアとデバイスを Lync ルーム システム (LRS) に到達[、2018 年 10 月 9日のサポートは終了](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018)します。 つまり、Skype ルーム システム v1 のソフトウェアは、製品の更新プログラムまたはこの日付以降後の修正プログラムを取得できません。 Skype ルーム システム v1 のソフトウェアを使用して Lync ルームのシステム デバイスを持つお客様は Skype ルーム システム バージョン 2 (SRS v2) にそのデバイスをアップグレードするのにはお勧めします。
 
 Skype ルーム システムのバージョン 2 (SRS v2) ソフトウェアでは、会議およびすべての SRS v2 はサポートされているデバイスでの通話のビジネス サーバーとオンラインのサービスの Skype の他のマイクロソフトのチームで動作します。
 
-Skype ルーム システム v1 のソフトウェアのサポートは動作を継続、既存のデバイス**があります**。 このソフトウェア、Microsoft は、修正プログラムをリリースする必要のあるソフトウェアのバグをヒットして最終的にか場合は、既存の通信プロトコルが Skype ルーム システム v1 のソフトウェアの変更で使用されているか、現在サポートされていません。 このような既知の 1 つの変更は、TLS 1.0 の廃止/1.1 Microsoft Office 365 にします。 [TLS 1.0 または 1.1 の廃止の準備](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608)に関する詳細については。  
+このソフトウェアは、ソフトウェアのバグ、修正プログラムをリリースする必要があるまたは Skype ルーム システムによって、既存の通信プロトコルが使用されている場合があります。 をヒットするまでは、Skype ルーム システム v1 のソフトウェアのサポートが終了してから作業を続行、既存のデバイス**があります。** v1 のソフトウェアは、変更または現在サポートされていません。 このような既知の 1 つの変更は、TLS 1.0 の廃止/1.1 Microsoft Office 365 にします。 [TLS 1.0 または 1.1 の廃止の準備](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608)に関する詳細については。  
 
 ## <a name="which-devices-are-affected"></a>どのデバイスが影響を受けるでしょうか。
 この変更によって影響を受けるデバイスの一覧を以下に示します。
