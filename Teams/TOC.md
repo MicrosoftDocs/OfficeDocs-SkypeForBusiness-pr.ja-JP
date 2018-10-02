@@ -215,6 +215,9 @@
 #### [クラウド ビデオの相互運用機能を設定します。](cloud-video-interop-for-teams-set-up.md)
 ### ライブ イベント
 #### [ライブ イベントをチームは何ですか。](teams-live-events/what-are-teams-live-events.md)
+#### [チームのライブ イベントの計画](teams-live-events/plan-for-teams-live-events.md)
+#### [チームのライブ イベントを設定します。](teams-live-events/set-up-for-teams-live-events.md)
+#### [チームのライブ イベントを構成します。](teams-live-events/configure-teams-live-events.md)
 
 
 
