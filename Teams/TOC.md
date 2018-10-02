@@ -2,15 +2,14 @@
 # 開始する
 
 ## [Teams の概要](Teams-overview.md)
-## [クイック スタート - Teams の計画ガイド](quick-start-enable-teams.md)
 ## [ツールとワークショップ: Teams の計画、提供、運用](planning-workshop-practical-guide.md)
-## [Teams 用の Office 365 ライセンス](office-365-licensing.md)
 <!-- ============================================================ -->
 
 
 <!-- ============================================================ -->
 # 計画
 
+## [クイック スタート - Teams の計画ガイド](quick-start-enable-teams.md)
 ## [Teams の導入に向けた環境の準備を確認する](environment-readiness.md)
 ## [Teams 用に組織のネットワークを準備する](prepare-network.md)
 ## [Office 365 の URL と IP アドレスの範囲](office-365-urls-ip-address-ranges.md)
@@ -20,8 +19,7 @@
 ## [チームのライフ サイクル管理の計画](plan-teams-lifecycle.md)
 ## [チームの管理のための計画](plan-teams-governance.md)
 ## [Microsoft 365 政府の GCC の展開の計画](plan-for-government-gcc.md)
-## 採用を推進
-### [変更管理戦略を作成します。](change-management-strategy.md)
+## [変更管理戦略を作成します。](change-management-strategy.md)
 <!-- ============================================================ -->
 
 
@@ -45,7 +43,6 @@
 ### [チームの所有者およびチームのメンバーを割り当てる](assign-roles-permissions.md)
 ### [チーム テナント アプリケーション カタログにアプリケーションを発行します。](tenant-apps-catalog-teams.md)
 ### [チームで動作する Skype の会議アプリケーションを構成します。](configure-skype-meetings-app-to-work-with-teams.md)
-## [現代の認証](sign-in-teams.md)
 ## [他の組織内のチームのユーザーとの通信します。](let-your-teams-users-communicate-with-other-people.md)
 ## [クラウド ボイスの展開の手引き](cloud-voice-deployment.md)
 ### [自分の成功を定義します。](1-envision-define-my-success-cloud-voice.md)
@@ -67,8 +64,6 @@
 ### [Skype for Business と Teams のライセンスを割り当てる](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Skype for Business と Teams のアドオン ライセンス](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [チームの業務用の試用版の提供を管理します。](iw-trial-teams.md)
-### [組織のためにコミュニケーション クレジットをセットアップする](set-up-communications-credits-for-your-organization.md)
-### [コミュニケーション クレジットについて](what-are-communications-credits.md)
 ## サポートされているデバイス
 ### [IP 電話](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [USB オーディオ デバイスやビデオ デバイス](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -80,7 +75,6 @@
 <!-- ============================================================ -->
 # [チームにビジネス用の Skype からのアップグレード](Journey-SkypeforBusiness-Teams.md)
 ## [チュートリアル: Skype for Business から Teams への移行](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-## [チームのクラスルーム ・ トレーニング](instructor-led-training-teams-landing-page.md)
 ## [基本的なアップグレードします。](upgrade-basic.md)
 ### [サンプルの電子メールやアンケート](upgrade-emails-surveys.md)
 ## [Pro のアップグレードします。](upgrade-pro.md)
@@ -113,6 +107,19 @@
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
+# Office 365 との相互運用性
+## [移行とビジネス用の Skype では、相互運用性](migration-interop-guidance-for-teams-with-skype.md)
+## [共存を設定し、設定をアップグレードします。](setting-your-coexistence-and-upgrade-settings.md)
+## [Office 365 グループと Teams](office-365-groups.md)
+## [既存の Office 365 グループを Teams で強化する](enhance-office-365-groups.md)
+## [Exchange と Teams の連携](exchange-teams-interact.md)
+### [Teams で使用する Exchange ハイブリッド展開の組織を構成する](exchange-hybrid-organization.md)
+### [Teams SMTP ドメインを承認済みドメインとして Exchange Online に追加する](smtp-accepted-domain.md)
+## [Teams との SharePoint Online と OneDrive for Business の連携](sharepoint-onedrive-interact.md)
+## [チームが、Office 365 テナントの複数地域で有効になっているの経験します。](teams-experience-o365odb-spo-multi-geo.md)
+<!-- ============================================================ -->
+
+<!-- ============================================================ -->
 # 管理
 ## [レビュー ガイドの経験の質](quality-of-experience-review-guide.md)
 ## 通話の音質をモニターし、QoS
@@ -137,7 +144,6 @@
 ## [チームのクラスルーム ・ トレーニング](instructor-led-training-teams-landing-page.md)
 ## [Teams の管理者トレーニング](itadmin-readiness.md)
 ## [Teams のエンド ユーザー トレーニング](enduser-training.md)
-## [ビデオ - Audio Conferencing in Teams (Teams での電話会議)](audio-conferencing-videos.md)
 <!-- ============================================================ -->
 
 
@@ -146,6 +152,7 @@
 ## [Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)
 ## [Teams のコンテンツに対して電子情報開示の調査を行う](ediscovery-investigation.md)
 ## [Teams での ID モデルと認証](identify-models-authentication.md)
+## [現代の認証](sign-in-teams.md)
 ## [Teams ユーザーまたはチームに訴訟ホールドを適用する](legal-hold.md)
 ## [Teams でイベントの監査ログを検索する](audit-log-events.md)
 ## [Teams のコンテンツ検索を使用する](content-search.md)
@@ -154,35 +161,19 @@
 ### [リテンション ・ ポリシーに関する既知の問題](retention-policies-known-issues.md)
 ## [Teams のデータの場所](location-of-data-in-teams.md)
 ## [マイクロソフト チームのフランスの準拠のアクセシビリティの宣言](accessibility-declaration-of-conformance-in-france-for-teams.md)
-##  [Skype のビジネスをオンラインで、マイクロソフトのチーム向けのアクセシビリティ](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-##  [英国内の演習用のコード](code-of-practice-for-the-united-kingdom-u-k.md)
-##  [英国のコードの苦情処理](complaint-handling-code-for-the-united-kingdom-u-k.md)
-##  [無料のダイヤルアウト期間](complimentary-dial-out-period.md)
+## [Skype のビジネスをオンラインで、マイクロソフトのチーム向けのアクセシビリティ](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [Office 365 - 英国の実際のコードでの通話プラン](code-of-practice-for-the-united-kingdom-u-k.md)
+##  [Office 365 のプランを呼び出すコードの英国の苦情処理](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ## [データ収集方法](data-collection-practices.md)
 ##  [緊急呼び出しラベル](emergency-calling-labels.md)
 ##  [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
 
 <!-- ============================================================ -->
-<!-- ============================================================ -->
-# Office 365 との相互運用性
-## [移行とビジネス用の Skype では、相互運用性](migration-interop-guidance-for-teams-with-skype.md)
-## [共存を設定し、設定をアップグレードします。](setting-your-coexistence-and-upgrade-settings.md)
-## [Office 365 グループと Teams](office-365-groups.md)
-## [既存の Office 365 グループを Teams で強化する](enhance-office-365-groups.md)
-## [Exchange と Teams の連携](exchange-teams-interact.md)
-### [Teams で使用する Exchange ハイブリッド展開の組織を構成する](exchange-hybrid-organization.md)
-### [Teams SMTP ドメインを承認済みドメインとして Exchange Online に追加する](smtp-accepted-domain.md)
-### [Outlook で Teams の会議アドインを使用する](teams-add-in-for-outlook.md)
-## [Teams との SharePoint Online と OneDrive for Business の連携](sharepoint-onedrive-interact.md)
-## [チームが、Office 365 テナントの複数地域で有効になっているの経験します。](teams-experience-o365odb-spo-multi-geo.md)
-<!-- ============================================================ -->
+
 
 
 <!-- ============================================================ -->
 # 機能
-## アクセシビリティ
-### [フランスでの Skype for Business Online のアクセシビリティに関する適合宣言](/SkypeForBusiness/legal-and-regulatory/accessibility-declaration-of-conformance-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [フランスでの Skype for Business Online のアクセシビリティ ソリューション](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## チームとチャネル
 ### [Teams でのチームとチャネルの概要](teams-channels-overview.md)
 ### [チーム所有者およびマイクロソフトのチームのメンバーを割り当てる](assign-roles-permissions.md)
@@ -231,8 +222,6 @@
 ### [チームの活動レポートを使用して](teams-activity-reports.md)
 ### [インライン メッセージの変換を使用して、チームで](inline-message-translation-teams.md)
 ## Cloud Voice
-### [Skype for Business と Teams のライセンスを割り当てる](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [利用可能残高を追加してコミュニケーション クレジットを管理する](add-funds-and-manage-communications-credits.md)
 ### [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 #### [アルゼンチン](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
 #### [オーストラリア](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
@@ -335,6 +324,10 @@
 #### [オランダでの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
 #### [英国での電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [米国での電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
+### 通信のクレジットを管理します。
+#### [コミュニケーション クレジットについて](what-are-communications-credits.md)
+#### [組織のためにコミュニケーション クレジットをセットアップする](set-up-communications-credits-for-your-organization.md)
+#### [利用可能残高を追加してコミュニケーション クレジットを管理する](add-funds-and-manage-communications-credits.md)
 ### [固定電話の展開](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### 電話会議
 #### [チームで電話会議のチュートリアル:](Tutorial-Audio-Conferencing.yml)
@@ -345,7 +338,6 @@
 #### [電話会議でサポートされる言語](audio-conferencing-supported-languages.md)
 #### [電話会議ブリッジの設定を変更する](change-the-settings-for-an-audio-conferencing-bridge.md)
 #### [電話会議ブリッジの電話番号を変更する](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
-#### [会議からダイヤルアウトして他のユーザーが参加できるようにする](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
 #### [ユーザーの設定が変更されるとユーザーに自動的に送信されるメール](emails-sent-to-users-when-their-settings-change-in-teams.md)
 #### [電話会議の設定が変更されたときのメールの自動送信を有効または無効にする](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 #### [ユーザーが会議に参加するときに名前を記録できるようにする](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
@@ -466,8 +458,6 @@
 #### [緊急対応の場所、アドレス、通話ルーティングの概要](what-are-emergency-locations-addresses-and-call-routing.md)
 #### [住所検証について](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-is-address-validation?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [ダイヤル プランについて](what-are-dial-plans.md)
-#### [Office 365 での通話プラン - 英国 (U.K.) での実施基準](code-of-practice-for-the-united-kingdom-u-k.md)
-#### [Office 365 での通話プラン - 英国 (U.K.) での苦情処理基準](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### 電話システム
 #### [Office 365 での電話システムについて](what-is-phone-system-in-office-365.md)
 #### [組織内の電話システムの設定](setting-up-your-phone-system.md)

@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70591f040508453832943c65122f0fa0b07ef35b
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 3abecace4a15a85e4a0f8b895b44cd799b3c794f
+ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014662"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25358894"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要
 =================================================
@@ -36,13 +36,7 @@ ms.locfileid: "25014662"
 
     -   チーム チャネルは、チームの全員がオープンに会話できる場です。プライベート チャットはチャット内のユーザーのみに表示されます。
 
-    -   チャネルは、タブ、コネクタ、およびボットを含んでいるアプリで拡張することで最大の価値を発揮するようになり、チームのメンバーにとってのチャネルの価値が高まります。
-    
-次のビデオで、チーム、チャネル、タブの編成のベスト プラクティスについて、5 分間耳を傾けてください。
-
-|  |  |
-|---------|---------|
-| 優れたチーム、チャネル、タブを 5 分でセットアップ   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   | 
+    -   チャネルは、タブ、コネクタ、およびチームのメンバーにその値を大きくしているボットを含むアプリケーションを拡張する際に最も重要です。
 
 <a name="membership-roles-and-settings"></a>メンバーシップ、ロール、および設定
 ------------------------------
@@ -52,6 +46,9 @@ ms.locfileid: "25014662"
 **チームの役割**: Microsoft Teams には、チームの作成者であるチーム所有者と、そのチームに参加するよう招待されたチーム メンバーという 2 つの主要な役割があります。 チーム所有者は、チームのメンバーを、チームに招待した時点またはチームに参加した後に、共同所有者にすることができます。 複数のチーム所有者がいると、招待を含む、設定やメンバーシップの管理の責任を分散することができます。   
 
 **チームの設定** チームの所有者は、チーム全体の設定を直接 Microsoft Teams で管理できます。 この設定には、チームの写真の追加や、チャネルを作成したりタブとコネクタを追加したりチームまたはチャネル全体を @メンションしたりするためのチーム メンバーにわたるアクセス許可の設定や、GIF、ステッカー、ミームの使用が含まれます。 
+
+チーム所有者のチェック アウトは、この移動のガイドには 3 分ビデオを実行します。 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Office 365 では、マイクロソフトのチーム管理者の場合は、ビジネス管理センターのチームと Skype でシステム全体の設定へのアクセスがあります。 これらの設定は、チーム設定でチーム所有者に表示されるオプションと既定値に影響します。 たとえば、チーム全体の通知、ディスカッション、リソースのために、既定のチャネル「一般」を有効にして、それらがすべてのチームにわたって表示されるようにすることができます。
 

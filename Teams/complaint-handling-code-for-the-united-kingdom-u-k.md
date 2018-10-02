@@ -1,5 +1,5 @@
 ---
-title: 英国向けの苦情処理規約
+title: Office 365 の苦情処理コード イギリス (英国) での通話プラン
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -24,14 +24,14 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
-ms.openlocfilehash: 126c0b88aa5b7feab230ace8b2fc9ff4a1ffffbe
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: fb71f775a1efdfd6b72268bc39d872991587782a
+ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016158"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25358957"
 ---
-# <a name="complaint-handling-code-for-the-united-kingdom-uk"></a>英国向けの苦情処理規約
+# <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Office 365 の苦情処理コード イギリス (英国) での通話プラン
 
 このコードは、スモール ビジネスのお客様 (企業と社員 10 名以内) で、(英国)、Office 365 のプランを呼び出すサービス (以下「サービス」) 英国通信規制基準を適用します。 その他の Skype for Business サービスは、Microsoft とのサービス規約、および特定のサービスの使用に適用されるその他の規約によって管理されます。
 

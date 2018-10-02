@@ -1,5 +1,5 @@
 ---
-title: 英国向けの実施規約
+title: Office 365 - イギリス (英国) の演習用のコードでの通話プラン
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -24,14 +24,14 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: 646d525111e18752492ad7ebc346839b7d296f9b
-ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
+ms.openlocfilehash: 7049ea04edab22d43ee69fab08fed35ee7a5ea3e
+ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25352315"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25358965"
 ---
-# <a name="code-of-practice-for-the-united-kingdom-uk"></a>英国向けの実施規約
+# <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Office 365 - イギリス (英国) の演習用のコードでの通話プラン
 
 このコードは、スモール ビジネスのお客様 (企業と社員 10 名以内) で、(英国)、Office 365 のプランを呼び出すサービス (以下「サービス」) 英国通信規制基準を適用します。 その他の Skype for Business サービスは、Microsoft とのサービス規約、および特定のサービスの使用に適用されるその他の規約によって管理されます。
 

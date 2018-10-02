@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a59134e48d71f9704054d01fecccff385e45e7e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: da85bde3b0f868165fed869b8147e4408344ebc0
+ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015374"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25358902"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>よくあるご質問 - Skype for Business から Microsoft Teams への移行
 
@@ -35,7 +35,7 @@ ms.locfileid: "25015374"
 
 ### <a name="is-there-a-firm-deadline-by-which-customers-need-to-move-from-skype-for-business-online-to-teams"></a>カスタマーとして Skype for Business Online から Teams に移行しなければならない具体的な期限はありますか?
 
-行っていますロードマップ チームの利用可能なため、お客様がお客様のニーズを基準にして、チームの機能を評価し、チームへの移動を計画します。 お客様はニーズに合わせて移行の最適なタイミングを決定できます。 ビジネス チームは、[マイクロソフト チームの機能のロードマップに Busineses の Skype](https://aka.ms/skype2teamsroadmap)の Skype からの旅についてのニュースの上に維持するための優れた方法-ダウンロード可能な PDF (で少なくとも今のところ英語のみ) に関するマイクロソフトの現在の予想を提供します。チームに送信されるビジネス機能のための Skype です。
+行っていますロードマップ チームの利用可能なため、お客様がお客様のニーズを基準にして、チームの機能を評価し、チームへの移動を計画します。 お客様はニーズに合わせて移行の最適なタイミングを決定できます。 ビジネス チームは、[マイクロソフト チームの機能のロードマップにビジネス用の Skype](https://aka.ms/skype2teamsroadmap)の Skype からの旅についてのニュースの上に維持するための優れた方法-ダウンロード可能な PDF (で少なくとも今のところ英語のみ) に関するマイクロソフトの現在の予想を提供します。チームに送信されるビジネス機能のための Skype です。
 
 ### <a name="what-is-the-future-of-skype-for-business-server"></a>Skype for Business Server の将来図を教えてください。
 

@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: この資料では、Skype ルーム システム v2 の累積的な機能強化について説明します。
-ms.openlocfilehash: 7a84cd715be9d76caa9b8ce624aae1c7fbe84f35
-ms.sourcegitcommit: 38efc00dfadc98cebd362877a1239d852f804f06
+ms.openlocfilehash: af4f7621f9b5a70bc9b8a7ce87e50a6e6791ea63
+ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25353214"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25358980"
 ---
 # <a name="release-notes"></a>リリース ノート 
 
@@ -25,10 +25,11 @@ ms.locfileid: "25353214"
 ##  <a name="version-history"></a>バージョン履歴
 
 | リリース | 発行 <br>マイクロソフト ストア | 
-| ---     | ---                              |
-| 4.0.19.0|  08/31/2018    |   
-| 4.0.18.0|  08/27/2018    |   
-| 4.0.8.0|  2018/07/06    |   
+| ---     | ---  |
+| 4.0.27.0 |  2018/10/1    | 
+| 4.0.19.0 |  08/31/2018    |   
+| 4.0.18.0 |  08/27/2018    |   
+| 4.0.8.0 |  2018/07/06    |   
 | 3.1.115.0|  06/18/2018    |
 | 3.1.113.0|  2018/06/13    |   
 | 3.1.112.0|  06/05/2018    |   
@@ -46,6 +47,13 @@ ms.locfileid: "25353214"
 
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Skype ルーム システム v2 の機能の概要と問題解決
+
+### <a name="40270-1012018"></a>4.0.27.0 (10/1/2018)
+この更新プログラムで導入されています。 
+- 以降の Windows 10 バージョン 1803 アップグレードのための SRSv2 アプリケーションを準備するために必要なコードの変更
+- 使用許諾契約書の OOBE のセットアップ] ウィンドウから先に進むため、ローカライズされた eula - 具体的にはノルウェー語の書式設定の問題を修正します。
+- Skype ルーム システム v2 アプリケーションが Lync ルームのレガシー ・ システム上で実行するために必要なコードの変更。 詳細を参照してください[ここで](https://aka.ms/lrsupgrade)。
+ 
 
 ### <a name="40190-8312018"></a>4.0.19.0 (8/31/2018)
 この更新プログラムで導入されています。 
