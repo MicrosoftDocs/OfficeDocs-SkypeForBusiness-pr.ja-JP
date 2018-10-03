@@ -8,12 +8,12 @@ ms.topic: hub-page
 ms.author: dearbeen
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: 5f721ccc993e31ae0040df7ea841ef13e86dae26
-ms.sourcegitcommit: 72e2c4622deb3a7f4c0eafbee91dcf139ef44775
+ms.openlocfilehash: bcd6cb0fa2f251d015b0fe909ca0dfcd89442380
+ms.sourcegitcommit: 02ff91505a2f185bb3c1059a1b26ee31bb272438
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25090227"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25359479"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -98,8 +98,27 @@ ms.locfileid: "25090227"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>チームにスイッチをビジネスの Skype から: エンド ・ ユーザー ・ ガイド</h3>
-                                                    <p>このコースでは、チャット、会議、および、組織ビジネス用の Skype からに移行チームとチームの呼び出しを簡単に起動に必要なものについて説明します。</p>
+                                                <h3>ビジネス用の Skype からチームへの切り替え: エンド ・ ユーザー ・ ガイド</h3>
+                                                    <p>チャット、会議、およびチームにビジネス用の Skype からの移行時にチームの呼び出しを簡単に起動する必要がありますを取得します。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://docs.microsoft.com/MicrosoftTeams/enduser-training">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-TrainingVideos-400x140.svg" alt="a video play symbol" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>オン ・ デマンド ・ トレーニングとビデオを取得します。</h3>
+                                                <p>エンド ・ ユーザーのチームを取得するトレーニングとして、ユーザーの要求時にビデオ。</p>
                                             </div>
                                         </div>
                                     </div>
