@@ -3,26 +3,24 @@ title: Microsoft Teams の管理者トレーニング
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-layout: landingpage
+layout: LandingPage
 ms.date: 09/21/2018
-ms.topic: landing page
+ms.topic: landing-page
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 search.appverid: MET150
 description: トレーニング ビデオ、チュートリアル、およびその他のリソースを計画する方法には、展開、およびマイクロソフトのチームを実行します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d864ba1741dd90cd0e69dd53e23ad81302e9329
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: a8715e4f7fb624c745c8fbb76591386e568a038f
+ms.sourcegitcommit: 02ff91505a2f185bb3c1059a1b26ee31bb272438
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347044"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25359455"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 チームについて説明し、組織内の使用状況をドライブするには、これらのチュートリアル、ビデオ、およびその他のトレーニング リソースを使用します。 新しいコンテンツをここに戻って頻繁にチェックします。 
 
