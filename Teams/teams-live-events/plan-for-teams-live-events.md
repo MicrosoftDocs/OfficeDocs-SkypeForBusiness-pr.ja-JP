@@ -10,17 +10,17 @@ search.appverid: MET150
 description: マイクロソフトのチームでのライブ イベントを設定する前に考慮する事項について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06d433b75cd0f29f328d23cb6e110d4406123a74
-ms.sourcegitcommit: 6447a3aa060452c8d6879524cd6a56aecf33b152
+ms.openlocfilehash: 4ebee93a6a4e238e988e1e4ffcb796252d61eeb1
+ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25354373"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25405257"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>マイクロソフトのチームでのライブ イベントの計画
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
-Organizaiton で大規模な会議を保持するためにチームのライブ イベントを計画する際は、すべてを設定する開始する前に考慮すべきいくつかの要因があります。 
+チーム、組織内の大規模なミーティングの開催のライブ イベントを計画する際は、すべてを設定する開始する前に考慮すべきいくつかの要因があります。 
 
 ## <a name="who-can-create-and-schedule-live-events"></a>作成し、ライブ イベントのスケジュールを設定したことができますでしょうか。 
 次の前提条件は、チームのライブ イベントのスケジュールを設定する必要があります。
