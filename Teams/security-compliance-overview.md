@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8521816fe8aaa74c45028d962d024ab4bfd1b467
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: d6e25d8e4d28a40bed33483d3ebdd6b5499f9ec1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013988"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372023"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンスの概要
 ======================================================
@@ -90,15 +90,17 @@ Teams は販売開始時点から Tier C 準拠です。これにより、ISO 27
 
 情報保護機能については、Office 365 サブスクリプションとそれに関連付けられたスタンドアロン ライセンスによって利用可能な機能セットが決定します。
 
-|情報保護機能   |Office 365 Business Essentials   |Office 365 Business Premium   |Office 365 Enterprise E1   |Office 365 Enterprise E3/E4   |Office 365 Enterprise E5   |
-|---|---|---|---|---|---|
-|アーカイブ|-  |-   |-   |はい   |はい   |
-|インプレース電子情報開示|-   |-   |-   |はい   |はい   |
-|Advanced eDiscovery|-   |-   |-   |-   |はい   |
-|訴訟ホールド|-   |-   |-   |はい   |はい   |
-|コンプライアンスのコンテンツ検索|- |- |- |はい |はい |
-|監査と報告|はい |あり |あり |あり |はい |
-|条件付きアクセス* |はい |あり |あり |あり |はい |
+
+| 情報保護機能 | Office 365 Business Essentials | Office 365 Business Premium | Office 365 Enterprise E1 | Office 365 Enterprise E3/E4 | Office 365 Enterprise E5 |
+|-----------------------------------|--------------------------------|-----------------------------|--------------------------|-----------------------------|--------------------------|
+|              アーカイブ              |               -                |              -              |            -             |             はい             |           はい            |
+|        インプレース電子情報開示        |               -                |              -              |            -             |             はい             |           はい            |
+|        Advanced eDiscovery        |               -                |              -              |            -             |              -              |           はい            |
+|            訴訟ホールド             |               -                |              -              |            -             |             はい             |           はい            |
+|     コンプライアンスのコンテンツ検索     |               -                |              -              |            -             |             はい             |           はい            |
+|      監査と報告       |              はい               |             あり             |           あり            |             あり             |           あり            |
+|       条件付きアクセス\*        |              あり               |             あり             |           あり            |             あり             |           はい            |
+
 > [!NOTE]
 > \*条件付きアクセスには追加のライセンスが必要
 

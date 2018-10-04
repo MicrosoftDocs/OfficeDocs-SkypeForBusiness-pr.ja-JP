@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: '概要: をインストールし、Skype のビジネス サーバー代理トランザクションの監視ノードを構成します。'
-ms.openlocfilehash: 4e7b0b8c1874a2491cc34d26a8ef6870c412b760
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6719826515954290f30eac272f638b846f45142a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21015639"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375987"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>監視ノードのインストールと構成
  
@@ -281,9 +281,9 @@ TrustedServer モードは、境界ネットワーク内のコンピューター
     
 2. Skype for Business Server 管理シェルで、次のコマンドを入力して、Enter キーを押します (Watchernode.msi のコピーへの実際のパスを指定)。
     
-  ```
-  c:\Tools\Watchernode.msi Authentication=Negotiate
-  ```
+   ```
+   c:\Tools\Watchernode.msi Authentication=Negotiate
+   ```
 
 > [!NOTE]
 > 前述のように、Watchernode.msi はコマンド ウィンドウから実行することもできます。コマンド ウィンドウを開くには、[**スタート**] メニューをクリックし、[**コマンド プロンプト**] を右クリックして、[**管理者として実行**] をクリックします。コマンド ウィンドウが開いたら、上記の手順 2 と同じコマンドを入力します。 

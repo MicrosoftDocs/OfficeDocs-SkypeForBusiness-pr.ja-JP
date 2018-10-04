@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 電話会議ライセンスをご購入いただく場合、Microsoft はお客様の組織の電話会議ブリッジ をホストします。電話会議ブリッジではさまざまな場所からダイヤルイン電話番号を受け取るため、会議の開催者や参加者はそれらの番号を使用して電話で Skype for Business 会議または Microsoft Teams 会議に参加できます。
-ms.openlocfilehash: 5cd9a925ecf7dd24d900ebcbd30de3a30ec7a97d
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 26a6e8dcb467ceea990b974d1687e0a5998eeb4b
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016750"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372243"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>電話会議ブリッジの電話番号を変更する
 
@@ -38,7 +38,7 @@ ms.locfileid: "25016750"
 [その他のサービス番号を取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)することをだけでなく、会議用ブリッジに既に割り当てられている電話番号、(有料電話番号とフリー ダイヤルの番号を電話会議に使用される) とその他の場所を会議にそれらをブリッジすることができますユーザーのカバレッジを展開します。
   
 > [!NOTE]
-> 会議用ブリッジ用の電話番号の割り当て/割り当て解除できるようにするには、電話番号は、'*サービス*' の番号をする必要があります。 You can see the type of number it is by navigating to **Voice** > **Phone numbers** and looking in the **Number Type** column. Office 365 のコミュニケーション クレジットは、ユーザーが無料電話番号のブリッジにダイヤルインできるように、最初にセットアップする必要があります。
+> To be able to assign/unassign a phone number for a conferencing bridge, the phone number must be a '*service*' number. You can see the type of number it is by navigating to **Voice** > **Phone numbers** and looking in the **Number Type** column. Office 365 Communications Credits must be set up first in order for users to dial into the bridge on a toll free number.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -101,7 +101,7 @@ Meeting Migration Service を使用して、ユーザーの既定の電話番号
 
 ユーザー、およびユーザーの会議を更新する前に電話番号が削除されると、既存の会議の出席依頼には、会議に参加するために使用できない電話番号が記載されてしまいます。
 
-最初の 3 つの手順では、Windows PowerShell を開始することが必要になります。 これを行う方法を表示するをクリックして[Windows PowerShell を使用して管理する方法を知りたいのですか?](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#bkPowerShell)
+For the first three steps, you will need to start Windows PowerShell. To see how to do this, click [Want to know how to manage with Windows PowerShell?](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#bkPowerShell)
 
 ### <a name="step-1---update-users-that-have-the-phone-number-to-be-unassigned-as-one-of-their-default-numbers"></a>手順 1 - 既定の番号の 1 つとしての割り当てが解除される電話番号があるユーザーを更新する
 
@@ -138,8 +138,8 @@ Meeting Migration Service の詳細については、「 [Meeting Migration Serv
 
 4. 確認ウィンドウで、[ **はい**] をクリックします。
 
-  > [!IMPORTANT]
-  > 電話会議ブリッジから電話番号の割り当てを解除すると、ユーザーはその電話番号を使用して新規または既存の会議に参加できなくなります。
+   > [!IMPORTANT]
+   > 電話会議ブリッジから電話番号の割り当てを解除すると、ユーザーはその電話番号を使用して新規または既存の会議に参加できなくなります。
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell で管理する方法
 <a name="bkPowerShell"> </a>
@@ -154,8 +154,7 @@ Meeting Migration Service の詳細については、「 [Meeting Migration Serv
 
 3. バージョン 3.0 以降を使用していない場合は、Windows PowerShell の更新プログラムをダウンロードおよびインストールする必要があります。Windows PowerShell をダウンロードして、バージョン 4.0 に更新するには、「[Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845)」を参照してください。メッセージが表示されたら、コンピューターを再起動します。
 
-4. また、Skype のビジネス オンライン ビジネス オンラインの Skype に接続するリモートの Windows PowerShell セッションを作成することを可能にするため Windows PowerShell モジュールをインストールする必要があります。 このモジュールでは、64 ビット コンピューターでのみサポートされ、[オンライン ビジネスの Skype のモジュールを Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=294688)に Microsoft ダウンロード センターからダウンロードすることができます。
-メッセージが表示されたら、コンピューターを再起動します。
+4. You also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module is supported only on 64-bit computers and can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Restart your computer if you are prompted.
 
 詳細については、「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://technet.microsoft.com/library/dn568015.aspx)」を参照してください。
 
@@ -220,7 +219,7 @@ Windows PowerShell を開始する方法の詳細を設定する場合は、 [1 
 
 ## <a name="about-windows-powershell"></a>Windows PowerShell について
 
-Windows PowerShell では、ユーザーと、ユーザーに許可されていることと許可されていないことを管理します。 Windows PowerShell では、ビジネス オンラインを行う複数のタスクがあれば、特に、日常的な作業を簡素化する管理の単一ポイントを使用して Office 365 と Skype を管理できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+With Windows PowerShell you can manage users and what they are or are not allowed to do. Windows PowerShell  can help you manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, especially when you've got multiple tasks to do. To get started with Windows PowerShell, see these topics:
 
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
 

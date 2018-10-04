@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Office 365 の電話会議 (PSTN 会議) ライセンスを試す方法または購入する方法を参照して、ダイヤル インできる電話会議をセットアップしてください。 '
-ms.openlocfilehash: efe5ab7189a5012b27b12838844325240b5891f5
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 8a5484aee9e8a5a9b8a3e1a0c0cf3e3f264b17d1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347554"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371976"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>チームが Microsoft Office 365 に電話会議を購入するか
 
@@ -46,9 +46,9 @@ ms.locfileid: "25347554"
     
 2. **電話会議** のライセンスを取得します。 以下を希望する場合:
 
-  - 購入する前に**お試し**ください。電話会議が含まれる Office 365 Enterprise E5 の無料試用版にサインアップできます。 [Office 365 Enterprise E5 の試用版](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)を参照してください。
+   - 購入する前に**お試し**ください。電話会議が含まれる Office 365 Enterprise E5 の無料試用版にサインアップできます。 [Office 365 Enterprise E5 の試用版](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)を参照してください。
 
-  - **購入**をするには、 [Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)を参照してください。
+   - **購入**をするには、 [Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)を参照してください。
 
 3. 会議を計画したり主催しようとしてる組織のユーザーに対して購入した [一般法事向け Office 365 ライセンスの割り当てや削除](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) を行います。
 

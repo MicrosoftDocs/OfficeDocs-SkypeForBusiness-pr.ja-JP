@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: '概要: をインストールし、Windows Phone にビジネス用の Skype をテストする方法を説明します。'
-ms.openlocfilehash: 90e8b99532e51399f9f76e5e12d60a3eeab84481
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0e135441a711655e42c37d0a9bd7ff4870da1d0d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978048"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372931"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>Skype for Business Server 2015: Windows Phone 版 Skype for Business のインストールおよびテスト
  
@@ -46,12 +46,12 @@ ms.locfileid: "20978048"
     
 5. **次へ**] をタップし、通知し、電話帳のアクセスの設定を確認します。
     
-  - **プッシュ通知**新しい IM またはコールを受信したときにアラートを取得します。 通常**の**(推奨)。
+   - **プッシュ通知**新しい IM またはコールを受信したときにアラートを取得します。 通常**の**(推奨)。
     
-    > [!IMPORTANT]
-    > この設定をオフにするにしない通知 IMs、呼び出し、またはビジネスの Windows Phone のアラートには、他の Skype のアプリケーションがアクティブになっていない限り。 
+     > [!IMPORTANT]
+     > この設定をオフにするにしない通知 IMs、呼び出し、またはビジネスの Windows Phone のアラートには、他の Skype のアプリケーションがアクティブになっていない限り。 
   
-  - **電話帳へのアクセスを許可します。** Windows Phone のビジネス用の Skype の連絡先を検索する場合は、携帯電話の連絡先を検索します。
+   - **電話帳へのアクセスを許可します。** Windows Phone のビジネス用の Skype の連絡先を検索する場合は、携帯電話の連絡先を検索します。
     
 6. **次回**Windows Phone のビジネス用の Skype の使用を開始する] をタップします。
     

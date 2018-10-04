@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Skype ルーム システム v2 では、展開、システムを管理する方法を導入するため関連する考慮事項です。
-ms.openlocfilehash: 02dcbb2ccdd1b7737dff25475fa8f623d5cff926
-ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
+ms.openlocfilehash: 49fb892e6621c3bd601425fc2ccee84313b4444c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "21249230"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374810"
 ---
 <h2>Skype ルーム システム v2 & #x 2013 です。 <br>Skype ルーム システムの次世代 </h2>
 <ul class="panelContent cardsW cols cols2">
@@ -25,7 +25,7 @@ ms.locfileid: "21249230"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p>変換ミーティング スペースの huddle の小さな領域から、リッチで大会議室に至るまで、ビジネスの経験の共同作業による Skype を使用して、展開、および管理が容易。 </p>
+                        <p>変換の会議スペースまで huddle の小さな領域からビジネス経験の豊富な共同の Skype での大会議室を & #39; s を使用して、単純なは、展開、および管理します。 </p>
                         <p>ワンタッチ結合では、時間の会議を開始し、ルームと共有へのリモートの参加者に表示するプロジェクトの瞬時にします。 </p>
                         <p>パートナーのいずれかから適切なシステム オーディオ ビデオ周辺機器を選択します: ロジクール社、Crestron、ポリコム、Lenovo、および HP。</p>
                         <p></p>

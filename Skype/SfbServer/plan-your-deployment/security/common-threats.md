@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Skype ビジネス サーバーのエンタープライズ ・ クラスの通信システムであるため、インフラストラクチャや通信に影響を与える一般的なセキュリティ攻撃があります。
-ms.openlocfilehash: 59f65a6a9a4d56850908fa0749e4a672b23b7a85
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5609fda3fd3d58a5e5ed5df34c1c5e39e7843e85
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967828"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373065"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>今日のコンピューティング環境における一般的なセキュリティの脅威
  
@@ -101,9 +101,9 @@ SPIM とは、一方的に送りつけられる営利目的のインスタント
    
 **必須のデータ**
 
-|**公開されるデータ**|**情報の例**|
-|:-----|:-----|
-|IP アドレス  <br/> |コンピューターの実際のアドレスまたは NAT で変換したアドレス  <br/> |
-|SIP URI  <br/> |jeremylos@litwareinc.com  <br/> |
-   
+
+| **公開されるデータ** | **情報の例**                            |
+|:-------------------|:---------------------------------------------------|
+| IP アドレス  <br/>  | コンピューターの実際のアドレスまたは NAT で変換したアドレス  <br/> |
+| SIP URI  <br/>     | jeremylos@litwareinc.com  <br/>                    |
 

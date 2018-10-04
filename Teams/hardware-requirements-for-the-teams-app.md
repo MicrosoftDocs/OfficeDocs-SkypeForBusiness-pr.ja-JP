@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f0b3375ae5ad1caf3a8aacd9ff6b02236d7e85d6
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b30ca95bb3ff5a01d5e8d991dda8e696148ab85c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015070"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372320"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>チームの Microsoft アプリケーションのハードウェア要件
 
@@ -40,6 +40,7 @@ ms.locfileid: "25015070"
 |ビデオ通話や会議 | ビデオ通話、オンライン会議で適切に動作することをお勧め 2.0 GHz のプロセッサと 4.0 GB の RAM を持つコンピューターを使用して (または上位)。
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Mac 上のチームのデスクトップ アプリケーションのハードウェア要件
+
 |**コンポーネント**|**要件**  |
 |---------|---------|
 |プロセッサ    | 最小のインテル ・ プロセッサー、Core 2 Duo またはそれ以上 |

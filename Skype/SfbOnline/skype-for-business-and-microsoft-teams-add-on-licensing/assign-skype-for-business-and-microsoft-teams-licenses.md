@@ -21,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: '電話システム、電話会議、通話プランやコミュニケーション クレジットを使用するために Skype for Business  のライセンスを割り当てる方法について説明します。 '
-ms.openlocfilehash: 1131d8daf4b865d648f51b011fc8819dee55f6b9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: e14ca00d7afa2045248b2a6f18e42a51f3d77b71
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883504"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372798"
 ---
 # <a name="assign-skype-for-business-and-microsoft-teams-licenses"></a>Skype for Business と Microsoft Teams のライセンスを割り当てる
 
-この資料では、オーディオ会議、電話システム、および計画を呼び出すような機能をユーザーにライセンスを割り当てる方法のヒントを紹介します。 また、ライセンスを一括で割り当てるスクリプトも提供します。
+This article gives you tips about assigning licenses to your users for features like Audio Conferencing, Phone System, and Calling Plans. It also provides scripts for assigning licenses in bulk.
 
 > [!IMPORTANT]
 > 参照してください[Skype ビジネスおよびマイクロソフトのチームのアドオンのライセンス](skype-for-business-and-microsoft-teams-add-on-licensing.md)についてはどのようなライセンスを購入する必要があり、**購入する方法**に、Office 365 によって計画のため、ユーザーは、オーディオ会議、フリー ダイヤル番号、および呼び出す機能を取得業務外の電話番号です。
@@ -42,11 +42,11 @@ ms.locfileid: "23883504"
 
 - **ハイブリッド ユーザー向けにオンプレミス PSTN 接続を使用している場合** 、 **電話システム**のライセンスのみをユーザーに割り当てる必要があります。通話プランを割り当てる必要は **ありません** 。
 
-- **ライセンス割り当て後の遅延**: Office 365 と Skype for Business Online の間に遅延時間があるため、ユーザーにライセンスを割り当てた後、そのユーザーに通話プランが割り当てられるまでに、最大で 24 時間かかる可能性があります。 24 時間後に計画を呼び出すことがユーザーに割り当てされていない、[ビジネス製品の管理のヘルプのサポートに問い合わせてください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)してください。
+- **Latency after assigning licenses**: Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for a user to be assigned a Calling Plan after you assign a license. If after 24 hours the user isn't assigned a Calling Plan, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - **エラー メッセージ**: 正確な数のライセンスを購入していないとエラー メッセージが表示されます。追加の通話プランのライセンスを購入する必要がある場合は、[ **追加購入**] を選びます。
     
-- **次の手順**: ユーザーに通話プランのライセンスを割り当てたら、組織用に電話番号を取得し、それらの番号を組織内のユーザーに割り当てる必要があります。 詳しい手順については、「[通話プランのセットアップ](/microsoftteams/set-up-calling-plans)」をご覧ください。
+- **Next steps**: After you assign Calling Plan licenses to your users, you will need to get your phone numbers for your organization, and then assign those numbers to the people in your organization. For step-by-step instructions, see [Set up Calling Plans](/microsoftteams/set-up-calling-plans).
     
 ### <a name="how-to-assign-a-phone-system-and-calling-plan-license-to-one-user"></a>電話システムおよび通話プランのライセンスを 1 人のユーザーに対して割り当てる方法
 
@@ -54,51 +54,51 @@ ms.locfileid: "23883504"
 
 ### <a name="how-to-assign-phone-system-and-calling-plan-licenses-in-bulk"></a>電話システムおよび通話プランのライセンスを一括で割り当てる方法
 
-1. **Microsoft オンライン サービス サインイン アシスタント RTW の IT プロフェッショナルのため**にインストールします。 このモジュールがインストールされていない場合は、 [IT プロフェッショナル用 Microsoft Online Services サインイン アシスタント RTW](https://go.microsoft.com/fwlink/?LinkId=625123) を参照してダウンロードしてください。
+1. Install the **Microsoft Online Services Sign-In Assistant for IT Professionals RTW**. Don't have the module installed? See [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/?LinkId=625123) to download it.
 
-2. インストール、 **Windows Azure Active Directory のモジュール**。 このモジュールがインストールされていない場合は、 ダウンロードの手順とコマンドレットの構文については、 [Windows PowerShell を使用して AD を Azure の管理](https://go.microsoft.com/fwlink/p/?LinkId=320628)を参照してください。
+2. Install the **Windows Azure Active Directory Module.** Don't have the module installed? See [Manage Azure AD using Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=320628) for download instructions and cmdlet syntax.
 
 3. モジュールをインストールしたら、Windows PowerShell のコマンド プロンプトと次の構文を使って、ライセンスをユーザーに割り当てます。
 
-  この例では、 **Enterprise E3 ライセンス** と、 **電話システム** および **国内通話プラン** ライセンスを割り当てています。
+   この例では、 **Enterprise E3 ライセンス** と、 **電話システム** および **国内通話プラン** ライセンスを割り当てています。
 
-  スクリプト内のライセンスの名前または製品名は、斜体で表示されています (下記の例と、その次の「 **スクリプトで使用される電話システムと通話プランの製品名または SKU** 」をご覧ください)。
+   スクリプト内のライセンスの名前または製品名は、斜体で表示されています (下記の例と、その次の「 **スクリプトで使用される電話システムと通話プランの製品名または SKU** 」をご覧ください)。
 
-  ```
-  #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
+   ```
+   #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
 
-  #Example of text file:
-  #user1@domain.com
-  #user2@domain.com
+   #Example of text file:
+   #user1@domain.com
+   #user2@domain.com
 
-  #Import Module
-  ipmo MSOnline
-  #Authenticate to MSOLservice.
-  Connect-MSOLService
-  #File prompt to select the userlist txt file.
-  [System.Reflection.Assembly]::LoadWithPartialName("System.windows.forms") | Out-Null
-  $OFD = New-Object System.Windows.Forms.OpenFileDialog
-  $OFD.filter = "text files (*.*)| *.txt"
-  $OFD.ShowDialog() | Out-Null
-  $OFD.filename
-  If ($OFD.filename -eq '')
-  {
+   #Import Module
+   ipmo MSOnline
+   #Authenticate to MSOLservice.
+   Connect-MSOLService
+   #File prompt to select the userlist txt file.
+   [System.Reflection.Assembly]::LoadWithPartialName("System.windows.forms") | Out-Null
+   $OFD = New-Object System.Windows.Forms.OpenFileDialog
+   $OFD.filter = "text files (*.*)| *.txt"
+   $OFD.ShowDialog() | Out-Null
+   $OFD.filename
+   If ($OFD.filename -eq '')
+   {
     Write-Host "You did not choose a file. Try again" -ForegroundColor White -BackgroundColor Red
-  }
-  #Create a variable of all users.
-  $users = Get-Content $OFD.filename
-  #License each user in the $users variable.
-  #Use MCOPSTN1 for PSTN Domestic Calling and MCOPSTN2 for Domestic and
-  International Calling.
-  for each ($user in $users)
+   }
+   #Create a variable of all users.
+   $users = Get-Content $OFD.filename
+   #License each user in the $users variable.
+   #Use MCOPSTN1 for PSTN Domestic Calling and MCOPSTN2 for Domestic and
+   International Calling.
+   for each ($user in $users)
     {
     Write-host "Assigning License: $user"
     Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:ENTERPRISEPACK " -ErrorAction SilentlyContinue
     Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOEV " -ErrorAction SilentlyContinue
     Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOPSTN1 " -ErrorAction SilentlyContinue
     }
-  ```
-### <a name="phone-system-and-calling-plans-product-names-or-skus-used-for-scripting"></a>スクリプトで使用される電話システムと通話プランの製品名または SKU
+   ```
+   ### <a name="phone-system-and-calling-plans-product-names-or-skus-used-for-scripting"></a>スクリプトで使用される電話システムと通話プランの製品名または SKU
 
 |**製品名**|**SKU 部品名**|
 |:-----|:-----|
@@ -117,7 +117,7 @@ ms.locfileid: "23883504"
 
 - **サードパーティの電話会議プロバイダー**: サードパーティの電話会議プロバイダーを使用するように他のユーザーによって既に設定されている場合に、 **電話会議**ライセンスを割り当てると、電話会議プロバイダーとして Microsoft を使用するように変更されます。この設定を変更して、サードパーティ プロバイダーに戻すことができます。
 
-- 次の手順:**オーディオ会議**のライセンスを割り当てると、する必要があります、オーディオ会議プロバイダーを割り当てます。 [Microsoft を電話会議プロバイダーとして割り当てる]を参照してください。
+- Next steps: After you assign **Audio Conferencing** licenses, you need to assign an audio conferencing provider. See [Assign Microsoft as the audio conferencing provider].
 
 ### <a name="how-to-assign-an-audio-conferencing-license-to-one-user"></a>電話会議ライセンスを 1 人のユーザーに対して割り当てる方法
 
@@ -131,7 +131,7 @@ ms.locfileid: "23883504"
 
     モジュールをインストールしたら、Windows PowerShell のコマンド プロンプトと次の構文を使って、ライセンスをユーザーに割り当てます。
 
-    スクリプト内のライセンスまたは製品名は、斜体で表示されています。 [オーディオ会議の製品名やスクリプト作成に使用する製品](assign-skype-for-business-and-microsoft-teams-licenses.md#sku)のすべての製品名を参照してください。
+    The name of the licenses or product names in the script are listed in italics text. See [Audio Conferencing product names or SKUs used for scripting](assign-skype-for-business-and-microsoft-teams-licenses.md#sku) for all of the product names.
 
     この例では、Enterprise E3 ライセンスと電話会議ライセンスを割り当てています。
 
@@ -188,7 +188,7 @@ foreach ($user in $users)
 
 - **E5 のエンタープライズのお客様**: ユーザーがエンタープライズ E5 のライセンスを割り当てられている場合でもをお勧めするユーザーを割り当てる**通信のクレジット**のライセンスです。
     
-- **次のステップ**: これらのライセンスを割り当てたら、組織用に電話番号を取得し、それらの番号を組織内のユーザーに割り当てる必要があります。 詳しい手順については、「[通話プランのセットアップ](/microsoftteams/set-up-calling-plans)」をご覧ください。
+- **Next steps**: After you assign these licenses, you will need to get your phone numbers for your organization, and then assign those numbers to the people in your organization. For step-by-step instructions, see [Set up Calling Plans](/microsoftteams/set-up-calling-plans).
     
 ### <a name="how-to-assign-a-communications-credits-license-to-one-user"></a>通信クレジットのライセンスを 1 人のユーザーに対して割り当てる方法
 

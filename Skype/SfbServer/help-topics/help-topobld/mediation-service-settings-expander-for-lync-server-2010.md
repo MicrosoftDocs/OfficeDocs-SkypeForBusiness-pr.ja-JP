@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 230e0a08-9e16-4bbd-b550-1f04bad8ddbc
 description: 次のプロパティを定義して、仲介サービスのプロパティを編集します。
-ms.openlocfilehash: d8529a97459de70270fbe709d06c92e5a1b37af3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8dbe17e8c6fb0a8d4cffd9328d28ea1aa9b5074a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371425"
 ---
 # <a name="mediation-service-settings-expander-for-lync-server-2010"></a>Lync Server 2010 用の仲介サービス設定エキスパンダー
  
@@ -35,10 +36,10 @@ ms.lasthandoff: 03/28/2018
     
 - トランク、ゲートウェイ、およびサイトを選択し、[**既定値にする**] をクリックして、選択したものをこの仲介サービス用の既定値に設定します。現在の既定値を選択し、[**既定値の解除**] をクリックして、現在の既定値として選択している設定を削除します。その後、新しい既定値を選択して、[**既定値にする**] をクリックします。
     
- [**OK**]: ダイアログでの変更を受け入れて確定します。
+  [**OK**]: ダイアログでの変更を受け入れて確定します。
   
- [**キャンセル**]: 変更を破棄してダイアログを閉じます。
+  [**キャンセル**]: 変更を破棄してダイアログを閉じます。
   
- [**ヘルプ**]: このヘルプ画面を表示します。
+  [**ヘルプ**]: このヘルプ画面を表示します。
   
 

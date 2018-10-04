@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: '概要: このビジネス サーバーの会議機能、および Skype の機能について説明するを参照できます。'
-ms.openlocfilehash: b9c28c2a4f4f45bb9b79413269ebecd5a7f83464
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d1ac78876df97d2420c0951c9c2e1a9a41e451ce
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002872"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375798"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>ビジネス サーバーに、Skype で会議を計画します。
  
@@ -72,7 +72,7 @@ Web 会議では、ミーティング参加者にビジネス クライアント
     
 - **をダイヤルすることによってユーザーを追加します**。発表者と出席者のアクセス許可が与えられていると、会議に PSTN 番号を追加したり会議のこれらの番号にダイアル アウトがあります。
     
- Skype ビジネス サーバーのユーザーは、次のように発生するビデオ会議を構成するのにはユーザーが使用できるいくつかの機能を提供します。
+  Skype ビジネス サーバーのユーザーは、次のように発生するビデオ会議を構成するのにはユーザーが使用できるいくつかの機能を提供します。
   
 - **ギャラリーを表示します。** 持つ 2 つ以上の人のビデオ会議でユーザーが自動的に表示、会議のすべてのユーザー。 会議に 6 つ以上の参加者がいる場合は、上の行の最もアクティブな参加者のビデオが表示され、他の参加者の写真のみが表示されます。 マルチパーティのビデオは、既定でオンにします。
     

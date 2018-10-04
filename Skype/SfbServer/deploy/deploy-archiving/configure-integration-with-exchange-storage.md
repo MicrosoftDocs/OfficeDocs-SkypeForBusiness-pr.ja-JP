@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f48b87f-a57f-4ed8-8c79-5c75b316b696
 description: '概要: は、Skype での Exchange の記憶域を持つビジネス サーバーの統合を構成する方法については、このトピックを読みます。'
-ms.openlocfilehash: 5f987ef0c2c47960a71c94a3b5a692062e787ed6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 35ef648a1076283f63752221a807da21bf4208ca
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988333"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370621"
 ---
 # <a name="configure-integration-with-exchange-storage-for-skype-for-business-server"></a>Exchange の記憶域を持つ Skype のビジネス サーバーの統合を構成します。
  
@@ -32,9 +32,9 @@ ms.locfileid: "20988333"
     
 4. アーカイブ構成の一覧から、適切なグローバル構成、サイト構成、またはプール構成の名前をクリックし、[**編集**]、[**詳細の表示**] の順にクリックし、次の操作を実行します。
     
-  - Exchange ストレージとの統合を有効にするには、 **Microsoft Exchange の統合**] チェック ボックスを選択します。
+   - Exchange ストレージとの統合を有効にするには、 **Microsoft Exchange の統合**] チェック ボックスを選択します。
     
-  - Exchange ストレージとの統合を無効にするには、 **Microsoft Exchange の統合**] チェック ボックスをオフにします。
+   - Exchange ストレージとの統合を無効にするには、 **Microsoft Exchange の統合**] チェック ボックスをオフにします。
     
 5. [**確定**] をクリックします。
     

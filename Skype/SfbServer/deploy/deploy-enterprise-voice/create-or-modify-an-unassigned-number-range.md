@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: 作成、変更またはビジネス サーバーのエンタープライズ VoIP は、Skype で知らせアプリケーションの割り当てられていない数値の範囲を削除します。 この設定によって、割り当てられていない番号への通話を処理する方法が影響を受けます。
-ms.openlocfilehash: 2acfa15ac6a5fdcdea2dc56fd74a067712875218
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ca8b3e621da3b479bcc650584ed2aea7669f07e1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886269"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372714"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>作成またはビジネス サーバーの Skype に割り当てられていない番号の範囲を変更します。
  
@@ -50,8 +50,8 @@ ms.locfileid: "23886269"
     
    - 新しい番号範囲を作成するには、[**新規**] をクリックします。[**名前**] にこの番号範囲の識別名を入力します。
     
-    > [!NOTE]
-    > 割り当てられていない番号の新しい範囲をデータベースに送信した後は、この名前を変更することはできません。 
+     > [!NOTE]
+     > 割り当てられていない番号の新しい範囲をデータベースに送信した後は、この名前を変更することはできません。 
   
    - 既存の番号範囲を変更するには、番号範囲の名前または名前の一部を検索フィールドに入力します。結果の番号範囲の一覧で、対象の名前をクリックして、[**編集**] をクリックし、[**詳細の表示**] をクリックします。
     
@@ -99,7 +99,7 @@ ms.locfileid: "23886269"
   
     コマンド ラインで、次のいずれかを実行します。
     
-     - アナウンス サービスの番号範囲を作成するには、次のコマンドレットを実行します。
+   - アナウンス サービスの番号範囲を作成するには、次のコマンドレットを実行します。
     
      ```
      New-CsUnassignedNumber -Identity <unique identifier for unassigned number range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range> -AnnouncementName <announcement name> -AnnouncementService <FQDN or service ID of the Announcement service>
@@ -123,7 +123,7 @@ ms.locfileid: "23886269"
      New-CsUnassignedNumber -ExUmAutoAttendantPhoneNumber "+12065551234" -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551100"
      ```
 
-    次の例は、既存の割り当てられていない番号範囲の番号を変更する方法を示しています。
+     次の例は、既存の割り当てられていない番号範囲の番号を変更する方法を示しています。
     
      ```
      Set-CsUnassignedNumber -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551900"

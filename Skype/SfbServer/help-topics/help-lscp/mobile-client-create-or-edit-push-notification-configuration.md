@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 description: プッシュ通知とプッシュ通知クリアリング ハウス (PNCH) は、モビリティ機能の重要な 2 つの構成要素です。プッシュ通知は、メッセージが PNCH に送信されるプロセスです。メッセージは、モバイル クライアントに配信されるか、タイムアウト期間が過ぎるまで、PNCH で保持されます。
-ms.openlocfilehash: 53583e59261e369aa11c8bac12f5f5b5eaf4a8dc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 0690166113f702c641e92c61001242017352bf47
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371834"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>モバイル クライアント: プッシュ通知の構成の作成または編集
  
@@ -34,9 +35,9 @@ ms.lasthandoff: 03/28/2018
   
 2. 有効にするプッシュ通知サービスの種類を選択するには、対応するチェック ボックスをオンにします。
     
-  - **プッシュ通知を有効にする Microsoft**は、クラウド ・ ベース PNCH の Windows Phone でビジネス アプリケーションの Skype にプッシュ通知を有効にします。
+   - **プッシュ通知を有効にする Microsoft**は、クラウド ・ ベース PNCH の Windows Phone でビジネス アプリケーションの Skype にプッシュ通知を有効にします。
     
-  - **有効にする Apple のプッシュ通知**がデバイス (たとえば、iPhone、iPad) の Apple の iOS を実行して、Skype を使用して、ビジネス アプリケーション用の Apple PNCH にプッシュ通知を有効にします。
+   - **有効にする Apple のプッシュ通知**がデバイス (たとえば、iPhone、iPad) の Apple の iOS を実行して、Skype を使用して、ビジネス アプリケーション用の Apple PNCH にプッシュ通知を有効にします。
     
 3. ポリシーの編集が完了したら、[**コミット**] をクリックして変更内容を保存します。変更した設定を削除する必要がある場合は、[**キャンセル**] をクリックします。変更内容はポリシーに保存されません。
     

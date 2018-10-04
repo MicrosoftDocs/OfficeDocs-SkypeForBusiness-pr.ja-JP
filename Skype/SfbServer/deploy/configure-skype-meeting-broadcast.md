@@ -14,12 +14,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: '概要: は、ハイブリッド展開のビジネスのサーバーの設置型の Skype の Skype 会議のブロードキャストを構成するのには実行する必要がある手順について説明します。'
-ms.openlocfilehash: 55b7c5c1e97c2e059ead73384ae2914b07d47c4b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: bae25dae268dd5ad3b3ab7862feb1156df850953
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21004694"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371395"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Skype 会議ブロードキャストを使用できるようにオンプレミス展開を構成する
  
@@ -68,13 +68,13 @@ New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.
     
 3. [**ドメイン名 (または FQDN):**] にはドメインを入力し、以下の各ドメインにこの手順を繰り返します。
     
-  - noammeetings.lync.com
+   - noammeetings.lync.com
     
-  - emeameetings.lync.com
+   - emeameetings.lync.com
     
-  - apacmeetings.lync.com
+   - apacmeetings.lync.com
     
-  - resources.lync.com
+   - resources.lync.com
     
 Skype でビジネス サーバー管理シェルの次のコマンドレットを実行して、フェデレーションする SIP ドメインの外部アクセスを構成することも。
   

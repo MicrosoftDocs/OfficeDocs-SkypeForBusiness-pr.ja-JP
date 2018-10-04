@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7d3eb2d1ec03be336db51841987b5dc84f9f74f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 16a10f73614626a422bf6b869d08c4019982d0d2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013980"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375894"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>ビジネスのチームとは、Skype を使用する組織の移行と相互運用性のガイド
 
@@ -25,11 +25,7 @@ ms.locfileid: "25013980"
 
 発表前に、TeamsInteropPolicy が廃止されています。 機能は、TeamsUpgradePolicy に統合されています。 相互運用と移行は、「共存モード」を使用して TeamsUpgradePolicy によって管理されます。 ユーザーのモードの選択では、着信呼び出しとチャット、およびユーザーがチームやビジネス用の Skype で会議をスケジュールするかどうかの両方のルーティングを制御します。  すぐに、今後の TeamsAppPermissionsPolicy と協力して、モードも、どのクライアントでユーザーがチャットや通話を開始できます。 
 
-TeamsInteropPolicy を構成する必要はなくなりました。 それが無効になる TeamsUpgradePolicy モードがある場合を除き、レガシを = します。  TeamsUpgradePolicy のサポートが完了したのでユーザーは、レガシー以外のモードを使用するには、その構成を更新する必要があります。
-
-
-</br>
-
+TeamsInteropPolicy を構成する必要はなくなりました。 それが無効になる TeamsUpgradePolicy モードがある場合を除き、レガシを = します。  TeamsUpgradePolicy のサポートが完了したのでユーザーは、レガシー以外のモードを使用するには、その構成を更新する必要があります。 モードでは TeamsUpgradePolicy のインスタンスを与える = レガシーが既定でブロックされるようになりました。
 
 ## <a name="fundamental-concepts"></a>基本的な概念
 
@@ -48,7 +44,7 @@ TeamsInteropPolicy を構成する必要はなくなりました。 それが無
 
 6.  チームにユーザーをアップグレードするのには (モードでは TeamsUpgradePolicy を付与、つまり = TeamsOnly)、ビジネスの Skype のオンライン ユーザーのホーム必要があります。 これは、相互運用性、フェデレーション、およびチームのユーザーの完全な管理を確実に必要です。 ホーム設置型であるユーザーをアップグレードするのにを使用して、 `Move-CsUser` 、設置から管理用ツールの最初の移動に Skype ユーザーは、オンライン ビジネスです。 次 TeamsUpgradePolicy と TeamsInteropPolicy をオンラインのユーザーに付与または TeamsOnly モードを割り当てるには、現代のポータルを使用します。 1 回ビジネス サーバー 2015 船の Skype の CU8、顧客だけで使用して、新しい`-MoveToTeams`でスイッチを`Move-CsUser`1 に 2 つの手順を結合します。
 
-7.  アップグレードと相互運用機能を管理するための中核となるポリシーは、TeamsUpgradePolicy です。 TeamsInteropPolicy は TeamsUpgradePolicy モードを使用するとき以外は使用されなく = レガシー、およびモードを使用して顧客 = レガシーの別のモードを使用する TeamsUpgradePolicy の構成を更新する必要があります。  
+7.  アップグレードと相互運用機能を管理するための中核となるポリシーは、TeamsUpgradePolicy です。 TeamsInteropPolicy は TeamsUpgradePolicy モードを使用するとき以外は使用されなく = レガシー、およびモードを使用して顧客 = レガシーの別のモードを使用する TeamsUpgradePolicy の構成を更新する必要があります。  許可モード = 管理者がこのメソッドをオーバーライドを使用していますが、既定では、レガシがブロックされました`-Force`されています。 最終的に、`-Force`スイッチを削除し、許可を与えるモードとなります = レガシを実行できなくなります。 
 
 8.  チームの電話システムを使用する機能、ユーザーが TeamsOnly モード (すなわち、Skype でオンライン ビジネスのホームをアップグレードしてチーム) である必要がありますおよびマイクロソフトの電話システムが[直接ルーティング](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277)を構成する必要がありますか (電話システムを使用できるようにする、SIP トランクおよび SBC を所有する) ことも、Office 365 を呼び出すことを計画します。   
 
@@ -66,6 +62,7 @@ TeamsInteropPolicy を構成する必要はなくなりました。 それが無
 計画モードは次のとおりです。 SfBWithTeamsCollab と SfBWithTeamsCollabAndMeetings は、重複機能を持つが、両方のクライアントの混在の使用をことができません。 アイランド モードでは、機能が重複しているのですが、両方のクライアントの使用の状況を許可します。 たとえば、諸島モードでは、ユーザーはビジネスやチームのいずれかの Skype でチャットを開始する可能性がありますが、SfBWithTeamsCollab、ビジネスの Skype のことができますチャットのみです。 すべてのモードがまだ完全に使用可能に注意してください。  
 </br>
 </br>
+
 |モード|ルーティング動作|会議のスケジュール|クライアント エクスペリエンス|
 |---|---|---|---|
 |諸島|着信 VOIP を呼び出し、開始者<sup>1</sup>と同じクライアントでの着陸のチャット|両方|エンド ・ ユーザーは、呼び出しと、クライアントでは、チャットを開始できるし、クライアントの会議をスケジュールすることができます。|
@@ -73,7 +70,7 @@ TeamsInteropPolicy を構成する必要はなくなりました。 それが無
 |SfBWithTeamsCollab<sup>2</sup>|着信呼び出しとのチャットは、Skype のビジネスにルーティングされます。|Skype ビジネスだけに|エンド ・ ユーザーでは、呼び出しとのみ、ビジネスの Skype のチャットを開始でき、のみ Skype のビジネス ・ ミーティングのスケジュールを設定することができます。 チームでチャネルを使用することもできます。 (適用されていません)|
 |SfBWithTeamsCollabAndMeetings<sup>3</sup>|着信呼び出しとのチャットは、Skype のビジネスにルーティングされます。|チームのみ|エンド ・ ユーザーが呼び出しを開始し、ビジネスしかし、唯一の Skype からチャットは、チームのミーティングをスケジュールします。 チームでチャネルを使用することもできます。 (適用されていません)|
 |TeamsOnly|着信呼び出しとのチャットは、チームに送られます|チームのみ|エンド ・ ユーザーには、呼び出しとチームからのチャットのみを開始できます。 ビジネス用の Skype には、ミーティングに参加するのにはできるだけです。|
-|レガシー|TeamsInteropPolicy に基づくルーティング|影響なし|影響はありません。 TeamsInteropPolicy から TeamsUpgradePolicy への移行を円滑化する一時的なモードでした。 お客様は、レガシー以外のモードを構成を更新する必要がありますので、TeamsUpgradePolicy が完全にサポートされています。 |
+|レガシー|TeamsInteropPolicy に基づくルーティング|影響なし|影響はありません。 TeamsInteropPolicy から TeamsUpgradePolicy への移行を円滑化する一時的なモードでした。 お客様がもはやこのモードを使用する必要があり、レガシー以外のモードには、構成を更新する必要がありますので、TeamsUpgradePolicy が完全にサポートされています。 |
 |||||
 
 **メモ:**
@@ -89,6 +86,7 @@ TeamsInteropPolicy を構成する必要はなくなりました。 それが無
 TeamsUpgradePolicy は、3 つのプロパティを公開します。 主プロパティは、モードと NotifySfbUsers です。 アクション従来のパラメーターは、モードと NotifySfbUsers の組み合わせを完全に冗長化されました。
 </br>
 </br>
+
 |パラメーター|種類|許容値</br>(イタリック体での既定値)|説明|
 |---|---|---|---|
 |モード|列挙型|*諸島*</br>TeamsOnly</br>SfBOnly</br>SfBWithTeamsCollab</br>レガシー|クライアントを実行する必要がありますモードを示します。 場合モード = レガシでは、このポリシーを使用するコンポーネントは、TeamsInteropPolicy に従うことに戻されます。 TeamsUpgradePolicy が完全にサポートされていますし、ユーザーがレガシ以外の構成の使用モードを更新する必要があります。|
@@ -99,6 +97,7 @@ TeamsUpgradePolicy は、3 つのプロパティを公開します。 主プロ�
 チームでは、組み込み、読み取り専用のポリシーを使用して TeamsUpgradePolicy の関連するすべてのインスタンスを提供します。 したがって、のみを取得および許可のコマンドレットが利用できます。 組み込みのインスタンスは次のとおりです。
 </br>
 </br>
+
 |ID |モード|NotifySfbUsers|アクション|コメント|
 |---|---|---|---|---|
 |諸島|諸島|False|なし||
@@ -125,9 +124,9 @@ TeamsUpgradePolicy は、3 つのプロパティを公開します。 主プロ�
 
 前述のように、TeamsUpgradePolicy、TeamsInteropPolicy は交換済み。 以前に TeamsInteropPolicy を適用するすべてのコンポーネントは、代わりに TeamsUpgradePolicy を有効に更新されています。 
 
-マイクロソフトは、以前 TeamsInteropPolicy から TeamsUpgradePolicy でレガシー ・ モードへの移行を容易にするために「レガシ」モードを導入しました、TeamsUpgradePolicy を理解するためのルーティング コンポーネントは、TeamsInteropPolicy に戻すことができます。 TeamsUpgradePolicy を完全にサポートのルーティングおよびレガシー ・ モードを使用する必要性は不要です。 ユーザーは、レガシ モードから TeamsUpgradePolicy は、その構成を更新する必要があります。
+マイクロソフトは、以前 TeamsInteropPolicy から TeamsUpgradePolicy でレガシー ・ モードへの移行を容易にするために「レガシ」モードを導入しました、TeamsUpgradePolicy を理解するためのルーティング コンポーネントは、TeamsInteropPolicy に戻すことができます。 TeamsUpgradePolicy を完全にサポートのルーティングおよびレガシー ・ モードを使用する必要性は不要です。 レガシー ・ モードを使用しているお客様の他のモードのいずれかを使用するのには TeamsUpgradePolicy の構成を更新する必要があります。 
 
-レガシー ・ モードを使用しているユーザーの構成を他のモードのいずれかを使用するのには更新してください。 レガシー ・ モードを使用してお客様は、TeamsInteropPolicy は以下の 3 つの特定インスタンスのみがサポートされていることが通知されます。 どちらの場合も、CallingDefaultClient の値には、ChatDefaultClient の値が一致して AllowEndUserClientOverride は常に false です。 
+レガシー ・ モードを使用してお客様は、TeamsInteropPolicy は以下の 3 つの特定インスタンスのみがサポートされていることが通知されます。 どちらの場合も、CallingDefaultClient の値には、ChatDefaultClient の値が一致して AllowEndUserClientOverride は常に false です。 
 </br>
 </br>
 **TeamsUpgradePolicy モードを使用する場合は、TeamsInteropPolicy のインスタンスをサポートされているレガシの =**
@@ -152,6 +151,8 @@ TeamsUpgradePolicy は、受信フェデレーション チャットと通話の
 |Teams|TeamsOnly |
 |||
 
+受信者は、島のモードでは、チャットし、デバイスで着陸をフェデレーション ユーザーからの呼び出し。
+
 ## <a name="completing-the-transition-to-mode-management"></a>モードの管理への移行を完了します。
 
 今年の後半、マイクロソフトは、新しいポリシーの種類、TeamsAppPermissionsPolicy、IM、会議、チャット チャンネル) などのチームのクライアントには、どの部分が有効になっているかを制御するために導入する予定です。 チームでの作業負荷を有効または無効にする新しいポリシーが利用可能になったら、TeamsUpgradePolicy が更新され、TeamsAppPolicy が適切であることを確認するのにはチェックが最初に管理者が TeamsUpgradePolicy のインスタンスをユーザーに許可しようとすると、ご希望のモードを構成します。 それ以外の場合は、補助金は、他のポリシーする必要があります最初の設定方法を説明するエラーで失敗します。 
@@ -163,8 +164,9 @@ TeamsAppPolicy が使用可能になるまで基本的には TeamsUpgradePolicy 
 レガシー ・ モードを使用しているユーザーは必要があります、次の操作を行います。
 
 1. TeamsInteropPolicy を持つユーザーが割り当てられているこれら 3 つの組み込みインスタンスの 1 つだけ、CallingDefaultClient のことを確認 = ChatDefaultClient、およびどの AllowEndUserClientOverride = false です。 これらのインスタンスは次のとおりです。
-</br>
-</br>
+   </br>
+   </br>
+
    |ID |AllowEndUserClientOverride |CallingDefaultClient|ChatDefaultClient|
    |---|---|---|---|
    |`DisallowOverrideCallingDefaultChatDefault`|False|既定|既定|
@@ -180,8 +182,9 @@ TeamsAppPolicy が使用可能になるまで基本的には TeamsUpgradePolicy 
     ***これらのインスタンスのいずれかに更新しないとしている組織は、これらのインスタンスのいずれかに自動的に更新され、ユーザーを最終的にがあります。明らかが希望されるお客様は、ユーザーにとっては最善を選択することができますように。***
 
 2. 組み込みのグローバル ポリシーをカスタマイズする場合、これを元に戻します。 グローバルのポリシーは、次の値が必要です。
-</br>
-</br>
+   </br>
+   </br>
+
     |パラメーター|値|
     |---|---|
     |`AllowEndUserClientOverride`|False|

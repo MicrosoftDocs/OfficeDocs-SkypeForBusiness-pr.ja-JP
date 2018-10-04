@@ -20,31 +20,31 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Skype for Business Onlineでダイヤルイン会議の番号を検索する方法。 '
-ms.openlocfilehash: 43442d2ecee1de30126b73dd7cce8124db650c84
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 557aef5e85cdd176e2d95e1cd946ed23e00764a0
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891258"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372889"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Skype for Business Onlineの電話会議の番号の一覧を見る
 
 > [!NOTE]
 > Microsoft Teams会議の番号については、  [「Microsoft Teams会議の番号の一覧を見る」](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams) を参照してください。
 
-Skype for Businessユーザー向けの電話会議を設定すると、電話会議に参加できる電話番号を観覧することができます。　 あなたの組織に連絡可能な電話会議のすべての電話番号がリストに追加されます。
+When you set up Audio Conferencing for Skype for Business users, you can view the phone numbers that are available to them for audio conferencing. This list will have all of the audio conferencing phone numbers that are available to your organization.
   
- **価格を見る** [オーディオ会議の価格](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)を参照してください。
+ **Looking for prices?** See [Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
   
 > [!IMPORTANT]
-> **電話会議のすべてのダイヤルイン番号のリストを含んでいるリソースはありません。** かどうかダイヤルインの電話番号では、領域または国/地域を表示する検索する場合に、**ビジネス管理センターの Skype** > **音声** > **の電話番号**を**追加**] をクリックし、**新しいサービス番号**です。 [**国/地域**]、[**都道府県/地域**]、[**市区町村**] のリストを使用して、検索をフィルタします。 また、サービスのフリー ダイヤル番号を検索する場合は、**フリー ダイヤル**から**の状態または地域を選択**の一覧です。
+> **There isn't a resource that contains a listing of all of the dial-in numbers for Audio Conferencing.** If you are looking to see if there are dial-in phone numbers available in your area or country/region, go to **Skype for Business admin center** > **Voice** > **Phone Numbers**, click **Add**, and then click **New Service Numbers**. Use the lists for **Country/Region**, **State/Region**, and **City** to filter your search. Also, if you are looking for toll-free service numbers, select **Toll-Free** from the **State/Region** list.
   
-組織内で連絡可能な電話番号が1つのみの場合、その番号がすべてのユーザーの既定値の番号として使用されます。 複数の電話番号で連絡可能な場合は、各ユーザーが既定値の電話番号を選択することができます。 この既定の番号は、 Skype for Businessの会議招待状に含まれます。
+If there is only one phone number available in your organization, it will be used as the default number for all of your users. When multiple phone numbers are available, you can select the default phone number for each user. This default number will be included in Skype for Business meeting invitations.
   
 1 人のユーザーのダイヤルイン番号を変更するには、 [「招待状にある電話番号を設定する」](set-the-phone-numbers-included-on-invites.md) を参照してください。
   
 > [!NOTE]
-> 国内のダイヤルイン番号は組織専用で、既定値の電話番号として設定することができる唯一の番号です。 ただし、海外のダイヤルイン番号は、複数の組織間で共有することができます。 
+> Domestic dial-in numbers are dedicated to your organization and are the only ones that can be set as a default phone number. However, international dial-in numbers may be shared across multiple organizations. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -57,12 +57,12 @@ Skype for Businessユーザー向けの電話会議を設定すると、電話�
     
 3. **電話会議**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **マイクロソフトのブリッジ**をし。
     
-  - オーディオ会議で使用可能な電話番号を表示することができます。
+   - オーディオ会議で使用可能な電話番号を表示することができます。
     
-  - 場所を表示することもでき、オーディオ会議で使用されるプライマリとセカンダリの言語の自動アテンダントです。
+   - 場所を表示することもでき、オーディオ会議で使用されるプライマリとセカンダリの言語の自動アテンダントです。
     
 > [!NOTE]
-> **オーディオ会議**に移動することができます > **ユーザー**と組織内の利用可能な番号の一覧から新しい番号を選択することによって番号の既定値を変更するのにはユーザーのプロパティ] を選択します。 「[出席依頼に含まれている会議の開催者のために電話会議の電話番号を設定する](set-the-phone-numbers-included-on-invites.md)」をご覧ください。 
+> You can go to **Audio conferencing** > **Users** and select the user's properties to change the default number by choosing a new number from the list of available numbers in your organization. See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md). 
 
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Go to the Office 365 admin centerSkype for Business.

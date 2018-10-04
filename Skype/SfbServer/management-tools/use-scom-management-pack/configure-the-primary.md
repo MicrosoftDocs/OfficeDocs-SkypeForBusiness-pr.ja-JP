@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: '概要: は、プライマリ管理サーバーを構成する、System Center Operations Manager をインストールして、Skype のビジネス サーバー 2015 の管理パックをインポートします。'
-ms.openlocfilehash: d976c0daa6c53896b0a87dd9478174496aba8af6
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: a6413277b2e3c08627f0763fc110f0dab7b1c44d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250809"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373529"
 ---
 # <a name="configure-the-primary-management-server"></a>プライマリ管理サーバーの構成
 
@@ -101,12 +101,12 @@ System Center Operations Manager をインストールするときは、その�
 
 2. Operations Manager シェルのコマンド プロンプトで次のコマンドを入力して、Enter キーを押します。パスには、Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp ファイルのコピーの実際のパスを使用します。
 
-  ```
-  Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp"
-  ```
+   ```
+   Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp"
+   ```
 
 3. 最初の管理パックをインポートした後、Microsoft.LS.2015.Monitoring.ComponentAndUser.mp ファイルのコピーのパスを使用して処理を繰り返します。
 
-  ```
-  Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2015.Monitoring.ComponentAndUser.mp"
-  ```
+   ```
+   Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2015.Monitoring.ComponentAndUser.mp"
+   ```

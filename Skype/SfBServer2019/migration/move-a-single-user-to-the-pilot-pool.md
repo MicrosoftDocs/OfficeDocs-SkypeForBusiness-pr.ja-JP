@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ビジネス サーバー 2019 パイロット プールのビジネス サーバー 2019 のコントロール パネルまたは Skype の Skype を使用してビジネス サーバー 2019 管理シェルには、Skype を従来のプールからユーザーを移動できます。 レジストラー プール] 列に、次の例で pool01.contoso.net は、従来のプールでは、および 6 のこれらのユーザーがこのプールに接続しています。 ビジネス サーバー 2019 プールのサーバー管理シェルのビジネスのビジネス サーバー 2019 のコントロール パネルと Skype の Skype を使用して、Skype にユーザーを移動するのにには、次の手順を使用します。
-ms.openlocfilehash: f04cccf29fd88bf1da95f4d67f6e47c51b878717
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6742c5fc00c9d53030ac32ee698686bb8b11fa07
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028811"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372746"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>1 人のユーザーをパイロット プールに移動します。
 
@@ -43,15 +43,15 @@ ms.locfileid: "25028811"
     
 2. コマンドラインで、次のように入力します。 
     
-  ```
-  Move-CsUser -Identity "David Pelton" -Target "pool02.contoso.net"
-  ```
+   ```
+   Move-CsUser -Identity "David Pelton" -Target "pool02.contoso.net"
+   ```
 
 3. 次に、コマンド ・ ラインでは、次のように入力します。 
     
-  ```
-  Get-CsUser -Identity "David Pelton"
-  ```
+   ```
+   Get-CsUser -Identity "David Pelton"
+   ```
 
 4. **RegistrarPool** id は、ビジネス サーバー 2019 プールの Skype を指します。 この id の存在は、ユーザーが正常に移動されたことを確認します。 
 

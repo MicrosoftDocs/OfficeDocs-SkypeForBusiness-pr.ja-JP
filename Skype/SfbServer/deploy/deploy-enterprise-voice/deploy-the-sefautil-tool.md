@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: ビジネス サーバーの Skype で SEFAUtil ツールを展開します。
-ms.openlocfilehash: dfb2b1e4634332fcf88fdce7b09a02f925dd120e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: fc8b26dbc0f81be3ea7dd9f0fc3f5c728d49e965
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884801"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375260"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>ビジネス用の Skype で SEFAUtil ツールを展開します。
  
@@ -57,9 +57,9 @@ ms.locfileid: "23884801"
   
 5. 変更を加えたトポロジを有効にします。コマンド ラインで、次のコマンドを実行します。
     
-  ```
-  Enable-CsTopology
-  ```
+   ```
+   Enable-CsTopology
+   ```
 
 6. まだインストールしていない場合は、[この場所](https://www.microsoft.com/en-us/download/details.aspx?id=52631)、およびインストールの手順 3 で作成する信頼されたアプリケーション プールにから SEFAUtil ツールのビジネスのサーバーのバージョンの Skype をダウンロードします。
     
@@ -69,9 +69,9 @@ ms.locfileid: "23884801"
     
     b. ユーザーの着信転送設定を表示します。 コマンド ラインで、次のコマンドを実行します。
     
-  ```
-  SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
-  ```
+   ```
+   SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
+   ```
 
 ユーザーの着信転送設定が表示されます。
     

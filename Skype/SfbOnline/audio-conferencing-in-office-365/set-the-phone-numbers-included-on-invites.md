@@ -20,22 +20,22 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: cb808cb8271cfb32174106e2692793aa41a64d50
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c78a3fb140431dd46b3850e1d01e7fb29fb29210
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882115"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372822"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Skype for Business Onlineの招待状に含まれる電話番号を設定する
 
 > [!Note]
 > Microsoft Teamsの会議招待状の電話番号についての詳細は、「 [Microsoft Teamsの招待状に含める電話番号を設定](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams)」を参照してください。.
 
-Office 365の電話会議では、組織内のユーザー はSkype for Business会議を作成することができ、その後、電話を利用してそれらの会議にダイアルインできます。 、Office 365 では、マイクロソフトのオーディオ会議ブリッジまたは、承認済みの音声会議プロバイダー (ACP) によってホストされているサード ・ パーティ製のオーディオ会議ブリッジを使用するオプションがあります。
+Audio Conferencing in Office 365 enables users in your organization to create Skype for Business meetings, and then allow users to dial in to those meetings using a phone. In Office 365, you have the option of using a Microsoft audio conferencing bridge or a third-party audio conferencing bridge that is hosted by an approved audio conferencing provider (ACP).
   
 > [!NOTE]
-> 電話会議のすべてのダイヤルイン番号のリストを含んでいるリソースはありません。 かどうかダイヤルインの電話番号では、領域または国/地域を表示するを検索する場合は、 **Skype**を使用して、 > **音声** > **の電話番号**をクリックし、**追加**新しいサービスの番号を****. [ **国/地域**]、[**州/地域**] および [**市区町村**]のリストを使って検索を絞り込みます。> また、無料電話番号サービスを探している場合には、[**無料電話番号**] を [**州/地域**] リストから選択します。
+> There isn't a resource that contains a listing of all of the dial-in numbers for Audio Conferencing. If you are looking to see if there are dial-in phone numbers available in your area or country/region, use the **Skype for Business admin center** > **Voice** > **Phone Numbers**, click **Add** then **New Service Numbers**. Use the lists for **Country/Region**, **State/Region** and **City** to filter your search.> Also, if you are looking for toll free service numbers, select **Toll-Free** from the **State/Region** list.
   
 会議ブリッジは、組織用のダイヤルイン電話番号のセットを提供します。これらの番号はすべて会議開催者が作成した会議に参加するために使用できますが、会議出席依頼にどの番号を含めるか選ぶことができます。
   
@@ -57,11 +57,11 @@ Office 365の電話会議では、組織内のユーザー はSkype for Business
   
 4. 編集しユーザーを選択します。
     
-  - 1 人のユーザーを選択するには、ユーザーの名前を選択します。
+   - 1 人のユーザーを選択するには、ユーザーの名前を選択します。
     
-  - ページ上のすべてのユーザーを選択するには、リストの上部にある**表示名**の横のボックスを選択します。
+   - ページ上のすべてのユーザーを選択するには、リストの上部にある**表示名**の横のボックスを選択します。
     
-  - 複数のユーザーを選択するには、各ユーザーの名前の横のボックスを選択します。
+   - 複数のユーザーを選択するには、各ユーザーの名前の横のボックスを選択します。
     
 5. 右側のウィンドウで、[ **編集**] を選びます。
     
@@ -69,14 +69,14 @@ Office 365の電話会議では、組織内のユーザー はSkype for Business
   
 6.  **電話会議**を選択します。
     
-7. [**のプロパティ**] ページで、[**プロバイダー名**] ボックスの一覧でユーザーのプロバイダーを選択します。 プロバイダーに応じて、次のボックスに入力します。
+7. On the **Properties** page, in the **Provider name** list, choose the provider for the user. Depending on the provider, complete the following boxes.
     
-  - **マイクロソフトではプロバイダー**:**既定の有料電話番号**を使用し、ユーザーの既定の番号を選択するのには**既定の無料電話番号**を一覧表示します。
+   - **マイクロソフトではプロバイダー**:**既定の有料電話番号**を使用し、ユーザーの既定の番号を選択するのには**既定の無料電話番号**を一覧表示します。
     
-    > [!NOTE]
-    > ユーザーの既定の無料電話番号として設定できるようになるには、少なくとも 1 つの無料電話番号が会議ブリッジに割り当てられている必要があります。 フリー ダイヤル番号を取得するには、[ビジネスの Skype の取得サービスの電話番号](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)を参照してください。 
+     > [!NOTE]
+     > At least one toll-free number must be assigned to your conferencing bridge before it can be set as the default toll-free number of a user. To get a toll-free number, see [Getting service phone numbers for Skype for Business](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
   
-  - **サード パーティ プロバイダー**:**有料電話番号**や**フリー ダイヤル番号**のフィールドを使用して、ユーザーの数値を入力します。
+   - **サード パーティ プロバイダー**:**有料電話番号**や**フリー ダイヤル番号**のフィールドを使用して、ユーザーの数値を入力します。
 
 
 ## <a name="reset-audio-conferencing-phone-numbers"></a>電話会議の電話番号をリセットする
@@ -87,7 +87,7 @@ Office 365の電話会議では、組織内のユーザー はSkype for Business
     
 3. リセットするユーザーを選択し、操作ウィンドウで [**クリア**] をクリックします。
     
-既定では、ユーザーの会議の設定を変更すると、ユーザーに電子メールが送信されます。 これを変更する場合は、「[電話会議の設定が変更されたときのメールの自動送信を有効または無効にする](enable-or-disable-sending-emails-when-their-settings-change.md)」をご覧ください。
+By default, when you change a user's conferencing settings, an email is sent to the user. To change this, see [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-their-settings-change.md).
   
 > [!IMPORTANT]
 > ユーザーの電話会議の設定を変更すると、会議の定期的な予定と将来の Skype の更新し、出席者に送信する必要があります。 
@@ -130,7 +130,7 @@ Office 365の電話会議では、組織内のユーザー はSkype for Business
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
-## <a name="want-to-learn-more-about-windows-powershell"></a>Windows PowerShell に関する詳細についてはしますか。
+  ## <a name="want-to-learn-more-about-windows-powershell"></a>Windows PowerShell に関する詳細についてはしますか。
 - Windows PowerShell で行うのは、ユーザーを管理し、ユーザーに何を許可して何を禁止するかを管理することです。Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)

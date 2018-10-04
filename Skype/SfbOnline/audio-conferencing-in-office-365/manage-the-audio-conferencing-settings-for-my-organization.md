@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'ユーザーおよびその他のダイヤルイン会議の設定にダイヤルイン会議のライセンスおよび会議 ID を割り当てる手順についてはオンライン ビジネスの Skype を参照してください。 '
-ms.openlocfilehash: 7e420ef2c434807bf9e78cc1c61f808db745f3bc
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: ed5d2cb2115c47ba84dd91ebc45561aa93e4c023
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25018926"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375333"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Skype for Business Online で組織の電話会議の設定を管理する
 
@@ -38,7 +38,7 @@ ms.locfileid: "25018926"
 ## <a name="assign-an-audio-conferencing-license"></a>電話会議のライセンスを割り当てる
 
 > [!NOTE]
-> To assign a license for a user**** 職場または学校のアカウントを使用して、Office 365 にサインインします。 ユーザーに会議 ID を割り当てる
+> You can't assign licenses using the **Skype for Business admin center**. You must use the Office 365 admin center. See [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
  最大 20 人までのライセンスを同時に割り当てている場合は、[ ビューの選択] ボックスを使用していずれかのオプションを選択するか、独自のビューを作成することができます。次に [ 編集]、[ 次へ] を 2 回クリックし、ライセンスを選択して、[ 送信] をクリックします。また、Windows Powershell を使用してライセンスを複数のユーザーに割り当てることもできます。操作手順と PowerShell のサンプル スクリプトについては、「Skype for Business と Microsoft Teams のライセンスを割り当てる」をご覧ください。
 
@@ -47,11 +47,11 @@ ms.locfileid: "25018926"
 2. 次に [ **編集**]、[ **次へ**] を 2 回クリックし、ライセンスを選択して、[  > ] をクリックします。****
 
     > [!NOTE]
-    > 操作手順と PowerShell のサンプル スクリプトについては、「**Skype for Business と Microsoft Teams のライセンスを割り当てる**」をご覧ください。 操作ウィンドウの [ **製品ライセンス**] で [ **編集**] をクリックします。**** [ 製品ライセンス] ページで [ 電話会議] をオンにして、[ 保存] をクリックします。ライセンスの詳細については、「Skype for Business と Microsoft Teams のアドオン ライセンス」をご覧ください。 手順とサンプルの PowerShell スクリプトでは、[ビジネス ライセンスの割り当ての Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)を参照してください。
+    > If you are assigning licenses to up to 20 users at the same time, you can use the **Select a view** drop-down then choose one of the options or create your own view. Then click **Edit**, **Next** twice then select the license and click **Submit**. You can also assign licenses to multiple users by using Windows Powershell. For instructions and sample PowerShell scripts, see [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
 3. ライセンスの詳細については、「**Skype for Business と Microsoft Teams のアドオン ライセンス**」をご覧ください。
 
-4. ライセンスを割り当てると、電話会議プロバイダーのリストに Microsoft が表示されなくなることがあります。 ライセンスの詳細は、[アドオン ライセンスのビジネス用の Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)を参照してください。
+4. On the **Product Licenses** page, turn on **Audio Conferencing** and then click **Save**. For more on licensing, see [Skype for Business add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
 > [!NOTE]
 > ユーザーに会議 ID を割り当てる
@@ -124,7 +124,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 ## <a name="reset-a-conference-organizers-pin"></a>静的会議 ID は自動的に作成されユーザーに割り当てられますが、ユーザーがそれを使いたくないため特定の番号に設定しようと考える場合や、ユーザーが会議 ID を覚えられない、または紛失してしまう場合があります。Skype for Business 管理センターおよび Windows PowerShell を使用すると、ユーザーの会議 ID を表示、変更、リセットすることができます。
 
-ユーザーをスケジュールする会議ごとに固有の会議 ID が割り当てられますを取得 会議 ID が自動的に作成され、ユーザーに割り当てられているがあります、ユーザーは、この 1 つを使用する場合は、特定の数に設定するとユーザーが覚えられないか、会議 ID が失われています。 ユーザーが電話会議で有効になるか、PIN がリセットされた場合、ユーザーは自分の PIN が含まれるメールを受信します。ただし、メールの自動送信を無効にしても、PIN リセットのメールは送信されません。管理者は、ユーザーに PIN を手動で送信する必要があります。PIN をリセットした後、PIN が表示されるのは 1 回だけです。リセットの直後に 1 回表示された後は、ユーザーのプロパティには PIN に代わって "*****" が表示されます。
+Each meeting that a user schedules will get assigned a unique conference ID. Although a conference ID will be automatically created and assigned to a user, there may be times when a user doesn't want to use this one and you want to set it to a certain number, or your users can't remember or have lost their conference ID. You can use the Skype for Business admin center and Windows PowerShell to view, change, and reset their conference ID.
 
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
@@ -182,11 +182,11 @@ When you do this, the dial-in conferencing PIN isn't sent to the user.
 
 4. In the Skype for Business admin center, in the left navigation go to dial-in conferencingMicrosoft bridge settings.****
 
-  - **Enable meeting entry and exit notifications to be turned on** This is selected by default. However if you uncheck it, users that have already joined the meeting by default won't be notified when someone enters or leaves the meeting.
+   - **Enable meeting entry and exit notifications to be turned on** This is selected by default. However if you uncheck it, users that have already joined the meeting by default won't be notified when someone enters or leaves the meeting.
 
-    ユーザーがビジネス アプリケーションに、Skype を使用して会議に参加し、Skype ミーティングの**オプション**] メニューの [会議の**アナウンスの人を入力するかのままにするとき**の設定を変更するときに会議ごとの単位で設定できます。
+     ユーザーがビジネス アプリケーションに、Skype を使用して会議に参加し、Skype ミーティングの**オプション**] メニューの [会議の**アナウンスの人を入力するかのままにするとき**の設定を変更するときに会議ごとの単位で設定できます。
 
-  - 「**電話会議ブリッジの設定を変更する**」をご覧ください。
+   - 「**電話会議ブリッジの設定を変更する**」をご覧ください。
 
 5. Sign in to Office 365 with your work or school account.****
     
@@ -245,11 +245,11 @@ You can also set the primary and secondary languages that are supported when you
 
 3. 職場または学校のアカウントを使用して、Office 365 にサインインします。******** > ****
 
-  - 電話会議で使うために Office 365 によって設定された電話番号を表示する。
+   - 電話会議で使うために Office 365 によって設定された電話番号を表示する。
 
-  - 場所を表示したり、電話会議の自動応答で使用する第 1 言語と第 2 言語を表示したりする。
+   - 場所を表示したり、電話会議の自動応答で使用する第 1 言語と第 2 言語を表示したりする。
 
-  - ユーザーが電話会議で有効になっているときに、ユーザーに渡される既定の電話番号を選択します。ただし、電話会議ブリッジの既定の電話番号が変わっても、既存のユーザーの既定の電話番号は変わりません。
+   - ユーザーが電話会議で有効になっているときに、ユーザーに渡される既定の電話番号を選択します。ただし、電話会議ブリッジの既定の電話番号が変わっても、既存のユーザーの既定の電話番号は変わりません。
 
 You can select the dial-in conferencing default phone number that will be given to users when they are enabled for dial-in conferencing. However, if the default phone number of the dial-in conferencing bridge changes, the default phone number for existing users won't change.**** > ****
 
@@ -313,7 +313,7 @@ Windows PowerShell を使用して組織レベルで管理できる複数の設�
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromDisplayName
   ```
 
- ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell を使い始めるには、次のトピックを参照してください。
+  ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell を使い始めるには、次のトピックを参照してください。
 - Windows PowerShell は、ユーザーと、ユーザーに許可されていることと許可されていないことを管理するためにあるということです。Windows PowerShell があれば、一元管理を使用して Office 365 を管理し、複数のタスクを抱えているときに、日常の仕事を簡素化することができます。Windows PowerShell を開始するには、これらのトピックを参照してください。
 
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)

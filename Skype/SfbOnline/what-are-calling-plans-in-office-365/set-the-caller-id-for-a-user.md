@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Office 365 の電話システムは、ユーザーの割り当てられた電話番号である既定の発信者番号を提供します。ユーザーのために発信者番号 (通話回線番号) を変更または禁止することができます。組織での発信者番号の使用方法の詳細については、組織内での発信者番号の使用方法をご覧ください。
-ms.openlocfilehash: 6b224addfcbc18ec3faad27e8369996647b51b03
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 2f86e28a99c1c129943d97d58e97e73a355719ab
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958193"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371735"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>ユーザーに発信者番号を設定する
 [] Office 365 の電話システムは、ユーザーの割り当てられた電話番号である既定の発信者番号を提供します。ユーザーのために発信者番号 (通話回線番号) を変更または禁止することができます。組織での発信者番号の使用方法の詳細については、[組織内での発信者番号の使用方法](how-can-caller-id-be-used-in-your-organization.md)をご覧ください。
@@ -80,24 +80,24 @@ ms.locfileid: "24958193"
     
 2. [ **Windows PowerShell**] ウィンドウで、次を実行して、Office 365 の組織に接続します。
     
-    > [!NOTE]
-    > Skype for Business Online Windows PowerShell モジュールを初めて使用するときに、 **Import-Module** コマンドを実行するだけです。
-> 
-  ```
-Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
-  ```
-> 
-  ```
-  $credential = Get-Credential
-  ```
-> 
-  ```
-  $session = New-CsOnlineSession -Credential $credential
-  ```
-> 
-  ```
-  Import-PSSession $session
-  ```
+   > [!NOTE]
+   > Skype for Business Online Windows PowerShell モジュールを初めて使用するときに、 **Import-Module** コマンドを実行するだけです。
+   > 
+   > ```
+   > Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+   > ```
+   > 
+   > ```
+   > $credential = Get-Credential
+   > ```
+   > 
+   > ```
+   > $session = New-CsOnlineSession -Credential $credential
+   > ```
+   > 
+   > ```
+   > Import-PSSession $session
+   > ```
 
 Windows PowerShell を開始する方法の詳細を設定する場合は、 [1 つの Windows PowerShell のウィンドウ内のすべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)か、 [Windows PowerShell を使用して、オンライン ビジネスの Skype への接続](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)を参照してください。
     
@@ -108,7 +108,7 @@ Windows PowerShell を開始する方法の詳細を設定する場合は、 [1 
   ```
   Get-CsCallingLineIdentity |fl
   ```
-[Get-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793856.aspx) のその他の例と詳細について確認してください。
+  [Get-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793856.aspx) のその他の例と詳細について確認してください。
     
 ### <a name="create-a-new-caller-id-policy-for-your-organization"></a>組織の新しい発信者番号ポリシーを作成します
 
@@ -162,7 +162,7 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     

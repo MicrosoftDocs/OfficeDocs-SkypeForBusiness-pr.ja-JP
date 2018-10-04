@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: '概要: は、Skype のビジネス サーバーのユーザーにダイヤルイン会議を開始する方法を説明します。'
-ms.openlocfilehash: f21d130f84b248b2911d691dbcf80f2563ee60fb
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 90c56fd97d9eb51c96c1a0cb149f732a31a70743
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008681"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373714"
 ---
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>ダイヤルに登録完了メールを送信するビジネス サーバーの Skype のユーザー
  
@@ -38,18 +38,18 @@ PIN を設定し、1 人のユーザーにようこそメールを送信する�
     
 3. コマンド プロンプトで次のコマンドを実行します。
     
-  ```
-  Set-CsPinSendCAWelcomeMail -UserUri <user identifier>
--From <email address of sender> [-Subject <subject for email message>]
-[-UserEmailAddress <destination email address>]
-[-Cc <email address of recipients who receive copy of email>]
-[-Bcc <email address of recipients who receive blind copies>]
-[-TemplatePath <path for email template>]
-[-SmtpServer] <SMTP server name>]
-[-BodyAsPlainText] [-UseSsl]
-[-Pin <new numeric PIN>] [-Force] `
-[-Credential <SMTP server credentials used to send email with the specified From address>]
-  ```
+   ```
+   Set-CsPinSendCAWelcomeMail -UserUri <user identifier>
+   -From <email address of sender> [-Subject <subject for email message>]
+   [-UserEmailAddress <destination email address>]
+   [-Cc <email address of recipients who receive copy of email>]
+   [-Bcc <email address of recipients who receive blind copies>]
+   [-TemplatePath <path for email template>]
+   [-SmtpServer] <SMTP server name>]
+   [-BodyAsPlainText] [-UseSsl]
+   [-Pin <new numeric PIN>] [-Force] `
+   [-Credential <SMTP server credentials used to send email with the specified From address>]
+   ```
 
 **Smtp サーバ**既定では、スクリプトはこのパラメーターは予約されている環境変数 **$PSEmailServer**の値を使用します。 **$PSEmailServer**変数が設定されていない場合は、このパラメーターを指定する必要があります。
     

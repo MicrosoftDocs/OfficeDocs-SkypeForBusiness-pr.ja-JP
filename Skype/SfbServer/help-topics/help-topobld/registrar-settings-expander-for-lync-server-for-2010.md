@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17dcd75c-bd9a-407e-af9b-c61cb1201c07
 description: 弾力性の設定を編集し、次のプロパティを構成します。
-ms.openlocfilehash: 64e65fc7123132813ddc51b86301ae3d9c89e22a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5d6fffdadeb96ed72caf9478cbcaefe754d8e24c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21007034"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374056"
 ---
 # <a name="registrar-settings-expander-for-lync-server-for-2010"></a>2010 Lync Server のレジストラーの設定の拡張
  
@@ -32,10 +32,10 @@ ms.locfileid: "21007034"
     > [!CAUTION]
     > 復元が期待どおりに動作するためには、フェイル オーバーとフェイル バックの間隔を定義する秒数を慎重にテストする必要があります。 間隔を低に設定する (つまりより小さい 120 秒) や、フェイル オーバーとフェイル バックの設定が非常に密接に実際のフェールオーバーおよびフェールバックが期待どおりに動作していません。 
   
- [**OK**]: ダイアログでの変更を受け入れて確定します。
+  [**OK**]: ダイアログでの変更を受け入れて確定します。
   
- [**キャンセル**]: 変更を破棄してダイアログを閉じます。
+  [**キャンセル**]: 変更を破棄してダイアログを閉じます。
   
- [**ヘルプ**]: このヘルプ画面を表示します。
+  [**ヘルプ**]: このヘルプ画面を表示します。
   
 

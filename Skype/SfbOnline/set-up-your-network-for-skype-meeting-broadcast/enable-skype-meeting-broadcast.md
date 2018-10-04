@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: 組織のユーザーが Skype 会議ブロードキャストを使用できるようにする前に、それを有効にしておく必要があります。この手順を実行するには、Windows PowerShell の使い方を知っておく必要があります。Windows PowerShell に慣れていない場合は、マイクロソフトのパートナーに依頼してこの手順を実行することを考慮してください。
-ms.openlocfilehash: ba30af3285f7e66f46e771f66132c89d7513852d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 699b82af07b263331ee5508326bf3e7ed015848e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850053"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370865"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Skype 会議ブロードキャストを有効にする
 
@@ -44,39 +44,39 @@ ms.locfileid: "23850053"
 
 1. Windows PowerShell のバージョン 3.0 以上を実行していることを確認します。
     
-1. 3.0 以降のバージョンが実行されていることを確認する場合: **[スタート] メニュー** > **[Windows PowerShell]**。
+2. 3.0 以降のバージョンが実行されていることを確認する場合: **[スタート] メニュー** > **[Windows PowerShell]**。
     
-2. [ _Windows PowerShell_] ウィンドウに「 **Get-Host**」と入力して、バージョンを確認します。
+3. [ _Windows PowerShell_] ウィンドウに「 **Get-Host**」と入力して、バージョンを確認します。
     
-3. バージョン 3.0 以降を使用していない場合は、Windows PowerShell の更新プログラムをダウンロードおよびインストールする必要があります。Windows PowerShell をダウンロードして、バージョン 4.0 に更新するには、「[Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845)」を参照してください。メッセージが表示されたら、コンピューターを再起動します。
+4. バージョン 3.0 以降を使用していない場合は、Windows PowerShell の更新プログラムをダウンロードおよびインストールする必要があります。Windows PowerShell をダウンロードして、バージョン 4.0 に更新するには、「[Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845)」を参照してください。メッセージが表示されたら、コンピューターを再起動します。
     
-4. Skype for Business Online 用の Windows PowerShell モジュールもインストールする必要があります。このモジュールでは、リモート Windows PowerShell セッションを作成して Skype for Business Online に接続できます。このモジュールは、64 ビット版のコンピューターでのみサポートされており、Microsoft ダウンロード センターの「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」からダウンロードできます。再起動を求めるメッセージが表示されたら、コンピューターを再起動します。
+5. Skype for Business Online 用の Windows PowerShell モジュールもインストールする必要があります。このモジュールでは、リモート Windows PowerShell セッションを作成して Skype for Business Online に接続できます。このモジュールは、64 ビット版のコンピューターでのみサポートされており、Microsoft ダウンロード センターの「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」からダウンロードできます。再起動を求めるメッセージが表示されたら、コンピューターを再起動します。
     
-2. [ **スタート**] メニューで [ **Windows PowerShell**] をクリックします。
+6. [ **スタート**] メニューで [ **Windows PowerShell**] をクリックします。
     
-3. [ **Windows PowerShell**] ウィンドウで、以下のコマンドを実行して、Office 365 の組織に接続します。
+7. [ **Windows PowerShell**] ウィンドウで、以下のコマンドを実行して、Office 365 の組織に接続します。
     
-  ```
-  $Credential = get-credential
-  $O365Session = New-CsOnlineSession -Credential $credential
-  Import-PSSession $O365Session
-  ```
+   ```
+   $Credential = get-credential
+   $O365Session = New-CsOnlineSession -Credential $credential
+   Import-PSSession $O365Session
+   ```
 
-4. 以下のコマンドを実行して、現在の Skype 会議ブロードキャストの構成を確認します。
+8. 以下のコマンドを実行して、現在の Skype 会議ブロードキャストの構成を確認します。
     
-  ```
-  Get-CsBroadcastMeetingConfiguration
-  ```
+   ```
+   Get-CsBroadcastMeetingConfiguration
+   ```
 
     _EnableBroadcastMeeting_ パラメーターが `False` に設定されていることを確認します。
     
      ![組織に対して Skype Meeting Broadcast を有効にするコマンドレット。](../images/44abe30d-d3df-4ca9-9761-603a7ff78723.png)
   
-5. 以下のコマンドを実行して、組織の Skype 会議ブロードキャストを有効にします。
+9. 以下のコマンドを実行して、組織の Skype 会議ブロードキャストを有効にします。
     
-  ```
-  Set-CsBroadcastMeetingConfiguration -EnableBroadcastMeeting $True
-  ```
+   ```
+   Set-CsBroadcastMeetingConfiguration -EnableBroadcastMeeting $True
+   ```
 
     `Get-CsBroadcastMeetingConfiguration` をもう一度実行すると、設定が有効になっていることを確認できます。
     
@@ -85,7 +85,7 @@ ms.locfileid: "23850053"
     > [!TIP]
     > 変更後は、Skype 会議ブロードキャストのポータルに変更が反映されるまでに最長で 1 時間かかる場合があります。 
   
-6. これで、ユーザーは組織の他のユーザーとブロードキャスト会議を開催できます。会議を開催するには、ユーザーに「[Skype 会議ブロードキャストとは](https://support.office.com/en-us/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)」を参照するように指示してください。
+10. これで、ユーザーは組織の他のユーザーとブロードキャスト会議を開催できます。会議を開催するには、ユーザーに「[Skype 会議ブロードキャストとは](https://support.office.com/en-us/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)」を参照するように指示してください。
     
 ## <a name="configure-your-network-to-broadcast-meetings-with-external-attendees"></a>ネットワークを構成して、外部の出席者に会議をブロードキャストする
 

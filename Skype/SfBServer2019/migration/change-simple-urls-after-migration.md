@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ビジネス サーバーの Skype では、単純な Url をサポートします。
-ms.openlocfilehash: a67e9a8ef46b7809fdc8ce8b4eaadc2ca4720966
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 71935aab09de1598b355d2a7b27dfa02fd169216
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028832"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374991"
 ---
 # <a name="change-simple-urls-after-migration"></a>移行後の簡単な Url の変更
 
@@ -41,8 +41,8 @@ Skype ビジネス サーバーは、次の 3 つの簡単な Url をサポー�
     
 2. **管理アクセス URL** ] ボックスの下の左側のウィンドウで、**単純な Url**を選択、ビジネス サーバーのコントロール パネル、Skype への管理アクセスをする簡単な URL を入力し、[ **OK**] をクリックします。
     
-    > [!TIP]
-    > 管理 URL には、できる限りシンプルな URL を使用することをお勧めします。 最も簡単なオプションは、 https://admin。_\<ドメイン\>_。 
+   > [!TIP]
+   > 管理 URL には、できる限りシンプルな URL を使用することをお勧めします。 最も簡単なオプションは、 https://admin。<em>\<ドメイン\></em>。 
   
 ## <a name="see-also"></a>関連項目
 

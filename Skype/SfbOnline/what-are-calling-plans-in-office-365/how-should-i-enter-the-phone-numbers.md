@@ -20,12 +20,12 @@ f1keywords: ms.lync.lac.PortOrderNumbers
 ms.custom:
 - Calling Plans
 description: 'Skype ビジネスのためにそれらを移植するときに、電話番号を設定する方法について説明します。 '
-ms.openlocfilehash: 8d214ea7cf21ea713de28763f36b9995160fb395
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 62f9fb98378bfa7802013399d3d9b005047e663d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958143"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374089"
 ---
 # <a name="how-should-i-enter-the-phone-numbers"></a>電話番号の入力方法について
 
@@ -82,10 +82,10 @@ ms.locfileid: "24958143"
     
   - "-"のみ 2 つの数値を区切るために使用します。 複数を含めることはサポートされていません"、"番号の範囲の。 として **(425) 555-0649 ・ (425) 555-1115**を入力するたとえば、 **(425) 5550649-(425) 5551115**。
     
- **完全な手順については、 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)を参照してください。**
+  **完全な手順については、 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)を参照してください。**
 
- > [!NOTE]
-> 無料電話番号
+  > [!NOTE]
+  > 無料電話番号
 
   
 ## <a name="related-topics"></a>関連トピック

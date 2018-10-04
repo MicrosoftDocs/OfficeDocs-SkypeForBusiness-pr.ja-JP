@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: '概要: Skype ビジネス サーバーの使用、ミラー データベースの監視レポートを関連付ける方法を説明します。'
-ms.openlocfilehash: e5d9072c2315a2d82f2f41559167a488747fa205
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fdca07874192a772a99145bf3ca2042995bb7aee
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21000772"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374366"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Skype でミラー データベース ビジネス サーバーの監視レポートを関連付ける 
  
@@ -36,9 +36,9 @@ ms.locfileid: "21000772"
     
    - 監視レポートがインストールされているデータベース インスタンスの名前 (**archinst** など)。
     
-    たとえば、SQL Server Reporting Services がコンピューター atl-sql-001.litwareinc.com にインストールされており、監視レポートでデータベース インスタンス archinst が使われている場合、ホーム ページの URL は次のようになります。
+     たとえば、SQL Server Reporting Services がコンピューター atl-sql-001.litwareinc.com にインストールされており、監視レポートでデータベース インスタンス archinst が使われている場合、ホーム ページの URL は次のようになります。
     
-    **http://atl-sql-001.litwareinc.com/Reports_archinst**
+     **http://atl-sql-001.litwareinc.com/Reports_archinst**
     
 2. Reporting Services ホーム ページにアクセスしたら、[**ServerReports**]、[**Reports_Content**] の順にクリックします。 クリックすると、 **Reports_Content**ページ、Skype のビジネス サーバー レポートの監視します。
     

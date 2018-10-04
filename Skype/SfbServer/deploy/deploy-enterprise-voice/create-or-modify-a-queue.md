@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: 作成またはビジネス サーバーのエンタープライズ VoIP の Skype での応答グループ キューを変更します。
-ms.openlocfilehash: cdddb57c3f0e06e851f39cba4b6f8322a28fd3fa
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a77940bae3dd720594619ebffc1858dae2a161ba
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888152"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374516"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>作成またはビジネス用の Skype でキューを変更します。
  
@@ -57,8 +57,8 @@ ms.locfileid: "23888152"
     
    - エージェントを検索する順序を変更するには、エージェント グループの一覧でグループをクリックし、上矢印または下矢印をクリックします。
     
-    > [!NOTE]
-    > サーバーでは、キューで利用可能なエージェントを検索するときには、グループの順序が使用されます。つまり、一覧の最初のグループが最初に検索され、一覧の 2 番目のグループが次に検索され、以降も同様に検索されます。 
+     > [!NOTE]
+     > サーバーでは、キューで利用可能なエージェントを検索するときには、グループの順序が使用されます。つまり、一覧の最初のグループが最初に検索され、一覧の 2 番目のグループが次に検索され、以降も同様に検索されます。 
   
 8. エージェントが通話に応答するまで発信者を保留状態にする最長時間を指定するには、[**キューのタイムアウトを有効にする**] チェック ボックスをオンにして次の操作を実行します。
     
@@ -66,15 +66,15 @@ ms.locfileid: "23888152"
     
     b. [**通話アクション**] で、呼び出しがタイムアウトになったときに行う動作を次のように選択します。
     
-     - タイムアウト後通話を終了するには、[**切断**] をクリックします。
+   - タイムアウト後通話を終了するには、[**切断**] をクリックします。
     
-     - ボイス メール、**ボイス メールを転送**する] をクリックし、 **SIP アドレス**] フィールドに、アドレスを入力、音声メール形式の sip に呼び出しを転送する:_\<ユーザー名\>_@ _\<ドメイン名\>_(例、sip:bob@contoso.com)。
+   - ボイス メール、**ボイス メールを転送**する] をクリックし、 **SIP アドレス**] フィールドに、アドレスを入力、音声メール形式の sip に呼び出しを転送する:*\<ユーザー名\>*@ *\<ドメイン名\>*(例、sip:bob@contoso.com)。
     
-     - 別の電話番号への呼び出しを転送するに**転送先の電話番号**をクリックし、 **SIP アドレス**] フィールドに、入力形式の sip の電話番号:_\<数\>_@ _\<\>_ (sip:+14255550121@contoso.com など)。
+   - 別の電話番号への呼び出しを転送するに**転送先の電話番号**をクリックし、 **SIP アドレス**] フィールドに、入力形式の sip の電話番号:*\<数\>*@ *\<\>* (sip:+14255550121@contoso.com など)。
     
-     - 他のユーザーへの呼び出しを転送するには、 **SIP アドレスに転送**をクリックして、 **SIP アドレス**] フィールドに、sip の形式でユーザーの URI を入力:_\<ユーザー名\>_@ _\<ドメイン名\>_。
+   - 他のユーザーへの呼び出しを転送するには、 **SIP アドレスに転送**をクリックして、 **SIP アドレス**] フィールドに、sip の形式でユーザーの URI を入力:_\<ユーザー名\>_@ _\<ドメイン名\>_。
     
-     - 別のキューに通話を転送する場合は [**別のキューに転送**] をクリックし、使用するキューを参照します。
+   - 別のキューに通話を転送する場合は [**別のキューに転送**] をクリックし、使用するキューを参照します。
     
 9. キューに保持できる最大通話数を指定するには、[**キューのオーバーフローを有効にする**] チェック ボックスをオンにして次の操作を実行します。
     
@@ -84,15 +84,15 @@ ms.locfileid: "23888152"
     
     c. [**通話アクション**] で、オーバーフローしきい値に達したときに実行する処理を、次のように選択します。
     
-     - タイムアウト後通話を終了するには、[**切断**] をクリックします。
+   - タイムアウト後通話を終了するには、[**切断**] をクリックします。
     
-     - ボイス メール、**ボイス メールを転送**する] をクリックし、 **SIP アドレス**] フィールドに、アドレスを入力、音声メール形式の sip に呼び出しを転送する:_\<ユーザー名\>_@ _\<ドメイン名\>_(例、sip:bob@contoso.com)。
+   - ボイス メール、**ボイス メールを転送**する] をクリックし、 **SIP アドレス**] フィールドに、アドレスを入力、音声メール形式の sip に呼び出しを転送する:*\<ユーザー名\>*@ *\<ドメイン名\>*(例、sip:bob@contoso.com)。
     
-     - 別の電話番号への呼び出しを転送するに**転送先の電話番号**をクリックし、 **SIP アドレス**] フィールドに、入力形式の sip の電話番号:_\<数\>_@ _\<\>_ (sip:+14255550121@contoso.com など)。
+   - 別の電話番号への呼び出しを転送するに**転送先の電話番号**をクリックし、 **SIP アドレス**] フィールドに、入力形式の sip の電話番号:*\<数\>*@ *\<\>* (sip:+14255550121@contoso.com など)。
     
-     - 他のユーザーへの呼び出しを転送するには、 **SIP アドレスに転送**をクリックして、 **SIP アドレス**] フィールドに、sip の形式でユーザーの URI を入力:_\<ユーザー名\>_@ _\<ドメイン名\>_。
+   - 他のユーザーへの呼び出しを転送するには、 **SIP アドレスに転送**をクリックして、 **SIP アドレス**] フィールドに、sip の形式でユーザーの URI を入力:_\<ユーザー名\>_@ _\<ドメイン名\>_。
     
-     - 別のキューに通話を転送する場合は [**別のキューに転送**] をクリックし、使用するキューを参照します。
+   - 別のキューに通話を転送する場合は [**別のキューに転送**] をクリックし、使用するキューを参照します。
     
 10. [**確定**] をクリックします。
     
@@ -137,24 +137,24 @@ ms.locfileid: "23888152"
 
 5. キューのオーバーフローしきい値に達したときに再生されるプロンプトを作成し、変数に格納します。コマンド ラインで、次のコマンドを実行します。
     
-  ```
-  $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
-  ```
+   ```
+   $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
+   ```
 
    例:
     
-  ```
-  $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
-  ```
+   ```
+   $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
+   ```
 
       > [!NOTE]
       > プロンプトのオーディオ ファイルを使用するには、**インポート CsRgsAudioFile**コマンドレットを使用します。 詳細については、[インポートの CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)を参照してください。 
   
 6. キューのオーバーフローしきい値に達したときに実行されるアクションを定義し、変数に格納します。コマンド ラインで、次のコマンドを実行します。
     
-  ```
-  $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
-  ```
+   ```
+   $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
+   ```
 
     > [!NOTE]
     > 実行可能なアクションとその構文の詳細については、[新規 CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)を参照してください。 
@@ -194,9 +194,9 @@ ms.locfileid: "23888152"
 
 10. キューが作成されたことを確認します。次のコマンドレットを実行します。
     
-   ```
-   Get-CsRgsQueue -Name "Help Desk"
-   ```
+    ```
+    Get-CsRgsQueue -Name "Help Desk"
+    ```
 
 ## <a name="see-also"></a>関連項目
 

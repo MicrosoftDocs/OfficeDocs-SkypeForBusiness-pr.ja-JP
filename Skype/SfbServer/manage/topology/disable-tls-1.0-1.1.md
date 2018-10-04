@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: '概要: を準備してお客様の環境で TLS 1.0 および 1.1 を無効にするを実装します。'
-ms.openlocfilehash: e1e345da45c60637a8c6cf20061f8b0274a1474d
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: e220a6615ef259e5ccba5b47a9e0f992289e6af4
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347457"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373072"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype では、TLS 1.0 または 1.1 を無効にします。
 
@@ -487,9 +487,9 @@ TLS 1.0 および 1.1 は、お客様の環境で無効になっています後�
 
 1. [ビジネス サーバーの Skype のための前提条件をインストールします。](../../deploy/install/install-prerequisites.md)  
 2. 2. .NET 4.7 をインストールします。 
-    - **注:** まず、Skype で .NET 4.7 のサポートの業務サーバー 2015 CU5 + (6.0.9319.281) を導入しました。 したがって、次以降の手順で私たちが更新されます。 コア コンポーネント メインのインストールの前にします。
-    - ダウンロード先: https://www.microsoft.com/en-us/download/details.aspx?id=55167。
-    - 参照:[サーバー 2015 のビジネスを展開するため、Skype の前にインストールするソフトウェア](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md#software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment)
+      - **注:** まず、Skype で .NET 4.7 のサポートの業務サーバー 2015 CU5 + (6.0.9319.281) を導入しました。 したがって、次以降の手順で私たちが更新されます。 コア コンポーネント メインのインストールの前にします。
+      - ダウンロード先: https://www.microsoft.com/en-us/download/details.aspx?id=55167。
+      - 参照:[サーバー 2015 のビジネスを展開するため、Skype の前にインストールするソフトウェア](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md#software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment)
 3. ISO ファイルとフォルダーをコピーします。 
     - として接続されているドライブのルート ディレクトリを開くと、Skype ビジネス サーバー 2015 ISO が接続されているのでは、(例: d:\)ファイル エクスプ ローラーでします。
     - すべてのフォルダーとファイルをローカル ディスク上のフォルダーにコピーする (例: C:\SkypeForBusiness2015ISO)。

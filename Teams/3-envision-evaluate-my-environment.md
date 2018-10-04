@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66b86ef8789f959de9887cc1f0b3c7c1e2e8ffa3
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a00bf784b283f1f2d948e82d90ce54b0a67a6439
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015574"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373315"
 ---
 # <a name="evaluate-my-environment"></a>自分の環境を評価します。
 
@@ -43,8 +43,8 @@ ms.locfileid: "25015574"
 これを知っておくことによって、組織のプロジェクト計画を調整し、番号を移植するために必要な情報を準備します。 環境の検出を実行するのには、MyAdvisor から[マイクロソフトのチームのロールアウトの環境の検出](environmental-discovery-for-microsoft-teams-rollout.md)を使用できます。
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>意思決定ポイント</td><td><ul><li>環境の評価を完了するため管理するはだれですか。</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>環境アセスメントの結果を文書化します。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>環境の評価を完了するため管理するはだれですか。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>環境アセスメントの結果を文書化します。</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -60,8 +60,8 @@ ms.locfileid: "25015574"
 アドレスの変更管理、組織の準備を評価するのにには、次の考慮事項を使用します。
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>意思決定ポイント</td><td><ul><li>ソフトウェアまたは本サービスのユーザーが積極的に前の成功をしたことがありますか。</li><li>使用状況の取得を追跡することができますか。</li><li>設計および初期の管理にリソースを持って&mdash;と継続的な&mdash;(意識、トレーニング、およびサポート) の採用キャンペーンですか。</li><li>持っている専用のユーザーの導入/変更管理チームが、ビジネスの成果を確実にこれらのリソースに投資することができますか。</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>「Yes」上記のすべて場合は、適切なユーザーの変更管理の関係者を識別し、ユーザー準備計画を開始します。</li><li>回答された場合、上記のいずれか、[いいえ]、変更管理や、組織の採用に関連する活動の推進を支援する外部リソースの活用を検討してください。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>ソフトウェアまたは本サービスのユーザーが積極的に前の成功をしたことがありますか。</li><li>使用状況の取得を追跡することができますか。</li><li>設計および初期の管理にリソースを持って&mdash;と継続的な&mdash;(意識、トレーニング、およびサポート) の採用キャンペーンですか。</li><li>持っている専用のユーザーの導入/変更管理チームが、ビジネスの成果を確実にこれらのリソースに投資することができますか。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>回答された場合&quot;はい&quot;に上記のすべて、適切なユーザーの変更管理の関係者を識別し、ユーザーの準備の計画を開始します。</li><li>回答された場合&quot;なし&quot;一部またはすべて上記の変更管理や、組織の採用に関連する活動の推進を支援するためのリソースの外部魅力的にすることを検討してください。</li></ol></td></tr>
 </table>
 
 
@@ -216,8 +216,8 @@ Wi-fi ネットワークを最適化するために用意されているいく�
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>意思決定ポイント</td><td><ul><li>すべてのネットワーク セグメントと組織の位置の間で適切なネットワークの評価を完了するため管理するはだれですか。</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>ネットワークでは、マイクロソフトのチームの配置の準備ができていることを確認に役立つ詳細なネットワークの評価を行うことができます。 詳細については、[ネットワーク対応の評価](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)を参照してください。</li><li>すべてのネットワーク セグメントのネットワーク対応評価の結果に基づいてネットワークの修復を実行します。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>すべてのネットワーク セグメントと組織の位置の間で適切なネットワークの評価を完了するため管理するはだれですか。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>ネットワークでは、マイクロソフトのチームの配置の準備ができていることを確認に役立つ詳細なネットワークの評価を行うことができます。 詳細については、<a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">ネットワーク対応の評価</a>を参照してください。</li><li>すべてのネットワーク セグメントのネットワーク対応評価の結果に基づいてネットワークの修復を実行します。</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

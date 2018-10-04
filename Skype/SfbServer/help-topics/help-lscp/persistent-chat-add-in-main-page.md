@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c0ecf64-258d-4b43-8fac-fa5ffa4e7646
 description: 永続的なチャット ルームの Url に関連付けるには、永続的なチャット ページの追加のセクションを使用できます。 これらの URL は、チャット ルームにいるクライアントの会話拡張機能ウィンドウに表示されます。 管理者が登録済みアドインの一覧にアドインを追加し、チャット ルームのマネージャー/作成者が登録済みアドインの 1 つにルームを関連付けると、ユーザーはクライアントでこのアップグレードを表示できるようになります。
-ms.openlocfilehash: 2efac9a17082c3aadb1f26a24f30e711ce976abc
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: a7a0ded39539a85c146912da8f7cf2815b6292a2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23251243"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371528"
 ---
 # <a name="persistent-chat-add-in-main-page"></a>常設チャット アドイン メイン ページ
 
@@ -51,9 +51,9 @@ ms.locfileid: "23251243"
 
 6. [**新しいアドイン**] で、次の操作を実行します。
 
-  - [**名前**] に、新しいアドインの名前を指定します。
+   - [**名前**] に、新しいアドインの名前を指定します。
 
-  - [**URL**] に、アドインに関連付ける URL を指定します。URL には、http および https プロトコルのみを使用できます。
+   - [**URL**] に、アドインに関連付ける URL を指定します。URL には、http および https プロトコルのみを使用できます。
 
 7. [**コミット**] をクリックします。
 

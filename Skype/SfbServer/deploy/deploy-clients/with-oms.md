@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: この資料では、マイクロソフトの運用管理スイートを使用して、エンド ・ ツー ・ エンドの統合された方法で Skype ルーム システム v2 のデバイスの管理を展開する方法について説明します。
-ms.openlocfilehash: 4e52c416f9f35aaee1ccb3b5e8c75c29246a1c5d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5ef935f30bfdb5036c87fe24d9456af1b52925e5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891249"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371381"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>OMS を使用した Skype Room Systems バージョン 2 の管理を展開する
 
@@ -110,27 +110,27 @@ Skype ルーム システム v2 に関連するイベントを監視すること
 
 キャプチャしたイベント ログから、ユーザー設定のフィールドを抽出するには、以下の手順を実行します。
 
-1.  [マイクロソフトの運用管理スイートのポータル](https://aka.ms/omsportal)にサインインします。
+1. [マイクロソフトの運用管理スイートのポータル](https://aka.ms/omsportal)にサインインします。
 
-2.  Skype ルーム システム v2 デバイスによって生成されたイベントの一覧を表示します。
-    1.  **ログの検索**に移動し、ユーザー設定フィールドを持つレコードを取得するクエリを使用します。
-    2.  サンプル クエリ。`Event | where Source == "SRS-App"`
+2. Skype ルーム システム v2 デバイスによって生成されたイベントの一覧を表示します。
+   1.  **ログの検索**に移動し、ユーザー設定フィールドを持つレコードを取得するクエリを使用します。
+   2.  サンプル クエリ。`Event | where Source == "SRS-App"`
 
-3.  レコードのいずれかを選択、左側にあるボタンを選択し、フィールドの展開ウィザードを起動します。
+3. レコードのいずれかを選択、左側にあるボタンを選択し、フィールドの展開ウィザードを起動します。
 
    ![フィールドの抽出ウィザード](../../media/Deploy_OMS_3.png "フィールドの抽出ウィザード")
 
-4.  RenderedDescription から抽出し、フィールドのタイトルを提供したいデータを強調表示します。 表 1 には、使用するフィールド名が用意されています。
+4. RenderedDescription から抽出し、フィールドのタイトルを提供したいデータを強調表示します。 表 1 には、使用するフィールド名が用意されています。
 
    ![ユーザー設定フィールドの定義](../../media/Deploy_OMS_4.png "ユーザー設定フィールドの定義")
 
-5.  *表 1*に示すようにマッピングを使用します。 運用管理スイートが自動的に追加、 ** \_CF**文字列の新しいフィールドを定義するとき。
+5. *表 1*に示すようにマッピングを使用します。 運用管理スイートが自動的に追加、 ** \_CF**文字列の新しいフィールドを定義するとき。
 
 > [!IMPORTANT]
 > JSON との操作の管理スイートのすべてのフィールドは大文字小文字を区別することを忘れないでください。
-
+> 
 > 次の表に、[イベント Id] チェック ボックスをオンの状態に注意してください。 カスタム フィールドの値を正常に抽出する操作の管理スイートの場合は、このチェック ボックスの状態を確認することを確認します。
->
+> 
 > ![ユーザー設定フィールドの定義](../../media/Deploy_OMS_5.png "ユーザー設定フィールドの定義")
 
 **表 1**
@@ -462,48 +462,50 @@ Skype ルーム システムの最後の時間内でアプリケーションの�
 7.  Skype ルーム システム v2 のデバイスがインストールされ、2 つ目の再起動で、Microsoft の監視エージェントを構成します。
 
 
-    ```
-    # Install-OMSAgent.ps1
-    <#
-    Date:        04/20/2018
-    Script:      Install-OMSAgent.ps1
-    Version:     1.0
-    #>
+~~~
+```
+# Install-OMSAgent.ps1
+<#
+Date:        04/20/2018
+Script:      Install-OMSAgent.ps1
+Version:     1.0
+#>
 
-    # Set the parameters
-    $WorkspaceId = "<your workspace id>"
-    $WorkspaceKey = "<your workspace key>"
-    $SetupPath = "\\Server\Share"
+# Set the parameters
+$WorkspaceId = "<your workspace id>"
+$WorkspaceKey = "<your workspace key>"
+$SetupPath = "\\Server\Share"
 
-    $SetupParameters = "/qn NOAPM=1 ADD_OPINSIGHTS_WORKSPACE=1 OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE=0 OPINSIGHTS_WORKSPACE_ID=$WorkspaceId OPINSIGHTS_WORKSPACE_KEY=$WorkspaceKey AcceptEndUserLicenseAgreement=1"
+$SetupParameters = "/qn NOAPM=1 ADD_OPINSIGHTS_WORKSPACE=1 OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE=0 OPINSIGHTS_WORKSPACE_ID=$WorkspaceId OPINSIGHTS_WORKSPACE_KEY=$WorkspaceKey AcceptEndUserLicenseAgreement=1"
 
-    # $SetupParameters = $SetupParameters + " OPINSIGHTS_PROXY_URL=<Proxy server URL> OPINSIGHTS_PROXY_USERNAME=<Proxy server username> OPINSIGHTS_PROXY_PASSWORD=<Proxy server password>"
+# $SetupParameters = $SetupParameters + " OPINSIGHTS_PROXY_URL=<Proxy server URL> OPINSIGHTS_PROXY_USERNAME=<Proxy server username> OPINSIGHTS_PROXY_PASSWORD=<Proxy server password>"
 
-    # Start PowerShell logging
-    Start-Transcript -Path C:\OMSAgentInstall.Log
+# Start PowerShell logging
+Start-Transcript -Path C:\OMSAgentInstall.Log
 
-    # Check if the Microsoft Monitoring Agent is installed
-    $mma = New-Object -ComObject 'AgentConfigManager.MgmtSvcCfg'
+# Check if the Microsoft Monitoring Agent is installed
+$mma = New-Object -ComObject 'AgentConfigManager.MgmtSvcCfg'
 
-    # Check if the Microsoft Monitoring agent is installed
-    if (!$mma)
-    {
-        #Install agent
-        Start-Process -FilePath "$SetupPath\Setup.exe" -ArgumentList $SetupParameters -ErrorAction Stop -Wait
-    }
+# Check if the Microsoft Monitoring agent is installed
+if (!$mma)
+{
+    #Install agent
+    Start-Process -FilePath "$SetupPath\Setup.exe" -ArgumentList $SetupParameters -ErrorAction Stop -Wait
+}
 
-    # Check if the agent has a valid configuration
-    $CheckOMS = $mma.GetCloudWorkspace($WorkspaceId).AgentId
-    if (!$CheckOMS)
-    {
-        # Apply new configuration
-        $mma.AddCloudWorkspace($WorkspaceId, $WorkspaceKey)
-        $mma.ReloadConfiguration()
-    }
+# Check if the agent has a valid configuration
+$CheckOMS = $mma.GetCloudWorkspace($WorkspaceId).AgentId
+if (!$CheckOMS)
+{
+    # Apply new configuration
+    $mma.AddCloudWorkspace($WorkspaceId, $WorkspaceKey)
+    $mma.ReloadConfiguration()
+}
 
-    Stop-Transcript
+Stop-Transcript
 
-    ```
+```
+~~~
 
 > [!NOTE]
 > エージェントを再構成して、別のワークスペースに移動する、または最初のインストール後にプロキシの設定を変更する必要がある場合は、[エージェント ログの分析機能を維持して管理](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-manage)の資料を参照できます。

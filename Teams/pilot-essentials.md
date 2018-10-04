@@ -14,12 +14,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e6ed0f5a93f2ba3ea46c88bbdf0fa93ebb843f9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: fc88190df03ed7087013c196ac32279c88c58801
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016878"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372541"
 ---
 ![展開に重点を置いて、アップグレードの旅の段階や実装段階](media/upgrade-banner-deployment.png "展開に重点を置いて、アップグレードの旅の段階や実装段階")
 
@@ -42,7 +42,7 @@ ms.locfileid: "25016878"
 |    |     |
 |-----------|------------|
 | ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>プロジェクトの方向を通知するためにパイロットを使用するにはどうなりますか。</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>設計し、正式なパイロットを実行するには、以下のガイダンスを使用します。</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>設計し、正式なパイロットを実行するには、以下のガイダンスを使用します。</li></ul>|
 
 > [!Tip]
 > 通信設計を支援するサンプル[パイロット リソース](https://aka.ms/UpgradeSuccessKit)を使用して、計画、およびフィードバックの調査をテストします。
@@ -101,11 +101,11 @@ ms.locfileid: "25016878"
 
 場合は、結果を示します。
 
--   **(たとえば、ユーザーの満足度とネットワーク品質)、パイロットの目標の達成**を、する必要があります、ロールアウトの次のフェーズを続行する準備ができました。 によって、プロジェクトの目標には、次のいずれかのこの可能性があります。
-   -   その他の参加者にパイロットを拡張します。
-   -   [組織の一部またはすべてのビジネス (**諸島**モード) の Skype と共にチームを有効にします。](https://aka.ms/SkypeToTeams-SetCoexistence)
-   -   [組織の一部またはすべてのユーザーがビジネスのための Skype からチーム (**チームのみ**モード) をアップグレードします。](https://aka.ms/SkypeToTeams-SetCoexistence)
--   **パイロットが (たとえば、ユーザーの満足度と品質のネットワーク) の希望する結果を達成していない**、計画を適切に調整を行い、パイロットを再検討する時間がかかります。
+- **(たとえば、ユーザーの満足度とネットワーク品質)、パイロットの目標の達成**を、する必要があります、ロールアウトの次のフェーズを続行する準備ができました。 によって、プロジェクトの目標には、次のいずれかのこの可能性があります。
+  -   その他の参加者にパイロットを拡張します。
+  -   [組織の一部またはすべてのビジネス (**諸島**モード) の Skype と共にチームを有効にします。](https://aka.ms/SkypeToTeams-SetCoexistence)
+  -   [組織の一部またはすべてのユーザーがビジネスのための Skype からチーム (**チームのみ**モード) をアップグレードします。](https://aka.ms/SkypeToTeams-SetCoexistence)
+- **パイロットが (たとえば、ユーザーの満足度と品質のネットワーク) の希望する結果を達成していない**、計画を適切に調整を行い、パイロットを再検討する時間がかかります。
 
 > [!Tip]
 > パイロット参加者を浸透させるために、ピアのエキスパートとオンボードの新しいユーザーをチームに参加させること。 ピア チャンピオン簡単に関連付けることが、他のユーザー独自の経験とな学習項目を共有し、同僚にサポートとガイダンスを提供します。 [エキスパート](https://go.microsoft.com/fwlink/?linkid=859068)とそれらを独自の展開で使用する方法について説明します。 

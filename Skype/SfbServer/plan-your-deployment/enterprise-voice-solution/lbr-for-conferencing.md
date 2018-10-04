@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Skype で会議のビジネス サーバーのエンタープライズ VoIP の場所ベースのルーティングの計画、提案型などの呼び出しを転送します。
-ms.openlocfilehash: 97ceaeb4f7e6e24cdffe3f1fd8c737de2e429e17
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: d786f8def8cf88e29bbac2a908163a5a92d61d47
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888361"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373243"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Skype で会議のビジネスのサーバーの場所ベースのルーティング
 
@@ -47,6 +47,7 @@ Skype で会議のビジネス サーバーのエンタープライズ VoIP の�
 これらの会議の場所ベースのルーティングの制限は、次の表にまとめたものです。
 
 | |
+
 |**任意の時点の会議のユーザー**|**会議に参加できるユーザー**|**会議に参加できないユーザー**|
 |:-----|:-----|:-----|
 |Skype ビジネス VoIP クライアントのユーザーを 1 つのネットワークのサイトからの  <br/> |同じネットワークのサイトからビジネスの VoIP クライアントのユーザーの Skype  <br/> 別のネットワークのサイトのビジネスの VoIP クライアントのユーザーの Skype  <br/> 不明なネットワークのサイトからビジネスの VoIP クライアントのユーザーの Skype  <br/> ビジネスの VoIP クライアントのユーザーのフェデレーションの Skype  <br/> PSTN エンドポイントから参加しているユーザー  <br/> |なし  <br/> |
@@ -141,7 +142,7 @@ Get CsServerApplication ・ サービス: レジストラーの識別情報:<Poo
 
 会議アプリケーションに対する場所ベースのルーティングの優先順位が正しい値を確認した後は、各フロント エンド プールまたは Standard Edition Server ホーム ユーザーは、場所ベースのルーティングに対して有効になっているは、次のコマンドレットを入力します。
 
-CsServerApplication で新しい・ サービス: レジストラーの識別情報:<Pool FQDN>/LBRouting-優先順位<Application Priority>-$true を有効になっている-$true Uri の重要なhttps://www.microsoft.com/LCS/LBRoutingForの使用例。
+CsServerApplication で新しい・ サービス: レジストラーの識別情報:<Pool FQDN>/LBRouting-優先順位<Application Priority>-$true を有効になっている-$true Uri の重要な<https://www.microsoft.com/LCS/LBRoutingFor>の使用例。
 
 CsServerApplication で新しい-の Id Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting の優先順位 3 - 有効になっている $true-$true Uri の重要なhttps://www.microsoft.com/LCS/LBRoutingAfterプールまたは標準のエディションのサーバーですべてのフロント エンド サーバーを再起動して、このコマンドレットを使用して、会議アプリケーションに対する場所ベースのルーティングが有効になっています。
 

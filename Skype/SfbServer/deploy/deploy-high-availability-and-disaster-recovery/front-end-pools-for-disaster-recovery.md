@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: ペアのフロント エンド プールを使い障害復旧保護を実現できますが、これは必須要件ではありません。
-ms.openlocfilehash: 72083b2ec249a83c06cd8ccebe683f29d15709e0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7bbb15c635b8a0b9c90d80309e49721cfe778155
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21026482"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371273"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>ビジネス サーバーの Skype での災害復旧のための一対のフロント エンド プールを展開します。
  
@@ -58,23 +58,23 @@ ms.locfileid: "21026482"
 
 10. 次のコマンドレットを実行して、両方のプールのユーザーおよび電話会議データが相互に同期されるようにします。
     
-   ```
-   Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
-   ```
+    ```
+    Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
+    ```
 
-   ```
-   Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
-   ```
+    ```
+    Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
+    ```
 
-   データの同期には時間がかかる場合があります。次のコマンドレットを使用して、状態を確認できます。両方向の状態が安定状態であることを確認します。
+    データの同期には時間がかかる場合があります。次のコマンドレットを使用して、状態を確認できます。両方向の状態が安定状態であることを確認します。
     
-   ```
-   Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
-   ```
+    ```
+    Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
+    ```
 
-   ```
-   Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
-   ```
+    ```
+    Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
+    ```
 
 > [!NOTE]
 > **自動フェイル オーバーおよびフェイル バック音声**オプションおよびトポロジ ビルダーに関連付けられている時間間隔は、Lync Server で導入された音声の復元機能にのみ適用されます。 このオプションを選んでも、このドキュメントに記載されているプール フェールオーバーが自動的に行われるわけではありません。 プールのフェールオーバーとフェールバックを行うには、フェールオーバーとフェールバックのコマンドレットを、常に管理者が手動でそれぞれ起動する必要があります。

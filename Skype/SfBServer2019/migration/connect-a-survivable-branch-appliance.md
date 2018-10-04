@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: すべてのリカバリ性に優れたブランチ アプライアンス (SBA) は、SBA のバックアップ レジストラーとして使用するフロント エンド プールに関連付けられます。 プールは、ビジネス サーバー 2019 の Skype に移行された後、プールがアップグレード中に、フロント エンド プールからプールは、ビジネス サーバー 2019、SBA の Skype に移行がフロント エンドを解除する必要があります、ときに、SBA がアップグレードされたフロントの E に再に関連付けることができます。nd プールです。 これには、SBA の従来トポロジ ビルダーでトポロジから削除し、[トポロジのビジネス サーバー 2019 Skype SBA が含まれます。 従来の SBA 最初に移動する別のフロント エンド プール トポロジから SBA を削除する前に所属していたユーザーです。 ビジネス サーバー 2019 トポロジの Skype に SBA を追加すると、それらのユーザーし、再び移動できます SBA にします。 次の手順を次に示します。
-ms.openlocfilehash: 6de2b8c228ef9e65f57b70451ac33350a2d8a456
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ff35032d9abc5c1435e44dea7aca83d841b404c6
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030582"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373750"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>リカバリ性に優れたブランチ アプライアンスを接続します。
 
@@ -58,8 +58,8 @@ ms.locfileid: "25030582"
     3. **リカバリ性に優れたブランチ アプライアンス**をクリックします。
     
 9. 表示されるウィザードの指示に従います。 ウィザードの項目については、次を参照してください。    
-<!-- [Define a Survivable Branch Appliance or Server in Lync 2013](https://technet.microsoft.com/en-us/library/gg398280(v=ocs.15).aspx). -->
- <!-- The above link points to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
+   <!-- [Define a Survivable Branch Appliance or Server in Lync 2013](https://technet.microsoft.com/en-us/library/gg398280(v=ocs.15).aspx). -->
+   <!-- The above link points to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
     
     > [!NOTE]
     > リカバリ性に優れたブランチ アプライアンスは、監視ストアに関連付けられてのみできます。 

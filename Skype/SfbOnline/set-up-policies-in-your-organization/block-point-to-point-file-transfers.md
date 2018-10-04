@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: ビジネス オンラインの Skype は、既存の会議ポリシー設定の一部として、ポイント ツー ポイント (P2P) ファイルの転送を制御する機能があります。 ただし、これにより、またはファイルかどうかは、ファイルを転送するユーザーは、同じ組織内に、または別の組織からのフェデレーション ユーザーにユーザーの転送をブロックします。 次の手順では、次のまたはパートナーのフェデレーション組織との P2P のファイル転送をブロックできます。
-ms.openlocfilehash: 3ae7bce22a99858af36696e1fde41bb614f2c008
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 6ca79b45c4e068ae6999db24cf6a0dd54e9e3aa6
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858493"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372105"
 ---
 # <a name="block-point-to-point-file-transfers"></a>ポイント ツー ポイントのファイル転送を禁止する
 
@@ -65,21 +65,21 @@ ms.locfileid: "23858493"
     
 - **Windows PowerShell セッションを開始する**
     
-1. [**スタート メニュー**]  >  [**Windows PowerShell**] を開きます。
+1. [**スタート メニュー**]  >  [**Windows PowerShell**] から開きます。
     
 2. [ **Windows PowerShell**] ウィンドウで、次を実行して、Office 365 の組織に接続します。
     
     > [!NOTE]
     > Skype for Business Online Windows PowerShell モジュールを初めて使用するときに、 **Import-Module** コマンドを実行するだけです。
 
-  ```      
+   ```      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
-  ```
+   ```
 
-  Windows PowerShell を開始する方法の詳細を設定する場合は、 [1 つの Windows PowerShell のウィンドウ内のすべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)か、 [Windows PowerShell を使用して、オンライン ビジネスの Skype への接続](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)を参照してください。
+   Windows PowerShell を開始する方法の詳細を設定する場合は、 [1 つの Windows PowerShell のウィンドウ内のすべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)か、 [Windows PowerShell を使用して、オンライン ビジネスの Skype への接続](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)を参照してください。
     
 ## <a name="disable-p2p-file-transfers-for-your-organization"></a>組織の P2P のファイル転送を無効にします。
 
@@ -95,13 +95,13 @@ ms.locfileid: "23858493"
 
 ユーザーに新しいポリシーを作成して、そのユーザーに付与することによって適用することができます。 次のコマンドを実行します。 
 > 
-  ```
-  New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
-  ```
+>   ```
+>   New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
+>   ```
 > 
-  ```
-  Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity amosm@contoso.com
-  ```
+>   ```
+>   Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity amosm@contoso.com
+>   ```
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 

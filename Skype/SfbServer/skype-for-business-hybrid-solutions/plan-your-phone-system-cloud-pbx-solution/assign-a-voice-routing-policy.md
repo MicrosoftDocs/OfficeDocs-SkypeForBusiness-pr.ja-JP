@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: '概要: Office 365 の電話システムを使用して設置した PSTN 接続を持つユーザーの音声ポリシーを割り当てる方法の詳細については、このトピックを読み取り。'
-ms.openlocfilehash: 6acc7188cbb76c101890591a822ac03a686a8246
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 12e74a6ea4a0adf652cc4e9477d20f91b4e13732
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886063"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372410"
 ---
 # <a name="assign-a-voice-routing-policy"></a>音声ルーティング ポリシーの割り当て
  
@@ -50,15 +50,15 @@ ms.locfileid: "23886063"
     
 3. PSTN 使用法レコードは、ポリシーに追加します。
     
-  ```
-  Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
-  ```
+   ```
+   Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
+   ```
 
     例:
     
-  ```
-  Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
-  ```
+   ```
+   Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
+   ```
 
 ## <a name="creating-a-new-voice-routing-policy"></a>新しい音声ルーティング ポリシーを作成する
 
@@ -70,15 +70,15 @@ ms.locfileid: "23886063"
     
 3. 新しい音声ルーティング ポリシーを作成します。
     
-  ```
-  New-CSVoiceRoutingPolicy -Identity <String> -Name <String> -PSTNUsages <PSTNUsagesId>
-  ```
+   ```
+   New-CSVoiceRoutingPolicy -Identity <String> -Name <String> -PSTNUsages <PSTNUsagesId>
+   ```
 
     例:
     
-  ```
-  New-CSVoiceRoutingPolicy -Identity HybridVoice -Name Hybrid -PSTNUsages "Local", "Long Distance"
-  ```
+   ```
+   New-CSVoiceRoutingPolicy -Identity HybridVoice -Name Hybrid -PSTNUsages "Local", "Long Distance"
+   ```
 
 この例では、HybridVoice という新しい音声ルーティング ポリシーを作成します。このポリシーには 2 つの PSTN 使用レコードが関連付けられています。
   
@@ -94,15 +94,15 @@ ms.locfileid: "23886063"
     
 3. 既存の音声ポリシーをユーザーに割り当てます。
     
-  ```
-  Grant-CsVoiceRoutingPolicy -Identity <UserIdParameter> -PolicyName <String>
-  ```
+   ```
+   Grant-CsVoiceRoutingPolicy -Identity <UserIdParameter> -PolicyName <String>
+   ```
 
     例:
     
-  ```
-  Grant-CsVoiceRoutingPolicy -Identity "Bob Kelly" -PolicyName HybridVoice
-  ```
+   ```
+   Grant-CsVoiceRoutingPolicy -Identity "Bob Kelly" -PolicyName HybridVoice
+   ```
 
 次の例では、表示名 Bob Kelly のユーザーを、以前に作成した HybridVoice という名前の音声ポリシーに割り当てます。
   

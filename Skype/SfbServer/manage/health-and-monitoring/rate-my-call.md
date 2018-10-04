@@ -9,47 +9,47 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: '概要: は、ビジネス サーバー用のレート自分を呼び出す機能は、Skype について説明します。'
-ms.openlocfilehash: 737d6a71f6880139d558d601a14d8f76c61d80f2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3e4e2f63c9d61bacab73838933ef89130714f6f0
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989064"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373474"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>Business Server に Skype で電話を評価する.
- 
+
 **の概要:** ビジネス サーバーのマイ レートを呼び出す機能は、Skype を紹介します。
-  
+
 レート [呼び出すビジネス 2015年 2016 上およびクライアント企業のエンド ・ ユーザーからのフィードバックを取得する方法を提供する Windows 用 Skype の新機能をしました。
-  
+
 レート [呼び出し] ウィンドウでは、「星」の評価システムと音声通話とビデオ通話用の定義済みのトークンを提供します。 さらに、管理者には、フィードバックを提供するユーザー設定フィールドが有効にすることができます。
-  
+
 レート [呼び出しの収集したデータが既存の監視のレポートに現在含まれていないが、監視、別のレポートがあります。 SQL クエリを実行することによってアクセスできる SQL テーブル内のデータが収集されます。
-  
+
 ## <a name="rate-my-call-prerequisites"></a>通話の評価の前提条件
 
 ビジネス サーバーの展開について、Skype のユーザーは、レートの [呼び出しの機能にアクセスできる、前に次のコンポーネントのセットを展開し、構成する必要があります。
-  
+
 -  ビジネスのサーバーにインストールされている (9160 またはそれ以降のバージョン) には、Skype が必要です。
-    
+
 - もらって、Skype を使用して、ビジネスの ui をインストールし、ビジネスの Skype の最新バージョンへの更新は、ユーザーがいます。
-    
+
 - ビジネス サーバーのフロント エンド プールの Skype では、ユーザーが所属する必要があります。
-    
+
 - ビジネス サーバー監視のデータベースを展開し、Skype をビジネス サーバー プールに関連付けられているため、Skype が必要です。
-    
+
 - 通話品質ダッシュボード (CQD) を展開することをお勧めします
-    
+
 ## <a name="configure-rate-my-call"></a>通話の評価の構成
 
 レート自分を呼び出す機能は既定では、次の設定でクライアントのポリシーを有効になっています。
-  
+
 - [呼び出し表示の割合の 10% を評価します。
-    
+
 - 呼び出しできるようにするカスタム ユーザー フィードバック - 無効になっている評価します。
-    
+
 ただし、基本機能を有効にする必要がありませんが、カスタムのフィードバックをする場合は個別に有効にする必要があります。。 次の Windows PowerShell コマンドレットでは、カスタムのエンド ・ ユーザーからのフィードバックを有効にし、10% から 80% に変更する例を示します。
-  
+
 ```
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
 ```
@@ -57,13 +57,13 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
 ## <a name="accessing-rate-my-call-data"></a>通話の評価データへのアクセス
 
 監視データベース内の 2 つのテーブルでは、ユーザーからのデータが収集されます。
-  
+
  **[QoeMetrics] です。[dbo].[CallQualityFeedbackToken]**-次の表には、エンド ・ ユーザーによるトークンのポーリングの結果が含まれています。
-  
+
  **[QoeMetrics] です。[dbo].[CallQualityFeedbackTokenDef]**-次の表には、トークンの定義が含まれています。
-  
+
 トークンの定義は、次のように記述します。
-  
+
 |||
 |:-----|:-----|
 |1  <br/> |DistortedSpeech  <br/> |
@@ -104,15 +104,15 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
 |408  <br/> |SS_Other  <br/> |
 |501  <br/> |Reliabilty_Join  <br/> |
 |502  <br/> |Reliabilty_Invite  <br/> |
-   
+
  **[QoeMetrics] です。[dbo].[CallQualityFeedback]** このテーブルには、有効になっている場合の「星」の投票および顧客のフィードバックからのポーリングの結果が含まれています。
-  
+
 テーブルからデータを使用して呼び出すことができます、**を選択\*[Table.Name] から**クエリまたは Microsoft SQL Server Management Studio のを使用しています。
-  
+
 次の SQL クエリを使用できます。
-  
+
  **音声**
-  
+
 ```
 SELECT
         s.ConferenceDateTime
@@ -146,11 +146,10 @@ SELECT
             (CallerCqfToken.TokenId < 20 or (CallerCqfToken.TokenId > 100 and CallerCqfToken.TokenId < 200)) -- only look at Audio related feedback
         INNER JOIN [User] AS Caller WITH (NOLOCK) ON
             Caller.UserKey = CallerCqf.FromURI
- 
 ```
 
  **ビデオ**
-  
+
 ```
 SELECT
         s.ConferenceDateTime
@@ -189,7 +188,7 @@ SELECT
 ## <a name="updating-token-definitions"></a>トークンの定義を更新します。
 
 ビジネス クライアント用の最新の Skype は、新しい問題トークン Id を報告 (\> 100)、[QoeMetrics] 内に存在できません。[dbo].[CallQualityFeedbackTokenDef] テーブルです。 最新のトークン定義とデータベース テーブルを更新するのには、Microsoft SQL Server Management Studio のを使用して監視データベースに SQL の下コマンドを実行することができます。 このコマンドは、[QoeMetrics] 内のすべてのエントリに置き換えられます。[dbo].[CallQualityFeedbackTokenDef] テーブルです。
-  
+
 ```
 DELETE FROM [CallQualityFeedbackTokenDef];
 INSERT INTO [CallQualityFeedbackTokenDef] (TokenId, TokenDescription) VALUES
@@ -231,7 +230,6 @@ INSERT INTO [CallQualityFeedbackTokenDef] (TokenId, TokenDescription) VALUES
     (408, N'SS_Other'),
     (501, N'Reliabilty_Join'),
     (502, N'Reliabilty_Invite');
-
 ```
 
 

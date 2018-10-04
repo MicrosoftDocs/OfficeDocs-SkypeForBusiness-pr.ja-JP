@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: この資料では、Skype ルーム システム v2 の累積的な機能強化について説明します。
-ms.openlocfilehash: af4f7621f9b5a70bc9b8a7ce87e50a6e6791ea63
-ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
+ms.openlocfilehash: ddcc4da301d491d763baf736053fd8eaeaee1b87
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "25358980"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375507"
 ---
 # <a name="release-notes"></a>リリース ノート 
 
@@ -161,7 +161,7 @@ Skype ルーム システム v2 リリース 3.0.12.0 (アップデート 3) は
 - 状態を簡単に表示できるディレクトリから、または通話経由でユーザーを招待する
 - ルーム内のスタンドアロン会議電話を置き換える Skype for Business PSTN 会議と PSTN 通話をサポート
     
- **どの会議室でも変換**
+  **どの会議室でも変換**
   
 - 中央のテーブル タッチ コントローラーと正面にある大型室内ディスプレイ向けに最適化された専用の Skype 会議アプリ
 - 正面の室内ディスプレイやプロジェクターで既存の投資を再利用
@@ -169,7 +169,7 @@ Skype ルーム システム v2 リリース 3.0.12.0 (アップデート 3) は
 - Skype for Business の認定オーディオ デバイスとビデオ デバイスはさまざまなサイズのルームで利用可能
 - ルームおよび Skype 会議でデスクトップ共有を投影する組み込みの有線取り込み
     
- **展開が容易、管理が簡単**
+  **展開が容易、管理が簡単**
   
 - 室内でユーザーを検出すると自動的ディスプレイをオンにする Always-on アプライアンス
 - UWP (ユニバーサル Windows プラットフォーム) Skype 会議アプリの展開と更新が簡単

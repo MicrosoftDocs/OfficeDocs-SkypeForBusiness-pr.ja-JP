@@ -11,15 +11,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: '概要: ビジネス サーバー 2015 の Skype での集中ログ サービス シナリオのプロバイダーを構成する方法を説明します。'
-ms.openlocfilehash: a609d7406f59702aeb906a21132eff5f861ce037
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e67a1dee9227624ecc94c50437f60781435b2fe8
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372493"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での集中ログ サービス プロバイダーの構成
  
-**の概要:**ビジネス サーバー 2015 の Skype での集中ログ サービス シナリオのプロバイダーを構成する方法について説明します。
+**の概要:** ビジネス サーバー 2015 の Skype での集中ログ サービス シナリオのプロバイダーを構成する方法について説明します。
   
 概念とログの集中管理サービスのプロバイダーの構成を把握する最も重要なは。 Theproviders は、Skype のビジネス サーバー トレース モデルの Skype のビジネス サーバー サーバー ロールのコンポーネントに直接マップします。 プロバイダーでは、ビジネス サーバー 2015 トレースは、収集、およびフラグ (たとえば、TF_Connection または TF_Diag) の例では、致命的、エラー、または警告) メッセージの種類は、Skype のコンポーネントを定義します。 プロバイダーは、ビジネスのサーバーのサーバー ロールの各 Skype でトレース可能なコンポーネントです。 プロバイダーを使用して、コンポーネントに対するトレースのレベルと種類 (S4、SIPStack、IM、プレゼンスなど) を定義します。 定義済みのプロバイダーは、シナリオの中で特定の問題状況に対応する特定の論理コレクション用のすべてのプロバイダーをグループ化するために使用されます。
   
@@ -82,21 +83,21 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. 既存のプロバイダーの構成をレビューするには、次を入力します。
     
-  ```
-  Get-CsClsScenario -Identity <scope and scenario name>
-  ```
+   ```
+   Get-CsClsScenario -Identity <scope and scenario name>
+   ```
 
     たとえば、グローバル会議アテンダントに関する情報をレビューするには、次のように入力します。
     
-  ```
-  Get-CsClsScenario -Identity "global/CAA"
-  ```
+   ```
+   Get-CsClsScenario -Identity "global/CAA"
+   ```
 
     このコマンドは、関連するフラグ、設定、およびコンポーネントと共にプロバイダーの一覧を表示します。 表示される情報は十分なまたは既定の Windows PowerShell の書式の一覧が長すぎます、さまざまな出力メソッドを定義することによって追加情報を表示します。 これを行うには、次のように入力します。
     
-  ```
-  Get-CsClsScenario -Identity "global/CAA" | Select-Object -ExpandProperty Provider
-  ```
+   ```
+   Get-CsClsScenario -Identity "global/CAA" | Select-Object -ExpandProperty Provider
+   ```
 
     このコマンドの出力では、各プロバイダーを行分割形式で表示します。プロバイダー名、ログの種類、ログ レベル、フラグ、GUID、および役割が行ごとに表示されます。 
     
@@ -106,15 +107,15 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. シナリオ プロバイダーは、トレースするコンポーネント、使用するフラグ、および収集する詳細レベルで構成されます。これを実行するには次のように入力します。
     
-  ```
-  $<variableName> = New-CsClsProvider -Name <provider component> -Type <log type> -Level <log level detail type> -Flags <provider trace log flags>
-  ```
+   ```
+   $<variableName> = New-CsClsProvider -Name <provider component> -Type <log type> -Level <log level detail type> -Flags <provider trace log flags>
+   ```
 
     たとえば、Lyss プロバイダーから収集する内容および詳細レベルを定義するトレース プロバイダー定義は、次のようになります。
     
-  ```
-  $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Info" -Flags "All"
-  ```
+   ```
+   $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Info" -Flags "All"
+   ```
 
 -レベルの収集致命的、エラー、警告、および情報メッセージです。 使用するフラグ Lyss プロバイダー用に定義されているは、TF_Connection、TF_Diag および $LyssProvider 変数が定義されている TF_Protocol.After、Lyss プロバイダーからのトレースを収集するために**新規 CsClsScenario**コマンドレットを使用できます。 このプロバイダーの作成と新しいシナリオへの割り当てを完了するには、次のように入力します。
 
@@ -129,15 +130,15 @@ New-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvid
     
 2. 既存のプロバイダーの構成を更新または変更するには、次のように入力します。
     
-  ```
-  $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "TF_Connection, TF_Diag"
-  ```
+   ```
+   $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "TF_Connection, TF_Diag"
+   ```
 
     次のように入力することで、プロバイダーを割り当てるシナリオを更新します。
     
-  ```
-  Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
-  ```
+   ```
+   Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
+   ```
 
 コマンドを実行すると、最終的にシナリオ site:Redmond/RedmondLyssInfo のフラグと割り当てられるプロバイダーのレベルが更新されます。 Get-CsClsScenario を使用して、新しいシナリオを表示できます。 詳細については、 [Get CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps)を参照してください。
 > [!CAUTION]
@@ -156,33 +157,31 @@ Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Add=$ABSP
     
 2. 用意されているコマンドレットを使用して、既存のプロバイダーの更新と新しいプロバイダーの作成を実行できます。 プロバイダーを削除するには、**セット CsClsScenario**をプロバイダーのパラメーターの置換ディレクティブを使用する必要があります。 プロバイダーを完全に削除する唯一の方法は、Update ディレクティブを使用して、削除するプロバイダーを、再定義した同じ名前のプロバイダーに置き換えることです。 たとえば、プロバイダー LyssProvider では、ログの種類として WPP、レベルとして Debug、およびフラグとして TF_CONNECTION と TF_DIAG が定義されています。 フラグを変更する必要があります「すべて」です。 このプロバイダーを変更するには、次のように入力します。
     
-  ```
-  $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
-  ```
+   ```
+   $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
+   ```
 
-  ```
-  Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Replace=$LyssProvider}
-  ```
+   ```
+   Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Replace=$LyssProvider}
+   ```
 
 3. シナリオとそれに関連付けられているプロバイダーを完全に削除するには、次のように入力します。
     
-  ```
-  Remove-CsClsScenario -Identity <scope and name of scenario>
-  ```
+   ```
+   Remove-CsClsScenario -Identity <scope and name of scenario>
+   ```
 
     次に例を示します。
     
-  ```
-  Remove-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo"
-  ```
+   ```
+   Remove-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo"
+   ```
 
     > [!CAUTION]
     > **削除 CsClsScenario**コマンドレットは確認を要求していません。 シナリオは、それに関連付けられているプロバイダーと共に削除されます。 シナリオを初めて作成したときに使用したコマンドを再実行することで、シナリオを再作成できます。 削除したシナリオまたはプロバイダーを回復するための手順はありません。
   
 **削除 CsClsScenario**コマンドレットを使用してシナリオを削除すると、完全にスコープからシナリオを削除します。 作成したシナリオとシナリオの一部であったプロバイダーを使用するには、新しいプロバイダーを作成し、それらを新しいシナリオに割り当てます。
 ## <a name="see-also"></a>関連項目
-
-#### 
 
 [Get CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps)
   
@@ -193,4 +192,3 @@ Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Add=$ABSP
 [セット CsClsScenario](https://docs.microsoft.com/powershell/module/skype/set-csclsscenario?view=skype-ps)
   
 [新しい-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/new-csclsprovider?view=skype-ps)
-

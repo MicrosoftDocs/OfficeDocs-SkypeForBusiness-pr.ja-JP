@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ビジネス サーバー 2019 の Skype に移行した後は、中央管理サーバーを移動する、Skype ビジネス 2019 フロント エンド サーバーまたはプールのレガシ サーバーを削除する前にする必要があります。
-ms.openlocfilehash: 805b5c506fdda11bdc24144a0622e674e8ef281b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6a358b11d7d319d5dafbb82f4391cdc3d0ae1562
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030526"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373444"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype に従来のサーバーの全体管理サーバーを移動します。
 
@@ -35,9 +35,9 @@ ms.locfileid: "25030526"
     
 3. ビジネス サーバー 2019 の SQL Server データベースでは、ビジネス サーバー管理シェルには、Skype での Skype の新しい中央管理ストアを作成するのには次のように入力します。
     
-  ```
-  Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
-  ```
+   ```
+   Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
+   ```
 
 4. **Skype**ビジネス サーバーのフロント エンドのサービスの状態が**開始**ことを確認します。
     
@@ -56,9 +56,9 @@ ms.locfileid: "25030526"
   
 5. ビジネス サーバー 2019 標準 Edition フロント エンド サーバー、ビジネス サーバー管理シェルには、Skype では、Skype の新しい中央管理ストアを作成するのには次のように入力します。 
     
-  ```
-  Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
-  ```
+   ```
+   Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
+   ```
 
 6. **Skype**ビジネス サーバーのフロント エンドのサービスの状態が**開始**ことを確認します。
     
@@ -70,18 +70,18 @@ ms.locfileid: "25030526"
     
 3. ビジネス サーバー管理シェルの Skype で次のように入力します。 
     
-  ```
-  Enable-CsTopology
-  ```
+   ```
+   Enable-CsTopology
+   ```
 
     > [!CAUTION]
     > 場合`Enable-CsTopology`が失敗した場合は、コマンドが続行する前に完了するを防止する問題を解決します。 移動は失敗します、それが状態のままに、トポロジ**を有効にする CsTopology**が成功しない場合は、中央管理ストアが存在しません。 
   
 4. ビジネス 2019 フロント エンド サーバーまたはフロント エンド プール、ビジネス サーバー管理シェルには、Skype の Skype で次のように入力します。 
     
-  ```
-  Move-CsManagementServer
-  ```
+   ```
+   Move-CsManagementServer
+   ```
 
 5. Skype ビジネス サーバー管理シェルには、サーバー、ファイル ストア、データベース ストア、および現在の状態を提案済み状態のサービス接続ポイントが表示されます。 情報をよく読んで、目的のソースと宛先を確認します。 続けるには、 **Y**または移動を停止するのには**N**を入力します。 
     
@@ -99,9 +99,9 @@ ms.locfileid: "25030526"
     
 12. 新しい中央管理ストアで発生している、ビジネス サーバー管理シェルには、Skype では、そのレプリケーションを確認するのには次のように入力します。 
     
-  ```
-  Get-CsManagementStoreReplicationStatus
-  ```
+    ```
+    Get-CsManagementStoreReplicationStatus
+    ```
 
     > [!NOTE]
     > レプリケーション現在のすべてのレプリカを更新するのには時間がかかる場合があります。 
@@ -117,15 +117,15 @@ ms.locfileid: "25030526"
   
 3. レガシー インストールのサーバーの全体管理サーバーから中央管理ストアのデータベース ファイルを削除するのには次のように入力します。
     
-  ```
-  Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
-  ```
+   ```
+   Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
+   ```
 
     例:
     
-  ```
-  Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
-  ```
+   ```
+   Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
+   ```
 
     場所、 _ \<SQL Server の FQDN\>_ は、従来のいずれか、Enterprise Edition または Standard Edition サーバーの FQDN のバック エンド サーバーをインストールします。 
     

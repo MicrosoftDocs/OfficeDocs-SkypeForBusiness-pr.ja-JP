@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'ダイヤルイン電話会議ライセンスと会議 ID をユーザーおよびその他の多くのダイヤルイン電話会議の設定に割り当てるための Microsoft Teams での手順を確認します。 '
-ms.openlocfilehash: 1cf3240a2b6cf286e14a8180346f8db0ed755a46
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: b63650833c7c844de11ecb833288b6568604f919
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25019095"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375864"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-microsoft-teams"></a>Microsoft Teams で組織の電話会議の設定を管理する
 
@@ -37,7 +37,7 @@ ms.locfileid: "25019095"
 ## <a name="assign-an-audio-conferencing-license"></a>電話会議のライセンスを割り当てる
 
 > [!NOTE]
-> チームを使用してライセンスを割り当てることはできません。 職場または学校のアカウントを使用して、Office 365 にサインインします。 In the left navigation of the Office 365 admin center, go to UsersActive users > and then select the user or users from the list of available users. 
+> Teams を使用してライセンスを割り当てることはできません。 Office 365 管理センターを使用する必要があります。 In the left navigation of the Office 365 admin center, go to UsersActive users > and then select the user or users from the list of available users. 
   
  最大 20 人までのライセンスを同時に割り当てている場合は、[ ビューの選択] ボックスを使用していずれかのオプションを選択するか、独自のビューを作成することができます。次に [ 編集]、[ 次へ] を 2 回クリックし、ライセンスを選択して、[ 送信] をクリックします。また、Windows Powershell を使用してライセンスを複数のユーザーに割り当てることもできます。操作手順と PowerShell のサンプル スクリプトについては、「Skype for Business と Microsoft Teams のライセンスを割り当てる」をご覧ください。
   
@@ -46,7 +46,7 @@ ms.locfileid: "25019095"
 2. 次に [ **編集**]、[ **次へ**] を 2 回クリックし、ライセンスを選択して、[  > ] をクリックします。****
     
     > [!NOTE]
-    > 操作手順と PowerShell のサンプル スクリプトについては、「**Skype for Business と Microsoft Teams のライセンスを割り当てる**」をご覧ください。 操作ウィンドウの [ **製品ライセンス**] で [ **編集**] をクリックします。****  
+    > 操作手順と PowerShell のサンプル スクリプトについては、「**Skype for Business と Microsoft Teams のライセンスを割り当てる**」をご覧ください。 次に [**編集**]、[**次へ**] を 2 回クリックしてからライセンスを選択し、[**送信**] をクリックします。  
   
 3. 操作ウィンドウの [**製品ライセンス**] で [ **編集**] をクリックします。 
     
@@ -74,7 +74,7 @@ ms.locfileid: "25019095"
     
 ## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>ユーザーに送信された、送信者のメール メッセージ内の連絡先情報を変更する
 
-Change the senders contact information of email messages sent to users 既定では、Office 365 は、電子メールの送信者が電子メール アドレスを変更し、Windows PowerShell を使用して名前を表示できます。 詳細については[マイクロソフト チームの PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)を参照してください。
+Change the senders contact information of email messages sent to users 既定では、メールの送信者は Office 365 ですが、Windows PowerShell を使用してメール アドレスと表示名を変更することができます。 詳細については、[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)をご覧ください。
   
 ## <a name="reset-the-meeting-conference-id"></a>会議 ID をリセットする
 
@@ -84,13 +84,13 @@ Change the senders contact information of email messages sent to users 既定で
 
 2. [**電話会議**] の下で、[**会議 ID のリセット**] をクリックします。  
 
-3. **会議 ID をリセットしますか?** ] ウィンドウで、[**リセット**] をクリックします。 It's enabled by default. After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use Skype for Business Meeting Migration Tool to update their existing meetings. To see how to download, install and run the Lync Meeting Update Tool, see:> Meeting Update Tool for Skype for Business and LyncSkype for Business Online, Meeting Migration Tool (64-bit)Skype for Business Online, Meeting Migration Tool (32-bit)
+3. [**会議 ID をリセットしますか?**] ウィンドウで、[**リセット**] をクリックします。 It's enabled by default. これは既定では有効になっています。
 
 「[ユーザーのために会議 ID をリセットする](reset-a-conference-id-for-a-user-in-teams.md)」をご覧ください。
   
 ## <a name="reset-a-conference-organizers-pin"></a>電話会議の開催者の PIN をリセットする
 
-ユーザーをスケジュールする会議ごとに固有の会議 ID が割り当てられますを取得 会議 ID が自動的に作成され、ユーザーに割り当てられているがあります、ユーザーは、この 1 つを使用する場合は、特定の数に設定するとユーザーが覚えられないか、会議 ID が失われています。 
+ユーザーがスケジュール設定した各会議には、一意の会議 ID が割り当てられます。 会議 ID は自動的に作成されユーザーに割り当てられますが、ユーザーがそれを使いたくないため特定の番号に設定しようと考える場合や、ユーザーが会議 ID を覚えられない、または紛失してしまう場合があります。 
 
 ![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
 
@@ -205,9 +205,9 @@ You can also set the primary and secondary languages that are supported when you
 
 2. リストから電話番号を選択し、[**編集**] をクリックします。 Go to the Office 365 admin centerSkype for Business.
     
-  - 電話会議で使うために Office 365 によって設定された電話番号を表示する。 
+   - 電話会議で使うために Office 365 によって設定された電話番号を表示する。 
     
-  - 場所、およびオーディオ会議自動アテンダントによって使用される主言語を表示します。
+   - 場所、およびオーディオ会議自動アテンダントによって使用される主言語を表示します。
 
   
 You can select the dial-in conferencing default phone number that will be given to users when they are enabled for dial-in conferencing.[](see-a-list-of-audio-conferencing-numbers-in-teams.md)

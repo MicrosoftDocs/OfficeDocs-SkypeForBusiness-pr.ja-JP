@@ -10,92 +10,92 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: '概要: は、Skype のビジネス サーバー 2015 の永続的なチャット サーバーのコンプライアンス サービスを構成する方法について説明します。'
-ms.openlocfilehash: e41afe6b9d6d36a73d818af7fc297e7b20006dcf
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 8d6fff09a59870c8550627bcf4222192e405c871
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21026617"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375930"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバーのコンプライアンス サービスの構成
- 
+
 **の概要:** ビジネス サーバー 2015 の Skype での永続的なチャット サーバーのコンプライアンス サービスを構成する方法について説明します。
-  
+
 永続的なチャットのコンプライアンスでは、管理者の活動だけでなく、永続的なチャット メッセージのアーカイブを維持することができます。 コンプライアンス サービスでは、記録しと関係者を含め、各永続的なチャット サーバーのテーマに関連するデータをアーカイブします。
-  
+
 - 永続的なチャット ルームに参加します。
-    
+
 - チャット ルームから退出する
-    
+
 - メッセージを投稿する
-    
+
 - チャット履歴を表示する
-    
+
 - ファイルをアップロードする
-    
+
 - ファイルをダウンロードする
-    
+
 この情報は、必要に応じてコンプライアンス SQL データベースから取得できます。 
 
 > [!NOTE]
 > 永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。 同じ機能は、チームで使用できます。 詳細については、[マイクロソフトのチームにビジネス用の Skype からの旅](/microsoftteams/journey-skypeforbusiness-teams)を参照してください。 永続的なチャットを使用する場合は、選択肢は、いずれかをチームでは、この機能を必要とするユーザーを移行するまたはビジネス サーバー 2015 の Skype を使用し続ける。 
-  
+
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Windows PowerShell を使用してコンプライアンス サービスを構成する
 
 トポロジ ビルダーを使用してコンプライアンス サービスを有効にすると、**Set-CsPersistenChatComplianceConfiguration** コマンドレットを使用してサービスを構成できます。
-  
+
 ```
 Set-CsPersistentChatComplianceConfiguration [-Identity <XdsIdentity>] <COMMON PARAMETERS>
 ```
 
 または
-  
+
 ```
 Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAMETERS>
 ```
 
 次のパラメーターを設定できます。
-  
+
 - AdapterType - アダプターの種類を指定できます。 アダプターはサード パーティ製品であり、コンプライアンス データベースのデータを特定の形式に変換します。 既定では XML です。
-    
+
 - OneChatRoomPerOutputFile - このパラメーターを指定できます各チャット ルームの作成するレポートを分割します。
-    
+
 - AddChatRoomDetails - 有効な場合、各チャット ルームに関する追加の詳細をデータベースに記録します。 この設定によりデータベースのサイズが非常に大きくなることから、既定では無効になっています。
-    
+
 - AddUserDetails - 有効な場合、各チャット ユーザーに関する追加の詳細をデータベースに記録します。 この設定によりデータベースのサイズが非常に大きくなることから、既定では無効になっています。
-    
+
 - Identity - コンプライアンス設定のスコープを、グローバル、サイト、サービスの各レベルなど、特定のコレクションに指定できます。 既定ではグローバル レベルです。 
-    
+
 - RunInterval - サーバーが次のコンプライアンス出力ファイルを生成するまでの期間を指定します (既定では 15 分)。
-    
+
 ## <a name="use-a-customized-compliance-adapter"></a>カスタマイズされたコンプライアンス アダプターを使用する
 
 永続的なチャット サーバーにインストールされている XmlAdapter を使用する代わりにカスタム アダプターを記述することができます。 記述するには、**IComplianceAdapter** インターフェイスを実装するパブリック クラスを含む .NET Framework アセンブリを提供する必要があります。 永続的なチャット サーバー プールの各サーバの永続的なチャット サーバーのインストール フォルダーにこのアセンブリを配置する必要があります。 任意のコンプライアンス サーバーからアダプターにコンプライアンス データを提供できますが、コンプライアンス サーバーからアダプターの複数のインスタンスに対して重複するコンプライアンス データを提供することはできません。
-  
+
 Compliance.dll アセンブリ、名前空間内でインターフェイスが定義されている`Microsoft.Rtc.Internal.Chat.Server.Compliance`。 このインターフェイスには、カスタム アダプターが実装する必要のある 2 つのメソッドが定義されています。
-  
+
 永続的なチャット コンプライアンス サーバーは、アダプターが最初に読み込まれたときに、次のメソッドを呼び出します。 `AdapterConfig`準拠のアダプターに関連する永続的なチャット コンプライアンス構成が含まれています。
-  
+
 ```
 void SetConfig(AdapterConfig config)
 ```
 
 永続的なチャット コンプライアンス サーバーに変換する新しいデータがある限り、定期的に次のメソッドを呼び出します。 この時間間隔は、 `RunInterval` 、永続的なチャットのコンプライアンスの構成で設定されています。
-  
+
 ```
 void Translate(ConversationCollection conversations)
 ```
 
 `ConversationCollection`このメソッドが呼び出された最後の時間から収集された通信に関する情報が含まれています。
-  
+
 ## <a name="customize-the-xslt-definition-file"></a>XSLT 定義ファイルをカスタマイズする
 
 コンプライアンス データは XML として送信されるため、XSLT 定義ファイルを使用して組織に最適な書式に変換できます。このトピックでは、コンプライアンス サービスが作成する XML ファイルについて説明します。また、XSLT の定義および出力ファイルを提供します。
-  
+
 ### <a name="output-format"></a>出力書式
 
 コンプライアンス サービスの出力は、会話 (Conversation 要素) とメッセージ (Messages 要素) によって分類されます。次のコード サンプルに例を示します。
-  
+
 ```
 <?xml version="1.0" encoding="utf-8" ?> 
 <Conversations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -112,7 +112,7 @@ void Translate(ConversationCollection conversations)
 ```
 
 Conversation 要素には、4 つの要素 (Channel、FirstMessage、StartTimeUTC、EndTimeUTC) が含まれます。Channel 要素には、チャット ルームの Uniform Resource Identifier (URI) が含まれます。FirstMessage 要素は、Messages 要素の最初のメッセージを記述します。StartTimeUTC および EndTimeUTC 要素は、会話の開始および終了時刻を示します。次のコード サンプルに例を示します。
-  
+
 ```
 <<FirstMessage type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -121,7 +121,7 @@ Conversation 要素には、4 つの要素 (Channel、FirstMessage、StartTimeUT
 ```
 
 Message 要素には、2 つの要素 (Sender、DateTimeUTC) と 3 つの属性 (Type、Content、ID) が含まれます。Sender 要素はメッセージを送信したユーザーを表し、DateTimeUTC 要素はイベントの発生時刻を表します。次のコード サンプルに例を示します。
-  
+
 ```
 <Message type="JOIN" content="" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -130,7 +130,7 @@ Message 要素には、2 つの要素 (Sender、DateTimeUTC) と 3 つの属性 
 ```
 
 次の表で、メッセージ属性 Type、Content、ID について説明します。
-  
+
 **Messages 要素の属性**
 
 |**属性**|**説明**|**オプション/必須**|
@@ -138,9 +138,9 @@ Message 要素には、2 つの要素 (Sender、DateTimeUTC) と 3 つの属性 
 |Type  <br/> |メッセージの型を指定します。メッセージの型については、「Messages 要素のメッセージ型」の表で説明しています。  <br/> |必須  <br/> |
 |Content  <br/> |メッセージの内容が含まれます。Type が Join または Part であるメッセージはこの属性を使用しません。  <br/> |省略可能  <br/> |
 |ID  <br/> |コンテンツの一意の ID を指定します。この属性は、Type が Chat であるメッセージでのみ使用されます。  <br/> |省略可能  <br/> |
-   
+
 各 Sender 要素には、5 つの属性 (Username、ID、Email、Internal、Uri) が含まれます。次の表で、これらの属性について説明します。
-  
+
 **Sender 要素の属性**
 
 |**属性**|**説明**|**オプション/必須**|
@@ -150,11 +150,11 @@ Message 要素には、2 つの要素 (Sender、DateTimeUTC) と 3 つの属性 
 |Email  <br/> |送信者の電子メール アドレスです。  <br/> |省略可能  <br/> |
 |Internal  <br/> |ユーザーが内部ユーザーとフェデレーション ユーザーのどちらであるかを指定します。この値が True に設定されている場合、ユーザーは内部ユーザーです。  <br/> |省略可能  <br/> |
 |Uri  <br/> |ユーザーの SIP URI では。  <br/> |必須  <br/> |
-   
+
 メッセージ要素を含めることができますメッセージの種類を次の例に示します。 また、各要素の使用方法の例を示します。
-  
+
 結合のユーザーがチャット ルームに参加します。
-  
+
 ```
 <Message type="JOIN" content="" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -163,7 +163,7 @@ Message 要素には、2 つの要素 (Sender、DateTimeUTC) と 3 つの属性 
 ```
 
 一部のユーザーは、チャット ルームを離れます。
-  
+
 ```
 <Message type="PART" content="" id="0">
   < Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -172,7 +172,7 @@ Message 要素には、2 つの要素 (Sender、DateTimeUTC) と 3 つの属性 
 ```
 
 チャット - 送信者の電子メール アドレスです。
-  
+
 ```
 <Message type="CHAT" content="hello" id="1">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -181,7 +181,7 @@ Message 要素には、2 つの要素 (Sender、DateTimeUTC) と 3 つの属性 
 ```
 
 Backchat - ユーザーは、チャットの履歴からコンテンツを要求します。
-  
+
 ```
 <Message type="BACKCHAT" content="backchatcontent" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -190,7 +190,7 @@ Backchat - ユーザーは、チャットの履歴からコンテンツを要求
 ```
 
 ファイルのアップロード ・ ユーザーは、ファイルをアップロードします。
-  
+
 ```
 <Message type="FILEUPLOAD" content="0988239a-bb66-4616-90a4-b07771a2097c.txt" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -199,7 +199,7 @@ Backchat - ユーザーは、チャットの履歴からコンテンツを要求
 ```
 
 ファイルのダウンロード - ユーザーは、ファイルをダウンロードします。
-  
+
 ```
 <Message type="FILEDOWNLOAD" content="006074ca-24f0-4b35-8bd8-98006a2d1aa8.txt" id="0">
   <Sender UserName="kazuto@litwareinc.com" id="10" email="" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -210,7 +210,7 @@ Backchat - ユーザーは、チャットの履歴からコンテンツを要求
 ### <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>既定の永続的なチャット出力 XSD と XSL 変換の例
 
 次のコード サンプルに、コンプライアンス サーバーからの既定の出力が含まれています。
-  
+
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema id="Conversations" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
@@ -224,7 +224,7 @@ Backchat - ユーザーは、チャットの履歴からコンテンツを要求
         <xs:enumeration value="FILEDOWNLOAD"/>
       </xs:restriction>
     </xs:simpleType>
-  
+
   <xs:element name="Sender">
     <xs:complexType>
       <xs:attribute name="UserName" type="xs:string" />
@@ -309,7 +309,7 @@ Backchat - ユーザーは、チャットの履歴からコンテンツを要求
 ```
 
 次のコード サンプルには、サンプル XSL 変換が含まれています。
-  
+
 ```
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
    <xsl:output method="xml" encoding="UTF-8" indent="yes" />
@@ -378,5 +378,4 @@ Backchat - ユーザーは、チャットの履歴からコンテンツを要求
       <DateTimeUTC><xsl:value-of select="DateTimeUTC/@since1970" /></DateTimeUTC>
    </xsl:template>
 </xsl:stylesheet>
-
 ```

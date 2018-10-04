@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: 既存の Cloud Connector Edition 展開をアップグレードする方法について説明します。
-ms.openlocfilehash: b727f3cb7feea7f080f2e75278294e855c65b197
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c0946cf26181df81327412c2dc0efc227b5a5586
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887538"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370628"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Cloud Connector 新バージョンへのアップグレード
  
@@ -76,27 +76,27 @@ ms.locfileid: "23887538"
     
 4. 管理者として PowerShell コンソールを起動し、次のコマンドレットを実行して現在のアプライアンスを登録します。
     
-  ```
-  Register-CcAppliance
-  ```
+   ```
+   Register-CcAppliance
+   ```
 
 5. 次のコマンドレットを実行して最新のバージョンをダウンロードします。
     
-  ```
-  Start-CcDownload
-  ```
+   ```
+   Start-CcDownload
+   ```
 
 6. 次のコマンドレットを実行してインストールを開始します。 
     
-  ```
-  Install-CcAppliance -Upgrade
-  ```
+   ```
+   Install-CcAppliance -Upgrade
+   ```
 
 7. 次のコマンドレットを実行して、新しい展開をアクティブ化し、以前のバージョンをオフにします。
     
-  ```
-  Switch-CcVersion
-  ```
+   ```
+   Switch-CcVersion
+   ```
 
 サイトに複数のアプライアンスがある場合は、前の手順に従い各アプライアンスを一度に 1 台ずつアップグレードしてください。
   

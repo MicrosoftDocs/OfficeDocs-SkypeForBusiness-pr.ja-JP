@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: '概要: は、Skype のビジネス サーバーの 2 要素認証を構成します。'
-ms.openlocfilehash: 4fc8791cd7459ecea89bb8101b2c1a488b6eace2
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: bb3975c3c843e2d6d7600109c600ad948aa1de15
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250802"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373889"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>Skype のビジネス サーバーの 2 要素認証を構成します。
 
@@ -77,9 +77,9 @@ ms.locfileid: "23250802"
 
 5. 次のコマンドを実行して、Trusted Platform Module (TPM) 管理コンソールを開きます。
 
-  ```
-  Tpm.msc
-  ```
+   ```
+   Tpm.msc
+   ```
 
 6. TPM 管理コンソールで、TPM 仕様バージョンが 1.2 以上であることを確認します。
 
@@ -90,18 +90,18 @@ ms.locfileid: "23250802"
 
 8. コマンド プロンプトで、次のコマンドを使用して新しい仮想スマート カードを作成します。
 
-  ```
-  TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
-  ```
+   ```
+   TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
+   ```
 
     > [!NOTE]
     > 仮想スマート カードを作成するときにカスタム PIN 値を指定するには、代わりに /pin プロンプトを使用します。
 
 9. コマンド プロンプトから、次のコマンドを実行してコンピューター管理コンソールを開きます。
 
-  ```
-  CompMgmt.msc
-  ```
+   ```
+   CompMgmt.msc
+   ```
 
 10. コンピューター管理コンソールで、[**デバイス管理**] をクリックします。
 
@@ -134,27 +134,27 @@ ms.locfileid: "23250802"
 
 7. [**証明書のテンプレート**] セクションで [**スマート カード ユーザー**] を選び、[証明書の要求の詳細設定] を次のように入力します。
 
-  - [**キーのオプション**] で次の設定を確認します。
+   - [**キーのオプション**] で次の設定を確認します。
 
-    - [**新しいキー セットを作成する**] ラジオ ボタンを選ぶ
+     - [**新しいキー セットを作成する**] ラジオ ボタンを選ぶ
 
-    - [**CSP**] で、[**Microsoft ベース スマート カード暗号化プロバイダー**] を選ぶ
+     - [**CSP**] で、[**Microsoft ベース スマート カード暗号化プロバイダー**] を選ぶ
 
-    - [**キー使用法**] で、[**Exchange**] を選ぶ (このオプションのみ有効)
+     - [**キー使用法**] で、[**Exchange**] を選ぶ (このオプションのみ有効)
 
-    - [**キーのサイズ**] に、2048 と入力する
+     - [**キーのサイズ**] に、2048 と入力する
 
-    - [**自動キー コンテナー名**] が選択されている
+     - [**自動キー コンテナー名**] が選択されている
 
-    - その他のボックスはオフにします。
+     - その他のボックスはオフにします。
 
-  - [**追加オプション**] で次の値を確認します。
+   - [**追加オプション**] で次の値を確認します。
 
-    - [**要求の形式**] で [**CMC**] を選ぶ。
+     - [**要求の形式**] で [**CMC**] を選ぶ。
 
-    - [**ハッシュ アルゴリズム**] で [**sha1**] を選ぶ。
+     - [**ハッシュ アルゴリズム**] で [**sha1**] を選ぶ。
 
-    - **フレンドリ名**の enterSmardcard 証明書。
+     - **フレンドリ名**の enterSmardcard 証明書。
 
 8. 物理カード リーダーを使っている場合は、デバイスにスマート カードを挿入します。
 
@@ -189,15 +189,15 @@ ms.locfileid: "23250802"
 
 3. Windows PowerShell コマンド ラインで次のコマンドを実行します。
 
-  ```
-  add-pssnapin Microsoft.Adfs.PowerShell
-  ```
+   ```
+   add-pssnapin Microsoft.Adfs.PowerShell
+   ```
 
 4. 展開に固有のサーバー名を置き換えて以下のコマンドを実行することで、パッシブ認証に対して有効にされる各サーバーとのパートナーシップを確立します。
 
-  ```
-  Add-ADFSRelyingPartyTrust -Name SfBPool01-PassiveAuth -MetadataURL https://SfBpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
-  ```
+   ```
+   Add-ADFSRelyingPartyTrust -Name SfBPool01-PassiveAuth -MetadataURL https://SfBpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
+   ```
 
 5. [管理ツール] メニューから AD FS 2.0 管理コンソールを起動します。
 
@@ -207,24 +207,24 @@ ms.locfileid: "23250802"
 
 8. Windows PowerShell を使用して次のコマンドを実行し、証明書利用者の信頼に関する発行承認規則を作成して割り当てます。
 
-  ```
-  $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "https://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
-  ```
+   ```
+   $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "https://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
+   ```
 
-  ```
-  Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth
--IssuanceAuthorizationRules $IssuanceAuthorizationRules
-  ```
+   ```
+   Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth
+   -IssuanceAuthorizationRules $IssuanceAuthorizationRules
+   ```
 
 9. Windows PowerShell を使用して次のコマンドを実行し、証明書利用者の信頼に関する発行変換規則を作成して割り当てます。
 
-  ```
-  $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "https://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
-  ```
+   ```
+   $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "https://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
+   ```
 
-  ```
-  Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
-  ```
+   ```
+   Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
+   ```
 
 10. AD FS 2.0 管理コンソールで、証明書利用者の信頼を右クリックし、[**要求規則の編集**] をクリックします。
 
@@ -268,9 +268,9 @@ AD FS 2.0 でスマート カードを使用した認証をサポートできる
 
 11. 次のコマンドを実行して IIS を再起動します。
 
-  ```
-  IISReset /Restart /NoForce
-  ```
+    ```
+    IISReset /Restart /NoForce
+    ```
 
 ## <a name="configuring-skype-for-business-server-passive-authentication"></a>Skype for Business Server のパッシブ認証の構成
 
@@ -291,30 +291,30 @@ AD FS 2.0 でスマート カードを使用した認証をサポートできる
 
 3. ビジネス サーバー管理シェル コマンド ラインの Skype、ディレクター、エンタープライズ プールと Standard Edition サーバーで次のコマンドを実行しているパッシブ認証を有効にするごとに、新しい Web サービス構成を作成します。
 
-  ```
-  New-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
-  ```
+   ```
+   New-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+   ```
 
     > [!CAUTION]
     > WsFedPassiveMetadataUri の FQDN の値は、AD FS 2.0 サーバーのフェデレーション サービス名です。フェデレーション サービス名の値は、AD FS 2.0 管理コンソールでナビゲーション ウィンドウの [**サービス**] を右クリックし、[**Edit Federation Service Properties**] を選択すると確認できます。
 
 4. 次のコマンドを実行して、UseWsFedPassiveAuth と WsFedPassiveMetadataUri の値が正しく設定されたことを確認します。
 
-  ```
-  Get-CsWebServiceConfiguration -identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
-  ```
+   ```
+   Get-CsWebServiceConfiguration -identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
+   ```
 
 5. クライアントでは、パッシブ認証は WebTicket 認証の最も望ましくない方法です。 すべての取締役、エンタープライズ プール、およびパッシブ認証を有効化する Standard Edition サーバー、他のすべての認証の種類必要があります無効にする Skype のビジネス Web サービスの次のコマンドレットを実行しています。
 
-  ```
-  Set-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
-  ```
+   ```
+   Set-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
+   ```
 
 6. 次のコマンドレットを実行して、他のすべての認証の種類が無効になっていることを確認します。
 
-  ```
-  Get-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
-  ```
+   ```
+   Get-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
+   ```
 
 ### <a name="proxy-configuration"></a>プロキシ構成設定
 
@@ -326,19 +326,19 @@ Skype のビジネス Web サービスの証明書の認証を無効にすると
 
 1. ビジネス サーバー管理シェル コマンド ラインの Skype から、次を実行して、パッシブ認証を有効にするビジネス サーバー エッジ プール、エンタープライズ プールと Standard Edition サーバーの各 Skype の新しいプロキシ構成を作成します。コマンド:
 
-  ```
-  New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
-  ```
+   ```
+   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+   ```
 
-  ```
-  New-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
-  ```
+   ```
+   New-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+   ```
 
 2. 次のコマンドを実行して、他のすべてのプロキシ認証の種類が無効になっていることを確認します。
 
-  ```
-  Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
-  ```
+   ```
+   Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
+   ```
 
 ## <a name="see-also"></a>関連項目
 

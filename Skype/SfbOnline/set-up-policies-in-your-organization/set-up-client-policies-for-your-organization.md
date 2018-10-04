@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: クライアント ポリシーはユーザーが利用できる Skype for Business Online の機能を決めるのに役立ちます。たとえば、一部のユーザーにファイルを転送する権限を与えて、他のユーザーに対してはその権限を与えないようにする場合が考えられます。
-ms.openlocfilehash: 791d54dd12e5f222958fd4513abdeca2433cbf16
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 1a5e752976aaa14adeb0b2345da830c5765ce7f7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23857863"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373195"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>組織のクライアント ポリシーをセットアップする
 
@@ -58,32 +58,32 @@ ms.locfileid: "23857863"
     > [!NOTE]
     > Skype for Business Online Windows PowerShell モジュールを初めて使用するときに、 **Import-Module** コマンドを実行するだけです。
 
-  ```      
+   ```      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
-  ```
+   ```
 
-  Windows PowerShell を開始する方法の詳細を設定する場合は、 [1 つの Windows PowerShell のウィンドウ内のすべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)か、 [Windows PowerShell を使用して、オンライン ビジネスの Skype への接続](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)を参照してください。
+   Windows PowerShell を開始する方法の詳細を設定する場合は、 [1 つの Windows PowerShell のウィンドウ内のすべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)か、 [Windows PowerShell を使用して、オンライン ビジネスの Skype への接続](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)を参照してください。
     
 ### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>絵文字、プレゼンスの通知を無効にして、インスタントメッセージ (IM) の保存を防止する
 
 - これらの設定のために新しいポリシーを作成するには、次を実行します。
     
 > 
-  ```
-  New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
-  ```
+>   ```
+>   New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
+>   ```
 
   [新規 CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx)コマンドレットの詳細を参照してください。
     
 - 作成した新しいポリシーを組織内のすべてのユーザーに付与するには、次を実行します。
     
 > 
-  ```
-  Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
-  ```
+>   ```
+>   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
+>   ```
 
   [許可 CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx)コマンドレットの詳細を参照してください。
     
@@ -94,18 +94,18 @@ ms.locfileid: "23857863"
 - これらの設定のために新しいポリシーを作成するには、次を実行します。
     
 > 
-  ```
-  New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
-  ```
+>   ```
+>   New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
+>   ```
 
   [新規 CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx)コマンドレットの詳細を参照してください。
     
 - 作成した新しいポリシーを組織内のすべてのユーザーに付与するには、次を実行します。
     
 > 
-  ```
-  Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
-  ```
+>   ```
+>   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
+>   ```
 
   [許可 CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx)コマンドレットの詳細を参照してください。
     
@@ -114,18 +114,18 @@ ms.locfileid: "23857863"
 ### <a name="prevent-showing-recent-contacts"></a>最近の連絡先を表示しないようにする
 
 - これらの設定のために新しいポリシーを作成するには、次を実行します。
-> 
-  ```
-  New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
-  ```
+  > 
+  > ```
+  > New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
+  > ```
 
   [新規 CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx)コマンドレットの詳細を参照してください。
     
 - Amos Marble に作成した新しいポリシーを付与するには、次を実行します。
-> 
-  ```
-  Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
-  ```
+  > 
+  > ```
+  > Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
+  > ```
 
   [許可 CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx)コマンドレットの詳細を参照してください。
     
@@ -133,7 +133,7 @@ ms.locfileid: "23857863"
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     

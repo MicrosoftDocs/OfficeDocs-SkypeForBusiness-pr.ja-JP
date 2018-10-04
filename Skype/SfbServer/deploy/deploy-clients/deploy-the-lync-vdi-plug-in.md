@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: このトピックでは、Skype を使用してリモート仮想デスクトップへの接続中にビジネスの展開手順について説明します。
-ms.openlocfilehash: d939d2b269d6488de1df09e3f8aff08e2b83458e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 08f676632e11c4bf95beee9b97be03703978a4a6
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20986104"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373345"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>ビジネス サーバーの Skype では、プラグインの Lync VDI の導入します。
  
@@ -50,11 +50,11 @@ ms.locfileid: "20986104"
     
 4. [**ローカル リソース**] タブをクリックします。[**リモート オーディオ**] の下にある [**設定**] をクリックし、次の手順を実行します。
     
-  - [**リモート オーディオ再生**] で [**このコンピューターで再生**] を選択します。
+   - [**リモート オーディオ再生**] で [**このコンピューターで再生**] を選択します。
     
-  - [**リモート オーディオ録音**] で [**録音しない**] を選択します。
+   - [**リモート オーディオ録音**] で [**録音しない**] を選択します。
     
-  - [**OK**] をクリックします。
+   - [**OK**] をクリックします。
     
 5. [**エクスペリエンス**] タブをクリックします。[**パフォーマンス**] で [**ビットマップのキャッシュを保持**] チェック ボックスをオフにします。
     

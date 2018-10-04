@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: ビジネス ユーザー向けに、Skype のインターネット電話サービスを Office 365 に電話システムを有効にする方法を説明します。
-ms.openlocfilehash: ef1e7b98ad4a6080d07dc4abca717aef49a725ed
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ec0e37c0597f81001075f144dd38b58acfbb1159
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887905"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372671"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>エンタープライズ VoIP でオンラインと Office 365 のボイスメールに電話システムのユーザーを有効にします。
  
@@ -41,15 +41,15 @@ Office 365 のボイスとボイス メールの電話システムで、ユー�
     
 3. 次のコマンドを入力し、Enter キーを押します。
     
-  ```
-  Import-Module skypeonlineconnector
-  ```
+   ```
+   Import-Module skypeonlineconnector
+   ```
 
 4. 次のコマンドを入力し、Enter キーを押します。
     
-  ```
-  $cred = Get-Credential
-  ```
+   ```
+   $cred = Get-Credential
+   ```
 
     Enter キーを押すと、[Windows PowerShell 資格情報の要求] ダイアログ ボックスが表示されます。
     
@@ -57,29 +57,29 @@ Office 365 のボイスとボイス メールの電話システムで、ユー�
     
 6. PowerShell ウィンドウで、次のコマンドを入力し、Enter キーを押します。
     
-  ```
-  $Session = New-CsOnlineSession -Credential $cred -Verbose
-  ```
+   ```
+   $Session = New-CsOnlineSession -Credential $cred -Verbose
+   ```
 
 7. 次のコマンドレットを入力して、セッションをインポートします。
     
-  ```
-  Import-PSSession $Session -AllowClobber
-  ```
+   ```
+   Import-PSSession $Session -AllowClobber
+   ```
 
     実行すると、PowerShell、Skype のビジネス サーバーのビジネス コマンドレットをローカルの Skype は既に読み込まれて PowerShell を開いたとき。 同じ名前のオンプレミスのコマンドレットを上書きするオンラインのコマンドレットを使用するのには、AllowClobber パラメーターを指定する必要があります。
     
 8. Set-CsUser コマンドレットを使用して、次のように、$EnterpriseVoiceEnabled および $HostedVoiceMail プロパティをユーザーに割り当てます。
     
-  ```
-  Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-  ```
+   ```
+   Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+   ```
 
     例:
     
-  ```
-  Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-  ```
+   ```
+   Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+   ```
 
     > [!NOTE]
     > SIP アドレス、ユーザー プリンシパル名 (UPN)、ドメイン名とユーザー名 (domain\username)、および Active Directory での表示名 ("小林 良太") でユーザーを指定することもできます。 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 有効にするか、Skype でオンライン ビジネスの会議に参加するときに、ユーザーがそれらの名前を記録できるようであるかどうかを無効にする方法を説明します。
-ms.openlocfilehash: 0e330d5efdd7325a8db48aa679d6ecbb9264c345
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7b28a038edf9b812532283ecaa766b86e2bc8de8
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884723"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371760"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Skype でオンライン ビジネスの会議に参加するときに自分の名前を記録するようにユーザーを有効にします。
 
@@ -42,9 +42,9 @@ ms.locfileid: "23884723"
     
 2. [ **会議参加エクスペリエンス**] の [ **会議の入退出の通知をオンにする**] で、次のいずれかを選びます。
     
-  - **オン**: 発信者は、会議に参加する前に名前を記録するように依頼されます。 既定ではオンになっています。
+   - **オン**: 発信者は、会議に参加する前に名前を記録するように依頼されます。 既定ではオンになっています。
     
-  - **オフ**: 発信者は、会議に参加する前に名前を記録するように依頼されません。
+   - **オフ**: 発信者は、会議に参加する前に名前を記録するように依頼されません。
     
 3. 変更したら [ **保存**] をクリックします。
     
@@ -55,7 +55,7 @@ ms.locfileid: "23884723"
 
 - 時間を節約したり、自動化したりするには、[Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757) コマンドレットを使用できます。
     
--  Windows PowerShell の場合、Skype for Business Online はユーザーの管理と、ユーザーが許可されている操作や許可されていない操作の管理に使います。Windows PowerShell により、単一の管理ポイントを使って Office 365 を管理でき、複数の作業を実行する必要があるときに日常業務を合理化できます。Windows PowerShell を使い始めるには、次のトピックを参照してください。
+- Windows PowerShell の場合、Skype for Business Online はユーザーの管理と、ユーザーが許可されている操作や許可されていない操作の管理に使います。Windows PowerShell により、単一の管理ポイントを使って Office 365 を管理でき、複数の作業を実行する必要があるときに日常業務を合理化できます。Windows PowerShell を使い始めるには、次のトピックを参照してください。
     
   - [Windows PowerShell で Office 365 を管理する 6 つの理由](https://go.microsoft.com/fwlink/?LinkId=525041)
     

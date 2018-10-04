@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 大規模な展開で Skype ルーム システム v2 を展開する方法については、このトピックを参照してください。
-ms.openlocfilehash: 3b34d584bf98326257964e30431f622a0be6dee2
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c84517ba5ceb7eea582b379c8cabe5014dde43d5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247458"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372753"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>システム センター構成マネージャーを使用して Skype ルーム システム v2 を展開します。
 
@@ -172,63 +172,63 @@ Skype ルーム システム v2 が構成マネージャーを展開するには
 
 ### <a name="create-the-microsoft-operations-management-suite-agent-package"></a>運用管理スイートの Microsoft エージェント パッケージを作成します。
 
-1.  ダウンロード操作の管理スイートの X-64 エージェントが<https://go.microsoft.com/fwlink/?LinkId=828603>。
+1. ダウンロード操作の管理スイートの X-64 エージェントが<https://go.microsoft.com/fwlink/?LinkId=828603>。
 
-2.  コマンド プロンプト ウィンドウを開き、コマンド プロンプトで**MMASetup AMD64.exe の指定**を入力する**SRS v2 - マイクロソフト OMS エージェント パッケージ**フォルダーにパッケージを抽出します。
+2. コマンド プロンプト ウィンドウを開き、コマンド プロンプトで**MMASetup AMD64.exe の指定**を入力する**SRS v2 - マイクロソフト OMS エージェント パッケージ**フォルダーにパッケージを抽出します。
 
-3.  **ソフトウェア ライブラリ**には、構成マネージャー コンソールで、 \> **アプリケーション管理** \> **パッケージ**、および**パッケージの作成**を選択します。
+3. **ソフトウェア ライブラリ**には、構成マネージャー コンソールで、 \> **アプリケーション管理** \> **パッケージ**、および**パッケージの作成**を選択します。
 
-4.  パッケージを作成するのには次の情報を入力します。
+4. パッケージを作成するのには次の情報を入力します。
 
-    -   名前 **: SRS v2 - マイクロソフト OMS エージェント パッケージ**
+   - 名前<strong>: SRS v2 - マイクロソフト OMS エージェント パッケージ</strong>
 
-    -   製造元 **: Microsoft Corporation**
+   - 製造元<strong>: Microsoft Corporation</strong>
 
-    -   バージョン **: 8.1.11081.0** (ダウンロードしたインストール ファイルのバージョンを入力してください)
+   - バージョン<strong>: 8.1.11081.0</strong> (ダウンロードしたインストール ファイルのバージョンを入力してください)
 
-    -   **このパッケージにソース ファイルが含まれています**] チェック ボックスをオンに、 **SRS の v2 - マイクロソフト OMS エージェント パッケージ**フォルダーにパスを入力し、**次へ**。
+   - **このパッケージにソース ファイルが含まれています**] チェック ボックスをオンに、 **SRS の v2 - マイクロソフト OMS エージェント パッケージ**フォルダーにパスを入力し、**次へ**。
 
-5.  **プログラムを作成しない**を選択し、**次へ**します。
+5. **プログラムを作成しない**を選択し、**次へ**します。
 
-6.  **設定の確認**] ページを確認し、**次へ**を選択します。
+6. **設定の確認**] ページを確認し、**次へ**を選択します。
 
-7.  **閉じる**を選択します。
+7. **閉じる**を選択します。
 
 ### <a name="create-the-operating-system-updates-package"></a>オペレーティング システム更新プログラム パッケージを作成します。
 
-1.  **SRS v2 - OS の更新プログラム パッケージ**のフォルダーに**インストール-SRSv2-OS の Updates.ps1**をという名前の新しい PowerShell スクリプトを作成します。
+1. **SRS v2 - OS の更新プログラム パッケージ**のフォルダーに**インストール-SRSv2-OS の Updates.ps1**をという名前の新しい PowerShell スクリプトを作成します。
 
-2.  **インストール-SRSv2-OS の Updates.ps1**スクリプトに以下のスクリプトをコピーします。 または、[ここ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)からインストール-SRSv2-OS の Updates.ps1 スクリプトをダウンロードできます。
-```
+2. **インストール-SRSv2-OS の Updates.ps1**スクリプトに以下のスクリプトをコピーします。 または、[ここ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)からインストール-SRSv2-OS の Updates.ps1 スクリプトをダウンロードできます。
+   ```
    # Install-SRSv2-OS-Updates.ps1
    $strPath = split-path -parent $MyInvocation.MyCommand.Definition
    $total = gci $strPath *.msu | measure | Select-Object -expand Count
    $i = 0
    gci $strPath *.msu | ForEach-Object {
-      $i++
-      WUSA ""$_.FullName /quiet /norestart""
-      Write-Progress -activity "Applying Mandatory Updates" -status "Installing
-      $_ .. $i of $total" -percentComplete (($i / $total) * 100)
-      Wait-Process -name wusa
+     $i++
+     WUSA ""$_.FullName /quiet /norestart""
+     Write-Progress -activity "Applying Mandatory Updates" -status "Installing
+     $_ .. $i of $total" -percentComplete (($i / $total) * 100)
+     Wait-Process -name wusa
    }
-```
-3.  必須の Windows 更新プログラム パッケージを同じフォルダーにダウンロードします。
-    > [!NOTE]
-    > この資料が公開された時点で、 [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu)だけが必要でした。 [Skype ルーム システム v2 のコンソールを構成する](console.md)、他の更新プログラムが必要なかどうかを確認してください。
+   ```
+3. 必須の Windows 更新プログラム パッケージを同じフォルダーにダウンロードします。
+   > [!NOTE]
+   > この資料が公開された時点で、 [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu)だけが必要でした。 [Skype ルーム システム v2 のコンソールを構成する](console.md)、他の更新プログラムが必要なかどうかを確認してください。
 
-4.  **ソフトウェア ライブラリ**には、構成マネージャー コンソールで、 \> **アプリケーション管理** \> **パッケージ**、および**パッケージの作成**を選択します。
+4. **ソフトウェア ライブラリ**には、構成マネージャー コンソールで、 \> **アプリケーション管理** \> **パッケージ**、および**パッケージの作成**を選択します。
 
-5.  パッケージを作成するのには次の情報を入力します。
-    -   名前: の**SRS v2 – OS パッケージを更新します。**
-    -   製造元: **Microsoft Corporation**
-    -   バージョン: **1.0.0**
-    -   **このパッケージにソース ファイルが含まれています**] チェック ボックスをオンに、 **SRS の v2 - OS の更新プログラム パッケージ**のフォルダーにパスを入力し、**次へ**。
+5. パッケージを作成するのには次の情報を入力します。
+   -   名前: の**SRS v2 – OS パッケージを更新します。**
+   -   製造元: **Microsoft Corporation**
+   -   バージョン: **1.0.0**
+   -   **このパッケージにソース ファイルが含まれています**] チェック ボックスをオンに、 **SRS の v2 - OS の更新プログラム パッケージ**のフォルダーにパスを入力し、**次へ**。
 
-6.  **プログラムを作成しない**を選択し、**次へ**します。
+6. **プログラムを作成しない**を選択し、**次へ**します。
 
-7.  **設定の確認**] ページを確認し、**次へ**を選択します。
+7. **設定の確認**] ページを確認し、**次へ**を選択します。
 
-8.  **閉じる**を選択します。
+8. **閉じる**を選択します。
 
 ### <a name="create-the-root-certificate-package-optional"></a>ルート証明書のパッケージを作成する (省略可能)
 
@@ -383,72 +383,72 @@ Active Directory ドメインに参加しないデバイスのルート証明書
 
 ### <a name="create-the-sysprep-package"></a>Sysprep パッケージを作成します。
 
-1.  **SRS v2 – パッケージの Sysprep**フォルダーには、 **Unattend.xml**をという名前の新しい XML ファイルを作成します。
+1. **SRS v2 – パッケージの Sysprep**フォルダーには、 **Unattend.xml**をという名前の新しい XML ファイルを作成します。
 
-2.  **Unattend.xml**ファイルに次のテキストをコピーします。 または、Unattend.xml ファイルを[ここ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)からダウンロードできます。
-```
-<?xml version="1.0" encoding="utf-8"?>
-<unattend xmlns="urn:schemas-microsoft-com:unattend">
-    <settings pass="specialize">
-        <component name="Microsoft-Windows-Embedded-BootExp" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="NonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <DisableBootMenu>1</DisableBootMenu>
-            <DisplayDisabled>1</DisplayDisabled>
-        </component>
-        <component name="Microsoft-Windows-powercpl" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <PreferredPlan>8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c</PreferredPlan>
-        </component>
-    </settings>
-    <settings pass="oobeSystem">
-        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <OOBE>
-                <HideEULAPage>true</HideEULAPage>
-                <HideLocalAccountScreen>true</HideLocalAccountScreen>
-                <HideOEMRegistrationScreen>true</HideOEMRegistrationScreen>
-                <HideOnlineAccountScreens>true</HideOnlineAccountScreens>
-                <HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
-                <SkipMachineOOBE>true</SkipMachineOOBE>
-                <SkipUserOOBE>true</SkipUserOOBE>
-                <ProtectYourPC>1</ProtectYourPC>
-            </OOBE>
-            <AutoLogon>
-                <Enabled>true</Enabled>
-                <Username>Skype</Username>
-                <Password>
-                    <Value>UABhAHMAcwB3AG8AcgBkAA==</Value>
-                    <PlainText>false</PlainText>
-                </Password>
-            </AutoLogon>
-            <UserAccounts>
-                <LocalAccounts>
-                    <LocalAccount wcm:action="add">
-                        <Password>
-                            <Value>cwBmAGIAUABhAHMAcwB3AG8AcgBkAA==</Value>
-                            <PlainText>false</PlainText>
-                        </Password>
-                        <Name>Admin</Name>
-                        <Group>Administrators</Group>
-                        <DisplayName>Administrator</DisplayName>
-                        <Description>Administrator</Description>
-                    </LocalAccount>
-                </LocalAccounts>
-            </UserAccounts>
-        </component>
-    </settings>
-    <cpi:offlineImage cpi:source="wim:h:/install.wim#Windows 10 Enterprise" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
-</unattend>
-```
-3.  **ソフトウェア ライブラリ**には、構成マネージャー コンソールで、 \> **アプリケーション管理** \> **パッケージ**、および**パッケージの作成**を選択します。
+2. **Unattend.xml**ファイルに次のテキストをコピーします。 または、Unattend.xml ファイルを[ここ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)からダウンロードできます。
+   ```
+   <?xml version="1.0" encoding="utf-8"?>
+   <unattend xmlns="urn:schemas-microsoft-com:unattend">
+   <settings pass="specialize">
+       <component name="Microsoft-Windows-Embedded-BootExp" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="NonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           <DisableBootMenu>1</DisableBootMenu>
+           <DisplayDisabled>1</DisplayDisabled>
+       </component>
+       <component name="Microsoft-Windows-powercpl" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           <PreferredPlan>8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c</PreferredPlan>
+       </component>
+   </settings>
+   <settings pass="oobeSystem">
+       <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           <OOBE>
+               <HideEULAPage>true</HideEULAPage>
+               <HideLocalAccountScreen>true</HideLocalAccountScreen>
+               <HideOEMRegistrationScreen>true</HideOEMRegistrationScreen>
+               <HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+               <HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+               <SkipMachineOOBE>true</SkipMachineOOBE>
+               <SkipUserOOBE>true</SkipUserOOBE>
+               <ProtectYourPC>1</ProtectYourPC>
+           </OOBE>
+           <AutoLogon>
+               <Enabled>true</Enabled>
+               <Username>Skype</Username>
+               <Password>
+                   <Value>UABhAHMAcwB3AG8AcgBkAA==</Value>
+                   <PlainText>false</PlainText>
+               </Password>
+           </AutoLogon>
+           <UserAccounts>
+               <LocalAccounts>
+                   <LocalAccount wcm:action="add">
+                       <Password>
+                           <Value>cwBmAGIAUABhAHMAcwB3AG8AcgBkAA==</Value>
+                           <PlainText>false</PlainText>
+                       </Password>
+                       <Name>Admin</Name>
+                       <Group>Administrators</Group>
+                       <DisplayName>Administrator</DisplayName>
+                       <Description>Administrator</Description>
+                   </LocalAccount>
+               </LocalAccounts>
+           </UserAccounts>
+       </component>
+   </settings>
+   <cpi:offlineImage cpi:source="wim:h:/install.wim#Windows 10 Enterprise" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
+   </unattend>
+   ```
+3. **ソフトウェア ライブラリ**には、構成マネージャー コンソールで、 \> **アプリケーション管理** \> **パッケージ**、および**パッケージの作成**を選択します。
 
-4.  パッケージを作成するのには次の情報を入力します。
-    -   **SRS v2 の Sysprep のパッケージ**の名前:
-    -   製造元: **Microsoft Corporation**
-    -   バージョン: **1.0.0**
-    -   **このパッケージにソース ファイルが含まれています**] チェック ボックスをオンに、 **SRS v2 – パッケージの Sysprep**フォルダーにパスを入力し、**次へ**。
-5.  **プログラムを作成しない**を選択し、**次へ**します。
+4. パッケージを作成するのには次の情報を入力します。
+   -   **SRS v2 の Sysprep のパッケージ**の名前:
+   -   製造元: **Microsoft Corporation**
+   -   バージョン: **1.0.0**
+   -   **このパッケージにソース ファイルが含まれています**] チェック ボックスをオンに、 **SRS v2 – パッケージの Sysprep**フォルダーにパスを入力し、**次へ**。
+5. **プログラムを作成しない**を選択し、**次へ**します。
 
-6.  **設定の確認**] ページを確認し、**次へ**を選択します。
+6. **設定の確認**] ページを確認し、**次へ**を選択します。
 
-7.  **閉じる**を選択します。
+7. **閉じる**を選択します。
 
 ### <a name="create-the-windows-10-enterprise-package"></a>10 エンタープライズの Windows パッケージを作成します。
 
@@ -540,9 +540,9 @@ Skype ルーム システム v2 は Surface Pro と Surface Pro 4 の両方の�
 
 > [!NOTE]
 > パッケージの配布には、パッケージのサイズ、構成マネージャー階層、配布ポイント サーバーの数は、ネットワークで利用できる帯域幅によっては、時間をかかる場合があります。
-
+> 
 > Skype ルーム システム v2 のユニットを展開する前にすべてのパッケージを配布する必要があります。
-
+> 
 > 構成マネージャー コンソールで、パッケージの配布ステータスを確認するには**監視**することで\>**の配布ステータス** \> **コンテンツの状態**です。
 
 ## <a name="configuration-manager-task-sequences"></a>構成マネージャーのタスク シーケンス
@@ -566,66 +566,66 @@ Skype ルーム システム v2 は Surface Pro と Surface Pro 4 の両方の�
 
 ### <a name="validate-that-the-reference-packages-are-correctly-linked-to-each-task-sequence-step"></a>各タスク シーケンスのステップには、参照のパッケージが正しくリンクされているかを検証します。
 
-1.  、インポートされたタスク シーケンスを選択し、**編集**を選択します。
+1. 、インポートされたタスク シーケンスを選択し、**編集**を選択します。
 
-     タスク シーケンス エディターが開き、展開し、Skype ルーム システム v2 の単位を構成する必要がある連続した各ステップが表示されます。
+    タスク シーケンス エディターが開き、展開し、Skype ルーム システム v2 の単位を構成する必要がある連続した各ステップが表示されます。
 
-1.  各ステップを紹介し、推奨される更新プログラムを完了します。
+2. 各ステップを紹介し、推奨される更新プログラムを完了します。
 
-    1.  **Windows PE で再起動**: この手順が再起動し、Windows の PXE にコンピューターを起動します。 変更は、この手順で必要ではありません。
+   1. **Windows PE で再起動**: この手順が再起動し、Windows の PXE にコンピューターを起動します。 変更は、この手順で必要ではありません。
 
-    2.  **パーティション ディスク 0-UEFI**: この手順は、ディスク構成を消去し、構成した設定に基づいてパーティションを作成します。 おすべての変更この手順をお勧めします。
+   2. **パーティション ディスク 0-UEFI**: この手順は、ディスク構成を消去し、構成した設定に基づいてパーティションを作成します。 おすべての変更この手順をお勧めします。
 
-    3.  **SRS コンピューター名の設定**: この手順には、展開時に Skype ルーム システム v2 単位のコンピューター名を設定するための UI を提供する HTML アプリケーションが含まれています。
-        -  これはオプションの手順ですが、それのみを無効にできます、別のプロセスによって名前付けのコンピューターを管理する場合は。
-        -  **SRS v2 - セット SRSComputerName**パッケージが選択されていることを確認します。 いない場合は、パッケージを参照して選択します。
+   3. **SRS コンピューター名の設定**: この手順には、展開時に Skype ルーム システム v2 単位のコンピューター名を設定するための UI を提供する HTML アプリケーションが含まれています。
+      -  これはオプションの手順ですが、それのみを無効にできます、別のプロセスによって名前付けのコンピューターを管理する場合は。
+      -  **SRS v2 - セット SRSComputerName**パッケージが選択されていることを確認します。 いない場合は、パッケージを参照して選択します。
 
-    4.  **オペレーティング システムの適用**: この手順は、オペレーティング システム イメージを展開して、無人 Sysprep 応答ファイルを使用するを指定します。
-        -  正しい 10 企業の Windows オペレーティング システム イメージ ファイルが選択されていることを確認します。
-        -  **無人を使用するかカスタム インストール用応答ファイルを Sysprep**を有効にすると、 **SRS v2 の Sysprep のパッケージ**が選択されていることを確認します。 **Unattend.xml**に**ファイル名**が設定されていることを確認もします。
+   4. **オペレーティング システムの適用**: この手順は、オペレーティング システム イメージを展開して、無人 Sysprep 応答ファイルを使用するを指定します。
+      -  正しい 10 企業の Windows オペレーティング システム イメージ ファイルが選択されていることを確認します。
+      -  **無人を使用するかカスタム インストール用応答ファイルを Sysprep**を有効にすると、 **SRS v2 の Sysprep のパッケージ**が選択されていることを確認します。 **Unattend.xml**に**ファイル名**が設定されていることを確認もします。
 
-    5.  **Windows の設定を適用**: この手順は、Windows のインストールに関する情報を収集します。
-        -  プロダクト キー、ローカルの管理者アカウントのパスワード、および (必要) に応じて、タイム ゾーンを含むライセンスと登録の情報を提供します。
+   5. **Windows の設定を適用**: この手順は、Windows のインストールに関する情報を収集します。
+      -  プロダクト キー、ローカルの管理者アカウントのパスワード、および (必要) に応じて、タイム ゾーンを含むライセンスと登録の情報を提供します。
 
-    6.  **ネットワーク設定を適用**: この手順では、ワークグループまたは Active Directory ドメイン名と組織単位を指定することができます。
-    > [!NOTE]
-    > Actve ディレクトリ ドメインのメンバーとして Skype ルーム システム v2 のユニットを展開する必要がある、推奨される操作の[Skype ルーム システム ドメイン参加の注意事項](domain-joining-considerations.md)を参照してください。
-    7.  **ドライバーを適用する:** この手順とその下位の手順は、適用可能なデバイス ドライバーとファームウェアがある Surface Pro モデルをベースに展開する使用されます。 この展開に関連付けられている関連するドライバー パッケージを指定するには、各ステップを更新します。
-        -   関連ドライバーを展開する Windows 管理インストルメンテーション (WMI) フィルターを活用する各ドライバー パッケージを構成し、Surface Pro のファームウェアの製造元しモデルします。
-        -   これらのドライバーの構成を変更、配置が失敗する可能性がありますそれ以外の場合のことを強くお勧めします。
+   6. **ネットワーク設定を適用**: この手順では、ワークグループまたは Active Directory ドメイン名と組織単位を指定することができます。
+      > [!NOTE]
+      > Actve ディレクトリ ドメインのメンバーとして Skype ルーム システム v2 のユニットを展開する必要がある、推奨される操作の[Skype ルーム システム ドメイン参加の注意事項](domain-joining-considerations.md)を参照してください。
+   7. **ドライバーを適用する:** この手順とその下位の手順は、適用可能なデバイス ドライバーとファームウェアがある Surface Pro モデルをベースに展開する使用されます。 この展開に関連付けられている関連するドライバー パッケージを指定するには、各ステップを更新します。
+      -   関連ドライバーを展開する Windows 管理インストルメンテーション (WMI) フィルターを活用する各ドライバー パッケージを構成し、Surface Pro のファームウェアの製造元しモデルします。
+      -   これらのドライバーの構成を変更、配置が失敗する可能性がありますそれ以外の場合のことを強くお勧めします。
 
-    8.  **Windows と構成マネージャーの設定**: このステップの配置し、構成マネージャーのクライアントを構成します。 組み込みの構成マネージャーのクライアント パッケージを指定するには、この手順を更新します。
+   8. **Windows と構成マネージャーの設定**: このステップの配置し、構成マネージャーのクライアントを構成します。 組み込みの構成マネージャーのクライアント パッケージを指定するには、この手順を更新します。
 
-    9.  **ルート証明書のインストール**: この手順は: ドメインに参加しているデバイスでは、ルート証明書を配布し、そのため、省略可能な既定で無効になっています。
-        -   Skype ルーム システム v2 ユニットにルート証明書を展開する必要がある場合は、この手順を有効にします。
-        -   この手順を実行する必要がある場合は、 **SRS のバージョン 2: ルート証明書のパッケージ**と**ファイル システムのリダイレクトを無効にする 64 ビット**がオンになっていることを確認します。
+   9. **ルート証明書のインストール**: この手順は: ドメインに参加しているデバイスでは、ルート証明書を配布し、そのため、省略可能な既定で無効になっています。
+      -   Skype ルーム システム v2 ユニットにルート証明書を展開する必要がある場合は、この手順を有効にします。
+      -   この手順を実行する必要がある場合は、 **SRS のバージョン 2: ルート証明書のパッケージ**と**ファイル システムのリダイレクトを無効にする 64 ビット**がオンになっていることを確認します。
 
-    10. **インストールおよび OMS のエージェントの構成**: この手順は、オペレーションの管理スイートの Microsoft エージェントの 64 ビット バージョンをインストールし、エージェントが、ログの分析機能のワークスペースへの接続を構成します。
-        -   この手順は既定で無効になります。 OMS を使用して、Skype ルーム システム v2 の単位の状態を監視しようとしている場合にのみ、この手順を有効にします。
-        -   このステップを編集し、自分の**ワークスペースの ID**と**キーのワークスペース**を指定するコマンド ライン パラメーターを更新します。
-        -   操作の管理スイートのワークスペース ID とプライマリ ・ キーの入手方法の詳細については、[接続の Windows コンピューター](with-oms.md#configure-test-devices-for-operations-management-suite-setup)を参照してください。
-        -   **SRS v2 – マイクロソフト OMS エージェント パッケージ**と**ファイル システムのリダイレクトを無効にする 64 ビット**がオンになっていることを確認します。
-        -   Skype ルーム システム v2 の配置の状態の監視の詳細については、 [OMS を使用しての Skype ルーム システムの計画 v2 の管理](../../plan-your-deployment/clients-and-devices/oms-management.md)および[OMS を使用して Skype ルーム システムの展開 v2 の管理](with-oms.md#configure-test-devices-for-operations-management-suite-setup)を参照してください。
+   10. **インストールおよび OMS のエージェントの構成**: この手順は、オペレーションの管理スイートの Microsoft エージェントの 64 ビット バージョンをインストールし、エージェントが、ログの分析機能のワークスペースへの接続を構成します。
+       -   この手順は既定で無効になります。 OMS を使用して、Skype ルーム システム v2 の単位の状態を監視しようとしている場合にのみ、この手順を有効にします。
+       -   このステップを編集し、自分の**ワークスペースの ID**と**キーのワークスペース**を指定するコマンド ライン パラメーターを更新します。
+       -   操作の管理スイートのワークスペース ID とプライマリ ・ キーの入手方法の詳細については、[接続の Windows コンピューター](with-oms.md#configure-test-devices-for-operations-management-suite-setup)を参照してください。
+       -   **SRS v2 – マイクロソフト OMS エージェント パッケージ**と**ファイル システムのリダイレクトを無効にする 64 ビット**がオンになっていることを確認します。
+       -   Skype ルーム システム v2 の配置の状態の監視の詳細については、 [OMS を使用しての Skype ルーム システムの計画 v2 の管理](../../plan-your-deployment/clients-and-devices/oms-management.md)および[OMS を使用して Skype ルーム システムの展開 v2 の管理](with-oms.md#configure-test-devices-for-operations-management-suite-setup)を参照してください。
 
-    11. **V2 構成ファイルのコピーの SRS**: この手順は、ローカル ハード ドライブに Skype ルーム システム v2 の導入ガイド 』 から必要なセットアップと構成ファイルをコピーします。 カスタマイズは、この手順は必要ではありません。
-        -   **SRS v2 – SRS アプリケーション パッケージ**と**ファイル システムのリダイレクトを無効にする 64 ビット**がオンになっていることを確認します。
+   11. **V2 構成ファイルのコピーの SRS**: この手順は、ローカル ハード ドライブに Skype ルーム システム v2 の導入ガイド 』 から必要なセットアップと構成ファイルをコピーします。 カスタマイズは、この手順は必要ではありません。
+       -   **SRS v2 – SRS アプリケーション パッケージ**と**ファイル システムのリダイレクトを無効にする 64 ビット**がオンになっていることを確認します。
 
-    12. **SRSv2-OS の更新プログラムをインストール**: この手順は、Skype ルーム システム v2 の展開に必要なオペレーティング システムの必須更新プログラムを配置します。 次の操作を実行します。
-        -   必要な更新プログラムを確認するのには、 [Skype ルーム システムのバージョン 2 を構成するコンソール](console.md)を確認してください。
-        -   **SRS v2 – OS の更新プログラム パッケージ**に必要なすべての更新プログラムが含まれていることを確認します。
-        -   **SRS v2 – OS の更新プログラム パッケージ**が選択されていることを確認します。
-        -   PowerShell 実行ポリシーを**バイパス**に設定されていることを確認します。
+   12. **SRSv2-OS の更新プログラムをインストール**: この手順は、Skype ルーム システム v2 の展開に必要なオペレーティング システムの必須更新プログラムを配置します。 次の操作を実行します。
+       -   必要な更新プログラムを確認するのには、 [Skype ルーム システムのバージョン 2 を構成するコンソール](console.md)を確認してください。
+       -   **SRS v2 – OS の更新プログラム パッケージ**に必要なすべての更新プログラムが含まれていることを確認します。
+       -   **SRS v2 – OS の更新プログラム パッケージ**が選択されていることを確認します。
+       -   PowerShell 実行ポリシーを**バイパス**に設定されていることを確認します。
 
-    13. **コンピューターの再起動**: この手順は、オペレーティング システムの必須更新プログラムをインストールした後にコンピューターを再起動します。 カスタマイズは、この手順は必要ではありません。
+   13. **コンピューターの再起動**: この手順は、オペレーティング システムの必須更新プログラムをインストールした後にコンピューターを再起動します。 カスタマイズは、この手順は必要ではありません。
 
-    14. **Windows コンポーネントの構成**: この手順が必要な Windows の機能を構成します。 カスタマイズは、この手順は必要ではありません。
+   14. **Windows コンポーネントの構成**: この手順が必要な Windows の機能を構成します。 カスタマイズは、この手順は必要ではありません。
 
-    15. **コンピューターの再起動**: この手順は、Windows の機能を構成した後にコンピューターを再起動します。 カスタマイズは、この手順は必要ではありません。
+   15. **コンピューターの再起動**: この手順は、Windows の機能を構成した後にコンピューターを再起動します。 カスタマイズは、この手順は必要ではありません。
 
-    16. **ローカル Skype ユーザーの追加**: この手順が自動的に Windows にサインインして Skype ルーム システム v2 アプリケーションを起動するために使用するローカル Skype アカウントを作成します。 この手順は、それに関連付けられている任意のソフトウェア パッケージを持っていないし、カスタマイズすることの必要はありません。
+   16. **ローカル Skype ユーザーの追加**: この手順が自動的に Windows にサインインして Skype ルーム システム v2 アプリケーションを起動するために使用するローカル Skype アカウントを作成します。 この手順は、それに関連付けられている任意のソフトウェア パッケージを持っていないし、カスタマイズすることの必要はありません。
 
-    17. **設定セットアップおよび SRS のアプリケーションを構成する**: この操作により、Skype ルーム システム v2 アプリケーションのインストール、次の起動時にオペレーティング システムの。
-        -   **SRS v2 – SRS セットアップ パッケージの構成**と**ファイル システムのリダイレクトを無効にする 64 ビット**がオンになっていることを確認します。
+   17. **設定セットアップおよび SRS のアプリケーションを構成する**: この操作により、Skype ルーム システム v2 アプリケーションのインストール、次の起動時にオペレーティング システムの。
+       -   **SRS v2 – SRS セットアップ パッケージの構成**と**ファイル システムのリダイレクトを無効にする 64 ビット**がオンになっていることを確認します。
 
 > [!IMPORTANT]
 > タスク シーケンスの手順が記載されている順序である必要がありますが非常に重要です。 手順の順序を変更または追加の手順を構成するには、展開を壊れる可能性があります。
@@ -634,32 +634,32 @@ Skype ルーム システム v2 は Surface Pro と Surface Pro 4 の両方の�
 
 ### <a name="create-deployment-for-the-task-sequence"></a>展開タスク シーケンスを作成します。
 
-1.  タスク シーケンスを選択し、[**配置**] を選択します。
+1. タスク シーケンスを選択し、[**配置**] を選択します。
 
-2.  展開のターゲット コレクションを選択する**参照**を選択します。
+2. 展開のターゲット コレクションを選択する**参照**を選択します。
 
-3.  **すべての不明なコンピューター**を選択し、 **[ok]** を選択します。
+3. **すべての不明なコンピューター**を選択し、 **[ok]** を選択します。
 
-4.  **次へ**を選択します。
+4. **次へ**を選択します。
 
-5.  **目的**のドロップ ダウン リストで**利用可能な**を選択します。
+5. **目的**のドロップ ダウン リストで**利用可能な**を選択します。
 
-6.  **次に使用できるように**する] の一覧で、**のみメディアおよび PXE**を選択し、**次へ**を選択します。
-> [!WARNING]
-> **目的**が**使用可能**に設定されているが非常に重要です。 **目的**では**ない**に**必要な**設定を確認します。 また **、次に使用できるように**する**だけのメディアと PXE**を選択することを確認します。
->
-> 別のものにこれらの値を設定すると、すべてのコンピューターの起動時に Skype ルーム システムの展開イメージを取得する可能性があります。
-7.  ない任意のスケジュールを指定する] をクリック**します。**
+6. **次に使用できるように**する] の一覧で、**のみメディアおよび PXE**を選択し、**次へ**を選択します。
+   > [!WARNING]
+   > **目的**が**使用可能**に設定されているが非常に重要です。 **目的**では**ない**に**必要な**設定を確認します。 また **、次に使用できるように**する**だけのメディアと PXE**を選択することを確認します。
+   >
+   > 別のものにこれらの値を設定すると、すべてのコンピューターの起動時に Skype ルーム システムの展開イメージを取得する可能性があります。
+7. ない任意のスケジュールを指定する] をクリック**します。**
 
-8.  ない**ユーザー エクスペリエンス**セクション内のすべての変更] をクリック**します。**
+8. ない**ユーザー エクスペリエンス**セクション内のすべての変更] をクリック**します。**
 
-9.  ない、[**通知**] セクション内のすべての変更] をクリック**します。**
+9. ない、[**通知**] セクション内のすべての変更] をクリック**します。**
 
-10.  されない、[**配布ポイント**] セクション内のすべての変更] をクリック**します。**
+10. されない、[**配布ポイント**] セクション内のすべての変更] をクリック**します。**
 
-11.  設定を確認し、**次へ**を選択します。
+11. 設定を確認し、**次へ**を選択します。
 
-12.  **閉じる**を選択します。
+12. **閉じる**を選択します。
 
 <a name="validate-and-troubleshoot-the-solution"></a>検証し、ソリューションのトラブルシューティングを行う
 --------------------------------------

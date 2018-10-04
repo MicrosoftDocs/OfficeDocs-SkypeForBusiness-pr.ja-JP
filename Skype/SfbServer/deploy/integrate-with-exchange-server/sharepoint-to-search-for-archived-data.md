@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: '概要: ビジネスのサーバーの Exchange Server と Skype でアーカイブされたデータを検索するのには SharePoint サーバーを構成します。'
-ms.openlocfilehash: efd3fc67faacba503736968786988aaf01f45073
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0663874985063f4cf051aec69792ea0bdb32bb26
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20971800"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373322"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>アーカイブされた Skype for Business データを検索するための SharePoint Server の構成
  
@@ -125,7 +125,7 @@ New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmye
     
 4. [電子情報開示セット] ページが表示されたら、[**識別と保存: 情報開示セット**] の下の [**新しいアイテム**] をクリックします。
     
-5. [新規: 情報開示セット] ページで、[**情報開示セット名**] ボックスにユーザーの電子メール エイリアスを入力します。 入力**電子的証拠開示 Lync\* ** [**フィルター** ] ボックスをクリック**追加&amp;ソースの管理**です。
+5. [新規: 情報開示セット] ページで、[**情報開示セット名**] ボックスにユーザーの電子メール エイリアスを入力します。 入力**電子的証拠開示 Lync\\*** [**フィルター** ] ボックスをクリック**追加&amp;ソースの管理**です。
     
 6. 追加&amp;ソースの管理] ページで、[**メールボックス]** の最初のテキスト ボックスにユーザーの電子メール エイリアスを入力します。 テキスト ボックスの横にある [メールボックスの確認] アイコンをクリックして、SharePoint が指定のメールボックスに接続できることを確認します。
     

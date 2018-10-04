@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f7a1464159bf613800756eb8568510c3749939e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4a2ad3c2416e64334dddda6c09d3e8eed2be3763
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017184"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374251"
 ---
 <a name="teams-guest-access-checklist"></a>チームのゲスト アクセスのチェックリスト
 ==========================================
@@ -86,7 +86,7 @@ ms.locfileid: "25017184"
 来園者をサポートするために少なくとも ► は、 **[はい]** に設定してください**メンバーを招待できます**。
 
 > > [!NOTE]
-> **メンバーを招待****なし**に設定して Office 365 のグループとマイクロソフトのチームでのゲスト アクセスを有効にする場合、管理者はディレクトリへのゲストの招待状を制御できます。 来園者は、ディレクトリには後に、追加できますチームに管理者以外のメンバー (チーム所有者) によって。
+> > **メンバーを招待****なし**に設定して Office 365 のグループとマイクロソフトのチームでのゲスト アクセスを有効にする場合、管理者はディレクトリへのゲストの招待状を制御できます。 来園者は、ディレクトリには後に、追加できますチームに管理者以外のメンバー (チーム所有者) によって。
 
 
 詳細については、「[Microsoft Teams でのゲスト アクセスを承認する](Teams-dependencies.md)」をご覧ください。

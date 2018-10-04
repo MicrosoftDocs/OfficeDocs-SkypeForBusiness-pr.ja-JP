@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 組織のすべての電話番号、ユーザーに割り当てられているすべての電話番号、Skype for Business 管理センターから音声ユーザーに割り当てられているすべての電話番号のリストを表示する方法について説明します。
-ms.openlocfilehash: c257991c0b867cb42b5b56af0e5595257260b25a
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: a6ab8115e1b336f2ccc77548fdfe501852efbda7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347083"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370701"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>組織の電話番号のリストを表示する
 
@@ -50,17 +50,17 @@ Office 365 の電話会議など、ユーザーまたはその他のサービス
     
 5. ドロップ ダウン リストを使用して、以下の分類でビューにフィルターを適用できます。
     
-  - サービス電話番号を含む**すべて** の電話番号
+   - サービス電話番号を含む**すべて** の電話番号
     
-  - 設定した電話 **番号の範囲**
+   - 設定した電話 **番号の範囲**
     
-  - **ユーザーに割り当てられている**電話番号
+   - **ユーザーに割り当てられている**電話番号
     
-  - ダイヤルイン会議用に **会議に割り当てられている** 電話番号
+   - ダイヤルイン会議用に **会議に割り当てられている** 電話番号
     
-  - **割り当てられていない**電話番号
+   - **割り当てられていない**電話番号
     
-  - 電話番号の **場所**
+   - 電話番号の **場所**
     
 ## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a>ユーザーに割り当てられているすべての電話番号を表示するには
 
@@ -78,20 +78,20 @@ Office 365 の電話会議など、ユーザーまたはその他のサービス
     > [!IMPORTANT]
     > ビジネス管理センターの Skype では、左側のナビゲーションの**音声**オプションを表示するため、まず**E5 のエンタープライズ ライセンス**を少なくとも 1 つ、1 つの**電話システム**のアドオン ライセンスまたはアドオンのライセンスが 1 つの**電話会議**を購入する必要があります。
     
-4. ユーザーに割り当てられている電話番号またはユーザーに割り当て可能な電話番号をフィルターして表示できます。 以下の分類でフィルターすることができます。
+4. You can filter your view for phone numbers that are assigned to users or phone numbers that you can assign to a user. You can filter by:
     
-  - サービス電話番号を含む**すべて** の電話番号
+   - サービス電話番号を含む**すべて** の電話番号
     
-  - ユーザーに**割り当てられた番号**
+   - ユーザーに**割り当てられた番号**
     
-  - ユーザーに**割り当てられていない番号**
+   - ユーザーに**割り当てられていない番号**
     
 ## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a>音声ユーザーに割り当てられているすべての電話番号を表示するには
 
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
 
 
-電話の通話を送受信するには、組織内のユーザーを設定するときは、最初の電話番号を取得し、それらをユーザーに割り当てる必要があります。 電話番号を取得したら、ユーザーに割り当てられている電話番号を持っているユーザーと持っていないユーザー、ならびにユーザーがオンラインでまたは内部設置型でホストされているかについてのリストを表示することができます。
+When you are setting up users in your organization to make and receive phone calls, you must first get the phone numbers and then assign them to your users. After you've gotten your phone numbers, you might just want to see the list of the users that have phone numbers assigned to users, those that don't and whether a user is hosted Online or on-premises.
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -102,11 +102,11 @@ Office 365 の電話会議など、ユーザーまたはその他のサービス
     > [!IMPORTANT]
     > ビジネス管理センターの Skype では、左側のナビゲーションの**音声**オプションを表示するため、まず**E5 のエンタープライズ ライセンス**を少なくとも 1 つ、1 つの**電話システム**のアドオン ライセンスまたはアドオンのライセンスが 1 つの**電話会議**を購入する必要があります。
     
-4. ドロップダウン リストを使用して、アクティブなユーザー、ユーザーのホストがオンラインか内部設置型か、ユーザーのライセンス状態と種類をフィルターして表示することができます。 以下の分類でフィルターすることができます。
+4. You can use the drop-down list to filter your view for active users, whether the user is Online or on-premises, or the state and type of licensing for a user. You can filter by:
     
-  - **アクティブなユーザー** と、ユーザーがオンラインまたは内部設置型かどうか。
+   - **アクティブなユーザー** と、ユーザーがオンラインまたは内部設置型かどうか。
     
-  - **保留中のライセンス** と、ユーザーがオンラインまたは内部設置型かどうか。
+   - **保留中のライセンス** と、ユーザーがオンラインまたは内部設置型かどうか。
     
 ## <a name="related-topics"></a>関連トピック
 [電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)

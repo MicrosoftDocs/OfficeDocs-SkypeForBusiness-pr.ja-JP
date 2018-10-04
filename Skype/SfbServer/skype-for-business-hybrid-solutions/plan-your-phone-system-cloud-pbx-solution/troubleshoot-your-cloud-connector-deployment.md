@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: コネクタ Edition のクラウド展開のトラブルシューティングを行います。
-ms.openlocfilehash: 5d34cc78c7afa9a0d4e459e87d885c82b437bae0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5dbb046680824f2af72688844914db0096e2ded1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882289"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371314"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Cloud Connector 展開をトラブルシューティングする
  
@@ -122,17 +122,17 @@ ms.locfileid: "23882289"
     
 1. ホスト サーバーで、管理者として PowerShell コンソールを起動して、次を実行します。
     
-  ```
-  Enter-CcUpdate
-  ```
+   ```
+   Enter-CcUpdate
+   ```
 
 2. 利用可能な更新をチェックしてインストールします。
     
 3. PowerShell コンソールで、次のコマンドレットを実行します。
     
-  ```
-  Exit-CcUpdate
-  ```
+   ```
+   Exit-CcUpdate
+   ```
 
 - 
     
@@ -177,11 +177,11 @@ ms.locfileid: "23882289"
   ```
 
     
--    **問題: Get CcRunningVersion コマンドレットは、ホストで実行されている展開済みのアプライアンスがある場合に空の値を返します。**
+- **問題: Get CcRunningVersion コマンドレットは、ホストで実行されている展開済みのアプライアンスがある場合に空の値を返します。**
     
-    **解決策:** これは、1.3.4 か 1.3.8 から 1.4.1 にアップグレードした場合に発生します。.msi を使用してバージョン 1.4.1 をインストールした場合は、他のコマンドレットを実行する前に `Register-CcAppliance` を実行する必要があります。`Register-CcAppliance` で、module.ini ファイルを %UserProfile%\CloudConnector から %ProgramData%\CloudConnector に移行します。実行しなかった場合は、新しい module.ini が %ProgramData%\CloudConnector フォルダーに作成され、1.3.4 または 1.3.8 の実行中/バックアップ バージョン情報が置き換わります。
+  **解決策:** これは、1.3.4 か 1.3.8 から 1.4.1 にアップグレードした場合に発生します。.msi を使用してバージョン 1.4.1 をインストールした場合は、他のコマンドレットを実行する前に `Register-CcAppliance` を実行する必要があります。`Register-CcAppliance` で、module.ini ファイルを %UserProfile%\CloudConnector から %ProgramData%\CloudConnector に移行します。実行しなかった場合は、新しい module.ini が %ProgramData%\CloudConnector フォルダーに作成され、1.3.4 または 1.3.8 の実行中/バックアップ バージョン情報が置き換わります。
     
-    %UserProfile%\CloudConnector と %ProgramData%\CloudConnector フォルダーにある module.ini ファイルを比較します。 Module.ini ファイルに %ProgramData%\CloudConnector し、再実行を削除の違いがある場合は、 `Register-CcAppliance`。 正しい実行し、バックアップ ・ バージョンを手動でファイルを変更することも可能性があります。
+  %UserProfile%\CloudConnector と %ProgramData%\CloudConnector フォルダーにある module.ini ファイルを比較します。 Module.ini ファイルに %ProgramData%\CloudConnector し、再実行を削除の違いがある場合は、 `Register-CcAppliance`。 正しい実行し、バックアップ ・ バージョンを手動でファイルを変更することも可能性があります。
     
 - **問題: 現在のスクリプト ・ バージョンとは別の古いバージョンに切り替えるには、スイッチ CcVersion コマンドレットを実行した後はありませんこの古いバージョンの高可用性のサポート。**
     
@@ -230,37 +230,37 @@ ms.locfileid: "23882289"
     
     非ピーク時間帯には、次の手順を実行することをお勧めします。
     
-  - 最初のアプライアンスでは、CA をクリーンアップのバックアップ内のファイルを削除 CcCertificationAuthorityFile コマンドレットを実行します\<SiteRoot\>ディレクトリです。
+   - 最初のアプライアンスでは、CA をクリーンアップのバックアップ内のファイルを削除 CcCertificationAuthorityFile コマンドレットを実行します\<SiteRoot\>ディレクトリです。
     
-  - サービスと、各アプライアンスをメンテナンス モードにするのには Enter CcUpdate コマンドレットを実行します。
+   - サービスと、各アプライアンスをメンテナンス モードにするのには Enter CcUpdate コマンドレットを実行します。
     
-  - 次のコマンドレットを実行して、リセットし、新しい証明機関の証明書とすべての内部サーバー証明書を作成します。
+   - 次のコマンドレットを実行して、リセットし、新しい証明機関の証明書とすべての内部サーバー証明書を作成します。
     
-    2.0 より前に、のリリースをクラウド コネクタ。
+     2.0 より前に、のリリースをクラウド コネクタ。
     
-    ```
-    Reset-CcCACertificate
-    Renew-CcServerCertificate
-    Remove-CcLegacyServerCertificate 
-    ```
+     ```
+     Reset-CcCACertificate
+     Renew-CcServerCertificate
+     Remove-CcLegacyServerCertificate 
+     ```
 
-    またはクラウド コネクタ 2.0 以降のリリース。
+     またはクラウド コネクタ 2.0 以降のリリース。
     
-    ```
-    Reset-CcCACertificate
-    Update-CcServerCertificate
-    Remove-CcLegacyServerCertificate 
-    ```
+     ```
+     Reset-CcCACertificate
+     Update-CcServerCertificate
+     Remove-CcLegacyServerCertificate 
+     ```
 
-  - 最初のアプライアンスでは、CA のファイルのバックアップを作成するのには次のコマンドレットを実行します\<SiteRoot\>フォルダー。 以降では、同じサイト内の他のすべてのアプライアンス、リセット CcCACertificate コマンドレットでは、CA のバックアップ ファイルを自動的に消費されます. アプライアンスでは、同じルート証明書を使用します。
+   - 最初のアプライアンスでは、CA のファイルのバックアップを作成するのには次のコマンドレットを実行します\<SiteRoot\>フォルダー。 以降では、同じサイト内の他のすべてのアプライアンス、リセット CcCACertificate コマンドレットでは、CA のバックアップ ファイルを自動的に消費されます. アプライアンスでは、同じルート証明書を使用します。
     
-    ```
-    Backup-CcCertificationAuthority
-    ```
+     ```
+     Backup-CcCertificationAuthority
+     ```
 
-  - サービスを開始し、保守モードを終了する終了 CcUpdate コマンドレットを実行します。 
+   - サービスを開始し、保守モードを終了する終了 CcUpdate コマンドレットを実行します。 
     
-  - ゲートウェイと仲介サーバー間で TLS を使用する場合サイトでは、いずれのアプライアンスからのエクスポート CcRootCertificate コマンドレットを実行し、PSTN ゲートウェイにエクスポートする証明書をインストールします。 
+   - ゲートウェイと仲介サーバー間で TLS を使用する場合サイトでは、いずれのアプライアンスからのエクスポート CcRootCertificate コマンドレットを実行し、PSTN ゲートウェイにエクスポートする証明書をインストールします。 
     
 - **問題: クラウド コネクタ管理サービスのログに、"C:\Program Files\Skype のビジネス クラウド コネクタ Edition\ManagementService\CceManagementService.log"次のエラー メッセージが表示する: CceService エラー: 0: 予期しない例外とオンライン ステータスの報告: System.Management.Automation.CmdletInvocationException: ユーザーのログオンに失敗しました\<グローバル テナント管理\>。正しいユーザー名とパスワードを使用していることを確認する、新しい資格情報オブジェクトを作成してください。---\>**
     
@@ -276,43 +276,43 @@ ms.locfileid: "23882289"
     
     **Cloud Connector バージョン 1.4.2 を実行している場合は、** 次の手順を実行してすべての Cloud Connector パスワードを再生成します。
     
-    1. ホスト サーバーを再起動します。
+  1. ホスト サーバーを再起動します。
     
-    2. 次のファイルを削除します。"% SystemDrive%\Programdata\Cloudconnector\credentials。\<CurrentUser\>.xml」です。
+  2. 次のファイルを削除します。"% SystemDrive%\Programdata\Cloudconnector\credentials。\<CurrentUser\>.xml」です。
     
-    3. 管理者として PowerShell コンソールを起動し、実行して"登録 CcAppliance-ローカル"次の説明、パスワードを再入力します。 クラウドのコネクタの配置の前に入力した同じパスワードを入力します。
+  3. 管理者として PowerShell コンソールを起動し、実行して"登録 CcAppliance-ローカル"次の説明、パスワードを再入力します。 クラウドのコネクタの配置の前に入力した同じパスワードを入力します。
     
-    **クラウド コネクタ バージョン 2.0 以降を実行している場合**は、次の手順でクラウドのコネクタのすべてのパスワードを再生成します。
+     **クラウド コネクタ バージョン 2.0 以降を実行している場合**は、次の手順でクラウドのコネクタのすべてのパスワードを再生成します。
     
-    1. ホスト サーバーを再起動します。
+  4. ホスト サーバーを再起動します。
     
-    2. 次のファイルを削除します。"% SystemDrive%\Programdata\Cloudconnector\credentials。\<CurrentUser\>.xml」です。
+  5. 次のファイルを削除します。"% SystemDrive%\Programdata\Cloudconnector\credentials。\<CurrentUser\>.xml」です。
     
-    3. 管理者として PowerShell コンソールを起動し、実行して"登録 CcAppliance-ローカル"次の説明、パスワードを再入力します。 
+  6. 管理者として PowerShell コンソールを起動し、実行して"登録 CcAppliance-ローカル"次の説明、パスワードを再入力します。 
     
-    キャッシュされているファイルが Cloud Connector バージョン 1.4.2 で生成されたファイルである場合は、パスワードを求められたときに CceService パスワードの VMAdmin パスワードを使用します。その他すべてのアカウントについては、Cloud Connector の展開で前回使用したパスワードと同じパスワードを入力します。
+     キャッシュされているファイルが Cloud Connector バージョン 1.4.2 で生成されたファイルである場合は、パスワードを求められたときに CceService パスワードの VMAdmin パスワードを使用します。その他すべてのアカウントについては、Cloud Connector の展開で前回使用したパスワードと同じパスワードを入力します。
     
-    キャッシュされているパスワード ファイルが Cloud Connector バージョン 1.4.2 で生成されたファイルであり、DomainAdmin と VMAdmin のパスワードが異なる場合は、次の手順を実行する必要があります。
+     キャッシュされているパスワード ファイルが Cloud Connector バージョン 1.4.2 で生成されたファイルであり、DomainAdmin と VMAdmin のパスワードが異なる場合は、次の手順を実行する必要があります。
     
-    1. Set-CcCredential -AccountType DomainAdmin を次のように実行します。
+  7. Set-CcCredential -AccountType DomainAdmin を次のように実行します。
     
-    2. 以前のアカウントの資格情報を求められた場合は、CceService パスワードに使用した資格情報を入力します。
+  8. 以前のアカウントの資格情報を求められた場合は、CceService パスワードに使用した資格情報を入力します。
     
-    3. 新しいアカウントの資格情報を求められた場合は、以前使用していた DomainAdmin パスワードを入力します。
+  9. 新しいアカウントの資格情報を求められた場合は、以前使用していた DomainAdmin パスワードを入力します。
     
-    クラウド コネクタ バージョン 2.0 またはそれ以降、デフォルトでキャッシュされたパスワード ファイルが生成された場合 VmAdmin と DomainAdmin パスワードを使用して、同じ CceService として。 DomainAdmin と VMAdmin のパスワードを変更した場合は、次の手順を行う必要があります。
+     クラウド コネクタ バージョン 2.0 またはそれ以降、デフォルトでキャッシュされたパスワード ファイルが生成された場合 VmAdmin と DomainAdmin パスワードを使用して、同じ CceService として。 DomainAdmin と VMAdmin のパスワードを変更した場合は、次の手順を行う必要があります。
     
-    1. Set-CcCredential -AccountType DomainAdmin を次のように実行します。
+  10. Set-CcCredential -AccountType DomainAdmin を次のように実行します。
     
-        1. 以前のアカウントの資格情報を求められた場合は、CceService パスワードに使用した資格情報を入力します。
+       1. 以前のアカウントの資格情報を求められた場合は、CceService パスワードに使用した資格情報を入力します。
     
-        2. 新しいアカウントの資格情報を求められた場合は、以前使用していた DomainAdmin パスワードを入力します。
+       2. 新しいアカウントの資格情報を求められた場合は、以前使用していた DomainAdmin パスワードを入力します。
     
-    2. Set-CcCredential -AccountType VmAdmin を次のように実行します。
+  11. Set-CcCredential -AccountType VmAdmin を次のように実行します。
     
-        1. 以前のアカウントの資格情報を求められた場合は、CceService パスワードに使用した資格情報を入力します。
+       1. 以前のアカウントの資格情報を求められた場合は、CceService パスワードに使用した資格情報を入力します。
     
-        2. 新しいアカウントの資格情報を求められた場合は、以前使用していた VmAdmin パスワードを入力します。 
+       2. 新しいアカウントの資格情報を求められた場合は、以前使用していた VmAdmin パスワードを入力します。 
     
 - **問題: クラウド バージョン 2.1 以降では、コネクタで、アプライアンス上のレジスタ CcAppliance またはその他のコマンドレットを実行している場合、エラー メッセージが表示次のように:"の各オブジェクト: '共通' が見つかりませんこのオブジェクトのプロパティです。プロパティが存在することを確認します。14: C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1:681 文字で」**
     
@@ -344,23 +344,40 @@ ms.locfileid: "23882289"
   Set-CsCceApplianceDeploymentStatus -Identity <Appliance Identity GUID> -Action Deploy -Status Finished
   ```
 
--  **問題: ホスト サーバーまたは仮想マシン上で Windows Update を手動で確認してインストールする必要がある。**
+- **問題: ホスト サーバーまたは仮想マシン上で Windows Update を手動で確認してインストールする必要がある。**
     
-    **解決策:** Skype for Business Cloud Connector エディションが備える自動 OS 更新プログラムを活用することをお勧めします。アプライアンスをオンライン管理に登録して、自動 OS 更新を有効にすると、ホスト サーバーと仮想マシンが自動的に Windows Update を確認して、OS 更新の時間枠設定に従ってインストールします。
+   **解決策:** Skype for Business Cloud Connector エディションが備える自動 OS 更新プログラムを活用することをお勧めします。アプライアンスをオンライン管理に登録して、自動 OS 更新を有効にすると、ホスト サーバーと仮想マシンが自動的に Windows Update を確認して、OS 更新の時間枠設定に従ってインストールします。
     
-    Windows Update を手動で確認してインストールする必要がある場合は、展開の種類に該当する、このセクションに記載されている手順に従ってください。更新に必要なダウン タイムを最小限にするため、ホスト サーバーと、そこで動作する仮想マシンの両方の更新を計画する必要があります。
+   Windows Update を手動で確認してインストールする必要がある場合は、展開の種類に該当する、このセクションに記載されている手順に従ってください。更新に必要なダウン タイムを最小限にするため、ホスト サーバーと、そこで動作する仮想マシンの両方の更新を計画する必要があります。
     
-    また、Windows Server Update Services (WSUS) サーバーを使用して、Cloud Connector サーバーに更新プログラムを提供することもできます。Windows Update が自動的にインストール**されない**ように構成してください。
+   また、Windows Server Update Services (WSUS) サーバーを使用して、Cloud Connector サーバーに更新プログラムを提供することもできます。Windows Update が自動的にインストール**されない**ように構成してください。
     
-    Cloud Connector 展開を手動で更新する方法については、次のセクションを参照してください。
+   Cloud Connector 展開を手動で更新する方法については、次のセクションを参照してください。
     
--   **問題: クラウド コネクタは、新しいビルドに更新すると、クラウドのコネクタのコマンドレットが更新されません。** 場合があります、これは自動更新が発生した場合、PowerShell のウィンドウは開いたまま場合に発生します。
+- **問題: クラウド コネクタは、新しいビルドに更新すると、クラウドのコネクタのコマンドレットが更新されません。** 場合があります、これは自動更新が発生した場合、PowerShell のウィンドウは開いたまま場合に発生します。
     
-    **の解像度:** 更新されたコマンドレットを読み込むには、次の手順のいずれかの操作を行います。
+  **の解像度:** 更新されたコマンドレットを読み込むには、次の手順のいずれかの操作を行います。
     
-     - クラウド コネクタ アプライアンスでは、PowerShell を閉じ、PowerShell をもう一度します。
+   - クラウド コネクタ アプライアンスでは、PowerShell を閉じ、PowerShell をもう一度します。
     
      - または、インポート モジュール CloudConnector を実行することができます-強制します。 
+ 
+-   **問題:「名前のコマンドレット、関数、スクリプト ファイルまたは実行可能なプログラムです。 としては、用語 ' Stop CsWindowsService' は認識されていません」エラーは、Enter CcUpdate コマンドレットを実行しようとしています。**
+
+    **の解像度:**$HOME\AppData\Local\Microsoft\Windows\PowerShell\ModuleAnalysisCache ファイルを削除します。
+PowerShell では、本当に時間がかかるものにするようにとするたびにすべてのモジュールを再分析する必要はありませんが検索され、そのモジュールのコマンドレットのキャッシュとしてこのファイルを作成します。 ほとんどの場合、そのキャッシュからの読み取りにすると、PowerShell に誤解を招く結果を提供するいくつかのファイルの破損が発生しました。
+
+-   **問題:「インポート モジュール CloudConnector」エラーが生成されます"インポート モジュール: 指定されたモジュールのモジュール ディレクトリに有効なモジュール ファイルが見つからなかったため、"CloudConnector"は読み込まれませんでした」**
+
+    **解決策:**
+    - 本当に CloudConnector モジュールが存在する [c:\Program Files\WindowsPowerShell\Modules の検証します。
+    
+    - この場所が存在する CloudConnector モジュールを検証した後、モジュールの場所へのパスを格納する PSModulePath 環境変数を変更できます。
+    
+     a. 一時的な変更: 次のコマンドを実行、管理者として Powershell を開始: $env: psmodulepath 環境変数 = $env: psmodulepath 環境変数"; +C:\Program Files\WindowsPowerShell\Modules\"
+        
+     b. 永続的な変更、実行、管理者として PowerShell を開始の次のコマンド、1 つずつ: $CurrentValue = [環境]:: GetEnvironmentVariable("PSModulePath","Machine") SetEnvironmentVariable("PSModulePath", $CurrentValue +";C:\Program Files\WindowsPowerShell\Modules"、「コンピューター」)
+
     
 ## <a name="install-windows-updates-manually"></a>Windows の更新プログラムを手動でインストールします。
 
@@ -376,9 +393,9 @@ ms.locfileid: "23882289"
     
 2. 次のコマンドレットを使用して、HA からインスタンスを削除します。
     
-  ```
-  Enter-CcUpdate
-  ```
+   ```
+   Enter-CcUpdate
+   ```
 
 3. 
     
@@ -386,9 +403,9 @@ ms.locfileid: "23882289"
     
 4. 次のコマンドレットを使用して、HA にインスタンスを戻します。
     
-  ```
-  Exit-CcUpdate
-  ```
+   ```
+   Exit-CcUpdate
+   ```
 
 マルチサイト展開の場合は、展開内の各サイトに対して 1 つのサイトの手順を実行し、一度に 1 つのサイトに対して更新プログラムを適用します。
   

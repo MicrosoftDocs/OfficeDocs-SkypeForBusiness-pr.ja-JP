@@ -22,12 +22,12 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: 'ビジネス用の Skype をインストールするのには、ドメイン、ユーザー、IM およびプレゼンスを組織の設定について説明します。 オーディオ会議、電話システムおよび計画を呼び出すには、Skype の会議のブロードキャストを設定する方法を参照してください。 '
-ms.openlocfilehash: b4db326212b472539a483a406a7c940f0802978d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: af472553cea8a79f2fe9d918f7924f8884e834b5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23864491"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374477"
 ---
 # <a name="set-up-skype-for-business-online"></a>Skype for Business Online のセットアップ
 
@@ -54,7 +54,7 @@ Office 365 サブスクリプションの場合、Skype の設定を支援する
 
 ビジネス オンラインの Skype は、Office 365 のサービス群の一部です。 オンライン ビジネスでは、Skype を設定するには Office 365 にサインインする必要があります。 その方法を以下に示します。
 
-1. Office 365 ユーザー ID ( *rob@fourthcoffee.com*など) を検索します。 ビジネス オンラインの Skype を購入したときに作成した Office 365 のユーザー ID を含む Microsoft Online Services チームから電子メールを受信しました。 メールは、これのようになります。
+1. Office 365 ユーザー ID ( <em>rob@fourthcoffee.com</em>など) を検索します。 ビジネス オンラインの Skype を購入したときに作成した Office 365 のユーザー ID を含む Microsoft Online Services チームから電子メールを受信しました。 メールは、これのようになります。
 
     ![ビジネス オンラインの Skype にサインアップした後を受信した登録完了メールの例です。 Office 365 ユーザー id が含まれています。](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
@@ -80,11 +80,11 @@ Office 365 にサインインしていることビジネス オンラインの S
 
 1. **他のビジネス ユーザー向けに、Skype 通信できるメンバーを選択します。**
 
-  - [ビジネス ユーザー向けの外部の Skype に連絡を許可します。](allow-users-to-contact-external-skype-for-business-users.md)両方*および*その他のビジネス システムを構成する必要があります。
+   - [ビジネス ユーザー向けの外部の Skype に連絡を許可します。](allow-users-to-contact-external-skype-for-business-users.md)両方*および*その他のビジネス システムを構成する必要があります。
 
-    **重要**: rob@contosowest.com、ina@contosoeast.com など、お客様のビジネスに 2 つのドメインがある場合は、すべてのユーザーが相互に通信できるように、この手順を実行する必要があります。
+     **重要**: rob@contosowest.com、ina@contosoeast.com など、お客様のビジネスに 2 つのドメインがある場合は、すべてのユーザーが相互に通信できるように、この手順を実行する必要があります。
 
-  - お客様のビジネスの外の[ビジネス ユーザー向けの Skype は、Skype 連絡先を追加します。](let-skype-for-business-users-add-skype-contacts.md)
+   - お客様のビジネスの外の[ビジネス ユーザー向けの Skype は、Skype 連絡先を追加します。](let-skype-for-business-users-add-skype-contacts.md)
 
 2. **を同僚がオンラインかどうかを確認を選択してください:** プレゼンス機能は、オンラインになっていると、利用可能時間は、使用可能な使用中、退席中、またはプレゼンテーションなどを示しています。
 
@@ -92,9 +92,9 @@ Office 365 にサインインしていることビジネス オンラインの S
 
     お客様のビジネスでは、すべてのユーザーの既定の設定を選択できます。
 
-  - 組織内のすべてのユーザーに、ユーザーのオンライン プレゼンスを自動的に表示します。
+   - 組織内のすべてのユーザーに、ユーザーのオンライン プレゼンスを自動的に表示します。
 
-  - そのメンバーにのみ、ユーザーのオンライン プレゼンスを表示します。
+   - そのメンバーにのみ、ユーザーのオンライン プレゼンスを表示します。
 
 手順については、[ビジネス オンラインの Skype のプレゼンスを構成する](configure-presence-in-skype-for-business-online.md)を参照してください。
 
@@ -171,7 +171,7 @@ Skype 会議のブロードキャストを設定する手順の概要を以下�
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 <a name="bkmk_more"> </a>
 
 [Skype for Business Server と Skype for Business Online 間のハイブリッド接続を計画する](https://go.microsoft.com/fwlink/p/?linkid=400791)

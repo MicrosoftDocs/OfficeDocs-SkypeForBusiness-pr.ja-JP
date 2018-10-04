@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
 description: ビジネス サーバーのエンタープライズ VoIP の Skype のネットワーク サイトへの ~ 9-1-1 の場所のポリシーを割り当てます。
-ms.openlocfilehash: e8ff532d66531cbe92ca661d9eaa5780e5b9f56c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: caf7de4816c30ba77a4215457b503ac0f8fe9640
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885743"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370883"
 ---
 # <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Skype 内のネットワーク サイトにビジネス サーバーの場所のポリシーを追加します。
  
@@ -44,9 +44,9 @@ ms.locfileid: "23885743"
     
     **Redmond** とマークされている場所のポリシーを、**Redmond** という名前の既存のネットワーク サイトに割り当てます。
     
-  ```
-  Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
-  ```
+   ```
+   Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
+   ```
 
 ### <a name="to-assign-a-location-policy-to-a-new-network-site"></a>場所のポリシーを新しいネットワーク サイトに割り当てるには
 

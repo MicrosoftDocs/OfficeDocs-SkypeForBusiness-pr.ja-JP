@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: '概要では、Skype のインストールに必要なビジネス サーバーの管理ツールをインストールする方法について説明します。 ビジネスのサーバーで Microsoft の評価の中心からの Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: a51de57ca8eaa7d303af4240b5d30e8a5ca51f70
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5f5e00075f34a6a09d36dede7c4cf2ac2a6ab60f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882131"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373058"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>Skype のビジネス サーバーの管理ツールをインストールします。
  
@@ -56,13 +56,13 @@ Skype ビジネス サーバー用のインストール メディアでは、柔
     
     ![アプリの画面のコア コンポーネント](../../media/0da1d983-4c4b-4b23-a196-c3bdba4857c6.png)
   
-  - **Skype ビジネス サーバーの展開ウィザードの**コンポーネントをインストールする、さまざまな Skype のビジネス サーバーの起動パッドを提供する導入プログラムです。
+   - **Skype ビジネス サーバーの展開ウィザードの**コンポーネントをインストールする、さまざまな Skype のビジネス サーバーの起動パッドを提供する導入プログラムです。
     
-  - **ビジネス サーバー管理シェルの Skype**Skype のビジネスのサーバーで管理できるようにする構成済みの PowerShell プログラムです。
+   - **ビジネス サーバー管理シェルの Skype**Skype のビジネスのサーバーで管理できるようにする構成済みの PowerShell プログラムです。
     
-    コア ・ コンポーネントのインストールが完了した後、ビジネス サーバーの展開ウィザードの Skype が自動的に起動、図に示すようにします。 
+     コア ・ コンポーネントのインストールが完了した後、ビジネス サーバーの展開ウィザードの Skype が自動的に起動、図に示すようにします。 
     
-    ![Skype for Business Server 展開ウィザード](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
+     ![Skype for Business Server 展開ウィザード](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
   
 6. コア コンポーネントに加えて、環境内の少なくとも 1 つのサーバーで、ビジネス サーバーのコントロール パネルのビジネス サーバー トポロジ ビルダーと Skype の Skype をインストールする必要がも。 展開ウィザードの [**管理ツールのインストール**] をクリックします。
     

@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: モバイル デバイス上の Skype for Business アプリで、携帯電話番号ではなく勤務先の電話番号を使用して携帯電話上で通話を発信および受信できるようにする機能などにより、ユーザーが Skype for Business Online に接続する方法を設定することができます。モバイル機能ポリシーを使用して、通話の発着信時に Wi-Fi 接続を要求するようにすることもできます。
-ms.openlocfilehash: 21d1b19a72686d618bf8fca484bf828e62ee3a37
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 73699cb2c608b7a161b371d86458a18a9c9d3c40
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861529"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372032"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>組織のモバイル ポリシーをセットアップする
 
@@ -58,64 +58,64 @@ ms.locfileid: "23861529"
     > [!NOTE]
     > Skype for Business Online Windows PowerShell モジュールを初めて使用するときに、 **Import-Module** コマンドを実行するだけです。
 
-  ```      
+   ```      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
-  ```
+   ```
 
-  Windows PowerShell を開始する方法の詳細を設定する場合は、 [1 つの Windows PowerShell のウィンドウ内のすべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)か、 [Windows PowerShell を使用して、オンライン ビジネスの Skype への接続](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)を参照してください。
+   Windows PowerShell を開始する方法の詳細を設定する場合は、 [1 つの Windows PowerShell のウィンドウ内のすべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)か、 [Windows PowerShell を使用して、オンライン ビジネスの Skype への接続](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)を参照してください。
 
 ### <a name="require-a-wifi-connection-for-video-for-a-user"></a>ユーザーに対してビデオ使用時に WiFi 接続を要求する
 
 - これらの設定のために新しいポリシーを作成するには、次を実行します。
-> 
-  ```
-  New-CsMobilityPolicy -Identity MobilityPolicy -RequireWIFIForIPVideo $true
-  ```
-  [新規 CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx)コマンドレットの詳細を参照してください。
+  > 
+  > ```
+  > New-CsMobilityPolicy -Identity MobilityPolicy -RequireWIFIForIPVideo $true
+  > ```
+  > [新規 CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx)コマンドレットの詳細を参照してください。
     
 - 作成した新しいポリシーを組織内のすべてのユーザーに付与するには、次を実行します。
-> 
-  ```
-  Grant-CsMobilityPolicy -Identity"amos.marble@contoso.com" -PolicyName MobilityPolicy
-  ```
-  [許可 CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx)コマンドレットの詳細を参照してください。
+  > 
+  > ```
+  > Grant-CsMobilityPolicy -Identity"amos.marble@contoso.com" -PolicyName MobilityPolicy
+  > ```
+  > [許可 CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx)コマンドレットの詳細を参照してください。
     
   ポリシーを作成済みの場合は、[Set-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) コマンドレットを使用して、既存のポリシーに対する変更を行います。次に、[Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) を使用して設定をユーザーに適用します。
   
 ### <a name="prevent-a-user-from-using-the-skype-for-business-app"></a>ユーザーが Skype for Business アプリを使用できないようにする
 
 - これらの設定のために新しいポリシーを作成するには、次を実行します。
-```
-New-CsMobilityPolicy -Identity NoAppClientPolicy -EnableMobility $false 
-```
+  ```
+  New-CsMobilityPolicy -Identity NoAppClientPolicy -EnableMobility $false 
+  ```
   [新規 CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx)コマンドレットの詳細を参照してください。
     
 - Amos Marble に作成した新しいポリシーを付与するには、次を実行します。  
-> 
-  ```
-  Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com"-PolicyName NoAppClientPolicy
-  ```
-  [許可 CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx)コマンドレットの詳細を参照してください。
+  > 
+  > ```
+  > Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com"-PolicyName NoAppClientPolicy
+  > ```
+  > [許可 CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx)コマンドレットの詳細を参照してください。
     
   ポリシーを既に作成した場合は、[セット CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx)コマンドレットを使用して既存のポリシーに変更を加えるし、[許可 CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx)コマンドレットを使用して設定をユーザーに適用します。
   
 ### <a name="prevent-a-user-from-making-voice-over-ip-calls-using-a-mobile-device"></a>ユーザーがモバイル デバイスを使用してボイス オーバー IP 通話を行えないようにする
 
 - これらの設定のために新しいポリシーを作成するには、次を実行します。
-> 
-  ```
-  New-CsMobilityPolicy -Identity VoIPClientPolicy -EnableIPAudioVideo  $false
-  ```
-  [新規 CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx)コマンドレットの詳細を参照してください。
+  > 
+  > ```
+  > New-CsMobilityPolicy -Identity VoIPClientPolicy -EnableIPAudioVideo  $false
+  > ```
+  > [新規 CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx)コマンドレットの詳細を参照してください。
     
 - 作成した新しいポリシーを組織内のすべてのユーザーに付与するには、次を実行します。
-> 
-  ```
-  Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com" -PolicyName VoIPClientPolicy
-  ```
+  > 
+  > ```
+  > Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com" -PolicyName VoIPClientPolicy
+  > ```
 
   [許可 CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx)コマンドレットの詳細を参照してください。
     

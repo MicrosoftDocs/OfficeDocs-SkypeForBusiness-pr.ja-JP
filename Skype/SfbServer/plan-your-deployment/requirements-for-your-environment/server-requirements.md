@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: '概要: このトピックを使用すると、Skype for Business Server 2015 サーバーを準備することができます。ここにはハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件と推奨が掲載されており、サーバー ファームのインストールと展開を正常に実行できるようになります。'
-ms.openlocfilehash: 4e6bbe71a75097e9b1a3a34752d9d1cd46d59307
-ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
+ms.openlocfilehash: 5f64bbf4e455896de143991be455c3c122b4911c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25040742"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374753"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 のサーバー要件
  
@@ -97,7 +97,7 @@ ms.locfileid: "25040742"
 ここで使用する SQL Server のエディションが表示されない場合は使用できません。
   
 > [!NOTE]
-> 監視サーバーの役割、SQL Server レポート サービスをインストールする必要がありますしようとしているもが、この post-RTM までに常に SQL をサポートしようとしていないかを知る必要があります。 
+> しようとしている SQL Server レポート サービス サーバーの監視の役割をインストールする必要があります。
 
 ### <a name="microsoft-exchange-storage"></a>Microsoft Exchange ストレージ
 PowerPoint プレゼンテーションなどの会議コンテンツ ファイルは、添付ファイルとしてアーカイブされます。 Exchange 対応のデータのアーカイブ データをビジネス用の Skype を格納する場合は、Exchange を使用して、Exchange を展開するため、記憶域の最大サイズがミーティングのコンテンツ ファイルのストレージをサポートしていることを確認してください。 展開して、Microsoft Exchange の統合オプションを使用してアーカイブを有効にする前に Exchange を展開する必要があります。 

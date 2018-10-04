@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
 description: '概要: ビジネス サーバー Skype でデュアル トーン多重周波数 (DTMF) コマンドのキー マッピングを管理する方法を説明します。'
-ms.openlocfilehash: 629db0c94b71b9cbf54ebf2c6f6a5074b4b611fa
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c745a621704c677ffb36acb4667021e9734ca398
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20992683"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374879"
 ---
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>ビジネス サーバー Skype の DTMF コマンドのキー マッピングを管理します。
  
@@ -34,19 +34,19 @@ DTMF コマンドを使用するキーを管理するには、ビジネス サ�
     
 3. ダイヤイン会議に使用される DTMF 設定を表示するには、コマンド プロンプトで次のコマンドを実行します。
     
-  ```
-  Get-CsDialinConferencingDtmfConfiguration
-  ```
+   ```
+   Get-CsDialinConferencingDtmfConfiguration
+   ```
 
 4. ダイヤイン会議に使用される DTMF 設定を変更するには、次のコマンドレットを実行し、変更対象である各オプションで押されるキーを指定します。
     
-  ```
-  Set-CsDialinConferencingDtmfConfiguration [-Identity <global or site collection to be changed>]
-[-AdmitAll <default key is 8>] [-AudienceMuteCommand <default key is 4>]
-[-CommandCharacter <* (default) | #>] [-EnableDisableAnnouncementsCommand <default key is 9>]
-[-HelpCommand <default key is 1>] [-LockUnlockConferenceCommand <default key is 7>]
-[-MuteUnmuteCommand <default key is 6>] [-PrivateRollCallCommand <default key is 3>]
-  ```
+   ```
+   Set-CsDialinConferencingDtmfConfiguration [-Identity <global or site collection to be changed>]
+   [-AdmitAll <default key is 8>] [-AudienceMuteCommand <default key is 4>]
+   [-CommandCharacter <* (default) | #>] [-EnableDisableAnnouncementsCommand <default key is 9>]
+   [-HelpCommand <default key is 1>] [-LockUnlockConferenceCommand <default key is 7>]
+   [-MuteUnmuteCommand <default key is 6>] [-PrivateRollCallCommand <default key is 3>]
+   ```
 
 5. (オプション) 特定サイトに対する DTMF コマンドの追加セットを作成するには、サイト ID と **New-CsDialinConferencingDtmfConfiguration** コマンドレットを使用します。
     

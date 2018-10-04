@@ -9,19 +9,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: IT 専門家向けに、Skype for Business 2016、Skype for Business 2015、および Lync 2013 クライアントの永続バージョンに対する最新の更新プログラム関連情報へのリンクを提供します。
-ms.openlocfilehash: 148f635d081b33a80d6b138b717e87aecdd616c5
-ms.sourcegitcommit: aa3258aeb5aa1296c4bb251a9d258b8896457b7b
+ms.openlocfilehash: 69ff89c856204577c46f27c568f3b6d9cf5613b2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23884190"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374164"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Windows インストーラー (MSI) を使用する Skype for Business の各バージョンに対する最新の更新プログラム
 
 このページのリンクを使用して、Skype for Business 2016、Skype for Business 2015、および Lync 2013 クライアントの永続バージョンに対する最新の更新プログラムの詳細情報の確認やダウンロードを行うことができます。
 
 > [!NOTE]
-> - この記事の情報は、WIndows インストーラー (MSI) のインストール テクノロジを使用する Skype for Business の永続バージョンについてのみ適用されます。 具体的には、Office Professional Plus 2016 に含まれている Skype for Business のような、Skype for Business のボリューム ライセンスのバージョンをインストールした場合です。
+> - The information in this article only applies to perpetual versions of Skype for Business that use the Windows Installer (MSI) installation technology. For example, if you installed a volume licensed version of Skype for Business, such as Skype for Business included with Office Professional Plus 2016.
 > - この記事の情報は、Office 365 ProPlus に含まれている Skype for Business のような、Skype for Businss の Office 365 バージョンについては適用されません。
 > - 最新のモバイル クライアントの更新プログラムの場合は、お使いのモバイル クライアントのアプリ ストア (iTunes、Google Play、または Microsoft Store) に移動して、詳細を表示して更新プログラムをインストールしてください。
 > - 現在使用している Skype for Business のバージョンを確認する場合は、「[What version of Skype for Business do I have? (利用している Skype for Business のバージョンは何でしょうか?)](https://support.microsoft.com/en-us/help/3195481/how-to-check-the-version-of-skype-for-business-2016)」をご覧ください。
@@ -29,7 +29,7 @@ ms.locfileid: "23884190"
 
 Office 365 との Skype for Business の互換性およびオンプレミス環境は、お使いの展開に応じて異なります。
 
-- Office 365 は、Skype for Business 2016 の最新バージョンを含む、メインストリーム サポート内の Skype for Business のすべてのバージョンと連携して機能します。 Skype for Business の以前のバージョンについては、Office 365 と連携して機能し続ける可能性があるのは、拡張サポートが有効なバージョンのみです。ただし、利用できる機能は削減されます。 詳細については、「[マイクロソフト製品サポート ライフサイクル ポリシー](https://support.microsoft.com/lifecycle)」をご覧ください。
+- Office 365 works with any version of Skype for Business that is in mainstream support, which includes the latest version of Skype for Business 2016. For previous versions of Skype for Business, only those that have extended support may continue to work with Office 365, although with reduced functionality. For more information, see [Microsoft Lifecycle Policy](https://support.microsoft.com/lifecycle).
 
 - Skype for Business Server のオンプレミス展開については、次に示すお使いの Skype for Business のバージョンのシステム要件に従ってください。
 
@@ -38,6 +38,7 @@ Office 365 との Skype for Business の互換性およびオンプレミス環�
   - [Lync Server 2013: システム要件](https://technet.microsoft.com/en-us/library/jj205115(v=ocs.15).aspx)
 
 ## <a name="skype-for-business-2016-client-updates"></a>Skype for Business 2016 クライアントの更新プログラム
+
 |パッケージ名|KB 番号|リリース日|
 |:---  |:---  |:---  |
 |Skype for Business 2016 用のセキュリティ更新プログラム |[KB 4022221](https://support.microsoft.com/kb/4022221)| 2018 年 7 月 |
@@ -171,19 +172,19 @@ Office 365 との Skype for Business の互換性およびオンプレミス環�
 
 ### <a name="lync-phone-edition-updates"></a>Lync Phone Edition の更新プログラム
 
-パッケージ名|KB 番号|リリース日|
-|:--- |:--- |:--- |
-|Aastra 6721ip および Aastra 6725ip 電話機用の Lync Phone Edition の累積的な更新プログラム|[KB 4019527](https://support.microsoft.com/en-us/help/4019527) | 2017 年 4 月 |
-|HP 4110 および HP 4120 電話機用の Microsoft Lync Phone Edition の累積的な更新プログラム|[KB 4019528](https://support.microsoft.com/en-us/help/4019528) | 2017 年 4 月 |
-|Polycom CX500、Polycom CX600、および Polycom CX3000 電話機用の Microsoft Lync Phone Edition の累積的な更新プログラム|[KB 4019529](https://support.microsoft.com/en-us/help/4019529) | 2017 年 4 月 |
-|Aastra 6721ip および Aastra 6725ip 電話機用の Lync Phone Edition の累積的な更新プログラム|[KB 3050585](https://support.microsoft.com/en-us/kb/3050585) | 2015 年 5 月 |
-|HP 4110 および HP 4120 電話機用の Lync Phone Edition の累積的な更新プログラム|[KB 3050587](https://support.microsoft.com/en-us/kb/3050587) | 2015 年 5 月 |
-|Polycom CX500、Polycom CX600、および Polycom CX3000 用の Lync Phone Edition の累積的な更新プログラム|[KB 3050588](https://support.microsoft.com/en-us/kb/3050588) | 2015 年 5 月 |
-|Polycom CX700 および LG-Nortel IP Phone 8540 電話機用の Lync Phone Edition の累積的な更新プログラム|[KB 3050590](https://support.microsoft.com/en-us/kb/3050590) | 2015 年 5 月 |
-|Aastra 6721ip および Aastra 6725ip 電話機用の Lync Phone Edition の累積的な更新プログラム |[KB 2954032](https://support.microsoft.com/kb/2954032) | 2014 年 4 月|
-|HP 4110 および HP 4120 電話機用の Lync Phone Edition の累積的な更新プログラム |[KB 2954033](https://support.microsoft.com/kb/2954033) | 2014 年 4 月||
-|Polycom CX500、Polycom CX600、および Polycom CX3000 電話機用の Lync Phone Edition の累積的な更新プログラム |[KB 2954034](https://support.microsoft.com/kb/2954034) | 2014 年 4 月||
-|Polycom CX700 および LG-Nortel IP Phone 8540 電話機用の Lync Phone Edition の累積的な更新プログラム |[KB 2954035](https://support.microsoft.com/kb/2954035) | 2014 年 4 月||
+| パッケージ名                                                                                                       | KB 番号                                                      | リリース日 |
+|:-------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|:-------------|
+| Aastra 6721ip および Aastra 6725ip 電話機用の Lync Phone Edition の累積的な更新プログラム                             | [KB 4019527](https://support.microsoft.com/en-us/help/4019527) | 2017 年 4 月   |
+| HP 4110 および HP 4120 電話機用の Microsoft Lync Phone Edition の累積的な更新プログラム                              | [KB 4019528](https://support.microsoft.com/en-us/help/4019528) | 2017 年 4 月   |
+| Polycom CX500、Polycom CX600、および Polycom CX3000 電話機用の Microsoft Lync Phone Edition の累積的な更新プログラム | [KB 4019529](https://support.microsoft.com/en-us/help/4019529) | 2017 年 4 月   |
+| Aastra 6721ip および Aastra 6725ip 電話機用の Lync Phone Edition の累積的な更新プログラム                            | [KB 3050585](https://support.microsoft.com/en-us/kb/3050585)   | 2015 年 5 月     |
+| HP 4110 および HP 4120 電話機用の Lync Phone Edition の累積的な更新プログラム                                        | [KB 3050587](https://support.microsoft.com/en-us/kb/3050587)   | 2015 年 5 月     |
+| Polycom CX500、Polycom CX600、および Polycom CX3000 用の Lync Phone Edition の累積的な更新プログラム                      | [KB 3050588](https://support.microsoft.com/en-us/kb/3050588)   | 2015 年 5 月     |
+| Polycom CX700 および LG-Nortel IP Phone 8540 電話機用の Lync Phone Edition の累積的な更新プログラム                  | [KB 3050590](https://support.microsoft.com/en-us/kb/3050590)   | 2015 年 5 月     |
+| Aastra 6721ip および Aastra 6725ip 電話機用の Lync Phone Edition の累積的な更新プログラム                            | [KB 2954032](https://support.microsoft.com/kb/2954032)         | 2014 年 4 月   |
+| HP 4110 および HP 4120 電話機用の Lync Phone Edition の累積的な更新プログラム                                        | [KB 2954033](https://support.microsoft.com/kb/2954033)         | 2014 年 4 月   |
+| Polycom CX500、Polycom CX600、および Polycom CX3000 電話機用の Lync Phone Edition の累積的な更新プログラム           | [KB 2954034](https://support.microsoft.com/kb/2954034)         | 2014 年 4 月   |
+| Polycom CX700 および LG-Nortel IP Phone 8540 電話機用の Lync Phone Edition の累積的な更新プログラム                  | [KB 2954035](https://support.microsoft.com/kb/2954035)         | 2014 年 4 月   |
 
 ### <a name="lync-phone-edition-clients-on-download-center"></a>ダウンロード センターでの Lync Phone Edition クライアント
 
@@ -246,23 +247,24 @@ Office 365 との Skype for Business の互換性およびオンプレミス環�
 
 ### <a name="attendant"></a>Attendant
 
-**パッケージ名/リンク**|リリース日|
-|:--- |:--- |
-|[Lync 2010 Attendant (32 ビット)](https://www.microsoft.com/download/en/details.aspx?id=10164) | 2010 年 11 月 |
-|[Lync 2010 Attendant (64 ビット)](https://www.microsoft.com/download/en/details.aspx?id=20084) | 2010 年 11 月 |
+| **パッケージ名/リンク**                                                                       | リリース日  |
+|:--------------------------------------------------------------------------------------------|:--------------|
+| [Lync 2010 Attendant (32 ビット)](https://www.microsoft.com/download/en/details.aspx?id=10164) | 2010 年 11 月 |
+| [Lync 2010 Attendant (64 ビット)](https://www.microsoft.com/download/en/details.aspx?id=20084) | 2010 年 11 月 |
 
 ### <a name="attendee"></a>Attendee
 
-**パッケージ名/リンク**|リリース日|
-|:--- |:--- |
-|[Lync 2010 Attendee - 管理レベルのインストール](https://www.microsoft.com/download/en/details.aspx?id=23396) | 2013 年 4 月 |
-|[Lync 2010 Attendee - ユーザー レベルのインストール](https://www.microsoft.com/download/en/details.aspx?id=15755) | 2014 年 6 月 |
+| **パッケージ名/リンク**                                                                                   | リリース日 |
+|:--------------------------------------------------------------------------------------------------------|:-------------|
+| [Lync 2010 Attendee - 管理レベルのインストール](https://www.microsoft.com/download/en/details.aspx?id=23396) | 2013 年 4 月   |
+| [Lync 2010 Attendee - ユーザー レベルのインストール](https://www.microsoft.com/download/en/details.aspx?id=15755)  | 2014 年 6 月    |
 
 ### <a name="trial-software"></a>試用版ソフトウェア
-**パッケージ名/リンク**|リリース日|
-|:--- |:--- |
-|[Lync 2010 試用版 (32 ビット) ](https://www.microsoft.com/en-us/download/details.aspx?id=5484)| 2010 年 11 月 |
-|[Lync 2010 試用版 (64 ビット) ](https://www.microsoft.com/en-us/download/details.aspx?id=10400)| 2010 年 11 月 |
+
+| **パッケージ名/リンク**                                                                       | リリース日  |
+|:--------------------------------------------------------------------------------------------|:--------------|
+| [Lync 2010 試用版 (32 ビット) ](https://www.microsoft.com/en-us/download/details.aspx?id=5484)  | 2010 年 11 月 |
+| [Lync 2010 試用版 (64 ビット) ](https://www.microsoft.com/en-us/download/details.aspx?id=10400) | 2010 年 11 月 |
 
 ## <a name="related-topics"></a>関連トピック
 

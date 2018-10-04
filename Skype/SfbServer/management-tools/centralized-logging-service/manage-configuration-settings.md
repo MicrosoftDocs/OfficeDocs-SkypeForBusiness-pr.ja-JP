@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 概要では、取得、更新、およびビジネス サーバー 2015 の Skype で集中ログ サービスの構成設定を作成する方法について説明します。
-ms.openlocfilehash: 163ac9607e3b690aac2f069c38e967692721d819
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 62902a25e50043f2e03eda907f4ba572249b1a60
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253119"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375602"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の集中ログ サービスの構成設定の管理
 
@@ -66,9 +66,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. コマンド ライン プロンプトで次のように入力します。
 
-  ```
-  Get-CsClsConfiguration
-  ```
+   ```
+   Get-CsClsConfiguration
+   ```
 
 新しい構成を作成または既存の構成を更新するのには、**新規 CsClsConfiguration**と**セット CsClsConfiguration**コマンドレットを使用します。**Get CsClsConfiguration**を実行すると、次のスクリーン ショット、展開されているデフォルトのグローバル設定ですが定義されているサイト構成はありませんのような情報が表示されます。
 
@@ -80,9 +80,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. コマンド ライン プロンプトで次のように入力します。
 
-  ```
-  Get-CsClsConfiguration -LocalStore
-  ```
+   ```
+   Get-CsClsConfiguration -LocalStore
+   ```
 
 使用する場合最初の例では、 **Get CsClsConfiguration**がすべてのパラメーター、コマンドの参照先を指定しない、中央管理ストアのデータです。 パラメーターを指定する場合、-LocalStore、コマンドは、中央管理ストアではなくコンピューターの LocalStore を参照します。
 ### <a name="to-retrieve-a-listing-of-scenarios-currently-defined"></a>現在定義されているシナリオの一覧を取得するには
@@ -91,15 +91,15 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. コマンド ライン プロンプトで次のように入力します。
 
-  ```
-  Get-CsClsConfiguration -Identity <scope and name> | Select-Object -ExpandProperty Scenarios
-  ```
+   ```
+   Get-CsClsConfiguration -Identity <scope and name> | Select-Object -ExpandProperty Scenarios
+   ```
 
     たとえば、グローバル スコープで定義されているシナリオを取得するには、次のように入力します。
 
-  ```
-  Get-CsClsConfiguration -Identity "global" | Select-Object -ExpandProperty Scenarios
-  ```
+   ```
+   Get-CsClsConfiguration -Identity "global" | Select-Object -ExpandProperty Scenarios
+   ```
 
 **Get CsClsConfiguration**コマンドレットは、常に特定のスコープの構成の一部になっているシナリオを表示します。 ほとんどの場合、シナリオがすべて表示されるのではなく、一部が切り捨てられます。 ここで使用するコマンドは、すべてのシナリオおよび使用されているプロバイダー、設定、およびフラグに関する一部の情報を一覧表示します。
 ### <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Windows PowerShell を使用して集中ログ サービスのグローバル スコープを更新するには
@@ -108,15 +108,15 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. コマンド ライン プロンプトで次のように入力します。
 
-  ```
-  Set-CsClsConfiguration -Identity <scope> -EtlFileRolloverSizeMB <size for logging file in megabytes>
-  ```
+   ```
+   Set-CsClsConfiguration -Identity <scope> -EtlFileRolloverSizeMB <size for logging file in megabytes>
+   ```
 
-  次に例を示します。
+   次に例を示します。
 
-  ```
-  Set-CsClsConfiguration -Identity "global" -EtlFileRolloverSizeMB 40
-  ```
+   ```
+   Set-CsClsConfiguration -Identity "global" -EtlFileRolloverSizeMB 40
+   ```
 
 このコマンドは、トレース ファイルのロールオーバーのサイズを 40 MB に設定するよう、展開内の各コンピューターおよびプールの CLSAgent に指示します。すべてのサイトのコンピューターとプールがこのコマンドの対象となり、コンピューターとプールの構成済みのトレース ログのロールオーバーの値が 40 MB に設定されます。
 ### <a name="to-update-a-site-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Windows PowerShell を使用して集中ログ サービスのサイトの範囲を更新するには
@@ -125,15 +125,15 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. コマンド ライン プロンプトで次のように入力します。
 
-  ```
-  Set-CsClsConfiguration -Identity <scope/site name> -EtlFileRolloverSizeMB <size for logging file in megabytes>
-  ```
+   ```
+   Set-CsClsConfiguration -Identity <scope/site name> -EtlFileRolloverSizeMB <size for logging file in megabytes>
+   ```
 
-  次に例を示します。
+   次に例を示します。
 
-  ```
-  Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40
-  ```
+   ```
+   Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40
+   ```
 
 > [!NOTE]
 > この例に示すように、ログ ファイルの既定の場所は %TEMP%\Tracing です。ただし、これは実際にはファイルを書き込む CLSAgent であり、CSLAgent はネットワーク サービスとして実行されるため、%TEMP% 変数は %WINDIR%\ServiceProfiles\NetworkService\AppData\Local に展開されます。
@@ -145,9 +145,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. コマンド ライン プロンプトで次のように入力します。
 
-  ```
-  New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
-  ```
+   ```
+   New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
+   ```
 
     > [!NOTE]
     > New-CsClsConfiguration を使用すると、オプションの多数の構成設定にアクセスできます。 詳細構成オプションについては、 [Get CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csclsconfiguration?view=skype-ps)と[理解する一元的なログ記録サービス構成の設定](https://technet.microsoft.com/library/3c34e600-0b91-43dc-b4cc-90b6a70ee12e.aspx)を参照してください。
@@ -165,9 +165,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. コマンド ライン プロンプトで次のように入力します。
 
-  ```
-  Remove-CsClsConfiguration -Identity <scope and name>
-  ```
+   ```
+   Remove-CsClsConfiguration -Identity <scope and name>
+   ```
 
 などのログ ファイルのロール オーバーの時間を増加するために作成するログ サービスの一元的な構成を削除するには、ロール オーバーのログ ファイル サイズを増やすし、ネットワーク共有にログ ファイルのキャッシュの場所を次のように設定。
 

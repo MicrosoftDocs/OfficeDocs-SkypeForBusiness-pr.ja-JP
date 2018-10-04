@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: '概要: を定義し、ビジネスのサーバーのトポロジ ビルダーで Skype に仲介サーバーを展開する方法を説明します。'
-ms.openlocfilehash: fd83ecb44726f151dea83c19b9745446653ca33b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5e4221230fbaf993b5bf3d2b647e6d7e6e7ada51
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883725"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371922"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>ビジネス サーバーのトポロジ ビルダーで Skype に仲介サーバーを展開します。
  
@@ -79,8 +79,8 @@ Skype (か、仲介サーバーはフロント エンド プールまたはス�
     
    - 高可用性を提供する、プール内の複数の仲介サーバーを展開する場合は、**複数コンピューターのプール**を選択します。
     
-    > [!NOTE]
-    > [展開](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing)を複数の仲介サーバーを持つ仲介サーバー プールをサポートする必要があります。
+     > [!NOTE]
+     > [展開](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing)を複数の仲介サーバーを持つ仲介サーバー プールをサポートする必要があります。
   
    - 高可用性を必要としないために、プール内の 1 つだけの仲介サーバーを展開する場合は、 **1 台のコンピューターのプール**を選択します。 以下のステップは省略してください。
     

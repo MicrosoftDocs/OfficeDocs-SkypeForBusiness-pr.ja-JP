@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: '概要: は、会議の参加を管理し、お知らせの Skype ビジネス サーバーのままにする方法を説明します。'
-ms.openlocfilehash: 84c9b5f9457d16570e58b119329d6b8fcefa4205
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 33c20319142608f38451a547687bc1bc9eae47d1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008492"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371589"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>会議の参加を管理し、お知らせの Skype ビジネス サーバーのままに
  
@@ -39,20 +39,20 @@ ms.locfileid: "21008492"
     
 3. コマンド プロンプトで次のコマンドを実行します。
     
-  ```
-  Get-CsDialinConferencingConfiguration
-  ```
+   ```
+   Get-CsDialinConferencingConfiguration
+   ```
 
 このコマンドレットでは、参加者が会議に参加するときに自分の名前を記録する必要がかどうかと、参加者の参加またはダイヤルイン会議のままにするときの Skype ビジネス サーバーの応答に関する情報を取得します。
     
 4. コマンド プロンプトで次のコマンドを実行します。
     
-  ```
-  Set-CsDialinConferencingConfiguration -Identity <identity of dial-in conferencing settings to be modified>
-[-EnableNameRecording <$true | $false>]
-[-EntryExitAnnouncementsEnabledByDefault <$true | $false>]
-[-EntryExitAnnouncementsType <UseNames | ToneOnly]
-  ```
+   ```
+   Set-CsDialinConferencingConfiguration -Identity <identity of dial-in conferencing settings to be modified>
+   [-EnableNameRecording <$true | $false>]
+   [-EntryExitAnnouncementsEnabledByDefault <$true | $false>]
+   [-EntryExitAnnouncementsType <UseNames | ToneOnly]
+   ```
 
 次の例では、設定が Redmond のサイト スコープで定義されます。アナウンスはオンにされますが、会議に参加するときに名前を言うように参加者が求められることはありません。参加者が会議に出席または会議から退席するときには、トーン音が再生されます。
   

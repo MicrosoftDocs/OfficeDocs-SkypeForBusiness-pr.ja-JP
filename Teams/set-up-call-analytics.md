@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 設定し、分析機能の呼び出しを使用して特定し、Skype のビジネスおよびマイクロソフトのチームの通話品質の問題に関するトラブルシューティングを行います。
-ms.openlocfilehash: 1e7c7eaa769ba1e08a46b539b15e673d35891f5c
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: ff1323ad94381119dc9651d353d57988f0ff5876
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016910"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375902"
 ---
 # <a name="set-up-call-analytics"></a>分析機能の呼び出しを設定します
 
@@ -81,7 +81,7 @@ Skype のオンライン ビジネスの管理、分析機能の呼び出しを�
     
      ![スクリーン ショットは、第 1 層および第 2 層のアクセス許可のオプションを使用して分析を呼び出すページのアクセス許可を示しています。](media/setup-call-analytics-image1.png)
   
- どちらのアクセス許可レベルを持つユーザーが専用の URL を使用して分析機能の呼び出しを取得*https://adminportal.services.skypeforbusiness.com*。
+   どちらのアクセス許可レベルを持つユーザーが専用の URL を使用して分析機能の呼び出しを取得*https://adminportal.services.skypeforbusiness.com*。
   
 ## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>サイトの構築を追加し、情報をテナントに .tsv または .csv ファイルをアップロードします。
 <a name="BKMK_UploadFiles"> </a>

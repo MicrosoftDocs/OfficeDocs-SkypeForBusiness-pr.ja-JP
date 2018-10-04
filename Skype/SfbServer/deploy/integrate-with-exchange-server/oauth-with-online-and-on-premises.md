@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: OAuth を構成するオンライン ビジネスの社内の Exchange と Skype との間の認証は、ビジネスおよび Exchange の統合機能の機能のサポート」に記載の Skype を使用できます。
-ms.openlocfilehash: e5510605dc07f8ad3babda45984f258e8a81689f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: d4c7e491b43b457c96a69ebba1ea808054346d98
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250204"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373872"
 ---
 # <a name="configure-oauth-between-skype-for-business-online-and-exchange-on-premises"></a>オンプレミスの Exchange と Skype for Business Online 間での OAuth の構成
 
@@ -116,20 +116,20 @@ Exchange、オンプレミスの Exchange 組織内の PowerShell では、作�
 
 2. たとえば、PowerShell スクリプト ファイルに次のテキストを保存`UploadAuthCert.ps1`。
 
-  ```
-  Connect-MsolService;
-Import-Module msonlineextended;
-$CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
-$objFSO = New-Object -ComObject Scripting.FileSystemObject;
-$CertFile = $objFSO.GetAbsolutePathName($CertFile);
-$cer = New-Object System.Security.Cryptography.X509Certificates.X509Certificate
-$cer.Import($CertFile);
-$binCert = $cer.GetRawCertData();
-$credValue = [System.Convert]::ToBase64String($binCert);
-$ServiceName = "00000002-0000-0ff1-ce00-000000000000";
-$p = Get-MsolServicePrincipal -ServicePrincipalName $ServiceName
-New-MsolServicePrincipalCredential -AppPrincipalId $p.AppPrincipalId -Type asymmetric -Usage Verify -Value $credValue
-  ```
+   ```
+   Connect-MsolService;
+   Import-Module msonlineextended;
+   $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
+   $objFSO = New-Object -ComObject Scripting.FileSystemObject;
+   $CertFile = $objFSO.GetAbsolutePathName($CertFile);
+   $cer = New-Object System.Security.Cryptography.X509Certificates.X509Certificate
+   $cer.Import($CertFile);
+   $binCert = $cer.GetRawCertData();
+   $credValue = [System.Convert]::ToBase64String($binCert);
+   $ServiceName = "00000002-0000-0ff1-ce00-000000000000";
+   $p = Get-MsolServicePrincipal -ServicePrincipalName $ServiceName
+   New-MsolServicePrincipalCredential -AppPrincipalId $p.AppPrincipalId -Type asymmetric -Usage Verify -Value $credValue
+   ```
 
 3. 先の手順で作成した PowerShell スクリプトを実行します。 例えば：`.\UploadAuthCert.ps1`
 
@@ -144,16 +144,16 @@ Exchange 組織用の検証済みのドメインを指定します。 このド�
 
 1. 次のテキストを、たとえば RegisterEndpoints.ps1 という名前の PowerShell スクリプト ファイルに保存します。 この例では、contoso.com のすべてのエンドポイントを登録するためにワイルドカードを使用しています。 Contoso.com を交換して、オンプレミスの Exchange 組織のホスト名の権限を持つ
 
-  ```
-  $externalAuthority="*.<your Verified Domain>"
-$ServiceName = "00000002-0000-0ff1-ce00-000000000000";
-$p = Get-MsolServicePrincipal -ServicePrincipalName $ServiceName;
-$spn = [string]::Format("{0}/{1}", $ServiceName, $externalAuthority);
-$p.ServicePrincipalNames.Add($spn);
-Set-MsolServicePrincipal -ObjectID $p.ObjectId -ServicePrincipalNames $p.ServicePrincipalNames;
-  ```
+   ```
+   $externalAuthority="*.<your Verified Domain>"
+   $ServiceName = "00000002-0000-0ff1-ce00-000000000000";
+   $p = Get-MsolServicePrincipal -ServicePrincipalName $ServiceName;
+   $spn = [string]::Format("{0}/{1}", $ServiceName, $externalAuthority);
+   $p.ServicePrincipalNames.Add($spn);
+   Set-MsolServicePrincipal -ObjectID $p.ObjectId -ServicePrincipalNames $p.ServicePrincipalNames;
+   ```
 
-2.  Azure Active Directory 用 Windows PowerShell で、先の手順で作成した Windows PowerShell スクリプトを実行します。 たとえば、`.\RegisterEndpoints.ps1` などです
+2. Azure Active Directory 用 Windows PowerShell で、先の手順で作成した Windows PowerShell スクリプトを実行します。 たとえば、`.\RegisterEndpoints.ps1` などです
 
 ### <a name="verify-your-success"></a>成否を確認する
 

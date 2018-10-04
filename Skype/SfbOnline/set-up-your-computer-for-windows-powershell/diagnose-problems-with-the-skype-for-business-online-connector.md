@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: 516da269e41f7945238aa8b402793a65444bd932
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 651afa58513819eb57914bfa1cd92bc38a46298f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851515"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372906"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Skype for Business Online Connector との接続の問題を診断する
 
@@ -51,7 +51,7 @@ ms.locfileid: "23851515"
 
 PowerShell 実行ポリシーは、PowerShell コンソールに読み込む構成ファイルやそのコンソールからユーザーが実行できるスクリプトを決定するのに役立ちます。実行ポリシーを RemoteSigned に設定していない場合、Skype for Business Online Connector モジュール をインポートすることはできません。この設定を行っていない場合にモジュールをインポートしようとすると、次のエラー メッセージが表示されます。
   
-- **エラー**:*モジュールのインポート: ファイル c:\\プログラム ファイル\\共通ファイル\\Microsoft Lync Server 2013\\モジュール\\LyncOnlineConnector\\LyncOnlineConnectorStartup.psm1 は、実行されているために、読み込むことができませんこのシステムでは、スクリプトが無効です。詳細についてを参照してくださいに about_Execution_Policieshttps://go.microsoft.com/fwlink/?LinkID=135170です*。
+- **エラー**:<em>モジュールのインポート: ファイル c:\\プログラム ファイル\\共通ファイル\\Microsoft Lync Server 2013\\モジュール\\LyncOnlineConnector\\LyncOnlineConnectorStartup.psm1 は、実行されているために、読み込むことができませんこのシステムでは、スクリプトが無効です。詳細についてを参照してくださいに about_Execution_Policieshttps://go.microsoft.com/fwlink/?LinkID=135170です</em>。
 
 - **解像度**この問題を解決するには、管理者は、PowerShell を開始し、次のコマンドを実行します。
     ```
@@ -143,7 +143,7 @@ PowerShell を使用して Skype for Business Online を管理するには、テ
 
 - **解像度**: この問題を解決する唯一の方法は、1 つ以上の以前の接続を閉じることです。 Skype for Business Online セッションが終了したら、 **Remove-PSSession** コマンドレットを使用してそのセッションを切断することをお勧めします。 そうすることにより、この問題が発生することを防ぐことができます。  
  
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 [Windows PowerShell を使用してビジネスのオンライン管理のための skype には、コンピューターを設定します](set-up-your-computer-for-windows-powershell.md)
 
   

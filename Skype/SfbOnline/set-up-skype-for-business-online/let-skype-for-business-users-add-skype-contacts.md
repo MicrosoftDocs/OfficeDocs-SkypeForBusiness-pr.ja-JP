@@ -18,12 +18,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to  let people who are using Skype for Business contact Skype for Business users from outside your organization and add them to their list of contacts. '
-ms.openlocfilehash: 98701f55bd1cdf2c6a5f8177d05a95030a4a04a5
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 3961aaa5bfe8ca17a28fa736f64a91a48414a494
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850091"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371953"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Skype for Business ユーザーが Skype 連絡先を追加できるようにする
 
@@ -75,9 +75,9 @@ Office 365 でこれを行うには、[Office 365 の管理者ロールについ
     
 4. 問題がファイアウォールであるかどうかをテストするもう 1 つの方法は、お使いのファイアウォールの背後ではないコーヒー ショップなどの wifi の場所に移動して、Skype for Business を使用して Skype 連絡先にチャットするリクエストを送信します。 
     
-  - **Skype 連絡先にリクエストを送信したのに、受信されていない場合** は、チャットするためのリクエストを自分宛てに送信してもらいます。Skype と Skype for Business との間の接続に問題がある場合は、これにより問題が解決する可能性が高いです。
+   - **Skype 連絡先にリクエストを送信したのに、受信されていない場合** は、チャットするためのリクエストを自分宛てに送信してもらいます。Skype と Skype for Business との間の接続に問題がある場合は、これにより問題が解決する可能性が高いです。
     
-  - メッセージがコーヒー ショップでは送られるのに職場では送られない場合は、ファイアウォールが問題であることが分かります。 
+   - メッセージがコーヒー ショップでは送られるのに職場では送られない場合は、ファイアウォールが問題であることが分かります。 
     
 ## <a name="what-you-can-and-cant-do"></a>できることとできないこと
 

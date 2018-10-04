@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: '概要: ステージの AV と OAuth の証明書ビジネス サーバーの Skype のです。'
-ms.openlocfilehash: 3f616d7e67cf256cbf2a53ea86b3f051d959d4f5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9fd4074034e9bff6b27ed9a22143c59dc9890821
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20996424"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375937"
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>Skype で AV と OAuth の証明書をビジネス サーバーのステージ ・ セット CsCertificate でロールを使用します。
  
@@ -60,19 +60,19 @@ OAuthTokenIssuer 証明書をステージングするときは、証明書が有
   
     セット-CsCertificate は - ロールと EffectiveTime のパラメーターを使用してコマンドします。
     
-  ```
-  Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
+   ```
+   Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
           <thumb print of new certificate> -Roll -EffectiveDate <date and time
           for certificate to become active>
-  ```
+   ```
 
     Set-CsCertificate コマンドの例を次に示します。
     
-  ```
-  Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
+   ```
+   Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
           "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/22/2015
           6:00:00 AM"
-  ```
+   ```
 
     > [!IMPORTANT]
     > EffectiveDate は、サーバーの地域と言語の設定に一致するようにフォーマットしなければなりません。 この例で使用している地域と言語の設定は英語 (米国) です。 
@@ -106,11 +106,11 @@ Remove-CsCertificate -Type AudioVideoAuthentication -Previous
     
     セット-CsCertificate は - ロールと EffectiveTime のパラメーターを使用してコマンドします。
     
-  ```
-  Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint <thumb
+   ```
+   Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint <thumb
           print of new certificate> -Roll -EffectiveDate <date and time for
           certificate to become active> -identity Global 
-  ```
+   ```
 
 Set-CsCertificate コマンドの例を次に示します。
     

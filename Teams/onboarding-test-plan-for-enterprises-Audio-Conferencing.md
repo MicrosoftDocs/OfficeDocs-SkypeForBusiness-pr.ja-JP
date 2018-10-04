@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d16c55ac5e307192f93e593bca9910e1be9393d
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 79d9fcde21b6d6f7d0c169efd852629fb43ae9b5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017136"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373787"
 ---
 <a name="define-and-document-your-audio-conferencing-in-teams-test-plan-for-enterprises"></a>定義し、企業のチームのテスト計画で、オーディオ会議を文書化 
 ===============================================================================
@@ -63,8 +63,8 @@ ms.locfileid: "25017136"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>意思決定ポイント</td><td><ul><li>テスト環境内での音声会議機能のテストに必要なサポート、および利害関係者ロールを決定します。</li><li>リソースが認められたテストのサポート、および利害関係者の役割を割り当てることを決定します。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>[テストをサポートして利害関係者に必要なテストのサポート、および利害関係者の役割を文書化します。</li><li>連絡先情報およびサポートの利害関係者のテスト マトリックスの一覧を表示する各リソースの場所の詳細を文書化します。
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>テスト環境内での音声会議機能のテストに必要なサポート、および利害関係者ロールを決定します。</li><li>リソースが認められたテストのサポート、および利害関係者の役割を割り当てることを決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>[テストをサポートして利害関係者に必要なテストのサポート、および利害関係者の役割を文書化します。</li><li>連絡先情報およびサポートの利害関係者のテスト マトリックスの一覧を表示する各リソースの場所の詳細を文書化します。
 </table>
 
 
@@ -87,7 +87,7 @@ ms.locfileid: "25017136"
 #### <a name="audio-conferencing-feature-definition"></a>音声会議機能の定義
 
 > [!TIP]
-
+> 
 > 文書、電話会議の管理と評価されるようにユーザー グループの機能を使用できる電話会議の定義のテンプレートの例を次に示します。
 
 | エンタープライズ ・ クラス   | 共同会議    | プラットフォームとデバイス   | IT プロフェッショナル  | 追加のビジネス グループ、サイト固有  | チームの最新のロードマップで満たされる要件 |
@@ -103,11 +103,11 @@ ms.locfileid: "25017136"
 |----------------------------------------------|--------------------------------------------------|------------------------------------------|
 | <ul><li>チーム (Office のグループの作成が有効になっている) を作成します。</li><li>チームに参加する</li><li>チャネルを作成する</li><li>会議を作成して表示する</li><li>ユーザー プロフィールの写真を変更する</li><li>コネクタを追加して構成する</li><li>タブを追加して構成する</li><li>ボットを追加して構成する</li></ul> | <ul><li>保存し、チームの会話内でファイルを共有します。</li><li>ストアと共有し、秘密のチャット (OneDrive に基づいて) 内のファイル</li></ul> | <ul><li>ChatDefaultClient: 既定の</li><li>CallingDefaultClient: 既定の</li></ul>      |
 
- 
+
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>意思決定ポイント</td><td><ul><li> どのオーディオ会議カテゴリ機能環境内に展開することを決定します。</li><li>ビジネス、Exchange、および SharePoint の展開の横に、現在 Skype を与えられたユーザーの音声会議機能要件を特定します。</li><li>どのチームの相互運用性の経験が展開することを決定します。</li><li>チームの最新のパブリック ロードマップを確認し、現在の作業負荷の機能が、展開の期限を満たすかどうかを決定します。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>オーディオ会議の展開をサポートするために必要なオーディオ会議のカテゴリ機能を文書化します。</li><li>ユーザー音声会議機能と相互運用性の要件、現在の Skype ビジネス、Exchange、および SharePoint の展開の横を文書化します。</li><li>電話会議機能を表す最新のチーム パブリック ロードマップがビジネス ・ ニーズと、展開のタイミング要件を満たすかどうかを文書化します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li> どのオーディオ会議カテゴリ機能環境内に展開することを決定します。</li><li>ビジネス、Exchange、および SharePoint の展開の横に、現在 Skype を与えられたユーザーの音声会議機能要件を特定します。</li><li>どのチームの相互運用性の経験が展開することを決定します。</li><li>チームの最新のパブリック ロードマップを確認し、現在の作業負荷の機能が、展開の期限を満たすかどうかを決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>オーディオ会議の展開をサポートするために必要なオーディオ会議のカテゴリ機能を文書化します。</li><li>ユーザー音声会議機能と相互運用性の要件、現在の Skype ビジネス、Exchange、および SharePoint の展開の横を文書化します。</li><li>電話会議機能を表す最新のチーム パブリック ロードマップがビジネス ・ ニーズと、展開のタイミング要件を満たすかどうかを文書化します。</li></ul></td></tr>
 </table>
 
 <a name="define-and-document-your-audio-conferencing-test-plan"></a>定義し、会議のオーディオのテスト計画を文書化
@@ -134,7 +134,7 @@ ms.locfileid: "25017136"
 -   **の成果物のテスト:** 結果の開発および承認を承認し、テスト プロセスの終了をサポートするために提供のうちの概要
 
 > [!TIP]
-
+> 
 >   テストの方法論は、組織に既に存在可能性がありますが、以下のガイダンスが含まれているまたは環境内でテスト チームの機能を個別に活用できるベスト ・ プラクティスを反映します。
 
 以下のセクションで、具体的な決定事項、およびテンプレートと、テストの計画を完了するときに考慮するためのトピックに役立つその他の規定されたガイダンスを紹介します。
@@ -162,10 +162,10 @@ ms.locfileid: "25017136"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>意思決定ポイント</td><td><ul><li>重点分野で評価されるように電話会議機能を識別することによってスコープのテストを決定します。</li><li>追加の目標と評価の目的を決定します。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>その分野で評価されるように電話会議機能を文書化します。</li><li>追加の目標と評価の目的を文書化します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>重点分野で評価されるように電話会議機能を識別することによってスコープのテストを決定します。</li><li>追加の目標と評価の目的を決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>その分野で評価されるように電話会議機能を文書化します。</li><li>追加の目標と評価の目的を文書化します。</li></ul></td></tr>
 </table>
- 
+
 
 ### <a name="define-and-document-audio-conferencing-test-cases"></a>定義し、オーディオ会議のテスト_ケースを文書化
 
@@ -206,8 +206,8 @@ ms.locfileid: "25017136"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>意思決定ポイント</td><td><ul><li>どのオーディオ会議の管理とユーザーの機能が評価されるかを決定します。</li><li>テスト_ケースの実行をサポートするために必要なテスト環境を決定します。</li><li>テスト事例の評価のために必要な手順を決定します。</li><li>テストの実行に必要なリソースを決定します。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>用意されているテスト_ケースのテンプレートに基づく評価するには、テスト_ケースのドキュメントです。</li><li>全体的なテスト計画の一部として完了したテンプレートが含まれます。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>どのオーディオ会議の管理とユーザーの機能が評価されるかを決定します。</li><li>テスト_ケースの実行をサポートするために必要なテスト環境を決定します。</li><li>テスト事例の評価のために必要な手順を決定します。</li><li>テストの実行に必要なリソースを決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>用意されているテスト_ケースのテンプレートに基づく評価するには、テスト_ケースのドキュメントです。</li><li>全体的なテスト計画の一部として完了したテンプレートが含まれます。</li></ul></td></tr>
 </table>
 
 
@@ -236,12 +236,12 @@ ms.locfileid: "25017136"
 | テクノロジー    | 次のサービスが有効な Office 365 にアクセスします。<ul><li>Office 365 E5 のライセンスが割り当てられています。</li><li>国内または国際通話プランの割り当て</li></ul>    | 未定                  |
 | サポート       | 管理者テスト サポート リーダーのサポート技術者のテストをテストします。 | 未定                  |
 
-   
+
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>意思決定ポイント</td><td><ul><li>リソースの種類 (人、技術、およびサポート)、テストのフェーズをサポートする必要がありますを決定します。</li><li>リソースの種類を識別するために必要な特定のリソースを決定します。</li><li>かどうかを入力してくださいさらに、必要なリソースの種類について説明する詳細情報を決定します。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>文書化するリソースの種類 (人、技術、およびサポート)、テストのフェーズをサポートする必要があります。</li><li>リソースの種類を識別するために必要な特定のリソースを文書化します。</li><li>必要がある場合は、テストのフェーズをサポートするために必要なリソースの種類についてさらに詳細を文書化します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>リソースの種類 (人、技術、およびサポート)、テストのフェーズをサポートする必要がありますを決定します。</li><li>リソースの種類を識別するために必要な特定のリソースを決定します。</li><li>かどうかを入力してくださいさらに、必要なリソースの種類について説明する詳細情報を決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>文書化するリソースの種類 (人、技術、およびサポート)、テストのフェーズをサポートする必要があります。</li><li>リソースの種類を識別するために必要な特定のリソースを文書化します。</li><li>必要がある場合は、テストのフェーズをサポートするために必要なリソースの種類についてさらに詳細を文書化します。</li></ul></td></tr>
 </table>
 
 ### <a name="define-and-document-a-testing-timeline"></a>定義し、テストのタイムラインを文書化
@@ -277,8 +277,8 @@ ms.locfileid: "25017136"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>意思決定ポイント</td><td><ul><li>タイムラインのアクティビティ、マイルス トーン、およびタスクを追跡する必要があるを決定します。</li><li>リソースの割り当てをする必要がありますを決定します。</li><li>実行する予定日を決定します。</li><li>配信の所有者を識別します。</li><li>アクティビティ、マイルス トーン、またはタスクを完了にかかる時間を決定します。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>提供、テンプレートを使用して、テストのタイムラインをドキュメントし、そのとおりです。<ul><li>タイムラインの活動、マイルス トーン、およびタスクを追跡する必要があります。</li><li>リソースを割り当てる必要があります。</li><li>予想される完了日です。</li><li>配信の所有者です。</li><li>アクティビティ、マイルス トーン、またはタスクを完了するために必要な時間です。</li></ul></li><li>全体的なテスト計画の一部として完了したテンプレートが含まれます。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>タイムラインのアクティビティ、マイルス トーン、およびタスクを追跡する必要があるを決定します。</li><li>リソースの割り当てをする必要がありますを決定します。</li><li>実行する予定日を決定します。</li><li>配信の所有者を識別します。</li><li>アクティビティ、マイルス トーン、またはタスクを完了にかかる時間を決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>提供、テンプレートを使用して、テストのタイムラインをドキュメントし、そのとおりです。<ul><li>タイムラインの活動、マイルス トーン、およびタスクを追跡する必要があります。</li><li>リソースを割り当てる必要があります。</li><li>予想される完了日です。</li><li>配信の所有者です。</li><li>アクティビティ、マイルス トーン、またはタスクを完了するために必要な時間です。</li></ul></li><li>全体的なテスト計画の一部として完了したテンプレートが含まれます。</li></ul></td></tr>
 </table>
 
 
@@ -329,11 +329,11 @@ ms.locfileid: "25017136"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>意思決定ポイント</td><td><ul><li>テスト作業をサポートするために割り当てることを欠陥条件の重大度レベルを決定します。</li><li>条件がテスト中に問題が発生する場合を文書化することを報告するどのようなテストの問題を決定します。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>レポートで提供されているテンプレートに必要な条件テストの問題を文書化します。</li><li>全体的なテスト計画の一部として完了したテンプレートが含まれます。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>テスト作業をサポートするために割り当てることを欠陥条件の重大度レベルを決定します。</li><li>条件がテスト中に問題が発生する場合を文書化することを報告するどのようなテストの問題を決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>レポートで提供されているテンプレートに必要な条件テストの問題を文書化します。</li><li>全体的なテスト計画の一部として完了したテンプレートが含まれます。</li></ul></td></tr>
 </table>
 
- 
+
 ### <a name="define-and-document-exit-and-suspension-criteria"></a>定義し、終了、中断の条件を文書化
 
 全体的なテスト計画の実行プロセスの一環としてでは、サインオフを取得して、テスト フェーズを終了するのに必要な要件とテストの作業を中断する必要がありますを指定する基準を定義する必要があります。
@@ -350,8 +350,8 @@ ms.locfileid: "25017136"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>意思決定ポイント</td><td><ul><li>テストで問題が確認された場合に満たす必要があります中断条件を決定します。</li><li>アクティビティでは、完全なテストの承認の承認を取得し、テストにすべてのテスト フェーズの終了をサポートに必要な終了条件を決定します。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>提供されているテストと終了時のテンプレートに必要なテストの終了、中断の条件を文書化します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>テストで問題が確認された場合に満たす必要があります中断条件を決定します。</li><li>アクティビティでは、完全なテストの承認の承認を取得し、テストにすべてのテスト フェーズの終了をサポートに必要な終了条件を決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>提供されているテストと終了時のテンプレートに必要なテストの終了、中断の条件を文書化します。</li></ul></td></tr>
 </table>
 
 
@@ -397,11 +397,11 @@ ms.locfileid: "25017136"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>意思決定ポイント</td><td><ul><li>決定し、テスト計画をサポートするために問題の優先事項に同意します。</li><li>欠陥領域ごとにエスカレーション先を決定します。</li><li>優先順位に基づいて、問題のエスカレーションと従うには、トリアージの計画を決定します。</li><li>欠陥の報告を決定し、エスカレーションのコミュニケーション計画の優先順位を決定します。</li><li>欠陥トリアージのレビュー会議のリズムを決定します。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>合意済みの問題の優先順位を文書化します。</li><li>潜在的な各分野のエスカレーション ・ ポイントを文書化します。</li><li>合意済み条件に基づいて問題エスカレーションや優先順位づけ計画を文書化します。</li><li>ガイドラインの報告、問題を文書化します。</li><li>一連の不具合の選別ミーティングをスケジュールします。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>決定し、テスト計画をサポートするために問題の優先事項に同意します。</li><li>欠陥領域ごとにエスカレーション先を決定します。</li><li>優先順位に基づいて、問題のエスカレーションと従うには、トリアージの計画を決定します。</li><li>欠陥の報告を決定し、エスカレーションのコミュニケーション計画の優先順位を決定します。</li><li>欠陥トリアージのレビュー会議のリズムを決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>合意済みの問題の優先順位を文書化します。</li><li>潜在的な各分野のエスカレーション ・ ポイントを文書化します。</li><li>合意済み条件に基づいて問題エスカレーションや優先順位づけ計画を文書化します。</li><li>ガイドラインの報告、問題を文書化します。</li><li>一連の不具合の選別ミーティングをスケジュールします。</li></ul></td></tr>
 </table>
 
-   
+
 
 ### <a name="define-and-document-testing-deliverables"></a>定義し、テストの成果物を文書化
 
@@ -434,8 +434,8 @@ ms.locfileid: "25017136"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>意思決定ポイント</td><td><ul><li>作成し、各テストの段階からの出力として取得する成果物を決定します。 各成果物を決定します。<ul><li>形式</li><li>所有者</li><li>校閲者</li><li>承認者</li></ul></li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>テスト計画成果物の作成と配信行列を文書化します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>作成し、各テストの段階からの出力として取得する成果物を決定します。 各成果物を決定します。<ul><li>形式</li><li>所有者</li><li>校閲者</li><li>承認者</li></ul></li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>テスト計画成果物の作成と配信行列を文書化します。</li></ul></td></tr>
 </table>
 
 
@@ -463,8 +463,8 @@ ms.locfileid: "25017136"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>意思決定ポイント</td><td><ul><li>チームの配置のスコープ内のサービスは、ネットワーク サイトを決定します。</li><li>チームの様相のスコープ内に必要なペルソナを決定します。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>スコープに含まれるサイトの一覧 (MyAdvisor) を通じてネットワークの計画を完了します。</li><li>ドキュメント ネットワーク プランナーの検証は、提供されているテスト計画の結果テンプレートになります。</li><li>ExpressRoute (存在する場合)、インターネット、およびスコープ内のサイトに対して計算された WAN の帯域幅が現在割り当てられている帯域幅の値を配置を検証します。</li><li>十分な帯域幅を持っていないサイトの場合は、帯域幅の問題を解決するのには、エスカレーションと問題解決の計画を実行します。</li><li>ExpressRoute (存在する場合)、インターネット、および WAN のセグメントの帯域幅使用率を監視するためのスコープ内のサイトのためのソリューションと QoS を監視するネットワークを確立します。</li><li>ネットワークの計画の結果を確認するのには運営委員会の会議をスケジュールします。</li><li>帯域幅の計画の改善を必要とする任意の領域を識別する運営委員会に結果を表示します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>判断ポイント</td><td><ul><li>チームの配置のスコープ内のサービスは、ネットワーク サイトを決定します。</li><li>チームの様相のスコープ内に必要なペルソナを決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>スコープに含まれるサイトの一覧 (MyAdvisor) を通じてネットワークの計画を完了します。</li><li>ドキュメント ネットワーク プランナーの検証は、提供されているテスト計画の結果テンプレートになります。</li><li>ExpressRoute (存在する場合)、インターネット、およびスコープ内のサイトに対して計算された WAN の帯域幅が現在割り当てられている帯域幅の値を配置を検証します。</li><li>十分な帯域幅を持っていないサイトの場合は、帯域幅の問題を解決するのには、エスカレーションと問題解決の計画を実行します。</li><li>ExpressRoute (存在する場合)、インターネット、および WAN のセグメントの帯域幅使用率を監視するためのスコープ内のサイトのためのソリューションと QoS を監視するネットワークを確立します。</li><li>ネットワークの計画の結果を確認するのには運営委員会の会議をスケジュールします。</li><li>帯域幅の計画の改善を必要とする任意の領域を識別する運営委員会に結果を表示します。</li></ul></td></tr>
 </table>
 
 
@@ -477,11 +477,11 @@ ms.locfileid: "25017136"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>意思決定ポイント</td><td><ul><li>実装するのには、QoS の構成を決定します。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>QoS を構成します。</li><li>「検証の GPO を使用して」を使用して記載されている手順に従って、QoS の検証を実行し、上記のセクションの「メッセージのアナライザーを使用して検証」です。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>判断ポイント</td><td><ul><li>実装するのには、QoS の構成を決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>QoS を構成します。</li><li>「検証の GPO を使用して」を使用して記載されている手順に従って、QoS の検証を実行し、上記のセクションの「メッセージのアナライザーを使用して検証」です。</li></ul></td></tr>
 </table>
 
- 
+
 
 ### <a name="document-qos-configuration-validation-test-results"></a>QoS 構成の検証テストの結果を文書化します。
 
@@ -499,10 +499,9 @@ QoS 検証の範囲内のサイトのグループ ポリシーを使用して、
 <table>
 <tr><th colspan="2">ハイライトのテスト </th></tr>
 <tr><td>未定</td><td>未定</td></tr>
-<tr><th colspan="2">テストお  </th></tr>  
-<tr><td>**問題**: 未定</td><td>**修復:** 未定</td></tr>
+<tr><th colspan="2">テストお  </th></tr><br/><tr><td><strong>問題</strong>: 未定</td><td><strong>修復:</strong>未定</td></tr>
 <tr><th colspan="2">ブロックの識別 </td></tr>
-<tr><td>**ブロック**: 未定</td><td>**修復**: 未定</td></tr>
+<tr><td><strong>ブロック</strong>: 未定</td><td><strong>修復</strong>: 未定</td></tr>
 </table>
 
 > [!TIP]
@@ -510,8 +509,8 @@ QoS 検証の範囲内のサイトのグループ ポリシーを使用して、
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>意思決定ポイント</td><td><ul><li>チームがリアルタイム メディア トラフィックが正しくされていることを確認するのには QoS のテスト結果を評価し、優先順位をマークします。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>ドキュメントの QoS では、提供されているテスト計画の結果テンプレートで結果をテストします。</li><li>QoS が正しく構成されていない可能性がありますまたはチームのメディア トラフィックをサポートするために作業として期待をされていない位置の問題を解決するのには、エスカレーションと問題解決の計画を実行します。</li></ul></td></tr><li>テスト結果の概要を確認するのには運営委員会の会議をスケジュールします。</li><li>存在テスト結果の概要に改善を必要とする任意の領域を識別する運営委員会です。</li>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>判断ポイント</td><td><ul><li>チームがリアルタイム メディア トラフィックが正しくされていることを確認するのには QoS のテスト結果を評価し、優先順位をマークします。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>ドキュメントの QoS では、提供されているテスト計画の結果テンプレートで結果をテストします。</li><li>QoS が正しく構成されていない可能性がありますまたはチームのメディア トラフィックをサポートするために作業として期待をされていない位置の問題を解決するのには、エスカレーションと問題解決の計画を実行します。</li></ul></td></tr><li>テスト結果の概要を確認するのには運営委員会の会議をスケジュールします。</li><li>存在テスト結果の概要に改善を必要とする任意の領域を識別する運営委員会です。</li>
 </table>
 
 
@@ -532,8 +531,8 @@ QoS 検証の範囲内のサイトのグループ ポリシーを使用して、
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>意思決定ポイント</td><td><ul><li>分割トンネル構成を実装するを決定します。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>分割トンネルの構成を実装します。</li><li>テストし、分割トンネル構成を検証します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>判断ポイント</td><td><ul><li>分割トンネル構成を実装するを決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>分割トンネルの構成を実装します。</li><li>テストし、分割トンネル構成を検証します。</li></ul></td></tr>
 </table>
 
 
@@ -553,10 +552,9 @@ QoS 検証の範囲内のサイトのグループ ポリシーを使用して、
 <table>
 <tr><th colspan="2">ハイライトのテスト </th></tr>
 <tr><td>未定</td><td>未定</td></tr>
-<tr><th colspan="2">テストお  </th></tr>  
-<tr><td>**問題**: 未定</td><td>**修復:** 未定</td></tr>
+<tr><th colspan="2">テストお  </th></tr><br/><tr><td><strong>問題</strong>: 未定</td><td><strong>修復:</strong>未定</td></tr>
 <tr><th colspan="2">ブロックの識別 </td></tr>
-<tr><td>**ブロック**: 未定</td><td>**修復**: 未定</td></tr>
+<tr><td><strong>ブロック</strong>: 未定</td><td><strong>修復</strong>: 未定</td></tr>
 </table>
 
 > [!TIP]
@@ -565,11 +563,11 @@ QoS 検証の範囲内のサイトのグループ ポリシーを使用して、
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>意思決定ポイント</td><td><ul><li>スプリット トンネル チームのリアルタイム トラフィックをリモート アクセス ソリューションから除外されて ことを確認するテストの結果を評価します。</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>提供されているテスト計画の結果テンプレート分割トンネル接続のテストの結果を文書化します。</li><li>適切なルーティングが存在しない、分割トンネル構成内のチームのメディアをサポートするための問題を解決するのには、エスカレーションと問題解決の計画を実行します。</li><li>テスト結果の概要を確認するのには運営委員会の会議をスケジュールします。</li><li>存在テスト結果の概要に改善を必要とする任意の領域を識別する運営委員会です。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>判断ポイント</td><td><ul><li>スプリット トンネル チームのリアルタイム トラフィックをリモート アクセス ソリューションから除外されて ことを確認するテストの結果を評価します。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>提供されているテスト計画の結果テンプレート分割トンネル接続のテストの結果を文書化します。</li><li>適切なルーティングが存在しない、分割トンネル構成内のチームのメディアをサポートするための問題を解決するのには、エスカレーションと問題解決の計画を実行します。</li><li>テスト結果の概要を確認するのには運営委員会の会議をスケジュールします。</li><li>存在テスト結果の概要に改善を必要とする任意の領域を識別する運営委員会です。</li></ul></td></tr>
 </table>
 
-   
+
 
 <a name="execute-network-connectivity-and-performance-validation-by-using-the-network-assessment-tool-from-microsoft"></a>マイクロソフト ネットワーク評価ツールを使用してネットワークの接続性やパフォーマンスの検証を実行します。
 -----------------------------------------------------------------------------------------------------------
@@ -582,11 +580,11 @@ Microsoft のネットワーク評価ツールでは、定義済みの期間お�
 > ネットワーク対応の分析とスコープ内のサイトの準備を完了するには、ネットワーク対応の評価作業を支援するサイトごとに潜在顧客を指定します。
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>意思決定ポイント</td><td><ul><li>ネットワーク評価し、スコープ内のサイトの接続のテスト プロファイルを決定します。</li><li>スコープ内のサイトのネットワークの評価構成ファイルの要件を決定します。</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>スコープ内には、サイトのネットワークの評価の構成ファイルの要件を構成します。</li><li>スコープ内には、サイトのネットワークのパフォーマンスと接続性の検証を実行します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>判断ポイント</td><td><ul><li>ネットワーク評価し、スコープ内のサイトの接続のテスト プロファイルを決定します。</li><li>スコープ内のサイトのネットワークの評価構成ファイルの要件を決定します。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>スコープ内には、サイトのネットワークの評価の構成ファイルの要件を構成します。</li><li>スコープ内には、サイトのネットワークのパフォーマンスと接続性の検証を実行します。</li></ul></td></tr>
 </table>
 
- 
+
 
 ### <a name="document-network-connectivity-and-performance-validation-test-results"></a>ネットワークの接続性やパフォーマンスの検証テストの結果を文書化します。
 
@@ -616,21 +614,20 @@ Microsoft のネットワーク評価ツールでは、定義済みの期間お�
 <table>
 <tr><th colspan="2">ハイライトのテスト </th></tr>
 <tr><td>未定</td><td>未定</td></tr>
-<tr><th colspan="2">テストお  </th></tr>  
-<tr><td>**問題**: 遅延時間が長い</td><td>**修復:** パケットのルーティングを調査し、最適なルートを実装します。</td></tr>
-<tr><td>**問題**: 往復時間が 2 倍の遅延時間はありません</td><td>**修復:** ファイアウォールまたはルーターの構成問題の可能性を調査します。 トラフィック パスを調査します。</td></tr>
-<tr><td>**問題**: 大量のパケット損失 </td><td>**修復:** ネットワークの計画を十分な帯域幅が割り当てられていることを確認します。 </td></tr>
-<tr><td>**問題**: 高変位 </td><td> **修復:** 正しい差別化されたサービス コード ポイント (DSCP) の値が使用されているかどうかを調査します。 </td></tr>
-<tr><td>**問題**: 大量のパケット損失 </td><td>**修復:** パケットの損失を調査します。 </td></tr>
-<tr><td>**問題**: 大量のパケットの順序変更 </td><td>**修復:** ルーターのキューおよび帯域幅を調査します。 </td></tr>
+<tr><th colspan="2">テストお  </th></tr><br/><tr><td><strong>問題</strong>: 遅延時間が長い</td><td><strong>修復:</strong>パケットのルーティングを調査し、最適なルートを実装します。</td></tr>
+<tr><td><strong>問題</strong>: ラウンドト リップ時間ではありません & #39; t は、遅延時間を 2 倍</td><td><strong>修復:</strong>ファイアウォールまたはルーターの構成問題の可能性を調査します。 トラフィック パスを調査します。</td></tr>
+<tr><td><strong>問題</strong>: 大量のパケット損失 </td><td><strong>修復:</strong>ネットワークの計画を十分な帯域幅が割り当てられていることを確認します。 </td></tr>
+<tr><td><strong>問題</strong>: 高変位 </td><td> <strong>修復:</strong>正しい差別化されたサービス コード ポイント (DSCP) の値が使用されているかどうかを調査します。 </td></tr>
+<tr><td><strong>問題</strong>: 大量のパケット損失 </td><td><strong>修復:</strong>パケットの損失を調査します。 </td></tr>
+<tr><td><strong>問題</strong>: 大量のパケットの順序変更 </td><td><strong>修復:</strong>ルーターのキューおよび帯域幅を調査します。 </td></tr>
 <tr><th colspan="2">ブロックの識別 </td></tr>
-<tr><td>**ブロック**: 未定</td><td>**修復**: 未定</td></tr>
+<tr><td><strong>ブロック</strong>: 未定</td><td><strong>修復</strong>: 未定</td></tr>
 </table>
 
- 
+
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>意思決定ポイント</td><td><ul><li>ネットワーク評価とエッジのセグメントとセグメントのクライアントの両方の[メディアの品質とネットワーク接続のパフォーマンス](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)で説明されている要件を満たしていることを確認する結果をテストの接続性を評価します。</li><li>スコープ内のすべてのサイトに対してリアルタイムのメディアをサポートするためのネットワーク機能を評価するでしょうか。</li><li> ネットワークは正しく評価されていない、または、リアルタイム メディア サポートされていないことがわかって、ビデオが無効となりネットワークを削減するための画面共有の機能に影響を与えるし、ユーザーのチームの経験を向上させるためでしょうか。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>ネットワークのパフォーマンスと接続テストの結果を文書化します。</li><li>サイトが十分な帯域幅、またはネットワークのパフォーマンスと接続性の要件が満たされているされていない位置の問題を解決するのにはエスカレーションと問題解決の計画を実行します。</li><li>テスト結果の概要を確認するのには運営委員会の会議をスケジュールします。</li><li>存在テスト結果の概要に改善を必要とする任意の領域を識別する運営委員会です。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>判断ポイント</td><td><ul><li>ネットワーク評価とエッジのセグメントとセグメントのクライアントの両方の<a href="https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance" data-raw-source="[Media quality and network connectivity performance](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)">メディアの品質とネットワーク接続のパフォーマンス</a>で説明されている要件を満たしていることを確認する結果をテストの接続性を評価します。</li><li>スコープ内のすべてのサイトに対してリアルタイムのメディアをサポートするためのネットワーク機能を評価するでしょうか。</li><li> ネットワークは正しく評価されていない、または、リアルタイム メディア サポートされていないことがわかって、ビデオが無効となりネットワークを削減するための画面共有の機能に影響を与えるし、ユーザーのチームの経験を向上させるためでしょうか。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>ネットワークのパフォーマンスと接続テストの結果を文書化します。</li><li>サイトが十分な帯域幅、またはネットワークのパフォーマンスと接続性の要件が満たされているされていない位置の問題を解決するのにはエスカレーションと問題解決の計画を実行します。</li><li>テスト結果の概要を確認するのには運営委員会の会議をスケジュールします。</li><li>存在テスト結果の概要に改善を必要とする任意の領域を識別する運営委員会です。</li></ul></td></tr>
 </table>
 
 
@@ -701,10 +698,10 @@ Office 365 へのポートにダイヤルイン番号 (サービス) として�
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>意思決定ポイント</td><td><ul><li>必要がありますポート、国または地域によって、国内のサービス番号を決定します。</li><li>フリー ダイヤル電話番号を移植することかどうかを決定します。</li><li>ロードを使用してテンプレートを決定します。</li><li>現在キャリア (キャリアの損失) に電話番号のフラグメント化ができるかどうかを決定する (つまり、部分ポートの注文を許可する)。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>必要な情報を収集し、LOAs を準備します。</li><li>ダウンロードし、山のテンプレートが必要を実行します。</li><li>サービスやフリー ダイヤル番号への移植の要求を送信します。</li><li>ダイヤルイン アクセスの電話会議サービスを割り当てることにより、インポート番号の検証をテストを実行し、このセクションで前述の手順 6 で説明したように動作する、ことを確認します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>判断ポイント</td><td><ul><li>必要がありますポート、国または地域によって、国内のサービス番号を決定します。</li><li>フリー ダイヤル電話番号を移植することかどうかを決定します。</li><li>ロードを使用してテンプレートを決定します。</li><li>現在キャリア (キャリアの損失) に電話番号のフラグメント化ができるかどうかを決定する (つまり、部分ポートの注文を許可する)。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>必要な情報を収集し、LOAs を準備します。</li><li>ダウンロードし、山のテンプレートが必要を実行します。</li><li>サービスやフリー ダイヤル番号への移植の要求を送信します。</li><li>ダイヤルイン アクセスの電話会議サービスを割り当てることにより、インポート番号の検証をテストを実行し、このセクションで前述の手順 6 で説明したように動作する、ことを確認します。</li></ul></td></tr>
 </table>
-   
+
 
 ### <a name="document-service-number-porting-test-results"></a>テストの結果を移植するサービスの数を文書化します。
 
@@ -722,10 +719,9 @@ Office 365 へのポートにダイヤルイン番号 (サービス) として�
 <table>
 <tr><th colspan="2">ハイライトのテスト </th></tr>
 <tr><td>未定</td><td>未定</td></tr>
-<tr><th colspan="2">テストお  </th></tr>  
-<tr><td>**問題**: 未定</td><td>**修復:** 未定</td></tr>
+<tr><th colspan="2">テストお  </th></tr><br/><tr><td><strong>問題</strong>: 未定</td><td><strong>修復:</strong>未定</td></tr>
 <tr><th colspan="2">ブロックの識別 </td></tr>
-<tr><td>**ブロック**: 未定</td><td>**修復**: 未定</td></tr>
+<tr><td><strong>ブロック</strong>: 未定</td><td><strong>修復</strong>: 未定</td></tr>
 </table>
 
 > [!TIP]
@@ -733,8 +729,8 @@ Office 365 へのポートにダイヤルイン番号 (サービス) として�
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>意思決定ポイント</td><td><ul><li>サービス番号の移行のために送信されたオーディオ会議サービス正常に移植するかどうかを評価します。</li><li>オーディオ会議サービスにインポート サービス番号を割り当てることができたかどうかを評価します。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>テストの結果を移植の数を文書化します。</li><li>存在する場合は、番号の移植プロセスで発生した問題を解決するのには、エスカレーションと問題解決の計画を実行します。</li><li>テスト結果の概要を確認するのには運営委員会の会議をスケジュールします。</li><li>修復を必要とする任意の領域を識別する運営委員会にテスト結果を提示します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>判断ポイント</td><td><ul><li>サービス番号の移行のために送信されたオーディオ会議サービス正常に移植するかどうかを評価します。</li><li>オーディオ会議サービスにインポート サービス番号を割り当てることができたかどうかを評価します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>テストの結果を移植の数を文書化します。</li><li>存在する場合は、番号の移植プロセスで発生した問題を解決するのには、エスカレーションと問題解決の計画を実行します。</li><li>テスト結果の概要を確認するのには運営委員会の会議をスケジュールします。</li><li>修復を必要とする任意の領域を識別する運営委員会にテスト結果を提示します。</li></ul></td></tr>
 </table>
 
 
@@ -782,8 +778,8 @@ Office 365 へのポートにダイヤルイン番号 (サービス) として�
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>意思決定ポイント</td><td><ul><li>オーディオ会議の機能のスコープ内のサイトで高度なテスト事例の成功/失敗ステータスを評価します。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>スコープ内で完了したすべてのテスト_ケースのテスト ケースの状態の結果を文書化します。</li><li>テスト結果の概要を確認するのには運営委員会の会議をスケジュールします。</li><li>修復を必要とする任意の領域を識別する運営委員会にテスト_ケースの状態の結果を提示します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>判断ポイント</td><td><ul><li>オーディオ会議の機能のスコープ内のサイトで高度なテスト事例の成功/失敗ステータスを評価します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>スコープ内で完了したすべてのテスト_ケースのテスト ケースの状態の結果を文書化します。</li><li>テスト結果の概要を確認するのには運営委員会の会議をスケジュールします。</li><li>修復を必要とする任意の領域を識別する運営委員会にテスト_ケースの状態の結果を提示します。</li></ul></td></tr>
 </table>
 
 
@@ -803,10 +799,9 @@ Office 365 へのポートにダイヤルイン番号 (サービス) として�
 <table>
 <tr><th colspan="2">ハイライトのテスト </th></tr>
 <tr><td>未定</td><td>未定</td></tr>
-<tr><th colspan="2">テストお  </th></tr>  
-<tr><td>**問題**: 未定</td><td>**修復:** 未定</td></tr>
+<tr><th colspan="2">テストお  </th></tr><br/><tr><td><strong>問題</strong>: 未定</td><td><strong>修復:</strong>未定</td></tr>
 <tr><th colspan="2">ブロックの識別 </td></tr>
-<tr><td>**ブロック**: 未定</td><td>**修復**: 未定</td></tr>
+<tr><td><strong>ブロック</strong>: 未定</td><td><strong>修復</strong>: 未定</td></tr>
 </table>
 
 
@@ -816,8 +811,8 @@ Office 365 へのポートにダイヤルイン番号 (サービス) として�
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>意思決定ポイント</td><td><ul><li>オーディオ会議の機能のスコープ内のサイトで高レベルのテストの概要結果を評価します。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>すべてのテスト_ケースの結果が完了した後は、テスト ケースの要約レポートを文書化します。</li><li>テスト結果の概要を確認するのには運営委員会の会議をスケジュールします。</li><li>存在テスト結果の概要に改善を必要とする任意の領域を識別する運営委員会です。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>判断ポイント</td><td><ul><li>オーディオ会議の機能のスコープ内のサイトで高レベルのテストの概要結果を評価します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>すべてのテスト_ケースの結果が完了した後は、テスト ケースの要約レポートを文書化します。</li><li>テスト結果の概要を確認するのには運営委員会の会議をスケジュールします。</li><li>存在テスト結果の概要に改善を必要とする任意の領域を識別する運営委員会です。</li></ul></td></tr>
 </table>
 
 
@@ -847,8 +842,8 @@ Office 365 へのポートにダイヤルイン番号 (サービス) として�
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>意思決定ポイント</td><td><ul><li>テストのステータスの概要を決定します。</li><li>テストのハイライトとおを識別します。</li><li>得られた教訓を識別します。</li><li>存在する場合は、操作が残っていると、どの対策を決定します。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>ドキュメント テスト結果の概要を含める:<ul><li>ステータスの概要</li><li>ハイライト/お</li><li>得られた教訓</li></ul></li><li>テストの結果を確認する最後の運営委員会の会議をスケジュールします。</li><li>存在テスト結果の概要、運営委員会の中には、最終承認の取得にテスト段階の終了を確認します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>判断ポイント</td><td><ul><li>テストのステータスの概要を決定します。</li><li>テストのハイライトとおを識別します。</li><li>得られた教訓を識別します。</li><li>存在する場合は、操作が残っていると、どの対策を決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>ドキュメント テスト結果の概要を含める:<ul><li>ステータスの概要</li><li>ハイライト/お</li><li>得られた教訓</li></ul></li><li>テストの結果を確認する最後の運営委員会の会議をスケジュールします。</li><li>存在テスト結果の概要、運営委員会の中には、最終承認の取得にテスト段階の終了を確認します。</li></ul></td></tr>
 </table>
 
 

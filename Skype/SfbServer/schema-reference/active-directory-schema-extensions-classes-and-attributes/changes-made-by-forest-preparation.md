@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: このセクションでは、グローバル設定とオブジェクト、およびフォレストの準備手順で作成されたユニバーサル サービスと管理グループについて説明します。
-ms.openlocfilehash: 9ceece01d6f5184eb58f0906dd61540c2dcf2084
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 6c031bf06310c6aba2ee18f532e95438bd495936
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244338"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373536"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Skype でビジネス サーバーは、フォレストの準備によって加えられた変更
 
@@ -111,13 +111,14 @@ RBAC の役割と、それぞれのタスクについての詳細は、計画の
 
 **フォレストの準備によって作成するパブリック Ace**
 
-|**ACE**|**RTCUniversalGlobalReadOnlyGroup**|
-|:-----|:-----|
-|ルート ドメイン システム コンテナーが (継承なし) を読む**\*** <br/> |X  <br/> |
-|構成の読み込みの DisplaySpecifiers のコンテナー (継承なし)  <br/> |X  <br/> |
+
+| **ACE**                                                                 | **RTCUniversalGlobalReadOnlyGroup** |
+|:------------------------------------------------------------------------|:------------------------------------|
+| ルート ドメイン システム コンテナーが (継承なし) を読む**\\**\* <br/>        | X  <br/>                            |
+| 構成の読み込みの DisplaySpecifiers のコンテナー (継承なし)  <br/> | X  <br/>                            |
 
 > [!NOTE]
-> **\*** 継承されない Ace では、これらのコンテナーの下の子オブジェクトへのアクセスは付与しません。 継承された Ace では、これらのコンテナーの下にある子オブジェクトへのアクセスを許可します。
+> <strong>\\</strong>* 継承されない Ace では、これらのコンテナーの下にある子オブジェクトへのアクセス権は付与しません。 継承された Ace では、これらのコンテナーの下にある子オブジェクトへのアクセスを許可します。
 
 構成名前付けコンテキストの下で、構成コンテナーには、フォレストの準備は、次のタスクを実行します。
 

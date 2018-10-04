@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fa7f3450f563dad6be2bfc857724e7c6fe2ba16
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 76bacfe85fce14b2d5b1469295134e560c14c54a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016766"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373293"
 ---
 # <a name="plan-my-users-experience"></a>自分のユーザー エクスペリエンスを計画します。
 
@@ -85,8 +85,8 @@ Wi-fi 機器は現在、2.4 GHz および 5.0 GHz で使用されているバン
 組織では、ワイヤレス アクセス ポイントまたは 802.11 省電力プロトコルをサポートしないルーターを使用する場合、通話の中断や Windows のデバイスで実行されているマイクロソフトのチームでの不適切な呼び出し品質が発生する可能性があります。 ワイヤレス アクセス ポイントまたはルーターをアップグレードしない場合は、バッテリ電源で実行されているデバイス上の Windows の電源プランの設定を更新する必要があります。 次の[資料をサポート](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you)することでさらに詳細と構成のガイダンスが提供されます。
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>意思決定ポイント</td><td><ul><li>チーム クライアントは、組織内に展開されますか。</li><li>方法は最初にクライアントを展開するチーム、ユーザーにしますか。</li><li>高品質のエクスペリエンスのチームの要件を満たすエンドポイント、および検証するためにデバイスの評価を担当しますか。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>後に、チームのクライアントを展開するプロセスを文書化します。</li><li>エンドポイント、およびデバイスを評価し、実行および必要な改善策です。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>チーム クライアントは、組織内に展開されますか。</li><li>方法は最初にクライアントを展開するチーム、ユーザーにしますか。</li><li>高品質のエクスペリエンスのチームの要件を満たすエンドポイント、および検証するためにデバイスの評価を担当しますか。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>後に、チームのクライアントを展開するプロセスを文書化します。</li><li>エンドポイント、およびデバイスを評価し、実行および必要な改善策です。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -106,8 +106,8 @@ Wi-fi 機器は現在、2.4 GHz および 5.0 GHz で使用されているバン
 > この時点でビジネス認定プログラムは、Skype で認定されているオーディオ デバイスの使用をお勧めします。 このプログラムによって認定デバイスを検索するには、[ビジネスの Skype の USB デバイスの認定](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)ソリューション カタログを参照してください。
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>意思決定ポイント</td><td><ul><li>ユーザーと会議室の経験を組織の全体的なデバイスの戦略を決定します。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>組織のペルソナとデバイスのマッピングの手順を完了します。</li><li>ユーザーのデバイスを取得して、会議室のプロセスを文書化します。</li><li>ユーザーと会議室の配置と構成のデバイスのプロセスを文書化します。</li><li>展開作業を開始する最初のデバイスを購入します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>ユーザーと会議室の経験を組織の全体的なデバイスの戦略を決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>組織のペルソナとデバイスのマッピングの手順を完了します。</li><li>ユーザーのデバイスを取得して、会議室のプロセスを文書化します。</li><li>ユーザーと会議室の配置と構成のデバイスのプロセスを文書化します。</li><li>展開作業を開始する最初のデバイスを購入します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: '概要: ビジネス サーバー 2019 サーバーおよびドメイン インフラストラクチャをこのトピックでは、Skype を準備します。 ハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件と推奨事項は、DNS の証明書と、ファイル共有、および Active Directory については、ここでは正常にインストールし、サーバー ファームの展開を行うには。'
-ms.openlocfilehash: eb6e0b4207d266e8b3a12ab62332fd99c717c1ec
-ms.sourcegitcommit: 9e112a00c9766af8bd30bc13980201d23d1928d0
+ms.openlocfilehash: a5422f52e9158d01f821c0a2abd051917fbed7b1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "25030645"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375128"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype のサーバーの要件
 
@@ -79,9 +79,9 @@ Standard Edition サーバーのハードウェアをお勧めします。
 
 > [!NOTE]
 > サーバーの役割とは無関係にもお勧めビジネス サーバー 2019 の Skype の次のハードウェア設定 (ハードウェアを購入した、そのためのブランドによって異なる場合がありますこれについては製造元のマニュアルを参照してください)。
-- BIOS 設定は NUMA からフラット設定してください。
-- ハイパー スレッドを有効にします。
-- RSS キューの設定は、キューを 8 に設定してください。
+> - BIOS 設定は NUMA からフラット設定してください。
+> - ハイパー スレッドを有効にします。
+> - RSS キューの設定は、キューを 8 に設定してください。
 
    
 ## <a name="operating-systems-for-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype のオペレーティング ・ システム

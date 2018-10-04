@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 description: SQL Server データベースのプロパティを編集するには、SQL Server データベース インスタンスを変更してください。 1 台のコンピューターから、アーカイブ サーバー データベースを移動するなどのタスクを実行するのには、[プロパティの編集] ダイアログ ボックスを使うことはできません。 さらに、使うことはできません、プロパティの編集] ダイアログ ボックスをホストする SQL Server のインスタンスを変更するのには、中央管理ストアです。
-ms.openlocfilehash: 66f75ba3aa92530f983f3415d690b0eb0ae1ed15
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7b2c442208afc0cd5d18b6171a0829ecae3e7ab1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20971996"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373991"
 ---
 # <a name="sql-store-settings-expander"></a>SQL ストアの設定の拡張
  
@@ -33,9 +33,9 @@ SQL Server データベースのプロパティを編集するには、SQL Serve
     
 2. **プロパティの編集**] ダイアログ ボックスで、次のいずれかの操作を行います。
     
-  - 既定の SQL Server のインスタンスを使用して、**既定のインスタンス**を選択し、[ **OK**] をクリックします。
+   - 既定の SQL Server のインスタンスを使用して、**既定のインスタンス**を選択し、[ **OK**] をクリックします。
     
-  - 名前付きデータベース インスタンスを使用するには、**という名前のインスタンス**を選択して、テキスト ボックスで、インスタンス名を入力し、[ **OK**] をクリックします。 のみ、インスタンス名 (ArchivingInstance など)、および全体の SQL Server のパスではなくを入力する必要があります。
+   - 名前付きデータベース インスタンスを使用するには、**という名前のインスタンス**を選択して、テキスト ボックスで、インスタンス名を入力し、[ **OK**] をクリックします。 のみ、インスタンス名 (ArchivingInstance など)、および全体の SQL Server のパスではなくを入力する必要があります。
     
 **プロパティの編集**] ダイアログ ボックスでの作業は、トポロジ ビルダーには入力したデータベース ・ インスタンスが有効なインスタンスは確認できません。 などの場合、インスタンス名として typeArchivingInstanec を誤ってとは、 **[ok]** をクリックし、トポロジ ビルダーは、無効なインスタンスを受け取ります。。 このトポロジを公開する前に、この間違いを修正する必要があります: SQL Server のインスタンスが見つかりません、トポロジ ビルダーが作成されませんインスタンスをするのです。
   

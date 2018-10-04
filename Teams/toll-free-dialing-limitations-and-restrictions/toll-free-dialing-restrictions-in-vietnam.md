@@ -24,28 +24,28 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: 4838a98deba5c80a4c2f65456db920a78e6c4029
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 171ba2476bc17fcd06f0bc4cc62766c4a2d0d243
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014910"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371211"
 ---
 # <a name="toll-free-dialing-restrictions-in-vietnam"></a>ベトナムでのフリー ダイヤルの制限
 
 [別の国または地域を検索する](../toll-free-dialing-limitations-and-restrictions.md)には、フリー ダイヤルの制限事項と制限事項の詳細についてはまたはです。
 
 
-|**詳細**|**説明**|
-|:-----|:-----|
-|呼び出し、利用可能なフリー ダイヤルですか。  <br/> |あり  <br/> |
-|ダイヤル形式  <br/> | 120-11-3XX <br/>  122-XXX-XX <br/>  1800 XXXX の形式は廃止 <br/> |
-|国/地域の ISO コード  <br/> |VN  <br/> |
-|対象となる島/地域  <br/> |該当しない  <br/> |
-|対象外の島/地域  <br/> |該当しない  <br/> |
-|有線/固定回線の状態  <br/> |部分的。コメント参照。  <br/> |
-|携帯電話ネットワークの状態  <br/> |部分的。コメント参照。  <br/> |
-|コメント、制限、アクセスの問題など  <br/> |120 XX XXX 番号形式は Vietnam Telecom International (VTI) と VNPT (Vietnam Post and Telecommunications) の固定ネットワークと携帯電話ネットワークから使用可能。 <br/>   <br/>**注:** Mobifone &amp; Vinaphone は、VNPT の一部です。 The number format 122 XXX XX network coverage: Viettel (fixed and mobile). As per the Vietnam Ministry of Telecommunications, the maximum allowable call duration is 2 hours.  |   |
+| **詳細**                                      | **説明**                                                                                                                                                                                                                                                                                                                                                                                           |
+|:-------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 呼び出し、利用可能なフリー ダイヤルですか。  <br/>           | あり  <br/>                                                                                                                                                                                                                                                                                                                                                                                                |
+| ダイヤル形式  <br/>                         | 120-11-3XX <br/>  122-XXX-XX <br/>  1800 XXXX の形式は廃止 <br/>                                                                                                                                                                                                                                                                                                                            |
+| 国/地域の ISO コード  <br/>                   | VN  <br/>                                                                                                                                                                                                                                                                                                                                                                                                 |
+| 対象となる島/地域  <br/>                  | 該当しない  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
+| 対象外の島/地域  <br/>              | 該当しない  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
+| 有線/固定回線の状態  <br/>             | 部分的。コメント参照。  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
+| 携帯電話ネットワークの状態  <br/>               | 部分的。コメント参照。  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
+| コメント、制限、アクセスの問題など  <br/> | 120 XX XXX 番号形式は Vietnam Telecom International (VTI) と VNPT (Vietnam Post and Telecommunications) の固定ネットワークと携帯電話ネットワークから使用可能。 <br/>   <br/>**注:** Mobifone &amp; Vinaphone は、VNPT の一部です。 The number format 122 XXX XX network coverage: Viettel (fixed and mobile). As per the Vietnam Ministry of Telecommunications, the maximum allowable call duration is 2 hours. |
    
 ## <a name="related-topics"></a>関連トピック
 

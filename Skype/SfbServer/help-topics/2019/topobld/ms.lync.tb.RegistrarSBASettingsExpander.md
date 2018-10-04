@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 ROBOTS: NOINDEX, NOFOLLOW
 description: 弾力性の設定を編集し、次のプロパティを構成します。
-ms.openlocfilehash: b4394ae2a7244ae818335bd7c4b21c6d8930f03d
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: db69f930dfa747e7537e529ede3b90405867ca27
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260672"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372707"
 ---
 # <a name="registrar-sba-settings-expander"></a>SBA のレジストラーの設定の拡張
 
@@ -32,11 +32,11 @@ ms.locfileid: "23260672"
     > [!CAUTION]
     > 復元が期待どおりに動作するためには、フェイル オーバーとフェイル バックの間隔を定義する秒数を慎重にテストする必要があります。 間隔を低に設定する (つまりより小さい 120 秒) や、フェイル オーバーとフェイル バックの設定が非常に密接に実際のフェールオーバーおよびフェールバックが期待どおりに動作していません。
 
- [**OK**]: ダイアログでの変更を受け入れて確定します。
+  [**OK**]: ダイアログでの変更を受け入れて確定します。
 
- [**キャンセル**]: 変更を破棄してダイアログを閉じます。
+  [**キャンセル**]: 変更を破棄してダイアログを閉じます。
 
- [**ヘルプ**]: このヘルプ画面を表示します。
+  [**ヘルプ**]: このヘルプ画面を表示します。
 
 ## <a name="see-also"></a>関連項目
 

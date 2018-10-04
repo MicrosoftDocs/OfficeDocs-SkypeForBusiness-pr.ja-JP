@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: この資料では、Skype ルーム システム v2 を展開するためのインフラストラクチャの準備作業について説明します。
-ms.openlocfilehash: 8b31889d70dae54736648905204b721127b668f1
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 24ad623b81df5735c9034d8526e6b028e82dfb83
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965983"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371883"
 ---
 # <a name="prepare-your-environment"></a>環境を準備します。
 
@@ -26,24 +26,24 @@ ms.locfileid: "23965983"
     
 2. デバイスが使用する、正常に動作しているネットワーク/インターネット接続があることを確認します。 
     
-  - DHCP を使用して IP アドレスを受信できる必要があります (注: 最初のユニットの起動時に静的 IP アドレスを持つ Skype ルーム システム v2 を構成することはできません)
+   - DHCP を使用して IP アドレスを受信できる必要があります (注: 最初のユニットの起動時に静的 IP アドレスを持つ Skype ルーム システム v2 を構成することはできません)
     
-  - 次のポートが開かれている必要があります (Skype for Business メディアの通常のポートも開かれている必要があります)。
+   - 次のポートが開かれている必要があります (Skype for Business メディアの通常のポートも開かれている必要があります)。
     
-  - HTTPS: 443
+   - HTTPS: 443
     
-  - HTTP: 80
+   - HTTP: 80
     
-  - プロキシを介してネットワークが動作している場合は、プロキシのアドレスまたはスクリプトの情報も必要です。
+   - プロキシを介してネットワークが動作している場合は、プロキシのアドレスまたはスクリプトの情報も必要です。
     
-    > [!NOTE]
-    > V2 は HDMI での問題を引き起こすことが確認されています、HDCP の入力をサポートしていません、Skype ルーム システムは、機能 (ビデオ、オーディオ) を取り込みします。 Skype ルーム システム v2 に接続されたスイッチが HDCP 機能をオフにできるように注意します。 
+     > [!NOTE]
+     > V2 は HDMI での問題を引き起こすことが確認されています、HDCP の入力をサポートしていません、Skype ルーム システムは、機能 (ビデオ、オーディオ) を取り込みします。 Skype ルーム システム v2 に接続されたスイッチが HDCP 機能をオフにできるように注意します。 
   
 3. エクスペリエンスを改善するために、マイクロソフトではデータを収集しています。データを収集するために、以下のサイトをホワイトリストに記載しておく必要があります。
     
-  - 「遠隔測定」クライアントのエンドポイント。https://vortex.data.microsoft.com/
+   - 「遠隔測定」クライアントのエンドポイント。https://vortex.data.microsoft.com/
     
-  - 「遠隔測定」の設定の終了点:https://settings.data.microsoft.com/
+   - 「遠隔測定」の設定の終了点:https://settings.data.microsoft.com/
     
 ### <a name="create-and-test-a-device-account"></a>デバイス アカウントを作成してテストする
 

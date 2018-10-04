@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: '個々 のユーザーについては、ビジネスの Skype を次のように変更する方法について: オーディオおよびビデオ会議、通話の記録との会議。 '
-ms.openlocfilehash: 1296ec96d194be80ae3c48a947a0398f0eefb4e3
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: f99c99fc291a2df71a3e47448e3cc8fcf01e371f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860331"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370917"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>管理者: 個別のユーザーの Skype for Business の設定を構成する
 
@@ -47,7 +47,7 @@ ms.locfileid: "23860331"
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. Choose **Admin centers** > **Skype for Business**.
+2. [**管理センター**]  >  [**Skype for Business**]を選択します。
     
 3. [ **ユーザー**] を選びます。
     
@@ -78,11 +78,11 @@ ms.locfileid: "23860331"
     
 2. **外部との連絡**を選択し、必要に応じてオプションをオフにし、します。
     
-  - **ビジネス ユーザー向けの外部の Skype**: このボックスをオフにしない場合は、ユーザーがフェデレーション ドメイン内のビジネス ユーザーの Skype で通信できるようにします。
+   - **ビジネス ユーザー向けの外部の Skype**: このボックスをオフにしない場合は、ユーザーがフェデレーション ドメイン内のビジネス ユーザーの Skype で通信できるようにします。
     
-  - **外部 Skype ユーザー**: freeSkype アプリケーションを使用しているユーザーと通信できることをユーザーがしない場合はこのボックスをオフにします。
+   - **外部 Skype ユーザー**: freeSkype アプリケーションを使用しているユーザーと通信できることをユーザーがしない場合はこのボックスをオフにします。
     
-3. [ **保存**] をクリックします。
+3. [**保存**] をクリックします。
     
 一括でこれらの設定を構成するには、PowerShell を使用します。 [外部のユーザーや組織のビジネスのオンラインの Skype での通信を管理する](https://technet.microsoft.com/en-us/library/dn362813%28v=ocs.15%29.aspx)を参照してください。
   

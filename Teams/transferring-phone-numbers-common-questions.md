@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 次は、よく寄せられる質問について、ビジネスの Skype に電話番号を転送します。 回答を確認するには後のポートの順序を作成し、自分の電話番号を転送する準備ができます。 手順については、Office 365 に転送電話番号を参照してください。
-ms.openlocfilehash: 62829fff57b234380d93240183ddf8700855cb39
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 8a260d1d59668a583f6bdda24bb88472a68c1f43
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015302"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375872"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>電話番号の移行に関するよくある質問
 
@@ -69,7 +69,7 @@ ms.locfileid: "25015302"
     
 - ビジネスのハイブリッドの電話番号を Skype。 お知らせする電子メールを送信する必要がありますこれらの数値を転送する場合は、 <ptn@microsoft.com>。
     
- **移行できません:**
+  **移行できません:**
   
 > [!NOTE]
 > 現時点では、VoIP 電話プロバイダーの電話番号を含むサポートされている国/地域以外の電話番号を移転することはできません。 サポートされている国/地域の一覧を表示するには、[オーディオ会議や予定を呼び出すための国および地域の可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を参照してください。

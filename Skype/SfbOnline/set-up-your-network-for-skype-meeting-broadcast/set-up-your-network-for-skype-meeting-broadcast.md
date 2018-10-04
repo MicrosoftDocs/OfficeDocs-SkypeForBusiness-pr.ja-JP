@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: ビジネス オンライン スケジュール、生産、およびブロードキャストの会議、またはイベントを 10,000 の出席者に大規模なオンライン ユーザーを対象にできるようにするには、Skype の Skype 会議のブロードキャスト機能について説明します。
-ms.openlocfilehash: e1f10ad5036e2866cc480491e98bd2dd7396895a
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 7c22b4b0911935ffd90d10e65d2fff0d71018910
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862217"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374556"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Skype 会議ブロードキャスト用にネットワークをセットアップする
 
@@ -37,7 +37,7 @@ Skype 会議のブロードキャストの[Skype 会議のブロードキャス�
 
 許可するドメインを設定するには、 **1 つ**の次の方法を使用します。
 
-###
+## #
 
  **方法 1: Office 365 の管理ページを使用します。**
 
@@ -45,17 +45,17 @@ Skype 会議のブロードキャストの[Skype 会議のブロードキャス�
 
 2. [**ドメインの例外**の下にある**外部の共有**] ページ**を除くすべてのドメインがブロックされます**がを選択し、コンマ (,) で、次のドメインを入力してください。
 
-  - noammeetings.lync.com
+   - noammeetings.lync.com
 
-  - emeameetings.lync.com
+   - emeameetings.lync.com
 
-  - apacmeetings.lync.com
+   - apacmeetings.lync.com
 
-  - resources.lync.com
+   - resources.lync.com
 
-3. [ **保存**] をクリックします。
+3. [**保存**] をクリックします。
 
-###
+## #
 
  **方法 2: Windows PowerShell を使用します。**
 
@@ -95,7 +95,7 @@ Skype 会議のブロードキャストの[Skype 会議のブロードキャス�
 
 場合は、他のセットアップで実行する必要がありますが、オンライン ビジネスの組織と、設置型展開の Lync Server 2010、Microsoft Lync Server 2013、および Skype、Skype ビジネス サーバー 2015 のとオンライン両方のユーザーが存在している設置ビジネス オンラインの Skype で通信し、すべてのユーザーを作成し、Skype の会議のブロードキャストに参加できるように、設置型の組織を有効にするのには、上記に追加します。 それらの要件とはどのようなものを表示するには、 [Skype 会議のブロードキャスト用の設置型展開の構成](https://go.microsoft.com/fwlink/?LinkId=617070)を参照してください。
 
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 
 [Skype 会議ブロードキャストを有効にする](enable-skype-meeting-broadcast.md)
 

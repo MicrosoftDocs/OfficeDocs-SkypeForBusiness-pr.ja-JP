@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f302ddca1470d0e35a6b983ae52afa08f2533c8
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5ed741eff5ff095107693a2c94bb8438c60e7c9f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016246"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374381"
 ---
 ![ユーザーの準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-user-readiness.png "ユーザーの準備段階に重点を置いて、旅アップグレードの段階")
 
@@ -43,7 +43,7 @@ ms.locfileid: "25016246"
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>意思決定ポイント|<ul><li>変更する際に、組織の文化とは?</li><li>新しいテクノロジーがユーザーの作業方法を最適化する方法ことができますか。</li><li>ユーザーは、作業方法を変更させるために特別な注意を必要とする可能性がありますか。</li></ul> |
+| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>変更する際に、組織の文化とは?</li><li>新しいテクノロジーがユーザーの作業方法を最適化する方法ことができますか。</li><li>ユーザーは、作業方法を変更させるために特別な注意を必要とする可能性がありますか。</li></ul> |
 | ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>準備の組織のユーザー プロファイルをキャプチャするのには、次のガイダンスと関連付けられているアクティビティを使用します。</li></ul>|
 
 ## <a name="organizational-change-readiness"></a>組織の変更の準備完了
@@ -63,6 +63,7 @@ ms.locfileid: "25016246"
 | *Informed users* accept the solution as soon as its value is demonstrated.    |       |
 | *Laggards* reject the solution, even when pushed into change. |       |
 -->
+
 | 初期採用者  | ユーザーの情報を入手します。  | 遅滞者 |
 |-----------------|-----------------|----------|
 | 使用可能になる前に、これらのユーザーは、ソリューションを要求します。 | これらのユーザーは、その値を示すと、すぐにソリューションを受け入れます。 | 変更にプッシュされるときにも、これらのユーザーは、ソリューションを拒否します。 |
@@ -80,6 +81,7 @@ ms.locfileid: "25016246"
 | *Team-players* enjoy group and interactive training; they’ll go along with coworkers. |       |
 | *Hand-holding* seekers expect “white glove” or one-on-one assistance.      |       |
 -->
+
 | 自己動機となってください。  | チームのプレイヤー  | 手の形を保持を求める |
 |-----------------|-----------------|----------|
 | これらの学習者は、リソースを探し出し、学習を行う。 | グループとの対話型トレーニングは、これらのユーザーが楽しむこと同僚と一緒に移動します。 | これらのユーザーは、「白い手袋」や、1 対 1 サポートを期待しています。 |
@@ -109,10 +111,10 @@ ms.locfileid: "25016246"
 
 <table>
 <tbody>
-<tr><th width="10%">**大文字と小文字を使用します。**</th><th width="30%">**特性**</th><th width="30%">**課題**</th><th width="30%">**チーム**</th></tr>
-<tr><td>**個人の生産性向上**</td><td><ul><li>毎日"to do"リスト</li><li>ジョブを実行する他のユーザーへの依存関係</li></ul></td><td><ul><li>電子メールおよび添付ファイルの取得が失われる</li><li>通話がボイスメールへ移動します。</li><li>仕事仲間はオフライン</li><li>古いローカル コピーがデスクトップ上に蓄積されます。</li></ul></td><td><ul><li>送信、オンラインとオフラインのメッセージをユーザーを追跡することを軽減します。</li><li>添付ファイルの永続的な会話が複数の場所を検索したり、複数のバージョンを管理する必要性を減らす</li></ul></td></tr>
-<tr><td>**会議**</td><td><ul><li>電話会議やオンライン会議</li><li>内部または外部の出席者</li><li>オフィスまたはリモートの参加者</li></ul></td><td><ul><li>ほとんどの会議の前に提供するコンテキストがありません。 </li><li>リモートの参加者が左の背後にあると思われる</li><li>視覚的な接続が不足しています。</li><li>会議が失敗した場合キャッチするは難しい</li><li>会議後の勢いは失われます</li></ul></td><td><ul><li>会話で会議やコンテンツを共有する前に前進してください。</li><li>複数のデバイスへの参加します。</li><li>アライメントを保証するビデオとアプリケーションの共有に接続します。</li><li>ない出席者に会議を記録します。</li><li>ノート、アクションをキャプチャする (& #64; 参照) 説明責任とを簡単にフォロー アップの</li></ul> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; _1 つのインターフェイス内で!_</td></tr>
-<tr><td>**プロジェクトをグループ化**</td><td><ul><li>多くの関係者とプロジェクトの作業</li><li>情報およびドキュメントの共有</li><li>複数のアプリケーションを使用します。</li></ul> </td><td><ul><li>廊下の会話の原因が大きいグループで切断します。</li><li>ドキュメントの場所とバージョン管理に不満</li><li>アカウンタビリティに関する混乱</li></ul> </td><td><ul><li>チーム/チャネル、透明にするためにすべての会話を保持します。</li><li>リンクに関連するドキュメントです。暗証番号 (pin) の可視性を確保する重要なもの</li><li>ドキュメントのバージョン管理を効率化します。</li><li>Office やサードパーティ製のアプリケーション、チームワークの真のハブをすることにアクセスします。</li></ul> </td></tr>
+<tr><th width="10%"><strong>大文字と小文字を使用します。</strong></th><th width="30%"><strong>特性</strong></th><th width="30%"><strong>課題</strong></th><th width="30%"><strong>チーム</strong></th></tr>
+<tr><td><strong>個人の生産性向上</strong></td><td><ul><li>毎日"to do"リスト</li><li>ジョブを実行する他のユーザーへの依存関係</li></ul></td><td><ul><li>電子メールおよび添付ファイルの取得が失われる</li><li>通話がボイスメールへ移動します。</li><li>仕事仲間はオフライン</li><li>古いローカル コピーがデスクトップ上に蓄積されます。</li></ul></td><td><ul><li>送信、オンラインとオフラインのメッセージをユーザーを追跡することを軽減します。</li><li>添付ファイルの永続的な会話が複数の場所を検索したり、複数のバージョンを管理する必要性を減らす</li></ul></td></tr>
+<tr><td><strong>会議</strong></td><td><ul><li>電話会議やオンライン会議</li><li>内部または外部の出席者</li><li>オフィスまたはリモートの参加者</li></ul></td><td><ul><li>ほとんどの会議の前に提供するコンテキストがありません。 </li><li>リモートの参加者が左の背後にあると思われる</li><li>視覚的な接続が不足しています。</li><li>会議が失敗した場合キャッチするは難しい</li><li>会議後の勢いは失われます</li></ul></td><td><ul><li>会話で会議やコンテンツを共有する前に前進してください。</li><li>複数のデバイスへの参加します。</li><li>アライメントを保証するビデオとアプリケーションの共有に接続します。</li><li>ない出席者に会議を記録します。</li><li>ノート、アクションをキャプチャする (& #64; 参照) 説明責任とを簡単にフォロー アップの</li></ul> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <em>1 つのインターフェイス内で!</em></td></tr>
+<tr><td><strong>プロジェクトをグループ化</strong></td><td><ul><li>多くの関係者とプロジェクトの作業</li><li>情報およびドキュメントの共有</li><li>複数のアプリケーションを使用します。</li></ul> </td><td><ul><li>廊下の会話の原因が大きいグループで切断します。</li><li>ドキュメントの場所とバージョン管理に不満</li><li>アカウンタビリティに関する混乱</li></ul> </td><td><ul><li>チーム/チャネル、透明にするためにすべての会話を保持します。</li><li>リンクに関連するドキュメントです。暗証番号 (pin) の可視性を確保する重要なもの</li><li>ドキュメントのバージョン管理を効率化します。</li><li>Office やサードパーティ製のアプリケーション、チームワークの真のハブをすることにアクセスします。</li></ul> </td></tr>
 </tbody>
 </table>
 

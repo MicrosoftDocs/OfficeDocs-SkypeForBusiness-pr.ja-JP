@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 適切なファームウェアを取得し、更新が必要な場合、ライセンスを割り当てるビジネス オンライン電話の Skype の設定を構成する配置手順を説明します。
-ms.openlocfilehash: b9e38b9bff83f1ed1abc511fad815dd13b0eee75
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 26748f79d62b2f4b40a249dcf1af1736bae2d06f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887372"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374574"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Skype for Business Online 電話機の展開レポート
 
@@ -94,7 +94,7 @@ Skype for Business インバンド管理の Windows PowerShell コマンドレ�
   
 ### <a name="step-6---preparing-for-users-to-sign-in"></a>ステップ 6 - ユーザーのサインインの準備
 
-ユーザーが正常に Skype for Business Online 電話機にサインインし、通話できるようにするには、ユーザーに正しいライセンスが割り当てられていることを確認する必要があります。 最低でも、電話システムのライセンスと通話プランを割り当てる必要があります。 詳細については、 [Skype](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)および[ビジネスおよびマイクロソフトのチームのライセンスを Skype の割り当て](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)を表示できます。
+To enable users to successfully sign in to a Skype for Business Online phone and make calls, you need to make sure users are assigned the correct licenses. At a minimum, you will need to assign a Phone System license and a Calling Plan. For additional information, you can see [Skype for Business and Microsoft Teams add-on licensing](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) and [Assign Skype for Business and Microsoft Teams licenses](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
   
 通話プランの詳細については、「[Office 365 の通話プランについて](/microsoftteams/what-are-calling-plans-in-office-365)」を読むことで確認できます。
   
@@ -110,17 +110,17 @@ Skype for Business インバンド管理の Windows PowerShell コマンドレ�
   
     製造元ごとのサポートされるサインイン オプションの詳細については、「[Skype for Business Online で使う電話を入手する](getting-phones-for-skype-for-business-online.md)」をご覧ください。
     
-- **ユーザー ID** ユーザーは、電話機のキーパッドまたは画面上のキーボード (利用可能な場合) を使用して、組織のユーザー名およびパスワードで電話機にサインインできます。たとえば、ユーザー名として *amosm@contoso.com*  のような UPN 形式を使用します。
+- **ユーザー ID** ユーザーは、電話機のキーパッドまたは画面上のキーボード (利用可能な場合) を使用して、組織のユーザー名およびパスワードで電話機にサインインできます。たとえば、ユーザー名として <em>amosm@contoso.com</em>  のような UPN 形式を使用します。
     
      ![電話を配置しています。](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
   
     > [!NOTE]
     > PIN 認証は、LPE およびパートナーの IP 電話機向けの Skype for Business Online ではサポートされていません。 
   
-- **PC の使用** ユーザーの PC に Better Together over Ethernet (BToE) ソフトウェアがインストールされ、有効化されている場合、ユーザーは Windows Skype for Business アプリの認証ウィンドウを使用して電話機にログインできます。 その他の情報[(オプション) - と相乗効果 (BToE) のイーサネット デバイスのペアがある場合の手順 7](deploying-skype-for-business-online-phones.md#BK_BTOE)を参照してください。
+- **Using a PC** When Better Together over Ethernet (BToE) software is installed on user's PC and enabled, users can log in to their phones using the authentication window on their Windows Skype for Business App. See [Step 7 (optional) - If you have device pairing and Better Together over Ethernet (BToE)](deploying-skype-for-business-online-phones.md#BK_BTOE) for other information.
     
-    > [!NOTE]
-    > ユーザーは、電話機にサインインするために組織のユーザー名およびパスワードを使用する必要があります。たとえば、ユーザー名として  *amosm@contoso.com*  のような UPN 形式を使用します。
+  > [!NOTE]
+  > ユーザーは、電話機にサインインするために組織のユーザー名およびパスワードを使用する必要があります。たとえば、ユーザー名として  <em>amosm@contoso.com</em>  のような UPN 形式を使用します。
   
      ![電話を配置しています。](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
   
@@ -180,7 +180,7 @@ Skype for Business インバンド管理の Windows PowerShell コマンドレ�
 |オンプレミス  <br/> |オンライン/オンプレミス  <br/> |ユーザー名/パスワード  <br/> |あり  <br/> |あり  <br/> |該当なし  <br/> |
 |オンプレミス  <br/> |オンライン/オンプレミス  <br/> |PC 経由のサイン イン(BTOE)  <br/> |あり  <br/> |あり  <br/> |該当なし  <br/> |
    
-- **電話機の機能** 機能セットは IP 電話機パートナーによって多少異なる場合があります。 完全な機能の設定し、電話のメーカーごとの機能の詳細については、[オンライン ビジネスの Skype の電話を取得](getting-phones-for-skype-for-business-online.md)を参照してください。
+- **Phone features** The feature set may vary slightly based on the IP phone partner. For the complete feature set and for more information on the features for each phone manufacturer, see [Getting phones for Skype for Business Online](getting-phones-for-skype-for-business-online.md).
     
 - **電話のロック** は、電話機を保護するために Skype for Business 認定済み電話機に最近導入されてた機能です。この機能が有効な場合、ユーザーは正常な認証後に PIN を作成するように求められます。PIN の作成後、定義したアイドル タイムアウトを過ぎると電話機がロックされます。さらに、ユーザーは電話機を手動でロックするか、電話のペアリングを使用して電話のロックを同期させることもできます。電話のロックの PIN を複数回誤って入力すると、ユーザーが電話機からサインアウトされるか、管理者のコードを使用して電話機をロック解除する必要があります。ただし、これは電話機パートナーによって異なります。ユーザーの PIN は 6 桁から 15 桁です。
     
@@ -207,13 +207,13 @@ BToE の動作は [ *自動*  ] (既定) および [ *手動*  ] の 2 つのモ
   
 2. 次に示すリンクを使ってメーカーの Web サイトから最新の BToE ソフトウェアをダウンロードし、インストールします。ユーザーの利便性を向上するため、System Center Configuration Manager (SCCM) などの管理配布ソリューションを使用して BToE ソフトウェアを配布して、インストールすることができます。SCCM の使用については、「[System Center Configuration Manager のパッケージとプログラム](https://docs.microsoft.com/en-us/sccm/apps/deploy-use/packages-and-programs)」をご覧ください。
     
-  - [Polycom BToE ソフトウェア ダウンロード サイト](http://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
+   - [Polycom BToE ソフトウェア ダウンロード サイト](http://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
-  - [Yealink BToE ソフトウェア ダウンロード](http://www.yealink.com/products_list_10.html)
+   - [Yealink BToE ソフトウェア ダウンロード](http://www.yealink.com/products_list_10.html)
     
-  - [AudioCodes BToE ソフトウェア ダウンロード](https://www.audiocodes.com/solutions-products/solutions/skype-for-business-microsoft-teams/skype-for-business-online)
+   - [AudioCodes BToE ソフトウェア ダウンロード](https://www.audiocodes.com/solutions-products/solutions/skype-for-business-microsoft-teams/skype-for-business-online)
     
-3. 既定では、BToE のサーバー設定は [ **有効** ] および **自動モード** です。 これらの設定を変更するには、 [セット CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx)を参照してください。
+3. The server setting for BToE is set to **Enabled** and **Auto mode** by default. To change those settings, see [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx).
     
 > [!NOTE]
 > BToE は Mac および VDI プラットフォームでは現在サポートされていません。 

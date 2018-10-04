@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: '概要: ビジネス サーバー 2015 の永続的なチャット サーバーの高可用性と Skype では障害回復を管理する方法を説明します。'
-ms.openlocfilehash: 3c3da985f8d68f257257909fbc06e93868233468
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 477897362a01ae3ac6097c50eaed8f9ece31f49d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008224"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371635"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバーの高可用性および障害復旧の管理
  
@@ -48,15 +48,15 @@ ms.locfileid: "21008224"
   
 1. 永続的なチャット サーバーのバックアップ ログ配布のデータベースからログ配布を削除します。
     
-  - SQL Server Management Studio を使用すると、永続的なチャット サーバーのバックアップ mgc データベースが格納されているデータベース ・ インスタンスに接続します。
+   - SQL Server Management Studio を使用すると、永続的なチャット サーバーのバックアップ mgc データベースが格納されているデータベース ・ インスタンスに接続します。
     
-  - マスター データベースに対するクエリ ウィンドウを開きます。
+   - マスター データベースに対するクエリ ウィンドウを開きます。
     
-  - 次のコマンドを使用して、ログ配布を削除します。
+   - 次のコマンドを使用して、ログ配布を削除します。
     
-  ```
-  exec sp_delete_log_shipping_secondary_database mgc
-  ```
+   ```
+   exec sp_delete_log_shipping_secondary_database mgc
+   ```
 
 2. バックアップ共有から、バックアップ サーバーのコピー先フォルダーへ、コピーしていないバックアップ ファイルをコピーします。
     
@@ -64,15 +64,15 @@ ms.locfileid: "21008224"
     
 4. バックアップ mgc データベースをオンラインにします。手順 1b. で開いたクエリ ウィンドウを使用して、次の手順を実行します。
     
-  - mgc データベースへのすべての接続を終了します (接続がある場合)。
+   - mgc データベースへのすべての接続を終了します (接続がある場合)。
     
-  - **exec sp_who2** を実行して、mgc データベースへの接続を識別します。
+   - **exec sp_who2** を実行して、mgc データベースへの接続を識別します。
     
-  - **kill \<spid\>** をこれらの接続を終了します。
+   - **kill \<spid\>** をこれらの接続を終了します。
     
-  - データベースをオンラインにします。
+   - データベースをオンラインにします。
     
-  - **restore database mgc with recovery** を実行します。
+   - **restore database mgc with recovery** を実行します。
     
 5. ビジネス サーバー管理シェルの Skype は、コマンドを使用して**セット CsPersistentChatState-アイデンティティ」サービス: atl の cs-001.litwareinc.com"- PoolState FailedOver** mgc バックアップ データベースにフェールオーバーします。 atl-cs-001.litwareinc.com の部分には、常設チャット プールの完全修飾ドメイン名を指定します。
     

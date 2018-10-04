@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: フロント エンド プールを削除した場合、または別のデータベースを使用するプールを再構成した後は、プールのデータをホストしていた SQL Server データベースを削除できます。 トポロジ ビルダーでは、定義を削除するのには次の手順を使用し、データベース ・ サーバからデータベースとログ ファイルを削除します。
-ms.openlocfilehash: 65fd0367051e32aa081fa13859632504e1331669
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 35c9429fc16aef886945f8b0adcd5894ce40b834
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028608"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373127"
 ---
 # <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>フロント エンド プールの SQL Server データベースを削除します。
 
@@ -35,17 +35,17 @@ ms.locfileid: "25028608"
     
 3. プールのユーザー ストアのデータベースを削除するのには次のように入力します。
     
-  ```
-  Uninstall-CsDataBase -DatabaseType User -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
-  ```
+   ```
+   Uninstall-CsDataBase -DatabaseType User -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
+   ```
 
     _ \<FQDN\>_ は、データベース ・ サーバの完全修飾ドメイン名 (FQDN) と_\<インスタンス\>_(1 つが定義されている) 場合は、名前付きデータベース インスタンスは、します。 
     
 4. プール アプリケーション ストアのデータベースを削除するのには次のように入力します。
     
-  ```
-  Uninstall-CsDataBase -DatabaseType Application -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
-  ```
+   ```
+   Uninstall-CsDataBase -DatabaseType Application -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
+   ```
 
     _ \<FQDN\>_ は、データベース ・ サーバの FQDN と_\<インスタンス\>_(1 つが定義されている) 場合は、名前付きデータベース インスタンスは、です。 
     

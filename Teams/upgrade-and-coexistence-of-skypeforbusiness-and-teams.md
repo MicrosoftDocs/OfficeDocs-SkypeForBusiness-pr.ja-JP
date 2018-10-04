@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 836ebb663c4d3062b2cce942228d35aa6c227d07
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: c680dccb697030cf0dbf7dcb75a4b26daf1ce6d3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016454"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374172"
 ---
 ![展開に重点を置いて、アップグレードの旅の段階や実装段階](media/upgrade-banner-deployment.png "展開に重点を置いて、アップグレードの旅の段階や実装段階")
 
@@ -85,8 +85,8 @@ ms.locfileid: "25016454"
 
 時間の経過と共に**チームのみ**モードでは、組織の残りの部分の後にするユーザーのグループをアップグレードできます。 最終的には、組織全体がビジネス用の Skype を撤去し、チームのみを使用して、コミュニケーションと共同作業をする準備が完了するまたは -かどうかビジネス要件で特定のグループのビジネス用の Skype を保持すること、大多数のユーザーに、組織はチームにのみ使用できます。 <br><br>
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>判断ポイント</td><td><ul> アップグレードする旅は、組織のビジネス要件に適したですか。<br><br></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次の手順</td><td><ul> 現在の展開モデルを識別するには、ケースのシナリオを使用し、組織にとっての重要な考慮事項が通知されますが、組織に最適ですがチームへの旅。<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul> アップグレードする旅は、組織 & #39 に適した; ビジネス要件でしょうか。<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul> 現在の展開モデルを識別するには、ケースのシナリオを使用し、組織にとっての重要な考慮事項が通知されますが、組織に最適ですがチームへの旅。<br><br></ul></td></tr>
 </table>
 
 ## <a name="upgrade-scenarios"></a>アップグレードのシナリオ
@@ -100,8 +100,8 @@ ms.locfileid: "25016454"
 |Skype ビジネス サーバー (設置型) |Azure AD 接続し、Exchange のオンラインでの office 365 テナント<br><br> SharePoint およびビジネス用の Skype は、オンプレミスで導入|全エンタープライズ ボイス機能を設定 (Skype のビジネス サーバー 2015) 現在使用中<br><br> 導入窓口<br><br> 会議は内部および外部フェデレーション ユーザーと、VoIP およびダイヤルイン会議の両方を使用して行われます。<br><br> 内部および外部のユーザーとメッセージ|SharePoint のオンライン展開します。<br><br> Skype をビジネスのハイブリッド (分割ドメイン) の構成します。<br><br>**ロードマップをメッセージング**: 2018年の第 2 四半期のリリースを対象とするフェデレーション機能<br><br> **ロードマップの会議**: 会議参加、2018年の第 2 四半期のリリースを対象とする PSTN のロビー機能を統合<br><br> **ロードマップを呼び出す**: 第 4 四半期の 2018年と以降のリリースの対象となる機能<br><br>ビルディング ・ ブロック:<ul><li><b>アイランド</b>モード (パイロット)</li><li><b>Skype だけチームの共同作業によるビジネスのため</b>のモード</li><li><b>チームの共同作業や会議でのビジネス用の Skype</b>モード</li><li><b>チームのみ</b>のモードと<b>Skype</b>ビジネスのみのモード</li></ul><br>ビジネス サーバー 2019 の Skype へのアップグレードを検討します。|
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>判断ポイント</td><td><ul> アップグレード シナリオは、組織に適用可能ですか。<br><br></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul> メッセージング、会議、および呼び出しのビジネス要件に基づいて、組織のアップグレードの旅のタイムラインを決定します。<br><br> アップグレード、旅を完了するのには必要な追加作業を決定します。<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul> アップグレード シナリオは、組織に適用可能ですか。<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul> 組織 & #39; のタイムラインを決める s アップグレードの旅は、メッセージング、会議、およびビジネス要件を呼び出すことに基づきます。<br><br> アップグレード、旅を完了するのには必要な追加作業を決定します。<br><br></ul></td></tr>
 </table>
 
 した後、[チームへのアップグレードを実行する](https://aka.ms/SkypeToTeams-Upgrade)組織に最適なアップグレードの旅をしました。

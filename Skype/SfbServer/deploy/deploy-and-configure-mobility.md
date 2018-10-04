@@ -8,12 +8,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: この資料でを Skype ビジネス サーバー移動機能を利用できるモバイル デバイスをできるように、モバイル サービスを使用するビジネスのサーバーのインストールに既存の Skype を構成する手順を説明します。
-ms.openlocfilehash: c8d30f11fed3b6c45f06b7e21f0038bee0274df4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2afd462638eb6ed97f6efb694aa74994f2d59727
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003139"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375447"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>展開し、Skype のビジネスのサーバーの移動を構成します。  
  
@@ -35,7 +35,7 @@ ms.locfileid: "21003139"
 次のすべてのセクションには、計画トピックを読んでいることが前提となる手順が含まれています。
 
 > [!NOTE]
-> 従来のモバイル クライアント用の MCX サポートはビジネス サーバー 2019 の Skype で利用可能ではありません。 ユーザーは、現在のクライアントにアップグレードする必要があります。
+> 従来のモバイル クライアント用の MCX (移動サービス) サポートがビジネス サーバー 2019 の Skype で利用可能ではありません。 ビジネスのモバイル クライアントのすべての現在 Skype は、インスタント メッセージング (IM)、プレゼンス、および取引先担当者をサポートするために既にユニファイド コミュニケーション Web API (UCWA) を使用します。 MCX を使用する従来のクライアントを持つユーザーは、現在のクライアントにアップグレードする必要があります。
   
 ## <a name="create-dns-records"></a>DNS レコードの作成
 <a name="CreateDNSRec"> </a>
@@ -248,7 +248,7 @@ ms.locfileid: "21003139"
     
    - 既に割り当てられている場合、lyncdiscover。\<sipdomain\>と lyncdiscoverinternal。\<sipdomain\>レコード。
     
-    割り当てられている証明書が 2つ以上の場合は、それらを確認する必要があります (上記の注記を参照)。
+     割り当てられている証明書が 2つ以上の場合は、それらを確認する必要があります (上記の注記を参照)。
     
 8. したがってには、lyncdiscover を検索する場合。\<sipdomain\>と lyncdiscoverinternal。\<sipdomain\>レコードを既に手に既に構成されているこの。 MMC を終了します。
     
@@ -308,7 +308,7 @@ TMG が不要になった製品として Microsoft によって提供される�
     
    - **内部発行**のパスを発行し、フロント エンド プールのロード バランサー (またはいずれかの操作をした場合に、ディレクター プールのロード バランサーの FQDN) を外部の Web サービスの FQDN を入力する必要があります。 しようとしている、例として sfb_ があります。pool01.contoso.local。
     
-   - 入力する必要があります**/**、公開へのパスですが、**元のホスト ヘッダーを転送**する必要もします。
+   - 入力する必要があります**/***、公開へのパスですが、**元のホスト ヘッダーを転送**する必要もします。
     
    - **パブリック名または外部名**の詳細や情報のオプションがあります。ここに
     
@@ -316,7 +316,7 @@ TMG が不要になった製品として Microsoft によって提供される�
     
    - **名前**には **lyncdiscover.** <sipdomain>これは、外部の自動検出サービスの URL)。 ここで、フロント エンド プールの外部 Web サービスの URL のルールを作成する場合は、フロント エンド プール (たとえば、lyncwebextpool01.contoso.com) では、外部の Web サービスの FQDN を入力する必要があります。
     
-   - [**パス**] オプションがあり、入力する必要があります**/** はここです。
+   - [**パス**] オプションがあり、入力する必要があります**/*** ここでは。
     
    - 最新のユーザー アカウントで **SSL リスナー**を選択する必要があります。
     
@@ -356,7 +356,7 @@ TMG が不要になった製品として Microsoft によって提供される�
     
    - **内部発行**のパスを発行し、フロント エンド プールのロード バランサーの**VIP アドレス**の FQDN を入力する必要がありますしようとしている、例として sfb_pool01.contoso.local があります。
     
-   - 入力する必要があります**/**、公開へのパスですが、**元のホスト ヘッダーを転送**する必要もします。
+   - 入力する必要があります**/***、公開へのパスですが、**元のホスト ヘッダーを転送**する必要もします。
     
    - **パブリック名または外部名**の詳細や情報のオプションがあります。ここに
     
@@ -364,7 +364,7 @@ TMG が不要になった製品として Microsoft によって提供される�
     
    - **名前**には **lyncdiscover.** <sipdomain>これは、外部の自動検出サービスの URL)。
     
-   - [**パス**] オプションがあり、入力する必要があります**/** はここです。
+   - [**パス**] オプションがあり、入力する必要があります**/*** ここでは。
     
    - Web リスナーを選択するか、リバース プロキシを作成するを許可する必要があります。
     
@@ -395,15 +395,15 @@ Skype ビジネス サーバー用のハイブリッド環境は、設置を組�
     
 2. ビジネス サーバー環境に、Skype の**ProxyFQDN**属性の値を取得するのには、次を実行します。
     
-  ```
-  Get-CsHostingProvider
-  ```
+   ```
+   Get-CsHostingProvider
+   ```
 
 3. それからシェル ウィンドウ内で以下を実行します。
     
-  ```
-  Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
-  ```
+   ```
+   Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
+   ```
 
     [identity] は、共有 SIP アドレス スペースのドメイン名で置き換えます。
     
@@ -415,7 +415,7 @@ Skype ビジネス サーバー用のハイブリッド環境は、設置を組�
 ビジネス サーバー 2015 の Skype の Lync Server 2010 クライアントは、テストに**テスト CsMcxP2PIM**を実行する必要があります。 Lync Server 2010 ユーザーがする必要が実際のユーザーまたはユーザーの定義済みのテスト、およびパスワード資格情報を必要があります。
 
 > [!NOTE]
-> 従来のモバイル クライアント用の MCX サポートはビジネス サーバー 2019 の Skype で利用可能ではありません。 ユーザーは、現在のクライアントにアップグレードする必要があります。
+> 従来のモバイル クライアント用の MCX (移動サービス) サポートがビジネス サーバー 2019 の Skype で利用可能ではありません。 ビジネスのモバイル クライアントのすべての現在 Skype は、インスタント メッセージング (IM)、プレゼンス、および取引先担当者をサポートするために既にユニファイド コミュニケーション Web API (UCWA) を使用します。 MCX を使用する従来のクライアントを持つユーザーは、現在のクライアントにアップグレードする必要があります。
   
 ### <a name="test-conferencing-for-skype-for-business-and-lync-2013-mobile-clients"></a>Skype for Business and Lync 2013 モバイル クライアントのテスト会議
 
@@ -442,7 +442,7 @@ Skype ビジネス サーバー用のハイブリッド環境は、設置を組�
 ### <a name="test-conferencing-for-lync-2010-mobile-clients"></a>Lync 2010 モバイル クライアントのテスト会議
 
 > [!NOTE]
-> 従来のモバイル クライアント用の MCX サポートはビジネス サーバー 2019 の Skype で利用可能ではありません。 ユーザーは、現在のクライアントにアップグレードする必要があります。
+> 従来のモバイル クライアント用の MCX (移動サービス) サポートがビジネス サーバー 2019 の Skype で利用可能ではありません。 ビジネスのモバイル クライアントのすべての現在 Skype は、インスタント メッセージング (IM)、プレゼンス、および取引先担当者をサポートするために既にユニファイド コミュニケーション Web API (UCWA) を使用します。 MCX を使用する従来のクライアントを持つユーザーは、現在のクライアントにアップグレードする必要があります。
 
 1. **ビジネス サーバー管理シェルの Skype**と**Ocscore**がインストールされている任意のコンピューター上の**CsAdministrator**ロールのメンバーとしてログオンします。
     
@@ -456,13 +456,13 @@ Skype ビジネス サーバー用のハイブリッド環境は、設置を組�
 
    スクリプトに資格情報を設定して、テスト コマンドレットに渡すこともできます。下の例をご覧ください。
     
-  ```
-  $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
-  $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
-  $tuc1 = New-Object Management.Automation.PSCredential("contoso\UserName1", $passwd1)
-  $tuc2 = New-Object Management.Automation.PSCredential("contoso\UserName2", $passwd2)
-  Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
-  ```
+   ```
+   $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
+   $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
+   $tuc1 = New-Object Management.Automation.PSCredential("contoso\UserName1", $passwd1)
+   $tuc2 = New-Object Management.Automation.PSCredential("contoso\UserName2", $passwd2)
+   Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
+   ```
 
 コマンドの手順を確認するのにはさらに、ことができますおよびチェック アウトする[テスト CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) [テスト CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/test-csmcxp2pim?view=skype-ps)。
   

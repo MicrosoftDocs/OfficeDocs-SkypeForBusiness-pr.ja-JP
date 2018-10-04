@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45d74a26b65f788e914587b521a5bb14ea606567
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 021f69644701fb68a8122219b3f98bc4fd2f390d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012306"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372612"
 ---
 # <a name="deploy-my-service"></a>サービスを展開します。
 
@@ -73,23 +73,23 @@ ms.locfileid: "25012306"
 
 規模と複雑さの場所に関係なく各サイトを有効にする必要があります、タスクおよび活動を計画すること十分な事前- し、最適な順序で実行-の前にいる間、および実際のサービス導入後です。 計画およびマイクロソフトのチームの音声を独自の旅を実行する際は、次の手順に従うことをお勧めします。
 
-1.  マイクロソフト チームの音声を[サイトの有効化の戦略](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)(戦略) の音声をダウンロードしてください。
+1. マイクロソフト チームの音声を[サイトの有効化の戦略](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)(戦略) の音声をダウンロードしてください。
 
-2.  各サイトのプレイブックの別のコピーを作成します。
+2. 各サイトのプレイブックの別のコピーを作成します。
 
-3.  **{コード-サイト名} のプレイブック**をという名前のワークシートのタブ、[関連するサイトの名前とサイト コードの **{コード-サイト名}** を交換してください。
+3. **{コード-サイト名} のプレイブック**をという名前のワークシートのタブ、[関連するサイトの名前とサイト コードの **{コード-サイト名}** を交換してください。
 
-4.  下図のように**サイト名、サイト コード**、および**計画の実施日**をを入力します。 これは、推奨期限プレイブックですべてのアクティビティを調整するための重要なステップです。
+4. 下図のように**サイト名、サイト コード**、および**計画の実施日**をを入力します。 これは、推奨期限プレイブックですべてのアクティビティを調整するための重要なステップです。
 
-    ![ニューヨークのサイト名、サイト コード NY01、18-20-3 月 3 日の予定日を使用した例](media/deploy-my-service-image2.png "ニューヨークのサイト名、サイト コード NY01、18-20-3 月 3 日の予定日を使用した例")
+   ![ニューヨークのサイト名、サイト コード NY01、18-20-3 月 3 日の予定日を使用した例](media/deploy-my-service-image2.png "ニューヨークのサイト名、サイト コード NY01、18-20-3 月 3 日の予定日を使用した例")
 
-5.  各動作を確認して、必要な処理を行うスケジュールを説明するように状態を更新します。 状態が視覚的に、以下の説明として表されます。
-    <ul>
-    <li>![緑のチェック マーク](media/deploy-my-service-image3.png) **[はい]、または該当なし (緑):** 、アクティビティが完了すると、やこのサイトの該当する場合はそれ以上の操作は必要ありません。</li>
-    <li>![黄色の感嘆符](media/deploy-my-service-image4.png)**活動はまだ完了されていない、(黄色):** 活動がまだ完了していないし、スケジュール上、はいまたは No に更新する必要があります。</li>
-    <li>![赤の X](media/deploy-my-service-image5.png) **(赤):** 活動の問題が発生したためが完了できず、プロジェクトの進捗会議を行う必要があります。</li></ul>
+5. 各動作を確認して、必要な処理を行うスケジュールを説明するように状態を更新します。 状態が視覚的に、以下の説明として表されます。
+   <ul>
+   <li>![緑のチェック マーク](media/deploy-my-service-image3.png) <strong>[はい]、または該当なし (緑):</strong> 、アクティビティが完了すると、やこのサイトの該当する場合はそれ以上の操作は必要ありません。</li>
+   <li>![黄色の感嘆符](media/deploy-my-service-image4.png) <strong>活動はまだ完了されていない、(黄色):</strong>活動がまだ完了していないし、スケジュール上、はいまたは No に更新する必要があります。</li>
+   <li>![赤の X](media/deploy-my-service-image5.png) <strong>(赤):</strong>活動の問題が発生したためが完了できず、プロジェクトの進捗会議を行う必要があります。</li></ul>
 
-6.  状態は、各セクションに重ね、セクションの見出しは、これらのステータス インジケーターのいずれかでフォーマットされました。 **毎週のステータス**に自動的に更新されます。
+6. 状態は、各セクションに重ね、セクションの見出しは、これらのステータス インジケーターのいずれかでフォーマットされました。 **毎週のステータス**に自動的に更新されます。
 
 ![毎週の状態のロールアップ、プレイブックでのスクリーン ショット](media/deploy-my-service-image6.png "毎週の状態のロールアップ、プレイブックでのスクリーン ショット")
 
@@ -101,8 +101,8 @@ ms.locfileid: "25012306"
 番号を移植するなどの計画より多くの時間を要する可能性がある活動と調達活動に注意してください。 これらのアクティビティには、サイト展開の期限も悪影響します。 確認し、アクティビティのリストと関連付けられているタイムラインの更新を毎週、および利害関係者が各サイトと展開のスケジュールは、可能な差異の状態の認識であることを確認するのには、[運営委員会の会議](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide)でそれらを提示することを確認します。
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>意思決定ポイント</td><td><ul><li>サイト対応の戦略は、配置に必要なかどうかを決定します。</li><li>マイクロソフト チームのサイトの有効化の戦略をカスタマイズするのすべてのサイトを展開することを担当するユーザーを決定します。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>[サイト対応のプレイブックをダウンロード](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)してください。</li><li>最初のサイトのサイトの有効化の戦略をカスタマイズします。</li><li>追加のサイトを必要に応じて繰り返します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>サイト対応の戦略は、配置に必要なかどうかを決定します。</li><li>マイクロソフト チームのサイトの有効化の戦略をカスタマイズするのすべてのサイトを展開することを担当するユーザーを決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">サイト対応のプレイブックをダウンロード</a>してください。</li><li>最初のサイトのサイトの有効化の戦略をカスタマイズします。</li><li>追加のサイトを必要に応じて繰り返します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

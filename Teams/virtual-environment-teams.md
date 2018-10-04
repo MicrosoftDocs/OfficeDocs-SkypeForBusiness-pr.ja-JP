@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72c420697b015d3af9cfe6fb9dd96757f1542e80
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: c908cbfbd7daace3665ff99ccd3962fabf440e65
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016310"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373401"
 ---
 <a name="run-microsoft-teams-in-a-virtual-environment"></a>仮想環境でマイクロソフトのチームを実行します。
 ============================================
@@ -100,7 +100,7 @@ ms.locfileid: "25016310"
 5.  仮想化環境でチームを使用するすべてのユーザーに"AllOff"の事前に定義されたポリシーのオプションが適用されます。<br>
 \>> *AllOff を与える CsTeamsMeetingPolicy グループのユーザー電子メール id の Id*
 
-##<a name="known-limitations"></a>既知の制限
+## <a name="known-limitations"></a>既知の制限
 
 以外にも記載されているオーディオとビデオの制限の同は、仮想化環境上のユーザーが直面する可能性がありますいくつか追加の制限があります。
 

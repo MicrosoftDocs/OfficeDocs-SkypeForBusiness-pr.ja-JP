@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: '概要: は、トポロジ ビルダーを使用してビジネスのサーバーの Skype でビデオの相互運用機能のサーバー プールを作成します。'
-ms.openlocfilehash: f284163bc52f4e62c3ec5b1c7966f3c663ee09f7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 65771e72250ad1d5e9625bdd6cc1a8d47b5dabe2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978817"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373459"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>Skype のビジネス サーバーの VIS プールを作成します。
  
@@ -33,7 +33,7 @@ ms.locfileid: "20978817"
     
    - 次のページの [**このプール内のコンピューターを定義します**] の項目で、プール内の各サーバーの**コンピューターの FQDN** をテキスト フィールドに入力して、[**追加**] をクリックします。 ビデオの相互運用機能の別のサーバーをプールに追加するには、この手順を繰り返します。 プール内のすべてのコンピューターを定義したら、[**次へ**] をクリックします。
     
-    高可用性を必要としないために、プール内の 1 つだけのビデオの相互運用機能サーバーを配置する場合は、**このプールには 1 つのサーバー**を選択し、**次**のキーを押します。
+     高可用性を必要としないために、プール内の 1 つだけのビデオの相互運用機能サーバーを配置する場合は、**このプールには 1 つのサーバー**を選択し、**次**のキーを押します。
     
 3. ドロップダウン リストから次ホップ プール/FE を選択して、[**次へ**] をクリックします。
     

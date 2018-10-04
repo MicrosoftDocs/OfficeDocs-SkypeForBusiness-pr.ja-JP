@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 管理者は、開催者が、ミーティングのフリー ダイヤル番号を使用する方法を制御できます。
-ms.openlocfilehash: b438ee16135485a79458869858c52dd35bafa560
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 316497b6b4569ffef4419b6ed2ce6994c604d16a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885173"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370613"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>オンライン ビジネスのユーザーに特定の Skype のフリー ダイヤル番号を無効にします。
 
@@ -55,7 +55,7 @@ ms.locfileid: "23885173"
 
 3. **このユーザーのミーティングに参加するのにはフリー ダイヤルの番号を使用して許可する**をオフにします。 
  
-4. [ **保存**] をクリックします。 
+4. [**保存**] をクリックします。 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -64,4 +64,4 @@ ms.locfileid: "23885173"
 
 セット CsOnlineDialInConferencingUser コマンドレットの AllowTollFreeDialIn パラメーターを使用するには有効またはこのコントロールを無効にします。 例: 
 
- - セット CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false
+- セット CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false

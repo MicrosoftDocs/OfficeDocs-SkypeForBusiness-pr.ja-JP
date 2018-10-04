@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Cloud Connector と Office 365 テナントの統合を構成する方法を説明します。
-ms.openlocfilehash: 6971858b4e31fb7f98a98f5c80b9bb983a11802a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 01e5135a4b0ac6de391140bc6fc0d80bcc00e2ce
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886173"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375770"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Cloud Connector と Office 365 テナントの統合を構成する
  
@@ -42,9 +42,9 @@ Skype for Business Cloud Connector エディションのインストールが完
     
 3. ゲートウェイ用に発行された証明書のルート CA 証明書を仲介サーバーにインポートします。ゲートウェイ用の SSL 証明書を入手する必要がある場合は、次のように Cloud Connector Active Directory コンピューターで証明機関サービスを使用して行うことができます。
     
-  - 既存の Web Server テンプレートを変更して認証済みユーザーを登録できるようにするか、新しい Web Server テンプレートを作成して別のプロパティを構成して認証済みユーザーが登録できるようにします。 詳細については、[証明書テンプレート](https://technet.microsoft.com/en-us/library/cc730705.aspx)を参照してください。
+   - 既存の Web Server テンプレートを変更して認証済みユーザーを登録できるようにするか、新しい Web Server テンプレートを作成して別のプロパティを構成して認証済みユーザーが登録できるようにします。 詳細については、[証明書テンプレート](https://technet.microsoft.com/en-us/library/cc730705.aspx)を参照してください。
     
-  - 有効にした Web Server テンプレートを選択して、証明書スナップインを使用して証明書を要求します。 件名に共通名を追加し、別名に DNS 名とゲートウェイの FQDN を追加して、[キー] オプションで秘密キーをエクスポート可能にする [秘密キー] が選択されていることを確認します。 
+   - 有効にした Web Server テンプレートを選択して、証明書スナップインを使用して証明書を要求します。 件名に共通名を追加し、別名に DNS 名とゲートウェイの FQDN を追加して、[キー] オプションで秘密キーをエクスポート可能にする [秘密キー] が選択されていることを確認します。 
     
 4. 秘密キーを使用して SSL 証明書をエクスポートし、PSTN ゲートウェイ ベンダーから提供された指示に従って、証明書をインポートします。
     
@@ -88,9 +88,9 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
     
 3. ゲートウェイ用に発行された証明書のルート CA 証明書を仲介サーバーにインポートします。ゲートウェイ用の SSL 証明書を入手する必要がある場合は、次のように Cloud Connector Active Directory コンピューターで証明機関サービスを使用して行うことができます。
     
-  - 既存の Web Server テンプレートを変更して認証済みユーザーを登録できるようにするか、新しい Web Server テンプレートを作成して別のプロパティを構成して認証済みユーザーが登録できるようにします。 詳細については、[証明書テンプレート](https://technet.microsoft.com/library/cc730705.aspx)を参照してください。
+   - 既存の Web Server テンプレートを変更して認証済みユーザーを登録できるようにするか、新しい Web Server テンプレートを作成して別のプロパティを構成して認証済みユーザーが登録できるようにします。 詳細については、[証明書テンプレート](https://technet.microsoft.com/library/cc730705.aspx)を参照してください。
     
-  - 有効にした Web Server テンプレートを選択して、証明書スナップインを使用して証明書を要求します。 件名に共通名を追加し、別名に DNS 名とゲートウェイの FQDN を追加して、[キー] オプションで秘密キーをエクスポート可能にする [秘密キー] が選択されていることを確認します。 
+   - 有効にした Web Server テンプレートを選択して、証明書スナップインを使用して証明書を要求します。 件名に共通名を追加し、別名に DNS 名とゲートウェイの FQDN を追加して、[キー] オプションで秘密キーをエクスポート可能にする [秘密キー] が選択されていることを確認します。 
     
 4. 秘密キーを使用して SSL 証明書をエクスポートし、PSTN ゲートウェイ ベンダーから提供された指示に従って、証明書をインポートします。
     
@@ -170,15 +170,15 @@ P2P の呼び出しは、PSTN 会議にエスカレートされ、オンライ�
     
 2. グローバルを使用してテナント Azure AD リモート PowerShell セッションまたはユーザー管理者の資格情報を起動し、Azure AD ユーザー アカウントの部門を設定するのには次のコマンドレットのように構成しの実行はステップ 1 を"HybridMediationServer"にします。
 
- ```
-  Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
-  ```
+   ```
+   Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
+   ```
 
 3. テナント Skype をビジネス テナント管理者の資格情報、し、そのユーザーに、仲介サーバーとエッジ サーバーの FQDN を設定するのには次のコマンドレットのアカウント、交換用の Skype を使用してビジネス リモート PowerShell セッションを開始\<表示名\>アカウントのユーザーの表示名では、手順 1 で作成します。
     
-  ```
-  Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
-  ```
+   ```
+   Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
+   ```
 
     ID については、仲介サーバーに対して作成した Office 365 ユーザー　アカウントの表示名を使用してください。
     
@@ -186,6 +186,6 @@ P2P の呼び出しは、PSTN 会議にエスカレートされ、オンライ�
     
     *EdgeServerExternalFQDN* 、エッジ サーバーのアクセス プロキシに定義されている外部 FQDN を使用します。 複数の Cloud Connector　PSTN サイトがある場合は、仲介サーバーが配置されているサイトに割り当てられているエッジ サーバー アクセス プロキシ の FQDN を選択します。
     
-3. 複数の Cloud Connector 仲介サーバー (マルチサイト、HA) がある場合は、前述の手順を各サーバーに対して繰り返してください。
+4. 複数の Cloud Connector 仲介サーバー (マルチサイト、HA) がある場合は、前述の手順を各サーバーに対して繰り返してください。
     
 

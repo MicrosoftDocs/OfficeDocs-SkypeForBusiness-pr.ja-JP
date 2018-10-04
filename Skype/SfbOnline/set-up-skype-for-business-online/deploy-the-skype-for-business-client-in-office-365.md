@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn how to plan and deploy Skype for Business in small, medium, and large organizations and making it available to your users. '
-ms.openlocfilehash: 6af2ed700783fef853052b39c60270baf86919e9
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: c96d4759e25370997b9af8d42d8130d7964962df
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858797"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372573"
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>Office 365 で Skype for Business クライアントを展開する
 
@@ -136,7 +136,7 @@ Office 365 ソフトウェアに対する更新プログラムの動作の詳細
     
 - [Office 365 ProPlus の更新設定を構成する](https://technet.microsoft.com/en-us/library/dn761708.aspx)
     
- **機能の更新プログラムを取得する頻度**
+  **機能の更新プログラムを取得する頻度**
   
 更新プログラムの取得元に加えて、Skype for Business クライアントの新機能を取得する頻度を制御することもできます。次の 2 つの選択肢があります。
   

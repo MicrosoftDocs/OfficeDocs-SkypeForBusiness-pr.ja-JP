@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: '概要: 開始またはビジネス サーバー 2015 の Skype のログ サービスの一元的なログのキャプチャ セッションを停止する方法を説明します。'
-ms.openlocfilehash: dee3a9cd1b5feaf241795de6595f755b3f321409
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: c0b65fddcb5036cf41866ce79d82ae0bc49a79e3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570158"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373765"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での CLS ログ キャプチャの開始または終了
  
@@ -36,15 +36,15 @@ ms.locfileid: "19570158"
     
 2. 集中ログ サービスで、次を入力してログのシナリオを開始します。
     
-  ```
-  Start-CsClsLogging -Scenario <name of scenario>
-  ```
+   ```
+   Start-CsClsLogging -Scenario <name of scenario>
+   ```
 
     たとえば、**AlwaysOn** シナリオを開始するには、次のように入力します。
     
-  ```
-  Start-CsClsLogging -Scenario AlwaysOn
-  ```
+   ```
+   Start-CsClsLogging -Scenario AlwaysOn
+   ```
 
     > [!NOTE]
     > AlwaysOn シナリオには、既定の実行期間がありません。 **Stop CsClsLogging**コマンドレットを明示的に停止されるまで、このシナリオが実行されます。 詳細については、 [Stop CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps)を参照してください。 その他すべてのシナリオでは、既定の実行期間が 4 時間になっています。 
@@ -58,9 +58,9 @@ ms.locfileid: "19570158"
   
 4. 別のシナリオを開始するには、追加シナリオの名前の**開始 CsClsLogging**コマンドレットを使用して、(たとえば、シナリオ**の認証**) を次のように実行します。
     
-  ```
-  Start-CsClsLogging -Scenario Authentication
-  ```
+   ```
+   Start-CsClsLogging -Scenario Authentication
+   ```
 
     > [!IMPORTANT]
     > それぞれのコンピューターで一度に実行できるシナリオは、合計 2 つまでです。コマンドのスコープがグローバルの場合は、展開内のすべてのコンピューターで (1 つまたは 2 つの) シナリオが実行されます。3 番目のシナリオを開始するには、その新しいシナリオを実行するコンピューター、プール、サイト、またはグローバルのスコープでログ記録を停止する必要があります。グローバル スコープでシナリオが開始されている場合は、1 つ以上のコンピューターおよびプールでそうしたシナリオのどちらかまたは両方のログ記録を停止できます。 
@@ -73,9 +73,9 @@ ms.locfileid: "19570158"
     
     UserReplicator というシナリオによるログ セッションをプール “pool01.contoso.net” で開始するとします。 また、このログ セッションの期間を 8 時間に指定します。 この場合、次のように入力します。
     
-  ```
-  Start-CsClsLogging -Scenario UserReplicator -Duration 8:00 -Pools "pool01.contoso.net"
-  ```
+   ```
+   Start-CsClsLogging -Scenario UserReplicator -Duration 8:00 -Pools "pool01.contoso.net"
+   ```
 
     このシナリオが正常に実行されると、次のような結果が返されます。
     
@@ -111,26 +111,26 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. 集中ログ サービスがどのようなシナリオは、現在実行されている、次を入力して、検索するクエリを実行します。
     
-  ```
-  Show-CsClsLogging
-  ```
+   ```
+   Show-CsClsLogging
+   ```
 
-  ![Show-CsCl 呼び出し後の Windows PowerShell コンソール](../../media/Ops_Show_Stop_CsClsLogging.jpg)
+   ![Show-CsCl 呼び出し後の Windows PowerShell コンソール](../../media/Ops_Show_Stop_CsClsLogging.jpg)
   
-  Show-CsClsLogging の結果、現在実行中のシナリオの概要と、そのシナリオの実行スコープが表示されます。 詳細については、[表示する CsClsLogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps)を参照してください。
+   Show-CsClsLogging の結果、現在実行中のシナリオの概要と、そのシナリオの実行スコープが表示されます。 詳細については、[表示する CsClsLogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps)を参照してください。
     
 3. 特定のシナリオによる現在実行中のログ セッションを停止するには、次のように入力します。
     
-  ```
-  Stop-CsClsLogging -Scenario <scenario name> -Computers <comma separated list of fully qualified computer names> -Pools <comma separated list of fully qualified pool names>
-  ```
-  次に例を示します。
+   ```
+   Stop-CsClsLogging -Scenario <scenario name> -Computers <comma separated list of fully qualified computer names> -Pools <comma separated list of fully qualified pool names>
+   ```
+   次に例を示します。
     
-  ```
-  Stop-CsClsLogging -Scenario UserReplicator -Pools pool01.contoso.net
-  ```
+   ```
+   Stop-CsClsLogging -Scenario UserReplicator -Pools pool01.contoso.net
+   ```
 
-  このコマンドは、pool01.contoso.net での UserReplicatior シナリオによるログ記録を停止します。
+   このコマンドは、pool01.contoso.net での UserReplicatior シナリオによるログ記録を停止します。
     
     > [!NOTE]
     > UserReplicator シナリオを使用するこのログ セッション中に作成されたログは削除されません。 このログは、Search-CsClsLogging コマンドを使用して検索を実行する場合も使用できます。 詳細については、[検索 CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps)を参照してください。 

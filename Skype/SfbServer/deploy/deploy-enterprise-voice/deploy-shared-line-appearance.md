@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: ここでは、Skype for Business Server 2015 の累積的な更新プログラム (2015 年 11 月) で回線共有機能 (SLA) を展開する方法について説明します。SLA は、共有番号と呼ばれる特定の電話番号で複数の通話を処理するための機能です。
-ms.openlocfilehash: 6083bd408804a633d7de904c794767bd07499b6a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: f5c97c94f2e0ed2034ac96864b20dec604708d55
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891353"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372015"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 で回線共有機能を展開する
 
@@ -51,17 +51,17 @@ ms.locfileid: "23891353"
 
     c. SLA がインストールされて有効になっているすべてのプールで、すべてのフロントエンド サーバー (RTCSRV サービス) を再起動します。
 
-  ```
+   ```
    Stop-CsWindowsService RTCSRV Start-CsWindowsService RTCSRV
-  ```
+   ```
 
 ### <a name="create-an-sla-group-and-add-users-to-it"></a>SLA グループを作成してユーザーを追加する
 
 1. [セット CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps)コマンドレットを使用して、SLA のグループを作成します。
 
-  ```
-  Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MaxNumberOfCalls <Number> -BusyOption <BusyOnBusy|Voicemail|Forward> [-Target <TargetUserOrPhoneNumber>]
-  ```
+   ```
+   Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MaxNumberOfCalls <Number> -BusyOption <BusyOnBusy|Voicemail|Forward> [-Target <TargetUserOrPhoneNumber>]
+   ```
 
     Set-CsSlaConfiguration コマンドレットを実行すると、エンタープライズ VoIP アカウントである SLAGroup1 が SLA エンティティとしてマークされ、SLAGroup1 の番号が SLA グループの番号になります。SLAGroup1 に電話をかけると常に、SLA グループ全体に着信します。
 
@@ -69,9 +69,9 @@ ms.locfileid: "23891353"
 
     このコマンドを実行すると、新しい SLA グループの最大同時通話数が 3 に設定され、4 件目以上の通話に対しては話中音が流れるようになります。
 
-  ```
-  Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3 -BusyOption BusyOnBusy
-  ```
+   ```
+   Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3 -BusyOption BusyOnBusy
+   ```
 
     Set-CsSlaConfiguration を使用して、新しい SLA グループの作成や既存の SLA グループの変更を行うことができます。
 
@@ -80,16 +80,16 @@ ms.locfileid: "23891353"
 
 2. グループにデリゲートを追加するには、[追加 CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates?view=skype-ps)コマンドレットを使用します。
 
-  ```
-  Add-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
+   ```
+   Add-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
           <NameOfDelegate@domain>
-  ```
+   ```
 
     次の例では、SLA グループにユーザーを追加しています。 グループに追加する各ユーザーは、有効なエンタープライズ VoIP が有効なユーザーである必要があります。
 
-  ```
-  Add-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate1@contoso.com
-  ```
+   ```
+   Add-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate1@contoso.com
+   ```
 
     グループに追加したい各ユーザーについてコマンドレットを繰り返し実行します。ユーザーは、単一の SLA グループにのみ属することができます。
 
@@ -111,15 +111,15 @@ ms.locfileid: "23891353"
 
 1. [セット CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps)コマンドレットを使用して、SLA グループ喪失の呼び出しのオプションを構成します。
 
-  ```
-  Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MissedCallOption <Option> -MissedCallForwardTarget <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
-  ```
+   ```
+   Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MissedCallOption <Option> -MissedCallForwardTarget <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
+   ```
 
 2. 次の例は、不在着信がという名前のユーザーに転送されることを指定します。 `sla_forward_number`。 有効なオプション、`-MissedCallOption`パラメーターは、 `Forward`、 `BusySignal`、または`Disconnect`。 選択する場合は、`Forward`も含める必要があります、 `-MissedCallForwardTarget` 、パラメーター、ユーザーまたは電話番号、ターゲットとして。
 
-  ```
-  Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com -BusyOption Forward -MaxNumberOfCalls 2 -Target sip:sla_forward_number@contoso.com
-  ```
+   ```
+   Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com -BusyOption Forward -MaxNumberOfCalls 2 -Target sip:sla_forward_number@contoso.com
+   ```
 
 ### <a name="remove-a-delegate-from-a-group"></a>グループから代理人を削除する
 

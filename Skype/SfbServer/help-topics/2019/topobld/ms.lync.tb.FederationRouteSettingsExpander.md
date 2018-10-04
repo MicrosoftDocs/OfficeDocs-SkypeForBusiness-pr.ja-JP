@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 ROBOTS: NOINDEX, NOFOLLOW
 description: サイトのフェデレーション ルートの割り当てを設定するには、エッジ サーバーまたはエッジ サーバー プールで有効にするフェデレーション最初必要があります。 エッジ サーバーまたはプールでフェデレーションが有効でない場合、サイトのフェデレーション ルートの割り当ての設定は変更できません。
-ms.openlocfilehash: 989ebd13e4491e7b4c28bb936795f9532d7fe88f
-ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
+ms.openlocfilehash: 201fa7b556cc3a12c422145cf46c844faafb1cb4
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22196042"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371782"
 ---
 # <a name="federation-route-settings-expander"></a>フェデレーション ルートの設定の拡張
  
@@ -31,7 +31,7 @@ ms.locfileid: "22196042"
     
 - **XMPP を有効にするフェデレーション**XMPP フェデレーション ルートの場合を有効にするには、このオプションを選択し、フェデレーション ルートとしてディレクター、またはエッジ プールを選択します。
 - 
-> [!NOTE]
-> XMPP ゲートウェイとプロキシ サーバー 2015 のビジネス用の Skype では利用ビジネス サーバー 2019 の Skype でサポートされていません。 詳細については、[移行する XMPP フェデレーション](../../../../SfBServer2019/migration/migrating-xmpp-federation.md)を参照してください。
+  > [!NOTE]
+  > XMPP ゲートウェイとプロキシ サーバー 2015 のビジネス用の Skype では利用ビジネス サーバー 2019 の Skype でサポートされていません。 詳細については、[移行する XMPP フェデレーション](../../../../SfBServer2019/migration/migrating-xmpp-federation.md)を参照してください。
     
 

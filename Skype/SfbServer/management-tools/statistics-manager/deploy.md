@@ -11,15 +11,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: '概要: は、Skype のビジネス サーバー 2015 の統計マネージャーを展開する方法については、このトピックを読みます。'
-ms.openlocfilehash: 7730a6b933bbe1d627bffe175a24a60273be3a88
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 75a8af0794431a0f74233ad0c6a422b3827c7656
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371142"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 の Statistics Manager の展開
  
-**の概要:**Skype のビジネス サーバー 2015 の統計マネージャーを展開する方法の詳細については、このトピックを参照してください。
+**の概要:** Skype のビジネス サーバー 2015 の統計マネージャーを展開する方法の詳細については、このトピックを参照してください。
   
  Skype ビジネス サーバーの統計情報マネージャーとは、Skype をビジネスのサーバーの稼働状態とパフォーマンスのデータをリアルタイムに表示できるようにする強力なツールです。 数秒ごとに数百のサーバー間でのパフォーマンス データをポーリングし、統計マネージャーの web サイトですぐに結果を表示できます。
   
@@ -87,29 +88,29 @@ StatsManPerfAgentListener.msi を実行し、次を指定するホスト ・ マ
     
 2. 次のページで、以下の情報を指定します。
     
-    - **サービス パスワード:** これはリモート エージェントがリスナー サービスを認証するために使用するパスワードです。
+   - **サービス パスワード:** これはリモート エージェントがリスナー サービスを認証するために使用するパスワードです。
     
-    - **サービス ポート:**エージェントと通信するためにリスナーを使用する HTTPS ポート番号です。 インストール時に、このポート通過を許可するローカルのファイアウォールでは、URL の ACL が作成され、SSL 証明書は、このポートにバインドされます。 デフォルトは、8443 です。
+   - **サービス ポート:** エージェントと通信するためにリスナーを使用する HTTPS ポート番号です。 インストール時に、このポート通過を許可するローカルのファイアウォールでは、URL の ACL が作成され、SSL 証明書は、このポートにバインドされます。 デフォルトは、8443 です。
     
-    - **証明書の拇印:**これは、HTTPS プロトコルを暗号化するために、リスナーで使用する証明書の拇印です。 ネットワーク サービスには、秘密キーへの読み取りアクセスが必要です。
+   - **証明書の拇印:** これは、HTTPS プロトコルを暗号化するために、リスナーで使用する証明書の拇印です。 ネットワーク サービスには、秘密キーへの読み取りアクセスが必要です。
     
-    [**選択...**] をクリックして拇印を選びます。
+     [**選択...**] をクリックして拇印を選びます。
     
-    証明書マネージャーを使用するか、次の PowerShell コマンドを使用して証明書の拇印を見つけることができます。
+     証明書マネージャーを使用するか、次の PowerShell コマンドを使用して証明書の拇印を見つけることができます。
     
-  ```
-  Get-ChildItem -path cert:\LocalMachine\My
-  ```
+   ```
+   Get-ChildItem -path cert:\LocalMachine\My
+   ```
 
-   - **インストール ディレクトリ:**これは、バイナリをインストールするディレクトリです。 既定値から、[**参照...** ] ボタンを使用して変更する場合があります。
+   - **インストール ディレクトリ:** これは、バイナリをインストールするディレクトリです。 既定値から、[**参照...** ] ボタンを使用して変更する場合があります。
     
-   - **AppData ディレクトリ:**これは、ログ フォルダーとその他のデータを格納するディレクトリです。 既定値から変更することがあります。 それは削除されませんをアンインストールします。
+   - **AppData ディレクトリ:** これは、ログ フォルダーとその他のデータを格納するディレクトリです。 既定値から変更することがあります。 それは削除されませんをアンインストールします。
     
 3. [**インストール**] をクリックします。
     
 インストールを検証するには、次の手順を実行します。
   
-1. ブラウザーを開き、下に移動https://localhost:\<サービス ポート\>/healthcheck/
+1. ブラウザーを開き、下に移動https://localhost:\<service-port\>/healthcheck/
     
     既定では、(別のポートを指定済みでない限り) サービス ポートは 8443 です。
     
@@ -129,17 +130,17 @@ StatsManWebSite.msi を実行し、次を指定するホスト ・ マシン上�
     
 2. 次のページで、以下の情報を指定します。
     
-   - **サービス ポート:**Web サイト上でリッスンするポート番号です。 バインドの IIS マネージャーを使用して後で変更できます。 インストール時に、ローカル ファイアウォールによってこのポートが許可されます。
+   - **サービス ポート:** Web サイト上でリッスンするポート番号です。 バインドの IIS マネージャーを使用して後で変更できます。 インストール時に、ローカル ファイアウォールによってこのポートが許可されます。
     
-   - **インストール ディレクトリ:**これは、バイナリのインストール先となるディレクトリです。 既定値から、[**参照...** ] ボタンを使用して変更する場合があります。
+   - **インストール ディレクトリ:** これは、バイナリのインストール先となるディレクトリです。 既定値から、[**参照...** ] ボタンを使用して変更する場合があります。
     
-   - **AppData ディレクトリ:**これは、ログ フォルダーとその他のデータを格納するディレクトリです。 既定値から変更することがあります。 それは削除されませんをアンインストールします。
+   - **AppData ディレクトリ:** これは、ログ フォルダーとその他のデータを格納するディレクトリです。 既定値から変更することがあります。 それは削除されませんをアンインストールします。
     
 3. [**インストール**] をクリックします。
     
 Web サイトを表示するには、ブラウザーを開きに移動: http://localhost、webport\>とします。
   
-状態情報のみを表示、ブラウザーを開きに移動する: http://localhost: \<webport\>/稼働状況チェック ・。
+状態情報のみを表示、ブラウザーを開きに移動する: http://localhost:\<webport\>/healthcheck/。
   
 既定では、Web ポート番号は 8080 です。 IIS マネージャーを使用して Web サイトのポートのバインドを変更できます。
   
@@ -155,15 +156,15 @@ Web インストーラーは StatsManWebSiteUsers というローカル セキ�
     
    - **サービス パスワード:** これはリモート エージェントがリスナー サービスを認証するために使用するパスワードです。
     
-   - **サービスの URI:**これは、リスナーが存在する URI です。 それを使用する必要があります、https://name:portの形式です。
+   - **サービスの URI:** これは、リスナーが存在する URI です。 それを使用する必要があります、https://name:portの形式です。
     
-    NETBIOS 名または FQDN を使用できます。 **件名**またはリスナー サービスに証明書の**サブジェクト代替名**としても指定されている名前を使用することができますが、これは要件ではありません。
+     NETBIOS 名または FQDN を使用できます。 **件名**またはリスナー サービスに証明書の**サブジェクト代替名**としても指定されている名前を使用することができますが、これは要件ではありません。
     
-   - **サービスの拇印:**これは、リスナーを使用して SSL 証明書の拇印です。 (自己署名証明書を使用することが可能なため、証明書の完全な検証は行いません。 )
+   - **サービスの拇印:** これは、リスナーを使用して SSL 証明書の拇印です。 (自己署名証明書を使用することが可能なため、証明書の完全な検証は行いません。 )
     
-   - **インストール ディレクトリ:**これは、バイナリをインストールするディレクトリです。 既定値から、[**参照...** ] ボタンを使用して変更する場合があります。
+   - **インストール ディレクトリ:** これは、バイナリをインストールするディレクトリです。 既定値から、[**参照...** ] ボタンを使用して変更する場合があります。
     
-   - **AppData ディレクトリ:**これは、ログ フォルダーと暗号化された password.txt ファイルを保存するディレクトリです。 ことがあります、ありがとうございます、デフォルトから変更します。 それは削除されませんをアンインストールします。
+   - **AppData ディレクトリ:** これは、ログ フォルダーと暗号化された password.txt ファイルを保存するディレクトリです。 ことがあります、ありがとうございます、デフォルトから変更します。 それは削除されませんをアンインストールします。
     
 3. [**インストール**] をクリックします。
     
@@ -184,9 +185,9 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
     
     a. 次のコマンドを実行します。 
     
-  ```
-  Get-CsPool | Export-Clixml -Path mypoolinfo.xml
-  ```
+   ```
+   Get-CsPool | Export-Clixml -Path mypoolinfo.xml
+   ```
     b. リスナーを実行しているサーバーに"mypoolinfo.xml"ファイルをコピーします。
     
 2. リスナーを実行するホストで、以下の操作を行います。
@@ -195,15 +196,15 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
     
    b. リスナーがインストールされているディレクトリに移動します。 既定値は次のとおりです。 
     
-  ```
-  cd C:\Program Files\Skype for Business Server StatsMan Listener
-  ```
+   ```
+   cd C:\Program Files\Skype for Business Server StatsMan Listener
+   ```
 
 3. どのサーバーが追加および更新されているかを確認するには、次のコマンドを実行します。
     
-  ```
+   ```
     .\Update-StatsManServerInfo.ps1 -CsPoolFile  <path to mypoolinfo.xml>
-  ```
+   ```
 
 次のコマンドで、すべてのオプションを表示することができます。
   
@@ -221,15 +222,15 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
   
 1. リスナーがインストールされているディレクトリに移動します。 既定値は次のとおりです。 
     
-  ```
-  cd C:\Program Files\Skype for Business Server StatsMan Listener
-  ```
+   ```
+   cd C:\Program Files\Skype for Business Server StatsMan Listener
+   ```
 
 2. 次のコマンドを実行します。
     
-  ```
+   ```
     .\Update-StatsManServerInfo.ps1 -HostName <hostname> -SiteName <name of site> -PoolName <poolName> -Roles <role1>[,<role2>,<roleN>]
-  ```
+   ```
 
 ## <a name="troubleshoot-your-deployment"></a>展開のトラブルシューティング
 <a name="BKMK_Troubleshoot"> </a>
@@ -273,9 +274,9 @@ Microsoft は、必ず信頼済みの認証局によって署名された証明�
   
 1. PowerShell コンソールから、管理者としてログ オンしている状態で、次を入力します。
     
-  ```
-  New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
-  ```
+   ```
+   New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
+   ```
 
 2. 型`certlm.msc`。 これにより、ローカル コンピューターの証明書マネージャーが開きます。
     
@@ -300,9 +301,9 @@ Microsoft は、必ず信頼済みの認証局によって署名された証明�
   
 - [ビジネス サーバー 2015 Skype 統計マネージャーの計画します。](plan.md)
     
-- [ビジネス サーバー 2015 の Skype の統計マネージャーのアップグレードします。](upgrade.md)
+- [Skype for Business Server 2015 の Statistics Manager のアップグレード](upgrade.md)
     
-- [ビジネス サーバー 2015 の Skype の統計マネージャーのトラブルシューティングします。](troubleshoot.md)
+- [Skype for Business Server 2015 の Statistics Manager のトラブルシューティング](troubleshoot.md)
     
 - [Skype ビジネス サーバー統計マネージャーのブログ](https://blogs.technet.microsoft.com/skypestatsman/)
     

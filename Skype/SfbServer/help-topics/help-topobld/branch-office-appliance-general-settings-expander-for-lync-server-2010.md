@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
 description: ブランチ アプライアンスのリカバリ性に優れた、または [全般] で、存続可能ブランチ サーバーのプロパティを編集するのには次の操作を構成します。
-ms.openlocfilehash: 9e698854e78837e213ac080ab02098f72e72fec5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c61260fda0c6a49e90ecce02674df721001af4f7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374604"
 ---
 # <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 用のブランチ オフィス アプライアンス全般設定エキスパンダー
  
@@ -44,10 +45,10 @@ ms.lasthandoff: 03/28/2018
     
     **(メディア コンポーネント) に関連付けるエッジ プール**エッジ サーバーまたはエッジ プールをリカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーに関連付けるには、リストから選択します。
     
- [**OK**]: ダイアログでの変更を受け入れて確定します。
+  [**OK**]: ダイアログでの変更を受け入れて確定します。
   
- [**キャンセル**]: 変更を破棄してダイアログを閉じます。
+  [**キャンセル**]: 変更を破棄してダイアログを閉じます。
   
- [**ヘルプ**]: このヘルプ画面を表示します。
+  [**ヘルプ**]: このヘルプ画面を表示します。
   
 

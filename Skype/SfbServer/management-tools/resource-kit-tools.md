@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: このトピックでは、各ツール、およびその使用方法の例の目的を含む、ビジネス サーバー 2015 リソース キットの Skype では、ツールについて説明します。 ビジネス 2015 リソース キットの Skype は、展開およびビジネス サーバー 2015 の Skype を管理する IT 管理者の日常的なタスクを容易に役立ちます。 たとえば、Web Conf Data ツールを使用すると、オンライン会議中にユーザーによってアップロードされたデータを簡単に制御できます。 SEFAUtil ツールを使用すると、ユーザーの問い合わせに対して自動転送や自動応答を設定できます。 IT 管理者は、ビジネス サーバー 2015 の Skype をより効果的に管理するためにこれらのツールを使用することをお勧めします。
-ms.openlocfilehash: e259e4252274621ac3593cfb379ddc89ee37544c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 3f36edc42541dfcc9b652eb16d5062277277cbc0
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23257809"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372781"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype for Business Server 2015 リソース キット ツールのドキュメント
 
@@ -305,11 +305,11 @@ WanLinkLogCollector.exe を使用するには、次の 3 つの手順を実行�
 
 1. **Name** WAN リンクでフィルター処理 (グラフの右側のフィルター)。プレフィックス (縦長の青いボックスを参照) は、次のようなリンクの種類を示します。
 
-  - **S: Site** ネットワーク サイトからネットワーク地域への WAN リンク
+   - **S: Site** ネットワーク サイトからネットワーク地域への WAN リンク
 
-  - **IS Inter-Site** 2 つのネットワーク サイト間の WAN リンク
+   - **IS Inter-Site** 2 つのネットワーク サイト間の WAN リンク
 
-  - **R Inter-Region** 2 つのネットワーク地域間の WAN リンク
+   - **R Inter-Region** 2 つのネットワーク地域間の WAN リンク
 
 2. **Exceeded limit** 帯域幅の使用率が帯域幅容量を超過している WAN リンクでフィルター処理
 
@@ -319,11 +319,11 @@ WanLinkLogCollector.exe を使用するには、次の 3 つの手順を実行�
 
 5. **Link type** 次に示す WAN リンクの種類でフィルター処理します。
 
-  - **Network site** タイプ
+   - **Network site** タイプ
 
-  - **Inter-site** タイプ
+   - **Inter-site** タイプ
 
-  - **Inter-Region link** タイプ
+   - **Inter-Region link** タイプ
 
 6. **Region** ネットワーク地域でフィルター処理
 
@@ -794,15 +794,15 @@ MSTurnPing ツールにより、管理者は帯域幅のポリシーを実行し
 
 1. 音声ビデオ エッジ サーバー テスト: トポロジ内の音声ビデオ エッジ サーバーに対して次のテストを実行します。
 
-  - ビジネス サーバー オーディオ/ビデオの認証サービスの Skype を起動し、適切な資格情報を発行することを確認しています。
+   - ビジネス サーバー オーディオ/ビデオの認証サービスの Skype を起動し、適切な資格情報を発行することを確認しています。
 
-  - ビジネス サーバー オーディオ/ビデオ エッジ サービスの Skype を起動し、正常に外部の境界上のリソースを割り当てることができますを確認します。
+   - ビジネス サーバー オーディオ/ビデオ エッジ サービスの Skype を起動し、正常に外部の境界上のリソースを割り当てることができますを確認します。
 
 2. 帯域幅ポリシー サービス テスト: トポロジ内の帯域幅ポリシー サービスを実行しているすべてのサーバーに対して次のテストを実行します。
 
-  - ビジネス サーバー帯域幅ポリシー サービス (認証) の Skype を起動し、適切な資格情報を発行することを確認しています。
+   - ビジネス サーバー帯域幅ポリシー サービス (認証) の Skype を起動し、適切な資格情報を発行することを確認しています。
 
-  - ビジネス サーバー帯域幅ポリシー サービス (コア) の Skype が起動され、帯域幅のチェックを正常に実行できることを確認します。
+   - ビジネス サーバー帯域幅ポリシー サービス (コア) の Skype が起動され、帯域幅のチェックを正常に実行できることを確認します。
 
 このツールは、トポロジの一部でありローカル ストアがインストールされているコンピューターから実行する必要があります。
 
@@ -889,7 +889,7 @@ Network Configuration Viewer (NetworkConfigurationViewer.exe) を使用すると
 
 ![ネットワーク構成の画像としての保存](../media/Reskit_2012_Tools_Documentation_Image26.jpg)
 
- **ビュー CAC ネットワーク トポロジの構成データ:** Skype ビジネス サーバー 2015 管理者はようには、ネットワーク構成の表示データのオプションを使用してテキスト形式でネットワーク地域、ネットワーク サイト、帯域幅プロファイル、およびサイトのサブネットの IP アドレスなどの関連するネットワーク構成データを表示することができます。以下に。
+ <strong>ビュー CAC ネットワーク トポロジの構成データ:</strong>Skype ビジネス サーバー 2015 管理者はようには、ネットワーク構成の表示データのオプションを使用してテキスト形式でネットワーク地域、ネットワーク サイト、帯域幅プロファイル、およびサイトのサブネットの IP アドレスなどの関連するネットワーク構成データを表示することができます。以下に。
 
 ![ネットワーク構成データの表示](../media/Reskit_2012_Tools_Documentation_Image27.jpg)
 
@@ -1044,35 +1044,35 @@ SEFAUtil ツールは信頼されたアプリケーション プールに属し�
 
 1. SEFAUTil ツールは信頼されたアプリケーション プールに属しているコンピューターでのみ実行できます。 必要な場合、新しい信頼されたアプリケーション プールとプールを追加する実行できます、Skype 経由でビジネス サーバー管理シェルの次のコマンドレットで。
 
-  ```
-  New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
-  ```
+   ```
+   New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
+   ```
 
     > [!NOTE]
     > SEFAUtil ツールを実行するコンピューターには UCMA 3.0 をインストールする必要があります。
 
 2. 信頼されたアプリケーションを SEFAUtil ツールのトポロジ内に定義する必要があります。 SEFAUtil は、新しい信頼されたアプリケーションとして定義するにビジネス サーバー管理シェルには、Skype を使用し、次のコマンドレットを実行します。
 
-  ```
-  New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
-  ```
+   ```
+   New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
+   ```
 
     > [!NOTE]
     > 必要に応じて、別のポートを使用できます。
 
 3. トポロジの変更を有効にする必要があります。 トポロジの変更を有効にすることができるよう、Skype を使用してビジネス サーバー管理シェルの次のコマンドレットを実行します。
 
-  ```
-  Enable-CsToplogy
-  ```
+   ```
+   Enable-CsToplogy
+   ```
 
 4. 必要な場合、Skype ビジネス サーバー 2015 リソース キット ツールのサーバーにインストールする (サーバーが信頼されたアプリケーション プールの一部である必要があります) SEFAUtil ツールを実行するために使用します。
 
 5. SEFAUtil が正しく実行していることを確認します。 そのためには、Windows コマンド プロンプトから管理者権限でツールを実行し、展開内のユーザーの着信転送設定を表示します。 既定では、ツールが配置されます:「ビジネス サーバー 2015\Reskit の ...\Program Files\Skype」です。 ユーザーの着信転送設定を表示するには、次のコマンドを実行します。
 
-  ```
-  SEFAUtil.exe <user SIP address> /server:<Skype for Business Server/Pool FQDN>
-  ```
+   ```
+   SEFAUtil.exe <user SIP address> /server:<Skype for Business Server/Pool FQDN>
+   ```
 
     ユーザーの着信転送設定が表示されます。
 
@@ -1414,21 +1414,22 @@ SYSPrep.ps1 は、Windows Server 2008 オペレーティング システムの�
 
 - Skype ビジネス サーバー 2015 のコア ファイルの
 
- このスクリプトは Microsoft Windows オペレーティング システム用のシステム準備ツールと名前は似ていますが、別のツールです。 このスクリプトのみサーバー 2015 のビジネスの Skype の必須コンポーネントがインストールされます。 これらの必須コンポーネントをインストールしたら、Windows SYSPrep ツールを使用して、サーバーのイメージを作成できます。
+  このスクリプトは Microsoft Windows オペレーティング システム用のシステム準備ツールと名前は似ていますが、別のツールです。 このスクリプトのみサーバー 2015 のビジネスの Skype の必須コンポーネントがインストールされます。 これらの必須コンポーネントをインストールしたら、Windows SYSPrep ツールを使用して、サーバーのイメージを作成できます。
 
 ### <a name="requirements"></a>要件
 
 SYSPrep.ps1 スクリプトを実行する前に、Windows Server 2008 オペレーティング システムのコンピューター上のローカル フォルダーに必須コンポーネントのファイルをコピーする必要があります (たとえば**D:\Setup)**。 このフォルダーが具体的にビジネス サーバー 2015 ファイルでは、Skype のコピーを含めるも必要があります**Setup.exe** 。 必須コンポーネントのファイルは、次の場所からダウンロードできます。
 
-|**必須コンポーネント**|**場所**|
-|:-----|:-----|
-|Microsoft .Net Framework 4.5  <br/> |https://go.microsoft.com/?linkid=9816306  <br/> |
-|Microsoft SQL Server Express 2008 R2  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=23650  <br/> |
-|Windows Powershell バージョン 3.0  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=34595  <br/> |
-|Visual C++ 2010 再頒布可能パッケージ  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=5555  <br/> |
-|Internet Information Server の更新プログラム  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=34869  <br/> |
-|Windows Identity Foundation  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=17331  <br/> |
-|ビジネス サーバー 2015 の Setup.exe の Skype  <br/> |Skype ビジネス サーバー 2015 のメディアをコピーします。  <br/> |
+
+| **必須コンポーネント**                                | **場所**                                                            |
+|:------------------------------------------------|:------------------------------------------------------------------------|
+| Microsoft .Net Framework 4.5  <br/>             | <https://go.microsoft.com/?linkid=9816306>  <br/>                       |
+| Microsoft SQL Server Express 2008 R2  <br/>     | <https://www.microsoft.com/en-us/download/details.aspx?id=23650>  <br/> |
+| Windows Powershell バージョン 3.0  <br/>           | <https://www.microsoft.com/en-us/download/details.aspx?id=34595>  <br/> |
+| Visual C++ 2010 再頒布可能パッケージ  <br/>          | <https://www.microsoft.com/en-us/download/details.aspx?id=5555>  <br/>  |
+| Internet Information Server の更新プログラム  <br/>      | <https://www.microsoft.com/en-us/download/details.aspx?id=34869>  <br/> |
+| Windows Identity Foundation  <br/>              | <https://www.microsoft.com/en-us/download/details.aspx?id=17331>  <br/> |
+| ビジネス サーバー 2015 の Setup.exe の Skype  <br/> | Skype ビジネス サーバー 2015 のメディアをコピーします。  <br/>                   |
 
 ### <a name="parameter"></a>パラメーター
 
@@ -1502,7 +1503,6 @@ Move-CsAnnouncementConfiguration スクリプトでは、下の表に示す 2 �
 
 ```
 Move-CsAnnouncementConfiguration.ps1 -Source LS2013Pool.contoso.com -Destination SfBS2015Pool.contoso.com
-
 ```
 
 #### <a name="moving-the-unassigned-number-announcements-configuration-from-a-skype-for-business-server-2015-pool-to-a-lync-server-2013-pool"></a>Lync Server 2013 プールに割り当てられていない番号お知らせの構成を Skype からビジネス 2015 のサーバー プールの移動

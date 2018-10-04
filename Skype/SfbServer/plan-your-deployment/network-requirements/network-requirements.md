@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: '概要: は、Skype をビジネスのサーバーを実装する前に以下のコンポーネントのネットワークの考慮事項を確認します。'
-ms.openlocfilehash: 3b052977d605c923a333097ad073ad59d7d6a586
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ad0e3b48a320997ddce0559e388d5cfdcab861d1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886362"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375083"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
@@ -77,6 +77,7 @@ Network performance and needs are directly linked to the traffic load placed on 
 次の表に、推奨される IPsec 例外設定を示します。
 
 **推奨される IPSec 例外設定**
+
 |ルール名 |発信元 IP アドレス |送信先 IP アドレス |プロトコル |送信元ポート |宛先ポート |認証要件 |
 |:--- |:--- |:--- |:--- |:---|:---|:--- |
 |内部音声ビデオ エッジ サーバー/受信|任意  |内部音声ビデオ エッジ サーバー|UDP および TCP|任意 |任意 |認証しない|

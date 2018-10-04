@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: '概要: 2016 の Exchange Server や Exchange Server 2013 ビジネス サーバーの Skype を統合する方法の詳細については、このトピックを確認します。'
-ms.openlocfilehash: 0fc7975e35d84cf6fda75addacee9ffbb8f25b52
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e46775a7a57702cd71293f2343aa2bf089491393
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21013238"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374218"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Skype for Business と Exchange の統合の計画
  
@@ -71,10 +71,10 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 
 > [!NOTE]
 > 上記のコマンドの Id パラメーターは省略可能です。Skype ビジネス サーバーだけでは、OAuth 構成設定のグローバル コレクションが 1 つにするためです。 特に、つまり、このわずかに簡単なコマンドを使用して自動検出 URL を構成することができます。 
-  
+> 
 > [!NOTE]
-> セット-CsOAuthConfiguration-ExchangeAutodiscoverUrl"https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc" 
-  
+> セット-CsOAuthConfiguration-ExchangeAutodiscoverUrl"<https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc>" 
+> 
 > [!NOTE]
 > OAuth というテクノロジは、多くの大手 Web サイトで使用されている標準的な認証プロトコルです。OAuth では、ユーザーの資格情報とパスワードがコンピューター間で渡されることはありません。その代わりに、セキュリティ トークンの交換に基づいて認証と承認が行われます。これらのトークンによって、特定のリソースのセットに対する特定の時間のアクセスが許可されます。 
   

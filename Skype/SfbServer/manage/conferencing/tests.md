@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: '概要: は、Skype のビジネス サーバーのダイヤルイン会議をテストする方法を説明します。'
-ms.openlocfilehash: 258c860a0a808b40384a766bc5151e671789a03c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e86e2c136edd8520f12944768e327e0870106f6e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966413"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372840"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Skype のビジネス サーバーのダイヤルイン会議をテストします。
  
@@ -30,9 +30,9 @@ ms.locfileid: "20966413"
     
 3. コマンド プロンプトで次のコマンドを実行します。
     
-  ```
-  Get-CsDialinConferencingAccessNumber -EmptyRegion
-  ```
+   ```
+   Get-CsDialinConferencingAccessNumber -EmptyRegion
+   ```
 
     このコマンドレットは、どのアクセス番号も使用していないダイヤルイン会議の地域がある、すべてのダイヤル プランを返します。
     
@@ -46,9 +46,9 @@ ms.locfileid: "20966413"
     
 3. コマンド プロンプトで次のコマンドを実行します。
     
-  ```
-  Get-CsDialinConferencingAccessNumber -Region NULL
-  ```
+   ```
+   Get-CsDialinConferencingAccessNumber -Region NULL
+   ```
 
     このコマンドレットは、地域に関連付けられていないダイヤルイン会議アクセス番号をすべて返します。
     
@@ -70,12 +70,12 @@ ms.locfileid: "20966413"
     
 3. コマンド プロンプトで次のコマンドを実行します。
     
-  ```
-  $credentials = Get-Credential
+   ```
+   $credentials = Get-Credential
    User name:  testuser1@contoso.com
    Password:  ********
-Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
-  ```
+   Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
+   ```
 
     結果レポートに、コマンドの成否と特定の診断情報が表示されます。 -フラグの詳細についてはどのように多くのアクセス番号が見つかりませんでしたし、それらについての詳細の詳細を提供します。
     

@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 description: 構成するか、これらのプロパティを定義することによって、永続的なチャット サーバーまたはプールの永続的なチャット サーバーの全般的な設定を編集します。
-ms.openlocfilehash: 7e9f71cc1c26c30d60674e229627fd75964648ec
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 912cacaa050962b85d8e3f70bec78f01306909d6
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19505049"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374960"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>常設チャット全般設定エキスパンダー
  
@@ -105,11 +105,11 @@ ms.locfileid: "19505049"
     
 - **ファイルの保存**リストからファイルの保存場所を選択するか、新しいファイル ストアを作成する**新規**をクリックします。
     
- [**OK**]: ダイアログでの変更を受け入れて確定します。
+  [**OK**]: ダイアログでの変更を受け入れて確定します。
   
- [**キャンセル**]: 変更を破棄してダイアログを閉じます。
+  [**キャンセル**]: 変更を破棄してダイアログを閉じます。
   
- [**ヘルプ**]: このヘルプ画面を表示します。
+  [**ヘルプ**]: このヘルプ画面を表示します。
   
 ## <a name="see-also"></a>関連項目
 

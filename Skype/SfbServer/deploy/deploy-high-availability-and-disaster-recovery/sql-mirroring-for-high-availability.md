@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: SQL ミラーリングを展開できるようにするには、サーバーで最小限の SQL Server 2008 R2 を実行する必要があります。 このバージョンは、すべての関連サーバー (プライマリ、ミラー、およびミラーリング監視の各サーバー) で実行する必要があります。 詳細については、更新プログラム パッケージ 9 を SQL Server 2008 Service Pack 1 の累積を参照してください。
-ms.openlocfilehash: 37444cb9825c473657722a0b4e61745385730d7e
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 9ea6e8a48fbcc3f5938c33e9d06db3c882f28de2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23254607"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373801"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype のバック エンド サーバーの高可用性の SQL のミラーリングを導入します。
 
@@ -138,8 +138,8 @@ SQL ミラーリングの設定時には次の点に留意する必要があり�
 
     以下のように表示されます。
 
- <pre>
-  Database Name:rtcxds
+   <pre>
+   Database Name:rtcxds
         Data File:D:\CsData\BackendStore\rtc\DbPath\rtcxds.mdf
          Log File:D:\CsData\BackendStore\rtc\LogPath\rtcxds.ldf
       Primary SQL: e04-ocs.los_a.lsipt.local\rtc
@@ -211,8 +211,8 @@ SQL ミラーリングの設定時には次の点に留意する必要があり�
           Account: LOS_A\K16-ocs$
      Witness SQL : AB14-lct.los_a.lsipt.local\rtc
           Account: LOS_A\AB14-lct$
-[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"):
-</pre>
+   [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"):
+   </pre>
 
 2. 次のことを確認します。
 

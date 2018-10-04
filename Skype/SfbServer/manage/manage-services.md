@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: この資料では、ビジネスのサーバー トポロジの場合、Skype で実行されているサービスを管理する方法について説明します。
-ms.openlocfilehash: 0bf12ed7719be7804b2cb4d69e29a7d0a058e142
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7f95023416bd1b851bc5a3d3ce6185e3362ec098
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20977004"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372447"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>Skype のサービスをビジネスのサーバーを管理します。
 
@@ -103,9 +103,9 @@ Skype ビジネス サーバーのコントロール パネルを使用するに
 
 1. RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ)、ユーザー アカウントのロールに割り当てられた、CsServerAdministrator または CsAdministrator、ビジネス サーバーの Skype を導入してネットワーク内の任意のコンピューターにログオンまたは. かどうかが割り当てられている、CsServerAdministrator または CsAdministrator の RBAC の役割には、次のようなコマンドを実行することによって判断できます。
     
-  ```
-  Get-CsAdminRoleAssignment -Identity "kenmyer"
-  ```
+   ```
+   Get-CsAdminRoleAssignment -Identity "kenmyer"
+   ```
 
 2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。 
 3. 左側のナビゲーション ・ バーで [**トポロジ**] をクリックし、**状態**] をクリックします。

@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: この資料では、Skype ルーム システム v2 のコンソールとその周辺機器を設定する方法について説明します。
-ms.openlocfilehash: 57ee754d99c9c0fcec62347146c79e9da5995fe1
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: bb23f0dad26f37554657a101dc68dc7d776080b2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965707"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371062"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Skype Room Systems バージョン 2 コンソールを構成する
  
@@ -145,7 +145,7 @@ Windows をインストールすると、Skype ルーム システム v2 のコ�
     
    - 既定のスピーカー: HDMI インジェストからのオーディオ用に使用されるスピーカー。
     
-    それぞれの項目に、選択できるドロップダウン メニューのオプションがあります。各デバイスについて選択を行う必要があります。
+     それぞれの項目に、選択できるドロップダウン メニューのオプションがあります。各デバイスについて選択を行う必要があります。
     
 6. **[完了]** をクリックします。
     
@@ -174,9 +174,9 @@ Skype ルーム システム v2 のコンソールでは、ビジネスおよび
     
 3. 次のコマンドを実行します。
     
-  ```
-  certutil -addstore -f -enterprise root "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer"
-  ```
+   ```
+   certutil -addstore -f -enterprise root "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer"
+   ```
 
 ### <a name="join-an-active-directory-domain-optional"></a>(省略可能) Active Directory のドメインに参加します。
 <a name="Certs"> </a>
@@ -191,9 +191,9 @@ Skype ルーム システム v2 のコンソールは、ドメインに参加で
     
 3. Powershell に次のコマンドを入力します。
     
-  ```
-  Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
-  ```
+   ```
+   Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
+   ```
 
 たとえば、完全修飾ドメイン redmond.corp.microsoft.com は、「Skype ルーム システム v2」で、Skype ルーム システム v2 のコンソールが必要な場合は、リソース OU の子 OU の場合は、コマンドになります。
   

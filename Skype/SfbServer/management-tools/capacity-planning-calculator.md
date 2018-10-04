@@ -9,12 +9,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
-description: '容量の電卓ツールを使用する概要: 方法です。'
-ms.openlocfilehash: 5d94dab15b104703efc76b227e6e9dd1286f9955
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: 容量計算機の使用方法'
+ms.openlocfilehash: 6ce37865035b22a91841e98c1f3a75d6da0cb8d2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374911"
 ---
 # <a name="skype-for-business-server-2015-capacity-planning-calculator"></a>Skype for Business Server 2015 の容量計画の計算機
  
@@ -40,7 +41,7 @@ ms.lasthandoff: 03/28/2018
     
 - [**連絡先リストの平均連絡先数**] は、システム要件の検証に使用している連絡先の数を示します。この数は固定で、変更できません。
     
- **エンタープライズ VoIP**
+  **エンタープライズ VoIP**
   
 - [**Users enabled for Enterprise Voice (エンタープライズ VoIP が有効なユーザー)**] に、エンタープライズ VoIP が有効なユーザーの割合を入力します。既定値は 60% です。 
     
@@ -52,7 +53,7 @@ ms.lasthandoff: 03/28/2018
     
 - [**Percentage of voice users involved in UC-UC calls (UC-PSTN 通話に含まれる音声ユーザーの割合)**] は、UC-UC 通話のみが有効な、エンタープライズ VoIP 対応ユーザーの割合を示しています。この数値は、[**Percentage of voice users enabled for UC-PSTN calls (UC-PSTN 通話が有効な音声ユーザーの割合)**] の入力値に基づいて計算されます。 
     
- **会議**
+  **会議**
   
 - [**Percentage of users in concurrent conferences (同時会議のユーザーの割合)**] に、会議に同時参加するユーザーの割合を入力します。既定値は 5% です。 
     
@@ -70,7 +71,7 @@ ms.lasthandoff: 03/28/2018
     
   - 20% の音声会議にデータのアップロード (PowerPoint のプレゼンテーションなど) が含まれる場合は、[**Including web conferencing (Web 会議を含む)**] チェック ボックスをオンにします。
     
- **モビリティ**
+  **モビリティ**
   
 - **移動が有効なユーザーの割合**Skype のモバイル デバイスを使用してビジネスのサーバーに接続するときに使用するユーザーの割合を入力します。 既定値は 40% です。 
     

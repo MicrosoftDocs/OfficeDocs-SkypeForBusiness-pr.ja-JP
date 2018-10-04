@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: ユーザーの問題を報告し、経験についてマイクロソフトに直接フィードバックを提供できるようにするビジネス アプリケーションからのフィードバックのツールの組み込みの Skype を使用するビジネス ユーザー向けに、Skype を有効にできます。
-ms.openlocfilehash: 6d8f5c7e7c333e447b4238e47dab1fc7ad394816
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: f681a3745f44745083abc4b1750870aa7d3c4efe
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850101"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370794"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Skype for Business クライアントのフィードバック レポートをオンまたはオフにする
 
@@ -57,20 +57,20 @@ ms.locfileid: "23850101"
     
 - **Windows PowerShell セッションを開始する**
     
-1. [**スタート メニュー**]  >  [**Windows PowerShell**] を開きます。
+1. [**スタート メニュー**]  >  [**Windows PowerShell**] から開きます。
     
 2. [ **Windows PowerShell**] ウィンドウで、次を実行して、Office 365 の組織に接続します。
     
     > [!NOTE]
     > Skype for Business Online Windows PowerShell モジュールを初めて使用するときに、 **Import-Module** コマンドを実行するだけです。
  
-  ```
+   ```
     Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
-  ```
-Windows PowerShell の起動の詳細については、「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)」または「[Windows PowerShell を使用した Lync Online への接続](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)」を参照してください。
+   ```
+   Windows PowerShell の起動の詳細については、「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)」または「[Windows PowerShell を使用した Lync Online への接続](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)」を参照してください。
     
 ## <a name="turn-on-client-app-feedback-reporting-for-all-the-users-in-your-organization"></a>組織のすべてのユーザーに対してクライアント アプリのフィードバック レポートをオンにする
 

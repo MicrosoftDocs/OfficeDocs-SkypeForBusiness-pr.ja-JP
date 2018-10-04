@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: '概要: は、PowerPoint のプレゼンテーションを web 会議を有効にするには、Office Web アプリケーション サーバーと Skype ビジネス サーバーの間の統合を構成する方法については、このトピックを読みます。'
-ms.openlocfilehash: 558ba648cab4dfd2667251ea96bc83d313746f10
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6c7c19f7634c7b0266364d372b573d3d060d5a97
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997315"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375245"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>ビジネス サーバー用の Skype では、Office Web アプリケーション サーバーとの統合を構成します。
  
@@ -33,7 +33,7 @@ Office Web アプリケーション サーバーが正常にインストール�
 
 トポロジに Office Web Apps サーバーを追加するには、次の手順を行います。
   
-1.  Skype をビジネス サーバー トポロジ ビルダーを開きます。
+1. Skype をビジネス サーバー トポロジ ビルダーを開きます。
     
 2. [**トポロジ ビルダー**] ダイアログ ボックスで、[**既存の展開からトポロジをダウンロードする**] を選択して [**OK**] をクリックします。
     
@@ -45,9 +45,9 @@ Office Web アプリケーション サーバーが正常にインストール�
     
 6. [**新しい Office Web Apps サーバーの定義**] ダイアログ ボックスで、Office Web Apps サーバー コンピューターの完全修飾ドメイン名 (FQDN) を [**Office Web Apps サーバーの FQDN**] ボックスに入力します。これを行うと、Office Web Apps サーバー検出の URL が [**Office Web Apps サーバー検出の URL**] ボックスに自動的に入力されます。
     
-  - Office Web アプリケーション サーバーがインストールされている設置型の場合と、ネットワークと同じゾーンのビジネス サーバー オプションでは、Skype で**Office Web アプリケーション サーバーが外部ネットワーク (つまり、境界領域またはインターネット) に配置**する必要がありますオフにします。
+   - Office Web アプリケーション サーバーがインストールされている設置型の場合と、ネットワークと同じゾーンのビジネス サーバー オプションでは、Skype で**Office Web アプリケーション サーバーが外部ネットワーク (つまり、境界領域またはインターネット) に配置**する必要がありますオフにします。
     
-  - Office Web Apps サーバーを内部ファイアウォールの外側に展開する場合は、[**Office Web Apps サーバーは外部ネットワークで展開 (境界ネットワークまたはインターネット)**] オプションをオンにします。
+   - Office Web Apps サーバーを内部ファイアウォールの外側に展開する場合は、[**Office Web Apps サーバーは外部ネットワークで展開 (境界ネットワークまたはインターネット)**] オプションをオンにします。
     
 7. [**新しい Office Web Apps サーバーの定義**] ダイアログ ボックスで、[**OK**] をクリックし、[**プロパティの編集**] ダイアログ ボックスで [**OK**] をクリックします。Office Online の検出 URL がプールの関連付けの 1 つとして表示されます。
     
@@ -85,7 +85,7 @@ Office Web アプリケーション サーバー、トポロジに追加した�
   
  **Office Web アプリケーション サーバーの外部発表のページ: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp; を埋め込む**
   
- **Office Web アプリケーション サーバー内部の出席者のページ: https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp; 埋め込む = true&amp;**
+ **Office Web アプリケーション サーバー内部の出席者のページ:<https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;embed=true&amp>です。**
   
 表示する場合は、Office Web アプリケーション サーバーの検出のことを意味する 41033 のイベント ID を持つデータ MCU の LS イベントに失敗しました。 Skype ビジネス サーバーの場合は、新たに構成されている Office の Web アプリケーション サーバーを検出するために必要な回数だけ再試行されます。 検出プロセスが繰り返し失敗した場合、トポロジ ドキュメントから Office Web アプリケーション サーバーを削除、更新されたトポロジを公開する、接続の問題が解決された後に、トポロジに Office Web アプリケーション サーバーを追加してくださいしてください。
   

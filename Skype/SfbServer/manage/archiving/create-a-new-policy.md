@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
 description: '概要: は、Skype のビジネス サーバーの新しいアーカイブ ・ ポリシーを作成する方法を説明します。'
-ms.openlocfilehash: e900bd9ac73a6e192eba7a506d713a56a69e794d
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 70c955d78e6c7b259732d50c47c53e8b3bedf97c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20970359"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374410"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Skype のビジネス サーバーの新しいアーカイブ ・ ポリシーを作成します。
 
@@ -46,7 +46,7 @@ ms.locfileid: "20970359"
     
    - 内部ユーザーとの通信のアーカイブを制御するには、[**内部通信をアーカイブする**] チェック ボックスをオンまたはオフにします。
     
-  - 外部ユーザーとの通信のアーカイブを制御するには、[**外部通信をアーカイブする**] チェック ボックスをオンまたはオフにします。
+   - 外部ユーザーとの通信のアーカイブを制御するには、[**外部通信をアーカイブする**] チェック ボックスをオンまたはオフにします。
     
 6. [**確定**] をクリックします。
     

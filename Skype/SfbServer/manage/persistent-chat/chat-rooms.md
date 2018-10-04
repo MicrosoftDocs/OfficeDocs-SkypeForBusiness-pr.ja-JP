@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: '概要: ビジネス サーバー 2015 の Skype で永続的なチャット サーバーのチャット ルームを管理する方法を説明します。'
-ms.openlocfilehash: 25d13b8b44e16d476191fdae337eb72d73e77dbc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1c197be847d2a1359a3e6203df718cc34f1d9e41
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973776"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372150"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバーのチャット ルームの管理
  
@@ -76,7 +76,7 @@ ms.locfileid: "20973776"
     
 - Presenters。大会議室チャット ルームに発表者を割り当てることができます。 
     
- など、他のすべてのパラメーターの構文の詳細については、 [Skype ビジネス サーバー 2015 管理シェルに](../management-shell.md)を参照してください。
+  など、他のすべてのパラメーターの構文の詳細については、 [Skype ビジネス サーバー 2015 管理シェルに](../management-shell.md)を参照してください。
   
 ## <a name="create-a-new-room"></a>新しいルームを作成する
 

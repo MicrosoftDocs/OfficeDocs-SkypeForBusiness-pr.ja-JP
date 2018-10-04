@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 ROBOTS: NOINDEX, NOFOLLOW
 description: 未使用の番号とは、組織にとって有効であるが、ユーザーや電話に割り当てられていない電話番号です。未使用の番号の表は、それらの番号に対して発信があった場合の対処方法を示します。
-ms.openlocfilehash: 6df9574bb6d999e4800c727f6cbabe0aa68818e9
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: f4428a0f3ec5e1da5267c23f9064815206262893
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244196"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373844"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>割り当てられていない電話番号: 新規作成または既存の編集
 
@@ -51,7 +51,7 @@ ms.locfileid: "23244196"
 
   - **お知らせ**この割り当てられていない番号の範囲を再生するアナウンスを選択します。
 
--  **Exchange UM** **サービスのお知らせ**を選択した場合。
+- **Exchange UM** **サービスのお知らせ**を選択した場合。
 
   - **自動応答の電話番号**Exchange UM 自動応答の電話番号を選択します。
 

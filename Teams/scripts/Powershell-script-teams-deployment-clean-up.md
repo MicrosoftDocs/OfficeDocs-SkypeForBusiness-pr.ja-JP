@@ -10,17 +10,17 @@ ms.collection: Teams_ITAdmin_Help
 description: この PowerShell スクリプトを使用して、対象のマシン上の、または特定のユーザーの Microsoft Teams をクリーン アップします。
 localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
-ms.openlocfilehash: 7a0d12fb59b8f5f513ed4f0c64502d6c9ff369e2
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: edda16fe78c941121f5f974cc3921c710e7c5911
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25011898"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372533"
 ---
 <a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a>PowerShell スクリプトのサンプル - Microsoft Teams の展開のクリーン アップ
 -------------------------------------------------------------------------
 
-この PowerShell スクリプトは、ターゲット コンピューターまたはユーザーからマイクロソフトのチームのクリーンアップを活用できます。 対象となるコンピューター上のすべてのユーザーのアクティビティが実行する必要があります。 
+この PowerShell スクリプトは、対象のマシンまたはユーザーから Microsoft Teams をクリーンアップするために利用することができます。 これは、対象のマシン上のユーザーそれぞれについて、実行する必要があります。 
 
 
 ## <a name="sample-script"></a>サンプル スクリプト
@@ -55,7 +55,6 @@ catch
     Write-Error -ErrorRecord $_
     exit /b 1
 }
-
 ````
 
 

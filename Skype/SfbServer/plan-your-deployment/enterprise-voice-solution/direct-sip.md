@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: ビジネス サーバー両方 PSTN ゲートウェイの Skype とエンタープライズ VoIP では、IP-PBX との間は、直接 SIP 接続がサポートされています。
-ms.openlocfilehash: a8af9b5a2809e175d861d3781c91ff1610c32db7
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 041009c5299f441e1b0e1a05c2af1e855f13f2b8
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889684"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374582"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>ビジネス サーバーの Skype で直接 SIP 接続
 
@@ -117,7 +117,7 @@ ms.locfileid: "23889684"
 
 - ゲートウェイはずの場所にあるでしょうか。 答えは、トポロジおよび組織の地理的分布の一部一部に依存します。
 
- 検討してください、ゲートウェイ トポロジのオプション (詳細についてを参照してくださいゲートウェイ トポロジこのトピックで後述)。
+  検討してください、ゲートウェイ トポロジのオプション (詳細についてを参照してくださいゲートウェイ トポロジこのトピックで後述)。
 
 #### <a name="mn-trunk-support"></a>M:N トランクのサポート
 

@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: に移行した後 Microsoft Skype ビジネス サーバー 2019 の System Center Operations Manager を使用するサーバー 2019 のビジネス用の Skype を構成するのには、いくつかのタスクを完了する必要があります。
-ms.openlocfilehash: c0d15d14e158c33cda5e623ea978a0bc4f0bb920
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c54038bc89c62a9911e684e451a66f4f12a23124
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028937"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373743"
 ---
 # <a name="configure-scom-monitoring"></a>SCOM で監視を構成します。
 
@@ -39,13 +39,13 @@ ms.locfileid: "25028937"
     
 2. コマンドラインで、次のように入力します。
     
-  ```
-  New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
-  ```
+   ```
+   New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
+   ```
 
-  ```
-  New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
-  ```
+   ```
+   New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
+   ```
 
     > [!NOTE]
     > レジストリを編集するたびに、レジストリ キーが既に存在する場合、コマンドが失敗しましたというエラーが発生するように。 この状況が発生する場合は、エラーを無視してかまいません。 

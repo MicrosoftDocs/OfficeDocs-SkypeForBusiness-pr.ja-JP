@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07cea763c3287106f2a6c98472dea0ef43ea7e28
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 271faa8ffc4a4e6c3977382cf5a1153513bd1ba5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013796"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374211"
 ---
 # <a name="document-my-success-plan"></a>成功計画を文書化します。
 
@@ -46,10 +46,10 @@ ms.locfileid: "25013796"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>意思決定ポイント</td><td><ul><li>組織に適用されるチームの展開の実行モデルを決定します。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>選択したら、チームの配置の実行モデルを文書化し、ビジネスおよび技術的な根拠が含まれます。</li></ul></td></tr></table>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>組織に適用されるチームの展開の実行モデルを決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>選択したら、チームの配置の実行モデルを文書化し、ビジネスおよび技術的な根拠が含まれます。</li></ul></td></tr></table>
 
-##<a name="raci-modeling"></a>RACI のモデリング
+## <a name="raci-modeling"></a>RACI のモデリング
 
 ところわかりやすくするため、プロジェクトでどのような担当者のことを確認するには、責任の割り当てのマトリックスを使用して、(RACI とも呼ばれる、責任、説明責任を負い、相談先、および情報を入手する-マトリックス)。 ユーザーまたはグループごとに、タスク、意思決定のプロセスで考慮されるには、利害関係者と関係者がそれぞれの意思決定とプロジェクトの実行中のアクションを通知する責任を持つユーザーを一覧表示します。
 
@@ -70,8 +70,8 @@ ms.locfileid: "25013796"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>意思決定ポイント</td><td><ul><li>クラウド ボイスの実装プロジェクトに関連する活動と役割を決定します。</li><li>チームやクラウドのボイスの実装プロジェクトの担当の割り当て一覧 (RACI のマトリックス) に割り当てられるユーザーを決定します。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>RACI のマトリックスを文書化します。</li></ul></td></tr></table>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>クラウド ボイスの実装プロジェクトに関連する活動と役割を決定します。</li><li>チームやクラウドのボイスの実装プロジェクトの担当の割り当て一覧 (RACI のマトリックス) に割り当てられるユーザーを決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>RACI のマトリックスを文書化します。</li></ul></td></tr></table>
 
 ## <a name="quarterly-execution-plan"></a>四半期ごとの実行プラン
 
@@ -95,8 +95,8 @@ ms.locfileid: "25013796"
 
 <table>
 
-<tr><td>![](media/audio_conferencing_image7.png) <br/>意思決定ポイント</td><td><ul><li>目標 (OKRs) 主要な結果を達成するために四半期ごとの実行プランを決定します。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>四半期ごとの実行計画を文書化します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>目標 (OKRs) 主要な結果を達成するために四半期ごとの実行プランを決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>四半期ごとの実行計画を文書化します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -117,9 +117,9 @@ ms.locfileid: "25013796"
 
 <table>
 
-<tr><td>![](media/audio_conferencing_image7.png) <br/>意思決定ポイント</td><td><ul><li>通信と、ステータスの更新会議、および各会議の所有者を実行するための正規の状態更新 (毎日、毎週、月単位、または四半期ごと)、メソッドの頻度を含むガバナンス計画を決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>通信と、ステータスの更新会議、および各会議の所有者を実行するための正規の状態更新 (毎日、毎週、月単位、または四半期ごと)、メソッドの頻度を含むガバナンス計画を決定します。</li></ul></td></tr>
 
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>通信とガバナンスの計画を文書化します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>通信とガバナンスの計画を文書化します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -178,8 +178,8 @@ ms.locfileid: "25013796"
 
 <table>
 
-<tr><td>![](media/audio_conferencing_image7.png) <br/>意思決定ポイント</td><td><ul><li>クラウドの音声のワークロードを提供するため、全体の成功の計画を文書化する方法を決定します。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>成功プランのすべてのコンポーネントをドキュメント化されていることを確認します。</li><li>(省略可能) 1 つの概要ドキュメントに、成功した場合の計画の個々 のコンポーネントを集約します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>クラウドの音声のワークロードを提供するため、全体の成功の計画を文書化する方法を決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>成功プランのすべてのコンポーネントをドキュメント化されていることを確認します。</li><li>(省略可能) 1 つの概要ドキュメントに、成功した場合の計画の個々 のコンポーネントを集約します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

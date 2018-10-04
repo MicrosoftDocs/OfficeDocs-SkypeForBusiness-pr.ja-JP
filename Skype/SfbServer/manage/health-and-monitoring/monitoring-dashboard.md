@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: '概要: は、ビジネス サーバー、Skype での監視のダッシュ ボードについて説明します。'
-ms.openlocfilehash: a3896f7ed80ec058c2ed2476e98ce61f85e78229
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e12c9faed684121def2e1a4b175f2f7a9fcb534e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969390"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375274"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Skype のビジネス サーバーの監視のダッシュ ボードを使用します。
  
@@ -42,7 +42,7 @@ Get-CsReportingConfiguration
   
 - 一意のユーザー ログオン
     
- **ピアツーピア**
+  **ピアツーピア**
   
 - セッションの合計数
     
@@ -58,7 +58,7 @@ Get-CsReportingConfiguration
     
 - 音声セッションの平均時間 (分)
     
- **電話会議**
+  **電話会議**
   
 - 電話会議の合計数
     
@@ -92,7 +92,7 @@ Get-CsReportingConfiguration
     
 - 通話障害が発生した電話会議の開催者
     
- **低品質通話のユーザー**
+  **低品質通話のユーザー**
   
 - 通話の品質が低いユーザーの合計数
     

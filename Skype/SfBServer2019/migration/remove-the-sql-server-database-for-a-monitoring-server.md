@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 監視サーバーを削除した後は、サーバーのデータをホストしていた SQL Server データベースを削除できます。 トポロジ ビルダーでは、定義を削除するのには次の手順を使用し、データベース ・ サーバからデータベースとログ ファイルを削除します。
-ms.openlocfilehash: 1dc18d520afd67156443ddc2fc22dc838a2aa139
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 85999f1bbb3fc443edcab9d1f1354f26187c6a75
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027978"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373358"
 ---
 # <a name="remove-the-sql-server-database-for-a-monitoring-server"></a>監視サーバーの SQL Server データベースを削除します。
 
@@ -35,9 +35,9 @@ ms.locfileid: "25027978"
     
 3. コマンドラインで、次のように入力します。
     
-  ```
-  Uninstall-CsDataBase -DatabaseType Monitoring -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
-  ```
+   ```
+   Uninstall-CsDataBase -DatabaseType Monitoring -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
+   ```
 
     _ \<FQDN\>_ は、データベース ・ サーバの完全修飾ドメイン名 (FQDN) と_\<インスタンス\>_ 省略可能な名前付きデータベース インスタンスは、します。 
     

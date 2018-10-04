@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: このトピックでは、単一フォレストのオンプレミス環境で Skype Room System を展開する方法について説明します。
-ms.openlocfilehash: 8c931aca8505aa4d41175dbf5e1a138b668323d0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a0c3f76d94e54c616068303a08e4e4254f5f8347
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967906"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375302"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>単一フォレストのオンプレミス環境での Skype Room System の展開
  
@@ -30,17 +30,17 @@ ms.locfileid: "20967906"
   
 1. 次の Exchange 管理シェル (PowerShell) コマンドを実行します。
     
-  ```
-  Set-Mailbox -Name 'LRS-01' -Alias 'LRS01' -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
-  ```
+   ```
+   Set-Mailbox -Name 'LRS-01' -Alias 'LRS01' -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   ```
 
 2. 新しいメールボックスを作成する予定の場合、単一フォレストのオンプレミス Exchange 組織であれば、次のコマンドを実行します。
     
-  ```
-  New-Mailbox -UserPrincipalName LRS01@contoso.com -Alias LRS01 -Name "LRS-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
-  ```
+   ```
+   New-Mailbox -UserPrincipalName LRS01@contoso.com -Alias LRS01 -Name "LRS-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   ```
 
-  上の例は、有効化されたユーザー アカウントを Active Directory に作成し、会議室用の会議室メールボックスをオンプレミスの Exchange 組織に作成します。RoomMailboxPassword パラメーターには、ユーザー アカウントのパスワードを指定します。
+   上の例は、有効化されたユーザー アカウントを Active Directory に作成し、会議室用の会議室メールボックスをオンプレミスの Exchange 組織に作成します。RoomMailboxPassword パラメーターには、ユーザー アカウントのパスワードを指定します。
     
 3. 会議の承諾と辞退を通じて競合を自動的に解消するようにアカウントを構成します。 Skype ルーム システム対応の会議室の Exchange のアカウントは、個人が管理することができますが、個人は、会議を受け入れるまでに表示されないこと Skype ルーム システム ホーム画面のカレンダーに注意してください。
     

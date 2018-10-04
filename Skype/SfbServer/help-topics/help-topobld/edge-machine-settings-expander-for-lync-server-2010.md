@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: 単一のエッジ サーバーまたはエッジ プール内のメンバー コンピューターとは、エッジ サーバーのコンピューターのプロパティを編集するには、サーバー名と IP アドレスの構成の設定を構成します。
-ms.openlocfilehash: ca1e53809c4f59a7b050d5cb2ae47906aa39f82f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 10709088aee9d1b5ec247804122520afa3b29dee
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21001370"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373386"
 ---
 # <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Lync Server 2010 のエッジのマシン設定の拡張
  
@@ -41,10 +41,10 @@ ms.locfileid: "21001370"
     > [!IMPORTANT]
     > **NAT が有効なパブリックな IPv4 アドレス**の構成のプロパティのみを使用できます、A のネットワーク アドレス変換 (NAT) を提供するよう選択した場合は、編集すると音声ビデオ エッジ サービス
   
- [**OK**]: ダイアログでの変更を受け入れて確定します。
+  [**OK**]: ダイアログでの変更を受け入れて確定します。
   
- [**キャンセル**]: 変更を破棄してダイアログを閉じます。
+  [**キャンセル**]: 変更を破棄してダイアログを閉じます。
   
- [**ヘルプ**]: このヘルプ画面を表示します。
+  [**ヘルプ**]: このヘルプ画面を表示します。
   
 

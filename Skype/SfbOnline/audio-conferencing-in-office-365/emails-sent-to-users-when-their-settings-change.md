@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'どのような情報については自動的にユーザーに電子メールで送信されたビジネス オンラインの Skype で、ダイヤルイン会議の設定を変更するときについて説明します。 '
-ms.openlocfilehash: 2ffe61d165b7cbfe6f91af9b819f892f88433724
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: f3b4a530e204524dcf183ac671124c6d6ff8df03
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890428"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374072"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>ビジネス オンラインの Skype での設定を変更するときにユーザーに送信される e メール
 
@@ -117,7 +117,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
     
 2. **Microsoft ブリッジの設定**] ページをオンまたはオフの**オーディオ会議の設定を変更する場合、ユーザーに e メールを自動的に送信**します。 
     
-3. [ **保存**] をクリックします。 
+3. [**保存**] をクリックします。 
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -126,9 +126,9 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
   
 1. 電子メールを送信するすべてのユーザーを無効にするのには、次を実行します。
     
-  ```
-  Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
-  ```
+   ```
+   Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
+   ```
 
 会議 ID をリセットする[](https://go.microsoft.com/fwlink/?LinkId=627285)
   

@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ビジネス サーバー 2019 プールのユーザーを移動した後 Skype は、応答グループを移行できます。 移行する応答グループには、エージェント グループ、キュー、ワークフロー、オーディオのファイルをコピーし、ビジネス サーバー 2019 プールの Skype にレガシー環境からの応答のグループの連絡先オブジェクトを移動が含まれています。 従来の応答グループを移行した後、応答グループへの呼び出しは、プールのビジネス サーバー 2019 Skype で応答グループ アプリケーションによって処理されます。 応答グループへの呼び出しは、不要になったレガシ プールによって処理されます。
-ms.openlocfilehash: bdff9b96b73e925fb68b4a2f9bebb9b23edb4b56
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 89149210e8041fbc84834cec83e1c1fe13d0765c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028020"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372938"
 ---
 # <a name="migrate-response-groups"></a>応答グループを移行します。
 
@@ -56,15 +56,15 @@ ms.locfileid: "25028020"
     
 3. 次のコマンドレットを実行します。
     
-  ```
-  Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
-  ```
+   ```
+   Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
+   ```
 
     例:
     
-  ```
-  Move-CsRgsConfiguration -Source skype-old.contoso.net -Destination skype-new.contoso.net
-  ```
+   ```
+   Move-CsRgsConfiguration -Source skype-old.contoso.net -Destination skype-new.contoso.net
+   ```
 
 4. ビジネス サーバー 2019 プールの Skype に応答グループとエージェントを移行した後、エージェントに使用する URL には、サインインし、サインアウトを Skype ビジネス サーバー 2019 の URL の **[ツール**] メニューから利用できます。 エージェントが新しい URL にブックマークなどのすべての参照を更新することを指摘します。 
     
@@ -90,31 +90,31 @@ ms.locfileid: "25028020"
     
     次のコマンドレットの詳細については、次のコマンドを実行します。
     
-  ```
-  Get-Help <cmdlet name> -Detailed
-  ```
+   ```
+   Get-Help <cmdlet name> -Detailed
+   ```
 
 3. 次のコマンドレットを実行します。
     
-  ```
-  Get-CsRgsAgentGroup
-  ```
+   ```
+   Get-CsRgsAgentGroup
+   ```
 
 4. レガシ環境でのすべてのエージェント グループが一覧に含まれていることを確認します。
     
 5. 次のコマンドレットを実行します。
     
-  ```
-  Get-CsRgsQueue
-  ```
+   ```
+   Get-CsRgsQueue
+   ```
 
 6. レガシ環境でのすべてのキューが一覧に含まれていることを確認します。
     
 7. 次のコマンドレットを実行します。
     
-  ```
-  Get-CsRgsWorkflow
-  ```
+   ```
+   Get-CsRgsWorkflow
+   ```
 
 8. レガシ環境でのすべてのワークフローがリストに含まれていることを確認します。
     

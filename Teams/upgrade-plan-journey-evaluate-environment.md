@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57e34970041ae8a30cfa7a0b34b7b655fea9b28c
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4d5e36389063ed3c03176506a1d31e4bfd488244
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014854"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373023"
 ---
 ![技術的な準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いて、旅アップグレードの段階")
 
@@ -179,19 +179,20 @@ Office 365 テナントに関する情報をキャプチャするのにには、
 
 次の表を使用して、自分の組織での現在の導入と準備状況を記録してください。
 
-> | 質問 | 回答 | コメント |
-> |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-> | 現在のアクティブな使用状況とは <br>ビジネスの Skype ですか。 | ___ % アクティブなユーザーの総数と有効なユーザー | |
-> | 組織はどのように使用します。 <br>ビジネスの Skype ですか。 | 1 対 1 の会話 <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> IM <br>&nbsp;&nbsp; &nbsp; <input type="checkbox">を呼び出す <br>&nbsp;&nbsp; &nbsp; <input type="checkbox">の共有<br> 会議 <br>&nbsp;&nbsp; &nbsp; <input type="checkbox">会議<br>&nbsp;&nbsp; &nbsp; <input type="checkbox">の共有<br>&nbsp;&nbsp; &nbsp; <input type="checkbox">を呼び出す| |
-> | 組織がユーザーの導入 <br>変更管理チームが必要ですか。 | <input type="checkbox">うん<br/> <input type="checkbox">違います | |
-> | どのようにして現在の技術の評価 <br>ビジネス用の Skype と同じように展開しますか。 | | |
-> | ユーザー ベースの割合をお答えには <br>ビジネス用の Skype を採用しますか。 | | |
-> | Skype for Business についてのユーザーの感想を教えてください。 | <input type="checkbox">よし <br/> <input type="checkbox">ニュートラル <br/> <input type="checkbox">不良 | |
-> | ロールアウトを表しているは次の <br>ビジネスのため、Skype の使用方法 <br>展開でしょうか。 | <input type="checkbox">幅広い: を使用してキャンペーンの電子メールを送信 <br>&nbsp;&nbsp; &nbsp;トレーニングへのリンク <br/> <input type="checkbox">幅広いと様々 なを展開します。 <br>&nbsp;&nbsp; &nbsp;の意識向上キャンペーン (ポスター、 <br>&nbsp;&nbsp; &nbsp;イベント、チャンピオン) とトレーニング <br>&nbsp;&nbsp; &nbsp;(ビデオ、ユーザー ガイド、ユーザーに) <br/> <input type="checkbox">合わせて調整します。 展開すると対象に <br>&nbsp;&nbsp; &nbsp;メッセージングおよびペルソナによるトレーニング <br/> <input type="checkbox">その他の <br>&nbsp;&nbsp; &nbsp;(詳細については、[コメント] 列に注意してください)。 | |
+> 
+> |                                                    質問                                                     |                                                                                                                                                                                                                                                                                      回答                                                                                                                                                                                                                                                                                      | コメント |
+> |-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+> |                          現在のアクティブな使用状況とは <br>ビジネスの Skype ですか。                           |                                                                                                                                                                                                                                                                 **_ _** % アクティブなユーザーの総数と有効なユーザー                                                                                                                                                                                                                                                                 |          |
+> |                             組織はどのように使用します。 <br>ビジネスの Skype ですか。                              |                                                                                                   1 対 1 の会話 <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> IM <br>&nbsp;&nbsp; &nbsp; <input type="checkbox">を呼び出す <br>&nbsp;&nbsp; &nbsp; <input type="checkbox">の共有<br> 会議 <br>&nbsp;&nbsp; &nbsp; <input type="checkbox">会議<br>&nbsp;&nbsp; &nbsp; <input type="checkbox">の共有<br>&nbsp;&nbsp; &nbsp; <input type="checkbox">を呼び出す                                                                                                   |          |
+> |                   組織がユーザーの導入 <br>変更管理チームが必要ですか。                   |                                                                                                                                                                                                                                                           <input type="checkbox">うん<br/> <input type="checkbox">違います                                                                                                                                                                                                                                                            |          |
+> |            どのようにして現在の技術の評価 <br>ビジネス用の Skype と同じように展開しますか。            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |          |
+> |               ユーザー ベースの割合をお答えには <br>ビジネス用の Skype を採用しますか。               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |          |
+> |                                Skype for Business についてのユーザーの感想を教えてください。                                |                                                                                                                                                                                                                                       <input type="checkbox">よし <br/> <input type="checkbox">ニュートラル <br/> <input type="checkbox">不良                                                                                                                                                                                                                                       |          |
+> | ロールアウトを表しているは次の <br>ビジネスのため、Skype の使用方法 <br>展開でしょうか。 | <input type="checkbox">幅広い: を使用してキャンペーンの電子メールを送信 <br>&nbsp;&nbsp; &nbsp;トレーニングへのリンク <br/> <input type="checkbox">幅広いと様々 なを展開します。 <br>&nbsp;&nbsp; &nbsp;の意識向上キャンペーン (ポスター、 <br>&nbsp;&nbsp; &nbsp;イベント、チャンピオン) とトレーニング <br>&nbsp;&nbsp; &nbsp;(ビデオ、ユーザー ガイド、ユーザーに) <br/> <input type="checkbox">合わせて調整します。 展開すると対象に <br>&nbsp;&nbsp; &nbsp;メッセージングおよびペルソナによるトレーニング <br/> <input type="checkbox">その他の <br>&nbsp;&nbsp; &nbsp;(詳細については、[コメント] 列に注意してください)。 |          |
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>判断ポイント</td><td><ul><li>環境の評価を完了するため管理するはだれですか。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次の手順</td><td><ul><li>環境アセスメントの結果を文書化します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>環境の評価を完了するため管理するはだれですか。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>環境アセスメントの結果を文書化します。</li></ul></td></tr>
 </table>
 
 お客様の環境を評価した後は、次の手順に進みます:[ネットワークを準備](upgrade-prepare-environment-prepare-network.md)します。

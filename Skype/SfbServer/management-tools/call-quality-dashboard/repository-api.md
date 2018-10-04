@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: '概要: は、通話品質のダッシュ ボードは、リポジトリ API について説明します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。'
-ms.openlocfilehash: 67378b6b0e927f45605a1ca0f7cdddffafac3022
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7881766de0daf05c85c7dfe8bb85a0ef1344c7c9
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989095"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374724"
 ---
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype での通話品質のダッシュ ボード (救難) リポジトリ API
  
@@ -46,7 +46,7 @@ ms.locfileid: "20989095"
     
 - **ユーザー設定**- では、ユーザーの省略可能なアプリケーションの動作について説明します。
     
- **クロスの原点のリソース共有 (CORS) リポジトリ API のサポート**
+  **クロスの原点のリソース共有 (CORS) リポジトリ API のサポート**
   
 リポジトリ API には、クロス元リソース共有 (CORS) がサポートされています。 CORS は、1 つのドメインを実行している別のドメインのリソースにアクセスする web アプリケーションを有効にする HTTP 機能です。 Web ブラウザーは、web ページから別のドメイン内の Api を呼び出すことを防止する原点が同じポリシーを[同一生成元ポリシー](https://www.w3.org/Security/wiki/Same_Origin_Policy)と呼ばれるセキュリティの制限を実装します。 CORS は、セキュリティで保護された Api を呼び出して、別のドメイン内に 1 つのドメイン (元のドメイン) を許可する手段を提供します。 CORS の詳細については、 [CORS 仕様](https://www.w3.org/TR/cors/)を参照してください。
   

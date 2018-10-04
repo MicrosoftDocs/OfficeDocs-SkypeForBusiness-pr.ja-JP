@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype ルーム システムの次世代を Skype ルーム システム v2 では、管理の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 52e02ff1f87d06088636b2f44706ec03c62675f3
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 5dcfcf13b22e7ad110b675d5d202f1ad53d32687
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965892"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373648"
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a>Skype ルーム システム v2 のメンテナンスと運用 
  
@@ -234,9 +234,9 @@ Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rige
     
 4. 完了したら、コンピューターを再起動します。
     
- Skype ルーム システム v2 のアプリケーションを実行して、通常の操作モードに、コンソールを再起動します。 キーボードを削除するには、この手順を実行するために割り当てられる場合。
-## <a name="troubleshooting-tips"></a>トラブルシューティングのヒント
-<a name="TS"> </a>
+   Skype ルーム システム v2 のアプリケーションを実行して、通常の操作モードに、コンソールを再起動します。 キーボードを削除するには、この手順を実行するために割り当てられる場合。
+   ## <a name="troubleshooting-tips"></a>トラブルシューティングのヒント
+   <a name="TS"> </a>
 
 - 会議出席依頼があります (たとえば、2 つの企業では)、ドメインの境界を越えて送信される場合は表示されません。 このような場合、IT 管理者は、会議をスケジュールするのには外部のユーザーを許可するかどうかを決める必要があります。
     

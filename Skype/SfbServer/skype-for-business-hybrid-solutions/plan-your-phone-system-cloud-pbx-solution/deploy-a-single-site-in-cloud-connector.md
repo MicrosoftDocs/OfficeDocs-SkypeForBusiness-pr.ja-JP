@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: Cloud Connector エディションで単一の PSTN サイトを展開する方法について説明します。
-ms.openlocfilehash: 5acd4dbb6a6d46e8d20bbec800bcce174ea87873
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 389829373d857d587a1fd904932f13a7a321deec
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885600"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375005"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>Cloud Connector での単一サイトの展開
  
@@ -54,21 +54,21 @@ Install-CcAppliance
     
 2. Office 365 テナント構成のトポロジ情報を更新するには、新たに追加したホスト サーバー上でのみ次のコマンドレットを実行します。複数のアプライアンスを同時に追加する場合は、新たに追加した各ホスト サーバー上で 1 つずつコマンドレットを実行します。
     
-  ```
-  Register-CcAppliance
-  ```
+   ```
+   Register-CcAppliance
+   ```
 
 3. 既存のアプライアンスのトポロジを更新するには、各ホスト サーバー上で次のコマンドレットを実行します。コマンドレットは、既存のアプライアンス上でのみ実行します。
     
-  ```
-  Publish-CcAppliance
-  ```
+   ```
+   Publish-CcAppliance
+   ```
 
 4. 新たに追加したホスト サーバー上でのみ次のコマンドレットを実行します。 このコマンドレットを、既存のアプライアンス上で実行しないでください。 複数のアプライアンスを同時に追加する場合は、新たに追加した各ホスト サーバー上で 1 つずつコマンドレットを実行します。
     
-  ```
-  Install-CcAppliance
-  ```
+   ```
+   Install-CcAppliance
+   ```
 
 > [!NOTE]
 > サイト ディレクトリがローカル フォルダー パスに設定されていた場合は、このフォルダーのファイル共有を定義し、新しいアプライアンスのサイト ディレクトリに UNC パスを使用する必要があります。 最初のアプライアンス サイト ディレクトリをローカル パスのままにするか、共有の UNC パスを使用するようにそのパスを変更することができます。 共有サイト ディレクトリの場所を変更する場合は、以前にインストールしたすべてのアプライアンスをアンインストールしてから、再びインストールする必要があります。 > 重要: CceService のアカウントと CABackupFile のアカウントの両方のパスワードする必要があります、サイト内に展開されるすべてのアプライアンス上で同じアプライアンスは、サイト ディレクトリの共有、およびサイト ディレクトリの暗号化された CA のバックアップ ファイルをアクセスできるようにします。 
@@ -79,14 +79,14 @@ Install-CcAppliance
   
 1. Office 365 テナント構成でトポロジ情報を更新するサイトから削除するホスト サーバー上でのみ、次のコマンドレットを実行します。
     
-  ```
-  Unregister-CcAppliance
-  ```
+   ```
+   Unregister-CcAppliance
+   ```
 
 2. アプライアンスのすべての仮想マシンを削除するホスト サーバー上でのみ、次のコマンドレットを実行します。
     
-  ```
-  Uninstall-CcAppliance
-  ```
+   ```
+   Uninstall-CcAppliance
+   ```
 
 

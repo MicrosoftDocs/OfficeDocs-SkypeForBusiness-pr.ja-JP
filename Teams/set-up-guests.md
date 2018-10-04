@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb19af107bc41fc088d7398570e34d0586b34e15
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: fcb907a1a84dce1e1fcf550333b8b1dd788f23fa
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015790"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370754"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Microsoft Teams へのゲスト アクセスをオンまたはオフにする
 ======================================
@@ -65,7 +65,7 @@ Office 365 管理者は、組織のユーザー (具体的にはチーム所有�
   
 5. [**Turn Microsoft Teams on or off for all users of this type (この種類のすべてのユーザーについて Microsoft Teams をオンまたはオフにする)**] の横にあるトグルをクリックまたはタップして [**オン**] にして組織の Teams とゲスト アクセスをオンにし、[**保存**] を選択します。 
     
- ゲスト アクセスの詳細については以下のビデオを視聴してください。  
+   ゲスト アクセスの詳細については以下のビデオを視聴してください。  
 
 |  |  |
 |---------|---------|

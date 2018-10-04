@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ビジネス サーバー 2019 パイロット プールのビジネス サーバー 2019 のコントロール パネルまたは Skype の Skype を使用してビジネス サーバー 2019 管理シェルには、Skype を従来のプールから複数のユーザーを移動できます。
-ms.openlocfilehash: e96ef658f566f0e069f4db6e4f2f08e0410ea260
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3b01613e16e41ed2ee7aac7bc6c443e19db933c2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028657"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372510"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>複数のユーザーをパイロット プールに移動します。
 
@@ -54,19 +54,19 @@ ms.locfileid: "25028657"
 
 1. Skype をビジネス サーバー 2019 管理シェルを開きます。 
     
-2.  コマンド ・ ラインで、次の入力**User1**と**User2** 、移動する特定のユーザー名に置き換えるし、 **pool_FQDN**を移動先のプールの名前に置き換えます。 この例では、ユーザーが Hao Chen 教授のヨルダンを移動します。 
+2. コマンド ・ ラインで、次の入力**User1**と**User2** 、移動する特定のユーザー名に置き換えるし、 **pool_FQDN**を移動先のプールの名前に置き換えます。 この例では、ユーザーが Hao Chen 教授のヨルダンを移動します。 
     
-  ```
-  Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
-  ```
+   ```
+   Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
+   ```
 
-     ![CsUser の PowerShell Get コマンドレットの使用例](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
+    ![CsUser の PowerShell Get コマンドレットの使用例](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
   
 3. コマンドラインで、次のように入力します。 
     
-  ```
-  Get-CsUser -Identity "User1"
-  ```
+   ```
+   Get-CsUser -Identity "User1"
+   ```
 
 4. **レジストラー プール**id は、前の手順では、 **pool_FQDN**として指定したプールにポイント必要がありますようになりました。 この id の存在は、ユーザーが正常に移動されたことを確認します。 **User2**が移動されたことを確認する手順を繰り返します。 
     
@@ -81,17 +81,17 @@ ms.locfileid: "25028657"
     
 2. コマンドラインで、次のように入力します。 
     
-  ```
-  Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
-  ```
+   ```
+   Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
+   ```
 
      ![PowerShell コマンドレットと管理シェルの結果](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserMultipleAll.png)
   
 3. パイロット ユーザーのいずれかの**Get CsUser**を実行します。 
     
-  ```
-  Get-CsUser -Identity "Hao Chen"
-  ```
+   ```
+   Get-CsUser -Identity "Hao Chen"
+   ```
 
 4. 各ユーザーの**レジストラー プール**id は、前の手順では、 **pool_FQDN**として指定したプールを指します。 この id の存在は、ユーザーが正常に移動されたことを確認します。 
     

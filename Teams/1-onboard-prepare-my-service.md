@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e09816666e17f657b67f8b28aa36efa3ef95e60f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 335d5baac6f13d899b8d6f9875a419d86da1b6af
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013564"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374318"
 ---
 # <a name="prepare-my-service"></a>サービスを準備します。
 
@@ -53,8 +53,8 @@ ms.locfileid: "25013564"
 >ほとんどの構成設定は、チームと Skype のオンライン ビジネスの間で共通です。 これらの設定を構成するのには、Office 365 管理者センターとチームとビジネス管理センターの Skype を使用します。
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>意思決定ポイント</td><td><ul><li>契約時チェックリストの完了を監督する責任者がされますか。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>契約時のチェックリストをダウンロードしてください。</li><li>契約時チェックリストの項目の手順に従って、組織の展開計画を使用します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>契約時チェックリストの完了を監督する責任者がされますか。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>契約時のチェックリストをダウンロードしてください。</li><li>契約時チェックリストの項目の手順に従って、組織の展開計画を使用します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -180,8 +180,8 @@ ms.locfileid: "25013564"
 -   直接ルーティングのコンプライアンス要件を特定して構成します。
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>意思決定ポイント</td><td><ul><li>どの電話会議機能を展開するかを決定 (サービスの決定)。</li><li>オーディオ会議のユーザーの機能要件を特定します。</li><li>オーディオ会議サービスの構成要件を特定します。</li><br><li>かどうか直接ルーティングまたはプランを呼び出すことができる展開し、構成を決定します。<li>どの電話システムの機能を配置するかを決定 (サービスの決定)。</li><li>計画を呼び出すか、直接ルーティングのユーザーの機能要件を特定します。</li><li>計画を呼び出すことや、直接ルーティング サービスの構成要件を特定します。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>開発し、テスト計画のアプローチを文書化します。</li><li>電話会議機能のスコープ内のユーザー、サービスの環境を準備します。</li><li>計画を呼び出すか、直接ルーティング機能のスコープ内のユーザー、サービスの環境を準備します。</li><li>電話会議機能を有効にするためのテストの検証を実行します。</li><li>計画を呼び出すか、直接ルーティング機能を有効にするためのテストの検証を実行します。</li><li>いずれかの障害をテスト、構成が正しいことを確認、コミュニティの記事を確認し、-必要な場合-サポート ・ リクエストを発生させます。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>どの電話会議機能を展開するかを決定 (サービスの決定)。</li><li>オーディオ会議のユーザーの機能要件を特定します。</li><li>オーディオ会議サービスの構成要件を特定します。</li><br><li>かどうか直接ルーティングまたはプランを呼び出すことができる展開し、構成を決定します。<li>どの電話システムの機能を配置するかを決定 (サービスの決定)。</li><li>計画を呼び出すか、直接ルーティングのユーザーの機能要件を特定します。</li><li>計画を呼び出すことや、直接ルーティング サービスの構成要件を特定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>開発し、テスト計画のアプローチを文書化します。</li><li>電話会議機能のスコープ内のユーザー、サービスの環境を準備します。</li><li>計画を呼び出すか、直接ルーティング機能のスコープ内のユーザー、サービスの環境を準備します。</li><li>電話会議機能を有効にするためのテストの検証を実行します。</li><li>計画を呼び出すか、直接ルーティング機能を有効にするためのテストの検証を実行します。</li><li>いずれかの障害をテスト、構成が正しいことを確認、コミュニティの記事を確認し、-必要な場合-サポート ・ リクエストを発生させます。</li></ul></td></tr>
 </table>
 
 

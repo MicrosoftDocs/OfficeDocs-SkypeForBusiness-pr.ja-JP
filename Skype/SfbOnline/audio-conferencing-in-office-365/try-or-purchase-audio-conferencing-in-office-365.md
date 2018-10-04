@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Office 365 の電話会議 (PSTN 会議) ライセンスを試す方法または購入する方法を参照して、ダイヤル インできる電話会議をセットアップしてください。 '
-ms.openlocfilehash: 248156cb326c4614be717b6f851d0ea04b28dd39
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: deb26d47c2b291e83c3ed32e4175bf7a82035c67
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888316"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370855"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Skype のオンライン ビジネスを Office 365 に電話会議を購入するか
 
@@ -34,9 +34,9 @@ ms.locfileid: "23888316"
 > Microsoft Teams での電話会議の詳細については、「[Microsoft Teams で Office 365 の Skype の電話会議を試用または購入する](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams)」を参照してください。
 
 
-自分の組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 ビジネス用の Skype には、これだけの電話会議機能が含まれています! 参加者は、モバイル デバイスや PC で Skype for Business アプリを使用する代わりに、電話を使って Skype for Business 会議にコールインできます。
+Sometimes people in your organization will need to use a phone to call in to a meeting. Skype for Business includes the Audio Conferencing feature for just this situation! People can call into Skype for Business meetings using a phone, instead of using the Skype for Business app on a mobile device or PC.
 
-のみ、スケジュールや会議を計画している人の電話会議を設定する必要があります。 会議の出席者にミーティングへのライセンスが割り当てられている必要はなく、その他のセットアップも必要ありません。
+You only need to set up audio conferencing for people who plan to schedule or lead meetings. Meeting attendees who call in to the meeting don't need any licenses assigned to them and don't need other setup.
 
 価格情報については、「[電話会議の価格](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)」を参照してください。
 
@@ -46,27 +46,27 @@ ms.locfileid: "23888316"
 
 ### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>ユーザーの電話会議のライセンスを購入し、割り当てる場合:
 
-1. **オーディオ会議**は、国/地域で利用可能なかどうかを確認します。 [国やオーディオ会議や予定を呼び出すことで利用可能な地域](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)です。 
+1. Find out if **Audio Conferencing** is available in your country/region. [Countries and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). 
     
-2. **電話会議** のライセンスを取得します。 以下を希望する場合:
+2. Get your **Audio Conferencing** licenses. If you want to:
 
-  - 購入する前に**お試し**ください。電話会議が含まれる Office 365 Enterprise E5 の無料試用版にサインアップできます。 [Office 365 Enterprise E5 の試用版](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)を参照してください。
+   - **Try it** before you buy it, you can sign up for an Office 365 Enterprise E5 free trial that includes Audio Conferencing. See [Office 365 Enterprise E5 Trial](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-  - **購入**をするには、 [Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)を参照してください。
+   - **購入**をするには、 [Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)を参照してください。
 
 3. 会議を計画したり主催しようとしてる組織のユーザーに対して購入した [一般法事向け Office 365 ライセンスの割り当てや削除](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) を行います。
 
-4. 電話会議のアドオン ライセンスおよびコミュニケーション クレジットのライセンスを購入した場合も割り当てます。 手順については、[ビジネスおよびマイクロソフトのチームのライセンスを Skype を割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)を参照してください。
+4. If you purchased audio conferencing add-on licenses and Communications Credits licenses, assign them too. For instructions, see [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>分数ごと従量課金制電話会議ライセンスを購入し割り当てる場合:
 
-ライセンス供与されている大口の顧客の場合、分数ごと従量課金制電話会議のライセンスを取得できます。 分数ごと従量課金制電話会議のライセンスの詳細については、 [分数ごと従量課金制電話会議](/microsoftteams/audio-conferencing-pay-per-minute)を参照してください。 
+If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conferencing licenses. For additional information on pay-per-minute Audio Conferencing licenses, see [Audio Conferencing pay-per-minute](/microsoftteams/audio-conferencing-pay-per-minute). 
   
-1. **オーディオ会議**は、国/地域で利用可能なかどうかを確認します。 [オーディオ会議や予定を呼び出すための国および地域の可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)です。 
+1. Find out if **Audio Conferencing** is available in your country/region. [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). 
     
-2. **電話会議** のライセンスを取得します。 分数ごと従量課金ライセンスを取得するには、アカウントの担当者にお問い合わせください。
+2. Get your **Audio Conferencing** licenses. To acquire pay-per-minute licenses, please contact your account representative.
     
-3. 組織の[組織の通信のクレジットの設定](/microsoftteams/set-up-communications-credits-for-your-organization)をします。 コミュニケーション クレジットの設定については、「[コミュニケーション クレジットとは](/microsoftteams/what-are-communications-credits)」を参照してください 。
+3. [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization) for your organization. To set up Communications Credits, see [What are Communications Credits?](/microsoftteams/what-are-communications-credits)
     
     > [!IMPORTANT]
     > コミュニケーション クレジットが設定されていない場合、電話会議が分数ごと従量課金ライセンスを持つすべてのユーザーに対して機能しません。
@@ -78,23 +78,23 @@ ms.locfileid: "23888316"
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>手順 2: 会議の主催者または計画者のために電話会議プロバイダーを設定する
 
-組織の会議主催者または計画者に**電話会議**のライセンスを割り当てるときは、すべての設定が行われ、すぐに使える状態となっています。 (電話会議プロバイダーを設定する必要はありません。)
+When you assign an **Audio Conferencing** license to people in your organization who lead or schedule meetings, they are all set up and ready to go! (You don't have to set their audio conferencing provider.)
 
 ## <a name="step-3-other-admin-tasks"></a>手順 3: その他の管理タスク
 
 次の手順は**オプション**ですが、管理者の多くは次の設定を行うのを好みます。
 
-1. [ミーティングの招待状をカスタマイズ](../set-up-skype-for-business-online/customize-meeting-invitations.md)します。 ユーザー向けに設定されているダイヤルイン番号は、会議の出席者に送信される会議出席依頼に自動的に追加されます。 ただし、独自のヘルプや法的リンク、テキスト メッセージ、会社の小さな画像を追加できます。
+1. [Customize meeting invitations](../set-up-skype-for-business-online/customize-meeting-invitations.md). The dial-in numbers that are set for the user will be automatically added to the meeting invitations that are sent to attendees. However, you can add your own help and legal links, a text message, and small company graphic.
 
-2. [携帯電話への招待に含まれている番号を設定](set-the-phone-numbers-included-on-invites.md)します。 これは、ユーザーが参加を予定している会議で表示される電話番号です。
+2. [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md). This is the phone number that will show up in the meeting that is scheduled by a user.
 
-3. 発信者が電話会議の電話番号にかけたときに、電話会議の自動応答が発信者に応答する際に使われる[電話会議の自動応答言語を設定します](set-auto-attendant-languages-for-audio-conferencing.md)。 この手順は、Microsoft を電話会議プロバイダーとして使用している場合にのみ適用されます。
+3. [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing.md) that the Audio Conferencing auto attendant uses to greet a caller when they dial in to an audio conferencing phone number. This step only applies if you're using Microsoft as your audio conferencing provider.
 
 4. [オーディオ会議の会議の暗証番号 (pin) の長さを設定](set-the-pin-length-for-audio-conferencing-meetings.md)します。
 
 
 > [!NOTE]
-> 中国の 21Vianet で運用される Office 365 を使用している顧客は、まだこの機能を使用できません。 詳細については、 [21Vianet で運用される Office 365 について](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)を参照してください。
+> This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
 ## <a name="related-topics"></a>関連トピック
 

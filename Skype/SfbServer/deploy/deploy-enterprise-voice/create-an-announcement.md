@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: 作成またはビジネス サーバーのエンタープライズ VoIP の Skype のアプリケーションを発表のお知らせを削除します。 この設定によって、割り当てられていない番号への通話を処理する方法が影響を受けます。
-ms.openlocfilehash: 63d64bb09c24609ebb05c6de879bd1fe0e92d093
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: cbdcaed3d5908b76f0932f3461dfc21716f74b32
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887396"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372295"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>作成またはビジネス サーバーの Skype でお知らせを削除します。
 
@@ -81,7 +81,7 @@ ms.locfileid: "23887396"
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
-  **TextToSpeechPrompt**パラメーターで使用する言語コードの一覧を表示してこれらのコマンドレットについての詳細については、[新規 CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)を参照してください。
+   **TextToSpeechPrompt**パラメーターで使用する言語コードの一覧を表示してこれらのコマンドレットについての詳細については、[新規 CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)を参照してください。
 
 ## <a name="delete-an-announcement-for-unassigned-numbers"></a>割り当てられていない番号のアナウンスの削除
 

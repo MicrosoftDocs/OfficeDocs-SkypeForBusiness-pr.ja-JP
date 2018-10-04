@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: '概要: ビジネス サーバー 2015 トポロジの場合、Skype に永続的なチャット サーバーを追加する方法の詳細については、このトピックを読みます。'
-ms.openlocfilehash: 9d6845b7239056ec18be780060ba6ef96756f743
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ff2486db39546e88c4a75e27875a84a2c3b939ae
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973011"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371983"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>ビジネス サーバー 2015 トポロジの場合、Skype に永続的なチャット サーバーを追加します。
  
@@ -71,8 +71,8 @@ ms.locfileid: "20973011"
     
    - [**既定のインスタンス**] を選択して既定のインスタンスを使用するか、別のインスタンスを指定する場合は、[**名前付きインスタンス**] を選択して、使用するインスタンスを指定します。
     
-    > [!NOTE]
-    > 災害復旧用バックアップ ・ データベースを SQL Server を構成する方法の詳細については、[構成の高可用性とビジネス サーバー 2015 の Skype での永続的なチャット サーバーの障害回復](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)を参照してください。 
+     > [!NOTE]
+     > 災害復旧用バックアップ ・ データベースを SQL Server を構成する方法の詳細については、[構成の高可用性とビジネス サーバー 2015 の Skype での永続的なチャット サーバーの障害回復](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)を参照してください。 
   
 9. コンプライアンスを有効にした場合は、SQL Server の準拠のストアを定義します。
     
@@ -87,8 +87,8 @@ ms.locfileid: "20973011"
     
     - [**ファイル共有**] で、使用するファイル ストアを指定します。
     
-     > [!IMPORTANT]
-     > トポロジ ビルダーのファイル ストアを定義するには、ファイル ストアを作成する前にトポロジを公開する前に定義する定義済みの場所にファイル ストアを作成する必要があります。 ファイル ストアがまだ存在していない場合、トポロジを公開しようとすると失敗します。 
+      > [!IMPORTANT]
+      > トポロジ ビルダーのファイル ストアを定義するには、ファイル ストアを作成する前にトポロジを公開する前に定義する定義済みの場所にファイル ストアを作成する必要があります。 ファイル ストアがまだ存在していない場合、トポロジを公開しようとすると失敗します。 
   
 11. この永続的なチャット サーバー プールの次ホップとして使用するフロント エンド サーバー プールを選択します。 これは、このプールに永続的なチャット サーバー要求をルーティングするようになりますがフロント エンド サーバー プールです。
     

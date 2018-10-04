@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: ': の概要については、新しい Skype のビジネスとオンライン ビジネス、ビジネス サーバー 2015 の Skype、Skype のビジネス サーバー 2015、Lync Server 2013 では、Skype を使用しているかどうか、更新プログラムのユーザー、お客様の環境を準備するための手順やLync Server 2010。'
-ms.openlocfilehash: b5bfd0c48cb1e850fdaa88a991772306430a0b9f
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 99a1be886c257c58f007b42ee549b31a2340721a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965678"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371174"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>ビジネス 2015年クライアント エクスペリエンスのユーザーのための Skype を計画します。
  
@@ -80,9 +80,9 @@ Lync クライアント エクスペリエンスは、多くのユーザーが�
     
 - **Lync Server 2010** - を実行する必要があります 2015年 2 月の Lync Server 2010 またはそれ以降の更新プログラムの累積的な更新 (4.0.7577.710)。 については、 [Lync Server 2010 用の更新プログラム](https://go.microsoft.com/fwlink/p/?LinkId=532771)を参照してください。
     
- **手順 2:** 次に、ビジネス クライアント用の Skype と Skype クライアント エクスペリエンスを設定するのには、クライアント ポリシーを使用します。 クライアント ポリシーを使用して、クライアント エクスペリエンスを設定する場合、**3 つのオプション**があります。
+  **手順 2:** 次に、ビジネス クライアント用の Skype と Skype クライアント エクスペリエンスを設定するのには、クライアント ポリシーを使用します。 クライアント ポリシーを使用して、クライアント エクスペリエンスを設定する場合、**3 つのオプション**があります。
   
- **オプション 1:** グローバル ポリシーを使用して、Skype クライアント エクスペリエンスを設定します。グローバル ポリシーは、展開に含まれるすべてのユーザーに適用されますが、ユーザー レベルおよびサイト レベルのポリシーの方がグローバル ポリシーよりも優先される点に注意してください。
+  **オプション 1:** グローバル ポリシーを使用して、Skype クライアント エクスペリエンスを設定します。グローバル ポリシーは、展開に含まれるすべてのユーザーに適用されますが、ユーザー レベルおよびサイト レベルのポリシーの方がグローバル ポリシーよりも優先される点に注意してください。
   
 ```
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $True

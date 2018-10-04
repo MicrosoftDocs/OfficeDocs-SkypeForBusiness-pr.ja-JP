@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: インストールし、Skype のビジネス サーバーのビジー状態のオプションを構成する方法の詳細を表示します。
-ms.openlocfilehash: 2cca6c3b1075e1f5c7f1674a8e5609b49300bba6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 3cf197f58dda13ab0c1af2077a6eb0fb59dafcc4
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884104"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370809"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Skype for Business Server の通話中オプションのインストールおよび構成
 
@@ -49,9 +49,9 @@ ms.locfileid: "23884104"
 
 1. グローバル オプションを有効に使用中の次の例のように[セット CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/set-csvoicepolicy?view=skype-ps)コマンドレットを実行するには。
 
-  ```
-  Set-CsVoicePolicy -EnableBusyOptions $true
-  ```
+   ```
+   Set-CsVoicePolicy -EnableBusyOptions $true
+   ```
 
 2. 次に、サイトにボイス ポリシーがある場合は、次のようにボイス ポリシー用の通話中オプションを有効にします。
 

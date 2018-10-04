@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: ビジネス クラウド コネクタ エディション 1.4.1 またはそれ以降の展開は、既存の Skype の構成を変更するには、このトピックの手順を実行します。
-ms.openlocfilehash: fe226e67f6f492e0fae7473156908cd4a5147ea2
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: be3c7cbbc1395000dbb84bab0c9be0a866fb4403
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885804"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375373"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>既存の Cloud Connector の展開構成の変更
  
@@ -31,75 +31,75 @@ ms.locfileid: "23885804"
   
 1. 次のコマンドレットを実行して、ホスト サーバー上にあるすべての既存の仮想マシンをアンインストールします。 
     
-  ```
-  Uninstall-CcAppliance
-  ```
+   ```
+   Uninstall-CcAppliance
+   ```
 
 2. アプライアンスを登録解除するには、次のコマンドレットを実行します。
     
-  ```
-  Unregister-CcAppliance
-  ```
+   ```
+   Unregister-CcAppliance
+   ```
 
 3. アプライアンス ディレクトリ の CloudConnector.ini ファイルを更新します。
     
 4. 構成を更新するのには次のコマンドレットを実行する: (この手順は、バージョン 2; 以前のバージョンに該当する場合のみ、次の手順に進みます)。
     
-  ```
+   ```
    Import-CcConfiguration 
-  ```
+   ```
 
 5. アプライアンスをもう一度登録するには、次のコマンドレットを実行します。
     
-  ```
-  Register-CcAppliance
-  ```
+   ```
+   Register-CcAppliance
+   ```
 
 6. Skype for Business Cloud Connector エディションをインストールするには、次のコマンドレットを実行します。
     
-  ```
-  Install-CcAppliance
-  ```
+   ```
+   Install-CcAppliance
+   ```
 
 サイトに複数のアプライアンスがある場合は、次の手順に従って、CloudConnector.ini ファイルを変更し、アプライアンスを 1 つずつ再展開する必要があります。
   
 1. 現在のアプライアンス上にある既存の仮想マシンをすべてアンインストールするには、次のコマンドレットを実行します。 
     
-  ```
-  Uninstall-CcAppliance
-  ```
+   ```
+   Uninstall-CcAppliance
+   ```
 
 2. アプライアンスを登録解除するには、次のコマンドレットを実行します。
     
-  ```
-  Unregister-CcAppliance
-  ```
+   ```
+   Unregister-CcAppliance
+   ```
 
 3. アプライアンス ディレクトリ の CloudConnector.ini ファイルを更新します。
     
 4. 構成を更新するのには次のコマンドレットを実行する: (この手順は、バージョン 2; 以前のバージョンに該当する場合のみ、次の手順に進みます)。
     
-  ```
+   ```
    Import-CcConfiguration 
-  ```
+   ```
 
 5. アプライアンスをもう一度登録するには、次のコマンドレットを実行します。
     
-  ```
-  Register-CcAppliance
-  ```
+   ```
+   Register-CcAppliance
+   ```
 
 6. 最新の構成を取得するには、サイトにあるその他すべてのアプライアンスで次のコマンドレットを実行します。
     
-  ```
-  Publish-CcAppliance
-  ```
+   ```
+   Publish-CcAppliance
+   ```
 
 7. 現在のアプライアンスのクラウドのコネクタを再配置するのには、次のコマンドレットを実行します。
     
-  ```
-  Install-CcAppliance
-  ```
+   ```
+   Install-CcAppliance
+   ```
 
 ## <a name="modify-the-configuration-of-multiple-sites"></a>複数のサイトの構成を変更する
 <a name="BKMK_MultipleSites"> </a>
@@ -115,45 +115,45 @@ ms.locfileid: "23885804"
   
 1. サイトの EnableAutoUpdate プロパティは、true (既定値) に設定する必要があります。 EnableAutoUpdate が True に設定されていることを確認するには、次のコマンドレットを実行します。
     
-  ```
-  Get-CsHybridPSTNSite -Identity <SiteName>
-  ```
+   ```
+   Get-CsHybridPSTNSite -Identity <SiteName>
+   ```
 
 2. テナントの自動更新の時間枠を作成します。
     
     時間枠は、日単位、週単位、月単位で設定できます。すべての時間枠には、開始時刻と期間が必要です。
     
-  - 日単位の時間枠の場合は、開始時刻と期間のみが必要です。 
+   - 日単位の時間枠の場合は、開始時刻と期間のみが必要です。 
     
-  - 週単位の時間枠の場合は、1 つまたは複数の曜日が必要です。
+   - 週単位の時間枠の場合は、1 つまたは複数の曜日が必要です。
     
-  - 月単位の時間枠の場合は、2 種類あります。1 番目の種類では、日付を 1 つ指定します。2 番目の方法では、第何週の何曜日かを (それぞれ 1 つでも複数でも可) 指定します。
+   - 月単位の時間枠の場合は、2 種類あります。1 番目の種類では、日付を 1 つ指定します。2 番目の方法では、第何週の何曜日かを (それぞれ 1 つでも複数でも可) 指定します。
     
-  - 各テナントに定義できる時間枠は 20 件です。新しいテナントには、オペレーティング システムの更新と BITS の更新用の既定の時間枠が作成されます。日単位、週単位、月単位の時間枠を設定するには、次のコマンドレットを実行します。
+   - 各テナントに定義できる時間枠は 20 件です。新しいテナントには、オペレーティング システムの更新と BITS の更新用の既定の時間枠が作成されます。日単位、週単位、月単位の時間枠を設定するには、次のコマンドレットを実行します。
     
-  ```
-  New-CsTenantUpdateTimeWindow -Identity Night -Daily -StartTime 22:00 -Duration 6:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity Night -Daily -StartTime 22:00 -Duration 6:00
+   ```
 
-  ```
-  New-CsTenantUpdateTimeWindow -Identity WeekdayNight -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -StartTime 22:00 -Duration 4:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity WeekdayNight -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -StartTime 22:00 -Duration 4:00
+   ```
 
-  ```
-  New-CsTenantUpdateTimeWindow -Identity FirstAndLastWeekend -Monthly -WeeksOfMonth First,Last -DaysOfWeek Sunday,Saturday -StartTime 0:00 -Duration 10:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity FirstAndLastWeekend -Monthly -WeeksOfMonth First,Last -DaysOfWeek Sunday,Saturday -StartTime 0:00 -Duration 10:00
+   ```
 
-  ```
-  New-CsTenantUpdateTimeWindow -Identity MidDayOfMonth -Monthly -DayOfMonth 15 -StartTime 0:00 -Duration 1.00:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity MidDayOfMonth -Monthly -DayOfMonth 15 -StartTime 0:00 -Duration 1.00:00
+   ```
 
-  - 更新時間枠をサイトに割り当てます。 
+   - 更新時間枠をサイトに割り当てます。 
     
-    BITS の更新時間枠と OS の更新時間枠は、個別に構成します。 どちらにも、1 つまたは複数の時間枠を割り当てることができます。 各時間枠は、異なるサイトや異なる用途 (BITS の更新と OS の更新) に割り当てることができます。 次のコマンドレットを実行して時間枠をサイトに設定します。 
+     BITS の更新時間枠と OS の更新時間枠は、個別に構成します。 どちらにも、1 つまたは複数の時間枠を割り当てることができます。 各時間枠は、異なるサイトや異なる用途 (BITS の更新と OS の更新) に割り当てることができます。 次のコマンドレットを実行して時間枠をサイトに設定します。 
     
-  ```
-  Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
-  ```
+   ```
+   Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
+   ```
 
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>専用のテナント管理者の資格情報を更新する
 <a name="BKMK_MultipleSites"> </a>
@@ -178,11 +178,11 @@ Set-CcCredential -AccountType TenantAdmin
   
 1. 次のコマンドを実行して、後で必要になるパスワードを取得します。 
     
-  - Get CcCredential AccountType - DomainAdmin - DisplayPassword
+   - Get CcCredential AccountType - DomainAdmin - DisplayPassword
     
-  - Get-CcCredential -AccountType VMAdmin -DisplayPassword
+   - Get-CcCredential -AccountType VMAdmin -DisplayPassword
     
-  - Get CcCredential AccountType - CceService - DisplayPassword
+   - Get CcCredential AccountType - CceService - DisplayPassword
     
 2. ホスト サーバー上でお使いのアカウントのパスワードを変更します。
     
@@ -226,17 +226,17 @@ Set-CcCredential -AccountType TenantAdmin
   
 1. 後で使用するパスワードとアカウント名を取得するために次のコマンドを実行します。
     
-  ```
-  Get-CcCredential -AccountType TenantAdmin -DisplayPassword
-Get-CcCredential -AccountType TenantAdmin
-Get-CcCredential -AccountType OMSWorkspace -DisplayPassword
-Get-CcCredential -AccountType OMSWorkspace 
-Get-CcCredential -AccountType ExternalCert -DisplayPassword
-Get-CcCredential -AccountType CABackupFile -DisplayPassword
-Get-CcCredential -AccountType CceService -DisplayPassword
-Get-CcCredential -AccountType VMAdmin -DisplayPassword
-Get-CcCredential -AccountType DomainAdmin -DisplayPassword
-  ```
+   ```
+   Get-CcCredential -AccountType TenantAdmin -DisplayPassword
+   Get-CcCredential -AccountType TenantAdmin
+   Get-CcCredential -AccountType OMSWorkspace -DisplayPassword
+   Get-CcCredential -AccountType OMSWorkspace 
+   Get-CcCredential -AccountType ExternalCert -DisplayPassword
+   Get-CcCredential -AccountType CABackupFile -DisplayPassword
+   Get-CcCredential -AccountType CceService -DisplayPassword
+   Get-CcCredential -AccountType VMAdmin -DisplayPassword
+   Get-CcCredential -AccountType DomainAdmin -DisplayPassword
+   ```
 
 2. アプライアンスを放電し、手動でのメンテナンス モードに移動する Enter CcUpdate コマンドレットを実行します。
     
@@ -250,29 +250,29 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
     
 6. 既定では、VmAdmin および DomainAdmin では CceService と同じパスワードが使用されます。手順 1 で返された DomainAdmin、VMAdmin および CceService のパスワードが異なる場合は、次の手順を実行する必要があります。
     
-1. Set-CcCredential -AccountType DomainAdmin を次のように実行します。
+7. Set-CcCredential -AccountType DomainAdmin を次のように実行します。
     
-  - 以前のアカウントの資格情報を求められた場合は、CceService パスワードに使用した資格情報を入力します。
+   - 以前のアカウントの資格情報を求められた場合は、CceService パスワードに使用した資格情報を入力します。
     
-  - 新しいアカウントの資格情報を求められた場合は、手順 1 で返された DomainAdmin パスワードを入力します。
+   - 新しいアカウントの資格情報を求められた場合は、手順 1 で返された DomainAdmin パスワードを入力します。
     
-2. Set-CcCredential -AccountType VmAdmin を次のように実行します。
+8. Set-CcCredential -AccountType VmAdmin を次のように実行します。
     
-  - 以前のアカウントの資格情報を求められた場合は、CceService パスワードに使用した資格情報を入力します。
+   - 以前のアカウントの資格情報を求められた場合は、CceService パスワードに使用した資格情報を入力します。
     
-  - 新しいアカウントの資格情報を求められた場合は、手順 1 で返された VmAdmin パスワードを入力します。 
+   - 新しいアカウントの資格情報を求められた場合は、手順 1 で返された VmAdmin パスワードを入力します。 
     
-7. 移動手動メンテナンス モードを終了する終了 CcUpdate コマンドレットを実行します。
+9. 移動手動メンテナンス モードを終了する終了 CcUpdate コマンドレットを実行します。
     
-8. 同じ PSTN サイト内のすべてのアプライアンス上の次の手順を完了すると後、は、サイトのルート ディレクトリ以下のファイルを削除します。
+10. 同じ PSTN サイト内のすべてのアプライアンス上の次の手順を完了すると後、は、サイトのルート ディレクトリ以下のファイルを削除します。
     
-  - CcLockFile
+    - CcLockFile
     
-  - Site_\<エッジ外部 Sip プールの fqdn\>
+    - Site_\<エッジ外部 Sip プールの fqdn\>
     
-  - Tenant_\<エッジ外部 Sip プールの fqdn\>
+    - Tenant_\<エッジ外部 Sip プールの fqdn\>
     
-  - TenantConfigLock_\<エッジ外部 Sip プールの fqdn\>
+    - TenantConfigLock_\<エッジ外部 Sip プールの fqdn\>
     
 ## <a name="add-a-new-sip-domain"></a>新しい SIP ドメインを追加する 
 <a name="BKMK_UpdatePassword"> </a>
@@ -287,9 +287,9 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
     
 4. 新しい Microsoft Edge 外部証明書のパスを次のように設定します。
     
-  ```
-  Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
-  ```
+   ```
+   Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
+   ```
 
 5. 
     
@@ -308,49 +308,49 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
     
 4. 新しい Microsoft Edge 外部証明書のパスを次のように設定します。
     
-  ```
-  Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
-  ```
+   ```
+   Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
+   ```
 
 5. 
     
     サイト内でクラウドのコネクタの管理者 PowerShell で次のコマンドレットを実行しているアプライアンスそれぞれに対してテナント登録を削除します。
     
-  ```
-  Unregister-CcAppliance
-  ```
+   ```
+   Unregister-CcAppliance
+   ```
 
 6. 
     
     Skype for Business Online の PowerShell で次のコマンドを実行して、各サイトのサイト登録を削除します。
     
-  ```
-  Remove-CsHybridPSTNSite
-  ```
+   ```
+   Remove-CsHybridPSTNSite
+   ```
 
 7. 
     
     各アプライアンスをアンインストールするには、クラウドのコネクタの管理者 PowerShell で次のコマンドレットを実行しています。
     
-  ```
-  Uninstall-CcAppliance
-  ```
+   ```
+   Uninstall-CcAppliance
+   ```
 
 8. 
     
      各アプライアンスを登録するには、クラウドのコネクタの管理者 PowerShell で次のコマンドレットを実行しています。
     
-  ```
-  Register-ccAppliance
-  ```
+   ```
+   Register-ccAppliance
+   ```
 
 9. 
     
      各アプライアンスをインストールする管理者 PowerShell でクラウド コネクタで次のコマンドレットを実行している、1 つずつ。
     
-  ```
-  Install-CcAppliance
-  ```
+   ```
+   Install-CcAppliance
+   ```
 
 ## <a name="replace-the-external-edge-certificate-with-a-new-certificate"></a>外部境界の証明書を新しい証明書に置き換える
 <a name="BKMK_UpdatePassword"> </a>
@@ -361,9 +361,9 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
     
 2. 次のコマンドを実行します。 
     
-  ```
-  Set-CcExternalCertificateFilePath -Target EdgeServer -Path <Full file path of new certificate including filename> -Import
-  ```
+   ```
+   Set-CcExternalCertificateFilePath -Target EdgeServer -Path <Full file path of new certificate including filename> -Import
+   ```
 
 3. 
     

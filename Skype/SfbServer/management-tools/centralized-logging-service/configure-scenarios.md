@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: '概要: は、作成、変更、およびビジネス サーバー 2015 の Skype で集中ログ サービスのシナリオを削除する方法を説明します。'
-ms.openlocfilehash: acfd7ae44d7fde1e585792e691c604d18471b29e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e80324d4228aec503c887927459e42188741837f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21016398"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373931"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での集中ログ サービスのシナリオの構成
  
@@ -62,21 +62,21 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
     定義されたオプションを使用してシナリオを作成するには、次のように入力します。
     
-  ```
-  New-CsClsScenario -Identity <scope>/<unique scenario name> -Provider <provider variable>
-  ```
+   ```
+   New-CsClsScenario -Identity <scope>/<unique scenario name> -Provider <provider variable>
+   ```
 
     次に例を示します。
     
-  ```
-  New-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider $LyssProvider
-  ```
+   ```
+   New-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider $LyssProvider
+   ```
 
     他の形式名と親の使用します。
     
-  ```
-  New-CsClsScenario -Name "LyssServiceScenario" -Parent "site:Redmond" -Provider $LyssProvider
-  ```
+   ```
+   New-CsClsScenario -Name "LyssServiceScenario" -Parent "site:Redmond" -Provider $LyssProvider
+   ```
 
 ### <a name="to-create-a-new-scenario-with-multiple-providers-with-the-new-csclsscenario-cmdlet"></a>複数のプロバイダーを指定した新しいシナリオを New-CsClsScenario コマンドレットを使用して作成するには
 
@@ -84,9 +84,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. スコープごとのシナリオ数は 2 つまでに制限されています。 しかし、設定するプロバイダーの数に制限はありません。 この例では、3 つのプロバイダーを作成済みで、定義するシナリオに 3 つのプロバイダーをすべて割り当てる必要があるとします。 プロバイダー変数の名前は LyssProvider、ABServerProvider、および SIPStackProvider です。 定義し、シナリオに複数のプロバイダーを割り当てるするには、ビジネスのサーバー管理シェルまたは Windows PowerShell コマンド プロンプトで、Skype で次を入力します。
     
-  ```
-  New-CsClsScenario -Identity "site:Redmond/CollectDataScenario" -Provider @{Add=$LyssProvider, $ABServerProvider,  $SIPStackProvider}
-  ```
+   ```
+   New-CsClsScenario -Identity "site:Redmond/CollectDataScenario" -Provider @{Add=$LyssProvider, $ABServerProvider,  $SIPStackProvider}
+   ```
 
     > [!NOTE]
     > Windows PowerShell を使用して値のハッシュ テーブルを作成するための規則で認識されている`@{<variable>=<value1>, <value2>, <value>…}`assplatting と呼びます。 Windows PowerShell のスプラッティング技法に関する詳細についてを参照してください[https://go.microsoft.com/fwlink/p/?LinkId=267760](https://go.microsoft.com/fwlink/p/?LinkId=267760)。 
@@ -97,33 +97,33 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. スコープごとのシナリオ数は 2 つまでに制限されています。 実行するシナリオは、ログ キャプチャ セッションの実行中を含め、いつでも変更できます。 実行するシナリオを再定義すると、現在のログ セッションは削除されたシナリオの使用を停止し、新しいシナリオの使用を開始します。 ただし、削除されたシナリオでキャプチャされたログ情報はキャプチャされたログに残ります。 新しいシナリオを定義する (つまり、"S4Provider"という名前の定義済みのプロバイダーの追加を想定して)、次の操作を行います。
     
-  ```
-  Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Add=<new provider to add>}
-  ```
+   ```
+   Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Add=<new provider to add>}
+   ```
 
     次に例を示します。
     
-  ```
-  Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Add=$S4Provider}
-  ```
+   ```
+   Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Add=$S4Provider}
+   ```
 
     プロバイダーを置き換える場合は、現在のセットと置き換える単一のプロバイダーか、プロバイダーのコンマ区切りリストを定義します。多数のプロバイダーのうち 1 つだけを置き換える場合は、現在のプロバイダーに新しいプロバイダーを追加して、新しいプロバイダーと既存のプロバイダーの両方を含む新しいプロバイダーのセットを作成します。すべてのプロバイダーを新しいセットで置き換える場合は、次のように入力します。
     
-  ```
-  Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Replace=<providers to replace existing provider set>}
-  ```
+   ```
+   Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Replace=<providers to replace existing provider set>}
+   ```
 
     たとえば、現在の $LyssProvider、$ABServerProvider、および $SIPStackProvider のセットを $LyssServiceProvider に置き換えるには、次のように入力します。
     
-  ```
-  Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Replace=$LyssServiceProvider}
-  ```
+   ```
+   Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Replace=$LyssServiceProvider}
+   ```
 
     現在の $LyssProvider、$ABServerProvider、および $SIPStackProvider のセットのうち、$LyssProvider プロバイダーだけを $LyssServiceProvider に置き換えるには、次のように入力します。
     
-  ```
-  Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Replace=$LyssServiceProvider, $ABServerProvider, $SIPStackProvider}
-  ```
+   ```
+   Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Replace=$LyssServiceProvider, $ABServerProvider, $SIPStackProvider}
+   ```
 
 ### <a name="to-remove-an-existing-scenario-with-the-remove-csclsscenario-cmdlet"></a>Remove-CsClsScenario コマンドレットを使用して既存のシナリオを削除するには
 
@@ -131,15 +131,15 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. 定義済みのシナリオを削除する場合は、次のように入力します。
     
-  ```
-  Remove-CsClsScenario -Identity <name of scope and scenario>
-  ```
+   ```
+   Remove-CsClsScenario -Identity <name of scope and scenario>
+   ```
 
     たとえば、定義済みのシナリオ site:Redmond/LyssServiceScenario を削除するには、次のようにします。
     
-  ```
-  Remove-CsClsScenario -Identity "site:Redmond/LyssServiceScenario"
-  ```
+   ```
+   Remove-CsClsScenario -Identity "site:Redmond/LyssServiceScenario"
+   ```
 
 **削除 CsClsScenario**コマンドレットには、指定したシナリオが削除されますが、ログを検索するには、キャプチャされたトレースが利用できます。
 ### <a name="to-load-and-unload-the-edit-csclsscenario-cmdlet-using-the-clsscenarioeditpsm1-module"></a>ClsScenarioEdit.psm1 モジュールを使用して Edit-CsClsScenario コマンドレットをロードおよびアンロードするには
@@ -151,18 +151,18 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   
 2. Windows PowerShell で、次のように入力します。
     
-  ```
-  Import-Module "CDBurn\OCO\amd64\Support"
-  ```
+   ```
+   Import-Module "CDBurn\OCO\amd64\Support"
+   ```
 
     > [!TIP]
     > モジュールの読み込みが成功では、Windows PowerShell コマンド プロンプトに戻ります。 モジュールが読み込まれ、編集 CsClsScenario が利用できることを確認するには、次のように入力します。 `Get-Help Edit-CsClsScenario`。 すると、EditCsClsScenario の構文の基本的な概要が表示されます。 
   
 3. モジュールをアンロードするには、次のように入力します。
     
-  ```
-  Remove-Module ClsController
-  ```
+   ```
+   Remove-Module ClsController
+   ```
 
     > [!TIP]
     > 成功のアンロード モジュールを返しますする Windows PowerShell コマンド プロンプトにします。 モジュールが読み込まれていることを確認するには、次のように入力します。 `Get-Help Edit-CsClsScenario`。 Windows PowerShell コマンドレットのヘルプを検索し、失敗を試みます。 
@@ -173,32 +173,32 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. Windows PowerShell で、次のように入力します。
     
-  ```
-  Import-Module "CDBurn\OCO\amd64\Support"
-  ```
+   ```
+   Import-Module "CDBurn\OCO\amd64\Support"
+   ```
 
     > [!TIP]
     > モジュールの読み込みが成功では、Windows PowerShell コマンド プロンプトに戻ります。 モジュールが読み込まれ、編集 CsClsScenario が利用できることを確認するには、次のように入力します。 `Get-Help Edit-CsClsScenario`。 すると、EditCsClsScenario の構文の基本的な概要が表示されます。 
   
 3. AlwaysOn シナリオからプロバイダーを削除するには、次のように入力します。
     
-  ```
-  Edit-CsClsScenario -ScenarioName <string of the scenario to edit> -ProviderName <string of the provider to remove> -Remove
-  ```
+   ```
+   Edit-CsClsScenario -ScenarioName <string of the scenario to edit> -ProviderName <string of the provider to remove> -Remove
+   ```
 
-  次に例を示します。
+   次に例を示します。
     
-  ```
-  Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Remove
-  ```
+   ```
+   Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Remove
+   ```
 
    パラメーター ScenarioName および ProviderName は、位置指定 (コマンド ライン内の指定された位置に定義する必要がある) パラメーターです。コマンドレット名を位置 1 として、シナリオ名が位置 2、プロバイダーが位置 3 にある場合は、パラメーター名を明示的に定義する必要はありません。この情報を使用すると、上記のコマンドは次のように入力できます。
     
-  ```
-  Edit-CsClsScenario AlwaysOn ChatServer -Remove
-  ```
+   ```
+   Edit-CsClsScenario AlwaysOn ChatServer -Remove
+   ```
 
-  パラメーターの値の位置で配置することにのみ適用されます - シナリオとプロバイダーです。 他のすべてのパラメーターは明示的に定義する必要があります。
+   パラメーターの値の位置で配置することにのみ適用されます - シナリオとプロバイダーです。 他のすべてのパラメーターは明示的に定義する必要があります。
     
 ### <a name="to-add-a-provider-to-a-scenario-with-the-edit-clscontroller-module"></a>Edit-ClsController モジュールを使用してシナリオにプロバイダーを追加するには
 
@@ -206,20 +206,20 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. AlwaysOn シナリオにプロバイダーを追加するには、次のように入力します。
     
-  ```
-  Edit-CsClsScenario -ScenarioName <string of the scenario to edit> -ProviderName <string of the provider to add> -Level <string of type level> -Flags <string of type flags>
-  ```
+   ```
+   Edit-CsClsScenario -ScenarioName <string of the scenario to edit> -ProviderName <string of the provider to add> -Level <string of type level> -Flags <string of type flags>
+   ```
 
     次に例を示します。
     
-  ```
-  Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Level Info -Flags TF_COMPONENT
-  ```
+   ```
+   Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Level Info -Flags TF_COMPONENT
+   ```
 
     -Loglevel には、Fatal、Error、Warning、Info、Verbose、Debug、または All を指定できます。 フラグには、TF_COMPONENT、TF_DIAG など、プロバイダーがサポートするためのフラグのいずれかを指定できます。 フラグことができますのすべての値
     
-  上記の例を、コマンドレットの位置指定機能を使用して入力することもできます。たとえば、プロバイダー ChatServer を AlwaysOn シナリオに追加するには、次のように入力します。
+   上記の例を、コマンドレットの位置指定機能を使用して入力することもできます。たとえば、プロバイダー ChatServer を AlwaysOn シナリオに追加するには、次のように入力します。
     
-  ```
-  Edit-CsClsScenario AlwaysOn ChatServer -Level Info -Flags ALL
-  ```
+   ```
+   Edit-CsClsScenario AlwaysOn ChatServer -Level Info -Flags ALL
+   ```

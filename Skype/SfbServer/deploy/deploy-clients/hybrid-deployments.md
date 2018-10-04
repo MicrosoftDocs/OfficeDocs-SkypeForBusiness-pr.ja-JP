@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: ハイブリッド環境で Skype ルームのシステムを展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: ce57178a03a466b76edfbafdcc467d9458028845
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4e73b182f7e957f6f8a45e2ba0ccaa113a96411f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997294"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375281"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Skype Room System のハイブリッド展開
  
@@ -28,9 +28,9 @@ ms.locfileid: "20997294"
   
 1. Exchange のオンラインでの準備の説明に従ってオンラインでの Exchange 管理シェルに接続することによって、Exchange 管理センター (LyncSample.ccsctp.net) でリソース メールボックスを作成します。
     
-  ```
-  New-Mailbox -room -name "LRS Test 5" -RoomMailboxPassword (ConvertTo-SecureString <password> -AsPlainText -Force) -EnableRoomMailboxAccount $true 
-  ```
+   ```
+   New-Mailbox -room -name "LRS Test 5" -RoomMailboxPassword (ConvertTo-SecureString <password> -AsPlainText -Force) -EnableRoomMailboxAccount $true 
+   ```
 
     ログに記録する lrstest5@LyncSample.ccsctp.net を使用して OWA の接続を確認できます。
     
@@ -44,8 +44,8 @@ ms.locfileid: "20997294"
     
     メールボックスを作成した後、Exchange Online 管理シェルで Set-CalendarProcessing を使用してメールボックスを構成できます。詳細については、単一フォレストのオンプレミス展開の手順 3 ～ 6 を参照してください。
     
-    > [!NOTE]
-    > Exchange Server および Exchange Online を使用して、ハイブリッド環境を使っている場合に、Exchange 管理シェルと有効にする RemoteMailbox の lrstest5@LyncSample.com ・ RemoteRoutingAddress lrstest5@LyncSample.mail.ccsctp.net ・ ルーム。 ディレクトリ同期をトリガーします。 
+   > [!NOTE]
+   > Exchange Server および Exchange Online を使用して、ハイブリッド環境を使っている場合に、Exchange 管理シェルと有効にする RemoteMailbox の lrstest5@LyncSample.com ・ RemoteRoutingAddress lrstest5@LyncSample.mail.ccsctp.net ・ ルーム。 ディレクトリ同期をトリガーします。 
   
     オンライン Exchange Skype ルームのシステム メールボックスをホストする場合は、Exchange 管理シェルの手順は必須ではありませんし、手順 6 に進むことができます。
     

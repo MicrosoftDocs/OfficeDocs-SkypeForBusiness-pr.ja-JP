@@ -10,11 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
 description: ビジネス サーバー 2015 トポロジの変更やプロビジョニングのストレスおよびパフォーマンス ツールが正常に実行できるようにする Skype。
-ms.openlocfilehash: 825dd56a7f2cb343eddd8cbed7e811cdc5154b9c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6ff08a3b99f4dc1f05b56c2a1fa86733ccf4f852
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373779"
 ---
 # <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>ストレスおよびパフォーマンスのシナリオで負荷を実行するのにはトポロジの準備
  
@@ -24,15 +25,15 @@ ms.lasthandoff: 03/28/2018
   
 1. Windows PowerShell 実行ポリシーは、[制限しない] に設定します。 かわからないことが現時点に設定するは、ビジネス サーバー管理シェルには、Skype を開くし、このコマンドを実行します。
     
-  ```
-  Get-ExecutionPolicy
-  ```
+   ```
+   Get-ExecutionPolicy
+   ```
 
-  [制限しない] の値が返されない場合は、次にこのを実行する必要があります。
+   [制限しない] の値が返されない場合は、次にこのを実行する必要があります。
     
-  ```
-  Set-ExecutionPolicy -Unrestricted
-  ```
+   ```
+   Set-ExecutionPolicy -Unrestricted
+   ```
 
 2. 効果的なビジネス サーバーの Skype を構成するにする必要があります。
     
@@ -42,9 +43,9 @@ ms.lasthandoff: 03/28/2018
     
 3. コマンドラインからスクリプトを実行するには、次の使用できます。
     
-  ```
-  PowerShell.exe -file <path to the file>
-  ```
+   ```
+   PowerShell.exe -file <path to the file>
+   ```
 
 4. 通常、スクリプトを実行すると、このパッケージからして、結果のトレースはスクリプトが実行された場所から同じパス内のファイルに保存されます。 名前付け形式を同様に、\<移動し、scriptname\>$h$m$s.txt。 午後 12時 15分、ArchivingPolicy.ps1 を実行すると、ArchivingPolicy121500.txt をという名前のログ ファイルが表示されます。
     

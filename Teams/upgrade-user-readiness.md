@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c6939f28f5e7c215c96be56c7f85a536dc155f3a
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: eba3174e8bce17f66a7e990c0066bc886aed9f9b
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017978"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374098"
 ---
 ![ユーザーの準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-user-readiness.png "ユーザーの準備段階に重点を置いて、旅アップグレードの段階")
 
@@ -39,15 +39,15 @@ ms.locfileid: "25017978"
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>意思決定ポイント|<ul><li>容易にして、新しいソリューションのユーザーの採用を促進する準備計画を作成することができますでしょうか。</li><li>右の意識、トレーニング、およびサポート リソースを変更し、定義されているユーザーのペルソナを扱うユーザーの機能の連携をしていますか。</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>準備計画のアイデアを生成するのにには、以下のリストを使用します。 最も関連するアクティビティを選択-独自の追加または、組織用に最適化された対応計画を設計します。 最大の結果の一般公開用の組織全体) と (遅滞者または特定のペルソナ) の対象となるキャンペーンの組み合わせを使用することを忘れないでください。</li></ul>|
+| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>容易にして、新しいソリューションのユーザーの採用を促進する準備計画を作成することができますでしょうか。</li><li>右の意識、トレーニング、およびサポート リソースを変更し、定義されているユーザーのペルソナを扱うユーザーの機能の連携をしていますか。</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>準備計画のアイデアを生成するのにには、以下のリストを使用します。 最も関連するアクティビティを選択-独自の追加または、組織用に最適化された対応計画を設計します。 最大の結果の一般公開用の組織全体) と (遅滞者または特定のペルソナ) の対象となるキャンペーンの組み合わせを使用することを忘れないでください。</li></ul>|
 
 
 <div class="mx-tableFixed">
 <table>
 <tbody>
 <tr><th>どのような通信チャネルを活用する、でしょうか。</th><th>トレーニング チャンネルを活用するでしょうか。</th><th>チャネルにどのようなサポートを使用するか。</th></tr>
-<tr><td><ul><li>Email<br>**ヒント:** サンプル、パイロット、共存を使用し、e メール キャンペーンをカスタマイズするのには電子メールをアップグレードします。</li><li>ポスターやデジタル ・ サイネージ</li><li>イベントを起動します。</li><li>部署の責任者</li><li>チャンピオン</li><li>チーム/チャンネル</li><li>Gamification</li></ul></td><td><ul><li>マイクロソフト発行のオンライン記事およびビデオ</li><li>リソース:<ul><li>[ビジネスの Skype からのチームに切り替える](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)</li><li>[チームのビデオ トレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)</li></ul></li><li>製品で支援 (T Bot)</li><li>社内トレーニング チーム</li><li>パートナー ・ トレーニング ・ チーム</li></ul></td><td><ul><li>社内ヘルプデスク</li><li>外部委託のサポート デスク</li><li>セルフ サービス (イントラネット サイト)</li><li>[オンライン ヘルプと使い方](https://support.office.com/teams)</li><li>床師とチャンピオン</li><li>フィードバックのループ (アンケート、評価)</li></ul></td></tr>
+<tr><td><ul><li>Email<br><strong>ヒント:</strong>サンプル、パイロット、共存を使用し、e メール キャンペーンをカスタマイズするのには電子メールをアップグレードします。</li><li>ポスターやデジタル ・ サイネージ</li><li>イベントを起動します。</li><li>部署の責任者</li><li>チャンピオン</li><li>チーム/チャンネル</li><li>Gamification</li></ul></td><td><ul><li>マイクロソフト発行のオンライン記事およびビデオ</li><li>リソース:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">ビジネスの Skype からのチームに切り替える</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">チームのビデオ トレーニング</a></li></ul></li><li>製品で支援 (T Bot)</li><li>社内トレーニング チーム</li><li>パートナー ・ トレーニング ・ チーム</li></ul></td><td><ul><li>社内ヘルプデスク</li><li>外部委託のサポート デスク</li><li>セルフ サービス (イントラネット サイト)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">オンライン ヘルプと使い方</a></li><li>床師とチャンピオン</li><li>フィードバックのループ (アンケート、評価)</li></ul></td></tr>
 </tbody>
 </table>
 </div>

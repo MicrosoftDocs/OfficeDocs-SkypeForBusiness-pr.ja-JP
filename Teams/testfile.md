@@ -1,11 +1,11 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.openlocfilehash: e287cc1b6c987e29067d75e344710104cd9c2c4b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: da7786e9ae43fe6021a8358622eedcac22514e57
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246891"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370653"
 ---
 # <a name="welcome-to-office-content-on-docsmicrosoftcom"></a>docs.microsoft.com 上の Office へようこそコンテンツ
 ## <a name="this-is-a-level-2-heading"></a>これはレベル 2 の見出しです
@@ -43,7 +43,7 @@ ms.locfileid: "23246891"
 <p>&#9744; を表示します</p>
 <p>&#x2610; を表示します</p>
 
-###<a name="this-is-heading-3"></a>これには、見出し 3
+### <a name="this-is-heading-3"></a>これには、見出し 3
 
 Microsoft Teams コンテンツを利用できるようになりました。
 [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams)

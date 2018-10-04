@@ -11,12 +11,12 @@ description: Microsoft Teams での Cloud Voice の機能の展開について�
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 068ddc726a366f5ee34b23dca0f76699d4c76afc
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: e78abdbe7d0cc2680917f2aae7920883837a2ac9
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25019077"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375980"
 ---
 # <a name="teams-cloud-meeting-recording"></a>チーム クラウドのミーティングのレコーディング
 
@@ -75,13 +75,13 @@ Microsoft ストリームの管理者は、[会社の規定のポリシーを設
 </br>
 
 
-|シナリオ|手順 |
-|---|---|
-|すべてのユーザーがミーティングを記録することができる会社にします |<ol><li>確認するグローバル CsTeamsMeetingPolicy AllowCloudRecording = True<li>すべてのユーザーがあるグローバルの CsTeamsMeetingPolicy または AllowCloudRecording と CsTeamsMeetingPolicy のポリシーのいずれかの指定 </ol>|
-|大多数のユーザーがミーティングを記録するが、選択的に記録するのには許可されていない特定のユーザーを無効にすることにします |<ol><li>確認する GlobalCsTeamsMeetingPolicy AllowCloudRecording = True<li>大半のユーザーがあるグローバル CsTeamsMeetingPolicy またはいずれかの CsTeamsMeetingPolicy ポリシーの AllowCloudRecording を持つ = True<li>AllowCloudRecording と CsTeamsMeetingPolicy のポリシーのいずれかの他のすべてのユーザーが付与されて false</ol>|
-|100% 無効にするを記録したいです。| <ol><li>確認するグローバル CsTeamsMeetingPolicy AllowCloudRecording = False<li>ユーザーをすべて与えられているグローバル CsTeamsMeetingPolicy または CsTeamsMeetingPolicy のポリシーの 1 つで AllowCloudRecording = False|
-|大半のユーザーを無効にするが、選択的に記録するために許可されている特定のユーザーを有効にするを記録したいです。|<ol><li>確認するグローバル CsTeamsMeetingPolicy AllowCloudRecording = False<li>大半のユーザーが与えられて、グローバル CsTeamsMeetingPolicy またはいずれかの CsTeamsMeetingPolicy ポリシーの AllowCloudRecording を指定<li>AllowCloudRecording と CsTeamsMeetingPolicy のポリシーのいずれかの他のすべてのユーザーが与えられて = True <ol>|
-|||
+|                                                                 シナリオ                                                                 |                                                                                                                                                                         手順                                                                                                                                                                          |
+|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                    すべてのユーザーがミーティングを記録することができる会社にします                                    |                                                                     <ol><li>確認するグローバル CsTeamsMeetingPolicy AllowCloudRecording = True<li>すべてのユーザーがあるグローバルの CsTeamsMeetingPolicy または AllowCloudRecording と CsTeamsMeetingPolicy のポリシーのいずれかの指定 </ol>                                                                     |
+| 大多数のユーザーがミーティングを記録するが、選択的に記録するのには許可されていない特定のユーザーを無効にすることにします |        <ol><li>確認する GlobalCsTeamsMeetingPolicy AllowCloudRecording = True<li>大半のユーザーがあるグローバル CsTeamsMeetingPolicy またはいずれかの CsTeamsMeetingPolicy ポリシーの AllowCloudRecording を持つ = True<li>AllowCloudRecording と CsTeamsMeetingPolicy のポリシーのいずれかの他のすべてのユーザーが付与されて false</ol>         |
+|                                                   100% 無効にするを記録したいです。                                                   |                                                                <ol><li>確認するグローバル CsTeamsMeetingPolicy AllowCloudRecording = False<li>ユーザーをすべて与えられているグローバル CsTeamsMeetingPolicy または CsTeamsMeetingPolicy のポリシーの 1 つで AllowCloudRecording = False                                                                 |
+|      大半のユーザーを無効にするが、選択的に記録するために許可されている特定のユーザーを有効にするを記録したいです。       | <ol><li>確認するグローバル CsTeamsMeetingPolicy AllowCloudRecording = False<li>大半のユーザーが与えられて、グローバル CsTeamsMeetingPolicy またはいずれかの CsTeamsMeetingPolicy ポリシーの AllowCloudRecording を指定<li>AllowCloudRecording と CsTeamsMeetingPolicy のポリシーのいずれかの他のすべてのユーザーが与えられて = True <ol> |
+|                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                        |
 
 ### <a name="enabledisable-recording-transcription-for-users"></a>ユーザーの議事録の記録を有効または無効
 

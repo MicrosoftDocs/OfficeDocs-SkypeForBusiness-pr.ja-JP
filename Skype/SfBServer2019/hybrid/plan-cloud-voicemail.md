@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: この資料では、利点、計画に関する考慮事項、およびマイクロソフトのクラウドのボイスメール サービスを実装するための要件について説明します。 クラウドのボイス メールの構成方法の詳細については、クラウドのボイスメールを設定するを参照してください。
-ms.openlocfilehash: e307ddcb5159e51ebe26e6a5bee10f9b2ee716e9
-ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
+ms.openlocfilehash: 8f7c2e394aa7d3f5a04961088202d1d9055eef9e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "25030624"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370635"
 ---
 # <a name="plan-cloud-voicemail-service"></a>クラウドのボイスメール サービスを計画します。
 
@@ -81,7 +81,7 @@ ms.locfileid: "25030624"
 
 -  されている、設置型のみ展開--は、Exchange およびビジネス用の Skype のみ設置型サーバー クラウドのボイスメールを活用するの PREM ライセンスが必要です。 
 
-##<a name="migration-and-interoperability"></a>移行と相互運用性
+## <a name="migration-and-interoperability"></a>移行と相互運用性
 
 Skype をビジネス サーバー 2019/2019 の Exchange Server の展開を計画している場合は、ボイス メッセージングの継続的なサービスを保証するには、慎重に、移行を計画する必要があります。 以下の点について留意してください。
 

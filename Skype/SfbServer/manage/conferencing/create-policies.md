@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: '概要: は、Skype のビジネス サーバーの会議ポリシーを作成する方法を説明します。'
-ms.openlocfilehash: 3c71962e42e083ada13b14bdecbefafbbc44f72b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4a481d8853fdb8f022da3539c5ebeb49c3b49402
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20996602"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372288"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>ビジネス サーバーのため、Skype で会議ポリシーを作成します。
  
@@ -26,7 +26,7 @@ ms.locfileid: "20996602"
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2.  Skype をビジネス サーバーのコントロール パネルを開きます。
+2. Skype をビジネス サーバーのコントロール パネルを開きます。
     
 3. 左側のナビゲーション バーで、[**会議**] をクリックし、[**会議ポリシー**] をクリックします。
     
@@ -36,8 +36,8 @@ ms.locfileid: "20996602"
     
    - サイトレベルのポリシーを作成するには、[**サイト ポリシー**] をクリックします。[**サイトの選択**] 検索フィールドに、ポリシーを作成するサイトの名前または名前の一部を入力します。サイトの一覧で、対象のサイトをクリックして、[**OK**] をクリックします。
     
-    > [!NOTE]
-    > サイト名は電話会議ポリシー名となり、変更できません。 
+     > [!NOTE]
+     > サイト名は電話会議ポリシー名となり、変更できません。 
   
 5. [**説明**] にポリシーの説明を入力します。
     

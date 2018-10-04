@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60575e2b9a1398bf5eba6dfec5aa883e4478f648
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 96af6eb707c8f104a7810e924323d9f32996f8f1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014598"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374296"
 ---
 # <a name="enhance-my-service"></a>サービスを強化します。
 
@@ -35,8 +35,8 @@ ms.locfileid: "25014598"
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>意思決定ポイント</td><td><ul><li>パブリック ・ ロードマップとその他の新しい機能やサービスからメリットを得られる可能性があります組織のサービスのお知らせを監視するかを決定します。</li><li>報告これらの新しい機能やサービス、運営委員会を使用して、キーの関係者にするためのリズムを決定します。</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>次のステップ</td><td><ul><li>組織のほとんどの値を取得するサービスを最新の状態を維持するための戦略を実装します。</li><li>ドライブの展開に与える影響を怠らない適切かどうかを確認するのには完全なプロジェクト ライフ サイクルを通じてサービスの拡張機能です。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>パブリック ・ ロードマップとその他の新しい機能やサービスからメリットを得られる可能性があります組織のサービスのお知らせを監視するかを決定します。</li><li>報告これらの新しい機能やサービス、運営委員会を使用して、キーの関係者にするためのリズムを決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>組織のほとんどの値を取得するサービスを最新の状態を維持するための戦略を実装します。</li><li>ドライブの展開に与える影響を怠らない適切かどうかを確認するのには完全なプロジェクト ライフ サイクルを通じてサービスの拡張機能です。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

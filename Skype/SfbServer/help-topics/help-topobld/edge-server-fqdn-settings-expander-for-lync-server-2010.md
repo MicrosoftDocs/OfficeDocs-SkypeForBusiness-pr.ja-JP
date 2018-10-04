@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: '[外部設定] でプロパティを定義するには、次のように構成します。'
-ms.openlocfilehash: 27bc29afd26ac280eaeb7469af530862c94b03a6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d925da792e2c2c296707a99d6a4ae6b29c0545a9
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20999731"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375609"
 ---
 # <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Lync Server 2010 エッジ サーバー FQDN 設定の展開
  
@@ -38,10 +38,10 @@ ms.locfileid: "20999731"
     
 - 定義、 **A/音声ビデオ エッジ サービス**プールの FQDN (web 会議および A の FQDN と IP アドレスを分割する場合に有効にする V が選択されていないと) と、サービスを一意に識別するポート。
     
- [**OK**]: ダイアログでの変更を受け入れて確定します。
+  [**OK**]: ダイアログでの変更を受け入れて確定します。
   
- [**キャンセル**]: 変更を破棄してダイアログを閉じます。
+  [**キャンセル**]: 変更を破棄してダイアログを閉じます。
   
- [**ヘルプ**]: このヘルプ画面を表示します。
+  [**ヘルプ**]: このヘルプ画面を表示します。
   
 

@@ -28,12 +28,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 国/地域を選択して、電話会議、電話システム、通話プラン、コミュニケーション クレジット、および有料電話番号と無料電話番号を利用できるかどうかを確認できます。
-ms.openlocfilehash: c705feab5ab0288fb496544c76ce7346de3bb9d5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: bc39b239128ffacea5c4d58d1055f57d5088fb11
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013652"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372486"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>国および地域ごとの電話会議および通話プランの利用可能性
 
@@ -136,7 +136,7 @@ ms.locfileid: "25013652"
 Skype for Business または Microsoft Teams サービスの 1 つが利用できるかどうかを調べて確認した後は、ライセンスを購入してユーザーに割り当てる方法の詳細について「[Skype for Business と Microsoft Teams のアドオン ライセンス](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)」で確認することができます。
 
 > [!NOTE]
-
+> 
 > ユーザーの他の電話番号を取得するのを参照してください[、ユーザーの電話番号を取得](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)または、電話番号の要求フォームは、[組織の電話番号を管理](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)します。
 
 

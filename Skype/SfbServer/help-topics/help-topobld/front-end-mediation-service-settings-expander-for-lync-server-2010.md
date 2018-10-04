@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 37166b87-8a43-42a6-a2aa-5a45bed8a6f3
 description: このダイアログ ボックスで、仲介サーバー PSTN ゲートウェイの設定のプロパティを編集するとします。 次の設定を定義します。
-ms.openlocfilehash: fa3038e8480fb11430388c95914750ab1d9ca68c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a70ec5e569b60c28e8ec91e86d09ac5f5285ee00
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20971989"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371492"
 ---
 # <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>Lync Server 2010 のフロント エンド仲介サービスの設定の拡張
  
@@ -34,10 +34,10 @@ ms.locfileid: "20971989"
     
 - トランク、ゲートウェイ、およびサイトを選択し、[**既定値にする**] をクリックして、選択したものをこの仲介サービス用の既定値に設定します。現在の既定値を選択し、[**既定値の解除**] をクリックして、現在の既定値として選択している設定を削除します。その後、新しい既定値を選択して、[**既定値にする**] をクリックします。
     
- [**OK**]: ダイアログでの変更を受け入れて確定します。
+  [**OK**]: ダイアログでの変更を受け入れて確定します。
   
- [**キャンセル**]: 変更を破棄してダイアログを閉じます。
+  [**キャンセル**]: 変更を破棄してダイアログを閉じます。
   
- [**ヘルプ**]: このヘルプ画面を表示します。
+  [**ヘルプ**]: このヘルプ画面を表示します。
   
 

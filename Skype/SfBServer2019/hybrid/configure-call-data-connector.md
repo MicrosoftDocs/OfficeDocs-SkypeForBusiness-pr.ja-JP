@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 呼び出すデータ コネクタを遠隔測定 Skype からのビジネスの設置型のビジネスのオンライン ・ ツールの Skype を使用して表示するを構成する方法の詳細については。
-ms.openlocfilehash: 38e74e76e09d03036419f16807841a67fdf3433a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7c64ff1cfb7c300c575fb1b4512c590d1ddb867d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030575"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373300"
 ---
 # <a name="configure-call-data-connector"></a>呼び出しデータ コネクタを構成します。
 
@@ -99,7 +99,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 ```
 
 グローバルの設定では、データの電話コネクタの構成設定はサイト スコープに割り当てられます。 監視する際に、追加の管理の柔軟性を提供します。 たとえば、管理者は、レドモンド サイトのデータ コネクタの呼び出しの転送を有効にするが、ダブリンのサイトのデータ コネクタの呼び出しの転送を無効にする例を次に示すように。
-  
+
 ```
 Set-CsCloudCallDataConnectorConfiguration -Identity "site:Redmond" -EnableCallDataConnector $True
 ```
@@ -111,6 +111,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDat
 サイト スコープで構成した設定は、グローバル スコープで構成した設定より優先されます。 たとえば、データ コネクタの呼び出しの転送がグローバル スコープで有効になっているが、(レドモンド サイトの) サイトのスコープで無効にします。 その手段の詳細記録と QoE の情報を呼び出すは、レドモンド サイトのユーザーには転送されません。 ただし、他のサイト (レドモンド サイトの設定ではなくグローバル設定によって管理されているユーザー) のユーザーは、通話の詳細記録と QoE の情報が転送されるがあります。
 
 データ コネクタの呼び出しで使用される最も一般的に使用される設定の値は、次の表のとおりです。  
+
 |プロパティ|説明|既定値|
 |:-----|:-----|:-----|
 |EnableCallDataConnector  <br/> |データの電話コネクタが有効になっているかどうかを示します。 True の場合、オンラインでの監視を監視レコードが転送されます。  <br/> |$False  <br/> |
@@ -121,7 +122,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDat
 データの電話コネクタを無効にすることが関連付けを解除できませんから、フロント エンド プール、監視ストアとはそれをアンインストールまたはそれ以外の場合、バックエンドの監視データベースに影響を与えます。 データの電話コネクタを無効にすると、ビジネスのサーバーの呼び出しのデータをクラウドにアップロードできない Skype を停止します。 
 
 データの電話コネクタを無効にするには、Business Server 管理シェルには、Skype 内からセット CsCloudCallDataConnectorConfiguration コマンドレットを使用しています。 たとえば、次のコマンドでは、$False に EnableCallDataConnector プロパティを設定することでグローバル スコープでデータの電話コネクタを無効にします。
-  
+
 ```
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $False
 ```
@@ -140,7 +141,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 ## <a name="for-more-information"></a>詳細情報
 
 コマンドレットの詳細については、ビジネス サーバー管理シェルには、Skype からヘルプを表示コマンドを使用できます。 例:
-  
+
 Get-CsCloudCallDataConnector のヘルプを表示 |もっとその
 
 セット-CsCloudCallDataConnector-ヘルプを表示 |もっとその

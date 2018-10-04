@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Skype で中央サイトとブランチ サイトの両方で、ビジネス サーバーのエンタープライズ VoIP の音声の復元機能をサポートする方法について説明します。 リカバリ性に優れたブランチ アプライアンスまたはブランチのリカバリ性に優れたサーバーを展開するブランチ サイトのオプションが含まれます。
-ms.openlocfilehash: 76b56d7e7d00ecd6d542be3f936af6f2e834974d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b93e93e32baf67b71c2a1eb842455973ee619f80
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882304"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374760"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>ビジネス サーバーに、Skype でエンタープライズ VoIP の復元を計画します。
 
@@ -378,12 +378,13 @@ Exchange ユニファイド メッセージング (UM) は、通常、中央サ�
 
 **表 2. ルート**
 
-|**ルート名**|**番号パターン**|**電話使用法**|**トランク**|**ゲートウェイ**|
-|:-----|:-----|:-----|:-----|:-----|
-|Redmond Local Route  <br/> |^\+1 (425|206|253)(\d{7})$  <br/> |Local  <br/> RedmondLocal  <br/> |Trunk1  <br/> Trunk2  <br/> |Red-GW1  <br/> Red-GW2  <br/> |
-|Dallas Local Route  <br/> |^\+1 (972|214|469)(\d{7})$  <br/> |Local  <br/> |Trunk3  <br/> |Dallas-GW1  <br/> |
-|Universal Route  <br/> |^\+?(\d\*)$  <br/> |GlobalPSTNHopoff  <br/> |Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> |Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
-|Dallas Users Route  <br/> |^\+?(\d\*)$  <br/> |DallasUsers  <br/> |Trunk3  <br/> |Dallas-GW1  <br/> |
+
+| **ルート名**             | **番号パターン** | **電話使用法**         | **トランク**                                 | **ゲートウェイ**                                     |
+|:---------------------------|:-------------------|:------------------------|:------------------------------------------|:------------------------------------------------|
+| Redmond Local Route  <br/> | ^\+1 (425           | 206                     | 253)(\d{7})$  <br/>                       | Local  <br/> RedmondLocal  <br/>                |
+| Dallas Local Route  <br/>  | ^\+1 (972           | 214                     | 469)(\d{7})$  <br/>                       | ローカル  <br/>                                    |
+| Universal Route  <br/>     | ^\+?(\d\*)$  <br/> | GlobalPSTNHopoff  <br/> | Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> | Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
+| Dallas Users Route  <br/>  | ^\+?(\d\*)$  <br/> | DallasUsers  <br/>      | Trunk3  <br/>                             | Dallas-GW1  <br/>                               |
 
 表 1 では、Dallas Calling Policy の電話使用法 DallasUsers の後に、電話使用法 GlobalPSTNHopoff が追加されます。この結果、電話使用法 DallasUsers に対応したルートが使用できない場合に、Dallas Calling Policy の通話で電話使用法 GlobalPSTNHopoff 用に構成されたルートが使用できるようになります。
 

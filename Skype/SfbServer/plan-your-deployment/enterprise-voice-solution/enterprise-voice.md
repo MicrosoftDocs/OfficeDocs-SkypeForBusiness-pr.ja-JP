@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: エンタープライズ VoIP の Skype の基本の Business Server の計画、サイト、地域、サイト間のネットワーク リンクを含むおよび音声の使用量のトラフィックを見積もるします。
-ms.openlocfilehash: 3c5cad1b37b4f3bfe3fe73cad1d185b0116a68a0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: afff1ccffbc6e967f3b18b0746d29db9085fe82c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885338"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373707"
 ---
 # <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>ビジネスのサーバーに、Skype でエンタープライズ VoIP を計画します。
  
@@ -41,9 +41,9 @@ ms.locfileid: "23885338"
 Microsoft Lync Server 2013、計画ツールは、ユーザーのトラフィックでは、各サイトおよびそのトラフィックをサポートするのにために必要なポートの数を推定するのには次のメトリックを使用します。
   
 > **軽度のトラフィック** (1 人あたり 1 時間に 1 PSTN 通話) の場合、1 ポートに対して 15 ユーザーを割り当てます。
-    
+> 
 > **中度のトラフィック** (1 人あたり 1 時間に 2 PSTN 通話) の場合、1 ポートに対して 10 ユーザーを割り当てます。
-    
+> 
 > **重度のトラフィック** (1 人あたり 1 時間に 3 以上の PSTN 通話) の場合、1 ポートに対して 5 ユーザーを割り当てます。
     
 ポートの数には、仲介サーバーとゲートウェイが必要になることの順番を決定します。 960 個のポートに 2 つのポートからのサイズの範囲を展開するほとんどの組織を検討している公衆交換電話網 (PSTN) ゲートウェイです。 (がさらに大きくゲートウェイがこれらの主にテレフォニー サービス プロバイダーによって使用されます)。

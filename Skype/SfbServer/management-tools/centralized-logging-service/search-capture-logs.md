@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: '概要: 検索し、ビジネス サーバー 2015 の Skype でのログ サービスの一元的なログを読み取る方法を説明します。'
-ms.openlocfilehash: 4016aeaac5b693ceef620dad66031254f208bfbf
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9429ef0f2c14552c615e4d7f81c497ea9bb546f3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969019"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372220"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 で集中ログ サービスが作成したキャプチャ ログを検索する
  
@@ -56,9 +56,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. AlwaysOn シナリオが展開内でグローバル スコープで実行していることを確認し、コマンド プロンプトで次のように入力します。
     
-  ```
-  Search-CsClsLogging -OutputFilePath <string value of path and file to write the output file>
-  ```
+   ```
+   Search-CsClsLogging -OutputFilePath <string value of path and file to write the output file>
+   ```
 
 > [!NOTE]
 > 既定では、Search-CsClsLogging は検索の結果をコンソールに送ります。 -OutputFilePath を使用して、検索結果をファイルに保存する場合は、_\<ファイルの絶対パスを文字列\>_。 -OutputFilePath パラメーターを定義するには、「パスとファイル名 (たとえば引用符で囲まれた文字列の形式でパラメーターの一部としての使用」を指定していますください。C:\LogFiles\SearchOutput.txt)。 この例では、ディレクトリ C:\LogFiles が存在し、フォルダー内のファイルに対して読み取りと書き込みのアクセス許可 (NTFS の場合は変更のアクセス許可) を持っている必要があります。 出力は追加され、上書きはされません。 個別のファイルが必要な場合は、検索ごとに個々のファイル名を定義します。 
@@ -73,9 +73,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 1. 特定のプールやコンピューターの検索を制限するを使用して、コンピューターのパラメーターを引用符で囲まれて、次のように、コンマで区切られたコンピューターの完全修飾名で定義されているコンピューターで。
     
-  ```
-  Search-CsClsLogging -Computers <string value of computer names> -OutputFilePath <string value of path and file to write the output file>
-  ```
+   ```
+   Search-CsClsLogging -Computers <string value of computer names> -OutputFilePath <string value of path and file to write the output file>
+   ```
 
 次に例を示します。
     
@@ -85,25 +85,25 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. 複数のコンピューターを検索するには、次に示すように、複数のコンピューター名をそれぞれ引用符で囲み、コンマで区切って入力します。
     
-  ```
-  Search-CsClsLogging -Computers "fe01.contoso.net", "fe02.contoso.net", "fe03.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Computers "fe01.contoso.net", "fe02.contoso.net", "fe03.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
+   ```
 
 3. 変更する 1 台のコンピューターではなくプール全体を検索する場合は、コンマで区切られた、プールまたは引用符で囲まれたプールで、プール、コンピューター名を削除および置換する-コンピューターのパラメーターです。
     
     例:
     
-  ```
-  Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 4. 検索コマンドを使用して、プールのフロント エンド プール、エッジ プール、永続的なチャット サーバー プール、または、配置内のリソース プールとして定義されている他のユーザーなど、配置内のすべてのプールを使用できます。
     
     次に例を示します。
     
-  ```
-  Search-CsClsLogging -Pools "pool01.contoso.net", "pchatpool01.contoso.net", "intedgepool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Pools "pool01.contoso.net", "pchatpool01.contoso.net", "intedgepool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 ### <a name="to-run-a-search-by-using-time-parameters"></a>時間のパラメーターを使用して検索を実行するには
 
@@ -113,9 +113,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
     などの日付と時刻の範囲を定義するための開始時刻と、終了時刻を使用するを定義できます午前 8 と 9 AM の間で検索 2012/11/20 に、プールに。 次に示すように、出力パスを設定して、c:\logfile.txt という名前のファイルに結果を書き込むことができます。
     
-  ```
-  Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 > [!NOTE]
 > 日時の文字列は、"日付 時間" と"時間 日付" のどちらででも指定できます。 "コマンドが文字列を解析し、適切な値を使用して、日付と時刻からコマンドレットを実行しているマシンでは、ロケールとカルチャの設定をします。 
@@ -142,9 +142,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. 特定のコンポーネントのトレースを収集するコマンドを実行するには、次のように入力します。
     
-  ```
-  Search-CsClsLogging -Components <components to search on> -OutputFilePath <fully qualified path to output logs>
-  ```
+   ```
+   Search-CsClsLogging -Components <components to search on> -OutputFilePath <fully qualified path to output logs>
+   ```
 
 次に例を示します。
     
@@ -156,21 +156,21 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 3. Pool01.contoso.net をという名前のフロント エンド プールだけに同じコンポーネントを使用して検索を制限するには、次のように入力します。
     
-  ```
-  Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 4. 複数のパラメーターを使用するコマンドの既定の検索ロジックでは、定義された各パラメーターに対して論理 OR を使用します。 **MatchAll ・** パラメーターを指定することによって、この動作を変更できます。 これを行うには、次のように入力します。
     
-  ```
-  Search-CsClsLogging -CallId "d0af828e49fa4dcb99f5f80223a634bc" -Components "SIPStack","S4","UserServices" -MatchAll -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -CallId "d0af828e49fa4dcb99f5f80223a634bc" -Components "SIPStack","S4","UserServices" -MatchAll -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 5. AlwaysOn のように、シナリオが定期的に実行するように設定されている場合、または、長期にわたって実行するシナリオが定義されている場合、ログはローカル コンピューターではなくファイル共有に置かれることがあります。ファイル共有は、New-CsClsConfiguration で新しい構成を作成するとき、または Set-CsClsConfiguration で既存の構成を変更するときに、CacheFileNetworkFolder パラメーターを使用して定義します。検索のログ コレクションにファイル共有を含めない場合は、次に示すように、SkipNetworkLogs パラメーターを使用します。
     
-  ```
-  Search-CsClsLogging -Components "SIPStack","S4","UserServices" -StartTime "11/1/2012 00:00:01 AM" -EndTime "11/20/2012 2:45:00 PM" -SkipNetworkLogs -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Components "SIPStack","S4","UserServices" -StartTime "11/1/2012 00:00:01 AM" -EndTime "11/20/2012 2:45:00 PM" -SkipNetworkLogs -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 ## <a name="read-capture-logs-from-the-centralized-logging-service"></a>集中ログ サービスからキャプチャしたログの閲覧
 

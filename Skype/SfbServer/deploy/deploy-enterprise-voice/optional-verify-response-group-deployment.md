@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: ビジネス サーバーのエンタープライズ VoIP の Skype で、応答グループの展開成功を確認します。
-ms.openlocfilehash: f92181f63606ff3c4322fdefb814e9682c79b0cc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4832b64d6bf4d26dd9d4cba10e46ef78b3f3b396
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002699"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374817"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(省略可能)ビジネス用の Skype で確認応答グループの展開
  
@@ -31,7 +31,7 @@ ms.locfileid: "21002699"
     
 - 担当者は、Skype のビジネス上のホーム
     
- **Scenarios**
+  **Scenarios**
   
 - ビジネス ユーザーの Skype では、応答グループを呼び出します。
     

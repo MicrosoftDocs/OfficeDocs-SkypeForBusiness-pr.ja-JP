@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: '概要: ビジネス サーバーの Skype で会議トポロジを計画する詳細について参照してください。'
-ms.openlocfilehash: 3110588585291ccfb55b45750d336863fea7329b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d8e3d771eadfe47ee1d7ec15eb68051b717643bf
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006126"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375958"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Skype のビジネス サーバーの会議トポロジを計画します。
  
@@ -48,9 +48,9 @@ ms.locfileid: "21006126"
 
 ダイヤルイン会議を展開する場合は、以下の点を考慮する必要があります。
   
--  ダイヤルイン会議は Skype ビジネス サーバーの PSTN ゲートウェイおよび PSTN ゲートウェイ シグナリングとメディアが仲介サーバーと PSTN ゲートウェイとの間を変換するための間に信号を変換するための仲介サーバー (と構成によっては、メディア) を必要とします。.
+- ダイヤルイン会議は Skype ビジネス サーバーの PSTN ゲートウェイおよび PSTN ゲートウェイ シグナリングとメディアが仲介サーバーと PSTN ゲートウェイとの間を変換するための間に信号を変換するための仲介サーバー (と構成によっては、メディア) を必要とします。.
     
-    ダイヤルイン会議を構成する前に、エンタープライズ VoIP または仲介サーバーと、以下のうち少なくとも 1 つを展開する必要があります。
+   ダイヤルイン会議を構成する前に、エンタープライズ VoIP または仲介サーバーと、以下のうち少なくとも 1 つを展開する必要があります。
     
   - PSTN ゲートウェイ
     

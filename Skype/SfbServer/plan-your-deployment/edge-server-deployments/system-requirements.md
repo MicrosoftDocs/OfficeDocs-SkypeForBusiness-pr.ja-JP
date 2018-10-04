@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: '概要: は、Skype でエッジ サーバーのビジネス サーバーのシステム要件について説明します。'
-ms.openlocfilehash: 3e5bdd5ad47004f7908a8bd39cb122d1f03ce96f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 05adb2fb0a4224699cf4465932eba1e7a85761e5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886970"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374872"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Skype のビジネス サーバーのサーバーのシステム要件をエッジします。
  
@@ -99,7 +99,7 @@ ms.locfileid: "23886970"
     
 - 完全修飾ドメイン名 (FQDN) を使用して、内部的にホストされている Web サイトを外部に公開できる必要があります。
     
-- ホストされる web サイトのすべての内容を発行する必要があります。 既定では、使用することができます、**/** ディレクティブで、「web サーバー上のすべてのコンテンツを公開する」を意味するほとんどの web サーバーで認識されます。 ディレクティブを変更することもできます-たとえば、 **/Uwca/\*** を意味する"発行 Ucwa 仮想ディレクトリの下のすべてのコンテンツです。
+- ホストされる web サイトのすべての内容を発行する必要があります。 既定では、使用することができます、 ** / *** ディレクティブで、「web サーバー上のすべてのコンテンツを公開する」を意味するほとんどの web サーバーで認識されます。 ディレクティブを変更することもできます-たとえば、* */Uwca/\\。、を意味する"発行 Ucwa 仮想ディレクトリの下のすべてのコンテンツです。
     
 - 公開された Web サイトのコンテンツを要求するクライアントで TLS 接続を要求する必要があります。
     

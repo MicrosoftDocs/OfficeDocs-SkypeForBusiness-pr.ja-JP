@@ -11,15 +11,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: '概要: をサービス コンポーネントとビジネス サーバー 2015 の Skype で集中ログ サービスの設定について説明します。'
-ms.openlocfilehash: 922d1f24e2d57c4908744462eb1b3c8335255cfd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: b2234ac1b52ff41108573f6a90a07bfa28c50a58
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372461"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>Skype for Business 2015 の集中ログ サービス
  
-**の概要:**サービス コンポーネントとビジネス サーバー 2015 Skype で集中ログ サービスの構成設定について説明します。
+**の概要:** サービス コンポーネントとビジネス サーバー 2015 Skype で集中ログ サービスの構成設定について説明します。
   
 集中ログ サービスを実行できます。 
   
@@ -50,7 +51,7 @@ ms.lasthandoff: 03/28/2018
     
 - 集中ログ サービス コント ローラーのコマンドレットの Skype ビジネス サーバー管理シェルの開始、停止、フラッシュ、および検索のコマンドを ClsAgent に送信します。 検索コマンドが送信されると、結果のログは、ClsControllerLib.dll に返され、集計します。 コント ローラーは、エージェントにコマンドを送信、これらのコマンドのステータスを受け取るし、検索のスコープ内の任意のコンピューター上のすべてのエージェントから返される出力の意味があり、順序付けされたセットにログ データを集計し、ログ ファイル データの検索を管理します。 次のトピックでは、Skype を使用してビジネス サーバー管理シェルを重視されています。
     
-**ClsAgent ClsController 通信**
+**ClsController と ClsAgent の通信**
 
 ![CLSController と CLSAgent の間の関係](../../media/Ops_CLS_Architecture.jpg)
   
@@ -93,9 +94,9 @@ ClsAgent は、すべてのインデックス ファイルを保持します。�
     
 2. コマンド ライン プロンプトで、次のように入力します。
     
-  ```
-  Get-CsClsConfiguration
-  ```
+   ```
+   Get-CsClsConfiguration
+   ```
 
     > [!TIP]
     > 絞り込むかを定義することによって返される構成設定の適用範囲を広げて`-Identity`し、スコープは、「サイト: レドモンド」レドモンド サイトの CsClsConfiguration のみを取得するなど。 構成の指定された部分の詳細を設定する場合は、別の Windows PowerShell コマンドレットに出力をパイプできます。 たとえば、"Redmond" サイトの構成で定義されたシナリオに関する詳細を取得するには、「`Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`」と入力します。
@@ -104,7 +105,7 @@ ClsAgent は、すべてのインデックス ファイルを保持します。�
   
     コマンドレットの結果は、集中ログ サービスの現在の構成を表示します。
     
-|**構成の設定**|**説明**|
+|**構成設定**|**説明**|
 |:-----|:-----|
 |**Identity** <br/> |この構成のスコープと名前を識別します。存在するグローバル構成は 1 つのみで、サイトごとに 1 つの構成があります。  <br/> |
 |**Scenarios** <br/> |この構成に対して定義されたシナリオの一覧。  <br/> |
