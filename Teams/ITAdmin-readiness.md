@@ -12,12 +12,12 @@ search.appverid: MET150
 description: トレーニング ビデオ、チュートリアル、およびその他のリソースを計画する方法には、展開、およびマイクロソフトのチームを実行します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8715e4f7fb624c745c8fbb76591386e568a038f
-ms.sourcegitcommit: 02ff91505a2f185bb3c1059a1b26ee31bb272438
+ms.openlocfilehash: a2750f99e47517e0b1e516b89673106b44f0c96c
+ms.sourcegitcommit: 0cb35fd6e93939f2252d0729c7c08bac50e6cd6b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "25359455"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25402078"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 
@@ -129,7 +129,7 @@ ms.locfileid: "25359455"
                 <div class="card">
                     <div class="cardText">
                         <h3>Skype for Business から Teams への移行</h3>
-                         <p>[チュートリアル: Skype for Business から Teams への移行](tutorial-journey-skypeforbusiness-to-teams.yml)</p>
+                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">チュートリアル: Skype for Business から Teams への移行</a></p>
                     </div>
                 </div>
             </div>
@@ -139,7 +139,8 @@ ms.locfileid: "25359455"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>アーキテクチャ</h3><p>[ビデオ: 基礎・ チームの主要なコンポーネント](http://aka.ms/teams-foundations)</p>
+                        <h3>アーキテクチャ</h3>
+                        <p><a href="http://aka.ms/teams-foundations">ビデオ: 基礎・ チームの主要なコンポーネント</a></p>
                     </div>
                 </div>
             </div>
@@ -150,8 +151,8 @@ ms.locfileid: "25359455"
                 <div class="card">
                     <div class="cardText">
                         <h3>計画し、展開</h3>
-                         <p>[クイック スタート: Teams の計画ガイド](quick-start-enable-teams.md)</p>
-                         <p>[ビデオ: チームの Windows デスクトップ クライアント](http://aka.ms/teams-clients)</p>
+                         <p><a href="quick-start-enable-teams.md">クイック スタート: Teams の計画ガイド</a></p>
+                         <p><a href="http://aka.ms/teams-clients">ビデオ: チームの Windows デスクトップ クライアント</a></p>
                     </div>
                 </div>
             </div>
@@ -162,7 +163,7 @@ ms.locfileid: "25359455"
                 <div class="card">
                     <div class="cardText">
                         <h3>教育用 Teams</h3>
-                        <p>[クイック スタート: 教育の管理者のチーム](teams-quick-start-edu.yml)</p>
+                        <p><a href="teams-quick-start-edu.yml">クイック スタート: 教育の管理者のチーム</a></p>
                     </div>
                 </div>
             </div>
@@ -174,9 +175,9 @@ ms.locfileid: "25359455"
                 <div class="card">
                     <div class="cardText">
                         <h3>チームとチャネル</h3>
-                         <p>[ビデオ: チームを稼動させる](https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b)</p>
-                         <p>[チームの所有者のガイドを目指すビデオ:](https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547")</p>
-                         <p>[記事: チームで組織全体にわたるチームを作成します。](create-an-org-wide-team.md)</a></p>
+                         <p><a href="https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b">ビデオ: チームを稼動させる</a></p>
+                         <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">チームの所有者のガイドを目指すビデオ:</a></p>
+                         <p><a href="create-an-org-wide-team.md">記事: チームで組織全体にわたるチームを作成します。</a></p>
                     </div>
                 </div>
             </div>
@@ -187,7 +188,7 @@ ms.locfileid: "25359455"
                 <div class="card">
                     <div class="cardText">
                         <h3>セキュリティとコンプライアンス</h3>
-                       <p>[ビデオ: チームで電子的証拠開示を理解します。](https://www.youtube.com/watch?v=OF65_p_07cE)</p>
+                       <p><a href="https://www.youtube.com/watch?v=OF65_p_07cE">ビデオ: チームで電子的証拠開示を理解します。</a></p>
                     </div>
                 </div>
             </div>
@@ -199,7 +200,7 @@ ms.locfileid: "25359455"
                 <div class="card">
                     <div class="cardText">
                         <h3>会議</h3>
-                        <p>[チュートリアル: Teams での会議](tutorial-meetings-in-teams.yml)</a></p>
+                        <p><a href="tutorial-meetings-in-teams.yml">チュートリアル: Teams での会議</a></p>
                     </div>
                 </div>
             </div>
@@ -210,9 +211,9 @@ ms.locfileid: "25359455"
                 <div class="card">
                     <div class="cardText">
                         <h3>アプリケーションとツール</h3>
-                        <p>[ビデオ: タブのツールを追加します。](https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3)</p>
-                        <p>[[コマンド] ボックスを使用するビデオ。](https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b)</p>
-                        <p>[ビデオ: コマンド バーの概要](https://www.youtube.com/watch?v=wYrRCRphrp0)</p>
+                        <p><a href="https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3">ビデオ: タブのツールを追加します。</a></p>
+                        <p><a href="https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b">[コマンド] ボックスを使用するビデオ。</a></p>
+                        <p><a href="https://www.youtube.com/watch?v=wYrRCRphrp0">ビデオ: コマンド バーの概要</a></p>
                     </div>
                 </div>
             </div>
@@ -224,10 +225,10 @@ ms.locfileid: "25359455"
                 <div class="card">
                     <div class="cardText">
                         <h3>電話会議</h3>
-                         <p>[チームで電話会議のチュートリアル:](tutorial-audio-conferencing.yml)</p>
-                         <p>[ビデオ: オーディオ会議の概要](https://www.youtube.com/watch?v=AGPvaW4Vg0o)</p>
-                         <p>[ビデオ: は、オーディオ会議を計画します。](https://www.youtube.com/watch?v=AWbuvcWcYIc)</p>
-                         <p>[ビデオ: 番号、電話会議の移植](https://www.youtube.com/watch?v=5k0C21KAsns)</p>
+                         <p><a href="tutorial-audio-conferencing.yml">チームで電話会議のチュートリアル:</a></p>
+                         <p><a href="https://www.youtube.com/watch?v=AGPvaW4Vg0o">ビデオ: オーディオ会議の概要</a></p>
+                         <p><a href="https://www.youtube.com/watch?v=AWbuvcWcYIc">ビデオ: は、オーディオ会議を計画します。</a></p>
+                         <p><a href="https://www.youtube.com/watch?v=5k0C21KAsns">ビデオ: 番号、電話会議の移植</a></p>
                     </div>
                 </div>
             </div>
@@ -238,8 +239,8 @@ ms.locfileid: "25359455"
                 <div class="card">
                     <div class="cardText">
                         <h3>通話プラン</h3>
-                         <p>[クイック スタート: チームの計画を呼び出すことを構成します。](configuring-teams-calling-quickstartguide.md)</p>
-                         <p>[チュートリアル: Teams での通話について理解する](tutorial-calling-in-teams.yml)</p>
+                         <p><a href="configuring-teams-calling-quickstartguide.md">クイック スタート: チームの計画を呼び出すことを構成します。</a></p>
+                         <p><a href="tutorial-calling-in-teams.yml">チュートリアル: Teams での通話について理解する</a></p>
                     </div>
                 </div>
             </div>
@@ -250,7 +251,7 @@ ms.locfileid: "25359455"
                 <div class="card">
                     <div class="cardText">
                         <h3>直接のルーティング</h3>
-                        <p>[ビデオ: 直接のチーム - プレビュー用のルーティング](https://www.youtube.com/watch?v=dVkc5Bs926Q)</p>
+                        <p><a href="https://www.youtube.com/watch?v=dVkc5Bs926Q">ビデオ: 直接のチーム - プレビュー用のルーティング</a></p>
                     </div>
                 </div>
             </div>
