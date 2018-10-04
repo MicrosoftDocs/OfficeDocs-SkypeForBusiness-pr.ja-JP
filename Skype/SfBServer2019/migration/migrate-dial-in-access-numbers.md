@@ -8,85 +8,84 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ビジネス サーバー 2019 の Skype に移行するダイヤルイン アクセス番号は、連絡先オブジェクトを移行するのには移動 CsApplicationEndpoint コマンドレットを実行する必要があります。 従来のインストールと Skype ビジネス サーバー 2019 共存の期間には、ビジネス サーバー 2019 の Skype で作成したダイヤルイン アクセス番号と同様に動作では、従来のインストールでは、作成するダイヤルイン アクセス番号これで説明するようセクションです。
-ms.openlocfilehash: 62d2d4f34f109c265a72a92283082601bd92b40b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 697ffb05e54722576f15dce2b4e7f0721b255aa2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027726"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370729"
 ---
-# <a name="migrate-dial-in-access-numbers"></a><span data-ttu-id="76583-104">ダイヤルイン アクセス番号を移行します。</span><span class="sxs-lookup"><span data-stu-id="76583-104">Migrate dial-in access numbers</span></span>
+# <a name="migrate-dial-in-access-numbers"></a><span data-ttu-id="34efc-104">ダイヤルイン アクセス番号を移行します。</span><span class="sxs-lookup"><span data-stu-id="34efc-104">Migrate dial-in access numbers</span></span>
 
-<span data-ttu-id="76583-105">ビジネス サーバー 2019 の Skype に移行するダイヤルイン アクセス番号は、連絡先オブジェクトを移行するのには**移動 CsApplicationEndpoint**コマンドレットを実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="76583-105">Migrating dial-in access numbers to Skype for Business Server 2019 requires running the **Move-CsApplicationEndpoint** cmdlet to migrate the contact objects.</span></span> <span data-ttu-id="76583-106">従来のインストールと Skype ビジネス サーバー 2019 共存の期間には、ビジネス サーバー 2019 の Skype で作成したダイヤルイン アクセス番号と同様に動作では、従来のインストールでは、作成するダイヤルイン アクセス番号これで説明するようセクションです。</span><span class="sxs-lookup"><span data-stu-id="76583-106">During the legacy install and Skype for Business Server 2019 coexistence period, dial-in access numbers that you created in Skype for Business Server 2019 behave similarly to the dial-in access numbers that you create in the legacy install, as described in this section.</span></span> 
-  
-<span data-ttu-id="76583-107">従来で作成したダイヤルイン アクセス番号は、インストールがビジネス サーバー 2019、またはの前に、ビジネスのサーバー 2019、Skype で作成した Skype を移動中、または移行後に、次の特徴があります。</span><span class="sxs-lookup"><span data-stu-id="76583-107">Dial-in access numbers that you created in the legacy install but moved to Skype for Business Server 2019, or that you created in Skype for Business Server 2019 before, during, or after migration, have the following characteristics:</span></span>
-  
-- <span data-ttu-id="76583-108">Office 通信 Server 2007 の R2 の会議出席依頼とダイヤルイン アクセス番号のページには表示されません。</span><span class="sxs-lookup"><span data-stu-id="76583-108">Do not appear on Office Communications Server 2007 R2 meeting invitations and the dial-in access number page.</span></span>
-    
-- <span data-ttu-id="76583-109">レガシー インストールの会議出席依頼とダイヤルイン アクセス番号のページに表示されます。</span><span class="sxs-lookup"><span data-stu-id="76583-109">Appear on the legacy install meeting invitations and the dial-in access number page.</span></span>
-    
-- <span data-ttu-id="76583-110">Skype のビジネス サーバー 2019 会議出席依頼とダイヤルイン アクセス番号のページが表示されます。</span><span class="sxs-lookup"><span data-stu-id="76583-110">Appear on Skype for Business Server 2019 meeting invitations and the dial-in access number page.</span></span>
-    
-- <span data-ttu-id="76583-111">表示したり、Office 通信 Server 2007 の R2 の管理ツールで変更することはできません。</span><span class="sxs-lookup"><span data-stu-id="76583-111">Cannot be viewed or modified in the Office Communications Server 2007 R2 administrative tool.</span></span>
-    
-- <span data-ttu-id="76583-112">表示およびレガシー インストールのコントロール パネルと従来のインストール管理シェルを変更できます。</span><span class="sxs-lookup"><span data-stu-id="76583-112">Can be viewed and modified in the legacy install Control Panel and in the legacy install Management Shell.</span></span>
-    
-- <span data-ttu-id="76583-113">表示およびビジネス サーバー 2019 のコントロール パネルの Skype と Skype ビジネス サーバー 2019 の管理シェルを変更できます。</span><span class="sxs-lookup"><span data-stu-id="76583-113">Can be viewed and modified in the Skype for Business Server 2019 Control Panel and in Skype for Business Server 2019 Management Shell.</span></span>
-    
-- <span data-ttu-id="76583-114">再シーケンス処理できる領域内にある優先順位のパラメーターを使用してセット CsDialinConferencingAccessNumber コマンドレットを使用しています。</span><span class="sxs-lookup"><span data-stu-id="76583-114">Can be re-sequenced within the region by using the Set-CsDialinConferencingAccessNumber cmdlet with the Priority parameter.</span></span>
-    
-<span data-ttu-id="76583-115">移行を完了する必要がありますポイントには、従来のダイヤルイン アクセス番号がレガシー インストールのプールの使用を停止する前に、プールをインストールします。</span><span class="sxs-lookup"><span data-stu-id="76583-115">You must finish migrating dial-in access numbers that point to the legacy install pool before you decommission the legacy install pool.</span></span> <span data-ttu-id="76583-116">次の手順に従って、ダイヤルイン アクセス番号の移行を完了しないと、アクセス番号への着信呼び出しが失敗します。</span><span class="sxs-lookup"><span data-stu-id="76583-116">If you do not complete dial-in access number migration as described in the following procedure, incoming calls to the access numbers will fail.</span></span>
-  
+<span data-ttu-id="34efc-105">ビジネス サーバー 2019 の Skype に移行するダイヤルイン アクセス番号は、連絡先オブジェクトを移行するのには**移動 CsApplicationEndpoint**コマンドレットを実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="34efc-105">Migrating dial-in access numbers to Skype for Business Server 2019 requires running the **Move-CsApplicationEndpoint** cmdlet to migrate the contact objects.</span></span> <span data-ttu-id="34efc-106">従来のインストールと Skype ビジネス サーバー 2019 共存の期間には、ビジネス サーバー 2019 の Skype で作成したダイヤルイン アクセス番号と同様に動作では、従来のインストールでは、作成するダイヤルイン アクセス番号これで説明するようセクションです。</span><span class="sxs-lookup"><span data-stu-id="34efc-106">During the legacy install and Skype for Business Server 2019 coexistence period, dial-in access numbers that you created in Skype for Business Server 2019 behave similarly to the dial-in access numbers that you create in the legacy install, as described in this section.</span></span> 
+
+<span data-ttu-id="34efc-107">従来で作成したダイヤルイン アクセス番号は、インストールがビジネス サーバー 2019、またはの前に、ビジネスのサーバー 2019、Skype で作成した Skype を移動中、または移行後に、次の特徴があります。</span><span class="sxs-lookup"><span data-stu-id="34efc-107">Dial-in access numbers that you created in the legacy install but moved to Skype for Business Server 2019, or that you created in Skype for Business Server 2019 before, during, or after migration, have the following characteristics:</span></span>
+
+- <span data-ttu-id="34efc-108">Office 通信 Server 2007 の R2 の会議出席依頼とダイヤルイン アクセス番号のページには表示されません。</span><span class="sxs-lookup"><span data-stu-id="34efc-108">Do not appear on Office Communications Server 2007 R2 meeting invitations and the dial-in access number page.</span></span>
+
+- <span data-ttu-id="34efc-109">レガシー インストールの会議出席依頼とダイヤルイン アクセス番号のページに表示されます。</span><span class="sxs-lookup"><span data-stu-id="34efc-109">Appear on the legacy install meeting invitations and the dial-in access number page.</span></span>
+
+- <span data-ttu-id="34efc-110">Skype のビジネス サーバー 2019 会議出席依頼とダイヤルイン アクセス番号のページが表示されます。</span><span class="sxs-lookup"><span data-stu-id="34efc-110">Appear on Skype for Business Server 2019 meeting invitations and the dial-in access number page.</span></span>
+
+- <span data-ttu-id="34efc-111">表示したり、Office 通信 Server 2007 の R2 の管理ツールで変更することはできません。</span><span class="sxs-lookup"><span data-stu-id="34efc-111">Cannot be viewed or modified in the Office Communications Server 2007 R2 administrative tool.</span></span>
+
+- <span data-ttu-id="34efc-112">表示およびレガシー インストールのコントロール パネルと従来のインストール管理シェルを変更できます。</span><span class="sxs-lookup"><span data-stu-id="34efc-112">Can be viewed and modified in the legacy install Control Panel and in the legacy install Management Shell.</span></span>
+
+- <span data-ttu-id="34efc-113">表示およびビジネス サーバー 2019 のコントロール パネルの Skype と Skype ビジネス サーバー 2019 の管理シェルを変更できます。</span><span class="sxs-lookup"><span data-stu-id="34efc-113">Can be viewed and modified in the Skype for Business Server 2019 Control Panel and in Skype for Business Server 2019 Management Shell.</span></span>
+
+- <span data-ttu-id="34efc-114">再シーケンス処理できる領域内にある優先順位のパラメーターを使用してセット CsDialinConferencingAccessNumber コマンドレットを使用しています。</span><span class="sxs-lookup"><span data-stu-id="34efc-114">Can be re-sequenced within the region by using the Set-CsDialinConferencingAccessNumber cmdlet with the Priority parameter.</span></span>
+
+<span data-ttu-id="34efc-115">移行を完了する必要がありますポイントには、従来のダイヤルイン アクセス番号がレガシー インストールのプールの使用を停止する前に、プールをインストールします。</span><span class="sxs-lookup"><span data-stu-id="34efc-115">You must finish migrating dial-in access numbers that point to the legacy install pool before you decommission the legacy install pool.</span></span> <span data-ttu-id="34efc-116">次の手順に従って、ダイヤルイン アクセス番号の移行を完了しないと、アクセス番号への着信呼び出しが失敗します。</span><span class="sxs-lookup"><span data-stu-id="34efc-116">If you do not complete dial-in access number migration as described in the following procedure, incoming calls to the access numbers will fail.</span></span>
+
 > [!IMPORTANT]
-> <span data-ttu-id="76583-117">レガシー インストールのプールの使用を停止する前にこの手順を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="76583-117">You must perform this procedure prior to decommissioning the legacy install pool.</span></span> 
-  
+> <span data-ttu-id="34efc-117">レガシー インストールのプールの使用を停止する前にこの手順を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="34efc-117">You must perform this procedure prior to decommissioning the legacy install pool.</span></span> 
+
 > [!NOTE]
-> <span data-ttu-id="76583-118">サービスの停止の期間が短い場合に、ネットワーク使用率が軽いときは、ダイヤルイン アクセス番号を移動することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="76583-118">We recommend that you move dial-in access numbers when network usage is low, in case there is a short period of service outage.</span></span> 
-  
-## <a name="to-identify-and-move-dial-in-access-numbers"></a><span data-ttu-id="76583-119">番号を特定しをダイヤルイン アクセスを移動するには</span><span class="sxs-lookup"><span data-stu-id="76583-119">To identify and move dial-in access numbers</span></span>
+> <span data-ttu-id="34efc-118">サービスの停止の期間が短い場合に、ネットワーク使用率が軽いときは、ダイヤルイン アクセス番号を移動することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="34efc-118">We recommend that you move dial-in access numbers when network usage is low, in case there is a short period of service outage.</span></span> 
 
-1. <span data-ttu-id="76583-120">ビジネス サーバー管理シェルには、Skype を起動する: [**スタート**] ボタン、[**すべてのプログラム**] をクリックして、**ビジネス サーバー 2019 の Skype をマイクロソフト**をクリック**ビジネス サーバー管理シェルの Skype**です。</span><span class="sxs-lookup"><span data-stu-id="76583-120">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Skype for Business Server 2019**, and then click **Skype for Business Server Management Shell**.</span></span>
-    
-2. <span data-ttu-id="76583-121">各ダイヤルイン アクセス番号をビジネス サーバー 2019 の Skype 上でホストされているプールに移動すると、コマンド ・ ラインから実行します。</span><span class="sxs-lookup"><span data-stu-id="76583-121">To move each dial-in access number to a pool hosted on Skype for Business Server 2019, from the command line run:</span></span> 
-    
-  ```
-  Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
-  
-  ```
+## <a name="to-identify-and-move-dial-in-access-numbers"></a><span data-ttu-id="34efc-119">番号を特定しをダイヤルイン アクセスを移動するには</span><span class="sxs-lookup"><span data-stu-id="34efc-119">To identify and move dial-in access numbers</span></span>
 
-3. <span data-ttu-id="76583-122">Skype をビジネス サーバーのコントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="76583-122">Open Skype for Business Server Control Panel.</span></span>
-    
-4. <span data-ttu-id="76583-123">左側のナビゲーション バーで [**会議**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="76583-123">In the left navigation bar, click **Conferencing**.</span></span>
-    
-5. <span data-ttu-id="76583-124">**ダイヤルイン アクセス番号**] タブをクリックします。</span><span class="sxs-lookup"><span data-stu-id="76583-124">Click the **Dial-in Access Number** tab.</span></span> 
-    
-6. <span data-ttu-id="76583-125">ないダイヤルイン アクセス番号のまま移行しているレガシー インストールのプールのことを確認します。</span><span class="sxs-lookup"><span data-stu-id="76583-125">Verify that no dial-in access numbers remain for the legacy install pool from which you are migrating.</span></span>
-    
+1. <span data-ttu-id="34efc-120">ビジネス サーバー管理シェルには、Skype を起動する: [**スタート**] ボタン、[**すべてのプログラム**] をクリックして、**ビジネス サーバー 2019 の Skype をマイクロソフト**をクリック**ビジネス サーバー管理シェルの Skype**です。</span><span class="sxs-lookup"><span data-stu-id="34efc-120">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Skype for Business Server 2019**, and then click **Skype for Business Server Management Shell**.</span></span>
+
+2. <span data-ttu-id="34efc-121">各ダイヤルイン アクセス番号をビジネス サーバー 2019 の Skype 上でホストされているプールに移動すると、コマンド ・ ラインから実行します。</span><span class="sxs-lookup"><span data-stu-id="34efc-121">To move each dial-in access number to a pool hosted on Skype for Business Server 2019, from the command line run:</span></span> 
+
+   ```
+   Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
+   ```
+
+3. <span data-ttu-id="34efc-122">Skype をビジネス サーバーのコントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="34efc-122">Open Skype for Business Server Control Panel.</span></span>
+
+4. <span data-ttu-id="34efc-123">左側のナビゲーション バーで [**会議**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="34efc-123">In the left navigation bar, click **Conferencing**.</span></span>
+
+5. <span data-ttu-id="34efc-124">**ダイヤルイン アクセス番号**] タブをクリックします。</span><span class="sxs-lookup"><span data-stu-id="34efc-124">Click the **Dial-in Access Number** tab.</span></span> 
+
+6. <span data-ttu-id="34efc-125">ないダイヤルイン アクセス番号のまま移行しているレガシー インストールのプールのことを確認します。</span><span class="sxs-lookup"><span data-stu-id="34efc-125">Verify that no dial-in access numbers remain for the legacy install pool from which you are migrating.</span></span>
+
     > [!NOTE]
-    > <span data-ttu-id="76583-126">すべてのダイヤルイン アクセス番号は、ビジネス サーバー 2019 プールの Skype をポイントして、レガシー インストールのプールをし、解除できます。</span><span class="sxs-lookup"><span data-stu-id="76583-126">When all dial-in access numbers point to the Skype for Business Server 2019 pool, you can then decommission the legacy install pool.</span></span> 
-  
-## <a name="verify-the-dial-in-access-number-migration-using-skype-for-business-server-control-panel"></a><span data-ttu-id="76583-127">ビジネス サーバーのコントロール パネルの Skype を使用してダイヤルイン アクセス番号の移行を検証します。</span><span class="sxs-lookup"><span data-stu-id="76583-127">Verify the dial-in access number migration using Skype for Business Server Control Panel</span></span>
+    > <span data-ttu-id="34efc-126">すべてのダイヤルイン アクセス番号は、ビジネス サーバー 2019 プールの Skype をポイントして、レガシー インストールのプールをし、解除できます。</span><span class="sxs-lookup"><span data-stu-id="34efc-126">When all dial-in access numbers point to the Skype for Business Server 2019 pool, you can then decommission the legacy install pool.</span></span> 
 
-1. <span data-ttu-id="76583-128">**CsUserAdministrator**または**CsAdministrator**の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="76583-128">From a user account that is assigned to the **CsUserAdministrator** role or the **CsAdministrator** role, log on to any computer in your internal deployment.</span></span> 
-    
-2. <span data-ttu-id="76583-129">Skype をビジネス サーバーのコントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="76583-129">Open Skype for Business Server Control Panel.</span></span>
-    
-3. <span data-ttu-id="76583-130">左側のナビゲーション バーで [**会議**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="76583-130">In the left navigation bar, click **Conferencing**.</span></span>
-    
-4. <span data-ttu-id="76583-131">**ダイヤルイン アクセス番号**] タブをクリックします。</span><span class="sxs-lookup"><span data-stu-id="76583-131">Click the **Dial-in Access Number** tab.</span></span> 
-    
-5. <span data-ttu-id="76583-132">ビジネス サーバー 2019 の Skype 上でホストされているプールに、すべてのダイヤルイン アクセス番号が移行されたことを確認します。</span><span class="sxs-lookup"><span data-stu-id="76583-132">Verify that all the dial-in access numbers are migrated to the pool hosted on Skype for Business Server 2019.</span></span>
-    
-## <a name="verify-the-dial-in-access-number-migration-using-skype-for-business-server-management-shell"></a><span data-ttu-id="76583-133">ビジネス サーバー管理シェルの Skype を使用してダイヤルイン アクセス番号の移行を検証します。</span><span class="sxs-lookup"><span data-stu-id="76583-133">Verify the dial-in access number migration using Skype for Business Server Management Shell</span></span>
+## <a name="verify-the-dial-in-access-number-migration-using-skype-for-business-server-control-panel"></a><span data-ttu-id="34efc-127">ビジネス サーバーのコントロール パネルの Skype を使用してダイヤルイン アクセス番号の移行を検証します。</span><span class="sxs-lookup"><span data-stu-id="34efc-127">Verify the dial-in access number migration using Skype for Business Server Control Panel</span></span>
 
-1. <span data-ttu-id="76583-134">Skype をビジネス サーバー管理シェルを開きます。</span><span class="sxs-lookup"><span data-stu-id="76583-134">Open Skype for Business Server Management Shell.</span></span>
-    
-2. <span data-ttu-id="76583-135">すべてを取得するのには、ダイヤルイン会議アクセス番号移行、実行コマンド ・ ラインから。</span><span class="sxs-lookup"><span data-stu-id="76583-135">To return all the dial-in conferencing access numbers migrated, from the command line run:</span></span>
-    
-  ```
-  Get-CsDialInConferencingAccessNumber -Filter {Pool -eq "<FQDN of the pool to which the access number is moved>"}
-  ```
+1. <span data-ttu-id="34efc-128">**CsUserAdministrator**または**CsAdministrator**の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="34efc-128">From a user account that is assigned to the **CsUserAdministrator** role or the **CsAdministrator** role, log on to any computer in your internal deployment.</span></span> 
 
-3. <span data-ttu-id="76583-136">ビジネス サーバー 2019 の Skype 上でホストされているプールに、すべてのダイヤルイン アクセス番号が移行されたことを確認します。</span><span class="sxs-lookup"><span data-stu-id="76583-136">Verify that all the dial-in access numbers are migrated to the pool hosted on Skype for Business Server 2019.</span></span>
-    
+2. <span data-ttu-id="34efc-129">Skype をビジネス サーバーのコントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="34efc-129">Open Skype for Business Server Control Panel.</span></span>
+
+3. <span data-ttu-id="34efc-130">左側のナビゲーション バーで [**会議**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="34efc-130">In the left navigation bar, click **Conferencing**.</span></span>
+
+4. <span data-ttu-id="34efc-131">**ダイヤルイン アクセス番号**] タブをクリックします。</span><span class="sxs-lookup"><span data-stu-id="34efc-131">Click the **Dial-in Access Number** tab.</span></span> 
+
+5. <span data-ttu-id="34efc-132">ビジネス サーバー 2019 の Skype 上でホストされているプールに、すべてのダイヤルイン アクセス番号が移行されたことを確認します。</span><span class="sxs-lookup"><span data-stu-id="34efc-132">Verify that all the dial-in access numbers are migrated to the pool hosted on Skype for Business Server 2019.</span></span>
+
+## <a name="verify-the-dial-in-access-number-migration-using-skype-for-business-server-management-shell"></a><span data-ttu-id="34efc-133">ビジネス サーバー管理シェルの Skype を使用してダイヤルイン アクセス番号の移行を検証します。</span><span class="sxs-lookup"><span data-stu-id="34efc-133">Verify the dial-in access number migration using Skype for Business Server Management Shell</span></span>
+
+1. <span data-ttu-id="34efc-134">Skype をビジネス サーバー管理シェルを開きます。</span><span class="sxs-lookup"><span data-stu-id="34efc-134">Open Skype for Business Server Management Shell.</span></span>
+
+2. <span data-ttu-id="34efc-135">すべてを取得するのには、ダイヤルイン会議アクセス番号移行、実行コマンド ・ ラインから。</span><span class="sxs-lookup"><span data-stu-id="34efc-135">To return all the dial-in conferencing access numbers migrated, from the command line run:</span></span>
+
+   ```
+   Get-CsDialInConferencingAccessNumber -Filter {Pool -eq "<FQDN of the pool to which the access number is moved>"}
+   ```
+
+3. <span data-ttu-id="34efc-136">ビジネス サーバー 2019 の Skype 上でホストされているプールに、すべてのダイヤルイン アクセス番号が移行されたことを確認します。</span><span class="sxs-lookup"><span data-stu-id="34efc-136">Verify that all the dial-in access numbers are migrated to the pool hosted on Skype for Business Server 2019.</span></span>
+
 

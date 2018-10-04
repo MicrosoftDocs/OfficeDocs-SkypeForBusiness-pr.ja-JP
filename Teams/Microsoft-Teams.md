@@ -4,12 +4,12 @@ hide_bc: true
 title: Microsoft Teams のドキュメンテーションと実践的なガイダンス
 description: Microsoft Teams のドキュメンテーションと実践的なガイダンス
 ms.topic: hub-page
-ms.openlocfilehash: 6f4ba9227e383039968e9fa84321c9ec0628d7f5
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 60f174ab661537e398292ac222ceae839e373fac
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23843782"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372389"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -109,7 +109,7 @@ ms.locfileid: "23843782"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>セキュリティ &amp; コンプライアンス</h3>
-                                                    <p>Teams は Office 365 クラウド上に構築されているため、必要とされるエンタープライズグレードのセキュリティとコンプライアンスの機能を備えています</p>
+                                                    <p>チームがエンタープライズ ・ クラスのセキュリティ機能は、Office 365 クラウド上に構築された&amp;準拠にする必要があります</p>
                                                 </div>
                                             </div>
                                         </div>

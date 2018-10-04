@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 description: '概要: ビジネス サーバー 2015 の Skype を実装する方法については、これらのリンクを表示します。'
-ms.openlocfilehash: 21a776b96c640b152e512b3c052340e2ed8f45d9
-ms.sourcegitcommit: 3356670f2849306ce329899509d2104fe0404939
+ms.openlocfilehash: 459738bf2c3aae789db26c960297d692c85696af
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19949816"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375886"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype for Business Server 2015
 
@@ -72,7 +72,7 @@ ms.locfileid: "19949816"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>展開</h3>
+                        <h3>の展開</h3>
                     </div>
                 </div>
             </div>
@@ -145,9 +145,9 @@ ms.locfileid: "19949816"
                 <div class="card">
                     <div class="cardText">
                         <h3>開始する前に</h3>
-                        <p>[環境の要件](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)</p>
-                        <p>[ネットワークの要件](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)</p>
-                        <p>[クライアントとデバイス](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)</p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">環境の要件</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements" data-raw-source="[Network requirements](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)">ネットワーク要件</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices" data-raw-source="[Clients and devices](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)">クライアントとデバイス</a></p>
                     </div>
                 </div>
             </div>
@@ -159,8 +159,8 @@ ms.locfileid: "19949816"
                 <div class="card">
                     <div class="cardText">
                         <h3>インストールおよび管理</h3>
-                        <p>[Skype をビジネスのサーバーをインストールします。](/SkypeForBusiness/deploy/install/install)</p>
-                        <p>[Skype をビジネスのサーバーを管理します。](/SkypeForBusiness/manage/manage)</p>
+                        <p><a href="/SkypeForBusiness/deploy/install/install" data-raw-source="[Install Skype for Business Server](/SkypeForBusiness/deploy/install/install)">Skype for Business Server のインストール</a></p>
+                        <p><a href="/SkypeForBusiness/manage/manage" data-raw-source="[Manage Skype for Business Server](/SkypeForBusiness/manage/manage)">Skype for Business Server の管理</a></p>
                      </div>
                 </div>
             </div>
@@ -172,8 +172,8 @@ ms.locfileid: "19949816"
                 <div class="card">
                     <div class="cardText">
                         <h3>エンタープライズ VoIP</h3>
-                        <p>[計画](/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution)</p>
-                        <p>[展開](/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice)</p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution" data-raw-source="[Plan](/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution)">計画</a></p>
+                        <p><a href="/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice" data-raw-source="[Deploy](/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice)">展開</a></p>
                     </div>
                 </div>
             </div>
@@ -186,7 +186,7 @@ ms.locfileid: "19949816"
                     <div class="cardText">
                         <h3>Skype 会議ブロードキャスト</h3>
                         <p><a href="https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d">それはなんですか。</a></p>
-                        <p>[Skype 会議をブロードキャストするため、設置型の展開を構成します。](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)
+                        <p><a href="/SkypeForBusiness/deploy/configure-skype-meeting-broadcast" data-raw-source="[Configure your on-premises deployment for Skype Meeting Broadcast](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)">Skype 会議をブロードキャストするため、設置型の展開を構成します。</a>
                     </div>
                 </div>
             </div>
@@ -198,9 +198,9 @@ ms.locfileid: "19949816"
                 <div class="card">
                     <div class="cardText">
                         <h3>ハイブリッド ソリューション</h3>
-                        <p>[ハイブリッド接続を計画します。](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)</p>
-                        <p>[電話システム (PBX をクラウド) ソリューションを計画します。](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution)</p>
-                        <p>[クラウド コネクタのエディションの計画](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)</p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity" data-raw-source="[Plan hybrid connectivity](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)">ハイブリッド接続を計画します。</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution" data-raw-source="[Plan your Phone System (Cloud PBX) solution ](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution)">電話システム (PBX をクラウド) ソリューションを計画します。</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition" data-raw-source="[Plan for Cloud Connector Edition](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)">クラウド コネクタのエディションの計画</a></p>
                </div>
                 </div>
             </div>
