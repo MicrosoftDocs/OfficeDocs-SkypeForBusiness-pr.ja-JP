@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Microsoft 電話システム直接ルーティングを構成する方法について説明します。
-ms.openlocfilehash: be420b43ed1b826865bbe8b6f0a0c3e314fc1201
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 7e587c92e979c7985ccbd9f05bbb5ae1115d176a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013740"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374651"
 ---
 # <a name="configure-direct-routing"></a>直接ルーティングを構成します。
 
@@ -456,31 +456,31 @@ Spencer 低: 米国およびカナダの番号にのみ許可される呼び出�
 PSTN 使用法「国際」を作成する手順はルーティング ポリシー制限のなし」、「音声ボイス ルート「国際」とは、次ように、それを「ジョンの森"のユーザーに割り当てます。
 
 
-1.  国際「PSTN 使用法を最初に、作成 ビジネス オンラインの Skype のリモート PowerShell セッションで次のコマンドを入力します。
+1. 国際「PSTN 使用法を最初に、作成 ビジネス オンラインの Skype のリモート PowerShell セッションで次のコマンドを入力します。
 
-  ```
-  Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="International"}
-  ```
+   ```
+   Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="International"}
+   ```
 
-2.  国際"次に、新しいボイス ルートを作成します。
+2. 国際"次に、新しいボイス ルートを作成します。
 
-  ```
-  New-CsOnlineVoiceRoute -Identity "International" -NumberPattern "\d+" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
-  ```
-  返します。
+   ```
+   New-CsOnlineVoiceRoute -Identity "International" -NumberPattern "\d+" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
+   ```
+   返します。
 
-  <pre>
-  Identity                  : International 
-  Priority                      : 5
-  Description                   : 
-  NumberPattern                 : \d+
-  OnlinePstnUsages          : {International}    
-  OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
-  Name                            : International
-  SupressCallerId           :
-  AlternateCallerId         :
-</pre>
-3.  次に、「制限なし」の音声ルーティング ポリシーを作成します。 ローカルまたはオンプレミスの呼び出しとして「+1 425 XXX XX XX」と"+1 206 XXX XX XX"番号への呼び出しに特別な処理を保持するのにはこの音声ルーティング ポリシーでは、PSTN 使用法"Redmond 1"と"Redmond"が再利用します。
+   <pre>
+   Identity                  : International 
+   Priority                      : 5
+   Description                   : 
+   NumberPattern                 : \d+
+   OnlinePstnUsages          : {International}    
+   OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
+   Name                            : International
+   SupressCallerId           :
+   AlternateCallerId         :
+   </pre>
+3. 次に、「制限なし」の音声ルーティング ポリシーを作成します。 ローカルまたはオンプレミスの呼び出しとして「+1 425 XXX XX XX」と"+1 206 XXX XX XX"番号への呼び出しに特別な処理を保持するのにはこの音声ルーティング ポリシーでは、PSTN 使用法"Redmond 1"と"Redmond"が再利用します。
 
 ```
 New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”
@@ -503,18 +503,18 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
    RouteType        : BYOT
   </pre>
 
-4.  ユーザー「John 森」次のコマンドを使用するには、音声ルーティング ポリシーを割り当てます。
+4. ユーザー「John 森」次のコマンドを使用するには、音声ルーティング ポリシーを割り当てます。
 
-  ```
-  Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
-  ```
+   ```
+   Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
+   ```
 
-  コマンドを使用して割り当てを確認します。   
+   コマンドを使用して割り当てを確認します。   
 
-  ```
-  Get CsOnlineUser “John Woods” | Select OnlineVoiceRoutingPolicy
-  ```
-  返します。
+   ```
+   Get CsOnlineUser “John Woods” | Select OnlineVoiceRoutingPolicy
+   ```
+   返します。
 
 <pre>
     OnlineVoiceRoutingPolicy

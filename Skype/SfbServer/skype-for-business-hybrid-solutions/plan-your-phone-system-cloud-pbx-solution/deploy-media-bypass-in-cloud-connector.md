@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: クラウド コネクタ版 version 2.0 以降でメディアをバイパスを展開する手順については、このトピックを参照してください。
-ms.openlocfilehash: ec6647c5d95701ea18a6d403132d50ae8e8ad8dc
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 841a243b236219fc70c99264249567f2eee63081
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890643"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375500"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Cloud Connector エディションでメディア バイパスを展開する
  
@@ -148,33 +148,33 @@ Windows 2016 DNS ポリシーの詳細については、[地理的な場所ベ�
     
     アムステルダム
     
-  - タイプ A
+   - タイプ A
     
-  - 名前: adatum.biz DNS ゾーンの hybridvoice
+   - 名前: adatum.biz DNS ゾーンの hybridvoice
     
-  - ターゲット: 192.168.1.45
+   - ターゲット: 192.168.1.45
     
-    追加の仲介サーバーについてレコードを作成する
+     追加の仲介サーバーについてレコードを作成する
     
-  - 192.168.1.46
+   - 192.168.1.46
     
-  - 192.168.1.47
+   - 192.168.1.47
     
-  - 192.168.1.48
+   - 192.168.1.48
     
-    調布市調布ヶ丘
+     調布市調布ヶ丘
     
-  - タイプ A
+   - タイプ A
     
-  - 名前: adatum.biz DNS ゾーンの hybridvoice
+   - 名前: adatum.biz DNS ゾーンの hybridvoice
     
-  - ターゲット: 10.10.1.8
+   - ターゲット: 10.10.1.8
     
-    追加の仲介サーバーについてレコードを作成する
+     追加の仲介サーバーについてレコードを作成する
     
-  - 10.10.1.9
+   - 10.10.1.9
     
-  - 10.10.1.10
+   - 10.10.1.10
     
 4. クライアント サブネットを適切なゾーン範囲に接続する DNS ポリシーを作成して、DNS が確実に解決されるようにします。
     

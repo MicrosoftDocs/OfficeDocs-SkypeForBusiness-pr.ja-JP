@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Find the dial-in conferencing language for each country or region and the culture ID assigned (en-US, da-DK, de-DE, etc)
-ms.openlocfilehash: 1bf3c17c1761edaf1b26e15973221d482bd279c5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 58edfebbcd01042828d52bc07df9ce8c7d678a59
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015550"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375176"
 ---
 # <a name="audio-conferencing-supported-languages"></a>ダイヤルイン会議でサポートされる言語
 
@@ -95,7 +95,7 @@ PSTN 会議を購入できる国または地域を探している場合は、「
 
 - 時間を節約したり、自動化したりするには、[Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) または[Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) コマンドレットを使用できます。
     
--  Windows PowerShell の場合、ユーザーの管理と、ユーザーに許可する操作や許可しない操作の管理に使います。Windows PowerShell により、単一の管理ポイントを使って Office 365 を管理でき、複数の作業を実行する必要があるときに日常業務を合理化できます。Windows PowerShell を使い始めるには、次のトピックを参照してください。
+- Windows PowerShell の場合、ユーザーの管理と、ユーザーに許可する操作や許可しない操作の管理に使います。Windows PowerShell により、単一の管理ポイントを使って Office 365 を管理でき、複数の作業を実行する必要があるときに日常業務を合理化できます。Windows PowerShell を使い始めるには、次のトピックを参照してください。
     
   - [Windows PowerShell で Office 365 を管理する 6 つの理由](https://go.microsoft.com/fwlink/?LinkId=525041)
     

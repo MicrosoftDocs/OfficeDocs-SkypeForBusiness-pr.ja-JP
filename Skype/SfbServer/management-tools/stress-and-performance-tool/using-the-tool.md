@@ -1,5 +1,5 @@
 ---
-title: Using the Skype for Business Server 2015 Stress and Performance Tool
+title: ビジネス サーバー 2015 のストレスおよびパフォーマンス ツールは、Skype を使用します。
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/13/2018
@@ -9,112 +9,113 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
-description: To run the Skype for Business Server 2015 Stress and Performance Tool, you'll need to be able to manage both users, contacts and user profiles, configure the tool for running, and then review the output or results that are produced by the tool.
-ms.openlocfilehash: 5f73ef6733c2f09cdf3e06bc8a6495c743d8b423
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 実行するには、Skype のビジネス サーバー 2015 のストレスおよびパフォーマンス ツールが必要がありますに両方のユーザー、連絡先、およびユーザー プロファイルを管理できるようが実行しているツールを構成して出力またはツールによって生成される結果を確認し。
+ms.openlocfilehash: 829bedbd2a042234e67285045ac67cff30064936
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375440"
 ---
-# <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Using the Skype for Business Server 2015 Stress and Performance Tool
+# <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>ビジネス サーバー 2015 のストレスおよびパフォーマンス ツールは、Skype を使用します。
  
-To run the Skype for Business Server 2015 Stress and Performance Tool, you'll need to be able to manage both users, contacts and user profiles, configure the tool for running, and then review the output or results that are produced by the tool.
+実行するには、Skype のビジネス サーバー 2015 のストレスおよびパフォーマンス ツールが必要がありますに両方のユーザー、連絡先、およびユーザー プロファイルを管理できるようが実行しているツールを構成して出力またはツールによって生成される結果を確認し。
   
-There are four areas involved with running the Skype for Business Server 2015 Stress and Performance Tool (the executable is LyncPerfTool.exe):
+ビジネス サーバー 2015 のストレスおよびパフォーマンス ツール (実行可能ファイルは、LyncPerfTool.exe) は、Skype を実行するのには、4 つの領域があります。
   
-- [Create Users and Contacts](using-the-tool.md#BKMK_CreateUsersAndContacts)
+- [ユーザーおよび連絡先を作成します。](using-the-tool.md#BKMK_CreateUsersAndContacts)
     
-- [Configure User Profile](using-the-tool.md#BKMK_UserProfile)
+- [ユーザー プロファイルを構成します。](using-the-tool.md#BKMK_UserProfile)
     
-- [Run LyncPerfTool](using-the-tool.md#BKMK_RunTool)
+- [LyncPerfTool を実行します。](using-the-tool.md#BKMK_RunTool)
     
-- [Interpreting the Results](using-the-tool.md#BKMK_Interpret)
+- [結果の解釈](using-the-tool.md#BKMK_Interpret)
     
-## <a name="create-users-and-contacts"></a>Create Users and Contacts
+## <a name="create-users-and-contacts"></a>ユーザーおよび連絡先を作成します。
 <a name="BKMK_CreateUsersAndContacts"> </a>
 
-You need to use the Skype for Business Server 2015 (SB 2015) User Provisioning Tool (UserProvisioningTool.exe) to create users and contacts for your stress and performance testing.
+ビジネス サーバー 2015 (SB 2015) ユーザーのプロビジョニング ツール (UserProvisioningTool.exe) のユーザーおよび連絡先のストレスおよびパフォーマンスのテストを作成するのには、Skype を使用する必要があります。
   
-This is a list of helpful terms that might be useful as you read through the topics:
+これは、便利なトピックを読むと役に立つの用語の一覧です。
   
-- **Organizational Unit** - The Active Directory Domain Services (AD DS) organizational unit (OU).
+- **組織単位**の Active Directory ドメイン サービス (AD DS) 組織単位 (OU)。
     
-- **Federated / Cross Pool** - Users who can communicate with users from other Instant Messaging (IM) services.
+- **連合し、プールの間**のユーザーは、他のインスタント メッセージング (IM) サービスからのユーザーと通信できます。
     
-- **Distribution Lists** - Or DLs. These are objects in AD DS that contain a list of AD DS users. They're used to facilitate communications across groups of people.
+- **配布リスト**または Dl。 これらは、AD DS のユーザーの一覧が含まれている AD DS 内のオブジェクトです。 ユーザーのグループ間での通信を容易にするために使用されています。
     
-- **Location Info Service** - The Skype for Business Server 2015 service that, when it's enabled and configured per phone, allows for the retrieval of physical location for Enhanced 911 (E911) services.
+- **場所情報サービス**のビジネス サーバー 2015 可能にするサービス、それが有効にされ、電話番号ごとに構成すると強化された 911 (E911) のサービスの物理的な場所を取得するために、Skype。
     
-- **U.S. Phone Numbers** - Phone numbers assigned to user in addition to the SIP URI that's used for routing inbound and outbound calls in Reverse Number Lookup (RNL).
+- **米国の電話番号**- 電話番号の着信および発信通話のルーティングを逆番号検索 (RNL) のために使用される SIP URI の他のユーザーに割り当てられています。
     
-### <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>Create Users and Contacts by using UserProvisioningTool.exe
+### <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>UserProvisioningTool.exe を使用してユーザーおよび連絡先を作成します。
 
 > [!NOTE]
-> Before you even begin, be absolutely sure you're logged in as a member of the Domain Admins security group to run this tool. You need to do this, because you're going to be creating Active Directory users. 
+> 開始する前にも、このツールを実行するのには、Domain Admins セキュリティ グループのメンバーとしてログオンしていることを確認します。 Active Directory ユーザーを作成しようとしているため、これを行う必要があります。 
   
-You have to use the Skype for Business Server User Provisioning Tool to create users and contacts for load simulation.
+ユーザーおよび連絡先の負荷のシミュレーションを作成する、Skype のビジネス サーバー ユーザーのプロビジョニング ツールを使用する必要があります。
   
-The **Skype for Business Server User Provisioning Tool** is installed with the **Skype for Business Server Stress and Performance Tool** package. Be sure that the package installer (CapacityPlanningTool.msi) has been run on the Front End Server or the Standard Edition server you intend to test.
+**ビジネス サーバー ユーザーのプロビジョニング ツールの Skype**は、 **Skype**をビジネス ・ サーバの負荷とパフォーマンス ツールのパッケージと共にインストールされます。 フロント エンド サーバーまたは Standard Edition サーバーをテストするパッケージ インストーラー (CapacityPlanningTool.msi) が実行されていることを確認します。
   
-You can start the Skype for Business Server User Provisioning Tool by running the file UserProvisioningTool.exe (located at %InstalledDirectory%LyncStressAndPerfTool\LyncStress) on the Front End Server or on the Standard Edition server.
+フロント エンド サーバーまたは Standard Edition サーバー上で、(InstalledDirectory%LyncStressAndPerfTool\LyncStress である) UserProvisioningTool.exe ファイルを実行してビジネス サーバー ユーザーのプロビジョニング ツールを Skype を起動できます。
   
 > [!IMPORTANT]
-> When you create a large number of users (for example, 10,000 or more), run the UserProvisioningTool.exe. You'll need to do this because the tool will be creating and configuring  *new*  AD users.
+> 多数のユーザー (たとえば、10,000 以上) を作成するとき、UserProvisioningTool.exe を実行します。 ツールが作成され、*新しい*AD のユーザーを構成するためにこれを実行する必要があります。
   
-When the User Provisioning Tool opens, click Configuration and select the Load Configuration. 
+ユーザーのプロビジョニング ツールを開くと、[構成] をクリックし、負荷の構成を選択します。 
   
-To begin configuring users and contacts, load the default file included with the package, called "SampleData.xml". This will prepopulate fields with sample data that you'll need to change to make it relevant for your deployment.
+ユーザーおよび連絡先を構成するには、"SampleData.xml"と呼ばれる、パッケージに含まれる既定のファイルをロードします。 展開に関連する変更する必要がありますサンプル データを持つフィールドが事前に設定されます。
   
-If you have a preconfigured XML file that already contains your customized settings, you can load that file instead. Fill in the fields in the User Provisioning Tool, as described in the sections below.
+カスタマイズした設定が既に含まれている構成済みの XML ファイルがあれば、代わりにそのファイルを読み込むことができます。 以下のセクションで説明したように、ユーザーのプロビジョニング ツールでは、フィールドを入力します。
   
-### <a name="to-configure-server-options"></a>To configure server options:
+### <a name="to-configure-server-options"></a>サーバー オプションを構成するには。
 
-1. In the **Front End Pool FQDN** field, type the fully qualified domain name (FQDN) of the Standard Edition server, or the Front End pool where you want to host the users.
+1. **フロント エンド プールの FQDN** ] フィールドには、Standard Edition サーバー、またはユーザーをホストするフロント エンド プールの完全修飾ドメイン名 (FQDN) を入力します。
     
-2. In the **User Name Prefix** field, type a prefix that you want to use to bust your user names for testing purposes (such as "TestUser").
+2. **ユーザー名のプレフィックス**] フィールドに、ままの状態 ("TestUser") などの目的をテストするためのユーザー名に使用するプレフィックスを入力します。
     
-3. In the **Password** field, type a password that will be used across all the test user accounts.
+3. [**パスワード**] フィールドで、すべてのテスト ユーザー アカウントで使用されるパスワードを入力します。
     
-4. In the **Account Domain** field, type the domain name of your current AD domain (the one in which you want to create your test users).
+4. [**アカウントのドメイン**] フィールドで、現在の AD ドメインのドメイン名を入力します (テスト ユーザーを作成する 1 つ)。
     
-5. In the **Organizational Unit** field, type the name of the AD domain where you want to create these test users. (If the OU doesn't already exist, it'll be created for you).
+5. [**組織単位**] フィールドで、名前を入力、AD ドメインを作成するは、これらのテスト ユーザーです。 (OU が存在しない場合は、それが作成)。
     
-6. In the **Phone Area Code** field, type the three-digit area code to be used across all test user accounts. Make certain that the area code you chose doesn't conflict with other users' area codes in AD.
+6. [**市外局番**] フィールドで、すべてのテスト ユーザー アカウントで使用するのには 3 桁の市外局番を入力します。 特定する他のユーザーの市外局番と市外局番] を選択したが競合しない AD。
     
-7. Click to select the **Voice Enabled** check box, if you want to enable the test users for Enterprise Voice.
+7. エンタープライズ VoIP のテスト ユーザーを有効にする場合は、**音声を有効に**する] チェック ボックスをオンにします。
     
-8. In the **Number of Users** field, give the total number of test users you want to create.
+8. **ユーザー数**] フィールドに、テスト ユーザーを作成する場合の合計数を提供します。
     
-9. In the **Start Index** field, give the starting number that'll be used as a suffix to the user name prefix (for example, the prefix is "TestUser", and the first name will end in "0" in the example below.)
+9. **インデックスの開始**] フィールドに、ユーザー名のプレフィックス、サフィックスとして使用することを開始番号を与える (などのプレフィックスは"TestUser"、最初の名前は次の例では「0」で終了)
     
      ![[User Creation] タブを表示している User Provisioning Tool](../../media/591d8280-8979-4a8c-83bc-af126e87bf29.png)
   
 #### <a name="create-users-button"></a>ユーザー ボタンを作成します。
 
-When you click on the **Create Users** button, the input parameters you've entered are validated. If there are any validation errors, you'll be prompted to fix them. Or, if all the values are correct, users will start appearing in AD (in whichever OU you specified). 実行時にツールの下部にある進行状況バーが表示されます。 Don't close the application while the progress bar is active.
+**ユーザーの作成**] ボタンをクリックすると、入力されている入力パラメーターが検証されます。 検証エラーがある場合は、それらを修正するように求めします。 または、ユーザーが表示される起動のすべての値が正しい場合は、(指定した OU がどの) で AD にします。 実行時にツールの下部にある進行状況バーが表示されます。 進行状況バーがアクティブなときに、アプリケーションを終了しません。
   
-User creation takes time, so please plan accordingly. This process can take anywhere from several minutes for a few users, to a few hours for a large number of users.
+ユーザーの作成に時間がかかり、のでそれに応じて計画をしてください。 このプロセス時間かかることが任意の場所の少数のユーザーでは、数分から、いくつかユーザーの数が多いのです。
   
-If you don't have access to the AD Domain Controller in your test environment, you can still validate user creation by logging in as one of the users in the range of users you specified to create. Remember to use the prefix, and the suffix, along with the @sipDomain as the username. Here is an example:  *TestUser20@contoso.net*  .
+テスト環境内の AD ドメイン コント ローラーにアクセスする必要はありません、いずれかの範囲を作成するように指定したユーザーのユーザーとしてログインすることによりユーザーの作成を検証もできます。 、プレフィックスと、ユーザー名と @sipDomain のほかに、サフィックスを使用することを忘れないでください。 例を次のとおりです: <em>TestUser20@contoso.net</em> 。
   
 > [!NOTE]
-> If the users already exist, clicking the Create Users button will update them with any configuration changes. 
+> ユーザーが既に存在する場合、ユーザーの作成] ボタンをクリックするとに更新されます構成変更によって。 
   
-#### <a name="delete-users-button"></a>Delete Users button
+#### <a name="delete-users-button"></a>ユーザー ボタンを削除します。
 
-When you click on the **Delete Users** button, the tab's input parameters will be validated. If there are validation errors, you'll be prompted to fix them, and if the input values are correct, the specified test users will be disabled and deleted from Active Directory. Again, a progress bar will appear on the bottom of this tab, and you shouldn't close the application while the progress bar is active.
+**ユーザーの削除**] ボタンをクリックするとタブの入力パラメーターが検証されます。 検証エラーがある場合がするが表示されたら、それらを修正して、入力値が正しい場合は、指定したテスト用ユーザー無効になっているし、する Active Directory から削除します。 もう一度、進行状況バーは、このタブの下部に表示され、進行状況バーがアクティブなときにアプリケーションを閉じる必要はありません。
   
 > [!NOTE]
-> Only U.S.-formatted phone numbers are supported. Phone numbers are always assigned to users, and all users created by UserProvisioningTool.exe are enabled for Enterprise Voice by default. Any scenarios that use the phone number, such as Conferencing Auto Attendant or UC-PSTN calls, use this phone number to properly route calls. For this reason,  *every user*  must have a *unique phone number*  .
+> 米国形式の電話番号だけがサポートされます。 電話番号は常に、ユーザーに割り当てられているし、UserProvisioningTool.exe によって作成されたすべてのユーザーは既定でエンタープライズ VoIP を有効にします。 会議自動応答または UC PSTN の呼び出しなどの電話番号を使用するすべてのシナリオでは、呼び出しを正しくルーティングするのにはこの電話番号を使用します。 このため、*すべてのユーザー*に*一意の電話番号*が必要があります。
   
 > [!NOTE]
-> **If you have to create users twice, the command will fail unless you use a different area code, or if the previous users have been disabled by using the Disable-CsUser cmdlet.**
+> **ユーザーを 2 回作成する必要があるが、別の市外局番を使用する場合を除き、または無効にする CsUser コマンドレットを使用して、以前のユーザーを無効になっている場合、コマンドが失敗します。**
   
 > [!IMPORTANT]
-> Before you create contacts, you first need to complete user replication (which is done from the Users tab). 
+> 連絡先を作成する前に (これは、[ユーザー] タブから) ユーザーの複製を完了する必要があります。 
   
 > [!IMPORTANT]
-> If you've just created your users, you'll need to wait until Skype for Business Server replication completes and populates the user accounts in the database. **ユーザーの複製が終了していない、エラーが表示されます。** You'll know when users have finished replicating if the Skype for Business Server 2015 Front End service has started, or by successfully running the Get-CsUser cmdlet on the last user of the total number you specified.
+> ユーザーを作成した場合は、Skype ビジネス サーバーのレプリケーションが完了し、データベース内のユーザー アカウントを作成するまで待機する必要があります。 **ユーザーの複製が終了していない、エラーが表示されます。** ユーザーは、Skype のビジネス サーバー 2015 のフロント エンド サービスが開始されている場合の複製したら、または指定した合計の番号の最後のユーザーを正常に取得 CsUser コマンドレットを実行してがわかります。
   
 #### <a name="contacts-creation-tab"></a>連絡先の作成] タブ
 
@@ -124,11 +125,11 @@ When you click on the **Delete Users** button, the tab's input parameters will b
   
 ### <a name="to-configure-users-contacts-do-the-following"></a>ユーザーの連絡先を構成するには、次の操作を行います。
 
-1. In the **Average Contacts per User** field, enter the average number of contacts to populate in contact lists for each user.
+1. **ユーザー 1 人あたりの平均連絡先**フィールドに、各ユーザーの連絡先リストに表示する連絡先の数の平均値を入力します。
     
-2. Select the **Fixed** check box if you want to create an equal number of contacts for every user. ユーザー用に作成された連絡先の数を変更する場合は、チェック ボックスをオフにします。
+2. 数が等しいすべてのユーザーの連絡先を作成する場合は、[**固定**] チェック ボックスを選択します。 ユーザー用に作成された連絡先の数を変更する場合は、チェック ボックスをオフにします。
     
-3. In the **Average Contact Groups per User** field, enter the number of contact groups per user. This number needs to be smaller than **Average Contacts per User**.
+3. **ユーザーごとの平均の連絡先グループ**] フィールドに、ユーザーごとの連絡先グループの数を入力します。 この番号は、**ユーザーごとの連絡先の平均**よりも小さくする必要があります。
     
 4. **連合/間のプール連絡先の割合**] フィールドに、0 から 100 までの数字を提供します。 フェデレーション ユーザーとの取引先担当者は、この割合が作成されます。
     
@@ -136,7 +137,7 @@ When you click on the **Delete Users** button, the tab's input parameters will b
     
 6. **連合/プール ユーザーの SIP ドメインを越える**フィールドに、フェデレーション ユーザーの SIP ドメイン名を提供します。
     
-7. In **User Creation** tab make sure the information is correct. 連絡先は、ユーザーの作成] タブ上の値から作成されます。
+7. **ユーザーの作成**] タブで、情報が正しいことを確認してください。 連絡先は、ユーザーの作成] タブ上の値から作成されます。
     
 8. 連絡先の作成を開始するのには**連絡先の作成**] をクリックします。 このプロセスには数分かかることができます。 それが完了した後、メッセージがダイアログ ボックスが表示されます「操作が完了正常にします。」 ユーザーの作成] タブから作成されたユーザーとしてログオンし、作成された連絡先を検証することができます。
     
@@ -203,7 +204,7 @@ When you click on the **Delete Users** button, the tab's input parameters will b
 > [!IMPORTANT]
 > 負荷の構成ツール (UserProfileGenerator.exe) で使用されるユーザー固有の値は、プールのビジネス サーバー 2015 ユーザー作成ツール (UserProvisioningTool.exe) は、Skype で指定した値に一致しなければなりません。 
   
-#### <a name="common-configuration-tab"></a>Common Configuration tab
+#### <a name="common-configuration-tab"></a>共通の構成] タブ
 
 負荷の構成ツールの**一般的な設定**] タブを次に示します。 次の手順で説明したように、共通の設定] タブのフィールドを入力します。
   
@@ -223,98 +224,98 @@ When you click on the **Delete Users** button, the tab's input parameters will b
     
 7. [**アカウントのドメイン**] フィールドで、AD DS ドメインへのログオンを入力します。
     
-8. In the **MPOP Percentage** (Multiple Point of Presence percentage) field, give a value for the percentage of users that are logged on from multiple machines or devices, for example 10 percent.
+8. **MPOP 割合**(複数のプレゼンス ポイントの割合)] フィールドに、複数のコンピューターまたはデバイス、たとえば 10% からログオンしているユーザーの割合の値を提供します。
     
 9. **あたり 2 つ目 (インスタンス) ごとに署名**フィールドに、同時実行のエンドポイントの最大数を入力します。 これは、最大数は、ユーザーのログインし、1 秒あたり 2 と同じまたはそれより小さい数をお勧め (< = 2)。
     
 10. [**アクセス プロキシまたはプールの FQDN** ] フィールドでは、クライアントに接続するサーバーの完全修飾ドメイン名 (FQDN) を入力します。 ユーザーがログオンに外部から、アクセス プロキシを入力する必要があります。 ユーザーが内部の場合は、エンタープライズ プールまたは Standard Edition サーバーの FQDN を提供します。
     
-11. In the **Port** field, enter the port that you want users to use for SIP (the default here is 5061).
+11. **[ポート**] フィールドで、ユーザーの SIP を使用するポートを入力します (ここでの既定は 5061 です)。
     
 12. **外部のネットワーク サーバーの設定**のフィールドには、アクセス プロキシまたはプールの FQDN と、もう一度、**ポート**を提供します。 これらの設定は、外部エンドポイントの負荷のシミュレーションにのみ使用されます。
     
-#### <a name="general-scenarios-tab"></a>General Scenarios tab
+#### <a name="general-scenarios-tab"></a>シナリオの [全般] タブ
 
 ![[General Scenarios] タブを表示している Load Configuration Tool](../../media/45792e57-4322-4c20-956f-fe480b0de1a7.png)
   
-実行するか、無効のままにする対象を決定することにより提供される一般的なシナリオのそれぞれについて、負荷のレベルとパラメーターを設定できます。 Here are your general options:
+実行するか、無効のままにする対象を決定することにより提供される一般的なシナリオのそれぞれについて、負荷のレベルとパラメーターを設定できます。 全般的なオプションを以下に示します。
   
 > [!NOTE]
-> Load level values for all fields but Local Information Services are **Disabled**, **Low**, **Medium**, **High**, or **Custom**. 無効になっているのですが、任意の設定を選択する場合は、構成をクライアントごとに生成されます。 High results in the max supported load on the server; medium is 60% of high load; low is 30%. 
+> 負荷が、すべてのフィールド、ローカルのインフォメーション サービスのレベルの値は、**無効になっている**、**低**、**中**、**高**、または**カスタム**です。 無効になっているのですが、任意の設定を選択する場合は、構成をクライアントごとに生成されます。 サーバーでサポートされている最大の負荷の高い結果[中] は、60% の負荷が高いです。30% は低いのです。 
   
-- **インスタント メッセージングでは、**ピア ツー ピアおよび会議。負荷のレベルの適切な値を選択します。
+- **インスタント メッセージングでは、** ピア ツー ピアおよび会議。負荷のレベルの適切な値を選択します。
     
-- **Audio Conferencing -** Choose a load level for audio conferencing *only*  . Peer-to-peer calls will be tackled a little later in the **Voice Scenarios** section. マルチビューを有効にするのには [**詳細設定**] タブを開きます。
+- **オーディオ会議-** オーディオ会議*のみ*の負荷レベルを選択します。 ピア ツー ピアの呼び出しは、**音声のシナリオ**に記載後、もう少し対処が。 マルチビューを有効にするのには [**詳細設定**] タブを開きます。
     
-- **Application Sharing -** Choose a load level for application sharing.
+- **アプリケーションの共有-** アプリケーションを共有するための負荷レベルを選択します。
     
-- **Data Collaboration -** Choose a load level for data collaboration, which includes data conferencing.
+- **データの共同作業-** データ会議に含まれるデータの共同作業の負荷レベルを選択します。
     
-- **配布リストの展開-****[詳細**] ボタンをクリックし、ユーザー作成ツール (UserProvisioningTool.exe) の [配布リスト] タブで構成されている同じ値を持つフィールドに入力します。 Choose a load level.
+- **配布リストの展開-****[詳細**] ボタンをクリックし、ユーザー作成ツール (UserProvisioningTool.exe) の [配布リスト] タブで構成されている同じ値を持つフィールドに入力します。 負荷のレベルを選択します。
     
-- **Address Book Web Query -** This is the address book lookup service rather than the address book file download. 場合は、[**詳細設定**] ボタンをクリックしてアドレス帳ファイルのダウンロードを有効にして、 **EnableABSDownload**を True に設定します。 Give a value for load level.
+- **アドレス帳 Web クエリ**これは、アドレス帳ファイルのダウンロードではなく、アドレス帳の検索サービスです。 場合は、[**詳細設定**] ボタンをクリックしてアドレス帳ファイルのダウンロードを有効にして、 **EnableABSDownload**を True に設定します。 負荷レベルの値を提供します。
     
-- **Response Group Service -** Click the **Advanced** button and specify the URIs of the response groups you already created when you provisioned Response Group Service agents. You must choose at least one response group. To use more, separate the response groups with semicolons. Update **RGSUriSuffixStartIndex** and **RGSUriSuffixEndIndex** to the actual values. Choose a load level.
+- **応答グループ サービス-****[詳細**] ボタンをクリックし、応答グループ サービスのエージェントを提供した場合を既に作成した応答グループの Uri を指定します。 少なくとも 1 つの応答グループを選択する必要があります。 使用するには複数の応答グループ セミコロンで区切ります。 **RGSUriSuffixStartIndex**と**RGSUriSuffixEndIndex**を実際の値に更新します。 負荷のレベルを選択します。
     
-- **場所情報サービス-**有効または無効のいずれかの負荷レベルを選択します。
+- **場所情報サービス-** 有効または無効のいずれかの負荷レベルを選択します。
     
 > [!NOTE]
-> Each of the scenarios has an Advanced button located next to it, and a set of check boxes that enable variations to the default setting. 
+> シナリオのそれぞれには、[詳細設定]、および一連の既定の設定のバリエーションを可能にする] チェック ボックスの横にあります。 
   
-- Choosing  *Ad-hoc*  will allow the tool to generate simulation of conferences that will be created throughout the hour.
+- *メッセージング システム*を選択すると、1 時間全体にわたって作成される会議のシミュレーションを生成するツールを使用できます。
     
-- Choosing  *Large Conf*  means that a Large Conference Scenario will be simulated.
+- 選択する*大規模な Conf*では、大規模な会議のシナリオをシミュレートすることを意味します。
     
--  *External*  tells the tool to also simulate external users.
+-  外部のユーザーをシミュレートするツールを*外部*に通知します。
     
-These buttons and check boxes are extra values specific to each scenario and will change the behavior of the Stress and Performance Tool and make customization possible.
+これらのボタンとチェック ボックスは、各シナリオに固有の追加の値はストレスおよびパフォーマンス ツールの動作を変更し、カスタマイズを可能にします。
   
-For each scenario on the General Scenarios tab (except for Location Information Services), if the value of Load Level is **Custom**, then the conversation rate will be calculated using the corresponding field in the Advanced dialog box. The field name may differ, depending on the scenario, but the field description will state:  *NOTE This number will only be used if Custom is selected from the drop-down menu*  .
+(位置情報サービス) を除く、一般的なシナリオ] タブで各シナリオでは、負荷のレベルの値が**カスタム**の場合、会話率を計算する、[詳細設定] ダイアログ ボックス内の対応するフィールドを使用します。 状況によって、フィールド名が異なる場合がありますが、状態は、フィールドの説明:*メモこの番号は、ドロップ ダウン メニューからカスタムを選択した場合のみ使用されます*。
   
-The values **High**, **Medium**, and **Low**, will alter the conversation rates per modality in line with the User Model that is a balance of all the scenarios. If there's a need to change the load level per modality due to a difference in expected usage, use a Custom conversation rate.
+会話の単価は、すべてのシナリオのバランスをユーザー モデルには、モーダルかどうかは、**高****中****低**値が変更されます。 予想される使用率の違いのモダリティごとの負荷レベルを変更する必要がある場合は、カスタム テーマのレートを使用します。
   
-#### <a name="voice-scenarios-tab"></a>Voice Scenarios tab
+#### <a name="voice-scenarios-tab"></a>音声シナリオ] タブ
 
-This is the tab for configuration of all your voice-related scenarios.
+これは、すべてのボイスに関連するシナリオの構成のタブです。
   
 ![Load Configuration Tool の [Voice Scenarios] タブ](../../media/042e406f-5156-4095-a4eb-6298f24bb51f.png)
   
 オプションは次のとおりです。
   
-- **VoIP -** Click the **Advanced** button and add values for the PhoneAreaCode and LocationProfile (dial plan) fields. You'll also give a value for Load Level. If you choose a load level for VoIP or UC/PSTN Gateway enabled, then a public-switched telephone network (PSTN) to unified communications (UC) configuration file will be generated to simulate external calls.
+- **VoIP-****[詳細**] ボタンをクリックし、PhoneAreaCode と LocationProfile (ダイヤル プラン) フィールドの値を追加します。 負荷のレベルにも値を提供します。 統合コミュニケーション (UC) に VoIP または UC または PSTN ゲートウェイを有効にし、公衆交換電話網 (PSTN) の負荷レベルを選択する場合は、外部の呼び出しをシミュレートするために構成ファイルが生成されます。
     
-- **UC/PSTN Gateway -** You need to choose a Load Level value, and when you choose anything other than Disabled, you've also got to supply a value for PSTN area code by clicking the **Advanced** button. Click **Add** under the Mediation Server and PSTN. Make sure you have a route configured for the area code.
+- **UC または PSTN ゲートウェイ-** 負荷レベルの値を選択する必要があり、無効になっている以外の何かを選択するともあれば、[**詳細設定**] ボタンをクリックすると、PSTN の市外局番の値を指定します。 仲介サーバーと PSTN の下の [**追加**] をクリックします。 市外局番で構成されているルートがあることを確認します。
     
     > [!TIP]
-    > You can use either the Skype for Business Control Panel or Skype for Business Management Shell to verify your voice route configuration. 
+    > ボイス ルートの構成を確認するのには、ビジネス コントロール パネルまたはビジネス管理シェルの Skype のいずれかの Skype を使用できます。 
   
-- **Conferencing Attendant -** Supply a value for Load Level. Any value other than Disabled will enable the **Telephone Number** field. Enter the phone number of the Auto Attendant you want to use. Click **Advanced** and give a value for the **LocationProfile** field.
+- **会議アテンダント-** 負荷レベルの値を指定します。 無効以外の値には、**電話番号**フィールドが有効になります。 使用する自動応答の電話番号を入力します。 [**詳細設定**] をクリックし、 **LocationProfile**フィールドの値を提供します。
     
-- **Call Parking Service -** Here, supply a Load Level.
+- **駐車サービス-** ここでは、負荷のレベルを指定します。
     
-- **Mediation Server and PSTN -** Each Mediation Server that you want to use needs its own PSTN simulator. After you've determined which client you're going to use for the simulator, configuration your Mediation Server to route calls to that computer on the PSTN Simulator you configured. Click the **Add** button to configure a value for the Mediation Server.
+- **仲介サーバーおよび PSTN**各仲介サーバーを使用するには、独自の PSTN のシミュレータが必要があります。 クライアント シミュレータを使用することを決定した後構成をルーティングするように仲介サーバーを呼び出すそのコンピューターに PSTN シミュレータでするように構成します。 仲介サーバーの値を構成するのには [**追加**] ボタンをクリックします。
     
     > [!NOTE]
-    > Each scenario has an Advanced button located next to it. Advanced dialog boxes contain settings specific to each scenario that change the behavior of the Stress and Performance Tool and enable customization. > For each scenario on the Voice Scenarios tab, if the value of Load Level is **Custom**, then the conversation rate will be calculated by using the corresponding field in the Advanced dialog box. The field name may differ, depending on the scenario, but the field description will state:  *NOTE This number will only be used if Custom is selected from the drop-down menu*  .
+    > 各シナリオでは、その横にある高度なボタンがあります。 [詳細設定] ダイアログ ボックスには、ストレスおよびパフォーマンス ツールの動作を変更し、カスタマイズを有効にする各シナリオに固有設定が含まれています。 > ボイス シナリオ] タブ上の各シナリオの負荷レベルの値が**カスタム**の場合、会話率を計算する、[詳細設定] ダイアログ ボックスで、対応するフィールドを使用しています。 状況によって、フィールド名が異なる場合がありますが、状態は、フィールドの説明:*メモこの番号は、ドロップ ダウン メニューからカスタムを選択した場合のみ使用されます*。
   
-#### <a name="web-app-tab"></a>Web App tab
+#### <a name="web-app-tab"></a>Web アプリケーション] タブ
 
 ![Load Configuration Tool の [Web app] タブ](../../media/505b54ef-8140-4dec-a43e-08091f592b34.png)
   
-Web App supports conferencing scenarios through the Unified Communications Web API (UCWA) server that's installed on a Front End server. Use the Web App tab to configure all web app-related scenarios. Options are:
+Web アプリケーションは、サーバーをフロント エンド サーバーにインストールされているユニファイド コミュニケーション Web API (UCWA) サーバーから会議のシナリオをサポートします。 Web アプリケーション] タブを使用すると、すべての web アプリケーションに関連するシナリオを構成できます。 オプションは次のとおりです。
   
-- **General Web App Settings -** Click the **Additional Settings** button and set the **ReachTargetServerUrl** to the Directory Pool virtual IP (VIP) of the Front End pool VIP.
+- **一般的な Web アプリケーションの設定-****その他の設定**] をクリックし、VIP のフロント エンド プールのプールのディレクトリ仮想 IP (VIP) に**ReachTargetServerUrl**を設定します。
     
-- **Application Sharing -** Select a value for Load Level.
+- **アプリケーションの共有-** 負荷レベルの値を選択します。
     
-- **データの共同作業-**負荷レベルの値を選択します。
+- **データの共同作業-** 負荷レベルの値を選択します。
     
-- **インスタント メッセージングでは、**負荷レベルの値を選択します。
+- **インスタント メッセージングでは、** 負荷レベルの値を選択します。
     
-- **Voice Conferencing -** Select a value for Load Level.
+- **音声会議-** 負荷レベルの値を選択します。
     
 > [!NOTE]
-> Each of the scenarios has an **Advanced** button located next to it. Advanced dialogs contain values specific to each scenario that will change the behavior of the Stress and Performance Tool and enable customization.> For each of the Web App scenarios, if the Load Level is **Custom**, then the value specified in the **ConversationsPerHour** field is used instead of the default.
+> 各シナリオには、**詳細設定**] ボタンの横にあります。 オプションのダイアログ ボックスの値を含む各シナリオに固有のストレスおよびパフォーマンス ツールの動作を変更し、カスタマイズできます > Web アプリケーションのシナリオのそれぞれについて、負荷レベルが**カスタム**の場合、値で指定された、 **。ConversationsPerHour**フィールドは、既定値の代わりに使用します。
   
 #### <a name="mobility-tab"></a>モビリティ] タブ
 
@@ -324,12 +325,12 @@ Web App supports conferencing scenarios through the Unified Communications Web A
   
 オプションをここでは次のとおりです。
   
-- **General Mobility Settings -** Click **Additional Settings** and set the field UcwaTargetServerUrl to the Director Pool virtual IP (VIP) or the Front End pool VIP.
+- **一般的なモビリティ設定-**[**追加設定**] をクリックし、ディレクター プール仮想 IP (VIP)、またはフロント エンド プールの VIP への UcwaTargetServerUrl フィールドを設定します。
     
-- **プレゼンスと P2P インスタント メッセージング/オーディオ-**移動のシミュレーションを有効にするのには負荷のレベルの値を選択します。
+- **プレゼンスと P2P インスタント メッセージング/オーディオ-** 移動のシミュレーションを有効にするのには負荷のレベルの値を選択します。
     
 > [!NOTE]
-> 各シナリオには、**詳細設定**] ボタンの横にあります。 Advanced dialogs contain values specific to each scenario that will change the behavior of the Stress and Performance Tool and enable customization.> For each of the Mobility scenarios, if the Load Level is **Custom**, then the value specified in the **ConversationsPerHour** field is used instead of the default.
+> 各シナリオには、**詳細設定**] ボタンの横にあります。 オプションのダイアログ ボックスの値を含む各シナリオに固有のストレスおよびパフォーマンス ツールの動作を変更し、カスタマイズできます > 移動のシナリオのそれぞれについて、負荷レベルが**カスタム**の場合、値で指定された、 **。ConversationsPerHour**フィールドは、既定値の代わりに使用します。
   
 #### <a name="summary-tab"></a>[概要] タブ
 
@@ -337,11 +338,11 @@ Web App supports conferencing scenarios through the Unified Communications Web A
   
 ![Load Configuration Tool の [Summary] タブ](../../media/436fb3f2-d73e-402d-bc6e-e8a6740819d2.png)
   
-The Summary tab indicates which users to use for each of the scenarios. 
+[概要] タブでは、各シナリオで使用するユーザーを示します。 
   
-It's possible to manually configure user number ranges by selecting the **Enable Custom User Range Generation** check box, and then double-clicking the scenario in the table that has the User Range that you want to customize.
+**カスタム ユーザー範囲生成を有効にする**] チェック ボックスを選択し、シナリオをカスタマイズするユーザーの範囲を持つテーブルをダブルクリックしてユーザーの数値の範囲を手動で構成することができます。
   
-サインインの速度に対応して生成されたバッチ ファイルでの遅延を含めるために**(RunClient.bat) 追加記号で遅延起動時の設定**を確認してください。 This is useful to prevent server overload when signing in a large number of users.
+サインインの速度に対応して生成されたバッチ ファイルでの遅延を含めるために **(RunClient.bat) 追加記号で遅延起動時の設定**を確認してください。 多数のユーザーに署名するときは、サーバーの過負荷を防ぐために便利です。
   
 **ファイルの生成**] をクリックし、構成を生成するフォルダーを選択します。 ファイルが正常に作成されたときにダイアログ ボックスが表示されます。
   
@@ -350,21 +351,21 @@ It's possible to manually configure user number ranges by selecting the **Enable
 ## <a name="run-lyncperftool"></a>LyncPerfTool を実行します。
 <a name="BKMK_RunTool"> </a>
 
-You'll need to create users, contacts, and scenarios before running the Skype for Business Server 2015 Stress and Performance Tool (LyncPerfTool.exe). For details about using the tools to perform these actions, see [Create Users and Contacts](using-the-tool.md#BKMK_CreateUsersAndContacts) and [Configure User Profile](using-the-tool.md#BKMK_UserProfile) previously in this article. Running these tools will also generate a file that will run with the Stress and Performance tool as part of a batch file with the required parameters included.
+ビジネス サーバー 2015 のストレスおよびパフォーマンス ツール (LyncPerfTool.exe) は、Skype を実行する前にユーザー、連絡先、およびシナリオを作成する必要があります。 これらのアクションを実行するツールの使用の詳細についてを参照してください[ユーザーの作成および取引先担当者](using-the-tool.md#BKMK_CreateUsersAndContacts)および[ユーザー プロファイルを構成する](using-the-tool.md#BKMK_UserProfile)以前この資料にします。 これらのツールを実行すると、含まれている必要なパラメーターを使用してストレスおよびパフォーマンス ツールを使用してバッチ ファイルの一部として実行するファイルも生成されます。
   
-### <a name="running-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Running the Skype for Business Server 2015 Stress and Performance tool
+### <a name="running-the-skype-for-business-server-2015-stress-and-performance-tool"></a>ビジネス サーバー 2015 のストレスおよびパフォーマンス ツールの Skype を実行しています。
 
 負荷の構成ツール (UserProfileGenerator.exe) は、ストレスおよびパフォーマンス ツール (LyncPerfTool.exe) を実行するには、パフォーマンス カウンターを登録して、XML 構成ファイルをロードすることを可能にするバッチ ファイルを作成します。 バッチ ファイルは、構成ファイルごとの LyncPerfTool.exe の 1 つのインスタンスを実行します。 バッチ ファイルを実行には、これらの手順に従います。
   
 ### <a name="run-the-stress-and-performance-test"></a>ストレスおよびパフォーマンスのテストを実行します。
 
-1. Copy the folder with the configuration folders and files inside to the directory that has LyncPerfTool.exe on each client computer. (For example, if you generated the configuration files in the folder named 1.28_13.16.16, copy that folder to the folder with LyncPerfTool.exe in it. これは各クライアントにします。)
+1. 構成フォルダー内のファイルとフォルダーを各クライアント コンピューターで LyncPerfTool.exe のあるディレクトリにコピーします。 (などの 1.28_13.16.16 をという名前のフォルダー内の構成ファイルを生成する場合そのフォルダー フォルダーにコピー LyncPerfTool.exe とにします。 これは各クライアントにします。)
     
-2. Navigate to the client folder and run the **RunClient** batch script. Windows エクスプ ローラーでバッチ ファイルをダブルクリックすることができ、すべての構成ファイルにクライアントに対して実行されます。 次の構文を使用してクライアントのフォルダーからスクリプトを実行することもできます。
+2. クライアントのフォルダーに移動し、 **RunClient**のバッチ スクリプトを実行します。 Windows エクスプ ローラーでバッチ ファイルをダブルクリックすることができ、すべての構成ファイルにクライアントに対して実行されます。 次の構文を使用してクライアントのフォルダーからスクリプトを実行することもできます。
     
-  ```
-  RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
-  ```
+   ```
+   RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
+   ```
 
 ストレスおよびパフォーマンス ツールを直接実行、コマンド プロンプトを開き、コマンドラインで次のコマンドを入力する (最初にこれを行うときは、パフォーマンス カウンターを登録することを確認して`regsvr32 /i /n /s LyncPerfToolPerf.dll`、このトピックの後半で示すように、)。
   
@@ -372,7 +373,7 @@ You'll need to create users, contacts, and scenarios before running the Skype fo
 LyncPerfTool.exe /file:IM_client0.xml
 ```
 
-To have the tool display the values in the configuration file, include the  `/displayfile` parameter on the preceding command, so that it looks like this:
+構成ファイルの値を表示するツールを表示するには、`/displayfile`を次のようなので、上記のコマンドのパラメーター。
   
 ```
 LyncPerfTool.exe /file:IM_client0.xml /displayfile
@@ -388,7 +389,7 @@ LyncPerfTool.exe /file:IM_client0.xml /displayfile
   
 レート プールのサインイン用ユーザーのピーク時は、1 秒あたり 12 についてです。 これは、必要はありませんを起動する 12 の複数の LyncPerfTool.exe インスタンスを同時にユーザーがサインインしても、ことを意味します。 1000 人のユーザーは完全に 1 秒ごとに 1 つのサインインに約 20 分かかります。
   
-## <a name="interpreting-the-results"></a>Interpreting the Results
+## <a name="interpreting-the-results"></a>結果の解釈
 <a name="BKMK_Interpret"> </a>
 
 ビジネス サーバー 2015 のストレスおよびパフォーマンス ツールの Skype では、クライアントが何をして、には問題が発生したかどうかを理解するのに役立つ多数のカウンターがあります。

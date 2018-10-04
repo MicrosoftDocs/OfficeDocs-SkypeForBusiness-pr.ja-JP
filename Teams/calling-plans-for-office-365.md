@@ -28,12 +28,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: d22dc0c3102549a8728131e20bf44ecdb0d7e8e0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: e1e5c362ba1074b48949fffe6b2c70579f377dda
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013540"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375069"
 ---
 # <a name="calling-plans-for-office-365"></a>Office 365 の通話プラン
 
@@ -55,7 +55,7 @@ ms.locfileid: "25013540"
   
 ## <a name="how-to-buy-a-calling-plan"></a>呼び出す計画を購入する方法
 
-1. **まず、**電話システム**のアドオン ライセンスを購入する必要があります**。 [Office 365 の管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)し、**請求先**を選択する > **購買サービス** > **アドオン サブスクリプション** > **今すぐ購入**します。
+1. <strong>最初に購入する必要があります、* * 電話システム</strong>のアドオン ライセンス<strong>。行うには、 [Office 365 の管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)する」を選択 * * 請求</strong> > **購買サービス** > **アドオン サブスクリプション** > **今すぐ購入**します。
     
     ![クラウド PBX ライセンスを購入するときは、計画を呼び出し、ボイスを購入するためのオプションが表示されます。](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   

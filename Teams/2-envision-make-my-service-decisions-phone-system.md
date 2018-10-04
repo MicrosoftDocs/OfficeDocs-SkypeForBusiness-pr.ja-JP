@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0794af6763dd91005bbe8dcd8b19e5a97db55d20
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 1f73c61b1c02f9560e3419d8993d998fa8f0ba9d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014444"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374796"
 ---
 # <a name="make-my-service-decisions"></a>[サービスの決定を行う
 
@@ -67,13 +67,15 @@ PSTN への接続を有効にするには、組織は、その通信サービス
 組織が計画を呼び出してサービスを取得できることを確認するには後に、、ユーザーの所在地、またはオフィスの場所を実装する場合の利用可能な国や地域の一覧を基に、計画を呼び出すサービスのリストをコンパイルします。
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|意思決定ポイント|<ul><li>サービスを提供するユーザーの場所やオフィスを呼び出す計画を実装することを決定します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>サービスを提供するユーザーの場所やオフィスを呼び出す計画を実装することを決定します。</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>ユーザーの所在地、またはオフィスの計画を呼び出すサービスを有効にするを文書化します。</li></ul>|
 
 > [!TIP]
 > プランの呼び出しサイトの有効化] ボックスの一覧で、電話システムの例を次に示します。
+> 
 > | **事業所**                     | **場所**   | **電話システム サービス** |
 > |--------------------------------|----------------|--------------------------|
 > | One Epping Road                | オーストラリア      | 旧 PSTN サービス |
@@ -102,21 +104,23 @@ Office 365 のプランを呼び出すことで、組織内のすべてのユー
 -   [緊急通話の利用条件](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|意思決定ポイント|<ul><li>ユーザーの所在地、または計画を呼び出す実装のスコープ内のオフィスで収集される情報を緊急通報の粒度を決定します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>ユーザーの所在地、または計画を呼び出す実装のスコープ内のオフィスで収集される情報を緊急通報の粒度を決定します。</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>詳細な緊急時のアドレスとユーザーの場所やプランを呼び出す実装のスコープ内のオフィスごとに緊急時の場所を文書化します。</li></ul>|
 
 > [!TIP]
 > 次のテンプレートを使用すると、電話番号の詳細情報と緊急時の場所の詳細を文書化します。
->|ユーザー |緊急通報とアドレス |電話番号 |
->|-----|-------------------------------|-------------|
->|Emily Braun |1034/32 London Bridge Street, London, SE1, United Kingdom |+44 23 4567 8901 |
->|Lidia Holloway |1065/32 ロンドン ブリッジ ストリート、ロンドン、SE1、王国を統一します。 |+44 23 4567 89112 |
->|ルイ Lahr |1023/32 London Bridge Street, London, SE1, United Kingdom |+44 23 4567 ・ 8921 |
->|Marcel Beauchamp |07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France | TBA |
->|Rachelle Cormier |07N15D/39 quai du Président ルーズベルト、92130 Issy の les の Moulineaux (フランス) | TBA |
->|Isabell Potvin |07F05E/39 quai du Président ルーズベルト、92130 Issy の les の Moulineaux (フランス) | TBA |
+> 
+> |ユーザー |緊急通報とアドレス |電話番号 |
+> |-----|-------------------------------|-------------|
+> |Emily Braun |1034/32 London Bridge Street, London, SE1, United Kingdom |+44 23 4567 8901 |
+> |Lidia Holloway |1065/32 ロンドン ブリッジ ストリート、ロンドン、SE1、王国を統一します。 |+44 23 4567 89112 |
+> |ルイ Lahr |1023/32 London Bridge Street, London, SE1, United Kingdom |+44 23 4567 ・ 8921 |
+> |Marcel Beauchamp |07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France | TBA |
+> |Rachelle Cormier |07N15D/39 quai du Président ルーズベルト、92130 Issy の les の Moulineaux (フランス) | TBA |
+> |Isabell Potvin |07F05E/39 quai du Président ルーズベルト、92130 Issy の les の Moulineaux (フランス) | TBA |
 
 <!--ENDOFSECTION-->
 
@@ -134,21 +138,23 @@ Azure ボイスメール サービス、電源、電話システムのボイス�
 電話システムの実装でボイスメールの詳細については、 [Azure の PBX のボイス メールが Exchange Server のサポート](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#licensing-for-calling-plans)を参照してください。
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|意思決定ポイント|<ul><li>計画を呼び出す実装では、電話システムのボイス メールを有効にするかどうかを決定します。</li><li>Exchange 設置し、既存の配置を使用してボイスメールの電話システムをサポートするためにお客様の要件を満たしていない場合、は、使用可能なオプションから選択 (アップグレードしボイスメールの電話システムのサポートのためのセットアップは、Exchange オンライン、または利用に移行しますフォールバック メカニズムは前に説明した)。</li><li>有効にするまたはボイスメールの議事録と、組織全体または特定のユーザーのボイスメールの議事録不適切なマスキングを無効にするかどうかを決定します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>計画を呼び出す実装では、電話システムのボイス メールを有効にするかどうかを決定します。</li><li>Exchange 設置し、既存の配置を使用してボイスメールの電話システムをサポートするためにお客様の要件を満たしていない場合、は、使用可能なオプションから選択 (アップグレードしボイスメールの電話システムのサポートのためのセットアップは、Exchange オンライン、または利用に移行しますフォールバック メカニズムは前に説明した)。</li><li>有効にするまたはボイスメールの議事録と、組織全体または特定のユーザーのボイスメールの議事録不適切なマスキングを無効にするかどうかを決定します。</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>該当する場合は、ボイスメールの電話システムをサポートするために Exchange の意思決定ポイントを文書化します。</li><li>場合が有効/無効にするボイスメール、ボイスメールの議事録、およびボイスメールの議事録不適切なマスキング特定のユーザーに対してのみ、ユーザーの一覧を文書化します。</li></ul>|
 
 > [!TIP]
 > 実装の計画を呼び出すと、電話システムの電話システムのボイス メールの詳細は、次のよう文書化することができます。
->|ユーザー |Exchange メールボックス |ボイスメールを有効にしますか。 |ボイスメールの議事録 |ボイスメールの議事録の不適切なマスキング |
->|------------------|------------------|-------------------|----------|----------|
->|Emily Braun      |オンライン      |はい |有効 |有効 |
->|Lidia Holloway   |オンライン      |はい |有効 |無効 |
->|ルイ Lahr       |オンプレミス |はい |有効 |有効 |
->|Marcel Beauchamp |オンプレミス |はい |無効 |該当なし |
->|Rachelle Cormier |オンライン      |はい |無効 |該当なし |
->|Isabell Potvin   |オンプレミス |はい |無効 |該当なし |
+> 
+> |ユーザー |Exchange メールボックス |ボイスメールを有効にしますか。 |ボイスメールの議事録 |ボイスメールの議事録の不適切なマスキング |
+> |------------------|------------------|-------------------|----------|----------|
+> |Emily Braun      |オンライン      |はい |有効 |有効 |
+> |Lidia Holloway   |オンライン      |はい |有効 |無効 |
+> |ルイ Lahr       |オンプレミス |はい |有効 |有効 |
+> |Marcel Beauchamp |オンプレミス |はい |無効 |該当なし |
+> |Rachelle Cormier |オンライン      |はい |無効 |該当なし |
+> |Isabell Potvin   |オンプレミス |はい |無効 |該当なし |
 
 <!--ENDOFSECTION-->
 
@@ -157,21 +163,23 @@ Azure ボイスメール サービス、電源、電話システムのボイス�
 既定で、すべての通話の発信で発信に割り当てられた電話番号が発信者番号として使用されます。 通話の受信者は即座にその発信者を識別して通話を受け入れるか拒否するか決めることができます。 Office メインの行番号を使用して呼び出し元の id を保護するために呼び出し元の ID をマスクするのには正当なビジネス要件がある場合によっては、-自動応答構成でサービスを提供するサービスの数は通常、呼び出し元の ID、または呼び出し元の ID をブロックするにはプレゼンテーション全体です。
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|意思決定ポイント|<ul><li>発信者番号操作が計画の呼び出しを実装するために必要かどうかを決定します。</li><li>該当する場合、呼び出し元 ID の操作の種類を決定するサービス番号のマスク (匿名) を実装します。</li><li>該当する場合は、ユーザーが操作の呼び出し元の ID と各ユーザーに割り当てる操作を呼び出し元の ID の種類を必要とするを決定します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>発信者番号操作が計画の呼び出しを実装するために必要かどうかを決定します。</li><li>該当する場合、呼び出し元 ID の操作の種類を決定するサービス番号のマスク (匿名) を実装します。</li><li>該当する場合は、ユーザーが操作の呼び出し元の ID と各ユーザーに割り当てる操作を呼び出し元の ID の種類を必要とするを決定します。</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>発信者番号操作および割り当てるには発信者番号通知の操作の種類に割り当てられるユーザーを文書化します。</li></ul>|
 
 > [!TIP]
 > 次は、呼び出し元 ID の詳細ドキュメントをマスキングの例です。
->|ユーザー  |発信における発信者番号のマスク処理の有効化  |発信者番号のマスク処理の種類  |ユーザーによる上書きの許可  | 受信における発信者番号のマスク処理の有効化  |
->|---------|---------|---------|---------|---------|
->|Emily Braun|いいえ|該当なし|はい|いいえ|
->|Lidia Holloway|はい|サービス番号 (OrgAA、+44 20 7946 0000)|いいえ|あり|
->|ルイ Lahr|いいえ|該当なし|はい|いいえ|
->|Marcel Beauchamp|はい|サービス番号 (OrgAA、TBA)|いいえ|はい|
->|Rachelle Cormier|はい|匿名化|はい|いいえ|
->|Isabell Potvin|はい|サービス番号 (OrgAA、TBA)|いいえ|あり|
+> 
+> |ユーザー  |発信における発信者番号のマスク処理の有効化  |発信者番号のマスク処理の種類  |ユーザーによる上書きの許可  | 受信における発信者番号のマスク処理の有効化  |
+> |---------|---------|---------|---------|---------|
+> |Emily Braun|いいえ|該当なし|はい|いいえ|
+> |Lidia Holloway|はい|サービス番号 (OrgAA、+44 20 7946 0000)|いいえ|あり|
+> |ルイ Lahr|いいえ|該当なし|はい|いいえ|
+> |Marcel Beauchamp|はい|サービス番号 (OrgAA、TBA)|いいえ|はい|
+> |Rachelle Cormier|はい|匿名化|はい|いいえ|
+> |Isabell Potvin|はい|サービス番号 (OrgAA、TBA)|いいえ|あり|
 
 <!--ENDOFSECTION-->
 
@@ -211,21 +219,23 @@ Office 365 テナントの場合、通話時間 (分) は国や地域別と通�
 -   [通話プラン](https://products.office.com/skype-for-business/calling-plans)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|意思決定ポイント|<ul><li>組織には、必要な電話システムのライセンスが割り当てられていない、または電話システムのアドオン サービスを入手することで、既存の Office 365 サブスクリプションをステップ実行して、電話システムのライセンスを習得していただくことがあるかどうかを決定します。</li><li>ユーザーには国内を呼び出す予定のライセンスが必要と判断し、国内および国際を呼び出す予定のライセンスが必要な。</li><li>プランの呼び出しを実装するための通信のクレジットする必要があるかどうかを決定します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>組織には、必要な電話システムのライセンスが割り当てられていない、または電話システムのアドオン サービスを入手することで、既存の Office 365 サブスクリプションをステップ実行して、電話システムのライセンスを習得していただくことがあるかどうかを決定します。</li><li>ユーザーには国内を呼び出す予定のライセンスが必要と判断し、国内および国際を呼び出す予定のライセンスが必要な。</li><li>プランの呼び出しを実装するための通信のクレジットする必要があるかどうかを決定します。</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>部門、部門、オフィス、またはユーザー グループの電話システムのライセンス国内を呼び出すことを計画、国内と国際を呼び出す計画を割り当てることを文書化します。</li></ul>|
 
 > [!TIP]
 > 計画を呼び出すユーザーの電話システムのライセンスの割り当てを文書化するのには、次の例を使用できます。
->|ユーザー |オフィス |Office 365 ライセンス |計画を呼び出す |
->|----|----|----|----|
->|Emily Braun |32 London Bridge Street |Office 365 E5 |国内/国際通話プラン |
->|Lidia Holloway |32 London Bridge Street |Office 365 E5 |国内通話プラン |
->|ルイ Lahr |32 London Bridge Street |Office 365 E5 |国内通話プラン |
->|Marcel Beauchamp |39 quai du Président Roosevelt |Office 365 E3、電話システムのアドオン |国内通話プラン |
->|Rachelle Cormier |39 quai du Président Roosevelt |Office 365 E5 |国内/国際通話プラン |
->|Isabell Potvin |39 quai du Président Roosevelt |Office 365 E3、電話システムのアドオン |国内通話プラン |
+> 
+> |ユーザー |オフィス |Office 365 ライセンス |計画を呼び出す |
+> |----|----|----|----|
+> |Emily Braun |32 London Bridge Street |Office 365 E5 |国内/国際通話プラン |
+> |Lidia Holloway |32 London Bridge Street |Office 365 E5 |国内通話プラン |
+> |ルイ Lahr |32 London Bridge Street |Office 365 E5 |国内通話プラン |
+> |Marcel Beauchamp |39 quai du Président Roosevelt |Office 365 E3、電話システムのアドオン |国内通話プラン |
+> |Rachelle Cormier |39 quai du Président Roosevelt |Office 365 E5 |国内/国際通話プラン |
+> |Isabell Potvin |39 quai du Président Roosevelt |Office 365 E3、電話システムのアドオン |国内通話プラン |
 
 <!--ENDOFSECTION-->
 
@@ -240,30 +250,29 @@ Office 365 テナントの場合、通話時間 (分) は国や地域別と通�
 通信のクレジットの詳細については、次のように確認します。[通信のクレジットは何ですか?](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)です。
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|意思決定ポイント|<ul><li>オーディオ会議または予定の呼び出しを実装するための通信のクレジットが必要かどうかを決定します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>オーディオ会議または予定の呼び出しを実装するための通信のクレジットが必要かどうかを決定します。</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>クレジットを通信することで、部門、部門、オフィス、またはユーザーのグループを文書化します。</li><li>オーディオ会議または予定の呼び出しを実装するため、通信のクレジットの計画を文書化します。</li></ul>|
 
 > [!TIP]
 > 計画を呼び出すユーザーの通信のクレジットの割り当ての一覧を文書化するのにには、次の例を使用します。
->|ユーザー |オフィス |計画を呼び出す |コミュニケーション クレジット |
->|----|----|----|----|
->|Emily Braun |32 London Bridge Street |国内/国際通話プラン |有効 |
->|Lidia Holloway |32 London Bridge Street |国内通話プラン |無効 |
->|ルイ Lahr |32 London Bridge Street |国内通話プラン |有効 |
->|Marcel Beauchamp |39 quai du Président Roosevelt |国内通話プラン |無効 |
->|Rachelle Cormier |39 quai du Président Roosevelt |国内/国際通話プラン |有効 |
->|Isabell Potvin |39 quai du Président Roosevelt |国内通話プラン |無効 |
+> 
+> |ユーザー |オフィス |計画を呼び出す |コミュニケーション クレジット |
+> |----|----|----|----|
+> |Emily Braun |32 London Bridge Street |国内/国際通話プラン |有効 |
+> |Lidia Holloway |32 London Bridge Street |国内通話プラン |無効 |
+> |ルイ Lahr |32 London Bridge Street |国内通話プラン |有効 |
+> |Marcel Beauchamp |39 quai du Président Roosevelt |国内通話プラン |無効 |
+> |Rachelle Cormier |39 quai du Président Roosevelt |国内/国際通話プラン |有効 |
+> |Isabell Potvin |39 quai du Président Roosevelt |国内通話プラン |無効 |
 
 <br>
-> [!TIP]
-> 次の例のように番号を計画、通信のクレジットを文書化することができます。
->|         |         |
->|---------|---------|
->|初回購入金額|$ 1,000|
->|リチャージを実行する金額|$400|
->|自動リチャージする金額|TBA|
+&gt; [!TIP]
+&gt;次の例のように番号を計画、通信のクレジットを文書化することができます。
+&gt;|        |        |&gt;|---------|---------|
+&gt;|初期容量 | 1,000 円 |&gt;|トリガー時間 | 400 ドル。&gt;|自動リチャージ金額。TBA |
 
 <!--ENDOFSECTION-->
 
@@ -290,9 +299,10 @@ Office 365 テナントの場合、通話時間 (分) は国や地域別と通�
 取得できる電話番号の合計数の詳細についてを参照してください[電話番号の数を取得することができますか?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|意思決定ポイント|<ul><li>ユーザーの場所やオフィスがマイクロソフトから新しい電話番号を取得する場所を決定します。</li><li>Microsoft から取得する電話番号の種類を決定します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>ユーザーの場所やオフィスがマイクロソフトから新しい電話番号を取得する場所を決定します。</li><li>Microsoft から取得する電話番号の種類を決定します。</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>ユーザーの所在地、またはマイクロソフトから新しい電話番号を取得する場所のオフィスを文書化します。</li><li>Microsoft から取得する電話番号の種類を文書化します。</li></ul>|
 
 ## <a name="transfer-existing-telephone-numbers"></a>既存の電話番号を転送します。
@@ -312,9 +322,10 @@ Office 365 テナントの場合、通話時間 (分) は国や地域別と通�
 -   [電話番号の移行に関するよくある質問](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|意思決定ポイント|<ul><li>ユーザーの所在地、またはオフィスの既存の電話番号をマイクロソフトに転送されますを決定します。</li><li>マイクロソフトに転送する電話番号の種類を決定します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>ユーザーの所在地、またはオフィスの既存の電話番号をマイクロソフトに転送されますを決定します。</li><li>マイクロソフトに転送する電話番号の種類を決定します。</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>文書化するには、ユーザーの所在地、またはオフィスの既存の電話番号をマイクロソフトに転送されます。</li><li>マイクロソフトに転送する電話番号の種類を文書化します。</li></ul>|
 
 <!--ENDOFSECTION-->
@@ -343,43 +354,32 @@ Office 365 の電話システムの機能では、ダイヤル プランの 2 �
 ダイヤル プランの詳細についてを参照してください[のダイヤル プランは何ですか?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|意思決定ポイント|<ul><li>組織にカスタマイズされたダイヤル プランが (ビジネス要件、導入要件、およびなど) が必要かどうかを決定します。</li><li>該当する場合、テナントのダイヤル プランのスコープを決定 (テナント グローバルまたはテナントのユーザー) カスタマイズしたダイヤル プランのお客様の要件をサポートします。</li><li>該当する場合は、クラウドのボイス実装のスコープ内のユーザーの所在地、またはオフィスをサポートするために作成するテナントのダイヤル プランを決定します。</li><li>該当する場合、カスタマイズされたダイヤル プランとテナントのダイヤル プランの各ユーザーに割り当てられるユーザーが必要なを決定します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>組織にカスタマイズされたダイヤル プランが (ビジネス要件、導入要件、およびなど) が必要かどうかを決定します。</li><li>該当する場合、テナントのダイヤル プランのスコープを決定 (テナント グローバルまたはテナントのユーザー) カスタマイズしたダイヤル プランのお客様の要件をサポートします。</li><li>該当する場合は、クラウドのボイス実装のスコープ内のユーザーの所在地、またはオフィスをサポートするために作成するテナントのダイヤル プランを決定します。</li><li>該当する場合、カスタマイズされたダイヤル プランとテナントのダイヤル プランの各ユーザーに割り当てられるユーザーが必要なを決定します。</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>クラウド ボイスの実装の一部として構成するには、カスタマイズされたダイヤル プランと関連付けられている正規化ルールを文書化します。</li><li>カスタマイズされたダイヤル プランとユーザーごとに割り当てられるテナントのダイヤル プランに割り当てられるユーザーを文書化します。</li></ul>|
 
 > [!TIP]
 > プロジェクトに適用可能な場合は、テナントのダイヤル プランの設定を文書化するのには次のテンプレートを使用できます。
->|テナント ダイヤル プランの名前<br>_説明_  |正規化ルールの名前<br>_説明_  |パターン<br>変換<br>IsInternalExtension  |
->|---------|---------|---------|
->|**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde、NSW、AU ダイヤル プラン_|**AU-NSW-NorthRyde-OER-Internal**<br>_One Epping Road オフィスの内部番号 (x7000 - x7999)、North Ryde、NSW、オーストラリア_|^(7\d{3})$<br>+6125550$1<br>True|
->||**AU-NSW-Local**<br>_NSW、オーストラリアの市内番号の正規化_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
->||**AU-TollFree**<br>_オーストラリアの無料電話番号の正規化_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
->||**AU-Service**<br>_オーストラリアのサービス番号の正規化_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
->|**SG-Singapore-OMB**<br>_OMB Singapore、SG ダイヤル プラン_|**SG-OMB-Internal**<br>_行政管理予算局のオフィス、シンガポールの内部番号 (x8000-経費"x 8999)_|^(8\d{3})$<br>+656888$1<br>True|
->||**SG-TollFree**<br>_シンガポールの無料電話番号の正規化_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
->||**SG-Service**<br>_シンガポールのサービス番号の正規化_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
->|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux、フランスのダイヤル プラン_|**FR-39qdPR-Internal**<br>_39 quai du Président ルーズベルトのオフィス、Issy の内部番号 ("x-7999 x7000-経費)-ゴ-Moulineaux (フランス)_|^(7\d{3})$<br>+3319999$1<br>True|
->||**FR-TollFree**<br>_フランスの無料電話番号の正規化_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
->||**FR-Service**<br>_フランスのサービス番号の正規化_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
+> 
+> |テナント ダイヤル プランの名前<br>_説明_  |正規化ルールの名前<br>_説明_  |パターン<br>変換<br>IsInternalExtension  |
+> |---------|---------|---------|
+> |**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde、NSW、AU ダイヤル プラン_|**AU-NSW-NorthRyde-OER-Internal**<br>_One Epping Road オフィスの内部番号 (x7000 - x7999)、North Ryde、NSW、オーストラリア_|^(7\d{3})$<br>+6125550$1<br>True|
+> ||**AU-NSW-Local**<br>_NSW、オーストラリアの市内番号の正規化_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
+> ||**AU-TollFree**<br>_オーストラリアの無料電話番号の正規化_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
+> ||**AU-Service**<br>_オーストラリアのサービス番号の正規化_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
+> |**SG-Singapore-OMB**<br>_OMB Singapore、SG ダイヤル プラン_|**SG-OMB-Internal**<br>_行政管理予算局のオフィス、シンガポールの内部番号 (x8000-経費"x 8999)_|^(8\d{3})$<br>+656888$1<br>True|
+> ||**SG-TollFree**<br>_シンガポールの無料電話番号の正規化_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
+> ||**SG-Service**<br>_シンガポールのサービス番号の正規化_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
+> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux、フランスのダイヤル プラン_|**FR-39qdPR-Internal**<br>_39 quai du Président ルーズベルトのオフィス、Issy の内部番号 ("x-7999 x7000-経費)-ゴ-Moulineaux (フランス)_|^(7\d{3})$<br>+3319999$1<br>True|
+> ||**FR-TollFree**<br>_フランスの無料電話番号の正規化_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
+> ||**FR-Service**<br>_フランスのサービス番号の正規化_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
-> [!TIP]
-> 次のテンプレートの例を利用して、ダイヤル プランを文書化してプロジェクトをサポートすることができます。
->|ユーザー  |オフィス  |ダイヤル プランの種類  |ダイヤル プランの名前  |
->|---------|---------|---------|---------|
->|Adele Vance|One Epping Road|テナント ダイヤル プラン|AU-NSW-NorthRyde-OER|
->|Alex Wilber|One Epping Road|テナント ダイヤル プラン|AU-NSW-NorthRyde-OER|
->|Ben Walters|One Epping Road|テナント ダイヤル プラン|AU-NSW-NorthRyde-OER|
->|Christie Cline|One Marina Boulevard|テナント ダイヤル プラン|SG-Singapore-OMB|
->|Debra Berger|One Marina Boulevard|テナント ダイヤル プラン|SG-Singapore-OMB|
->|Lee Gu|One Marina Boulevard|テナント ダイヤル プラン|SG-Singapore-OMB|
->|Emily Braun|32 London Bridge Street|サービス ダイヤル プラン|該当なし|
->|Lidia Holloway|32 London Bridge Street|サービス ダイヤル プラン|該当なし|
->|ルイ Lahr|32 London Bridge Street|サービス ダイヤル プラン|該当なし|
->|Marcel Beauchamp|39 quai du Président Roosevelt|テナント ダイヤル プラン|FR-Paris-Issy-30qdPR|
->|Rachelle Cormier|39 quai du Président Roosevelt|テナント ダイヤル プラン|FR-Paris-Issy-30qdPR|
->|Isabell Potvin|39 quai du Président Roosevelt|テナント ダイヤル プラン|FR-Paris-Issy-30qdPR|
+&gt; [!TIP]
+&gt;プロジェクトをサポートするためにダイヤルの計画の割り当てをドキュメントに以下のテンプレートの例を活用することができます: &gt;|ユーザー |Office |ダイヤル プランの種類 |ダイヤル プラン名 |&gt;|---------|---------|---------|---------|
+&gt;|Adele Vance。Epping の道を 1 つ。テナントのダイヤル プラン。AU ニューサウスウェールズ州 NorthRyde OER |&gt;|Alex Wilber |Epping の道を 1 つ。テナントのダイヤル プラン。AU ニューサウスウェールズ州 NorthRyde OER |&gt;|佐藤みなと |Epping の道を 1 つ。テナントのダイヤル プラン。AU ニューサウスウェールズ州 NorthRyde OER |&gt;|Christie 辞退。マリーナ Boulevard の 1 つ。テナントのダイヤル プラン。SG-シンガポールの行政管理予算局 |&gt;|宮部目 |マリーナ Boulevard の 1 つ。テナントのダイヤル プラン。SG-シンガポールの行政管理予算局 |&gt;|Lee Gu |マリーナ Boulevard の 1 つ。テナントのダイヤル プラン。SG-シンガポールの行政管理予算局 |&gt;|Emily のあるブラウン | 32 ロンドン ・ ブリッジ ・ ストリート |サービス ダイヤル プラン |該当なし。&gt;|Lidia Holloway | 32 ロンドン ・ ブリッジ ・ ストリート |サービス ダイヤル プラン |該当なし。&gt;|ルイ Lahr | 32 ロンドン ・ ブリッジ ・ ストリート |サービス ダイヤル プラン |該当なし。&gt;|Marcel Beauchamp | 39 の quai du Président ルーズベルト |テナントのダイヤル プラン。FR-パリ ・ Issy ・ 30qdPR |&gt;|Rachelle Cormier | 39 の quai du Président ルーズベルト |テナントのダイヤル プラン。FR-パリ ・ Issy ・ 30qdPR |&gt;|Isabell Potvin | 39 の quai du Président ルーズベルト |テナントのダイヤル プラン。FR-パリ ・ Issy ・ 30qdPR |
 
 <!--ENDOFSECTION-->
 
