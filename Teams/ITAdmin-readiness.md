@@ -12,12 +12,12 @@ search.appverid: MET150
 description: トレーニング ビデオ、チュートリアル、およびその他のリソースを計画する方法には、展開、およびマイクロソフトのチームを実行します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a2750f99e47517e0b1e516b89673106b44f0c96c
-ms.sourcegitcommit: 0cb35fd6e93939f2252d0729c7c08bac50e6cd6b
+ms.openlocfilehash: 2bce73966b8aa15717e3c96e91f703059428127b
+ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 10/04/2018
-ms.locfileid: "25402078"
+ms.locfileid: "25405161"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 
@@ -119,7 +119,8 @@ ms.locfileid: "25402078"
 
     
 </ul>
-****************
+
+---
 
 <h2>おすすめトレーニング</h2>
 <ul class="panelContent cardsW">
@@ -130,6 +131,17 @@ ms.locfileid: "25402078"
                     <div class="cardText">
                         <h3>Skype for Business から Teams への移行</h3>
                          <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">チュートリアル: Skype for Business から Teams への移行</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>チームワーク</h3>
+                         <p><a href="https://aka.ms/edx-cld267x-about">コース: マイクロソフトのチームとチームワークを有効にします。</a></p>
                     </div>
                 </div>
             </div>
