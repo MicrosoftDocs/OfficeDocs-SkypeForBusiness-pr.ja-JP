@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: この資料では、Skype ルーム システム v2 をサポートするための要件について説明します。
-ms.openlocfilehash: b349e5dc617ffe9b5247fc38d86c339f3031ceb0
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 857b48d0dc7a14243a1bc246cff9c7b06e1e0da6
+ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373794"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25429460"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Skype Room Systems バージョン 2 の要件
 
@@ -25,11 +25,11 @@ ms.locfileid: "25373794"
 [Skype ルーム システムの配置のバージョン 2](../../deploy/deploy-clients/room-systems-v2.md)で説明したようにアカウントを作成し、 [Skype ルーム システム v2 のコンソールの構成](../../deploy/deploy-clients/console.md)で説明したように、ミーティング コンソールの設定、展開が含まれます。 [Skype ビジネス アドオン ライセンス](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)を参照する必要もあります。
 
 > [!NOTE]
-> Skype ルーム システム v2 は、オンライン ビジネスのビジネス サーバー 2015、マイクロソフトのチーム、または Skype のビジネス サーバー 2019 の Skype、Skype での使用です。  <br><br>Lync Server 2013 のような以前のプラットフォームは、Skype ルーム システム v2 を使用する必要もありません。 
+> Skype ルーム システム v2 は、オンライン ビジネスのビジネス サーバー 2015、マイクロソフトのチーム、または Skype のビジネス サーバー 2019 の Skype、Skype での使用です。 <br><br>Lync Server 2013 のような以前のプラットフォームは、Skype ルーム システム v2 を使用する必要もありません。 
 
 ## <a name="hardware-requirements"></a>ハードウェア要件
 
-Skype ルーム システム v2 は、別の部屋のサイズによっては、オーディオとビデオの周辺機器、アクセサリを使用する拡張可能です。 オーディオおよびビデオの周辺機器は、ドッキング デバイスに USB や HDMI 接続経由で Skype ルーム システム v2 に接続します。 また、以下も必要です。
+Skype ルーム システム v2 は、別の部屋のサイズによっては、オーディオとビデオの周辺機器、アクセサリを使用する拡張可能です。 この資料に記載されたハードウェアでは、Skype とチームの両方の会議モードをサポートします。  オーディオおよびビデオの周辺機器は、ドッキング デバイスに USB や HDMI 接続経由で Skype ルーム システム v2 に接続します。 また、以下も必要です。
 
 - 32 GB またはより大きい USB ディスク 10 企業の Windows のブート可能な Windows インストール メディアとして構成します。 
 

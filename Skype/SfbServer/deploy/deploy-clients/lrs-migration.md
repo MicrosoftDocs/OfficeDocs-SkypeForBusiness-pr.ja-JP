@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: Skype ルーム システム v2 のソフトウェアを使用して Lync ルーム システム デバイスを移行する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 18cc3f954480a000bfe962e0a4b461e05568479b
-ms.sourcegitcommit: 6447a3aa060452c8d6879524cd6a56aecf33b152
+ms.openlocfilehash: c87081ccd40765b10929a0d2762d834ce6a1b2ab
+ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25354005"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25429453"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>Lync ルーム システム (LRS) デバイスを Skype ルーム システム v2 に移行します。 
 Skype ルーム システム バージョン 1 (SRS v1) ソフトウェアとデバイスを Lync ルーム システム (LRS) に到達[、2018 年 10 月 9日のサポートは終了](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018)します。 つまり、Skype ルーム システム v1 のソフトウェアは、製品の更新プログラムまたはこの日付以降後の修正プログラムを取得できません。 Skype ルーム システム v1 のソフトウェアを使用して Lync ルームのシステム デバイスを持つお客様は Skype ルーム システム バージョン 2 (SRS v2) にそのデバイスをアップグレードするのにはお勧めします。
@@ -42,8 +42,8 @@ Crestron に、すべての非 Crestron Lync ルーム システムのお客様�
 Crestron RL2 が (Crestron RL200 とも呼ばれます) の既存のお客様は、RL3 を使用する現在の RL2 をアップグレードするアップグレード パッケージを取得できます、デバイス 1 台あたりコストを最小限に抑える。 このプログラムの詳細を参照してください[ここで](https://support.crestron.com/app/answers/answer_view/a_id/1000220)または<!-- For details, -->[電子メール](mailto:lrsupgrade@crestron.com)Crestron LRS のサポート。  
 
 
-### <a name="smart-room-systems-upgrade--diy-program"></a>スマート ルーム システム アップグレード & DIY プログラム
-Crestron ハードウェアの下取りプログラムとは別のスマート LRS お客様は、マイクロソフトとスマートも担当している Skype ルーム システム v2 にアップグレードするソリューションを提供します。 Microsoft は、スマート LRS のお客様の DIY のソリューションをテストしても。 2018年 10 月を事前にこのページでこれらのプログラムの詳細が提供されます。 これらのアップグレードのオプションの更新プログラムを確認することを確認してください。
+### <a name="smart-room-systems-upgrade"></a>スマート ルーム システムをアップグレードします。 
+Crestron ハードウェアの下取りプログラムとは別のスマート LRS お客様は、マイクロソフトとスマートも担当している Skype ルーム システム v2 にアップグレードするソリューションを提供します。 このアップグレードは、既存のすべてのスマート LRS お客様にスマートで提供されます。 2018年 10 月でこのページでこのプログラムの詳細が提供されます。 最新情報をチェックすることを確認してください。
 
 <!--  
 For later 

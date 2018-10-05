@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ed741eff5ff095107693a2c94bb8438c60e7c9f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2d86e54bcab57f33c1b0031184282a8fc5f49b8a
+ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374381"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25429468"
 ---
 ![ユーザーの準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-user-readiness.png "ユーザーの準備段階に重点を置いて、旅アップグレードの段階")
 
@@ -70,7 +70,7 @@ ms.locfileid: "25374381"
 
 
 > [!Tip]
-> ピアのエキスパートとしてだけでなく、パイロット テストのため、初期採用者を参加させます。 エキスパートは、新しい技術を浸透させるし、同業者に価値を実感する方法を説明する例で潜在顧客を支援します。 エキスパートの正式なプログラムを作成する方法の詳細については、 [Office の導入ガイド 』](https://fto365dev.blob.core.windows.net/media/Default/DocResources/Office_365_Adoption_Guide.pdf)を参照してください。 遅滞者は、詳細を納得させる前に、新しいテクノロジを採用する必要があります。 このバケットに、組織の 20% 以上の場合、値をメッセージ配信に特化したトレーニングを通信する多くの時間を費やしてください。 さらに、サポートして変化を理解し、hesitations に対応するフィードバック ループを開いています。
+> ピアのエキスパートとしてだけでなく、パイロット テストのため、初期採用者を参加させます。 エキスパートは、新しい技術を浸透させるし、同業者に価値を実感する方法を説明する例で潜在顧客を支援します。 エキスパートの正式なプログラムを作成する方法の詳細については、 [Office の導入ガイド 』](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf)を参照してください。 遅滞者は、詳細を納得させる前に、新しいテクノロジを採用する必要があります。 このバケットに、組織の 20% 以上の場合、値をメッセージ配信に特化したトレーニングを通信する多くの時間を費やしてください。 さらに、サポートして変化を理解し、hesitations に対応するフィードバック ループを開いています。
 
 #### <a name="what-percentage-of-users-fall-into-each-competency"></a>各コンピテンシーに該当するユーザーの何パーセントですか。
 

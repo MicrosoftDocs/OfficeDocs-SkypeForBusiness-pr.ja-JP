@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: '概要: を準備してお客様の環境で TLS 1.0 および 1.1 を無効にするを実装します。'
-ms.openlocfilehash: e220a6615ef259e5ccba5b47a9e0f992289e6af4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 784b6b307275516a18b396864d1a2c4f40c285e8
+ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373072"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25429446"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype では、TLS 1.0 または 1.1 を無効にします。
 
@@ -73,7 +73,7 @@ TLS 1.0 と 1.1 を無効にするためのサポート Skype のビジネス �
 
 を除きは、次の製品は、TLS 1.0 または 1.1 を無効にするサポートの対象ではないと、TLS 1.0 および 1.1 がされて無効になっている環境では動作しません。  これが何を意味します。 範囲外のサーバーまたはクライアントを引き続き利用する場合を更新またはビジネス サーバー設置型展開のため、TLS 1.0 または 1.1、Skype で任意の場所を無効にする必要がある場合は、これらを削除する必要があります。
 
-- Lync Server 2013 *
+- Lync Server 2013
 - 2008 と下の Windows サーバー
 - Lync for Mac 2011
 - モバイルの iOS、Android や Windows Phone、iPad の Lync 2013
@@ -84,7 +84,7 @@ TLS 1.0 と 1.1 を無効にするためのサポート Skype のビジネス �
 
 ### <a name="exceptions"></a>例外
 
-#### <a name="lync-server-2013"></a>* Lync Server 2013
+#### <a name="lync-server-2013"></a>Lync Server 2013
 
 Lync Server 2013 では、Windows ファブリック 1.0 のバージョンの依存関係がかかります。  Lync Server 2013 のデザインの段階で、レプリケーション、高可用性、およびフォールト トレランスを提供する説得力のある新しい分散アーキテクチャのファブリックの 1.0 を Windows が選択されました。  時間の経過とともにビジネス サーバーと Windows のファブリックの両方の Skype がこの共同のアーキテクチャの大幅な再設計以降のバージョンでは大幅に向上します。  ビジネス 2015年のサーバーの現在の Skype では、たとえば Windows ファブリック 3.0 を使用します。
 
@@ -92,7 +92,7 @@ Lync Server 2013 では、Windows ファブリック 1.0 のバージョンの�
 
 TLS 1.0 および 1.1 を無効にするのには、組織が必要な場合は、現在、Lync Server 2013 を使用することをお勧め計画プロセスを開始する、可能性にインプレース アップグレードする必要がありますまたはサイド バイ サイド移行 (新しいプール、ユーザーの移動) の Skype2015 またはそれ以上のビジネスのサーバーです。  または、オンライン ビジネスの Skype への移行を促進することができます。
 
-#### <a name="call-quality-dashboard"></a>* 品質のダッシュ ボードを呼び出す
+#### <a name="call-quality-dashboard"></a>通話品質ダッシュボード
 
 設置呼び出し品質ダッシュ ボード現在に依存している TLS 1.0 (最初に、オンプレミス環境にインストールする) の新規インストール中にします。  この問題は現在調査中し、近い将来に修正プログラムをリリースする予定です。  救難をインストールして、TLS 1.0 を無効にも計画していることを最初に、救難のインストールを完了し、TLS 1.0 を無効にすることをお勧めします。
 
@@ -118,7 +118,7 @@ TLS 1.0 および 1.1 は、無効な範囲外のサーバー、クライアン�
 
 高レベルは、ビジネス サーバー 2019 の Skype がインストールでは、プロシージャの準備ができてビジネス サーバー 2015 の Skype が必要 CU6 HF2、.NET と SQL、展開の前提条件となるレジストリ キー、および最後に、個別に事前に必要な更新プログラムを適用することをインストールすることOS 構成のラウンドは、(すなわち無効にする TLS 1.0 と 1.1 を使用してレジストリ ファイルのインポート) を更新します。 ビジネス サーバー 2015 CU6 HF2、TLS 1.0 と 1.1 を環境内の任意のサーバーを無効にする前に Skype を含むすべての必須コンポーネントのインストールを完了することがきわめて重要です。 ビジネス サーバー、エッジの役割と SQL バックエンドを含むすべての Skype では、更新プログラムが必要です。 また (スコープ) 内のすべてのサポートされているクライアントが必要な最小バージョンに更新されていることを確認します。 同様の管理ワークステーションを更新することを忘れないでください。
 
-Skype をビジネスのサーバーのアップグレードの次の「表裏」操作通常順序にします。 通常と同じようにディレクター プール、Pchat、および対応するプールを処理します。 順序とアップグレードの方法については、[ここ](topology.md)と[ここ](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015)。
+Skype をビジネスのサーバーのアップグレードの次の「表裏」操作通常順序にします。 ディレクター プール、永続的なチャット、およびプールの対応するを通常の方法と同じ方法で扱います。 順序とアップグレードの方法については、[ここ](topology.md)と[ここ](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015)。
 
 ### <a name="high-level-process"></a>高度なプロセス
 
@@ -146,7 +146,7 @@ TLS 1.0 と 1.1 は、オペレーティング システム レベルでサー�
     - Microsoft ODBC ドライバーの 11 以上の SQL Server ([リンク](https://www.microsoft.com/en-us/download/details.aspx?id=36434))
     - 2014 SP2 ([リンク](https://www.microsoft.com/en-in/download/details.aspx?id=42295)) の SQL Server の管理オブジェクトを共有します。
     - SQL server SP2 の 2014 ([リンク](https://www.microsoft.com/en-in/download/details.aspx?id=42295)) の SQLSysClrTypes
- 
+
 ### <a name="basic-steps-to-install-pre-requisites-in-recommended-order-of-operations"></a>操作の推奨される順序で、必須コンポーネントをインストールするのには基本的な手順を実行します。
 
 1. ビジネス サーバー CU6HF2 は、Skype をインストール (6.0.9319.516) のすべてのサーバーを更新します。 
