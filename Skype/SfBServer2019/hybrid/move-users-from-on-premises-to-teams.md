@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: '概要: は、ユーザー設定を移行し、チームにユーザーを移動する方法を説明します。'
-ms.openlocfilehash: 27e8ac831f7009a373b2ed28d484f00f9462ef12
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 78f0c49fa2179b4a0aa95a993476c21fb679f489
+ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "25030785"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25436566"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>移動ユーザーがチームを設置
 
@@ -27,8 +27,6 @@ ms.locfileid: "25030785"
 - Skype のビジネスのリッチ クライアント (ユーザーの求められませんサインインするたびに)、または (1 回だけダウンロードしてサインインする必要があります) Skype 会議アプリケーションを通じて、Skype の会議に参加することができます。 ユーザーは、Skype のチーム内でのビジネス会議のリンクをクリックすると、会議が適切なアプリケーションの起動します。
 
 - 携帯電話] で、ユーザーは既存の Skype のネイティブのアプリケーションだけを使用してビジネス ・ ミーティングに参加することになります。
-
-    ![モバイル Skype 会議](../media/mobile-skype-meeting.png)
 
 > [!NOTE]
 > TeamsOnly モードにユーザーを移動すると後、は、オンライン ビジネスの Skype のユーザーが配置されています。
