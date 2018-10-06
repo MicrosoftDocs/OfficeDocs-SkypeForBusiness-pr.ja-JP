@@ -13,12 +13,12 @@ search.appverid: MET150
 description: ビデオ、チュートリアル、およびその他のリソースを使用して、チーム、組織内のユーザーをトレーニングします。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a14d678bb425100e989bd52a91e35e7804ff2789
-ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
+ms.openlocfilehash: ed20efec166c1c9599e1983b2626a826568cb523
+ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405153"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25436673"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams のエンド ユーザー トレーニング
 
@@ -26,7 +26,7 @@ ms.locfileid: "25405153"
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12">
+        <a href="https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -124,7 +124,19 @@ ms.locfileid: "25405153"
 
 <h2>おすすめトレーニング</h2>
 <ul class="panelContent cardsW">
-    <li>
+     <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>クイック スタート</h3>
+                         <p><a href="http://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf">このクイック スタート ガイド (PDF) の基礎を学ぶのダウンロードします。</a></p>
+                        <p><a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">以下のこのクイック スタートのことで、迅速に最新の記事</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
