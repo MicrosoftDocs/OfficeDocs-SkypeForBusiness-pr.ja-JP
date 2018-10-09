@@ -9,11 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
 description: Enter CcUpdate コマンドレットでは、メンテナンス モードで配置することによって更新プロセスにホスト サーバーでビジネス クラウド コネクタ版 Skype を準備します。 アプライアンスの isdrained-は、既存のすべての呼び出しは完了しますが、新しい呼び出しは拒否されます。
-ms.openlocfilehash: ed9f3f614829cd5b6bc2cd5499c6889258d67531
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f9b789bbd76bd3405617dc170af0695f9cbe94ed
+ms.sourcegitcommit: baa4ecf69bdcf499b5b724246f3e9f45c6ca3b7b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/08/2018
+ms.locfileid: "25450512"
 ---
 # <a name="enter-ccupdate"></a>入力 CcUpdate
  
@@ -41,7 +42,7 @@ Enter-CcUpdate
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-入力 CcUpdate コマンドレットは、クラウド コネクタ アプライアンスを実行中のすべての呼び出しが完了すると、アプライアンスは、他の生産のアプライアンスに転送されるすべての新しい呼び出しが拒否されますがようにします。 このコマンドレットを使用すると、エンド ・ ユーザーの呼び出しに影響を与えずに、アプライアンスを更新できます。 生産の残りのアプライアンスに更新する準備を行うアプライアンスからの呼び出しを処理するために十分な容量があることを確認する必要があります。
+入力 CcUpdate コマンドレットは、継続的な呼び出しを終了するすべてのサービスを直ちに停止し、アプライアンスは、他の生産のアプライアンスに転送されるすべての新しい呼び出しを拒否します。 生産の残りのアプライアンスに更新する準備を行うアプライアンスからの呼び出しを処理するために十分な容量があることを確認する必要があります。
   
 お使いのアプライアンスで自動更新が有効になっている場合に、マイクロソフトが重要な修正プログラムをリリースするときなどで、メンテナンス モードは役に立ちます。メンテナンス モードは、自動更新をオフにすることを決めた上で、一貫して手動での更新を実行するという場合にも役立ちます。
   

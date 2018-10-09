@@ -9,6 +9,7 @@
 
 ## ハイブリッド ソリューション
 ### [ハイブリッド接続を計画します。](../hybrid/plan-hybrid-connectivity.md)
+### [Skype ビジネス サーバーと Exchange Server の移行の計画します。](../hybrid/plan-um-migration.md)
 ### [ハイブリッド接続を設定します。](../hybrid/configure-hybrid-connectivity.md)
 #### [Skype をビジネスのハイブリッドを構成します。](../hybrid/configure-federation-with-skype-for-business-online.md)
 #### [音声会議プロバイダーのフェデレーションの設定](../hybrid/configure-federation-for-an-audio-conferencing-provider.md) 
@@ -19,7 +20,6 @@
 ### クラウドのボイスメール
 #### [クラウドのボイスメールを計画します。](../hybrid/plan-cloud-voicemail.md)
 #### [クラウドのボイス メールを構成します。](../hybrid/configure-cloud-voicemail.md)
-#### [Skype ビジネス サーバーと Exchange Server の移行の計画します。](../hybrid/plan-um-migration.md)
 ### 呼び出しデータ コネクタ
 #### [呼び出しデータ コネクタを計画します。](../hybrid/plan-call-data-connector.md)
 #### [呼び出しデータ コネクタを構成します。](../hybrid/configure-call-data-connector.md)
