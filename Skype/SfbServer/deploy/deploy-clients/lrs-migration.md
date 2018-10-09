@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: Skype ルーム システム v2 のソフトウェアを使用して Lync ルーム システム デバイスを移行する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: d97083b40c3a2baf926ecd61a5c9792ded6eddd5
-ms.sourcegitcommit: baa4ecf69bdcf499b5b724246f3e9f45c6ca3b7b
+ms.openlocfilehash: b6c11e101ab3984f934dab1a9e06d80df3ce5e4f
+ms.sourcegitcommit: 80e1983fd631b8ad63c902375f1128faa957e374
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/08/2018
-ms.locfileid: "25450519"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25450649"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>Lync ルーム システム (LRS) デバイスを Skype ルーム システム v2 に移行します。 
 Skype ルーム システム バージョン 1 (SRS v1) ソフトウェアとデバイスを Lync ルーム システム (LRS) に到達[、2018 年 10 月 9日のサポートは終了](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018)します。 つまり、Skype ルーム システム v1 のソフトウェアは、製品の更新プログラムまたはこの日付以降後の修正プログラムを取得できません。 Skype ルーム システム v1 のソフトウェアを使用して Lync ルームのシステム デバイスを持つお客様は Skype ルーム システム バージョン 2 (SRS v2) にそのデバイスをアップグレードするのにはお勧めします。
@@ -26,7 +26,7 @@ Skype ルーム システム v1 のソフトウェアのサポートは動作を
 
 ## <a name="which-devices-are-affected"></a>どのデバイスが影響を受けるでしょうか。
 この変更によって影響を受けるデバイスの一覧を以下に示します。
-- [スマート ルーム システム](https://smartkapp.com/products/smart-room-systems)
+- [スマート ルーム システム](https://support.smarttech.com/en/hardware/room-systems-skype)
 - [Crestron RL2](https://www.crestron.com/en-US/Products/Featured-Solutions/Crestron-RL-2)
 - [ポリコム CX8000](http://www.polycom.com/products-services/products-for-microsoft/skype-for-business/cx8000.html)
 - Crestron RL
