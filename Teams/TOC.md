@@ -16,7 +16,7 @@
 ## [制限とチームの仕様](limits-specifications-teams.md)
 ## [Teams でチームを作成するときの Office 365 グループの計画](plan-office-365-groups.md)
 ## [Teams のロールアウトをサポートするツールを入手する](rollout-tools.md)
-## [チームのライフ サイクル管理の計画](plan-teams-lifecycle.md)
+## [Teams でのライフサイクル管理の計画](plan-teams-lifecycle.md)
 ## [チームの管理のための計画](plan-teams-governance.md)
 ## [Microsoft 365 政府の GCC の展開の計画](plan-for-government-gcc.md)
 ## [変更管理戦略を作成します。](change-management-strategy.md)
@@ -37,6 +37,7 @@
 ### [サーフェスのハブのチームを配置します。](teams-surface-hub.md)
 ## [チームを仮想環境で実行します。](virtual-environment-teams.md)
 ## [組織内のチームを有効にします。](Office-365-set-up.md)
+## [マイクロソフトのチームを使用してディレクトリ検索のスコープ](teams-scoped-directory-search.md)
 ## [組織内のチームの機能を管理します。](enable-features-office-365.md)
 ### [新しいマイクロソフトのチームとビジネス管理センターの Skype に移行する際のチームを管理します。](manage-teams-skypeforbusiness-admin-center.md)
 ### [マイクロソフトのチームとビジネス管理センターの Skype のチームを管理します。](manage-teams-in-modern-portal.md)
@@ -221,6 +222,7 @@
 ### [T-Bot を使用して Teams のユーザーをサポートする](t-bot.md)
 ### [チームの活動レポートを使用して](teams-activity-reports.md)
 ### [インライン メッセージの変換を使用して、チームで](inline-message-translation-teams.md)
+
 ## Cloud Voice
 ### [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 #### [アルゼンチン](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
