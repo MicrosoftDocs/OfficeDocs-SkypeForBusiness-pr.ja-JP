@@ -3,7 +3,7 @@ title: 通話品質ダッシュボードで利用できるディメンション�
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney
+ms.reviewer: siunies
 ms.topic: article
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
@@ -23,16 +23,19 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: dec3548ab1f34e70d6e30aca2397791cfaa16674
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8708151be58e386650458ed882a24c1f6e4e628a
+ms.sourcegitcommit: dba62f1cb6058e73a1a4c75f3473119a04a1b9e3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375023"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "25456908"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>通話品質ダッシュボードで利用できるディメンションとメジャー
 
 マイクロソフト チームの呼び出し品質ダッシュ ボード (救難) とオンライン ビジネスの Skype では、ビジネス サービスのマイクロソフトのチームと Skype を使用して行われた通話の品質の洞察を得るために。 このトピックでは CQD によって公開されたディメンションとメジャーについての詳細な情報が提供されます。 救難およびそれを有効にする方法の詳細について[を有効にしてマイクロソフトのチームとビジネス オンラインの Skype の品質ダッシュ ボードの呼び出しを使用して](turning-on-and-using-call-quality-dashboard.md)参照してください。
+
+> [!NOTE]
+> チームの帯域幅の処理が Skype でオンライン ビジネスの向上: チームの呼び出しや、会議の経験 (オーディオ、ビデオ、および共有) は、高品質でのみ 1.2 Mbps が必要です。 拡張性にも十分な帯域幅が利用可能な場合に非常に高品質の最大さらにします。 チームの要求には、低帯域幅の条件が検出されると、チームが迅速に再調整して、帯域幅の使用可能な帯域幅に適応します。
 
 ## <a name="first-and-second-endpoint-classification"></a>第 1 と第 2 のエンドポイントの分類
 
