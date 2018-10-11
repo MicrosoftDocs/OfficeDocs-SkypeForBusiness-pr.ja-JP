@@ -5,8 +5,9 @@
 ### [リリース ノート](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
 ### [環境を準備します。](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
 ### [要件](../plan-your-deployment/clients-and-devices/requirements.md)
-### [オンライン ライセンス](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+### [オンライン ライセンス](/Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
 ### [OMS を使用して管理を計画します。](../plan-your-deployment/clients-and-devices/oms-management.md)
+
 ## の展開
 ### [展開の概要](../deploy/deploy-clients/room-systems-v2.md)
 ### [アカウントを構成します。](../deploy/deploy-clients/room-systems-v2-configure-accounts.md)
@@ -17,6 +18,7 @@
 ### [コンソールを構成します。](../deploy/deploy-clients/console.md)
 ### [システム センター構成マネージャーを使用して](../deploy/deploy-clients/room-systems-scale.md)
 ### [OMS を使用して管理](../deploy/deploy-clients/with-oms.md)
+
 ## 管理
 ### [管理の概要](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 ### [メンテナンスと運用](../manage/skype-room-systems-v2/room-systems-v2-operations.md)
@@ -24,7 +26,7 @@
 ### [OMS を使用してデバイス](../manage/skype-room-systems-v2/oms.md)
 ### [XML ファイルでの設定](../manage/skype-room-systems-v2/xml-config-file.md)
 ### [回復ツールを使用します。](../manage/skype-room-systems-v2/recovery-tool.md)
-# Skype ルーム システム (v1)
+# Lync ルーム システム (SRS v1)
 ## 計画
 ### [Skype for Business Server での Skype Room System の展開](../deploy/deploy-clients/deploy-skype-room-system.md)
 ## の展開
@@ -43,3 +45,4 @@
 ### [Skype ルーム システム ルームのセットアップ スクリプト](../deploy/deploy-clients/room-setup-scripts.md)
 ## 管理
 ### [Skype Room System アカウントを管理する](../deploy/deploy-clients/manage-skype-room-system-accounts.md)
+## [移行](../deploy/deploy-clients/lrs-migration.md)

@@ -1,37 +1,28 @@
 ---
 title: Microsoft Teams へのゲスト アクセスをオンまたはオフにする
 author: LaithAlShamri
-ms.author: laal
+ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 10/11/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
-ms.reviewer: rramesan
+ms.reviewer: sbhatta
 search.appverid: MET150
 description: Microsoft Teams でのゲスト アクセス機能をオンまたはオフにします。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcb907a1a84dce1e1fcf550333b8b1dd788f23fa
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3ab67b3fa9ad58c1aa3e8fdd254e3b3515743b4c
+ms.sourcegitcommit: 9dd5d8fe6888f0c7d2df1e40fdd8b4c80512f8f9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370754"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25498122"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Microsoft Teams へのゲスト アクセスをオンまたはオフにする
 ======================================
-
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
-
-
-
-  
-
-
 
 Office 365 管理者は、組織のユーザー (具体的にはチーム所有者) がゲストを追加できるようにするため事前にゲスト機能を有効にする必要があります。 
 
@@ -41,33 +32,61 @@ Office 365 管理者は、組織のユーザー (具体的にはチーム所有�
 > [!IMPORTANT]
 > ゲスト アクセス機能の完全なエクスペリエンスを有効にするためには、Microsoft Teams、Azure Active Directory、および Office 365 の間での中心的な承認の依存関係を理解することが重要です。 詳細については、「[Microsoft Teams でのゲスト アクセスを承認する](Teams-dependencies.md)」をご覧ください。
 
-1. Office 365 のグローバル管理者アカウントを使用してサインイン[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)。
-    
-  
-2. ナビゲーション メニューで [**設定**] を選択し、[**Services &amp; add-ins (サービスとアドイン)**] を選択します。
-    
-     ![Office 365 にサインインし、Office 365 管理センターに移動して、[設定]、[Services &amp; add-ins (サービスとアドイン)] の順に選択します。](media/99e676d4-5b48-4525-9556-547031fa37d9.png)
-  
+## <a name="configure-guest-access-in-the-teams--skype-for-business-admin-center"></a>ビジネス管理センターのチームと Skype でゲスト アクセスを構成します。
+
+1.  ビジネス管理センターは、チームと Skype にサインインします。
+
+2.  **組織全体の設定**を選択して > **のゲスト アクセス**します。
+
+3. **マイクロソフトのチームでのゲスト アクセスを許可する**オン/オフ スイッチを**オン**に設定します。
+
+    ![ゲスト アクセスのスイッチが On に設定できるようにします。 ](media/set-up-guests-image1.png)
+
+4.  **呼び出し**、**会議**、および**メッセージング**を**オン**または**オフ**をするを許可するアクセス権によって、表示を切り替えます。 を設定します。
+
+5.  [**保存**] をクリックします。
+
+## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>PowerShell を使用して、ゲスト アクセスを有効または無効にするには
+
+1.  ビジネス オンライン PowerShell モジュールからの Skype をダウンロードします。https://www.microsoft.com/en-us/download/details.aspx?id=39366
  
+2.  PowerShell セッションを Skype のオンライン ビジネスのエンドポイントに接続します。
 
-  
-3. [**Microsoft Teams**] を選択します。
-    
-     ![次のスクリーンショットは、Office 365 管理センターで選択した Microsoft Teams アドインのオプションを示しています。](media/17ac5608-d212-4fa8-ae3a-e78c62003968.png)
-  
-  
-4. [**Select the user/license type you want to configure (構成するユーザー/ライセンスの種類を選択する)**] で [**ゲスト**] を選択します。
-   
-    ![Microsoft Teams アドインのスクリーンショットでは、ゲスト ライセンスが選択され、Microsoft Teams オプションがオンに設定されています。](media/92aabda5-431c-4fdd-803e-5ab49290f4f7.png)
-      
+    ```
+    Import-Module SkypeOnlineConnector
+    $Cred = Get-Credential
+    $CSSession = New-CsOnlineSession -Credential $Cred
+    Import-PSSession -Session $CSSession
+    ```
+3.  構成を確認し、`AllowGuestUser`は、 `$False`、[セット CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)コマンドレットを使用] に設定して`$True`。
 
-  
-  
-5. [**Turn Microsoft Teams on or off for all users of this type (この種類のすべてのユーザーについて Microsoft Teams をオンまたはオフにする)**] の横にあるトグルをクリックまたはタップして [**オン**] にして組織の Teams とゲスト アクセスをオンにし、[**保存**] を選択します。 
+    ```
+    Get-CsTeamsClientConfiguration
+
+    Identity                         : Global
+    AllowEmailIntoChannel            : True
+    RestrictedSenderList             :
+    AllowDropBox                     : True
+    AllowBox                         : True
+    AllowGoogleDrive                 : True
+    AllowShareFile                   : True
+    AllowOrganizationTab             : True
+    AllowSkypeBusinessInterop        : True
+    AllowTBotProactiveMessaging      : False
+    ContentPin                       : RequiredOutsideScheduleMeeting
+    AllowResourceAccountSendMessage  : True
+    ResourceAccountContentAccess     : NoAccess
+    AllowGuestUser                   : True
+    AllowScopedPeopleSearchandAccess : False
     
-   ゲスト アクセスの詳細については以下のビデオを視聴してください。  
+    Set-CsTeamsClientConfiguration -AllowGuestUser $True -Identity Global
+    ```
+ゲスト ユーザーは、組織のチームのようになりましたができます。
+
+## <a name="more-information"></a>詳細情報
+
+ゲスト アクセスの詳細については次のビデオを視聴します。
 
 |  |  |
 |---------|---------|
-| Microsoft Teams でのゲスト アクセスの有効化   | <iframe width="350" height="200" src="https://www.youtube.com/embed/g21Hcqdl5tI" frameborder="0" allowfullscreen></iframe>   |
- | Microsoft Teams でのゲストの追加   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
+| Microsoft Teams でのゲストの追加   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
