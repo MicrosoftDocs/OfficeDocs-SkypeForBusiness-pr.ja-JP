@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: Skype ルーム システム v2 のソフトウェアを使用して Lync ルーム システム デバイスを移行する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: b6c11e101ab3984f934dab1a9e06d80df3ce5e4f
-ms.sourcegitcommit: 80e1983fd631b8ad63c902375f1128faa957e374
+ms.openlocfilehash: 790872ceaf919d4b58bdbd753dc32e1303b2da63
+ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25450649"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25495591"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>Lync ルーム システム (LRS) デバイスを Skype ルーム システム v2 に移行します。 
-Skype ルーム システム バージョン 1 (SRS v1) ソフトウェアとデバイスを Lync ルーム システム (LRS) に到達[、2018 年 10 月 9日のサポートは終了](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018)します。 つまり、Skype ルーム システム v1 のソフトウェアは、製品の更新プログラムまたはこの日付以降後の修正プログラムを取得できません。 Skype ルーム システム v1 のソフトウェアを使用して Lync ルームのシステム デバイスを持つお客様は Skype ルーム システム バージョン 2 (SRS v2) にそのデバイスをアップグレードするのにはお勧めします。
+Skype ルーム システム バージョン 1 (SRS v1) ソフトウェアとデバイスを Lync ルーム システム (LRS) は[、2018 年 10 月 9 日のサポート終了](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018)に達しました。 つまり Skype ルーム システム v1 のソフトウェアは不要になったすべての製品の更新プログラムや修正もはや。 Skype ルーム システム v1 のソフトウェアを使用して Lync ルームのシステム デバイスを持つお客様は Skype ルーム システム バージョン 2 (SRS v2) にそのデバイスをアップグレードするのにはお勧めします。
 
 Skype ルーム システムのバージョン 2 (SRS v2) ソフトウェアでは、会議およびすべての SRS v2 はサポートされているデバイスでの通話のビジネス サーバーとオンラインのサービスの Skype の他のマイクロソフトのチームで動作します。
 
-Skype ルーム システム v1 のソフトウェアのサポートは動作を継続、既存のデバイス**があります**。 このソフトウェア、Microsoft は、修正プログラムをリリースする必要のあるソフトウェアのバグをヒットして最終的にか場合は、既存の通信プロトコルが Skype ルーム システム v1 のソフトウェアの変更で使用されているか、現在サポートされていません。 このような既知の 1 つの変更は、TLS 1.0 の廃止/1.1 Microsoft Office 365 にします。 [TLS 1.0 または 1.1 の廃止の準備](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608)に関する詳細については。  
+Skype ルーム システム v1 のソフトウェアのサポートは動作を継続、既存のデバイス**があります**。 ただし、このソフトウェアには、マイクロソフトが修正プログラムをリリースする必要のあるソフトウェアのバグが発生する場合にサポートされません。 ルーム システム V1 の Skype ソフトウェアはまた TLS 1.2 のサポートにアップグレードされません。 [TLS 1.0 または 1.1 の廃止の準備](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608)に関する詳細については。 Skype ルーム システムの V2 では、TLS 1.2 のサポートを追加して、この非推奨事項から影響を及ぼすことがなく作業を続けます。   
 
 ## <a name="which-devices-are-affected"></a>どのデバイスが影響を受けるでしょうか。
 この変更によって影響を受けるデバイスの一覧を以下に示します。
@@ -43,7 +43,7 @@ Crestron RL2 が (Crestron RL200 とも呼ばれます) の既存のお客様は
 
 
 ### <a name="smart-room-systems-upgrade"></a>スマート ルーム システムをアップグレードします。 
-Crestron ハードウェアの下取りプログラムとは別のスマート LRS お客様は、マイクロソフトとスマートも担当している Skype ルーム システム v2 にアップグレードするソリューションを提供します。 このアップグレードは、既存のすべてのスマート LRS お客様にスマートで提供されます。 2018年 10 月でこのページでこのプログラムの詳細が提供されます。 最新情報をチェックすることを確認してください。
+Crestron ハードウェアの下取りプログラムとは別のスマート LRS お客様は、マイクロソフトとスマートも担当している Skype ルーム システム v2 にアップグレードするソリューションを提供します。 スマート テクノロジー社でこのアップグレードを提供します。この[ここで](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml)の詳細を参照してください。
 
 <!--  
 For later 

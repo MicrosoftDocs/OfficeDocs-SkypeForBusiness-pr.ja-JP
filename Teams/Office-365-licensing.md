@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 272dd768dfa56871db8f0241ed6c046b350717d4
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: dbdbaf0241da85489173d7eda0c36aac90c935e9
+ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016854"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25495530"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Microsoft Teams 用の Office 365 ライセンス
 ========================================
@@ -36,12 +36,15 @@ ms.locfileid: "25016854"
 |Office 365 Business Premium     |Office 365 Enterprise E3         |Office 365 Education Plus         |      |
 |     |Office 365 Enterprise E4 (廃止)         |Office 365 Education E3 (廃止)         |  |
 |     |Office 365 Enterprise E5         |Office 365 Education E5  | 
-|     |Office 365 Enterprise F1 |    |     |
+|     |Office 365 Enterprise F1 |    |     | 
 
 チームを取得する方法については、チェック アウト[マイクロソフトのチームへのアクセスを取得する方法ですか?](https://support.office.com/article/How-do-I-get-access-to-Microsoft-Teams-fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 > [!NOTE]
 > Teams は非営利団体でも利用できます。 米国政府クラウド コミュニティ (GCC) の 7 月 17 日ロールアウトを開始し、2018年 8 月のすべての対象となるお客様の利用できるようチームにします。 皆様の他の米国政府雲 (GCC 高と DoD) にマイクロソフトのチームを準備中です。 マイクロソフト チームのブログに複数の読み取り[はここ](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976)。
+
+> [!NOTE]
+> 開始 2018 年 10 月 1日接続クライアント数が 500 以下の新しい Office 365 お客様のチームに onboarded、ビジネス オンラインの Skype へのアクセスを必要はありません。 テナントは既に使用している Skype のオンライン ビジネスは実行を続行することがチームへの移行を完了するまで (新しいユーザーのプロビジョニング) を含むためです。 詳細については、[マイクロソフトのチーム会議および Office 365 内の呼び出しのようになりました主なクライアント](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling)を参照してください。
         
 チームの中核的な機能、という点では、Office 365 サブスクリプションの違いはありません。 コンプライアンス機能の利用可否は適切なサブスクリプション レベルに依存します。 詳細については、「[Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)」をご覧ください。 各サブスクリプションで利用できる機能の詳細については、 [Office 365 のプラットフォーム サービスの説明](https://technet.microsoft.com/library/office-365-platform-service-description.aspx)を参照してください。
 

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: この資料では、Skype ルーム システム v2 をサポートするための要件について説明します。
-ms.openlocfilehash: 857b48d0dc7a14243a1bc246cff9c7b06e1e0da6
-ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
+ms.openlocfilehash: fcf108de8ac6d344061b4c95dcbe7438dc034d3b
+ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25429460"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25495614"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Skype Room Systems バージョン 2 の要件
 
@@ -42,10 +42,8 @@ Skype ルーム システム v2 は、別の部屋のサイズによっては、
 |Surface Pro 4       |Core i5  |4 GB  |128 GB  |
 |Surface Pro 4       |Core i5  |8 GB  |256 GB  |    
 |Surface Pro (2017)  |Core i5  |4 GB  |128 GB  |
+|Surface Pro (2017)  |Core i5  |8 GB  |128 GB  |
 |Surface Pro (2017)  |Core i5  |8 GB  |256 GB  |
-|Surface Pro (2017)  |Core i7  |8 GB  |128 GB  |
-|Surface Pro (2017)  |Core i7  |16 GB |512 GB  |
-|Surface Pro (2017)  |Core i7  |16 GB |1 TB    |
 
 > [!NOTE]
 > M3 プロセッサはサポートされていません。

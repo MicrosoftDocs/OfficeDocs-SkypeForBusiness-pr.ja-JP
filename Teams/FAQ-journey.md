@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da85bde3b0f868165fed869b8147e4408344ebc0
-ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
+ms.openlocfilehash: bda29fd1b193253deb573d554f7f354258dabc7a
+ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "25358902"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25495538"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>よくあるご質問 - Skype for Business から Microsoft Teams への移行
 
@@ -55,7 +55,9 @@ Skype の新しいバックエンド ・ インフラストラクチャのサポ
 
 ### <a name="will-you-continue-to-invest-in-improving-skype-for-business-in-office-365"></a>Office 365 の Skype for Business を改善するための投資は継続されますか?
 
-インテリジェント コミュニケーションとコラボレーションの連携を目指す弊社のビジョンでは Teams に焦点が置かれています。 ビジネス サービスとクライアントを Office 365 では、Skype のサポートを継続する予定です。 現時点では、Office 365 サブスクリプションから Skype for Business を削除する予定はありません。 Microsoft は、これまでどおり Skype for Business クライアントをサポートして、オンプレミス サーバーやオンライン サービスへのアクセスを提供する予定です。 この時点でのサポートの終了日はありません。
+インテリジェント コミュニケーションとコラボレーションの連携を目指す弊社のビジョンでは Teams に焦点が置かれています。 ビジネス サービスとクライアントを Office 365 では、Skype のサポートを継続する予定です。 Microsoft は、これまでどおり Skype for Business クライアントをサポートして、オンプレミス サーバーやオンライン サービスへのアクセスを提供する予定です。 この時点でのサポートの終了日はありません。
+
+開始 2018 年 10 月 1日接続クライアント数が 500 以下の新しい Office 365 お客様のチームに onboarded、ビジネス オンラインの Skype へのアクセスを必要はありません。 テナントは既に使用している Skype のオンライン ビジネスは実行を続行することがチームへの移行を完了するまで (新しいユーザーのプロビジョニング) を含むためです。 詳細については、[マイクロソフトのチーム会議および Office 365 内の呼び出しのようになりました主なクライアント](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling)を参照してください。 
 
 ### <a name="what-do-you-recommend-for-customers-who-are-currently-in-the-process-of-deployingor-planning-to-deployskype-for-business-in-office-365"></a>展開するプロセスは、現在お客様に推奨して操作を行います-の展開を計画または、Office 365 のビジネス用の Skype ですか。
 
