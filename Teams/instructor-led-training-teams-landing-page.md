@@ -9,12 +9,12 @@ ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: d6eeea78106e13cafee5096be04d344ad216c65a
-ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
+ms.openlocfilehash: 281a864091714c1614b86b7f4f45ea48245d8108
+ms.sourcegitcommit: 45b3e3387bb1e605453c52b68d0bf5b1b79d33f5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25429439"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25501488"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -43,7 +43,7 @@ ms.locfileid: "25429439"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>#ThisIsTeams - マイクロソフトのチームの概要</h3>
-                                                    <p>Microsoft Teams とは何ですか? チームとするを機能させる方法を発見するには、この 30 分間向きの方は参加します。</p>
+                                                    <p>Microsoft Teams とは何ですか? チームとするを機能させる方法を発見するには、この 30 分間向きの方は参加します。 (対象: すべて)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -62,7 +62,7 @@ ms.locfileid: "25429439"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>チームの概要</h3>
-                                                    <p>チャット、チーム、およびチャネルを使用してミーティングの開催、ユーザーは、自信を持ってチームを使用する基盤でこのセッションを終了することにします。</p>
+                                                    <p>チャット、チーム、およびチャネルを使用してミーティングの開催、ユーザーは、自信を持ってチームを使用する基盤でこのセッションを終了することにします。 (対象ユーザー: エンド ・ ユーザー)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -81,7 +81,7 @@ ms.locfileid: "25429439"
                                             </div>
                                             <div class="cardText">
                                                 <h3>チームにビジネス用の Skype からのアップグレードを管理します。</h3>
-                                                <p>洞察の計画と実装チームにビジネス用の Skype からアップグレードを成功させることができます。 </p>
+                                                <p>計画および実装チームにビジネス用の Skype からアップグレードを成功させる (対象ユーザー: IT プロフェッショナル、変更マネージャーの採用)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -100,7 +100,7 @@ ms.locfileid: "25429439"
                                             </div>
                                             <div class="cardText">
                                                 <h3>ビジネス用の Skype からチームへの切り替え: エンド ・ ユーザー ・ ガイド</h3>
-                                                    <p>チャット、会議、およびチームにビジネス用の Skype からの移行時にチームの呼び出しを簡単に起動する必要がありますを取得します。</p>
+                                                    <p>Skype からの移行時にチームを使用してチームにビジネスをすばやく起動する必要がありますを取得します。 (対象ユーザー: エンド ・ ユーザー)</p>
                                             </div>
                                         </div>
                                     </div>
