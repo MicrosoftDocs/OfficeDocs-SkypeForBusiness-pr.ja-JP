@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Office 365 で Skype ルーム システム v2 を展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 3114b3f663cc4a439ace8d5f0338b182a8b38a3b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6c59ff1aa7f32998efb5f7693d4e46b417b3fd84
+ms.sourcegitcommit: 45b3e3387bb1e605453c52b68d0bf5b1b79d33f5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374953"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25501495"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>Skype Room Systems バージョン 2 と Office 365 を展開する 
 
@@ -37,7 +37,7 @@ Office 365 で Skype ルーム システム v2 を展開する前に、要件を
 
 - テナント ユーザーは、Exchange のメールボックスが必要です。
 
-- Skype ルーム システム v2 アカウントにする必要が、最小値で、Skype ビジネス オンライン (プラン 2) のライセンスが、Exchange Online のライセンスは必要ありません。
+- Skype ルーム システム v2 アカウントにする必要が、最小値で、Skype ビジネス オンライン (プラン 2) のライセンスが、Exchange Online のライセンスは必要ありません。 詳細については、 [Skype ルーム システム v2 のライセンス](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)を参照してください。
 
 Skype のビジネスのオンラインの計画の詳細については、 [Skype](https://technet.microsoft.com/library/jj822172.aspx)を参照してください。
 
