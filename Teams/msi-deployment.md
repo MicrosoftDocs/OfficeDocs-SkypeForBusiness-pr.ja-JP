@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8230cb0cd03e1ba0b11c43c16d8817fdb80c31ec
-ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
+ms.openlocfilehash: 7d197d431bb08027da27dd7ae61e421c9519aad1
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25352283"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502199"
 ---
 <a name="install-microsoft-teams-using-msi"></a>MSI を使用して Microsoft Teams をインストールする
 =================================
@@ -65,5 +65,7 @@ ms.locfileid: "25352283"
 
 自動起動を無効にする場合は、次のコマンド プロンプトを入力します。
 
-`msiexec /i Teams_windows.exe OPTIONS="noAutoStart=true"`
+```
+msiexec /i Teams_windows.exe OPTIONS="noAutoStart=true"
+```
 

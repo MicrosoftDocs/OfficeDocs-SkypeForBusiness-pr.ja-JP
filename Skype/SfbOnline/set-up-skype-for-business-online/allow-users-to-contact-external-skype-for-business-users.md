@@ -26,12 +26,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'ユーザーが別の組織内のユーザーに問い合わせるか、外にそれらの連絡先を使用できるようにするのにはビジネス用の Skype を構成する方法を参照してください。 '
-ms.openlocfilehash: 79ba0754178e3d638520c932e6288a92ddf6e857
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: b18c4d3f04cab78b48039bcd33dae00a960132ea
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854703"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502208"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>外部の Skype for Business ユーザーに連絡できるようにする
 
@@ -44,7 +44,7 @@ ms.locfileid: "23854703"
     
 - ビジネス用の Skype を使用して特定の企業、組織外の人に連絡するのには、組織で人をします。
     
--する他のユーザーを検索し、連絡先、電子メール アドレスを使用することができるビジネス用の Skype を使用している世界で。 Skype のデフォルトを使用して、ビジネスの設定を自動的にこの動作はします。 しない場合は、ドメインの構成によってブロックされていないかどうかを確認する必要があります。
+- 他のユーザーを検索し、連絡先、電子メール アドレスを使用することができるビジネス用の Skype を使用している世界で。 Skype のデフォルトを使用して、ビジネスの設定を自動的にこの動作はします。 しない場合は、ドメインの構成によってブロックされていないかどうかを確認する必要があります。
     
 ## <a name="enable-business-to-business-communications-for-your-users"></a>ユーザーの企業間の通信を有効にします。
 <a name="bk_preview"> </a>
@@ -145,7 +145,7 @@ ms.locfileid: "23854703"
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
    
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 <a name="bk_preview"> </a>
 
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)

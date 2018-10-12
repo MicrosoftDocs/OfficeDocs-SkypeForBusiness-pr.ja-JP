@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'ダイヤルの通話プラン (PSTN の呼び出しのダイヤル プラン) の種類は、Office 365 を使用し、組織のいずれかを選択する方法について説明します。  '
-ms.openlocfilehash: d9503655c6f836f0dc50d63133acddd6bc7474b4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 28e0b3d282cba17061f0573b5bd9efe7e27de786
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371819"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502359"
 ---
 # <a name="what-are-dial-plans"></a>ダイヤル プランについて
 
@@ -37,7 +37,7 @@ ms.locfileid: "25371819"
 
 ダイヤル プランは、さまざまな形式で表される電話番号が別の 1 つの形式にどのように変換されるかを定義する 1 つ以上の正規化ルールで構成されます。同じダイヤル文字列が、ダイヤル プランによって異なる形で解釈、変換される可能性があるため、指定されたユーザーに割り当てられているダイヤル プランに応じて、同じダイヤル番号が異なる形で変換、ルーティングされることがあります。
 
-テナントのダイヤル プランを作成および管理する場合は「[ダイヤル プランを作成および管理する](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans)」をご覧ください。
+テナントのダイヤル プランを作成および管理する場合は「[ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)」をご覧ください。
 
 ## <a name="tenant-dial-plan-scope"></a>テナント ダイヤル プランのスコープ
 
@@ -59,7 +59,7 @@ Skype for Business Online でのダイヤル プランの継承モデルは次�
 
  **テナント ユーザー - サービス国** テナント ユーザーのダイヤル プランが定義されていてユーザーに割り当てられている場合、プロビジョニングされたユーザーは結合したテナント ユーザーのダイヤル プランと Office 365 の利用場所に関連付けられたサービス国のダイヤル プランで構成される有効なダイヤル プランを受け取ります。
 
-テナントのダイヤル プランを作成する場合は「[ダイヤル プランを作成および管理する](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans)」をご覧ください。
+テナントのダイヤル プランを作成する場合は「[ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)」をご覧ください。
 
 ## <a name="planning-for-tenant-dial-plans"></a>テナント ダイヤル プランの計画
 
@@ -97,7 +97,7 @@ Skype for Business Online でのダイヤル プランの継承モデルは次�
 > [!NOTE]
 > 外部アクセス プレフィックスを指定する場合、プレフィックスを適応させるための正規化ルールを追加で作成する必要はありません。 
 
-テナントのダイヤル プランを作成する場合は「[ダイヤル プランを作成および管理する](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans)」をご覧ください。
+テナントのダイヤル プランを作成する場合は「[ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)」をご覧ください。
 
 ## <a name="normalization-rules"></a>正規化ルール
 
@@ -115,7 +115,7 @@ Skype for Business Online でのダイヤル プランの継承モデルは次�
 
 .NET Framework の正規表現を使用する場合の詳細については、「[.NET Framework の正規表現](https://go.microsoft.com/fwlink/p/?linkId=140927)」を参照してください。
 
-テナントのダイヤル プランの正規化ルールを作成および管理する場合は「[ダイヤル プランを作成および管理する](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans)」をご覧ください。
+テナントのダイヤル プランの正規化ルールを作成および管理する場合は「[ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)」をご覧ください。
 
 ### <a name="sample-normalization-rules"></a>正規化ルールのサンプル
 
@@ -152,7 +152,7 @@ Skype for Business Online でのダイヤル プランの継承モデルは次�
 
 ## <a name="related-topics"></a>関連トピック
 
-[ダイヤル プランを作成および管理する](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans)
+[ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)
 
 [電話番号の移行に関するよくある質問](transferring-phone-numbers-common-questions.md)
 
