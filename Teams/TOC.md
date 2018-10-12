@@ -460,6 +460,7 @@
 #### [緊急対応の場所、アドレス、通話ルーティングの概要](what-are-emergency-locations-addresses-and-call-routing.md)
 #### [住所検証について](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-is-address-validation?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [ダイヤル プランについて](what-are-dial-plans.md)
+#### [ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)
 ### 電話システム
 #### [Office 365 での電話システムについて](what-is-phone-system-in-office-365.md)
 #### [組織内の電話システムの設定](setting-up-your-phone-system.md)

@@ -129,7 +129,7 @@
 ### [通話プランの既知の問題](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [ユーザーの緊急対応の住所を変更する](../what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user.md)
 ### [ユーザーの緊急対応の場所を変更する](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
-### [ダイヤル プランを作成および管理する](../what-are-calling-plans-in-office-365/create-and-manage-dial-plans.md)
+### [ダイヤル プランを作成および管理する](/microsoftteams/create-and-manage-dial-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [通話プランで使用されるさまざまな種類の電話番号](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [ユーザー用の電話番号を取得する](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)
 ### [Office 365 の通話プランの取得方法](/microsoftteams/what-are-calling-plans-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
