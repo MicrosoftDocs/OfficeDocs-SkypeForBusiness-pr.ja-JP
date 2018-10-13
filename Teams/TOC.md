@@ -3,6 +3,7 @@
 
 ## [Teams の概要](Teams-overview.md)
 ## [ツールとワークショップ: Teams の計画、提供、運用](planning-workshop-practical-guide.md)
+## [マイクロソフト チームのヘルプを表示します。](get-help-in-microsoft-teams.md)
 <!-- ============================================================ -->
 
 
