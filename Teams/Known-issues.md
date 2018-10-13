@@ -12,12 +12,12 @@ search.appverid: MET150
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8b1497a864a1dbd271af81363151275ffe7de1e
-ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
+ms.openlocfilehash: ca30bce0c5a0b96ba4ebf25d71e838aa88e4a602
+ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 10/12/2018
-ms.locfileid: "25502233"
+ms.locfileid: "25546754"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -71,7 +71,7 @@ ms.locfileid: "25502233"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|Internet Explorer または Edge から Teams に参加しようとすると、プログラムが一貫してループし続けるかクラッシュしてしまい、サイン インを実行しない。   <br/> | 所属する組織で Internet Explorer の [信頼済みサイト] を有効にしていて、その信頼済みサイトが Teams で許可されていないために、Teams の web ベース アプリケーションが正常にログインを実行しません。 <br/>|管理者の権限またはグループ ポリシー オブジェクトで、IE の設定を次のように変更します。<br/><ol><li>[**インターネット オプション**] &gt; [**プライバシー**] &gt; [**詳細設定**] で、[ファースト パーティの Cookie] と [サード パーティの Cookie] を許可し、[**常にセッション Cookie を許可する**] のチェック ボックスを選択します。</li><li>[**インターネット オプション**] &gt; [**信頼済みサイト**] &gt; [**サイト**] をクリックして、次のすべてを追加します。<ul><li>https://login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>注意</b>: 常に Teams の信頼済み URL のすべてと、「[Office 365 URL および IP アドレス範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)」に記載されているすべての要件を確認し、許可してください。   <br/> |2017/11/01  <br/> |
+|Internet Explorer または Edge から Teams に参加しようとすると、プログラムが一貫してループし続けるかクラッシュしてしまい、サイン インを実行しない。   <br/> | 所属する組織で Internet Explorer の [信頼済みサイト] を有効にしていて、その信頼済みサイトが Teams で許可されていないために、Teams の web ベース アプリケーションが正常にログインを実行しません。 <br/>|IE の設定またはコントロール パネルで、管理者権限またはグループ ポリシー オブジェクトのいずれかからは、次の変更を行います。<br/><ol><li>[**インターネット オプション**] &gt; [**プライバシー**] &gt; [**詳細設定**] で、[ファースト パーティの Cookie] と [サード パーティの Cookie] を許可し、[**常にセッション Cookie を許可する**] のチェック ボックスを選択します。</li><li>[**インターネット オプション**] をクリックして&gt;**セキュリティ** &gt; **信頼済みサイト** &gt; **サイト**、し、次のすべてを追加します。<ul><li>https://login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>注意</b>: 常に Teams の信頼済み URL のすべてと、「[Office 365 URL および IP アドレス範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)」に記載されているすべての要件を確認し、許可してください。   <br/> |2017/11/01  <br/> |
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|

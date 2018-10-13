@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: この資料を設定し、オンライン ビジネスの委任のため Skype をトラブルシューティングする方法について説明します。 この記事では、設定の推奨事項、ベスト ・ プラクティス、およびトラブルシューティング手順を実行するためのガイダンスを提供します。
-ms.openlocfilehash: 5af84a6731d1f1e95a8d9da70fcd7c2677f36d7d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: e3131b28be1ad01e0965b2739dc152a627826d5e
+ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370892"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25546677"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Skype for Business Online の代理のセットアップとトラブルシューティング
 
@@ -89,13 +89,13 @@ ms.locfileid: "25370892"
     
 3. **追加**] を選択、追加する代理人を選択し、 **[ok]** を選択します。
     
-   **呼び出しの転送タブが表示されません。**
+ **呼び出しの転送タブが表示されません。**
   
-4. Outlook では、**ファイル**を選択します > **アカウントの設定** > **代理人アクセス** > **追加**します。
+1. Outlook では、**ファイル**を選択します > **アカウントの設定** > **代理人アクセス** > **追加**します。
     
-5. 見つけるし、代理人になる人の名前を追加します。
+2. 見つけるし、代理人になる人の名前を追加します。
     
-6. [**予定表**] メニューを選択し、選択**エディター (読み取り、作成、および変更できますアイテム)**。
+3. [**予定表**] メニューを選択し、選択**エディター (読み取り、作成、および変更できますアイテム)**。
     
 ### <a name="for-mac-clients---lync"></a>Mac クライアントの Lync の
 

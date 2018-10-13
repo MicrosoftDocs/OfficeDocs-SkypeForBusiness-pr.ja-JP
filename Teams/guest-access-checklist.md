@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a2ad3c2416e64334dddda6c09d3e8eed2be3763
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 58dd3bb4e0f870cfcfff0f1297acdab7a82eb4a9
+ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374251"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25546686"
 ---
 <a name="teams-guest-access-checklist"></a>チームのゲスト アクセスのチェックリスト
 ==========================================
@@ -30,11 +30,9 @@ ms.locfileid: "25374251"
 
 ## <a name="--enable-guest-access-at-the-tenant-level"></a>テナントのレベルで有効にするゲスト アクセスを □
 
-最低限には、**ゲスト**のライセンスの種類のすべてのユーザーのマイクロソフト チームをオンにする必要があります。 詳細については、[オンまたはオフは、マイクロソフトのチームへのゲスト アクセスを有効にする](set-up-guests.md)を参照してください。
+を通じてチーム & ビジネス管理センターでは、Skype に移動するhttps://admin.teams.microsoft.com。 ここでは、[組織全体にわたる設定 'と' Guest' のアクセス] タブには、最後に、このタブ内で選択 ' ゲスト アクセスを許可では、マイクロソフトのチーム' を有効になっているでを選択します。 
 
-![スクリーン ショットは、チームの設定の表示/非表示の例を示しています。](media/guest-access-checklist-TeamsSettings1.png)
-
-
+## <a name="need-a-new-screenshot-for-new-admin-center-enablement"></a>新しい管理センターの支援の新しいスクリーン ショットが必要です。 
 
 ## <a name="-enable-specific-settings-for-channels"></a>□ は、チャネル固有の設定を有効にします。 
 アプリケーションでは、チーム、個々 のチーム レベルでは、ゲスト アクセス許可を構成来園者が作成、更新、およびチャンネルを削除できるようにします。 管理者、他チームの所有者は、この設定を構成できます。
