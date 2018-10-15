@@ -3,12 +3,12 @@ layout: HubPage
 hide_bc: true
 title: Skype for Business
 description: Skype for Business
-ms.openlocfilehash: da72536d6c9f0238b301f0fbf3bbd14abc372c46
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: cbb9765c358047b628be45759e2002cdc5a46f02
+ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373881"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25546667"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -179,8 +179,8 @@ ms.locfileid: "25373881"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>エンドユーザー</h3>
-                                                    <p>support.office.com で Skype for Business ユーザー向けのヘルプ、トレーニング、テクニカル サポートをご覧いただけます。</p>
+                                                    <h3>エンド ユーザー</h3>
+                                                    <p><a href='https://support.office.com/en-us/skype-for-business' target="_blank"> support.office.com</a>で Skype for Business ユーザー向けのヘルプ、トレーニング、テクニカル サポートをご覧いただけます。</p>
                                                 </div>
                                             </div>
                                         </div>
