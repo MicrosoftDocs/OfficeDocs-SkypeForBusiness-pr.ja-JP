@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Skype ミーティング システム v2 で使用できる機能について説明します。 '
-ms.openlocfilehash: 3f1a72bdbbe640a615bbf17c0525d3ece00295ad
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: 504666aef333ea3dec8f5b217396d75285ea628a
+ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546657"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "25576512"
 ---
 # <a name="skype-room-systems-v2"></a>Skype Room Systems v2
 <a name="bkmk_srs"> </a>
@@ -44,7 +44,4 @@ ms.locfileid: "25546657"
 |臨時の会議を開始し、会議の電話番号にダイヤルします。  <br/> |電話会議付きの Skype for Business スタンドアロン プラン 2  <br/> **注:** コミュニケーション クレジットは省略可能です。           |電話会議付きの E1 または E3  <br/> または  <br/> E5  <br/> |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL  <br/> |
 |会議室に電話番号を設定して、その会議室からの通話を受けたり、その電話番号を使って電話会議に参加したりします。  <br/> |スタンドアロンのビジネス ・ プランと Office 365 の電話システムの 2 と通話プランの Skype  <br/> **注:** コミュニケーション クレジットは省略可能です。           |Office 365 の電話システムおよび Office 365 の通話プラン付きの E1 または E3  <br/> または  <br/> E5  <br/> |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  <br/> |
    
- **使用して適切なバージョンの Windows 10**: お客様は、デバイスに 10 の Windows イメージを展開する、Windows の 10 の特定のバージョンが必要と、このバージョンは、ボリューム ライセンスのお客様に利用可能なだけです。 Skype ルーム システムのバージョン 2.0 のデバイスをイメージングの**Windows 10 エンタープライズ 1709 またはそれ以降のバージョン**を使用する必要があります。 [ボリューム ライセンス サービス センター](https://www.microsoft.com/Licensing/servicecenter/)からコピーを取得することができます。
-  
-
-    
+ **使用して適切なバージョンの Windows 10**: お客様は、デバイスに 10 の Windows イメージを展開する、Windows の 10 の特定のバージョンが必要と、このバージョンは、ボリューム ライセンスのお客様に利用可能なだけです。  [ボリューム ライセンス サービス センター](https://www.microsoft.com/Licensing/servicecenter/)からコピーを取得することができます。 Skype ルーム システムのバージョン 2 のメディアを作成するために必要な 10 の Windows のバージョンを確認するのには、 [CreateSrsMedia.ps1 スクリプト](https://go.microsoft.com/fwlink/?linkid=867842)でガイダンスを使用します。   

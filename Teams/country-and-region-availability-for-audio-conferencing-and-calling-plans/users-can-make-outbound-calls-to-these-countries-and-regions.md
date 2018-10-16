@@ -25,16 +25,16 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: このトピックには、呼び出す予定がある場合、ユーザーはへの発信コールを配置できる国/地域のすべてが含まれます。
-ms.openlocfilehash: 1b9e088c33fde71fa07ec405c088ad179708cb6e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 987379350d2605702d0e9e080f6a7a3a6d3a0383
+ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014614"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "25576577"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>ユーザーが通話を発信できる相手先の国や地域
 
-### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-a-domestic-or-domestic-and-international-calling-plan-license"></a>どのような国や地域のユーザーはユーザーが国内または国内にある場合に発信呼び出しを行うことができ、ライセンスの国際対応の計画を呼び出すを参照してください。
+### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-the-domestic-and-international-calling-plan-license"></a>どのような国や地域のユーザーは、ユーザーは、国内および国際を呼び出す予定のライセンスを持っている場合に発信呼び出しを行うことができますを参照してください。
 
 |**A-D**| **E-H**|**I - L**|**M-O**|**P-S**|**T ~ Z**|
 ---|---|---|---|---|---|
