@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: '概要: は、Skype をビジネスのサーバーを実装する前にポートの使用法に関する考慮事項を確認します。'
-ms.openlocfilehash: 4355bc35e5e8ddcf881e322c39661389f78dce1a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 6587bcfa9721362067d70bfc2e15549fa2a8e326
+ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884994"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25593696"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>サーバーのポートとプロトコルの要件
  
@@ -31,7 +31,7 @@ ms.locfileid: "23884994"
   
 これらのテーブルをダイアグラムのフォームで情報を見つけると、[ビジネス サーバー 2015 の Skype の技術的な図](../../technical-diagrams.md)の記事からリンクされているプロトコル ワークロード ポスターを確認することによってことができます。
 > [!NOTE]
-> - Skype のオンライン ビジネスのユーザーは、 [Office 365 の Url と IP アドレスの範囲](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)を参照してください。 
+> - Skype ビジネス オンライン (O365) を実装する場合は、 [Office 365 の Url と IP アドレスの範囲](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)を参照してください。 ハイブリッド環境は、このトピックともハイブリッド[ポートとプロトコルの要件](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md#port-and-protocol-requirements)を参照する必要があります。
 > - ハードウェアまたはソフトウェアのファイアウォールを持つことができます、特定のモデルまたはバージョンを必要としないことです。 重要なは、どのようなポート whitelisted ファイアウォールはありませんビジネス サーバーの Skype の機能が損なわれるためです。
   
 ## <a name="port-and-protocol-details"></a>ポートとプロトコルの詳細
