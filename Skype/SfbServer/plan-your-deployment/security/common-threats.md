@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Skype ビジネス サーバーのエンタープライズ ・ クラスの通信システムであるため、インフラストラクチャや通信に影響を与える一般的なセキュリティ攻撃があります。
-ms.openlocfilehash: 594bde9b01a61586364034ba026db91aea49ef88
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: 354e537a7e927ed6825b5909107c80fe59e04996
+ms.sourcegitcommit: f2b89fea199e7a1d2a3c90c153c94b0a35965e6f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546784"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25599212"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>今日のコンピューティング環境における一般的なセキュリティの脅威
  
@@ -66,7 +66,7 @@ Id のスプーフィングは、攻撃者が決定し、承認されること�
     
 トランスポート層セキュリティ (TLS) 接続では、TLS がすべての関係者を認証し、すべてのトラフィックを暗号化するため、このような問題は生じません。 TLS を使用すると、特定の接続 (相互 TLS 接続など) で攻撃者が IP アドレス スプーフィングを実行できません。 攻撃者がビジネス サーバー用の Skype を使用する DNS サーバーのアドレスを偽装しても。 ただし、ビジネス用の Skype で認証の証明書で実行するため、攻撃者が通信の当事者のいずれかのなりすましに必要な証明書が有効が必要することはありません。
 
-その一方で、呼び出し元 Id のスプーフィング活躍ビジネス サーバーのプロバイダー、PSTN ゲートウェイまたは別の PBX システムと Skype との間の SIP トランクを確立するときです。 これらの場合では、Skype のビジネス サーバーは呼び出し元 id のスプーフィングを防止するための保護を提供していません。 これは、Skype のビジネス ユーザーがビジネス ユーザーを別の Skype の電話番号を表示する呼び出し元の偽装 id を使用して、SIP トランクからの呼び出しを受信できることを意味します。 プロバイダー側では、この保護を適用する必要があります PSTN または PBX のゲートウェイです。
+その一方で、呼び出し元 Id のスプーフィング活躍ビジネス サーバーのプロバイダー、PSTN ゲートウェイまたは別の PBX システムと Skype との間の SIP トランクを確立するときです。 これらの場合では、Skype のビジネス サーバーは呼び出し元 id のスプーフィングを防止するための保護を提供していません。 ビジネス ユーザー用の別の Skype、Skype のビジネス ユーザーが SIP トランクから電話番号を表示する呼び出し元の偽装 id を使用して呼び出しを受信または (番号の逆引き参照を適用する場合) に名前を表示できますを意味します。 プロバイダー側では、この保護を適用する必要があります PSTN または PBX のゲートウェイです。
   
 ## <a name="man-in-the-middle-attack"></a>man-in-the-middle 攻撃
 
