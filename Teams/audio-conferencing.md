@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 516437ac9def60b1c06304429ca3bbe9eca63a3f
-ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
+ms.openlocfilehash: ff0db687ed25f756a3ba3d184b7408c5d2784b46
+ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 10/17/2018
-ms.locfileid: "25593712"
+ms.locfileid: "25597855"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議についての実践的なガイダンスを提供します。
 ============================================================
@@ -399,6 +399,7 @@ Office 365 の電話会議サービスには次が含まれます。
 > |ユーザーのダイヤルイン設定の変更時にそのユーザーに自動的にメールを送信する|無効|
 
 <br>
+
 > [!TIP]
 > 電話会議ユーザーの会議ブリッジ設定の割り当てリストを次の例のように文書化することができます。
 >

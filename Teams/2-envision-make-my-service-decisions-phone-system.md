@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccf53509b01341b482c5a687dfa3dcee66a928dc
-ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
+ms.openlocfilehash: 1bf0d5514f4202029acabe44268e8e7e7d671f60
+ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 10/17/2018
-ms.locfileid: "25593704"
+ms.locfileid: "25597847"
 ---
 # <a name="make-my-service-decisions"></a>[サービスの決定を行う
 
@@ -269,8 +269,10 @@ Office 365 テナントの場合、通話時間 (分) は国や地域別と通�
 > |Isabell Potvin |39 quai du Président Roosevelt |国内通話プラン |無効 |
 
 <br>
+
 > [!TIP]
 > 次の例のように番号を計画、通信のクレジットを文書化することができます。
+>
 > |         |         |
 > |---------|---------|
 > |初回購入金額|$ 1,000|
@@ -380,6 +382,7 @@ Office 365 の電話システムの機能では、ダイヤル プランの 2 �
 > ||**FR-Service**<br>_フランスのサービス番号の正規化_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
+
 > [!TIP]
 > 次のテンプレートの例を利用して、ダイヤル プランを文書化してプロジェクトをサポートすることができます。
 >

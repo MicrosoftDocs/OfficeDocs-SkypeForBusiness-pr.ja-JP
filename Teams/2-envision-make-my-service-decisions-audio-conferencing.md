@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b50baa8ddb7e29c4484adea7d9d0f0c6cab957dd
-ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
+ms.openlocfilehash: 81dca894a378c5331c34b5840108e63536c8ac37
+ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 10/17/2018
-ms.locfileid: "25593720"
+ms.locfileid: "25597839"
 ---
 # <a name="make-my-service-decisions"></a>[サービスの決定を行う
 
@@ -128,6 +128,7 @@ ms.locfileid: "25593720"
 
 > [!TIP]
 > コミュニケーション クレジットを適用する電話番号を次のように文書化することができます。
+>
 > |         |         |
 > |---------|---------|
 > |初回購入金額|$ 1,000|
@@ -237,6 +238,7 @@ Office 365 の電話会議サービスには次が含まれます。
 > |ユーザーのダイヤルイン設定の変更時にそのユーザーに自動的にメールを送信する|無効|
 
 <br>
+
 > [!TIP]
 > 次の例を使用してオーディオ会議のユーザーに対して会議ブリッジの設定の割り当ての一覧を文書化できます。
 >
