@@ -5,18 +5,19 @@ author: jambirk
 manager: serdars
 ms.date: 07/13/2018
 ms.audience: ITPro
+ms.reviewer: ariantor, arianr
 ms.topic: reference
 ms.prod: skypeforbusiness-server-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Skype for Business Server 2015 および Lync 2013 用の更新プログラムの検索と管理を 1 つの場所で実行します。 このページのリンクを使用して、更新プログラムの詳細情報の確認や、更新プログラムのダウンロードを行ってください。
-ms.openlocfilehash: 80be47503b8338a1c53ece04028d92d47597e696
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 651d6c730fb8555ab4c478e51f69e3143031b00c
+ms.sourcegitcommit: 19daa277829019807532e4ccb88cad1fdac6ee85
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886038"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "25607362"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server の更新プログラム
 
