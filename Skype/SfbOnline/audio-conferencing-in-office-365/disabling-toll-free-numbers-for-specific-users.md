@@ -19,15 +19,15 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 管理者は、開催者が、ミーティングのフリー ダイヤル番号を使用する方法を制御できます。
-ms.openlocfilehash: 316497b6b4569ffef4419b6ed2ce6994c604d16a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 0ee8274dd30b246da513d0597bf39964b94be8ca
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370613"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678158"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>オンライン ビジネスのユーザーに特定の Skype のフリー ダイヤル番号を無効にします。
-
+ 
 > [!Note]
 > チームのユーザーの無効化のツールを必要としない番号の詳細については、[チームの特定のユーザーのフリー ダイヤル番号を無効にする](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users)を参照してください。
 
@@ -48,20 +48,21 @@ ms.locfileid: "25370613"
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>特定のユーザーのフリーダイヤル番号を無効にする 
 
+では、**マイクロソフトのチームとビジネス管理センターの Skype**。
 
-1. **電話会議**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **のユーザー**、および利用可能なユーザーの一覧からユーザーを選択します。 
+1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
 
-2. In the Skype for Business admin center, in the left navigation go to Dial-in conferencing > Provider name drop-down, and then select the dial-in conferencing provider for the user. 
+2. **オーディオ会議**の横にある [**編集**] をクリックします。
 
-3. **このユーザーのミーティングに参加するのにはフリー ダイヤルの番号を使用して許可する**をオフにします。 
- 
-4. [**保存**] をクリックします。 
+3. **このユーザーからの要求を達成するためのフリー ダイヤル番号**は**無効**に設定します。 
+
+4. クリックして**を保存します**。 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
  
 **PowerShell を使用します。**  
 
-セット CsOnlineDialInConferencingUser コマンドレットの AllowTollFreeDialIn パラメーターを使用するには有効またはこのコントロールを無効にします。 例: 
+セット CsOnlineDialInConferencingUser コマンドレットの AllowTollFreeDialIn パラメーターを使用するには有効またはこのコントロールを無効にします。 次に例を示します。 
 
 - セット CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false

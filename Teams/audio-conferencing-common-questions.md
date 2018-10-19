@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: オーディオ会議を使用する場合、お客様から取得する上位の質問の一部を次に示します。
-ms.openlocfilehash: d5ba9368e65afbb6228ebaff0296a57e902cc51c
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b2c75a9207a0cff73f247809c2e70a7fe17d50e5
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014758"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678435"
 ---
 # <a name="audio-conferencing-common-questions"></a>電話会議に関するよくある質問
 
@@ -95,9 +95,9 @@ ms.locfileid: "25014758"
 
 できるようにする、[管理](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)、送信し、電子メールで、オーディオ会議の情報と暗証番号 (pin) を更新する新しい機能を追加しました。 に関する詳細については、[有効にするかマイクロソフトのチームでのオーディオ会議設定を変更すると、送信メールを無効にする](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)を参照してください、それを無効にする方法を含んでいるか、[を有効にするか、ビジネスの Skype で電話会議の設定を変更すると、送信メールを無効にします。オンライン](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change)です。
   
-## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype の設置型展開の一部であるユーザーが電話会議を使用できますか。
+## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server"></a>Skype ビジネス サーバー用の設置型展開の一部であるユーザーが電話会議を使用できますか。
 
-まだかなりあります。 ただし、オンプレミス ユーザーの PSTN ゲートウェイとのビジネス サーバー 2015 の Skype で利用可能な音声会議を使用する続行できます。 
+まだかなりあります。 ただし、オンプレミス ユーザーの PSTN ゲートウェイとの Skype のビジネス サーバーで利用可能な音声会議を使用する続行できます。 
   
 ## <a name="can-a-user-get-a-personal-conference-id"></a>ユーザーは、個人の会議 ID を入手できますか。
 

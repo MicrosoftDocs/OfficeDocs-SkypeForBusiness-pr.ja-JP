@@ -14,17 +14,17 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-description: マイクロソフトは、ダイレクト ルーティングで機能する SBC を認定するために、選ばれた SBC ベンダーと提携しています。
-ms.openlocfilehash: 375c5ca46e8af7bb31ad50b8c55a4fa629b8d2dd
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: SBCs を証明する、選択した SBC ベンダーとマイクロソフトのパートナーは、直接ルーティング機能します。
+ms.openlocfilehash: 45a562b83c6e89a1006bc1fd6e2180ff49daf1ad
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371797"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678451"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
-マイクロソフトは、ダイレクト ルーティングで機能する SBC を認定するために、選ばれた セッション ボーダー コントローラー (SBC) ベンダーと提携しています。 
+マイクロソフトと提携することを確認するための選択されているセッション ボーダー コント ローラー (SBC) ベンダー、SBCs の作業に直接ルーティングします。 
 
 各ベンダーと、マイクロソフトは次のことを行います。 
 

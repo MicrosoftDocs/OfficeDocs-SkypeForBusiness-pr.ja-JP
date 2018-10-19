@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: ハイブリッド シナリオでは、設置型の実装を監視する遠隔測定ツールのオンライン ビジネスの Skype を使用する場合の概要です。
-ms.openlocfilehash: 2c491a217f02af77a25f362697e6f89aceb9470c
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 523ec9905243eaf6f2a4eb26e3757fb431f21489
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "25030701"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678134"
 ---
 # <a name="plan-call-data-connector"></a>呼び出しデータ コネクタを計画します。
 
@@ -57,18 +57,23 @@ ms.locfileid: "25030701"
 
 ## <a name="requirements"></a>要件
 
-次の要件では、ビジネス サーバーのトポロジでサポートされている展開の Skype が既にあることを前提としています。  Skype をビジネスのサーバーおよびサポートされているトポロジの展開に関する詳細については、[トポロジの基礎](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics)を参照してください。
+次の要件では、ビジネス サーバーのトポロジでサポートされている展開の Skype が既にあることを前提としています。  Skype をビジネスのサーバーおよびサポートされているトポロジの展開に関する詳細については、[トポロジの基礎](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics)を参照してください。 データの電話コネクタを構成するには、次の操作を行う必要があります。
 
-- ハイブリッド接続です。 ビジネス サーバーの展開の Skype があるし、データの電話コネクタを有効にするは、ハイブリッド接続の設置とオンライン環境の設定があることを確認する必要があります。 分割ドメインの構成とも呼びます。 
+- ハイブリッド接続を有効にします。 ビジネス サーバーの展開の Skype があるし、データの電話コネクタを有効にするは、ハイブリッド接続の設置とオンライン環境の設定があることを確認する必要があります。 分割ドメインの構成とも呼びます。 
 
    詳細については、 [Skype ビジネス サーバーと Office 365 の間のハイブリッドの接続を計画](plan-hybrid-connectivity.md)し、 [Skype ビジネス サーバーと Office 365 の間のハイブリッド接続の構成](configure-hybrid-connectivity.md)を参照してください。
 
-- 呼び出すデータ コネクタを構成するには、Office 365 テナントに認証し、次の役割が有効になっていることを確認します。
+-  Office 365 テナントに認証し、次の役割が有効になっていることを確認します。
 
    - Skype ビジネス用のサーバーの管理者 
    - Office 365 のグローバル管理者 
 
 - されていない場合は、品質のダッシュ ボードを呼び出すオン[を有効にしてマイクロソフトのチームとビジネス オンラインの Skype の品質ダッシュ ボードの呼び出しを使用する](/microsoftteams/turning-on-and-using-call-quality-dashboard)で説明したようです。
+ 
+- ローカルの LCSCdr と QoEMetrics データベースの監視では、フロント エンド プールを有効にします。 これを呼び出すデータ コネクタは、測定値のデータを使用を必要はありません。 
+ 
+> [!IMPORTANT]
+> フロント エンド プールの監視が有効になっていない場合は、呼び出しデータ コネクタは機能しません。
 
 ## <a name="comparison-of-on-premises-and-online-call-quality-dashboard-cqd-reports"></a>設置とオンラインの呼び出し品質ダッシュ ボード (救難) の比較レポートします。
 
@@ -84,22 +89,4 @@ ms.locfileid: "25030701"
 | レポートの設定のカスタマイズ <br> (追加、削除、レポートの変更) | あり | あり |
 | ビデオ ベースの画面の測定値を共有 | あり | なし |
 | プログラムによるアクセスのためのデータ Api <br> 救難に | なし | はい |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+||||

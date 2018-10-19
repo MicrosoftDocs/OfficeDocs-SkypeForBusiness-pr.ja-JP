@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Skype for Busineses をセットアップして、組織のボイスメールの既定応答メッセージで別の言語を使用する方法を説明します。 '
-ms.openlocfilehash: b88fa5692d0a4a87968a5998f58b144aa31bcb9b
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: aeebc9907e0f2933921e449a7915bd8cced9cd66
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347386"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678355"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>応答メッセージとメールに使用する既定の言語を変更する
 
@@ -37,7 +37,7 @@ ms.locfileid: "25347386"
   
  **最初に、次の重要な情報をお読みください。**
   
-- **利用できる言語は組織の場所によって決まります** 。 たとえば、組織が米国内にある場合は、既定の言語を英語またはスペイン語に設定できます。 組織がカナダにある場合は、英語とフランス語から選べます。 サポートされる言語のリストについては、「[Skype for Business からのボイスメールの応答メッセージに使用する言語](languages-for-voicemail-greetings-and-messages.md)」をご覧ください。
+- **利用できる言語は組織の場所によって決まります**。 たとえば、組織が米国内にある場合は、既定の言語を英語またはスペイン語に設定できます。 組織がカナダにある場合は、英語とフランス語から選べます。 サポートされる言語のリストについては、「[Skype for Business からのボイスメールの応答メッセージに使用する言語](languages-for-voicemail-greetings-and-messages.md)」をご覧ください。
     
 - **組織内の 1 人のユーザーのみに対してシステムの言語を変更する方法はありません。** 組織のユーザー全員に対してあいさつ文の言語を変更することのみが可能です。
     
@@ -70,7 +70,7 @@ ms.locfileid: "25347386"
     
 - [通話プランのセットアップ](set-up-calling-plans.md)
     
-- [Skype for Business Server 2015 または Lync Server 2013 でオンプレミスの PSTN 接続を備えた Office 365 の電話システムを計画する](https://go.microsoft.com/fwlink/?LinkId=717947)
+- [Skype で設置した PSTN 接続を持つビジネス サーバーの Office 365 の電話システムを計画します。](https://go.microsoft.com/fwlink/?LinkId=717947)
     
 ## <a name="related-topics"></a>関連トピック
 

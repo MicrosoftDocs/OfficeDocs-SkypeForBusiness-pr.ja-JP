@@ -24,16 +24,16 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements.
-ms.openlocfilehash: 198c78b2c6b484d3d68c7d001de4d0db12658a2c
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: df56d2321a2f3c2d7f4159e3f1b782254cf1a64b
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012842"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678379"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype for Business と Microsoft Teams のデータ収集方法
 
-ビジネス サーバー 2015 の Skype、Skype のビジネス、オンライン ビジネス、マイクロソフトのチームのアプリケーションの Skype とは、Microsoft がこれらの製品の使用方法と、サインインのエラーなど、エラーの種類が発生したを理解するためのデータを収集します。 Microsoft は、使用パターンの理解、将来の機能の計画、問題の領域のトラブルシューティングと修正のためにこれらの情報を活用できます。
+Skype ビジネス サーバーとのビジネス、オンライン ビジネス、マイクロソフトのチームのアプリケーションの Skype と Skype は、マイクロソフトがこれらの製品の使用方法と、サインインのエラーなど、エラーの種類が発生したを理解するためのデータを収集します。 Microsoft は、使用パターンの理解、将来の機能の計画、問題の領域のトラブルシューティングと修正のためにこれらの情報を活用できます。
 
 一部の使用データは自動的に収集されますが、管理者またはユーザーによって許可された場合にのみ収集できるデータもあります。収集されるデータは、次の 3 つのカテゴリに分類されます。
 
@@ -78,7 +78,7 @@ ms.locfileid: "25012842"
 
 使用状況データには、ユーザーを特定できる情報は含まれていません。
 
-使用状況データの収集は、既定でオンになりますが、オンプレミスの管理者が、Skype for Business Server 2015 の DisableAutomaticSendTracing グループ ポリシー設定を使用してオフにすることができます。この設定をオフにすると、組織のすべてのユーザーが影響を受けます。「[Skype for Business Server 2015 でのクライアント ブートストラップ ポリシーの構成](https://technet.microsoft.com/library/gg425941.aspx)」を参照してください。
+利用状況データの収集には、既定で、設置管理者を使用すると Skype のビジネス サーバーの DisableAutomaticSendTracing のグループ ポリシー設定を使用してオフにできます。 この設定をオフにすると、組織のすべてのユーザーが影響を受けます。 詳細については、[クライアント ブートス トラップ ポリシーを構成する](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies)を参照してください。
 
 エンド ユーザーは使用状況データの収集のオンとオフを切り替えることはできません。
 
@@ -103,7 +103,7 @@ Skype 会議アプリと Join Launcher Web ページでは、利用統計情報�
 
 エラー報告には次の 2 つが必要です。
 
-- サーバー上またはテナント管理センター (これが既定の状態です) で、DisableAutomaticSendTracing のグループ ポリシーの設定は False に設定します。 詳細については、「[Skype for Business Server 2015 でのクライアント ブートストラップ ポリシーの構成](https://technet.microsoft.com/library/gg425941.aspx)」を参照してください。
+- サーバー上またはテナント管理センター (これが既定の状態です) で、DisableAutomaticSendTracing のグループ ポリシーの設定は False に設定します。 詳細については、[クライアント ブートス トラップ ポリシーを構成する](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies)を参照してください。
     
 - エンド ・ ユーザーが、[全般] タブから個別にオプトイン (歯車のアイコンをクリックして![歯車アイコン](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)し、表示される [**全般**] タブで**オプション**] ダイアログ ボックスを開きます) ビジネス クライアント用の Skype にします。
     

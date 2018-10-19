@@ -10,12 +10,12 @@ search.appverid: MET150
 description: マイクロソフト チームの機能のすべてを管理する Windows PowerShell を使用するについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0daff64e5a0f6f876de4adb7b60d913fbcce78cb
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4c8eb0c37f71972bb20fac60706ff7a369d971d4
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016078"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678347"
 ---
 # <a name="using-powershell-to-manage-teams"></a>PowerShell を使用して、チームを管理するには
 
@@ -48,7 +48,11 @@ PowerShell を使用して、マイクロソフトのチームのリモート管
 ### <a name="step-3-download-and-install-the-teams-connector-module"></a>手順 3: をダウンロードして、チームのコネクタ モジュールをインストール
 [このトピックを使用して、ヘルプを参照](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 
 
-イザベルからのダウンロード リンクを以下に示します。https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3
+PowerShell のギャラリーを使用してから、最新のモジュールをインストールします。 
+  
+  インストール モジュール MicrosoftTeams
+
+または、詳細については、パッケージを参照してください。https://www.powershellgallery.com/packages/MicrosoftTeams/
 
 ### <a name="step-4-connect-using-the-teams-connector-module"></a>手順 4: 接続がチームのコネクタ モジュールを使用します。
 [このトピックを使用して、ヘルプを参照](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 

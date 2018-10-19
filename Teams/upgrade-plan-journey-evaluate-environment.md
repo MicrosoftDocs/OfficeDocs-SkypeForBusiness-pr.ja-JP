@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d5e36389063ed3c03176506a1d31e4bfd488244
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c16362095538aca418991c16aeadc85d94245246
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373023"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678419"
 ---
 ![技術的な準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いて、旅アップグレードの段階")
 
@@ -119,11 +119,11 @@ Office 365 テナントに関する情報をキャプチャするのにには、
 
 > | 質問 | 回答 | コメント |
 > |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-> | 現在 Lync またはビジネス用の Skype のバージョン <br>導入、設置型とは | <input type="checkbox">Office Communications Server 2007「R1」 <br/> <input type="checkbox">Office 通信 Server 2007 R2 <br/> <input type="checkbox">Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">ビジネス サーバー 2015 の Skype <br/> <input type="checkbox">Skype ビジネス クラウド コネクタ ・ エディションの | |
+> | 現在 Lync またはビジネス用の Skype のバージョン <br>導入、設置型とは | <input type="checkbox">Office Communications Server 2007「R1」 <br/> <input type="checkbox">Office 通信 Server 2007 R2 <br/> <input type="checkbox">Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">ビジネス サーバー 2015 の Skype <br/> <input type="checkbox">Skype ビジネス サーバー 2019 <br/> <input type="checkbox">Skype ビジネス クラウド コネクタ ・ エディションの | |
 > | Skype for Business Online とのハイブリッドは構成されていますか? | <input type="checkbox">うん <br/> <input type="checkbox">違います | |
 > | この環境ホストされ、サードパーティによって管理されているでしょうか。 <br/>[はい]、[コメント] 列に詳細に注意してください。 | <input type="checkbox">うん <br/> <input type="checkbox">違います | |
 > | 形式と機能は現在使用中 <br>本日は。 | <input type="checkbox">インスタント メッセージングとプレゼンス (IM P) <br/> <input type="checkbox">会議 <br/> <input type="checkbox">フェデレーション <br/> <input type="checkbox">ミーティングのレコーディング <br/> <input type="checkbox">永続的なチャット グループ チャット/ <br/> <input type="checkbox">Microsoft オーディオ会議 <br>&nbsp;&nbsp; &nbsp;(以前ダイヤルイン会議) で、 <br>&nbsp;&nbsp; &nbsp;設置の Lync Server または <br>&nbsp;&nbsp; &nbsp;Skype ビジネスの展開 <br/> <input type="checkbox">サード ・ パーティ製のオーディオ会議 <br>&nbsp;&nbsp; &nbsp;(詳細については、[コメント] 列に注意してください) <br/> <input type="checkbox">エンタープライズ VoIP を使用してオンプレミス PSTN <br>&nbsp;&nbsp; &nbsp;の接続 <br/> <input type="checkbox">通話プラン (以前の PSTN の呼び出し) を使用して <br>&nbsp;&nbsp; &nbsp;オンライン ビジネスの Skype でのハイブリッド | |
-> | 展開済みの Edge Server のバージョンはいくつですか? | <input type="checkbox">Office Communications Server 2007「R1」 <br/> <input type="checkbox">Office 通信 Server 2007 R2 <br/> <input type="checkbox">Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">ビジネス サーバー 2015 の Skype | |
+> | 展開済みの Edge Server のバージョンはいくつですか? | <input type="checkbox">Office Communications Server 2007「R1」 <br/> <input type="checkbox">Office 通信 Server 2007 R2 <br/> <input type="checkbox">Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">ビジネス サーバー 2015 の Skype <br/> <input type="checkbox">Skype ビジネス サーバー 2019 | |
 > | 持っている Lync または Skype ビジネス エッジの展開の <br>1 つ以上のデータ センターですか。 <br/>[はい]、[コメント] 列に詳細に注意してください。 | <input type="checkbox">うん <br/> <input type="checkbox">違います | |
 > | 今日、エッジの役割を提供するサービスを選択します。 | <input type="checkbox">外部ユーザー アクセス (企業ユーザー) <br/> <input type="checkbox">(匿名の外部のリモート ユーザー アクセス <br>&nbsp;&nbsp; &nbsp;ミーティングの参加者) <br/> <input type="checkbox">フェデレーション <br/> <input type="checkbox">メディア リレー | |
 > | 次の音声機能を呼び出すことの <br>現在依存関係があるでしょうか。 <br/>コメントの追加の依存関係に注意してください。 <br>列。 | <input type="checkbox">使用中のオプション <br/> <input type="checkbox">パーク <br/> <input type="checkbox">ピックアップまたはグループのコール ピックアップ <br/> <input type="checkbox">共通領域電話、または「ホットデスク」 <br/> <input type="checkbox">応答グループまたはハント グループ <br/> <input type="checkbox">共有行の外観 <br/> <input type="checkbox">専用回線 <br/> <input type="checkbox">ボイスメール <br/> <input type="checkbox">作業を使用して通話. <br/> <input type="checkbox">緊急時または情報の番号 <br>&nbsp;&nbsp; &nbsp;(911, 811, 411) <br/> <input type="checkbox">拡張ダイヤル <br/> <input type="checkbox">自動応答 <br/> <input type="checkbox">サブスクライバー アクセス <br/> <input type="checkbox">アナログ デバイス <br/> <input type="checkbox">Fax <br/> <input type="checkbox">呼び出し元 ID のマスキングまたは変更します。 <br/> <input type="checkbox">場所ベースのルーティング <br/> <input type="checkbox">最低コスト ルーティング <br/> <input type="checkbox">エレベーターの電話 | |

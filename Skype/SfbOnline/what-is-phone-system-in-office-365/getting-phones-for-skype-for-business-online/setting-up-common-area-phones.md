@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 適切なファームウェアを取得し、更新が必要な場合、ライセンスを割り当てる共通領域電話の設定を構成、展開の手順を説明します。
-ms.openlocfilehash: d741b2ea76b8824ed36252d1d53e3f66e0118401
-ms.sourcegitcommit: cba568455949deab3c47777cb6504b4ed889bdbd
+ms.openlocfilehash: b92cef4234823c53faf6193d2e9e90fe3e5b60f0
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/14/2018
-ms.locfileid: "25552440"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678168"
 ---
 # <a name="set-up-common-area-phones"></a>共通エリア電話機を設定する
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
@@ -137,7 +137,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 
 
 > [!NOTE]
-> CAP 事前設定サイトには、CAP アカウントのパスワードがランダムなパスワードにリセットされると記載されています。 CAP が参照しているアカウントが Azure Active Directory（AAD）アカウントであることに注意してください。 AAD でアカウントを作成した場合は、そのプロセスは簡単です。 オンプレミス Active Directory を AAD に同期させている場合は、CAP 事前設定によって変更される使用している資格情報に注意してください。
+> CAP 事前設定サイトには、CAP アカウントのパスワードがランダムなパスワードにリセットされると記載されています。 CAP が参照しているアカウントが Azure Active Directory（AAD）アカウントであることに注意してください。 AAD でアカウントを作成した場合は、そのプロセスは簡単です。 設置型 AAD に Active Directory を同期して、サード ・ パーティ製の IDP または ad FS を使用して、CAP のプロビジョニングは失敗します。 この例では、する必要があります Office 365 と Azure Active Directory アカウントのみ (たとえば、 **onmicrosoft.com**ドメインでのアカウント) を使用するキャップが作業する準備をします。
 
 
 ### <a name="related-topics"></a>関連トピック

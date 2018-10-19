@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 呼び出すデータ コネクタを遠隔測定 Skype からのビジネスの設置型のビジネスのオンライン ・ ツールの Skype を使用して表示するを構成する方法の詳細については。
-ms.openlocfilehash: 7c64ff1cfb7c300c575fb1b4512c590d1ddb867d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5379b13d9b9962154a8b525109218dcf330336e4
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373300"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678150"
 ---
 # <a name="configure-call-data-connector"></a>呼び出しデータ コネクタを構成します。
 
@@ -27,10 +27,12 @@ ms.locfileid: "25373300"
 
 データの電話コネクタの利点と、ロールの要件など、ハイブリッド接続のセットアップの前提条件の詳細については、[呼び出しデータ コネクタの計画](plan-call-data-connector.md)を参照してください。
 
-## <a name="enable-monitoring"></a>監視を有効にします。 
+## <a name="enable-monitoring"></a>監視を有効にします。
+ 
+呼び出してデータの記録 (CDR) を構成する必要があり、プールの監視、ローカル LCSCdr および QoEMetrics データベースをフロント エンドのエクスペリエンスの品質 (QoE) データの収集それ以外の場合、呼び出しの分析と品質のダッシュ ボードを呼び出すで使用するデータを取得はありません。 前に呼び出しデータ コネクタの構成、手順両方 CDR および QoE と同様に基本的な監視を構成するのには[Skype ビジネス サーバーの展開の監視](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md)を提供します。
 
-呼び出してデータの記録 (CDR) とエクスペリエンスの品質 (QoE) データ コレクションを構成する必要があります。それ以外の場合、呼び出しの分析と品質のダッシュ ボードを呼び出すは、情報を表示するを取得しません。 前にする呼び出しのデータ コネクタの構成、CDR と QoE の両方を構成するのには[Skype ビジネス サーバーの展開の監視](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md)を提供されている手順に従います。
-
+> [!IMPORTANT]
+> フロント エンド プールの監視が有効になっていない場合は、呼び出しデータ コネクタは機能しません。
 
 ## <a name="enable-call-data-connector"></a>呼び出しデータ コネクタを有効にします。
 
@@ -138,9 +140,9 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
  データ コネクタの呼び出しを有効にすると、[品質の低下をトラブルシューティングするのにを呼び出して分析機能の使用](https://docs.microsoft.com/en-us/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)で説明するよう呼び出し分析ダッシュ ボードの設置型の呼び出しデータを表示できます。
 
 
-## <a name="for-more-information"></a>詳細情報
+## <a name="for-more-information"></a>関連情報
 
-コマンドレットの詳細については、ビジネス サーバー管理シェルには、Skype からヘルプを表示コマンドを使用できます。 例:
+コマンドレットの詳細については、ビジネス サーバー管理シェルには、Skype からヘルプを表示コマンドを使用できます。 次に例を示します。
 
 Get-CsCloudCallDataConnector のヘルプを表示 |もっとその
 
