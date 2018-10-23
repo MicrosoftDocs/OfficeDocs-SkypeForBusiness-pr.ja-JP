@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: '概要: は、Skype のビジネス サーバーの 2 要素による認証を管理します。'
-ms.openlocfilehash: f6ea9eb228a0c36df3c1ab9318f766a68a370cad
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a9ebeaa5f8f012d66fb62357e8378010d0a74865
+ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002858"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25692741"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Skype のビジネス サーバーの 2 要素による認証を管理します。
  
@@ -37,9 +37,9 @@ Lync Server 2013 の累積的な更新: 2013年 7 月デスクトップ クラ�
   
 |**構成の種類**|**サービスの種類**|**サーバーの役割**|**無効にする認証の種類**|
 |:-----|:-----|:-----|:-----|
-|Web サービス  <br/> |Web サーバー  <br/> |ディレクター  <br/> |Kerberos、NTLM、証明書  <br/> |
-|Web サービス  <br/> |Web サーバー  <br/> |フロントエンド  <br/> |Kerberos、NTLM、証明書  <br/> |
-|プロキシ  <br/> |Edgeserver があります。  <br/> |Edge  <br/> |Kerberos および NTLM  <br/> |
+|Web サービス  <br/> |WebServer  <br/> |ディレクター  <br/> |Kerberos、NTLM、証明書  <br/> |
+|Web サービス  <br/> |WebServer  <br/> |フロントエンド  <br/> |Kerberos、NTLM、証明書  <br/> |
+|プロキシ  <br/> |EdgeServer  <br/> |Edge  <br/> |Kerberos および NTLM  <br/> |
 |プロキシ  <br/> |レジストラー  <br/> |フロントエンド  <br/> |Kerberos および NTLM  <br/> |
    
 これらの認証の種類がサービス レベルで無効になっていない限り、2 要素認証が展開内で有効になっても、他のすべてのバージョンのクライアントでは正常にサインインできません。
@@ -100,7 +100,7 @@ PIN の入力を求めるメッセージが表示される前に、意図せず�
 
 AD FS 2.0 には、トークン リプレイ検出と呼ばれる機能が用意されています。この機能によって、同じトークンを使用する複数のトークン要求を検出して破棄できます。この機能が有効な場合は、同じトークンが複数回使用されることがなくなるため、WS-Federation パッシブ プロファイルと SAML WebSSO プロファイルの両方において認証要求の整合性が確保されます。
   
-キオスクを使用する場合など、セキュリティが最も重視される状況では、この機能を有効にする必要があります。 トークンのリプレイ検出の詳細については、 [AD FS 2.0 のセキュリティ保護の計画および展開のベスト プラクティス](https://go.microsoft.com/fwlink/p/?LinkId=309215)を参照してください。
+キオスクを使用する場合など、セキュリティが最も重視される状況では、この機能を有効にする必要があります。 トークン リプレイ検出の詳細については、「[Best Practices for Secure Planning and Deployment of AD FS 2.0](https://go.microsoft.com/fwlink/p/?LinkId=309215)」を参照してください。
   
 ## <a name="external-user-access"></a>外部ユーザー アクセス
 
@@ -108,5 +108,5 @@ Skype を外部ネットワークからビジネスの 2 要素認証をサポ�
   
 ## <a name="see-also"></a>関連項目
 
-[Skype のビジネス サーバーの 2 要素認証を構成します。](configure.md)
+[Skype のビジネス サーバーの 2 要素認証を構成します。](configure-two-factor.md)
   

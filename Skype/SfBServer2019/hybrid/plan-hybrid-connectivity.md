@@ -9,16 +9,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: ビジネス オンラインまたはチームの業務サーバーの Skype と Skype との間のハイブリッドの接続を実装するための考慮事項を計画しています。
-ms.openlocfilehash: 90ea0b5ee73cba718c81e5614b02b5332e223acf
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 34df2639ed57376549b2a8bde2e4b0e071d08957
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "25030680"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696234"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Skype ビジネス サーバーと Office 365 のハイブリッド接続を計画します。
-[!INCLUDE [disclaimer](../disclaimer.md)]
-
 
 ## <a name="overview"></a>概要
 
@@ -61,7 +59,7 @@ ms.locfileid: "25030680"
 
 - Skype 会議をブロードキャストやクラウドのボイスメールなどの他のオンライン機能を利用する場合は、ユーザーは、Office 365 の適切なライセンスを割り当てる必要があります。
 
-- ライセンスが割り当てられた Sype for Business Online ユーザーについては、Skype for Business またはオンプレミスの Enterprise Voice を有効にする必要があります。 詳細については、[社内設置型のエンタープライズ VoIP のユーザーを有効にする](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md)を参照してください。 ハイブリッド音声の要件の詳細については、 [Skype のビジネス サーバーの PSTN への接続をオンプレミスと Office 365 の電話システムの計画](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)を参照してください。
+- ライセンスが割り当てられた Sype for Business Online ユーザーについては、Skype for Business またはオンプレミスの Enterprise Voice を有効にする必要があります。 詳細については、[社内設置型のエンタープライズ VoIP のユーザーを有効にする](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md)を参照してください。 ハイブリッド音声の要件の詳細については、「[Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)」を参照してください。
 
 
 ## <a name="infrastructure-requirements"></a>インフラストラクチャの要件
@@ -80,7 +78,7 @@ ms.locfileid: "25030680"
 
 - オンプレミスのディレクトリを Office 365と同期させる Azure Active Directory Connect。 詳細についてを参照してください[Azure AD 接続: アカウントとアクセス許可](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
 
-    ユーザーがオンプレミスで使用するものと同じログイン資格情報を使用できるように Office 365 でのシングル サインオンをサポートする場合、Azure Active Directory (AAD) Connect のパスワード同期機能を使用できます。 また、Office 365 でのシングル サインオンに Active Directory フェデレーション サービス (AD FS) を使用することもできます。
+    ユーザーがオンプレミスで使用するものと同じログイン資格情報を使用できるように Office 365 でのシングル サインオンをサポートする場合、Azure Active Directory (AAD) Connect のパスワード同期機能を使用できます。 また、Office 365 でのシングル サインオンに Active Directory フェデレーション サービス (AD FS) を使用することもできます。 
 
 ハイブリッド接続を構成するには、オンプレミスとオンライン環境では、間のフェデレーションを設定し、共有セッション開始プロトコル (SIP) アドレス スペースのオンライン ビジネスのテナントは、Skype を構成する必要も。 ハイブリッド接続を構成する手順の詳細については、[ハイブリッド接続の構成](configure-hybrid-connectivity.md)を参照してください。
 
@@ -182,7 +180,7 @@ Skype でオンライン ビジネスのハイブリッド展開を構成する�
 ## <a name="federation-allowedblocked-lists-requirements"></a>フェデレーション許可/禁止の一覧の要件
 <a name="BKMK_Federation"> </a>
 
-許可ドメインの一覧には、パートナー エッジの完全修飾ドメイン名 (FQDN) が構成されているドメインが含まれます。これらは許可パートナー サーバーまたはダイレクト フェデレーション パートナーと呼ばれることもあります。オープン フェデレーションとクローズド フェデレーションの違いをよく理解しておくことが必要です。オンプレミス展開ではこれらはそれぞれパートナーの検出および許可パートナー ドメインの一覧と呼ばれます。
+許可されたドメイン] ボックスの一覧には、構成されているパートナー エッジ完全修飾ドメイン名 (FQDN) を持つドメインが含まれています。 これは、許可されたパートナー サーバーと呼ばまたは、直接フェデレーション パートナー。 開いているフェデレーションと終了と呼ばれるパートナーの検出および許可されたパートナー ドメイン] ボックスの一覧、それぞれ、設置型展開でフェデレーションの違いを理解する必要があります。
 
 ハイブリッド展開を正しく構成するには、次の必要条件を満たす必要があります。
 
@@ -215,7 +213,7 @@ Skype でオンライン ビジネスのハイブリッド展開を構成する�
 
 Microsoft Online Services のデータ ・ センターの場所、によって、ワイルドカード ドメイン名に基づいて接続を許可するのには、ネットワークのファイアウォール デバイスを構成する必要がありますも (からのすべてのトラフィックは、 \*. outlook.com)。 組織のファイアウォールはワイルドカードの名前の構成をサポートしていない場合は、許可したい IP アドレスの範囲、指定されたポートを手動で確認する必要があります。
 
-詳細については、 [Office 365 の Url と IP アドレスの範囲](https://go.microsoft.com/fwlink/p/?LinkId=252942)を参照してください。
+詳細については、「[Office 365 URL および IP アドレス範囲](https://go.microsoft.com/fwlink/p/?LinkId=252942)」を参照してください。
 
 ## <a name="port-and-protocol-requirements"></a>ポートとプロトコルの要件
 <a name="BKMK_Ports"> </a>
@@ -232,7 +230,7 @@ Microsoft Online Services のデータ ・ センターの場所、によって�
 |STUN  <br/> |UDP  <br/> |音声ビデオ エッジ  <br/> |Office 365  <br/> |3478  <br/> |3478  <br/> |音声、ビデオセッションで開く  <br/> |
 |STUN  <br/> |UDP  <br/> |Office 365  <br/> |音声ビデオ エッジ  <br/> |3478  <br/> |3478  <br/> |音声、ビデオセッションで開く  <br/> |
 
-ポートとファイアウォールがエッジ サーバーの計画に関する詳細については、 [Skype ビジネス サーバー用にエッジ サーバー環境の要件](../../sfbserver/plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)を参照してください。 [サーバーのポートとプロトコルの要件](../../sfbserver/plan-your-deployment/network-requirements/ports-and-protocols.md)と[プロトコルの負荷の図](https://go.microsoft.com/fwlink/p/?LinkId=550989)も参照ください。
+ポートとファイアウォールがエッジ サーバーの計画に関する詳細については、 [Skype ビジネス サーバー用にエッジ サーバー環境の要件](../../sfbserver/plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)を参照してください。 「[Port and protocol requirements for servers](../../sfbserver/plan-your-deployment/network-requirements/ports-and-protocols.md)」および「[プロトコル負荷の図](https://go.microsoft.com/fwlink/p/?LinkId=550989)」も参照してください。
 
 ## <a name="user-accounts-and-data"></a>ユーザー アカウントとデータ
 <a name="BKMK_UserAccounts"> </a>

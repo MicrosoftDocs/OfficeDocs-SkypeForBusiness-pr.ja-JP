@@ -1,5 +1,5 @@
 ---
-title: 内部と外部、ネットワークを従来の認証方法をオフにします。
+title: ネットワークに内部と外部を従来の認証方法をオフにしようとしています。
 ms.author: tracyp
 author: MSFTTracyP
 manager: serdars
@@ -11,14 +11,14 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: 認証方法の詳細に制御を管理者に提供するこの資料のアウトライン コマンドレットでは、業務上の内側と外側を使用します。 管理者は、認証方法を有効にまたは内部、または外部のネットワークにします。
-ms.openlocfilehash: f1af26c5cad98ee3416fa1bdd91d6fc8326eaf53
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 51dfaf9dc4c65afdd615cf29632c21d4cba08f65
+ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371804"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25692755"
 ---
-# <a name="turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>内部と外部のネットワークに従来の認証方法をオフにします。
+# <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>無効にする従来の認証方法内部と外部のネットワークを計画しています。
 
 > [!NOTE]
 > この資料を参照しようとする場合は、既に、現代の認証のサポートされているトポロジ、ADAL を知っておく必要があり、最新の認証の構成についてですが、ない場合にここでは、を開始する必要がある記事。 

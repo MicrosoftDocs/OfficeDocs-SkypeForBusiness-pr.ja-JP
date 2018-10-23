@@ -9,16 +9,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: ハイブリッド シナリオでは、設置型の実装を監視する遠隔測定ツールのオンライン ビジネスの Skype を使用する場合の概要です。
-ms.openlocfilehash: 523ec9905243eaf6f2a4eb26e3757fb431f21489
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: e9039d3865e3baf5740f4f7489b1a7cfec6dea98
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678134"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696213"
 ---
 # <a name="plan-call-data-connector"></a>呼び出しデータ コネクタを計画します。
-
-[!INCLUDE [disclaimer](../disclaimer.md)]
 
 ## <a name="overview"></a>概要
 このトピックでは、利点、計画の考慮事項、および Skype のビジネス サーバーを呼び出してデータ コネクタの実装の要件について説明します。 データの電話コネクタの構成の詳細については、[呼び出しデータ コネクタの構成](configure-call-data-connector.md)を参照してください。

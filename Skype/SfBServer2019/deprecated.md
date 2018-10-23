@@ -10,16 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: これらの機能がなくなる Skype からビジネス サーバー 2019 のです。'
-ms.openlocfilehash: cf91b468fe1482c7348634553b6e9b196b864b2c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 926f5539a31dbcb37ff4ccb5494ccaa7be517d30
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028762"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696164"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype からどのような使用されなくなりました 
-
-[!INCLUDE [disclaimer](disclaimer.md)]
 
 ビジネス サーバー 2019 の Skype で廃止された機能について説明します。 ビジネス サーバー 2019 の Skype の新機能については、[ビジネス サーバー 2019 の Skype では、何](whats-new.md)を参照してください。
 
@@ -71,8 +69,8 @@ SQL のミラーリングを展開できません Skype でのビジネス サ�
 
 - 品質方法論のダッシュ ボードを呼び出す
 - Microsoft 呼び出し品質方法論のスコアカード、v1.5
-- Skype for Business Server 2015 計画ツール
-- Skype ビジネス 2015 のサーバの負荷およびパフォーマンス ツール
+- Skype for Business Server 2015 Planning Tool
+- Skype for Business Server 2015 Stress and Performance Tool
 
 ### <a name="see-also"></a>関連項目
 

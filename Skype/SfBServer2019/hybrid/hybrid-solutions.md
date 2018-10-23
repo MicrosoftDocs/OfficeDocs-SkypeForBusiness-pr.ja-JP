@@ -10,20 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: ビジネス サーバー 2019 の Skype で利用可能なハイブリッド ・ ソリューションについて説明します。
-ms.openlocfilehash: 1d83e9f21d39bc848b854c0256e122c76b91ecf3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2909f524d1b9984fe01700a89d1bf6dc1b70f100
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030393"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696227"
 ---
 注意: 以下は 2015年からコピーし、進行中します。 [以下](#placeholder-topic-for-hybrid-solutions)その他の進行中のプレース ホルダーのコンテンツをご覧ください。
 
 
 # <a name="skype-for-business-hybrid-solutions"></a>ハイブリッド ソリューションのビジネス用の Skype
 
-[!INCLUDE [disclaimer](../disclaimer.md)]
- 
 Skype のビジネスのハイブリッド展開の計画に関する情報を検索します。 
   
 このトピックでは、ビジネスに最適な構成の特定に役立つさまざまなハイブリッド構成について説明します。 次に、このトピックのリンク従って、関心のある構成についての詳細を読むことができます。 このトピックは、以下のセクションで構成されています。
@@ -75,11 +73,11 @@ Skype ビジネス サーバーとビジネス オンラインの Skype との�
 ## <a name="take-advantage-of-phone-system-in-office-365-cloud-pbx"></a>Office 365 の電話システム (クラウド PBX) を活用する
 <a name="BKMK_CloudPBX"> </a>
 
- Office 365 (クラウド PBX) の電話システムは、オンライン ビジネスの通話の制御、Skype で Office 365 のクラウド内のプライベート構内交換機 (PBX) 機能を有効にするための Microsoft のテクノロジです。 Office 365 の電話システムを使用すると、Office 365 から配信され、マイクロソフトのクラウドの生産性の経験と密接に統合の機能のセットを使用して、既存の PBX システムを置き換えることができます。
+ Office 365 (クラウド PBX) の電話システムは、オンライン ビジネスの通話の制御、Skype で Office 365 のクラウド内のプライベート構内交換機 (PBX) 機能を有効にするための Microsoft のテクノロジです。 Office 365 の電話システムを利用すると、既存の PBX システムを Office 365 で提供される機能のセットと置き換えて、会社のクラウドと緊密に連携して生産性を向上させることができます。
   
 Office 365 のハイブリッド ・ ソリューションの 2 つの電話システムの他は、マイクロソフトは、計画を呼び出すと、Office 365 の電話システムを提供しています: サービスの呼び出しの PSTN: クラウドをすべてソリューションの場合、オンプレミスのサーバーの展開を必要としません。 かどうかは、計画を呼び出すと、Office 365 の電話システムは、組織に最適なソリューションと可能性がありますを決定するには、[ソリューションを Office 365 に電話システム](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md#BKMK_PBXOfferings)を参照してください。
   
-Office 365 のハイブリッド サービス提供では次の 2 つの電話システムがあります。 
+Office 365 のハイブリッド サービス提供では次の 2 つの電話システムがあります。  
   
 - [Skype for Business Server 展開で提供されるオンプレミス接続を備えた Office 365 の電話システム](hybrid-solutions.md#BKMK_Server)
     
@@ -142,7 +140,7 @@ Office 365 のハイブリッド サービス提供では次の 2 つの電話�
     
 - ビジネス、Exchange、および SharePoint を使用して Skype では、機能を含むユニファイド メッセージング (UM) Office 365 に統合されています。
     
-詳細については、[ビジネスとの交換用 Skype を統合する計画](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)を参照してください。
+詳細については、「[Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)」を参照してください。
   
 ### <a name="exchange-server-with-skype-for-business-online"></a>Exchange Server と Skype for Business Online
 
@@ -156,7 +154,7 @@ Skype でオンライン ビジネスの Exchange Server を統合すると、�
     
 - オンライン ビジネスのプレゼンス、IM、および会議の機能のための Skype を使用します。 
     
-詳細については、[ビジネスとの交換用 Skype を統合する計画](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)を参照してください。
+詳細については、「[Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)」を参照してください。
   
 ## <a name="tasks-for-planning-and-configuring-a-hybrid-environment"></a>ハイブリッド環境の計画や構成のタスク
 <a name="BKMK_Tasks"> </a>
@@ -208,11 +206,11 @@ Skype でオンライン ビジネスの Exchange Server を統合すると、�
 
 詳しくは、次のリソースをご覧ください。
   
-- [マイクロソフト クラウドの IT アーキテクチャのリソース](https://aka.ms/clouditarch)
+- [Microsoft クラウド IT アーキテクチャのリソース](https://aka.ms/clouditarch)
     
-- [エンタープライズ設計者向けのマイクロソフトのクラウド id](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
+- [エンタープライズ アーキテクトのための Microsoft クラウド ID](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
     
-- [組織が Office 365 のエンタープライズの準備ができて取得します。](https://aka.ms/O365EntPrep)
+- [Office 365 Enterprise向けに組織を準備する (英語)](https://aka.ms/O365EntPrep)
     
 - [ビジネス オンラインまたはチームの業務サーバーの Skype と Skype との間のハイブリッドの接続を計画します。](plan-hybrid-connectivity.md)
     
@@ -220,13 +218,13 @@ Skype でオンライン ビジネスの Exchange Server を統合すると、�
     
 - [Office 365 ソリューションの電話システム](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md#BKMK_PBXOfferings)
     
-- [Skype for Business と Exchange の統合の計画](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)
+- [Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)
     
 このトピックのポスター バージョンをダウンロードする場合は、以下にアクセスしてください。
   
-- [Skype ビジネス アーキテクチャ モデル (pdf)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.pdf)
+- [Skype for Business Architectural Models (pdf、英語)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.pdf)
     
-- [Skype ビジネス アーキテクチャ モデル (Visio)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.vsd)
+- [Skype for Business Architectural Models (Visio、英語)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.vsd)
     
 
 ### <a name="placeholder-topic-for-hybrid-solutions"></a>ハイブリッド ソリューション用のプレース ホルダー トピック 
@@ -260,7 +258,7 @@ Exchange との共存をサポートする場合は、以下の点に留意し�
     
   - サーバー側会話の履歴、アーカイブ、統合連絡先ストア、HighRes 写真が Exchange 2013 以降を必要とし、サーバー間の通信に OAuth サーバーを有効にする必要があります。 詳細については、[管理サーバーからサーバーへの認証 (OAuth) とビジネス サーバー 2015 の Skype のパートナーのアプリケーション](https://technet.microsoft.com/en-us/library/jj204817.aspx)を参照してください。
     
-Exchange Server との共存の詳細については、サポートを含む条件とさまざまな組み合わせでの制限の設置とオンラインで参照してください[ビジネスとの交換用 Skype を統合する計画](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)の[サポート機能](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)。
+オンプレミスとオンラインのさまざまな組み合わせに関するサポートの条件および制限を含む、Exchange Server との共存に関する詳細については、[Plan to integrate Skype for Business and Exchange](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md) の「[機能のサポート](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)」を参照してください。
 
 
 

@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d7b17445-1b01-4b7a-9b7f-f86ad59f1a2b
 description: '概要: ビジネスのサーバーのセキュリティと認証の Skype を管理するために次の手順を使用します。'
-ms.openlocfilehash: 01df02833c247a000117c59c74da5ae7e49fae9e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 654e7b215625d8efa75a400b8b6805653365d356
+ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20996285"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25692726"
 ---
 # <a name="manage-authentication-in-skype-for-business-server"></a>Skype ビジネス サーバーの認証を管理します。
  
@@ -25,11 +25,15 @@ Skype をビジネスのサーバーのセキュリティと認証の管理に�
   
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [Skype for Business で先進認証 (ADAL) を使用する方法](use-adal.md)
+- [How to use Modern Authentication (ADAL) with Skype for Business](use-adal.md)
     
 - [Skype で AV と OAuth の証明書をビジネス サーバーのステージ ・ セット CsCertificate でロールを使用します。](stage-av-and-oauth-certificates.md)
     
-- [サーバーからサーバーへの認証 (OAuth) とパートナーのアプリケーションで Skype ビジネス サーバーを管理します。](server-to-server-and-partner-applications.md)
+- [Skype をビジネスのサーバーのサーバーのサーバー認証証明書を割り当てる](assign-a-server-to-server-certificate.md)
+
+- [ビジネス サーバーのハイブリッド環境では Skype のサーバーからサーバーへの認証を構成します。](configure-a-hybrid-environment.md)
+
+- [Skype のビジネス サーバーの設置パートナー アプリケーションを構成します。](configure-an-on-premises-partner-app.md)
     
 - [ビジネス サーバーの Skype のレジストラー構成設定を管理します。](registrar-configuration-settings.md)
     

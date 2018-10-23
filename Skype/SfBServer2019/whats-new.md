@@ -10,18 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: これらの機能は、ビジネス サーバー 2019 の Skype にします。'
-ms.openlocfilehash: 7b4e07ab6fbb7bfddcd056c9d6c4cd9d836d9a8e
-ms.sourcegitcommit: 02ff91505a2f185bb3c1059a1b26ee31bb272438
+ms.openlocfilehash: 411ca0705fa06d0b5720656cec2fcb3cbda50eeb
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/03/2018
-ms.locfileid: "25027327"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696157"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype では、どのような 
 
 **の概要:** ビジネス サーバー 2019 の Skype の新機能について学習するには、このトピックを参照してください。  
-
-[!INCLUDE [disclaimer](disclaimer.md)]
 
 ビジネス サーバー 2019 の Skype の新機能を以下に示します。
   

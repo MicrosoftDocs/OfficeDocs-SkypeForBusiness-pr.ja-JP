@@ -7,16 +7,14 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skypeforbusiness-server-itpro
 description: このトピックでは、ビジネス オンラインまたは Exchange のオンラインのビジネス サーバーまたは Exchange Server の展開では、既存の Skype の Skype を最新バージョンに移行しようとするときに考慮する必要があるについて説明します。
-ms.openlocfilehash: 25d0e275110df57747679efec46a77571259a3d4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3678b7531d60324bd557acdd762f428b048d99fc
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027257"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696220"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Skype ビジネス サーバーと Exchange Server の移行の計画します。
-
-[!INCLUDE [disclaimer](../disclaimer.md)]
 
 このトピックでは、ビジネス オンラインまたは Exchange のオンラインのビジネス サーバーまたは Exchange Server の展開では、既存の Skype の Skype を最新バージョンに移行しようとするときに考慮する必要があるについて説明します。 可能なことを移行してすると、何を既にセットアップした組織内に大きく依存します。 プレビューに絞っているの全般的な可用性 (GA) で使用することが可能になるその他のシナリオで、いくつかの特定のシナリオをサポートします。
 

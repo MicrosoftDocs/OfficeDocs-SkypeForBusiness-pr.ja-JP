@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 2015 の容量計画の計算機
+title: Skype ビジネス サーバーの容量計画の計算について
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/1/2018
@@ -10,24 +10,29 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: '概要: 容量計算機の使用方法'
-ms.openlocfilehash: 6ce37865035b22a91841e98c1f3a75d6da0cb8d2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: bb17bc7b024900627318dd64b41249c21ff8488b
+ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374911"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25692769"
 ---
-# <a name="skype-for-business-server-2015-capacity-planning-calculator"></a>Skype for Business Server 2015 の容量計画の計算機
+# <a name="skype-for-business-server-capacity-planning-calculator"></a>Skype ビジネス サーバーの容量計画の計算について
  
 **概要:** 容量計算機の使用方法
+
+> [!NOTE]
+> この資料は、ビジネス サーバー 2015 のダウンロード、Skype を参照しますに適用されます。
+> - ビジネス サーバー 2019 の Skype です。
+> - ビジネス サーバー 2015 の Skype です。
   
-[ビジネス サーバー 2015 の容量の計算の Skype](https://www.microsoft.com/en-us/download/details.aspx?id=51196)は、 [Skype ビジネス 2015年計画ツール](https://www.microsoft.com/en-us/download/details.aspx?id=50357)と[、Skype をビジネス サーバー 2015 の展開計画](https://technet.microsoft.com/en-us/library/dn951427)のドキュメントを補強します。 この計算機は、ガイドをよくお読みになり、計画ツールを使って推奨のトポロジを作成後に使用してください。
+[ビジネス サーバーの容量の計算の Skype](https://www.microsoft.com/en-us/download/details.aspx?id=51196)は、 [Skype](https://www.microsoft.com/en-us/download/details.aspx?id=50357)と[、Skype をビジネスのサーバーの展開の計画](https://technet.microsoft.com/en-us/library/dn951427)のドキュメントを補強します。 この計算機は、ガイドをよくお読みになり、計画ツールを使って推奨のトポロジを作成後に使用してください。
   
-ビジネス サーバー 2015 の容量の計算に役立ちますの Skype ユーザーと組織を使用してコミュニケーション ツールの数に基づいて、サーバーの要件を決定します。 ユーザー プロファイルとユーザーに対して有効にしたい機能が決定したら、この計算機を使って必要とするサーバー、メモリ、帯域幅数を決定します。 計算機のこのバージョンでは、ディスク I/O 要件に対するガイダンスは提供しません。
+ビジネス サーバーの容量の計算に役立ちますの Skype ユーザーと組織を使用してコミュニケーション ツールの数に基づいて、サーバーの要件を決定します。 ユーザー プロファイルとユーザーに対して有効にしたい機能が決定したら、この計算機を使って必要とするサーバー、メモリ、帯域幅数を決定します。 計算機のこのバージョンでは、ディスク I/O 要件に対するガイダンスは提供しません。
   
 特定のユーザー プロファイルに関する正確な詳細情報があれば、計算機を最大限に活用できます。たとえば、音声対応ユーザーの割合、1 時間あたりの各ユーザーの平均通話数、通話時間、会議での同時ユーザーの割合によって、サーバー要件が大幅に変わる可能性があります。計算機によって作成される推奨事項の精度は、提供する情報の精度によって変わります。
   
-計画ツールおよび容量計画の電卓を使用したビジネス サーバー 2015 の Skype を十分に備えがあることを確認するのには、提案や計画的な負荷をシミュレートする必要があります。 負荷のシミュレートされた負荷の下でテストを実行するには、[ビジネス サーバー 2015 のストレスおよびパフォーマンス ツールの Skype](https://technet.microsoft.com/en-us/library/mt631400.aspx) [Skype ビジネス サーバー 2015 のストレスおよびパフォーマンス ツール](https://www.microsoft.com/en-us/download/details.aspx?id=50367)を使用します。
+計画ツールおよび容量計画の電卓を使用した後は、Skype ビジネス サーバーが適切に準備することを確認するのには、提案や計画的な負荷をシミュレートする必要があります。 負荷のシミュレートされた負荷の下でテストを実行するには、 [Skype](https://technet.microsoft.com/en-us/library/mt631400.aspx)に記載されている[Skype](https://www.microsoft.com/en-us/download/details.aspx?id=50367)を使用します。
   
 ## <a name="using-the-capacity-calculator"></a>容量計算機の使用
 
@@ -85,7 +90,7 @@ ms.locfileid: "25374911"
     
 緑色のセルには、入力した使用モデルの推奨事項が表示されます。 
   
-- [**フロントエンド サーバーの合計**]: 必要な物理サーバーの数は、Skype for Business Server 2015 を実行する専用サーバー (デュアル プロセッサ、6 コア、2,260 メガサイクル) に基づきます。
+- **合計のフロント エンド サーバー**: 必要な物理サーバーの数は、専用のサーバーをデュアル プロセッサを搭載、Skype をビジネスのサーバーに実行されているに基づいて 2,260 メガサイクルと 16 進数のコアです。
     
     ハイパースレッドを有効にすると、音声/ビデオをサポートするサーバーのパフォーマンスが上がることがわかっているのでお勧めします。
     

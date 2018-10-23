@@ -9,16 +9,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: この資料では、利点、計画に関する考慮事項、およびマイクロソフトのクラウドのボイスメール サービスを実装するための要件について説明します。 クラウドのボイス メールの構成方法の詳細については、クラウドのボイスメールを設定するを参照してください。
-ms.openlocfilehash: 8f7c2e394aa7d3f5a04961088202d1d9055eef9e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 14df7c3d8fbe7cab0bff9482c1543e7a6084039e
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370635"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696206"
 ---
 # <a name="plan-cloud-voicemail-service"></a>クラウドのボイスメール サービスを計画します。
-
-[!INCLUDE [disclaimer](../disclaimer.md)]
 
 ## <a name="overview"></a>概要 
 

@@ -10,57 +10,31 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5ca71746-ead6-4e8c-90b1-461e846d1f4a
 description: 現代の認証 (これは、Active Directory 認証ライブラリ (ADAL) と OAuth 2.0 に基づく) 2016年 3 月を参照しているを使用する方法を説明するビジネス サーバー 2015 の Skype のビジネス用の Skype 用の累積的な更新です。
-ms.openlocfilehash: 4bf802d2710c9c271c54cf2e127cf51b24875db1
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 70878092baaee9414c8acada21a89ceea6587658
+ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966574"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25692762"
 ---
-# <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>Skype for Business で先進認証 (ADAL) を使用する方法
+# <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>How to use Modern Authentication (ADAL) with Skype for Business
  
-現代の認証 (これは、Active Directory 認証ライブラリ (ADAL) と OAuth 2.0 に基づく) 2016年 3 月を参照しているを使用する方法を説明するビジネス サーバー 2015 の Skype のビジネス用の Skype 用の累積的な更新です。
+現代の認証 (これは、Active Directory 認証ライブラリ (ADAL) と OAuth 2.0 に基づく) 2016年 3 月を参照しているを使用する方法を説明するビジネス サーバー 2015 年または最初から、Skype のビジネス用の Skype 用の累積的な更新ビジネス サーバー 2019 の Skype をリリースします。
   
 ## <a name="whats-in-this-article"></a>この記事の内容
 
-[ADAL とは](use-adal.md#BKMK_ADAL)
-  
 [プールで ADAL を構成し、ADFS をセキュリティ トークン サーバーとして設定する](use-adal.md#BKMK_Config)
   
 [ADAL サインイン有効化のその他のオプション (Office クライアント アプリケーションなど)](use-adal.md#BKMK_Options)
   
 [先進認証 / ADAL がサポートされていないクライアント](use-adal.md#BKMK_Support)
   
-## <a name="what-is-adal"></a>ADAL とは
-<a name="BKMK_ADAL"> </a>
-
-ADAL は、'Active Directory Authentication Library (Active Directory 認証ライブラリ)' の頭文字であり、OAuth 2.0 と共に、先進認証の基礎となるものです。 このコード ライブラリは、(ビジネス用の Skype) のようなセキュリティ トークンを使用してクライアント ・ アプリケーションに利用可能なディレクトリにセキュリティで保護されたリソースを作成するよう設計されています。 ADAL は OAuth 2.0 と連携して、多要素認証 (MFA) やさまざまな形式の SAML Auth など、多様な認証および承認シナリオを可能にします。
-  
-先進認証は、クライアントとして動作するさまざまなアプリがリソースのセキュリティ保護の手段として利用しています。 ビジネス サーバーの Skype は、オンプレミスのクライアントとオンプレミスのサーバー間でユーザーにリソースへの承認の適切なレベルを提供するためにこの技術を使用します。
-  
-先進認証の通信 (ADAL と OAuth 2.0 をベースに使用) には次のような共通要素があります。
-  
-- リソースの要求を行うクライアントが、この場合、クライアントは、ビジネスの Skype です。
-    
-- クライアントが特定のレベルのアクセスを必要とするリソースがある、ディレクトリ サービスがこのリソースがセキュリティで保護されたリソースのビジネス サーバー用の Skype はここで。
-    
-- OAuth の接続、つまり、他の接続がリソースにアクセスするユーザーを*承認*するのには専用です。 (OAuth は 'サーバー' への認証に、わかりやすい名前で知られています、S2S と省略は、多くの場合)。
-    
-ビジネス サーバー ・最新認証 (ADAL) 会話の Skype、Skype ビジネス サーバーの ADFS (Windows Server 2012 R2 の ad FS 3.0) を介して通信します。 認証は、別の ID プロバイダー (IdP) を使用して行うことも可能ですが、Skype for Business Server は、ADFS と直接通信するよう構成する必要があります。 ビジネス サーバーの Skype 上で動作する ADFS を構成していない場合は、 [ad FS のインストール](https://technet.microsoft.com/en-us/library/adfs2-step-by-step-guides%28v=ws.10%29.aspx)を完了してください。
-  
-ADAL は、2016年 3 月に含まれているビジネス サーバー 2015 年の Skype 用の累積的な更新および年 2016年 3 月のビジネスの**必要があります**Skype の累積的な更新プログラムをインストールし、正しい構成のために必要な。
-  
-> [!NOTE]
-> 初期のリリースでは、オンプレミス環境での先進認証は、混成の Skype トポロジーが使用されていない場合のみのサポートとなります。 環境がビジネス サーバーの Skype では純粋である場合などです。 この記述は、変更される可能性があります。 
-  
-正しい構成には、.ps1 ファイルと ADAL で使用するコマンドが収録された PowerShell パッケージをインストールする必要があります。
-  
 ### <a name="configure-adal-in-your-pool-and-set-adfs-as-security-token-server"></a>プールで ADAL を構成し、ADFS をセキュリティ トークン サーバーとして設定する
 <a name="BKMK_Config"> </a>
 
 このプロセスでは、ADAL 用に構成されているビジネス サーバー プールに、Skype を ad FS のインストールを接続します。
   
-1. 2016年 3 月をインストール Skype ビジネス サーバー プールのため、Skype をビジネスのサーバー 2015 または Standard Edition サーバーの累積的な更新プログラムです。 (スケジュール メンテナンス ウィンドウでは、必要に応じて、自動インストールの Windows Update を実行する。)
+1. 2016年 3 月をインストール Skype ビジネス サーバー プールのため、Skype をビジネスのサーバー 2015 または Standard Edition サーバーの累積的な更新プログラムです。 に、2016 年 3 月の  の累積更新プログラムをインストールします (必要に応じて、Windows Update を自動インストールで実行するよう、メンテナンス期間をスケジューリングします)。
     
 2. オンプレミス ad FS サーバーに、スクリプトのセットアップ-AdfsOAuthTrustForSfB[をダウンロードします](https://aka.ms/sfbadalscripts)。 (ADFS ファームまたは独立の ADFS サーバーごとに実行するこの必要があります。 これは、必要はありません ADFS プロキシまたはプロキシで実行する)。
     
@@ -73,7 +47,7 @@ ADAL は、2016年 3 月に含まれているビジネス サーバー 2015 年�
     任意の追加のプール、Skype をビジネス サーバー依存関係者を信頼して ADFS でのプールの Web サービスの Url を手動で追加する必要があります。
     
     > [!IMPORTANT]
-    > プールにパッシブ認証を使用して、ADAL も使用することはできません。 ADAL を使用するには、パッシブ認証を無効にする必要があります。 プールの認証を設定する方法について、PowerShell コマンドレットは、[この](https://technet.microsoft.com/en-us/library/gg398396.aspx)資料を参照してください。
+    > プールにパッシブ認証を使用して、ADAL も使用することはできません。 ADAL を使用するには、パッシブ認証を無効にする必要があります。 PowerShell コマンドレットでプールに対して認証を設定する方法については、[この記事](https://technet.microsoft.com/en-us/library/gg398396.aspx)を参照してください。
   
     > [!TIP]
     > 追加のプールが存在する場合、依存する関係者を信頼する ADFS で[識別子](https://technet.microsoft.com/en-us/library/gg557759%28v=ws.10%29.aspx)として追加する必要があります > には、ADFS サーバーと ad FS の管理] を開きます。 信頼関係を拡大\>証明書利用者の関係者の信頼関係です。 依存関係者に表示されている信頼とプロパティを右クリックして右クリックし\>識別子\>プール個の追加の URL を入力\>[追加] をクリックします。 
@@ -91,7 +65,7 @@ ADAL は、2016年 3 月に含まれているビジネス サーバー 2015 年�
     
      `Test-CsRegistration -UserSipAddress AyakaY@contosoIns.com -TargetFqdn Pool1.contoso.com -Authentication OAuthInteractive`
     
-7. 入力を求められたら、テスト ユーザーの資格情報を入力し、テストが正常に終了することを確認します。
+7. ダイアログ ボックスが表示されたら、必ずテスト ユーザーの資格情報を入力してください。 テストが正常に完了していることを確認します。
     
     > [!NOTE]
     > STS URL は、ADFS*内部的*に解決するときにプロンプトが表示されますが**Windows のセキュリティ**の確認になります。 一方、URL が外部で解決した場合は、[**Sign in**] という名前のプロンプトになります。 通常、ここで望ましいのは [**Windows Security**] プロンプトです。 この動作は、特にフォーム ベース認証 (FBA) を実装していると、一貫しません。
@@ -120,7 +94,7 @@ Exchange Online の最新の認証を有効に、いくつかの PowerShell コ�
     
 - 次のレジストリ キーを、先進認証を有効にしたいデバイスまたはコンピューターごとに設定します。 規模の大きな組織では GPO が必要になります。 GPO を作成する方法についてを参照してください、'を作成するドメインの結合されたコンピューターでレジストリを変更するグループ ポリシー オブジェクト][この](https://support.office.com/en-us/article/Switching-between-the-Skype-for-Business-and-the-Lync-client-user-interfaces-a2394a4c-7522-484c-a047-7b3289742be0)資料の。
     
-|レジストリ キー  <br/> |型   <br/> |値  <br/> |
+|レジストリ キー  <br/> |型  <br/> |値  <br/> |
 |:-----|:-----|:-----|
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL  <br/> |REG_DWORD  <br/> |1  <br/> |
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version  <br/> |REG_DWORD  <br/> |1  <br/> |
