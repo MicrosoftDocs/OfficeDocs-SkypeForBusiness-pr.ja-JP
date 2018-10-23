@@ -11,16 +11,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: '概要: ビジネス サーバー 2019 の Skype を実装する方法については、これらのリンクを表示します。'
-ms.openlocfilehash: 1ae2c6cb758a2cc7e948e7e20a2ce8527553f7c5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 932d23521b6406e930da4c9b90b0c892307faabd
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374196"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696199"
 ---
 # <a name="skype-for-business-server-2019"></a>Skype ビジネス サーバー 2019
 
-[!INCLUDE [disclaimer](disclaimer.md)]
 <ul class="panelContent cardsFTitle">
     <li>
         <a href="../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json">
