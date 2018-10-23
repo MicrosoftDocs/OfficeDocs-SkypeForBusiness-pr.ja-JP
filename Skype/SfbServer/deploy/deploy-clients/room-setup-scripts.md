@@ -4,25 +4,26 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: このトピックでは、Skype Room System アカウントをプロビジョニングするためのサンプル スクリプトの検索について説明します。
-ms.openlocfilehash: 2102a9aa306b7d545ce299b0c0808d6129cbbb02
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2032799059d59d1a99526a2b90630dd3c7b1cb3e
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997847"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699666"
 ---
-# <a name="skype-room-system-room-setup-scripts"></a><span data-ttu-id="1852d-103">Skype Room System ルームのセットアップ スクリプト</span><span class="sxs-lookup"><span data-stu-id="1852d-103">Skype Room System room setup scripts</span></span>
+# <a name="skype-room-system-room-setup-scripts"></a><span data-ttu-id="da351-103">Skype Room System ルームのセットアップ スクリプト</span><span class="sxs-lookup"><span data-stu-id="da351-103">Skype Room System room setup scripts</span></span>
  
-<span data-ttu-id="1852d-104">このトピックでは、Skype Room System アカウントをプロビジョニングするためのサンプル スクリプトの検索について説明します。</span><span class="sxs-lookup"><span data-stu-id="1852d-104">Read this topic to find sample scripts for provisioning Skype Room System accounts.</span></span>
+<span data-ttu-id="da351-104">このトピックでは、Skype Room System アカウントをプロビジョニングするためのサンプル スクリプトの検索について説明します。</span><span class="sxs-lookup"><span data-stu-id="da351-104">Read this topic to find sample scripts for provisioning Skype Room System accounts.</span></span>
   
-<span data-ttu-id="1852d-105">このセクションでは、Skype ルームのシステム アカウントのプロビジョニングに使用できるサンプル スクリプトについて説明します。</span><span class="sxs-lookup"><span data-stu-id="1852d-105">This section illustrates sample scripts that can be used to provision Skype Room System accounts.</span></span> <span data-ttu-id="1852d-106">これらのスクリプトは、説明の目的にのみ提供されており、使用する場合は必ず IT エキスパートまたはドメイン管理者に事前に相談してください。</span><span class="sxs-lookup"><span data-stu-id="1852d-106">These scripts are for illustrative purposes only and should be used only after consulting with your IT expert or domain administrator.</span></span>
+<span data-ttu-id="da351-105">このセクションでは、Skype ルームのシステム アカウントのプロビジョニングに使用できるサンプル スクリプトについて説明します。</span><span class="sxs-lookup"><span data-stu-id="da351-105">This section illustrates sample scripts that can be used to provision Skype Room System accounts.</span></span> <span data-ttu-id="da351-106">これらのスクリプトは、説明の目的にのみ提供されており、使用する場合は必ず IT エキスパートまたはドメイン管理者に事前に相談してください。</span><span class="sxs-lookup"><span data-stu-id="da351-106">These scripts are for illustrative purposes only and should be used only after consulting with your IT expert or domain administrator.</span></span>
   
-## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a><span data-ttu-id="1852d-107">ビジネスと (設置型) の Exchange Server のセットアップ スクリプトの例: Skype</span><span class="sxs-lookup"><span data-stu-id="1852d-107">Example Setup Script: Skype for Business and Exchange Server (On Premises)</span></span>
+## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a><span data-ttu-id="da351-107">ビジネスと (設置型) の Exchange Server のセットアップ スクリプトの例: Skype</span><span class="sxs-lookup"><span data-stu-id="da351-107">Example Setup Script: Skype for Business and Exchange Server (On Premises)</span></span>
 
 ```
 # On Exchange 
@@ -36,17 +37,17 @@ Set-ADAccountPassword -Identity "conference room"# Paste the next command on its
 Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=1669" -EnterpriseVoiceEnabled $true
 ```
 
-## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a><span data-ttu-id="1852d-108">ビジネスおよび Exchange Server のオンラインの Skype をセットアップ スクリプトの例:</span><span class="sxs-lookup"><span data-stu-id="1852d-108">Example Setup Script: Skype for Business and Exchange Server Online</span></span>
+## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a><span data-ttu-id="da351-108">ビジネスおよび Exchange Server のオンラインの Skype をセットアップ スクリプトの例:</span><span class="sxs-lookup"><span data-stu-id="da351-108">Example Setup Script: Skype for Business and Exchange Server Online</span></span>
 
-<span data-ttu-id="1852d-109">スクリプトを実行する前に、次の前提条件を確認してください。</span><span class="sxs-lookup"><span data-stu-id="1852d-109">Make sure you've reviewed the following prerequisites before running the script:</span></span>
+<span data-ttu-id="da351-109">スクリプトを実行する前に、次の前提条件を確認してください。</span><span class="sxs-lookup"><span data-stu-id="da351-109">Make sure you've reviewed the following prerequisites before running the script:</span></span>
   
-- <span data-ttu-id="1852d-110">Microsoft Online Services サインイン アシスタント (IT Professionals BETA 用)</span><span class="sxs-lookup"><span data-stu-id="1852d-110">Microsoft Online Services Sign-In Assistant for IT Professionals BETA</span></span>
+- <span data-ttu-id="da351-110">Microsoft Online Services サインイン アシスタント (IT Professionals BETA 用)</span><span class="sxs-lookup"><span data-stu-id="da351-110">Microsoft Online Services Sign-In Assistant for IT Professionals BETA</span></span>
     
-- <span data-ttu-id="1852d-111">Windows PowerShell 用 Windows Azure Active Directory モジュール (64 ビット バージョン) または (32 ビット バージョン)</span><span class="sxs-lookup"><span data-stu-id="1852d-111">Windows Azure Active Directory Module for Windows PowerShell (64-bit version) or (32-bit version)</span></span>
+- <span data-ttu-id="da351-111">Windows PowerShell 用 Windows Azure Active Directory モジュール (64 ビット バージョン) または (32 ビット バージョン)</span><span class="sxs-lookup"><span data-stu-id="da351-111">Windows Azure Active Directory Module for Windows PowerShell (64-bit version) or (32-bit version)</span></span>
     
-- <span data-ttu-id="1852d-112">Lync Online 用 Windows PowerShell モジュール</span><span class="sxs-lookup"><span data-stu-id="1852d-112">Windows PowerShell Module for Lync Online</span></span>
+- <span data-ttu-id="da351-112">Lync Online 用 Windows PowerShell モジュール</span><span class="sxs-lookup"><span data-stu-id="da351-112">Windows PowerShell Module for Lync Online</span></span>
     
-- <span data-ttu-id="1852d-113">必要な場合は再起動します</span><span class="sxs-lookup"><span data-stu-id="1852d-113">Reboot if needed</span></span>
+- <span data-ttu-id="da351-113">必要な場合は再起動します</span><span class="sxs-lookup"><span data-stu-id="da351-113">Reboot if needed</span></span>
     
 ```
 # Note you have to enter each command one at a time and update any bold fields for your environment
