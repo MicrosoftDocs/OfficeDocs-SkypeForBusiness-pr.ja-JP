@@ -4,17 +4,18 @@ ms.author: chucked
 author: chuckedmonson
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: PhillipGarding
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: 'ビジネスで Skype の企業クライアントのインストール方法の概要: 概要。'
-ms.openlocfilehash: 31eb109f80379487ba50342817759f8d9b30acda
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7b58b712f5b6dec7383bcb8a58e1b17b0ed4d870
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20985688"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699282"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>Skype のクライアントのビジネス サーバーを展開します。
  
@@ -38,15 +39,15 @@ Office 365 計画の一環としてビジネス用の Skype を購入するか�
 
 - [ビジネス サーバーの Skype での Windows クライアントのインストールをカスタマイズします。](customize-windows-client-installation.md)
     
-- [Skype for Business のクライアント エクスペリエンスの構成](configure-the-client-experience.md)
+- [Configure the client experience with Skype for Business](configure-the-client-experience.md)
     
 - [Skype for Business Server でのスマート連絡先リストの構成](configure-smart-contacts-list.md)
     
 ## <a name="installing-device-clients"></a>デバイス クライアントをインストールします。
 
-- [Skype for Business Server 2015: Windows Phone 版 Skype for Business のインストールおよびテスト](windows-phone.md)
+- [Install and test Skype for Business for Windows Phone](windows-phone.md)
     
-- [iOS 版 Skype for Business のインストールおよびテスト](ios.md)
+- [Install and test Skype for Business for iOS](ios.md)
     
 - [Skype for Business Server での Skype Room System の展開](deploy-skype-room-system.md)
     

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 description: Skype ルーム システム v2 の管理の概要です。
-ms.openlocfilehash: d79c04c69e320f404c8ce245120e9b01bd8de1ca
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: b30406c9f186fad699056a78ed1b18da9f59537a
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965657"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699353"
 ---
 # <a name="management-overview"></a>管理の概要 
 
@@ -41,9 +41,9 @@ Skype ルーム システム v2 のアプリケーションと接続されてい
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows 探して AutoAdminLogon = (dword) 1  <br/> |起動するように Skype ルーム システム v2 を有効に  <br/> |
 |電源管理 -\> AC、画面をオフに 10 分後  <br/> 電源管理 -\> Ac システムをスリープ状態を配置しません。  <br/> |により、接続されている表示をオフにして、自動的に復帰する Skype ルーム システム v2  <br/> |
-|net accounts /maxpwage:unlimited  <br/> または、ローカル アカウントでパスワードの期限切れを無効にする同等の手段。この設定に失敗すると、パスワードの期限が切れていることが通知され、Skype アカウントのログオンが失敗する原因になります。この影響はマシン上のすべてのローカル アカウントに及びます。したがって、この設定に失敗すると、ボックスの管理アカウントも最終的には期限切れになります。  <br/> |常にログインするように Skype アカウントを有効にする  <br/> |
+|net accounts /maxpwage:unlimited  <br/> またはローカル アカウントのパスワードの有効期限を無効にするのと同等のことを意味します。 これを行うには、障害が発生する Skype アカウントの期限切れのパスワードについて苦情を言ってログオンが失敗すると、最終的に。 したがってこれを設定して必要があります管理者アカウント、最終的にも期限切れにする] ボックスに、コンピューター上のすべてのローカル アカウントに影響を与えるこのこと注意してください。  <br/> |常にログインするように Skype アカウントを有効にする  <br/> |
    
-グループ ポリシーを使用してファイルを転送するは、[構成ファイルの項目](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)で説明します。
+グループ ポリシーを使用したファイルの転送は「[[ファイル] 項目を構成する](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)」で説明しています。
   
 ## <a name="remote-management-using-powershell"></a>PowerShell を使用したリモート管理
 <a name="RemotePS"> </a>
@@ -55,7 +55,7 @@ Skype ルーム システム v2 システムを監視する Microsoft オペレ�
 
 |    |     |
 |-----------|------------|
-|![](../../media/audio_conferencing_image7.png) <br/>意思決定ポイント|<ul><li>Skype ルーム システム v2 の展開を監視する操作の管理スイートを使用することを確認します。</li><li>メール ・ アラートを使用するターゲットの配布リストを決定します。</li></ul>|
+|![](../../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Skype ルーム システム v2 の展開を監視する操作の管理スイートを使用することを確認します。</li><li>メール ・ アラートを使用するターゲットの配布リストを決定します。</li></ul>|
 |![](../../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>品質と信頼性の監視方法を定義します。</li></ul>|
 
 ## <a name="quality-and-reliability-monitoring-cqd"></a>品質と信頼性の監視 (救難)
@@ -70,17 +70,23 @@ Skype ルーム システム v2 システムを監視する Microsoft オペレ�
 
 Skype ルーム システム v2 OS と Skype ルーム システム v2 アプリケーション製品の更新プログラムと機能強化の恩恵を更新することをお勧めします。 詳細については、 [Skype ルームの管理のシステムのバージョン 2](room-systems-v2-operations.md#software-updates)を参照してください。 
 
+## <a name="windows-updates"></a>Windows の更新プログラム
+
+Skype ルーム システム v2 (SRS v2) は、10 企業「IoT の Windows または Windows 10 エンタープライズ (VL) 上で実行され標準のデスクトップと同じ Windows の更新プログラムおよびオペレーティング システムのビルドを受信します。 詳細については、 [Windows の更新プログラムの管理](updates.md)を参照してください。
+
+
 ## <a name="troubleshooting"></a>トラブルシューティング
 
 オペレーション管理スイートが、運用チームとヘルプデスク警告が表示されます、Skype ルーム システム v2 の問題にするために、上記のセクションで説明したように警告を設定することをお勧めします。 [PowerShell を使用してリモート管理](room-systems-v2-operations.md#remote-management-using-powershell)では、PowerShell のリモート管理に使用できるオプションが説明されています。 周辺機器が切断されているローカルの「スマート手」かを調査し、デバイスを再接続する IT サポートに依存する必要があります。 
 
 トラブルシューティングと管理モードの詳細については、 [Skype ルームの管理のシステムのバージョン 2](room-systems-v2-operations.md#admin-mode-and-device-management)を参照してください。 
 
+
 ## <a name="see-also"></a>関連項目
 
 [Skype ルーム システムのバージョン 2 のヘルプ](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Skype Room Systems バージョン 2 の計画](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 
 [Skype Room System バージョン 2 を展開する](../../deploy/deploy-clients/room-systems-v2.md)
 

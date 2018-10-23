@@ -3,18 +3,19 @@ title: ビジネス サーバーの Skype では、プラグインの Lync VDI �
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.reviewer: krishra
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: このトピックでは、Skype を使用してリモート仮想デスクトップへの接続中にビジネスの展開手順について説明します。
-ms.openlocfilehash: 08f676632e11c4bf95beee9b97be03703978a4a6
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 792e6ab2521be2eaf46bc3a43979173d878fcb63
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373345"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699694"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>ビジネス サーバーの Skype では、プラグインの Lync VDI の導入します。
  
@@ -121,4 +122,4 @@ Lync VDI のプラグインのペアリングが失敗したとき、右下の�
 ## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
 <a name="tshoot_VDI"> </a>
 
-[VDI 環境における Skype for Business の計画](../../plan-your-deployment/clients-and-devices/vdi-environments.md)
+[Plan for Skype for Business in VDI environments](../../plan-your-deployment/clients-and-devices/vdi-environments.md)

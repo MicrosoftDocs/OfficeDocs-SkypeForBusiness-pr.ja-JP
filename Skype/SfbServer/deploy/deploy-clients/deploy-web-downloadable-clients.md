@@ -4,17 +4,18 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: PhillipGarding
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'ビジネス Web アプリケーションの概要: が、Skype を導入し、Skype 会議アプリケーションがビジネスの Skype を使用します。'
-ms.openlocfilehash: 5789b239abd5acebca24b2d11b0747e6dd3bf9b5
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c50a8afc4d12d7f3cf35fdcc966e322bd48199fc
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261036"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699538"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Skype のダウンロード可能なクライアントの Web をビジネスのサーバーの展開します。
 
@@ -132,7 +133,7 @@ Windows Server 2008 R2 を実行しているコンピューター上のプラグ
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    マイクロソフトに送信される情報が、 [Skype](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/data-collection-practices)を厳格に遵守します。
+    Microsoft に送信された情報は、「[Skype for Business のデータ収集](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/data-collection-practices)」が厳格に適用されます。
 
 3. CDN を使用できない場合は、クリアテキストへのフォールバック Skype をローカルにホストされる Web アプリケーションのビジネス経験をする前にタイムアウトを設定します。 既定値は 6 秒です。 この値を 0 に設定すると、タイムアウトはなくなります。
 

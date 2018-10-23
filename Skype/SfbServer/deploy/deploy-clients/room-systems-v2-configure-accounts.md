@@ -5,6 +5,7 @@ author: jambirk
 manager: serdars
 ms.date: 5/10/2018
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Exchange Skype ルーム システム v2 のアカウントを構成し、ビジネスの Skype の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 4070757324c9c0abf56cd623ce0155649e456e3b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 38fdc37467b1a9f7b73271ac8684e86f52059981
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886486"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699680"
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>Skype ルーム システム v2 用のアカウントを構成します。
  
@@ -26,7 +27,7 @@ Skype ルーム システム v2 と交換し、ビジネスの Skype を統合�
   
 このトピックでは、Microsoft Exchange、Skype の Skype ルーム システム v2 がビジネスに使用するアカウントを作成する方法について説明します。 Skype ルーム システム v2 デバイスの展開の手順については、 [Skype ルーム システム v2 のコンソールを構成](console.md)してください。 通常、インフラストラクチャは次のいずれかの構成に該当します。
   
-- オンラインの展開: 組織の環境を Office 365 の完全に展開します。 詳細については、 [Office 365 で v2 を Skype ルーム システムの展開](with-office-365.md)を参照してください。
+- オンラインの展開: 組織の環境を Office 365 の完全に展開します。 詳細については、「[Deploy Skype Room Systems v2 with Office 365](with-office-365.md)」を参照してください。
     
 - 設置型展開: 組織が、制御しているサーバーは、Active Directory、Exchange、および Skype のビジネス サーバーがホストされています。 詳細については、[業務サーバーの Skype で v2 を Skype ルーム システムの展開](with-skype-for-business-server-2015.md)を参照してください。
     
@@ -78,11 +79,11 @@ Skype ルーム システム v2 では、Active Directory、Exchange、および
    
 ユーザー アカウントを設定する最も簡単な方法では、リモートの Windows PowerShell を使用してそれらを構成します。 マイクロソフトでは、 [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)、新しいユーザー アカウントを作成または Skype ルーム システム v2 の互換性のあるユーザー アカウントにそれらを有効にするためにある既存のリソース アカウントの検証を支援するスクリプトを提供します。
   
-Windows PowerShell コマンドレット経由で Office 365 の UI を使用する場合は、いくつかの手順を手動で実行することができます。 [Office 365 を使用してデバイスのアカウントを作成する](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365)を参照してください。
+Windows PowerShell コマンドレット経由で Office 365 の UI を使用する場合は、いくつかの手順を手動で実行することができます。 「[Office 365 を使ったデバイス アカウントの作成](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365) を参照してください。
   
 ## <a name="see-also"></a>関連項目
 
-[Skype Room Systems バージョン 2 の計画](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
 [Skype Room Systems バージョン 2 コンソールを構成する](console.md)
   

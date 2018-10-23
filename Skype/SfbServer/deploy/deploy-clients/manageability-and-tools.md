@@ -4,17 +4,18 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: このトピックでは、Skype Room System の管理ツールについて説明します。
-ms.openlocfilehash: 8e509059cc2fdffc35bba0d43a84c0699aa536d5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9be385030ad09e73608b461c5a0c05cea70987c0
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20977459"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699624"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Skype Room System の管理容易性とツール
  
@@ -50,7 +51,7 @@ ms.locfileid: "20977459"
   - Skype のビジネスの稼働状態分析ツール (Excel)    
   - 32 ビットまたは 64 ビットの Business Connectivity アナライザーの Skype
     
-- [便利な新しいトラブルシューティングと分析ツールを Office 365 で](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/)確認します。 ビジネスのプールと、Office Web Apps サーバーの Skype してビジネスのクライアントは、Skype を使用して PowerPoint デッキを共有することができますを確認します。
+- 「[Useful new troubleshooting and analysis tools for Office 365](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/)」を参照します。 ビジネスのプールと、Office Web Apps サーバーの Skype してビジネスのクライアントは、Skype を使用して PowerPoint デッキを共有することができますを確認します。
     
 - 会議室には、リソース メールボックスが割り当てられている場合は、Skype のビジネスに有効にします。
     

@@ -3,18 +3,19 @@ title: Skype for Business での Mac クライアントのエクスペリエン�
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.reviewer: PhillipGarding
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: この記事では、Mac クライアント用の Skype for Business で利用できる、クライアントの基本設定と既定値について説明します。また、それらをアプリ以外から編集する方法についても説明します。
-ms.openlocfilehash: ae7f3a5c63a77820aba24e93d820ae2eff9176ad
-ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
+ms.openlocfilehash: dd2f9b1d69e24f17cf76f33896804e5f50cd0ad3
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22912844"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699296"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Skype for Business での Mac クライアントのエクスペリエンスをカスタマイズする
  
@@ -43,7 +44,7 @@ ms.locfileid: "22912844"
 |autoAcceptTimeout    |数値    |300 (既定)    |サーバー側の会話履歴がないユーザーの自動承認タイムアウト。    |
 |warnWhenUnknownLocationForE911    |ブール値    |0 = 無効  <br/> 1 = 有効    |不明な場所から緊急電話番号にダイヤルするときにユーザーに警告します。    |
 |sipAddress    |文字列    ||SIP アドレス (電子メール) ビジネスのための Skype にサインインするために使用します。    |
-|ユーザー名    |文字列    ||UPN (ユーザー名) ビジネスのための Skype にサインインするために使用します。    |
+|userName    |文字列    ||UPN (ユーザー名) ビジネスのための Skype にサインインするために使用します。    |
 |userNameInAdvancedOnly    |ブール値    |0 = サインイン用のメイン画面にし、[詳細プロパティ] ダイアログ ボックスで、[ユーザー名] フィールドを表示  <br/> 1 = [詳細プロパティ] ダイアログ ボックス (既定値) でのみ、[ユーザー名] フィールドを表示    |サインイン時にユーザー名フィールドが表示される場所を指定します。    |
    
 ### <a name="usage-examples"></a>使用例

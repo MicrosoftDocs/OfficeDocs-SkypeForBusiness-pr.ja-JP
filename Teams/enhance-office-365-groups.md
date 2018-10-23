@@ -12,24 +12,25 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7c17a70d66c859025ed83820630ce33e1f2b10f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: f5905ba16a6928b4347db9edb08e5db1c08f0cdb
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014806"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699268"
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>既存の Office 365 グループを Microsoft Teams で強化する
 =======================================================
 
 Microsoft Teams ユーザーは、Microsoft Teams の機能を使って既存の Office 365 グループを強化することができます。Office 365 のパブリック グループでは、そのメンバー数が 2500 人以下の場合にグループを強化できます。
 
-この操作を行うには、Microsoft Teams クライアントから新規のチームを作成します。画面下部にある「**はい。Microsoft Teams の機能を追加します。**」を選択し、Microsoft Teams により強化する既存のグループを選択します。既存のグループのメンバーがチームのメンバーとして自動的に追加されます。
-
-
+これを行うには、ユーザーはマイクロソフトのチームのクライアントからの新しいチームの作成の流れを通過する必要があります。 画面の下部にある**既存の Office 365 グループからチームを作成する**] を選択し、マイクロソフトのチームを強化するために使用する既存のグループを選択します。 既存のグループのメンバーがメンバーとして追加するチームに自動的にします。
 
 > [!IMPORTANT]
-> Microsoft Teams を使用して既存のグループを強化するためのアクセス許可は Office 365 グループの所有者のみが有します。 
+> マイクロソフト チームは、既存のグループを強化するために Office 365 のグループの所有者のみの権限し、そのグループには、2500 未満のユーザーが含まれている必要があります。 拡張されたチームも一覧に表示されません。
+>
+>**既存の Office 365 グループからチームを作成する**] オプションは、これらの条件が満たされていない限り、使用できません。
+
 
 ユーザーは配布リストをチームに取り込むこともできます。それを行うと、配布リストのメンバーがチームに追加されます。この処理は一度のみ実行されるため、その後に配布リスト内のグループ メンバーの変更があった場合でもチームには反映されません。 
 

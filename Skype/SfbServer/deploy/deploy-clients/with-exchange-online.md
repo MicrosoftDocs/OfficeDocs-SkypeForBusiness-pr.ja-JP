@@ -4,6 +4,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Exchange オンラインで Skype ルーム システム v2 を展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 51a1f4089dfb3453802e8d3241869c3c325c904c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7e9e7dbf0c1ec29444b9ba783acd2e5cd0987440
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883245"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699701"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>Skype Room Systems バージョン 2 と Exchange Online を展開する 
  
@@ -31,7 +32,7 @@ ms.locfileid: "23883245"
   
 ## <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>Skype Room Systems バージョン 2 と Exchange Online を展開する
 
-Exchange オンラインで Skype ルーム システム v2 を展開する前に、要件を満たしていることを確認します。 詳細については、 [Skype ルーム システム v2 の要件](../../plan-your-deployment/clients-and-devices/requirements.md)を参照してください。
+Exchange オンラインで Skype ルーム システム v2 を展開する前に、要件を満たしていることを確認します。 詳細については、「[Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md)」を参照してください。
   
 Exchange オンラインで Skype ルーム システム v2 を展開するには、以下の手順を実行します。 関連するコマンドレットを実行するために適切な権限があることを確認します。 
   
@@ -68,7 +69,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    ```
 
     
-4. Azure AD に接続して、アカウント設定をいくつか適用する必要があります。次のコマンドレットを実行して接続することができます。
+4. Azure AD に接続して、アカウント設定をいくつか適用する必要があります。 次のコマンドレットを実行して接続することができます。
     
    ```
    Connect-MsolService -Credential $cred
@@ -140,7 +141,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 5. ライセンスとエンタープライズ VoIP の要件に応じて、[**ライセンスの割り当て**] で [Skype for Business (プラン 2)] または [
 Skype for Business (プラン 3)] を選択します。 Skype ルーム システム v2 でエンタープライズ VoIP を使用する場合は、計画の 3 ライセンスを使用する必要があります。
     
-6. [ **保存**] をクリックします。
+6. [**保存**] をクリックします。
     
 検証、ビジネス クライアント用の Skype を使用してこのアカウントにログインできるように。
   
@@ -148,7 +149,7 @@ Skype for Business (プラン 3)] を選択します。 Skype ルーム シス�
 
 [Skype ルーム システム v2 用のアカウントを構成します。](room-systems-v2-configure-accounts.md)
 
-[Skype Room Systems バージョン 2 の計画](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
 [Skype Room System バージョン 2 を展開する](room-systems-v2.md)
   

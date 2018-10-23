@@ -4,17 +4,18 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
 description: ビジネス サーバーと Lync Server の複数のバージョンの Skype を持つ環境で Skype ルームのシステムを展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 24015d85ef82b3a175564f92504d7c0ca46e9d54
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fef5e3e0a64fd1d533a53586b470584421a165ea
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20982749"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699722"
 ---
 # <a name="skype-room-system-migration-considerations"></a>Skype Room System の移行に関する考慮事項
  
@@ -22,7 +23,7 @@ ms.locfileid: "20982749"
   
 ## <a name="migration-considerations"></a>移行に関する考慮事項
 
-このセクションでは、ビジネス サーバー、Lync Server では、Office 通信 Server 2007 の R2 の Skype のバージョンを含む複数のプール環境で Skype ルームのシステムを導入する場合のガイダンスを示します。 
+このセクションでは、ビジネス サーバー、または Lync Server のさまざまなバージョンの Skype を含む複数のプール環境で Skype ルームのシステムを導入する場合のガイダンスを示します。 
   
 Lync Server のユーザー レプリケーター (UR) コンポーネントは、Active Directory からユーザー オブジェクトを取得し、それを Lync Server のバックエンドである SQL Server データベースに登録します。 Skype ルームのシステム オブジェクトへの対応、Lync Server 2013 で UR のみです。 前のバージョンの Lync Server および Office Communications Server の UR は、LRS オブジェクトを指定する Active Directory 属性を検出しないため、認識もできません。 
   

@@ -4,6 +4,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Office 365 で Skype ルーム システム v2 を展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 6c59ff1aa7f32998efb5f7693d4e46b417b3fd84
-ms.sourcegitcommit: 45b3e3387bb1e605453c52b68d0bf5b1b79d33f5
+ms.openlocfilehash: 7b3afbb0dbefb29a5cef7a9729254c1024c0369f
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25501495"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699617"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>Skype Room Systems バージョン 2 と Office 365 を展開する 
 
@@ -27,7 +28,7 @@ Skype ビジネスと Exchange の両方がオンラインで、Office 365 で S
 
 ## <a name="deploy-skype-room-systems-v2-with-office-365"></a>Skype Room Systems バージョン 2 と Office 365 を展開する 
 
-Office 365 で Skype ルーム システム v2 を展開する前に、要件を満たしていることを確認します。 詳細については、 [Skype ルーム システム v2 の要件](../../plan-your-deployment/clients-and-devices/requirements.md)を参照してください。
+Office 365 で Skype ルーム システム v2 を展開する前に、要件を満たしていることを確認します。 詳細については、「[Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md)」を参照してください。
 
 ビジネス用の Skype を有効にするには、以下が必要です。
 
@@ -111,7 +112,7 @@ Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMail
    Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```
 
-7. 次に、ビジネスの Skype でデバイスのアカウントを有効にする必要があります。 お客様の環境は、 [Skype ルーム システム v2 の要件](../../plan-your-deployment/clients-and-devices/requirements.md)で定義されている要件を満たしていることを確認します。
+7. 次に、ビジネスの Skype でデバイスのアカウントを有効にする必要があります。 お使いの環境が [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md) で定義されている要件を満たしていることを確認します。
 
    次のように、リモートの Windows PowerShell セッションを開始 (オンライン PowerShell のビジネス コンポーネントの Skype をインストールすることを確認する)。
 
@@ -177,7 +178,7 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 ```
 
 > [!NOTE]
-> この操作によって、CloudPBX および PSTNCallingDomesticAndInternational が追加されます。さらに、管理者インターフェースを使用して、電話番号を割り当てる必要があります。 
+> この操作によって、CloudPBX および PSTNCallingDomesticAndInternational が追加されます。 さらに、管理者インターフェースを使用して、電話番号を割り当てる必要があります。 
 
 ## <a name="validate"></a>検証
 
@@ -188,7 +189,7 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 
 [Skype ルーム システム v2 用のアカウントを構成します。](room-systems-v2-configure-accounts.md)
 
-[Skype Room Systems バージョン 2 の計画](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 
 [Skype Room System バージョン 2 を展開する](room-systems-v2.md)
 

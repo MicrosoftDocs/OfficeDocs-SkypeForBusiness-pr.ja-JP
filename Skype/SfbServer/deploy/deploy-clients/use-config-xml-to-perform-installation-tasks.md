@@ -4,17 +4,18 @@ ms.author: chucked
 author: chuckedmonson
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: PhillipGarding
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: '概要:  Config.xml ファイルを使用して追加のインストール手順を指定する方法について説明します。'
-ms.openlocfilehash: a6234424240dc0d7ebb70762598467bfcee997e2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: dfb6625146261b1bbf22e0f563717899c68beaae
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371514"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699559"
 ---
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Config.xml を使用して、Skype のビジネスのクライアントのインストール ・ タスクを実行するのには
 
@@ -48,7 +49,7 @@ Config.xml ファイルを使用して、Skype をビジネスのサイレント
 | **要素**              | **説明**                                                                                                                                                                                                                                                                                         |
 |:-------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Configuration  <br/>     | 最上位レベルの要素 (必須)。製品属性が含まれます。例: Product=Lync (Skype for Business クライアントで使用されます)  <br/>                                                                                                                                                          |
-| OptionState  <br/>       | インストール中、特定の製品の機能が処理される方法を指定します。 干渉する Outlook の共有コンポーネントが含まれている Business Connectivity Services のインストールを防ぐために次の属性を使用します。 <br/>  Id ="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
+| OptionState  <br/>       | インストール中、特定の製品の機能が処理される方法を指定します。 干渉する Outlook の共有コンポーネントが含まれている Business Connectivity Services のインストールを防ぐために次の属性を使用します。 <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
 | Display  <br/>           | セットアップがユーザーに表示する UI のレベル。一般的には次の属性があります。 <br/>  CompletionNotice =「はい」                                                                                                                                                                                |
 | Logging  <br/>           | セットアップが実行するログ記録の種類のオプション。一般的には次の属性があります。 <br/>  タイプ ="Off"                                                                                                                                                                                       |
 | Setting  <br/>           | Windows インストーラーのプロパティの値を指定します。一般的には次の属性があります。<br/>  Id の設定 ="*名前*"(Windows インストーラー プロパティの名前)  <br/>  値 ="*値*"(プロパティに代入する値)  <br/>                                                             |
