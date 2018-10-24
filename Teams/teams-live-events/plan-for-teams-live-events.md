@@ -6,16 +6,18 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: tonysmit
+localization_priority: Normal
+MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 description: マイクロソフトのチームでのライブ イベントを設定する前に考慮する事項について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ebee93a6a4e238e988e1e4ffcb796252d61eeb1
-ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
+ms.openlocfilehash: 0c0ee1ed41f1d906e43f119e6683f772bde32be3
+ms.sourcegitcommit: 2e9761a3b195d31080bff3c9cc17a18adcd5350e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405257"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25748166"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>マイクロソフトのチームでのライブ イベントの計画
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -65,21 +67,21 @@ Office 365 のライセンスが認証されたユーザーとしてのライブ
 |Yammer 契約対象者 |& #x 2714 です。 |& #x 2714 です。(感) |& #x 2714 です。(感) |
 |利用者の参加: モデレートの Q & A |& #x 2714 です。  |& #x 2714 です。 |& #x 2714 です。 |
 |Windows 上のクライアントの生産者 |& #x 2714 です。(ビジネス用の Skype) |& #x 2714 です。(チーム) |& #x 2714 です。(ストリーム、ストリームを使用してチームを埋め込む) |
-|プロデューサー クライアントを Mac に |X  | & #x 2714 です。(チーム) |& #x 2714 です。(ストリーム、ストリームを使用してチームを埋め込む) |
-|プロデューサーの UI での参加者数 |X  |& #x 2714 です。(チーム) |& #x 2714 です。(ストリーム、ストリームを使用してチームを埋め込む) |
+|プロデューサー クライアントを Mac に |○  | & #x 2714 です。(チーム) |& #x 2714 です。(ストリーム、ストリームを使用してチームを埋め込む) |
+|プロデューサーの UI での参加者数 |○  |& #x 2714 です。(チーム) |& #x 2714 です。(ストリーム、ストリームを使用してチームを埋め込む) |
 |複数の発表者は、します。 |& #x 2714 です。(ビジネス用の Skype) |& #x 2714 です。(チーム) |該当なし  |
-会議中に発表者を招待します。 |& #x 2714 です。(ビジネス用の Skype) |X |該当なし |
-|Web およびモバイルの発表者の参加 |& #x 2714 です。(ビジネス用の Skype)  |X |該当なし |
-|発表者 – PSTN のアクセス |X |& #x 2714 です。(チーム) |該当なし |
-|画面を表示します。 |X |& #x 2714 です。(チーム) |該当なし |
+会議中に発表者を招待します。 |& #x 2714 です。(ビジネス用の Skype) |○ |該当なし |
+|Web およびモバイルの発表者の参加 |& #x 2714 です。(ビジネス用の Skype)  |○ |該当なし |
+|発表者 – PSTN のアクセス |○ |& #x 2714 です。(チーム) |該当なし |
+|画面を表示します。 |○ |& #x 2714 です。(チーム) |該当なし |
 |(PPT の共有)、PowerPoint をプレゼンテーションします。 |& #x 2714 です。 |(画面を共有することで軽減) X |該当なし |
 |クラウド ベースのミーティングのレコーディング |& #x 2714 です。 |& #x 2714 です。 |& #x 2714 です。 |
 |自動記録をマイクロソフトのストリームに発行します。 |X |X |& #x 2714 です。 |
-|リアルタイム キャプションと翻訳 |& #x 2714 です。 |& #x 2714 です。(準備中) |X |
+|リアルタイム キャプションと翻訳 |& #x 2714 です。 |& #x 2714 です。(準備中) |○ |
 |ライブ イベントの録画でキャプション |& #x 2714 です。 |& #x 2714 です。(準備中) |& #x 2714 です。 |
 |出席者の DVR コントロール (一時停止、巻き戻し) |& #x 2714 です。 |& #x 2714 です。 |& #x 2714 です。 |
 |パートナー eCDN のサポート |& #x 2714 です。(ハイブ、Kollective、ランプ) |& #x 2714 です。(ハイブ、Kollective、ランプ) |& #x 2714 です。(ハイブ、Kollective、ランプ) |
-|生産者の後にブロードキャストの参加者のレポート |& #x 2714 です。 |& #x 2714 です。 |X |
+|生産者の後にブロードキャストの参加者のレポート |& #x 2714 です。 |& #x 2714 です。 |○ |
 |対象な言葉の分析: ライブ投票と投票 |& #x 2714 です。(マイクロソフトのパルス) |X |X |
 
 > [!IMPORTANT]
@@ -103,3 +105,9 @@ Office 365 のライセンスが認証されたユーザーとしてのライブ
 
 ## <a name="next-steps"></a>次のステップ
 [チームのライブ イベントの設定](set-up-for-teams-live-events.md)に移動します。
+
+### <a name="related-topics"></a>関連トピック
+- [ライブ イベントをチームは何ですか。](what-are-teams-live-events.md)
+- [チームのライブ イベントを設定します。](set-up-for-teams-live-events.md)
+- [Confgure は、チームでのイベントの設定をライブします。](configure-teams-live-events.md)
+
