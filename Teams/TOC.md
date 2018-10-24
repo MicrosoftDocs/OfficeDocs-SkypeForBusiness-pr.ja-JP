@@ -182,6 +182,7 @@
 ### [Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
 ### [チームで、組織全体にわたるチームを作成します。](create-an-org-wide-team.md)
 ### [チームの動的なメンバーシップの概要](dynamic-memberships.md)
+## [プレゼンス](presence-admins.md)
 ## [ゲスト アクセス](guest-access.md)
 ### [ゲストがチームに参加する方法](guest-joins.md)
 ### [ゲストのエクスペリエンスについて](guest-experience.md)
@@ -211,7 +212,8 @@
 #### [ライブ イベントをチームは何ですか。](teams-live-events/what-are-teams-live-events.md)
 #### [チームのライブ イベントの計画](teams-live-events/plan-for-teams-live-events.md)
 #### [チームのライブ イベントを設定します。](teams-live-events/set-up-for-teams-live-events.md)
-#### [チームのライブ イベントを構成します。](teams-live-events/configure-teams-live-events.md)
+#### [PowerShell を使用して、チームのライブ イベントのポリシーを設定するのには](teams-live-events/set-teams-live-events-policies-using-powershell.md)
+#### [チームのライブ イベントの設定を構成します。](teams-live-events/configure-teams-live-events.md)
 
 
 
