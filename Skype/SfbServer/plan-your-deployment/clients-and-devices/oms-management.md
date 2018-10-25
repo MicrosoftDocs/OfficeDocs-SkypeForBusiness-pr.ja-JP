@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 description: この資料では、ビジネスのサーバーの実装については、Skype で Skype ルーム システム v2 デバイスを管理する運用管理スイートを使用するための計画に関する考慮事項について説明します。
-ms.openlocfilehash: 14f6ba95e5b2bcf7619002bb2dbc1e9ae3eb474a
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 64f1d91840a34ed9c9845e7fb0aae1e322fab68e
+ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965941"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25784801"
 ---
 # <a name="plan-skype-room-systems-v2-management-with-oms"></a>OMS を使用して Skype Room Systems バージョン 2 の管理を計画する
  
@@ -38,13 +38,13 @@ OMS を使用して管理者オフラインになっている Skype ルーム �
   
 ## <a name="oms-requirements"></a>OMS の要件
 
-この機能を使用するには、OMS の有効なサブスクリプションが必要です。 [ログ分析機能のワークスペースを使い始める](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-get-started?toc=%2fazure%2foperations-management-suite%2ftoc.json)が、組織用のサブスクリプションを作成するを参照してください。
+この機能を使用するには、OMS の有効なサブスクリプションが必要です。 所属する組織のためにサブスクリプションを用意するには、「[Log Analytics ワークスペースを使って作業を開始する](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-get-started?toc=%2fazure%2foperations-management-suite%2ftoc.json)」を参照してください。
   
-必要に応じて、OMS ビュー デザイナーの使用方法について理解を深めておく必要があります。 その詳細については、[管理ソリューションの運用管理スイート (OMS) 内のビュー](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-solutions-resources-views)を参照してください。
+必要に応じて、OMS ビュー デザイナーの使用方法について理解を深めておく必要があります。 詳細については「[Operations Management Suite (OMS) 管理ソリューションのビュー](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-solutions-resources-views)」を参照してください。
   
 ### <a name="related-tasks"></a>関連タスク
 
-1. OMS を購読して、作成カスタム フィールド ([ユーザー設定フィールドをマップ](../../deploy/deploy-clients/with-oms.md#Custom_fields)に記載されている) 必要な Skype ルーム システム v2 本体から送信される情報を解析します。 [ログ エントリを理解するの](../../manage/skype-room-systems-v2/oms.md#Telemetry)に記載されている JSON のスキーマを理解することが含まれます。
+1. OMS を購読して、作成カスタム フィールド ([ユーザー設定フィールドをマップ](../../deploy/deploy-clients/with-oms.md#Custom_fields)に記載されている) 必要な Skype ルーム システム v2 本体から送信される情報を解析します。 [ログ エントリを理解するの](../../manage/skype-room-systems-v2/oms.md#understand-the-log-entries)に記載されている JSON のスキーマを理解することが含まれます。
     
 2. OMS の Skype ルーム システム v2 の管理ビューを作成します。 いずれかの[インポート メソッドを使用して Skype ルーム システム v2 のダッシュ ボードを作成する](../../deploy/deploy-clients/with-oms.md#create-a-skype-room-systems-v2-dashboard-by-using-the-import-method)ことができます) [Skype ルーム システム v2 のダッシュ ボード](../../deploy/deploy-clients/with-oms.md#create-a-skype-room-systems-v2-dashboard-manually)を手動で作成します。
     
@@ -54,11 +54,11 @@ OMS を使用して管理者オフラインになっている Skype ルーム �
   
 ## <a name="ongoing-management"></a>進行中の管理
 
-OMS を使用すると、Skype ルーム システム v2 の会議デバイスを管理するために、中には、OMS を使用するイベント ログに含まれる情報を理解しておく必要があります。 これらの状態メッセージの詳細については、[ログ エントリを理解する](../../manage/skype-room-systems-v2/oms.md#Telemetry)を参照してください。
+OMS を使用すると、Skype ルーム システム v2 の会議デバイスを管理するために、中には、OMS を使用するイベント ログに含まれる情報を理解しておく必要があります。 これらの状態メッセージの詳細については、[ログ エントリを理解する](../../manage/skype-room-systems-v2/oms.md#understand-the-log-entries)を参照してください。
   
 ### <a name="related-tasks"></a>関連タスク
 
-- Skype ルーム システム v2 と ([ログのエントリを理解する](../../manage/skype-room-systems-v2/oms.md#Telemetry)」のセクションを参照してください) を解決するための方法で生成された警告を理解します。
+- Skype ルーム システム v2 と ([ログのエントリを理解する](../../manage/skype-room-systems-v2/oms.md#understand-the-log-entries)」のセクションを参照してください) を解決するための方法で生成された警告を理解します。
     
 ## <a name="see-also"></a>関連項目
 

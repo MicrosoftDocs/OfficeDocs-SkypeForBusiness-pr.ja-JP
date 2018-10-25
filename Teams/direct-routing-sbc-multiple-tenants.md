@@ -14,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 複数のテナントを処理する 1 つのセッション ボーダー コント ローラー (SBC) を構成する方法について説明します。
-ms.openlocfilehash: 292a3e675455d112fdade04018e670b9a5f9c38f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 7b085661e659e7836c5e463b24c9cc0a6f071aaa
+ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013426"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25784817"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントのセッション ボーダー コント ローラーを構成します。
 
@@ -115,7 +115,7 @@ SBC には、接続の認証に証明書が必要です。 キャリアは SBC �
 
     ![ベースのドメインを追加します。](media/direct-routing-2-sbc-add-domain.png)
 
-3. [**次へ**] をクリックします。
+3. [ **次へ**] をクリックします。
 4. 例では、テナントは既に検証済みのドメイン名として adatum.biz を持っています。 ウィザードは要求されません追加の検証 customers.adatum.biz が既に登録されている名前のサブドメインであるためです。 ただし、前に確認されていませんが、FQDN を追加する場合は、検証のプロセスを経由する必要があります。 検証のプロセスでは、[以下に説明](#add-a-subdomain-to-the-customer-tenant-and-verify-it)します。
 
     ![確認ドメイン名の確認](media/direct-routing-3-sbc-verify-domain.png)
@@ -127,7 +127,7 @@ SBC には、接続の認証に証明書が必要です。 キャリアは SBC �
 
 ### <a name="activate-the-domain-name"></a>ドメイン名を有効化します。
 
-ドメイン名を登録した後、少なくとも 1 人のユーザーを追加することによってアクティブ化し、作成した基本ドメインと一致する SIP アドレスの FQDN の部分での SIP アドレスを割り当てる必要があります。
+ドメイン名を登録して、1 つ以上の E1、E3 を追加することによってアクティブにする必要がありますまたは E5 のライセンスを取得後、ユーザーと FQDN の部分が、SIP の SIP アドレスを割り当てるアドレスに作成した基本ドメインと一致します。 
 
 *Office 365 テナントのユーザーの追加の詳細については、 [Office 365 のドメイン関連のヘルプ](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)を参照してください。*
 
@@ -155,7 +155,7 @@ SBC には、接続の認証に証明書が必要です。 キャリアは SBC �
 
     ![お客様のサブドメインを追加します。](media/direct-routing-5-sbc-add-customer-domain.png)
 
-3. [**次へ**] をクリックします。
+3. [ **次へ**] をクリックします。
 4. テナントの FQDN が登録されたことはありません。 次の手順でドメインを確認する必要があります。 **代わりに TXT レコードを追加する**を選択します。 
 
     ![[ドメインの確認] ページのオプション](media/direct-routing-6-sbc-verify-customer-domain.png)
@@ -204,7 +204,7 @@ SBC には、接続の認証に証明書が必要です。 キャリアは SBC �
 
 新しい CSonlinePSTNGateway コマンドを使用して顧客のドメインには、トランクを作成します。 トランクの FQDN が**必要**では、顧客用に作成されたサブドメインと一致します。
 
-例:
+次に例を示します。
 
 *新しい-CSOnlinePSTNGateway-FQDN sbc1.customers.adatum.biz SipSignallingPort 5068*
 

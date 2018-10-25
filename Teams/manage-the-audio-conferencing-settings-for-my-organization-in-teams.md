@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams で組織の電話会議の設定を管理する
+title: 組織は、マイクロソフトのチームでのオーディオ会議設定を管理します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'ダイヤルイン電話会議ライセンスと会議 ID をユーザーおよびその他の多くのダイヤルイン電話会議の設定に割り当てるための Microsoft Teams での手順を確認します。 '
-ms.openlocfilehash: b63650833c7c844de11ecb833288b6568604f919
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 327f9f9f9511e914d87b41f35f932df5aebd15c0
+ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375864"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25784864"
 ---
-# <a name="manage-the-audio-conferencing-settings-for-my-organization-in-microsoft-teams"></a>Microsoft Teams で組織の電話会議の設定を管理する
+# <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>組織は、マイクロソフトのチームでのオーディオ会議設定を管理します。
 
 1 つの場所で Microsoft Teams のすべての電話会議設定を確認することが、より簡単になります。 
 

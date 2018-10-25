@@ -12,12 +12,12 @@ search.appverid: MET150
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93a3174085f6e42eed1496415122c89b550e61a6
-ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
+ms.openlocfilehash: 6ecafea114a38f857b56046c60504dd27c6617eb
+ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "25576554"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25784757"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -31,7 +31,7 @@ ms.locfileid: "25576554"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|EAF のポリシーで、強化対策の経験 Toolkit (EMET) 正確に識別できますないクロムのサンド ボックスの最適化の脅威として。 <br/> |クロムのサンド ボックスのエクスポート アドレス テーブルのアクセスのフィルタ リング (EAF) ポリシーで、強化対策の経験 Toolkit (EMET) 正確に識別できますない脅威としてクロム サンド ボックスの最適化に問題があります。 これはチームの web ビューのタブが正しく動作することを防ぎます。 <br/> | EAF クロムをオフにします。 詳細を読み取ることができます問題[EMET 対策のガイドライン](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines)について <br/> |10/11/18 <br/> |
+|EAF のポリシーで、強化対策の経験 Toolkit (EMET) 正確に識別できますないクロムのサンド ボックスの最適化の脅威として。 <br/> |クロムのサンド ボックスで、エクスポート アドレス テーブルのアクセスのフィルタ リング (EAF) ポリシーで、強化対策の経験 Toolkit (EMET) で Windows Defender 高度な脅威保護 (ATP) 正確に識別できますないクロムのサンド ボックスに問題があります。脅威として最適化します。 これにより、チームが正常に動作しません。  <br/> | チームの EAF 無効この問題を回避します。 詳細を読み取ることができます[EMET 対策ガイドライン](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines)Windows Defender の ATP と EAF のポリシーの詳細については、問題に関する[保護を悪用するユーザー設定](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection)を参照してください。 <br/> |10/11/18 <br/> |
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|

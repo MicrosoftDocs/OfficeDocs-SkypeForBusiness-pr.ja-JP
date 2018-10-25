@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: '概要: ビジネス サーバー 2019 サーバーおよびドメイン インフラストラクチャをこのトピックでは、Skype を準備します。 ハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件と推奨事項は、DNS の証明書と、ファイル共有、および Active Directory については、ここでは正常にインストールし、サーバー ファームの展開を行うには。'
-ms.openlocfilehash: c7064f4d1c8136cf714d784fd1985efd0f21c979
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: e8a5b29bb555df6ae3920d521dd21ca8bbe38d7f
+ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696248"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25784703"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>ビジネス サーバー 2019 Skype のシステム要件
  
@@ -193,7 +193,7 @@ Skype のビジネス サーバー 2019 Standard Edition をインストール�
   
 ||||
 |:-----|:-----|:-----|
-|2016年/2017 エンタープライズ (64 ビット版) の Microsoft SQL Server とは、最新の更新プログラム、および AlwaysOn 可用性グループで実行する必要があります。  <br/> ||
+|2016 (64 ビット版) の Microsoft SQL Server とは、最新の更新プログラム、および AlwaysOn 可用性グループで実行する必要があります。  <br/> ||
  |
    
 ここで使用する SQL Server のエディションが表示されない場合は使用できません。
@@ -211,11 +211,11 @@ SQL クラスタ リングはサポートされているアクティブ/パッ�
   
 2 ノードの場合:
   
-- Microsoft SQL Server 2016年/2017 標準 (64 ビット版) で最新のサービス パックの実行をお勧めします。
+- Microsoft SQL Server 2016 標準 (64 ビット版) で最新のサービス パックの実行をお勧めします。
     
 16 ノードの場合:
   
-- 2016年/2017 エンタープライズ (64 ビット版) の Microsoft SQL Server とは、最新のサービス パックの実行をお勧めします。
+- Microsoft SQL Server 2016 エンタープライズ (64 ビット版) とは、最新の service pack を実行するをお勧めします。
     
 記事、ビジネス サーバー 2019、準備にクラスタ リングを取得するための手順があるため、Skype のクラスタ リングを構成する SQL Server の必要があります。
  
