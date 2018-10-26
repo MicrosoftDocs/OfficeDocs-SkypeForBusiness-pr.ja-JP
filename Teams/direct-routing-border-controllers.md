@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: SBCs を証明する、選択した SBC ベンダーとマイクロソフトのパートナーは、直接ルーティング機能します。
-ms.openlocfilehash: 45a562b83c6e89a1006bc1fd6e2180ff49daf1ad
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: 7e3b0b5551b974e6beb74232a23ffdbe31d0ad91
+ms.sourcegitcommit: 0c360c68d7841e85b89e3d92baff80c42d685e81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678451"
+ms.lasthandoff: 10/26/2018
+ms.locfileid: "25797344"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
@@ -59,5 +59,6 @@ ms.locfileid: "25678451"
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   保留中    |      V7.0.2      |
 |                                                                                                                     |    SBC のスウェーデン語のライト     |     &#10004;     |   保留中    |      V7.0.4      |
 |                     [ThinkTel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   保留中    |       V1.4       |
-|                                                                                                                     |                     |                  |              |                  |
-
+|                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    AP 3900       |   保留中    |   NA   |   保留中    |
+|                                                                                                                     |      AP 4600         |    保留中    |   保留中    |      保留中      |
+|                                                                                                                     |      VME             |    保留中    |   保留中    |      保留中      |
