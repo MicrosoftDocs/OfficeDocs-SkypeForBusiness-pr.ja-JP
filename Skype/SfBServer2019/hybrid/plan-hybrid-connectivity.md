@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: ビジネス オンラインまたはチームの業務サーバーの Skype と Skype との間のハイブリッドの接続を実装するための考慮事項を計画しています。
-ms.openlocfilehash: 34df2639ed57376549b2a8bde2e4b0e071d08957
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: 17a54b4d7509684f5a74fd45549e3e0f9852a6c1
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696234"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838788"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Skype ビジネス サーバーと Office 365 のハイブリッド接続を計画します。
 
@@ -76,7 +76,7 @@ ms.locfileid: "25696234"
 
 - Business Server 管理ツールの Skype です。 (Lync Server 2013 または Lync Server 2010 を使用する場合することができます、Lync Server 2013 管理ツールを使用します。 について詳細については、「 [Lync Server 2013 ハイブリッド](https://go.microsoft.com/fwlink/p/?LinkId=617360))
 
-- オンプレミスのディレクトリを Office 365と同期させる Azure Active Directory Connect。 詳細についてを参照してください[Azure AD 接続: アカウントとアクセス許可](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
+- オンプレミスのディレクトリを Office 365と同期させる Azure Active Directory Connect。 詳細についてを参照してください[Azure AD 接続: アカウントとアクセス許可](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
 
     ユーザーがオンプレミスで使用するものと同じログイン資格情報を使用できるように Office 365 でのシングル サインオンをサポートする場合、Azure Active Directory (AAD) Connect のパスワード同期機能を使用できます。 また、Office 365 でのシングル サインオンに Active Directory フェデレーション サービス (AD FS) を使用することもできます。 
 
@@ -240,7 +240,7 @@ Microsoft Online Services のデータ ・ センターの場所、によって�
 設置型展開と AAD の接続を使用してオンラインのテナント間でのユーザー アカウントを同期するときする必要がありますビジネスまたは Lync のユーザー、組織内のすべての Skype の AD のアカウントを同期する場合でも、ユーザーがオンラインに移動できません。 すべてのユーザーを同期しない場合、組織のオンプレミス展開のユーザーとオンライン ユーザーとの間の通信が正常に動作しない可能性があります。
 
 > [!IMPORTANT]
-> すべてのユーザーの管理を含むユーザーがビジネスのオンラインでの設置と Skype との間に移動行う必要があります管理ツールのインストールされている最新のバージョンを使用します。 管理ツールは、既存のオンプレミスに展開して、インターネットにアクセスを接続するには別のサーバーにインストールしなければなりません。 [Csuser からの移動](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser?view=skype-ps)、ビジネス オンラインの Skype をオンプレミス環境のユーザーを移動するコマンドレットは、社内設置型の展開に接続されている管理ツールから実行してください。 ユーザーの移動の詳細については、[ビジネス オンラインの Skype への設置型からユーザーを移動する](move-users-from-on-premises-to-skype-for-business-online.md)を参照してください。
+> すべてのユーザーの管理を含むユーザーがビジネスのオンラインでの設置と Skype との間に移動行う必要があります管理ツールのインストールされている最新のバージョンを使用します。 管理ツールは、既存のオンプレミスに展開して、インターネットにアクセスを接続するには別のサーバーにインストールしなければなりません。 [Csuser からの移動](https://docs.microsoft.com/powershell/module/skype/move-csuser?view=skype-ps)、ビジネス オンラインの Skype をオンプレミス環境のユーザーを移動するコマンドレットは、社内設置型の展開に接続されている管理ツールから実行してください。 ユーザーの移動の詳細については、[ビジネス オンラインの Skype への設置型からユーザーを移動する](move-users-from-on-premises-to-skype-for-business-online.md)を参照してください。
 
 ハイブリッド展開を計画する場合も、次のユーザーに関連する問題を考慮してください。
 

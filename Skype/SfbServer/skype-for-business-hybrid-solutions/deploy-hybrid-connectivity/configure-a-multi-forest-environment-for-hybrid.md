@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 960ab8a3-352d-4b18-bc01-55b35f30ca0d
 description: 次のセクションでは、ハイブリッド シナリオでは、ビジネス機能のための Skype を提供するリソースとユーザーのフォレスト モデルでは複数のフォレストを持つ環境を構成する方法のガイダンスを提供します。
-ms.openlocfilehash: 772b93aab0d8adf08345870ac97a8e1487e240e2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ca3cd4bfe324690c41fbd045af967e57cab5fe36
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370925"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838564"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>ハイブリッド ビジネスの Skype の複数のフォレスト環境を構成します。
  
@@ -39,9 +39,9 @@ ms.locfileid: "25370925"
     
 - ビジネス サーバーの Skype を含むフォレストを含めることはできませんが 1 つまたは複数のフォレストで Exchange Server を展開できます。 最新の累積的な更新プログラムを適用することを確認します。
     
-- Exchange Server との共存の詳細については、サポートを含む条件とさまざまな組み合わせでの制限の設置とオンラインで参照してください[ビジネスとの交換用 Skype を統合する計画](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)の[サポート機能](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)。
+- オンプレミスとオンラインのさまざまな組み合わせに関するサポートの条件および制限を含む、Exchange Server との共存に関する詳細については、[Plan to integrate Skype for Business and Exchange](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md) の「[機能のサポート](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)」を参照してください。
     
-詳細については、 [Skype のビジネス サーバー 2015 の環境の要件](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)を参照してください。
+詳細につぃては、「[Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)」を参照してください。
   
 ## <a name="user-homing-considerations"></a>ユーザーの所属に関する考慮事項
 
@@ -49,7 +49,7 @@ Skype ホーム設置型またはオンラインの Exchange を持つことが�
   
 ## <a name="configure-forest-trusts"></a>フォレストの信頼の構成
 
-必要な信頼は、リソース フォレストと各ユーザー フォレストの間の双方向の推移的な信頼です。 複数のユーザー フォレストがある場合、クロス フォレスト認証を有効にするには、これらのフォレストの信頼のそれぞれに名前サフィックス ルーティングを有効にすることが重要です。 手順については、[フォレストの信頼を管理する](https://technet.microsoft.com/en-us/library/cc772440.aspx)を参照してください。 
+必要な信頼は、リソース フォレストと各ユーザー フォレストの間の双方向の推移的な信頼です。 複数のユーザー フォレストがある場合、クロス フォレスト認証を有効にするには、これらのフォレストの信頼のそれぞれに名前サフィックス ルーティングを有効にすることが重要です。 手順については、「[フォレストの信頼を管理する](https://technet.microsoft.com/en-us/library/cc772440.aspx)」を参照してください。 
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>ビジネス用の Skype をホストしているフォレストにアカウントを同期します。
 
@@ -64,9 +64,9 @@ Skype ホーム設置型またはオンラインの Exchange を持つことが�
 |選択されたアカウント リンク属性  <br/> |選択されたアカウント リンク属性  <br/> |
 |mail   <br/> |mail   <br/> |
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
-|ObjectSID  <br/> |msRTCSIP OriginatorSID  <br/> |
+|ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
-[アカウント リンクの属性を選択](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/)するは、元のアンカーとして使用されます。 使用したい他の不変属性がある場合は、それを使用してもかまいませんが、AAD Connect の構成時に AD FS 要求規則を編集して、その属性を選択することを忘れないでください。
+[選択されたアカウント リンク属性](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/)は、ソース アンカーとして使用されます。 使用したい他の不変属性がある場合は、それを使用してもかまいませんが、AAD Connect の構成時に AD FS 要求規則を編集して、その属性を選択することを忘れないでください。
   
 UPN のフォレスト間で同期されません。 複数のフォレストで同じ UPN を使用できないため、ユーザー フォレストごとに一意の UPN を使用する必要があることを、Microsoft はテスト中に確認しました。 そのため、UPN を同期する場合と同期しない場合の 2 つの可能性が提示されました。 
   
@@ -76,7 +76,7 @@ UPN のフォレスト間で同期されません。 複数のフォレストで
     
 ## <a name="create-an-office-365-tenant"></a>Office 365 テナントの作成
 
-次に、展開で使用する Office 365 テナントをプロビジョニングする必要があります。 詳細については、 [Office 365 の準備の手順](https://social.technet.microsoft.com/wiki/contents/articles/22808.office-365-provisioning-steps.aspx)を参照してください。 
+次に、展開で使用する Office 365 テナントをプロビジョニングする必要があります。 詳細については、「[Office 365 のプロビジョニング手順](https://social.technet.microsoft.com/wiki/contents/articles/22808.office-365-provisioning-steps.aspx)」を参照してください。 
   
 ## <a name="configure-ad-fs"></a>AD FS の構成
 
@@ -92,7 +92,7 @@ UPN のフォレスト間で同期されません。 複数のフォレストで
     
 AD FS ファームを各ユーザー フォレストに配置し、フォレストごとに一意の SIP/SMTP/UPN を使用することで、両方の問題が解決します。認証試行中に、特定のユーザー フォレストにあるアカウントのみが検索および照合されます。これは、よりシームレスな認証プロセスを実現するのに役立ちます。 
   
-これは、Windows Server 2012 R2 AD FS の標準的な展開であり、先に進む前に正常に動作している必要があります。 手順については、 [Office 365 AD FS 2012 R2 のインストール方法](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx)を参照してください。 
+これは、Windows Server 2012 R2 AD FS の標準的な展開であり、先に進む前に正常に動作している必要があります。 手順については、「[Office 365 用 AD FS 2012 R2 をインストールする方法 (英語)](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx)」を参照してください。 
   
 展開が完了したら、先ほど選択したソース アンカーに一致するように要求規則を編集する必要があります。AD FS MMC の [証明書利用者の信頼] で、[Microsoft Office 365 ID プラットフォーム] を右クリックし、[要求規則の編集] をクリックします。最初の規則を編集して、ObjectSID を employeeNumber に変更します。 
   
@@ -112,9 +112,9 @@ AAD Connect では、オンプレミス フォレスト間でアカウントが�
   
 これはテスト ユーザーです。AAD Connect でユーザー フォレストとリソース フォレストのオブジェクトから、および Office 365 から sourceAnchor と cloudSourceAnchor が識別されたことが確認できます。上記の例では "1101" であり、これは先ほど選択した employeeNumber です。続いて、このオブジェクトを上記の内容にマージできています。 
   
-詳細については[、オンプレミス ユーザーは、Azure Active Directory との統合](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect/)」を参照してください。 
+詳細については、「[オンプレミス ID と Azure Active Directory の統合](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)」を参照してください。 
   
-AAD Connect のインストールでは、ほとんどは既定値を使用することをお勧めします。ただし、以下の手順は例外です。 
+AAD Connect のインストールでは、ほとんどは既定値を使用することをお勧めします。 ただし、以下の手順は例外です。 
   
 1.  シングル サインインを導入済みの AD FS を使用する作業と選択を構成しません。
     
@@ -122,7 +122,7 @@ AAD Connect のインストールでは、ほとんどは既定値を使用す�
     
 3.  設置ディレクトリ内のユーザーを識別する:**ユーザーの id が複数のディレクトリに存在**するかを選択し、 **ObjectSID** 、 **msExchangeMasterAccountSID**属性を選択します。
     
-4. Azure AD でユーザーを識別する: ソース アンカーを読むと[良い sourceAnchor の属性を選択すると](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/)選択した属性を選択、ユーザー プリンシパル名が**userPrincipalName**
+4. Azure AD でユーザーを識別する: ソース アンカーを読むと[良い sourceAnchor の属性を選択すると](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/)選択した属性を選択、ユーザー プリンシパル名が**userPrincipalName**
     
 5.  -他のオプションの機能は、Exchange ハイブリッドが配置されてかがあるかどうかを選択します。
     
@@ -137,7 +137,7 @@ AAD Connect のインストールでは、ほとんどは既定値を使用す�
     
 ## <a name="configure-hybrid-mode-for-skype-for-business-server"></a>Skype for Business Server のハイブリッド モードを構成する
 
-ビジネスのハイブリッドの Skype を設定するためのベスト プラクティスに従います。 計画の詳細については、 [Skype のビジネス サーバー 2015 のハイブリッド展開を計画](https://technet.microsoft.com/en-us/library/jj205403.aspx)を参照してくださいし、構成情報は、 [Skype のビジネスをオンラインで構成するハイブリッド](https://technet.microsoft.com/en-us/library/jj204669.aspx)を参照してください。 
+ビジネスのハイブリッドの Skype を設定するためのベスト プラクティスに従います。 計画の詳細については「[Skype for Business Server と Skype for Business Online 間のハイブリッド接続を計画する](https://technet.microsoft.com/en-us/library/jj205403.aspx)」、構成については「[Skype for Business Server と Skype for Business Online 間でハイブリッド接続を展開する](https://technet.microsoft.com/en-us/library/jj204669.aspx)」を参照してください。 
   
 ## <a name="configure-hybrid-mode-for-exchange-server"></a>Exchange Server のハイブリッド モードを構成する
 

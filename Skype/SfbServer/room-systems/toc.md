@@ -5,7 +5,7 @@
 ### [リリース ノート](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
 ### [環境を準備します。](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
 ### [要件](../plan-your-deployment/clients-and-devices/requirements.md)
-### [オンライン ライセンス](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+### [オンライン ライセンス](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 ### [OMS を使用して管理を計画します。](../plan-your-deployment/clients-and-devices/oms-management.md)
 
 ## の展開

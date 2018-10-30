@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: '概要: このトピックでは、Skype for Business Server と Skype for Business Online 間でハイブリッド接続を計画する方法を説明します。 多くの Skype for Business ハイブリッド ソリューションを展開する上で、ハイブリッド接続の設定は最初に行う手順となります。'
-ms.openlocfilehash: d3fe994535197209a8d35c10144e45badb4391a8
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 909d8be38bd03291268c7fa3b2b091072a47970e
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890476"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838810"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Skype for Business Server と Skype for Business Online 間のハイブリッド接続を計画する
 
@@ -32,7 +32,7 @@ ms.locfileid: "23890476"
 
 このトピックには次のセクションが含まれます。
 
-- [概要](plan-hybrid-connectivity.md#BKMK_Overview)
+- [Overview](plan-hybrid-connectivity.md#BKMK_Overview)
 
 - [インフラストラクチャの要件](plan-hybrid-connectivity.md#BKMK_Infrastructure)
 
@@ -60,7 +60,7 @@ ms.locfileid: "23890476"
 
 - [ユーザー ポリシーと機能](plan-hybrid-connectivity.md#BKMK_UserPolicies)
 
-このトピックを参照した後、展開、[サーバーのビジネスとオンライン ビジネスの Skype の Skype 間のハイブリッド接続の展開](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)を参照してくださいする準備ができました。 展開のトピックでは、オンプレミス展開と Skype for Business Online との間でハイブリッド接続を設定するための手順について説明しています。
+このトピックを読み終え、展開する準備が整ったら、「[Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)」を参照してください。 展開のトピックでは、オンプレミス展開と Skype for Business Online との間でハイブリッド接続を設定するための手順について説明しています。
 
 (Lync Server 2013、ハイブリッドの Lync Server 2010 展開を構成する方法の詳細については、 [Lync Server 2013 ハイブリッド](https://go.microsoft.com/fwlink/p/?LinkId=617360)を参照してください)。
 
@@ -89,7 +89,7 @@ ms.locfileid: "23890476"
 
 - Skype for Business Online に所属していて、アカウントが Azure AD に同期されたユーザーについては、Skype for Business Online プラン 2 のライセンスを割り当てる必要があります。
 
-- ライセンスが割り当てられた Sype for Business Online ユーザーについては、Skype for Business またはオンプレミスの Enterprise Voice を有効にする必要があります。 詳細については、[社内設置型のエンタープライズ VoIP のユーザーを有効にする](plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md)を参照してください。 ハイブリッド音声の要件の詳細については、 [Skype のビジネス サーバーの PSTN への接続をオンプレミスと Office 365 の電話システムの計画](plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)を参照してください。
+- ライセンスが割り当てられた Sype for Business Online ユーザーについては、Skype for Business またはオンプレミスの Enterprise Voice を有効にする必要があります。 詳細については、[社内設置型のエンタープライズ VoIP のユーザーを有効にする](plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md)を参照してください。 ハイブリッド音声の要件の詳細については、「[Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)」を参照してください。
 
 Active Directory の設定の詳細については、この後のセクションで説明します。 その前に、以下の図で使用され、ハイブリッド接続のトピックでも頻繁に使用される用語と頭字語を示します。
 
@@ -138,13 +138,13 @@ Skype for Business Server と Skype for Business Online との間でハイブリ
 
 - サーバー 2015 のビジネス管理ツールの Skype です。 (Lync Server 2013 または Lync Server 2010 を使用する場合することができます、Lync Server 2013 管理ツールを使用します。 について詳細については、「 [Lync Server 2013 ハイブリッド](https://go.microsoft.com/fwlink/p/?LinkId=617360))
 
-- オンプレミスのディレクトリを Office 365と同期させる Azure Active Directory Connect。 詳細については、 [Azure Active Directory と Active Directory の接続](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)を参照してください。
+- オンプレミスのディレクトリを Office 365と同期させる Azure Active Directory Connect。 詳細については「[Active Directory を Azure Active Directory と接続する](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)」を参照してください。
 
-    ユーザーがオンプレミスで使用するものと同じログイン資格情報を使用できるように Office 365 でのシングル サインオンをサポートする場合、Azure Active Directory (AAD) Connect のパスワード同期機能を使用できます。 また、Office 365 でのシングル サインオンに Active Directory フェデレーション サービス (AD FS) を使用することもできます。
+    ユーザーがオンプレミスで使用するものと同じログイン資格情報を使用できるように Office 365 でのシングル サインオンをサポートする場合、Azure Active Directory (AAD) Connect のパスワード同期機能を使用できます。 また、Office 365 でのシングル サインオンに Active Directory フェデレーション サービス (AD FS) を使用することもできます。 
 
-- オンプレミスの Skype for Business 展開と Office 365 テナントとの間の有効なフェデレーション。 フェデレーションにより、組織で Office 365 のユーザーと通信する設置型展開でユーザーです。 詳細については、[オンライン ビジネスの Skype でフェデレーションを構成する](deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md)を参照してください。
+- オンプレミスの Skype for Business 展開と Office 365 テナントとの間の有効なフェデレーション。 フェデレーションにより、組織で Office 365 のユーザーと通信する設置型展開でユーザーです。 詳細については、「[Configure federation with Skype for Business Online](deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md)」を参照してください。
 
-- 有効な、共有されたセッション開始プロトコル (SIP) アドレス空間。 SIP アドレスは、電話番号や電子メール アドレスに似ている、ネットワーク上の各ユーザーの一意の識別子です。 オンライン ビジネスのユーザーを設置から Skype に移動しようとすると、前に、社内設置型展開と共有のセッション開始プロトコル (SIP) アドレス空間を共有するのには、Office 365 のテナントを構成する必要があります。 詳細については、[オンライン ビジネスの Skype でフェデレーションを構成する](deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md)を参照してください。
+- 有効な、共有されたセッション開始プロトコル (SIP) アドレス空間。 SIP アドレスは、電話番号や電子メール アドレスに似ている、ネットワーク上の各ユーザーの一意の識別子です。 オンライン ビジネスのユーザーを設置から Skype に移動しようとすると、前に、社内設置型展開と共有のセッション開始プロトコル (SIP) アドレス空間を共有するのには、Office 365 のテナントを構成する必要があります。 詳細については、「[Configure federation with Skype for Business Online](deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md)」を参照してください。
 
 ## <a name="multi-forest-support"></a>マルチ フォレストのサポート
 <a name="BKMK_MultiForest"> </a>
@@ -170,7 +170,7 @@ Exchange との共存をサポートする場合は、以下の点に留意し�
 
   - サーバー側会話の履歴、アーカイブ、統合連絡先ストア、HighRes 写真が Exchange 2013 以降を必要とし、サーバー間の通信に OAuth サーバーを有効にする必要があります。 詳細については、[管理サーバーからサーバーへの認証 (OAuth) とビジネス サーバー 2015 の Skype のパートナーのアプリケーション](https://technet.microsoft.com/en-us/library/jj204817.aspx)を参照してください。
 
-Exchange Server との共存の詳細については、サポートを含む条件とさまざまな組み合わせでの制限の設置とオンラインで参照してください[ビジネスとの交換用 Skype を統合する計画](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)の[サポート機能](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)。
+オンプレミスとオンラインのさまざまな組み合わせに関するサポートの条件および制限を含む、Exchange Server との共存に関する詳細については、[Plan to integrate Skype for Business and Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md) の「[機能のサポート](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)」を参照してください。
 
 ## <a name="administrator-credentials"></a>管理者の資格情報
 <a name="BKMK_Credentials"> </a>
@@ -292,7 +292,7 @@ Skype でオンライン ビジネスのハイブリッド展開を構成する�
 
 Microsoft Online Services のデータ ・ センターの場所、によって、ワイルドカード ドメイン名に基づいて接続を許可するのには、ネットワークのファイアウォール デバイスを構成する必要がありますも (からのすべてのトラフィックは、 \*. outlook.com)。 組織のファイアウォールはワイルドカードの名前の構成をサポートしていない場合は、許可したい IP アドレスの範囲、指定されたポートを手動で確認する必要があります。
 
-詳細については、 [Office 365 の Url と IP アドレスの範囲](https://go.microsoft.com/fwlink/p/?LinkId=252942)を参照してください。
+詳細については、「[Office 365 URL および IP アドレス範囲](https://go.microsoft.com/fwlink/p/?LinkId=252942)」を参照してください。
 
 ## <a name="port-and-protocol-requirements"></a>ポートとプロトコルの要件
 <a name="BKMK_Ports"> </a>
@@ -309,7 +309,7 @@ Microsoft Online Services のデータ ・ センターの場所、によって�
 |STUN  <br/> |UDP  <br/> |音声ビデオ エッジ  <br/> |Office 365  <br/> |3478  <br/> |3478  <br/> |音声、ビデオセッションで開く  <br/> |
 |STUN  <br/> |UDP  <br/> |Office 365  <br/> |音声ビデオ エッジ  <br/> |3478  <br/> |3478  <br/> |音声、ビデオセッションで開く  <br/> |
 
-ポートとファイアウォールがエッジ サーバーの計画に関する詳細については、 [Skype のビジネス サーバー 2015 でエッジ サーバー環境の要件](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)を参照してください。 [サーバーのポートとプロトコルの要件](../plan-your-deployment/network-requirements/ports-and-protocols.md)と[プロトコルの負荷の図](https://go.microsoft.com/fwlink/p/?LinkId=550989)も参照ください。
+ポートとファイアウォールがエッジ サーバーの計画に関する詳細については、 [Skype のビジネス サーバー 2015 でエッジ サーバー環境の要件](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)を参照してください。 「[Port and protocol requirements for servers](../plan-your-deployment/network-requirements/ports-and-protocols.md)」および「[プロトコル負荷の図](https://go.microsoft.com/fwlink/p/?LinkId=550989)」も参照してください。
 
 ## <a name="user-accounts-and-data"></a>ユーザー アカウントとデータ
 <a name="BKMK_UserAccounts"> </a>
@@ -319,7 +319,7 @@ Microsoft Online Services のデータ ・ センターの場所、によって�
 設置型展開と AAD の接続を使用してオンラインのテナント間でのユーザー アカウントを同期するときする必要がありますビジネスまたは Lync のユーザー、組織内のすべての Skype の AD のアカウントを同期する場合でも、ユーザーがオンラインに移動できません。 すべてのユーザーを同期しない場合、組織のオンプレミス展開のユーザーとオンライン ユーザーとの間の通信が正常に動作しない可能性があります。
 
 > [!IMPORTANT]
-> すべてのユーザーの管理を含むユーザーがビジネスのオンラインでの設置と Skype との間に移動行う必要があります管理ツールのインストールされている最新のバージョンを使用します。 管理ツールは、既存のオンプレミスに展開して、インターネットにアクセスを接続するには別のサーバーにインストールしなければなりません。 [Csuser からの移動](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser?view=skype-ps)、ビジネス オンラインの Skype をオンプレミス環境のユーザーを移動するコマンドレットは、社内設置型の展開に接続されている管理ツールから実行してください。 ユーザーの移動の詳細については、[ビジネス オンラインの Skype への設置型からユーザーを移動する](deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online.md)を参照してください。
+> すべてのユーザーの管理を含むユーザーがビジネスのオンラインでの設置と Skype との間に移動行う必要があります管理ツールのインストールされている最新のバージョンを使用します。 管理ツールは、既存のオンプレミスに展開して、インターネットにアクセスを接続するには別のサーバーにインストールしなければなりません。 [Csuser からの移動](https://docs.microsoft.com/powershell/module/skype/move-csuser?view=skype-ps)、ビジネス オンラインの Skype をオンプレミス環境のユーザーを移動するコマンドレットは、社内設置型の展開に接続されている管理ツールから実行してください。 ユーザーの移動の詳細については、[ビジネス オンラインの Skype への設置型からユーザーを移動する](deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online.md)を参照してください。
 
 > [!IMPORTANT]
 > Office 365 のオンライン ポータルを使用してユーザーを作成した場合、ユーザー アカウントはオンプレミスの Active Directory と同期されず、ユーザーはオンプレミスの Active Directory には存在しません。 オンライン テナントでユーザーを作成済みで、オンプレミス展開を使用してハイブリッドを構成する場合は、「オンラインからオンプレミスへのユーザーの移動」を参照してください。

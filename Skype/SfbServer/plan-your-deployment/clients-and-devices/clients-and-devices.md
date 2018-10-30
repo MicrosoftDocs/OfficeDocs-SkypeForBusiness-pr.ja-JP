@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: '概要: Skype for Business 用のサポートされているクライアントとアプリのレビュー。'
-ms.openlocfilehash: 63981e9fbdc19eeeebc6b19b37f51f901a9493a2
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
-ms.translationtype: HT
+ms.openlocfilehash: 4e51c442ea50bf911eac4e83a700141cd999cdb9
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965721"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839157"
 ---
 # <a name="plan-for-clients-and-devices"></a>クライアントおよびデバイスの計画
 
@@ -84,7 +84,7 @@ Skype Room Systems v2 は、慣れ親しんだ Skype for Business インター�
 
 ### <a name="skype-for-business-on-surface-hub"></a>Surface Hub での Skype for Business
 
-Microsoft Surface Hub は、ブレインストーミング、コラボレーション、プレゼンテーション向けの、オールインワンの生産性向上用デバイスです。 [Microsoft Surface Hub 管理者ガイド](https://docs.microsoft.com/en-us/surface-hub/)に記載されているように、Skype for Business クライアントの反復処理を独自に行います。
+Microsoft Surface Hub は、ブレインストーミング、コラボレーション、プレゼンテーション向けの、オールインワンの生産性向上用デバイスです。 [Microsoft Surface Hub 管理者ガイド](https://docs.microsoft.com/surface-hub/)に記載されているように、Skype for Business クライアントの反復処理を独自に行います。
 
 ## <a name="choosing-your-organizations-preferred-client"></a>組織の優先するクライアントの選択
 <a name="BK_client_choose"> </a>

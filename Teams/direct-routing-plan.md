@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Microsoft 電話システム直接ルーティングを使用する方法マイクロソフトの電話システムに、サポートされている、お客様が用意したセッション ボーダー コント ローラー (SBC) の接続については、このトピックを参照してください。
-ms.openlocfilehash: ddfada14916b14c374479109732dbe1fa35a0174
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: c0aa89e8e1900aefd069b132e8e082aa477e2786
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017616"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839480"
 ---
 # <a name="plan-direct-routing"></a>直接ルーティングを計画します。
 
@@ -74,9 +74,9 @@ Microsoft 電話システム直接ルーティングするには、マイクロ�
 |SBC のパブリック DNS エントリ |SBC の FQDN をパブリック IP アドレスにマップするパブリック DNS エントリです。 |
 |SBC の信頼された証明書の公開 |直接ルーティングですべての通信に使用する SBC の証明書です。 詳細については[、SBC の信頼された証明書の公開](#public-trusted-certificate-for-the-sbc)を参照してください。|
 |直接ルーティングするための接続ポイント |直接ルーティングするための接続ポイントは、次の 3 つの Fqdn です。<br/><br/>`sip.pstnhub.microsoft.com`– グローバル FQDN が最初に試行する必要があります。<br/>`sip2.pstnhub.microsoft.com`– セカンダリ FQDN は、地理的に 2 番目の優先度の領域にマップします。<br/>`sip3.pstnhub.microsoft.com`– の第 3 の FQDN は、3 番目の優先度の領域に地理的にマップします。<br/><br/>構成要件についてを参照してください[SIP シグナリング: Fqdn およびファイアウォールのポート](#sip-signaling-fqdns-and-firewall-ports)。|
-|ファイアウォールの IP アドレスとメディアの直接ルーティング用のポート |SBC がクラウド内の次のサービスを通信します。<br/><br/>SIP プロキシは、信号を処理します。<br/>メディア プロセッサは、メディアの処理のときに、メディアのバイパスを除く<br/><br/>これら 2 つのサービスでは、このドキュメントで後述する、マイクロソフトのクラウドで個別の IP アドレスがあります。<br/><br/>詳細については、 [Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)で、[マイクロソフトのチーム セクション](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)を参照してください。 |
+|ファイアウォールの IP アドレスとメディアの直接ルーティング用のポート |SBC がクラウド内の次のサービスを通信します。<br/><br/>SIP プロキシは、信号を処理します。<br/>メディア プロセッサは、メディアの処理のときに、メディアのバイパスを除く<br/><br/>これら 2 つのサービスでは、このドキュメントで後述する、マイクロソフトのクラウドで個別の IP アドレスがあります。<br/><br/>詳細については、 [Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)で、[マイクロソフトのチーム セクション](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)を参照してください。 |
 |メディア プロファイルを転送します。|TCP と RTP/SAVP <br/>UDP/RTP/SAVP|
-ファイアウォールの IP アドレスとポートはマイクロソフトのチームのメディアの |詳細については、 [Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)を参照してください。 |
+ファイアウォールの IP アドレスとポートはマイクロソフトのチームのメディアの |詳細については、「[Office 365 URL および IP アドレス範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)」を参照してください。 |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>ライセンスおよびその他の要件 
@@ -185,7 +185,7 @@ SBC はのみ 1 つの FQDN が必要し、ペアのテナント内のすべて�
 
 シグナル用とアドレスからの着信および発信トラフィックを許可するファイアウォールでこれらのすべての IP アドレスのポートを開く必要があります。  お使いのファイアウォールでは、DNS 名をサポートする場合、上のすべての IP アドレスを FQDN、sip の all.pstnhub.microsoft.com が解決します。  次のポートを使用する必要があります。
 
-|**トラフィック**|**[開始]**|**[終了]**|**発信元ポート**|**宛先ポート**|
+|**トラフィック**|**開始**|**終了**|**発信元ポート**|**宛先ポート**|
 |:--- |:--- |:--- |:--- |:--- |
 |SIP や TLS|SIP プロキシ|SBC|1024-65535|SBC で定義されています。|
 SIP や TLS|SBC|SIP プロキシ|SBC で定義されています。|5061|
@@ -210,7 +210,7 @@ SBC では、sip.pstnhub.microsoft.com を解決するための DNS クエリを
 
 メディア プロセッサのポートの範囲は、次の表で示されます。 
 
-|**トラフィック**|**[開始]**|**[終了]**|**発信元ポート**|**宛先ポート**|
+|**トラフィック**|**開始**|**終了**|**発信元ポート**|**宛先ポート**|
 |:--- |:--- |:--- |:--- |:--- |
 |UDP または SRTP|メディア プロセッサ|SBC|49 152 – 53 247|SBC で定義されています。|
 |UDP または SRTP|SBC|メディア プロセッサ|SBC で定義されています。|49 152 – 53 247|

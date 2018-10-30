@@ -11,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: '概要: は、Skype のビジネス サーバー 2015 の統計マネージャーを展開する方法については、このトピックを読みます。'
-ms.openlocfilehash: 75a8af0794431a0f74233ad0c6a422b3827c7656
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 28ee68cc8770660587cb7d22d2ddd68c754a4fca
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371142"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838579"
 ---
-# <a name="deploy-statistics-manager-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 の Statistics Manager の展開
+# <a name="deploy-statistics-manager-for-skype-for-business-server-2015"></a>Deploy Statistics Manager for Skype for Business Server 2015
  
 **の概要:** Skype のビジネス サーバー 2015 の統計マネージャーを展開する方法の詳細については、このトピックを参照してください。
   
@@ -68,7 +68,7 @@ ms.locfileid: "25371142"
     
     符号なしのインストーラーをダウンロードできます。[https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
     
-    必要な場合、署名されたバイナリは、人気のあるパッケージ ・ マネージャー: [Nuget](https://www.nuget.org/packages/Redis-64/)と[Choclatey](https://chocolatey.org/packages/redis-64)。
+    必要に応じて、一般的なパッケージ マネージャーの [Nuget](https://www.nuget.org/packages/Redis-64/) および [Choclatey](https://chocolatey.org/packages/redis-64) を通して署名済みのバイナリを利用できます。
     
    - 提供された msi を実行してプロンプトに従います。
     
@@ -212,7 +212,7 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
-現在インポート済みのサーバー情報を表示するには、次のスクリプトを実行します。 
+読み込まれた現在のサーバーの情報を表示するには、次のスクリプトを実行します。 
   
 ```
 .\Get-StatsManServerInfo.ps1
@@ -299,12 +299,12 @@ Microsoft は、必ず信頼済みの認証局によって署名された証明�
 
 詳細については、以下を参照してください。
   
-- [ビジネス サーバー 2015 Skype 統計マネージャーの計画します。](plan.md)
+- [Plan for Statistics Manager for Skype for Business Server 2015](plan.md)
     
-- [Skype for Business Server 2015 の Statistics Manager のアップグレード](upgrade.md)
+- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md)
     
-- [Skype for Business Server 2015 の Statistics Manager のトラブルシューティング](troubleshoot.md)
+- [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
     
-- [Skype ビジネス サーバー統計マネージャーのブログ](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Skype for Business Server Statistics Manager ブログ](https://blogs.technet.microsoft.com/skypestatsman/)
     
 

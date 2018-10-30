@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 description: この資料では、ビジネスのサーバーの実装については、Skype で Skype ルーム システム v2 デバイスを管理する運用管理スイートを使用するための計画に関する考慮事項について説明します。
-ms.openlocfilehash: 64f1d91840a34ed9c9845e7fb0aae1e322fab68e
-ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
+ms.openlocfilehash: 26cfe0fa000a92548c81b8bab80d1bdde5ee78b4
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25784801"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839358"
 ---
 # <a name="plan-skype-room-systems-v2-management-with-oms"></a>OMS を使用して Skype Room Systems バージョン 2 の管理を計画する
  
  この資料では、ビジネスのサーバーの実装については、Skype で Skype ルーム システム v2 デバイスを管理する運用管理スイートを使用するための計画に関する考慮事項について説明します。
   
-[操作の管理スイート](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-overview)(OMS) は、最初からクラウドのように設計された管理サービスのコレクションです。 展開して、オンプレミスのリソースを管理するのではなく OMS のコンポーネントは完全 Azure でホストされます。 構成は最小限とする起動してそのまま数分で。 カスタマイズのいくつかの作業では、個々 の部屋のシステムでは、システムの稼働状態や障害のリアルタイムの通知を提供することによって Skype ルーム システム v2 の会議システムを管理することも役に立ち、数千の Skype ルームのシステムを管理するに拡張できる可能性があります。v2 の会議室です。
+[操作の管理スイート](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview)(OMS) は、最初からクラウドのように設計された管理サービスのコレクションです。 展開して、オンプレミスのリソースを管理するのではなく OMS のコンポーネントは完全 Azure でホストされます。 構成は最小限とする起動してそのまま数分で。 カスタマイズのいくつかの作業では、個々 の部屋のシステムでは、システムの稼働状態や障害のリアルタイムの通知を提供することによって Skype ルーム システム v2 の会議システムを管理することも役に立ち、数千の Skype ルームのシステムを管理するに拡張できる可能性があります。v2 の会議室です。
   
 この資料は、要件、設計とアーキテクチャ、および Skype ルーム システム v2 の会議デバイスの OMS の管理を実装するために必要な実装のベスト プラクティスの説明を提供し、OMS の実装に関する詳細な記事へのリンクが用意されていますSkype ルーム システム v2 と Skype ルーム システム v2 ルーム OMS の継続的な管理の重要な参照情報を管理します。 
   
@@ -38,9 +38,9 @@ OMS を使用して管理者オフラインになっている Skype ルーム �
   
 ## <a name="oms-requirements"></a>OMS の要件
 
-この機能を使用するには、OMS の有効なサブスクリプションが必要です。 所属する組織のためにサブスクリプションを用意するには、「[Log Analytics ワークスペースを使って作業を開始する](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-get-started?toc=%2fazure%2foperations-management-suite%2ftoc.json)」を参照してください。
+この機能を使用するには、OMS の有効なサブスクリプションが必要です。 所属する組織のためにサブスクリプションを用意するには、「[Log Analytics ワークスペースを使って作業を開始する](https://docs.microsoft.com/azure/log-analytics/log-analytics-get-started?toc=%2fazure%2foperations-management-suite%2ftoc.json)」を参照してください。
   
-必要に応じて、OMS ビュー デザイナーの使用方法について理解を深めておく必要があります。 詳細については「[Operations Management Suite (OMS) 管理ソリューションのビュー](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-solutions-resources-views)」を参照してください。
+必要に応じて、OMS ビュー デザイナーの使用方法について理解を深めておく必要があります。 詳細については「[Operations Management Suite (OMS) 管理ソリューションのビュー](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-solutions-resources-views)」を参照してください。
   
 ### <a name="related-tasks"></a>関連タスク
 
@@ -50,7 +50,7 @@ OMS を使用して管理者オフラインになっている Skype ルーム �
     
 ## <a name="individual-skype-room-systems-v2-console-requirements"></a>Skype ルーム システム v2 コンソールの個々 の要件
 
-各 Skype ルーム システム v2 のコンソールには、キオスク モードでサーフェスの 4 のデバイスで実行されているアプリケーション (通常は、その構成されているデバイスで実行できる唯一のアプリケーション)。 同様にすべての Windows アプリケーションでは、Skype ルーム システム v2 アプリケーションは、Windows イベント ログに起動し、ハードウェアの障害などのイベントを書き込みます。 OMS を収集するこれらのイベントを Skype ルーム システム v2 デバイスの OMS エージェントを追加できます。 (詳細については[接続の Windows コンピューター](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-windows-agents)を参照してください)。
+各 Skype ルーム システム v2 のコンソールには、キオスク モードでサーフェスの 4 のデバイスで実行されているアプリケーション (通常は、その構成されているデバイスで実行できる唯一のアプリケーション)。 同様にすべての Windows アプリケーションでは、Skype ルーム システム v2 アプリケーションは、Windows イベント ログに起動し、ハードウェアの障害などのイベントを書き込みます。 OMS を収集するこれらのイベントを Skype ルーム システム v2 デバイスの OMS エージェントを追加できます。 (詳細については[接続の Windows コンピューター](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents)を参照してください)。
   
 ## <a name="ongoing-management"></a>進行中の管理
 

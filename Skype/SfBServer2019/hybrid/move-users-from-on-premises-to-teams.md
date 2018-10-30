@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: '概要: は、ユーザー設定を移行し、チームにユーザーを移動する方法を説明します。'
-ms.openlocfilehash: 78f0c49fa2179b4a0aa95a993476c21fb679f489
-ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
+ms.openlocfilehash: 76baa9cdc87535e68cc0bff4e9397a91d1090439
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25436566"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838718"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>移動ユーザーがチームを設置
 
@@ -79,7 +79,7 @@ New-CsTeamsUpgradeConfiguration -Identity “site:redmond1”
 -  **テレフォニー機能を持つユーザーを移行します。** ユーザーとチームのクライアントを使用して呼び出しを受信できます。  Microsoft の計画を呼び出すか、直接ルーティングではチームに、テレフォニー サービスを接続するを選択することができます。  
 
     -  クラウドをすべて音声ソリューションを提供する Microsoft の計画を呼び出します。 Microsoft の計画を呼び出すことの詳細については、(リンク準備中) を参照してください。 
-    -  直接ルーティングでは、事実上、PSTN トランクを使用することができ、お客様が所有する電話装置とマイクロソフトの電話システムとの間の相互運用性を構成することができます。  詳細については、[直接ルーティングを計画](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-plan)し、[直接ルーティングの構成](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-configure)を参照してください。
+    -  直接ルーティングでは、事実上、PSTN トランクを使用することができ、お客様が所有する電話装置とマイクロソフトの電話システムとの間の相互運用性を構成することができます。  詳細については、[直接ルーティングを計画](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan)し、[直接ルーティングの構成](https://docs.microsoft.com/MicrosoftTeams/direct-routing-configure)を参照してください。
 
 -  **テレフォニー機能のないユーザーを移行します。** テレフォニー機能を維持せずにユーザーを移行する場合は、ユーザーは、クラウドで適切なライセンスを持っていることを確認してください。 
 

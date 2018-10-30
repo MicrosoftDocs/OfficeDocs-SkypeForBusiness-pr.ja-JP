@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 description: '概要: Skype で、Office カスタマイズ ツールを使用して、クライアントのビジネスの方法です。'
-ms.openlocfilehash: bee037e005a9887a3f338ef071bec6fddc8990ea
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6050a9e9c36fa62aff16994469e63a9689ab5958
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983708"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838666"
 ---
 # <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>Skype で、Office カスタマイズ ツール (OCT) を使用して、ビジネスのサーバーの
  
@@ -38,6 +38,6 @@ OCT は、セットアップの一部とは、ボリューム ライセンスを
     
 - **Outlook**使用すると、ユーザーの既定の Outlook プロファイルをカスタマイズするのには、Exchange 設定の指定、アカウントを追加、アカウントを削除しての設定をエクスポートおよび送受信グループを指定します。
     
-OCT の詳細についてを参照してください[OCT を使用して Office 2013 をカスタマイズするのには](https://docs.microsoft.com/en-us/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15))です。 この情報が Office の新しいバージョンにも適用されることに注意してください。
+OCT の詳細についてを参照してください[OCT を使用して Office 2013 をカスタマイズするのには](https://docs.microsoft.com/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15))です。 この情報が Office の新しいバージョンにも適用されることに注意してください。
   
 

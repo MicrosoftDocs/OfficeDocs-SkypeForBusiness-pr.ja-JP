@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: '概要: ビジネスのサーバーの Exchange Server と Skype の統合連絡先ストアを構成します。'
-ms.openlocfilehash: 6dccf6b2e6461ede26f49fa9efb3386bd04a9db3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ebed3e81b12718ae053b4482455cf38bd844799c
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988770"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839839"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>統合連絡先ストアを使用するための Skype for Business Server の構成
  
@@ -31,7 +31,7 @@ ms.locfileid: "20988770"
 
 Skype ビジネス サーバーと Exchange Server 間でサーバーからサーバーへの認証が既に構成されている場合、また有効にしている統合連絡先ストアです。追加のサーバーを構成する必要はありません。 ただし、ユーザーの連絡先を統合連絡先ストアに移動するために、追加のユーザー アカウント構成を行う必要があります。 既定では、Skype のビジネス サーバーでは統合連絡先ストアではなくユーザーの連絡先が保持されます。
   
-統合連絡先ストアへのアクセスは、Skype を使用してビジネス サーバー ユーザー サービス ポリシーによって管理されます。 ユーザーのサーバーのポリシーがあるだけ、1 つのプロパティ (UcsAllowed)。ユーザーの連絡先が格納される場所を決定するのにはこのプロパティを使用します。 UcsAllowed が True ($True) に設定されているユーザー サービス ポリシーによって、ユーザーが管理されている場合、ユーザーの連絡先は統合連絡先ストアにします。 によって、ユーザーが管理されている場合、ユーザーは、UcsAllowed が False ($False) に設定されているし、[自分の連絡先は Skype ビジネス サーバー用のポリシーをサービスします。
+統合連絡先ストアへのアクセスは、Skype を使用してビジネス サーバー ユーザー サービス ポリシーによって管理されます。 ユーザーのサーバーのポリシーがあるだけ、1 つのプロパティ (UcsAllowed)。ユーザーの連絡先が格納される場所を決定するのにはこのプロパティを使用します。 UcsAllowed が True ($True) に設定されているユーザー サービス ポリシーによって、ユーザーが管理されている場合は、統合連絡先ストアにユーザーの連絡先が保存されます。 によって、ユーザーが管理されている場合、ユーザーは、UcsAllowed が False ($False) に設定されているし、[自分の連絡先は Skype ビジネス サーバー用のポリシーをサービスします。
   
 ビジネス サーバーの Skype をインストールすると、1 つのユーザー サービス ポリシー (グローバル スコープで構成されている) もインストールされます。 このポリシーの UcsAllowed 値は True に設定されていて、ユーザーの連絡先は既定で統合連絡先ストアに格納されます (統合連絡先ストアを展開および構成済みであることが前提です)。 ユーザーの連絡先をすべて統合連絡先ストアに移行したい場合、他の操作を行う必要はありません。 
   
