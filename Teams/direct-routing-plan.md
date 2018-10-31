@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Microsoft 電話システム直接ルーティングを使用する方法マイクロソフトの電話システムに、サポートされている、お客様が用意したセッション ボーダー コント ローラー (SBC) の接続については、このトピックを参照してください。
-ms.openlocfilehash: c0aa89e8e1900aefd069b132e8e082aa477e2786
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: d9b1cf0f819639aebd1250bd37f4fc85d5555fc4
+ms.sourcegitcommit: a54864c3fcd1b8d240d0f7f2ccf68f8cba566e47
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839480"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "25849407"
 ---
 # <a name="plan-direct-routing"></a>直接ルーティングを計画します。
 
@@ -221,16 +221,12 @@ SBC では、sip.pstnhub.microsoft.com を解決するための DNS クエリを
 
 ## <a name="supported-session-border-controllers-sbcs"></a>セッション ボーダー コント ローラー (SBCs) のサポート
 
-マイクロソフトでは、認定の SBC 対に直接ルーティングのみサポートします。 エンタープライズ VoIP はビジネスにとって不可欠であるため、マイクロソフトでは、集中的なテストを実行を選択した SBCs と、2 つのシステムを確実に SBC ベンダーとの連携は互換性があります。 
+マイクロソフトでは、直接ルーティングとペアにする認定の SBCs のみサポートします。 エンタープライズ VoIP は企業にとって重要であるため、マイクロソフトでは、集中的なテストを実行を選択した SBCs と、2 つのシステムを確実に SBC ベンダーとの連携は互換性があります。 
 
-検証済みのデバイスは、チームの直接のルーティングのための認定として表示されます。 認定済みのデバイスは、すべてのシナリオで動作が保証されます。 マイクロソフトと確立された SBC ベンダーとの間の共同サポート プロセスもあります。  
+検証済みのデバイスは、チームの直接のルーティングのための認定として表示されます。 認定済みのデバイスは、すべてのシナリオで動作が保証されます。 
 
-認定されているプロセスでは、次のベンダーです。
-- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
-- リボン通信 (以前は Sonus)。
-   - [SBC エッジ シリーズ](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
-   - [SBC のコア ・ シリーズ](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
-- ThinkTel: ThinkTel は、企業に半角を販売していないが、SBC の認定を受けることができます。  
+SBCs のサポートの詳細については、[リストのセッション ボーダー コント ローラーが直接ルーティングの認定](direct-routing-border-controllers.md)を参照してください。
+
  
 ## <a name="see-also"></a>関連項目
 
