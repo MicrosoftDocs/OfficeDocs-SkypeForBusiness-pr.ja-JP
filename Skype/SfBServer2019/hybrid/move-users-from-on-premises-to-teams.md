@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: '概要: は、ユーザー設定を移行し、チームにユーザーを移動する方法を説明します。'
-ms.openlocfilehash: 76baa9cdc87535e68cc0bff4e9397a91d1090439
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: af0867bfdc2e12a248baf7cc07746845154d27fd
+ms.sourcegitcommit: bb3f235265cddae9578ec1bf605c4edc7f14fb30
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838718"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25851484"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>移動ユーザーがチームを設置
 
@@ -100,7 +100,7 @@ Move-CsUser -Identity user0 -Target sipfed.online.lync.com -moveToTeams -credent
 ($cred = 資格情報の取得。 入力してください Office 365 管理者の資格情報です。)
 
 > [!NOTE]
-> このコマンドでは、チームに、TeamsInteropPolicy を設定し、TeamsUpgradePolicy を TeamsOnly モードに設定します。 
+> このコマンドは、TeamsOnly モードを TeamsUpgradePolicy を設定します。 
  
 チームへの移行が成功した後、ビジネス クライアント用のユーザーの Skype には、次のメッセージが表示されます。 
 

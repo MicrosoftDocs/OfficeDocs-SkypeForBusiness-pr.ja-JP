@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Cloud Connector エディションで複数の PSTN サイトを展開する方法について説明します。
-ms.openlocfilehash: b6d4c489136f038a5d4dbe7188958ef60e4a5aed
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 388915d0ab22dc50378d84a82c01291cfd7c99eb
+ms.sourcegitcommit: bb3f235265cddae9578ec1bf605c4edc7f14fb30
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889714"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25851491"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Cloud Connector でマルチサイトを展開する
  
@@ -78,6 +78,7 @@ ExternalMRPublicIPs=104.42.226.134
   
 |**[カテゴリ]**|**項目**|**HA 対応の単一サイト**|**マルチサイト**|
 |:-----|:-----|:-----|:-----|
+|構成  <br/> |アプライアンスのホスト名 <br/> |複数のアプライアンス全体にわたって**異なる** <br/> |複数の PSTN サイト全体にわたって**異なる** <br/> |
 |セットアップ  <br/> |共有フォルダー  <br/> |アプライアンスの間で**同一**の共有フォルダーが必要です。 <br/> |複数のアプライアンス全体にわたって**異なる**共有フォルダーが必要 <br/> |
 |構成  <br/> |VirtualMachineDomain  <br/> |複数のアプライアンス全体にわたって**同じ**ドメインが必要 <br/> |複数の PSTN サイト全体にわたって**同じ**ドメインが必要 <br/> |
 |構成  <br/> |SIPDomains  <br/> |ドメイン名と注文する必要があります、**同じ**アプライアンスの間で <br/> |ドメイン名と順序は、**同じ**サイト間である PSTN <br/> |
