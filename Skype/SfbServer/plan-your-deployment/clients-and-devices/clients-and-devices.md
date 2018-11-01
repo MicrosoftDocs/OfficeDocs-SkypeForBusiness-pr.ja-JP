@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: '概要: Skype for Business 用のサポートされているクライアントとアプリのレビュー。'
-ms.openlocfilehash: 4e51c442ea50bf911eac4e83a700141cd999cdb9
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 3c68264f9eabc32c9e8c11a243fd103bb7c97426
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839157"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890594"
 ---
 # <a name="plan-for-clients-and-devices"></a>クライアントおよびデバイスの計画
 
@@ -139,7 +139,7 @@ MSI はより一般的なインストール方法で、Skype for Business 2015 �
 
 Skype for Business Server 2019 および Skype for Business Online は、以前にリリースされたクライアントの Skype for Business 2016、Skype for Business 2015、Lync 2013 をサポートしています。
 
-Skype for Business Server 2015 は、以前にリリースされたクライアントの Lync 2013、Lync 2010、Lync 2010 Mobile、Lync Phone Edition、および Lync 2010 Attendant をサポートしています。 別のサーバーで使用する場合のこれらのクライアントの情報については、「[Lync Server 2013 のクライアントの比較表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx)」および「[Lync Server 2010 のクライアントの比較表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx)」をご覧ください。
+Skype for Business Server 2015 は、以前にリリースされたクライアント Lync 2013、Lync 2010、Lync 2010 Mobile、Lync Phone Edition、および Lync 2010 Attendant をサポートしています。 別のサーバーで使用する場合のこれらのクライアントの情報については、「[Lync Server 2013 のクライアントの比較表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx)」および「[Lync Server 2010 のクライアントの比較表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx)」をご覧ください。
 
 
 ## <a name="client-system-requirements"></a>クライアントのシステム要件

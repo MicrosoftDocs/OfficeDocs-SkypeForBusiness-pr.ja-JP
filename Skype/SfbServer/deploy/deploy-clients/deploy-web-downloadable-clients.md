@@ -10,23 +10,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'ビジネス Web アプリケーションの概要: が、Skype を導入し、Skype 会議アプリケーションがビジネスの Skype を使用します。'
-ms.openlocfilehash: 13facacfc2e42ec45e29aae1c1006c792ef6ac1e
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 7fabbbbd279e2f72f3468fbe73a55b86e532f6cf
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839227"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890690"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Skype のダウンロード可能なクライアントの Web をビジネスのサーバーの展開します。
 
-**の概要:** ビジネス 2015年の Web アプリケーションの Skype と Skype で使用してビジネス サーバー 2015 Skype の会議アプリケーションを展開します。
+**の概要:** ビジネス 2015年の Web アプリケーションの Skype と Skype でビジネスのサーバーが使用する Skype の会議アプリケーションを展開します。
 
-ビジネス Web アプリケーションの Skype では、ビジネス サーバー 2015 の Skype を実行するサーバーにインストールされているインターネット インフォメーション サービス (IIS) web クライアントとビジネス クライアント用の Skype をまだ持っていない会議のユーザーに要求時にデフォルトで配置されます。 このような会議ユーザーは通常ネットワークの外部から接続します。 ユーザーは会議 URL をクリックしたが、ビジネス クライアントがインストールされている Skype がない、常にユーザーにビジネス Web アプリケーションまたは Skype 会議アプリケーションの Skype の最新バージョンを使用してミーティングに参加するためのオプションが表示されます。
+ビジネス Web アプリケーションの Skype は、Skype をビジネスのサーバーの実行中のサーバーにインストールされている、インターネット インフォメーション サービス (IIS) web クライアントとビジネス クライアント用の Skype をまだ持っていない会議のユーザーに要求時に既定で展開します。 このような会議ユーザーは通常ネットワークの外部から接続します。 ユーザーは会議 URL をクリックしたが、ビジネス クライアントがインストールされている Skype がない、常にユーザーにビジネス Web アプリケーションまたは Skype 会議アプリケーションの Skype の最新バージョンを使用してミーティングに参加するためのオプションが表示されます。
 
 ビジネス Web アプリケーションは、ユーザーのブラウザーでプラグインとして使用される Microsoft ActiveX コントロールを必要とするは、Skype の機能を音声、ビデオ、および共有します。 ActiveX コントロールを事前にインストールするか、インストールするメッセージが表示されたら、初めてのビジネス Web アプリケーションの Skype を使用する場合は、ユーザーを許可するか、機能にアクセスする最初の時間が必要な ActiveX コントロールです。
 
 > [!NOTE]
-> ビジネス 2015 エッジ サーバー展開では Skype は、境界ネットワークでの HTTPS のリバース プロキシは、クライアント アクセスのビジネス Web アプリケーションの Skype の必要があります。 簡易 URL を発行する必要もあります。 詳細については、[リバース プロキシ サーバーを設定](https://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx)し、 [Skype ビジネス サーバー用の簡単な Url の DNS の要件](../../plan-your-deployment/network-requirements/simple-urls.md)を参照してください。
+> ビジネス エッジ サーバー展開では Skype は、境界ネットワークでの HTTPS のリバース プロキシは、クライアント アクセスのビジネス Web アプリケーションの Skype の必要があります。 簡易 URL を発行する必要もあります。 詳細については、[リバース プロキシ サーバーを設定](https://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx)し、 [Skype ビジネス サーバー用の簡単な Url の DNS の要件](../../plan-your-deployment/network-requirements/simple-urls.md)を参照してください。
 
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Skype のビジネス Web アプリケーション用の多要素認証を有効にします。
 <a name="MFA"> </a>

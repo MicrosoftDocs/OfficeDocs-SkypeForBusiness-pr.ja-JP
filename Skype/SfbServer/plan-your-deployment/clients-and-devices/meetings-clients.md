@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: '概要: IT プロフェッショナルは Skype ビジネス サーバーの計画中に、Skype のビジネス Web アプリケーションおよび Skype 会議アプリケーションのサポート要件を確認する必要があります。 この記事はこれらのアプリのユーザー向けのものではありません。'
-ms.openlocfilehash: c76770d570aaa1d1c686df7b0845e41a767cfbef
-ms.sourcegitcommit: 80e1983fd631b8ad63c902375f1128faa957e374
+ms.openlocfilehash: 6b0b8df34530005e7baf14cef4aa38c4536d4673
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25450635"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890616"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>会議クライアント用の計画 (Web アプリおよび会議アプリ)
  
@@ -38,7 +38,7 @@ ms.locfileid: "25450635"
   
 既定では、会議をホストしているサーバーはダウンロードし、ミーティングに参加する Web アプリケーションのビジネス用の Skype をインストールするユーザーを指示します。 ビジネス Web アプリケーションの Skype では、フロント エンド サーバーに格納され、会議の出席者に送信されます。 
   
-ビジネス サーバー 2015 の Skype、Skype 会議アプリケーション CU5、ビジネスの Web アプリケーションからの Skype の代わりとして使用可能です。 が、Skype の会議アプリケーションを提供する[を交換するのには Skype 会議アプリケーションを有効にする」に記載する追加の構成が必要です。(省略可能) のビジネス Web アプリケーションの Skype](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)。  Skype 会議アプリケーションが有効な場合、ユーザーは Office 365 コンテンツ配信ネットワーク (CDN) からではなく、Skype をビジネスのサーバーのアプリケーションの最新バージョンをダウンロードします。 ビジネス サーバー 2019 Skype 会議アプリケーションの Skype の唯一のオプションです。
+ビジネス サーバーの Skype、Skype 会議アプリケーション CU5、ビジネスの Web アプリケーションからの Skype の代わりとして使用可能ですが、Skype 会議アプリケーションを提供するには、 [Skype を置換するのには Skype の会議アプリケーションを有効にする」に記載する追加の構成が必要です。(省略可能) のビジネス Web アプリケーションの](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)です。  Skype 会議アプリケーションが有効な場合、ユーザーは Office 365 コンテンツ配信ネットワーク (CDN) からではなく、Skype をビジネスのサーバーのアプリケーションの最新バージョンをダウンロードします。 ビジネス サーバー 2019 Skype 会議アプリケーションの Skype の唯一のオプションです。
   
 Skype 会議アプリケーションは、ダウンロードし、アプリケーションをインストールして Internet Explorer のユーザーの 1 回のクリックの結合を含めて、会議に参加するための簡略化されたブラウザー エクスペリエンスを提供します。 Skype 会議アプリケーションも、多くの改良に theSkype ビジネス Web アプリケーションの信頼性と会議の経験をします。 
   
@@ -55,11 +55,11 @@ Skype 会議アプリケーションは、ダウンロードし、アプリケ�
 | オペレーティング システム | Edge | 32 ビット版と 64 ビット版の Internet Explorer 11 以降 | 32 ビットと 64 ビットの 10 またはそれ以降の Internet Explorer | 32 ビットと 64 ビットのまたはそれ以降の Internet Explorer 9 | Safari 6.2.8 の 11.X の 32 ビットおよび 64 ビット バージョン | 32 ビットと 64 ビットのクロムのバージョン 18.X またはそれ以降 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Windows 10  <br/> |はい  <br/> |あり  <br/> |該当なし  <br/> |該当なし  <br/> |該当なし  <br/> |はい & #x 2778 です。 <br/> |
-|Windows 8.1 & #x 2776。 <br/> |該当なし  <br/> |はい  <br/> |該当なし  <br/> |該当なし  <br/> |該当なし <br/> |はい & #x 2778 です。 <br/> |
-|Windows 8 (Intel ベース) & #x 2776。 <br/> |該当なし  <br/> |該当なし  <br/> |はい  <br/> |該当なし <br/> |該当なし  <br/> |はい & #x 2778 です。 <br/> |
-|Windows 7 SP1 & #x 2777 です。 <br/> |該当なし  <br/> |はい  <br/> |なし  <br/> |いいえ  <br/> |該当なし <br/>|はい & #x 2778 です。 <br/> |
-|Windows Server 2008 R2 の SP1 & #x 2777 です。 <br/> |該当なし  <br/> |はい  <br/> |あり  <br/> |あり  <br/> |該当なし <br/>|はい & #x 2778 です。 <br/> |
-|macOS 10.8 と後で (Intel ベース) & #x 2777 です。 <br/> |該当なし  <br/> |該当なし  <br/> |該当なし  <br/> |該当なし  <br/> |はい  <br/> |あり <br/> |
+|Windows 8.1 & #x 2776。 <br/> |該当なし  <br/> |○  <br/> |該当なし  <br/> |該当なし  <br/> |該当なし <br/> |はい & #x 2778 です。 <br/> |
+|Windows 8 (Intel ベース) & #x 2776。 <br/> |該当なし  <br/> |該当なし  <br/> |○  <br/> |該当なし <br/> |該当なし  <br/> |はい & #x 2778 です。 <br/> |
+|Windows 7 SP1 & #x 2777 です。 <br/> |該当なし  <br/> |○  <br/> |なし  <br/> |いいえ  <br/> |該当なし <br/>|はい & #x 2778 です。 <br/> |
+|Windows Server 2008 R2 の SP1 & #x 2777 です。 <br/> |該当なし  <br/> |○  <br/> |あり  <br/> |あり  <br/> |該当なし <br/>|はい & #x 2778 です。 <br/> |
+|macOS 10.8 と後で (Intel ベース) & #x 2777 です。 <br/> |該当なし  <br/> |該当なし  <br/> |該当なし  <br/> |該当なし  <br/> |○  <br/> |あり <br/> |
    
 & #x 2776。ビジネス Web アプリケーションのブラウザー プラグインの Skype では、コンピューター ベースの音声、ビデオ、共有、共有の継続的な画面の表示およびその他の機能を使用する特定の共有プラグインが必要です。 会議の出席者は、会議に参加する場合、または次のいずれかの機能を開始する場合に、共有プラグインをインストールするためのオプションが提供されます。 Windows 8、および Windows 8.1 では、プラグインの共有インストールできますデスクトップ用 Internet Explorer 10 または 11 の Internet Explorer を実行している場合のみです。 これらの機能は、Internet Explorer 10 と 11 以外のデスクトップ バージョンをご利用いただけません。 Firefox および Safari バージョン 12.0 以降ではサポートされていません注意してください。
   
@@ -74,9 +74,9 @@ Skype 会議アプリケーションは、ダウンロードし、アプリケ�
 
 Skype 会議アプリケーションは、Windows 10、Windows 8.1、Windows 8 の Windows 7 で 32 ビットおよび 64 ビット Internet Explorer 11 を使用してコンピューター上でアプリケーションとして実行または以降がインストールされています。 
   
-このアプリは、macOS 10.10 以降でも、特定のブラウザーへの依存性なしで実行します。 
+このアプリは、macOS 10.10 以降でも、特定のブラウザーへの依存性なしで実行します。   
   
-その他の依存関係、 [Skype 会議アプリケーションでサポートされるプラットフォーム](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)を参照してください。
+その他の依存性については、「[Skype 会議アプリ (Skype for Business Web App) をサポートするプラットフォーム](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)」を参照してください。
   
 ## <a name="hardware-requirements"></a>ハードウェア要件
 <a name="OS-Browser"> </a>
@@ -142,13 +142,13 @@ Skype 会議アプリケーションは、Windows 10、Windows 8.1、Windows 8 �
 ## <a name="known-issues-and-troubleshooting"></a>既知の問題とトラブルシューティング
 <a name="BKMK_Conferencing"> </a>
 
-エンド ・ ユーザーは、これらのアプリケーションの[オンライン ヘルプ](https://aka.ms/smahelp)はすぐに利用できます。 IT プロフェッショナルは、次の問題について認識する必要があります。
+エンド ユーザーの場合、これらのアプリの[オンライン ヘルプ](https://aka.ms/smahelp)は簡単に利用できます。 IT プロフェッショナルは、次の問題について認識する必要があります。
   
 - ユーザーがネットワーク上に存在し、[ネットワーク要件](meetings-clients.md#Network)を満たすように構成されていない場合、多くのアプリの機能が機能したりしなかったりする可能性があり、会議に接続することがまったくできない場合があります。
     
-- 一部のユーザーが、アプリをインストールするためのアクセス許可が無効化されている、会社管理のコンピューターを使用している場合があります。 、それらのユーザーのどちらもアプリケーションがオプションですが、[スマート フォン](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-1)や[タブレット](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-2)のユーザーは、ミーティングに参加するのには使用できる低コストのモバイル クライアントをインストールできる場合があります。
+- 一部のユーザーが、アプリをインストールするためのアクセス許可が無効化されている、会社管理のコンピューターを使用している場合があります。 これらのユーザーの場合は、どちらのアプリも選択肢になりませんが、[スマート フォン](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-1) および [タブレット](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-2) のユーザーは会議に出席するために使用できる、低コストのモバイル クライアントをインストールすることができます。
     
-    その他のインストールに関する問題は、[ヘルプ トピック](https://support.office.com/en-us/article/Trouble-installing-the-Skype-for-Business-Web-App-plug-in-958fc5f1-2d6f-42e3-815d-a9516c591274?ui=en-US&amp;rs=en-US&amp;ad=US)にも説明します。 
+    その他のインストールに関する問題は、[ヘルプ トピック](https://support.office.com/en-us/article/Trouble-installing-the-Skype-for-Business-Web-App-plug-in-958fc5f1-2d6f-42e3-815d-a9516c591274?ui=en-US&amp;rs=en-US&amp;ad=US) でも説明しています。 
     
 - ユーザーが会議アプリを初めて実行するときに、ファイアウォールの警告メッセージが表示される場合があります。 ユーザーは、エクスペリエンスを最適化するためにポートを開くよう要求される可能性があります。その操作を行うにはコンピューターに対する管理者特権が必要ですが、ユーザーにはその権限はありません。 アプリは引き続き機能するため、ユーザーは要求されたポートを開くことを問題なく拒否できます。 
     
@@ -156,7 +156,7 @@ Skype 会議アプリケーションは、Windows 10、Windows 8.1、Windows 8 �
     
 - 正常に動作する Web アプリケーションのビジネス用の Skype のいくつかの機能では、コンピューターまたはデバイス上の[cookie を保存](https://support.office.com/en-us/article/Allow-cookies-for-Skype-Meetings-App-Skype-for-Business-Web-App-2108276b-b5c3-484b-bf2b-dac6eeba4c93)するにはブラウザーを許可する必要があります。
     
-- 可能性があります必要がある[JavaScript を有効に](https://support.office.com/en-us/article/Turn-on-JavaScript-for-Skype-Meetings-App-Skype-for-Business-Web-App-3d997bf9-637c-4fe6-8ee3-9e62bfda52cd)するのにをサポートする正常に動作する Web アプリケーションのビジネス機能のいくつかの Skype には、ブラウザーで。
+- いくつかの Skype for Business Web App 機能が想定どおりに動作するようにするために、お使いのブラウザーでの [JavaScript のサポートをオンにする](https://support.office.com/en-us/article/Turn-on-JavaScript-for-Skype-Meetings-App-Skype-for-Business-Web-App-3d997bf9-637c-4fe6-8ee3-9e62bfda52cd) 必要がある場合があります。 
     
 ### <a name="aes-support"></a>AES のサポート 
 
