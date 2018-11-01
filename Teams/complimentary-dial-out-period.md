@@ -22,74 +22,73 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: true
 description: お客様は、Skype for Business Online PSTNサービス利用規約およびお客様のボリュームライセンス契約で許可されているとおり、Office 365通話プランとOffice 365音声会議を使用することができます。
-ms.openlocfilehash: c2d241c37d6124a19b4351142e9a25ff8c29fbb9
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 7415042e6604ae6bfa779fdcd578422faf7ac40c
+ms.sourcegitcommit: afc415ad4d0c2ed013eaf5f68a72418e66734ff0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699589"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25898128"
 ---
-# <a name="audio-conferencing-complimentary-dial-out-period"></a><span data-ttu-id="06472-103">音声会議の無料ダイヤル アウト期間</span><span class="sxs-lookup"><span data-stu-id="06472-103">Audio Conferencing complimentary dial-out period</span></span>
+# <a name="audio-conferencing-complimentary-dial-out-period"></a><span data-ttu-id="b99ee-103">音声会議の無料ダイヤル アウト期間</span><span class="sxs-lookup"><span data-stu-id="b99ee-103">Audio Conferencing complimentary dial-out period</span></span>
 
-## <a name="skype-for-business-pstn-services"></a><span data-ttu-id="06472-104">Skype for Business PSTN サービス</span><span class="sxs-lookup"><span data-stu-id="06472-104">Skype for Business PSTN Services</span></span>
+## <a name="skype-for-business-pstn-services"></a><span data-ttu-id="b99ee-104">Skype for Business PSTN サービス</span><span class="sxs-lookup"><span data-stu-id="b99ee-104">Skype for Business PSTN Services</span></span>
 
-<span data-ttu-id="06472-p101">Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online PSTN Services Use Terms and Customer's volume licensing agreement. The PSTN Services Use Terms may be found at [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).</span><span class="sxs-lookup"><span data-stu-id="06472-p101">Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online PSTN Services Use Terms and Customer's volume licensing agreement. The PSTN Services Use Terms may be found at [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).</span></span>
+<span data-ttu-id="b99ee-p101">Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online PSTN Services Use Terms and Customer's volume licensing agreement. The PSTN Services Use Terms may be found at [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).</span><span class="sxs-lookup"><span data-stu-id="b99ee-p101">Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online PSTN Services Use Terms and Customer's volume licensing agreement. The PSTN Services Use Terms may be found at [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).</span></span>
   
-### <a name="complimentary-dial-out-period"></a><span data-ttu-id="06472-107">無料のダイヤルアウト期間</span><span class="sxs-lookup"><span data-stu-id="06472-107">Complimentary dial out period</span></span>
+### <a name="complimentary-dial-out-period"></a><span data-ttu-id="b99ee-107">無料のダイヤルアウト期間</span><span class="sxs-lookup"><span data-stu-id="b99ee-107">Complimentary dial out period</span></span>
 
-<span data-ttu-id="06472-108">Office 365 のオーディオ会議サービスを導入するお客様に追加のメリットとして、マイクロソフトは、2018 年 6 月 30日から Office 365 のオーディオ会議のライセンスが割り当てられているユーザーによって開催されるミーティングからダイヤルアウトに関連するその他の利点を提供しています。</span><span class="sxs-lookup"><span data-stu-id="06472-108">As an additional benefit to customers adopting our Office 365 Audio Conferencing service, Microsoft is providing additional benefits related to dial out from meetings organized by users assigned an Office 365 Audio Conferencing license through June 30, 2018.</span></span> <span data-ttu-id="06472-109">2018 年 6 月 30日使用期間の次の 44 の国での電話番号に、会議内からの通話のダイヤル ・ アウトを行うには、会議の開催者に与えられた権限に基づいて、ライセンスを受けたユーザーが開催するミーティングに出席するユーザを許可可能性があります。</span><span class="sxs-lookup"><span data-stu-id="06472-109">For the period through June 30, 2018, users attending meetings organized by licensed users may be allowed, based on permissions granted by the meeting organizer, to make dial-out calls from within the meeting to phone numbers in the following 44 countries:</span></span>
+<span data-ttu-id="b99ee-108">Office 365 のオーディオ会議サービスを導入するお客様に追加のメリットとして、マイクロソフトは、2018 年 6 月 30日から Office 365 のオーディオ会議のライセンスが割り当てられているユーザーによって開催されるミーティングからダイヤルアウトに関連するその他の利点を提供しています。</span><span class="sxs-lookup"><span data-stu-id="b99ee-108">As an additional benefit to customers adopting our Office 365 Audio Conferencing service, Microsoft is providing additional benefits related to dial out from meetings organized by users assigned an Office 365 Audio Conferencing license through June 30, 2018.</span></span> <span data-ttu-id="b99ee-109">2018 年 6 月 30日使用期間の次の 44 の国での電話番号に、会議内からの通話のダイヤル ・ アウトを行うには、会議の開催者に与えられた権限に基づいて、ライセンスを受けたユーザーが開催するミーティングに出席するユーザを許可可能性があります。</span><span class="sxs-lookup"><span data-stu-id="b99ee-109">For the period through June 30, 2018, users attending meetings organized by licensed users may be allowed, based on permissions granted by the meeting organizer, to make dial-out calls from within the meeting to phone numbers in the following 44 countries:</span></span>
   
 |    |
 |-----|
-|<span data-ttu-id="06472-110">オーストラリア</span><span class="sxs-lookup"><span data-stu-id="06472-110">Australia</span></span>  <br/> |
-|<span data-ttu-id="06472-111">オーストリア</span><span class="sxs-lookup"><span data-stu-id="06472-111">Austria</span></span>  <br/> |
-|<span data-ttu-id="06472-112">ベルギー</span><span class="sxs-lookup"><span data-stu-id="06472-112">Belgium</span></span>  <br/> |
-|<span data-ttu-id="06472-113">ブラジル</span><span class="sxs-lookup"><span data-stu-id="06472-113">Brazil</span></span>  <br/> |
-|<span data-ttu-id="06472-114">ブルガリア</span><span class="sxs-lookup"><span data-stu-id="06472-114">Bulgaria</span></span>  <br/> |
-|<span data-ttu-id="06472-115">カナダ</span><span class="sxs-lookup"><span data-stu-id="06472-115">Canada</span></span>  <br/> |
-|<span data-ttu-id="06472-116">中国</span><span class="sxs-lookup"><span data-stu-id="06472-116">China</span></span>  <br/> |
-|<span data-ttu-id="06472-117">クロアチア</span><span class="sxs-lookup"><span data-stu-id="06472-117">Croatia</span></span>  <br/> |
-|<span data-ttu-id="06472-118">チェコ共和国</span><span class="sxs-lookup"><span data-stu-id="06472-118">Czech Republic</span></span>  <br/> |
-|<span data-ttu-id="06472-119">デンマーク</span><span class="sxs-lookup"><span data-stu-id="06472-119">Denmark</span></span>  <br/> |
-|<span data-ttu-id="06472-120">エストニア</span><span class="sxs-lookup"><span data-stu-id="06472-120">Estonia</span></span>  <br/> |
-|<span data-ttu-id="06472-121">フィンランド</span><span class="sxs-lookup"><span data-stu-id="06472-121">Finland</span></span>  <br/> |
-|<span data-ttu-id="06472-122">フランス</span><span class="sxs-lookup"><span data-stu-id="06472-122">France</span></span>  <br/> |
-|<span data-ttu-id="06472-123">ドイツ</span><span class="sxs-lookup"><span data-stu-id="06472-123">Germany</span></span>  <br/> |
-|<span data-ttu-id="06472-124">ギリシャ</span><span class="sxs-lookup"><span data-stu-id="06472-124">Greece</span></span>  <br/> |
-|<span data-ttu-id="06472-125">香港</span><span class="sxs-lookup"><span data-stu-id="06472-125">Hong Kong</span></span>  <br/> |
-|<span data-ttu-id="06472-126">ハンガリー</span><span class="sxs-lookup"><span data-stu-id="06472-126">Hungary</span></span>  <br/> |
-|<span data-ttu-id="06472-127">インド</span><span class="sxs-lookup"><span data-stu-id="06472-127">India</span></span>  <br/> |
-|<span data-ttu-id="06472-128">アイルランド</span><span class="sxs-lookup"><span data-stu-id="06472-128">Ireland</span></span>  <br/> |
-|<span data-ttu-id="06472-129">イタリア</span><span class="sxs-lookup"><span data-stu-id="06472-129">Italy</span></span>  <br/> |
-|<span data-ttu-id="06472-130">日本</span><span class="sxs-lookup"><span data-stu-id="06472-130">Japan</span></span>  <br/> |
-|<span data-ttu-id="06472-131">ルクセンブルク</span><span class="sxs-lookup"><span data-stu-id="06472-131">Luxembourg</span></span>  <br/> |
-|<span data-ttu-id="06472-132">マレーシア</span><span class="sxs-lookup"><span data-stu-id="06472-132">Malaysia</span></span>  <br/> |
-|<span data-ttu-id="06472-133">メキシコ</span><span class="sxs-lookup"><span data-stu-id="06472-133">Mexico</span></span>  <br/> |
-|<span data-ttu-id="06472-134">オランダ</span><span class="sxs-lookup"><span data-stu-id="06472-134">Netherlands</span></span>  <br/> |
-|<span data-ttu-id="06472-135">ニュージーランド</span><span class="sxs-lookup"><span data-stu-id="06472-135">New Zealand</span></span>  <br/> |
-|<span data-ttu-id="06472-136">ノルウェー</span><span class="sxs-lookup"><span data-stu-id="06472-136">Norway</span></span>  <br/> |
-|<span data-ttu-id="06472-137">ポーランド</span><span class="sxs-lookup"><span data-stu-id="06472-137">Poland</span></span>  <br/> |
-|<span data-ttu-id="06472-138">ポルトガル</span><span class="sxs-lookup"><span data-stu-id="06472-138">Portugal</span></span>  <br/> |
-|<span data-ttu-id="06472-139">プエルトリコ</span><span class="sxs-lookup"><span data-stu-id="06472-139">Puerto Rico</span></span>  <br/> |
-|<span data-ttu-id="06472-140">ルーマニア</span><span class="sxs-lookup"><span data-stu-id="06472-140">Romania</span></span>  <br/> |
-|<span data-ttu-id="06472-141">ロシア</span><span class="sxs-lookup"><span data-stu-id="06472-141">Russia</span></span>  <br/> |
-|<span data-ttu-id="06472-142">シンガポール</span><span class="sxs-lookup"><span data-stu-id="06472-142">Singapore</span></span>  <br/> |
-|<span data-ttu-id="06472-143">スロバキア共和国</span><span class="sxs-lookup"><span data-stu-id="06472-143">Slovak Republic</span></span>  <br/> |
-|<span data-ttu-id="06472-144">スロベニア</span><span class="sxs-lookup"><span data-stu-id="06472-144">Slovenia</span></span>  <br/> |
-|<span data-ttu-id="06472-145">南アフリカ</span><span class="sxs-lookup"><span data-stu-id="06472-145">South Africa</span></span>  <br/> |
-|<span data-ttu-id="06472-146">韓国</span><span class="sxs-lookup"><span data-stu-id="06472-146">South Korea</span></span>  <br/> |
-|<span data-ttu-id="06472-147">スペイン</span><span class="sxs-lookup"><span data-stu-id="06472-147">Spain</span></span>  <br/> |
-|<span data-ttu-id="06472-148">スウェーデン</span><span class="sxs-lookup"><span data-stu-id="06472-148">Sweden</span></span>  <br/> |
-|<span data-ttu-id="06472-149">スイス</span><span class="sxs-lookup"><span data-stu-id="06472-149">Switzerland</span></span>  <br/> |
-|<span data-ttu-id="06472-150">台湾</span><span class="sxs-lookup"><span data-stu-id="06472-150">Taiwan</span></span>  <br/> |
-|<span data-ttu-id="06472-151">タイ</span><span class="sxs-lookup"><span data-stu-id="06472-151">Thailand</span></span>  <br/> |
-|<span data-ttu-id="06472-152">英国</span><span class="sxs-lookup"><span data-stu-id="06472-152">United Kingdom</span></span>  <br/> |
-|<span data-ttu-id="06472-153">米国</span><span class="sxs-lookup"><span data-stu-id="06472-153">United States</span></span>  <br/> |
+|<span data-ttu-id="b99ee-110">オーストラリア</span><span class="sxs-lookup"><span data-stu-id="b99ee-110">Australia</span></span>  <br/> |
+|<span data-ttu-id="b99ee-111">オーストリア</span><span class="sxs-lookup"><span data-stu-id="b99ee-111">Austria</span></span>  <br/> |
+|<span data-ttu-id="b99ee-112">ベルギー</span><span class="sxs-lookup"><span data-stu-id="b99ee-112">Belgium</span></span>  <br/> |
+|<span data-ttu-id="b99ee-113">ブラジル</span><span class="sxs-lookup"><span data-stu-id="b99ee-113">Brazil</span></span>  <br/> |
+|<span data-ttu-id="b99ee-114">ブルガリア</span><span class="sxs-lookup"><span data-stu-id="b99ee-114">Bulgaria</span></span>  <br/> |
+|<span data-ttu-id="b99ee-115">カナダ</span><span class="sxs-lookup"><span data-stu-id="b99ee-115">Canada</span></span>  <br/> |
+|<span data-ttu-id="b99ee-116">中国</span><span class="sxs-lookup"><span data-stu-id="b99ee-116">China</span></span>  <br/> |
+|<span data-ttu-id="b99ee-117">クロアチア</span><span class="sxs-lookup"><span data-stu-id="b99ee-117">Croatia</span></span>  <br/> |
+|<span data-ttu-id="b99ee-118">チェコ共和国</span><span class="sxs-lookup"><span data-stu-id="b99ee-118">Czech Republic</span></span>  <br/> |
+|<span data-ttu-id="b99ee-119">デンマーク</span><span class="sxs-lookup"><span data-stu-id="b99ee-119">Denmark</span></span>  <br/> |
+|<span data-ttu-id="b99ee-120">エストニア</span><span class="sxs-lookup"><span data-stu-id="b99ee-120">Estonia</span></span>  <br/> |
+|<span data-ttu-id="b99ee-121">フィンランド</span><span class="sxs-lookup"><span data-stu-id="b99ee-121">Finland</span></span>  <br/> |
+|<span data-ttu-id="b99ee-122">フランス</span><span class="sxs-lookup"><span data-stu-id="b99ee-122">France</span></span>  <br/> |
+|<span data-ttu-id="b99ee-123">ドイツ</span><span class="sxs-lookup"><span data-stu-id="b99ee-123">Germany</span></span>  <br/> |
+|<span data-ttu-id="b99ee-124">ギリシャ</span><span class="sxs-lookup"><span data-stu-id="b99ee-124">Greece</span></span>  <br/> |
+|<span data-ttu-id="b99ee-125">香港</span><span class="sxs-lookup"><span data-stu-id="b99ee-125">Hong Kong</span></span>  <br/> |
+|<span data-ttu-id="b99ee-126">ハンガリー</span><span class="sxs-lookup"><span data-stu-id="b99ee-126">Hungary</span></span>  <br/> |
+|<span data-ttu-id="b99ee-127">インド</span><span class="sxs-lookup"><span data-stu-id="b99ee-127">India</span></span>  <br/> |
+|<span data-ttu-id="b99ee-128">アイルランド</span><span class="sxs-lookup"><span data-stu-id="b99ee-128">Ireland</span></span>  <br/> |
+|<span data-ttu-id="b99ee-129">イタリア</span><span class="sxs-lookup"><span data-stu-id="b99ee-129">Italy</span></span>  <br/> |
+|<span data-ttu-id="b99ee-130">日本</span><span class="sxs-lookup"><span data-stu-id="b99ee-130">Japan</span></span>  <br/> |
+|<span data-ttu-id="b99ee-131">ルクセンブルク</span><span class="sxs-lookup"><span data-stu-id="b99ee-131">Luxembourg</span></span>  <br/> |
+|<span data-ttu-id="b99ee-132">マレーシア</span><span class="sxs-lookup"><span data-stu-id="b99ee-132">Malaysia</span></span>  <br/> |
+|<span data-ttu-id="b99ee-133">メキシコ</span><span class="sxs-lookup"><span data-stu-id="b99ee-133">Mexico</span></span>  <br/> |
+|<span data-ttu-id="b99ee-134">オランダ</span><span class="sxs-lookup"><span data-stu-id="b99ee-134">Netherlands</span></span>  <br/> |
+|<span data-ttu-id="b99ee-135">ニュージーランド</span><span class="sxs-lookup"><span data-stu-id="b99ee-135">New Zealand</span></span>  <br/> |
+|<span data-ttu-id="b99ee-136">ノルウェー</span><span class="sxs-lookup"><span data-stu-id="b99ee-136">Norway</span></span>  <br/> |
+|<span data-ttu-id="b99ee-137">ポーランド</span><span class="sxs-lookup"><span data-stu-id="b99ee-137">Poland</span></span>  <br/> |
+|<span data-ttu-id="b99ee-138">ポルトガル</span><span class="sxs-lookup"><span data-stu-id="b99ee-138">Portugal</span></span>  <br/> |
+|<span data-ttu-id="b99ee-139">プエルトリコ</span><span class="sxs-lookup"><span data-stu-id="b99ee-139">Puerto Rico</span></span>  <br/> |
+|<span data-ttu-id="b99ee-140">ルーマニア</span><span class="sxs-lookup"><span data-stu-id="b99ee-140">Romania</span></span>  <br/> |
+|<span data-ttu-id="b99ee-141">ロシア</span><span class="sxs-lookup"><span data-stu-id="b99ee-141">Russia</span></span>  <br/> |
+|<span data-ttu-id="b99ee-142">シンガポール</span><span class="sxs-lookup"><span data-stu-id="b99ee-142">Singapore</span></span>  <br/> |
+|<span data-ttu-id="b99ee-143">スロバキア共和国</span><span class="sxs-lookup"><span data-stu-id="b99ee-143">Slovak Republic</span></span>  <br/> |
+|<span data-ttu-id="b99ee-144">スロベニア</span><span class="sxs-lookup"><span data-stu-id="b99ee-144">Slovenia</span></span>  <br/> |
+|<span data-ttu-id="b99ee-145">南アフリカ</span><span class="sxs-lookup"><span data-stu-id="b99ee-145">South Africa</span></span>  <br/> |
+|<span data-ttu-id="b99ee-146">韓国</span><span class="sxs-lookup"><span data-stu-id="b99ee-146">South Korea</span></span>  <br/> |
+|<span data-ttu-id="b99ee-147">スペイン</span><span class="sxs-lookup"><span data-stu-id="b99ee-147">Spain</span></span>  <br/> |
+|<span data-ttu-id="b99ee-148">スウェーデン</span><span class="sxs-lookup"><span data-stu-id="b99ee-148">Sweden</span></span>  <br/> |
+|<span data-ttu-id="b99ee-149">スイス</span><span class="sxs-lookup"><span data-stu-id="b99ee-149">Switzerland</span></span>  <br/> |
+|<span data-ttu-id="b99ee-150">台湾</span><span class="sxs-lookup"><span data-stu-id="b99ee-150">Taiwan</span></span>  <br/> |
+|<span data-ttu-id="b99ee-151">タイ</span><span class="sxs-lookup"><span data-stu-id="b99ee-151">Thailand</span></span>  <br/> |
+|<span data-ttu-id="b99ee-152">英国</span><span class="sxs-lookup"><span data-stu-id="b99ee-152">United Kingdom</span></span>  <br/> |
+|<span data-ttu-id="b99ee-153">米国</span><span class="sxs-lookup"><span data-stu-id="b99ee-153">United States</span></span>  <br/> |
    
 > [!CAUTION]
-> <span data-ttu-id="06472-154">2018年7月1日以降、Office 365音声会議のすべてのサブスクリプションは、Office 365音声会議ライセンスが割り当てられているユーザーが主催する会議のダイヤルアウトの標準サービス規約に戻ります</span><span class="sxs-lookup"><span data-stu-id="06472-154">Beginning July 1, 2018, all Office 365 Audio Conferencing subscriptions will revert to the standard service terms for dial out from meetings organized by users with Office 365 Audio Conferencing licenses assigned</span></span> 
+> <span data-ttu-id="b99ee-154">2018年7月1日以降、Office 365音声会議のすべてのサブスクリプションは、Office 365音声会議ライセンスが割り当てられているユーザーが主催する会議のダイヤルアウトの標準サービス規約に戻ります</span><span class="sxs-lookup"><span data-stu-id="b99ee-154">Beginning July 1, 2018, all Office 365 Audio Conferencing subscriptions will revert to the standard service terms for dial out from meetings organized by users with Office 365 Audio Conferencing licenses assigned</span></span> 
   
-## <a name="related-topics"></a><span data-ttu-id="06472-155">関連トピック</span><span class="sxs-lookup"><span data-stu-id="06472-155">Related topics</span></span>
-[<span data-ttu-id="06472-156">国および地域ごとの電話会議および通話プランの利用可能性</span><span class="sxs-lookup"><span data-stu-id="06472-156">Country and region availability for Audio Conferencing and Calling Plans</span></span>](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+## <a name="related-topics"></a><span data-ttu-id="b99ee-155">関連トピック</span><span class="sxs-lookup"><span data-stu-id="b99ee-155">Related topics</span></span>
+[<span data-ttu-id="b99ee-156">国および地域ごとの電話会議および通話プランの利用可能性</span><span class="sxs-lookup"><span data-stu-id="b99ee-156">Country and region availability for Audio Conferencing and Calling Plans</span></span>](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
