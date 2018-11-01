@@ -12,7 +12,7 @@
 ### [展開の概要](../deploy/deploy-clients/room-systems-v2.md)
 ### [アカウントを構成します。](../deploy/deploy-clients/room-systems-v2-configure-accounts.md)
 ### [Office 365 を使用](../deploy/deploy-clients/with-office-365.md)
-### [ビジネス サーバー 2015 の Skype で](../deploy/deploy-clients/with-skype-for-business-server-2015.md)
+### [Skype ビジネス サーバーの使用](../deploy/deploy-clients/with-skype-for-business-server-2015.md)
 ### [Exchange オンライン (ハイブリッド) で](../deploy/deploy-clients/with-exchange-online.md)
 ### [設置型 (ハイブリッド) の交換を](../deploy/deploy-clients/with-exchange-on-premises.md)
 ### [コンソールを構成します。](../deploy/deploy-clients/console.md)
