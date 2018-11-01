@@ -19,16 +19,16 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 844fdb83a1219a23b66a3f65bc1bde69475b3eb4
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 3786d74d7708887e680fccc813c3cf245dc7d468
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23864581"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839173"
 ---
 # <a name="conference-participant-activity-report"></a>電話会議参加者アクティビティ レポート
 
-Office 365 管理者として新しい**レポート**のダッシュ ボード データを表示する、組織内で Office 365 製品の使用法にします。 **Skype**ビジネス会議参加者の設定アクティビティのレポートを表示してどのように多くの IM、オーディオとビデオ、アプリケーション共有、Web を使用することができ、組織内のユーザーがダイアル ・ イン/アウトの会議に参加されているが。
+Office 365 管理者として新しい**レポート**のダッシュ ボード データを表示する、組織内で Office 365 製品の使用法にします。 **Skype**ビジネス会議参加者の設定アクティビティのレポートを表示してどのように多くの IM、オーディオとビデオ、アプリケーション共有、Web を使用することができ、組織内のユーザーがダイアル ・ イン/アウトの会議に参加されているがします。
 
 詳細については、[レポートの概要](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)をご覧ください。
   
@@ -111,7 +111,7 @@ Office 365 管理者として新しい**レポート**のダッシュ ボード 
 
 - [Skype ビジネス セッション詳細レポート](session-details-report.md)個々 のユーザーの呼び出しの経験についての詳細を表示できます。
     
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 [Office 365 管理センターのアクティビティ レポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

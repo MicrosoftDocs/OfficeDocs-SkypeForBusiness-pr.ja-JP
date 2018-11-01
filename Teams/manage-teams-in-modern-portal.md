@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8d517ce7f2fb614a22c45fcf63d59a7d46b606f
-ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
+ms.openlocfilehash: cf9c10640b132aeea352875f2a5acafe5cd6d377
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25502335"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839110"
 ---
 <a name="manage-teams-in-the-microsoft-teams--skype-for-business-admin-center"></a>マイクロソフトのチームとビジネス管理センターの Skype のチームを管理します。
 ==========================================
@@ -34,7 +34,7 @@ IT 管理者としては、表示または更新を組織が共同作業、ま�
 - グローバル ・ アドミニストレーター
 - Teams サービス管理者
 
-マイクロソフトのチームでの管理者の役割に関する詳細については、[ここでは](using-admin-roles.md)、詳細情報を参照および[コマンドレットのリファレンスをマイクロソフトのチーム](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps)のチームを管理するための PowerShell コマンドレットを使用する方法について。  
+マイクロソフトのチームでの管理者の役割に関する詳細については、[ここでは](using-admin-roles.md)、詳細情報を参照および[コマンドレットのリファレンスをマイクロソフトのチーム](https://docs.microsoft.com/powershell/teams/?view=teams-ps)のチームを管理するための PowerShell コマンドレットを使用する方法について。  
 
 この資料では、マイクロソフトのチームとビジネス管理センターの Skype でのチームの管理ツールの概要について説明を提供します。
 
@@ -91,7 +91,7 @@ IT 管理者としては、表示または更新を組織が共同作業、ま�
 
 ## <a name="learn-more"></a>詳細情報
 
-[マイクロソフト チーム コマンドレットのリファレンス](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps)  
+[マイクロソフト チーム コマンドレットのリファレンス](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
 [マイクロソフトのチームでの管理者の役割](using-admin-roles.md)
 <!--
 [Plan for Teams Lifecycle Management](plan-for-teams-lifecycle-management.md)

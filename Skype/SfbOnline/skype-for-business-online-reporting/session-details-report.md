@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: '[] 新しい Office 365 の [ レポート] ダッシュボードには、組織内の Office 365 製品全体にわたるアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。'
-ms.openlocfilehash: 46a44a61777cdd4d52b9899429b4a17ffe6ad7cb
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 33aa42ea7acd2f28ab0e27da85421071f948ca99
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851811"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838538"
 ---
 # <a name="session-details-report"></a>セッションの詳細レポート
 
@@ -34,7 +34,7 @@ ms.locfileid: "23851811"
 このレポートとは、ビジネス レポートの他の Skype を使用すれば詳細セッションの詳細を含む、組織全体での活動です。 これらの詳細については、調査する計画、およびその他のビジネスの決定、組織と[の通信のクレジット](/microsoftteams/what-are-communications-credits)を設定するために非常に役に立つ。
   
 > [!NOTE]
-> 管理者として Office 365 管理センターにログオンすると、すべての Skype for Business レポートを見ることができます。 
+> Office 365 管理センターに管理者としてログオンすると、すべての Skype for Business レポートを表示できます。 
   
 ## <a name="how-to-get-to-the-skype-for-business-session-details-report"></a>ビジネス セッションの詳細レポートの Skype を取得する方法
 
@@ -107,7 +107,7 @@ ms.locfileid: "23851811"
     
 - [Skype for Business 電話会議開催者アクティビティ レポート](conference-organizer-activity-report.md) - ユーザーがどの程度 IM、音声/ビデオ、アプリケーション共有、Web、ダイヤルイン/アウト - サード パーティ、ダイヤルイン/アウト - Microsoft を使用した電話会議を開催しているかを確認できます。
     
-- [Skype for Business 電話会議参加者アクティビティ レポート](conference-participant-activity-report.md) - 参加者がいる IM、音声/ビデオ、アプリケーション共有、Web 会議、ダイヤルイン/ダイヤルアウト会議の数を確認できます。
+- [Skype ビジネス会議参加者の設定アクティビティのレポートを](conference-participant-activity-report.md)何 IM、オーディオとビデオ、アプリケーションの共有を参照してください、Web やダイアル ・ イン/アウトの会議の会議が参加しています。
     
 - [Skype for Business ピアツーピア アクティビティ レポート](peer-to-peer-activity-report.md) - ユーザーがどの程度 IM、音声/ビデオ、アプリケーション共有、ファイル転送を使用しているかを確認できます。
     
@@ -117,7 +117,7 @@ ms.locfileid: "23851811"
 
 - [Skype](pstn-minute-pools-report.md)ビジネス PSTN 分プール レポートの現在の月に、組織内で消費される時間を分単位を表示できます。
     
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 [Office 365 管理センターのアクティビティ レポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

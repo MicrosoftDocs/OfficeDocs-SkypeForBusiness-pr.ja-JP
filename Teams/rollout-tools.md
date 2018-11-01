@@ -12,17 +12,17 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71b1a01472448c6a0d8a1bdc2ba06ff88d3a8cfd
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 94c35dbf18b3afdeb62cb4bb463e040f38f37f65
+ms.sourcegitcommit: 360b4507c89255b61ee7204ee077200c44961f3f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012514"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "25846440"
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>Microsoft Teams のロールアウトをサポートするツールを入手する
 =================================================
 
-Microsoft Teams カスタマー サクセス キットは、お客様の組織が Microsoft Teams のロールアウトに成功するようサポートするツールを提供します。 このキットでは、お知らせ、チラシ、ポスター、カウントダウン用の電子メール テンプレート、およびヒントとコツを掲載した電子メールを用意しています。 チーム リーダーや IT 管理者向けのスタートアップ ガイドも用意しています。 [カスタマー サクセス キット](https://go.microsoft.com/fwlink/?linkid=854598)を今すぐダウンロードしましょう。
+Microsoft Teams カスタマー サクセス キットは、お客様の組織が Microsoft Teams のロールアウトに成功するようサポートするツールを提供します。 このキットでは、お知らせ、チラシ、ポスター、カウントダウン用の電子メール テンプレート、およびヒントとコツを掲載した電子メールを用意しています。 チーム リーダーや IT 管理者向けのスタートアップ ガイドも用意しています。 [チーム顧客の成功キット](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)を今すぐダウンロードします。
 
 ### <a name="learn-adjust-and-repeat"></a>学習して調整し、それを繰り返す
 

@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: Skype のビジネスのサーバーの移動の実装を計画します。
-ms.openlocfilehash: 660f5013cd2e41ea08fdd2567fb9d51f58c1b8c6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 22d5b8bdeb6a82a202740af4919756daac47010a
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003008"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839382"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>Skype のビジネスのサーバーの移動の計画
  
@@ -50,7 +50,7 @@ Skype ビジネス サーバー用の移動の機能は、2010年に戻ると、
 このすべては統合コミュニケーション Web API または UCWA を介して達成されます。 Lync Server 2013 では、UCWA が最初に導入され、Business Server の Skype の使用中であります。 、Lync 2010 クライアントと通信するための追加機能があり、モビリティ サービス (MCX) です。 これらは、Lync Server 2010 と 2013 のクライアントとビジネス クライアントは、Skype をビジネスのサーバー展開では正常にアクセスするのには、Skype の無料サービスです。
   
 > [!NOTE]
-> 従来のモバイル クライアント用の MCX サポートはビジネス サーバー 2019 の Skype で利用可能ではありません。 ユーザーは、現在のクライアントにアップグレードする必要があります。 
+> 従来のモバイル クライアント用の MCX (移動サービス) サポートがビジネス サーバー 2019 の Skype で利用可能ではありません。 ビジネスのモバイル クライアントのすべての現在 Skype は、インスタント メッセージング (IM)、プレゼンス、および取引先担当者をサポートするために既にユニファイド コミュニケーション Web API (UCWA) を使用します。 MCX を使用する従来のクライアントを持つユーザーは、現在のクライアントにアップグレードする必要があります。
   
 移動が実装されている、これらすべての機能が利用可能なですが、可能性があります機能する少しとは異なるいくつかのデバイス上に注意する必要があります。 [Skype ビジネス向けのモバイル クライアントの機能の比較](clients-and-devices/mobile-feature-comparison.md)で、どのようなデバイスで動作する機能について説明する web サイトを確認しました。 [クライアントとデバイスの計画](clients-and-devices/clients-and-devices.md)にいくつかのさまざまなデバイスと OS の情報があるもします。
   
@@ -96,7 +96,7 @@ Skype のビジネスのサーバーの移動を構成する 4 つのサービ�
     IM、プレゼンス、およびモバイル デバイス上の連絡先など、ビジネスのサーバーの機能については、Skype をサポートしています。 モビリティ サービスは、Skype をモバイル デバイスでのビジネスのサーバーの機能のサポートを目的としていますが各プール内のすべてのフロント エンド サーバーにインストールされています。 ビジネス サーバー 2015 の Skype をインストールする場合は、両方の内部および外部の web サイトのフロント エンド サーバー上で新しい仮想ディレクトリ (Mcx) が作成されます。
     
     > [!NOTE]
-    > 従来のモバイル クライアント用の MCX サポートはビジネス サーバー 2019 の Skype で利用可能ではありません。 ユーザーは、現在のクライアントにアップグレードする必要があります。
+    > 従来のモバイル クライアント用の MCX (移動サービス) サポートがビジネス サーバー 2019 の Skype で利用可能ではありません。 ビジネスのモバイル クライアントのすべての現在 Skype は、インスタント メッセージング (IM)、プレゼンス、および取引先担当者をサポートするために既にユニファイド コミュニケーション Web API (UCWA) を使用します。 MCX を使用する従来のクライアントを持つユーザーは、現在のクライアントにアップグレードする必要があります。
   
 - **自動検出サービス**
     
@@ -197,7 +197,7 @@ Skype のビジネス モバイル クライアントの自動検出を使用し
   
 ビジネスのモバイル クライアントの内部、Wi-fi ネットワーク経由でのみ Skype をサポートする場合は、外部 Web サービスの Vip の説明に従って、ソースの内部の Web サービスの Vip を構成してください。 この状況では、source_addr (TCP) を使用する必要があります、HLB の内部の Web サービスの Vip の関係です。
   
-これのすべての詳細については、[負荷分散の Skype ビジネスのための要件](network-requirements/load-balancing.md)のドキュメントを参照してください。
+このすべての詳細については、「[Load balancing requirements for Skype for Business](network-requirements/load-balancing.md)」のドキュメントを参照してください。
   
 ### <a name="reverse-proxy-requirements"></a>リバース プロキシの要件
 
@@ -216,7 +216,7 @@ Skype のビジネス モバイル クライアントの自動検出をサポー
 
 自動検出を使用することを強くお勧めします。 それには、上記の「技術要件」のセクションで説明したように、内部および外部の新しい DNS レコードを作成する必要があります。 による自動検出に手動で入力する URL を必要とせず、任意の場所からビジネス サーバーの Web サービスの Skype をビジネス クライアント用の Skype が自動的に見つけることができます。
   
-必要な場合は手動設定を使用できます。以下の URL は、ユーザーがモバイル デバイスに入力する必要があります。
+必要な場合は手動設定を使用できます。 以下の URL は、ユーザーがモバイル デバイスに入力する必要があります。
   
 - **https://\<ExtPoolFQDN\>/Autodiscover/autodiscoverservice.svc/Root**外部アクセス用です。
     
@@ -233,7 +233,7 @@ Skype のビジネス モバイル クライアントの自動検出をサポー
   
 ### <a name="do-you-want-all-your-users-accessing-all-mobility-features-or-do-you-want-to-specify-the-users-who-can-access-these-features-instead"></a>すべてのモビリティ機能にアクセスするすべてのユーザーか、または代わりにこれらの機能にアクセスできるユーザーを指定するでしょうか。
 
-既定の方法かを設定しているかどうかをすべてのユーザーに提供される機能の一部を支援するテーブルがあります。 一覧については、[新規 CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)を参照してください。
+既定の方法かを設定しているかどうかをすべてのユーザーに提供される機能の一部を支援するテーブルがあります。 すべての機能のリストについては、「[New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)」を参照してください。
   
 > [!NOTE]
 > これらすべての機能の適用範囲は、グローバル/サイト/ユーザーです。 

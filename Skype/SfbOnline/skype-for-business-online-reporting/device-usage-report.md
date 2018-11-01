@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '[] 新しい Office 365 の [ レポート] ダッシュボードには、組織内の Office 365 製品全体にわたるアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 やなどのデバイスの使用状況レポートをビジネス用の Skype を使用するには、Windows ベースのオペレーティング システムを含む、デバイスにモバイル デバイスをビジネス アプリケーションの Skype がインストールされ、IM および会議のためのそれを使用しています。 詳細については、Office 365 の管理センターでの活動レポートをご覧ください。'
-ms.openlocfilehash: 72d700f5e3c63fde3f4a17f6a652643695303a8d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 3d5561bfe0f2a2c5b6900c7cf6a1e92d63741992
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23863385"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838682"
 ---
 # <a name="device-usage-report"></a>デバイスの使用状況のレポート
 
@@ -75,7 +75,7 @@ ms.locfileid: "23863385"
 
 どちらのグラフも、X 軸はこの特定のレポートで選択した日付範囲です。
 ***
-![数 7](../images/sfbcallout7.png)<br/>表では、ユーザーごとのすべての会議活動の内訳を示します。 Skype との会議のアクティビティに割り当てられているビジネスのためのすべてのユーザーが表示されます。 表には、追加の列を追加することができます。
+![数 7](../images/sfbcallout7.png)<br/>表では、ユーザーごとのすべての会議活動の内訳を示します。 Skype との会議のアクティビティに割り当てられているビジネスのためのすべてのユーザーが表示されます。 表には、列を追加することができます。
 *    [ **ユーザー名**] はユーザーの名前です。 
 *    **最後のアクティビティの日付 (UTC)** は、ユーザーがピア ツー ピア セッションに参加または会議を開催または会議に参加した最後の時刻です。
 *    ユーザーが Windows ベースのオペレーティング システムにインストールされているビジネスのクライアント アプリケーションの Skype があり、使用されている場合は、**ウィンドウ**をオフにします。 
@@ -96,7 +96,7 @@ ms.locfileid: "23863385"
     
 - [Skype for Business 電話会議開催者アクティビティ レポート](conference-organizer-activity-report.md) - ユーザーがどの程度 IM、音声/ビデオ、アプリケーション共有、Web、ダイヤルイン/アウト - サード パーティ、ダイヤルイン/アウト - Microsoft を使用した電話会議を開催しているかを確認できます。
     
-- [Skype for Business 電話会議参加者アクティビティ レポート](conference-participant-activity-report.md) - 参加者がいる IM、音声/ビデオ、アプリケーション共有、Web 会議、ダイヤルイン/ダイヤルアウト会議の数を確認できます。
+- [Skype ビジネス会議参加者の設定アクティビティのレポートを](conference-participant-activity-report.md)何 IM、オーディオとビデオ、アプリケーションの共有を参照してください、Web やダイアル ・ イン/アウトの会議の会議が参加しています。
     
 - [Skype for Business ピアツーピア アクティビティ レポート](peer-to-peer-activity-report.md) - ユーザーがどの程度 IM、音声/ビデオ、アプリケーション共有、ファイル転送を使用しているかを確認できます。
     
@@ -108,7 +108,7 @@ ms.locfileid: "23863385"
 
 - [Skype ビジネス セッション詳細レポート](session-details-report.md)個々 のユーザーの呼び出しの経験についての詳細を表示できます。
     
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 [Office 365 管理センターのアクティビティ レポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

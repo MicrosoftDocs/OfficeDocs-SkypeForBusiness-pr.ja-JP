@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype 画面ビデオ ・ ベース (VbSS) を共有するためのビジネス サーバーの計画と構成について
-ms.openlocfilehash: a7ea07f02b73b1092a11f61757318d0d653e048a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8541bb0dc3b5791c670a3beac77560b3c9663733
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375909"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839748"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>ビデオ ベースの画面共有 Skype のビジネス サーバー 
  
@@ -99,7 +99,7 @@ Skype ビジネス サーバー 2015 累積的な更新プログラム 2 (CU2) �
   
 |**1080p コンテンツ **|**RDP の平均値**|**RDP のピーク**|**VbSS の平均**|**VbSS のピーク**|
 |:-----|:-----|:-----|:-----|:-----|
-|PPT  <br/> |200 kbps  <br/> |12mbps  <br/> |100 kbps  <br/> |3mbps  <br/> |
+|PPT  <br/> |200kbps  <br/> |12mbps  <br/> |100kbps  <br/> |3mbps  <br/> |
 |CAD  <br/> |3mbps  <br/> |7mbps  <br/> |1mbps  <br/> |3mbps  <br/> |
 |ビデオ  <br/> |5mbps  <br/> |7mbps  <br/> |1.3mbps  <br/> |2.2mbps  <br/> |
    
@@ -150,7 +150,7 @@ VbSS の帯域幅:
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
   ```
 
-    このコマンドの詳細については、[セット CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)を参照してください。
+    このコマンドの詳細については、[セット CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)を参照してください。
     
 - VbSS を完全にオフにしたい場合は、このコマンドを実行します。
     
@@ -158,7 +158,7 @@ VbSS の帯域幅:
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
-    このコマンドの詳細については、[一連の CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)を参照してください。
+    このコマンドの詳細については、[一連の CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)を参照してください。
     
 > [!NOTE]
 > ビジネス会議のための複数の Skype ですべてのクライアント エンドポイントは、会議の開催者のポリシーの設定を尊重します。 
@@ -177,7 +177,7 @@ VbSS の帯域幅:
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
-    このコマンドの詳細については、[セット CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)を参照してください。
+    このコマンドの詳細については、[セット CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)を参照してください。
     
 - VbSS をオフにした後でオンに戻したい場合は、このコマンドを実行します。
     
@@ -185,7 +185,7 @@ VbSS の帯域幅:
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 
-    このコマンドの詳細については、[一連の CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)を参照してください。
+    このコマンドの詳細については、[一連の CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)を参照してください。
     
 > [!NOTE]
 > ビジネス会議のための複数相手の Skype ですべてのクライアント エンドポイントは、会議の開催者のポリシーの設定を尊重します。 

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 呼び出すデータ コネクタを遠隔測定 Skype からのビジネスの設置型のビジネスのオンライン ・ ツールの Skype を使用して表示するを構成する方法の詳細については。
-ms.openlocfilehash: adc1c9a1e50130796c4749a958e9030c10a09fd0
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: 959bb182da91029fd43ebc3ccb99fb5a69d820b2
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696178"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838824"
 ---
 # <a name="configure-call-data-connector"></a>呼び出しデータ コネクタを構成します。
 
@@ -46,7 +46,7 @@ ms.locfileid: "25696178"
 
 ### <a name="configure-your-environment"></a>お客様の環境を構成します。 
 
-オンラインでのデータ コレクターを有効にするように環境を構成するにする必要があります最初 Skype にビジネス オンライン PowerShell の管理者としてログオンします。 詳細については、[ビジネス、オンラインで Office 365 の PowerShell の Skype の管理](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)を参照してください。
+オンラインでのデータ コレクターを有効にするように環境を構成するにする必要があります最初 Skype にビジネス オンライン PowerShell の管理者としてログオンします。 詳細については、[ビジネス、オンラインで Office 365 の PowerShell の Skype の管理](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)を参照してください。
 
 ビジネス オンラインの PowerShell の Skype にログインするための 2 つの方法があります。
 
@@ -135,7 +135,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 
 ## <a name="view-on-premises-data-through-the-online-dashboard"></a>ビュー設置オンライン ダッシュ ボードを使用してデータ
 
- データ コネクタの呼び出しを有効にすると、[品質の低下をトラブルシューティングするのにを呼び出して分析機能の使用](https://docs.microsoft.com/en-us/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)で説明するよう呼び出し分析ダッシュ ボードの設置型の呼び出しデータを表示できます。
+ データ コネクタの呼び出しを有効にすると、[品質の低下をトラブルシューティングするのにを呼び出して分析機能の使用](https://docs.microsoft.com/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)で説明するよう呼び出し分析ダッシュ ボードの設置型の呼び出しデータを表示できます。
 
 
 ## <a name="for-more-information"></a>関連情報

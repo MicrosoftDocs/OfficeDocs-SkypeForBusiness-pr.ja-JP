@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: ハイブリッド シナリオでは、設置型の実装を監視する遠隔測定ツールのオンライン ビジネスの Skype を使用する場合の概要です。
-ms.openlocfilehash: e9039d3865e3baf5740f4f7489b1a7cfec6dea98
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: d704f23f9b8260e8d755c4d1f0f48da927859ba1
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696213"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838521"
 ---
 # <a name="plan-call-data-connector"></a>呼び出しデータ コネクタを計画します。
 
@@ -46,7 +46,7 @@ ms.locfileid: "25696213"
 
 - 通話品質のダッシュ ボードでは、ネットワークのパフォーマンスに焦点を当てていて、組織全体で発行します。 ビジネス管理者およびネットワーク ・ エンジニアの Skype では、このツールを使用のトラブルシューティングを行うし、ネットワーク パフォーマンスを最適化します。
 
-詳細については、[分析機能を呼び出すと品質のダッシュ ボードを呼び出す](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)を参照してください。
+詳細については、[分析機能を呼び出すと品質のダッシュ ボードを呼び出す](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)を参照してください。
 
 もちろん、施設内にいくつかの呼び出し品質のデータを保持することもできます。 これがある場合、たとえば、カスタマイズされたレポートおよびワークフローにより、サード ・ パーティ製ソリューションを使用している場合。  呼び出しデータ コネクタも維持しながら、データのコピー、オンプレミスのサーバー上で次の図に示すように、オンライン サービスに送信するデータを構成できます。
 
@@ -55,7 +55,7 @@ ms.locfileid: "25696213"
 
 ## <a name="requirements"></a>要件
 
-次の要件では、ビジネス サーバーのトポロジでサポートされている展開の Skype が既にあることを前提としています。  Skype をビジネスのサーバーおよびサポートされているトポロジの展開に関する詳細については、[トポロジの基礎](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics)を参照してください。 データの電話コネクタを構成するには、次の操作を行う必要があります。
+次の要件では、ビジネス サーバーのトポロジでサポートされている展開の Skype が既にあることを前提としています。  Skype をビジネスのサーバーおよびサポートされているトポロジの展開に関する詳細については、[トポロジの基礎](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics)を参照してください。 データの電話コネクタを構成するには、次の操作を行う必要があります。
 
 - ハイブリッド接続を有効にします。 ビジネス サーバーの展開の Skype があるし、データの電話コネクタを有効にするは、ハイブリッド接続の設置とオンライン環境の設定があることを確認する必要があります。 分割ドメインの構成とも呼びます。 
 

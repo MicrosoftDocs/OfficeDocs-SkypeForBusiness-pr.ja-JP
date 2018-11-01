@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: '概要: は、Skype をビジネスのサーバーを実装する前にポートの使用法に関する考慮事項を確認します。'
-ms.openlocfilehash: 6587bcfa9721362067d70bfc2e15549fa2a8e326
-ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
+ms.openlocfilehash: 3de98f096215c8f703f23081d2b102d3d5c9ffac
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25593696"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838608"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>サーバーのポートとプロトコルの要件
  
@@ -49,7 +49,7 @@ ms.locfileid: "25593696"
 
 |サーバーの役割|サービス名|ポート|プロトコル|メモ|
 |:-----|:-----|:-----|:-----|:-----|
-|すべてのサーバー  |SQL ブラウザー  |1434  |UDP  |ローカルにレプリケートされた中央管理ストアのコピーに対する SQL ブラウザー。  |
+|すべてのサーバー  |SQL ブラウザー  |1434  |UDP  |レプリケートされたデータベースのローカル コピー、中央管理ストアに SQL ブラウザーです。  |
 |フロントエンド サーバー  |ビジネス サーバーのフロント エンド サービスの Skype  |5060  |TCP  |リモート通話コントロール サーバーなどの Standard Edition サーバーとフロントエンド サーバーで、信頼されたサービスへの静的ルートの場合にオプションとして使用。  |
 |フロントエンド サーバー  |ビジネス サーバーのフロント エンド サービスの Skype  |5061  | TCP (TLS) |サーバー間のすべての内部 SIP 通信 (MTLS)、サーバーとクライアントの間の SIP 通信 (TLS)、およびフロントエンド サーバーと仲介サーバーの間の SIP 通信 (MTLS) において、Standard Edition サーバーとフロントエンド プールで使用。監視サーバーとの通信でも使用。  |
 | フロントエンド サーバー |ビジネス サーバーのフロント エンド サービスの Skype  |444  | HTTPS <br/> TCP  |フォーカス (会議の状態を管理するビジネスのサーバー コンポーネントの Skype) と個々 のサーバー間の HTTPS の通信に使用されます。  <br/> このポートはブランチ アプライアンスのリカバリ性に優れた、フロント エンド サーバー間で TCP 通信にも使用されます。  |

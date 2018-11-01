@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: コネクタ Edition のクラウド展開のトラブルシューティングを行います。
-ms.openlocfilehash: 5dbb046680824f2af72688844914db0096e2ded1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2290d032f1461c37c31d138510388f17a52f5843
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371314"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838622"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Cloud Connector 展開をトラブルシューティングする
  
@@ -93,7 +93,7 @@ ms.locfileid: "25371314"
     
   - CMS/仲介サーバーにログオンし、Corpnet NIC で有効な IP アドレスが割り当てられていることと、AD サーバーの IP アドレスとして有効な固定 IP アドレスと DNS が構成されていることを確認します。
     
-  - CMS/仲介サーバーにログオンし、コマンド プロンプトを開きます。 アクティブ ディレクトリ サーバーの FQDN と IP アドレスに ping を実行することを確認します。 できない場合は、IP アドレスの競合がある可能性があります。 Active Directory の新しい ip アドレスを割り当てるし、それに応じて CMS/仲介サーバー上で DNS を更新してみてください。
+  - CMS/仲介サーバーにログオンし、コマンド プロンプトを開きます。 Active Directory サーバーの FQDN と IP アドレスに対して ping を実行できることを確かめます。 実行できない場合は、IP アドレスの競合が考えられます。 Active Directory に新しい IP を割り当てて、CMS/仲介サーバーで DNS を更新することを試してください。
     
 - **問題: 次のエラー メッセージを受信する"削除 VMSwitch: 仮想のイーサネット スイッチを削除中に失敗しました。'クラウド コネクタ管理スイッチ' 仮想スイッチの仮想マシンを実行することによって使用されているために、削除またはできない子のプールに割り当てられている。」**
     
@@ -154,7 +154,7 @@ ms.locfileid: "25371314"
   Set-CsHybridPSTNSite -EnableAutoUpdate $true
   ```
 
-    または、更新プログラムを手動で確認してインストールすることができます。次のセクションを参照してください。
+    または、更新プログラムを手動で確認してインストールすることができます。 次のセクションを参照してください。
     
 - **問題: エラー メッセージが表示する: ために、アプライアンスを登録できません、現在の入力と構成\<サイト名\>または\<アプライアンス名\>または\<仲介サーバーの FQDN\>または\<仲介サーバーの IP アドレス\>既存のアプライアンスと競合しています。競合アプライアンスを削除し、入力と構成情報を更新または再登録します。' をオンラインの現在のアプライアンスを登録するのにはレジスタの CcAppliance を実行するとします。**
     
@@ -222,7 +222,7 @@ ms.locfileid: "25371314"
     Remove-CcLegacyServerCertificate 
     ```
 
-3. Exit-CcUpdate コマンドレットを実行して、サービスを開始し、メンテナンス モードを終了します。
+3. サービスを開始し、保守モードを終了する終了 CcUpdate コマンドレットを実行します。
     
 4. アプライアンスのローカル ファイルで Export-CcRootCertificate コマンドレットを実行し、エクスポートした証明書を PSTN ゲートウェイにコピーしてインストールします。
     
@@ -272,7 +272,7 @@ ms.locfileid: "25371314"
 
 - **問題: 展開に使用するホスト サーバーのアカウントのパスワードを変更すると後が表示されたら、次のエラー メッセージ:"寄せ SecureString: で使用できない無効なキーが指定されている状態です"ビジネス クラウド コネクタの %ProgramFiles%\Skype で。Edition\ManagementService\CceManagementService.log または Get CcCredential コマンドレットを実行しているとき。**
     
-    **の解像度:** クラウド コネクタのすべての資格情報は、次のファイルに格納されます:"%systemdrive%\programdata\cloudconnector\credentials。\<CurrentUser\>.xml」です。 ホスト サーバーのパスワードが変更されたときは、ローカルに保存された資格情報を更新する必要があります。
+    **の解像度:** クラウド コネクタのすべての資格情報は、次のファイルに格納されます:"%systemdrive%\programdata\cloudconnector\credentials。\<CurrentUser\>.xml」です。 ホスト サーバーのパスワードを変更するときには、ローカルで格納されている資格情報を更新する必要があります。
     
     **Cloud Connector バージョン 1.4.2 を実行している場合は、** 次の手順を実行してすべての Cloud Connector パスワードを再生成します。
     
@@ -280,7 +280,7 @@ ms.locfileid: "25371314"
     
   2. 次のファイルを削除します。"% SystemDrive%\Programdata\Cloudconnector\credentials。\<CurrentUser\>.xml」です。
     
-  3. 管理者として PowerShell コンソールを起動し、実行して"登録 CcAppliance-ローカル"次の説明、パスワードを再入力します。 クラウドのコネクタの配置の前に入力した同じパスワードを入力します。
+  3. 管理者として PowerShell コンソールを起動し、実行して"登録 CcAppliance-ローカル"次の説明、パスワードを再入力します。 Cloud Connector の展開で前回使用したパスワードと同じパスワードを入力します。
     
      **クラウド コネクタ バージョン 2.0 以降を実行している場合**は、次の手順でクラウドのコネクタのすべてのパスワードを再生成します。
     
@@ -300,7 +300,7 @@ ms.locfileid: "25371314"
     
   9. 新しいアカウントの資格情報を求められた場合は、以前使用していた DomainAdmin パスワードを入力します。
     
-     クラウド コネクタ バージョン 2.0 またはそれ以降、デフォルトでキャッシュされたパスワード ファイルが生成された場合 VmAdmin と DomainAdmin パスワードを使用して、同じ CceService として。 DomainAdmin と VMAdmin のパスワードを変更した場合は、次の手順を行う必要があります。
+     クラウド コネクタ バージョン 2.0 またはそれ以降、デフォルトでキャッシュされたパスワード ファイルが生成された場合 VmAdmin と DomainAdmin パスワードを使用して、同じ CceService として。 DomainAdmin と VMAdmin のパスワードを変更した場合は、次の手順を実行する必要があります。
     
   10. Set-CcCredential -AccountType DomainAdmin を次のように実行します。
     

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'ビジネス Web アプリケーションの概要: が、Skype を導入し、Skype 会議アプリケーションがビジネスの Skype を使用します。'
-ms.openlocfilehash: c50a8afc4d12d7f3cf35fdcc966e322bd48199fc
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 13facacfc2e42ec45e29aae1c1006c792ef6ac1e
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699538"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839227"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Skype のダウンロード可能なクライアントの Web をビジネスのサーバーの展開します。
 
@@ -75,7 +75,7 @@ ms.locfileid: "25699538"
 
 BranchCache 機能は、Windows 7 および Windows Server 2008 R2 は、ビジネス Web アプリケーションの web コンポーネントの Skype に干渉することができます。 Skype の問題を防ぐため、ビジネス Web アプリケーションのユーザーに対して、BranchCache が有効になっていないことを確認します。
 
-Branchcache を使用を無効にする方法の詳細は、 [BranchCache の展開ガイド 』](https://docs.microsoft.com/en-us/windows-server/networking/branchcache/deploy/branchcache-deployment-guide)を参照してください。
+Branchcache を使用を無効にする方法の詳細は、 [BranchCache の展開ガイド 』](https://docs.microsoft.com/windows-server/networking/branchcache/deploy/branchcache-deployment-guide)を参照してください。
 
 ## <a name="verifying-skype-for-business-web-app-deployment"></a>Skype のビジネス Web アプリケーションの配置の確認
 <a name="MFA"> </a>
@@ -133,7 +133,7 @@ Windows Server 2008 R2 を実行しているコンピューター上のプラグ
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    Microsoft に送信された情報は、「[Skype for Business のデータ収集](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/data-collection-practices)」が厳格に適用されます。
+    Microsoft に送信された情報は、「[Skype for Business のデータ収集](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices)」が厳格に適用されます。
 
 3. CDN を使用できない場合は、クリアテキストへのフォールバック Skype をローカルにホストされる Web アプリケーションのビジネス経験をする前にタイムアウトを設定します。 既定値は 6 秒です。 この値を 0 に設定すると、タイムアウトはなくなります。
 

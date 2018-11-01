@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: '概要: は、Exchange と SharePoint サーバー 2015 のビジネス統合のための Skype について説明します。'
-ms.openlocfilehash: f90e6c4724905edafdf0b8c6d3aec5f50d7a3996
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8d080174ab5560384478c1320d09bc218ef8543b
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886234"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839213"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Exchange と SharePoint との統合
 
@@ -48,7 +48,7 @@ ms.locfileid: "23886234"
 |Outlook 予定表の空き時間情報に基づく状態の公開  <br/> ||
 |連絡先リスト (統合連絡先ストア経由)  <br/> |2016 の Exchange または Exchange 2013 が必要です。  <br/> Lync 2013 または Skype のビジネス デスクトップ クライアントが必要です。  <br/>  詳細については、[統合連絡先ストアを使用するサーバー 2015 のビジネス用の Skype の構成](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md)を参照してください。  <br/> |
 |Lync 2013 クライアント、Skype のビジネスのクライアントと Lync Web App で連絡先の写真を高解像度です。  <br/> |2016 の Exchange または Exchange 2013 が必要です。  <br/> 詳細については、[構成サーバー 2015 のビジネス用の Skype の高解像度の写真の使用](../deploy/integrate-with-exchange-server/high-resolution-photos.md)を参照してください。  <br/> |
-|会議の委任  <br/> |両方のユーザーが同じフォレスト内で常時オンラインである場合、または両方のユーザーがオンプレミスに属する場合にのみサポートされます。 詳細については、[ハイブリッド ソリューションのビジネス用の Skype](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)を参照してください。 <br/> |
+|会議の委任  <br/> |両方のユーザーが同じフォレスト内で常時オンラインである場合、または両方のユーザーがオンプレミスに属する場合にのみサポートされます。 詳細については、[ハイブリッド ソリューションのビジネス用の Skype](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)を参照してください。 <br/> |
 |不在着信の会話の履歴とログの呼び出しは、ユーザーの exchange メールボックスに書き込まれます。  <br/> ||
 |Exchange でのコンテンツのアーカイブ (IM および会議)  <br/> |2016 の Exchange または Exchange 2013 が必要です。  <br/> 詳細については、[アーカイブの展開のチェックリスト](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx)を参照してください。  <br/> |
 |アーカイブされたコンテンツの検索  <br/> |2016 の Exchange または Exchange 2013 が必要です。  <br/> |
@@ -68,10 +68,10 @@ ms.locfileid: "23886234"
 |Outlook 予定表の空き時間情報に基づく状態の公開  <br/> ||
 |連絡先リスト (統合連絡先ストア経由)。  <br/> |Lync Server 2013 のみです。 Lync 2013 または Skype のビジネス デスクトップ クライアントが必要です。  <br/> 詳細については、[統合連絡先ストアを使用するサーバー 2015 のビジネス用の Skype の構成](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md)を参照してください。 <br/> |
 |Lync 2013 クライアント、Skype のビジネスのクライアントと Lync Web App で連絡先の写真を高解像度です。  <br/> |詳細については、[構成サーバー 2015 のビジネス用の Skype の高解像度の写真の使用](../deploy/integrate-with-exchange-server/high-resolution-photos.md)を参照してください。  <br/> |
-|会議の委任  <br/> |両方のユーザーが同じフォレスト内で常時オンラインである場合、または両方のユーザーがオンプレミスに属する場合にのみサポートされます。 詳細については、[ハイブリッド ソリューションのビジネス用の Skype](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)を参照してください。 <br/> |
+|会議の委任  <br/> |両方のユーザーが同じフォレスト内で常時オンラインである場合、または両方のユーザーがオンプレミスに属する場合にのみサポートされます。 詳細については、[ハイブリッド ソリューションのビジネス用の Skype](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)を参照してください。 <br/> |
 |不在着信の会話の履歴とログの呼び出しは、ユーザーの Exchange メールボックスに書き込まれます。  <br/> ||
 |Exchange でのコンテンツのアーカイブ (IM および会議)  <br/> |詳細については、[アーカイブの展開のチェックリスト](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx)を参照してください。  <br/> |
-|アーカイブされたコンテンツの検索  <br/> |詳細については、 [SharePoint の電子情報開示センターの Exchange の構成](https://go.microsoft.com/fwlink/p/?LinkId=285448)で参照してください。 <br/> |
+|アーカイブされたコンテンツの検索  <br/> |詳細については、「[SharePoint の電子情報開示センター用の Exchange の構成](https://go.microsoft.com/fwlink/p/?LinkId=285448)」を参照してください。 <br/> |
 |ボイス メール  <br/> |詳細については、[提供する Lync Server 2013 ユーザー ボイス メールでホストされている Exchange UM](https://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx)を参照してください。  <br/> |
 
  **オンライン ビジネスとの社内の Exchange の Skype**
@@ -87,7 +87,7 @@ ms.locfileid: "23886234"
 |Outlook 予定表の空き時間情報に基づく状態の公開  <br/> ||
 |不在着信の会話の履歴とログの呼び出しは、ユーザーの exchange メールボックスに書き込まれます。  <br/> ||
 |Lync 2013 またはビジネス クライアント用の Skype の連絡先の写真を高解像度です。  <br/> |2016 の Exchange または Exchange 2013 が必要です。 ビジネス オンラインの Skype のユーザーが置かれている場合は、Lync Web App でサポートこのされていません。  <br/> |
-|会議の委任  <br/> |両方のユーザーが同じフォレスト内で常時オンラインである場合、または両方のユーザーがオンプレミスに属する場合にのみサポートされます。 詳細については、[ハイブリッド ソリューションのビジネス用の Skype](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)を参照してください。 <br/> |
+|会議の委任  <br/> |両方のユーザーが同じフォレスト内で常時オンラインである場合、または両方のユーザーがオンプレミスに属する場合にのみサポートされます。 詳細については、[ハイブリッド ソリューションのビジネス用の Skype](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)を参照してください。 <br/> |
 |不在着信の会話の履歴とログの呼び出しは、ユーザーの Exchange メールボックスに書き込まれます。  <br/> ||
 |サーバー側の会話履歴  <br/> ||
 
@@ -106,7 +106,7 @@ ms.locfileid: "23886234"
 |不在着信の会話の履歴とログの呼び出しは、ユーザーの exchange メールボックスに書き込まれます。  <br/> ||
 |連絡先リスト (統合連絡先ストア経由)  <br/> |Lync Server 2013 または Skype のビジネス クライアントが必要です。  <br/> |
 |Lync 2013 は、Skype のビジネス クライアントでは、Lync Web App で連絡先の写真を高解像度  <br/> ||
-|会議の委任  <br/> |両方のユーザーが同じフォレスト内で常時オンラインである場合、または両方のユーザーがオンプレミスに属する場合にのみサポートされます。 詳細については、[ハイブリッド ソリューションのビジネス用の Skype](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)を参照してください。 <br/> |
+|会議の委任  <br/> |両方のユーザーが同じフォレスト内で常時オンラインである場合、または両方のユーザーがオンプレミスに属する場合にのみサポートされます。 詳細については、[ハイブリッド ソリューションのビジネス用の Skype](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)を参照してください。 <br/> |
 |Exchange でのコンテンツのアーカイブ (IM および会議)  <br/> ||
 |アーカイブされたコンテンツの検索  <br/> ||
 |ボイスメール  <br/> ||
