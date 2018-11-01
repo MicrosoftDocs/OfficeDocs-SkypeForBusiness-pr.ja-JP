@@ -1,0 +1,81 @@
+﻿---
+title: 'Lync Server 2013: tblLastChatId'
+TOCTitle: tblLastChatId
+ms:assetid: 17a4ffbe-cca9-4ec5-ae46-38a15274889a
+ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg558616(v=OCS.15)
+ms:contentKeyID: 48271396
+ms.date: 05/19/2016
+mtps_version: v=OCS.15
+ms.translationtype: HT
+---
+
+# Lync Server 2013 の tblLastChatId
+
+ 
+
+_**トピックの最終更新日:** 2015-03-09_
+
+tblLastChatId には、各ユーザーに対して生成された (および tblChat テーブルで使用された) 最後のチャット ID が格納されます。
+
+### 列
+
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>列</th>
+<th>型</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>nodeID</p></td>
+<td><p>NULL でない int</p></td>
+<td><p>ノード ID (チャット ルーム種類のみ)。</p></td>
+</tr>
+<tr class="even">
+<td><p>lastChatID</p></td>
+<td><p>NULL でない bigint</p></td>
+<td><p>最後に使用されたチャット ID。</p></td>
+</tr>
+</tbody>
+</table>
+
+
+### キー
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>列</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>&lt;nodeID, lastChatID&gt;</p></td>
+<td><p>主キー (処理には nodeID のみで十分)。</p></td>
+</tr>
+<tr class="even">
+<td><p>nodeID</p></td>
+<td><p>tblNode.nodeID テーブルを参照する外部キー。</p></td>
+</tr>
+</tbody>
+</table>
+
+
+## 関連項目
+
+#### 概念
+
+[Lync Server 2013 の tblChat](lync-server-2013-tblchat.md)
+
