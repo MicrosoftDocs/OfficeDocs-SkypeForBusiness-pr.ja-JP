@@ -22,14 +22,13 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: true
 description: お客様は、Skype for Business Online PSTNサービス利用規約およびお客様のボリュームライセンス契約で許可されているとおり、Office 365通話プランとOffice 365音声会議を使用することができます。
-ms.openlocfilehash: c2d241c37d6124a19b4351142e9a25ff8c29fbb9
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 7415042e6604ae6bfa779fdcd578422faf7ac40c
+ms.sourcegitcommit: afc415ad4d0c2ed013eaf5f68a72418e66734ff0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699589"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25898128"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音声会議の無料ダイヤル アウト期間
 

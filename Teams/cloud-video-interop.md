@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8741a76ccfbc9ef16cbf9c4298bacace25ac36ad
-ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
+ms.openlocfilehash: 44dc13f9ff6fd391d84a5a461badc7edbc8abbdb
+ms.sourcegitcommit: afc415ad4d0c2ed013eaf5f68a72418e66734ff0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25040773"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25898136"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>クラウド ビデオの相互運用機能のマイクロソフトのチーム
 
@@ -30,11 +30,11 @@ ms.locfileid: "25040773"
 以下のパートナーでは、マイクロソフトのチームのビデオの相互運用機能のソリューションをしています。 会社は、これらのパートナー、企業内の任意の組み合わせを使用することができます。 
 
 
-|パートナー|パートナー ソリューション|可用性|
-|----|---|----|
-|![ポリコム RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">ポリコム RealConnect サービス</a> |利用できるようになりました|
-|![Pexip 無限大](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">マイクロソフトのチームの Pexip の無限大</a> | 2018 年 10 月 19日|
-|![BlueJeans ゲートウェイ](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">マイクロソフトのチームの blueJeans のゲートウェイ</a> | 2018 年 10 月 31日|
+|パートナー|パートナー ソリューション|
+|----|---|
+|![ポリコム RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">ポリコム RealConnect サービス</a> |
+|![Pexip 無限大](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">マイクロソフトのチームの Pexip の無限大</a> | 
+|![BlueJeans ゲートウェイ](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">マイクロソフトのチームの blueJeans のゲートウェイ</a> |
 
 ## <a name="partner-solutions"></a>パートナー ・ ソリューション
 
