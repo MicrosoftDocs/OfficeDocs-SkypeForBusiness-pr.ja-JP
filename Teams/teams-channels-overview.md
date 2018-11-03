@@ -3,7 +3,7 @@ title: Microsoft Teams でのチームとチャネルの概要
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 11/02/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b02fd487b7a5ef6ab7422791487a1c9cb3fa5795
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 552d6f084de369ce87f3e1e44d4e3ebc968b06ea
+ms.sourcegitcommit: f9410a182f571d2a8ebe71ecd91ec97f83d8e077
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699311"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25942816"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要
 =================================================
@@ -83,3 +83,6 @@ Microsoft Teams は、縦割り組織を解体して機能横断型チームを�
 
 ![チームとチャネルが Microsoft Teams 内でどのように編成されるかを示す階層図。](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
 
+## <a name="org-wide-teams"></a>組織全体にわたるチーム
+
+組織には 1,000 人のユーザーがある場合、組織全体にわたるチームを作成できます。 組織全体にわたるチームは、共同作業の 1 つのチームの一部にする組織内の全員に自動的にする手段を提供します。 作成し、組織全体のチームを管理するためのベスト プラクティスを含む詳細については、[マイクロソフトのチームで、組織全体にわたるチームを作成する](create-an-org-wide-team.md)を参照してください。
