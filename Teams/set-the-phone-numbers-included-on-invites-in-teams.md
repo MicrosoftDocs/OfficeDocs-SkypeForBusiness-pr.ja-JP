@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'マイクロソフトのチーム ミーティングに参加するのには呼び出し元の既定の電話番号を作成する手順を取得します。 '
-ms.openlocfilehash: 859bf6f4a99f95c67123385c99061b1546eaa60c
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 20dfd4255cd41e9f5aebf419f77307b30fe40042
+ms.sourcegitcommit: 75e0c9e186dc167bad01f5b17ec9de8a682ee007
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347578"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "26005522"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Microsfot Teams で招待状に含まれている電話番号を設定する
 
-マイクロソフト チームの会議を作成して、電話を使用してその会議にダイヤルインするユーザーを許可し、組織内のユーザーを Office 365 での音声会議に使用できます。 、Office 365 では、マイクロソフトのオーディオ会議ブリッジまたは、承認済みの音声会議プロバイダー (ACP) によってホストされているサード ・ パーティ製のオーディオ会議ブリッジを使用するオプションがあります。
+マイクロソフト チームの会議を作成して、電話を使用してその会議にダイヤルインするユーザーを許可し、組織内のユーザーを Office 365 での音声会議に使用できます。
   
 会議ブリッジは、組織用のダイヤルイン電話番号のセットを提供します。これらの番号はすべて会議開催者が作成した会議に参加するために使用できますが、会議出席依頼にどの番号を含めるか選ぶことができます。
   
@@ -39,7 +39,15 @@ ms.locfileid: "25347578"
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>会議の開催者またはユーザーのために、既定の電話会議の電話番号を設定または変更する
+## <a name="initial-assignment-of-phone-numbers-that-are-included-in-the-meeting-invites-for-new-users"></a>会議に含まれている電話番号の最初の割り当ての新しいユーザーの招待します。
+
+会議にも含まれている電話番号は、オーディオ会議は、既定の会議通話の電話番号と既定会議無料電話番号のユーザーの設定で定義された有効にするユーザーの招待します。 各設定を指定する有料電話番号と無料電話番号は、特定のユーザーの会議出席依頼に含まれます。 前述したように、各会議出席依頼には、1 つの有料電話番号が、1 つの省略可能なフリー ダイヤル番号および特定の会議に参加するのに使用できるすべてのダイヤルインの電話番号の完全な一覧を開くリンクが含まれます。
+
+新しいユーザーの場合は、ユーザーがオーディオ会議サービスを有効にすると、ユーザーの Office 365 のプロファイルに設定されている国に基づく既定の会議の有料電話番号が割り当てられます。 ユーザーの国または地域に一致する会議ブリッジに有料電話番号がある場合は、その番号がユーザーの既定の電話番号として自動的に割り当てられます。 ない場合に、ユーザーの既定の電話番号として会議ブリッジの有料電話番号が既定値として定義されている番号が割り当てられます。  
+
+オーディオ会議サービスを有効にすると、ユーザー、既定の有料電話番号とユーザーの無料電話番号はテナント管理者が各自の初期値から任意の時点で。
+
+## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>設定または会議の開催者またはユーザーの既定の電話会議の電話番号を変更します。
 
 ![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) ビジネス管理センターは、マイクロソフトのチームと Skype を使用してください。
 

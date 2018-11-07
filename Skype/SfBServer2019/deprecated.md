@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: これらの機能がなくなる Skype からビジネス サーバー 2019 のです。'
-ms.openlocfilehash: 926f5539a31dbcb37ff4ccb5494ccaa7be517d30
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: 66366c2272db8d6f605fde6dc066f730543883b6
+ms.sourcegitcommit: 27cd6d540485d5a1557a6131612894ca2f3516ee
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696164"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025081"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype からどのような使用されなくなりました 
 
@@ -25,7 +25,7 @@ Emphasised の機能の一部に含まれて Skype ビジネス サーバー 201
 
 ## <a name="features-deprecated-in-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype では非推奨の機能 
 
-        The following features and functionality have been deprecated in Skype for Business Server 2019.
+    The following features and functionality have been deprecated in Skype for Business Server 2019.
 
 ### <a name="xmpp-gateways-for-skype-for-business-server"></a>ビジネス サーバーの Skype の XMPP ゲートウェイ
 
@@ -67,7 +67,7 @@ SQL のミラーリングを展開できません Skype でのビジネス サ�
 
 ビジネス サーバー 2019 の Skype で、次のツールがサポートされていません。
 
-- 品質方法論のダッシュ ボードを呼び出す
+- 品質方法論を呼び出す (ですが、品質のダッシュ ボードを呼び出していない)
 - Microsoft 呼び出し品質方法論のスコアカード、v1.5
 - Skype for Business Server 2015 Planning Tool
 - Skype for Business Server 2015 Stress and Performance Tool

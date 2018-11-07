@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 279985565bb7a8097f67e259f04f056433ccda64
-ms.sourcegitcommit: e33aa9ff5afa0c40b0bb4af67d2328c1a58c7f02
+ms.openlocfilehash: ff664c630f5c8da8e3f63700d018b40ab9f0ef70
+ms.sourcegitcommit: 75e0c9e186dc167bad01f5b17ec9de8a682ee007
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25540294"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "26005514"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>ビジネスのチームとは、Skype を使用する組織の移行と相互運用性のガイド
 
@@ -36,7 +36,7 @@ ms.locfileid: "25540294"
     - 既に Skype を使用する設置型のビジネスと Lync ユーザーは、既存のオンプレミス アカウントを使用します。
     - ユーザーが対象となる、既存の Skype のビジネス アカウントを検出できませんが、Skype のオンライン ビジネスのアカウント チームのユーザーが作成されるときに自動的に準備があります。 Skype ビジネス ライセンスが必要ではありません。
 
-4.  ビジネスまたは Lync では、いずれかの Skype の設置型展開があるし、それらのユーザーのチームのユーザーに、最低限、必ず Azure AD 接続が msRTCSIP-DeploymentLocator を同期しているビジネスのチームと Skype は、そのために AAD、属性オンライン、オンプレミス環境を正しく検出します。 さらに、チーム専用のモードを任意のユーザーを移動する (つまり、アップグレード、ユーザー)、 *Skype のビジネスのハイブリッド モードを構成する必要があります*。
+4.  ビジネスまたは Lync では、いずれかの Skype の設置型展開があるし、それらのユーザーのチームのユーザーに、最低限、必ず Azure AD 接続が msRTCSIP-DeploymentLocator を同期しているビジネスのチームと Skype は、そのために AAD、属性オンライン、オンプレミス環境を正しく検出します。 さらに、チーム専用のモードを任意のユーザーを移動する (つまり、アップグレード、ユーザー)、 *Skype のビジネスのハイブリッド モードを構成する必要があります*。 詳細については、 [Skype のビジネスとチームの構成の Azure AD の接続](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-azure-ad-connect)を参照してください。
 
 5.  ビジネス ユーザーのチームと Skype との間の相互運用機能は、使用可能な*ビジネス用の Skype でチームのユーザーは、オンライン ホーム サーバーの場合*だけです。 Skype ビジネス ユーザーが所属することができますか、オンプレミス (とビジネスのハイブリッドの Skype を設定する必要があります) の受信者またはオンラインです。 設置型のビジネスが Skype に置かれているユーザーは、(このドキュメントの後半で定義)、島のモードでチームを使用することができますが、チームを使用して、相互運用機能またはビジネスの Skype を使用して他のユーザーとフェデレーションを行うことはできません。  
 
@@ -108,12 +108,12 @@ TeamsUpgradePolicy は、3 つのプロパティを公開します。 主プロ�
 |SfBWithTeamsCollabAndMeetings|SfBWithTeamsCollabAndMeetings|False|なし|このモードでは、PowerShell のレイヤーに存在するが、管理者のユーザー エクスペリエンスでは、まだ公開されていません。 ルーティングの観点から、これは SfBOnly モードと同じです。 TeamsAppPolicy の利用可能な場合、これで、チャネル、およびチームの会議。|
 |SfBWithTeamsCollabAndMeetingsWithNotify|SfBWithTeamsCollabAndMeetings|True|通知|このモードでは、PowerShell のレイヤーに存在するが、管理者のユーザー エクスペリエンスでは、まだ公開されていません。 ルーティングの観点から、これは SfBOnly モードと同じです。 TeamsAppPolicy の利用可能な場合、これで、チャネル、およびチームの会議。|
 |UpgradeToTeams|TeamsOnly|False|Upgrade|チームにユーザーをアップグレードして、チャット、通話、およびビジネスのための Skype で会議のスケジュール設定をしないようにするのには、このモードを使用します。|
-|グローバル|レガシー|False|なし|モードは、島に、近い将来に更新されます。|
+|グローバル|諸島|False|なし|既定のポリシーです。|
 |NoUpgrade|レガシー|False|なし|このインスタンスを破棄することがすぐにされます。|
 |NotifyForTeams|レガシー|True|通知|このインスタンスを破棄することがすぐにされます。|
 ||||||
 
-個々 のユーザーに、または、テナント全体では、これらのポリシーのインスタンスを与えることができます。 例:
+個々 のユーザーに、または、テナント全体では、これらのポリシーのインスタンスを与えることができます。 次に例を示します。
 - チームには、ユーザー ($SipAddress) をアップグレードするには、"UpgradeToTeams"のインスタンスを与えます。</br>
 `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $SipAddress`
 - 全体のテナントをアップグレードするには、grant コマンドの id パラメーターを省略します。</br>
@@ -136,7 +136,7 @@ TeamsUpgradePolicy は、3 つのプロパティを公開します。 主プロ�
 
 |ID |AllowEndUserClientOverride|CallingDefaultClient|ChatDefaultClient|
 |---|---|---|---|
-|`DisallowOverrideCallingDefaultChatDefault`|False|既定|既定|
+|`DisallowOverrideCallingDefaultChatDefault`|False|Default|Default|
 |`DisallowOverrideCallingSfbChatSfb`|False|デバイス|デバイス|
 |`DisallowOverrideCallingTeamsChatTeams`|False|Teams|Teams|
 |||||
@@ -168,7 +168,7 @@ TeamsInteropPolicy を使用しているお客様。
 
    |ID |AllowEndUserClientOverride |CallingDefaultClient|ChatDefaultClient|
    |---|---|---|---|
-   |`DisallowOverrideCallingDefaultChatDefault`|False|既定|既定|
+   |`DisallowOverrideCallingDefaultChatDefault`|False|Default|Default|
    |`DisallowOverrideCallingSfbChatSfb`|False|デバイス|デバイス|
    |`DisallowOverrideCallingTeamsChatTeams`|False|Teams|Teams|
    |||||
@@ -187,8 +187,8 @@ TeamsInteropPolicy を使用しているお客様。
     |パラメーター|値|
     |---|---|
     |`AllowEndUserClientOverride`|False|
-    |`CallingDefaultClient`|既定|
-    |`ChatDefaultClient`|既定|
+    |`CallingDefaultClient`|Default|
+    |`ChatDefaultClient`|Default|
     |||
 
     上記と異なる値のいずれかの場合は、すべてのテナントに固有のカスタマイズを削除するのには、次を実行します。
