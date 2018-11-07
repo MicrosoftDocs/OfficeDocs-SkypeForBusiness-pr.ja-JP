@@ -4,12 +4,12 @@ hide_bc: true
 title: Microsoft Teams のドキュメンテーションと実践的なガイダンス
 description: Microsoft Teams のドキュメンテーションと実践的なガイダンス
 ms.topic: hub-page
-ms.openlocfilehash: 60f174ab661537e398292ac222ceae839e373fac
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ea27cb4eafb14a7fee567a8b93d57303cc3ee84e
+ms.sourcegitcommit: 27cd6d540485d5a1557a6131612894ca2f3516ee
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372389"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025074"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -22,7 +22,7 @@ ms.locfileid: "25372389"
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsC">
                             <li>
-                                <a href="/MicrosoftTeams/Teams-overview">
+                                <a href="/MicrosoftTeams/get-started-with-teams-landing-page">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -32,7 +32,7 @@ ms.locfileid: "25372389"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>開始する</h3>
+                                                    <h3>開始</h3>
                                                     <p>組織で Teams を最大限に活用するために必要な計画、方法、実践的なガイダンスを見つける</p>
                                                 </div>
                                             </div>

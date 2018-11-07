@@ -1,11 +1,15 @@
 <!-- ============================================================ -->
-# 開始する
-
-## [Teams の概要](Teams-overview.md)
-## [ツールとワークショップ: Teams の計画、提供、運用](planning-workshop-practical-guide.md)
-## [マイクロソフト チームのヘルプを表示します。](get-help-in-microsoft-teams.md)
+# [Team にようこそ](teams-overview.md)
 <!-- ============================================================ -->
 
+# [開始する](get-started-with-teams-landing-page.md)
+## [クイック ・ スタート ・ チーム](get-started-with-teams-quick-start.md)
+## [最初のチームとのチャネルを作成します。](get-started-with-teams-create-your-first-teams-and-channels.md)
+## [オンボードの早期導入](get-started-with-teams-onboard-early-adopters.md)
+## [モニターの使用方法およびフィードバック](get-started-with-teams-monitor-usage-and-feedback.md)
+## [次の場所](get-started-with-teams-resources-for-org-wide-rollout.md)
+## [マイクロソフト チームのヘルプを表示します。](get-help-in-microsoft-teams.md)
+<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # 計画
