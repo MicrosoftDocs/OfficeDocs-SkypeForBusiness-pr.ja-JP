@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 09/21/2018
+ms.date: 11/07/2018
 ms.topic: landing-page
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
@@ -12,12 +12,12 @@ search.appverid: MET150
 description: トレーニング ビデオ、チュートリアル、およびその他のリソースを計画する方法には、展開、およびマイクロソフトのチームを実行します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4036e6b740b059dc1075afe4b7ad3da7b9277c88
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 73c2163557706066f079f3ce61c1d4d3c58ed906
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838514"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26038795"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 
@@ -213,6 +213,7 @@ ms.locfileid: "25838514"
                     <div class="cardText">
                         <h3>会議</h3>
                         <p><a href="tutorial-meetings-in-teams.yml">チュートリアル: Teams での会議</a></p>
+                        <p><a href="https://aka.ms/teams-meetings-intro">マイクロソフトのチームでの会議のビデオ: 概要</a></p>
                     </div>
                 </div>
             </div>
@@ -250,7 +251,8 @@ ms.locfileid: "25838514"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>通話プラン</h3>
+                        <h3>電話システム</h3>
+                         <p><a href="https://aka.ms/teams-phone-system">ビデオ: マイクロソフトのチームでの電話システムの概要</a></p>
                          <p><a href="configuring-teams-calling-quickstartguide.md">クイック スタート: チームの計画を呼び出すことを構成します。</a></p>
                          <p><a href="tutorial-calling-in-teams.yml">チュートリアル: Teams での通話について理解する</a></p>
                     </div>
@@ -263,7 +265,7 @@ ms.locfileid: "25838514"
                 <div class="card">
                     <div class="cardText">
                         <h3>直接のルーティング</h3>
-                        <p><a href="https://www.youtube.com/watch?v=dVkc5Bs926Q">ビデオ: 直接のチーム - プレビュー用のルーティング</a></p>
+                        <p><a href="https://aka.ms/teams-direct-routing">直接マイクロソフトのチーム内でのルーティングのビデオ。</a></p>
                     </div>
                 </div>
             </div>
