@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5e3ec3bf4fc8f3f3a84ccec5558134b3bca43b7
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: b8553589dc895317c9799f9fde9d6a0e622b30a0
+ms.sourcegitcommit: 42143176c46ba9496a0fd401c8e4774075106b98
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26038810"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "26238045"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要
 =================================================
@@ -38,7 +38,9 @@ ms.locfileid: "26038810"
 
     -   チャネルは、タブ、コネクタ、およびチームのメンバーにその値を大きくしているボットを含むアプリケーションを拡張する際に最も重要です。
 
-チームとチャネルを作成するためのベスト プラクティスに関する詳細については、[この短いビデオを表示](https://youtu.be/hjJWtoaRJeE)をします。
+チームとチャネルを作成するためのベスト プラクティスの詳細についてはこの短いビデオを表示します。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <a name="membership-roles-and-settings"></a>メンバーシップ、ロール、および設定
 ------------------------------
