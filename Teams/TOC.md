@@ -1,7 +1,7 @@
+
 <!-- ============================================================ -->
 # [Team にようこそ](teams-overview.md)
 <!-- ============================================================ -->
-
 # [開始する](get-started-with-teams-landing-page.md)
 ## [クイック ・ スタート ・ チーム](get-started-with-teams-quick-start.md)
 ## [最初のチームとのチャネルを作成します。](get-started-with-teams-create-your-first-teams-and-channels.md)
@@ -27,7 +27,25 @@
 ## [変更管理戦略を作成します。](change-management-strategy.md)
 <!-- ============================================================ -->
 
+<!-- ============================================================ -->
+# [導入](adopt-microsoft-teams-landing-page.md) 
 
+## [開始する](teams-adoption-get-started.md)
+## [段階 1 - 開始](teams-adoption-phase1.md)
+### [チームとチャネルを理解します。](teams-adoption-understand-teams-and-channels.md)
+### [最初のチームを作成します。](teams-adoption-your-first-teams.md)
+### [チームの組織はどのように準備ができてのですか。](teams-adoption-assess-readiness.md)
+## [フェーズ 2 - 実験](teams-adoption-phase2-experiment.md)
+### [エキスパート プログラムを作成します。](teams-adoption-create-champions-program.md)
+### [ガバナンスのクイック スタート](teams-adoption-governance-quick-start.md)
+### [使用シナリオを定義します。](teams-adoption-define-usage-scenarios.md)
+### [オンボードの早期導入とフィードバックの収集](teams-adoption-onboard-early-adopters.md)
+### [オンボードのサポート](teams-adoption-onboard-support.md)
+## [フェーズ 3 - スケール](teams-adoption-phase3-enable.md)
+### [成果と成功を定義します。](teams-adoption-define-outcomes.md)
+### [フィードバックおよびレポート作成を最適化します。](teams-adoption-optimize-feedback-and-reporting.md)
+### [ドライブの認識とトレーニングを実装します。](teams-adoption-drive-awareness.md)
+<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # 構成し、展開
@@ -115,6 +133,7 @@
 <!-- ============================================================ -->
 # Office 365 との相互運用性
 ## [移行とビジネス用の Skype では、相互運用性](migration-interop-guidance-for-teams-with-skype.md)
+## [ビジネスの Skype との共存](coexistence-chat-calls-presence.md)
 ## [共存を設定し、設定をアップグレードします。](setting-your-coexistence-and-upgrade-settings.md)
 ## [Office 365 グループと Teams](office-365-groups.md)
 ## [既存の Office 365 グループを Teams で強化する](enhance-office-365-groups.md)
