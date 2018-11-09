@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fa0b8971e6809b2488f6926f4acf0df898760f4
-ms.sourcegitcommit: 42143176c46ba9496a0fd401c8e4774075106b98
+ms.openlocfilehash: 9c1c60552dc4ef889b312e3055ff99a412362a22
+ms.sourcegitcommit: 27cd6d540485d5a1557a6131612894ca2f3516ee
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238137"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26031765"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>マイクロソフトのチームに、オンボードの早期導入
 
@@ -91,7 +91,7 @@ Android 4.4 またはそれ以降を実行しているユーザーは、Google �
 
 新しいコラボレーションの経験を促進し、開発チームのチャンピオン チームを積極的に使用するのには、早期の導入を促すことが重要です。 聞くチーム」チームが、ユーザーを支援するガイダンスを共有するために作成の操作方法」チャネルを使用することをお勧めします。 プロジェクトに適用します。 
 
-組織の推進チームの導入に関する詳細なガイダンスは、[チームの導入](adopt-microsoft-teams-landing-page.md)を参照してください。
+組織の推進チームの導入に関する詳細なガイダンスは、[チームの変更管理戦略の作成](change-management-strategy.md)を参照してください。 
 
 ## <a name="next-steps"></a>次のステップ
 [モニターの使用方法およびフィードバック](get-started-with-teams-monitor-usage-and-feedback.md)に移動します。
