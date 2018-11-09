@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: ビジネス オンラインまたはチームの業務サーバーの Skype と Skype との間のハイブリッドの接続を実装するための考慮事項を計画しています。
-ms.openlocfilehash: 55a6fd1d59e8e5af578b9a1c35c61204f925d866
-ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
+ms.openlocfilehash: 2f702989a0d40e7bce9b0f3612d67fd374d0813c
+ms.sourcegitcommit: 42143176c46ba9496a0fd401c8e4774075106b98
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890572"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "26238060"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Skype ビジネス サーバーと Office 365 のハイブリッド接続を計画します。
 
@@ -25,8 +25,6 @@ ms.locfileid: "25890572"
 それらのユーザーが Skype のチームのクライアントでは、ビジネス ユーザーの相互運用もからフェデレーションの組織では、ユーザーと通信することはありませんチーム (並べて表示) を使用しているビジネス ユーザー向けの設置型の Skype を使っている場合、チームのクライアントです。 チームでは、この機能を取得するには、これらのユーザーする必要があります Skype から設置型のビジネスに移動、クラウドでは、Skype をビジネスのハイブリッド モード用に構成する必要があります。 さらに、快適に、これらのユーザー必要がありますチームのみのモードで、すべての着信呼び出しを確保し、ユーザーのチームのクライアントで、ユーザーの土地からのチャットをします。
 
 ハイブリッド接続を設定して、すべてのユーザーをクラウドに移行は、ビジネスを展開するため、設置型の Skype の使用を停止する前にも必要です。  ハイブリッド接続の設定で、スケジュールとビジネスのニーズに基づくクラウドに移行するユーザーを移動するを選択できます。 直接ルーティングでは、クラウドに移行して、移行が完了した後に移動するときに、設置型音声インフラストラクチャを活用できます。
-
-ここは、既存のオンプレミス Skype ビジネス サーバー環境、オンプレミスの Active Directory - で作成されたユーザーとの間のハイブリッドの接続を構成する必要があります、インフラストラクチャおよびシステムの要件を説明し、チームまたは Skype ビジネスをオンラインにします。 
 
 インフラストラクチャについて説明し、システム要件の間、既存のハイブリッド接続を構成する必要があります設置 Skype ビジネス サーバー配置では、チームまたは Skype のオンライン ビジネスの。
 

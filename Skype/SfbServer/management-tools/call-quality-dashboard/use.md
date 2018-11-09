@@ -1,25 +1,25 @@
 ---
-title: Skype for Business Server 2015 の通話品質ダッシュボードの使用
+title: Skype の通話品質のダッシュ ボードを使用して、ビジネスのサーバーの
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/1/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
-description: '概要: は、コール品質ダッシュ ボードを使用する方法について説明します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。'
-ms.openlocfilehash: c4d67088fc11e05d6880d80da714f3268e0e7e2d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '概要: は、コール品質ダッシュ ボードを使用する方法について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
+ms.openlocfilehash: 6b431bb34ca6350662fbae720c61d2033d95fba4
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035730"
 ---
-# <a name="use-call-quality-dashboard-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 の通話品質ダッシュボードの使用
+# <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Skype の通話品質のダッシュ ボードを使用して、ビジネスのサーバーの
  
-**の概要:**呼び出し品質ダッシュ ボードを使用する方法について説明します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。
+**の概要:** 呼び出し品質ダッシュ ボードを使用する方法について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
   
 CQD により、IT 担当者は集計データを使用して、メディア品質の問題が発生している環境におけるフォーカス領域を識別できるようになります。これにより、IT 担当者は異なるユーザーのグループの統計情報を比較して、傾向とパターンを識別できます。個別の通話に関する問題の解決にフォーカスしていませんが、特定の環境内の多くのユーザーに該当する問題と解決策の識別にフォーカスしています。
   
@@ -101,7 +101,7 @@ StartDate.Month をディメンションとして追加し、データを表形�
   
 **CqdBuilding**
 
-|**列**|**データ型**|**Null 値を許可しますか。**|**詳細**|
+|**列**|**データ型**|**null を許可**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |BuildingKey  <br/> |int  <br/> |×  <br/> |CqdBuilding テーブルの主キー。  <br/> |
 |BuildingName  <br/> |varchar(80)  <br/> |×  <br/> |建物名。  <br/> |
@@ -110,7 +110,7 @@ StartDate.Month をディメンションとして追加し、データを表形�
 |BuildingTypeId  <br/> |int  <br/> |×  <br/> |外部キー。CqdBuildingType テーブルのいずれかのエントリに一致する必要があります。  <br/> |
 |Latitutde  <br/> |float  <br/> |○  <br/> |建物の緯度。  <br/> |
 |Longitude  <br/> |float  <br/> |○  <br/> |建物の経度。  <br/> |
-|市区町村名  <br/> |varchar(30)  <br/> |○  <br/> |建物がある市区町村の名前。  <br/> |
+|CityName  <br/> |varchar(30)  <br/> |○  <br/> |建物がある市区町村の名前。  <br/> |
 |ZipCode  <br/> |varchar(25)  <br/> |○  <br/> |建物がある場所の郵便番号。  <br/> |
 |CountryShortCode  <br/> |varchar(2)  <br/> |○  <br/> |建物がある国の ISO 3166-1 alpha-2 コード。  <br/> |
 |StateProvinceCode  <br/> |varchar(3)  <br/> |○  <br/> |建物がある都道府県の 3 文字の短縮形。  <br/> |
@@ -120,7 +120,7 @@ StartDate.Month をディメンションとして追加し、データを表形�
    
 **CqdNetwork**
 
-|**列**|**データ型**|**Null 値を許可しますか。**|**詳細**|
+|**列**|**データ型**|**null を許可**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |ネットワーク  <br/> |varchar(25)  <br/> |×  <br/> |サブネット アドレス。  <br/> |
 |NetworkRange  <br/> |tinyint  <br/> |○  <br/> |サブネット マスク。  <br/> |
@@ -132,7 +132,7 @@ StartDate.Month をディメンションとして追加し、データを表形�
   
 **CqdBuildingType**
 
-|**列**|**データ型**|**Null 値を許可しますか。**|**詳細**|
+|**列**|**データ型**|**null を許可**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |BuildingTypeId  <br/> |int  <br/> |×  <br/> |CqdBuildingType テーブルの主キー。  <br/> |
 |BuildingTypeDesc  <br/> |char(18)  <br/> |×  <br/> |建物の種類の説明。  <br/> |
@@ -141,7 +141,7 @@ StartDate.Month をディメンションとして追加し、データを表形�
   
 **CqdBuildingOwnershipType**
 
-|**列**|**データ型**|**Null 値を許可しますか。**|**詳細**|
+|**列**|**データ型**|**null を許可**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |OwnershipTypeId  <br/> |int  <br/> |×  <br/> |CqdBuildingOwnershipType テーブルの主キー。  <br/> |
 |OwnershipTypeDesc  <br/> |varchar(25)  <br/> |×  <br/> |所有権の種類の説明。  <br/> |
@@ -152,7 +152,7 @@ StartDate.Month をディメンションとして追加し、データを表形�
   
 **CqdBssid**
 
-|**列**|**データ型**|**Null 値を許可しますか。**|**詳細**|
+|**列**|**データ型**|**null を許可**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |bss  <br/> |nvarchar(50)  <br/> |×  <br/> |CqdBssid テーブルの主キー。Wifi アクセス ポイントの BSSID。  <br/> |
 |ess  <br/> |nvarchar(50)  <br/> |○  <br/> |Wifi アクセス ポイント コントローラーの情報。  <br/> |
@@ -174,12 +174,12 @@ CQD ストリームは良好、不良、または未分類となります。CQM 
     
 - 分類子は変更できません
     
-**不適切な呼び出しの定義と分類子**
+**低品質通話の定義/分類子**
 
-|**メトリック**|**しきい値**|
+|**指標**|**しきい値**|
 |:-----|:-----|
 |DDegradationAvg  <br/> |1.0 (-1 ネットワーク MOS) より大きい  <br/> |
-|ラウンドト リップ  <br/> |500 より大きい   <br/> |
+|RoundTrip  <br/> |500 より大きい   <br/> |
 |PacketLossRate  <br/> |0.1 (10%) より大きい   <br/> |
 |JitterInterArrival  <br/> |30 より大きい   <br/> |
 |RRatioConcealedSamplesAvg  <br/> |0.07 より大きい   <br/> |
@@ -194,15 +194,15 @@ JPDR 定義 = 低品質通話の定義 - RatioConcealedSamplesAvg
   
  **2 番目** サーバー間のストリームでない限り、常にクライアントのエンドポイントになります。
   
-**最初と 2 番目のクラス分けの例**
+**1 番目と 2 番目の分類の例**
 
-|**エンドポイント 1 UAType**|**エンドポイント 2 UUAType**|**まずは**|**1 秒**|
+|**エンドポイント 1 UAType **|**エンドポイント 2 UUAType **|**1 番目**|**2 番目**|
 |:-----|:-----|:-----|:-----|
 |2 (AVMCU)   <br/> |4 (Skype for Business)   <br/> |エンドポイント 1  <br/> |エンドポイント 2  <br/> |
 |2 (AVMCU)   <br/> |1 (mMediationServer)   <br/> |エンドポイント 2  <br/> |エンドポイント 1  <br/> |
 |4 (Skype for Business)   <br/> |4 (Skype for Business)   <br/> |MediaLine での呼び出し元   <br/> |MMediaLine での呼び出し先  <br/> |
    
-両方のエンドポイントが同じ種類の場合、CQD は呼び出し元のエントリを 1 番目にして、呼び出し先を 2 番目にします。 詳細については[このブログ](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx)を参照してください。
+両方のエンドポイントが同じ種類の場合、CQD は呼び出し元のエントリを 1 番目にして、呼び出し先を 2 番目にします。 詳細については、[このブログ](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx)を参照してください。
   
 ## <a name="accounting-for-vpn"></a>VPN のアカウンティング
 

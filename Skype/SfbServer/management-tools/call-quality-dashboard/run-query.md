@@ -3,24 +3,23 @@ title: クエリを実行します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
-description: '概要: は、品質のダッシュ ボードを呼び出すためのデータ API の一部であるクエリの実行の操作について説明します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。'
-ms.openlocfilehash: 720bcc16b89ed2cd2b92eababb389d6c363d734d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: '概要: は、品質のダッシュ ボードを呼び出すためのデータ API の一部であるクエリの実行の操作について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
+ms.openlocfilehash: ac9f042a8d5b8e016a398a0daf9595ffcb9d2fcb
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375640"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035702"
 ---
 # <a name="run-query"></a>クエリを実行します。
 
-**の概要:** 品質のダッシュ ボードを呼び出すためのデータ API の一部であるクエリの実行の操作について説明します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。
+**の概要:** 品質のダッシュ ボードを呼び出すためのデータ API の一部であるクエリの実行の操作について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
 
 クエリの実行操作は、品質のダッシュ ボードを呼び出すためのデータ API の一部です。
 

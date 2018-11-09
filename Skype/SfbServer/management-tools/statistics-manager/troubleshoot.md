@@ -1,26 +1,25 @@
 ---
-title: Skype for Business Server 2015 の Statistics Manager のトラブルシューティング
+title: 統計マネージャーは、Skype のビジネス サーバーのトラブルシューティングを行う
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 5/23/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
-description: '概要: ビジネス サーバー 2015 の Skype の統計マネージャーの展開のトラブルシューティングを行うには、このトピックを読みます。'
-ms.openlocfilehash: 3af372effd41fd679733324e1615de6b2c49ce0b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: '概要: ビジネス サーバーの Skype の統計マネージャーの展開のトラブルシューティングを行うには、このトピックを読みます。'
+ms.openlocfilehash: 3edff5ea17c4a787456ff212b65d99f0ad5bb67f
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569834"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035709"
 ---
-# <a name="troubleshoot-statistics-manager-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 の Statistics Manager のトラブルシューティング
+# <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>統計マネージャーは、Skype のビジネス サーバーのトラブルシューティングを行う
  
-**の概要:** ビジネス サーバー 2015 の Skype の統計マネージャーの展開のトラブルシューティングを行うには、このトピックを参照してください。
+**の概要:** ビジネス サーバーの Skype の統計マネージャーの展開のトラブルシューティングを行うには、このトピックを参照してください。
   
 このトピックでは、アプリケーション イベント ログに表示されるイベントとイベントを修正するための適切なアクションを記述して、統計マネージャーの展開をトラブルシューティングする方法について説明します。 このトピックには、次のセクションがあります。
   
@@ -173,12 +172,12 @@ ms.locfileid: "19569834"
 
 詳細については、以下を参照してください。
   
-- [ビジネス サーバー 2015 Skype 統計マネージャーの計画します。](plan.md)
+- [Skype 統計マネージャーのビジネス サーバー計画します。](plan.md)
     
-- [ビジネス サーバー 2015 の Skype の統計マネージャーの展開します。](deploy.md)
+- [ビジネス サーバーの Skype の統計マネージャーを展開します。](deploy.md)
     
-- [ビジネス サーバー 2015 の Skype の統計マネージャーのアップグレードします。](upgrade.md)
+- [ビジネス サーバーの Skype の統計マネージャーをアップグレードします。](upgrade.md)
     
-- [Skype ビジネス サーバー統計マネージャーのブログ](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Skype for Business Server Statistics Manager ブログ](https://blogs.technet.microsoft.com/skypestatsman/)
     
 

@@ -16,14 +16,17 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Microsoft 電話システム直接ルーティングを使用する方法マイクロソフトの電話システムに、サポートされている、お客様が用意したセッション ボーダー コント ローラー (SBC) の接続については、このトピックを参照してください。
-ms.openlocfilehash: d9b1cf0f819639aebd1250bd37f4fc85d5555fc4
-ms.sourcegitcommit: a54864c3fcd1b8d240d0f7f2ccf68f8cba566e47
+ms.openlocfilehash: a26dfc51e1a885569a37200d8613879e8f3bd484
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "25849407"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26038920"
 ---
 # <a name="plan-direct-routing"></a>直接ルーティングを計画します。
+
+> [!Tip]
+> ルーティング、それを計画する方法と展開方法は、直接の利点について説明するのには次のセッションを監視する:[マイクロソフトのチームに直接ルーティング](https://aka.ms/teams-direct-routing)
 
 Microsoft 電話システム直接ルーティングするには、マイクロソフトの電話システムに、サポートされている、お客様が用意したセッション ボーダー コント ローラー (SBC) に接続することができます。  この機能により、たとえばを構成できます設置した PSTN 接続マイクロソフト チームのクライアントを使用して次の図に示すように。 
 

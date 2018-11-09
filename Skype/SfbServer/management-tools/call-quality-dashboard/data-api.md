@@ -1,28 +1,27 @@
 ---
-title: ビジネス サーバー 2015 の Skype で通話品質のダッシュ ボード (救難) のデータ API
+title: 通話品質のダッシュ ボード (救難) ビジネス サーバーの Skype でのデータ API
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
-description: '概要: は、通話品質のダッシュ ボードの期間の API について説明します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。'
-ms.openlocfilehash: 293844d253e70e291c063d2af64226abaed3c9d9
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: '概要: は、通話品質のダッシュ ボードの期間の API について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
+ms.openlocfilehash: 0af168c46e8b2732d5c967550391ab52459ddf95
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21011079"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035632"
 ---
-# <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype で通話品質のダッシュ ボード (救難) のデータ API
+# <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>通話品質のダッシュ ボード (救難) ビジネス サーバーの Skype でのデータ API
  
-**の概要:** 通話品質のダッシュ ボードには、期間の API について説明します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。
+**の概要:** 通話品質のダッシュ ボードには、期間の API について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
   
-データ API は、ビジネス サーバー 2015 の Skype の品質のダッシュ ボードを呼び出すためのプログラムによるアクセスを提供します。
+データ API は、ビジネスのサーバーの Skype の品質のダッシュ ボードを呼び出すためのプログラムによるアクセスを提供します。
   
 ## <a name="data-api-for-call-quality-dashboard"></a>通話品質のダッシュ ボードのデータ API
 
