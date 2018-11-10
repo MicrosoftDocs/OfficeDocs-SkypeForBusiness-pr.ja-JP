@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: この資料では、Skype ルーム システム v2 をサポートするための要件について説明します。
-ms.openlocfilehash: 469a13822bb319eab1b78a418b7c2eddd182666b
-ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
+ms.openlocfilehash: 23ab819c4a32efd4228a1d1d5b7aba89275e5b39
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25784878"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255773"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Skype Room Systems バージョン 2 の要件
 
@@ -42,11 +42,11 @@ Skype ルーム システム v2 は、別の部屋のサイズによっては、
 
 |タブレット|プロセッサ|RAM|ディスク|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 4       |Core i5  |4GB  |128GB  |
-|Surface Pro 4       |Core i5  |8GB  |256GB  |    
-|Surface Pro (2017)  |Core i5  |4GB  |128GB  |
-|Surface Pro (2017)  |Core i5  |8GB  |128GB  |
 |Surface Pro (2017)  |Core i5  |8GB  |256GB  |
+|Surface Pro (2017)  |Core i5  |8GB  |128GB  |
+|Surface Pro (2017)  |Core i5  |4GB  |128GB  |
+|Surface Pro 4       |Core i5  |8GB  |256GB  |
+|Surface Pro 4       |Core i5  |4GB  |128GB  |
 
 > [!NOTE]
 > M3 プロセッサはサポートされていません。
