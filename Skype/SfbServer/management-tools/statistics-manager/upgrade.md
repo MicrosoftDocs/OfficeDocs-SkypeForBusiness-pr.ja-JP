@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 2015 の Statistics Manager のアップグレード
+title: ビジネス サーバーの Skype の統計マネージャーをアップグレードします。
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,125 +10,109 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
-description: '概要: は、Skype のビジネス サーバー 2015 のマネージャーの統計情報をアップグレードする方法の詳細については、このトピックを読みます。'
-ms.openlocfilehash: d10dd5cd92fc0d7dbbb3285c43df78e8149f58c0
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: '概要: は、Skype のビジネス サーバーの統計情報マネージャーをアップグレードする方法の詳細については、このトピックを読みます。'
+ms.openlocfilehash: 13bb4a13d05f7c877c5dd62a9c17466389d0e564
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374858"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283171"
 ---
-# <a name="upgrade-statistics-manager-for-skype-for-business-server-2015"></a><span data-ttu-id="8ff2a-103">Skype for Business Server 2015 の Statistics Manager のアップグレード</span><span class="sxs-lookup"><span data-stu-id="8ff2a-103">Upgrade Statistics Manager for Skype for Business Server 2015</span></span>
+# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a><span data-ttu-id="7a77c-103">ビジネス サーバーの Skype の統計マネージャーをアップグレードします。</span><span class="sxs-lookup"><span data-stu-id="7a77c-103">Upgrade Statistics Manager for Skype for Business Server</span></span>
  
-<span data-ttu-id="8ff2a-104">**の概要:** Skype のビジネス サーバー 2015 のマネージャーの統計情報をアップグレードする方法の詳細については、このトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-104">**Summary:** Read this topic to learn how to upgrade Statistics Manager for Skype for Business Server 2015.</span></span>
+<span data-ttu-id="7a77c-104">**の概要:** Skype のビジネス サーバーの統計情報マネージャーをアップグレードする方法の詳細については、このトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="7a77c-104">**Summary:** Read this topic to learn how to upgrade Statistics Manager for Skype for Business Server.</span></span>
   
-<span data-ttu-id="8ff2a-105">Skype のビジネス サーバーの統計マネージャーの既存のインストールをアップグレードする方法について説明-Skype をビジネスのサーバーの稼働状態とパフォーマンスのデータをリアルタイムに表示できるようにする強力なツールです。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-105">This topic describes how to upgrade an existing installation of Statistics Manager for Skype for Business Server—a powerful tool that allows you to view Skype for Business Server health and performance data in real time.</span></span> <span data-ttu-id="8ff2a-106">数秒ごとに数百のサーバー間でのパフォーマンス データをポーリングし、統計マネージャーの web サイトですぐに結果を表示できます。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-106">You can poll performance data across hundreds of servers every few seconds, and view the results instantly on the Statistics Manager Website.</span></span> 
+<span data-ttu-id="7a77c-105">Skype のビジネス サーバーの統計マネージャーの既存のインストールをアップグレードする方法について説明-Skype をビジネスのサーバーの稼働状態とパフォーマンスのデータをリアルタイムに表示できるようにする強力なツールです。</span><span class="sxs-lookup"><span data-stu-id="7a77c-105">This topic describes how to upgrade an existing installation of Statistics Manager for Skype for Business Server—a powerful tool that allows you to view Skype for Business Server health and performance data in real time.</span></span> <span data-ttu-id="7a77c-106">数秒ごとに数百のサーバー間でのパフォーマンス データをポーリングし、統計マネージャーの web サイトですぐに結果を表示できます。</span><span class="sxs-lookup"><span data-stu-id="7a77c-106">You can poll performance data across hundreds of servers every few seconds, and view the results instantly on the Statistics Manager Website.</span></span> 
   
-<span data-ttu-id="8ff2a-107">統計マネージャー」と「リリース 1.1 の新機能の詳細については、 [Skype のビジネス サーバー 2015 統計マネージャーのを計画](plan.md)し、、[ビジネス サーバー 2015 の Skype の統計マネージャー展開](deploy.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-107">For more information about Statistics Manager and the new features in Release 1.1, see [Plan for Statistics Manager for Skype for Business Server 2015](plan.md) and [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md).</span></span> <span data-ttu-id="8ff2a-108">リリース 1.1 で修正された既知の問題については、「[リリース 1.1 で修正された既知の問題](upgrade.md#BKMK_Fixed)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-108">For information about known issues fixed in Release 1.1, see [Known issues fixed in release 1.1](upgrade.md#BKMK_Fixed).</span></span>
+<span data-ttu-id="7a77c-107">統計マネージャーおよびリリース 2.0 の新機能に関する詳細については、 [Skype のビジネス サーバー統計マネージャーを計画](plan.md)し、 [Skype のビジネス サーバーの統計マネージャーの展開](deploy.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7a77c-107">For more information about Statistics Manager and the new features in Release 2.0, see [Plan for Statistics Manager for Skype for Business Server](plan.md) and [Deploy Statistics Manager for Skype for Business Server](deploy.md).</span></span>
   
-<span data-ttu-id="8ff2a-109">アップグレードには、以下の 2 つの異なる方法があります。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-109">There are two methods for upgrading:</span></span>
+<span data-ttu-id="7a77c-108">アップグレードには、以下の 2 つの異なる方法があります。</span><span class="sxs-lookup"><span data-stu-id="7a77c-108">There are two methods for upgrading:</span></span>
   
-- <span data-ttu-id="8ff2a-110">**自動アップグレード**。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-110">**Automated upgrade.**</span></span> <span data-ttu-id="8ff2a-111">このメソッドでは、自動化されたスクリプトを使用します。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-111">This method uses an automated script.</span></span> <span data-ttu-id="8ff2a-112">最も簡単な方法し、すべてのアップグレード シナリオに適用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-112">It is the easiest method and should be applicable to all upgrade scenarios.</span></span>
+- <span data-ttu-id="7a77c-109">**自動アップグレード**。</span><span class="sxs-lookup"><span data-stu-id="7a77c-109">**Automated upgrade.**</span></span> <span data-ttu-id="7a77c-110">このメソッドでは、自動化されたスクリプトを使用します。</span><span class="sxs-lookup"><span data-stu-id="7a77c-110">This method uses an automated script.</span></span> <span data-ttu-id="7a77c-111">最も簡単な方法し、すべてのアップグレード シナリオに適用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7a77c-111">It is the easiest method and should be applicable to all upgrade scenarios.</span></span>
     
-- <span data-ttu-id="8ff2a-113">**手動アップグレード**。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-113">**Manual upgrade.**</span></span> <span data-ttu-id="8ff2a-114">このメソッドは、自動アップグレードに失敗した場合は例外的なバックアップ計画として提供されます。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-114">This method is provided as a backup plan in the unusual case that the automated upgrade fails.</span></span>
+- <span data-ttu-id="7a77c-112">**手動アップグレード**。</span><span class="sxs-lookup"><span data-stu-id="7a77c-112">**Manual upgrade.**</span></span> <span data-ttu-id="7a77c-113">このメソッドは、自動アップグレードに失敗した場合は例外的なバックアップ計画として提供されます。</span><span class="sxs-lookup"><span data-stu-id="7a77c-113">This method is provided as a backup plan in the unusual case that the automated upgrade fails.</span></span>
     
-## <a name="prerequisites"></a><span data-ttu-id="8ff2a-115">前提条件</span><span class="sxs-lookup"><span data-stu-id="8ff2a-115">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="7a77c-114">前提条件</span><span class="sxs-lookup"><span data-stu-id="7a77c-114">Prerequisites</span></span>
 
-<span data-ttu-id="8ff2a-116">アップグレードする前に、以下の情報を用意する必要があります。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-116">Before you upgrade, be sure you have the following information:</span></span>
+<span data-ttu-id="7a77c-115">アップグレードする前に、以下の情報を用意する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7a77c-115">Before you upgrade, be sure you have the following information:</span></span>
   
-- <span data-ttu-id="8ff2a-117">アクティブなリスナーの証明書の拇印</span><span class="sxs-lookup"><span data-stu-id="8ff2a-117">Active Listener Certificate Thumbprint</span></span>
+- <span data-ttu-id="7a77c-116">アクティブなリスナーの証明書の拇印</span><span class="sxs-lookup"><span data-stu-id="7a77c-116">Active Listener Certificate Thumbprint</span></span>
     
-- <span data-ttu-id="8ff2a-118">リスナー サービスのパスワード (リスナーおよび各エージェントのインストール時に入力)</span><span class="sxs-lookup"><span data-stu-id="8ff2a-118">Listener Service Password (entered on install of the listener and every agent)</span></span>
+- <span data-ttu-id="7a77c-117">リスナー サービスのパスワード (リスナーおよび各エージェントのインストール時に入力)</span><span class="sxs-lookup"><span data-stu-id="7a77c-117">Listener Service Password (entered on install of the listener and every agent)</span></span>
     
-- <span data-ttu-id="8ff2a-119">Web サイトの SSL 証明書の構成</span><span class="sxs-lookup"><span data-stu-id="8ff2a-119">SSL Certificate configuration for the website</span></span>
+- <span data-ttu-id="7a77c-118">Web サイトの SSL 証明書の構成</span><span class="sxs-lookup"><span data-stu-id="7a77c-118">SSL Certificate configuration for the website</span></span>
     
-## <a name="automated-upgrade"></a><span data-ttu-id="8ff2a-120">自動アップグレード</span><span class="sxs-lookup"><span data-stu-id="8ff2a-120">Automated upgrade</span></span>
+## <a name="automated-upgrade"></a><span data-ttu-id="7a77c-119">自動アップグレード</span><span class="sxs-lookup"><span data-stu-id="7a77c-119">Automated upgrade</span></span>
 
-<span data-ttu-id="8ff2a-121">このスクリプトでは、使用している現在の証明書情報およびリスナー パスワードが収集され、製品の古いバージョンをアンインストールした後、製品の新しいバージョンがインストールされます。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-121">The script will gather your current certificate information and listener password, uninstall the old version of the product, and then install the new version of the product.</span></span> <span data-ttu-id="8ff2a-122">サーバーにインストールされている Redis インスタンスは関与しないため、キャッシュに格納されているデータはすべてアップグレードの間も保持されます。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-122">The Redis instance installed on the server will not be touched, so any data stored in the cache will be retained through the upgrade process.</span></span>
+<span data-ttu-id="7a77c-120">このスクリプトでは、使用している現在の証明書情報およびリスナー パスワードが収集され、製品の古いバージョンをアンインストールした後、製品の新しいバージョンがインストールされます。</span><span class="sxs-lookup"><span data-stu-id="7a77c-120">The script will gather your current certificate information and listener password, uninstall the old version of the product, and then install the new version of the product.</span></span> <span data-ttu-id="7a77c-121">サーバーにインストールされている Redis インスタンスは関与しないため、キャッシュに格納されているデータはすべてアップグレードの間も保持されます。</span><span class="sxs-lookup"><span data-stu-id="7a77c-121">The Redis instance installed on the server will not be touched, so any data stored in the cache will be retained through the upgrade process.</span></span>
   
-1. <span data-ttu-id="8ff2a-123">リスナーのコンピューターで 1 つのフォルダーには、エージェント、リスナー、および更新プログラム StatsMan.ps1 のスクリプトと web サイトの新しいバージョンの MSI ファイルを配置します。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-123">Place the MSI files for the new version of the agent, listener and website along with the Update-StatsMan.ps1 script into a single folder on the Listener computer.</span></span>
+1. <span data-ttu-id="7a77c-122">リスナーのコンピューターで 1 つのフォルダーには、エージェント、リスナー、および更新プログラム StatsMan.ps1 のスクリプトと web サイトの新しいバージョンの MSI ファイルを配置します。</span><span class="sxs-lookup"><span data-stu-id="7a77c-122">Place the MSI files for the new version of the agent, listener and website along with the Update-StatsMan.ps1 script into a single folder on the Listener computer.</span></span>
     
-2. <span data-ttu-id="8ff2a-124">管理用の PowerShell ウィンドウを開きます。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-124">Open an administrative PowerShell window.</span></span> <span data-ttu-id="8ff2a-125">リスナーのコンポーネントを、以下の手順でアップグレードします。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-125">Upgrade the Listener component:</span></span>
+2. <span data-ttu-id="7a77c-123">管理用の PowerShell ウィンドウを開きます。</span><span class="sxs-lookup"><span data-stu-id="7a77c-123">Open an administrative PowerShell window.</span></span> <span data-ttu-id="7a77c-124">リスナーのコンポーネントを、以下の手順でアップグレードします。</span><span class="sxs-lookup"><span data-stu-id="7a77c-124">Upgrade the Listener component:</span></span>
     
    ```
    .\Update-StatsMan.ps1 -Service Listener
    ```
 
 > [!NOTE]
-> <span data-ttu-id="8ff2a-126">統計マネージャーのサービスのパスワードは、インストーラーに渡されると、コマンド ・ ラインでクリア テキストで表示されます。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-126">The Statistics Manager service password will be displayed in clear text on the command line as it is passed to the installer.</span></span> <span data-ttu-id="8ff2a-127">必要に応じて、使用しているディスプレイの画面を隠すようにしてください。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-127">Be sure to shield your monitor as needed.</span></span> 
+> <span data-ttu-id="7a77c-125">統計マネージャーのサービスのパスワードは、インストーラーに渡されると、コマンド ・ ラインでクリア テキストで表示されます。</span><span class="sxs-lookup"><span data-stu-id="7a77c-125">The Statistics Manager service password will be displayed in clear text on the command line as it is passed to the installer.</span></span> <span data-ttu-id="7a77c-126">必要に応じて、使用しているディスプレイの画面を隠すようにしてください。</span><span class="sxs-lookup"><span data-stu-id="7a77c-126">Be sure to shield your monitor as needed.</span></span> 
   
-1. <span data-ttu-id="8ff2a-128">スクリプトの実行中に、製品の古いバージョンをアンインストールするかどうかを確認するメッセージが表示されます。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-128">On running the script, you should be prompted to uninstall the old version of the product.</span></span> <span data-ttu-id="8ff2a-129">「Yes (はい)」と答えます。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-129">Answer Yes.</span></span>
+1. <span data-ttu-id="7a77c-127">スクリプトの実行中に、製品の古いバージョンをアンインストールするかどうかを確認するメッセージが表示されます。</span><span class="sxs-lookup"><span data-stu-id="7a77c-127">On running the script, you should be prompted to uninstall the old version of the product.</span></span> <span data-ttu-id="7a77c-128">「Yes (はい)」と答えます。</span><span class="sxs-lookup"><span data-stu-id="7a77c-128">Answer Yes.</span></span>
     
-2. <span data-ttu-id="8ff2a-130">リスナー サービスが実行中の場合、継続する前にこのアプリケーションを閉じるかどうか確認するメッセージが表示されます。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-130">If the Listener service is running, you will be prompted to close the application before continuing.</span></span> <span data-ttu-id="8ff2a-131">(統計マネージャー リスナー サービスが停止されます) を終了するアプリケーションを許可します。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-131">Allow the application to close (the Statistics Manager Listener service will be stopped).</span></span>
+2. <span data-ttu-id="7a77c-129">リスナー サービスが実行中の場合、継続する前にこのアプリケーションを閉じるかどうか確認するメッセージが表示されます。</span><span class="sxs-lookup"><span data-stu-id="7a77c-129">If the Listener service is running, you will be prompted to close the application before continuing.</span></span> <span data-ttu-id="7a77c-130">(統計マネージャー リスナー サービスが停止されます) を終了するアプリケーションを許可します。</span><span class="sxs-lookup"><span data-stu-id="7a77c-130">Allow the application to close (the Statistics Manager Listener service will be stopped).</span></span>
     
-3. <span data-ttu-id="8ff2a-132">インストール プロセスを継続します。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-132">Continue the install process.</span></span> <span data-ttu-id="8ff2a-133">サービス パスワードと証明書の拇印があらかじめ入力されていることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-133">You should notice that the service password and certificate thumbprint are pre-populated.</span></span> <span data-ttu-id="8ff2a-134">入力されていない場合は、継続する前に保存した値を追加します。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-134">If not, add the values you saved before continuing.</span></span>
+3. <span data-ttu-id="7a77c-131">インストール プロセスを継続します。</span><span class="sxs-lookup"><span data-stu-id="7a77c-131">Continue the install process.</span></span> <span data-ttu-id="7a77c-132">サービス パスワードと証明書の拇印があらかじめ入力されていることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="7a77c-132">You should notice that the service password and certificate thumbprint are pre-populated.</span></span> <span data-ttu-id="7a77c-133">入力されていない場合は、継続する前に保存した値を追加します。</span><span class="sxs-lookup"><span data-stu-id="7a77c-133">If not, add the values you saved before continuing.</span></span>
     
-4. <span data-ttu-id="8ff2a-135">管理用の PowerShell ウィンドウを開きます。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-135">Open an administrative PowerShell window.</span></span> <span data-ttu-id="8ff2a-136">Web サイト コンポーネントを、以下の手順でアップグレードします。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-136">Upgrade the Website component:</span></span>
+4. <span data-ttu-id="7a77c-134">管理用の PowerShell ウィンドウを開きます。</span><span class="sxs-lookup"><span data-stu-id="7a77c-134">Open an administrative PowerShell window.</span></span> <span data-ttu-id="7a77c-135">Web サイト コンポーネントを、以下の手順でアップグレードします。</span><span class="sxs-lookup"><span data-stu-id="7a77c-135">Upgrade the Website component:</span></span>
     
    ```
    .\Update-StatsMan.ps1 -Service Website
    ```
 
-5. <span data-ttu-id="8ff2a-137">スクリプトの実行中に、製品の古いバージョンをアンインストールするかどうかを確認するメッセージが表示されます。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-137">On running the script, you should be prompted to uninstall the old version of the product.</span></span> <span data-ttu-id="8ff2a-138">「Yes (はい)」と答えます。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-138">Answer Yes.</span></span>
+5. <span data-ttu-id="7a77c-136">スクリプトの実行中に、製品の古いバージョンをアンインストールするかどうかを確認するメッセージが表示されます。</span><span class="sxs-lookup"><span data-stu-id="7a77c-136">On running the script, you should be prompted to uninstall the old version of the product.</span></span> <span data-ttu-id="7a77c-137">「Yes (はい)」と答えます。</span><span class="sxs-lookup"><span data-stu-id="7a77c-137">Answer Yes.</span></span>
     
-6. <span data-ttu-id="8ff2a-139">エージェント サービスが実行中の場合、継続する前にこのアプリケーションを閉じるかどうか確認するメッセージが表示されます。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-139">If the Agent service is running, you will be prompted to close the application before continuing.</span></span> <span data-ttu-id="8ff2a-140">このアプリケーションを閉じることを許可します (StatsMan エージェント サービスが停止します)。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-140">Allow the application to close (the StatsMan Agent service will be stopped).</span></span>
+6. <span data-ttu-id="7a77c-138">エージェント サービスが実行中の場合、継続する前にこのアプリケーションを閉じるかどうか確認するメッセージが表示されます。</span><span class="sxs-lookup"><span data-stu-id="7a77c-138">If the Agent service is running, you will be prompted to close the application before continuing.</span></span> <span data-ttu-id="7a77c-139">このアプリケーションを閉じることを許可します (StatsMan エージェント サービスが停止します)。</span><span class="sxs-lookup"><span data-stu-id="7a77c-139">Allow the application to close (the StatsMan Agent service will be stopped).</span></span>
     
-7. <span data-ttu-id="8ff2a-141">インストール プロセスを継続します。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-141">Continue the install process.</span></span> <span data-ttu-id="8ff2a-142">サービス パスワードと証明書の拇印があらかじめ入力されていることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-142">You should notice that the service password and certificate thumbprint are pre-populated.</span></span> <span data-ttu-id="8ff2a-143">入力されていない場合は、継続する前に保存した値を追加します。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-143">If not, add the values you saved before continuing.</span></span>
+7. <span data-ttu-id="7a77c-140">インストール プロセスを継続します。</span><span class="sxs-lookup"><span data-stu-id="7a77c-140">Continue the install process.</span></span> <span data-ttu-id="7a77c-141">サービス パスワードと証明書の拇印があらかじめ入力されていることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="7a77c-141">You should notice that the service password and certificate thumbprint are pre-populated.</span></span> <span data-ttu-id="7a77c-142">入力されていない場合は、継続する前に保存した値を追加します。</span><span class="sxs-lookup"><span data-stu-id="7a77c-142">If not, add the values you saved before continuing.</span></span>
     
-8. <span data-ttu-id="8ff2a-144">管理用の PowerShell ウィンドウを開きます。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-144">Open an administrative PowerShell window.</span></span> <span data-ttu-id="8ff2a-145">エージェント コンポーネントを、以下の手順でアップグレードします。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-145">Upgrade the Agent component:</span></span>
+8. <span data-ttu-id="7a77c-143">管理用の PowerShell ウィンドウを開きます。</span><span class="sxs-lookup"><span data-stu-id="7a77c-143">Open an administrative PowerShell window.</span></span> <span data-ttu-id="7a77c-144">エージェント コンポーネントを、以下の手順でアップグレードします。</span><span class="sxs-lookup"><span data-stu-id="7a77c-144">Upgrade the Agent component:</span></span>
     
    ```
    .\Update-StatsMan.ps1 -Service Agent
    ```
 
-9. <span data-ttu-id="8ff2a-146">スクリプトの実行中に、製品の古いバージョンをアンインストールするかどうかを確認するメッセージが表示されます。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-146">On running the script, you should be prompted to uninstall the old version of the product.</span></span> <span data-ttu-id="8ff2a-147">「Yes (はい)」と答えます。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-147">Answer Yes.</span></span>
+9. <span data-ttu-id="7a77c-145">スクリプトの実行中に、製品の古いバージョンをアンインストールするかどうかを確認するメッセージが表示されます。</span><span class="sxs-lookup"><span data-stu-id="7a77c-145">On running the script, you should be prompted to uninstall the old version of the product.</span></span> <span data-ttu-id="7a77c-146">「Yes (はい)」と答えます。</span><span class="sxs-lookup"><span data-stu-id="7a77c-146">Answer Yes.</span></span>
     
-10. <span data-ttu-id="8ff2a-148">インストール プロセスを継続します。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-148">Continue the install process.</span></span> <span data-ttu-id="8ff2a-149">Web サイトのポートがあらかじめ入力されていることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-149">You should notice that the website port is pre-populated.</span></span> <span data-ttu-id="8ff2a-150">入力されていない場合は、継続する前に保存した値を追加します。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-150">If not, add the value you saved before continuing.</span></span>
+10. <span data-ttu-id="7a77c-147">インストール プロセスを継続します。</span><span class="sxs-lookup"><span data-stu-id="7a77c-147">Continue the install process.</span></span> <span data-ttu-id="7a77c-148">Web サイトのポートがあらかじめ入力されていることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="7a77c-148">You should notice that the website port is pre-populated.</span></span> <span data-ttu-id="7a77c-149">入力されていない場合は、継続する前に保存した値を追加します。</span><span class="sxs-lookup"><span data-stu-id="7a77c-149">If not, add the value you saved before continuing.</span></span>
     
-11. <span data-ttu-id="8ff2a-151">ブラウザーを使用して、Web サイトが期待したとおりに機能することを確認します。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-151">Verify the website is working as expected using the browser.</span></span>
+11. <span data-ttu-id="7a77c-150">ブラウザーを使用して、Web サイトが期待したとおりに機能することを確認します。</span><span class="sxs-lookup"><span data-stu-id="7a77c-150">Verify the website is working as expected using the browser.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="8ff2a-152">エージェントのアップグレードでは、-NoPrompt スイッチを使用できます。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-152">The Agent upgrade can be used with the -NoPrompt switch.</span></span> <span data-ttu-id="8ff2a-153">このスイッチを使用すると、アンインストール プロセスやインストール プロセスでのメッセージの確認が省略でき、PSExec などのツールを使用して大量のサーバーのアップグレードをリモートで実行できます。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-153">This will allow the uninstall/install process to run silently, allowing tools such as PSExec to run the upgrade remotely on a large number of servers.</span></span> 
+> <span data-ttu-id="7a77c-151">エージェントのアップグレードでは、-NoPrompt スイッチを使用できます。</span><span class="sxs-lookup"><span data-stu-id="7a77c-151">The Agent upgrade can be used with the -NoPrompt switch.</span></span> <span data-ttu-id="7a77c-152">このスイッチを使用すると、アンインストール プロセスやインストール プロセスでのメッセージの確認が省略でき、PSExec などのツールを使用して大量のサーバーのアップグレードをリモートで実行できます。</span><span class="sxs-lookup"><span data-stu-id="7a77c-152">This will allow the uninstall/install process to run silently, allowing tools such as PSExec to run the upgrade remotely on a large number of servers.</span></span> 
   
-### <a name="manual-upgrade"></a><span data-ttu-id="8ff2a-154">手動アップグレード</span><span class="sxs-lookup"><span data-stu-id="8ff2a-154">Manual upgrade</span></span>
+### <a name="manual-upgrade"></a><span data-ttu-id="7a77c-153">手動アップグレード</span><span class="sxs-lookup"><span data-stu-id="7a77c-153">Manual upgrade</span></span>
 
-<span data-ttu-id="8ff2a-155">何らかの理由で自動アップグレードが失敗する場合、いつでも手動アップグレードを以下の手順で実行できます。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-155">If for some reason, the automated upgrade fails, you can always perform a manual upgrade as follows:</span></span>
+<span data-ttu-id="7a77c-154">何らかの理由で自動アップグレードが失敗する場合、いつでも手動アップグレードを以下の手順で実行できます。</span><span class="sxs-lookup"><span data-stu-id="7a77c-154">If for some reason, the automated upgrade fails, you can always perform a manual upgrade as follows:</span></span>
   
-1. <span data-ttu-id="8ff2a-156">	リスナーのコンピューターで、リスナー、Web サイト、およびエージェント (このエージェントがこのサーバーにインストールされている場合) を [プログラムと機能] コントロール パネルを使用してアンインストールします。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-156">On the Listener computer, uninstall the Listener, Website and the Agent (if it was installed on this server) via the Programs and Features control panel.</span></span> 
+1. <span data-ttu-id="7a77c-155">	リスナーのコンピューターで、リスナー、Web サイト、およびエージェント (このエージェントがこのサーバーにインストールされている場合) を [プログラムと機能] コントロール パネルを使用してアンインストールします。</span><span class="sxs-lookup"><span data-stu-id="7a77c-155">On the Listener computer, uninstall the Listener, Website and the Agent (if it was installed on this server) via the Programs and Features control panel.</span></span> 
     
     > [!NOTE]
-    >  <span data-ttu-id="8ff2a-157"> アップグレード プロセスを通して Redis のキャッシュ内のデータを維持できるように、Redis をインストールしたままにしておきます。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-157">Keep Redis installed so that the data in the cache will then be maintained through the upgrade process.</span></span>
+    >  <span data-ttu-id="7a77c-156"> アップグレード プロセスを通して Redis のキャッシュ内のデータを維持できるように、Redis をインストールしたままにしておきます。</span><span class="sxs-lookup"><span data-stu-id="7a77c-156">Keep Redis installed so that the data in the cache will then be maintained through the upgrade process.</span></span>
   
-2. <span data-ttu-id="8ff2a-p119">	上記の手順で値の保存の確認メッセージが表示されたときに保存した値を含め、コンポーネントの新しいバージョンをインストールします。コンポーネントのインストールの詳細については、「[Statistics Manager の展開](deploy.md#BKMK_Deploy)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-p119">Install the new versions of the components, including the values you saved above when prompted for them. For more information about installing components, see [Deploy Statistics Manager](deploy.md#BKMK_Deploy)</span></span>
-    
-## <a name="known-issues-fixed-in-release-11"></a><span data-ttu-id="8ff2a-160">リリース 1.1 で修正された既知の問題</span><span class="sxs-lookup"><span data-stu-id="8ff2a-160">Known issues fixed in release 1.1</span></span>
-<span data-ttu-id="8ff2a-161"><a name="BKMK_Fixed"> </a></span><span class="sxs-lookup"><span data-stu-id="8ff2a-161"></span></span>
+2. <span data-ttu-id="7a77c-p118">	上記の手順で値の保存の確認メッセージが表示されたときに保存した値を含め、コンポーネントの新しいバージョンをインストールします。コンポーネントのインストールの詳細については、「[Statistics Manager の展開](deploy.md#BKMK_Deploy)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7a77c-p118">Install the new versions of the components, including the values you saved above when prompted for them. For more information about installing components, see [Deploy Statistics Manager](deploy.md#BKMK_Deploy)</span></span>
 
-<span data-ttu-id="8ff2a-162">以下の既知の問題がリリース 1.1 で修正されました。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-162">The following known issues have been fixed in release 1.1:</span></span>
-  
-- <span data-ttu-id="8ff2a-163">UI とサーバーとエージェントの多数の重要な信頼性とパフォーマンスの向上</span><span class="sxs-lookup"><span data-stu-id="8ff2a-163">UI/Server/Agent - Numerous significant reliability and performance improvements</span></span>
     
-- <span data-ttu-id="8ff2a-164">UI のメイン フィルター コントロールここでは正しく並べ替えられますと異なる場合 (特定のだったときにシステムでは、サーバーがないと思われる人が先頭)</span><span class="sxs-lookup"><span data-stu-id="8ff2a-164">UI - Main filter control now sorts correctly with different cases (was leading people to think certain servers weren't in the system when they were)</span></span>
-    
-- <span data-ttu-id="8ff2a-165">サーバー - サーバー コンポーネントを英語以外のサーバーにもインストールできるようになった</span><span class="sxs-lookup"><span data-stu-id="8ff2a-165">Server - Server components will now install on non-English servers.</span></span>
-    
-- <span data-ttu-id="8ff2a-166">サーバー/エージェント - .NET 4.0 の特定バージョンであることが原因で、.NET エラーが発生してエージェント コンポーネントおよびサーバー コンポーネントがインストールされないことがあった。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-166">Server/Agent - In some cases, agent and server components would not install with .NET errors due to a specific version of .NET 4.0.</span></span> <span data-ttu-id="8ff2a-167">この問題は、解決されました。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-167">This has been resolved.</span></span>
-    
-- <span data-ttu-id="8ff2a-168">エージェント ・ StatsMan ・ エージェントの追加のイベント ログを拡張します。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-168">Agent - Extended event logging added for the StatsMan Agent.</span></span> <span data-ttu-id="8ff2a-169">トポロジではなくサーバーにインストールされている場合、エージェントはクラッシュしなく、これは他の多くの考えられるエラー状態と、イベント ログにログオンしています。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-169">The agent will no longer crash when installed on a server not in the topology, this will now be logged in the event log, along with many other possible error conditions.</span></span>
-    
-- <span data-ttu-id="8ff2a-170">UI のクロムのブラウザーを使用して Web クライアントを参照してください複数のログイン プロンプトが同じ統計マネージャーの Web サーバーとドメインまたはワークグループに参加していないクライアント コンピューターを使用するとします。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-170">UI - Web clients using the Chrome browser would see multiple login prompts when using a client computer not joined to the same workgroup or domain as the Statistics Manager Web server.</span></span> <span data-ttu-id="8ff2a-171">セッションごとに単一のログインのみが必要になりました。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-171">Now only a single login should be required per session.</span></span>
-    
-## <a name="for-more-information"></a><span data-ttu-id="8ff2a-172">関連情報</span><span class="sxs-lookup"><span data-stu-id="8ff2a-172">For more information</span></span>
-<span data-ttu-id="8ff2a-173"><a name="BKMK_Fixed"> </a></span><span class="sxs-lookup"><span data-stu-id="8ff2a-173"></span></span>
+## <a name="for-more-information"></a><span data-ttu-id="7a77c-159">関連情報</span><span class="sxs-lookup"><span data-stu-id="7a77c-159">For more information</span></span>
+<span data-ttu-id="7a77c-160"><a name="BKMK_Fixed"> </a></span><span class="sxs-lookup"><span data-stu-id="7a77c-160"></span></span>
 
-<span data-ttu-id="8ff2a-174">詳細については、以下を参照してください。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-174">For more information, see the following:</span></span>
+<span data-ttu-id="7a77c-161">詳細については、以下を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7a77c-161">For more information, see the following:</span></span>
   
-- [<span data-ttu-id="8ff2a-175">ビジネス サーバー 2015 Skype 統計マネージャーの計画します。</span><span class="sxs-lookup"><span data-stu-id="8ff2a-175">Plan for Statistics Manager for Skype for Business Server 2015</span></span>](plan.md)
+- [<span data-ttu-id="7a77c-162">Skype 統計マネージャーのビジネス サーバー計画します。</span><span class="sxs-lookup"><span data-stu-id="7a77c-162">Plan for Statistics Manager for Skype for Business Server</span></span>](plan.md)
     
-- [<span data-ttu-id="8ff2a-176">Skype for Business Server 2015 の Statistics Manager の展開</span><span class="sxs-lookup"><span data-stu-id="8ff2a-176">Deploy Statistics Manager for Skype for Business Server 2015</span></span>](deploy.md)
+- [<span data-ttu-id="7a77c-163">ビジネス サーバーの Skype の統計マネージャーを展開します。</span><span class="sxs-lookup"><span data-stu-id="7a77c-163">Deploy Statistics Manager for Skype for Business Server</span></span>](deploy.md)
     
-- [<span data-ttu-id="8ff2a-177">Skype for Business Server 2015 の Statistics Manager のトラブルシューティング</span><span class="sxs-lookup"><span data-stu-id="8ff2a-177">Troubleshoot Statistics Manager for Skype for Business Server 2015</span></span>](troubleshoot.md)
+- [<span data-ttu-id="7a77c-164">統計マネージャーは、Skype のビジネス サーバーのトラブルシューティングを行う</span><span class="sxs-lookup"><span data-stu-id="7a77c-164">Troubleshoot Statistics Manager for Skype for Business Server</span></span>](troubleshoot.md)
     
-- [<span data-ttu-id="8ff2a-178">Skype ビジネス サーバー統計マネージャーのブログ</span><span class="sxs-lookup"><span data-stu-id="8ff2a-178">Skype for Business Server Statistics Manager blog</span></span>](https://blogs.technet.microsoft.com/skypestatsman/)
+- [<span data-ttu-id="7a77c-165">Skype for Business Server Statistics Manager ブログ</span><span class="sxs-lookup"><span data-stu-id="7a77c-165">Skype for Business Server Statistics Manager blog</span></span>](https://blogs.technet.microsoft.com/skypestatsman/)
     
 
