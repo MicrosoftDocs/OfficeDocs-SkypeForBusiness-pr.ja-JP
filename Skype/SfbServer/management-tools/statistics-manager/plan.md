@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: '概要: は、Skype のビジネス サーバーの統計マネージャーの概要を学習するには、このトピックを読みます。'
-ms.openlocfilehash: a7cd9fd3dd3eff7f1c9b0326d45475f95f9a909c
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.openlocfilehash: b843cf44edf0c566a1c0a8a99a5ba9380d41c306
+ms.sourcegitcommit: 8536a34cb13d40b30f84d95e6df10542ef85c36d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26283202"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26292977"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Skype 統計マネージャーのビジネス サーバー計画します。
 
@@ -30,15 +30,15 @@ ms.locfileid: "26283202"
 
 このトピックには次のセクションが含まれます。
 
-- [特徴と機能](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Features)
+- [特徴と機能](plan.md#BKMK_Features)
 
 - [リリース 2.0 の新機能](plan.md#BKMK_WhatsNew)
 
-- [Components](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Components)
+- [Components](plan.md#BKMK_Components)
 
 - [設置型展開](plan.md#BKMK_DeploymentOptions)
 
-- [要件](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Requirements)
+- [要件](plan.md#BKMK_Requirements)
 
 - [セキュリティに関する考慮事項](plan.md#BKMK_Security)
 
@@ -129,7 +129,7 @@ ms.locfileid: "26283202"
 
 ### <a name="software-requirements"></a>ソフトウェア要件
 
-- Windows Server 2012 R2
+- Windows サーバー 2016 2019
 
 - IIS が (自動的にインストールされています)
 
@@ -182,6 +182,6 @@ ms.locfileid: "26283202"
 
 - [統計マネージャーは、Skype のビジネス サーバーのトラブルシューティングを行う](troubleshoot.md)
 
-- [Skype for Business Server Statistics Manager ブログ](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Skype for Business Server Statistics Manager ブログ](https://blogs.technet.microsoft.com/dodeitte/2015/10/24/skype-for-business-server-real-time-statistics-manager)
 
 

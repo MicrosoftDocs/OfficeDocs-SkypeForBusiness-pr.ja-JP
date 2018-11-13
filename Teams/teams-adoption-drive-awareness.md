@@ -3,7 +3,7 @@ title: ドライブの認識と、マイクロソフトのチームのトレー�
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 11/01/2018
+ms.date: 11/09/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5fe5e2cb270efa81b6b773d193d6a48f63c19cc0
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 91468e121e80255249d4f8a3d9676f6c3069a319
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215943"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255724"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>ドライブの認識と、マイクロソフトのチームのトレーニングを実装します。
 
@@ -65,13 +65,4 @@ Hashtag の #TeamsStories を簡単に取得するために、フィードバッ
 
 [Office 365 の管理センターでマイクロソフトのチームの利用状況レポートの詳細を表示します。](teams-activity-reports.md)
 
-## <a name="ongoing-improvements"></a>継続的な改善
-
-技術的な実装チームとの共同作業は、マイクロソフトのチームの月間サービス稼働状態のレビューを保持するために計画します。 これらのレビューでは、次の対策に関する情報を提供を共有します。
-
-- サービスの使用法: 作業中の利用状況データです。 推奨サービスまたはマイクロソフトのチームへの移動の結果として削減消費に関する情報を含めることができます。  通常率いるサービス マネージャーやコラボレーション サービスの製品の所有者です。
-- サービスの状態-会議の状態を通話の音質と、全体的な正常性サービスを提供します。 ヘルプデスク チケットのレベル、サポート インシデントのレビューです。 セキュリティとガバナンスのトピックについて説明します。 通常、情報の保護およびサポート チームがつながっています。 
-- 機能/プロジェクトのロードマップ: 残りの従業員の契約時、またはさらに共同作業の改善プロジェクトのスケジュールとは何ですか。 どのような追加機能を有効にするのには、組織がでしょうか。 通常率いるサービス マネージャーまたは重要なビジネスの利害関係者との共同作業でのコラボレーション サービスの製品の所有者です。 
-- キャンペーンとトレーニング成功の測定更新が含まれて到着すると、キーからのフィードバックのテーマへの参加、懸案事項を認識します。 キーの wins および成功事例が含まれます。
- 
-月間のレビューは大規模な組織で非常に正式なまたは小規模の企業での仮想の会議になることができます。共有し、監視を実装するため、正常な状態でますます活気のあるマイクロソフトのチームは、このデータが重要です。 
+![次の手順を実行アイコン](media/teams-adoption-next-icon.png)次:[スケジュール サービスの稼働状態を確認](teams-adoption-schedule-service-health-reviews.md)

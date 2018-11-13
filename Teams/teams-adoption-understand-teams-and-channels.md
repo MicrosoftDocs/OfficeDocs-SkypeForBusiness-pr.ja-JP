@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6012193592b915c3f49ff5e50466c74d370e9835
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 979c288f58bfde0d65a923030f81750f90e69ba3
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215918"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255734"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>チームとマイクロソフトのチーム内のチャンネルを理解します。
 
@@ -32,7 +32,11 @@ ms.locfileid: "26215918"
 
 チームおよびチャネルの詳細を参照するには、[チームとマイクロソフトのチームでのチャネルの概要](teams-channels-overview.md)を参照してください。 チームおよび Office 365 のグループに関する詳細については、 [Office 365 のグループとマイクロソフトのチーム](office-365-groups.md)、および[Office 365 のグループについての詳細](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)を参照してください。
 
-チームとチャネルを作成するためのベスト プラクティスに関する詳細については、[この短いビデオを表示](https://youtu.be/hjJWtoaRJeE)をします。
+
+|  |  |
+|---------|---------|
+| この短いビデオを表示します。   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+
 
 チームのアクセス権の種類は、チームに参加したことを確認します。
 
