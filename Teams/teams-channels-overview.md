@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54f7805e4e6db4416601ea01bcb5fc66e57ead17
-ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
+ms.openlocfilehash: 10de89c43a653cd090f313ec368bde42bd774b03
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "26255655"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26282989"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要
 =================================================
@@ -40,7 +40,7 @@ ms.locfileid: "26255655"
 
 チームとチャネルを作成するためのベスト プラクティスの詳細についてはこの短いビデオを表示します。
 
-<iframe width="640" height="350" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+   > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
 
 <a name="membership-roles-and-settings"></a>メンバーシップ、ロール、および設定
 ------------------------------
@@ -54,7 +54,8 @@ ms.locfileid: "26255655"
 **チームの設定** チームの所有者は、チーム全体の設定を直接 Microsoft Teams で管理できます。 この設定には、チームの写真の追加や、チャネルを作成したりタブとコネクタを追加したりチームまたはチャネル全体を @メンションしたりするためのチーム メンバーにわたるアクセス許可の設定や、GIF、ステッカー、ミームの使用が含まれます。 
 
 チーム所有者のチェック アウトは、この移動のガイドには 3 分ビデオを実行します。 
-<iframe width="640" height="350" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+   > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
 
 Office 365 では、マイクロソフトのチーム管理者の場合は、ビジネス管理センターのチームと Skype でシステム全体の設定へのアクセスがあります。 これらの設定は、チーム設定でチーム所有者に表示されるオプションと既定値に影響します。 たとえば、チーム全体の通知、ディスカッション、リソースのために、既定のチャネル「一般」を有効にして、それらがすべてのチームにわたって表示されるようにすることができます。
 
@@ -68,7 +69,6 @@ Office 365 では、マイクロソフトのチーム管理者の場合は、ビ
 以下に、さまざまなタイプのユーザーが、チーム、チャネルおよびアプリ (タブ/コネクタ/ボット) のセットアップにどのような方法を取ることができるかを示します。これは、Microsoft Teams に関する会話をユーザー コミュニティと開始するにあたってサポートを提供する場合に役立ちます。組織に Microsoft Teams をどのように実装するかを考える場合、提供できるのはチームの構築方法に関するガイダンスであって、自己組織化の方法はユーザーが管理するものであることを念頭に入れてください。以下は、チームが実行可能な方法について考えるにあたって、そのサポートをするサンプルとなります。
 
 Microsoft Teams は、縦割り組織を解体して機能横断型チームを促進することに優れています。このため、ユーザーは縦割り組織ではなく機能的なチームとして考える意識が高まります。
-
 
 |チームのタイプ  |考えられるチャネル  |アプリ (タブ ![タブ アイコン](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/コネクタ ![コネクタ アイコン](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/ボット ![ボット アイコン](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
