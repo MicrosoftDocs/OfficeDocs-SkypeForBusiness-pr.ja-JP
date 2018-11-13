@@ -7,20 +7,17 @@ ms.date: 10/05/2018
 ms.topic: article
 ms.prod: skype-for-business-itpro
 description: Skype for Business の紹介と、その計画と導入、運用の方法を管理者に説明するトレーニング ビデオです。
-ms.openlocfilehash: 35454111783d99f4df725bca254eb3e730bde27d
-ms.sourcegitcommit: 9dd5d8fe6888f0c7d2df1e40fdd8b4c80512f8f9
-ms.translationtype: HT
+ms.openlocfilehash: cd35f3de54dff3e7016fd2fdbb0ea29dd0a7ea36
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25501517"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283211"
 ---
 <a name="admin-training-for-skype-for-business-online"></a>Skype for Business Online 管理者トレーニング
 ==================================
 
 Skype for Business の詳細については、以下のコンテンツを参照してください。
-
-> [!NOTE] 
-> 以前の Skype アカデミー ページには、[MyAdvisor](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy) からアクセスできます (有効期限があります)。
 
 > [!NOTE] 
 > このコンテンツは、Skype Operations Framework (SOF) イニシアチブの一環として作成されたものですが、参考のためにご覧いただけます。
@@ -40,7 +37,7 @@ Skype for Business の詳細については、以下のコンテンツを参照�
 | [ SOF 自動応答と呼び出しキュー](http://aka.ms/sof-training-yt-4d) | 最近リリースされた自動応答と通話キューを組み込むために SOF に加えた変更について説明します。 この機能に役立つアセットを理解することができます。 |
 | [ SOF テナント ダイヤル プラン](http://aka.ms/sof-training-yt-5d) | テナント ダイヤル プランを組み込むために SOF に加えた変更について説明します。 この機能に役立つアセットを理解することができます。 |
 | [ SOF 番号ポータビリティ](http://aka.ms/sof-training-yt-6d) | 電話番号ポータビリティに対応するために SOF に加えた変更について説明します。 この機能に役立つアセットを理解することができます。 |
-| [ SOF Skype 会議ブロードキャスト](http://aka.ms/sof-training-yt-7d) | Skype 会議ブロードキャストに対応するために SOF に加えた変更について説明します。 この機能に役立つアセットを理解することができます。 |
+| [SOF Skype の会議のブロードキャスト](http://aka.ms/sof-training-yt-7d) | Skype 会議ブロードキャストに対応するために SOF に加えた変更について説明します。 この機能に役立つアセットを理解することができます。 |
 | [ 顧客を成功に導く計画](http://aka.ms/sof-training-yt-8d) | SOF のすべては顧客が成功するためにあります。 SOF が顧客の成功の達成にどのように役立つかを説明します。 |
 | [ 構想: 概要、目的、主要な結果](https://aka.ms/sof-training-yt-4) | このセッションは、SOF の構想プロセスを紹介し、この後に続く構想セッションの基盤となります。 構想キックオフと構想ラップアップの 2 つの構想ワークショップを提供する方法も説明します。 さらに、推奨するプロジェクト フロー、方法論、プロジェクトの成功を測定する方法、およびラップアップ セッションの提供方法について説明します。 |
 | [ 構想: 検出](https://aka.ms/sof-training-yt-5) | プロジェクトのリスクを最小限に抑えるために顧客から得る必要がある情報を確認します。 アンケートやその他のツールを使用して既存の環境に関する詳細な情報を収集する方法と、懸念事項と阻害要因を顧客に提示するために予備評価レポートを使用する方法について詳しく説明します。 |
@@ -65,23 +62,23 @@ Skype for Business の詳細については、以下のコンテンツを参照�
 | [ ハイブリッド運用トレーニング](https://aka.ms/sof-training-yt-26) | Skype for Business のハイブリッド展開を成功させるために必要な運用タスクを中心に説明します。 ハイブリッド展開のオンプレミス コンポーネントにパッチを当てる日次 / 週次 / 月次タスク、概念、プロセスについても説明します。 これは、最新のセキュリティ更新プログラムを入手し、最新の製品設備を活用し、オンラインサービスとの互換性を確保することに役立ちます。 また、ハイブリッド展開における通話品質監視の考慮事項と、ハイブリッド固有のシナリオを対象とするトラブルシューティング ガイドの概要についても説明します。 |
 | [ 高品質で信頼性の高いサービス提供の管理](http://aka.ms/sof-yt-training-2c) | エンド ユーザーに素晴らしいエクスペリエンスを提供し、ビジネスに価値をもたらすために、Skype for Business Online の展開を実施する方法について説明します。 ユーザー エクスペリエンスに関わるものは何か、Microsoft が提供するものは何か、管理者の責任は何か。 その答えは、今後の運用に備え、運用モデルを決定することに役立ちます。 |
 | [ Skype for Business の運用以外の役割と責任](http://aka.ms/sof-yt-training-3c) | Skype for Business Online の導入実施に携わるのはどのチームか、実行すべきタスクは何か。 このセッションは、運用上の役割を特定し、運用上の役割や機能を提供するチームに割り当てることに役立ちます。 これは、運用に向けて早期にチームの配置を行い、パイロット開始時には、すべてのチームが取り組みの準備を確実に終えていることを可能にします。 |
-| [ CQD ビデオをメディア品質の調査に活用する]() | 6 本のビデオは、通話品質管理アクティビティで使用される、通話品質ダッシュボード (CQD) を使用してメディア品質を調査する方法に関するガイダンスを提供します。 各動画は前の動画の内容に基づいて作成されているため、動画は順番に見ることをおすすめします。  |
-| [ テナント ダイヤル プラン](http://aka.ms/sa-yt-tdp) | テナント ダイヤル プランにより、Skype for Business Online のダイヤル プランをカスタマイズすることが可能になります。 このセッションでは、テナント ダイヤル プランが必要な理由と使用方法を学ぶことができます。 |
+| [ CQD ビデオをメディア品質の調査に活用する](https://aka.ms/sof-cqd) | 6 本のビデオは、通話品質管理アクティビティで使用される、通話品質ダッシュボード (CQD) を使用してメディア品質を調査する方法に関するガイダンスを提供します。 各動画は前の動画の内容に基づいて作成されているため、動画は順番に見ることをおすすめします。  |
+| [テナントのダイヤル プラン](http://aka.ms/sa-yt-tdp) | テナント ダイヤル プランにより、Skype for Business Online のダイヤル プランをカスタマイズすることが可能になります。 このセッションでは、テナント ダイヤル プランが必要な理由と使用方法を学ぶことができます。 |
 | [ Polycom RealConnect Service for Office 365](http://aka.ms/sa-yt-cvi) | Polycom RealConnect Service for Office 365 (プレビュー) は、社内 VTC (ビデオ テレカンファレンス) と Skype for Business Online の相互運用を可能にします。 このセッションでは、Cloud Video Interop の機能、ユーザーエクスペリエンスの概要、その構成方法について学びます。 |
-| [ Mac 版 Skype For Business](http://aka.ms/sa-yt-mac) | 新しい Mac 版 Skype for Business クライアントを紹介します。 ユーザー エクスペリエンスとその機能を詳細に解説し、Mac 版 Skype for Business が他のクライアントとは異なる部分を確認します。 最後にトラブルシューティング情報を説明します。 |
-| [ Skype ミーティング システム v2](http://aka.ms/sa-yt-srsv2) | Skype ミーティング システム v2 を使用すると、プロジェクターやモニターを備えた既存の会議室を簡単に Skype for Business の会議室にすることができます。 プレゼンテーションで、Skype ミーティング システムの対応デバイスと、Skype ミーティング システムと他の Skype ミーティングデバイスを配備するタイミング、デバイスの可用性に必要な計画と配備の考慮事項について学んでください。 |
-| [ 会議移行サービス](http://aka.ms/sa-yt-mms) | 会議移行サービスは、管理者が会議を開催しているユーザーをオンプレミスからオンラインに移すとき、またはクラウド PSTN 会議を有効にしたときに、会議の更新をすべての会議出席者に自動的に送信します。 この新しいサービスにより、今後のすべての会議のために会議移行ツールをローカルで実行し、会議の更新を送信する必要がなくなります。 会議移行サービスが呼び出された場合、会議移行ツールが依然として必要な場合、最良のユーザー エクスペリエンスを計画する方法、会議移行サービス処理の結果をレポートする機能などの詳細についてプレゼンテーションをご覧ください。 |
+| [Mac でのビジネス用の Skype](http://aka.ms/sa-yt-mac) | 新しい Mac 版 Skype for Business クライアントを紹介します。 ユーザー エクスペリエンスとその機能を詳細に解説し、Mac 版 Skype for Business が他のクライアントとは異なる部分を確認します。 最後にトラブルシューティング情報を説明します。 |
+| [Skype ルーム システム v2](http://aka.ms/sa-yt-srsv2) | Skype ミーティング システム v2 を使用すると、プロジェクターやモニターを備えた既存の会議室を簡単に Skype for Business の会議室にすることができます。 プレゼンテーションで、Skype ミーティング システムの対応デバイスと、Skype ミーティング システムと他の Skype ミーティングデバイスを配備するタイミング、デバイスの可用性に必要な計画と配備の考慮事項について学んでください。 |
+| [会議の移行サービス](http://aka.ms/sa-yt-mms) | 会議移行サービスは、管理者が会議を開催しているユーザーをオンプレミスからオンラインに移すとき、またはクラウド PSTN 会議を有効にしたときに、会議の更新をすべての会議出席者に自動的に送信します。 この新しいサービスにより、今後のすべての会議のために会議移行ツールをローカルで実行し、会議の更新を送信する必要がなくなります。 会議移行サービスが呼び出された場合、会議移行ツールが依然として必要な場合、最良のユーザー エクスペリエンスを計画する方法、会議移行サービス処理の結果をレポートする機能などの詳細についてプレゼンテーションをご覧ください。 |
 | [ オンプレミス Exchange Server を使用するクラウド PBX ボイスメール](http://aka.ms/sa-yt-avm) | Skype for Business Online のユーザーがオンプレミス Exchange Server でホストされる Exchange メールボックスを使用して、クラウド PBX ボイスメールを活用する方法を説明します。 要件と、その要件に応じた設計方法、動作の仕組みを詳細に説明します。 |
 | [ クライアント詳細情報](http://aka.ms/sa-yt-client) | Skype for Business クライアントに関して、サインインするサーバやサービスをどのように検出するか、どのように認証するか、シグナル フローはどのように見えるか、どのように問題を解決するかを説明します。 |
 | [ Skype for Business メディア フロー](http://aka.ms/sa-yt-ice) | Skype for Business は、オーディオ、ビデオ、デスクトップ / アプリケーション共有、ファイル転送など、異なる複数のリアルタイム ワークロードを使用します。 このセッションでは、最適なパスの特定方法と、メディア接続の問題のトラブルシューティングにその知識を活用する方法について説明します。 また、メディア リレーとしてのエッジ サーバーの役割や、プロセスで使用する ICE、STUN、TURN などのプロトコルについても説明します。 |
 | [ ハイブリッド構成](http://aka.ms/sa-yt-hybrid) | ハイブリッドを採用すると、社内の Skype for Business を Skype for Business Online と接続できます。 この機能で可能になること、ユーザー エクスペリエンス、構成方法を身につけることができます。 |
 | [ サーバーのアップグレード](http://aka.ms/sa-yt-upg) | 社内に Lync Server を展開している場合は、Skype for Business Online の最新機能の使用と最適な統合の実現のために Skype for Business Server 2015 にアップグレードする必要があります。  このセッションでは、計画を含むアップグレード プロセスについて説明します。 |
-| [ 会議](http://aka.ms/sa-yt-meet) | 会議は、Skype for Business の中核となるワークロードの 1 つです。 さまざまな種類の会議のすべてを学び、オンライン会議を成功させるために組織をセットアップする方法を学びます。 |
+| [会議](http://aka.ms/sa-yt-meet) | 会議は、Skype for Business の中核となるワークロードの 1 つです。 さまざまな種類の会議のすべてを学び、オンライン会議を成功させるために組織をセットアップする方法を学びます。 |
 | [ Skype 会議ブロードキャスト](http://aka.ms/sa-yt-smb) | Skype for Business では、最大 10,000 人のユーザーに会議をブロードキャストできます。 Skype 会議ブロードキャストで可能なこと、その計画方法、設定方法について学ぶことができます。 |
 | [ 正常性の維持](http://aka.ms/sa-yt-health) | 構内とオンラインにおける信頼性、品質、導入に関する環境の正常性を監視および管理するために、Skype for Business が提供するツールについて説明します。 |
 | [ クラウド PBX 概要](http://aka.ms/sa-yt-cloudpbx) | クラウド PBX の概念を紹介し、Skype for Business Online でユーザーに提供する機能について説明します。 |
-| [ クラウド PBX (PSTN 通話)](http://aka.ms/sa-yt-pstn) | PSTN を使用したクラウド PBX により、Microsoft は クラウド PBX ユーザーに PSTN 接続を提供します。 このセッションでは、利用可能な場所、ユーザーに提供する機能、構成方法について説明します。 |
-| [ クラウド PBX (オンプレミス PSTN 接続)](http://aka.ms/sa-yt-ocph) | この機能により、クラウド PBX ユーザーは Skype for Business サーバを介して既存の PSTN インフラストラクチャを活用できます。  PSTN 通話を使用するクラウド PBX の計画方法、構成方法、管理方法について説明します。 |
+| [PSTN 通話が PBX をクラウド](http://aka.ms/sa-yt-pstn) | PSTN を使用したクラウド PBX により、Microsoft は クラウド PBX ユーザーに PSTN 接続を提供します。 このセッションでは、利用可能な場所、ユーザーに提供する機能、構成方法について説明します。 |
+| [クラウド PBX の設置型の PSTN への接続](http://aka.ms/sa-yt-ocph) | この機能により、クラウド PBX ユーザーは Skype for Business サーバを介して既存の PSTN インフラストラクチャを活用できます。  PSTN 通話を使用するクラウド PBX の計画方法、構成方法、管理方法について説明します。 |
 | [ Cloud Connector Edition 詳細情報](http://aka.ms/sa-yt-cce) | Cloud Connector Edition (CCE) は、Skype for Business Online インフラストラクチャを本格的に構築することなく、既存のテレフォニー インフラストラクチャに統合する最も簡単な方法です。 CCE の計画方法、展開方法、管理方法について説明します。 既に CCE に精通し、バージョン 1.4.1 の新機能について知りたい場合は、「新しい機能」のセクションを参照してください。 |
 | [ MOOC: Skype for Business: 基礎](http://aka.ms/sof-mooc1) | Microsoft のコミュニケーションとコラボレーションのソリューションと製品について説明します。  Skype for Business は、大規模な会議と音声の両方に対応する単一のプラットフォームを提供します。 このコースでは、Skype for Business の概要を紹介します。 Skype for Business のビジョン、価値観、機能、能力について学べます。 予備知識は必要ありません。   |
 | [ MOOC: Skype for Business: 音声の概念と計画](http://aka.ms/sof-mooc2) |  Skype for Business 音声コースの最初のコースでは、クラウド PBX を使用して音声機能を計画し展開する方法を説明します。 このコースは、「Deploying Enterprise Voice with Skype for Business 2015」試験 (70-333) の受験準備に役立ちます。   |
@@ -96,4 +93,4 @@ Skype for Business の詳細については、以下のコンテンツを参照�
 | [  Cloud Connector Edition V2 の新機能](https://aka.ms/sa-yt-cce-wnv2) |  Cloud Connector Edition v2 には、多くの新機能と改善が導入されています。 以前のバージョンからの変更内容について説明します。 |
 | [ MOOC: Skype 運用フレームワーク](https://aka.ms/sof-mooc8) | Skype for Business と関連技術を効果的に導入し運用する方法を説明します。 |
 | [ ネットワーク プランナー](https://aka.ms/sa-network-planner) | ネットワーク プランナーを使い、ネットワークの計画を立てることができます。 このセッションでは、ネットワーク プランナーの機能を説明します。 |
-| [ Skype for Business から Microsoft Teams への移行について理解する](https://aka.ms/tr-journey) | 新しいインテリジェント コミュニケーションのビジョンと、Skype for Business と Teams の今後について説明します。 |
+| [マイクロソフト チームへは、ビジネスの Skype からの旅を理解します。](https://aka.ms/tr-journey) | このトレーニングでは、新しいインテリジェント コミュニケーション ビジョンを説明し、今後の Skype for Business と Teams について説明します。 |

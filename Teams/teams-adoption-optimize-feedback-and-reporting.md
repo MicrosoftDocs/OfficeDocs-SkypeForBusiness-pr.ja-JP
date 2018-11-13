@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d86183ecb8209da15edd7f97511d6297bd0910c
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 65790075f649693a5312c3a12cc5daac33c7ac90
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215919"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255766"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>フィードバックと、マイクロソフトのチームの導入レポートを最適化します。
 
@@ -50,8 +50,8 @@ ms.locfileid: "26215919"
 
 展開およびマイクロソフトのチームを採用する際、3 種類のレポートを作成するを確認する必要があります。
 
-- -Office 365 と、社内の IT サポートの両方からの稼働状態のサービス部門。
-- – ビューを Office 365 のサービス活動は、マイクロソフトのチームに報告します。 組織内で他のシステムからの情報を使用することもできます。
+- [サービスの稼働状態](https://status.office365.com/): Office 365 と、社内の IT サポートの両方の部門です。
+- [サービス活動](https://docs.microsoft.com/en-us/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide): Office 365 からでは、[マイクロソフトのチームでレポート](https://docs.microsoft.com/en-us/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide)を表示します。 組織内で他のシステムからの情報を使用することもできます。
 - – サービスの満足度は、特定の経験に、内部のコミュニティ フォーラムやアンケートから収集しました。
 
 ![次の手順を実行アイコン](media/teams-adoption-next-icon.png)次:[ドライブの認識とトレーニングを実装します。](teams-adoption-drive-awareness.md)

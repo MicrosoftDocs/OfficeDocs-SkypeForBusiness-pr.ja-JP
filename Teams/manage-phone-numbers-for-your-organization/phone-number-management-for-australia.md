@@ -23,17 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 取得し、オーストラリアの電話番号を Skype のビジネスをオンラインで、マイクロソフトのチームの管理上の情報を検索するのにには、次の表を使用します。
-ms.openlocfilehash: b897a9f857b6703ed0ada636c16aa76393501257
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 88db4b1410071793622c5bab7e528c51180c7a80
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014516"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283132"
 ---
 # <a name="phone-number-management-for-australia"></a>オーストラリアの電話番号の管理
-> [!IMPORTANT]
-> オーストラリアには、プレビューし、早期導入企業のお客様をできるだけです。 詳細については、 「[Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan)」を参照してください。
-
 当社はオーストラリアで、通話プランの購入と事前設定に関して Telstra 社 と提携しました。 Telstra 社は、通話プランを販売し、自動応答とコール キューに関して、ユーザーとサービス電話番号両方に電話番号管理のサポートを提供します。 ただし、電話会議用のサービス電話番号とライセンスは、引き続き Office 365 で販売、管理します。
 
 詳細については、 「[Tesltra Calling for Office 365](https://aka.ms/TelstraVoicePlan)」を参照してください。

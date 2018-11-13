@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aba79f52984b243aa0a10c425f5c5741119daf50
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 239a90c295035da629b74711a41f7cec59f4c0a9
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215954"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255723"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>マイクロソフト チーム導入段階 1 - 開始
 
@@ -66,6 +66,5 @@ ms.locfileid: "26215954"
 - [マイクロソフト チームの技術的なコミュニティ](https://aka.ms/TeamsCommunity)-製品情報を取得し、他のチームのお客様から学ぶ私たちのブログを常に最新の新機能およびチームのユース ケースにします。 
 - [Office 365 のエキスパート プログラム](https://aka.ms/O365Champions)および導入の推進コミュニティ – から最高のチーム、SharePoint、Yammer、およびその他の製品などの Office 365 のワークロードの採用を推進する方法についての情報を説明します。 IT プロフェッショナル、ビジネス ユーザー、開発者は、「偶然」を開くし、クラウド サービスの導入の推進に関心を持つすべてのユーザーです。  
 
-[Office 365 のユーザー設定の学習](https://aka.ms/CLO365)には、SharePoint Online のテンプレート、トレーニング、組織のポータルを作成するために使用できるカスタム web パーツが含まれています。 これは、無料、ソースのソリューションにより、Microsoft は、Office 365 にテナント時直接トレーニング資料などのストリームを開きます。 サービスを使用しているし、サイトのエクスペリエンスに追加のトレーニング コンテンツを追加するにはカスタマイズできます。 SharePoint Online のトレーニング ポータルがある場合、自社のサイト上に直接インストールするのには web パーツだけをダウンロードし、実装の要件に基づいて構成できます。  
 
 ![次の手順を実行アイコン](media/teams-adoption-next-icon.png)次:[理解するチームとチャネル](teams-adoption-understand-teams-and-channels.md)

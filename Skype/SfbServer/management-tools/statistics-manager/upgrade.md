@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 2015 の Statistics Manager のアップグレード
+title: ビジネス サーバーの Skype の統計マネージャーをアップグレードします。
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,21 +10,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
-description: '概要: は、Skype のビジネス サーバー 2015 のマネージャーの統計情報をアップグレードする方法の詳細については、このトピックを読みます。'
-ms.openlocfilehash: d10dd5cd92fc0d7dbbb3285c43df78e8149f58c0
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: '概要: は、Skype のビジネス サーバーの統計情報マネージャーをアップグレードする方法の詳細については、このトピックを読みます。'
+ms.openlocfilehash: 13bb4a13d05f7c877c5dd62a9c17466389d0e564
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374858"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283171"
 ---
-# <a name="upgrade-statistics-manager-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 の Statistics Manager のアップグレード
+# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>ビジネス サーバーの Skype の統計マネージャーをアップグレードします。
  
-**の概要:** Skype のビジネス サーバー 2015 のマネージャーの統計情報をアップグレードする方法の詳細については、このトピックを参照してください。
+**の概要:** Skype のビジネス サーバーの統計情報マネージャーをアップグレードする方法の詳細については、このトピックを参照してください。
   
 Skype のビジネス サーバーの統計マネージャーの既存のインストールをアップグレードする方法について説明-Skype をビジネスのサーバーの稼働状態とパフォーマンスのデータをリアルタイムに表示できるようにする強力なツールです。 数秒ごとに数百のサーバー間でのパフォーマンス データをポーリングし、統計マネージャーの web サイトですぐに結果を表示できます。 
   
-統計マネージャー」と「リリース 1.1 の新機能の詳細については、 [Skype のビジネス サーバー 2015 統計マネージャーのを計画](plan.md)し、、[ビジネス サーバー 2015 の Skype の統計マネージャー展開](deploy.md)を参照してください。 リリース 1.1 で修正された既知の問題については、「[リリース 1.1 で修正された既知の問題](upgrade.md#BKMK_Fixed)」を参照してください。
+統計マネージャーおよびリリース 2.0 の新機能に関する詳細については、 [Skype のビジネス サーバー統計マネージャーを計画](plan.md)し、 [Skype のビジネス サーバーの統計マネージャーの展開](deploy.md)を参照してください。
   
 アップグレードには、以下の 2 つの異なる方法があります。
   
@@ -100,35 +100,19 @@ Skype のビジネス サーバーの統計マネージャーの既存のイン�
     >   アップグレード プロセスを通して Redis のキャッシュ内のデータを維持できるように、Redis をインストールしたままにしておきます。
   
 2. 	上記の手順で値の保存の確認メッセージが表示されたときに保存した値を含め、コンポーネントの新しいバージョンをインストールします。コンポーネントのインストールの詳細については、「[Statistics Manager の展開](deploy.md#BKMK_Deploy)」を参照してください。
-    
-## <a name="known-issues-fixed-in-release-11"></a>リリース 1.1 で修正された既知の問題
-<a name="BKMK_Fixed"> </a>
 
-以下の既知の問題がリリース 1.1 で修正されました。
-  
-- UI とサーバーとエージェントの多数の重要な信頼性とパフォーマンスの向上
-    
-- UI のメイン フィルター コントロールここでは正しく並べ替えられますと異なる場合 (特定のだったときにシステムでは、サーバーがないと思われる人が先頭)
-    
-- サーバー - サーバー コンポーネントを英語以外のサーバーにもインストールできるようになった
-    
-- サーバー/エージェント - .NET 4.0 の特定バージョンであることが原因で、.NET エラーが発生してエージェント コンポーネントおよびサーバー コンポーネントがインストールされないことがあった。 この問題は、解決されました。
-    
-- エージェント ・ StatsMan ・ エージェントの追加のイベント ログを拡張します。 トポロジではなくサーバーにインストールされている場合、エージェントはクラッシュしなく、これは他の多くの考えられるエラー状態と、イベント ログにログオンしています。
-    
-- UI のクロムのブラウザーを使用して Web クライアントを参照してください複数のログイン プロンプトが同じ統計マネージャーの Web サーバーとドメインまたはワークグループに参加していないクライアント コンピューターを使用するとします。 セッションごとに単一のログインのみが必要になりました。
     
 ## <a name="for-more-information"></a>関連情報
 <a name="BKMK_Fixed"> </a>
 
 詳細については、以下を参照してください。
   
-- [ビジネス サーバー 2015 Skype 統計マネージャーの計画します。](plan.md)
+- [Skype 統計マネージャーのビジネス サーバー計画します。](plan.md)
     
-- [Skype for Business Server 2015 の Statistics Manager の展開](deploy.md)
+- [ビジネス サーバーの Skype の統計マネージャーを展開します。](deploy.md)
     
-- [Skype for Business Server 2015 の Statistics Manager のトラブルシューティング](troubleshoot.md)
+- [統計マネージャーは、Skype のビジネス サーバーのトラブルシューティングを行う](troubleshoot.md)
     
-- [Skype ビジネス サーバー統計マネージャーのブログ](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Skype for Business Server Statistics Manager ブログ](https://blogs.technet.microsoft.com/skypestatsman/)
     
 

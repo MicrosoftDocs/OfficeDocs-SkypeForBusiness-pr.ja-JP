@@ -1,5 +1,5 @@
 ---
-title: ビジネス サーバー 2015 Skype 統計マネージャーの計画します。
+title: Skype 統計マネージャーのビジネス サーバー計画します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,31 +10,31 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
-description: '概要: は、Skype のビジネス サーバー 2015 の統計マネージャーの概要を学習するには、このトピックを読みます。'
-ms.openlocfilehash: de4f2bedcbd03191b852366504423ebb031cf5f1
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: '概要: は、Skype のビジネス サーバーの統計マネージャーの概要を学習するには、このトピックを読みます。'
+ms.openlocfilehash: a7cd9fd3dd3eff7f1c9b0326d45475f95f9a909c
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244007"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283202"
 ---
-# <a name="plan-for-statistics-manager-for-skype-for-business-server-2015"></a>ビジネス サーバー 2015 Skype 統計マネージャーの計画します。
+# <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Skype 統計マネージャーのビジネス サーバー計画します。
 
-**の概要:** Skype のビジネス サーバー 2015 の統計マネージャーの概要を学習するには、このトピックを参照してください。
+**の概要:** Skype のビジネス サーバーの統計マネージャーの概要を学習するには、このトピックを参照してください。
 
  Skype ビジネス サーバーの統計情報マネージャーとは、Skype をビジネスのサーバーの稼働状態とパフォーマンスのデータをリアルタイムに表示できるようにする強力なツールです。 数秒ごとに数百のサーバー間でのパフォーマンス データをポーリングし、統計マネージャーの web サイトですぐに結果を表示できます。
 
 統計マネージャーを使用するには継続的なパフォーマンス問題を特定する、お客様の環境を計画的な変更の結果を表示、停止、解像度などの作業を追跡します。 統計マネージャーは、キーの状態インジケーター (KHI) のしきい値が設定されているし、配置のニーズに合わせてカスタマイズできます。
 
-統計マネージャーを 1 つのサーバーをホストのすべてのサーバー側の統計マネージャー コンポーネントの設置型展開で展開できます。 統計マネージャーの展開の詳細については、 [Skype のビジネス サーバー 2015 の統計マネージャーの展開](deploy.md)を参照してください。 統計マネージャーの既存の展開がある、まだリリース 1.1 にアップグレードしていない場合は、[リリース 1.1 の新機能としては](plan.md#BKMK_WhatsNew) [Skype のビジネス サーバー 2015 の統計マネージャーのアップグレード](upgrade.md)を参照してください。
+統計マネージャーを 1 つのサーバーをホストのすべてのサーバー側の統計マネージャー コンポーネントの設置型展開で展開できます。 統計マネージャーの展開の詳細については、 [Skype のビジネス サーバーの統計マネージャーの展開](deploy.md)を参照してください。 統計マネージャーの既存の展開がある、まだリリース 2.0 にアップグレードしていない場合は、[リリース 2.0 の新機能としては](plan.md#BKMK_WhatsNew) [Skype のビジネス サーバーの統計マネージャーのアップグレード](upgrade.md)を参照してください。
 
 このトピックには次のセクションが含まれます。
 
 - [特徴と機能](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Features)
 
-- [リリース 1.1 の新機能](plan.md#BKMK_WhatsNew)
+- [リリース 2.0 の新機能](plan.md#BKMK_WhatsNew)
 
-- [コンポーネント](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Components)
+- [Components](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Components)
 
 - [設置型展開](plan.md#BKMK_DeploymentOptions)
 
@@ -77,16 +77,14 @@ ms.locfileid: "23244007"
 
   - KHI のビューの定義
 
-## <a name="whats-new-in-release-11"></a>リリース 1.1 の新機能
+## <a name="whats-new-in-release-20"></a>リリース 2.0 の新機能
 <a name="BKMK_WhatsNew"> </a>
 
-以下は、リリース 1.1 の新機能について説明します。 統計マネージャーの既存の展開があり、まだアップグレードした場合は、 [Skype のビジネス サーバー 2015 の統計マネージャーのアップグレード](upgrade.md)を参照してください。
+リリース 2.0 の新機能を次に示します。 統計マネージャーの既存の展開があり、まだアップグレードした場合は、 [Skype のビジネス サーバーの統計マネージャーのアップグレード](upgrade.md)を参照してください。
 
 - エッジのメディア、ファブリックの稼働状態、プールのフェールオーバーおよび登録シナリオのシナリオのビューが追加されました。
 
-- (リスナーには、インストールされている) コマンド ・ ライン ・ PerfAgentStorageManager.exe では、csv 形式カウンター データをエクスポートできます。
-
-- 多くの新しいカウンターは、SQL サーバーでは、複数のファブリックの Windows カウンターでは、複数の Skype ビジネス使用状況カウンターの新たに追加されなどです。
+- 多くの新しいカウンターは、SQL サーバーでは、複数の Skype ビジネス使用状況カウンターの新たに追加されなどです。
 
 - 統計マネージャー エージェントの監視ノードの統合監視ノードでは、エージェントがインストールされている場合が報告されます代理トランザクションの統計情報カウンターと統計マネージャーにします。
 
@@ -141,9 +139,7 @@ ms.locfileid: "23244007"
 
 - PSExec - リモート エージェントの展開を行う必要
 
-- .NET 4.5 の (2012 R2 に含まれている) は、サーバー側コンポーネントに必要な
-
-- .NET 4.0 のエージェントに必要な
+- エージェントとサーバー側のコンポーネントに必要な (2012 R2 に含まれている) - .NET 4.5 です。
 
 ### <a name="networking-requirements"></a>ネットワーク要件
 
@@ -175,17 +171,17 @@ ms.locfileid: "23244007"
 
 - エージェントでは、リスナーへの接続でパフォーマンス データを送信を開始します。
 
-## <a name="for-more-information"></a>詳細情報
+## <a name="for-more-information"></a>関連情報
 <a name="BKMK_Security"> </a>
 
 詳細については、以下を参照してください。
 
-- [Skype for Business Server 2015 の Statistics Manager の展開](deploy.md)
+- [ビジネス サーバーの Skype の統計マネージャーを展開します。](deploy.md)
 
-- [Skype for Business Server 2015 の Statistics Manager のアップグレード](upgrade.md)
+- [ビジネス サーバーの Skype の統計マネージャーをアップグレードします。](upgrade.md)
 
-- [Skype for Business Server 2015 の Statistics Manager のトラブルシューティング](troubleshoot.md)
+- [統計マネージャーは、Skype のビジネス サーバーのトラブルシューティングを行う](troubleshoot.md)
 
-- [Skype ビジネス サーバー統計マネージャーのブログ](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Skype for Business Server Statistics Manager ブログ](https://blogs.technet.microsoft.com/skypestatsman/)
 
 
