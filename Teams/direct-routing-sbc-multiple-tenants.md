@@ -14,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 複数のテナントを処理する 1 つのセッション ボーダー コント ローラー (SBC) を構成する方法について説明します。
-ms.openlocfilehash: 618f956519c4a9e8ffe07e3000a91af39469adfc
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 292a3e675455d112fdade04018e670b9a5f9c38f
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839088"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295745"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントのセッション ボーダー コント ローラーを構成します。
 
@@ -56,7 +56,7 @@ ms.locfileid: "25839088"
 展開し、SBC ホスティング シナリオでは、半角を構成する方法の詳細な手順については、SBC の製造元のマニュアルを参照してください。
 
 - **は:**[直接ルーティングの構成に関する注意事項](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)」の接続は SBC マイクロソフト チーム直接ルーティングのホスティング モデル構成メモにします」で説明したシナリオをホストしている SBC の構成 
-- **通信のリボン:** コア シリーズ SBCs のリボンを構成する方法に関するドキュメントは、[リボン通信 SBC コア Microsoft チーム構成ガイド](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)をこのページの[リボンのベスト ・ プラクティス ・ マイクロソフト チーム直接ルーティング SBC のキャリアを構成するを参照してください。エッジ](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **通信のリボン:** リボンの中核となる一連の SBCs を構成する方法に関するドキュメントは、[リボン通信 SBC コア Microsoft チーム構成ガイド](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)をこのページの[リボン最適なベスト ・ プラクティスの通信事業者を構成するマイクロソフト チームの直接のルーティングのためを参照してください。SBC エッジ](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 
 > [!NOTE]
 > 「連絡先」ヘッダーを構成する方法に注意してください。 Contact ヘッダーを使用して、招待の受信メッセージにお客様のテナントを検索します。 
@@ -127,7 +127,7 @@ SBC には、接続の認証に証明書が必要です。 キャリアは SBC �
 
 ### <a name="activate-the-domain-name"></a>ドメイン名を有効化します。
 
-ドメイン名を登録して、1 つ以上の E1、E3 を追加することによってアクティブにする必要がありますまたは E5 のライセンスを取得後、ユーザーと FQDN の部分が、SIP の SIP アドレスを割り当てるアドレスに作成した基本ドメインと一致します。 
+ドメイン名を登録した後、少なくとも 1 人のユーザーを追加することによってアクティブ化し、作成した基本ドメインと一致する SIP アドレスの FQDN の部分での SIP アドレスを割り当てる必要があります。
 
 *Office 365 テナントのユーザーの追加の詳細については、 [Office 365 のドメイン関連のヘルプ](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)を参照してください。*
 

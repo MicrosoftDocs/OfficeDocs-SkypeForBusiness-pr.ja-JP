@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: この資料では、Skype ルーム システム v2 をサポートするための要件について説明します。
-ms.openlocfilehash: 23ab819c4a32efd4228a1d1d5b7aba89275e5b39
-ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
+ms.openlocfilehash: fcf108de8ac6d344061b4c95dcbe7438dc034d3b
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "26255773"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296359"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Skype Room Systems バージョン 2 の要件
 
@@ -26,9 +26,6 @@ ms.locfileid: "26255773"
 
 > [!NOTE]
 > Skype ルーム システム v2 は、オンライン ビジネスのビジネス サーバー 2015、マイクロソフトのチーム、または Skype のビジネス サーバー 2019 の Skype、Skype での使用です。 <br><br>Lync Server 2013 のような以前のプラットフォームは、Skype ルーム システム v2 を使用する必要もありません。 
-
-> [!NOTE]
-> Prem の Exchange サーバーを使用すると、Skype ルーム システム v2 には Exchange Server 2013 SP1 またはそれ以降の使用が必要です。
 
 ## <a name="hardware-requirements"></a>ハードウェア要件
 
@@ -42,11 +39,11 @@ Skype ルーム システム v2 は、別の部屋のサイズによっては、
 
 |タブレット|プロセッサ|RAM|ディスク|
 |:-----|:-----|:-----|:-----|
-|Surface Pro (2017)  |Core i5  |8GB  |256GB  |
-|Surface Pro (2017)  |Core i5  |8GB  |128GB  |
-|Surface Pro (2017)  |Core i5  |4GB  |128GB  |
-|Surface Pro 4       |Core i5  |8GB  |256GB  |
 |Surface Pro 4       |Core i5  |4GB  |128GB  |
+|Surface Pro 4       |Core i5  |8GB  |256GB  |    
+|Surface Pro (2017)  |Core i5  |4GB  |128GB  |
+|Surface Pro (2017)  |Core i5  |8GB  |128GB  |
+|Surface Pro (2017)  |Core i5  |8GB  |256GB  |
 
 > [!NOTE]
 > M3 プロセッサはサポートされていません。

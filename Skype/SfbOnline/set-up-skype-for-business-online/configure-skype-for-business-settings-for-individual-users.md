@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: '個々 のユーザーについては、ビジネスの Skype を次のように変更する方法について: オーディオおよびビデオ会議、通話の記録との会議。 '
-ms.openlocfilehash: e686e42771b22d7c8d8b21ac05998bbbd5f9ad7e
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: f99c99fc291a2df71a3e47448e3cc8fcf01e371f
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838953"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295145"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>管理者: 個別のユーザーの Skype for Business の設定を構成する
 
@@ -63,9 +63,9 @@ ms.locfileid: "25838953"
     
 |**オプション**|**詳細**|
 |:-----|:-----|
-|オーディオと HD ビデオ  <br/> |させるにはこのユーザーがレコードのオーディオ会議、オーディオおよびビデオ会議、または (なし)、会議をスケジュールすることを許可しません。  <br/> |
+|オーディオと HD ビデオ  <br/> |させるにはこのユーザーがレコードのオーディオ会議、オーディオおよびビデオ会議、または (なし)、meeetings のスケジュールを設定することができません。  <br/> |
 |レコードの会話と会議  <br/> |このユーザーの許可を記録する」を選択します。  <br/> このオプションでは、ビジネスの基本の Skype で利用可能なできません。  <br/> |
-|準拠するため非アーカイブ機能を無効にします。  <br/> | 電子的に保存されている情報を保持するために法的に必要な場合は、このオプションを選択します。 <br/>  このオプションを選択することは、[インプレース保持](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx)Exchange 管理センターでの設定がある場合にキャプチャされていない機能を無効にします。 次の機能をオフにします。 <br/>  インスタント メッセージングを使用したファイルの転送 <br/>  OneNote の共有ページ <br/>  PowerPoint のコメント <br/> |
+|準拠するため非アーカイブ機能を無効にします。  <br/> | 電子的に保存されている情報を保持するために法的に必要な場合は、このオプションを選択します。 <br/>  このオプションを選択することは、[インプレース保持](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx)Exchange 管理センターで設定がある場合にキャプチャされていない機能を無効にします。 次の機能をオフにします。 <br/>  インスタント メッセージングを使用したファイルの転送 <br/>  OneNote の共有ページ <br/>  PowerPoint のコメント <br/> |
    
 一括でこれらの設定を構成するには、PowerShell を使用します。 [Skype のビジネスをオンラインで管理するポリシー](https://technet.microsoft.com/en-us/library/dn362826%28v=ocs.15%29.aspx)を参照してください。
   

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 742fdbf38aeb64426ad1781d552c580385dc8117
-ms.sourcegitcommit: 9138325ba2652a9ee3602d259de811082080e358
+ms.openlocfilehash: 1952d6d180f5b9662b1e598ceb9d0b8d230640c2
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "25842104"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293896"
 ---
 # <a name="create-a-phone-system-call-queue"></a>電話システムの通話キューを作成する
 
@@ -35,56 +35,61 @@ ms.locfileid: "25842104"
 電話システムの通話キューは次の機能を提供します:
   
 - 組織の応答メッセージ。
+    
 - 通話の保留中に再生される保留音。
+    
 - メールが有効な配布リストおよびセキュリティ グループ内のエージェントを呼び出しへの呼び出しをリダイレクトします。
+    
 - 呼び出しキューの最大サイズ、タイムアウト、および呼び出しの処理オプションの設定を行っています。
-
-呼び出しキューに設定されている電話番号へ呼び出し、それら、あいさつのメッセージが聞こえます (いずれかの設定されている) 場合、その後に、キューを保存して、次の呼び出しを使用可能なエージェントを待機します。 待機中、保留中であるし、呼び出し*最初に、先入れ先出し*(FIFO) の方法で呼び出しエージェントに提供するときに、相手呼び出しは音楽を聞きます。
+    
+誰かを呼び出すと設定されている電話番号を呼び出しキューでは、それらが聞こえますあいさつ文 (いずれかの設定されている) 場合、その後に、キューを保存して、次の呼び出しを使用可能なエージェントを待機します。 待機中、保留中であるし、呼び出し*最初に、先入れ先出し*(FIFO) の方法で呼び出しエージェントに提供するときに、相手呼び出しは音楽を聞きます。
   
 キューで待機しているすべての呼び出しは、アテンダントのルーティング モードまたはシリアル ルーティング モードを使用して配布されます。
   
 - 応答のルーティングでは、キュー内の最初の呼び出しを同時にすべてのエージェントが呼び出されます。
+    
 - シリアル・ルーティングでは、キュー内の最初の呼び出しがすべてのコールエージェントを一件ずつ呼び出します。
-
+    
     > [!NOTE]
     > **オフライン**中のコールエージェントは、 **取り込み中** のプレゼンスを設定するか、通話キューからの呼び出しをオプトアウトしてください。
   
 - 一度に 1 回のみの着信通知 (キューの最初にある通話) がコール エージェントに送信されます。
+    
 - コール エージェントが通話を受けると、キューにある次の着信がコール エージェントを呼び出します。
-
+    
 ## <a name="step-1---getting-started"></a>ステップ 1 - はじめに
 
 通話キューを使用する場合は、次の重要な点について留意してください。
   
 - 組織は、エンタープライズの E3 と**電話システム**のライセンスまたはエンタープライズ E5 のライセンス (最低) が必要です。 キューの呼び出しに使用する利用可能なサービス番号の番号を割り当てられている**電話システム**のユーザー ライセンスの数に影響します。 呼び出しキューを持つことができます数は、組織に割り当てられている**電話システム**および**オーディオ会議**のライセンスの数に依存しています。 ライセンスに関する詳細については、 [こちらを](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) ご覧下さい。
-
+    
     > [!NOTE]
     > オンラインにいる人が、組織内への呼び出しをリダイレクトするには、エンタープライズ VoIP を有効にするし、Office 365 のプランを呼び出すことがある、**電話システム**のライセンスが必要です。 「[Skype for Business と Microsoft Teams のライセンスを割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)」をご覧ください。 エンタープライズ VoIP を有効にするには、Windows PowerShell を使用できます。 たとえば、次を実行します。
   
 - Office 365通話プランの詳細については、「[Office 365 通話プランと何ですか？](/microsoftteams/what-are-calling-plans-in-office-365)」及び「[Office 365の通話プラン](/microsoftteams/calling-plans-for-office-365)」をご覧下さい。
-
+    
     > [!NOTE]
     > ユーザーには、設置がホストされているキューを呼び出すエージェントとしては、Lync Server 2010 を使用してがサポートされていません。 
   
 - 有料電話番号と**Skype**でまたは別のサービス プロバイダーからの呼び出しの電話システムのキューに転送する電話番号をフリー ダイヤル サービスをのみ割り当てることができます。 取得し、サービスのフリー ダイヤル番号を使用して、通信のクレジットを設定する必要があります。
-
+    
     > [!NOTE]
     > ユーザー (購読者) の電話番号を通話キューに割り当てることはできません。サービスの有料電話番号または無料電話番号のみを使用できます。 
   
 - 電話システム呼び出しキューからの着信呼び出しを配布するときは、コール エージェントのこれらのクライアントがサポートされます。
-
+    
   - Skype for Business デスクトップ クライアント 2016 (32 および 64 ビット バージョン)
-
+    
   - Lync デスクトップ クライアント 2013 (32 および 64 ビット バージョン)
-
+    
   - すべての IP 電話の機種が、Skype for Business Online でサポートされます。 [ビジネス オンラインの Skype の電話を取得](getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)を参照してください。
-
+    
   - Mac版  Skype for Business クライアント (バージョン 16.8.196 以降) 
-
+    
   - Aandroid Skype for Business クライアント (バージョン 6.16.0.9 以降)
-
+    
   - iPhone Skype for Business Client クライアント(バージョン 6.16.0 以降)
-
+    
   - Mac版  Skype for Business クライアント (バージョン 6.16.0 以降)
 
   - Microsoft Teams Windows クライアント (バージョン 32 および 64 ビット)
@@ -94,7 +99,7 @@ ms.locfileid: "25842104"
   - マイクロソフト チームの iPhone アプリ
 
   - マイクロソフト チーム Android アプリ
-
+    
 ## <a name="step-2---getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>ステップ 2 - 有料またはフリーダイヤルのサービス電話番号の取得または移行
 
 通話キューを作成し設定する前に、既存の有料または無料のサービス番号を取得もしくは転送する必要があります。 有料または無料のサービスの電話番号を取得した後、  **Skype for Business 管理センター** > **音声** > **電話番号** に番号が表示され、  **番号の種類** のリストには、 **サービスー無料** として一覧表示されます。 サービス番号を取得するには、  [Skype for Business と Microsoft Teams 用のサービス電話番号の取得](getting-service-phone-numbers.md) を参照するか、既存のサービス番号を転送する場合は、  [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365) を参照してください。
@@ -104,9 +109,9 @@ ms.locfileid: "25842104"
   
 ## <a name="step-3---create-a-new-call-queue"></a>ステップ 3 - 新しい通話キューの作成
 
- **ビジネス管理センターの Microsoft のチームと Skype を使用します。**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
 
-**マイクロソフト チームとビジネス管理センターの Skype**をクリックして![デバイス ・ ロゴ ・ 30x30.png](../images/sfb-logo-30x30.png) **従来のポータル** >  **呼のルーティング** > **キューを呼び出す**には、 **+ 新規追加**] をクリックします。
+In the **Skype for Business admin center**, click **Call routing** > **Call queues**, then click **Add new**:
   
 ### <a name="set-the-call-queue-display-name-phone-number-and-domain-if-any"></a>通話キューの表示名、電話番号、ドメイン (存在する場合) を設定します。
 
@@ -118,7 +123,7 @@ ms.locfileid: "25842104"
 ![2](../images/sfbcallout2.png)<br/>**電話番号** 通話キューのサービスの有料電話番号または無料電話番号を選択します。 これは省略可能です。 <br/> 一覧表示されない場合は、この通話キューを作成する前にサービス番号を取得する必要があります。 サービス番号を取得するには、 [Skype のビジネスおよびマイクロソフトのチームの取得サービスの電話番号](getting-service-phone-numbers.md)を参照してください。
 ***
 ![3](../images/sfbcallout3.png)<br/>**ドメイン** 利用可能な場合は、使用する Office 365 ドメインを選択します。この項目は、Office 365 で使用しているドメインが 1 つ以上存在する場合にのみ利用できます。1 つ以上存在する場合は、リストからドメイン名を選択します。 <br/> たとえば、次のようなドメインが存在します。 _contoso.com or redmond.contoso.com_
-
+   
 ### <a name="set-the-greeting-and-music-played-while-on-hold"></a>応答メッセージおよび保留中の保留音を設定する
 
 ![Setting up a call queue.](../images/1d395a93-7cab-4178-9295-12d5379e20de.png)
@@ -126,7 +131,8 @@ ms.locfileid: "25842104"
 ***
 ![1](../images/sfbcallout1.png)<br/>**応答メッセージ**は省略可能です。 これは、応答メッセージが、キューの番号に電話通話する相手を再生します。 <br/> オーディオ ファイル (.wav、.mp3、.wma 形式) をアップロードすることができます。
 ***
-![2](../images/sfbcallout2.png)<br/>**上の音楽を保持**呼び出しキューで提供されている保留中のデフォルトの音楽を使用するか、または保留中のカスタムの音楽として使用する .wav、mp3、または .wma ファイルの形式でのオーディオ ファイルをアップロードすることができます。
+![2](../images/sfbcallout2.png)<br/>**上の音楽を保持**呼び出しキューで提供されている保留中のデフォルトの音楽を使用するか、または保留中のカスタムの音楽として使用する .wav、mp3、または .wma ファイルの形式でのオーディオ ファイルをアップロードすることができます。 
+   
 
 ### <a name="select-the-call-distribution-method"></a>着信分配メソッドを選択する
 
@@ -137,7 +143,7 @@ ms.locfileid: "25842104"
 
 > [!NOTE]
 > **オフライン**中、**取り込み中**表示、またはこのキューからの着信を **オプトアウト** したエージェントは、シリアルルーティングからスキップされます。 
-
+   
 ### <a name="select-an-agent-opt-out-option"></a>エージェントのオプトアウトのオプションを選択する
 
 ![オプトアウトするエージェントのチェック ボックスの表示](../images/99279eff-db61-4acf-9b62-64be84b6414b.png)
@@ -147,10 +153,10 @@ ms.locfileid: "25842104"
  1. Skype for Business クライアントデスクトップで、 **オプション** を開きます。 
  2. **[通話転送]** タブで、 **[オンライン編集の設定]** リンクをクリックします。
  3. ユーザー設定ページで、 **通話キュー**をクリックし、次にオプトアウトしたいキューのチェック ボックスを削除します。
-
+ 
     > [!NOTE] 
     > Mac、モバイル、または Lync 2013 クライアントを使用しているエージェント、または Skype for Business 2015 サーバーを使用しているオンプレミスでホストされている Hybrid Voice ユーザーは、 [https://aka.ms/cqsettings](https://aka.ms/cqsettings) で、オプトアウトのオプションにアクセスすることができます。
-
+   
 ### <a name="add-call-agents-to-a-call-queue"></a>コール エージェントを通話キューに追加する
 
 ![Set up call queues.](../images/skype-for-business-add-agents-to-call-queue.png)
@@ -161,8 +167,8 @@ ms.locfileid: "25842104"
 * **電話システム** ライセンスおよび通話プランを取得しているオンラインユーザーは、計画を呼び出すと、Office 365 グループ、有効なメールの分配リスト、またはセキュリティ グループに追加されます。 分配リストまたはセキュリティグループに追加された新しいエージェントは、通話キューからの受信を開始するのには最大 30 分かかる場合があります。 新しく作成した分配リストまたはセキュリティ グループでは、通話キューで使用可能になるまで最大で48時間を要する場合があります。 新しく作成された Office 365 グループは、ほぼ瞬時にご利用可能です。 <br/> 
 
   > [!NOTE] 
-  > ユーザーには、設置がホストされている Lync Server 2010 の使用はサポートされていません。
-
+  > ユーザーには、設置がホストされている Lync Server 2010 の使用はサポートされていません。           
+   
 ### <a name="set-the-maximum-queue-size-and-maximum-wait-time"></a>最大キュー サイズと最大待機時間を設定する
 
 ![Set up a call queue.](../images/3f018734-16fe-458b-827d-71fc25155cde.png)
@@ -174,10 +180,10 @@ ms.locfileid: "25842104"
 * **ビジー信号を切断します** 通話は切断されます。
 * **呼び出しを転送します。** これを選択するとこれらのオプションが用意されます。
   * **社内のユーザー** **電話システム** のライセンスを持つオンラインのユーザーそしてエンタープライズ ボイス を有効にするか通話プランを取得する必要があります。 発信中のユーザーがボイスメールに送信されるように設定できます。 これを行うは、 **、会社の担当者**を選択し、通話をボイスメールに直接転送されるには、このユーザーを設定します。 <br/> <br/>ボイスメールに必要なライセンスについては、 [「電話システムのボイスメールの設定」](/microsoftteams/set-up-phone-system-voicemail) を参照してください。 
-
+     
     > [!Note]
     > ユーザーには、設置がホストされている Lync Server 2010 の使用はサポートされていません。<br/>
-
+     
   * **キューを呼び出す**作成する必要が既に別の呼び出しは、キューが、その呼び出しキューを選択するには後、。
   * **自動応答**必要があります作成済みの自動応答が行うと、その自動アテンダントを選択できます。 [電話システムの自動応答の設定](set-up-a-phone-system-auto-attendant.md)を参照してください。
 ***
@@ -222,32 +228,35 @@ Windows PowerShell を使用して通話キューを作成し、設定するこ�
 通話キューの管理で必要なコマンドレットを以下に示します。
   
 - [New--CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796459.aspx)
-
+    
 - [Set-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796457.aspx)
-
+    
 - [Get-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796458.aspx)
-
+    
 - [Remove-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796456.aspx)
-
+    
 ### <a name="more-about-windows-powershell"></a>Windows PowerShell の詳細について
 
 - Windows PowerShell is all about managing users and what users are allowed or not allowed to do. Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
-
+    
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
-
+    
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
-
+    
 - Windows PowerShell には、ただ Office 365 管理センターを使用するだけではなく、速度、単純さ、生産性において多くの利点があります。次のトピックでこれらの利点について説明します。
-
+    
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
-
+    
   - [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
-
+    
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
-
+    
 ## <a name="related-topics"></a>See also
 [Office 365 での電話システムで利用できる機能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](getting-service-phone-numbers.md)
 
 [国および地域ごとの電話会議および通話プランの利用可能性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+
+  
+ 

@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 標準のオーディオ会議のユーザーごとのライセンスだけでなく、ボリューム、およびライセンスの組織は、組織の音声会議機能を有効にするのには、1 分あたりの支払の案内も選択できます。
-ms.openlocfilehash: 17a27c8426356b985168b26c6d19eabd88e306fa
-ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
+ms.openlocfilehash: 1c66649ebb75dd89756f7da45255801e4e60fc16
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25784849"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295016"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>分数ごと従量課金制電話会議
 
@@ -53,7 +53,7 @@ ms.locfileid: "25784849"
 - 発信呼び出しが外部の電話番号から会議の組織に配置します。
     
 > [!NOTE]
-> **セクションの呼び出し先のレートを参照してください**[オーディオ会議](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates)で確認することによって、これらの種類の呼び出しに関連付けられたダイヤルインとダイヤルアウトのレートが表示されます。
+> **セクションの呼び出し先のレートを参照してください**[オーディオ会議](https://products.office.com/skype-for-business/pstn-conferencing)で確認することによって、これらの種類の呼び出しに関連付けられたダイヤルインとダイヤルアウトのレートが表示されます。 
   
 1 分あたりの支払には、[通信のクレジット](what-are-communications-credits.md)には、オーディオ会議を操作するために各ユーザーに割り当てられているライセンスを有効にする組織が必要です。 詳細を設定する場合は、[組織の通信のクレジットを設定](set-up-communications-credits-for-your-organization.md)または[Skype](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)を参照してください。
   

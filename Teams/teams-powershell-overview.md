@@ -9,12 +9,12 @@ ms.service: msteams
 description: PowerShell のコントロールを使用して、マイクロソフトのチームを管理するために説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 84de597cc5cc6a00227cf48d9d8559f9dcb3778e
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 181655609fd031da177a21e10684186ca5c52066
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839612"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294721"
 ---
 # <a name="teams-powershell-overview"></a>チーム PowerShell の概要
 
@@ -78,10 +78,10 @@ PowerShell コマンドレットの別の管理者の役割が利用できるよ
 
 ## <a name="other-powershell-tools"></a>他の PowerShell ツール
 
-マイクロソフトのチームとの[マイクロソフトのチームのコマンドレットのリファレンス](https://docs.microsoft.com/powershell/teams/?view=teams-ps)と Skype の[で、各ポリシーの設定の詳細な説明を含む、ビジネス用の Skype を管理するための PowerShell のすべてのコントロールを使用する方法の詳細な手順を表示します。ビジネス コマンドレット参照](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)。
+マイクロソフトのチームとの[マイクロソフトのチームのコマンドレットのリファレンス](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps)と Skype の[で、各ポリシーの設定の詳細な説明を含む、ビジネス用の Skype を管理するための PowerShell のすべてのコントロールを使用する方法の詳細な手順を表示します。ビジネス コマンドレット参照](https://docs.microsoft.com/en-us/powershell/skype/intro?view=skype-ps)。
 
 ## <a name="learn-more"></a>詳細情報
 
-- [マイクロソフト チーム コマンドレットのリファレンス](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
-- [Skype ビジネス コマンドレット参照](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+- [マイクロソフト チーム コマンドレットのリファレンス](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps)
+- [Skype ビジネス コマンドレット参照](https://docs.microsoft.com/en-us/powershell/skype/intro?view=skype-ps)
 - [マイクロソフト チームの管理者の役割を使用して、チームを管理するには](using-admin-roles.md)

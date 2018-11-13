@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype 画面ビデオ ・ ベース (VbSS) を共有するためのビジネス サーバーの計画と構成について
-ms.openlocfilehash: 8541bb0dc3b5791c670a3beac77560b3c9663733
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: a7ea07f02b73b1092a11f61757318d0d653e048a
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839748"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295122"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>ビデオ ベースの画面共有 Skype のビジネス サーバー 
  
@@ -150,7 +150,7 @@ VbSS の帯域幅:
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
   ```
 
-    このコマンドの詳細については、[セット CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)を参照してください。
+    このコマンドの詳細については、[セット CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)を参照してください。
     
 - VbSS を完全にオフにしたい場合は、このコマンドを実行します。
     
@@ -158,7 +158,7 @@ VbSS の帯域幅:
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
-    このコマンドの詳細については、[一連の CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)を参照してください。
+    このコマンドの詳細については、[一連の CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)を参照してください。
     
 > [!NOTE]
 > ビジネス会議のための複数の Skype ですべてのクライアント エンドポイントは、会議の開催者のポリシーの設定を尊重します。 
@@ -177,7 +177,7 @@ VbSS の帯域幅:
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
-    このコマンドの詳細については、[セット CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)を参照してください。
+    このコマンドの詳細については、[セット CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)を参照してください。
     
 - VbSS をオフにした後でオンに戻したい場合は、このコマンドを実行します。
     
@@ -185,7 +185,7 @@ VbSS の帯域幅:
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 
-    このコマンドの詳細については、[一連の CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)を参照してください。
+    このコマンドの詳細については、[一連の CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)を参照してください。
     
 > [!NOTE]
 > ビジネス会議のための複数相手の Skype ですべてのクライアント エンドポイントは、会議の開催者のポリシーの設定を尊重します。 

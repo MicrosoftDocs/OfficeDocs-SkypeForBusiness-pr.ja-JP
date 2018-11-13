@@ -1,85 +1,96 @@
 ---
-title: マイクロソフトのチームでライブ イベントの設定を構成します。
+title: マイクロソフトのチームでのライブ イベントを構成します。
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
-ms.date: 10/23/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sonua
+ms.reviewer: tonysmit
 search.appverid: MET150
-localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
-description: 組織内に保持されているチームのライブ イベントの設定を管理する方法について説明します。
-f1keywords: ms.teamsadmincenter.liveevents.settings
+description: 出席者の表示/非表示を設定して、レコーディングのオプションを含む、Microsoft のチームのライブ イベントの設定を構成する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8e12b6b85b61bb8c6312054be07dc37365c62c0
-ms.sourcegitcommit: 2e9761a3b195d31080bff3c9cc17a18adcd5350e
+ms.openlocfilehash: fcd9bc02257d67f1af959d2158042ea73545a25e
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25748150"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296106"
 ---
-# <a name="configure-live-event-settings-in-microsoft-teams"></a>マイクロソフトのチームでライブ イベントの設定を構成します。
+# <a name="configure-live-events-in-microsoft-teams"></a>マイクロソフトのチームでのライブ イベントを構成します。
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
-チームのライブ イベントの設定を使用すると、組織内で保持されているライブのイベントの設定を構成します。 サポート URL を設定し、サード ・ パーティ製ビデオ配信プロバイダーを構成することができます。 これらの設定は、組織内に作成されるすべてのライブ イベントに適用されます。 
+## <a name="set-up-event-support-link"></a>イベントのサポートのリンクを設定します。
+これは、ライブ イベントの参加者に表示されるリンクです。 
 
-ビジネス管理センターの Microsoft のチームと Skype でこれらの設定を簡単に管理することができます。 左側のナビゲーションで**の会議**に移動する > **のライブ イベントを設定**します。 
-
-![ライブ イベント settings.png](../media/teams-live-events-settings.png "チームのスクリーン ショットは、マイクロソフトのチームと Skype のビジネス管理センターで構成可能なイベントの設定をライブ") 
-
-## <a name="set-up-event-support-url"></a>イベント サポートの URL を設定します
-
-ライブ イベントの参加者には、この URL が表示されます。 ライブ イベント中に、サポートに連絡する方法を参加者に提供する組織のサポート URL を追加します。
-
-### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams--skype-for-business-admin-center"></a>![チーム ・ ロゴ ・ 30x30.png](../media/teams-logo-30x30.png) ビジネス管理センターの Microsoft のチームと Skype を使用します。
-
-1. 左側のナビゲーションでは、**会議**に移動 > **ライブ イベントを設定**します。
-2. [**サポート URL**] には、組織のサポートの URL を入力します。 
-
-    ![サポート URL の設定、マイクロソフトのチームとビジネス管理センターの Skype でのイベントのライブ](../media/teams-live-events-settings-supporturl.png "スクリーン ショットは、チームのライブ イベントを設定する URL をサポート")
-
-### <a name="using-windows-powershell"></a>The conference ID and default dial-in conferencing phone number is included on the meeting invite but not the PIN.
-次のコマンドレットを実行します。
+Windows PowerShell で、次の手順を実行します。
 ```
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}” 
 ```
-詳細については、[一連の CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)を参照してください。
-## <a name="configure-a-third-party-video-distribution-provider"></a>サード ・ パーティ製ビデオ配信プロバイダーを構成します。 
+## <a name="configure-attendee-visibility-options"></a>出席者の表示/非表示のオプションを構成します。
+これにより、適切な参加者の可視性を持つイベントを作成するライブ イベントを開催します。
 
-購入し、定義されているソフトウェアのネットワーク (SDN) ソリューションや Microsoft ビデオ配信パートナーを通じて、エンタープライズ コンテンツ配信ネットワーク (eCDN) ソリューションを設定すると場合、は、チームでのライブ イベントのプロバイダーを構成します。 
+|**値**  |**動作**  |
+|---------|---------|
+|全員     |ライブ イベントを次の出席者の可視性を作成するオプションをユーザーが持っている: 会社、および特定のユーザーのすべてのメンバーを公開します。 |
+|EveryoneInCompany     |ユーザーは、ライブ イベントを次の出席者の可視性を作成するオプションを持っている: 会社および特定のユーザーのすべてのメンバーです。 ユーザーは、匿名ユーザーが参加できるライブ イベントを作成できません。|
+|InvitedUsers |ユーザーは、イベント開催者によって入力されたとおりに、特定の人に制限されているライブのイベントのみを作成できます。 ユーザーは、公開キーと認証の会社のすべてのメンバーでライブ イベントを作成できません。 |
 
-### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams--skype-for-business-admin-center"></a>![チーム ・ ロゴ ・ 30x30.png](../media/teams-logo-30x30.png) ビジネス管理センターの Microsoft のチームと Skype を使用します。
+ユーザーが匿名の参加者を監視することができますブロードキャストのイベントのスケジュールを設定するかどうかは、PowerShell の TeamsMeetingBroadcastPolicy の BroadcastAttendeeVisibility コントロールの設定を使用します。 
 
-1. 左側のナビゲーションでは、**会議**に移動 > **ライブ イベントを設定**します。
-2. [**サード パーティのビデオ配信プロバイダー**では、次の手順を完了します。 
-
-    ![マイクロソフトのチームとビジネス管理センターの Skype でのサード ・ パーティ製ビデオ配信プロバイダーの設定](../media/teams-live-events-settings-distribution-provider.png "サード ・ パーティ製ビデオ配信プロバイダーの設定のスクリーン ショットのライブ イベント")
-
-    - **配布のサード ・ パーティ製プロバイダーを使用**サード ・ パーティ製ビデオ配信プロバイダーを有効にするには、これを有効にします。
-    - **SDN プロバイダー名**使用しているプロバイダーを選択します。
-    - **プロバイダー ライセンス ・ キー**相手のプロバイダーから入手したライセンス ID を入力します。
-    - **SDN API テンプレートの URL**相手のプロバイダーから入手した API のテンプレートの URL を入力します。
-
-### <a name="using-windows-powershell"></a>The conference ID and default dial-in conferencing phone number is included on the meeting invite but not the PIN.
-プロバイダーの連絡先からライセンス ID または API トークンおよび API のテンプレートを取得し、お使いのプロバイダーに応じて、次のいずれかを実行します。
-
-**ハイブ** 
+カスタム ポリシーは、ユーザーに割り当てている、しない限り、ユーザーは、EveryoneInCompany に設定する既定値を保持するグローバル ポリシーを取得します。 
+ 
+Windows PowerShell では、[グローバル ポリシーで匿名イベントを作成するユーザーを許可するのには、次を実行します。
 ```
-Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
+Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility Everyone  
 ```
-**Kollective** 
-```
-Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
-```
-詳細については、[一連の CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)を参照してください。
-
+## <a name="configure-recording-options"></a>レコーディングのオプションを構成します。
 > [!NOTE]
-> 外部エンコーダーを使用して、ライブのイベントを作成する場合は、[マイクロソフトのストリームで、eCDN のプロバイダーを設定](https://docs.microsoft.com/stream/network-caching)する必要もあります。 
+> このオプションは、クイック スタートの生産方法のみを使用するイベントに適用されます。
 
-### <a name="related-topics"></a>関連トピック
-- [ライブ イベントをチームは何ですか。](what-are-teams-live-events.md)
-- [チームのライブ イベントの計画](plan-for-teams-live-events.md)
-- [チームのライブ イベントを設定します。](set-up-for-teams-live-events.md)
+これにより、ライブ イベントは、常に記録、記録されることはないかどうか、またはイベントの開催者は、かのイベントが記録することができるかどうか制御する管理者です。  
+
+|**値**  |**動作**  |
+|---------|---------|
+|常に有効になっています。 |このユーザーごとのライブ イベントは、常に記録されます。 ユーザー オプションをオーバーライドする必要はありません。 ライブのイベントが記録される場合は、イベントのチーム メンバーは、イベントの後にレコーディングをダウンロードすることと出席者は、イベント終了後のイベントを監視できます。 |
+|AlwaysDisabled |このユーザーが開催するライブ イベントが記録されることはありません。 ユーザー オプションをオーバーライドする必要はありません。 ライブのイベントが記録される場合は、イベント チームのメンバーの記録は作成されず、出席者はイベントが上にあるを見ることはできません。 |
+|UserOverride |ユーザーは、イベント チームのメンバーの記録ファイルを作成することができ、参加者がイベント終了後のイベントを監視するためにライブ イベントを記録するかどうかを決定できます。 |
+
+レコーディングのライブ イベントの開催者によって作成されたライブ イベントのオプションのコントロールに、PowerShell では、 **TeamsMeetingBroadcastPolicy**で*BroadcastRecordingMode*の設定を使用します。
+
+Windows PowerShell のでは、グローバル ポリシーでの記録モードを更新するのには次のコマンドレットを実行します。
+```
+Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode AlwaysDisabled 
+```
+## <a name="configure-real-time-transcription-and-translation-in-teams-live-events-coming-soon"></a>(準備中) チームのライブ イベントのリアルタイム議事録を作成し、変換を構成します。
+> [!NOTE]
+> このオプションは、クイック スタートの生産方法のみを使用するイベントに適用されます。
+
+これにより、リアルタイムのキャプションとライブ イベントの出席者に対して変換を有効にするのにはライブ イベントを開催します。 
+
+ライブ イベントの参加者が議事録と翻訳を参照してくださいできるかどうかにコントロールする PowerShell の**TeamsMeetingBroadcastPolicy**で*AllowBroadcastTranscription*の設定を使用します。 ここで、Office 365 の PowerShell では、 **TeamsMeetingBroadcastPolicy**を管理する方法の詳細については。  
+
+カスタム ポリシーは、ユーザーに割り当てている、しない限り、ユーザーは、議事録作成と翻訳が既定で無効にするグローバル ポリシーを取得します。
+
+Windows PowerShell では、[グローバル ポリシーでの議事録やイベントの出席者のために翻訳を有効にするのには、次のコマンドレットを実行します。
+```
+Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
+```
+## <a name="administrative-tools"></a>管理ツール 
+直接 Microsoft は、Office 365 のオンラインのすべてのデータ センターを制御し、システム全体のパフォーマンスは、ですが、Office 365 のユーザーの合計の経験を提供する要素の一部だけを制御できます。 組織自体は、データ センターでお客様のワイド エリア ネットワーク (WAN)、ネットワーク接続を担当し、お客様のローカル エリア ネットワーク (Lan)。 さらに、ユーザーのデバイスとその構成を担当しています。必要なライセンスなど、必要な機能は、ユーザーごとの管理を担当する、マイクロソフトが、ユーザーは、機能へのアクセスを必要がある限りのこれらの機能を管理することに。
+
+お客様は、さまざまなチームのライブ イベントの関連タスクを管理するために次のツールを使用できます。
+- [Microsoft Office 365 管理者センター](https://technet.microsoft.com/library/exchange-online-administration-and-management.aspx?f=255&MSPPError=-2147217396#BKMK_Office365admincenterl)
+- [マイクロソフトのチームと Skype のオンライン ビジネスの管理センター](https://technet.microsoft.com/library/exchange-online-administration-and-management.aspx?f=255&MSPPError=-2147217396#BKMK_ExchangeAdministrationCenter)
+- [Microsoft ストリーム管理センター](https://stream.microsoft.com)
+- [リモートの Windows PowerShell の](https://technet.microsoft.com/library/exchange-online-administration-and-management.aspx?f=255&MSPPError=-2147217396#BKMK_RemoteWindowsPowerShell)
+
+## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
+に関して Windows PowerShell は、it のすべてのユーザーを管理するか、ユーザーの許可を許可します。 Windows PowerShell では、ビジネス オンラインを行う複数のタスクがある場合、日常的な作業を簡素化する管理の単一ポイントを使用して Office 365 と Skype を管理できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+ - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
+ - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
+
+Windows PowerShell には、ただ Office 365 管理センターを使用するだけではなく、速度、単純さ、生産性において多くの利点があります。次のトピックでこれらの利点について説明します。
+ - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+ - [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
+ - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)

@@ -4,11 +4,11 @@ hide_bc: true
 title: Skype for Business
 description: Skype for Business
 ms.openlocfilehash: cbb9765c358047b628be45759e2002cdc5a46f02
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
-ms.translationtype: HT
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546667"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293649"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -51,7 +51,7 @@ ms.locfileid: "25546667"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>ハイブリッド ソリューション</h3>
-                                                    <p>Skype for Business ハイブリッド展開の計画に関する情報を検索します。</p>
+                                                    <p>Skype のビジネスのハイブリッド展開の計画に関する情報を検索します。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -126,7 +126,7 @@ ms.locfileid: "25546667"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Skype for Business から Microsoft Teams への移行</h3>
-                                                    <p>Teams への最適な移行パスを見つけるためのガイダンスやツールを検索します。</p>
+                                                    <p>ガイダンスおよびチームに最適なパスを表示するためのツールを検索します。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -143,7 +143,7 @@ ms.locfileid: "25546667"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Skype ミーティング システム v2</h3>
+                                                    <h3>Skype Room Systems v2</h3>
                                                     <p>Skype ミーティング システム v2 を計画、展開、管理する方法を理解します。</p>
                                                 </div>
                                             </div>
@@ -179,8 +179,8 @@ ms.locfileid: "25546667"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>エンド ユーザー</h3>
-                                                    <p><a href='https://support.office.com/en-us/skype-for-business' target="_blank"> support.office.com</a>で Skype for Business ユーザー向けのヘルプ、トレーニング、テクニカル サポートをご覧いただけます。</p>
+                                                    <h3>エンドユーザー</h3>
+                                                    <p><a href='https://support.office.com/en-us/skype-for-business' target="_blank">Support.office.com</a>のビジネス ユーザー向けヘルプ、トレーニング、および Skype のテクニカル サポートを検索します。</p>
                                                 </div>
                                             </div>
                                         </div>

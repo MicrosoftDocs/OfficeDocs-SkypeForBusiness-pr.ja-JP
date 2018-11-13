@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 2019 年 4 月 1日のライフ プログラムの終了最後に、ビジネスの Skype のサード ・ パーティ製のオーディオ会議プロバイダーとの統合のため (サード パーティ製の ACP)。
-ms.openlocfilehash: 99643ae8d7ff00ffb006ec5a19ef97ab6f551d83
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: c5f39570c7f570dfc4102105a72f277221356051
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839674"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293666"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>ビジネス用の Skype のサード ・ パーティ製のオーディオ会議プロバイダーとの統合のためのライフ プログラムの終了 
 
@@ -86,13 +86,13 @@ Microsoft オーディオ会議への移行は簡単で、およびサービス�
 
 VoIP を使用して接続するいくつかの参加者のことで、ビジネス ・ ミーティングの Skype のオーディオ、およびその他のサード ・ パーティ製の ACP を使用して断片化を防ぐためには、これらの企業にとって、ユーザーの会議に VoIP を使用して無効にすることをお勧めします。 この方法では、すべての参加者は、サード ・ パーティ製の ACP を使用して会議のオーディオ部分に参加する必要があり、(チャットや画面の共有など) の会議の他のすべての作業負荷は、Skype のビジネスをサポートする続行できます。 
 
-- 特定の開催者のすべての会議から VoIP を無効にするには、セット CsConferencingPolicy コマンドレットを使用して false に自分の会議ポリシーの AllowIPAudio パラメーターを設定します。 詳細については、[セット CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)を参照してください。
+- 特定の開催者のすべての会議から VoIP を無効にするには、セット CsConferencingPolicy コマンドレットを使用して false に自分の会議ポリシーの AllowIPAudio パラメーターを設定します。 詳細については、[セット CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)を参照してください。
  
 2019 年 4 月 1 日の時点でのスケジュールを設定すると、面ではサード ・ パーティ製の ACP のダイヤルイン情報は自動的に収録できなく Skype でビジネス会議の招待をします。 ユーザーは、ビジネス会議のため、Skype のダイヤルの情報への招待、ミーティングの一部としてこの情報を含むを続行する場合を手動で追加する必要があります。 
 
 2019 年 4 月 1 日にユーザーの既存の会議は自動的には再スケジュールされません、サード ・ パーティ製 ACP ダイヤルイン情報を削除するのには注意してください。 ユーザーの会議が、ユーザーのサード ・ パーティ製の ACP の統合を無効にすることを検討するくださいし、会議を使用して、会議のスケジュールを変更する必要がありますが有効な VoIP を保持すると決定する組織、サード ・ パーティ製のオーディオを削除するのには、移行サービス既存の会議の会議のダイヤルイン情報と、既にスケジュールされたミーティングのオーディオの断片化を防ぐためです。 
 
-- 特定の開催者の音声会議をサード ・ パーティ製の統合を無効にするには、削除 CsUserAcp コマンドレットを使用します。 詳細については、[削除 CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps)を参照してください。 
+- 特定の開催者の音声会議をサード ・ パーティ製の統合を無効にするには、削除 CsUserAcp コマンドレットを使用します。 詳細については、[削除 CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csuseracp?view=skype-ps)を参照してください。 
 
 - サード ・ パーティ製のオーディオ会議プロバイダーとの統合を無効にした後のユーザーの会議を自動的に再スケジュールするには、」の実行方法ユーザーは、手動で移行を会議しますか?」を参照してください. [設定会議の移行サービス (MMS) を](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)します。 
 
@@ -102,11 +102,11 @@ VoIP を使用して接続するいくつかの参加者のことで、ビジネ
 
 - 、2019 年 4 月 1 日、オーディオが VoIP を使用して、サード ・ パーティ製の ACP を使用して接続する参加者の間で分割されることを防止する前に、影響を受けるすべてのユーザーのすべての会議のために VoIP が無効になっていることをお勧めします。 
 
-    - 特定の開催者のすべての会議から VoIP を無効にするには、セット CsConferencingPolicy コマンドレットを使用して false ユーザーの会議ポリシーの AllowIPAudio パラメーターを設定します。 詳細については、[セット CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)を参照してください。
+    - 特定の開催者のすべての会議から VoIP を無効にするには、セット CsConferencingPolicy コマンドレットを使用して false ユーザーの会議ポリシーの AllowIPAudio パラメーターを設定します。 詳細については、[セット CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)を参照してください。
  
 - 場合組織は、すべての会議、VoIP を無効にするは、勧めから、Skype を使用して、サード ・ パーティ製の ACP とオンライン ビジネスの統合を無効にして、会議のスケジュールを変更するユーザーのサード ・ パーティ製 ACP ダイヤルイン情報を削除するのにはオーディオの断片化を防止します。
 
-    - 特定の開催者の音声会議をサード ・ パーティ製の統合を無効にするには、[削除 CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps)コマンドレットを使用します。 
+    - 特定の開催者の音声会議をサード ・ パーティ製の統合を無効にするには、[削除 CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csuseracp?view=skype-ps)コマンドレットを使用します。 
 
     - 会議を自動的に再スケジュールするには、」の実行方法ユーザーは、手動で移行を会議しますか?」を参照してください. [設定会議の移行サービス (MMS) を](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)します。
 
@@ -116,7 +116,7 @@ VoIP を使用して接続するいくつかの参加者のことで、ビジネ
 
 これらの組織は、サード ・ パーティ製のオーディオ会議プロバイダーを使用してから、ユーザーを無効にし、する必要があります、ダイヤルイン会議の情報を削除するのには会議の移行を使用して自動的に再スケジュールされる会議は、サービスを提供します。 
 
-- 特定の開催者の音声会議をサード ・ パーティ製の統合を無効にするには、削除 CsUserAcp コマンドレットを使用します。 詳細については、[削除 CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps)を参照してください。 
+- 特定の開催者の音声会議をサード ・ パーティ製の統合を無効にするには、削除 CsUserAcp コマンドレットを使用します。 詳細については、[削除 CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csuseracp?view=skype-ps)を参照してください。 
 
 - サード ・ パーティ製のオーディオ会議プロバイダーとの統合を無効にした後のユーザーの会議を自動的に再スケジュールするには、」の実行方法ユーザーは、手動で移行を会議しますか?」を参照してください. [設定会議の移行サービス (MMS) を](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)します。 
 
@@ -124,6 +124,6 @@ VoIP を使用して接続するいくつかの参加者のことで、ビジネ
 
 - オーディオ会議の使用を停止することを組織全体 2019 年 4 月 1 日前に、影響はありません。
 
-- 特定の開催者の音声会議をサード ・ パーティ製の統合を無効にするには、削除 CsUserAcp コマンドレットを使用します。 詳細については、[削除 CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps)を参照してください。 
+- 特定の開催者の音声会議をサード ・ パーティ製の統合を無効にするには、削除 CsUserAcp コマンドレットを使用します。 詳細については、[削除 CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csuseracp?view=skype-ps)を参照してください。 
 
 - サード ・ パーティ製のオーディオ会議プロバイダーとの統合を無効にした後のユーザーの会議を自動的に再スケジュールするには、」の実行方法ユーザーは、手動で移行を会議しますか?」を参照してください. [設定会議の移行サービス (MMS) を](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)します。

@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66bf2e6aa01c24b327d26e2a30678ca3722a8c97
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.openlocfilehash: ea8de6d6bd1d5e508654d30f27ea7f83a8097030
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26282950"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294312"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Microsoft Teams でチームを編成するためのベスト プラクティス
 ======================================================
@@ -31,7 +31,7 @@ ms.locfileid: "26282950"
 
 組織間または 1 つの目的のチームを構成する方法のいくつかの例を参照してくださいこのクイック ビデオを見てをみましょう。
 
-> [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 まずは少人数のチーム メンバーでブレインストーミングを行って進めていき、進行に従って新しい人/グループを追加することができます。Microsoft Teams の優れた点として、新しく追加された人/グループは、参加のタイミングを問わず会話やファイルを入手できるため、何が議論されていたのかについてすぐに追いつくことができるということが挙げられます。同じメンバーのセットを伴う異なるチームを作成することは避けてください。そのようにすると、プロジェクトや目標を達成する上で焦点が適切に定まらない場合があるためです。このような種類のグループ規模のコミュニケーションの共有には、Outlook が最適なツールとなります。
 

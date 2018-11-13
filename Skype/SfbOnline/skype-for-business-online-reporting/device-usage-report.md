@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '[] 新しい Office 365 の [ レポート] ダッシュボードには、組織内の Office 365 製品全体にわたるアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 やなどのデバイスの使用状況レポートをビジネス用の Skype を使用するには、Windows ベースのオペレーティング システムを含む、デバイスにモバイル デバイスをビジネス アプリケーションの Skype がインストールされ、IM および会議のためのそれを使用しています。 詳細については、Office 365 の管理センターでの活動レポートをご覧ください。'
-ms.openlocfilehash: 3d5561bfe0f2a2c5b6900c7cf6a1e92d63741992
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 72d700f5e3c63fde3f4a17f6a652643695303a8d
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838682"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293691"
 ---
 # <a name="device-usage-report"></a>デバイスの使用状況のレポート
 
@@ -96,7 +96,7 @@ ms.locfileid: "25838682"
     
 - [Skype for Business 電話会議開催者アクティビティ レポート](conference-organizer-activity-report.md) - ユーザーがどの程度 IM、音声/ビデオ、アプリケーション共有、Web、ダイヤルイン/アウト - サード パーティ、ダイヤルイン/アウト - Microsoft を使用した電話会議を開催しているかを確認できます。
     
-- [Skype ビジネス会議参加者の設定アクティビティのレポートを](conference-participant-activity-report.md)何 IM、オーディオとビデオ、アプリケーションの共有を参照してください、Web やダイアル ・ イン/アウトの会議の会議が参加しています。
+- [Skype for Business 電話会議参加者アクティビティ レポート](conference-participant-activity-report.md) - 参加者がいる IM、音声/ビデオ、アプリケーション共有、Web 会議、ダイヤルイン/ダイヤルアウト会議の数を確認できます。
     
 - [Skype for Business ピアツーピア アクティビティ レポート](peer-to-peer-activity-report.md) - ユーザーがどの程度 IM、音声/ビデオ、アプリケーション共有、ファイル転送を使用しているかを確認できます。
     

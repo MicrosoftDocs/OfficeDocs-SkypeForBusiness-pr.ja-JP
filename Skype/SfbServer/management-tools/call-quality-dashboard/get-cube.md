@@ -3,23 +3,24 @@ title: キューブを取得します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
-description: '概要: は、品質のダッシュ ボードを呼び出すためのデータ API の一部では、キューブの取得操作について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: 228ebd8f9bcb6db919f418ef9809bce1b3eb7f90
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+description: '概要: は、品質のダッシュ ボードを呼び出すためのデータ API の一部では、キューブの取得操作について説明します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。'
+ms.openlocfilehash: 9c31650a5dc5471e0d5ad2dcdbf2214b16d91c56
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035674"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294437"
 ---
 # <a name="get-cube"></a>キューブを取得します。
  
-**の概要:** 品質のダッシュ ボードを呼び出すためのデータ API の一部では、キューブの取得操作について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
+**の概要:** 品質のダッシュ ボードを呼び出すためのデータ API の一部では、キューブの取得操作について説明します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。
   
 キューブの取得操作は、品質のダッシュ ボードを呼び出すためのデータ API の一部です。
   

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: AppSharingStream テーブルには、ネットワーク ストリームのアプリケーションを共有するために使用される高品質なエクスペリエンスの測定基準が含まれています。 このテーブルは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 3505467fd5e163fe2c26aca4b1ba13681c0d4ee6
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 4eeac3f7b082d4a798736bd9897b90668a1d44b2
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839713"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294304"
 ---
 # <a name="appsharingstream-table"></a>AppSharingStream テーブル
  
@@ -25,7 +25,7 @@ AppSharingStream テーブルには、ネットワーク ストリームのア�
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |日付時刻  <br/> |プライマリ サーバーで、外部  <br/> |日付と時刻、セッションを開始します。  <br/> |
 |**SessionSeq** <br/> |int  <br/> |プライマリ サーバーで、外部  <br/> |同時日付けと同時に開始されたセッションの間で区別するために使用される一連の識別子です。  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |プライマリ サーバーで、外部  <br/> | [MediaLine テーブル](https://docs.microsoft.com/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0)を参照してください。 <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |プライマリ サーバーで、外部  <br/> | [MediaLine テーブル](https://docs.microsoft.com/en-us/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0)を参照してください。 <br/> |
 |**StreamID** <br/> |int  <br/> |Primary  <br/> |ストリームを共有するアプリケーションの一意の識別子です。  <br/> |
 |**JitterInterArrival** <br/> |int  <br/> ||RTP パケットの着信間に検出された平均ジッター (ジッターとは、通話の "揺れ" の測定値です)。通常、この値が高い場合は、輻輳やメディア サーバーの過負荷の原因が考えられます。その結果、音声のひずみや欠落が生じます。  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> ||最大変位は RTP パケットの到着の間に検出します。 (ジッタとは、呼び出しの「揺れ」の尺度のことです)。高ジッタ値は、通常負荷またはオーバー ロードされたメディア サーバーでは、によって発生し、オーディオがゆがんでいる、または失われると。  <br/> |

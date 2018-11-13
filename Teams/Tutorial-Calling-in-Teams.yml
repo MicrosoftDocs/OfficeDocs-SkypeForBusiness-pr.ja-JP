@@ -17,12 +17,12 @@ metadata:
   - Teams_ITAdmin_Training
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 3c125870dc05f68bdf9baaeeb80630a98ffd62bb
-  ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+  ms.openlocfilehash: e10967852a4bf4f89a3159d428a7f5b0441f03c7
+  ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 10/29/2018
-  ms.locfileid: "25838601"
+  ms.lasthandoff: 11/13/2018
+  ms.locfileid: "26295415"
 items:
 - durationInMinutes: 1
   content: >
@@ -69,7 +69,7 @@ items:
     革新的な発想により、Teams はユーザーが VoIP 通話を Teams クライアントから Teams クライアントへ発信することができる機能をサポートします。
 
 
-    チームでは、ユーザーが作成、受信、および公衆交換電話網 (PSTN) 上の landlines と携帯電話との間の呼び出しの転送を有効にする 2 つのオプションがあります。
+    チームでは、作成、受信、および公衆交換電話網 (PSTN) の landlines と携帯電話の呼び出しを転送するユーザーのユーザーを有効にする 2 つのオプションがあります。
 
     - 呼び出す予定のマイクロソフトの電話システムで、ユーザーとすべての PSTN サービスへの電話番号を提供します。
 

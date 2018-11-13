@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: Skype のビジネスのサーバーの移動の実装を計画します。
-ms.openlocfilehash: 22d5b8bdeb6a82a202740af4919756daac47010a
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 156731c765823b195ac1e78143eca91ceca9192d
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839382"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294607"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>Skype のビジネスのサーバーの移動の計画
  
@@ -233,7 +233,7 @@ Skype のビジネス モバイル クライアントの自動検出をサポー
   
 ### <a name="do-you-want-all-your-users-accessing-all-mobility-features-or-do-you-want-to-specify-the-users-who-can-access-these-features-instead"></a>すべてのモビリティ機能にアクセスするすべてのユーザーか、または代わりにこれらの機能にアクセスできるユーザーを指定するでしょうか。
 
-既定の方法かを設定しているかどうかをすべてのユーザーに提供される機能の一部を支援するテーブルがあります。 すべての機能のリストについては、「[New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)」を参照してください。
+既定の方法かを設定しているかどうかをすべてのユーザーに提供される機能の一部を支援するテーブルがあります。 すべての機能のリストについては、「[New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)」を参照してください。
   
 > [!NOTE]
 > これらすべての機能の適用範囲は、グローバル/サイト/ユーザーです。 

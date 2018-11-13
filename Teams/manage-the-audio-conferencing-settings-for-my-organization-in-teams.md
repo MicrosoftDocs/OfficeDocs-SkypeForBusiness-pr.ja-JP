@@ -1,5 +1,5 @@
 ---
-title: 組織は、マイクロソフトのチームでのオーディオ会議設定を管理します。
+title: Microsoft Teams で組織の電話会議の設定を管理する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'ダイヤルイン電話会議ライセンスと会議 ID をユーザーおよびその他の多くのダイヤルイン電話会議の設定に割り当てるための Microsoft Teams での手順を確認します。 '
-ms.openlocfilehash: bc2f51cabe73db326c5a070f75d55c30fb1af367
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.openlocfilehash: b63650833c7c844de11ecb833288b6568604f919
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26283187"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296098"
 ---
-# <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>組織は、マイクロソフトのチームでのオーディオ会議設定を管理します。
+# <a name="manage-the-audio-conferencing-settings-for-my-organization-in-microsoft-teams"></a>Microsoft Teams で組織の電話会議の設定を管理する
 
 1 つの場所で Microsoft Teams のすべての電話会議設定を確認することが、より簡単になります。 
 
@@ -71,32 +71,36 @@ ms.locfileid: "26283187"
 **Windows PowerShell を使用する**
   
 詳細については、[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)をご覧ください。
+    
+## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>ユーザーに送信された、送信者のメール メッセージ内の連絡先情報を変更する
+
+Change the senders contact information of email messages sent to users 既定では、メールの送信者は Office 365 ですが、Windows PowerShell を使用してメール アドレスと表示名を変更することができます。 詳細については、[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)をご覧ください。
   
-## <a name="reset-the-meeting-conference-id"></a>Sign in to Office 365 with your work or school account.
+## <a name="reset-the-meeting-conference-id"></a>会議 ID をリセットする
 
 ![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
 
 1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
 
-2. [**オーディオ会議**、**会議 ID のリセット**をクリックします。  
+2. [**電話会議**] の下で、[**会議 ID のリセット**] をクリックします。  
 
-3. **会議 ID をリセットしますか?** ] ウィンドウで、[**リセット**] をクリックします。 It's enabled by default. After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use Skype for Business Meeting Migration Tool to update their existing meetings. To see how to download, install and run the Lync Meeting Update Tool, see:> Meeting Update Tool for Skype for Business and LyncSkype for Business Online, Meeting Migration Tool (64-bit)Skype for Business Online, Meeting Migration Tool (32-bit)
+3. [**会議 ID をリセットしますか?**] ウィンドウで、[**リセット**] をクリックします。 It's enabled by default. これは既定では有効になっています。
 
-[](reset-a-conference-id-for-a-user-in-teams.md)Reset a conference organizer's PIN
+「[ユーザーのために会議 ID をリセットする](reset-a-conference-id-for-a-user-in-teams.md)」をご覧ください。
   
-## <a name="reset-a-conference-organizers-pin"></a>静的会議 ID は自動的に作成されユーザーに割り当てられますが、ユーザーがそれを使いたくないため特定の番号に設定しようと考える場合や、ユーザーが会議 ID を覚えられない、または紛失してしまう場合があります。Skype for Business 管理センターおよび Windows PowerShell を使用すると、ユーザーの会議 ID を表示、変更、リセットすることができます。
+## <a name="reset-a-conference-organizers-pin"></a>電話会議の開催者の PIN をリセットする
 
-ユーザーをスケジュールする会議ごとに固有の会議 ID が割り当てられますを取得 会議 ID が自動的に作成され、ユーザーに割り当てられているがあります、ユーザーは、この 1 つを使用する場合は、特定の数に設定するとユーザーが覚えられないか、会議 ID が失われています。 
+ユーザーがスケジュール設定した各会議には、一意の会議 ID が割り当てられます。 会議 ID は自動的に作成されユーザーに割り当てられますが、ユーザーがそれを使いたくないため特定の番号に設定しようと考える場合や、ユーザーが会議 ID を覚えられない、または紛失してしまう場合があります。 
 
 ![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
 
 1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
 
-2. **オーディオ会議**では、[ **PIN のリセット**] をクリックし、[**リセット**] をクリックします。 
+2. [**電話会議**] の下で、[**PIN のリセット**] をクリックしてから、[**リセット**] をクリックします。 
   
 リセットの直後に 1 回表示された後は、ユーザーのプロパティには PIN に代わって "*****" が表示されます。 
   
-[オーディオ会議の PIN のリセット](reset-the-audio-conferencing-pin-in-teams.md)を参照してください。
+「[電話会議の PIN をリセットする](reset-the-audio-conferencing-pin-in-teams.md)」をご覧ください。
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>電話会議の情報が記載されたメールをユーザーに送信する
 
@@ -104,12 +108,12 @@ ms.locfileid: "26283187"
 
 1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
 
-2. [**電話会議**] の [**電話会議情報をメールで送信**] をクリックします。 
+2. [**電話会議**] の下で、[**電話会議情報をメールで送信**] をクリックします。 
 
     > [!NOTE]
     > この操作を行っても、電話会議の PIN はユーザーに送信されません。 
 
-When you do this, the dial-in conferencing PIN isn't sent to the user.
+「[電話会議の情報が記載されたメールをユーザーに送信する](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)」をご覧ください。
   
 ## <a name="set-the-phone-numbers-included-on-invites"></a>出席依頼に含まれている電話番号を設定する
 

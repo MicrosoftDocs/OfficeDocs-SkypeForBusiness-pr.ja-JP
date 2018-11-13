@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: ビジネス サーバーの Skype で SEFAUtil ツールを展開します。
-ms.openlocfilehash: 1b2f981a438b71b44eb5d4c760e98d1d777f7235
-ms.sourcegitcommit: f9410a182f571d2a8ebe71ecd91ec97f83d8e077
+ms.openlocfilehash: fc8b26dbc0f81be3ea7dd9f0fc3f5c728d49e965
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25942808"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295889"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>ビジネス用の Skype で SEFAUtil ツールを展開します。
  
@@ -45,10 +45,6 @@ ms.locfileid: "25942808"
    ```
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
-    > [!NOTE]
-    > プールの FQDN: SEFAUtil アプリケーション (通常は、ビジネスのフロント エンド サーバーまたはプールの Skype) をホストするプールまたはサーバーの FQDN です。
-    > プール FQDN をレジストラー: ビジネスのフロント エンド サーバーまたはこのアプリケーション プールに関連付けられているプールの Skype の FQDN です。
-    > プール サイト: このプールは、ホーム サーバーをサイトのサイト ID です。
 
 4. SEFAUtil ツールを信頼済みアプリケーションとして定義します。コマンド ラインで、次のコマンドを実行します。
     

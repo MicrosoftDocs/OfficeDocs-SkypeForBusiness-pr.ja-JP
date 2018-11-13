@@ -13,11 +13,11 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e2090036aa5e1a05e46581d365d9b6b4aeb94b32
-ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25040781"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294137"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>クラウド ビデオ マイクロソフト チームの相互運用機能を設定します。
 
@@ -41,7 +41,7 @@ ms.locfileid: "25040781"
 
 1. (テナント キー、Appid...) を選択したがあるパートナーやパートナーから構成情報を取得します。 組織の 1 つまたは複数のビデオ相互運用パートナーを使用することができます。 
 
-2. ネットワークが正しく構成されていることを確認します。 境界ネットワークの走査をサポートするための標準に準拠したビデオ ファイアウォールを構成します。 例: 
+2. ネットワークが正しく構成されていることを確認します。 境界ネットワークの走査をサポートするための標準に準拠したビデオ ファイアウォールを構成します。 次に例を示します。 
     - Cisco の VCS-e                  
     - ポリコム RPAD
 

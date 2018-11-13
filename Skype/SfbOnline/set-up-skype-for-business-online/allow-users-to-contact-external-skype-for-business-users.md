@@ -26,12 +26,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'ユーザーが別の組織内のユーザーに問い合わせるか、外にそれらの連絡先を使用できるようにするのにはビジネス用の Skype を構成する方法を参照してください。 '
-ms.openlocfilehash: eaac8426677268e526f622b477caff062d81deef
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: b18c4d3f04cab78b48039bcd33dae00a960132ea
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839040"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293756"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>外部の Skype for Business ユーザーに連絡できるようにする
 
@@ -71,9 +71,9 @@ ms.locfileid: "25839040"
     
 7. Windows Firewall を使用している場合は、Skype for Business が必要なポートを自動的に開きます。
     
-    組織がインターネットへの接続をネットワーク上のコンピューターを制限する別のファイアウォール ソリューションを使用している場合は、クライアント コンピューターは、次の[Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)にアクセスすることを確認します。 インフラストラクチャの構成、ファイアウォールやプロキシのリストを許可する、送信する Fqdn を追加することがあります:**\*です。 api.skype.com**、 \***です。 users.storage.live.com**、と**graph.skype.com**。 お使いのファイアウォールでポートを開く方法の詳細については、それに付属のマニュアルを確認してください。
+    組織がインターネットへの接続をネットワーク上のコンピューターを制限する別のファイアウォール ソリューションを使用している場合は、クライアント コンピューターは、次の[Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges)にアクセスすることを確認します。 インフラストラクチャの構成、ファイアウォールやプロキシのリストを許可する、送信する Fqdn を追加することがあります:**\*です。 api.skype.com**、 \***です。 users.storage.live.com**、と**graph.skype.com**。 お使いのファイアウォールでポートを開く方法の詳細については、それに付属のマニュアルを確認してください。
     
-    すべてのポートを開く必要のリストは、 [Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)を参照してください。
+    すべてのポートを開く必要のリストは、 [Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges)を参照してください。
 
 8. 管理者は、組織では、次の手順の後にもことを確認します。
     
@@ -84,7 +84,7 @@ ms.locfileid: "25839040"
 ## <a name="test-and-troubleshoot"></a>テストとトラブルシューティング
 <a name="bk_preview"> </a>
 
- **企業間の通信を設定する際に発生する最も一般的な問題は、取得[Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)右です。**
+ **企業間の通信を設定する際に発生する最も一般的な問題は、取得[Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges)右です。**
   
 設定をテストするには、企業ファイアウォールの背後にあるではないビジネスの Skype の連絡先が必要です。
   
@@ -92,7 +92,7 @@ ms.locfileid: "25839040"
     
 2. ビジネスの Skype は、ビジネス用の Skype の連絡先の検索でチャットへの要求を送信します。
     
-    会社のポリシーのために送信できませんでしたというメッセージが表示される場合[Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)を再確認する必要があります。
+    会社のポリシーのために送信できませんでしたというメッセージが表示される場合[Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges)を再確認する必要があります。
     
 3. チャットへの要求を送信するビジネス用連絡先の Skype を依頼してください。 要求の場合、問題は、ファイアウォールの設定 (ファイアウォール設定が正しいことが既にわかっていると仮定した場合) です。
     

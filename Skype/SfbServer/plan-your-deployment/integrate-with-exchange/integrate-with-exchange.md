@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: '概要: 2016 の Exchange Server や Exchange Server 2013 ビジネス サーバーの Skype を統合する方法の詳細については、このトピックを確認します。'
-ms.openlocfilehash: 901bfd35ef0e781d12c8f4f455912e9ad47d0bdd
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: e46775a7a57702cd71293f2343aa2bf089491393
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839102"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294937"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Skype for Business と Exchange の統合の計画
  
@@ -63,7 +63,7 @@ Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri 
 
 自動検出サービスについての詳細は、[自動検出サービス](https://go.microsoft.com/fwlink/p/?LinkId=268542)を参照してください。
   
-ビジネス サーバー OAuth 構成設定の Skype を変更する必要がありますし、自動検出サービスの構成が完了した後こう Skype ビジネス サーバーの自動検出サービスの場所を知っていることになります。 ビジネス サーバーの Skype の OAuth 構成設定を変更するには、ビジネス サーバー管理シェルの Skype 内で次のコマンドを実行します。 このコマンドを実行するときは必ず、Exchange Server では、上で実行する自動検出サービスへの URI を指定することと、 **autodiscover.svc**を使用して、 **autodiscover.xml** (これは XML ファイルを指すのではなくサービスの場所をポイントすることサービスを使用)。
+ビジネス サーバー OAuth 構成設定の Skype を変更する必要がありますし、自動検出サービスの構成が完了した後これにより、その Skype をビジネスのサーバーの自動検出サービスの場所を知っていること。 ビジネス サーバーの Skype の OAuth 構成設定を変更するには、ビジネス サーバー管理シェルの Skype 内で次のコマンドを実行します。 このコマンドを実行するときは必ず、Exchange Server では、上で実行する自動検出サービスへの URI を指定することと、 **autodiscover.svc**を使用して、 **autodiscover.xml** (これは XML ファイルを指すのではなくサービスの場所をポイントすることサービスを使用)。
   
 ```
 Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc" 

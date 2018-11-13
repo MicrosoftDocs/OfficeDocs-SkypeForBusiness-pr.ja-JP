@@ -1,7 +1,6 @@
 ---
 title: ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 ms.author: jambirk
-ms.reviewer: NMuravlyannikov
 author: jambirk
 manager: serdars
 ms.audience: ITPro
@@ -16,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: SBCs を証明する、選択した SBC ベンダーとマイクロソフトのパートナーは、直接ルーティング機能します。
-ms.openlocfilehash: 2d0873916585cab3eed6295e9be499f0eab39d53
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 45a562b83c6e89a1006bc1fd6e2180ff49daf1ad
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26038904"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294812"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
@@ -60,7 +59,5 @@ ms.locfileid: "26038904"
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   保留中    |      V7.0.2      |
 |                                                                                                                     |    SBC のスウェーデン語のライト     |     &#10004;     |   保留中    |      V7.0.4      |
 |                     [ThinkTel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   保留中    |       V1.4       |
-|                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    AP 3900       |   保留中    |   保留中  |   保留中    |
-|                                                                                                                     |      AP 4600         |    保留中    |   保留中    |      保留中      |
-|                                                                                                                     |      VME             |    保留中    |   保留中    |      保留中      |
-|                     [TE システム](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |    保留中    |   保留中    |      保留中      |
+|                                                                                                                     |                     |                  |              |                  |
+

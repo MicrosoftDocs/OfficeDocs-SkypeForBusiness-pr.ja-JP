@@ -1,5 +1,5 @@
 ---
-title: ビジネス サーバーの Skype の統計マネージャーを展開します。
+title: Skype for Business Server 2015 の Statistics Manager の展開
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,24 +10,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
-description: '概要: は、Skype のビジネス サーバーの統計情報マネージャーを展開する方法の詳細については、このトピックを読みます。'
-ms.openlocfilehash: 4d32c10852091d494f59c65648cb370878fc3413
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+description: '概要: は、Skype のビジネス サーバー 2015 の統計マネージャーを展開する方法については、このトピックを読みます。'
+ms.openlocfilehash: 75a8af0794431a0f74233ad0c6a422b3827c7656
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26282981"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295183"
 ---
-# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>ビジネス サーバーの Skype の統計マネージャーを展開します。
+# <a name="deploy-statistics-manager-for-skype-for-business-server-2015"></a>Deploy Statistics Manager for Skype for Business Server 2015
  
-**の概要:** Skype のビジネス サーバーの統計情報マネージャーを展開する方法の詳細については、このトピックを参照してください。
+**の概要:** Skype のビジネス サーバー 2015 の統計マネージャーを展開する方法の詳細については、このトピックを参照してください。
   
  Skype ビジネス サーバーの統計情報マネージャーとは、Skype をビジネスのサーバーの稼働状態とパフォーマンスのデータをリアルタイムに表示できるようにする強力なツールです。 数秒ごとに数百のサーバー間でのパフォーマンス データをポーリングし、統計マネージャーの web サイトですぐに結果を表示できます。
   
-統計マネージャーをインストールしようとすると、前に、ソフトウェア、ネットワーク、およびハードウェア要件を熟知していることを確認してください。 詳細については、 [Skype ビジネス サーバーの統計情報マネージャーの計画](plan.md)を参照してください。
+統計マネージャーをインストールしようとすると、前に、ソフトウェア、ネットワーク、およびハードウェア要件を熟知していることを確認してください。 詳細については、[ビジネス サーバー 2015 の Skype 統計マネージャーの計画](plan.md)を参照してください。
   
 > [!NOTE]
-> 統計マネージャーの以前のバージョンからアップグレードする場合は、 [Skype のビジネス サーバーの統計マネージャーのアップグレード](upgrade.md)を参照してください。 
+> 統計マネージャーの以前のバージョンからアップグレードする場合は、 [Skype のビジネス サーバー 2015 の統計マネージャーのアップグレード](upgrade.md)を参照してください。 
   
 > [!NOTE]
 > Statistics Manager の Web サイトはテスト済みで Internet Explorer 11 以降、Edge 20.10240 以降、Chrome 46 以降 (現在広く使用されているバージョン) で正常に動作します。 
@@ -62,7 +62,7 @@ ms.locfileid: "26282981"
   
 ### <a name="prepare-the-listener-host-machine"></a>リスナーのホスト コンピューターの準備
 
-ホスト コンピューターを準備するには、Redis メモリ内キャッシュ システムをインストールして、有効な証明書がコンピューター上にあることを確認する必要があります。 Microsoft は Redis 3.0 の最新の安定したビルドをインストールすることを推奨します。 統計マネージャーのバージョン 2.0 は、Redis 3.2.100 でテストされました。 
+ホスト コンピューターを準備するには、Redis メモリ内キャッシュ システムをインストールして、有効な証明書がコンピューター上にあることを確認する必要があります。 Microsoft は Redis 3.0 の最新の安定したビルドをインストールすることを推奨します。 統計マネージャーのバージョン 1.1 は、Redis でテストされた 3.0.501 と Redis 2.8.2400。 
   
 1. Redis の次のサイトからダウンロード: [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis)。 
     
@@ -212,7 +212,7 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
-読み込まれた現在のサーバーの情報を表示するには、次のスクリプトを実行します。 
+現在インポート済みのサーバー情報を表示するには、次のスクリプトを実行します。 
   
 ```
 .\Get-StatsManServerInfo.ps1
@@ -265,7 +265,7 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
-アプリケーション イベント ログに表示されるすべてのイベントに関する情報は、 [Skype のビジネス サーバーの統計マネージャーのトラブルシューティング](troubleshoot.md)を参照してください。
+アプリケーション イベント ログに表示されるすべてのイベントに関する情報は、[ビジネス サーバー 2015 の Skype の統計マネージャーのトラブルシューティング](troubleshoot.md)を参照してください。
   
 ## <a name="create-a-self-signed-certificate"></a>自己署名証明書の作成
 <a name="BKMK_SelfCert"> </a>
@@ -299,11 +299,11 @@ Microsoft は、必ず信頼済みの認証局によって署名された証明�
 
 詳細については、以下を参照してください。
   
-- [Skype 統計マネージャーのビジネス サーバー計画します。](plan.md)
+- [Plan for Statistics Manager for Skype for Business Server 2015](plan.md)
     
-- [ビジネス サーバーの Skype の統計マネージャーをアップグレードします。](upgrade.md)
+- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md)
     
-- [統計マネージャーは、Skype のビジネス サーバーのトラブルシューティングを行う](troubleshoot.md)
+- [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
     
 - [Skype for Business Server Statistics Manager ブログ](https://blogs.technet.microsoft.com/skypestatsman/)
     

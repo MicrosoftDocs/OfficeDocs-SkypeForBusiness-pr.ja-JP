@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 960ab8a3-352d-4b18-bc01-55b35f30ca0d
 description: 次のセクションでは、ハイブリッド シナリオでは、ビジネス機能のための Skype を提供するリソースとユーザーのフォレスト モデルでは複数のフォレストを持つ環境を構成する方法のガイダンスを提供します。
-ms.openlocfilehash: ca3cd4bfe324690c41fbd045af967e57cab5fe36
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 772b93aab0d8adf08345870ac97a8e1487e240e2
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838564"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295243"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>ハイブリッド ビジネスの Skype の複数のフォレスト環境を構成します。
  
@@ -66,7 +66,7 @@ Skype ホーム設置型またはオンラインの Exchange を持つことが�
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
-[選択されたアカウント リンク属性](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/)は、ソース アンカーとして使用されます。 使用したい他の不変属性がある場合は、それを使用してもかまいませんが、AAD Connect の構成時に AD FS 要求規則を編集して、その属性を選択することを忘れないでください。
+[選択されたアカウント リンク属性](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/)は、ソース アンカーとして使用されます。 使用したい他の不変属性がある場合は、それを使用してもかまいませんが、AAD Connect の構成時に AD FS 要求規則を編集して、その属性を選択することを忘れないでください。
   
 UPN のフォレスト間で同期されません。 複数のフォレストで同じ UPN を使用できないため、ユーザー フォレストごとに一意の UPN を使用する必要があることを、Microsoft はテスト中に確認しました。 そのため、UPN を同期する場合と同期しない場合の 2 つの可能性が提示されました。 
   
@@ -112,7 +112,7 @@ AAD Connect では、オンプレミス フォレスト間でアカウントが�
   
 これはテスト ユーザーです。AAD Connect でユーザー フォレストとリソース フォレストのオブジェクトから、および Office 365 から sourceAnchor と cloudSourceAnchor が識別されたことが確認できます。上記の例では "1101" であり、これは先ほど選択した employeeNumber です。続いて、このオブジェクトを上記の内容にマージできています。 
   
-詳細については、「[オンプレミス ID と Azure Active Directory の統合](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)」を参照してください。 
+詳細については、「[オンプレミス ID と Azure Active Directory の統合](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect/)」を参照してください。 
   
 AAD Connect のインストールでは、ほとんどは既定値を使用することをお勧めします。 ただし、以下の手順は例外です。 
   
@@ -122,7 +122,7 @@ AAD Connect のインストールでは、ほとんどは既定値を使用す�
     
 3.  設置ディレクトリ内のユーザーを識別する:**ユーザーの id が複数のディレクトリに存在**するかを選択し、 **ObjectSID** 、 **msExchangeMasterAccountSID**属性を選択します。
     
-4. Azure AD でユーザーを識別する: ソース アンカーを読むと[良い sourceAnchor の属性を選択すると](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/)選択した属性を選択、ユーザー プリンシパル名が**userPrincipalName**
+4. Azure AD でユーザーを識別する: ソース アンカーを読むと[良い sourceAnchor の属性を選択すると](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/)選択した属性を選択、ユーザー プリンシパル名が**userPrincipalName**
     
 5.  -他のオプションの機能は、Exchange ハイブリッドが配置されてかがあるかどうかを選択します。
     

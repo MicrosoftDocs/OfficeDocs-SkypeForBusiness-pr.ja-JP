@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b0b533020def2e344991fa758304888c8166436
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 9b176131cd8c491916f8b934daa763e62a9bf2a8
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839206"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294706"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>自動アテンダントが応答し、チームから直接キューの呼び出しを呼び出す
 ===========================================================
@@ -54,12 +54,12 @@ ms.locfileid: "25839206"
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>マイクロソフト チームの自動応答、および呼び出しキューのサポートを構成します。
 
-自動応答を受信し、マイクロソフトのチームにキューの呼び出しを呼び出しには、相互運用性ポリシーを構成し、ポリシーをアップグレードする必要があります。 [移行とビジネス用の Skype とチームを使用する組織の相互運用性](migration-interop-guidance-for-teams-with-skype.md)を確認してください。 自動応答がない場合や呼び出しキューが構成され、これを行うには、[電話システムの自動応答を設定](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)し、[電話システムの呼び出しキューを作成する](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)を参照してください。
+自動応答を受信し、マイクロソフトのチームにキューの呼び出しを呼び出しには、相互運用性ポリシーを構成し、ポリシーをアップグレードする必要があります。 [移行とビジネス用の Skype とチームを使用する組織の相互運用性](migration-interop-guidance-for-teams-with-skype.md)を確認してください。 自動応答がない場合や呼び出しキューが構成され、これを行うには、[電話システムの自動応答を設定](https://docs.microsoft.com/en-us/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)し、[電話システムの呼び出しキューを作成する](https://docs.microsoft.com/en-us/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)を参照してください。
 
 ## <a name="related-topics"></a>関連トピック
 
 -   [Office 365 の電話システムとは](what-is-phone-system-in-office-365.md)
--   [電話システムの通話キューを作成する](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+-   [電話システムの通話キューを作成する](https://docs.microsoft.com/en-us/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 -   [電話システムの自動応答について](what-are-phone-system-auto-attendants.md)
--   [電話システムの自動応答をセットアップする](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+-   [電話システムの自動応答をセットアップする](https://docs.microsoft.com/en-us/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 

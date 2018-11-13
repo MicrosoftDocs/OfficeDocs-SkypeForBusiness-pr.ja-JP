@@ -3,23 +3,24 @@ title: 品目サービスの通話品質のダッシュ ボード (救難)
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 6/8/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
-description: '概要: は、項目のサービス品質のダッシュ ボードを呼び出すためのリポジトリ API の一部について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: 5e5198afd95d6c9e1de517054053b724a54b1105
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+description: '概要: は、項目のサービス品質のダッシュ ボードを呼び出すためのリポジトリ API の一部について説明します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。'
+ms.openlocfilehash: 5990b83e8b16d51be79c5afc80c0c08d53fa50e3
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035625"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295220"
 ---
 # <a name="item-service-for-call-quality-dashboard-cqd"></a>品目サービスの通話品質のダッシュ ボード (救難)
  
-**の概要:** 項目のサービス品質のダッシュ ボードを呼び出すためのリポジトリ API の一部について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
+**の概要:** 項目のサービス品質のダッシュ ボードを呼び出すためのリポジトリ API の一部について説明します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。
   
 項目のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。
   

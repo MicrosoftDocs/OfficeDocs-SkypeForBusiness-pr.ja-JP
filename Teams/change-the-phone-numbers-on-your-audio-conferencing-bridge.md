@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 電話会議ライセンスをご購入いただく場合、Microsoft はお客様の組織の電話会議ブリッジ をホストします。電話会議ブリッジではさまざまな場所からダイヤルイン電話番号を受け取るため、会議の開催者や参加者はそれらの番号を使用して電話で Skype for Business 会議または Microsoft Teams 会議に参加できます。
-ms.openlocfilehash: d90daec99ced371aae3ef0685d1138656a6ab138
-ms.sourcegitcommit: 75e0c9e186dc167bad01f5b17ec9de8a682ee007
+ms.openlocfilehash: 7bd00f23a54780c94cdebeb413a8897e572ec47d
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "26005506"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294862"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>電話会議ブリッジの電話番号を変更する
 
@@ -52,11 +52,7 @@ ms.locfileid: "26005506"
 
 4. [ **割り当て**] ページで、[ **保存**] をクリックします。
 
-### <a name="step-2---change-the-default-phone-number-of-your-conference-bridge-optional"></a>ステップ 2 - 変更、既定の電話番号 (省略可能)、会議ブリッジ
-
-テレビ会議サービスの既定の電話番号は、発信呼び出しが参加者または開催者から会議内で配置する場合に使用される呼び出し元 ID を定義します。
-
-サービスの有料電話番号だけは、会議用ブリッジは、既定の番号として設定できます。**サービスのフリー ダイヤル番号は、会議用ブリッジ数の既定値として設定できません**。 サービスの有料電話番号を割り当てると、新しい既定の番号、電話会議ブリッジとして設定するには、次の手順に従います。
+Only a service toll number can be set as the default number for your conferencing bridge; **service toll-free numbers can't be set as the default number of your conferencing bridge**. サービスの有料電話番号を割り当てると、新しい既定の番号、電話会議ブリッジとして設定するには、次の手順に従います。
 
 1. 自分の職場のアカウントで Office 365 にサインインします。
 
@@ -65,10 +61,15 @@ ms.locfileid: "26005506"
 3. サービスの有料電話番号が既定値として構成することを強調表示します。
 
 4. [**既定に設定**] を選択します。
- 
-### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>ステップ 3 - 会議に含まれる既定の電話番号の変更が (省略可能) ユーザーの招待します。
 
-ユーザーの既定の電話番号は、会議をスケジュールするとき、会議に含まれるものへの招待します。 新規ユーザーの既定の電話番号を割り当てる方法を含む詳細について[に含まれている番号は、マイクロソフトのチームで招待の電話を設定](set-the-phone-numbers-included-on-invites-in-teams.md)したり、[オンライン ビジネスの Skype で招待に含まれている番号の電話の設定](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)を参照してください。
+> [!NOTE]
+> 新しい電話番号を割り当てた後その番号が新しい既定の番号になった場合でも、既存ユーザーの既定の番号は変わりません。 既定の有料または無料電話の番号を追加するを設定するのには開催者がミーティングの招待には、[マイクロソフトのチーム](set-the-phone-numbers-included-on-invites-in-teams.md)の指示または[Skype](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)オンライン ビジネスのための指示が参照してください。 
+  
+
+
+### <a name="step-2---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>手順 2 - ユーザーの会議の出席依頼に記載されている既定の電話番号を変更する (オプション)
+
+ユーザーの既定の電話番号は、会議をスケジュールすると会議の出席依頼に記載される番号です。 詳細については、[携帯電話に含まれている番号は、マイクロソフトのチームで招待を設定](set-the-phone-numbers-included-on-invites-in-teams.md)したり、[オンライン ビジネスの Skype で招待に含まれている番号の電話の設定](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)を参照してください。
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
 
@@ -80,11 +81,11 @@ ms.locfileid: "26005506"
 
 変更が保存されると、次回新しい会議をスケジュールするときに新しい既定の電話番号が開催者の会議の出席依頼に記載されます。
 
-### <a name="step-4---update-existing-meeting-invites-of-users-using-the-meeting-migration-service-optional"></a>手順 4 - 既存の会議の会議の移行サービス (オプション) を使用してユーザーの招待を更新
+### <a name="step-3---update-existing-meeting-invites-of-users-using-the-meeting-migration-service-optional"></a>手順 3 - Meeting Migration Service を使用してユーザーの既存の会議の出席依頼を更新する (オプション)
 
 次の 2 つの手順では、Windows PowerShell を開始することが必要になります。
   
-既定電話番号、およびこの会議の一部またはすべてのユーザーへの招待を更新する場合を使用して、既定の電話番号が変更された前に、組織内のユーザーに既に送信された会議の招待を必要に応じて更新できます、会議の移行サービスです。 詳細については、「[Meeting Migration Service (MMS) のセットアップ](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)」をご覧ください。
+Meeting Migration Service を使用して、ユーザーの既定の電話番号が変更される前に、組織内のユーザーに送信済みの会議の出席依頼をオプションで更新できます。詳細については、「[Meeting Migration Service (MMS) のセットアップ](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)」をご覧ください。
   
 - 手順 2 で既定の電話番号を変更したユーザーに対して、Meeting Migration Service (MMS) を実行します。これを実行するには、次のコマンドを実行します。
 

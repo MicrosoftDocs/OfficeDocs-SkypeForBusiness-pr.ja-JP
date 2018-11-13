@@ -10,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: 運用管理スイート (OMS) を使用して、クラウド コネクタ バージョン 2.1 とそれ以降の展開を監視する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 36d70a1504eab085d319e46d03c3c6f0bd9d14f3
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 19946c0d7701d2fd31c1b41cae58e08cfdf4c52d
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839824"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295072"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>運用管理スイート (OMS) を使用してクラウドのコネクタを監視します。
 
 運用管理スイート (OMS) を使用して、クラウド コネクタ バージョン 2.1 とそれ以降の展開を監視する方法の詳細については、このトピックを参照してください。
 
-運用管理スイート (OMS)、マイクロソフトのクラウド IT 管理ソリューションを使用して、クラウド コネクタ バージョン 2.1 とそれ以降の展開を監視できます。 OMS のログ分析機能を使用すると、監視し、可用性となどの物理リソースと仮想マシンのパフォーマンスを分析できます。 OMS とログ分析の詳細についてを参照してください[操作の管理スイート (OMS) とは何ですか?](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview)。
+運用管理スイート (OMS)、マイクロソフトのクラウド IT 管理ソリューションを使用して、クラウド コネクタ バージョン 2.1 とそれ以降の展開を監視できます。 OMS のログ分析機能を使用すると、監視し、可用性となどの物理リソースと仮想マシンのパフォーマンスを分析できます。 OMS とログ分析の詳細についてを参照してください[操作の管理スイート (OMS) とは何ですか?](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-overview)。
 
 このトピックには次のセクションが含まれます。
 
@@ -39,11 +39,11 @@ ms.locfileid: "25839824"
 
 OMS を使用するには、コネクタのクラウドの展開を監視するため、前に、以下が必要。
 
-- **Azure アカウントと、OMS のワークスペースです。** 既に Azure アカウントをお持ちでない場合は、OMS のログ分析機能を使用する 1 つを作成する必要があります。 Azure アカウントを作成し、OMS のワークスペースを設定する方法の詳細については、[ログ分析機能のワークスペースを使い始める](https://docs.microsoft.com/azure/log-analytics/log-analytics-get-started)を参照してください。
+- **Azure アカウントと、OMS のワークスペースです。** 既に Azure アカウントをお持ちでない場合は、OMS のログ分析機能を使用する 1 つを作成する必要があります。 Azure アカウントを作成し、OMS のワークスペースを設定する方法の詳細については、[ログ分析機能のワークスペースを使い始める](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-get-started)を参照してください。
 
 - **クラウド コネクタ 2.1 またはそれ以降のバージョン**
 
-- **ログ分析の新しいログの検索**では、クラウドのコネクタを監視する必要があります。 詳細については、[新しいログの検索対象に Azure のログ分析ワークスペースのアップグレード](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search-upgrade)を参照してください。
+- **ログ分析の新しいログの検索**では、クラウドのコネクタを監視する必要があります。 詳細については、[新しいログの検索対象に Azure のログ分析ワークスペースのアップグレード](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-log-search-upgrade)を参照してください。
 
 ## <a name="configure-cloud-connector-to-use-oms"></a>OMS を使用するクラウドのコネクタを構成します。
 
@@ -103,7 +103,7 @@ OMS ポータルでは、次のように、イベント ログおよびパフォ
      > [!NOTE]
      > テキスト ボックスに、Lync Server を手動で入力する必要があります。 ドロップ ダウン リストでオプションとして表示されません。 
 
-     詳細については、[ログの分析では、Windows イベント ログ データ ソース](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-windows-events)を参照してください。
+     詳細については、[ログの分析では、Windows イベント ログ データ ソース](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-data-sources-windows-events)を参照してください。
 
 2. 設定 -\>データ -\> 、Windows パフォーマンス カウンターのパフォーマンス カウンターを追加し、。 
 
@@ -126,11 +126,11 @@ OMS ポータルでは、次のように、イベント ログおよびパフォ
      > [!NOTE]
      > テキスト ボックスに、パフォーマンス カウンターを手動で入力する必要があります。 ドロップ ダウン リストでオプションとして表示されません。 
 
-     詳細については、[ログ分析機能で、Windows と Linux のパフォーマンス データ ソース](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-performance-counters)を参照してください。
+     詳細については、[ログ分析機能で、Windows と Linux のパフォーマンス データ ソース](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-data-sources-performance-counters)を参照してください。
 
 ### <a name="create-alerts"></a>アラートを作成します。
 
-OMS のアラートの 2 種類があります: 結果の通知とメートル法の警告の数。 警告の作成の詳細については、[ログ分析の警告ルールの操作](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts-creating)を参照してください。
+OMS のアラートの 2 種類があります: 結果の通知とメートル法の警告の数。 警告の作成の詳細については、[ログ分析の警告ルールの操作](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-alerts-creating)を参照してください。
 
 アラートを作成するときは、以下を考慮してください。
 
@@ -158,7 +158,7 @@ OMS のアラートの 2 種類があります: 結果の通知とメートル�
 
     クエリを使用して、コンピューターのフィルターで*コンピューターに"MediationServer"が含まれている場合*。 フィルターは、名前に文字列"MediationServer"が含まれているコンピューターのみを選択します。
 
-     コンピューター フィルターでフィルターを交換してか、削除するだけとします。 正規表現のない複雑な文字列のフィルターを作成できます。 詳細については、[文字列演算子](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators)を参照してください。 正規表現を使用することもできます。 さらに、検索クエリを保存し、そのグループを使用して、警告のクエリで、コンピューターのフィルターとしてコンピューター グループを作成することができます。 詳細については、[コンピューター グループのログの分析ログの検索](https://docs.microsoft.com/azure/log-analytics/log-analytics-computer-groups)を参照してください。
+     コンピューター フィルターでフィルターを交換してか、削除するだけとします。 正規表現のない複雑な文字列のフィルターを作成できます。 詳細については、[文字列演算子](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators)を参照してください。 正規表現を使用することもできます。 さらに、検索クエリを保存し、そのグループを使用して、警告のクエリで、コンピューターのフィルターとしてコンピューター グループを作成することができます。 詳細については、[コンピューター グループのログの分析ログの検索](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-computer-groups)を参照してください。
 
     各コンピューターでは、クエリのエラーは RTCMEDSRV の両方のサービス開始の最後のイベント ログを取得して、サービスの停止。 いずれかが返されます場合は、最後のイベントは、サービスの停止イベントをログに記録nothing が返されます場合は、最後のイベントは、サービスの開始イベントです。 つまり、クエリが RTCMEDSRV を停止する時間帯にサーバーのリストが返されます。 
 
@@ -202,7 +202,7 @@ search *| where Computer contains "MediationServer" | where (Type == "Perf" or T
 
 ## <a name="analyze-the-alerts-in-your-log-analytics-repository"></a>ログ分析リポジトリ内のアラートを分析します。
 
-リポジトリ内の警告を分析するには、アラートの管理ソリューションを使用します。 詳細については、[警告の管理ソリューションで操作管理スイート (OMS)](https://docs.microsoft.com/azure/log-analytics/log-analytics-solution-alert-management)を参照してください。
+リポジトリ内の警告を分析するには、アラートの管理ソリューションを使用します。 詳細については、[警告の管理ソリューションで操作管理スイート (OMS)](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-solution-alert-management)を参照してください。
 
 ## <a name="recommended-minimal-monitoring-set"></a>推奨される最低限監視
 
@@ -244,12 +244,12 @@ search *| where Computer contains "MediationServer" | where (Type == "Perf" or T
 
 OMS を使用して操作の詳細については、以下を参照してください。
 
-- [ログ分析でログの検索を使用してデータを検索します。](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-searches)
+- [ログ分析でログの検索を使用してデータを検索します。](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-log-searches)
 
 - [Azure のログ分析の言語リファレンス](https://docs.loganalytics.io/docs/Language-Reference)
 
-- [ログ分析機能で通知を理解します。](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts)
+- [ログ分析機能で通知を理解します。](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-alerts)
 
-- [Azure のログ分析サービスを Windows コンピューターに接続します。](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents)
+- [Azure のログ分析サービスを Windows コンピューターに接続します。](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-windows-agents)
 
 

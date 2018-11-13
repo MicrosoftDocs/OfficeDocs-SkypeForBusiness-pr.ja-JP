@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '設定し、組織の処理効率の呼び出しに自動応答の電話システム (PBX をクラウド) をテストする方法について説明します。 '
-ms.openlocfilehash: 0bf312734c788e0bd02bc4fce40dbea4267850d4
-ms.sourcegitcommit: 9138325ba2652a9ee3602d259de811082080e358
+ms.openlocfilehash: 41a4f7d3536e3a92104c98eaee057a47a21aeb9e
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "25842094"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294575"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>電話システムの自動応答をセットアップする
 
@@ -49,9 +49,10 @@ ms.locfileid: "25842094"
   
 ## <a name="step-2---create-a-new-auto-attendant"></a>ステップ 2 - 新しい自動応答の作成
 
- **ビジネス管理センターの Microsoft のチームと Skype を使用します。**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
 
-**マイクロソフトのチームとビジネス管理センターの Skype**をクリックして![デバイス ・ ロゴ ・ 30x30.png](../images/sfb-logo-30x30.png) **レガシ ポータル** >  **呼のルーティング** > **自動応答**、 **+ 新規追加**] をクリックします。
+
+In the **Skype for Business admin center**, click **Call routing** > **Auto attendants**, then click **Add new**:
 
 ### <a name="edit-general-info-page"></a>[一般情報の編集] ページ
 
@@ -76,11 +77,11 @@ ms.locfileid: "25842094"
 ![ナンバー 6](../images/sfbcallout6.png)<br/>**オペレーター** このオプションは省略可能で、自動応答で設定する必要はありません。 ただし、電話することを支援してくれる人に話をするメニューを解除することをする人の**オペレーター**のオプションを設定できます。 <br/> <br/> オペレーターには、キー 0 が自動的に割り当てられます。 <br/> <br/> このセットアップをした場合、発信者に、[**営業時間の通話ハンドリング**] ページの [**メニュー オプションの編集**] で利用可能なオプションであることを伝える必要もあります。 自動応答でオペレーターを設定する場合は、 [**発信者が聞く内容**] ボックスに、対応するプロンプト テキストを入力するか、オーディオ ファイルを変更して、このオプションを含める必要があります。 たとえば、「オペレーターに繋ぐには、0 を押してください。」などです。 <br/><br/>  次の項目のいずれかをオペレーターとして設定できます。 
 *    Enterprise Voice で有効にされているか、Office 365 の通話プランを割り当てられた**電話システム**を使用している**社内の担当者**。 <br/>
 
-     > [!Note] 
-     > **社内の担当者**は、Online のユーザーか、 Skype for Business Server 2015 または Lync Server 2013 を使用してオンプレミスでホストされたユーザーとなることができます。 Lync Server 2010 はサポートされていません。 <br/> 
+        > [!Note] 
+        > **社内の担当者**は、Online のユーザーか、 Skype for Business Server 2015 または Lync Server 2013 を使用してオンプレミスでホストされたユーザーとなることができます。 Lync Server 2010 はサポートされていません。 <br/> 
 
-* 設定済みの **通話キュー**。 
-* 発信者がボイスメールに送られるように設定できます。 これを行うには、**あなたの会社の担当者**を選択し、ボイスメールに直接転送するのにはこのメンバーの呼び出しを設定します。 
+*    設定済みの **通話キュー**。 
+*    発信者がボイスメールに送られるように設定できます。 これを行うには、**あなたの会社の担当者**を選択し、ボイスメールに直接転送するのにはこのメンバーの呼び出しを設定します。 
 
 ### <a name="select-hours-of-operation-page"></a>営業時間の選択ページ
 
@@ -104,14 +105,14 @@ ms.locfileid: "25842094"
 
 ***
 ![ナンバー 1](../images/sfbcallout1.png)<br/>**応答メッセージ** 営業時間の応答メッセージは省略可能で、[ **なし**] に設定できます。 この場合、発信者には選択したオプションによって通話が処理されるまでメッセージまたは応答メッセージは再生されません。 音声ファイル (.wav、mp3 または .wma 形式) をアップロードしたり、テキスト読み上げを使用してカスタムの応答メッセージを作成することもできます。
-* **なし**自動アテンダントの電話番号への人を呼び出すには、あいさつ文は再生されません。
+*    **なし**自動アテンダントの電話番号への人を呼び出すには、あいさつ文は再生されません。
 *    **作成するカスタムの案内応答**このオプションを選択する場合は、(1000 文字以内) を読み取るシステムを設定するテキストを入力します。 たとえば、「Contoso へようこそ。 お電話ありがとうございます。 などと、[**発信者が聞く内容**] ボックスに入力できます。
-* **オーディオ ファイルをアップロード**これを選択する場合は、あいさつ文を記録し、オーディオ (.wav、.mp3 や .wma 形式) でファイルをアップロードしています。
+*    **オーディオ ファイルをアップロード**これを選択する場合は、あいさつ文を記録し、オーディオ (.wav、.mp3 や .wma 形式) でファイルをアップロードしています。
 ***
 ![ナンバー 2](../images/sfbcallout2.png)<br/>営業時間中に着信する呼び出しに対する動作内容を選択できます。 次のオプションから選択できます。
 * **切断** これを選択すると、発信者が営業時間の応答メッセージを聞いた後に切断されます。
 * **呼び出しをリダイレクト** 以下に対して呼び出しを自動的に送信するために使用できます。
-  * Enterprise Voice で有効にされているか、Office 365 の通話プランを割り当てられた**電話システム**を使用している**社内の担当者**。 発信中のユーザーがボイスメールに送信されるように設定できます。 これを行うには、**社内の担当者**を選択しの呼び出しは、ボイスメールに直接転送するには、このユーザーを設定します。 <br/><br/>
+  * Enterprise Voice で有効にされているか、Office 365 の通話プランを割り当てられた**電話システム**を使用している**社内の担当者**。 発信中のユーザーがボイスメールに送信されるように設定できます。 これを行うには、**社内の担当者**を選択しの呼び出しは、ボイスメールに直接転送するには、このユーザーを設定します。 <br/><br/>   
     > [!Note]
     > **社内の担当者**は、Online のユーザーか、 Skype for Business Server 2015 または Lync Server 2013 を使用してオンプレミスでホストされたユーザーとなることができます。 Lync Server 2010 はサポートされていません。 <br/><br/>
 
@@ -147,9 +148,9 @@ ms.locfileid: "25842094"
     - **自動応答** 既存の自動応答を使用して、サブ メニューを含むメニュー オプションの 2 番目のレベルを作成できます。 これらは入れ子の自動応答と呼ばれます。<br/><br/>
 
         > [!Note]
-        > 入れ子 (または第 2 レベル) の自動応答の **営業時間** も使用されます。これには、セットアップされた他の自動応答から送信された呼び出しへ向けたものも含まれます。
+        > 入れ子 (または第 2 レベル) の自動応答の **営業時間** も使用されます。これには、セットアップされた他の自動応答から送信された呼び出しへ向けたものも含まれます。         
 
-### <a name="select-holidays-page"></a>休業日選択ページ
+### <a name="select-holidays-page"></a>休業日選択ページ 
 
 各自動応答には、最大 20 個の決められた休業日を追加できます。
 
@@ -159,9 +160,9 @@ ms.locfileid: "25842094"
 ![ナンバー 1](../images/sfbcallout1.png)<br/>**休業日を追加** 「**休業日名** 」フィールドに、新しい休業日の名前を入力します。<br/><br/> 休業日名は最大 64 文字で構成でき、同じ自動応答に対して一意である必要があります。 たとえば、同じ自動応答で 「感謝祭」という名前の休業日を 2 つもつことはできません。  
 ***
 ![ナンバー 2](../images/sfbcallout2.png)<br/>**休業日の応答メッセージ** 休業日の応答メッセージは省略可能であり、[**なし**] に設定することができます。 この場合、発信者には選択したオプションによって通話が処理されるまでメッセージまたは応答メッセージは再生されません。 音声ファイル (.wav、mp3 または .wma 形式) をアップロードしたり、テキスト読み上げを使用してカスタムの応答メッセージを作成することもできます。
-* **なし**自動アテンダントの電話番号への人を呼び出すには、あいさつ文は再生されません。
-* **作成するカスタムの案内応答**このオプションを選択する場合は、(1000 文字以内) を読み取るシステムを設定するテキストを入力します。 たとえば、「あけましておめでとうございます。 当社は現在、休業中です。」 などと、[**発信者が聞く内容**] ボックスに入力できます。
-* **オーディオ ファイルをアップロード**これを選択する場合は、時候のあいさつを記録し、オーディオ (.wav、.mp3 や .wma 形式) でファイルをアップロードしています。  
+*    **なし**自動アテンダントの電話番号への人を呼び出すには、あいさつ文は再生されません。
+*    **作成するカスタムの案内応答**このオプションを選択する場合は、(1000 文字以内) を読み取るシステムを設定するテキストを入力します。 たとえば、「あけましておめでとうございます。 当社は現在、休業中です。」 などと、[**発信者が聞く内容**] ボックスに入力できます。
+*    **オーディオ ファイルをアップロード**これを選択する場合は、時候のあいさつを記録し、オーディオ (.wav、.mp3 や .wma 形式) でファイルをアップロードしています。  
 ***
 ![ナンバー 3](../images/sfbcallout3.png)<br/>**応答メッセージ後の呼び出しに対する動作** この休業日に着信する呼び出しに対する動作を選択します。 次のオプションから選択できます。
 * **切断** 休業日の応答メッセージが流れてから、通話が切断されます。
@@ -179,9 +180,9 @@ ms.locfileid: "25842094"
 
 ***
 ![ナンバー 4](../images/sfbcallout4.png)<br/>**休業日の開始と終了を設定する方法** dd/mm/yyyy の形式で、休業日の開始日を入力し、日付範囲テーブルに表示されたとおりに、開始時刻、終了日、終了時刻を選択します。<br/><br/>1 つの休業日に対して、最大 10 個の違う日付範囲を指定できます。 たとえば、大晦日の休業日の日付範囲を最大 10 年分追加することができます。 休業日は、複数日にまたがることができます。<br/><br/>さらに休業日の日付範囲 (たとえば、翌年分) を追加するには、[**さらに追加**] をクリックし、休業日の新しい開始日と終了日を入力してください。<br/><br/>入れ子になった休日もサポートされています。 たとえば、1 つの「休業期間」のタイム フレーム内で複数の休日を入れ子にできます。 
-* **12 月 24日から 1 月 3 日:** 「よい休日をお過ごしください。 当社は現在、お休みをいただいております。 1 月 4 日に営業を再開します。」
-* **12 月 25 日:** 「メリークリスマス！ 当社は現在、お休みをいただいております。 1 月 4 日に営業を再開します。」
-* **1 月 1 日:**「あけましておめでとうございます。 当社は現在、お休みをいただいております。 1 月 4 日に営業を再開します。」
+*    **12 月 24日から 1 月 3 日:** 「よい休日をお過ごしください。 当社は現在、お休みをいただいております。 1 月 4 日に営業を再開します。」
+*    **12 月 25 日:** 「メリークリスマス！ 当社は現在、お休みをいただいております。 1 月 4 日に営業を再開します。」
+*    **1 月 1 日:**「あけましておめでとうございます。 当社は現在、お休みをいただいております。 1 月 4 日に営業を再開します。」
 
 自動応答を保存すると、休業日が [**休業日**] タブに表示され、休業日の設定を編集、追加、修正できます。
 
@@ -204,7 +205,7 @@ ms.locfileid: "25842094"
 * **カスタム**このオプションを使用する場合、Office 365 のグループ、配布リスト、または組織内で作成されたセキュリティ グループを検索することができますおよびすべてのユーザーが Office 365、そのグループに配布リストを追加またはセキュリティ グループは、ディレクトリ検索から除外されます。 複数の Office 365 グループ、配布リスト、セキュリティ グループを追加することができます。 <br/><br/> 
 
   > [!Caution]
-  > オンプレミス ユーザーが Lync Server 2010 の展開は、名前が他のダイヤルを使用してディレクトリを検索すると表示されません。
+  > オンプレミス ユーザーが Lync Server 2010 の展開は、名前が他のダイヤルを使用してディレクトリを検索すると表示されません。          
 
 > [!NOTE]
 > ディレクトリに一覧表示、ダイヤルを使用するときに名前で音声認識でその名前を持つ新しいユーザーには、最大で 36 時間がかかる場合があります。 
@@ -227,18 +228,19 @@ Windows PowerShell を使用して自動応答を作成し、設定すること�
 
 自動応答で管理する必要があるコマンドレットを以下に示します。
 
-|| |
-|---  |---  |
-| [New-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796493.aspx) | [New-CsOrganizationalAutoAttendantPrompt](https://technet.microsoft.com/library/mt796484.aspx) |
-| [Set-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796486.aspx) | [New-CsOrganizationalAutoAttendantMenuOption](https://technet.microsoft.com/library/mt796485.aspx) |
-| [Get-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796482.aspx) | [Get-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csorganizationalautoattendantholidays?view=skype-ps) |
-| [Remove-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796492.aspx) | [New-CsOrganizationalAutoAttendantMenu](https://technet.microsoft.com/library/mt796488.aspx) |
-| [New- CsOnlineAudioFile](https://technet.microsoft.com/library/mt796479.aspx) | [New-CsOrganizationalAutoAttendantCallFlow](https://technet.microsoft.com/library/mt796489.aspx) |
-| [Export-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps) | [New-CsOnlineTimeRange](https://technet.microsoft.com/library/mt796491.aspx) |
-| [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps) | [New-CsOnlineSchedule](https://technet.microsoft.com/library/mt796490.aspx) |
-| [Get-CsOrganizationalAutoAttendantSupportedTimeZone](https://technet.microsoft.com/library/mt796483.aspx) | [New-CsOrganizationalAutoAttendantCallHandlingAssociation](https://technet.microsoft.com/library/mt796487.aspx) |
-| [Get-CsOrganizationalAutoAttendantSupportedLanguage](https://technet.microsoft.com/library/mt796481.aspx) | [Import-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csorganizationalautoattendantholidays?view=skype-ps) |
-| [New-CsOrganizationalAutoAttendantCallableEntity](https://technet.microsoft.com/library/mt796480.aspx) | |
+
+|                                                                                                                                                               |                                                                                                                                                               |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                   [New-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796493.aspx)                                    |                                [New-CsOrganizationalAutoAttendantPrompt](https://technet.microsoft.com/library/mt796484.aspx)                                 |
+|                                   [Set-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796486.aspx)                                    |                              [New-CsOrganizationalAutoAttendantMenuOption](https://technet.microsoft.com/library/mt796485.aspx)                               |
+|                                   [Get-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796482.aspx)                                    |    [Get-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csorganizationalautoattendantholidays?view=skype-ps)    |
+|                                  [Remove-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796492.aspx)                                  |                                 [New-CsOrganizationalAutoAttendantMenu](https://technet.microsoft.com/library/mt796488.aspx)                                  |
+|                                         [New- CsOnlineAudioFile](https://technet.microsoft.com/library/mt796479.aspx)                                         |                               [New-CsOrganizationalAutoAttendantCallFlow](https://technet.microsoft.com/library/mt796489.aspx)                                |
+| [Export-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps) |                                         [New-CsOnlineTimeRange](https://technet.microsoft.com/library/mt796491.aspx)                                          |
+|                    [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)                    |                                          [New-CsOnlineSchedule](https://technet.microsoft.com/library/mt796490.aspx)                                          |
+|                           [Get-CsOrganizationalAutoAttendantSupportedTimeZone](https://technet.microsoft.com/library/mt796483.aspx)                           |                        [New-CsOrganizationalAutoAttendantCallHandlingAssociation](https://technet.microsoft.com/library/mt796487.aspx)                        |
+|                           [Get-CsOrganizationalAutoAttendantSupportedLanguage](https://technet.microsoft.com/library/mt796481.aspx)                           | [Import-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csorganizationalautoattendantholidays?view=skype-ps) |
+|                            [New-CsOrganizationalAutoAttendantCallableEntity](https://technet.microsoft.com/library/mt796480.aspx)                             |                                                                                                                                                               |
 
 ### <a name="more-about-windows-powershell"></a>Windows PowerShell の詳細について
 

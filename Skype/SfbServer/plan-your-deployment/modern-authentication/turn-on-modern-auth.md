@@ -11,19 +11,19 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: 認証方法の詳細に制御を管理者に提供するこの資料のアウトライン コマンドレットでは、業務上の内側と外側を使用します。 管理者は、認証方法を有効にまたは内部、または外部のネットワークにします。
-ms.openlocfilehash: 57b51a897f476d5c4b4b17ccda8ffe074f8a26cd
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 51dfaf9dc4c65afdd615cf29632c21d4cba08f65
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839765"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294847"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>無効にする従来の認証方法内部と外部のネットワークを計画しています。
 
 > [!NOTE]
 > この資料を参照しようとする場合は、既に、現代の認証のサポートされているトポロジ、ADAL を知っておく必要があり、最新の認証の構成についてですが、ない場合にここでは、を開始する必要がある記事。 
->  + [https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)
->  + [https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal](https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal)
+>  + [https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)
+>  + [https://docs.microsoft.com/en-us/skypeforbusiness/manage/authentication/use-adal](https://docs.microsoft.com/en-us/skypeforbusiness/manage/authentication/use-adal)
   
 現代の認証が有効にする二要素認証、または証明書ベースの認証などの認証方法をより安全なすぎる、ユーザー名またはパスワードを必要とせず、ユーザーの承認を伝送可能です。 非常に便利です。
 

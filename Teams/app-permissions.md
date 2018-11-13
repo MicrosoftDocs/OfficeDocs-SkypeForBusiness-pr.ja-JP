@@ -13,12 +13,12 @@ description: 組織に対してアプリが要求しているデータアクセ�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da1c22852f12bad79413d8b1f57d129be4e0ffcd
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: 39c104d10e14e602da21761667312a917d9a9ce0
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678403"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295768"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams アプリのアクセス許可と考慮事項
 
@@ -97,7 +97,7 @@ RECEIVE_MESSAGE や REPLYTO_MESSAGE のように、以下に大文字で一覧�
   <tr>
     <td valign="top">SEND_AND_RECEIVE_WEB_DATA</td>
     <td valign="top">[なし] (現在)。</td>
-    <td valign="top"><ul><li>タブのリスク プロファイルは、[ブラウザー] タブで実行されている同じ web サイトとほぼ同じです。 </li><li>タブは、のコンテキストを取得するも、& #39; s を実行して、サインイン名と現在のユーザーの UPN を含めて、Azure AD オブジェクト ID、現在のユーザーの Office 365 が置かれている、テナント ID をグループ (チーム) の ID、およびユーザーの現在のロケールです。 ただし、これらの Id をユーザー & #39; s について、タブにマップする必要が Azure AD にサインインするユーザーを作成します。</li></ul></td>
+    <td valign="top"><ul><li>タブのリスク プロファイルは、[ブラウザー] タブで実行されている同じ web サイトとほぼ同じです。 </li><li>タブは、のコンテキストを取得するも、& #39; s を実行して、サインイン名と現在のユーザーの UPN を含めて、Azure AD オブジェクトの ID、現在のユーザーの置かれている (チームの場合)、Office 365 のグループ ID、テナント ID、およびユーザーの現在のロケールです。 ただし、これらの Id をユーザー & #39; s について、タブにマップする必要が Azure AD にサインインするユーザーを作成します。</li></ul></td>
   </tr>
   </table>
 

@@ -15,12 +15,12 @@ MS.collection:
 - Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f3145455553c8126d66b3e56b69ec646f5f19ad
-ms.sourcegitcommit: bb3f235265cddae9578ec1bf605c4edc7f14fb30
+ms.openlocfilehash: 6a1fb82f57035f238ce222bf7f21b72983d21075
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25851477"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295915"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>クイック スタート ガイド: Microsoft Teams での通話プランの設定
 ==============================================================
@@ -35,17 +35,9 @@ Teams の通話プランに関する 2017 年 12 月 12 日付けの発表「[In
 Skype for Business が提供する Office 365 の機能の 1 つである通話プランを追加することで、Teams で公衆交換電話網 (PSTN) を介して固定電話や携帯電話に対する通話の発信および受信を行えるようになります。
 
 ![Teams での通話](media/Calling_in_Teams.png)
+
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Teams の [**通話**] タブを有効にするための前提条件
-チームでは、[**通話**] タブを有効にするには、ユーザーを呼び出すチームで有効になっていると、1 対 1 のチームを呼び出すことをサポートしているチームのクライアントを使用して 1:1 がある必要があります。 1 対 1 のチームで呼び出しを管理する方法については、[一連の CsTeamsCallingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)を参照してください。 通話をサポートするクライアントについては、[制限しマイクロソフトのチームの仕様](https://docs.microsoft.com/en-us/microsoftteams/limits-specifications-teams)を参照してください。
-
-> [!NOTE]
-> 現在、ボイスメールするには、[通話] タブで使用可能な PSTN の呼び出しに対して、ユーザーが有効になっています。 
-
-## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>チームでは、**ダイヤル パッド**を有効にするための前提条件
-チームで、[**ダイヤル パッド**] タブを有効にして、ユーザーが PSTN 通話を送受信できるようにするのには、電話システムおよび計画を呼び出すユーザーをプロビジョニングする必要があります。 プランの呼び出しを設定する方法については、[計画を呼び出す設定](https://docs.microsoft.com/en-us/microsoftteams/set-up-calling-plans)を参照してください。
-
-> [!NOTE]
-> 直接ルーティングを使用して、コマンドにユーザーを許可して、PSTN の呼び出しを受信することができますもします。 直接ルーティングを設定する方法については、[直接ルーティングの構成](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure)を参照してください。
+Teams の [**通話**] タブを有効にして、ユーザーが PSTN 通話の発信と受信を行えるようにするには、電話システムと通話プランの利用に向けてユーザーをプロビジョニングする必要があります。 この設定方法については、「[通話プランの設定](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)」をご覧ください。
 
 ## <a name="teams-interop-policy-configuration"></a>Teams の相互運用ポリシーの設定
 呼び出しの受信を開始するチームを有効にするには、する必要がありますチーム アップグレード ポリシーおよびポリシーの相互運用機能チームを更新するのには[マイクロソフトのチームとビジネス管理センターの Skype](https://aka.ms/teamsadmincenter)を使用するか、Skype でリモートの Windows PowerShell セッションを使用してビジネス[`*-CsTeamsUpgradePolicy`と`*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype)コマンドレットは、チームへの呼び出しをリダイレクトします。

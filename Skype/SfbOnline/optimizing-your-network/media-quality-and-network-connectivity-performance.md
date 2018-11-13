@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: このトピックは、オンライン ビジネス サービスの Skype のネットワーク パフォーマンスの要件のセットを定義し、ネットワークの評価に基づくビジネス オンラインの Skype、ネットワーク間の接続、インターネットまたは ExpressRoute を使用する選択する方法接続します。 Azure ExpressRoute Office 365 に専用の接続を導入する場合、別の Skype のオンライン ビジネスの展開シナリオで、ExpressRoute の接続を計画する方法のガイダンスも提供します。
-ms.openlocfilehash: 00d77bc72cbfd99d496bf458e008cce3da7970c3
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: dbe927794d8660a801596dac32623574e314ee44
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839127"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295546"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Skype for Business Online におけるメディアの品質とネットワーク接続性のパフォーマンス
 
@@ -81,7 +81,7 @@ IP ネットワークを介したリアルタイム メディアの品質は、�
   
 QoS では、オーディオまたはビデオのデータを保持するは、ネットワーク パケットをより高い優先順位を割り当てるための手段を提供します。 優先順位の高いこれらのパケットに割り当てると、オーディオおよびビデオ通信と以下の中断は、ネットワーク セッションのファイル転送、web サイトの参照、またはデータベースのバックアップのようなものよりも高速化、ネットワーク上を移動する可能性があります。 ネットワーク パケットは、ファイル転送に使用または既定のデータベースのバックアップが最優先にベスト エフォートを割り当てられ、ネットワークの輻輳がサイズの大きい影響として必要はないためにです。 メディア (オーディオ、ビデオ、およびアプリケーションの共有) パケットに高い優先順位を割り当てるし、ベスト エフォートとしても割り当てられているままにしないで、すぎるで処理すると、他のすべてのネットワーク トラフィック。 ネットワークの輻輳の量、に応じて可能性があります終了ユーザーの下の全体的なオーディオとビデオの品質操作で。
   
-ネットワーク内でネットワークの輻輳に影響を与えるされないことを確認するのには、ネットワーク上で QoS を実装することを強くお勧めします。 ただし、これが最大の影響を与えるには、ネットワークのすべてのエンドポイントする必要がありますサポート QoS、すべてのエンドポイントは、QoS のマーキングを受け入れる必要がありますを意味し、パケットの優先順位付けします。 オンライン ビジネス サービスの Skype では、QoS のマークを付けると、Microsoft のネットワーク内での優先順位付けを優先します。 ただし、Microsoft のネットワークに、企業ネットワークからインターネットのようにパブリック接続経由でルーティングされるトラフィックでは、QoS マーキング、およびパケットの優先順位付けを保持しません。 [Azure の ExpressRoute](https://azure.microsoft.com/services/expressroute/)を使用して Office 365 にネットワークからのプライベート接続は、エンド ・ ユーザーの QoS マーキング、およびパケットの優先順位付けは全体を向上させるにオーディオを保持するソリューションを展開し、ビデオの品質を提供します。
+ネットワーク内でネットワークの輻輳に影響を与えるされないことを確認するのには、ネットワーク上で QoS を実装することを強くお勧めします。 ただし、これが最大の影響を与えるには、ネットワークのすべてのエンドポイントする必要がありますサポート QoS、すべてのエンドポイントは、QoS のマーキングを受け入れる必要がありますを意味し、パケットの優先順位付けします。 オンライン ビジネス サービスの Skype では、QoS のマークを付けると、Microsoft のネットワーク内での優先順位付けを優先します。 ただし、Microsoft のネットワークに、企業ネットワークからインターネットのようにパブリック接続経由でルーティングされるトラフィックでは、QoS マーキング、およびパケットの優先順位付けを保持しません。 [Azure の ExpressRoute](https://azure.microsoft.com/en-us/services/expressroute/)を使用して Office 365 にネットワークからのプライベート接続は、エンド ・ ユーザーの QoS マーキング、およびパケットの優先順位付けは全体を向上させるにオーディオを保持するソリューションを展開し、ビデオの品質を提供します。
   
 ## <a name="network-performance-requirements-to-connect-to-skype-for-business-online"></a>ビジネス オンラインの Skype に接続するネットワーク パフォーマンスの要件
 <a name="bkNetworkPerf"> </a>
@@ -277,7 +277,7 @@ ExpressRoute QoS とキャパシティ ・ プランニングの詳細につい�
   
 ボーダー ゲートウェイ プロトコル (BGP) は、インターネット経由でネットワーク トラフィックをルーティングするために使用されるインターネット上のルーティング プロトコルです。 自律システム (AS) 間で、インターネット経由でルーティング情報を交換するために設計されています。 BGP コミュニティの値は、着信または発信ルートに適用できる属性のタグです。 BGP コミュニティは地理的条件、サービスの種類またはその他の条件に基づいて特定の宛先に到達するために外部リンクとして受信する信号によく使用されます。
   
-BGP コミュニティ サポートでは、Microsoft がプレフィックスおよびルートをタグ付けに属しているサービスに基づいて、適切な BGP コミュニティの値には。 マイクロソフトはパブリック ・ ピアリングによって通知されたプレフィックスにタグを付けるし、ピアリングの領域を示す、適切な BGP コミュニティの値を持つマイクロソフトの接頭番号がでホストされています。 コミュニティの最適なルーティングを提供する適切なルーティングを決定する値を使用できます。 オンライン ビジネスの ExpressRoute への接続をセットアップするビジネス オンライン BGP コミュニティの値の Skype は、Skype を使用できます。 [ExpressRoute ルーティングの要件](https://azure.microsoft.com/documentation/articles/expressroute-routing/)の詳細が表示されます。
+BGP コミュニティ サポートでは、Microsoft がプレフィックスおよびルートをタグ付けに属しているサービスに基づいて、適切な BGP コミュニティの値には。 マイクロソフトはパブリック ・ ピアリングによって通知されたプレフィックスにタグを付けるし、ピアリングの領域を示す、適切な BGP コミュニティの値を持つマイクロソフトの接頭番号がでホストされています。 コミュニティの最適なルーティングを提供する適切なルーティングを決定する値を使用できます。 オンライン ビジネスの ExpressRoute への接続をセットアップするビジネス オンライン BGP コミュニティの値の Skype は、Skype を使用できます。 [ExpressRoute ルーティングの要件](https://azure.microsoft.com/en-us/documentation/articles/expressroute-routing/)の詳細が表示されます。
   
 ## <a name="expressroute-connectivity-scenarios-for-skype-for-business-online"></a>ビジネス オンラインの Skype の ExpressRoute 接続のシナリオ
 <a name="bkNetworkPerf"> </a>
@@ -286,7 +286,7 @@ BGP コミュニティ サポートでは、Microsoft がプレフィックス�
   
 ### <a name="online-only-deployment---single-site"></a>オンラインのみの展開: 1 つのサイト
 
-会社のサイトに最も近いの間で 1 つの ExpressRoute 接続を設定する必要があります、Skype を使用して、オンライン ビジネス サービスのすべてのユーザーと、オフィスが 1 つの物理的な場所の中心し、Azure の ExpressRoute の展開を決定する場合は、[ExpressRoute ピアリングの場所](https://azure.microsoft.com/documentation/articles/expressroute-locations/)です。
+会社のサイトに最も近いの間で 1 つの ExpressRoute 接続を設定する必要があります、Skype を使用して、オンライン ビジネス サービスのすべてのユーザーと、オフィスが 1 つの物理的な場所の中心し、Azure の ExpressRoute の展開を決定する場合は、[ExpressRoute ピアリングの場所](https://azure.microsoft.com/en-us/documentation/articles/expressroute-locations/)です。
   
 次の図は、この種類の配置の例を示します。 この例では、contoso 社はオーランド (フロリダ) にある大学です。 Contoso には、10,000 の教職員と生徒がいます。 エッジのマイクロソフトのサイトにその場所からインターネットのテストは、クラスのピーク時に 5% のパケットの損失よりも大きいことがわかりました。 ビジネス オンラインのリアルタイム トラフィックの Skype の特に Office 365 をネットワークの輻輳を回避することができますので、帯域幅が過剰にプロビジョニングされた ExpressRoute を使用して Office 365 に専用の接続を取得することにしました。 ジョージア州アトランタ MeetMe サイトで ExpressRoute をマイクロソフトのクラウドに接続するとします。
   
@@ -304,7 +304,7 @@ ExpressRoute を使用して、メインのサイトに接続し、必要に応�
   
 ### <a name="online-only-deployment---multiple-sites-on-different-continents"></a>オンラインのみの展開: 別の大陸に複数のサイト
 
-オンライン ビジネス サービスは、Skype を使用しているすべてのユーザーと、オフィスでは、複数の大陸にわたって複数の物理的な場所で、Azure ExpressRoute の展開を決定する場合場合、は、大陸ごとに少なくとも 1 つの ExpressRoute 接続を設定する必要があります。間の最も近い[ExpressRoute ピアリングの場所](https://azure.microsoft.com/documentation/articles/expressroute-locations/)に各大陸のメインのサイトです。 費用 vs 効果では、によって、ネットワークのパフォーマンスの目標は満たされているサイトからの追加の ExpressRoute 接続を展開する選択できます。
+オンライン ビジネス サービスは、Skype を使用しているすべてのユーザーと、オフィスでは、複数の大陸にわたって複数の物理的な場所で、Azure ExpressRoute の展開を決定する場合場合、は、大陸ごとに少なくとも 1 つの ExpressRoute 接続を設定する必要があります。間の最も近い[ExpressRoute ピアリングの場所](https://azure.microsoft.com/en-us/documentation/articles/expressroute-locations/)に各大陸のメインのサイトです。 費用 vs 効果では、によって、ネットワークのパフォーマンスの目標は満たされているサイトからの追加の ExpressRoute 接続を展開する選択できます。
   
 次の例では、Contoso は、北アメリカ、ヨーロッパ主要都市にオフィスを持つ大規模な企業の法律事務所をします。 Contoso 社は、インターネットに接続し、内部ネットワークのパフォーマンス評価に基づき、北米、ヨーロッパのすべてのオフィスの 1 つの ExpressRoute 回路の 2 つの ExpressRoute 接続を展開することにしました。
   
@@ -324,7 +324,7 @@ ExpressRoute を使用して、メインのサイトに接続し、必要に応�
 
 クラウド コネクタ エディションのオンライン ビジネスの Skype は、オンプレミスの PSTN への接続を実装するパッケージ化された仮想マシン (Vm) のセットで構成されるハイブリッドを提供することです。 ビジネス サーバー トポロジの場合、仮想化された環境で最小限の Skype を配布すると、landlines と既存のオンプレミス PSTN 音声インフラストラクチャを通じて、携帯電話で通話を送受信することができます。
   
-Azure ExpressRoute とコネクタのエディションをクラウドに展開すると、大陸ごとの最も近い[ExpressRoute ピアリングの場所](https://azure.microsoft.com/documentation/articles/expressroute-locations/)にメインのサイトとの間には、各大陸の 1 つ以上の高速ルート接続を設定することをお勧めします。 によってコストとメリット、大陸ごとに選択できますネットワークのパフォーマンスの目標は満たされているサイトからの追加の ExpressRoute 接続を展開します。
+Azure ExpressRoute とコネクタのエディションをクラウドに展開すると、大陸ごとの最も近い[ExpressRoute ピアリングの場所](https://azure.microsoft.com/en-us/documentation/articles/expressroute-locations/)にメインのサイトとの間には、各大陸の 1 つ以上の高速ルート接続を設定することをお勧めします。 によってコストとメリット、大陸ごとに選択できますネットワークのパフォーマンスの目標は満たされているサイトからの追加の ExpressRoute 接続を展開します。
   
 ビジネス展開するため、設置型の Skype を使っている場合は、 [Skype ビジネス クラウド コネクタ ・ エディションのための計画ガイド](https://technet.microsoft.com/EN-US/library/mt605227.aspx)に従ってください。 具体的には、アクセス エッジ、A と、音声ビデオ エッジ サービスに対して、パブリック IP アドレスを割り当てる必要があります、Office 365 のデータ ・ センターから到達可能です。
   

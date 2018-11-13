@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 871af1f9ec06f24b7c2ef6248c1d48b859bb4563
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: ac3c65a19d80e5218e121c1cf582753e5f5eecc5
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838556"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294153"
 ---
 # <a name="conference-organizer-activity-report"></a>電話会議開催者アクティビティ レポート
 
@@ -109,7 +109,7 @@ ms.locfileid: "25838556"
     
 - [Skype for Business クライアントの使用レポート](device-usage-report.md) - Windows ベースのオペレーティング システムとモバイル デバイスを含む、Skype for Business アプリがインストールされていて IM と会議に使用されるデバイスを確認できます。
     
-- [Skype ビジネス会議参加者の設定アクティビティのレポートを](conference-participant-activity-report.md)何 IM、オーディオとビデオ、アプリケーションの共有を参照してください、Web やダイアル ・ イン/アウトの会議の会議が参加しています。
+- [Skype for Business 電話会議参加者アクティビティ レポート](conference-participant-activity-report.md) - 参加者がいる IM、音声/ビデオ、アプリケーション共有、Web 会議、ダイヤルイン/ダイヤルアウト会議の数を確認できます。
     
 - [ピア ツー ピア アクティビティのレポートをビジネス用の Skype](peer-to-peer-activity-report.md)ユーザーに IM でのオーディオ/ビデオ、アプリケーション共有、およびファイルを転送するを使用している量を確認できます。
     

@@ -3,23 +3,24 @@ title: CQD の開発サンプル
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
-description: '概要: は、品質のダッシュ ボードを呼び出すためのチュートリアルと開発のサンプルを確認します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: 994a26af99ec141b531ed3011a42f626c0c62886
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+description: '概要: は、品質のダッシュ ボードを呼び出すためのチュートリアルと開発のサンプルを確認します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。'
+ms.openlocfilehash: 6bd6031e1d7fc94ed463c53efb068fd1e2e51378
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035744"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296127"
 ---
 # <a name="cqd-development-samples"></a>CQD の開発サンプル
 
-**の概要:** 品質のダッシュ ボードを呼び出すためのチュートリアルと開発のサンプルを確認してください。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
+**概要:** 通話品質ダッシュボードのチュートリアルと開発サンプルを示します。通話品質ダッシュボードは Skype for Business Server 2015 用のツールです。
 
 この記事では、通話品質ダッシュボード (CQD) の開発に関するチュートリアルとサンプルを示します。
 
@@ -31,9 +32,9 @@ ms.locfileid: "26035744"
 
 CQD により、オンプレミス Skype for Business Server 展開に関して集計された通話品質情報にすばやく簡単にアクセスできます。 CQD は、QoE アーカイブ データベース、キューブ、およびポータルの 3 つのコンポーネントから構成されています。 ポータルはメインのプレゼンテーション層で、さらに次の 3 つのコンポーネントに分割することができます。
 
-1. データ サービスは、アクセスできないためには、 [API の呼び出し品質ダッシュ ボード (救難) ビジネス サーバーの Skype でのデータ](data-api.md)を使用してユーザーが認証されます。
+1. アクセスできないため、データ サービスには、 [API の呼び出し品質ダッシュ ボード (救難) ビジネス サーバー 2015 の Skype でのデータ](data-api.md)を使用してユーザーが認証されます。
 
-2. リポジトリ サービスには、[リポジトリ API の呼び出し品質ダッシュ ボード (救難) Skype ビジネス サーバーで](repository-api.md)認証されたユーザーにアクセスします。
+2. リポジトリ サービスには、[リポジトリ API の呼び出し品質ダッシュ ボード (救難) ビジネス サーバー 2015 の Skype で](repository-api.md)を使用して認証されたユーザーにアクセスします。
 
 3. CQD のユーザーが表示および操作する、HTML5 ベースのインターフェイスである Web ポータル。 これは、認証済みユーザーがアクセスできます。
 

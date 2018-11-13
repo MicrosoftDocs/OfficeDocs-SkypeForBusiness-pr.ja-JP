@@ -3,7 +3,7 @@ title: Microsoft Teams との SharePoint Online と OneDrive for Business の連
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 11/12/2018
+ms.date: 07/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: snigdhav
@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d82509aedab32e7fa4fe14ea162d369a2bab5565
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.openlocfilehash: 869adf9401e3704cc78de5f646b0b9e676e8efe9
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26282974"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295487"
 ---
 <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Microsoft Teams との SharePoint Online と OneDrive for Business の連携
 =============================================================================
@@ -47,18 +47,11 @@ SharePoint Online ドキュメント ライブラリと OneDrive for Business �
 > 既定の SharePoint サイトとドキュメント ライブラリを別のもので置き換えることは現時点ではできません。 この機能が必要であるという要望をいただきましたので、現在検討中です。 [Teams ロードマップ](https://aka.ms/teamsroadmap)または [Teams UserVoice](https://aka.ms/TeamsUserVoice) をチェックして、今後利用できるようになる機能について継続的に把握します。
 
 > [!TIP]
-> タブを既存の SharePoint サイト ページに、または、既存の SharePoint ドキュメント ライブラリへのリンクをチームに追加するのには
+> 自分のチームは、既存の SharePoint へのリンクは、サイトまたは、既存の sharepoint ドキュメント ライブラリには、タブを追加します。
 > 1. タブの横にあるプラス記号を選択します。
-> 2. 既存の SharePoint サイト ページの**SharePoint**または既存のドキュメント ライブラリの**ドキュメント ライブラリ**のいずれかを選択します。
-> 3. 適切なページまたはドキュメント ライブラリを選択します。
+> 2. **Web サイト**を選択します。
+> 3. 名前を入力し、SharePoint サイトまたはドキュメント ライブラリの URL を入力します。
 
 各ユーザーについては、他のユーザー (1 対 1 または 1 対多数 ) とのプライベート チャットで共有したすべてのファイルは OneDrive フォルダーの **Microsoft Teams Chat Files** に格納されます。このフォルダーには、指定したユーザーのみにアクセスを制限する権限が自動的に設定されます。
 
 ![各ユーザーのチャットに対応する、Microsoft Teams Chat Files という名前が付けられた OneDrive フォルダーの図。](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
-
-<a name="more-information"></a>追加情報
-----------------
-
-チームの SharePoint の機能の詳細についてを参照してください[SharePoint およびチーム: 相乗効果](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)。
-
-

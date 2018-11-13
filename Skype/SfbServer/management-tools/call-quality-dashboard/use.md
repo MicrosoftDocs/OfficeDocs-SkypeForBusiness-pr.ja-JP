@@ -1,25 +1,26 @@
 ---
-title: Skype の通話品質のダッシュ ボードを使用して、ビジネスのサーバーの
+title: Skype for Business Server 2015 の通話品質ダッシュボードの使用
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 2/1/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
-description: '概要: は、コール品質ダッシュ ボードを使用する方法について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: 6b431bb34ca6350662fbae720c61d2033d95fba4
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+description: '概要: は、コール品質ダッシュ ボードを使用する方法について説明します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。'
+ms.openlocfilehash: 2aafd5c92a6b0b7a7985c76a20c9377fce44a5e7
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035730"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294899"
 ---
-# <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Skype の通話品質のダッシュ ボードを使用して、ビジネスのサーバーの
+# <a name="use-call-quality-dashboard-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 の通話品質ダッシュボードの使用
  
-**の概要:** 呼び出し品質ダッシュ ボードを使用する方法について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
+**の概要:** 呼び出し品質ダッシュ ボードを使用する方法について説明します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。
   
 CQD により、IT 担当者は集計データを使用して、メディア品質の問題が発生している環境におけるフォーカス領域を識別できるようになります。これにより、IT 担当者は異なるユーザーのグループの統計情報を比較して、傾向とパターンを識別できます。個別の通話に関する問題の解決にフォーカスしていませんが、特定の環境内の多くのユーザーに該当する問題と解決策の識別にフォーカスしています。
   

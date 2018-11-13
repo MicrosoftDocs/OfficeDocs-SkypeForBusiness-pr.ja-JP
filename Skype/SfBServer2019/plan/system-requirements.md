@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: '概要: ビジネス サーバー 2019 サーバーおよびドメイン インフラストラクチャをこのトピックでは、Skype を準備します。 ハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件と推奨事項は、DNS の証明書と、ファイル共有、および Active Directory については、ここでは正常にインストールし、サーバー ファームの展開を行うには。'
-ms.openlocfilehash: 0cacba46f438f84c75aa80d1e73d9b4f7fa6c0ff
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+ms.openlocfilehash: c7064f4d1c8136cf714d784fd1985efd0f21c979
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035765"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296156"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>ビジネス サーバー 2019 Skype のシステム要件
  
@@ -193,7 +193,7 @@ Skype のビジネス サーバー 2019 Standard Edition をインストール�
   
 ||||
 |:-----|:-----|:-----|
-|2016 (64 ビット版) の Microsoft SQL Server とは、最新の更新プログラム、および AlwaysOn 可用性グループで実行する必要があります。  <br/> ||
+|2016年/2017 エンタープライズ (64 ビット版) の Microsoft SQL Server とは、最新の更新プログラム、および AlwaysOn 可用性グループで実行する必要があります。  <br/> ||
  |
    
 ここで使用する SQL Server のエディションが表示されない場合は使用できません。
@@ -211,11 +211,11 @@ SQL クラスタ リングはサポートされているアクティブ/パッ�
   
 2 ノードの場合:
   
-- Microsoft SQL Server 2016 標準 (64 ビット版) で最新のサービス パックの実行をお勧めします。
+- Microsoft SQL Server 2016年/2017 標準 (64 ビット版) で最新のサービス パックの実行をお勧めします。
     
 16 ノードの場合:
   
-- Microsoft SQL Server 2016 エンタープライズ (64 ビット版) とは、最新の service pack を実行するをお勧めします。
+- 2016年/2017 エンタープライズ (64 ビット版) の Microsoft SQL Server とは、最新のサービス パックの実行をお勧めします。
     
 記事、ビジネス サーバー 2019、準備にクラスタ リングを取得するための手順があるため、Skype のクラスタ リングを構成する SQL Server の必要があります。
  
@@ -246,8 +246,6 @@ SQL 常にではサポートされており、詳細を読み取ることがで�
 
 次のドメイン コント ローラー オペレーティング システムを使用することができます。
   
-- Windows Server 2019
-
 - Windows Server 2016
     
 - Windows Server 2012 R2
@@ -256,8 +254,6 @@ SQL 常にではサポートされており、詳細を読み取ることがで�
     
 Skype を配置するには、ビジネスのサーバー 2019 の任意のドメインのドメインの機能レベルと Skype を配置するには、ビジネスのサーバー 2019 の任意のフォレストのフォレストの機能レベルは、次のいずれかである必要があります。
   
-- Windows Server 2019
-
 - Windows Server 2016
     
 - Windows Server 2012 R2
@@ -351,7 +347,7 @@ Skype ビジネス サーバーと同じリソース フォレストまたは別
   
 このシナリオでは、リソース フォレスト トポロジを使用するオンプレミスの複数のフォレストが存在し、Active Directory フォレスト間には完全な信頼関係がある場合を考えます。オンプレミス ユーザー フォレストと Office 365 との間のアカウントを同期するために、Azure Active Directory Connect ツールが使用されます。
   
- この組織は Office 365 も備えており、[Azure Active Directory Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) を使用してオンプレミス アカウントを Office 365 と同期します。 Office 365 と Skype では、オンライン ビジネスのビジネス用の Skype は、有効になっているユーザーが有効です。 ビジネス サーバー用の Skype は、オンプレミスで導入ではありません。
+ この組織は Office 365 も備えており、[Azure Active Directory Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect) を使用してオンプレミス アカウントを Office 365 と同期します。 Office 365 と Skype では、オンライン ビジネスのビジネス用の Skype は、有効になっているユーザーが有効です。 ビジネス サーバー用の Skype は、オンプレミスで導入ではありません。
   
 シングル サインオン認証は、ユーザーのフォレストにある、Active Directory フェデレーション サービス ファームによって提供されます。
   

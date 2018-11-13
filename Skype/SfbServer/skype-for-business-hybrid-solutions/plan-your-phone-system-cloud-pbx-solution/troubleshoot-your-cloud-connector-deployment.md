@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: コネクタ Edition のクラウド展開のトラブルシューティングを行います。
-ms.openlocfilehash: 2290d032f1461c37c31d138510388f17a52f5843
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 5dbb046680824f2af72688844914db0096e2ded1
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838622"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295472"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Cloud Connector 展開をトラブルシューティングする
  
@@ -222,7 +222,7 @@ ms.locfileid: "25838622"
     Remove-CcLegacyServerCertificate 
     ```
 
-3. サービスを開始し、保守モードを終了する終了 CcUpdate コマンドレットを実行します。
+3. Exit-CcUpdate コマンドレットを実行して、サービスを開始し、メンテナンス モードを終了します。
     
 4. アプライアンスのローカル ファイルで Export-CcRootCertificate コマンドレットを実行し、エクスポートした証明書を PSTN ゲートウェイにコピーしてインストールします。
     

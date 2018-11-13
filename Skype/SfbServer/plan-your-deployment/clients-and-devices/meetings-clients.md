@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: '概要: IT プロフェッショナルは Skype ビジネス サーバーの計画中に、Skype のビジネス Web アプリケーションおよび Skype 会議アプリケーションのサポート要件を確認する必要があります。 この記事はこれらのアプリのユーザー向けのものではありません。'
-ms.openlocfilehash: 6b0b8df34530005e7baf14cef4aa38c4536d4673
-ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
+ms.openlocfilehash: c76770d570aaa1d1c686df7b0845e41a767cfbef
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890616"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293674"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>会議クライアント用の計画 (Web アプリおよび会議アプリ)
  
@@ -38,7 +38,7 @@ ms.locfileid: "25890616"
   
 既定では、会議をホストしているサーバーはダウンロードし、ミーティングに参加する Web アプリケーションのビジネス用の Skype をインストールするユーザーを指示します。 ビジネス Web アプリケーションの Skype では、フロント エンド サーバーに格納され、会議の出席者に送信されます。 
   
-ビジネス サーバーの Skype、Skype 会議アプリケーション CU5、ビジネスの Web アプリケーションからの Skype の代わりとして使用可能ですが、Skype 会議アプリケーションを提供するには、 [Skype を置換するのには Skype の会議アプリケーションを有効にする」に記載する追加の構成が必要です。(省略可能) のビジネス Web アプリケーションの](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)です。  Skype 会議アプリケーションが有効な場合、ユーザーは Office 365 コンテンツ配信ネットワーク (CDN) からではなく、Skype をビジネスのサーバーのアプリケーションの最新バージョンをダウンロードします。 ビジネス サーバー 2019 Skype 会議アプリケーションの Skype の唯一のオプションです。
+ビジネス サーバー 2015 の Skype、Skype 会議アプリケーション CU5、ビジネスの Web アプリケーションからの Skype の代わりとして使用可能です。 が、Skype の会議アプリケーションを提供する[を交換するのには Skype 会議アプリケーションを有効にする」に記載する追加の構成が必要です。(省略可能) のビジネス Web アプリケーションの Skype](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)。  Skype 会議アプリケーションが有効な場合、ユーザーは Office 365 コンテンツ配信ネットワーク (CDN) からではなく、Skype をビジネスのサーバーのアプリケーションの最新バージョンをダウンロードします。 ビジネス サーバー 2019 Skype 会議アプリケーションの Skype の唯一のオプションです。
   
 Skype 会議アプリケーションは、ダウンロードし、アプリケーションをインストールして Internet Explorer のユーザーの 1 回のクリックの結合を含めて、会議に参加するための簡略化されたブラウザー エクスペリエンスを提供します。 Skype 会議アプリケーションも、多くの改良に theSkype ビジネス Web アプリケーションの信頼性と会議の経験をします。 
   

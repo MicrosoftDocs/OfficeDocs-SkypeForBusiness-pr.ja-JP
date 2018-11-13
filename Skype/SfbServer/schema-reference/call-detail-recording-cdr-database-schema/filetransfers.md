@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
-description: FileTransfer ビューでは、ピア ツー ピア ファイル転送セッションに関する情報を格納します。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 97bc5f957192c8a2c6d888f81fce0891aa2b4f75
-ms.sourcegitcommit: 27cd6d540485d5a1557a6131612894ca2f3516ee
+description: FileTranfer ビューでは、ピア ツー ピア ファイル転送セッションに関する情報を格納します。 このビューは、Microsoft Lync Server 2013 で導入されました。
+ms.openlocfilehash: 5b7369769d8091aa3354ea364c7073dfa388986f
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025158"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296411"
 ---
 # <a name="filetransfers-view"></a>FileTransfers ビュー
  
-FileTransfer ビューでは、ピア ツー ピア ファイル転送セッションに関する情報を格納します。 このビューは、Microsoft Lync Server 2013 で導入されました。
+FileTranfer ビューでは、ピア ツー ピア ファイル転送セッションに関する情報を格納します。 このビューは、Microsoft Lync Server 2013 で導入されました。
   
 > [!NOTE]
 > FileTransfers ビューが含まれていますすべて[SessionDetails ビュー](sessiondetails-0.md)内の列のさらに以下の列には。
