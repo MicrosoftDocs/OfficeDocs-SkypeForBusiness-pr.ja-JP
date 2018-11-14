@@ -1,8 +1,12 @@
 <!-- ============================================================ -->
-# 開始する
-
-## [Teams の概要](Teams-overview.md)
-## [ツールとワークショップ: Teams の計画、提供、運用](planning-workshop-practical-guide.md)
+# [Team にようこそ](teams-overview.md)
+<!-- ============================================================ -->
+# [開始する](get-started-with-teams-landing-page.md)
+## [クイック ・ スタート ・ チーム](get-started-with-teams-quick-start.md)
+## [最初のチームとのチャネルを作成します。](get-started-with-teams-create-your-first-teams-and-channels.md)
+## [オンボードの早期導入](get-started-with-teams-onboard-early-adopters.md)
+## [モニターの使用方法およびフィードバック](get-started-with-teams-monitor-usage-and-feedback.md)
+## [次の場所](get-started-with-teams-resources-for-org-wide-rollout.md)
 ## [マイクロソフト チームのヘルプを表示します。](get-help-in-microsoft-teams.md)
 <!-- ============================================================ -->
 
@@ -20,10 +24,28 @@
 ## [Teams でのライフサイクル管理の計画](plan-teams-lifecycle.md)
 ## [チームの管理のための計画](plan-teams-governance.md)
 ## [Microsoft 365 政府の GCC の展開の計画](plan-for-government-gcc.md)
-## [変更管理戦略を作成します。](change-management-strategy.md)
 <!-- ============================================================ -->
 
+<!-- ============================================================ -->
+# [導入](adopt-microsoft-teams-landing-page.md) 
 
+## [開始する](teams-adoption-get-started.md)
+## [段階 1 - 開始](teams-adoption-phase1.md)
+### [チームとチャネルを理解します。](teams-adoption-understand-teams-and-channels.md)
+### [最初のチームを作成します。](teams-adoption-your-first-teams.md)
+### [チームの組織はどのように準備ができてのですか。](teams-adoption-assess-readiness.md)
+## [フェーズ 2 - 実験](teams-adoption-phase2-experiment.md)
+### [エキスパート プログラムを作成します。](teams-adoption-create-champions-program.md)
+### [ガバナンスのクイック スタート](teams-adoption-governance-quick-start.md)
+### [使用シナリオを定義します。](teams-adoption-define-usage-scenarios.md)
+### [オンボードの早期導入とフィードバックの収集](teams-adoption-onboard-early-adopters.md)
+### [オンボードのサポート](teams-adoption-onboard-support.md)
+## [フェーズ 3 - スケール](teams-adoption-phase3-enable.md)
+### [成果と成功を定義します。](teams-adoption-define-outcomes.md)
+### [フィードバックおよびレポート作成を最適化します。](teams-adoption-optimize-feedback-and-reporting.md)
+### [ドライブの認識とトレーニングを実装します。](teams-adoption-drive-awareness.md)
+### [スケジュール サービスの稼働状態のレビュー](teams-adoption-schedule-service-health-reviews.md)
+<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # 構成し、展開
@@ -127,9 +149,10 @@
 ## 通話の音質をモニターし、QoS
 ### [Teams でのサービス品質 (QoS)](QoS-in-Teams.md)
 ### [呼び出しを分析し、通話品質のダッシュ ボード](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [通話品質ダッシュボードで利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [分析機能の呼び出しを設定します](set-up-call-analytics.md)
 ### [通話分析を使用して低い通話品質をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### [通話品質ダッシュボードをオンにして使用する](turning-on-and-using-call-quality-dashboard.md)
+### [通話品質ダッシュボードで利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [通話品質ダッシュボードでのストリーム分類](stream-classification-in-call-quality-dashboard.md)
 ## トラブルシューティングとサポート
 ### [Teams の既知の問題](Known-issues.md)
