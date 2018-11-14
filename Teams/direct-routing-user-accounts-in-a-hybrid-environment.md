@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: ユーザーの作成」と「どの組み合わせがサポートまたはサポートされていないのさまざまな組み合わせについて説明します。
-ms.openlocfilehash: f6662a6a61e34a691cc058f20c356720a61dab54
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: f742efc18de05997f73a33b96800cc10a9a9d124
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678411"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26510623"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>PSTN への接続を持つハイブリッド環境でのユーザー アカウント
 
@@ -69,7 +69,4 @@ PSTN への接続でのビジネスのハイブリッド環境に、Skype では
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>PSTN のハイブリッド環境のサポート ステートメント
 
-**必要があります**が、ユーザーのすべてのユーザーのオブジェクト設置型で、作成する AD Azure AD 接続ツールを使用した Azure AD に同期するとします。 ユーザーの有効化なチームと Skype ビジネスは**サポートされていません**のハイブリッド構成では、Azure AD で直接ユーザー オブジェクトが作成されている場合。 など、新入社員、チームに対して直接有効にするは、ユーザーの新しいユーザーのユーザーは設置型のビジネス用の Skype で最初にホーム、オンライン登録者への移動する必要があります。 最初を有効にするエンタープライズ VoIP の**サポートされていない**とプールを設置せず、ビジネスまたはチームのオンライン Skype でユーザーを作成しています。
-  
-
-ビジネス用の Skype のユーザーを有効にする必要があります、エンタープライズ VoIP を使用してオンプレミス Skype のビジネス ユーザーの管理ツールです。 ビジネス オンラインのみが**サポートされていない**ため、Skype のユーザーを有効にします。 ハイブリッド構成で、ビジネスの Skype のユーザーを有効にする方法の詳細については[この資料](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises#special-considerations-when-enabling-users-for-enterprise-voice-on-premises)を参照してください。
+**必要があります**が、ユーザーのすべてのユーザーのオブジェクト設置型で、作成する AD Azure AD 接続ツールを使用した Azure AD に同期するとします。 ユーザーの有効化なチームと Skype ビジネスは**サポートされていません**のハイブリッド構成では、Azure AD で直接ユーザー オブジェクトが作成されている場合。 など、新入社員、チームに対して直接有効にするは、ユーザーの新しいユーザーには、オンプレミス Skype のビジネス管理ツールを使用してビジネスの Skype のユーザーを有効にする必要があります。 最初を有効にするエンタープライズ VoIP の**サポートされていない**とプールを設置せず、ビジネスまたはチームのオンライン Skype でユーザーを作成しています。 ハイブリッド構成で、ビジネスの Skype のユーザーを有効にする方法の詳細については[この資料](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises#special-considerations-when-enabling-users-for-enterprise-voice-on-premises)を参照してください。

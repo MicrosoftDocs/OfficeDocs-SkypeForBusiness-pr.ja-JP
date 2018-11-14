@@ -1,11 +1,11 @@
 ---
 title: Microsoft Teams の概要
-author: LolaJacobsen
-ms.author: lolaj
+author: LanaChin
+ms.author: v-lanac
 manager: serdars
-ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.date: 11/06/18
 ms.reviewer: ''
 description: Microsoft Teams とそのインフラストラクチャについて、および Office 365 と組み合わせた Teams の使用について説明します。
 localization_priority: Normal
@@ -15,108 +15,69 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fb74faf3acb0b3df7960ba4429c88e1383204f8
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: fd4dd3e322b254610fe815345fdec24c5b9832a9
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295206"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26510545"
 ---
-<a name="overview-of-microsoft-teams"></a>Microsoft Teams の概要
-===========================
+# <a name="welcome-to-microsoft-teams"></a>Microsoft Team にようこそ
 
-> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=ccf507a4-4ec4-4d61-9fb0-c86b5f1fc2a6&AutoPlayVideo=false] 
+ならマイクロソフトのチームの管理、組織で、あなたは適切な場所にします。 ここですべての情報を計画、展開、およびチームを実行する必要があることがわかります。  
 
+## <a name="overview-of-teams"></a>Teams の概要
 
-Microsoft Teams は Office 365 のすべてをまとめ、チームワークを遂行する上でチャットベースのハブをもたらし、よりオープンで、スムーズで、デジタルな環境を創り出す機会をお客様に提供します。Microsoft Teams は、Office 365 グループによって作られた既存の Microsoft テクノロジーを基に作られています。 
+チームに新しい場合は、この短いビデオ、[チームの開始](https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams)を確認してください。 Office 365 のグループ、Office のグラフと同じエンタープライズ ・ レベルのセキュリティ、コンプライアンス、および Office 365 の残りの部分として管理チームがビルドされます。 チームでは、Azure Active Directory (AD の Azure) に格納されている識別情報を活用します。 チームを作成するときに何が作成された後は、ここです。
+- 新しい[Office 365 グループ](office-365-groups.md)
+- チームのファイルを格納する[SharePoint Online](sharepoint-onedrive-interact.md)サイトおよびドキュメント ライブラリ
+- メールボックスと予定表に、 [Exchange のオンライン](exchange-teams-interact.md)共有
+- OneNote ノートブック
+- BI のプランナー、電源などの他の Office 365 アプリケーションに対
 
-革新的な発想により、Teams は、Azure Active Directory (Azure AD) に保存された ID を利用し、Office 365 のその他のサービスと統合して、作成されるチームごとに SharePoint オンライン サイトと Exchange Online グループ メールボックスを作成します。
+既存のグループからチームを作成するとき、そのグループのメンバーシップ、サイト、メールボックス、およびノートブックがチームに移植されました。 新しい[チームを組織全体](create-an-org-wide-team.md)では、組織内のすべてのユーザーと最新のメンバーシップ ユーザーの結合と Active Directory の組織のままにしているチームの特別な種類をお見逃しなきます。 
 
-ビジネスやコンシューマー電子メール アカウントを Outlook、Gmail、またはその他のユーザーなど、すべてのユーザーは、チームにゲストとして参加できます。 来園者は Azure AD 内で安全に管理できるし、同じコンプライアンスと監査の保護として、Office 365 の残りの部分は、来園者はチームで対応します。 管理者が一元的に、Office 365 環境内での来園者の参加を管理し簡単に表示、追加、またはホスト テナントへのゲスト アクセスを無効します。
+カスタマイズおよび拡張のチーム、[タブ](built-in-custom-tabs.md)、[コネクタ](office-365-custom-connectors.md)、および[コンポーネント](add-bots.md)をサード ・ パーティ製アプリケーションを追加します。 チーム、チームまたはチャネルへの[ゲストとして追加すること](guest-access.md)によって、組織の外部から人を含めることができます。 Office 365 の一部として、チームは、組織に必要なチームワークのハブを構築するために堅牢な[機能拡張のストーリー](https://docs.microsoft.com/en-us/microsoftteams/platform)を提供します。 
 
-Teams では常設チャットの機能や通話と会議が利用でき、その強力な拡張性に加えて Office 365 の他のコンポーネントに容易にアクセスできます。  これにより、大企業から小規模な組織にいたるまで、その中にいるすべてのユーザーにとって最適なチームワークのハブを構成します。  
+![チームのデスクトップ アプリケーションとモバイル アプリケーション](media/teams-overview-hub.png)
 
-Teams の機能を拡張するために、コネクタ、タブ、およびボットを[アプリ](https://go.microsoft.com/fwlink/?linkid=854629)として利用できます。これらによって、外部の情報、コンテンツ、およびインテリジェントなボットとの対話が Teams にもたらされます。  
+チームは、時間の経過とともにビジネス オンラインの Skype を置き換えて、Office 365 のインテリジェント通信の主なクライアントです。 ビジネスの機能および機能チームに組み込まれていることを Skype の詳細について、 [Skype をビジネスでマイクロソフトのチーム機能のロードマップ](http://aka.ms/skype2teamsroadmap)を参照してください。 永続的なチャットやメッセージング機能を補完するには、チームでは、包括的な会議と組み込み、完全に統合された音声とビデオの呼び出し元の経験を提供しています。 [チームは包括的な会議ではこれで、呼び出し元のソリューション](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042)マイクロソフト チームのブログをご覧ください。
 
-<a name="microsoft-teams-infrastructure"></a>Microsoft Teams のインフラストラクチャ
-------------------------------
+## <a name="teams-admin-experience"></a>チームの管理経験
 
-Teams は、Office 365 グループによって作られた既存の Microsoft テクノロジーを基にしています。 Microsoft のクラウドによって、組織はそのコラボレーションの一部として Microsoft Teams を利用する際に優れたパフォーマンスと信頼性を期待することができます。
+新しいマイクロソフトのチームと Skype を展開ビジネス管理センターにします。 表示されない場合、まだ、チーム、およびビジネスのための Skype を管理するため、統合された機能を提供、その方法には。 2018 年 3 月以降したされて徐々 に設定を移行することに、Skype のビジネス管理センターと Office 365 の管理センターでのチームの経験から。 
 
-革新的な発想により、Teams で作成されたチームは、Office 365 グループ、(ドキュメント ライブラリを備えた) SharePoint Online サイト、Teams によって会議の招待などの情報を保存するために使用される Exchange Online グループ メールボックスを作成します。 チームは既存の Office 365 グループを使用して作成でき、既存のグループ メンバーシップと、SharePoint Online および Exchange Online に保存されたコンテンツを Teams に移行することが可能になります。
+移行中には、2 つの異なる管理経験の間で分割するでしょう。 心配: 損失が出ないことを確認します。 設定を移行すると後、は、通知が表示され、ビジネス管理センターの設定をマイクロソフトのチームと Skype の新しい場所が表示されます。 詳細については、[新しいマイクロソフトのチームとビジネス管理センターの Skype に移行する際のチームの管理](manage-teams-skypeforbusiness-admin-center.md)を参照してください。 
 
-非公式なリアルタイムの会話を行う場所、永続的なチャットの掲示板のチームも、チームの機能を補完するために、通話や会議、次世代クラウド ・ ベースのインフラストラクチャも Skype の Skype を使用する上に構築された経験を提供します。ビジネスです。 これらの技術投資には、Azure ベースのクラウド サービスを利用したメディア処理とシグナリング、H.264 ビデオ コーデック、SILK および Opus オーディオ コーデック、ネットワークの回復力、テレメトリ、および品質診断が含まれます。
+チームおよびすべての今後の予定を詳細に把握するには、他の Office 365 の製品やサービスを組織では、[メッセージ センター](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter)と[チームのロードマップ](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams)を確認することを確認してあります。 計画的な変更は、および維持するための問題は、必要な情報し、準備、新規および更新の機能についてのお知らせが表示されます。 
 
-Office 365 グループは Azure Active Directory (Azure AD) に保存された ID を利用するため、多要素認証 (MFA) のサポートなどの Azure AD におけるすべての認証および承認機能は、Teams ですぐに使用できます。
+## <a name="upgrade-from-skype-for-business-to-teams"></a>チームにビジネス用の Skype からのアップグレード
+なら既にチーム、すばらしい! リソースを使用してここでは、組織内のチームワークの中心としてチームを最大限に活用します。 
 
-> [!NOTE]
-> 顧客からのフィードバックに基づいて、マイクロソフトのチームでチームの作成の結果として生成された新しい Office 365 のグループされなく Outlook でデフォルトで表示されます。 Outlook でこれらのグループを示すは、既存の動作を継続するお客様の場合は、Outlook の環境のグループを有効にすることができる Exchange のオンラインの PowerShell コマンドレットが提供されます。 Outlook で作成し、後で有効になっているチームのグループは、Outlook とチームの両方に表示する続けます。 この更新プログラムを段階的には数か月の後で Outlook とチーム全体がロールバックされます。
+ビジネス用の Skype を実行しているチームにアップグレードする準備ができている場合、またはビジネスとチーム サイド バイ サイドの Skype を実行しているし、チームに完全に移動する準備ができている場合は、ツール、ヒント、および移行を成功に導くために役立つガイダンスがあります。 詳細については、[マイクロソフトのチームにビジネス用の Skype のアップグレード](journey-skypeforbusiness-teams.md)を参照してください。
 
+## <a name="teamwork-and-office-365"></a>チームワークと Office 365
+すべてのチームが異なっています。コラボレーションへのニーズによって異なるもののアプローチはありません。 Office 365 は、通信、協力して、特化した、統合型のアプリケーションでより多くを達成する人を支援する、すべてのチームのニーズを満たすように設計されています。 
 
-<a name="microsoft-teams-and-office-365"></a>Microsoft Teams と Office 365
-------------------------------
+Office 365 アプリケーションおよびサービスを使用するを決定するには、ときに、組織が作業し、チームがする必要がある会話の種類を考慮します。 
 
-それぞれのグループにおいて、機能的な役割やワークスタイルに基づくさまざまなニーズが生じています。 Office 365 は、あらゆるグループの固有のワークスタイルに対応するよう設計されており、次のような専用の統合アプリケーションを提供します。
+- **チーム**、密接に、組織外のユーザーも含め、主要なプロジェクトで一緒に働く人がアクティブにできるデジタル ・ ハブが接続しで実行されることをリアルタイムで共同作業を行います。 権利を持っている会話の作業が起こっているか、会議、またはその他のアプリケーションとサービスの連携を持つドキュメントを共同編集するかどうか。 チームは、非公式なチャットがある、プロジェクトをすばやく反復処理、チームのファイルを使用するとの共同作業成果物の共有の場所です。 
 
--   エンタープライズグレードの電子メールに対応した Outlook。現在はグループ機能を備えています。
+- **Outlook**電子メールより正式な構造化された方法でまたは対象となる場合は、使い慣れた環境で共同作業を行うとの直接の通信は、必要があります。 
 
--   サイトおよびポータル用 SharePoint、インテリジェント コンテンツ サービス、ビジネス プロセスの自動化とエンタープライズ検索。
+- **SharePoint**のサイト、ポータル、インテリジェントなコンテンツ ・ サービス、ビジネス プロセスの自動化、およびエンタープライズ検索をします。 SharePoint は、コンテンツのチームワークを中心にチーム間で簡単に共有可能かつアクセス可能なあらゆる種類のコンテンツを作成します。 Outlook、Yammer、チームとの緊密な統合では、会話の経験の間でコンテンツのシームレスなコラボレーションを有効にします。   
 
--   会社規模の接続を推進する Yammer
+- ファイルを保存して、共有するユーザーを招待する人の**ビジネスの OneDrive**にします。 ユーザーがビジネスのための OneDrive に保存されるコンテンツは、ユーザーを共有して、他のユーザーと、個人を格納するための最適なオプションでは、下書きのドキュメントを共有または共有する準備ができていませんのものではありませんが、専用です。
 
--   エンタープライズ VoIP およびビデオの法人顧客向けバックボーンとしての Skype for Business。
+- **Yammer**を組織全体でユーザーを接続します。 全社的なイニシアチブを推進、ベスト プラクティスを共有または領域や、演習用の一般的なトピックについてのコミュニティを構築します。 会社全体で人とのオープン ディスカッションを促進するクラウドソーシングのアイデアです。
 
--   現在は、Office 365 の新しいチャットベースのワークスペースである Microsoft Teams。
+- **Office アプリケーション**は、人が知っているし、Word、Excel、PowerPoint、または OneNote を含め、定期的に使用するすべての使い慣れたツールです。 
 
-Office 365 の各アプリケーションの一般的な使用例を示します。詳細な使用方法については、[FastTrack Productivity Library](https://go.microsoft.com/fwlink/?linkid=854630) にアクセスしてください。
+## <a name="teams-known-issues"></a>Teams の既知の問題
 
-![Microsoft Teams アイコン。](media/Overview_of_Microsoft_Teams_image1.png)
+[既知の問題に対するマイクロソフトのチーム](Known-issues.md)を参照してください。
 
--   同じグループのメンバーとのリアルタイムでのコラボレーションを望んでいるユーザーおよびチームにより利用されます。
+## <a name="teams-client-release-notes"></a>Teams クライアントのリリース ノート
 
--   プロジェクトに関する迅速な反復を行いながら、ファイルを共有し、共有された成果物に関してコラボレーションを行うことを望んでいるチームをサポートします。
-
--   プランナー、電源の BI、GitHub など) などのワークスペースにさまざまなツールを接続することができます。
-
-![Microsoft Outlook アイコン。](media/Overview_of_Microsoft_Teams_image2.png)
-
--   使い慣れた電子メール環境や、より丁寧で真面目な方法で、共同作業を行うことを希望するユーザーにより利用されます。
-
--   電子メールの使用が必要な固有のビジネス プロセスを提供して、組織の内外の文書や情報を伝達します。
-
--   周辺のワークグループまたは組織の外側にいるユーザーと通信したり接続します。
-
-![Yammer アイコン。](media/Overview_of_Microsoft_Teams_image3.png)
-
--   組織全体のユーザーと接続して、プラクティスのコミュニティを中心にまとまり、ベスト プラクティスを共有することをサポートするために利用されます。
-
--   オープンで透明性の高いフィードベースのプラットフォームを通じて、部門連係ワークフローを改善します
-
--   リーダーとより広範な従業員ベースの間の双方向の会話により、幹部従業員のエンゲージメントを促進します
-
--   第一線の労働力を鼓舞して、知識と専門性を共有、享受します
-
-![Skype for Business アイコン。](media/Overview_of_Microsoft_Teams_image4.png)
-
--   お客様/パートナーとの内部および外部向けのリアルタイムの通信、コラボレーションに利用されます。
-
--   オーディオ、ビデオ、および大小のチーム (最大 10,000 人の参加者を収容する市役所など) を含むコンテンツを伴う会議を提供します。
-
--   法人向けのテレフォニー機能を提供します。
-
-
-![Microsoft SharePoint アイコン。](media/Overview_of_Microsoft_Teams_image5.png)
-
--   サイトおよびポータル (会社ニュースとお知らせ、検索、およびドキュメントのコラボレーションなど) で利用されます。
-
--   Microsoft Flow と PowerApps を統合することで、ドキュメント ライブラリと情報のリストに対してビジネス プロセスの自動化を実装します。
-
--   ファイルの保存、チームのニュース、ページ、リストなどに関して、すべての Microsoft Team に対して自動的にプロビジョニングされる強力な SharePoint チームサイト。
-
--   [Teams との SharePoint Online と OneDrive for Business の連携](SharePoint-OneDrive-interact.md)をご覧ください。
-
-## <a name="teams-known-issuesknown-issuesmd"></a>[Teams の既知の問題](Known-issues.md)
-
-## <a name="teams-client-release-noteshttpssupportofficecomarticlerelease-notes-for-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de"></a>[Teams クライアントのリリース ノート](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
-
+[マイクロソフト チームの新機能としては何](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)を参照してください。
 

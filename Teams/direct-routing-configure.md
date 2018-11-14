@@ -15,14 +15,17 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Microsoft 電話システム直接ルーティングを構成する方法について説明します。
-ms.openlocfilehash: 7e587c92e979c7985ccbd9f05bbb5ae1115d176a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 994d9d25c41f5f403873a0069564f675e0020d61
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374651"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26510669"
 ---
 # <a name="configure-direct-routing"></a>直接ルーティングを構成します。
+
+> [!Tip]
+> ルーティング、それを計画する方法と展開方法は、直接の利点について説明するのには次のセッションを監視する:[マイクロソフトのチームに直接ルーティング](https://aka.ms/teams-direct-routing)
 
 されていない場合は、前提条件の[直接ルーティングの計画](direct-routing-plan.md)が読み込まれ、他の手順を確認する必要があります、Microsoft の電話システムのネットワークを構成する前にします。 
 
@@ -101,12 +104,12 @@ Enabled               : True
  
 *新規 CsOnlinePstnGateway*のパラメーターを設定するのに使用できる追加のパラメーターを次の表に一覧します。 
 
-|必須。|名前|説明|既定|可能な値|種類と制限|
+|必須。|名前|説明|Default|可能な値|種類と制限|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |あり|FQDN|SBC の FQDN 名 |なし|NoneFQDN 名、制限は 63 文字|文字列、[コンピューター、ドメイン、サイト、および Ou の Active Directory の名前付け規則](https://support.microsoft.com/help/909264)で許可の文字の一覧|
 |なし|MediaBypass |将来使用するために予約されているパラメーターです。 SBC の示されているパラメーターには、メディア バイ パスがサポートされていて、管理者がそれを使用します。|なし|True<br/>False|ブール型|
 |あり|SipSignallingPort |トランスポート層セキュリティ (TLS) プロトコルを使用して直接ルーティング サービスと通信するために使用するポートをリッスンします。|なし|任意のポート|0 から 65535 まで |
-|なし|FailoverTimeSeconds |10 (既定値) に設定すると、10 秒以内に、ゲートウェイが応答しない送信の呼び出しにルーティングされる次の使用可能なトランクです。トランクを追加することはありません、し、呼び出しは自動的に削除します。 低速のネットワークとゲートウェイの応答を持つ組織内を可能性があります可能性のある呼び出しが不必要に削除されています。 既定値は 10 です。|10|数値|Int|
+|なし|FailoverTimeSeconds |10 (既定値) に設定すると、10 秒以内に、ゲートウェイが応答しない送信の呼び出しにルーティングされる次の使用可能なトランクです。トランクを追加することはありません、し、呼び出しは自動的に削除します。 低速のネットワークとゲートウェイの応答を持つ組織内を可能性があります可能性のある呼び出しが不必要に削除されています。 既定値は 10 です。| 10|数値|Int|
 |なし|ForwardCallHistory |通話履歴の情報をトランク経由で転送するかどうかを指定します。 Office 365 の PSTN のプロキシに 2 つのヘッダーが送信が有効な場合: 履歴情報と Referred で。 既定値は**False** ($False) です。 |False|True<br/>False|ブール型|
 |なし|ForwardPAI|P-Asserted-Identity (PAI) ヘッダーを通話とともに転送するかどうかを示します。 PAI ヘッダーがあれば、発信者 ID を確認できます。 既定値は**False** ($False) です。|False|True<br/>False|ブール型|
 |なし|SendSIPOptions |SBC または SIP オプションを送信しない場合を定義します。 無効にした場合、SBC は、監視と警告のシステムから除外されます。 SIP オプションを有効にすることを強くお勧めします。 既定値は**True**です。 |True|True<br/>False|ブール型|

@@ -1,7 +1,7 @@
 ---
 title: Skype Room System バージョン 2 を展開する
-ms.author: jambirk
-author: jambirk
+ms.author: Turgayo
+author: Turgayo
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom
@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Skype ルーム システム v2 の展開方法については、この資料を参照してください。
-ms.openlocfilehash: dac4929338ded6fdb3b7af1dadfb3b1ce5675b97
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 39704e044d5a5210d47a0347790f5602a3086270
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699631"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26510646"
 ---
 # <a name="deployment-overview"></a>展開の概要
 
@@ -128,7 +128,7 @@ Skype ルーム システム v2 の各デバイスには、ビジネスと Excha
 
 **Pro ヒント**: 表示名がこれらのアカウントのわかりやすい名前とわかりやすい。 これらは、ユーザーの検索と、会議に Skype ルーム システム v2 のシステムを追加するときに表示される名前です。 組織によっては、*サイト*の規約を使用して-*ルーム名*(*最大収容能力*) の RS、たとえば Curie-ロンドンの 12 人の会議室-ため CURIE (12) RS の表示名があります。 
 
-組織は、複数を必要とする多くの会議室には、プロビジョニングされたアカウントは、場合、自動的に複数のサービス アカウントを一括提供する[Skype ルーム システム アカウント プロビジョニング スクリプト](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5)を使用します。 
+<!-- If your organization has many conference rooms that require multiple, provisioned accounts, you might want to use [Skype Room Systems Accounts Provisioning Scripts](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) to bulk-provision multiple service accounts in an automated fashion. -->
 
 
 |    |     |
