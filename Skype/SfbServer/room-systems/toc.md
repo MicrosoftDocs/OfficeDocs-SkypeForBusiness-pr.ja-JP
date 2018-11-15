@@ -5,14 +5,14 @@
 ### [リリース ノート](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
 ### [環境を準備します。](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
 ### [要件](../plan-your-deployment/clients-and-devices/requirements.md)
-### [オンライン ライセンス](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+### [オンライン ライセンス](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 ### [OMS を使用して管理を計画します。](../plan-your-deployment/clients-and-devices/oms-management.md)
 
 ## の展開
 ### [展開の概要](../deploy/deploy-clients/room-systems-v2.md)
 ### [アカウントを構成します。](../deploy/deploy-clients/room-systems-v2-configure-accounts.md)
 ### [Office 365 を使用](../deploy/deploy-clients/with-office-365.md)
-### [ビジネス サーバー 2015 の Skype で](../deploy/deploy-clients/with-skype-for-business-server-2015.md)
+### [Skype ビジネス サーバーの使用](../deploy/deploy-clients/with-skype-for-business-server-2015.md)
 ### [Exchange オンライン (ハイブリッド) で](../deploy/deploy-clients/with-exchange-online.md)
 ### [設置型 (ハイブリッド) の交換を](../deploy/deploy-clients/with-exchange-on-premises.md)
 ### [コンソールを構成します。](../deploy/deploy-clients/console.md)

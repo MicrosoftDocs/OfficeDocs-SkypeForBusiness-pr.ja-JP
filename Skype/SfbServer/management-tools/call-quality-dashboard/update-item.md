@@ -3,42 +3,41 @@ title: アイテムを更新します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 6/8/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c15c56-cdae-4f3e-838a-52f0940cf729
-description: '概要: は、項目のサービスの一部は、更新プログラムの項目の操作について説明します。 項目のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。'
-ms.openlocfilehash: 0616f41a3ae680412bdc435716d805af77e72f3a
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: '概要: は、項目のサービスの一部は、更新プログラムの項目の操作について説明します。 項目のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
+ms.openlocfilehash: 5839118dc6e907696d4ce3e9adfbc58504808fac
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295267"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532226"
 ---
-# <a name="update-item"></a><span data-ttu-id="305e1-105">アイテムを更新します。</span><span class="sxs-lookup"><span data-stu-id="305e1-105">Update Item</span></span>
+# <a name="update-item"></a><span data-ttu-id="91a64-105">アイテムを更新します。</span><span class="sxs-lookup"><span data-stu-id="91a64-105">Update Item</span></span>
  
-<span data-ttu-id="305e1-106">**の概要:** 品目サービスの一部は、更新プログラムの項目の操作について説明します。</span><span class="sxs-lookup"><span data-stu-id="305e1-106">**Summary:** Learn about the Update Item operation, which is part of the Item Service.</span></span> <span data-ttu-id="305e1-107">項目のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。</span><span class="sxs-lookup"><span data-stu-id="305e1-107">The Item Service is part of the Repository API for Call Quality Dashboard.</span></span> <span data-ttu-id="305e1-108">通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。</span><span class="sxs-lookup"><span data-stu-id="305e1-108">Call Quality Dashboard is a tool for Skype for Business Server 2015.</span></span>
+<span data-ttu-id="91a64-106">**の概要:** 品目サービスの一部は、更新プログラムの項目の操作について説明します。</span><span class="sxs-lookup"><span data-stu-id="91a64-106">**Summary:** Learn about the Update Item operation, which is part of the Item Service.</span></span> <span data-ttu-id="91a64-107">項目のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。</span><span class="sxs-lookup"><span data-stu-id="91a64-107">The Item Service is part of the Repository API for Call Quality Dashboard.</span></span> <span data-ttu-id="91a64-108">通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。</span><span class="sxs-lookup"><span data-stu-id="91a64-108">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
   
-<span data-ttu-id="305e1-109">更新項目の操作は、リポジトリ api の呼び出し品質のダッシュ ボードの項目のサービスの一部です。</span><span class="sxs-lookup"><span data-stu-id="305e1-109">The Update Item operation is part of the Item Service in the Repository API for Call Quality Dashboard.</span></span>
+<span data-ttu-id="91a64-109">更新項目の操作は、リポジトリ api の呼び出し品質のダッシュ ボードの項目のサービスの一部です。</span><span class="sxs-lookup"><span data-stu-id="91a64-109">The Update Item operation is part of the Item Service in the Repository API for Call Quality Dashboard.</span></span>
   
-## <a name="update-item"></a><span data-ttu-id="305e1-110">アイテムを更新します。</span><span class="sxs-lookup"><span data-stu-id="305e1-110">Update Item</span></span>
+## <a name="update-item"></a><span data-ttu-id="91a64-110">アイテムを更新します。</span><span class="sxs-lookup"><span data-stu-id="91a64-110">Update Item</span></span>
 
-<span data-ttu-id="305e1-111">更新プログラムの項目では、リポジトリ内の特定のアイテムを更新します。</span><span class="sxs-lookup"><span data-stu-id="305e1-111">Update Item updates a specific item in the repository.</span></span>
+<span data-ttu-id="91a64-111">更新プログラムの項目では、リポジトリ内の特定のアイテムを更新します。</span><span class="sxs-lookup"><span data-stu-id="91a64-111">Update Item updates a specific item in the repository.</span></span>
   
 
-|<span data-ttu-id="305e1-112">**メソッド**</span><span class="sxs-lookup"><span data-stu-id="305e1-112">**Method**</span></span>|<span data-ttu-id="305e1-113">**URI を要求します。**</span><span class="sxs-lookup"><span data-stu-id="305e1-113">**Request URI**</span></span>|<span data-ttu-id="305e1-114">**HTTP のバージョン**</span><span class="sxs-lookup"><span data-stu-id="305e1-114">**HTTP Version**</span></span>|
+|<span data-ttu-id="91a64-112">**メソッド**</span><span class="sxs-lookup"><span data-stu-id="91a64-112">**Method**</span></span>|<span data-ttu-id="91a64-113">**URI を要求します。**</span><span class="sxs-lookup"><span data-stu-id="91a64-113">**Request URI**</span></span>|<span data-ttu-id="91a64-114">**HTTP のバージョン**</span><span class="sxs-lookup"><span data-stu-id="91a64-114">**HTTP Version**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="305e1-115">配置</span><span class="sxs-lookup"><span data-stu-id="305e1-115">PUT</span></span>  <br/> |<span data-ttu-id="305e1-116">https://\<ポータル\>/QoERepositoryService/リポジトリ/アイテム/{アイテム Id}</span><span class="sxs-lookup"><span data-stu-id="305e1-116">https://\<portal\>/QoERepositoryService/repository/item/{itemId}</span></span>  <br/> |<span data-ttu-id="305e1-117">HTTP 1.1/</span><span class="sxs-lookup"><span data-stu-id="305e1-117">HTTP/1.1</span></span>  <br/> |
+|<span data-ttu-id="91a64-115">配置</span><span class="sxs-lookup"><span data-stu-id="91a64-115">PUT</span></span>  <br/> |<span data-ttu-id="91a64-116">https://\<ポータル\>/QoERepositoryService/リポジトリ/アイテム/{アイテム Id}</span><span class="sxs-lookup"><span data-stu-id="91a64-116">https://\<portal\>/QoERepositoryService/repository/item/{itemId}</span></span>  <br/> |<span data-ttu-id="91a64-117">HTTP 1.1/</span><span class="sxs-lookup"><span data-stu-id="91a64-117">HTTP/1.1</span></span>  <br/> |
    
- <span data-ttu-id="305e1-118">**URI パラメーター**を [なし] です。</span><span class="sxs-lookup"><span data-stu-id="305e1-118">**URI Parameters** - None.</span></span>
+ <span data-ttu-id="91a64-118">**URI パラメーター**を [なし] です。</span><span class="sxs-lookup"><span data-stu-id="91a64-118">**URI Parameters** - None.</span></span>
   
- <span data-ttu-id="305e1-119">**要求ヘッダー**のコンテンツ ・ タイプ: アプリケーションまたは json。</span><span class="sxs-lookup"><span data-stu-id="305e1-119">**Request Headers** -Content-Type: application/json.</span></span>
+ <span data-ttu-id="91a64-119">**要求ヘッダー**のコンテンツ ・ タイプ: アプリケーションまたは json。</span><span class="sxs-lookup"><span data-stu-id="91a64-119">**Request Headers** -Content-Type: application/json.</span></span>
   
- <span data-ttu-id="305e1-120">**リクエストの本文**に JSON。</span><span class="sxs-lookup"><span data-stu-id="305e1-120">**Request Body** - JSON.</span></span>
+ <span data-ttu-id="91a64-120">**リクエストの本文**に JSON。</span><span class="sxs-lookup"><span data-stu-id="91a64-120">**Request Body** - JSON.</span></span>
   
-<span data-ttu-id="305e1-121">要求ペイロードをサンプルします。</span><span class="sxs-lookup"><span data-stu-id="305e1-121">Sample request payload:</span></span>
+<span data-ttu-id="91a64-121">要求ペイロードをサンプルします。</span><span class="sxs-lookup"><span data-stu-id="91a64-121">Sample request payload:</span></span>
   
 ```
 {
@@ -47,17 +46,17 @@ ms.locfileid: "26295267"
 }
 ```
 
- <span data-ttu-id="305e1-122">*コンテンツ* JSON では、既存のサブ項目の新しいコンテンツとして格納するデータが書式設定されます。</span><span class="sxs-lookup"><span data-stu-id="305e1-122">*content*  JSON formatted data to be stored as the new content of an existing sub-Item.</span></span> <span data-ttu-id="305e1-123">技術的には、リポジトリは、任意のスキーマのすべてのコンテンツを格納できますが、使用すると、品質のダッシュ ボードを呼び出すことがレポートまたはクエリのいずれかです。</span><span class="sxs-lookup"><span data-stu-id="305e1-123">Technically, a repository can store any content of any schema, but when used for Call Quality Dashboard, it should be either a report or a query.</span></span> <span data-ttu-id="305e1-124">*タイプ* 品質のダッシュ ボードを呼び出すため、「アプリケーションと json」を必ず指定します。</span><span class="sxs-lookup"><span data-stu-id="305e1-124">*type*  Always specify "application/json" for Call Quality Dashboard.</span></span>
+ <span data-ttu-id="91a64-122">*コンテンツ* JSON では、既存のサブ項目の新しいコンテンツとして格納するデータが書式設定されます。</span><span class="sxs-lookup"><span data-stu-id="91a64-122">*content*  JSON formatted data to be stored as the new content of an existing sub-Item.</span></span> <span data-ttu-id="91a64-123">技術的には、リポジトリは、任意のスキーマのすべてのコンテンツを格納できますが、使用すると、品質のダッシュ ボードを呼び出すことがレポートまたはクエリのいずれかです。</span><span class="sxs-lookup"><span data-stu-id="91a64-123">Technically, a repository can store any content of any schema, but when used for Call Quality Dashboard, it should be either a report or a query.</span></span> <span data-ttu-id="91a64-124">*タイプ* 品質のダッシュ ボードを呼び出すため、「アプリケーションと json」を必ず指定します。</span><span class="sxs-lookup"><span data-stu-id="91a64-124">*type*  Always specify "application/json" for Call Quality Dashboard.</span></span>
   
- <span data-ttu-id="305e1-125">**応答**- 応答には、HTTP ステータス コード、応答ヘッダーのセットが含まれています。</span><span class="sxs-lookup"><span data-stu-id="305e1-125">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
+ <span data-ttu-id="91a64-125">**応答**- 応答には、HTTP ステータス コード、応答ヘッダーのセットが含まれています。</span><span class="sxs-lookup"><span data-stu-id="91a64-125">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
   
- <span data-ttu-id="305e1-126">**ステータス コード**が正常終了した操作では、ステータス コード 204 (コンテンツなし) を返します。</span><span class="sxs-lookup"><span data-stu-id="305e1-126">**Status Code** - A successful operation returns status code 204 (No Content).</span></span> <span data-ttu-id="305e1-127">指定した項目の ID が見つからない場合は、ステータス コード 404 (見つかりません) を返します。</span><span class="sxs-lookup"><span data-stu-id="305e1-127">If a specified item ID is not found, it returns status code 404 (Not Found).</span></span>
+ <span data-ttu-id="91a64-126">**ステータス コード**が正常終了した操作では、ステータス コード 204 (コンテンツなし) を返します。</span><span class="sxs-lookup"><span data-stu-id="91a64-126">**Status Code** - A successful operation returns status code 204 (No Content).</span></span> <span data-ttu-id="91a64-127">指定した項目の ID が見つからない場合は、ステータス コード 404 (見つかりません) を返します。</span><span class="sxs-lookup"><span data-stu-id="91a64-127">If a specified item ID is not found, it returns status code 404 (Not Found).</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="305e1-128">「コンテンツなし」は、エラー状態ではありません。</span><span class="sxs-lookup"><span data-stu-id="305e1-128">"No Content" is not an error status.</span></span> <span data-ttu-id="305e1-129">ある応答何も返しませんでした (これに対して、本文に 200 OK を返します。 コンテンツ) の本文を意味します。</span><span class="sxs-lookup"><span data-stu-id="305e1-129">It means that a response did not return anything in the body (in contrast, 200 OK returns content in Body).</span></span> <span data-ttu-id="305e1-130">アイテムが正常に更新されたことを示します。</span><span class="sxs-lookup"><span data-stu-id="305e1-130">It indicates that the Item was successfully updated.</span></span> 
+> <span data-ttu-id="91a64-128">「コンテンツなし」は、エラー状態ではありません。</span><span class="sxs-lookup"><span data-stu-id="91a64-128">"No Content" is not an error status.</span></span> <span data-ttu-id="91a64-129">ある応答何も返しませんでした (これに対して、本文に 200 OK を返します。 コンテンツ) の本文を意味します。</span><span class="sxs-lookup"><span data-stu-id="91a64-129">It means that a response did not return anything in the body (in contrast, 200 OK returns content in Body).</span></span> <span data-ttu-id="91a64-130">アイテムが正常に更新されたことを示します。</span><span class="sxs-lookup"><span data-stu-id="91a64-130">It indicates that the Item was successfully updated.</span></span> 
   
- <span data-ttu-id="305e1-131">**応答ヘッダー**の [なし] です。</span><span class="sxs-lookup"><span data-stu-id="305e1-131">**Response Headers** - None.</span></span>
+ <span data-ttu-id="91a64-131">**応答ヘッダー**の [なし] です。</span><span class="sxs-lookup"><span data-stu-id="91a64-131">**Response Headers** - None.</span></span>
   
- <span data-ttu-id="305e1-132">**応答本体**がないです。</span><span class="sxs-lookup"><span data-stu-id="305e1-132">**Response Body** - None.</span></span>
+ <span data-ttu-id="91a64-132">**応答本体**がないです。</span><span class="sxs-lookup"><span data-stu-id="91a64-132">**Response Body** - None.</span></span>
   
 

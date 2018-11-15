@@ -10,76 +10,77 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: '概要: は、オンライン ビジネスの設置型展開と Skype との間の相互運用性を構成する方法について説明します。'
-ms.openlocfilehash: fb04ecd53c93ae7bd64fca760b752d2d69324c3d
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: db03636d412caa72a3b7a38d0c1d691c83d96a5b
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295356"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532778"
 ---
-# <a name="configure-skype-for-business-hybrid"></a><span data-ttu-id="55937-103">Skype をビジネスのハイブリッドを構成します。</span><span class="sxs-lookup"><span data-stu-id="55937-103">Configure Skype for Business hybrid</span></span>
+# <a name="configure-skype-for-business-hybrid"></a><span data-ttu-id="0292b-103">Skype をビジネスのハイブリッドを構成します。</span><span class="sxs-lookup"><span data-stu-id="0292b-103">Configure Skype for Business hybrid</span></span>
 
-<span data-ttu-id="55937-104">ビジネスのハイブリッド用には、Skype を構成するにする必要があります。</span><span class="sxs-lookup"><span data-stu-id="55937-104">To configure Skype for Business hybrid, you need to:</span></span>
+<span data-ttu-id="0292b-104">ビジネスのハイブリッド用には、Skype を構成するにする必要があります。</span><span class="sxs-lookup"><span data-stu-id="0292b-104">To configure Skype for Business hybrid, you need to:</span></span>
 
-- [<span data-ttu-id="55937-105">フェデレーションを構成します。</span><span class="sxs-lookup"><span data-stu-id="55937-105">Configure federation</span></span>](#configure-your-on-premises-edge-service-for-federation-with-skype-for-business-online)
-- [<span data-ttu-id="55937-106">共有セッション開始プロトコル (SIP) のアドレス スペースを構成します。</span><span class="sxs-lookup"><span data-stu-id="55937-106">Configure a shared Session Initiation Protocol (SIP) address space</span></span>](#configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space)
-- [<span data-ttu-id="55937-107">必要な場合は、サーバーからサーバーへの認証を構成します。</span><span class="sxs-lookup"><span data-stu-id="55937-107">Configure server-to-server authentication if required</span></span>](#configure-server-to-server-authentication-if-required)
+- [<span data-ttu-id="0292b-105">Office 365 とフェデレーションを行う、オンプレミスの環境を構成します。</span><span class="sxs-lookup"><span data-stu-id="0292b-105">Configure your on-premises environment to federate with Office 365.</span></span>](#configure-your-on-premises-edge-service-to-federate-with-Office-365)
+- [<span data-ttu-id="0292b-106">オンプレミス環境に Office 365 を信頼するを構成し、Office 365 との共有 SIP アドレス スペースを有効にします。</span><span class="sxs-lookup"><span data-stu-id="0292b-106">Configure your on-premises environment to trust Office 365 and enable shared SIP address space with Office 365.</span></span>](#configure-your-on-premises-environment-to-share-your-SIP-address-space-with-Office-365)
+- [<span data-ttu-id="0292b-107">Office 365 テナント内の共有 SIP アドレス スペースを有効にします。</span><span class="sxs-lookup"><span data-stu-id="0292b-107">Enable shared SIP address space in your Office 365 tenant.</span></span>](#configure-server-to-server-authentication-if-required)
+
+> [!NOTE]
+> <span data-ttu-id="0292b-108">Exchange 設置がある場合は、する可能性がある場合は、オンライン ビジネス環境の Exchange の設置型と Skype の OAuth を構成するのには。</span><span class="sxs-lookup"><span data-stu-id="0292b-108">If you have Exchange on-premises, then you may want to configure OAuth between your Exchange on-premises and Skype for Business Online environments.</span></span> <span data-ttu-id="0292b-109">詳細については、 [Skype のビジネス サーバーの管理サーバーからサーバーへの認証](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications)と[ビジネスとの交換用 Skype を統合する計画](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="0292b-109">For more information, see  [Manage server-to-server authentication in Skype for Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) and [Plan to integrate Skype for Business and Exchange](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support).</span></span> 
   
-## <a name="configure-your-on-premises-edge-service-for-federation-with-skype-for-business-online"></a><span data-ttu-id="55937-108">ビジネス オンラインの Skype で、設置型のエッジ サービスのフェデレーションを構成します。</span><span class="sxs-lookup"><span data-stu-id="55937-108">Configure your on-premises Edge service for federation with Skype for Business Online</span></span>
+## <a name="configure-your-on-premises-edge-service-to-federate-with-office-365"></a><span data-ttu-id="0292b-110">Office 365 とフェデレーションを行うには、設置端サービスを構成します。</span><span class="sxs-lookup"><span data-stu-id="0292b-110">Configure your on-premises Edge service to federate with Office 365</span></span>
 
-<span data-ttu-id="55937-109">フェデレーションにより、組織で Office 365 のユーザーと通信する設置型展開でユーザーです。</span><span class="sxs-lookup"><span data-stu-id="55937-109">Federation allows users in your on-premises deployment to communicate with Office 365 users in your organization.</span></span> <span data-ttu-id="55937-110">フェデレーションを構成するには、ビジネス サーバー管理シェルの Skype で次のコマンドレットを実行します。</span><span class="sxs-lookup"><span data-stu-id="55937-110">To configure federation, run the following cmdlets in the Skype for Business Server Management Shell:</span></span>
+<span data-ttu-id="0292b-111">フェデレーションにより、組織で Office 365 のユーザーと通信する設置型展開でユーザーです。</span><span class="sxs-lookup"><span data-stu-id="0292b-111">Federation allows users in your on-premises deployment to communicate with Office 365 users in your organization.</span></span> <span data-ttu-id="0292b-112">フェデレーションを構成するには、ビジネス サーバー管理シェルの Skype で次のコマンドレットを実行します。</span><span class="sxs-lookup"><span data-stu-id="0292b-112">To configure federation, run the following cmdlet in the Skype for Business Server Management Shell:</span></span>
   
 ```
 Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -EnablePartnerDiscovery 1 -UseDnsSrvRouting
 ```
 
+
+
+## <a name="configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-office-365"></a><span data-ttu-id="0292b-113">Office 365 の共有 SIP アドレス スペースを有効にするのには、オンプレミス環境を構成します。</span><span class="sxs-lookup"><span data-stu-id="0292b-113">Configure your on-premises environment to enable shared SIP address space with Office 365</span></span>
+
+<span data-ttu-id="0292b-114">Office 365 の信頼、オンプレミス環境を構成しと Office 365 の共有 SIP アドレス スペースを有効にする必要がありますもします。</span><span class="sxs-lookup"><span data-stu-id="0292b-114">You must also configure your on-premises environment to trust Office 365 and enable shared SIP address space with Office 365.</span></span> <span data-ttu-id="0292b-115">つまり、Office 365 では、オンプレミス環境では、SIP ドメインの同じセットのユーザー アカウントをホストできる可能性のある施設内でホストされているユーザー間でルーティングとオンラインをメッセージとして使用することができます。</span><span class="sxs-lookup"><span data-stu-id="0292b-115">This means Office 365 can potentially host user accounts for the same set of SIP domains as your on-premises environment, and messages can be routed between users hosted on premises and online.</span></span>  <span data-ttu-id="0292b-116">ProxyFqdn=sipfed.online.lync.com 以下に示すように、ホスティング プロバイダーを構成することによってこれを行います。</span><span class="sxs-lookup"><span data-stu-id="0292b-116">You do this by configuring a hosting provider with ProxyFqdn=sipfed.online.lync.com as described below.</span></span>
+
+<span data-ttu-id="0292b-117">最初に、ProxyFqdn=sipfed.online.lync.com のホスティング プロバイダーが既にあるかどうかを確認してください。</span><span class="sxs-lookup"><span data-stu-id="0292b-117">First, check if you already have a hosting provider with ProxyFqdn=sipfed.online.lync.com.</span></span> <span data-ttu-id="0292b-118">1 つ存在する場合、次のコマンドを使用して削除します。</span><span class="sxs-lookup"><span data-stu-id="0292b-118">If one exists, then remove it by using the following command:</span></span>
+
 ```
-New-CSHostingProvider -Identity SkypeforBusinessOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+Get-CsHostingProvider | ?{ $_.ProxyFqdn -eq "sipfed.online.lync.com" } | Remove-CsHostingProvider
 ```
 
-## <a name="configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space"></a><span data-ttu-id="55937-111">共有 SIP アドレス スペースのオンライン ビジネスのテナントは、Skype を構成します。</span><span class="sxs-lookup"><span data-stu-id="55937-111">Configure your Skype for Business Online tenant for a shared SIP address space</span></span>
+<span data-ttu-id="0292b-119">新しいホスティング プロバイダーを作成し、新規 CsHostingProvider コマンドレットを使用して、次のようにします。</span><span class="sxs-lookup"><span data-stu-id="0292b-119">Then create a new hosting provider, use the New-CsHostingProvider cmdlet as follows:</span></span> 
 
-<span data-ttu-id="55937-112">セッション開始プロトコル (SIP) アドレスは、電話番号や電子メール アドレスに似た、ネットワーク上の各ユーザーの一意の識別子です。</span><span class="sxs-lookup"><span data-stu-id="55937-112">A Session Initiation Protocol (SIP) address is a unique identifier for each user on a network, similar to a phone number or an email address.</span></span> <span data-ttu-id="55937-113">オンライン ビジネスのユーザーを設置から Skype に移動しようとすると、前に、社内設置型展開と共有のセッション開始プロトコル (SIP) アドレス空間を共有するのには、Office 365 のテナントを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="55937-113">Before you try to move users from on-premises to Skype for Business Online, you'll need to configure your Office 365 tenant to share the Shared Session Initiation Protocol (SIP) address space with your on-premises deployment.</span></span> <span data-ttu-id="55937-114">これが構成されていないと、次のエラー メッセージが表示されることがあります。</span><span class="sxs-lookup"><span data-stu-id="55937-114">If this is not configured, you may see the following error message:</span></span>
+```
+New-CsHostingProvider -Identity Office365 -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root 
+```
+
+ ## <a name="enable-shared-sip-address-space-in-your-office-365-tenant"></a><span data-ttu-id="0292b-120">Office 365 テナント内の共有 SIP アドレス スペースを有効にします。</span><span class="sxs-lookup"><span data-stu-id="0292b-120">Enable shared SIP address space in your Office 365 tenant</span></span>
   
-<span data-ttu-id="55937-115">移動-CsUser: HostedMigration フォールト: Error=(510)、説明 = (このユーザーのテナントが対応でない共有 sip アドレス スペースです)。</span><span class="sxs-lookup"><span data-stu-id="55937-115">Move-CsUser : HostedMigration fault: Error=(510), Description=(This user's tenant is not enabled for shared sip address space.)</span></span>
-  
-<span data-ttu-id="55937-116">共有 SIP アドレス スペースを構成するには、ビジネス オンラインでは、Skype でのリモート PowerShell セッションを確立し、次のコマンドレットを実行し。</span><span class="sxs-lookup"><span data-stu-id="55937-116">To configure a shared SIP address space, establish a remote PowerShell session with Skype for Business Online, and then run the following cmdlet:</span></span>
+<span data-ttu-id="0292b-121">、設置型展開で行った変更に加え、社内設置型展開と共有 SIP アドレス スペースを有効にする、Office 365 テナントに対応する変更を行う必要があります。</span><span class="sxs-lookup"><span data-stu-id="0292b-121">In addition to the change you made in your on-premises deployment, you'll need to make the corresponding change in your Office 365 tenant to enabled shared SIP address space with your on-premises deployment.</span></span>  
+
+<span data-ttu-id="0292b-122">Office 365 テナント内の共有 SIP アドレス スペースを有効にするには、ビジネス オンラインでは、Skype でのリモート PowerShell セッションを確立し、次のコマンドレットを実行します。</span><span class="sxs-lookup"><span data-stu-id="0292b-122">To enable shared SIP address space in your Office 365 tenant, establish a remote PowerShell session with Skype for Business Online, and then run the following cmdlet:</span></span>
   
 ```
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 ```
 
 > [!NOTE]
-> <span data-ttu-id="55937-117">SharedSipAddressSpace 属性は、オンラインへの移行が終わり、オンプレミス状態のユーザーがいなくなるまで「True」のままにする必要があります。</span><span class="sxs-lookup"><span data-stu-id="55937-117">The SharedSipAddressSpace attribute needs to remain "True" until moving to online is final, and no users remain on-premises.</span></span> 
+> <span data-ttu-id="0292b-123">SharedSipAddressSpace 属性は、オンラインへの移行が終わり、オンプレミス状態のユーザーがいなくなるまで「True」のままにする必要があります。</span><span class="sxs-lookup"><span data-stu-id="0292b-123">The SharedSipAddressSpace attribute needs to remain "True" until moving to online is final, and no users remain on-premises.</span></span> 
   
-<span data-ttu-id="55937-118">ビジネス オンラインの Skype でのリモート PowerShell セッションを確立するためにまず取得することができる Windows PowerShell のオンライン ビジネスのコネクタ モジュールの Skype をインストールするのには[ここ](https://go.microsoft.com/fwlink/p/?LinkId=391911)です。</span><span class="sxs-lookup"><span data-stu-id="55937-118">To establish a remote PowerShell session with Skype for Business Online, you first need to install the Skype for Business Online connector module for Windows PowerShell, which you can get [here](https://go.microsoft.com/fwlink/p/?LinkId=391911).</span></span>
+<span data-ttu-id="0292b-124">ビジネス オンラインのチームと Skype、リモート PowerShell セッションを確立するためにまず取得することができる Windows PowerShell のオンライン ビジネスのコネクタ モジュールの Skype をインストールするのには[ここ](https://go.microsoft.com/fwlink/p/?LinkId=391911)です。</span><span class="sxs-lookup"><span data-stu-id="0292b-124">To establish a remote PowerShell session with Teams or Skype for Business Online, you first need to install the Skype for Business Online connector module for Windows PowerShell, which you can get [here](https://go.microsoft.com/fwlink/p/?LinkId=391911).</span></span>
   
-<span data-ttu-id="55937-119">そのモジュールをインストールしたら、次のコマンドレットによってリモート セッションを確立します。</span><span class="sxs-lookup"><span data-stu-id="55937-119">After you install the module, you can establish a remote session with the following cmdlets:</span></span>
+<span data-ttu-id="0292b-125">そのモジュールをインストールしたら、次のコマンドレットによってリモート セッションを確立します。</span><span class="sxs-lookup"><span data-stu-id="0292b-125">After you install the module, you can establish a remote session with the following cmdlets:</span></span>
   
-```
-Import-Module SkypeOnlineConnector
-```
-
 ```
 $cred = Get-Credential
+Import-PSSession (New-CsOnlineSession -Credential $cred) -AllowClobber
 ```
 
-```
-$CSSession = New-CsOnlineSession -Credential $cred
-```
-
-```
-Import-PSSession $CSSession -AllowClobber
-```
-
-<span data-ttu-id="55937-120">ビジネス online では、Skype でのリモート PowerShell セッションを確立する方法と、Skype のビジネス オンライン コネクタ モジュールの使用方法に関する詳細については、 [Windows PowerShell には、コンピューターの設定](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="55937-120">For more information about how to establish a remote PowerShell session with Skype for Business Online, and how to use the Skype for Business Online Connector module, see [Set up your computer for Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
+<span data-ttu-id="0292b-126">ビジネス online では、Skype でのリモート PowerShell セッションを確立する方法と、Skype のビジネス オンライン コネクタ モジュールの使用方法に関する詳細については、 [Windows PowerShell には、コンピューターの設定](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="0292b-126">For more information about how to establish a remote PowerShell session with Skype for Business Online, and how to use the Skype for Business Online Connector module, see [Set up your computer for Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
   
-## <a name="configure-server-to-server-authentication-if-required"></a><span data-ttu-id="55937-121">必要な場合は、サーバーからサーバーへの認証を構成します。</span><span class="sxs-lookup"><span data-stu-id="55937-121">Configure server-to-server authentication if required</span></span>
-
-<span data-ttu-id="55937-122">、ハイブリッド環境を構成しているの種類によっては、サーバーからサーバーへの認証を構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="55937-122">Depending on the type of hybrid environment you are configuring, you may need to configure server-to-server authentication.</span></span>  <span data-ttu-id="55937-123">詳細については、 [Skype のビジネス サーバーの管理サーバーからサーバーへの認証](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="55937-123">For more information, see  [Manage server-to-server authentication in Skype for Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications).</span></span>
 
 
-## <a name="see-also"></a><span data-ttu-id="55937-124">関連項目</span><span class="sxs-lookup"><span data-stu-id="55937-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0292b-127">関連項目</span><span class="sxs-lookup"><span data-stu-id="0292b-127">See also</span></span>
 
-[<span data-ttu-id="55937-125">新しい-CsHostingProvider</span><span class="sxs-lookup"><span data-stu-id="55937-125">New-CsHostingProvider</span></span>](https://docs.microsoft.com/powershell/module/skype/new-cshostingprovider?view=skype-ps)
+[<span data-ttu-id="0292b-128">新しい-CsHostingProvider</span><span class="sxs-lookup"><span data-stu-id="0292b-128">New-CsHostingProvider</span></span>](https://docs.microsoft.com/powershell/module/skype/new-cshostingprovider?view=skype-ps)
 
