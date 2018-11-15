@@ -9,20 +9,12 @@
 
 ## ハイブリッド ソリューション
 ### [ハイブリッド接続を計画します。](../hybrid/plan-hybrid-connectivity.md)
-### [Skype ビジネス サーバーと Exchange Server の移行の計画します。](../hybrid/plan-um-migration.md)
 ### [ハイブリッド接続を設定します。](../hybrid/configure-hybrid-connectivity.md)
+#### [ハイブリッド環境向けの Azure AD 接続を構成します。](../hybrid/configure-azure-ad-connect.md)
 #### [Skype をビジネスのハイブリッドを構成します。](../hybrid/configure-federation-with-skype-for-business-online.md)
-#### [音声会議プロバイダーのフェデレーションの設定](../hybrid/configure-federation-for-an-audio-conferencing-provider.md) 
-#### [サーバーからサーバーへの認証を構成します。](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md)
 #### [複数のフォレスト環境を構成します。](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
 ### [オンライン ビジネスのユーザーを設置から Skype に移動します。](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
 ### [移動ユーザーがチームを設置](../hybrid/move-users-from-on-premises-to-teams.md)
-### クラウドのボイスメール
-#### [クラウドのボイスメールを計画します。](../hybrid/plan-cloud-voicemail.md)
-#### [クラウドのボイス メールを構成します。](../hybrid/configure-cloud-voicemail.md)
-### 呼び出しデータ コネクタ
-#### [呼び出しデータ コネクタを計画します。](../hybrid/plan-call-data-connector.md)
-#### [呼び出しデータ コネクタを構成します。](../hybrid/configure-call-data-connector.md)
 
 ## 計画
 ### [トポロジの基本](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -63,7 +55,7 @@
 #### [ファイルの共有](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/file-sharing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [インスタント メッセージングとプレゼンス](../../SfbServer/plan-your-deployment/instant-messaging-and-presence.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [ビデオ相互運用サーバー](../../SfbServer/plan-your-deployment/video-interop-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-### [エンタープライズ VoIP ソリューション](../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+### [音声ソリューション](../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [エンタープライズ VoIP](../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [エンタープライズ VoIP に必要なコンポーネント](../../SfbServer/plan-your-deployment/enterprise-voice-solution/components-required-for-enterprise-voice.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ###### [仲介サーバー](../../SfbServer/plan-your-deployment/enterprise-voice-solution/mediation-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -109,10 +101,14 @@
 ##### [時間情報オプション](../../SfbServer/plan-your-deployment/enterprise-voice-solution/busy-options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [勤務先から通話](../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-via-work.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [リモート通話コントロール](../../SfbServer/plan-your-deployment/enterprise-voice-solution/remote-call-control.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+#### クラウドのボイスメール
+#####[クラウドのボイスメールを計画します。](../hybrid/plan-cloud-voicemail.md)
+##### [クラウドのボイス メールを構成します。](../hybrid/configure-cloud-voicemail.md)
 ### [Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [ユニファイド メッセージング](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-messaging.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [展開の概要](../../SfbServer/plan-your-deployment/integrate-with-exchange/deployment-overview.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [統合連絡先ストア](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-contact-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
+#### [Skype ビジネス サーバーと Exchange Server の移行の計画します。](../hybrid/plan-um-migration.md)
 ### [監視](../../SfbServer/plan-your-deployment/monitoring.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [アーカイブ](../../SfbServer/plan-your-deployment/archiving/archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [会議](../../SfbServer/plan-your-deployment/conferencing/conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -424,6 +420,9 @@
 ###### [メディア品質メトリック分布レポート](../../SfbServer/manage/health-and-monitoring/media-quality-metrics-distribution-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ###### [場所の傾向レポート](../../SfbServer/manage/health-and-monitoring/location-trend-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [通話の評価](../../SfbServer/manage/health-and-monitoring/rate-my-call.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+#### 呼び出しデータ コネクタ
+##### [呼び出しデータ コネクタを計画します。](../hybrid/plan-call-data-connector.md)
+##### [呼び出しデータ コネクタを構成します。](../hybrid/configure-call-data-connector.md)
 
 ### [アーカイブ](../../SfbServer/manage/archiving/archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [オプション](../../SfbServer/manage/archiving/options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -489,3 +488,22 @@
 ### [ユーザー アカウント](../../SfbServer/manage/user-accounts/user-accounts.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [プロパティをカスタマイズします。](../../SfbServer/manage/user-accounts/customize-properties.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [サービスを管理します。](../../SfbServer/manage/manage-services.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+## [管理ツール](../management-tools-2019.md)
+### [ビジネス サーバーの Skype の通話品質のダッシュ ボード](../../SfbServer/management-tools/call-quality-dashboard/call-quality-dashboard.md)
+#### [通話品質のダッシュ ボードの計画](../../SfbServer/management-tools/call-quality-dashboard/plan.md)
+#### [通話品質ダッシュボードの展開](../../SfbServer/management-tools/call-quality-dashboard/deploy-0.md)
+#### [通話品質ダッシュボード](../../SfbServer/management-tools/call-quality-dashboard/use.md)
+
+### [Skype ビジネス サーバーの統計マネージャー](../../SfbServer/management-tools/statistics-manager/statistics-manager.md)
+#### [Skype 統計マネージャーのビジネス サーバー計画します。](../../SfbServer/management-tools/statistics-manager/plan.md)
+#### [ビジネス サーバーの Skype の統計マネージャーを展開します。](../../SfbServer/management-tools/statistics-manager/deploy.md)
+#### [ビジネス サーバーの Skype の統計マネージャーをアップグレードします。](../../SfbServer/management-tools/statistics-manager/upgrade.md)
+#### [統計マネージャーは、Skype のビジネス サーバーのトラブルシューティングを行う](../../SfbServer/management-tools/statistics-manager/troubleshoot.md)
+
+### [SCOM Management pack を使用した Skype for Business Server の管理](../tools/scom-management-pack-use-2019.md)
+#### [プライマリ管理サーバーの構成](../tools/configure-the-primary-2019.md)
+#### [監視対象のコンピューターを構成します。](../tools/configure-computers-to-monitor-2019.md)
+#### [ウォッチャー ノード](../tools/watcher-nodes-2019.md)
+##### [テスト ユーザーと設定](../tools/test-users-and-settings-2019.md)
+
+### [Skype ビジネス サーバーの容量計画の計算について](../../SfbServer/management-tools/capacity-planning-calculator.md)
