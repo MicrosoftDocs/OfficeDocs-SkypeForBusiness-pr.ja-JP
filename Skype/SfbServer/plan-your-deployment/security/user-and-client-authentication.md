@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: 信頼されたユーザーは、Skype で信頼されたサーバーによってビジネスのサーバーの認証された資格情報を 1 つ。 このサーバーは、通常、Standard Edition サーバー、エンタープライズ版フロント エンド サーバーまたはディレクターです。 Skype ビジネス サーバーは、ユーザーの資格情報、信頼できる単一のバックエンド ・ リポジトリとして、Active Directory ドメイン サービスに依存します。
-ms.openlocfilehash: 9616774bf721863503c2ebd9145c6860f7068ef3
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: a4f8661ba7f56e2bc5704af383dbd80e6a6869ac
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294341"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532325"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>ビジネス サーバーの Skype のユーザーとクライアントの認証
  
@@ -47,7 +47,7 @@ ICE プロトコルおよび TURN プロトコルでも、IETF TURN RFC に記�
   
 ### <a name="cryptographic-requirements-due-to-asp-net-45"></a>ASP .NET 4.5 のための暗号化の要件 
 
-ビジネス サーバー 2015 CU5 の Skype は、現在 ASP.NET 4.6 では、AES はサポートされていませんし、Skype の会議アプリケーション起動に失敗が発生する可能性があります。 クライアントがコンピューターのキーの検証値として AES を使用している場合は、sha-1、または IIS で Skype 会議アプリケーションのサイト レベルでサポートされている別のアルゴリズムをコンピューターのキーの値をリセットする必要があります。 必要に応じて、手順については[IIS 8.0 の ASP.NET 構成の管理](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management)を参照してください。
+ビジネス サーバー 2015 CU5 の Skype は、現在 ASP.NET 4.6 では、AES はサポートされていませんし、Skype の会議アプリケーション起動に失敗が発生する可能性があります。 クライアントがコンピューターのキーの検証値として AES を使用している場合は、sha-1、または IIS で Skype 会議アプリケーションのサイト レベルでサポートされている別のアルゴリズムをコンピューターのキーの値をリセットする必要があります。 必要に応じて、手順については[IIS 8.0 の ASP.NET 構成の管理](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management)を参照してください。
   
 その他に次の値がサポートされます。
   

@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56c33c6c4a31da1fbfffbb903c2200cf4afedf07
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 2f000a81c0762b11b06e81fd2fcca18915ce1233
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295154"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532356"
 ---
 ![オペレーショナル ・ エクセレンスの段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-op-excellence.png "オペレーショナル ・ エクセレンスの段階に重点を置いて、旅アップグレードの段階")
 
@@ -34,7 +34,7 @@ ms.locfileid: "26295154"
 
 常に最大限のサービスを受信するかどうかを確認するのには、組織に関係のある新しい機能の拡張の[チームのパブリック ・ ロードマップ](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)を監視します。 Office 365 管理ポータルへのアクセス権があれば、当社からの新機能と変更機能、メッセージ センターを使用して定期的に更新が表示されます。 
 
-さらに、組織が成長し、変更、ためにを再検討して、組織の現在のニーズを満たすために、サービスが構成されているかどうかを確認するのには一定の間隔で、ビジネス ユース ケースを更新する時間を講じてください。  組織内からのフィードバック チャネルを確立することによって、ユーザーと社内のエキスパートから実際のフィードバックを受信することを確認します。 これらは、非公式の会話では、通常の meeetings、または実行、チームは、チャネルまたは Yammer コミュニティ。 
+さらに、組織が成長し、変更、ためにを再検討して、組織の現在のニーズを満たすために、サービスが構成されているかどうかを確認するのには一定の間隔で、ビジネス ユース ケースを更新する時間を講じてください。  組織内からのフィードバック チャネルを確立することによって、ユーザーと社内のエキスパートから実際のフィードバックを受信することを確認します。 これらは、非公式な会話、定期的なミーティング、または実行、チームは、チャネルまたは Yammer コミュニティ。 
 
 サービスを強化するために営業案件が表示、右に時間がかかります。 [実装フェーズ](quick-start-enable-teams.md)とエンド ツー エンドの同一のガイダンスを適用します。 小さな変更を行う場合は、可能性のあるすべてのアクティビティとの完全なタスクを完了する必要がありますが、各アクティビティとタスクが成功した結果での最善の機会を持たせるための方法に沿って評価をする必要があることはできません。
 

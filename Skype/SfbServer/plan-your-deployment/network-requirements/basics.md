@@ -9,16 +9,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016 には、DNS ポリシーのシナリオ ガイドなどの使用可能なドキュメントを確認することがありますので、DNS サービスを提供する組み込みのソフトウェアがあります。 使用する場合は、サードパーティ製のソリューションが存在することができます。
-ms.openlocfilehash: 3397d4ba2b3f8555652117d6de6bee54f7816307
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 297dc905a308806aec9228a9514f8e1bd65a245b
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296134"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532817"
 ---
 # <a name="dns-basics"></a>DNS の基礎
  
-Windows Server 2016 には、 [DNS ポリシー シナリオ ガイド](https://docs.microsoft.com/en-us/windows-server/networking/dns/deploy/dns-policy-scenario-guide)などの使用可能なドキュメントを確認することがありますので、DNS サービスを提供する組み込みのソフトウェアがあります。 使用する場合は、サードパーティ製のソリューションが存在することができます。
+Windows Server 2016 には、 [DNS ポリシー シナリオ ガイド](https://docs.microsoft.com/windows-server/networking/dns/deploy/dns-policy-scenario-guide)などの使用可能なドキュメントを確認することがありますので、DNS サービスを提供する組み込みのソフトウェアがあります。 使用する場合は、サードパーティ製のソリューションが存在することができます。
   
 ベスト プラクティスとして専用にすること、特定のサーバーの実装では DNS を提供することをお勧めします。 でした可能性のある設定するビジネス サーバーの役割、そのサーバーがプールの一部であったもしが使用停止の状態、偶然 Skype ビジネスは、DNS サービスが再確立されるまで動作不良の場合ですが、Skype のいずれかの専用サーバーの 1 つにします。
   

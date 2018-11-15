@@ -11,12 +11,12 @@ description: Microsoft Teams での Cloud Voice の機能の展開について�
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e78abdbe7d0cc2680917f2aae7920883837a2ac9
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 5ae144405375daa818f334fdf5be85e75cd4f6b1
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296389"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532885"
 ---
 # <a name="teams-cloud-meeting-recording"></a>チーム クラウドのミーティングのレコーディング
 
@@ -31,7 +31,7 @@ ms.locfileid: "26296389"
 
 チーム ユーザーのミーティングを記録するのには、テナントのマイクロソフトのストリームを有効にする必要があります。 さらに、次の前提条件は、そのような会議の開催者と録音を開始したユーザーの両方に必要です。
 
-- ユーザーが Office 365 のエンタープライズの E1、E3、E5 のライセンスを持っています。
+- ユーザーは、Office 365 の E1、E3、E5、A1、A3、A5、M365 のビジネス、ビジネス プレミアム、ビジネスの基礎を持っています。
 - ユーザーが Microsoft のストリームのライセンスを取得する必要があります。
 - ユーザーには Microsoft のストリーム ビデオのアクセス許可をアップロード
 - ユーザーに同意した、会社のガイドラインでは場合、によって管理者の設定

@@ -13,16 +13,20 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c537f37534c616965b74f5ea268f547cff28d41
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 85e7749bda08b1dbbf7a5afad5fc138facb62940
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294877"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533183"
 ---
 # <a name="cloud-voice-deployment"></a>Cloud Voice の展開
 
 マイクロソフト チーム、チームワークと、Office 365 での通信用のハブでは、オーディオ会議、計画を呼び出すには、電話システムを提供し、電話システムは、チーム会議を拡張することによって新たなビジネス要件に対応するルーティング機能を直接、呼び出し元に公衆交換電話網 (PSTN) を介して接続されている外部の関係者を含めることがあります。
+
+
+> [!Tip] 
+> 電話システムの概要については、次のセッションを監視する:[マイクロソフトのチームでの電話システムの概要](https://aka.ms/teams-phone-system)
  
 このページのチームの他のクラウドの音声機能がリリースされると時間の経過と共に更新します。
 

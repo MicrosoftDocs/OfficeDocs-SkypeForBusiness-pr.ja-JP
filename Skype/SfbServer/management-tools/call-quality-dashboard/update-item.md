@@ -3,23 +3,22 @@ title: アイテムを更新します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 6/8/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c15c56-cdae-4f3e-838a-52f0940cf729
-description: '概要: は、項目のサービスの一部は、更新プログラムの項目の操作について説明します。 項目のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。'
-ms.openlocfilehash: 0616f41a3ae680412bdc435716d805af77e72f3a
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: '概要: は、項目のサービスの一部は、更新プログラムの項目の操作について説明します。 項目のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
+ms.openlocfilehash: 5839118dc6e907696d4ce3e9adfbc58504808fac
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295267"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532226"
 ---
 # <a name="update-item"></a>アイテムを更新します。
  
-**の概要:** 品目サービスの一部は、更新プログラムの項目の操作について説明します。 項目のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。
+**の概要:** 品目サービスの一部は、更新プログラムの項目の操作について説明します。 項目のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
   
 更新項目の操作は、リポジトリ api の呼び出し品質のダッシュ ボードの項目のサービスの一部です。
   

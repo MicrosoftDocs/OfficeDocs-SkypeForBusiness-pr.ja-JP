@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: ビジネス サーバー 2019 の Skype で利用可能なハイブリッド ・ ソリューションについて説明します。
-ms.openlocfilehash: 2909f524d1b9984fe01700a89d1bf6dc1b70f100
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 269b0ae5dd7b4fc1cf2bb5f24b9350b745fe56de
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295370"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532749"
 ---
 注意: 以下は 2015年からコピーし、進行中します。 [以下](#placeholder-topic-for-hybrid-solutions)その他の進行中のプレース ホルダーのコンテンツをご覧ください。
 
@@ -208,7 +208,7 @@ Skype でオンライン ビジネスの Exchange Server を統合すると、�
   
 - [Microsoft クラウド IT アーキテクチャのリソース](https://aka.ms/clouditarch)
     
-- [エンタープライズ アーキテクトのための Microsoft クラウド ID](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
+- [エンタープライズ アーキテクトのための Microsoft クラウド ID](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
     
 - [Office 365 Enterprise向けに組織を準備する (英語)](https://aka.ms/O365EntPrep)
     

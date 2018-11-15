@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: '概要: を準備してお客様の環境で TLS 1.0 および 1.1 を無効にするを実装します。'
-ms.openlocfilehash: 784b6b307275516a18b396864d1a2c4f40c285e8
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 50d4da536bbfcd112057464b3d4142b3eeed2b44
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294542"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532514"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype では、TLS 1.0 または 1.1 を無効にします。
 
@@ -49,7 +49,7 @@ TLS 1.0 と 1.1 を無効にするためのサポート Skype のビジネス �
 
 - Lync 2013 (ビジネス用の Skype) デスクトップ クライアント、MSI および Basic を含む、C2R [15.0.5023.1000 以上](https://support.microsoft.com/en-us/help/4018334/april-3-2018-update-for-skype-for-business-2015-lync-2013-kb4018334)
 - Skype ビジネス 2016年のデスクトップ クライアント、MSI の[16.0.4678.1000 以上](https://support.microsoft.com/en-us/help/4018323/april-3-2018-update-for-skype-for-business-2016-kb4018323)、Basic を含む
-- Skype ビジネス 2016年] をクリックしますを実行するには、 [2018年 4 月](https://docs.microsoft.com/en-us/officeupdates/release-notes-office365-proplus)の更新が必要です。 
+- Skype ビジネス 2016年] をクリックしますを実行するには、 [2018年 4 月](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)の更新が必要です。 
     - 毎月および対象とする半年、16\.0\.9126\.2152 と高い
     - 半年と延期チャネル、16\.0\.8431\.2242 と高い
 - Mac 16.15 とそれ以上のビジネスのための Skype
@@ -237,7 +237,7 @@ Windows Registry Editor Version 5.00
 "Enabled"=dword:00000001
 ```
 
-SQL の背面の端のエンタープライズ エディションのプール、前提条件、および TLS を無効にする必要がありますとして扱われ、SQL、または OS の更新プログラムは次のようです。参照してください。[https://docs.microsoft.com/en-us/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](https://docs.microsoft.com/en-us/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server)
+SQL の背面の端のエンタープライズ エディションのプール、前提条件、および TLS を無効にする必要がありますとして扱われ、SQL、または OS の更新プログラムは次のようです。参照してください。[https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server)
 
 前提条件となるアプリケーションと手順を無効にすると TLS の両方を組み合わせることができます、中に TLS 1.0 と 1.1 は、オペレーティング システム レベルでの無効化を続行する前にすべての前提条件を適用するを強くお勧めします。 後で先に進むには、TLS 1.0 または 1.1 を無効にし、すべての作業負荷を正しくして、期待どおりの機能を検証するすべての前提条件を展開することにより、環境を準備するのには、ベスト プラクティスに基づくアプローチになります。
 

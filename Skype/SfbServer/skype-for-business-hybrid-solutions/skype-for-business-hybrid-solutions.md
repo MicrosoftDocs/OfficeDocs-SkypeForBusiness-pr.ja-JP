@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0b038686-ed36-4867-9653-14cc08c919cb
 description: Skype のビジネスのハイブリッド展開の計画に関する情報を検索します。
-ms.openlocfilehash: af15627feaf3dca84f78e657bf71055a7a68f4c0
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 736902ba25fe0f2d6aa569ba6f454aa773fec202
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294635"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532947"
 ---
 # <a name="skype-for-business-hybrid-solutions"></a>ハイブリッド ソリューションのビジネス用の Skype
  
@@ -208,7 +208,7 @@ Skype でオンライン ビジネスの Exchange Server を統合すると、�
   
 - [Microsoft クラウド IT アーキテクチャのリソース](https://aka.ms/clouditarch)
     
-- [エンタープライズ アーキテクトのための Microsoft クラウド ID](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
+- [エンタープライズ アーキテクトのための Microsoft クラウド ID](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
     
 - [Office 365 Enterprise向けに組織を準備する (英語)](https://aka.ms/O365EntPrep)
     

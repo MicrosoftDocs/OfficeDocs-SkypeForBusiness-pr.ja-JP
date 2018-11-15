@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: '概要: は、Skype は、System Center Operations Manager を使用するビジネス サーバー 2015 のインフラストラクチャを構成する方法について説明します。'
-ms.openlocfilehash: b94490c60234f76b0e07f0b7732d76cc2354eaad
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5a1d1b87e3f28fbbb2b8023093a9781bb0dc2627
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20994963"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533288"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>SCOM Management pack を使用した Skype for Business Server 2015 の管理
  
@@ -38,7 +38,7 @@ ms.locfileid: "20994963"
   
 ## <a name="system-center-operations-manager-root-management-server-and-agent-support"></a>システム センター操作マネージャー ルートの管理サーバーとエージェントのサポート
 
-システム センターの Operations Manager 2007 R2 (64 ビット) の管理パックを使用することができます (移行のためだけにサポートされている) か、システム センター操作マネージャーの 2012 SP1 &amp; R2 (64 ビット) です。 次の表は、Skype のビジネス サーバー 2015 の管理パックのサポートされている構成を示しています。 
+システム センターの Operations Manager 2007 R2 (64 ビット) の管理パックを使用することができます (移行のためだけにサポートされている) か、システム センター操作マネージャーの 2012 SP1 &amp; R2 (64 ビット) またはシステム センター操作マネージャー 2016 (64 ビット) です。 次の表は、Skype のビジネス サーバー 2015 の管理パックのサポートされている構成を示しています。 
   
 |**構成**|**サポートされているでしょうか。**|
 |:-----|:-----|
@@ -57,7 +57,7 @@ ms.locfileid: "20994963"
 |:-----|:-----|
 |CPU  <br/> |次のいずれかの要件:  <br/> 2.33 GHz またはそれ以上の 64 ビット プロセッサ、クアッド コア  <br/> 64 ビット 2 ウェイ プロセッサ、デュアル コア、2.33 GHz 以上  <br/> |
 |メモリ  <br/> |8 GB  <br/> |
-|オペレーティング システム  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
+|オペレーティング システム  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
 |ネットワーク  <br/> |1 つのネットワーク アダプター (1 Gbps)  <br/> |
    
 ## <a name="prerequisites"></a>前提条件
@@ -137,14 +137,14 @@ Skype ビジネス サーバー 2015 の管理パックには、代理トラン�
 |8  <br/> |MCX ピアツーピア インスタント メッセージ (モバイル)  <br/> |ビジネス 2015年の Skype には、Lync Server 2010 の 2011 年 9 月リリースで利用可能  <br/> |
  
 > [!NOTE]
-> 従来のモバイル クライアント用の MCX サポートはビジネス サーバー 2019 の Skype で利用可能ではありません。 ユーザーは、現在のクライアントにアップグレードする必要があります。
+> 従来のモバイル クライアント用の MCX (移動サービス) サポートがビジネス サーバー 2019 の Skype で利用可能ではありません。 ビジネスのモバイル クライアントのすべての現在 Skype は、インスタント メッセージング (IM)、プレゼンス、および取引先担当者をサポートするために既にユニファイド コミュニケーション Web API (UCWA) を使用します。 MCX を使用する従来のクライアントを持つユーザーは、現在のクライアントにアップグレードする必要があります。
   
 **電話会議と常設チャットに対してサポートされている代理トランザクション**
 
 ||||
 |:-----|:-----|:-----|
 |9  <br/> |音声ビデオ会議  <br/> |Lync Server 2010 の内外で利用可能です  <br/> |
-|10  <br/> |データ会議  <br/> |Lync Server 2013 の内外で利用可能です  <br/> |
+| 10  <br/> |データ会議  <br/> |Lync Server 2013 の内外で利用可能です  <br/> |
 |11  <br/> |インスタント メッセージ電話会議  <br/> |Lync Server 2010 の内外で利用可能です  <br/> |
 |12  <br/> | 常設チャット <br/> |Lync Server 2013 の内外で利用可能です  <br/> |
 |13  <br/> |Join Launcher (予定された会議)  <br/> |Lync Server 2013 の内外で利用可能です  <br/> |
@@ -201,53 +201,53 @@ Skype ビジネス サーバー 2015 の管理パックには、代理トラン�
 
 次のリンクにより、System Center 2012 監視パックに関連する一般的な作業に関する情報に接続できます。
   
-- [管理パックのライフ サイクル](https://technet.microsoft.com/en-us/library/hh212732.aspx)
+- [管理パック ライフ サイクル](https://technet.microsoft.com/en-us/library/hh212732.aspx)
     
-- [Operations Manager 2012 の管理パックをインポートする方法](https://technet.microsoft.com/en-us/library/hh212691.aspx)
+- [Operations Manager 2012 で管理パックをインポートする方法 ](https://technet.microsoft.com/en-us/library/hh212691.aspx)
     
-- [ルールまたはモニターを上書きする方法](https://technet.microsoft.com/en-us/library/hh212869.aspx)
+- [ルールまたはモニターを上書きする方法 ](https://technet.microsoft.com/en-us/library/hh212869.aspx)
     
-- [Operations Manager 2012 のアカウントとして実行を作成する方法](https://technet.microsoft.com/en-us/library/hh321655.aspx)
+- [Operations Manager 2012 で実行アカウントを作成する方法](https://technet.microsoft.com/en-us/library/hh321655.aspx)
     
-- [アカウントとプロファイルの実行を管理します。](https://technet.microsoft.com/en-us/library/hh212714.aspx)
+- [実行アカウントと実行プロファイルの管理](https://technet.microsoft.com/en-us/library/hh212714.aspx)
     
-- [オペレーション マネージャーの管理パックをエクスポートする方法](https://technet.microsoft.com/en-us/library/hh320149.aspx)
+- [Operations Manager の管理パックをエクスポートする方法](https://technet.microsoft.com/en-us/library/hh320149.aspx)
     
-- [オペレーション マネージャーの管理パックを削除する方法](https://technet.microsoft.com/en-us/library/hh230746.aspx)
+- [Operations Manager の管理パックを削除する方法](https://technet.microsoft.com/en-us/library/hh230746.aspx)
     
 次のリンクにより、System Center 2007 監視パックに関連する一般的な作業に関する情報に接続できます。
   
-- [管理パックのライフ サイクルを管理します。](https://go.microsoft.com/fwlink/p/?LinkId=211463)
+- [管理パック ライフ サイクルの管理](https://go.microsoft.com/fwlink/p/?LinkId=211463)
     
-- [Operations Manager 2007 の管理パックをインポートする方法](https://go.microsoft.com/fwlink/p/?LinkID=142351)
+- [Operations Manager 2007 で管理パックをインポートする方法](https://go.microsoft.com/fwlink/p/?LinkID=142351)
     
-- [オーバーライドの使用を監視する方法](https://go.microsoft.com/fwlink/p/?LinkID=117777)
+- [上書きを使用して監視する方法](https://go.microsoft.com/fwlink/p/?LinkID=117777)
     
-- [Operations Manager 2007 でのアカウントとして実行を作成する方法](https://go.microsoft.com/fwlink/p/?LinkID=165410)
+- [Operations Manager 2007 で実行アカウントを作成する方法 ](https://go.microsoft.com/fwlink/p/?LinkID=165410)
     
-- [プロファイルと既存の実行を変更する方法](https://go.microsoft.com/fwlink/p/?LinkID=165412)
+- [既存の実行アカウントを変更する方法](https://go.microsoft.com/fwlink/p/?LinkID=165412)
     
 - [管理パックのカスタマイズをエクスポートする方法](https://go.microsoft.com/fwlink/p/?LinkId=209940)
     
 - [管理パックを削除する方法](https://go.microsoft.com/fwlink/p/?LinkId=209941)
     
-Operations Manager と監視パックについての質問は、 [System Center Operations Manager のコミュニティ フォーラム](https://go.microsoft.com/fwlink/p/?LinkID=179635)を参照してください。
+Operations Manager と監視パックに関する疑問については、[System Center Operations Manager コミュニティ フォーラム](https://go.microsoft.com/fwlink/p/?LinkID=179635)を参照してください。
   
 便利なリソースは、[システム センター操作マネージャーばら撒かれてはい.](https://opsmgrunleashed.wordpress.com/)のブログは、特定の監視パックの「例」投稿が含まれていますいます。
   
 Operations Manager の追加情報については、次のブログを参照してください。 
   
-- [オペレーション マネージャーのチームのブログ](https://blogs.technet.com/momteam/default.aspx)
+- [Operations Manager チーム ブログ (英語)](https://blogs.technet.com/momteam/default.aspx)
     
-- [Kevin Holman の OpsMgr のブログ](https://blogs.technet.com/kevinholman/default.aspx)
+- [Kevin Holman の OpsMgr ブログ (英語)](https://blogs.technet.com/kevinholman/default.aspx)
     
-- [OpsMgr の考え](https://thoughtsonopsmgr.blogspot.com/)
+- [Thoughts on OpsMgr (英語)](https://thoughtsonopsmgr.blogspot.com/)
     
 - [Raphael Burri のブログ](https://rburri.wordpress.com/)
     
-- [BWren の管理の領域](https://blogs.technet.com/brianwren/default.aspx)
+- [BWren の管理スペース (英語)](https://blogs.technet.com/brianwren/default.aspx)
     
-- [Opsmgr では](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
+- [Ops Mgr ++ (英語)](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
     
 > [!IMPORTANT]
 > Microsoft 以外のサイトにあるすべての情報とコンテンツは、Web サイトの所有者またはユーザーによって提供されています。Microsoft は、この Web サイトの情報に関して明示的、暗黙的、法的な保証を一切行いません。 

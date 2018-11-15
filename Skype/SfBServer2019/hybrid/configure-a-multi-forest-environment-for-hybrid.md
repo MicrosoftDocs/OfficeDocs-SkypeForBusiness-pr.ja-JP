@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 次のセクションでは、ハイブリッド シナリオでは、ビジネス機能のための Skype を提供するリソースとユーザーのフォレスト モデルでは複数のフォレストを持つ環境を構成する方法のガイダンスを提供します。
-ms.openlocfilehash: 72c0a91c3a5a90b4ec83eb5f71a5601ccfb48bb1
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: ef2b57d1f89e4d5479cacce57ce9a6c47c495f21
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295363"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532432"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>ハイブリッド ビジネスの Skype の複数のフォレスト環境を構成します。
  
@@ -60,7 +60,7 @@ Skype ホーム設置型またはオンラインの Exchange を持つことが�
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
-[選択されたアカウント リンク属性](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/)は、ソース アンカーとして使用されます。 使用する場合は、変更不可能な別の属性を使っている場合がありますこれを行います。だけに AD FS 要求ルールを編集し、AAD の接続の構成中に、属性を選択することを確認します。
+[選択されたアカウント リンク属性](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/)は、ソース アンカーとして使用されます。 使用する場合は、変更不可能な別の属性を使っている場合がありますこれを行います。だけに AD FS 要求ルールを編集し、AAD の接続の構成中に、属性を選択することを確認します。
   
 フォレスト間で Upn が同期されない操作を行います。 複数のフォレストで同じ UPN を使用できないため、ユーザー フォレストごとに一意の UPN を使用する必要があることを、Microsoft はテスト中に確認しました。 そのため、UPN を同期する場合と同期しない場合の 2 つの可能性が提示されました。 
   
@@ -70,7 +70,7 @@ Skype ホーム設置型またはオンラインの Exchange を持つことが�
     
 ## <a name="create-an-office-365-tenant"></a>Office 365 テナントの作成
 
-次に、展開で使用する Office 365 テナントをプロビジョニングする必要があります。 詳細については、[ライセンス、サブスクリプション、アカウント、およびマイクロソフトのクラウド サービスのテナント](https://docs.microsoft.com/en-us/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)を参照してください。 
+次に、展開で使用する Office 365 テナントをプロビジョニングする必要があります。 詳細については、[ライセンス、サブスクリプション、アカウント、およびマイクロソフトのクラウド サービスのテナント](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)を参照してください。 
   
 ## <a name="configure-active-directory-federation-services"></a>Active Directory フェデレーション サービスを構成します。
 
@@ -106,7 +106,7 @@ AAD Connect では、オンプレミス フォレスト間でアカウントが�
   
 これは、テスト ユーザーであり、できること、sourceAnchor と、ユーザーからの cloudSourceAnchor は、AAD の接続が確認し、リソース フォレスト内のオブジェクト、Office 365 からここ 1101 は、結びが以前に選択を参照してください。 できた上の表示にこのオブジェクトをマージします。 
   
-詳細については、 [Azure Active Directory と統合、設置ディレクトリ](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect/)を参照してください。 
+詳細については、 [Azure Active Directory と統合、設置ディレクトリ](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)を参照してください。 
   
 AAD の接続をインストールする、次の既定値を使用します。 
   
@@ -116,7 +116,7 @@ AAD の接続をインストールする、次の既定値を使用します。
     
 3. 設置ディレクトリ内のユーザーを識別する:**ユーザーの id が複数のディレクトリに存在**するかを選択し、 **ObjectSID**属性および**msExchangeMasterAccountSID**属性を選択します。
     
-4. Azure AD でユーザーを識別する: ソース アンカー:[適切な sourceAnchor 属性を選択すると](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/)、ユーザー プリンシパル名が**userPrincipalName**を読んだ後に選択した属性を選択します。
+4. Azure AD でユーザーを識別する: ソース アンカー:[適切な sourceAnchor 属性を選択すると](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/)、ユーザー プリンシパル名が**userPrincipalName**を読んだ後に選択した属性を選択します。
     
 5.  オプション機能: Exchange のハイブリッド展開があるかどうかを選択します。
     

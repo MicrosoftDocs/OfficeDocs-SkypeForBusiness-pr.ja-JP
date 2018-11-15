@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: このトピックでは、各ツール、およびその使用方法の例の目的を含む、ビジネス サーバー 2015 リソース キットの Skype では、ツールについて説明します。 ビジネス 2015 リソース キットの Skype は、展開およびビジネス サーバー 2015 の Skype を管理する IT 管理者の日常的なタスクを容易に役立ちます。 たとえば、Web Conf Data ツールを使用すると、オンライン会議中にユーザーによってアップロードされたデータを簡単に制御できます。 SEFAUtil ツールを使用すると、ユーザーの問い合わせに対して自動転送や自動応答を設定できます。 IT 管理者は、ビジネス サーバー 2015 の Skype をより効果的に管理するためにこれらのツールを使用することをお勧めします。
-ms.openlocfilehash: 3f36edc42541dfcc9b652eb16d5062277277cbc0
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: d58ba07a06b29ffe03eadc38beb55d3cb623b8cd
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294378"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533435"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype for Business Server 2015 リソース キット ツールのドキュメント
 
@@ -1054,11 +1054,16 @@ SEFAUtil ツールは信頼されたアプリケーション プールに属し�
 2. 信頼されたアプリケーションを SEFAUtil ツールのトポロジ内に定義する必要があります。 SEFAUtil は、新しい信頼されたアプリケーションとして定義するにビジネス サーバー管理シェルには、Skype を使用し、次のコマンドレットを実行します。
 
    ```
-   New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
+   New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN> -Port 7489
    ```
 
     > [!NOTE]
     > 必要に応じて、別のポートを使用できます。
+    
+    > [!NOTE]
+    > プールの FQDN: SEFAUtil アプリケーションをホストするプールまたはサーバーの FQDN (通常業務のフロント エンド サーバー用の Skype > またはプール)。
+    > プール FQDN をレジストラー: ビジネスのフロント エンド サーバーまたはこのアプリケーション プールに関連付けられているプールの Skype の FQDN です。
+    > プール サイト: このプールは、ホーム サーバーをサイトのサイト ID です。
 
 3. トポロジの変更を有効にする必要があります。 トポロジの変更を有効にすることができるよう、Skype を使用してビジネス サーバー管理シェルの次のコマンドレットを実行します。
 

@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'このレポートとは、ビジネス レポートの場合は、他の Skype によって、PSTN の使用法を含む、組織全体での活動の詳細情報が表示します。 '
-ms.openlocfilehash: 508d41de4a8b67e1a266bead6f91445acd041a7e
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 789f881aff2f80603ac440250bc769d6c7b989c0
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294740"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532687"
 ---
 # <a name="users-blocked-report"></a>ブロックされているユーザーのレポート
 
@@ -74,7 +74,7 @@ ms.locfileid: "26294740"
     
 - [Skype for Business 電話会議開催者アクティビティ レポート](conference-organizer-activity-report.md) - ユーザーがどの程度 IM、音声/ビデオ、アプリケーション共有、Web、ダイヤルイン/アウト - サード パーティ、ダイヤルイン/アウト - Microsoft を使用した電話会議を開催しているかを確認できます。
     
-- [Skype for Business 電話会議参加者アクティビティ レポート](conference-participant-activity-report.md) - 参加者がいる IM、音声/ビデオ、アプリケーション共有、Web 会議、ダイヤルイン/ダイヤルアウト会議の数を確認できます。
+- [Skype ビジネス会議参加者の設定アクティビティのレポートを](conference-participant-activity-report.md)何 IM、オーディオとビデオ、アプリケーションの共有を参照してください、Web やダイアル ・ イン/アウトの会議の会議が参加しています。
     
 - [Skype for Business ピアツーピア アクティビティ レポート](peer-to-peer-activity-report.md) - ユーザーがどの程度 IM、音声/ビデオ、アプリケーション共有、ファイル転送を使用しているかを確認できます。
     

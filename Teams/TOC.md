@@ -1,3 +1,4 @@
+
 <!-- ============================================================ -->
 # [Team にようこそ](teams-overview.md)
 <!-- ============================================================ -->
@@ -9,7 +10,6 @@
 ## [次の場所](get-started-with-teams-resources-for-org-wide-rollout.md)
 ## [マイクロソフト チームのヘルプを表示します。](get-help-in-microsoft-teams.md)
 <!-- ============================================================ -->
-
 
 <!-- ============================================================ -->
 # 計画
@@ -133,6 +133,7 @@
 <!-- ============================================================ -->
 # Office 365 との相互運用性
 ## [移行とビジネス用の Skype では、相互運用性](migration-interop-guidance-for-teams-with-skype.md)
+## [ビジネスの Skype との共存](coexistence-chat-calls-presence.md)
 ## [共存を設定し、設定をアップグレードします。](setting-your-coexistence-and-upgrade-settings.md)
 ## [Office 365 グループと Teams](office-365-groups.md)
 ## [既存の Office 365 グループを Teams で強化する](enhance-office-365-groups.md)
@@ -205,6 +206,7 @@
 ### [Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
 ### [チームで、組織全体にわたるチームを作成します。](create-an-org-wide-team.md)
 ### [チームの動的なメンバーシップの概要](dynamic-memberships.md)
+## [プレゼンス](presence-admins.md)
 ## [ゲスト アクセス](guest-access.md)
 ### [ゲストがチームに参加する方法](guest-joins.md)
 ### [ゲストのエクスペリエンスについて](guest-experience.md)
@@ -234,7 +236,8 @@
 #### [ライブ イベントをチームは何ですか。](teams-live-events/what-are-teams-live-events.md)
 #### [チームのライブ イベントの計画](teams-live-events/plan-for-teams-live-events.md)
 #### [チームのライブ イベントを設定します。](teams-live-events/set-up-for-teams-live-events.md)
-#### [チームのライブ イベントを構成します。](teams-live-events/configure-teams-live-events.md)
+#### [PowerShell を使用して、チームのライブ イベントのポリシーを設定するのには](teams-live-events/set-teams-live-events-policies-using-powershell.md)
+#### [チームのライブ イベントの設定を構成します。](teams-live-events/configure-teams-live-events.md)
 
 
 
@@ -369,7 +372,7 @@
 #### [電話会議の設定が変更されたときのメールの自動送信を有効または無効にする](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 #### [ユーザーが会議に参加するときに名前を記録できるようにする](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 #### [ユーザーの電話会議の設定を管理する](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
-#### [自分の組織の電話会議の設定を管理する](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+#### [組織のオーディオ会議設定を管理します。](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 #### [電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md)
 #### [電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [ユーザーの会議 ID をリセットする](reset-a-conference-id-for-a-user-in-teams.md)

@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: ビジネス サーバーのエンタープライズ VoIP の Skype で、応答グループの展開成功を確認します。
-ms.openlocfilehash: 4832b64d6bf4d26dd9d4cba10e46ef78b3f3b396
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: ebf8e9960b26dfa0da256e0ea26e356648cbe356
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295161"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532177"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(省略可能)ビジネス用の Skype で確認応答グループの展開
  
@@ -38,5 +38,8 @@ ms.locfileid: "26295161"
 - 外部ユーザーが応答グループを呼び出す。
     
 - エージェントが別の通話に応答しているときにユーザーが応答グループを呼び出し、キューに入る。
+
+    > [!NOTE]
+    > 応答のグループとして機能しない場合期待どおり次のリンクをチェックしてください。https://support.office.com/en-us/article/troubleshooting-for-response-groups-ca72d8f8-4054-4974-b832-4f173611bd89
     
 

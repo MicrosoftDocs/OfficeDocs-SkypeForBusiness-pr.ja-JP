@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ビジネス サーバー 2019 の Skype では、複数のサイトおよび複数プール展開をサポートします。 ビジネス サーバー 2019 の Skype を複数のプールを移行するプロセスには、次の考慮事項が必要です。
-ms.openlocfilehash: ecd7e795c7cde9265f26c9c7533fcfd6ec87d684
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 74c622c1cde4a01c51749c6942c898e11e1551f9
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293549"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531765"
 ---
 # <a name="migrating-multiple-sites-and-pools"></a>複数のサイトとプールの移行
 
@@ -31,6 +31,6 @@ ms.locfileid: "26293549"
     
 6. 従来のプールが空であることを確認した後、プールを無効にできます。 
     
-    従来のレガシ プールとサーバーを非アクティブ化する方法の詳細についてを参照してください[フェーズ 8: 従来のプールを非コミッションに](phase-8-decommission-legacy-pools.md)。
+    レガシ プールとサーバーを非アクティブ化する方法の詳細についてを参照してください[フェーズ 8: 従来のプールを非コミッションに](phase-8-decommission-legacy-pools.md)。
     
 

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: は、プライマリ管理サーバーを構成する、System Center Operations Manager をインストールして、Skype のビジネス サーバー 2019 の管理パックをインポートします。'
 ms.openlocfilehash: 39ed469227c607084dc030fa003700074a6aae9a
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26216129"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26536050"
 ---
 # <a name="configure-the-primary-management-server"></a>プライマリ管理サーバーの構成
 

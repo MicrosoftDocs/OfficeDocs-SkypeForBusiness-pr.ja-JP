@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Microsoft Teams で電話会議の情報が記載されたメールをユーザーに送信します。
-ms.openlocfilehash: 3b1cb1eb4fcf654a4ab3d3cb227416b0cf700817
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 78fc4c0c071c4cc66c4bc20339dcda52b2be2890
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294922"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532395"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Microsoft Teams で電話会議の情報が記載されたメールをユーザーに送信する
 
@@ -69,8 +69,6 @@ Microsoft Teams ユーザーに電話会議の情報を送信することが必�
   - オーディオ会議プロバイダーのユーザーの変更されたとき Microsoft から別のプロバイダーまたは **[なし]** にします。
     
   - マイクロソフトにユーザーの電話会議プロバイダーが変更されたとき。
-    
-- 既定では、電子メールの送信者が、Office 365 からなりますが、電子メール アドレスを変更し、Windows PowerShell を使用して名前を表示できます。 詳細については[マイクロソフト チームの PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)を参照してください。
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 

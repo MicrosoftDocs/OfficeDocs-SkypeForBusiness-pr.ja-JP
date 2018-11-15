@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: ビジネス サーバーの Skype ホーム ユーザーのクラウド ベースのボイスメールが実装する方法について。
-ms.openlocfilehash: 80f154a7fa8e34b7912ebf5762e5d0390e21fd22
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 05c486ed338e8e77ab68f12a64c3a59646a157d0
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294892"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531913"
 ---
 # <a name="configure-cloud-voicemail-service"></a>クラウド ボイスメール サービスを構成します。
 
@@ -93,7 +93,7 @@ Get-CsHostedVoicemailPolicy
 
 ## <a name="assign-a-hosted-voicemail-policy"></a>ホスト ボイスメール ポリシーを割り当てる
 
-既定でホストされているグローバル ボイスメール ポリシーがすべてのユーザーに割り当てられます。 ホスト ボイスメールに対してユーザーを有効にする前に、別のポリシーを使用する場合する必要があります最初ユーザーに与える目的のホスト ボイスメール ポリシー[許可 CSHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-cshostedvoicemailpolicy?view=skype-ps)コマンドレットを使用しています。
+既定でホストされているグローバル ボイスメール ポリシーがすべてのユーザーに割り当てられます。 ホスト ボイスメールに対してユーザーを有効にする前に、別のポリシーを使用する場合する必要があります最初ユーザーに与える目的のホスト ボイスメール ポリシー[許可 CSHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cshostedvoicemailpolicy?view=skype-ps)コマンドレットを使用しています。
 
 たとえば、次のコマンドは、ユーザーに非グローバルのホスト ボイスメール ポリシーを割り当てます。
 
@@ -104,7 +104,7 @@ Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:Clou
 
 ## <a name="enable-a-user-for-cloud-voicemail"></a>クラウド ボイスメールに対してユーザーを有効にします。
 
-クラウドのボイスメールにルーティングするユーザーのボイス メールの呼び出しを有効にするには、HostedVoiceMail パラメーターを使用して[セット CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/set-csuser?view=skype-ps)コマンドレットを使用します。 
+クラウドのボイスメールにルーティングするユーザーのボイス メールの呼び出しを有効にするには、HostedVoiceMail パラメーターを使用して[セット CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps)コマンドレットを使用します。 
 
 たとえば、次のコマンドでは、クラウドのボイスメールのユーザー アカウントを有効にします。 
 

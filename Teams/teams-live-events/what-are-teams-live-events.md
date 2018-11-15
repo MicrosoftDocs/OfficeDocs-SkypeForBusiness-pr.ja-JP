@@ -5,20 +5,18 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.collection:
-- Teams_ITAdmin_Help
-- Teams_ITAdmin_Help
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: tonysmit
 search.appverid: MET150
 description: どのようにビデオ、およびマイクロソフトのチーム、Yammer、および Microsoft のストリームでの大規模なオンライン ユーザーを対象にコンテンツをブロードキャストするユーザーを有効にするイベントについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db8f9223c74b29f7fd2bfa27b63419abcb4219c5
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 881d5c2754703766cb9b84525472bfa18fc6e651
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295821"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532242"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>ライブ イベントをマイクロソフトのチームは何ですか。
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -50,17 +48,17 @@ Microsoft 365 でのライブ イベントでは、多様な運用シナリオ�
 
 - **クイック スタートの生産**: クイック スタートの生産方法により、チーム会議を使用して、ライブのイベントを生成します。 このオプションをお勧めし、オーディオおよびビデオ デバイスを使用する場合の最も簡単なオプションは、PC に接続されているか、イベントに参加するためのリモートの発表者を招待します。 このオプションでは、簡単に自分の web カムを使用し、イベントへの入力として、画面を共有することができます。 
 
-![チームのライブ イベント](../media/teams-live-events-quick-start.png "クイックを使用して生成されるライブ イベントを示すスクリーン ショットは、運用方法を開始")
+    ![クイックを使用して生成されたライブ イベントを示すスクリーン ショットは、運用方法を開始](../media/teams-live-events-quick-start.png "クイックを使用して生成されるライブ イベントを示すスクリーン ショットは、運用方法を開始")
 
 - **外部エンコーダーの生産**: 外部エンコーダーは、外部ハードウェアまたは[マイクロソフトのストリーム](https://stream.microsoft.com)を持つソフトウェア ・ ベースのエンコーダーから直接ライブのイベントを生成するユーザーを許可します。 このオプションが既にある場合 studio 品質機器 (たとえば、メディアのミキサー)、リアルタイム メッセージング プロトコル (RTMP) サービスをサポートするストリーミングに最適です。 生産のこのタイプは通常、経営の町ホール: 対象ユーザーにメディア ミキサーから 1 つのストリームが放送されるなど大規模なイベントで使用されます。 
 
-![外部エンコーダーの生産方法を使用して生成されるライブ イベントを示すスクリーン ショット](../media/teams-live-events-external-encoder.png "外部エンコーダーの生産方法を使用して生成されるライブ イベントを示すスクリーン ショット")
+    ![外部エンコーダーの生産方法を使用して生成されたライブ イベントを示すスクリーン ショット](../media/teams-live-events-external-encoder.png "外部エンコーダーの生産方法を使用して生成されるライブ イベントを示すスクリーン ショット")
 
 ### <a name="streaming-platform"></a>プラットフォームのストリーミング
 ライブ イベントをストリーミング プラットフォームは、次の部分で構成されています。
 
-- **Azure のメディア サービス**  [Azure のメディア サービス](https://docs.microsoft.com/azure/media-services/previous/)では、今日の最も人気のあるモバイル デバイスでの大規模な対象ユーザーに到達するのには、ブロードキャスト品質ビデオ ストリームのサービスを示します。 メディア サービスのユーザー補助の設定、配布、およびスケーラビリティを強化し、ローカルまたは世界中の対象ユーザーにコンテンツをストリーム配信を容易かつコスト ・ パフォーマンスは、-コンテンツを保護しながら。
-- **Azure コンテンツ配信ネットワーク (CDN)** ストリームがライブになった後、 [Azure コンテンツ配信ネットワーク (CDN)](https://docs.microsoft.com/azure/cdn/)を通じて配信されます。 Azure のメディア サービスでは、端点のストリーミング用の統合された CDN を提供します。 これにより、ストリームのバッファリングのない世界中で表示します。
+- **Azure メディア サービス**: [Azure メディア サービス](https://docs.microsoft.com/azure/media-services/previous/)からの今日の最も人気のあるモバイル デバイスでの大規模な対象ユーザーに到達するのには、ブロードキャスト品質ビデオ ストリームのサービスを利用します。 メディア サービスのユーザー補助の設定、配布、およびスケーラビリティを強化し、ローカルまたは世界中の対象ユーザーにコンテンツをストリーム配信を容易かつコスト ・ パフォーマンスは、-コンテンツを保護しながら。
+- **Azure コンテンツ配信ネットワーク (CDN)**: [Azure コンテンツ配信ネットワーク (CDN)](https://docs.microsoft.com/azure/cdn/)経由で配信には、ストリームがライブになったとします。 Azure のメディア サービスでは、端点のストリーミング用の統合された CDN を提供します。 これにより、ストリームのバッファリングのない世界中で表示します。
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>エンタープライズ コンテンツ配信ネットワーク (eCDN)
 ECDN の目標は、ビデオ コンテンツをインターネットから取得し、ネットワークのパフォーマンスに影響を与えずに、企業全体でコンテンツを配布すること。 使用できます、次のいずれかの認定 eCDN パートナー組織内で保持されているライブのイベント用にネットワークを最適化します。
@@ -71,7 +69,10 @@ ECDN の目標は、ビデオ コンテンツをインターネットから取�
 ### <a name="attendee-experience"></a>参加者の経験 
 参加者の経験は、ライブ イベントの最も重要な側面と、問題なくライブ イベントで、参加者が参加できることを非常に重要です。 参加者経験では、Azure のメディア プレーヤーを使用してし、デスクトップ、ブラウザー、およびモバイル (iOS、Android) の間で動作します。 Office 365 は、Yammer とチーム共同作業の 2 つのハブとライブの参加者としての経験に統合されているこれらのコラボレーション ツールです。 
 
-![チームのライブ イベント](../media/teams-live-events-attendee.png "ライブ イベントの参加者を示すスクリーン ショットが発生します。")
+![ライブ イベントの参加者を示すスクリーン ショットが発生します。](../media/teams-live-events-attendee.png "ライブ イベントの参加者を示すスクリーン ショットが発生します。")
+
+## <a name="next-steps"></a>次のステップ
+[チームのライブ イベントの計画](plan-for-teams-live-events.md)に移動します。
 
 ### <a name="related-topics"></a>関連トピック
 - [Yammer、マイクロソフトのチーム、および Microsoft のストリーム内の Microsoft 365 の間でのライブ イベント](https://docs.microsoft.com/stream/live-event-m365)

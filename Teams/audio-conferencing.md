@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: ff0db687ed25f756a3ba3d184b7408c5d2784b46
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: a3ce04974eec062360bb6b0663255f079e097554
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293964"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532234"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議についての実践的なガイダンスを提供します。
 ============================================================
@@ -29,7 +29,7 @@ Office 365 の電話会議では、参加者はどの電話端末からでも Te
 
 Office 365 の[電話会議](https://go.microsoft.com/fwlink/?linkid=858992)で利用できる機能を以下に示します。
 
-この実践的なガイダンスでは、Office 365 FastTrack のお客様が正常なビジネス成果に向けて電話会議の実装を正しく計画、提供、運用できるよう、導入フレームワークと 3 つの段階 (構想、参加、価値の創出) について説明します。
+この実用的なガイドでは、Office 365 の fasttrack というお客様の旅のフレームワークとその 3 つのフェーズを計画、配布、およびビジネスの成功に向けて、オーディオ会議の実装を操作するためには、ビジョン化トラック、オンボードとドライブの値では、結果です。
 
 > [!TIP]
 > この実践的なガイダンスにはアクティビティや重要なディスカッションの例が記載されています。 このドキュメントでは、これらの例は「ヒント」内に記載されており、テンプレートとして再利用することができます。 「TBA」(今後追加される予定) と記載されている箇所には、計画プロセスを遂行する上で満たす必要のある情報が入ります。

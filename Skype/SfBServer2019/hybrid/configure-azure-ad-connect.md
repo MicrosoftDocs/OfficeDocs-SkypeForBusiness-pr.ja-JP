@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.collection: ''
 description: ハイブリッド環境で Azure AD 接続の構成方法の詳細については。
 ms.openlocfilehash: c2a57f9b58d88274dde8f9218faddabdee4342be
-ms.sourcegitcommit: bb3f235265cddae9578ec1bf605c4edc7f14fb30
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25853531"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26536056"
 ---
 # <a name="configure-azure-ad-connect-for-skype-for-business-and-teams"></a>Azure を構成するビジネスとチームの AD が Skype の接続 
  

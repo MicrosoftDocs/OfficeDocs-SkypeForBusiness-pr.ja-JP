@@ -20,35 +20,32 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft Teams から、ダイヤルイン会議で有効になっている組織のユーザーのリストを表示する方法を説明します。 '
-ms.openlocfilehash: a05aa000b2289499c030ac564a5f09eeefdd865a
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 47e8f6879a16f9ee56e9050a07764800d4dba12b
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296352"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533112"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams で電話会議用に有効になっているユーザーのリストを表示する
 
-自分の組織内の Microsoft Teams ユーザーを電話会議で有効にした後、それらの有効になっているユーザーのリストを表示することができます。 リストを調べると、リスト内の各ユーザーが使用している電話会議プロバイダーの種類、既定のダイヤルイン電話番号、および組織が動的な会議 ID を有効にしていない場合は、それらのユーザーが開催する電話会議用の静的な会議 ID も表示されています。
+オーディオ会議の組織でマイクロソフトのチームのユーザーを有効にした後は、有効になっているユーザーの一覧を表示できます。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="viewing-a-list-of-users"></a>ユーザーのリストの表示
+## <a name="viewing-a-list-of-users"></a>ユーザーの一覧を表示します。
 
 - マイクロソフトのチームとのビジネス管理センターは、左側のナビゲーションでは、Skype では、[**ユーザー**] をクリックします。
 
 
-## <a name="what-else-should-i-know"></a>その他の情報
+## <a name="what-else-should-i-know"></a>他に必要な情報はありますか?
 
-- 有効になっているユーザーのリストを表示すると、そのリストからユーザーを選択して、そのユーザーについての電話会議設定を編集することができます。
+- 有効になっているユーザーの一覧を表示すると、そのユーザーの電話会議の設定を編集する] ボックスの一覧からユーザーを選択します。
     
-- Microsoft を電話会議プロバイダーとして使用するよう構成されている 1 人のユーザーを選択すると、既定の電話番号と、組織が動的な会議 ID に対して有効になっているかどうかを表示したり、そのユーザーが開催する会議の会議 ID をリセットすることができます。
-    
-- サードパーティの電話会議プロバイダーを使用するよう構成されている 1 人のユーザーを選択すると、その電話会議プロバイダーの名前、有料電話番号、無料電話番号 (セットアップしている場合) を表示することができます。
-    
+- 1 人のユーザーを選択すると、その他の関連する音声会議の設定をユーザーに割り当てられている既定の電話番号を表示できます。    
    
-- 検索ボタンを使用して、リスト内の個別のユーザーを検索することができます。
+- [検索] ボタンを使用するには、リスト内の個々 のユーザーを検索します。
     
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報

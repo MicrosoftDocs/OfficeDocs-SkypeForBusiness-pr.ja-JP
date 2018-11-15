@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bda29fd1b193253deb573d554f7f354258dabc7a
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 6371e0a13bc029706b25cdb576602f18ab9b43b0
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295423"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533150"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>よくあるご質問 - Skype for Business から Microsoft Teams への移行
 
@@ -39,7 +39,7 @@ ms.locfileid: "26295423"
 
 ### <a name="what-is-the-future-of-skype-for-business-server"></a>Skype for Business Server の将来図を教えてください。
 
-お客様が設置型のビジネスの一部のユーザーまたは地域の要件のための Skype を使用し続けることで Skype ビジネス設置し、多くの必要性を使用していることを認識しています。 ビジネス サーバー 2019 の Skype の全般的な可用性を対象と 2018 (日付変更) の終わりまでしています。
+お客様が設置型のビジネスの一部のユーザーまたは地域の要件のための Skype を使用し続けることで Skype ビジネス設置し、多くの必要性を使用していることを認識しています。 ビジネス サーバー 2019 の Skype は、2019年 10 月にリリースされました。
 
 ### <a name="what-will-happen-to-the-skype-brand"></a>Skype ブランドは今後どうなりますか?
 

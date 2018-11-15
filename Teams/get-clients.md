@@ -16,17 +16,20 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a24f4ba3c9470827c8a73bf8ac234cf7ae8467e8
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: d1eeb32f86f678672a14d42b241e56eb9ab92b02
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294698"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532185"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 ===========================
 
 マイクロソフトのチームには、クライアント デスクトップ (Windows および Mac) は、web、およびモバイル (Android、iOS、および Windows Phone) があります。 これらのクライアントはすべてアクティブなインターネット接続が必要で、オフライン モードをサポートしていません。
+
+> [!NOTE]
+> 2018 年 11 月 29日効果的な不要になったことができます Windows 10 S (プレビュー) アプリケーションでは、Microsoft ストアから利用可能なため、マイクロソフトのチームを使用します。 11 月 29 日後、この資料で後述のチームのアプリケーションのいずれかを使用することをお勧めします。
 
 <a name="desktop-client"></a>デスクトップ クライアント
 --------------
