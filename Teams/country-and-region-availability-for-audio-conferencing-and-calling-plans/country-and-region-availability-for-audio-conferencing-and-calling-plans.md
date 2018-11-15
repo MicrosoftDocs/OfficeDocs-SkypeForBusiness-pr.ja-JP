@@ -28,18 +28,18 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 国/地域を選択して、電話会議、電話システム、通話プラン、コミュニケーション クレジット、および有料電話番号と無料電話番号を利用できるかどうかを確認できます。
-ms.openlocfilehash: bc39b239128ffacea5c4d58d1055f57d5088fb11
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8c0e287671e3131ed9b155205e90ebe6456a743b
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372486"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531176"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>国および地域ごとの電話会議および通話プランの利用可能性
 
 国または組織にどのようなクラウドの音声機能を利用して地域を選択できます。
 ***
-## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>国または地域、組織の使用を参照してください選択します。
+## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>国または地域、組織の使用を参照してください。
 
 > [!div class="op_single_selector"]    
 > - [アルゼンチン](availability-in-argentina.md)
@@ -144,7 +144,7 @@ Skype for Business または Microsoft Teams サービスの 1 つが利用で�
 
 ### <a name="audio-conferencing"></a>電話会議
 
-自分の組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Skype for Business および Microsoft Teams には、こういった状況に最適な、電話会議機能があります。 ユーザーは、モバイル デバイスまたは PC 上で Skype for Business や Microsoft Teams のアプリを使用する代わりに、電話機を使用して会議にダイヤル インすることができます。 電話会議が組織に必要であると判断したら、**電話会議**のライセンスを、電話会議をスケジュール設定または開催する組織内のユーザーごとに 1 つずつ購入する必要があります。
+自分の組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Skype for Business および Microsoft Teams には、こういった状況に最適な、電話会議機能があります。 ユーザーは、モバイル デバイスまたは PC 上で Skype for Business や Microsoft Teams のアプリを使用する代わりに、電話機を使用して会議にダイヤル インすることができます。 オーディオ会議、組織の目的を決定したら、組織内のユーザーが、オーディオ会議のスケジュールおよびホストする場合、各ユーザーの**電話会議**の 1 つのライセンスを購入する必要があります。
   
 電話会議では、ユーザーが会議にダイヤルインするために使用できる有料電話番号と無料電話番号があります。 次に示す国や地域からの有料電話番号は、組織が電話会議を利用できるよう有効になっている場合に、共有の電話会議の電話番号として自動的に組織に割り当てられます。 専用の有料電話番号および無料電話番号は、追加の都市から組織に割り当てることができます。
 

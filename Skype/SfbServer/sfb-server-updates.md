@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Skype for Business Server 2015 および Lync 2013 用の更新プログラムの検索と管理を 1 つの場所で実行します。 このページのリンクを使用して、更新プログラムの詳細情報の確認や、更新プログラムのダウンロードを行ってください。
-ms.openlocfilehash: 651d6c730fb8555ab4c478e51f69e3143031b00c
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 6bc575a5f2ae981a6f3ea613f8a262d048c5fde0
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294038"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531618"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server の更新プログラム
 
@@ -230,6 +230,6 @@ Skype for Business Online および Office 365 の最新の更新プログラム
 
 ## <a name="related-topics"></a>関連トピック
 
-- [Skype for Business Server 2015 のインストール](https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/install/install)
-- [Skype for Business Server 2015 へのアップグレード](https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)
+- [Skype for Business Server 2015 のインストール](https://docs.microsoft.com/SkypeForBusiness/deploy/install/install)
+- [Skype for Business Server 2015 へのアップグレード](https://docs.microsoft.com/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)
 - [Windows インストーラー (MSI) を使用する Skype for Business の各バージョンに対する最新の更新プログラム](sfb-client-updates.md)

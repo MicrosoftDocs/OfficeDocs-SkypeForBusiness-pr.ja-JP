@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53f8704daf923b54e30d0061669ea1de63eeb02e
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: f4503019a35580e662f5ca1e91e9645f92a584c6
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295592"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531412"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>マイクロソフト チーム展開の環境の探索
 ===================================================
@@ -136,7 +136,7 @@ Office 365 テナントに関する情報をキャプチャするのにには、
 
 > | 質問 | 回答 | コメント |
 > |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-> | 現在 Lync またはビジネス用の Skype のバージョン <br>導入、設置型とは | <input type="checkbox">Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">ビジネス サーバー 2015 の Skype <br/> <input type="checkbox">ビジネス サーバー 2019 の Skype<input type="checkbox">ビジネス クラウド コネクタ ・ エディションの Skype | |
+> | 現在 Lync またはビジネス用の Skype のバージョン <br>導入、設置型とは | <input type="checkbox">Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">ビジネス サーバー 2015 の Skype <br/> <input type="checkbox">Skype ビジネス サーバー 2019 <br/><input type="checkbox">Skype ビジネス クラウド コネクタ ・ エディションの | |
 > | Skype for Business Online とのハイブリッドは構成されていますか? | <input type="checkbox">うん <br/> <input type="checkbox">違います | |
 > | この環境ホストされ、サードパーティによって管理されているでしょうか。 <br/>[はい]、[コメント] 列に詳細に注意してください。 | <input type="checkbox">うん <br/> <input type="checkbox">違います | |
 > | 形式と機能は現在使用中 <br>本日は。 | <input type="checkbox">インスタント メッセージングとプレゼンス (IM P) <br/> <input type="checkbox">会議 <br/> <input type="checkbox">フェデレーション <br/> <input type="checkbox">ミーティングのレコーディング <br/> <input type="checkbox">永続的なチャット グループ チャット/ <br/> <input type="checkbox">Microsoft オーディオ会議 <br>&nbsp;&nbsp; &nbsp;(以前ダイヤルイン会議) で、 <br>&nbsp;&nbsp; &nbsp;設置の Lync Server または <br>&nbsp;&nbsp; &nbsp;Skype ビジネスの展開 <br/> <input type="checkbox">サード ・ パーティ製のオーディオ会議 <br>&nbsp;&nbsp; &nbsp;(詳細については、[コメント] 列に注意してください) <br/> <input type="checkbox">エンタープライズ VoIP を使用してオンプレミス PSTN <br>&nbsp;&nbsp; &nbsp;の接続 <br/> <input type="checkbox">通話プラン (以前の PSTN の呼び出し) を使用して <br>&nbsp;&nbsp; &nbsp;オンライン ビジネスの Skype でのハイブリッド | |

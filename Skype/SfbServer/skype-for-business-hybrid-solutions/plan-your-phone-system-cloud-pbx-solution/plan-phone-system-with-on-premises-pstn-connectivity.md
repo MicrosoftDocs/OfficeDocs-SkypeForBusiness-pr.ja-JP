@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 設置 PSTN への接続では、Office 365 (クラウド PBX) の電話システムの計画の考慮事項について説明します。
-ms.openlocfilehash: 4096dde95c4cee2871e968f4e6b91d60682e73d5
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 4614b3fdc62d8a51323ee7c9f261bec3d6cea6c3
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295457"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531603"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Skype で設置した PSTN 接続を持つビジネス サーバーの Office 365 の電話システムを計画します。
 
@@ -56,7 +56,7 @@ Office 365 の電話システムを設置した PSTN 接続に配布すると、
 
 カスタム機能や、コール センターのような従来の PBX への主要なアドオンが備わっていることがあります。 カスタム機能が Office 365 の電話システムで現在利用可能ないない場合は、そのカスタム機能の設置型レガシ PBX は、単なるポートと Office 365 の電話システムにカスタム機能にアクセスする必要はありませんユーザーを必要とするそれらのユーザーをおく必要があります。設置 PSTN 接続します。
 
-ビジネス サーバー 2015 の Skype を直接と互換性がある従来の Pbx の一覧については、 [Microsoft Lync のインフラストラクチャの修飾](https://docs.microsoft.com/en-us/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway)を参照してください。 ユーザーの PBX がこの一覧にない場合は、オンライン ビジネスの Skype で Office 365 の電話システムとユーザーの PBX に接続するセッション ボーダー コント ローラーを使用できます。
+ビジネス サーバー 2015 の Skype を直接と互換性がある従来の Pbx の一覧については、 [Microsoft Lync のインフラストラクチャの修飾](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway)を参照してください。 ユーザーの PBX がこの一覧にない場合は、オンライン ビジネスの Skype で Office 365 の電話システムとユーザーの PBX に接続するセッション ボーダー コント ローラーを使用できます。
 
 ### <a name="network-considerations-for-quality-and-performance"></a>ネットワークの品質とパフォーマンスに関する考慮事項
 
@@ -100,7 +100,7 @@ PSTN への接続を設置し、Skype をユーザーの移動と Office 365 の
 
     Lync Server 2013 を使用する場合は、 [Lync Server 2013 でエンタープライズ VoIP の計画](https://technet.microsoft.com/library/gg413081%28v=ocs.15%29.aspx)および[Lync Server 2013 でエンタープライズ VoIP を展開する](https://technet.microsoft.com/EN-US/library/gg412876%28v=ocs.15%29.aspx)を参照してください。
 
-- **Active Directory の同期**Azure AD 接続を使用して Active Directory の同期を構成する必要があります。 詳細については、 [Azure を管理する AD の接続](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-whats-next/)を参照してください。
+- **Active Directory の同期**Azure AD 接続を使用して Active Directory の同期を構成する必要があります。 詳細については、 [Azure を管理する AD の接続](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-whats-next/)を参照してください。
 
     > [!NOTE]
     > 使用する AAD Connect のパーションは、バージョン 1.0.9125.0 以降である必要があります。それよりも前のバージョンの AAD Connect ツールまたは DirSync を使用している場合は、サポートされているバージョンにアップグレードしてください。現在のインストールをアップグレードして、環境で定義しているカスタム ルールを維持できます。 

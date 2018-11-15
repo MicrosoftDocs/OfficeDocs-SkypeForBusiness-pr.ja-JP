@@ -16,14 +16,17 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Microsoft 電話システム直接ルーティングを使用する方法マイクロソフトの電話システムに、サポートされている、お客様が用意したセッション ボーダー コント ローラー (SBC) の接続については、このトピックを参照してください。
-ms.openlocfilehash: ddfada14916b14c374479109732dbe1fa35a0174
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: a26dfc51e1a885569a37200d8613879e8f3bd484
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296318"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531988"
 ---
 # <a name="plan-direct-routing"></a>直接ルーティングを計画します。
+
+> [!Tip]
+> ルーティング、それを計画する方法と展開方法は、直接の利点について説明するのには次のセッションを監視する:[マイクロソフトのチームに直接ルーティング](https://aka.ms/teams-direct-routing)
 
 Microsoft 電話システム直接ルーティングするには、マイクロソフトの電話システムに、サポートされている、お客様が用意したセッション ボーダー コント ローラー (SBC) に接続することができます。  この機能により、たとえばを構成できます設置した PSTN 接続マイクロソフト チームのクライアントを使用して次の図に示すように。 
 
@@ -74,7 +77,7 @@ Microsoft 電話システム直接ルーティングするには、マイクロ�
 |SBC のパブリック DNS エントリ |SBC の FQDN をパブリック IP アドレスにマップするパブリック DNS エントリです。 |
 |SBC の信頼された証明書の公開 |直接ルーティングですべての通信に使用する SBC の証明書です。 詳細については[、SBC の信頼された証明書の公開](#public-trusted-certificate-for-the-sbc)を参照してください。|
 |直接ルーティングするための接続ポイント |直接ルーティングするための接続ポイントは、次の 3 つの Fqdn です。<br/><br/>`sip.pstnhub.microsoft.com`– グローバル FQDN が最初に試行する必要があります。<br/>`sip2.pstnhub.microsoft.com`– セカンダリ FQDN は、地理的に 2 番目の優先度の領域にマップします。<br/>`sip3.pstnhub.microsoft.com`– の第 3 の FQDN は、3 番目の優先度の領域に地理的にマップします。<br/><br/>構成要件についてを参照してください[SIP シグナリング: Fqdn およびファイアウォールのポート](#sip-signaling-fqdns-and-firewall-ports)。|
-|ファイアウォールの IP アドレスとメディアの直接ルーティング用のポート |SBC がクラウド内の次のサービスを通信します。<br/><br/>SIP プロキシは、信号を処理します。<br/>メディア プロセッサは、メディアの処理のときに、メディアのバイパスを除く<br/><br/>これら 2 つのサービスでは、このドキュメントで後述する、マイクロソフトのクラウドで個別の IP アドレスがあります。<br/><br/>詳細については、 [Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)で、[マイクロソフトのチーム セクション](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)を参照してください。 |
+|ファイアウォールの IP アドレスとメディアの直接ルーティング用のポート |SBC がクラウド内の次のサービスを通信します。<br/><br/>SIP プロキシは、信号を処理します。<br/>メディア プロセッサは、メディアの処理のときに、メディアのバイパスを除く<br/><br/>これら 2 つのサービスでは、このドキュメントで後述する、マイクロソフトのクラウドで個別の IP アドレスがあります。<br/><br/>詳細については、 [Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)で、[マイクロソフトのチーム セクション](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)を参照してください。 |
 |メディア プロファイルを転送します。|TCP と RTP/SAVP <br/>UDP/RTP/SAVP|
 ファイアウォールの IP アドレスとポートはマイクロソフトのチームのメディアの |詳細については、「[Office 365 URL および IP アドレス範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)」を参照してください。 |
 |||
@@ -221,16 +224,12 @@ SBC では、sip.pstnhub.microsoft.com を解決するための DNS クエリを
 
 ## <a name="supported-session-border-controllers-sbcs"></a>セッション ボーダー コント ローラー (SBCs) のサポート
 
-マイクロソフトでは、認定の SBC 対に直接ルーティングのみサポートします。 エンタープライズ VoIP はビジネスにとって不可欠であるため、マイクロソフトでは、集中的なテストを実行を選択した SBCs と、2 つのシステムを確実に SBC ベンダーとの連携は互換性があります。 
+マイクロソフトでは、直接ルーティングとペアにする認定の SBCs のみサポートします。 エンタープライズ VoIP は企業にとって重要であるため、マイクロソフトでは、集中的なテストを実行を選択した SBCs と、2 つのシステムを確実に SBC ベンダーとの連携は互換性があります。 
 
-検証済みのデバイスは、チームの直接のルーティングのための認定として表示されます。 認定済みのデバイスは、すべてのシナリオで動作が保証されます。 マイクロソフトと確立された SBC ベンダーとの間の共同サポート プロセスもあります。  
+検証済みのデバイスは、チームの直接のルーティングのための認定として表示されます。 認定済みのデバイスは、すべてのシナリオで動作が保証されます。 
 
-認定されているプロセスでは、次のベンダーです。
-- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
-- リボン通信 (以前は Sonus)。
-   - [SBC エッジ シリーズ](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
-   - [SBC のコア ・ シリーズ](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
-- ThinkTel: ThinkTel は、企業に半角を販売していないが、SBC の認定を受けることができます。  
+SBCs のサポートの詳細については、[リストのセッション ボーダー コント ローラーが直接ルーティングの認定](direct-routing-border-controllers.md)を参照してください。
+
  
 ## <a name="see-also"></a>関連項目
 

@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c95eec7d05d0acb8e49c8236b1e9d5f498869c95
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 4983f8089a5d221a29f67ae25dfa6766751a7394
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295289"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530591"
 ---
 <a name="install-microsoft-teams-using-msi"></a>MSI を使用して Microsoft Teams をインストールする
 =================================
@@ -63,9 +63,20 @@ ms.locfileid: "26295289"
                     
 ## <a name="disable-auto-launch-for-the-msi-installer"></a>MSI インストーラーの自動起動を無効にします。
 
-自動起動を無効にする場合は、次のコマンド プロンプトを入力します。
+Msi ファイルの既定の動作では、ユーザーがサインインすると、すぐにチームのクライアントをインストールし、チームを自動的に開始します。 次のようにこの動作は以下のパラメーターを変更できます。
 
+- チームを msi ファイルをインストールするユーザーが Windows にログインするとき
+- ただし、チームのクライアントが起動しない、ユーザーがチームを手動で開始されるまで
+- チームを起動するショートカットをユーザーのデスクトップに追加されます。
+- 手動で開始されると、チームは自動的に開始、ユーザーがログインするたびに
+
+32 ビット バージョンの
 ```
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
 ```
-
+64 ビット バージョンの
+```
+msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
+```
+> [!Note] 
+>  Msi ファイルを手動で実行する場合は、昇格されたアクセス許可を使用して実行することを確認します。 実行する場合でも、管理者は、昇格されたアクセス許可で実行することがなく、インストーラーを自動開始を無効にするオプションを構成することはできません。

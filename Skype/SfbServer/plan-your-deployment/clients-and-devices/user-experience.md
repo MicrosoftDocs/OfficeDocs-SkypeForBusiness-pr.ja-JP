@@ -14,13 +14,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
-description: ': の概要については、新しい Skype のビジネスとオンライン ビジネス、ビジネス サーバー 2015 の Skype、Skype のビジネス サーバー 2015、Lync Server 2013 では、Skype を使用しているかどうか、更新プログラムのユーザー、お客様の環境を準備するための手順やLync Server 2010。'
-ms.openlocfilehash: 99a1be886c257c58f007b42ee549b31a2340721a
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: ': の概要については、新しい Skype のビジネスとオンライン ビジネス、ビジネス サーバー 2019 の Skype、Skype のビジネス サーバー 2015、Lync Server 2013 では、Skype を使用しているかどうか、更新プログラムのユーザー、お客様の環境を準備するための手順やLync Server 2010。'
+ms.openlocfilehash: 351582e7a7619541d5401acfb46854f61c9e052d
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294628"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531168"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>ビジネス 2015年クライアント エクスペリエンスのユーザーのための Skype を計画します。
  
@@ -120,11 +120,11 @@ Grant-CsClientPolicy username@contoso.com -PolicyName UseSkypeUI
 ## <a name="use-the-lync-client-experience-with-skype-for-business-server-on-premises"></a>オンプレミスの Skype for Business Server で Lync クライアント エクスペリエンスを使用する
 <a name="LyncwithSfBServer"> </a>
 
-サーバー 2015 のビジネス展開に、オンプレミス Skype の Lync クライアント エクスペリエンスを構成する場合は、このセクションの手順を従います。
+ビジネス サーバーの展開、設置 Skype の Lync クライアント エクスペリエンスを構成する場合は、このセクションの手順を従います。
   
 このセクションの手順は、オンプレミス環境で Skype クライアント エクスペリエンスを構成したい場合に実行します。これは、オンプレミスの既定のエクスペリエンスです。
   
- **手順 1:** ビジネス サーバー 2015 の Skype を最初に配置します。
+ **手順 1:** 最初に、サーバーのビジネスの Skype を展開します。
   
  **手順 2:** 次に、クライアントのビジネスの Skype での Lync クライアント エクスペリエンスを設定するのには、クライアント ポリシーを使用します。 クライアント ポリシーを使用して、クライアント エクスペリエンスを設定する場合、**3 つのオプション**があります。
   

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: '概要: は、これらの概念、論理を開発する方法について説明へのリンクと Skype のビジネス サーバー 2019 機能、サーバー、およびトポロジの構成の物理設計について説明します。'
-ms.openlocfilehash: 85b8dc6b4326a565e40331d4ba89cbed1d4edb59
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 83b406401d377d8ffd4b46aee3a5264273bb142b
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293573"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531296"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>サーバー 2019 のビジネスを展開するため、Skype の計画
  
@@ -34,7 +34,7 @@ Skype をビジネス サーバーの展開を計画する方法の詳細につ�
   
 ||コンテンツ|説明|
 |:--- |:--- |:--- |
-|![ビデオのアイコン](https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg)|[ビジネス用の Skype: 簡単な説明](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be)   [ビジネス用の Skype: 新規ユーザーのためのステップ バイ ステップ ガイド](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be)   |ビデオ プレゼンテーション、トレーニングのビジネス用の Skype を検出します。    |
+|![ビデオのアイコン](https://docs.microsoft.com/office/media/icons/get-started-blue.svg)|[ビジネス用の Skype: 簡単な説明](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be)   [ビジネス用の Skype: 新規ユーザーのためのステップ バイ ステップ ガイド](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be)   |ビデオ プレゼンテーション、トレーニングのビジネス用の Skype を検出します。    |
    
 ## <a name="articles-about-planning-for-skype-for-business-server"></a>Skype ビジネス サーバーの計画に関する記事
 
@@ -42,7 +42,7 @@ Skype をビジネス サーバーの展開を計画する方法の詳細につ�
   
 |ソリューションの計画|サーバー アーキテクチャ、クライアント、およびデバイスの計画|
 |:-----|:-----|
-|![ソリューション コンテンツのアイコン](https://docs.microsoft.com/en-us/office/media/icons/success.svg)   どのソリューションが組織に適しているかを判断するには、以下の記事を読みください。    |![サーバー アーキテクチャ コンテンツのアイコン](https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg)   サーバー アーキテクチャ、およびクライアントとデバイスのサポートを計画するには、以下の記事を読みください。    |
+|![ソリューション コンテンツのアイコン](https://docs.microsoft.com/office/media/icons/success.svg)   どのソリューションが組織に適しているかを判断するには、以下の記事を読みください。    |![サーバー アーキテクチャ コンテンツのアイコン](https://docs.microsoft.com/office/media/icons/get-started-blue.svg)   サーバー アーキテクチャ、およびクライアントとデバイスのサポートを計画するには、以下の記事を読みください。    |
 |**[Business Server のインスタント メッセージングと Skype のプレゼンスの計画します。](../../SfbServer/plan-your-deployment/instant-messaging-and-presence.md)**<br/><br/> プレゼンス、インスタント メッセージング (IM) の要件は? インスタント メッセージング (IM) とプレゼンスに含まれるすべての Skype ビジネス サーバーの展開が、技術上の要件では、外部ユーザーは、アーカイブとの通信に関する決定を行う必要があります。 <br/> | **[ビジネス サーバー 2019 Skype のシステム要件](system-requirements.md)**  <br/> **[Plan network requirements for Skype for Business](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md)**<br/> <br/>  ビジネス サーバーの Skype のための前提条件を決定するには、まずこれらのトピックを参照します。    |
 |**[ビジネスのサーバーに、Skype でエンタープライズ VoIP を計画します。](../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)** <br/><br/>音声要件を挙げてください。 ビジネス サーバーの展開について、Skype で、組織の電話システムを統合する方法を定義します。 <br/> エンタープライズ VoIP は、ボイス オーバー IP (VoIP) ソリューションを提供する--、Outlook と Exchange との統合を含む、豊富な機能セットを提供する最も包括的な音声です。<br/>作業を使用して呼び出すには、既存の PBX 電話システムとのビジネス ソリューションは、Skype を統合するための方法が用意されています。   |**[Skype ビジネス サーバーのトポロジの基本](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md)** <br/><br/>その他の準備をする前に行う適切なトポロジの Skype のビジネス サーバーの配置を知りたいでしょう。 決定する必要があります最初には、ビジネスのサーバー用に Skype の設置型展開をする場合、またはハイブリッド展開でのサーバーをオンラインでビジネスの展開に、Skype でこれを結合しようとしている場合です。 コロケーション シナリオとサーバーのトポロジを計画するには、このセクションのトピックを参照します。   |
 |**[ビジネス サーバーに、Skype でのビデオの相互運用サーバーを計画します。](../../SfbServer/plan-your-deployment/video-interop-server.md)** <br/><br/>組織向けのビデオの要件の概要について説明しています。 ビジネス サーバー ビデオの相互運用機能の Skype は、Cisco の遠隔会議システム (VTCs) と直接統合できます。 <br/>ビデオの機能と、技術要件についての記事をお読みください。   |**[ビジネス サーバー 2019 の Skype への移行](../migration/migration-to-skype-for-business-server-2019.md)** <br/> <br/>Lync Server またはビジネス用の Skype の以前のバージョンからアップグレードするか。 アップグレードを計画する方法についての情報を検索します。   |
@@ -58,6 +58,6 @@ Skype をビジネス サーバーの展開を計画する方法の詳細につ�
   
 ||**コンテンツ**|**説明**|
 |:--- |:--- |:--- |
-|![DMC のアイコン](https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg)|[Skype for Business Server (IT 担当者向け)](https://go.microsoft.com/fwlink/p/?LinkId=527960)   |アクセス ビデオ、コミュニティ サイト、ドキュメント、ダウンロード、および詳細には、docs.microsoft.com およびリソース センターを参照してください。    |
-|![開発者向けコンテンツのアイコン](https://docs.microsoft.com/en-us/office/media/icons/developer-blue.svg)|[Skype Developer Platform](https://go.microsoft.com/fwlink/?LinkId=619775)   |ビジネス サーバーには、コード サンプル、トレーニング、および Sdk を含む、Skype の開発者向けリソースを検索します。    |
-|![ニュース、ブログなどのアイコン](https://docs.microsoft.com/en-us/office/media/icons/blog-site-blue.svg)|[変更管理と導入](https://go.microsoft.com/fwlink/p/?LinkId=532796)   [Office のブログ](https://go.microsoft.com/fwlink/p/?LinkId=528899)   [Office 365 の技術的なブログ](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx)   [Skype チームのブログ](https://go.microsoft.com/fwlink/p/?LinkId=532818)   |ビジネス サーバーのチームを作成してドキュメント Skype からのニュースを維持します。    |
+|![DMC のアイコン](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Skype for Business Server (IT 担当者向け)](https://go.microsoft.com/fwlink/p/?LinkId=527960)   |アクセス ビデオ、コミュニティ サイト、ドキュメント、ダウンロード、および詳細には、docs.microsoft.com およびリソース センターを参照してください。    |
+|![開発者向けコンテンツのアイコン](https://docs.microsoft.com/office/media/icons/developer-blue.svg)|[Skype Developer Platform](https://go.microsoft.com/fwlink/?LinkId=619775)   |ビジネス サーバーには、コード サンプル、トレーニング、および Sdk を含む、Skype の開発者向けリソースを検索します。    |
+|![ニュース、ブログなどのアイコン](https://docs.microsoft.com/office/media/icons/blog-site-blue.svg)|[変更管理と導入](https://go.microsoft.com/fwlink/p/?LinkId=532796)   [Office のブログ](https://go.microsoft.com/fwlink/p/?LinkId=528899)   [Office 365 の技術的なブログ](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx)   [Skype チームのブログ](https://go.microsoft.com/fwlink/p/?LinkId=532818)   |ビジネス サーバーのチームを作成してドキュメント Skype からのニュースを維持します。    |

@@ -1,26 +1,25 @@
 ---
-title: ビジネス サーバー 2015 の Skype の通話品質のダッシュ ボードを展開します。
+title: ビジネス サーバーの Skype の通話品質のダッシュ ボードを展開します。
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/1/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
-description: '概要: は、品質のダッシュ ボードを呼び出すための展開プロセスについて説明します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。'
-ms.openlocfilehash: 31e1dc8d5508c7d3d31de0ec3af0b9c8c06a6c40
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: '概要: は、品質のダッシュ ボードを呼び出すための展開プロセスについて説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
+ms.openlocfilehash: c9d641a8202560e558e33014670b4b1060795477
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294990"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531227"
 ---
-# <a name="deploy-call-quality-dashboard-for-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype の通話品質のダッシュ ボードを展開します。
+# <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>ビジネス サーバーの Skype の通話品質のダッシュ ボードを展開します。
  
-**の概要:** 品質のダッシュ ボードを呼び出すために、展開プロセスについて説明します。 通話品質のダッシュ ボードは、ビジネス サーバー 2015 の Skype のツールです。
+**の概要:** 品質のダッシュ ボードを呼び出すために、展開プロセスについて説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
   
 ## <a name="deployment-overview"></a>配置の概要
 
@@ -185,6 +184,27 @@ QoE アーカイブのセットアップ プロセスでは、QoE のアーカ�
 4. ページの右側にある **[適用**] をクリックします。
     
 ## <a name="known-issues"></a>既知の問題
+
+### <a name="the-cqd-shows-no-data-after-deployment"></a>救難展開後のデータを表示されません。
+
+次のエラーが表示される場合があります。
+
+*キューブで実行するとクエリを実行できませんでした。クエリを変更し、問題を解決するには、クエリ ・ エディターを使用します。また、キューブがアクセスできることを確認します。*
+
+つまり救難に使用されている前に、SQL Server Analysis Services のキューブを処理する必要があります。 これは、次の手順で解決できます。
+
+1. SQL Management Studio を開き、[ **Analysis Services**を選択します。
+
+2. オブジェクト、[ **QoE 指標**では、 **QoECube**を右クリックしを展開し、[**参照**] を選択します。 
+
+    空のブラウザーが返されます、キューブをまだ続行されていません。
+
+3. **QoE 指標**の angain を右クリックし、**プロセス**を選択します。
+
+4. 処理が完了するは、オブジェクトを再度右クリックし、ブラウザーのページにデータが表示されますを確認する**参照**をを選択します。 
+
+
+### <a name="users-have-trouble-logging-in-because-installer-fails-to-create-the-correct-settings-in-iis"></a>ユーザーに IIS で適切な設定を作成するのにはインストーラーが失敗するためログに問題があります。
 
 まれに、IIS で適切な設定を作成するのには、インストーラーが失敗します。 救難にログインするユーザーを許可するには、手動で変更が必要です。 ユーザーには、ログインに問題がある場合、は、次の手順に従ってください。
   

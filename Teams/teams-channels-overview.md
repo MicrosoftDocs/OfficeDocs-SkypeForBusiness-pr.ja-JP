@@ -3,7 +3,7 @@ title: Microsoft Teams でのチームとチャネルの概要
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 11/02/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b02fd487b7a5ef6ab7422791487a1c9cb3fa5795
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 10de89c43a653cd090f313ec368bde42bd774b03
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295520"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530561"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要
 =================================================
@@ -30,13 +30,17 @@ ms.locfileid: "26295520"
 
     -   また、チームは、組織内の参加可能なすべての人 (最大で 2500 人のメンバー) に対して、パブリックでオープンなものとして作成されます。
     
-チームは、何かの仕事を完成させるために緊密に作業している人たちを 1 つにまとめるために設計されています。 Teams はプロジェクト単位の作業 (製品の立ち上げや、デジタル作戦指令室を作るなど) において、現在進行中の作業も含めて、組織の内部構造 (たとえば、部署やオフィスの場所など) を反映して、動的に機能します。 複数のチーム チャネルにわたる会話、ファイル、ノートはチームのメンバーだけが見ることができます。
+    チームは、何かの仕事を完成させるために緊密に作業している人たちを 1 つにまとめるために設計されています。 Teams はプロジェクト単位の作業 (製品の立ち上げや、デジタル作戦指令室を作るなど) において、現在進行中の作業も含めて、組織の内部構造 (たとえば、部署やオフィスの場所など) を反映して、動的に機能します。 複数のチーム チャネルにわたる会話、ファイル、ノートはチームのメンバーだけが見ることができます。
 
 -   **チャネル**は、チーム内の専用セクションで、チームで機能しているすべてのことについて、たとえば特定のトピック、プロジェクト、分野などの別に会話をまとめ、保存します。
 
     -   チーム チャネルは、チームの全員がオープンに会話できる場です。プライベート チャットはチャット内のユーザーのみに表示されます。
 
     -   チャネルは、タブ、コネクタ、およびチームのメンバーにその値を大きくしているボットを含むアプリケーションを拡張する際に最も重要です。
+
+チームとチャネルを作成するためのベスト プラクティスの詳細についてはこの短いビデオを表示します。
+
+   > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
 
 <a name="membership-roles-and-settings"></a>メンバーシップ、ロール、および設定
 ------------------------------
@@ -50,7 +54,8 @@ ms.locfileid: "26295520"
 **チームの設定** チームの所有者は、チーム全体の設定を直接 Microsoft Teams で管理できます。 この設定には、チームの写真の追加や、チャネルを作成したりタブとコネクタを追加したりチームまたはチャネル全体を @メンションしたりするためのチーム メンバーにわたるアクセス許可の設定や、GIF、ステッカー、ミームの使用が含まれます。 
 
 チーム所有者のチェック アウトは、この移動のガイドには 3 分ビデオを実行します。 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+   > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
 
 Office 365 では、マイクロソフトのチーム管理者の場合は、ビジネス管理センターのチームと Skype でシステム全体の設定へのアクセスがあります。 これらの設定は、チーム設定でチーム所有者に表示されるオプションと既定値に影響します。 たとえば、チーム全体の通知、ディスカッション、リソースのために、既定のチャネル「一般」を有効にして、それらがすべてのチームにわたって表示されるようにすることができます。
 
@@ -64,7 +69,6 @@ Office 365 では、マイクロソフトのチーム管理者の場合は、ビ
 以下に、さまざまなタイプのユーザーが、チーム、チャネルおよびアプリ (タブ/コネクタ/ボット) のセットアップにどのような方法を取ることができるかを示します。これは、Microsoft Teams に関する会話をユーザー コミュニティと開始するにあたってサポートを提供する場合に役立ちます。組織に Microsoft Teams をどのように実装するかを考える場合、提供できるのはチームの構築方法に関するガイダンスであって、自己組織化の方法はユーザーが管理するものであることを念頭に入れてください。以下は、チームが実行可能な方法について考えるにあたって、そのサポートをするサンプルとなります。
 
 Microsoft Teams は、縦割り組織を解体して機能横断型チームを促進することに優れています。このため、ユーザーは縦割り組織ではなく機能的なチームとして考える意識が高まります。
-
 
 |チームのタイプ  |考えられるチャネル  |アプリ (タブ ![タブ アイコン](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/コネクタ ![コネクタ アイコン](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/ボット ![ボット アイコン](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
@@ -83,3 +87,6 @@ Microsoft Teams は、縦割り組織を解体して機能横断型チームを�
 
 ![チームとチャネルが Microsoft Teams 内でどのように編成されるかを示す階層図。](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
 
+## <a name="org-wide-teams"></a>組織全体にわたるチーム
+
+組織には 1,000 人のユーザーがある場合、組織全体にわたるチームを作成できます。 組織全体にわたるチームは、共同作業の 1 つのチームの一部にする組織内の全員に自動的にする手段を提供します。 作成し、組織全体のチームを管理するためのベスト プラクティスを含む詳細については、[マイクロソフトのチームで、組織全体にわたるチームを作成する](create-an-org-wide-team.md)を参照してください。

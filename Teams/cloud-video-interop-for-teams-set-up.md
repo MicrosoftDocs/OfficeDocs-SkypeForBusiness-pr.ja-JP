@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2090036aa5e1a05e46581d365d9b6b4aeb94b32
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 5e0663553f6dbd3374245ba2ab370e4b5a369701
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294137"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531965"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>クラウド ビデオ マイクロソフト チームの相互運用機能を設定します。
 
@@ -57,19 +57,19 @@ ms.locfileid: "26294137"
 テナントのキー、およびビデオの相互運用機能の座標を使用して会議を作成するには、[ユーザーまたは組織全体にも有効にすることは、次のコマンドレットを実行する必要があります。
 
  
-- ** [Get CsTeamsVideoInteropServicepolicy](https://docs.microsoft.com/en-us/powershell/module/skype/get-csteamsvideointeropservicepolicy):** マイクロソフトでは、サポートされているパートナーのクラウドのビデオの相互運用機能を使用する取引先を指定するための事前に構築されたポリシーを提供します。
+- ** [Get CsTeamsVideoInteropServicepolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsvideointeropservicepolicy):** マイクロソフトでは、サポートされているパートナーのクラウドのビデオの相互運用機能を使用する取引先を指定するための事前に構築されたポリシーを提供します。
 
     このコマンドレットを使用すると、組織内で使用できる事前に構築されたポリシーを識別できます。 1 つ以上の補助金 CsTeamsVideoInteropServicePolicy コマンドレットを活用すること、ユーザーにこのポリシーを割り当てることができます。
  
-- **[与える CsTeamsVideoInteropServicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsvideointeropservicepolicy):** 許可 CsTeamsVideoInteropServicePolicy コマンドレットを使用すると、組織で使用するため事前に構築されたポリシーを割り当てたり、特定のユーザーにポリシーを割り当てることができます。
+- **[与える CsTeamsVideoInteropServicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsvideointeropservicepolicy):** 許可 CsTeamsVideoInteropServicePolicy コマンドレットを使用すると、組織で使用するため事前に構築されたポリシーを割り当てたり、特定のユーザーにポリシーを割り当てることができます。
  
-- **[新しいの CsVideoInteropServiceProvider](https://docs.microsoft.com/en-us/powershell/module/skype/new-csvideointeropserviceprovider):** 新規の CsVideoInteropServiceProvider を使用すると、組織が使用にはサポートされている CVI パートナーに関する情報を指定します。
+- **[新しいの CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/new-csvideointeropserviceprovider):** 新規の CsVideoInteropServiceProvider を使用すると、組織が使用にはサポートされている CVI パートナーに関する情報を指定します。
  
-- **[セット CsVideoInteropServiceProvider](https://docs.microsoft.com/en-us/powershell/module/skype/set-csvideointeropserviceprovider):** セット-CsVideoInteropServiceProvider を使用して、組織で使用して、サポートされている CVI パートナーに関する情報を更新します。
+- **[セット CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/set-csvideointeropserviceprovider):** セット-CsVideoInteropServiceProvider を使用して、組織で使用して、サポートされている CVI パートナーに関する情報を更新します。
  
-- ** [Get CsVideoInteropServiceProvider](https://docs.microsoft.com/en-us/powershell/module/skype/get-csvideointeropserviceprovider):** 組織内で使用するには、すべての構成されているプロバイダーを取得します。
+- ** [Get CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/get-csvideointeropserviceprovider):** 組織内で使用するには、すべての構成されているプロバイダーを取得します。
  
-- **[削除 CsVideoInteropServiceProvider](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csvideointeropserviceprovider):** 削除 CsVideoInteropServiceProvider を使用すると、組織が不要になった使用するプロバイダーのすべてのプロバイダー情報を削除します。  
+- **[削除 CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/remove-csvideointeropserviceprovider):** 削除 CsVideoInteropServiceProvider を使用すると、組織が不要になった使用するプロバイダーのすべてのプロバイダー情報を削除します。  
  
 ## <a name="consent"></a>同意するものと
 

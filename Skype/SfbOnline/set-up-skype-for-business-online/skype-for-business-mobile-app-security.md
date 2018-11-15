@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'ユーザーのモバイル アプリケーションのセキュリティの設定について説明します。 '
-ms.openlocfilehash: a87719bc4135ab429fca8425812b285a2eed5b5e
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 03b6575826defd5bd4c8c7739a1975edaabe0752
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294489"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530617"
 ---
 # <a name="skype-for-business-mobile-app-security"></a>Skype for Business のモバイル アプリのセキュリティ
 
@@ -37,7 +37,7 @@ ms.locfileid: "26294489"
 |**iOS** <br/> |キーチェーンにユーザー名とパスワードは暗号化されません。 キーチェーンは、独自に暗号化されてがいます。  <br/> |既にアプリケーション記憶域内のすべてのファイルに対してデータの保護フラグを[NSFileProtectionCompleteUntilFirstUserAuthentication](https://developer.apple.com/reference/foundation/fileprotectiontype/1616633-completeuntilfirstuserauthentica)使用しています。 つまり、ユーザーのデバイスの再起動後に非常に最初に、デバイスのロックを解除するまでアプリケーションの記憶域にファイルを暗号化するとします。 <br/> |この情報は暗号化されていません。  <br/> |
 |**Windows Phone** <br/> |Windows Phone は、Windows のパスワードをセキュリティで保護するのに DPAPI (データ保護 API) を使用します。 私は、使用される暗号化方式は AES と考えています。 Windows は承りますので、キーのサイズ (またはスキーム) を構成するオプションは、DPAPI は、どのようなので。 ユーザーとデバイスに固有のキーをセキュリティで保護するのに TPM デバイスを使用します。 DPAPI キーが、アプリケーションに固有ではないことに注意してください。  <br/> |WP アプリのデータが保護されている[DPAP](https://msdn.microsoft.com/en-us/library/windows/apps/hh487164%28v=vs.105%29.aspx)で、気に入って、資格情報。 によって必要な量の詳細は、アプリケーション データのインデックス情報の一部は復号化、なし表示できるため、DPAPI を使用してそのキーが保護されている順にあがったりを避けるために (DPAPI ではない) の AES 暗号化で保護されています。 データ フォルダーにアクセスできると仮定した場合、同じ携帯電話からのすべてのプロセスによってキャッシュされたデータを読み取ることができます。 Windows の暗号化はサンド ボックスの侵害から保護されない、外部からのアクセスのみを試みます。  <br/> |この情報は暗号化されていません。  <br/> |
    
-**注:** 各モバイル プラットフォームの上で利用可能なデバイスの暗証番号 (pin) 強制については、[このパブリックのドキュメント](https://docs.microsoft.com/en-us/InTune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune)を参照してください。
+**注:** 各モバイル プラットフォームの上で利用可能なデバイスの暗証番号 (pin) 強制については、[このパブリックのドキュメント](https://docs.microsoft.com/InTune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune)を参照してください。
   
 ## <a name="related-topics"></a>関連トピック
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)

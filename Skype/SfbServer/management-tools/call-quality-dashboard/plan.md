@@ -1,9 +1,8 @@
 ---
-title: ビジネス サーバー 2015 の Skype の通話品質のダッシュ ボードの計画
+title: ビジネス サーバー用の Skype の通話品質のダッシュ ボードの計画
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 4/27/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,20 +10,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: '概要: は、コール品質のダッシュ ボードを計画する際の考慮事項について説明します。'
-ms.openlocfilehash: 05411bb62e36350dc9109ca0f8b9d74fc0541946
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 6df705b4d3b39bdd9f75d328277d9aa1c5fc23d1
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296058"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531234"
 ---
-# <a name="plan-for-call-quality-dashboard-for-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype の通話品質のダッシュ ボードの計画
+# <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>ビジネス サーバー用の Skype の通話品質のダッシュ ボードの計画 
  
 **の概要:** 呼び出し品質ダッシュ ボードを計画する際の考慮事項について説明します。
   
-## <a name="overview-of-the-skype-for-business-server-2015-call-quality-dashboard"></a>ビジネス サーバー 2015 通話品質のダッシュ ボードの Skype の概要
+## <a name="overview-of-the-skype-for-business-server-call-quality-dashboard"></a>ビジネス サーバー呼び出し品質のダッシュ ボードの Skype の概要
 
-Skype のビジネス サーバー 2015 呼び出し品質ダッシュ ボード (救難) は、データベース上に、品質の経験ビジネス サーバー 2015 と Lync Server 2013 の Skype でのサーバーの監視のレポートの層です。 救難では、Microsoft SQL Server の Analysis Services を使用して、集計使用法を提供し、品質情報、フィルタ リングおよびデータセットのピボットを呼び出します。 救難機能は次のとおりです。
+Skype のビジネス サーバー呼び出し品質ダッシュ ボード (救難) は、データベース上に、品質の経験で Skype ビジネス サーバーの監視サーバーでのレポートの層です。 救難では、Microsoft SQL Server の Analysis Services を使用して、集計使用法を提供し、品質情報、フィルタ リングおよびデータセットのピボットを呼び出します。 救難機能は次のとおりです。
   
 - **救難の QoE アーカイブ コンポーネントを使用して、QoE データのアーカイブ ・ ストレージです。** QoE アーカイブ コンポーネントは、サーバーの監視はよりもより長くの QoE データを格納できます。 これにより、トレンド分析とレポート作成の 7 か月のデータを同時に back 限り、レポート ・ ウィンドウをスライドすることでデータがあります。
     
@@ -82,7 +81,7 @@ QoE のアーカイブ、キューブ、およびリポジトリ ・ データ�
   
 ### <a name="cqd-portal"></a>救難ポータル
 
-ポータルは、キューブ内のデータを表示する最も簡単な方法です。 ポータルは、すぐに使用可能ないくつかの組み込みのレポートが付属しています。 組み込みのレポートは、呼び出しデータの連続してより小さくより小さな複数のスライスに、ユーザーをガイドする構造化された方法でリンクされています。 組み込みのレポートには、データをグラフやテーブルを別のピボット、フィルター、メジャーとの組み合わせで表示できるさまざまな方法が強調表示します。 ポータルにアクセスする各ユーザーは、識別を変更し、共有するレポートの独自のセットを持つことができます。 救難 Web ポータルの使用方法の詳細については、[ビジネス サーバー 2015 の Skype での使用を呼び出す品質ダッシュ ボード](use.md)を参照してください。
+ポータルは、キューブ内のデータを表示する最も簡単な方法です。 ポータルは、すぐに使用可能ないくつかの組み込みのレポートが付属しています。 組み込みのレポートは、呼び出しデータの連続してより小さくより小さな複数のスライスに、ユーザーをガイドする構造化された方法でリンクされています。 組み込みのレポートには、データをグラフやテーブルを別のピボット、フィルター、メジャーとの組み合わせで表示できるさまざまな方法が強調表示します。 ポータルにアクセスする各ユーザーは、識別を変更し、共有するレポートの独自のセットを持つことができます。 救難 Web ポータルの使用方法の詳細については、 [Skype ビジネス サーバーのための使用を呼び出す品質ダッシュ ボード](use.md)を参照してください。
   
 救難ポータルのサポートされるオペレーティング システム: Windows 8.1、Windows 8、Windows Server 2012 R2 および Windows Server 2012。
   
@@ -90,7 +89,7 @@ QoE のアーカイブ、キューブ、およびリポジトリ ・ データ�
   
 ### <a name="rest-apis"></a>REST Api
 
-REST API 呼び出しを使用してキューブのデータをアクセスすることもできます。 REST API の呼び出しによって取得されたデータは、HTML ページを使用してレンダリングできます。 ユーザーは、ビジネス ・ ニーズに適していますがカスタム レポートを作成するときにクエリの速度の利点および救難の高レベルのスキーマをことができます。 API およびサンプルの詳細については、[ビジネス サーバー 2015 の Skype の電話の品質ダッシュ ボードを開発](develop.md)を参照してください。 
+REST API 呼び出しを使用してキューブのデータをアクセスすることもできます。 REST API の呼び出しによって取得されたデータは、HTML ページを使用してレンダリングできます。 ユーザーは、ビジネス ・ ニーズに適していますがカスタム レポートを作成するときにクエリの速度の利点および救難の高レベルのスキーマをことができます。 API およびサンプルの詳細については、 [Skype のビジネス サーバーの呼び出しの品質ダッシュ ボードを開発](develop.md)を参照してください。 
   
 ## <a name="defining-your-organizations-requirements-for-cqd"></a>救難の組織の要件を定義します。
 
@@ -133,7 +132,7 @@ REST API 呼び出しを使用してキューブのデータをアクセスす�
 
 すべての救難のコンポーネントと依存するコンポーネントは、1 つのマシン上にインストールできます。 ボックスを 1 つの構成は最も単純な構成であり、救難自己完結することができます。 救難だけ監視サーバー QoE 指標データベースへのアクセスが必要です。 救難サーバーは、スタンドアロン コンピューターでは、仮想マシンまたはホスト ・ マシンとパフォーマンスの要件の利用可能なリソースに応じて、監視サーバーにもできます。 
   
-中に、インストール、インストールは単に、Microsoft SQL Server を提供する必要があるユーザーが実行して設定されている以前のコンピューターで、救難がインストールされる Microsoft SQL Server の Analysis Services のインスタンス。 詳細については、[ビジネス サーバー 2015 の Skype の電話の品質ダッシュ ボードを展開](deploy-0.md)を参照してください。
+中に、インストール、インストールは単に、Microsoft SQL Server を提供する必要があるユーザーが実行して設定されている以前のコンピューターで、救難がインストールされる Microsoft SQL Server の Analysis Services のインスタンス。 詳細については、[ビジネス サーバーの Skype のコールの品質ダッシュ ボードを展開](deploy-0.md)を参照してください。
   
 ### <a name="multiserver-configuration"></a>マルチ サーバーの構成
 
@@ -238,6 +237,8 @@ SSAS ジョブの (このプロセスは省略可能なプロセス) QoEArchiveD
 - IIS 8.0 では、Windows Server 2012
     
 - 8.5 を IIS での Windows Server 2012 R2
+
+- IIS と Windows Server 2016
     
 以下は、階層的な順序で必要な IIS の役割サービスのことです。
   
@@ -289,6 +290,8 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 - SQL Server 2012
     
 - SQL Server 2014
+
+- SQL Server 2016
     
 パフォーマンス上の理由は、ビジネス ・ インテリジェンスやエンタープライズ エディションをお勧めします。 これらのエディションでは、複数の月にまたがるデータを処理するための有益なまたは長い場合、並列に処理できる複数のパーティションのファイルの使用を許可します。 
   

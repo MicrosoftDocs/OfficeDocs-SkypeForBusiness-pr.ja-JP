@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: クラウド コネクタ版 version 2.0 以降でメディアをバイパスを展開する手順については、このトピックを参照してください。
-ms.openlocfilehash: 841a243b236219fc70c99264249567f2eee63081
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 38ff1ffa3aef7e6cd85237048c46c5746b61e7bb
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296303"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531704"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Cloud Connector エディションでメディア バイパスを展開する
  
@@ -114,7 +114,7 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 
 クライアントは、内部 DNS サーバーからメディア バイパス Web サービスの Web アドレスを受信します。 Web サービスの名前は同じにするすべてのコネクタのクラウド アプライアンスおよびクラウド コネクタ PSTN のサイト。 複雑なマルチサイト環境では、地理的な場所ベースのトラフィック管理用の Windows 2016 DNS ポリシーを使用して、クライアントのネットワークにおいてローカルな Web サービスにクライアントをリダイレクトできるようにすることをお勧めします。 
   
-Windows 2016 DNS ポリシーの詳細については、[地理的な場所ベースのトラフィックの管理のプライマリ サーバーの DNS ポリシーの使用](https://docs.microsoft.com/en-us/windows-server/networking/dns/deploy/primary-geo-location)を参照してください。
+Windows 2016 DNS ポリシーの詳細については、[地理的な場所ベースのトラフィックの管理のプライマリ サーバーの DNS ポリシーの使用](https://docs.microsoft.com/windows-server/networking/dns/deploy/primary-geo-location)を参照してください。
   
 地理的な場所ベースのトラフィック管理の Windows 2016 DNS ポリシーを使用して、複数のサイトを持つ会社の構成例を示します。
   

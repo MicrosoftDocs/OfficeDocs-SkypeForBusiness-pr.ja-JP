@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: '概要: このトピックでは、Skype for Business Server と Skype for Business Online 間でハイブリッド接続を計画する方法を説明します。 多くの Skype for Business ハイブリッド ソリューションを展開する上で、ハイブリッド接続の設定は最初に行う手順となります。'
-ms.openlocfilehash: d3fe994535197209a8d35c10144e45badb4391a8
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 909d8be38bd03291268c7fa3b2b091072a47970e
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294087"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530889"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Skype for Business Server と Skype for Business Online 間のハイブリッド接続を計画する
 
@@ -138,7 +138,7 @@ Skype for Business Server と Skype for Business Online との間でハイブリ
 
 - サーバー 2015 のビジネス管理ツールの Skype です。 (Lync Server 2013 または Lync Server 2010 を使用する場合することができます、Lync Server 2013 管理ツールを使用します。 について詳細については、「 [Lync Server 2013 ハイブリッド](https://go.microsoft.com/fwlink/p/?LinkId=617360))
 
-- オンプレミスのディレクトリを Office 365と同期させる Azure Active Directory Connect。 詳細については「[Active Directory を Azure Active Directory と接続する](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)」を参照してください。
+- オンプレミスのディレクトリを Office 365と同期させる Azure Active Directory Connect。 詳細については「[Active Directory を Azure Active Directory と接続する](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)」を参照してください。
 
     ユーザーがオンプレミスで使用するものと同じログイン資格情報を使用できるように Office 365 でのシングル サインオンをサポートする場合、Azure Active Directory (AAD) Connect のパスワード同期機能を使用できます。 また、Office 365 でのシングル サインオンに Active Directory フェデレーション サービス (AD FS) を使用することもできます。 
 
@@ -319,7 +319,7 @@ Microsoft Online Services のデータ ・ センターの場所、によって�
 設置型展開と AAD の接続を使用してオンラインのテナント間でのユーザー アカウントを同期するときする必要がありますビジネスまたは Lync のユーザー、組織内のすべての Skype の AD のアカウントを同期する場合でも、ユーザーがオンラインに移動できません。 すべてのユーザーを同期しない場合、組織のオンプレミス展開のユーザーとオンライン ユーザーとの間の通信が正常に動作しない可能性があります。
 
 > [!IMPORTANT]
-> すべてのユーザーの管理を含むユーザーがビジネスのオンラインでの設置と Skype との間に移動行う必要があります管理ツールのインストールされている最新のバージョンを使用します。 管理ツールは、既存のオンプレミスに展開して、インターネットにアクセスを接続するには別のサーバーにインストールしなければなりません。 [Csuser からの移動](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser?view=skype-ps)、ビジネス オンラインの Skype をオンプレミス環境のユーザーを移動するコマンドレットは、社内設置型の展開に接続されている管理ツールから実行してください。 ユーザーの移動の詳細については、[ビジネス オンラインの Skype への設置型からユーザーを移動する](deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online.md)を参照してください。
+> すべてのユーザーの管理を含むユーザーがビジネスのオンラインでの設置と Skype との間に移動行う必要があります管理ツールのインストールされている最新のバージョンを使用します。 管理ツールは、既存のオンプレミスに展開して、インターネットにアクセスを接続するには別のサーバーにインストールしなければなりません。 [Csuser からの移動](https://docs.microsoft.com/powershell/module/skype/move-csuser?view=skype-ps)、ビジネス オンラインの Skype をオンプレミス環境のユーザーを移動するコマンドレットは、社内設置型の展開に接続されている管理ツールから実行してください。 ユーザーの移動の詳細については、[ビジネス オンラインの Skype への設置型からユーザーを移動する](deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online.md)を参照してください。
 
 > [!IMPORTANT]
 > Office 365 のオンライン ポータルを使用してユーザーを作成した場合、ユーザー アカウントはオンプレミスの Active Directory と同期されず、ユーザーはオンプレミスの Active Directory には存在しません。 オンライン テナントでユーザーを作成済みで、オンプレミス展開を使用してハイブリッドを構成する場合は、「オンラインからオンプレミスへのユーザーの移動」を参照してください。

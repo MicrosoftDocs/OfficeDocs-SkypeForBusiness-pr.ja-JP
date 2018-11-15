@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: Skype ルームの Windows の更新プログラムを管理システム v2
-ms.openlocfilehash: 5765f99a247edcb6287878d4cda1154ec00782f4
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 4b1b0bc27be3f8277fde0c641efe5359ca002d65
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294168"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532141"
 ---
 # <a name="manage-windows-updates"></a>Windows の更新プログラムを管理します。
 
@@ -30,13 +30,13 @@ Windows の更新プログラムは、いくつかの異なる方法で管理で
 - 品質の更新プログラムとドライバーをダウンロードして自動的に 1 日 1 をインストールします。 
 - 機能を更新します。 以下の追加の注記を参照してください。 
 
-## <a name="windows-updates-for-businesshttpsdocsmicrosoftcomen-uswindowsdeploymentupdatewaas-manage-updates-wufb-gpo-or-intune"></a>[ビジネスのための Windows の更新プログラム](https://docs.microsoft.com/en-us/windows/deployment/update/waas-manage-updates-wufb)GPO (Intune)   
+## <a name="windows-updates-for-businesshttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-wufb-gpo-or-intune"></a>[ビジネスのための Windows の更新プログラム](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb)GPO (Intune)   
 - KB の元のリリース日以降の遅延が構成されているのですが、WU または、WSUS から更新プログラムがダウンロードされます。 
 - 複数の OU と組み合わせるか、これにより、作成するためのポリシーをフィルター処理「リング」、管理者が品質の更新プログラムを最初にインストールするデバイスを指定できますの配置となるものは後でインストールします。 信頼性とパフォーマンスの SCCM で Windows の更新プログラムを管理するオーバーヘッドを生じさせず展開全体で更新プログラムをロールアウトする前にシステムの一部をテストできます。
-- WSUS とビジネスのための Windows の更新プログラムは、帯域幅の管理とビジネスのための Windows の更新プログラムのコントロールの両方を希望する場合は、[同時に構成されている](https://docs.microsoft.com/en-us/windows/deployment/update/waas-integrate-wufb)を提供します。
+- WSUS とビジネスのための Windows の更新プログラムは、帯域幅の管理とビジネスのための Windows の更新プログラムのコントロールの両方を希望する場合は、[同時に構成されている](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb)を提供します。
 - 機能を更新します。 以下の追加の注記を参照してください。
 
-## <a name="wsussccmhttpsdocsmicrosoftcomen-uswindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[WSUS または SCCM](https://docs.microsoft.com/en-us/windows/deployment/update/waas-manage-updates-configuration-manager)
+## <a name="wsussccmhttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[WSUS または SCCM](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
 - ビジネスが「リング」または全体の展開内の特定の KB を対象とする追加オプションを使用して Windows の更新プログラムのような。 各更新プログラムは、個別に展開されたとは、テストではなく遅延のみで証明書利用者にあります。 
 - 機能を更新します。 以下の追加の注記を参照してください。
 

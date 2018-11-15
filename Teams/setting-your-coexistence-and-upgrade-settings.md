@@ -13,45 +13,45 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b89d75f07ecfac6e37f33c27a9272187b0794a6
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 28d5cd4a967245f1df18530d58ed1c2679e910e3
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371507"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531863"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>共存およびアップグレードの設定を設定します。
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-チームを使用するビジネス ユーザー向けに、Skype をアップグレードするとき、ユーザーにシームレスなプロセスにするためのいくつかのオプションがあります。 共存し、組織内のユーザーのすべての設定をアップグレードするためのオプションがあるか、組織内の 1 つまたは一連のユーザー設定の変更を行うことができます。 Skype のビジネス クライアント用の以前のバージョンがこれらの設定を無視可能性があることに注意してください。
+チームを使用するビジネス ユーザー向けに、Skype をアップグレードするとき、ユーザーにシームレスなプロセスにするためのいくつかのオプションがあります。 共存し、組織内のユーザーのすべての設定をアップグレードするためのオプションがあるか、組織内の 1 つまたは一連のユーザー設定の変更を行うことができます。 Skype のビジネス クライアント用の以前のバージョンがこれらの設定を無視可能性があることに注意してください。 ビジネス クライアントのバージョンの Skype の詳細については[ビジネスの Skype がダウンロードされページの更新](https://docs.microsoft.com/en-us/skypeforbusiness/software-updates)を参照してください。 
 
-ユーザー レベルで割り当てられている設定は、組織全体のレベルで適用される設定よりも優先されます。 [共存を理解しビジネスとチームの Skype の旅のアップグレード](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)を参照して使用するモードの種類を取得できます。  
+[マイクロソフト チームの理解と Skype ビジネスの共存と相互運用性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)を読み取ることによってユーザーに使用できるモードの種類の理解を深めるを取得できます。  
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
 
-## <a name="setting-upgrade-options-for-all-users-in-your-organization"></a>組織内のすべてのユーザーに対してアップグレード オプションの設定
+## <a name="set-upgrade-options-for-all-users-in-your-organization"></a>組織内のすべてのユーザーのアップグレード ・ オプションを設定します。
 
 ![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
 
 1. 左側のナビゲーションでは、**組織全体の設定**に移動 > **のチームをアップグレード**します。 
 
-2. **チームは、ページをアップグレード**] ページの上部には、次の変更する場合にも使用する場合。
+2. **チームのアップグレード**] ページの上部には、次の変更する場合にも使用する場合。
     - **共存**モードを設定します。
         - **島**のビジネスとチームの両方の Skype を同時に使用できるようにする場合、この設定を使用します。
         - **ビジネスのみの Skype**の使用する場合は、ユーザーにのみ、この設定は、ビジネスの Skype を使用します。
-        - だけチームの**チームのみ**がこの設定でユーザーが使用する場合に使用します。 であっても、この設定でユーザー参加できますビジネス用の Skype でホストされている会議に注意してください。
+        - **チームのみ**(プレビューでいくつかの組織) のユーザーがチームのみを使用する場合、この設定を使用します。 であっても、この設定でユーザー参加できますビジネス用の Skype でホストされている会議に注意してください。
     - **Skype チームが使用可能にアップグレードするため、ビジネス ユーザー向けに通知**を設定します。 これをオンにする場合は分かります、Skype のビジネス ユーザーのことではすぐにアップグレードするチームのアプリケーションにします。
     - **Skype のビジネス ・ ミーティングに参加するユーザーのアプリケーションを優先**に設定します。 この設定では、Skype のビジネス ・ ミーティングに参加するためにアプリケーションが使用されるかを決定し、共存モードの値に関係なく受取済です。
       - **Skype 会議アプリケーション**
       - **限られた機能とビジネスの Skype**
-    - **ビジネス ユーザー向け Skype をバック グラウンドでチームのアプリケーションをダウンロード**するかどうかを設定します。  この設定は、Windows 上でビジネス用の Skype を実行しているユーザーのチームのアプリケーションをサイレント モードでダウンロードします。 ビジネス用の Skype での保留中のアップグレードの通知が有効になっている場合またはユーザーの共存モードは、チームだけの場合にのみ受け入れられます。
+    - **ビジネス ユーザー向け Skype をバック グラウンドでチームのアプリケーションをダウンロード**するかどうかを設定します。  この設定は、Windows 上でビジネス用の Skype を実行しているユーザーのチームのアプリケーションをサイレント モードでダウンロードします。 ビジネス用の Skype での保留中のアップグレードの通知が有効になっている場合またはユーザーの共存モードは、チームのみの場合にのみ受け入れられます。
 3. 変更を加えた後、[**保存**] をクリックします。
 
-## <a name="setting-upgrade-options-for-a-single-user-in-your-organization"></a>1 人のユーザー、組織内のアップグレード オプションの設定
+## <a name="set-upgrade-options-for-a-single-user-in-your-organization"></a>組織内の 1 人のユーザーのアップグレード ・ オプションを設定します。
 
 ![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
 
@@ -70,4 +70,4 @@ ms.locfileid: "25371507"
 
 [共存を理解し、Skype のビジネスとチームの旅をアップグレード](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-[ビジネスのチームとは、Skype を使用する組織の移行と相互運用性のガイド](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
+[ビジネスのチームとは、Skype を使用する組織の移行と相互運用性のガイド](migration-interop-guidance-for-teams-with-skype.md)

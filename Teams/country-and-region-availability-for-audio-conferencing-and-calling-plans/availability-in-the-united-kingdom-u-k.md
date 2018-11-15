@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 英国の利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: f3e83adc835f003091ed0a1aa38953269dbe4b95
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: ada6f7c5d4919a3c114488da8b30e7b58f9d6821
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293989"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531136"
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>英国 (英国) の可用性
 
@@ -62,7 +62,7 @@ ms.locfileid: "26293989"
 |:-----|:-----|
 |通話プランは購入できますか?  <br/> |はい  <br/> |
 |分の計画を呼び出すに使用できます。 |1 か月間利用は 4 つのプランのオプションがあります。 <ul><li>120 分、国内の計画を呼び出す </li><li>240 分、国内の計画を呼び出す</li></li><li>1200 分、国内の計画を呼び出す </li></li><li>国内および国際を呼び出す計画を 600 分</li></li> 
-|プレミアム番号への発信コールを行うことができますでしょうか。 <br/> | 部分的にサポートされている: コスト番号を共有する (プレフィックス 44843、44844、44845、44870、44871、44872) の呼び出しはサポートされています。  449XX プレフィックスへの呼び出しはサポートされていません。 <br/> |
+|プレミアム番号への発信コールを行うことができますでしょうか。 <br/> | 部分的にサポートされている: 1 分あたりの支払にクレジットの通信を使用してコスト番号を共有する (プレフィックス 44843、44844、44845、44870、44871、44872) の呼び出しがサポートされています。  449XX プレフィックスへの呼び出しはサポートされていません。 <br/> |
 |発信通話を行うことができますか?  <br/> | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号

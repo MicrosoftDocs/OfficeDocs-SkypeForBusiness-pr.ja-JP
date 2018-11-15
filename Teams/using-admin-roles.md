@@ -9,12 +9,12 @@ ms.service: msteams
 description: チームを管理するために異なる管理役割を使用するについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e09aa4146588cf32a6dd7cf0816a89cb4bdd696
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: f70b1035600079d4a4f746fe33fa03c6eab287a7
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295867"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531352"
 ---
 # <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>マイクロソフト チームの管理者の役割を使用して、チームを管理するには
 
@@ -33,17 +33,17 @@ Azure Active Directory (AD の Azure) を使用すると、マイクロソフト
 | Teams 通信サポート エンジニア | **高度な**ツールを使用して、チーム内での通信に関する問題をトラブルシューティングします。 | トラブルシューティングのユーザー プロファイルのページへのアクセスは、分析機能の呼び出しで呼び出されます。 完全な呼び出しレコードの情報を表示できます。<sup>3</sup> |
 | チーム ・ コミュニケーション ・ サポート ・ スペシャ リスト | **基本的な**ツールを使用して、チーム内での通信に関する問題をトラブルシューティングします。| トラブルシューティングのユーザー プロファイルのページへのアクセスは、分析機能の呼び出しで呼び出されます。 検索されている特定のユーザーのユーザー情報のみを表示可能。<sup>3</sup>
 
-<sup>1</sup> [PowerShell の Skype ビジネス モジュールの](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
+<sup>1</sup> [PowerShell の Skype ビジネス モジュールの](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
 <sup>2</sup> [PowerShell のマイクロソフト チーム モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
-<sup>3</sup> [マイクロソフト チームと Skype のビジネス管理センター](https://docs.microsoft.com/en-us/microsoftteams/manage-teams-skypeforbusiness-admin-center)
+<sup>3</sup> [マイクロソフト チームと Skype のビジネス管理センター](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
 <!-- <sup>4</sup> Azure Active Directory Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 <sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 -->
-マイクロソフトのチームを管理するために利用可能な管理ツールの詳細については、[マイクロソフトのチームを管理する](https://docs.microsoft.com/en-us/microsoftteams/manage-teams-skypeforbusiness-admin-center)を参照してください。
+マイクロソフトのチームを管理するために利用可能な管理ツールの詳細については、[マイクロソフトのチームを管理する](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)を参照してください。
 
 ## <a name="assign-users-to-each-role"></a>各ロールにユーザーを割り当てる
 
-Azure Active Directory 内のこれらのロールにユーザーを割り当てることができます。 Azure Active Directory 内のユーザーに管理者の役割を割り当てる方法については、 [Azure Active Directory の管理者ロールにユーザーを割り当てる](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)を参照してください。
+Azure Active Directory 内のこれらのロールにユーザーを割り当てることができます。 Azure Active Directory 内のユーザーに管理者の役割を割り当てる方法については、 [Azure Active Directory の管理者ロールにユーザーを割り当てる](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)を参照してください。
 
 ## <a name="cmdlets-available-for-each-role"></a>役割ごとに利用可能なコマンドレット
 
@@ -59,6 +59,6 @@ PowerShell ツールは、これらの管理者の役割のほとんどは、ビ
 ### <a name="related-topics"></a>関連トピック
 
 - [マイクロソフト チーム PowerShell の概要](teams-powershell-overview.md)
-- [マイクロソフト チーム PowerShell](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps)
-- [チーム所有者およびマイクロソフトのチームのメンバーを割り当てる](https://docs.microsoft.com/en-us/microsoftteams/assign-roles-permissions)
+- [マイクロソフト チーム PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
+- [チーム所有者およびマイクロソフトのチームのメンバーを割り当てる](https://docs.microsoft.com/microsoftteams/assign-roles-permissions)
 
