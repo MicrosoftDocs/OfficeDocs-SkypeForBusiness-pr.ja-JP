@@ -1,5 +1,5 @@
 ---
-title: マイクロソフトのチームでのライブ イベントを設定します。
+title: Microsoft Teams でのライブ イベントのセットアップ
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
@@ -14,14 +14,14 @@ description: ネットワークを準備するなどのライセンスを割り�
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a92f227b7f625da02e003622c8ff87e744206443
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 08dd8c431f31fef8dc30f72f4944c2ba907850cc
+ms.sourcegitcommit: 2be5458d05fab32771845f855201126a87303b95
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532664"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "26548831"
 ---
-# <a name="set-up-for-live-events-in-microsoft-teams"></a>マイクロソフトのチームでのライブ イベントを設定します。
+# <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントのセットアップ
 
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
@@ -31,7 +31,7 @@ ms.locfileid: "26532664"
 クイック スタートのライブ イベントでは、[マイクロソフトのチームの組織のネットワークを準備](https://docs.microsoft.com/microsoftteams/prepare-network)するのには必要です。  
 
 ## <a name="step-2-get-and-assign-licenses"></a>手順 2: ライセンスを取得して割り当てる
-正しいライセンスの割り当てがあることを確認して[を作成し、ライブ イベントのスケジュールを設定することができますでしょうか。](#who-can-create-and-schedule-live-events)と[のライブ イベントを監視するですか?](#who-can-watch-live-events)。
+正しいライセンスの割り当て[を作成しライブ イベントのスケジュールを設定することができ](plan-for-teams-live-events.md#who-can-create-and-schedule-live-events)、[ライブ イベントを監視する](plan-for-teams-live-events.md#who-can-watch-live-events)ことを確認します。
 
 ## <a name="step-3-set-up-live-events-policies"></a>手順 3: は、ライブ イベントのポリシーを設定します。
 ライブ イベントと、イベントで使用可能な機能を保持できる、組織内のユーザーを制御するポリシーを使用するライブ イベントを作成します。 既定のポリシーを使用して、または 1 つを作成したりよりカスタマイズのライブ イベントのポリシー。 カスタム ポリシーを作成した後は、ユーザーまたは組織内のユーザーのグループに割り当てます。
