@@ -13,16 +13,19 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8529adfafcac9e00bf97dc358944d83f31cd7722
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5becca716ad4790cc0b156dd15895e66fea7d836
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371859"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26539042"
 ---
 # <a name="plan-for-governance-in-teams"></a>チームの管理のための計画
 
 チームは、組織が必要な場合があります、管理機能を実装するためのツールの豊富なセットを提供します。 この資料では、IT プロフェッショナルが、ガバナンス、およびそれらに対応する方法についての要件を確認するのには、正しい質問をガイドします。 
+
+> [!Tip] 
+> マイクロソフトのチームでの管理の詳細については、次のセッションを見る:[管理、管理、およびマイクロソフトのチームでのライフ サイクル](https://aka.ms/teams-governance)
 
 ## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>グループとチームの作成、名前付け、分類、およびゲスト アクセス
 

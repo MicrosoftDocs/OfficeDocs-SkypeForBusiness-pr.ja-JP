@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Office 365 の電話会議 (PSTN 会議) ライセンスを試す方法または購入する方法を参照して、ダイヤル インできる電話会議をセットアップしてください。 '
-ms.openlocfilehash: c404e427a83fc8b94d3f2a206e5c9c6b1ded5ed0
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 1b04a2506bd495165afcdf3e9f41ed6db6cd9252
+ms.sourcegitcommit: bd32d44d27990e373ce6afa38897159473601113
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533094"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "26544405"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>チームが Microsoft Office 365 に電話会議を購入するか
 
@@ -76,7 +76,7 @@ ms.locfileid: "26533094"
 
 割り当てると、組織内の各ユーザーに**電話会議**のライセンス ビジネスは、サード パーティ製のオーディオ会議プロバイダーと統合されたために、Skype を持っていない人、すべてのセットへの移動が可能です。 (電話会議プロバイダーを設定する必要はありません。)
 
-サード パーティ製のオーディオ会議プロバイダーを有効になっているユーザーであれば、マイクロソフトにこれらのユーザーのプロバイダーを変更する必要があります。 ユーザーのプロバイダーを変更するには、[オーディオ会議プロバイダーとしてのマイクロソフトの割り当て](assign-microsoft-as-the-audio-conferencing-provider.md)を参照してください。
+サード パーティ製のオーディオ会議プロバイダーを有効になっているユーザーであれば、マイクロソフトにそれらのユーザーのプロバイダーを変更する必要があります。 ユーザーのプロバイダーを変更するには、[オーディオ会議プロバイダーとしてのマイクロソフトの割り当て](/Skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)を参照してください。
 
 ## <a name="step-3-other-admin-tasks"></a>手順 3: その他の管理タスク
 

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Skype ルーム システム v2 の展開方法については、この資料を参照してください。
-ms.openlocfilehash: 39704e044d5a5210d47a0347790f5602a3086270
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 7d9a24b69c1e91c5193f67b6bdc321981265cda7
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26510646"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26539073"
 ---
 # <a name="deployment-overview"></a>展開の概要
 
@@ -100,7 +100,7 @@ _計画表サンプル Skype ルーム システム v2 のサービス アカウ
 すべての Skype ルーム システム v2 のサービス (ユーザー) アカウントを追加するのには、オンプレミス Active Directory または Azure AD グループを定義し、Get CSUserSession PowerShell コマンドレットを使用して、Skype ルーム システム v2 の配置で、利用状況レポートを作成します。 たとえば、SkypeRoomSystemsv2 ・ サービス ・ アカウントをという名前のグループを作成します。 
 
 
-Skype ルーム システム v2 のすべてのユーザー アカウントを保持する (これらは、ドメインに参加している) 場合は、Skype ルーム システム v2 のすべてのコンピューター アカウントを保持するために、オンプレミス Active Directory または AD の Azure 階層内の 1 つの組織単位と 1 つの組織単位を定義します。 Skype ルーム システム v2 のコンピューター アカウントの組織単位を作成した場合は、Skype の部屋のドメインに参加している Systemsv2 に適用することを意図したポリシーのみを適用することを確認するのには継承を無効にすることを検討してください。 
+Skype ルーム システム v2 のすべてのユーザー アカウントを保持する (これらは、ドメインに参加している) 場合は、Skype ルーム システム v2 のすべてのコンピューター アカウントを保持するために、オンプレミス Active Directory または AD の Azure 階層内の 1 つの組織単位と 1 つの組織単位を定義します。 Skype ルーム システム v2 のコンピューター アカウントの組織単位を作成した場合は、Skype ルーム システムのドメインに参加しているバージョン 2 を適用することを意図したポリシーのみを適用することを確認するのには継承を無効にすることを検討してください。 
 
 Skype ルーム システム コンピューター アカウントを含む組織単位に割り当てられたグループ ポリシー オブジェクトを作成します。 使用します。 
 
@@ -128,7 +128,7 @@ Skype ルーム システム v2 の各デバイスには、ビジネスと Excha
 
 **Pro ヒント**: 表示名がこれらのアカウントのわかりやすい名前とわかりやすい。 これらは、ユーザーの検索と、会議に Skype ルーム システム v2 のシステムを追加するときに表示される名前です。 組織によっては、*サイト*の規約を使用して-*ルーム名*(*最大収容能力*) の RS、たとえば Curie-ロンドンの 12 人の会議室-ため CURIE (12) RS の表示名があります。 
 
-<!-- If your organization has many conference rooms that require multiple, provisioned accounts, you might want to use [Skype Room Systems Accounts Provisioning Scripts](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) to bulk-provision multiple service accounts in an automated fashion. -->
+組織は、複数を必要とする多くの会議室には、プロビジョニングされたアカウントは、場合、自動的に複数のサービス アカウントを一括提供する[Skype ルーム システム アカウント プロビジョニング スクリプト](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5)を使用します。
 
 
 |    |     |

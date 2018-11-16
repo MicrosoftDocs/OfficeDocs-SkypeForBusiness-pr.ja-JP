@@ -20,17 +20,18 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: '米国とヨーロッパで公衆交換電話網 (PSTN) を使用して業務を行うユーザーの緊急対応の住所を変更する方法の手順を参照してください。 '
-ms.openlocfilehash: e27ea228972ceead0838cff481a0db983c503b02
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: '緊急で、パブリック交換電話網 (PSTN)、米国とヨーロッパでの作業をユーザーのアドレスを変更する方法です。 '
+ROBOTS: NOINDEX
+ms.openlocfilehash: 8dac43120fafa1a98e441b983b673e78d2a24d75
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347103"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26538961"
 ---
 # <a name="change-the-emergency-address-for-a-user"></a>ユーザーの緊急対応の住所を変更する
 
-Office 365 の通話プランを設定している場合、電話番号またはユーザーごとに緊急対応の住所を割り当てる必要があります。 欧州諸国では、Office 365 から電話番号を取得するとき、または Office 365 に電話番号を転送するときに、緊急対応の住所が電話番号と関連付けられます。 米国では、電話番号がユーザーに割り当てられるときに、緊急対応の住所が電話番号と関連付けられます。 緊急対応の住所が割り当てられたユーザーが新しい場所に引っ越す場合、緊急対応の住所は変更できます。 緊急対応の場所および住所の詳細については、「[緊急対応の場所、アドレス、通話ルーティングの概要](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)」を参照してください。
+When you are setting up Calling Plans in Office 365, you will need to assign an emergency address to each phone number or user. In European countries, the emergency address is associated with the phone number when you get it from Office 365 or when you transfer a phone number over to Office 365. In the United States, the emergency address is associated with the phone number when it is assigned to the user. The emergency address can be changed if the user it is assigned to moves to a new location. For more about emergency addresses and locations, see [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
   
 Office 365 の通話プランの取得方法とかかる費用については、「[Skype for Business と Microsoft Teams アドオン ライセンシング](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)」を参照してください。
   
@@ -56,7 +57,7 @@ Office 365 の通話プランの取得方法とかかる費用については、
 7. [**緊急時のアドレスの変更**を都市の名前をボックスに入力し、**検索**] をクリックします。
     
     > [!IMPORTANT]
-    > 既に検証されている緊急対応の住所のみ変更できます。 検証されていない緊急対応の住所を変更するには、その住所を変更して、別の緊急対応の住所を作成します。 
+    > You can only change an emergency address that has already been validated. To change an emergency address that hasn't been validated, delete it and create another emergency address. 
   
 8. リストから新しい緊急対応の住所を選択し、[ **保存**] をクリックします。
     
