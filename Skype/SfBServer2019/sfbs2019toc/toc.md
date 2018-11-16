@@ -7,7 +7,7 @@
 ### [クライアント用更新プログラム](../../SfbServer/sfb-client-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [サーバーの更新](../../SfbServer/sfb-server-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
-## ハイブリッド ソリューション
+## チームおよびビジネス用の Skype のためのハイブリッド ソリューション
 ### [ハイブリッド接続を計画します。](../hybrid/plan-hybrid-connectivity.md)
 ### [ハイブリッド接続を設定します。](../hybrid/configure-hybrid-connectivity.md)
 #### [ハイブリッド環境向けの Azure AD 接続を構成します。](../hybrid/configure-azure-ad-connect.md)
@@ -15,6 +15,7 @@
 #### [複数のフォレスト環境を構成します。](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
 ### [オンライン ビジネスのユーザーを設置から Skype に移動します。](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
 ### [移動ユーザーがチームを設置](../hybrid/move-users-from-on-premises-to-teams.md)
+### [Exchange や SharePoint と統合する](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
 ## 計画
 ### [トポロジの基本](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)

@@ -12,12 +12,12 @@ search.appverid: MET150
 description: トレーニング ビデオ、チュートリアル、およびその他のリソースを計画する方法には、展開、およびマイクロソフトのチームを実行します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73c2163557706066f079f3ce61c1d4d3c58ed906
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 21a55aed41443ed0a1411384579cfad2acda7de5
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533128"
+ms.locfileid: "26538970"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 
@@ -165,6 +165,7 @@ ms.locfileid: "26533128"
                         <h3>計画し、展開</h3>
                          <p><a href="quick-start-enable-teams.md">クイック スタート: Teams の計画ガイド</a></p>
                          <p><a href="http://aka.ms/teams-clients">ビデオ: チームの Windows デスクトップ クライアント</a></p>
+                         <p><a href="http://aka.ms/teams-governances">ビデオ: 管理、管理、およびマイクロソフトのチームでのライフ サイクル</a></p>
                     </div>
                 </div>
             </div>

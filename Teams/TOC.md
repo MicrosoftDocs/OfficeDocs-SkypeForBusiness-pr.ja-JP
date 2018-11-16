@@ -178,7 +178,7 @@
 ## [Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)
 ## [Teams のコンテンツに対して電子情報開示の調査を行う](ediscovery-investigation.md)
 ## [Teams での ID モデルと認証](identify-models-authentication.md)
-## [現代の認証](sign-in-teams.md)
+## [チームの最新の認証を使用してにサインインします。](sign-in-teams.md)
 ## [Teams ユーザーまたはチームに訴訟ホールドを適用する](legal-hold.md)
 ## [Teams でイベントの監査ログを検索する](audit-log-events.md)
 ## [Teams のコンテンツ検索を使用する](content-search.md)
