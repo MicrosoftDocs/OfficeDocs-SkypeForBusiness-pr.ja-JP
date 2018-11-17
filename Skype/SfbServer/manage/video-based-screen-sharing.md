@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype 画面ビデオ ・ ベース (VbSS) を共有するためのビジネス サーバーの計画と構成について
-ms.openlocfilehash: 8541bb0dc3b5791c670a3beac77560b3c9663733
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 450a6ab5550c00e91e2d9772d954dc8f51d38156
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531625"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561922"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>ビデオ ベースの画面共有 Skype のビジネス サーバー 
  
@@ -60,7 +60,7 @@ VbSS に切り替える目的は、次の 3 つの重要な改善を行うこと
 次のメディア ポート QoS が有効になっているし、VbSS が有効になりますと MCU に示すようにビデオのポートの設定を使用して、デスクトップの共有を含む会議中に太字の下の共有のトラフィックを選別します。 
   
 > [!IMPORTANT]
-> これらの設定は、特殊なケース、およびこれらの機能の両方を実装する場合、これらの正確な設定を使用する必要があります。 これには、 [QoS のマニュアル](https://technet.microsoft.com/en-us/library/gg405409%28v=ocs.15%29.aspx)で推奨されるその他の設定がオーバーライドされます。 /Fo オプション アプリケーションを共有するこれらのポートの値を定義するだけでなく、QoS の GPO で ASMCUSVC.exe を指定する必要があります。 
+> これらの設定は、特殊なケース、およびこれらの機能の両方を実装する場合、これらの正確な設定を使用する必要があります。 これには、 [QoS のマニュアル](https://technet.microsoft.com/en-us/library/gg405409%28v=ocs.15%29.aspx)で推奨されるその他の設定がオーバーライドされます。 アプリケーションを共有するためは、これらのポートの値を定義するだけでなく、QoS の GPO で ASMCUSVC.exe を指定する必要がもあります。 
   
 **サーバーの QoS と VbSS のアプリケーションに必要な設定**
 

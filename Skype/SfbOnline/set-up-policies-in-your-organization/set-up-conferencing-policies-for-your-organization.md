@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 電話会議は Skype for Business Online の重要な部分です。電話会議により、ユーザーのグループがオンラインで一緒にスライドやビデオを表示したり、アプリケーションを共有したり、ファイルをやり取りしたり、連絡を取り合って共同作業することができるようになります。
-ms.openlocfilehash: 7e53f03a78b1e018323540daa22f8b4af72fb0ac
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 35cbafdbd69f3241cc1634e4edff455b4c35926d
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373119"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561658"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>組織の電話会議ポリシーをセットアップする
 
@@ -69,7 +69,7 @@ Skype for Business Online では、電話会議は電話会議ポリシーを使
     Import-PSSession $session
    ```
 
-   Windows PowerShell を開始する方法の詳細を設定する場合は、 [1 つの Windows PowerShell のウィンドウ内のすべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)か、 [Windows PowerShell を使用して、オンライン ビジネスの Skype への接続](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)を参照してください。
+   Windows PowerShell を開始する方法の詳細を設定する場合は、 [1 つの Windows PowerShell のウィンドウ内のすべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)か、 [Windows PowerShell には、コンピューターの設定](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)を参照してください。
     
 ### <a name="block-file-transfers-and-desktop-sharing-during-meetings"></a>会議中のファイル転送およびデスクトップ共有を禁止する
 
@@ -133,7 +133,7 @@ Skype for Business Online では、電話会議は電話会議ポリシーを使
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Office 365 PowerShell を使用する必要がある理由 ](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell には、ただ Office 365 管理センターを使用するだけではなく、速度、単純さ、生産性において多くの利点があります。次のトピックでこれらの利点について説明します。
     
@@ -141,7 +141,7 @@ Skype for Business Online では、電話会議は電話会議ポリシーを使
     
   - [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [クイック リファレンス: Windows PowerShell を使用した一般的な Lync Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
 
 ## <a name="related-topics"></a>See also
 [カスタム外部アクセス ポリシーを作成する](create-custom-external-access-policies.md)

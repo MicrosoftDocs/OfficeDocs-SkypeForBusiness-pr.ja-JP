@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: クラウド コネクタ版 version 2.0 以降でメディアをバイパスを展開する手順については、このトピックを参照してください。
-ms.openlocfilehash: 38ff1ffa3aef7e6cd85237048c46c5746b61e7bb
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a764c17af7c23d27305f9e2f3e88eaed6edc33cf
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531704"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561915"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Cloud Connector エディションでメディア バイパスを展開する
  
@@ -32,7 +32,7 @@ ms.locfileid: "26531704"
   
 テナント管理者は内部実働の Active Directory で DNS A レコードを構成する必要があります。 複雑な複数サイト環境を使っている場合の例を参照してください。[の使用例: メディアが複雑な複数サイトの環境で web サイトの DNS レコードを使用しない](deploy-media-bypass-in-cloud-connector.md#Example)。 DNS レコードは、内部ネットワーク クライアントについてのみ解決します。外部ネットワーク クライアントについては解決しません。
   
-DNS を構成したら、Skype for Business 管理者の資格情報で リモート PowerShell を使用して、Skype for Business Online に接続します。 詳細については、「[Windows PowerShell を使用した Skype for Business Online への接続](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)」を参照してください。
+DNS を構成したら、Skype for Business 管理者の資格情報で リモート PowerShell を使用して、Skype for Business Online に接続します。 詳細については、 [Windows PowerShell には、コンピューターの設定](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)を参照してください。
   
 PowerShell セッションで、次のコマンドを入力してメディア バイパスを有効にします。
   

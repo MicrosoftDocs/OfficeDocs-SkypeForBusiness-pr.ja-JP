@@ -3,25 +3,24 @@ title: ビジネス サーバー 2019 の Skype からどのような使用さ�
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 7/10/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: これらの機能がなくなる Skype からビジネス サーバー 2019 のです。'
-ms.openlocfilehash: 66366c2272db8d6f605fde6dc066f730543883b6
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 399c5f219ae5a088c4e7f8aa40f40344885d571e
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530543"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561612"
 ---
-# <a name="whats-deprecated-from-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype からどのような使用されなくなりました 
+# <a name="whats-deprecated-from-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype からどのような使用されなくなりました
 
 ビジネス サーバー 2019 の Skype で廃止された機能について説明します。 ビジネス サーバー 2019 の Skype の新機能については、[ビジネス サーバー 2019 の Skype では、何](whats-new.md)を参照してください。
 
-Emphasised の機能の一部に含まれて Skype ビジネス サーバー 2019 製品の以前のバージョンとの互換性のためです。 
+Emphasised の機能の一部に含まれて Skype ビジネス サーバー 2019 製品の以前のバージョンとの互換性のためです。
 
 ## <a name="features-deprecated-in-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype では非推奨の機能 
 
@@ -31,12 +30,11 @@ Emphasised の機能の一部に含まれて Skype ビジネス サーバー 201
 
 ビジネス サーバー 2015 と、以前のバージョンの Skype には、エッジ サーバーとフロント エンド サーバーまたはフロント エンド プールに、XMPP ゲートウェイの拡張可能なメッセージングおよびプレゼンス プロトコル (XMPP) プロキシを構成することができました。 この機能は、ビジネス サーバー 2019 の Skype で利用可能ではありません。
 
-
 ### <a name="persistent-chat-for-skype-for-business-server"></a>Skype のビジネス サーバー用の永続的なチャット
 
 永続的なチャット サーバーは、組織内の複数のユーザーをできるようにするオプションのロールは、時間の経過と共に永続化するチャット ルームの会話に参加します。 ビジネス サーバー 2019 Skype で永続的なチャットに展開することはできません。 トポロジ ビルダー、およびコードからは、このサーバーの役割が削除されます。 
 
-同じ機能は、チームで使用できます。 詳細については、[マイクロソフトのチームにビジネス用の Skype からの旅](/microsoftteams/journey-skypeforbusiness-teams)を参照してください。   
+同じ機能は、チームで使用できます。 詳細については、[マイクロソフトのチームにビジネス用の Skype からの旅](/microsoftteams/journey-skypeforbusiness-teams)を参照してください。
 
 ### <a name="sql-mirroring-for-skype-for-business-server"></a>SQL が Skype のビジネス サーバーのミラーリング
 
@@ -46,7 +44,7 @@ SQL のミラーリングを展開できません Skype でのビジネス サ�
 
 インプレース アップグレードはビジネス サーバー 2015 の Skype で利用できるが、ビジネス サーバー 2019 の Skype でサポートされていません。 アップグレードおよび coexistance のサポートに並べて、[ビジネス サーバー 2019 の Skype への移行](migration/migration-to-skype-for-business-server-2019.md)の詳細についてを参照してください。
 
-###  <a name="mobility-service-mcx"></a>モビリティ サービス (Mcx)
+### <a name="mobility-service-mcx"></a>モビリティ サービス (Mcx)
 
 モビリティ サービスのサポートが従来のモバイル クライアントによって使用されるがビジネス サーバー 2019 の Skype で利用可能ではありません。 以前、Skype のビジネス サーバー 2015 のこの発表されました。
 

@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: ビジネス管理センターのレポート領域の新しい Skype では、組織内を呼び出し、オーディオ会議のアクティビティを示しています。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 たとえば、Skype for Business での PSTN 使用状況の詳細レポートを使用して、通話の着信/発信に費やした分数とそれらの通話の料金を確認できます。 使用状況を把握して、組織内での使用状況を確認するのには請求先の詳細を呼び出すように、呼び出しのコストを含むオーディオ会議の PSTN 使用法の詳細を表示することができます。
-ms.openlocfilehash: 6003199b69395001dc47d77f83927ac32e06e5a4
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e4af77832cca1cd2a9d9de49aa83f4400c359277
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862243"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561648"
 ---
 # <a name="pstn-usage-report"></a>PSTN の使用状況のレポート
 
@@ -92,7 +92,9 @@ ms.locfileid: "23862243"
      *    **MCOPSTN5** - 国内の呼び出しのプラン (120 分の通話プラン) 
      *    **MCOPSTN6** - 国内の呼び出しの計画 (240 分の通話プラン) メモ: 制限された可用性
      *    **MCOMEETADD** - オーディオ会議
-     *    **MCOMEETACPEA** - 電話会議の分あたりの支払 
+     *    **MCOMEETACPEA** - 電話会議の分あたりの支払
+> [!NOTE]
+> "データはありませんいくつかのフィールドにも表示します。 「データがありません」では、フィールドには適用されない呼び出しの種類や機能を意味します。 
 ***
 ![ナンバー 2](../images/sfbcallout2.png)<br/>1 つ以上の列の全データをまとめたビューを作成したい場合は、列を [ **特定の列を基準にグループ化するには、ここに列ヘッダーをドラッグ アンド ドロップします**] にクリック アンド ドラッグします。
  ***
@@ -118,7 +120,7 @@ ms.locfileid: "23862243"
 
 - [Skype ビジネス セッション詳細レポート](session-details-report.md)個々 のユーザーの呼び出しの経験についての詳細を表示できます。
     
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 [Office 365 管理センターのアクティビティ レポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
   

@@ -21,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Meeting Migration Service (MMS) は Skype for Business サービスの 1 つで、バックグラウンドで動作して、ユーザーのために Skype for Business および Microsoft Teams 会議を自動的に更新します。MMS はユーザーが会議移行ツールを実行して Skype for Business および Microsoft Teams 会議を更新しなくても済むように設計されています。
-ms.openlocfilehash: 045896fe8b612e01a22360e0c12f15ebe2719c76
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 4a1cdc03945e6399b4c77dd12b800fd25b2401cc
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374642"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561708"
 ---
 # <a name="setting-up-the-meeting-migration-service-mms"></a>Meeting Migration Service (MMS) のセットアップ
 
-Meeting Migration Service (MMS) is a Skype for Business service that runs in the background and automatically updates Skype for Business and Microsoft Teams meetings for users. MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.  This tool does not migrate Skype for Business meetings into Microsoft Teams meetings.  
+[] Meeting Migration Service (MMS) は Skype for Business サービスの 1 つで、バックグラウンドで動作して、ユーザーのために Skype for Business および Microsoft Teams 会議を自動的に更新します。 MMS はユーザーが会議移行ツールを実行して Skype for Business および Microsoft Teams 会議を更新しなくても済むように設計されています。  このツールは、マイクロソフトのチーム ミーティングにビジネス会議のため Skype を移行しません。  
   
  **要件**
   
@@ -141,7 +141,7 @@ MMS が会議を移行するのにかかる時間の量は、影響するユー�
   
 ## <a name="managing-mms"></a>MMS の管理
 
-You need to use Windows PowerShell to manage MMS and check the status of ongoing migrations. The information in this section assumes that you're familiar with using PowerShell to manage your Skype for Business organization. If you are new to PowerShell, see the [Using PowerShell to manage your Skype for Business organization](setting-up-the-meeting-migration-service-mms.md#WPSInfo) section at the end of this article.
+Windows PowerShell を使用して MMS を管理し、継続的な移行の状態を確認する必要があります。 このセクションの情報は、PowerShell を使用した Skype for Business の組織の管理に慣れていることを前提としています。 PowerShell を初めて使用する場合は、この資料の最後に[、Skype をビジネスの組織を管理するために PowerShell を使用する](setting-up-the-meeting-migration-service-mms.md#WPSInfo)を参照してください。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -253,7 +253,7 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com
 
  **Windows PowerShell バージョン 3.0 以降を実行していることを確認する**
   
-1. 3.0 以降のバージョンが実行されていることを確認する場合: **[スタート] メニュー** > **[Windows PowerShell]**。
+1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
     
 2. [ _Windows PowerShell_] ウィンドウに「 **Get-Host**」と入力して、バージョンを確認します。
     
@@ -265,7 +265,7 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com
   
  **Windows PowerShell セッションを開始する**
   
-1. [**スタート メニュー**]  >  [**Windows PowerShell**] から開きます。
+1. From the **Start Menu** > **Windows PowerShell**.
     
 2. [ **Windows PowerShell**] ウィンドウで、次を実行して、Office 365 の組織に接続します。
     
@@ -279,7 +279,7 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com
 >   $session = New-CsOnlineSession -Credential $credential
 >   Import-PSSession $session
 >   ```
-> Windows PowerShell の起動の詳細については、「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)」または「[Windows PowerShell を使用した Lync Online への接続](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx)」を参照してください。
+> Windows PowerShell を開始する方法の詳細を設定する場合は、 [1 つの Windows PowerShell のウィンドウ内のすべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)か、 [Windows PowerShell には、コンピューターの設定](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)を参照してください。
   
 - Windows PowerShell で行うのは、ユーザーを管理し、ユーザーに何を許可して何を禁止するかを管理することです。Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
@@ -293,7 +293,7 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com
     
   - [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [クイック リファレンス: Windows PowerShell を使用した一般的な Lync Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
     
 ## <a name="related-topics"></a>See also
 

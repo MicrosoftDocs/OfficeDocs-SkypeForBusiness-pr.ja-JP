@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: '個々 のユーザーについては、ビジネスの Skype を次のように変更する方法について: オーディオおよびビデオ会議、通話の記録との会議。 '
-ms.openlocfilehash: e686e42771b22d7c8d8b21ac05998bbbd5f9ad7e
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 9dde738431e8afac4837b6f4bcab9b955787927a
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532553"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561688"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>管理者: 個別のユーザーの Skype for Business の設定を構成する
 
@@ -67,7 +67,7 @@ ms.locfileid: "26532553"
 |レコードの会話と会議  <br/> |このユーザーの許可を記録する」を選択します。  <br/> このオプションでは、ビジネスの基本の Skype で利用可能なできません。  <br/> |
 |準拠するため非アーカイブ機能を無効にします。  <br/> | 電子的に保存されている情報を保持するために法的に必要な場合は、このオプションを選択します。 <br/>  このオプションを選択することは、[インプレース保持](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx)Exchange 管理センターでの設定がある場合にキャプチャされていない機能を無効にします。 次の機能をオフにします。 <br/>  インスタント メッセージングを使用したファイルの転送 <br/>  OneNote の共有ページ <br/>  PowerPoint のコメント <br/> |
    
-一括でこれらの設定を構成するには、PowerShell を使用します。 [Skype のビジネスをオンラインで管理するポリシー](https://technet.microsoft.com/en-us/library/dn362826%28v=ocs.15%29.aspx)を参照してください。
+一括でこれらの設定を構成するには、PowerShell を使用します。 [Windows PowerShell には、コンピューターの設定](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)を参照してください。
   
 ## <a name="block-external-communications"></a>ブロック外部との連絡
 <a name="__toc325019206"> </a>
@@ -84,7 +84,7 @@ ms.locfileid: "26532553"
     
 3. [**保存**] をクリックします。
     
-一括でこれらの設定を構成するには、PowerShell を使用します。 [外部のユーザーや組織のビジネスのオンラインの Skype での通信を管理する](https://technet.microsoft.com/en-us/library/dn362813%28v=ocs.15%29.aspx)を参照してください。
+一括でこれらの設定を構成するには、PowerShell を使用します。 [Windows PowerShell には、コンピューターの設定](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)を参照してください。
   
 ## <a name="edit-audio-conferencing-settings-for-one-user"></a>1 人のユーザーのオーディオ会議設定を編集します。
 <a name="__toc314837483"> </a>
@@ -100,7 +100,7 @@ ms.locfileid: "26532553"
 |**フリー ダイヤル番号** <br/> |サード ・ パーティ製 ACP では、これらの電話番号は、オーディオ会議プロバイダーから入手したものです。 ユーザーが、Microsoft を電話会議プロバイダーとして使用している場合は、これらは電話会議ブリッジで設定されている番号となります。 ビジネスおよびマイクロソフトのチームの会議出席依頼の Skype に表示する数値書式を設定します。  <br/> |
 |**会議 ID と暗証番号 (pin)**(必須) <br/> |参加者暗証番号 (pin)、または会議コード、このユーザーが自動的にスケジュールし、サード ・ パーティ製のオーディオ会議プロバイダーから提供されているミーティングに参加するために使用します。 場合は、ユーザーは、Microsoft を使用してオーディオ会議プロバイダーとしては、必要な必要はありません。  <br/> |
    
-一括でこれらの設定を構成するには、PowerShell を使用します。 「[出席依頼に含まれている会議の開催者のために電話会議の電話番号を設定する](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md)」をご覧ください。
+一括でこれらの設定を構成するには、PowerShell を使用します。 [Windows PowerShell には、コンピューターのセットアップ](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)[に含まれている番号への招待の電話の設定](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md)を参照してください。
 
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]

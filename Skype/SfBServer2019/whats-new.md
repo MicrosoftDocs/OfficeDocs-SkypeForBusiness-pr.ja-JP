@@ -3,19 +3,18 @@ title: Skype for Business Server の新機能
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 7/10/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: これらの機能は、ビジネス サーバー 2019 の Skype にします。'
-ms.openlocfilehash: 411ca0705fa06d0b5720656cec2fcb3cbda50eeb
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: b0a7040b0d63866bffd2e86a68a7447463485b1e
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696157"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561575"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype では、どのような 
 
@@ -26,7 +25,6 @@ ms.locfileid: "25696157"
 - クラウドのボイスメール  
 - 呼び出しデータ コネクタ
 - サイド バイ サイド移行
-- チームへの移行
 
 ## <a name="unified-messaging-services-cloud-voicemail"></a>ユニファイド メッセージング サービス: クラウドのボイスメール 
 
@@ -50,14 +48,6 @@ Exchange UM のまま Skype で利用可能なビジネス サーバー 2019 の
 - 表示し、各自の責任範囲のトラブルシューティングを行うヘルプデスクの従業員を支援することは、分析機能の呼び出しのヘルプデスクや管理者の役割を割り当てます。 
 
 詳細については、[呼び出しデータ コネクタの計画](hybrid/plan-call-data-connector.md)を参照してください。
-  
-
-
-## <a name="installation-and-upgrade-side-by-side-migration"></a>インストールとアップグレード: サイド バイ サイド移行
-
-サイド バイ サイドの移行では、ビジネス サーバー 2019 の Skype (Skype ビジネス サーバー 2015 または Lync Server 2013)、以前のバージョンを実行している対応するサーバーで実行する新しいサーバーを展開し、操作を新しいサーバーに転送します。 以前のバージョンにロールバックするために必要になると、する必要があるだけの操作を元のサーバーに移動します。 
-
-完全な詳細については、[ビジネス サーバー 2019 の Skype への移行](migration/migration-to-skype-for-business-server-2019.md)を参照してください。
 
 ### <a name="see-also"></a>関連項目
 
