@@ -1,7 +1,7 @@
 ---
 layout: HubPage
 hide_bc: true
-title: マイクロソフト チームのクラスルーム ・ トレーニング
+title: Microsoft Teams の講師主導のトレーニング
 description: 終了チームの概要については、クラスのクラスルーム ・ トレーニングにサインアップします。
 author: dearbeen
 ms.topic: hub-page
@@ -9,16 +9,16 @@ ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: 8944a17bb083dd5af17b8d217f31567fc27e83fe
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: ea7ccef2f9411e0a851b421e131a77f454470132
+ms.sourcegitcommit: be8b6383261358e91dcb79bf819502b8b7ac6526
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546777"
+ms.lasthandoff: 11/19/2018
+ms.locfileid: "26618598"
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>マイクロソフト チームのクラスルーム ・ トレーニング</h1>
+        <h1>Microsoft Teams の講師主導のトレーニング</h1>
         <ul class="pivots">
             <li>
                 <a href="#tab1">クラスルーム ・ トレーニング</a>
@@ -28,7 +28,7 @@ ms.locfileid: "25546777"
                         <ul id="tab1-all" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>マイクロソフトはフリー、ライブ、オンライン トレーニングを開始するように設計の一連のホストに期待、チームを実行しています。 ビジネスの意思決定者、管理者、IT プロフェッショナル、またはエンド ・ ユーザーの場合、お客様に最適であるクラスがあります。 アクションのチームを参照してください、質問に対する回答、ご参加し、ライブ、講師との対話します。<br><br> 登録するタイルをクリックします。</p>
+                                    <p>マイクロソフトはフリー、ライブ、オンライン トレーニングを開始するように設計の一連のホストに期待、チームを実行しています。ビジネスの意思決定者、管理者、IT プロフェッショナル、またはエンド ・ ユーザーの場合、お客様に最適であるクラスがあります。 アクションのチームを参照してください、質問に対する回答、ご参加し、ライブ、講師との対話します。 <a href="https://docs.microsoft.com/microsoftteams/enduser-training">オン ・ デマンドでのエンド ユーザー トレーニング</a>を検索してください。<br><br>登録するタイルをクリックします。</p>
                                 </div>
                             </li>
                             <li>
@@ -108,18 +108,18 @@ ms.locfileid: "25546777"
                             </a>
                         </li>
                         <li>
-                            <a href="https://docs.microsoft.com/MicrosoftTeams/enduser-training">
+                            <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-TrainingVideos-400x140.svg" alt="a video play symbol" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/OneDrive-EndUser-400x140.svg" alt="A call agent, a graduation cap, and a list symbol" data-linktype="external"/>
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>オン ・ デマンド ・ トレーニングとビデオを取得します。</h3>
-                                                <p>エンド ・ ユーザーのチームを取得するトレーニングとして、ユーザーの要求時にビデオ。</p>
+                                                <h3>ヒントと秘訣</h3>
+                                                <p>最適化し、日常的な作業でチームを編成する創造的な方法を理解します。 (対象ユーザー: エンド ・ ユーザー)</p>
                                             </div>
                                         </div>
                                     </div>

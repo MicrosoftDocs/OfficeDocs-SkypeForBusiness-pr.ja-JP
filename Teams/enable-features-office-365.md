@@ -1,5 +1,5 @@
 ---
-title: Office 365 組織でマイクロソフトのチーム機能を管理します。
+title: Office 365 を使用する組織で Microsoft Teams の機能を管理する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,14 +15,14 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7411494c3baa56c1761ee3bcd69c2d49fdd4a961
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: ae8cd105d3f6f9e3524033ddbf98e85c1c657c6d
+ms.sourcegitcommit: be8b6383261358e91dcb79bf819502b8b7ac6526
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533168"
+ms.lasthandoff: 11/19/2018
+ms.locfileid: "26618554"
 ---
-# <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Office 365 組織でマイクロソフトのチーム機能を管理します。
+# <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Office 365 を使用する組織で Microsoft Teams の機能を管理する
 
 チームのすべての設定は、新しいマイクロソフトのチームとビジネス管理センターの Skype をすぐに移行されます。 チームがこの機能を Office 365 の管理センターで管理されているとは、アプリケーションです。 
 
@@ -119,3 +119,7 @@ ms.locfileid: "26533168"
 ## <a name="how-can-i-tell-which-features-are-available"></a>どのようにする機能が利用可能なを知ることができますか。
 
 チームの新機能に関する情報については、 [Office 365 のロードマップ](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams)を参照してください。 新規および今後の機能の詳細については、[新](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US)チームのページとチームの[テクニカル コミュニティ マイクロソフト チーム ブログ](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531)を参照してください。 
+
+## <a name="more-information"></a>追加情報
+
+ロールについては、管理機能を実行できる情報では、[チームを管理する管理者の役割を使用してマイクロソフトのチーム](using-admin-roles.md)を参照してください。
