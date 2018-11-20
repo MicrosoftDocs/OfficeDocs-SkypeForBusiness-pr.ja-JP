@@ -1,5 +1,5 @@
 ---
-title: マイクロソフトのチームの組織全体の展開を計画するためのリソースを取得します。
+title: Microsoft Teams の組織全体にわたるロールアウトを計画するためのリソースを取得する
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2b831f419cb5f78f19248aaeaf9f8b12cb8765e
-ms.sourcegitcommit: 9928fd21818ecd031f0bdde1124401dc3d2a933f
+ms.openlocfilehash: cd2055a6449e29c53a3f0609110710a213631600
+ms.sourcegitcommit: 4dd2598efbfd4789587b9d816b69017817e0203b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26538038"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26622279"
 ---
-# <a name="get-resources-to-plan-your-organization-wide-rollout-of-microsoft-teams"></a>マイクロソフトのチームの組織全体の展開を計画するためのリソースを取得します。
+# <a name="get-resources-to-plan-your-organization-wide-rollout-of-microsoft-teams"></a>Microsoft Teams の組織全体にわたるロールアウトを計画するためのリソースを取得する
 
 正常に設定したら、最初のチーム、onboarded を最初のグループのユーザーの使用率を向上させながら、これでは採用を推進しているときに、組織の残りの部分にチームを展開する、今後の計画を確認します。
 
@@ -32,6 +32,6 @@ ms.locfileid: "26538038"
 
 ## <a name="let-us-know-what-you-think"></a>ご意見をお寄せ
 
-数分この Get 上でアイデアを共有するセクションを起動するには、[この簡単な調査](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4LAPvZJykZPhSy1f9kvlZdURFVYS0k5V0xNQ1UwQlE3VzlDWUZYQU42WS4u)を完了します。 処理は完全に匿名です。 
+: メモ: この「**はじめ**に」のご意見をお聞かせするのには<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4LAPvZJykZPhSy1f9kvlZdURFVYS0k5V0xNQ1UwQlE3VzlDWUZYQU42WS4u" target="_blank">このアンケート</a>(約 1 分かかります) が完了するでしょうか。 匿名であります。
 
 その資料の [**フィードバック**] セクションに移動して特定の記事にもフィードバックを指定できます。 
