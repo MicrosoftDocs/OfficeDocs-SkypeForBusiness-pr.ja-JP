@@ -12,12 +12,12 @@ search.appverid: MET150
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba794c49543740c2b436320d6639454ffb447659
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 98d8ec4eb6f6ab943f1515900aa20debbb7933b8
+ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532279"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26620004"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -39,7 +39,7 @@ ms.locfileid: "26532279"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|テナント全体のコネクタに対する管理者による管理機能が利用できなくなっている  <br/> |コネクタをクライアントとオンライン バージョンの両方に追加しようとすると、「予期しないエラーが発生しました。 もう一度やり直してください」というエラーが表示されます。 Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Teams の設定で無効にします。 サポート記事をご覧くださいhttps://msdn.microsoft.com/microsoft-teams/connectors  <br/> |2017/06/21  <br/> |
+|テナント全体のコネクタに対する管理者による管理機能が利用できなくなっている  <br/> |コネクタをクライアントとオンライン バージョンの両方に追加しようとすると、「予期しないエラーが発生しました。 もう一度やり直してください」というエラーが表示されます。 Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Teams の設定で無効にします。 このサポート資料を参照してください。https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |2017/06/21  <br/> |
 
 ## <a name="apps"></a>アプリ
 

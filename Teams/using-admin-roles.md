@@ -1,22 +1,23 @@
 ---
-title: マイクロソフト チームの管理者の役割を使用して、チームを管理するには
+title: Microsoft Teams の管理者ロールを使用して Teams を管理する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/19/2018
 ms.topic: article
 ms.service: msteams
-description: チームを管理するために異なる管理役割を使用するについて説明します。
+ms.reviewer: islubin
+description: チームを管理するために別の管理者の役割を使用するについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f70b1035600079d4a4f746fe33fa03c6eab287a7
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 895c0992ea15ebff65ff2e4c5cd47823afc81be1
+ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531352"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26620076"
 ---
-# <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>マイクロソフト チームの管理者の役割を使用して、チームを管理するには
+# <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Microsoft Teams の管理者ロールを使用して Teams を管理する
 
 Azure Active Directory (AD の Azure) を使用すると、マイクロソフトのチームを管理するためのさまざまなレベルのアクセスを必要としている管理者を指定できます。 管理者は、チーム全体の作業の負荷を管理できますか、ことができますが委任されたアクセス許可の品質の問題や、組織のテレフォニーのニーズを管理する呼び出しのトラブルシューティングをします。 
 

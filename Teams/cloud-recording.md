@@ -1,24 +1,25 @@
 ---
-title: チーム クラウドのミーティングのレコーディング
+title: Teams のクラウド会議の記録
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
+ms.reviewer: sonua
 search.appverid: MET150
 description: Microsoft Teams での Cloud Voice の機能の展開についての実践的なガイダンス
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ae144405375daa818f334fdf5be85e75cd4f6b1
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 1819aa33dd951483754f4c00377865460a3765ff
+ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532885"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26620084"
 ---
-# <a name="teams-cloud-meeting-recording"></a>チーム クラウドのミーティングのレコーディング
+# <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議の記録
 
 > [!Note]
 > [!INCLUDE [preview-feature](includes/preview-feature.md)]
@@ -46,7 +47,7 @@ ms.locfileid: "26532885"
 
 ### <a name="enable-microsoft-stream-for-users-in-the-organization"></a>組織内のユーザーに対して Microsoft ストリームを有効にします。
 
-Microsoft ストリームは、対象の Office 365 サブスクリプションの一部として、またはスタンドアロン サービスとして利用できます。  [ストリームのライセンスの概要](https://docs.microsoft.com/stream/license-overview)の詳細についてを参照してください。  ビジネスに関する重要事項でマイクロソフトのストリームが含まれていないこと、またはビジネス プレミアム プランに注意してください。
+Microsoft ストリームは、対象の Office 365 サブスクリプションの一部として、またはスタンドアロン サービスとして利用できます。  [ストリームのライセンスの概要](https://docs.microsoft.com/stream/license-overview)の詳細についてを参照してください。  365 ビジネスのマイクロソフト、Office 365 のビジネス プレミアム、および Office 365 の業務に関する重要事項では、Microsoft ストリームが追加されました。
 
 方法[Office 365 のユーザーにライセンスを割り当てる](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)ユーザーが Microsoft のストリームにアクセスできるようにする方法の詳細について説明します。 [この資料](https://docs.microsoft.com/stream/disable-user-organization)で定義されているユーザー、Microsoft のストリームがブロックされていないことを確認します。
 
