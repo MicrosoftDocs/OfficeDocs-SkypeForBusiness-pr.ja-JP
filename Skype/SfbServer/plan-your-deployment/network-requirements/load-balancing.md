@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: '概要: は、ロード ・ バランシング ・ Skype をビジネスのサーバーを実装する前に注意事項を確認します。'
-ms.openlocfilehash: cb0b1d8c77a4953ed7950d85bd198bfdd4823961
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 9c0153d9b366731a85070c42ed11ea1a061ee409
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882267"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626192"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Skype for Business の負荷分散の要件
  
@@ -34,7 +34,7 @@ Skype ビジネス サーバーの負荷分散のクライアントからサー�
     
 - 一部の種類のトラフィックでは、ロード バランサー機器が必要です。たとえば、HTTP トラフィックでは、DNS 負荷分散ではなくロード バランサー機器が必要です。クライアントとサーバー間の Web トラフィックでは、DNS 負荷分散は正常に機能しません。
     
-プールで DNS 負荷分散を使用するように選択し、HTTP トラフィックなどのトラフィック用にロード バランサー機器も実装する必要がある場合、ロード バランサー機器の管理は非常に簡素化されます。 たとえば、ロード バランサー機器の構成は、他のすべてのプロトコルが DNS 負荷分散によって管理されるのに対して、HTTP および HTTPS のトラフィックを管理するのみであるため簡素になります。 詳細については、 [DNS 負荷分散](load-balancing.md#BKMK_DNSLoadBalancing)を参照してください。 
+プールで DNS 負荷分散を使用するように選択し、HTTP トラフィックなどのトラフィック用にロード バランサー機器も実装する必要がある場合、ロード バランサー機器の管理は非常に簡素化されます。たとえば、ロード バランサー機器の構成は、他のすべてのプロトコルが DNS 負荷分散によって管理されるのに対して、HTTP および HTTPS のトラフィックを管理するのみであるため簡素になります。詳細については、「[DNS Load Balancing](load-balancing.md#BKMK_DNSLoadBalancing)」を参照してください。 
   
 サーバーからサーバーへのトラフィックは、Skype ビジネス サーバーは、トポロジに対応した負荷分散を使用します。 サーバーは、トポロジ内のサーバーの Fqdn を取得するのには中央管理ストアで公開されているトポロジを読み取るし、サーバー間でトラフィックを自動的に配布します。 この種の負荷分散では、管理者が設定または管理を行う必要はありません。 
   
@@ -109,7 +109,7 @@ Cookie ベースのアフィニティを**使用する**展開の場合
 > F5 ロード バランサー機器には、OneConnect と呼ばれる機能があります。この機能を使用すると、TCP 接続内の各要求が個々に負荷分散されます。モバイル デバイスを展開する場合、ロード バランサー機器のベンダーが同じ機能をサポートしていることを確認してください。最新の Apple iOS モバイル アプリでは、トランスポート層セキュリティ (TLS) v1.2 が必要です。F5 は、その固有の設定を備えています。 
   
 > [!CAUTION]
-> サード パーティ製のハードウェア ロード バランサーの詳細については、 [Skype をビジネスのためのインフラストラクチャ](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)を参照してください。  
+> サードパーティ製ロード バランサー機器の詳細については、「[Skype for Business のインフラストラクチャ](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)」を参照してください。  
   
 ディレクターおよびフロントエンド プールの Web サービスに対するロード バランサー機器の要件は次のとおりです。
   
@@ -145,7 +145,7 @@ Cookie ベースのアフィニティを**使用する**展開の場合
 |\<プール\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |フロントエンド  <br/> 5061  <br/> |なし  <br/> |HTTPS  <br/> |
 |\<プール\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |フロントエンド  <br/> 5061  <br/> |なし  <br/> |HTTP  <br/> |
    
-## <a name="dns-load-balancing"></a>DNS 負荷分散
+## <a name="dns-load-balancing"></a>DNS Load Balancing
 <a name="BKMK_DNSLoadBalancing"> </a>
 
 ビジネス サーバーにより DNS の負荷分散、管理の負荷分散ネットワーク上のオーバーヘッドを大幅に軽減できるソフトウェア ・ ソリューションの Skype です。 DNS 負荷分散は、SIP トラフィックとメディア トラフィックなどのビジネス サーバーでは、Skype に固有のネットワーク トラフィックを分散します。

@@ -1,5 +1,5 @@
 ---
-title: PowerShell を使用して、マイクロソフトのチームでのライブ イベントのポリシーを設定するのには
+title: PowerShell を使用して Microsoft Teams でのライブ イベント ポリシーを設定する
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ MS.collection: Teams_ITAdmin_Help
 description: PowerShell を使用して、チーム、組織と機能でのライブ イベントを押しながらユーザーを制御するためにポリシーを設定する方法の例では、自分で作成したイベントで使用できます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f802c2b67c0a4cd4b0838dd9aeec9c4bbf884968
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c198711d918914bbd6a1929514d7c2e9aa7dfe00
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26535940"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626224"
 ---
-# <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>PowerShell を使用して、マイクロソフトのチームでのライブ イベントのポリシーを設定するのには
+# <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>PowerShell を使用して Microsoft Teams でのライブ イベント ポリシーを設定する
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 設定し、チームでのライブ イベントのポリシー設定を割り当てるには、次の Windows PowerShell コマンドレットを使用できます。 
@@ -82,15 +82,15 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 
 ライブ イベントの実行をスケジュール設定は、新しいポリシーを作成します。
 ```
-New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingpolicy
+New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy
 ```
 ライブ イベントのスケジュールを無効にするには、実行します。
 ```
-Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingpolicy -AllowBroadcastScheduling $false
+Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy -AllowBroadcastScheduling $false
 ```
 このポリシーの実行にユーザーを割り当てます。
 ```
-Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingpolicy -Verbose
+Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingPolicy -Verbose
 ```
 **ライブ イベントを多数のユーザーのスケジュールを無効にしてそれらをスケジュールするのにはユーザーのセットを許可します。**
 

@@ -1,5 +1,5 @@
 ---
-title: マイクロソフトのチームでのライブ イベントの計画
+title: Microsoft Teams でのライブ イベントの計画
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
@@ -12,14 +12,14 @@ search.appverid: MET150
 description: マイクロソフトのチームでのライブ イベントを設定する前に考慮する事項について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c0ee1ed41f1d906e43f119e6683f772bde32be3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 40722ee1e58e7524184408819932d9a2cfdc1275
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532318"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626263"
 ---
-# <a name="plan-for-live-events-in-microsoft-teams"></a>マイクロソフトのチームでのライブ イベントの計画
+# <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 チーム、組織内の大規模なミーティングの開催のライブ イベントを計画する際は、すべてを設定する開始する前に考慮すべきいくつかの要因があります。 
@@ -109,5 +109,5 @@ Office 365 のライセンスが認証されたユーザーとしてのライブ
 ### <a name="related-topics"></a>関連トピック
 - [ライブ イベントをチームは何ですか。](what-are-teams-live-events.md)
 - [チームのライブ イベントを設定します。](set-up-for-teams-live-events.md)
-- [Confgure は、チームでのイベントの設定をライブします。](configure-teams-live-events.md)
+- [チームでのライブ イベントの設定を構成します。](configure-teams-live-events.md)
 

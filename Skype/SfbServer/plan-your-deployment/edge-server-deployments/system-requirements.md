@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: '概要: は、Skype でエッジ サーバーのビジネス サーバーのシステム要件について説明します。'
-ms.openlocfilehash: 05adb2fb0a4224699cf4465932eba1e7a85761e5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 16cc2a5e640872fe8c57113c7aaca588efab121a
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374872"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626161"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Skype のビジネス サーバーのサーバーのシステム要件をエッジします。
  
