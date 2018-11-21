@@ -217,8 +217,7 @@
 #### [ファイル共有の作成](../deploy/install/create-a-file-share.md)
 #### [管理ツールをインストールします。](../deploy/install/install-administrative-tools.md)
 #### [Active Directory の準備](../deploy/install/prepare-active-directory.md)
-#### 
-            「[DNS レコードの作成](../deploy/install/create-dns-records.md)」
+#### 「[DNS レコードの作成](../deploy/install/create-dns-records.md)」
 #### [新しいトポロジの作成および公開](../deploy/install/create-and-publish-new-topology.md)
 #### [Skype for Business Server のインストール](../deploy/install/install-skype-for-business-server.md)
 #### [トポロジの確認](../deploy/install/verify-the-topology.md)
