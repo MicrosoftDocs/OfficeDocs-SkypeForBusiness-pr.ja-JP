@@ -12,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
-description: 作成、変更またはビジネス サーバーのエンタープライズ VoIP は、Skype で知らせアプリケーションの割り当てられていない数値の範囲を削除します。 この設定によって、割り当てられていない番号への通話を処理する方法が影響を受けます。
-ms.openlocfilehash: ca8b3e621da3b479bcc650584ed2aea7669f07e1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: 作成、変更またはビジネス サーバーのエンタープライズ VoIP は、Skype で知らせアプリケーションの割り当てられていない数値の範囲を削除します。 これは、割り当てられていない番号への通話の処理方法に影響します。
+ms.openlocfilehash: 519f4b753314325b1af71f11f94ea669e78148a1
+ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372714"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26625667"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>作成またはビジネス サーバーの Skype に割り当てられていない番号の範囲を変更します。
  
-作成、変更またはビジネス サーバーのエンタープライズ VoIP は、Skype で知らせアプリケーションの割り当てられていない数値の範囲を削除します。 この設定によって、割り当てられていない番号への通話を処理する方法が影響を受けます。
+作成、変更またはビジネス サーバーのエンタープライズ VoIP は、Skype で知らせアプリケーションの割り当てられていない数値の範囲を削除します。 これは、割り当てられていない番号への通話の処理方法に影響します。
   
 ビジネス サーバー用の Skype を使用すると、組織にとって有効ですが、ユーザーや電話に割り当てられていない電話番号への着信呼び出しに対する処理と言います。 そのような通話の処理を構成するには、割り当てられていない番号の表を設定します。 お知らせアプリケーションまたは Exchange UM サーバーに呼び出しをルーティングするのにテーブルを使用することができます。
   
@@ -40,7 +40,7 @@ ms.locfileid: "25372714"
   
 ### <a name="to-use-skype-for-business-server-control-panel-to-configure-unassigned-phone-numbers"></a>Skype ビジネス サーバーのコントロール パネルを使用して割り当てられていない電話番号を構成するには
 
-1. RTCUniversalServerAdmins グループのメンバーとして、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator のロールのメンバーとしてコンピューターにログオンします。 詳細については、**セットアップのアクセス許可の委任**を参照してください。
+1. RTCUniversalServerAdmins グループのメンバーとして、あるいは CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。詳細については、「**Delegate Setup Permissions**」を参照してください。
     
 2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。  
     
@@ -95,7 +95,7 @@ ms.locfileid: "25372714"
 3. **新規 CsUnassignedNumber**を使用して、新しい割り当てられていない番号範囲を作成します。 **セット CsUnassignedNumber**を使用すると、既存の割り当てられていない番号範囲を変更できます。
     
     > [!TIP]
-    > 重複する範囲があり、それらを特定の順序で適用する場合は、Priority パラメーターを含めます。最も優先度の高い範囲が通話に適用されます。 
+    > 重複する範囲があり、それらを特定の順序で適用する場合は、Priority パラメーターを含めます。 最も優先度の高い範囲が通話に適用されます。 値 0 は、最高の優先順位を表します。
   
     コマンド ラインで、次のいずれかを実行します。
     
@@ -133,7 +133,7 @@ ms.locfileid: "25372714"
 
 ### <a name="to-use-skype-for-business-server-control-panel-to-delete-an-unassigned-number-range"></a>未使用の番号の範囲を削除するのにはビジネス サーバーのコントロール パネルの Skype を使用するには
 
-1.  RTCUniversalServerAdmins グループのメンバーとして、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator のロールのメンバーとしてコンピューターにログオンします。 詳細については、**セットアップのアクセス許可の委任**を参照してください。
+1.  RTCUniversalServerAdmins グループのメンバーとして、あるいは CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。詳細については、「**Delegate Setup Permissions**」を参照してください。
     
 2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。  
     
@@ -168,8 +168,8 @@ ms.locfileid: "25372714"
   
 ## <a name="see-also"></a>関連項目
 
-[新しい-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/new-csunassignednumber?view=skype-ps)
+[New-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/new-csunassignednumber?view=skype-ps)
   
-[セット CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/set-csunassignednumber?view=skype-ps)
+[Set-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/set-csunassignednumber?view=skype-ps)
   
-[Get CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/get-csunassignednumber?view=skype-ps)
+[Get-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/get-csunassignednumber?view=skype-ps)

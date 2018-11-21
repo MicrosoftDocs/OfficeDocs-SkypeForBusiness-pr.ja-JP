@@ -15,12 +15,12 @@ MS.collection:
 - Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f7f4dcc7ce15549384bbdd5485bed9fbe7b7ef5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 98112579a33d633e4303bbf4f395f508b955eb8e
+ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012410"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26625675"
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>クイック スタート: Microsoft Teams の計画ガイド
 ==========================================================
@@ -49,7 +49,7 @@ Microsoft Teams でチーム、チャネル、タブの計画を行うときの�
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
-Microsoft Teams がご利用の Office 365 テナントで有効ではなく、自分が Office 365 管理者である場合は、「[Teams へのユーザー アクセスを管理する](user-access.md)」の記事の指示に従って、自分の組織のユーザーが確実にアプリケーションにアクセスできるようにしてください。
+マイクロソフトのチームが、Office 365 テナントに有効になっていないと、以下の管理者が Office 365 は[チームへのユーザー アクセスの管理](user-access.md)の記事で、ユーザーを確実にあるアプリケーションへのアクセス。
 
 ## <a name="step-3-complete-technical-planning"></a>手順 3: 技術計画を完成する
 
@@ -60,7 +60,7 @@ Microsoft Teams がご利用の Office 365 テナントで有効ではなく、�
 3.  [Office 365 の URL と IP アドレスの範囲](office-365-urls-ip-address-ranges.md)
 4.  [Teams でのゲスト アクセス](guest-access.md)
 
-さらに、一部の組織では、[Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)を確認する必要がある可能性があります。
+さらに、組織によっては[セキュリティおよびコンプライアンス チームでの概要](security-compliance-overview.md)を確認することがあります。
 
 
 ## <a name="step-4-conduct-pilots-and-deploy-teams"></a>手順 4: パイロットを実施し、Teams を展開する

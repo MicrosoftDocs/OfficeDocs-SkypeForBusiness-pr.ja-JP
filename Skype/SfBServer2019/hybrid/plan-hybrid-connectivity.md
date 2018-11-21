@@ -9,18 +9,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: ビジネス オンラインまたはチームの業務サーバーの Skype と Skype との間のハイブリッドの接続を実装するための考慮事項を計画しています。
-ms.openlocfilehash: 2f702989a0d40e7bce9b0f3612d67fd374d0813c
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 825057f84300d9e47427eea5b27117d168b4126f
+ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531654"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26625690"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Skype ビジネス サーバーと Office 365 のハイブリッド接続を計画します。
 
 ## <a name="overview"></a>概要
 
-業務サーバーおよびチームの Skype または Skype のオンライン ビジネスの間のハイブリッドの接続を計画する方法については、このトピックを参照してください。 ハイブリッド接続の設定は、最初の手順で、オンプレミス環境をクラウドに移行です。
+業務サーバーおよびチームの Skype または Skype のオンライン ビジネスの間のハイブリッドの接続を計画する方法については、このトピックを参照してください。 ハイブリッド接続の設定は、オンプレミス環境をクラウドに移行する最初の手順です。
 
 それらのユーザーが Skype のチームのクライアントでは、ビジネス ユーザーの相互運用もからフェデレーションの組織では、ユーザーと通信することはありませんチーム (並べて表示) を使用しているビジネス ユーザー向けの設置型の Skype を使っている場合、チームのクライアントです。 チームでは、この機能を取得するには、これらのユーザーする必要があります Skype から設置型のビジネスに移動、クラウドでは、Skype をビジネスのハイブリッド モード用に構成する必要があります。 さらに、快適に、これらのユーザー必要がありますチームのみのモードで、すべての着信呼び出しを確保し、ユーザーのチームのクライアントで、ユーザーの土地からのチャットをします。
 

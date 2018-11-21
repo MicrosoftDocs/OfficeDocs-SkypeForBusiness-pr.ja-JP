@@ -1,5 +1,5 @@
 ---
-title: マイクロソフトのチームを買い付けます。
+title: Microsoft Teams を導入する
 description: 計画およびマイクロソフトのチームを組織に展開するためには、これらのリソースの導入を使用します。
 layout: LandingPage
 ms.topic: landing-page
@@ -12,14 +12,14 @@ ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd69ba3592b23acdc963b8438e35ef998a3ceec1
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 26f1a5c4c928b0a6b97d9eac83c5c913389a2a52
+ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519930"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26625744"
 ---
-# <a name="adopt-microsoft-teams"></a>マイクロソフトのチームを買い付けます。
+# <a name="adopt-microsoft-teams"></a>Microsoft Teams を導入する
 
 小規模な事業を行う場合、またはチャットを開始するチームを展開する場合は、チームとチャネル、および会議をすると高速に実行するよう設計されていますが、クイック スタートの規範的なガイダンスを使用します。 ハイブリッドと大規模な組織の場合または設置 Skype ビジネス構成の場合は、またはボイス機能を展開する場合は、(Office 365 プランまたは電話システムを呼び出すこと) など、クイック スタート ガイドで起動できますが、追加する必要があります**採用ガイダンスのより深いレベル**で、下のガイダンスです。
 
@@ -109,6 +109,24 @@ ms.locfileid: "26519930"
                     </div>
                     <div class="cardText">
                         <h3>トレーニングと認定</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/microsoftteams/adopt-tools-and-downloads">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Training" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>ツールとダウンロード</h3>
                     </div>
                 </div>
             </div>

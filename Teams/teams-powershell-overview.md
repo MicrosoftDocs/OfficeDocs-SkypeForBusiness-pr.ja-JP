@@ -9,12 +9,12 @@ ms.service: msteams
 description: PowerShell のコントロールを使用して、マイクロソフトのチームを管理するために説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 84de597cc5cc6a00227cf48d9d8559f9dcb3778e
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a898a4eca8d96ef2da44f17695472301d6332724
+ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531611"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26625752"
 ---
 # <a name="teams-powershell-overview"></a>チーム PowerShell の概要
 
@@ -22,7 +22,7 @@ ms.locfileid: "26531611"
 
 ## <a name="which-modules-do-you-need-to-use"></a>モジュールを使用するのには必要ですか。
 
-PowerShell の 2 つの異なるモジュールでは、マイクロソフトのチームを管理するための PowerShell コントロール:[マイクロソフト チームの PowerShell モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3)(パブリック プレビュー) と[ビジネスの PowerShell モジュールの Skype](https://www.microsoft.com/en-us/download/details.aspx?id=39366)です。 チームの PowerShell モジュールには、すべてのコマンドレットを作成し、ビジネスの PowerShell モジュールの Skype には、ポリシー、構成、およびその他のチームのツールを管理するためのコントロールが含まれていますが、チームを管理する必要がありますが含まれています。 PowerShell のコントロールの参照ドキュメントが送信されます、調査しているコマンドレットがどのモジュールに含まれています。 (最終的には、2 つのモジュール結合されます。)
+PowerShell の 2 つの異なるモジュールでは、マイクロソフトのチームを管理するための PowerShell コントロール:[マイクロソフト チームの PowerShell モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.5)(パブリック プレビュー) と[ビジネスの PowerShell モジュールの Skype](https://www.microsoft.com/en-us/download/details.aspx?id=39366)です。 チームの PowerShell モジュールには、すべてのコマンドレットを作成し、ビジネスの PowerShell モジュールの Skype には、ポリシー、構成、およびその他のチームのツールを管理するためのコントロールが含まれていますが、チームを管理する必要がありますが含まれています。 PowerShell のコントロールの参照ドキュメントが送信されます、調査しているコマンドレットがどのモジュールに含まれています。 (最終的には、2 つのモジュール結合されます。)
 
 ## <a name="what-can-each-admin-role-do"></a>できます各管理者の役割は何ですか。
 
@@ -32,7 +32,7 @@ PowerShell コマンドレットの別の管理者の役割が利用できるよ
 
 [マイクロソフト チームの PowerShell モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3)では、コマンドレットを作成して、チームを管理するのです。 
 
-チームによって支えられて O365 グループでは、これとチームを作成する、グループを作成します。 コア ・ チームとその設定を操作するために用意されているコマンドレットのセットがある (``new-team``、 ``get-team``、 ``set-teamfunsettings``)、およびチームのチャネルを管理するためのコマンドレット (``new-teamchannel``、 ``remove-teamchannel``)。 エンド ・ ユーザーとして実行できるすべてのこれらのコマンドレットが所有する、またはのメンバーをチームにのみ動作します。 場合は、グローバル管理者またはチームのサービス管理者は、組織内のすべてのチームを操作することができます。
+チームによって支えられて O365 グループでは、これとチームを作成する、グループを作成します。 コア ・ チームとその設定を操作するために用意されているコマンドレットのセットがある (``new-team``、 ``get-team``、 ``set-teamfunsettings``、 ``set-teammessagingsettings``、 ``set-teamguestsettings``、 ``set-teammembersettings``)、チームのユーザーを管理する (``add-teamuser``、 ``remove-teamuser``)、およびチームのチャネルを管理するためのコマンドレット (``new-teamchannel``, ``remove-teamchannel``). エンド ・ ユーザーとして実行できるすべてのこれらのコマンドレットが所有する、またはのメンバーをチームにのみ動作します。 場合は、グローバル管理者またはチームのサービス管理者は、組織内のすべてのチームを操作することができます。
 
 > マイクロソフト チームの PowerShell モジュールのコマンドレットで使用されている**グループ Id**は、 **Identity**プロパティによって返される``Get-UnifiedGroup``Exchange PowerShell モジュールにします。
 
@@ -84,4 +84,4 @@ PowerShell コマンドレットの別の管理者の役割が利用できるよ
 
 - [マイクロソフト チーム コマンドレットのリファレンス](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
 - [Skype ビジネス コマンドレット参照](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
-- [マイクロソフト チームの管理者の役割を使用して、チームを管理するには](using-admin-roles.md)
+- [Microsoft Teams の管理者ロールを使用して Teams を管理する](using-admin-roles.md)
