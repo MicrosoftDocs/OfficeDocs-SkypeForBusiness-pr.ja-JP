@@ -1,5 +1,5 @@
 ---
-title: 計画を準備する [ユーザー対応アップグレードする前に Skype からビジネスのマイクロソフト チームのチームで Microsoft に
+title: マイクロソフト チームのチームで Microsoft にアップグレードする前にユーザーの準備の計画を Skype からビジネスの準備します。
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eba3174e8bce17f66a7e990c0066bc886aed9f9b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: de13a3775c9ffae4fde1ffcd71be23ffab4e4a96
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374098"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649693"
 ---
 ![ユーザーの準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-user-readiness.png "ユーザーの準備段階に重点を置いて、旅アップグレードの段階")
 
@@ -47,7 +47,7 @@ ms.locfileid: "25374098"
 <table>
 <tbody>
 <tr><th>どのような通信チャネルを活用する、でしょうか。</th><th>トレーニング チャンネルを活用するでしょうか。</th><th>チャネルにどのようなサポートを使用するか。</th></tr>
-<tr><td><ul><li>Email<br><strong>ヒント:</strong>サンプル、パイロット、共存を使用し、e メール キャンペーンをカスタマイズするのには電子メールをアップグレードします。</li><li>ポスターやデジタル ・ サイネージ</li><li>イベントを起動します。</li><li>部署の責任者</li><li>チャンピオン</li><li>チーム/チャンネル</li><li>Gamification</li></ul></td><td><ul><li>マイクロソフト発行のオンライン記事およびビデオ</li><li>リソース:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">ビジネスの Skype からのチームに切り替える</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">チームのビデオ トレーニング</a></li></ul></li><li>製品で支援 (T Bot)</li><li>社内トレーニング チーム</li><li>パートナー ・ トレーニング ・ チーム</li></ul></td><td><ul><li>社内ヘルプデスク</li><li>外部委託のサポート デスク</li><li>セルフ サービス (イントラネット サイト)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">オンライン ヘルプと使い方</a></li><li>床師とチャンピオン</li><li>フィードバックのループ (アンケート、評価)</li></ul></td></tr>
+<tr><td><ul><li>Email<br><strong>ヒント:</strong>サンプル、パイロット、共存を使用し、e メール キャンペーンをカスタマイズするのには電子メールをアップグレードします。</li><li>ポスターやデジタル ・ サイネージ</li><li>イベントを起動します。</li><li>部署の責任者</li><li>チャンピオン</li><li>チーム/チャンネル</li><li>Gamification</li></ul></td><td><ul><li>マイクロソフト発行のオンライン記事およびビデオ</li><li>リソース:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">ビジネスの Skype からのチームに切り替える</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">チームのビデオ トレーニング</a></li></ul></li><li>製品内ヘルプ (ヘルプ)</li><li>社内トレーニング チーム</li><li>パートナー ・ トレーニング ・ チーム</li></ul></td><td><ul><li>社内ヘルプデスク</li><li>外部委託のサポート デスク</li><li>セルフ サービス (イントラネット サイト)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">オンライン ヘルプと使い方</a></li><li>床師とチャンピオン</li><li>フィードバックのループ (アンケート、評価)</li></ul></td></tr>
 </tbody>
 </table>
 </div>

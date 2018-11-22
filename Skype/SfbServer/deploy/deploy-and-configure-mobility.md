@@ -8,12 +8,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: この資料でを Skype ビジネス サーバー移動機能を利用できるモバイル デバイスをできるように、モバイル サービスを使用するビジネスのサーバーのインストールに既存の Skype を構成する手順を説明します。
-ms.openlocfilehash: 2afd462638eb6ed97f6efb694aa74994f2d59727
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: e1799459d2e7723298aa7fdda17f89a9041efd15
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375447"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649716"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>展開し、Skype のビジネスのサーバーの移動を構成します。  
  
@@ -169,13 +169,13 @@ ms.locfileid: "25375447"
 
 1. あるどのような SAN エントリを参照するを確認して後、知っている (確認後上記の手順を使用して)、**単一の証明書**があるし、する必要があるすべてのエントリがないと説明しました。 新しい証明書要求を CA になる必要があります。 ビジネス サーバー PowerShell の Skype を開きます。
     
-   - 欠落した自動検出サービス SAN (-Ca パラメーターを自分の認証局パスで置き換える) を開きます。
+   - 欠落した自動検出サービス SAN (-Ca パラメーターをジブの認証局パスで置き換える) を開きます。
     
    ```
    Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -AllSipDomain -verbose
    ```
 
-   - 複数の SIP ドメインがある場合は、AllSipDomain パラメーターを上記の例のように使用することはできません。代わりに DomainName パラメーターを使用する必要があります。DomainName パラメーターを使用するときは、lyncdiscoverinternal および lyncdiscover レコードの FQDN を定義する必要があります。一例として次のようになります (-Ca パラメーターを自分の認証局パスで置き換える)。
+   - ここで、複数の SIP ドメインがあれば、上記の例に示すように AllSipDomain パラメーターを使うことはできません。 代わりに DomainName パラメーターを使用する必要があります。 DomainName パラメーターを使用するときは、lyncdiscoverinternal および lyncdiscover レコードの FQDN を定義する必要があります。 一例として次のようになります (-Ca パラメーターを自分の認証局パスで置き換える)。
     
    ```
    Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
@@ -189,7 +189,7 @@ ms.locfileid: "25375447"
    Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -AllSipDomain -verbose
    ```
 
-   - 複数の SIP ドメインがある場合は、AllSipDomain パラメーターを上記の例のように使用することはできません。代わりに DomainName パラメーターを使用する必要があります。DomainName パラメーターを使用するときは、lyncdiscoverinternal および lyncdiscover レコードの FQDN を定義する必要があります。次のような例になります (-Ca パラメーターを自分の認証局パスで置き換える)。
+   - ここで、複数の SIP ドメインがあれば、上記の例に示すように AllSipDomain パラメーターを使うことはできません。 代わりに DomainName パラメーターを使用する必要があります。 DomainName パラメーターを使用するときは、lyncdiscoverinternal および lyncdiscover レコードの FQDN を定義する必要があります。 次のような例になります (-Ca パラメーターを自分の認証局パスで置き換える)。
     
    ```
    Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
@@ -259,7 +259,7 @@ ms.locfileid: "25375447"
 
 次の手順は、そのとおりに実行するように意図されたものではありません。と言うのは、製品の前のバージョンで、たとえば Threat Management Gateway (TMG) の構成について順を追って手順を説明しました。これを使用していないのであれば、自分のバージョンではそこから仕上げる必要があります。
   
-TMG が不要になった製品として Microsoft によって提供されると、 [Lync Server 2013 の手順](https://technet.microsoft.com/en-us/library/hh690011%28v=ocs.15%29.aspx)を表示できる場合はそれを構成する必要があります。 次の情報はのすべてのリバース プロキシが特定のチュートリアルの手順を提供できる方法がない場合でもより一般的には役に立つを目的としています。
+TMG は Microsoft からはもはや製品として提供されておらず、その構成を行う必要があれば、「[Lync Server 2013 手順](https://technet.microsoft.com/en-us/library/hh690011%28v=ocs.15%29.aspx)」を調べることができます。 次の情報はのすべてのリバース プロキシが特定のチュートリアルの手順を提供できる方法がない場合でもより一般的には役に立つを目的としています。
   
 検討すべき重要な事柄が 2 つあります。
   
@@ -464,7 +464,7 @@ Skype ビジネス サーバー用のハイブリッド環境は、設置を組�
    Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
    ```
 
-コマンドの手順を確認するのにはさらに、ことができますおよびチェック アウトする[テスト CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) [テスト CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/test-csmcxp2pim?view=skype-ps)。
+コマンド プロシージャについて詳細を調べるには、「[Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps)」および「 [Test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/test-csmcxp2pim?view=skype-ps)」を参照してください。
   
 ## <a name="configure-for-push-notifications"></a>プッシュ通知を構成する
 <a name="ConfigPush"> </a>
@@ -607,7 +607,7 @@ Skype ビジネス サーバー用のハイブリッド環境は、設置を組�
    New-CsMobilityPolicy -Identity site:<site identifier> -EnableIPAudioVideo $false -RequireWiFiForIPAudio $True -RequireWiFiforIPVideo $True
    ```
 
-    [新規 CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)で詳しく説明します。
+    詳細については、「 [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)」を参照してください。
     
 ### <a name="modify-mobility-policy-by-user"></a>ユーザーがモビリティ ポリシーを変更します。
 

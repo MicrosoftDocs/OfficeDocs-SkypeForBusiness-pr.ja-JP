@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8e81a20d5c3e792f2a249b86d95a0ca22ab042e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 91608a65530c7f57772b0fe544394a669e67b2a4
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016262"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649526"
 ---
 ![オペレーショナル ・ エクセレンスの段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-op-excellence.png "オペレーショナル ・ エクセレンスの段階に重点を置いて、旅アップグレードの段階")
 
@@ -33,7 +33,7 @@ ms.locfileid: "25016262"
 
 ネットワークの状態では、ユーザー エクスペリエンスに影響します。 ユーザーが不適切な経験を持っている場合 (たとえば、呼び出しの切断やラグ時間の会議に参加するとき) と相互に関連この技術自体であるため、テクノロジが動作しないような印象のままになることと、サポートされていないアプリケーションのドアを開きます。 監視し、ネットワークの正常性を軽減するための計画を実装すると、サポート デスクへの呼び出しを減らすだけでなく好ましいユーザー環境を実現するのに役立ちます。 詳細については、以下の資料を参照してください。
 
--   [自分のサービスを実施します。](upgrade-operate-my-service.md)
+-   [サービスを動作します。](upgrade-operate-my-service.md)
 -   [モニターの品質](upgrade-monitor-quality.md)
 -   [サービスを強化します。](upgrade-enhance-my-service.md)
 

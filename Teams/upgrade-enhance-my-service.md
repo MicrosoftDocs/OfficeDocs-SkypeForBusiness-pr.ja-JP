@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f000a81c0762b11b06e81fd2fcca18915ce1233
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 278e6200547966e5a41983bf3a0f76ecb0e5ca11
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532356"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649685"
 ---
 ![オペレーショナル ・ エクセレンスの段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-op-excellence.png "オペレーショナル ・ エクセレンスの段階に重点を置いて、旅アップグレードの段階")
 
@@ -29,7 +29,7 @@ ms.locfileid: "26532356"
 
 この資料では、アップグレード後のチームの運用を最大限活用するための要件の概要を示します。 チーム サービスの機能を継続的に監視するには、組織の最大の価値を提供していることを確認のことができます。
 
-## <a name="enhance-my-service-overview"></a>[サービスの概要」を強化します。
+## <a name="enhance-your-service-overview"></a>強化、サービスの概要
 チームを組織に正常に展開し、品質と信頼性、次の手順でサービスが動作して、サービスを強化するためにあらゆる機会があるかどうかを定期的に評価します。 これは、クラウド サービスの管理の標準の最新の計画は継続的なサービスの向上の一部です。 
 
 常に最大限のサービスを受信するかどうかを確認するのには、組織に関係のある新しい機能の拡張の[チームのパブリック ・ ロードマップ](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)を監視します。 Office 365 管理ポータルへのアクセス権があれば、当社からの新機能と変更機能、メッセージ センターを使用して定期的に更新が表示されます。 
