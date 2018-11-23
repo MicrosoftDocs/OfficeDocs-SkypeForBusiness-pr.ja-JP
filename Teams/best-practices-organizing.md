@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66bf2e6aa01c24b327d26e2a30678ca3722a8c97
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 43c619f8d053d0d06b9b5494d812eea541869922
+ms.sourcegitcommit: 72afa227b917f9fabd278fc7bea9d515b5d53def
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532499"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26670932"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Microsoft Teams でチームを編成するためのベスト プラクティス
 ======================================================
@@ -29,7 +29,7 @@ ms.locfileid: "26532499"
 
 当社の製品で、チームを作成する前に目標、プロジェクト、または作業項目を考慮することをお勧めし、共同でに実現を支援できる組織の人。 作成したら、これらの人/グループをチームに追加して共同作業を始めます。 各チームには複数人の所有者を指定することをお勧めします。詳細については、[Teams の管理](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499)をご覧ください。
 
-組織間または 1 つの目的のチームを構成する方法のいくつかの例を参照してくださいこのクイック ビデオを見てをみましょう。
+組織間または 1 つの目的のチームを構成する方法のいくつかの例を参照してくださいこの短いビデオで見てをみましょう。
 
 > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
 
