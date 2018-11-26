@@ -26,14 +26,17 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: スイスで使用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: 022908195a6de8aacc4ba26ebe5397b14cb763e0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 22ec9173e00621694512f939818ed0987f5988d5
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012386"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674699"
 ---
 # <a name="availability-in-switzerland"></a>スイスの可用性
+
+> [!NOTE]
+> 番号を取得**サービス**スイスで使用するための会議では、自動アテンダントと、キューを呼び出すことができますが、通話プランをご利用いただけませんと、スイスの**ユーザー**数を取得できません。
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
@@ -44,7 +47,7 @@ ms.locfileid: "25012386"
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> |はいの場合。 <br/><ul><li> チューリッヒ</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。  <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> |はいの場合。 <br/><ul><li> Zurich</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用可能  <br/> |
    
 ## <a name="phone-system"></a>電話システム
@@ -68,7 +71,7 @@ ms.locfileid: "25012386"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |チューリッヒ  <br/> |
+|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |Zurich  <br/> |
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
    

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Meeting Migration Service (MMS) は Skype for Business サービスの 1 つで、バックグラウンドで動作して、ユーザーのために Skype for Business および Microsoft Teams 会議を自動的に更新します。MMS はユーザーが会議移行ツールを実行して Skype for Business および Microsoft Teams 会議を更新しなくても済むように設計されています。
-ms.openlocfilehash: 4a1cdc03945e6399b4c77dd12b800fd25b2401cc
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: b5484459fc01337bd9eb2dad38e9f0e3349abd07
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561708"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674587"
 ---
 # <a name="setting-up-the-meeting-migration-service-mms"></a>Meeting Migration Service (MMS) のセットアップ
 
@@ -182,7 +182,7 @@ Get-CsMeetingMigrationStatus -UserId "ashaw@contoso.com"
 1. 影響を受けているユーザーを特定します。次のコマンドを実行して、影響を受けているユーザーと、報告された特定のエラーのリストを取得します。
     
    ```
-   Get-CsMeetingMigrationStatus | Where {$_.State -eq "Failed"} | Format-Table UserId,LastErrorMessage
+   Get-CsMeetingMigrationStatus | Where {$_.State -eq "Failed"} | Format-Table UserId,LastMessage
    ```
 
 2. これらのユーザーそれぞれに対して、[会議移行ツール](https://go.microsoft.com/fwlink/p/?linkid=626047)を実行して、手動で会議を移行します。

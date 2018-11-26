@@ -3,21 +3,21 @@ title: チームにゲストを追加する
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 11/26/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
-ms.reviewer: laal
+ms.reviewer: sbhatta
 description: 組織に新しいゲスト ユーザーを追加するために管理者が利用できる Microsoft Teams デスクトップ、Web クライアント、Azure Active Directory B2B コラボレーション ポータルなどのツールについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86a124cea08a69c01f33c99c16546c5f7bc3440f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 0671774d01ce8b2dfeea78fff36dde117931ff00
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016094"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674466"
 ---
 <a name="add-a-guest-to-a-team"></a>チームにゲストを追加する
 =====================
@@ -46,3 +46,8 @@ Azure Active Directory の B2B、Office 365 グループ、または SharePoint 
 
 ゲストの追加は、Azure Active Directory または Office 365 セキュリティ &amp; コンプライアンス センターで追跡できます。 Microsoft Teams でのゲストの追加は監査され、「Added member to group (グループにメンバーを追加しました)」という Azure AD グループ管理アクティビティとして記録されます。 詳細については、「[B2B コラボレーション ユーザーの監査およびレポート](https://go.microsoft.com/fwlink/p/?linkid=858884)」と「[Office 365 のセキュリティ センター &amp; コンプライアンス センターで監査ログを検索する](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security--Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)」をご覧ください。
 
+## <a name="more-information"></a>追加情報
+
+[マイクロソフトのチームでのゲスト アクセスを承認](teams-dependencies.md)
+[をオンまたはオフは、マイクロソフトのチームでのゲスト アクセス](set-up-guests.md)
+[チームへのゲスト アクセスを制御する PowerShell を使用](guest-access-powershell.md)

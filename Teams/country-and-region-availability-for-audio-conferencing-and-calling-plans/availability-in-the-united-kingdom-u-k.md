@@ -1,5 +1,5 @@
 ---
-title: 英国 (英国) の可用性
+title: 英国での利用可能性
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -26,14 +26,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 英国の利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: ada6f7c5d4919a3c114488da8b30e7b58f9d6821
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: ec3b6f1f9bb298e00b0d8786f7b8a04c8ab59352
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531136"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674771"
 ---
-# <a name="availability-in-the-united-kingdom-uk"></a>英国 (英国) の可用性
+# <a name="availability-in-the-united-kingdom-uk"></a>英国での利用可能性
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
@@ -61,7 +61,7 @@ ms.locfileid: "26531136"
 |**機能**|**詳細**|
 |:-----|:-----|
 |通話プランは購入できますか?  <br/> |はい  <br/> |
-|分の計画を呼び出すに使用できます。 |1 か月間利用は 4 つのプランのオプションがあります。 <ul><li>120 分、国内の計画を呼び出す </li><li>240 分、国内の計画を呼び出す</li></li><li>1200 分、国内の計画を呼び出す </li></li><li>国内および国際を呼び出す計画を 600 分</li></li> 
+|分の計画を呼び出すに使用できます。 |1 か月間利用は 4 つのプランのオプションがあります。 <ul><li>120 分、国内の計画を呼び出す </li><li>240 分、国内の計画を呼び出す</li></li><li>1200 分、国内の計画を呼び出す </li></li><li>国内と国際を呼び出す計画: 国内 OR 600 時間 (分) の (どちらかに達すると最初の予定表の月の)、国際通話 1200 分</li></li> 
 |プレミアム番号への発信コールを行うことができますでしょうか。 <br/> | 部分的にサポートされている: 1 分あたりの支払にクレジットの通信を使用してコスト番号を共有する (プレフィックス 44843、44844、44845、44870、44871、44872) の呼び出しがサポートされています。  449XX プレフィックスへの呼び出しはサポートされていません。 <br/> |
 |発信通話を行うことができますか?  <br/> | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。<br/> |
    

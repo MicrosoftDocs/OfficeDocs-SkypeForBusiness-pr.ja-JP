@@ -1,12 +1,12 @@
 ---
-title: 管理チームは、マイクロソフトの商用クラウド試用版の提供
+title: Microsoft Teams の商用クラウドの試用提供を管理する
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 ms.date: 10/23/2018
 ms.topic: article
 audience: Admin
-ms.reviewer: annikae
+ms.reviewer: annikaelias
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
@@ -14,14 +14,14 @@ description: マイクロソフトのチームに許可されていない office
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 891e87c69e6cd998a715ded901de15e6b7cd267e
-ms.sourcegitcommit: f9485c9b89d94da7aaed1fab94254c794b407164
+ms.openlocfilehash: 9c544290c13409e3ac857e44cabf1deb56614657
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25697463"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674779"
 ---
-<a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理チームは、マイクロソフトの商用クラウド試用版の提供
+<a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Microsoft Teams の商用クラウドの試用提供を管理する
 =======================================================
 
 マイクロソフト チームは、組織の優れた共同作業ツールです。 説明、技術革新、および Office 365 の機能を使用してアイデアを共有するには、人やチームを支援します。 Microsoft チーム商用クラウド試用版には、製品の 1 年間の試用版を開始するのには、マイクロソフトのチームに許可されていないユーザー、組織内の既存の Office 365 ユーザーが提供しています。 管理者には、上または組織内のユーザーに対してこの機能をオフに切り替える機能があります。

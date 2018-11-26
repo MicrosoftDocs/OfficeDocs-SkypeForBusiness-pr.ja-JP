@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: フランスの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: e42ca24d813058a511a81ceafa3961e1e179ca18
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: d1956b9970a84ee9e1e66e6f745a29a0de04d354
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25018018"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674787"
 ---
 # <a name="availability-in-france"></a>フランスの可用性
 
@@ -61,7 +61,7 @@ ms.locfileid: "25018018"
 |**機能**|**詳細**|
 |:-----|:-----|
 |通話プランは購入できますか?  <br/> |はい  <br/> |
-|分の計画を呼び出すに使用できます。 |1 か月間利用は 4 つのプランのオプションがあります。 <ul><li>120 分、国内の計画を呼び出す </li><li>240 分、国内の計画を呼び出す</li></li><li>1200 分、国内の計画を呼び出す </li></li><li>国内および国際を呼び出す計画を 600 分</li></li> 
+|分の計画を呼び出すに使用できます。 |1 か月間利用は 4 つのプランのオプションがあります。 <ul><li>120 分、国内の計画を呼び出す </li><li>240 分、国内の計画を呼び出す</li></li><li>1200 分、国内の計画を呼び出す </li></li><li>国内と国際を呼び出す計画: 国内 OR 600 時間 (分) の (どちらかに達すると最初の予定表の月の)、国際通話 1200 分</li></li> 
 |プレミアム番号への発信コールを行うことができますでしょうか。 <br/> | はい、この時点で完全にサポートします。 <br/> |
 |発信通話を行うことができますか?  <br/> | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。<br/> |
    
