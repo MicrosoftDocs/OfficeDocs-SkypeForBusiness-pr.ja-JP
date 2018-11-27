@@ -1,7 +1,7 @@
 ---
-title: ドライブの認識と、マイクロソフトのチームのトレーニングを実装します。
-author: LolaJacobsen
-ms.author: lolaj
+title: Microsoft Teams について啓発し、トレーニングを実施する
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: 意識を高めるし、マイクロソフトのチームの採用、トレーニング ・ プログラムを実装する方法について説明します。
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91468e121e80255249d4f8a3d9676f6c3069a319
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 8da00716e83d1b227bdf2c4ff66b1c026aa8e55c
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519958"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699758"
 ---
-# <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>ドライブの認識と、マイクロソフトのチームのトレーニングを実装します。
+# <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Microsoft Teams について啓発し、トレーニングを実施する
 
 認識とトレーニングは、全体的な採用戦略のマーケティングおよび通信のセグメントです。 これにより、社員がマイクロソフトのチームと、基になる Office 365 サービスとアプリケーションの新機能に注意してください。
    

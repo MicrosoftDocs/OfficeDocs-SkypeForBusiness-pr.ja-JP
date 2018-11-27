@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Skype for Business Server 2015 および Lync 2013 用の更新プログラムの検索と管理を 1 つの場所で実行します。 このページのリンクを使用して、更新プログラムの詳細情報の確認や、更新プログラムのダウンロードを行ってください。
-ms.openlocfilehash: 6bc575a5f2ae981a6f3ea613f8a262d048c5fde0
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 9c7d14e1439d3f7fd88ad6246495fccc1e7ef441
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531618"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699438"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server の更新プログラム
 
@@ -26,6 +26,7 @@ ms.locfileid: "26531618"
 Skype for Business Online および Office 365 の最新の更新プログラムについては、「[Office 365 ロードマップ](https://go.microsoft.com/fwlink/p/?linkid=529454)」をご覧ください。
 
 ## <a name="skype-for-business-server-2015-update-history"></a>Skype for Business Server 2015 更新履歴
+[KB 3061064](https://support.microsoft.com/kb/3061064)には、リリースされたすべての累積的な更新の一覧が含まれています。 日付は、最後のリリースの日付を示します。 
 
 |パッケージ名|KB 番号|リリース日|
 |:--- |:--- |:--- |

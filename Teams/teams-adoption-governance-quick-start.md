@@ -1,7 +1,7 @@
 ---
-title: マイクロソフト チームのクイック ・ スタート ・ ガバナンス
-author: LolaJacobsen
-ms.author: lolaj
+title: Microsoft Teams のガバナンスのクイック スタート
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: 導入計画の第 2 段階の重要な決定事項を確認します。
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c71a7870fdcfb0c8818430ee748fae68a90d9471
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 7c8cf1460919019234da365626bfdf587c87249e
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519928"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699798"
 ---
-# <a name="governance-quick-start-for-microsoft-teams"></a>マイクロソフト チームのクイック ・ スタート ・ ガバナンス
+# <a name="governance-quick-start-for-microsoft-teams"></a>Microsoft Teams のガバナンスのクイック スタート
 
 次のアクティビティが同時に発生し、それらの主要なチームのすべてまたは一部を伴う場合があります。 チームと共同で、初期の実験を行った後、ベスト プラクティスとして、大規模なガバナンスとのセキュリティに関する話し合いを延期します。 その後で確認する必要がありますが意思決定が簡単にします。 このフェーズでは、必要になるいくつかの決定があります。 正常にそれらを行うには、まず、次の質問に回答する必要があります。
 

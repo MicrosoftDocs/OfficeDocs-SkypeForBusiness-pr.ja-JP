@@ -1,7 +1,7 @@
 ---
-title: マイクロソフト チーム導入フェーズ 2 - 実験
-author: LolaJacobsen
-ms.author: lolaj
+title: Microsoft Teams の導入段階 2 - 実験
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: チームへの浸透実験フェーズを実行する方法について説明します。
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d70fbe7ddfbfb820e13bbba09a78024b48a80a6
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: f77989e31e8e79f13d54f7b3506cbf5c0b19d8e5
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519926"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699726"
 ---
-# <a name="microsoft-teams-adoption-phase-2---experiment"></a>マイクロソフト チーム導入フェーズ 2 - 実験
+# <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft Teams の導入段階 2 - 実験
 
 ここで、組織に関する優れたプロジェクト チームの重要な情報と武装は、チームを実験する準備が整ったら. Led は、利害関係者と良好な関係がありが組織では、意味のあるフィードバックを提供する早期採用者のための十分な数で、そのグループ内で 2 ~ 3 実世界のプロジェクトを試すことをお勧めします。 組織は、規模の大小には、かどうかは、チームがどのように以外のチャットを使用して、コラボレーションを向上させるし、ファイル ・ ストレージの機能を把握するには、このフェーズの完了をお勧めします。  
 

@@ -1,7 +1,7 @@
 ---
-title: オンボードの早期導入し、マイクロソフトのチームのフィードバックの収集
-author: LolaJacobsen
-ms.author: lolaj
+title: アーリー アダプターに関与して、Microsoft Teams についてのフィードバックを収集する
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: チームへの浸透、実験段階の初期採用者を選択し、プロジェクトのフィードバックを収集し、します。
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c1c85fead1bd1f1295a4ff3370d1b188f79eb73
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 58547d5f4577d9bca71317573677a56453188634
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519936"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699671"
 ---
-# <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>オンボードの早期導入し、マイクロソフトのチームのフィードバックの収集
+# <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>アーリー アダプターに関与して、Microsoft Teams についてのフィードバックを収集する
 
 早期採用プログラムへの関心を表現する従業員の一覧に戻ります。 チームと共同で、初期の実験に参加する個人のことを決定します。 または関心のある人々 の一部である可能性があります。 これらの初期のプロジェクトでそれらを選択しない場合でも、関心を維持し、将来的に参加することは、それらとの通信を続行します。 これらの登録プロセスは、ビジネス関係者、テクニカル ・ チーム、および上記の優先順位付け手順のディスカッションに基づく] を選択したプロジェクトの一部になります。 
 

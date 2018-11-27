@@ -1,28 +1,28 @@
 ---
-title: 結果と、マイクロソフトのチームの導入の成功を定義します。
-author: LolaJacobsen
-ms.author: lolaj
+title: Microsoft Teams の導入の結果と成功を定義する
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: 結果と、広範囲に対応チームの成功を測定する方法を説明します。
-ms.custom:
-- NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe4a146492712b4d18e8a4e1b18ea393a646662e
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 2df638a12b67ac70b0759f70365f48330c26914d
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519967"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699819"
 ---
-# <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>結果と、マイクロソフトのチームの導入の成功を定義します。
+# <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Microsoft Teams の導入の結果と成功を定義する
 
 ビジネス シナリオまたはサービスを改革するごとに、どのような成功した場合次のように、お客様のビジネスを定義するのにが重要です。 収集した情報の最初のシナリオでは、キューの割り当ては、以前の段階でとします。 スケールの実装を準備するを再検討し、これらの重要な成功基準を展開する必要があります。
   

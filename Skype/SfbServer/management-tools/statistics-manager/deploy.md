@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: '概要: は、Skype のビジネス サーバーの統計情報マネージャーを展開する方法の詳細については、このトピックを読みます。'
-ms.openlocfilehash: f408f494fc95fecdf0a0e80114d4d68d99181885
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2813b12dfda612374f1e10d4082d54ce46d88216
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532148"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699424"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>ビジネス サーバーの Skype の統計マネージャーを展開します。
  
@@ -123,7 +123,7 @@ StatsManPerfAgentListener.msi を実行し、次を指定するホスト ・ マ
     
 ### <a name="install-the-website"></a>Web サイトのインストール
 
-StatsManWebSite.msi を実行し、次を指定するホスト ・ マシン上の web サイトをインストールします。
+( [Skype ビジネス サーバーに、リアルタイムの統計情報マネージャー (64 ビット)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)に含まれている) StatsManWebSite.msi を実行して、ホスト ・ マシン上の web サイトをインストールし、次を指定します。
   
 1. 使用許諾契約書の内容を確認して、同意する場合は [**使用許諾契約書に同意します**] を選択して、[**次へ**] をクリックします。 
     

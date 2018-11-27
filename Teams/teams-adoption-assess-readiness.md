@@ -1,7 +1,7 @@
 ---
-title: マイクロソフト チームの組織はどのように準備ができてのですか。
-author: LolaJacobsen
-ms.author: lolaj
+title: Microsoft Teams に対する組織の準備状況について
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: 組織がチームへの移行の準備ができたかどうかを確認します。
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 627d6ca502731c058b1737e5ae50346e5b4ca2be
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: ff819ad3d0f2c28d446981279dbf518f589fe616
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519934"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699820"
 ---
-# <a name="how-ready-is-your-organization-for-microsoft-teams"></a>マイクロソフト チームの組織はどのように準備ができてのですか。
+# <a name="how-ready-is-your-organization-for-microsoft-teams"></a>Microsoft Teams に対する組織の準備状況について
 
 プロジェクト チームが一体となって、あなたはチームで何ができる、組織の表示を開始、することが重要チーム移行のため、組織の対応を評価します。 対応力を評価するために必要になります。
 

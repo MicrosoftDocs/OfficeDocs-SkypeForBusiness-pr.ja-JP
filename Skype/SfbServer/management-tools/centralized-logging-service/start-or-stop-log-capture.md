@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: '概要: 開始またはビジネス サーバー 2015 の Skype のログ サービスの一元的なログのキャプチャ セッションを停止する方法を説明します。'
-ms.openlocfilehash: c0b65fddcb5036cf41866ce79d82ae0bc49a79e3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d3dc2ca58964908bda0d8c2de845297bb0cb951b
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373765"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699860"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での CLS ログ キャプチャの開始または終了
  
@@ -47,7 +47,7 @@ ms.locfileid: "25373765"
    ```
 
     > [!NOTE]
-    > AlwaysOn シナリオには、既定の実行期間がありません。 **Stop CsClsLogging**コマンドレットを明示的に停止されるまで、このシナリオが実行されます。 詳細については、 [Stop CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps)を参照してください。 その他すべてのシナリオでは、既定の実行期間が 4 時間になっています。 
+    > AlwaysOn シナリオには、既定の実行期間がありません。 **Stop CsClsLogging**コマンドレットを明示的に停止されるまで、このシナリオが実行されます。 詳細については、「[Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps)」を参照してください。 その他すべてのシナリオでは、既定の実行期間が 4 時間になっています。 
   
 3. Enter キーを押して、コマンドを実行します。 
     
@@ -86,7 +86,7 @@ ms.locfileid: "25373765"
 ## <a name="stop-the-centralized-logging-service-log-capture"></a>集中ログ サービスのログ キャプチャを終了する
 <a name="stop"> </a>
 
-現在実行中のセッションを停止 CsClsLogging コマンドレットを使用してログオンを停止することができます。 一般に、さまざまな状況のログ セッションを停止する必要がありません。 たとえば、ログを検索し、最初にログ記録を停止する必要のない構成を変更できます。 実行する開始する前に (、グローバル、サイト、プール、またはコンピューターのスコープで) その他のシナリオのいずれかの場合は 2 つのシナリオを実行している、AlwaysOn と UserReplicator などがある場合、認証に関連する情報を収集する必要がありを停止する必要があります。認証のシナリオです。 詳細については、 [Stop CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps)を参照してください。
+現在実行中のセッションを停止 CsClsLogging コマンドレットを使用してログオンを停止することができます。 一般に、さまざまな状況のログ セッションを停止する必要がありません。 たとえば、ログを検索し、最初にログ記録を停止する必要のない構成を変更できます。 実行する開始する前に (、グローバル、サイト、プール、またはコンピューターのスコープで) その他のシナリオのいずれかの場合は 2 つのシナリオを実行している、AlwaysOn と UserReplicator などがある場合、認証に関連する情報を収集する必要がありを停止する必要があります。認証のシナリオです。 詳細については、「[Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps)」を参照してください。
   
 > [!NOTE]
 > 特定の展開、プール、またはコンピューターで実行することがどのようなシナリオを決定するときは、**コンピューターごと**に実行されている 2 つのシナリオに限定されることに注意してくださいする必要があります: AlwaysOn と 1 つのカスタム シナリオです。 プール上でのアクティビティ ログに記録する場合は、単一のエンティティとして、プールを扱う必要があります。 ほとんどの場合、そのことをプール内の各コンピューター上のさまざまなシナリオを実行します。 させることに関するデータを収集しているし、どのようなシナリオでは、展開全体で特定のコンピューターで最も有用なを考えている問題を確認します。 などの UserReplicator のシナリオを検討する場合は非常に小さな値にありますエッジ サーバーまたはエッジ プールの UserReplicator を実行しています。 
@@ -99,11 +99,14 @@ ms.locfileid: "25373765"
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
-例:
+次に例を示します。
   
 ```
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
+
+> [!NOTE]
+> いらっしゃるように: ログ記録を有効にした場合は、これでは、ログが保存されているでしょうか。 CLS のエージェントに送信される管理シェルのクエリを使用してログに格納されている情報にアクセスすることし、いくつかの可能なファイル形式に結果を出力することができます、ため、各サーバー上で CLS エージェントは、そのレコードを知っている実際に重要ではないです。  ログ ファイルを読み取るし、さまざまな**Snooper.exe** 、 **Notepad.exe**などのテキスト ファイルを読み取ることができる任意のツールなどのツールを使用して分析する指定の場所に保存できます。 Snooper.exe は、ビジネス サーバー 2015 のデバッグ ツールの Skype の一部であり[Web ダウンロード](https://go.microsoft.com/fwlink/p/?LinkId=285257)として利用可能です。
 
 ### <a name="to-stop-a-currently-running-centralized-logging-service-session"></a>現在実行中のログ サービスの一元的なセッションを停止するには
 
@@ -117,7 +120,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
    ![Show-CsCl 呼び出し後の Windows PowerShell コンソール](../../media/Ops_Show_Stop_CsClsLogging.jpg)
   
-   Show-CsClsLogging の結果、現在実行中のシナリオの概要と、そのシナリオの実行スコープが表示されます。 詳細については、[表示する CsClsLogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps)を参照してください。
+   Show-CsClsLogging の結果、現在実行中のシナリオの概要と、そのシナリオの実行スコープが表示されます。詳細については、「[Show-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps)」を参照してください。
     
 3. 特定のシナリオによる現在実行中のログ セッションを停止するには、次のように入力します。
     
@@ -133,10 +136,10 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    このコマンドは、pool01.contoso.net での UserReplicatior シナリオによるログ記録を停止します。
     
     > [!NOTE]
-    > UserReplicator シナリオを使用するこのログ セッション中に作成されたログは削除されません。 このログは、Search-CsClsLogging コマンドを使用して検索を実行する場合も使用できます。 詳細については、[検索 CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps)を参照してください。 
+    > UserReplicator シナリオを使用するこのログ セッション中に作成されたログは削除されません。このログは、Search-CsClsLogging コマンドを使用して検索を実行する場合も使用できます。詳細については、「[Search-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps)」を参照してください。 
   
 Start-CsClsLogging と対になる Stop-CsClsLogging コマンドレットは、シナリオによって定義されるログ セッションを終了し、ログ セッションによって作成されるログを保持します。2 つのシナリオは特定のコンピューターでいつでも実行できます。一方のシナリオを停止し、他方のシナリオを使用して情報を収集するという手段は、ほとんどのワークロードのトラブルシューティングで実行できる共通のタスクです。
 ## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
 <a name="stop"> </a>
 
-[Skype for Business 2015 の集中ログ サービス](centralized-logging-service.md)
+[Centralized Logging Service in Skype for Business 2015](centralized-logging-service.md)

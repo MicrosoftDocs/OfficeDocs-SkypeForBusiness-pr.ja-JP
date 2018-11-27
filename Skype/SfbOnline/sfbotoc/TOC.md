@@ -124,7 +124,7 @@
 ## [Office 365 の通話プラン](/microsoftteams/what-are-calling-plans-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [通話プランの既知の問題](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [組織の緊急対応の場所を追加、変更、削除する](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
-### [組織の緊急対応の住所を追加または削除する](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
+### [追加、変更、または組織のシステムのアドレスを削除します。](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
 ### [ユーザーの電話番号の割り当て、変更、削除を行う](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [ユーザーの緊急番号の割り当て、変更を行う](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)
 ### [割り当てたり、ユーザーのシステムの場所を変更します。](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)

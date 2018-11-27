@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b30ca95bb3ff5a01d5e8d991dda8e696148ab85c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c97ce12f2dd55807cd806afa05ea6d1813ad457b
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372320"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699410"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>チームの Microsoft アプリケーションのハードウェア要件
 
@@ -33,11 +33,11 @@ ms.locfileid: "25372320"
 |ハード ディスク    | ディスクの空き容量 3.0 GB        |
 |Display    |   画面の解像度を 1024 x 768 |
 |グラフィック ハードウェア |  128 MB のグラフィックス メモリの最小値
-|オペレーティング システム  |    10、Windows、Windows 8、またはサービスの Windows 7 の Windows 8.1 は、1 の 32 ビットおよび 64 ビットにパックします。  最高のエクスペリエンスでは、任意のオペレーティング システムの最新バージョンを使用します。|
+|オペレーティング システム  |    10、Windows、Windows 8、またはサービスの Windows 7 の Windows 8.1 は、1 の 32 ビットおよび 64 ビットにパックします。 最高のエクスペリエンスでは、任意のオペレーティング システムの最新バージョンを使用します。|
 |.NET バージョン    |  .NET 4.5 の CLR が必要か、後で       |
 |ビデオ    |  USB 2.0 ビデオ カメラ       |
 |デバイス    |   標準的なノート パソコンのカメラ、マイク、およびスピーカー    | 
-|ビデオ通話や会議 | ビデオ通話、オンライン会議で適切に動作することをお勧め 2.0 GHz のプロセッサと 4.0 GB の RAM を持つコンピューターを使用して (または上位)。
+|ビデオ通話や会議 | ビデオ通話、オンライン会議で適切に動作することをお勧め 2.0 GHz のプロセッサと 4.0 GB の RAM を持つコンピューターを使用して (または上位)。 私のバック グラウンドをぼかし、省略可能なビデオ特殊効果には、高度なベクトルの拡張機能 2 (AVX2) のサポートを備えたプロセッサが必要です。
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Mac 上のチームのデスクトップ アプリケーションのハードウェア要件
 
@@ -50,7 +50,7 @@ ms.locfileid: "25372320"
 |オペレーティング システム  |    Mac OS X 10.11 許可されて以降     |
 |ビデオ  |    互換性のある web カメラ     |
 |音声    |  互換性のあるマイクとスピーカー、マイク、または同等のデバイスを使ってヘッドセット       |
-|ビデオ通話や会議 | ビデオ通話、オンライン会議で適切に動作することをお勧め 2.0 GHz のプロセッサと 4.0 GB の RAM を持つコンピューターを使用して (または上位)。
+|ビデオ通話や会議 | ビデオ通話、オンライン会議で適切に動作することをお勧め 2.0 GHz のプロセッサと 4.0 GB の RAM を持つコンピューターを使用して (または上位)。 省略可能なビデオ特殊効果には、高度なベクトルの拡張機能 2 (AVX2) サポート、ほとんど遅延 2013 Mac デバイスおよびそれ以降のプロセッサが必要です私の背景をぼかし。
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>モバイル デバイス上のアプリケーションをチームのためのハードウェア要件
 

@@ -1,7 +1,7 @@
 ---
-title: マイクロソフト チームの採用を推進するを開始します。
-author: LolaJacobsen
-ms.author: lolaj
+title: Microsoft Teams の導入の推進を開始する
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: について説明します、スタートアップの実験、およびマイクロソフトのチームへの浸透のフェーズを有効にします。
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6615f296fd1ff248b2801fd44c6cc92586b27876
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 75cecfd5050ce964fd7b2dbc9dff97da2fb920b3
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519959"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699750"
 ---
-# <a name="get-started-driving-adoption-of-microsoft-teams"></a>マイクロソフト チームの採用を推進するを開始します。
+# <a name="get-started-driving-adoption-of-microsoft-teams"></a>Microsoft Teams の導入の推進を開始する
 
 マイクロソフト チームの採用を推進するには、優れたユーザー エクスペリエンスを実現することがでくと、社内のビジネス ・ バリューを向上します。 私たちの目標では、チームと共同で、旅を開始することができますように、迅速に実行していることとします。 このガイドでは、チームのユーザーが積極的に焦点を当てています、私たちのマニュアルの他のセクションで説明されている環境の技術的な準備に依存しています。
 

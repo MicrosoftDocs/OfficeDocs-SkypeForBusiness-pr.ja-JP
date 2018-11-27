@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: '概要: は、Skype をビジネスのサーバーを実装する前に以下の IP アドレス タイプの考慮事項を確認します。'
-ms.openlocfilehash: 46d448e0004c9a83921f0c92d12513e39f076dc3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 58d359b626334b49ed08904134c758128f78673e
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375204"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699417"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Skype for Business での IP アドレスの種類の構成
 
@@ -26,7 +26,7 @@ ms.locfileid: "25375204"
 
 IP アドレスの種類を展開するには、トポロジ ビルダーでトポロジ設定を使用します。 このセクションでは、フロント エンド サーバー、仲介サーバー、およびエッジ トランスポート サーバーの IP アドレスの種類を展開する方法について説明します。
 
-## <a name="deploy-ip-address-types-on-a-front-end-server"></a>IP アドレスの種類をフロント エンド サーバーに展開する
+## <a name="deploy-ip-address-types-on-a-front-end-server"></a>IP アドレス タイプをフロント エンド サーバーに展開する
 
 トポロジ ビルダーを使用すると、サーバーをフロント エンド サーバーの IP アドレスの種類を展開するのには次の手順で手順を実行します。
 
@@ -34,7 +34,7 @@ IP アドレスの種類を展開するには、トポロジ ビルダーでト�
 
 1. [**Enterprise Edition フロントエンドのプール**] で、プール内のサーバーを右クリックし、[**プロパティの編集**] を選択します (または、サーバーを選択し、[**アクション**] メニューの [**プロパティの編集**] をクリックします)。
 
-2. [**プロパティの編集**] ダイアログ ボックスで、構成する IP アドレスの種類を選択します。デュアル スタック構成の場合は、次の図のように、[**IPv4 を有効にする**] および [**IPv6 を有効にする**] を選択します。
+2. [**プロパティの編集**] ダイアログ ボックスで、構成する IP アドレスの種類を選択します。 デュアル ・ スタック構成では、**有効にする IPv4**と**IPv6 を有効にする**を選択します。
 
    **フロントエンド サーバー プールの [プロパティの編集] ダイアログ ボックス**
 
@@ -49,10 +49,10 @@ IP アドレスの種類を展開するには、トポロジ ビルダーでト�
 
    - [**PSTN IP アドレス**]。フロントエンド サーバーで仲介サーバーが共存する場合は、PSTN IP アドレスを定義します。このアドレスは、選択されているアドレスの種類の形式に一致している必要があります。
 
-     > [!NOTE]
-     > 追加のネットワーク インターフェイス カード (Nic) がフロント エンド サーバーの PSTN の IP アドレスの構成をサポートするためのインストールはサポートされていません。 ビジネス サーバーの Skype のサポートされている NIC 構成の詳細については、 [Lync Server 2013 のサーバー ハードウェア プラットフォーム](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx)を参照してください。
+> [!NOTE]
+> 追加のネットワーク インターフェイス カード (Nic) がフロント エンド サーバーの PSTN の IP アドレスの構成をサポートするためのインストールはサポートされていません。 ビジネス サーバーの Skype のサポートされている NIC 構成の詳細については、 [Lync Server 2013 のサーバー ハードウェア プラットフォーム](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx)を参照してください。
 
-## <a name="deploy-ip-address-types-on-a-mediation-server"></a>仲介サーバーに IP アドレスの種類を展開する
+## <a name="deploy-ip-address-types-on-a-mediation-server"></a>仲介サーバーに IP アドレス タイプを展開する
 
 トポロジ ビルダーを使用すると、仲介サーバーの IP アドレスの種類を展開するのには次の手順で手順を実行します。
 
@@ -74,9 +74,14 @@ IP アドレスの種類を展開するには、トポロジ ビルダーでト�
   - [**プライマリ IP アドレス**]。公衆交換電話網 (PSTN) 以外のすべての通信でサーバーが使用する IP アドレスを入力します。入力する IP アドレスは、選択されているアドレスの種類の形式に一致している必要があります。
 
   - [**PSTN IP アドレス**]。フロントエンド サーバーで仲介サーバーが共存する場合は、PSTN IP アドレスを定義します。このアドレスは、選択されているアドレスの種類の形式に一致している必要があります。
+> [!IMPORTANT]
+> だけ*専用*仲介サーバーに 2 つのネットワーク カードがサポートします。 仲介サーバの役割がフロント エンドに併設されている場合は、2 つのネットワーク カードはサポートされていません。 
 
-    > [!NOTE]
-    > スタンドアロンの仲介サーバーの PSTN の IP アドレスの構成をサポートするために追加の Nic のインストールはサポートされていません。 ビジネス サーバーの Skype のサポートされている NIC 構成の詳細については、 [Lync Server 2013 のサーバー ハードウェア プラットフォーム](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx)を参照してください。
+> [!NOTE]
+> - ビジネス サーバー 2015 の Skype のサポートされている NIC 構成の詳細については、[ビジネス サーバー 2015 の Skype のハードウェア](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)を参照してください。
+> - ビジネス サーバー 2019 の Skype のサポートされている NIC 構成の詳細については、[ビジネス サーバー 2019 の Skype のハードウェア](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)を参照してください。
+
+
 
 ## <a name="deploy-ip-address-types-on-an-edge-server"></a>IP アドレスの種類をエッジ サーバーに展開する
 

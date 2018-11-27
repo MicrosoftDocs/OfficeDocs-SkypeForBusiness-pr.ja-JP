@@ -1,7 +1,7 @@
 ---
-title: フィードバックと、マイクロソフトのチームの導入レポートを最適化します。
-author: LolaJacobsen
-ms.author: lolaj
+title: Microsoft Teams の導入についてのフィードバックとレポートを最適化する
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: ユーザーからのフィードバックを取得し、レポート、チームの採用で、サービスの稼働状態を使用する方法について説明します。
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65790075f649693a5312c3a12cc5daac33c7ac90
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 5ab7a061b4f45564c6be42f708a0ded3ea00f268
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519932"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699838"
 ---
-# <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>フィードバックと、マイクロソフトのチームの導入レポートを最適化します。
+# <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Microsoft Teams の導入についてのフィードバックとレポートを最適化する
 
 取得しているシグナル戻る、サービスや、従業員から、ユーザーからのフィードバックとサービスの正常性レポートには、デルのベストプラクティスを次にことを確認します。  場合によっては、特定サービスの利用状況と正常性レポートにアクセスするのには Office 365 の管理者権限を必要があります。 いない場合、Office 365 の管理者、組織のこのデータの一部にアクセスするのには Microsoft 365 管理センターのレポートの閲覧者の役割を付与するには、その個人と協力します。 
 

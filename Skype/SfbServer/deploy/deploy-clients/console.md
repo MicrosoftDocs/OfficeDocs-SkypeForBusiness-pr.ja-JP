@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: この資料では、Skype ルーム システム v2 のコンソールとその周辺機器を設定する方法について説明します。
-ms.openlocfilehash: bb23f0dad26f37554657a101dc68dc7d776080b2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 01bc2fe49fc56a4926563ad18e384455ef437b77
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371062"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699431"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Skype Room Systems バージョン 2 コンソールを構成する
  
@@ -47,14 +47,17 @@ Skype ルーム システム v2 のコンソール アプリケーションを�
 > 予期しない動作になる可能性があります、次の手順に従って、Skype ルーム システム v2 のインストール メディアを作成するに失敗しました。 Skype ルーム システム v2 のインストール メディアの作成については、Windows 10 企業記念日の更新プログラム (バージョン 1607) がサポートされていません。
   
 > [!NOTE]
-> Windows 10 企業記念日を更新、Windows ストアを使用して Skype ルーム システム v2 更新 3 への移動で既存の Skype ルーム システム v2 機能しますが、次のように、新規インストールを行う必要があります。 
+> 3 Skype ルーム システム v2 更新は、Windows ストアを使用して移動する Windows の 10 企業の既存の Skype ルーム システム v2 機能しますが、次のように、新規インストールを行う必要があります。 
   
-1. [CreateSrsMedia.ps1 スクリプト](https://go.microsoft.com/fwlink/?linkid=867842)をダウンロードします。
+1. [CreateSrsMedia.ps1 スクリプト](https://go.microsoft.com/fwlink/?linkid=867842)をダウンロードします。 
 2. (省略可能)ダウンロードし、スクリプトと同じディレクトリに、必要な言語パックの CAB ファイルを配置します。 言語パックを取得する場所がわからない場合に、作成するメディアの種類に応じた適切な言語パックのファイルをダウンロードできるスクリプトを示します。
 3. Windows 10 マシン上で管理者特権でのプロンプトから CreateSrsMedia.ps1 スクリプトを実行します。
 
 
 Skype ルーム システム v2 の USB セットアップ ディスクを作成するスクリプトの指示に従います。 完了したら、USB ディスクをコンピューターから削除し、 [Windows の 10 をインストール](console.md#Reimage)して Skype ルーム システム v2 のコンソール アプリケーションです。
+
+> [!TIP]
+> お気付き不要になったと呼ばれる特定のバージョンのドライバー、Skype ルーム システム v2 のクライアント、または Windows の 10 企業をします。 これは意図的なと一致し、すべてのインストーラーの互換性を確認するスクリプトです。 スクリプトは自動的に検索して、サポートされている構成に必要なものを取得します。  
     
 ## <a name="install-windows-10-and-the-skype-room-systems-v2-console-app"></a>Windows 10 と Skype Room Systems バージョン 2 コンソール アプリをインストールする
 <a name="Reimage"> </a>
@@ -135,7 +138,7 @@ Windows をインストールすると、Skype ルーム システム v2 のコ�
     
 3. "ドメインの構成] の下で、Skype のビジネス サーバーの FQDN を設定します。 ビジネスの SIP ドメインの Skype ユーザーの Exchange ドメインと異なる場合は、このフィールドに、Exchange ドメインを入力します。
     
-4. [**次へ**] をクリックします。
+4. [ **次へ**] をクリックします。
     
 5. [機能] 画面で指定されたデバイスを選択し、[**次へ**] をクリックします。 既定では、自動画面共有はオンで、会議名の非表示はオフになっています。 選択対象のデバイスは次のとおりです。
     
@@ -181,7 +184,7 @@ Skype ルーム システム v2 のコンソールでは、ビジネスおよび
 ### <a name="join-an-active-directory-domain-optional"></a>(省略可能) Active Directory のドメインに参加します。
 <a name="Certs"> </a>
 
-Skype ルーム システム v2 のコンソールは、ドメインに参加できます。 Skype ルーム システム v2 のコンソールは、多くのワークステーションのポリシーは Skype ルーム システム v2 と互換性がないため PC ワークステーションから別の OU に配置してください。 一般的な例は、パスワードの強制ポリシー Skype ルーム システム v2 が自動的に起動できなくなります。 GPO の設定の管理方法については、 [Skype ルームの管理のシステムのバージョン 2](../../manage/skype-room-systems-v2/room-systems-v2-operations.md)を参照してください。
+Skype ルーム システム v2 のコンソールは、ドメインに参加できます。 Skype ルーム システム v2 のコンソールは、多くのワークステーションのポリシーは Skype ルーム システム v2 と互換性がないため PC ワークステーションから別の OU に配置してください。 一般的な例は、パスワードの強制ポリシー Skype ルーム システム v2 が自動的に起動できなくなります。 GPO 設定の管理の詳細については、「[Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/room-systems-v2-operations.md)」を参照してください。
   
 ### <a name="to-join-skype-room-system-v2-to-a-domain"></a>Skype Room System バージョン 2 をドメインに参加させるには
 
@@ -242,7 +245,7 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Skype_Room_Syste
 ## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
 <a name="Checklist"> </a>
 
-[Skype Room Systems バージョン 2 の計画](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
 [Skype Room System バージョン 2 を展開する](room-systems-v2.md)
   

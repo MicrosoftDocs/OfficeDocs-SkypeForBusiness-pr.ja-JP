@@ -1,28 +1,28 @@
 ---
-title: エキスパート プログラムをマイクロソフトのチームを作成します。
-author: LolaJacobsen
-ms.author: lolaj
+title: Microsoft Teams のチャンピオン プログラムを作成する
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 10/30/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: チームの導入を促進するエキスパートのチームのトレーニング方法を説明します。
-ms.custom:
-- NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 754ffc617fb310deac244a10160f435a0ba7f6ea
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 6961c55f1ea75410e5b7e807a40d9a4512ad5249
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519931"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699868"
 ---
-# <a name="create-your-champions-program-for-microsoft-teams"></a>エキスパート プログラムをマイクロソフトのチームを作成します。
+# <a name="create-your-champions-program-for-microsoft-teams"></a>Microsoft Teams のチャンピオン プログラムを作成する
 
 エキスパートは、組織内の認識、導入、および教育を推進するうえで不可欠です。 支持者は、人、主に、その他の新しい技術 (特にチーム) に興味を持っている人を支援し、ベスト プラクティスとの連携で使用する他の従業員を支援する意欲です。 組織のサイズによってはこの人の役割の一部として必要がありますが、多くの従業員にこの役割自体、他のユーザーには、その主要な動機があるため。
 
