@@ -1,5 +1,5 @@
 ---
-title: 組織の緊急対応の住所を追加または削除する
+title: 追加、変更、または組織のシステムのアドレスを削除します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,27 +20,27 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Skype for Business のアカウントに緊急対応の住所を追加する方法を学びます。 '
-ms.openlocfilehash: a4edcfa5673ac20c571bfae4d26f41facb9f0c80
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: 'Learn how to add an emergency address to your Skype for Business account. '
+ms.openlocfilehash: d4347610238230e5e509dab998b99fbd7b496833
+ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347063"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26676409"
 ---
-# <a name="add-or-remove-an-emergency-address-for-your-organization"></a>組織の緊急対応の住所を追加または削除する
+# <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>追加、変更、または組織のシステムのアドレスを削除します。
 
-緊急対応の住所は電話番号に関連付けられている必要がありますが、いつこの関連付けが行われるかは国や地域によって異なります。 例えば米国では、電話番号をユーザーに割り当てるときに、緊急対応の住所を関連付ける必要があります。 英国では、Office 365 から電話番号を取得するか、現在のサービス プロバイダーから電話番号を移すときに、緊急対応の住所をその電話番号に関連付ける必要があります。
+緊急アドレス、電話番号に関連付けられている必要がありますが、国や地域によって異なることができますこれが発生します。 例えば米国では、電話番号をユーザーに割り当てるときに、緊急対応の住所を関連付ける必要があります。 英国では、Office 365 から電話番号を取得するか、現在のサービス プロバイダーから電話番号を移すときに、緊急対応の住所をその電話番号に関連付ける必要があります。
   
 どの国や地域であっても、緊急対応の住所に 1 つ以上の場所を追加すること、また、緊急対応の住所を削除することができます。 、組織内の物理的な場所の数によっては建物、フロア、オフィスのそれらを作成できます。 詳細については、「[緊急対応の場所、住所、通話のルーティングの概要](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)」 をご覧ください。
   
 Office 365 の通話プランの取得方法とプランの費用については、「[Skype for Business と Microsoft Teams アドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)」をご覧ください。
   
-## <a name="to-add-an-emergency-address"></a>緊急対応の住所を追加するには
+## <a name="add-an-emergency-address"></a>緊急アドレスを追加します。
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. 移動、**マイクロソフトのチームとビジネス管理センターの Skype** > **従来のポータル**です。
+2. 、**マイクロソフトのチームとビジネス管理センターの Skype** > **従来のポータル**です。
     
 3. 左側のナビゲーションで、[**音声**][ > **緊急対応の場所**] に移動し、[**新しい住所を追加** ] ボタンをクリックします。
     
@@ -58,6 +58,21 @@ Office 365 の通話プランの取得方法とプランの費用については
     
 6. 住所が検証されたら、[ **保存**] をクリックします。
     
+## <a name="change-an-emergency-address"></a>緊急のアドレスを変更します。
+
+1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
+    
+2. 、**マイクロソフトのチームとビジネス管理センターの Skype** > **従来のポータル**です。
+    
+3. 左側のナビゲーションでは、[**音声**] に移動 > **緊急の場所**は、変更するアドレスを選択し、[操作] ウィンドウの [**編集**] をクリックします。
+    
+    > [!IMPORTANT]
+    > ビジネス管理センターの Skype では、左側のナビゲーションの**音声**オプションを表示するため、まず**E5 のエンタープライズ ライセンス**を少なくとも 1 つ、1 つの**電話システム**のアドオン ライセンスまたはアドオンのライセンスが 1 つの**電話会議**を購入する必要があります。
+
+4. 変更を加え、[**検証**] をクリックします。
+
+5. [**保存**] をクリックします。
+
 ## <a name="to-remove-an-emergency-address"></a>緊急対応の住所を削除するには
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。

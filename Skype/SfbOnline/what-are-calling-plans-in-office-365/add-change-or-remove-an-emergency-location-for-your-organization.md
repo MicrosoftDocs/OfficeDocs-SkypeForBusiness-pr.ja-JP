@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: '公衆交換電話網 (PSTN) で Skype for Business が使用する組織の緊急対応の場所を追加、変更、削除する方法を説明します。 '
-ms.openlocfilehash: 43a8ac0759fd8dc949953fe22cb73c00a96f4314
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: 'Learn to add, change, or remove an emergency location used by  Skype for Business on Public Switched Telephone Networks (PSTN) for your organization. '
+ms.openlocfilehash: 81a70264e5b8a7f316a9c64e3fa6104d193dec66
+ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347056"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26676437"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>組織の緊急対応の場所を追加、変更、削除する
 
@@ -38,7 +38,7 @@ Office 365 の通話プランの取得方法とプランの費用については
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. 移動、**マイクロソフトのチームとビジネス管理センターの Skype** > **従来のポータル**です。
+2. 、**マイクロソフトのチームとビジネス管理センターの Skype** > **従来のポータル**です。
     
 3. 左側のナビゲーションでは、[**音声**] に移動 > **緊急の場所**、および緊急時のアドレスの場所を追加するを選択します。
     
@@ -55,7 +55,7 @@ Office 365 の通話プランの取得方法とプランの費用については
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. 移動、**マイクロソフトのチームとビジネス管理センターの Skype** > **従来のポータル**です。
+2. 、**マイクロソフトのチームとビジネス管理センターの Skype** > **従来のポータル**です。
     
 3. 左側のナビゲーションでは、[**音声**] に移動 > **緊急の場所**、し、緊急時に場所を変更するアドレスを選択します。
     
@@ -69,7 +69,7 @@ Office 365 の通話プランの取得方法とプランの費用については
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. 移動、**マイクロソフトのチームとビジネス管理センターの Skype** > **従来のポータル**です。
+2. 、**マイクロソフトのチームとビジネス管理センターの Skype** > **従来のポータル**です。
     
 3. 左側のナビゲーションでは、[**音声**] に移動 > **緊急の場所**、および緊急時のアドレスの場所を削除するを選択します。
     

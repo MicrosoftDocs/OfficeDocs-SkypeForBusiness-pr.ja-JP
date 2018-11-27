@@ -1,5 +1,5 @@
 ---
-title: 直接ルーティングを計画します。
+title: ダイレクト ルーティングを計画する
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,14 +16,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Microsoft 電話システム直接ルーティングを使用する方法マイクロソフトの電話システムに、サポートされている、お客様が用意したセッション ボーダー コント ローラー (SBC) の接続については、このトピックを参照してください。
-ms.openlocfilehash: a26dfc51e1a885569a37200d8613879e8f3bd484
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: d3b102dc09011e5990a42c608d78c6bb3f414ff7
+ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531988"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26676553"
 ---
-# <a name="plan-direct-routing"></a>直接ルーティングを計画します。
+# <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
 > [!Tip]
 > ルーティング、それを計画する方法と展開方法は、直接の利点について説明するのには次のセッションを監視する:[マイクロソフトのチームに直接ルーティング](https://aka.ms/teams-direct-routing)
@@ -222,6 +222,21 @@ SBC では、sip.pstnhub.microsoft.com を解決するための DNS クエリを
   > [!NOTE]
   > SBC の同時呼び出しごとに少なくとも 2 つのポートをお勧めします。
 
+## <a name="media-traffic-codecs"></a>メディア トラフィック: コーデック
+
+### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>SBC とクラウド メディア プロセッサ、またはマイクロソフトのチームのクライアントとの間のレグです。
+メディア バイ パスの場合と非バイパスの場合の両方に適用されます。
+
+レグ セッション ボーダー コント ローラーとメディアのバイパス) を付けずにクラウド メディア プロセッサとの間やチームのクライアントとメディアのバイパスが有効な場合)、SBC との間で直接ルーティング インターフェイスは、以下のコーデックを使用できます: • 非メディア (クラウド メディアに SBC を使用しません。プロセッサ): 絹、G.711、G.722, G, 729 • メディア (SBC チーム クライアント) を使用しない: 絹、G.711、G.722, G, 729、著作
+
+セッション ボーダー コント ローラーの特定のコーデックの使用を強制するには、申し出リストから不要なコーデックを除きます。
+
+### <a name="leg-between-microsoft-teams-client--and-cloud-media-processor"></a>マイクロソフト チームのクライアントとクラウド メディア プロセッサとの間の区間
+適用されるメディアではないが大文字と小文字のみを使用しません。 チームのクライアントとの間で直接メディア フローをメディア バイ パスで
+
+クラウド メディア プロセッサとマイクロソフトのチームのクライアントとの間の区間に絹または G.722 のいずれかが使用されます。 マイクロソフトのアルゴリズムは、複数のパラメーターを考慮に基づくこの区間のコーデックを選択します。 
+
+
 ## <a name="supported-session-border-controllers-sbcs"></a>セッション ボーダー コント ローラー (SBCs) のサポート
 
 マイクロソフトでは、直接ルーティングとペアにする認定の SBCs のみサポートします。 エンタープライズ VoIP は企業にとって重要であるため、マイクロソフトでは、集中的なテストを実行を選択した SBCs と、2 つのシステムを確実に SBC ベンダーとの連携は互換性があります。 
@@ -233,7 +248,7 @@ SBCs のサポートの詳細については、[リストのセッション ボ�
  
 ## <a name="see-also"></a>関連項目
 
-[直接ルーティングを構成します。](direct-routing-configure.md)
+[直接ルーティングを構成する](direct-routing-configure.md)
 
 
 
