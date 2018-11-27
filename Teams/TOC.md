@@ -8,7 +8,7 @@
 ## [オンボードの早期導入](get-started-with-teams-onboard-early-adopters.md)
 ## [モニターの使用方法およびフィードバック](get-started-with-teams-monitor-usage-and-feedback.md)
 ## [次の場所](get-started-with-teams-resources-for-org-wide-rollout.md)
-## [マイクロソフト チームのヘルプを表示します。](get-help-in-microsoft-teams.md)
+## [Microsoft Teams でヘルプを利用する](get-help-in-microsoft-teams.md)
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
@@ -52,7 +52,7 @@
 
 ## [Teams の展開の概要](deployment-overview.md)
 ## [Teams へのユーザー アクセスを管理する](user-access.md)
-## [マイクロソフト チームの管理者の役割を使用して、チームを管理するには](using-admin-roles.md)
+## [Microsoft Teams の管理者ロールを使用して Teams を管理する](using-admin-roles.md)
 ## [チーム PowerShell の概要](teams-powershell-overview.md)
 ## [Teams のクライアントを取得する](get-clients.md)
 ### [チームのアプリケーションのハードウェア要件](hardware-requirements-for-the-teams-app.md)
@@ -60,7 +60,7 @@
 ### [サーフェスのハブのチームを配置します。](teams-surface-hub.md)
 ## [チームを仮想環境で実行します。](virtual-environment-teams.md)
 ## [組織内のチームを有効にします。](Office-365-set-up.md)
-## [マイクロソフトのチームを使用してディレクトリ検索のスコープ](teams-scoped-directory-search.md)
+## [Microsoft Teams の範囲指定ディレクトリ検索を使用する](teams-scoped-directory-search.md)
 ## [組織内のチームの機能を管理します。](enable-features-office-365.md)
 ### [新しいマイクロソフトのチームとビジネス管理センターの Skype に移行する際のチームを管理します。](manage-teams-skypeforbusiness-admin-center.md)
 ### [マイクロソフトのチームとビジネス管理センターの Skype のチームを管理します。](manage-teams-in-modern-portal.md)
@@ -133,7 +133,7 @@
 <!-- ============================================================ -->
 # Office 365 との相互運用性
 ## [移行とビジネス用の Skype では、相互運用性](migration-interop-guidance-for-teams-with-skype.md)
-## [ビジネスの Skype との共存](coexistence-chat-calls-presence.md)
+## [Skype for Business と共存する](coexistence-chat-calls-presence.md)
 ## [共存を設定し、設定をアップグレードします。](setting-your-coexistence-and-upgrade-settings.md)
 ## [Office 365 グループと Teams](office-365-groups.md)
 ## [既存の Office 365 グループを Teams で強化する](enhance-office-365-groups.md)
@@ -227,7 +227,7 @@
 ### [ユーザーが会議に参加するときに名前を記録できるようにする](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ### [会議の入退室通知をオンまたはオフにする](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
 
-### [チーム クラウドのミーティングのレコーディング](cloud-recording.md)
+### [Teams のクラウド会議の記録](cloud-recording.md)
 ### [Outlook で Teams の会議アドインを使用する](teams-add-in-for-outlook.md)
 ### [Meeting Migration Service (MMS) のセットアップ](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [クラウド ビデオの相互運用機能](cloud-video-interop.md)
@@ -344,7 +344,7 @@
 
 ### [サービスの電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [組織の電話番号の管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-#### [オーストラリアの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
+#### [オーストラリアでの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
 #### [ベルギーでの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
 #### [カナダでの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md)
 #### [フランスでの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-france.md)
@@ -392,19 +392,18 @@
 ### 通話プラン
 #### [クイック スタート ガイド: Teams での通話プランの設定](configuring-teams-calling-quickstartguide.md)
 #### [チュートリアル: チームを呼び出す](Tutorial-calling-in-teams.yml)
-#### [通話プランの設定](set-up-calling-plans.md)
-#### [組織の緊急対応の住所を追加、変更、削除する](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [通話プランのセットアップ](set-up-calling-plans.md)
+#### [追加、変更、または組織のシステムのアドレスを削除します。](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [組織の緊急対応の場所を追加、変更、削除する](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [ユーザーの緊急対応の割り当て、変更を行う](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [ユーザーの緊急番号の割り当て、変更を行う](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [割り当てたり、ユーザーのシステムの場所を変更します。](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [ユーザーの電話番号の割り当て、変更、削除を行う](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Office 365 の通話プラン](calling-plans-for-office-365.md)
-#### [ユーザーの緊急対応の住所を変更する](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [ユーザーの緊急対応の場所を変更する](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [通話プランで使用されるさまざまな種類の電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 #### [ユーザー用の電話番号の取得](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [取得できる電話番号の数について](how-many-phone-numbers-can-you-get.md)
 #### [[[Skype for Business 新しい電話番号の申請](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-##### [オーストラリアの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
+##### [オーストラリアでの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
 ##### [ベルギーでの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
 ##### [カナダでの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md)
 ##### [フランスでの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-france.md)
@@ -504,12 +503,12 @@
 #### [電話システムの自動応答について](what-are-phone-system-auto-attendants.md)
 #### [自動アテンダントが応答し、チームから直接キューの呼び出しを呼び出す](answer-auto-attendant-and-call-queue-calls.md)
 ### 電話システムの直接のルーティング
-#### [直接ルーティングを計画します。](direct-routing-plan.md)
-#### [直接ルーティングを構成します。](direct-routing-configure.md)
+#### [ダイレクト ルーティングを計画する](direct-routing-plan.md)
+#### [直接ルーティングを構成する](direct-routing-configure.md)
 #### [直接ルーティングへの移行](direct-routing-migrating.md)
 #### [監視し、直接ルーティングのトラブルシューティングを行う](direct-routing-monitor-and-troubleshoot.md)
-#### [PSTN への接続を持つハイブリッド環境でのユーザー アカウント](direct-routing-user-accounts-in-a-hybrid-environment.md)
-#### [複数のテナントのセッション ボーダー コント ローラーを構成します。](direct-routing-sbc-multiple-tenants.md)
+#### [PSTN 接続を使用するハイブリッド環境でのユーザー アカウント](direct-routing-user-accounts-in-a-hybrid-environment.md)
+#### [複数のテナントについてセッション ボーダー コントローラーを構成する](direct-routing-sbc-multiple-tenants.md)
 #### [ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト](direct-routing-border-controllers.md)
 ### [マイクロソフト チーム オンライン呼び出しのフロー](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
