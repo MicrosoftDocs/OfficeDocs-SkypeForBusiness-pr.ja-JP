@@ -11,21 +11,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: この資料では、Skype ルーム システム v2 をサポートするための要件について説明します。
-ms.openlocfilehash: 23ab819c4a32efd4228a1d1d5b7aba89275e5b39
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8cadbed89be0301071c2c8a30c715f786b549d36
+ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532074"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26716452"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Skype Room Systems バージョン 2 の要件
 
 この資料では、Skype ルーム システム v2 をサポートするための要件について説明します。 
 
-[Skype ルーム システムの配置のバージョン 2](../../deploy/deploy-clients/room-systems-v2.md)で説明したようにアカウントを作成し、 [Skype ルーム システム v2 のコンソールの構成](../../deploy/deploy-clients/console.md)で説明したように、ミーティング コンソールの設定、展開が含まれます。 [Skype ビジネス アドオン ライセンス](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)を参照する必要もあります。
+[Skype ルーム システムの配置のバージョン 2](../../deploy/deploy-clients/room-systems-v2.md)で説明したようにアカウントを作成し、 [Skype ルーム システム v2 のコンソールの構成](../../deploy/deploy-clients/console.md)で説明したように、ミーティング コンソールの設定、展開が含まれます。 
+
+参照する場合もあります。
+
+- [Skype ビジネス アドオン ライセンス](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
+- [計画に基づいてオプションをライセンス: Skype ルーム システム v2](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Skype ルーム システム v2 は、オンライン ビジネスのビジネス サーバー 2015、マイクロソフトのチーム、または Skype のビジネス サーバー 2019 の Skype、Skype での使用です。 <br><br>Lync Server 2013 のような以前のプラットフォームは、Skype ルーム システム v2 を使用する必要もありません。 
+> Skype ルーム システム v2 は、オンライン ビジネスのビジネス サーバー 2015、マイクロソフトのチーム、または Skype のビジネス サーバー 2019 の Skype、Skype での使用です。 <br><br>Lync Server 2013 のような以前のプラットフォームは、Skype ルーム システム v2 を使用する必要もありません。
 
 > [!NOTE]
 > Prem の Exchange サーバーを使用すると、Skype ルーム システム v2 には Exchange Server 2013 SP1 またはそれ以降の使用が必要です。

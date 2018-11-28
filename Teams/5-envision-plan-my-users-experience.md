@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76bacfe85fce14b2d5b1469295134e560c14c54a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: a44af03e694937c5e874f6d53c0795a0c61dd606
+ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373293"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26716368"
 ---
 # <a name="plan-my-users-experience"></a>自分のユーザー エクスペリエンスを計画します。
 
@@ -26,7 +26,7 @@ ms.locfileid: "25373293"
 
 ## <a name="client-deployment"></a>クライアントの展開
 
-マイクロソフトのチームでは、使用可能なクライアントの web、デスクトップ (Windows および Mac) とモバイル (Android、iOS、および Windows Phone) があります。 (Windows および Mac) のデスクトップおよびモバイル クライアントをインストールする方法に関する詳細は、[マイクロソフトのチーム用のクライアントを取得する](https://docs.microsoft.com/microsoftteams/get-clients)を参照してください。
+マイクロソフトのチームでは、使用可能なクライアントの web、デスクトップ (Windows および Mac) とモバイル (Android と iOS) があります。 (Windows および Mac) のデスクトップおよびモバイル クライアントをインストールする方法に関する詳細は、[マイクロソフトのチーム用のクライアントを取得する](https://docs.microsoft.com/microsoftteams/get-clients)を参照してください。
 
 ## <a name="client-updates"></a>クライアント用更新プログラム
 

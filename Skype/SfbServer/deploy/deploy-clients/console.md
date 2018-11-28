@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: この資料では、Skype ルーム システム v2 のコンソールとその周辺機器を設定する方法について説明します。
-ms.openlocfilehash: 01bc2fe49fc56a4926563ad18e384455ef437b77
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 4218365e7cb4b396d3e93d3fa969546138ace33d
+ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699431"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26716375"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Skype Room Systems バージョン 2 コンソールを構成する
  
@@ -36,7 +36,7 @@ ms.locfileid: "26699431"
 - [Skype ルーム システム v2 の展開のチェックリスト](console.md#Checklist)
     
 > [!NOTE]
-> Skype ルーム システム v2 は、ビジネス環境をデバイスのアカウントが正しく設定されて[Skype ルーム システムの配置のバージョン 2](room-systems-v2.md)で説明したように正しく構成されている Skype でのみ動作します。 
+> Skype ルーム システム v2 は、ビジネス環境をデバイスのアカウントが正しく設定されて[Skype ルーム システムの配置のバージョン 2](room-systems-v2.md)で説明したように正しく構成されている Skype でのみ動作します。
   
 ## <a name="prepare-the-installation-media"></a>インストール メディアを準備します。
 <a name="Prep_Media"> </a>
@@ -45,14 +45,13 @@ Skype ルーム システム v2 のコンソール アプリケーションを�
   
 > [!NOTE]
 > 予期しない動作になる可能性があります、次の手順に従って、Skype ルーム システム v2 のインストール メディアを作成するに失敗しました。 Skype ルーム システム v2 のインストール メディアの作成については、Windows 10 企業記念日の更新プログラム (バージョン 1607) がサポートされていません。
-  
+
 > [!NOTE]
-> 3 Skype ルーム システム v2 更新は、Windows ストアを使用して移動する Windows の 10 企業の既存の Skype ルーム システム v2 機能しますが、次のように、新規インストールを行う必要があります。 
+> 3 Skype ルーム システム v2 更新は、Windows ストアを使用して移動する Windows の 10 企業の既存の Skype ルーム システム v2 機能しますが、次のように、新規インストールを行う必要があります。
   
 1. [CreateSrsMedia.ps1 スクリプト](https://go.microsoft.com/fwlink/?linkid=867842)をダウンロードします。 
 2. (省略可能)ダウンロードし、スクリプトと同じディレクトリに、必要な言語パックの CAB ファイルを配置します。 言語パックを取得する場所がわからない場合に、作成するメディアの種類に応じた適切な言語パックのファイルをダウンロードできるスクリプトを示します。
 3. Windows 10 マシン上で管理者特権でのプロンプトから CreateSrsMedia.ps1 スクリプトを実行します。
-
 
 Skype ルーム システム v2 の USB セットアップ ディスクを作成するスクリプトの指示に従います。 完了したら、USB ディスクをコンピューターから削除し、 [Windows の 10 をインストール](console.md#Reimage)して Skype ルーム システム v2 のコンソール アプリケーションです。
 
@@ -82,10 +81,9 @@ Skype ルーム システム v2 の USB セットアップ ディスクを作成
 
 8. インストールが完了したら、システムがシャット ダウンします。
     
-システムがシャット ダウンした後、USB のセットアップ ディスクを削除すると安全です。 この時点で、(ドッキング ベースの製品を使用する) 場合は、そのドッキング ステーションにターゲット devcie を配置、会議室に必要な周辺機器を接続してネットワークに接続できます。 製造元の指示を参照してください。
+システムがシャット ダウンした後、USB のセットアップ ディスクを削除すると安全です。 この時点で、(ドッキング ベースの製品を使用する) 場合は、そのドッキング ステーションにターゲット ・ デバイスを配置、会議室に必要な周辺機器を接続してネットワークに接続できます。 製造元の指示を参照してください。
   
- 
-### <a name="selecting-a-language-in-creators-update"></a>Creators Update での言語の選択
+### <a name="selecting-a-language"></a>言語を選択します。 
 
 作成者の更新では、暗黙の言語の選択が必要な実際のアプリケーションの言語を使用してユーザーを提供しないシナリオで ApplyCurrentRegionAndLanguage.ps1 スクリプトを使用する必要があります (フランス語、考案するコンソール アプリケーションをするなどが、それは、次の英語で)。
   
@@ -121,8 +119,9 @@ Skype ルーム システム v2 の USB セットアップ ディスクを作成
 11. 管理者特権でコマンド プロンプトを開始します。
     
 12. 次のコマンドを実行します。 
-    
+    ```
     powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
+    ```
     
 13. システムを再起動します。
     
