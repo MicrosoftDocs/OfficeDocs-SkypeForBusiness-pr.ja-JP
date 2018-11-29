@@ -12,12 +12,12 @@ ms.reviewer: sbhatta
 description: 組織に新しいゲスト ユーザーを追加するために管理者が利用できる Microsoft Teams デスクトップ、Web クライアント、Azure Active Directory B2B コラボレーション ポータルなどのツールについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0671774d01ce8b2dfeea78fff36dde117931ff00
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: 729490af1c1e15b82d62dc35386e9ad4344d863a
+ms.sourcegitcommit: 042717530bffa18ca401ad6665a652212a85bc99
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674466"
+ms.lasthandoff: 11/29/2018
+ms.locfileid: "26984735"
 ---
 <a name="add-a-guest-to-a-team"></a>チームにゲストを追加する
 =====================
@@ -48,6 +48,6 @@ Azure Active Directory の B2B、Office 365 グループ、または SharePoint 
 
 ## <a name="more-information"></a>追加情報
 
-[マイクロソフトのチームでのゲスト アクセスを承認](teams-dependencies.md)
-[をオンまたはオフは、マイクロソフトのチームでのゲスト アクセス](set-up-guests.md)
-[チームへのゲスト アクセスを制御する PowerShell を使用](guest-access-powershell.md)
+[Microsoft Teams でのゲスト アクセスを承認する](teams-dependencies.md)</br>
+[またはマイクロソフトのチームでのゲスト アクセスを無効にします。](set-up-guests.md)</br>
+[PowerShell を使用してチームへのゲスト アクセスを制御する](guest-access-powershell.md)
