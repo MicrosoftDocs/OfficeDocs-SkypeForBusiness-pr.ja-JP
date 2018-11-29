@@ -12,18 +12,22 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb337853af524e9733d56dcb428f63268bd65b62
-ms.sourcegitcommit: 72e2c4622deb3a7f4c0eafbee91dcf139ef44775
+ms.openlocfilehash: 56add7d27a367c5320243455d6891fa178526b4f
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25092701"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699742"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams でのライフサイクル管理の計画
 
-Teams には、自分の組織でコラボレーション ライフサイクル管理プロセスを実施するための、豊富なツールのセットが用意されています。 この記事では、正しい質問を通して、IT 専門家が自分たちのライフサイクル管理の要件を判断したり、それらを満たすために使用するツールを決めたりすることができるようになるガイドを提供します。 
+Teams には、自分の組織でコラボレーション ライフサイクル管理プロセスを実施するための、豊富なツールのセットが用意されています。この記事では、正しい質問を通して、IT 専門家が自分たちのライフサイクル管理の要件を判断したり、それらを満たすために使用するツールを決めたりすることができるようになるガイドを提供します。 
 
-ライフサイクル管理の計画を立てることは重要で、効果的に作業を完成するための計画を構築することになります。 ほとんどのプロジェクトは、開始、中間、終了で構成されます。 Teams でも同じように構成されますが、プロジェクトは多様な形で構築され、使用されるものですので、ライフサイクルのどの段階に達しているのかは必ずしも明確ではありません。 ライフサイクル管理の計画を持つと、自分の組織のプロジェクトがこれらの各段階を進んでいく状況を追跡することができるようになります。
+ライフサイクル管理の計画を立てることは重要で、効果的に作業を完成するための計画を構築することになります。ほとんどのプロジェクトは、開始、中間、終了で構成されます。Teams でも同じように構成されますが、プロジェクトは多様な形で構築され、使用されるものですので、ライフサイクルのどの段階に達しているのかは必ずしも明確ではありません。ライフサイクル管理の計画を持つことにより、自分の組織のプロジェクトがこれらの各段階をどのように進んでいるかを追跡しやすくなります。
+
+> [!Tip]
+> Microsoft Teams でのライフサイクルの詳細については、次のセッションをご覧ください。[Governance, management and lifecycle in Microsoft Teams (Microsoft Teams でのガバナンス、管理、およびライフサイクル)](https://aka.ms/teams-governance)
+
 
 ## <a name="lifecycle-concepts"></a>ライフサイクルの概念
 
