@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype 画面ビデオ ・ ベース (VbSS) を共有するためのビジネス サーバーの計画と構成について
-ms.openlocfilehash: 450a6ab5550c00e91e2d9772d954dc8f51d38156
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: 84547168eb883522005480fb07ff2bfb9abd54f6
+ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561922"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "26993434"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>ビデオ ベースの画面共有 Skype のビジネス サーバー 
  
@@ -120,14 +120,13 @@ VbSS の帯域幅:
 - ASMCU が VbSS をサポートできる最低限のビルドに満たない環境でアカウントがホストされている。
 - ビジネス クライアントで、Skype の古いバージョンを使用している他のユーザーのセッションに参加する場合などのすべてのユーザーを使用して 16.0.6330.1000、ビジネス ルーム システム デバイスでは、Skype または Skype のビジネス ・ モバイル ・ アプリケーションよりも下位にある任意の Windows クライアント バージョンです。 
 - 場合は、Skype からは、ビジネスの Web アプリケーションのユーザーを共有しています。
-- Mac でのビジネスの Skype を使用している他のユーザーが置かれて Skype のオンライン ビジネスの場合です。
+- Mac でのビジネスの Skype を使用していないが所属しているオンライン ビジネス用の Skype または Skype のビジネス サーバー 2015 年 7 月、2018 の累積的な更新プログラム (またはそれ以降) 他の場合。
 - 場合は他のユーザーは、任意のプログラムまたは Windows の共有を開始します。
 - 場合は他のユーザーは、セッションの記録を開始します。
-- セッション中に誰かがリモート画面コントロールを起動した場合。
-
-    セッションが RDP に移行すると、VbSS には戻らないことに留意してください。VbSS からの移行はシームレスに行われるようになっているため、多くの場合気づきません。
-  
+- セッション中に誰かがリモート画面コントロールを起動した場合。 
 - 250 人を超える参加者による会議 (VbSS がサポートされていない場合)。
+
+セッションが RDP に移行すると、VbSS には戻らないことに留意してください。VbSS からの移行はシームレスに行われるようになっているため、多くの場合気づきません。
     
 > [!NOTE]
 > ブロックをサポートしていないか、ビジネスの画面共有するため、VbSS から Skype での RDP への移行をブロックしようとしています。 

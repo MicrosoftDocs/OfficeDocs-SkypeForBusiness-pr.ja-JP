@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: '概要: Skype for Business 用のサポートされているクライアントとアプリのレビュー。'
-ms.openlocfilehash: 3c68264f9eabc32c9e8c11a243fd103bb7c97426
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: bde1e70699de8adfdf58a7cc892405d8eee8675c
+ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530814"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "26993381"
 ---
 # <a name="plan-for-clients-and-devices"></a>クライアントおよびデバイスの計画
 
@@ -34,13 +34,13 @@ Skype for Business Server は、コンピューターにインストールされ
 
 ### <a name="skype-for-business-2019"></a>Skype for Business (2019)
 
-Skype for Business (2019) は、Skype for Business Server 2019 用の完全な機能を備えた推奨されるクライアントです。 新機能の説明については、「[Skype for Business 2016 の新機能](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781)」をご覧ください。 クライアント機能のサポートに関する詳細な説明は、「[Skype for Business のデスクトップ クライアント機能の比較](desktop-feature-comparison.md)」に記載されており、ユーザー ドキュメントは「 [Skype for Business のヘルプ](https://support.office.com/en-US/Skype-for-business)」にあります。 このクライアントはユーザーが Office 365 をインストールすると利用できます。
+ビジネス用の Skype のビジネス サーバー 2015 2019 (2019) は、Skype の推奨機能を備えたクライアントです。 新機能の説明については[次のビジネス用の Skype の最新の更新プログラム](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781)を参照してください。 クライアント機能のサポートに関する詳細な説明は、「[Skype for Business のデスクトップ クライアント機能の比較](desktop-feature-comparison.md)」に記載されており、ユーザー ドキュメントは「 [Skype for Business のヘルプ](https://support.office.com/en-US/Skype-for-business)」にあります。 このクライアントはユーザーが Office 365 をインストールすると利用できます。
 
 より少ない機能をサポートする無料の Basic クライアントも利用できます。 いずれのバージョンも「[すべてのデバイスで Skype for Business をダウンロードする](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3)」から入手してダウンロードできます。 Full クライアントと Basic クライアントの違いは「[Basic クライアントの制限事項](desktop-feature-comparison.md#Full-Basic)」セクションで説明されています。
 
 ### <a name="skype-for-business-2016"></a>Skype for Business 2016
 
-Skype for Business 2016 は、Skype for Business Server 用の完全な機能を備えた推奨されるクライアントです。 新機能の説明については、「[Skype for Business 2016 の新機能](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781)」をご覧ください。 クライアント機能のサポートに関する詳細な説明は、「[Skype for Business のデスクトップ クライアント機能の比較](desktop-feature-comparison.md)」に記載されており、ユーザー ドキュメントは「 [Skype for Business のヘルプ](https://support.office.com/en-US/Skype-for-business)」にあります。 このクライアントはユーザーが Office 365 をインストールすると利用できます。
+ビジネス 2016年の Skype は、Skype のビジネス サーバー 2015 または 2019 のフル機能を備えたクライアントです。 新機能の説明については、「[Skype for Business 2016 の新機能](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781)」をご覧ください。 クライアント機能のサポートに関する詳細な説明は、「[Skype for Business のデスクトップ クライアント機能の比較](desktop-feature-comparison.md)」に記載されており、ユーザー ドキュメントは「 [Skype for Business のヘルプ](https://support.office.com/en-US/Skype-for-business)」にあります。 このクライアントはユーザーが Office 365 をインストールすると利用できます。
 
 より少ない機能をサポートする無料の Basic クライアントも利用できます。 いずれのバージョンも「[すべてのデバイスで Skype for Business をダウンロードする](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3)」から入手してダウンロードできます。 Full クライアントと Basic クライアントの違いは「[Basic クライアントの制限事項](desktop-feature-comparison.md#Full-Basic)」セクションで説明されています。
 
