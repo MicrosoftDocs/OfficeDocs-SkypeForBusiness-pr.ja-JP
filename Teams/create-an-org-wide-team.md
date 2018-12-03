@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cefcf6cb4d1710935e6448e4babd7a284165e767
-ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
+ms.openlocfilehash: 8d7e8654ed1f3dd7c10376a21d3c48563b688381
+ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "26993419"
+ms.lasthandoff: 12/03/2018
+ms.locfileid: "27131303"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Microsoft Teams で組織全体にわたるチームを作成する
 
@@ -55,4 +55,4 @@ ms.locfileid: "26993419"
 
 のみ、グローバル管理者は、チームのクライアントを使用して、組織全体にわたるチームを作成できます。 PowerShell を使用するチームを作成する、制限がある場合は、チームを作成できるユーザーのセキュリティ グループに、グローバル管理者を追加するのには推奨される回避策です。 詳細については、「[Office 365 グループを作成できるユーザーを管理する](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups)」をご覧ください。 
 
-場合はこのオプションがない場合は、PowerShell を使用してパブリックのチームを作成し、チームの所有者は、グローバル管理者を追加できます。 **をクリックして、グローバル管理者があるし、.その他のオプション**、チーム名の横にあるをクリックし、[**チームの編集**] をクリックし、プライバシーを**組織全体で、組織内のすべてのユーザーに自動的に追加されます**に変更します。 チームの所有者のみが**チームの編集**] オプションにアクセスできる、唯一の大域管理者は、[**組織全体**] オプションを確認できることに注意してください。
+場合はこのオプションがない場合は、PowerShell を使用してパブリックのチームを作成し、チームの所有者は、グローバル管理者を追加できます。 グローバル管理者チーム名の横にある**˙˙˙ の他のオプション**をクリックして、**チームの編集**] をクリックし、プライバシーに変更し、**組織全体で、組織内のすべてのユーザーを自動的に追加されます**が、あります。 チームの所有者のみが**チームの編集**] オプションにアクセスできる、唯一の大域管理者は、[**組織全体**] オプションを確認できることに注意してください。

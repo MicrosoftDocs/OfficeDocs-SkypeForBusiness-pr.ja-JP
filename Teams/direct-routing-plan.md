@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Microsoft 電話システム直接ルーティングを使用する方法マイクロソフトの電話システムに、サポートされている、お客様が用意したセッション ボーダー コント ローラー (SBC) の接続については、このトピックを参照してください。
-ms.openlocfilehash: d3b102dc09011e5990a42c608d78c6bb3f414ff7
-ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
+ms.openlocfilehash: f5634a65d6648d34671c372bc20c2145abdbfc96
+ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26676553"
+ms.lasthandoff: 12/03/2018
+ms.locfileid: "27131311"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -227,7 +227,9 @@ SBC では、sip.pstnhub.microsoft.com を解決するための DNS クエリを
 ### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>SBC とクラウド メディア プロセッサ、またはマイクロソフトのチームのクライアントとの間のレグです。
 メディア バイ パスの場合と非バイパスの場合の両方に適用されます。
 
-レグ セッション ボーダー コント ローラーとメディアのバイパス) を付けずにクラウド メディア プロセッサとの間やチームのクライアントとメディアのバイパスが有効な場合)、SBC との間で直接ルーティング インターフェイスは、以下のコーデックを使用できます: • 非メディア (クラウド メディアに SBC を使用しません。プロセッサ): 絹、G.711、G.722, G, 729 • メディア (SBC チーム クライアント) を使用しない: 絹、G.711、G.722, G, 729、著作
+レグ セッション ボーダー コント ローラーとメディアのバイパス) を付けずにクラウド メディア プロセッサとの間やチームのクライアントとメディアのバイパスが有効な場合)、SBC との間で直接ルーティング インターフェイスには、以下のコーデックを使用できます。
+- 非メディア (SBC クラウド メディア プロセッサ) を使用しない: 絹、G.711、G.722, G, 729
+- メディアのバイパス (チームのクライアントに SBC): 絹、G.711、G.722, G, 729、著作
 
 セッション ボーダー コント ローラーの特定のコーデックの使用を強制するには、申し出リストから不要なコーデックを除きます。
 
