@@ -12,12 +12,12 @@ search.appverid: MET150
 description: マイクロソフトのチームでのライブ イベントを設定する前に考慮する事項について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40722ee1e58e7524184408819932d9a2cfdc1275
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: 590246808849b2cf25bdc0fb114352977973410f
+ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626263"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "27156134"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -44,17 +44,20 @@ Office 365 のライセンスが認証されたユーザーとしてのライブ
 - ([外部エンコーダーの生産](#production)) の Microsoft のストリームでのライブ イベントを作成するアクセスを許可します。
 
 > [!IMPORTANT]
-> 製作者またはチームのライブ イベントで発表者として office 365 の来園者、連合、および匿名ユーザーの参加を要請することはできません。 ただし、ゲストとフェデレーション ユーザーは、匿名のライブ イベントの参加者として参加できます。 
+> 製作者またはチームのライブ イベントで発表者として office 365 の来園者、連合、および匿名ユーザーの参加を要請することはできません。 ゲストの office 365 とフェデレーション ユーザーのみを監視できますライブ イベント匿名で。 
  
 ## <a name="who-can-watch-live-events"></a>ライブ イベントを監視したことができますでしょうか。
 
-|**出席者の表示/非表示**           |**クイック スタート** |**外部エンコーダー**  |
-|------------------------------|-------------|------------------|
-|公開 (匿名ユーザー)      |  あり        |  なし              |
-|ゲスト ユーザー                   |  なし         |  なし              |
-|連合会社内のすべてのユーザー |  なし         |  なし              |
-|会社のすべてのユーザー           |  あり        |  あり             |
-|特定のグループ/ユーザー      |  あり        |  あり             |
+|**出席者の表示/非表示**       |**クイック スタート**  |**外部エンコーダー**  |
+|------------------------------|-----------------|----------------------|
+|公開 (匿名ユーザー)      |  あり            |  なし                  |
+|ゲスト ユーザー                   |  なし<sup>1</sup> |  なし                  |
+|連合会社内のすべてのユーザー |  なし<sup>1</sup> |  なし                  |
+|会社のすべてのユーザー           |  あり            |  あり                 |
+|特定のグループ/ユーザー      |  あり            |  あり                 |
+
+<sup>1</sup>では、匿名ユーザーとしてライブ イベントしか観ることができます。
+
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Skype 会議をブロードキャストし、チームのライブ イベント
 次の表には、中核的な機能とのライブ イベントと Skype 会議のブロードキャストとの違いで提供される機能が強調表示されます。 

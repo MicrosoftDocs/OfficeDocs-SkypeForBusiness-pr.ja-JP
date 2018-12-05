@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2965c876424820f31e50e4a7df7b5ea7cf2f7294
-ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
+ms.openlocfilehash: c427f1cb342b64211aeabf042b0cb00d4a89759f
+ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "26993427"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "27156118"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Skype for Business と共存する
 
@@ -47,9 +47,12 @@ ms.locfileid: "26993427"
 - 会話は、新規、または既存のスレッドの一部であるかどうか
 - かどうか、会話は、テナントの連合
 - 会話が可能かどうか
-    - テナント内の相互運用性とチームからのフェデレーションは、発信者のテナントがあるか、必要があります純粋なオンラインまたは Skype のビジネスのハイブリッドです。 純粋なオンプレミスのテナントは、テナント内の相互運用性またはチームにフェデレーションを持つことはできません。
-    - 発信者のビジネス アカウントの Skype がホームに設置型の場合は、そのユーザーは、テナント内の相互運用性とフェデレーションのチームのクライアントを使用できません。 ユーザーが使用する、Skype ビジネス クライアントの代わりに相互運用性とフェデレーション。
+    - テナント内の相互運用性では、テナントは、いずれかの必要があります純粋なオンラインまたは Skype のビジネスのハイブリッドです。 純粋なオンプレミスのテナントは、テナント内の相互運用性を持つことはできません。
+    - 発信者のビジネス アカウントの Skype がホームに設置型の場合は、そのユーザーは、テナント内の相互運用性またはフェデレーションのチームのクライアントを使用できません。 Skype は、相互運用性とフェデレーションのビジネス クライアント用にのみ使用できます。
     - チーム チームへの通信からが可能なテナントにでは常に
+
+> [!NOTE]
+> 現時点では、チームに関連するすべてのフェデレーションでは、ビジネス連合のパイプラインの Skype だけでなくチーム – ビジネスの相互運用のための Skype を活用します。 ネイティブ チーム-チーム連合計画しております。 ネイティブのフェデレーションのすべてのリリース時に現在のドキュメントが更新されます。
 
 # <a name="chat-and-call-routing"></a>チャットと通話のルーティング
 

@@ -1,5 +1,5 @@
 ---
-title: ビジネスおよびマイクロソフトのチームの共存と Skype の相互運用性を理解します。
+title: Skype for Business と Microsoft Teams の共存と相互運用について理解する
 author: lsomi
 ms.author: lsomi
 manager: serdars
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be6cb8b6154c67e75a84bbb2e44add6109b3108c
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 67f12156fbdb6bf619b1c6a7406b4bb104ec725b
+ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532440"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "27156126"
 ---
 ![プロジェクトの定義の段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-project-definition.png "プロジェクトの定義の段階に重点を置いて、旅アップグレードの段階")
 
@@ -54,7 +54,7 @@ ms.locfileid: "26532440"
 
 この共存モードでは、ユーザーはビジネス用の Skype に残る-チームではありません-チャット、会議、および呼び出し機能、および、チームおよびチャネルのためのチームを使用しないのです。 このモードは、今日利用可能ですただし、現在の実装では、チームの様相はないユーザーの自動的にオフにします。 この機能は、期限の迫っています。 間に、管理者は、Skype の唯一の通信アプリケーションとビジネスのために維持する必要があるすべてのユーザーのチームのライセンスを削除できます。
 
-### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-by-fall-2018"></a>チームにのみ (ローリング開始モードはこの夏 2018 し秋 2018、すべてのテナントに完了する)
+### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-in-calendar-year-2019"></a>チームにのみ (ロールバックを開始するこのモードは、夏 2018 をチェック アウトされ、2019 年にすべてのテナントを終了する)
 
 組織の唯一のコミュニケーションとコラボレーションのツールとして、チームを使用する一部またはすべてのユーザーの準備ができたらとすぐに**チームのみ**のモードにそれらのユーザーをアップグレードできます。
 
