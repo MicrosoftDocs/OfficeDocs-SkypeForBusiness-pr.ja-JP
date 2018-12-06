@@ -58,11 +58,10 @@
 ### [チームのアプリケーションのハードウェア要件](hardware-requirements-for-the-teams-app.md)
 ### [MSI を使用するチームをインストールします。](msi-deployment.md)
 ### [サーフェスのハブのチームを配置します。](teams-surface-hub.md)
-## [チームを仮想環境で実行します。](virtual-environment-teams.md)
 ## [組織内のチームを有効にします。](Office-365-set-up.md)
 ## [Microsoft Teams の範囲指定ディレクトリ検索を使用する](teams-scoped-directory-search.md)
 ## [組織内のチームの機能を管理します。](enable-features-office-365.md)
-### [新しいマイクロソフトのチームとビジネス管理センターの Skype に移行する際のチームを管理します。](manage-teams-skypeforbusiness-admin-center.md)
+### [新しい Microsoft Teams および Skype for Business の管理センターへの移行中に Teams を管理する](manage-teams-skypeforbusiness-admin-center.md)
 ### [マイクロソフトのチームとビジネス管理センターの Skype のチームを管理します。](manage-teams-in-modern-portal.md)
 ### [チームの所有者およびチームのメンバーを割り当てる](assign-roles-permissions.md)
 ### [チーム テナント アプリケーション カタログにアプリケーションを発行します。](tenant-apps-catalog-teams.md)
@@ -202,7 +201,7 @@
 # 機能
 ## チームとチャネル
 ### [Teams でのチームとチャネルの概要](teams-channels-overview.md)
-### [チーム所有者およびマイクロソフトのチームのメンバーを割り当てる](assign-roles-permissions.md)
+### [Microsoft Teams でチーム所有者とメンバーを割り当てる](assign-roles-permissions.md)
 ### [Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
 ### [チームで、組織全体にわたるチームを作成します。](create-an-org-wide-team.md)
 ### [チームの動的なメンバーシップの概要](dynamic-memberships.md)
