@@ -1,5 +1,5 @@
 ---
-title: 共存およびアップグレードの設定を設定します。
+title: 共存およびアップグレードを設定する
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -13,21 +13,21 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28d5cd4a967245f1df18530d58ed1c2679e910e3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: fb2e7ba5f854c392d86006fdb6bd313b3fd87c68
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531863"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182456"
 ---
-# <a name="setting-your-coexistence-and-upgrade-settings"></a>共存およびアップグレードの設定を設定します。
+# <a name="setting-your-coexistence-and-upgrade-settings"></a>共存およびアップグレードを設定する
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 チームを使用するビジネス ユーザー向けに、Skype をアップグレードするとき、ユーザーにシームレスなプロセスにするためのいくつかのオプションがあります。 共存し、組織内のユーザーのすべての設定をアップグレードするためのオプションがあるか、組織内の 1 つまたは一連のユーザー設定の変更を行うことができます。 Skype のビジネス クライアント用の以前のバージョンがこれらの設定を無視可能性があることに注意してください。 ビジネス クライアントのバージョンの Skype の詳細については[ビジネスの Skype がダウンロードされページの更新](https://docs.microsoft.com/en-us/skypeforbusiness/software-updates)を参照してください。 
 
-[マイクロソフト チームの理解と Skype ビジネスの共存と相互運用性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)を読み取ることによってユーザーに使用できるモードの種類の理解を深めるを取得できます。  
+[マイクロソフト チームの理解とビジネスの共存と相互運用性の Skype](teams-and-skypeforbusiness-coexistence-and-interoperability.md)または[Skype のビジネスとの共存](coexistence-chat-calls-presence.md)を参照して使用するモードの種類の理解を深めるを取得できます。  
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -70,4 +70,4 @@ ms.locfileid: "26531863"
 
 [共存を理解し、Skype のビジネスとチームの旅をアップグレード](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-[ビジネスのチームとは、Skype を使用する組織の移行と相互運用性のガイド](migration-interop-guidance-for-teams-with-skype.md)
+[Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](migration-interop-guidance-for-teams-with-skype.md)

@@ -13,18 +13,18 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d7e8654ed1f3dd7c10376a21d3c48563b688381
-ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
+ms.openlocfilehash: 2b838652ee68895d8c2be3768316aa200a203945
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/03/2018
-ms.locfileid: "27131303"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182521"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Microsoft Teams で組織全体にわたるチームを作成する
 
 組織全体にわたるチームの小規模から中規模の組織の 1 つのチームの共同作業の一環として、すべてのユーザーを自動的に手段を提供します。 
  
-組織全体にわたるチームでは、グローバル管理者はパブリックのチームでは、組織内のすべてのユーザーと最新のメンバーシップ ユーザーの結合と Active Directory の組織のままにするを簡単に作成できます。 グローバル管理者のみが組織全体にわたるチームを作成でき、現在、組織全体にわたるチームは、2,500 を超えるユーザーを持つ組織に限定します。 これらの要件を満たしている場合の [**プライバシー** ] でオプションとして、チームを作成するときにグローバル管理者に**組織全体**が表示されます。
+組織全体にわたるチームでは、グローバル管理者はパブリックのチームでは、組織内のすべてのユーザーと最新のメンバーシップ ユーザーの結合と Active Directory の組織のままにするを簡単に作成できます。 グローバル管理者のみが組織全体にわたるチームを作成でき、現在、組織全体にわたるチームは、2,500 を超えるユーザーを持つ組織に限定します。 これらの要件を満たしている場合の [**プライバシー** ] でオプションとして、チームを作成するときにグローバル管理者に**組織全体**が表示されます。 
 
 ![組織全体にわたるチームを作成するのには [組織全体] オプションのスクリーン ショット](media/create-org-wide-team.png "組織全体にわたるチームを作成するのには [組織全体] オプションのスクリーン ショット")
 

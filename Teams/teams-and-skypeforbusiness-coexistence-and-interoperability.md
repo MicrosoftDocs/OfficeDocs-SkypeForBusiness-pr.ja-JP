@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67f12156fbdb6bf619b1c6a7406b4bb104ec725b
-ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
+ms.openlocfilehash: 4b2fa0d1631a3feb6d993b23a57cf084c3774c42
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "27156126"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182464"
 ---
 ![プロジェクトの定義の段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-project-definition.png "プロジェクトの定義の段階に重点を置いて、旅アップグレードの段階")
 
@@ -128,4 +128,4 @@ ms.locfileid: "27156126"
 > [!Important]
 > 呼び出しまたは特別なミーティングに簡単なチャット (IM) ことが非常に簡単にどのような起動します。 これらのシナリオでは、使いやすさとユーザーの操作性にとって重要な Skype ビジネスとチームのユーザーの間での相互運用機能のエクスペリエンスの進化している継続的に私たちを理解します。 最新の情報を確認してください。
 
-この資料を確認した後は実装の詳細について[、アップグレードの旅を選択して](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)、[移行と相互運用性ガイド](https://aka.ms/SkypeToTeams-Interop)、および[、共存を設定および設定をアップグレード](https://aka.ms/SkypeToTeams-SetCoexistence)を参照してください。
+この資料を確認した後については[、アップグレードの旅を選択して](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)[移行と相互運用性ガイド](https://aka.ms/SkypeToTeams-Interop)、 [Skype のビジネスとの共存](coexistence-chat-calls-presence.md)と[の共存を設定および設定をアップグレード](https://aka.ms/SkypeToTeams-SetCoexistence)の実装詳細です。

@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: ビジネス管理センターのレポート領域の新しい Skype では、組織内を呼び出し、オーディオ会議のアクティビティを示しています。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 などのビジネス PSTN 分プール レポートの Skype を使用すると、組織内で現在の月の期間中に消費する分の数を参照してください。
-ms.openlocfilehash: 41f1e0c2dcc7504341bb6d9076c7a99b63ed50a9
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 2840ac4bde1234f0f87fe17c41f43b6efad647b5
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865111"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182377"
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN の利用分数プール レポート
 
@@ -37,7 +37,7 @@ ms.locfileid: "23865111"
 このレポートとは、ビジネス レポートの場合は、他の Skype 詳細を確認できます活動を組織全体にわたって。 これらの詳細については、調査、計画、および組織と[の通信のクレジット](/microsoftteams/what-are-communications-credits)を設定するための他のビジネスの意思決定を行うときに非常に役に立つ
   
 > [!NOTE]
-> 管理者として Office 365 管理センターにログオンすると、すべての Skype for Business レポートを見ることができます。 
+> Office 365 管理センターに管理者としてログオンすると、すべての Skype for Business レポートを表示できます。 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>ビジネス PSTN 分プール レポートの Skype を取得する方法
 
@@ -62,7 +62,7 @@ ms.locfileid: "23865111"
 ![ナンバー 1](../images/sfbcallout1.png)<br/>(機能) のライセンスと使用法の場所での分のプールの内訳を表に示します。 
 *    **機能**は、呼び出しに使用されるライセンスおよびサービス プランです。 このレポートに表示されるライセンスおよびサービスの計画は次のとおりです。
      * MCOPSTN1 - 国内の呼び出し (3000 分分 1200 米国と EU の計画の計画
-     * MCOPSTN2 - 国際通話プラン
+     * MCOPSTN2 - 国内および国際を呼び出す計画する国内のプール (3000 分 PR/米国/カナダ、1200 分のヨーロッパの国々) と国際プール (600 分) に表示されます。 カレンダー月で国内 OR 国際 cap に達するたびに分の上限に達しました。 
      * MCOPSTN5 - 国内の呼び出しのプラン (120 分の通話プラン)
      * MCOPSTN6 - 国内の呼び出しの計画 (240 分の通話プラン)
      * MCOMEETADD - オーディオ会議
@@ -92,7 +92,7 @@ ms.locfileid: "23865111"
 
 - [Skype ビジネス セッション詳細レポート](session-details-report.md)個々 のユーザーの呼び出しの経験についての詳細を表示できます。
     
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 [Office 365 管理センターのアクティビティ レポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

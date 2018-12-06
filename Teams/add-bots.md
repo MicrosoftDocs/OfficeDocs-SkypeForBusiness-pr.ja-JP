@@ -3,7 +3,7 @@ title: Microsoft Teams でプライベートのチャットやチャネルのボ
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 12/05/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,12 +12,12 @@ ms.reviewer: lucarras
 description: プライベート チャットとチャネル用に Microsoft Teams にボットを追加する方法、カスタム ボットを作成する方法、プライベート チャット用に独自のボットをサイド ロードする方法について紹介します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ff6cf5af3a1a2129ee22ae0ff51ac4216ccaefe
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 548da99413714f3947cec909ea51301eb68d2c0d
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013362"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182386"
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>Microsoft Teams でプライベートのチャットやチャネルのボットを追加する
 ==========================================================
@@ -56,3 +56,14 @@ Microsoft ボット フレームワークを使用して、LOB アプリケー�
 
 
 3.  アプリ ID は [**ボット名**] になります。この手順の実行後にボットとのチャット会話を開始できます。
+
+<a name="side-load-your-bot-for-channels"></a>側のチャネル、bot をロードします。
+-----------------------------------
+
+Bot を仲間と共有するには、さまざまなチームのチャンネルに追加する方法です。
+
+1. [ボットは、アプリケーション パッケージを作成](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/apps/apps-upload)したらは、チームを開きチームを説明する側の読み込み bot を参照します。
+2. チーム名の横の**詳細**(...) を選択します。
+3. **管理チーム**を選択し、[**アプリケーション**] タブを選択します。
+4. 、右下の画面では、**カスタム アプリケーションをアップロード**を選択します。
+5. アプリケーション パッケージの場所を参照するを選択し、[**開く**] をクリックします。

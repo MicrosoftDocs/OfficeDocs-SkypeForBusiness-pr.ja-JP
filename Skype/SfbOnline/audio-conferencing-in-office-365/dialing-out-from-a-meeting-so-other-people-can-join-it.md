@@ -19,13 +19,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Skype for Business を使用して会議の開催者が他のユーザーを呼び出せるようにするための必要事項とその方法を説明します。
-ms.openlocfilehash: 2fe59b977384e9c76dfde4a9fd609510dc69a5d4
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
+ms.openlocfilehash: d4ff0ab207d5526fe8b24f4ec791de5f952a83e3
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887316"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182344"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>他のユーザーが参加できるようにビジネス会議のため、Skype からの発信
 
@@ -37,6 +37,8 @@ ms.locfileid: "23887316"
 - ことができますダイヤル ・ アウトのビジネス アプリケーション、Skype を使用してミーティングに参加する場合にのみ。
     
 - オーディオ会議の会議の開催者として有効になっています。
+
+ダイヤルアウトでは、他の参加者を組織の会議に追加するのには少なくとも 1 つとして認証されて同じ組織からのユーザー構成内容の変更 (組織) が他の参加者を追加できるようにするのには他の会議に必要ですを介してダイヤルアウトします。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
