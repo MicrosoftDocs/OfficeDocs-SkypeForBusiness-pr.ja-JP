@@ -12,12 +12,12 @@ search.appverid: MET150
 description: トレーニング ビデオ、チュートリアル、およびその他のリソースを計画する方法には、展開、およびマイクロソフトのチームを実行します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21a55aed41443ed0a1411384579cfad2acda7de5
-ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
+ms.openlocfilehash: f8f83869d715c01f678e112eb9170013f2f1b956
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26538970"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201342"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 
@@ -130,7 +130,11 @@ ms.locfileid: "26538970"
                 <div class="card">
                     <div class="cardText">
                         <h3>Skype for Business から Teams への移行</h3>
-                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">チュートリアル: Skype for Business から Teams への移行</a></p>
+                         <p><a href="https://aka.ms/teams-upgrade-intro">ビデオ: アップグレードの概要</a></p>
+                        <p><a href="https://aka.ms/teams-upgrade-plan">ビデオ: アップグレードを計画します。</a></p>
+                        <p><a href="https://aka.ms/teams-upgrade-coexistence-interop">ビデオ: 共存と相互運用性</a></p>
+                        <p><a href="https://aka.ms/teams-upgrade-admin">ビデオ: 管理者の経験</a></p>
+                        <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">チュートリアル: Skype for Business から Teams への移行</a></p>
                     </div>
                 </div>
             </div>
@@ -165,7 +169,7 @@ ms.locfileid: "26538970"
                         <h3>計画し、展開</h3>
                          <p><a href="quick-start-enable-teams.md">クイック スタート: Teams の計画ガイド</a></p>
                          <p><a href="http://aka.ms/teams-clients">ビデオ: チームの Windows デスクトップ クライアント</a></p>
-                         <p><a href="http://aka.ms/teams-governances">ビデオ: 管理、管理、およびマイクロソフトのチームでのライフ サイクル</a></p>
+                         <p><a href="http://aka.ms/teams-governance">ビデオ: 管理、管理、およびマイクロソフトのチームでのライフ サイクル</a></p>
                     </div>
                 </div>
             </div>
