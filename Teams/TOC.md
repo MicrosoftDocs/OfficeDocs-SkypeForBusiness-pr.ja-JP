@@ -225,7 +225,7 @@
 ### [電話会議の設定が変更されたときのメールの自動送信を有効または無効にする](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 ### [ユーザーが会議に参加するときに名前を記録できるようにする](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ### [会議の入退室通知をオンまたはオフにする](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
-
+### [チームでデスクトップの共有を構成します。](configure-desktop-sharing.md)
 ### [Teams のクラウド会議の記録](cloud-recording.md)
 ### [Outlook で Teams の会議アドインを使用する](teams-add-in-for-outlook.md)
 ### [Meeting Migration Service (MMS) のセットアップ](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -246,7 +246,6 @@
 ### [Teams でプライベートのチャットやチャネルのボットを追加する](add-bots.md)
 ### [Teams で組み込みタブとカスタム タブを使用する](built-in-custom-tabs.md)
 ### [Teams で Office 365 コネクタとカスタム コネクタを使用する](office-365-custom-connectors.md)
-### [T-Bot を使用して Teams のユーザーをサポートする](t-bot.md)
 ### [チームの活動レポートを使用して](teams-activity-reports.md)
 ### [インライン メッセージの変換を使用して、チームで](inline-message-translation-teams.md)
 

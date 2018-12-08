@@ -11,12 +11,12 @@ search.appverid: MET150
 description: Microsoft Teams によって生成されるデバッグ ログ、メディア ログ、デスクトップ ログ、これらのログの場所、トラブルシューティングでのログの活用について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a14d6db6c03b540a6495b9028a4f0342ff92636
-ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
+ms.openlocfilehash: bf42d76e1e17dc81b1c3d0ab603050c6e2d25d71
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26716336"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201334"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Microsoft Teams のトラブルシューティングでログ ファイルを使用する
 =================================================
@@ -61,17 +61,11 @@ Microsoft サポートでサポート リクエストを作成する際、サポ
 
 -   Windows:
 
-    1.  アプリケーション トレイの **Microsoft Teams アイコン**をクリックし、[**Get Logs (ログを取得)**] を選択します。
-
-    2.  [**ヘルプ**] プルダウン メニューで [**Get Logs (ログを取得)**] を選択する
-
-    3.  キーボード ショートカット: Ctrl + Alt + Shift + 1
+      キーボード ショートカット: Ctrl + Alt + Shift + 1
 
 -   Mac OSX:
 
-    1.  [**ヘルプ**] プルダウン メニューで [**Get Logs (ログを取得)**] を選択する
-
-    2.  キーボード ショートカット: Option + Command + Shift + 1
+      キーボード ショートカット: Option + Command + Shift + 1
 
 デバッグ ログは次のフォルダーに自動的にダウンロードされます。
 
@@ -97,6 +91,16 @@ Microsoft サポートでサポート リクエストを作成する際、サポ
 ---------------------
 
 bootstrapper ログとも呼ばれるデスクトップ ログには、デスクトップ クライアントとブラウザー間で発生するログ データが含まれます。メディア ログと同様に、このログは Microsoft から要求された場合にのみ必要です。テキスト ベースのログで、任意のテキストベース エディタを使用して上から下の形式で読み取ることができます。
+
+Windows:
+
+  1.  アプリケーション トレイの **Microsoft Teams アイコン**をクリックし、[**Get Logs (ログを取得)**] を選択します。
+
+  2.  [**ヘルプ**] プルダウン メニューで [**Get Logs (ログを取得)**] を選択する
+
+Mac OsX。
+
+1.  [**ヘルプ**] プルダウン メニューで [**Get Logs (ログを取得)**] を選択する
 
 |クライアント |場所 |
 |---------|---------|

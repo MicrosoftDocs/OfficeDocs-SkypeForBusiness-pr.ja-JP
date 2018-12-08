@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16ee59e01a45e79bb04a410857e128df7f12934e
-ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
+ms.openlocfilehash: dfe4febe5d086af6914660bffb667942b9d00c25
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26716352"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201358"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 ===========================
@@ -144,3 +144,36 @@ Microsoft Teams モバイル アプリのサポートされるモバイル プ�
 現在、IT 管理者がクライアント側の通知設定を設定するオプションはありません。通知オプションはすべてユーザーによって設定されます。次の図に、既定のクライアント設定の概要を示します。
 
 ![通知設定のスクリーンショット。](media/Get_clients_for_Microsoft_Teams_image6.png)
+
+<a name="sample-powershell-script"></a>PowerShell スクリプトをサンプルします。
+----------------------------
+
+管理者アカウントのコンテキスト内のクライアント コンピューター上で実行する必要がある、次のサンプル スクリプトでは、c:\users に各ユーザーのフォルダーの新しい受信ファイアウォール規則を作成します。 チームには、このルールが検出されると、チーム アプリケーションをユーザーに要求するから、ユーザーがチームからの最初の呼び出しを行うと、ファイアウォール規則を作成するのにはできなくなります。 
+
+```
+$users = Get-Childitem c:\users
+foreach ($user in $users) 
+{
+    $Path = "c:\users\" + $user.Name + "\appdata\local\Microsoft\Teams\Current\Teams.exe"
+    if (Test-Path $Path) 
+    {
+            $name = "teams.exe " + $user.Name
+            if (!(Get-NetFirewallRule -DisplayName $name))
+        {
+                New-NetFirewallRule -DisplayName “teams.exe” -Direction Inbound -Profile Domain -Program $Path -Action Allow
+        }
+    }
+}
+<#
+        .ABOUT THIS SCRIPT
+        (c) Microsoft Corporation 2018. All rights reserved. Script provided as-is without any warranty of any kind. Use it freely at your own risks.
+
+        Must be run with elevated permissions. Can be run as a GPO Computer Startup script, or as a Scheduled Task with elevated permissions. 
+
+        The script will create a new inbound firewall rule for each user folder found in c:\users. 
+
+        Requires PowerShell 3.0
+        
+#>
+
+```

@@ -14,14 +14,22 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 865da90f5b6c9ffc13694692a67ab092d05c755a
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
-ms.translationtype: HT
+ms.openlocfilehash: 249437f35974a581ccc95512ccdf4f9baf246dfc
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626177"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201390"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>よくあるご質問 - Skype for Business から Microsoft Teams への移行
+
+> [!Tip]
+> マイクロソフトのチームには、ビジネスの Skype からのアップグレードの詳細については、次のセッションを確認してください。 
+> - [アップグレードの概要](https://aka.ms/teams-upgrade-intro)
+> - [アップグレードを計画します。](https://aka.ms/teams-upgrade-plan)
+> - [共存と相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [管理者の経験](https://aka.ms/teams-upgrade-admin)
+
 
 ## <a name="intelligent-communications-vision"></a>インテリジェント コミュニケーション ビジョン
 
@@ -97,7 +105,7 @@ Teams は Office 365 スイートで利用することができます。 現在 
  
 ### <a name="my-organization-is-already-running-teams-alongside-skype-for-business-can-i-just-disable-skype-for-business"></a>私の組織は既に Teams を Skype for Business と共存して稼働しています。 Skype for Business を無効にすることはできますか?
 
-いいえ、Teams へのアップグレードを完了するために、「**Teams のみ**」のモードにユーザーを切り替えることになります。 組織が Teams に移行する準備が整っている場合は、ユーザーとコミュニケーションをとり、ユーザーにどのような状況になっているかを理解してもらい、Teams に慣れるための時間を確保してください。 そうすることで、ユーザーは肯定的なアップグレード エクスペリエンスを得ることができ、ヘルプデスクへの問い合わせの負担が軽減されます。 コミュニケーションのサンプル テンプレートを入手するには、[Upgrade Success Kit](https://aka.ms/skypetoteams-UpgradeSuccessKit) をダウンロードしてください。
+いいえ、Teams へのアップグレードを完了するために、「**Teams のみ**」のモードにユーザーを切り替えることになります。 組織が Teams に移行する準備が整っている場合は、ユーザーとコミュニケーションをとり、ユーザーにどのような状況になっているかを理解してもらい、Teams に慣れるための時間を確保してください。 そうすることで、ユーザーは肯定的なアップグレード エクスペリエンスを得ることができ、ヘルプデスクへの問い合わせの負担が軽減されます。 コミュニケーションのサンプル テンプレートを入手するには、[Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) をダウンロードしてください。
  
 ### <a name="who-can-i-contact-if-i-have-questions-about-the-upgrade-process"></a>アップグレード プロセスに関する質問がある場合は誰に問い合わせればよいですか?
 

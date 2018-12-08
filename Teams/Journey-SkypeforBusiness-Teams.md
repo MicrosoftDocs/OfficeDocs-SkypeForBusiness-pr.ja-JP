@@ -14,21 +14,27 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59e1723e388ef58c48650a916d73d2ac09b13d00
-ms.sourcegitcommit: 2e9761a3b195d31080bff3c9cc17a18adcd5350e
+ms.openlocfilehash: 1ac410d5248149641cb29461bb6c0f73e6cbfb8d
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25012074"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201350"
 ---
 # <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Skype ビジネスでマイクロソフトのチームのアップグレード
-
 
 マイクロソフトのインテリジェント通信のビジョンをサポートするには、マイクロソフトのチームがチームワークの中心チャット、会議、通話、共同作業、アプリケーション統合、およびファイル ・ ストレージを統合することです。 ビジネス顧客の既存の Skype、としてご案内この包括的な 1 つのクライアント エクスペリエンスのコミュニケーションとコラボレーションの機能が発生する、マイクロソフトのチームへのアップグレードをします。
 
 アップグレードの旅は、しばらく時間がかかる場合があり、私たちは方法のすべてのステップをサポートするためにします。 いるを初めて使用するチーム、ビジネス、既に Skype と共にチームを使用してまたはをアップグレードする準備ができて、努めて適切なレベルの組織のためのガイダンスを提供し、認識を開始するのには次の手順を実行することを推奨するのかどうか、値のチームが組織に提供できます。
 
 ビジネスの Skype に中核となる概念、フレームワーク、およびアップグレード ・ パスを含む、チームのアップグレード旅の概要について[の概要](https://aka.ms/UpgradeOverview)を表示します。
+
+> [!Tip]
+> マイクロソフトのチームには、ビジネスの Skype からのアップグレードの詳細については、次のセッションを確認してください。 
+> - [アップグレードの概要](https://aka.ms/teams-upgrade-intro)
+> - [アップグレードを計画します。](https://aka.ms/teams-upgrade-plan)
+> - [共存と相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [管理者の経験](https://aka.ms/teams-upgrade-admin)
 
 ## <a name="upgrade-journey-framework"></a>旅のフレームワークをアップグレードします。
 

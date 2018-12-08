@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: オーストラリアの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: c715c6670a79f6bdd317eda256bf73597f45cc82
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b39e940d4a2d4a113f1090cededdd052ff9594a9
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017456"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201470"
 ---
 # <a name="availability-in-australia"></a>オーストラリアの可用性
 
@@ -66,6 +66,11 @@ ms.locfileid: "25017456"
 |通話プランで利用可能な通話分数  <br/> |[Telstra は、Office 365 の呼び出し](https://aka.ms/TelstraVoicePlan)を参照してください。 <br/> |
 |発信通話を行うことができますか?  <br/> |[Telstra は、Office 365 の呼び出し](https://aka.ms/TelstraVoicePlan)を参照してください。 <br/> |
 
+> [!IMPORTANT]
+> (Telstra によって提供される) オーストラリアのサブスクライバーの削除番号に Telstra に直接問い合わせてください。
+> (Telstra によって提供される) のオーストラリアの加入者番号の緊急のアドレス情報を更新するには、直接 Telstra を連絡してください。
+> 詳細については、 「[Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan)」を参照してください。
+
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
 |**機能**|**詳細**|
@@ -74,7 +79,7 @@ ms.locfileid: "25017456"
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
 
-自動応答と通話キューの有料電話番号と無料電話番号を取得する場合は、 [Telstra は、Office 365 の呼び出し](https://aka.ms/TelstraVoicePlan)を参照してください。 オーディオ会議サービス番号の[ご連絡ください](mailto:ptnapac@microsoft.com)。
+自動アテンダントの有料電話番号と無料電話番号を取得する場合は、キュー] または [[お問い合わせは](mailto:ptnapac@microsoft.com)、オーディオ会議サービス番号を呼び出します。
 
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
