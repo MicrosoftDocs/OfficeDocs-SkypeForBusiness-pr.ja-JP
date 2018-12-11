@@ -9,12 +9,12 @@ ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: ea7ccef2f9411e0a851b421e131a77f454470132
-ms.sourcegitcommit: be8b6383261358e91dcb79bf819502b8b7ac6526
+ms.openlocfilehash: efb105e3d6b5ab1c2ec87df6520c52eeb7ded90d
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/19/2018
-ms.locfileid: "26618598"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214559"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -28,7 +28,7 @@ ms.locfileid: "26618598"
                         <ul id="tab1-all" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>マイクロソフトはフリー、ライブ、オンライン トレーニングを開始するように設計の一連のホストに期待、チームを実行しています。ビジネスの意思決定者、管理者、IT プロフェッショナル、またはエンド ・ ユーザーの場合、お客様に最適であるクラスがあります。 アクションのチームを参照してください、質問に対する回答、ご参加し、ライブ、講師との対話します。 <a href="https://docs.microsoft.com/microsoftteams/enduser-training">オン ・ デマンドでのエンド ユーザー トレーニング</a>を検索してください。<br><br>登録するタイルをクリックします。</p>
+                                    <p>マイクロソフトはフリー、ライブ、オンライン トレーニングを開始するように設計の一連のホストに期待、チームを実行しています。ビジネスの意思決定者、管理者、IT プロフェッショナル、またはエンド ・ ユーザーの場合、お客様に最適であるクラスがあります。 アクションのチームを参照してください、質問に対する回答、ご参加し、ライブ、講師との対話します。 ライブ トレーニングは、オン ・ デマンド ・ バージョンを含む、複数のトレーニングの機会の<a href="https://docs.microsoft.com/microsoftteams/enduser-training">オン ・ デマンドでのエンド ユーザー トレーニング</a>をご覧ください。<br><br>登録するタイルをクリックします。</p>
                                 </div>
                             </li>
                             <li>
@@ -70,6 +70,25 @@ ms.locfileid: "26618598"
                                 </a>
                             </li>
                             <li>
+                             <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/OneDrive-EndUser-400x140.svg" alt="A call agent, a graduation cap, and a list symbol" data-linktype="external"/>
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>チームのヒントと秘訣</h3>
+                                                <p>最適化し、日常的な作業でチームを編成する創造的な方法を理解します。 (対象ユーザー: エンド ・ ユーザー)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
                             <a href="https://microsoftteams.eventbuilder.com/Upgrade%20101:%20Understanding%20your%20upgrade%20from%20Skype">
                                 <div class="cardSize">
                                     <div class="cardPadding">
@@ -101,25 +120,6 @@ ms.locfileid: "26618598"
                                             <div class="cardText">
                                                 <h3>ビジネス用の Skype からチームへの切り替え: エンド ・ ユーザー ・ ガイド</h3>
                                                     <p>Skype からの移行時にチームを使用してチームにビジネスをすばやく起動する必要がありますを取得します。 (対象ユーザー: エンド ・ ユーザー)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks">
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/OneDrive-EndUser-400x140.svg" alt="A call agent, a graduation cap, and a list symbol" data-linktype="external"/>
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>ヒントと秘訣</h3>
-                                                <p>最適化し、日常的な作業でチームを編成する創造的な方法を理解します。 (対象ユーザー: エンド ・ ユーザー)</p>
                                             </div>
                                         </div>
                                     </div>

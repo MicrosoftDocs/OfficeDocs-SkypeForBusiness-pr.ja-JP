@@ -3,7 +3,7 @@ title: Microsoft Teams の商用クラウドの試用提供を管理する
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 10/23/2018
+ms.date: 12/10/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: annikaelias
@@ -14,85 +14,121 @@ description: マイクロソフトのチームに許可されていない office
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c544290c13409e3ac857e44cabf1deb56614657
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: dc0b62ce0be0606ad4c31d3cee04347729fbbe32
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674779"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214582"
 ---
-<a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a><span data-ttu-id="9245a-103">Microsoft Teams の商用クラウドの試用提供を管理する</span><span class="sxs-lookup"><span data-stu-id="9245a-103">Manage the Microsoft Teams Commercial Cloud Trial offer</span></span>
+<a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a><span data-ttu-id="8a291-103">Microsoft Teams の商用クラウドの試用提供を管理する</span><span class="sxs-lookup"><span data-stu-id="8a291-103">Manage the Microsoft Teams Commercial Cloud Trial offer</span></span>
 =======================================================
 
-<span data-ttu-id="9245a-104">マイクロソフト チームは、組織の優れた共同作業ツールです。</span><span class="sxs-lookup"><span data-stu-id="9245a-104">Microsoft Teams is a great collaborative tool for your organization.</span></span> <span data-ttu-id="9245a-105">説明、技術革新、および Office 365 の機能を使用してアイデアを共有するには、人やチームを支援します。</span><span class="sxs-lookup"><span data-stu-id="9245a-105">It empowers people and teams to discuss, innovate, and share ideas using the power of Office 365.</span></span> <span data-ttu-id="9245a-106">Microsoft チーム商用クラウド試用版には、製品の 1 年間の試用版を開始するのには、マイクロソフトのチームに許可されていないユーザー、組織内の既存の Office 365 ユーザーが提供しています。</span><span class="sxs-lookup"><span data-stu-id="9245a-106">The Microsoft Teams Commercial Cloud Trial offers existing Office 365 users in your organization who are not licensed for Microsoft Teams to initiate a 1-year trial of the product.</span></span> <span data-ttu-id="9245a-107">管理者には、上または組織内のユーザーに対してこの機能をオフに切り替える機能があります。</span><span class="sxs-lookup"><span data-stu-id="9245a-107">Admins have the ability to switch on or off this feature for users within their organization.</span></span>
+<span data-ttu-id="8a291-104">マイクロソフト チームは、組織の優れた共同作業ツールです。</span><span class="sxs-lookup"><span data-stu-id="8a291-104">Microsoft Teams is a great collaborative tool for your organization.</span></span> <span data-ttu-id="8a291-105">説明、技術革新、および Office 365 の機能を使用してアイデアを共有するには、人やチームを支援します。</span><span class="sxs-lookup"><span data-stu-id="8a291-105">It empowers people and teams to discuss, innovate, and share ideas using the power of Office 365.</span></span> <span data-ttu-id="8a291-106">Microsoft チーム商用クラウド試用版には、製品の 1 年間の試用版を開始するのには、マイクロソフトのチームに許可されていないユーザー、組織内の既存の Office 365 ユーザーが提供しています。</span><span class="sxs-lookup"><span data-stu-id="8a291-106">The Microsoft Teams Commercial Cloud Trial offers existing Office 365 users in your organization who are not licensed for Microsoft Teams to initiate a 1-year trial of the product.</span></span> <span data-ttu-id="8a291-107">管理者は、自分の組織でこの機能のオンとオフのユーザーを切り替えることができます。</span><span class="sxs-lookup"><span data-stu-id="8a291-107">Admins can switch this feature on or off for users in their organization.</span></span>
 
-## <a name="whats-in-the-offer"></a><span data-ttu-id="9245a-108">オファーでは</span><span class="sxs-lookup"><span data-stu-id="9245a-108">What's in the offer</span></span>
+## <a name="whats-in-the-offer"></a><span data-ttu-id="8a291-108">オファーでは</span><span class="sxs-lookup"><span data-stu-id="8a291-108">What's in the offer</span></span>
 
-<span data-ttu-id="9245a-109">このパッケージに含まれているサービス プランは次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="9245a-109">The service plans included in this offer are:</span></span>
+<span data-ttu-id="8a291-109">このパッケージに含まれているサービス プランは次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="8a291-109">The service plans included in this offer are:</span></span>
 
-- <span data-ttu-id="9245a-110">Exchange の基礎</span><span class="sxs-lookup"><span data-stu-id="9245a-110">Exchange Foundation</span></span>
-- <span data-ttu-id="9245a-111">Office 365 のプラン 1 のフロー</span><span class="sxs-lookup"><span data-stu-id="9245a-111">Flow for Office 365 Plan 1</span></span>
-- <span data-ttu-id="9245a-112">マイクロソフトの計画</span><span class="sxs-lookup"><span data-stu-id="9245a-112">Microsoft Planner</span></span>
-- <span data-ttu-id="9245a-113">マイクロソフトのチーム (Teams1、IW のチーム)</span><span class="sxs-lookup"><span data-stu-id="9245a-113">Microsoft Teams (Teams1, Teams IW)</span></span>
-- <span data-ttu-id="9245a-114">Office Online</span><span class="sxs-lookup"><span data-stu-id="9245a-114">Office Online</span></span>
-- <span data-ttu-id="9245a-115">Office 365 の PowerApps 1 を計画します。</span><span class="sxs-lookup"><span data-stu-id="9245a-115">PowerApps for Office 365 Plan 1</span></span>
-- <span data-ttu-id="9245a-116">SharePoint Online Kiosk</span><span class="sxs-lookup"><span data-stu-id="9245a-116">SharePoint Online Kiosk</span></span>
-- <span data-ttu-id="9245a-117">影響を与える</span><span class="sxs-lookup"><span data-stu-id="9245a-117">Sway</span></span>
-- <span data-ttu-id="9245a-118">Yammer エンタープライズ</span><span class="sxs-lookup"><span data-stu-id="9245a-118">Yammer Enterprise</span></span>
+- <span data-ttu-id="8a291-110">Exchange の基礎</span><span class="sxs-lookup"><span data-stu-id="8a291-110">Exchange Foundation</span></span>
+- <span data-ttu-id="8a291-111">Office 365 のプラン 1 のフロー</span><span class="sxs-lookup"><span data-stu-id="8a291-111">Flow for Office 365 Plan 1</span></span>
+- <span data-ttu-id="8a291-112">マイクロソフトの計画</span><span class="sxs-lookup"><span data-stu-id="8a291-112">Microsoft Planner</span></span>
+- <span data-ttu-id="8a291-113">マイクロソフトのチーム (Teams1、IW のチーム)</span><span class="sxs-lookup"><span data-stu-id="8a291-113">Microsoft Teams (Teams1, Teams IW)</span></span>
+- <span data-ttu-id="8a291-114">Office Online</span><span class="sxs-lookup"><span data-stu-id="8a291-114">Office Online</span></span>
+- <span data-ttu-id="8a291-115">Office 365 の PowerApps 1 を計画します。</span><span class="sxs-lookup"><span data-stu-id="8a291-115">PowerApps for Office 365 Plan 1</span></span>
+- <span data-ttu-id="8a291-116">SharePoint Online Kiosk</span><span class="sxs-lookup"><span data-stu-id="8a291-116">SharePoint Online Kiosk</span></span>
+- <span data-ttu-id="8a291-117">影響を与える</span><span class="sxs-lookup"><span data-stu-id="8a291-117">Sway</span></span>
+- <span data-ttu-id="8a291-118">Yammer エンタープライズ</span><span class="sxs-lookup"><span data-stu-id="8a291-118">Yammer Enterprise</span></span>
 
-<span data-ttu-id="9245a-119">提供は、最大 500,000 ユーザーが組織単位に割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="9245a-119">The offer can be assigned to a maximum of 500,000 users per organization.</span></span> <span data-ttu-id="9245a-120">試用版のライセンスでは、各評価版のユーザーの SharePoint のオンライン ・ ストレージの 2 GB を割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="9245a-120">The trial license will allocate 2 GB of SharePoint Online storage for each trial user.</span></span>
+<span data-ttu-id="8a291-119">試用版では、組織全体に 1 年間の試用版サブスクリプションを許可します。</span><span class="sxs-lookup"><span data-stu-id="8a291-119">The trial grants a one-year trial subscription to your entire organization.</span></span> <span data-ttu-id="8a291-120">試用版では、500,000 のライセンスを割り当てに使用可能になります。</span><span class="sxs-lookup"><span data-stu-id="8a291-120">The trial makes 500,000 licenses available for assignment.</span></span> <span data-ttu-id="8a291-121">ライセンスが割り当てられている各、試用版には、SharePoint のオンライン ・ ストレージの 2 GB が割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="8a291-121">For each license assigned, the trial allocates 2 GB of SharePoint Online storage.</span></span> 
 
-## <a name="who-is-eligible"></a><span data-ttu-id="9245a-121">ユーザーが対象となります。</span><span class="sxs-lookup"><span data-stu-id="9245a-121">Who is eligible</span></span>
+## <a name="who-is-eligible"></a><span data-ttu-id="8a291-122">ユーザーが対象となります。</span><span class="sxs-lookup"><span data-stu-id="8a291-122">Who is eligible</span></span>
 
-<span data-ttu-id="9245a-122">チームを含む Office 365 のライセンスを持たないユーザーは、チームは、マイクロソフトの商用クラウド試用版の提供を開始できます。</span><span class="sxs-lookup"><span data-stu-id="9245a-122">Users who do not have an Office 365 license that includes Teams can initiate the Microsoft Teams Commercial Cloud Trial offer.</span></span> <span data-ttu-id="9245a-123">たとえば、ユーザーが Office 365 ビジネスの有料 (これは、チームが含まれています) を持っている、チームのサービス プランが無効になっている場合は、試用版の対象となります。</span><span class="sxs-lookup"><span data-stu-id="9245a-123">For example, if a user has Office 365 Business Premium (which includes Teams), and the Teams service plan is disabled, they are not eligible for the trial.</span></span>
+<span data-ttu-id="8a291-123">アプリケーションとで、Office 365 管理者センター) の試用版にサインアップするには、ユーザーを有効にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="8a291-123">Users must be enabled to sign up for apps and trials (in the Office 365 admin center).</span></span> <span data-ttu-id="8a291-124">詳細については、この資料の後半の[試用版の管理](#manage-the-trial)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="8a291-124">For more information, see [Manage the trial](#manage-the-trial) later in this article.</span></span> 
 
-<span data-ttu-id="9245a-124">また、組織ではない場合は、試用版の対象となります。</span><span class="sxs-lookup"><span data-stu-id="9245a-124">Also, your organization is NOT eligible for the trial if:</span></span> 
-- <span data-ttu-id="9245a-125">シンジケーション パートナーのお客様</span><span class="sxs-lookup"><span data-stu-id="9245a-125">You are a Syndication Partner Customer</span></span>
-- <span data-ttu-id="9245a-126">リセラー パートナーのお客様</span><span class="sxs-lookup"><span data-stu-id="9245a-126">You are a Reseller Partner Customer</span></span>
-- <span data-ttu-id="9245a-127">GCC、GOV、または EDU のお客様</span><span class="sxs-lookup"><span data-stu-id="9245a-127">You are a GCC, GOV, or EDU customer</span></span>
+<span data-ttu-id="8a291-125">チームを含む Office 365 のライセンスを持たないユーザーは、チームは、マイクロソフトの商用クラウド試用版の提供を開始できます。</span><span class="sxs-lookup"><span data-stu-id="8a291-125">Users who do not have an Office 365 license that includes Teams can initiate the Microsoft Teams Commercial Cloud Trial offer.</span></span> <span data-ttu-id="8a291-126">たとえば、ユーザーに Office 365 のビジネス (これは、チームが含まれていない) がある場合は、試用版の対象になって。</span><span class="sxs-lookup"><span data-stu-id="8a291-126">For example, if a user has Office 365 Business (which doesn't include Teams), they are eligible for the trial.</span></span>
 
-<span data-ttu-id="9245a-128">さらに、組織が、マイクロソフトのチーム商用クラウド トライアルをご利用の対象となる場合には、**ユーザーが試用版のアプリケーションとサービスをインストールできるように**スイッチを表示されなくなります。</span><span class="sxs-lookup"><span data-stu-id="9245a-128">In addition, if your organization is ineligible for the Microsoft Teams Commercial Cloud Trial offer, you will not see the **Let users install trial apps and services** switch.</span></span>
+## <a name="who-is-not-eligible"></a><span data-ttu-id="8a291-127">対象者ではありません。</span><span class="sxs-lookup"><span data-stu-id="8a291-127">Who is not eligible</span></span>
 
-<span data-ttu-id="9245a-129">組織レベルでは、サービスとしてのチームは、チーム管理センター) の「有効にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="9245a-129">At the organization level, Teams as a service needs to be enabled (in the Teams admin center).</span></span> <span data-ttu-id="9245a-130">詳細については、 [Office 365 の組織での Microsoft チームの管理機能](enable-features-office-365.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9245a-130">For more information, see [Manage Microsoft Teams features in your Office 365 organization](enable-features-office-365.md).</span></span> <span data-ttu-id="9245a-131">また、アプリケーションとで、Office 365 管理者センター) の試用版にサインアップするユーザーを有効にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="9245a-131">Also, users must be enabled to sign up for apps and trials (in the Office 365 admin center).</span></span> <span data-ttu-id="9245a-132">詳細については、この資料の後半の[試用版の管理](#manage-the-trial)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9245a-132">For more information, see [Manage the trial](#manage-the-trial) later in this article.</span></span>
+<span data-ttu-id="8a291-128">組織は、試用版の場合の対象ではありません。</span><span class="sxs-lookup"><span data-stu-id="8a291-128">Your organization is not eligible for the trial if:</span></span> 
 
-## <a name="how-users-sign-up-for-the-trial"></a><span data-ttu-id="9245a-133">ユーザーが試用版にサインアップする方法</span><span class="sxs-lookup"><span data-stu-id="9245a-133">How users sign up for the trial</span></span>
+- <span data-ttu-id="8a291-129">シンジケーション パートナーのお客様</span><span class="sxs-lookup"><span data-stu-id="8a291-129">You are a Syndication Partner Customer</span></span>
+- <span data-ttu-id="8a291-130">リセラー パートナーのお客様</span><span class="sxs-lookup"><span data-stu-id="8a291-130">You are a Reseller Partner Customer</span></span>
+- <span data-ttu-id="8a291-131">政府または EDU のお客様</span><span class="sxs-lookup"><span data-stu-id="8a291-131">You are a Government or EDU customer</span></span>
 
-<span data-ttu-id="9245a-134">対象となるユーザーは、チーム ([teams.microsoft.com](https://teams.microsoft.com)) にログインしてトライアルをご利用にサインアップできます。</span><span class="sxs-lookup"><span data-stu-id="9245a-134">Eligible users can sign up for the trial offer by logging into Teams ([teams.microsoft.com](https://teams.microsoft.com)).</span></span> <span data-ttu-id="9245a-135">、条件を満たす場合、試用版を起動するのには次の画面が表示されます。</span><span class="sxs-lookup"><span data-stu-id="9245a-135">If eligible, they will see the following screen to start the trial.</span></span> 
+<span data-ttu-id="8a291-132">組織が、マイクロソフトのチーム商用クラウド トライアルをご利用の対象となる場合は、**ユーザーが試用版のアプリケーションとサービスをインストールできるように**スイッチは表示されません。</span><span class="sxs-lookup"><span data-stu-id="8a291-132">If your organization is ineligible for the Microsoft Teams Commercial Cloud Trial offer, you will not see the **Let users install trial apps and services** switch.</span></span>
+
+## <a name="how-users-sign-up-for-the-trial"></a><span data-ttu-id="8a291-133">ユーザーが試用版にサインアップする方法</span><span class="sxs-lookup"><span data-stu-id="8a291-133">How users sign up for the trial</span></span>
+
+<span data-ttu-id="8a291-134">対象となるユーザーは、チーム ([teams.microsoft.com](https://teams.microsoft.com)) にログインしてトライアルをご利用にサインアップできます。</span><span class="sxs-lookup"><span data-stu-id="8a291-134">Eligible users can sign up for the trial offer by logging into Teams ([teams.microsoft.com](https://teams.microsoft.com)).</span></span> <span data-ttu-id="8a291-135">試用版を起動するのには次の画面が表示されます。</span><span class="sxs-lookup"><span data-stu-id="8a291-135">They will see the following screen to start the trial.</span></span> 
 
 ![チーム IW 試用版のスタート ページのスクリーン ショットです。](media/iw-trial-start-screen.png)
 
-<span data-ttu-id="9245a-137">試用版には、組織全体に 1 年間の試用期間が与えられます。</span><span class="sxs-lookup"><span data-stu-id="9245a-137">The trial grants a one-year trial to your entire organization.</span></span> <span data-ttu-id="9245a-138">この試用版には 500,000 のライセンスが割り当てできるようにします。</span><span class="sxs-lookup"><span data-stu-id="9245a-138">This trial will make 500,000 licenses available for assignment.</span></span> <span data-ttu-id="9245a-139">ライセンスが割り当てられている各、試用版は、SharePoint のオンライン ・ ストレージの 2 GB を割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="9245a-139">For each license assigned, the trial will allocate 2 GB of SharePoint Online storage.</span></span> <span data-ttu-id="9245a-140">組織内の他の対象となるユーザーは、同じプロセスを経由して、試用版にサインアップできます。</span><span class="sxs-lookup"><span data-stu-id="9245a-140">Additional eligible users within your organization can sign up for the trial by going through the same process.</span></span>
+<span data-ttu-id="8a291-137">組織内のすべての試用版は、同じ開始点と終了の日付は、日付の最初のユーザーが試用版にサインアップを共有します。</span><span class="sxs-lookup"><span data-stu-id="8a291-137">All trials within your organization share the same start and end dates, which is the date the first user signed up for the trial.</span></span> <span data-ttu-id="8a291-138">たとえば、ユーザー A が、2019 年 1 月 25 日の最初の試用版を起動し、ユーザー B は、2019 年 6 月 3日の試用版を起動する場合試用版の両方のユーザーの期限が切れます、2020 年 1 月 25 日に。</span><span class="sxs-lookup"><span data-stu-id="8a291-138">For example, if user A starts the first trial on January 25, 2019 and user B starts a trial on June 3, 2019, both users' trial will expire on January 25, 2020.</span></span>
 
-<span data-ttu-id="9245a-141">組織内のすべての試用版は、同じ開始日と終了日は、日付を共有する最初のユーザーが試用版の署名します。</span><span class="sxs-lookup"><span data-stu-id="9245a-141">All trials within your organization share the same start and end dates, which is the date that first user signed for the trial.</span></span> <span data-ttu-id="9245a-142">などのユーザー A が、2018 年 4 月 25 日の最初の試用版を起動し、ユーザー B が、2018 年 6 月 3日の試用版を起動する場合両方のユーザーの試用期限が切れます、2019 年 4 月 25 日に。</span><span class="sxs-lookup"><span data-stu-id="9245a-142">For example, if user A starts the first trial on April 25, 2018 and user B starts a trial on June 3, 2018, both users' trial will expire on April 25, 2019.</span></span>
+## <a name="manage-the-trial"></a><span data-ttu-id="8a291-139">試用版を管理します。</span><span class="sxs-lookup"><span data-stu-id="8a291-139">Manage the trial</span></span>
 
-<span data-ttu-id="9245a-143">最初に試用版にサインアップした人は、サブスクリプションの「所有者」です。</span><span class="sxs-lookup"><span data-stu-id="9245a-143">The first person who signed up for the trial is the “owner” of the subscription.</span></span> <span data-ttu-id="9245a-144">その人だけでは、サブスクリプションを管理できます。</span><span class="sxs-lookup"><span data-stu-id="9245a-144">Only that person can manage the subscription.</span></span> 
+<span data-ttu-id="8a291-140">管理者は、サインアップしたユーザーのライセンスを管理できます。</span><span class="sxs-lookup"><span data-stu-id="8a291-140">Admins can manage the licenses for users who have signed up.</span></span> 
 
-## <a name="manage-the-trial"></a><span data-ttu-id="9245a-145">試用版を管理します。</span><span class="sxs-lookup"><span data-stu-id="9245a-145">Manage the trial</span></span>
+<span data-ttu-id="8a291-141">さらに、管理者は、試用版のアプリケーションと、組織内のサービスを要求するエンドユーザー向けの機能を無効にできます。</span><span class="sxs-lookup"><span data-stu-id="8a291-141">In addition, admins can disable the ability for end users to claim trial apps and services within their organization.</span></span> <span data-ttu-id="8a291-142">現在、この資料に記載されている試用版は、このカテゴリにのみ試用版ですが、将来的に他の類似のプログラムに適用可能性があります。</span><span class="sxs-lookup"><span data-stu-id="8a291-142">Currently, the trial described in this article is the only trial in this category, but it might apply to other similar programs in the future.</span></span> 
 
-<span data-ttu-id="9245a-146">管理者は、試用版のアプリケーションと、組織内のサービスを要求するエンドユーザー向けの機能を無効にできます。</span><span class="sxs-lookup"><span data-stu-id="9245a-146">Admins can disable the ability for end users to claim trial apps and services within their organization.</span></span> <span data-ttu-id="9245a-147">現時点では、チームの試用版は、このカテゴリにのみ試用版ですが、将来的のような他のプログラムに適用されるこの。</span><span class="sxs-lookup"><span data-stu-id="9245a-147">Currently, the Teams trial is the only trial in this category, but this might apply to other similar programs in the future.</span></span> 
+### <a name="prevent-users-from-installing-trial-apps-and-services"></a><span data-ttu-id="8a291-143">ユーザーが試用版のアプリケーションとサービスをインストールすることを禁止します。</span><span class="sxs-lookup"><span data-stu-id="8a291-143">Prevent users from installing trial apps and services</span></span>
 
-<span data-ttu-id="9245a-148">1\。</span><span class="sxs-lookup"><span data-stu-id="9245a-148">1\.</span></span> <span data-ttu-id="9245a-149">[Office 365 管理センター](https://portal.office.com/adminportal/home)では、**サービスおよびアドイン**にアクセス > **ユーザーには、アプリケーションとサービスが所有しています**。</span><span class="sxs-lookup"><span data-stu-id="9245a-149">From the [Office 365 admin center](https://portal.office.com/adminportal/home), go to **Services & add-ins** > **User owned Apps and Services**.</span></span>
+<span data-ttu-id="8a291-144">試用版のアプリケーションとサービスをインストールするユーザーの機能をオフにすることができます。</span><span class="sxs-lookup"><span data-stu-id="8a291-144">You can turn off a user’s ability to install trial apps and services.</span></span>
 
-![Office 365 管理センターのサービスおよびアドインのページのスクリーン ショットです。](media/iw-trial-enable-1.png)
+1. <span data-ttu-id="8a291-145">[Microsoft 365 管理センター](https://portal.office.com/adminportal/home)で、[**設定]** > **サービスおよびアドイン** > **ユーザーには、アプリケーションとサービスが所有しています**。</span><span class="sxs-lookup"><span data-stu-id="8a291-145">From the [Microsoft 365 admin center](https://portal.office.com/adminportal/home), go to **Settings** > **Services & add-ins** > **User owned Apps and Services**.</span></span>
 
-<span data-ttu-id="9245a-151">2\。</span><span class="sxs-lookup"><span data-stu-id="9245a-151">2\.</span></span> <span data-ttu-id="9245a-152">**ユーザーが試用版のアプリケーションとサービスをインストールできるように**オフにします。</span><span class="sxs-lookup"><span data-stu-id="9245a-152">Turn off **Let users install trial apps and services**.</span></span>
+    ![Office 365 管理センターのサービスおよびアドインのページのスクリーン ショットです。](media/iw-trial-enable-1.png)
 
-![ユーザーのスクリーン ショットは、Office 365 の管理ページで [アプリケーションとサービスのページを所有しています。](media/iw-trial-enable-2.png)
+2. <span data-ttu-id="8a291-147">**ユーザーが試用版のアプリケーションとサービスをインストールできるように**オフにします。</span><span class="sxs-lookup"><span data-stu-id="8a291-147">Turn off **Let users install trial apps and services**.</span></span>
 
-<span data-ttu-id="9245a-154">3\。</span><span class="sxs-lookup"><span data-stu-id="9245a-154">3\.</span></span> <span data-ttu-id="9245a-155">チームの管理ポータルに移動して、組織のチームをオフにできます。</span><span class="sxs-lookup"><span data-stu-id="9245a-155">You can turn off Teams for your organization by going to the Teams admin portal.</span></span> <span data-ttu-id="9245a-156">これを無効にすると、ユーザーはチームの試用版の提供を要求できません。</span><span class="sxs-lookup"><span data-stu-id="9245a-156">When this is disabled, users cannot claim the Teams trial offer.</span></span>
+    ![ユーザーのスクリーン ショットは、Office 365 の管理ページで [アプリケーションとサービスのページを所有しています。](media/iw-trial-enable-2.png)
 
-<span data-ttu-id="9245a-157">4\。</span><span class="sxs-lookup"><span data-stu-id="9245a-157">4\.</span></span> <span data-ttu-id="9245a-158">対象となるライセンスを持っている個々 のユーザーのチームのサービス プランを無効にした場合は、そのユーザーは試用版のライセンスを要求する資格ではありません。</span><span class="sxs-lookup"><span data-stu-id="9245a-158">If you have disabled the Teams service plan for an individual user who has an eligible license, that user is not eligible to claim a trial license.</span></span>
 
-<span data-ttu-id="9245a-159">5\。</span><span class="sxs-lookup"><span data-stu-id="9245a-159">5\.</span></span> <span data-ttu-id="9245a-160">ユーザーは、チームの試用版のライセンスを要求したが場合、は、ライセンスまたはサービスのプランを削除することによって削除できます。</span><span class="sxs-lookup"><span data-stu-id="9245a-160">If a user has claimed a Teams trial license, you can remove it by removing the license or service plan.</span></span> 
+### <a name="manage-trial-availability-for-a-user-with-a-license-that-includes-teams"></a><span data-ttu-id="8a291-149">チームを含むライセンスを持つユーザーの試用版の可用性を管理します。</span><span class="sxs-lookup"><span data-stu-id="8a291-149">Manage trial availability for a user with a license that includes Teams</span></span>
 
-![Office 365 の管理センターでの製品ライセンス ページのスクリーン ショットです。](media/iw-trial-enable-3.png)
+<span data-ttu-id="8a291-150">チームを含むライセンスが割り当てられているユーザーは、試用版の対象ではありません。</span><span class="sxs-lookup"><span data-stu-id="8a291-150">A user who is assigned a license that includes Teams is not eligible for the trial.</span></span> <span data-ttu-id="8a291-151">チームのサービス プランを有効にすると、ユーザーはログインして、チームを使用します。</span><span class="sxs-lookup"><span data-stu-id="8a291-151">When the Teams service plan is enabled, the user can log in and use Teams.</span></span> <span data-ttu-id="8a291-152">サービス計画が無効の場合ユーザーはログインできません、試用版のオプションを使用しても表示されません。</span><span class="sxs-lookup"><span data-stu-id="8a291-152">If the service plan is disabled, the user cannot log in and is not presented with the trial option either.</span></span>
 
-### <a name="upgrade-users-from-the-trial-license"></a><span data-ttu-id="9245a-162">試用版のライセンスからユーザーをアップグレードします。</span><span class="sxs-lookup"><span data-stu-id="9245a-162">Upgrade users from the trial license</span></span>
+<span data-ttu-id="8a291-153">チームへのアクセスを無効にするには</span><span class="sxs-lookup"><span data-stu-id="8a291-153">To turn off access to Teams:</span></span>
 
-<span data-ttu-id="9245a-163">試用版のライセンスからユーザーをアップグレードするには、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="9245a-163">To upgrade users from the trial license, do the following:</span></span>
+1. <span data-ttu-id="8a291-154">Microsoft 365 管理センターで、**ユーザー**を選択します > **アクティブなユーザー**です。</span><span class="sxs-lookup"><span data-stu-id="8a291-154">In the Microsoft 365 admin center, select **Users** > **Active users**.</span></span>
 
-1. <span data-ttu-id="9245a-164">チームを含む SKU を購入します。</span><span class="sxs-lookup"><span data-stu-id="9245a-164">Purchase a SKU that includes Teams.</span></span>
-2. <span data-ttu-id="9245a-165">チームの試用版 SKU は、ユーザーから削除します。</span><span class="sxs-lookup"><span data-stu-id="9245a-165">Remove the Teams trial SKU from the user.</span></span>
-3. <span data-ttu-id="9245a-166">新規に購入したライセンスを割り当てます。</span><span class="sxs-lookup"><span data-stu-id="9245a-166">Then assign the newly purchased license.</span></span>
+2. <span data-ttu-id="8a291-155">ユーザーの名前の横のボックスを選択します。</span><span class="sxs-lookup"><span data-stu-id="8a291-155">Select the box next to the name of the user.</span></span>
 
-<span data-ttu-id="9245a-167">詳細については、「[Microsoft Teams 用の Office 365 ライセンス](Office-365-licensing.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="9245a-167">For more information, see [Office 365 licensing for Microsoft Teams](Office-365-licensing.md).</span></span>
+3. <span data-ttu-id="8a291-156">、右側の**製品ライセンス**の行で、[**編集**] クリックします。</span><span class="sxs-lookup"><span data-stu-id="8a291-156">On the right, in the **Product licenses** row, choose **Edit**.</span></span>
+
+4. <span data-ttu-id="8a291-157">**製品ライセンス**のウィンドウで**無効**に、表示/非表示を切り替えます。</span><span class="sxs-lookup"><span data-stu-id="8a291-157">In the **Product licenses** pane, switch the toggle to **Off**.</span></span>
+
+    ![Office 365 の管理センターでの製品ライセンス ページのスクリーン ショットです。](media/iw-trial-enable-3.png)
+
+### <a name="manage-teams-availability-for-users-who-already-claimed-the-trial"></a><span data-ttu-id="8a291-159">試用版を既に要求しているユーザーのチームの可用性を管理します。</span><span class="sxs-lookup"><span data-stu-id="8a291-159">Manage Teams availability for users who already claimed the trial</span></span>
+
+<span data-ttu-id="8a291-160">ユーザーは、チームの試用版のライセンスを要求したが場合、は、ライセンスまたはサービスのプランを削除することによって削除できます。</span><span class="sxs-lookup"><span data-stu-id="8a291-160">If a user has claimed a Teams trial license, you can remove it by removing the license or service plan.</span></span>
+
+<span data-ttu-id="8a291-161">試用版のライセンスを無効にするには</span><span class="sxs-lookup"><span data-stu-id="8a291-161">To turn off the trial license:</span></span>
+
+1. <span data-ttu-id="8a291-162">Microsoft 365 管理センターで、**ユーザー**を選択します > **アクティブなユーザー**です。</span><span class="sxs-lookup"><span data-stu-id="8a291-162">In the Microsoft 365 admin center, select **Users** > **Active users**.</span></span>
+
+2. <span data-ttu-id="8a291-163">ユーザーの名前の横のボックスを選択します。</span><span class="sxs-lookup"><span data-stu-id="8a291-163">Select the box next to the name of the user.</span></span>
+
+3. <span data-ttu-id="8a291-164">、右側の**製品ライセンス**の行で、[**編集**] クリックします。</span><span class="sxs-lookup"><span data-stu-id="8a291-164">On the right, in the **Product licenses** row, choose **Edit**.</span></span>
+
+4. <span data-ttu-id="8a291-165">**製品ライセンス**のウィンドウで**無効**に、表示/非表示を切り替えます。</span><span class="sxs-lookup"><span data-stu-id="8a291-165">In the **Product licenses** pane, switch the toggle to **Off**.</span></span>
+
+    ![製品ライセンス] ウィンドウに、チームの試用版のライセンス設定のスクリーン ショット](media/iW-trial-enable-4.png)
+
+### <a name="manage-teams-for-users-who-have-the-trial-license"></a><span data-ttu-id="8a291-167">試用版のライセンスを持つユーザーのチームを管理します。</span><span class="sxs-lookup"><span data-stu-id="8a291-167">Manage Teams for users who have the trial license</span></span>
+
+<span data-ttu-id="8a291-168">正規の有料ライセンスを持つユーザーを管理するように、試用版のライセンスを持つユーザーを管理することができます。</span><span class="sxs-lookup"><span data-stu-id="8a291-168">You can manage users who have a trial license just like you manage users who have a regular paid license.</span></span> <span data-ttu-id="8a291-169">詳細については、 [Office 365 の組織での Microsoft チームの管理機能](enable-features-office-365.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="8a291-169">For more information, see [Manage Microsoft Teams features in your Office 365 organization](enable-features-office-365.md).</span></span>
+
+### <a name="upgrade-users-from-the-trial-license"></a><span data-ttu-id="8a291-170">試用版のライセンスからユーザーをアップグレードします。</span><span class="sxs-lookup"><span data-stu-id="8a291-170">Upgrade users from the trial license</span></span>
+
+<span data-ttu-id="8a291-171">試用版のライセンスからユーザーをアップグレードするには、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="8a291-171">To upgrade users from the trial license, do the following:</span></span>
+
+1. <span data-ttu-id="8a291-172">チームを含むサブスクリプションを購入します。</span><span class="sxs-lookup"><span data-stu-id="8a291-172">Purchase a subscription that includes Teams.</span></span>
+
+2. <span data-ttu-id="8a291-173">ユーザーからは、チームの試用版サブスクリプションを削除します。</span><span class="sxs-lookup"><span data-stu-id="8a291-173">Remove the Teams trial subscription from the user.</span></span>
+
+3. <span data-ttu-id="8a291-174">新規に購入したライセンスを割り当てます。</span><span class="sxs-lookup"><span data-stu-id="8a291-174">Assign the newly purchased license.</span></span>
+
+<span data-ttu-id="8a291-175">詳細については、「[Microsoft Teams 用の Office 365 ライセンス](Office-365-licensing.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="8a291-175">For more information, see [Office 365 licensing for Microsoft Teams](Office-365-licensing.md).</span></span>

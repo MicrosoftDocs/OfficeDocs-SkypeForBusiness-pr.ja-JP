@@ -13,12 +13,12 @@ search.appverid: MET150
 description: ビデオ、チュートリアル、およびその他のリソースを使用して、チーム、組織内のユーザーをトレーニングします。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f46eabe142ae62f1a231a14a919089e80e0c27b8
-ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
+ms.openlocfilehash: 4754a20c38c16c78744d44d78647f0efdede83e6
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26676428"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214444"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams のエンド ユーザー トレーニング
 
@@ -132,18 +132,33 @@ ms.locfileid: "26676428"
                         <h3>クイック スタート</h3>
                          <p><a href="http://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf">このクイック スタート ガイド (PDF) の基礎を学ぶのダウンロードします。</a></p>
                         <p><a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">以下のこのクイック スタートのことで、迅速に最新の記事</a></p>
-                        <p><a href="https://teamsdemo.office.com/">チームの対話型デモ</a></p>
                     </div>
                 </div>
             </div>
         </div>
-    </li><li>
+    </li> <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>チームの概要</h3>
+                        <p><a href="https://teamsdemo.office.com/">チームの対話型デモ</a></p>  
+                        <p><a href="https://microsoftteams.eventbuilder.com/event/1772">オン ・ デマンド ・ トレーニング: #ThisisTeams - どのようにチームの機能について</a></p>
+                        <p><a href="https://aka.ms/teamsgettingstartedondemand">オン ・ デマンド ・ トレーニング: チームの概要</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+       <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
                         <h3>ビジネスの Skype からのチームに切り替える</h3>
                          <p><a href="https://support.office.com/article/switch-to-teams-from-skype-for-business-6295a0ae-4e8e-4bba-a100-64cc951cc964">チームにビジネス用の Skype からの記事: スイッチ</a></p>
+                         <p><a href="https://aka.ms/upgrade101ondemand">オン ・ デマンド ・ トレーニング: アップグレード 101: チームにビジネス用の Skype からのアップグレードを理解します。</a></p>
+                        <p><a href="https://aka.ms/fromskypetoteamsondemand">オン ・ デマンド ・ トレーニング: ビジネスでのチームから Skype</a></p>
                     </div>
                 </div>
             </div>
@@ -158,17 +173,6 @@ ms.locfileid: "26676428"
                          <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">チームの所有者のガイドを目指すビデオ:</a></p>
                          <p><a href="https://support.office.com/article/organize-your-teams-list-741bf760-39fc-4807-ad8b-92558273f542">ビデオ: チーム リストを整理します。</a></p>
                          <p><a href="https://www.youtube.com/watch?v=hjJWtoaRJeE">チーム、チャネル、およびタブを設定するためのビデオ: ガイダンス</a></p> 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>オン ・ デマンド ・ トレーニング</h3>
-                         <p><a href="https://microsoftteams.eventbuilder.com/event/1772">#ThisisTeams ・ チームが成功できる方法</a></p>
                     </div>
                 </div>
             </div>
