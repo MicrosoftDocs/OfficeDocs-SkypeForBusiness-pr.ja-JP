@@ -1,5 +1,5 @@
 ---
-title: 直接ルーティングを構成します。
+title: 直接ルーティングを構成する
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -15,14 +15,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Microsoft 電話システム直接ルーティングを構成する方法について説明します。
-ms.openlocfilehash: 994d9d25c41f5f403873a0069564f675e0020d61
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 3b023262971e9dcae111ed82d49d101437bbcda3
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26510669"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214612"
 ---
-# <a name="configure-direct-routing"></a>直接ルーティングを構成します。
+# <a name="configure-direct-routing"></a>直接ルーティングを構成する
 
 > [!Tip]
 > ルーティング、それを計画する方法と展開方法は、直接の利点について説明するのには次のセッションを監視する:[マイクロソフトのチームに直接ルーティング](https://aka.ms/teams-direct-routing)
@@ -33,8 +33,8 @@ ms.locfileid: "26510669"
 
 SBC が、SBC の製造元の推奨どおりに構成されて既にいることを確認することをお勧めします。 
 
-- 展開に関するドキュメント 
-- リボンの通信の展開に関するドキュメント
+- [展開に関するドキュメント](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
+- [リボンの通信の展開に関するドキュメント](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
 
 マイクロソフト電話システムを構成して、直接ルーティングを使用し、マイクロソフトのチームを次の手順を完了しての優先呼び出し側のクライアントとして設定するユーザーを有効にすることができます。 
 
@@ -209,7 +209,7 @@ Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMai
 たとえば、「Spencer 低」のユーザーの電話番号を追加するのにはするは、次のように入力します。 
 
 ```
-Set-CsUser - “Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+Set-CsUser -Identity “Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
 ```
 
 電話番号に国コードを含む完全 E.164 電話番号として構成するのには。 
@@ -534,4 +534,4 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 
 ## <a name="see-also"></a>関連項目
 
-[直接ルーティングを計画します。](direct-routing-plan.md)
+[ダイレクト ルーティングを計画する](direct-routing-plan.md)

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: '概要: は、会議の詳細] レポートには、Skype ビジネス サーバーの使用について説明します。'
-ms.openlocfilehash: ff8b7fa0643eedf7ddb38f908bc585af8bf7ac1f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 025e8bda6e26baf261aeb3729907a3f13c220774
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372348"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214596"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>ビジネス サーバーの Skype で会議の詳細] レポート
 
@@ -26,13 +26,13 @@ ms.locfileid: "25372348"
 
 会議詳細レポートには、次のレポートからアクセスできます。
 
-- [ビジネス サーバーの Skype での受付管理レポートの呼び出し](call-admission-control-report.md)] をクリックして、会議の詳細] のメトリック)
+- [Call Admission Control Report](call-admission-control-report.md) (会議の詳細指標をクリック)
 
-- [Skype ビジネス サーバー用のエラー一覧のレポート](failure-list-report.md)] をクリックして会議の指標)
+- [Failure List Report](failure-list-report.md) (電話会議指標をクリック)
 
-- [Skype ビジネス サーバー用のユーザー アクティビティ レポート](user-activity-report.md)] をクリックして会議 URI メトリック)
+- [User Activity Report](call-diagnostic-reports-per-user.md) (電話会議 URI 指標をクリック)
 
-[会議の詳細] レポートからは、診断レポート (詳細) のメトリックをクリックすると、 [Skype のビジネス サーバーの診断レポート](diagnostic-report.md)を表示できます。
+[会議の詳細] レポートには、診断レポート (詳細) のメトリックをクリックすると、[診断 Repor](diagnostic-report.md)を表示できます。
 
 ## <a name="filters"></a>フィルター
 

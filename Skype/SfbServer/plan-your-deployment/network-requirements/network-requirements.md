@@ -13,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: '概要: は、Skype をビジネスのサーバーを実装する前に以下のコンポーネントのネットワークの考慮事項を確認します。'
-ms.openlocfilehash: ad0e3b48a320997ddce0559e388d5cfdcab861d1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: fd21ada12a8e2b05654fe6809dd5147480b0e306
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375083"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214513"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
 **の概要:** Skype をビジネスのサーバーを実装する前に以下のコンポーネントのネットワークの考慮事項を確認します。
 
-これらのトピックでは、ホワイト ペーパーでは[ネットワークの計画、監視、および Lync Server のトラブルシューティング](https://www.microsoft.com/en-us/download/details.aspx?id=39084)の詳細と、深さもについて説明します。 コンテンツは、Lync 2010 および Lync 2013 を明示的に参照するときに Skype のビジネス サーバーに関する考慮事項は変更されません。
+これらのトピックに含まれている情報は、ホワイトペーパー『[Lync Server を使用したネットワークの計画、監視、トラブルシューティング](https://www.microsoft.com/en-us/download/details.aspx?id=39084)』でもより詳しく掘り下げて説明されています。 コンテンツは、Lync 2010 および Lync 2013 を明示的に参照するときに Skype のビジネス サーバーに関する考慮事項は変更されません。
 
 同様に、ワイヤード (有線) アクセスと同様に wifi ネットワークでは、ホワイト ペーパー [Wi-fi 経由で Lync 2013 リアルタイム コミュニケーションを提供する](https://www.microsoft.com/en-us/download/details.aspx?id=36494)参考し、は Skype のビジネス サーバーにも適用できます。
 
@@ -118,7 +118,7 @@ Network performance and needs are directly linked to the traffic load placed on 
 |**音声コーデック**|**シナリオ**|**音声ペイロードのビット レート (Kbps)**|**帯域幅 - 音声ペイロードおよび IP ヘッダーのみ (Kbps)**|**帯域幅 - 音声ペイロード、IP ヘッダー、UDP、RTP、および SRTP (Kbps)**|**帯域幅 - 音声ペイロード、IP ヘッダー、UDP、RTP、SRTP および前方向エラー訂正 (Kbps)**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |RTAudio (広帯域)  <br/> |ピアツーピア  <br/> |29.0  <br/> |45.0  <br/> |57.0  <br/> |86.0  <br/> |
-|RTAudio (狭帯域)  <br/> |ピアツーピア (PSTN)  <br/> |11.8  <br/> |高は 27.8  <br/> |39.8  <br/> |51.6  <br/> |
+|RTAudio (狭帯域)  <br/> |ピアツーピア (PSTN)  <br/> |11.8  <br/> |27.8  <br/> |39.8  <br/> |51.6  <br/> |
 |G.722  <br/> |電話会議  <br/> |64.0  <br/> |80.0  <br/> |95.6  <br/> |159.6  <br/> |
 |G.722 ステレオ  <br/> |ピアツーピア (電話会議)  <br/> |128.0  <br/> |144.0  <br/> |159.6  <br/> |223.6  <br/> |
 |G.711  <br/> |PSTN、会議  <br/> |64.0  <br/> |80.0  <br/> |92.0  <br/> |156.0  <br/> |
@@ -187,7 +187,7 @@ G.722 コーデックのステレオ バージョンは、Lync Room System に�
 |**メディア**|**RTCP の最大帯域幅 (Kbps)**|
 |:-----|:-----|
 |音声  <br/> |5  <br/> |
-|ビデオ (H.264 または RTVideo の一方のみを送受信)  <br/> |10  <br/> |
+|ビデオ (H.264 または RTVideo の一方のみを送受信)  <br/> | 10  <br/> |
 |ビデオ (H.264 と RTVideo の両方を送受信)  <br/> |15  <br/> |
 
 容量計画では、次の 2 つの統計情報が関与します。
@@ -233,7 +233,7 @@ G.722 コーデックのステレオ バージョンは、Lync Room System に�
 
 ||**2 人の参加者**|**3 人の参加者**|**4 人の参加者**|**5 人の参加者**|**6 人の参加者**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**受信した最大解像度** <br/> |1920 × 1080  <br/> |1280 x 720  <br/> |640 x 360  <br/> |640 x 360 の 320 x 240  <br/> |640 x 360 の 320 x 240  <br/> |
+|**受信した最大解像度** <br/> |1920x1080  <br/> |1280x720  <br/> |640x360  <br/> |640x360 320x240  <br/> |640x360 320x240  <br/> |
 |**平均ビット レートの合計** <br/> |2128  <br/> |4050  <br/> |1304  <br/> |1224  <br/> |1565  <br/> |
 |**最大ビット レートの合計** <br/> |4063  <br/> |5890  <br/> |2860  <br/> |2699  <br/> |3017  <br/> |
 
@@ -260,21 +260,14 @@ QoS、Skype のビジネス サーバーは必要ありませんが、強くお�
 
 ビジネス サーバー用の Skype は、QoS を完全にサポートを提供しています: ある QoS を既に使用している組織が簡単にできることを意味統合 Skype ビジネス サーバーの既存のネットワーク インフラストラクチャです。 これを行うには、以下の手順を実行する必要があります。
 
-- [Windows 以外のデバイスの QoS を有効に](https://technet.microsoft.com/library/26f793df-aef8-4028-9e3b-6c2c37ea61b9.aspx)します。 既定では、その他のオペレーティング システムを実行するコンピューターおよびその他のデバイス (iPhone など) では QoS は無効です。 有効にして、デバイスの QoS を無効にするビジネスのサーバー用の Skype を使用できますが、通常使うことはできません、製品をこれらのデバイスによって使用される DSCP コードを変更します。
+- [Skype のビジネス サーバーは、デバイスの Windows をベースにしないので QoS](../../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md)を有効にします。 既定では、その他のオペレーティング システムを実行するコンピューターおよびその他のデバイス (iPhone など) では QoS は無効です。 デバイスの品質のサービスを無効にするのにビジネスのサーバー用の Skype を使用できますが、通常できない製品を使用する、これらのデバイスによって使用される DSCP コードを変更します。
 
-- [会議、アプリケーション、および仲介サーバーのポート範囲を構成](https://technet.microsoft.com/library/4d6eaa5d-0127-453f-be6a-e55384772d83.aspx)します。 オーディオやビデオなど、さまざまなパケットの種類のポートの一意のセットを予約する必要があります。 ビジネス サーバーの Skype を使用して有効にしたりしない true または false を指定するプロパティ値を設定することで QoS を無効にします。 代わりに、ポート範囲の構成を作成し、グループ ポリシーを適用することで QoS を有効にします。 後で QoS を使用しないように決定する」を無効にできます"QoS 適切なグループ ポリシー オブジェクトを削除することによって。
+- [ポートの範囲と、会議、アプリケーション、および仲介サーバーのサービスの品質ポリシーを構成](../../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md)しています。 オーディオやビデオなど、さまざまなパケットの種類のポートの一意のセットを予約する必要があります。 ビジネス サーバーの Skype を使用して有効にしたりしない true または false を指定するプロパティ値を設定することで QoS を無効にします。 代わりに、ポート範囲の構成を作成し、グループ ポリシーを適用することで QoS を有効にします。 後で QoS を使用しないように決定する」を無効にできます"QoS 適切なグループ ポリシー オブジェクトを削除することによって。
 
-- [エッジ サーバーのポート範囲を構成](https://technet.microsoft.com/library/6f0ae442-6624-4e3f-849a-5b9e387fb8cf.aspx)します。 必須ではありませんが、その他のサーバーと同じポート範囲を使用するようにエッジ サーバーを構成することができます。
+- [ポート範囲を構成してエッジ サーバーのサービスの品質ポリシー](../../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md)を表示します。 必須ではありませんが、その他のサーバーと同じポート範囲を使用するようにエッジ サーバーを構成することができます。 エッジ サーバーの内部にある場合にのみ実行 QoS ポリシーを構成します。 QoS はインターネットではなく内部ネットワークで使用するために設計されているためです。
 
-- [Microsoft Lync クライアント用のポート範囲を構成](https://technet.microsoft.com/library/287d5cea-7ada-461c-9b4a-9da2af315e71.aspx)します。 これらのポート範囲はクライアント コンピューターにのみ適用され、通常、サーバーで構成されたポート範囲とは異なります。
+- [ポート範囲を構成し Skype のビジネス サーバーでクライアントにサービスの品質ポリシー](../../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md)を表示します。 これらのポート範囲はクライアント コンピューターにのみ適用され、通常、サーバーで構成されたポート範囲とは異なります。 ビジネス サーバーの Skype では、10 の Windows 以外のオペレーティング システムの QoS の Windows はサポートされていないことに注意してください。
 
-- [会議、アプリケーション、および仲介サーバーのサービス ポリシーの品質の設定](https://technet.microsoft.com/library/8adcbbc5-c9f5-476d-ab7f-72e61859cacf.aspx)をしています。 これらのポリシーでは、異なるパケットの種類に適用される DSCP コードを決定します。
-
-- [、1 つのサービス ポリシーの品質を構成する V エッジ サーバーと](https://technet.microsoft.com/library/119ee1f5-45b9-40ba-98e5-c694dd2fc5c2.aspx)。 これは、エッジ サーバーの内側でのみ行う必要があります。 QoS はインターネットではなく内部ネットワークで使用するために設計されているためです。
-
-- [ピア ツー ピアの品質で Windows 7 または Windows 8 を実行するクライアントのサービス ・ ポリシーの設定](https://technet.microsoft.com/library/efff2b98-b3fb-4183-a4f0-329a9105ce2c.aspx)をしています。 Skype ビジネス サーバーが Windows Vista または Windows XP など、他の Windows オペレーティング システム用で QoS をサポートしていないことに注意してください。
-
-- [Microsoft Lync の電話のエディションのデバイス上のサービスの品質の設定](https://technet.microsoft.com/library/a6eb2620-a512-4ab6-bdfd-eb76be43bbfe.aspx)をしています。 既定では、Lync の電話のエディションのデバイスの QoS が有効になります。 組織内のすべての音声パケットが同じ DSCP コードを使用することを保証するために、既定の DSCP 値を変更することもできます。
 
 > [!NOTE]
 > Windows Server 2012 と Windows Server 2012 R2 を使用する場合は、Windows PowerShell コマンドレットがそのプラットフォーム上で QoS を管理するために使用可能な一連の新しい興味する必要があります。 詳細については、 [Windows PowerShell でのネットワーク QoS のコマンドレット](https://go.microsoft.com/fwlink/p/?LinkId=285379)を参照してください。

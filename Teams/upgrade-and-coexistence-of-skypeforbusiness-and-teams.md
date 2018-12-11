@@ -1,12 +1,12 @@
 ---
-title: アップグレードの旅では、マイクロソフトのチームを選択します。
+title: アップグレードの手順を選択する - Microsoft Teams
 author: lsomi
 ms.author: lsomi
 manager: serdars
 ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: dearbeen, bjwhalen
 description: Skype のビジネスおよびマイクロソフトのチームの共存オプション、モード、およびシナリオの例でビジネス用の Skype からチームへのアップグレード利用の詳細情報です。
 localization_priority: Normal
 search.appverid: MET150
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f78cab154dd2b697cbee851a06ef8633b742dbf
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: bdf8ee99b276603329682ce2a1749f946d209fbf
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533191"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214490"
 ---
 ![展開に重点を置いて、アップグレードの旅の段階や実装段階](media/upgrade-banner-deployment.png "展開に重点を置いて、アップグレードの旅の段階や実装段階")
 
@@ -85,7 +85,7 @@ ms.locfileid: "26533191"
 
 時間の経過と共に**チームのみ**モードに、組織の残りの部分の後にユーザーのグループをアップグレードできます。 最終的には、組織全体がビジネス用の Skype を撤去し、チームのみを使用して、コミュニケーションと共同作業をする準備が完了するまたは -かどうかビジネス要件で特定のグループのビジネス用の Skype を保持すること、大多数のユーザーに、組織は、チームのみ使用できます。 <br><br>
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul> アップグレードする旅は、組織 & #39 に適した; ビジネス要件でしょうか。<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul> アップグレードする旅は、組織のビジネス要件に適したですか。<br><br></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul> 現在の展開モデルを識別するには、ケースのシナリオを使用し、組織にとっての重要な考慮事項が通知されますが、組織に最適ですがチームへの旅。<br><br></ul></td></tr>
 </table>
 
@@ -93,7 +93,7 @@ ms.locfileid: "26533191"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul> アップグレード シナリオは、組織に適用可能ですか。<br><br></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul> 組織 & #39; のタイムラインを決める s アップグレードの旅は、メッセージング、会議、およびビジネス要件を呼び出すことに基づきます。<br><br> アップグレード、旅を完了するのには必要な追加作業を決定します。<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul> メッセージング、会議、および呼び出しのビジネス要件に基づいて、組織のアップグレードの旅のタイムラインを決定します。<br><br> アップグレード、旅を完了するのには必要な追加作業を決定します。<br><br></ul></td></tr>
 </table>
 
 した後、[チームへのアップグレードを実行する](https://aka.ms/SkypeToTeams-Upgrade)組織に最適なアップグレードの旅をしました。
