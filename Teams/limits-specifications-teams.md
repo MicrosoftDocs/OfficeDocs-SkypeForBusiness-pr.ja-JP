@@ -1,5 +1,5 @@
 ---
-title: 制限とマイクロソフトのチームの仕様
+title: Microsoft Teams の制限事項と仕様
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -13,14 +13,14 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2fb9594ddc5fd82f1f11d4425f000a831e2b90e4
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 9f77de0515cc026b0d225100e7528a6eae4a7965
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532310"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240686"
 ---
-<a name="limits-and-specifications-for-microsoft-teams"></a>制限とマイクロソフトのチームの仕様
+<a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 =============================================
 
 この資料では、いくつかの制限、仕様、およびマイクロソフトのチームに適用されるその他の要件について説明します。 
@@ -45,7 +45,7 @@ ms.locfileid: "26532310"
 |機能     | 最大数の制限 |
 |------------|---------------|
 |会議に出席する人の数  | 250    |
-|プライベート チャットの参加者の数  | 20    |
+|プライベート チャットの参加者の数  | 50    |
 
 <a name="storage"></a>ストレージ
 -------

@@ -10,15 +10,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 description: 展開して、ビジネス サーバー、Skype で運用する前にスキーマを拡張することによって Active Directory ドメイン サービスを準備する必要があります。 スキーマの拡張機能は、Skype でビジネスのサーバーのために必要な属性とクラスを追加します。
-ms.openlocfilehash: 42b4417311c557323535aa03053ccb03d95cc840
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8594ff3a25c7af7ef8c57468a8900d3abbb7f790
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240918"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>Skype ビジネス サーバーのスキーマの変更
  
-展開して、ビジネス サーバー、Skype で運用する前にスキーマを拡張することによって Active Directory ドメイン サービスを準備する必要があります。 スキーマの拡張機能は、Skype でビジネスのサーバーのために必要な属性とクラスを追加します。 
+展開して、ビジネス サーバー、Skype で運用する前にスキーマを拡張することによって Active Directory ドメイン サービスを準備する必要があります。 スキーマの拡張機能は、Skype でビジネスのサーバーのために必要な属性とクラスを追加します。
+
+> [!NOTE]
+> アップグレードする Lync Server 2013 に Skype ビジネス サーバー 2015 の場合、は、スキーマの変更は行われませんし、この資料は適用されませんのでします。
   
 Skype ビジネス サーバーのでは、いくつかの新しいクラスと属性が必要ですし、いくつかの既存のクラスおよび属性を変更します。 さらに、ビジネス サーバーの Skype の多くの構成情報は以前のバージョンのように AD DS ではなく中央管理ストアに格納されます。 次の情報はまだ Skype で AD DS のビジネス サーバーの格納されます。
   

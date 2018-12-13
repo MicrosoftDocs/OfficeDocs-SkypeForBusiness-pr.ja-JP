@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: '概要: このトピックでは、Skype for Business Server と Skype for Business Online 間でハイブリッド接続を計画する方法を説明します。 多くの Skype for Business ハイブリッド ソリューションを展開する上で、ハイブリッド接続の設定は最初に行う手順となります。'
-ms.openlocfilehash: 909d8be38bd03291268c7fa3b2b091072a47970e
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6b0456c115e1d1fc9b1a341b17cfc9711f2a6bb7
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530889"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240764"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Skype for Business Server と Skype for Business Online 間のハイブリッド接続を計画する
 
@@ -329,11 +329,11 @@ Microsoft Online Services のデータ ・ センターの場所、によって�
 
 また、ハイブリッド展開を計画する場合は、次のユーザー関連の問題も考慮する必要があります。
 
-- **ユーザーの連絡先**ユーザーの Lync オンラインの連絡先の最大数は、250 です。 その番号以外のすべての連絡先は、Lync Online にアカウントが移動されたときにユーザーの連絡先リストから削除されます。
+- **ユーザーの連絡先**Skype のオンライン ビジネスのユーザーの連絡先の制限は、250 です。 その番号以外のすべての連絡先は、オンライン ビジネスの Skype にアカウントを移動すると、ユーザーの連絡先リストから削除されます。
 
 - **インスタント メッセージングとプレゼンス**ユーザーの連絡先リスト、グループ、およびアクセス制御リスト (Acl) は、ユーザー アカウントに移行されます。
 
-- **会議データ、会議コンテンツ、およびスケジュールされたミーティング**このコンテンツは、ユーザー アカウントには移行されません。 ユーザーは、アカウントが Lync Online に移行された後で会議を予約し直す必要があります。
+- **会議データ、会議コンテンツ、およびスケジュールされたミーティング**このコンテンツは、ユーザー アカウントには移行されません。 自分のアカウントは、ビジネス オンラインの Skype に移行した後、ユーザーは会議を再スケジュールする必要があります。
 
 ## <a name="user-policies-and-features"></a>ユーザー ポリシーと機能
 <a name="BKMK_UserPolicies"> </a>

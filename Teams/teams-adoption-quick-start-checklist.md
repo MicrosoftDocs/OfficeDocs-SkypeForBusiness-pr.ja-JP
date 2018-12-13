@@ -15,12 +15,12 @@ ms.custom: Adopt
 ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 814cea93b78985e96c20095dff8cf42c0c4715bc
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 48ae0d4551bf5ca786f995fc22165d4f3f09fa04
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699694"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240874"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Microsoft Teams の導入クイック スタートのチェックリスト
 
@@ -35,7 +35,7 @@ ms.locfileid: "26699694"
 - [チームとチャネルを理解します。](teams-adoption-understand-teams-and-channels.md)
 - [最初のチームを作成します。](teams-adoption-your-first-teams.md)
 - [チームの準備ができているでしょうか。](teams-adoption-assess-readiness.md)
-- [利害関係者とのミーティング](teams-adoption-assess-readiness.md#assess-your-stakeholders)を)
+- [利害関係者とのミーティングします。](teams-adoption-assess-readiness.md#assess-your-stakeholders)
 - [初期採用者を識別します。](teams-adoption-assess-readiness.md#identify-early-adopters)
 
 ## <a name="phase-2---experiment"></a>フェーズ 2 - 実験

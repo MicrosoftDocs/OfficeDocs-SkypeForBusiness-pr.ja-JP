@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Skype で会議のビジネス サーバーのエンタープライズ VoIP の場所ベースのルーティングの計画、提案型などの呼び出しを転送します。
-ms.openlocfilehash: d786f8def8cf88e29bbac2a908163a5a92d61d47
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 810b93d20fe9bdbf0ae057250509b1e9ec612afe
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373243"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240739"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Skype で会議のビジネスのサーバーの場所ベースのルーティング
 
@@ -142,9 +142,13 @@ Get CsServerApplication ・ サービス: レジストラーの識別情報:<Poo
 
 会議アプリケーションに対する場所ベースのルーティングの優先順位が正しい値を確認した後は、各フロント エンド プールまたは Standard Edition Server ホーム ユーザーは、場所ベースのルーティングに対して有効になっているは、次のコマンドレットを入力します。
 
-CsServerApplication で新しい・ サービス: レジストラーの識別情報:<Pool FQDN>/LBRouting-優先順位<Application Priority>-$true を有効になっている-$true Uri の重要な<https://www.microsoft.com/LCS/LBRoutingFor>の使用例。
+CsServerApplication で新しい・ サービス: レジストラーの識別情報:`<Pool FQDN`>/LBRouting の優先順位\<アプリケーションの優先順位\>-$true を有効に-$true Uri の重要な<http://www.microsoft.com/LCS/LBRouting> 
 
-CsServerApplication で新しい-の Id Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting の優先順位 3 - 有効になっている $true-$true Uri の重要なhttps://www.microsoft.com/LCS/LBRoutingAfterプールまたは標準のエディションのサーバーですべてのフロント エンド サーバーを再起動して、このコマンドレットを使用して、会議アプリケーションに対する場所ベースのルーティングが有効になっています。
+次に例を示します。
+
+新しい-CsServerApplication-アイデンティティ Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting-優先順位 3 - 有効になっている $true-$true Uri の重要なhttp://www.microsoft.com/LCS/LBRouting 
+
+このコマンドレットを使用すると後に、、プールまたは Standard Edition Server がアプリケーションの会議の場所ベースのルーティングが有効になってすべてのフロント エンド サーバーを再起動します。
 
 > [!IMPORTANT]
 > 場所に基づくルーティングを制限するまで会議や提案型の転送には、該当するプール内のすべてのフロント エンド サーバーまで適用されませんまたは標準のエディションのサーバーを再起動します。 設定する場合は、**の重要な**ビジネス サーバー サービスは、Skype がすぐに再起動前のコマンドレットに **$true**にします。 これらのサービスを今すぐ再起動したくない場合は、設定 **-重要な** **$false**にここでは、し、変更するのには**一連の CsServerApplication**に **-重要な**に **$true**以降では、サービスを再起動した後。

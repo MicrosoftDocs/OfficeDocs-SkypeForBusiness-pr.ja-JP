@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: '概要: どのような機能がどのクライアントでサポートされているを理解するのにこれらのテーブルを使用できるは、ビジネス サーバー 2015 の Skype または Skype オンライン ビジネス管理者の。'
-ms.openlocfilehash: 1dc94b9cb6b723d344994babe655921045b2acb0
-ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
+ms.openlocfilehash: 35db705545dbec988a29b2025b4c3f1817923093
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "25002390"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240802"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype のデスクトップ クライアントの機能の比較
  
@@ -32,16 +32,16 @@ Skype のビジネスをオンラインで利用可能なビジネス サーバ�
 
 ビジネス サーバー 2019 の Skype のサポート クライアントの[ビジネス 2019年の Skype のデスクトップ クライアントの機能の比較](../../../SfBServer2019/plan/feature-comparison.md)を参照してください。
   
-次の表では、各クライアントは、Skype ビジネス サーバー 2015 または Skype のビジネスをオンラインで利用できる機能を示しています。 スマート フォンやタブレット クライアントの機能の比較は、 [Skype ビジネス向けのモバイル クライアントの機能の比較](mobile-feature-comparison.md)を参照することもできます。 ユーザーが使用できる機能は、組織が購入するクライアント アクセス ライセンスまたはユーザー サブスクリプション ライセンスによっても影響を受けます。 ユーザーに対して Full または Basic クライアントを展開するかどうかは、組織が購入を選択したライセンスまたはプランに応じて変わります。 詳細については[ライセンス ガイド](https://products.office.com/en-us/skype-for-business/it-pros)を参照してください。
+次の表では、各クライアントは、Skype ビジネス サーバー 2015 または Skype のビジネスをオンラインで利用できる機能を示しています。 スマート フォンやタブレット クライアントの機能の比較は、 [Skype ビジネス向けのモバイル クライアントの機能の比較](mobile-feature-comparison.md)を参照することもできます。 ユーザーが使用できる機能は、組織が購入するクライアント アクセス ライセンスまたはユーザー サブスクリプション ライセンスによっても影響を受けます。 ユーザーに対して Full または Basic クライアントを展開するかどうかは、組織が購入を選択したライセンスまたはプランに応じて変わります。 詳細については、「[ライセンス ガイド](https://products.office.com/en-us/skype-for-business/it-pros)」を参照してください。
   
 > [!IMPORTANT]
-> ビジネス サーバー 2015 の Skype と Skype のオンライン ビジネスは、次の以前にリリースされたクライアントをサポート: Lync 2013、Lync 2010、Lync 2010 モバイル、Lync の電話のエディション、および Lync 2010 応答します。 他のサーバーを使用すると、これらのクライアントについては、 [Lync Server 2013 のクライアントの比較表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx)および[Lync Server 2010 のクライアントの比較表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx)を参照してください。 
+> ビジネス サーバー 2015 の Skype と Skype のオンライン ビジネスは、次の以前にリリースされたクライアントをサポート: Lync 2013、Lync 2010、Lync 2010 モバイル、Lync の電話のエディション、および Lync 2010 応答します。 別のサーバーで使用する場合のこれらのクライアントの情報については、「[Lync Server 2013 のクライアントの比較表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx)」および「[クライアントの比較表 (Lync Server 2010)](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx)」を参照してください。 
   
 > [!NOTE]
 > ビジネス オンラインの Skype で、 **Lync 2010 応答**クライアントがサポートされていません。
   
 > [!NOTE]
-> ビジネス Web アプリケーションのクライアントのブラウザー、Skype 会議アプリケーションの Windows 10 アプリケーションの Skype は、[会議のサポート](desktop-feature-comparison.md#BKMK_Conferencing)を提供するだけです。 これらのクライアントの詳細については、[会議クライアント (Web アプリケーションおよび会議アプリケーション) の計画](meetings-clients.md)を参照してください。
+> ビジネス Web アプリケーションのクライアントのブラウザー、Skype 会議アプリケーションの Windows 10 アプリケーションの Skype は、[会議のサポート](desktop-feature-comparison.md#BKMK_Conferencing)を提供するだけです。 これらのクライアントの詳細については、「[Plan for Meetings clients (Web App and Meetings App)](meetings-clients.md)」を参照してください。
   
 ## <a name="enhanced-presence-support"></a>拡張プレゼンスのサポート
 <a name="BKMK_EnhancedPresence"> </a>
@@ -269,6 +269,8 @@ Skype 間のセッションで、Skype for Business Online プラン 1 のユー
 - あいさつの変更
     
 - グループ通話ピックアップ
+
+- ユーザー状態は、UM の無効と古いバージョンの Outlook クライアント (2013 またはそれ以前) を使用している不在着信通知の電子メールが生成されません。
     
 ### <a name="online-or-hybrid-user-account-limitations"></a>オンラインまたはハイブリッドのユーザー アカウントの制限事項
 <a name="Online-Hybrid"> </a>

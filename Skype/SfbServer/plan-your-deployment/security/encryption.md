@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 description: ビジネス サーバー用の Skype は、インスタント メッセージの暗号化に TLS および MTLS を使用します。 トラフィックが内部ネットワークに限定されているか、内部ネットワークの境界を越えるかに関係なく、MTLS は、サーバー間のすべてのトラフィックに必要です。 Skype をビジネス サーバーのサード パーティ製の IPPBX システムまたは SIP トランク TLS 接続があるとき省略可能ですが、仲介サーバーとメディア ゲートウェイの間で強く推奨されます。 この接続に TLS を構成する場合は MTLS も必要です。 そのため、ゲートウェイは、仲介サーバーによって信頼されている CA から証明書を構成しなければなりません。
-ms.openlocfilehash: cdb5953253f10659747d0556d905de43d1d839b0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ff2aa0a3d0727aa5ed579413fe03593568f9f773
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21019732"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240896"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>Skype のビジネス サーバー用の暗号化
  
@@ -24,7 +24,7 @@ ms.locfileid: "21019732"
 > [!NOTE]
 > SSL 3.0 に関するセキュリティ アドバイザリが 2014 年に公開されました。 ビジネス サーバー 2015 の Skype で SSL 3.0 を無効にすることは、サポートされているオプションです。 セキュリティ アドバイザリに関する詳細については、 [Lync Server 2013 とビジネス サーバー 2015 の Skype で SSL 3.0 を無効にする](https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/)を参照してください。<br/>
 **セキュリティに関するメモ:** 最も強力な暗号化プロトコルが使用されることを確認するには、ビジネス サーバー 2015 の Skype すると、TLS 暗号化プロトコルを次の順序でクライアント: **TLS 1.2、TLS 1.1、TLS 1.0**です。 TLS は、Skype のビジネス サーバー 2015 の重要な側面と、サポートされている環境を維持するために必要なためです。<br/>
-**セキュリティに関するメモ:** 最も強力な暗号化プロトコルが使用されることを確認するには、ビジネス サーバー 2019 の Skype すると、TLS 暗号化プロトコルを次の順序でクライアント: **TLS 2.0、TLS 1.2**です。 TLS は、Skype のビジネス サーバー 2019 の重要な側面と、サポートされている環境を維持するために必要なためです。 
+**セキュリティに関するメモ:** 最も強力な暗号化プロトコルが使用されることを確認するには、ビジネス サーバー 2019 の Skype すると、TLS 暗号化プロトコルを次の順序でクライアント: **TLS 1.3、TLS 1.2**です。 TLS は、Skype のビジネス サーバー 2019 の重要な側面と、サポートされている環境を維持するために必要なためです。 
   
 次の表に、各種トラフィックのプロトコル要件をまとめます。 
   

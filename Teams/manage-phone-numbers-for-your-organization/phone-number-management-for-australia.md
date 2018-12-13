@@ -1,5 +1,5 @@
 ---
-title: オーストラリアの電話番号の管理
+title: オーストラリアでの電話番号の管理
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 取得し、オーストラリアの電話番号を Skype のビジネスをオンラインで、マイクロソフトのチームの管理上の情報を検索するのにには、次の表を使用します。
-ms.openlocfilehash: 88db4b1410071793622c5bab7e528c51180c7a80
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 4d4a175e75b053a1966a8dff85b5dda539cd9ad0
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532757"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240882"
 ---
-# <a name="phone-number-management-for-australia"></a>オーストラリアの電話番号の管理
+# <a name="phone-number-management-for-australia"></a>オーストラリアでの電話番号の管理
 当社はオーストラリアで、通話プランの購入と事前設定に関して Telstra 社 と提携しました。 Telstra 社は、通話プランを販売し、自動応答とコール キューに関して、ユーザーとサービス電話番号両方に電話番号管理のサポートを提供します。 ただし、電話会議用のサービス電話番号とライセンスは、引き続き Office 365 で販売、管理します。
 
 詳細については、 「[Tesltra Calling for Office 365](https://aka.ms/TelstraVoicePlan)」を参照してください。
@@ -42,7 +42,7 @@ ms.locfileid: "26532757"
 |**実行する操作**|**これらの手順を実行して正しいフォームをダウンロードする**|
 |:-----|:-----|
 |オーストラリアで通話プランのユーザー電話番号を取得する。   <br/> |ユーザー用の新規の電話番号を取得するには、「[Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan)」にお問い合わせください。 同社がそれらの電話番号を組織に追加し、ユーザーに割り当てられるようにします。 <br/>
-|オーストラリアで、電話システムの自動応答とコール キューとともに使用できるサービス電話番号を取得する。 <br/> |新規の電話番号を取得するには、「[Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan)」にお問い合わせください。 同社がそれらの電話番号を組織に追加し、自動応答とコール キューに割り当てられるようにします。 <br/>|
+|Telstra は、Office 365 の呼び出しを使用しては、新しいサービスの電話番号電話システムの自動応答を使用することができ、オーストラリアの Telstra からのキューの呼び出しが表示されます。 <br/> |新規の電話番号を取得するには、「[Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan)」にお問い合わせください。 同社がそれらの電話番号を組織に追加し、自動応答とコール キューに割り当てられるようにします。 Telstra の呼び出しを活用されていない場合、Microsoft の番号 ManagementService のデスクからマイクロソフトに[問い合わせしてください](mailto:ptnapac@microsoft.com)、サービス番号を取得するお問い合わせください。 <br/>|
 |オーストラリアで、電話会議の新しいサービス電話番号を取得する。   <br/> |[お問い合わせください](mailto:ptnapac@microsoft.com)。|
 |ユーザー、自動応答、コール キューのために電話番号を Office 365 に転送する必要がある。  <br/> |新規の電話番号を取得するには、「[Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan)」にお問い合わせください。 同社が組織にこれらの番号を追加します。  <br/> |
 |電話会議で使用するために電話番号を Office 365 に転送する必要がある。  |[お問い合わせください](mailto:ptnapac@microsoft.com) |

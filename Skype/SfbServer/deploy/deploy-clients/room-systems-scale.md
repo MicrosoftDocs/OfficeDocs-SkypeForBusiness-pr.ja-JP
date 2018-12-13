@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 大規模な展開で Skype ルーム システム v2 を展開する方法については、このトピックを参照してください。
-ms.openlocfilehash: 536530fa7836389d8c621f7c81287bfb564f024d
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: ce3a857971fd60988e89608391cc3ec7d3d0c3ae
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699552"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240965"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>システム センター構成マネージャーを使用して Skype ルーム システム v2 を展開します。
 
@@ -504,6 +504,28 @@ Skype ルーム システム v2 は Surface Pro と Surface Pro 4 の両方の�
 
 > [!NOTE]
 > 他の Surface Pro モデルをする必要があります、同じ手順を実行します。 詳細については、[システム センター構成マネージャーでの管理ドライバー](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers)を参照してください。
+
+### <a name="create-skype-room-system-configuration-package"></a>Skype ルーム システムの構成パッケージを作成します。
+
+1.  **ソフトウェア ライブラリ**には、構成マネージャー コンソールで、 \> **アプリケーション管理** \> **パッケージ**、および**パッケージの作成**を選択します。
+
+2.  パッケージを作成するのには次の情報を入力します。
+
+    -   名前: **SRS v2 の SRS のセットアップ パッケージを構成します。**
+
+    -   製造元: **Microsoft Corporation**
+
+    -   バージョン: **1.0.0**
+
+    -   **このパッケージにソース ファイルが含まれています**] チェック ボックスをオンに、 **SRS v2 の SRS の設定を構成する**フォルダーのパスを入力し、[**次へ**。
+
+3.  **プログラムを作成しない**を選択し、**次へ**します。
+
+4.  **設定の確認**] ページを確認し、**次へ**を選択します。
+
+5.  **閉じる**を選択します。
+
+
 
 ## <a name="distribute-configuration-manager-packages"></a>構成マネージャー パッケージを配布します。
 
