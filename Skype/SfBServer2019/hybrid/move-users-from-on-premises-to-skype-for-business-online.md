@@ -9,78 +9,50 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
-description: '概要: は、ユーザー設定を移行し、オンライン ビジネスの Skype ユーザーを移動する方法を説明します。'
-ms.openlocfilehash: 9fd51c55be35e55be6ca837ccb72413043283ac7
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+description: Skype をビジネス オンラインのユーザーを移動する方法について説明します。
+ms.openlocfilehash: 083f2f52fd07439d85d017db9c4b035b8ea326b6
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "25030750"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27243998"
 ---
-# <a name="move-users-from-on-premises-to-skype-for-business-online"></a><span data-ttu-id="4f4f3-103">ユーザーをオンプレミスから Skype for Business Online に移動する</span><span class="sxs-lookup"><span data-stu-id="4f4f3-103">Move users from on premises to Skype for Business Online</span></span>
+# <a name="move-users-from-on-premises-to-skype-for-business-online"></a><span data-ttu-id="14c74-103">ユーザーをオンプレミスから Skype for Business Online に移動する</span><span class="sxs-lookup"><span data-stu-id="14c74-103">Move users from on premises to Skype for Business Online</span></span>
 
-<span data-ttu-id="4f4f3-104">**の概要:** ユーザー設定を移行し、オンライン ビジネスの Skype ユーザーを移動する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-104">**Summary:** Learn how to migrate user settings and move users to Skype for Business Online.</span></span>
+<span data-ttu-id="14c74-104">移動した後、ユーザー設置から Skype オンライン ビジネスのユーザーと対話する Skype オンライン ビジネスの機能をします。</span><span class="sxs-lookup"><span data-stu-id="14c74-104">After you move a user from on-premises to Skype for Business Online, the user interacts with Skype for Business Online for its functionality.</span></span> <span data-ttu-id="14c74-105">設置型に存在していた取引先担当者は、ビジネス オンラインの Skype で利用可能ななりビジネス オンラインの Skype のリンクをポイントするように将来のユーザーが構成されて、既存の会議の更新されます。</span><span class="sxs-lookup"><span data-stu-id="14c74-105">Any contacts that existed on-premises will be available in Skype for Business Online, and any existing meetings the user organized for the future are updated to so the links point to Skype for Business Online.</span></span> <span data-ttu-id="14c74-106">オーディオ会議で、ユーザーが有効な場合、会議はダイヤルインの座標も含まれます。</span><span class="sxs-lookup"><span data-stu-id="14c74-106">If the user is enabled for Audio Conferencing, the meetings will also include dial-in coordinates.</span></span>  <span data-ttu-id="14c74-107">ビジネス オンラインの Skype をオンプレミス環境からユーザーを移動するには、設置型のツールは、両方とも、ビジネス サーバー コントロール パネルの移動 CsUser コマンドレット、または、Skype のいずれかを使用します。</span><span class="sxs-lookup"><span data-stu-id="14c74-107">To move users from an on-premises environment to Skype for Business Online, use either the Move-CsUser cmdlet or the Skype for Business Server Control Panel, both of which are on-premises tools.</span></span> 
 
-<span data-ttu-id="4f4f3-105">Office 365 にユーザーを実際に移動するには、前に、ユーザー アカウントは、クラウドに同期され、ライセンスを割り当てることを確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-105">Before actually moving a user to Office 365, you should first confirm that the user accounts are synchronized to the cloud, and assign them a license.</span></span> <span data-ttu-id="4f4f3-106">この操作には、Office 365 管理センターを使用します。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-106">To do this, you use the Office 365 Admin Center.</span></span>
+<span data-ttu-id="14c74-108">すべてのユーザーを移動する前に必ずユーザーをクラウドに移行する[前提条件](move-users-between-on-premises-and-cloud.md#prerequisites)を確認してください。</span><span class="sxs-lookup"><span data-stu-id="14c74-108">Before moving any users, be sure to review the [prerequisites](move-users-between-on-premises-and-cloud.md#prerequisites) to move users to the cloud.</span></span>
+ 
+## <a name="move-users-with-move-csuser"></a><span data-ttu-id="14c74-109">Csuser からの移動でユーザーの移動</span><span class="sxs-lookup"><span data-stu-id="14c74-109">Move users with Move-CsUser</span></span> 
 
-### <a name="to-confirm-that-an-on-premises-user-account-has-been-synchronized-with-office-365"></a><span data-ttu-id="4f4f3-107">オンプレミス ユーザー アカウントが Office 365 と同期していることを確認するには</span><span class="sxs-lookup"><span data-stu-id="4f4f3-107">To confirm that an on-premises user account has been synchronized with Office 365</span></span>
+<span data-ttu-id="14c74-110">Csuser からの移動を指定する場合は、オンプレミス Skype のビジネス管理シェルの PowerShell ウィンドウで実行できます。</span><span class="sxs-lookup"><span data-stu-id="14c74-110">Move-CsUser is available from an on-premises Skype for Business Management Shell PowerShell window.</span></span> <span data-ttu-id="14c74-111">[管理者の資格情報が必要](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)で説明したように両方設置環境にも、Office 365 テナントのように十分な特権が必要です。</span><span class="sxs-lookup"><span data-stu-id="14c74-111">You must have sufficient privileges in both the on-premises environment as well as in the Office 365 tenant as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).</span></span> <span data-ttu-id="14c74-112">両方の環境で権限のある単一のアカウントを使用することができますか、または設置型の資格情報を持つビジネス サーバー管理シェル ウィンドウに、オンプレミス Skype を起動し、使用できます、 `-Credential` 、Office 365 の資格情報を指定するパラメーター必要な Office 365 管理者の役割を持つアカウント。</span><span class="sxs-lookup"><span data-stu-id="14c74-112">You can either use a single account that has privileges in both environments, or you can start an on-premise Skype for Business Server Management Shell window with on-premise credentials, and use the `-Credential` parameter to specify credentials for an Office 365 account with the necessary Office 365 administrative role.</span></span>
 
-1. <span data-ttu-id="4f4f3-108">テナント管理者のアカウントを使用して、テナントの Office 365 の管理ページを開きます。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-108">Using a tenant admin account, open the Office 365 admin center for your tenant.</span></span>  <span data-ttu-id="4f4f3-109">テナント管理者のアカウントは、Office 365 でこの機能を実行するのにはビジネス管理者の役割とユーザー管理の役割 (または、グローバル管理者ロール) の両方の Skype に付与してください。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-109">Tenant admin accounts should be granted both the Skype for Business Admin Role and the User Management Role (or the Global Admin role) to perform this function in Office 365.</span></span>
+<span data-ttu-id="14c74-113">オンラインにユーザーを移動する移動 CsUser を使用します。</span><span class="sxs-lookup"><span data-stu-id="14c74-113">To move a user to online using Move-CsUser:</span></span>
 
-2. <span data-ttu-id="4f4f3-110">左側のナビゲーション ウィンドウで、[**ユーザー**] をクリックし、[**アクティブ ユーザ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-110">On the left navigation pane, click **Users**, and then click **Active Users**.</span></span>
+- <span data-ttu-id="14c74-114">Id パラメーターを使用して移動するユーザーを指定します。</span><span class="sxs-lookup"><span data-stu-id="14c74-114">Specify the user to move using the Identity parameter.</span></span>
+- <span data-ttu-id="14c74-115">指定ターゲット パラメーターを指定する値"sipfed.online.lync。<span>com"します。</span><span class="sxs-lookup"><span data-stu-id="14c74-115">Specify the -Target parameter with the value “sipfed.online.lync.<span>com”.</span></span>
+- <span data-ttu-id="14c74-116">設置型および Office 365 の両方のための十分なアクセス許可を持つ 1 つのアカウントがないを使用して、Office 365 のための十分な権限を持つアカウントを指定するには、資格情報パラメーターです。</span><span class="sxs-lookup"><span data-stu-id="14c74-116">If you do not have one account with sufficient permissions in both on premises and Office 365, use the -credential parameter to supply an account with sufficient permissions in Office 365.</span></span>
+- <span data-ttu-id="14c74-117">」On.microsoft で Office 365 にアクセス許可を持つアカウントが終わっていない場合。<span>com」、[ために必要な管理者資格情報](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)で説明するよう、正しい値を持つ、- HostedMigrationOverrideUrl パラメーターを指定する必要があり、。</span><span class="sxs-lookup"><span data-stu-id="14c74-117">If the account with permissions in Office 365 does not end in “on.microsoft.<span>com”, then you must specify the -HostedMigrationOverrideUrl parameter, with  the correct value as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).</span></span>
 
-3. <span data-ttu-id="4f4f3-111">[**ユーザーの検索**] をクリックして、ユーザーの名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-111">Click **Search for a User**, and type the name of the user.</span></span>
-
-4. <span data-ttu-id="4f4f3-112">ユーザーを参照してください、それらの状態が**Active Directory に Synched**を確認します。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-112">Confirm that you see the user and that their status is **Synched with Active Directory**.</span></span>
-
-    <span data-ttu-id="4f4f3-113">ユーザーがまだ同期されていない場合は、3 時間以内に次の自動同期が実行されます。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-113">If the user is not yet synchronized, the next automatic synchronization should happen within three hours.</span></span> <span data-ttu-id="4f4f3-114">早く同期を強制的にすることもできます。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-114">You can also force a synchronization sooner.</span></span> <span data-ttu-id="4f4f3-115">詳細については、[ディレクトリ同期の強制](https://msdn.microsoft.com/en-us/library/azure/jj151771.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-115">For more information, see [Force Directory Synchronization](https://msdn.microsoft.com/en-us/library/azure/jj151771.aspx).</span></span>
-
-<span data-ttu-id="4f4f3-116">Office 365 のライセンスを割り当てるには、[ビジネス向けの Office 365 のユーザーにライセンスを割り当てる](https://support.office.com/en-us/article/Assign-or-unassign-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-116">To assign the license in Office 365, see [Assign licenses to users in Office 365 for Business](https://support.office.com/en-us/article/Assign-or-unassign-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).</span></span>
-
-## <a name="migrate-user-settings-to-skype-for-business-online"></a><span data-ttu-id="4f4f3-117">Skype をオンライン ビジネスのユーザー設定を移行します。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-117">Migrate user settings to Skype for Business Online</span></span>
-
-<span data-ttu-id="4f4f3-118">Skype をビジネス オンラインのユーザーを移行する前に移動するアカウントに関連付けられたユーザー データをバックアップしてください。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-118">Before you migrate users to Skype for Business Online, you should back up the user data associated with the accounts to be moved.</span></span> <span data-ttu-id="4f4f3-119">ユーザー アカウントと共にすべてのユーザー データが移動されるわけではありません。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-119">Not all user data is moved with the user account.</span></span> <span data-ttu-id="4f4f3-120">についてを参照してください[のバックアップと復元の要件: データ](https://technet.microsoft.com/library/ecfb8e4d-cb4f-476d-9772-4486bd683c04.aspx)。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-120">For information, see [Backup and Restoration Requirements: Data](https://technet.microsoft.com/library/ecfb8e4d-cb4f-476d-9772-4486bd683c04.aspx).</span></span>
-
-<span data-ttu-id="4f4f3-p105">ユーザー設定は、ユーザー アカウントと共に移動されます。いくつかのオンプレミス設定は、ユーザー アカウントと共に移動されることはありません。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-p105">User settings are moved with the user account. Some on-premises settings are not moved with the user account.</span></span>
-
-## <a name="move-pilot-users-to-skype-for-business-online"></a><span data-ttu-id="4f4f3-123">ビジネス オンラインの Skype をパイロット ユーザーの移動</span><span class="sxs-lookup"><span data-stu-id="4f4f3-123">Move pilot users to Skype for Business Online</span></span>
-
-<span data-ttu-id="4f4f3-124">Skype をビジネス オンラインのユーザーを移動する前に、環境が正しく構成されていることを確認するのには、いくつかのパイロット ユーザーを移動することがあります。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-124">Before you move users to Skype for Business Online, you may want to move a few pilot users to confirm that your environment is correctly configured.</span></span> <span data-ttu-id="4f4f3-125">その他のユーザーを移動する前に、機能とサービス機能が予想どおりであることを確認できます。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-125">You can then verify that the features and services function as expected before attempting to move additional users.</span></span>
-
-<span data-ttu-id="4f4f3-126">オンライン ビジネスのテナントの Skype に、オンプレミスのユーザーを移動するには、ビジネス サーバー管理シェルを管理者の資格情報を使用して、Microsoft Office 365 のテナントのため、Skype で次のコマンドレットを実行します。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-126">To move an on-premises user to your Skype for Business Online tenant, run the following cmdlets in the Skype for Business Server Management Shell, using the administrator credentials for your Microsoft Office 365 tenant.</span></span> <span data-ttu-id="4f4f3-127">"Username@contoso.com"を移動したいユーザーの情報に置き換えます。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-127">Replace "username@contoso.com" with the information for the user you want to move.</span></span>
+<span data-ttu-id="14c74-118">次のコマンドレットのシーケンスは、Skype をビジネス オンラインでのユーザーを移動する使用することができ、Office 365 の資格情報は別のアカウントであり、取得の資格情報のプロンプトへの入力として提供されたと仮定しています。</span><span class="sxs-lookup"><span data-stu-id="14c74-118">The following cmdlet sequence can be used to move a user to Skype for Business Online, and assumes the Office 365 credential is a separate account and supplied as input for the Get-Credential prompt.</span></span>
 
 ```
-$creds=Get-Credential
+$cred=Get-Credential
+$url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
+ 
+Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $cred -HostedMigrationOverrideUrl $url
 ```
+## <a name="move-users-with-skype-for-business-server-control-panel"></a><span data-ttu-id="14c74-119">ビジネス サーバーのコントロール パネルの Skype でユーザーを移動します。</span><span class="sxs-lookup"><span data-stu-id="14c74-119">Move users with Skype for Business Server Control Panel</span></span> 
 
-```
-Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds
-```
+1. <span data-ttu-id="14c74-120">ビジネス サーバー管理のため、Skype を開くパネルのアプリケーション。</span><span class="sxs-lookup"><span data-stu-id="14c74-120">Open the Skype for Business Server Control Panel app.</span></span>
+2. <span data-ttu-id="14c74-121">左側のナビゲーションでは、**ユーザー**を選択します。</span><span class="sxs-lookup"><span data-stu-id="14c74-121">In the left navigation, choose **Users**.</span></span>
+3. <span data-ttu-id="14c74-122">**検索**を使用すると、Skype のビジネスをオンラインに移動したいユーザーを検索できます。</span><span class="sxs-lookup"><span data-stu-id="14c74-122">Use **Find** to locate the user(s) you would like to move to Skype for Business Online.</span></span>
+4. <span data-ttu-id="14c74-123">、ユーザーを選択して、**アクション**ドロップダウン リストの上からクリックして**Skype オンライン ビジネス用に選択したユーザーを移動**します。</span><span class="sxs-lookup"><span data-stu-id="14c74-123">Select the user(s), and then, from the **Action** dropdown above the list, choose **Move selected users to Skype for Business Online**.</span></span>
+5. <span data-ttu-id="14c74-124">ウィザードで、[**次へ**] クリックします。</span><span class="sxs-lookup"><span data-stu-id="14c74-124">In the wizard, click **Next**.</span></span>
+6. <span data-ttu-id="14c74-125">メッセージが表示されたらにサインイン、Office 365 で終了するアカウントを使用しています。 onmicrosoft.com 十分なアクセス許可とします。</span><span class="sxs-lookup"><span data-stu-id="14c74-125">If prompted, sign in to Office 365, with an account that ends in .onmicrosoft.com and has sufficient permissions.</span></span>
+7. <span data-ttu-id="14c74-126">ユーザーを移動するのには**次へ**、し、[**次へ**1 つのより多くの時間をクリックします。</span><span class="sxs-lookup"><span data-stu-id="14c74-126">Click **Next**, and then **Next** one more time to move the user.</span></span>
+8. <span data-ttu-id="14c74-127">ウィザードではなく、メインのコントロール パネルの [アプリケーションの上部に成功または失敗に関連するステータス メッセージが提供されることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="14c74-127">Note that status messages regarding success or failure are provided at the top of the main Control Panel app, not in the wizard.</span></span>
 
-## <a name="move-users-to-skype-for-business-online"></a><span data-ttu-id="4f4f3-128">Skype for Business Online にユーザーを移動する</span><span class="sxs-lookup"><span data-stu-id="4f4f3-128">Move users to Skype for Business Online</span></span>
+## <a name="see-also"></a><span data-ttu-id="14c74-128">関連項目</span><span class="sxs-lookup"><span data-stu-id="14c74-128">See also</span></span>
 
-<span data-ttu-id="4f4f3-129">[Get CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)コマンドレットを使用して複数のユーザーを移動することができます、RegistrarPool などのユーザー アカウントに割り当てられている特定のプロパティを使用してユーザーを選択するフィルター パラメーターを使用します。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-129">You can move multiple users by using the [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) cmdlet with the -Filter parameter to select the users with a specific property assigned to the user accounts, such as RegistrarPool.</span></span> <span data-ttu-id="4f4f3-130">コマンドレットにパイプ[移動 CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser?view=skype-ps)コマンドレットでは、返されるユーザーは、次の例に示すように。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-130">You can then pipe the returned users to the [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser?view=skype-ps) cmdlet, as shown in the following example:</span></span>
-
-```
-Get-CsUser -Filter {UserProperty -eq "UserPropertyValue"} | Move-CsUser -Target sipfed.online.lync.com -Credential $creds
-```
-
-<span data-ttu-id="4f4f3-131">次の例に示すように、指定した OU 内のすべてのユーザーを取得するために OU パラメーターを使用できます。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-131">You can also use the -OU parameter to retrieve all users in the specified OU, as shown in the following example:</span></span>
-
-```
-Get-CsUser -OU "cn=hybridusers,cn=contoso.." | Move-CsUser -Target sipfed.online.lync.com -Credentials $creds
-```
-
-## <a name="verify-online-user-settings-and-features"></a><span data-ttu-id="4f4f3-132">オンライン ユーザーの設定と機能を確認する</span><span class="sxs-lookup"><span data-stu-id="4f4f3-132">Verify online user settings and features</span></span>
-
-<span data-ttu-id="4f4f3-133">ユーザーの移動が正常に完了したことは、次の方法で確認できます。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-133">You can verify that the user was moved successfully in the following ways:</span></span>
-
-- <span data-ttu-id="4f4f3-p109">Skype for Business Online コントロール パネルでユーザーの状態を表示します。オンプレミス ユーザーとオンライン ユーザーでは視覚的なインジケーターが異なります。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-p109">View the status of the user in the Skype for Business Online Control Panel. The visual indicator for on-premises users and online users is different.</span></span>
-
-- <span data-ttu-id="4f4f3-136">次のコマンドレットを実行します。</span><span class="sxs-lookup"><span data-stu-id="4f4f3-136">Run the following cmdlet:</span></span>
-
-  ```
-  Get-CsUser -Identity
-  ```
-
-
+[<span data-ttu-id="14c74-129">Move-CsUser</span><span class="sxs-lookup"><span data-stu-id="14c74-129">Move-CsUser</span></span>](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
