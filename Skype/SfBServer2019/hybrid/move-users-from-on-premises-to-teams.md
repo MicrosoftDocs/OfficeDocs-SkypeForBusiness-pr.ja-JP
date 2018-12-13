@@ -10,128 +10,100 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: '概要: は、ユーザー設定を移行し、チームにユーザーを移動する方法を説明します。'
-ms.openlocfilehash: af0867bfdc2e12a248baf7cc07746845154d27fd
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6bee0562b38ce3119306e23b11ea50ebdb8ac3e9
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533142"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244033"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>移動ユーザーがチームを設置
 
-ビジネス サーバー 2019 の Skype では、チームがこの資料で説明したように、オンプレミス ユーザーを移行できます。
+会社のホームに移動した設置型のオンラインと、ユーザー モードでは TeamsUpgradePolicy に割り当てられます、ユーザーが Skype のユーザーに移動した場合の社内チームだけに、TeamsOnly を = します。  ユーザー後から移動設置型 TeamsOnly モードにします。
 
-注意してくださいチームにユーザーを移動した後です。 
- 
-- 会議は、ビジネス オンラインでは、Skype に移行し、その連絡先は、チームに移行します。 
-- Skype のビジネスのリッチ クライアント (ユーザーの求められませんサインインするたびに)、または (1 回だけダウンロードしてサインインする必要があります) Skype 会議アプリケーションを通じて、Skype の会議に参加することができます。 ユーザーは、Skype のチーム内でのビジネス会議のリンクをクリックすると、会議が適切なアプリケーションの起動します。
+- すべての着信を呼び出し、他のユーザー (ビジネスやチームのために、Skype から送信) かどうかのチャット ユーザーのチームのクライアントで着陸します。
+- ユーザーは (オンラインまたは設置型) かどうかは、ビジネスの Skype を使用している他のユーザーと相互運用することになります。 
+- ユーザーはフェデレーション組織のユーザーと通信することになります。
+- そのユーザーが予定されている新規の会議は、チームの会議です。
+- ユーザーは、ビジネス会議のため、Skype にも参加できます。
+- Skype にはオンライン ビジネスの未来に予定されているユーザーの既存の会議を設置型から移行されます。
+- 施設内に存在していた連絡先は、最初にユーザーがログオンした後にすぐにチームで使用できます。
+- ユーザーが呼び出しまたはビジネス用の Skype のチャットを開始できませんも、ビジネスの Skype の新しい会議をスケジュールできます。 ビジネス クライアント用の Skype を開くしようとする場合は、チームを使用して、次のようにリダイレクトされます。 チームのクライアントがインストールされていない場合が、ブラウザーを使用するチームの web バージョンに表示されます。<br><br>
+    ![チームにユーザーをリダイレクトするメッセージ](../media/go-to-teams-page.png)
 
-- 携帯電話] で、ユーザーは既存の Skype のネイティブのアプリケーションだけを使用してビジネス ・ ミーティングに参加することになります。
+すべてのユーザーを移動する前に必ずユーザーをクラウドに移行する[前提条件](move-users-between-on-premises-and-cloud.md#prerequisites)を確認してください。 必ず[チームと、ビジネス用の Skype を使用する組織の移行と相互運用性](/microsoftteams/migration-interop-guidance-for-teams-with-skype)を確認してください。
 
-> [!NOTE]
-> TeamsOnly モードにユーザーを移動すると後、は、オンライン ビジネスの Skype のユーザーが配置されています。
+社内のチームからユーザーを移動する方法は 2 つです。
 
-## <a name="prerequisites-for-moving-on-premises-users-to-teams"></a>オンプレミス ユーザーをチームに移動するための前提条件 
+- ビジネス サーバー 2015 CU8 の Skype より前のバージョンを使用している場合、移動には、2 つの手順が必要な場合は、1 つのステップとして実行するスクリプト化できる) が必要です。
+    - [ビジネス上のサーバー (設置型) ビジネス オンラインの Skype に Skype からユーザーを移動](move-users-from-on-premises-to-skype-for-business-online.md)します。
+    - 取引をオンラインでは、TeamsUpgradePolicy モードでのユーザーを割り当てるために、Skype でユーザーのホームとは、TeamsOnly を = します。 TeamsOnly モードを許可するには、ビジネス オンラインの PowerShell ウィンドウで、Skype から次のコマンドレットを実行します。`Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams`
+- Skype ビジネス サーバー 2015 CU8 またはそれ以降の管理ツールを使っている場合、上記のメソッドを使用することができますか、次のように 1 つの手順では、この移動を行うことができます。 さらに、する、必要に応じてチームのみに移動する前にクライアントをビジネスの Skype 内で通知を提供するとともに必要に応じてビジネス クライアント用の Skype でサイレント モードでダウンロードしたチームのクライアントがあります。
 
-このセクションでは、オンプレミス ユーザーをチームに移動するための前提条件について説明します。 しなきゃいけません：
-- [ハイブリッド接続の設定](#set-up-hybrid-connectivity)(まだ行っていないため) 場合
-- [チームへの移行のユーザーに通知](#notify-your-users-of-the-move-to-teams)(省略可能)
-- [ユーザーが有効なライセンスを持っていることを確認します。](#make-sure-your-users-have-a-valid-license)
-- [音声の構成要件に注意してください。](#voice-configuration-requirements)
-- [チームのアップグレード ・ ポリシーを設定](#assign-a-teams-upgrade-policy)(省略可能)
+## <a name="move-a-user-directly-from-skype-for-business-on-premises-to-teams-only"></a>設置型のビジネス用の Skype から直接チームのみにユーザーを移動します。
 
-## <a name="set-up-hybrid-connectivity"></a>ハイブリッド接続を設定します。
-されていない場合に、ユーザーを移行する前に、ビジネス オンラインの Skype、Skype ビジネス サーバー設置環境の間のハイブリッドの接続を構成していることを確認する必要があります。 ハイブリッド接続は、Active Directory の同期など、フェデレーションを構成する必要があります。 詳細については、[ハイブリッドの接続を計画](plan-hybrid-connectivity.md)し、[ハイブリッド接続の構成](configure-hybrid-connectivity.md)を参照してください。
+CU8 を持つサーバー 2015 のビジネス用の Skype と Skype のビジネス サーバー 2019、設置管理ツールを使用すると、ビジネス Se の PowerShell で移動 CsUser コマンドレット、または、Skype のいずれかを使用して 1 つの手順でモードのチームだけに、設置型からユーザーを移動するにはした rver コントロール パネルで、次のようにします。
 
-## <a name="notify-your-users-of-the-move-to-teams"></a>チームへの移行のユーザーに通知します。 
-これは、いずれかを考慮する必要がありますが、オプションの手順です。 チームの保留中のアップグレードをユーザーに通知、設置型の TeamsUpgradePolicy、TeamsUpgradeConfiguration コマンドレットを使用します。 (Win32 クライアントのみ) をアップグレードする前にバック グラウンドでサイレントのチームの自動ダウンロードを構成することもできます。 
+### <a name="move-to-teams-using-move-csuser"></a>Csuser からの移動を使用するチームに移動します。
 
-などのチームにアップグレード中は、ユーザーに通知をするには、-NotifySbUser パラメーターを使用して設置 TeamsUpgradePolicy コマンドレットを使用します。 グローバル、サイト、プール、またはユーザー レベルでポリシーを設定できます。 次のコマンドを作成し、ユーザー レベル ポリシーを付与します。
- 
-```
-New-CsTeamsUpgradePolicy -Identity UpgradeNotice -NotifySfbUser $true 
-Grant-CsTeamsUpgradePolicy -Identity user01 -PolicyName “UpgradeNotice”
-```
+Csuser からの移動を指定する場合は、オンプレミス Skype のビジネス管理シェルの PowerShell ウィンドウで実行できます。 次の手順と必要なアクセス許可は、MoveToTeams スイッチを指定することもする必要があり、ユーザーも付与されているライセンス (ビジネス用の Skype の他のチームのことを確認する必要がありますが、ビジネス オンラインの Skype をユーザーの移動と同じオンライン)。
 
-Get csTeamsUpgradePolicy コマンドレットを使用して、このポリシーを確認できます。
+[管理者の資格情報が必要な](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)の説明に従って、オンプレミス環境と、Office 365 テナントの両方に十分な特権が必要です。 両方の環境で権限のある単一のアカウントを使用することができますか、または設置型の資格情報を持つビジネス サーバー管理シェル ウィンドウに、オンプレミス Skype を起動し、使用できます、 `-Credential` 、Office 365 の資格情報を指定するパラメーター必要な Office 365 管理者の役割を持つアカウント。
 
-間もなくチームへの移行の通知がユーザーに表示します。 通知は、(適切なバージョン) と、Win32、Mac、モバイル、および Web クライアントで発生します。
+Csuser からの移動を使用するモードのチームだけにユーザーを移動します。
 
-(Win32 クライアント) のチームの DownloadTeams パラメーターを使用してオンプレミス TeamsUpgradeConfiguration コマンドレットを使用して、アップグレード中のユーザーの自動ダウンロードを指定することができます。 テナント レベルでは、このポリシーを設定して、グローバル、サイトに適用することができ、レベルをプールします。 たとえば、次のコマンドでは、サイト レベルでポリシーを設定します。
+- 使用して移動するユーザーを指定します`Identity`パラメーター。
+- 指定ターゲット パラメーターを指定する値"sipfed.online.lync。<span>com"します。
+- 指定の`MoveToTeams`を切り替えます。
+- 設置型および Office 365 の両方のための十分なアクセス許可を持つ 1 つのアカウントがないを使用して、 `-credential` Office 365 のための十分な権限を持つアカウントを指定するパラメーターです。
+- 」On.microsoft で Office 365 にアクセス許可を持つアカウントが終わっていない場合。<span>com」、指定する必要があります、`-HostedMigrationOverrideUrl`で説明されているが[管理者の資格情報を必要](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)と正しい値を持つパラメーターです。
 
-```
-New-CsTeamsUpgradeConfiguration -Identity “site:redmond1” 
-```
+次のコマンドレットのシーケンスでは、TeamsOnly にユーザーを移動する使用することができ、Office 365 の資格情報は別のアカウントであり、取得の資格情報のプロンプトへの入力として提供されたと仮定しています。
 
-既定では、DownloadTeams の値は true の場合、ですが、NotifySfbUser を特定のユーザーのチームを有効にする場合は True に設定することもする必要があります。 
+    ```
+    $cred=Get-Credential
+    $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
+    Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -MoveToTeams -Credential $cred -HostedMigrationOverrideUrl $url
+    ```
 
-## <a name="make-sure-your-users-have-a-valid-license"></a>ユーザーが有効なライセンスを持っていることを確認します。  
-移行する前に、オンプレミス ユーザー必要がある有効なライセンスでは、次のように。
+### <a name="move-to-teams-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用するチームに移動します。
 
--   チームのライセンスが必要です。
--   ユーザーがオンプレミス エンタープライズ VoIP を使用するように構成されている場合を移動するとき、オンラインでのボイスのライセンスが必要です。 
--   設置型では、ダイヤルイン会議のユーザーを構成する場合 (クラウド PBX) の電話システムのライセンスが必要です。
+1.  ビジネス サーバー管理のため、Skype を開くパネルのアプリケーション。
+2.  左側のナビゲーションでは、**ユーザー**を選択します。
+3.  チームに移動したいユーザーを検索するには、**検索**を使用します。
+4.  、ユーザーを選択して、**アクション**ドロップダウン リストの上からクリックして**チームを選択したユーザーを移動**します。
+5.  ウィザードで、[**次へ**] クリックします。
+6.  メッセージが表示されたらにサインイン、Office 365 で終了するアカウントを使用しています。 onmicrosoft.com 十分なアクセス許可とします。
+7.  ユーザーを移動するのには**次へ**、し、[**次へ**1 つのより多くの時間をクリックします。
+8. ウィザードではなく、メインのコントロール パネルの [アプリケーションの上部に成功または失敗に関連するステータス メッセージが提供されることに注意してください。
 
-## <a name="voice-configuration-requirements"></a>音声の構成要件
+## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>チームへの移行は今後のビジネス、オンプレミスのユーザーは、Skype に通知します。
 
-オンプレミス ユーザーが設置型の音声を使用している場合、2 つのオプションがあります。
+CU8 を持つサーバー 2015 のビジネス用の Skype と Skype のビジネス サーバー 2019、設置管理ツールを使用すると、設置の Skype の予定を移動して、チームのビジネス ユーザー向けに通知します。 これらの通知を有効にすると、ユーザーは次のように (Win32、Mac、web、およびモバイル) のビジネス クライアント用の Skype に通知が表示されます。 インストールされている場合にチームのクライアントを起動する場合は、ユーザーが**それを実行してください**] をクリックしてそれ以外の場合、ユーザーは、自分のブラウザーのチームの web バージョンに移動します。 既定では、通知を有効にすると、Win32 の Skype ビジネス クライアントのサイレント モードでクライアントをダウンロード チーム チームのみのモードは、ユーザーを移動する前に利用可能なリッチ クライアントになるようただし、この現象も無効にすることができます。  設置型バージョンを使用して通知が構成されて`TeamsUpgradePolicy`、および Win32 クライアントのサイレント ダウンロードは、設置型を使用して制御`TeamsUpgradeConfiguration`コマンドレットです。
 
--  **テレフォニー機能を持つユーザーを移行します。** ユーザーとチームのクライアントを使用して呼び出しを受信できます。  Microsoft の計画を呼び出すか、直接ルーティングではチームに、テレフォニー サービスを接続するを選択することができます。  
+![チームへの今後の移行の通知](../media/teams-upgrade-notification.png)
 
-    -  クラウドをすべて音声ソリューションを提供する Microsoft の計画を呼び出します。 Microsoft の計画を呼び出すことの詳細については、(リンク準備中) を参照してください。 
-    -  直接ルーティングでは、事実上、PSTN トランクを使用することができ、お客様が所有する電話装置とマイクロソフトの電話システムとの間の相互運用性を構成することができます。  詳細については、[直接ルーティングを計画](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan)し、[直接ルーティングの構成](https://docs.microsoft.com/MicrosoftTeams/direct-routing-configure)を参照してください。
-
--  **テレフォニー機能のないユーザーを移行します。** テレフォニー機能を維持せずにユーザーを移行する場合は、ユーザーは、クラウドで適切なライセンスを持っていることを確認してください。 
-
-## <a name="assign-a-teams-upgrade-policy"></a>チームのアップグレード ・ ポリシーを設定します。  
-着信メッセージと呼び出しのルーティングを制御するのにようにユーザー ポリシーを管理するのには、オンライン ツールを使用できます。 詳細については、(リンク準備中) を参照してください。
-
-## <a name="move-on-premises-users-to-teams"></a>オンプレミス ユーザーをチームに移動します。
-
-PowerShell コマンドレットを使用するか、ビジネス サーバー 2019 のコントロール パネルの Skype を使用して、チームに、オンプレミスのユーザーを移動できます。
-
-### <a name="move-users-by-using-powershell"></a>PowerShell を使用してユーザーの移動
-チームにユーザーを移動するには、PowerShell を使用して、コマンドレットを使用する移動 CsUser moveToTeams パラメーターを使用して次のように。
+NotifySfBUsers と TeamsUpgradePolicy の新しいインスタンスを作成することではすぐにアップグレードするチームに、オンプレミスのユーザーに通知、true です。 ポリシーをユーザーに直接割り当てるか、サイト、プール、またはグローバル レベルでポリシーを設定することにより、通知を使用するユーザーにそのポリシーを割り当てます。 次のコマンドレットでは、作成し、ユーザー レベルのポリシーを付与します。
 
 ```
-Move-CsUser -Identity user0 -Target sipfed.online.lync.com -moveToTeams -credentials $cred. 
+New-CsTeamsUpgradePolicy -Identity EnableNotifications -NotifySfbUser $true 
+Grant-CsTeamsUpgradePolicy -Identity username@contoso.com -PolicyName EnableNotifications
 ```
 
-($cred = 資格情報の取得。 入力してください Office 365 管理者の資格情報です。)
+ビジネス Win32 クライアントの Skype を使用してチームの自動ダウンロードは、DownloadTeams パラメーターを使用して、オンプレミスの TeamsUpgradeConfiguration コマンドレットを使用して制御されます。 このグローバル構成、サイト、およびプールのレベルを作成します。 たとえば、次のコマンドでは、サイト Redmond1 の構成が作成されます。
 
-> [!NOTE]
-> このコマンドは、TeamsOnly モードを TeamsUpgradePolicy を設定します。 
- 
-チームへの移行が成功した後、ビジネス クライアント用のユーザーの Skype には、次のメッセージが表示されます。 
+`New-CsTeamsUpgradeConfiguration -Identity “site:redmond1”`
 
-![チーム メッセージ移行に成功しました](../media/teams-upgrade-complete-message.png)
+既定では、DownloadTeams の値は、True です。ただしは*のみ*場合は優先順位を付ける NotifySfbUser 特定のユーザーを指定します。
 
-ビジネス用の Skype がミーティングに参加する以外のユーザーに利用可能な不要になったされることに注意します。 
 
-まれに、チームにユーザーを移動する場合、ダイヤルイン会議をオーバーライドし、音声機能をクラウドにする場合があります。 Csuser からの移動コマンドを使用して次のパラメーターを使用してこれを行うことができます。
-- **BypassAudioConferencingCheck:** ユーザーのダイヤルイン会議機能を備えた、設置型の場合は、ユーザーには、AudioConf ライセンスを移行する前に Office 365 に割り当てられている必要があります。 クラウドへの移行、ユーザーがクラウドでの音声会議を準備します。 場合は、何らかの理由により、ユーザーをクラウドに移動するが、音声会議機能を使用するは、このパラメーターを指定することによってオーバーライドできます。
-- **ByPassEnterpriseVoice:** ユーザーのエンタープライズ VoIP の設置型の有効な場合は、ユーザーに Office 365 に移行する前に割り当てられたエンタープライズ VoIP のライセンスは必要です。 クラウドへの移行後の雲の中の音声をユーザーが準備されます。 場合は、何らかの理由により、ユーザーをクラウドに移行するが、クラウドの音声機能を使用して、このパラメーターを指定することでクラウドの音声をオーバーライドできます。
- 
-### <a name="move-users-by-using-the-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用して、ユーザーの移動 
+## <a name="see-also"></a>関連項目
 
-チームにユーザーを移動するには、ビジネス コントロール パネルに、Skype を使用します。
+[Csuser からの移動](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
 
-1. ビジネス コントロール パネルの Skype を開くし、Office 365 アカウントにサインインします。
+[許可 CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsupgradepolicy
+)
 
-2. 左側のナビゲーションでは、**ユーザー**を選択し、移行するユーザーを選択します。 
-     
-3. [**操作**] メニューで、**チームを選択したユーザーの移動**を選択します。 
+[Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
-    ![移行を確認するのには次へをクリックすると](../media/migration-confirmation.png)
-    
-4. [**次**への移行を確認] をクリックします。 
-
-チームにユーザーを移動すると後、は、次のような確認が表示されます。
-
-![移動ユーザーの確認](../media/move-user-confirmation.png)
-<br/><br/>
-![ユーザーが移動されているメッセージ](../media/users-moved-successfully.png)
-
-移動が正常に終了しない場合は、次のようなメッセージが表示されます。
-
-![メッセージにユーザーを移動できませんでした](../media/users-not-moved.png)
+[Skype for Business と共存する](/microsoftteams/coexistence-chat-calls-presence)

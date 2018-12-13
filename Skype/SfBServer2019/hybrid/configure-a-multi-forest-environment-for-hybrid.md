@@ -1,5 +1,5 @@
 ---
-title: ハイブリッド ビジネスの Skype の複数のフォレスト環境を構成します。
+title: リソース フォレストのトポロジを展開します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,32 +10,29 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 次のセクションでは、ハイブリッド シナリオでは、ビジネス機能のための Skype を提供するリソースとユーザーのフォレスト モデルでは複数のフォレストを持つ環境を構成する方法のガイダンスを提供します。
-ms.openlocfilehash: ef2b57d1f89e4d5479cacce57ce9a6c47c495f21
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2e9e3d9f1f6d276ff99ee1e346bb1812ef0c3ea7
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532432"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244012"
 ---
-# <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>ハイブリッド ビジネスの Skype の複数のフォレスト環境を構成します。
+# <a name="deploy-a-resource-forest-topology"></a>リソース フォレストのトポロジを展開します。
  
 次のセクションでは、ハイブリッド シナリオでは、ビジネス機能のための Skype を提供するリソースとユーザーのフォレスト モデルでは複数のフォレストを持つ環境を構成する方法のガイダンスを提供します。 
   
 ![ハイブリッド用のマルチ フォレスト環境](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
   
-## <a name="validate-the-forest-topology"></a>フォレストのトポロジを検証します。
+## <a name="topology-requirements"></a>トポロジ要件
 
 複数のユーザー フォレストがサポートされます。 以下の点について留意してください。 
-  
-- フォレストのユーザーの 1 つまたは複数のユーザーのフォレストの展開は、Skype ビジネス サーバー用の単一の展開が必要があります。
     
-- ハイブリッド構成でサポートされているバージョンの Lync Server および Skype ビジネス サーバーは、 [Skype ビジネス サーバーと Office 365 の間のハイブリッド接続の計画](plan-hybrid-connectivity.md)では、[トポロジの要件](plan-hybrid-connectivity.md#BKMK_Topology)を参照してください。
+- ハイブリッド構成でサポートされているバージョンの Lync Server および Skype ビジネス サーバーは、 [Skype ビジネス サーバーと Office 365 の間のハイブリッドの接続を計画](plan-hybrid-connectivity.md)することで[サーバー バージョンの要件](plan-hybrid-connectivity.md#server-version-requirements)を参照してください。
     
 - ビジネス サーバーの Skype を含むフォレストを含めることはできませんが 1 つまたは複数のフォレストで Exchange Server を展開できます。 最新の累積的な更新プログラムを適用することを確認します。
     
 - オンプレミスとオンラインのさまざまな組み合わせに関するサポートの条件および制限を含む、Exchange Server との共存に関する詳細については、[Plan to integrate Skype for Business and Exchange](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md) の「[機能のサポート](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)」を参照してください。
     
-詳細については、[システム要件](../plan/system-requirements.md)を参照してください。
   
 ## <a name="user-homing-considerations"></a>ユーザーの所属に関する考慮事項
 
@@ -43,7 +40,7 @@ Skype ホーム設置型またはオンラインの Exchange を持つことが�
   
 ## <a name="configure-forest-trusts"></a>フォレストの信頼を構成します。
 
-必要な信頼は、リソース フォレストと各ユーザー フォレストの間の双方向の推移的な信頼です。 複数のユーザー フォレストがある場合、クロス フォレスト認証を有効にするには、これらのフォレストの信頼のそれぞれに名前サフィックス ルーティングを有効にすることが重要です。 手順については、「[フォレストの信頼を管理する](https://technet.microsoft.com/en-us/library/cc772440.aspx)」を参照してください。 
+リソース フォレスト トポロジでは、Skype をビジネスのサーバーのホストのリソース フォレストは、それにアクセスするユーザーのアカウントが含まれている各アカウント フォレストを信頼しなければなりません。 複数のユーザー フォレストがある場合、クロス フォレスト認証を有効にするには、これらのフォレストの信頼のそれぞれに名前サフィックス ルーティングを有効にすることが重要です。 手順については、「[フォレストの信頼を管理する](https://technet.microsoft.com/en-us/library/cc772440.aspx)」を参照してください。 Exchange Server を別のフォレストに展開があり、ビジネス ユーザーに Skype の機能を提供、フォレストの Exchange をホストしているは Skype ビジネス サーバーをホストしているフォレストを信頼する必要があります。 などの場合、Exchange は、アカウント フォレストに展開した、効果的につまり、その構成でビジネスのフォレストのアカウントと Skype との間の双方向の信頼が必要です。
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>ビジネス用の Skype をホストしているフォレストにアカウントを同期します。
 
@@ -94,9 +91,9 @@ AD FS ファームを各ユーザー フォレストに配置し、フォレス�
   
 ## <a name="configure-aad-connect"></a>AAD Connect の構成
 
-AAD Connect は、さまざまなフォレストの間、およびフォレストと Office 365 の間でアカウントをマージするために使用します。AAD Connect はリソース フォレストに展開することをお勧めします。複数のフォレストと Office 365 を同期できる必要がありますが、これは Dirsync ではサポートされていません。 
-  
-AAD Connect では、オンプレミス フォレスト間でアカウントが同期されません。AD コネクタを使用して、(FIM やそれと類似した製品により) オンプレミス フォレスト間で既に同期されているオブジェクトが読み取られます。次に、フィルター規則を利用して、メタバース内の対応する有効であるオブジェクトと無効であるオブジェクトの両方の単一表現が作成され、その単一のマージ済みオブジェクトが Office 365 にレプリケートされます。 
+リソース フォレストのトポロジで Azure AD に、リソース フォレストとすべてのアカウント フォレスト (s) の両方からのユーザーの属性が同期されていることが必要でした。 これを行う最も推奨される方法では、Azure の AD 接続を同期し、*すべて*のフォレストのユーザー アカウントを有効にしてビジネスの Skype の入っているフォレストからのユーザーの id をマージします。 詳細を参照してください、 [Skype のビジネスとチームの構成の Azure AD の接続](configure-azure-ad-connect.md)です。
+
+AAD の接続は提供しないこと同期アカウントとリソース フォレスト間での設置に注意してください。 構成しなければなりませんとは別に Microsoft ユーザー マネージャーまたは同様の製品を使用する前に説明しました。
   
 処理が完了して AAD Connect でマージされている途中にメタバースのオブジェクトを調べると、次のような画面が表示されます。 
   

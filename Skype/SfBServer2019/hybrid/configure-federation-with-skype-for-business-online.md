@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: '概要: は、オンライン ビジネスの設置型展開と Skype との間の相互運用性を構成する方法について説明します。'
-ms.openlocfilehash: db03636d412caa72a3b7a38d0c1d691c83d96a5b
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: b71ea92b5f7ce275dc5d1b5d2b7ece5be3c77ffc
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532778"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244005"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>Skype をビジネスのハイブリッドを構成します。
 
@@ -25,8 +25,7 @@ ms.locfileid: "26532778"
 - [オンプレミス環境に Office 365 を信頼するを構成し、Office 365 との共有 SIP アドレス スペースを有効にします。](#configure-your-on-premises-environment-to-share-your-SIP-address-space-with-Office-365)
 - [Office 365 テナント内の共有 SIP アドレス スペースを有効にします。](#configure-server-to-server-authentication-if-required)
 
-> [!NOTE]
-> Exchange 設置がある場合は、する可能性がある場合は、オンライン ビジネス環境の Exchange の設置型と Skype の OAuth を構成するのには。 詳細については、 [Skype のビジネス サーバーの管理サーバーからサーバーへの認証](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications)と[ビジネスとの交換用 Skype を統合する計画](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support)を参照してください。 
+Exchange の設置型の場合は、可能性があるオンライン ビジネス環境の Exchange の設置型と Skype の OAuth を構成するのには注意してください。 詳細については、 [Skype のビジネス サーバーの管理サーバーからサーバーへの認証](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications)と[ビジネスとの交換用 Skype を統合する計画](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support)を参照してください。 
   
 ## <a name="configure-your-on-premises-edge-service-to-federate-with-office-365"></a>Office 365 とフェデレーションを行うには、設置端サービスを構成します。
 

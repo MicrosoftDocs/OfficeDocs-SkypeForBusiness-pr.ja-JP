@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: ハイブリッド環境で Azure AD 接続の構成方法の詳細については。
-ms.openlocfilehash: c2a57f9b58d88274dde8f9218faddabdee4342be
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 5d27de4786c588d5d2f2a276dc20c25436bada98
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26536056"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244117"
 ---
 # <a name="configure-azure-ad-connect-for-skype-for-business-and-teams"></a>Azure を構成するビジネスとチームの AD が Skype の接続 
  
@@ -35,9 +35,9 @@ Azure Active Directory 接続すると、Office 365 と同期して継続的に�
 
 1. 単一フォレスト、権限のあるユーザーの id が含まれていますし、Skype をビジネスのサーバーをホストします。 
 
-2. Skype をビジネスのサーバーのホストの 1 つだけ、複数のフォレストと 1 つまたは複数他のフォレストに権限のあるユーザーの id が含まれています。 
+2. Skype をビジネスのサーバーのホストの 1 つだけ、複数のフォレストと 1 つまたは複数他のフォレストに権限のあるユーザーの id (アカウント フォレスト) が含まれています。 
 
-3. Skype の複数の展開の複数のフォレスト内のビジネスのサーバーです。 この複雑なシナリオのサポートはまもなく発表されます。
+3. Skype の複数の展開の複数のフォレスト内のビジネスのサーバーです。 特定の要件を満たしていれば、組織は 1 つの Office 365 テナントにこれら複数の展開を統合できます。
 
 ### <a name="single-forest"></a>単一のフォレスト 
 
@@ -58,7 +58,7 @@ Azure Active Directory 接続すると、Office 365 と同期して継続的に�
 
 ### <a name="multiple-skype-for-business-server-deployments-in-multiple-forests"></a>ビジネス サーバー展開では複数のフォレストに複数の Skype 
 
-マイクロソフトすぐに 1 つのオンラインのテナントにビジネスのフォレストの複数の Skype を同期するためのサポートを発表する 1 つだけの展開は、ハイブリッド モードを任意の時点での時間指定です。 詳細については準備中です。 
+このシナリオでは、複数のフォレスト、それぞれ含まれている Skype をビジネス サーバー、および 1 つの Office 365 テナントがあります。  ビジネスのサーバーの Skype を含む各フォレストは、AAD の接続を使用してテナントの Azure AD に同期できます。 多くても 1 つのフォレストを構成できます Skype のビジネスのハイブリッドの特定の時点で。 フォレスト内のハイブリッドを有効にする前に他のすべてのフォレストからのすべての SIP ドメインする必要があります無効にする[無効にする csonlineSipDomain](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain)を使用します。 Office 365 にこのような環境を統合する方法の詳細については、[チームおよびビジネス用の Skype のためのクラウドの統合](cloud-consolidation.md)を参照してください。
 
 ## <a name="general-requirements"></a>全般的な要件 
 

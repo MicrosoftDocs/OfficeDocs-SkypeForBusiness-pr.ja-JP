@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 960ab8a3-352d-4b18-bc01-55b35f30ca0d
 description: 次のセクションでは、ハイブリッド シナリオでは、ビジネス機能のための Skype を提供するリソースとユーザーのフォレスト モデルでは複数のフォレストを持つ環境を構成する方法のガイダンスを提供します。
-ms.openlocfilehash: ca3cd4bfe324690c41fbd045af967e57cab5fe36
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 0c5e3e25e8ba9ae5b044093be53f25a37db28525
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531553"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244019"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>ハイブリッド ビジネスの Skype の複数のフォレスト環境を構成します。
  
@@ -49,7 +49,7 @@ Skype ホーム設置型またはオンラインの Exchange を持つことが�
   
 ## <a name="configure-forest-trusts"></a>フォレストの信頼の構成
 
-必要な信頼は、リソース フォレストと各ユーザー フォレストの間の双方向の推移的な信頼です。 複数のユーザー フォレストがある場合、クロス フォレスト認証を有効にするには、これらのフォレストの信頼のそれぞれに名前サフィックス ルーティングを有効にすることが重要です。 手順については、「[フォレストの信頼を管理する](https://technet.microsoft.com/en-us/library/cc772440.aspx)」を参照してください。 
+必要な信頼は、リソース フォレストと各ユーザー フォレストの間の双方向の推移的な信頼です。 複数のユーザー フォレストがある場合、クロス フォレスト認証を有効にするには、これらのフォレストの信頼のそれぞれに名前サフィックス ルーティングを有効にすることが重要です。 手順については、「[フォレストの信頼を管理する](https://technet.microsoft.com/en-us/library/cc772440.aspx)」を参照してください。 Exchange Server を別のフォレストに展開があり、ビジネス ユーザーに Skype の機能を提供、フォレストの Exchange をホストしているは Skype ビジネス サーバーをホストしているフォレストを信頼する必要があります。 などの場合、Exchange は、アカウント フォレストに展開した、効果的につまり、ビジネスのフォレストのアカウントと Skype との間の双方向の信頼がその構成に必要であります。
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>ビジネス用の Skype をホストしているフォレストにアカウントを同期します。
 

@@ -16,7 +16,7 @@
 ##### [設置型のエンタープライズ VoIP のユーザーを有効にします。](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md)
 ##### [音声ルーティング ポリシーの割り当て](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/assign-a-voice-routing-policy.md)
 ##### [ユーザーとクラウドを同期してライセンスを割り当てる](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/synchronize-users-to-the-cloud-and-assign-licenses.md)
-##### [ビジネス オンラインの Skype に、オンプレミスのユーザーを移動します。](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/move-on-premises-users-to-skype-for-business-online.md)
+##### [ビジネス オンラインの Skype に、オンプレミスのユーザーを移動します。](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/move-on-premises-users-to-skype-for-business-online.md) 
 ##### [エンタープライズ VoIP のオンラインおよび電話システムのボイス メールのユーザーを有効にします。](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md)
 #### [ビジネス クラウド コネクタ ・ エディションの Skype を計画します。](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)
 ##### [Cloud Connector エディション PSTN サイトの計画](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-cloud-connector-edition-pstn-sites.md)

@@ -9,78 +9,50 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
-description: '概要: は、ユーザー設定を移行し、オンライン ビジネスの Skype ユーザーを移動する方法を説明します。'
-ms.openlocfilehash: 9fd51c55be35e55be6ca837ccb72413043283ac7
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+description: Skype をビジネス オンラインのユーザーを移動する方法について説明します。
+ms.openlocfilehash: 083f2f52fd07439d85d017db9c4b035b8ea326b6
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "25030750"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27243998"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>ユーザーをオンプレミスから Skype for Business Online に移動する
 
-**の概要:** ユーザー設定を移行し、オンライン ビジネスの Skype ユーザーを移動する方法について説明します。
+移動した後、ユーザー設置から Skype オンライン ビジネスのユーザーと対話する Skype オンライン ビジネスの機能をします。 設置型に存在していた取引先担当者は、ビジネス オンラインの Skype で利用可能ななりビジネス オンラインの Skype のリンクをポイントするように将来のユーザーが構成されて、既存の会議の更新されます。 オーディオ会議で、ユーザーが有効な場合、会議はダイヤルインの座標も含まれます。  ビジネス オンラインの Skype をオンプレミス環境からユーザーを移動するには、設置型のツールは、両方とも、ビジネス サーバー コントロール パネルの移動 CsUser コマンドレット、または、Skype のいずれかを使用します。 
 
-Office 365 にユーザーを実際に移動するには、前に、ユーザー アカウントは、クラウドに同期され、ライセンスを割り当てることを確認する必要があります。 この操作には、Office 365 管理センターを使用します。
+すべてのユーザーを移動する前に必ずユーザーをクラウドに移行する[前提条件](move-users-between-on-premises-and-cloud.md#prerequisites)を確認してください。
+ 
+## <a name="move-users-with-move-csuser"></a>Csuser からの移動でユーザーの移動 
 
-### <a name="to-confirm-that-an-on-premises-user-account-has-been-synchronized-with-office-365"></a>オンプレミス ユーザー アカウントが Office 365 と同期していることを確認するには
+Csuser からの移動を指定する場合は、オンプレミス Skype のビジネス管理シェルの PowerShell ウィンドウで実行できます。 [管理者の資格情報が必要](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)で説明したように両方設置環境にも、Office 365 テナントのように十分な特権が必要です。 両方の環境で権限のある単一のアカウントを使用することができますか、または設置型の資格情報を持つビジネス サーバー管理シェル ウィンドウに、オンプレミス Skype を起動し、使用できます、 `-Credential` 、Office 365 の資格情報を指定するパラメーター必要な Office 365 管理者の役割を持つアカウント。
 
-1. テナント管理者のアカウントを使用して、テナントの Office 365 の管理ページを開きます。  テナント管理者のアカウントは、Office 365 でこの機能を実行するのにはビジネス管理者の役割とユーザー管理の役割 (または、グローバル管理者ロール) の両方の Skype に付与してください。
+オンラインにユーザーを移動する移動 CsUser を使用します。
 
-2. 左側のナビゲーション ウィンドウで、[**ユーザー**] をクリックし、[**アクティブ ユーザ**] をクリックします。
+- Id パラメーターを使用して移動するユーザーを指定します。
+- 指定ターゲット パラメーターを指定する値"sipfed.online.lync。<span>com"します。
+- 設置型および Office 365 の両方のための十分なアクセス許可を持つ 1 つのアカウントがないを使用して、Office 365 のための十分な権限を持つアカウントを指定するには、資格情報パラメーターです。
+- 」On.microsoft で Office 365 にアクセス許可を持つアカウントが終わっていない場合。<span>com」、[ために必要な管理者資格情報](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)で説明するよう、正しい値を持つ、- HostedMigrationOverrideUrl パラメーターを指定する必要があり、。
 
-3. [**ユーザーの検索**] をクリックして、ユーザーの名前を入力します。
-
-4. ユーザーを参照してください、それらの状態が**Active Directory に Synched**を確認します。
-
-    ユーザーがまだ同期されていない場合は、3 時間以内に次の自動同期が実行されます。 早く同期を強制的にすることもできます。 詳細については、[ディレクトリ同期の強制](https://msdn.microsoft.com/en-us/library/azure/jj151771.aspx)を参照してください。
-
-Office 365 のライセンスを割り当てるには、[ビジネス向けの Office 365 のユーザーにライセンスを割り当てる](https://support.office.com/en-us/article/Assign-or-unassign-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc)を参照してください。
-
-## <a name="migrate-user-settings-to-skype-for-business-online"></a>Skype をオンライン ビジネスのユーザー設定を移行します。
-
-Skype をビジネス オンラインのユーザーを移行する前に移動するアカウントに関連付けられたユーザー データをバックアップしてください。 ユーザー アカウントと共にすべてのユーザー データが移動されるわけではありません。 についてを参照してください[のバックアップと復元の要件: データ](https://technet.microsoft.com/library/ecfb8e4d-cb4f-476d-9772-4486bd683c04.aspx)。
-
-ユーザー設定は、ユーザー アカウントと共に移動されます。いくつかのオンプレミス設定は、ユーザー アカウントと共に移動されることはありません。
-
-## <a name="move-pilot-users-to-skype-for-business-online"></a>ビジネス オンラインの Skype をパイロット ユーザーの移動
-
-Skype をビジネス オンラインのユーザーを移動する前に、環境が正しく構成されていることを確認するのには、いくつかのパイロット ユーザーを移動することがあります。 その他のユーザーを移動する前に、機能とサービス機能が予想どおりであることを確認できます。
-
-オンライン ビジネスのテナントの Skype に、オンプレミスのユーザーを移動するには、ビジネス サーバー管理シェルを管理者の資格情報を使用して、Microsoft Office 365 のテナントのため、Skype で次のコマンドレットを実行します。 "Username@contoso.com"を移動したいユーザーの情報に置き換えます。
+次のコマンドレットのシーケンスは、Skype をビジネス オンラインでのユーザーを移動する使用することができ、Office 365 の資格情報は別のアカウントであり、取得の資格情報のプロンプトへの入力として提供されたと仮定しています。
 
 ```
-$creds=Get-Credential
+$cred=Get-Credential
+$url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
+ 
+Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $cred -HostedMigrationOverrideUrl $url
 ```
+## <a name="move-users-with-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype でユーザーを移動します。 
 
-```
-Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds
-```
+1. ビジネス サーバー管理のため、Skype を開くパネルのアプリケーション。
+2. 左側のナビゲーションでは、**ユーザー**を選択します。
+3. **検索**を使用すると、Skype のビジネスをオンラインに移動したいユーザーを検索できます。
+4. 、ユーザーを選択して、**アクション**ドロップダウン リストの上からクリックして**Skype オンライン ビジネス用に選択したユーザーを移動**します。
+5. ウィザードで、[**次へ**] クリックします。
+6. メッセージが表示されたらにサインイン、Office 365 で終了するアカウントを使用しています。 onmicrosoft.com 十分なアクセス許可とします。
+7. ユーザーを移動するのには**次へ**、し、[**次へ**1 つのより多くの時間をクリックします。
+8. ウィザードではなく、メインのコントロール パネルの [アプリケーションの上部に成功または失敗に関連するステータス メッセージが提供されることに注意してください。
 
-## <a name="move-users-to-skype-for-business-online"></a>Skype for Business Online にユーザーを移動する
+## <a name="see-also"></a>関連項目
 
-[Get CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)コマンドレットを使用して複数のユーザーを移動することができます、RegistrarPool などのユーザー アカウントに割り当てられている特定のプロパティを使用してユーザーを選択するフィルター パラメーターを使用します。 コマンドレットにパイプ[移動 CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser?view=skype-ps)コマンドレットでは、返されるユーザーは、次の例に示すように。
-
-```
-Get-CsUser -Filter {UserProperty -eq "UserPropertyValue"} | Move-CsUser -Target sipfed.online.lync.com -Credential $creds
-```
-
-次の例に示すように、指定した OU 内のすべてのユーザーを取得するために OU パラメーターを使用できます。
-
-```
-Get-CsUser -OU "cn=hybridusers,cn=contoso.." | Move-CsUser -Target sipfed.online.lync.com -Credentials $creds
-```
-
-## <a name="verify-online-user-settings-and-features"></a>オンライン ユーザーの設定と機能を確認する
-
-ユーザーの移動が正常に完了したことは、次の方法で確認できます。
-
-- Skype for Business Online コントロール パネルでユーザーの状態を表示します。オンプレミス ユーザーとオンライン ユーザーでは視覚的なインジケーターが異なります。
-
-- 次のコマンドレットを実行します。
-
-  ```
-  Get-CsUser -Identity
-  ```
-
-
+[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)

@@ -9,13 +9,28 @@
 
 ## チームおよびビジネス用の Skype のためのハイブリッド ソリューション
 ### [ハイブリッド接続を計画します。](../hybrid/plan-hybrid-connectivity.md)
+
 ### [ハイブリッド接続を設定します。](../hybrid/configure-hybrid-connectivity.md)
 #### [ハイブリッド環境向けの Azure AD 接続を構成します。](../hybrid/configure-azure-ad-connect.md)
 #### [Skype をビジネスのハイブリッドを構成します。](../hybrid/configure-federation-with-skype-for-business-online.md)
-#### [複数のフォレスト環境を構成します。](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
-### [オンライン ビジネスのユーザーを設置から Skype に移動します。](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
-### [移動ユーザーがチームを設置](../hybrid/move-users-from-on-premises-to-teams.md)
-### [Exchange や SharePoint と統合する](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+
+### [オンプレミスとクラウドの間でユーザーの移動](../hybrid/move-users-between-on-premises-and-cloud.md)
+#### [移動ユーザーがチームを設置](../hybrid/move-users-from-on-premises-to-teams.md)
+#### [ユーザーをオンプレミスから Skype for Business Online に移動する](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
+#### [移動ユーザーが社内のクラウドに](../hybrid/move-users-from-the-cloud-to-on-premises.md)
+#### [会議の移行を管理します。](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+
+### [ハイブリッド クラウドへの移行を完了するを無効にします。](../hybrid/cloud-consolidation-disabling-hybrid.md)
+
+### [リソース フォレストのトポロジを展開します。](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
+
+### [チームおよびビジネス用の Skype のためのクラウドの統合](../hybrid/cloud-consolidation.md)
+#### [エッジの証明書を更新します。](../hybrid/cloud-consolidation-edge-certificates.md)
+
+#### [AAD は、複数のフォレストを含むように接続を更新します。](../hybrid/cloud-consolidation-aad-connect.md)
+
+### [Exchange と SharePoint との統合](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/hybrid/hybrid/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/breadcrumb/toc.json)
+
 
 ## 計画
 ### [トポロジの基本](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
