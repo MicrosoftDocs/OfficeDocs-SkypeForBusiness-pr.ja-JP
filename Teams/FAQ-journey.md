@@ -8,27 +8,27 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Skype for Business Online から Microsoft Teams へのアップグレードによる移行に関してよく寄せられる質問を次に示します。
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 249437f35974a581ccc95512ccdf4f9baf246dfc
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
-ms.translationtype: MT
+ms.openlocfilehash: 5413f09d405910bd01155dc84f2b7741ff9ddaf9
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201390"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240702"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>よくあるご質問 - Skype for Business から Microsoft Teams への移行
 
 > [!Tip]
-> マイクロソフトのチームには、ビジネスの Skype からのアップグレードの詳細については、次のセッションを確認してください。 
+> Skype for Business から Microsoft Teams へのアップグレードについては、次のセッションをご覧ください。 
 > - [アップグレードの概要](https://aka.ms/teams-upgrade-intro)
-> - [アップグレードを計画します。](https://aka.ms/teams-upgrade-plan)
-> - [共存と相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)
-> - [管理者の経験](https://aka.ms/teams-upgrade-admin)
+> - [アップグレードの計画](https://aka.ms/teams-upgrade-plan)
+> - [共存および相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [管理者のエクスペリエンス](https://aka.ms/teams-upgrade-admin)
 
 
 ## <a name="intelligent-communications-vision"></a>インテリジェント コミュニケーション ビジョン
