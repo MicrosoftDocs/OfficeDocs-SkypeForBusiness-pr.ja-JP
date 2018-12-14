@@ -9,14 +9,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: ハイブリッド環境で Azure AD 接続の構成方法の詳細については。
-ms.openlocfilehash: 5d27de4786c588d5d2f2a276dc20c25436bada98
-ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
+ms.openlocfilehash: a63f5bde6db1f9d04e2a1fbf03dd4434d1b7c8b3
+ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "27244117"
+ms.lasthandoff: 12/14/2018
+ms.locfileid: "27264926"
 ---
-# <a name="configure-azure-ad-connect-for-skype-for-business-and-teams"></a>Azure を構成するビジネスとチームの AD が Skype の接続 
+# <a name="configure-azure-ad-connect-for-teams-and-skype-for-business"></a>Azure を構成する AD がビジネスのチームと Skype の接続
  
 Skype ビジネス サーバー (または、Lync Server) の設置があり、オンライン ビジネスのチームまたは Skype のいずれかを使用する計画は人の組織はこれで説明するよう Office 365 では、その設置ディレクトリと同期するのには、Azure の AD 接続を構成しなければなりませんドキュメント。  チーム設置型のビジネスに Skype から直接移動する組織が含まれます。 具体的には、Skype で設置型のビジネスの組織では、Azure AD に適切な msRTCSIP の属性が同期されている必要がありますを確認します。 
 

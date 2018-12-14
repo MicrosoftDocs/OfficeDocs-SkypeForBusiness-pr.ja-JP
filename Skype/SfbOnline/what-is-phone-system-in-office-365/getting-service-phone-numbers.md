@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers.
-ms.openlocfilehash: c16f80af9f7d7e530fb56dca2ef1ad2d51f1f1f6
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6f17065398ad3801bf4cf038865d687a56b2505c
+ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374903"
+ms.lasthandoff: 12/14/2018
+ms.locfileid: "27264838"
 ---
 # <a name="getting-service-phone-numbers"></a>サービスの電話番号の取得
 
@@ -50,7 +50,7 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. ** [Office 365 管理センター] ** > ** [Skype for Business]** に移動します。
+2. **管理センター**を参照して > **のチームと Skype** > **Skype レガシ管理**します。
     
 3. 左側のナビゲーションでは、**音声**に移動 > **電話番号** > **新しい番号を追加**し、**新しいサービスの番号**をクリックします。
     

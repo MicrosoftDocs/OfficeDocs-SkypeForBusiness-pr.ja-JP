@@ -36,7 +36,7 @@
 | 2018 年 11 月 7 日 | [Microsoft Teams で会議を展開する](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | 追加 |
 | 2018 年 11 月 7 日 | [Microsoft Teams を展開する](/MicrosoftTeams/deploy-microsoft-teams-landing-page) | 追加 |
 | 2018 年 11 月 7 日 | [Microsoft Teams で音声を展開する](/MicrosoftTeams/deploy-voice-microsoft-teams-landing-page) | 追加 |
-| 2018 年 11 月 7 日 | [Microsoft Teams の使用を開始する](/MicrosoftTeams/get-started-microsoft-teams-landing-page) | 追加 |
+| 2018 年 11 月 7 日 | [Microsoft Teams の使用を開始する](/MicrosoftTeams/get-started-with-teams-landing-page) | 追加 |
 | 2018 年 11 月 7 日 | [Microsoft Teams に対する組織の準備状況について](/MicrosoftTeams/teams-adoption-assess-readiness) | 追加 |
 | 2018 年 11 月 7 日 | [Microsoft Teams のチャンピオン プログラムを作成する](/MicrosoftTeams/teams-adoption-create-champions-program) | 追加 |
 | 2018 年 11 月 7 日 | [Microsoft Teams の導入の結果と成功を定義する](/MicrosoftTeams/teams-adoption-define-outcomes) | 追加 |
@@ -88,7 +88,7 @@
 | 2018 年 11 月 12 日 | [Microsoft Teams へのユーザー アクセスを管理する](/MicrosoftTeams/user-access) | 修正 |
 | 2018 年 11 月 12 日 | [Microsoft Teams でのデバイスを管理する](/MicrosoftTeams/device-management) | 修正 |
 | 2018 年 11 月 13 日 | [Microsoft Teams を導入する](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | 追加 |
-| 2018 年 11 月 13 日 | [Microsoft Teams の使用を開始する](/MicrosoftTeams/get-started-microsoft-teams-landing-page) | 追加 |
+| 2018 年 11 月 13 日 | [Microsoft Teams の使用を開始する](/MicrosoftTeams/get-started-with-teams-landing-page) | 追加 |
 | 2018 年 11 月 13 日 | [Microsoft Teams で最初のチームとチャネルを作成する](/MicrosoftTeams/get-started-with-teams-create-your-first-teams-and-channels) | 追加 |
 | 2018 年 11 月 13 日 | [Microsoft Teams の使用を開始する](/MicrosoftTeams/get-started-with-teams-landing-page) | 追加 |
 | 2018 年 11 月 13 日 | [Microsoft Teams での使用状況とフィードバックを監視する](/MicrosoftTeams/get-started-with-teams-monitor-usage-and-feedback) | 追加 |
