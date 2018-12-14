@@ -13,16 +13,16 @@ ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33791cc16a7d2a45e16a41e4dfefe0efff8534b1
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 4c21eb588b899c6a0b4acd4e25eb79d54750e956
+ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699663"
+ms.lasthandoff: 12/14/2018
+ms.locfileid: "27264911"
 ---
 # <a name="adopt-microsoft-teams"></a>Microsoft Teams を導入する
 
-小規模な事業を行う場合、またはチャットを開始するチームを展開する場合は、チームとチャネル、および会議をすると高速に実行するよう設計されていますが、クイック スタートの規範的なガイダンスを使用します。 ハイブリッドと大規模な組織の場合または設置 Skype ビジネス構成の場合は、またはボイス機能を展開する場合は、(Office 365 プランまたは電話システムを呼び出すこと) など、クイック スタート ガイドで起動できますが、追加する必要があります**採用ガイダンスのより深いレベル**で、下のガイダンスです。
+あなたがスモール ビジネスの場合、またはチャットを開始するチームを展開する場合は、チームとチャネル、および会議を使用して、規範的な[を取得ガイダンスを開始](get-started-with-teams-landing-page.md)、すばやく準備して実行するために設計されていますが。 ハイブリッドと大規模な組織の場合またはオンプレミス Skype のビジネスの構成で起動することができます (Office 365 のプランや電話システムを呼び出すこと) などの音声機能を展開する場合は、または、はじめにガイダンスでは、追加する必要があります**採用ガイダンスのより深いレベル**で、下のガイダンスです。
 
 <ul class="panelContent cardsFTitle">
     <li>

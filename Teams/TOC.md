@@ -96,7 +96,7 @@
 
 
 <!-- ============================================================ -->
-# [チームにビジネス用の Skype からのアップグレード](Journey-SkypeforBusiness-Teams.md)
+# [Skype for Business から Teams へのアップグレード](Journey-SkypeforBusiness-Teams.md)
 ## [チュートリアル: Skype for Business から Teams への移行](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [基本的なアップグレードします。](upgrade-basic.md)
 ### [サンプルの電子メールやアンケート](upgrade-emails-surveys.md)
@@ -500,6 +500,7 @@
 #### [電話システム ボイスメールをセットアップする](set-up-phone-system-voicemail.md)
 #### [電話システムの自動応答について](what-are-phone-system-auto-attendants.md)
 #### [自動アテンダントが応答し、チームから直接キューの呼び出しを呼び出す](answer-auto-attendant-and-call-queue-calls.md)
+#### [マイクロソフトのチームでの共通領域電話を設定します。](set-up-common-area-phones.md)
 ### 電話システムの直接のルーティング
 #### [ダイレクト ルーティングを計画する](direct-routing-plan.md)
 #### [直接ルーティングを構成する](direct-routing-configure.md)
