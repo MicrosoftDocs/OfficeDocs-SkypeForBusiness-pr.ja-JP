@@ -501,6 +501,9 @@
 #### [電話システムの自動応答について](what-are-phone-system-auto-attendants.md)
 #### [自動アテンダントが応答し、チームから直接キューの呼び出しを呼び出す](answer-auto-attendant-and-call-queue-calls.md)
 #### [マイクロソフトのチームでの共通領域電話を設定します。](set-up-common-area-phones.md)
+#### [コール パークおよび取得](call-park-and-retrieve.md)
+#### [共有とグループのコール ピックアップします。](call-sharing-and-group-call-pickup.md)
+#### [共有行の外観](shared-line-appearance.md)
 ### 電話システムの直接のルーティング
 #### [ダイレクト ルーティングを計画する](direct-routing-plan.md)
 #### [直接ルーティングを構成する](direct-routing-configure.md)

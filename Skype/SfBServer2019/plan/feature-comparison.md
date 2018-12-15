@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: '概要: どのような機能がどのクライアントでサポートされているを理解するのにこれらのテーブルを使用できるは、ビジネス サーバー 2019 の Skype または Skype オンライン ビジネス管理者の。'
-ms.openlocfilehash: 9d19920e16a6b9ffbeab0d1d3597fadf8a4a48b9
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c7933e37582314db431c14c99a188d4b962cadf7
+ms.sourcegitcommit: f69b5dbdbd61f77ffc0494886516effe35a0c338
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371321"
+ms.lasthandoff: 12/15/2018
+ms.locfileid: "27282595"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype のデスクトップ クライアントの機能の比較
 
@@ -29,14 +29,14 @@ ms.locfileid: "25371321"
 
 ビジネス サーバー 2019 の Skype で利用可能ないくつかの機能では利用できないビジネス オンラインの Skype詳細については、[オンラインまたはハイブリッドのユーザー アカウントの制限](feature-comparison.md#Online-Hybrid)を参照してください。 Skype ビジネス オンライン管理者は、それらに利用可能なさまざまなプランについては、 [Skype](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx)を参照してください必要があります。
 
-次の表では、各クライアントは、Skype ビジネス サーバー 2019 または Skype のビジネスをオンラインで利用できる機能を示しています。 スマート フォンやタブレット クライアントの機能の比較は、 [Skype ビジネス向けのモバイル クライアントの機能の比較](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)を参照することもできます。 ユーザーが使用できる機能は、組織が購入するクライアント アクセス ライセンスまたはユーザー サブスクリプション ライセンスによっても影響を受けます。 ユーザーに対して Full または Basic クライアントを展開するかどうかは、組織が購入を選択したライセンスまたはプランに応じて変わります。 詳細については[ライセンス ガイド](https://products.office.com/en-us/skype-for-business/it-pros)を参照してください。
+次の表では、各クライアントは、Skype ビジネス サーバー 2019 または Skype のビジネスをオンラインで利用できる機能を示しています。 スマート フォンやタブレット クライアントの機能の比較は、 [Skype ビジネス向けのモバイル クライアントの機能の比較](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)を参照することもできます。 ユーザーが使用できる機能は、組織が購入するクライアント アクセス ライセンスまたはユーザー サブスクリプション ライセンスによっても影響を受けます。 ユーザーに対して Full または Basic クライアントを展開するかどうかは、組織が購入を選択したライセンスまたはプランに応じて変わります。 詳細については、「[ライセンス ガイド](https://products.office.com/en-us/skype-for-business/it-pros)」を参照してください。
 
 > [!IMPORTANT]
 > ビジネス サーバー 2019 の Skype と Skype のオンライン ビジネスは、次の以前にリリースされたクライアントをサポート: Lync 2013、Skype ビジネス 2015 年のビジネスの 2016年の Skype とビジネス 2019年クライアントの Skype です。 他のサーバーを使用すると、これらのクライアントについては、 [Lync Server 2013 のクライアントの比較表](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx)および[ビジネス 2015年の Skype のデスクトップ クライアントの機能の比較](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)を参照してください。 
 
 
 > [!NOTE]
-> ビジネス Web アプリケーションのクライアントのブラウザー、Skype 会議アプリケーションの Windows 10 アプリケーションの Skype は、[会議のサポート](feature-comparison.md#BKMK_Conferencing)を提供するだけです。 これらのクライアントの詳細については、[会議クライアント (Web アプリケーションおよび会議アプリケーション) の計画](../../SfbServer/plan-your-deployment/clients-and-devices/meetings-clients.md)を参照してください。
+> ビジネス Web アプリケーションのクライアントのブラウザー、Skype 会議アプリケーションの Windows 10 アプリケーションの Skype は、[会議のサポート](feature-comparison.md#BKMK_Conferencing)を提供するだけです。 これらのクライアントの詳細については、「[Plan for Meetings clients (Web App and Meetings App)](../../SfbServer/plan-your-deployment/clients-and-devices/meetings-clients.md)」を参照してください。
 
 ## <a name="enhanced-presence-support"></a>拡張プレゼンスのサポート
 <a name="BKMK_EnhancedPresence"> </a>
@@ -121,7 +121,7 @@ Skype 間のセッションで、Skype for Business Online プラン 1 のユー
 |デスクトップの共有 (有効な場合)  |& #x 2714 です。|& #x 2714 です。& #x 2776。 |& #x 2714 です。& #x 2776。(プラグインが必要です) |& #x 2714 です。| & #x 2714 です。|
 |プログラムの共有 (有効な場合) |& #x 2714 です。|表示のみ   |& #x 2714;(requires plug-in)  |& #x 2714 です。|& #x 2714 です。|   
 |匿名参加者の追加 (有効な場合) |& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|
-|ダイヤルイン音声会議の使用 |& #x 2714 です。& #x 2777 です。 |& #x 2714 です。|& #x 2714 です。& #x 2777 です。 |& #x 2714 です。|& #x 2714 です。& #x 2777 です。 |
+|オーディオ会議ダイヤルイン & #x 2777 です。|& #x 2714 です。 |& #x 2714 です。|& #x 2714 です。  |& #x 2714 です。|& #x 2714 です。  |
 |今すぐ会議を使用した会議の開始|& #x 2714 です。|& #x 2714 です。||& #x 2714 です。|& #x 2714 です。|  
 |Microsoft PowerPoint ファイルの追加と発表 |& #x 2714 です。| & #x 2778 です。コメントは使用できません。   |& #x 2714 です。|& #x 2714 です。|& #x 2714 です。| 
 |Microsoft PowerPoint ファイル内の移動 |& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|& #x 2714 です。| 
