@@ -1,5 +1,5 @@
 ---
-title: マイクロソフトのチームでの会議の設定を管理します。
+title: Microsoft Teams で会議の設定を管理する
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,14 +15,14 @@ search.appverid: MET150
 f1keywords: ms.teamsadmincenter.meetingsettings.overview
 MS.collection: Teams_ITAdmin_Help
 description: 組織内のユーザーのスケジュールを設定するチームの会議の設定を管理する方法について説明します。
-ms.openlocfilehash: bf7350d94f61fcbaff60dacb161d5096b8f549e7
-ms.sourcegitcommit: 72afa227b917f9fabd278fc7bea9d515b5d53def
+ms.openlocfilehash: 1e3415b1fd17a863e14a79fcc66b32e6749b39e7
+ms.sourcegitcommit: a51d357069765b7d0956880da2ffd041533cfa57
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26671033"
+ms.lasthandoff: 12/15/2018
+ms.locfileid: "27283550"
 ---
-# <a name="manage-meeting-settings-in-microsoft-teams"></a>マイクロソフトのチームでの会議の設定を管理します。
+# <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
 管理者と匿名ユーザーは、チームのミーティングに参加、ミーティングの招待状をカスタマイズ、およびサービスの品質 (QoS) を有効にする場合は、リアルタイムのトラフィック用のポートを設定するかどうかのチーム ミーティングを制御する設定を使用します。 これらの設定は、組織内でそのユーザーのスケジュールをチームのすべての会議に適用されます。 **会議**からこれらの設定を管理する > 、マイクロソフトのチームとビジネス管理センターの Skype で**会議を設定**します。 
 
@@ -62,7 +62,7 @@ ms.locfileid: "26671033"
     - **フッター**フッターとして使用するテキストを入力します。 
 3. 1 時間など、変更を伝達するを待ちます。 会議のチームに会議出席依頼は次のように参照してください。  
 
-## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings-coming-soon"></a>(準備中) チームの会議のためのリアルタイムのメディア トラフィックを処理する方法を設定します。 
+## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>チームの会議のためのリアルタイムのメディア トラフィックを処理する方法を設定します。
 サービスの品質 (QoS) を使用してネットワーク トラフィックの優先順位を設定する場合、QoS のマーカーを有効にすることができ、メディア トラフィックの種類ごとにポートの範囲を設定することができます。 
 
  ![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) ビジネス管理センターの Microsoft のチームと Skype を使用します。

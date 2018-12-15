@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 管理する方法について説明チーム内のポリシー設定に対応します。
-ms.openlocfilehash: 52efb73cb1d7774dcafe417c7a51ec7117daceec
-ms.sourcegitcommit: 2fee995f69e81ea67a93c1f6554f05815b21ff25
+ms.openlocfilehash: 03c983e98d5bcb349a7a2796ad59cb22c03e22bd
+ms.sourcegitcommit: a51d357069765b7d0956880da2ffd041533cfa57
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/29/2018
-ms.locfileid: "25348604"
+ms.lasthandoff: 12/15/2018
+ms.locfileid: "27283542"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>チームでミーティングのポリシーを管理します。
 
@@ -41,7 +41,7 @@ ms.locfileid: "25348604"
    - **許可の議事録**これをオンにする会議の議事録はユーザーが使用可能になります。
    - **許可するクラウドの記録**これを有効にすると、レコーディングをクラウドに保存することができます。
    - **IP ビデオを許可します。** これをオンにすると、会議中に IP ビデオことができます。
-   - **[準備中]****メディア ビット レート (KBs)** 会議のビット レートを設定することができます。 既定では 50 MB です。
+   - **メディア ビット レート (KBs)** 会議のビット レートを設定することができます。 既定では 50 MB です。
 
 <a name="bkcontentsharing"> </a>
 
