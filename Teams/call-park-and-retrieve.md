@@ -3,7 +3,7 @@ title: 公園を呼び出すし、マイクロソフトのチームで取得
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 12/13/2018
+ms.date: 12/17/2018
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: チームのクラウド サービスに保留中の通話をパークおよび取得を使用します。
-ms.openlocfilehash: 02ec2b3af52cac65f82f5f0f0fc2b4b54ae61369
-ms.sourcegitcommit: 5f7e078125f810a9e9a89052854ef63916afe7d3
+ms.openlocfilehash: 004a5b12e178a6460ef05f7c6f5c5738c8ced042
+ms.sourcegitcommit: 0e671e6e6fdd25227068c7e3a3a5509b6536d2b1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27283160"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "27294189"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>公園を呼び出すし、マイクロソフトのチームで取得
 
@@ -65,6 +65,11 @@ ms.locfileid: "27283160"
 [新規 CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps)の PowerShell コマンドレットを使用すると、コール パークのポリシーを作成できます。
 
 コール パークのポリシーを付与するのに[Grant CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps) PowerShell コマンドレットを使用します。
+
+[セット CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps)を使用して次のように、既定の設定を変更できます。
+
+`Set-CsTeamsCallParkPolicy -Identity Global -AllowCallPark $true`
+
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
