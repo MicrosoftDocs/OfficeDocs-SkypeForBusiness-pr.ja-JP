@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: この表で、フランスでの Skype for Business Online および Microsoft Teams の電話番号の取得と管理についての情報を確認できます。
-ms.openlocfilehash: 18c1b428a16b478ca0b6efd9319028dad5777cad
-ms.sourcegitcommit: 9dd5d8fe6888f0c7d2df1e40fdd8b4c80512f8f9
+ms.openlocfilehash: 8a998b1b1935c1608d80ee276f32922472779e84
+ms.sourcegitcommit: 08ab8b02c717be65d79a945301518c3528184609
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25498173"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "27292950"
 ---
 # <a name="phone-number-management-for-france"></a>フランスでの電話番号の管理
 
@@ -39,8 +39,8 @@ ms.locfileid: "25498173"
   
 |**実行する操作**|**正しいフォームをダウンロードして、マイクロソフトに送信する**|
 |:-----|:-----|
-|ビジネス管理センターは、Skype で記載されていない新規のユーザーの電話番号を取得します。   <br/> | このフォーム <br/> [フランスでの新しい電話番号の申請 (地域番号) (v.3.0)(fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.3.0)-(fr-fr).pdf?raw=true) <br/>  記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。  <br/> |
-|Skype のビジネス管理センターに登録されていない新しいサービスの電話番号を取得します。 <br/> |このフォーム </br> [フランス (サービス番号) の電話番号の新しい要求 (v.1.2)(fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/New-phone-number-request-for-france-(service-numbers)-(v.1.2)-(fr-fr).pdf?raw=true)<br/> 記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。
+|ビジネス管理センターは、Skype で記載されていない新規のユーザーの電話番号を取得します。   <br/> | このフォーム <br/> [フランスでの新しい電話番号の申請 (地域番号) (v.3.0)(fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.3.0)-(fr-fr).pdf?raw=true) <br/>[フランス (地理的な番号) の電話番号の新しい要求 (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(v.4.0)-(en-us).pdf?raw=true) <br/>   記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。  <br/> |
+|Skype のビジネス管理センターに登録されていない新しいサービスの電話番号を取得します。 <br/> |このフォーム </br> [フランス (サービス番号) の電話番号の新しい要求 (v.1.2)(fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/New-phone-number-request-for-france-(service-numbers)-(v.1.2)-(fr-fr).pdf?raw=true)<br/>[フランス (サービス番号) の電話番号の新しい要求 (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(v.4.0)-(en-us).pdf?raw=true)</br> 記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。
 |電話番号をマイクロソフトに移行させる必要があります。  <br/> |次のフォームのいずれかをダウンロードします。 <br/> [フランス (フリーダイヤル番号) 用の承認状 (LOA) (v.2.0)(fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.2.0)-(fr-fr).pdf?raw=true) <br/> [フランス (地域番号) 用の承認状 (LOA) (v.2.0)(fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.2.0)-(fr-fr).pdf?raw=true) <br/>  <br/>  記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。  <br/> |
 |国内の電話帳で電話番号を公開/非公開にする必要があります。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
 |ユーザーの番号をサービス番号に変更することができます。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
