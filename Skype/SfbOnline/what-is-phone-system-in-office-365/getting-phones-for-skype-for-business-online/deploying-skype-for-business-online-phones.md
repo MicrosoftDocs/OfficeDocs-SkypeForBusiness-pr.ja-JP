@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 適切なファームウェアを取得し、更新が必要な場合、ライセンスを割り当てるビジネス オンライン電話の Skype の設定を構成する配置手順を説明します。
-ms.openlocfilehash: 809cec268ac2a086a01fc00cf043759a326a34f5
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: f036f2fa47c99d1ea206192c15c901fc9391c1ee
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531818"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297659"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Skype for Business Online 電話機の展開レポート
 
@@ -39,7 +39,7 @@ ms.locfileid: "26531818"
 
 まず最初に、メーカーの管理ガイドと電話機のマニュアルをダウンロードすることをお勧めします。
   
-- ポリコム電話の場合は、[ポリコム展開ガイド] を参照してください ((http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html)。
+- Polycom 電話機については、『[Polycom Deployment Guide (Polycom 展開ガイド)](http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html)』をご覧ください。
     
 - Yealink 電話機については、『[Yealink Skype for Business HD SIP Phones Solution (Yealink Skype for Business HD SIP 電話機のソリューション)](http://www.yealink.com/products_top_2.html)』をご覧ください。
     

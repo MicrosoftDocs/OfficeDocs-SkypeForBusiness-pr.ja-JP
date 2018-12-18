@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: セッション ボーダー コント ローラー (SBC) にチームから発信呼び出しのトランクのフェイル オーバーを処理する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 1f8e7dfd5064b9c3d857165a9a4e2d39565dfeef
-ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
+ms.openlocfilehash: 620230ca3be07bb54386f54a983539716d07b2e9
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27271150"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297810"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>発信呼び出しのトランクのフェイル オーバー
 

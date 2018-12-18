@@ -507,11 +507,13 @@
 ### 電話システムの直接のルーティング
 #### [ダイレクト ルーティングを計画する](direct-routing-plan.md)
 #### [直接ルーティングを構成する](direct-routing-configure.md)
-#### [直接ルーティングへの移行](direct-routing-migrating.md)
+#### [直接ルーティングへの移行します。](direct-routing-migrating.md)
 #### [監視し、直接ルーティングのトラブルシューティングを行う](direct-routing-monitor-and-troubleshoot.md)
 #### [PSTN 接続を使用するハイブリッド環境でのユーザー アカウント](direct-routing-user-accounts-in-a-hybrid-environment.md)
 #### [複数のテナントについてセッション ボーダー コントローラーを構成する](direct-routing-sbc-multiple-tenants.md)
 #### [ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト](direct-routing-border-controllers.md)
+#### 直接ルーティングのためのテクニカル リファレンス
+##### [発信呼び出しのトランクのフェイル オーバー](direct-routing-trunk-failover-on-outbound-call.md)
 ### [マイクロソフト チーム オンライン呼び出しのフロー](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 

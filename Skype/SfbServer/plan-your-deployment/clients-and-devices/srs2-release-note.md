@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: この資料では、Skype ルーム システム v2 の累積的な機能強化について説明します。
-ms.openlocfilehash: d37cf7561f2728dafa850aaa38d6e322fda7cfb9
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: cdc180c0caa8cfe581d02a206d9b13e255214bfd
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182481"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297889"
 ---
 # <a name="release-notes"></a>リリース ノート 
 
@@ -26,6 +26,7 @@ ms.locfileid: "27182481"
 
 | リリース | 発行 <br>マイクロソフト ストア | 
 | ---     | ---  |
+| 4.0.64.0 | 2018/12/14   |
 | 4.0.51.0 | 2018/11/17   | 
 | 4.0.31.0 | 2018/10/16   | 
 | 4.0.27.0 |  2018/10/1    | 
@@ -49,6 +50,11 @@ ms.locfileid: "27182481"
 
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Skype ルーム システム v2 の機能の概要と問題解決
+
+### <a name="40640-12142018"></a>4.0.64.0 (12/14/2018)
+この更新プログラムで導入されています。
+- 両方フロントの部屋 (の) ルーム システムでデュアル画面表示の内容の表示
+- テーマとフロントの部屋のユーザー インターフェイスの改善
 
 ### <a name="40510-11172018"></a>4.0.51.0 (11/17/2018)
 この更新プログラムで導入されています。

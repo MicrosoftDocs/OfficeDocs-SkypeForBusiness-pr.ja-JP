@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Microsoft 電話システム直接ルーティングを使用する方法マイクロソフトの電話システムに、サポートされている、お客様が用意したセッション ボーダー コント ローラー (SBC) の接続については、このトピックを参照してください。
-ms.openlocfilehash: f5634a65d6648d34671c372bc20c2145abdbfc96
-ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
+ms.openlocfilehash: dbc3de5c6eb7a9f45be1165614cd14fcb2d6d8c9
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/03/2018
-ms.locfileid: "27131311"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297882"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -147,7 +147,8 @@ SBC はのみ 1 つの FQDN が必要し、ペアのテナント内のすべて�
 - クラス 3 の主要な公共の証明機関
 - Comodo は、ルート CA をセキュリティで保護します。
 - Deutsche telekom 社 
-- DigiCert のグローバル ルート CA 
+- DigiCert のグローバル ルート CA
+- DigiCert 高保証 EV のルート CA
 - 委託
 - GlobalSign
 - 行事を移動します。

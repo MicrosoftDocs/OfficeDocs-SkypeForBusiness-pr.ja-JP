@@ -12,12 +12,12 @@ search.appverid: MET150
 description: マイクロソフトのチームでのライブ イベントを設定する前に考慮する事項について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 590246808849b2cf25bdc0fb114352977973410f
-ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
+ms.openlocfilehash: e0c71258ee0285c4c00f69e63be1f2efbfc5e4ab
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "27156134"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297818"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -28,7 +28,7 @@ ms.locfileid: "27156134"
 次の前提条件は、チームのライブ イベントのスケジュールを設定する必要があります。
 
 ここでは、ライセンスを割り当てる必要があります。  
-- Office 365 エンタープライズ E1、E3、E5 のライセンス、または Office 365 の A3 または A5 のライセンスです。 
+- Office 365 エンタープライズ E3 または E5 のライセンス、または Office 365 の A3 または A5 のライセンスです。 
 - マイクロソフトのチーム、ビジネス用の Skype とストリームの Microsoft のライセンスです。
 
 Office 365 のライセンスが認証されたユーザーとしてのライブ イベントに参加するために必要なですが、これは使用される運用方法に依存する必要があります。

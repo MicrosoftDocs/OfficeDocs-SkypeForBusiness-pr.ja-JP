@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: '概要: は、Skype のビジネス サーバーの統計情報マネージャーを展開する方法の詳細については、このトピックを読みます。'
-ms.openlocfilehash: 2813b12dfda612374f1e10d4082d54ce46d88216
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: ef2dd51306dc2806161fc0c0d4b11087a2f466ea
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699424"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297700"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>ビジネス サーバーの Skype の統計マネージャーを展開します。
  
@@ -302,8 +302,4 @@ Microsoft は、必ず信頼済みの認証局によって署名された証明�
     
 - [ビジネス サーバーの Skype の統計マネージャーをアップグレードします。](upgrade.md)
     
-- [統計マネージャーは、Skype のビジネス サーバーのトラブルシューティングを行う](troubleshoot.md)
-    
-- [Skype for Business Server Statistics Manager ブログ](https://blogs.technet.microsoft.com/skypestatsman/)
-    
-
+- ß の[Skype ビジネス サーバーの統計マネージャーのトラブルシューティング](troubleshoot.md)

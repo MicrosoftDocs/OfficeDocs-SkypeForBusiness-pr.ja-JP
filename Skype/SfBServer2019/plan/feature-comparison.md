@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: '概要: どのような機能がどのクライアントでサポートされているを理解するのにこれらのテーブルを使用できるは、ビジネス サーバー 2019 の Skype または Skype オンライン ビジネス管理者の。'
-ms.openlocfilehash: c7933e37582314db431c14c99a188d4b962cadf7
-ms.sourcegitcommit: f69b5dbdbd61f77ffc0494886516effe35a0c338
+ms.openlocfilehash: dfc9e568ae9d600e03e1473aff7bcf6571b68f38
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/15/2018
-ms.locfileid: "27282595"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297693"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype のデスクトップ クライアントの機能の比較
 
@@ -135,7 +135,7 @@ Skype 間のセッションで、Skype for Business Online プラン 1 のユー
 |会議のインスタント メッセージを無効にする |& #x 2714 です。||& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|
 |参加者をミュートにする |& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|
 |全員を出席者にする |& #x 2714 です。||& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|
-|Skype 会議ブロードキャストの実施 |& #x 2714 です。|||||
+|Skype 会議ブロードキャストの実施 |& #x 2714 です。& #x 2779 です。|||& #x 2714 です。& #x 2780 です。||
 |代理人が委任者のために会議を設定できる |& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|||
 |Skype for Business と Outlook との間での代理人の同期 |& #x 2714 です。||& #x 2714 です。||| 
 |ビデオ スポットライトの設定 (ビデオのロック) |& #x 2714 です。||& #x 2714 です。|& #x 2714 です。|& #x 2714 です。| 
@@ -146,6 +146,10 @@ Skype 間のセッションで、Skype for Business Online プラン 1 のユー
  & #x 2777 です。 ビジネス オンラインの Skype は、この機能には、Microsoft の PSTN 会議、Exchange ユニファイド メッセージング、またはサード ・ パーティ製のオーディオ会議プロバイダーが必要です。
 
  & #x 2778 です。 2011 の Mac クライアント用の Lync では、それらと共有している会議で、Skype ビジネス Web アプリケーションの場合、Microsoft Office 2013 の PowerPoint プレゼンテーションを表示できません。
+
+& #x 2779 です。 2016 のビジネス アプリケーションの Skype、する必要があります使用しているクイック実行、ビルド 16.0.4227 またはそれ以降です。
+
+& #x 2780 です。 2015 のビジネス アプリケーションの Skype をする必要があります 15.0.4747 を構築、9 月の更新プログラムまたはそれ以降です。
 
 ## <a name="voice-telephony-support"></a>音声 (テレフォニー) のサポート
 <a name="BKMK_Telephony"> </a>

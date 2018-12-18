@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: '概要: ビジネス サーバー 2019 サーバーおよびドメイン インフラストラクチャをこのトピックでは、Skype を準備します。 ハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件と推奨事項は、DNS の証明書と、ファイル共有、および Active Directory については、ここでは正常にインストールし、サーバー ファームの展開を行うには。'
-ms.openlocfilehash: 0cacba46f438f84c75aa80d1e73d9b4f7fa6c0ff
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: db5bada7b89de2fafc4d72c9fa5fcac05d8611ce
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530975"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297769"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>ビジネス サーバー 2019 Skype のシステム要件
  
@@ -193,7 +193,7 @@ Skype のビジネス サーバー 2019 Standard Edition をインストール�
   
 ||||
 |:-----|:-----|:-----|
-|2016 (64 ビット版) の Microsoft SQL Server とは、最新の更新プログラム、および AlwaysOn 可用性グループで実行する必要があります。  <br/> ||
+|Microsoft SQL Server 2016 (64 ビット版) とは、最新の更新プログラムを実行しなければなりません。  <br/> ||
  |
    
 ここで使用する SQL Server のエディションが表示されない場合は使用できません。

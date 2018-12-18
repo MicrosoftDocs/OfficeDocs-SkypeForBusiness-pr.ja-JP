@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: '概要: は、Skype のビジネス サーバーの統計情報マネージャーをアップグレードする方法の詳細については、このトピックを読みます。'
-ms.openlocfilehash: f783534c52b59b5910dbd975c4e29642e18b67b7
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: e2118377fc782af6818d070bc0bd3f5ddacab99e
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531477"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297896"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>ビジネス サーバーの Skype の統計マネージャーをアップグレードします。
  
@@ -111,7 +111,3 @@ Skype のビジネス サーバーの統計マネージャーの既存のイン�
 - [ビジネス サーバーの Skype の統計マネージャーを展開します。](deploy.md)
     
 - [統計マネージャーは、Skype のビジネス サーバーのトラブルシューティングを行う](troubleshoot.md)
-    
-- [Skype for Business Server Statistics Manager ブログ](https://blogs.technet.microsoft.com/dodeitte/2015/10/24/skype-for-business-server-real-time-statistics-manager)
-    
-

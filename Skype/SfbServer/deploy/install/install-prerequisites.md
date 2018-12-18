@@ -14,27 +14,27 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
 description: '概要: については、サーバーとサーバーの役割の業務サーバーの Skype をインストールする前に構成する必要があります。 ビジネスのサーバーで Microsoft の評価の中心からの Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: 891c463be102db2afce1ea831d7856811327ecda
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 11a4d4240415dc11ce42ceb8f9643b52c91c9e2c
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888680"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297635"
 ---
 # <a name="install-prerequisites-for-skype-for-business-server"></a>ビジネス サーバーの Skype のための前提条件をインストールします。
  
 **の概要:** サーバーとサーバーのビジネスの Skype をインストールする前に構成する必要がありますサーバーの役割について説明します。 [マイクロソフト評価センター](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)からビジネス サーバー用には、Skype の無料試用版をダウンロードします。
   
-必須コンポーネントのインストールは、トポロジ内のサーバーごとに必要な役割と機能をインストールすることによって Windows のサーバーを設定するので構成されます。 要件は、サーバーをトポロジに満たす役割に基づいています。 手順 1 ～ 5 は任意の順序で実行できます。 ただし、手順 6、7、8 は、図に説明されているように手順 1 ～ 5 の後で順番どおりに行う必要があります。 8 のステップ 1 は、必須コンポーネントをインストールします。
+必須コンポーネントのインストールは、トポロジ内のサーバーごとに必要な役割と機能をインストールすることによって Windows のサーバーを設定するので構成されます。 要件は、サーバーをトポロジに満たす役割に基づいています。 手順 1 ～ 5 は任意の順序で実行できます。 ただし、手順 6、7、および 8 は、手順 1 ～ 5 の後に、図の順序で実行する必要があります。 8 のステップ 1 は、必須コンポーネントをインストールします。
   
 ![概要図 - インストールの前提条件](../../media/0a85349b-b398-4e04-8901-8f4bd25d8afe.png)
   
 ## <a name="setup-windows-server"></a>Windows Server をセットアップする
 
-Skype ビジネス サーバー用には、インストールする前に Windows サーバー オペレーティング システムおよび前提条件の数値が必要があります。 前提条件の計画に関する詳細については、 [Skype ビジネス サーバー用のサーバーの要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)を参照してください。 
+Skype ビジネス サーバー用には、インストールする前に Windows サーバー オペレーティング システムおよび前提条件の数値が必要があります。 前提条件の計画に関する詳細については、 [Skype ビジネス サーバー用のサーバーの要件](../../../SfBServer2019/plan/system-requirements.md)を参照してください。 
   
 > [!TIP]
-> この手順では Windows Server 2012 R2 を使用します。別のバージョンの Windows Server を使用する場合は、手順が若干異なることがあります。 
+> この手順では Windows Server 2012 R2 を使用します。 別のバージョンの Windows Server を使用する場合は、手順が若干異なることがあります。 
   
 > [!IMPORTANT]
 > 作業を開始する前に、Windows Server は、Windows Update を使用して最新の状態を確認します。 
@@ -49,7 +49,7 @@ Skype ビジネス サーバー用には、インストールする前に Window
 
 必要な役割と機能はサーバー マネージャーを使用してをインストールすることができます。 
     
-1. [Skype ビジネス サーバー用のサーバーの要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)に記載されている前提条件のソフトウェア機能をインストールします。 Skype ビジネス サーバーを実行するサーバー上で必要なソフトウェアがある必要があります。
+1. [Skype ビジネス サーバー用のサーバーの要件](../../../SfBServer2019/plan/system-requirements.md)に記載されている前提条件のソフトウェア機能をインストールします。 Skype ビジネス サーバーを実行するサーバー上で必要なソフトウェアがある必要があります。
     
     > [!CAUTION]
     > 既定では、必要な機能のソース ファイルのすべてが Windows Server 2012 R2 でインストールされるわけではありません。 サーバーがインターネットに接続されていない場合は、必要な機能をインストールするために、Windows Server 2012 R2 メディアを挿入し、[**代替ソース パスの指定**] を選択する必要があります。 ソース ファイルは sources\sxs ディレクトリにあります。 たとえば、Windows Server 2012 R2 メディアをドライブ D に挿入した場合は、パスを `d:\sources\sxs` に設定します。 Windows Update で最新の更新プログラムを入手しておいてください。 インターネットに接続していない場合は、関連するすべての更新プログラムと、必要な更新プログラムの前提条件を手動でインストールする必要があります。 
@@ -58,10 +58,10 @@ Skype ビジネス サーバー用には、インストールする前に Window
     
 1. インストールした役割とサービスの更新プログラムがないかどうかを確認するために、**Windows Update** を再度実行します。
     
-1. 使用する Skype ビジネス サーバーのコントロール パネルのこのサーバーの場合、Silverlight もインストールする必要があります。 Silverlight をインストールするには、 [Microsoft Silverlight](https://www.microsoft.com/silverlight/)を参照してください。
+1. 使用する Skype ビジネス サーバーのコントロール パネルのこのサーバーの場合、Silverlight もインストールする必要があります。 Silverlight のインストールについては、「[Microsoft Silverlight](https://www.microsoft.com/silverlight/)」を参照してください。
 
 
 > [!IMPORTANT]
-> ディレクター、常設チャット、エッジなど、フロントエンド サーバー以外の役割を実行するサーバーには、また別の前提条件があります。 サーバーの種類ごとに必要な正確な前提条件の詳細については、 [Skype ビジネス サーバー用のサーバーの要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)を参照してください。 
+> ディレクター、常設チャット、エッジなど、フロントエンド サーバー以外の役割を実行するサーバーには、また別の前提条件があります。 サーバーの種類ごとに必要な正確な前提条件の詳細については、 [Skype ビジネス サーバー用のサーバーの要件](../../../SfBServer2019/plan/system-requirements.md)を参照してください。 
   
 

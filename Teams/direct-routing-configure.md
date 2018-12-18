@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Microsoft 電話システム直接ルーティングを構成する方法について説明します。
-ms.openlocfilehash: b56816d57b628c92e4c7f412b306ca1161021a66
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: cf856989cd4f87f4b46e1eb36cbeb403bf92b029
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240934"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297912"
 ---
 # <a name="configure-direct-routing"></a>直接ルーティングを構成する
 
@@ -82,8 +82,8 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
   > [!NOTE]
   > 1. 強くお勧め、SBC の制限を設定する SBC のドキュメントで使用されている情報を使用します。 SBC の能力のレベルにある場合、制限は通知をトリガーします。
   > 2. FQDN で、名前のドメイン部分と一致する以外は、テナントに登録するドメインのいずれかで SBC はペアのみ\*. onmicrosoft.com。 使用して\*. SBC の FQDN 名では、omicrosoft.com ドメイン名はサポートされていません。 たとえば、2 つのドメイン名があるとします。<br/><br/>
-  > **abc**.xyz<br/>**abc**onmicrosoft.com。<br/><br/>
-  > SBC 名の名前の sbc.abc.xyz を使用できます。 名 sbc.xyz.abc を持つ SBC のペアにしようとすると、システムは動かせません、このテナントは、ドメインを所有していないようです。
+  > **contoso**.com<br/>**contoso**onmicrosoft.com。<br/><br/>
+  > SBC 名の名前の sbc.contoso.com を使用できます。 名 sbc.contoso.abc を持つ SBC のペアにしようとすると、システムは動かせません、このテナントは、ドメインを所有していないようです。
 
 ```
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
@@ -310,7 +310,7 @@ Get-CSOnlinePSTNUsage
 「Redmond 1」のルートを作成するには、次コマンドを入力します。
 
   ```
-  New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^+1(425|206)
+  New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
   (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
   ```
 
@@ -336,7 +336,7 @@ New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
 +1 で他のルートを作成するには、次のコマンドを入力します。
 
 ```
-New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\\+1(\d{10})$"
+New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 -OnlinePstnGatewayList sbc5.contoso.biz, sbc6.contoso.biz -OnlinePstnUsages "US and Canada"
 ```
 
@@ -377,7 +377,7 @@ Name            : Redmond 2
 Identity        : Other +1 
 Priority            : 4
 Description     : 
-NumberPattern       : ^\\+1(\d{10})$
+NumberPattern       : ^\+1(\d{10})$
 OnlinePstnUsages    : {US and Canada}    
 OnlinePstnGatewayList   : {sbc5.contoso.biz, sbc6.contoso.biz}
 Name            : Other +1
@@ -444,9 +444,9 @@ Spencer 低: 米国およびカナダの番号にのみ許可される呼び出�
 
 |**PSTN 使用法**|**ボイス ルート**|**番号パターン**|**優先度**|**SBC**|**説明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|米国のみ|「Redmond 1」|^ +1 (425\|206)(\d{7})$|1|sbc1<span></span>です contoso.biz。<br/>sbc2<span></span>です contoso.biz。|+1 425 XXX XX XX または +1 206 XXX XX XX 番号が呼び出し先の有効な工順|
-|米国のみ|"Redmond 2"|^ +1 (425\|206)(\d{7})$|2|sbc3<span></span>です contoso.biz。<br/>sbc4<span></span>です contoso.biz。|+1 425 XXX XX XX または +1 206 XXX XX XX 番号が呼び出し先のバックアップ ルート|
-|米国のみ|「その他の +1」|^ +1 (\d{10}) $|3|sbc5<span></span>です contoso.biz。<br/>sbc6<span></span>です contoso.biz。|呼び出し先のルートの番号 +1 XXX XXX の XX XX (+1 425 XXX XX XX または +1 206 XXX XX XX) を除く|
+|米国のみ|「Redmond 1」|^\\+1 (425\|206)(\d{7})$|1|sbc1<span></span>です contoso.biz。<br/>sbc2<span></span>です contoso.biz。|+1 425 XXX XX XX または +1 206 XXX XX XX 番号が呼び出し先の有効な工順|
+|米国のみ|"Redmond 2"|^\\+1 (425\|206)(\d{7})$|2|sbc3<span></span>です contoso.biz。<br/>sbc4<span></span>です contoso.biz。|+1 425 XXX XX XX または +1 206 XXX XX XX 番号が呼び出し先のバックアップ ルート|
+|米国のみ|「その他の +1」|^\\+1 (\d{10}) $|3|sbc5<span></span>です contoso.biz。<br/>sbc6<span></span>です contoso.biz。|呼び出し先のルートの番号 +1 XXX XXX の XX XX (+1 425 XXX XX XX または +1 206 XXX XX XX) を除く|
 |International|International|\d+|4|sbc2<span></span>です contoso.biz。<br/>sbc5<span></span>です contoso.biz。|任意の番号のパターンのルート |
 
 

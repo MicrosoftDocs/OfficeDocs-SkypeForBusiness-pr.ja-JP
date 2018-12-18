@@ -13,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 作成ネットワーク地域、ネットワーク サイトを変更してビジネス サーバーの Skype のネットワークのサブネットを関連付けます。 これらのすべては、高度なエンタープライズ VoIP 機能に使用します。 メディアのバイパス、受付制御、およびロケーション ベースのルーティングを呼び出します。
-ms.openlocfilehash: c0f8f63c6141e2cb163abad66665eee2d83c181f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: fe6edf779d00b96918d8bf92ac7e749b9c003f15
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883909"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297650"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>ネットワーク領域、サイト、およびビジネスの Skype でサブネットを配置します。
 
 作成ネットワーク地域、ネットワーク サイトを変更してビジネス サーバーの Skype のネットワークのサブネットを関連付けます。 これらのすべては、高度なエンタープライズ VoIP 機能に使用します。 メディアのバイパス、受付制御、およびロケーション ベースのルーティングを呼び出します。
 
-高度なエンタープライズ VoIP 機能として、[call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)、[media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)、[ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)、[E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md) を挙げることができます。 これらの各機能を使用するには、ネットワーク地域、ネットワーク サイト、サブネットを作成する必要があります。 たとえば、これらの各機能では、トポロジ内にある各サブネットを特定のネットワーク サイトに関連付け、各ネットワーク サイトをネットワーク地域に関連付ける必要があります。 これらの用語の詳細については、 [Skype のビジネス サーバーで高度なエンタープライズ VoIP 機能のネットワーク設定](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)を参照してください。
+高度なエンタープライズ VoIP 機能として、[call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)、[media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)、[ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)、[E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md) を挙げることができます。 これらの各機能を使用するには、ネットワーク地域、ネットワーク サイト、サブネットを作成する必要があります。 たとえば、これらの各機能では、トポロジ内にある各サブネットを特定のネットワーク サイトに関連付け、各ネットワーク サイトをネットワーク地域に関連付ける必要があります。 これらの用語の詳細については、「[Network settings for the advanced Enterprise Voice features in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)」を参照してください。
 
 通話受付管理および E9-1-1 には、ネットワーク サイトの追加構成要件があります。
 
@@ -231,7 +231,7 @@ ms.locfileid: "23883909"
    New-CsNetworkSubnet -SubnetID <String> -MaskBits <Int32> -NetworkSiteID <String>
    ```
 
-    例:
+    次に例を示します。
 
    ```
    New-CsNetworkSubnet -SubnetID 172.11.12.13 - MaskBits 20 -NetworkSiteID Chicago
@@ -260,7 +260,7 @@ ms.locfileid: "23883909"
 3. **Subnet.csv**をインポートするのには次のコマンドレットを実行し、Lync Server 管理ストア内の内容を格納します。
 
    ```
-   import-csv subnet.csv | foreach {New-CsNetworkSubnet $_IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
+   import-csv subnet.csv | foreach {New-CsNetworkSubnet -Identity $_.IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
    ```
 
 ### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用してネットワーク サイトとサブネットを関連付けるに
@@ -280,7 +280,7 @@ ms.locfileid: "23883909"
 7. [**ネットワーク サイト ID**] をクリックし、このサブネットの追加先となるサイトのサイト ID を選択します。
 
     > [!NOTE]
-    > ネットワーク サイトがまだ作成されていない場合、この一覧は空です。 詳細手順については、[作成または変更するネットワーク サイト](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx)を参照してください。 **Get CsNetworkSite**コマンドレットを実行して展開するためのサイト Id を取得することも。 詳細については、Skype ビジネス サーバー管理シェルのドキュメントを参照してください。
+    > ネットワーク サイトがまだ作成されていない場合、この一覧は空です。 手順の詳細については、「[Create or Modify a Network Site](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx)」を参照してください。 **Get CsNetworkSite**コマンドレットを実行して展開するためのサイト Id を取得することも。 詳細については、Skype ビジネス サーバー管理シェルのドキュメントを参照してください。
 
 8. オプションで、[**説明**] をクリックし、このサブネットを説明する追加情報を入力します。
 
@@ -314,19 +314,19 @@ ms.locfileid: "23883909"
 <a name="BKMK_AssociateSubnets"> </a>
 
 
-[新しい-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
+[New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
 
-[Get CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregion?view=skype-ps)
+[Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregion?view=skype-ps)
 
-[セット CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregion?view=skype-ps)
+[Set-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregion?view=skype-ps)
 
-[削除 CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregion?view=skype-ps)
+[Remove-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregion?view=skype-ps)
 
-[新しい-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps)
+[New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps)
 
-[Get CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/get-csnetworksubnet?view=skype-ps)
+[Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/get-csnetworksubnet?view=skype-ps)
 
-[セット CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
+[Set-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
 
-[削除 CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/remove-csnetworksubnet?view=skype-ps)
+[Remove-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/remove-csnetworksubnet?view=skype-ps)
 
