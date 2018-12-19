@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2296d7eb423d1d268742be184e7e724e69dc0965
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: c70519fc328b74a6269d4ed767d9223b8deca83d
+ms.sourcegitcommit: bb4e7dec155dee358bec9d6e586730dae0b8f559
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201478"
+ms.lasthandoff: 12/19/2018
+ms.locfileid: "27371180"
 ---
 ![プロジェクトの定義の段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-project-definition.png "プロジェクトの定義の段階に重点を置いて、旅アップグレードの段階")
 
@@ -51,7 +51,7 @@ ms.locfileid: "27201478"
 **島**と呼ばれるこの共存モードでは、別の島としてクライアント アプリケーションの動作します。 Skype のビジネス、およびチームに問い合わせることによってビジネスの Skype は、チームに説明します。 ユーザーは、両方のクライアントを実行し、通信が開始されたクライアントでネイティブに通信できます。 次のように、**島**のモードでの相互運用性の必要性はありません。
 
 > [!Tip]
-> Skype のオンライン ビジネスのお客様の推奨されるパスでは、ドライブ採用の飽和状態の組織で、急速に**チームのみ**のモードに移動し、**島**の既定のモードで起動。 設置型およびハイブリッド型の享受を採用する準備ができたら、組織の開始点ではなく島、そこから**チームのみ**のモードの進行状況と今後の**チームの共同作業によるビジネスの Skype**モードを展開します。チームです。 
+> Skype のオンライン ビジネスのお客様の推奨されるパスでは、ドライブ採用の飽和状態の組織で、急速に**チームのみ**のモードに移動し、**島**の既定のモードで起動。 設置型およびハイブリッド型の場合がありますからメリットを採用する準備ができたら、組織の開始点ではなく島、そこから**チームのみ**のモードの進行状況と今後の**チームの共同作業によるビジネスの Skype**モードを展開します。チームです。 
 
 ### <a name="skype-for-business-only"></a>Skype ビジネスだけに
 

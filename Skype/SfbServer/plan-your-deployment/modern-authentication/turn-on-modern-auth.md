@@ -11,12 +11,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: 認証方法の詳細に制御を管理者に提供するこの資料のアウトライン コマンドレットでは、業務上の内側と外側を使用します。 管理者は、認証方法を有効にまたは内部、または外部のネットワークにします。
-ms.openlocfilehash: 57b51a897f476d5c4b4b17ccda8ffe074f8a26cd
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8350e1b6f3bae27c3b8355b0dee3b737bccaf655
+ms.sourcegitcommit: bb4e7dec155dee358bec9d6e586730dae0b8f559
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531103"
+ms.lasthandoff: 12/19/2018
+ms.locfileid: "27371187"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>無効にする従来の認証方法内部と外部のネットワークを計画しています。
 
@@ -86,15 +86,15 @@ __タイプ 5 の説明:__ 現代 ADAL クライアントが MA を使用して*
 > [!IMPORTANT]
 > Lync Web アクセス (LWA) を使用するいるし、外部からのアクセスのフォーム ベースのアクセス (FBA) を使用する必要があります、クライアントを使用するとこれらのシナリオをサポートするために匿名アクセスでアクセスできるように、LWA を再構成します。 同様に、暗証番号 (pin) では、ダイヤルインを使用する場合、外部ユーザーにのみ FBA がブロックされます。 自分の pin を変更する必要がある場合は、ログインを行うためには、内部的には、企業を対象にする必要があります。
 
-## <a name="links"></a>リンク ##
+## <a name="links"></a>リンク 
 - PowerShell の詳細については。
-    - Get CsAuthConfig[https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Get-CsAuthConfig.md](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Get-CsAuthConfig.md)
-    - セット CsAuthConfig[https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Set-CsAuthConfig.md](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Set-CsAuthConfig.md)
+    -  [Get CsAuthConfig](https://docs.microsoft.com/powershell/module/skype/get-csauthconfig?view=skype-ps)
+    -  [セット CsAuthConfig](https://docs.microsoft.com/en-us/powershell/module/skype/set-csauthconfig?view=skype-ps)
 
 - 方向を指定または CU 上のコマンドを使用する方法の詳細は、それらをインストールするのには必要です。
-    - コマンドレットのブリーフィング[https://support.microsoft.com/en-us/help/4346673/new-cmdlets-to-manage-skype-for-business-server-2015-authentication](https://support.microsoft.com/en-us/help/4346673/new-cmdlets-to-manage-skype-for-business-server-2015-authentication)
-    - ビジネス サーバー 2015 (全般) の Skype 用の更新プログラム[https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015)
-    - ビジネス サーバー 2015 年 2018年 7 月 Skype のコア コンポーネント CU (6.0.9319.534)[https://support.microsoft.com/en-us/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server](https://support.microsoft.com/en-us/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server)
+    - [コマンドレットのブリーフィング](https://support.microsoft.com/en-us/help/4346673/new-cmdlets-to-manage-skype-for-business-server-2015-authentication)
+    - [ビジネス サーバー 2015 の Skype 用の更新プログラム](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015)(全般)
+    - [2018年 7 月 Skype 2015 年のビジネス サーバーのコア コンポーネント CU](https://support.microsoft.com/en-us/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server) (6.0.9319.534)
 
 
  
