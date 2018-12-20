@@ -3,7 +3,7 @@ title: マイクロソフト チームが Microsoft 365 政府の GCC の展開�
 author: lolajacobsen
 ms.author: lehewe
 manager: serdars
-ms.date: 12/10/2018
+ms.date: 12/19/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
@@ -14,19 +14,19 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf9571a52d99e9993161b6de99a190bc9b675f78
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: 978f9d6b298bb1376b236a883dad836d6e6b5860
+ms.sourcegitcommit: b4c7f2a0c5660610469fbb67e9810dd3fdcedbaa
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240911"
+ms.lasthandoff: 12/19/2018
+ms.locfileid: "27378578"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Microsoft 365 政府の GCC の展開の計画
 
 このガイダンスは米国連邦政府、状態、航空写真や民族のお、ローカル政府機関や政府の規制や要件の対象となるデータを処理する他のエンティティで、Office 365 の導入を促進する IT プロフェッショナルには、Microsoft の使用365 政府の GCC は、これらの要件を満たすために適しています。
 
 > [!NOTE]
-> 組織が既に Microsoft 365 政府の GCC の適格性の要件が満たされるとに適用され、プログラムに受け入れられた、1 ~ 4 の手順をスキップして、展開を開始するのには 5 の手順に進みます。 
+> 組織が既に Microsoft 365 政府の GCC の適格性の要件が満たされるの適用やプログラムに受け入れられた場合は、1 と 2 の手順をスキップし、ステップ 3 に進みます。 
 
 ## <a name="step-1-determine-whether-your-organization-needs-microsoft-365-government---gcc-and-meets-eligibility-requirements"></a>手順 1 です。 組織が Microsoft 365 政府の GCC を必要があるし、適格性の要件を満たしているかどうかを決定します。 
 
@@ -46,16 +46,27 @@ Microsoft 365 政府 - 米国政府の[Office 365 の政府の計画](https://pr
 > [!Tip]
 > サービスの説明内の情報のテーブルを Excel ブックに転送し、2 つの列を追加することができます:**はい/いいえ、組織内での関連性**と**Y か N は、自分の組織のニーズに対応**します。 このサービスが組織のニーズを満たしていることを確認するのには、同僚と、この一覧を確認できます。
 
-
 |    |     |
 |-----------|------------|
 | ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft 365 政府の GCC は、組織の適切なかどうかを決定します。</li><li>組織が適格性の要件を満たしていることを確認します。</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>Microsoft 365 政府の GCC が提供する機能を理解します。</li></ul>|
 
 > [!Note]
 > Microsoft 365 政府の GCC をアメリカ合衆国ではできるだけです。 -米国以外の政府機関のお客様は、いくつかの[Office 365 の政府の計画](https://products.office.com/en/government/compare-office-365-government-plans)から選択できます。
 
-## <a name="step-2-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>手順 2 です。 機能は、現在利用できないか、既定で無効になっているを理解します。 
+
+## <a name="step-2-apply-for-microsoft-365-government---gcc"></a>手順 2 です。 Microsoft 365 政府の GCC を適用します。
+
+持つことに、このサービスがお客様の組織は、[このサービスは、ここに適用する](https://products.office.com/government/eligibility-validation)プロセスを開始します。
+
+## <a name="step-3-understand-microsoft-365-government---gcc-default-security-settings"></a>ステップ 3 です。 Microsoft 365 政府の GCC のデフォルトのセキュリティ設定を理解します。
+
+[管理とセキュリティの設定](enable-features-office-365.md)を見直し、それらを変更し、既定のセキュリティ設定を変更する前に、コンプライアンスへの影響を検討する前に時間がかかることをお勧めします。
+
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft 365 政府の GCC のセキュリティ設定を既定値のいずれかを変更するかどうか最初の変更の影響を理解するのには解決を加えたことを決定します。</li></ul> |
+
+## <a name="step-4-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>手順 4 します。 機能は、現在利用できないか、既定で無効になっているを理解します。 
 
 Microsoft 365 政府の GCC をいくつかの相違がある、政府のクラウドのお客様の要件に合わせて、およびエンタープライズのプランです。 どの機能が使用できるかを確認するのには次の表を参照してください。
 
@@ -126,27 +137,17 @@ Microsoft 365 政府の GCC をいくつかの相違がある、政府のクラ�
 | | 電子情報開示 | 利用可能 |
 
 
-
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft 365 政府の GCC の機能セットが、組織のニーズを満たしているかどうかを決定します。</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>既定のセキュリティ設定を理解します。</li></ul>|
-
-## <a name="step-3-understand-microsoft-365-government---gcc-default-security-settings"></a>ステップ 3 です。 Microsoft 365 政府の GCC のデフォルトのセキュリティ設定を理解します。
-
-[管理とセキュリティの設定](enable-features-office-365.md)を見直し、それらを変更し、既定のセキュリティ設定を変更する前に、コンプライアンスへの影響を検討する前に時間がかかることをお勧めします。
-
-|    |     |
-|-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft 365 政府の GCC のセキュリティ設定を既定値のいずれかを変更するかどうかの変更の影響を理解して最初に解決する可能性がありますを行うかを決定します。</li></ul> |
-
-## <a name="step-4-apply-for-microsoft-365-government---gcc"></a>手順 4 します。 Microsoft 365 政府の GCC を適用します。
-
-持つことに、このサービスがお客様の組織は、[このサービスは、ここに適用する](https://products.office.com/government/eligibility-validation)プロセスを開始します。
+| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>チームの機能セットが、組織のニーズを満たしているかどうかを決定します。</li></ul> |
 
 ## <a name="step-5-plan-for-governance"></a>手順 5 です。 ガバナンスの計画
 
 コーポレート ・ ガバナンスとどのように満たすことがお客様の要件を決定します。 詳細については、[チームの管理のための計画](plan-teams-governance.md)に移動します。
+
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>決定し、[チームの管理のための計画](plan-teams-governance.md)のガイドラインに従って、・ ガバナンスの要件を文書化します。</li></ul> |
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>手順 6。 チームの共同作業を展開します。
 
