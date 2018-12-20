@@ -24,6 +24,7 @@
 ## [Teams でのライフサイクル管理の計画](plan-teams-lifecycle.md)
 ## [チームの管理のための計画](plan-teams-governance.md)
 ## [Microsoft 365 政府の GCC の展開の計画](plan-for-government-gcc.md)
+## [Microsoft 365 政府の GCC の高い展開の計画](plan-for-government-gcc-high.md)
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
