@@ -3,71 +3,6 @@
 
 
 
-## <a name="week-of-november-05-2018"></a>2018 年 11 月 5 日の週
-
-
-| 公開日 |トピック タイトル | 変更 |
-|------|------------|--------|
-| 2018 年 11 月 6 日 | [電話会議ブリッジの電話番号を変更する](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | 修正 |
-| 2018 年 11 月 6 日 | [Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | 修正 |
-| 2018 年 11 月 6 日 | [Microsfot Teams で招待状に含まれている電話番号を設定する](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | 修正 |
-| 2018 年 11 月 6 日 | [Microsoft Teams で最初のチームとチャネルを作成する](/MicrosoftTeams/get-started-with-teams-create-your-first-teams-and-channels) | 追加 |
-| 2018 年 11 月 6 日 | [Microsoft Teams の使用を開始する](/MicrosoftTeams/get-started-with-teams-landing-page) | 追加 |
-| 2018 年 11 月 6 日 | [Microsoft Teams での使用状況とフィードバックを監視する](/MicrosoftTeams/get-started-with-teams-monitor-usage-and-feedback) | 追加 |
-| 2018 年 11 月 6 日 | [Microsoft Teams へのアーリー アダプターに関与する](/MicrosoftTeams/get-started-with-teams-onboard-early-adopters) | 追加 |
-| 2018 年 11 月 6 日 | [クイック スタート - Microsoft Teams](/MicrosoftTeams/get-started-with-teams-quick-start) | 追加 |
-| 2018 年 11 月 6 日 | [Microsoft Teams の組織全体にわたるロールアウトを計画するためのリソースを取得する](/MicrosoftTeams/get-started-with-teams-resources-for-org-wide-rollout) | 追加 |
-| 2018 年 11 月 6 日 | [Microsoft Teams のロールアウトのための環境の検出](/MicrosoftTeams/environmental-discovery-for-microsoft-teams-rollout) | 修正 |
-| 2018 年 11 月 6 日 | [よくあるご質問 - Skype for Business から Microsoft Teams への移行](/MicrosoftTeams/faq-journey) | 修正 |
-| 2018 年 11 月 6 日 | [Microsoft Teams のドキュメンテーションと実践的なガイダンス](/MicrosoftTeams/microsoft-teams) | 修正 |
-| 2018 年 11 月 6 日 | [Microsoft Teams の概要](/MicrosoftTeams/teams-overview) | 修正 |
-| 2018 年 11 月 6 日 | [Microsoft Teams の使用を開始する](/MicrosoftTeams/get-started-with-teams-landing-page) | 修正 |
-| 2018 年 11 月 7 日 | [Microsoft Teams の管理者トレーニング](/MicrosoftTeams/itadmin-readiness) | 修正 |
-| 2018 年 11 月 7 日 | [Cloud Voice の展開](/MicrosoftTeams/cloud-voice-deployment) | 修正 |
-| 2018 年 11 月 7 日 | [ダイレクト ルーティングを計画する](/MicrosoftTeams/direct-routing-plan) | 修正 |
-| 2018 年 11 月 7 日 | [ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト](/MicrosoftTeams/direct-routing-border-controllers) | 修正 |
-| 2018 年 11 月 7 日 | [Teams でのユーザーのプレゼンス](/MicrosoftTeams/presence-admins) | 修正 |
-| 2018 年 11 月 7 日 | [Skype for Business と共存する](/MicrosoftTeams/coexistence-chat-calls-presence) | 追加 |
-| 2018 年 11 月 7 日 | [Microsoft Teams のテクニカル ドキュメンテーション](/MicrosoftTeams/microsoft-teams) | 修正 |
-| 2018 年 11 月 7 日 | [Microsoft Teams でのチームとチャネルの概要](/MicrosoftTeams/teams-channels-overview) | 修正 |
-| 2018 年 11 月 7 日 | [Microsoft Teams を導入する](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | 追加 |
-| 2018 年 11 月 7 日 | [Microsoft Teams でアプリを展開する](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 追加 |
-| 2018 年 11 月 7 日 | [Microsoft Teams のチャット、チーム、チャネルを展開する](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | 追加 |
-| 2018 年 11 月 7 日 | [Microsoft Teams で会議を展開する](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | 追加 |
-| 2018 年 11 月 7 日 | [Microsoft Teams を展開する](/MicrosoftTeams/deploy-microsoft-teams-landing-page) | 追加 |
-| 2018 年 11 月 7 日 | [Microsoft Teams で音声を展開する](/MicrosoftTeams/deploy-voice-microsoft-teams-landing-page) | 追加 |
-| 2018 年 11 月 7 日 | [Microsoft Teams の使用を開始する](/MicrosoftTeams/get-started-with-teams-landing-page) | 追加 |
-| 2018 年 11 月 7 日 | [Microsoft Teams に対する組織の準備状況について](/MicrosoftTeams/teams-adoption-assess-readiness) | 追加 |
-| 2018 年 11 月 7 日 | [Microsoft Teams のチャンピオン プログラムを作成する](/MicrosoftTeams/teams-adoption-create-champions-program) | 追加 |
-| 2018 年 11 月 7 日 | [Microsoft Teams の導入の結果と成功を定義する](/MicrosoftTeams/teams-adoption-define-outcomes) | 追加 |
-| 2018 年 11 月 7 日 | [Microsoft Teams の使用状況シナリオを定義する](/MicrosoftTeams/teams-adoption-define-usage-scenarios) | 追加 |
-| 2018 年 11 月 7 日 | [Microsoft Teams について啓発し、トレーニングを実施する](/MicrosoftTeams/teams-adoption-drive-awareness) | 追加 |
-| 2018 年 11 月 7 日 | [Microsoft Teams の導入の推進を開始する](/MicrosoftTeams/teams-adoption-get-started) | 追加 |
-| 2018 年 11 月 7 日 | [Microsoft Teams のガバナンスのクイック スタート](/MicrosoftTeams/teams-adoption-governance-quick-start) | 追加 |
-| 2018 年 11 月 7 日 | [アーリー アダプターに関与して、Microsoft Teams についてのフィードバックを収集する](/MicrosoftTeams/teams-adoption-onboard-early-adopters) | 追加 |
-| 2018 年 11 月 7 日 | [Microsoft Teams のサポートについて関与する](/MicrosoftTeams/teams-adoption-onboard-support) | 追加 |
-| 2018 年 11 月 7 日 | [Microsoft Teams の導入についてのフィードバックとレポートを最適化する](/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting) | 追加 |
-| 2018 年 11 月 7 日 | [Microsoft Teams の導入段階 1 - 開始](/MicrosoftTeams/teams-adoption-phase1) | 追加 |
-| 2018 年 11 月 7 日 | [Microsoft Teams の導入段階 2 - 実験](/MicrosoftTeams/teams-adoption-phase2-experiment) | 追加 |
-| 2018 年 11 月 7 日 | [Microsoft Teams の導入段階 3 - 規模](/MicrosoftTeams/teams-adoption-phase3-enable) | 追加 |
-| 2018 年 11 月 7 日 | [Microsoft Teams でのチームとチャネルの概要を理解する](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) | 追加 |
-| 2018 年 11 月 7 日 | [Microsoft Teams で最初のチームを作成する](/MicrosoftTeams/teams-adoption-your-first-teams) | 追加 |
-| 2018 年 11 月 7 日 | [Microsoft Teams のドキュメンテーションと実践的なガイダンス](/MicrosoftTeams/microsoft-teams) | 修正 |
-| 2018 年 11 月 8 日 | [Microsoft Teams を導入する](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | 修正 |
-| 2018 年 11 月 8 日 | [Microsoft Teams へのアーリー アダプターに関与する](/MicrosoftTeams/get-started-with-teams-onboard-early-adopters) | 修正 |
-| 2018 年 11 月 8 日 | [Microsoft Teams の組織全体にわたるロールアウトを計画するためのリソースを取得する](/MicrosoftTeams/get-started-with-teams-resources-for-org-wide-rollout) | 修正 |
-| 2018 年 11 月 8 日 | [Microsoft Teams でのチームとチャネルの概要](/MicrosoftTeams/teams-channels-overview) | 修正 |
-| 2018 年 11 月 8 日 | [Skype for Business と共存する](/MicrosoftTeams/coexistence-chat-calls-presence) | 修正 |
-| 2018 年 11 月 9 日 | [Microsoft Teams の導入クイック スタートのチェックリスト](/MicrosoftTeams/teams-adoption-quick-start-checklist) | 追加 |
-| 2018 年 11 月 9 日 | [Microsoft Teams の導入のためにサービス健全性のレビューをスケジュールする](/MicrosoftTeams/teams-adoption-schedule-service-health-reviews) | 追加 |
-| 2018 年 11 月 9 日 | [Microsoft Teams について啓発し、トレーニングを実施する](/MicrosoftTeams/teams-adoption-drive-awareness) | 修正 |
-| 2018 年 11 月 9 日 | [Microsoft Teams の導入についてのフィードバックとレポートを最適化する](/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting) | 修正 |
-| 2018 年 11 月 9 日 | [Microsoft Teams の導入段階 1 - 開始](/MicrosoftTeams/teams-adoption-phase1) | 修正 |
-| 2018 年 11 月 9 日 | [Microsoft Teams でのチームとチャネルの概要を理解する](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) | 修正 |
-| 2018 年 11 月 9 日 | [Microsoft Teams を導入する](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | 修正 |
-| 2018 年 11 月 9 日 | [Microsoft Teams でのチームとチャネルの概要](/MicrosoftTeams/teams-channels-overview) | 修正 |
-
-
 ## <a name="week-of-november-12-2018"></a>2018 年 11 月 12 日の週
 
 
@@ -88,7 +23,7 @@
 | 2018 年 11 月 12 日 | [Microsoft Teams へのユーザー アクセスを管理する](/MicrosoftTeams/user-access) | 修正 |
 | 2018 年 11 月 12 日 | [Microsoft Teams でのデバイスを管理する](/MicrosoftTeams/device-management) | 修正 |
 | 2018 年 11 月 13 日 | [Microsoft Teams を導入する](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | 追加 |
-| 2018 年 11 月 13 日 | [Microsoft Teams の使用を開始する](/MicrosoftTeams/get-started-with-teams-landing-page) | 追加 |
+| 2018 年 11 月 13 日 | [Microsoft Teams の使用を開始する](/MicrosoftTeams/get-started-microsoft-teams-landing-page) | 追加 |
 | 2018 年 11 月 13 日 | [Microsoft Teams で最初のチームとチャネルを作成する](/MicrosoftTeams/get-started-with-teams-create-your-first-teams-and-channels) | 追加 |
 | 2018 年 11 月 13 日 | [Microsoft Teams の使用を開始する](/MicrosoftTeams/get-started-with-teams-landing-page) | 追加 |
 | 2018 年 11 月 13 日 | [Microsoft Teams での使用状況とフィードバックを監視する](/MicrosoftTeams/get-started-with-teams-monitor-usage-and-feedback) | 追加 |
@@ -274,3 +209,39 @@
 | 2018 年 12 月 7 日 | [Skype for Business と Microsoft Teams の共存と相互運用について理解する](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 修正 |
 | 2018 年 12 月 7 日 | [オーストラリアでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia) | 修正 |
 | 2018 年 12 月 7 日 | [Microsoft Teams でのデスクトップ共有を構成する](/MicrosoftTeams/configure-desktop-sharing) | 追加 |
+
+
+## <a name="week-of-december-10-2018"></a>2018 年 12 月 10 日の週
+
+
+| 公開日 |トピック タイトル | 変更 |
+|------|------------|--------|
+| 2018/12/10 | [Microsoft Teams の商用クラウドの試用提供を管理する](/MicrosoftTeams/iw-trial-teams) | 修正 |
+| 2018/12/10 | [Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | 修正 |
+| 2018/12/10 | [ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト](/MicrosoftTeams/direct-routing-border-controllers) | 修正 |
+| 2018/12/10 | [直接ルーティングを構成する](/MicrosoftTeams/direct-routing-configure) | 修正 |
+| 2018/12/10 | [アップグレードの手順を選択する - Microsoft Teams](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | 修正 |
+| 2018/12/10 | [Microsoft Teams のエンド ユーザー トレーニング](/MicrosoftTeams/enduser-training) | 修正 |
+| 2018/12/10 | [Microsoft Teams の講師主導のトレーニング](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 修正 |
+| 2018/12/11 | [Microsoft 365 米国政府向けクラウド (GCC) の展開の計画 - Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc) | 修正 |
+| 2018/12/11 | [よくあるご質問 - Skype for Business から Microsoft Teams への移行](/MicrosoftTeams/faq-journey) | 修正 |
+| 2018/12/11 | [Microsoft Teams の既知の問題](/MicrosoftTeams/known-issues) | 修正 |
+| 2018/12/11 | [Microsoft Teams の概要](/MicrosoftTeams/teams-overview) | 修正 |
+| 2018/12/11 | [Office 365 を使用する組織で Microsoft Teams の機能を管理する](/MicrosoftTeams/enable-features-office-365) | 修正 |
+| 2018/12/12 | [直接ルーティングを構成する](/MicrosoftTeams/direct-routing-configure) | 修正 |
+| 2018/12/12 | [他の組織の Teams ユーザーとの通信](/MicrosoftTeams/let-your-teams-users-communicate-with-other-people) | 修正 |
+| 2018/12/12 | [Microsoft Teams の制限事項と仕様](/MicrosoftTeams/limits-specifications-teams) | 修正 |
+| 2018/12/12 | [オーストラリアでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia) | 修正 |
+| 2018/12/12 | [Microsoft Teams の導入クイック スタートのチェックリスト](/MicrosoftTeams/teams-adoption-quick-start-checklist) | 修正 |
+| 2018/12/12 | [Microsoft Teams の既知の問題](/MicrosoftTeams/known-issues) | 修正 |
+| 2018/12/13 | [発信通話でのトランクのフェイルオーバー](/MicrosoftTeams/direct-routing-trunk-failover-on-outbound-call) | 追加 |
+| 2018/12/13 | [Microsoft Teams を導入する](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | 修正 |
+| 2018/12/13 | [Microsoft Teams の導入に向けた環境の準備を確認する](/MicrosoftTeams/environment-readiness) | 修正 |
+| 2018/12/13 | Microsoft Teams の使用を開始する | 削除 |
+| 2018/12/13 | [Microsoft Teams での共通領域電話のライセンスをセットアップする](/MicrosoftTeams/set-up-common-area-phones) | 追加 |
+| 2018/12/14 | [Microsoft Teams でのコール パークおよび保留解除](/MicrosoftTeams/call-park-and-retrieve) | 追加 |
+| 2018/12/14 | [Microsoft Teams での通話の共有およびグループ通話ピックアップ](/MicrosoftTeams/call-sharing-and-group-call-pickup) | 追加 |
+| 2018/12/14 | [Microsoft Teams での回線共有機能](/MicrosoftTeams/shared-line-appearance) | 追加 |
+| 2018/12/14 | [Microsoft Teams での回線共有機能](/MicrosoftTeams/shared-line-appearance) | 修正 |
+| 2018/12/14 | [Teams での会議ポリシー](/MicrosoftTeams/meeting-policies-in-teams) | 修正 |
+| 2018/12/14 | [Microsoft Teams で会議の設定を管理する](/MicrosoftTeams/meeting-settings-in-teams) | 修正 |
