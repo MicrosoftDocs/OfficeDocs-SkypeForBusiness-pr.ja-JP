@@ -7,12 +7,12 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skypeforbusiness-server-itpro
 description: このトピックでは、ビジネス オンラインまたは Exchange のオンラインのビジネス サーバーまたは Exchange Server の展開では、既存の Skype の Skype を最新バージョンに移行しようとするときに考慮する必要があるについて説明します。
-ms.openlocfilehash: 64d489a944e7b56315e4b600893b46f5c1cc3355
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: ce3078b7a1e877422eb66040c3fa3a8b0e4fbdae
+ms.sourcegitcommit: 81b38b389bfe3acd1aa13ce61c221b7b368c0e2d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699289"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "27382841"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Skype ビジネス サーバーと Exchange Server の移行の計画します。
 
@@ -51,7 +51,7 @@ Exchange 2019 とクラウドのボイス メールの両方にユーザーを�
 - Exchange が Exchange 2013/2016年」と「ビジネスのサーバーに Exchange 2019 2015 の Skype と Skype のビジネス サーバー 2019
 - ビジネス サーバー 2015 2016 の Exchange 2013 および交換のビジネス サーバー 2019 の Skype の Skype
 
-次のシナリオでは、PBX、または SBC の構成はありませんが、現在の展開の一部として存在して、オンプレミスの Exchange サーバーで構成されている UM を使用するいると仮定ことが必要です。 これらのソリューションの各も前提としています、設置型の Skype ビジネス サーバーと Office 365 のハイブリッド展開を構成しました。 ビジネスのハイブリッド展開の詳細については、Skype は、 [Skype](hybrid-solutions.md)を参照してください。
+次のシナリオでは、PBX、または SBC の構成はありませんが、現在の展開の一部として存在して、オンプレミスの Exchange サーバーで構成されている UM を使用するいると仮定ことが必要です。 これらのソリューションの各も前提としています、設置型の Skype ビジネス サーバーと Office 365 のハイブリッド展開を構成しました。 ビジネスのハイブリッド展開の詳細については、Skype は、[ハイブリッド接続の計画](plan-hybrid-connectivity.md)を参照してください。
 
 ### <a name="exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019"></a>2016 の Exchange 2013/Exchange および Exchange 2019 にビジネス 2015年の Skype と Skype ビジネス 2019年の
 

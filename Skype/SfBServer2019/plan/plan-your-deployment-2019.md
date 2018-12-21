@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: '概要: は、これらの概念、論理を開発する方法について説明へのリンクと Skype のビジネス サーバー 2019 機能、サーバー、およびトポロジの構成の物理設計について説明します。'
-ms.openlocfilehash: 83b406401d377d8ffd4b46aee3a5264273bb142b
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 4ddaeac0f0e06c8e11e7a98dc46755c907b2937f
+ms.sourcegitcommit: 81b38b389bfe3acd1aa13ce61c221b7b368c0e2d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531296"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "27382848"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>サーバー 2019 のビジネスを展開するため、Skype の計画
  
@@ -49,8 +49,7 @@ Skype をビジネス サーバーの展開を計画する方法の詳細につ�
 |**[Skype for Business と Exchange の統合の計画](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)** <br/><br/>組織の展開 Exchange Server と Skype の両方ビジネス サーバーのでしょうか。 その場合は、両方の製品の機能を統合する方法に関するを参照します。 たとえば、プレゼンス情報とデータをアーカイブします。   |**[クライアントおよびデバイスの計画](../../SfbServer/plan-your-deployment/clients-and-devices/clients-and-devices.md)** <br/><br/>Skype ビジネス サーバーは、組織のユーザーに配置することができますクライアント インターフェイスのコレクションをサポートします。 周到に計画することの従業員は、必要な情報を取得し、ビジネスの Skype が使用できるようにする場所にいています。   |
 |**[Skype でビジネス サーバー用のエッジ サーバー展開の計画](../../SfbServer/plan-your-deployment/edge-server-deployments/edge-server-deployments.md)** <br/><br/> 組織は、内部ネットワーク外のユーザーと通信しますか。 その場合は、組織のファイアウォールを越えて通信をサポートするためにエッジ サーバーを展開する方法について参照してください。   |**[ビジネスのサーバーに、Skype での高可用性と災害復旧を計画します。](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)** <br/><br/>高可用性は、1 つまたは複数のサーバーがダウンした場合でも、ビジネス サーバー サービスの Skype が利用可能であることを確認することを指します。 障害復旧とは、自然災害または人災が発生した場合であってもサービスの稼働を維持し、災害前からのデータを可能な限り多く維持することです。 高可用性と災害復旧の計画を立てるには、このセクションのトピックを参照します。   |
 |**[ビジネス サーバーに、Skype で会議を計画します。](../../SfbServer/plan-your-deployment/conferencing/conferencing.md)** <br/><br/> 組織の会議の要件は? Web 会議、音声/ビデオ (A/V) 会議、およびダイヤルイン会議の機能と要件に関する記事です。   |**[Skype のビジネス サーバーでのセキュリティの計画](../../SfbServer/plan-your-deployment/security/security.md)** <br/><br/>ユーザー認証、サーバーからサーバーへの認証、およびアプリケーションの認証を理解し、Skype のビジネス サーバー用の認証を計画するためのリソースを検索します。   |
-|**[ハイブリッド ソリューションのビジネス用の Skype](../hybrid/hybrid-solutions.md)**  <br/><br/>ビジネス サーバーの設置型の Skype と Skype のオンライン ビジネスの両方に置かれているユーザーを使用していますか。 場合は、設置とオンラインのユーザーの両方を 1 つのドメイン間で同期するハイブリッド展開をセットアップする方法の詳細を表示します。   ||
-|||
+|**[ハイブリッド接続を計画します。](../hybrid/plan-hybrid-connectivity.md)**  <br/><br/>ビジネス サーバーの設置型の Skype と Skype のオンライン ビジネスの両方に置かれているユーザーを使用していますか。 場合は、設置とオンラインのユーザーの両方を 1 つのドメイン間で同期するハイブリッド展開をセットアップする方法の詳細を表示します。   
    
 ## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Skype ビジネス サーバーの計画に関するその他のリソース
 

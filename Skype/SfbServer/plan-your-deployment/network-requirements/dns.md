@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: '概要: は、Skype をビジネスのサーバーを実装する前にここでは DNS の考慮事項を確認します。'
-ms.openlocfilehash: 20e520d0ecb43d098855c434db740592eb7c760c
-ms.sourcegitcommit: 042717530bffa18ca401ad6665a652212a85bc99
+ms.openlocfilehash: 8f47d7de61521c3908a8094bb7c6c866a55c4842
+ms.sourcegitcommit: 81b38b389bfe3acd1aa13ce61c221b7b368c0e2d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/29/2018
-ms.locfileid: "26984749"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "27382855"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>Skype のビジネス サーバー用の DNS の要件
 
@@ -123,7 +123,7 @@ DNS Skype のビジネス サーバー展開計画組織の設置型のネット
 ## <a name="hybrid-considerations"></a>ハイブリッドの考慮事項
 <a name="BK_Hybrid"> </a>
 
-計画する場合は、一部のユーザーがオンライン ホームし、いくつかの上にホームが設置されている型は、[ビジネス サーバー 2015 の Skype](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md#BKMK_DNS)と[Skype](../../../SfBServer2019/hybrid/hybrid-solutions.md)ビジネス サーバー 2019 の記事を計画するハイブリッド接続を参照してください。 ビジネス サーバー 2015 の Skype の通常の方法で DNS を構成し、またその他の DNS レコードを追加する必要があります。
+計画する場合は、一部のユーザーがオンライン ホームし、いくつかの上にホームが設置されている型は、[ビジネス サーバー 2019 の Skype](../../../SfBServer2019/hybrid/plan-hybrid-connectivity.md)の記事を計画するハイブリッド接続を参照してください。 ビジネス サーバー 2015 の Skype の通常の方法で DNS を構成し、またその他の DNS レコードを追加する必要があります。
 
 ある「Office 365 の Url と IP アドレスの範囲」を参照することもする必要があります[https://aka.ms/o365ips](https://aka.ms/o365ips)ユーザーが必要なオンライン リソースへアクセスを持つことを確認します。
 
