@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34009b711427bada14c87ea3c1e204b4dc7e4c96
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: d252b95496a3d86eb9667fd6dec9256d7ad98a00
+ms.sourcegitcommit: b67c2cb5ffd6d27cc9257c5e81ee1ea494ef8bd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214620"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "27382679"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス
 
@@ -26,7 +26,7 @@ ms.locfileid: "27214620"
 
 相互運用と移行は、「共存モード」を使用して TeamsUpgradePolicy によって管理されます。 ユーザーのモードの選択では、着信呼び出しとチャット、およびユーザーがチームやビジネス用の Skype で会議をスケジュールするかどうかの両方のルーティングを制御します。  すぐに、今後の TeamsAppPermissionsPolicy と協力して、モードも、どのクライアントでユーザーがチャットや通話を開始できます。 
 
-TeamsInteropPolicy は廃止されました。 機能は、TeamsUpgradePolicy に統合されていると TeamsInteropPolicy を構成する必要がなくなったと、一般に保証されていません。 TeamsInteropPolicy は TeamsUpgradePolicy モードがある場合に受け付けられません。 = レガシー、モードでは現在使用されているも。  現在表示されている TeamsUpgradePolicy のサポートは、*ユーザーがレガシ以外のモードを使用するには、その構成を更新する必要があります*。 モードでは TeamsUpgradePolicy のインスタンスを与える = レガシーがブロックされるようになりました。  マイクロソフトでは、TeamsInteropPolicy のすべてのインスタンスと TeamsUpgradePolicy モードでのすべてのインスタンスを削除中でレガシーを = します。
+TeamsInteropPolicy は廃止されました。 機能は、TeamsUpgradePolicy に統合されていると TeamsInteropPolicy を構成する必要がなくなったと、一般に保証されていません。 TeamsInteropPolicy は、TeamsUpgradePolicy モードがある場合を除き、受け付けられませんでした = レガシー、そのモードがされていますが、廃止します。  現在表示されている TeamsUpgradePolicy のサポートは、*ユーザーがレガシ以外のモードを使用するには、その構成を更新する必要があります*。 モードでは TeamsUpgradePolicy のインスタンスを与える = レガシーがブロックされるようになりました。  マイクロソフトでは、TeamsInteropPolicy のすべてのインスタンスと TeamsUpgradePolicy モードでのすべてのインスタンスを削除中でレガシーを = します。
 
 ## <a name="fundamental-concepts"></a>基本的な概念
 
@@ -43,7 +43,7 @@ TeamsInteropPolicy は廃止されました。 機能は、TeamsUpgradePolicy �
 
 5.  ビジネス ユーザーのチームと Skype との間の相互運用機能は、使用可能な*ビジネス用の Skype でチームのユーザーは、オンライン ホーム サーバーの場合*だけです。 Skype ビジネス ユーザーが所属することができますか、オンプレミス (とビジネスのハイブリッドの Skype を設定する必要があります) の受信者またはオンラインです。 設置型のビジネスが Skype に置かれているユーザーは、(このドキュメントの後半で定義)、島のモードでチームを使用することができますが、チームを使用して、相互運用機能またはビジネスの Skype を使用して他のユーザーとフェデレーションを行うことはできません。  
 
-6.  チームにユーザーをアップグレードするのには (モードでは TeamsUpgradePolicy を付与、つまり = TeamsOnly)、ビジネスの Skype のオンライン ユーザーのホーム必要があります。 これは、相互運用性、フェデレーション、およびチームのユーザーの完全な管理を確実に必要です。 ホーム設置型であるユーザーをアップグレードするのにを使用して、 `Move-CsUser` 、設置から管理用ツールの最初の移動に Skype ユーザーは、オンライン ビジネス。
+6.  チームにユーザーをアップグレードするのには (モードでは TeamsUpgradePolicy を付与、つまり = TeamsOnly)、ビジネスの Skype のオンライン ユーザーのホーム必要があります。 これは、相互運用性、フェデレーション、およびチームのユーザーの完全な管理を確実に必要です。 ホーム設置型であるユーザーをアップグレードするのにを使用して、 `Move-CsUser` 、設置から管理用ツールの最初の移動に Skype ユーザーは、オンライン ビジネスです。 詳細は、[オンプレミスとクラウドの間でユーザーの移動](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)を参照してください。 要約するは、2 つのオプションがあります。
 
     - Skype ビジネス サーバー 2019 または CU8 の Skype のビジネス サーバー 2015 の指定の`-MoveToTeams`でスイッチを`Move-CsUser`のチームに直接ユーザーを移動します。
     - それ以外の場合後、`Move-CsUser`が完了したら、PowerShell またはチームの管理センターを使用してそのユーザーに TeamsOnly モードを割り当てます。 
@@ -74,7 +74,6 @@ TeamsInteropPolicy は廃止されました。 機能は、TeamsUpgradePolicy �
 |SfBWithTeamsCollab<sup>2</sup>|着信呼び出しとのチャットは、Skype のビジネスにルーティングされます。|Skype ビジネスだけに|エンド ・ ユーザーでは、呼び出しとのみ、ビジネスの Skype のチャットを開始でき、のみ Skype のビジネス ・ ミーティングのスケジュールを設定することができます。 チームでチャネルを使用することもできます。 (適用されていません)|
 |SfBWithTeamsCollabAndMeetings<sup>2</sup>|着信呼び出しとのチャットは、Skype のビジネスにルーティングされます。|チームのみ|エンド ・ ユーザーが呼び出しを開始し、ビジネスしかし、唯一の Skype からチャットは、チームのミーティングをスケジュールします。 チームのチャネルの会話に参加できます。 (適用されていません)|
 |TeamsOnly|着信呼び出しとのチャットは、チームに送られます|チームのみ|エンド ・ ユーザーには、呼び出しとチームからのチャットのみを開始できます。 ビジネス用の Skype には、ミーティングに参加するのにはできるだけです。|
-|レガシー</br>*非推奨*|TeamsInteropPolicy に基づくルーティング|影響なし|影響はありません。 TeamsInteropPolicy から TeamsUpgradePolicy への移行を円滑化する一時的なモードでした。 TeamsUpgradePolicy が完全にサポートされているので、*のお客様はレガシ以外のモードをその構成を更新する必要があります*。  レガシー ・ モードの付与は可能ではありません。 |
 |||||
 
 **メモ:**
@@ -111,8 +110,6 @@ TeamsUpgradePolicy は、2 つのキー プロパティを公開する: モー�
 |SfBWithTeamsCollabAndMeetingsWithNotify|SfBWithTeamsCollabAndMeetings|True|このモードでは、PowerShell のレイヤーに存在するが、管理者のユーザー エクスペリエンスでは、まだ公開されていません。 ルーティングの観点から、これは SfBOnly モードと同じです。 TeamsAppPolicy の利用可能な場合、これで、チャネル、およびチームの会議。|
 |UpgradeToTeams|TeamsOnly|False|チームにユーザーをアップグレードして、チャット、通話、およびビジネスのための Skype で会議のスケジュール設定をしないようにするのには、このモードを使用します。|
 |グローバル|諸島|False|既定のポリシーです。|
-|NoUpgrade|レガシー|False|このインスタンスを破棄することがすぐにされます。 このポリシーをユーザーに許可することはありません。|
-|NotifyForTeams|レガシー|True|このインスタンスを破棄することがすぐにされます。 このポリシーをユーザーに許可することはありません。|
 |||||
 
 個々 のユーザーに、または、テナント全体では、これらのポリシーのインスタンスを与えることができます。 次に例を示します。
@@ -144,12 +141,12 @@ TeamsUpgradePolicy は、受信フェデレーション チャットと通話の
 
 今年の後半、マイクロソフトは、新しいポリシーの種類、TeamsAppPermissionsPolicy、IM、会議、チャット チャンネル) などのチームのクライアントには、どの部分が有効になっているかを制御するために導入する予定です。 チームでの作業負荷を有効または無効にする新しいポリシーが利用可能になったら、TeamsUpgradePolicy が更新され、TeamsAppPolicy が適切であることを確認するのにはチェックが最初に管理者が TeamsUpgradePolicy のインスタンスをユーザーに許可しようとすると、ご希望のモードを構成します。 それ以外の場合は、補助金は、他のポリシーする必要があります最初の設定方法を説明するエラーで失敗します。 
 
-TeamsAppPolicy が使用可能になるまで基本的には TeamsUpgradePolicy が呼び出しとチャットなどと同様の会議のスケジュール設定 (Outlook アドインで公開されている) とルーティングを制御します。 チームのクライアントの動作ではないためまだ場所には、現代のポータルのすべてのモードが有効になります。 ルーティングの観点から、SfBOnly、SfBWithTeamsCollab、および SfBWithTeamsCollabAndMeetings モードと同じです。 
+TeamsAppPermissionsPolicy が使用可能になるまで基本的には TeamsUpgradePolicy が呼び出しとチャットなどと同様の会議のスケジュール設定 (Outlook アドインで公開されている) とルーティングを制御します。 チームのクライアントの動作ではないためまだ場所には、現代のポータルのすべてのモードが有効になります。 ルーティングの観点から、SfBOnly、SfBWithTeamsCollab、および SfBWithTeamsCollabAndMeetings モードと同じです。 
 
 
 
 ## <a name="action-required-for-organizations-that-are-using-modelegacy-andor-teamsinteroppolicy"></a>必要な操作モードを使用している組織のレガシまたは TeamsInteropPolicy を =
-モードを使用しているお客様 = TeamsUpgradePolicy で (ポリシー インスタンスは NoUpgrade またはポリシーのインスタンスを = = NotifyForTeams) レガシー以外のモードでポリシーを使用するには、その構成を更新する必要があります。  さらが不要になったに使用されるので、システムによってを除くレガシ モードでは、破棄されるときに、TeamsInteropPolicy を使用しているお客様はこのポリシーの割り当てを削除する必要があります。  レガシー ・ モードを許可することは不要になったには注意してください。 レガシ モードと TeamsInteropPolicy の両方は、近い将来に削除されます。
+モードを使用しているお客様 = TeamsUpgradePolicy で (ポリシー インスタンスは NoUpgrade またはポリシーのインスタンスを = = NotifyForTeams) レガシー以外のモードでポリシーを使用するには、その構成を更新する必要があります。  さらが不要になったに使用されるので、システムによってを除くレガシ モードでは、破棄されるときに、TeamsInteropPolicy を使用しているお客様はこのポリシーの割り当てを削除する必要があります。  レガシー ・ モードを許可することは不要になったには注意してください。 
 
 アクションが必要です。
  - TeamsInteropPolicy を使用しているユーザーと顧客*しない*レガシ モードで: ポリシーには効果がないとのことをお勧めしますすべてのユーザーを削除する割り当てのレベルし、既定値を持つグローバル ポリシーを使用します。
@@ -171,7 +168,6 @@ TeamsAppPolicy が使用可能になるまで基本的には TeamsUpgradePolicy 
 |**SfBWithTeamsCollab**|1 人のユーザーは、ビジネスとチーム サイド バイ サイドの両方の Skype を実行します。 次のユーザー:</br><ul><li>SfBOnly モードでユーザーの機能を持ちます。<li>グループ作業 (チャネル) に対してのみ有効にチームチャット、通話、または会議のスケジュールが無効になります。</ul>|
 |**SfBWithTeamsCollab</br>AndMeetings**|1 人のユーザーは、ビジネスとチーム サイド バイ サイドの両方の Skype を実行します。 次のユーザー:<ul><li>SfBOnly モードでは、チャットとユーザーの呼び出し元の機能を持ちます。<li>グループのコラボレーションを有効にするチームである (チャンネル - チャネルの会話が含まれています)。チャットと通話を無効になります。<li>のみのチームのミーティングをスケジュールすることができますが、Skype をビジネスまたはチームの会議に参加できます。</ul>|
 |**TeamsOnly**</br>(必要なデバイスのオンライン ホーム)|1 人のユーザーには、チームだけが実行されます。 次のユーザー:<ul><li>すべてのチャットを受信し、開始位置に関係なく、チームのクライアントで呼び出します。<li>チャットおよびチームからの呼び出しだけを実行できます。<li>のみ、チームでミーティングをスケジュールすることができますが、Skype をビジネスまたはチームの会議に参加できます。<li>ビジネス IP 電話の Skype を使用する続行できます。</ul> |
-|**レガシー**</br>(非推奨)|このモードは、ソフトウェアと一貫性のあるエクスペリエンスを TeamsInteropPolicy TeamsUpgradePolicy への移行中に使用された変更内容を公開します。このモードは、不要になった TeamsUpgradePolicy が完全にサポートされているようになりました。 モードを使用して顧客 = レガシーは別のモードで使用するには、その構成を更新する必要があります。|
 |||
 
 

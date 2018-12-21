@@ -488,6 +488,9 @@
 #### [ダイヤル プランについて](what-are-dial-plans.md)
 #### [ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)
 ### 電話システム
+#### チームの電話
+##### [マイクロソフト チームの電話](phones-for-teams.md)
+##### [購入、マイクロソフト チームの IP 電話を展開します。](buying-and-deploying-teams-ip-phones.md)
 #### [Office 365 での電話システムについて](what-is-phone-system-in-office-365.md)
 #### [組織内の電話システムの設定](setting-up-your-phone-system.md)
 #### [ボイスメールの応答メッセージとメールで使用する既定の言語を変更する](change-the-default-language-for-greetings-and-emails.md)

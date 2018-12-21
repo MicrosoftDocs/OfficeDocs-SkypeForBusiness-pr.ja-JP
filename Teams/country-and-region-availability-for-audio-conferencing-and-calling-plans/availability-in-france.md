@@ -1,5 +1,5 @@
 ---
-title: フランスの可用性
+title: フランスでの利用可能性
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -26,14 +26,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: フランスの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: d1956b9970a84ee9e1e66e6f745a29a0de04d354
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: 4845b612b3a1316f8d7ac3da527ae118c6d6681c
+ms.sourcegitcommit: b67c2cb5ffd6d27cc9257c5e81ee1ea494ef8bd1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674787"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "27382663"
 ---
-# <a name="availability-in-france"></a>フランスの可用性
+# <a name="availability-in-france"></a>フランスでの利用可能性
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
@@ -62,7 +62,7 @@ ms.locfileid: "26674787"
 |:-----|:-----|
 |通話プランは購入できますか?  <br/> |はい  <br/> |
 |分の計画を呼び出すに使用できます。 |1 か月間利用は 4 つのプランのオプションがあります。 <ul><li>120 分、国内の計画を呼び出す </li><li>240 分、国内の計画を呼び出す</li></li><li>1200 分、国内の計画を呼び出す </li></li><li>国内と国際を呼び出す計画: 国内 OR 600 時間 (分) の (どちらかに達すると最初の予定表の月の)、国際通話 1200 分</li></li> 
-|プレミアム番号への発信コールを行うことができますでしょうか。 <br/> | はい、この時点で完全にサポートします。 <br/> |
+|フランスのプレミアム番号への発信コールができるでしょうか。 <br/> | [はい]、1 分あたりの支払にクレジットの通信を使用する場合は完全にサポートします。 <br/> |
 |発信通話を行うことができますか?  <br/> | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
