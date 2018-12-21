@@ -2,6 +2,7 @@
 
 ## [新機能](../whats-new.md)
 ## [推奨されていません](../deprecated.md)
+## [マイクロソフトのテレフォニー ソリューション](../hybrid/msft-telephony-solutions.md)
 
 ## [ビジネス用の Skype をダウンロードし、更新](../../SfbServer/software-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [クライアント用更新プログラム](../../SfbServer/sfb-client-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
