@@ -1,5 +1,5 @@
 ---
-title: Meeting Migration Service (MMS) のセットアップ
+title: 会議の移行サービス (MMS) を使用してください。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,281 +20,192 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Meeting Migration Service (MMS) は Skype for Business サービスの 1 つで、バックグラウンドで動作して、ユーザーのために Skype for Business および Microsoft Teams 会議を自動的に更新します。MMS はユーザーが会議移行ツールを実行して Skype for Business および Microsoft Teams 会議を更新しなくても済むように設計されています。
-ms.openlocfilehash: aeb174110fec955d66850ad73a0c2dd9596fdfca
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+description: 会議の移行サービス (MMS) は、バック グラウンドで実行され、ユーザーのビジネスおよびマイクロソフトのチームの会議に Skype が自動的に更新するサービスです。 MMS はユーザーが会議移行ツールを実行して Skype for Business および Microsoft Teams 会議を更新しなくても済むように設計されています。
+ms.openlocfilehash: 5b01dfc0c50ecb742e049905c81a418007ea3600
+ms.sourcegitcommit: d00b85ace80af0403efb85b71e5bcc66e76f837b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297709"
+ms.lasthandoff: 12/22/2018
+ms.locfileid: "27411117"
 ---
-# <a name="setting-up-the-meeting-migration-service-mms"></a><span data-ttu-id="4555b-104">Meeting Migration Service (MMS) のセットアップ</span><span class="sxs-lookup"><span data-stu-id="4555b-104">Setting up the Meeting Migration Service (MMS)</span></span>
+# <a name="using-the-meeting-migration-service-mms"></a><span data-ttu-id="22014-104">会議の移行サービス (MMS) を使用してください。</span><span class="sxs-lookup"><span data-stu-id="22014-104">Using the Meeting Migration Service (MMS)</span></span>
 
-<span data-ttu-id="4555b-105">[] Meeting Migration Service (MMS) は Skype for Business サービスの 1 つで、バックグラウンドで動作して、ユーザーのために Skype for Business および Microsoft Teams 会議を自動的に更新します。</span><span class="sxs-lookup"><span data-stu-id="4555b-105">Meeting Migration Service (MMS) is a Skype for Business service that runs in the background and automatically updates Skype for Business and Microsoft Teams meetings for users.</span></span> <span data-ttu-id="4555b-106">MMS はユーザーが会議移行ツールを実行して Skype for Business および Microsoft Teams 会議を更新しなくても済むように設計されています。</span><span class="sxs-lookup"><span data-stu-id="4555b-106">MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.</span></span>  <span data-ttu-id="4555b-107">このツールは、マイクロソフトのチーム ミーティングにビジネス会議のため Skype を移行しません。</span><span class="sxs-lookup"><span data-stu-id="4555b-107">This tool does not migrate Skype for Business meetings into Microsoft Teams meetings.</span></span>  
-  
- <span data-ttu-id="4555b-108">**要件**</span><span class="sxs-lookup"><span data-stu-id="4555b-108">**Requirements**</span></span>
-  
-<span data-ttu-id="4555b-109">MMS では、会議の開催者のメールボックスを Exchange Online で利用できるようにする必要があります。</span><span class="sxs-lookup"><span data-stu-id="4555b-109">MMS requires the mailboxes of meeting organizers to be on Exchange Online.</span></span>
-  
- <span data-ttu-id="4555b-110">**主要シナリオ**</span><span class="sxs-lookup"><span data-stu-id="4555b-110">**Primary scenarios**</span></span>
-  
-<span data-ttu-id="4555b-111">MMS は次の 2 つの主要シナリオでユーザーのために Skype 会議を更新します。</span><span class="sxs-lookup"><span data-stu-id="4555b-111">MMS updates Skype meetings for a user in the following two primary scenarios:</span></span>
-  
-- <span data-ttu-id="4555b-112">ユーザーがオンプレミスの Skype for Business Server から Skype for Business Online に移行される場合。</span><span class="sxs-lookup"><span data-stu-id="4555b-112">When the user is migrated from on-premises Skype for Business Server to Skype for Business Online.</span></span>
-    
-- <span data-ttu-id="4555b-113">管理者が、ユーザーの会議内の電話会議情報を更新する必要が生じる変更を、ユーザーの電話会議設定に対して行う場合。</span><span class="sxs-lookup"><span data-stu-id="4555b-113">When an admin makes a change to the user's audio conferencing settings that would require updating the audio conferencing information in that user's meetings.</span></span>
-    
-  <span data-ttu-id="4555b-114">**MMS を使用できない一般的なシナリオ**</span><span class="sxs-lookup"><span data-stu-id="4555b-114">**Common scenarios where you can't use MMS**</span></span>
-  
-<span data-ttu-id="4555b-p103">該当する可能性のある一般的なシナリオを次に示します。これらのシナリオはすべて移行でサポートされます。ただし、MMS はこれらのシナリオでは動作せず、代わりに [Meeting Migration Tool](https://go.microsoft.com/fwlink/p/?linkid=626047) を使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="4555b-p103">Here are some common scenarios that may apply to you. These are all supported scenarios for migration. However, MMS won't run in these scenarios and you'll need to use the [Meeting Migration Tool](https://go.microsoft.com/fwlink/p/?linkid=626047) instead.</span></span>
-  
-- <span data-ttu-id="4555b-118">ユーザーのメールボックスが Exchange Server のオンプレミスにある</span><span class="sxs-lookup"><span data-stu-id="4555b-118">User mailboxes are on Exchange Server on-premises</span></span>
-    
-- <span data-ttu-id="4555b-119">サードパーティ電話会議プロバイダーを使用する</span><span class="sxs-lookup"><span data-stu-id="4555b-119">Using a third-party audio conferencing provider</span></span>
-    
-- <span data-ttu-id="4555b-120">Skype for Business Online からオンプレミスの Skype Server に移行する</span><span class="sxs-lookup"><span data-stu-id="4555b-120">Migrating users from Skype for Business Online to on-premises Skype Server</span></span>
-    
-## <a name="updating-meetings-when-an-on-premises-user-is-migrated-to-skype-for-business-online"></a><span data-ttu-id="4555b-121">オンプレミスのユーザーが Skype for Business Online に移行されるときに会議を更新する</span><span class="sxs-lookup"><span data-stu-id="4555b-121">Updating meetings when an on-premises user is migrated to Skype for Business Online</span></span>
+<span data-ttu-id="22014-105">会議の移行サービス (MMS) は、次のシナリオで、ユーザーの既存の会議を更新するサービスです。</span><span class="sxs-lookup"><span data-stu-id="22014-105">The Meeting Migration Service (MMS) is service that updates a user’s existing meetings in the following scenarios:</span></span>
 
-<span data-ttu-id="4555b-p104">これは、MMS がユーザーのスムーズな移行に役立つ、最も一般的なシナリオです。ユーザーがオンプレミスの Skype for Business Server から Skype for Business Online に移行されるときに、MMS は新しいユーザーを検出してそのユーザーの予定表に Skype for Business 会議と Microsoft Teams 会議がないかスキャンします。今後の会議はすべて、そのユーザーの新しい情報で更新されます。</span><span class="sxs-lookup"><span data-stu-id="4555b-p104">This is the most common scenario where MMS can help create a smoother transition for your users. When a user is migrated from an on-premises Skype for Business Server to Skype for Business Online, MMS will detect the new user and will scan that user's calendar for Skype for Business and Microsoft Teams meetings. Any future meetings will be updated with the new information for that user.</span></span>
-  
-### <a name="if-youre-currently-using-skype-server-2015-for-audio-conferencing"></a><span data-ttu-id="4555b-125">現在 Skype Server 2015 を電話議で使用している場合</span><span class="sxs-lookup"><span data-stu-id="4555b-125">If you're currently using Skype Server 2015 for audio conferencing</span></span>
+- <span data-ttu-id="22014-106">ユーザーを移行するとき、オンプレミス (Skype のビジネスをオンラインにするか TeamsOnly) クラウドに移行します。</span><span class="sxs-lookup"><span data-stu-id="22014-106">When a user is migrated from on-premises to the cloud (whether to Skype for Business Online or to TeamsOnly).</span></span>
+- <span data-ttu-id="22014-107">管理者がユーザーの電話会議の設定に変更を行う場合</span><span class="sxs-lookup"><span data-stu-id="22014-107">When an admin makes a change to the user’s audio conferencing settings</span></span> 
+- <span data-ttu-id="22014-108">TeamsOnly モード (技術導入プログラム [タップ] のお客様のみ) にユーザーをアップグレードするとき</span><span class="sxs-lookup"><span data-stu-id="22014-108">When a user is upgraded to TeamsOnly mode (Technology Adoption Program [TAP] customers only)</span></span>
 
-<span data-ttu-id="4555b-126">このシナリオでは、MMS による最高のエクスペリエンスを得るために下記のベスト プラクティスに従うことをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="4555b-126">We recommend that you follow the best practices below for the best experience with MMS in this scenario:</span></span>
-  
-- <span data-ttu-id="4555b-127">MMS ではユーザーのメールボックスを Exchange Online で利用できる状態にする必要があるため、オンプレミスの Exchange Server からの移行も実行している場合は、先にユーザーのメールボックスを Exchange Online に移動します。</span><span class="sxs-lookup"><span data-stu-id="4555b-127">Because MMS requires the user's mailbox to be on Exchange Online, if you are also migrating from on-premises Exchange Server as well, move the user's mailbox to Exchange Online first.</span></span>
-    
-- <span data-ttu-id="4555b-p105">**電話会議**のライセンスをユーザーに割り当ててから、`Move-CSUser` コマンドレットを実行してユーザーを移行します。これは、電話会議設定がユーザーのために変更されるときに、MMS が会議も更新するためです。最初にライセンスを割り当てていない場合、ライセンスを割り当てるときに、MMS がすべての会議も再度更新します。</span><span class="sxs-lookup"><span data-stu-id="4555b-p105">Assign the **Audio Conferencing** license to the user before you run the `Move-CSUser` cmdlet to migrate the user. This is because MMS also updates meetings when audio conferencing settings are changed for a user. If you don't assign the license first, MMS will update all meetings again when you assign the license.</span></span>
-    
-### <a name="if-youre-currently-using-a-third-party-audio-conferencing-provider-acp"></a><span data-ttu-id="4555b-131">現在サードパーティの音声会議プロバイダー (ACP) を使用している場合</span><span class="sxs-lookup"><span data-stu-id="4555b-131">If you're currently using a third-party audio conferencing provider (ACP)</span></span>
-
-<span data-ttu-id="4555b-p106">サードパーティの ACP では、MMS が動作するかしないかは所属する組織のダイヤルイン会議設定に応じて変わります。 **電話会議**ライセンスをユーザーに割り当てるときに、自動的に ACP からのダイヤルイン番号を置き換えることを選べます。一方、そのようにせずに、ダイヤルイン番号を ACP からのダイヤルイン番号を保持する必要がある場合もあります。所属する組織の設定を確認するには、次の Windows PowerShell コマンドを実行して、パラメーター  `AutomaticallyReplaceAcpProvider` の値を確認します。PowerShell についてサポートが必要な場合は、この記事の終わりにある「[PowerShell を使用した Skype for Business の組織の管理](setting-up-the-meeting-migration-service-mms.md#WPSInfo)」セクションをご覧ください。</span><span class="sxs-lookup"><span data-stu-id="4555b-p106">With a third-party ACP, whether or not MMS runs depends on your organization's audio conferencing settings. You can choose to automatically replace the dial-in numbers from your ACP when you assign a user a **Audio Conferencing** license. On the other hand, you may need to prevent that from happening and retain the dial-in numbers from your ACP. To see your organization's setting, run the following Windows PowerShell command and check the value of the parameter `AutomaticallyReplaceAcpProvider`. If you need help with PowerShell, see the [Using PowerShell to manage your Skype for Business organization](setting-up-the-meeting-migration-service-mms.md#WPSInfo) section at the end of this article.</span></span>
-  
-```
-Get-CsOnlineDialInConferencingTenantSettings
-```
-
-- <span data-ttu-id="4555b-p107">このパラメーターの値が $true の場合、MMS はユーザーに **電話会議**ライセンスが割り当てられるときに動作して、会議を更新します。 **電話会議**ライセンスが割り当てられるまで、ACP からのダイヤルイン番号は保持されます。</span><span class="sxs-lookup"><span data-stu-id="4555b-p107">If the value of this parameter is $true, then MMS will run when a user is assigned a **Audio Conferencing** license and update their meetings. The dial-in numbers from your ACP are retained until the **Audio Conferencing** license is assigned.</span></span>
-    
-- <span data-ttu-id="4555b-p108">このパラメーターの値が $false の場合、ユーザーに **電話会議**ライセンスが割り当てられても MMS は会議を更新しません。ユーザーが Skype for Business 管理センターで、または Windows PowerShell を使用して電話会議に対して手動でプロビジョニングされるまで、ACP からのダイヤルイン番号は保持されます。</span><span class="sxs-lookup"><span data-stu-id="4555b-p108">If the value of this parameter is $false, then MMS won't update the meetings even if a user is assigned a **Audio Conferencing** licence. The dial-in numbers from your ACP are retained until the user is manually provisioned for audio conferencing in Skype for Business admin center or using Windows PowerShell.</span></span>
-    
-## <a name="updating-meetings-when-a-users-audio-conferencing-settings-change"></a><span data-ttu-id="4555b-141">ユーザーの電話会議の設定が変更されるときの会議の更新</span><span class="sxs-lookup"><span data-stu-id="4555b-141">Updating meetings when a user's audio conferencing settings change</span></span>
-
-<span data-ttu-id="4555b-142">MMS は次の場合に既存の Skype for Business Online および Microsoft Teams の会議を更新します。</span><span class="sxs-lookup"><span data-stu-id="4555b-142">MMS will update an existing Skype for Business and Microsoft Teams meetings in the following cases:</span></span>
-  
-- <span data-ttu-id="4555b-143">**電話会議**ライセンスを割り当てる、または削除する場合</span><span class="sxs-lookup"><span data-stu-id="4555b-143">When you assign or remove **Audio Conferencing** license.</span></span>
-    
-- <span data-ttu-id="4555b-144">電話会議を有効または無効にする場合</span><span class="sxs-lookup"><span data-stu-id="4555b-144">When you enable or disable audio conferencing.</span></span>
-    
-- <span data-ttu-id="4555b-145">パブリック会議を使用するよう構成されたユーザーの会議 ID を変更またはリセットする場合</span><span class="sxs-lookup"><span data-stu-id="4555b-145">When you change or reset the Conference ID for a user configured to use public meetings.</span></span>
-    
-- <span data-ttu-id="4555b-146">ユーザーを新しい電話会議ブリッジに移行する場合</span><span class="sxs-lookup"><span data-stu-id="4555b-146">When you move the user to a new audio conferencing bridge.</span></span>
-    
-- <span data-ttu-id="4555b-p109">電話番号が電話会議ブリッジから割り当てられていない場合。これは複雑なシナリオで、追加手順を必要とします。詳細については、「[電話会議ブリッジの有料または無料の電話番号を変更する](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="4555b-p109">When a phone number is unassigned from a audio conferencing bridge. This is a complex scenario which requires additional steps. For more information, see [Change the toll or toll free numbers on your Audio Conferencing bridge](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).</span></span>
-    
-> [!IMPORTANT]
-> <span data-ttu-id="4555b-p110">Microsoft ブリッジを使用している場合、MMS は会議の更新のみを行います。サードパーティの電話会議プロバイダーを使用している場合、ユーザーは会議を手動で更新する必要があります。この場合、[Meeting Migration Tool](https://go.microsoft.com/fwlink/p/?linkid=626047) を使用できます。</span><span class="sxs-lookup"><span data-stu-id="4555b-p110">MMS only updates meetings when you're using the Microsoft bridge. If you are using a third-party audio conferencing provider, the users will need to update their meetings manually. In this case, you can use the [Meeting Migration Tool](https://go.microsoft.com/fwlink/p/?linkid=626047).</span></span> 
-  
-<span data-ttu-id="4555b-p111">ユーザーの電話会議の設定に対する変更の一部は、MMS をトリガーしません。特に、次の 2 つの変更では、MMS によって会議が更新されません。</span><span class="sxs-lookup"><span data-stu-id="4555b-p111">Not all changes to a user's audio conferencing settings trigger MMS. Specifically, the following two changes won't result in MMS updating meetings:</span></span>
-  
-- <span data-ttu-id="4555b-155">会議の開催者の SIP アドレスを変更する場合 (SIP ユーザー名または SIP ドメインのいずれか)</span><span class="sxs-lookup"><span data-stu-id="4555b-155">When you change the SIP address for the meeting organizer (either their SIP user name or their SIP domain)</span></span>
-    
-- <span data-ttu-id="4555b-156">[Update-CsTenantMeetingUrl](https://go.microsoft.com/fwlink/p/?linkid=836442) コマンドを使用して組織の会議 URL を変更する場合。</span><span class="sxs-lookup"><span data-stu-id="4555b-156">When you change your organization's meeting URL using the [Update-CsTenantMeetingUrl](https://go.microsoft.com/fwlink/p/?linkid=836442) command.</span></span>
-    
-## <a name="what-happens-when-mms-updates-meetings"></a><span data-ttu-id="4555b-157">MMS が会議を更新するときに発生すること</span><span class="sxs-lookup"><span data-stu-id="4555b-157">What happens when MMS updates meetings?</span></span>
-
-<span data-ttu-id="4555b-158">MMS がユーザーの会議を更新する必要があることを検出すると、次の操作が行われます。</span><span class="sxs-lookup"><span data-stu-id="4555b-158">When MMS detects that a user's meetings need to be updated, it will do the following:</span></span>
-  
-1. <span data-ttu-id="4555b-159">ユーザーが今後にスケジュールしたすべての Skype for Business 会議および Microsoft Teams 会議を識別する</span><span class="sxs-lookup"><span data-stu-id="4555b-159">Identify all Skype for Business and Microsoft Teams meetings the user has scheduled in the future</span></span>
-    
-   - <span data-ttu-id="4555b-160">MMS が動作する前に発生したすべての Skype for Business 会議および Microsoft Teams 会議がスキップされる</span><span class="sxs-lookup"><span data-stu-id="4555b-160">Any Skype for Business or Microsoft Teams meetings that occurred prior to when MMS runs are skipped</span></span>
-    
-   - <span data-ttu-id="4555b-161">ユーザーが開催者である会議のみが更新される</span><span class="sxs-lookup"><span data-stu-id="4555b-161">Only the meetings where the user is the organizer are updated</span></span>
-    
-2. <span data-ttu-id="4555b-162">会議の詳細のオンライン会議の情報ブロックを置き換える</span><span class="sxs-lookup"><span data-stu-id="4555b-162">Replace the online meeting information block in the meeting details</span></span>
-    
-3. <span data-ttu-id="4555b-163">会議の開催者に代わって、更新内容をすべての会議出席依頼の受信者に送信する</span><span class="sxs-lookup"><span data-stu-id="4555b-163">Send updates to all meeting recipients on behalf of the meeting organizer</span></span>
-    
-   <span data-ttu-id="4555b-164">**MMS が動作するまでにかかる時間**</span><span class="sxs-lookup"><span data-stu-id="4555b-164">**How long will it take for MMS to run?**</span></span>
-  
-<span data-ttu-id="4555b-p112">MMS が会議を移行するのにかかる時間の量は、影響するユーザーの数、各ユーザーが予定表に抱えている Skype for Business 会議および Microsoft Teams 会議の合計数によって変わります。少なくとも、動作するのに 10 分はかかります。一部の大規模な移行は最大 12 時間かかりますが、多くの移行は 1 時間で完了します。</span><span class="sxs-lookup"><span data-stu-id="4555b-p112">The amount of time it take for MMS to migrate meetings varies depending on how many users are impacted, and the total number of Skype for Business or Microsoft Teams meetings each user has on their calendar. At a minimum, it will take 10 minutes to run. While some large migrations can take up to 12 hours, most migrations should complete within 1 hour.</span></span>
-  
- <span data-ttu-id="4555b-168">**制限事項と潜在的な問題**</span><span class="sxs-lookup"><span data-stu-id="4555b-168">**Limitations and potential issues**</span></span>
-  
-- <span data-ttu-id="4555b-p113">Outlook on the Web で [ **Skype 会議の追加**] ボタンをクリックして、または Outlook 用の Skype 会議アドインを使用してスケジュールされた Skype for Business 会議および Microsoft Teams 会議のみが移行されます。このため、ユーザーがある会議から新しい会議に Skype オンライン会議の情報をコピーして貼り付ける場合は、その新しい会議は更新されません。</span><span class="sxs-lookup"><span data-stu-id="4555b-p113">Only the Skype for Business or Microsoft Teams meetings that were scheduled by clicking the **Add Skype meeting** button in Outlook on the Web or by using the Skype Meeting add-in for Outlook are migrated. In other words, if a user copies and pastes the Skype online meeting information from one meeting to a new meeting, that new meeting won't be updated.</span></span>
-    
-- <span data-ttu-id="4555b-p114">MMS は会議が移行されるときにオンライン会議の情報ブロックのすべてを置き換えます。このため、ユーザーがそのブロックを編集した場合は、それらの変更は上書きされます。オンライン会議の情報ブロック以外の会議の詳細に含まれているコンテンツは影響しません。</span><span class="sxs-lookup"><span data-stu-id="4555b-p114">MMS replaces everything in the online meeting information block when a meeting is migrated. Therefore, if a user has edited that block, their changes will be overwritten. Any content they have in the meeting details outside of the online meeting information block won't be affected.</span></span>
-    
-     ![MMS で更新される会議ブロック。](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
-  
-- <span data-ttu-id="4555b-p115">作成された、または会議に添付された会議コンテンツ (ホワイトボード、投票など) は、MMS が動作すると保持されません。会議の開催者が事前にコンテンツを会議に添付している場合、そのコンテンツは MMS の動作後に再作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="4555b-p115">Meeting content that was created or attached to the meeting (whiteboards, polls and so on) won't be retained after MMS runs. If your meeting organizers have attached content to the meetings in advance, the content will need to be recreated after MMS runs.</span></span>
-    
-- <span data-ttu-id="4555b-p116">予定表の項目内、および Skype 会議からの共有の会議ノートへのリンクも上書きされます。OneNote に保存される実際の会議ノートは引き続きその場所に存在し、共有のノートへのリンクのみが上書きされます。</span><span class="sxs-lookup"><span data-stu-id="4555b-p116">The link to the shared meeting notes in the calendar item and also from within the Skype meeting also will be overwritten. Note that the actual meeting notes stored in OneNote will still be there, it is only the link to the shared notes that gets overwritten.</span></span>
-    
-- <span data-ttu-id="4555b-179">(開催者を含めて) 250 人を超える参加者がいる会議は移行できません。</span><span class="sxs-lookup"><span data-stu-id="4555b-179">Meetings with more than 250 attendees (including the organizer) won't be migrated.</span></span>
-    
-- <span data-ttu-id="4555b-180">会議出席依頼の本文の UNICODE 文字の一部が間違って特殊文字 ï、¿、½、� に置き換えられる場合があります。</span><span class="sxs-lookup"><span data-stu-id="4555b-180">Some UNICODE characters in the body of the invite may be incorrectly updated to one of the following special characters: ï, ¿, ½, �.</span></span>
-    
-### <a name="what-will-the-users-see-when-mms-updates-their-meetings"></a><span data-ttu-id="4555b-181">MMS によって会議が更新されるときにユーザーには何が表示されますか。</span><span class="sxs-lookup"><span data-stu-id="4555b-181">What will the users see when MMS updates their meetings?</span></span>
-
-<span data-ttu-id="4555b-p117">会議移行ツールと同様に、MMS はユーザーに代わって会議の更新を送信します。このため、ユーザーに表示されるのは、別の機会の会議承諾通知のみになります。これはユーザーにとって分かりにくい可能性があるため、ユーザーをオンプレミスから Skype for Business Online に移行するときだけではなく、MMS をトリガーする電話会議の変更を行うときにも、ユーザーに事前に通知することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="4555b-p117">Just like the Meeting Migration Tool, MMS sends meeting updates on behalf of users. Therefore, the only thing your users will see is another round of meeting acceptance notifications for their meetings. This might be confusing for users, so we recommend that you notify your users in advance not only when you migrate them from on-premises to Skype for Business Online, but also when you make audio conferencing changes that will trigger MMS.</span></span>
-  
-## <a name="managing-mms"></a><span data-ttu-id="4555b-185">MMS の管理</span><span class="sxs-lookup"><span data-stu-id="4555b-185">Managing MMS</span></span>
-
-<span data-ttu-id="4555b-186">Windows PowerShell を使用して MMS を管理し、継続的な移行の状態を確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="4555b-186">You need to use Windows PowerShell to manage MMS and check the status of ongoing migrations.</span></span> <span data-ttu-id="4555b-187">このセクションの情報は、PowerShell を使用した Skype for Business の組織の管理に慣れていることを前提としています。</span><span class="sxs-lookup"><span data-stu-id="4555b-187">The information in this section assumes that you're familiar with using PowerShell to manage your Skype for Business organization.</span></span> <span data-ttu-id="4555b-188">PowerShell を初めて使用する場合は、この資料の最後に[、Skype をビジネスの組織を管理するために PowerShell を使用する](setting-up-the-meeting-migration-service-mms.md#WPSInfo)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="4555b-188">If you are new to PowerShell, see the [Using PowerShell to manage your Skype for Business organization](setting-up-the-meeting-migration-service-mms.md#WPSInfo) section at the end of this article.</span></span>
+<span data-ttu-id="22014-109">既定では、MMS 自動的にトリガーのような場合、管理者が無効にする、テナントのレベルがされます。</span><span class="sxs-lookup"><span data-stu-id="22014-109">By default, MMS is automatically triggered in each of these cases, although admins can disable it at the tenant level.</span></span> <span data-ttu-id="22014-110">さらに、管理者は、手動で特定のユーザーの会議の移行を開始するのに PowerShell コマンドレットを使用することができます。</span><span class="sxs-lookup"><span data-stu-id="22014-110">In addition, admins can use a PowerShell cmdlet to manually trigger meeting migration for a given user.</span></span>
 
 > [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-  
-### <a name="how-do-i-check-the-status-of-meeting-migrations"></a><span data-ttu-id="4555b-189">会議の移行のステータスを確認する方法を教えてください。</span><span class="sxs-lookup"><span data-stu-id="4555b-189">How do I check the status of meeting migrations?</span></span>
+> <span data-ttu-id="22014-111">チームの会議に会議の Skype を変換する機能と電話会議の設定を変更するのには既存のチーム ミーティングを更新する機能は、タップのお客様のみに制限されて。</span><span class="sxs-lookup"><span data-stu-id="22014-111">The ability to convert Skype for Business meetings to Teams meetings and the ability to update existing Teams meetings to modify audio-conferencing settings is currently limited to TAP customers only.</span></span>
 
-<span data-ttu-id="4555b-p119">コマンドレットを使用して、会議の移行のステータスを確認します。次に例を示します。`Get-CsMeetingMigrationStatus`</span><span class="sxs-lookup"><span data-stu-id="4555b-p119">You use the  `Get-CsMeetingMigrationStatus` cmdlet to check the status of meeting migrations. Below are some examples.</span></span>
-  
-<span data-ttu-id="4555b-192">すべての MMS の移行に関する概要ステータスを取得するには、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="4555b-192">To get a summary status of all MMS migrations, run the following command:</span></span>
-  
+<span data-ttu-id="22014-112">**制限**: 会議次のいずれかの場合、移行サービスを使用できません。</span><span class="sxs-lookup"><span data-stu-id="22014-112">**Limitations**: The meeting migration service can't be used if any of the following apply:</span></span>
+
+- <span data-ttu-id="22014-113">ユーザーのメールボックスは、Exchange、オンプレミスでホストされています。</span><span class="sxs-lookup"><span data-stu-id="22014-113">The user’s mailbox is hosted in Exchange on-premises.</span></span>
+- <span data-ttu-id="22014-114">サード ・ パーティ製のオーディオ会議プロバイダーを使用するユーザーを構成します。</span><span class="sxs-lookup"><span data-stu-id="22014-114">The user is configured to use a third-party audio conferencing provider.</span></span> <span data-ttu-id="22014-115">オーディオ会議プロバイダー [ACP] サポートで予定されているライフの最後に、2019 年 4 月 1日として[発表されていた](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers)注意してください。</span><span class="sxs-lookup"><span data-stu-id="22014-115">Note that audio conferencing provider [ACP] support is scheduled for end of life on April 1, 2019, as [previously announced](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers).</span></span>
+- <span data-ttu-id="22014-116">ユーザー クラウドからに移行 Skype ビジネス サーバー設置型です。</span><span class="sxs-lookup"><span data-stu-id="22014-116">The user is being migrated from the cloud to Skype for Business Server on-premises.</span></span>
+
+<span data-ttu-id="22014-117">このような場合は、エンド ・ ユーザーは、独自の会議を移行するのには[会議の移行ツール](https://www.microsoft.com/en-us/download/details.aspx?id=51659)を使用できます代わりにします。</span><span class="sxs-lookup"><span data-stu-id="22014-117">In these situations, end users can use the [Meeting Migration Tool](https://www.microsoft.com/en-us/download/details.aspx?id=51659) to migrate their own meetings instead.</span></span>
+
+## <a name="how-mms-works"></a><span data-ttu-id="22014-118">MMS のしくみ</span><span class="sxs-lookup"><span data-stu-id="22014-118">How MMS works</span></span>
+
+<span data-ttu-id="22014-119">MMS がユーザーごとにトリガーされると、そのユーザーの移行要求はキューに配置されます。</span><span class="sxs-lookup"><span data-stu-id="22014-119">When MMS is triggered for a given user, a migration request for that user is placed in a queue.</span></span> <span data-ttu-id="22014-120">任意の競合状態を避けるためには、90 分以上が経過するまでは意図的に、キューに入れられた要求が処理されます。</span><span class="sxs-lookup"><span data-stu-id="22014-120">To avoid any race conditions, the queued request is deliberately not processed until at least 90 minutes have gone by.</span></span> <span data-ttu-id="22014-121">MMS では、要求を処理すると、次のタスクを実行します。</span><span class="sxs-lookup"><span data-stu-id="22014-121">Once MMS processes the request, it performs the following tasks:</span></span>
+
+1. <span data-ttu-id="22014-122">ユーザーごとに編成され、今後予定されているすべての既存の会議のユーザーのメールボックスを検索します。</span><span class="sxs-lookup"><span data-stu-id="22014-122">It searches that user’s mailbox for all existing meetings organized by that user and scheduled in the future.</span></span>
+2. <span data-ttu-id="22014-123">ユーザーのメールボックス内の情報に基づき、いずれかを更新または実際の状況によって、そのユーザーのオンライン ビジネスのチームまたは Skype のいずれかで新しい会議をスケジュールします。</span><span class="sxs-lookup"><span data-stu-id="22014-123">Based on the information found in the user’s mailbox, it either updates or schedules new meetings in either Teams or Skype for Business Online for that user, depending on the exact scenario.</span></span>
+3. <span data-ttu-id="22014-124">電子メール メッセージでは、[ミーティングの詳細、オンライン会議のブロックに置き換えられます。</span><span class="sxs-lookup"><span data-stu-id="22014-124">In the email message, it replaces the online meeting block in the meeting details.</span></span>
+4. <span data-ttu-id="22014-125">その会議の更新されたバージョンを会議の開催者の代理として会議のすべての受信者に送信します。</span><span class="sxs-lookup"><span data-stu-id="22014-125">It sends the updated version of that meeting to all meeting recipients on behalf of the meeting organizer.</span></span> <span data-ttu-id="22014-126">会議出席者に電子メールで更新された会議出席の座標を使用して会議の更新が表示されます。</span><span class="sxs-lookup"><span data-stu-id="22014-126">Meeting invitees will receive a meeting update with updated meeting coordinates in their email.</span></span> 
+
+    ![MMS で更新される会議ブロック。](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
+
+<span data-ttu-id="22014-128">MMS がトリガーされた場合、通常かかるユーザーの会議は、移行するまで、約 2 時間です。</span><span class="sxs-lookup"><span data-stu-id="22014-128">From the time MMS is triggered, it typically takes about 2 hours until the user’s meetings are migrated.</span></span> <span data-ttu-id="22014-129">ただし、ユーザーが会議の数が多い場合、長くかかる場合があります。</span><span class="sxs-lookup"><span data-stu-id="22014-129">However, if the user has a large number of meetings, it might take longer.</span></span> <span data-ttu-id="22014-130">MMS では、ユーザーの会議を 1 つまたは複数の移行エラーが発生すると、それによって定期的に再試行最大 9 倍 24 時間の範囲で。</span><span class="sxs-lookup"><span data-stu-id="22014-130">If MMS encounters an error migrating one or more meetings for the user, it will periodically retry up to 9 times over the span of 24 hours.</span></span>
+
+<span data-ttu-id="22014-131">**メモ**:</span><span class="sxs-lookup"><span data-stu-id="22014-131">**Notes**:</span></span>
+
+- <span data-ttu-id="22014-p107">MMS は会議が移行されるときにオンライン会議の情報ブロックのすべてを置き換えます。このため、ユーザーがそのブロックを編集した場合は、それらの変更は上書きされます。オンライン会議の情報ブロック以外の会議の詳細に含まれているコンテンツは影響しません。</span><span class="sxs-lookup"><span data-stu-id="22014-p107">MMS replaces everything in the online meeting information block when a meeting is migrated. Therefore, if a user has edited that block, their changes will be overwritten. Any content they have in the meeting details outside of the online meeting information block won't be affected.</span></span>
+- <span data-ttu-id="22014-135">Outlook on the Web で [ **Skype 会議の追加**] ボタンをクリックして、または Outlook 用の Skype 会議アドインを使用してスケジュールされた Skype for Business 会議および Microsoft Teams 会議のみが移行されます。</span><span class="sxs-lookup"><span data-stu-id="22014-135">Only the Skype for Business or Microsoft Teams meetings that were scheduled by clicking the **Add Skype meeting** button in Outlook on the Web or by using the Skype Meeting add-in for Outlook are migrated.</span></span> <span data-ttu-id="22014-136">ユーザーは、コピーし、新しい会議を 1 つの会議から Skype のオンライン会議の情報を貼り付けます、会議サービスではないのでその他の会議は更新されません。</span><span class="sxs-lookup"><span data-stu-id="22014-136">If a user copies and pastes the Skype online meeting information from one meeting to a new meeting, that new meeting won't be updated since there is no meeting in the original service.</span></span>
+- <span data-ttu-id="22014-137">MMS を実行した後、会議の作成または会議 (ホワイト ボードや投票など) に接続されているコンテンツは保持されません。</span><span class="sxs-lookup"><span data-stu-id="22014-137">Meeting content that was created or attached to the meeting (whiteboards, polls, and so on) won't be retained after MMS runs.</span></span> <span data-ttu-id="22014-138">会議の開催者が事前にコンテンツを会議に添付している場合、そのコンテンツは MMS の動作後に再作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="22014-138">If your meeting organizers have attached content to the meetings in advance, the content will need to be recreated after MMS runs.</span></span>
+- <span data-ttu-id="22014-139">予定表の項目内、および Skype 会議からの共有の会議ノートへのリンクも上書きされます。</span><span class="sxs-lookup"><span data-stu-id="22014-139">The link to the shared meeting notes in the calendar item and also from within the Skype meeting also will be overwritten.</span></span> <span data-ttu-id="22014-140">OneNote に保存されている実際の会議の記録があることに注意があります。上書きされる共有のノートにリンクだけすることをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="22014-140">Note that the actual meeting notes stored in OneNote will still be there; it is only the link to the shared notes that is overwritten.</span></span>
+- <span data-ttu-id="22014-141">(開催者を含めて) 250 人を超える参加者がいる会議は移行できません。</span><span class="sxs-lookup"><span data-stu-id="22014-141">Meetings with more than 250 attendees (including the organizer) won't be migrated.</span></span>
+- <span data-ttu-id="22014-142">招待状の本文にいくつかの UNICODE 文字がありますが正しく更新されません次の特殊文字のいずれかに: ï、¿、½、します。</span><span class="sxs-lookup"><span data-stu-id="22014-142">Some UNICODE characters in the body of the invite might be incorrectly updated to one of the following special characters: ï, ¿, ½, �.</span></span>
+
+## <a name="triggering-mms-for-a-user"></a><span data-ttu-id="22014-143">ユーザーが MMS をトリガーします。</span><span class="sxs-lookup"><span data-stu-id="22014-143">Triggering MMS for a user</span></span>
+
+<span data-ttu-id="22014-144">このセクションでは、次の場合のそれぞれで MMS がトリガーされたときの動作について説明します。</span><span class="sxs-lookup"><span data-stu-id="22014-144">This section describes what happens when MMS is triggered in each of the following cases:</span></span>
+
+- <span data-ttu-id="22014-145">クラウドへの設置からユーザーが移行されるとき</span><span class="sxs-lookup"><span data-stu-id="22014-145">When a user is migrated from on-premises to the cloud</span></span>
+- <span data-ttu-id="22014-146">管理者がユーザーの電話会議の設定に変更を行う場合</span><span class="sxs-lookup"><span data-stu-id="22014-146">When an admin makes a change to the user’s audio conferencing settings</span></span> 
+- <span data-ttu-id="22014-147">TeamsOnly モード (タップのお客様のみ) にユーザーをアップグレードするとき</span><span class="sxs-lookup"><span data-stu-id="22014-147">When a user is upgraded to TeamsOnly mode (TAP customers only)</span></span>
+- <span data-ttu-id="22014-148">PowerShell を使用する場合</span><span class="sxs-lookup"><span data-stu-id="22014-148">When you use PowerShell</span></span> 
+
+### <a name="updating-meetings-when-you-move-an-on-premises-user-to-the-cloud"></a><span data-ttu-id="22014-149">オンプレミスのユーザーをクラウドに移行するときに、会議を更新</span><span class="sxs-lookup"><span data-stu-id="22014-149">Updating meetings when you move an on-premises user to the cloud</span></span>
+
+<span data-ttu-id="22014-150">これは、MMS により、ユーザーのスムーズなトランジションを作成する最も一般的なシナリオです。</span><span class="sxs-lookup"><span data-stu-id="22014-150">This is the most common scenario where MMS helps create a smoother transition for your users.</span></span> <span data-ttu-id="22014-151">会議の移行せずユーザーがオンラインに移動すると Skype のビジネス サーバー設置型のユーザーが既存のミーティングは動作しなく。</span><span class="sxs-lookup"><span data-stu-id="22014-151">Without meeting migration, existing meetings organized by a user in Skype for Business Server on-premises would no longer work once the user is moved online.</span></span> <span data-ttu-id="22014-152">したがって、設置型の管理ツールを使用する (か、`Move-CsUser`またはコントロール パネルの [管理者) ユーザーをクラウドに移動するに既存の会議は自動的に移動、クラウドに次のように。</span><span class="sxs-lookup"><span data-stu-id="22014-152">Therefore, when you use the on-premises admin tools (either `Move-CsUser` or the Admin Control Panel) to move a user to the cloud, existing meetings are automatically moved to the cloud as follows:</span></span>
+
+- <span data-ttu-id="22014-153">場合、`MoveToTeams`でスイッチを`Move-CsUser`が指定されている会議は、チームに直接移行できます。</span><span class="sxs-lookup"><span data-stu-id="22014-153">If the `MoveToTeams` switch in `Move-CsUser` is specified, meetings are migrated directly to Teams.</span></span> <span data-ttu-id="22014-154">このスイッチを使用するには、CU8 を持つサーバーをビジネスの Skype が必要です。</span><span class="sxs-lookup"><span data-stu-id="22014-154">Use of this switch requires Skype for Business Server with CU8 or later.</span></span>
+- <span data-ttu-id="22014-155">それ以外の場合の会議は、ビジネス オンラインの Skype に移行されます。</span><span class="sxs-lookup"><span data-stu-id="22014-155">Otherwise meetings are migrated to Skype for Business Online.</span></span>
+
+<span data-ttu-id="22014-156">どちらの場合も、[ユーザー割り当てられている場合、オーディオ会議のライセンスをクラウドに移動する前に、会議は、ダイヤルインの座標を使用して作成されます。</span><span class="sxs-lookup"><span data-stu-id="22014-156">In either case, if the user has been assigned an Audio Conferencing license before being moved to the cloud, the meetings will be created with dial-in coordinates.</span></span> <span data-ttu-id="22014-157">オンプレミスからクラウドに移行するユーザーを移動すると、そのユーザーの音声会議を使用する、1 つだけの会議の移行をトリガーするためにユーザーを移動する前にまず、オーディオ会議を割り当てることをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="22014-157">If you move a user from on-premises to the cloud and you intend for that user to use Audio Conferencing, we recommend that you first assign the audio conference before you move the user so that only 1 meeting migration is triggered.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="22014-158">現在の会議を MoveToTeams スイッチを使用してチームに直接移行することは、タップでできるだけです。</span><span class="sxs-lookup"><span data-stu-id="22014-158">Currently the ability to migrate meetings directly to Teams via the MoveToTeams switch is only available in TAP.</span></span> <span data-ttu-id="22014-159">タップのお客様が、MoveToTeams スイッチを指定する場合は、ユーザーは、TeamsOnly モードに移動されますが、会議は、ビジネス オンラインの Skype に移動されます。</span><span class="sxs-lookup"><span data-stu-id="22014-159">If you are not a TAP customer and the MoveToTeams switch is specified, the user will be moved to TeamsOnly mode, but the meetings will be moved to Skype for Business Online.</span></span> <span data-ttu-id="22014-160">場合でも、ユーザーは、TeamsOnly モードに参加できますビジネス会議のため、Skype。</span><span class="sxs-lookup"><span data-stu-id="22014-160">Even though the user is in TeamsOnly mode, they can still join any Skype for Business meeting.</span></span>
+
+### <a name="updating-meetings-when-a-users-audio-conferencing-settings-change"></a><span data-ttu-id="22014-161">ユーザーの電話会議の設定が変更されるときの会議の更新</span><span class="sxs-lookup"><span data-stu-id="22014-161">Updating meetings when a user's audio conferencing settings change</span></span>
+
+<span data-ttu-id="22014-162">MMS では以下の場合では、ビジネスおよびマイクロソフトのチーム会議の追加、削除、またはダイヤルインの座標を変更する既存の Skype が更新されます。</span><span class="sxs-lookup"><span data-stu-id="22014-162">In the following cases, MMS will update existing Skype for Business and Microsoft Teams meetings to add, remove, or modify dial-in coordinates:</span></span>
+
+- <span data-ttu-id="22014-163">割り当てるまたは、ビジネスの Skype のサード ・ パーティ製のオーディオ会議プロバイダーとの統合を有効にしていないユーザーの Microsoft オーディオ会議サービス ライセンスを削除します。</span><span class="sxs-lookup"><span data-stu-id="22014-163">When you assign or remove a Microsoft Audio Conferencing service license of a user who isn't enabled for the integration of Skype for Business with third-party audio conferencing providers.</span></span>
+- <span data-ttu-id="22014-164">マイクロソフトに、他のプロバイダーから割り当てられているマイクロソフトの電話会議サービスのライセンスを持っているユーザーのオーディオ会議プロバイダーを変更するとします。</span><span class="sxs-lookup"><span data-stu-id="22014-164">When you change the audio conferencing provider of a user who has a Microsoft’s Audio Conferencing service license assigned from any other provider to Microsoft.</span></span>
+- <span data-ttu-id="22014-165">有効または無効にするユーザーの電話会議。</span><span class="sxs-lookup"><span data-stu-id="22014-165">When you enable or disable audio conferencing for a user.</span></span>
+- <span data-ttu-id="22014-166">変更するか、パブリック ・ ミーティングを使用するように構成するユーザーの会議 ID をリセットします。</span><span class="sxs-lookup"><span data-stu-id="22014-166">When you change or reset the conference ID for a user configured to use public meetings.</span></span>
+- <span data-ttu-id="22014-167">ユーザーを新しい電話会議ブリッジに移行する場合</span><span class="sxs-lookup"><span data-stu-id="22014-167">When you move the user to a new audio conferencing bridge.</span></span>
+- <span data-ttu-id="22014-168">オーディオ会議ブリッジからの電話番号が割り当てられていません。</span><span class="sxs-lookup"><span data-stu-id="22014-168">When a phone number from a audio conferencing bridge is unassigned.</span></span> <span data-ttu-id="22014-169">これは、追加の手順を必要とする複雑なシナリオです。</span><span class="sxs-lookup"><span data-stu-id="22014-169">This is a complex scenario that requires additional steps.</span></span> <span data-ttu-id="22014-170">詳細については、[変更オーディオ会議ブリッジの電話番号](https://docs.microsoft.com/en-us/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="22014-170">For more information, see [Change the phone numbers on your audio conferencing bridge](https://docs.microsoft.com/en-us/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).</span></span>
+
+<span data-ttu-id="22014-p116">ユーザーの電話会議の設定に対する変更の一部は、MMS をトリガーしません。特に、次の 2 つの変更では、MMS によって会議が更新されません。</span><span class="sxs-lookup"><span data-stu-id="22014-p116">Not all changes to a user's audio conferencing settings trigger MMS. Specifically, the following two changes won't result in MMS updating meetings:</span></span>
+
+- <span data-ttu-id="22014-173">会議の開催者の SIP アドレスを変更する場合 (SIP ユーザー名または SIP ドメインのいずれか)</span><span class="sxs-lookup"><span data-stu-id="22014-173">When you change the SIP address for the meeting organizer (either their SIP user name or their SIP domain)</span></span>
+- <span data-ttu-id="22014-174">組織の URL を使用しての会議を変更すると、`Update-CsTenantMeetingUrl`コマンドです。</span><span class="sxs-lookup"><span data-stu-id="22014-174">When you change your organization's meeting URL using the `Update-CsTenantMeetingUrl` command.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="22014-175">サード ・ パーティ製の ACP のユーザーが有効になっている場合は、MMS は発生しません。</span><span class="sxs-lookup"><span data-stu-id="22014-175">MMS is not triggered if the user is enabled for a third-party ACP.</span></span> <span data-ttu-id="22014-176">ACP は、[発表されていた](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers)として、2019 年 4 月 1 日の寿命の最後の予定です。</span><span class="sxs-lookup"><span data-stu-id="22014-176">ACP is scheduled for end of life on April 1, 2019 as [previously announced](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers).</span></span> <span data-ttu-id="22014-177">MMS のユーザーの会議を移行する場合は、ユーザーはまず ACP を無効にします。</span><span class="sxs-lookup"><span data-stu-id="22014-177">If you want MMS to migrate a user’s meeting, first disable ACP for the user.</span></span>
+
+### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a><span data-ttu-id="22014-178">TeamsUpgradePolicy を割り当てる場合は、会議を更新</span><span class="sxs-lookup"><span data-stu-id="22014-178">Updating meetings when assigning TeamsUpgradePolicy</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="22014-179">このセクションでは、最初に使用可能になるタップのお客様に今後の機能について説明します。</span><span class="sxs-lookup"><span data-stu-id="22014-179">This section describes upcoming functionality that will first be made available to TAP customers.</span></span>
+
+<span data-ttu-id="22014-180">既定では、会議の移行は、自動的に起動のインスタンスがユーザーに付与されると`TeamsUpgradePolicy`と`mode=TeamsOnly`または`mode= SfBWithTeamsCollabAndMeetings`。</span><span class="sxs-lookup"><span data-stu-id="22014-180">By default, meeting migration will be automatically triggered when a user is granted an instance of `TeamsUpgradePolicy` with `mode=TeamsOnly` or `mode= SfBWithTeamsCollabAndMeetings`.</span></span> <span data-ttu-id="22014-181">これらのモードのいずれかを付与する場合は、会議を移行し、指定しない場合は、`MigrateMeetingsToTeams $false`の`Grant-CsTeamsUpgradePolicy`。</span><span class="sxs-lookup"><span data-stu-id="22014-181">If you do not want to migrate meetings when granting either of these modes, then specify `MigrateMeetingsToTeams $false` in `Grant-CsTeamsUpgradePolicy`.</span></span>
+
+<span data-ttu-id="22014-182">また、次の点を注意してください。</span><span class="sxs-lookup"><span data-stu-id="22014-182">Also note the following:</span></span>
+
+- <span data-ttu-id="22014-183">会議の移行のみ呼び出されるを与えるときに`TeamsUpgradePolicy`の特定のユーザーです。</span><span class="sxs-lookup"><span data-stu-id="22014-183">Meeting migration is only invoked when you grant `TeamsUpgradePolicy` for a specific user.</span></span> <span data-ttu-id="22014-184">付与する場合は`TeamsUpgradePolicy`と`mode=TeamsOnly`または`mode=SfBWithTeamsCollabAndMeetings`テナント単位で会議の移行は呼び出されません。</span><span class="sxs-lookup"><span data-stu-id="22014-184">If you grant `TeamsUpgradePolicy` with `mode=TeamsOnly` or `mode=SfBWithTeamsCollabAndMeetings` on a tenant-wide basis, meeting migration is not invoked.</span></span>
+- <span data-ttu-id="22014-185">ユーザーことができますだけに付与する TeamsOnly モードの場合は、ユーザーのオンライン ホームします。</span><span class="sxs-lookup"><span data-stu-id="22014-185">A user can only be granted TeamsOnly mode if the user is homed online.</span></span> <span data-ttu-id="22014-186">使用してホーム設置型ではユーザーを移動する必要があります`Move-CsUser`、上記のとおりです。</span><span class="sxs-lookup"><span data-stu-id="22014-186">Users that are homed on-premises must be moved using `Move-CsUser` as previously described.</span></span>
+- <span data-ttu-id="22014-187">TeamsOnly または SfBWithTeamsCollabAndMeetings 以外のモードを許可する変換されません既存のチーム ミーティング Skype をビジネス ・ ミーティングの。</span><span class="sxs-lookup"><span data-stu-id="22014-187">Granting a mode other than TeamsOnly or SfBWithTeamsCollabAndMeetings does not convert existing Teams meetings to Skype for Business meetings.</span></span>
+
+## <a name="managing-mms"></a><span data-ttu-id="22014-188">MMS の管理</span><span class="sxs-lookup"><span data-stu-id="22014-188">Managing MMS</span></span>
+
+<span data-ttu-id="22014-189">Windows PowerShell を使用すると、継続的な移行の状態を確認して、手動で会議の移行をトリガーして移行を完全に無効にできます。</span><span class="sxs-lookup"><span data-stu-id="22014-189">Using Windows PowerShell, you can check the status of ongoing migrations, manually trigger meeting migration, and disable migration altogether.</span></span> 
+
+### <a name="check-the-status-of-meeting-migrations"></a><span data-ttu-id="22014-190">会議の移行の状態を確認します。</span><span class="sxs-lookup"><span data-stu-id="22014-190">Check the status of meeting migrations</span></span>
+
+<span data-ttu-id="22014-191">使用する、`Get-CsMeetingMigrationStatus`会議の移行の状態を確認するコマンドレットです。</span><span class="sxs-lookup"><span data-stu-id="22014-191">You use the `Get-CsMeetingMigrationStatus` cmdlet to check the status of meeting migrations.</span></span> <span data-ttu-id="22014-192">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="22014-192">Below are some examples.</span></span>
+
+- <span data-ttu-id="22014-193">MMS のすべてのマイグレーション処理のステータスの概要を取得するには、移行の状態のすべての表形式のビューを提供する次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="22014-193">To get a summary status of all MMS migrations, run the following command which provides a tabular view of all migration states:</span></span>
+
+    ```
+    Get-CsMeetingMigrationStatus -SummaryOnly
+
+    State      UserCount
+    ------     ---------
+    Pending      21
+    InProgress    6
+    Failed            2 
+    Succeeded   131
+    ```
+- <span data-ttu-id="22014-194">特定の期間内ですべての移行の完全な詳細情報を取得するには、`StartTime`と`EndTime`のパラメーター。</span><span class="sxs-lookup"><span data-stu-id="22014-194">To get full details of all migrations within a specific time period, use the `StartTime` and `EndTime` parameters.</span></span> <span data-ttu-id="22014-195">などの次のコマンドは完全な詳細情報が発生したすべての移行で、2018 年 10 月 1 日からに戻る 2018 年 10 月 8日</span><span class="sxs-lookup"><span data-stu-id="22014-195">For example, the following command will return full details on all migrations that occurred from October 1, 2018 to October 8, 2018.</span></span>
+
+    ```
+    Get-CsMeetingMigrationStatus -StartTime "10/1/2018" -EndTime "10/8/2018"
+    ```
+- <span data-ttu-id="22014-196">特定のユーザーの移行の状態を確認するを使用して、`Identity`のパラメーターです。</span><span class="sxs-lookup"><span data-stu-id="22014-196">To check the status of migration for a specific user, use the `Identity` parameter.</span></span> <span data-ttu-id="22014-197">たとえば、次のコマンドには、ユーザー ashaw@contoso.com のステータスが返されます。</span><span class="sxs-lookup"><span data-stu-id="22014-197">For example, the following command will return the status for the user ashaw@contoso.com:</span></span>
+
+    ```
+    Get-CsMeetingMigrationStatus -Identity ashaw@contoso.com
+    ```
+<span data-ttu-id="22014-198">移行に失敗した場合は、人々 はそれらを解決するまでは、ユーザーが開催する会議にダイヤルインすることができませんので、できるだけ早く、これらの問題を解決するのにはアクションを実行します。</span><span class="sxs-lookup"><span data-stu-id="22014-198">If you see any migrations that have failed, take action to resolve these issues as soon as possible, since people won't be able to dial-in to the meetings organized by those users until you resolve them.</span></span> <span data-ttu-id="22014-199">場合`Get-CsMeetingMigrationStatus`の移行を示しています。 障害が発生した状態でこれらの手順に従います。</span><span class="sxs-lookup"><span data-stu-id="22014-199">If `Get-CsMeetingMigrationStatus` shows any migrations in a failed state, perform these steps:</span></span>
+ 
+1. <span data-ttu-id="22014-200">影響を受けているユーザーを特定します。</span><span class="sxs-lookup"><span data-stu-id="22014-200">Determine which users are affected.</span></span> <span data-ttu-id="22014-201">次のコマンドを実行して、影響を受けているユーザーと、報告された特定のエラーのリストを取得します。</span><span class="sxs-lookup"><span data-stu-id="22014-201">Run the following command to get the list of affected users, and the specific error that was reported:</span></span>
+
+    ```
+    Get-CsMeetingMigrationStatus| Where {$_.State -eq "Failed"}| Format-Table Identity, LastMessage
+    ```
+2. <span data-ttu-id="22014-202">、影響を受けるユーザーごとに、会議を手動で移行するのには会議の移行ツールを実行します。</span><span class="sxs-lookup"><span data-stu-id="22014-202">For each affected user, run the Meeting Migration Tool to manually migrate their meetings.</span></span>
+
+3. <span data-ttu-id="22014-203">会議移行ツールを使用しても移行が機能しない場合には、次の 2 つのオプションがあります。</span><span class="sxs-lookup"><span data-stu-id="22014-203">If migration still doesn't work with the Meeting Migration Tool, you have two options:</span></span>
+
+    - <span data-ttu-id="22014-204">ユーザーに新しい Skype 会議を作成してもらいます。</span><span class="sxs-lookup"><span data-stu-id="22014-204">Have the users create new Skype meetings.</span></span>
+    - <span data-ttu-id="22014-205">[サポートに問い合わせます](https://go.microsoft.com/fwlink/p/?LinkID=518322)。</span><span class="sxs-lookup"><span data-stu-id="22014-205">[Contact support](https://go.microsoft.com/fwlink/p/?LinkID=518322).</span></span>
+
+### <a name="trigger-meeting-migration-manually-for-a-user"></a><span data-ttu-id="22014-206">ユーザーは手動でトリガー会議の移行</span><span class="sxs-lookup"><span data-stu-id="22014-206">Trigger Meeting Migration manually for a user</span></span>
+
+<span data-ttu-id="22014-207">会議予定の自動移行の場合、だけでなく管理者手動でトリガーできますユーザーの会議の移行コマンドレットを実行して`Start-CsExMeetingMigration`。</span><span class="sxs-lookup"><span data-stu-id="22014-207">In addition to automatic meeting migrations, admins can manually trigger meeting migration for a user by running the cmdlet `Start-CsExMeetingMigration`.</span></span> <span data-ttu-id="22014-208">このコマンドレットは、指定したユーザーの移行要求をキューします。</span><span class="sxs-lookup"><span data-stu-id="22014-208">This cmdlet queues a migration request for the specified user.</span></span> <span data-ttu-id="22014-209">`TargetMeetingType`パラメーターでは、会議を移行する方法を指定することができます。</span><span class="sxs-lookup"><span data-stu-id="22014-209">The `TargetMeetingType` parameter allows you to specify how to migrate the meetings:</span></span> 
+
+- <span data-ttu-id="22014-210">使用して`TargetMeetingType Current`、ビジネス会議のための Skype は、ビジネス ・ ミーティングの Skype を維持され、チームの会議のチーム会議を維持するを指定します。</span><span class="sxs-lookup"><span data-stu-id="22014-210">Using `TargetMeetingType Current` specifies that Skype for Business meetings remain Skype for Business meetings and Teams meetings remain Teams meetings.</span></span> <span data-ttu-id="22014-211">ただしオーディオ会議の調整を変更する可能性があり、ビジネス会議のため、設置型の Skype は、ビジネス オンラインの Skype に移行するとします。</span><span class="sxs-lookup"><span data-stu-id="22014-211">However audio conferencing coordinates might be changed, and any on-premises Skype for Business meetings would be migrated to Skype for Business Online.</span></span>
+- <span data-ttu-id="22014-212">使用して`TargetMeetingType Teams`のチームに、既存の会議を移行する必要がある、オンライン ビジネスの設置、Skype で会議がホストされるかどうかに関係なくとかどうかに関係なく、オーディオ会議の更新プログラムは、必要を指定します。</span><span class="sxs-lookup"><span data-stu-id="22014-212">Using `TargetMeetingType Teams` specifies that any existing meeting must be migrated to Teams, regardless of whether the meeting is hosted in Skype for Business online or on-premises, and regardless of whether any audio conferencing updates are required.</span></span> 
+
+<span data-ttu-id="22014-213">次の例は、すべての会議は、チームに移行できるように、ユーザーの ashaw@contoso.com の会議の移行を開始する方法を示しています。</span><span class="sxs-lookup"><span data-stu-id="22014-213">The example below shows how to initiate meeting migration for user ashaw@contoso.com so that all meetings are migrated to Teams:</span></span>
+
 ```
-Get-CsMeetingMigrationStatus -SummaryOnly
+Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
 ```
+### <a name="enabling-and-disabling-mms"></a><span data-ttu-id="22014-214">MMS の有効化と無効化</span><span class="sxs-lookup"><span data-stu-id="22014-214">Enabling and disabling MMS</span></span>
 
-<span data-ttu-id="4555b-193">これによって、すべての移行状態が次のように表形式で表示されます。</span><span class="sxs-lookup"><span data-stu-id="4555b-193">This will give you a tabular view of all migration states like this:</span></span>
-  
-<span data-ttu-id="4555b-194">UserCount の状態---------------</span><span class="sxs-lookup"><span data-stu-id="4555b-194">State UserCount---------------</span></span><br/> <span data-ttu-id="4555b-195">保留中の 21</span><span class="sxs-lookup"><span data-stu-id="4555b-195">Pending 21</span></span><br/><span data-ttu-id="4555b-196">InProgress 6</span><span class="sxs-lookup"><span data-stu-id="4555b-196">InProgress 6</span></span><br/> <span data-ttu-id="4555b-197">失敗 2</span><span class="sxs-lookup"><span data-stu-id="4555b-197">Failed 2</span></span> <br/> <span data-ttu-id="4555b-198">成功 131</span><span class="sxs-lookup"><span data-stu-id="4555b-198">Succeeded 131</span></span>
-> [!IMPORTANT]
-> <span data-ttu-id="4555b-p120">移行が失敗したことを確認した場合は、それらの問題を解決する措置をできるだけ早く行います。問題に対処するまで、これらのユーザーによって開催される会議にダイヤルインすることはできません。詳細については、「[エラーが発生した場合の対処方法を教えてください。](setting-up-the-meeting-migration-service-mms.md#Troubleshooting)」セクションをご覧ください。</span><span class="sxs-lookup"><span data-stu-id="4555b-p120">If you see any migrations that have failed, take action to resolve these issues as soon as possible. People won't be able to dial-in to the meetings organized by those users until you address these. See the [What do I do if there is an error?](setting-up-the-meeting-migration-service-mms.md#Troubleshooting) section for more information.</span></span>
-  
-<span data-ttu-id="4555b-p121">特定の期間内におけるすべての移行の詳細を取得する場合に、 `StartTime` および `EndTime` パラメーターを使用できます。たとえば、次のコマンドを実行すると、2016 年 10 月 1 日から 2016 年 10 月 8 日に発生したすべての移行の詳細が返されます。</span><span class="sxs-lookup"><span data-stu-id="4555b-p121">To get full details of all migrations within a specific time period, you can use the  `StartTime` and `EndTime` parameters. For example, the following command will return full details on all migrations that occurred from October 1, 2016 to October 8, 2016.</span></span>
-  
-```
-Get-CsMeetingMigrationStatus -StartTime "10/1/2016" -EndTime "10/8/2016"
-```
+<span data-ttu-id="22014-215">MMS がすべての組織では、既定で有効になっているが、次のように無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="22014-215">MMS is enabled by default for all organizations, but it can be disabled as follows:</span></span>
 
-<span data-ttu-id="4555b-p122">特定のユーザーに関する移行のステータスを確認することもできます。この場合は  `Identity` パラメーターを使用できます。たとえば、次のコマンドを実行すると、ユーザー ashaw@contoso.com に関するステータスが返されます。</span><span class="sxs-lookup"><span data-stu-id="4555b-p122">You also may want to check the status of the migration for a specific user, and you can use the  `Identity` parameter for that. For example, the following command will return the status for the user ashaw@contoso.com:</span></span>
-  
-```
-Get-CsMeetingMigrationStatus -Identity "ashaw@contoso.com"
-```
+- <span data-ttu-id="22014-216">テナントのすべてを無効にします。</span><span class="sxs-lookup"><span data-stu-id="22014-216">Disable entirely for the tenant.</span></span> 
+- <span data-ttu-id="22014-217">音声会議に関連する変更だけを無効にします。</span><span class="sxs-lookup"><span data-stu-id="22014-217">Disable only for changes related to audio conferencing.</span></span> <span data-ttu-id="22014-218">MMS をクラウドに移行する、または TeamsOnly モードで SfBWithTeamsCollabAndMeetings モードを付与する設置型からユーザーを移行するとき実行もここでは、 `TeamsUpgradePolicy`。</span><span class="sxs-lookup"><span data-stu-id="22014-218">In this case, MMS will still run when a user is migrated from on-premises to the cloud or when you grant TeamsOnly mode or SfBWithTeamsCollabAndMeetings mode in `TeamsUpgradePolicy`.</span></span>
 
-### <a name="what-do-i-do-if-there-is-an-error"></a><span data-ttu-id="4555b-206">エラーが発生した場合の対処方法を教えてください。</span><span class="sxs-lookup"><span data-stu-id="4555b-206">What do I do if there is an error?</span></span>
-<span data-ttu-id="4555b-207"><a name="Troubleshooting"> </a></span><span class="sxs-lookup"><span data-stu-id="4555b-207"></span></span>
+<span data-ttu-id="22014-219">などを手動ですべての会議を移行または組織の電話会議の設定に大幅な変更を加えるときに、MMS を一時的に無効にすることがあります。</span><span class="sxs-lookup"><span data-stu-id="22014-219">For example, you may want to manually migrate all meetings or temporarily disable MMS while making substantial changes to the audio conferencing settings for your organization</span></span>
 
-<span data-ttu-id="4555b-208">コマンドレットを実行して概要ビューを表示すると、状態が 失敗となっている移行が確認される場合があります。対処方法は次のとおりです。`Get-CsMeetingMigrationStatus`</span><span class="sxs-lookup"><span data-stu-id="4555b-208">When you run the  `Get-CsMeetingMigrationStatus` cmdlet to get a summary view and notice that there are migrations in Failed state, here's what you need to do:</span></span>
-  
-1. <span data-ttu-id="4555b-p123">影響を受けているユーザーを特定します。次のコマンドを実行して、影響を受けているユーザーと、報告された特定のエラーのリストを取得します。</span><span class="sxs-lookup"><span data-stu-id="4555b-p123">Determine which users are affected. Run the following command to get the list of affected users, and the specific error that was reported:</span></span>
-    
-   ```
-   Get-CsMeetingMigrationStatus | Where {$_.State -eq "Failed"} | Format-Table Identity,LastMessage
-   ```
-
-2. <span data-ttu-id="4555b-211">これらのユーザーそれぞれに対して、[会議移行ツール](https://go.microsoft.com/fwlink/p/?linkid=626047)を実行して、手動で会議を移行します。</span><span class="sxs-lookup"><span data-stu-id="4555b-211">For each of those user, run the [Meeting Migration Tool](https://go.microsoft.com/fwlink/p/?linkid=626047) to manually migrate their meetings.</span></span>
-    
-3. <span data-ttu-id="4555b-212">会議移行ツールを使用しても移行が機能しない場合には、次の 2 つのオプションがあります。</span><span class="sxs-lookup"><span data-stu-id="4555b-212">If migration still doesn't work with the Meeting Migration Tool, you have two options:</span></span>
-    
-   - <span data-ttu-id="4555b-213">ユーザーに新しい Skype 会議を作成してもらいます。</span><span class="sxs-lookup"><span data-stu-id="4555b-213">Have the users create new Skype meetings.</span></span>
-    
-   - <span data-ttu-id="4555b-214">[サポートに問い合わせます](https://go.microsoft.com/fwlink/p/?LinkID=518322)。</span><span class="sxs-lookup"><span data-stu-id="4555b-214">[Contact support](https://go.microsoft.com/fwlink/p/?LinkID=518322).</span></span>
-    
-### <a name="enabling-and-disabling-mms"></a><span data-ttu-id="4555b-215">MMS の有効化と無効化</span><span class="sxs-lookup"><span data-stu-id="4555b-215">Enabling and disabling MMS</span></span>
-<span data-ttu-id="4555b-216"><a name="Troubleshooting"> </a></span><span class="sxs-lookup"><span data-stu-id="4555b-216"></span></span>
-
-<span data-ttu-id="4555b-p124">MMS は既定ではすべての組織で有効になっていますが、必要に応じて無効にすることができます。たとえば、すべての会議を手動で移行する場合や、サードパーティ電話会議プロバイダーを使用する場合は、MMS の動作は必要ありません。また、MMS を一時的に無効にすることがあります。たとえば、組織の電話会議の設定に多数の変更を加える場合で、すべての変更作業が完了するまで MMS を動作させないようにするときがこれに該当します。</span><span class="sxs-lookup"><span data-stu-id="4555b-p124">MMS is enabled by default for all organizations, but it can be disabled as needed. For example, if you want to manually migrate all meetings or if you use a third-party audio conferencing provider, you may not need MMS running. You may also choose to temporarily disable MMS. For example, you may be doing substantial changes to the audio conferencing settings for your organization and you don't want MMS to run until all changes are completed.</span></span>
-  
-<span data-ttu-id="4555b-p125">所属する組織で MMS が有効になっているかどうかを確認するには、次のコマンドを実行して、 `MeetingMigrationEnabled` パラメーターの値を確認します。このパラメーターが$true に設定されている場合、MMS が有効になっています。</span><span class="sxs-lookup"><span data-stu-id="4555b-p125">To see if MMS is enabled for your organization, run the following command and check the value for the  `MeetingMigrationEnabled` parameter. If this parameter is set to$true, MMS is enabled.</span></span>
-  
+<span data-ttu-id="22014-220">MMS が組織で有効になっているかどうかを表示するには、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="22014-220">To see if MMS is enabled for your organization, run the following command.</span></span> <span data-ttu-id="22014-221">MMS を有効にすると、場合は、`MeetingMigrationEnabled`のパラメーターは、 `$true`。</span><span class="sxs-lookup"><span data-stu-id="22014-221">MMS is enabled if the `MeetingMigrationEnabled` parameter is `$true`.</span></span>
 ```
 Get-CsTenantMigrationConfiguration
 ```
+<span data-ttu-id="22014-222">有効にするか、MMS を完全に無効にするには、`Set-CsTenantMigrationConfiguration`コマンドです。</span><span class="sxs-lookup"><span data-stu-id="22014-222">To enable or disable MMS entirely, use the `Set-CsTenantMigrationConfiguration` command.</span></span> <span data-ttu-id="22014-223">たとえば、MMS を無効にするには、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="22014-223">For example, to disable MMS, run the following command:</span></span>
 
-<span data-ttu-id="4555b-223">MMS を無効にするには、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="4555b-223">To disable MMS, run the following command:</span></span>
-  
 ```
 Set-CsTenantMigrationConfiguration -MeetingMigrationEnabled $false
 ```
+<span data-ttu-id="22014-224">MMS が組織で有効になっている、オーディオ会議の更新が有効なかどうかを確認する場合は、値を確認して、`AutomaticallyMigrateUserMeetings`からの出力パラメーター `Get-CsOnlineDialInConferencingTenantSettings`。</span><span class="sxs-lookup"><span data-stu-id="22014-224">If MMS is enabled in the organization and you want to check if it is enabled for audio conferencing updates, check the value of the `AutomaticallyMigrateUserMeetings` parameter in the output from `Get-CsOnlineDialInConferencingTenantSettings`.</span></span> <span data-ttu-id="22014-225">オーディオ会議の MMS を無効にするを有効またはを使用して、 `Set-CsOnlineDialInConferencingTenantSettings`。</span><span class="sxs-lookup"><span data-stu-id="22014-225">To enable or disable MMS for audio conferencing, use `Set-CsOnlineDialInConferencingTenantSettings`.</span></span> <span data-ttu-id="22014-226">たとえば、オーディオ会議のための MMS を無効にするするには、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="22014-226">For example, to disable MMS for audio conferencing, run the following command:</span></span>
 
-<span data-ttu-id="4555b-224">MMS を有効にするには、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="4555b-224">To enable MMS, run the following command:</span></span>
-  
 ```
-Set-CsTenantMigrationConfiguration -MeetingMigrationEnabled $true
-```
-
-### <a name="enabling-and-disabling-mms-only-for-audio-conferencing-changes"></a><span data-ttu-id="4555b-225">電話会議の変更に対して限定した MMS の有効化と無効化</span><span class="sxs-lookup"><span data-stu-id="4555b-225">Enabling and disabling MMS only for audio conferencing changes</span></span>
-<span data-ttu-id="4555b-226"><a name="Troubleshooting"> </a></span><span class="sxs-lookup"><span data-stu-id="4555b-226"></span></span>
-
-<span data-ttu-id="4555b-p126">電話会議の変更に対してのみ、MMS を無効にすることもできます。これは、ユーザーがオンプレミスの Skype for Business から Skype for Business Online に移行した場合でも引き続き実行されます。電話会議の更新に関する現在の MMS の状態を確認するには、次のコマンドを実行して、 `AutomaticallyMigrateUserMeetings` パラメーターの値を確認します。このパラメーターが$true に設定されている場合は、MMS は電話会議の設定が変更された場合にユーザー会議を更新するように設定されています。</span><span class="sxs-lookup"><span data-stu-id="4555b-p126">You can also disable MMS only for audio conferencing changes. It will still run when a user is migrated from Skype for Business on-premises to Skype for Business Online. To check the current MMS status for audio conferencing updates, run the following command and check the value for the  `AutomaticallyMigrateUserMeetings` parameter. If this parameter is set to$true, MMS is set to update user meetings when audio conferencing settings are changed.</span></span>
-  
-```
-Get-CsOnlineDialInConferencingTenantSettings
+Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $false
 ```
 
-<span data-ttu-id="4555b-231">電話会議に関して MMS を無効にするには、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="4555b-231">To disable MMS for audio conferencing, run the following command:</span></span>
-  
-```
-Set-CsOnlineDialInConferencingTenantSettings -AutomaticallyMigrateUserMeetings $false
-```
+## <a name="related-topics"></a><span data-ttu-id="22014-227">関連トピック</span><span class="sxs-lookup"><span data-stu-id="22014-227">Related topics</span></span>
 
-<span data-ttu-id="4555b-232">電話会議に関して MMS を有効にするには、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="4555b-232">To enable MMS for audio conferencing, run the following command:</span></span>
-  
-```
-Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $true
-```
+[<span data-ttu-id="22014-228">Office 365 での電話会議を使用または購入する</span><span class="sxs-lookup"><span data-stu-id="22014-228">Try or purchase Audio Conferencing in Office 365</span></span>](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
-### <a name="how-do-i-run-meeting-migration-manually-for-a-user"></a><span data-ttu-id="4555b-233">ユーザーのために手動で会議移行を実行する方法を教えてください。</span><span class="sxs-lookup"><span data-stu-id="4555b-233">How do I run Meeting Migration manually for a user?</span></span>
-<span data-ttu-id="4555b-234"><a name="Troubleshooting"> </a></span><span class="sxs-lookup"><span data-stu-id="4555b-234"></span></span>
-
-<span data-ttu-id="4555b-p127">自動的な会議移行の他に、コマンドレット **Start-CsExMeetingMigration** を実行することによって、ユーザーのために手動で会議移行を実行することもできます。このコマンドレットはユーザーを会議移行キューに追加します。Meeting Migration Service (MMS) はユーザー リクエストを読み取り、会議を移行します。コマンドレット **Get-CsMeetingMigrationStatus** で会議移行の状態を確認できます。</span><span class="sxs-lookup"><span data-stu-id="4555b-p127">In addition to the automatic meeting migrations, you can also run the meeting migration manually for a user by running the cmdlet **Start-CsExMeetingMigration**. This cmdlet adds the user in meeting migration queue. Meeting Migration Service will read the user request and migrate their meetings. You can check the status of meeting migration by cmdlet **Get-CsMeetingMigrationStatus**.</span></span>
-  
-<span data-ttu-id="4555b-239">ユーザー ashaw@contoso.com のために会議移行を開始する場合の例を次に示します。</span><span class="sxs-lookup"><span data-stu-id="4555b-239">Here is an example that kicks off meeting migration for the user ashaw@contoso.com:</span></span>
-  
-```
-Start-CsExMeetingMigration -Identity ashaw@contoso.com
-```
-
-## <a name="using-powershell-to-manage-your-skype-for-business-organization"></a><span data-ttu-id="4555b-240">PowerShell を使用した Skype for Business の組織の管理</span><span class="sxs-lookup"><span data-stu-id="4555b-240">Using PowerShell to manage your Skype for Business organization</span></span>
-<span data-ttu-id="4555b-241"><a name="WPSInfo"> </a></span><span class="sxs-lookup"><span data-stu-id="4555b-241"></span></span>
-
- <span data-ttu-id="4555b-242">**Windows PowerShell バージョン 3.0 以降を実行していることを確認する**</span><span class="sxs-lookup"><span data-stu-id="4555b-242">**Check that you are running Windows PowerShell version 3.0 or higher**</span></span>
-  
-1. <span data-ttu-id="4555b-243">To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.</span><span class="sxs-lookup"><span data-stu-id="4555b-243">To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.</span></span>
-    
-2. <span data-ttu-id="4555b-244">[ _Windows PowerShell_] ウィンドウに「 **Get-Host**」と入力して、バージョンを確認します。</span><span class="sxs-lookup"><span data-stu-id="4555b-244">Check the version by typing  _Get-Host_ in the **Windows PowerShell** window.</span></span>
-    
-3. <span data-ttu-id="4555b-p128">バージョン 3.0 以降を使用していない場合は、Windows PowerShell の更新プログラムをダウンロードおよびインストールする必要があります。Windows PowerShell をダウンロードして、バージョン 4.0 に更新するには、「[Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845)」を参照してください。メッセージが表示されたら、コンピューターを再起動します。</span><span class="sxs-lookup"><span data-stu-id="4555b-p128">If you don't have version 3.0 or higher, you need to download and install updates to Windows PowerShell. See [Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845) to download and update Windows PowerShell to version 4.0. Restart your computer when you are prompted.</span></span>
-    
-4. <span data-ttu-id="4555b-p129">Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できるように、Skype for Business Online の Windows PowerShell モジュールもインストールする必要があります。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。メッセージが表示されたら、コンピューターを再起動します。</span><span class="sxs-lookup"><span data-stu-id="4555b-p129">You will also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Restart your computer if you are prompted.</span></span>
-    
-<span data-ttu-id="4555b-251">詳細については、「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="4555b-251">If you need to know more, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/EN-US/library/dn568015.aspx).</span></span>
-  
- <span data-ttu-id="4555b-252">**Windows PowerShell セッションを開始する**</span><span class="sxs-lookup"><span data-stu-id="4555b-252">**Start a Windows PowerShell session**</span></span>
-  
-1. <span data-ttu-id="4555b-253">From the **Start Menu** > **Windows PowerShell**.</span><span class="sxs-lookup"><span data-stu-id="4555b-253">From the **Start Menu** > **Windows PowerShell**.</span></span>
-    
-2. <span data-ttu-id="4555b-254">[ **Windows PowerShell**] ウィンドウで、次を実行して、Office 365 の組織に接続します。</span><span class="sxs-lookup"><span data-stu-id="4555b-254">In the **Windows PowerShell** window, connect to your Office 365 organization by running:</span></span>
-    
-    > [!NOTE]
-    > <span data-ttu-id="4555b-255">Skype for Business Online Windows PowerShell モジュールを初めて使用するときに、 **Import-Module** コマンドを実行するだけです。</span><span class="sxs-lookup"><span data-stu-id="4555b-255">You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.</span></span>
-  
-> 
->   ```
->   Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
->   $credential = Get-Credential
->   $session = New-CsOnlineSession -Credential $credential
->   Import-PSSession $session
->   ```
-> <span data-ttu-id="4555b-256">Windows PowerShell を開始する方法の詳細を設定する場合は、 [1 つの Windows PowerShell のウィンドウ内のすべての Office 365 サービスに接続する](https://technet.microsoft.com/EN-US/library/dn568015.aspx)か、 [Windows PowerShell には、コンピューターの設定](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="4555b-256">If you want more information about starting Windows PowerShell, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/EN-US/library/dn568015.aspx) or [Set up your computer for Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).</span></span>
-  
-- <span data-ttu-id="4555b-p130">Windows PowerShell で行うのは、ユーザーを管理し、ユーザーに何を許可して何を禁止するかを管理することです。Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。Windows PowerShell の使用を開始するには、次のトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="4555b-p130">When it comes to Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
-    
-  - [<span data-ttu-id="4555b-260">Windows PowerShell と Skype for Business Online の概要</span><span class="sxs-lookup"><span data-stu-id="4555b-260">An introduction to Windows PowerShell and Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525039)
-    
-  - [<span data-ttu-id="4555b-261">Windows PowerShell で Office 365 を管理するための最善の方法</span><span class="sxs-lookup"><span data-stu-id="4555b-261">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
-    
-- <span data-ttu-id="4555b-p131">Windows PowerShell には、ただ Office 365 管理センターを使用するだけではなく、速度、単純さ、生産性において多くの利点があります。次のトピックでこれらの利点について説明します。</span><span class="sxs-lookup"><span data-stu-id="4555b-p131">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:</span></span>
-    
-  - [<span data-ttu-id="4555b-264">Windows PowerShell で Office 365 を管理するための最善の方法</span><span class="sxs-lookup"><span data-stu-id="4555b-264">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
-    
-  - [<span data-ttu-id="4555b-265">Windows PowerShell による Skype for Business Online の管理</span><span class="sxs-lookup"><span data-stu-id="4555b-265">Using Windows PowerShell to manage Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525453)
-    
-  - [<span data-ttu-id="4555b-266">Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行</span><span class="sxs-lookup"><span data-stu-id="4555b-266">Using Windows PowerShell to do common Skype for Business Online management tasks</span></span>](https://go.microsoft.com/fwlink/?LinkId=525038)
-    
-## <a name="related-topics"></a><span data-ttu-id="4555b-267">See also</span><span class="sxs-lookup"><span data-stu-id="4555b-267">Related topics</span></span>
-
-[<span data-ttu-id="4555b-268">Office 365 での電話会議を使用または購入する</span><span class="sxs-lookup"><span data-stu-id="4555b-268">Try or purchase Audio Conferencing in Office 365</span></span>](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[<span data-ttu-id="22014-229">オンプレミスとクラウドの間でユーザーの移動</span><span class="sxs-lookup"><span data-stu-id="22014-229">Move users between on-premises and cloud</span></span>](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
