@@ -88,6 +88,7 @@
 ### [Skype for Business と Teams のライセンスを割り当てる](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Skype for Business と Teams のアドオン ライセンス](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [チームの業務用の試用版の提供を管理します。](iw-trial-teams.md)
+### [空きチームを Office 365 サブスクリプションのバージョンにアップグレードします。](upgrade-freemium.md)
 ## サポートされているデバイス
 ### [IP 電話](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [USB オーディオ デバイスやビデオ デバイス](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
