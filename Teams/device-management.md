@@ -1,5 +1,5 @@
 ---
-title: マイクロソフトのチームで、デバイスを管理します。
+title: Microsoft Teams でのデバイスを管理する
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,19 +12,19 @@ description: 組織のチームと共同で使用するデバイスを管理す�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97fd4b8d7f613c6d3f435f2d505bbd2cf99d4b10
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: dff307b1bd4ede3e8999a78a5e6a8df36b8a1411
+ms.sourcegitcommit: a378848c5aeb8e2b25300024318de792454d905b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531778"
+ms.lasthandoff: 12/28/2018
+ms.locfileid: "27458551"
 ---
-# <a name="manage-your-devices-in-microsoft-teams"></a>マイクロソフトのチームで、デバイスを管理します。
+# <a name="manage-your-devices-in-microsoft-teams"></a>Microsoft Teams でのデバイスを管理する
 
  管理者としては、ビジネス管理センターのマイクロソフト チームと Skype から、組織内のチームで使用するすべてのデバイスを管理します。 表示し、組織のデバイスのインベントリを管理し、更新、再起動、デバイスのモニター診断などのタスクを実行できます。 作成し、デバイスまたはデバイスのグループに構成プロファイルを割り当てることができます。 
 
 ## <a name="what-devices-can-you-manage"></a>どのようなデバイスを管理することができますか。
-デバイスは、チームの認定し、チームに登録する必要があります。 デバイスでは、初めてのユーザーが署名チームに、デバイス上に自動的に登録が。 
+デバイスは、チームの認定し、チームに登録する必要があります。 デバイスでは、初めてのユーザーが署名チームに、デバイス上に自動的に登録が。 管理可能な認定済みのデバイスのリストは、[会議電話](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?categoryid=ddb1bc66-7499-4823-8d2b-a2c6dbe4f716)と[デスクの電話](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?categoryid=c6536b33-f554-4b55-bd3d-c98733ebc017&page=1&filters=)を参照してください。
 
 > [!NOTE]
 > Microsoft Intune があれば、デバイスは自動的に Intune に登録します。 デバイスを登録すると後、デバイスのコンプライアンスを確認し、条件付きのアクセス ポリシーは、デバイスに適用します。 

@@ -90,6 +90,7 @@
 ### [チームの業務用の試用版の提供を管理します。](iw-trial-teams.md)
 ### [空きチームを Office 365 サブスクリプションのバージョンにアップグレードします。](upgrade-freemium.md)
 ## サポートされているデバイス
+### [チームで、デバイスを管理します。](device-management.md)
 ### [IP 電話](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [USB オーディオ デバイスやビデオ デバイス](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [会議室デバイスおよびソリューション](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -490,7 +491,7 @@
 #### [ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)
 ### 電話システム
 #### チームの電話
-##### [マイクロソフト チームの電話](phones-for-teams.md)
+##### [Microsoft Teams 用の電話機](phones-for-teams.md)
 ##### [購入、マイクロソフト チームの IP 電話を展開します。](buying-and-deploying-teams-ip-phones.md)
 #### [Office 365 での電話システムについて](what-is-phone-system-in-office-365.md)
 #### [組織内の電話システムの設定](setting-up-your-phone-system.md)
@@ -518,7 +519,7 @@
 #### [複数のテナントについてセッション ボーダー コントローラーを構成する](direct-routing-sbc-multiple-tenants.md)
 #### [ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト](direct-routing-border-controllers.md)
 #### 直接ルーティングのためのテクニカル リファレンス
-##### [発信呼び出しのトランクのフェイル オーバー](direct-routing-trunk-failover-on-outbound-call.md)
+##### [発信通話でのトランクのフェイルオーバー](direct-routing-trunk-failover-on-outbound-call.md)
 ### [マイクロソフト チーム オンライン呼び出しのフロー](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 
