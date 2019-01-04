@@ -1,9 +1,9 @@
 ---
-title: マイクロソフト チームが Microsoft 365 政府の GCC の高い展開の計画します。
+title: Microsoft 365 米国政府向けクラウド (GCC) の展開の計画 - Microsoft Teams
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 12/19/2018
+ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe90163f53de63c0c0b4c82c510c0c4049188de4
-ms.sourcegitcommit: b4c7f2a0c5660610469fbb67e9810dd3fdcedbaa
+ms.openlocfilehash: 7ac987d64a6e1ea06178c0626d565293c80a22fe
+ms.sourcegitcommit: afccaf26c8718869fc0b3c277d186bb82cb304b4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2018
-ms.locfileid: "27378586"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "27544193"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Microsoft 365 政府の GCC の高い展開の計画
 
@@ -151,6 +151,6 @@ Microsoft 365 政府 – GCC 高の米国政府の[Office 365 の政府の計画
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>手順 6。 チームの共同作業を展開します。
 
-Microsoft 365 政府 – GCC 高では、onboarded をした後、 [FastTrack](https://fasttrack.microsoft.com/fasttrack-faq)とオンボードを選択したパートナーのサービスを使用する標準的な展開アプローチをフォローできます。
+Microsoft 365 政府 – GCC 高では、onboarded をした後、 [FastTrack](https://www.microsoft.com/fasttrack)とオンボードを選択したパートナーのサービスを使用する標準的な展開アプローチをフォローできます。
 
 準備ができたら、[チーム、およびチャネルを通じて、組織内でのコラボレーションを有効に](teams-overview.md)するチームを展開します。 採用し、変更管理のチームまたはチームのエキスパートと協力することを確認します。

@@ -3,7 +3,7 @@ title: Microsoft Teams の展開の概要
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5e00eb139e25061726dfe080c90457efd87da96
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: e878fb50157e3c62c3425dfcea6d45e29a3be781
+ms.sourcegitcommit: afccaf26c8718869fc0b3c277d186bb82cb304b4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016470"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "27544137"
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Microsoft Teams の展開の概要
 ========================================
@@ -45,7 +45,7 @@ Microsoft Teams の展開では、環境でその使用を開始するに当た�
 
 |チーム名 |チャネル  |タブ  |
 |---------|---------|---------|
-|チームの展開<br></br>メンバー:<ul><li>プロジェクト スポンサー</li><li>ビジネス アナリスト</li><li>プロジェクト マネージャー</li><li>コラボレーション IT 専門家</li><li>ネットワーク IT 専門家</li><li>導入リード </li><li>サポート リード</li></ul>所有者: <ul><li>プロジェクト マネージャー</li><li>コラボレーション IT 専門家</li></ul>      |計画と準備<br></br> 導入<br></br> ロールアウト<br></br> サポート<br></br> 洞察<br></br><br></br><br></br><br></br><br></br><br></br><br></br>          |Microsoft Teams の Web ページの実践的なガイドのリンク ([https://docs.microsoft.com/MicrosoftTeams](https://docs.microsoft.com/MicrosoftTeams)) <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>        |
+|チームの展開<br></br>メンバー:<ul><li>プロジェクト スポンサー</li><li>ビジネス アナリスト</li><li>プロジェクト マネージャー</li><li>コラボレーション IT 専門家</li><li>ネットワーク IT 専門家</li><li>導入リード </li><li>サポート リード</li></ul>所有者: <ul><li>プロジェクト マネージャー</li><li>コラボレーション IT 専門家</li></ul>      |計画と準備<br></br> 導入<br></br> ロールアウト<br></br> サポート<br></br> 洞察<br></br><br></br><br></br><br></br><br></br><br></br><br></br>          |マイクロソフト チームの web ページに関する実用的なガイダンスをリンク ([https://docs.microsoft.com/MicrosoftTeams](https://docs.microsoft.com/MicrosoftTeams)) <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>        |
 
 このセットアップの Microsoft Teams は次のようになります。
 
@@ -61,3 +61,11 @@ Microsoft Teams の展開では、環境でその使用を開始するに当た�
 
 
 判断ポイントを追跡するには、「[クイック スタート: Microsoft Teams を正常に利用できるようにする](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)」の技術計画に関するアンケートをダウンロードします。
+
+## <a name="how-microsoft-deployed-teams"></a>マイクロソフトがチームを配置する方法
+
+マイクロソフトがどのように展開されを共同作業のためにマイクロソフトのチームを使用して、参照してください。
+
+- [コラボレーションを合理化し、チームワークを向上させるマイクロソフトのチームを配置します。](https://www.microsoft.com/itshowcase/Article/Content/1013/Deploying-Microsoft-Teams-streamlines-collaboration-and-improves-teamwork)
+- [マイクロソフト チームはマイクロソフトの最新のワークプ レース内でのコラボレーションを向上します。](https://www.microsoft.com/itshowcase/Article/Content/1012/Microsoft-Teams-increases-collaboration-in-the-modern-workplace-at-Microsoft)
+
