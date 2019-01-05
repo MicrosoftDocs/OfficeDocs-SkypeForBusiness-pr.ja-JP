@@ -1,5 +1,5 @@
 ---
-title: 無料のマイクロソフト チームを Office 365 サブスクリプションのバージョンにアップグレードします。
+title: Microsoft Teams を無料で Office 365 月額プラン バージョンにアップグレードする
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,14 +16,14 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 92693db68372c3981f1ba7944403b4d0d0f2025c
-ms.sourcegitcommit: 81b38b389bfe3acd1aa13ce61c221b7b368c0e2d
+ms.openlocfilehash: cb8770b0929b46aa0e98e1429a11874756ed07e1
+ms.sourcegitcommit: d9059e8cb0a9b968ee16508f6bfcb5d949575590
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "27383519"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "27733204"
 ---
-<a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>無料のマイクロソフト チームを Office 365 サブスクリプションのバージョンにアップグレードします。
+<a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Microsoft Teams を無料で Office 365 月額プラン バージョンにアップグレードする
 ======================================================
 
 組織は、マイクロソフトのチームの無料版を使用されている場合に簡単にアップグレードできます、完全なバージョンをユーザーの Office 365 サブスクリプション プランを購入することで。 完全版には、チームの追加機能が用意されています-などのスケジュール設定、オーディオ会議、強化された管理、およびセキュリティ機能、無料版を提供しません。 Office 365 では、使い慣れた Microsoft Office デスクトップ スイートを組み合わせたクラウド ・ ベースのバージョンをマイクロソフトの次世代のコミュニケーションおよびコラボレーション サービスの-Exchange Online、SharePoint Online では、Office オンラインなど、ユーザーの生産性向上を支援するには事実上あらゆる場所からインターネットを経由します。 チームをアップグレードするとき、既存のチーム データ失われません。様、すべてのチーム、チャネル、チャット、ファイル、およびアクセス許可には。 
@@ -83,6 +83,10 @@ Office 365 のサブスクリプションに含まれているチームの完全
 ![スクリーン ショットのアップグレード ボタン](media/teams-freemium-upgrade-image1.png)
 
 チームへのサインインに使用する電子メール アドレスを入力し、Office 365 のビジネス プレミアム プランを購入します。 Office 365 の業務に関する重要事項または[サポートに連絡](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade)して、Office 365 のエンタープライズ版を購入する場合は。
+
+## <a name="whats-next"></a>次は何ですか。
+
+アップグレードが完了したらを参照してください[マイクロソフトのチームを開始](get-started-with-teams-landing-page.md)[マイクロソフト チームの採用](adopt-microsoft-teams-landing-page.md)および最初のステップのチームの導入を段階的に組織全体にわたって。
 
 ## <a name="more-information"></a>詳細情報
 
