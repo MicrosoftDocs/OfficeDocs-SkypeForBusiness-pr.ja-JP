@@ -3,52 +3,6 @@
 
 
 
-## <a name="week-of-november-19-2018"></a>2018 年 11 月 19 日の週
-
-
-| 公開日 |トピック タイトル | 変更 |
-|------|------------|--------|
-| 2018 年 11 月 19 日 | [Microsoft Teams でチーム所有者とメンバーを割り当てる](/MicrosoftTeams/assign-roles-permissions) | 修正 |
-| 2018 年 11 月 19 日 | [Office 365 を使用する組織で Microsoft Teams の機能を管理する](/MicrosoftTeams/enable-features-office-365) | 修正 |
-| 2018 年 11 月 19 日 | [Microsoft Teams の講師主導のトレーニング](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 修正 |
-| 2018 年 11 月 19 日 | [Microsoft Teams の既知の問題](/MicrosoftTeams/known-issues) | 修正 |
-| 2018 年 11 月 19 日 | [Microsoft Teams の概要](/MicrosoftTeams/teams-overview) | 修正 |
-| 2018 年 11 月 19 日 | [Teams のクラウド会議の記録](/MicrosoftTeams/cloud-recording) | 修正 |
-| 2018 年 11 月 19 日 | [通話品質ダッシュボードで利用できるディメンションとメジャー](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 修正 |
-| 2018 年 11 月 19 日 | [Microsoft Teams のクライアントを取得する](/MicrosoftTeams/get-clients) | 修正 |
-| 2018 年 11 月 19 日 | [Microsoft Teams へのアーリー アダプターに関与する](/MicrosoftTeams/get-started-with-teams-onboard-early-adopters) | 修正 |
-| 2018 年 11 月 19 日 | [Microsoft Teams の管理者ロールを使用して Teams を管理する](/MicrosoftTeams/using-admin-roles) | 修正 |
-| 2018 年 11 月 19 日 | [Microsoft Teams の組織全体にわたるロールアウトを計画するためのリソースを取得する](/MicrosoftTeams/get-started-with-teams-resources-for-org-wide-rollout) | 修正 |
-| 2018 年 11 月 19 日 | PowerShell を使用して Teams を管理する | 削除 |
-| 2018 年 11 月 19 日 | 管理者ロールを使用して Teams を管理する | 削除 |
-| 2018 年 11 月 20 日 | [Microsoft Teams を導入する](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | 修正 |
-| 2018 年 11 月 20 日 | [Microsoft Teams の導入クイック スタートのチェックリスト](/MicrosoftTeams/teams-adoption-quick-start-checklist) | 修正 |
-| 2018 年 11 月 20 日 | [採用を推進するためのツール](/MicrosoftTeams/adopt-tools-and-downloads) | 追加 |
-| 2018 年 11 月 20 日 | [採用を推進するためのツール](/MicrosoftTeams/adopt-tools-and-downloads) | 修正 |
-| 2018 年 11 月 20 日 | Teams でのメッセージング ポリシーについて | 削除 |
-| 2018 年 11 月 20 日 | [クイック スタート: Microsoft Teams の計画ガイド](/MicrosoftTeams/quick-start-enable-teams) | 修正 |
-| 2018 年 11 月 20 日 | [Teams での PowerShell の概要](/MicrosoftTeams/teams-powershell-overview) | 修正 |
-| 2018 年 11 月 20 日 | [よくあるご質問 - Skype for Business から Microsoft Teams への移行](/MicrosoftTeams/faq-journey) | 修正 |
-| 2018 年 11 月 20 日 | [Microsoft Teams でのライブ イベントの計画](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 修正 |
-| 2018 年 11 月 20 日 | [PowerShell を使用して Microsoft Teams でのライブ イベント ポリシーを設定する](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | 修正 |
-| 2018 年 11 月 20 日 | [Microsoft Teams でのライブ イベントのセットアップ](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 修正 |
-| 2018 年 11 月 20 日 | [コミュニケーション クレジットについて](/MicrosoftTeams/what-are-communications-credits) | 修正 |
-| 2018 年 11 月 21 日 | [Microsoft Teams の操作ガイド](/MicrosoftTeams/1-drive-value-operate-my-service) | 修正 |
-| 2018 年 11 月 21 日 | [Microsoft Teams のユーザーを準備する](/MicrosoftTeams/2-onboard-prepare-my-users) | 修正 |
-| 2018 年 11 月 21 日 | [Microsoft Teams を導入する](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | 修正 |
-| 2018 年 11 月 21 日 | [採用を推進するためのツール](/MicrosoftTeams/adopt-tools-and-downloads) | 修正 |
-| 2018 年 11 月 21 日 | [ユーザーの導入を介して Microsoft Teams の価値を創出する - Microsoft Teams](/MicrosoftTeams/continue-journey) | 修正 |
-| 2018 年 11 月 21 日 | [Microsoft Teams のクライアントを取得する](/MicrosoftTeams/get-clients) | 修正 |
-| 2018 年 11 月 21 日 | [新しい Microsoft Teams および Skype for Business の管理センターへの移行中に Teams を管理する](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | 修正 |
-| 2018 年 11 月 21 日 | [Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | 修正 |
-| 2018 年 11 月 21 日 | [Microsoft Teams の導入クイック スタートのチェックリスト](/MicrosoftTeams/teams-adoption-quick-start-checklist) | 修正 |
-| 2018 年 11 月 21 日 | [アップグレード後にサービスを強化する - Microsoft Teams](/MicrosoftTeams/upgrade-enhance-my-service) | 修正 |
-| 2018 年 11 月 21 日 | [Microsoft Teams の運用ガイド - Microsoft Teams](/MicrosoftTeams/upgrade-operate-my-service) | 修正 |
-| 2018 年 11 月 21 日 | [Skype for Business から Microsoft Teams にアップグレードする前にユーザーの準備状態計画を用意する - Microsoft Teams](/MicrosoftTeams/upgrade-user-readiness) | 修正 |
-| 2018 年 11 月 22 日 | [Microsoft Teams でチームを編成するためのベスト プラクティス](/MicrosoftTeams/best-practices-organizing) | 修正 |
-| 2018 年 11 月 22 日 | [Microsoft Teams で会議の設定を管理する](/MicrosoftTeams/meeting-settings-in-teams) | 追加 |
-
-
 ## <a name="week-of-november-26-2018"></a>2018 年 11 月 26 日の週
 
 
@@ -212,3 +166,14 @@
 | 2018/12/20 | [Microsoft Teams 用の電話機](/MicrosoftTeams/phones-for-teams) | 追加 |
 | 2018/12/20 | [Microsoft Teams を無料で Office 365 月額プラン バージョンにアップグレードする](/MicrosoftTeams/upgrade-freemium) | 追加 |
 | 2018/12/21 | [Skype for Business から Microsoft Teams にアップグレードする方法を理解する](/MicrosoftTeams/tutorial-journey-skypeforbusiness-to-teams) | 修正 |
+
+
+## <a name="week-of-december-24-2018"></a>2018 年 12 月 24 日の週
+
+
+| 公開日 |トピック タイトル | 変更 |
+|------|------------|--------|
+| 2018/12/28 | [電話会議のサービスに関する決定を行う - Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-audio-conferencing) | 修正 |
+| 2018/12/28 | [Microsoft Teams での会議](/MicrosoftTeams/tutorial-meetings-in-teams) | 修正 |
+| 2018/12/28 | [Microsoft Teams でのデバイスを管理する](/MicrosoftTeams/device-management) | 修正 |
+| 2018/12/28 | [Office 365 を使用する組織で Microsoft Teams の機能を管理する](/MicrosoftTeams/enable-features-office-365) | 修正 |
