@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: デスクの電話や音声通話を受信し、またはミーティングに参加する会議室の電話を必要とするお客様は、マイクロソフトのチームは、デバイスのポートフォリオを提供します。 お客様は、当社のチームの市場からのこれらのデバイスを直接購入できます。
-ms.openlocfilehash: f84bf50e7139b82c97af47e62fc128f5a178b5d0
-ms.sourcegitcommit: a4fed143f0e906c2b70933dd2db8f751e4eb46ba
+ms.openlocfilehash: c91a20f100e8edf9b7a6d9897b693ec0f511657f
+ms.sourcegitcommit: 370741f97ed8ea5026f73ec97de2f89b223df9fa
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 01/08/2019
-ms.locfileid: "27747970"
+ms.locfileid: "27760560"
 ---
 # <a name="buying-and-deploying-microsoft-teams-ip-phones"></a>購入、マイクロソフト チームの IP 電話を展開します。
 
@@ -27,7 +27,7 @@ ms.locfileid: "27747970"
 
 電話する必要があります最小のファームウェアのバージョンで表示されます次の表のマイクロソフトのチームをネイティブに実行します。
 
-|電話モデル|ファームウェアのバージョン|リリース日|
+|電話モデル|ファームウェアのバージョン|リリース日 |
 |---|---|---|---|
 |C450HD| 準備中 |準備中|
 |Crestron フレックス P100-T/P110 ・ T    |準備中|準備中
