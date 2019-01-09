@@ -1,7 +1,7 @@
 ---
 title: ゲストがチームに参加する方法
-author: LolaJacobsen
-ms.author: rramesan
+author: somakbhattacharyya
+ms.author: sbhatta
 manager: serdars
 ms.date: 10/20/17
 ms.topic: article
@@ -12,17 +12,17 @@ search.appverid: MET150
 description: ゲストがどのような方法で Microsoft Teams のチームに参加するよう招待されるかについての簡単な概要を理解します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1d1de994792aa683e6ed202c54586cd985e8ab3
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: 2360d6985b3d047dc6b5159a8dd45d0f1da38223
+ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674474"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "27772754"
 ---
 <a name="how-a-guest-joins-a-team"></a>ゲストがチームに参加する方法
 ========================
 
-Microsoft Teams でのチーム所有者は、Web またはデスクトップを介してチームにゲストを追加したり、チームのゲストを管理できます。 ビジネスやコンシューマー電子メール アカウントを Outlook、Gmail、またはその他のユーザーなど、すべてのユーザーは、チーム チャット、会議、およびファイルへのフル アクセスを持つチームにゲストとして参加できます。 パートナーやコンサルタントなど組織外の人のみをゲストとして追加できます。 組織内のユーザーは通常のチーム メンバーとして参加できます。
+Microsoft Teams でのチーム所有者は、Web またはデスクトップを介してチームにゲストを追加したり、チームのゲストを管理できます。 Outlook、Gmail などの勤務先または通常のメール アカウントを持っているユーザーは、チーム チャット、会議、ファイルに完全なアクセス権を持つゲストとして Teams に参加することができます。 パートナーやコンサルタントなど組織外の人のみをゲストとして追加できます。 組織内のユーザーは通常のチーム メンバーとして参加できます。
   
     
     

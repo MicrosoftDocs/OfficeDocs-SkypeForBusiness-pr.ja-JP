@@ -1,7 +1,7 @@
 ---
 title: ゲスト ユーザー情報を編集する
-author: LaithAlShamri
-ms.author: laal
+author: somakbhattacharyya
+ms.author: sbhatta
 manager: serdars
 ms.date: 11/26/2017
 ms.topic: article
@@ -12,12 +12,12 @@ search.appverid: MET150
 description: 管理者が Azure Active Directory ポータルのゲスト ユーザーに関する情報をどのようにして編集できるかについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab068b33fe0d1dee6ddd3bcf641b3165fcc53c28
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: d978f18c003b298af1aa34296f50cd2583903216
+ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674458"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "27772730"
 ---
 <a name="edit-guest-user-information"></a>ゲスト ユーザー情報を編集する
 ===========================

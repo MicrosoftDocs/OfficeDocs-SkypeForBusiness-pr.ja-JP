@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams でのゲスト アクセスを管理する
-author: LolaJacobsen
-ms.author: rramesan
+author: somakbhattacharyya
+ms.author: sbhatta
 manager: serdars
 ms.date: 11/26/2018
 ms.topic: article
@@ -12,12 +12,12 @@ search.appverid: MET150
 description: IT 管理者は、テナントレベルでのゲストの追加、ゲスト ユーザー ポリシーと権限の設定と管理、ゲストを招待できるユーザーの判別、ゲスト ユーザーのアクティビティに関するレポートの取得を行うことができます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db7e67536193e53d72f2bc85bb381158d5703f17
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: b4375f6e9eb0d36d05d20f96da2410767465fcc2
+ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674498"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "27772778"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセスを管理する
 ======================================
@@ -53,7 +53,7 @@ Azure Active Directory のポータルは、来園者と Office 365 とチーム
 
 ゲスト設定は Azure Active Directory で設定します。 その変更が Office 365 組織全体で有効になるまでに 2 時間から 24 時間かかります。 ユーザーが「管理者に問い合わせてください」メッセージを表示するかどうかはゲスト機能を有効になっていないか、またはいる設定がまだ有効な可能性がありますが、自分のチームにゲストを追加しようとするとします。
 
-## <a name="more-information"></a>追加情報
+## <a name="more-information"></a>詳細情報
 
 PowerShell を使用してゲスト アクセスを管理する方法の詳細については、[チームへのゲスト アクセスを制御する PowerShell を使用して](guest-access-powershell.md)参照してください。
 
