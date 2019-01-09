@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 会議の移行サービス (MMS) は、バック グラウンドで実行され、ユーザーのビジネスおよびマイクロソフトのチームの会議に Skype が自動的に更新するサービスです。 MMS はユーザーが会議移行ツールを実行して Skype for Business および Microsoft Teams 会議を更新しなくても済むように設計されています。
-ms.openlocfilehash: 5b01dfc0c50ecb742e049905c81a418007ea3600
-ms.sourcegitcommit: d00b85ace80af0403efb85b71e5bcc66e76f837b
+ms.openlocfilehash: 94f3d315810e6fdee93ffa8abfe6a657ca8b43fd
+ms.sourcegitcommit: 1b9f19b1bd8f33ee2f011cd5ea2d0d75bf8647c9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/22/2018
-ms.locfileid: "27411117"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "27783519"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>会議の移行サービス (MMS) を使用してください。
 
@@ -44,7 +44,6 @@ ms.locfileid: "27411117"
 **制限**: 会議次のいずれかの場合、移行サービスを使用できません。
 
 - ユーザーのメールボックスは、Exchange、オンプレミスでホストされています。
-- サード ・ パーティ製のオーディオ会議プロバイダーを使用するユーザーを構成します。 オーディオ会議プロバイダー [ACP] サポートで予定されているライフの最後に、2019 年 4 月 1日として[発表されていた](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers)注意してください。
 - ユーザー クラウドからに移行 Skype ビジネス サーバー設置型です。
 
 このような場合は、エンド ・ ユーザーは、独自の会議を移行するのには[会議の移行ツール](https://www.microsoft.com/en-us/download/details.aspx?id=51659)を使用できます代わりにします。
@@ -96,8 +95,8 @@ MMS がトリガーされた場合、通常かかるユーザーの会議は、�
 
 MMS では以下の場合では、ビジネスおよびマイクロソフトのチーム会議の追加、削除、またはダイヤルインの座標を変更する既存の Skype が更新されます。
 
-- 割り当てるまたは、ビジネスの Skype のサード ・ パーティ製のオーディオ会議プロバイダーとの統合を有効にしていないユーザーの Microsoft オーディオ会議サービス ライセンスを削除します。
-- マイクロソフトに、他のプロバイダーから割り当てられているマイクロソフトの電話会議サービスのライセンスを持っているユーザーのオーディオ会議プロバイダーを変更するとします。
+- サード ・ パーティ製のオーディオ会議プロバイダーを割り当てるか、ユーザー、およびそのユーザーにマイクロソフトの電話会議サービスのライセンスを削除するは使用できません。
+- 変更すると、ユーザーのオーディオ会議プロバイダー、他のプロバイダーからマイクロソフトでは、ユーザーに提供される、マイクロソフトの音声会議のライセンスが割り当てられます。 詳細については、[オーディオ会議プロバイダーとしてのマイクロソフトの割り当て](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)を参照してください。 [ACP]、サード パーティのオーディオ会議プロバイダーのサポートがスケジュールされる寿命の 2019 年 4 月 1日のとして[発表されていた](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers)にも注意してください。
 - 有効または無効にするユーザーの電話会議。
 - 変更するか、パブリック ・ ミーティングを使用するように構成するユーザーの会議 ID をリセットします。
 - ユーザーを新しい電話会議ブリッジに移行する場合
@@ -108,8 +107,6 @@ MMS では以下の場合では、ビジネスおよびマイクロソフトの�
 - 会議の開催者の SIP アドレスを変更する場合 (SIP ユーザー名または SIP ドメインのいずれか)
 - 組織の URL を使用しての会議を変更すると、`Update-CsTenantMeetingUrl`コマンドです。
 
-> [!NOTE]
-> サード ・ パーティ製の ACP のユーザーが有効になっている場合は、MMS は発生しません。 ACP は、[発表されていた](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers)として、2019 年 4 月 1 日の寿命の最後の予定です。 MMS のユーザーの会議を移行する場合は、ユーザーはまず ACP を無効にします。
 
 ### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>TeamsUpgradePolicy を割り当てる場合は、会議を更新
 
@@ -123,6 +120,23 @@ MMS では以下の場合では、ビジネスおよびマイクロソフトの�
 - 会議の移行のみ呼び出されるを与えるときに`TeamsUpgradePolicy`の特定のユーザーです。 付与する場合は`TeamsUpgradePolicy`と`mode=TeamsOnly`または`mode=SfBWithTeamsCollabAndMeetings`テナント単位で会議の移行は呼び出されません。
 - ユーザーことができますだけに付与する TeamsOnly モードの場合は、ユーザーのオンライン ホームします。 使用してホーム設置型ではユーザーを移動する必要があります`Move-CsUser`、上記のとおりです。
 - TeamsOnly または SfBWithTeamsCollabAndMeetings 以外のモードを許可する変換されません既存のチーム ミーティング Skype をビジネス ・ ミーティングの。
+
+### <a name="trigger-meeting-migration-manually-via-powershell"></a>PowerShell を使用して手動でトリガー会議の移行
+
+会議予定の自動移行の場合、だけでなく管理者手動でトリガーできますユーザーの会議の移行コマンドレットを実行して`Start-CsExMeetingMigration`。 このコマンドレットは、指定したユーザーの移行要求をキューします。 新しい`TargetMeetingType`は技術導入プログラムの参加者に制限されて) パラメーターを使用すると、会議を移行する方法を指定します。 
+
+- 使用して`TargetMeetingType Current`、ビジネス会議のための Skype は、ビジネス ・ ミーティングの Skype を維持され、チームの会議のチーム会議を維持するを指定します。 ただしオーディオ会議の調整を変更する可能性があり、ビジネス会議のため、設置型の Skype は、ビジネス オンラインの Skype に移行するとします。
+- 使用して`TargetMeetingType Teams`のチームに、既存の会議を移行する必要がある、オンライン ビジネスの設置、Skype で会議がホストされるかどうかに関係なくとかどうかに関係なく、オーディオ会議の更新プログラムは、必要を指定します。 
+
+次の例は、すべての会議は、チームに移行できるように、ユーザーの ashaw@contoso.com の会議の移行を開始する方法を示しています。
+
+```
+Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
+```
+
+> [!NOTE]
+> 開始 CsExMeetingMigration コマンドレットは、すべての顧客に利用可能ですが、新しい TargetMeetingTypeParameter 現在のみタップの顧客の機能です。 
+
 
 ## <a name="managing-mms"></a>MMS の管理
 
@@ -168,18 +182,7 @@ Windows PowerShell を使用すると、継続的な移行の状態を確認し�
     - ユーザーに新しい Skype 会議を作成してもらいます。
     - [サポートに問い合わせます](https://go.microsoft.com/fwlink/p/?LinkID=518322)。
 
-### <a name="trigger-meeting-migration-manually-for-a-user"></a>ユーザーは手動でトリガー会議の移行
 
-会議予定の自動移行の場合、だけでなく管理者手動でトリガーできますユーザーの会議の移行コマンドレットを実行して`Start-CsExMeetingMigration`。 このコマンドレットは、指定したユーザーの移行要求をキューします。 `TargetMeetingType`パラメーターでは、会議を移行する方法を指定することができます。 
-
-- 使用して`TargetMeetingType Current`、ビジネス会議のための Skype は、ビジネス ・ ミーティングの Skype を維持され、チームの会議のチーム会議を維持するを指定します。 ただしオーディオ会議の調整を変更する可能性があり、ビジネス会議のため、設置型の Skype は、ビジネス オンラインの Skype に移行するとします。
-- 使用して`TargetMeetingType Teams`のチームに、既存の会議を移行する必要がある、オンライン ビジネスの設置、Skype で会議がホストされるかどうかに関係なくとかどうかに関係なく、オーディオ会議の更新プログラムは、必要を指定します。 
-
-次の例は、すべての会議は、チームに移行できるように、ユーザーの ashaw@contoso.com の会議の移行を開始する方法を示しています。
-
-```
-Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
-```
 ### <a name="enabling-and-disabling-mms"></a>MMS の有効化と無効化
 
 MMS がすべての組織では、既定で有効になっているが、次のように無効にすることができます。
