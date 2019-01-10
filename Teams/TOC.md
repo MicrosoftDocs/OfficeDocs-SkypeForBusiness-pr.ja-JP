@@ -99,11 +99,9 @@
 
 
 <!-- ============================================================ -->
-# [Skype for Business から Teams へのアップグレード](Journey-SkypeforBusiness-Teams.md)
-## [チュートリアル: Skype for Business から Teams への移行](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-## [基本的なアップグレードします。](upgrade-basic.md)
-### [サンプルの電子メールやアンケート](upgrade-emails-surveys.md)
-## [Pro のアップグレードします。](upgrade-pro.md)
+# [チームへのアップグレード](upgrade-introduction.md)
+## [開始する](upgrade-start-here.md)
+## [アップグレード フレームワークについて](upgrade-framework.md)
 ## [アップグレード、旅の計画](upgrade-plan-journey.md)
 ### [プロジェクトの利害関係者を参加させる](upgrade-enlist-stakeholders.md)
 ### [プロジェクト スコープを定義します。](upgrade-define-project-scope.md)
@@ -120,22 +118,22 @@
 ### [組織変更の導入準備を評価します。](upgrade-org-change-readiness.md)
 ### [ユーザーの準備の計画を準備します。](upgrade-user-readiness.md)
 ## [ユーザーのパイロットを実施します。](pilot-essentials.md)
-## [チームへのアップグレードを実行します。](upgrade-to-teams.md)
-### [チームをオンラインでビジネス用の Skype からのアップグレード](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-### [Skype からチームへのビジネスのハイブリッドをアップグレードします。](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
-### [Skype から設置型のビジネスにアップグレード チーム](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
-## [ユーザーの採用により価値を創出.](continue-journey.md)
+## [チームをオンラインでビジネス用の Skype からのアップグレード](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+## [Skype からチームへのビジネスのハイブリッドまたはオンプレミスのアップグレードします。](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
+## [操作、導入、および最適化](continue-journey.md)
 ### [サービスを動作します。](upgrade-operate-my-service.md)
 ### [モニターの品質](upgrade-monitor-quality.md)
 ### [サービスを強化します。](upgrade-enhance-my-service.md)
+## [チュートリアル: Skype for Business から Teams への移行](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [FAQ](FAQ-journey.md)
-
+## 追加情報
+### [移行とビジネス用の Skype では、相互運用性](migration-interop-guidance-for-teams-with-skype.md)
+### [Skype for Business と共存する](coexistence-chat-calls-presence.md)
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # Office 365 との相互運用性
-## [移行とビジネス用の Skype では、相互運用性](migration-interop-guidance-for-teams-with-skype.md)
-## [Skype for Business と共存する](coexistence-chat-calls-presence.md)
+
 ## [共存を設定し、設定をアップグレードします。](setting-your-coexistence-and-upgrade-settings.md)
 ## [Office 365 グループと Teams](office-365-groups.md)
 ## [既存の Office 365 グループを Teams で強化する](enhance-office-365-groups.md)
