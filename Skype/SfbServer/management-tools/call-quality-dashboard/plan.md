@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: '概要: は、コール品質のダッシュ ボードを計画する際の考慮事項について説明します。'
-ms.openlocfilehash: 6df705b4d3b39bdd9f75d328277d9aa1c5fc23d1
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: b524bd344ead2dbc526265f6421881cc6a848b76
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531234"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789370"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>ビジネス サーバー用の Skype の通話品質のダッシュ ボードの計画 
  
@@ -83,7 +83,7 @@ QoE のアーカイブ、キューブ、およびリポジトリ ・ データ�
 
 ポータルは、キューブ内のデータを表示する最も簡単な方法です。 ポータルは、すぐに使用可能ないくつかの組み込みのレポートが付属しています。 組み込みのレポートは、呼び出しデータの連続してより小さくより小さな複数のスライスに、ユーザーをガイドする構造化された方法でリンクされています。 組み込みのレポートには、データをグラフやテーブルを別のピボット、フィルター、メジャーとの組み合わせで表示できるさまざまな方法が強調表示します。 ポータルにアクセスする各ユーザーは、識別を変更し、共有するレポートの独自のセットを持つことができます。 救難 Web ポータルの使用方法の詳細については、 [Skype ビジネス サーバーのための使用を呼び出す品質ダッシュ ボード](use.md)を参照してください。
   
-救難ポータルのサポートされるオペレーティング システム: Windows 8.1、Windows 8、Windows Server 2012 R2 および Windows Server 2012。
+救難ポータルのサポートされるオペレーティング システム: Windows 8.1、Windows 8 は、Windows Server 2012 R2、Windows Server 2012 では、および Windows Server 2016 (Skype のビジネス サーバー 2019年救難だけ)。
   
 救難ポータルでサポートされているブラウザー: Internet Explorer 11、Internet Explorer 10、および Internet Explorer 9 です。
   
@@ -238,7 +238,7 @@ SSAS ジョブの (このプロセスは省略可能なプロセス) QoEArchiveD
     
 - 8.5 を IIS での Windows Server 2012 R2
 
-- IIS と Windows Server 2016
+- Windows サーバーで IIS 10.0 2016 (Skype ビジネス サーバー 2019年救難だけの)
     
 以下は、階層的な順序で必要な IIS の役割サービスのことです。
   

@@ -1,5 +1,5 @@
 ---
-title: マイクロソフト チームのチームで Microsoft のサービスの品質
+title: Microsoft Teams でのサービスの品質 - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: Serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e68a11fcc519b63fe04bf6eedfbf9d87b3b80b0b
-ms.sourcegitcommit: 0e671e6e6fdd25227068c7e3a3a5509b6536d2b1
+ms.openlocfilehash: d5e6b37a0daff06a4676a7ecba1b67ecdd03649a
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "27294181"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789095"
 ---
 # <a name="quality-of-service-qos-in-microsoft-teams"></a>Microsoft Teams でのサービスの品質 (QoS)
 
@@ -248,7 +248,7 @@ QoS 10 の Windows コンピューターのオーディオのポリシー、グ�
 
 2. コマンド プロンプトで次のように入力します。
    ```
-    gpudate.exe /force
+    gpupdate.exe /force
    ```
 
 ## <a name="verify-dscp-markings-in-the-group-policy-object"></a>グループ ポリシー オブジェクト内の DSCP マーキングを確認します。
@@ -259,7 +259,7 @@ QoS 10 の Windows コンピューターのオーディオのポリシー、グ�
 
 2. コマンド プロンプトで次のように入力します。 
    ```
-   gpresult /R >gp.txt
+   gpresult /R > gp.txt
    ```
 
    レポートを生成、gp.txt をという名前のテキスト ファイルに送信します。 代わりに、gp.html という名前の読みやすい html 形式のレポートで同じデータを生成するのには次のコマンドを入力します。

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: '概要: どのような機能がどのクライアントでサポートされているを理解するのにこれらのテーブルを使用できるは、ビジネス サーバー 2019 の Skype または Skype オンライン ビジネス管理者の。'
-ms.openlocfilehash: dfc9e568ae9d600e03e1473aff7bcf6571b68f38
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 296e96af455b7cea8cddf833acff19a665349933
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297693"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789112"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype のデスクトップ クライアントの機能の比較
 
@@ -135,9 +135,9 @@ Skype 間のセッションで、Skype for Business Online プラン 1 のユー
 |会議のインスタント メッセージを無効にする |& #x 2714 です。||& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|
 |参加者をミュートにする |& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|
 |全員を出席者にする |& #x 2714 です。||& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|
-|Skype 会議ブロードキャストの実施 |& #x 2714 です。& #x 2779 です。|||& #x 2714 です。& #x 2780 です。||
+|Skype 会議ブロードキャストの実施 |& #x 2714 です。|||||
 |代理人が委任者のために会議を設定できる |& #x 2714 です。|& #x 2714 です。|& #x 2714 です。|||
-|Skype for Business と Outlook との間での代理人の同期 |& #x 2714 です。||& #x 2714 です。||| 
+|Skype for Business と Outlook との間での代理人の同期 |& #x 2714 です。||& #x 2714 です。|& #x 2714 です。|| 
 |ビデオ スポットライトの設定 (ビデオのロック) |& #x 2714 です。||& #x 2714 です。|& #x 2714 です。|& #x 2714 です。| 
 |共有画面の制御を渡す/取り戻す  |& #x 2714 です。||& #x 2714 です。|||
 

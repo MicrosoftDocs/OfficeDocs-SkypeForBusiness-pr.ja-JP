@@ -1,5 +1,5 @@
 ---
-title: PSTN への接続を持つハイブリッド環境でのユーザー アカウント
+title: PSTN 接続を使用するハイブリッド環境でのユーザー アカウント
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -15,14 +15,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: ユーザーの作成」と「どの組み合わせがサポートまたはサポートされていないのさまざまな組み合わせについて説明します。
-ms.openlocfilehash: f742efc18de05997f73a33b96800cc10a9a9d124
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 15513b426b37f01749c6253021ebb619385fb61e
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26510623"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789209"
 ---
-# <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>PSTN への接続を持つハイブリッド環境でのユーザー アカウント
+# <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>PSTN 接続を使用するハイブリッド環境でのユーザー アカウント
 
 ## <a name="about-the-environment"></a>環境について
 
@@ -62,10 +62,9 @@ PSTN への接続でのビジネスのハイブリッド環境に、Skype では
 |オンプレミス AD|オンライン |Microsoft Teams |直接のルーティング  |あり |
 |**サポートされていない組み合わせ**    | |         |         |
 |Azure AD| 設置型またはオンラインで | Skype ビジネスと Microsoft のチームの|接続または直接ルーティングするエンタープライズ VoIP/ハイブリッド音声  |ユーザー オブジェクトを作成する必要がなく、オンプレミス AD 最初 |
-|オンプレミス AD  |オンプレミス| Microsoft Teams| 接続または直接ルーティングするエンタープライズ VoIP/ハイブリッド音声   |残念ですが、マイクロソフトのチームのクライアントは、ビジネスのためのオンプレミス Skype でサポートされていません |
-|オンプレミス AD  |オンライン |Skype for Business | 直接のルーティング  | いいえ、ビジネス クライアント用の Skype は、直接ルーティングでサポートされていません  |
-|オンプレミス AD  |オンライン |Skype for Business  | 直接のルーティング  |残念ですが、直接ルーティングではサポートされておらず Skype でビジネスのクライアントに、ユーザーは、最初にビジネス用の Skype でエンタープライズ VoIP に対して有効にする必要があります。  |
-|   |         |         |         ||
+|オンプレミス AD  |オンプレミス| Microsoft Teams| 接続または直接ルーティングするエンタープライズ VoIP/ハイブリッド音声   |残念ですが、マイクロソフトのチームのクライアントは、ビジネスのためのオンプレミス Skype でサポートされていません |     
+    
+|オンプレミス AD |オンライン |ビジネス用の Skype |ルーティングの指示します。残念ですが、直接ルーティングではサポートされておらず Skype でビジネスのクライアントに、ユーザーは、最初にビジネス用の Skype でエンタープライズ VoIP に対して有効にする必要があります。  |        |        |        ||
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>PSTN のハイブリッド環境のサポート ステートメント
 

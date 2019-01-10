@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: バーレーンの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: 164334abc83df2005163dfdfcb72579405429c2e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 78a33a13df4b495313a8e8bb258fe5b383e20f12
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013090"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789183"
 ---
 # <a name="availability-in-bahrain"></a>バーレーンの可用性
 
@@ -43,7 +43,7 @@ ms.locfileid: "25013090"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |なし  <br/> |
+|電話会議は購入できますか?  <br/> |はい  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |はいの場合。 <br/><ul><li>マナーマ</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信のクレジットが必要です。  <br/> |
    
@@ -78,7 +78,7 @@ ms.locfileid: "25013090"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|コミュニケーション クレジットは利用できますか?  <br/> |はい  <br/> |
+|コミュニケーション クレジットは利用できますか?  <br/> |なし  <br/> |
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   

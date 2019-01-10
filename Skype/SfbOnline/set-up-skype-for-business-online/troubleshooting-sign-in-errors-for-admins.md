@@ -17,18 +17,18 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'これらの問題のトラブルシューティングを行って Skype のオンライン ビジネスの記号のエラーや作業の一般的な原因を説明します。 '
-ms.openlocfilehash: df34252281bebe429a85fb1a778b6d28023eb9d4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b9eccd817fbb9a67fcbce61d73b4a701c6b063de
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371151"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789086"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>管理者の Skype をビジネス オンラインのサインインのエラーのトラブルシューティング
 
 Skype ビジネス オンラインのサインインのエラーのトラブルシューティングについてには、サインインの問題の最も一般的な原因を排除することによって開始します。 必要に応じて、手順はエラーの種類に基づいて特定の解像度に従って、できます。 ユーザーがサインインできない場合、追加情報の収集し、し、追加の支援を仰ぐことです。
 
-## <a name="what-do-you-want-to-do"></a>目的に合ったトピックをクリックしてください。
+## <a name="what-do-you-want-to-do"></a>目的に合ったトピックをクリックしてください
 <a name="top"> </a>
 
 > [Skype のビジネス オンラインのサインインのエラーの一般的な原因を探します。](troubleshooting-sign-in-errors-for-admins.md#toc323194094)
@@ -124,7 +124,7 @@ Forefront TMG 2010 年に Msoidsvc.exe のアプリケーションのエント�
 
   - **名前**: sip
 
-  - **値と変換先**: sipdir.online.microsoft.com
+  - **値と変換先**: sipdir.online.lync.com
 
 詳細については、マイクロソフト サポート技術情報 2566790、 [Office 365 のビジネス オンラインの DNS 構成の問題の Skype のトラブルシューティング](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790)を参照してください。
 

@@ -11,12 +11,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: 認証方法の詳細に制御を管理者に提供するこの資料のアウトライン コマンドレットでは、業務上の内側と外側を使用します。 管理者は、認証方法を有効にまたは内部、または外部のネットワークにします。
-ms.openlocfilehash: 8350e1b6f3bae27c3b8355b0dee3b737bccaf655
-ms.sourcegitcommit: bb4e7dec155dee358bec9d6e586730dae0b8f559
+ms.openlocfilehash: 1761722bca624451b1cfc6acc28bed7b00eabe6d
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2018
-ms.locfileid: "27371187"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789261"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>無効にする従来の認証方法内部と外部のネットワークを計画しています。
 
@@ -82,6 +82,10 @@ __タイプ 5 の説明:__ 現代 ADAL クライアントが MA を使用して*
 * プールの両方のロールは、プール レベルのポリシーが定義されていない場合は、Get はエラー メッセージを返します。
 
 賢いか、取得 - これらの値と、スクリーン ショットを変更する前に、開始時の状態を記録する場合があります。 OneNote での変更のログを保持することも検討する可能性があります。
+
+> [!NOTE]
+> 
+> メモ: CsAuthConfig を構成すると、する必要がありますを実行するを有効にする CsComputer 設定を有効にするために各コンピューターにします。
 
 > [!IMPORTANT]
 > Lync Web アクセス (LWA) を使用するいるし、外部からのアクセスのフォーム ベースのアクセス (FBA) を使用する必要があります、クライアントを使用するとこれらのシナリオをサポートするために匿名アクセスでアクセスできるように、LWA を再構成します。 同様に、暗証番号 (pin) では、ダイヤルインを使用する場合、外部ユーザーにのみ FBA がブロックされます。 自分の pin を変更する必要がある場合は、ログインを行うためには、内部的には、企業を対象にする必要があります。

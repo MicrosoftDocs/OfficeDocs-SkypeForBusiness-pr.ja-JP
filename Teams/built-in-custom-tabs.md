@@ -12,12 +12,12 @@ search.appverid: MET150
 description: 組み込みタブやカスタム タブを使用して会話、ファイル、地図などの機能を追加する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01e74b526058842819e219fcaa34109a7f954ad4
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: dca1d1a49a749991c97e2e8807557c457f1b67f6
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294676"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27788958"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Microsoft Teams で組み込みタブとカスタム タブを使用する
 ==================================================
@@ -51,7 +51,7 @@ ms.locfileid: "26294676"
 
 ## <a name="develop-custom-tabs"></a>カスタム タブを開発する
 
-組み込みのタブだけでなく設計し、チームに統合したり、コミュニティの残りの部分と共有する独自のタブを作成できます。
+組み込みのタブだけでなく設計し、チームに統合したり、コミュニティの残りの部分と共有する独自のタブを作成できます。 適切な Office 365 のグループを構成することによって[、ユーザー設定のタブにアクセスを制御](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/design#streamline-access)することができます。
 
 Microsoft Developer Network のでは、設計し、独自のタブと[タブのサンプル](https://go.microsoft.com/fwlink/?linkid=855787)をダウンロードすることを Microsoft が開発したを作成する[詳細な手順](https://go.microsoft.com/fwlink/?linkid=855786)を提供します。
 

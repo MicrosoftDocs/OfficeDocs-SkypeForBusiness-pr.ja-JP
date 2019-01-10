@@ -8,26 +8,21 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 一般に、アドレス帳は、トポロジの残りの部分と共に移行されます。 ただし、レガシ環境で以下を設定している場合は、いくつかの移行後の手順を実行する必要があります。
-ms.openlocfilehash: 01279284086499b112028644ea0e1ca2fc708dd0
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 081246acaaede37ab7f7f204a3f7204d9b25fbcc
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370770"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27788995"
 ---
 # <a name="migrate-address-book"></a>アドレス帳を移行します。
 
 一般に、アドレス帳は、トポロジの残りの部分と共に移行されます。 ただし、レガシ環境で以下を設定している場合は、いくつかの移行後の手順を実行する必要があります。 
 
-- グループを組織単位 (OU) のアドレス帳のエントリには、 **PartitionbyOU** WMI プロパティを設定します。 
-
 - アドレス帳の正規化ルールをカスタマイズします。
 
 - **UseNormalizationRules**パラメーターの既定値を False に変更します。 
 
-  **グループ化されたアドレス帳のエントリ**
-
-**PartitionbyOU** WMI プロパティを各 OU に対して、アドレス帳を作成する場合は True に設定する場合は、アドレス帳のエントリをグループ化を続行する場合は、ユーザーおよび連絡先の**msRTCSIP GroupingId** Active Directory 属性を設定する必要があります。 アドレス帳検索のスコープを制限するグループのアドレス帳のエントリにする可能性があります。 **MsRTCSIP GroupingId**属性を使用するには、すべてのグループ化するユーザーに対して同じ値を割り当てることを属性を設定するスクリプトを記述します。 たとえば、OU 内のすべてのユーザーに対して単一の値を割り当てます。 
 
  **アドレス帳の正規化の規則**
 

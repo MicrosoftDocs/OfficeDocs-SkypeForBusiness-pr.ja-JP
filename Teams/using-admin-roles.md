@@ -10,12 +10,12 @@ ms.reviewer: islubin
 description: チームを管理するために別の管理者の役割を使用するについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 895c0992ea15ebff65ff2e4c5cd47823afc81be1
-ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
+ms.openlocfilehash: 26b9342703fbfd25992821984b2f40638d7bda62
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26620076"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789199"
 ---
 # <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Microsoft Teams の管理者ロールを使用して Teams を管理する
 
@@ -30,8 +30,8 @@ Azure Active Directory (AD の Azure) を使用すると、マイクロソフト
 | 役割 | これらのタスクを実行することができます。 | 次のツールにアクセスできます。 |
 |----- | ------------------ | ------------------------------ |
 | Teams サービス管理者 | マイクロソフト チーム サービスを管理し、管理し、Office 365 のグループを作成 | マイクロソフトのチームとビジネス管理センターを含め、関連付けられているコントロールの PowerShell の Skype 内のすべて。<br><br> ミーティングのポリシー、構成、および会議のブリッジ<sup>1, 3</sup>を含めて、会議を管理します。<br><br> ポリシーの呼び出しなど、音声を管理し、電話番号の在庫および割り当て<sup>1</sup><br><br> メッセージング、メッセージング ポリシー<sup>1, 3</sup>などの管理します。<br><br> フェデレーション、チームのアップグレード、およびクライアントの設定<sup>1, 3</sup>のチームを含む、すべての組織全体の設定を管理します。<br><br> 組織と、関連付けられている設定、メンバーシップ (グループ管理チームの管理を展開する管理ポータルで、PowerShell でサポートされている) <sup>23</sup>を含むチームを管理します。<br><br> ユーザー プロファイル ページを表示し、高度なトラブルシューティング ツールセット<sup>3</sup>を使用して、ユーザーの呼び出しの品質に関する問題のトラブルシューティング |
-| Teams 通信管理者 | Microsoft Teams サービス内の通話および会議の機能の管理 | ミーティングのポリシー、構成、および会議のブリッジ<sup>1, 3</sup>を含めて、会議を管理します。<br><br> ポリシーの呼び出しなど、音声を管理し、電話番号の在庫および割り当て<sup>1</sup><br><br> ユーザー プロファイル ページを表示し、高度なトラブルシューティング ツールセット<sup>1, 3</sup>を使用して、ユーザーの呼び出しの品質に関する問題のトラブルシューティング |
-| Teams 通信サポート エンジニア | **高度な**ツールを使用して、チーム内での通信に関する問題をトラブルシューティングします。 | トラブルシューティングのユーザー プロファイルのページへのアクセスは、分析機能の呼び出しで呼び出されます。 完全な呼び出しレコードの情報を表示できます。<sup>3</sup> |
+| Teams 通信管理者 | Microsoft Teams サービス内の通話および会議の機能の管理 | ミーティングのポリシー、構成、および会議のブリッジ<sup>1, 3</sup>を含めて、会議を管理します。<br><br> ポリシーの呼び出しなど、音声を管理し、電話番号の在庫および割り当て<sup>1</sup><br><br> ユーザー プロファイル ページを表示し、高度なトラブルシューティング ツールセット<sup>3</sup>を使用して、ユーザーの呼び出しの品質に関する問題のトラブルシューティング |
+| Teams 通信サポート エンジニア | **高度な**ツールを使用して、チーム内での通信に関する問題をトラブルシューティングします。 | ユーザー プロファイル ページを表示し、高度なトラブルシューティング ツールセット<sup>3</sup>を使用して、ユーザーの呼び出しの品質に関する問題のトラブルシューティング |
 | チーム ・ コミュニケーション ・ サポート ・ スペシャ リスト | **基本的な**ツールを使用して、チーム内での通信に関する問題をトラブルシューティングします。| トラブルシューティングのユーザー プロファイルのページへのアクセスは、分析機能の呼び出しで呼び出されます。 検索されている特定のユーザーのユーザー情報のみを表示可能。<sup>3</sup>
 
 <sup>1</sup> [PowerShell の Skype ビジネス モジュールの](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
@@ -61,5 +61,5 @@ PowerShell ツールは、これらの管理者の役割のほとんどは、ビ
 
 - [マイクロソフト チーム PowerShell の概要](teams-powershell-overview.md)
 - [マイクロソフト チーム PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-- [チーム所有者およびマイクロソフトのチームのメンバーを割り当てる](https://docs.microsoft.com/microsoftteams/assign-roles-permissions)
+- [Microsoft Teams でチーム所有者とメンバーを割り当てる](https://docs.microsoft.com/microsoftteams/assign-roles-permissions)
 

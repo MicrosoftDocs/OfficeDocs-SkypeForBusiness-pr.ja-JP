@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: ビジネス サーバーには、AlwaysOn 可用性グループ、AlwaysOn フェールオーバー クラスター インスタンス、データベース ミラーリング、SQL のフェールオーバー クラスタ リングなど、Skype でサポートされているバック エンド サーバーの高可用性オプションについて説明します。
-ms.openlocfilehash: 57cc09765ab8f753e60a5f76f5d93b385c7fd406
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c17d4afb20a0aeef2a1dacc40080a1092fbda357
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983185"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789293"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Skype の最後のサーバーの高可用性をビジネスのサーバーのバックアップします。
  
@@ -41,11 +41,16 @@ ms.locfileid: "20983185"
 
 ビジネス サーバーの Skype では、次のデータベース ソフトウェアでミラーリングがサポートされています。
   
+- SQL Server Enterprise Edition と Standard Edition の両方の 2016
+
 - SQL Server Enterprise Edition と Standard Edition の両方の 2014
     
 - SQL Server 2012 の SP2 には、CU2、Enterprise Edition と Standard Edition の両方
     
 - SQL Server 2008 R2 SP2 では、Enterprise Edition と Standard Edition の両方
+
+> [!NOTE]
+> 2016 の SQL Server は、ビジネス サーバー 2019 の Skype によってサポートされている唯一のバージョンです。
     
 非同期データベース ミラーリングは Skype のバック エンド サーバーの高可用性のビジネス サーバーです。 これ以降、特に指定がない限り、データベース ミラーリングは同期データベース ミラーリングを意味するものとします。 
   
@@ -108,13 +113,18 @@ AlwaysOn 可用性グループを展開する手順を実行するには、 [Sky
 
 Skype ビジネス サーバー用には、次のデータベース ソフトウェアをクラスター化 SQL Server のフェールオーバーがサポートされています。
   
+- SQL Server Enterprise Edition と Standard Edition の両方の 2016
+
 - SQL Server Enterprise Edition と Standard Edition の両方の 2014
     
 - SQL Server 2012 の SP2 には、CU2、Enterprise Edition と Standard Edition の両方
     
 - SQL Server 2008 R2 SP2 では、Enterprise Edition と Standard Edition の両方
+
+> [!NOTE]
+> 2016 の SQL Server は、ビジネス サーバー 2019 の Skype によってサポートされている唯一のバージョンです。
     
-SQL のフェールオーバー クラスタ リングを使用するには、最初を設定し、フロント エンド プールを展開する前に SQL Server のクラスターを構成する必要があります。 ベスト ・ プラクティスは、SQL Server 2012 のフェールオーバー クラスタ リングのセットアップ手順を参照してください[https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx)。 SQL Server 2008 のクラスタ リング フェイル オーバーを参照してください[https://technet.microsoft.com/en-us/library/ms189134(v=sql.105).aspx](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx)。
+SQL のフェールオーバー クラスタ リングを使用するには、最初を設定し、フロント エンド プールを展開する前に SQL Server のクラスターを構成する必要があります。 ベスト ・ プラクティスは、SQL Server 2014、2016 のフェールオーバー クラスタ リングのセットアップ手順を参照してください[https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx)。 SQL Server 2008 のクラスタ リング フェイル オーバーを参照してください[https://technet.microsoft.com/en-us/library/ms189134(v=sql.105).aspx](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx)。
   
 SQL Server をインストールする際は、SQL Server Management Studio をインストールしてデータベースとログ ファイルの場所を管理する必要があります。SQL Server Management Studio は、SQL Server のインストール時にオプション コンポーネントとしてインストールされます。
   

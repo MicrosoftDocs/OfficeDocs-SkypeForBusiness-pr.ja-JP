@@ -17,23 +17,23 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - SMB
-description: 残念なことに、ユーザーが  Skype 会議ブロードキャストにアクセスして使用するときに、ブロックされる特定のユーザー ライセンスがあります。https://broadcast.skype.com ユーザーにこのメッセージが表示される場合、ブロックされるライセンスの一つがユーザーに割り当てられています。 それでも Skype 会議ブロードキャストを使用したい場合、別の Office 365 のライセンスをそのユーザーに割り当てます。
-ms.openlocfilehash: 68ea3a6632ce5c25c0c443edc8abc66a5c6f5bbe
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+description: Unfortunately, there are certain user licenses that are blocked when user go to https://broadcast.skype.com and want to use Skype Meeting Broadcast. If a user sees this message, they have one of the blocked licenses assigned to them. If you still want them to use it, assign them another Office 365 license.
+ms.openlocfilehash: b20334a525aa7942af90439cf05add7c49fc1f8b
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861407"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27788967"
 ---
-# <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>ブロックされた Skype 会議ブロードキャストのユーザー ライセンス
+# <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>Skype 会議のブロードキャストをホストするためのユーザー ライセンスがブロックされています。
 
-残念なことに、ユーザーが  Skype 会議ブロードキャストにアクセスして使用するときに、ブロックされる特定のユーザー ライセンスがあります。https://broadcast.skype.com ユーザーにこのメッセージが表示される場合、ブロックされるライセンスの一つがユーザーに割り当てられています。 それでも Skype 会議ブロードキャストを使用したい場合、別の Office 365 のライセンスをそのユーザーに割り当てます。
+残念ながら、ユーザーをアクセスするときにブロックされている特定のユーザー ライセンスがあるhttps://broadcast.skype.com、Skype 会議をブロードキャストをホストするとします。 ユーザーにこのメッセージが表示される場合、ブロックされるライセンスの一つがユーザーに割り当てられています。 それでも Skype 会議ブロードキャストを使用したい場合、別の Office 365 のライセンスをそのユーザーに割り当てます。
   
  *「あなたの会社のポリシーでは、Skype 会議ブロードキャストの使用が許可されていません。このサービスが有効にされ、正しいライセンスを保有していることをシステム管理者に確認してください。」* 
   
-## <a name="blocked-user-licenses"></a>ブロックされているユーザー ライセンス
+## <a name="blocked-user-licenses"></a>ブロックされているユーザー ライセンス 
 
-以下のいずれかのユーザー ラインセンスがユーザーに割り当てられている場合、Skype 会議ブロードキャストがブロックされます。
+Skype 会議のブロードキャストのイベントをホストしているがユーザーに割り当てられている次のユーザーのライセンスのいずれかの場合はブロックされます。 ストリーミング ブロードキャスト イベント参加者には、任意のユーザー ライセンスは不要です。
   
 - Office 365 教育要素/スタッフ
     

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: '概要: は、テスト ユーザー アカウントとビジネス サーバー代理トランザクションの Skype のウォッチャー ノードの設定を構成します。'
-ms.openlocfilehash: 3881fc1878ed3b248aa3109b79a3e384ec4a5fb7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 257814108a276d049ed4ac9173fde6dfa4473ff2
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989889"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789392"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>監視ノードのテスト ユーザーおよび設定の構成
  
@@ -33,12 +33,11 @@ ms.locfileid: "20989889"
 
 テスト用のアカウントには、実際のユーザーを表す必要はありませんが、有効な Active Directory アカウントをする必要があります。 さらに、これらのアカウントは Skype のビジネス サーバーに対して有効にする必要があります、有効な SIP アドレスでは、必要があり、(テスト CsPstnPeerToPeerCall の代理トランザクションを使用します) に、エンタープライズ VoIP を有効にする必要があります。 
   
-TrustedServer の認証方法を使用している場合に実行する必要があるのは、これらのアカウントが存在していることを確認し、説明に従って構成することのみです。 テストしようとする各プールに対して、少なくとも 3 つのテスト ユーザーを割り当てる必要があります。 ネゴシエート認証方法を使用する場合セット CsTestUserCredential コマンドレットを使用することもする必要があり、Skype のビジネスのサーバー管理シェルを有効にする代理トランザクションを使用するアカウントをテストします。 (これらのコマンドは、次の 3 つの Active Directory ユーザー アカウントが作成されていると、これらのアカウントが有効になっている Skype のビジネス サーバーと仮定)、次のようなコマンドを実行することによってこれを行います。
+TrustedServer の認証方法を使用している場合に実行する必要があるのは、これらのアカウントが存在していることを確認し、説明に従って構成することのみです。 プールごとにテストするには、少なくとも 2 つのテスト ユーザーを割り当てる必要があります。 ネゴシエート認証方法を使用する場合セット CsTestUserCredential コマンドレットを使用することもする必要があり、Skype のビジネスのサーバー管理シェルを有効にする代理トランザクションを使用するアカウントをテストします。 (これらのコマンドは、2 つの Active Directory ユーザー アカウントが作成されていると、これらのアカウントが有効になっている Skype のビジネス サーバーと仮定)、次のようなコマンドを実行することによってこれを行います。
   
 ```
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
 Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
-Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
 ```
 
 SIP アドレスだけでなくユーザー名とパスワードも含める必要があります。パスワードを含めない場合は、Set-CsTestUserCredential コマンドレットを実行したときに、この情報の入力が求められます。ユーザー名は、上記のコード ブロックのようにドメイン名\ユーザー名の形式を使用して指定できます。
@@ -48,7 +47,6 @@ SIP アドレスだけでなくユーザー名とパスワードも含める必�
 ```
 Get-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com"
 Get-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com"
-Get-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com"
 ```
 
 次のような情報が各ユーザーに返されます。
@@ -62,15 +60,15 @@ Get-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com"
 テスト ユーザーが作成されたら、次のようなコマンドを使用して監視ノードを作成できます。
   
 ```
-New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"}
+New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"}
 ```
 
-このコマンドでは、既定の設定を使用し、既定の代理トランザクションのセットを実行する新しい監視ノードが作成されます。新しい監視ノードでは、watcher1@litwareinc.com、watcher2@litwareinc.com、および watcher3@litwareinc.com のテスト ユーザーを使用します。監視ノードが TrustedServer 認証を使用している場合、3 つのテスト アカウントは Active Directory および Skype for Business Server で有効なユーザー アカウントにすることができます。監視ノードが Negotiate 認証方法を使用している場合は、Set-CsTestUserCredential コマンドレットを使用してこれらのユーザー アカウントを監視ノードで有効にする必要もあります。
+このコマンドでは、既定の設定を使用し、既定の代理トランザクションのセットを実行する新しい監視ノードが作成されます。 新しいウォッチャー ノードは、テスト ユーザーの watcher1@litwareinc.com と watcher2@litwareinc.com にも使用します。 ウォッチャー ノードは、向こう側にある認証を使用する場合、2 つのテスト用アカウント ビジネス サーバーの Active Directory と Skype の有効な任意の有効なユーザー アカウントを使用できます。 監視ノードが Negotiate 認証方法を使用している場合は、Set-CsTestUserCredential コマンドレットを使用してこれらのユーザー アカウントを監視ノードで有効にする必要もあります。
   
 これらのステップでプールを直接ターゲット指定する代わりに、サインインするターゲット プールの自動検出が正しく構成されていることを確認するには
   
 ```
-New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"}
+New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"}
 ```
 
 ### <a name="configuring-extended-tests"></a>拡張テストの構成
@@ -78,16 +76,16 @@ New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.l
 公衆交換電話網との接続を検証する公衆交換電話網 (PSTN) テストを有効にする場合、監視ノードのセットアップ時に追加の構成を行う必要があります。最初に、テスト ユーザーを PSTN のテストの種類に関連付ける必要があります。これを行うには、Skype for Business Server 管理シェルから次のようなコマンドを実行します。
   
 ```
-$pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"  -Name "Contoso Provider Test" -TestType PSTN
+$pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com" -Name "Contoso Provider Test" -TestType PSTN
 ```
 
 > [!NOTE]
 > このコマンドの結果は変数に格納する必要があります。この例では、$pstnTest という名前の変数です。 
   
-次に、ビジネス サーバー プールのため、Skype に (変数 $pstnTest に格納されている) テストの種類を関連付けるには、**新規 CsWatcherNodeConfiguration**コマンドレットを使用することができます。 たとえば、次のコマンドでは、前に作成した 3 つのテスト ユーザーを追加し、PSTN のテストの種類も追加する新しい監視ノード構成をプール atl-cs-001.litwareinc.com に対し作成します。
+次に、ビジネス サーバー プールのため、Skype に (変数 $pstnTest に格納されている) テストの種類を関連付けるには、**新規 CsWatcherNodeConfiguration**コマンドレットを使用することができます。 次のコマンドは、プール atl の cs-001.litwareinc.com、以前は、作成された 2 つのテスト ユーザーを追加するための新しい監視ノード構成を作成して、PSTN を追加するテストの種類。
   
 ```
-New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
+New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
 ```
 
 Skype for Business Server の中核となるファイルと RTCLocal データベースを監視ノード コンピューターにインストールしていない場合、上記のコマンドは失敗します。 
@@ -202,7 +200,13 @@ Get-CsWatcherNodeConfiguration
 
 次のような情報が表示されます。
   
-アイデンティティ: atl の cs-001.litwareinc.com TestUsers: {sip:watcher1@litwareinc.com, sip:watcher2@litwareinc.com...} ExtendedTests : {TestUsers=IList<System.String>;Name=PSTN Test; Te...} TargetFqdn: atl の cs-001.litwareinc.com のポート番号: 5061To では、監視ノードが構成されていることを確認して正しく、ビジネス サーバー管理シェルには、Skype からは、次のコマンドを入力します。
+アイデンティティ: atl の cs-001.litwareinc.com <br/>
+TestUsers: {sip:watcher1@litwareinc.com, sip:watcher2@litwareinc.com...}<br/>
+ExtendedTests : {TestUsers=IList<System.String>;Name=PSTN Test; Te...}<br/>
+TargetFqdn: atl の cs-001.litwareinc.com<br/>
+ポート番号: 5061<br/>
+
+監視ノードが正しく構成されていることを確認するには、Skype for Business Server 管理シェルから次のコマンドを入力します。
   
 ```
 Test-CsWatcherNodeConfiguration
@@ -210,15 +214,15 @@ Test-CsWatcherNodeConfiguration
 
 上記のコマンドでは、展開内の監視ノードをそれぞれテストし、次のような情報を提供します。
   
-- 必要なレジストラーの役割がインストールされているかどうか
+- 必要な登録機関の役割がインストールされています。
     
-- (Set-CsWatcherNodeConfiguration コマンドレットを実行したときに) 必要なレジストリ キーが作成されたかどうか
+- 必要なレジストリ キーが作成された (セット CsWatcherNodeConfiguration コマンドレットを実行したときに完了します)。
     
-- サーバーで適切なバージョンの Skype for Business Server を実行しているかどうか
+- サーバーは、ビジネスのサーバーの適切なバージョンの Skype を実行しています。
     
-- ポートが正しく構成されているかどうか
+- ポートが正しく構成されています。
     
-- 割り当てられたテスト ユーザーが必要な資格情報を持っているかどうか
+- テストを割り当てられたユーザーは、必要な資格情報を持ってください。
     
 ## <a name="managing-watcher-nodes"></a>監視ノードの管理
 <a name="testuser"> </a>
@@ -365,7 +369,7 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>Video Interop Server (VIS) 代理トランザクション
 
-ビデオの相互運用機能サーバー (VIS) の代理トランザクションでは、ダウンロードして、代理トランザクションのサポート ファイル ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)) をインストールすることが必要です。 
+Video Interop Server (VIS) 代理トランザクションでは、代理トランザクション サポート ファイル ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)) をダウンロードしてインストールする必要があります。 
   
 インストールするのには VISSTSupportPackage.msi は msi ファイルが既にインストールされているために下にあるシステム要件) の依存関係を確認します。 単純なインストールを実行するのには VISSTSupportPackage.msi を実行します。 .Msi 次のパス内のすべてのファイルをインストールする:「%ProgramFiles%\VIS 合成のトランザクション サポート パッケージ」です。
   
@@ -380,15 +384,15 @@ VIS の代理トランザクションを実行する方法の詳細について�
   
 代理トランザクションを実行する頻度を変更するには、次の手順を実行します。
   
-1. オープン システム センター操作マネージャーです。 [Authoring] セクションをクリックします。 ([Authoring] の下にある) [Rules] セクションをクリックします。
+1. オープン システム センター操作マネージャーです。 [Authoring] セクションをクリックします。 (作成) の [ルール] セクションをクリックします。
     
-2. [ルール] セクションで、メイン合成トランザクション ランナーのパフォーマンス コレクション ルール」という名前のルールを検索します
+2. [ルール] セクションで、メイン合成トランザクション ランナーのパフォーマンス コレクション ルール」という名前のルールを検索します。
     
-3. 、ルールを右クリックし、上書きを選択、ルールの上書きを選択し、[クラスのすべてのオブジェクトの: プールの監視」
+3. 、ルールを右クリックし、上書きを選択、ルールの上書きを選択し、[クラスのすべてのオブジェクトの: プールの監視」です。
     
 4. オーバーライドのプロパティ] ウィンドウでは、パラメーター名「頻度」を選択し、目的の 1 つをオーバーライド値を設定します。
     
-5. 同じウィンドウで、この上書きを適用する必要のある管理パックを選択します。
+5. 同じウィンドウでは、このオーバーライドを適用する必要とする管理パックを選択します。
     
 ## <a name="using-rich-logging-for-synthetic-transactions"></a>代理トランザクションのリッチ ログの使用
 <a name="special_synthetictrans"> </a>
@@ -403,7 +407,7 @@ VIS の代理トランザクションを実行する方法の詳細について�
     
 - 実行されたアクション (たとえば、電話会議の作成、参加、または終了、Skype for Business Server へのサインオン、インスタント メッセージの送信など)
     
-- アクティビティが行われたときに生成された、情報提供メッセージ、詳細メッセージ、警告メッセージ、またはエラー メッセージ
+- 情報、詳細、警告、またはエラー メッセージがアクティビティを実行したときに生成されます。
     
 - SIP 登録メッセージ
     
@@ -420,11 +424,13 @@ Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable Reg
 ```
 
 > [!NOTE]
-> : の先頭に $ 文字変数の名前です。 $RegistrationTest ではなく、RegistrationTest のような変数名を使用します。 
+> $ 記号を変数名の先頭です。 $RegistrationTest ではなく、RegistrationTest のような変数名を使用します。 
   
 このコマンドを実行すると、次のような出力が表示されます。
   
-ターゲット Fqdn: atl の cs-001.litwareinc.com の結果: 障害の待機時間: 00時 00分: 00 のエラー メッセージ: このコンピューターに割り当てられている証明書がありません。 診断: ここに示すエラー メッセージだけでこのエラーのより詳細な情報にアクセスすることができます。 この情報に HTML 形式でアクセスするには、以下のようなコマンドを使用して、変数 RegistrationTest に格納された情報を HTML ファイルに保存します。
+ターゲット Fqdn: atl の cs-001.litwareinc.com の結果: 障害の待機時間: 00時 00分: 00 のエラー メッセージ: このコンピューターに割り当てられている証明書がありません。 診断: ここに示すエラー メッセージだけでこのエラーのより詳細な情報にアクセスすることができます。
+
+この情報に HTML 形式でアクセスするには、以下のようなコマンドを使用して、変数 RegistrationTest に格納された情報を HTML ファイルに保存します。
   
 ```
 $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html

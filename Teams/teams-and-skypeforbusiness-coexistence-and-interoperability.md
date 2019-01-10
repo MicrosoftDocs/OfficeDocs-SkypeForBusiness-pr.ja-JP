@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c70519fc328b74a6269d4ed767d9223b8deca83d
-ms.sourcegitcommit: bb4e7dec155dee358bec9d6e586730dae0b8f559
+ms.openlocfilehash: f27acda0494a436cf4d4bb7b47f91fda2bb42f22
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2018
-ms.locfileid: "27371180"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789363"
 ---
 ![プロジェクトの定義の段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-project-definition.png "プロジェクトの定義の段階に重点を置いて、旅アップグレードの段階")
 
@@ -59,9 +59,11 @@ ms.locfileid: "27371180"
 
 ### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-in-calendar-year-2019"></a>チームにのみ (ロールバックを開始するこのモードは、夏 2018 をチェック アウトされ、2019 年にすべてのテナントを終了する)
 
+**チームのみ**のユーザーは、既存の Skype ビジネス会議、またはアップグレードしていないユーザーや外部の関係者で編成されているビジネス用の Skype での会議に参加するのにビジネス クライアント用の Skype をのみ使用できます。 アップグレード済みのユーザーもを使用している Skype のビジネス業務のチームと Skype との間の相互運用性機能を使用して、組織内の他のユーザーとの通信を続行します。ただし、アップグレード済みのユーザーは、Skype のビジネス チャット、通話、または会議を開始できません。
+
 組織の唯一のコミュニケーションとコラボレーションのツールとして、チームを使用する一部またはすべてのユーザーの準備ができたらとすぐに**チームのみ**のモードにそれらのユーザーをアップグレードできます。
 
-**チームのみ**のユーザーは、既存の Skype ビジネス会議、またはアップグレードしていないユーザーや外部の関係者で編成されているビジネス用の Skype での会議に参加するのにビジネス クライアント用の Skype をのみ使用できます。 アップグレード済みのユーザーもを使用している Skype のビジネス業務のチームと Skype との間の相互運用性機能を使用して、組織内の他のユーザーとの通信を続行します。ただし、アップグレード済みのユーザーは、Skype のビジネス チャット、通話、または会議を開始できません。
+チームのみのモードへの移行に関する追加の考慮事項は、[チームだけモード上の考慮事項](teams-only-mode-considerations.md)を参照してください。
 
 ![チーム専用のユーザーとして、ユーザーがアップグレードされた後に、特別なモードで実行されているビジネス クライアント用の Skype](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "チーム専用のユーザーとして、ユーザーがアップグレードされた後に、特別なモードで実行されているビジネス クライアント用の Skype")
 

@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: ビジネス オンライン スケジュール、生産、およびブロードキャストの会議、またはイベントを 10,000 の出席者に大規模なオンライン ユーザーを対象にできるようにするには、Skype の Skype 会議のブロードキャスト機能について説明します。
-ms.openlocfilehash: 7c22b4b0911935ffd90d10e65d2fff0d71018910
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b29ec51ddcb672f6727f7bc43958872962245ebb
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374556"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27788977"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Skype 会議ブロードキャスト用にネットワークをセットアップする
 
@@ -93,7 +93,7 @@ Skype 会議のブロードキャストの[Skype 会議のブロードキャス�
 
 ## <a name="set-up-skype-meeting-broadcast-in-hybrid-deployments-and-organizations"></a>ハイブリッド展開および組織で Skype 会議のブロードキャストを設定します。
 
-場合は、他のセットアップで実行する必要がありますが、オンライン ビジネスの組織と、設置型展開の Lync Server 2010、Microsoft Lync Server 2013、および Skype、Skype ビジネス サーバー 2015 のとオンライン両方のユーザーが存在している設置ビジネス オンラインの Skype で通信し、すべてのユーザーを作成し、Skype の会議のブロードキャストに参加できるように、設置型の組織を有効にするのには、上記に追加します。 それらの要件とはどのようなものを表示するには、 [Skype 会議のブロードキャスト用の設置型展開の構成](https://go.microsoft.com/fwlink/?LinkId=617070)を参照してください。
+場合は、他のセットアップで実行する必要がありますが、オンライン ビジネスの組織と、設置型展開の Lync Server 2010、Microsoft Lync Server 2013、および Skype、Skype ビジネス サーバー 2015 のとオンライン両方のユーザーが存在している設置ビジネス オンラインの Skype で通信し、Skype の会議のブロードキャストに参加するすべてのユーザーを許可する設置型の組織を有効にするのには、上記に追加します。 それらの要件とはどのようなものを表示するには、 [Skype 会議のブロードキャスト用の設置型展開の構成](https://go.microsoft.com/fwlink/?LinkId=617070)を参照してください。
 
 ## <a name="related-topics"></a>関連トピック
 

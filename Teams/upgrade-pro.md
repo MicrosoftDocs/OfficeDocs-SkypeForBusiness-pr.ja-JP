@@ -1,5 +1,5 @@
 ---
-title: マイクロソフト チームのチームで Microsoft の Pro のアップグレードします。
+title: Microsoft Teams 用の Upgrade Pro - Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2613bd346a8780b23e1ca37fd37e148502e020c
-ms.sourcegitcommit: 4f848bba1b3522f1de573e3dac081906d47eb5ca
+ms.openlocfilehash: 9a849e9c6ab5934252f5bae1cbd26542f3393d57
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25719128"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789385"
 ---
 # <a name="upgrade-pro"></a>Pro のアップグレードします。
 
@@ -61,7 +61,7 @@ ms.locfileid: "25719128"
 |**1**     |**リスクと要件を特定するのには、既存の環境を評価します。**         |によってお客様の環境を評価するには、リスクと、全体的な配置に影響を与えるための要件を特定します。 これらの項目を事前に識別するには、成功を収めるために役立つ計画を調整できます。         |[チームにアップグレードする前に、環境を評価します。](upgrade-plan-journey-evaluate-environment.md)         |
 |**2**     |**Office 365 チームとチームの技術的な契約時を完了します。**        |タスクと共同作業し、チームでのボイス機能の技術的な準備を完了させるアクティビティを識別する既存の契約時チェックリストを活用することです。         |[チームにアップグレードするため、サービスを準備します。](upgrade-prepare-environment-prepare-service.md)         |
 |**3**     |**リアルタイム メディアのシナリオでは特に、チームのネットワークを最適化します。**         |オーディオ、ビデオ、または会議を導入する場合は、その機能が、ネットワークを最適化するためにいくつか追加の手順を実行できます。 チーム技術を使用してオーディオおよびビデオ (コーデック) に対応する&mdash;のパフォーマンスが向上するため、&mdash;の条件を最もネットワークします。 最適な一貫したパフォーマンスを確保するには、チームのネットワークを準備する必要があります。          |[チームにアップグレードするためにネットワークを準備します。](upgrade-prepare-environment-prepare-network.md)         |
-|**4**     |**組織の変更の準備と主な用途とペルソナを評価します。**        |チームからの値を実現するには、ユーザーする必要があります実際に使用します。 チームを有効にするだけには、目標を達成することは保証します。 ユーザー別のユース ケースとさまざまな学習スタイルを異なるスピードで新技術に適応します。  ユーザー ベースを理解することを容易にして、ユーザーの採用を促進する教育の適切なレベルを準備できます。         |[組織の変更の準備完了](upgrade-org-change-readiness.md#organizational-change-readiness)<br><br>[使用例](upgrade-org-change-readiness.md#use-cases)<br><br>[ペルソナ](upgrade-org-change-readiness.md#personas)           |
+|**4**     |**組織変更の導入準備を評価します。**        |チームからの値を実現するには、ユーザーする必要があります実際に使用します。 チームを有効にするだけには、目標を達成することは保証します。 ユーザー別のユース ケースとさまざまな学習スタイルを異なるスピードで新技術に適応します。  ユーザー ベースを理解することを容易にして、ユーザーの採用を促進する教育の適切なレベルを準備できます。         |[組織の変更の準備完了](upgrade-org-change-readiness.md#organizational-change-readiness)           |
 |**5**     |**定義の方法を通信、訓練し、ユーザーをサポートするユーザーの準備の計画を準備します。**         |ペルソナが定義されている cohorts に特化した新しいテクノロジーへの最適な receptiveness をことを確認して、トレーニング、広くは (ビジョンと値のメッセージングおよびユニバーサルのユース ケースを組み込む) メッセージングとメッセージの組み合わせを使用して、サポートして遅滞者にします。 個人用に設定されたこの計画より迅速に関連付けるチームは、お客様のニーズを理解することを実証しているときにユーザーを有効にすることによってユーザーの導入を容易にするために役立ちます。 これは、パイロット、オンボード、チームへのアップグレードとして使用できます。         |[ユーザーの準備の計画を準備します。](upgrade-user-readiness.md)<br><br>[アップグレードの成功キット](https://aka.ms/UpgradeSuccessKit)<br><br>[チームのビデオ トレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)<br><br>[ビジネスの Skype からのチームに切り替える](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)       |
 |**6**     |**マイクロソフト チームの保留中の開始を発表します。**       |混乱が少なくなり、ユーザー初期によりユーザー操作性との通信時間の経過とともにビジネス用の Skype からのアップグレードを迅速化を支援する、マイクロソフトのチームについての興奮を生成します。          | [アップグレードの成功キット](https://aka.ms/UpgradeSuccessKit)         |
 |**7**     |**チームがお客様の IT スタッフを準備します。**         |Office 365 テナント管理者、技術責任者、およびサポート デスクは、高品質のユーザー エクスペリエンスの推進に責任を負います。 ネットワーク チーム、ユーザー、チームを構成して、効果的にトラブルシューティングを行うし、発生する可能性がある問題を解決することをサポートするために準備が整っていることを確認が含まれます。         |[マイクロソフト チームのお客様の IT スタッフを準備します。](https://docs.microsoft.com/microsoftteams/upgrade-prepare-it-pros)<br><br>[アップグレードの成功キット](https://aka.ms/UpgradeSuccessKit)       |
@@ -82,7 +82,7 @@ ms.locfileid: "25719128"
 |ステップ  |  |概要 |リソース |
 |---------|---------|---------|---------|
 |**1**     |**チームの正式な発売を発表します。**       |値を認識し、土地を確保し、ユーザーにメリットを享受するチームの組織の発売開始についてユーザーとの通信です。 起動イベントや電子メールなどの通信の複数のフォームを検討してください。         |[アップグレードの成功キット](https://aka.ms/UpgradeSuccessKit)          |
-|**2**     |**ユーザーのための適切な共存モードを有効にします。**         |組織の適切な共存モード」を設定する手順に従います。         |[共存およびアップグレードの設定を設定します。](setting-your-coexistence-and-upgrade-settings.md)         |
+|**2**     |**ユーザーのための適切な共存モードを有効にします。**         |組織の適切な共存モード」を設定する手順に従います。         |[共存およびアップグレードを設定する](setting-your-coexistence-and-upgrade-settings.md)         |
 |**3**     |**チームのロードマップに関する情報を把握します。**       |チームのロードマップを監視し、チームを移動するのには、組織の適切なタイミングを識別する組織の準備を継続的に評価します。         |[チームのロードマップ](https://aka.ms/teamsroadmap)         |
 |**4**     |**以降の通信を送信しドライブへのチームのチャンピオン**の興奮とチームの採用       |ユーザーの採用を促進し、チームの継続的な通信とチャンピオンの興奮を維持してください。          |[365 の Microsoft エキスパート プログラム](https://aka.ms/O365Champions)         |
 

@@ -1,5 +1,5 @@
 ---
-title: マイクロソフトのチームで、最初のチームとのチャネルを作成します。
+title: Microsoft Teams で最初のチームとチャネルを作成する
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 496d5f941f245d513aefbf165e37c33d9e431780
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: c2cb8fb04f244139255cb363a6779379824cb709
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519960"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789324"
 ---
-# <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>マイクロソフトのチームで、最初のチームとのチャネルを作成します。
+# <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams で最初のチームとチャネルを作成する
 
 設定し、チームとチャネルの最初のセットを使用しては、チームと、利便性を構築し、組織全体にわたってチームの採用を推進を支援できるエキスパートを識別します。 
 
@@ -41,7 +41,7 @@ ms.locfileid: "26519960"
 | ------------ | -------------------- | -------------------- |
 | 全般 | すべてのチームは、一般的なチャネルを開始します。 チームを理解することに開始すると、お知らせを作成するのにには、このチャンネルを使用します。 |  |
 | よろしく | チームに自分を紹介し、チームから取得する内容を共有します。 |  |
-| どうすればいいですか。 | 操作方法に関する質問へのチャネル。</br>手順 1: デスクトップおよびモバイル クライアントをインストールします。</br>ステップ 2: チームにジャンプします。| [チームのヘルプ センター](https://support.office.com/teams)にリンクされている固定タブ</br>[チームのトレーニング ・ ビデオ](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)にリンクしている固定タブ</br>[デスクトップおよびモバイル クライアントのダウンロードのリンクをチーム](https://teams.microsoft.com/downloads)にリンクされている固定タブ |
+| 操作方法 | 操作方法に関する質問へのチャネル。</br>手順 1: デスクトップおよびモバイル クライアントをインストールします。</br>ステップ 2: チームにジャンプします。| [チームのヘルプ センター](https://support.office.com/teams)にリンクされている固定タブ</br>[チームのトレーニング ・ ビデオ](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)にリンクしている固定タブ</br>[デスクトップおよびモバイル クライアントのダウンロードのリンクをチーム](https://teams.microsoft.com/downloads)にリンクされている固定タブ |
 | フィードバック | チームの皆様のご意見を共有します。 | ポリーのポーリングと固定されたタブ|
 | 将来のチームのアイデア | チームが、組織に付加価値を推進する、上でアイデアを共有します。 どのような呼び出すことがこれらのチームできますか。 メンバーがあると考えているでしょうか。 ||
 | サポート | 何か問題は、期待どおりに動作していないの場合は、ヘルプを表示するこのチャネルを使用します。 ||

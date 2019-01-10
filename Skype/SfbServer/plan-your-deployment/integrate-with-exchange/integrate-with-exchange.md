@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: '概要: 2016 の Exchange Server や Exchange Server 2013 ビジネス サーバーの Skype を統合する方法の詳細については、このトピックを確認します。'
-ms.openlocfilehash: 901bfd35ef0e781d12c8f4f455912e9ad47d0bdd
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 327a564e9c7a0a73ef178866f511c75388ac14bc
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532536"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789399"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Skype for Business と Exchange の統合の計画
  
@@ -104,9 +104,13 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 |不在着信の会話の履歴とログの呼び出しは、ユーザーの exchange メールボックスに書き込まれます。  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
 |Exchange でのコンテンツのアーカイブ (IM および会議)  <br/> |Y (Exchange 2016/2013 が必要)  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
 |アーカイブされたコンテンツの検索  <br/> |Y (Exchange 2016/2013 が必要)  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|Exchange UM ボイス メール  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
+|Exchange UM ボイス メール  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |N  <br/> |
 |サーバー側の会話履歴  <br/> |Y  <br/> |Y  <br/> |N  <br/> |Y  <br/> |Y  <br/> |
-   
+
+> [!NOTE]
+> オンライン ビジネス、ビジネス サーバー 2019 の Skype、Skype ビジネス サーバー 2015 年のビジネス Server 2013 の Skype の Skype ではサポートされているクラウドのボイスメール サービスがあります。
+> 
+
 ## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
 <a name="feature_support"> </a>
 
