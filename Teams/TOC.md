@@ -239,8 +239,6 @@
 #### [PowerShell を使用して、チームのライブ イベントのポリシーを設定するのには](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 #### [チームのライブ イベントの設定を構成します。](teams-live-events/configure-teams-live-events.md)
 
-
-
 ## アプリとサービス
 ### [Teams でのアプリの管理設定](admin-settings.md)
 ### [アプリケーションのアクセス許可をチームと考慮事項](app-permissions.md)
@@ -519,6 +517,10 @@
 #### 直接ルーティングのためのテクニカル リファレンス
 ##### [発信通話でのトランクのフェイルオーバー](direct-routing-trunk-failover-on-outbound-call.md)
 ### [マイクロソフト チーム オンライン呼び出しのフロー](microsoft-teams-online-call-flows.md)
+## [チームの分析とレポート作成](teams-analytics-and-reports/teams-reporting-reference.md)
+### [チームの使用状況レポート](teams-analytics-and-reports/teams-usage-report.md)
+### [チーム ユーザー アクティビティ レポート](teams-analytics-and-reports/user-activity-report.md) 
+### [チーム デバイスの使用状況レポート](teams-analytics-and-reports/device-usage-report.md)
 <!-- ============================================================ -->
 
 
@@ -529,6 +531,8 @@
 ## [管理者のマイクロソフト教育ガバナンスに関する FAQ](plan-teams-governance-edu.md)
 <!-- ============================================================ -->
 
+# 先頭行の作業者のチーム
+## [組織は、チームでのシフトのアプリケーションを管理します。](manage-the-shifts-app-for-your-organization-in-teams.md)
 # [Teams 用の PowerShell コマンドレット リファレンス](https://docs.microsoft.com/powershell/module/teams)
 
 # [開発者向けの Teams のマニュアル](https://docs.microsoft.com/microsoftteams/platform)
