@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1facd38b3ae5e55b0928127aa054d80e7445210
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: e205eeb00373e66271c98405209df69b272f89a4
+ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27791724"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27896148"
 ---
 # <a name="about-the-upgrade-framework"></a>アップグレード フレームワークについて
 
@@ -44,7 +44,8 @@ ms.locfileid: "27791724"
 
 **チームの組織の準備**をします。 チームへのアップグレードを成功させることを確認するには、準備のための十分な時間を割り当てることが重要です。 だけでなく、組織がチームの価値の実現を迅速に開始できる、チームがの準備が完了するとすぐに、ビジネスの Skype からのアップグレードを促進することができます。 ビジネス用の Skype と共にチームが有効である場合、チームにユーザーをアップグレードする前に、組織の準備を確認するチェックポイントとしてこれらのアップグレード前のアクティビティを使用します。 
 
-> [ヒント] [成功のアップグレード キット](https://aka.ms/UpgradeSuccessKit)をダウンロードする 通信などのユーザーの調査、テンプレート ユーザーの準備資料のサンプルだけでなくプロジェクトのアップグレードの計画とパイロット テスト計画。 キットで利用可能な項目には、下の一覧でアスタリスク (*) が付いています。
+> [!TIP]
+>  [成功のアップグレード キット](https://aka.ms/UpgradeSuccessKit)をダウンロードする 通信などのユーザーの調査、テンプレート ユーザーの準備資料のサンプルだけでなくプロジェクトのアップグレードの計画とパイロット テスト計画。 キットで利用可能な項目には、下の一覧でアスタリスク (*) が付いています。
 
 ### <a name="plan-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>組織が長期的な成功に設定されているように、アップグレードの計画を作成する計画。
 

@@ -1,5 +1,5 @@
 ---
-title: ツールと導入についてのダウンロード
+title: 採用を推進するためのツール
 description: マイクロソフト チームの採用を推進し、他の Office 365 サービスを支援するのにこれらの採用のリソースを使用します。
 layout: LandingPage
 ms.topic: landing-page
@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d7bf96f5da37b4f70ea24025e18b96a1061a483
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 9a01c837924f0499b9378d88b9ed6d7e70c9ba91
+ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699702"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27896140"
 ---
 # <a name="tools-for-driving-adoption"></a>採用を推進するためのツール 
 
@@ -144,3 +144,6 @@ ms.locfileid: "26699702"
 
 ### <a name="office-365-champions-program"></a>Office 365 のエキスパート プログラム
 Office 365 のエキスパート プログラムは、マイクロソフトのチームとその他の Office 365 サービスの詳細を取得を希望する人々 を支援する無償プログラムです。 ガバナンスから新機能をベスト ・ プラクティスを導入を促進することのすべてのコンポーネントを強調表示する月のコミュニティ呼び出しを使用して[マイクロソフト テクニカル コミュニティ](https://aka.ms/DriveAdoption)でオンライン コミュニティを組み合わせています。 コミュニティへの参加https://aka.ms/O365Championsとは、初期のリリースへのアクセスを取得し、他のお客様からマイクロソフトの専門家から学ぶ。  
+
+### <a name="teams-adoption-guide"></a>チーム導入ガイド
+社内のチームを展開することで、このオンライン ガイドを確認してください。 多くのダウンロード可能なツール、テンプレート、およびチーム採用旅にするための他のリソースが含まれています。

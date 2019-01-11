@@ -15,12 +15,12 @@ ms.custom: Adopt
 ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b59da606f908334768fbe249bc40df87282caf5a
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: d8413bdf3bbcc2bcb4b172d46a84b7a46bd7d190
+ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699718"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27896124"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要を理解する
 
@@ -30,12 +30,13 @@ ms.locfileid: "26699718"
 
 - チャネルは、実際の作業を完了するチーム内でのコラボレーション ・ スペースです。 
 
-チームおよびチャネルの詳細を参照するには、[チームとマイクロソフトのチームでのチャネルの概要](teams-channels-overview.md)を参照してください。 チームおよび Office 365 のグループに関する詳細については、 [Office 365 のグループとマイクロソフトのチーム](office-365-groups.md)、および[Office 365 のグループについての詳細](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)を参照してください。
+チームおよびチャネルの詳細を参照するには、[チームとマイクロソフトのチームでのチャネルの概要](teams-channels-overview.md)を参照してください。 ガイダンスについては包括的なチームを採用、[チームの導入ガイド](https:aka.ms/teamstoolkit)を取得します。 チームおよび Office 365 のグループに関する詳細については、 [Office 365 のグループとマイクロソフトのチーム](office-365-groups.md)、および[Office 365 のグループについての詳細](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)を参照してください。
 
 
 |  |  |
 |---------|---------|
 | この短いビデオを表示します。   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+
 
 
 チームのアクセス権の種類は、チームに参加したことを確認します。
