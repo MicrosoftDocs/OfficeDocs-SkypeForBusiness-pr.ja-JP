@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: この資料では、利点、計画に関する考慮事項、およびマイクロソフトのクラウドのボイスメール サービスを実装するための要件について説明します。 クラウドのボイス メールの構成方法の詳細については、クラウドのボイスメールを設定するを参照してください。
-ms.openlocfilehash: 14df7c3d8fbe7cab0bff9482c1543e7a6084039e
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: 1cf4376becb9826e7403b22e621843de7426abb6
+ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696206"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "27988171"
 ---
 # <a name="plan-cloud-voicemail-service"></a>クラウドのボイスメール サービスを計画します。
 
@@ -77,7 +77,7 @@ ms.locfileid: "25696206"
 
 - 外部の Exchange Web サービス (EWS) URL と自動検出は、セットアップをする必要がありますまたはいくつかのクラウドのボイスメール機能が制限されます。
 
--  されている、設置型のみ展開--は、Exchange およびビジネス用の Skype のみ設置型サーバー クラウドのボイスメールを活用するの PREM ライセンスが必要です。 
+-  設置型のみ展開 & #x 2014; がある場合交換だけは、ビジネス用の Skype、オンプレミス サーバー & #x 2014; がボイスメールのクラウドを利用するの PREM ライセンスが必要です。 
 
 ## <a name="migration-and-interoperability"></a>移行と相互運用性
 
@@ -86,7 +86,8 @@ Skype をビジネス サーバー 2019/2019 の Exchange Server の展開を計
 - Exchange Server 2019 Exchange UM の機能が提供されなくなります
 - Skype ビジネス サーバー 2019 の不要になったとの統合オンライン UM
 
-バージョンの相互運用性およびボイスメールをクラウドでサポートされるトポロジは、次の表に表示されます。 プレビュー リリースでは、クラウドのボイスメールだけが、Skype でビジネス サーバーと Exchange Server 2019、Exchange オンライン。
+バージョンの相互運用性とクラウドのボイスメールのトポロジがサポートされているが、Skype を比較する次の表に記載されているビジネス サーバーのバージョンのユーザー可能性がありますホームは、Exchange メールボックスを提供する可能性のあるバージョンとします。 クラウドのボイスメールは、ビジネス サーバーと Exchange Server 2019、Exchange オンラインの Skype でのみ機能します。
+
 
 
 |                               | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |

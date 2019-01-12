@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Microsoft 電話システム直接ルーティングを構成する方法について説明します。
-ms.openlocfilehash: cf856989cd4f87f4b46e1eb36cbeb403bf92b029
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: d7744841b99e343339624314a94d95ab9472fa85
+ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297912"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "27988288"
 ---
 # <a name="configure-direct-routing"></a>直接ルーティングを構成する
 
@@ -81,7 +81,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
 ```
   > [!NOTE]
   > 1. 強くお勧め、SBC の制限を設定する SBC のドキュメントで使用されている情報を使用します。 SBC の能力のレベルにある場合、制限は通知をトリガーします。
-  > 2. FQDN で、名前のドメイン部分と一致する以外は、テナントに登録するドメインのいずれかで SBC はペアのみ\*. onmicrosoft.com。 使用して\*. SBC の FQDN 名では、omicrosoft.com ドメイン名はサポートされていません。 たとえば、2 つのドメイン名があるとします。<br/><br/>
+  > 2. FQDN で、名前のドメイン部分と一致する以外は、テナントに登録するドメインのいずれかで SBC はペアのみ\*. onmicrosoft.com。 使用して\*. SBC の FQDN 名を onmicrosoft.com ドメイン名がサポートされていません。 たとえば、2 つのドメイン名があるとします。<br/><br/>
   > **contoso**.com<br/>**contoso**onmicrosoft.com。<br/><br/>
   > SBC 名の名前の sbc.contoso.com を使用できます。 名 sbc.contoso.abc を持つ SBC のペアにしようとすると、システムは動かせません、このテナントは、ドメインを所有していないようです。
 
