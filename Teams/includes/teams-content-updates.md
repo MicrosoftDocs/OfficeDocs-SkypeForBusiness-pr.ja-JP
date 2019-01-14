@@ -3,68 +3,6 @@
 
 
 
-## <a name="week-of-november-26-2018"></a>2018 年 11 月 26 日の週
-
-
-| 公開日 |トピック タイトル | 変更 |
-|------|------------|--------|
-| 2018 年 11 月 26 日 | [カナダでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada) | 修正 |
-| 2018 年 11 月 26 日 | [フランスでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france) | 修正 |
-| 2018 年 11 月 26 日 | [ドイツでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany) | 修正 |
-| 2018 年 11 月 26 日 | [アイルランドでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ireland) | 修正 |
-| 2018 年 11 月 26 日 | [スペインでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain) | 修正 |
-| 2018 年 11 月 26 日 | [オランダでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands) | 修正 |
-| 2018 年 11 月 26 日 | [英国での利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k) | 修正 |
-| 2018 年 11 月 26 日 | [米国での利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s) | 修正 |
-| 2018 年 11 月 26 日 | [Microsoft Teams でのゲスト アクセスを承認する](/MicrosoftTeams/teams-dependencies) | 修正 |
-| 2018 年 11 月 26 日 | [チームにゲストを追加する](/MicrosoftTeams/add-guests) | 修正 |
-| 2018 年 11 月 26 日 | [ゲスト ユーザー情報を編集する](/MicrosoftTeams/edit-guests-information) | 修正 |
-| 2018 年 11 月 26 日 | [PowerShell を使用してチームへのゲスト アクセスを制御する](/MicrosoftTeams/guest-access-powershell) | 修正 |
-| 2018 年 11 月 26 日 | [Microsoft Teams のゲスト アクセスのチェックリスト](/MicrosoftTeams/guest-access-checklist) | 修正 |
-| 2018 年 11 月 26 日 | [Microsoft Teams でのゲスト アクセス](/MicrosoftTeams/guest-access) | 修正 |
-| 2018 年 11 月 26 日 | [ゲストのエクスペリエンスについて](/MicrosoftTeams/guest-experience) | 修正 |
-| 2018 年 11 月 26 日 | [ゲストがチームに参加する方法](/MicrosoftTeams/guest-joins) | 修正 |
-| 2018 年 11 月 26 日 | [Microsoft Teams でのゲスト アクセスを管理する](/MicrosoftTeams/manage-guests) | 修正 |
-| 2018 年 11 月 26 日 | [チームのゲスト ユーザーを表示する](/MicrosoftTeams/view-guests) | 修正 |
-| 2018 年 11 月 26 日 | [スイスでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland) | 修正 |
-| 2018 年 11 月 26 日 | [Microsoft Teams の商用クラウドの試用提供を管理する](/MicrosoftTeams/iw-trial-teams) | 修正 |
-| 2018 年 11 月 26 日 | [Microsoft Teams テナント アプリ カタログにアプリを公開する](/MicrosoftTeams/tenant-apps-catalog-teams) | 修正 |
-| 2018 年 11 月 26 日 | [ダイレクト ルーティングを計画する](/MicrosoftTeams/direct-routing-plan) | 修正 |
-| 2018 年 11 月 26 日 | [Microsoft Teams のエンド ユーザー トレーニング](/MicrosoftTeams/enduser-training) | 修正 |
-| 2018 年 11 月 26 日 | [緊急対応の場所、アドレス、通話ルーティングの概要](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | 修正 |
-| 2018 年 11 月 26 日 | [Microsoft Teams を導入する](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | 修正 |
-| 2018 年 11 月 26 日 | [採用を推進するためのツール](/MicrosoftTeams/adopt-tools-and-downloads) | 修正 |
-| 2018 年 11 月 26 日 | [チームの動的なメンバーシップの概要](/MicrosoftTeams/dynamic-memberships) | 修正 |
-| 2018 年 11 月 26 日 | [Microsoft Teams アプリのハードウェア要件](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 修正 |
-| 2018 年 11 月 26 日 | [Teams でのライフサイクル管理の計画 - Microsoft Teams](/MicrosoftTeams/plan-teams-lifecycle) | 修正 |
-| 2018 年 11 月 26 日 | [Microsoft Teams に対する組織の準備状況について](/MicrosoftTeams/teams-adoption-assess-readiness) | 修正 |
-| 2018 年 11 月 26 日 | [Microsoft Teams のチャンピオン プログラムを作成する](/MicrosoftTeams/teams-adoption-create-champions-program) | 修正 |
-| 2018 年 11 月 26 日 | [Microsoft Teams の導入の結果と成功を定義する](/MicrosoftTeams/teams-adoption-define-outcomes) | 修正 |
-| 2018 年 11 月 26 日 | [Microsoft Teams の使用状況シナリオを定義する](/MicrosoftTeams/teams-adoption-define-usage-scenarios) | 修正 |
-| 2018 年 11 月 26 日 | [Microsoft Teams について啓発し、トレーニングを実施する](/MicrosoftTeams/teams-adoption-drive-awareness) | 修正 |
-| 2018 年 11 月 26 日 | [Microsoft Teams の導入の推進を開始する](/MicrosoftTeams/teams-adoption-get-started) | 修正 |
-| 2018 年 11 月 26 日 | [Microsoft Teams のガバナンスのクイック スタート](/MicrosoftTeams/teams-adoption-governance-quick-start) | 修正 |
-| 2018 年 11 月 26 日 | [アーリー アダプターに関与して、Microsoft Teams についてのフィードバックを収集する](/MicrosoftTeams/teams-adoption-onboard-early-adopters) | 修正 |
-| 2018 年 11 月 26 日 | [Microsoft Teams のサポートについて関与する](/MicrosoftTeams/teams-adoption-onboard-support) | 修正 |
-| 2018 年 11 月 26 日 | [Microsoft Teams の導入についてのフィードバックとレポートを最適化する](/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting) | 修正 |
-| 2018 年 11 月 26 日 | [Microsoft Teams の導入段階 1 - 開始](/MicrosoftTeams/teams-adoption-phase1) | 修正 |
-| 2018 年 11 月 26 日 | [Microsoft Teams の導入段階 2 - 実験](/MicrosoftTeams/teams-adoption-phase2-experiment) | 修正 |
-| 2018 年 11 月 26 日 | [Microsoft Teams の導入段階 3 - 規模](/MicrosoftTeams/teams-adoption-phase3-enable) | 修正 |
-| 2018 年 11 月 26 日 | [Microsoft Teams の導入クイック スタートのチェックリスト](/MicrosoftTeams/teams-adoption-quick-start-checklist) | 修正 |
-| 2018 年 11 月 26 日 | [Microsoft Teams の導入のためにサービス健全性のレビューをスケジュールする](/MicrosoftTeams/teams-adoption-schedule-service-health-reviews) | 修正 |
-| 2018 年 11 月 26 日 | [Microsoft Teams でのチームとチャネルの概要を理解する](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) | 修正 |
-| 2018 年 11 月 26 日 | [Microsoft Teams で最初のチームを作成する](/MicrosoftTeams/teams-adoption-your-first-teams) | 修正 |
-| 2018 年 11 月 27 日 | [Microsoft Teams のユーザー エクスペリエンスを計画する](/MicrosoftTeams/5-envision-plan-my-users-experience) | 修正 |
-| 2018 年 11 月 27 日 | [クイック スタート - 教育用 Microsoft Teams 管理者](/MicrosoftTeams/teams-quick-start-edu) | 修正 |
-| 2018 年 11 月 27 日 | [Microsoft Teams のクライアントを取得する](/MicrosoftTeams/get-clients) | 修正 |
-| 2018 年 11 月 27 日 | [Microsoft Teams へのアーリー アダプターに関与する](/MicrosoftTeams/get-started-with-teams-onboard-early-adopters) | 修正 |
-| 2018 年 11 月 27 日 | [Microsoft Teams のトラブルシューティングでログ ファイルを使用する](/MicrosoftTeams/log-files) | 修正 |
-| 2018 年 11 月 27 日 | [Microsoft Teams 用に組織のネットワークを準備する](/MicrosoftTeams/prepare-network) | 修正 |
-| 2018 年 11 月 29 日 | [チームにゲストを追加する](/MicrosoftTeams/add-guests) | 修正 |
-| 2018 年 11 月 29 日 | [Skype for Business と共存する](/MicrosoftTeams/coexistence-chat-calls-presence) | 修正 |
-| 2018 年 11 月 29 日 | [Microsoft Teams で組織全体にわたるチームを作成する](/MicrosoftTeams/create-an-org-wide-team) | 修正 |
-
-
 ## <a name="week-of-december-03-2018"></a>2018 年 12 月 3 日の週
 
 
@@ -156,9 +94,9 @@
 | 2018/12/17 | [ダイレクト ルーティングを計画する](/MicrosoftTeams/direct-routing-plan) | 修正 |
 | 2018/12/17 | [Microsoft Teams でのライブ イベントの計画](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 修正 |
 | 2018/12/17 | [発信通話でのトランクのフェイルオーバー](/MicrosoftTeams/direct-routing-trunk-failover-on-outbound-call) | 修正 |
-| 2018/12/18 | [Microsoft 365 米国政府向けクラウド (GCC) の展開の計画 - Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc-high) | 追加 |
+| 2018/12/18 | [Microsoft 365 米国政府向けクラウド (GCC High) の展開の計画 - Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc-high) | 追加 |
 | 2018/12/18 | [Skype for Business と Microsoft Teams の共存と相互運用について理解する](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 修正 |
-| 2018/12/19 | [Microsoft 365 米国政府向けクラウド (GCC) の展開の計画 - Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc-high) | 修正 |
+| 2018/12/19 | [Microsoft 365 米国政府向けクラウド (GCC High) の展開の計画 - Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc-high) | 修正 |
 | 2018/12/19 | [Microsoft 365 米国政府向けクラウド (GCC) の展開の計画 - Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc) | 修正 |
 | 2018/12/20 | [Microsoft Teams で Office 365 コネクタとカスタム コネクタを使用する](/MicrosoftTeams/office-365-custom-connectors) | 修正 |
 | 2018/12/20 | [フランスでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france) | 修正 |
@@ -177,3 +115,16 @@
 | 2018/12/28 | [Microsoft Teams での会議](/MicrosoftTeams/tutorial-meetings-in-teams) | 修正 |
 | 2018/12/28 | [Microsoft Teams でのデバイスを管理する](/MicrosoftTeams/device-management) | 修正 |
 | 2018/12/28 | [Office 365 を使用する組織で Microsoft Teams の機能を管理する](/MicrosoftTeams/enable-features-office-365) | 修正 |
+
+
+## <a name="week-of-december-31-2018"></a>2018 年 12 月 31 日の週
+
+
+| 公開日 |トピック タイトル | 変更 |
+|------|------------|--------|
+| 2019/1/3 | MSI を使用して Microsoft Teams をインストールする (SCCM 対応) | 削除 |
+| 2019/1/3 | [Microsoft Teams の展開の概要](/MicrosoftTeams/deployment-overview) | 修正 |
+| 2019/1/3 | [ゲストのエクスペリエンスについて](/MicrosoftTeams/guest-experience) | 修正 |
+| 2019/1/3 | [Microsoft 365 米国政府向けクラウド (GCC High) の展開の計画 - Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc-high) | 修正 |
+| 2019/1/3 | [Microsoft 365 米国政府向けクラウド (GCC) の展開の計画 - Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc) | 修正 |
+| 2019/1/4 | [Microsoft Teams を無料で Office 365 月額プラン バージョンにアップグレードする](/MicrosoftTeams/upgrade-freemium) | 修正 |
