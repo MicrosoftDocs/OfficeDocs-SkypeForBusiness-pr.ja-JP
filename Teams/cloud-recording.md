@@ -12,12 +12,12 @@ description: Microsoft Teams での Cloud Voice の機能の展開について�
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1819aa33dd951483754f4c00377865460a3765ff
-ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
+ms.openlocfilehash: 085f2ff382c33f6914454fd1633054fd3e4602ca
+ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26620084"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015334"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議の記録
 
@@ -38,8 +38,10 @@ ms.locfileid: "26620084"
 - ユーザーに同意した、会社のガイドラインでは場合、によって管理者の設定
 - ユーザーはレコーディングを保存する Microsoft のストリームに十分な記憶域を持つ
 - ユーザーは、TeamsMeetingPolicy AllowCloudRecording を true に設定されている設定を持っています。
-- ユーザーは、オーディオとビデオの議事録を自動的に作成するかどうかを選択できるように、ユーザーは TeamsMeetingPolicy AllowTranscription を true に設定されている設定を持っています。
 - ユーザーは匿名、ゲスト、または会議でのフェデレーションのユーザーではありません。
+
+> [!NOTE]
+> さらに、議事録に自動的に記録を作成するかどうか、録音を開始する人を許可するには、TeamsMeetingPolicy AllowTranscription の設定をユーザーの設定する必要がある true に設定する
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>チーム、組織内のユーザーのクラウド ミーティングのレコーディングの設定します。
 
@@ -90,7 +92,7 @@ Microsoft ストリームの管理者は、[会社の規定のポリシーを設
 
 録音の開始側がミーティングのレコーディングの議事録を作成する選択を取得するかどうかにコントロールする PowerShell のチームの TeamsMeetingPolicy で AllowTranscription の設定を使用します。 Office 365 の PowerShell での TeamsMeetingPolicy の管理に関する詳細については、[ここで](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
-カスタム ポリシーは、ユーザーに割り当てている、しない限り、グローバル ポリシーが無効になっている既定で有効になっているを取得します。
+カスタム ポリシーは、ユーザーに割り当てている、しない限り、グローバル ポリシーは既定で無効になっている AllowTranscription を取得します。
 
 グローバル ポリシーにユーザーが、ユーザーの特定のポリシーの割り当てを削除するのには次のコマンドレットを使用します。
 

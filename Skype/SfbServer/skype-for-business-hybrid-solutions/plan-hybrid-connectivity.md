@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: '概要: このトピックでは、Skype for Business Server と Skype for Business Online 間でハイブリッド接続を計画する方法を説明します。 多くの Skype for Business ハイブリッド ソリューションを展開する上で、ハイブリッド接続の設定は最初に行う手順となります。'
-ms.openlocfilehash: 6b0456c115e1d1fc9b1a341b17cfc9711f2a6bb7
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: 8fd32e8b70f2fc63919b9ec8abca2d0b70c90107
+ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240764"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015286"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Skype for Business Server と Skype for Business Online 間のハイブリッド接続を計画する
 
@@ -333,7 +333,8 @@ Microsoft Online Services のデータ ・ センターの場所、によって�
 
 - **インスタント メッセージングとプレゼンス**ユーザーの連絡先リスト、グループ、およびアクセス制御リスト (Acl) は、ユーザー アカウントに移行されます。
 
-- **会議データ、会議コンテンツ、およびスケジュールされたミーティング**このコンテンツは、ユーザー アカウントには移行されません。 自分のアカウントは、ビジネス オンラインの Skype に移行した後、ユーザーは会議を再スケジュールする必要があります。
+- **会議データ、会議コンテンツ、およびスケジュールされたミーティング**このコンテンツは、ユーザー アカウントには移行されません。 自分のアカウントは、ビジネス オンラインの Skype に移行した後、ユーザーは会議を再スケジュールする必要があります。 会議の移行サービスは自動的にビジネス オンラインまたはチームに対して、ビジネス サーバーは、Skype から Skype へ移行する場合、[会議の移行サービスを使用して](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)参照してください。
+
 
 ## <a name="user-policies-and-features"></a>ユーザー ポリシーと機能
 <a name="BKMK_UserPolicies"> </a>
