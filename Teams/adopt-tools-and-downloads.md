@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a01c837924f0499b9378d88b9ed6d7e70c9ba91
-ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
+ms.openlocfilehash: 64041c7cf66e880374d8d52f68c7ec5def0de61c
+ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27896140"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015326"
 ---
 # <a name="tools-for-driving-adoption"></a>採用を推進するためのツール 
 
@@ -146,4 +146,7 @@ ms.locfileid: "27896140"
 Office 365 のエキスパート プログラムは、マイクロソフトのチームとその他の Office 365 サービスの詳細を取得を希望する人々 を支援する無償プログラムです。 ガバナンスから新機能をベスト ・ プラクティスを導入を促進することのすべてのコンポーネントを強調表示する月のコミュニティ呼び出しを使用して[マイクロソフト テクニカル コミュニティ](https://aka.ms/DriveAdoption)でオンライン コミュニティを組み合わせています。 コミュニティへの参加https://aka.ms/O365Championsとは、初期のリリースへのアクセスを取得し、他のお客様からマイクロソフトの専門家から学ぶ。  
 
 ### <a name="teams-adoption-guide"></a>チーム導入ガイド
-社内のチームを展開することで、このオンライン ガイドを確認してください。 多くのダウンロード可能なツール、テンプレート、およびチーム採用旅にするための他のリソースが含まれています。
+チェック アウトの[チームを採用しました](https://aka.ms/teamstoolkit)に役立つオンライン ガイドでは、社内のチームを展開できます。 多くのダウンロード可能なツール、テンプレート、およびチーム採用旅にするための他のリソースが含まれています。
+
+### <a name="teams-customer-success-kit"></a>チーム顧客の成功キット
+[チーム顧客の成功のキット](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)には、チームを組織内に展開するためのツールが用意されています。 お知らせ、チラシ ポスター、カウント ダウン、およびヒントと秘訣の電子メール テンプレートが含まれています。 チーム リーダーと IT 管理者のための入門ガイドも含まれています。
