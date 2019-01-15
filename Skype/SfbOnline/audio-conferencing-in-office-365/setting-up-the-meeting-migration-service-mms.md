@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 会議の移行サービス (MMS) は、バック グラウンドで実行され、ユーザーのビジネスおよびマイクロソフトのチームの会議に Skype が自動的に更新するサービスです。 MMS はユーザーが会議移行ツールを実行して Skype for Business および Microsoft Teams 会議を更新しなくても済むように設計されています。
-ms.openlocfilehash: 94f3d315810e6fdee93ffa8abfe6a657ca8b43fd
-ms.sourcegitcommit: 1b9f19b1bd8f33ee2f011cd5ea2d0d75bf8647c9
+ms.openlocfilehash: e700725fc95957647bea8fe44d6a73a34bd16ab8
+ms.sourcegitcommit: 2d79898281258e123a86d9a0a2bc1211ee6b039e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27783519"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28019578"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>会議の移行サービス (MMS) を使用してください。
 
@@ -34,7 +34,9 @@ ms.locfileid: "27783519"
 
 - ユーザーを移行するとき、オンプレミス (Skype のビジネスをオンラインにするか TeamsOnly) クラウドに移行します。
 - 管理者がユーザーの電話会議の設定に変更を行う場合 
-- TeamsOnly モード (技術導入プログラム [タップ] のお客様のみ) にユーザーをアップグレードするとき
+- チームのみ、または TeamsUpgradePolicy で、ユーザーのモードは SfBwithTeamsCollabAndMeetings (タップのお客様のみ) に設定されている場合に、オンラインのユーザーをアップグレードするとき
+- PowerShell を使用する場合 
+
 
 既定では、MMS 自動的にトリガーのような場合、管理者が無効にする、テナントのレベルがされます。 さらに、管理者は、手動で特定のユーザーの会議の移行を開始するのに PowerShell コマンドレットを使用することができます。
 
@@ -76,7 +78,7 @@ MMS がトリガーされた場合、通常かかるユーザーの会議は、�
 
 - クラウドへの設置からユーザーが移行されるとき
 - 管理者がユーザーの電話会議の設定に変更を行う場合 
-- TeamsOnly モード (タップのお客様のみ) にユーザーをアップグレードするとき
+- TeamsUpgradePolicy でユーザーのモードが TeamsOnly または SfBWithTeamsCollabAndMeetings (タップのお客様のみ) のいずれかに設定されている場合
 - PowerShell を使用する場合 
 
 ### <a name="updating-meetings-when-you-move-an-on-premises-user-to-the-cloud"></a>オンプレミスのユーザーをクラウドに移行するときに、会議を更新
@@ -111,7 +113,7 @@ MMS では以下の場合では、ビジネスおよびマイクロソフトの�
 ### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>TeamsUpgradePolicy を割り当てる場合は、会議を更新
 
 > [!NOTE]
-> このセクションでは、最初に使用可能になるタップのお客様に今後の機能について説明します。
+> だけがタップの顧客に利用できる現在の機能について説明します。
 
 既定では、会議の移行は、自動的に起動のインスタンスがユーザーに付与されると`TeamsUpgradePolicy`と`mode=TeamsOnly`または`mode= SfBWithTeamsCollabAndMeetings`。 これらのモードのいずれかを付与する場合は、会議を移行し、指定しない場合は、`MigrateMeetingsToTeams $false`の`Grant-CsTeamsUpgradePolicy`。
 
