@@ -13,12 +13,12 @@ search.appverid: MET150
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f649ebce7a1938961d1c9f9ef143617a863a924
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 9e0a74bf35a122a672f99e91c872eab77a6ce6cd
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297740"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789168"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -163,7 +163,7 @@ ms.locfileid: "27297740"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|ユーザーが会議/コネクタにアクセスできないのに Exchange Online メールボックスを持っている。 <br/> |ユーザーはアクティブに Exchange Online 内のサービスからの EWS を遮断していますが、MS Teams を EWS ポリシーに準拠するようにする必要があります。 <br/> |MS Teams が準拠するようにするには、EWSAllowList 内で MS Teams のために次のユーザー エージェント文字列を追加する必要があります: `*skypespaces*` と `*microsoftninja*` (アスタリスクを含めます)。 次のコマンドレットを使用することができます: `Set-organizationconfig -EwsAllowList @{Add="*MicrosoftNinja*","*SkypeSpaces*"}`<br/> 詳細については、「https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps」をご覧ください。 <br/> |2017/05/30  <br/>|
+|ユーザーが会議/コネクタにアクセスできないのに Exchange Online メールボックスを持っている。 <br/> |ユーザーはアクティブに Exchange Online 内のサービスからの EWS を遮断していますが、MS Teams を EWS ポリシーに準拠するようにする必要があります。 <br/> |MS Teams を準拠するようにするには、MS Teams 用のユーザー エージェント文字列 `*skypespaces*` および `*microsoftninja*` をアスタリスクも含めて EWSAllowList 内に追加する必要があります。次のコマンドを使用することができます: `Set-organizationconfig -EwsAllowList @{Add="*MicrosoftNinja*","*SkypeSpaces*"}`<br/> 詳細については、「https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps」をご覧ください。 <br/> |2017/05/30  <br/>|
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
@@ -205,8 +205,7 @@ ms.locfileid: "27297740"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|ユーザー プロフィールの写真  <br/> | 現在、Teams にはユーザーによる写真変更をできなくするメカニズムはありません。BTS チームは、次の点が考慮事項として取り上げられている開発チームと話し合いを行っています。機能 108874: プロフィール写真のアップロードを無効にする IT ポリシー   <br/> | Teams でプロフィール写真をアップロードできないようにする機能を望んでいるユーザーがいる場合は、それらのユーザーにこちらでコメントとともに各自の立場とビジネス ケースを提示してくれるよう頼んでください。https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos
- <br/> |2017/03/01 <br/> |
+|ユーザー プロフィールの写真  <br/> | 現在、Teams にはユーザーによる写真変更をできなくするメカニズムはありません。BTS チームは、次の点が考慮事項として取り上げられている開発チームと話し合いを行っています。機能 108874: プロフィール写真のアップロードを無効にする IT ポリシー   <br/> | Teams でプロフィール写真をアップロードできないようにする機能を望んでいるユーザーがいる場合は、それらのユーザーにこちらでコメントとともに各自の立場とビジネス ケースを提示してくれるよう頼んでください。https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos <br/> |2017/03/01 <br/> |
 
 ## <a name="provisioning"></a>プロビジョニング
 
@@ -227,10 +226,6 @@ ms.locfileid: "27297740"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|ユーザーの混乱を生じる Web サイト タブ  <br/> |Web サイト タブはお使いのブラウザーと同等ではありません。Web サイト タブとしてピン留めされた、特に認証が必要であったり、ポップアップを使用したりするようなサイトは動作しません。  <br/> |ユーザーにとってより分かりやすい UI を提供するために現在取り組んでいます。  <br/> |2018 年 5 月 2 日  <br/> |
-
-|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
-|:-----|:-----|:-----|:-----|
 |条件付きアクセスが有効になっていたためにタブが機能しない <br/> |テナントで条件付きアクセスが有効になっていたために、一部のタブがデスクトップ クライアントで読み込まれなくなっている可能性があります。Web クライアントを使用するときにタブが読み込まれます。この影響を受ける可能性があるタブは、[PowerBI]、[フォーム]、[VSTS]、[PowerApps]、および [SharePoint リスト] です。  <br/> |影響を受けたタブを表示するには、Teams を Windows 10 アカウントの拡張機能がインストールされた Edge、IE、または Chrome を使用する必要があります。一部のタブは、CA が有効になっているときにデスクトップ クライアントで機能しない Web 認証からも影響を受けます。マイクロソフトでは、パートナーと協力してこれらのシナリオが有効になるように取り組んでいます。これまでのとこる、プランナー、OneNote、Stream を有効になっています。 <br/> |2018/04/05  <br/>|
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
@@ -247,7 +242,11 @@ ms.locfileid: "27297740"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|SharePoint ページ タブによりブランク スクリーンが表示される<br/> |SharePoint Online のバニティ ドメインは現在サポートされていません。ユーザーが SharePoint ページ タブを追加しようとすると、ブランク スクリーンが表示されてしまいます。 <br/> |回避策なし。 <br/> |2018/08/20  <br/>|
+|SharePoint ページ タブによりブランク スクリーンが表示される <br/> |SharePoint Online のバニティ ドメインは現在サポートされていません。ユーザーが SharePoint ページ タブを追加しようとすると、ブランク スクリーンが表示されてしまいます。 <br/> |回避策なし。 <br/> |2018/08/20  <br/>|
+
+|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
+|:-----|:-----|:-----|:-----|
+|従来の OneNote タブについて  <br/> |Microsoft Teams のパブリック プレビューで作成された従来の OneNote タブは、名前を変更したり削除したりすることができません。  <br/> |回避策なし。 <br/> |2017/11/8  <br/> |
 
 ## <a name="teams"></a>Teams
 
