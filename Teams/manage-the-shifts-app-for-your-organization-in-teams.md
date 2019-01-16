@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fdd9c47e54c9ce51e736363eb47227614824a4c
-ms.sourcegitcommit: 768c7b5f0aaa4b38a0b98c7c9ff904ffedd2e9b9
+ms.openlocfilehash: 7f761e36712b94274ccf88aa03bd3658c039d438
+ms.sourcegitcommit: 71ba178ff60c4b36d4d8e287be9b16233a29ad55
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27893358"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28022916"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>組織は、マイクロソフトのチームでのシフトのアプリケーションを管理します。
 
@@ -36,7 +36,11 @@ ms.locfileid: "27893358"
 
 シフトは、例外の 2 つのチームを含むすべての Office 365 サブスクリプションで利用できます。 米国政府クラウド コミュニティ (GCC) および無料のチームは、例外があります。 シフトが Office 365 の米国政府機関では使用できません。 または、チームが製品を解放します。
 
-チームのライセンスに関する詳細については、 [Office 365 のライセンスのチームを](Office-365-licensing.md)参照してください。
+チーム、チームを含む Office 365 サブスクリプションの一覧などのライセンスの詳細については、 [Office 365 は、チームのライセンス](Office-365-licensing.md)を参照してください。
+
+## <a name="location-of-shifts-data"></a>シフトのデータの場所
+
+北米、西ヨーロッパ、アジア太平洋地域でのデータ ・ センター内の Azure では、シフトのデータが格納されています。 データの保存場所の詳細について[がデータ](http://o365datacentermap.azurewebsites.net/)を参照してくださいでしょうか。
 
 ## <a name="set-up-shifts"></a>シフトを設定します
 
