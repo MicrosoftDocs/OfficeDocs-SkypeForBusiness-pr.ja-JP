@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: この資料では、利点、計画に関する考慮事項、およびマイクロソフトのクラウドのボイスメール サービスを実装するための要件について説明します。 クラウドのボイス メールの構成方法の詳細については、クラウドのボイスメールを設定するを参照してください。
-ms.openlocfilehash: 1cf4376becb9826e7403b22e621843de7426abb6
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: 0ea27643acce66484081034b8685c7dcad9aa311
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988171"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326772"
 ---
 # <a name="plan-cloud-voicemail-service"></a>クラウドのボイスメール サービスを計画します。
 
@@ -75,9 +75,9 @@ ms.locfileid: "27988171"
 
 - オンプレミス ユーザーはエンタープライズ VoIP と Skype でボイスメールをホストのビジネス サーバーに対して有効にする必要があります。
 
-- 外部の Exchange Web サービス (EWS) URL と自動検出は、セットアップをする必要がありますまたはいくつかのクラウドのボイスメール機能が制限されます。
+- 外部の Exchange Web サービス (EWS) を URL と自動検出を設定する必要がありますまたはいくつかのクラウドのボイスメール機能が制限されます。
 
--  設置型のみ展開 & #x 2014; がある場合交換だけは、ビジネス用の Skype、オンプレミス サーバー & #x 2014; がボイスメールのクラウドを利用するの PREM ライセンスが必要です。 
+-  設置のみ deployment& #x 2014; がある場合は、のみを交換し Skype ビジネスの設置 servers& #x やり取りできます。 ですが、ボイスメールのクラウドを利用する、ライセンスを追加する必要はありません。
 
 ## <a name="migration-and-interoperability"></a>移行と相互運用性
 

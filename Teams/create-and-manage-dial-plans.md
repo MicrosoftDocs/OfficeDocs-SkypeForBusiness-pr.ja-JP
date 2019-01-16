@@ -23,13 +23,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Office 365 で通話のダイヤル プラン (PSTN の通話のダイヤル プラン) を作成する方法とそれを管理する方法について説明します。 '
-ms.openlocfilehash: 1bf059f096e6e66c9f5b10913cc6754e3f9e247f
-ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
+description: 'Learn how to create calling dial plans (PSTN Calling dial plans) in Office 365 and how to manage them. '
+ms.openlocfilehash: 49ce76cc723b120fce4fd259304e6bb066b10f6e
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25506805"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326828"
 ---
 # <a name="create-and-manage-dial-plans"></a>ダイヤル プランを作成および管理する
 
@@ -42,7 +42,7 @@ ms.locfileid: "25506805"
 
  **Windows PowerShell バージョン 3.0 以降を実行していることを確認する**
   
-1. 3.0 以降のバージョンが実行されていることを確認する場合: **[スタート] メニュー** > **[Windows PowerShell]**。
+1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
     
 2. [ _Windows PowerShell_] ウィンドウに「 **Get-Host**」と入力して、バージョンを確認します。
     
@@ -54,7 +54,7 @@ ms.locfileid: "25506805"
   
  **Windows PowerShell セッションを開始する**
   
-1. [**スタート メニュー**]  >  [**Windows PowerShell**] から開きます。
+1. From the **Start Menu** > **Windows PowerShell**.
     
 2. [ **Windows PowerShell**] ウィンドウで、次を実行して、Office 365 の組織に接続します。
     
@@ -181,6 +181,11 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1
 Get-CsOnlineuser | where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
+HostingProvider sipfed.online.lync.com を持つすべてのユーザーのグループを削除するのにはこれを実行します。
+```
+Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Grant-CsTenantDialPlan -policyname $null
+```
+
 これらを実行して、OPDP1 という名前の既存のオンプレミス ダイヤル プランを組織のテナント ダイヤル プランとして追加します。まずオンプレミス ダイヤル プランを xml ファイルに保存してから、それを使用して新しいテナント ダイヤル プランを作成する必要があります。
   
 これを実行して、オンプレミス ダイヤル プランを xml ファイルに保存します。
@@ -207,7 +212,7 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     

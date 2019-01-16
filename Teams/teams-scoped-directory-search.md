@@ -1,5 +1,5 @@
 ---
-title: マイクロソフトのチームを使用してディレクトリ検索のスコープ
+title: Microsoft Teams の範囲指定ディレクトリ検索を使用する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,14 +15,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c8173445fff6acaa3a5381199220a376401076c
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6260651dfa48dc07a15dbc1bbcf41297ecc281cf
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531827"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326820"
 ---
-# <a name="use-microsoft-teams-scoped-directory-search"></a>マイクロソフトのチームを使用してディレクトリ検索のスコープ
+# <a name="use-microsoft-teams-scoped-directory-search"></a>Microsoft Teams の範囲指定ディレクトリ検索を使用する
 
 マイクロソフト チームのスコープ指定されたディレクトリ検索では、ユーザーが検索し、組織内の他のユーザーとの通信方法を制御する仮想の境界を作成することが可能します。 
 
@@ -32,25 +32,25 @@ ms.locfileid: "26531827"
 
 スコープ指定されたディレクトリ検索からメリットを得られるシナリオでは、アドレス帳ポリシーのシナリオに似ています。 たとえば、スコープ指定されたディレクトリ検索を使用して、次のような状況でする可能性があります。
 
-- 組織には、別に保持する、テナント内の複数の企業がいます。 
-- 学校は、教職員と学生の間でチャットを制限する必要があります。 
+- 所属する組織において、テナント内に複数の会社があり、それらを切り離された状態で維持する場合。 
+- 所属する学校において、教職員と学生との間のチャットを制限する必要がある場合。 
  
 アドレス帳ポリシーの使用方法の詳細については、[ここで](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/abp-scenarios?view=exchserver-2019)。
 
 > [!IMPORTANT]
-> アドレス帳のポリシーでは、のみ、仮想の分離のユーザー ディレクトリの観点からを提供します。 ユーザーは、完全な電子メール アドレスを提供することで他のユーザーとの通信を開始することができますも。 
+> アドレス帳のポリシーでは、のみ、仮想の分離のユーザー ディレクトリの観点からを提供します。 ユーザーは、完全な電子メール アドレスを提供することで他のユーザーとの通信を開始することができますも。 重要なことが既にキャッシュされている、新しいまたは更新されたアドレス帳のポリシーの適用前にすべてのユーザー データはユーザーが引き続き利用を 30 日間もできます。
 
 ## <a name="enable-scoped-directory-search"></a>スコープ指定されたディレクトリの検索を有効にします。
 
 1.  仮想サブグループに組織を構成するのにには、アドレス帳ポリシーを使用します。 詳細については、[アドレス帳ポリシーの手順](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/abp-procedures?view=exchserver-2019)を参照してください。
 
-2.  Microsoft 365 の管理センターにサインインするのに、**管理センター**をを選択し、**チームと Skype**。
+2.  Microsoft 365 の管理センターにサインインするのに、**管理センター**をを選択し、**チームの & Skype**。
  
-3.  マイクロソフトのチームと Skype ビジネス管理センターは、**組織全体の設定**を選択します > **チームの設定**です。
+3.  マイクロソフトのチーム & Skype ビジネス管理センターは、**組織全体の設定**を選択します > **チームの設定**です。
 
 4.  **検索**、**チームが Exchange アドレス帳ポリシー (APB) を使用してディレクトリ検索のスコープ**をで **[** 表示/非表示をオンにします。 
 
-    ![ビジネス管理センターについては、チームと Skype のディレクトリ検索のスコープ](media/teams-scoped-directory-search-image1.png)
+    ![ビジネス管理センターのチーム & Skype のディレクトリ検索のスコープ](media/teams-scoped-directory-search-image1.png)
 
 > [!NOTE]
 > ハイブリッド構成 (Exchange、オンプレミスのチーム) は、対象とした検索モードをサポートしていません。 

@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7fa7e7d7999bd42748e1997a4ec73b37ca14a67
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: efb5b4394ae7659982a747e79ace2296dbdf2345
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772770"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326710"
 ---
 <a name="teams-guest-access-checklist"></a>チームのゲスト アクセスのチェックリスト
 ==========================================
@@ -71,7 +71,7 @@ ms.locfileid: "27772770"
 
 ## <a name="-step-2-configure-office-365-groups"></a>□ 手順 2: Office 365 のグループを構成します。
 
-1. Microsoft 365 管理センターで、[**設定]** > **サービスおよびアドイン** > **Office 365 のグループ**です。
+1. Microsoft 365 管理センターで、[**設定]** > **サービス & アドイン** > **Office 365 のグループ**です。
 2. **グループ コンテンツには、組織のアクセス以外のグループのメンバー**になっている**** を確認します。 この設定をオフにすると、来園者は任意のグループのコンテンツにアクセスできません。
 3. **オン**に設定 **、グループの所有者のグループを組織外のユーザーを追加**することを確認します。 この設定をオフにすると、チームの所有者は新しいゲストを追加するのにはできません。 最低限、この設定は、ゲスト アクセスをサポートするにする必要があります。
 
@@ -82,9 +82,9 @@ ms.locfileid: "27772770"
 
 ## <a name="-step-3-enable-guest-access-at-the-tenant-level"></a>□ ステップ 3: テナントのレベルでのゲスト アクセスを有効にします。
 
-最低限には、**ゲスト**のライセンスの種類のすべてのユーザーのマイクロソフト チームをオンにする必要があります。 
+最低限には、**マイクロソフトのチーム & Skype ビジネス管理センターの**[Microsoft チームのゲスト アクセスをオンにする必要があります。 
 
-1. チーム/Skype のビジネス管理センターで、**組織全体の設定**を選択します > **ゲスト アクセス**します。
+1. チームの & ビジネス管理センターの Skype では、**組織全体の設定**を選択します。 > **ゲスト アクセス**します。
 2. **マイクロソフトのチームでのゲスト アクセスを許可する**スイッチを**On**に設定します。
 
     ![スクリーン ショットは、チームの設定の表示/非表示の例を示しています。](media/set-up-guests-image1.png)
@@ -99,7 +99,7 @@ ms.locfileid: "27772770"
 
 来園者を追加できることを確認します。 ここではどのようにします。
 
-1. **設定**に移動し、Microsoft 365 管理センターで、 > **のセキュリティとプライバシー**。
+1. Microsoft 365 管理センターで、[**設定]** > **& プライバシーのセキュリティ**です。
 
      ![スクリーン ショットは、サービスの設定の例を示しています。](media/guest-access-checklist-Office365Admin_Services_addins.png)
 

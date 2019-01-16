@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa6fef59-9d3a-4bda-acda-960734e4cb1a
 description: ビジネス サーバー 2019 の Skype への移行を開始する前に、このセクションで説明した手順に従います。
-ms.openlocfilehash: b878cd0bd553465ab441e58bd031e50d716e17f6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 035383c08158352fa1eb11ba35cc142ad9002069
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028643"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326692"
 ---
 # <a name="phase-2-prepare-for-migration"></a>フェーズ 2: 移行を準備します。
 
@@ -25,8 +25,6 @@ ms.locfileid: "25028643"
 - [更新プログラムを適用します。](apply-updates.md)
     
 - [パイロット プール展開の DNS レコードの構成](configure-dns-records-for-pilot-pool-deployment.md)
-    
-- [ベスト プラクティス アナライザーを実行します。](run-best-practices-analyzer.md)
     
 - [システムおよびデータをバックアップします。](back-up-systems-and-data.md)
     

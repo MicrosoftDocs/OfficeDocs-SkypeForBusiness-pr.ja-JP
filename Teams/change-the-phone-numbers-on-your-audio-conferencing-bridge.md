@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 電話会議ライセンスをご購入いただく場合、Microsoft はお客様の組織の電話会議ブリッジ をホストします。電話会議ブリッジではさまざまな場所からダイヤルイン電話番号を受け取るため、会議の開催者や参加者はそれらの番号を使用して電話で Skype for Business 会議または Microsoft Teams 会議に参加できます。
-ms.openlocfilehash: d90daec99ced371aae3ef0685d1138656a6ab138
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c1590fe63a712ece4c2f073dc6642b09ac273d32
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531779"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326875"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>電話会議ブリッジの電話番号を変更する
 
@@ -46,7 +46,7 @@ ms.locfileid: "26531779"
 
 1. 自分の職場のアカウントで Office 365 にサインインします。
 
-2. **Office 365 管理センター**を参照して > **管理センター** > **チームと Skype** > **レガシー ポータル** > **音声** > **の電話番号**です。
+2. **Office 365 管理センター**を参照して > **管理センター** > **チーム & Skype** > **レガシー ポータル** > **音声** > **の電話番号**です。
 
 3. リストから電話番号を選択し、[操作] ウィンドウで [ **割り当て**] をクリックします。
 
@@ -60,7 +60,7 @@ ms.locfileid: "26531779"
 
 1. 自分の職場のアカウントで Office 365 にサインインします。
 
-2. **Office 365 管理センター**を参照して > **管理センター** > **チームと Skype** > **会議** > **会議ブリッジ**です。
+2. **Office 365 管理センター**を参照して > **管理センター** > **チーム & Skype** > **会議** > **会議ブリッジ**です。
 
 3. サービスの有料電話番号が既定値として構成することを強調表示します。
 
@@ -72,7 +72,7 @@ ms.locfileid: "26531779"
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
 
-2. **Office 365 管理センター**を参照して > **管理センター** > **チームと Skype** > **レガシー ポータル** > **電話会議** > **ユーザー**、および、リスト上のユーザーを選択します。
+2. **Office 365 管理センター**を参照して > **管理センター** > **チーム & Skype** > **レガシー ポータル** > **電話会議** > **ユーザー**、および、リスト上のユーザーを選択します。
 
 3. [操作] ウィンドウで [ **編集**] をクリックします。
 
@@ -136,7 +136,7 @@ Meeting Migration Service の詳細については、「 [Meeting Migration Serv
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
 
-2. **Office 365 管理センター**を参照して > **管理センター** > **チームと Skype** > **レガシー ポータル** > **音声** > **の電話番号**です。
+2. **Office 365 管理センター**を参照して > **管理センター** > **チーム & Skype** > **レガシー ポータル** > **音声** > **の電話番号**です。
 
 3. リストから電話番号を選択し、[操作] ウィンドウで [ **割り当てを解除**] をクリックします。
 
@@ -220,6 +220,24 @@ Windows PowerShell を開始する方法の詳細を設定する場合は、 [1 
 
     > [!NOTE]
     > 上記で使用される場所は、Office 365 管理センターに設定されているユーザーの連絡先情報と一致する必要があります。
+
+## <a name="troubleshooting"></a>トラブルシューティング
+
+**割り当てを解除] ボタンは、淡色**
+
+番号の割り当てを解除するが、ボタンは、淡色と次のメッセージ"既定のブリッジから割り当てを解除する共有番号 can´t、_でサポートに連絡する場合しているときに上に hoovering、リダイレクトされます。専用の有料電話番号の割り当てを解除するのにはサポートに連絡してください。_」です。
+
+繰り下げについての詳しい情報を入手するには、次の Powershell を実行します。
+```
+Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
+```
+
+結果、Id、名、および領域のような他の確保については、DefaultServiceNumber を含める必要があります。
+
+**例**割り当てを解除する DefaultServiceNumber「8005551234」
+```
+Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName “Conference Bridge” -RemoveDefaultServiceNumber 8005551234 
+```
 
 ## <a name="about-windows-powershell"></a>Windows PowerShell について
 

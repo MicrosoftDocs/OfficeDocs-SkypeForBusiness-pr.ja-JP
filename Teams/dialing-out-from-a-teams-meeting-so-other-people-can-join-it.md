@@ -21,18 +21,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Teams を使用して会議の開催者がダイヤルアウトするために何が必要か、およびその方法について説明します。
-ms.openlocfilehash: adb4d9ae492c324937dbe552fc138933428cc466
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: a1d06d75d48c45cfc13490c5c6562451909120dd
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297792"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326859"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>他のユーザーが参加できるように Microsoft Teams 会議からダイヤル アウトする
 
 会議の開催者としては、チームのアプリケーションを使用して、電話を使用して同じ会議に参加する他の人にダイヤルできます。
 
-ユーザーにダイヤルアウトするときに設定するようにすべての電話番号 (国/地域コードを含む) を使用してをお勧めします。
+ユーザーにダイヤルアウトするときに設定するように、すべての電話番号が (国/地域番号を E.164 形式を含む) を使用してをお勧めします。
   
   注意してください。
 

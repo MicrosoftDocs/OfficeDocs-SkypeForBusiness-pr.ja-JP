@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: SBCs を証明する、選択した SBC ベンダーとマイクロソフトのパートナーは、直接ルーティング機能します。
-ms.openlocfilehash: feed9c228f1bdc0fb4bb8beb8f403617e9907b9f
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 0230828c9aef49f8979c30d19c1d2d5e15779d84
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214551"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326844"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
@@ -63,4 +63,4 @@ ms.locfileid: "27214551"
 |                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    AP 3900       |   保留中    |   保留中  |   保留中    |
 |                                                                                                                     |      AP 4600         |    保留中    |   保留中    |      保留中      |
 |                                                                                                                     |      VME             |    保留中    |   保留中    |      保留中      |
-|                     [TE システム](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |    保留中    |   保留中    |      保留中      |
+|                     [TE システム](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |   保留中    |      v3.16.2      |
