@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: この資料では、Skype ルーム システム v2 のコンソールとその周辺機器を設定する方法について説明します。
-ms.openlocfilehash: 4218365e7cb4b396d3e93d3fa969546138ace33d
-ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
+ms.openlocfilehash: fab2854406e22b156c8fcca76e6701214199f62c
+ms.sourcegitcommit: d3708702393ac434344c758959109a3be2b3bfa4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26716375"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28324935"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Skype Room Systems バージョン 2 コンソールを構成する
  
@@ -41,22 +41,20 @@ ms.locfileid: "26716375"
 ## <a name="prepare-the-installation-media"></a>インストール メディアを準備します。
 <a name="Prep_Media"> </a>
 
-Skype ルーム システム v2 のコンソール アプリケーションをインストールするには、FAT32 ディスクとしてフォーマットされたメモリの 32 GB 以上の USB ストレージ デバイスが必要です。 デバイス上に他にファイルがないようにしてください。USB ストレージ上の既存のファイルはすべて失われます。
+Skype ルーム システム v2 のコンソール アプリケーションをインストールするには、32 GB 以上の容量を持つ USB ストレージ デバイスが必要です。 存在しないはずのデバイス上のファイルUSB 記憶装置上の既存のファイルはすべて失われます。
   
 > [!NOTE]
-> 予期しない動作になる可能性があります、次の手順に従って、Skype ルーム システム v2 のインストール メディアを作成するに失敗しました。 Skype ルーム システム v2 のインストール メディアの作成については、Windows 10 企業記念日の更新プログラム (バージョン 1607) がサポートされていません。
+> 予期しない動作になる可能性があります、次の手順に従って、Skype ルーム システム v2 のインストール メディアを作成するに失敗しました。
 
 > [!NOTE]
-> 3 Skype ルーム システム v2 更新は、Windows ストアを使用して移動する Windows の 10 企業の既存の Skype ルーム システム v2 機能しますが、次のように、新規インストールを行う必要があります。
+> 以下の手順は、新しい Skype ルーム システム v2 のデバイスのイメージにインストール メディアを作成するためです。 既存のデバイスでは、既定では、自動的に更新 Windows を更新し、Windows ストアから。
   
 1. [CreateSrsMedia.ps1 スクリプト](https://go.microsoft.com/fwlink/?linkid=867842)をダウンロードします。 
-2. (省略可能)ダウンロードし、スクリプトと同じディレクトリに、必要な言語パックの CAB ファイルを配置します。 言語パックを取得する場所がわからない場合に、作成するメディアの種類に応じた適切な言語パックのファイルをダウンロードできるスクリプトを示します。
-3. Windows 10 マシン上で管理者特権でのプロンプトから CreateSrsMedia.ps1 スクリプトを実行します。
+2. Windows 10 マシン上で管理者特権でのプロンプトから CreateSrsMedia.ps1 スクリプトを実行します。
+3. Skype ルーム システム v2 の USB セットアップ ディスクを作成するスクリプトの指示に従います。
 
-Skype ルーム システム v2 の USB セットアップ ディスクを作成するスクリプトの指示に従います。 完了したら、USB ディスクをコンピューターから削除し、 [Windows の 10 をインストール](console.md#Reimage)して Skype ルーム システム v2 のコンソール アプリケーションです。
+完了したら、USB ディスクをコンピューターから削除し、 [Windows の 10 をインストール](console.md#Reimage)して Skype ルーム システム v2 のコンソール アプリケーションです。
 
-> [!TIP]
-> お気付き不要になったと呼ばれる特定のバージョンのドライバー、Skype ルーム システム v2 のクライアント、または Windows の 10 企業をします。 これは意図的なと一致し、すべてのインストーラーの互換性を確認するスクリプトです。 スクリプトは自動的に検索して、サポートされている構成に必要なものを取得します。  
     
 ## <a name="install-windows-10-and-the-skype-room-systems-v2-console-app"></a>Windows 10 と Skype Room Systems バージョン 2 コンソール アプリをインストールする
 <a name="Reimage"> </a>
