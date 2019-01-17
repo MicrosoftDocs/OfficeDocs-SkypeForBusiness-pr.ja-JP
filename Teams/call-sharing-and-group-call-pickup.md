@@ -1,9 +1,9 @@
 ---
-title: 呼び出しが共有し、グループは、マイクロソフトのチームでピックアップを呼び出す
+title: Microsoft Teams での通話の共有およびグループ通話ピックアップ
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 12/13/2018
+ms.date: 01/16/19
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 共有を呼び出すし、グループ通話ピックアップできるように、ユーザーが利用できない場合、呼び出しをキャプチャできるように、着信呼び出しを同僚と共有します。
-ms.openlocfilehash: 7f05484f0ba780eb8ed00df68b455d8555c1e4c0
-ms.sourcegitcommit: 5f7e078125f810a9e9a89052854ef63916afe7d3
+ms.openlocfilehash: 31df45d0420457528fd517c851b845a09cab32e0
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27283152"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328318"
 ---
-# <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>呼び出しが共有し、グループは、マイクロソフトのチームでピックアップを呼び出す
+# <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft Teams での通話の共有およびグループ通話ピックアップ
 
 呼び出しの共有とグループは、着信呼び出しの合計の仕事仲間の仕事仲間は、ユーザーが使用できない時に発生する呼び出しに応答できるように、マイクロソフトのチームがユーザーの共有の機能をピックアップを呼び出します。
 
@@ -44,7 +44,7 @@ ms.locfileid: "27283152"
 
 ## <a name="configure-group-call-pickup"></a>グループ コール ピックアップを設定します。
 
-コール ピックアップのグループを設定するにユーザーが最初の呼び出しのグループを構成しでその呼び出しを共有するユーザーを追加し。 同時呼び出しを選択する、転送の設定を呼び出すか。 詳細については、[チームでの転送と同時の呼び出し音を呼び出す](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)を参照してください。
+コール ピックアップのグループを設定するにユーザーは最初の呼び出しグループ (これは、同じセキュリティ グループ、または、Office 365 のグループとして) を構成しでその呼び出しを共有するユーザーを追加し。 同時呼び出しを選択する、転送の設定を呼び出すか。 詳細な情報および詳細な手順についてを参照してください[チームに転送し、同時のリングを呼び出します](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)。
 
 グループの作成と通知の設定は、ユーザー ・ ベースの機能を呼び出す管理者は、ユーザーに対してこれらの機能を構成するのにはありません。 セキュリティ グループまたはグループを Office 365 からの呼び出しのグループを作成できません。これらは、チームで作成する必要があります。
 

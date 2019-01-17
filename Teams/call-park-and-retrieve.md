@@ -1,9 +1,9 @@
 ---
-title: 公園を呼び出すし、マイクロソフトのチームで取得
+title: Microsoft Teams でのコール パークおよび保留解除
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 12/17/2018
+ms.date: 01/16/2019
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: チームのクラウド サービスに保留中の通話をパークおよび取得を使用します。
-ms.openlocfilehash: 004a5b12e178a6460ef05f7c6f5c5738c8ced042
-ms.sourcegitcommit: 0e671e6e6fdd25227068c7e3a3a5509b6536d2b1
+ms.openlocfilehash: 2433a8836a037b530fbd895f7a37567f24d63b50
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "27294189"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328310"
 ---
-# <a name="call-park-and-retrieve-in-microsoft-teams"></a>公園を呼び出すし、マイクロソフトのチームで取得
+# <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams でのコール パークおよび保留解除
 
 パークおよび取得は、チームのクラウド サービスに保留中の呼び出しを行うユーザーをできるようにする機能です。 呼び出しが駐機している場合、サービスは、呼び出しを取得するための一意のコードを生成します。 呼び出しまたは他のユーザーを保持しているユーザーは、呼び出しを取得するのにコード、およびサポートされているアプリケーションまたはデバイスを使用できます。 
 
@@ -50,9 +50,9 @@ ms.locfileid: "27294189"
 
 | 機能 | チームのデスクトップ | チームの Mac アプリケーション | チームの Web アプリケーション (エッジ) |チーム モバイル iOS と Android アプリ | チームの IP 電話 | ビジネス IP 電話の Skype |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
-| 公園の呼び出し | あり | あり | あり | 準備中 | 準備中| なし |
-| 停止の呼び出しを取得します。 | あり | あり | あり | 準備中 | 準備中| なし |
-| 取得されていない通話の呼び出しに戻る | あり | あり | あり | 準備中 | 準備中| なし |
+| 公園の呼び出し | あり | あり | あり | あり | 準備中| なし |
+| 停止の呼び出しを取得します。 | あり | あり | あり | あり | 準備中| なし |
+| 取得されていない通話の呼び出しに戻る | あり | あり | あり | あり | 準備中| なし |
 
 ## <a name="configuring-call-park-and-retrieve"></a>パークおよび取得を構成します。
 

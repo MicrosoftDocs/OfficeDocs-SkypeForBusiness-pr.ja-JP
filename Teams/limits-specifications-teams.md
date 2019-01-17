@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f77de0515cc026b0d225100e7528a6eae4a7965
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: aa699ebabd57299ef2ced07c2c6d0fc551ac6b17
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240686"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328256"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 =============================================
@@ -30,14 +30,14 @@ ms.locfileid: "27240686"
 
 |機能    | 最大数の制限 |
 |-----------|---------------|
-|ユーザーが作成できるチームの数 | 250 オブジェクト制限 & sup1; の対象となります。         |
+|ユーザーが作成できるチームの数 | 250 オブジェクトの limit&sup1 です。         |
 |チームのメンバーの数 | 2,500       |
 |[組織全体にわたるチーム](create-an-org-wide-team.md)のメンバーの数 | 2,500       |
-|グローバル管理者が作成できるチームの数        | 500,000   |
+|グローバル管理者が作成できるチームの数        |  500,000   |
 |チーム、Office 365 テナントの数を持つことができます。    | 500,000     |
-|1 チームあたりのチャンネル数    | 200         |
+|1 チームあたりのチャンネル数    | 200 (削除されたチャネルが含まれています)         |
 
-& sup1;Azure Active Directory 内の任意のディレクトリ オブジェクトは、この制限の方向にカウントします。
+&sup1 です。Azure Active Directory 内の任意のディレクトリ オブジェクトは、この制限の方向にカウントします。
 
 <a name="meetings-and-calls"></a>会議と呼び出し 
 ------------------

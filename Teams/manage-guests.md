@@ -12,12 +12,12 @@ search.appverid: MET150
 description: IT 管理者は、テナントレベルでのゲストの追加、ゲスト ユーザー ポリシーと権限の設定と管理、ゲストを招待できるユーザーの判別、ゲスト ユーザーのアクティビティに関するレポートの取得を行うことができます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4375f6e9eb0d36d05d20f96da2410767465fcc2
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: c43309a6e4ae287181f6e363a40d99a0650984cc
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772778"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328248"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセスを管理する
 ======================================
@@ -26,7 +26,7 @@ ms.locfileid: "27772778"
 
 **ゲスト**ユーザーとライセンスの種類をオンにすると、コントロールでは、来園者に記載されている[マイクロソフトのチームの管理が組織の Office 365 の機能](enable-features-office-365.md)であり、[チームの管理新しいマイクロソフトに移行する際の設定を構成できます。チームとビジネス管理センターの Skype](manage-teams-skypeforbusiness-admin-center.md)。     
     
-IT 管理者は、テナントのレベルでの来園者の追加、設定、およびゲスト ユーザーのポリシーとアクセス許可を管理し、プルがゲスト ユーザーの利用状況を報告します。 これらのコントロールは、マイクロソフトのチームとビジネス管理センターの Skype を使用できます。 ゲスト ユーザーのコンテンツとアクティビティには、Office 365 の他の部分と同じコンプライアンスと監査保護が適用されます。
+IT 管理者は、テナントのレベルでの来園者の追加、設定、およびゲスト ユーザーのポリシーとアクセス許可を管理し、プルがゲスト ユーザーの利用状況を報告します。 これらのコントロールは、マイクロソフトのチーム & ビジネス管理センターの Skype を使用します。 ゲスト ユーザーのコンテンツとアクティビティには、Office 365 の他の部分と同じコンプライアンスと監査保護が適用されます。
 
 チームの所有者では、新規来園者を招待でき、既存のディレクトリのゲスト ユーザーをチームに追加することができます。 チームの所有者は、**チーム**でのゲスト ユーザーを識別できます > **管理チーム**、および**組織全体の設定**を使用して来園者のセットのチャネルに関連する機能 > **ゲスト アクセス**、作成、更新、来園者の許可を含む、次のスクリーン ショットに示すように、チャンネルを削除します。
 
@@ -47,7 +47,7 @@ Azure Active Directory のポータルは、来園者と Office 365 とチーム
 
 アクセスのレビューは、マイクロソフトのエンタープライズ モビリティとセキュリティ、E5 に含まれる、Azure AD の P2 のプレミアム ・ エディションで使用できます。 詳細については、「 [Azure Active Directory のエディション](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis)のエディションの選択」を参照してください。 レビューを作成、レビュー、フォームに記入または、アクセスを確認することによって、この機能と対話するユーザーごとにライセンスが必要です。 
 
-独自のアクセスを確認するのには、ゲスト ユーザーに確認する場合は、ゲスト ユーザーのライセンスの詳細を表示します。 詳細については、 [Azure AD B2B コラボレーションのライセンス](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance)を参照してください。
+チームは、追加することを来園者の数に制限されません。 ただし、テナントに追加することを来園者数の合計はにより、どのような AAD ライセンスに基づいています。 詳細については、 [Azure AD B2B コラボレーションのライセンス](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance)を参照してください。
 
 ## <a name="guest-access-latencies"></a>ゲスト アクセスの遅延
 

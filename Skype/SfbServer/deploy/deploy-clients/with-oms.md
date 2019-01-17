@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: この資料では、マイクロソフトの運用管理スイートを使用して、エンド ・ ツー ・ エンドの統合された方法で Skype ルーム システム v2 のデバイスの管理を展開する方法について説明します。
-ms.openlocfilehash: 5f370c7e222f75b11b41a39e99b9cba568d58241
-ms.sourcegitcommit: baa4ecf69bdcf499b5b724246f3e9f45c6ca3b7b
+ms.openlocfilehash: 9a55238296452119679ff3c07147961fcec3eb7a
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/08/2018
-ms.locfileid: "25450490"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328279"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>OMS を使用した Skype Room Systems バージョン 2 の管理を展開する
 
@@ -138,14 +138,14 @@ Skype ルーム システム v2 に関連するイベントを監視すること
 
 | JSON フィールド                   | OMS カスタム フィールド           | イベント ID        |
 |:-----------------------------|:---------------------------|:----------------|
-| 説明                  | SRSEventDescription_CF     | 選択されていません。    |
+| 説明                  | SRSEventDescription_CF      | 選択されていません。    |
 | ResourceState                | SRSResourceState_CF        | 選択されていません。    |
 | OperationName                | SRSOperationName_CF        | 選択されていません。    |
 | OperationResult              | SRSOperationResult_CF      | 選択されていません。    |
 | OS                           | SRSOSVersion_CF            | 選択されていません。    |
 | OSVersion                    | SRSOSLongVersion_CF        | 選択されていません。    |
 | Alias                        | SRSAlias_CF                | 選択されていません。    |
-| 表示名                  | SRSDisplayName_CF          | 選択されていません。    |
+| DisplayName                  | SRSDisplayName_CF          | 選択されていません。    |
 | AppVersion                   | SRSAppVersion_CF           | 選択されていません。    |
 | IPv4Address                  | SRSIPv4Address_CF          | 選択されていません。    |
 | IPv6Address                  | SRSIPv6Address_CF          | 選択されていません。    |
@@ -195,7 +195,7 @@ Skype ルーム システム v2 に関連するイベントを監視すること
 
 ### <a name="create-a-tile-that-displays-active-devices"></a>アクティブなデバイスを表示するタイルを作成します。
 1.  タイルを追加する**ダッシュ ボードのビュー**を選択します。
-2.  ギャラリーから**リストと番号**を選択します。
+2.  **_AMP_ リストに番号**を選択して、ギャラリーから
 3.  **全般**プロパティを定義します。<br>
     **グループ タイトル:** ハートビートの状態<br>
     **新しいグループ:** 選択
@@ -212,7 +212,7 @@ Skype ルーム システム v2 に関連するイベントを監視すること
 8.  **適用**され、し、**閉じる**を選択します。
 
 ### <a name="create-a-tile-that-displays-devices-that-have-connectivity-issues"></a>接続の問題のあるデバイスを表示するタイルを作成します。
-1.  ギャラリーから**リストの数と**を選択し、新たにコピーします。
+1.  ギャラリーから、[ **&] ボックスの一覧の番号**を選択し、新しいタイルを追加します。
 2.  **全般**プロパティを定義します。<br>
     **グループ タイトル:** 空のままに<br>
     **新しいグループ:** 選択されていません。
@@ -230,7 +230,7 @@ Skype ルーム システム v2 に関連するイベントを監視すること
 
 ### <a name="create-a-tile-that-displays-devices-that-have-a-hardware-error"></a>ハードウェア エラーのあるデバイスを表示するタイルを作成します。
 
-1.  ギャラリーから**リストの数と**を選択し、新たにコピーします。
+1.  ギャラリーから、[ **&] ボックスの一覧の番号**を選択し、新しいタイルを追加します。
 2.  **全般**プロパティを定義します。<br>
     **グループ タイトル:** ハードウェアのステータス<br>
     **新しいグループ:** 選択
@@ -248,7 +248,7 @@ Skype ルーム システム v2 に関連するイベントを監視すること
 
 ### <a name="create-a-tile-that-displays-skype-room-systems-v2-operating-system-versions"></a>Skype ルーム システム v2 バージョンのオペレーティング システムを表示するタイルを作成します。
 
-1.  ギャラリーから、**ドーナツとリスト**を選択し、新しいタイルです。
+1.  ギャラリーから、**ドーナツ & リスト**を選択し、新たにコピーします。
 2.  **全般**プロパティを定義します。<br>
     **グループ タイトル:** Syetem の動作の詳細 <br>
     **新しいグループ:** 選択
@@ -272,7 +272,7 @@ Skype ルーム システム v2 に関連するイベントを監視すること
 
 ### <a name="create-a-tile-that-displays-skype-room-systems-v2-application-versions"></a>Skype ルーム システム v2 のアプリケーションのバージョンを表示するタイルを作成します。
 
-1.  ギャラリーから、**ドーナツとリスト**を選択し、新しいタイルです。
+1.  ギャラリーから、**ドーナツ & リスト**を選択し、新たにコピーします。
 2.  **全般**プロパティを定義します。<br>
     **グループ タイトル:** Skype ルーム システム v2 のアプリケーションの詳細 <br>
     **新しいグループ:** 選択
@@ -296,7 +296,7 @@ Skype ルーム システム v2 に関連するイベントを監視すること
 
 ### <a name="create-a-tile-that-displays-devices-that-have-an-application-error"></a>アプリケーション エラーのあるデバイスを表示するタイルを作成します。
 
-1.  ギャラリーから**リストの数と**を選択し、新たにコピーします。
+1.  ギャラリーから、[ **&] ボックスの一覧の番号**を選択し、新しいタイルを追加します。
 2.  **全般**プロパティを定義します。<br>
     **グループ タイトル:** 空のままに<br>
     **新しいグループ:** 選択されていません。
@@ -314,7 +314,7 @@ Skype ルーム システム v2 に関連するイベントを監視すること
 
 ### <a name="create-a-tile-that-displays-devices-that-have-been-restarted"></a>再起動されているデバイスを表示するタイルを作成します。
 
-1.  ギャラリーから**リストの数と**を選択し、新たにコピーします。
+1.  ギャラリーから、[ **&] ボックスの一覧の番号**を選択し、新しいタイルを追加します。
 2.  **全般**プロパティを定義します。<br>
     **グループ タイトル:** 空のままに<br>
     **新しいグループ:** 選択されていません。
@@ -392,7 +392,7 @@ Skype ルーム システムの最後の時間内でアプリケーションの�
 2.  次のクエリを入力し、し、[**実行**] を選択します。<br>
     ```
     Event
-    | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(10h)
+    | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
     | summarize arg_max(TimeGenerated, *) by Computer
     | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
     | sort by TimeGenerated desc

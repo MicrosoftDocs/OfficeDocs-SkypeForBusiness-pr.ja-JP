@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a36c0a23076c5aa172824fe85103c57a8494dbf
-ms.sourcegitcommit: a378848c5aeb8e2b25300024318de792454d905b
+ms.openlocfilehash: 383a4a18d466e367a31e4b99f9975b51cc5f559a
+ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/28/2018
-ms.locfileid: "27458479"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "27988187"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Office 365 を使用する組織で Microsoft Teams の機能を管理する
 
@@ -28,29 +28,35 @@ ms.locfileid: "27458479"
 
 特に明記されていない限り、オプションの既定値は [**オン**] です。
 
-## <a name="office-365-tenant-wide-settings"></a>Office 365 テナント全体の設定 
+## <a name="tenant-wide-settings"></a>テナント全体の設定 
 
-[**テナント全体の設定**] で、アプリをオンまたはオフに切り替えられます。
+Microsoft 365 管理センターの [**テナント全体の設定**] で Teams のアプリをオフにしたりオンにしたりすることができます。 
 
-Teams の [**テナント全体の設定**] を編集するには、Microsoft Teams および Skype for Business 管理センターに移動して、[**Legacy portal (従来のポータル)**] を選択します。[**設定**]  >  [**サービスとアドイン**]  >  [**Microsoft Teams**] の順に選択します。Office 365 管理者としてサインインしている場合は、次のリンクから移動できます。 
->  
-> https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns  
+Teams の [**テナント全体の設定**] を編集するには、Microsoft 365 管理センターに移動して、[**設定**]  >  [**サービスとアドイン**]  >  [**Microsoft Teams**] の順に選択します。Office 365 管理者としてサインインしている場合は、次のリンクから移動できます。 
+
+https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns  
 
 ### <a name="apps"></a>アプリ
 
-アプリとは、サードパーティのサービスによって提供されるタブ、コネクタ、ボットという 3 つの要素のあらゆる組み合わせで構成されているものです。Office 365 管理センターで構成可能な Teams 管理ポリシーを使用すると、許可する外部サードパーティ アプリを制御することができます。このポリシーでは、許可または禁止するアプリ、新しい外部アプリの動作、アプリのサイドロードを許可するかどうかを指定できます。 
+アプリは、Teams (ファーストパーティ アプリ、または既定のアプリ) によって、またはサードパーティ (外部アプリ) によって提供される、タブ、コネクタ、ボットまたはそれらの 3 つを任意に組み合わせたのものです。 [**アプリ**] の下で、既定のアプリを有効または無効にしたり、外部アプリを制御する設定を構成したりすることができます。  
 
-[**アプリ**] の下で、組織の次の設定を構成できます。 
+#### <a name="default-apps"></a>既定のアプリ
 
-![[アプリ] セクションのスクリーンショット。](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.png)
+プランナー、称賛、天気などのアプリは、Teams によって提供されます。 アプリをオンにするには、そのアプリのチェック ボックスを選択します。 アプリをオフにするには、チェック ボックスをクリアします。 
 
-- **Microsoft Teams の外部アプリを許可する**: このスイッチがオンになると、ユーザーは Office 365 テナントで利用できるタブやボットを 追加することができます。 
- 
-    ![[アプリ] セクションの外部アプリの許可コントロールのスクリーンショット。](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.2.png)
+![[既定のアプリ] セクションのスクリーン ショット。](media/teams-tenant-wide-settings-default-apps.png "[既定のアプリ] セクションのスクリーン ショット")
 
-- **既定で新しい外部アプリを有効にする**: このスイッチがオンになると、ユーザーは Teams アプリ カタログに新しいアプリが追加されるとそれをすぐにアクティブ化することができます。新しいアプリに対する制御を行う場合はこのスイッチをオフにします。これをオフにする場合は、自分の組織で優れた新しいアプリを利用する機会を失うことがないように、新しいアプリについて忘れずに定期的に確認する必要があります。 
+#### <a name="external-apps"></a>外部アプリ
 
-- **外部アプリのサイドロードを許可する:** このスイッチがオンになると、ユーザーはカスタムのボットやタブをインストールして有効にすることができます。 
+これらのアプリはサードパーティによって提供されます。 外部アプリについては、次の設定を構成することができます。
+
+![[外部アプリ] セクションのスクリーンショット。](media/teams-tenant-wide-settings-external-apps-settings.png "[外部アプリ] セクションのスクリーンショット。オンまたはオフにすることができる設定")
+
+- **Microsoft Teams の外部アプリを許可する**: この設定がオンになると、ユーザーは自分の組織で利用できる外部アプリを追加することができます。 
+
+- **既定で新しい外部アプリを有効にする**: この設定がオンになると、ユーザーは Teams アプリ カタログに新しいアプリが追加されると、それらをすぐにアクティブ化することができます。 新しいアプリに対する制御を行う場合はこの設定をオフにします。 これをオフにする場合は、自分の組織で新しいアプリを利用する機会を失うことがないように、新しいアプリについて定期的に確認するようにする必要があります。 
+
+- **外部アプリのサイドローディングを利用できるようになります**:一部の外部アプリをオンにして、その他のアプリをオフにする場合は、この設定をオフにしてから、外部アプリのリストでユーザーがアクセスしないようするアプリをオフにします。 この設定がオンになっているときは、アクセス権が付与されているチーム所有者およびメンバーは、アプリを Teams にサイドリーディングすることができます。 
 
 詳細については、「[Teams でのアプリの管理設定](admin-settings.md)」をご覧ください。 
 
@@ -83,10 +89,6 @@ Microsoft Teams での**ゲスト アクセス**により、組織内のチー�
 #### <a name="organization"></a>組織
 
 ユーザーの組織について詳細な組織図を示す、[**組織**] タブをオンにすることができます。詳細については、「[Teams で組織タブを使用する](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894)」をご覧ください。
-
-#### <a name="skype-for-business-interop"></a>Skype for Business の相互運用性
-
-この設定を使用して、Teams のユーザーが Skype for Business ユーザーとチャットするようにすることができますTeams と Skype for Business との相互運用性については、「[Teams と Skype for Business の共存および相互運用性について理解する](teams-and-skypeforbusiness-coexistence-and-interoperability.md)」をご覧ください。
 
 #### <a name="devices"></a>デバイス
 
