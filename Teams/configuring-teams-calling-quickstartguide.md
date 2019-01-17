@@ -15,12 +15,12 @@ MS.collection:
 - Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f3145455553c8126d66b3e56b69ec646f5f19ad
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: cc1c20f87103dc91a317e58dac03389275b255f2
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530697"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694698"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>クイック スタート ガイド: Microsoft Teams での通話プランの設定
 ==============================================================
@@ -48,7 +48,7 @@ Skype for Business が提供する Office 365 の機能の 1 つである通話�
 > 直接ルーティングを使用して、コマンドにユーザーを許可して、PSTN の呼び出しを受信することができますもします。 直接ルーティングを設定する方法については、[直接ルーティングの構成](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure)を参照してください。
 
 ## <a name="teams-interop-policy-configuration"></a>Teams の相互運用ポリシーの設定
-呼び出しの受信を開始するチームを有効にするには、する必要がありますチーム アップグレード ポリシーおよびポリシーの相互運用機能チームを更新するのには[マイクロソフトのチームとビジネス管理センターの Skype](https://aka.ms/teamsadmincenter)を使用するか、Skype でリモートの Windows PowerShell セッションを使用してビジネス[`*-CsTeamsUpgradePolicy`と`*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype)コマンドレットは、チームへの呼び出しをリダイレクトします。
+呼び出しの受信を開始するチームを有効にするには、する必要がありますチーム アップグレード ポリシーおよびポリシーの相互運用機能チームを更新するのには[マイクロソフトのチーム & ビジネス管理センターの Skype](https://aka.ms/teamsadmincenter)を使用するか、[`*-CsTeamsUpgradePolicy`と`*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype)コマンドレットは、チームへの呼び出しをリダイレクトします。
 
 アップグレードのポリシーをチームとチームの相互運用機能のポリシーの詳細については、[移行とビジネス用の Skype とチームを使用する組織の相互運用性ガイド](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)を参照してください。
 
@@ -97,14 +97,14 @@ Teams の相互運用ポリシーでは次の既定の設定が指定されて�
 * **Skype for Business を利用していないお客様の場合**、このポリシーが有効であるときに、PSTN 通話は Teams で受信されます。
 
 > [!WARNING]
-> 現時点では、`CallingDefaultClient` を Teams に変更すると、Skype for Business IP 電話への通話にも影響を及ぼします。 Skype for Business IP 電話で着信通話を受信できなくなり、Teams クライアントでのみ着信音が鳴ります。 既存の認定済み SIP 電話のサポートについては、「[Skype for Business から Microsoft Teams へ: 機能のロードマップ](https://aka.ms/skype2teamsroadmap)」をご覧ください。
+> 現時点では、`CallingDefaultClient` を Teams に変更すると、Skype for Business IP 電話への通話にも影響を及ぼします。 Skype for Business IP 電話で着信通話を受信できなくなり、Teams クライアントでのみ着信音が鳴ります。 認定済みの既存の SIP 電話のサポートについては、 [Microsoft 365 のロードマップ](https://aka.ms/O365Roadmap)を参照してください。
 
 ### <a name="how-to-configure-users-to-receive-pstn-calls-in-teams"></a>チームでの呼び出しの PSTN を受信するユーザーを構成する方法
 チームの従来のアップグレード ポリシーを使用して、チームへの呼び出しをリダイレクトするのにはリモートの Windows PowerShell セッションをビジネス用の Skype を使用して上記で説明したチームの相互運用機能のポリシーが適用されます。
 
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
 
-TeamsOnly モードを使用する場合は、マイクロソフトのチームのビジネス管理センターでは、Skype 経由で、またはチームへの呼び出しをリダイレクトするのにはリモートの Windows PowerShell セッションをビジネス用の Skype 経由での TeamsOnly にユーザーの共存モードを変更できます。
+TeamsOnly モードを使用する場合は、マイクロソフトのチームの & のビジネス管理センターでは、Skype 経由で、またはチームへの呼び出しをリダイレクトするのにはリモートの Windows PowerShell セッションをビジネス用の Skype を使用して、TeamsOnly をユーザーの共存モードを変更できます。
 
     Grant-CsTeamsUpgradePolicy -PolicyName tag:UpgradeToTeams -Identity user@contoso.com
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
@@ -112,7 +112,7 @@ TeamsOnly モードを使用する場合は、マイクロソフトのチーム�
 ## <a name="see-also"></a>関連項目
 [通話プランの設定](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
-[ビジネスのチームとは、Skype を使用する組織の移行と相互運用性のガイド](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
+[Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
 [Microsoft Teams の通話プランが設定された電話システムの実践的なガイダンス](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)
 

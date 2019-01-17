@@ -19,12 +19,12 @@ metadata:
   - Teams_ITAdmin_Training
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: ef0b4330f1697dc800363336300b7dce41312a3d
-  ms.sourcegitcommit: a378848c5aeb8e2b25300024318de792454d905b
+  ms.openlocfilehash: b739361e49143a5efe941a5a942bb1ba844472ce
+  ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 12/28/2018
-  ms.locfileid: "27458487"
+  ms.lasthandoff: 01/17/2019
+  ms.locfileid: "28694714"
 items:
 - durationInMinutes: 1
   content: >
@@ -112,6 +112,6 @@ items:
         - Teams 製品のフィードバックまたは新しい機能のリクエストを送信するには、[Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public) に移動してください
     4.  最新に維持します。
         - [チームのブログ](https://aka.ms/teamsblog)に従います。
-        - [チームのロードマップ](https://aka.ms/skype2teamsroadmap)を参照してください。
+        - [チームのロードマップ](https://aka.ms/O365Roadmap)を参照してください。
         - [リリース ノート](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)にリリースされた最新の機能について説明します。
     5.  [その他のトレーニングおよびチュートリアル](https://aka.ms/Teamsacademy)を探索してください。

@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: この資料では、Skype ルーム システム v2 のコンソールとその周辺機器を設定する方法について説明します。
-ms.openlocfilehash: 162aaaed5472fefc3c23cc11800b166ed4b26bc2
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 00203c8aa781c489d8a1cc8c2bf91a364bea057f
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326717"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694721"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Skype Room Systems バージョン 2 コンソールを構成する
  
@@ -56,6 +56,13 @@ Skype ルーム システム v2 のコンソール アプリケーションを�
 > [!CAUTION]
 > メディアからの作成スクリプトを実行するフォルダーの名前にスペースを含めることはできません。 フォルダー名にスペースがある場合、スクリプトは失敗します。
 
+CreateSrsMedia.ps1 スクリプトは、次のタスクを自動化します。
+
+1. Skype ルーム システム v2 の最新の MSI インストーラーをダウンロードします。
+2. ユーザーを指定する必要があります Windows のビルドを決定します。 最も最近リリースされたバージョン可能性がありますまたは可能性がありますいないにテストして Skype ルーム システム v2 のデバイスでの使用をサポートしました。
+3. サポートするために必要なコンポーネントをダウンロードします。
+4. インストール メディアに必要なコンポーネントをアセンブルします。
+
 完了したら、USB ディスクをコンピューターから削除し、 [Windows の 10 をインストール](console.md#Reimage)して Skype ルーム システム v2 のコンソール アプリケーションです。
 
     
@@ -74,11 +81,11 @@ Skype ルーム システム v2 のコンソール アプリケーションを�
 
 5. USB セットアップ ディスクから起動します。 製造元の指示を参照してください。 場合は、ターゲット ・ デバイスは、Surface Pro は、USB のセットアップ ディスクから起動するのには次の手順を使用します。
 
-    1. キーを押し、ボリューム ダウン (-) ボタンを押したままです。
+    a. キーを押し、ボリューム ダウン (-) ボタンを押したままです。
 
-    2. キーを押し、電源ボタンを離します。
+    b. キーを押し、電源ボタンを離します。
 
-    3. Windows セットアップが起動したら、ボリューム ダウン (-) ボタンを離します。
+    c. Windows セットアップが起動したら、ボリューム ダウン (-) ボタンを離します。
 
 8. インストールが完了したら、システムがシャット ダウンします。
     

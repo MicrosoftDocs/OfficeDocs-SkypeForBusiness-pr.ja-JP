@@ -17,12 +17,12 @@ metadata:
   - Teams_ITAdmin_Training
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 3c125870dc05f68bdf9baaeeb80630a98ffd62bb
-  ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+  ms.openlocfilehash: 4bb36fc10afbd9e0061da905d64999bf62bbfb4e
+  ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 11/15/2018
-  ms.locfileid: "26530983"
+  ms.lasthandoff: 01/17/2019
+  ms.locfileid: "28694768"
 items:
 - durationInMinutes: 1
   content: >
@@ -86,7 +86,7 @@ items:
     Teams での通話は、統合されたダイヤルパッドでの (名前や番号による) 通話の応答や開始、通話の保留と再取得、通話の転送および同時呼び出し、通話履歴、ボイスメール、および緊急通話などの基本的な電話システム機能をサポートします。
 
 
-    時間の経過とともにより高度な機能が追加される予定です。 詳細については、「[Skype for Business から Microsoft Teams へ: 機能のロードマップ](https://aka.ms/skype2teamsroadmap)」をご覧ください。
+    時間の経過とともにより高度な機能が追加される予定です。 詳細については、[マイクロソフトの 365 のロードマップ](https://aka.ms/O365Roadmap)を参照してください。
 
 
     Teams での通話は電話システム (旧名: クラウド PBX) で提供され、Skype for Business Online で PSTN 通話機能を有効にする Office 365 の同じサービスです。
@@ -98,7 +98,7 @@ items:
     <span style="color:red">**アクション**:</span> 現在どの機能が利用できるかについて、および開発する予定がある機能のタイムラインを知るには、次のリソースをご覧ください。
 
 
-    - [公開ロードマップ](https://aka.ms/skype2teamsroadmap)の「通話ロードマップ」スライドで、機能のリリース日として予定されているタイムラインの概要を確認してください。
+    - [公開ロードマップ](https://aka.ms/O365Roadmap)の「通話ロードマップ」スライドで、機能のリリース日として予定されているタイムラインの概要を確認してください。
 
     - 電話システムの機能の詳細については、「[Office 365 での電話システムで利用できる機能](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)」を確認してください。 この文書の記載において、一部の機能は Skype for Business のみで利用できるものである可能性がありますので、注意してください。
 
@@ -247,4 +247,4 @@ items:
   content: "\nこれで、自分たちの環境において電話システムを適切に計画して実装することになりました。このシステムが確実に使用され、優れたユーザー エクスペリエンスを提供することを確認する必要があります。 すべてを詳細に取り上げるのはこのトレーニングの範囲を超えていますが、ここではエンゲージメントの最も重要な領域について明示します。\n\n-   変更の導入と管理のユーザーに提供するときにサービスを使用してを起動可能性があります。 また、そうでない可能性もあります。 このため、適切な導入と変更管理を実行することが重要です。\n\n-   監視し、お勧め、KSIs の 1 つのアクティブ ユーザー数、どれだけチームを測定するための使用状況を向上させるは、電話のクライアントとして受け入れられているが。\n\n-   品質の監視と推進\n\nユーザーの満足度は、通話の品質と直接関係していますので、必要に応じて通話品質を監視して改善することが重要です。 通話品質について報告する方法を知るには、通話品質ダッシュボードのトレーニングにアクセスしてください。 これらのビデオが作成されたら、ビジネスの Skype のですが、チームにも適用します。 <https://aka.ms/sof-cqd>。\n"
 - title: 次のステップ
   durationInMinutes: 1
-  content: "\nこのトレーニングでは次の重要な学習事項を取り上げています。\n-   Teams での通話について。\n\n-   Teams での通話に関する計画をする方法\n\n-   Teams での通話を構成する方法\n\n詳細については次をご覧ください。\n\n-   [Microsoft Teams の通話プランが設定された電話システムの実践的なガイダンス](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)\n\n-   [クイック スタート ガイド: Microsoft Teams での通話プランの設定](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)\n\n次のステップ\n\n1.  個人用に設定された展開についてのガイダンスのために [MyAdvisor](https://aka.ms/myadvisor) に登録する\n2.  Teams 用の電話システムの展開を開始する\n3.  フィードバックを送信してください。\n    - このページの下部にあるコメント セクションから投稿してください。\n    - Teams に関する製品フィードバックをご提供いただける場合や、新機能のアイディアをお知らせいただける場合は、「[UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)」にアクセスしてください。\n4.  最新に維持します。\n    - [チームのブログ](https://aka.ms/teamsblog)に従います。\n    - [チームのロードマップ](https://aka.ms/skype2teamsroadmap)を参照してください。\n    - [リリース ノート](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)にリリースされた最新の機能について説明します。\n5.  [その他のトレーニングおよびチュートリアル](https://aka.ms/Teamsacademy)を探索してください。"
+  content: "\nこのトレーニングでは次の重要な学習事項を取り上げています。\n-   Teams での通話について。\n\n-   Teams での通話に関する計画をする方法\n\n-   Teams での通話を構成する方法\n\n詳細については次をご覧ください。\n\n-   [Microsoft Teams の通話プランが設定された電話システムの実践的なガイダンス](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)\n\n-   [クイック スタート ガイド: Microsoft Teams での通話プランの設定](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)\n\n次のステップ\n\n1.  個人用に設定された展開についてのガイダンスのために [MyAdvisor](https://aka.ms/myadvisor) に登録する\n2.  Teams 用の電話システムの展開を開始する\n3.  フィードバックを送信してください。\n    - このページの下部にあるコメント セクションから投稿してください。\n    - Teams に関する製品フィードバックをご提供いただける場合や、新機能のアイディアをお知らせいただける場合は、「[UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)」にアクセスしてください。\n4.  最新に維持します。\n    - [チームのブログ](https://aka.ms/teamsblog)に従います。\n    - [チームのロードマップ](https://aka.ms/O365Roadmap)を参照してください。\n    - [リリース ノート](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)にリリースされた最新の機能について説明します。\n5.  [その他のトレーニングおよびチュートリアル](https://aka.ms/Teamsacademy)を探索してください。"

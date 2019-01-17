@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0057f18d334c89f745ec74952fd01796c8b30880
-ms.sourcegitcommit: a378848c5aeb8e2b25300024318de792454d905b
+ms.openlocfilehash: ad00f5df93cb91cc878a0b75a413b9299cde9a88
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/28/2018
-ms.locfileid: "27458503"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694776"
 ---
 # <a name="make-my-service-decisions"></a>[サービスの決定を行う
 
@@ -35,7 +35,7 @@ ms.locfileid: "27458503"
 -   最新のパブリック ・ ロードマップに記載されているチームでの音声会議機能が、ユーザー、機能、および展開の時間内で、スコープの要件を満たすことを確認します。
 
 > [!NOTE]
-> 展開があるは、スコープ内のチームの電話会議機能を識別するための最新のチーム ロードマップ<https://aka.ms/skype2teamsroadmap>。
+> 展開があるは、スコープ内のチームの電話会議機能を識別するための最新のチーム ロードマップ<https://aka.ms/O365Roadmap>。
 
 ## <a name="meetings-in-teams"></a>Teams での会議
 
@@ -44,7 +44,7 @@ ms.locfileid: "27458503"
 秘密の会議 (招待者のみが参加できます) として会議をスケジュールすることができます。 またはチャネル会議のために開いているチャネルへのアクセスを持つすべてのユーザー)、ユーザーでは、チャネル内での緊急の会議を開始できますもします。
 
 > [!NOTE]
-> チーム内の会議の機能の詳細については、[Microsoft チーム機能のロードマップにビジネスの Skype] を参照してください。 https://aka.ms/skype2teamsroadmap)。
+> チーム内の会議の機能の詳細については、[マイクロソフトの 365 のロードマップ](https://aka.ms/O365Roadmap)を参照してください。
 
 ミーティングの参加者を有料または無料のダイヤルイン会議ブリッジ landlines または携帯電話の電話番号にダイヤルすることによって、チームの会議に参加できます。 (データ接続が信頼性の高いされていないときに便利です)、その電話を呼び出し、会議ブリッジまたは使用すると、会議で会議に参加できるように、「電話」機能を開始するオーディオ会議サービスをさせることができますさらに、開催者が会議に招待その電話をダイヤルすることによって参加者です。
 
