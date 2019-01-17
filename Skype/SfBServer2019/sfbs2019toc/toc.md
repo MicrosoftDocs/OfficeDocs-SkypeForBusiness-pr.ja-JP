@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 6296e5ea0dde283dc46418d42db97c524277267b
-ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
+ms.openlocfilehash: 05cd733e96ad77b0a413c9846ceb3697b45eec13
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 01/17/2019
-ms.locfileid: "28328286"
+ms.locfileid: "28694783"
 ---
 # [Skype ビジネス サーバー 2019](../skype-for-business-server-2019.md)
 
@@ -320,7 +320,6 @@ ms.locfileid: "28328286"
 ### [フェーズ 2: 移行を準備します。](../migration/phase-2-prepare-for-migration.md)
 #### [従来のインストールに更新プログラムを適用します。](../migration/apply-updates.md)
 #### [パイロット プール展開の DNS レコードの構成](../migration/configure-dns-records-for-pilot-pool-deployment.md)
-#### [ベスト プラクティス アナライザーを実行します。](../migration/run-best-practices-analyzer.md)
 #### [システムおよびデータをバックアップします。](../migration/back-up-systems-and-data.md)
 #### [移行のためのクライアントを構成します。](../migration/configure-clients-for-migration.md)
 #### [従来の環境から移行することを確認します。](../migration/verify-environment.md)
