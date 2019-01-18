@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dfe4febe5d086af6914660bffb667942b9d00c25
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: 0b4e0e713bda280738ec72c8c4e07dc5b0da15c3
+ms.sourcegitcommit: 5f289e4ca3ba40013d38c352bd34eff96d6421b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201358"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726636"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 ===========================
@@ -109,7 +109,7 @@ Web クライアントへの接続時にブラウザーのバージョンの検�
 <a name="mobile-clients"></a>モバイル クライアント
 --------------
 
-マイクロソフト チームのモバイル アプリケーションは、Android と iOS、チャット ベースで会話に参加している上、移動ユーザーを対象としていますし、ピア ツー ピア音声通話を許可します。 モバイル アプリケーションは、Google のプレイと Apple のアプリケーション ストア関連のモバイル ストアをご覧ください。 Windows Phone アプリケーションの廃止、2018 年 7 月 20日を参照してください[ここでは](https://support.microsoft.com/en-us/help/4230833/windows-phone-app-for-microsoft-teams-is-retiring)詳細については。
+マイクロソフト チームのモバイル アプリケーションは、Android と iOS、チャット ベースで会話に参加している上、移動ユーザーを対象としていますし、ピア ツー ピア音声通話を許可します。 モバイル アプリケーションは、Google のプレイと Apple のアプリケーション ストア関連のモバイル ストアをご覧ください。 Windows Phone アプリケーションは、2018 年 7 月 20日が廃止され、動作しなくなる場合があります。 
 
 Microsoft Teams モバイル アプリのサポートされるモバイル プラットフォームは次のとおりです。
 
