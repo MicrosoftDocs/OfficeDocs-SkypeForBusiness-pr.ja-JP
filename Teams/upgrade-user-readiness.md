@@ -1,9 +1,8 @@
 ---
-title: マイクロソフト チームのチームで Microsoft にアップグレードする前にユーザーの準備の計画を Skype からビジネスの準備します。
+title: ユーザーの準備計画を準備します。ビジネス用の Skype からチームへのアップグレードします。
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,21 +13,21 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de13a3775c9ffae4fde1ffcd71be23ffab4e4a96
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 48bc1527b5f57219ecf062f1ab7025d969c13182
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649693"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349449"
 ---
 ![ユーザーの準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-user-readiness.png "ユーザーの準備段階に重点を置いて、旅アップグレードの段階")
 
 この資料では、アップグレードの旅、技術的な準備段階と並行して、完了したアクティビティのユーザーの準備段階の一部です。 次に進む前に前の段階からこれらの活動を完了していることを確認します。
 
--   [プロジェクトの利害関係者が参加しています。](upgrade-enlist-stakeholders.md)
--   [プロジェクト スコープの定義](https://aka.ms/SkypetoTeams-Scope)
--   [ビジネスとチームの共存と Skype の相互運用性を理解します。](https://aka.ms/SkypeToTeams-Coexist)
--   [アップグレード、旅を選択](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [プロジェクトの利害関係者が参加しています。](upgrade-enlist-stakeholders.md)
+- [プロジェクト スコープの定義](https://aka.ms/SkypetoTeams-Scope)
+- [ビジネスとチームの共存と Skype の相互運用性を理解します。](https://aka.ms/SkypeToTeams-Coexist)
+- [アップグレード、旅を選択](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-a-user-readiness-plan"></a>ユーザーの準備の計画を準備します。
 
@@ -37,11 +36,10 @@ ms.locfileid: "26649693"
 > [!Tip]
 > テンプレート ユーザー準備資料、通信など、サンプル プロジェクトのアップグレードの計画とパイロット テスト計画の他のユーザーの調査の[成功のアップグレード キット](https://aka.ms/UpgradeSuccessKit)をダウンロードします。
 
-|    |     |
-|-----------|------------|
+| | |
+|---|---|
 | ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>容易にして、新しいソリューションのユーザーの採用を促進する準備計画を作成することができますでしょうか。</li><li>右の意識、トレーニング、およびサポート リソースを変更し、定義されているユーザーのペルソナを扱うユーザーの機能の連携をしていますか。</li></ul> |
 | ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>準備計画のアイデアを生成するのにには、以下のリストを使用します。 最も関連するアクティビティを選択-独自の追加または、組織用に最適化された対応計画を設計します。 最大の結果の一般公開用の組織全体) と (遅滞者または特定のペルソナ) の対象となるキャンペーンの組み合わせを使用することを忘れないでください。</li></ul>|
-
 
 <div class="mx-tableFixed">
 <table>
@@ -53,6 +51,3 @@ ms.locfileid: "26649693"
 </div>
 
 準備プランのユーザーと関連付けられているリソースは、作成したし、技術への対応を[組織内のパイロットのチーム](https://aka.ms/SkypeToTeams-Pilot)に進みます。
-
-
-

@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44c60dbad9b2b31e18716c79dea73795cda4a803
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: d3c273868a07099ce0aaed60cb16e698adbdd13f
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729437"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349522"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス
 
@@ -45,12 +45,11 @@ ms.locfileid: "28729437"
 6.  アップグレードと相互運用機能の動作は、TeamsUpgradePolicy で管理されているユーザーの共存モードに基づいて決定されます。 TeamsInteropPolicy は、受取済および許可モードではありません = レガシーは許可されていません。 
 
 7.  TeamsOnly モードにユーザーをアップグレードする、すべての着信のチャットや通話は常にどのようなクライアントに関係なく、ユーザーのチームのクライアントに着陸できるようにから orignated を保証します。 これらのユーザー、チーム内のすべての新しい会議をスケジュールしてもします。 TeamsOnly モードにするには、ユーザーする必要がありますが所属するオンライン ビジネスの Skype にします。 これは、相互運用性、フェデレーション、およびチームのユーザーの完全な管理を確実に必要です。ユーザーを TeamsOnly にアップグレードするには。
-  - ユーザーのオンライン ホーム ビジネスのための Skype の場合 (または任意の Skype アカウントがなかった)、モードで TeamsUpgradePolicy を与えた = PowerShell を使用して"UpgradeToTeams"のインスタンスを使用して TeamsOnly または TeamsOnly モードを選択するチームの管理センターを使用します。
-  - 使用して、ユーザーがホームの設置型の場合は、 `Move-CsUser` 、設置から管理用ツールの最初の移動に Skype ユーザーは、オンライン ビジネスです。 設置型からユーザーを移動するときに、2 つのオプションがあります。
-    
-       - かどうかがある Skype ビジネス サーバー 2019 または CU8 の Skype のビジネス サーバー 2015 の指定すること、`-MoveToTeams`でスイッチを`Move-CsUser`のチームに直接ユーザーを移動します。 (ただし、ここでは、会議の移行のみタップ向け機能) このオプションはチームにもユーザーの会議を移行します。 
-       - それ以外の場合後、`Move-CsUser`が完了したら、PowerShell またはチームの管理センターを使用してそのユーザーに TeamsOnly モードを割り当てます。  
-    詳細は、[オンプレミスとクラウドの間でユーザーの移動](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)を参照してください。  会議の移行の詳細については、「[会議の移行サービス (MMS)](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)」を参照してください。
+    - ユーザーのオンライン ホーム ビジネスのための Skype の場合 (または任意の Skype アカウントがなかった)、モードで TeamsUpgradePolicy を与えた = PowerShell を使用して"UpgradeToTeams"のインスタンスを使用して TeamsOnly または TeamsOnly モードを選択するチームの管理センターを使用します。
+    - 使用して、ユーザーがホームの設置型の場合は、 `Move-CsUser` 、設置から管理用ツールの最初の移動に Skype ユーザーは、オンライン ビジネスです。 設置型からユーザーを移動するときに、2 つのオプションがあります。  
+     - かどうかがある Skype ビジネス サーバー 2019 または CU8 の Skype のビジネス サーバー 2015 の指定すること、`-MoveToTeams`でスイッチを`Move-CsUser`のチームに直接ユーザーを移動します。 (ただし、ここでは、会議の移行のみタップ向け機能) このオプションはチームにもユーザーの会議を移行します。 
+      - それ以外の場合後、`Move-CsUser`が完了したら、PowerShell またはチームの管理センターを使用してそのユーザーに TeamsOnly モードを割り当てます。  
+     詳細は、[オンプレミスとクラウドの間でユーザーの移動](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)を参照してください。  会議の移行の詳細については、「[会議の移行サービス (MMS)](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)」を参照してください。
 
 
 8.  チームとチームの電話システムの機能を使用するユーザーは TeamsOnly モード (すなわち、Skype でオンライン ビジネスのホームをアップグレードしてチーム) である必要があり、マイクロソフトの電話システムに[直接ルーティングの場合](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277)(これは電話システムを使用できるように構成する必要がありますか独自の SIP トランクおよび SBC を使用して) を持つことも、Office 365 を呼び出すことを計画します。   

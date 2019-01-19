@@ -1,9 +1,8 @@
 ---
-title: チームのチームで Microsoft にアップグレードするため、サービスを準備します。
+title: マイクロソフト チームのアップグレードの準備します。 契約時の展開のチェックリスト
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,21 +13,21 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7858737dc69f076ca059aca9de5437cb3cb88e52
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2243e1420e2bd1046789669168834cff2125c4ac
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374597"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349461"
 ---
 ![技術的な準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いて、旅アップグレードの段階")
 
 この資料は、ユーザーの準備段階と並行して、完了したアクティビティ、アップグレード、旅の技術的な準備段階の一部です。 次に進む前に前の段階からこれらの活動を完了していることを確認します。
 
--   [プロジェクトの利害関係者が参加しています。](upgrade-enlist-stakeholders.md)
--   [プロジェクト スコープの定義](https://aka.ms/SkypetoTeams-Scope)
--   [ビジネスとチームの共存と Skype の相互運用性を理解します。](https://aka.ms/SkypeToTeams-Coexist)
--   [アップグレード、旅を選択](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [プロジェクトの利害関係者が参加しています。](upgrade-enlist-stakeholders.md)
+- [プロジェクト スコープの定義](https://aka.ms/SkypetoTeams-Scope)
+- [ビジネスとチームの共存と Skype の相互運用性を理解します。](https://aka.ms/SkypeToTeams-Coexist)
+- [アップグレード、旅を選択](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>チームにアップグレードするため、サービスを準備します。
 
@@ -38,17 +37,17 @@ ms.locfileid: "25374597"
 
 次のチェックリストでは、組織でマイクロソフトのチームを配置するための手順を説明します。
 
--  [Office 365 のチームを準備します。](onboarding-checklist-enable-office-365.md)
+- [Office 365 のチームを準備します。](onboarding-checklist-enable-office-365.md)
 
--  [チームの中核的な機能を構成します。](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
+- [チームの中核的な機能を構成します。](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
--  [ネットワークを構成します。](onboarding-checklist-configure-networking.md)
+- [ネットワークを構成します。](onboarding-checklist-configure-networking.md)
 
--  [チームで音声のワークロードをクラウドを構成します。](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
+- [チームで音声のワークロードをクラウドを構成します。](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
 
--  [チームに直接ルーティングを構成します。](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
+- [チームに直接ルーティングを構成します。](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
 
-タスクとこれらのチェックリストでの作業は、コラボレーションやチームでのボイス機能のそれぞれの配置に適用されるコアの"to do"アイテムです。 活動と自分のチームの旅に特有のタスクを含むようにチェックリストをカスタマイズできます。 
+タスクとこれらのチェックリストでの作業は、コラボレーションやチームでのボイス機能のそれぞれの配置に適用されるコアの"to do"アイテムです。 活動と自分のチームの旅に特有のタスクを含むようにチェックリストをカスタマイズできます。
 
 個々 のアクティビティとタスクのステータスを追跡するために提供されているチェックリストを使用しの重要な手順をスキップしていないことを確認します。 各アクティビティには、必要なアクションとそのアクティビティを完了するのに使用できるその他の情報への参照の詳細な説明が含まれています。
 
@@ -57,7 +56,7 @@ ms.locfileid: "25374597"
 サイトごとに契約時のユーザーが表示されたら、以下のチェックリストの補足ガイドとしては、[サイトの有効化の戦略 (戦略) の音声](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)を使用することを強く推奨します。
 
 >[!NOTE]
->ほとんどの構成設定は、チームと Skype のオンライン ビジネスの間で共通です。 これらの設定を構成するのには、マイクロソフトのチームとビジネス管理センターの Skype を使用します。
+>ほとんどの構成設定は、チームと Skype のオンライン ビジネスの間で共通です。 マイクロソフト チーム & ビジネス管理センターの Skype を使用するには、これらの設定を構成します。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>契約時チェックリストの完了を監督する責任者がされますか。</li></ul></td></tr>

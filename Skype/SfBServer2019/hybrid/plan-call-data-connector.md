@@ -1,5 +1,5 @@
 ---
-title: 呼び出しデータ コネクタを計画します。
+title: 呼び出しデータ コネクタを計画します。ハイブリッド分析の監視、品質のダッシュ ボードを呼び出す
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -9,16 +9,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: ハイブリッド シナリオでは、設置型の実装を監視する遠隔測定ツールのオンライン ビジネスの Skype を使用する場合の概要です。
-ms.openlocfilehash: d704f23f9b8260e8d755c4d1f0f48da927859ba1
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6bcf1e26ca005a30e4f1c940f655a3277e18001e
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530536"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349537"
 ---
 # <a name="plan-call-data-connector"></a>呼び出しデータ コネクタを計画します。
 
 ## <a name="overview"></a>概要
+
 このトピックでは、利点、計画の考慮事項、および Skype のビジネス サーバーを呼び出してデータ コネクタの実装の要件について説明します。 データの電話コネクタの構成の詳細については、[呼び出しデータ コネクタの構成](configure-call-data-connector.md)を参照してください。
 
 > [!NOTE]
@@ -32,7 +33,7 @@ ms.locfileid: "26530536"
 
 - 表示し、ネットワーク上の問題をトラブルシューティングします。
 
-- 表示し、各自の責任範囲のトラブルシューティングを行うヘルプデスクの従業員を支援することは、分析機能の呼び出しのヘルプデスクや管理者の役割を割り当てます。 
+- 表示し、各自の責任範囲のトラブルシューティングを行うヘルプデスクの従業員を支援することは、分析機能の呼び出しのヘルプデスクや管理者の役割を割り当てます。
 
 呼び出しのデータ コネクタに、Skype ビジネス サーバーのプッシュ呼び出しデータ クラウド サービスをビジネス オンラインを呼び出す分析 (CA) および呼び出し品質ダッシュ ボード (救難) ツールでは、Skype を活用することができますように次の図に示すように。
 
@@ -52,24 +53,23 @@ ms.locfileid: "26530536"
 
 ![デバイス クラウドのボイスメール](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
-
 ## <a name="requirements"></a>要件
 
 次の要件では、ビジネス サーバーのトポロジでサポートされている展開の Skype が既にあることを前提としています。  Skype をビジネスのサーバーおよびサポートされているトポロジの展開に関する詳細については、[トポロジの基礎](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics)を参照してください。 データの電話コネクタを構成するには、次の操作を行う必要があります。
 
-- ハイブリッド接続を有効にします。 ビジネス サーバーの展開の Skype があるし、データの電話コネクタを有効にするは、ハイブリッド接続の設置とオンライン環境の設定があることを確認する必要があります。 分割ドメインの構成とも呼びます。 
+- ハイブリッド接続を有効にします。 ビジネス サーバーの展開の Skype があるし、データの電話コネクタを有効にするは、ハイブリッド接続の設置とオンライン環境の設定があることを確認する必要があります。 分割ドメインの構成とも呼びます。
 
    詳細については、 [Skype ビジネス サーバーと Office 365 の間のハイブリッドの接続を計画](plan-hybrid-connectivity.md)し、 [Skype ビジネス サーバーと Office 365 の間のハイブリッド接続の構成](configure-hybrid-connectivity.md)を参照してください。
 
--  Office 365 テナントに認証し、次の役割が有効になっていることを確認します。
+- Office 365 テナントに認証し、次の役割が有効になっていることを確認します。
 
-   - Skype ビジネス用のサーバーの管理者 
-   - Office 365 のグローバル管理者 
+  - Skype ビジネス用のサーバーの管理者
+  - Office 365 のグローバル管理者
 
 - されていない場合は、品質のダッシュ ボードを呼び出すオン[を有効にしてマイクロソフトのチームとビジネス オンラインの Skype の品質ダッシュ ボードの呼び出しを使用する](/microsoftteams/turning-on-and-using-call-quality-dashboard)で説明したようです。
- 
-- ローカルの LCSCdr と QoEMetrics データベースの監視では、フロント エンド プールを有効にします。 これを呼び出すデータ コネクタは、測定値のデータを使用を必要はありません。 
- 
+
+- ローカルの LCSCdr と QoEMetrics データベースの監視では、フロント エンド プールを有効にします。 これを呼び出すデータ コネクタは、測定値のデータを使用を必要はありません。
+
 > [!IMPORTANT]
 > フロント エンド プールの監視が有効になっていない場合は、呼び出しデータ コネクタは機能しません。
 

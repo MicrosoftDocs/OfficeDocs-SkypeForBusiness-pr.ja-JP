@@ -1,9 +1,8 @@
 ---
-title: 体験レビュー ガイド - マイクロソフトのチームの質
+title: ユーザー エクスペリエンスの品質。マイクロソフトのチーム。QoS |通話の音質
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bf538dc4e68d3068d6ae0875ec916cdd1f8fd52
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 59acafa7555b793555b504b1555b0d6969a12b4b
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017986"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349320"
 ---
 ![オペレーショナル ・ エクセレンスの段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-op-excellence.png "オペレーショナル ・ エクセレンスの段階に重点を置いて、旅アップグレードの段階")
 
@@ -33,17 +32,17 @@ ms.locfileid: "25017986"
 
 によって継続的に評価し、このガイドで説明されている領域を得られるように、ユーザー エクスペリエンスに悪影響を及ぼす可能性があるを減らすことができます。 展開で発生したユーザー エクスペリエンスの問題の多くは、次のカテゴリに分類できます。
 
--   不完全なファイアウォールまたはプロキシの構成
+- 不完全なファイアウォールまたはプロキシの構成
 
--   Wifi カバレッジが低い
+- Wifi カバレッジが低い
 
--   十分な帯域幅
+- 十分な帯域幅
 
--   VPN
+- VPN
 
--   最適化されていない、または組み込みのオーディオ デバイスの使用
+- 最適化されていない、または組み込みのオーディオ デバイスの使用
 
--   問題のあるサブネットまたはネットワーク デバイス
+- 問題のあるサブネットまたはネットワーク デバイス
 
 品質のエクスペリエンス評価ガイドで提供されるガイダンスを報告し、説明したとおりで、オーディオを採用し、影響を最大化に重点を置いた各領域を調査する主要なツールとして呼び出す品質ダッシュ ボード (救難) オンラインを使用して重点的に説明します。 すべてが最適化され、ネットワーク、オーディオ ・ エクスペリエンスを向上させるためには、ビデオ、およびデスクトップの共有の機能強化にも直接変換します。
 

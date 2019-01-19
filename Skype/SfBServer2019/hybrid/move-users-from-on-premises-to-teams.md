@@ -1,5 +1,5 @@
 ---
-title: 移動ユーザーがチームを設置
+title: Skype からビジネス サーバー 2019 のチームにユーザーを移動します。
 ms.author: crowe
 author: CarolynRowe
 manager: serdars--
@@ -10,19 +10,19 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: '概要: は、ユーザー設定を移行し、チームにユーザーを移動する方法を説明します。'
-ms.openlocfilehash: 6bee0562b38ce3119306e23b11ea50ebdb8ac3e9
-ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
+ms.openlocfilehash: 75af7109de60c3d978914585105e4d2fbaad9302
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "27244033"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29348914"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>移動ユーザーがチームを設置
 
 会社のホームに移動した設置型のオンラインと、ユーザー モードでは TeamsUpgradePolicy に割り当てられます、ユーザーが Skype のユーザーに移動した場合の社内チームだけに、TeamsOnly を = します。  ユーザー後から移動設置型 TeamsOnly モードにします。
 
 - すべての着信を呼び出し、他のユーザー (ビジネスやチームのために、Skype から送信) かどうかのチャット ユーザーのチームのクライアントで着陸します。
-- ユーザーは (オンラインまたは設置型) かどうかは、ビジネスの Skype を使用している他のユーザーと相互運用することになります。 
+- ユーザーは (オンラインまたは設置型) かどうかは、ビジネスの Skype を使用している他のユーザーと相互運用することになります。
 - ユーザーはフェデレーション組織のユーザーと通信することになります。
 - そのユーザーが予定されている新規の会議は、チームの会議です。
 - ユーザーは、ビジネス会議のため、Skype にも参加できます。
@@ -36,8 +36,8 @@ ms.locfileid: "27244033"
 社内のチームからユーザーを移動する方法は 2 つです。
 
 - ビジネス サーバー 2015 CU8 の Skype より前のバージョンを使用している場合、移動には、2 つの手順が必要な場合は、1 つのステップとして実行するスクリプト化できる) が必要です。
-    - [ビジネス上のサーバー (設置型) ビジネス オンラインの Skype に Skype からユーザーを移動](move-users-from-on-premises-to-skype-for-business-online.md)します。
-    - 取引をオンラインでは、TeamsUpgradePolicy モードでのユーザーを割り当てるために、Skype でユーザーのホームとは、TeamsOnly を = します。 TeamsOnly モードを許可するには、ビジネス オンラインの PowerShell ウィンドウで、Skype から次のコマンドレットを実行します。`Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams`
+  - [ビジネス上のサーバー (設置型) ビジネス オンラインの Skype に Skype からユーザーを移動](move-users-from-on-premises-to-skype-for-business-online.md)します。
+  - 取引をオンラインでは、TeamsUpgradePolicy モードでのユーザーを割り当てるために、Skype でユーザーのホームとは、TeamsOnly を = します。 TeamsOnly モードを許可するには、ビジネス オンラインの PowerShell ウィンドウで、Skype から次のコマンドレットを実行します。`Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams`
 - Skype ビジネス サーバー 2015 CU8 またはそれ以降の管理ツールを使っている場合、上記のメソッドを使用することができますか、次のように 1 つの手順では、この移動を行うことができます。 さらに、する、必要に応じてチームのみに移動する前にクライアントをビジネスの Skype 内で通知を提供するとともに必要に応じてビジネス クライアント用の Skype でサイレント モードでダウンロードしたチームのクライアントがあります。
 
 ## <a name="move-a-user-directly-from-skype-for-business-on-premises-to-teams-only"></a>設置型のビジネス用の Skype から直接チームのみにユーザーを移動します。
@@ -68,13 +68,13 @@ Csuser からの移動を使用するモードのチームだけにユーザー�
 
 ### <a name="move-to-teams-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用するチームに移動します。
 
-1.  ビジネス サーバー管理のため、Skype を開くパネルのアプリケーション。
-2.  左側のナビゲーションでは、**ユーザー**を選択します。
-3.  チームに移動したいユーザーを検索するには、**検索**を使用します。
-4.  、ユーザーを選択して、**アクション**ドロップダウン リストの上からクリックして**チームを選択したユーザーを移動**します。
-5.  ウィザードで、[**次へ**] クリックします。
-6.  メッセージが表示されたらにサインイン、Office 365 で終了するアカウントを使用しています。 onmicrosoft.com 十分なアクセス許可とします。
-7.  ユーザーを移動するのには**次へ**、し、[**次へ**1 つのより多くの時間をクリックします。
+1. ビジネス サーバー管理のため、Skype を開くパネルのアプリケーション。
+2. 左側のナビゲーションでは、**ユーザー**を選択します。
+3. チームに移動したいユーザーを検索するには、**検索**を使用します。
+4. 、ユーザーを選択して、**アクション**ドロップダウン リストの上からクリックして**チームを選択したユーザーを移動**します。
+5. ウィザードで、[**次へ**] クリックします。
+6. メッセージが表示されたらにサインイン、Office 365 で終了するアカウントを使用しています。 onmicrosoft.com 十分なアクセス許可とします。
+7. ユーザーを移動するのには**次へ**、し、[**次へ**1 つのより多くの時間をクリックします。
 8. ウィザードではなく、メインのコントロール パネルの [アプリケーションの上部に成功または失敗に関連するステータス メッセージが提供されることに注意してください。
 
 ## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>チームへの移行は今後のビジネス、オンプレミスのユーザーは、Skype に通知します。
@@ -86,7 +86,7 @@ CU8 を持つサーバー 2015 のビジネス用の Skype と Skype のビジ�
 NotifySfBUsers と TeamsUpgradePolicy の新しいインスタンスを作成することではすぐにアップグレードするチームに、オンプレミスのユーザーに通知、true です。 ポリシーをユーザーに直接割り当てるか、サイト、プール、またはグローバル レベルでポリシーを設定することにより、通知を使用するユーザーにそのポリシーを割り当てます。 次のコマンドレットでは、作成し、ユーザー レベルのポリシーを付与します。
 
 ```
-New-CsTeamsUpgradePolicy -Identity EnableNotifications -NotifySfbUser $true 
+New-CsTeamsUpgradePolicy -Identity EnableNotifications -NotifySfbUser $true
 Grant-CsTeamsUpgradePolicy -Identity username@contoso.com -PolicyName EnableNotifications
 ```
 
@@ -95,7 +95,6 @@ Grant-CsTeamsUpgradePolicy -Identity username@contoso.com -PolicyName EnableNoti
 `New-CsTeamsUpgradeConfiguration -Identity “site:redmond1”`
 
 既定では、DownloadTeams の値は、True です。ただしは*のみ*場合は優先順位を付ける NotifySfbUser 特定のユーザーを指定します。
-
 
 ## <a name="see-also"></a>関連項目
 

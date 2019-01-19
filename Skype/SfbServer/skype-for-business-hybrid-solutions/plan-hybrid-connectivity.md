@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server と Skype for Business Online 間のハイブリッド接続を計画する
+title: ハイブリッド接続を計画します。Skype 2015 とオンライン ビジネスのサーバーの
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 1/23/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -17,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: '概要: このトピックでは、Skype for Business Server と Skype for Business Online 間でハイブリッド接続を計画する方法を説明します。 多くの Skype for Business ハイブリッド ソリューションを展開する上で、ハイブリッド接続の設定は最初に行う手順となります。'
-ms.openlocfilehash: 8fd32e8b70f2fc63919b9ec8abca2d0b70c90107
-ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
+ms.openlocfilehash: fe862c5d25a9fca17a42fb1026b608b8656d419d
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015286"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349101"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Skype for Business Server と Skype for Business Online 間のハイブリッド接続を計画する
 
@@ -65,6 +64,7 @@ ms.locfileid: "28015286"
 (Lync Server 2013、ハイブリッドの Lync Server 2010 展開を構成する方法の詳細については、 [Lync Server 2013 ハイブリッド](https://go.microsoft.com/fwlink/p/?LinkId=617360)を参照してください)。
 
 ## <a name="overview"></a>概要
+
 <a name="BKMK_Overview"> </a>
 
 ハイブリッド ソリューションによって、スケジュールとビジネス ニーズを基に、ユーザーをクラウドに移動できます。 このトピックでは、Skype for Business Server のオンプレミス展開と Skype for Business Online との間のハイブリッド接続を中心に説明します。 この接続によって、ユーザーの所属をオンプレミスやオンラインに設定できます。
@@ -122,6 +122,7 @@ Active Directory の設定の詳細については、この後のセクション
 統合するためのハイブリッド展開を構成することも、オンプレミス Exchange、SharePoint、または、Microsoft Office 365 アプリケーションと Exchange Online と SharePoint Online を含みます。 Cloud Connector エディションを使用して、フル機能の Skype for Business Server 展開を必要としないハイブリッド音声ソリューションを設定することもできます。 ハイブリッド ソリューションのビジネスおよび計画のためのすべての Skype の詳細については、クラウドへの移行では、[ハイブリッド ソリューションのビジネス用の Skype](skype-for-business-hybrid-solutions.md)を参照してください。
 
 ## <a name="infrastructure-requirements"></a>インフラストラクチャの要件
+
 <a name="BKMK_Infrastructure"> </a>
 
 Skype for Business Server と Skype for Business Online との間でハイブリッド接続を実装および展開するには、次の項目を環境に構成する必要があります。
@@ -147,6 +148,7 @@ Skype for Business Server と Skype for Business Online との間でハイブリ
 - 有効な、共有されたセッション開始プロトコル (SIP) アドレス空間。 SIP アドレスは、電話番号や電子メール アドレスに似ている、ネットワーク上の各ユーザーの一意の識別子です。 オンライン ビジネスのユーザーを設置から Skype に移動しようとすると、前に、社内設置型展開と共有のセッション開始プロトコル (SIP) アドレス空間を共有するのには、Office 365 のテナントを構成する必要があります。 詳細については、「[Configure federation with Skype for Business Online](deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md)」を参照してください。
 
 ## <a name="multi-forest-support"></a>マルチ フォレストのサポート
+
 <a name="BKMK_MultiForest"> </a>
 
 ユーザーは、次の要件が満たされれば、別のフォレストで Skype for Business の機能にアクセスできます。
@@ -158,6 +160,7 @@ Skype for Business Server と Skype for Business Online との間でハイブリ
 ハイブリッドの複数のフォレスト シナリオの詳細については、[ハイブリッド ビジネスの Skype の複数のフォレスト環境の構成](deploy-hybrid-connectivity/configure-a-multi-forest-environment-for-hybrid.md)を参照してください。
 
 ## <a name="exchange-co-existence"></a>Exchange との共存
+
 <a name="BKMK_Exchange"> </a>
 
 Exchange との共存をサポートする場合は、以下の点に留意してください。
@@ -173,16 +176,19 @@ Exchange との共存をサポートする場合は、以下の点に留意し�
 オンプレミスとオンラインのさまざまな組み合わせに関するサポートの条件および制限を含む、Exchange Server との共存に関する詳細については、[Plan to integrate Skype for Business and Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md) の「[機能のサポート](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)」を参照してください。
 
 ## <a name="administrator-credentials"></a>管理者の資格情報
+
 <a name="BKMK_Credentials"> </a>
 
 管理者の資格情報を提供するメッセージが表示されたらを使用してユーザー名とパスワード管理者アカウントに、Office 365 テナントのです。 フェデレーション、ディレクトリ同期、シングル サインオン、および移動ユーザーが Skype のオンライン ビジネスの Azure Active Directory を構成するときにも、これらの資格情報を使用します。
 
 ## <a name="skype-for-business-online-powershell"></a>Skype for Business Online PowerShell
+
 <a name="BKMK_PowerShell"> </a>
 
 管理者には、オンライン ビジネス、オンライン ビジネスのユーザー アカウントに対して、Skype の Skype を管理するために Windows PowerShell を使用する機能があるようになりました。 これを行うには、まずダウンロードして、Microsoft ダウンロード センターからオンライン コネクタ モジュールをビジネス用の Skype をインストールします。 ダウンロードの詳細については、インストール、およびコネクタ モジュールのオンライン ビジネス、およびビジネスのオンラインでの Skype を管理するために Windows PowerShell を使用しての詳細については、Skype を使用するを参照してください[Skype のビジネスを管理するために Windows PowerShell を使用します。オンライン](https://technet.microsoft.com/library/dn362831.aspx)です。
 
 ## <a name="skype-for-business-client-support"></a>Skype for Business のクライアント サポート
+
 <a name="BKMK_ClientSupport"> </a>
 
 クライアントでサポートされる機能には違いがあります。また、オンプレミス環境とオンライン環境で使用できる機能にも違いがあります。 次のクライアントは、ハイブリッド展開で、Skype で、ビジネスをオンラインでサポートされます。
@@ -214,6 +220,7 @@ Exchange との共存をサポートする場合は、以下の点に留意し�
 - [Skype for Business のモバイル クライアント機能の比較](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)
 
 ## <a name="topology-requirements"></a>トポロジ要件
+
 <a name="BKMK_Topology"> </a>
 
 Skype でオンライン ビジネスのハイブリッド展開を構成するには、次のサポートされているトポロジのいずれかである必要があります。
@@ -255,6 +262,7 @@ Skype でオンライン ビジネスのハイブリッド展開を構成する�
   - サイトの SIP フェデレーションに関連づけられたエッジ プール
 
 ## <a name="federation-allowedblocked-lists-requirements"></a>フェデレーション許可/禁止の一覧の要件
+
 <a name="BKMK_Federation"> </a>
 
 許可されたドメイン] ボックスの一覧には、構成されているパートナー エッジ完全修飾ドメイン名 (FQDN) を持つドメインが含まれています。 これらは、許可されたパートナー サーバー ordirect のフェデレーション パートナーと呼ばれます。 開いているフェデレーションと終了と呼ばれるパートナー探索 andallowed パートナー ドメイン リストでは、それぞれ、設置型展開でフェデレーションの違いを理解する必要があります。
@@ -270,6 +278,7 @@ Skype でオンライン ビジネスのハイブリッド展開を構成する�
 - オンラインのテナントは、コントロール パネルのオンライン ビジネスを Skype を使用して構成されているため、外部との連絡には、フェデレーションを有効にする必要があります。
 
 ## <a name="dns-settings"></a>DNS の設定
+
 <a name="BKMK_DNS"> </a>
 
 ハイブリッド展開用の DNS レコードを作成するには、外部の DNS レコードをビジネスのすべての Skype はオンプレミス インフラストラクチャを指し示します。 必要な DNS レコードの詳細については、 [Skype のビジネス サーバー 2015 の DNS の要件](../plan-your-deployment/network-requirements/dns.md)を参照してください。
@@ -286,6 +295,7 @@ Skype でオンライン ビジネスのハイブリッド展開を構成する�
 [!NOTE] _sipfederationtls._tcp。\<sipdomain.com\>からエッジ サーバーの SRV レコードの解決は、ハイブリッド構成に必要な。 エッジ サーバーがこれらのレコードを解決できない場合、オンプレミスのユーザーは、プレゼンスを参照するか、オンラインのユーザーと通信することはできません。
 
 ## <a name="firewall-considerations"></a>ファイアウォールの考慮事項
+
 <a name="BKMK_Firewall"> </a>
 
 ネットワーク上のコンピューターは、標準のインターネット DNS 参照を実行できる必要があります。これらのコンピューターが標準のインターネット サイトに接続できれば、ネットワークはこの要件を満たしています。
@@ -295,12 +305,12 @@ Microsoft Online Services のデータ ・ センターの場所、によって�
 詳細については、「[Office 365 URL および IP アドレス範囲](https://go.microsoft.com/fwlink/p/?LinkId=252942)」を参照してください。
 
 ## <a name="port-and-protocol-requirements"></a>ポートとプロトコルの要件
+
 <a name="BKMK_Ports"> </a>
 
 内部通信に必要なポートのほかに、次のポートも構成して、ハイブリッド接続を有効にする必要があります。
 
-
-|**プロトコル**|**TCP または UDP**|**発信元 IP アドレス**|**送信先 IP アドレス**|**発信元ポート**|**送信先ポート**|**メモ**|
+|プロトコル|TCP または UDP|発信元 IP アドレス|送信先 IP アドレス|発信元ポート|送信先ポート|**メモ**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |SIP (MTLS)  <br/> |TCP  <br/> |アクセス エッジ  <br/> |Office 365  <br/> |任意  <br/> |5061  <br/> |信号  <br/> |
 |SIP (MTLS)  <br/> |TCP  <br/> |Office 365  <br/> |アクセス エッジ  <br/> |任意  <br/> |5061  <br/> |信号  <br/> |
@@ -312,6 +322,7 @@ Microsoft Online Services のデータ ・ センターの場所、によって�
 ポートとファイアウォールがエッジ サーバーの計画に関する詳細については、 [Skype のビジネス サーバー 2015 でエッジ サーバー環境の要件](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)を参照してください。 「[Port and protocol requirements for servers](../plan-your-deployment/network-requirements/ports-and-protocols.md)」および「[プロトコル負荷の図](https://go.microsoft.com/fwlink/p/?LinkId=550989)」も参照してください。
 
 ## <a name="user-accounts-and-data"></a>ユーザー アカウントとデータ
+
 <a name="BKMK_UserAccounts"> </a>
 
 ハイブリッド展開では、オンライン ホームを使用するすべてのユーザー必要があります最初に作成、設置型展開で Active Directory ドメイン サービスのユーザー アカウントが作成されるようにします。 ビジネス、オンライン ユーザーの連絡先リストを移動するために Skype のユーザーを移動できます。
@@ -335,8 +346,8 @@ Microsoft Online Services のデータ ・ センターの場所、によって�
 
 - **会議データ、会議コンテンツ、およびスケジュールされたミーティング**このコンテンツは、ユーザー アカウントには移行されません。 自分のアカウントは、ビジネス オンラインの Skype に移行した後、ユーザーは会議を再スケジュールする必要があります。 会議の移行サービスは自動的にビジネス オンラインまたはチームに対して、ビジネス サーバーは、Skype から Skype へ移行する場合、[会議の移行サービスを使用して](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)参照してください。
 
-
 ## <a name="user-policies-and-features"></a>ユーザー ポリシーと機能
+
 <a name="BKMK_UserPolicies"> </a>
 
 - ハイブリッド環境では、ユーザーに対してインスタント メッセージングおよび会議のオンプレミスまたはオンラインでの使用を許可できますが、両方を同時に許可することはできません。
@@ -344,5 +355,3 @@ Microsoft Online Services のデータ ・ センターの場所、によって�
 - **クライアントのサポート**一部のユーザーは、オンライン ビジネスの Skype を移動したとき、クライアントの新しいバージョンにすることがあります。 Office 通信 Server 2007 R2、ユーザーのオンライン ビジネスの Skype に移行する前に、ビジネスのサーバーまたは Lync Server 2013 プール、Skype を移動しなければなりません。
 
 - **設置ポリシーおよび構成 (ユーザーではない)** オンラインと設置型のポリシーは、個別の構成を必要とします。 両方に適用されるグローバル ポリシーを設定することはできません。
-
-

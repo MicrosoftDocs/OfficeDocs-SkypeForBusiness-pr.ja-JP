@@ -1,9 +1,8 @@
 ---
-title: ビジネスのハイブリッド展開するため、Skype からチームのチームで Microsoft にアップグレードします。
+title: マイクロソフトのチームへのハイブリッド展開のビジネス用の Skype のアップグレードします。PSTN
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,24 +13,24 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c77f9de2d3e916902fb3c2ae7e08d8c2c5527761
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: c78c5b519997c125dc1902021acabe664ea03047
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013290"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349576"
 ---
 ![展開に重点を置いて、アップグレードの旅の段階や実装段階](media/upgrade-banner-deployment.png "展開に重点を置いて、アップグレードの旅の段階や実装段階")
 
 この資料は、アップグレード、旅の導入と展開の段階の一部です。 進む前に、次のアクティビティを完了したしたことを確認します。
 
--   [プロジェクトの利害関係者が参加しています。](upgrade-enlist-stakeholders.md)
--   [プロジェクト スコープの定義](https://aka.ms/SkypetoTeams-Scope)
--   [ビジネスとチームの共存と Skype の相互運用性を理解します。](https://aka.ms/SkypeToTeams-Coexist)
--   [アップグレード、旅を選択](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
--   [環境を準備](https://aka.ms/SkypeToTeams-TechnicalReadiness)
--   [組織の準備](https://aka.ms/SkypeToTeams-UserReadiness)
--   [パイロットを実施しました。](https://aka.ms/SkypeToTeams-Pilot)
+- [プロジェクトの利害関係者が参加しています。](upgrade-enlist-stakeholders.md)
+- [プロジェクト スコープの定義](https://aka.ms/SkypetoTeams-Scope)
+- [ビジネスとチームの共存と Skype の相互運用性を理解します。](https://aka.ms/SkypeToTeams-Coexist)
+- [アップグレード、旅を選択](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [環境を準備](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [組織の準備](https://aka.ms/SkypeToTeams-UserReadiness)
+- [パイロットを実施しました。](https://aka.ms/SkypeToTeams-Pilot)
 
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>ビジネスのハイブリッド展開するため、Skype からチームへのアップグレードします。
 

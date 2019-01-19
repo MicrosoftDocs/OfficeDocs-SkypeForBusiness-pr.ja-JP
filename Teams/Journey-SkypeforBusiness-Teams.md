@@ -1,9 +1,8 @@
 ---
-title: Skype ビジネスでマイクロソフトのチームのアップグレード
+title: マイクロソフトのチームにビジネス用の Skype をアップグレードします。
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,14 +13,14 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ac410d5248149641cb29461bb6c0f73e6cbfb8d
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: bfe9fb437be2df1c069c79d3c5281dbb121b4204
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201350"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349078"
 ---
-# <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Skype ビジネスでマイクロソフトのチームのアップグレード
+# <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Skype for Business から Microsoft Teams へのアップグレード
 
 マイクロソフトのインテリジェント通信のビジョンをサポートするには、マイクロソフトのチームがチームワークの中心チャット、会議、通話、共同作業、アプリケーション統合、およびファイル ・ ストレージを統合することです。 ビジネス顧客の既存の Skype、としてご案内この包括的な 1 つのクライアント エクスペリエンスのコミュニケーションとコラボレーションの機能が発生する、マイクロソフトのチームへのアップグレードをします。
 
@@ -30,11 +29,11 @@ ms.locfileid: "27201350"
 ビジネスの Skype に中核となる概念、フレームワーク、およびアップグレード ・ パスを含む、チームのアップグレード旅の概要について[の概要](https://aka.ms/UpgradeOverview)を表示します。
 
 > [!Tip]
-> マイクロソフトのチームには、ビジネスの Skype からのアップグレードの詳細については、次のセッションを確認してください。 
+> Skype for Business から Microsoft Teams へのアップグレードについては、次のセッションをご覧ください。
 > - [アップグレードの概要](https://aka.ms/teams-upgrade-intro)
-> - [アップグレードを計画します。](https://aka.ms/teams-upgrade-plan)
-> - [共存と相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)
-> - [管理者の経験](https://aka.ms/teams-upgrade-admin)
+> - [アップグレードの計画](https://aka.ms/teams-upgrade-plan)
+> - [共存および相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [管理者のエクスペリエンス](https://aka.ms/teams-upgrade-admin)
 
 ## <a name="upgrade-journey-framework"></a>旅のフレームワークをアップグレードします。
 
@@ -51,7 +50,6 @@ ms.locfileid: "27201350"
 
 以下のオプションのいずれかを選択または表示するのに最適なパスを決定します。 詳細については、オンラインになる時間の経過と共に、組織のチームには、その旅を続行するには、このチェックします。 アップグレード パスとどのような追加のガイダンスが役に立つ可能性がありますの理解を深めるため、時間を取りますので<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-5Km9f5gDtNpbRf-TAnN_NUMzhYOUlNR1QzS1hSS0ZXRzAxVEVVVjg1Mi4u" target="_blank">、フィードバックを共有</a>します。
 
-
 <div class="mx-tableFixed">
 <table>
 <tbody>
@@ -60,7 +58,6 @@ ms.locfileid: "27201350"
 <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-pro"><img src="media/upgrade-to-teams-upgrade-pro-icon.png" alt="Designed for enterprise customers, or those with more tailored deployments such as hybrid or voice, the Upgrade Pro guide details technical and user readiness activities to better accommodate the unique attributes of an organization."></a></td></tr>
 </tbody></table>
 </div>
-
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]

@@ -1,9 +1,8 @@
 ---
-title: ビジネス設置型展開で、Skype からチームのチームで Microsoft にアップグレードします。
+title: 設置型のビジネスには、マイクロソフトのチームの Skype のアップグレードします。展開 |Lync
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,25 +13,24 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd0d0f1536f509f2cdc9e379e398168f86d9b514
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5628b0bb382ef12580bb7bab12dca13e288fead7
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016782"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349336"
 ---
 ![展開に重点を置いて、アップグレードの旅の段階や実装段階](media/upgrade-banner-deployment.png "展開に重点を置いて、アップグレードの旅の段階や実装段階")
 
 この資料は、アップグレード、旅の導入と展開の段階の一部です。 進む前に、次のアクティビティを完了したしたことを確認します。
 
--   [プロジェクトの利害関係者が参加しています。](upgrade-enlist-stakeholders.md)
--   [プロジェクト スコープの定義](https://aka.ms/SkypetoTeams-Scope)
--   [ビジネスとチームの共存と Skype の相互運用性を理解します。](https://aka.ms/SkypeToTeams-Coexist)
--   [アップグレード、旅を選択](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
--   [環境を準備](https://aka.ms/SkypeToTeams-TechnicalReadiness)
--   [組織の準備](https://aka.ms/SkypeToTeams-UserReadiness)
--   [パイロットを実施しました。](https://aka.ms/SkypeToTeams-Pilot)
-
+- [プロジェクトの利害関係者が参加しています。](upgrade-enlist-stakeholders.md)
+- [プロジェクト スコープの定義](https://aka.ms/SkypetoTeams-Scope)
+- [ビジネスとチームの共存と Skype の相互運用性を理解します。](https://aka.ms/SkypeToTeams-Coexist)
+- [アップグレード、旅を選択](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [環境を準備](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [組織の準備](https://aka.ms/SkypeToTeams-UserReadiness)
+- [パイロットを実施しました。](https://aka.ms/SkypeToTeams-Pilot)
 
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>ビジネス設置型展開で、Skype からチームへのアップグレードします。
 
@@ -49,7 +47,7 @@ Skype のビジネスを展開している Microsoft Lync の設置型や組織�
 
 ## <a name="step-2-move-users-to-skype-for-business-online"></a>手順 2: Skype をオンライン ビジネスのユーザーを移動します。
 
-ハイブリッドの設定が完了したら後、は、オンライン ビジネスの Skype にユーザーを移動します。 
+ハイブリッドの設定が完了したら後、は、オンライン ビジネスの Skype にユーザーを移動します。
 
 詳細については、[ビジネス オンラインの Skype を施設内でのユーザーの移動](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)を参照してください。
 

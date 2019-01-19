@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server の新機能
+title: ビジネス サーバー 2019 の Skype の新機能 |機能
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,14 +9,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: これらの機能は、ビジネス サーバー 2019 の Skype にします。'
-ms.openlocfilehash: b0a7040b0d63866bffd2e86a68a7447463485b1e
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: 044901b134c71c1cae004f9930bedeae0057578d
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561575"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29348885"
 ---
-# <a name="whats-in-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype では、どのような 
+# <a name="whats-in-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype では、どのような
 
 **の概要:** ビジネス サーバー 2019 の Skype の新機能について学習するには、このトピックを参照してください。  
 
@@ -26,13 +26,13 @@ ms.locfileid: "26561575"
 - 呼び出しデータ コネクタ
 - サイド バイ サイド移行
 
-## <a name="unified-messaging-services-cloud-voicemail"></a>ユニファイド メッセージング サービス: クラウドのボイスメール 
+## <a name="unified-messaging-services-cloud-voicemail"></a>ユニファイド メッセージング サービス: クラウドのボイスメール
 
 Exchange UM のまま Skype で利用可能なビジネス サーバー 2019 の Exchange 2013 または Exchange 2016 2019 のビジネス用の Skype を統合する場合です。 2019 の Exchange でのサポートの変更により、Exchange UM の統合は、ボイスメールのクラウドとクラウドの自動応答の機能のための emphasised ことです。  
 
-クラウドのボイスメールは、ビジネス 2019年ユーザー & #x 2014; かどうかに置かれている設置型またはオンライン & #x 2014 はマイクロソフトのクラウドで同じボイスメール サービスへのアクセスを有効にして、すべての Skype を使用できます。 ボイスメールのクラウドでは、オンプレミスとオンラインのユーザーの両方の次の利点があります。
+クラウドのボイスメールは、設置型または online& #x 2014 はマイクロソフトのクラウドで同じボイス メール サービスにアクセスするに置かれているかどうかのビジネス 2019 users& #x 2014 は、すべての Skype を使用できます。 ボイスメールのクラウドでは、オンプレミスとオンラインのユーザーの両方の次の利点があります。
 
-- オンライン ビジネス、チーム、または Outlook クライアントで、Skype を使用して Exchange メールボックスにボイス メールへのアクセス 
+- オンライン ビジネス、チーム、または Outlook クライアントで、Skype を使用して Exchange メールボックスにボイス メールへのアクセス
 - ボイス メール オプションを管理するために、web ベースのポータルを使用する機能
 
 詳細については、[クラウドのボイスメールの計画サービス](hybrid/plan-cloud-voicemail.md)と[Skype ビジネス サーバーと Exchange Server の移行のための計画](hybrid/plan-um-migration.md)を参照してください。
@@ -45,7 +45,7 @@ Exchange UM のまま Skype で利用可能なビジネス サーバー 2019 の
 
 - マイクロソフトのチーム、ビジネス オンラインでは、Skype、Skype ビジネス サーバーの間でユーザーの操作性を監視します。
 - 表示し、ネットワーク上の問題のトラブルシューティング
-- 表示し、各自の責任範囲のトラブルシューティングを行うヘルプデスクの従業員を支援することは、分析機能の呼び出しのヘルプデスクや管理者の役割を割り当てます。 
+- 表示し、各自の責任範囲のトラブルシューティングを行うヘルプデスクの従業員を支援することは、分析機能の呼び出しのヘルプデスクや管理者の役割を割り当てます。
 
 詳細については、[呼び出しデータ コネクタの計画](hybrid/plan-call-data-connector.md)を参照してください。
 

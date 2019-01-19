@@ -1,9 +1,8 @@
 ---
-title: アップグレードの基本的なチェックリスト - マイクロソフトのチーム
+title: アップグレードのチェックリスト |チームのアップグレードに Skype ビジネス |基本的な手順
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,15 +13,16 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ba3471b2a51a4629d316a4507a08cd02e30022a
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b77f53398eda22ec2f3b7313d8c2b641228c5b5e
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015646"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349414"
 ---
 <a name="about-upgrade-basic"></a>
-# <a name="upgrade-basic"></a>基本的なアップグレードします。 
+
+# <a name="upgrade-basic"></a>基本的なアップグレードします。
 
 小規模な組織やビジネス オンラインの Skype を使用する (チャット) の IM と会議だけのために設計された、基本アップグレードのチェックリストを含むコア、高速化されたアクション ・ プランを選択し、活動を推奨を実装するためのリソースに関連付けられている、チームにビジネス用の Skype から正常に移動します。
 
@@ -30,10 +30,10 @@ ms.locfileid: "25015646"
 
 何は、アップグレード後 Skype のビジネスにどうなりますか。 ユーザーの後は、チーム (**チームのみ**モード) にアップグレードされます。
 
--   ビジネス クライアント用の Skype を無効にすると、およびチームに移動するすべてのチャットと通話します。 自分のデスクトップ上のクライアントをアンインストールしないことに注意してください。
--   チームのように設計されており、アップグレード作業の前にスケジュールされていたビジネス ・ ミーティングのすべての Skype ですが、すべての新しい会議がスケジュールされます。
--   ユーザーがビジネスのための Skype にサインインしようとすると場合は、チームにアップグレードされている、クライアントからの通知を取得します。
--   ユーザーは、ビジネスのクライアント、モバイル デバイス上の Skype を手動でアンインストールする必要があります。
+- ビジネス クライアント用の Skype を無効にすると、およびチームに移動するすべてのチャットと通話します。 自分のデスクトップ上のクライアントをアンインストールしないことに注意してください。
+- チームのように設計されており、アップグレード作業の前にスケジュールされていたビジネス ・ ミーティングのすべての Skype ですが、すべての新しい会議がスケジュールされます。
+- ユーザーがビジネスのための Skype にサインインしようとすると場合は、チームにアップグレードされている、クライアントからの通知を取得します。
+- ユーザーは、ビジネスのクライアント、モバイル デバイス上の Skype を手動でアンインストールする必要があります。
 
 アップグレードに関するその他の質問については、[よく寄せられる質問](https://aka.ms/SkypeToTeams-FAQ)を参照してください。
 
@@ -51,8 +51,8 @@ ms.locfileid: "25015646"
 
 **リソース:**
 
--   [電子メールのサンプル: 利害関係者のコミュニケーション](upgrade-emails-surveys.md#step-1-email)
- 
+- [電子メールのサンプル: 利害関係者のコミュニケーション](upgrade-emails-surveys.md#step-1-email)
+
 [ページのトップへ](#about-upgrade-basic)
 
 <!--ENDOFSECTION-->
@@ -70,10 +70,10 @@ ms.locfileid: "25015646"
 
 **リソース:**
 
--   [Teams の概要](Teams-overview.md)
--   [チームとのチャンネルについてください。](teams-channels-overview.md)
--   [技術的な計画を完了します。](quick-start-enable-teams.md#step-3-complete-technical-planning)
--   [Skype ルームのシステムを管理します。](https://aka.ms/srsdocs)
+- [Teams の概要](Teams-overview.md)
+- [チームとのチャンネルについてください。](teams-channels-overview.md)
+- [技術的な計画を完了します。](quick-start-enable-teams.md#step-3-complete-technical-planning)
+- [Skype ルームのシステムを管理します。](https://aka.ms/srsdocs)
 
 [ページのトップへ](#about-upgrade-basic)
 
@@ -89,7 +89,7 @@ ms.locfileid: "25015646"
 
 **リソース:**
 
--   [利用状況データを Office 365 での活動レポートを参照してください。](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+- [利用状況データを Office 365 での活動レポートを参照してください。](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 [ページのトップへ](#about-upgrade-basic)
 
@@ -108,8 +108,8 @@ ms.locfileid: "25015646"
 
 **リソース:**
 
--   [組織内のチームの機能を管理します。](enable-features-office-365.md)
--   [電子メールのサンプル: ビジネス用の Skype についてユーザーにお知らせ](upgrade-emails-surveys.md#step-4-email)
+- [組織内のチームの機能を管理します。](enable-features-office-365.md)
+- [電子メールのサンプル: ビジネス用の Skype についてユーザーにお知らせ](upgrade-emails-surveys.md#step-4-email)
 
 [ページのトップへ](#about-upgrade-basic)
 
@@ -118,13 +118,14 @@ ms.locfileid: "25015646"
 <a name="step-5"></a>
 
 ## <a name="step-5-activate-the-user-upgrade-notification"></a>手順 5 です。 ユーザーのアップグレードの通知をアクティブにします。
+
 *(アップグレード前に約 1 週間)*
 
 管理者用ポータルのユーザーはビジネス用の Skype からチームにアップグレードされていること、Skype ビジネス クライアント用の視覚的な警告を提供することによるユーザーのアップグレードの通知を有効にすると、アップグレードの勢いを維持します。
 
 **リソース:**
 
--   [共存およびアップグレードの設定を設定します。](setting-your-coexistence-and-upgrade-settings.md)
+- [共存およびアップグレードを設定する](setting-your-coexistence-and-upgrade-settings.md)
 
 [ページのトップへ](#about-upgrade-basic)
 
@@ -133,13 +134,14 @@ ms.locfileid: "25015646"
 <a name="step-6"></a>
 
 ## <a name="step-6-remind-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>手順 6。 チームにビジネス用の Skype からアップグレードすることをユーザーに通知します。
+
 *(アップグレード前に約 5 日)*
 
 ユーザーは、日常の業務で多忙です。 保留中のアップグレードの通知により、チームの準備に必要な手順を実行することに注意してください。 これは、利用可能なトレーニングとチームを開始する方法についてユーザーに通知するのには完璧な時間です。
 
 **リソース:**
 
--   [電子メールのサンプル: チームを開始するユーザーに通知](upgrade-emails-surveys.md#step-6-email)
+- [電子メールのサンプル: チームを開始するユーザーに通知](upgrade-emails-surveys.md#step-6-email)
 
 [ページのトップへ](#about-upgrade-basic)
 
@@ -151,14 +153,14 @@ ms.locfileid: "25015646"
 
 *(1 日にアップグレードします)*
 
-今日は、組織が正式に、コミュニケーションとコラボレーションのソリューションとしてチームにアップグレードの日です。 チーム/Skype のビジネス管理センターで、**チームだけ**に共存モードを設定することによってアップグレードを有効にします。 (**組織全体の設定**には、管理センターで、 > **のチームをアップグレード**します)。ビジネス クライアントがチームにアップグレードされているため、Skype では、ユーザーは通知を受け取ります。
+今日は、組織が正式に、コミュニケーションとコラボレーションのソリューションとしてチームにアップグレードの日です。 チームの & ビジネス管理センターの Skype では、アップグレード**チームのみ**に共存モードを設定することによってアクティブになります。 (**組織全体の設定**には、管理センターで、 > **のチームをアップグレード**します)。ビジネス クライアントがチームにアップグレードされているため、Skype では、ユーザーは通知を受け取ります。
 
 すべてのユーザーがアップグレードされた後、チームを歓迎する電子メールを送信することをお勧めします。
 
 **リソース:**
 
--   [共存を設定し、設定をアップグレードします。](setting-your-coexistence-and-upgrade-settings.md)
--   [電子メールのサンプル: ユーザーがチームの開始](upgrade-emails-surveys.md#step-7-email)
+- [共存を設定し、設定をアップグレードします。](setting-your-coexistence-and-upgrade-settings.md)
+- [電子メールのサンプル: ユーザーがチームの開始](upgrade-emails-surveys.md#step-7-email)
 
 [ページのトップへ](#about-upgrade-basic)
 
@@ -174,7 +176,7 @@ ms.locfileid: "25015646"
 
 **リソース:**
 
--   [利用状況データを参照してください。](https://portal.office.com/AdminPortal/Home#/reportsUsage)
+- [利用状況データを参照してください。](https://portal.office.com/AdminPortal/Home#/reportsUsage)
 
 [ページのトップへ](#about-upgrade-basic)
 
@@ -190,7 +192,7 @@ ms.locfileid: "25015646"
 
 **リソース:**
 
--   [電子メールのサンプル: ユーザーが確認](upgrade-emails-surveys.md#step-9-email)、さらに[ユーザー アンケート](upgrade-emails-surveys.md#step-9-surveys)
+- [電子メールのサンプル: ユーザーが確認](upgrade-emails-surveys.md#step-9-email)、さらに[ユーザー アンケート](upgrade-emails-surveys.md#step-9-surveys)
 
 [ページのトップへ](#about-upgrade-basic)
 
@@ -198,14 +200,14 @@ ms.locfileid: "25015646"
 
 <a name="step-10"></a>
 
-## <a name="step-10-maximize-your-roi-with-teams"></a>手順 10 です。 チームと共同で、ROI を最大化します。 
+## <a name="step-10-maximize-your-roi-with-teams"></a>手順 10 です。 チームと共同で、ROI を最大化します。
+
 *(随時)*
-    
+
 ユーザーが IM (チャット) とチームでミーティングを理解したら、チームの共同作業とアプリケーションの統合を使用して、本当に、新しいソリューションを最適化して、投資回収率を最大化することで、ユース ケースを拡張することをお勧めします。
 
 **リソース:**
 
--   [電子メールのサンプル: ユーザーがチームをさらに調査をお勧め](upgrade-emails-surveys.md#step-10-email)
+- [電子メールのサンプル: ユーザーがチームをさらに調査をお勧め](upgrade-emails-surveys.md#step-10-email)
 
 [ページのトップへ](#about-upgrade-basic)
-
