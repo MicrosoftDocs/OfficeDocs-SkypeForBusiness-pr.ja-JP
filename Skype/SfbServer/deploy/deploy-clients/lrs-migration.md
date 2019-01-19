@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: Skype ルーム システム v2 のソフトウェアを使用して Lync ルーム システム デバイスを移行する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: b2d748a37e7e060e19d0708b6979f9254af13682
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: 9436c5a843f21b9913c0dbcbed6e62df8ef62ce2
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772904"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729408"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>Lync ルーム システム (LRS) デバイスを Skype ルーム システム v2 に移行します。 
 Skype ルーム システム バージョン 1 (SRS v1) ソフトウェアとデバイスを Lync ルーム システム (LRS) は[、2018 年 10 月 9 日のサポート終了](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018)に達しました。 つまり Skype ルーム システム v1 のソフトウェアは不要になったすべての製品の更新プログラムや修正もはや。 Skype ルーム システム v1 のソフトウェアを使用して Lync ルームのシステム デバイスを持つお客様は Skype ルーム システム バージョン 2 (SRS v2) にそのデバイスをアップグレードするのにはお勧めします。
@@ -45,27 +45,14 @@ Crestron RL2 が (Crestron RL200 とも呼ばれます) の既存のお客様が
 ### <a name="smart-room-systems-upgrade"></a>スマート ルーム システムをアップグレードします。 
 Crestron ハードウェアの下取りプログラムとは別のスマート LRS お客様は、マイクロソフトとスマートも担当している Skype ルーム システム v2 にアップグレードするソリューションを提供します。 スマート テクノロジー社でこのアップグレードを提供します。この[ここで](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml)の詳細を参照してください。
 
-<!--  
-For later 
-### Do-It-Yourself
-A Do-It-Yourself option is also available for customers with upgrade to Windows 10 and Skype Room Systems v2 software. Windows 10 Enterprise Licenses are available through [approved resellers](https://www.microsoft.com/en-us/Licensing/how-to-buy/how-to-buy.aspx) and Skype Room System V2 software will be available through this guide. 
- 
   
-To use this option however, customers must additionaly buy a [Logitech Screen Share](https://www.logitech.com/en-us/product/screen-share) adapter. Microsoft will provide instructions on how to use this adapter with Skype Room System v2 software. 
+ただし、このオプションを使用して、お客様には、また購入[画面共有の logitech (ロジクール)](https://www.logitech.com/en-us/product/screen-share)のアダプターが必要があります。 マイクロソフトは Skype ルーム システム v2 のソフトウェアで、このアダプターを使用する方法の指示を提供します。 
 
 
-Look for upgrade instructions on this page shortly. 
+このページをすぐにアップグレードの手順について説明します。 
   
-### Summary of upgrade options
-This table lists summary of all available options for existing LRS devices:
-<!--  For later 
-| Upgrade Option | SMART Room Systems | Crestron RL2 | Polycom CX8000 | Crestron RL |
-|:--- |:--- |:--- |:--- |:--- |
-|**Crestron hardware </br>Trade-in program**|Available|Available|Available|Available|
-|**Crestron RL3**|Not Available|Available|Not Available|Not Available|
-|**Do-It-Yourself**|Available|Not Available|Not Available|Not Available|
-| | | | | |
--->
+### <a name="summary-of-upgrade-options"></a>アップグレードのオプションの概要
+LRS の既存のデバイスのすべての利用可能なオプションの概要を表に示します。
 
 ## <a name="what-should-you-do"></a>何ですか。
 上記のアップグレード オプションを使用して TLS 1.0 または 1.1 廃止する前に Skype ルーム システム v2 に Lync ルーム システム デバイスを更新することをお勧めします。 また、SRS v2 の認定、新しいデバイスと既存のデバイスを置き換えることを検討可能性があります。 詳細については、[ルームのデバイス](https://aka.ms/roomdevices)を参照してくださいし、 [Skype ルーム システム v2 の要件](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements)を参照してください。  
@@ -74,4 +61,4 @@ This table lists summary of all available options for existing LRS devices:
 > タッチとホワイト ボードの機能が Skype ルーム システム v2 でまだサポートされていません。 タッチとホワイト ボードのサポートでは、Skype ルーム システム v2 のバックログし、H1 CY2019 に追加される予定です。
 
 > [!NOTE]
-> ルーム システム V2 の Skype ソフトウェアは、現在 TLS 1.2 プロトコルをサポートしていません。 TLS 1.2 のサポートは、作業対象と、TLS 1.0 または 1.1 を廃止する前に完了します。 SRS v2 に顧客 upgradging SRS v2 アプリケーションの最新バージョンを実行しているルームのデバイスに TLS 1.0 または 1.1 の廃止の影響を与える表示されません。 前提のお客様にビジネス用の Skype には、Skype ルーム システム V2 annouces TLS 1.2 をサポートするまで、TLS 1.0 または 1.1 が無効にしないでください。 
+> ルーム システム V2 の Skype ソフトウェアには、アプリケーションのバージョン 4.0.64.0 で、2018 年 12 月 14 日以降 TLS 1.2 プロトコルがサポートされています。 設置型のお客様に Skype ルーム システム V2 の TLS 1.2 経由で通信を有効にする必要があります Skype ビジネス サーバー 2015 Cummulative 更新 9 (CU9) または Skype の Buisness サーバー 2019 Cummulative 更新 1 (CU1)。 変更する必要がありますに依存しない Skype オンライン ビジネスのお客様のクライアントの変更は、前方と後方準拠します。 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: ビジネス ユーザー向けに、Skype のインターネット電話サービスを Office 365 に電話システムを有効にする方法を説明します。
-ms.openlocfilehash: ec0e37c0597f81001075f144dd38b58acfbb1159
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 9f11e52a3992e484643cfea06d0720d12e3f0e77
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372671"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729294"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>エンタープライズ VoIP でオンラインと Office 365 のボイスメールに電話システムのユーザーを有効にします。
  
@@ -31,11 +31,11 @@ ms.locfileid: "25372671"
   
 ## <a name="enable-phone-system-in-office-365-voice-services"></a>Office 365 のインターネット電話サービスの電話システムを有効にします。
 
-Office 365 のボイスとボイス メールの電話システムで、ユーザーを有効にするのには、Skype のビジネス オンラインのコネクタは、サーバーに展開するを参照して、ホスト ボイス メールに対してユーザーを有効にするチェックのように、いくつかの初期手順を実行する必要があります。
+Office 365 のボイスとボイス メールの電話システムで、ユーザーを有効にするのには、ビジネス オンラインのコネクタの Skype は、サーバーの配置を参照してくださいし、ホスト ボイスメールに対してユーザーを有効にするチェックのように、いくつかの初期手順を実行する必要があります。
   
 ### <a name="to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail"></a>Office 365 のボイスとボイス メールの電話システムのユーザーを有効にするには
 
-1. 作業を開始する前に、ビジネス オンライン コネクタ (Windows PowerShell モジュール) の Skype がフロント エンド サーバーで運用されていることを確認します。 そうでない場合は、[ダウンロード センター](https://www.microsoft.com/en-us/download/details.aspx?id=39366)からダウンロードできます。 このモジュールを使用して、 [Skype のオンライン ビジネスの管理には、コンピューター](https://technet.microsoft.com/en-us/library/dn362839%28v=ocs.15%29.aspx)を構成する方法の詳細が表示されます。
+1. 作業を開始する前に、ビジネス オンライン コネクタ (Windows PowerShell モジュール) の Skype がフロント エンド サーバーで運用されていることを確認します。 展開されていない場合は、[ダウンロード センター](https://www.microsoft.com/en-us/download/details.aspx?id=39366)からダウンロードできます。 このモジュールを使用して、 [Skype のオンライン ビジネスの管理には、コンピューター](https://technet.microsoft.com/en-us/library/dn362839%28v=ocs.15%29.aspx)を構成する方法の詳細が表示されます。
     
 2. 管理者として、Windows Powershell を起動します。
     
@@ -140,7 +140,7 @@ Office 365 のボイスとボイス メールの電話システムで、ユー�
 
 このセクションでは、Office 365 の電話システムが有効なユーザーの音声ルーティング ポリシーを更新する方法について説明します。
   
-Office 365 ユーザーの電話システムには、呼び出しが正常にルーティングするために割り当てられている音声ルーティング ポリシーが必要です。 これは、呼び出しを適切にルーティングできるように割り当てる音声ポリシーを必要するオンプレミスの企業音声ユーザーとは異なります。 音声ルーティング ポリシーには、電話システムのユーザーの Office 365 で承認された呼び出しおよびルートを定義する PSTN 使用法が含まれている必要があります。 これらの PSTN 使用法は、既存の音声ポリシーから新しい音声ルーティング ポリシーにコピーできます。 詳細については、[新規 CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)を参照してください。
+Office 365 ユーザーの電話システムには、呼び出しが正常にルーティングするために割り当てられている音声ルーティング ポリシーが必要です。 これは、呼び出しを適切にルーティングできるように割り当てる音声ポリシーを必要するオンプレミスの企業音声ユーザーとは異なります。 音声ルーティング ポリシーには、電話システムのユーザーの Office 365 で承認された呼び出しおよびルートを定義する PSTN 使用法が含まれている必要があります。 これらの PSTN 使用法は、既存の音声ポリシーから新しい音声ルーティング ポリシーにコピーできます。 詳細については、「[New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)」を参照してください。
   
 > [!NOTE]
 > Office 365 のユーザーにすべての電話システムが許可されている呼び出し元の機能を定義する BusinessVoice という名前の同じのオンラインの音声ポリシーに割り当てられてなどの同時呼び出しを許可します。 
@@ -172,6 +172,6 @@ Office 365 ユーザーの電話システムには、呼び出しが正常にル
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 
-    詳細については、[補助金 CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps)を参照してください。
+    詳細については、「[Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps)」を参照してください。
     
 

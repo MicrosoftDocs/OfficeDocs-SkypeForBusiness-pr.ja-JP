@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: この資料では、Skype ルーム システム v2 の累積的な機能強化について説明します。
-ms.openlocfilehash: cdc180c0caa8cfe581d02a206d9b13e255214bfd
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 7eb6eb3c9bcd2cbbbe72a6fc96d619303216cd37
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297889"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729401"
 ---
 # <a name="release-notes"></a>リリース ノート 
 
@@ -55,6 +55,7 @@ ms.locfileid: "27297889"
 この更新プログラムで導入されています。
 - 両方フロントの部屋 (の) ルーム システムでデュアル画面表示の内容の表示
 - テーマとフロントの部屋のユーザー インターフェイスの改善
+- クライアント側で TLS 1.2 をサポートします。 設置型のお客様に Skype ルーム システム V2 の TLS 1.2 経由で通信を有効にする必要があります Skype ビジネス サーバー 2015 Cummulative 更新 9 (CU9) または Skype の Buisness サーバー 2019 Cummulative 更新 1 (CU1)。
 
 ### <a name="40510-11172018"></a>4.0.51.0 (11/17/2018)
 この更新プログラムで導入されています。

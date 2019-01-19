@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: '概要: は、このトピックでのビジネス サーバー 2015 サーバーで、Skype を準備します。 ハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件および推奨事項は、ここで正常にインストールし、サーバー ファームの展開を確実にします。'
-ms.openlocfilehash: ae66e8994745317d8de4d033c6f6a65c6e41a9ac
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: f9c85fb774362e00c8b34e9cc0343e71e499ce49
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240732"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729373"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 のサーバー要件
  
@@ -91,10 +91,10 @@ Active Directory、DNS、証明書など、環境の要件を探している場�
   
 ビジネス サーバー 2015 エンタープライズ エディションの Skype は、少し複雑ですが、サポートされているリストの下にある (64 ビット版ではすべて、見るとわかるようにしてくださいしない 32 ビット エディションを使用)。
   
-||||
-|:-----|:-----|:-----|:-----|
-|Microsoft SQL Server 2016 エンタープライズ (64 ビット版) Service Pack 1 以降のバージョン、および場合は、Skype ビジネスの累積的な更新プログラム 7 またはそれ以降が ([ビジネスの累積的な更新のための Skype をダウンロード](https://support.microsoft.com/en-us/help/3061064)する) で実行しなければなりません。  <br/> |Microsoft SQL Server 2014 エンタープライズ (64 ビット版) とは、累積的な更新 6 またはそれ以降 ([累積的な更新 6 をダウンロード](https://support.microsoft.com/en-us/kb/3031047/)) を実行しなければなりません。  <br/> |Microsoft SQL Server 2012 エンタープライズ (64 ビット版) とは、最新の service pack を実行するをお勧めします。  <br/> |Microsoft SQL Server 2008 R2 エンタープライズ (64 ビット版) とは、最新の service pack を実行するをお勧めします。  <br/> |
-|Microsoft SQL Server 2016 標準 (64 ビット版) Service Pack 1 以降のバージョン、および場合は、Skype ビジネスの累積的な更新プログラム 7 またはそれ以降が ([ビジネスの累積的な更新のための Skype をダウンロード](https://support.microsoft.com/en-us/help/3061064)する) で実行しなければなりません。  <br/> |Microsoft SQL Server 2014 標準 (64 ビット版) とは、累積的な更新 6 またはそれ以降 ([累積的な更新 6 をダウンロード](https://support.microsoft.com/en-us/kb/3031047/)) を実行しなければなりません。  <br/> |Microsoft SQL Server 2012 標準 (64 ビット版) で最新のサービス パックの実行をお勧めします。  <br/> |Microsoft SQL Server 2008 R2 標準 (64 ビット版) で最新のサービス パックの実行を推奨します。  <br/> |
+|||||
+|:-----|:-----|:-----|:-----|:-----|
+|Microsoft SQL Server 2017 エンタープライズ (64 ビット版) とは、最新の service pack を実行するをお勧めします。 <br/> |Microsoft SQL Server 2016 エンタープライズ (64 ビット版) Service Pack 1 以降のバージョン、および場合は、Skype ビジネスの累積的な更新プログラム 7 またはそれ以降が ([ビジネスの累積的な更新のための Skype をダウンロード](https://support.microsoft.com/en-us/help/3061064)する) で実行しなければなりません。  <br/> |Microsoft SQL Server 2014 エンタープライズ (64 ビット版) とは、累積的な更新 6 またはそれ以降 ([累積的な更新 6 をダウンロード](https://support.microsoft.com/en-us/kb/3031047/)) を実行しなければなりません。  <br/> |Microsoft SQL Server 2012 エンタープライズ (64 ビット版) とは、最新の service pack を実行するをお勧めします。  <br/> |
+|Microsoft SQL Server 2017 標準 (64 ビット版) で最新のサービス パックの実行をお勧めします。 <br/> |Microsoft SQL Server 2016 標準 (64 ビット版) Service Pack 1 以降のバージョン、および場合は、Skype ビジネスの累積的な更新プログラム 7 またはそれ以降が ([ビジネスの累積的な更新のための Skype をダウンロード](https://support.microsoft.com/en-us/help/3061064)する) で実行しなければなりません。  <br/> |Microsoft SQL Server 2014 標準 (64 ビット版) とは、累積的な更新 6 またはそれ以降 ([累積的な更新 6 をダウンロード](https://support.microsoft.com/en-us/kb/3031047/)) を実行しなければなりません。  <br/> |Microsoft SQL Server 2012 標準 (64 ビット版) で最新のサービス パックの実行をお勧めします。  <br/> |
    
 ここで使用する SQL Server のエディションが表示されない場合は使用できません。
   
@@ -133,24 +133,24 @@ Microsoft メッセージ キューは、必要ではありません。
   
 2 ノードの場合:
   
+- Microsoft SQL Server 2017 標準 (64 ビット版) で最新のサービス パックの実行をお勧めします。
+
 - Microsoft SQL Server 2016 標準 (64 ビット版) Service Pack 1 またはそれ以降です。 最新の service pack を実行することをお勧めします。
 
 - Microsoft SQL Server 2014 標準 (64 ビット版) で最新のサービス パックの実行をお勧めします。
     
 -  Microsoft SQL Server 2012 標準 (64 ビット版) で最新のサービス パックの実行をお勧めします。
-    
-- Microsoft SQL Server 2008 R2 標準 (64 ビット版) で最新のサービス パックの実行をお勧めします。
-    
+
 16 ノードの場合:
+
+- Microsoft SQL Server 2017 エンタープライズ (64 ビット版) とは、最新の service pack を実行するをお勧めします。
 
 - Microsoft SQL Server 2016 エンタープライズ (64 ビット版) Service Pack 1 またはそれ以降です。 最新の service pack を実行することをお勧めします。
   
 - Microsoft SQL Server 2014 エンタープライズ (64 ビット版) とは、最新の service pack を実行するをお勧めします。
     
 - Microsoft SQL Server 2012 エンタープライズ (64 ビット版) とは、最新の service pack を実行するをお勧めします。
-    
-- Microsoft SQL Server 2008 R2 エンタープライズ (64 ビット版) とは、最新の service pack を実行するをお勧めします。
-    
+
 > [!IMPORTANT]
 > アップグレードのたく以上があるフロント エンド サーバーに SQL Server 2012 SP1 がインストールされているアップグレードの準備の確認をします。 [今すぐ SP1 をダウンロードする場合は、こちらのリンクを参照してください](https://www.microsoft.com/en-us/download/details.aspx?id=35575)。
   

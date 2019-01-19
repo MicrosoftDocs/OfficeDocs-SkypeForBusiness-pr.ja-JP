@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: '概要: ビジネス サーバー 2015 の Skype での永続的なチャット サーバーのハードウェアおよびソフトウェアの要件の詳細については、このトピックを読みます。'
-ms.openlocfilehash: 487ee3beac288bc3573d640afa18aa790774b9c3
-ms.sourcegitcommit: a9bf4de79c84d239488455575322188a03535f71
+ms.openlocfilehash: ce39d4c535c75517160b53f89378144c5299bebf
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "24013531"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729422"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の常設チャット サーバーのハードウェアおよびソフトウェア要件
  
@@ -60,9 +60,11 @@ ms.locfileid: "24013531"
     
 - (Mgc) 永続的なチャット データベースとコンプライアンス データベース (mgccomp) は、別の SQL サーバーまたは SQL Server の同じインスタンスに配置できます。
     
-データベース サーバー プラットフォームを準備するには、各コンピューターがハードウェア要件を満たしていることを確認した後、必要なソフトウェアをインストールします。 データベースの永続的なチャット サーバーのサーバー プラットフォームでは、ビジネス サーバー 2015 のバックエンド データベース サーバーに、Skype と同じハードウェアが必要です。 詳細については、[ビジネス サーバー 2015 の Skype のサーバーの要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)を参照してください。
+データベース サーバー プラットフォームを準備するには、各コンピューターがハードウェア要件を満たしていることを確認した後、必要なソフトウェアをインストールします。 データベースの永続的なチャット サーバーのサーバー プラットフォームでは、ビジネス サーバー 2015 のバックエンド データベース サーバーに、Skype と同じハードウェアが必要です。 詳細については、「[Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)」を参照してください。
   
 次のどちらかのソフトウェア アプリケーションがデータベース サーバーにインストールされていることを確認してください。
+
+- 2017 を Microsoft SQL Server の最新の service pack です。
 
 - Service Pack 1 とすると、Microsoft SQL Server 2016 は、Skype でビジネス サーバーの累積的な更新プログラム 7 またはそれ以降のリリースを実行しなければなりません。 最新の service pack と 2016 の SQL Server を実行していることをお勧めします。 2016 の Microsoft SQL Server をインストールする方法の詳細については、 [SQL Server 2016 のインストール](https://docs.microsoft.com/pt-pt/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016)を参照してください。
 
@@ -70,8 +72,6 @@ ms.locfileid: "24013531"
 
 - Microsoft SQL Server 2012 (64 ビット版) とは、最新の service pack を実行するをお勧めします。 Microsoft SQL Server 2012 をインストールする方法の詳細については、 [SQL Server 2012 のインストール](https://go.microsoft.com/fwlink/p/?LinkID=248559)を参照してください。
 
-- Microsoft SQL Server 2008 R2 (64 ビット版) とは、最新の service pack を実行するをお勧めします。 Microsoft SQL Server の 2008 R2 をインストールする方法の詳細については、 [SQL Server のインストール (SQL Server 2008 R2)](https://go.microsoft.com/fwlink/p/?LinkId=275702)を参照してください。 
-    
 ## <a name="persistent-chat-server-certificate-requirements"></a>永続的なチャット サーバーの証明書の要件
 
 詳細証明書の取得については、SQL Server データベースを作成して、ファイル ストアを作成する[ビジネス サーバー 2015 の Skype の導入](../../deploy/deploy.md)を参照してください。 
@@ -80,8 +80,8 @@ ms.locfileid: "24013531"
 
 ハードウェアおよびソフトウェアの要件の詳細については、次のトピックを参照してください。
   
-- [Skype for Business Server 2015 のサーバー要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+- [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
     
-- [Skype for Business Server 2015 の環境要件](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)
+- [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)
     
 

@@ -13,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Cloud Connector と Office 365 テナントの統合を構成する方法を説明します。
-ms.openlocfilehash: 01e5135a4b0ac6de391140bc6fc0d80bcc00e2ce
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 837775fea5a128dbbb8d143f15064e08d9267756
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375770"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729380"
 ---
-# <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Cloud Connector と Office 365 テナントの統合を構成する
+# <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configure Cloud Connector integration with your Office 365 tenant
  
 Cloud Connector と Office 365 テナントの統合を構成する方法を説明します。
   
@@ -42,7 +42,7 @@ Skype for Business Cloud Connector エディションのインストールが完
     
 3. ゲートウェイ用に発行された証明書のルート CA 証明書を仲介サーバーにインポートします。ゲートウェイ用の SSL 証明書を入手する必要がある場合は、次のように Cloud Connector Active Directory コンピューターで証明機関サービスを使用して行うことができます。
     
-   - 既存の Web Server テンプレートを変更して認証済みユーザーを登録できるようにするか、新しい Web Server テンプレートを作成して別のプロパティを構成して認証済みユーザーが登録できるようにします。 詳細については、[証明書テンプレート](https://technet.microsoft.com/en-us/library/cc730705.aspx)を参照してください。
+   - 既存の Web Server テンプレートを変更して認証済みユーザーを登録できるようにするか、新しい Web Server テンプレートを作成して別のプロパティを構成して認証済みユーザーが登録できるようにします。 具体的な手順については、「[証明書テンプレート」(](https://technet.microsoft.com/en-us/library/cc730705.aspx)) を参照してください。
     
    - 有効にした Web Server テンプレートを選択して、証明書スナップインを使用して証明書を要求します。 件名に共通名を追加し、別名に DNS 名とゲートウェイの FQDN を追加して、[キー] オプションで秘密キーをエクスポート可能にする [秘密キー] が選択されていることを確認します。 
     
@@ -54,7 +54,7 @@ Office 365 でドメインを更新する手順を完了し、DNS レコード�
   
 ## <a name="add-dns-records-in-office-365-for-your-edge"></a>Office 365 でのエッジに必要な DNS レコードの追加
 
-以下の DNS レコードを Office 365 テナントに追加します。 DNS レコードを Office 365 テナントに追加する方法の詳細については、[追加または編集カスタムの DNS レコード](https://support.office.com/en-us/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1)を参照してください。
+以下の DNS レコードを Office 365 テナントに追加します。 Office 365 テナントへの DNS レコードの追加方法については、「[Office 365 でカスタムの DNS レコードを追加または編集する 」(](https://support.office.com/en-us/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1)) を参照してください。
   
 1. アクセス エッジの DNS A レコードを追加します。
     
@@ -74,7 +74,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
 ```
 
 > [!NOTE]
-> ユーザーが PSTN のサイトに割り当てられていない場合にだけ、フォールバックとしてに使用される PSTN のサイトには、ピア ・ ターゲットに使用される外部アクセス エッジの FQDN を設定してください。 詳細については、[クラウドのコネクタで 1 つのサイトを展開](deploy-a-single-site-in-cloud-connector.md)し、[クラウドのコネクタで複数のサイトを展開](deploy-multiple-sites-in-cloud-connector.md)を参照してください。 
+> ユーザーが PSTN のサイトに割り当てられていない場合にだけ、フォールバックとしてに使用される PSTN のサイトには、ピア ・ ターゲットに使用される外部アクセス エッジの FQDN を設定してください。 詳細については、「[Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md)」および「[Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md)」を参照してください。 
   
 ## <a name="set-up-pstn-gateways"></a>PSTN ゲートウェイの設定
 
@@ -88,7 +88,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
     
 3. ゲートウェイ用に発行された証明書のルート CA 証明書を仲介サーバーにインポートします。ゲートウェイ用の SSL 証明書を入手する必要がある場合は、次のように Cloud Connector Active Directory コンピューターで証明機関サービスを使用して行うことができます。
     
-   - 既存の Web Server テンプレートを変更して認証済みユーザーを登録できるようにするか、新しい Web Server テンプレートを作成して別のプロパティを構成して認証済みユーザーが登録できるようにします。 詳細については、[証明書テンプレート](https://technet.microsoft.com/library/cc730705.aspx)を参照してください。
+   - 既存の Web Server テンプレートを変更して認証済みユーザーを登録できるようにするか、新しい Web Server テンプレートを作成して別のプロパティを構成して認証済みユーザーが登録できるようにします。 具体的な手順については、「[証明書テンプレート」(](https://technet.microsoft.com/library/cc730705.aspx)) を参照してください。
     
    - 有効にした Web Server テンプレートを選択して、証明書スナップインを使用して証明書を要求します。 件名に共通名を追加し、別名に DNS 名とゲートウェイの FQDN を追加して、[キー] オプションで秘密キーをエクスポート可能にする [秘密キー] が選択されていることを確認します。 
     
@@ -98,7 +98,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
     
 ## <a name="set-up-your-users-in-office-365"></a>Office 365 でユーザーを設定する
 
-Office 365 管理ポータルにログインし、オンラインの音声サービスに対応するユーザーを追加し、これらのユーザーに E5 ライセンスまたは、E3 ライセンスへの Office 365 の電話システム アドオンを割り当てます。 ユーザーを追加する方法の詳細については、[ビジネス向けの Office 365 のユーザーの追加](https://support.office.com/en-US/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)を参照してください。
+Office 365 管理ポータルにログインし、オンラインの音声サービスに対応するユーザーを追加し、これらのユーザーに E5 ライセンスまたは、E3 ライセンスへの Office 365 の電話システム アドオンを割り当てます。 ユーザーの追加の詳細については、「[Office 365 にユーザーを個別に、またはまとめて追加する」(](https://support.office.com/en-US/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)) を参照してください。
   
 ## <a name="enable-users-for-phone-system-in-office-365-voice-and-voicemail-services"></a>Office 365 の電話システムの音声およびボイスメール サービスを利用できるようにする
 
@@ -166,7 +166,10 @@ P2P の呼び出しは、PSTN 会議にエスカレートされ、オンライ�
     
     クラウド コネクタ (.ini ファイルの最初の SIP ドメイン) の既定の SIP ドメインをユーザー ドメインとして使用します。
     
-    なお、ライセンスの割り当てはのみ、ユーザーに伝達、Skype のビジネスのオンライン ディレクトリに必要な。 アカウントを作成、変更を反映するためには、最大で 1 時間を許可し、このアカウントからライセンスを削除するには、(E5) などの Office 365 のライセンスを割り当てます。
+    なお、ライセンスの割り当てはのみ、ユーザーに伝達、Skype のビジネスのオンライン ディレクトリに必要な。 Office 365 ライセンスを (E5) などを作成、最大 1 時間の伝達には、ユーザー アカウント準備されている正しく、Skype のビジネスのオンライン ディレクトリで次のコマンドレットを実行していることを確認して変更を許可し、削除するアカウントに割り当て、このアカウントからライセンスです。
+    ```
+   Gets-CsOnlineUser -Identity <UserPrincipalName>
+   ```
     
 2. グローバルを使用してテナント Azure AD リモート PowerShell セッションまたはユーザー管理者の資格情報を起動し、Azure AD ユーザー アカウントの部門を設定するのには次のコマンドレットのように構成しの実行はステップ 1 を"HybridMediationServer"にします。
 
