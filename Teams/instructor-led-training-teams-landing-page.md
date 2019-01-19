@@ -1,20 +1,19 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Microsoft Teams の講師主導のトレーニング
-description: 終了チームの概要については、クラスのクラスルーム ・ トレーニングにサインアップします。
+title: クラスルーム ・ トレーニングとマイクロソフト チームの管理者用のビデオ
+description: については、マイクロソフトのチームのすべてのクラスのクラスルーム ・ トレーニングにサインアップします。
 author: dearbeen
 ms.topic: hub-page
 ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
-ms.date: 08/24/2018
-ms.openlocfilehash: efb105e3d6b5ab1c2ec87df6520c52eeb7ded90d
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 35b8a75e1c19acbe66e05c6d163b55cd4ab9f904
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214559"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349312"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -80,7 +79,7 @@ ms.locfileid: "27214559"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>チームのヒントと秘訣</h3>
+                                                <h3>チーム & のヒントとテクニック</h3>
                                                 <p>最適化し、日常的な作業でチームを編成する創造的な方法を理解します。 (対象ユーザー: エンド ・ ユーザー)</p>
                                             </div>
                                         </div>
@@ -100,7 +99,7 @@ ms.locfileid: "27214559"
                                             </div>
                                             <div class="cardText">
                                                 <h3>チームにビジネス用の Skype からのアップグレードを管理します。</h3>
-                                                <p>計画および実装チームへのアップグレードを成功させる (対象ユーザー: IT プロフェッショナル、変更マネージャーの採用)</p>
+                                                <p>計画 & チームに正常なアップグレードを実装する (対象ユーザー: IT プロフェッショナル、変更マネージャーの採用)</p>
                                             </div>
                                         </div>
                                     </div>
