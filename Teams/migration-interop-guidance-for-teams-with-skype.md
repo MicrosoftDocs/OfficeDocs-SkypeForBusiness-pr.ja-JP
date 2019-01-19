@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3c273868a07099ce0aaed60cb16e698adbdd13f
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 7cbce74cdc06a2f37f628dd32f6f36356c1ad27a
+ms.sourcegitcommit: 708e691b00f490da45d8d7f1d6594be29f45023b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349522"
+ms.locfileid: "29354501"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス
 
@@ -44,11 +44,10 @@ ms.locfileid: "29349522"
 
 6.  アップグレードと相互運用機能の動作は、TeamsUpgradePolicy で管理されているユーザーの共存モードに基づいて決定されます。 TeamsInteropPolicy は、受取済および許可モードではありません = レガシーは許可されていません。 
 
-7.  TeamsOnly モードにユーザーをアップグレードする、すべての着信のチャットや通話は常にどのようなクライアントに関係なく、ユーザーのチームのクライアントに着陸できるようにから orignated を保証します。 これらのユーザー、チーム内のすべての新しい会議をスケジュールしてもします。 TeamsOnly モードにするには、ユーザーする必要がありますが所属するオンライン ビジネスの Skype にします。 これは、相互運用性、フェデレーション、およびチームのユーザーの完全な管理を確実に必要です。ユーザーを TeamsOnly にアップグレードするには。
-    - ユーザーのオンライン ホーム ビジネスのための Skype の場合 (または任意の Skype アカウントがなかった)、モードで TeamsUpgradePolicy を与えた = PowerShell を使用して"UpgradeToTeams"のインスタンスを使用して TeamsOnly または TeamsOnly モードを選択するチームの管理センターを使用します。
-    - 使用して、ユーザーがホームの設置型の場合は、 `Move-CsUser` 、設置から管理用ツールの最初の移動に Skype ユーザーは、オンライン ビジネスです。 設置型からユーザーを移動するときに、2 つのオプションがあります。  
-     - かどうかがある Skype ビジネス サーバー 2019 または CU8 の Skype のビジネス サーバー 2015 の指定すること、`-MoveToTeams`でスイッチを`Move-CsUser`のチームに直接ユーザーを移動します。 (ただし、ここでは、会議の移行のみタップ向け機能) このオプションはチームにもユーザーの会議を移行します。 
-      - それ以外の場合後、`Move-CsUser`が完了したら、PowerShell またはチームの管理センターを使用してそのユーザーに TeamsOnly モードを割り当てます。  
+7.  TeamsOnly モードにユーザーをアップグレードする、すべての着信のチャットや通話は常にどのようなクライアントに関係なく、ユーザーのチームのクライアントに着陸できるようにから orignated を保証します。 これらのユーザー、チーム内のすべての新しい会議をスケジュールしてもします。 TeamsOnly モードにするには、ユーザーする必要がありますが所属するオンライン ビジネスの Skype にします。 これは、相互運用性、フェデレーション、およびチームのユーザーの完全な管理を確実に必要です。ユーザーを TeamsOnly にアップグレードするのには: A. 場合は、ユーザーのオンライン ホーム ビジネスのための Skype で (または、Skype アカウントがなかった)、モードでは TeamsUpgradePolicy を与えた PowerShell を使用して"UpgradeToTeams"のインスタンスを使用して TeamsOnly を = またはチームの管理センターを使用して、TeamsOnly モードです。
+    B. 使用して、ユーザーがホームの設置型の場合は、 `Move-CsUser` 、設置から管理用ツールの最初の移動に Skype ユーザーは、オンライン ビジネスです。 設置型からユーザーを移動するときに、2 つのオプションがあります。  
+      - かどうかがある Skype ビジネス サーバー 2019 または CU8 の Skype のビジネス サーバー 2015 の指定すること、`-MoveToTeams`でスイッチを`Move-CsUser`のチームに直接ユーザーを移動します。 (ただし、ここでは、会議の移行のみタップ向け機能) このオプションはチームにもユーザーの会議を移行します。 
+       - それ以外の場合後、`Move-CsUser`が完了したら、PowerShell またはチームの管理センターを使用してそのユーザーに TeamsOnly モードを割り当てます。  
      詳細は、[オンプレミスとクラウドの間でユーザーの移動](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)を参照してください。  会議の移行の詳細については、「[会議の移行サービス (MMS)](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)」を参照してください。
 
 
@@ -137,18 +136,8 @@ TeamsUpgradePolicy は、受信フェデレーション チャットと通話の
 
 まで、このソリューションを提供すると、管理者は TeamsMessagingPolicy、TeamsCallingPolicy、および TeamsMeetingPolicy の値を手動で構成する、対象のクライアントの経験、TeamsUpgradePolicy モードを適用できます。 さらを使用する場合`Grant-CsTeamsUpgradePolicy`PowerShell のコマンドレットが自動的にチェック determmine を TeamsMessagingPolicy、TeamsCallingPolicy、および TeamsMeetingPolicy に対応する設定の構成は、これらの設定と互換性がある場合指定したモードです。 いずれかが正しく構成されていません場合、は、補助金は成功しますが、どの設定が正しく構成されていないことを示す警告が提供されます。 管理者は、チームで互換性のあるエンド ユーザー エクスペリエンスを提供するのには示されているポリシーを更新する必要があります後。 管理者は、警告の結果としてのアクションは実行しませんが場合、ユーザー可能性があります、チャットへのアクセスを呼び出すと、または会議の TeamsMessagingPolicy、TeamsCallingPolicy、TeamsMeetingPolicy の値に応じてチームでのスケジュール設定機能エンド ユーザー エクスペリエンスに混乱する可能性があります。
 
-
-`PS C:\Users\janedoe> Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab
-WARNING: The user 'user1@contoso.com' currently has effective policy enabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the near term, when granting TeamsUpgradePolicy with mode=SfBWithTeamsCollab to a user, you must also separately assign policy to ensure the user has effective policy disabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the future, the capability will automatically honor TeamsUpgradePolicy.
-PS C:\Users\janedoe>`
-
-
-開始前に上記で説明したクライアントの動作の自動強制、デバイス モードの各動作が基本的に同じです。 SfBOnly、SfBWithTeamsCollab、および SfBWithTeamsCollabAndMeetings モードでは、チャットおよび着信呼び出しのルーティングにすべて同じです。 唯一の違いは、チームの Outlook アドインとビジネス用の Skype が有効になっているかどうかにします。 差別化されたクライアントのクライアントが配信されるまでは、管理ポータルで、デバイスのモードの 1 つだけが有効になります。 すべてのモードでは、PowerShell で使用できます。
-
-
-### <a name="powershell-warning-matrix"></a>PowerShell 警告マトリックス
-
-TeamsUpgradeMode が付与されると、チェックされているポリシー設定を次の表に示します。 チーム内のチャンネルを無効にする SfBOnly モードの目的は、今後、します。ただしは現在の設定を無効にするチームで、チャネルの機能を可能にします。
+### <a name="expected-values-of-workload-policy-settings-per-mode"></a>モードごとのポリシー設定の作業負荷の予測値
+テーブルでは、TeamsUpgradeMode を付与するときにチェックされているポリシー設定を示します。 チーム内のチャンネルを無効にする SfBOnly モードの目的は、今後、します。ただしは現在の設定を無効にするチームで、チャネルの機能を可能にします。
 
 
 |**モーダルかどうか (アプリケーション)**|**Policy.Setting**|
@@ -158,9 +147,27 @@ TeamsUpgradeMode が付与されると、チェックされているポリシー
 |会議のスケジュール|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
 |||
 
+以下に示す特定のモードでは、これらの設定の値を表示します。
 
-管理者は、作業負荷に対応し、適切なモードが接続されていない場合警告が表示されます。 一時的に、管理者する必要があります有効または無効に、中核となるワークロード ポリシーを使用して作業負荷。  TeamsUpgradePolicy に基づいての自動強制を実装すると、PowerShell の警告がクライアント エクスペリエンスを自動的に適用する管理者を通知するために更新されます。 その場合は、TeamsMessagingPolicy、TeamsCallingPolicy、および TeamsMeetingPolicy の値は変更されません-が、TeamsUpgradePolicy に従って、対象のクライアントの操作性が適用されます。
+|モード|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|AllowChannelMeetingScheduling|
+|---|---|---|---|---|
+|TeamsOnly または諸島|有効|有効|有効|有効|
+|SfBWithTeamsCollabAndMeetings|無効|無効|有効|有効|
+|SfBWithTeamsCollab または SfBOnly|無効|無効|無効|無効|
+||||||
 
+
+与える CsTeamsUpgradePolicy の中にこれらの設定の他の任意の組み合わせが検出された場合、付与成功しますが、正常な動作が準拠していない特定の設定を示す警告が表示されます。 一時的に、管理者する必要があります有効または無効に、中核となるワークロード ポリシーを使用して作業負荷。  TeamsUpgradePolicy に基づいての自動強制を実装すると、PowerShell の警告がクライアント エクスペリエンスを自動的に適用する管理者を通知するために更新されます。 その場合は、TeamsMessagingPolicy、TeamsCallingPolicy、および TeamsMeetingPolicy の値は変更されません-が、TeamsUpgradePolicy に従って、対象のクライアントの操作性が適用されます。
+
+以下のようになりますが、PowerShell の警告の例に示します。
+
+
+`PS C:\Users\janedoe> Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab
+WARNING: The user 'user1@contoso.com' currently has effective policy enabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the near term, when granting TeamsUpgradePolicy with mode=SfBWithTeamsCollab to a user, you must also separately assign policy to ensure the user has effective policy disabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the future, the capability will automatically honor TeamsUpgradePolicy.
+PS C:\Users\janedoe>`
+
+
+開始前に上記で説明したクライアントの動作の自動強制、デバイス モードの各動作が基本的に同じです。 SfBOnly、SfBWithTeamsCollab、および SfBWithTeamsCollabAndMeetings モードでは、チャットおよび着信呼び出しのルーティングにすべて同じです。 唯一の違いは、チームの Outlook アドインとビジネス用の Skype が有効になっているかどうかにします。 差別化されたクライアントのクライアントが配信されるまでは、管理ポータルで、デバイスのモードの 1 つだけが有効になります。 すべてのモードでは、PowerShell で使用できます。
 
 
 ## <a name="teamsinteroppolicy-and-legacy-mode-being-retired"></a>TeamsInteropPolicy と廃止されているレガシー ・ モード 
