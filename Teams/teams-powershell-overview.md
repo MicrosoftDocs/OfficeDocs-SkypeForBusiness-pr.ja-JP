@@ -1,5 +1,5 @@
 ---
-title: チーム PowerShell の概要
+title: Teams での PowerShell の概要
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -9,20 +9,24 @@ ms.service: msteams
 description: PowerShell のコントロールを使用して、マイクロソフトのチームを管理するために説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a898a4eca8d96ef2da44f17695472301d6332724
-ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
+ms.openlocfilehash: 477aa468cf057bd5f1a042acd5aff9772e8244f0
+ms.sourcegitcommit: 09fcd68e30e7f83110f98172382c74f970b339a7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26625752"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "29442430"
 ---
-# <a name="teams-powershell-overview"></a>チーム PowerShell の概要
+# <a name="teams-powershell-overview"></a>Teams での PowerShell の概要
 
-マイクロソフトのチームでは、マイクロソフトのチームとビジネス管理センター、PowerShell コントロール、およびグラフの Api の Skype を通じて製品を管理する IT 管理者のためのツールの豊富なセットがあります。 このガイドでは、当社の PowerShell コマンドレットを使用して、IT 管理者を構成する方法について説明し、さらにドキュメントへのポインターを提供します。 さまざまなチームの管理者のロールに別のコマンドレットへのアクセスがあることに注意してください。 詳細については、[チームを管理する管理者の役割を使用してマイクロソフトのチーム](using-admin-roles.md)を参照してください。
+マイクロソフトのチームでは、マイクロソフトのチーム & Skype のビジネス管理センター、PowerShell コントロール、およびグラフの Api を通じて製品を管理する IT 管理者のためのツールの豊富なセットがあります。 このガイドでは、当社の PowerShell コマンドレットを使用して、IT 管理者を構成する方法について説明し、さらにドキュメントへのポインターを提供します。 さまざまなチームの管理者のロールに別のコマンドレットへのアクセスがあることに注意してください。 詳細については、[チームを管理する管理者の役割を使用してマイクロソフトのチーム](using-admin-roles.md)を参照してください。
 
 ## <a name="which-modules-do-you-need-to-use"></a>モジュールを使用するのには必要ですか。
 
-PowerShell の 2 つの異なるモジュールでは、マイクロソフトのチームを管理するための PowerShell コントロール:[マイクロソフト チームの PowerShell モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.5)(パブリック プレビュー) と[ビジネスの PowerShell モジュールの Skype](https://www.microsoft.com/en-us/download/details.aspx?id=39366)です。 チームの PowerShell モジュールには、すべてのコマンドレットを作成し、ビジネスの PowerShell モジュールの Skype には、ポリシー、構成、およびその他のチームのツールを管理するためのコントロールが含まれていますが、チームを管理する必要がありますが含まれています。 PowerShell のコントロールの参照ドキュメントが送信されます、調査しているコマンドレットがどのモジュールに含まれています。 (最終的には、2 つのモジュール結合されます。)
+PowerShell の 2 つの異なるモジュールには、チームを管理するための PowerShell コントロールです。 
+- [マイクロソフト チームの PowerShell モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.5)(パブリック プレビュー): すべてのコマンドレット作成し、チームを管理する必要がありますにはが、チームの PowerShell モジュールに含まれています。  
+- [ビジネスの PowerShell モジュールの Skype](https://www.microsoft.com/en-us/download/details.aspx?id=39366): ビジネスの PowerShell モジュールの「Skype にには、ポリシー、構成、およびその他のチームのツールを管理するためのコマンドレットにはが含まれています。 
+
+PowerShell のコントロールのリファレンス ドキュメントが送信されます、調査しているコマンドレットがどのモジュールに含まれています。 (最終的には、2 つのモジュール結合されます。)
 
 ## <a name="what-can-each-admin-role-do"></a>できます各管理者の役割は何ですか。
 
@@ -71,7 +75,7 @@ PowerShell コマンドレットの別の管理者の役割が利用できるよ
 
 構成は、ユーザー レベルで指定することはできませんが、サービスで保持されている設定のバケットです。 設定は、組織全体で常に適用されます。 グローバル設定は、組織内で唯一の効果的な構成です。 構成タイプごとに主な 2 つのコマンドレットではあります。
 
-- ``Get-Cs<ConfigurationName>``(たとえば、 ``Get-CsTeamsClientConfiguration``)。 
+- たとえば、. 
 
 - 一連のコマンド (たとえば、 ``Set-CsTeamsClientConfiguration``): その種類の構成のプロパティを設定します。 変更するパラメーターを指定します。
    > 2 つの方法のいずれかに変更する構成を参照することができます: を指定する -**ユーザーのグローバル**、または実行によって``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>``。
