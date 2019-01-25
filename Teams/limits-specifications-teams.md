@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 957d1d3b708d0d35c2743b9382af3ad12aba6632
-ms.sourcegitcommit: 38f225d59929a08923e801f334fea7b3d28f537d
+ms.openlocfilehash: f50a41333956458b3db36a13b9133c1cabcc163d
+ms.sourcegitcommit: ee8996ce081039f61c070f5b0b3fd6294ea4a5f5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "29454577"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "29561992"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 =============================================
@@ -31,8 +31,8 @@ ms.locfileid: "29454577"
 |機能    | 最大数の制限 |
 |-----------|---------------|
 |ユーザーが作成できるチームの数 | 250 オブジェクトの limit&sup1 です。         |
-|チームのメンバーの数 | $2,500       |
-|[組織全体にわたるチーム](create-an-org-wide-team.md)のメンバーの数 | $2,500       |
+|チームのメンバーの数 | 2,500       |
+|[組織全体にわたるチーム](create-an-org-wide-team.md)のメンバーの数 | 2,500       |
 |グローバル管理者が作成できるチームの数        |  500,000   |
 |チーム、Office 365 テナントの数を持つことができます。    | 500,000     |
 |1 チームあたりのチャンネル数    | 200 (削除されたチャネルが含まれています)         |
@@ -45,15 +45,12 @@ ms.locfileid: "29454577"
 |機能     | 最大数の制限 |
 |------------|---------------|
 |会議に出席する人の数  | 250    |
-|プライベート チャットの参加者の数  | 50%    |
+|プライベート チャットの参加者の数  | 50    |
 
-> [!IMPORTANT]
-> キオスク ワーカーでは、既定では、AllowChannelMeetingScheduling と AllowPrivateMeetingScheduling はインバンド プロビジョニングの点から、TeamsMeetingPolicy に含まれていると、チームの会議のスケジュールを設定する機能を必要はありません。 キオスクの作業者にのみ適用されます。 
-
-<a name="storage"></a> ストレージ
+<a name="storage"></a>ストレージ
 -------
 
-マイクロソフトのチームでは、各チームには、SharePoint Online では、チーム サイトと、チーム内の各チャンネルは、既定のチーム サイトのドキュメント ライブラリ内のフォルダーを取得します。 会話内で共有されるファイルは、ドキュメント ライブラリに自動的に追加し、アクセス許可とファイルのセキュリティ オプションが SharePoint で設定がチーム内で自動的に反映します。
+Microsoft Teams の各チームには SharePoint Online にチーム サイトがあり、チーム内の各チャネルには既定のチーム サイト ドキュメント ライブラリが作成されます。会話内で共有したファイルはドキュメント ライブラリに自動的に格納されます。SharePoint で設定した権限やファイル セキュリティ オプションは Teams 内で自動的に反映されます。
 
 テナントを有効にし、SharePoint Online をお持ちでない場合は、マイクロソフトのチームのユーザーは常にチーム内のファイルを共有できません。 プライベート チャットのユーザーもファイルを共有できない (これは、SharePoint ライセンスに関連付けられている) ビジネスのための OneDrive は、その機能に必要なためです。
 
@@ -63,7 +60,7 @@ SharePoint Online ドキュメント ライブラリと OneDrive for Business �
 
 |機能                 |Office 365 Business Essentials  |Office 365 Business Premium   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
-| ストレージ                 |1 組織につき 1 TB とライセンスの購入に 10 GB  |1 組織につき 1 TB とライセンスの購入に 10 GB  |1 組織につき 1 TB とライセンスの購入に 10 GB   |1 組織につき 1 TB とライセンスの購入に 10 GB |1 組織につき 1 TB とライセンスの購入に 10 GB  |1 組織につき 1 TB           |
+|ストレージ                 |1 組織につき 1 TB とライセンスの購入に 10 GB  |1 組織につき 1 TB とライセンスの購入に 10 GB  |1 組織につき 1 TB とライセンスの購入に 10 GB   |1 組織につき 1 TB とライセンスの購入に 10 GB |1 組織につき 1 TB とライセンスの購入に 10 GB  |1 組織につき 1 TB           |
 |チームのファイル用のストレージ |サイト コレクションまたはグループごとに最大 25 TB |サイト コレクションまたはグループごとに最大 25 TB |サイト コレクションまたはグループごとに最大 25 TB |サイト コレクションまたはグループごとに最大 25 TB |サイト コレクションまたはグループごとに最大 25 TB |サイト コレクションまたはグループごとに最大 25 TB |
 |ファイルのアップロード制限       |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
 
@@ -82,7 +79,7 @@ SharePoint Online ドキュメント ライブラリと OneDrive for Business �
 |---------|---------|---------|---------|---------|
 |メッセージ サイズの制限&dagger;  |25 KB   |25 KB   |25 KB   |25 KB   |
 |ファイルの添付ファイルの制限&Dagger;  | 10     | 10     | 10     | 10    |
-|インライン イメージを制限します。&Dagger; |50%   |50%   |50%   |50%   |
+|インライン イメージを制限します。&Dagger; |50   |50   |50   |50   |
 
 &dagger;メッセージがこの制限を超える場合プレビュー メッセージが生成され、提供されているリンクからのメールに元の表示/ダウンロードをユーザーに求めては。
 
