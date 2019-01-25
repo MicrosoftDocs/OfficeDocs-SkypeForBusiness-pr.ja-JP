@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: Skype からの社内のビジネス オンラインへのユーザーを移動する方法について説明します。
-ms.openlocfilehash: fadb3a485cac691a97f0786aea78000b6b48c344
-ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
+ms.openlocfilehash: 7032e7f2968b7861a7fac199fd8ba949980fe770
+ms.sourcegitcommit: f091c351bec56219a8c91b8c12b9c1f5c5983c95
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "27247687"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "29530944"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>移動ユーザーが社内のクラウドに 
 
@@ -24,7 +24,7 @@ ms.locfileid: "27247687"
 > [!Important]
 > TeamsOnly モードで、ユーザーが以前にあったと CU8 のビジネス サーバー 2015 の Skype より以前のバージョンを使用している場合、そのユーザーの TeamsUpgradePolicy の TeamsOnly のモードの割り当ても削除しなければなりません。 オンプレミス ユーザーはモード = TeamsOnly。  ビジネス サーバーの Skype の以降のバージョンは、この割り当てを自動的に削除します。 詳細については、[補助金 CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsupgradepolicy)を参照してください。
 
-## <a name="prerequisites"></a>必要条件
+## <a name="prerequisites"></a>前提条件
 
 - 組織では、Azure AD 接続が正しく構成されている必要があり、[構成の Azure AD 接続](configure-azure-ad-connect.md)の説明に従って、ユーザーのすべての関連属性が同期します。
 - 移動中のユーザーにオンライン バックアップからの社内は、オンプレミスの Active Directory に存在していなければなりません。
@@ -35,7 +35,7 @@ ms.locfileid: "27247687"
 移動すると、ユーザー、クラウドから戻る設置。
 
 - ビジネス サーバー配置では、機能のため、Skype では、ユーザーが操作します。 
-- ビジネス オンラインの Skype で存在していた取引先担当者は、ビジネスのサーバーの Skype に移行されます。 現時点では、チームに含まれる連絡先は移行されませんに設置型にします。
+- ビジネス オンラインまたはチームのいずれかの Skype で存在していた取引先担当者は、ビジネスのサーバーを Skype に移行されます。 連絡先の 2 つのセットがマージされ、社内に移行されます。  さらに、チームで既存の連絡先は、チーム内に残ります。
 - ユーザーには、チームが使用しても、ビジネス ユーザーは、Skype で相互運用することはありませんもになる、フェデレーション組織のユーザーと通信すること。
 - ビジネス オンラインの Skype での会議では、自動的に移行*されません*に設置型の。 ユーザーがいずれかのスケジュールを変更、会議や、必要な場合は、[会議の移行ツール](https://support.office.com/en-us/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)を使用します。
 
@@ -82,4 +82,4 @@ TeamsUpgradePolicy のユーザーの割り当てを削除するのには、Skyp
 
 ## <a name="see-also"></a>関連項目
 
-[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
+Move-CsUser

@@ -1,5 +1,5 @@
 ---
-title: チーム内のポリシーをメッセージングは何でしょうか。
+title: Teams でのメッセージング ポリシーについて
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,14 +16,14 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: メッセージング ポリシーとそれらを使用してメッセージング チームのチャットを制御する方法について説明します。
-ms.openlocfilehash: 7b9cb8a6a5c30806d44f5056e4dee0de79823841
-ms.sourcegitcommit: c6b62a64d198fe18ae53cf849d125c5143053456
+ms.openlocfilehash: 203acb58113d162e6752ca5d327b8575c58a7133
+ms.sourcegitcommit: f091c351bec56219a8c91b8c12b9c1f5c5983c95
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25453795"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "29530937"
 ---
-# <a name="what-are-messaging-policies-in-teams"></a>チーム内のポリシーをメッセージングは何でしょうか。
+# <a name="what-are-messaging-policies-in-teams"></a>Teams でのメッセージング ポリシーについて
 
 メッセージング ポリシーは、マイクロソフトのチームのユーザーに利用するチャットとチャネルのメッセージング機能を制御するために使用されます。 作成されるか、組織内の 1 つまたは複数のカスタム メッセージング ポリシーを作成する既定のポリシーを使用することができます。 ポリシーを作成したら、割り当てる、ユーザーまたはユーザー グループ、組織内。
 
@@ -37,6 +37,8 @@ ms.locfileid: "25453795"
 - **ユーザーが送信したメッセージを削除できます。** ユーザーがチャットで、送信するメッセージを削除できるようにするのにには、この設定を使用します。
 - **ユーザーが送信したメッセージを編集できます。** チャットで送信したメッセージを編集できるようにするのにには、この設定を使用します。
 - **開封**ユーザー制御、すべてのユーザーに対して有効または無効には、この設定を指定するかどうかの開封済みメッセージを使用します。
+<a name="bkchat"> </a>
+
 - **チャット** チームのアプリケーションを使用して、他のユーザーとチャットすることができる、組織内のユーザーをする場合は、この設定を有効にします。
 - **会話に Giphys を使用** これをオンにした場合、ユーザーは、他の人とチャットで会話 Giphys を含めることができます。 Giphy は、オンライン データベースと検索エンジンを検索し、アニメーション GIF ファイルを共有することができます。 各 Giphy は、コンテンツの格付けを割り当てられます。
 - **Giphy コンテンツの規制** 
@@ -51,4 +53,4 @@ ms.locfileid: "25453795"
 カスタム メッセージング ポリシーを作成した場合にのみアクティブになるユーザーのポリシーがユーザーに割り当てられている場合。  チームの管理センターのユーザーにカスタム ポリシーを割り当てるには左側のナビゲーションで**ユーザー**をクリックして、ポリシーを割り当てるユーザーを選択して、[**割り当てポリシー**の**編集**を選択し。
 
 ### <a name="related-topics"></a>関連トピック
-[チームでミーティングのポリシー](meeting-policies-in-teams.md)
+[Teams での会議ポリシー](meeting-policies-in-teams.md)
