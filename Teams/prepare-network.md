@@ -13,15 +13,19 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86c53b5eec6b332c820d827993e322f211c8a6dd
-ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
+ms.openlocfilehash: 2af8872253e2962322712a013cb3043a7da2d81b
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26716344"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562630"
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する
 =================================================
+
+> [!Tip]
+> については、次のセッションを監視するチームをするための方法、ネットワークとの最適なネットワーク接続の最適な計画を立てる方法を活用:[チーム ネットワークの計画](https://aka.ms/teams-networking)
+
 
 Teams は 3 つの形態のトラフィックを組み合わせて使用します。
 

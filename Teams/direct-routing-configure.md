@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Microsoft 電話システム直接ルーティングを構成する方法について説明します。
-ms.openlocfilehash: f89cae3569d5faf09e511439740485b40d91880e
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: 565d25566843a507cb875eb96f32531d2ee77caf
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729445"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562824"
 ---
 # <a name="configure-direct-routing"></a>直接ルーティングを構成する
 
@@ -57,7 +57,7 @@ SBC が既に設定されている SBC の製造元によって推奨されて�
 リモート PowerShell セッションを確立すると後を検証してください、SBC を管理するためにコマンドを表示することができます。 コマンドを検証するには、入力または PowerShell セッションで次のコピーと貼り付けし Enter キーを押します。 
 
 ```
-gcm *onlinePSTNGateway*
+Get-Command *onlinePSTNGateway*
 ```
 
 コマンドでは、ここで示すように、SBC を管理できるようになる 4 つの関数を返します。 

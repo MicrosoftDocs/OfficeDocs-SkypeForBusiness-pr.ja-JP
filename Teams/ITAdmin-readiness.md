@@ -12,12 +12,12 @@ search.appverid: MET150
 description: トレーニング ビデオ、チュートリアル、およびその他のリソースを計画する方法には、展開、およびマイクロソフトのチームを実行します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8f83869d715c01f678e112eb9170013f2f1b956
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: 8ed98c1d26d6116d95e91030f57e92af9ebae61e
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201342"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562598"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 
@@ -146,6 +146,9 @@ ms.locfileid: "27201342"
                     <div class="cardText">
                         <h3>チームワーク</h3>
                          <p><a href="https://aka.ms/edx-cld267x-about">コース: マイクロソフトのチームとチームワークを有効にします。</a></p>
+                         <p><a href="https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b">ビデオ: チームを稼動させる</a></p>
+                         <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">チームの所有者のガイドを目指すビデオ:</a></p>
+                         <p><a href="create-an-org-wide-team.md">記事: チームで組織全体にわたるチームを作成します。</a></p>
                     </div>
                 </div>
             </div>
@@ -166,7 +169,7 @@ ms.locfileid: "27201342"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>計画し、展開</h3>
+                        <h3>計画の & を導入します。</h3>
                          <p><a href="quick-start-enable-teams.md">クイック スタート: Teams の計画ガイド</a></p>
                          <p><a href="http://aka.ms/teams-clients">ビデオ: チームの Windows デスクトップ クライアント</a></p>
                          <p><a href="http://aka.ms/teams-governance">ビデオ: 管理、管理、およびマイクロソフトのチームでのライフ サイクル</a></p>
@@ -191,10 +194,9 @@ ms.locfileid: "27201342"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>チームとチャネル</h3>
-                         <p><a href="https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b">ビデオ: チームを稼動させる</a></p>
-                         <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">チームの所有者のガイドを目指すビデオ:</a></p>
-                         <p><a href="create-an-org-wide-team.md">記事: チームで組織全体にわたるチームを作成します。</a></p>
+                        <h3>ネットワーク & の通話の音質</h3>
+                         <p><a href="https://aka.ms/teams-quality">ビデオ: 通話品質の概要</a></p>
+                         <p><a href="https://aka.ms/teams-networking">ビデオ: ネットワークの計画</a></p>
                     </div>
                 </div>
             </div>
@@ -228,7 +230,7 @@ ms.locfileid: "27201342"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>アプリケーションとツール</h3>
+                        <h3>アプリ & ツール</h3>
                         <p><a href="https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3">ビデオ: タブのツールを追加します。</a></p>
                         <p><a href="https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b">[コマンド] ボックスを使用するビデオ。</a></p>
                         <p><a href="https://www.youtube.com/watch?v=wYrRCRphrp0">ビデオ: コマンド バーの概要</a></p>

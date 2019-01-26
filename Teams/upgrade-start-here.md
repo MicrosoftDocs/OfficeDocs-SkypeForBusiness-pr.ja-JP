@@ -1,5 +1,5 @@
 ---
-title: はじめに、マイクロソフトのチームでのアップグレード
+title: Microsoft Teams へのアップグレードを開始する
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -14,14 +14,14 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9bade1b333accd5b39fb777894e2eaf3b06c6cc9
-ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
+ms.openlocfilehash: bc428a6e4e256a38248e66a99d5a95b668e5eeb6
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015356"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562761"
 ---
-# <a name="getting-started-with-your-microsoft-teams-upgrade"></a>はじめに、マイクロソフトのチームでのアップグレード
+# <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Microsoft Teams へのアップグレードを開始する
 
 ## <a name="why-upgrade-to-microsoft-teams"></a>マイクロソフトのチームをアップグレードする理由は?
 
@@ -47,3 +47,10 @@ ms.locfileid: "28015356"
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
+
+> [!Tip]
+> Skype for Business から Microsoft Teams へのアップグレードについては、次のセッションをご覧ください。
+> - [アップグレードの概要](https://aka.ms/teams-upgrade-intro)
+> - [アップグレードの計画](https://aka.ms/teams-upgrade-plan)
+> - [共存および相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [管理者のエクスペリエンス](https://aka.ms/teams-upgrade-admin)

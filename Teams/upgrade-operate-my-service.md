@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0ee02c2d8b8303bb353c2ebf1e30a72cc0e4f17
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 9b455d7599f5de8e2eb76f560e593eb5e409ecae
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349390"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562800"
 ---
 ![オペレーショナル ・ エクセレンスの段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-op-excellence.png "オペレーショナル ・ エクセレンスの段階に重点を置いて、旅アップグレードの段階")
 
@@ -165,7 +165,7 @@ Office 365 サービスの稼働状態および変更をプログラムでアク
 
 ### <a name="monitoring-for-change"></a>変更の監視
 
-変更管理の最初の手順は、チームに計画されている変更を監視されています。 これらの変更を監視するためには、 [Office 365 のロードマップ](https://products.office.com/business/office-365-roadmap)を開発、展開されることに、顧客に現在のまたは完全に起動される機能の一覧を表示します。 チーム固有の機能を探して指定すると、フィルターを使用してまたはロードマップをダウンロードするには詳細な分析を Excel ファイルにします。 ロードマップは、各機能と予測されるリリース日の簡単な説明を示します。
+変更管理の最初の手順は、チームに計画されている変更を監視されています。 これらの変更を監視するためには、 [Microsoft 365 のロードマップ](https://www.microsoft.com/microsoft-365/roadmap)を開発、展開されることに、顧客に現在のまたは完全に起動される機能の一覧を表示します。 チーム固有の機能を探して指定すると、フィルターを使用してまたはロードマップをダウンロードするには詳細な分析を Excel ファイルにします。 ロードマップは、各機能と予測されるリリース日の簡単な説明を示します。
 
 [マイクロソフト チームのブログ](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)のことができます、に関するベスト ・ プラクティス、傾向、およびチームの製品の更新プログラムに関するニュースについて説明します。 ここで発表予定のチームの主要な機能の更新プログラムを検索しようとしてください。 また、RSS フィードからブログを購読できます。 チームの内部に直接すべての重要なお知らせが配信されるので、チームのチャネルに直接[RSS フィード](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog)を追加することができます。
 

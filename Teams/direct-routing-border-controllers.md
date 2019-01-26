@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: SBCs を証明する、選択した SBC ベンダーとマイクロソフトのパートナーは、直接ルーティング機能します。
-ms.openlocfilehash: 0230828c9aef49f8979c30d19c1d2d5e15779d84
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 611c7a4b7315b2c463ffffe8166eaeee7b6b7b7a
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326844"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562769"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
@@ -60,7 +60,7 @@ ms.locfileid: "28326844"
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   保留中    |      V7.0.2      |
 |                                                                                                                     |    SBC のスウェーデン語のライト     |     &#10004;     |   保留中    |      V7.0.4      |
 |                     [ThinkTel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   保留中    |       V1.4       |
-|                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    AP 3900       |   保留中    |   保留中  |   保留中    |
-|                                                                                                                     |      AP 4600         |    保留中    |   保留中    |      保留中      |
-|                                                                                                                     |      VME             |    保留中    |   保留中    |      保留中      |
+|                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    AP 3900       |    &#10004;     |   保留中  |   ECZ8.1.0 MR 1 GA (ビルド 145)  |
+|                                                                                                                     |      AP 4600         |    &#10004;   |   保留中    |     ECZ8.1.0 MR 1 GA (ビルド 145)  |
+|                                                                                                                     |      VME             |    &#10004;    |   保留中    |     ECZ8.1.0 MR 1 GA (ビルド 145)     |
 |                     [TE システム](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |   保留中    |      v3.16.2      |
