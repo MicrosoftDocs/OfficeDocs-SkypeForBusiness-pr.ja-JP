@@ -1,0 +1,80 @@
+---
+title: マイクロソフトのチームでの通話プラン
+author: CarolynRowe
+ms.author: crowe
+manager: serdars
+ms.date: 01/28/2019
+ms.topic: article
+ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
+ms.reviewer: crowe
+search.appverid: MET150
+description: 計画のランディング ページを呼び出す
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: d3299460eeb504c53737d163a6026081775fce5d
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29595413"
+---
+# <a name="phone-system-with-calling-plans"></a><span data-ttu-id="312f8-103">通話プランが設定された電話システム</span><span class="sxs-lookup"><span data-stu-id="312f8-103">Phone System with Calling Plans</span></span> 
+
+<span data-ttu-id="312f8-104">[開始](get-started-with-teams-quick-start.md)するが完了しました。</span><span class="sxs-lookup"><span data-stu-id="312f8-104">You've completed the [Get started](get-started-with-teams-quick-start.md).</span></span> <span data-ttu-id="312f8-105">出てくるチーム[チャット、チーム、チャネル、& のアプリケーション](deploy-chat-teams-channels-microsoft-teams-landing-page.md)を組織全体にわたって。</span><span class="sxs-lookup"><span data-stu-id="312f8-105">You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization.</span></span> <span data-ttu-id="312f8-106">かもしれません[& 会議の会議](deploy-meetings-microsoft-teams-landing-page.md)を導入しました。</span><span class="sxs-lookup"><span data-stu-id="312f8-106">Maybe you've deployed [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md).</span></span> <span data-ttu-id="312f8-107">クラウド音声のワークロードを追加する準備が整いましたし、を公衆交換電話網 (PSTN) を接続する計画を呼び出すことでマイクロソフトの電話システムを使用すると判断しました。</span><span class="sxs-lookup"><span data-stu-id="312f8-107">Now you're ready to add cloud voice workloads, and you've decided to use Microsoft Phone System with Calling Plan to connect to the Public Switched Telephone Network (PSTN).</span></span> 
+
+<span data-ttu-id="312f8-108">この資料を構成すること、組織のニーズに基づいて計画を呼び出すと、追加の考慮事項の中核となる展開の決定について説明します。</span><span class="sxs-lookup"><span data-stu-id="312f8-108">This article describes core deployment decisions for Calling Plans as well as additional considerations you may want to configure, based on your organization's needs.</span></span> <span data-ttu-id="312f8-109">マイクロソフトのクラウドの音声サービスの詳細については[マイクロソフトのチームでのクラウドの音声](cloud-voice-landing-page.md)を参照することもあります。</span><span class="sxs-lookup"><span data-stu-id="312f8-109">You should also read [Cloud Voice in Microsoft Teams](cloud-voice-landing-page.md) for more information about Microsoft's cloud voice offerings.</span></span>
+
+
+## <a name="learn-more-about-calling-plans"></a><span data-ttu-id="312f8-110">プランの呼び出しの詳細については</span><span class="sxs-lookup"><span data-stu-id="312f8-110">Learn more about Calling Plans</span></span>
+
+<span data-ttu-id="312f8-111">次の記事では、展開して、マイクロソフトでは予定の呼び出しを使用しての詳細についてを提供します。</span><span class="sxs-lookup"><span data-stu-id="312f8-111">The following articles provide more information about deploying and using Microsoft Calling Plans:</span></span>
+
+- [<span data-ttu-id="312f8-112">Office 365 での電話システム</span><span class="sxs-lookup"><span data-stu-id="312f8-112">Phone System in Office 365</span></span>](what-is-phone-system-in-office-365.md)
+- [<span data-ttu-id="312f8-113">Office 365 の通話プラン</span><span class="sxs-lookup"><span data-stu-id="312f8-113">Calling Plans for Office 365</span></span>](calling-plans-for-office-365.md)
+- [<span data-ttu-id="312f8-114">通話プランのセットアップ</span><span class="sxs-lookup"><span data-stu-id="312f8-114">Set up Calling Plans</span></span>](set-up-calling-plans.md)
+
+
+## <a name="core-deployment-decisions"></a><span data-ttu-id="312f8-115">コアの配置の決定</span><span class="sxs-lookup"><span data-stu-id="312f8-115">Core deployment decisions</span></span>
+
+<span data-ttu-id="312f8-116">テレフォニー キャリアでは、Microsoft を使用するには、計画を呼び出してライセンスを取得し、電話システムのユーザーに割り当てる必要があります。</span><span class="sxs-lookup"><span data-stu-id="312f8-116">To use Microsoft as your telephony carrier, you need to obtain Calling Plan licenses and assign them to your Phone System users.</span></span> 
+
+<span data-ttu-id="312f8-117">利用は 2 種類のプランを呼び出すことがあります。</span><span class="sxs-lookup"><span data-stu-id="312f8-117">There are two types of Calling Plans available:</span></span>
+
+- <span data-ttu-id="312f8-118">国内通話プラン</span><span class="sxs-lookup"><span data-stu-id="312f8-118">Domestic Calling Plans</span></span> 
+- <span data-ttu-id="312f8-119">国内または国際通話プラン</span><span class="sxs-lookup"><span data-stu-id="312f8-119">Domestic and International Calling Plans</span></span>
+
+|<span data-ttu-id="312f8-120">確認してください。</span><span class="sxs-lookup"><span data-stu-id="312f8-120">Ask yourself</span></span>|<span data-ttu-id="312f8-121">アクション</span><span class="sxs-lookup"><span data-stu-id="312f8-121">Action</span></span> |
+|------------|-------|
+|<span data-ttu-id="312f8-122">計画を呼び出して自分の地域ではでしょうか。</span><span class="sxs-lookup"><span data-stu-id="312f8-122">Are Calling Plans available in my area?</span></span> <span data-ttu-id="312f8-123">どのユーザーの場所には、サービスの計画を呼び出すことはありますか。</span><span class="sxs-lookup"><span data-stu-id="312f8-123">Which user locations will have Calling Plan service?</span></span> | <span data-ttu-id="312f8-124">詳細については、[オーディオ会議や予定を呼び出すための国および地域の可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="312f8-124">For more information, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</span></span> | 
+<span data-ttu-id="312f8-125">ユーザーに国際通話が必要ですか。</span><span class="sxs-lookup"><span data-stu-id="312f8-125">Do my users need international calling?</span></span> | <span data-ttu-id="312f8-126">詳細については、 [Office 365 のプランを呼び出す](calling-plans-for-office-365.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="312f8-126">For more information, see [Calling Plans for Office 365](calling-plans-for-office-365.md).</span></span> |
+<span data-ttu-id="312f8-127">自分のユーザーにはライセンスの計画を呼び出すことがありますか。</span><span class="sxs-lookup"><span data-stu-id="312f8-127">Do my users have Calling Plans licenses?</span></span> | <span data-ttu-id="312f8-128">購入し、ライセンスを割り当てるを参照してください[手順 2: を購入し、ライセンスを割り当てる](set-up-calling-plans.md#step-2-buy-and-assign-licenses)。</span><span class="sxs-lookup"><span data-stu-id="312f8-128">To buy and assign licenses, see [Step 2: Buy and assign licenses](set-up-calling-plans.md#step-2-buy-and-assign-licenses).</span></span> |
+<span data-ttu-id="312f8-129">各ユーザーには直接内側 (DID) 電話番号をダイヤルがありますか。</span><span class="sxs-lookup"><span data-stu-id="312f8-129">Do my users each have a direct inward dial (DID) phone number?</span></span> | <span data-ttu-id="312f8-130">電話番号を取得するを参照してください[手順 3: 電話番号を取得する](set-up-calling-plans.md#step-3-get-phone-numbers)です。</span><span class="sxs-lookup"><span data-stu-id="312f8-130">To get phone numbers, see [Step 3: Get phone numbers](set-up-calling-plans.md#step-3-get-phone-numbers).</span></span> |
+|||
+
+### <a name="transfer-phone-numbers-to-office-365"></a><span data-ttu-id="312f8-131">Office 365 に電話番号を移行する</span><span class="sxs-lookup"><span data-stu-id="312f8-131">Transfer phone numbers to Office 365</span></span>
+
+<span data-ttu-id="312f8-132">チーム、現在のサービス プロバイダーから自分の電話番号に転送するのには簡単です。</span><span class="sxs-lookup"><span data-stu-id="312f8-132">It's easy to transfer your phone numbers from your current service provider to Teams.</span></span> <span data-ttu-id="312f8-133">チームに自分の電話番号を移植した後、Microsoft は、サービス ・ プロバイダーになり、に対する料金を請求している電話番号。</span><span class="sxs-lookup"><span data-stu-id="312f8-133">After you port your phone numbers to Teams, Microsoft will become your service provider and will bill you for those phone numbers.</span></span> <span data-ttu-id="312f8-134">詳細については、 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="312f8-134">For more information, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).</span></span>
+
+
+### <a name="phone-numbers-and-emergency-locations"></a><span data-ttu-id="312f8-135">電話番号と緊急対応の場所</span><span class="sxs-lookup"><span data-stu-id="312f8-135">Phone numbers and emergency locations</span></span>
+
+<span data-ttu-id="312f8-136">Office 365 のプランを呼び出すこと、内向きの一意な直通を組織のニーズのすべてのユーザーは、番号と対応する検証済みの緊急アドレス電話 (でした)。</span><span class="sxs-lookup"><span data-stu-id="312f8-136">With Calling Plans in Office 365, every user in your organization needs to have a unique direct inward dial (DID) phone number and a corresponding validated emergency address.</span></span> <span data-ttu-id="312f8-137">緊急のアドレス (オフィス番号またはフロア番号など) では、緊急の場所を指定することもできます。</span><span class="sxs-lookup"><span data-stu-id="312f8-137">You can also specify an emergency location within the emergency address (for example, an office number or floor number).</span></span> 
+
+|<span data-ttu-id="312f8-138">確認してください。</span><span class="sxs-lookup"><span data-stu-id="312f8-138">Ask yourself</span></span>|<span data-ttu-id="312f8-139">アクション</span><span class="sxs-lookup"><span data-stu-id="312f8-139">Action</span></span> |
+|:------------|:-------|
+|<span data-ttu-id="312f8-140">詳細な方法が必要に緊急時のアドレスと場所の情報か、</span><span class="sxs-lookup"><span data-stu-id="312f8-140">How detailed do I want the emergency address and location information to be?</span></span> |<span data-ttu-id="312f8-141">詳細についてを参照してください[緊急の場所、住所、および通話のルーティングには何ですか?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)です。</span><span class="sxs-lookup"><span data-stu-id="312f8-141">For more information, see [What are emergency locations, addresses, and call routing?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing).</span></span>
+
+
+### <a name="calling-identity"></a><span data-ttu-id="312f8-142">発信者番号</span><span class="sxs-lookup"><span data-stu-id="312f8-142">Calling identity</span></span>
+
+<span data-ttu-id="312f8-143">既定では、すべての発信呼び出しは、呼び出し元の id (呼び出し元 ID) として割り当てられた電話番号を使用します。</span><span class="sxs-lookup"><span data-stu-id="312f8-143">By default, all outbound calls use the assigned phone number as calling identity (caller ID).</span></span> <span data-ttu-id="312f8-144">通話の受信者は即座にその発信者を識別して通話を受け入れるか拒否するか決めることができます。</span><span class="sxs-lookup"><span data-stu-id="312f8-144">The recipient of the call can quickly identify the caller and decide whether to accept or reject the call.</span></span>
+
+|<span data-ttu-id="312f8-145">確認してください。</span><span class="sxs-lookup"><span data-stu-id="312f8-145">Ask yourself</span></span>|<span data-ttu-id="312f8-146">アクション</span><span class="sxs-lookup"><span data-stu-id="312f8-146">Action</span></span> |
+|:------------|:-------|
+|<span data-ttu-id="312f8-147">マスクしたり、発信者番号通知を無効にするか。</span><span class="sxs-lookup"><span data-stu-id="312f8-147">Do I want to mask or disable caller ID?</span></span> | <span data-ttu-id="312f8-148">呼び出し元 ID のブロックを変更または、[ユーザーの発信者番号の設定](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="312f8-148">To change or block the caller ID, see [Set the caller ID for a user](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user).</span></span> |
+|||
+
+
+
+
