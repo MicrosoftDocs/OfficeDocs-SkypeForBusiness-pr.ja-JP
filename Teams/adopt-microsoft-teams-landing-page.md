@@ -13,16 +13,16 @@ ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c21eb588b899c6a0b4acd4e25eb79d54750e956
-ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
+ms.openlocfilehash: 41b2b503e9a3a0f3e5957879e99ffb431596d1ee
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27264911"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594343"
 ---
 # <a name="adopt-microsoft-teams"></a>Microsoft Teams を導入する
 
-あなたがスモール ビジネスの場合、またはチャットを開始するチームを展開する場合は、チームとチャネル、および会議を使用して、規範的な[を取得ガイダンスを開始](get-started-with-teams-landing-page.md)、すばやく準備して実行するために設計されていますが。 ハイブリッドと大規模な組織の場合またはオンプレミス Skype のビジネスの構成で起動することができます (Office 365 のプランや電話システムを呼び出すこと) などの音声機能を展開する場合は、または、はじめにガイダンスでは、追加する必要があります**採用ガイダンスのより深いレベル**で、下のガイダンスです。
+あなたがスモール ビジネスの場合、またはチャットを開始するチームを展開する場合は、チームの & チャネル、および会議を使用して、規範的な[を取得ガイダンスを開始](get-started-with-teams-quick-start.md)、すばやく準備して実行するために設計されていますが。 ハイブリッドと大規模な組織の場合またはオンプレミス Skype のビジネスの構成で起動することができます (Office 365 のプランや電話システムを呼び出すこと) などの音声機能を展開する場合は、または、はじめにガイダンスでは、追加する必要があります**採用ガイダンスのより深いレベル**で、下のガイダンスです。
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -109,7 +109,7 @@ ms.locfileid: "27264911"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>トレーニングと認定</h3>
+                        <h3>トレーニング & 認定</h3>
                     </div>
                 </div>
             </div>

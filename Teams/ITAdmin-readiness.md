@@ -12,12 +12,12 @@ search.appverid: MET150
 description: トレーニング ビデオ、チュートリアル、およびその他のリソースを計画する方法には、展開、およびマイクロソフトのチームを実行します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ed98c1d26d6116d95e91030f57e92af9ebae61e
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: c394a2259223dfb7fc5ab233a2de604af2174d13
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562598"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593911"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 
@@ -170,7 +170,7 @@ ms.locfileid: "29562598"
                 <div class="card">
                     <div class="cardText">
                         <h3>計画の & を導入します。</h3>
-                         <p><a href="quick-start-enable-teams.md">クイック スタート: Teams の計画ガイド</a></p>
+                         <p><a href="deploy-chat-teams-channels-microsoft-teams-landing-page.md">チャット、チーム、チャネル、およびマイクロソフトのチームでのアプリケーションを展開します。</a></p>
                          <p><a href="http://aka.ms/teams-clients">ビデオ: チームの Windows デスクトップ クライアント</a></p>
                          <p><a href="http://aka.ms/teams-governance">ビデオ: 管理、管理、およびマイクロソフトのチームでのライフ サイクル</a></p>
                     </div>
