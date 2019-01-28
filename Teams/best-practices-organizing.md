@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43c619f8d053d0d06b9b5494d812eea541869922
-ms.sourcegitcommit: 72afa227b917f9fabd278fc7bea9d515b5d53def
+ms.openlocfilehash: a4a839e7f903e232a3ebfe76056cfb97f2bc8219
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26670932"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594111"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Microsoft Teams でチームを編成するためのベスト プラクティス
 ======================================================
@@ -51,7 +51,7 @@ ms.locfileid: "26670932"
 -  お知らせに使用またはこのチャネルに、最新のステータス ・ レポートを投稿するのには SharePoint のニュースのコネクタを構成します。  
 -  新規または 1 つの目的のチームのチームが最適なサポート方法、目標を決定するように、チャンネルだけが先頭がある可能性があります。
 
-削除することはできません現時点では、unfavorite または一般的なチャネルです。 チャネルの名前を付けるときは、一般的なチャネルの後、チャンネルをアルファベット順に並んで、覚えておいてください。  多くのチャネルを持つチームでは、チームに移動したときに自動的に表示するチャンネルを制御するのに「お気に入りチャンネル」機能を使用します。 
+削除することはできません現時点では、unfavorite または一般的なチャネルです。 チャネルの名前を付けるときは、一般的なチャネルの後、チャンネルをアルファベット順に並んで、覚えておいてください。 多くのチャネルを持つチームでは、チームに移動したときに自動的に表示するチャンネルを制御するのに「お気に入りチャンネル」機能を使用します。 
 
 詳細について[チャネルで動作して](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels)これらの簡単なヒントとエンド ・ ユーザー向けです。 
 

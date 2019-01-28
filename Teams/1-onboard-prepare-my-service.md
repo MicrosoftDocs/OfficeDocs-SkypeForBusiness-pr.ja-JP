@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 335d5baac6f13d899b8d6f9875a419d86da1b6af
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: cdcf5bd3da33463d39f8681a41d7299f3d66e727
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374318"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593935"
 ---
 # <a name="prepare-my-service"></a>サービスを準備します。
 
@@ -41,7 +41,7 @@ ms.locfileid: "25374318"
 タスクとこれらのチェックリストでの作業は、チームと音声機能をクラウドのそれぞれの配置に適用されるコアの"to do"アイテムです。 活動と自分のチームの旅に特有のタスクを含むようにチェックリストをカスタマイズできます。
 
 >[!NOTE]
->このガイドでは、計画を呼び出して、オーディオ会議、および直接ルーティングだけに焦点を当てています。 チームに新しい場合は、[マイクロソフトのチームの概要](teams-overview.md)を確認します。 チーム展開を計画するための一般的なガイダンスは、 [Microsoft のチームの計画ガイド 』](quick-start-enable-teams.md)を参照してください。
+>このガイドでは、計画を呼び出して、オーディオ会議、および直接ルーティングだけに焦点を当てています。 チームに新しい場合は、[マイクロソフトのチームの概要](teams-overview.md)を確認します。 チーム展開を計画するための一般的なガイダンスは、[展開のチャット、チーム、チャネル、およびマイクロソフトのチームでのアプリケーション](deploy-chat-teams-channels-microsoft-teams-landing-page.md)を起動します。
 
 個々 のアクティビティとタスクのステータスを追跡するために提供されているチェックリストを使用しの重要な手順をスキップしていないことを確認します。 各アクティビティには、必要なアクションとそのアクティビティを完了するのに使用できるその他の情報への参照の詳細な説明が含まれています。
 
@@ -50,7 +50,7 @@ ms.locfileid: "25374318"
 サイトごとに契約時のユーザーが表示されたら、以下のチェックリストの補足ガイドとしては、[サイトの有効化の戦略 (戦略) の音声](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)を使用することを強く推奨します。
 
 >[!NOTE]
->ほとんどの構成設定は、チームと Skype のオンライン ビジネスの間で共通です。 これらの設定を構成するのには、Office 365 管理者センターとチームとビジネス管理センターの Skype を使用します。
+>ほとんどの構成設定は、チームと Skype のオンライン ビジネスの間で共通です。 これらの設定を構成するのには、Office 365 管理者センターとチームの & ビジネス管理センターの Skype を使用します。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>契約時チェックリストの完了を監督する責任者がされますか。</li></ul></td></tr>
@@ -114,18 +114,18 @@ ms.locfileid: "25374318"
 
 - [Skype for Business および Microsoft Teams の電話会議のセットアップ](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
 
-- [通話プランと電話システムの計画技術](phone-system-with-calling-plans.md#technical-planning-for-phone-system-with-calling-plans)
+- [通話プランと電話システムの計画技術](calling-plan-landing-page.md)
 
 - [設定計画を呼び出す Skype のビジネスおよびマイクロソフトのチーム](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
-- [直接ルーティングを計画します。](https://docs.microsoft.com/microsoftteams/direct-routing-plan)
+- [ダイレクト ルーティングを計画する](https://docs.microsoft.com/microsoftteams/direct-routing-plan)
 
-- [直接ルーティングを構成します。](https://docs.microsoft.com/microsoftteams/direct-routing-configure)
+- [直接ルーティングを構成する](https://docs.microsoft.com/microsoftteams/direct-routing-configure)
 
 ### <a name="execute-the-test-plan"></a>テスト計画を実行します。
 
 [//]: # (Ok で編集しますか。「ユーザー」は、自分に少しあいまいな思えました。)
-ユーザー環境とサービスを構成すると、テストの最後の手順には、機能と機能の検証でのフォーカスのあるテスト計画の実行が含まれています。 
+ユーザー環境とサービスを構成すると、テストの最後の手順には、機能と機能の検証でのフォーカスのあるテスト計画の実行が含まれています。 
 
 **電話会議のスコープ内のユーザーとサイトの前提条件をテストします。**
 
@@ -137,7 +137,7 @@ ms.locfileid: "25374318"
 
 -   言語の優先順位の番号にダイヤルを専用または共有の電話会議の一覧を特定して構成します。
 
--   [通信のクレジット](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)(必要な場合)、組織用に設定されています。
+-   [通信のクレジット](what-are-communications-credits.md)(必要な場合)、組織用に設定されています。
 
 -   オーディオ会議会議ブリッジの設定がされている識別し、(暗証番号 (pin) の長さ、開始/終了の通知、通知の基本設定を有効化) を構成します。
 
@@ -155,7 +155,7 @@ ms.locfileid: "25374318"
 
 -   ユーザーに割り当てられる電話番号を取得またはマイクロソフトとテナント ポータルで利用するように移植されました。
 
--   [通信のクレジット](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)(必要な場合)、組織用に設定されています。
+-   [通信のクレジット](what-are-communications-credits.md)(必要な場合)、組織用に設定されています。
 
 -   テナント ユーザー ポリシーとダイヤル プランの設定を呼び出すことを計画のシナリオをサポートする識別、構成、および適用。
 

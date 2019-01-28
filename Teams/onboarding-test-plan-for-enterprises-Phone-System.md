@@ -1,5 +1,5 @@
 ---
-title: 企業は、マイクロソフト チームの計画を呼び出すと、電話システムの計画をテストします。
+title: Microsoft Teams の通話プランが設定された電話システムのエンタープライズ テスト計画
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 995635ed8a7f3c9a9a5d4291652208246c3f9697
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: 85774296ad871d7d9d036a660299cc88099c4de6
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694791"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594063"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>定義し、企業のチームのテスト計画での計画を呼び出すと、電話のシステムを文書化 
 ============================================================================================
@@ -72,8 +72,8 @@ ms.locfileid: "28694791"
 <a name="define-phone-system-with-calling-plans-feature-requirements"></a>機能要件の計画を呼び出すことで電話システムを定義します。 
 ------------------------------------------------------------
 
-[ペルソナ分析](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#assess-environment-and-evaluate-adoption-readiness)、計画を呼び出すと、電話のシステムを定義するには Envision フェーズ中に作成した最初の手順のいずれかのスコープ内のユーザーの機能要件の計画を呼び出すことで電話システムの定義の一部として、ペルソナとシナリオです。
-このベースラインを識別すると、次の手順を決定するのには最新のチーム パブリック ロードマップを評価するためには。
+スコープ内のユーザーの機能要件の計画を呼び出すことで電話システムの定義の一部として、[計画を呼び出すと、電話システム](calling-plan-landing-page.md)を参照してください。
+次に、最新のチーム パブリックのロードマップを決定を評価してください。
 
 -   スコープ内のユーザーに対して展開することの計画を呼び出す機能を持つ電話システムです。
 

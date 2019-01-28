@@ -12,12 +12,12 @@ description: Microsoft Teams での Cloud Voice の機能の展開について�
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 085f2ff382c33f6914454fd1633054fd3e4602ca
-ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
+ms.openlocfilehash: b2b57b7c39dc129c485943c5048a8d4b6441d942
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015334"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594199"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議の記録
 
@@ -61,7 +61,7 @@ Microsoft ストリームは、対象の Office 365 サブスクリプション�
 
 Microsoft ストリームの管理者は、[会社の規定のポリシーを設定する](https://docs.microsoft.com/stream/company-policy-and-consent)には、従業員にコンテンツを保存する前にこのポリシーをそのまま使用する必要がありますユーザーする必要がありますようにマイクロソフトのチームでのレコーディングの前にします。 組織の記録機能をロールアウトする前にユーザーが、ポリシーに同意したことを確認します。
 
-### <a name="enabledisable-cloud-recording-for-users"></a>クラウドのユーザーの記録を有効または無効にします。
+### <a name="turn-on-or-turn-off-cloud-recording"></a>クラウド有効または無効の記録
 
 ユーザーの会議はできるかを記録するかどうかにコントロールするチーム PowerShell の TeamsMeetingPolicy で AllowCloudRecording の設定を使用します。 Office 365 の PowerShell での TeamsMeetingPolicy の管理に関する詳細については、[ここで](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
@@ -86,7 +86,7 @@ Microsoft ストリームの管理者は、[会社の規定のポリシーを設
 |      大半のユーザーを無効にするが、選択的に記録するために許可されている特定のユーザーを有効にするを記録したいです。       | <ol><li>確認するグローバル CsTeamsMeetingPolicy AllowCloudRecording = False<li>大半のユーザーが与えられて、グローバル CsTeamsMeetingPolicy またはいずれかの CsTeamsMeetingPolicy ポリシーの AllowCloudRecording を指定<li>AllowCloudRecording と CsTeamsMeetingPolicy のポリシーのいずれかの他のすべてのユーザーが与えられて = True <ol> |
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                        |
 
-### <a name="enabledisable-recording-transcription-for-users"></a>ユーザーの議事録の記録を有効または無効
+### <a name="turn-on-or-turn-off-recording-transcription"></a>有効にするまたは議事録の記録をオフにします。
 
 ユーザーは、チーム ミーティングを記録、議事録がミーティングを記録した後自動的に生成するかどうかを確認できます。 管理者には、会議の開催者と録音の開始側の議事録作成機能が無効になりますが、録音の開始側は、ミーティングのレコーディングの議事録を作成するを取得できません。
 

@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adb6aeca0892bb3ccd07c5d4dd60508424845b4c
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 66f7aafe353227c9602fbaecbd386a897aa021ea
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532170"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593887"
 ---
 # <a name="enhance-my-service"></a>サービスを強化します。
 
@@ -31,7 +31,7 @@ ms.locfileid: "26532170"
 
 さらに、組織が成長し、変更、ためにを再検討して、組織の現在のニーズを満たすために、サービスが構成されているかどうかを確認するのには一定の間隔で、ビジネス ユース ケースを更新する時間を講じてください。  組織内からのフィードバック チャネルを確立することによって、ユーザーと社内のエキスパートから現実の世界からのフィードバックを取得することを確認します。 これらは、非公式の会話では、定期的なミーティングや、チームでは、チャネルまたは Yammer コミュニティ。 
 
-サービスを強化するために営業案件が表示、右に時間がかかります。 実装の段階に戻って (https://docs.microsoft.com/MicrosoftTeams/quick-start-enable-teams) 、エンド ツー エンドの同一のガイダンスを適用します。 小さな変更を行う場合は、可能性のあるすべてのアクティビティとの完全なタスクを完了する必要がありますが、各アクティビティとタスクが成功した結果での最善の機会を持たせるための方法に沿って評価をする必要があることはできません。
+サービスを強化するために営業案件が表示、右に時間がかかります。 [展開のチャット、チーム、チャネル、およびマイクロソフトのチームでのアプリケーション](deploy-chat-teams-channels-microsoft-teams-landing-page.md)を再検討し、エンド ツー エンドの同一のガイダンスを適用します。 小さな変更を行う場合は、可能性のあるすべてのアクティビティとの完全なタスクを完了する必要がありますが、各アクティビティとタスクが成功した結果での最善の機会を持たせるための方法に沿って評価をする必要があることはできません。
 
 
 <table>

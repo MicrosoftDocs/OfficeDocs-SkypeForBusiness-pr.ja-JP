@@ -16,12 +16,12 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: cb8770b0929b46aa0e98e1429a11874756ed07e1
-ms.sourcegitcommit: d9059e8cb0a9b968ee16508f6bfcb5d949575590
+ms.openlocfilehash: 468a3c60b83784fb308165a5da835d451f2bc780
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "27733204"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594231"
 ---
 <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Microsoft Teams を無料で Office 365 月額プラン バージョンにアップグレードする
 ======================================================
@@ -86,7 +86,7 @@ Office 365 のサブスクリプションに含まれているチームの完全
 
 ## <a name="whats-next"></a>次は何ですか。
 
-アップグレードが完了したらを参照してください[マイクロソフトのチームを開始](get-started-with-teams-landing-page.md)[マイクロソフト チームの採用](adopt-microsoft-teams-landing-page.md)および最初のステップのチームの導入を段階的に組織全体にわたって。
+アップグレードが完了したらを参照してください[マイクロソフトのチームを開始](get-started-with-teams-quick-start.md)[マイクロソフト チームの採用](adopt-microsoft-teams-landing-page.md)および最初のステップのチームの導入を段階的に組織全体にわたって。
 
 ## <a name="more-information"></a>詳細情報
 

@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 702b126ac065b3fd84737cd0a6bb00f47c6d4991
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: eb254de21bfaf0ffb66a9c9177e5109a1b4eafc1
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694760"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593967"
 ---
 # <a name="make-my-service-decisions"></a>[サービスの決定を行う
 
@@ -135,7 +135,7 @@ Azure ボイスメール サービス、電源、電話システムのボイス�
 >[!NOTE]
 > 電話システムのボイスメールには、SMTP を使用してメッセージを再送できるフォールバック メカニズムが実装されています。このメカニズムにより、サードパーティの電子メールシステムを利用するユーザーがボイスメール メッセージを受信することができます。 このメカニズムには、保証されたサービスの稼働時間、またはボイス メール応答メッセージを変更するなど、他のボイスメール機能が含まれていません。
 
-電話システムの実装でボイスメールの詳細については、 [Azure の PBX のボイス メールが Exchange Server のサポート](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#licensing-for-calling-plans)を参照してください。
+電話システムの実装でボイスメールの詳細については、[計画を呼び出すと、電話システム](calling-plan-landing-page.md)を参照してください。
 
 <br>
 
@@ -174,9 +174,9 @@ Azure ボイスメール サービス、電源、電話システムのボイス�
 > 
 > |ユーザー  |発信における発信者番号のマスク処理の有効化  |発信者番号のマスク処理の種類  |ユーザーによる上書きの許可  | 受信における発信者番号のマスク処理の有効化  |
 > |---------|---------|---------|---------|---------|
-> |Emily Braun|いいえ|該当なし|○|いいえ|
+> |Emily Braun|いいえ|該当なし|はい|いいえ|
 > |Lidia Holloway|はい|サービス番号 (OrgAA、+44 20 7946 0000)|いいえ|あり|
-> |ルイ Lahr|いいえ|該当なし|○|いいえ|
+> |ルイ Lahr|いいえ|該当なし|はい|いいえ|
 > |Marcel Beauchamp|はい|サービス番号 (OrgAA、TBA)|いいえ|はい|
 > |Rachelle Cormier|はい|匿名化|はい|いいえ|
 > |Isabell Potvin|はい|サービス番号 (OrgAA、TBA)|いいえ|あり|
