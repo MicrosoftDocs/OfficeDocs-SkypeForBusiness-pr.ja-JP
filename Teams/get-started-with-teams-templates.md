@@ -1,9 +1,9 @@
 ---
-title: チーム テンプレートを使い始める
+title: Teams のテンプレートの使用を開始する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/10/2019
+ms.date: 01/25/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,14 +16,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ead0a3dc9e27b90c49808bcece0aab39bf01f13a
-ms.sourcegitcommit: 4c5b9e8c4bdb1187d610209d365680702d4372fd
+ms.openlocfilehash: d6b5059e5c0a4a7f49553758762905a1a3523389
+ms.sourcegitcommit: bb5fe98e73a794eb8154551a40276d9cd68bc2af
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27801465"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29603803"
 ---
-# <a name="get-started-with-teams-templates"></a>チーム テンプレートを使い始める 
+# <a name="get-started-with-teams-templates"></a>Teams のテンプレートの使用を開始する 
 
 チーム テンプレートのように設計されたビジネス ・ ニーズやプロジェクト チームの構造体の定義があらかじめ組み込まれており。 チャネルのさまざまなトピックの豊富なコラボレーション ・ スペースを簡単に作成し、ミッション ・ クリティカルなコンテンツとサービスを取得するアプリケーションをプレインストールするのには、チーム テンプレートを使用できます。 チーム テンプレートでは、組織全体で一貫性のあるチームを簡単に作成できる定義済みのチームの構造を提供します。 
 
@@ -58,178 +58,23 @@ ms.locfileid: "27801465"
 
 基本テンプレートの種類を定義すると、拡張したり、これらの特別なテンプレートを指定するには追加のプロパティをオーバーライドできます。 ですが、いくつかの基本テンプレートの種類が含まれているプロパティをオーバーライドすることはできません。 
 
-既定では、基本のテンプレートは、**標準的な**独自アプリケーションの追加や特別なプロパティが含まれていませんに設定されます。 次利用可能な基本テンプレートの種類の現在のリストに示します。
+既定では、基本のテンプレートは、**標準的な**独自アプリケーションの追加や特別なプロパティが含まれていませんに設定されます。 次利用可能な種類の基本テンプレートの現在のリストに示します。
 
-| 基本テンプレートの種類 | baseTemplateId | 基本テンプレート専用のアプリケーションや特殊なプロパティ |
+| 基本テンプレートの種類 | baseTemplateId | この基本テンプレートに用意されているプロパティ |
 | ------------------ | -------------- | ----------------------------------------------------- |
 | Standard | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`standard` | なしのアプリケーションの追加とプロパティ |
-| 教育- <br>チーム<sup>1</sup>をクラスします。 | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationClass` | アプリケーション:<ul><li>OneNote クラスのノートブック ([**全般**] タブに固定されている) </li><li>割り当てのアプリケーション ([**全般**] タブに固定されている)</li></ul> チームのプロパティ:<ul><li>チームの表示/非表示に設定 (オーバーライドできない) **HiddenMembership**</li></ul> |
-| 教育-<br>スタッフ チーム<sup>1</sup> | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationStaff` | アプリケーション:<ul><li>OneNote のスタッフのノートブック ([**全般**] タブに固定されている)</li></ul> |
+| 教育-<br>クラスのチーム | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationClass` | アプリケーション:<ul><li>OneNote クラスのノートブック ([**全般**] タブに固定されている) </li><li>割り当てのアプリケーション ([**全般**] タブに固定されている)</li></ul> チームのプロパティ:<ul><li>チームの表示/非表示に設定 (オーバーライドできない) **HiddenMembership**</li></ul> |
+| 教育-<br>スタッフ チーム | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationStaff` | アプリケーション:<ul><li>OneNote のスタッフのノートブック ([**全般**] タブに固定されている)</li></ul> |
 |教育-<br>PLC チーム |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationProfessionalLearningCommunity` | アプリケーション:<ul><li>OneNote PLC のノートブック ([**全般**] タブに固定されている)</ul></li>|
+| 小売-<br>ストア | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore` | チャネル:<ul><li>Shift キーをハンドオフ</li><li>学習</li></ul>チーム プロパティ<ul><li>チームの可視性がパブリックに設定</li></ul>メンバーのアクセス許可<ul><li>作成、更新、またはチャネルを削除してからメンバーを禁止します。</li><li>メンバーの追加またはアプリケーションを削除することを防ぐ</li><li>作成、更新、またはコネクタを削除してからメンバーを禁止します。</li></ul> |
+| 小売-<br>マネージャーのコラボレーション | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration` | チャネル:<ul><li>Shift キーをハンドオフ</li><li>学習</li></ul>チームのプロパティ:<ul><li>チームの可視性が Private に設定</li></ul>メンバーのアクセス許可:<ul><li>作成、更新、またはチャネルを削除してからメンバーを禁止します。</li><li>メンバーの追加またはアプリケーションを削除することを防ぐ</li><li>作成、更新、またはコネクタを削除してからメンバーを禁止します。</li></ul>|
+| 医療・<br>区全体 |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWardWide` |チャネル: <ul><li>お知らせ\*</li><li>ライトを呼び出す</li><li>お楽しみツール\*</li><li>Huddles\*<li>スケジュールと患者の調査\*</li><li>トレーニングと認定 </li><li>ラウンド\*</li></ul>\*自動お気に入りチャンネル |
+|医療・<br>病院全体 | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospitalWide` |チャネル:<ul><li>お知らせ\*</li><li>コンプライアンス\*</li><li>信託</li><li>財務</li><li>お楽しみツール\*</li><li>人事管理</li><li>研究所</li><li>患者の安全性と品質の向上\*</li><li>薬剤</li></ul>\*自動お気に入りチャンネル|
 |||
-
-遅延 10 月、2018年の<sup>1</sup>の文書
 
 > [!NOTE]
 > 追加されていく複数の基本テンプレート型の将来のマイクロソフトのチームのリリースに関する最新情報についてのチェックには、プロパティがサポートされているようです。
 
-## <a name="examples"></a>例 
-
-[Microsoft グラフ API](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)を使用してチームを作成するテンプレートを使用してを開始することができます。
-
-### <a name="create-a-team-from-a-template"></a>テンプレートからチームを作成します。
-
-#### <a name="requests"></a>要求
-
-**標準的な基本テンプレートを使用してチームを作成する要求**
-
-~~~
-POST /teams
-Authorization: Bearer <TOKEN>
-Content-Type: application/json
-{
-  "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/standard",
-  "displayName": "Sample Team",
-  "description": "Sample Team’s Description"
-}
-
-~~~
-
-**余分なチャネルを持つチームを作成し、チャンネルを削除してからメンバーを禁止するための要求**
-
-~~~
-POST /teams
-Authorization: Bearer <TOKEN>
-Content-Type: application/json
-{
-  "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/standard",
-  "displayName": "My Sample Team",
-  "description": "My Sample Team’s Description",
-  "channels": [
-    {
-        "displayName": "Random",
-        "isFavoriteByDefault": true
-    }
-              ],
-    "memberSettings": {
-        "allowDeleteChannels": false
-    }
-}
-
-~~~
-
-**要求がサポートされているすべてのプロパティを使用してチームを作成するには**
-
-~~~
-POST /teams
-Authorization: Bearer <TOKEN>
-Content-Type: application/json
-{
-    "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('standard')",
-    "visibility": "Private",
-    "displayName": "Sample Engineering Team",
-    "description": "This is a sample engineering team, used to showcase the range of properties 
-supported by this API",
-    "channels": [
-        {
-            "displayName": "Announcements 📢",
-            "isFavoriteByDefault": true,
-            "description": "This is a sample announcements channel that is favorited by default. Use this 
-channel to make important team, product, and service announcements."
-        },
-        {
-            "displayName": "Training 🏋️",
-            "isFavoriteByDefault": true,
-            "description": "This is a sample training channel that is favorited by default and contains an 
-example of pinned website and YouTube tabs.",
-            "tabs": [
-                {
-                    "teamsApp@odata.bind":
-"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
-                   "name": "A Pinned Website",
-                    "configuration": {
-                        "contentUrl": "https://docs.microsoft.com/en-us/microsoftteams/microsoft-teams"
-                    }
-                },
-                {
-                    "teamsApp@odata.bind": 
-"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.youtube')",
-                    "name": "A Pinned YouTube Video",
-                    "configuration": {
-                        "contentUrl": "https://tabs.teams.microsoft.com/Youtube/Home/YoutubeTab?
-videoId=X8krAMdGvCQ",
-                        "websiteUrl": "https://www.youtube.com/watch?v=X8krAMdGvCQ"
-                    }
-                }
-            ]
-        },
-        {
-"displayName": "Planning 📅 ",
-            "description": "This is a sample of a channel that is not favorited by default, these channels 
-will appear in the more channels overflow menu.",
-            "isFavoriteByDefault": false
-        },
-        {
-            "displayName": "Issues and Feedback 🐞",
-            "description": "This is a sample of a channel that is not favorited by default, these channels 
-will appear in the more channels overflow menu."
-        }
-    ],
-    "memberSettings": {
-        "allowCreateUpdateChannels": true,
-        "allowDeleteChannels": true,
-        "allowAddRemoveApps": true,
-        "allowCreateUpdateRemoveTabs": true,
-        "allowCreateUpdateRemoveConnectors": true
-    },
-    "guestSettings": {
-        "allowCreateUpdateChannels": false,
-        "allowDeleteChannels": false
-    },
-    "funSettings": {
-        "allowGiphy": true,
-        "giphyContentRating": "Moderate",
-        "allowStickersAndMemes": true,
-        "allowCustomMemes": true
-    },
-    "messagingSettings": {
-        "allowUserEditMessages": true,
-        "allowUserDeleteMessages": true,
-        "allowOwnerDeleteMessages": true,
-        "allowTeamMentions": true,
-        "allowChannelMentions": true
-    },
-    "installedApps": [
-        {
-            "teamsApp@odata.bind": 
-"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.vsts')"
-        },
-        {
-            "teamsApp@odata.bind": 
-"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('1542629c-01b3-4a6d-8f76-1938b779e48d')"
-        }
-    ]
-}
-~~~
-
-### <a name="get-status"></a>ステータスを取得します。
-
-#### <a name="request"></a>要求
-
-~~~
-GET   /workflow/status/c953c202-7b44-4a63-aa33-364fcb2d65aa
-Authorization: Bearer <TOKEN>
-~~~
-
-#### <a name="response"></a>応答
-
-~~~
-HTTP/1.1 200 OK
-Content-Type: application/json
-{
-    "status": "[InProgress|Completed|Cancelled|Failed]"
-}
-~~~
 
 ## <a name="related-topics"></a>関連トピック
 
