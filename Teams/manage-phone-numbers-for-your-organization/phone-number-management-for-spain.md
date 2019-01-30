@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: この表で、スペインでの Skype for Business Online および Microsoft Teams の電話番号の取得と管理についての情報を確認できます。
-ms.openlocfilehash: d7d25a08996ba9ced90e69df48cd2d7ff31d57fe
-ms.sourcegitcommit: 08ab8b02c717be65d79a945301518c3528184609
+ms.openlocfilehash: c6a696df87f150fe297d7ec48c9345c0659ceb4b
+ms.sourcegitcommit: e2ba383205baa447990d4b2f9c145e299406b9ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "27292918"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29651050"
 ---
 # <a name="phone-number-management-for-spain"></a>スペインでの電話番号の管理
 
@@ -39,11 +39,10 @@ ms.locfileid: "27292918"
   
 |**実行する操作**|**正しいフォームをダウンロードする**|
 |:-----|:-----|
-|ビジネス管理センターは、Skype で記載されていない新規のユーザーの電話番号を取得します。   <br/> | このフォームをダウンロードします。</br> [スペインでの新しい電話番号の申請 (地域番号) (v.3.0)(es-es)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-spain-(geographic-numbers)-(v.3.0)-(es-es).pdf?raw=true) </br> [スペイン (地理的な番号) の電話番号の新しい要求 (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-spain-(v.4.0)-(en-us).pdf?raw=true) <br/>    記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。  <br/> |
-|Skype のビジネス管理センターに登録されていない新しいサービスの電話番号を取得します。 <br/> |このフォームをダウンロードします。</br> [スペイン (サービス番号) の電話番号の新しい要求 (v.1.2) (es es)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-spain-(service-numbers)-(v.1.2)-(es-es).pdf?raw=true)<br/> [スペイン (サービス番号) の電話番号の新しい要求 (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-spain-(v.4.0)-(en-us).pdf?raw=true)</br>記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。
-|電話番号をマイクロソフトに移行させる必要があります。  <br/> |「[スペイン (すべての電話番号) 用の承認状 (LOA) (v.1.0)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.1.0)-(es-es).pdf?raw=true)」フォームをダウンロードして記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。 <br/> |
-|国内の電話帳で電話番号を公開/非公開にする必要があります。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
-|ユーザーの番号をサービス番号に変更することができます。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
+|新しいユーザーまたはビジネス管理センターの Skype に記載されていないサービスの電話番号を取得します。   <br/> | このフォームをダウンロードします。</br> [スペイン (v.4.0)(es-es) 用の新しい電話番号要求](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-spain-(v.4.0)-(es-es).pdf?raw=true) </br> [スペイン (v.4.0)(en-us) 用の新しい電話番号要求](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-spain-(v.4.0)-(en-us).pdf?raw=true) <br/>    記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。  <br/> |
+|私たちに転送する電話番号を取得します。  <br/> |「[スペイン (すべての電話番号) 用の承認状 (LOA) (v.1.0)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.1.0)-(es-es).pdf?raw=true)」フォームをダウンロードして記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。 <br/> |
+|全国の電話帳の電話番号を公開/非公開します。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
+|サービス番号には、ユーザーの数を変更します。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
 
 ## <a name="related-topics"></a>関連トピック
 

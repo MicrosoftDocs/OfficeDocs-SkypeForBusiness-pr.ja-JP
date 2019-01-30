@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: この表で、アイルランドでの Skype for Business Online および Microsoft Teams の電話番号の取得と管理についての情報を確認できます。
-ms.openlocfilehash: c8a38ca3f5c872e001784e52b8c2fbae07c26bbc
-ms.sourcegitcommit: 08ab8b02c717be65d79a945301518c3528184609
+ms.openlocfilehash: c39f7900a4b94f7c3a2fdd5aaf75bb1312b0b3da
+ms.sourcegitcommit: e2ba383205baa447990d4b2f9c145e299406b9ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "27292926"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29651066"
 ---
 # <a name="phone-number-management-for-ireland"></a>アイルランドでの電話番号の管理
 
@@ -39,17 +39,16 @@ ms.locfileid: "27292926"
   
 |**実行する操作**|**正しいフォームをダウンロードする**|
 |:-----|:-----|
-|新しいユーザー電話番号を取得します。  <br/> |アイルランドでは、Skype for Business 管理センターを使用して電話番号を取得することはできません。 新しい電話番号の申請を送信する必要があります。 ダウンロード、[アイルランドの電話番号の新しい要求 (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(v.4.0)-(en-us).pdf?raw=true)して、[送信していただくこと](mailto:ptneu@microsoft.com)を入力します。  <br/> |
-|Skype のビジネス管理センターに登録されていない新しいサービスの電話番号を取得します。 <br/> |サービス番号、米国以外の[このフォームをダウンロード](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-numbers-outside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf?raw=true)してください、[弊社に送信](mailto:ptneu@microsoft.com)して、入力します。
-|電話番号をマイクロソフトに移行させる必要があります。  <br/> |次のフォームのいずれかをダウンロードします。 <br/> [アイルランド (地域番号) 用の承認状 (LOA) (v.3.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(geographic-numbers)-(v.1.0)-(en-us).pdf?raw=true) <br/> [アイルランド (地域外の番号) 用の承認状 (LOA) (v.1.0) (en.us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(non-geographic-numbers)-(v.1.0)-(en-us).pdf?raw=true) <br/>  <br/>  記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。  <br/> |
-|国内の電話帳で電話番号を公開/非公開にする必要があります。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
-|ユーザーの番号をサービス番号に変更することができます。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
+|新しいユーザーとビジネス管理センターの Skype に記載されていないサービスの電話番号を取得します。 <br/> |アイルランドでは、Skype for Business 管理センターを使用して電話番号を取得することはできません。 新しい電話番号の申請を送信する必要があります。 ダウンロード、[アイルランドの電話番号の新しい要求 (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(v.4.0)-(en-us).pdf?raw=true)、[弊社に送信](mailto:ptneu@microsoft.com)するとを入力します。  <br/> |
+|私たちに転送する電話番号を取得します。  <br/> |次のフォームのいずれかをダウンロードします。 <br/> [アイルランド (地域番号) 用の承認状 (LOA) (v.3.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(geographic-numbers)-(v.1.0)-(en-us).pdf?raw=true) <br/> [アイルランド (地域外の番号) 用の承認状 (LOA) (v.1.0) (en.us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(non-geographic-numbers)-(v.1.0)-(en-us).pdf?raw=true) <br/>  <br/>  記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。  <br/> |
+|全国の電話帳の電話番号を公開/非公開します。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
+|サービス番号には、ユーザーの数を変更します。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
    
 ## <a name="related-topics"></a>関連トピック
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[[[Skype for Business 新しい電話番号の申請](manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](manage-phone-numbers-for-your-organization.md)
+[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)
 
 [緊急通話の利用条件](../emergency-calling-terms-and-conditions.md)
   
