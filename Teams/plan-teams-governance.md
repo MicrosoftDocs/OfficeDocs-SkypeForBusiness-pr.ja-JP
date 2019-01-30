@@ -7,7 +7,7 @@ ms.date: 08/10/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: チームでの管理機能の実装を計画する方法について説明します。
+description: Teams でガバナンスを実施するための計画を立てる方法について説明します。
 localization_priority: Normal
 search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
@@ -15,117 +15,117 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: db98b9b5ab460207b2dd9f9a793a486402ec29fd
 ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 01/16/2019
 ms.locfileid: "28326867"
 ---
-# <a name="plan-for-governance-in-teams"></a>チームの管理のための計画
+# <a name="plan-for-governance-in-teams"></a>Teams でのガバナンスを計画する
 
-チームは、組織が必要な場合があります、管理機能を実装するためのツールの豊富なセットを提供します。 この資料では、IT プロフェッショナルが、ガバナンス、およびそれらに対応する方法についての要件を確認するのには、正しい質問をガイドします。 
+Teams には、自分の組織で必要となるあらゆるガバナンス機能を実施するための豊富なツールのセットが用意されています。 この記事では、正しい質問を通して、IT 専門家が自分たちのガバナンスの要件を判断したり、それらを満たすための方法を決めたりすることができるようになるガイドを提供します。 
 
 > [!Tip] 
-> マイクロソフトのチームでの管理の詳細については、次のセッションを見る:[管理、管理、およびマイクロソフトのチームでのライフ サイクル](https://aka.ms/teams-governance)
+> Microsoft Teams でのガバナンスの詳細については、次のセッションをご覧ください。[Governance, management and lifecycle in Microsoft Teams (Microsoft Teams でのガバナンス、管理、およびライフサイクル)](https://aka.ms/teams-governance)
 
-## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>グループとチームの作成、名前付け、分類、およびゲスト アクセス
+## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>グループおよびチームの作成、名前付け、分類、およびゲスト アクセス
 
-組織は、チームの名前し分類方法、来園者をチームのメンバーとして追加するか、およびチームを作成できるユーザーを厳密な制御を実装する必要があります。 Azure Active Directory (AD の Azure) を使用して、これらの各領域を設定できます。 
+自分の組織において、チームの命名や分類について、ゲストがチーム メンバーとして追加することができるかどうかについて、およびチームを作成することができるユーザーが誰であるかについて、厳密な制御を実施する必要がある可能性があります。 これらの各領域について、Azure Active Directory (Azure AD) を使用して構成することができます。 
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>組織はチームの特定の命名規則を必要とするか。</li><li>チーム作成者にチームを組織に固有の分類を割り当てる機能が必要ですか。</li><li>チーム別のチームにゲストを追加する機能を制限する必要がありますか。</li><li>組織は、チームを作成できるユーザーを制限することを必要ですか。</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>チームの作成、名前付け、分類、およびゲスト アクセスのため、組織の要件を文書化します。</li><li>チームの展開の一部としてこれらの要件を実装するために計画します。</li><li>通信し、その動作のチームのユーザーに通知するポリシーを公開します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>自分の組織において、チームについての特定の名前付け規則はありますか?</li><li>チーム作成者は組織固有の分類をチームに割り当てる機能を必要としていますか?</li><li>チームにゲストを追加する機能を、チーム単位で制限する必要はありますか?</li><li>自分の組織において、チームを作成可能なユーザーを制限する必要はありますか?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>チームの作成、名前付け、分類、およびゲスト アクセスについて、自分の組織の要件を文書化します。</li><li>Teams のロールアウトの一部として、これらの要件を実施する計画を立てます。</li><li>ポリシーの伝達と公開を行い、Teams ユーザーに求められる動作について通知します。</li></ul>|
 
 > [!TIP]
-> 組織の要件をキャプチャするのにには、次の表を使用します。
+> 次の表を使用して、組織の要件を把握します。
 
-|機能 |詳細 |Azure AD プレミアム <br> ライセンスが必要 |意思決定 |
+|機能 |詳細 |Azure AD プレミアム <br> ライセンス必要 |判断 |
 |---------|---------|---------|---------|
-|チームの名前付けポリシー | プレフィックス、サフィックスに基づく、カスタム ブロックの単語を使用します。 |P1 |未定 |
-|チーム分類 |分類をチームに割り当てます。 |P1 |未定 |
-|チームのゲスト アクセス |許可するか、来園者がチームに追加されることを防止します。 |なし |未定 |
-|チームの作成 |管理者のチームの作成を制限します。 |なし |未定|
-|チームの作成 |セキュリティ グループのメンバーにチームの作成を制限します。 |P1 |未定|
+|Team の名前付けポリシー | プレフィックス/サフィックスの形式の、カスタムの禁止語句を使用します。 |P1 |TBD |
+|チーム分類 |チームに分類を割り当てます。 |P1 |TBD |
+|チームのゲスト アクセス |ゲストがチームに追加されるのを許可または禁止します。 |なし |TBD |
+|チームの作成 |チームの作成を管理者に制限します。 |なし |TBD|
+|チームの作成 |チームの作成をセキュリティ グループ メンバーに制限します。 |P1 |TBD|
 
 > [!NOTE]
-> [学ぶ必要があるライセンスの詳細については、これらのポリシーを設定し、どのような](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)事前の計画に役立ちます。
+> 事前に計画を立てやすくなるために、[これらのポリシーの設定について、およびどのライセンスが必要とされるかについて確認してください](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
 > 
 > [!NOTE]
-> グループとチームの作成を制限することと、多くの Office 365 サービスは、サービスが機能するためにグループを作成することを必要とするために、ユーザーの生産性が低下することが。 詳細についてに移動し、 [Office 365 のグループを作成したユーザーを制御する理由](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)を展開します。
+> グループおよびチームの作成を制限することにより、自分たちのユーザーの生産性が下がる可能性があります。これは、多くの Office 365 サービスで、サービスが機能するためにグループが作成されることが必要となるためです。 詳細については、「[Office 365 グループを作成するユーザーを制御する理由](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)」に移動して展開してください。
 
 
 #### <a name="additional-information"></a>追加情報
 
-お客様の要件を決定した後は、Azure AD コントロールを使用して実装できます。 これらの設定を実装する方法についての技術的なガイダンスを参照してください。
+自分の要件を判別した後、Azure AD の制御を使用してそれらを実施することができます。 これらの設定を実装する方法についての技術面のガイダンスは、次をご覧ください。
 
--   [Azure Active Directory グループの設定を構成するコマンドレット](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)です。
+-   [グループ設定を構成するための Azure Active Directory コマンドレット](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)。
 
--   [Azure Active Directory 内の Office 365 のグループの名前付けポリシーを適用します](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)。
+-   [Azure Active Directory での Office 365 グループの名前付けポリシーの強制](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)。
 
--   [Office 365 のグループ ポリシーに名前を付ける](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)。
+-   [Office 365 グループの名前付けポリシー](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)。
 
 
-## <a name="group-and-team-expiration-retention-and-archiving"></a>グループとチームの有効期限、保存、およびアーカイブ
+## <a name="group-and-team-expiration-retention-and-archiving"></a>グループとチームの有効期限、保持、およびアーカイブ化
 
-保持、有効期限ポリシーを設定するための追加要件を持つ組織もあり、チームおよびチームのデータ (メッセージのチャネルとチャネルのファイル) をアーカイブします。 自動的に保持するか、必要に応じて情報を削除するグループ、および保存ポリシーのライフ サイクルを管理するグループの有効期限ポリシーを構成することができ、チームをアーカイブすることができます (読み取り専用モードに設定する) チームのポイント ・ イン ・ タイム ・ ビューを保持するためのアクティブではないです。
+自分の組織で、有効期限、保持、チームおよびチームのデータ (チャネルのメッセージとチャネルのファイル) をアーカイブ化することについてのポリシーを設定するための追加の要件がある可能性があります。 グループの有効期限ポリシーを構成して、グループのライフサイクルや、必要に応じて情報の保存や削除を行うための保持ポリシーを自動的に管理することができます。また、チームをアーカイブ化して (読み取り専用モードに設定して)、アクティブでなくなったチームについて特定の時点の表示を保存することができます。
 
 |           |            |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>組織はチームの有効期限を指定する必要がありますか。</li><li>組織に必要な特定のデータ ・ リテンション ・ ポリシーは、チームに適用するか。</li><li>組織は、読み取り専用状態でコンテンツを保持するためにチームを非アクティブにアーカイブする機能を必要とする予定ですか。</li></ul>|
-| ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>チームの有効期限、データの保存、アーカイブに関する組織の要件を文書化します。</li><li>チームの展開の一部としてこれらの要件を実装するために計画します。</li><li>通信し、その動作のチームのユーザーに通知するポリシーを公開します。</li></ul>|
+| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>自分の組織でチームについて有効期限日を指定する必要はありますか?</li><li>自分の組織でチームに特定のデータ保持ポリシーを適用する必要はありますか?</li><li>自分の組織で、コンテンツを読み取り専用の状態で保存するために、非アクティブなチームをアーカイブ化する機能が必要となる見込みはありますか?</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>有効期限、データ保持、アーカイブ化についての組織の要件を文書化します。</li><li>Teams のロールアウトの一部として、これらの要件を実施する計画を立てます。</li><li>ポリシーの伝達と公開を行い、Teams ユーザーに求められる動作について通知します。</li></ul>|
 
 > [!TIP]
-> 組織の要件をキャプチャするのにには、次の表を使用します。
+> 次の表を使用して、組織の要件を把握します。
 
-|機能 |詳細 |Azure AD プレミアム ライセンスが必要 |意思決定 |
+|機能 |詳細 |Azure AD Premium ライセンスが必要 |判断 |
 |---------|---------|---------|---------|
-|有効期限ポリシー |有効期限ポリシーを設定することにより、Office 365 のグループのライフ サイクルを管理します。 |P1 |未定|
-|リテンション ・ ポリシー |保持またはセキュリティ & コンプライアンス センターでチームのリテンション ・ ポリシーを設定することによって、特定の期間のデータを削除します。 **注**: この機能を使用するには、Office 365 エンタープライズ E3 以上のライセンスが必要です。 |なし |未定 |
-|アーカイブと復元 |チームは、アクティブになっていませんが、参照を保持するか、将来的に再アクティブ化するときにアーカイブします。 |なし |未定 |
+|有効期限ポリシー |有効期限ポリシーを設定して、Office 365 グループのライフサイクルを管理します。 |P1 |TBD|
+|保持ポリシー |セキュリティ/コンプライアンス センター内で Teams の保持ポリシーを設定することによって特定の期間におけるデータを保持または削除します。 **注**: この機能の使用には Office 365 Enterprise E3 またはそれ以降のライセンスが必要です。 |なし |TBD |
+|アーカイブ化と復元 |アクティブでなくなったチームを、参照用として保持する目的で、または将来的に再びアクティブ化する可能性がある場合に備えて、アーカイブ化します。 |なし |TBD |
 
 > [!Note]
-> グループの有効期限は、Azure AD プレミアム機能です。 できるようにするには、この機能に、テナントは設定し、影響を受けるグループのメンバーを設定する管理者の Azure AD プレミアムとライセンスのサブスクリプションが必要です。
+> グループの有効期限は、Azure AD Premium の機能です。 この機能を利用できるようにするためには、Azure AD Premium に対するサブスクリプションと、影響を受けるグループの設定およびメンバーを構成する管理者のためのライセンスが存在している必要があります。
 
 #### <a name="additional-information"></a>追加情報
 
-これらの設定を実装する方法についての技術的なガイダンスを参照してください。
+これらの設定を実装する方法についての技術面のガイダンスは、次をご覧ください。
 
--   [Office 365 のグループの有効期限を設定](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)します。
+-   [Office 365 グループの有効期限をセットアップする](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)
 
--   [チーム ・ リテンション ・ ポリシーを設定](retention-policies.md)します。
+-   [Teams の保持ポリシーをセットアップする](retention-policies.md).
 
--   [アーカイブまたはチームを復元](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)します。
+-   [チームをアーカイブする、または復元する](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)
 
 
-## <a name="teams-feature-management"></a>チーム機能の管理
+## <a name="teams-feature-management"></a>Teams 機能の管理
 
-ガバナンスとチームのライフ サイクル管理のもう 1 つの重要な側面は、どのような機能、ユーザーがへのアクセスを制御する機能です。 メッセージング、会議、および Office 365 のテナントのレベルまたはユーザーごとのいずれかで、機能の呼び出しを管理することができます。 
+Teams でのガバナンスおよびライフサイクル管理のもう 1 つの重要な側面として、自分たちのユーザーがどの機能にアクセスするかを制御する機能があります。 メッセージング、会議、通話機能を Office 365 のテナントレベル、またはユーザー単位のいずれかで管理することができます。 
 
 
 |         |         |
 |---------|---------|
-| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>組織は、全体のテナントのチームの機能を制限する必要ですか。</li><li>組織が特定のユーザーのチームの機能を制限する必要ですか。</li></ul>|
-| ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>テナントとユーザー レベルのチームの機能を制限するため、組織の要件を文書化します。</li><li>チームの展開の一部として、特定の要件を実装するために計画します。</li><li>通信し、その動作のチームのユーザーに通知するポリシーを公開します。</li></ul>|
+| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>自分の組織で、テナント全体に対して Teams 機能を制限することが必要ですか?</li><li>自分の組織で、特定のユーザーに対して Teams 機能を制限することが必要ですか?</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>テナントおよびユーザー レベルで Teams の機能を制限するための組織の要件を文書化します。</li><li>Teams のロールアウトの一部として、特定の要件を実施する計画を立てます。</li><li>ポリシーの伝達と公開を行い、Teams ユーザーに求められる動作について通知します。</li></ul>|
 
-### <a name="teams-feature-management-focus-areas"></a>チーム機能の管理の重点分野
+### <a name="teams-feature-management-focus-areas"></a>Teams の機能管理での重点領域
 
-チームでは、メッセージング、会議、呼び出し、およびライブ イベントの機能と詳細については、ポリシーを使用して制御するための詳細な機能を提供します。 デフォルトで、または組織内で必要に応じてユーザーごと、すべてのユーザーに異なるポリシーを適用できます。 
+Teams は、ポリシーに応じて、メッセージング、会議、通話、およびライブ イベント機能などの細かい機能を提供します。 既定では、組織での要件に応じてユーザーごとに異なるポリシーがすべてのユーザーに対して適用されます。 
 
-組織では、それらを実装する方法についての技術的なガイダンスを含む、すべての設定の詳細なリストは、以下の資料を参照してください。
+自分の組織での各設定の実行についての技術的なガイダンスを含む、すべての設定の詳細なリストについては、次の記事を参照してください。
 
 -   [Office 365 を使用する組織で Microsoft Teams の機能を管理する](enable-features-office-365.md)
--   [新しいマイクロソフトのチームとビジネス管理センターの Skype に移行する際のチームを管理します。](manage-teams-skypeforbusiness-admin-center.md)
--   [チームでミーティングのポリシーを管理します。](meeting-policies-in-teams.md)
+-   [新しい Microsoft Teams および Skype for Business の管理センターへの移行中に Teams を管理する](manage-teams-skypeforbusiness-admin-center.md)
+-   [Teams での会議ポリシーを管理する](meeting-policies-in-teams.md)
 
 
 ## <a name="security-and-compliance"></a>セキュリティとコンプライアンス
 
-チームでは、高度なセキュリティおよびコンプライアンス機能を Office 365 の上に構築された、監査およびレポート作成、コンプライアンス ・ コンテンツの検索、電子的証拠開示、法的保持義務、および保存ポリシーをサポートしています。 
+Teams は Office 365 の高度なセキュリティおよびコンプライアンス機能に基づいて構築されており、監査および報告、コンプライアンスのコンテンツ検索、電子情報開示、訴訟ホールド、および保持ポリシーをサポートします。 
 
 > [!Important]
-> 組織は、コンプライアンスおよびセキュリティの要件は、[セキュリティとマイクロソフトのチームでのコンプライアンスの概要](security-compliance-overview.md)の資料では、このトピックに関する詳細な内容を確認してください。
+> 自分の組織でコンプライアンスおよびセキュリティに関する要件がある場合は、「[Microsoft Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)」の記事で、このトピックについての掘り下げた内容を確認してください。
 
 <!--
 ## Teams lifecycle management
