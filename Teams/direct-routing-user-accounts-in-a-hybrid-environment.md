@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: ユーザーの作成」と「どの組み合わせがサポートまたはサポートされていないのさまざまな組み合わせについて説明します。
-ms.openlocfilehash: 15513b426b37f01749c6253021ebb619385fb61e
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: f85a9903c2b1d35d110c26b276305ed4c9ce949a
+ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789209"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29635725"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>PSTN 接続を使用するハイブリッド環境でのユーザー アカウント
 
@@ -56,16 +56,16 @@ PSTN への接続でのビジネスのハイブリッド環境に、Skype では
 
 
 |**作成されたユーザー オブジェクト**  |**ビジネス ・ サービス ・ プロバイダーのユーザーの Skype**|**ユーザーのクライアント**|**音声オプション**|**サポート対象**|
-|---------|---------|---------|---------|--------|
+| ------------ | --------- | --------- | --------- | -------- |
 |オンプレミス AD| オンプレミス |Skype for Business   | エンタープライズ VoIP   |あり|
 |オンプレミス AD|オンライン| Skype for Business  | ハイブリッド音声接続   |あり |
 |オンプレミス AD|オンライン |Microsoft Teams |直接のルーティング  |あり |
-|**サポートされていない組み合わせ**    | |         |         |
+|**サポートされていない組み合わせ**    | |         |         |      |
 |Azure AD| 設置型またはオンラインで | Skype ビジネスと Microsoft のチームの|接続または直接ルーティングするエンタープライズ VoIP/ハイブリッド音声  |ユーザー オブジェクトを作成する必要がなく、オンプレミス AD 最初 |
 |オンプレミス AD  |オンプレミス| Microsoft Teams| 接続または直接ルーティングするエンタープライズ VoIP/ハイブリッド音声   |残念ですが、マイクロソフトのチームのクライアントは、ビジネスのためのオンプレミス Skype でサポートされていません |     
-    
-|オンプレミス AD |オンライン |ビジネス用の Skype |ルーティングの指示します。残念ですが、直接ルーティングではサポートされておらず Skype でビジネスのクライアントに、ユーザーは、最初にビジネス用の Skype でエンタープライズ VoIP に対して有効にする必要があります。  |        |        |        ||
+|オンプレミス AD  |オンライン |Skype for Business  | 直接のルーティング  |残念ですが、直接ルーティングではサポートされておらず Skype でビジネスのクライアントに、ユーザーは、最初にビジネス用の Skype でエンタープライズ VoIP に対して有効にする必要があります。  |
+
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>PSTN のハイブリッド環境のサポート ステートメント
 
-**必要があります**が、ユーザーのすべてのユーザーのオブジェクト設置型で、作成する AD Azure AD 接続ツールを使用した Azure AD に同期するとします。 ユーザーの有効化なチームと Skype ビジネスは**サポートされていません**のハイブリッド構成では、Azure AD で直接ユーザー オブジェクトが作成されている場合。 など、新入社員、チームに対して直接有効にするは、ユーザーの新しいユーザーには、オンプレミス Skype のビジネス管理ツールを使用してビジネスの Skype のユーザーを有効にする必要があります。 最初を有効にするエンタープライズ VoIP の**サポートされていない**とプールを設置せず、ビジネスまたはチームのオンライン Skype でユーザーを作成しています。 ハイブリッド構成で、ビジネスの Skype のユーザーを有効にする方法の詳細については[この資料](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises#special-considerations-when-enabling-users-for-enterprise-voice-on-premises)を参照してください。
+**必要があります**が、ユーザーのすべてのユーザーのオブジェクト設置型で、作成する AD Azure AD 接続ツールを使用した Azure AD に同期するとします。 ユーザーの有効化なチームと Skype ビジネスは**サポートされていません**のハイブリッド構成では、Azure AD で直接ユーザー オブジェクトが作成されている場合。 など、新入社員、チームに対して直接有効にするは、ユーザーの新しいユーザーのユーザーする必要があります有効にする Skype のビジネス Skype の社内業務管理ツールを使用します。 最初を有効にするエンタープライズ VoIP の**サポートされていない**とプールを設置せず、ビジネスまたはチームのオンライン Skype でユーザーを作成しています。 ハイブリッド構成で、ビジネスの Skype のユーザーを有効にする方法の詳細については[この資料](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises#special-considerations-when-enabling-users-for-enterprise-voice-on-premises)を参照してください。

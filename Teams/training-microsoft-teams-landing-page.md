@@ -12,12 +12,12 @@ ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f67a641898ca305662b5ea4b06bf772146a19a9f
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: 29cfb69af17387ad5ca9b9cf4f1ceff11fe09117
+ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29595417"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29635692"
 ---
 # <a name="microsoft-teams-training"></a>マイクロソフトのチームのトレーニング
 
@@ -116,7 +116,7 @@ ms.locfileid: "29595417"
                 <div class="card">
                     <div class="cardText">
                         <h3>採用スペシャ リストの認定</h3>
-                        <p><a href="http://aka.ms/AdoptionCert">初期の 2019年 1 月は、チームを搭載した、マイクロソフトのサービス採用スペシャ リストの認定コースを公開しました、正常に社内の Microsoft のサービスの採用を推進するための方法を説明するよう設計されています。</a></p>
+                        <p><a href="http://aka.ms/AdoptionCert">初期の 2019年 1 月でをリリースしました Microsoft サービス導入のスペシャ リストの認定コースでは、チームの特徴です。それが方法について説明する、組織の Microsoft のサービスの採用を推進するには</a></p>
                     </div>
                 </div>
             </div>

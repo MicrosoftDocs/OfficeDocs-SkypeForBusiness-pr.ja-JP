@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 05cd733e96ad77b0a413c9846ceb3697b45eec13
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694783"
----
 # [Skype ビジネス サーバー 2019](../skype-for-business-server-2019.md)
 
 ## [新機能](../whats-new.md)
@@ -166,7 +158,7 @@ ms.locfileid: "28694783"
 #### [ユーザー モデル](../../SfbServer/plan-your-deployment/capacity/user-models.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
 
-## の展開
+## 展開
 ### [インストール ](../../SfbServer/deploy/install/install.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [必須コンポーネントをインストールします。](../../SfbServer/deploy/install/install-prerequisites.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Create a file share](../../SfbServer/deploy/install/create-a-file-share.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -276,7 +268,6 @@ ms.locfileid: "28694783"
 #### [高解像度写真](../../SfbServer/deploy/integrate-with-exchange-server/high-resolution-photos.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [統合連絡先ストアを使用します。](../../SfbServer/deploy/integrate-with-exchange-server/use-the-unified-contact-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [ExchangeUnified は、ボイス メールのメッセージ](../../SfbServer/deploy/integrate-with-exchange-server/exchangeunified-messaging-for-voice-mail.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-#### [個人連絡先ストア](../../SfbServer/deploy/integrate-with-exchange-server/personal-contacts-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Outlook Web App](../../SfbServer/deploy/integrate-with-exchange-server/outlook-web-app.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [OAuth オンライン、社内設置型の](../../SfbServer/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [統合連絡先ストアの展開](../../SfbServer/deploy/deploy-unified-contact-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)

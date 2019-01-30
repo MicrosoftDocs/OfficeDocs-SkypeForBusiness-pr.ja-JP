@@ -17,17 +17,19 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Find out requirements for remote management of Skype for Business Online via Windows PowerShell, including supported operating systems.
-ms.openlocfilehash: 001e8da26daaff65a1761519073667e530688243
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 01fa2856149bb7718fc34bb83f48e03a307496b8
+ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862595"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29635630"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>Windows PowerShell 用にコンピューターをセットアップする
 
 [] Skype for Business Online を使用した Microsoft PowerShell のリモート管理は、次のいずれかのオペレーティング システムを実行する 64 ビット コンピュータでのみサポートされます。
-  
+
+- Windows Server 2016
+
 - Windows 10
     
 - Windows 8.1
@@ -54,7 +56,7 @@ ms.locfileid: "23862595"
     
 - [Windows PowerShell 3.0 をダウンロードしてインストールします。](download-and-install-windows-powershell-3-0.md)
     
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 [ビジネス オンラインのコネクタの skype の接続に関する問題を診断します。](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
   

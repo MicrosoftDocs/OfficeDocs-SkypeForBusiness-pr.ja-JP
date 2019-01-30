@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn how to add an emergency address to your Skype for Business account. '
-ms.openlocfilehash: f4d66c58066cd5547a8692066763675006d97920
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: a1e1421e79b25da37f26c09b271abb67f7b3340b
+ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326701"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29635756"
 ---
 # <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>追加、変更、または組織のシステムのアドレスを削除します。
 
@@ -53,6 +53,8 @@ Office 365 の通話プランの取得方法とプランの費用については
     
     > [!IMPORTANT]
     > 住所の検証では、住所が正規の住所で、形式が正しいことが確認されます。 緊急アドレスは部分的に正しいなど、市区町村の名前を誤って入力する場合と渡すことがまだ検証が可能です。 誤記があっても検証をパスした場合、誤記がある市区町村名と住所の他の正しい部分の組み合わせによって、適切な緊急派遣センターに通話をルーティングするために十分な情報になります。 
+    
+    > 注: ベルギー、フランス、ドイツ、アイルランド、オランダ、スペインが正常に Office 365 を使用する数を取得するために緊急の場所で住所の設定で電話番号を有効にすることを理解することが重要と一致しなければなりません、番号の市外局番に電話します。
   
     住所の確認ができないとき、米国の住所を確認しようとする場合は、[**確認要求を送信** ] をクリックし、米国外の場合は、[**住所の確認についてのヘルプを表示するためのサービス  リクエストを開く** ] をクリックします。
     
