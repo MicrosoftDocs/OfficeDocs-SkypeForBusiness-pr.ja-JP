@@ -77,7 +77,7 @@
 #### [Teams でチームを作成するときの Office 365 グループの計画](plan-office-365-groups.md)
 #### [Teams のロールアウトをサポートするツールを入手する](rollout-tools.md)
 #### [Teams でのライフサイクル管理の計画](plan-teams-lifecycle.md)
-#### [チームの管理のための計画](plan-teams-governance.md)
+#### [Teams でのガバナンスを計画する](plan-teams-governance.md)
 
 
 ### Office 365 との相互運用性
@@ -564,9 +564,9 @@
 ## [チームをオンラインでビジネス用の Skype からのアップグレード](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ## [Skype からチームへのビジネスのハイブリッドまたはオンプレミスのアップグレードします。](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
 ## [操作、導入、および最適化](continue-journey.md)
-### [サービスを動作します。](upgrade-operate-my-service.md)
-### [モニターの品質](upgrade-monitor-quality.md)
-### [サービスを強化します。](upgrade-enhance-my-service.md)
+### [サービスを運用する](upgrade-operate-my-service.md)
+### [品質を監視する](upgrade-monitor-quality.md)
+### [サービスを強化する](upgrade-enhance-my-service.md)
 ## [チュートリアル: Skype for Business から Teams への移行](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [FAQ](FAQ-journey.md)
 ## 追加情報
@@ -620,7 +620,7 @@
 ### [Teams のサービス正常性を確認する](service-health.md)
 ### [チーム ポリシー内の特殊文字の制限](special-character-restrictions-in-policy-names.md)
 
-### モニター通話の音質
+### [モニター通話の音質](monitor-call-quality-qos.md)
 #### [レビュー ガイドの経験の質](quality-of-experience-review-guide.md)
 #### [チームでの QoS を設定します](QoS-in-Teams.md)
 #### [QoS を実装し、通話の品質を監視します。](monitor-call-quality-qos.md)
