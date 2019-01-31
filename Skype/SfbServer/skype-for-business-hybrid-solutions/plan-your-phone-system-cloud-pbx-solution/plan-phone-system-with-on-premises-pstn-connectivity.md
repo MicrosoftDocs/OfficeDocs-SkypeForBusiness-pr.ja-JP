@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 設置 PSTN への接続では、Office 365 (クラウド PBX) の電話システムの計画の考慮事項について説明します。
-ms.openlocfilehash: 4614b3fdc62d8a51323ee7c9f261bec3d6cea6c3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 978da546961188c54c7e08e2ed140f8d01986e44
+ms.sourcegitcommit: 20defe18ac1d2b21853bd6d5f0772cd3f35e53e9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531603"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "29686473"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Skype で設置した PSTN 接続を持つビジネス サーバーの Office 365 の電話システムを計画します。
 
 設置 PSTN への接続では、Office 365 (クラウド PBX) の電話システムの計画の考慮事項について説明します。
 
-このコンテンツは、または場合は既に Skype ビジネス サーバーに Lync Server 2013 の設置型の展開に関連します。 他のシナリオは、「 [Office 365 (クラウド PBX) ソリューションの電話システムの計画](plan-your-phone-system-cloud-pbx-solution.md)」を参照してください。
+このコンテンツは、または場合は既に Skype ビジネス サーバーに Lync Server 2013 の設置型の展開に関連します。 その他のシナリオでは、 [Microsoft のテレフォニー ソリューション](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)を参照してください。
 
  設置 PSTN への接続と Office 365 の電話システムでは、ユーザーの電話システム (PBX をクラウド) 機能を活用を行うことができます。 これは、次のようなシナリオで役立ちます。
 
@@ -105,12 +105,12 @@ PSTN への接続を設置し、Skype をユーザーの移動と Office 365 の
     > [!NOTE]
     > 使用する AAD Connect のパーションは、バージョン 1.0.9125.0 以降である必要があります。それよりも前のバージョンの AAD Connect ツールまたは DirSync を使用している場合は、サポートされているバージョンにアップグレードしてください。現在のインストールをアップグレードして、環境で定義しているカスタム ルールを維持できます。 
 
-- **ハイブリッド展開を構成します。** かどうか、Skype をビジネス ユーザーには、現在すべてホームか、オンラインまたは設置型、またはある場合は現在、ミックス、[展開のハイブリッドで説明されているビジネス サーバーまたは Lync Server 2013 では、Skype のハイブリッド展開を構成する手順を完了する必要がありますビジネス サーバーの Skype と Skype オンライン ビジネスの間の接続](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)。 ハイブリッド展開の詳細について、[サーバーのビジネスとオンライン ビジネスの Skype の Skype 間でのハイブリッド接続を計画](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)を参照してください。 
+- **ハイブリッド展開を構成します。** かどうか、Skype をビジネス ユーザーには、現在すべてホームか、オンラインまたは設置型、またはある場合は現在、ミックス、[展開のハイブリッドで説明されているビジネス サーバーまたは Lync Server 2013 では、Skype のハイブリッド展開を構成する手順を完了する必要がありますSkype ビジネス サーバーと Office 365 間の接続](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)。 ハイブリッド展開での詳細の背景については、 [Skype ビジネス サーバーと Office 365 の間のハイブリッド接続の計画](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)を参照してください。 
 
     Lync Server 2013 を使用する場合は、 [Lync Server 2013 ハイブリッド](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx)を参照してください。
 
 - **Active Directory フェデレーション サービス (AD FS) (推奨)** シングル サインオンをサポートするために AD FS を展開することをお勧めします。 詳細については、 [Active Directory フェデレーション サービス (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx)を参照してください。
 
-Office 365 の電話システムを展開する方法の詳細については、 [Skype のビジネス サーバーの PSTN への接続をオンプレミスと Office 365 の電話システムのユーザーを有効にする](enable-users-for-phone-system.md)を参照してください。
+Office 365 の電話システムを展開する方法の詳細については、[組織内の電話システムの設定](https://docs.microsoft.com/en-us/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)を参照してください。
 
 
