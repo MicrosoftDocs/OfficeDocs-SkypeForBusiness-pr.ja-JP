@@ -15,7 +15,7 @@ ms.topic: landing-page
 ms.author: tonysmit
 ms.openlocfilehash: db174b9e9df8fb6a819930babfaae9422f3ffe30
 ms.sourcegitcommit: f091c351bec56219a8c91b8c12b9c1f5c5983c95
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 01/25/2019
 ms.locfileid: "26531750"
@@ -54,7 +54,7 @@ ms.locfileid: "26531750"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>We& #39; re を支援するには、ここでは</h3>
+                        <h3>サポート情報を参照する</h3>
                     </div>
                 </div>
             </div>
@@ -119,7 +119,7 @@ ms.locfileid: "26531750"
 
 ---
 
-<h2>What& #39; s の新しい</h2>
+<h2>最新情報</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -169,8 +169,8 @@ ms.locfileid: "26531750"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>主な更新</h3>
-                        <p><a href="/microsoftteams/audio-conferencing-in-office-365">電話会議をセットアップする</a></p>
+                        <h3>主要な更新</h3>
+                        <p><a href="/microsoftteams/audio-conferencing-in-office-365">電話会議のセットアップ</a></p>
                     </div>
                 </div>
             </div>
@@ -236,7 +236,7 @@ ms.locfileid: "26531750"
                 <div class="card">
                     <div class="cardText">
                         <h3>電話システム</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Office 365 での電話システムについて</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Here& #39; s Office 365 の電話システムで取得します。</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Office 365 での電話システムについて</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Office 365 の電話システムで利用できる機能の紹介</a></p>
                </div>
                 </div>
             </div>
