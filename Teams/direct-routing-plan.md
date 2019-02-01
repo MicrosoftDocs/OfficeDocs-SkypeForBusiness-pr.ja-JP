@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Microsoft 電話システム直接ルーティングを使用する方法マイクロソフトの電話システムに、サポートされている、お客様が用意したセッション ボーダー コント ローラー (SBC) の接続については、このトピックを参照してください。
-ms.openlocfilehash: dbc3de5c6eb7a9f45be1165614cd14fcb2d6d8c9
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 77c4e21b2be0f8d4729924484102ba31becbfbe7
+ms.sourcegitcommit: 10370b163e5a9d0e27dde71b847c8bca26dcaa74
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297882"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690573"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -135,7 +135,7 @@ SBC はのみ 1 つの FQDN が必要し、ペアのテナント内のすべて�
 
 証明書には、[件名]、[共通名、または [サブジェクト代替名フィールドに SBC の FQDN が必要です。
 
-または、一般的な名前または SAN のワイルドカードをサポートしている直接ルーティングでは、ワイルドカードは、標準の[TLS 経由で HTTP を RFC](https://tools.ietf.org/html/rfc2818#section-3.1)に準拠する必要があります。 例を使用する場合 *. contoso.com で、SAN には、SBC の FQDN の sbc.contoso.com、一致が sbc.test.contoso.com と一致しません。
+または、直接ルーティングでは、SAN のワイルドカードをサポートしているし、ワイルドカードは、標準の[TLS 経由で HTTP を RFC](https://tools.ietf.org/html/rfc2818#section-3.1)に準拠する必要があります。 例を使用する場合 *. contoso.com で、SAN には、SBC の FQDN の sbc.contoso.com、一致が sbc.test.contoso.com と一致しません。
 
 証明書は、次のルート証明機関のいずれかによって生成される必要があります。
 

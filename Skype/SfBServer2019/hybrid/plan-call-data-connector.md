@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: ハイブリッド シナリオでは、設置型の実装を監視する遠隔測定ツールのオンライン ビジネスの Skype を使用する場合の概要です。
-ms.openlocfilehash: 6bcf1e26ca005a30e4f1c940f655a3277e18001e
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 4e38f7d190cd30c1f0e39dc4cdfa5166ba6a929d
+ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349537"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690446"
 ---
 # <a name="plan-call-data-connector"></a>呼び出しデータ コネクタを計画します。
 
@@ -68,7 +68,7 @@ ms.locfileid: "29349537"
 
 - されていない場合は、品質のダッシュ ボードを呼び出すオン[を有効にしてマイクロソフトのチームとビジネス オンラインの Skype の品質ダッシュ ボードの呼び出しを使用する](/microsoftteams/turning-on-and-using-call-quality-dashboard)で説明したようです。
 
-- ローカルの LCSCdr と QoEMetrics データベースの監視では、フロント エンド プールを有効にします。 これを呼び出すデータ コネクタは、測定値のデータを使用を必要はありません。
+- ローカルの LcsCDR と QoEMetrics データベースの監視では、フロント エンド プールを有効にします。 これを呼び出すデータ コネクタは、測定値のデータを使用を必要はありません。
 
 > [!IMPORTANT]
 > フロント エンド プールの監視が有効になっていない場合は、呼び出しデータ コネクタは機能しません。
@@ -78,13 +78,13 @@ ms.locfileid: "29349537"
 | 機能レポート | Skype for Business Online | Skype for Business Server   |
 |:---------------------------|:---------------------|:---------------------|:------------------|
 | アプリケーション共有の指標 |あり | 制限されます。 |
-| お客様の建物の情報| あり | あり |
+| お客様の建物の情報| 会議自動応答の言語の管理 | 可 |
 | ドリル ・ ダウン分析 | あり | なし |
 | メディアの信頼性の指標 | あり | 制限されます。 |
-| ボックスのレポート | あり | あり |
+| ボックスのレポート | 会議自動応答の言語の管理 | 可 |
 | プロジェクト概要のレポート | あり | なし |
-| レポートのユーザーごと | あり | あり |
-| レポートの設定のカスタマイズ <br> (追加、削除、レポートの変更) | あり | あり |
+| レポートのユーザーごと | 会議自動応答の言語の管理 | 可 |
+| レポートの設定のカスタマイズ <br> (追加、削除、レポートの変更) | 会議自動応答の言語の管理 | 可 |
 | ビデオ ベースの画面の測定値を共有 | あり | なし |
 | プログラムによるアクセスのためのデータ Api <br> 救難に | なし | はい |
 ||||

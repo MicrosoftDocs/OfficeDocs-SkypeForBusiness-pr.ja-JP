@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: '概要: は、このトピックでのビジネス サーバー 2015 サーバーで、Skype を準備します。 ハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件および推奨事項は、ここで正常にインストールし、サーバー ファームの展開を確実にします。'
-ms.openlocfilehash: f9c85fb774362e00c8b34e9cc0343e71e499ce49
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: 20f87ddfc03a6509dc1ec07cc58fb38d2bd88dce
+ms.sourcegitcommit: 10370b163e5a9d0e27dde71b847c8bca26dcaa74
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729373"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690526"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 のサーバー要件
  
@@ -172,7 +172,7 @@ SQL のミラーリングの詳細を参照する場合は、ビジネス サー
 |**ソフトウェア/役割**|**詳細**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |これらのサーバーのすべての Skype では、Windows PowerShell 3.0 がインストールされている必要があります。  <br/> • Windows Server 2012 または Windows Server 2012 R2 のインストールを実行している場合、設定するとしているは既にあるためです。  <br/> • Windows Server 2008 R2 にアップグレードを実行している場合、それを取得する[Windows Management Framework 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=34595)をダウンロードできます。 <br/> **ヒント:** 適切な PowerShell をインストールしたら、PowerShell プロンプトで、「`$PSVersionTable`」と入力することで、BuildVersion 6.2.9200.0 以降であることを確認します。 これによって、必要な情報が得られます。<br/> |
-|Microsoft .NET Framework  <br/> |WCF サービスは、インストールした**サーバー マネージャー**で、[Windows 機能としてないダウンロードのために必要な**機能**です。 <br/> • をする必要があります、 **HTTP アクティブ化**のオプションのもがチェックされ、インストールされて、それをチェックする場合は既にインストールされている場合や、この機能をインストールすると、次のようにします。 <br/> ![[.NET Framework 4.5 の機能] の HTTP アクティブ化のオプションを表示するスクリーン ショットです。](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)も気にしないで他のものがインストールされるように HTTP アクティブ化をインストールする必要ことを示すその他のポップアップを取得します。 これは通常の動作のため、[OK] をクリックして先に進みます。 このメッセージが表示されない場合、これらの機能は既にインストールされていると見なして、先に進みます。  <br/> 通常 Microsoft.NET Framework がインストールされている Windows Server 2012 R2 または Windows Server 2016 がインストールされている場合。 Skype ビジネス サーバーは、次の Microsoft.NET Framework のバージョンで動作します。  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6.x  <br/> • .NET 4.7.1 以上のビジネス サーバー CU 5 またはそれ以降のリリースの Skype)  <br/>  .NET Framework 3.5 は既定では Windows Server 2008 R2 コンピューターにインストールする可能性があります (必ず確認してくださいアップグレードする前に) が、実際にするの新しいインストールの場合) または Windows Server 2012 R2 の Windows Server 2012 サーバー上にします。 それを追加するにはインストール ドライブまたはメディアへのアクセスを必要があります (Windows サーバーをインストールして、元の場所またはファイルをインストールされるようになりました)。 その後、先に進んで、サーバー マネージャーの機能としてインストールし、要求されたらインストール メディア (具体的には **\sources\sxs** フォルダー) を指定して、インストールを続行します。 <br/> |
+|Microsoft .NET Framework  <br/> |WCF サービスは、インストールした**サーバー マネージャー**で、[Windows 機能としてないダウンロードのために必要な**機能**です。 <br/> • をする必要があります、 **HTTP アクティブ化**のオプションのもがチェックされ、インストールされて、それをチェックする場合は既にインストールされている場合や、この機能をインストールすると、次のようにします。 <br/> ![[.NET Framework 4.5 の機能] の HTTP アクティブ化のオプションを表示するスクリーン ショットです。](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)も気にしないで他のものがインストールされるように HTTP アクティブ化をインストールする必要ことを示すその他のポップアップを取得します。 これは通常の動作のため、[OK] をクリックして先に進みます。 このメッセージが表示されない場合、これらの機能は既にインストールされていると見なして、先に進みます。  <br/> 通常 Microsoft.NET Framework がインストールされている Windows Server 2012 R2 または Windows Server 2016 がインストールされている場合。 Skype ビジネス サーバーは、次の Microsoft.NET Framework のバージョンで動作します。  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6.x  <br/> • .NET 4.7.1 以上のビジネス サーバー CU 5 またはそれ以降のリリースの Skype)  <br/> • .NET 4.7.2 以上のビジネス サーバー CU 6 またはそれ以降のリリースの Skype)  <br/>  .NET Framework 3.5 は既定では Windows Server 2008 R2 コンピューターにインストールする可能性があります (必ず確認してくださいアップグレードする前に) が、実際にするの新しいインストールの場合) または Windows Server 2012 R2 の Windows Server 2012 サーバー上にします。 それを追加するにはインストール ドライブまたはメディアへのアクセスを必要があります (Windows サーバーをインストールして、元の場所またはファイルをインストールされるようになりました)。 その後、先に進んで、サーバー マネージャーの機能としてインストールし、要求されたらインストール メディア (具体的には **\sources\sxs** フォルダー) を指定して、インストールを続行します。 <br/> |
 |メディア ファンデーション  <br/> |Windows Server 2016、Windows Server 2012 と Windows Server 2012 R2 の Windows Media フォーマット ランタイムは、Microsoft メディア ファンデーションをインストールします。  <br/> 会議のために使用される、すべてのフロント エンド サーバーと Standard Edition サーバーでは、アナウンスや音楽のコール パーク、アナウンス、および応答グループ アプリケーションを再生する Windows Media オーディオ (.wma) ファイルを実行する、Windows Media フォーマット ランタイムが必要です。  <br/> |
 |Windows Identity Foundation  <br/> |ビジネス サーバー 2015 の Skype のサーバーからサーバーへの認証シナリオをサポートするために Windows アイデンティティ基盤の 3.5 が必要です。  <br/> • Windows Server 2012 と Windows Server 2012 R2 の場合は、何もダウンロードする必要はありません。 **サーバー マネージャー**を開いて、[**役割と機能の追加ウィザード**] に進みます。 [**機能**] セクションの一覧に [**Windows Identity Foundation 3.5**] が表示されています。 オンの場合は完了です。 オンになっていない場合は、これを選択して [次へ] をクリックし、[**インストール**] をアクティブにします。 <br/> |
 |リモート サーバー管理ツール  <br/> |役割管理ツール: AD DS および AD LDS ツール  <br/> |

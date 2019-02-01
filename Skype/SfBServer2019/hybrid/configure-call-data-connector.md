@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 呼び出すデータ コネクタを遠隔測定 Skype からのビジネスの設置型のビジネスのオンライン ・ ツールの Skype を使用して表示するを構成する方法の詳細については。
-ms.openlocfilehash: 959bb182da91029fd43ebc3ccb99fb5a69d820b2
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 4b358562838cfd1412891514e999f2c8544f3a4f
+ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533135"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690460"
 ---
 # <a name="configure-call-data-connector"></a>呼び出しデータ コネクタを構成します。
 
@@ -27,7 +27,7 @@ ms.locfileid: "26533135"
 
 ## <a name="enable-monitoring"></a>監視を有効にします。
  
-呼び出してデータの記録 (CDR) を構成する必要があり、プールの監視、ローカル LCSCdr および QoEMetrics データベースをフロント エンドのエクスペリエンスの品質 (QoE) データの収集それ以外の場合、呼び出しの分析と品質のダッシュ ボードを呼び出すで使用するデータを取得はありません。 前に呼び出しデータ コネクタの構成、手順両方 CDR および QoE と同様に基本的な監視を構成するのには[Skype ビジネス サーバーの展開の監視](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md)を提供します。
+呼び出してデータの記録 (CDR) を構成する必要があり、プールの監視、ローカル LcsCDR および QoEMetrics データベースをフロント エンドのエクスペリエンスの品質 (QoE) データの収集それ以外の場合、呼び出しの分析と品質のダッシュ ボードを呼び出すで使用するデータを取得はありません。 前に呼び出しデータ コネクタの構成、手順両方 CDR および QoE と同様に基本的な監視を構成するのには[Skype ビジネス サーバーの展開の監視](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md)を提供します。
 
 > [!IMPORTANT]
 > フロント エンド プールの監視が有効になっていない場合は、呼び出しデータ コネクタは機能しません。
