@@ -64,10 +64,10 @@
 ### [他の組織内のチームのユーザーとの通信します。](let-your-teams-users-communicate-with-other-people.md)
 ### [インライン メッセージの変換を使用します。](inline-message-translation-teams.md)
 ### [Microsoft Teams の範囲指定ディレクトリ検索を使用する](teams-scoped-directory-search.md)
-### [チームの分析とレポート作成](teams-analytics-and-reports/teams-reporting-reference.md)
-#### [チームの使用状況レポート](teams-analytics-and-reports/teams-usage-report.md)
-#### [チーム ユーザー アクティビティ レポート](teams-analytics-and-reports/user-activity-report.md) 
-#### [チーム デバイスの使用状況レポート](teams-analytics-and-reports/device-usage-report.md)
+### [Teams の分析とレポート](teams-analytics-and-reports/teams-reporting-reference.md)
+#### [Teams の使用状況レポート](teams-analytics-and-reports/teams-usage-report.md)
+#### [Teams ユーザー アクティビティ レポート](teams-analytics-and-reports/user-activity-report.md) 
+#### [Teams のデバイス使用状況レポート](teams-analytics-and-reports/device-usage-report.md)
 #### [チームの活動レポートを使用して](teams-activity-reports.md)
 
 
@@ -302,6 +302,11 @@
 ### [PSTN 接続を使用するハイブリッド環境でのユーザー アカウント](direct-routing-user-accounts-in-a-hybrid-environment.md)
 ### [複数のテナントについてセッション ボーダー コントローラーを構成する](direct-routing-sbc-multiple-tenants.md)
 ### [ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト](direct-routing-border-controllers.md)
+### 場所に基づくルーティング
+#### [場所ベースのルーティングの用語](location-based-routing-terminology.md)
+#### [直接ルーティングのための場所ベースのルーティングを計画します。](location-based-routing-plan.md)
+#### [場所ベースのルーティングのネットワーク設定を構成します。](location-based-routing-configure-network-settings.md)
+#### [直接ルーティングのための場所ベースのルーティングを有効にします。](location-based-routing-enable.md)
 ### 直接ルーティングのためのテクニカル リファレンス
 #### [発信通話でのトランクのフェイルオーバー](direct-routing-trunk-failover-on-outbound-call.md)
 
@@ -641,6 +646,7 @@
 
 ## 先頭行の作業者のチーム
 ### [組織は、チームでのシフトのアプリケーションを管理します。](manage-the-shifts-app-for-your-organization-in-teams.md)
+### [小売チーム テンプレートを使い始める](get-started-with-retail-teams-templates.md)
 
 ## [Microsoft 365 政府の GCC を計画します。](plan-for-government-gcc.md)
 ### [Microsoft 365 政府の GCC の計画高](plan-for-government-gcc-high.md)
