@@ -21,6 +21,7 @@
 ## [Microsoft Teams でチーム所有者とメンバーを割り当てる](assign-roles-permissions.md)
 ## [Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
 ## [チームで、組織全体にわたるチームを作成します。](create-an-org-wide-team.md)
+## [どのようなメッセージングがポリシーですか。](messaging-policies-in-teams.md)
 ## [Teams のテンプレートの使用を開始する](get-started-with-teams-templates.md)
 ## [チームの動的なメンバーシップの概要](dynamic-memberships.md)
 ## [プレゼンス](presence-admins.md)
@@ -52,6 +53,7 @@
 ### [PowerShell を使用してチームへのゲスト アクセスを制御する](guest-access-PowerShell.md)
 ### [ゲスト アクセスのチェックリスト](guest-access-checklist.md)
 
+## [外部アクセス (連合)](manage-external-access.md)
 
 ## [チームを管理します。](using-admin-roles.md)
 ### [組織内のチームの機能を管理します。](enable-features-office-365.md)
@@ -114,7 +116,6 @@
 # [_AMP_ 会議の会議](deploy-meetings-microsoft-teams-landing-page.md)
 ## [チュートリアル: Teams での会議](Tutorial-Meetings-in-Teams.yml)
 ## [会議の設定を管理します。](meeting-settings-in-teams.md)
-## [どのようなメッセージングがポリシーですか。](messaging-policies-in-teams.md)
 ## [ユーザーの設定を変更したときに送信されるメール](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [ユーザーが会議に参加するときに名前を記録できるようにする](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [会議の入退室通知をオンまたはオフにする](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
@@ -130,7 +131,7 @@
 ### [Office 365 での電話会議](audio-conferencing-in-office-365.md)
 ### [Microsoft を電話会議プロバイダーとして割り当てる](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [電話会議に関するよくある質問](audio-conferencing-common-questions.md)
-### [分数ごとの従量課金制の電話会議 ](audio-conferencing-pay-per-minute.md)
+### [分数ごと従量課金制電話会議](audio-conferencing-pay-per-minute.md)
 ### [電話会議ブリッジの設定を変更する](change-the-settings-for-an-audio-conferencing-bridge.md)
 ### [電話会議ブリッジの電話番号を変更する](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 ### [会議からダイヤルアウトして他のユーザーが参加できるようにする](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
