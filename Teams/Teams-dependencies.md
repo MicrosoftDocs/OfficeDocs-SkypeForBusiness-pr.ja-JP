@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Microsoft Teams のゲスト アクセス機能を 4 つの異なる承認レベルで管理します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e07bfc162f2d3fbc59aa26dcf2cabd1bcf003e74
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: 396650240c1d7b10e2fd6716ec52c13a649839e5
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772786"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706324"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセスを承認する
 ===========================================
@@ -75,7 +75,7 @@ Azure AD のライセンスを使用すると、1 ライセンスあたり 5 つ
 
 チームでは、ゲストの経験が有効か無効か、組織を制御できます。 設定は、既定で無効にし、チームのだけテナントのレベルで適用します。
 
-マイクロソフトのチームとビジネス管理センターの Skype からチームのゲスト アクセスの設定を管理できます。 詳細については、「[Microsoft Teams へのゲスト アクセスをオンまたはオフにする](set-up-guests.md)」をご覧ください。 
+マイクロソフト チーム & ビジネス管理センターの Skype では、チームのゲスト アクセスの設定を管理できます。 詳細については、「[Microsoft Teams へのゲスト アクセスをオンまたはオフにする](set-up-guests.md)」をご覧ください。 
 
 
 ## <a name="control-guest-access-in-office-365-groups"></a>Office 365 のグループでのゲスト アクセスの制御
@@ -116,3 +116,6 @@ Teams のゲスト アクセスの完全な操作性を有効にするため、O
 
 Teams で接続したチーム サイトの SharePoint Online 外部ユーザー設定を管理できます。 詳細については、「[SharePoint チーム サイト設定を管理する](https://support.office.com/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42)」をご覧ください。
 
+## <a name="guest-access-vs-external-access-federation"></a>ゲスト アクセスを外部からのアクセス (連合) との比較
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

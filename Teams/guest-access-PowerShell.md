@@ -12,12 +12,12 @@ search.appverid: MET150
 description: PowerShell を使用して、Microsoft Teams のチームへのゲスト アクセスを許可または拒否できます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1e8eaa8722893316f761566a425b7e8ed6f2aaa
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: c3bcf91bc6f78951439b051f3cc2d3e827210a9f
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772722"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706252"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>PowerShell を使用してチームへのゲスト アクセスを制御する
 ================================================
@@ -26,17 +26,16 @@ Office 365 管理センターと Azure Active Directory ポータルに加え、
   
 - すべてのチームおよび Office 365 グループへのゲスト アクセスを許可または拒否する
     
-  
 - すべてのチームおよび Office 365 グループへのゲストの追加を許可する
-    
-  
+      
 - 特定のチームまたは Office 365 グループのゲスト ユーザーを許可または拒否する
     
-  
-詳しくは、「[Office 365 グループのゲスト アクセス](https://support.office.com/article/Use-PowerShell-to-control-guest-access-bfc7a840-868f-4fd6-a390-f347bf51aff6#bkmk_usepowershell)」の [管理] タブの「PowerShell を使用してゲスト アクセスを制御する」のセクションをご覧ください。
+詳細については、 [Office 365 のグループでのゲスト アクセス](https://support.office.com/article/Use-PowerShell-to-control-guest-access-bfc7a840-868f-4fd6-a390-f347bf51aff6#bkmk_usepowershell)の管理] タブの「ゲスト アクセスを制御する PowerShell を使用」のセクションを参照してください。
   
 PowerShell を使用して、ドメインに基づいてゲスト ユーザーの許可と拒否を行うこともできます。 たとえば、ある企業 (Contoso) が別の企業 (Fabrikam) とパートナーシップを結んでいると仮定します。 Fabrikam 社を [許可] リストに追加すると、Contoso 社のユーザーは Fabrikam のユーザーをゲストとしてグループに追加できるようになります。 詳細については、「[Allow/Block guest access to Office 365 groups (Office 365 グループへのゲスト アクセスを許可/拒否する)](https://go.microsoft.com/fwlink/?linkid=854001)」をご覧ください。
   
- 
 チームのゲストを拒否したいがゲストに対して SharePoint サイトへのアクセスを引き続き許可する場合は、SharePoint の外部共有をオンに設定しているという前提の上に、Azure Active Directory Powershell コマンドレットを使用して Company オブジェクトの AllowGuestAccessToGroups パラメーターを無効にすることができます。   
 
+## <a name="guest-access-vs-external-access"></a>ゲスト アクセスを外部からのアクセスとの比較
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

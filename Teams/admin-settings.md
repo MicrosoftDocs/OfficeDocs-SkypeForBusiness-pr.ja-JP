@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e50992aa8489d93b577e957cffc98c18e7cc15e
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: da73768f69159c32543d0843139facc2b9ef4f9a
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988179"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706356"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft Teams でのアプリの管理設定
 ==========================================
@@ -29,7 +29,7 @@ ms.locfileid: "27988179"
 
 アプリケーションは、タブ、コネクタ、ボット、またはチーム (ファースト パーティのアプリケーションとも呼ばれる既定アプリケーション) または (外部のアプリケーションとも呼ばれます)、サード パーティによって提供されるこれら 3 つの任意の組み合わせです。 Microsoft 365 管理センターを有効にして既定のアプリケーションを無効にして外部のアプリケーションを制御する設定を構成します。 これらの設定を使用して、読み込み側のアプリケーションを許可するかどうか、外部コンテンツが許可され、許可されていない外部のアプリケーションの新しい動作を指定できます。
 
- チームでのアプリケーションの管理設定を管理する Microsoft 365 の管理ページに移動し、**設定**を選択して > **サービスおよびアドイン** > **マイクロソフトのチーム**です。 Office 365 管理者としてサインインしている場合は、次のリンクから移動できます。
+ チームでのアプリケーションの管理設定を管理する Microsoft 365 の管理ページに移動し、**設定**を選択して > **サービス & アドイン** > **マイクロソフトのチーム**です。 Office 365 管理者としてサインインしている場合は、次のリンクから移動できます。
 
 https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
 

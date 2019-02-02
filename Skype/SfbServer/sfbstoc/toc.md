@@ -96,7 +96,7 @@
 
 #### [AAD は、複数のフォレストを含むように接続を更新します。](../../SFBServer2019/hybrid/cloud-consolidation-aad-connect.md)
 
-### [Exchange と SharePoint との統合](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
+### [Exchange と SharePoint との統合](../skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md)
 
 
 

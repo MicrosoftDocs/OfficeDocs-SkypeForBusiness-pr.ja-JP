@@ -30,8 +30,7 @@
 
 #### [AAD は、複数のフォレストを含むように接続を更新します。](../hybrid/cloud-consolidation-aad-connect.md)
 
-### [Exchange と SharePoint との統合](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
-
+### [Exchange と SharePoint との統合](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
 
 ## 計画
