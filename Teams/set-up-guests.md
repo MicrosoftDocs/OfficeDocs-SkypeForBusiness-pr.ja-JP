@@ -14,23 +14,26 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42fead56b8064d2697ca4e8b115eefd0116a5e36
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
-ms.translationtype: HT
+ms.openlocfilehash: bc01f54229e5a2644fc004b4014ad41e3c0f8d73
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772762"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706260"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Microsoft Teams へのゲスト アクセスをオンまたはオフにする
 ======================================
 
 Office 365 管理者は、組織のユーザー (具体的にはチーム所有者) がゲストを追加できるようにするため事前にゲスト機能を有効にする必要があります。 
 
-ゲスト設定は Azure Active Directory で設定します。 その変更が Office 365 組織全体で有効になるまでに 2 時間から 24 時間かかります。 ユーザーがチームにゲストを追加しようとするときに「Contact your administrator (管理者にお問い合わせください)」というメッセージが表示される場合、ゲスト機能が使用できる状態になっていないか、設定が有効になっていないかのいずれかの可能性があります。
-
+The guest settings are set in Azure Active Directory. It takes 2 hours to 24 hours for the changes to be effective across your Office 365 organization. If a user sees the message "Contact your administrator" when they try to add a guest to their team, it's likely that either the guest feature hasn't been enabled or the settings aren't effective yet.
 
 > [!IMPORTANT]
-> ゲスト アクセス機能の完全なエクスペリエンスを有効にするためには、Microsoft Teams、Azure Active Directory、および Office 365 の間での中心的な承認の依存関係を理解することが重要です。 詳細については、「[Microsoft Teams でのゲスト アクセスを承認する](Teams-dependencies.md)」をご覧ください。
+> To enable the full experience of the guest access feature, it's important to understand the core authorization dependency between Microsoft Teams, Azure Active Directory, and Office 365. For more information, see [Authorize guest access in Microsoft Teams](Teams-dependencies.md).
+
+## <a name="guest-access-vs-external-access-federation"></a>ゲスト アクセスを外部からのアクセス (連合) との比較
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="configure-guest-access-in-the-teams--skype-for-business-admin-center"></a>Teams および Skype for Business の管理センターでゲスト アクセスを構成する
 
