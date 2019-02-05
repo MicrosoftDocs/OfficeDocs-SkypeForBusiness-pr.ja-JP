@@ -9,19 +9,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: phecda louie
 localization_priority: Normal
-robots: NOINDEX, NOFOLLOW
 search.appverid: MET150
 description: 定義済みのチャネルを持つチームを作成するチーム テンプレートを使用する方法について説明します。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6b5059e5c0a4a7f49553758762905a1a3523389
-ms.sourcegitcommit: bb5fe98e73a794eb8154551a40276d9cd68bc2af
+ms.openlocfilehash: 6b4e0ad44904a14d6a1296ea17080f668a3ab461
+ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29603803"
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "29735207"
 ---
 # <a name="get-started-with-teams-templates"></a>Teams のテンプレートの使用を開始する 
 
@@ -81,3 +80,5 @@ ms.locfileid: "29603803"
 - [チームの作成](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)(プレビュー) で
 - [新しいチーム](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Microsoft Teams の管理者トレーニング](itadmin-readiness.md)
+- [小売チーム テンプレートを使い始める](get-started-with-retail-teams-templates.md)
+- [医療チーム テンプレートを使い始める](healthcare/healthcare-templates.md)

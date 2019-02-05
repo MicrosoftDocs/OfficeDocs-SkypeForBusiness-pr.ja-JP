@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: SBCs を証明する、選択した SBC ベンダーとマイクロソフトのパートナーは、直接ルーティング機能します。
-ms.openlocfilehash: dee7420f01cf3adbf6ef818e6161213ec0eaf89b
-ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
+ms.openlocfilehash: b14463bfeb7010e23a567517b34b6a6d8595c478
+ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29635700"
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "29735215"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
@@ -60,8 +60,9 @@ ms.locfileid: "29635700"
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   保留中    |      V7.0.2      |
 |                                                                                                                     |    SBC のスウェーデン語のライト     |     &#10004;     |   保留中    |      V7.0.4      |
 |                     [ThinkTel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   保留中    |       V1.4       |
-|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 3900       |    &#10004;     |   保留中  |   ECZ8.1.0 MR 1 GA (ビルド 145)  |
-|                                                                                                                     |      AP 4600         |    &#10004;   |   保留中    |     ECZ8.1.0 MR 1 GA (ビルド 145)  |
+|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |   保留中  |   ECZ8.1.0 MR 1 GA (ビルド 145)  |
+|                                                                                                                    |    AP 3900           |    &#10004;     |   保留中  |   ECZ8.1.0 MR 1 GA (ビルド 145)  | 
+|                                                                                                                    |      AP 4600         |    &#10004;   |   保留中    |     ECZ8.1.0 MR 1 GA (ビルド 145)  |
 |                                                                                                                    |      AP 6300         |    &#10004;   |   保留中    |     ECZ8.1.0 MR 1 GA (ビルド 145)  |
 |                                                                                                                   |      AP 6350           |    &#10004;   |   保留中    |     ECZ8.1.0 MR 1 GA (ビルド 145)  |                                             
 |                                                                                                                    |      VME           |    &#10004;    |   保留中    |     ECZ8.1.0 MR 1 GA (ビルド 145)   |

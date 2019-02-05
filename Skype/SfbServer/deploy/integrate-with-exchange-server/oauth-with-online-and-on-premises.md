@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: OAuth を構成するオンライン ビジネスの社内の Exchange と Skype との間の認証は、ビジネスおよび Exchange の統合機能の機能のサポート」に記載の Skype を使用できます。
-ms.openlocfilehash: d4c7e491b43b457c96a69ebba1ea808054346d98
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: f6108842f827cbb9cfb6761495c4787ed2b7868b
+ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373872"
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "29735175"
 ---
 # <a name="configure-oauth-between-skype-for-business-online-and-exchange-on-premises"></a>オンプレミスの Exchange と Skype for Business Online 間での OAuth の構成
 
@@ -30,7 +30,7 @@ OAuth を構成するオンライン ビジネスの社内の Exchange と Skype
 
 -  この手順を実行するには、アクセス許可が割り当てられている必要があります。 必要なアクセス許可を表示するには、 [Exchange およびシェル インフラストラクチャのアクセス許可](https://go.microsoft.com/fwlink/p/?LinkId=746511)を参照してください。
 
-- このトピックの手順に適用されるキーボード ショートカットの詳細については、 [Exchange 管理センターでのキーボード ショートカット]( https://go.microsoft.com/fwlink/p/?LinkId=746512)を参照してください。
+- このトピックの手順に該当するショートカット キーについては、「[Exchange 管理センターのキーボード ショートカット]( https://go.microsoft.com/fwlink/p/?LinkId=746512)」を参照してください。
 
 ## <a name="configure-oauth-authentication-between-your-on-premises-exchange-and-skype-for-business-organizations"></a>オンプレミスの Exchange と Skype for Business 組織の間で OAuth 認証を構成する
 
@@ -52,7 +52,7 @@ New-AuthServer -Name "WindowsAzureACS" -AuthMetadataUrl "https://accounts.access
 Get-PartnerApplication | ?{$_.ApplicationIdentifier -eq "00000002-0000-0ff1-ce00-000000000000" -and $_.Realm -eq ""} | Set-PartnerApplication -Enabled $true
 ```
 
-### <a name="step-3-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>手順 3: Skype for Business Online のパートナー アプリケーションの新しいメール ユーザー アカウントを作成する
+### <a name="step-3-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>手順 3: Skype for Business Online のパートナー アプリケーションの新しいメール ユーザー アカウントを作成する 
 
 この手順は、オンプレミスで実行します。これによって、メール ユーザーを作成し、適切な管理役割の権限を割り当てます。このアカウントは、次の手順で使用します。
 
@@ -126,7 +126,7 @@ Exchange、オンプレミスの Exchange 組織内の PowerShell では、作�
    $cer.Import($CertFile);
    $binCert = $cer.GetRawCertData();
    $credValue = [System.Convert]::ToBase64String($binCert);
-   $ServiceName = "00000002-0000-0ff1-ce00-000000000000";
+   $ServiceName = "00000004-0000-0ff1-ce00-000000000000";
    $p = Get-MsolServicePrincipal -ServicePrincipalName $ServiceName
    New-MsolServicePrincipalCredential -AppPrincipalId $p.AppPrincipalId -Type asymmetric -Usage Verify -Value $credValue
    ```

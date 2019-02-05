@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: '概要: は、品質のダッシュ ボードを呼び出すための展開プロセスについて説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: c9d641a8202560e558e33014670b4b1060795477
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a4e8cfb48e0d9efc93b6c107db1ab9051f928e4d
+ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531227"
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "29735168"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>ビジネス サーバーの Skype の通話品質のダッシュ ボードを展開します。
  
@@ -316,12 +316,12 @@ BuildingTypeId および BuildingTypeDesc パラメーターが必要です。
 INSERT INTO
 [dbo].[CqdBuildingOwnershipType]
 ([OwnershipTypeId],
-[OwnershipTypeDesc],
+[OwnershipTypeDesc]
 )
 
 VALUES
 (1,
-'Contoso Owned',
+'Contoso Owned'
 )
 ```
 
