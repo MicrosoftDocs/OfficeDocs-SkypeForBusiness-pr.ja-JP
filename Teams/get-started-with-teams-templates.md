@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b4e0ad44904a14d6a1296ea17080f668a3ab461
-ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
+ms.openlocfilehash: 08abde935b69aa58e5e54bd50b31f1c9d554552e
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "29735207"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742959"
 ---
 # <a name="get-started-with-teams-templates"></a>Teams のテンプレートの使用を開始する 
 
@@ -67,8 +67,8 @@ ms.locfileid: "29735207"
 |教育-<br>PLC チーム |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationProfessionalLearningCommunity` | アプリケーション:<ul><li>OneNote PLC のノートブック ([**全般**] タブに固定されている)</ul></li>|
 | 小売-<br>ストア | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore` | チャネル:<ul><li>Shift キーをハンドオフ</li><li>学習</li></ul>チーム プロパティ<ul><li>チームの可視性がパブリックに設定</li></ul>メンバーのアクセス許可<ul><li>作成、更新、またはチャネルを削除してからメンバーを禁止します。</li><li>メンバーの追加またはアプリケーションを削除することを防ぐ</li><li>作成、更新、またはコネクタを削除してからメンバーを禁止します。</li></ul> |
 | 小売-<br>マネージャーのコラボレーション | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration` | チャネル:<ul><li>Shift キーをハンドオフ</li><li>学習</li></ul>チームのプロパティ:<ul><li>チームの可視性が Private に設定</li></ul>メンバーのアクセス許可:<ul><li>作成、更新、またはチャネルを削除してからメンバーを禁止します。</li><li>メンバーの追加またはアプリケーションを削除することを防ぐ</li><li>作成、更新、またはコネクタを削除してからメンバーを禁止します。</li></ul>|
-| 医療・<br>区全体 |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWardWide` |チャネル: <ul><li>お知らせ\*</li><li>ライトを呼び出す</li><li>お楽しみツール\*</li><li>Huddles\*<li>スケジュールと患者の調査\*</li><li>トレーニングと認定 </li><li>ラウンド\*</li></ul>\*自動お気に入りチャンネル |
-|医療・<br>病院全体 | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospitalWide` |チャネル:<ul><li>お知らせ\*</li><li>コンプライアンス\*</li><li>信託</li><li>財務</li><li>お楽しみツール\*</li><li>人事管理</li><li>研究所</li><li>患者の安全性と品質の向上\*</li><li>薬剤</li></ul>\*自動お気に入りチャンネル|
+| 医療・<br>ワード |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWardWide` |チャネル: <ul><li>お知らせ\*</li><li>ライトを呼び出す</li><li>お楽しみツール\*</li><li>Huddles\*</li><li>ラウンド</li><li>トレーニング\*</li></ul>\*自動お気に入りチャンネル |
+|医療・<br>病院 | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospitalWide` |チャネル:<ul><li>お知らせ\*</li><li>コンプライアンス\*</li><li>信託</li><li>財務</li><li>お楽しみツール\*</li><li>人事管理</li><li>研究所</li></li><li>薬剤</li></ul>\*自動お気に入りチャンネル|
 |||
 
 > [!NOTE]

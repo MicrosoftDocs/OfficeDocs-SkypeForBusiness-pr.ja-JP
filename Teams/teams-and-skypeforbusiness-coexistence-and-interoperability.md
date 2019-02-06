@@ -13,19 +13,19 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41ff5d3329d46ee9f716e09145c94ad8e2dbaea8
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 11e08837aa7f9eeb4b74d8f8d98e05dc33d2ea49
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349499"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29743006"
 ---
 ![プロジェクトの定義の段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-project-definition.png "プロジェクトの定義の段階に重点を置いて、旅アップグレードの段階")
 
-この資料では、プロジェクトの定義の段階アップグレード、旅の一部、活動を行う支援体制の構築とプロジェクト チームを作成して、プロジェクトのスコープ、目標、およびビジョンを定義します。 進む前に、次のアクティビティを完了したしたことを確認します。
+この資料では、プロジェクトの定義の段階アップグレード、旅の一部、活動を行う支援体制の構築とプロジェクト チームを作成して、プロジェクトのスコープ、目標、およびビジョンを定義します。 先に進む前に、次のアクティビティを完了していることを確認してください。
 
-- [プロジェクトの利害関係者が参加しています。](upgrade-enlist-stakeholders.md)
-- [プロジェクト スコープの定義](https://aka.ms/SkypetoTeams-Scope)
+- [プロジェクトの関係者をリスト化した](upgrade-enlist-stakeholders.md)
+- [プロジェクトの対象範囲を定義した](https://aka.ms/SkypetoTeams-Scope)
 
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>マイクロソフトのチームと Skype をビジネスの共存と相互運用性を理解します。
 
@@ -52,7 +52,7 @@ ms.locfileid: "29349499"
 > [!Tip]
 > Skype のオンライン ビジネスのお客様の推奨されるパスでは、ドライブ採用の飽和状態の組織で、急速に**チームのみ**のモードに移動し、**島**の既定のモードで起動。 設置型およびハイブリッド型の場合がありますからメリットを採用する準備ができたら、組織の開始点ではなく島、そこから**チームのみ**のモードの進行状況と今後の**チームの共同作業によるビジネスの Skype**モードを展開します。チームです。
 
-### <a name="skype-for-business-only"></a>Skype ビジネスだけに
+### <a name="skype-for-business-only"></a>Skype for Business のみ
 
 この共存モードでは、ユーザーはビジネス用の Skype に残る-チームではありません-チャット、会議、および呼び出し機能、および、チームおよびチャネルのためのチームを使用しないのです。 このモードは、今日利用可能ですただし、現在の実装では、チームの様相はないユーザーの自動的にオフにします。 この機能は、期限の迫っています。 間に、管理者は、Skype の唯一の通信アプリケーションとビジネスのために維持する必要があるすべてのユーザーのチームのライセンスを削除できます。
 
@@ -132,3 +132,7 @@ ms.locfileid: "29349499"
 > 呼び出しまたは特別なミーティングに簡単なチャット (IM) ことが非常に簡単にどのような起動します。 これらのシナリオでは、使いやすさとユーザーの操作性にとって重要な Skype ビジネスとチームのユーザーの間での相互運用機能のエクスペリエンスの進化している継続的に私たちを理解します。 最新の情報を確認してください。
 
 この資料を確認した後については[、アップグレードの旅を選択して](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)[移行と相互運用性ガイド](https://aka.ms/SkypeToTeams-Interop)、 [Skype のビジネスとの共存](coexistence-chat-calls-presence.md)と[の共存を設定および設定をアップグレード](https://aka.ms/SkypeToTeams-SetCoexistence)の実装詳細です。
+
+## <a name="related-links"></a>関連リンク
+
+[ビデオ: 共存とデバイスとのチームとの間の相互運用性を管理します。](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

@@ -1,5 +1,5 @@
 ---
-title: クラウド ビデオの相互運用機能のマイクロソフトのチーム
+title: Microsoft Teams のクラウド ビデオ相互運用性
 author: lolaj
 ms.author: lolaj
 manager: serdars
@@ -12,14 +12,14 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44dc13f9ff6fd391d84a5a461badc7edbc8abbdb
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: e038a4618bd456336681c2fff95936a821c770ea
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533360"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742967"
 ---
-# <a name="cloud-video-interop-for-microsoft-teams"></a>クラウド ビデオの相互運用機能のマイクロソフトのチーム
+# <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams のクラウド ビデオ相互運用性
 
 クラウド ビデオの相互運用機能により、サード ・ パーティ製会議室デバイスをマイクロソフトのチーム会議に参加します。
 
@@ -67,10 +67,10 @@ ms.locfileid: "26533360"
 
 ## <a name="key-business-considerations"></a>重要なビジネス上の考慮事項
 
-**3 P ビデオ ・ インフラストラクチャとともに、マイクロソフトのチーム**
+**サード パーティ製のビデオ ・ インフラストラクチャとともに、マイクロソフトのチーム**
 
-- 3 P のビデオ デバイスの大規模な展開を持っています。
-- コント ローラーを呼び出し、組織内の 3 P を使用していますか。
+- サードパーティ製のビデオ デバイスの大規模な展開を持っています。
+- 組織でサード パーティ製の呼び出しコント ローラーがあるでしょうか。
 - マイクロソフト チームとともに現在、呼び出しのコント ローラーを保持することで計画するか。
 - インフラストラクチャに独自のビデオを実行するか、ホストされているでしょうか。 
 - チーム ルームのシステムを導入する予定ですか。 いつ。
@@ -88,11 +88,11 @@ ms.locfileid: "26533360"
 
 ## <a name="business-workflow-scenarios"></a>ビジネス ワークフロー シナリオ
 
-- **-> マイクロソフト チームの業務サーバーの Skype:** 組織は、サードパーティ製のデバイスと Skype からマイクロソフトのチームへのビジネス prem のサーバーの移動にいます。  
-- **ビジネス用の Skype は、マイクロソフトのチームをオンライン ->:** 組織がからに移行するマイクロソフト チーム Skype ビジネスをオンラインにします。
-- **-> マイクロソフト チームの cisco UC:** 組織は、マイクロソフトのチームには、Cisco の移動は、Cisco のデバイスを交換する準備ができていません。
-- **-> マイクロソフト チームの混合システム:** 組織は、(Cisco BroadSoft、デバイスのサーバー SfBO) いくつかのシステム、環境内に並べています。
-- **-> マイクロソフト チームの会議の別のプロバイダー:** 組織は、マイクロソフトのチームに移行するクラウド会議プロバイダーを別のユーザーをされています。
+- **Business Server の Skype-_gt マイクロソフト チーム:** 組織は、サードパーティ製のデバイスと Skype からマイクロソフトのチームへのビジネス prem のサーバーの移動にいます。  
+- **オンライン ・ ビジネスの Skype _gt マイクロソフト チーム:** 組織がからに移行するマイクロソフト チーム Skype ビジネスをオンラインにします。
+- **Cisco UC の _gt マイクロソフト チーム:** 組織は、マイクロソフトのチームには、Cisco の移動は、Cisco のデバイスを交換する準備ができていません。
+- **システムを混在・ _gt マイクロソフト チーム:** 組織は、(Cisco BroadSoft、デバイスのサーバー SfBO) いくつかのシステム、環境内に並べています。
+- **会議の別のプロバイダーの _gt マイクロソフト チーム:** 組織は、マイクロソフトのチームに移行するクラウド会議プロバイダーを別のユーザーをされています。
 
 
 パートナーまたはパートナーを選択すると、[マイクロソフトのチームのクラウド ビデオの相互運用機能を設定](cloud-video-interop-for-teams-set-up.md)する準備ができたら。 

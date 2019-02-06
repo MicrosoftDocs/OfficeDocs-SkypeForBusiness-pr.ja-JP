@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3df6bf5654e29adf794c2d8c8337a2460e95550c
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: 9cb83e60748cd36cc88256862a76131eb12d93ec
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562832"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29743021"
 ---
 ![技術面の準備段階を強調した、アップグレード手順の各段階](media/upgrade-banner-tech-readiness.png "技術面の準備段階を強調した、アップグレード手順の各段階")
 
@@ -222,3 +222,7 @@ Wi-fi ネットワークを最適化するために用意されているいく�
 - [ネットワークの計画](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)の完了によってチームを展開するための十分な帯域幅があることを確認します。
 
 - [ネットワーク評価ツール](https://www.microsoft.com/download/details.aspx?id=53885)を実行し、エッジのセグメントと、クライアントのセグメントの両方の[メディアの品質とネットワーク接続のパフォーマンス](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)で説明した要件を満たしていることを確認します。
+
+## <a name="related-topics"></a>関連トピック
+
+[ビデオ: ネットワークの計画](https://aka.ms/teams-networking)

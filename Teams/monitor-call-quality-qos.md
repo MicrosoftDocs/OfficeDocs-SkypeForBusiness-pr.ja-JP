@@ -1,7 +1,7 @@
 ---
-title: マイクロソフトのチームで QoS とモニターの呼び出しの分析機能を実装します。
+title: Microsoft Teams で QoS を実施し、通話分析を監視する
 author: jambirk
-ms.author: MyAdvisor
+ms.author: jambirk
 manager: Serdars
 ms.topic: article
 ms.service: msteams
@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0f82a546057558cc6c69c9c0de19bc9ccb021cd
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 505409ac51552a99fabc4eb41801a1f19a737877
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28328177"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742951"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>マイクロソフトのチームで QoS と通話品質の監視を実装します。
 
@@ -37,7 +37,7 @@ ms.locfileid: "28328177"
 
 ## <a name="related-topics"></a>関連トピック
 
-[マイクロソフトのチームに QoS を実装します。](monitor-call-quality-qos.md)
+[ビデオ: 通話品質の概要](https://aka.ms/teams-quality)
 
 [分析機能の呼び出しを設定します](set-up-call-analytics.md)
 

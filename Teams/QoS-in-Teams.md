@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5667374b52561af8809ab136646ffaf9d6077ad1
-ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
+ms.openlocfilehash: 8aa4bb6858fceb45fbf6abca8fe475ba49dbe1ba
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "29735131"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742864"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>マイクロソフトのチームでのサービス品質 (QoS) を実装します。
 
@@ -333,6 +333,8 @@ GPO によってマーキングされている各ワークロードについて�
 
 ## <a name="more-information"></a>詳細情報
 
+[ビデオ: ネットワークの計画](https://aka.ms/teams-networking)
+
 [Microsoft Teams 用に組織のネットワークを準備する](prepare-network.md)
 
-[ExpressRout QoS 要件](https://docs.microsoft.com/azure/expressroute/expressroute-qos)
+[ExpressRoute QoS 要件](https://docs.microsoft.com/azure/expressroute/expressroute-qos)

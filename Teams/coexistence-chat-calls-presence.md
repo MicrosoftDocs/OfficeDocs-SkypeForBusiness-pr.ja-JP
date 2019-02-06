@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9eb5626e9b4094ec814e0b55f4bb4fd3d0a42da8
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: 67c2e403511c3329d37fa3712bc8f559dcc16c38
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182505"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742998"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Skype for Business と共存する
 
@@ -74,9 +74,9 @@ TeamsOnly のユーザーに送信されたメッセージは、チームを常�
 
 **表 1 a: テナント型の新しいチャットまたは島モードの受信者にルーティングを呼び出す**
 
-| <br/><br/> モード | 発信者 <br/><br/> クライアント | <br/><br/> デバイス&nbsp;ホーム | | 受信者 <br/><br/> 諸島  |
+| <br/><br/> モード | 発信者 <br/><br/> クライアント | <br/><br/> デバイス&nbsp;ホーム | | 受信者 <br/><br/> アイランド  |
 |--- |--- |--- |--- |--- |
-| 諸島 | Teams <br/> Skype for Business<br/> Teams<br/> Skype for Business| オンライン<br/> オンライン<br/> Prem<br/>Prem| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> Skype for Business<br/> Teams<br/> Skype for Business|
+| アイランド | Teams <br/> Skype for Business<br/> Teams<br/> Skype for Business| オンライン<br/> オンライン<br/> Prem<br/>Prem| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> Skype for Business<br/> Teams<br/> Skype for Business|
 |デバイス\* <br/> | Skype for Business<br/>Skype for Business<br/> | オンライン<br/> Prem<br/> |&boxv;<br/>&boxv;|Skype for Business<br/>Skype for Business<br/>|
 |TeamsOnly |Teams| オンライン<br/>|&boxv;<br/>|Teams|
 | | | | | |
@@ -85,7 +85,7 @@ TeamsOnly のユーザーに送信されたメッセージは、チームを常�
 
 | <br/><br/> モード   | 発信者 <br/><br/> クライアント | <br/><br/> デバイス&nbsp;ホーム | |   受信者 <br/><br/> デバイス\*   |
 |--- |--- |--- |---   |--- |
-| 諸島 |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business  |オンライン<br/> オンライン<br/> Prem<br/> Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business<br/> **無理です** <br/>Skype for Business<br/> |
+| アイランド |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business  |オンライン<br/> オンライン<br/> Prem<br/> Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business<br/> **無理です** <br/>Skype for Business<br/> |
 |デバイス\* <br/> | Skype for Business<br/>Skype for Business<br/> | オンライン<br/> Prem<br/> |&boxv;<br/>&boxv; |  Skype for Business<br/>Skype for Business<br/> |
 |TeamsOnly |Teams| オンライン<br/>|&boxv;<br/> |  *Skype for Business* <br/>| 
 | | | | | |
@@ -94,7 +94,7 @@ TeamsOnly のユーザーに送信されたメッセージは、チームを常�
 
 | <br/><br/> モード   | 発信者 <br/><br/> クライアント | <br/><br/> デバイス&nbsp;ホーム | |   受信者 <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| 諸島   |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>|オンライン<br/> オンライン<br/> Prem<br/> Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
+| アイランド   |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>|オンライン<br/> オンライン<br/> Prem<br/> Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
 |デバイス\*  | Skype for Business<br/>Skype for Business<br/> | オンライン<br/> Prem<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
 |TeamsOnly  | Teams | オンライン |  &boxv; |Teams   |
 |  |  |  | | |
@@ -114,9 +114,9 @@ TeamsOnly のユーザーに送信されたメッセージは、チームを常�
 
 **表 2 a: 新しいチャットや通話の島の受信者にルーティングの連合**
 
-| <br/><br/>モード   | 発信者<br/><br/> クライアント| <br/><br/>デバイスのホーム| | 受信者<br/><br/> 諸島 |
+| <br/><br/>モード   | 発信者<br/><br/> クライアント| <br/><br/>デバイスのホーム| | 受信者<br/><br/> アイランド |
 |--- |--- |--- |--- |--- |
-| 諸島 |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business  |オンライン<br/> オンライン<br/> Prem<br/> Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **無理です**   <br/> Skype for Business |
+| アイランド |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business  |オンライン<br/> オンライン<br/> Prem<br/> Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **無理です**   <br/> Skype for Business |
 | デバイス\* |Skype for Business <br/>Skype for Business |オンライン<br/> Prem<br/> | &boxv;<br/>&boxv;|Skype for Business <br/>Skype for Business |
 | TeamsOnly |Teams |オンライン| &boxv;|*Skype for Business* |
 |  | | | | 
@@ -125,7 +125,7 @@ TeamsOnly のユーザーに送信されたメッセージは、チームを常�
 
 | <br/><br/>モード   | 発信者<br/><br/> クライアント| <br/><br/>デバイスのホーム| |  受信者<br/><br/> デバイス\* |  
 |--- |--- |--- |--- |--- |
-| 諸島 |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|オンライン<br/> オンライン<br/> Prem<br/> Prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **無理です** <br/>Skype for Business <br/> |  
+| アイランド |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|オンライン<br/> オンライン<br/> Prem<br/> Prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **無理です** <br/>Skype for Business <br/> |  
 | デバイス\* |Skype for Business <br/>Skype for Business  |オンライン<br/> Prem<br/>  |&boxv;<br/>&boxv; | Skype for Business <br/>Skype for Business  |
 | TeamsOnly | Teams|オンライン |&boxv; |*Skype for Business*  |
 |  | | | | |
@@ -134,7 +134,7 @@ TeamsOnly のユーザーに送信されたメッセージは、チームを常�
 
 | <br/><br/>モード | 発信者<br/><br/> クライアント| <br/><br/>デバイスのホーム| |  受信者<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| 諸島  |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|オンライン<br/> オンライン<br/> Prem<br/> Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Teams* <br/>**無理です** <br/>*Teams* |
+| アイランド  |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|オンライン<br/> オンライン<br/> Prem<br/> Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Teams* <br/>**無理です** <br/>*Teams* |
 | デバイス\* |Skype for Business <br/>Skype for Business  | オンライン<br/> Prem| &boxv;<br/>&boxv;|*Teams* <br/>*Teams*   |
 | TeamsOnly |Teams |オンライン |&boxv; |Teams |
 |  | | | | |
@@ -187,7 +187,7 @@ TeamsOnly のユーザーに送信されたメッセージは、常にチーム�
 
 **表 3: テナントのプレゼンス (新しいスレッド)**
 
-|ウォッチャー <br/><br/>クライアント| |<br/><br/>諸島 |Publisher <br/><br/>デバイス\* |<br/>チームのみ|
+|ウォッチャー <br/><br/>クライアント| |<br/><br/>アイランド |Publisher <br/><br/>デバイス\* |<br/>Teams Only|
 |--- |--- |--- |--- |---|
 |Skype for Business |&boxv;|Skype for Business | Skype for Business | Teams|
 |Teams |&boxv; |Teams |Skype for Business |Teams |
@@ -201,7 +201,7 @@ TeamsOnly のユーザーに送信されたメッセージは、常にチーム�
 
 **表 4: フェデレーションのプレゼンス (新しいスレッド)**
 
-|ウォッチャー <br/><br/> クライアント | |<br/><br/> 諸島  |Publisher <br/><br/> デバイス\* |<br/><br/> チームのみ |
+|ウォッチャー <br/><br/> クライアント | |<br/><br/> アイランド  |Publisher <br/><br/> デバイス\* |<br/><br/> Teams Only |
 |--- |--- |--- |--- |---|
 |Skype for Business |&boxv; |Skype for Business  | Skype for Business  | Teams  |
 |Teams | &boxv;|Skype for Business |Skype for Business |Teams|
@@ -212,3 +212,7 @@ TeamsOnly のユーザーに送信されたメッセージは、常にチーム�
 存在しを既存のスレッド、スレッドがスレッドのルーティングを配置する必要があるという点で公開されるターゲットのプレゼンスの到達可能性を調整するために前提とするとルーティング可能性があります。
 
 具体的には、受信者を作っていた場合に永続的な相互運用機能の会話のスレッドは、スレッドが、正確なプレゼンスを反映していないと、ルーティング可能なしなくなる、チームにアップグレードされました。 新しいスレッドを開始する必要があります。
+
+## <a name="related-links"></a>関連リンク
+
+[ビデオ: 共存とデバイスとのチームとの間の相互運用性を管理します。](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

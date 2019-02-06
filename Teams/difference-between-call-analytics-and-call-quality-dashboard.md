@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 分析機能を呼び出すと品質のダッシュ ボードを呼び出すを監視し、通話品質の問題のトラブルシューティングに使用する場合について説明します。
-ms.openlocfilehash: a212afea9f8d5010fa68af66ce72b39280a7d11c
-ms.sourcegitcommit: 09fcd68e30e7f83110f98172382c74f970b339a7
+ms.openlocfilehash: 8f664dfc8a609e23485f1dd935c00d8e5a745943
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "29442438"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742990"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>呼び出しを分析し、通話品質のダッシュ ボード
 
@@ -71,7 +71,7 @@ ms.locfileid: "29442438"
 
 呼び出しの分析では、ユーザーによって発生した通話の音質に関する情報の詳細に特定できます。 ユーザー Tony Smith は午後の不適切な呼び出しを理由がでしたか。 分析機能の呼び出しを使用すると、マイクロソフトのチームまたは業務管理者またはヘルプデスクの訓練を受けたエージェントの Skype 調べることができます、デバイス、ネットワーク、接続、およびトニーの呼び出しに関連するその他の要因です。
   
-通話分析が、特定の通話の品質に関する問題を管理者やヘルプデスク エージェントがトラブルシューティングできるように設計されているのに対し、通話品質ダッシュボード (CQD) は Skype for Business 管理者やネットワーク エンジニアがネットワークを最適化できるように設計されています。 CQD では特定のユーザーから焦点を外して、代わりに Skype for Business 組織全体の集計された情報について考察することになります。 
+通話分析が、特定の通話の品質に関する問題を管理者やヘルプデスク エージェントがトラブルシューティングできるように設計されているのに対し、通話品質ダッシュボード (CQD) は Skype for Business 管理者やネットワーク エンジニアがネットワークを最適化できるように設計されています。CQD では特定のユーザーから焦点を外して、代わりに Skype for Business 組織全体の集計された情報について考察することになります。 
   
 Tony の通話が低品質であったことは、他の数多くのユーザーにも影響を及ぼしている、ネットワークの問題がおそらく原因だと考えられます。Tony の個人的な通話経験については CQD で見ることはできませんが、Skype for Business を使用した通話の品質の全体像を把握できます。CQD では、全体のパターンが明らかに示され、ネットワーク エンジニアは確かな情報に基づく通話品質の評価を行えるようになります。CQD は通話品質の指標のレポートを提供し、全体的な通話品質、サーバーとクライアント間およびクライアント同士の間のストリーム、および音声品質の [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252) についての洞察を得られます。 
   
@@ -84,6 +84,8 @@ Tony の通話が低品質であったことは、他の数多くのユーザー
 救難に関する詳細について[を有効にしてマイクロソフトのチームとビジネス オンラインの Skype の品質ダッシュ ボードの呼び出しを使用して](turning-on-and-using-call-quality-dashboard.md)、[ディメンションとメジャーのマイクロソフトのチームとビジネス オンラインの Skype の品質ダッシュ ボードの呼び出しで使用可能な](dimensions-and-measures-available-in-call-quality-dashboard.md)を参照してください。
   
 ## <a name="related-topics"></a>関連トピック
+
+[ビデオ: 通話品質の概要](https://aka.ms/teams-quality)
 
 [分析機能の呼び出しを設定します](set-up-call-analytics.md)
 

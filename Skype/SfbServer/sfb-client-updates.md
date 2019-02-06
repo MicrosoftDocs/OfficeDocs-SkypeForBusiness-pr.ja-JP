@@ -4,18 +4,18 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
-ms.reviewer: mwa
+ms.reviewer: qingy
 ms.topic: reference
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: IT 専門家向けに、Skype for Business 2016、Skype for Business 2015、および Lync 2013 クライアントの永続バージョンに対する最新の更新プログラム関連情報へのリンクを提供します。
-ms.openlocfilehash: 522161d38c3e7a0b5cb46e9ce098e48478173a68
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 25bab2e73da7bf08ed91da4534e79b1fc6bd7b92
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531899"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29743013"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Windows インストーラー (MSI) を使用する Skype for Business の各バージョンに対する最新の更新プログラム
 
