@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 公衆交換電話網 (PSTN) を使用して業務を行うユーザーの緊急対応の住所と電話番号を設定する方法の手順を説明します。
-ms.openlocfilehash: c16e53df15d46457501c75ad5adcb0882d8fe875
-ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
+ms.openlocfilehash: 4778009ddcd004f37c5ed0f0566d64dae6648997
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26676399"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753438"
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>ユーザーの緊急番号の割り当て、変更を行う
 
@@ -38,7 +38,7 @@ Office 365 の通話プランの取得方法とかかる費用については、
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. 、**マイクロソフトのチームとビジネス管理センターの Skype** > **従来のポータル**です。
+2. **マイクロソフトのチーム管理センター**を参照して > **従来のポータル**です。
     
 3. 左側のナビゲーションには、 **音声**、し、 **ユーザーの音声**をクリックします。
     

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: 2fd01e38b05615bab79471b60aafeb8d0409c1d4
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 0cbfe5fec234ab237bd0c6bf108cfaa968685f0f
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017127"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753562"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Microsoft を電話会議プロバイダーとして割り当てる
 
@@ -41,7 +41,7 @@ Microsoft の電話会議はダイヤルイン電話番号、PIN、会議 ID を
 
 ### <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-using-the-skype-for-business-admin-center"></a>![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Skype for Business 管理センターを使用する
 
-1. は、**チームと Skype のビジネス管理センター**を参照して > **従来のポータル**です。
+1. **マイクロソフトのチーム管理センター**を参照して > **従来のポータル**です。
     
 2. **Skype**ビジネス管理センターは、左側のナビゲーションでは、[**電話会議**に移動します。
     

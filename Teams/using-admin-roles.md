@@ -10,12 +10,12 @@ ms.reviewer: islubin
 description: チームを管理するために別の管理者の役割を使用するについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26b9342703fbfd25992821984b2f40638d7bda62
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 824c9d93c98bb1f6fd9af0cbb93bac24f84e926e
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789199"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754316"
 ---
 # <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Microsoft Teams の管理者ロールを使用して Teams を管理する
 
@@ -23,20 +23,20 @@ Azure Active Directory (AD の Azure) を使用すると、マイクロソフト
 
 ## <a name="teams-roles-and-capabilities"></a>チームの役割と機能
 
-チーム管理者の 4 つの役割がある利用可能な: チーム サービス管理者、チーム コミュニケーションの管理者、チーム コミュニケーションのサポート ・ スペシャ リスト、およびチーム通信エンジニア リングをサポートします。 各役割で何ができるかを理解するには、次の表を確認し、チームと Skype のビジネス管理センターおよび PowerShell の使用するツールを管理者です。
+チーム管理者の 4 つの役割がある利用可能な: チーム サービス管理者、チーム コミュニケーションの管理者、チーム コミュニケーションのサポート ・ スペシャ リスト、およびチーム通信エンジニア リングをサポートします。 各役割で何ができるかを理解するには、次の表を確認し、マイクロソフト チームの管理の中心および PowerShell で使用するツールを管理者です。
 
 <!-- add Global admin role? -->
 
 | 役割 | これらのタスクを実行することができます。 | 次のツールにアクセスできます。 |
 |----- | ------------------ | ------------------------------ |
-| Teams サービス管理者 | マイクロソフト チーム サービスを管理し、管理し、Office 365 のグループを作成 | マイクロソフトのチームとビジネス管理センターを含め、関連付けられているコントロールの PowerShell の Skype 内のすべて。<br><br> ミーティングのポリシー、構成、および会議のブリッジ<sup>1, 3</sup>を含めて、会議を管理します。<br><br> ポリシーの呼び出しなど、音声を管理し、電話番号の在庫および割り当て<sup>1</sup><br><br> メッセージング、メッセージング ポリシー<sup>1, 3</sup>などの管理します。<br><br> フェデレーション、チームのアップグレード、およびクライアントの設定<sup>1, 3</sup>のチームを含む、すべての組織全体の設定を管理します。<br><br> 組織と、関連付けられている設定、メンバーシップ (グループ管理チームの管理を展開する管理ポータルで、PowerShell でサポートされている) <sup>23</sup>を含むチームを管理します。<br><br> ユーザー プロファイル ページを表示し、高度なトラブルシューティング ツールセット<sup>3</sup>を使用して、ユーザーの呼び出しの品質に関する問題のトラブルシューティング |
+| Teams サービス管理者 | マイクロソフト チーム サービスを管理し、管理し、Office 365 のグループを作成 | マイクロソフトのチーム管理センターとを含む、PowerShell の関連付けられたコントロール内のすべて。<br><br> ミーティングのポリシー、構成、および会議のブリッジ<sup>1, 3</sup>を含めて、会議を管理します。<br><br> ポリシーの呼び出しなど、音声を管理し、電話番号の在庫および割り当て<sup>1</sup><br><br> メッセージング、メッセージング ポリシー<sup>1, 3</sup>などの管理します。<br><br> フェデレーション、チームのアップグレード、およびクライアントの設定<sup>1, 3</sup>のチームを含む、すべての組織全体の設定を管理します。<br><br> 組織と、関連付けられている設定、メンバーシップ (グループ管理チームの管理を展開する管理ポータルで、PowerShell でサポートされている) <sup>23</sup>を含むチームを管理します。<br><br> ユーザー プロファイル ページを表示し、高度なトラブルシューティング ツールセット<sup>3</sup>を使用して、ユーザーの呼び出しの品質に関する問題のトラブルシューティング |
 | Teams 通信管理者 | Microsoft Teams サービス内の通話および会議の機能の管理 | ミーティングのポリシー、構成、および会議のブリッジ<sup>1, 3</sup>を含めて、会議を管理します。<br><br> ポリシーの呼び出しなど、音声を管理し、電話番号の在庫および割り当て<sup>1</sup><br><br> ユーザー プロファイル ページを表示し、高度なトラブルシューティング ツールセット<sup>3</sup>を使用して、ユーザーの呼び出しの品質に関する問題のトラブルシューティング |
 | Teams 通信サポート エンジニア | **高度な**ツールを使用して、チーム内での通信に関する問題をトラブルシューティングします。 | ユーザー プロファイル ページを表示し、高度なトラブルシューティング ツールセット<sup>3</sup>を使用して、ユーザーの呼び出しの品質に関する問題のトラブルシューティング |
 | チーム ・ コミュニケーション ・ サポート ・ スペシャ リスト | **基本的な**ツールを使用して、チーム内での通信に関する問題をトラブルシューティングします。| トラブルシューティングのユーザー プロファイルのページへのアクセスは、分析機能の呼び出しで呼び出されます。 検索されている特定のユーザーのユーザー情報のみを表示可能。<sup>3</sup>
 
 <sup>1</sup> [PowerShell の Skype ビジネス モジュールの](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
 <sup>2</sup> [PowerShell のマイクロソフト チーム モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
-<sup>3</sup> [マイクロソフト チームと Skype のビジネス管理センター](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
+<sup>3</sup> [マイクロソフトのチーム管理センター](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
 <!-- <sup>4</sup> Azure Active Directory Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 <sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 -->
@@ -55,7 +55,7 @@ PowerShell ツールは、これらの管理者の役割のほとんどは、ビ
    a. $session = csonlinesession で新しい<br>
    b. $Session のインポート-pssession<br>
    c. (ランダムに生成された名前であるが)、インポートしたセッションの名前を識別するのにには、 **Get モジュール**を使用します。<br>
-3. 使用**Get のコマンド ・ モジュール** <*上の名前*> 利用可能なすべてのコマンドレットを識別するには
+3. 使用**Get のコマンド ・ モジュール** <利用可能なすべてのコマンドレットを識別する*名前を上から*_gt
 
 ### <a name="related-topics"></a>関連トピック
 

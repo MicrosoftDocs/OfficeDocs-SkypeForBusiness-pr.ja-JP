@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '設定し、組織の処理効率の呼び出しに自動応答の電話システム (PBX をクラウド) をテストする方法について説明します。 '
-ms.openlocfilehash: 0bf312734c788e0bd02bc4fce40dbea4267850d4
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 9e84ea2130238866db61fa222169435772cc7758
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531580"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754155"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>電話システムの自動応答をセットアップする
 
@@ -49,9 +49,9 @@ ms.locfileid: "26531580"
   
 ## <a name="step-2---create-a-new-auto-attendant"></a>ステップ 2 - 新しい自動応答の作成
 
- **ビジネス管理センターの Microsoft のチームと Skype を使用します。**
+ **マイクロソフトのチーム管理センターを使用してください。**
 
-**マイクロソフトのチームとビジネス管理センターの Skype**をクリックして![デバイス ・ ロゴ ・ 30x30.png](../images/sfb-logo-30x30.png) **レガシ ポータル** >  **呼のルーティング** > **自動応答**、 **+ 新規追加**] をクリックします。
+**マイクロソフトのチーム管理センター**でをクリックして![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **レガシー ポータル** >  **呼のルーティング** > **自動応答**、 **+ 新規追加**] をクリックします。
 
 ### <a name="edit-general-info-page"></a>[一般情報の編集] ページ
 

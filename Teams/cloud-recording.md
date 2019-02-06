@@ -12,17 +12,14 @@ description: Microsoft Teams での Cloud Voice の機能の展開について�
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2b57b7c39dc129c485943c5048a8d4b6441d942
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: f773c88c16f77e6879adb29852514ef7548790fa
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594199"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754753"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議の記録
-
-> [!Note]
-> [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 マイクロソフトのチームで、ユーザーは、チームの会議やオーディオ、ビデオ、およびアクティビティを共有する画面のキャプチャ グループの呼び出しを記録できます。 自動の議事録を記録するためのオプションをユーザーがクローズド キャプションおよび重要なディスカッション アイテムの検索とのミーティングのレコーディングで再生、トラン スクリプトです。 録音では、クラウドでの動作し、ユーザーを共有できるように、安全に組織全体に、[マイクロソフトのストリーム](https://docs.microsoft.com/stream/)に保存されます。
 

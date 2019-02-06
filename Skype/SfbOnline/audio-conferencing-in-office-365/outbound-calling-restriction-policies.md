@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 管理者は、オーディオ会議、エンド ・ ユーザー PSTN の呼び出しのユーザーが可能なタイプを制御できます。
-ms.openlocfilehash: ed61dc5c131dd38d59820f3ccda9682dcf7fd886
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 97df093168e896eabbc210545d516f386e1a6d25
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882014"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753474"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー
 
@@ -45,7 +45,7 @@ ms.locfileid: "23882014"
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>オーディオ会議の発信を制限します。 
 
-![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
+![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**
 
 1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
 
@@ -55,19 +55,19 @@ ms.locfileid: "23882014"
 
 4. **会議からの発信アクセス許可**を [ダイヤルアウトの制限オプションを選択を選択します。
 
-5. [ **保存**] をクリックします。 
+5. [**保存**] をクリックします。 
 
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
 
 1.  **電話会議**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **のユーザー**、および利用可能なユーザーの一覧からユーザーを選択します。
 
-2.  In the Skype for Business admin center, in the left navigation go to Dial-in conferencing > Provider name drop-down, and then select the dial-in conferencing provider for the user.
+2.  操作ウィンドウで、[ **編集**] をクリックします。
 
 3.  [**ダイヤル アウトこのユーザーの会議からへの制限**、ダイアル アウトの制限オプションを選択を選択します。
 
     ![ダイアル アウトのオプションを制限](../images/restrictions-to-dial-outs.png)
 
-5. [ **保存**] をクリックします。
+5. [**保存**] をクリックします。
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

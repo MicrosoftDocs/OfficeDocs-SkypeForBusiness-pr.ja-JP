@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 移行する直接ルーティングでは、Skype のオンライン ビジネスとチームの構成の分析観点の必要なものについて説明します。
-ms.openlocfilehash: 21ca5c94e07a6ff3ae7f5eb59d3f82c3aa78cc83
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4aeb9a2a2ba1bc8398896b2040276f08658194f5
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016190"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754472"
 ---
 # <a name="migrating-to-direct-routing"></a>直接ルーティングへの移行
 
@@ -59,7 +59,7 @@ OnPremLineURI |該当なし|施設内の電話番号を同期する必要があ�
 
 <sup>2</sup>以前に発表された (第 3 四半期の最後のターゲット)、TeamsInteropPolicy から退職して TeamsUpgradePolicy にその機能が統合されています。 相互運用と移行は、「共存モード」を使用して、現在利用可能な TeamsUpgradePolicy、によって管理されます。 ユーザーのモードの選択では、着信呼び出しとチャットの両方のルーティングとユーザーのチャットや通話を開始したり、会議をスケジュールするどのクライアントにします。 TeamsInteropPolicy から退職するときにも、phaseout の中に TeamsUpgradePolicy と同時に設定する必要があります。  
 
-この取り組みの一環として、マイクロソフトでは「マイクロソフト チームと Skype のビジネス管理センター」(現代のポータルとも呼ばれます) 共存モードに基づいて、新しい管理モデルを反映するように最近更新しました。 現代のポータルを構成する TeamsUpgradePolicy はこれで自動的に設定も TeamsInteropPolicy に一貫性のある値は、TeamsInteropPolicy が不要になったユーザー インターフェイスで公開されているようです。 ただし、PowerShell を使用して管理者が TeamsUpgradePolicy および TeamsInteropPolicy に適切なルーティングを確保する設定も必要があります。 TeamsUpgradePolicy への移行が完了した後、不要になった必要がありますも TeamsInteropPolicy を設定します。
+この取り組みの一環として、マイクロソフトは共存モードに基づいて、新しい管理モデルを反映するように、「マイクロソフトのチーム管理センター」(現代のポータルとも呼ばれます) を最近更新しました。 現代のポータルを構成する TeamsUpgradePolicy はこれで自動的に設定も TeamsInteropPolicy に一貫性のある値は、TeamsInteropPolicy が不要になったユーザー インターフェイスで公開されているようです。 ただし、PowerShell を使用して管理者が TeamsUpgradePolicy および TeamsInteropPolicy に適切なルーティングを確保する設定も必要があります。 TeamsUpgradePolicy への移行が完了した後、不要になった必要がありますも TeamsInteropPolicy を設定します。
 
 詳細については、[移行と相互運用性チームと、ビジネス用の Skype を使用する組織向けのガイダンス](migration-interop-guidance-for-teams-with-skype.md)を参照してください。
 
@@ -111,7 +111,7 @@ Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPS
 
 ## <a name="related-links"></a>関連リンク
 
-[ビジネスのチームとは、Skype を使用する組織の移行と相互運用性のガイド](migration-interop-guidance-for-teams-with-skype.md)
+[Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](migration-interop-guidance-for-teams-with-skype.md)
 
 [許可 CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy)
 

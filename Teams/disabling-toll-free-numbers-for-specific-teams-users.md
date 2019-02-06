@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 管理者は、開催者が自分たちの会議で無料電話番号を使用することができるかを制御することができます。
-ms.openlocfilehash: cc179ff20d3bd523952ce57a79553025092532a9
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: 3334a9f4af261d9b4cacd988fcdff2f6a0a4eb19
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678339"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753956"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>特定の Teams ユーザーの無料電話番号を無効にする
 
@@ -45,7 +45,7 @@ Microsoft の電話会議ブリッジでの無料電話番号を所属する組�
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>特定のユーザーの無料電話番号を無効にする 
 
-では、**マイクロソフトのチームとビジネス管理センターの Skype**。
+**マイクロソフトのチーム管理センター**。
 
 1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
 

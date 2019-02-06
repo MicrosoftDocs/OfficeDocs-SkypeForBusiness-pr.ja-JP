@@ -9,16 +9,16 @@ ms.service: msteams
 description: PowerShell のコントロールを使用して、マイクロソフトのチームを管理するために説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 477aa468cf057bd5f1a042acd5aff9772e8244f0
-ms.sourcegitcommit: 09fcd68e30e7f83110f98172382c74f970b339a7
+ms.openlocfilehash: 45714418f123022bc3545d4923bd18fc71bad746
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "29442430"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754544"
 ---
 # <a name="teams-powershell-overview"></a>Teams での PowerShell の概要
 
-マイクロソフトのチームでは、マイクロソフトのチーム & Skype のビジネス管理センター、PowerShell コントロール、およびグラフの Api を通じて製品を管理する IT 管理者のためのツールの豊富なセットがあります。 このガイドでは、当社の PowerShell コマンドレットを使用して、IT 管理者を構成する方法について説明し、さらにドキュメントへのポインターを提供します。 さまざまなチームの管理者のロールに別のコマンドレットへのアクセスがあることに注意してください。 詳細については、[チームを管理する管理者の役割を使用してマイクロソフトのチーム](using-admin-roles.md)を参照してください。
+マイクロソフトのチームでは、マイクロソフトのチーム管理センター、PowerShell のコントロール、およびグラフの Api を通じて製品を管理する IT 管理者のためのツールの豊富なセットがあります。 このガイドでは、当社の PowerShell コマンドレットを使用して、IT 管理者を構成する方法について説明し、さらにドキュメントへのポインターを提供します。 さまざまなチームの管理者のロールに別のコマンドレットへのアクセスがあることに注意してください。 詳細については、[チームを管理する管理者の役割を使用してマイクロソフトのチーム](using-admin-roles.md)を参照してください。
 
 ## <a name="which-modules-do-you-need-to-use"></a>モジュールを使用するのには必要ですか。
 
@@ -75,7 +75,7 @@ PowerShell コマンドレットの別の管理者の役割が利用できるよ
 
 構成は、ユーザー レベルで指定することはできませんが、サービスで保持されている設定のバケットです。 設定は、組織全体で常に適用されます。 グローバル設定は、組織内で唯一の効果的な構成です。 構成タイプごとに主な 2 つのコマンドレットではあります。
 
-- たとえば、. 
+- ``Get-Cs<ConfigurationName>``(たとえば、 ``Get-CsTeamsClientConfiguration``)。 
 
 - 一連のコマンド (たとえば、 ``Set-CsTeamsClientConfiguration``): その種類の構成のプロパティを設定します。 変更するパラメーターを指定します。
    > 2 つの方法のいずれかに変更する構成を参照することができます: を指定する -**ユーザーのグローバル**、または実行によって``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>``。
@@ -86,6 +86,6 @@ PowerShell コマンドレットの別の管理者の役割が利用できるよ
 
 ## <a name="learn-more"></a>詳細情報
 
-- [マイクロソフト チーム コマンドレットのリファレンス](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+- [Microsoft Teams コマンドレット リファレンス](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
 - [Skype ビジネス コマンドレット参照](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
 - [Microsoft Teams の管理者ロールを使用して Teams を管理する](using-admin-roles.md)

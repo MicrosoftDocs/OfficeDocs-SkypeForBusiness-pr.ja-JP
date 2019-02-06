@@ -58,8 +58,8 @@
 
 ## [チームを管理します。](using-admin-roles.md)
 ### [組織内のチームの機能を管理します。](enable-features-office-365.md)
-### [新しい Microsoft Teams および Skype for Business の管理センターへの移行中に Teams を管理する](manage-teams-skypeforbusiness-admin-center.md)
-### [ビジネス管理センターは、マイクロソフトのチーム & Skype のチームを管理します。](manage-teams-in-modern-portal.md)
+### [新しいマイクロソフトのチーム管理センターに移行する際のチームを管理します。](manage-teams-skypeforbusiness-admin-center.md)
+### [マイクロソフトのチームの管理センターでのチームを管理します。](manage-teams-in-modern-portal.md)
 ### [チームの所有者およびチームのメンバーを割り当てる](assign-roles-permissions.md)
 ### [チームで動作する Skype の会議アプリケーションを構成します。](configure-skype-meetings-app-to-work-with-teams.md)
 ### [他の組織内のチームのユーザーとの通信します。](let-your-teams-users-communicate-with-other-people.md)

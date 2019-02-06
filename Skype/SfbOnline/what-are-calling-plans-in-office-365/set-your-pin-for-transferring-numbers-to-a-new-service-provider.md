@@ -20,17 +20,17 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 電話番号を Skype for Business Online から別の電話サービス プロバイダーまたは通信業者に転送または移行するには、PIN を手動で設定する必要があります。 PIN を設定した後、電話番号を移行するときにその PIN を含める必要があります。
-ms.openlocfilehash: 3a3744a4b1272bab987add10039c89c6e3983927
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: To transfer or port out phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out.
+ms.openlocfilehash: bcab4a05e7e24fd301563627a82f739ca169ecc2
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347093"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753456"
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>番号を新しいサービス プロバイダーに移行するための PIN を設定する
 
-電話番号を Skype for Business Online から別の電話サービス プロバイダーまたは通信業者に転送または 移行する には、PIN を手動で設定する必要があります。** PIN を設定した後、電話番号を移行するときにその PIN を含める必要があります。 
+To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. 
   
 > [!IMPORTANT]
 > 移行した PIN は、米国内の組織においてのみ使用されます。 
@@ -55,7 +55,7 @@ ms.locfileid: "25347093"
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. 移動、**マイクロソフトのチームとビジネス管理センターの Skype** > **従来のポータル**です。
+2. **マイクロソフトのチーム管理センター**を参照して > **従来のポータル**です。
     
 3. 左側のナビゲーションの**音声**を選択します > **ポート注文**します。
     
@@ -64,7 +64,7 @@ ms.locfileid: "25347093"
 5. [**移行する PIN の設定または変更**] パネルで、PIN を入力し、[**保存**] をクリックします。
 
 > [!NOTE]
-> 無料電話番号
+> さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。
     
 ## <a name="related-topics"></a>関連トピック
 [電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)

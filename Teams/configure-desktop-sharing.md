@@ -1,5 +1,5 @@
 ---
-title: マイクロソフトのチームでデスクトップの共有を構成します。
+title: Microsoft Teams でのデスクトップ共有を構成する
 author: LolaJacobsen
 ms.author: Lolaj
 manager: serdars
@@ -12,21 +12,21 @@ description: チーム チャットや会議での自分のデスクトップを
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 422d5fb3a19dad2e14e0cdf54a532b0afc6eed67
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: fcc76f79d288844611e17154359e8c9c3ab4ed23
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27202506"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754769"
 ---
-<a name="configure-desktop-sharing-in-microsoft-teams"></a>マイクロソフトのチームでデスクトップの共有を構成します。
+<a name="configure-desktop-sharing-in-microsoft-teams"></a>Microsoft Teams でのデスクトップ共有を構成する
 ============================================
 
 デスクトップの共有には、ユーザーが会議出席依頼やチャット中に、画面またはアプリケーションを提示することができます。 管理者は、画面を画面全体、アプリケーション、またはファイルを共有できるようにするのには、マイクロソフトのチームで共有を構成できます。 ユーザーを与える制御を要求、PowerPoint の共有を許可する、ホワイト ボードの追加やノートの共有を許可することもできます。 匿名または外部のユーザーが共有画面のコントロールを要求できるかどうかを構成することもできます。
 
 画面共有を構成するには、新しい会議ポリシーを作成し、管理するユーザーに割り当てます。
 
-マイクロソフトのチームとビジネス管理センターの Skype。
+**マイクロソフトのチームの管理センターで**
 
 1. **会議**を選択して > **ミーティングのポリシー**です。
 

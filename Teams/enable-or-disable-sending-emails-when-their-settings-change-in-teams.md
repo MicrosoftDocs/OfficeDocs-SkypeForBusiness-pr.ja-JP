@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft Teams での PIN や既定の電話番号などの設定が変更されたときに、Skype でユーザーにメールを送信することを有効または無効にする方法を説明します。 '
-ms.openlocfilehash: 2c082410f7acf000473e001f46587025edd6e9c7
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5f0573a0dec22791bd49eeeb6be6235ae2838c70
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015542"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754138"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Microsoft Teams で電話会議の設定が変更されたときのメールの自動送信を有効または無効にする
 
-ユーザーは、電話会議が有効になっているときに自動的に電子メールで通知されます。 場合があります、ただし、マイクロソフトのチームのユーザーに送信される電子メールの数を減らしたいとします。 このような場合は、電子メールの送信を無効にできます。
+ユーザーが電話会議で有効になっている場合、ユーザーにはメールで自動的に通知されます。 しかしながら、Microsoft Teams ユーザーに送信されるメールの数を削減する必要がある場合もあります。 そのような場合に、メールの送信を無効にすることができます。
   
 メールの送信を無効にすると、ユーザーが電話会議で有効または無効になったとき、ユーザーの PIN がリセットされたとき、会議 ID および既定の電話会議の電話番号が変更されたときなどに、電話会議のメールがユーザーに送信されなくなります。
   
@@ -58,7 +58,8 @@ ms.locfileid: "25015542"
 
 Microsoft Teams または Windows PowerShell を使用してメールがユーザーに送信されるのを有効または無効にすることができます。
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **Microsoft Teams と Skype for Business 管理センターを使用する: **
+![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**
+
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 
 2. [**会議ブリッジ**] ページの最上部で、[**ブリッジの設定**] をクリックします。 

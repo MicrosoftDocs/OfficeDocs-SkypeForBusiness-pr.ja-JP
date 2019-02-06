@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 組織のすべての電話番号、ユーザーに割り当てられているすべての電話番号、Skype for Business 管理センターから音声ユーザーに割り当てられているすべての電話番号のリストを表示する方法について説明します。
-ms.openlocfilehash: a6ab8115e1b336f2ccc77548fdfe501852efbda7
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7cda5c0ae791436d9f584cc4af802bfbc3649fcc
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370701"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753484"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>組織の電話番号のリストを表示する
 
@@ -39,7 +39,7 @@ Office 365 の電話会議など、ユーザーまたはその他のサービス
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. 移動、**マイクロソフトのチームとビジネス管理センターの Skype** > **従来のポータル**です。
+2. **マイクロソフトのチーム管理センター**を参照して > **従来のポータル**です。
     
 3. **音声**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **の電話番号**です。
     
@@ -71,7 +71,7 @@ Office 365 の電話会議など、ユーザーまたはその他のサービス
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. 移動、**マイクロソフトのチームとビジネス管理センターの Skype** > **従来のポータル**です。
+2. **マイクロソフトのチーム管理センター**を参照して > **従来のポータル**です。
     
 3. **音声**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **音声ユーザー**です。
     
@@ -95,7 +95,7 @@ When you are setting up users in your organization to make and receive phone cal
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. 移動、**マイクロソフトのチームとビジネス管理センターの Skype** > **従来のポータル**です。
+2. **マイクロソフトのチーム管理センター**を参照して > **従来のポータル**です。
     
 3. **音声**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **音声ユーザー**です。
     

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn how to change the emergency location for your users. With an unlimited number of locations, you can change emergency locations as employees move floors or buildings. '
-ms.openlocfilehash: 292789b19899f01478e44a183236960282ac6330
-ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
+ms.openlocfilehash: fc128a8de266bbf5ed6804ea07cc73bb2287a6e5
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26676419"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754844"
 ---
 # <a name="assign-or-change-the-emergency-location-for-a-user"></a>割り当てたり、ユーザーのシステムの場所を変更します。
 
@@ -38,7 +38,7 @@ Office 365 の通話プランの取得方法とかかる費用については、
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. 移動、**マイクロソフトのチームとビジネス管理センターの Skype** > **従来のポータル**です。
+2. **マイクロソフトのチーム管理センター**を参照して > **従来のポータル**です。
     
 3. 左側のナビゲーションでは、**音声**に移動 > **音声ユーザー**です。
     

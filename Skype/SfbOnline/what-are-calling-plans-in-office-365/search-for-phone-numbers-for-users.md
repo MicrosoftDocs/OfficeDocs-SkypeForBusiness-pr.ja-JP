@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: '国または地域、都道府県、市区町村別に、ユーザーに割り当てられる電話番号を検索し、必要な番号の数を指定する方法を説明します。 '
-ms.openlocfilehash: 0edf61b52869eff4a52e7b109085e02d4b380742
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: 'See how to search for phone numbers you can assign to your users, by country/region, state/region, or city, and specify the quantity of numbers you need. '
+ms.openlocfilehash: eeae7ad4bcafea1f8a1f86d36e59d2f57a2edff1
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347073"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753518"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>ユーザーの電話番号を検索する
 
 電話の通話を送受信するには、組織内のユーザーを設定すると、 **Skype**を使用し、最初のユーザーに割り当てることができる電話番号を取得ください。 ユーザーに割り当てる電話番号は組織用に選んだ電話番号であり、ユーザーのプロパティを編集して [ **番号を割り当てる**] をクリックすると、その番号はドロップダウン リストに一覧表示されます。
   
-ユーザーに電話番号を割り当てる前に、**新しい番号**ページを使用して、エリア内で利用可能な番号を検索する必要があります。 **国/地域**、**状態**、および**市区町村**を検索し、ユーザーにする必要がありますが、電話番号の番号を入力できます。 
+Before you can assign phone numbers to your users, you must use the **New numbers** page to search for numbers that are available for you within an area. **国/地域**、**状態**、および**市区町村**を検索し、ユーザーにする必要がありますが、電話番号の番号を入力できます。 
   
 電話番号を取得するいくつかのヘルプが必要な場合は、[組織の電話番号の管理](/microsoftteams/manage-phone-numbers-for-your-organization)や[ビジネス製品の管理のヘルプのサポートの連絡先](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)を確認すること
   
@@ -44,7 +44,7 @@ ms.locfileid: "25347073"
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. 移動、**マイクロソフトのチームとビジネス管理センターの Skype** > **従来のポータル**です。
+2. **マイクロソフトのチーム管理センター**を参照して > **従来のポータル**です。
     
 3. In the left navigation go to **Voice** > **Phone numbers**, and then click **Add new number** > **New user numbers**.
   

@@ -1,5 +1,5 @@
 ---
-title: 組織は、マイクロソフトのチームでのシフトのアプリケーションを管理します。
+title: Microsoft Teams で組織のシフト アプリを管理する
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
@@ -12,14 +12,14 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f761e36712b94274ccf88aa03bd3658c039d438
-ms.sourcegitcommit: 71ba178ff60c4b36d4d8e287be9b16233a29ad55
+ms.openlocfilehash: 204dc5899a72b1bc1516441ca8654e7341f19942
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28022916"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754528"
 ---
-# <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>組織は、マイクロソフトのチームでのシフトのアプリケーションを管理します。
+# <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
 > [!IMPORTANT]
 > 効果的な 2019 年 10 月 1日マイクロソフトの StaffHub は廃止されます。 StaffHub 機能、マイクロソフトのチームに、スケジュールとタスクの管理などが進められています。 先頭行の作業者の他の機能ロール チームに時間の経過と共にします。 詳細については、[不要になったマイクロソフトの StaffHub](https://support.office.com/article/microsoft-staffhub-to-be-retired-30ca17f3-5502-4bc9-bb0a-bed04bb362f0)を参照してください。  
@@ -49,7 +49,7 @@ ms.locfileid: "28022916"
 シフトは、組織内のチームのすべてのユーザーに対して既定で有効になります。 オフにするか、Microsoft 365 の管理ページで、組織のアプリケーションを有効にします。
 
 1. Office 365 管理者アカウントを使用して Microsoft 365 管理センターにサインインします。
-2. **設定**に > **サービスおよびアドイン** > **マイクロソフトのチーム**です。 
+2. **設定**に > **サービス & アドイン** > **マイクロソフトのチーム**です。 
 3. **テナント全体の設定**、[**アプリケーション**を選択して [**既定のアプリケーション**をオフにしたり、**シフト**するチェック ボックスをオフにするか、アプリケーションを有効にするを選択します。 
 
     ![アプリケーションの既定のセクションのスクリーン ショット](media/firstline-worker-enable-disable-shifts.png "シフトのアプリケーションを含む、アプリケーションの一覧を示す Microsoft 365 管理センターで [アプリケーションの既定のセクションのスクリーン ショット")
@@ -62,13 +62,13 @@ ms.locfileid: "28022916"
  
 チームには、組み込み FirstLineWorker アプリケーションの設定ポリシー、組織内の先頭行の作業者に割り当てることができますが含まれています。 既定では、ポリシーには、アクティビティ、シフト、チャット、および通話のアプリケーションが含まれています。 
 
-ポリシーを表示する、FirstLineWorker、マイクロソフトのチームとビジネス管理センターの Skype の左側のナビゲーションでは、**チームのアプリケーション**に移動 > **アプリケーションの設定のポリシー**です。
+ポリシーを表示する、FirstLineWorker、マイクロソフトのチーム管理センターの左側のナビゲーションでは、**チームのアプリケーション**に移動 > **アプリケーションの設定のポリシー**です。
 
-![マイクロソフト チームとビジネス管理センターの Skype では、FirstLineWorker アプリケーション セットアップ ポリシーのスクリーン ショット](media/firstline-worker-app-setup-policy.png "マイクロソフト チームとビジネス管理センターの Skype では、FirstLineWorker アプリケーション セットアップ ポリシーのスクリーン ショット")
+![マイクロソフトのチームの管理センターでは、FirstLineWorker アプリケーション セットアップ ポリシーのスクリーン ショット](media/firstline-worker-app-setup-policy.png "マイクロソフトのチームの管理センターでは、FirstLineWorker アプリケーション セットアップ ポリシーのスクリーン ショット")
 
 #### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>FirstLineWorker ポリシーを個々 のユーザーに割り当てます。
 
-1. マイクロソフトのチームとビジネス管理センターの Skype の左側のナビゲーションでは、**ユーザー**に移動し、し、[ユーザー] をクリックします。
+1. マイクロソフトのチーム管理センターの左側のナビゲーションでは、**ユーザー**に移動し、し、[ユーザー] をクリックします。
 2. **割り当てポリシー**] の横にある [**編集**] をクリックします。
 3. **チームのアプリケーション設定のポリシー**では、 **FirstLineWorker**を選択し、**保存**します。
 

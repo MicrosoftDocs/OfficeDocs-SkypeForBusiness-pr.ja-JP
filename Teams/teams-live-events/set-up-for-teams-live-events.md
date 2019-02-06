@@ -14,12 +14,12 @@ description: ネットワークを準備するなどのライセンスを割り�
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fe13722bfc8b5aa7a9f57d0dfd39c67146e6c31
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: 078374652325d177e30db1d320f22e5d814ac548
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626271"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754785"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントのセットアップ
 
@@ -41,7 +41,7 @@ ms.locfileid: "26626271"
 
 ### <a name="create-or-edit-a-live-events-policy"></a>ライブ イベントのポリシーを作成または更新
 
-**![チーム ・ ロゴ ・ 30x30.png](../media/teams-logo-30x30.png) 、マイクロソフトのチームと Skype を使用して、ビジネス管理センターの**
+**![チーム ・ ロゴ ・ 30x30.png](../media/teams-logo-30x30.png) 、マイクロソフトのチーム管理センターを使用して**
 
 1. 左側のナビゲーションでは、**会議**に移動 > **ライブ イベントのポリシー**です。 
 2. 次のいずれかの操作を行います。
@@ -51,7 +51,7 @@ ms.locfileid: "26626271"
 
     組織のニーズに合わせて変更できる設定を次に示します。
 
-    ![スクリーン ショットのライブ イベントのポリシーの設定](../media/teams-live-events-policies.png "スクリーン ショットは、マイクロソフトのチームとビジネス管理センターの Skype でのイベントのポリシーの設定をライブ") 
+    ![スクリーン ショットのライブ イベントのポリシーの設定](../media/teams-live-events-policies.png "スクリーン ショットは、マイクロソフトのチームの管理センターでのイベントのポリシーの設定をライブ") 
 
 |設定  |説明  |
 |---------|---------|
@@ -68,7 +68,7 @@ Windows PowerShell を使用しても実行することができます。 詳細
 
 ライブ イベントのカスタム ポリシーを作成した場合は、アクティブにするポリシーのユーザーに割り当てます。 
 
-![チーム ・ ロゴ ・ 30x30.png](../media/teams-logo-30x30.png) ビジネス管理センターの Microsoft のチームと Skype を使用します。
+![チーム ・ ロゴ ・ 30x30.png](../media/teams-logo-30x30.png) マイクロソフトのチーム管理センターを使用してください。
 
 1. 左側のナビゲーションでは、**ユーザー**に移動し、ユーザーを選択します。
 2. **割り当てポリシー**] の横にある [**編集**] をクリックします。 

@@ -1,5 +1,5 @@
 ---
-title: アップグレード フレームワークについて
+title: アップグレードのフレームワークについて
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -7,21 +7,21 @@ ms.date: 12/18/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: チームへのビジネスのための Skype から、組織のアップグレードの旅を支援する実証済みの成功フレームワークを使用してください。
+description: 自分の組織での Skype for Business から Microsoft Teams へのアップグレード手順を進めるために、成功実績のあるフレームワークを使用する
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e205eeb00373e66271c98405209df69b272f89a4
-ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
+ms.openlocfilehash: 5a9a2bd4bfe1122fe31951f4382340a7bbd57b1f
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27896148"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754568"
 ---
-# <a name="about-the-upgrade-framework"></a>アップグレード フレームワークについて
+# <a name="about-the-upgrade-framework"></a>アップグレードのフレームワークについて
 
 推測に頼らず、アップグレードの旅のため、変更を実装するための実証済みのフレームワークを採用したお。 下図のように、フレームワーク内の各ステップのビルド前のステップにし、最適な結果を得るには、お勧めの順序で手順を実行します。  
 
@@ -114,14 +114,14 @@ ms.locfileid: "27896148"
 |------|--|---------|----------|
 | **1** | **初期のアップグレードの成功を評価します。** | アップグレード前の段階で設定した目標に対する進捗状況を評価します。 | [プロジェクトの目標](upgrade-define-project-scope.md#project-goals) |
 | **2** | **トラックに登録されていない任意の目標に対するリスク軽減計画を実装します。** | 軽減処置または満たされていないされる目標のコース修正方法を定義します。 | [プロジェクトの目標](upgrade-define-project-scope.md#project-goals) |
-| **3** | **ネットワークの健全性と品質を監視します。** | 品質チェックを実装し、正のユーザーを確実に監視計画が発生すると、サポート デスクへの問い合わせを削減します。 | [ネットワークの健全性と品質を監視します。](continue-journey.md#monitor-for-network-health-and-quality) |
-| **4** | **ユーザーの運動量と導入を促進します。** | ユーザーの採用を促進し、チームの継続的な導入プランの興奮を維持してください。 | [ユーザーの運動量と導入を促進します。](continue-journey.md#drive-user-momentum-and-adoption) |
-| **5** | **新しい機能のための準備します。** | 新しい技術革新と製品の改善の変更サイクルを確立することで最大値を実現します。 | [新しい機能のための準備します。](continue-journey.md#prepare-for-new-functionality)
+| **3** | **ネットワークの健全性と品質の監視** | 品質チェックを実装し、正のユーザーを確実に監視計画が発生すると、サポート デスクへの問い合わせを削減します。 | [ネットワークの健全性と品質の監視](continue-journey.md#monitor-for-network-health-and-quality) |
+| **4** | **ユーザーの機運と導入を促進する** | ユーザーの採用を促進し、チームの継続的な導入プランの興奮を維持してください。 | [ユーザーの機運と導入を促進する](continue-journey.md#drive-user-momentum-and-adoption) |
+| **5** | **新しい機能に対して準備する** | 新しい技術革新と製品の改善の変更サイクルを確立することで最大値を実現します。 | [新しい機能に対して準備する](continue-journey.md#prepare-for-new-functionality)
 
 
 > [!Note]
 > アップグレード コンテンツは継続的に進化しています。 最新のガイダンスをご確認し、[チームのブログ](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)を読むことを確認します。 
 
 > [!Important]
-> なら管理者が、Office 365 テナントに、PowerShell コマンドレットまたはチームとビジネス管理センターの Skype でのアップグレードのオプションを表示を開始する可能性があります。 アップグレードすることも、必ずしもこの変更の準備ができました。 最適なユーザー エクスペリエンスでは、チームが共同作業とコミュニケーション要件を満たしていることを確認、ネットワークが、チームをサポートし、チームにユーザーをアップグレードする前に、ユーザーの準備の計画を実装する準備があることを確認します。
+> なら管理者が、Office 365 テナントに、PowerShell コマンドレットまたはマイクロソフトのチーム管理センターでのアップグレードのオプションを表示を開始する可能性があります。 アップグレードするためのオプションがあることによって、必ずしも所属する組織がその変更への準備が整っているということにはなりません。 最適なユーザー エクスペリエンスでは、チームが共同作業とコミュニケーション要件を満たしていることを確認、ネットワークが、チームをサポートし、チームにユーザーをアップグレードする前に、ユーザーの準備の計画を実装する準備があることを確認します。
  

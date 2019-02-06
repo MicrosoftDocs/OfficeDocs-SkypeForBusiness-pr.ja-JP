@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdcf5bd3da33463d39f8681a41d7299f3d66e727
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: 21cd36632f04060a50bd4fa6f742a5e7972ebec6
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29593935"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753501"
 ---
 # <a name="prepare-my-service"></a>サービスを準備します。
 
@@ -50,7 +50,7 @@ ms.locfileid: "29593935"
 サイトごとに契約時のユーザーが表示されたら、以下のチェックリストの補足ガイドとしては、[サイトの有効化の戦略 (戦略) の音声](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)を使用することを強く推奨します。
 
 >[!NOTE]
->ほとんどの構成設定は、チームと Skype のオンライン ビジネスの間で共通です。 これらの設定を構成するのには、Office 365 管理者センターとチームの & ビジネス管理センターの Skype を使用します。
+>ほとんどの構成設定は、チームと Skype のオンライン ビジネスの間で共通です。 これらの設定を構成するのには、Office 365 管理者センターとマイクロソフトのチーム管理センターを使用するとします。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>契約時チェックリストの完了を監督する責任者がされますか。</li></ul></td></tr>
@@ -86,17 +86,17 @@ ms.locfileid: "29593935"
 
 | オーディオ会議の機能をテストするには | 結果の概要 | 追加の注記 |
 |------------|-----------------|------------------|
-| オーディオ会議ダイヤルイン情報を含む特別なチームの会議のスケジュールを設定します。 | 合格/不合格   | 未定 |
-| 電話を使用して、提供されているダイヤルイン情報を使用して、PSTN から会議にダイヤルインしてミーティング オーディオの | 合格/不合格 | 未定 |
-| PSTN を使用してダイヤルアウトで他のユーザーを既存の会議に参加します。 | 合格/不合格 | 未定 |
+| オーディオ会議ダイヤルイン情報を含む特別なチームの会議のスケジュールを設定します。 | 合格/不合格   | TBD |
+| 電話を使用して、提供されているダイヤルイン情報を使用して、PSTN から会議にダイヤルインしてミーティング オーディオの | 合格/不合格 | TBD |
+| PSTN を使用してダイヤルアウトで他のユーザーを既存の会議に参加します。 | 合格/不合格 | TBD |
 
 
 
 | 通話プランまたは直接ルーティング機能をテストするのには | 結果の概要 | 追加の注記 |
 |----------------------------------------------------|-----------------|------------------|
-| PSTN 番号をダイヤルすることによって、PSTN の呼び出しを行う       | 合格/不合格       | 未定 |
-| 外部の行 (モバイル、地上線) から、PSTN の番号をダイヤルすることによって、PSTN の呼び出しを受信します。 | 合格/不合格 | 未定|
-| PSTN の呼び出しを別のチームの 1 つのユーザーに転送します。 | 合格/不合格 | 未定 |
+| PSTN 番号をダイヤルすることによって、PSTN の呼び出しを行う       | 合格/不合格       | TBD |
+| 外部の行 (モバイル、地上線) から、PSTN の番号をダイヤルすることによって、PSTN の呼び出しを受信します。 | 合格/不合格 | TBD|
+| PSTN の呼び出しを別のチームの 1 つのユーザーに転送します。 | 合格/不合格 | TBD |
 
 
 >[!TIP]

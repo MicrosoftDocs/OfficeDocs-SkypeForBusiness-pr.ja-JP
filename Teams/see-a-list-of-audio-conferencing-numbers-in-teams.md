@@ -20,20 +20,20 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft Teams 内でダイヤルイン電話会議の電話番号を調べる方法について説明します。 '
-ms.openlocfilehash: e2a3684e7f2c0264e36a6e30ce2df4adf2537895
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 5c28e8555dc2c90454798a5cfc4eab2319a98184
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347378"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754923"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Microsoft Teams で電話会議の電話番号のリストを表示する
 
-マイクロソフトのチームのユーザーの電話会議を設定すると、ときに、オーディオ会議のために利用可能な電話番号を表示できます。 あなたの組織に連絡可能な電話会議のすべての電話番号がリストに追加されます。
+Microsoft Teams ユーザーに対して電話会議をセットアップすると、それらのユーザーが電話会議で利用可能な電話番号を表示することができます。 リストには、自分の組織で利用可能な電話会議の電話番号がすべて含まれます。
   
- **価格を見る** [オーディオ会議の価格](https://products.office.com/skype-for-business/audio-conferencing#Requirements)を参照してください。
+ **価格を見る** 「[電話会議の料金](https://products.office.com/skype-for-business/audio-conferencing#Requirements)」をご覧ください。
   
-組織内で連絡可能な電話番号が1つのみの場合、その番号がすべてのユーザーの既定値の番号として使用されます。 複数の電話番号で連絡可能な場合は、各ユーザーが既定値の電話番号を選択することができます。 この既定の番号は、マイクロソフトのチーム ミーティング招待状に含まれます。
+組織内で連絡可能な電話番号が1つのみの場合、その番号がすべてのユーザーの既定値の番号として使用されます。 複数の電話番号が利用できる場合は、各ユーザーに既定の電話番号を選択することができます。 この既定の電話番号は、Microsoft Teams の会議の招待状に含まれます。
   
 1 人のユーザーのダイヤルイン電話番号を変更する方法は、「[招待状に含まれている電話番号を設定する](set-the-phone-numbers-included-on-invites-in-teams.md)」で確認することができます。
   
@@ -45,7 +45,7 @@ ms.locfileid: "25347378"
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>自分の電話会議の電話番号を表示するには
 
-![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) ビジネス管理センターは、マイクロソフトのチームと Skype を使用してください。
+![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**
 
 1. 左側のナビゲーションでは、**会議**に移動 > **会議ブリッジ**です。 
 2. オーディオ会議で使用可能な電話番号を表示します。

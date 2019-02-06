@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0b6940a2e58a0a459c6f7858c0d7bd19f53ca39
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: ccc958aaba8546f1af8f8bb1644d0fdeea8f0860
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594415"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754300"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -153,7 +153,7 @@ ms.locfileid: "29594415"
 
 *(1 日にアップグレードします)*
 
-今日は、組織が正式に、コミュニケーションとコラボレーションのソリューションとしてチームにアップグレードの日です。 チームの & ビジネス管理センターの Skype では、アップグレード**チームのみ**に共存モードを設定することによってアクティブになります。 (**組織全体の設定**には、管理センターで、 > **のチームをアップグレード**します)。ビジネス クライアントがチームにアップグレードされているため、Skype では、ユーザーは通知を受け取ります。
+今日は、組織が正式に、コミュニケーションとコラボレーションのソリューションとしてチームにアップグレードの日です。 マイクロソフトのチーム管理センターで、**チームだけ**に共存モードを設定することによってアップグレードを有効にします。 (**組織全体の設定**には、管理センターで、 > **のチームをアップグレード**します)。ビジネス クライアントがチームにアップグレードされているため、Skype では、ユーザーは通知を受け取ります。
 
 すべてのユーザーがアップグレードされた後、チームを歓迎する電子メールを送信することをお勧めします。
 

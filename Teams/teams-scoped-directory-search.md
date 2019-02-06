@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6260651dfa48dc07a15dbc1bbcf41297ecc281cf
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 2a4a36de9b535d7c95f93175a97ce5266fdc37ec
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326820"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754308"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Microsoft Teams の範囲指定ディレクトリ検索を使用する
 
@@ -46,11 +46,11 @@ ms.locfileid: "28326820"
 
 2.  Microsoft 365 の管理センターにサインインするのに、**管理センター**をを選択し、**チームの & Skype**。
  
-3.  マイクロソフトのチーム & Skype ビジネス管理センターは、**組織全体の設定**を選択します > **チームの設定**です。
+3.  マイクロソフトのチーム管理センターで、**組織全体の設定**を選択します > **チームの設定**です。
 
 4.  **検索**、**チームが Exchange アドレス帳ポリシー (APB) を使用してディレクトリ検索のスコープ**をで **[** 表示/非表示をオンにします。 
 
-    ![ビジネス管理センターのチーム & Skype のディレクトリ検索のスコープ](media/teams-scoped-directory-search-image1.png)
+    ![マイクロソフトのチーム管理センターのディレクトリ検索のスコープ](media/teams-scoped-directory-search-image1.png)
 
 > [!NOTE]
 > ハイブリッド構成 (Exchange、オンプレミスのチーム) は、対象とした検索モードをサポートしていません。 

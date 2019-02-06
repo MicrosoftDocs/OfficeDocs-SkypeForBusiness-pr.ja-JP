@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: ビジネス オンラインまたはチームの業務サーバーの Skype と Skype との間のハイブリッドの接続を実装するための考慮事項を計画しています。
-ms.openlocfilehash: ca6fce658443cd100cc03b14730dac722337733d
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 9e71ec9de7e9ade3502532056ec63826d9f77597
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29348945"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753951"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Skype ビジネス サーバーと Office 365 のハイブリッド接続を計画します。
 
@@ -62,7 +62,7 @@ ms.locfileid: "29348945"
     > オンプレミス展開があるハイブリッド構成には、1 つのテナントしか使用できません。
 - オンプレミスのディレクトリを Office 365と同期させる Azure Active Directory Connect。 詳細についてを参照してください[Azure AD 接続: アカウントとアクセス許可](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
 - Business Server 管理ツールの Skype です。  これらは、オンプレミスからクラウドに移行するユーザーを移動する必要があります。 設置型展開とインターネットの両方にアクセス権を持つサーバーにこれらのツールをインストールする必要があります。
-- オンライン管理ツールです。  ビジネス オンラインのチームと Skype を管理するために、チームと Skype のビジネス管理センターまたは Windows PowerShell を使用できます。 PowerShell を使用して、オンライン ビジネスのチームまたは Skype のいずれかを管理するために、ダウンロードして、Skype をビジネス オンラインのコネクタをインストールします。
+- オンライン管理ツールです。  チーム管理センターまたは Windows PowerShell を使用するには、オンライン ビジネスのチームと Skype を管理します。 PowerShell を使用して、オンライン ビジネスのチームまたは Skype のいずれかを管理するために、ダウンロードして、Skype をビジネス オンラインのコネクタをインストールします。
 - 共有 SIP アドレス スペースを有効にする必要があり、ホスティング プロバイダーと Office 365 を使用するのには、設置型の展開を構成する必要があります。 ハイブリッド接続を構成する手順の詳細については、[ハイブリッド接続の構成](configure-hybrid-connectivity.md)を参照してください。
 
 ハイブリッド接続を構成した後は、オンライン ビジネスのチームまたは Skype にユーザーを移動できます。 詳細については、[設置をチームからユーザーを移動](move-users-from-on-premises-to-teams.md)し、 [Skype ビジネスをオンラインにするには、社内設置型からユーザーを移動する](move-users-from-on-premises-to-skype-for-business-online.md)を参照してください。

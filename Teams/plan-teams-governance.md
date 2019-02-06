@@ -13,23 +13,23 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db98b9b5ab460207b2dd9f9a793a486402ec29fd
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 87f52eae4b99a76fc1eddf60fbdfd876efa8da05
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326867"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754811"
 ---
 # <a name="plan-for-governance-in-teams"></a>Teams でのガバナンスを計画する
 
-Teams には、自分の組織で必要となるあらゆるガバナンス機能を実施するための豊富なツールのセットが用意されています。 この記事では、正しい質問を通して、IT 専門家が自分たちのガバナンスの要件を判断したり、それらを満たすための方法を決めたりすることができるようになるガイドを提供します。 
+Teams provides a rich set of tools to implement any governance capabilities your organization might require. This article guides IT pros to ask the right questions to determine their requirements for governance, and how to meet them. 
 
 > [!Tip] 
 > Microsoft Teams でのガバナンスの詳細については、次のセッションをご覧ください。[Governance, management and lifecycle in Microsoft Teams (Microsoft Teams でのガバナンス、管理、およびライフサイクル)](https://aka.ms/teams-governance)
 
 ## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>グループおよびチームの作成、名前付け、分類、およびゲスト アクセス
 
-自分の組織において、チームの命名や分類について、ゲストがチーム メンバーとして追加することができるかどうかについて、およびチームを作成することができるユーザーが誰であるかについて、厳密な制御を実施する必要がある可能性があります。 これらの各領域について、Azure Active Directory (Azure AD) を使用して構成することができます。 
+Your organization might require that you implement strict controls on how teams are named and classified, whether guests can be added as team members, and who can create teams. You can configure each of these areas by using Azure Active Directory (Azure AD). 
 
 <br>
 
@@ -53,12 +53,12 @@ Teams には、自分の組織で必要となるあらゆるガバナンス機�
 > 事前に計画を立てやすくなるために、[これらのポリシーの設定について、およびどのライセンスが必要とされるかについて確認してください](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
 > 
 > [!NOTE]
-> グループおよびチームの作成を制限することにより、自分たちのユーザーの生産性が下がる可能性があります。これは、多くの Office 365 サービスで、サービスが機能するためにグループが作成されることが必要となるためです。 詳細については、「[Office 365 グループを作成するユーザーを制御する理由](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)」に移動して展開してください。
+> Limiting group and team creation can slow your users’ productivity, because many Office 365 services require that groups be created for the service to function. For additional information, navigate to and expand [Why control who creates Office 365 Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
 
 
 #### <a name="additional-information"></a>追加情報
 
-自分の要件を判別した後、Azure AD の制御を使用してそれらを実施することができます。 これらの設定を実装する方法についての技術面のガイダンスは、次をご覧ください。
+After you’ve determined your requirements, you can implement them by using Azure AD controls. For technical guidance on how to implement these settings, see:
 
 -   [グループ設定を構成するための Azure Active Directory コマンドレット](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)。
 
@@ -69,7 +69,7 @@ Teams には、自分の組織で必要となるあらゆるガバナンス機�
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>グループとチームの有効期限、保持、およびアーカイブ化
 
-自分の組織で、有効期限、保持、チームおよびチームのデータ (チャネルのメッセージとチャネルのファイル) をアーカイブ化することについてのポリシーを設定するための追加の要件がある可能性があります。 グループの有効期限ポリシーを構成して、グループのライフサイクルや、必要に応じて情報の保存や削除を行うための保持ポリシーを自動的に管理することができます。また、チームをアーカイブ化して (読み取り専用モードに設定して)、アクティブでなくなったチームについて特定の時点の表示を保存することができます。
+Your organization might have additional requirements for setting policies for expiration, retention, and archiving teams and teams data (channel messages and channel files). You can configure group expiration policies to automatically manage the lifecycle of the group and retention policies to preserve or delete information as needed, and you can archive teams (set them to read-only mode) to preserve a point-in-time view of a team that’s no longer active.
 
 |           |            |
 |-----------|------------|
@@ -82,11 +82,11 @@ Teams には、自分の組織で必要となるあらゆるガバナンス機�
 |機能 |詳細 |Azure AD Premium ライセンスが必要 |判断 |
 |---------|---------|---------|---------|
 |有効期限ポリシー |有効期限ポリシーを設定して、Office 365 グループのライフサイクルを管理します。 |P1 |TBD|
-|保持ポリシー |セキュリティ/コンプライアンス センター内で Teams の保持ポリシーを設定することによって特定の期間におけるデータを保持または削除します。 **注**: この機能の使用には Office 365 Enterprise E3 またはそれ以降のライセンスが必要です。 |なし |TBD |
+|保持ポリシー |Retain or delete data for a specific time period by setting retention policies for Teams in the Security & compliance center. **Note**: Using this feature requires licensing of Office 365 Enterprise E3 or above. |なし |TBD |
 |アーカイブ化と復元 |アクティブでなくなったチームを、参照用として保持する目的で、または将来的に再びアクティブ化する可能性がある場合に備えて、アーカイブ化します。 |なし |TBD |
 
 > [!Note]
-> グループの有効期限は、Azure AD Premium の機能です。 この機能を利用できるようにするためには、Azure AD Premium に対するサブスクリプションと、影響を受けるグループの設定およびメンバーを構成する管理者のためのライセンスが存在している必要があります。
+> Group expiration is an Azure AD Premium feature. For this feature to be available, your tenant must have a subscription to Azure AD Premium and licenses for the administrator who configures the settings and the members of the affected groups.
 
 #### <a name="additional-information"></a>追加情報
 
@@ -101,7 +101,7 @@ Teams には、自分の組織で必要となるあらゆるガバナンス機�
 
 ## <a name="teams-feature-management"></a>Teams 機能の管理
 
-Teams でのガバナンスおよびライフサイクル管理のもう 1 つの重要な側面として、自分たちのユーザーがどの機能にアクセスするかを制御する機能があります。 メッセージング、会議、通話機能を Office 365 のテナントレベル、またはユーザー単位のいずれかで管理することができます。 
+Another important aspect of governance and lifecycle management for Teams is the ability to control what features your users will have access to. You can manage messaging, meeting, and calling features, either at the Office 365 tenant level or per-user. 
 
 
 |         |         |
@@ -111,12 +111,12 @@ Teams でのガバナンスおよびライフサイクル管理のもう 1 つ�
 
 ### <a name="teams-feature-management-focus-areas"></a>Teams の機能管理での重点領域
 
-Teams は、ポリシーに応じて、メッセージング、会議、通話、およびライブ イベント機能などの細かい機能を提供します。 既定では、組織での要件に応じてユーザーごとに異なるポリシーがすべてのユーザーに対して適用されます。 
+Teams provides granular capabilities for controlling messaging, meeting, calling, and live event features and more, via policies. Different policies can be applied to all users by default or per user as required by your organization. 
 
 自分の組織での各設定の実行についての技術的なガイダンスを含む、すべての設定の詳細なリストについては、次の記事を参照してください。
 
 -   [Office 365 を使用する組織で Microsoft Teams の機能を管理する](enable-features-office-365.md)
--   [新しい Microsoft Teams および Skype for Business の管理センターへの移行中に Teams を管理する](manage-teams-skypeforbusiness-admin-center.md)
+-   [新しいマイクロソフトのチーム管理センターに移行する際のチームを管理します。](manage-teams-skypeforbusiness-admin-center.md)
 -   [Teams での会議ポリシーを管理する](meeting-policies-in-teams.md)
 
 

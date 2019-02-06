@@ -1,5 +1,5 @@
 ---
-title: 別の組織内のチームのユーザーとの通信します。
+title: 他の組織の Teams ユーザーとの通信
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: ユーザーが別の組織内のユーザーと通信できるようにするのにはチームを構成する方法を参照してください。
-ms.openlocfilehash: 6fb71e4c9e1461ca920d480336288b06e3111eb2
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: 39fa6de27b6ff4f662955ac3cf36d7826379d753
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240841"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754729"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>チームのユーザーのチャットを使用し、チームの別の組織内のユーザーとの通信
 
@@ -43,7 +43,7 @@ ms.locfileid: "27240841"
 
 ### <a name="step-2---enable-your-organization-to-communicate-with-another-teams-organization"></a>手順 2 - 別のチームの組織と通信するために組織を有効にします。
 
-![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチームとビジネス管理センターの Skype を使用します。**
+![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**
 
    1. 左側のナビゲーションでは、**組織全体の設定**に移動 > **外部からアクセス**します。 
 
@@ -76,7 +76,7 @@ ms.locfileid: "27240841"
 
 組織は、次の手順を行うことで、管理者があります。
     
-1. **管理センター**には、Office 365 管理センターで、 > **のチームと Skype** > **従来のポータル**です。
+1. Office 365 管理センターでは、**管理センター**に移動 > **チーム & Skype** > **従来のポータル**です。
   
 2. [**Skype for Business 管理センター**] で、[**組織**]  >  [**外部通信**] を選びます。
     

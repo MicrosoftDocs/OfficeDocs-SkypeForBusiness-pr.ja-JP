@@ -13,20 +13,20 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44f3cdad4ab65935c2721244364861db7a140f15
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 668e44b66b08b16a04e730c43dbbe02a9edea4fe
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349296"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754633"
 ---
-![展開に重点を置いて、アップグレードの旅の段階や実装段階](media/upgrade-banner-deployment.png "展開に重点を置いて、アップグレードの旅の段階や実装段階")
+![展開と実装の段階に重点を置いた、アップグレード手順の各段階](media/upgrade-banner-deployment.png "展開と実装の段階に重点を置いた、アップグレード手順の各段階")
 
-この資料は、アップグレード、旅の導入と展開の段階の一部です。 進む前に、次のアクティビティを完了したしたことを確認します。
+この記事は、お客様のアップグレード手順における展開と実装の段階の一部を取り上げています。 先に進む前に、次のアクティビティを完了していることを確認してください。
 
-- [プロジェクトの利害関係者が参加しています。](upgrade-enlist-stakeholders.md)
-- [プロジェクト スコープの定義](https://aka.ms/SkypetoTeams-Scope)
-- [ビジネスとチームの共存と Skype の相互運用性を理解します。](https://aka.ms/SkypeToTeams-Coexist)
+- [プロジェクトの関係者をリスト化した](upgrade-enlist-stakeholders.md)
+- [プロジェクトの対象範囲を定義した](https://aka.ms/SkypetoTeams-Scope)
+- [Skype for Business と Teams の共存と相互運用を理解した](https://aka.ms/SkypeToTeams-Coexist)
 - [アップグレード、旅を選択](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [環境を準備](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [組織の準備](https://aka.ms/SkypeToTeams-UserReadiness)
@@ -41,7 +41,7 @@ ms.locfileid: "29349296"
 
 ## <a name="assign-the-coexistence-and-upgrade-mode"></a>共存およびアップグレード モードを割り当てる
 
-チームが、ユーザーをアップグレードするには、リモートの Windows Powershell セッションをビジネスのビジネス管理センターまたは、Skype の Skype マイクロソフト チームの & を使用して実行することができる TeamsUpgradePolicy の TeamsOnly モードを割り当てることです。
+ビジネス リモートの Windows Powershell セッションでマイクロソフトのチームの管理センターや、Skype を使用して実行することができる TeamsUpgradePolicy の TeamsOnly モードを割り当てることによって、チームがユーザーをアップグレードできます。
 
 詳細についてを参照してください[、共存を設定および設定をアップグレード](https://aka.ms/SkypeToTeams-SetCoexistence)し、 [TeamsUpgradePolicy: 移行と共存を管理する](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)。
 
@@ -51,12 +51,12 @@ ms.locfileid: "29349296"
 
 ### <a name="step-1-notify-the-users-of-the-change"></a>手順 1: ユーザーに変更を通知します。
 
-1. マイクロソフトのチームの & ビジネス管理センターの Skype では、**組織全体の設定**を選択します。 > **のチームをアップグレード**します。
+1. マイクロソフトのチーム管理センターで、**組織全体の設定**を選択して > **のチームをアップグレード**します。
 2. **共存モード**では、[**上**に**チームへのアップグレードが利用可能なビジネス ・ ユーザーの通知の Skype**のスイッチを変更します。
 
 ### <a name="step-2-set-the-coexistence-mode-for-the-users"></a>ステップ 2: ユーザーの共存モードを設定します。
 
-1. マイクロソフトのチームの & ビジネス管理センターの Skype では、**組織全体の設定**を選択します。
+1. マイクロソフトのチーム管理センターでは、**組織全体の設定**を選択します。
 2. **共存モード**」ドロップ ダウン リストから**チームのみ**のモードを選択します。
 
 ## <a name="upgrade-users-in-stages"></a>ユーザーを段階的にアップグレードします。
@@ -71,13 +71,13 @@ Cohorts のユーザーは、同時にチームのみのモードに移動する
 
 ### <a name="step-2-set-the-user-mode-to-islands"></a>ステップ 2: 島へのユーザー モードを設定します。
 
-1. マイクロソフト チームの & ビジネス管理センターの Skype で**ユーザー**を選択し、ユーザーの cohort します。
+1. マイクロソフトのチーム管理センターで、**ユーザー**を選択し、ユーザーの cohort します。
 2. **チームのアップグレード**をするには、横の**編集**を選択します。
 3. **共存モード**では、下の**チームのアップグレード**ウィンドウのドロップ ダウン リストから**島**を選択します。
 
 ### <a name="step-3-set-notification-for-the-user-optional"></a>ユーザーの通知を設定 (省略可能) 手順 3。
 
-1. マイクロソフト チーム & ビジネス管理センターの Skype では、**ユーザー**を選択し、ユーザー cohort を選択します。
+1. マイクロソフトのチーム管理センターでは、**ユーザー**を選択し、ユーザー cohort を選択します。
 2. **チームのアップグレード**をするには、横の**編集**を選択します。
 3. **共存モード**では、下の**チームのアップグレード**ウィンドウの**上**に**通知 Skype ビジネス ユーザーの**スイッチを変更します。
 
@@ -85,7 +85,7 @@ Cohorts のユーザーは、同時にチームのみのモードに移動する
 
 唯一のアプリケーションとして、チームを使用するユーザーをアップグレードする準備ができたら、チームだけにユーザーの共存モードを設定します。
 
-1. マイクロソフト チームの & ビジネス管理センターの Skype で**ユーザー**を選択し、ユーザーの cohort します。
+1. マイクロソフトのチーム管理センターで、**ユーザー**を選択し、ユーザーの cohort します。
 2. **チームのアップグレード**をするには、横の**編集**を選択します。
 3. **チームのアップグレード**ウィンドウの [、**共存モード**では、ドロップ ダウン リストからの**チームのみ**を選択します。
 

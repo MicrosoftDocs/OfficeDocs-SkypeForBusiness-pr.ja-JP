@@ -22,26 +22,24 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: ポリシーおよびその修正を行うことができますの名前に特殊文字を含むが、どのような問題を参照してください。
-ms.openlocfilehash: e1d46f70b42b96b2f3811c97d0110946fd013cd7
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: ffb6082a613587b654f997bc2b2154bfeade15bf
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017504"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754737"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>チーム ポリシー内の特殊文字の制限は?
 
-**ビジネス管理センターは、マイクロソフトのチームと Skype で名前に特殊文字がある (メッセージ、会議など) 用のポリシーを編集または作成できません。** 
+**作成することはできません、または中央にマイクロソフトのチームの管理者の名前に特殊文字がある (メッセージ、会議など) 用のポリシーを編集**します。 
 
-ポリシー名に特殊文字が含まれている場合は、マイクロソフトのチームとビジネス管理センターの Skype でこれらのポリシーを管理するうえで制限されます。 **よう、強くお勧めポリシー名に特殊文字を含めない**。 
+ポリシー名に特殊文字が含まれている場合は、マイクロソフトのチームの管理センターでこれらのポリシーを管理するうえで制限されます。 **よう、強くお勧めポリシー名に特殊文字を含めない**。 
 
-会議、メッセージング チームには特殊文字など、PowerShell を使用して作成されているポリシー名 @、#、$。 ただし場合は、マイクロソフトのチームと Skype のビジネス管理センターでポリシーを変更するためのお問い合わせは、することはできませんにします。 
+会議、メッセージング チームには特殊文字など、PowerShell を使用して作成されているポリシー名 @、#、$。 ただし、マイクロソフト チームの管理センターのポリシーに変更を加えるしようとしている場合することはできませんにします。 
 
-特殊文字を含むポリシーがあれば、(無限) に Windows PowerShell を使用して、ポリシーを編集するか、または古いポリシーと同じ設定で、マイクロソフトのチームとビジネス管理センターの Skype の新しいポリシーを作成し、同じグループに割り当てることする必要があります。ユーザーの p です。
+特殊文字を含むポリシーを使っている場合は、(無限) に Windows PowerShell を使用してポリシーを編集するか、または古いポリシーと同じ設定を持つマイクロソフトのチーム管理センターで新しいポリシーを作成し、同じユーザーのグループに割り当てること必要があります。
 
 ## <a name="to-remove-special-characters"></a>特殊文字を削除するのには
-
-
 
 **手順 1 - PowerShell でリモート接続を確立します**。
 まだしていない場合は、 [Windows PowerShell には、コンピューターの設定](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)をします。
@@ -65,7 +63,7 @@ ms.locfileid: "25017504"
 
 **手順 3: 新しいポリシーを作成します。**
 
-ビジネス管理センターまたは PowerShell のマイクロソフトのチームと Skype を使用して同じ設定で新しいポリシーを作成できますか。
+マイクロソフトのチーム管理センターまたは PowerShell を使用して同じ設定を持つか、新しいポリシーを作成できます。
 
 新しいポリシーを作成、これを実行しているが、[セット CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)を表示し、後に実行する適切な設定を追加する必要があります。
 
@@ -101,13 +99,13 @@ Windows PowerShell は、ユーザーと、ユーザーに許可されている�
     
 - 多くのユーザーの設定を同時に変更するときなどは、Office 365 管理センターのみを使用するよりも、Windows PowerShell の方に、速度、わかりやすさ、生産性の点で多くのメリットがあります。
     
-  - [Windows PowerShell と Lync Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center such as when you are making setting changes for many users at one time.](https://go.microsoft.com/fwlink/?LinkId=525039)
     
     [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [クイック リファレンス: Windows PowerShell を使用した一般的な Lync Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > ビジネス オンラインの Skype については、Windows PowerShell モジュールを使用すると、Skype のビジネスをオンラインで、マイクロソフトのチームに接続するリモートの Windows PowerShell セッションを作成できます。 Skype for Business Online 用 Windows PowerShell モジュールでは、リモート Windows PowerShell セッションを作成して Skype for Business Online に接続できます。
+    > ビジネス オンラインの Skype については、Windows PowerShell モジュールを使用すると、Skype のビジネスをオンラインで、マイクロソフトのチームに接続するリモートの Windows PowerShell セッションを作成できます。 このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「[Skype for Business Online 用 Windows PowerShell モジュール](https://go.microsoft.com/fwlink/?LinkId=294688)」からダウンロードできます。
   
-### <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+

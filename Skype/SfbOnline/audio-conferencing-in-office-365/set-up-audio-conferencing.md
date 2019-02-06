@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '電話を使用して会議に参加する必要のあるビジネスで、ユーザーのダイヤルインまたはオーディオ会議を設定する方法について説明します。 '
-ms.openlocfilehash: 5d069822bf818db63ed35545a34a0bfa2eeee672
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: e7621d98c68e5a3ce290a4d271e6700905e2344a
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562670"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753628"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams"></a>Skype for Business および Microsoft Teams の電話会議のセットアップ
 
@@ -87,11 +87,11 @@ For Audio Conferencing, you can’t use phone numbers for users; you will need t
 
 次に、電話会議の電話番号にダイヤルインした時に、呼び出しをしたユーザーに挨拶をするのに会議の自動応答で使用する「[電話会議の自動応答の言語を設定](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md)」します。 
 
-![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Microsoft Teams と Skype for Business 管理センターを使用する: **
+![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **マイクロソフト チームの管理センターを使用**します。
 
 ダッシュボードから、[**会議**]  >  [**会議ブリッジ**] の順に開き、会議ブリッジ電話番号を選択して [**編集**] をクリックし、既定言語を選択します。
 
-![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターに、Skype を使用する:**
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用**します。
 
 **Office 365 管理センター**を参照して > **管理センター** > **ビジネス用の Skype** > **電話会議** > **Microsoft ブリッジ**、会議ブリッジの電話番号を選択し、 **言語を設定する**です。
 
@@ -100,7 +100,7 @@ For Audio Conferencing, you can’t use phone numbers for users; you will need t
     
 会議ブリッジをセットアップした後、使用する開始/終了の通知と PIN の長さが正しいかなど、既定の設定を確認します。正しくない場合は、変更することができます。 
 
-![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Microsoft Teams と Skype for Business 管理センターを使用する: **
+![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **マイクロソフト チームの管理センターを使用**します。
 
 From the Dashboard, go to **Meetings** > **Conference bridges** > **Bridge settings**. This will open the **Bridge settings** pane. For more details, see [Change the settings for an Audio Conferencing bridge](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge).
 
@@ -114,7 +114,7 @@ Go to the **Office 365 admin center** > **Admin centers** > **Skype for Business
 
 You will need to do this for all of the people in your organization who lead or schedule meetings. To do this:
 
-![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Microsoft Teams と Skype for Business 管理センターを使用する: **
+![チーム ・ ロゴ ・ 30x30.png](../images/teams-logo-30x30.png) **マイクロソフト チームの管理センターを使用**します。
 
 ダッシュボードから、[**ユーザー**] をクリックしてリストからユーザーを選択し、[**編集**] をクリック、[**電話会議**] の次にある [**編集**] をクリックして、[**電話会議**] ウィンドウで [**有料番号**] と [**無料番号**] の番号リストから、番号を選択します。
 

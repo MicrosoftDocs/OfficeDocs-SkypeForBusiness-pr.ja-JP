@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn to add, change, or remove an emergency location used by  Skype for Business on Public Switched Telephone Networks (PSTN) for your organization. '
-ms.openlocfilehash: 81a70264e5b8a7f316a9c64e3fa6104d193dec66
-ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
+ms.openlocfilehash: 8c03808dfecd8093f4bf8f8545d3fed1554e237c
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26676437"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753528"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>組織の緊急対応の場所を追加、変更、削除する
 
@@ -38,7 +38,7 @@ Office 365 の通話プランの取得方法とプランの費用については
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. 、**マイクロソフトのチームとビジネス管理センターの Skype** > **従来のポータル**です。
+2. **マイクロソフトのチーム管理センター**を参照して > **従来のポータル**です。
     
 3. 左側のナビゲーションでは、[**音声**] に移動 > **緊急の場所**、および緊急時のアドレスの場所を追加するを選択します。
     
@@ -49,13 +49,13 @@ Office 365 の通話プランの取得方法とプランの費用については
     
 5. [**関連付けられている場所**]で、[**新規追加**] をクリックして、関連付けられている別の場所を入力し (たとえば「64 番ビルの 1 階」)、[**送信**] をクリックします。
     
-6. [ **保存**] をクリックします。
+6. [**保存**] をクリックします。
     
 ## <a name="change-an-emergency-location-for-an-emergency-address"></a>緊急対応の住所の緊急対応の場所を変更する
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. 、**マイクロソフトのチームとビジネス管理センターの Skype** > **従来のポータル**です。
+2. **マイクロソフトのチーム管理センター**を参照して > **従来のポータル**です。
     
 3. 左側のナビゲーションでは、[**音声**] に移動 > **緊急の場所**、し、緊急時に場所を変更するアドレスを選択します。
     
@@ -69,7 +69,7 @@ Office 365 の通話プランの取得方法とプランの費用については
 
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
-2. 、**マイクロソフトのチームとビジネス管理センターの Skype** > **従来のポータル**です。
+2. **マイクロソフトのチーム管理センター**を参照して > **従来のポータル**です。
     
 3. 左側のナビゲーションでは、[**音声**] に移動 > **緊急の場所**、および緊急時のアドレスの場所を削除するを選択します。
     

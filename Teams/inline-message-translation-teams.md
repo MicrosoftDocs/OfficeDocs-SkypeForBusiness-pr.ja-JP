@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2afc1d0374333fdbb0bec9246d04224c6a82f032
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 466160616adea80a2fcb6a3bfd035ca397d73754
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532703"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754427"
 ---
 <a name="use-inline-message-translation-in-microsoft-teams"></a>Microsoft Teams でインライン メッセージの翻訳を使用する 
 =================================================
@@ -40,9 +40,9 @@ ms.locfileid: "26532703"
 1. [セット CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)コマンドレットを使用してポリシーを有効にします。
 2. ポリシーは、適用には数分をかかります。 ユーザーがサインアウトして、チームにもう一度サインインする必要があります。
 
-## <a name="enable-by-using-the-microsoft-teams--skype-for-business-admin-center"></a>ビジネス管理センターの Microsoft のチームと Skype を使用して有効にします。
+## <a name="enable-by-using-the-microsoft-teams-admin-center"></a>マイクロソフトのチーム管理センターを使用して有効にします。
 
-**マイクロソフト チームとビジネス管理センターの Skype**で、**メッセージング ポリシー**を選択して、左側のバーからか、新しいポリシーを作成または既存のポリシーを編集し、**に**メッセージを変換するユーザーを許可する**オプションを設定します。**.
+**マイクロソフト チームの管理センター**で**メッセージング ポリシー**を選択して、左側のバーから、新しいポリシーを作成または既存のポリシーを編集し、**メッセージを変換するユーザーを許可する**] オプションを**オン**に設定。
 
 > [!NOTE]
 >翻訳はサービスによって実行し、対応レコード内でキャプチャされたコンテンツに影響をクライアントに配信します。 翻訳機能の詳細についてを参照してください[Microsoft Translator は何ですか?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview)。

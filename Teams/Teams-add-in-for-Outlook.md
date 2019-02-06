@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba75e2efa5ce96a30f868bef44349468753abeec
-ms.sourcegitcommit: 20defe18ac1d2b21853bd6d5f0772cd3f35e53e9
+ms.openlocfilehash: e892e5c615fce6ed8c65fdfaeadbacba88e1ec5c
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "29686466"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753751"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================
@@ -51,9 +51,9 @@ Teams の会議アドインでは、ユーザーが認証要件を使用して T
 
 ## <a name="enable-private-meetings"></a>プライベート会議を有効にする
 
-チーム & の配置を取得するのにはプラグインの管理センターをビジネスの Skype でを有効にする必要があります秘密の会議のスケジュールを設定できるようにします。 **会議**には、管理センターで、 > **ミーティングのポリシー**、し、 **[全般**] セクションで、表示または非表示**プライベートな会議のスケジュールを許可する**にします)。
+個人の会議のスケジュールを設定する必要がありますで有効にするプラグインの配置を取得するのにはマイクロソフトのチーム管理センターを使用できます。 **会議**には、管理センターで、 > **ミーティングのポリシー**、し、 **[全般**] セクションで、表示または非表示**プライベートな会議のスケジュールを許可する**にします)。
 
-![Skype ビジネス管理センターのチームの & の設定のスクリーン ショットです。](media/teams-add-in-for-outlook-image1.png)
+![マイクロソフトのチームの管理センターの設定のスクリーン ショットです。](media/teams-add-in-for-outlook-image1.png)
 
 Teams クライアントはユーザーが必要としているのが 32 ビット版か 64 ビット版かを判断して正しいアドインをインストールします。
 

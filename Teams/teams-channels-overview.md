@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64cb77116d55d9ddf9c084bff2205ecb4ba8aaca
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: 9ae5d850670007d4356fa3de8610e4b110856734
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29593895"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753847"
 ---
 > [!NOTE]
 > チャット、チーム、チャネル、チーム内の & アプリケーションを理解するのには次の情報を確認します。 [展開のチャット、チーム、チャネル、& アプリケーションをチームで](deploy-chat-teams-channels-microsoft-teams-landing-page.md)、チームの展開に重要な決定の一覧を参照するに進みます。
@@ -60,7 +60,7 @@ ms.locfileid: "29593895"
 
    > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
 
-Office 365 では、マイクロソフトのチーム管理者の場合は、Skype ビジネス管理センターのチームの & でシステム全体の設定へのアクセスがあります。 これらの設定は、チーム設定でチーム所有者に表示されるオプションと既定値に影響します。 たとえば、チーム全体の通知、ディスカッション、リソースのために、既定のチャネル「一般」を有効にして、それらがすべてのチームにわたって表示されるようにすることができます。
+Office 365 では、マイクロソフトのチーム管理者の場合は、マイクロソフトのチームの管理センターでシステム全体の設定へのアクセスがあります。 これらの設定は、チーム設定でチーム所有者に表示されるオプションと既定値に影響します。 たとえば、チーム全体の通知、ディスカッション、リソースのために、既定のチャネル「一般」を有効にして、それらがすべてのチームにわたって表示されるようにすることができます。
 
 既定では、すべてのユーザーが Microsoft Teams 内にチームを作成する権限を持っています (これを変更するには、「[Teams で役割と権限を割り当てる](assign-roles-permissions.md)」をご覧ください)。 既存の Office 365 グループのユーザーは、Teams の機能を利用してそれらを拡張することもできます。
 

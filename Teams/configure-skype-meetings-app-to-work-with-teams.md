@@ -3,29 +3,29 @@ title: チームで動作する Skype の会議アプリケーションを構成
 author: LolaJacobsen
 ms.author: Lolaj
 manager: serdars
-ms.date: 08/21/2018
+ms.date: 09/21/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: 管理者はチームで動作するのに Skype の会議アプリケーションを構成するのには、マイクロソフトのチームと Skype の管理センターを使用できます。
+description: 管理者は、マイクロソフトのチームの管理センターを使用して、チームで動作する Skype の会議アプリケーションを構成するのには
 Set_Free_Tag: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d87433b57936534afad05d38cb42e64c798f74e4
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e94598822ab321ea514bb41af2fa0e4f8ee57ff0
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23853408"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754576"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>チームで動作する Skype の会議アプリケーションを構成します。
 ===================================================
 
-マイクロソフトのチーム、ユーザーにアップグレードした後、管理者は Skype のビジネス ・ ミーティングに参加するのにユーザーが使用する優先のアプリケーションを指定するのにはマイクロソフトのチームと Skype 管理センターを使用できます。
+マイクロソフトのチームにユーザーをアップグレードすると、管理者は Skype のビジネス ・ ミーティングに参加するのにユーザーが使用する優先のアプリケーションを指定するのにはマイクロソフト チームの管理センターを使用できます。
 
 会議アプリケーションの優先アプリケーションとして、Skype を指定します。
 
-1. マイクロソフトのチームおよび管理センターにサインインします。
+1. マイクロソフトのチームの管理センターにサインインします。
 2. **組織全体の設定**] の下の左側のウィンドウで [**チームのアップグレード**] を選択します。
 3. チームに] ページの [**アプリケーションの環境設定**のアップグレードは、 **Skype のビジネス ・ ミーティングに参加するユーザーの優先アプリケーション**のドロップ ダウン リストから**Skype の会議アプリケーション**を選択します。
 
