@@ -1,5 +1,5 @@
 ---
-title: マイクロソフトのチームの管理センターでのチームを管理します。
+title: Microsoft Teams と Skype for Business の管理センターのチームを管理する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,39 +8,39 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: islubin
-description: 表示またはマイクロソフトのチームの管理センターで、チームを更新する方法について説明します。
+description: Microsoft Teams と Skype for Business の管理センターで自分のチームの表示や更新を行う方法を説明します。
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd56bd9147ca58ad38b41f64a7a6f3c6a8daf134
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 14ab474289e5a677e1125df7146ba7c5a6fc2ca1
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754188"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26539058"
 ---
-<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>マイクロソフトのチームの管理センターでのチームを管理します。
+<a name="manage-teams-in-the-microsoft-teams--skype-for-business-admin-center"></a>Microsoft Teams と Skype for Business の管理センターのチームを管理する
 ==========================================
 
 [!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
 
 ## <a name="overview"></a>概要
 
-IT 管理者である場合、自分の組織で共同作業のためにセットアップされたチームを表示所有者したり更新したりする必要が発生する可能性があります。また、所有者のいないチームに対して所有者を割り当てるなどの修復アクションを実行する必要がある場合もあります。 マイクロソフト チームの PowerShell モジュールとマイクロソフトのチームの管理センターの両方で、組織で使用されているチームを管理することができます。 これらの 2 つのツールセットを使用した完全な管理機能については、次の役割の 1 つが割り当てられることを確認する必要があります。
+IT 管理者である場合、自分の組織で共同作業のためにセットアップされたチームを表示所有者したり更新したりする必要が発生する可能性があります。また、所有者のいないチームに対して所有者を割り当てるなどの修復アクションを実行する必要がある場合もあります。 Microsoft Teams PowerShell モジュールおよび Microsoft Teams と Skype for Business の管理センターを通して、組織で使用されたチームを管理することができます。 これらの 2 つのツールセットを使用した完全な管理機能については、次の役割の 1 つが割り当てられることを確認する必要があります。
 
 - グローバル管理者
 - Teams サービス管理者
 
-You should also make sure that your account has been assigned a non-trial Teams license for management. As part of a known issue, you should make sure that your account has only **one** admin role assigned.  You can learn more about admin roles in Microsoft Teams in [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
+自分のアカウントに対して、管理のために試用版でない Teams のライセンスが割り当てられていることを確認する必要もあります。 既知の問題に関連して、自分のアカウントに割り当てられている管理者ロールが **1 つ**だけであることを確認する必要があります。  Microsoft Teams の管理者ロールの詳細については、「[Microsoft Teams の管理者ロールを使用して Teams を管理する](using-admin-roles.md)」をご覧ください。PowerShell コマンドレットの使用方法の詳細については、「[Microsoft Teams コマンドレット リファレンス](https://docs.microsoft.com/powershell/teams/?view=teams-ps)」をご覧ください。  
 
-この資料では、マイクロソフト チームの管理センターでのチームの管理ツールの概要を提供します。
+この記事では、Microsoft Teams と Skype for Business の管理センターでの管理ツールの概要を説明します。
 
 ## <a name="teams-overview-grid"></a>Teams の概要グリッド
 
-チームの管理ツールは、マイクロソフトのチームの管理センターで [**チーム**] ノードの下。 (管理センターでは、[**Teams**] > [**Manage teams (チームの管理)**] を選択します。)各チームは Offfice 365 グループによって支えられていて、このノードは自分の組織内で Microsoft Teams に対応しているグループの表示を提供します。
+チームの管理ツールは、Microsoft Teams と Skype for Business の管理センターの **Teams** ノードの下にあります。 (管理センターでは、[**Teams**] > [**Manage teams (チームの管理)**] を選択します。)各チームは Offfice 365 グループによって支えられていて、このノードは自分の組織内で Microsoft Teams に対応しているグループの表示を提供します。
 
 > [!NOTE]
 > 以前に作成されたチームが、このビューに確実に表示されるようにするための埋め戻し処理を現在行っています。
@@ -68,7 +68,7 @@ You should also make sure that your account has been assigned a non-trial Teams 
 
 ## <a name="team-profile"></a>チーム プロフィール
 
-You can navigate to the team profile page of any team from the main teams overview grid by clicking on the team name. The team profile page shows the members, owners, and guests that belong to the team (and its backing O365 Group), as well as the team’s channels and settings. From the team profile page, you can:
+メインのチームの概要グリッドから、チーム名をクリックすることによって、任意のチームのチーム プロフィール ページに移動することができます チーム プロフィール ページには、チームのチャネルと設定に加えて、チーム (およびそれをサポートする Office 365 グループ) に属しているメンバー、所有者、およびゲストが表示されます。 チーム プロフィール ページから、次の操作を行うことができます。
 
 - メンバーおよび所有者の追加または削除。
 - チャネルの追加または削除 (全般チャネルを削除することはできません)
@@ -80,7 +80,7 @@ You can navigate to the team profile page of any team from the main teams overvi
 
 チームの次の要素を変更することができます。
 - **チーム内のユーザー** - メンバーの追加や削除、昇格または降格を行うことができます。
-- **Channels** - you can add new channels or remove existing channels.  You cannot delete the default "General" channel, and once created you can only edit channel name, not description.
+- **チャネル** - 新しいチャネルを追加したり既存のチャネルを削除したりすることができます。  既定の「全般」チャネルを削除することはできません。作成したチャネルについては、チャネル名のみを編集することができます。説明を編集することはできません。
 - **チーム名**
 - **チームの説明**
 - **チームのプライバシー** - パブリックまたはプライベート
@@ -88,31 +88,7 @@ You can navigate to the team profile page of any team from the main teams overvi
 - **チーム メンバーの設定** - チーム メンバーの設定を選択します
 
 
-The changes that you make to a team are logged. If you are modifying group settings (changing the name, description, photo, privacy, classification, or team members), these changes will be attributed to you through the audit pipeline. If you are performing actions against Teams-specific settings, your changes will be tracked and attributed to you in the general channel of the team.
-
-## <a name="troubleshooting"></a>トラブルシューティング
-
-**問題: チームのチーム概要グリッドに表示されません。**
-
-マイクロソフトのチームの管理センターを入力すると**チーム**のオプション] の下のチームの一部はチーム概要グリッド内の一覧に表示されません。
-
-**原因**: この問題と、チームが正しくない (まだ) プロファイリングが行われたが認識するために不足しているプロパティにつながることがシステムによって発生します。
-
-**解決方法: は、MS グラフを使用して適切な値にプロパティを設定する手動で**
-
-**{グループ id}** 問題の実際のグループ Id のクエリで、Exchange Online の powershell を使用して取得することができますを"**ExternalDirectoryObjectId**"属性として **「[Get UnifiedGroup](https://docs.microsoft.com/en-us/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)」** コマンドレットに置き換えます。
-
-1. アクセス[グラフのエクスプ ローラー](https://developer.microsoft.com/en-us/graph/graph-explorer)
-
-2. メニューの左側にあるグラフのエクスプ ローラーにサインインします。
-
-3. クエリ行を変更: 修正プログラム _gt v1.0 _gthttps://graph.microsoft.com/v1.0/groups/{groupid}
-
-4. 要求の本文に次の値を追加します {"resourceProvisioningOptions": ["チーム"]}。
-
-5. 右上でクエリを実行します。
-
-6. チームの概要をチームは、マイクロソフトのチーム管理センター - に正しく表示されるを確認します。
+チームに対して行う変更はログに記録されます。 グループ設定 (名前、説明、写真、プライバシー、分類、またはチーム メンバー) を変更する場合、これらの変更は監査パイプラインを通して自分自身によるものとされます。 Teams 固有の設定に対するアクションを実行している場合、自分による変更は、チームの全般チャネル内で記録され、自分自身によるものとされます。
 
 
 ## <a name="learn-more"></a>詳細情報

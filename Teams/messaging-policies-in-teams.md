@@ -16,12 +16,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: メッセージング ポリシーとそれらを使用してメッセージング チームのチャットを制御する方法について説明します。
-ms.openlocfilehash: 5292d88c148e2bd23242f96a3593d98178b9a923
-ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
+ms.openlocfilehash: d4d2a4f424de1750c70ea851d1d1d35a2aaf9e44
+ms.sourcegitcommit: dfd075d092db9826c792cf947c83c33cfcd8ef4e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/07/2019
-ms.locfileid: "29760584"
+ms.locfileid: "29763717"
 ---
 # <a name="what-are-messaging-policies-in-teams"></a>Teams でのメッセージング ポリシーについて
 ::: zone target="docs"
@@ -32,7 +32,6 @@ ms.locfileid: "29760584"
 ![チームでのメッセージングのポリシー](media/messaging-policies.png)
 ::: zone-end
 
-::: zone target="chromeless"
 使用可能なポリシーの設定を以下に示します。 
 
 - **所有者は、送信済みメッセージを削除できます。** 所有者のユーザーがチャットで送信されるメッセージの削除をできるようにするのにには、この設定を使用します。
@@ -51,12 +50,10 @@ ms.locfileid: "29760584"
 - **会話での使用のステッカー**これをオンにした場合、ユーザーは、他の人とチャットで会話ステッカーを含めることができます。
 - **許可する URL のプレビュー**自動 URL でのプレビュー オン/オフ メッセージを有効にするのにには、この設定を使用します。
 - **ユーザーがメッセージを変換できるようにします。** 自動的にチームのメッセージを Office 365 の場合は、その個人の言語設定で指定された言語に翻訳できるようにするのにはこの設定を有効にします。
-::: zone-end
 
 ::: zone target="docs"
 カスタム メッセージング ポリシーを作成した場合にのみアクティブになるユーザーのポリシーがユーザーに割り当てられている場合。  チームの管理センターのユーザーにカスタム ポリシーを割り当てるには左側のナビゲーションで**ユーザー**をクリックして、ポリシーを割り当てるユーザーを選択して、[**割り当てポリシー**の**編集**を選択し。
-
+::: zone-end
 
 ### <a name="related-topics"></a>関連トピック
 [Teams での会議ポリシー](meeting-policies-in-teams.md)
-::: zone-end
