@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e51042d5478dbaeb89691b9ad482955055a58ac
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: 660b838c38da478be2f1226fcdd1b104c3b10b54
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29706372"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753933"
 ---
 <a name="teams-guest-access-checklist"></a>Teams のゲスト アクセスのチェックリスト
 ==========================================
@@ -86,9 +86,9 @@ Microsoft Teams のゲスト アクセスではAzure Active Directory ビジネ�
 
 ## <a name="-step-3-enable-guest-access-at-the-tenant-level"></a>□ 手順 3: テナント レベルでのゲスト アクセスを有効にする
 
-少なくとも、**Microsoft Teams および Skype for Business の管理センター**で Microsoft Teams のゲスト アクセスをオンにする必要があります。 
+最低限には、**マイクロソフトのチーム管理センター**] の [Microsoft チームのゲスト アクセスをオンにする必要があります。 
 
-1. Teams および Skype for Business の管理センターで、[**組織全体の設定**] > [**ゲスト アクセス**] を選択します。
+1. チーム管理センターで、**組織全体の設定**を選択します > **ゲスト アクセス**します。
 2. [**Microsoft Teams でのゲスト アクセスを許可**] の切り替えスイッチを [**オン**] に設定します。
 
     ![Teams 設定の切り替えの例を示すスクリーンショット](media/set-up-guests-image1.png)

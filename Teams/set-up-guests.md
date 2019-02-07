@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc01f54229e5a2644fc004b4014ad41e3c0f8d73
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: 2fc37cbf4774f4d8f097f27d50cc3f7c8e4bf5bf
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29706260"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753493"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Microsoft Teams へのゲスト アクセスをオンまたはオフにする
 ======================================
@@ -35,9 +35,9 @@ The guest settings are set in Azure Active Directory. It takes 2 hours to 24 hou
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
-## <a name="configure-guest-access-in-the-teams--skype-for-business-admin-center"></a>Teams および Skype for Business の管理センターでゲスト アクセスを構成する
+## <a name="configure-guest-access-in-the-microsoft-teams-admin-center"></a>マイクロソフトのチームの管理センターでのゲスト アクセスを構成します。
 
-1.  Teams および Skype for Business の管理センターにサインインします
+1.  マイクロソフトのチームの管理センターにサインインします。
 
 2.  [**組織全体の設定**] > [**ゲスト アクセス**] を選択します。
 

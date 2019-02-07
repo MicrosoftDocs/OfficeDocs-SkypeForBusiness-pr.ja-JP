@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams と Skype for Business の管理センターのチームを管理する
+title: マイクロソフトのチームの管理センターでのチームを管理します。
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,39 +8,39 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: islubin
-description: Microsoft Teams と Skype for Business の管理センターで自分のチームの表示や更新を行う方法を説明します。
+description: 表示またはマイクロソフトのチームの管理センターで、チームを更新する方法について説明します。
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df8e60f8a5d7aaf2638e1220baf1c41a59075ae0
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: bd56bd9147ca58ad38b41f64a7a6f3c6a8daf134
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29706443"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754188"
 ---
-<a name="manage-teams-in-the-microsoft-teams--skype-for-business-admin-center"></a>Microsoft Teams と Skype for Business の管理センターのチームを管理する
+<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>マイクロソフトのチームの管理センターでのチームを管理します。
 ==========================================
 
 [!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
 
 ## <a name="overview"></a>概要
 
-As an IT admin, you may need to view or update the teams that your organization has set up for collaboration, or you might need to perform remediation actions such as assigning owners for ownerless teams. You can manage the teams used in your organization through both the Microsoft Teams PowerShell module and the Microsoft Teams & Skype for Business Admin Center. For full administration capabilities using these two toolsets, you should make sure that you are assigned one of the following roles:
+IT 管理者である場合、自分の組織で共同作業のためにセットアップされたチームを表示所有者したり更新したりする必要が発生する可能性があります。また、所有者のいないチームに対して所有者を割り当てるなどの修復アクションを実行する必要がある場合もあります。 マイクロソフト チームの PowerShell モジュールとマイクロソフトのチームの管理センターの両方で、組織で使用されているチームを管理することができます。 これらの 2 つのツールセットを使用した完全な管理機能については、次の役割の 1 つが割り当てられることを確認する必要があります。
 
 - グローバル管理者
 - Teams サービス管理者
 
 You should also make sure that your account has been assigned a non-trial Teams license for management. As part of a known issue, you should make sure that your account has only **one** admin role assigned.  You can learn more about admin roles in Microsoft Teams in [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
 
-この記事では、Microsoft Teams と Skype for Business の管理センターでの管理ツールの概要を説明します。
+この資料では、マイクロソフト チームの管理センターでのチームの管理ツールの概要を提供します。
 
 ## <a name="teams-overview-grid"></a>Teams の概要グリッド
 
-Management tools for teams are under the **Teams** node in the Microsoft Teams & Skype for Business Admin Center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by an Office 365 group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
+チームの管理ツールは、マイクロソフトのチームの管理センターで [**チーム**] ノードの下。 (管理センターでは、[**Teams**] > [**Manage teams (チームの管理)**] を選択します。)各チームは Offfice 365 グループによって支えられていて、このノードは自分の組織内で Microsoft Teams に対応しているグループの表示を提供します。
 
 > [!NOTE]
 > 以前に作成されたチームが、このビューに確実に表示されるようにするための埋め戻し処理を現在行っています。
@@ -94,7 +94,7 @@ The changes that you make to a team are logged. If you are modifying group setti
 
 **問題: チームのチーム概要グリッドに表示されません。**
 
-Skype ビジネス管理センターの Microsoft チームの & を入力すると**チーム**のオプション] の下のチームの一部はチーム概要グリッド内の一覧に表示されません。
+マイクロソフトのチームの管理センターを入力すると**チーム**のオプション] の下のチームの一部はチーム概要グリッド内の一覧に表示されません。
 
 **原因**: この問題と、チームが正しくない (まだ) プロファイリングが行われたが認識するために不足しているプロパティにつながることがシステムによって発生します。
 
@@ -112,7 +112,7 @@ Skype ビジネス管理センターの Microsoft チームの & を入力する
 
 5. 右上でクエリを実行します。
 
-6. チームの概要をチームは、マイクロソフトのチームの & のビジネス管理センターでは、Skype で正しく表示されるを確認します。
+6. チームの概要をチームは、マイクロソフトのチーム管理センター - に正しく表示されるを確認します。
 
 
 ## <a name="learn-more"></a>詳細情報
