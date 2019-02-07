@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: ユーザーの作成」と「どの組み合わせがサポートまたはサポートされていないのさまざまな組み合わせについて説明します。
-ms.openlocfilehash: f85a9903c2b1d35d110c26b276305ed4c9ce949a
-ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
+ms.openlocfilehash: 6f1cdbfc012026d7a41f5ca96e730aeb861eeb40
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29635725"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760560"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>PSTN 接続を使用するハイブリッド環境でのユーザー アカウント
 
@@ -34,7 +34,7 @@ ms.locfileid: "29635725"
 - クライアントとの間の公衆交換電話網 (PSTN) 通話を送受信するを有効にするユーザー
 
  
-ビジネス クラウド コネクタ ・ エディションの Skype) などのさまざまな環境、ハイブリッドが構成されていない場合や、ユーザーが PSTN の呼び出しは無効になります、さまざまなサポート ・ マトリックスになります。  
+ビジネス クラウド コネクタ ・ エディションの Skype) などのさまざまな環境、ハイブリッドが構成されていない場合や、ユーザーが PSTN 通話を有効になっていない、さまざまなサポート ・ マトリックスになります。  
 
 ## <a name="about-the-combinations-and-the-supportability-statement"></a>組み合わせとサポート性のステートメントについて  
 
@@ -43,12 +43,12 @@ PSTN への接続でのビジネスのハイブリッド環境に、Skype では
 
 **定義:**   
 - **エンタープライズ VoIP:** ビジネス ・ ユーザー ・ アカウントの設置型の Skype でのユーザーに PSTN にアクセスを提供するオプションです。 ビジネス仲介サーバーの設置型の Skype は、PSTN への相互接続性を提供します。  
-- **ハイブリッド音声接続:** ビジネス アカウントの Skype のオンラインでの PSTN へのアクセスを提供するオプションです。 ビジネス仲介サーバーの設置型の Skype は、PSTN への相互接続性を提供します。 
+- **ハイブリッド音声接続:** PSTN に Skype でのビジネスのオンライン アカウントのユーザーのアクセスを提供するオプションです。 ビジネス仲介サーバーの設置型の Skype は、PSTN への相互接続性を提供します。 
 - **ルーティングの指示:** マイクロソフト チームのクライアントを使用してオンラインの Skype ビジネス アカウントでは、マイクロソフトのチームのライセンスを持つユーザーは PSTN へのアクセスを提供するオプションです。 SBC に接続されている Office 365 の SIP プロキシのオンプレミス ソフトウェアがなくても Microsoft から。
 
   
 **環境には、以下の組み合わせがサポートされています。**
-- **シナリオ 1:** ユーザーが社内のビジネスのための Skype アカウントし、エンタープライズ VoIP を使用するビジネス クライアント用の Skype を使用
+- **シナリオ 1:** ユーザーは、設置型のビジネスでは、Skype アカウントし、エンタープライズ VoIP を使用するビジネス クライアント用の Skype を使用
 - **シナリオ 2:** ユーザーは、オンライン ビジネスの Skype のアカウントし、ハイブリッドの音声接続を備えたビジネス クライアント用の Skype を使用
 - **シナリオ 3:** ユーザーは、マイクロソフトのチームのライセンスを使用したオンライン ビジネスの Skype のアカウントし、チームのクライアントを使用
  

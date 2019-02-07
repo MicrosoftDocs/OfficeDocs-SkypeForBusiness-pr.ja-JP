@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: マイクロソフト チームの医療機関のテンプレートを使い始める
-ms.openlocfilehash: 7d55d2d6a5f062bc5eb85b6bfc5227f7813c91ca
-ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
+ms.openlocfilehash: e2b1e9cb2171f250c9d9e635c3d5233c4f47f24e
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "29735635"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760568"
 ---
 # <a name="get-started-with-microsoft-teams-healthcare-templates"></a>マイクロソフト チームの医療機関のテンプレートを使い始める
 
@@ -34,7 +34,7 @@ ms.locfileid: "29735635"
 
 |基本テンプレートの種類 |baseTemplateId |ベースライン テンプレートのチャネル|
 |:--- |:---|:---|
-|医療・ ワード | https://<span></span>グラフ<span></span>.microsoft.com/beta/teamsTemplates/healthcareWardWide   | お知らせ\* <br> ライトを呼び出す\* <br> お楽しみツール\* <br> Huddles\* <br>ラウンド\* <br>トレーニング\* |
+|医療・ ワード | https://<span></span>グラフ<span></span>.microsoft.com/beta/teamsTemplates/healthcareWard   | お知らせ\* <br> Huddles\* <br> ラウンド\* <br> スタッフ\* <br> トレーニング\* |
 |     | |         |
 
 \*自動お気に入り 
@@ -45,7 +45,7 @@ ms.locfileid: "29735635"
 
 |基本テンプレートの種類 |baseTemplateId |ベースライン テンプレートのチャネル|
 |:--- |:---|:---|
-|医療・病院 | https://<span></span>グラフ<span></span>.microsoft.com/beta/teamsTemplates/healthcareWardWide   | お知らせ\* <br> コンプライアンス\* <br> お楽しみツール\* <br>信託<br>財務<br>人事管理 <br>研究所<br> 薬剤 |
+|医療・病院 | https://<span></span>グラフ<span></span>.microsoft.com/beta/teamsTemplates/healthcareHospital   | お知らせ\* <br> コンプライアンス\* <br> 信託 <br> 人事管理 <br> 薬剤 |
 | | |  |
 
 \*自動お気に入り 
@@ -58,7 +58,7 @@ ms.locfileid: "29735635"
 
 ``` Powershell
 { 
-          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/healthcareHospitalWide",
+          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/healthcareHospital",
           "DisplayName": "Contoso Hospital",
           "Description": "Team for all staff in Contoso Hospital",
           "Channels": [

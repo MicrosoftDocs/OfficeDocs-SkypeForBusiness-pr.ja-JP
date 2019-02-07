@@ -12,16 +12,17 @@ description: 組織のチームと共同で使用するデバイスを管理す�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb306930b4adca9c50e46ad1515324bbac2a2e2d
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: f1cf2dcc1d300490d1b3049c9513d0c4e16c3f83
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754196"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760592"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Microsoft Teams でのデバイスを管理する
 
- 管理者としては、マイクロソフトのチームの管理センターから、組織のチームで使用されるすべてのデバイスを管理します。 表示し、組織のデバイスのインベントリを管理し、更新、再起動、デバイスのモニター診断などのタスクを実行できます。 作成し、デバイスまたはデバイスのグループに構成プロファイルを割り当てることができます。 
+::: zone target="docs"
+管理者としては、チームを使用、マイクロソフトのチーム & Skype から、組織のビジネス管理センターのすべてのデバイスを管理します。 表示し、組織のデバイスのインベントリを管理し、更新、再起動、デバイスのモニター診断などのタスクを実行できます。 作成し、デバイスまたはデバイスのグループに構成プロファイルを割り当てることができます。 
 
 ## <a name="what-devices-can-you-manage"></a>どのようなデバイスを管理することができますか。
 デバイスは、チームの認定し、チームに登録する必要があります。 デバイスでは、初めてのユーザーが署名チームに、デバイス上に自動的に登録が。 管理可能な認定済みのデバイスのリストは、[会議電話](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16)と[デスクの電話](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34)を参照してください。
@@ -35,6 +36,8 @@ ms.locfileid: "29754196"
 
 1. 左側のナビゲーションでは、**デバイス**に移動 > **デバイスの管理**です。
 2. **すべてのデバイス**を選択します。  
+
+::: zone-end
 
  ここでは、表示し、組織内のチームに登録されているすべてのデバイスを管理できます。 デバイスごとに表示される情報には、デバイス名、製造元、モデル、ユーザー、状態、アクション、最後の表示、および履歴が含まれています。 お客様のニーズに合った情報を表示するビューをカスタマイズすることができます。
 
@@ -54,18 +57,28 @@ ms.locfileid: "29754196"
 
 ### <a name="create-a-configuration-profile"></a>構成プロファイルを作成します。
 
-![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**
+::: zone target="docs"
+
+![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) マイクロソフト チーム & Skype を使用するビジネス管理センターの
 
 1. 左側のナビゲーションでは、**デバイス**に移動 > **デバイスの管理**です。
+
+::: zone-end
+
 2. **構成プロファイル**を選択し、**新しい構成プロファイル**を選択します。
 3. プロファイルの名前を入力し、わかりやすい説明を追加する場合は、します。
 4. プロファイルに使用設定を指定し、[**保存**] をクリックします。
 
 ### <a name="assign-a-configuration-profile"></a>構成プロファイルを割り当てる
 
-![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**
+::: zone target="docs"
+
+![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) マイクロソフト チーム & Skype を使用するビジネス管理センターの
 
 1. 左側のナビゲーションでは、**デバイス**に移動 > **デバイスの管理**です。
+
+::: zone-end
+
 2. **構成プロファイル**を選択し、割り当てるプロファイルの**割り当て先**] の下のリンクをクリックします。  
 3. **構成プロファイルにデバイスを割り当てる**ペインで、検索し、割り当てるデバイスを選択します。
 4. [**保存**] をクリックします。

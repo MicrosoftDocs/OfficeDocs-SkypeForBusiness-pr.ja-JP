@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: この資料では、Skype ルーム システム v2 をサポートするための要件について説明します。
-ms.openlocfilehash: 8cadbed89be0301071c2c8a30c715f786b549d36
-ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
+ms.openlocfilehash: d54ace878e45344075a166c257efa18aa150b0e3
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26716452"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760607"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Skype Room Systems バージョン 2 の要件
 
@@ -47,11 +47,10 @@ Skype ルーム システム v2 は、別の部屋のサイズによっては、
 
 |タブレット|プロセッサ|RAM|ディスク|
 |:-----|:-----|:-----|:-----|
-|Surface Pro (2017)  |Core i5  |8GB  |256GB  |
-|Surface Pro (2017)  |Core i5  |8GB  |128GB  |
-|Surface Pro (2017)  |Core i5  |4GB  |128GB  |
-|Surface Pro 4       |Core i5  |8GB  |256GB  |
-|Surface Pro 4       |Core i5  |4GB  |128GB  |
+|Surface Pro 6  |コア i5 (8350U)  |16 GB または 8 GB  | 128 GB またはそれ以上  |
+|Surface Pro 6  |Core i7 (8650U) |16 GB または 8 GB  |128 GB またはそれ以上  |
+|Surface Pro (2017)  |Core i5  |8 GB または 4 GB  |128 GB またはそれ以上  |
+|Surface Pro 4       |Core i5  |8 GB または 4 GB  |128 GB またはそれ以上  |
 
 > [!NOTE]
 > M3 プロセッサはサポートされていません。
@@ -116,11 +115,11 @@ Skype ルーム システム v2 は、別の部屋のサイズによっては、
 
 **オーディオ周辺機器を認定する Skype ルーム システム v2**
 
-|**部屋の種類**|**人数**|**話す人にマイクからの推奨される最大距離**|**最大の部屋のサイズによって、デバイス**|**コメント**|
+|部屋の種類|人数|マイクから発言者までの推奨最大距離|最大の部屋のサイズ別のデバイス|コメント|
 |:-----|:-----|:-----|:-----|:-----|
 |**フォーカス** <br/> 10' x 9'  <br/> |2 ~ 4  <br/> |1.5m  <br/> |Logitech Connect  <br/> |Logitech Connect デバイスはカメラを搭載しているため、ローカルの会議の出席者をキャプチャするために (テーブルの中央ではなく) 部屋の前方に設置する必要があります。  <br/> |
 |**小規模** <br/> 16' x 16'  <br/> |4 ～ 6  <br/> |2.0m  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |大規模な部屋の場合、再生の音量が制限される場合があります。  <br/> |
-|**中規模** <br/> 18' x 20'  <br/> |6 ～ 12  <br/> |2.4m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS  <br/> |Logitech MeetUp はカメラを搭載しているため、ローカルの会議の出席者をキャプチャするために (テーブルの中央ではなく) 部屋の前方に設置する必要があります。  <br/> 一般的に、長方形または U 字型のテーブルが置かれている部屋では、追加のサテライト マイクを使用するメリットがある可能性があります。  <br/> SP 220 MS はデイジー チェーン構成で使用される必要があります。  <br/> |
+|**中規模** <br/> 18' x 20'  <br/> |6 ～ 12  <br/> |2.4m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100   <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS  <br/> |Logitech MeetUp はカメラを搭載しているため、ローカルの会議の出席者をキャプチャするために (テーブルの中央ではなく) 部屋の前方に設置する必要があります。  <br/> 一般的に、長方形または U 字型のテーブルが置かれている部屋では、追加のサテライト マイクを使用するメリットがある可能性があります。  <br/> SP 220 MS はデイジー チェーン構成で使用される必要があります。  <br/> |
 |**大規模** <br/> 15' x 32 '  <br/> |12 ～ 16  <br/> |3m  <br/> この距離は、当該のオーディオ デバイスに接続されている追加の各サテライト マイクによってカバーされる領域にも適用されます。  <br/> |Logitech Group + サテライト マイク  <br/> Polycom Trio + サテライト マイク  <br/> Polycom CX5100 + サテライト マイク  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS + サテライト マイク  <br/> |この行に示されているすべてのオーディオ デバイスはサテライト マイクのオプションをサポートします。  <br/> CX5100 はビルトインの 360 度カメラを搭載しているため、テーブルの中央に配置できます。  <br/> SP 220 MS はデイジー チェーン構成で使用される必要があります。  <br/> |
 
 **Skype ルーム システム v2 ビデオ周辺機器の認定**
@@ -143,7 +142,6 @@ Skype ルーム システム v2 イメージを作成するには、するには
 > IT プロフェッショナルには、ボリューム ライセンス契約を通じて Windows 10 企業の ISO ファイルへのアクセスを必要があります。
 
 さらに、 [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)、Skype ルーム システム v2 のアカウントをプロビジョニングするために使用多くの場合のコピーを必要があります。
-
 
 ## <a name="see-also"></a>関連項目
 

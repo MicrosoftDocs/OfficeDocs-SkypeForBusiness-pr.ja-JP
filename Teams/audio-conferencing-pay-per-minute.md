@@ -23,13 +23,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
-description: 標準のオーディオ会議のユーザーごとのライセンスだけでなく、ボリューム、およびライセンスの組織は、組織の音声会議機能を有効にするのには、1 分あたりの支払の案内も選択できます。
-ms.openlocfilehash: 17a27c8426356b985168b26c6d19eabd88e306fa
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+description: 標準のオーディオ会議のユーザーごとのライセンスに加え、マイクロソフト ボリューム ライセンスを使用する組織は、組織の音声会議機能を有効にするのには、1 分あたりの支払の案内も選択できます。
+ms.openlocfilehash: 7366ea4186d045b75847fd7397becefcf150b8a6
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530857"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760552"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>分数ごと従量課金制電話会議
 
