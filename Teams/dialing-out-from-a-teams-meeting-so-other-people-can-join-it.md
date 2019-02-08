@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Teams を使用して会議の開催者がダイヤルアウトするために何が必要か、およびその方法について説明します。
-ms.openlocfilehash: a1d06d75d48c45cfc13490c5c6562451909120dd
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 4352bc7f6bd110a8dda267092920a2e2de22a4ae
+ms.sourcegitcommit: 3f88e2f1fb4dd84bf6e88e29b89cefeb7a0a954b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326859"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29770396"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>他のユーザーが参加できるように Microsoft Teams 会議からダイヤル アウトする
 
@@ -55,7 +55,7 @@ ms.locfileid: "28326859"
 
 ## <a name="allow-users-to-dial-in"></a>ユーザーがダイヤルインを許可します。
 
-チーム会議にダイヤルイン ユーザーに知らせるための方法の詳細について検索する場合は、[マイクロソフトのチームでの電話会議の電話番号](/Teams/phone-numbers-for-audio-conferencing-in-teams.md)を参照してください。
+チーム会議にダイヤルイン ユーザーに知らせるための方法の詳細について検索する場合は、[マイクロソフトのチームでの電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md)を参照してください。
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>オーディオ会議の詳細を知りたいとしていますか。
 

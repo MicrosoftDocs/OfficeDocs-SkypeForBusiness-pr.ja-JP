@@ -1,5 +1,5 @@
 ---
-title: マイクロソフト チームの電話
+title: Microsoft Teams 用の電話機
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -14,49 +14,48 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: この資料では、マイクロソフトのチームとチームの Microsoft 認定電話でサポートされる機能に認定されている電話の一覧について説明します。
-ms.openlocfilehash: 8f6155939cc0834bb3f9fe89a3aef02cc3169bb3
-ms.sourcegitcommit: b67c2cb5ffd6d27cc9257c5e81ee1ea494ef8bd1
+ms.openlocfilehash: 8605bbc1ba0f9f69c2115b89ec7332309891253d
+ms.sourcegitcommit: 3f88e2f1fb4dd84bf6e88e29b89cefeb7a0a954b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "27383157"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29770414"
 ---
-# <a name="phones-for-microsoft-teams"></a>マイクロソフト チームの電話
+# <a name="phones-for-microsoft-teams"></a>Microsoft Teams 用の電話機
 
 マイクロソフトのチームでは、従来の電話の経験を必要とするユーザーのデスクの電話のポートフォリオをサポートしています。 この資料では、マイクロソフトのチームとチームの Microsoft 認定電話でサポートされる機能に認定されている電話の一覧について説明します。 チームが認定済みデバイスの最新の最新の状態情報を取得するには、[チームのマーケットプ レース](http://office.com/teamsdevices)に移動します。
 
 ## <a name="teams-certified-ip-phones"></a>IP 電話の認定チーム
-電話で、高品質で信頼性の高いマイクロソフト チームの経験を提供するには提携、Yealink、Crestron、ポリコムとを開発し、デスクの電話や会議室のオーディオ デバイスの幅広いポートフォリオを認定するのには積極的に操作します。
+電話で、高品質で信頼性の高いマイクロソフト チームの経験を提供するには提携、Yealink、Crestron、ポリコムとを開発し、デスクの電話や会議室のオーディオ デバイスの幅広いポートフォリオを認定するのには積極的に操作します。 現在サポートされているデバイスの[IP 電話](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)を参照してください。
 
 ## <a name="microsoft-teams-phones-feature-set"></a>マイクロソフトのチームは電話の機能セット
 
 IP 電話の認定チームでサポートされる機能の高度な設定は、次の表に使用できます。
 
-
 |機能 |デスクの電話 (個人用モード) |会議室電話 (共有モード)|
 |---------|---------|---------|
 |**認証** | |  |
-|ユーザー資格情報でのサイン イン |  あり | あり|
-|PC とスマート フォンを使用してサインインします。  | あり |あり|
-|先進認証 | あり |あり |
-|電話のロック/ロック解除 | あり |なし |
+|ユーザー資格情報でのサイン イン |  可 | はい|
+|PC とスマート フォンを使用してサインインします。  | 可 |あり|
+|先進認証 | 可 |はい |
+|電話のロック/ロック解除 | はい |なし |
 |**通話** |  |  |
-|P2P の着信または発信の呼び出し | あり  |あり |
-|呼び出しで UI (ミュート、保留/再開、転送、通話の終了) を使用してコントロール| あり  |あり |
-|PSTN の呼び出し| あり  |あり |
-|ビジュアル ボイスメール | あり | なし |
-|911 のサポート  | あり  |あり |
+|P2P の着信または発信の呼び出し | 可  |はい |
+|呼び出しで UI (ミュート、保留/再開、転送、通話の終了) を使用してコントロール| 可  |はい |
+|PSTN の呼び出し| 可  |はい |
+|ビジュアル ボイスメール | はい | なし |
+|911 のサポート  | 可  |はい |
 |**カレンダーとプレゼンス**|   | |
-|カレンダーへのアクセスおよび会議の詳細|あり |あり|
-|プレゼンス統合 |あり|あり|
-|Exchange 予定表の統合 |あり|あり|
-|連絡先の写真の統合  |あり|あり|
-|企業ディレクトリのアクセス | あり|あり|
+|カレンダーへのアクセスおよび会議の詳細|可 |はい|
+|プレゼンス統合 |あり|はい|
+|Exchange 予定表の統合 |可|はい|
+|連絡先の写真の統合  |可|はい|
+|企業ディレクトリのアクセス | 可|はい|
 |**会議**|   ||
-|会議の 1 回のクリックの結合  | あり  |あり |
-|Skype をビジネス ・ ミーティングに参加します。 | あり  | あり|
-|会議電話のコントロール (ミュート/ミュート解除、保留/再開、ハングアップ、参加者の追加と削除)|あり|あり|
-|会議の詳細|あり|なし|
+|会議の 1 回のクリックの結合  | 可  |はい |
+|Skype をビジネス ・ ミーティングに参加します。 | 可  | はい|
+|会議電話のコントロール (ミュート/ミュート解除、保留/再開、ハングアップ、参加者の追加と削除)|可|はい|
+|会議の詳細|はい|なし|
 
 皆様のご利用の電話にチーム感を高めるための機能を継続的に追加します。 下のスクリーン ショットでは、現在サポートの経験のいくつかについて説明します。
 
@@ -125,6 +124,26 @@ IP 電話の認定チームでサポートされる機能の高度な設定は�
 
 ![チームからの署名](media/teams-sign-out.png)
 
+# <a name="finding-the-firmware-version-on-a-mobile-device"></a>モバイル デバイスのファームウェアのバージョンを検索します。
+
+最小のファームウェアのバージョンは、右上隅で、[**設定**] アイコンを選択して、**後**でチームのサインイン ページで確認できます。
+
+**チーム サインイン ページ**
+
+![チームのサインイン ページ](media/teams-sign-in-page.jpg)
+
+**設定] ページ**
+
+![チームの設定] ページ](media/teams-settings-page.jpg)
+
+## <a name="required-licenses"></a>必要なライセンス
+
+[Office 365 サブスクリプション](Office-365-licensing.md)の一部として、マイクロソフトのチームのライセンスを購入できます。 電話でマイクロソフトのチームを使用するため、必要なライセンスの詳細については、利用可能な[電話システムのライセンス](https://products.office.com/en-us/microsoft-teams/voice-calling)を参照してください。
+
+チームを取得する方法については、チェック アウト[マイクロソフトのチームへのアクセスを取得する方法ですか?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+
 ## <a name="see-also"></a>関連項目
 
-[購入、マイクロソフト チームの IP 電話を展開します。](buying-and-deploying-teams-ip-phones.md)
+[チームの市場](http://office.com/teamsdevices)
+
+[IP 電話](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
