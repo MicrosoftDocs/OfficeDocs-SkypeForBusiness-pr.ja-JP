@@ -1,5 +1,5 @@
 ---
-title: 複数のテナントのセッション ボーダー コント ローラーを構成します。
+title: 複数のテナントについてセッション ボーダー コントローラーを構成する
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,14 +14,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 複数のテナントを処理する 1 つのセッション ボーダー コント ローラー (SBC) を構成する方法について説明します。
-ms.openlocfilehash: 618f956519c4a9e8ffe07e3000a91af39469adfc
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8c962647645b742f6c7b612e25873c6486bb51a0
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532825"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29771025"
 ---
-# <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントのセッション ボーダー コント ローラーを構成します。
+# <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントについてセッション ボーダー コントローラーを構成する
 
 直接ルーティングでは、構成する 1 つセッション ボーダー コント ローラー (SBC) 複数のテナントを処理するをサポートします。
 
@@ -206,7 +206,9 @@ SBC には、接続の認証に証明書が必要です。 キャリアは SBC �
 
 次に例を示します。
 
-*新しい-CSOnlinePSTNGateway-FQDN sbc1.customers.adatum.biz SipSignallingPort 5068*
+```
+New-CSOnlinePSTNGateway –FQDN sbc1.customers.adatum.biz -SipSignallingPort 5068
+```
 
 電話番号を持つユーザーをプロビジョニングし、音声のルーティングを構成します。
 

@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f397dd63cfa50069d6072686ae3650b837ca53a1
-ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
+ms.openlocfilehash: 77ee256352925ad92f0d74f7a9fb60704847709a
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29690468"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29770909"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 =============================================
@@ -37,7 +37,7 @@ ms.locfileid: "29690468"
 |チーム、Office 365 テナントの数を持つことができます。    | 500,000     |
 |1 チームあたりのチャンネル数    | 200 (削除されたチャネルが含まれています)         |
 
-&sup1 です。Azure Active Directory 内の任意のディレクトリ オブジェクトは、この制限の方向にカウントします。
+&sup1 です。Azure Active Directory 内の任意のディレクトリ オブジェクトは、この制限の方向にカウントします。 グローバル管理者は、[アプリケーションのアクセス許可](https://docs.microsoft.com/graph/permissions-reference)を使用して Microsoft Graph を呼び出すアプリケーションは、同様にこの制限から除外されます。
 
 > [!NOTE]
 > などの特殊文字をサポートしていないチャンネル ~ # % & * {} +/\: _lt _ _gt でしょうか。 |'"のチャネルの名前です。  

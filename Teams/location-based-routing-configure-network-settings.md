@@ -13,14 +13,16 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adb84f58c48292c13bd4af6f355f5e4da22458c9
-ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
+ms.openlocfilehash: 6b99e21d172e35eb8e2ceb2aaabacee78cf45ef9
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "29715478"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29771017"
 ---
-# <a name="configure-network-settings-for-location-based-routing"></a>場所ベースのルーティングのネットワーク設定を構成します。 
+# <a name="configure-network-settings-for-location-based-routing"></a>場所ベースのルーティングのネットワーク設定を構成します。
+
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
 まだためには、他の手順を確認するのには[Plan Location-Based が直接ルーティングのルーティング](location-based-routing-plan.md)を読み取る場合は、場所ベースのルーティングのネットワーク設定を展開する前に実行する必要があります。
 
@@ -59,7 +61,7 @@ New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 
 ## <a name="define-network-subnets"></a>ネットワークのサブネットを定義します。
 
-使用して、``New-Cs-TenantNetworkSubnet``コマンドレットには、ネットワークのサブネットを定義し、ネットワーク サイトに関連付けます。 各内部のサブネットは、1 つのサイトに関連付けられているのみできます。 
+使用して、``New-CsTenantNetworkSubnet``コマンドレットには、ネットワークのサブネットを定義し、ネットワーク サイトに関連付けます。 各内部のサブネットは、1 つのサイトに関連付けられているのみできます。 
 ```
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID> 
 ```
@@ -89,7 +91,7 @@ Identity, Mask, SiteID
 172.11.15.0, 28, Paris
 ```
 ## <a name="define-external-subnets"></a>外部サブネットを定義します。
-使用して、``New-Cs-TenantTrustedIPAddress``コマンドレットには、外部のサブネットを定義し、テナントに割り当てます。 テナントの無制限の数のサブネットを定義できます。 
+使用して、``New-CsTenantTrustedIPAddress``コマンドレットには、外部のサブネットを定義し、テナントに割り当てます。 テナントの無制限の数のサブネットを定義できます。 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <Subnet IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```

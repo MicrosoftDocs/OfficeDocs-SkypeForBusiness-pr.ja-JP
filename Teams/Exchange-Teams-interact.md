@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08e77d3792c6575748b43785f21ba389a957eedb
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: 0e1140fd30baa027ded92494b7455aab5500a726
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29742841"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29770901"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携 
 =========================================
@@ -35,18 +35,20 @@ Exchange Online 専用 – レガシーまたは Exchange On-premises にホス�
 
 **サポートされるアクション:** 
 
-| ユーザーのメールボックスのホスト先: | 電子情報開示| 訴訟ホールド | 保存期間| チームとチャネルの管理 |会議を作成して表示する| ユーザー プロフィールの写真を変更する | 通話履歴 | 連絡先を管理します。 | Outlook の連絡先にアクセスします。 | ボイスメール |コネクタを追加して構成する|タブを追加して構成する|ボットを追加して構成する| 
+| ユーザーのメールボックスのホスト先: | 電子情報開示| 法的&nbsp;を保持 | 保存期間| チームとチャネルの管理 |会議を作成して表示する| ユーザー プロフィールの写真を変更する | 通話履歴 | 連絡先を管理します。 | Outlook の連絡先にアクセスします。 | ボイスメール |コネクタを追加して構成する|タブを追加して構成する|ボットを追加して構成する| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|<sup>2</sup>を [はい] します。|<sup>2</sup>を [はい] します。|可|はい|はい|はい|はい|はい|はい|はい|はい|可|はい|
 |**Exchange Online 専用 vNext**|<sup>2</sup>を [はい] します。|<sup>2</sup>を [はい] します。|可|可|はい|はい|可|はい|はい|はい|可|可|可|
-|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|<sup>2</sup>を [はい] します。|はい、<sup>2、3</sup>|はい<sup>4|あり|なし|いいえ|あり|あり|なし|なし|いいえ|あり|はい|
-|**Exchange On-premises** (Azure AD との同期が必要)|<sup>2</sup>を [はい] します。|はい、<sup>2、3</sup>|はい<sup>4|あり|[はい] (Exchange 2016 CU3 +)|いいえ|あり|あり|なし|No<sup>5|なし|いいえ|あり|
-                                                            
+|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|<sup>2</sup>を [はい] します。|<sup>2, 3</sup>を [はい] します。|はい<sup>4|あり|なし|いいえ|あり|あり|なし|なし|いいえ|あり|はい|
+|**Exchange On-premises** (Azure AD との同期が必要)|<sup>2</sup>を [はい] します。| <sup>2, 3</sup>を [はい] します。 |はい<sup>4|あり|[はい] (Exchange 2016 CU3 +)|いいえ|あり|あり|なし|No <sup>5|なし|いいえ|あり|
+
 <sup>1</sup> 2016 CU3 を交換しての上には、サポート  
 <sup>2</sup>電子的証拠開示およびチャネルのメッセージでのコンプライアンスのための法的保持義務は、ホストのすべてのオプションに対してサポートされます。  
 <sup>3</sup>チーム秘密のチャット メッセージは未サポートこのホスティング オプションは、法的保持義務を。
+
 <sup>4</sup>保存メールボックスを使用シャドウ オンライン ユーザーのメッセージを格納します。 [Exchange ハイブリッド環境でチームのユーザーの Microsoft のチームをサポートしています eDiscover](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009)。
-<sup>4</sup>チームのユーザーとオンプレミス Exchange メールボックスがボイスメールを使用して、チームとが、Outlook では、ボイス メール メッセージ、ボイスメールのメッセージが表示される場合がありますでは、表示または再生チーム クライアント内で使用できません。
+
+<sup>5</sup>チームとオンプレミス Exchange メールボックスがボイスメールを使用して、チームとが、Outlook では、ボイス メール メッセージ、ボイスメールのメッセージが表示される場合がありますされますを表示または再生チーム クライアント内で使用できます。
 
 追加情報:
 

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: この資料では、利点、計画に関する考慮事項、およびマイクロソフトのクラウドのボイスメール サービスを実装するための要件について説明します。 クラウドのボイス メールの構成方法の詳細については、クラウドのボイスメールを設定するを参照してください。
-ms.openlocfilehash: d1e962f36cdefafdd1efa2d02a719eed1d2e93fd
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: e16ad9fb123342f7ac7e780f43bffd9b54b82ce6
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349024"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29770916"
 ---
 # <a name="plan-cloud-voicemail-service"></a>クラウドのボイスメール サービスを計画します。
 
@@ -93,7 +93,7 @@ Skype をビジネス サーバー 2019/2019 の Exchange Server の展開を計
 Skype for Business Server 2015 | UM を Exchange Server | UM を Exchange Server |  | クラウドのボイスメール <br> Exchange オンライン UM * |
 Lync Server 2013 <br>  | UM を Exchange Server | UM を Exchange Server | | クラウドのボイスメール <br> Exchange オンライン UM * |
 
-\*まで、使用されなくなりました。
+\*まで、使用されなくなりました。 詳細については、 [Exchange ユニファイド メッセージング オンライン移行サポート](../plan/exchange-unified-messaging-online-migration-support.md)を参照してください。 
 
 マイクロソフトは、次の移行方法をお勧めします。
 

@@ -13,14 +13,16 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3468b413fedc5d3e24871a632f50b5d58c7c5467
-ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
+ms.openlocfilehash: 8437eba299cb42415d224017ca7d0e888fffa684
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "29715454"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29771009"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>直接ルーティングのための場所ベースのルーティングを有効にします。
+
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 この資料の手順を実行する前に、 [Plan Location-Based を直接ルーティングのルーティング](location-based-routing-plan.md)を参照し、[場所ベースのルーティング用のネットワーク設定の構成](location-based-routing-configure-network-settings.md)手順を完了したことを確認してください。
 
@@ -34,7 +36,7 @@ ms.locfileid: "29715454"
 
 ## <a name="enable-location-based-routing-for-users"></a>ユーザーの場所ベースのルーティングを有効にします。
 
-1. 使用して、``Set-CsOnlinPstnUsages``コマンドレットは PSTN の使用法を設定します。 複数の使用状況を毎回使用をカンマで区切ります。
+1. 使用して、``Set-CsOnlinePstnUsages``コマンドレットは PSTN の使用法を設定します。 複数の使用状況を毎回使用をカンマで区切ります。
 
     ```
     Set-CsOnlinePstnUsage -Usage <usages> 

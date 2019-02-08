@@ -13,14 +13,16 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f0f399dab4097a69ef9d7a90865b81eeb206b54
-ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
+ms.openlocfilehash: 7bcf4341d171f8b9faf8c11bbe8d85503cf2240b
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "29715446"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29771001"
 ---
-# <a name="location-based-routing-terminology"></a>場所ベースのルーティングの用語 
+# <a name="location-based-routing-terminology"></a>場所ベースのルーティングの用語
+
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
 ここでは、いくつかの用語と概念は、場所ベースのルーティングのマニュアルで使用します。 マニュアルにより深いレベルに達する前にこれらの用語と概念を理解することをお勧めします。
 
