@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67c2e403511c3329d37fa3712bc8f559dcc16c38
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: c7dee2921e6458c797a09f5b3fa78118992766b2
+ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29742998"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29786400"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Skype for Business と共存する
 
@@ -177,7 +177,7 @@ SIP セッションの 10 分のタイムアウトを超えたビジネスのス
     * 他のユーザーからビジネスの Skype は、自社の情報を (テナント内および連合); の孤立ユーザーの Skype が表示されます。これは、上のルーティング テーブルに揃えられます
 
 > [!NOTE]
-> これは、最近の変更、以前の実装 (プレゼンスの統合と呼ばれる) ビジネス クライアント用のターゲットのチームと Skype の結合、集約されたプレゼンスを表示するからです。 前のアプローチを正確なプレゼンス、つまりユーザーが到達可能な場合でも、自分の存在は、それらをオンライン表示で表示するために頻繁につながるために、ユーザーに混乱を招くことがわかりました。
+> これは、最近の変更、以前の実装 (プレゼンスの統合と呼ばれる) ビジネス クライアント用のターゲットのチームと Skype の結合、集約されたプレゼンスを表示するからです。 前のアプローチ、不正確なプレゼンスは、ユーザーがアクセス可能な場合でも、自分の存在は、それらをオンライン表示などを表示するために頻繁につながるために、ユーザーに混乱を招くことがわかりました。
 
 ## <a name="in-tenant-presence"></a>テナントの有無
 

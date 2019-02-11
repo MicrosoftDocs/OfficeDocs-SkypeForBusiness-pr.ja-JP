@@ -10,16 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: マイクロソフトは 2020年 2 月によって Exchange ユニファイド メッセージング オンライン (ExchUMO) サービスを撤去します。 この資料がどのような影響を受けるをまとめたものお客様が知っているし、ビジネス継続性の計画を行う必要があります。
-ms.openlocfilehash: 1f755f8974ba18eba296051c547ee12b79b114d1
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: af9418a764780efca07a37f1c0b55415d0305f55
+ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/08/2019
-ms.locfileid: "29779888"
+ms.locfileid: "29786422"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange ユニファイド メッセージング オンライン移行のサポート  
 
-2019 年 2 月 8日の[お知らせ](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-support-for-unified-messaging-in-exchange-online/)を参照して Microsoft の 2020年 2 月によって Exchange ユニファイド メッセージング オンライン (ExchUMO) サービスは撤去します。 この資料では、知っているし、ビジネス継続性の計画を行う必要があるどのような影響を受けるお客様の概要を提供します。 
+2019 年 2 月 8日の[お知らせ](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/)を参照して Microsoft の 2020年 2 月によって Exchange ユニファイド メッセージング オンライン (ExchUMO) サービスは撤去します。 この資料では、知っているし、ビジネス継続性の計画を行う必要があるどのような影響を受けるお客様の概要を提供します。 
  
 ExchUMO は、ボイスメール、自動応答、および fax の統合サービスを使用する顧客によって配置されます。 マイクロソフトは、これらお客様のビジネスをオンラインで、マイクロソフトのチームの Skype で既に数千もの顧客をサポートする、クラウド ベースのサービスへの移行を支援する予定です。 
 
@@ -54,7 +54,7 @@ Exchange ユニファイド メッセージング オンライン サービス�
 
 1.  **通知を受け**
  
-    [ブログのお知らせ](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-support-for-unified-messaging-in-exchange-online/)と、ユーザーのスムーズな移行を計画するには、この資料を確認します。 クラウド ボイスメール機能の詳細については、[ビジネスのボイスメールとオプションのチェックの Skype](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8)を参照してください。  
+    [ブログのお知らせ](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/)と、ユーザーのスムーズな移行を計画するには、この資料を確認します。 クラウド ボイスメール機能の詳細については、[ビジネスのボイスメールとオプションのチェックの Skype](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8)を参照してください。  
  
 
 2.  **ビジネス ハイブリッド トポロジの場合、Skype を確立します。**

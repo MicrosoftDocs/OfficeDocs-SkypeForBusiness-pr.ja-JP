@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Skype for Business Server 2015 および Lync 2013 用の更新プログラムの検索と管理を 1 つの場所で実行します。 このページのリンクを使用して、更新プログラムの詳細情報の確認や、更新プログラムのダウンロードを行ってください。
-ms.openlocfilehash: 480a2d69ecf15b23b88490cfed1806f45d6beed3
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: 6433fe939bca07c520d402f193ff1e5fdacb8a09
+ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29742856"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29786363"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server の更新プログラム
 
@@ -25,83 +25,60 @@ ms.locfileid: "29742856"
 ビジネスをオンラインで、Office 365 の更新プログラムの最新の Skype、[マイクロソフトの 365 のロードマップ](https://go.microsoft.com/fwlink/p/?linkid=529454)を参照してください。
 
 ## <a name="skype-for-business-server-2015-update-history"></a>Skype for Business Server 2015 更新履歴
-[KB 3061064](https://support.microsoft.com/kb/3061064)には、リリースされたすべての累積的な更新の一覧が含まれています。 日付は、最後のリリースの日付を示します。 
+
+[KB 3061064](https://support.microsoft.com/kb/3061064)には、リリースされたすべての累積的な更新が含まれています。 
 
 |パッケージ名|KB 番号|リリース日|
 |:--- |:--- |:--- |
-|Skype for Business Server 2015 の更新プログラム |[KB 3061064](https://support.microsoft.com/kb/3061064) |1 月 2019  |
-|Skype for Business Server、Enterprise Web App 用の累積的な更新プログラム | [KB 4018462](https://support.microsoft.com/kb/4018462) |2017 年 5 月 |
-|Skype for Business Server、帯域幅ポリシー サービス用の累積的な更新プログラム | [KB 4012658](https://support.microsoft.com/kb/4012658) |2017 年 5 月 |
-|Skype for Business Server、Unified Communications Managed API 5.0 Runtime 用の累積的な更新プログラム | [KB 4012657](https://support.microsoft.com/kb/4012657) |2017 年 5 月 |
-|Skype for Business Server、会議アナウンス用の累積的な更新プログラム | [KB 4012656](https://support.microsoft.com/kb/4012656) |2017 年 5 月 |
-|Skype for Business Server 2015、応答グループ サービス用の累積的な更新プログラム |[KB 4012655](https://support.microsoft.com/kb/4012655) |2017 年 5 月 |
-|Skype for Business Server 2015、会議サーバー用の累積的な更新プログラム |[KB 4012654](https://support.microsoft.com/kb/4012654) |2017 年 5 月 |
-|Skype for Business Server 2015、常設チャット サーバー用の累積的な更新プログラム |[KB 4012653](https://support.microsoft.com/kb/4012653) |2017 年 5 月 |
-|Skype for Business Server 2015、Web コンポーネント サーバー用の累積的な更新プログラム |[KB 4012622](https://support.microsoft.com/kb/4012622) |2017 年 5 月 |
-|Skype for Business Server 2015、フロント エンド サーバーおよびエッジ サーバー用の累積的な更新プログラム |[KB 4012621](https://support.microsoft.com/kb/4012621) |2017 年 5 月 |
-|Skype for Business Server 2015、コア コンポーネント用の累積的な更新プログラム |[KB 4012620](https://support.microsoft.com/kb/4012620) |2017 年 5 月 |
-|Skype for Business Server 2015、Unified Communications Managed API 5.0 Runtime 用の累積的な更新プログラム |[KB 3199095](https://support.microsoft.com/kb/3199095) |2016 年 11 月 |
-|Skype for Business Server 2015、フロント エンド サーバーおよびエッジ サーバー用の累積的な更新プログラム |[KB 3199093](https://support.microsoft.com/kb/3199093) |2016 年 11 月 |
-|Skype for Business Server 2015、Web コンポーネント サーバー用の累積的な更新プログラム |[KB 3199094](https://support.microsoft.com/kb/3199094) |2016 年 11 月 |
-|Skype for Business Server 2015、常設チャット サーバー用の累積的な更新プログラム |[KB 3199097](https://support.microsoft.com/kb/3199097) |2016 年 11 月 |
-|Skype for Business Server 2015、コア コンポーネント用の累積的な更新プログラム |[KB 3199088](https://support.microsoft.com/kb/3199088) |2016 年 11 月 |
-|Skype for Business Server 2015、会議サーバー用の累積的な更新プログラム |[KB 3199092](https://support.microsoft.com/kb/3199092) |2016 年 11 月 |
-|Skype for Business Server 2015、仲介サーバー用の累積的な更新プログラム |[KB 3199096](https://support.microsoft.com/kb/3199096) |2016 年 11 月 |
-|Skype for Business Server 2015、ビデオ相互運用サーバー用の累積的な更新プログラム |[KB 3149235](https://support.microsoft.com/kb/3149235) |2016 年 6 月 |
-|Skype for Business Server 2015、仲介サーバー用の累積的な更新プログラム |[KB 3149234](https://support.microsoft.com/kb/3149234) |2016 年 6 月 |
-|Skype for Business Server 2015、会議サーバー用の累積的な更新プログラム |[KB 3149233](https://support.microsoft.com/kb/3149233) |2016 年 6 月 |
-|Skype for Business Server 2015、Unified Communications Managed API 5.0 Runtime 用の累積的な更新プログラム |[KB 3149232](https://support.microsoft.com/kb/3149232) |2016 年 6 月 |
-|Skype for Business Server 2015、パフォーマンス カウンター用の累積的な更新プログラム |[KB 3149231](https://support.microsoft.com/kb/3149231) |2016 年 6 月 |
-|Skype for Business Server 2015、応答グループ サービス用の累積的な更新プログラム |[KB 3149229](https://support.microsoft.com/kb/3149229) |2016 年 6 月 |
-|Skype for Business Server 2015、Web コンポーネント サーバー用の累積的な更新プログラム |[KB 3149228](https://support.microsoft.com/kb/3149228) |2016 年 6 月 |
-|Skype for Business Server 2015、フロント エンド サーバーおよびエッジ サーバー用の累積的な更新プログラム |[KB 3149227](https://support.microsoft.com/kb/3149227) |2016 年 6 月 |
-|Skype for Business Server 2015、コア コンポーネント用の累積的な更新プログラム |[KB 3149226](https://support.microsoft.com/kb/3149226) |2016 年 6 月 |
-|Skype for Business Server 2015、取り込み中オプション用の累積的な更新プログラム |[KB 3137160](https://support.microsoft.com/kb/3137160) |2016 年 6 月 |
-|Skype for Business Server 2015、パフォーマンス カウンター用の累積的な更新プログラム |[KB 3134266](https://support.microsoft.com/kb/3134266) |2016 年 3 月 |
-|Skype for Business Server 2015、応答グループ サービス用の累積的な更新プログラム |[KB 3134265](https://support.microsoft.com/kb/3134265) |2016 年 3 月 |
-|Skype for Business Server 2015、会議アテンダント用の累積的な更新プログラム |[KB 3134264](https://support.microsoft.com/kb/3134264) |2016 年 3 月 |
-|Skype for Business Server 2015、Web コンポーネント サーバー用の累積的な更新プログラム |[KB 3134262](https://support.microsoft.com/kb/3134262) |2016 年 3 月 |
-|Skype for Business Server 2015、フロント エンド サーバーおよびエッジ サーバー用の累積的な更新プログラム |[KB 3134260](https://support.microsoft.com/kb/3134260) |2016 年 3 月 |
-|Skype for Business Server 2015、コア コンポーネント用の累積的な更新プログラム |[KB 3134259](https://support.microsoft.com/kb/3134259) |2016 年 3 月 |
-|Skype for Business Server 2015、会議サーバー用の累積的な更新プログラム |[KB 3097708](https://support.microsoft.com/kb/3097708) |2015 年 11 月 |
-|Skype for Business Server 2015、コア コンポーネント用の累積的な更新プログラム |[KB 3097644](https://support.microsoft.com/kb/3097644) |2015 年 11 月 |
-|Skype for Business Server 2015、Web コンポーネント サーバー用の累積的な更新プログラム |[KB 3097642](https://support.microsoft.com/kb/3097642) |2015 年 11 月 |
-|Skype for Business Server 2015、Unified Communications Managed API 5.0 Runtime 用の累積的な更新プログラム |[KB 3097649](https://support.microsoft.com/kb/3097649) |2015 年 11 月 |
-|Skype for Business Server 2015、パフォーマンス カウンター用の累積的な更新プログラム |[KB 3097648](https://support.microsoft.com/kb/3097648) |2015 年 11 月 |
-|Skype for Business Server 2015、Enterprise Web App 用の累積的な更新プログラム |[KB 3097647](https://support.microsoft.com/kb/3097647) |2015 年 11 月 |
-|Skype for Business Server 2015、会議アテンダント用の累積的な更新プログラム |[KB 3097646](https://support.microsoft.com/kb/3097646) |2015 年 11 月 |
-|Skype for Business Server 2015、応答グループ サービス用の累積的な更新プログラム |[KB 3097643](https://support.microsoft.com/kb/3097643) |2015 年 11 月 |
-|Skype for Business Server 2015、フロント エンド サーバーおよびエッジ サーバー用の累積的な更新プログラム |[KB 3097645](https://support.microsoft.com/kb/3097645) |2015 年 11 月 |
-|Skype for Business Server 2015、グループ通話ピックアップ用の累積的な更新プログラム |[KB 3124205](https://support.microsoft.com/kb/3124205) |2015 年 11 月 |
+|累積的な更新プログラム 8 Skype ビジネス サーバー 2015、フロント エンド サーバーおよびエッジ サーバーの|[KB 4464355](https://support.microsoft.com/kb/4464355)|1 月 2019|
+|累積的な更新プログラム 7 Skype のビジネス サーバー 2015、フロント エンド サーバーとエッジ サーバー |[KB 4340904](https://support.microsoft.com/kb/3134260) |2018 年 7 月 |
+|累積は、Skype のビジネス サーバー 2015、フロント エンド サーバーとエッジ サーバーの 6 2 の修正プログラムを更新します。 |[KB 4086059](https://support.microsoft.com/kb/4086059) |2018 年 3 月 |
+|累積は、Skype のビジネス サーバー 2015、フロント エンド サーバーとエッジ サーバーの 6 の修正プログラム 1 を更新します。 |[KB 4074701](https://support.microsoft.com/kb/4074701)|2018 年 1 月 |
+|累積的な更新 6 Skype のビジネス サーバー 2015、フロント エンド サーバーとエッジ サーバーの|[KB 4036312](https://support.microsoft.com/kb/4036312) |2017 年 12 月 |
+|累積的な更新 5 Skype のビジネス サーバー 2015、フロント エンド サーバーとエッジ サーバーの  |[KB 4012621](https://support.microsoft.com/kb/4012621) |2017 年 5 月 |
+|累積は、Skype のビジネス サーバー 2015、フロント エンド サーバーとエッジ サーバーの 4 つの修正プログラム 1 を更新します。 |[KB 3207506](https://support.microsoft.com/kb/3207506) |2017 年 2 月 |
+|累積的な更新 4 Skype のビジネス サーバー 2015、フロント エンド サーバーとエッジ サーバーの |[KB 3199093](https://support.microsoft.com/kb/3199093) |2017 年 11 月 |
+|累積的な更新プログラム 3 Skype のビジネス サーバー 2015、フロント エンド サーバーとエッジ サーバー |[KB 3149227](https://support.microsoft.com/kb/3149227) |2016 年 6 月 |
+|累積的な更新 2 Skype のビジネス サーバー 2015、フロント エンド サーバーとエッジ サーバーの |[KB 3134260](https://support.microsoft.com/kb/3134260) |2016 年 3 月 |
+|累積的な更新 (1) Skype のビジネス サーバー 2015、フロント エンド サーバーとエッジ サーバーの |[KB 3097645](https://support.microsoft.com/kb/3097645) |2015 年 11 月 |
+|Skype for Business Server 2015、コア コンポーネント用の累積的な更新プログラム |[KB 3098601](https://support.microsoft.com/kb/3098601) |2015 年 9 月 |
+|Skype for Business Server 2015、フロント エンド サーバーおよびエッジ サーバー用の累積的な更新プログラム|[KB 3061059](https://support.microsoft.com/kb/3061059) |2015 年 6 月 |
+||||
 
 * * *
 
 ## <a name="lync-server-2013-update-history"></a>Lync Server 2013 更新履歴
 
+[KB 2809243](http://support.microsoft.com/kb/2809243)には、リリースされたすべての累積的な更新が含まれています。
+
 |パッケージ名|KB 番号|リリース日|
 |:--- |:--- |:--- |
-|Lync Server 2013 累積更新プログラム 9  |[KB 2809243](https://www.microsoft.com/en-us/download/details.aspx?id=36820) |2017 年 7 月 |
-|Lync Server 2013 累積更新プログラム 8 修正プログラム 4 |[KB 2809243](https://www.microsoft.com/en-us/download/details.aspx?id=36820) |2017 年 7 月 |
-|Lync Server 2013 累積更新プログラム 8 修正プログラム 1 |[KB 2809243](https://www.microsoft.com/en-us/download/details.aspx?id=36820) |2017 年 7 月 |
-|Lync Server 2013、フロント エンド サーバーおよびエッジ サーバー用の累積更新プログラム 5.0.8308.965 |[KB 3175334](https://support.microsoft.com/kb/3175334)|2016 年 8 月 |
-|Lync Server 2013、会議アテンダント用の累積更新プログラム 5.0.8308.965 |[KB 3175335](https://support.microsoft.com/kb/3175335)|2016 年 8 月 |
-|Lync Server 2013、応答グループ サービス用の累積更新プログラム 5.0.8308.965 |[KB 3175338](https://support.microsoft.com/kb/3175338)|2016 年 8 月 |
-|Lync Server 2013、Unified Communications Managed API 5.0 Runtime 用の累積更新プログラム 5.0.8308.965 |[KB 3175339](https://support.microsoft.com/en-us/help/3175339)|2016 年 8 月 |
-|Lync Server 2013、回線共有機能用の累積更新プログラム 5.0.8308.956 |[KB 3148257](https://support.microsoft.com/kb/3148257)|2016 年 4 月 |
-|Lync Server 2013、仲介サーバー用の累積更新プログラム 5.0.8308.956 |[KB 3140586](https://support.microsoft.com/kb/3140586)|2016 年 4 月 |
-|Lync Server 2013、応答グループ サービス用の累積更新プログラム 5.0.8308.956 |[KB 3140585](https://support.microsoft.com/kb/3140585)|2016 年 4 月 |
-|Lync Server 2013、会議サーバー用の累積更新プログラム 5.0.8308.956 |[KB 3140584](https://support.microsoft.com/kb/3140584)|2016 年 4 月 |
-|Lync Server 2013、フロント エンド サーバーおよびエッジ サーバー用の累積更新プログラム 5.0.8308.956 |[KB 3140582](https://support.microsoft.com/kb/3140582)|2016 年 4 月 |
-|Lync Server 2013、コア コンポーネント用の累積更新プログラム 5.0.8308.956 |[KB 3140581](https://support.microsoft.com/kb/3140581)|2016 年 4 月 |
-|Lync Server 2013、Web コンポーネント サーバー用の累積更新プログラム 5.0.8308.945 |[KB 3126638](https://support.microsoft.com/kb/3126638)|2016 年 1 月 |
-|Lync Server 2013、コア コンポーネント用の累積更新プログラム 5.0.8308.945 |[KB 3126637](https://support.microsoft.com/kb/3126637)|2016 年 1 月 |
-|Lync Server 2013、フロント エンド サーバーおよびエッジ サーバー用の累積更新プログラム 5.0.8308.941 |[KB 3120728](https://support.microsoft.com/kb/3120728)|2015 年 12 月 |
-|Lync Server 2013、会議サーバー用の累積更新プログラム 5.0.8308.933 |[KB 3082047](https://support.microsoft.com/kb/3082047)|2015 年 9 月 |
-|Lync Server 2013、応答グループ サービス用の累積更新プログラム 5.0.8308.933 |[KB 3081743](https://support.microsoft.com/kb/3081743)|2015 年 9 月 |
-|Lync Server 2013、フロント エンド サーバーおよびエッジ サーバー用の累積更新プログラム 5.0.8308.933 |[KB 3081740](https://support.microsoft.com/kb/3081740)|2015 年 9 月 |
-|Lync Server 2013、コア コンポーネント用の累積更新プログラム 5.0.8308.933 |[KB 3081739](https://support.microsoft.com/kb/3081739)|2015 年 9 月 |
-|Lync Server 2013、コア コンポーネント用の累積更新プログラム 5.0.8308.927 |[KB 3080356](https://support.microsoft.com/kb/3080356)|2015 年 9 月 |
-|Lync Server 2013 用の更新プログラム |[KB 2809243](https://support.microsoft.com/en-us/help/2809243)|2018 年 7 月 |
+|Lync Server 2013 の累積的な更新 10 修正プログラム 1 |[KB 4458772](http://support.microsoft.com/kb/4458772)|1 月 2019|
+|Lync Server 2013 の累積的な更新 10 |[KB 4295703](http://support.microsoft.com/kb/4295703)|2018 年 7 月 |
+|Lync Server 2013 累積更新プログラム 9  |[KB 4019183](hhttp://support.microsoft.com/kb/4019183) |2017 年 7 月 |
+|Lync Server 2013 累積更新プログラム 8 修正プログラム 4 |[KB 4014154](http://support.microsoft.com/kb/4014154) |2017 年 3 月 |
+|Lync Server 2013 8 の累積的な更新プログラムの修正プログラム 3 |[KB 3210166](http://support.microsoft.com/kb/3210166) |2017 年 1 月 |
+|Lync Server 2013 8 の累積的な更新プログラムの修正プログラム 2 |[KB 3212869](http://support.microsoft.com/kb/3212869) |2016 年 12 月 |
+|Lync Server 2013 累積更新プログラム 8 修正プログラム 1 |[KB 3200079](http://support.microsoft.com/kb/3200079) |2016 年 11 月 |
+|Lync Server 2013 の累積的な更新 8 |[KB 3175336](https://support.microsoft.com/kb/3175336)|2016 年 8 月 |
+|Lync Server 2013 の累積更新プログラム 7  |[KB 3140581](https://support.microsoft.com/kb/3140581)|2016 年 4 月 |
+|Lync Server 2013 6 の累積的な更新プログラムの修正プログラム 2 |[KB 3175338](https://support.microsoft.com/kb/3175338)|2016 年 1 月 |
+|Lync Server 2013 6 の累積的な更新プログラムの修正プログラム 1 |[KB 3121213](http://support.microsoft.com/kb/3121213)|2015 年 12 月 |
+|Lync Server 2013 の累積的な更新 6 |[KB 3081739](https://support.microsoft.com/kb/3081739)|2015 年 9 月 |
+|Lync Server 2013 の累積的な更新 5 修正プログラム 10 |[KB 3064728](https://support.microsoft.com/kb/3064728)|2015 年 7 月 |
+|Lync Server 2013 の累積的な更新 5 修正プログラム 9 |[KB 3051951](https://support.microsoft.com/kb/3051951)|2015 年 5 月 |
+|Lync Server 2013 の累積的な更新 5 修正プログラム 8  |[KB 3031065](https://support.microsoft.com/kb/3031065)|2015 年 2 月 |
+|Lync Server 2013 の累積的な更新 5 修正プログラム 7.1|[KB 3027553](https://support.microsoft.com/kb/3140582)|12 月 2014 年まで |
+|Lync Server 2013 の累積的な更新 5 修正プログラム 7 |[KB 3018232](https://support.microsoft.com/kb/3018232)|12 月 2014 年まで |
+|Lync Server 2013 の累積的な更新 5 修正プログラム 6 |[KB 3010028](https://support.microsoft.com/kb/3010028)|11 月 2014 年まで  |
+|Lync Server 2013 の累積的な更新 5 修正プログラム 5|[KB 3003358](https://support.microsoft.com/kb/3003358)|10 月 2014 年まで |
+| Lync Server 2013 の累積的な更新 5 修正プログラム 2 |[KB 2987511](https://support.microsoft.com/kb/3120728)|9 月 2014 年まで |
+| Lync Server 2013 の累積的な更新 5 |[KB 2937305](https://support.microsoft.com/kb/2937305)|8 月 2014 年まで |
+|Lync Server 2013 の累積的な更新 4 |[KB 2905040](https://support.microsoft.com/kb/2905040)|2014 年 1 月 |
+|Lync Server 2013 の累積的な更新 3 |[KB 881682](https://support.microsoft.com/kb/881682)|2013 年 10 月 |
+|Lync Server 2013 累積更新プログラム 2 |[KB 2835432](https://support.microsoft.com/kb/2835432)|2013 年 7 月 |
+|Lync Server 2013 累積更新プログラム 1 |[KB 2781550](https://support.microsoft.com/kb/2781550)|2013 年 2 月 |
+||||
 
 ### <a name="lync-server-2013-dev-tools"></a>Lync Server 2013 開発ツール
 
@@ -155,9 +132,28 @@ ms.locfileid: "29742856"
 
 ## <a name="lync-server-2010-update-history"></a>Lync Server 2010 更新履歴
 
+[KB 2493736](http://support.microsoft.com/kb/2493736)には、リリースされたすべての累積的な更新が含まれています。
+
 |パッケージ名|KB 番号|リリース日|
 |:--- |:--- |:--- |
-|Lync Server 2010 |[KB 2493736](https://support.microsoft.com/kb/2493736) |2015 年 2 月 |
+|Lync Server 2010 の累積的な更新 18|[KB 2493736](https://support.microsoft.com/kb/2493736) |1 月 2019|
+|Lync Server 2010 の累積的な更新 17|[KB 3148801](https://support.microsoft.com/kb/3148801) |2016 年 4 月 |
+|Lync Server 2010 の累積的な更新 16|[KB 3057803](https://support.microsoft.com/kb/3057803) |2015 年 5 月 |
+|Lync Server 2010 の累積的な更新 15 |[KB 3030726](https://support.microsoft.com/kb/3030726) |2015 年 2 月|
+|Lync Server 2010 の累積的な更新 13|[KB 2982385](http://support.microsoft.com/kb/2982385) </br> [KB 2982388](http://support.microsoft.com/kb/2982388)|9 月 2014 年まで|
+|Lync Server 2010 の累積的な更新 12 |[KB 2957044](https://support.microsoft.com/kb/2957044) |2014 年 4 月 |
+|Lync Server 2010 の累積的な更新プログラム 11 |[KB 2909888](https://support.microsoft.com/kb/2909888) |2014 年 1 月|
+|Lync Server 2010 の累積的な更新 10 |[KB 2889610](https://support.microsoft.com/kb/2889610) |2013 年 10 月|
+|Lync Server 2010 の累積的な更新プログラム 9 |[KB 2860700](https://support.microsoft.com/kb/2860700) |2013 年 7 月|
+|Lync Server 2010 の累積的な更新 8 |[KB 2791381](https://support.microsoft.com/kb/2791381) |2013 年 7 月|
+|Lync Server 2010 の累積的な更新プログラム 7 |[KB 2737915](https://support.microsoft.com/kb/2737915) |2012 年 10 月|
+|Lync Server 2010 の累積的な更新 6 |[KB 2701585](https://support.microsoft.com/kb/2701585) |2012 年 6 月|
+|Lync Server 2010 の累積的な更新 5 |[KB 2670352](https://support.microsoft.com/kb/2670352) |2012 年 2 月|
+|Lync Server 2010 の累積的な更新 4 |[KB 2514980](https://support.microsoft.com/kb/2514980) |2011 年 11 月|
+|Lync Server 2010 の累積的な更新 3|[KB 2571546](https://support.microsoft.com/kb/2571546) |2011 年 7 月|
+|Lync Server 2010 の累積的な更新 2|[KB 2500442](https://support.microsoft.com/kb/2500442) |2011 年 4 月|
+|Lync Server 2010 の累積的な更新 (1)|[KB 2467775](https://support.microsoft.com/kb/2467775) |2011 年 1 月|
+||||
 
 ### <a name="group-chat-2010-updates"></a>Group Chat 2010 の更新プログラム
 
