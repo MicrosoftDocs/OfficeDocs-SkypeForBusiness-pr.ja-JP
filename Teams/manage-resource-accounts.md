@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: マイクロソフトのチームでのリソースのアカウントを管理します。
-ms.openlocfilehash: 53d335b4f345967494767445ec206efcb6f78388
-ms.sourcegitcommit: e091201f2bcb86bee011e7ac0de741a6c673cedd
+ms.openlocfilehash: a40d281349f6b5f8cdc8a95dbb77a7d3f9da8cc4
+ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29770717"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29890757"
 ---
 # <a name="manage-resource-accounts-in-teams"></a>チーム内のリソース アカウントを管理します。 
 
@@ -33,7 +33,7 @@ ms.locfileid: "29770717"
 
 開始することに注意することが重要。
   
-- 組織は、エンタープライズの E3 と**電話システム**のライセンスまたはエンタープライズ E5 のライセンス (最低) が必要です。 キュー] または [自動応答の呼び出しに割り当てられているリソース アカウントに使用する利用可能なサービス番号の番号を割り当てられている**電話システム**のユーザー ライセンスの数に影響します。 リソース アカウントを持つことができますの数は、組織に割り当てられている**電話システム**および**オーディオ会議**のライセンスの数に依存します。 ライセンスに関する詳細については、 [Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)を参照してください。
+- 組織は、エンタープライズの E3 と**電話システム**のライセンスまたはエンタープライズ E5 のライセンス (最低) が必要です。 キュー] または [自動応答の呼び出しに割り当てられているリソース アカウントに使用する利用可能なサービス番号の番号を割り当てられている**電話システム**のユーザー ライセンスの数に影響します。 リソース アカウントを持つことができますの数は、組織に割り当てられている**電話システム**および**オーディオ会議**のライセンスの数に依存します。 ライセンスに関する詳細については、 [Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)を参照してください。
 
     > [!NOTE]
     > オンラインにいる人が、組織内への呼び出しをリダイレクトするには、エンタープライズ VoIP を有効にするし、Office 365 のプランを呼び出すことがある、**電話システム**のライセンスが必要です。 「[Skype for Business と Microsoft Teams のライセンスを割り当てる](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)」をご覧ください。 エンタープライズ VoIP を有効にするには、Windows PowerShell を使用できます。 たとえば、次を実行します。
@@ -89,19 +89,19 @@ Set-CsOnlineApplicationInstance -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3
 
 ハイブリッド ビジネス サーバーの Skype では、実装。
 
-[クラウドの自動応答を計画します。](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant.md)
+[クラウドの自動応答を計画します。](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
 
-[クラウドの自動応答を構成します。](/SkypeForBusiness/hybrid/configure-cloud-auto-attendant.md)
+[クラウドの自動応答を構成します。](/SkypeForBusiness/hybrid/configure-cloud-auto-attendant)
 
 チームまたは Skype のオンライン ビジネスの実装では。
 
-[電話システムの自動応答について](what-are-phone-system-auto-attendants.md)
+[電話システムの自動応答について](what-are-phone-system-auto-attendants)
 
-[電話システムの自動応答をセットアップする](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+[電話システムの自動応答をセットアップする](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
 [小規模企業の例では、自動応答を設定](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
 
-[電話システムの通話キューを作成する](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
+[電話システムの通話キューを作成する](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 
 [新しい-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 

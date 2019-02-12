@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28827be78c93a3ea3a922d16bb9d985d3439ad7a
-ms.sourcegitcommit: afccaf26c8718869fc0b3c277d186bb82cb304b4
+ms.openlocfilehash: 24ceb6ff76bb84f8de9d9248fc4c10a73ee454f4
+ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "27544201"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29890765"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Microsoft 365 政府の GCC の展開の計画
 
@@ -74,14 +74,14 @@ Microsoft 365 政府の GCC をいくつかの相違がある、政府のクラ�
 |-----------------------------|-----------------------------|----------------|
 | ベース | ログイン | 利用可能 |
 | | プレゼンス | 利用可能 |
-| | 統合されたプレゼンス (Skype のビジネスと統合チーム) | 政府のバックログに |
+| | 統合されたプレゼンス (Skype のビジネスと統合チーム) | 利用可能 |
 | アクティビティ | フィード | 利用可能 |
 |  | マイ アクティビティ | 利用可能 |
 | チャット | 会話 | 利用可能 |
 | | ファイル | 利用可能 |
 | | 組織図 | 利用可能 |
 | | アクティビティ | 利用可能 |
-| | 相互運用機能 (1:1 チームの Skype ビジネス チャット用) | 政府のバックログに |
+| | 相互運用機能 (1:1 チームの Skype ビジネス チャット用) | 利用可能 |
 | Teams | チャンネル メッセージ | 利用可能 |
 | | チャンネル ファイル | 利用可能 |
 | | OneNote] タブ | 政府のバックログに |

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: '概要: は、Exchange と SharePoint サーバー 2015 のビジネス統合のための Skype について説明します。'
-ms.openlocfilehash: f0437e4a93bfd897fb04e29ce2729a30789ce889
-ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
+ms.openlocfilehash: 6bd76957a18c8cfcbff02bf1d92f944bb76cb8b2
+ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29690453"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29890718"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Exchange と SharePoint との統合
 
@@ -47,7 +47,7 @@ ms.locfileid: "29690453"
 |モバイル クライアントでのオンライン会議への参加  <br/> |詳細については、[モビリティの展開](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)を参照してください。  <br/> |
 |Outlook 予定表の空き時間情報に基づく状態の公開  <br/> ||
 |連絡先リスト (統合連絡先ストア経由)  <br/> |2016 の Exchange または Exchange 2013 が必要です。  <br/> Lync 2013 または Skype のビジネス デスクトップ クライアントが必要です。  <br/>  詳細については、[統合連絡先ストアを使用するサーバー 2015 のビジネス用の Skype の構成](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md)を参照してください。  <br/> |
-|Lync 2013 クライアント、Skype のビジネスのクライアントと Lync Web App で連絡先の写真を高解像度です。  <br/> |2016 の Exchange または Exchange 2013 が必要です。  <br/> 詳細については、[構成サーバー 2015 のビジネス用の Skype の高解像度の写真の使用](../deploy/integrate-with-exchange-server/high-resolution-photos.md)を参照してください。  <br/> |
+|Lync 2013 クライアント、Skype のビジネスのクライアントと Lync Web App で連絡先の写真を高解像度です。  <br/> |2016 の Exchange または Exchange 2013 が必要です。  <br/> 詳細については、[構成サーバー 2015 のビジネス用の Skype の高解像度の写真の使用](../deploy/integrate-with-exchange-server/high-resolution-photos.md)を参照してください。  <br/> MAC とモバイル用ビジネス アプリケーションの Skype の写真は[Skype ビジネス サーバーと Exchange Server 用に構成するパートナーのアプリケーション](../deploy/integrate-with-exchange-server/configure-partner-applications.md)で説明するようにビジネス サーバー 2015 の Skype と Exchange Server との統合を設定する必要があります。 <br/> |
 |会議の委任  <br/> |両方のユーザーが同じフォレスト内で常時オンラインである場合、または両方のユーザーがオンプレミスに属する場合にのみサポートされます。 詳細については、[ハイブリッド ソリューションのビジネス用の Skype](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)を参照してください。 <br/> |
 |不在着信の会話の履歴とログの呼び出しは、ユーザーの exchange メールボックスに書き込まれます。  <br/> ||
 |Exchange でのコンテンツのアーカイブ (IM および会議)  <br/> |2016 の Exchange または Exchange 2013 が必要です。  <br/> 詳細については、[アーカイブの展開のチェックリスト](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx)を参照してください。  <br/> |
@@ -67,7 +67,7 @@ ms.locfileid: "29690453"
 |モバイル クライアントでのオンライン会議への参加  <br/> ||
 |Outlook 予定表の空き時間情報に基づく状態の公開  <br/> ||
 |連絡先リスト (統合連絡先ストア経由)。  <br/> |Lync Server 2013 のみです。 Lync 2013 または Skype のビジネス デスクトップ クライアントが必要です。  <br/> 詳細については、[統合連絡先ストアを使用するサーバー 2015 のビジネス用の Skype の構成](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md)を参照してください。 <br/> |
-|Lync 2013 クライアント、Skype のビジネスのクライアントと Lync Web App で連絡先の写真を高解像度です。  <br/> |詳細については、[構成サーバー 2015 のビジネス用の Skype の高解像度の写真の使用](../deploy/integrate-with-exchange-server/high-resolution-photos.md)を参照してください。  <br/> |
+|Lync 2013 クライアント、Skype のビジネスのクライアントと Lync Web App で連絡先の写真を高解像度です。  <br/> |詳細については、[構成サーバー 2015 のビジネス用の Skype の高解像度の写真の使用](../deploy/integrate-with-exchange-server/high-resolution-photos.md)を参照してください。  <br/> 、MAC、モバイル用ビジネス アプリケーションの Skype の写真は[ビジネス サーバーおよび Outlook Web App の設置型の Skype の間の統合の構成](../deploy/integrate-with-exchange-server/outlook-web-app.md)で説明したようにビジネス サーバー 2015 の Skype と Exchange Server との統合を設定する必要があります。 <br/> |
 |会議の委任  <br/> |両方のユーザーが同じフォレスト内で常時オンラインである場合、または両方のユーザーがオンプレミスに属する場合にのみサポートされます。 詳細については、[ハイブリッド ソリューションのビジネス用の Skype](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)を参照してください。 <br/> |
 |不在着信の会話の履歴とログの呼び出しは、ユーザーの Exchange メールボックスに書き込まれます。  <br/> ||
 |Exchange でのコンテンツのアーカイブ (IM および会議)  <br/> |詳細については、[アーカイブの展開のチェックリスト](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx)を参照してください。  <br/> |
