@@ -10,26 +10,27 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: 各レコードは、メディアの 1 つの行を表します。 (通常 1 つのオーディオ セッションには、オーディオ メディアの 1 つの行が含まれています。 1 つのオーディオおよびビデオ (A/V) セッションには通常が含まれていますオーディオ メディアの 1 つの行と 1 つのビデオ メディア ラインが、セッションには会議用デバイスが使用されている場合、またはギャラリーのビューを使用する場合 2 つのビデオ メディア ラインが含まれて可能性があります。
-ms.openlocfilehash: 03da40b97c6a067f13a9855cd51b1bbb4780f2ad
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: fdbfc89e4d805ab30a1e870504fba72d2febe60a
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19505085"
 ---
 # <a name="medialine-table"></a>MediaLine テーブル
  
 各レコードは、メディアの 1 つの行を表します。 (通常 1 つのオーディオ セッションには、オーディオ メディアの 1 つの行が含まれています。 1 つのオーディオおよびビデオ (A/V) セッションには通常が含まれていますオーディオ メディアの 1 つの行と 1 つのビデオ メディア ラインが、セッションには会議用デバイスが使用されている場合、またはギャラリーのビューを使用する場合 2 つのビデオ メディア ラインが含まれて可能性があります。
   
-|**列**|**データ型**|**キーまたはインデックス**|**詳細**|
+|**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |[セッション テーブル](session.md)から参照されています。  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primary  <br/> |[セッション テーブル](session.md)から参照されています。  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |0 は、メインのオーディオがメインのビデオでは、パノラマのビデオでは 2、3 は、アプリケーションとデスクトップの共有します。 このラベルは、1 つのセッション内で一意でなければなりません。  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |0 は、メインのオーディオ、1 は、メイン ビデオとパノラマ ビデオでは 2、3 は、アプリケーションとデスクトップの共有、16 は、ビデオ画面の共有 (VbSS) に基づきます。 このラベルは、1 つのセッション内で一意でなければなりません。  <br/> |
 |**ConnectivityIce** <br/> |tinyint  <br/> | <br/> |この列は、Microsoft Lync Server 2013 では使用しませんが、存在します。 メディアの明細行で使用する接続に関する情報は、CallerConnectivityICE と CalleeConnectivityICE の列でキャプチャされます。  <br/> |
 |**CallerIceWarningFlags** <br/> |int  <br/> | <br/> |ビット フラグで説明した対話型の接続の確立 (ICE) のプロセスについて説明します。 詳細については、*品質の経験の監視サーバー プロトコルの仕様*、ダウンロードを参照してください。 <br/> |
 |**CalleeIceWarningFlags** <br/> |int  <br/> | <br/> |同じ CallerIceWarningFlags、ですが、呼び出し先にあります。 詳細については、*品質の経験の監視サーバー プロトコルの仕様*、ダウンロードを参照してください。 <br/> |
 |**セキュリティ** <br/> |tinyint  <br/> | <br/> |使用中のセキュリティ プロファイルです。 0 なし、SRTP では 1、2 V1。  <br/> |
-|**トランスポート** <br/> |tinyint  <br/> | <br/> |0 は、UDP、TCP は、1 です。  <br/> |
+|**Transport** <br/> |tinyint  <br/> | <br/> |0 は、UDP、TCP は、1 です。  <br/> |
 |**CallerIPAddr** <br/> |int  <br/> |外部  <br/> |呼び出し元の IP アドレスです。 詳細については、 [ip アドレス テーブル](ipaddress.md)を参照してください。 <br/> |
 |**CallerPort** <br/> |int  <br/> | <br/> | 呼び出し元によって使用されるポート。 <br/> |
 |**CallerSubnet** <br/> |int  <br/> | 外部 <br/> |呼び出し元のサブネットです。 詳細については、 [ip アドレス テーブル](ipaddress.md)を参照してください。 <br/> |

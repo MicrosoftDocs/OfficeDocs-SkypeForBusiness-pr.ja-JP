@@ -13,20 +13,20 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59c881c6c40b8877fee46e3956970a0c305d0a4a
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 81b47a5a77a04becee748e4285641ce341fb65d4
+ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349530"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "29964427"
 ---
 ![技術的な準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いて、旅アップグレードの段階")
 
 この資料は、ユーザーの準備段階と並行して、完了したアクティビティ、アップグレード、旅の技術的な準備段階の一部です。 次に進む前に前の段階からこれらの活動を完了していることを確認します。
 
-- [プロジェクトの利害関係者が参加しています。](upgrade-enlist-stakeholders.md)
-- [プロジェクト スコープの定義](https://aka.ms/SkypetoTeams-Scope)
-- [ビジネスとチームの共存と Skype の相互運用性を理解します。](https://aka.ms/SkypeToTeams-Coexist)
+- [プロジェクトの関係者をリスト化した](upgrade-enlist-stakeholders.md)
+- [プロジェクトの対象範囲を定義した](https://aka.ms/SkypetoTeams-Scope)
+- [Skype for Business と Teams の共存と相互運用を理解した](https://aka.ms/SkypeToTeams-Coexist)
 - [アップグレード、旅を選択](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 <!-- [!INCLUDE [envision-planning-for-service-management-and-quality-complete-guide](envision-planning-for-service-management-and-quality-complete-guide.md)]-->
@@ -211,7 +211,7 @@ QoS を実装する、ネットワーク上での次のガイダンスに役立�
 
 一部のプロキシ サーバーのベンダーが最新の構成を確認する自動化されたプロセスを提供します。 更新された PAC ファイルをダウンロードするには、ベンダーがこの自動プロセスを提供していない場合は、 <https://aka.ms/o365proxies>。
 
-[Skype オンライン ビジネスとチームのためのプロキシ サーバー](/SkypeForBusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)
+[チームやオンライン ビジネスの Skype とチームのプロキシ サーバー](proxy-servers-for-skype-for-business-online.md)
 
 #### <a name="firewalls"></a>ファイアウォール
 

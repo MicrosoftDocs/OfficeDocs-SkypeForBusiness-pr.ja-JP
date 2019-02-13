@@ -1,9 +1,8 @@
 ---
-title: よくあるご質問 - Skype for Business から Microsoft Teams へのアップグレード
+title: Microsoft Teams よく寄せられる質問 | 会議、電話会議、通話機能
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 01/16/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,22 +13,21 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c030419a7176121bc102b83b7ff3551a00397b89
-ms.sourcegitcommit: d3708702393ac434344c758959109a3be2b3bfa4
+ms.openlocfilehash: a41c58a1d158cd3d09582e064e7cd59777687f67
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28324943"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753982"
 ---
 # <a name="faq---upgrading-from-skype-for-business-to-microsoft-teams"></a>よくあるご質問 - Skype for Business から Microsoft Teams へのアップグレード
 
 > [!Tip]
-> Skype for Business から Microsoft Teams への正常なアップグレードを計画するためのガイダンスとなる、次のビデオをご覧ください。 
+> Skype for Business から Microsoft Teams への正常なアップグレードを計画するためのガイダンスとなる、次のビデオをご覧ください。
 > - [アップグレードの概要](https://aka.ms/teams-upgrade-intro) (33 分)
 > - [アップグレードを計画する](https://aka.ms/teams-upgrade-plan) (30 分)
 > - [共存と相互運用性](https://aka.ms/teams-upgrade-coexistence-interop) (53 分)
 > - [管理者エクスペリエンス](https://aka.ms/teams-upgrade-admin) (24 分)
-
 
 ## <a name="intelligent-communications-vision"></a>インテリジェント コミュニケーション ビジョン
 
@@ -71,7 +69,7 @@ Office 365 に含まれるの主要な Skype for Business 機能のセットを�
 
 ### <a name="what-do-you-recommend-for-customers-who-are-currently-in-the-process-of-deployingor-planning-to-deployskype-for-business-in-office-365"></a>Office 365 での Skype for Business の展開を現在進めているお客様や、展開を計画しているお客様に対する推奨事項を教えてください。
 
-お客様は、[Skype から Teams へのロードマップ](https://aka.ms/skype2teamsroadmap)を評価して、機能がビジネス ニーズやタイミングの要件に適合するかどうかについて、評価する必要があります。 適合する場合は、Teams の展開に向けて戦略を調整することをお勧めします。 Teams の展開では、ネットワークの評価など、計画やインフラストラクチャへの投資が発生します。 すべての新規の Office 365 ユーザーに対しては、Teams を単独で、または Skype for Business と並行して使用することをお勧めします。
+お客様は、[Microsoft 365 ロードマップ](https://aka.ms/O365Roadmap)を評価して、機能がビジネス ニーズやタイミングの要件に適合するかどうかを判断する必要があります。 適合する場合は、Teams の展開に向けて戦略を調整することをお勧めします。 Teams の展開では、ネットワークの評価など、計画やインフラストラクチャへの投資が発生します。 すべての新規の Office 365 ユーザーに対しては、Teams を単独で、または Skype for Business と並行して使用することをお勧めします。
 
 ### <a name="what-support-are-you-offering-customers-who-want-to-move-to-teams-especially-those-who-have-made-significant-investments-in-skype-for-business-online"></a>Teams への移行を希望するユーザーに、どのようなサポートを提供しているのかを教えてください。特に、Skype for Business Online にすでに大きな投資を行っているユーザーがどのようなサポートを受けられるのかを知りたいです。
 
@@ -92,31 +90,31 @@ Teams は Office 365 スイートで利用することができます。 現在 
 ### <a name="how-long-will-it-take-to-upgrade-my-organization-to-teams"></a>自分の組織を Teams にアップグレードするのにどのくらい時間がかかりますか?
 
 組織においての Skype for Business から Teams への移行は、お客様によって定義することができます。 お客様の計画および実施を支援するために、Upgrade Basic と Upgrade Pro という 2 つの中核的なアップグレード パスを選択することができます。 Upgrade Basic は小規模の組織や、Skype for Business の導入や IM などの中核的なワークロードの割合が低い組織向けで、組織全体を 1 回で Teams にアップグレードするように設計されています。 Upgrade Pro は、より段階的なアップグレード方式による利点を受けられる、機能性が拡張された組織に適しています。 [両方のパスを確認して](https://aka.ms/skypetoteams-home)、自分の組織にとって最適な方式を判断してください。
- 
-### <a name="why-dont-i-see-a-teams-only-mode-in-the-microsoft-teams--skype-for-business-admin-center"></a>「Teams Only」モードが、Microsoft Teams および Skype for Business 管理センターに表示されないのはなぜでしょうか。
+
+### <a name="why-dont-i-see-a-teams-only-mode-in-the-microsoft-teams-admin-center"></a>「Teams Only」モードが、Microsoft Teams 管理センターに表示されないのはなぜでしょうか。
 
 このモードは、今後数週間のうちに有効になる予定です。 さらに、組織に適した Skype for Business から Teams への移行を組織で管理することができるようになる、追加の共存モードが目に入るようになります。 現在利用可能でる、または近日中に利用可能になる共存およびアップグレード モードの詳細については、[こちら](https://aka.ms/skypetoteams-coexist)をご覧ください。
- 
+
 ### <a name="what-does-it-mean-to-have-teams-be-ready-for-my-organization"></a>Teams が組織において「準備が整っている」状態であることはどのような意味がありますか?
 
 既存の Skype for Business ユーザーとして、組織内で現在有効になっていてアクティブな Skype for Business の機能と Teams が適合する場合は、Teams を導入する準備が整っているということになります。 関連する機能の利用可能性と、アップグレードを合わせることによって、自分のユーザーは Skype for Business から Teams に容易に移行することができます。 組織において、Teams を導入できる準備がいつ整うかを理解することに加えて、[技術面の準備状況の検証](https://aka.ms/skypetoteams-technicalreadiness)から[ユーザーの準備状況と受け入れに関する戦略の実施](https://aka.ms/skypetoteams-userreadiness)に至るまでの、Teams に対する組織の準備状況の計画を立てることが必要になるかもしれません。
- 
+
 ### <a name="what-should-i-do-to-prepare-for-my-upgrade"></a>アップグレードに対する準備として何を行うべきですか?
 
 正常に完了するアップグレードには、ユーザー側の受け入態勢が整っていることに加えて、技術面の準備状況の検証が含まれています。 所属する組織で Teams にアップグレードする準備が整っていないと判断される場合でも、計画のプロセスは今すぐ始めることができます。 さらに、Teams を Skype for Business と共存する形で有効にすることによって、Teams の価値を実感し始めることができます。 今すぐ [Skype から Teams への移行](https://aka.ms/skypetoteams-home)を開始しましょう。
- 
+
 ### <a name="my-organization-is-already-running-teams-alongside-skype-for-business-can-i-just-disable-skype-for-business"></a>私の組織は既に Teams を Skype for Business と共存して稼働しています。 Skype for Business を無効にすることはできますか?
 
 いいえ、Teams へのアップグレードを完了するために、「**Teams Only**」モードにユーザーを切り替えることになります。 組織が Teams に移行する準備が整っている場合は、ユーザーとコミュニケーションをとり、ユーザーに状況を把握してもらい、Teams に慣れるための時間を確保してください。 そうすることで、ユーザーは肯定的なアップグレード エクスペリエンスを得ることができ、ヘルプデスクへの問い合わせの負担が軽減されます。 コミュニケーションのサンプル テンプレートを入手するには、[Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) をダウンロードしてください。
- 
+
 ### <a name="who-can-i-contact-if-i-have-questions-about-the-upgrade-process"></a>アップグレード プロセスに関する質問がある場合は誰に問い合わせればよいですか?
 
-アップグレードに関する質問は、お客様に割り当てられた Microsoft アカウント チーム、パートナー、FastTrack などの、現時点で接点のある関係先に問い合わせてみてください。 または、[Microsoft Teams および Skype for Business の管理センター](https://admin.teams.microsoft.com/)内でヘルプ チケットを開くこともできます。
- 
+アップグレードに関する質問は、お客様に割り当てられた Microsoft アカウント チーム、パートナー、FastTrack などの、現時点で接点のある関係先に問い合わせてみてください。 また、[Microsoft Teams 管理センター](https://admin.teams.microsoft.com/)内でヘルプ チケットを開くこともできます。
+
 ### <a name="do-i-upgrade-all-users-on-my-tenant-together-or-can-i-opt-to-upgrade-select-users-at-a-time"></a>自分のテナント内のすべてのユーザーを一緒にアップグレードすることはできますか? または、一部の選択したユーザーを同時にアップグレードすることを選べますか?
 
 Teams がニーズに合う場合に、個別のユーザー、ユーザーのグループ、または組織全体に対して、柔軟にアップグレードを行うことができます。 お客様の組織にとって最適な手法を理解するためには、お客様が有効にすることができる、さまざまな[共存モードおよびアップグレード モード](https://aka.ms/skypetoteams-coexist)を確認してください。
- 
+
 ### <a name="what-happens-after-my-users-are-upgraded"></a>ユーザーに対してアップグレードが行われた後はどのようになりますか?
 
 ユーザーが Teams にアップグレードされた後 (**Teams のみ**モード) は次のようになります。
@@ -131,13 +129,14 @@ Teams がニーズに合う場合に、個別のユーザー、ユーザーの�
 
 ### <a name="will-users-still-be-able-to-use-skype-for-business-after-i-activate-the-upgrade-notification-in-their-client"></a>ユーザーのクライアントでアップグレードの通知をアクティブ化した後も、ユーザーは Skype for Business を使用することができますか?
 
-あり。 アップグレードの通知は、単純にまだ Teams を利用していないユーザーに対して Skype for Business が Teams にアップグレードされることを知らせて、Teams の使用を開始するように案内するものです。 この通知を、(メール、FAQ、ヘルプデスクの手配、ポスター/看板などの) 認識向上キャンペーンで補完して、アップグレードのタイミング、ユーザーに対する行動喚起、トレーニングのアクセスなど、組織に特有のより詳細な情報を伝えるようにすることをお勧めします。 コミュニケーションのテンプレートを入手するには、[Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) をダウンロードしてください。  
+はい。 アップグレードの通知は、単純にまだ Teams を利用していないユーザーに対して Skype for Business が Teams にアップグレードされることを知らせて、Teams の使用を開始するように案内するものです。 この通知を、(メール、FAQ、ヘルプデスクの手配、ポスター/看板などの) 認識向上キャンペーンで補完して、アップグレードのタイミング、ユーザーに対する行動喚起、トレーニングのアクセスなど、組織に特有のより詳細な情報を伝えるようにすることをお勧めします。 コミュニケーションのテンプレートを入手するには、[Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) をダウンロードしてください。  
 
 ## <a name="skype-to-teams-roadmap"></a>Skype から Teams へのロードマップ
 
 ### <a name="how-can-customers-learn-when-skype-for-business-capabilities-will-be-available-in-teams"></a>Skype for Business 機能がいつ Teams で利用可能になるかをどのようにして知ることができますか?
 
-Skype から Teams への固有のロードマップは[https://aka.ms/skype2teamsroadmap](https://aka.ms/skype2teamsroadmap)で利用可能です。 今後利用可能になる予定の Teams 機能についての情報は [Office 365 ロードマップ](https://go.microsoft.com/fwlink/?linkid=859057)で公開していく予定です。
+「[Microsoft 365 ロードマップ](https://aka.ms/O365Roadmap)」を参照してください。
+
 
 ### <a name="which-apis-and-sdks-will-be-made-available-for-teams"></a>Teams で利用可能になる API と SDK を教えてください。
 
@@ -155,7 +154,6 @@ Teams は、Education、Education Plus、Education E5 といったすべての �
 
 米国の Government Cloud Community (GCC) での Teams の利用可能性についての追加情報は、[こちら](plan-for-government-gcc.md)でご覧ください。
 
-
 ## <a name="calling-capabilities"></a>通話機能
 
 ### <a name="what-is-the-plan-for-microsofts-online-voice-capabilities"></a>Microsoft のオンライン ボイス機能の計画を教えてください。
@@ -164,12 +162,11 @@ Microsoft は、現在利用可能な[電話システム](https://products.offic
 
 ### <a name="what-is-the-guidance-for-customers-already-deployed-on-phone-system-cloud-pbx-in-skype-for-business-online"></a>Skype for Business Online の 電話システム (クラウド PBX) で既に展開しているカスタマーに向けたガイダンスを教えてください。
 
-お客様は、[Teams ロードマップ](https://aka.ms/skype2teamsroadmap)を評価して、その機能がビジネス ニーズに合うかどうかを判断する必要があります。 すべての Office 365 ユーザーに対しては、Teams を単独で、または Skype for Business と並行して使用することをお勧めします。
+お客様は、[Teams ロードマップ](https://aka.ms/O365Roadmap)を評価して、その機能がビジネス ニーズに合うかどうかを判断する必要があります。 すべての Office 365 ユーザーに対しては、Teams を単独で、または Skype for Business と並行して使用することをお勧めします。
 
 ### <a name="when-will-hybrid-customers-be-able-to-move-to-teams"></a>ハイブリッド ユーザーはいつ Teams に移行することができますか?
 
 お客様からのフィードバックに基づいて、お客様がトランクやサードパーティのテレフォニー システムを Office 365 に接続するための方法を簡素化する予定です。 通話に関して、ご自身の電話サービスを Teams に導入することに関心があるお客様は、[ダイレクト ルーティング](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359)の一般的な利用可能性で対処することができるようになりました。 ダイレクト ルーティングと通話プランは、Microsoft Teams のダイヤル トーンでの 2 つの選択肢です。
-
 
 ## <a name="messaging-capabilities"></a>メッセージング機能
 
@@ -203,7 +200,7 @@ Skype Room Systems v1 (別名: Lync Room Systems) では、それらのデバイ
 
 ### <a name="whats-planned-for-new-management-experiences"></a>新しい管理エクスペリエンスについての計画を教えてください。
 
-Microsoft は、Office 365 管理センター内に [Microsoft Teams および Skype for Business の管理センター](https://admin.teams.microsoft.com/)を IT 専門家のために立ち上げました。 Skype for Business 管理コンソールと同様に、この新しいポータルは、新しいエクスペリエンスを管理するための単一の場所となります。 2018 年の第 1 四半期に予定されているこのポータルの初回リリースは、Teams のみを使用するお客様向けの企業対応ポリシー モデルを通して、Teams の既存の管理インターフェースに取って代わる管理機能をサポートするように設計されています。 このポータルにより、Microsoft はカスタムのプレゼンス、チャット、アプリ、会議、ボイスのポリシーを作成し、これらのポリシーを Teams ユーザーに割り当てることができるようになります。
+Microsoft では、Office 365 管理センター内に IT 専門家向けの [Microsoft Teams 管理センター](https://admin.teams.microsoft.com/)を立ち上げました。 Skype for Business 管理コンソールと同様に、この新しいポータルは、新しいエクスペリエンスを管理するための単一の場所となります。 2018 年の第 1 四半期に予定されているこのポータルの初回リリースは、Teams のみを使用するお客様向けの企業対応ポリシー モデルを通して、Teams の既存の管理インターフェースに取って代わる管理機能をサポートするように設計されています。 このポータルにより、Microsoft はカスタムのプレゼンス、チャット、アプリ、会議、ボイスのポリシーを作成し、これらのポリシーを Teams ユーザーに割り当てることができるようになります。
 
 ## <a name="device-compatibility"></a>デバイスの互換性
 

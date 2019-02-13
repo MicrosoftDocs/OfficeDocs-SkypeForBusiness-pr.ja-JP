@@ -1,37 +1,33 @@
 ---
-title: Microsoft Teams の組織全体にわたるロールアウトを計画するためのリソースを取得する
-author: LanaChin
-ms.author: v-lanac
+title: Microsoft Teams を組織全体に展開するためのコースを選択する
+author: lolajacobsen
+ms.author: lolaj
 manager: serdars
 ms.date: 11/06/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
-description: マイクロソフトのチームの詳細な展開と adoptions リソースの検索に移動する場所を知っています。
-localization_priority: Normal
+description: Microsoft Teams の展開と導入の詳細なリソースを検索する場所について説明します。
+localization_priority: Priority
 search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd2055a6449e29c53a3f0609110710a213631600
-ms.sourcegitcommit: 4dd2598efbfd4789587b9d816b69017817e0203b
-ms.translationtype: MT
+ms.openlocfilehash: f7dc15de1502f7c9601cc7df80e518ef36db6d7f
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26622279"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594335"
 ---
-# <a name="get-resources-to-plan-your-organization-wide-rollout-of-microsoft-teams"></a>Microsoft Teams の組織全体にわたるロールアウトを計画するためのリソースを取得する
+# <a name="choose-a-path-to-your-organization-wide-rollout-of-microsoft-teams"></a>Microsoft Teams を組織全体に展開するためのコースを選択する
 
-正常に設定したら、最初のチーム、onboarded を最初のグループのユーザーの使用率を向上させながら、これでは採用を推進しているときに、組織の残りの部分にチームを展開する、今後の計画を確認します。
+これまでに、最初のチームを適切にセットアップし、使用を促進すると同時に初期のユーザー グループを参加させました。ここでは、導入を推進しながら組織の残りの部分に Teams を展開するための、今後の計画に注目します。 最初のワークロード「[チャット、チーム、チャネルおよびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)」から始めます。
 
-## <a name="deploy-teams"></a>チームを配置します。
-[展開チーム](deployment-overview.md)のセクション、ドキュメントは、組織全体の展開に最適な意思決定にガイダンスを IT プロフェッショナルを提供します。
+Teams 展開のコースを選択するためのアドバイスは、「[Teams の展開方法](How-to-roll-out-teams.md)」を参照してください。
 
-## <a name="adopt-teams"></a>チームを買い付けます。
-[採用チーム](adopt-microsoft-teams-landing-page.md)ドキュメントのセクションで、手順を正常に組織内のチームを採用する方法を示します。
+## <a name="let-us-know-what-you-think"></a>ご意見をお聞かせください
 
-## <a name="let-us-know-what-you-think"></a>ご意見をお寄せ
+メモ: この「**使用を開始する**」セクションについての感想を、<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4LAPvZJykZPhSy1f9kvlZdURFVYS0k5V0xNQ1UwQlE3VzlDWUZYQU42WS4u" target="_blank">このアンケート</a>に記入してください (所要時間は約 1 分)。 これは匿名です。
 
-: メモ: この「**はじめ**に」のご意見をお聞かせするのには<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4LAPvZJykZPhSy1f9kvlZdURFVYS0k5V0xNQ1UwQlE3VzlDWUZYQU42WS4u" target="_blank">このアンケート</a>(約 1 分かかります) が完了するでしょうか。 匿名であります。
-
-その資料の [**フィードバック**] セクションに移動して特定の記事にもフィードバックを指定できます。 
+その記事の「**フィードバック**」セクションに移動すると、特定の記事に関するフィードバックを送ることもできます。 

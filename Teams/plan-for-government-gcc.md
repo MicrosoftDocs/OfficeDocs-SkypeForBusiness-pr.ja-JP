@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24ceb6ff76bb84f8de9d9248fc4c10a73ee454f4
-ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
+ms.openlocfilehash: fcdad8bfbcb873a84d03ec6c0048e4fe49cd5467
+ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29890765"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "29964419"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Microsoft 365 政府の GCC の展開の計画
 
@@ -48,7 +48,7 @@ Microsoft 365 政府 - 米国政府の[Office 365 の政府の計画](https://pr
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft 365 政府の GCC は、組織の適切なかどうかを決定します。</li><li>組織が適格性の要件を満たしていることを確認します。</li></ul> |
+| ![](media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>Microsoft 365 政府の GCC は、組織の適切なかどうかを決定します。</li><li>組織が適格性の要件を満たしていることを確認します。</li></ul> |
 
 > [!Note]
 > Microsoft 365 政府の GCC をアメリカ合衆国ではできるだけです。 -米国以外の政府機関のお客様は、いくつかの[Office 365 の政府の計画](https://products.office.com/en/government/compare-office-365-government-plans)から選択できます。
@@ -135,6 +135,10 @@ Microsoft 365 政府の GCC をいくつかの相違がある、政府のクラ�
 | | 監査ログの検索 | 利用可能 |
 | | 法的保持義務 | 利用可能 |
 | | 電子情報開示 | 利用可能 |
+
+> [!Note]
+
+> ほかの作業負荷は、GCC の雲の中が完全に利用可能なしなるチームで使用可能なすべての追加の統合作業が完了したとき。
 
 
 |    |     |

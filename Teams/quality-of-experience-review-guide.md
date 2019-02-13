@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34ec9518c8f5406b3bb6c489d571d89f50f34b34
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 3b19fe5dce5c728880c54321e5d6dbb1901d0aac
+ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754827"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "29964451"
 ---
 # <a name="quality-of-experience-review-guide"></a>レビュー ガイドの経験の質
 
@@ -1172,13 +1172,13 @@ _29 – HTTP プロキシの使用を構築し、サブネットの図します�
 
 ##### <a name="remediation"></a>改善計画
 
-私たちの[ことをお勧め](/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)ビジネス ・ チーム、特にメディア トラフィックは常に Skype のプロキシを無視することです。 プロキシしないビジネスの Skype をより安全に、そのトラフィックが既に暗号化されているためです。 パフォーマンス関連の問題は、遅延とパケット損失を環境に導入できます。 このような問題は、リアルタイム ストリームが必要不可欠なオーディオ、ビデオ、画面の共有と経験を負の値になります。
+私たちの[ことをお勧め](proxy-servers-for-skype-for-business-online.md)ビジネス ・ チーム、特にメディア トラフィックは常に Skype のプロキシを無視することです。 プロキシしないビジネスの Skype をより安全に、そのトラフィックが既に暗号化されているためです。 パフォーマンス関連の問題は、遅延とパケット損失を環境に導入できます。 このような問題は、リアルタイム ストリームが必要不可欠なオーディオ、ビデオ、画面の共有と経験を負の値になります。
 
 HTTP の使用法の最も一般的な原因には、プロキシの例外ルールがありません。 提供された場合、プロキシは、メディアを構成する必要が迅速に判断できます、建物やサブネットを使用して次のように回避します。
 
 必要な[Office 365 の Fqdn](https://aka.ms/o365ips)が、プロキシ whitelisted であることを確認します。
 
-オンライン ビジネスとチームの Skype でのプロキシを使用する方法の詳細については、[この資料](/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)を参照してください。
+オンライン ビジネスとチームの Skype でのプロキシを使用する方法の詳細については、[この資料](proxy-servers-for-skype-for-business-online.md)を参照してください。
 
 ## <a name="endpoint-investigations"></a>エンドポイント調査
 
@@ -1357,7 +1357,7 @@ _表 12 - ネットワークのパフォーマンスの要件_
 
 -   [Office 365 導入のコンテンツ パック](https://www.microsoft.com/microsoft-365/blog/2017/05/22/announcing-the-public-preview-of-the-office-365-adoption-content-pack-in-powerbi/)
 
--   [Microsoft 365 の利用状況の分析](https://support.office.com/article/Microsoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f)
+-   [Microsoft 365 利用状況分析](https://support.office.com/article/Microsoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f)
 
 -   [Skype for Business Online のレポート](/SkypeForBusiness/skype-for-business-online-reporting/skype-for-business-online-reporting)
 

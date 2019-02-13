@@ -1,47 +1,50 @@
 ---
-title: クイック スタート - Microsoft Teams
-author: LanaChin
-ms.author: v-lanac
+title: Microsoft Teams の使用を開始する
+author: LolaJacobsen
+ms.author: lolaj
 manager: serdars
-ms.date: 11/06/2018
+ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
-description: 入門マイクロソフト チーム チームと、利便性を構築するには、組織全体にわたって広範囲に展開する前に、最初のチームとのチャネルには、ロールアウトをします。
-localization_priority: Normal
+description: 最初のチームとチャネルを展開することにより、Microsoft Teams の使用を開始します。これにより、Teams での経験を積んでから、組織全体に広く展開することができます。
+localization_priority: Priority
 search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b99dc3b0aff15c417ef58affb6ac4fab5638f61c
-ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
-ms.translationtype: MT
+ms.openlocfilehash: 62d00335948e164302eb46cdf81a51f3edd802d3
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27896132"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594375"
 ---
-# <a name="quick-start---microsoft-teams"></a>クイック スタート - マイクロソフトのチーム
+# <a name="get-started-with-microsoft-teams"></a>Microsoft Teams の使用を開始する
 
-すぐにチームに、早期採用者のグループのチームとチャネルの 2 つまたは 3 つを作成するをお勧めします。 最初のロールアウト チームの小規模なチームを使用して、チームの説明および、組織全体にわたってチームを配置する方法を通知するために貴重な情報を取得するでしょう。 
+Teams をすぐ開始するには、選択した早期導入者のグループに 2 つまたは 3 つのチームとチャネルを作成することをお勧めします。 まず Teams を小規模に展開することにより、Teams を使用して Teams を学習できます。また、組織全体に Teams を展開する方法を知るための貴重な識見を得ることができます。 中小企業の場合、組織全体に Teams を展開するために必要なのは、このクイック スタート ガイドのみです。
 
-チームを使用して、迅速に、組織の内外の人々 とチームをまとめ、ドライブの高速で包括的な会話、安全に共有ドキュメントを共同執筆し、プロジェクトで反復処理する他のユーザーとチャットします。 専任の技術者によるアクセスを共有のメモ、web ページ、およびアプリケーションに追加することによって、チームをカスタマイズします。 ユーザーは、任意の場所からリアルタイムで共同作業を行うには、会議や通話を使用します。 チームは、Office 365 のサービスとの共同作業とコミュニケーションのニーズに合わせて新しい重心をサード ・ パーティ製のアプリケーションへのアクセスを簡略化されます。 
 
-![チームと共同で開始](media/get-started-microsoft-teams.png "チームのデスクトップ クライアントとモバイル クライアント ユーザー インターフェイスを示すスクリーン ショット" ) 
+Teams を使用すると、すぐに組織内外のチームとユーザーをまとめることができます。他のユーザーとチャットして、迅速で包括的な会話を促進したり、ドキュメントを安全に共有および共同編集したり、プロジェクトで反復処理を行うことができます。 共有メモ、Web ページ、およびアプリへの簡単に操作できるアクセスを追加して、Teams をカスタマイズします。 ユーザーは会議や通話を使用して、どこからでもリアルタイムで共同作業を行うことができます。 Teams によって Office 365 サービスとサードパーティ製アプリへのアクセスが簡素化され、共同作業とコミュニケーションのニーズの新たな中心になります。 最高のエクスペリエンスと一番的確なフィードバックを得るために、デスクトップとモバイルの両方のアプリケーションをインストールすることを早期導入者に勧めてください。
 
-早期の導入は、チャット、ファイルの共有と共同作業を開始できるように、チームとチャネルの最初のセットをロールバックするには。
+![Teams の使用を開始する](media/get-started-microsoft-teams.png "Teams のデスクトップ クライアントとモバイル クライアントのユーザー インターフェイスを示すスクリーン ショット" ) 
 
-- ステップ 1: は[、最初のチームとのチャネルを作成します。](get-started-with-teams-create-your-first-teams-and-channels.md)
-- 手順 2:[オンボードの早期導入](get-started-with-teams-onboard-early-adopters.md)
-- ステップ 3:[モニターの使用方法およびフィードバック](get-started-with-teams-monitor-usage-and-feedback.md)
-- 手順 4: は[、組織全体の展開を計画するためのリソースを取得します。](get-started-with-teams-resources-for-org-wide-rollout.md)
+最初のチームとチャネルのセットを展開する方法を次に示します。これにより、早期導入者はチャット、ファイル共有、共同作業を開始できます。
 
-ハイブリッドがある大規模な組織の場合、またはオンプレミスの Skype ビジネス構成の場合は、厳格な規制やコンプライアンスの要件がある会議を展開または計画または電話システム) を呼び出すなどの機能を音声にする場合は、[を参照してください詳細リソース](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams)これらのより複雑な機能を計画します。 まだ自分のスキルを構築し、チームとチームを計画するには、このセクションを開始することをお勧めします。 チーム チャット、チーム、およびチャネルでの展開で小さなを起動し、そこからビルド&ndash;これらの初期の経験がのチームは、次の起動段階の組織全体の興奮を生成して、word を展開できます。 
+- ステップ 1: [最初のチームとチャネルを作成する](get-started-with-teams-create-your-first-teams-and-channels.md)
+- ステップ 2: [早期導入者を参加させる](get-started-with-teams-onboard-early-adopters.md)
+- ステップ 3: [利用状況とフィードバックを監視する](get-started-with-teams-monitor-usage-and-feedback.md)
+- ステップ 4: [組織全体の展開を計画するためのリソースを入手する](get-started-with-teams-resources-for-org-wide-rollout.md)
 
-## <a name="before-you-get-started"></a>開始する前に
+大規模な組織で、ハイブリッドまたはオンプレミスの Skype for Business 構成があり、厳格な規制またはコンプライアンス要件がある場合や、会議または音声機能 (通話プランや電話システムなど) を展開する場合は、「[Teams の展開方法](how-to-roll-out-teams.md)」を読むことから始めてください。 スキルを構築し、組織全体の展開計画を開始するには、この「**使用を開始する**」セクションから始めることをお勧めします。 「Teams で Teams を計画する。」 チャット、チーム、チャネル、アプリを使用して Teams を展開し、そこから構築することにより、小さな規模で開始します。 これらの最初のエクスペリエンスは、Teams の評判を広めるために役立ち、次の立ち上げ段階に対して組織全体の気持ちを高めます。 
 
-確認したチームのライセンスのために。 [比較のチームの計画](https://products.office.com/microsoft-teams/free)および[チームの Office 365 のライセンス](office-365-licensing.md)を確認してください。 
+中小企業の場合は、この使用開始ガイダンスを使用して、Teams を組織に完全に展開できます。 中小企業では、Teams を段階的に展開する必要はありません。
+
+## <a name="before-you-get-started"></a>使用を開始する前に
+
+すべてのユーザーが Teams のライセンスを所有していることを確認してください。 「[Teams のプランを比較](https://products.office.com/microsoft-teams/free)」と「[Teams 用 Office 365 ライセンス](office-365-licensing.md)」を確認してください。 
 
 ## <a name="next-steps"></a>次のステップ
-[最初のチームとのチャネルを作成](get-started-with-teams-create-your-first-teams-and-channels.md)するのに移動します。
+「[最初のチームとチャネルを作成する](get-started-with-teams-create-your-first-teams-and-channels.md)」に移動します。
 
-[チームの導入ガイド](https://aka.ms/teamstoolkit)をご覧ください。
+詳細については、対話型の「[Teams 導入ガイド](https://aka.ms/teamstoolkit)」を参照してください。

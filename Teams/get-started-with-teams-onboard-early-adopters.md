@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams へのアーリー アダプターに関与する
+title: Microsoft Teams に早期導入者を参加させる
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -7,30 +7,30 @@ ms.date: 11/06/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
-description: チームとマイクロソフトのチームで作成したチャネルの最初のセットにオンボードの早期導入。
-localization_priority: Normal
+description: Microsoft Teams で作成した最初のチームおよびチャネルのセットに早期導入者を参加させます。
+localization_priority: Priority
 search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 966768e447e236d7b9d313d3fd699fd788914c1f
-ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
-ms.translationtype: MT
+ms.openlocfilehash: 108979714eea2b6e39a7e40539b4d049d3b64f6c
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26716438"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594351"
 ---
-# <a name="onboard-early-adopters-to-microsoft-teams"></a>Microsoft Teams へのアーリー アダプターに関与する
+# <a name="onboard-early-adopters-to-microsoft-teams"></a>Microsoft Teams に早期導入者を参加させる
 
-## <a name="invite-users-to-teams"></a>チームにユーザーを招待します。
+## <a name="invite-users-to-teams"></a>Teams にユーザーを招待する
 
-名前と説明を作成したチームを持つユーザーに登録完了メールを送信し、チームでの会話に参加するよう招待します。 チーム クライアント、トレーニング、およびサポートの入手先を把握できるように電子メールで次のリンクを含める必要があります。
-- [チーム web クライアント](https://teams.microsoft.com)
-- [デスクトップおよびモバイル クライアントのダウンロード リンク](https://teams.microsoft.com/downloads)
-- [チームのトレーニング ビデオ](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
-- [チームのヘルプ](https://support.office.com/teams)
+作成したチームの名前と説明を記載した招待メールをユーザーに送信し、Teams での会話に参加するよう招待します。 Teams のクライアントの入手先と、トレーニングおよびサポートを受けられる場所がわかるように、次のリンクを必ず電子メールに含めます。
+- [Teams の Web クライアント](https://teams.microsoft.com)
+- [デスクトップとモバイル クライアントのダウンロード リンク](https://teams.microsoft.com/downloads)
+- [Teams のトレーニング用ビデオ](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
+- [Teams のヘルプ ドキュメント](https://support.office.com/teams)
 
-など、聞くチーム"チームの次のように、電子メールを開始する可能性があります。
+たとえば、"Get to know Teams" チームの場合は次のような電子メールを送信します。
 
    ```
    Welcome to Microsoft Teams for <insert_company_name>. Teams is a chat-based workspace that brings together chat, files, people, and tools in one place. 
@@ -40,58 +40,58 @@ ms.locfileid: "26716438"
    To join, click <link to the team>.
    ```
 
-最初に参加するときのユーザーに伝えます。 チームにウェルカム メッセージを投稿し、チャネル内でチャットを開始します。 これでは、トーンを設定し、ユーザーのチームにスイッチを加えることをお勧めします。 ウェルカム メッセージでは、同一のユーザーは、チームとその他の役に立つ情報ユーザーを迅速に稼働させるための入手先を知っているために電子メールで送信されたリンクが含まれます。 ダウンロードしてインストールし、チャット、ファイルを共有し、相互の共同作業をスタートすることができますように、チームにサインインする方法を知っていることを確認するのにはユーザーと基にタッチします。  
+ユーザーが初めて参加したときに、そのユーザーと会話を行います。 Teams で歓迎メッセージを投稿し、チャネルでチャットを開始します。 こうすることで口調を決定し、Teams への切り替えをユーザーに促します。 歓迎メッセージには電子メールで送信したリンクと同じものを含めて、ユーザーが Teams の入手場所を確認できるようにします。また、ユーザーがすぐに作業を開始できるようにするための、その他の有用な情報も含めます。 ユーザーが Teams のダウンロード、インストール、およびサインイン方法を確実に把握できるように、ユーザーに連絡を行います。これにより、ユーザーはチャットやファイルの共有、相互の共同作業を開始できます。  
 
-## <a name="get-teams-clients"></a>チームのクライアントを取得します。
-チームでは、デスクトップ (Windows および Mac) は、web、およびモバイル (iOS および Android) のクライアントが存在します。 デスクトップおよびモバイル クライアントがチームの最高の経験を持つユーザーのインストールをお勧めします。 
+## <a name="get-teams-clients"></a>Teams のクライアントを取得する
+Teams には、デスクトップ用 (Windows および Mac)、Web 用、およびモバイル用 (iOS および Android) のクライアントがあります。 Teams を最大限活用するために、ユーザーはデスクトップとモバイル クライアントをインストールすることをお勧めします。 
 
-ジャンプする:[チームの Windows](#teams-for-windows) | [for Mac チーム](#teams-for-mac) | [チーム](#web-client)の web ブラウザーの | [iOS のチーム](#teams-for-ios) | [Android のチーム](#teams-for-android)
+参照先へジャンプ: [Windows 用 Teams](#teams-for-windows) | [Mac 用 Teams](#teams-for-mac) | [Web ブラウザー用 Teams](#web-client) | [iOS 用 Teams](#teams-for-ios) | [Android 用 Teams](#teams-for-android)
 
 ### <a name="desktop-client"></a>デスクトップ クライアント
 
-チームのデスクトップ クライアントでは、Windows と Mac のユーザーに、最適な全体的な経験が与えられます。 詳細については、[チーム (デスクトップ クライアント) のクライアントを取得](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client)し、[マイクロソフトのチームのアプリケーションのハードウェア要件](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app)を参照してください。
+Teams のデスクトップ クライアントは Windows ユーザーと Mac ユーザーに、すべてにおいて最高のエクスペリエンスを提供します。 詳細については、「[Teams のクライアントを取得する (デスクトップ クライアント)](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client)」および「[Microsoft Teams アプリのハードウェア要件](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app)」を参照してください。
 
 > [!NOTE]
-> 管理者としては、システム センター構成マネージャー (Windows) または Jamf Pro (macOS) など、組織内のコンピューターにインストール ファイルを配布する方法を選択できます。
+> 管理者は、System Center Configuration Manager (Windows) や Jamf Pro (macOS) など、インストール ファイルを組織内のコンピューターに配布する方法を選択できます。
 
-#### <a name="teams-for-windows"></a>Windows チームの編成 
-Windows デスクトップ クライアントをインストールする最も簡単な方法です。
+#### <a name="teams-for-windows"></a>Windows 用 Teams 
+Windows デスクトップ クライアントをインストールする最も簡単な方法は、次のとおりです。
 
-1. Windows のデスクトップ クライアントをダウンロード[https://teams.microsoft.com/downloads](https://teams.microsoft.com/downloads)。
-2. (管理者のアクセス許可を必要としない) のインストーラーを実行します。 
-3. インストールの完了後は、チームを開始します。
+1. [https://teams.microsoft.com/downloads](https://teams.microsoft.com/downloads) から、Windows デスクトップ クライアントをダウンロードします。
+2. インストーラーを実行します (管理者権限は不要)。 
+3. インストールが完了したら、Teams を起動します。
 
 > [!NOTE]
-> 以降では、組織全体にわたってチームの正式な大量の導入を検討していると、チェック アウトを計画および展開する方法については、[チームの Windows のデスクトップ クライアント](http://aka.ms/teams-clients)のビデオです。 
+> その後、組織全体に Teams のより正式な大規模展開を検討する場合は、「[Teams Windows デスクトップ クライアント](http://aka.ms/teams-clients)」ビデオで計画と展開の方法を確認してください。 
 
-#### <a name="teams-for-mac"></a>Mac のチーム 
-Mac のデスクトップ クライアントをインストールする最も簡単な方法です。
+#### <a name="teams-for-mac"></a>Mac 用 Teams 
+Mac デスクトップ クライアントをインストールする最も簡単な方法は、次のとおりです。
 
-1. Mac のデスクトップ クライアントをダウンロード[https://teams.microsoft.com/downloads](https://teams.microsoft.com/downloads)。
-2. (管理者権限が必要です) のインストーラーを実行します。 
-3. インストールの完了後は、チームを開始します。
+1. [https://teams.microsoft.com/downloads](https://teams.microsoft.com/downloads) から、Mac デスクトップ クライアントをダウンロードします。
+2. インストーラーを実行します (管理者権限が必要)。 
+3. インストールが完了したら、Teams を起動します。
 
 ### <a name="web-client"></a>Web クライアント
-チームは、機能豊富な web クライアントでは、 [https://teams.microsoft.com](https://teams.microsoft.com)、さまざまなブラウザーをサポートします。
+Teams には、さまざまなブラウザーをサポートする、豊富な機能の Web クライアント ([https://teams.microsoft.com](https://teams.microsoft.com)) が用意されています。
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
 ### <a name="mobile-client"></a>モバイル クライアント
 
-IOS および Android のチームのモバイル クライアントに接続され、生産性を向上するときに、移動ユーザーを保持します。 詳細については、[チーム (モバイル クライアント) のクライアントを取得する](https://docs.microsoft.com/MicrosoftTeams/get-clients#mobile-clients)を参照してください。
+iOS および Android 用の Teams モバイル クライアントは、外出先でもユーザーとの接続性と生産性を維持します。 詳細については、「[Teams のクライアントを取得する (モバイル クライアント)](https://docs.microsoft.com/MicrosoftTeams/get-clients#mobile-clients)」を参照してください。
 
-#### <a name="teams-for-ios"></a>IOS のチーム 
+#### <a name="teams-for-ios"></a>iOS 用 Teams 
 
-10.0 またはそれ以降の iOS を実行しているユーザーは、Apple の App ストアからチームのモバイル アプリケーションをダウンロードすることができ、すぐに開始します。。  
+iOS 10.0 以降を実行しているユーザーは、Apple App Store から Teams モバイル アプリをダウンロードして、すぐに使用を開始できます。  
 
-#### <a name="teams-for-android"></a>Android のチーム 
-Android 4.4 またはそれ以降を実行しているユーザーは、Google の再生ストアからチームのモバイル アプリケーションをダウンロードすることができ、すぐに開始します。。  
+#### <a name="teams-for-android"></a>Android 用 Teams 
+Android 4.4 以降を実行しているユーザーは、Google Play Store から Teams モバイル アプリをダウンロードして、すぐに使用を開始できます。  
 
-## <a name="drive-initial-adoption"></a>初期の採用を推進
+## <a name="drive-initial-adoption"></a>初期導入を推進する
 
-新しいコラボレーションの経験を促進し、開発チームのチャンピオン チームを積極的に使用するのには、早期の導入を促すことが重要です。 聞くチーム」チームが、ユーザーを支援するガイダンスを共有するために作成の操作方法」チャネルを使用することをお勧めします。 プロジェクトに適用します。 
+初期導入者に対して、積極的に Teams を使用し、新しい共同作業のエクスペリエンスを高めて、Teams のチャンピオンを育成するよう奨励することが重要です。 導入を促進するために、作成した "Get to know Teams" チームの "How do I" チャネルを使用して、ユーザーとガイダンスを共有することをお勧めします。 
 
-組織の推進チームの導入に関する詳細なガイダンスは、[チームの導入](adopt-microsoft-teams-landing-page.md)を参照してください。
+組織への Teams の導入を推進するための詳細なガイダンスについては、「[Teams を導入する](adopt-microsoft-teams-landing-page.md)」を参照してください。
 
 ## <a name="next-steps"></a>次のステップ
-[モニターの使用方法およびフィードバック](get-started-with-teams-monitor-usage-and-feedback.md)に移動します。
+「[使用状況とフィードバックを監視する](get-started-with-teams-monitor-usage-and-feedback.md)」に移動します。

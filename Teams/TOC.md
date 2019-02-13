@@ -7,7 +7,7 @@
 
 <!-- ============================================================ -->
 
-# [開始する](get-started-with-teams-quick-start.md)
+# [使用を開始する](get-started-with-teams-quick-start.md)
 ## [最初のチームとのチャネルを作成する手順 1。](get-started-with-teams-create-your-first-teams-and-channels.md)
 ## [手順 2: オンボードの早期導入](get-started-with-teams-onboard-early-adopters.md)
 ## [手順 3: モニターの使用方法およびフィードバック](get-started-with-teams-monitor-usage-and-feedback.md)
@@ -16,7 +16,7 @@
 <!-- ============================================================ -->
 
 
-# [チャット、チーム、チャネル、& アプリケーション](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+# [チャット、チーム、チャネルおよびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [チームとチャネルの概要](teams-channels-overview.md)
 ## [Microsoft Teams でチーム所有者とメンバーを割り当てる](assign-roles-permissions.md)
 ## [Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
@@ -58,8 +58,8 @@
 
 ## [チームを管理します。](using-admin-roles.md)
 ### [組織内のチームの機能を管理します。](enable-features-office-365.md)
-### [新しいマイクロソフトのチーム管理センターに移行する際のチームを管理します。](manage-teams-skypeforbusiness-admin-center.md)
-### [マイクロソフトのチームの管理センターでのチームを管理します。](manage-teams-in-modern-portal.md)
+### [新しい Microsoft Teams 管理センターへの移行中に Teams を管理する](manage-teams-skypeforbusiness-admin-center.md)
+### [Microsoft Teams 管理センターで Teams を管理する](manage-teams-in-modern-portal.md)
 ### [チームの所有者およびチームのメンバーを割り当てる](assign-roles-permissions.md)
 ### [チームで動作する Skype の会議アプリケーションを構成します。](configure-skype-meetings-app-to-work-with-teams.md)
 ### [他の組織内のチームのユーザーとの通信します。](let-your-teams-users-communicate-with-other-people.md)
@@ -76,6 +76,7 @@
 ### チームを展開する準備します。
 #### [Teams の導入に向けた環境の準備を確認する](environment-readiness.md)
 #### [Teams 用に組織のネットワークを準備する](prepare-network.md)
+#### [チームやビジネス オンラインの Skype のプロキシ サーバー](proxy-servers-for-skype-for-business-online.md)
 #### [制限とチームの仕様](limits-specifications-teams.md)
 #### [Teams でチームを作成するときの Office 365 グループの計画](plan-office-365-groups.md)
 #### [Teams のロールアウトをサポートするツールを入手する](rollout-tools.md)
@@ -98,7 +99,7 @@
 #### [チームのアプリケーションのハードウェア要件](hardware-requirements-for-the-teams-app.md)
 #### [MSI を使用するチームをインストールします。](msi-deployment.md)
 #### [チーム、組織で有効に](Office-365-set-up.md)
-#### [Office 365 URL および IP アドレス範囲](office-365-urls-ip-address-ranges.md)
+#### [Office 365 の URL と IP アドレスの範囲](office-365-urls-ip-address-ranges.md)
 #### [サーフェスのハブのチームを配置します。](teams-surface-hub.md)
 
 ### ライセンス
@@ -114,7 +115,7 @@
 <!-- ============================================================ -->
 
 
-# [_AMP_ 会議の会議](deploy-meetings-microsoft-teams-landing-page.md)
+# [会議および通信会議](deploy-meetings-microsoft-teams-landing-page.md)
 ## [チュートリアル: Teams での会議](Tutorial-Meetings-in-Teams.yml)
 ## [会議の設定を管理します。](meeting-settings-in-teams.md)
 ## [ユーザーの設定を変更したときに送信されるメール](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -268,7 +269,7 @@
 <!-- ============================================================ -->
 
 
-# [Cloud Voice](cloud-voice-landing-page.md)
+# [クラウド ボイス](cloud-voice-landing-page.md)
 ## 電話システム
 ### [電話システムとは](what-is-phone-system-in-office-365.md)
 ### [電話システムで利用できる機能](here-s-what-you-get-with-phone-system.md)
@@ -528,7 +529,7 @@
 <!-- ============================================================ -->
 # [導入](adopt-microsoft-teams-landing-page.md) 
 
-## [開始する](teams-adoption-get-started.md)
+## [使用を開始する](teams-adoption-get-started.md)
 ## [段階 1 - 開始](teams-adoption-phase1.md)
 ### [チームとチャネルを理解します。](teams-adoption-understand-teams-and-channels.md)
 ### [最初のチームを作成します。](teams-adoption-your-first-teams.md)
@@ -550,7 +551,7 @@
 
 <!-- ============================================================ -->
 # [チームへのアップグレード](upgrade-introduction.md)
-## [開始する](upgrade-start-here.md)
+## [使用を開始する](upgrade-start-here.md)
 ## [アップグレードのフレームワークについて](upgrade-framework.md)
 ## [アップグレード、旅の計画](upgrade-plan-journey.md)
 ### [プロジェクトの利害関係者を参加させる](upgrade-enlist-stakeholders.md)
@@ -574,6 +575,7 @@
 ### [サービスを運用する](upgrade-operate-my-service.md)
 ### [品質を監視する](upgrade-monitor-quality.md)
 ### [サービスを強化する](upgrade-enhance-my-service.md)
+
 ## [チュートリアル: Skype for Business から Teams への移行](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [FAQ](FAQ-journey.md)
 ## 追加情報
@@ -642,7 +644,7 @@
 
 ## 教育用 Teams
 ### [クイック スタート - 教育用 Teams の管理者](teams-quick-start-edu.yml)
-### [教育管理者のチーム リソース](resources-teams-edu.md)
+### [教育機関管理者向けの Teams のリソース](resources-teams-edu.md)
 ### [管理者のマイクロソフト教育ガバナンスに関する FAQ](plan-teams-governance-edu.md)
 
 ## 先頭行の作業者のチーム

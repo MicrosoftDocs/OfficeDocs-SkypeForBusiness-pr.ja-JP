@@ -15,16 +15,16 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 383a4a18d466e367a31e4b99f9975b51cc5f559a
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: dfa908418061b4a9cc1d899d2ed64a9564b6f181
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988187"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753509"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Office 365 を使用する組織で Microsoft Teams の機能を管理する
 
-すべての Teams の設定は、新しい Microsoft Teams および Skype for Business 管理センターに間もなく移行されます。Teams の機能のうち、アプリのみが Office 365 管理センターで管理されます。 
+もうすぐ、すべての Teams の設定が新しい Microsoft Teams 管理センターに移行されます。Teams の機能のうち、アプリのみが Microsoft 365 管理センターで管理されます。 
 
 特に明記されていない限り、オプションの既定値は [**オン**] です。
 
@@ -38,31 +38,31 @@ https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns
 
 ### <a name="apps"></a>アプリ
 
-アプリは、Teams (ファーストパーティ アプリ、または既定のアプリ) によって、またはサードパーティ (外部アプリ) によって提供される、タブ、コネクタ、ボットまたはそれらの 3 つを任意に組み合わせたのものです。 [**アプリ**] の下で、既定のアプリを有効または無効にしたり、外部アプリを制御する設定を構成したりすることができます。  
+Apps are tabs, connectors, bots, or any combination of these three, provided by Teams (first-party apps, also known as default apps) or by a third-party (also known as external apps). Under **Apps**, you can enable and disable default apps and configure settings to control external apps.  
 
 #### <a name="default-apps"></a>既定のアプリ
 
-プランナー、称賛、天気などのアプリは、Teams によって提供されます。 アプリをオンにするには、そのアプリのチェック ボックスを選択します。 アプリをオフにするには、チェック ボックスをクリアします。 
+These apps, such as Planner, Praise, and Weather, are provided by Teams. To turn on an app, select the check box for that app. To turn off an app, clear the check box. 
 
 ![[既定のアプリ] セクションのスクリーン ショット。](media/teams-tenant-wide-settings-default-apps.png "[既定のアプリ] セクションのスクリーン ショット")
 
 #### <a name="external-apps"></a>外部アプリ
 
-これらのアプリはサードパーティによって提供されます。 外部アプリについては、次の設定を構成することができます。
+These apps are provided by third parties. You can configure the following settings for external apps.
 
 ![[外部アプリ] セクションのスクリーンショット。](media/teams-tenant-wide-settings-external-apps-settings.png "[外部アプリ] セクションのスクリーンショット。オンまたはオフにすることができる設定")
 
 - **Microsoft Teams の外部アプリを許可する**: この設定がオンになると、ユーザーは自分の組織で利用できる外部アプリを追加することができます。 
 
-- **既定で新しい外部アプリを有効にする**: この設定がオンになると、ユーザーは Teams アプリ カタログに新しいアプリが追加されると、それらをすぐにアクティブ化することができます。 新しいアプリに対する制御を行う場合はこの設定をオフにします。 これをオフにする場合は、自分の組織で新しいアプリを利用する機会を失うことがないように、新しいアプリについて定期的に確認するようにする必要があります。 
+- **Enable new external apps by default**: When this setting is turned on, users can activate new apps as soon as they're added to the Teams app catalog. Turn off this setting if you want to control new apps. Of course, if you turn it off, you have to remember to review new apps periodically so your organization doesn't miss out on new apps. 
 
-- **外部アプリのサイドローディングを利用できるようになります**:一部の外部アプリをオンにして、その他のアプリをオフにする場合は、この設定をオフにしてから、外部アプリのリストでユーザーがアクセスしないようするアプリをオフにします。 この設定がオンになっているときは、アクセス権が付与されているチーム所有者およびメンバーは、アプリを Teams にサイドリーディングすることができます。 
+- **Allow sideloading of external apps**: If you want to turn on some external apps and turn off others , turn off this setting, and then in the list of external apps, turn off the apps that you don't want users to access. When this setting is turned on, team owners and members who are granted permission can sideload apps to Teams. 
 
 詳細については、「[Teams でのアプリの管理設定](admin-settings.md)」をご覧ください。 
 
 ## <a name="teams-org-wide-settings"></a>Teams の組織全体の設定
 
-Microsoft Teams および Skype for Business 管理センターで組織全体のユーザー設定を制御することができます。 組織全体の設定を編集するには、Microsoft Teams および Skype for Business 管理センターに移動して、[**Org-wide settings (組織全体の設定)**] を選択します。 次の設定を構成することができます。
+Microsoft Teams 管理センターで、組織全体のユーザー設定を制御することができます。組織全体の設定を編集するには、Microsoft Teams 管理センターに移動して、**[Org-wide settings (組織全体の設定)]** を選択します。次の設定を構成することができます。
 
 ### <a name="external-access"></a>外部アクセス
 
@@ -76,7 +76,7 @@ Microsoft Teams での**ゲスト アクセス**により、組織内のチー�
 
 **Teams の設定**で、電子メール統合、クラウド ストレージのオプション、Skype for Business の相互運用性、およびデバイスをセットアップすることができます。
 
-#### <a name="email-integration"></a>電子メール統合
+#### <a name="email-integration"></a>電子メールの統合
 
 この機能をオンにすると、ユーザーはチャネル電子メール アドレスを使用して、Teams のチャネルにメールを送信できるようなります。この操作は、ユーザーが所有するチームに属しているどのチャネルに対しても行えます。ユーザーのメールは、チーム メンバーに対してオンになっている追加のコネクタがあるチーム内の任意のチャネルにも送信できます。電子メール統合をオンにするには、[**Allow users to send emails to a channel email address (ユーザーがメールをチャネルの電子メール アドレスに送信できるようにする)**] が [**オン**] であることを確認します。 
 
@@ -116,11 +116,11 @@ Microsoft Teams の範囲指定ディレクトリ検索では、アドレス帳�
 
 #### <a name="app-preferences"></a>アプリの基本設定
 
-ユーザーが Skype for Business の会議に参加するために使用するアプリを選ぶことができます (Skype for Business または [Skype 会議アプリ](https://support.office.com/en-us/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5))。この設定は、共存モードの設定に依存しません。
+ユーザーが Skype for Business の会議に参加するために使用するアプリを選ぶことができます (Skype for Business または [Skype 会議アプリ](https://support.office.com/ja-JP/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5))。この設定は、共存モードの設定に依存しません。
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>利用可能な機能を知る方法を教えてください。
 
-新しい Teams の機能の詳細については、[Office 365 ロードマップ](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams)をご覧ください。新機能および今後導入される機能については、Teams の[新機能](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US)ページと、Teams に関する[技術コミュニティの Microsoft Teams ブログ](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531)をご覧ください。 
+新しい Teams の機能の詳細については、「[Microsoft 365 ロードマップ](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams)」を参照してください。新機能および今後導入される機能については、Teams の「[新機能](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US)」ページと、Teams に関する[技術コミュニティの Microsoft Teams ブログ](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531)を参照してください。 
 
 ## <a name="more-information"></a>詳細情報
 

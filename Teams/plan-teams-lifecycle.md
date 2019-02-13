@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56add7d27a367c5320243455d6891fa178526b4f
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 5d4c8d99dcc3e1c96e5fbfce942b9def6d0db952
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699742"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754777"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams でのライフサイクル管理の計画
 
@@ -35,32 +35,32 @@ Teams には、自分の組織でコラボレーション ライフサイクル�
 
 **Teams**
 
-_チーム_とは、人、コンテンツ、ツールを 1 つにまとめてコラボレーションを促進する集合体です。 チームによって、メンバーが誰であるか、およびそれらのメンバーに適用されるアクセス許可およびポリシーが定義されます。 Teams は、Office 365 グループを基にして構築されていて、Office 365 グループ メンバーシップに対する変更はチームに同期されます。 他の Office 365 グループと同様に、Teams にも Exchange メールボックス、SharePoint サイト、OneNote ノートブック、およびその他の Office 365 内の資産が自動的に用意されています。 [Office 365 グループの詳細についてはこちらをご覧ください](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
+A _team_ is a collection of people, content, and tools that facilitate collaboration. A team defines who its members are, and the permissions and policies that apply to those members. Teams are built on Office 365 Groups, and changes to Office 365 group membership sync to the team. Like other Office 365 Groups, Teams come auto-provisioned with an Exchange mailbox, a SharePoint site, a OneNote notebook, and other assets within Office 365. [Learn more about Office 365 Groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 **チャネル**
 
-チャネルは、チーム内のコラボレーションの空間として、実際の作業が行われる場所になります。 チャネルごとに、チーム全体の中にある異なるトピックやワークストリームを取り扱うことになります。 各チャネルに対して、そのチャネルで共有されるすべてのファイルを保存するためのフォルダーが SharePoint サイト上に自動的に作成され、ユーザーの関心が強いドキュメントの検索や作業を簡単に行うことができるようになります。 チャネルも、特定のワークストリームに関係するアプリによって機能を拡張することができます。たとえば、プロジェクトの 1 つの側面の成功を追跡するために、Power BI ダッシュボードをチャネルに追加することができます。
+Channels are the collaboration spaces within a team where the actual work is done. Each channel represents a different topic or workstream within the overall team. For each channel, a folder is automatically created on the SharePoint site to store all files shared to that channel, making it easy for users to find and work on the documents they care about. Channels can also be extended with apps that are relevant to the particular workstream—for example, you can add a Power BI dashboard to a channel to track the success of one aspect of your project.
 
 **チームのアクセス タイプ**
 
 アクセス タイプによって、チームに参加できるユーザーが決まります。
 
--   _プライベート_ チームは、チーム所有者によって承認されたチーム メンバーに制限されます。 これは大規模な組織内のプロジェクト チームおよび仮想チームでの標準的な設定です。
--   _パブリック_ チームは、組織内のあらゆるユーザーが直接参加することができる、オープンなチームです。 これは、異なる部署に所属し、別々のプロジェクトで働いているユーザーの一般的な関心があるトピックに対するコラボレーションに役立ちます。 これは、より小規模な組織向けの既定の設定です。
+-   _Private_ teams are restricted to team members approved by the team owner(s). This is a typical setting for project teams and virtual teams in a large organization.
+-   _Public_ teams are open for anyone in the organization to join directly. This is useful for collaboration on topics of general interest to people in different departments working on different projects. This is a good default setting for smaller organizations.
 
 **チームのユーザー タイプと管理者ロール** 
 
 チームのユーザー タイプによって、チームのメンバーが制御することができる範囲が決まります。
 
--   _チーム作成者_は、ディレクトリ内にグループまたはチームを作成するためのアクセス権を持っています。 管理者はこのユーザー タイプを管理者またはユーザーのサブセットに制限することができます。 詳細については、「[Office 365 グループを作成できるユーザーを管理する](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618)」をご覧ください。 
--   _チーム所有者_は、チームのメンバーシップと設定を管理します。 1 つのチームあたり 10 人ものチーム所有者を設定することができます。
+-   _Team creator_ has permissions to create a group or team in the directory. The admin can constrain this user type to a subset of admins or users. For more information, see [Manage who can create Office 365 Groups](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
+-   _Team owner_ manages membership and settings for the team. There can be as many as 10 team owners per team.
 -   _チーム メンバー_は、自分の組織内のメンバーで、チームに参加するユーザーです。
--   _ゲスト_は、組織外部のユーザーです。 自分の組織で[ゲスト アクセス](guest-access.md)が有効になっている場合に、メール アドレスがあるユーザーを誰でも招待することができます。
+-   _Guest_ is a user who’s external to your organization. Anyone with an email address can be invited as a guest if your organization has enabled [guest access](guest-access.md).
 
 > [!Note]
 > チーム所有者およびチーム メンバーが実行できる機能の詳細については、「[Microsoft Teams で役割と権限を割り当てる](assign-roles-permissions.md)」の記事をご覧ください。
 
-Teams の管理者ロールにより、各管理者ロールを持っているユーザーの機能が決まります。 これらについては、次の表で説明されています。
+Teams admin roles determine what capabilities each admin role holder has. These are described in the following table.
 
 <table>
  <thead>
@@ -85,20 +85,20 @@ Teams の管理者ロールにより、各管理者ロールを持っている�
 <tr>
 <td valign="top" colspan="2">Teams 通信スペシャリスト</td>
 <td valign="top">基本的なツールを使用した Teams 内での通信に関する問題のトラブルシューティング</td>
-<td valign="top">通話分析での通話をトラブルシューティングするためのユーザー プロファイル ページへのアクセス。 検索されている特定のユーザーのユーザー情報のみを表示可能。<sup>3</sup></td>
+<td valign="top">Access to the user profile page for troubleshooting calls in Call Analytics. Can only view user information for the specific user being searched for.<sup>3</sup></td>
 </tr>
 <tr>
 <td valign="top" colspan="2">Teams 通信サポート エンジニア</td>
 <td valign="top">高度なツールを使用した Teams 内での通信に関する問題のトラブルシューティング</td>
-<td valign="top">通話分析での通話をトラブルシューティングするためのユーザー プロファイル ページへのアクセス。 完全な通話記録の情報を表示可能。<sup>3</sup></td>
+<td valign="top">Access to the user profile page for troubleshooting calls in Call Analytics. Can view the full call record information.<sup>3</sup></td>
 </tr>
 <tr>
 </tbody>
 <tfoot>
 <tr><td align="right"><sup>1</sup></td><td colspan="3"><a href="https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell
-">PowerShell—Skype for Business モジュール</a>または <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams と Skype for Business の管理センター</a></td></tr>
-<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">PowerShell—Microsoft Teams モジュール</a>または <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams と Skype for Business の管理センター</a></td></tr>
-<tr><td align="right"><sup>3</sup></td><td colspan="3"><a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams と Skype for Business の管理センター</a>のみ</td>
+">PowerShell - Skype for Business モジュール</a>または <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 管理センター</a></td></tr>
+<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">PowerShell - Microsoft Teams モジュール</a>または <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 管理センター</a></td></tr>
+<tr><td align="right"><sup>3</sup></td><td colspan="3"><a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 管理センター</a>のみ</td>
 </tr>
 </tfoot>
 </table>
@@ -106,23 +106,23 @@ Teams の管理者ロールにより、各管理者ロールを持っている�
 
 ## <a name="it-decisions-to-make-before-getting-started"></a>使用開始する前に IT で実施する決定事項
 
-Teams を自分の組織にロール アウトするまえに、組織で必要であると判断したあらゆるガバナンス ポリシーを実施します。 これらのポリシーには、命名規則、有効期限ポリシー、保持ポリシーなどの項目が含まれる可能性があります。 一般的に、組織全体にわたる展開の規模を決める前にこれらの要件を実施することはより簡単に行うことができます。
+Before you roll Teams out to your organization, implement any governance policies that your organization has decided it requires. These can include items like naming conventions, expiration policies, retention policies, and more. Generally speaking, it’s much easier to implement these requirements prior to scaling your deployment across your organization.
 
 詳細については、「[Teams でのガバナンスの管理](plan-teams-governance.md)」をご覧ください。
 
 ## <a name="teams-lifecycle-stages"></a>Teams のライフサイクルの段階
 
-一般的に、チームにはプロジェクトに沿った目的、または目標を成し遂げるという目的があります。 チームが共通の関心事項に基づいて形成された場合でも、時間の経過とともにチームのメンバーシップが変容する可能性が高く、そこでの議論も、別のチームでもほとんど変わらない方法で形式的に行われるような、陳腐な内容になることが考えられます。
+Generally speaking, a team has a purpose that’s aligned with a project or accomplishing a goal. Even if a team was formed based on a shared interest, the team membership will probably change over time and the discussion might grow stale—only to surface again in a slightly different way in a different team.
 
 それぞれのチームには、チームが作成され、チャネルがセットアップされたという開始の段階と、チームが活用されてワークフローのリズムに合致するコラボレーションが発生するという中間の段階と、場合によっては、チームがその目的を達成して、その有用な寿命に到達した終了の段階があります。 
 
-詳細については、「[Microsoft Teams と Skype for Business の管理センターのチームを管理する](manage-teams-in-modern-portal.md)」をご覧ください。
+詳細については、「[Microsoft Teams 管理センターでチームを管理する](manage-teams-in-modern-portal.md)」を参照してください。
 
 ### <a name="stage-1-beginning"></a>段階 1: 開始
 
 #### <a name="create-the-team"></a>チームを作成する
 
-最初のステップは、チームの目標を定義することです。その目標の定義として考えられるのは、プロジェクトに対するビジネス プロセスから組織の構造にいたるまでのことや、オープンで構造化されていないコラボレーション ハブを作成することなどです。 チームの目標を定義することによって、同時に適正な人を識別することにもつながります。 実行可能である限り、広いメンバーシップを目指してオープンなコラボレーションを推進することは良いアイデアです。 
+The first step is to define the goal of the team (which can range from business processes to org structure to projects, or simply creating an open, unstructured collaboration hub). Defining the team goal goes hand in hand with identifying the right people. As far as practicable, it’s a good idea to foster open collaboration by aiming for broad membership. 
 
 チーム所有者は、チームメンバーを招待し、チームの写真と説明を設定し、各メンバーに対してアクセス許可を設定することができます。 
 
@@ -133,20 +133,22 @@ Teams を自分の組織にロール アウトするまえに、組織で必要�
 
 チームは次のさまざまな方法で生成することができます。
 
--   チームを最初から作成します。 個別のメール エイリアスまたはユーザー名を使用してメンバーを追加するか、配布リストを展開します。
--   既存のチームからチームを作成し、そのチャネルの構成およびアプリの構成をテンプレートとして使用します。 オプションとして、メンバーシップ リストを使用することもできます。
+-   Create the team from scratch. Add members by using individual email aliases or usernames, or expand a distribution list.
+-   Create the team from an existing team, and use its channel configuration and any app configuration as a template. You can optionally also use its membership list.
 -   既存の Office 365 グループに、チームを追加します。これにより、チームには Office 365 グループのメールボックスと SharePoint サイトへのアクセスも付与されます。
--   Microsoft Graph Teams API または PowerShell コマンドレットを使用してチームを作成します。 API は、グローバル アドレス帳の属性 (地域や部署など) やビジネス プロセス (クライアントのエンゲージメントや学級名簿など) に基づき、プログラムでチームを作成することができます。
+-   Use the Microsoft Graph Teams APIs or PowerShell cmdlets to create teams. The APIs can programmatically create teams based on Global Address Book attributes (such as region or department) or business processes (client engagements or classroom rosters, for example).
 
 次のリンクを使用して、チームの編成に関する詳細情報をご覧ください。
 
--   [Microsoft Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
--   [Microsoft Teams の展開の概要](deployment-overview.md)
+-   [Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
+-   [チャット、チーム、チャネルおよびアプリを展開する](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+-   [会議および通信会議を展開する](deploy-meetings-microsoft-teams-landing-page.md)
+-   [クラウド ボイスを展開する](cloud-voice-landing-page.md)
 
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>チームの目的は何ですか?</li><li>チームには誰が所属していますか?</li><li>チームはプライベートですか、パブリックですか?</li><li>新しいメンバーが自分自身を追加したり、チーム所有者がそれらの新しいメンバーを追加することはできますか?</li><li>チャネルの作成や、タブ、ボット、コネクタの追加を行うためのアクセス許可があるユーザーは誰ですか?</li></ul> |
+| ![](media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>チームの目的は何ですか?</li><li>チームには誰が所属していますか?</li><li>チームはプライベートですか、パブリックですか?</li><li>新しいメンバーが自分自身を追加したり、チーム所有者がそれらの新しいメンバーを追加することはできますか?</li><li>チャネルの作成や、タブ、ボット、コネクタの追加を行うためのアクセス許可があるユーザーは誰ですか?</li></ul> |
 | ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>チームを作成する。</li><li>チャネルのための計画をする。</li></ul>|
 
 
@@ -158,7 +160,7 @@ Teams を自分の組織にロール アウトするまえに、組織で必要�
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>チームに追加される初期チャネルは何ですか?</li><li>新規チャネルを追加するときに、ガイダンスがある場合、どのようなものが提供されますか? (プロジェクト別、トピック別などでセットアップされますか?)</li></ul> |
+| ![](media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>チームに追加される初期チャネルは何ですか?</li><li>新規チャネルを追加するときに、ガイダンスがある場合、どのようなものが提供されますか? (プロジェクト別、トピック別などでセットアップされますか?)</li></ul> |
 | ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>初期チャネルを作成する。</li><li>ようこそメッセージを投稿する。</li><li>コラボレーションを開始する。</li></ul>|
 
 ### <a name="stage-2-middle"></a>段階 2: 中間
@@ -183,8 +185,8 @@ Teams において、主要なグループの通信が始まり維持される�
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>問題を特定するために使用状況を監視する人は誰ですか?</li><li>チームが正常であるかどうかを判断するために使用される指標は何ですか?</li><li>有用な寿命に到達したチームを識別します。</li><li>目的に適っているが、活力を投入する必要がある、正常でないチームを特定します。</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>個別のチームの正常性を監視するためのプロセスを実施します。</li></ul>|
+| ![](media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>問題を特定するために使用状況を監視する人は誰ですか?</li><li>チームが正常であるかどうかを判断するために使用される指標は何ですか?</li><li>有用な寿命に到達したチームを識別します。</li><li>目的に適っているが、活力を投入する必要がある、正常でないチームを特定します。</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>個別のチームの正常性を監視するためのプロセスを実施します。</li></ul>|
 
 ### <a name="stage-3-end"></a>段階 3: 終了
 
@@ -198,6 +200,6 @@ Teams において、主要なグループの通信が始まり維持される�
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>チームの寿命の終わりがどのようなものであるかを定義します。</li><li>チームのコンテンツを利用可能な状態で維持するかどうか、およびその期間を決めます。</li></ul> |
+| ![](media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>チームの寿命の終わりがどのようなものであるかを定義します。</li><li>チームのコンテンツを利用可能な状態で維持するかどうか、およびその期間を決めます。</li></ul> |
 | ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>学習したベスト プラクティスとレッスンの内容を文書にまとめます。</li><li>必要に応じて、データをアーカイブ化します。</li></ul>|
 
