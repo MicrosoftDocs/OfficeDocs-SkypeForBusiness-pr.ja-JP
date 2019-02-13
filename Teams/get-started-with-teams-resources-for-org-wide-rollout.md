@@ -1,37 +1,33 @@
 ---
-title: Microsoft Teams の組織全体にわたるロールアウトを計画するためのリソースを取得する
-author: LanaChin
-ms.author: v-lanac
+title: Microsoft Teams を組織全体に展開するためのコースを選択する
+author: lolajacobsen
+ms.author: lolaj
 manager: serdars
 ms.date: 11/06/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
-description: マイクロソフトのチームの詳細な展開と adoptions リソースの検索に移動する場所を知っています。
-localization_priority: Normal
+description: Microsoft Teams の展開と導入の詳細なリソースを検索する場所について説明します。
+localization_priority: Priority
 search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd2055a6449e29c53a3f0609110710a213631600
-ms.sourcegitcommit: 4dd2598efbfd4789587b9d816b69017817e0203b
-ms.translationtype: MT
+ms.openlocfilehash: f7dc15de1502f7c9601cc7df80e518ef36db6d7f
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26622279"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594335"
 ---
-# <a name="get-resources-to-plan-your-organization-wide-rollout-of-microsoft-teams"></a><span data-ttu-id="63f0f-103">Microsoft Teams の組織全体にわたるロールアウトを計画するためのリソースを取得する</span><span class="sxs-lookup"><span data-stu-id="63f0f-103">Get resources to plan your organization-wide rollout of Microsoft Teams</span></span>
+# <a name="choose-a-path-to-your-organization-wide-rollout-of-microsoft-teams"></a><span data-ttu-id="b8b63-103">Microsoft Teams を組織全体に展開するためのコースを選択する</span><span class="sxs-lookup"><span data-stu-id="b8b63-103">Choose a path to your organization-wide rollout of Microsoft Teams</span></span>
 
-<span data-ttu-id="63f0f-104">正常に設定したら、最初のチーム、onboarded を最初のグループのユーザーの使用率を向上させながら、これでは採用を推進しているときに、組織の残りの部分にチームを展開する、今後の計画を確認します。</span><span class="sxs-lookup"><span data-stu-id="63f0f-104">Now that you've successfully set up your first teams, onboarded an initial group of users while driving usage, it's time to look at your go-forward plan to deploy Teams across the rest of your organization while driving adoption.</span></span>
+<span data-ttu-id="b8b63-104">これまでに、最初のチームを適切にセットアップし、使用を促進すると同時に初期のユーザー グループを参加させました。ここでは、導入を推進しながら組織の残りの部分に Teams を展開するための、今後の計画に注目します。</span><span class="sxs-lookup"><span data-stu-id="b8b63-104">Now that you've successfully set up your first teams, onboarded an initial group of users while driving usage, it's time to look at your go-forward plan to deploy Teams across the rest of your organization while driving adoption.</span></span> <span data-ttu-id="b8b63-105">最初のワークロード「[チャット、チーム、チャネルおよびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)」から始めます。</span><span class="sxs-lookup"><span data-stu-id="b8b63-105">Start with the first workload, [Chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md).</span></span>
 
-## <a name="deploy-teams"></a><span data-ttu-id="63f0f-105">チームを配置します。</span><span class="sxs-lookup"><span data-stu-id="63f0f-105">Deploy Teams</span></span>
-<span data-ttu-id="63f0f-106">[展開チーム](deployment-overview.md)のセクション、ドキュメントは、組織全体の展開に最適な意思決定にガイダンスを IT プロフェッショナルを提供します。</span><span class="sxs-lookup"><span data-stu-id="63f0f-106">The [Deploy Teams](deployment-overview.md) section of our documentation provides IT pros with the guidance to make the best decisions for an organization-wide rollout.</span></span>
+<span data-ttu-id="b8b63-106">Teams 展開のコースを選択するためのアドバイスは、「[Teams の展開方法](How-to-roll-out-teams.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="b8b63-106">For help picking your path to rolling out Teams, read [How to roll out Teams](How-to-roll-out-teams.md).</span></span>
 
-## <a name="adopt-teams"></a><span data-ttu-id="63f0f-107">チームを買い付けます。</span><span class="sxs-lookup"><span data-stu-id="63f0f-107">Adopt Teams</span></span>
-<span data-ttu-id="63f0f-108">[採用チーム](adopt-microsoft-teams-landing-page.md)ドキュメントのセクションで、手順を正常に組織内のチームを採用する方法を示します。</span><span class="sxs-lookup"><span data-stu-id="63f0f-108">The [Adopt Teams](adopt-microsoft-teams-landing-page.md) section of our documentation steps you through how to successfully adopt Teams in your organization.</span></span>
+## <a name="let-us-know-what-you-think"></a><span data-ttu-id="b8b63-107">ご意見をお聞かせください</span><span class="sxs-lookup"><span data-stu-id="b8b63-107">Let us know what you think</span></span>
 
-## <a name="let-us-know-what-you-think"></a><span data-ttu-id="63f0f-109">ご意見をお寄せ</span><span class="sxs-lookup"><span data-stu-id="63f0f-109">Let us know what you think</span></span>
+<span data-ttu-id="b8b63-108">メモ: この「**使用を開始する**」セクションについての感想を、<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4LAPvZJykZPhSy1f9kvlZdURFVYS0k5V0xNQ1UwQlE3VzlDWUZYQU42WS4u" target="_blank">このアンケート</a>に記入してください (所要時間は約 1 分)。</span><span class="sxs-lookup"><span data-stu-id="b8b63-108">:memo: Will you complete <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4LAPvZJykZPhSy1f9kvlZdURFVYS0k5V0xNQ1UwQlE3VzlDWUZYQU42WS4u" target="_blank">this survey</a> (takes about a minute) to tell us what you think of this **Get started** section?</span></span> <span data-ttu-id="b8b63-109">これは匿名です。</span><span class="sxs-lookup"><span data-stu-id="b8b63-109">It's anonymous.</span></span>
 
-<span data-ttu-id="63f0f-110">: メモ: この「**はじめ**に」のご意見をお聞かせするのには<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4LAPvZJykZPhSy1f9kvlZdURFVYS0k5V0xNQ1UwQlE3VzlDWUZYQU42WS4u" target="_blank">このアンケート</a>(約 1 分かかります) が完了するでしょうか。</span><span class="sxs-lookup"><span data-stu-id="63f0f-110">:memo: Will you complete <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4LAPvZJykZPhSy1f9kvlZdURFVYS0k5V0xNQ1UwQlE3VzlDWUZYQU42WS4u" target="_blank">this survey</a> (takes about a minute) to tell us what you think of this **Get started** section?</span></span> <span data-ttu-id="63f0f-111">匿名であります。</span><span class="sxs-lookup"><span data-stu-id="63f0f-111">It's anonymous.</span></span>
-
-<span data-ttu-id="63f0f-112">その資料の [**フィードバック**] セクションに移動して特定の記事にもフィードバックを指定できます。</span><span class="sxs-lookup"><span data-stu-id="63f0f-112">You can also give feedback for a specific article by going to the **Feedback** section of that article.</span></span> 
+<span data-ttu-id="b8b63-110">その記事の「**フィードバック**」セクションに移動すると、特定の記事に関するフィードバックを送ることもできます。</span><span class="sxs-lookup"><span data-stu-id="b8b63-110">You can also give feedback for a specific article by going to the **Feedback** section of that article.</span></span> 
