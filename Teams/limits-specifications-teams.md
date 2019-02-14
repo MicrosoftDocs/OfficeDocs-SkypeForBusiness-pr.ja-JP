@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77ee256352925ad92f0d74f7a9fb60704847709a
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 167c62c9f7fea440dea30b3946c95fc382a9757b
+ms.sourcegitcommit: 47b29c15ca3cf1676168608537613f3b841dbfcb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29770909"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "29992810"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 =============================================
@@ -31,7 +31,7 @@ ms.locfileid: "29770909"
 |機能    | 最大数の制限 |
 |-----------|---------------|
 |ユーザーが作成できるチームの数 | 250 オブジェクトの limit&sup1 です。         |
-|チームのメンバーの数 | 2,500       |
+|チームのメンバーの数 | 5,000       |
 |[組織全体にわたるチーム](create-an-org-wide-team.md)のメンバーの数 | 2,500       |
 |グローバル管理者が作成できるチームの数        |  500,000   |
 |チーム、Office 365 テナントの数を持つことができます。    | 500,000     |

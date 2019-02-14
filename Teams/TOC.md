@@ -581,6 +581,7 @@
 ## 追加情報
 ### [移行とビジネス用の Skype では、相互運用性](migration-interop-guidance-for-teams-with-skype.md)
 ### [Skype for Business と共存する](coexistence-chat-calls-presence.md)
+### [クライアント エクスペリエンスのチームとの共存モードへの準拠](teams-client-experience-and-conformance-to-coexistence-modes.md)
 <!-- ============================================================ -->
 #       
 #        

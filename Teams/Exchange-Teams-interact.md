@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e1140fd30baa027ded92494b7455aab5500a726
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 7c251255807e1c673c672db20a85b7f56c4a64d6
+ms.sourcegitcommit: 47b29c15ca3cf1676168608537613f3b841dbfcb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29770901"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "29992818"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携 
 =========================================
@@ -46,7 +46,7 @@ Exchange Online 専用 – レガシーまたは Exchange On-premises にホス�
 <sup>2</sup>電子的証拠開示およびチャネルのメッセージでのコンプライアンスのための法的保持義務は、ホストのすべてのオプションに対してサポートされます。  
 <sup>3</sup>チーム秘密のチャット メッセージは未サポートこのホスティング オプションは、法的保持義務を。
 
-<sup>4</sup>保存メールボックスを使用シャドウ オンライン ユーザーのメッセージを格納します。 [Exchange ハイブリッド環境でチームのユーザーの Microsoft のチームをサポートしています eDiscover](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009)。
+<sup>4</sup>保存メールボックスを使用シャドウ オンライン ユーザーのメッセージを格納します。 [Exchange ハイブリッド環境でチームのユーザーの Microsoft チームのサポートに電子的証拠開示](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009)します。
 
 <sup>5</sup>チームとオンプレミス Exchange メールボックスがボイスメールを使用して、チームとが、Outlook では、ボイス メール メッセージ、ボイスメールのメッセージが表示される場合がありますされますを表示または再生チーム クライアント内で使用できます。
 
