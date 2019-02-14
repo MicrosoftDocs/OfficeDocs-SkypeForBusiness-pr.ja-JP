@@ -65,11 +65,11 @@
 ### [他の組織内のチームのユーザーとの通信します。](let-your-teams-users-communicate-with-other-people.md)
 ### [インライン メッセージの変換を使用します。](inline-message-translation-teams.md)
 ### [Microsoft Teams の範囲指定ディレクトリ検索を使用する](teams-scoped-directory-search.md)
-### [Teams の分析とレポート](teams-analytics-and-reports/teams-reporting-reference.md)
+### [チームの分析とマイクロソフトのチーム管理センターのレポート作成](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Teams の使用状況レポート](teams-analytics-and-reports/teams-usage-report.md)
 #### [Teams ユーザー アクティビティ レポート](teams-analytics-and-reports/user-activity-report.md) 
 #### [Teams のデバイス使用状況レポート](teams-analytics-and-reports/device-usage-report.md)
-#### [チームの活動レポートを使用して](teams-activity-reports.md)
+### [Microsoft 365 の管理センターでチームの活動レポート](teams-activity-reports.md)
 
 
 ## 参照
@@ -129,34 +129,58 @@
 
 ## [音声会議](deploy-audio-conferencing-teams-landing-page.md)
 
-### [チームで電話会議のチュートリアル:](Tutorial-Audio-Conferencing.yml)
 ### [Office 365 での電話会議](audio-conferencing-in-office-365.md)
-### [Microsoft を電話会議プロバイダーとして割り当てる](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [電話会議に関するよくある質問](audio-conferencing-common-questions.md)
-### [分数ごとの従量課金制の電話会議 ](audio-conferencing-pay-per-minute.md)
-### [電話会議ブリッジの設定を変更する](change-the-settings-for-an-audio-conferencing-bridge.md)
-### [電話会議ブリッジの電話番号を変更する](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
-### [会議からダイヤルアウトして他のユーザーが参加できるようにする](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
-### [特定のユーザーのフリーダイヤル番号を無効にする](disabling-toll-free-numbers-for-specific-teams-users.md)
-### [ユーザーの設定が変更されるとユーザーに自動的に送信されるメール](emails-sent-to-users-when-their-settings-change-in-teams.md)
-### [電話会議の設定が変更されたときのメールの自動送信を有効または無効にする](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
-### [ユーザーが会議に参加するときに名前を記録できるようにする](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
-### [ユーザーの電話会議の設定を管理する](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
-### [組織のオーディオ会議設定を管理します。](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
-### [電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [ユーザーの会議 ID をリセットする](reset-a-conference-id-for-a-user-in-teams.md)
-### [ユーザーの電話会議の PIN をリセットする](reset-the-audio-conferencing-pin-in-teams.md)
-### [電話会議の電話番号のリストを表示する](see-a-list-of-audio-conferencing-numbers-in-teams.md)
-### [電話会議用に有効になっているユーザーのリストを表示する](see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md)
-### [表示し、ユーザーに割り当てられている会議 ID をリセットします。](see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md)
-### [ユーザーに電話会議情報が含まれたメールを送信する](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
-### [電話会議の自動案内の言語を設定する](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
-### [出席依頼に含まれている電話番号を設定する](set-the-phone-numbers-included-on-invites-in-teams.md)
-### [電話会議の PIN の長さを設定する](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)
-### [PIN を使用せずに電話で音声会議を開始する](start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md)
+### [チームで電話会議のチュートリアル:](Tutorial-Audio-Conferencing.yml)
 ### [Office 365 での電話会議を使用または購入する](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
-### [会議の入退室通知をオンまたはオフにする](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
 ### [音声会議の無料ダイヤル アウト期間](complimentary-dial-out-period.md)
+
+
+### [ビジネスおよびマイクロソフトのチームの Skype の電話会議を設定します。](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
+### [Microsoft を電話会議プロバイダーとして割り当てる](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
+### オーディオ会議ブリッジを管理します。
+#### [電話会議ブリッジの電話番号を変更する](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
+#### [電話会議ブリッジの設定を変更する](change-the-settings-for-an-audio-conferencing-bridge.md)
+#### [電話会議の電話番号のリストを表示する](see-a-list-of-audio-conferencing-numbers-in-teams.md)
+#### [電話会議の自動案内の言語を設定する](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
+
+### [組織のオーディオ会議設定を管理します。](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+#### [分数ごと従量課金制電話会議](audio-conferencing-pay-per-minute.md)
+
+
+### [ユーザーの電話会議の設定を管理します。](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
+
+#### [電話会議用に有効になっているユーザーのリストを表示する](see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md)
+
+#### [ユーザーが会議に参加するときに名前を記録できるようにする](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
+#### [ユーザーの会議 ID をリセットする](reset-a-conference-id-for-a-user-in-teams.md)
+#### [ユーザーの電話会議の PIN をリセットする](reset-the-audio-conferencing-pin-in-teams.md)
+#### [ユーザーの設定が変更されるとユーザーに自動的に送信されるメール](emails-sent-to-users-when-their-settings-change-in-teams.md)
+#### [電話会議の設定が変更されたときのメールの自動送信を有効または無効にする](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
+#### [特定のユーザーのフリーダイヤル番号を無効にする](disabling-toll-free-numbers-for-specific-teams-users.md)
+#### [電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [表示し、ユーザーに割り当てられている会議 ID をリセットします。](see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md)
+#### [ユーザーに電話会議情報が含まれたメールを送信する](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
+
+### オーディオ会議の会議の設定を管理します。
+
+#### [会議からダイヤルアウトして他のユーザーが参加できるようにする](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
+#### [会議の入退室通知をオンまたはオフにする](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+#### [電話会議の PIN の長さを設定する](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)
+#### [出席依頼に含まれている電話番号を設定する](set-the-phone-numbers-included-on-invites-in-teams.md)
+#### [PIN を使用せずに電話で音声会議を開始する](start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md)
+
+
+
+
+
+
+
+
+
+
 
 
 ## [クラウド ビデオの相互運用機能](cloud-video-interop.md)
