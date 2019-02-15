@@ -21,9 +21,9 @@
 ## [Microsoft Teams でチーム所有者とメンバーを割り当てる](assign-roles-permissions.md)
 ## [Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
 ## [チームで、組織全体にわたるチームを作成します。](create-an-org-wide-team.md)
-## [どのようなメッセージングがポリシーですか。](messaging-policies-in-teams.md)
+## [メッセージング ポリシーを管理します。](messaging-policies-in-teams.md)
 ## [Teams のテンプレートの使用を開始する](get-started-with-teams-templates.md)
-## [マイクロソフト チームの医療機関のテンプレートを使い始める](healthcare/healthcare-templates.md)
+## [Microsoft Teams の Healthcare テンプレートの使用を開始する](healthcare/healthcare-templates.md)
 ## [チームの動的なメンバーシップの概要](dynamic-memberships.md)
 ## [プレゼンス](presence-admins.md)
 ## [他の組織内のチームのユーザーとの通信します。](let-your-teams-users-communicate-with-other-people.md)
@@ -38,7 +38,7 @@
 ### [組み込みおよびカスタムのタブを使用します。](built-in-custom-tabs.md)
 ### [Office 365 およびカスタム コネクタを使用します。](Office-365-custom-connectors.md)
 ### [チーム テナント アプリケーション カタログにアプリケーションを発行します。](tenant-apps-catalog-teams.md)
-### [チームで動作する Skype の会議アプリケーションを構成します。](configure-skype-meetings-app-to-work-with-teams.md)
+### [Teams と連動するように Skype 会議アプリを構成する](configure-skype-meetings-app-to-work-with-teams.md)
 
 
 
@@ -61,7 +61,7 @@
 ### [新しい Microsoft Teams 管理センターへの移行中に Teams を管理する](manage-teams-skypeforbusiness-admin-center.md)
 ### [Microsoft Teams 管理センターで Teams を管理する](manage-teams-in-modern-portal.md)
 ### [チームの所有者およびチームのメンバーを割り当てる](assign-roles-permissions.md)
-### [チームで動作する Skype の会議アプリケーションを構成します。](configure-skype-meetings-app-to-work-with-teams.md)
+### [Teams と連動するように Skype 会議アプリを構成する](configure-skype-meetings-app-to-work-with-teams.md)
 ### [他の組織内のチームのユーザーとの通信します。](let-your-teams-users-communicate-with-other-people.md)
 ### [インライン メッセージの変換を使用します。](inline-message-translation-teams.md)
 ### [Microsoft Teams の範囲指定ディレクトリ検索を使用する](teams-scoped-directory-search.md)
@@ -117,6 +117,7 @@
 
 # [会議および通信会議](deploy-meetings-microsoft-teams-landing-page.md)
 ## [チュートリアル: Teams での会議](Tutorial-Meetings-in-Teams.yml)
+## [ミーティングのポリシーの管理](meeting-policies-in-teams.md)]
 ## [会議の設定を管理します。](meeting-settings-in-teams.md)
 ## [ユーザーの設定を変更したときに送信されるメール](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [ユーザーが会議に参加するときに名前を記録できるようにする](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
@@ -329,10 +330,10 @@
 ### [複数のテナントについてセッション ボーダー コントローラーを構成する](direct-routing-sbc-multiple-tenants.md)
 ### [ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト](direct-routing-border-controllers.md)
 ### 場所に基づくルーティング
-#### [場所ベースのルーティングの用語](location-based-routing-terminology.md)
-#### [直接ルーティングのための場所ベースのルーティングを計画します。](location-based-routing-plan.md)
-#### [場所ベースのルーティングのネットワーク設定を構成します。](location-based-routing-configure-network-settings.md)
-#### [直接ルーティングのための場所ベースのルーティングを有効にします。](location-based-routing-enable.md)
+#### [場所に基づくルーティングの用語集](location-based-routing-terminology.md)
+#### [ダイレクト ルーティングの場所に基づくルーティングを計画する](location-based-routing-plan.md)
+#### [場所に基づくルーティングのネットワーク設定を構成する](location-based-routing-configure-network-settings.md)
+#### [ダイレクト ルーティングの場所に基づくルーティングを有効にする](location-based-routing-enable.md)
 ### 直接ルーティングのためのテクニカル リファレンス
 #### [発信通話でのトランクのフェイルオーバー](direct-routing-trunk-failover-on-outbound-call.md)
 
@@ -529,7 +530,7 @@
 #### [組織のためにコミュニケーション クレジットをセットアップする](set-up-communications-credits-for-your-organization.md)
 #### [利用可能残高を追加してコミュニケーション クレジットを管理する](add-funds-and-manage-communications-credits.md)
 
-### [マイクロソフト チーム オンライン呼び出しのフロー](microsoft-teams-online-call-flows.md)
+### [Microsoft Teams オンライン通話のフロー](microsoft-teams-online-call-flows.md)
 
 ## 大規模な組織向けの実用的なガイド
 ### [チュートリアル: チームを呼び出す](Tutorial-calling-in-teams.yml)
@@ -658,9 +659,9 @@
 #### [レビュー ガイドの経験の質](quality-of-experience-review-guide.md)
 #### [チームでの QoS を設定します](QoS-in-Teams.md)
 #### [QoS を実装し、通話の品質を監視します。](monitor-call-quality-qos.md)
-#### [呼び出しを分析し、通話品質のダッシュ ボード](difference-between-call-analytics-and-call-quality-dashboard.md)
-#### [分析機能の呼び出しを設定します](set-up-call-analytics.md)
-#### [通話分析を使用して低い通話品質をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+#### [通話分析および通話品質ダッシュボード](difference-between-call-analytics-and-call-quality-dashboard.md)
+#### [通話分析をセットアップする](set-up-call-analytics.md)
+#### [通話分析を使用して低品質の通話をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 #### [通話品質ダッシュボードをオンにして使用する](turning-on-and-using-call-quality-dashboard.md)
 #### [通話品質ダッシュボードで利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [通話品質ダッシュボードでのストリーム分類](stream-classification-in-call-quality-dashboard.md)
@@ -674,7 +675,7 @@
 
 ## 先頭行の作業者のチーム
 ### [組織は、チームでのシフトのアプリケーションを管理します。](manage-the-shifts-app-for-your-organization-in-teams.md)
-### [小売チーム テンプレートを使い始める](get-started-with-retail-teams-templates.md)
+### [Retail Teams テンプレートの使用を開始する](get-started-with-retail-teams-templates.md)
 
 ## [Microsoft 365 政府の GCC を計画します。](plan-for-government-gcc.md)
 ### [Microsoft 365 政府の GCC の計画高](plan-for-government-gcc-high.md)
