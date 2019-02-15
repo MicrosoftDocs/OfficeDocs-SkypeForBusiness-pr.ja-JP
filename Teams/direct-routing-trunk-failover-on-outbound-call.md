@@ -1,5 +1,5 @@
 ---
-title: 発信呼び出しのトランクのフェイル オーバー
+title: 発信通話でのトランクのフェイルオーバー
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,14 +16,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: セッション ボーダー コント ローラー (SBC) にチームから発信呼び出しのトランクのフェイル オーバーを処理する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 620230ca3be07bb54386f54a983539716d07b2e9
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: bab62130c060b4bfadd633c86dd75caf98b07a46
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297810"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056596"
 ---
-# <a name="trunk-failover-on-outbound-calls"></a>発信呼び出しのトランクのフェイル オーバー
+# <a name="trunk-failover-on-outbound-calls"></a>発信通話でのトランクのフェイルオーバー
 
 -セッション ボーダー コント ローラー (SBC) へのチームからの発信コールのトランクのフェイル オーバーを回避する方法について説明します。
 
@@ -34,7 +34,7 @@ ms.locfileid: "27297810"
 
 ## <a name="failover-of-specific-sip-codes-received-from-the-session-border-controller-sbc"></a>セッション ボーダー コント ローラー (SBC) からの受信 SIP コードの特定のフェイル オーバー
 
-送信招待への応答での 4 xx または 6 xx SIP のエラー コードを受け取ると直接ルーティングでは、呼び出し既定で完了したと見なされます。 チーム クライアントからの呼び出しに、パブリック交換電話網 (PSTN) 次のトラフィック フローには、出力方向の: チームのクライアントは、直接ルーティング-> SBC] メニューのメニューの [テレフォニー ネットワークです。
+送信招待への応答での 4 xx または 6 xx SIP のエラー コードを受け取ると直接ルーティングでは、呼び出し既定で完了したと見なされます。 チーム クライアントからの呼び出しに、パブリック交換電話網 (PSTN) 次のトラフィック フローには、出力方向の: チームのクライアントの直接ルーティング _gt-_gt SBC-_gt テレフォニー ネットワーク。
 
 SIP のコードの一覧については、[セッション開始プロトコル (SIP) の RFC](https://tools.ietf.org/html/rfc3261)を参照しています。
 
@@ -48,11 +48,11 @@ SBC がコードを使用して受信した招待に返信した場合を想定�
 ![PSTN ネットワーク上の問題のために到達できない SBC を示しています。](media/direct-routing-failover-response-codes1.png)
 
 ですが、1 つ以上の SBC で可能性のある呼び出しを提供するルート。
-セット CSOnlinePSTNGateway のパラメーターを設定する場合-の Id sbc1.contoso.com - ReinviteResponceCode「408」、2 つ目の SBC となる試行--次の図の SBC2.contoso.com:
+パラメーターを構成する場合`Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"`、2 つ目の SBC が行われます--次の図に SBC2.contoso.com。
 
 ![2 つ目の SBC へのルーティングを示しています](media/direct-routing-failover-response-codes2.png)
 
--FailoverResponceCodes コードでは、問題を指定する、ルーティングのチューニングし、を避けるために、パラメーターを設定することが潜在的な場合、SBC は、ネットワークまたはその他の問題のための呼び出しをすることはできません。
+-FailoverResponseCodes コードでは、問題を指定する、ルーティングのチューニングし、を避けるために、パラメーターを設定することが潜在的な場合、SBC は、ネットワークまたはその他の問題のための呼び出しをすることはできません。
 
 既定値: 408, 503, 504
 

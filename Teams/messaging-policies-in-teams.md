@@ -1,5 +1,5 @@
 ---
-title: Teams でのメッセージング ポリシーについて
+title: メッセージング ポリシーを管理します。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,21 +16,20 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: メッセージング ポリシーとそれらを使用してメッセージング チームのチャットを制御する方法について説明します。
-ms.openlocfilehash: d4d2a4f424de1750c70ea851d1d1d35a2aaf9e44
-ms.sourcegitcommit: dfd075d092db9826c792cf947c83c33cfcd8ef4e
+ms.openlocfilehash: 3b360be09f8e35d560b13b40ef25a72a060e6033
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29763717"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056588"
 ---
 # <a name="what-are-messaging-policies-in-teams"></a>Teams でのメッセージング ポリシーについて
-::: zone target="docs"
+
 メッセージング ポリシーは、マイクロソフトのチームのユーザーに利用するチャットとチャネルのメッセージング機能を制御するために使用されます。 作成されるか、組織内の 1 つまたは複数のカスタム メッセージング ポリシーを作成する既定のポリシーを使用することができます。 ポリシーを作成したら、割り当てる、ユーザーまたはユーザー グループ、組織内。
 
 チーム管理センターのポリシーを簡単に管理することができます (http://admin.teams.microsoft.com)管理者の資格情報でログインし、左側のナビゲーションで**メッセージング ポリシー** ] をクリックします。 組織の既存の既定のポリシーを編集するには、**グローバル (組織全体の既定値)** 行を選択し、[**編集**] をクリックします。 新しいメッセージング ポリシーを作成するには、**新しいポリシー**をクリックします。
 
 ![チームでのメッセージングのポリシー](media/messaging-policies.png)
-::: zone-end
 
 使用可能なポリシーの設定を以下に示します。 
 
@@ -51,9 +50,7 @@ ms.locfileid: "29763717"
 - **許可する URL のプレビュー**自動 URL でのプレビュー オン/オフ メッセージを有効にするのにには、この設定を使用します。
 - **ユーザーがメッセージを変換できるようにします。** 自動的にチームのメッセージを Office 365 の場合は、その個人の言語設定で指定された言語に翻訳できるようにするのにはこの設定を有効にします。
 
-::: zone target="docs"
 カスタム メッセージング ポリシーを作成した場合にのみアクティブになるユーザーのポリシーがユーザーに割り当てられている場合。  チームの管理センターのユーザーにカスタム ポリシーを割り当てるには左側のナビゲーションで**ユーザー**をクリックして、ポリシーを割り当てるユーザーを選択して、[**割り当てポリシー**の**編集**を選択し。
-::: zone-end
 
 ### <a name="related-topics"></a>関連トピック
 [Teams での会議ポリシー](meeting-policies-in-teams.md)

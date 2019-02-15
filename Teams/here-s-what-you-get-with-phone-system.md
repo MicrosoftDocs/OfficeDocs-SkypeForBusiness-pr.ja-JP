@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '機能、可用性、およびお客様のビジネス電話システム (PBX をクラウド) の計画およびセットアップする方法です。 '
-ms.openlocfilehash: 864e687634426fd8fce0d489ef81cc85bbacf5e0
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 9898bcea949c5150667ae502edfa6b1fccd64764
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048206"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056620"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365 での電話システムで利用できる機能
 
@@ -74,12 +74,14 @@ PBX は、会社内の電話システムです。 Office 365 のアドオンの�
 
 お客様のビジネス ニーズに最も適した方法で、電話システムを設定します。
   
-- 会社の既存の電話回線と電話システムのアドオンを使用する、または[Office 365 のプランを呼び出すことは何ですか?](what-are-calling-plans-in-office-365.md)着信および発信通話のサービス。
+- 電話システムのアドオンを使用するには、会社の既存の電話回線、または着信および発信通話[プランを呼び出すことで、電話システム](calling-plan-landing-page.md)サービスです。
     
 - 、Office 365 から新しい電話番号を取得するか、ビジネス用の Skype を既存の電話番号を転送します。 
     
 計画およびお客様のビジネス電話システムを設定するこれらの記事を参照してください。
-  
+
+- [通話プランが設定された電話システム](calling-plan-landing-page.md)
+
 - [プランの呼び出しを設定します](set-up-calling-plans.md): この資料には、電話番号の設定を取得するか、Skype ビジネスのために、既存の電話番号を転送する手順です。
     
 - [Office 365 (クラウド PBX) ソリューションの電話システムの計画](https://go.microsoft.com/fwlink/?LinkId=708645): この資料は、展開オプションのすべてをレイアウトします。 完全にクラウド専用のソリューションの計画についての情報もあります。 
@@ -89,7 +91,8 @@ PBX は、会社内の電話システムです。 Office 365 のアドオンの�
 - [電話システム ボイスメールのセットアップ - 管理者ヘルプ](set-up-phone-system-voicemail.md)
     
 - [ビジネス用の Skype の検出](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba): ヘルプあなたの会社の人が Skype のビジネス機能の使用方法を学習します。 
-    
+
+
 ## <a name="availability"></a>可用性
 <a name="bkmk_setup"> </a>
 
