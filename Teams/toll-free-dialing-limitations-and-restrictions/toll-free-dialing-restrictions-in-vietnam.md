@@ -1,7 +1,7 @@
 ---
 title: ベトナムでのフリー ダイヤルの制限
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: 171ba2476bc17fcd06f0bc4cc62766c4a2d0d243
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7b1dc043b537b2ab8b4c50e57d640ed7ecf03b0e
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371211"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046433"
 ---
 # <a name="toll-free-dialing-restrictions-in-vietnam"></a>ベトナムでのフリー ダイヤルの制限
 
@@ -44,7 +44,7 @@ ms.locfileid: "25371211"
 | 対象となる島/地域  <br/>                  | 該当しない  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
 | 対象外の島/地域  <br/>              | 該当しない  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
 | 有線/固定回線の状態  <br/>             | 部分的。コメント参照。  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
-| 携帯電話ネットワークの状態  <br/>               | 部分的。コメント参照。  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
+| 携帯電話ネットワークの状態  <br/>               | 部分的。 コメント参照。  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
 | コメント、制限、アクセスの問題など  <br/> | 120 XX XXX 番号形式は Vietnam Telecom International (VTI) と VNPT (Vietnam Post and Telecommunications) の固定ネットワークと携帯電話ネットワークから使用可能。 <br/>   <br/>**注:** Mobifone &amp; Vinaphone は、VNPT の一部です。 The number format 122 XXX XX network coverage: Viettel (fixed and mobile). As per the Vietnam Ministry of Telecommunications, the maximum allowable call duration is 2 hours. |
    
 ## <a name="related-topics"></a>関連トピック

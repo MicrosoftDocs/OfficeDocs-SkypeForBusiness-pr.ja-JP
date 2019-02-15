@@ -1,7 +1,7 @@
 ---
 title: ボスニア ・ ヘルツェゴビナでフリー ダイヤルのダイヤルの制限
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: e1a0f328f893ed2e361732c434db5b43ebf43473
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 1ede843eb8cd5b9c854023556a4b3a300e30b2fd
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015406"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046481"
 ---
 # <a name="toll-free-dialing-restrictions-in-bosnia-and-herzegovina"></a>ボスニア ・ ヘルツェゴビナでフリー ダイヤルのダイヤルの制限
 
@@ -44,7 +44,7 @@ ms.locfileid: "25015406"
 |対象となる島/地域  <br/> |該当しない  <br/> |
 |対象外の島/地域  <br/> |該当しない  <br/> |
 |有線/固定回線の状態  <br/> |部分的。コメント参照。  <br/> |
-|携帯電話ネットワークの状態  <br/> |部分的。コメント参照。  <br/> |
+|携帯電話ネットワークの状態  <br/> |部分的。 コメント参照。  <br/> |
 |コメント、制限、アクセスの問題など  <br/> |HT Eronet/Mostar、Telekom Srpske/MTEL、BHT 固定回線および携帯電話ネットワークからアクセス可能。  <br/> |
    
 ## <a name="related-topics"></a>関連トピック
