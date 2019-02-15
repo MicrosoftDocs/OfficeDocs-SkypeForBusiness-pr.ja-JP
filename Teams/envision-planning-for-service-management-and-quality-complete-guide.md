@@ -13,18 +13,18 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29b17157178f8e7565fd6f484d6d95262c76ce05
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: e30eed7432a628bbd4951867e77883143f9290eb
+ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015582"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "29964459"
 ---
 # <a name="plan-for-service-management-and-quality"></a>サービス管理と品質の計画
 
 このドキュメントは、Microsoft Teams の構想フェーズに関する情報を提供します。
  
-## <a name="introduction"></a>はじめに
+## <a name="introduction"></a>概要
 
 この内容は、高品質な Microsoft Teams の展開の実現と保守管理のために必須となる要件の概要を提供するものです。 最初のパイロットまたは本稼働展開の前に、構想フェーズの間にサービス管理と品質について計画することにより、確実に正常な展開を実行できるようにすることができます。
 
@@ -204,7 +204,7 @@ QoS の実装は、エンドポイントからエグレス ポイントに至る
 
 一部のプロキシ サーバーのベンダーは、確実に構成が最新の状態になるように、自動化されたプロセスを提供します。 ご利用のベンダーがこの自動化プロセスを提供しない場合は、更新された PAC ファイルを <https://aka.ms/o365proxies> からダウンロードすることができます。
 
-[Skype for Business Online および Teams 向けのプロキシ サーバー](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)
+[Teams または Skype for Business Online 向けのプロキシ サーバー](proxy-servers-for-skype-for-business-online.md)
 
 #### <a name="firewalls"></a>ファイアウォール
 
@@ -216,7 +216,7 @@ TCP のみがファイアウォール上で開かれている場合、セッシ�
 
 Microsoft Teams 用のファイアウォールを開くことについての完全なガイダンスは、「[Office 365 URL および IP アドレス範囲](https://aka.ms/o365ips)」の記事で提供されています。
 
-ファイアウォールが開かれたら、[Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) を使用して、クラウド音声の機能のための接続を検証することができます。
+ファイアウォールが開かれたら、 [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885)  を使用して、クラウド音声の機能のための接続を検証することができます。
 
 > [!IMPORTANT]
 > Microsoft Office 365 の IP および URL は時の経過とともに変わります。 サービス管理の計画の一部として、運用プロセスが確立していることと、[Office 365 のURL と IP アドレス範囲](https://aka.ms/o365ips)を監視して必要に応じて更新を行う責任がグループにあることを確認することが重要です。
@@ -332,7 +332,7 @@ Microsoft Teams の主なメリットの 1 つに、クライアントが自動�
 
 この表には、関連コンテンツへのリンクが付いた、計画アクティビティの概要が含まれています。
 
-| 領域 | 詳細 | 参照先 |
+| 分野 | 詳細 | 参照設定 |
 |-----------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | サービス管理の計画 | 運用の役割マッピングの実施 <br/> 責任のあるチームからのサインオフ <br/> 役割の準備 | [運用ガイド](1-drive-value-operate-my-service.md) |
 | | 品質チャンピオンの指名 <br/> 品質チャンピオンの準備| [CQD についての学習](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [品質エクスペリエンスのレビュー ガイド](https://aka.ms/qerguide) |
@@ -343,7 +343,7 @@ Microsoft Teams の主なメリットの 1 つに、クライアントが自動�
 | | スプリット トンネル VPN の実装 | [VPN スプリット トンネルのガイダンス ](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
 | | リアルタイム メディアのための Wi-Fi ネットワークの最適化  | サード パーティ ベンダーに相談 |
 | | ローカルのインターネット エグレスの実施 | [ローカルのインターネット エグレス](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |
-| | ネットワーク接続の実施 <br/> ネットワーク接続の確認 | [Office 365 の URL と IP アドレス](https://aka.ms/o365ips) |
+| | ネットワーク接続の実施 <br/> ネットワーク接続を検証する | [Office 365 の URL と IP アドレス](https://aka.ms/o365ips) |
 | | | [ネットワーク評価ツール](https://www.microsoft.com/download/details.aspx?id=53885) |
 | | ネットワーク評価の実行 | [ネットワークの準備状況の評価](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
 | エンドポイント品質の計画 | エンドポイントのファイアウォールの更新 | [Office 365 の URL と IP アドレス](https://aka.ms/o365ips) |

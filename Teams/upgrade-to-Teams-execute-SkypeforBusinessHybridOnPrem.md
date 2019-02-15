@@ -1,5 +1,5 @@
 ---
-title: 'Skype のビジネス ・ ハイブリッドまたは設置型の展開: マイクロソフトのチームからのチームへのアップグレードします。'
+title: Skype for Business のハイブリッド環境またはオンプレミス環境から Teams にアップグレードする - Microsoft Teams
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
@@ -7,7 +7,7 @@ ms.date: 01/09/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: ビジネスのハイブリッドまたは設置型の展開に、Skype からチームへのアップグレードに関する考慮事項
+description: Skype for Business のハイブリッド環境またはオンプレミス環境から Teams にアップグレードする際の考慮事項。
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -16,51 +16,51 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 016165ea54b3a87d4a26f5670964794364e78985
 ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 01/10/2019
 ms.locfileid: "27791722"
 ---
-![展開に重点を置いて、アップグレードの旅の段階や実装段階](media/upgrade-banner-deployment.png "展開に重点を置いて、アップグレードの旅の段階や実装段階")
+![展開と実装の段階に重点を置いた、アップグレード手順の各段階](media/upgrade-banner-deployment.png "展開と実装の段階に重点を置いた、アップグレード手順の各段階")
 
-この資料は、アップグレード、旅の導入と展開の段階の一部です。 進む前に、次のアクティビティを完了したしたことを確認します。
+この記事は、お客様のアップグレード手順における展開と実装の段階の一部を取り上げています。 先に進む前に、次のアクティビティを完了していることを確認してください。
 
--   [プロジェクトの利害関係者が参加しています。](upgrade-enlist-stakeholders.md)
--   [プロジェクト スコープの定義](https://aka.ms/SkypetoTeams-Scope)
--   [ビジネスとチームの共存と Skype の相互運用性を理解します。](https://aka.ms/SkypeToTeams-Coexist)
--   [アップグレード、旅を選択](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
--   [環境を準備](https://aka.ms/SkypeToTeams-TechnicalReadiness)
--   [組織の準備](https://aka.ms/SkypeToTeams-UserReadiness)
--   [パイロットを実施しました。](https://aka.ms/SkypeToTeams-Pilot)
+-   [プロジェクトの関係者をリスト化した](upgrade-enlist-stakeholders.md)
+-   [プロジェクトの対象範囲を定義した](https://aka.ms/SkypetoTeams-Scope)
+-   [Skype for Business と Teams の共存と相互運用を理解した](https://aka.ms/SkypeToTeams-Coexist)
+-   [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+-   [環境を準備した](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+-   [組織を準備した](https://aka.ms/SkypeToTeams-UserReadiness)
+-   [パイロットを実施した](https://aka.ms/SkypeToTeams-Pilot)
 
-# <a name="upgrade-to-teams-from-a-skype-for-business-hybrid-or-on-premises-deployment"></a>ビジネスのハイブリッドまたは設置型の展開に、Skype からのチームへのアップグレードします。
+# <a name="upgrade-to-teams-from-a-skype-for-business-hybrid-or-on-premises-deployment"></a>Skype for Business のハイブリッド環境またはオンプレミス環境から Teams にアップグレードする
 
-Skype のビジネスを展開している Microsoft Lync の設置型や組織がアップグレードのチームにするか、選択的にする場合この資料の指示に従います: 複数の共存モードを使用して- またはオールインワン。 最初の手順は、Office 365 のテナントとのハイブリッド接続の設定し Skype をオンライン ビジネスのユーザーを移動し、適切な共存を割り当てるし、モードのアップグレードには。 
+オンプレミス環境の Skype for Business または Microsoft Lync を展開していて、組織が選択的 (複数の共存モードを使用) または全体的に Teams にアップグレードする場合は、この記事のガイダンスに従ってください。 最初の手順では、Office 365 テナントとのハイブリッド接続を設定して、ユーザーを Skype for Business Online に移動し、適切な共存およびアップグレード モードをユーザーに割り当てます。 
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
-## <a name="step-1-deploy-hybrid-connectivity"></a>手順 1: ハイブリッド接続を展開します。 
+## <a name="step-1-deploy-hybrid-connectivity"></a>手順 1: ハイブリッド接続の展開 
 
-チームにユーザーをアップグレードするためのキーの必要条件では、ハイブリッドの接続を展開します。 既存の Skype ビジネスまたは Lync の展開用の新しい外部接続を展開するか、Office 365 テナントにハイブリッドの関係を構成するだけ、この関数が含まれます。 
+ユーザーを Teams にアップグレードする際の重要な前提条件は、ハイブリッド接続を展開することです。 このために、既存の Skype for Business または Lync の展開環境に新しい外部接続を展開するか、単に Office 365 テナントとのハイブリッド リレーションシップを構成する必要があります。 
 
-詳細については、 [サーバーのビジネスとオンライン ビジネスの Skype の Skype 間のハイブリッド接続の展開](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)を参照してください。
+詳細については、「 [Skype for Business Server と Skype for Business Online 間でハイブリッド接続を展開する](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)」を参照してください。
 
-## <a name="step-2-move-users-to-skype-for-business-online"></a>手順 2: Skype をオンライン ビジネスのユーザーを移動します。 
+## <a name="step-2-move-users-to-skype-for-business-online"></a>手順 2: Skype for Business Online にユーザーを移動する 
 
-ハイブリッドの設定が完了したら後、は、オンライン ビジネスの Skype にユーザーを移動します。 
+ハイブリッドの設定が完了したら、Skype for Business Online にユーザーを移動します。 
 
-詳細については、 [ビジネス オンラインの Skype を施設内でのユーザーの移動](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)を参照してください。 
+詳細については、「 [ユーザーをオンプレミスから Skype for Business Online に移動する](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)」を参照してください。 
 
-## <a name="step-3-assign-a-coexistence-and-upgrade-mode"></a>手順 3: は、共存を割り当てるし、モードのアップグレード
+## <a name="step-3-assign-a-coexistence-and-upgrade-mode"></a>手順 3: 共存およびアップグレード モードを割り当てる
 
-Skype をオンライン ビジネスのユーザーに移動した、割り当てることができます、組織が選択したアップグレードの旅に基づく適切な共存モードです。 詳細についてを参照してください[、共存を設定および設定をアップグレード](https://aka.ms/SkypeToTeams-SetCoexistence)し、 [TeamsUpgradePolicy: 移行と共存を管理する](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)。
+Skype for Business Online にユーザーを移動したら、組織が選択したアップグレードの手順に応じて、ユーザーに適切な共存モードを割り当てます。 詳細については、「[共存およびアップグレードを設定する](https://aka.ms/SkypeToTeams-SetCoexistence)」および「[TeamsUpgradePolicy: 移行と共存の管理](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)」を参照してください。
 
 > [!NOTE]
-> ビジネス サーバー 2019 およびビジネス サーバー 2015 の Skype の今後の累積的な更新プログラムの Skype でことができます (ユーザーの Skype をオンライン ビジネスの移動)、ステップ 2 とステップ 3 (チームへのアップグレードのユーザー) を 1 ステップで実行します。 詳細については、ビジネス サーバー 2019 の Skype のリリース後に提供されます。
+> Business Server 2019 および Skype for Business Server 2015 の将来の累積的な更新プログラムでは、手順 2 (Skype for Business Online にユーザーを移動する) と手順 3 (ユーザーを Teams にアップグレードする) を 1 つの手順で実行できます。 詳細については、Skype for Business Server 2019 のリリース後に発表されます。
 
-## <a name="phone-system-and-teams-upgrade"></a>電話システムとチームのアップグレード
+## <a name="phone-system-and-teams-upgrade"></a>電話システムと Teams のアップグレード
 
-ビジネスのハイブリッド展開計画を呼び出すと、電話システムには、Skype に移行しているし、Microsoft は、公衆交換電話網 (PSTN) プロバイダーになる場合、電話番号の移植が完了したことを前提として、-にユーザーをアップグレードします。チームは、チームを呼び出す受信の PSTN と自動的に遷移させます。
+Skype for Business のハイブリッド展開を通話プラン付きの電話システムに移行して、Microsoft が公衆交換電話網 (PSTN) プロバイダーになる場合、電話番号持ち運びの手続きを完了していれば、ユーザーを Teams にアップグレードすることで、着信 PSTN 通話は自動的に Teams に移行されます。
 
-計画を呼び出すことがない場合は、マイクロソフト電話システム直接ルーティングするのには、エンタープライズ ボイスの展開に移行する必要があります。 チームにユーザーをアップグレードするには、[電話システムの直接のルーティングのための追加の考慮事項](2-envision-make-my-service-decisions-direct-routing.md)を参照してください。
+通話プランが利用できない場合は、エンタープライズ ボイスを Microsoft 電話システム ダイレクト ルーティングに移行する必要があります。 ユーザーを Teams にアップグレードする場合は、[電話システム ダイレクト ルーティングに関する考慮事項](2-envision-make-my-service-decisions-direct-routing.md)を参照してください。
