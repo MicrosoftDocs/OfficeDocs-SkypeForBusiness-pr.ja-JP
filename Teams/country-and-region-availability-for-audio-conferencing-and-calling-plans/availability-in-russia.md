@@ -1,7 +1,7 @@
 ---
 title: ロシアの可用性
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ロシアの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: 09a2d892cd90a8099f1ccd9f0a2f522dd17e9ea5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: c287c419e99f7649a6b9f2b006adb94cf7f14eca
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014276"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046775"
 ---
 # <a name="availability-in-russia"></a>ロシアの可用性
 
@@ -43,7 +43,7 @@ ms.locfileid: "25014276"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |はい  <br/> |
+|電話会議は購入できますか?  <br/> |あり  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |はいの場合。 <br/><ul><li> モスクワ</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用可能  <br/> |
    
@@ -51,7 +51,7 @@ ms.locfileid: "25014276"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話システムは購入できますか?  <br/> |はい  <br/> |
+|電話システムは購入できますか?  <br/> |あり  <br/> |
 | 自動応答 <br/> |利用可能  <br/> |
 |通話キュー  <br/> |利用可能  <br/> |
 |ボイスメール  <br/> |利用可能  <br/> |

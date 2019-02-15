@@ -1,7 +1,7 @@
 ---
 title: フランスのフリー ダイヤルのダイヤルの制限
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: 13a5856e1b9efcf5aec6d4ec7d44c645add0b7a7
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 95ef627f59f07d66346bd8efcf3632a499f0edb8
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012922"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048771"
 ---
 # <a name="toll-free-dialing-restrictions-in-france"></a>フランスのフリー ダイヤルのダイヤルの制限
 
@@ -42,7 +42,7 @@ ms.locfileid: "25012922"
 |ダイヤル形式  <br/> |0 800 9XX XXX  <br/> |
 |国/地域の ISO コード  <br/> |FR  <br/> |
 |対象となる島/地域  <br/> | France 本土とコルシカ <br/> |
-|対象外の島/地域  <br/> |モナコ、レユニオン、マルチニーク島、グアドループ、ガイアナ、サンピエールとミクロン島、マヨット島、ニューカレドニア、フランス領ポリネシア、ワリー・エ・フトゥーナ諸島からはアクセス不可。  <br/> |
+|対象外の島/地域  <br/> |No access from Monaco, Reunion, Martinique, Guadeloupe, Guyane, St. Pierre-&amp;-Miquelon, Mayotte, New Caledonia, French Polynesia, Wallis &amp; Futuna.  <br/> |
 |有線/固定回線の状態  <br/> |あり  <br/> |
 |携帯電話ネットワークの状態  <br/> |あり  <br/> |
 |コメント、制限、アクセスの問題など  <br/> |携帯電話アクセス: 通話時間が課金される。  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: 組織内の電話システムの設定
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: makolomi
 ms.topic: article
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '組織の電話システム (PBX をクラウド) を設定する方法について説明します。 '
-ms.openlocfilehash: aae5a8e5fc8a0cd2cb20a2e3964c14a89039ce1e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 0ae2d890e87ecef217bfdafd2c547de7ae35414d
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374451"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047563"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>組織内の電話システムの設定
 
@@ -61,9 +61,9 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
  
 ![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
 
-1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
+1. You can go to Dial-in conferencingDial-in users and select the user's properties to change the default number for a user by choosing a new number from the list of numbers that are available in your organization.
 
-2. ** [Office 365 管理センター] ** > ** [Skype for Business]** に移動します。
+2. Go to the **Office 365 admin center** > **Skype for Business**.
     
 3. 左側のナビゲーションでは、**音声**に移動 > **電話番号**、**新しい番号を追加**をクリックして![[追加] ボタン](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)、し、**新しいユーザーの番号**をクリックします。
     
@@ -88,9 +88,9 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 ![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
 
 
-1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
+1. You can go to Dial-in conferencingDial-in users and select the user's properties to change the default number for a user by choosing a new number from the list of numbers that are available in your organization.
 
-2. ** [Office 365 管理センター] ** > ** [Skype for Business]** に移動します。
+2. Go to the **Office 365 admin center** > **Skype for Business**.
 
 3. 左側のナビゲーションでは、**音声**に移動 > **電話番号** > **新しい番号を追加**し、**新しいサービスの番号**をクリックします。
 

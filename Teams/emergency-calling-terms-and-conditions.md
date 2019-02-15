@@ -1,7 +1,7 @@
 ---
 title: 緊急通話の利用条件
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '従来の電話サービスと緊急サービス (911) どのようにして呼び出しを実行する方法について説明します。 '
-ms.openlocfilehash: 41b94d1010ffb5ea8721c24f6ec9680ad945b3b3
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 95288e2d6d4d78583d93e1dbccca3b703704df21
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014372"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048675"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>緊急通話の利用条件
 

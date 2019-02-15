@@ -1,7 +1,7 @@
 ---
 title: ボイスメールの応答メッセージとメッセージで使用する言語
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: wasseemh
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Skype for Business の既定のシステム メッセージにどの言語を設定できるかを理解します。 '
-ms.openlocfilehash: 77500d8a84dada5f2a5005c214fded7eddb3186e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 601a23efe09a486afdcd88ad2f45ec9b9b666fd7
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013274"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047715"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>ボイスメールの応答メッセージとメッセージで使用する言語
 
@@ -66,7 +66,7 @@ Skype for Business がシステムの応答メッセージで使用する言語�
 |スペイン語  <br/> |スペイン  <br/> |es-ES  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
 |スペイン語  <br/> |メキシコ  <br/> |es-MX  <br/> |はい、ただしスペインのスペイン語 (es-ES) が使用されます。  <br/> |はい  <br/> |はい、ただしスペインのスペイン語 (es-ES) が使用されます。  <br/> |
 |スウェーデン語  <br/> |スウェーデン  <br/> |sv-SE  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
-|トルコ語  <br/> |トルコ  <br/> |tr-TR  <br/> |あり  <br/> |あり  <br/> |いいえ  <br/> |
+|トルコ語  <br/> |トルコ  <br/> |tr-TR  <br/> |可  <br/> |あり  <br/> |いいえ  <br/> |
    
 ## <a name="related-topics"></a>関連トピック
 [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

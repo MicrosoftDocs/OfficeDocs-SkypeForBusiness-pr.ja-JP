@@ -1,7 +1,7 @@
 ---
-title: オーストラリアの可用性
-ms.author: tonysmit
-author: tonysmit
+title: オーストラリアでの利用可能性
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,14 +26,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: オーストラリアの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: b39e940d4a2d4a113f1090cededdd052ff9594a9
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: d558e1268b7a4fa22c3954d2f837d1c37df5aace
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201470"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048579"
 ---
-# <a name="availability-in-australia"></a>オーストラリアの可用性
+# <a name="availability-in-australia"></a>オーストラリアでの利用可能性
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
@@ -43,7 +43,7 @@ ms.locfileid: "27201470"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |はい  <br/> |
+|電話会議は購入できますか?  <br/> |あり  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |いいえ。 [お問い合わせください](mailto:ptnapac@microsoft.com)。 <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用可能  <br/> |
 
@@ -51,7 +51,7 @@ ms.locfileid: "27201470"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話システムは購入できますか?  <br/> |はい  <br/> |
+|電話システムは購入できますか?  <br/> |あり  <br/> |
 |自動応答 <br/> |利用可能  <br/> |
 |通話キュー  <br/> |利用可能  <br/> |
 |ボイスメール  <br/> |利用可能  <br/> |
@@ -76,8 +76,8 @@ ms.locfileid: "27201470"
 |**機能**|**詳細**|
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?  <br/> | <ul><li>アデレード <li>ブリスベン <li>  キャンベラ <li>ダーウィン <li>メルボルン <li>ニューカッスル <li> パース <li>シドニー <li>ウロンゴン  |
-|有料電話番号は使用できますか?  <br/> |はい  <br/> |
-|無料電話番号は使用できますか?  <br/> |はい  <br/> |
+|有料電話番号は使用できますか?  <br/> |あり  <br/> |
+|無料電話番号は使用できますか?  <br/> |あり  <br/> |
 
 自動アテンダントの有料電話番号と無料電話番号を取得する場合は、キュー] または [[お問い合わせは](mailto:ptnapac@microsoft.com)、オーディオ会議サービス番号を呼び出します。
 

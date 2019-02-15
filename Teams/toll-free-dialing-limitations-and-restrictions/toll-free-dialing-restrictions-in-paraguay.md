@@ -1,7 +1,7 @@
 ---
 title: フリー ダイヤルのダイヤルの制限 (パラグアイ)
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: cc44db8699c80c3416b12d9ced2486f990cf72d6
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 2af4a692bea82cc6a9dc5f357659f7b2991df7b8
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016870"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047683"
 ---
 # <a name="toll-free-dialing-restrictions-in-paraguay"></a>フリー ダイヤルのダイヤルの制限 (パラグアイ)
 

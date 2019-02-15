@@ -1,7 +1,7 @@
 ---
 title: 英国での利用可能性
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 英国の利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: ec3b6f1f9bb298e00b0d8786f7b8a04c8ab59352
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: a3862288f26993b400558abf9b92cb12d4f84f46
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674771"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047579"
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>英国での利用可能性
 
@@ -43,7 +43,7 @@ ms.locfileid: "26674771"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |はい  <br/> |
+|電話会議は購入できますか?  <br/> |あり  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |はいの場合。 <br/><ul><li> ロンドン</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用可能  <br/> |
    
@@ -51,7 +51,7 @@ ms.locfileid: "26674771"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話システムは購入できますか?  <br/> |はい  <br/> |
+|電話システムは購入できますか?  <br/> |あり  <br/> |
 | 自動応答 <br/> |利用可能  <br/> |
 |通話キュー  <br/> |利用可能  <br/> |
 |ボイスメール  <br/> |利用可能  <br/> |
@@ -70,8 +70,8 @@ ms.locfileid: "26674771"
 |**機能**|**詳細**|
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |<ul><li>バーミングハム <li>  ボルトン <li>  ボーンマス <li>  ブラッドフォード <li>  ブライトン <li>  ブリストル <li>  コベントリー <li>  ハル <li>  リーズ <li>  レスター <li>  リバプール <li>  ロンドン <li>  マンチェスター <li>  ニューカッスル <li>  ノッティンガム <li>  プリマス <li>  シェフィールド <li>  ストークオントレント <li>  ティーズサイド (ミドルスブラ) </ul> |
-|有料電話番号は使用できますか?  <br/> |はい  <br/> |
-|無料電話番号は使用できますか?  <br/> |はい  <br/> |
+|有料電話番号は使用できますか?  <br/> |あり  <br/> |
+|無料電話番号は使用できますか?  <br/> |あり  <br/> |
    
  電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。
   

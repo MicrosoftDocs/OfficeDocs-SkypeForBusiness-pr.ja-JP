@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b99e21d172e35eb8e2ceb2aaabacee78cf45ef9
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 3b818b10a333fbb7cf50cf4e49d521aa224e2d17
+ms.sourcegitcommit: b53d99d06178c26297d1349ff82d05f706dfb479
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29771017"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30050765"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>場所ベースのルーティングのネットワーク設定を構成します。
 
@@ -42,10 +42,10 @@ New-CsTenantNetworkRegion -NetworkRegionID "India"
 
 ## <a name="define-network-sites"></a>ネットワークのサイトを定義します。
 
-使用して、``New-CsTenantNetworkSitePowerShell``ネットワーク サイトを定義するための PowerShell コマンドレットです。 
+使用して、``New-CsTenantNetworkSite``ネットワーク サイトを定義するための PowerShell コマンドレットです。 
 
 ```
-New-CsTenantNetworkSite -NetworkRegionID <region ID>  
+New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
 この例では、2 つの新しいネットワーク サイト、デリーおよび Hyderabad、インドの領域に作成します。 
 ```
@@ -93,11 +93,11 @@ Identity, Mask, SiteID
 ## <a name="define-external-subnets"></a>外部サブネットを定義します。
 使用して、``New-CsTenantTrustedIPAddress``コマンドレットには、外部のサブネットを定義し、テナントに割り当てます。 テナントの無制限の数のサブネットを定義できます。 
 ```
-New-CsTenantTrustedIPAddress -IPAddress <Subnet IP address> -MaskBits <Subnet bitmask> -Description <description> 
+New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```
 次に例を示します。
 ```
-New-CsTenantTrustedIPAddress -IPAddress 192.168.0.1 -MaskBits 30 -Description "Contoso address"  
+New-CsTenantTrustedIPAddress -IPAddress 167.220.2.206 -MaskBits 30 -Description "Contoso address"  
 ```
 
 ## <a name="next-steps"></a>次のステップ

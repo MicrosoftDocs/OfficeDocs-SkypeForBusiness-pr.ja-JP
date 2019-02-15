@@ -1,7 +1,7 @@
 ---
 title: マイクロソフト チーム オンライン呼び出しのフロー
-author: tonysmit
-ms.author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.date: 06/08/2018
 ms.topic: article
@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: チームの作業負荷が Office 365 のフローでは、さまざまなトポロジを利用する方法について説明します。
-ms.openlocfilehash: 455e90d05a26ce387f916f531991ccaf664860d2
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: ce5af3e2f7d14eb0d07fe2838ab1a85954d55ba3
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562808"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048747"
 ---
 # <a name="microsoft-teams-online-call-flows"></a>マイクロソフト チーム オンライン呼び出しのフロー
 
