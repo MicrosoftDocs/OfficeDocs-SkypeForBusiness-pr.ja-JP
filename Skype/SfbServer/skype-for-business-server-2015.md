@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 description: '概要: ビジネス サーバー 2015 の Skype を実装する方法については、これらのリンクを表示します。'
-ms.openlocfilehash: cfd3745b2b8e43c475028595e4bd8b8e9b3b5266
-ms.sourcegitcommit: 20defe18ac1d2b21853bd6d5f0772cd3f35e53e9
+ms.openlocfilehash: bc7c8f586eaf0312d0a37e814634104dab4df324
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "29686516"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069640"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype for Business Server 2015
 
@@ -43,7 +43,7 @@ ms.locfileid: "29686516"
         </a>
     </li>
     <li>
-        <a href="/SkypeForBusiness/hybrid/plan-hybrid-connectivity">
+        <a href="/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -197,7 +197,7 @@ ms.locfileid: "29686516"
                 <div class="card">
                     <div class="cardText">
                         <h3>ハイブリッド ソリューション</h3>
-                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity" data-raw-source="[Plan hybrid connectivity](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)">ハイブリッド接続を計画します。</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json" data-raw-source="[Plan hybrid connectivity](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)">ハイブリッド接続を計画します。</a></p>
                                        </div>
                 </div>
             </div>
