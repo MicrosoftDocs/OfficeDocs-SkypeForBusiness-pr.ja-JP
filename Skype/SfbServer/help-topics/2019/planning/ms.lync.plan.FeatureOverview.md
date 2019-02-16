@@ -1,5 +1,5 @@
 ---
-title: 機能概要 (計画ツール)
+title: Feature Overview (Planning Tool)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: サーバー ツールの計画はビジネス用の Skype
-ms.openlocfilehash: 22f14c0d31eaed5a6518263b15a9962e4bd136d0
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: f7a9f7fd0dfc7f4c65d85404bd827aee7b98332b
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21082609"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30059145"
 ---
-# <a name="feature-overview-planning-tool"></a>機能概要 (計画ツール)
+# <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  
 サーバー ツールの計画はビジネス用の Skype
   
@@ -90,7 +90,7 @@ ms.locfileid: "21082609"
     ビジネス サーバー用の Skype を使用すると、ボイスメールのメッセージを格納で Exchange ユニファイド メッセージング (UM)。ボイスメール メッセージは、ユーザーの受信トレイの電子メール メッセージとして表示されます。
 
     > [!NOTE]
-    > として以前に Exchange ユニファイド メッセージングは、不要になった使用可能な Exchange 2019 が、電話システムを使用してレコードのボイス メール メッセージと、ユーザーの Exchange メールボックスに記録を残すことができます。 詳細については、[クラウドのボイスメールの計画サービス](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md)を参照してください。
+    > として以前に Exchange ユニファイド メッセージングは、不要になった使用可能な Exchange 2019 が、電話システムを使用してレコードのボイス メール メッセージと、ユーザーの Exchange メールボックスに記録を残すことができます。 詳細については、[クラウドのボイスメールの計画サービス](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)を参照してください。
     
 ### <a name="voice"></a>音声
 
@@ -105,7 +105,7 @@ ms.locfileid: "21082609"
     Exchange ユニファイド メッセージング (UM) 結合のボイス メールと電子メールを 1 つのメッセージング インフラストラクチャです。 ビジネス サーバー 2015 の Skype を使用して、Exchange UM 通話応答、サブスクライバー アクセス、呼び出し通知、自動アテンダントのサービスを提供します。 これらのサービスを使用する場合は、ビジネスのサーバー共有の Active Directory トポロジでの Exchange UM と Skype を統合する必要があります。
 
     > [!NOTE]
-    > として以前に Exchange ユニファイド メッセージングは、不要になった使用可能な Exchange 2019 が、電話システムを使用してレコードのボイス メール メッセージと、ユーザーの Exchange メールボックスに記録を残すことができます。 詳細については、[クラウドのボイスメールの計画サービス](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md)を参照してください。
+    > として以前に Exchange ユニファイド メッセージングは、不要になった使用可能な Exchange 2019 が、電話システムを使用してレコードのボイス メール メッセージと、ユーザーの Exchange メールボックスに記録を残すことができます。 詳細については、[クラウドのボイスメールの計画サービス](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)を参照してください。
     
 ### <a name="additional-deployment-options"></a>追加の展開オプション
 

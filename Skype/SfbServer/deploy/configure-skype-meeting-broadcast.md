@@ -14,18 +14,18 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: '概要: は、ハイブリッド展開のビジネスのサーバーの設置型の Skype の Skype 会議のブロードキャストを構成するのには実行する必要がある手順について説明します。'
-ms.openlocfilehash: bae25dae268dd5ad3b3ab7862feb1156df850953
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 09b99cab45b8832be34a3219a222324d199c5195
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371395"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069470"
 ---
-# <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Skype 会議ブロードキャストを使用できるようにオンプレミス展開を構成する
+# <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configure your on-premises deployment for Skype Meeting Broadcast
  
 **の概要:** 設置型の Skype ビジネス サーバー ハイブリッド展開用の Skype 会議のブロードキャストを構成するために実行する必要がある手順について説明します。
   
-Skype 会議のブロードキャストは、Office 365 の一部であるオンライン サービスです。 ビジネス サーバー設置型の Skype を実行している環境で Skype 会議のブロードキャストを使用する場合は、このトピックで構成手順を実行する必要があります。 作業を開始する前に、環境をビジネス オンラインの Skype でのハイブリッドを構成する必要があります。 詳細については、[サーバーのビジネスとオンライン ビジネスの Skype の Skype 間のハイブリッド接続を計画](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)し、[サーバーのビジネスとオンライン ビジネスの Skype の Skype 間のハイブリッド接続の展開](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)を参照してください。
+Skype 会議のブロードキャストは、Office 365 の一部であるオンライン サービスです。 ビジネス サーバー設置型の Skype を実行している環境で Skype 会議のブロードキャストを使用する場合は、このトピックで構成手順を実行する必要があります。 作業を開始する前に、環境をビジネス オンラインの Skype でのハイブリッドを構成する必要があります。 詳細については、「[Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)」、および「[Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)」を参照してください。
   
 ## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>Skype 会議のブロードキャストに、ハイブリッド環境を構成します。
 

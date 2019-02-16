@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 description: ビジネス サーバー用の Skype は、インスタント メッセージの暗号化に TLS および MTLS を使用します。 トラフィックが内部ネットワークに限定されているか、内部ネットワークの境界を越えるかに関係なく、MTLS は、サーバー間のすべてのトラフィックに必要です。 Skype をビジネス サーバーのサード パーティ製の IPPBX システムまたは SIP トランク TLS 接続があるとき省略可能ですが、仲介サーバーとメディア ゲートウェイの間で強く推奨されます。 この接続に TLS を構成する場合は MTLS も必要です。 そのため、ゲートウェイは、仲介サーバーによって信頼されている CA から証明書を構成しなければなりません。
-ms.openlocfilehash: 1a109bea59644e00b3b010c42d9b12918296b47c
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 7ed4297ef766b769827b6805087d02f0ad708fe7
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789377"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069633"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>Skype のビジネス サーバー用の暗号化
  
@@ -34,7 +34,7 @@ ms.locfileid: "27789377"
 |:-----|:-----|
 |サーバー間  <br/> |MTLS  <br/> |
 |クライアントからサーバー  <br/> |TLS  <br/> |
-|インスタント メッセージングとプレゼンス  <br/> |TLS  <br/> |
+|インスタント メッセージングとプレゼンス  <br/> |TLS   <br/> |
 |オーディオとビデオ、メディアのデスクトップ共有  <br/> |SRTP  <br/> |
 |デスクトップ共有 (シグナリング)  <br/> |TLS  <br/> |
 |Web 会議  <br/> |TLS  <br/> |
@@ -45,7 +45,7 @@ ms.locfileid: "27789377"
 メディア トラフィックは、Secure RTP (SRTP) を使用して暗号化されます。これは、秘密保持機能、認証、RTP トラフィックなどに対する再生攻撃からの保護機能を提供するリアルタイム転送プロトコル (RTP) のプロファイルです。さらに、仲介サーバーとその次のホップ間で双方向にやりとりされるメディアも SRTP を使用して暗号化されます。仲介サーバーとメディア ゲートウェイ間で双方向にやりとりされるメディアはオプションで暗号化され、暗号化することが推奨されます。仲介サーバーはメディア ゲートウェイに対する暗号化をサポートできますが、ゲートウェイは MTLS および証明書のストレージをサポートする必要があります。
   
 > [!NOTE]
-> ハイブリッドを設定する方法の詳細については、[サーバーのビジネスとオンライン ビジネスの Skype の Skype 間でのハイブリッド接続を計画](../../../SfBServer2019/hybrid/plan-hybrid-connectivity.md)を参照してください。
+> ハイブリッドを設定する方法の詳細については、[ハイブリッド接続の計画](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)を参照してください。
   
 ## <a name="fips"></a>FIPS
 

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: '概要: ビジネスのサーバーで Exchange 2013 または 2016 の Skype を統合するために計画するときにこのトピックを参照します。'
-ms.openlocfilehash: f560df43ab6347890cc5a3b956d43ed37a55bdf3
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: ee6e6bc81c4bd0b2291b7f4be7ceb13894d2aec2
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263901"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30059188"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Skype for Business での Exchange ユニファイド メッセージング統合の計画
 
@@ -27,7 +27,7 @@ ms.locfileid: "23263901"
 2016 と Microsoft Exchange Server 2013 は、Exchange UM サービスとして実行 Exchange メールボックス サーバーにします。 ビジネス サーバーのエンタープライズ VoIP 展開の Skype では、ユニファイド メッセージング、ボイス メッセージングと電子メール メッセージングをユーザーが電話 (Outlook Voice Access) またはコンピューターからアクセスできる 1 つのストアが組み合わせたものです。 ユニファイド メッセージングと Skype ビジネス サーバーのエンタープライズ VoIP のユーザーが通話応答、Outlook Voice Access、および自動応答サービスを提供するために連携します。
 
 > [!NOTE]
-> Exchange UM のまま Skype で利用可能なビジネス サーバー 2019 の Exchange 2013 または Exchange 2016 2019 のビジネス用の Skype を統合する場合です。 2019 の Exchange でのサポートの変更により、Exchange UM の統合は、ボイスメールのクラウドとクラウドの自動応答の機能のための emphasised ことです。  詳細については、[クラウドのボイスメールの計画サービス](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md)と[Skype ビジネス サーバーと Exchange Server の移行のための計画](../../../SfBServer2019/hybrid/plan-um-migration.md)を参照してください。
+> Exchange UM のまま Skype で利用可能なビジネス サーバー 2019 の Exchange 2013 または Exchange 2016 2019 のビジネス用の Skype を統合する場合です。 2019 の Exchange でのサポートの変更により、Exchange UM の統合は、ボイスメールのクラウドとクラウドの自動応答の機能のための emphasised ことです。  詳細については、[クラウドのボイスメールの計画サービス](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)と[Skype ビジネス サーバーと Exchange Server の移行のための計画](../../../sfbhybrid/hybrid/plan-um-migration.md)を参照してください。
 
 
 設置型 Exchange UM の展開でサポートされているこれらの機能では、する必要があります実行されている次のいずれか。
@@ -38,7 +38,7 @@ ms.locfileid: "23263901"
 - Microsoft Exchange Server 2019 (Skype ビジネス サーバー 2019 のみ)
 
 > [!NOTE]
-> ユニファイド メッセージングと呼ばれていたになって Skype ビジネス サーバー 2019 は、電話システムを使用して、ボイスメールのメッセージを記録し、ユーザーの Exchange メールボックスに記録を残すのために使用できます。 詳細については、[クラウドのボイスメールの計画サービス](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md)を参照してください。
+> ユニファイド メッセージングと呼ばれていたになって Skype ビジネス サーバー 2019 は、電話システムを使用して、ボイスメールのメッセージを記録し、ユーザーの Exchange メールボックスに記録を残すのために使用できます。 詳細については、[クラウドのボイスメールの計画サービス](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)を参照してください。
 
 ## <a name="features-of-integrated-unified-messaging-and-skype-for-business-server"></a>統合されたユニファイド メッセージングと Skype ビジネス サーバー用の機能
 
@@ -52,7 +52,7 @@ ms.locfileid: "23263901"
 
 - **自動アテンダント**自動アテンダントは、外部ユーザーの会社の代表者に到達するためにダイアルする電話番号を構成に使用できる Exchange UM 機能です。 具体的には、一連のメニュー システム内を移動する、外部の呼び出し元を支援する音声案内が用意されています。 Exchange UM 管理者が Exchange UM サーバーで使用可能なオプションの一覧を構成するとします。
 
-- **Fax サービス**Exchange UM fax 機能には、Exchange のメールボックスで fax を受信するユーザーを有効にするが含まれています。 詳細については、Microsoft Exchange Server のマニュアルで[ユニファイド メッセージング](https://go.microsoft.com/fwlink/p/?linkId=135652)を参照してください。
+- **Fax サービス**Exchange UM fax 機能には、Exchange のメールボックスで fax を受信するユーザーを有効にするが含まれています。 詳細については、Microsoft Exchange Server のドキュメントの「[ユニファイド メッセージング](https://go.microsoft.com/fwlink/p/?linkId=135652)」を参照してください。
 
     > [!NOTE]
     > Exchange UM サーバーが提供する fax サービスは、ビジネスのサーバー展開では Microsoft Exchange Server 2010、最新のサービス パックと Exchange 2010、Exchange 2013、または Exchange 2016 と統合されている Skype でご利用いただけません。
@@ -132,13 +132,13 @@ Exchange UM の機能とエンタープライズ VoIP ユーザーが組織内�
 
 有効にするか、Microsoft Exchange Server 2010 のユニファイド メッセージングを無効にする方法の詳細については、次のように表示されます。
 
-- [Exchange 2010 でユニファイド メッセージングを有効にします。](https://go.microsoft.com/fwlink/p/?LinkId=204418)
+- [Exchange 2010 でユニファイド メッセージングを有効にする](https://go.microsoft.com/fwlink/p/?LinkId=204418)
 
-- [Exchange 2010 でユニファイド メッセージングを無効にします。](https://go.microsoft.com/fwlink/p/?LinkId=204416)
+- [Exchange 2010 でユニファイド メッセージングを無効にする](https://go.microsoft.com/fwlink/p/?LinkId=204416)
 
 ### <a name="exchange-server-2019"></a>Exchange Server 2019
 
-Exchange ユニファイド メッセージングが聞こえなくなった Exchange 2019、Exchange 2019 があり、[計画クラウド ボイスメール サービス](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md)に記載されているクラウドのボイスメール サービスを使用する必要がありますが同等の機能を使用する場合。
+Exchange ユニファイド メッセージングが聞こえなくなった Exchange 2019、Exchange 2019 があり、[計画クラウド ボイスメール サービス](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)に記載されているクラウドのボイスメール サービスを使用する必要がありますが同等の機能を使用する場合。
 
 
 ## <a name="see-also"></a>関連項目

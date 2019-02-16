@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a96205f1971207f81d6191ef46e1be25e063f4c
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 6fe6a097ba413c81d90f5fe519c5d6cbf1377a98
+ms.sourcegitcommit: 2ef6a05c659100eea0d92c729001cd4e14434b9f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699773"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30062656"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>チームの動的なメンバーシップの概要
 
@@ -33,8 +33,11 @@ ms.locfileid: "26699773"
 マイクロソフトのチームに必要数分から 2 時間まで、Office 365 のグループをチームに反映すると、動的なメンバーシップの変更を反映するように。 
 
 > [!NOTE]
-> - チーム メンバーがチームの所有者ではない、ルールを定義できます。
+> - ルールは、チーム メンバーを定義できますが、チームの所有者はいません。
 > - チームとチャネルのサイズの現在の制限値に対する[制限とマイクロソフトのチームの仕様](limits-specifications-teams.md)を参照してください。
+> - 所有者を追加またはメンバーが動的グループの規則によって定義されているため、チームのメンバーとしてユーザーを削除できません。
+> - メンバーは動的グループに支えられてチームのままにすることができません。
+
 
 ## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>作成し、動的なメンバーシップを使用して、Office 365 のグループを管理します。
 テナント管理者としてログインしているときに、[動的グループを作成し状態を確認するの](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule)に指示します。 必要に応じて、 [Azure Active Directory のグループの動的メンバーシップの規則](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership)を参照してください。

@@ -2,36 +2,13 @@
 
 ## [新機能](../whats-new.md)
 ## [推奨されていません](../deprecated.md)
-## [マイクロソフトのテレフォニー ソリューション](../hybrid/msft-telephony-solutions.md)
+## [マイクロソフトのテレフォニー ソリューション](../../sfbhybrid/hybrid/msft-telephony-solutions.md)
 
 ## [ビジネス用の Skype をダウンロードし、更新](../../SfbServer/software-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-### [クライアント用更新プログラム](../../SfbServer/sfb-client-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+### [クライアントの更新](../../SfbServer/sfb-client-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [サーバーの更新](../../SfbServer/sfb-server-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
-## チームおよびビジネス用の Skype のためのハイブリッド ソリューション
-### [ハイブリッド接続を計画します。](../hybrid/plan-hybrid-connectivity.md)
-
-### [ハイブリッド接続を設定します。](../hybrid/configure-hybrid-connectivity.md)
-#### [ハイブリッド環境向けの Azure AD 接続を構成します。](../hybrid/configure-azure-ad-connect.md)
-#### [Skype をビジネスのハイブリッドを構成します。](../hybrid/configure-federation-with-skype-for-business-online.md)
-
-### [オンプレミスとクラウドの間でユーザーの移動](../hybrid/move-users-between-on-premises-and-cloud.md)
-#### [移動ユーザーがチームを設置](../hybrid/move-users-from-on-premises-to-teams.md)
-#### [ユーザーをオンプレミスから Skype for Business Online に移動する](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
-#### [移動ユーザーが社内のクラウドに](../hybrid/move-users-from-the-cloud-to-on-premises.md)
-#### [会議の移行を管理します。](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
-
-### [ハイブリッド クラウドへの移行を完了するを無効にします。](../hybrid/cloud-consolidation-disabling-hybrid.md)
-
-### [リソース フォレストのトポロジを展開します。](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
-
-### [チームおよびビジネス用の Skype のためのクラウドの統合](../hybrid/cloud-consolidation.md)
-#### [エッジの証明書を更新します。](../hybrid/cloud-consolidation-edge-certificates.md)
-
-#### [AAD は、複数のフォレストを含むように接続を更新します。](../hybrid/cloud-consolidation-aad-connect.md)
-
-### [Exchange と SharePoint との統合](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-
+## [チームおよびビジネス用の Skype のためのハイブリッド ソリューション](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
 ## 計画
 ### [トポロジの基本](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -119,13 +96,13 @@
 #### [勤務先から通話](../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-via-work.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [リモート通話コントロール](../../SfbServer/plan-your-deployment/enterprise-voice-solution/remote-call-control.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### クラウドのボイスメール
-#####[クラウドのボイスメールを計画します。](../hybrid/plan-cloud-voicemail.md)
-##### [クラウドのボイス メールを構成します。](../hybrid/configure-cloud-voicemail.md)
+#####[クラウドのボイスメールを計画します。](../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
+##### [クラウドのボイス メールを構成します。](../../sfbhybrid/hybrid/configure-cloud-voicemail.md)
 ### [Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [ユニファイド メッセージング](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-messaging.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [展開の概要](../../SfbServer/plan-your-deployment/integrate-with-exchange/deployment-overview.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [統合連絡先ストア](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-contact-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
-#### [Skype ビジネス サーバーと Exchange Server の移行の計画します。](../hybrid/plan-um-migration.md)
+#### [Skype ビジネス サーバーと Exchange Server の移行の計画します。](../../sfbhybrid/hybrid/plan-um-migration.md)
 #### [Exchange ユニファイド メッセージング オンライン移行のサポート](../plan/exchange-unified-messaging-online-migration-support.md)
 
 ### [監視](../../SfbServer/plan-your-deployment/monitoring.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -435,8 +412,8 @@
 ###### [場所の傾向レポート](../../SfbServer/manage/health-and-monitoring/location-trend-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [通話の評価](../../SfbServer/manage/health-and-monitoring/rate-my-call.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### 呼び出しデータ コネクタ
-##### [呼び出しデータ コネクタを計画します。](../hybrid/plan-call-data-connector.md)
-##### [呼び出しデータ コネクタを構成します。](../hybrid/configure-call-data-connector.md)
+##### [呼び出しデータ コネクタを計画します。](../../sfbhybrid/hybrid/plan-call-data-connector.md)
+##### [呼び出しデータ コネクタを構成します。](../../sfbhybrid/hybrid/configure-call-data-connector.md)
 
 ### [アーカイブ](../../SfbServer/manage/archiving/archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [オプション](../../SfbServer/manage/archiving/options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)

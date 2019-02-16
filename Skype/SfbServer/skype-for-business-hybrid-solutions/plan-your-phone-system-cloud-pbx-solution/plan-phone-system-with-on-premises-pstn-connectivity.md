@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 設置 PSTN への接続では、Office 365 (クラウド PBX) の電話システムの計画の考慮事項について説明します。
-ms.openlocfilehash: 978da546961188c54c7e08e2ed140f8d01986e44
-ms.sourcegitcommit: 20defe18ac1d2b21853bd6d5f0772cd3f35e53e9
+ms.openlocfilehash: 3856a4901666ec58b286d5edb26c7d69bba65e41
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "29686473"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069484"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Skype で設置した PSTN 接続を持つビジネス サーバーの Office 365 の電話システムを計画します。
 
@@ -105,7 +105,7 @@ PSTN への接続を設置し、Skype をユーザーの移動と Office 365 の
     > [!NOTE]
     > 使用する AAD Connect のパーションは、バージョン 1.0.9125.0 以降である必要があります。それよりも前のバージョンの AAD Connect ツールまたは DirSync を使用している場合は、サポートされているバージョンにアップグレードしてください。現在のインストールをアップグレードして、環境で定義しているカスタム ルールを維持できます。 
 
-- **ハイブリッド展開を構成します。** かどうか、Skype をビジネス ユーザーには、現在すべてホームか、オンラインまたは設置型、またはある場合は現在、ミックス、[展開のハイブリッドで説明されているビジネス サーバーまたは Lync Server 2013 では、Skype のハイブリッド展開を構成する手順を完了する必要がありますSkype ビジネス サーバーと Office 365 間の接続](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)。 ハイブリッド展開での詳細の背景については、 [Skype ビジネス サーバーと Office 365 の間のハイブリッド接続の計画](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)を参照してください。 
+- **ハイブリッド展開を構成します。** かどうか、Skype をビジネス ユーザーには、現在すべてホームか、オンラインまたは設置型、またはある場合は現在、ミックス、[展開のハイブリッドで説明されているビジネス サーバーまたは Lync Server 2013 では、Skype のハイブリッド展開を構成する手順を完了する必要がありますSkype ビジネス サーバーと Office 365 間の接続](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)。 ハイブリッド展開での詳細の背景については、 [Skype ビジネス サーバーと Office 365 の間のハイブリッド接続の計画](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)を参照してください。 
 
     Lync Server 2013 を使用する場合は、 [Lync Server 2013 ハイブリッド](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx)を参照してください。
 

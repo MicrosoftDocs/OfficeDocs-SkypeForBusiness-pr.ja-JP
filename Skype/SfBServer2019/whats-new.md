@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: これらの機能は、ビジネス サーバー 2019 の Skype にします。'
-ms.openlocfilehash: 044901b134c71c1cae004f9930bedeae0057578d
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 4eb674293b152109a9743fce5114fe11e3e97158
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29348885"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30058983"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype では、どのような
 
@@ -35,7 +35,7 @@ Exchange UM のまま Skype で利用可能なビジネス サーバー 2019 の
 - オンライン ビジネス、チーム、または Outlook クライアントで、Skype を使用して Exchange メールボックスにボイス メールへのアクセス
 - ボイス メール オプションを管理するために、web ベースのポータルを使用する機能
 
-詳細については、[クラウドのボイスメールの計画サービス](hybrid/plan-cloud-voicemail.md)と[Skype ビジネス サーバーと Exchange Server の移行のための計画](hybrid/plan-um-migration.md)を参照してください。
+詳細については、[クラウドのボイスメールの計画サービス](../sfbhybrid/hybrid/plan-cloud-voicemail.md)と[Skype ビジネス サーバーと Exchange Server の移行のための計画](../sfbhybrid/hybrid/plan-um-migration.md)を参照してください。
   
 ## <a name="call-monitoring-call-data-connector"></a>監視を呼び出します呼び出しデータ コネクタ。
 
@@ -47,7 +47,7 @@ Exchange UM のまま Skype で利用可能なビジネス サーバー 2019 の
 - 表示し、ネットワーク上の問題のトラブルシューティング
 - 表示し、各自の責任範囲のトラブルシューティングを行うヘルプデスクの従業員を支援することは、分析機能の呼び出しのヘルプデスクや管理者の役割を割り当てます。
 
-詳細については、[呼び出しデータ コネクタの計画](hybrid/plan-call-data-connector.md)を参照してください。
+詳細については、[呼び出しデータ コネクタの計画](../sfbhybrid/hybrid/plan-call-data-connector.md)を参照してください。
 
 ### <a name="see-also"></a>関連項目
 

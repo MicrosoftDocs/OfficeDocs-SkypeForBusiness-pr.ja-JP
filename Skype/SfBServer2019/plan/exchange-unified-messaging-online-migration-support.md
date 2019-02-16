@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: マイクロソフトは 2020年 2 月によって Exchange ユニファイド メッセージング オンライン (ExchUMO) サービスを撤去します。 この資料がどのような影響を受けるをまとめたものお客様が知っているし、ビジネス継続性の計画を行う必要があります。
-ms.openlocfilehash: af9418a764780efca07a37f1c0b55415d0305f55
-ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
+ms.openlocfilehash: 8d09a9a16104420bfbe225aefefab57399f8dec5
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29786422"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30059167"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange ユニファイド メッセージング オンライン移行のサポート  
 
@@ -59,7 +59,7 @@ Exchange ユニファイド メッセージング オンライン サービス�
 
 2.  **ビジネス ハイブリッド トポロジの場合、Skype を確立します。**
 
-    確立されたビジネスのハイブリッド トポロジに、Skype を使用する必要はない場合、は、ボイスメール ユーザーの円滑な移行を有効にするのにはする必要があります。 詳細については、[ビジネスのハイブリッドの Skype の設定](../hybrid/configure-federation-with-skype-for-business-online.md)を参照してください。 
+    確立されたビジネスのハイブリッド トポロジに、Skype を使用する必要はない場合、は、ボイスメール ユーザーの円滑な移行を有効にするのにはする必要があります。 詳細については、[ビジネスのハイブリッドの Skype の設定](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md)を参照してください。 
 
     > [!Note]
     > オンライン ボイスメール サービスの移行のために、ユーザーを移行する必要はありません。 ただし、ボイスメールのクラウド ベースのサービスを活用するのには、オンプレミス ユーザーのハイブリッド トポロジは、必要がありますを確立します。

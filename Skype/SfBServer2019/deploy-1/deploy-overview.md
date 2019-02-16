@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: '概要: インストールおよびビジネス サーバー 2019 の Skype を構成する方法については、これらのリンクを表示します。'
-ms.openlocfilehash: af4edc8c3c938f6016ebf743b8ce9ac982cfefbf
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a8512e55cdc0062be1548458f2ce6a4aca0296ad
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531441"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30058997"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype を導入します。
  
@@ -40,7 +40,7 @@ ms.locfileid: "26531441"
 |![数字による "方法" のアイコン](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[Skype for Business Server のインストール](../../SfbServer/deploy/install/install.md)<br/> |物理および仮想環境でのさまざまなトポロジにサーバーをビジネス用の Skype をインストールする方法について説明します。  <br/> |
 |![数字による "方法" のアイコン](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [ビジネス サーバー 2019 の Skype への移行](../migration/migration-to-skype-for-business-server-2019.md) <br/> |ビジネスまたは Lync Server の以前のバージョンの Skype から移行する方法について説明します。  <br/> |
 |![数字による "方法" のアイコン](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[Configure the client experience with Skype for Business](../../SfbServer/deploy/deploy-clients/configure-the-client-experience.md) <br/> |クライアント エクスペリエンスを構成する方法について説明します。  <br/> |
-|![数字による "方法" のアイコン](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Skype ビジネス サーバーとビジネス オンラインの Skype との間のハイブリッド接続を設定します。](../hybrid/configure-hybrid-connectivity.md) <br/> |ハイブリッド展開の前提条件を構成し、ビジネス サーバー設置型の Skype と Skype のオンライン ビジネスのユーザーを管理するために、展開を構成する方法について説明します。  <br/> |
+|![数字による "方法" のアイコン](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Skype ビジネス サーバーとビジネス オンラインの Skype との間のハイブリッド接続を設定します。](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md) <br/> |ハイブリッド展開の前提条件を構成し、ビジネス サーバー設置型の Skype と Skype のオンライン ビジネスのユーザーを管理するために、展開を構成する方法について説明します。  <br/> |
 |![数字による "方法" のアイコン](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [ビジネス サーバーの Skype でエッジ トランスポート サーバーを展開します。](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md) <br/> |組織内のユーザーは、社内ネットワークにログインしていない外部のユーザーと通信する場合にエッジ サーバーを展開します。  <br/> |
 |![数字による "方法" のアイコン](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [ビジネス サーバーの Skype でエンタープライズ VoIP を展開します。](../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) <br/> |Outlook および Exchange との機能豊富な統合、および応答グループ、コール パーク、チーム呼び出し、グループ通話ピックアップ、拡張緊急 E9-1-1 のサポートなどの多くの強力な機能を提供する、完全なボイス オーバー IP (VoIP) エンタープライズ VoIP ソリューションを展開する方法について説明します。  <br/> |
 | ![数字による "方法" のアイコン](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [ビジネス サーバーの Skype でのビデオの相互運用サーバーを展開します。](../../SfbServer/deploy/deploy-video-interop-server/deploy-video-interop-server.md) <br/> |ビデオの相互運用をサポートする場合は、ビデオの相互運用機能サーバー (VIS) を展開する方法について参照してください。  <br/> |

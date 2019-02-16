@@ -3,7 +3,7 @@ title: Skype for Business Server ボイス メールに対する Exchange Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/19/2016
+ms.date: 2/11/2019
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: '概要: Exchange Server ユニファイド メッセージングの構成 Skype ビジネス サーバーのボイス メールをします。'
-ms.openlocfilehash: 09ff81c170713f1dd3235f3968d586afc80929fd
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 03511671e0535e07dbc10e50b427364c3502a674
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375812"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30059195"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Skype for Business Server ボイス メールに対する Exchange Server ユニファイド メッセージングの構成
  
@@ -25,7 +25,7 @@ ms.locfileid: "25375812"
 ビジネス サーバー用の Skype を使用すると、ボイスメールのメッセージを Exchange Server 2016 または Exchange Server 2013 に格納されています。ボイスメール メッセージは、ユーザーの受信トレイの電子メール メッセージとして表示されます。 
 
 > [!NOTE]
-> として以前に Exchange ユニファイド メッセージングは、不要になった使用可能な Exchange 2019 が、電話システムを使用してレコードのボイス メール メッセージと、ユーザーの Exchange メールボックスに記録を残すことができます。 詳細については、[クラウドのボイスメールの計画サービス](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md)を参照してください。
+> として以前に Exchange ユニファイド メッセージングは、不要になった使用可能な Exchange 2019 が、電話システムを使用してレコードのボイス メール メッセージと、ユーザーの Exchange メールボックスに記録を残すことができます。 詳細については、[クラウドのボイスメールの計画サービス](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)を参照してください。
   
 ビジネス サーバーと Exchange Server 2016 または Exchange Server 2013 の Skype 間でサーバーからサーバーへの認証を既に構成した場合は、ユニファイド メッセージングを設定する準備がします。 これを行うには、最初に作成し、新しいユニファイド メッセージング ダイヤル プランを Exchange Server に割り当てる必要があります。 などのこれら 2 つのコマンド (Exchange 管理シェル内から実行) は、Exchange の新しい 3 桁のダイヤル プランを構成します。
   
@@ -93,7 +93,7 @@ $credential = Get-Credential "litwareinc\kenmyer"
 Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 ```
 
-ユニファイド メッセージングに対して有効になっている 2 番目のユーザーがある場合は、この 2 番目のユーザーは最初のユーザーのボイス メール メッセージのままにしていることを確認する[テスト CsExUMVoiceMail](https://docs.microsoft.com/powershell/module/skype/test-csexumvoicemail?view=skype-ps)コマンドレットを使用することができます。
+ユニファイド メッセージングが有効化されている 2 番目のユーザーがいる場合は、[Test-CsExUMVoiceMail](https://docs.microsoft.com/powershell/module/skype/test-csexumvoicemail?view=skype-ps) コマンドレットを使用して、この 2 番目のユーザーが最初のユーザーにボイスメール メッセージを残せることを確認できます。
   
 ```
 $credential = Get-Credential "litwareinc\pilar"
@@ -140,7 +140,7 @@ Exchange ユニファイド メッセージング (UM) エンタープライズ 
 
 
 
-### <a name="configure-unified-messaging-on-microsoft-exchange-with-exchucutilps1"></a>ExchUCUtil.ps1 を持つ Microsoft Exchange ユニファイド メッセージングを構成します。 
+### <a name="configure-unified-messaging-on-microsoft-exchange-with-exchucutilps1"></a>Configure Unified Messaging on Microsoft Exchange with ExchUCUtil.ps1 
 
 ビジネス サーバー Exchange ユニファイド メッセージング (UM) での Microsoft Skype を統合していると、は、シェルでは、ExchUcUtil.ps1 スクリプトを実行する必要が。 ExchUcUtil.ps1 スクリプトは、次のこと。
 
@@ -152,7 +152,7 @@ Exchange ユニファイド メッセージング (UM) エンタープライズ 
 - 各 UM IP ゲートウェイの UM ハント グループを作成します。 各ハント グループのパイロット id は、ビジネス サーバーのフロント エンド プールまたは Standard Edition サーバー、UM IP ゲートウェイに関連付けられているため、Skype で使用する UM SIP URI ダイヤル プランを指定します。
 - UM などコンテナー オブジェクトを Active Directory の UM のダイヤル プラン、自動応答、UM IP ゲートウェイ、UM ハント グループを読むビジネス サーバーのアクセス許可の付与 Skype。
   > [!IMPORTANT]
-  > Skype のビジネス サーバーが配置され、各 UM のフォレストを信頼するようにビジネス Server 2013 の Skype を配置するフォレストを構成する必要があります、フォレストを信頼するには、各 UM のフォレストを構成しなければなりません。 Exchange UM がインストールされている場合複数のフォレストで、各 UM のフォレストの Exchange Server の統合の手順を行う必要があります。 またはビジネス サーバー ドメインの Skype を指定する必要があります。 たとえば、ExchUcUtil.ps1 – フォレスト: < lync のドメイン ・ コント ローラーの fqdn >。 
+  > Skype のビジネス サーバーが配置され、各 UM のフォレストを信頼するようにビジネス Server 2013 の Skype を配置するフォレストを構成する必要があります、フォレストを信頼するには、各 UM のフォレストを構成しなければなりません。 Exchange UM がインストールされている場合複数のフォレストで、各 UM のフォレストの Exchange Server の統合の手順を行う必要があります。 またはビジネス サーバー ドメインの Skype を指定する必要があります。 たとえば、ExchUcUtil.ps1 – フォレスト: <lync-ドメイン ・ コント ローラー-fqdn>。 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>ExchUcUtil.ps1 スクリプトを実行するのにシェルを使用します。
 
@@ -163,7 +163,7 @@ Skype ビジネス サーバーとして同じトポロジでは、組織内の�
 > Exchange 組織の管理役割のアクセス許可があるか、スクリプトを実行する Exchange 組織管理者のセキュリティ グループのメンバーである必要があります。 
 
 1. Exchange 管理シェルを開きます。
-2. C:\Windows\System32 プロンプトで、入力の**cd\<ドライブ文字 >: \Program Files\Microsoft\Exchange Server\V15\Scripts >。ExchUcUtil.ps1**、し、Enter キーを押します。
+2. C:\Windows\System32 プロンプトで、入力の**cd \<letter>:\Program Files\Microsoft\Exchange Server\V15\Scripts> をドライブします。ExchUcUtil.ps1**、し、Enter キーを押します。
 
 #### <a name="how-do-you-know-this-worked"></a>どうやってこの方法でしょうか。
 
@@ -188,7 +188,7 @@ Skype ビジネス サーバーに接続するためにサーバー証明書を 
 
 **CA 証明書をダウンロードするには。**
 
-1. Exchange UM を実行するサーバー、[**スタート] ボタン**、[**実行**] をクリック、タイプ**http://\<、発行 CA 用サーバーの名前 >/certsrv**、し、[ **OK**] をクリックします。
+1. Exchange UM を実行するサーバー、[**スタート] ボタン**、[**実行**] をクリック、タイプ**http://\<発行 CA の Server>/certsrv の名前**、し、[ **OK**] をクリックします。
 2. [タスクを選択して、[ **CA 証明書、証明書チェーン、または CRL のダウンロード**] をクリックします。
 3. [ **CA 証明書、証明書チェーン、または CRL のダウンロード**の**Base 64 エンコード方法**を選択し、**ダウンロードする CA 証明書**] をクリックします。
    > [!NOTE]
@@ -205,7 +205,7 @@ Skype ビジネス サーバーに接続するためにサーバー証明書を 
 6. **[閉じる**] をクリックし、[ **OK**] をクリックします。 
 7. コンソール ツリーで、[**証明書 (ローカル コンピューター)** を展開を選択し、**信頼されたルート証明機関**] を展開し、[**証明書**] をクリックします。
 8. **証明書**を右クリックし、**すべてのタスク**] をクリックし、[**インポート**] をクリックします。
-9. [**次へ**] をクリックします。 
+9. [ **次へ**] をクリックします。 
 10. **参照**ファイルを検索する] をクリックし、[**次へ**] をクリックします。 (ファイルは、.cer またはファイルの拡張子は .p7b、 **CA 証明書をダウンロードする**は、手順 3 で選択したエンコード方法によってがあります。
 11. 次のストアに**証明書をすべての場所**をクリックします。
 12. **[参照**] をクリックし、**信頼されたルート証明機関**を選択します。 

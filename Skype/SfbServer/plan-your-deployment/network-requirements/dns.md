@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: '概要: は、Skype をビジネスのサーバーを実装する前にここでは DNS の考慮事項を確認します。'
-ms.openlocfilehash: 8f47d7de61521c3908a8094bb7c6c866a55c4842
-ms.sourcegitcommit: 81b38b389bfe3acd1aa13ce61c221b7b368c0e2d
+ms.openlocfilehash: 649528c21254625b1aac8d2933c59988138b38b1
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "27382855"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069581"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>Skype のビジネス サーバー用の DNS の要件
 
@@ -57,7 +57,7 @@ DNS Skype のビジネス サーバー展開計画組織の設置型のネット
 |A/AAAA   |lyncdiscoverinternal。* \<sipdomain\>* <br/> lyncdiscoverinternal。* <span> </span>contoso<span></span>.com*   |VIP の HLB のフロント エンド プールまたはディレクターの IP  <br/>  192.168.21.121  |内部自動検出サービス 1、モビリティのサポートに必要な。 モバイル デバイスを解決するのには、内部 DNS を使用する場合は、外部 ip アドレス、または DMZ の VIP をポイントする必要があります。  <br/> Web サービスに HTTPS は、DNS を利用できないとフロント エンド プールの HLB が必要です。 フロント エンド プールまたはディレクター プールがこれにする必要がありますが、HLB の VIP、または Standard edition サーバーまたはスタンドアロンのディレクター サーバーの通常の IP を解決します。   |Y   |
 |CNAME   |lyncdiscoverinternal。* \<sipdomain\>* <br/> lyncdiscoverinternal. *<span></span>contoso<span></span>.com*   |HLB FE プールの FQDN またはディレクターの FQDN  <br/> Web 整数<span></span>contoso<span></span>.com   |内部の自動検出サービス 1 <br/> 必要に応じて、これを A レコードではなく CNAME として実装することができます。   ||
 |A/AAAA   |sip。* \<sipdomain\>* <br/> sip。* <span> </span>contoso<span></span>.com*  |フロント エンド プールのサーバーの IP アドレス (または、各ダイレクタの IP アドレス)  <br/>  DNS LB *192.168.21.122 192.168.21.123 192.168.21.124*   |自動構成が必要には、[チュートリアルの Skype クライアントのビジネスのサービスを検索する](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype)を参照してください。 <br/> 外部にあるクライアントとフロント エンド プールのサーバーまたは社内のネットワークでは、アクセス エッジ サービス上のディレクター サーバーをポイントするレコード   |& #x 2777 です。  |
-|A/AAAA   |ucupdates と r2 です。* \<sipdomain\>* <br/> ucupdates と r2 です。* <span> </span>contoso<span></span>.com*  |HLB FE プール VIP またはディレクター プール HLB VIP、または SE/ディレクター サーバー IP  <br/>  192.168.21.121  |オプションは、このレコードを展開する & #x 2778 です。  ||
+|A/AAAA   |ucupdates と r2 です。* \<sipdomain\>* <br/> ucupdates と r2 です。* <span> </span>contoso<span></span>.com*  |HLB FE プール VIP またはディレクター プール HLB VIP、または SE/ディレクター サーバー IP  <br/>  192.168.21.121  |#X 2778 はオプションの & は、このレコードを展開します。  ||
 |SRV   |\_sipinternaltls。\_tcp です。* \<sipdomain\> * <br/>ポート 5061 <br/>\_sipinternaltls。\_tcp です。* <span> </span>contoso<span></span>.com* <br/>ポート 5061  |フロント エンド プールの FQDN  <br/>*FE のプールです。<span> </span>contoso<span></span>.com*  |サインインについてのクライアントの要求を認証およびリダイレクトするフロントエンド サーバー/プールまたは SE サーバー/プールに対する内部ユーザーの自動サインイン 1 を有効にします。    |& #x 2777 です。 |
 |A/AAAA |sipinternal。* \<sipdomain\>* <br/>sipinternal。<span> </span> *contoso<span></span>.com*  |フロント エンド プールの FQDN  <br/>_FE のプールです。<span> </span>contoso<span></span>.com_  |内部ユーザーのアクセス & #x 2776。  |& #x 2777 です。  |
 |SRV   | \_ntp。\_udp です。* \<sipdomain\> * <br/> \_ntp。\_udp です。<span> </span> *contoso<span></span>.com*  |タイム サーバーの FQDN  <br/> north-america.pool.ntp.org   |Lync の電話のエディションのデバイスに必要な NTP ソース   |これがデスクトップの電話機をサポートするために必要です。   |
@@ -95,7 +95,7 @@ DNS Skype のビジネス サーバー展開計画組織の設置型のネット
 |SRV   |\_sipfederationtls。\_tcp です。* \<sipdomain\> * <br/>\_sipfederationtls。\_tcp です。<span> </span> *contoso<span></span>.com*  |FQDN の外部アクセス エッジ  <br/>*Access1。<span> </span>contoso<span></span>.com*  |フェデレーションとパブリック IM 接続で使用されます   |& #x 2776。  |
 |SRV   |\_xmpp サーバーです。\_tcp です。*<sipdomain\> * <br/>\_xmpp サーバーです。\_tcp です。* <span> </span>contoso<span></span>.com*  |FQDN の外部アクセス エッジ  <br/>*Access1。<span> </span>contoso<span></span>.com*  |XMPP プロキシ サービスを受け入れるし、構成された XMPP フェデレーション パートナーとの間に、拡張可能なメッセージングおよびプレゼンス プロトコル (XMPP) メッセージを送信します。   |フェデレーションの展開のために必要です。それ以外の場合はオプションです  <br/> ビジネス サーバー 2019 の Skype では使用できません。|
 |SRV   |\_sipfederationtls。\_tcp です。* \<sipdomain\> * <br/>\_sipfederationtls。\_tcp です。* <span> </span>contoso<span></span>.com*  |FQDN の外部アクセス エッジ  <br/>*Access1。<span> </span>contoso<span></span>.com*  |プッシュ通知サービスと Apple プッシュ通知サービスをサポートするには、SIP ドメインごとに 1 つの SRV レコードを作成します。 & #x 2778 です。  ||
-|A/AAAA   |フロント エンド プールの外部の web サービスの FQDN  <br/>*Web 内線<span></span>contoso<span></span>.com*  |リバース プロキシのパブリック IP アドレス、プロキシの外部 Web サービス用の VIP、フロント エンド プール & #x 2776。 <br/> 131.107.155.1 プロキシ 192.168.21.120   |フロント エンド プールの外部インターフェイスが Skype ビジネス Web アプリケーションの使用   |Y   |
+|A/AAAA   |フロント エンド プールの外部の web サービスの FQDN  <br/>*Web 内線<span></span>contoso<span></span>.com*  |プロキシのパブリック IP アドレスを逆に、外部 Web サービス用の VIP、フロント エンド プール & #x 2776; のプロキシ <br/> 131.107.155.1 プロキシ 192.168.21.120   |フロント エンド プールの外部インターフェイスが Skype ビジネス Web アプリケーションの使用   |Y   |
 |A/AAAA/CNAME   |lyncdiscover。* \<sipdomain\>* <br/> lyncdiscover。* <span> </span>contoso<span></span>.com*  |リバース プロキシのパブリック IP アドレスをディレクター プールの外部 Web サービスの VIP に解決を持っている場合、またはフロント エンド プールの場合ディレクター & #x 2777; する必要はありません。 <br/> 131.107.155.1 プロキシ 192.168.21.120   | リバース プロキシ サーバーによってクライアントの外部のレコード移動性、ビジネスの Web アプリケーション、およびスケジューラ Web アプリケーションでは、Skype で使用しても、自動検出の解決 <br/> 、プッシュ通知サービスと Apple プッシュ通知サービスをサポートするには、Microsoft Lync のモバイル クライアントが存在する SIP ドメインごとに 1 つの SRV レコードを作成します。 3  |Y   |
 |A/AAAA   |対応します。* \<sipdomain\>* <br/> 対応します。* <span> </span>contoso<span></span>.com*  |リバース プロキシのパブリック IP アドレス、フロント エンド プールの外部 Web インターフェイスへの解決  <br/> 131.107.155.1 プロキシ 192.168.21.120   |Skype ビジネス Web サービスのプロキシ  <br/> [単純な Url](dns.md#BK_Simple)を参照してください。  |Y   |
 |A/AAAA   |ダイヤル部分は*\<sipdomain\>* <br/> ダイヤル部分は*<span></span>contoso<span></span>.com*  |プロキシのパブリック IP アドレスを逆にフロント エンド プールの外部 Web インターフェイスへのプロキシ  <br/> 131.107.155.1 プロキシ 192.168.21.120   |Skype ビジネス Web サービスのプロキシ  <br/> [単純な Url](dns.md#BK_Simple)を参照してください。  |Y   |
@@ -123,7 +123,7 @@ DNS Skype のビジネス サーバー展開計画組織の設置型のネット
 ## <a name="hybrid-considerations"></a>ハイブリッドの考慮事項
 <a name="BK_Hybrid"> </a>
 
-計画する場合は、一部のユーザーがオンライン ホームし、いくつかの上にホームが設置されている型は、[ビジネス サーバー 2019 の Skype](../../../SfBServer2019/hybrid/plan-hybrid-connectivity.md)の記事を計画するハイブリッド接続を参照してください。 ビジネス サーバー 2015 の Skype の通常の方法で DNS を構成し、またその他の DNS レコードを追加する必要があります。
+計画する場合は、一部のユーザーがオンライン ホームし、いくつかの上にホームが設置されている型は、[ビジネス サーバー 2019 の Skype](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)の記事を計画するハイブリッド接続を参照してください。 ビジネス サーバー 2015 の Skype の通常の方法で DNS を構成し、またその他の DNS レコードを追加する必要があります。
 
 ある「Office 365 の Url と IP アドレスの範囲」を参照することもする必要があります[https://aka.ms/o365ips](https://aka.ms/o365ips)ユーザーが必要なオンライン リソースへアクセスを持つことを確認します。
 

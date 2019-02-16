@@ -24,12 +24,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'オンにし、ビジネス オンライン コール品質のダッシュ ボードに、Skype を使用し、通話の品質の概要のレポートを取得する方法を参照してください。 '
-ms.openlocfilehash: 008fbeca5ae9b81d74e9a38f60c12a6fc1f919cc
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 18c5c87d437235733e9ffc7c8a1ec60883a33305
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373809"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069618"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>有効にして、マイクロソフトのチームと Skype のオンライン ビジネスの品質のダッシュ ボードの呼び出しを使用して
 
@@ -86,17 +86,17 @@ ms.locfileid: "25373809"
 |**機能**|**サマリー ・ レポート**|**詳細なレポート**|
 |:-----|:-----|:-----|
 |アプリケーション共有の指標  <br/> |なし  <br/> |あり  <br/> |
-|お客様の情報のサポートを構築します。  <br/> |あり  <br/> |あり  <br/> |
+|お客様の情報のサポートを構築します。  <br/> |あり  <br/> |可  <br/> |
 |ドリルダウン分析サポート  <br/> |なし  <br/> |あり  <br/> |
 |メディアの信頼性の指標  <br/> |なし  <br/> |あり  <br/> |
-|ボックスのレポート  <br/> |あり  <br/> |あり  <br/> |
-|プロジェクト概要のレポート  <br/> |あり  <br/> |あり  <br/> |
+|ボックスのレポート  <br/> |あり  <br/> |可  <br/> |
+|プロジェクト概要のレポート  <br/> |あり  <br/> |可  <br/> |
 |ユーザーごとにレポートのセット  <br/> |なし  <br/> |あり  <br/> |
 |レポートのカスタマイズの設定 (追加、削除、レポートの変更)  <br/> |なし  <br/> |あり  <br/> |
 |ビデオ ベースの画面の測定値を共有  <br/> |なし  <br/> |あり  <br/> |
 |ビデオの測定基準  <br/> |なし  <br/> |あり  <br/> |
 |利用可能なデータ量です。  <br/> |過去 6 か月  <br/> |過去 6 か月  <br/> |
-|マイクロソフト チームのデータ  <br/> |あり  <br/> |あり  <br/> |
+|マイクロソフト チームのデータ  <br/> |あり  <br/> |可  <br/> |
    
 ### <a name="out-of-the-box-reports"></a>ボックスのレポート
 
@@ -167,7 +167,7 @@ ms.locfileid: "25373809"
 > Wifi ネットワークに接続されている 2 つのエンドポイントのいずれかの場合に、ストリームを指定し、として分類されます救難の Wifi。 
   
 ## <a name="selecting-product-data-to-see-in-reports"></a>レポートに表示する製品データを選択します。
-<a name="BKMKFeaturesOfTheCQD"> </a>
+<a name="BKMKProductFilter"></a>
 
 製品のすべてのデータを表示するのには**製品のフィルター**のドロップダウン メニューを使用する概要および強化されたレポートの場所では、マイクロソフトのチームのデータのみに使用する場合、またはオンライン ビジネスのデータを Skype だけです。
   
@@ -176,7 +176,7 @@ ms.locfileid: "25373809"
 詳細なレポートは、マイクロソフトのチームまたは Skype のオンライン ビジネスのデータをレポートの定義の一部としてデータをフィルター選択するのには **、チーム**の分析コードを使用できます。
   
 ## <a name="upload-building-information"></a>アップロードの構築について
-<a name="BKMKFeaturesOfTheCQD"> </a>
+<a name="BKMKBuildingInformationUpload"></a>
 
 救難の概要レポートのダッシュ ボードには、**テナントのデータのアップロード**] ページで、右上隅で [設定] メニューから**テナントのデータのアップロード**を選択することによってアクセスが含まれています。 このページは地理的な情報は、IP アドレスのマッピングなど、独自の情報をアップロードするのには管理者の使用などの各ワイヤレス AP とその MAC アドレスのマッピング、します。
   
@@ -223,18 +223,18 @@ ms.locfileid: "25373809"
     
 |**列名**|**データ型**|**例**|
 |:-----|:-----|:-----|
-|ネットワーク  <br/> |文字列  <br/> |192.168.1.0  <br/> |
-|ネットワーク名リソース  <br/> |文字列  <br/> |米国/シアトル/シアトル-海-1  <br/> |
+|ネットワーク  <br/> |String  <br/> |192.168.1.0  <br/> |
+|ネットワーク名リソース  <br/> |String  <br/> |米国/シアトル/シアトル-海-1  <br/> |
 |NetworkRange  <br/> |数値  <br/> |26  <br/> |
-|BuildingName  <br/> |文字列  <br/> |シアトル-海-1  <br/> |
-|OwnershipType  <br/> |文字列  <br/> |Contoso 社  <br/> |
-|BuildingType  <br/> |文字列  <br/> |IT 終了  <br/> |
-|BuildingOfficeType  <br/> |文字列  <br/> |エンジニア リング  <br/> |
-|市区町村  <br/> |文字列  <br/> |調布市調布ヶ丘  <br/> |
-|ZipCode  <br/> |文字列  <br/> |98001  <br/> |
-|国  <br/> |文字列  <br/> |ご  <br/> |
-|都道府県  <br/> |文字列  <br/> |WA  <br/> |
-|Region  <br/> |文字列  <br/> |MSU  <br/> |
+|BuildingName  <br/> |String  <br/> |シアトル-海-1  <br/> |
+|OwnershipType  <br/> |String  <br/> |Contoso 社  <br/> |
+|BuildingType  <br/> |String  <br/> |IT 終了  <br/> |
+|BuildingOfficeType  <br/> |String  <br/> |エンジニア リング  <br/> |
+|市区町村  <br/> |String  <br/> |調布市調布ヶ丘  <br/> |
+|ZipCode  <br/> |String  <br/> |98001  <br/> |
+|国  <br/> |String  <br/> |ご  <br/> |
+|都道府県  <br/> |String  <br/> |WA  <br/> |
+|Region  <br/> |String  <br/> |MSU  <br/> |
 |InsideCorp  <br/> |ブール値  <br/> |1  <br/> |
 |ExpressRoute  <br/> |ブール値  <br/> |0  <br/> |
    
@@ -242,7 +242,7 @@ ms.locfileid: "25373809"
 > スーパー (1 つのルーティング プレフィックスを持つ複数のサブネットの組み合わせ) を表すには、ネットワークの範囲を使用できます。 任意の重複する範囲のすべての新しい文書のアップロードがチェックされます。 以前構築ファイルをアップロードした場合は、現在のファイルをダウンロードし、再すべての重複を識別し、再度アップロードする前に問題を修正するのには。 レポート内にある建物にサブネットの誤ったマッピング以前アップロードしたファイルの重複している可能性があります。 特定の VPN 実装では、サブネット情報は正確に報告はありません。 お勧めする、サブネットの 1 つのエントリではなく、ファイルを作成する VPN のサブネットを追加するときに別のエントリとして追加されます VPN のサブネットのアドレスごとに別の 32 ビット ネットワーク。 各行には、同じ文書のメタデータを持つことができます。 などの 172.16.18.0/24 の 1 つの行ではなく 256 行は、172.16.18.0/32 と 172.16.18.255/32、包括的なアドレスごとに 1 行を持つ必要があります。 
   
 ## <a name="selecting-media-type-in-detailed-reports"></a>詳細なレポートにメディアの種類を選択します。
-<a name="BKMKFeaturesOfTheCQD"> </a>
+<a name="BKMKMediaType"></a>
 
 詳細なレポートでは、オーディオ、ビデオ、アプリケーション共有、および画面共有するメディアの種類のビデオ ・ ベースの品質とメディアの信頼性を見るをサポートします。 ディメンション、メジャー、および 1 つのメディアの種類に固有のフィルターをプレフィックスとして「オーディオ」、「ビデオ」、「AppSharing」、または「VBSS」があります。
   
@@ -257,7 +257,7 @@ ms.locfileid: "25373809"
 
 [分析機能の呼び出しを使用して不適切な通話の音質をトラブルシューティングするには](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[呼び出しを分析し、通話品質のダッシュ ボード](difference-between-call-analytics-and-call-quality-dashboard.md)
+[通話分析および通話品質ダッシュボード](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  

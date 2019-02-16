@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: '概要: は、Skype をビジネスのサーバーを実装する前にポートの使用法に関する考慮事項を確認します。'
-ms.openlocfilehash: b02f329fdc8209fa9143a966181180ed7cf3b0be
-ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
+ms.openlocfilehash: a014df31ad27e5ed89b97fd7ca09979d4cfb5661
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29690475"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069513"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>サーバーのポートとプロトコルの要件
  
@@ -31,7 +31,7 @@ ms.locfileid: "29690475"
   
 これらのテーブルをダイアグラムのフォームで情報を見つけると、[ビジネス サーバー 2015 の Skype の技術的な図](../../technical-diagrams.md)の記事からリンクされているプロトコル ワークロード ポスターを確認することによってことができます。
 > [!NOTE]
-> - Skype ビジネス オンライン (O365) を実装する場合は、 [Office 365 の Url と IP アドレスの範囲](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)を参照してください。 ハイブリッド環境は、このトピックと参照も[ハイブリッド接続を計画](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)する必要があります。
+> - Skype ビジネス オンライン (O365) を実装する場合は、 [Office 365 の Url と IP アドレスの範囲](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)を参照してください。 ハイブリッド環境は、このトピックと参照も[ハイブリッド接続を計画](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)する必要があります。
 > - ハードウェアまたはソフトウェアのファイアウォールを持つことができます、特定のモデルまたはバージョンを必要としないことです。 重要なは、どのようなポート whitelisted ファイアウォールはありませんビジネス サーバーの Skype の機能が損なわれるためです。
   
 ## <a name="port-and-protocol-details"></a>ポートとプロトコルの詳細
