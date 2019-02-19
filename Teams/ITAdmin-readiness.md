@@ -12,12 +12,12 @@ search.appverid: MET150
 description: トレーニング ビデオ、PowerPoint デッキ、チュートリアル、およびその他のリソースを計画する方法には、展開、およびマイクロソフトのチームを実行します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eda922ce0346a69d657789bdc13a6381254c2b3a
-ms.sourcegitcommit: 2ef6a05c659100eea0d92c729001cd4e14434b9f
+ms.openlocfilehash: 58f37fba985817b777ebce7c125b9cd5d80cc425
+ms.sourcegitcommit: 11f95d0df48a23e701ffaf3b26445d736cbbb884
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30062624"
+ms.lasthandoff: 02/18/2019
+ms.locfileid: "30079134"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 
@@ -94,7 +94,7 @@ ms.locfileid: "30062624"
 | 会議の概要 | [ビデオ](http://aka.ms/teams-meetings-intro) | [デッキ](http://aka.ms/teams-meetings-intro-deck) |
 | 電話システムの概要 | [ビデオ](http://aka.ms/teams-phone-system) | [デッキ](http://aka.ms/teams-phone-system-deck) |
 | 直接のルーティング | [ビデオ](http://aka.ms/teams-direct-routing) | [デッキ](http://aka.ms/teams-direct-routing-deck) |
-| Skype for Business から Teams へのアップグレード | [ビデオ 1: アップグレードの概要](https://aka.ms/teams-upgrade-intro)</br>[ビデオ 2: アップグレードを計画します。](https://aka.ms/teams-upgrade-plan)</br>[ビデオ 3: 共存と相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[ビデオ 4: 管理者の経験](https://aka.ms/teams-upgrade-admin) | [デッキ](htt://aka.ms/teams-upgrade-deck)|
+| Skype for Business から Teams へのアップグレード | [ビデオ 1: アップグレードの概要](https://aka.ms/teams-upgrade-intro)</br>[ビデオ 2: アップグレードを計画します。](https://aka.ms/teams-upgrade-plan)</br>[ビデオ 3: 共存と相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[ビデオ 4: 管理者の経験](https://aka.ms/teams-upgrade-admin) | [デッキ](http://aka.ms/teams-upgrade-deck)|
 
 <h2>クイック スタート ガイド</h2>
 
