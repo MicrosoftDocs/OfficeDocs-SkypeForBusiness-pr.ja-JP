@@ -143,8 +143,7 @@
 #### [Create a file share](../../SfbServer/deploy/install/create-a-file-share.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [管理ツールをインストールします。](../../SfbServer/deploy/install/install-administrative-tools.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Active Directory の準備](../../SfbServer/deploy/install/prepare-active-directory.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-#### 
-            「[DNS レコードの作成](../../SfbServer/deploy/install/create-dns-records.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)」
+#### [DNS レコードの作成](../../SfbServer/deploy/install/create-dns-records.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Create and publish new topology](../../SfbServer/deploy/install/create-and-publish-new-topology.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Skype for Business Server のインストール](../../SfbServer/deploy/install/install-skype-for-business-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [トポロジの確認](../../SfbServer/deploy/install/verify-the-topology.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
