@@ -3,65 +3,6 @@
 
 
 
-## <a name="week-of-january-07-2019"></a>2019 年 1 月 7 日の週
-
-
-| 発行日 |トピックのタイトル | 変更 |
-|------|------------|--------|
-| 2019/1/7 | [Microsoft Teams IP 電話機の購入と展開](/MicrosoftTeams/buying-and-deploying-teams-ip-phones) | 更新日時 |
-| 2019/1/8 | [Microsoft Teams IP 電話機の購入と展開](/MicrosoftTeams/buying-and-deploying-teams-ip-phones) | 更新日時 |
-| 2019/1/8 | [Microsoft Teams でのゲスト アクセス](/MicrosoftTeams/guest-access) | 更新日時 |
-| 2019/1/8 | [Microsoft Teams でゲスト アクセスを許可する](/MicrosoftTeams/teams-dependencies) | 更新日時 |
-| 2019/1/8 | [チームにゲストを追加する](/MicrosoftTeams/add-guests) | 更新日時 |
-| 2019/1/8 | [ゲスト ユーザー情報を編集する](/MicrosoftTeams/edit-guests-information) | 更新日時 |
-| 2019/1/8 | [PowerShell を使用してチームへのゲスト アクセスを制御する](/MicrosoftTeams/guest-access-powershell) | 更新日時 |
-| 2019/1/8 | [Microsoft Teams のゲスト アクセスのチェックリスト](/MicrosoftTeams/guest-access-checklist) | 更新日時 |
-| 2019/1/8 | [ゲストのエクスペリエンスについて](/MicrosoftTeams/guest-experience) | 更新日時 |
-| 2019/1/8 | [ゲストがチームに参加する方法](/MicrosoftTeams/guest-joins) | 更新日時 |
-| 2019/1/8 | [Microsoft Teams でのゲスト アクセスを管理する](/MicrosoftTeams/manage-guests) | 更新日時 |
-| 2019/1/8 | [Microsoft Teams へのゲスト アクセスをオンまたはオフにする](/MicrosoftTeams/set-up-guests) | 更新日時 |
-| 2019/1/8 | [チームのゲスト ユーザーを表示する](/MicrosoftTeams/view-guests) | 更新日時 |
-| 2019/1/9 | [Teams Only モードの考慮事項](/MicrosoftTeams/teams-only-mode-considerations) | 追加 |
-| 2019/1/9 | [アップグレードのフレームワークについて](/MicrosoftTeams/upgrade-framework) | 追加 |
-| 2019/1/9 | [Teams へのアップグレード - Microsoft Teams](/MicrosoftTeams/upgrade-introduction) | 追加 |
-| 2019/1/9 | [Microsoft Teams へのアップグレードを開始する](/MicrosoftTeams/upgrade-start-here) | 追加 |
-| 2019/1/9 | [Skype for Business のハイブリッド環境またはオンプレミス環境から Teams にアップグレードする - Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | 追加 |
-| 2019/1/9 | [Microsoft Teams の既知の問題](/MicrosoftTeams/known-issues) | 更新日時 |
-| 2019/1/9 | [Microsoft Teams でのサービスの品質 - Microsoft Teams](/MicrosoftTeams/qos-in-teams) | 更新日時 |
-| 2019/1/9 | [Microsoft Teams SMTP ドメインを承認済みの送信者ドメインとして Exchange Online に追加する](/MicrosoftTeams/smtp-accepted-domain) | 更新日時 |
-| 2019/1/9 | [Microsoft Teams で組み込みタブとカスタム タブを使用する](/MicrosoftTeams/built-in-custom-tabs) | 更新日時 |
-| 2019/1/9 | [バーレーンでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain) | 更新日時 |
-| 2019/1/9 | [ベラルーシでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus) | 更新日時 |
-| 2019/1/9 | [PSTN 接続を使用するハイブリッド環境でのユーザー アカウント](/MicrosoftTeams/direct-routing-user-accounts-in-a-hybrid-environment) | 更新日時 |
-| 2019/1/9 | [Microsoft Teams で最初のチームとチャネルを作成する](/MicrosoftTeams/get-started-with-teams-create-your-first-teams-and-channels) | 更新日時 |
-| 2019/1/9 | [Microsoft Teams で電話会議の自動案内の言語を設定する](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams) | 更新日時 |
-| 2019/1/9 | [Skype for Business と Microsoft Teams の共存と相互運用について理解する](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 更新日時 |
-| 2019/1/9 | [Skype for Business から Microsoft Teams にアップグレードする前に組織での変更に対する準備状況を評価する - Microsoft Teams](/MicrosoftTeams/upgrade-org-change-readiness) | 更新日時 |
-| 2019/1/9 | [Microsoft Teams 用の Upgrade Pro - Microsoft Teams](/MicrosoftTeams/upgrade-pro) | 更新日時 |
-| 2019/1/9 | [Skype for Business Online から Teams へのアップグレード - Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonline) | 更新日時 |
-| 2019/1/9 | [Microsoft Teams の管理者ロールを使用して Teams を管理する](/MicrosoftTeams/using-admin-roles) | 更新日時 |
-| 2019/1/9 | [Skype for Business のハイブリッド環境またはオンプレミス環境から Teams にアップグレードする - Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | 更新日時 |
-| 2019/1/10 | [Microsoft Teams のドキュメンテーションと実践的なガイダンス](/MicrosoftTeams/microsoft-teams) | 更新日時 |
-| 2019/1/10 | [Teams のテンプレートの使用を開始する](/MicrosoftTeams/get-started-with-teams-templates) | 更新日時 |
-| 2019/1/10 | [Microsoft Teams での使用状況とフィードバックを監視する](/MicrosoftTeams/get-started-with-teams-monitor-usage-and-feedback) | 更新日時 |
-| 2019/1/10 | [Microsoft Teams で組織のシフト アプリを管理する](/MicrosoftTeams/manage-the-shifts-app-for-your-organization-in-teams) | 追加 |
-| 2019/1/10 | [Microsoft Teams のデバイス使用状況レポート](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | 追加 |
-| 2019/1/10 | [Microsoft Teams の分析とレポート](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | 追加 |
-| 2019/1/10 | [Microsoft Teams の使用状況レポート](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | 追加 |
-| 2019/1/10 | [Microsoft Teams ユーザー アクティビティ レポート](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 追加 |
-| 2019/1/11 | [Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | 更新日時 |
-| 2019/1/11 | [採用を推進するためのツール](/MicrosoftTeams/adopt-tools-and-downloads) | 更新日時 |
-| 2019/1/11 | [クイック スタート - Microsoft Teams](/MicrosoftTeams/get-started-with-teams-quick-start) | 更新日時 |
-| 2019/1/11 | [Microsoft Teams でのチームとチャネルの概要を理解する](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) | 更新日時 |
-| 2019/1/11 | [アップグレードのフレームワークについて](/MicrosoftTeams/upgrade-framework) | 更新日時 |
-| 2019/1/11 | [Microsoft 365 米国政府機関向け DoD 展開の計画 - Microsoft Teams](/MicrosoftTeams/plan-for-government-dod) | 追加 |
-| 2019/1/11 | [Microsoft Teams でのアプリの管理設定](/MicrosoftTeams/admin-settings) | 更新日時 |
-| 2019/1/11 | [直接ルーティングを構成する](/MicrosoftTeams/direct-routing-configure) | 更新日時 |
-| 2019/1/11 | [Office 365 の組織で Microsoft Teams の機能を管理する](/MicrosoftTeams/enable-features-office-365) | 更新日時 |
-| 2019/1/11 | [Microsoft 365 米国政府向けクラウド (GCC High) の展開の計画 - Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc-high) | 更新日時 |
-| 2019/1/11 | [Teams Only モードの考慮事項](/MicrosoftTeams/teams-only-mode-considerations) | 更新日時 |
-
-
 ## <a name="week-of-january-14-2019"></a>2019 年 1 月 14 日の週
 
 
@@ -331,4 +272,222 @@
 | 2019/2/7 | [ダイレクト ルーティングの場所に基づくルーティングを計画する](/MicrosoftTeams/location-based-routing-plan) | 更新 |
 | 2019/2/7 | [場所に基づくルーティングの用語集](/MicrosoftTeams/location-based-routing-terminology) | 更新 |
 | 2019/2/8 | [Skype for Business と共存する](/MicrosoftTeams/coexistence-chat-calls-presence) | 更新 |
-| 2019/2/8 | [Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | 更新 |
+| 2019/2/8 | [Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | 修正 |
+
+
+## <a name="week-of-february-11-2019"></a>2019 年 2 月 11 日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 2019/2/11 | [Microsoft Teams のアプリのセットアップ ポリシーを管理する](/MicrosoftTeams/teams-app-setup-policies) | 追加 |
+| 2019/2/11 | [Teams のリソース アカウントを管理する](/MicrosoftTeams/manage-resource-accounts) | 修正 |
+| 2019/2/11 | [Microsoft 365 米国政府向けクラウド (GCC) の展開の計画 - Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc) | 修正 |
+| 2019/2/12 | [Teams または Skype for Business Online 向けのプロキシ サーバー](/MicrosoftTeams/proxy-servers-for-skype-for-business-online) | 名称変更 |
+| 2019/2/12 | [Office 365 の URL と IP アドレスの範囲](/MicrosoftTeams/office-365-urls-ip-address-ranges) | 修正 |
+| 2019/2/12 | [Microsoft Teams のサービス管理ガイドの計画](/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide) | 修正 |
+| 2019/2/12 | [Teams のリソース アカウントを管理する](/MicrosoftTeams/manage-resource-accounts) | 修正 |
+| 2019/2/12 | [Microsoft 365 米国政府向けクラウド (GCC) の展開の計画 - Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc) | 修正 |
+| 2019/2/12 | [Microsoft Teams のエクスペリエンスの品質レビュー ガイド](/MicrosoftTeams/quality-of-experience-review-guide) | 修正 |
+| 2019/2/12 | [サービス管理と品質の計画 | 技術面の準備状況](/MicrosoftTeams/upgrade-plan-for-quality) | 修正 |
+| 2019/2/12 | [ダイレクト ルーティングの場所に基づくルーティングを計画する](/MicrosoftTeams/location-based-routing-plan) | 修正 |
+| 2019/2/12 | [Teams のクライアント エクスペリエンスおよび共存モードへの準拠](/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes) | 追加 |
+| 2019/2/13 | [Exchange と Microsoft Teams の連携](/MicrosoftTeams/exchange-teams-interact) | 修正 |
+| 2019/2/13 | [Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | 修正 |
+| 2019/2/13 | [Teams のクライアント エクスペリエンスおよび共存モードへの準拠](/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes) | 修正 |
+| 2019/2/13 | [Microsoft Teams の制限事項と仕様](/MicrosoftTeams/limits-specifications-teams) | 修正 |
+| 2019/2/13 | [Microsoft Teams のユーザー アクティビティ レポートを使用する](/MicrosoftTeams/teams-activity-reports) | 修正 |
+| 2019/2/14 | [場所に基づくルーティングのネットワーク設定を構成する](/MicrosoftTeams/location-based-routing-configure-network-settings) | 修正 |
+| 2019/2/14 | [ダイレクト ルーティングの場所に基づくルーティングを有効にする](/MicrosoftTeams/location-based-routing-enable) | 修正 |
+| 2019/2/14 | [資金を追加してコミュニケーション クレジットを管理する](/MicrosoftTeams/add-funds-and-manage-communications-credits) | 修正 |
+| 2019/2/14 | [Office 365 の通話プラン](/MicrosoftTeams/calling-plans-for-office-365) | 修正 |
+| 2019/2/14 | [応答メッセージとメールに使用する既定の言語を変更する](/MicrosoftTeams/change-the-default-language-for-greetings-and-emails) | 修正 |
+| 2019/2/14 | [アルゼンチンでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina) | 修正 |
+| 2019/2/14 | [オーストラリアでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia) | 修正 |
+| 2019/2/14 | [オーストリアでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria) | 修正 |
+| 2019/2/14 | [バーレーンでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain) | 修正 |
+| 2019/2/14 | [ベラルーシでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus) | 修正 |
+| 2019/2/14 | [ベルギーでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium) | 修正 |
+| 2019/2/14 | [ベリーズでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize) | 修正 |
+| 2019/2/14 | [ボスニア・ヘルツェゴビナでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina) | 修正 |
+| 2019/2/14 | [ブラジルでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil) | 修正 |
+| 2019/2/14 | [ブルネイでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei) | 修正 |
+| 2019/2/14 | [ブルガリアでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria) | 修正 |
+| 2019/2/14 | [カナダでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada) | 修正 |
+| 2019/2/14 | [チリでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-chile) | 修正 |
+| 2019/2/14 | [中国での利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-china) | 修正 |
+| 2019/2/14 | [コロンビアでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-colombia) | 修正 |
+| 2019/2/14 | [コスタリカでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-costa-rica) | 修正 |
+| 2019/2/14 | [クロアチアでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-croatia) | 修正 |
+| 2019/2/14 | [キプロスでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cyprus) | 修正 |
+| 2019/2/14 | [デンマークでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-denmark) | 修正 |
+| 2019/2/14 | [エクアドルでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ecuador) | 修正 |
+| 2019/2/14 | [エジプトでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-egypt) | 修正 |
+| 2019/2/14 | [エルサルバドルでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador) | 修正 |
+| 2019/2/14 | [エストニアでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-estonia) | 修正 |
+| 2019/2/14 | [フィンランドでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland) | 修正 |
+| 2019/2/14 | [フランスでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france) | 修正 |
+| 2019/2/14 | [ジョージアでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia) | 修正 |
+| 2019/2/14 | [ドイツでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany) | 修正 |
+| 2019/2/14 | [ギリシャでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece) | 修正 |
+| 2019/2/14 | [ホンジュラスでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras) | 修正 |
+| 2019/2/14 | [香港での利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong) | 修正 |
+| 2019/2/14 | [ハンガリーでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary) | 修正 |
+| 2019/2/14 | [インドでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india) | 修正 |
+| 2019/2/14 | [インドネシアでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-indonesia) | 修正 |
+| 2019/2/14 | [アイルランドでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ireland) | 修正 |
+| 2019/2/14 | [イスラエルでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-israel) | 修正 |
+| 2019/2/14 | [イタリアでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy) | 修正 |
+| 2019/2/14 | [日本での利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan) | 修正 |
+| 2019/2/14 | [ヨルダンでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jordan) | 修正 |
+| 2019/2/14 | [ケニアでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kenya) | 修正 |
+| 2019/2/14 | [ラトビアでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-latvia) | 修正 |
+| 2019/2/14 | [リトアニアでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania) | 修正 |
+| 2019/2/14 | [ルクセンブルクでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg) | 修正 |
+| 2019/2/14 | [北マケドニア共和国での利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia) | 修正 |
+| 2019/2/14 | [マレーシアでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia) | 修正 |
+| 2019/2/14 | [マルタでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta) | 修正 |
+| 2019/2/14 | [メキシコでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico) | 修正 |
+| 2019/2/14 | [モルドバでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova) | 修正 |
+| 2019/2/14 | [モナコでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco) | 修正 |
+| 2019/2/14 | [ニュージーランドでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand) | 修正 |
+| 2019/2/14 | [ノルウェーでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway) | 修正 |
+| 2019/2/14 | [パキスタンでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan) | 修正 |
+| 2019/2/14 | [パナマでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-panama) | 修正 |
+| 2019/2/14 | [パラグアイでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-paraguay) | 修正 |
+| 2019/2/14 | [ペルーでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-peru) | 修正 |
+| 2019/2/14 | [ポーランドでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-poland) | 修正 |
+| 2019/2/14 | [ポルトガルでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-portugal) | 修正 |
+| 2019/2/14 | [プエルトリコでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-puerto-rico) | 修正 |
+| 2019/2/14 | [カタールでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-qatar) | 修正 |
+| 2019/2/14 | [ルーマニアでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-romania) | 修正 |
+| 2019/2/14 | [ロシアでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-russia) | 修正 |
+| 2019/2/14 | [サウジアラビアでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saudi-arabia) | 修正 |
+| 2019/2/14 | [セルビアでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-serbia) | 修正 |
+| 2019/2/14 | [シンガポールでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-singapore) | 修正 |
+| 2019/2/14 | [スロバキアでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovakia) | 修正 |
+| 2019/2/14 | [スロベニアでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovenia) | 修正 |
+| 2019/2/14 | [南アフリカでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa) | 修正 |
+| 2019/2/14 | [韓国での利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-korea) | 修正 |
+| 2019/2/14 | [スペインでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain) | 修正 |
+| 2019/2/14 | [スリランカでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka) | 修正 |
+| 2019/2/14 | [スウェーデンでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden) | 修正 |
+| 2019/2/14 | [スイスでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland) | 修正 |
+| 2019/2/14 | [台湾での利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan) | 修正 |
+| 2019/2/14 | [タイでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand) | 修正 |
+| 2019/2/14 | [チェコ共和国での利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-czech-republic) | 修正 |
+| 2019/2/14 | [ドミニカ共和国での利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-dominican-republic) | 修正 |
+| 2019/2/14 | [オランダでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands) | 修正 |
+| 2019/2/14 | [フィリピンでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-philippines) | 修正 |
+| 2019/2/14 | [ウクライナでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine) | 修正 |
+| 2019/2/14 | [アラブ首長国連邦 (UAE) での利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae) | 修正 |
+| 2019/2/14 | [英国での利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k) | 修正 |
+| 2019/2/14 | [米国での利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s) | 修正 |
+| 2019/2/14 | [トリニダード・トバゴでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago) | 修正 |
+| 2019/2/14 | [トルコでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey) | 修正 |
+| 2019/2/14 | [ウルグアイでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay) | 修正 |
+| 2019/2/14 | [ベネズエラでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela) | 修正 |
+| 2019/2/14 | [ベトナムでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam) | 修正 |
+| 2019/2/14 | [国および地域ごとの電話会議および通話プランの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 修正 |
+| 2019/2/14 | [ユーザーが通話を発信できる相手先の国や地域](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions) | 修正 |
+| 2019/2/14 | [ダイヤル プランを作成および管理する](/MicrosoftTeams/create-and-manage-dial-plans) | 修正 |
+| 2019/2/14 | [通話プランで使用されるさまざまな種類の電話番号](/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans) | 修正 |
+| 2019/2/14 | [国および地域ごとの電話会議および通話プランの利用可能性](/MicrosoftTeams/emergency-calling-labels) | 修正 |
+| 2019/2/14 | [緊急通話の利用条件](/MicrosoftTeams/emergency-calling-terms-and-conditions) | 修正 |
+| 2019/2/14 | [Office 365 での電話システムで利用できる機能](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 修正 |
+| 2019/2/14 | [取得できる電話番号の数について](/MicrosoftTeams/how-many-phone-numbers-can-you-get) | 修正 |
+| 2019/2/14 | [ボイスメールの応答メッセージとメッセージで使用する言語](/MicrosoftTeams/languages-for-voicemail-greetings-and-messages) | 修正 |
+| 2019/2/14 | [組織の電話番号を管理する](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | 修正 |
+| 2019/2/14 | [オーストラリアでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia) | 修正 |
+| 2019/2/14 | [ベルギーでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | 修正 |
+| 2019/2/14 | [カナダでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-canada) | 修正 |
+| 2019/2/14 | [フランスでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | 修正 |
+| 2019/2/14 | [ドイツでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany) | 修正 |
+| 2019/2/14 | [アイルランドでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | 修正 |
+| 2019/2/14 | [スペインでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-spain) | 修正 |
+| 2019/2/14 | [オランダでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands) | 修正 |
+| 2019/2/14 | [英国での電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k) | 修正 |
+| 2019/2/14 | [米国での電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | 修正 |
+| 2019/2/14 | [Microsoft Teams オンライン通話のフロー](/MicrosoftTeams/microsoft-teams-online-call-flows) | 修正 |
+| 2019/2/14 | [通話プランの設定](/MicrosoftTeams/set-up-calling-plans) | 修正 |
+| 2019/2/14 | [組織用にコミュニケーション クレジットをセットアップする](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | 修正 |
+| 2019/2/14 | [電話システム ボイスメールをセットアップする](/MicrosoftTeams/set-up-phone-system-voicemail) | 修正 |
+| 2019/2/14 | [組織内の電話システムの設定](/MicrosoftTeams/setting-up-your-phone-system) | 修正 |
+| 2019/2/14 | [アルゼンチンでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina) | 修正 |
+| 2019/2/14 | [ベラルーシでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus) | 修正 |
+| 2019/2/14 | [ベリーズでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize) | 修正 |
+| 2019/2/14 | [ボスニア・ヘルツェゴビナでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina) | 修正 |
+| 2019/2/14 | [ブラジルでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil) | 修正 |
+| 2019/2/14 | [ブルネイでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei) | 修正 |
+| 2019/2/14 | [ブルガリアでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria) | 修正 |
+| 2019/2/14 | [チリでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile) | 修正 |
+| 2019/2/14 | [中国北部でのフリーダイヤル制限 (10 800 714 XXXX の範囲)](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range) | 修正 |
+| 2019/2/14 | [中国南部でのフリーダイヤル制限 (10 800 140 XXXX の範囲)](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range) | 修正 |
+| 2019/2/14 | [コロンビアでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia) | 修正 |
+| 2019/2/14 | [クロアチアでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia) | 修正 |
+| 2019/2/14 | [キプロスでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus) | 修正 |
+| 2019/2/14 | [デンマークでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-denmark) | 修正 |
+| 2019/2/14 | [エクアドルでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ecuador) | 修正 |
+| 2019/2/14 | [エジプトでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt) | 修正 |
+| 2019/2/14 | [エストニアでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-estonia) | 修正 |
+| 2019/2/14 | [フィンランドでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-finland) | 修正 |
+| 2019/2/14 | [フランスでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france) | 修正 |
+| 2019/2/14 | [ドイツでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany) | 修正 |
+| 2019/2/14 | [ホンジュラスでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras) | 修正 |
+| 2019/2/14 | [香港でのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong) | 修正 |
+| 2019/2/14 | [ハンガリーでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary) | 修正 |
+| 2019/2/14 | [インドでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india) | 修正 |
+| 2019/2/14 | [インドネシアでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia) | 修正 |
+| 2019/2/14 | [アイルランドでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland) | 修正 |
+| 2019/2/14 | [イスラエルでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel) | 修正 |
+| 2019/2/14 | [日本でのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan) | 修正 |
+| 2019/2/14 | [ケニアでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya) | 修正 |
+| 2019/2/14 | [ルクセンブルクでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg) | 修正 |
+| 2019/2/14 | [マレーシアでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia) | 修正 |
+| 2019/2/14 | [メキシコでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico) | 修正 |
+| 2019/2/14 | [モルドバでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova) | 修正 |
+| 2019/2/14 | [モナコでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco) | 修正 |
+| 2019/2/14 | [パナマでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-panama) | 修正 |
+| 2019/2/14 | [パラグアイでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-paraguay) | 修正 |
+| 2019/2/14 | [ペルーでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-peru) | 修正 |
+| 2019/2/14 | [ポーランドでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-poland) | 修正 |
+| 2019/2/14 | [ポルトガルでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal) | 修正 |
+| 2019/2/14 | [カタールでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-qatar) | 修正 |
+| 2019/2/14 | [ルーマニアでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-romania) | 修正 |
+| 2019/2/14 | [サウジアラビアでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-saudi-arabia) | 修正 |
+| 2019/2/14 | [セルビアでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-serbia) | 修正 |
+| 2019/2/14 | [シンガポールでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-singapore) | 修正 |
+| 2019/2/14 | [スロバキアでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovakia) | 修正 |
+| 2019/2/14 | [スロベニアでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia) | 修正 |
+| 2019/2/14 | [南アフリカでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa) | 修正 |
+| 2019/2/14 | [韓国でのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea) | 修正 |
+| 2019/2/14 | [スペインでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain) | 修正 |
+| 2019/2/14 | [スウェーデンでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden) | 修正 |
+| 2019/2/14 | [台湾でのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan) | 修正 |
+| 2019/2/14 | [タイでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand) | 修正 |
+| 2019/2/14 | [オランダでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands) | 修正 |
+| 2019/2/14 | [フィリピンでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-philippines) | 修正 |
+| 2019/2/14 | [アラブ首長国連邦でのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates) | 修正 |
+| 2019/2/14 | [イギリスでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k) | 修正 |
+| 2019/2/14 | [トルコでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey) | 修正 |
+| 2019/2/14 | [ウルグアイでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay) | 修正 |
+| 2019/2/14 | [ベネズエラでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela) | 修正 |
+| 2019/2/14 | [ベトナムでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam) | 修正 |
+| 2019/2/14 | [Office 365 に電話番号を転送する](/MicrosoftTeams/transfer-phone-numbers-to-office-365) | 修正 |
+| 2019/2/14 | [電話番号の移行に関するよくある質問](/MicrosoftTeams/transferring-phone-numbers-common-questions) | 修正 |
+| 2019/2/14 | [コミュニケーション クレジットについて](/MicrosoftTeams/what-are-communications-credits) | 修正 |
+| 2019/2/14 | [ダイヤル プランについて](/MicrosoftTeams/what-are-dial-plans) | 修正 |
+| 2019/2/14 | [緊急対応の場所、アドレス、通話ルーティングの概要](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | 修正 |
+| 2019/2/14 | [電話システムの自動応答とは](/MicrosoftTeams/what-are-phone-system-auto-attendants) | 修正 |
+| 2019/2/14 | [Office 365 の電話システムとは](/MicrosoftTeams/what-is-phone-system-in-office-365) | 修正 |
+| 2019/2/14 | [発信通話でのトランクのフェイルオーバー](/MicrosoftTeams/direct-routing-trunk-failover-on-outbound-call) | 修正 |
+| 2019/2/14 | [会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-in-teams) | 修正 |
+| 2019/2/14 | [会議の設定を管理する](/MicrosoftTeams/meeting-settings-in-teams) | 修正 |
+| 2019/2/14 | [メッセージング ポリシーを管理する](/MicrosoftTeams/messaging-policies-in-teams) | 修正 |
+| 2019/2/14 | [Microsoft Teams のセキュリティとコンプライアンスの概要](/MicrosoftTeams/security-compliance-overview) | 修正 |
+| 2019/2/15 | [Microsoft Teams でのゲスト アクセス](/MicrosoftTeams/guest-access) | 修正 |
+| 2019/2/15 | [Microsoft Teams の管理者トレーニング](/MicrosoftTeams/itadmin-readiness) | 修正 |
+| 2019/2/15 | [チームの動的なメンバーシップの概要](/MicrosoftTeams/dynamic-memberships) | 修正 |
+| 2019/2/15 | [Microsoft Teams 用の電話機](/MicrosoftTeams/phones-for-teams) | 修正 |
+| 2019/2/15 | [通話分析および通話品質ダッシュボード](/MicrosoftTeams/difference-between-call-analytics-and-call-quality-dashboard) | 修正 |
+| 2019/2/15 | [通話品質ダッシュボードをオンにして使用する](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 修正 |
