@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5353079da3cc697d88983407db97c2d8894ea7a8
-ms.sourcegitcommit: 47b29c15ca3cf1676168608537613f3b841dbfcb
+ms.openlocfilehash: 8cc7f27d244b557b96f79b62247ae887a083a0e6
+ms.sourcegitcommit: d8a68433949edfbbece628dd0e1c0ce9205ba0a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "29992858"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "30087845"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -74,9 +74,9 @@ ms.locfileid: "29992858"
 モードに基づいてユーザー エクスペリエンスの自動準拠のロールアウトする前に、`Grant-csTeamsUpgradePolicy`コマンドレットの場合は、これらを決定するには、TeamsMessagingPolicy、TeamsCallingPolicy、および TeamsMeetingPolicy に対応する設定の構成をチェックします。設定は、指定したモードと互換性があります。 いずれかが正しく構成されていません場合、は、補助金は成功しますが、警告が行われます PowerShell でどの特定の設定が正しく構成されていないことを示します。 以下のようになりますが、PowerShell の警告の例に示します。
 
 
-`PS C:\Users\janedoe> Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab
-WARNING: The user 'user1@contoso.com' currently has effective policy enabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the near term, when granting TeamsUpgradePolicy with mode=SfBWithTeamsCollab to a user, you must also separately assign policy to ensure the user has effective policy disabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the future, the capability will automatically honor TeamsUpgradePolicy.
-PS C:\Users\janedoe>`
+`Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
+
+*警告: ユーザー 'user1@contoso.com' は現在の有効なポリシーが有効になっている値が: AllowUserChat、AllowPrivateCalling、AllowPrivateMeetingScheduling、AllowChannelMeetingScheduling。当面は、モードでは TeamsUpgradePolicy を付与する場合 = SfBWithTeamsCollab、ユーザーにする必要がありますも個別にポリシーを割り当てるユーザーの有効なポリシーが無効になっている値を持っていることを確認する: AllowUserChat、AllowPrivateCalling、AllowPrivateMeetingScheduling、AllowChannelMeetingScheduling。今後、機能は自動的に TeamsUpgradePolicy を優先します。*
 
 このような警告を表示するには、時に、管理者はチームで互換性のあるエンド ユーザー エクスペリエンスを提供するのには示されているポリシーを後で更新する必要があります。 管理者は、警告の結果としてのアクションは実行しませんが場合、ユーザー可能性があります、チャットへのアクセスを呼び出すと、または会議の TeamsMessagingPolicy、TeamsCallingPolicy、TeamsMeetingPolicy の値に応じてチームでのスケジュール設定機能エンド ユーザー エクスペリエンスに混乱する可能性があります。
 

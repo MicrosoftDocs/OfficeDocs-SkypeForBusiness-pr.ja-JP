@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be2e95d7be359856d5aef4f67664ef27ee62fa74
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: cdaa51072df7ffeeb2aeb2c66e73f07b0c0c0569
+ms.sourcegitcommit: d8a68433949edfbbece628dd0e1c0ce9205ba0a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562614"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "30087821"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Microsoft Teams へのユーザー アクセスを管理する
 =====================================
@@ -50,7 +50,7 @@ E3 または E5 といったライセンス SKU をユーザーに割り当て�
 > [!IMPORTANT]
 > MsolLicenseOptions では新しいがない限り、以前に無効にされたすべてのサービスを有効にする、カスタマイズされたスクリプトでは identitied explictitly です。 例として、両方の Exchange & 135、139、445、チームの無効化中に無効になっている影響を与えるのままにする場合はする必要があります各自にこのスクリプトに影響を与えるが有効になりますが認められたユーザーの両方の Exchange &。 この機能を管理するために GUI を利用する場合を参照してください: [Office 365 のライセンスのレポートおよび管理ツールを一括で削除するライセンスを割り当てる](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)
 
-PowerShell からワークロード ライセンスとして Teams を有効または無効にすることは、別のワークロードとして実行されます。 Microsoft Teams ではサービス プランの名前は TEAMS1 になります。 政府サービス計画の名前は TEAMS_GOV です。 (詳細については、「[Office 365 PowerShell を使用してサービスへのアクセスを無効にする](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell)」をご覧ください。)
+PowerShell からワークロード ライセンスとして Teams を有効または無効にすることは、別のワークロードとして実行されます。 Microsoft Teams ではサービス プランの名前は TEAMS1 になります。 GCC のサービス計画の名前は TEAMS_GOV です。 GCC の高いサービス プラン名の TEAMS_GCCHIGH。 DoD サービス計画の名前は TEAMS_DOD の (「」を参照[へのアクセスを無効にするには、Office 365 の PowerShell でサービス](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell)の詳細についてです。)
 
 **サンプル:** クイック サンプルだけに特定のライセンスの種類のすべてのユーザーのチームを無効する方法を次に示します。 まずこの方法を行い、次にパイロットで使用する目的でアクセスが必要なユーザーに対して個別に有効にする必要があります。
 
