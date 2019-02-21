@@ -1,5 +1,5 @@
 ---
-title: チームが Microsoft Office 365 に電話会議を購入するか
+title: Microsoft Teams で Office 365 の Skype の電話会議を試用または購入する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,14 +21,14 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Office 365 の電話会議 (PSTN 会議) ライセンスを試す方法または購入する方法を参照して、ダイヤル インできる電話会議をセットアップしてください。 '
-ms.openlocfilehash: 1b04a2506bd495165afcdf3e9f41ed6db6cd9252
-ms.sourcegitcommit: bd32d44d27990e373ce6afa38897159473601113
+ms.openlocfilehash: 58abec46586e93c2eb9b7fccdc1190cf9cf4c778
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "26544405"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120759"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>チームが Microsoft Office 365 に電話会議を購入するか
+# <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Microsoft Teams で Office 365 の Skype の電話会議を試用または購入する
 
 自分の組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 マイクロソフトのチームには、これだけの電話会議機能が含まれています! 人は、マイクロソフト チームのアプリケーションを使用して、モバイル デバイスまたは PC 上ではなく、電話を使用してマイクロソフトのチーム ミーティング呼び出すことができます。
 
@@ -48,11 +48,11 @@ ms.locfileid: "26544405"
 
    - **試してみよう**を購入する前に: Office 365 エンタープライズ E5 の無料試用版となり、オーディオ会議にサインアップすることができます。 [Office 365 Enterprise E5 の試用版](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)を参照してください。
 
-   - **購入**: [Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)を参照してください。
+   - **購入**:[マイクロソフトのチームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
 
 3. 会議を計画したり主催しようとしてる組織のユーザーに対して購入した [一般法事向け Office 365 ライセンスの割り当てや削除](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) を行います。
 
-4. 電話会議のアドオン ライセンスおよびコミュニケーション クレジットのライセンスを購入した場合も割り当てます。 手順については、[ビジネスおよびマイクロソフトのチームのライセンスを Skype を割り当てる](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)を参照してください。
+4. 電話会議のアドオン ライセンスおよびコミュニケーション クレジットのライセンスを購入した場合も割り当てます。 手順については、[マイクロソフトのチームを割り当てるライセンス](assign-teams-licenses.md)を参照してください。
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>分数ごと従量課金制電話会議ライセンスを購入し割り当てる場合:
 

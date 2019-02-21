@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: a3ce04974eec062360bb6b0663255f079e097554
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 0bf506350a6e656d0143a968bcd0e884b47e5653
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532234"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120685"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議についての実践的なガイダンスを提供します。
 ============================================================
@@ -266,19 +266,19 @@ Network Readiness Assessment の結果により、必要なネットワーク最
 
 ## <a name="licensing-for-audio-conferencing"></a>電話会議のライセンス
 
-[電話会議ライセンス](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)は、Office 365 E5 サブスクリプション プランの一部、または Office 365 E1 または Office 365 E3 サブスクリプション プランへのアドオンとして利用できます。
+[電話会議ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)は、Office 365 E5 サブスクリプション プランの一部、または Office 365 E1 または Office 365 E3 サブスクリプション プランへのアドオンとして利用できます。
 
 > [!NOTE]
 > Teams での PSTN またはダイヤルイン会議は、サードパーティ<sup></sup>の電話会議プロバイダー (ACP) をサポートしません。<br>Skype for Business Online PSTN 会議を使用している場合は、Teams ですぐに電話会議を利用できます。
 
-無料電話の会議ブリッジ電話番号を提供したり、国際電話番号への会議ダイヤルアウトをサポートするには、組織の[通信クレジット](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)を設定する必要があります。
+無料電話の会議ブリッジ電話番号を提供したり、国際電話番号への会議ダイヤルアウトをサポートするには、組織の[通信クレジット](what-are-communications-credits.md)を設定する必要があります。
 
 > [!IMPORTANT]
 > 一部の国では通話無料の会議ブリッジ電話番号でのみサービスが提供されます。こうした国でダイヤルインをサポートするには、通信クレジットの使用が必須になります。
 
-通信クレジットを実装するには、最初に初回購入金額を決定します。 推奨される金額については、[コミュニケーション クレジット](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)の記事をご覧ください。
+通信クレジットを実装するには、最初に初回購入金額を決定します。 推奨される金額については、[コミュニケーション クレジット](what-are-communications-credits.md)の記事をご覧ください。
 
-[コミュニケーション クレジット](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) の記事には、組織が自動リチャージを使用する場合のリチャージ実行 (資金の最小金額) の推奨金額も記載されています。 自動リチャージの金額は実際の使用量に応じて決定する必要があります。 コミュニケーション クレジットの使用量を経時的に監視して、必要に応じてリチャージの金額を調整する必要があります。
+[コミュニケーション クレジット](what-are-communications-credits.md) の記事には、組織が自動リチャージを使用する場合のリチャージ実行 (資金の最小金額) の推奨金額も記載されています。 自動リチャージの金額は実際の使用量に応じて決定する必要があります。 コミュニケーション クレジットの使用量を経時的に監視して、必要に応じてリチャージの金額を調整する必要があります。
 
 <br>
 
@@ -324,7 +324,7 @@ Office 365 の電話会議サービスには次が含まれます。
 -   会議ブリッジでの複数言語のサポート (プライマリとセカンダリ)
 -   テナントの既定の電話番号
 
-提供される機能の詳細な説明については、「[Skype for Business および Microsoft Teams の電話会議のセットアップ](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)」と「[電話会議の電話番号](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)」をご覧ください。
+提供される機能の詳細な説明については、「[Skype for Business および Microsoft Teams の電話会議のセットアップ](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)」と「[電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md)」をご覧ください。
 
 > [!NOTE]
 > 専用の会議ブリッジ電話番号は、「[Skype for Business および Microsoft Teams サービスの電話番号を取得する](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」で説明されている適用可能なライセンス数に応じた、テナントごとに取得可能な電話番号の制限にカウントされます。 無料電話の会議ブリッジ電話番号では通信クレジットが必要になります。
@@ -334,7 +334,7 @@ Office 365 の電話会議サービスには次が含まれます。
 > [!NOTE]
 > Microsoft への電話番号の移行における複雑さは、国や地域、キャリヤ、関与する回路の数、その他多くの関連する要因によって大きく左右されます。 電話番号の移行を計画する場合は、「[Number Porting Guide (番号の移行ガイド)](https://go.microsoft.com/fwlink/?linkid=859011)」を参照してください。
 
-電話会議サービスへの電話番号の移行について詳しくは、「[Office 365 に電話番号を移行する](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)」をご覧ください。
+電話会議サービスへの電話番号の移行について詳しくは、「[Office 365 に電話番号を移行する](transfer-phone-numbers-to-office-365.md)」をご覧ください。
 
 <br>
 
@@ -432,7 +432,7 @@ Office 365 の電話システム機能には、次の 2 種類のダイヤル �
     -   **テナント - ユーザー ダイヤル プラン** - 特定のユーザーにのみ適用されるダイヤル プラン。
 
 > [!NOTE]
-> 詳細と例については、「[ダイヤル プランについて](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)」のドキュメントをご覧ください。
+> 詳細と例については、「[ダイヤル プランについて](what-are-dial-plans.md)」のドキュメントをご覧ください。
 
 ユーザーに有効なダイヤル プランを割り当てるには、サービス ダイヤル プラン (ユーザーが Office 365 を使用する場所に基づく) とテナント ダイヤル プラン (テナント - グローバル ダイヤル プランまたはテナント - ユーザー ダイヤル プランのいずれか) を組み合わせます。
 

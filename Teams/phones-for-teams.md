@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: この資料では、マイクロソフトのチームとチームの Microsoft 認定電話でサポートされる機能に認定されている電話の一覧について説明します。
-ms.openlocfilehash: b9f5b85219981f8fa4c67d5f2ed6e666fc7fada2
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: ac4e609378e23dde4a91fd45bee917ad5c1340d7
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069626"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120957"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft Teams 用の電話機
 
@@ -147,4 +147,4 @@ IP 電話の認定チームでサポートされる機能の高度な設定は�
 
 [チームの市場](http://office.com/teamsdevices)
 
-[IP 電話](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+[マイクロソフト チームの認定 IP 電話](/skypeforbusiness/certification/teams-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)

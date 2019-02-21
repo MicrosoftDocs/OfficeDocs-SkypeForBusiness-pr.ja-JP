@@ -1,5 +1,5 @@
 ---
-title: クライアント エクスペリエンスのチームとの共存モードへの準拠
+title: Teams のクライアント エクスペリエンスおよび共存モードへの準拠
 author: dearbeen
 ms.author: bjwhalen
 manager: serdars
@@ -13,16 +13,16 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cc7f27d244b557b96f79b62247ae887a083a0e6
-ms.sourcegitcommit: d8a68433949edfbbece628dd0e1c0ce9205ba0a0
+ms.openlocfilehash: bd81915739d9ad2087dec5b66595efd1c49e2c84
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "30087845"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120893"
 ---
 <a name="about-upgrade-basic"></a>
 
-# <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>クライアント エクスペリエンスのチームとの共存モードへの準拠
+# <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Teams のクライアント エクスペリエンスおよび共存モードへの準拠
 
 > [!NOTE]
 > このページは、ユーザーは、Skype のビジネス ・ モード (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) のいずれかで、時に、チームのクライアントの動作に重要な今後の変更点を説明します。
@@ -71,7 +71,7 @@ ms.locfileid: "30087845"
 |SfBWithTeamsCollab または SfBOnly|無効|無効|無効|無効|
 ||||||
 
-モードに基づいてユーザー エクスペリエンスの自動準拠のロールアウトする前に、`Grant-csTeamsUpgradePolicy`コマンドレットの場合は、これらを決定するには、TeamsMessagingPolicy、TeamsCallingPolicy、および TeamsMeetingPolicy に対応する設定の構成をチェックします。設定は、指定したモードと互換性があります。 いずれかが正しく構成されていません場合、は、補助金は成功しますが、警告が行われます PowerShell でどの特定の設定が正しく構成されていないことを示します。 以下のようになりますが、PowerShell の警告の例に示します。
+モードに基づいてユーザー エクスペリエンスの自動準拠のロールアウトする前に、`Grant-CsTeamsUpgradePolicy`コマンドレットの場合は、これらを決定するには、TeamsMessagingPolicy、TeamsCallingPolicy、および TeamsMeetingPolicy に対応する設定の構成をチェックします。設定は、指定したモードと互換性があります。 いずれかが正しく構成されていません場合、は、補助金は成功しますが、警告が行われます PowerShell でどの特定の設定が正しく構成されていないことを示します。 以下のようになりますが、PowerShell の警告の例に示します。
 
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`

@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 0570c454cdc3fc98fa6dfa4a8fe571714263421e
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: d5e246b42a2e90bf0808a574ed27ee76a4b60280
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048286"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120917"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>組織のために通信クレジットをセットアップする
 
@@ -44,18 +44,18 @@ ms.locfileid: "30048286"
   
 これを実行するには、 **電話会議または電話システムのライセンス** をユーザーに割り当てる必要があります。
   
-- **電話会議**ライセンスをユーザーに自分に割り当てます。 「[Skype for Business と Microsoft Teams のライセンスを割り当てる](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)」をご覧ください。
+- **電話会議**ライセンスをユーザーに自分に割り当てます。 [マイクロソフトのチームを割り当てるライセンス](assign-teams-licenses.md)を参照してください。
     
-    このライセンスを割り当てた後、電話会議を設定する必要があります。 手順については、 [Office 365 に電話会議を購入するか](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)を参照してください。
+    このライセンスを割り当てた後、電話会議を設定する必要があります。 手順については、 [Office 365 に電話会議を購入するか](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)を参照してください。
     
-- **電話システム**と国内または国内および海外の計画を呼び出してライセンスをユーザーに割り当てます。 「[Skype for Business と Microsoft Teams のライセンスを割り当てる](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)」をご覧ください。
+- **電話システム**と国内または国内および海外の計画を呼び出してライセンスをユーザーに割り当てます。 [マイクロソフトのチームを割り当てるライセンス](assign-teams-licenses.md)を参照してください。
     
     > [!NOTE]
     > 通信のクレジットの必須ではありませんが、まだも**国内を呼び出すことを計画**または、**国内および国際を呼び出す予定**のライセンスを割り当てる必要があります。
   
     これらのライセンスを割り当てたら、組織用に電話番号を取得し、それらの番号組織内のユーザーに割り当てる必要があります。詳しい手順については、「[通話プランのセットアップ](set-up-calling-plans.md)」をご覧ください。
     
-詳細については、「[Skype for Business と Microsoft Teams のアドオン ライセンス](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)」をご覧ください
+詳細については、[マイクロソフトのチームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>手順 2: 組織のためにコミュニケーション クレジットをセットアップする
 
@@ -113,7 +113,7 @@ Each organization will have a different usage of Calling Plan volume and rates t
     
 You can also see information by [signing in to the Office 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Subscriptions** > **Add subscriptions**.
   
-各機能に必要なライセンスの表を確認するには、「[Skype for Business と Microsoft Teams のアドオン ライセンス](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)」をご覧ください。
+ライセンスまたはライセンスの機能ごとにする必要があるテーブルを表示するには、[マイクロソフトのチームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
   
 ## <a name="related-topics"></a>関連トピック
 
@@ -123,9 +123,7 @@ You can also see information by [signing in to the Office 365 admin center](http
     
 - [呼び出しプランの設定](set-up-calling-plans.md) および [Office 365 の呼び出しプラン](calling-plans-for-office-365.md)
     
-- [利用可能残高を追加してコミュニケーション クレジットを管理する](add-funds-and-manage-communications-credits.md)
+- [資金を追加してコミュニケーション クレジットを管理する](add-funds-and-manage-communications-credits.md)
     
-- [クラウド コネクタを構成して](https://technet.microsoft.com/library/mt605228.aspx)、[クラウドのコネクタをダウンロード](https://aka.ms/CloudConnectorInstaller)
-
   
  

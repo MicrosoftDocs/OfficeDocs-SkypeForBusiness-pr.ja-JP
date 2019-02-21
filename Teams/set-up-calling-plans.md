@@ -1,5 +1,5 @@
 ---
-title: 通話プランのセットアップ
+title: 通話プランの設定
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -25,26 +25,26 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 5f617ecea591d76b5dcd3e7daa308e7f7a74d808
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 11dfac5c72845354aeaabcc4bf15bc9ae7cf815d
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047079"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120835"
 ---
-# <a name="set-up-calling-plans"></a>通話プランのセットアップ
+# <a name="set-up-calling-plans"></a>通話プランの設定
 ビジネス ユーザー向けの他の Skype への呼び出しを自由が、ユーザーが、組織では、外からの電話を呼び出せるようにする場合、国内を呼び出すことを計画、または、国際の呼び出し Office 365 で。 お客様のビジネスにこれを設定するのには簡単です。 
 
 ## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>手順 1: を確認する計画を呼び出し、国/地域で利用可能です
 [オーディオ会議や予定を呼び出すことで可用性を国や地域](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)に移動し、国または地域に関する計画を呼び出すには、利用可能時間情報だけでなく有料の電話会議、電話システム、およびフリー ダイヤル情報を取得するを選択数字、および通信のクレジットです。
   
 ## <a name="step-2-buy-and-assign-licenses"></a>手順 2: 購入し、ライセンスを割り当てる
-1. Office 365 の機能では、電話システムが計画に含まれていない場合は、**電話システム**のアドオンのライセンスを購入する必要があります。 **電話システム**用のライセンスを取得したら、 [Office 365 のプランを呼び出すこと](calling-plans-for-office-365.md)を購入します。 [Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)を参照してくださいし、計画とのライセンスを購入します。 
+1. Office 365 の機能では、電話システムが計画に含まれていない場合は、**電話システム**のアドオンのライセンスを購入する必要があります。 **電話システム**用のライセンスを取得したら、 [Office 365 のプランを呼び出すこと](calling-plans-for-office-365.md)を購入します。 [マイクロソフト チームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してくださいし、計画とのライセンスを購入します。 
     
     > [!TIP]
     > **電話システム**用のライセンスと Office 365 のプランを呼び出すことは、計画の呼び出しを購入するためのオプションを表示するには、**電話システム**のライセンスを最初にいる必要がありますので、移動します。
   
-2. 最初のライセンスを割り当てるし、計画を呼び出して、組織内のユーザーに割り当てます。 「[Skype for Business と Microsoft Teams のライセンスを割り当てる](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)」をご覧ください。
+2. 最初のライセンスを割り当てるし、計画を呼び出して、組織内のユーザーに割り当てます。 [マイクロソフトのチームを割り当てるライセンス](assign-teams-licenses.md)を参照してください。
     
 ## <a name="step-3-get-phone-numbers"></a>手順 3: 電話番号を取得します。
 新しいユーザー番号を取得する方法には次の 3 通りあります。

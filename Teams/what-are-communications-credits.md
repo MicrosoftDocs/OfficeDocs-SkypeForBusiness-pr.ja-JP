@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: c51d058cfc6fc378047d439259042b0316c56d84
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 8c80aace74b7b0fb2d4a6c696edde47c30eb5b15
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048659"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120981"
 ---
 # <a name="what-are-communications-credits"></a>通信クレジットについて
 
@@ -97,7 +97,7 @@ Each organization will have a different usage of Calling Plans volume and rates 
     
 You can also see information about pricing by [signing in to the Office 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Subscriptions** > **Add subscriptions**.
   
-各機能に必要なライセンスの表を確認するには、「[Skype for Business と Microsoft Teams のアドオン ライセンス](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)」をご覧ください。
+ライセンスまたはライセンスの機能ごとにする必要があるテーブルを表示するには、[マイクロソフトのチームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
   
 ## <a name="related-topics"></a>関連トピック
 [Skype for Business PSTN 使用状況レポート](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)

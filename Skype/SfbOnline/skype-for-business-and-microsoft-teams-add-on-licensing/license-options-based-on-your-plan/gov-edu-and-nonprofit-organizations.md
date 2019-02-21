@@ -14,23 +14,22 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
 description: '政府機関、教育機関 および非営利組織 のプラン用のアドオン ライセンスと機能について説明します。 '
-ms.openlocfilehash: c69307833becfc6f9adc3ade2eeed962ceefcedb
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: e1c19e7db6f4167fa0992101c7070dc4661665b0
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883925"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120375"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>GOV、EDU、および非営利団体
 
-Skype for Business の大半の機能は、政府機関、教育機関、および非営利組織で利用できます。 詳細については、次の表を参照してください。
+Most Skype for Business features are available to .gov, .edu, and nonprofit organizations. See the following table for details.
 
 |**Skype for Business の機能**|**政府機関 (GCC) で使用可能**|**政府機関 (非 GCC) で使用可能**|**教育機関で使用可能**|**非営利団体で使用可能**|
 |:-----|:-----|:-----|:-----|:-----|

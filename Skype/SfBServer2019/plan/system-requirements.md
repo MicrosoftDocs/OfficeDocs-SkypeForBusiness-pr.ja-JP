@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: '概要: ビジネス サーバー 2019 サーバーおよびドメイン インフラストラクチャをこのトピックでは、Skype を準備します。 ハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件と推奨事項は、DNS の証明書と、ファイル共有、および Active Directory については、ここでは正常にインストールし、サーバー ファームの展開を行うには。'
-ms.openlocfilehash: a812c2cbc96ab80eea55072162c54bc7371a9dc5
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: 0f2926bc0d110ce7270b6798895ecda7ebabb23a
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729352"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120659"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>ビジネス サーバー 2019 Skype のシステム要件
  
@@ -91,7 +91,7 @@ Standard Edition サーバーのハードウェアをお勧めします。
 |Windows Server 2016 <br/> ||
 ||
    
-ここで記載されているオペレーティング システム以外の場合は正しく機能しないもの再試行してくださいしない Skype のインストールの場合のビジネス サーバー 2019。
+ここで記載されているオペレーティング システム以外の場合は正しく機能しないもの再試行してくださいしない Skype のインストールの場合のビジネス サーバー 2019。 Server Core オプションが表示されていないなどにあるためはサポートされていません。
 
 > [!NOTE]
 > 

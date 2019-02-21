@@ -28,12 +28,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 75a3e031109216899b218c2572ae5906b4be796c
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 091807d63be0c2853217f2bd2c442e8023cc3169
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047988"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30121005"
 ---
 # <a name="calling-plans-for-office-365"></a>Office 365 の通話プラン
 
@@ -60,19 +60,19 @@ ms.locfileid: "30047988"
     ![クラウド PBX ライセンスを購入するときは、計画を呼び出し、ボイスを購入するためのオプションが表示されます。](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > 計画によっては、電話システムのライセンスを購入する前に、複数のアドオンを購入する必要があります。 詳細については、 [Skype](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)で「ライセンスのオプション計画に基づく」を参照してください。
+    > 計画によっては、電話システムのライセンスを購入する前に、複数のアドオンを購入する必要があります。 詳細については、[マイクロソフトのチームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)の「ライセンスのオプション計画に基づく」を参照してください。
   
 2. 電話システム用のライセンスを購入した後は、 **Office 365 の管理センター**にサインインして呼び出すことの計画を購入、**請求先**を選択して > **購買サービス** > **アドオンのサブスクリプション**をクリックし、[**今すぐ購入**します。 呼び出す予定が表示されます。
     
     ![クラウド PBX のライセンスを購入した後は、音声の通話プランを購入できます。](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-購入し、組織のニーズに応じて、さまざまなユーザーに割り当てる別の呼び出しを計画できます。 選択した後を呼び出すことを計画する必要があります、チェック アウトに進みます。 計画は、Office 365 の管理センター内の各ユーザーに割り当てます。 学習する方法については、[ビジネスおよびマイクロソフトのチームのライセンスを Skype を割り当てる](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)を参照してください。
+購入し、組織のニーズに応じて、さまざまなユーザーに割り当てる別の呼び出しを計画できます。 選択した後を呼び出すことを計画する必要があります、チェック アウトに進みます。 計画は、Office 365 の管理センター内の各ユーザーに割り当てます。 学習する方法については、[マイクロソフトのチームを割り当てるライセンス](assign-teams-licenses.md)を参照してください。
   
 ## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>ハイブリッド ユーザーに設置した PSTN 接続を提供するサービス プロバイダーを使用していますか。
 
 その場合は、呼び出す計画を購入する必要はありません。 Office 365 エンタープライズ E5 には、チェック アウトに進むことができますので、**電話システム**のアドオンが含まれています。
   
-次に、Office 365 の管理センターでユーザーにエンタープライズ E5 または**電話システム**のアドオン ・ ライセンスを割り当てます。 学習する方法については、[ビジネスおよびマイクロソフトのチームのライセンスを Skype を割り当てる](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)を参照してください。
+次に、Office 365 の管理センターでユーザーにエンタープライズ E5 または**電話システム**のアドオン ・ ライセンスを割り当てます。 学習する方法については、[マイクロソフトのチームを割り当てるライセンス](assign-teams-licenses.md)を参照してください。
   
 ## <a name="pricing-information"></a>価格情報
 
@@ -86,11 +86,9 @@ ms.locfileid: "30047988"
 
 呼び出すことの計画を設定する方法を説明するその他の資料を以下に示します。
   
-- [通話プランのセットアップ](set-up-calling-plans.md)
+- [通話プランの設定](set-up-calling-plans.md)
     
-- [Skype for Business と Microsoft Teams のアドオン ライセンス](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-    
-- [ビジネス クラウド コネクタ ・ エディションの Skype の計画](https://technet.microsoft.com/library/Mt605227.aspx): 独自の PSTN への接続で、Office 365 の電話システムを設定する方法について説明します。
+- [マイクロソフト チーム アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
 - [Office 365 の電話システム (クラウド PBX) ソリューションを計画する](https://go.microsoft.com/fwlink/p/?LinkId=717926)
     
@@ -101,11 +99,7 @@ ms.locfileid: "30047988"
     
 - [電話システム ボイスメールのセットアップ - 管理者ヘルプ](set-up-phone-system-voicemail.md)
     
-- [通話プランのセットアップ](set-up-calling-plans.md)
+- [通話プランの設定](set-up-calling-plans.md)
     
-- [利用可能残高を追加してコミュニケーション クレジットを管理する](add-funds-and-manage-communications-credits.md)
-    
-- [クラウド コネクタを構成して](https://technet.microsoft.com/library/mt605228.aspx)、[クラウドのコネクタをダウンロード](https://aka.ms/CloudConnectorInstaller)
-  
-  
+- [資金を追加してコミュニケーション クレジットを管理する](add-funds-and-manage-communications-credits.md)
  

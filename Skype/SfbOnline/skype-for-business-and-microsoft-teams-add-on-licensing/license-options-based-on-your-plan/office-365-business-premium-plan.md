@@ -14,42 +14,41 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオン ライセンス、機能、そして Office 365 Business Premium プランを購入する方法について説明します。 '
-ms.openlocfilehash: 30ae65e9e9f1daad9039c95368a59f89d0596bb0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 272039c0a7cf0f568efd523f94c42348cba743fd
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885469"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120503"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 
-[Office 365 Business Premium](https://products.office.com/en-us/business/office-365-business-premium) をお持ちの場合は、Skype for Business を使用して、該当のサブスクリプションが適用される会社内の他のユーザーに通話を発信することができます。たとえば、会社に 10 人の社員がいる場合は、Skype for Business を使用してお互いに通話したりインスタント メッセージを送ることができます。
+[Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium) をお持ちの場合は、Skype for Business を使用して、該当のサブスクリプションが適用される会社内の他のユーザーに通話を発信することができます。たとえば、会社に 10 人の社員がいる場合は、Skype for Business を使用してお互いに通話したりインスタント メッセージを送ることができます。
 
  **社外のユーザーとの通話を発着信するには、次の 2 つのオプションがあります** 。
 
-- **オプション 1。無料の [Skype アプリ](https://www.skype.com/)** を使用します。 非常に小規模なビジネスでは、(1-2 のユーザーなど) がある場合は、Skype のアプリケーションを使用してが移動する場合に適してします。 国内通話と国際通話で利用する場合は、より安価な手段となります。 まだ会議通話を押しながら、ビデオ通話は、してプレゼンテーション用にデスクトップを共有できます。 [料金と支払オプションを確認](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled)してください。
+- **Option 1. Use the free [Skype app](https://www.skype.com/)**. If you have a very small business (for example, 1-2 people), using the Skype app is the better way to go. It's less expensive to use for domestic and international calls. You can still hold conference calls, make video calls, and share your desktop for presentations. [Check out the rates and payment options](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).
 
     Skype アプリは Office 365 スイートの一部ではないため、Skype for Business のように Outlook 2016 に統合されることはありません。このため、Outlook 2016 の連絡先は Skype に表示されませんので、Skype に連絡先を追加する必要があります。
 
     最初は Skype アプリをご使用いただいて、お客様のニーズに合うものかご確認いただくことをお勧めします。ニーズに合わない場合は、次のオプションでご利用のプランをアップグレードすることをご検討ください。
 
     > [!IMPORTANT]
-    > Skype ユーザーを検索するのにはビジネス用の Skype を使用する従業員を許可するのには表示/非表示を設定する必要があります。 [ビジネス ユーザー向けの Skype は、Skype 連絡先を追加する](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md)を参照してください。
+    > You have to set a toggle to allow your employees to use Skype for Business to search for Skype users. See [Let Skype for Business users add Skype contacts](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md).
 
 
 - **オプション 2 です。計画をアップグレードし、電話システムと国内または国内および国際呼び出しのプランを購入する**です。
 
     > [!Important]
-    > Skype for Business Online のプラン 2 は、Office Business Premium のサブスクリプションに含まれていますが、 **クラウドの音声呼び出し機能を追加することはできません**。 そのため、Enterprise E5 (または Enterprise E3) プランを検討して、そちらの方がよりコスト効率が良いか確認することをおすすめします。
+    > Although Skype for Business Online Plan 2 is included with the Office Business Premium subscription, **you can’t add cloud voice calling features**. So, we recommend that you evaluate an Enterprise E5 (or Enterprise E3) plan to see if it is more cost effective.
 
-1. [別の一般法人向け Office 365 プランに切り替える](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。 Enterprise E5 プランを検討して、そちらの方がよりコスト効率が良いか確認することをおすすめします。
+1. [Switch to a different Office 365 for business plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). We recommend that you evaluate an Enterprise E5 plan to see if it is more cost effective.
 
 2. **電話システム** アドオンを購入します。
     

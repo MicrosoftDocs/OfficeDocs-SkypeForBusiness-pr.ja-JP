@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Teams を使用して会議の開催者がダイヤルアウトするために何が必要か、およびその方法について説明します。
-ms.openlocfilehash: 4352bc7f6bd110a8dda267092920a2e2de22a4ae
-ms.sourcegitcommit: 3f88e2f1fb4dd84bf6e88e29b89cefeb7a0a954b
+ms.openlocfilehash: 3a06019f942a5fb670b7ed24ea23ccb77ed238f7
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29770396"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120853"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>他のユーザーが参加できるように Microsoft Teams 会議からダイヤル アウトする
 
@@ -59,6 +59,6 @@ ms.locfileid: "29770396"
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>オーディオ会議の詳細を知りたいとしていますか。
 
-[Office 365 での電話会議を使用または購入する](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Office 365 での電話会議を使用または購入する](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
-[Skype for Business と Microsoft Teams のアドオン ライセンス](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
+[マイクロソフト チーム アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

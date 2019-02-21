@@ -1,5 +1,5 @@
 ---
-title: チーム内のリソース アカウントを管理します。
+title: Teams のリソース アカウントを管理する
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: マイクロソフトのチームでのリソースのアカウントを管理します。
-ms.openlocfilehash: 3bab9f4c76a7bc5b0baf534b17ca3f5abaf11478
-ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
+ms.openlocfilehash: 685361c829a20a216e240e9f502e6ab24dcb86c5
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "29964411"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120941"
 ---
 # <a name="manage-resource-accounts-in-teams"></a>チーム内のリソース アカウントを管理します。 
 
@@ -33,21 +33,21 @@ ms.locfileid: "29964411"
 
 開始することに注意することが重要。
   
-- 組織は、エンタープライズの E3 と**電話システム**のライセンスまたはエンタープライズ E5 のライセンス (最低) が必要です。 キュー] または [自動応答の呼び出しに割り当てられているリソース アカウントに使用する利用可能なサービス番号の番号を割り当てられている**電話システム**のユーザー ライセンスの数に影響します。 リソース アカウントを持つことができますの数は、組織に割り当てられている**電話システム**および**オーディオ会議**のライセンスの数に依存します。 ライセンスに関する詳細については、 [Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)を参照してください。
+- 組織は、エンタープライズの E3 と**電話システム**のライセンスまたはエンタープライズ E5 のライセンス (最低) が必要です。 キュー] または [自動応答の呼び出しに割り当てられているリソース アカウントに使用する利用可能なサービス番号の番号を割り当てられている**電話システム**のユーザー ライセンスの数に影響します。 リソース アカウントを持つことができますの数は、組織に割り当てられている**電話システム**および**オーディオ会議**のライセンスの数に依存します。 ライセンスに関する詳細については、[マイクロソフトのチームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
 
     > [!NOTE]
-    > オンラインにいる人が、組織内への呼び出しをリダイレクトするには、エンタープライズ VoIP を有効にするし、Office 365 のプランを呼び出すことがある、**電話システム**のライセンスが必要です。 「[Skype for Business と Microsoft Teams のライセンスを割り当てる](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)」をご覧ください。 エンタープライズ VoIP を有効にするには、Windows PowerShell を使用できます。 たとえば、次を実行します。
+    > オンラインにいる人が、組織内への呼び出しをリダイレクトするには、エンタープライズ VoIP を有効にするし、Office 365 のプランを呼び出すことがある、**電話システム**のライセンスが必要です。 [マイクロソフトのチームを割り当てるライセンス](assign-teams-licenses.md)を参照してください。 エンタープライズ VoIP を有効にするには、Windows PowerShell を使用できます。 たとえば、次を実行します。
   
-- Office 365通話プランの詳細については、「[Office 365 通話プランと何ですか？](/microsoftteams/what-are-calling-plans-in-office-365)」及び「[Office 365の通話プラン](/microsoftteams/calling-plans-for-office-365)」をご覧下さい。
+- Office 365 のプランを呼び出す方法の詳細については、 [Office 365 のプランを呼び出す](calling-plans-for-office-365.md)を参照してください。
 - 有料電話番号と**マイクロソフトのチーム管理センター**でまたは別のサービス プロバイダーからリソースのアカウントに転送する電話番号をフリー ダイヤル サービスをのみ割り当てることができます。 取得し、サービスのフリー ダイヤル番号を使用して、通信のクレジットを設定する必要があります。
 
 > [!NOTE]
-> (サブスクライバー) をユーザーの電話番号は、リソース アカウントに割り当てることができません - サービスの有料または無料の電話番号のみを使用することができます。
+> (サブスクライバー) をユーザーの電話番号は、リソース アカウントに割り当てることができません。 サービスの有料または無料の電話番号のみを使用することができます。
 
-リソース アカウントに電話番号を割り当てる、取得、または、既存の有料または無料のサービスに転送する必要がある数値です。 有料または無料のサービスの電話番号を取得した後表示されます**マイクロソフトのチーム管理センター**の > **音声** > **の電話番号**、および記述されている**数値型**は、**サービスのフリー ダイヤル**として一覧表示されます。 サービス番号を取得するには、[サービスの電話番号の取得](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)を参照するか、転送し、既存のサービス番号にする場合は、 [Office 365 に電話番号を転送する](/microsoftteams/transfer-phone-numbers-to-office-365)を参照してください。
+リソース アカウントに電話番号を割り当てる、取得、または、既存の有料または無料のサービスに転送する必要がある数値です。 有料または無料のサービスの電話番号を取得した後表示されます**マイクロソフトのチーム管理センター**の > **音声** > **の電話番号**、および記述されている**数値型**は、**サービスのフリー ダイヤル**として一覧表示されます。 サービス番号を取得するには、[サービスの電話番号の取得](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)を参照するか、転送し、既存のサービス番号にする場合は、 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)を参照してください。
   
 > [!NOTE]
-> 米国以外のユーザーは、サービス番号を取得するマイクロソフトのチームの管理センターを使うことはできません。 [組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization)する代わりに、米国の外側から行う方法を参照してください。
+> 米国以外のユーザーは、サービス番号を取得するマイクロソフトのチームの管理センターを使うことはできません。 [組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)する代わりに、米国の外側から行う方法を参照してください。
 
 ## <a name="create-a-resource-account-in-powershell"></a>Powershell でのリソース アカウントを作成します。
 
@@ -95,7 +95,7 @@ Set-CsOnlineApplicationInstance -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3
 
 チームまたは Skype のオンライン ビジネスの実装では。
 
-[電話システムの自動応答について](what-are-phone-system-auto-attendants.md)
+[電話システムの自動応答とは](what-are-phone-system-auto-attendants.md)
 
 [電話システムの自動応答をセットアップする](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 

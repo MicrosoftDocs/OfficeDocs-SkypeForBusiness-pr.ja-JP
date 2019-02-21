@@ -21,7 +21,7 @@
 ## [Microsoft Teams でチーム所有者とメンバーを割り当てる](assign-roles-permissions.md)
 ## [Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
 ## [チームで、組織全体にわたるチームを作成します。](create-an-org-wide-team.md)
-## [メッセージング ポリシーを管理します。](messaging-policies-in-teams.md)
+## [メッセージング ポリシーを管理する](messaging-policies-in-teams.md)
 ## [Teams のテンプレートの使用を開始する](get-started-with-teams-templates.md)
 ## [Microsoft Teams の Healthcare テンプレートの使用を開始する](healthcare/healthcare-templates.md)
 ## [チームの動的なメンバーシップの概要](dynamic-memberships.md)
@@ -76,7 +76,7 @@
 ### チームを展開する準備します。
 #### [Teams の導入に向けた環境の準備を確認する](environment-readiness.md)
 #### [Teams 用に組織のネットワークを準備する](prepare-network.md)
-#### [チームやビジネス オンラインの Skype のプロキシ サーバー](proxy-servers-for-skype-for-business-online.md)
+#### [Teams または Skype for Business Online 向けのプロキシ サーバー](proxy-servers-for-skype-for-business-online.md)
 #### [制限とチームの仕様](limits-specifications-teams.md)
 #### [Teams でチームを作成するときの Office 365 グループの計画](plan-office-365-groups.md)
 #### [Teams のロールアウトをサポートするツールを入手する](rollout-tools.md)
@@ -105,8 +105,15 @@
 ### ライセンス
 #### [Teams へのユーザー アクセスを管理する](user-access.md)
 #### [Teams 用の Office 365 ライセンス](office-365-licensing.md)
-#### [Skype for Business と Teams のライセンスを割り当てる](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Skype for Business と Teams のアドオン ライセンス](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [チームのライセンスを割り当てる](assign-teams-licenses.md)
+#### [チーム アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+##### プランに基づいたライセンスオプション
+###### [Office 365 Business Premium](teams-add-on-licensing/office-365-business-premium.md)
+###### [Office 365 用リソース](teams-add-on-licensing/office-365-premium-pro-plus.md)
+###### [Office 365 エンタープライズ E1 と E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
+###### [Office 365 エンタープライズ E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
+###### [音声会議なしの office 365 エンタープライズ E5](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
+###### [GOV、EDU、および非営利組織](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
 #### [チームの業務用の試用版の提供を管理します。](iw-trial-teams.md)
 #### [空きチームを Office 365 サブスクリプションのバージョンにアップグレードします。](upgrade-freemium.md)
 
@@ -117,7 +124,7 @@
 
 # [会議および通信会議](deploy-meetings-microsoft-teams-landing-page.md)
 ## [チュートリアル: Teams での会議](Tutorial-Meetings-in-Teams.yml)
-## [ミーティングのポリシーを管理します。](meeting-policies-in-teams.md)
+## [会議ポリシーを管理する](meeting-policies-in-teams.md)
 ## [会議の設定を管理します。](meeting-settings-in-teams.md)
 ## [ユーザーの設定を変更したときに送信されるメール](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [ユーザーが会議に参加するときに名前を記録できるようにする](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
@@ -338,7 +345,7 @@
 #### [発信通話でのトランクのフェイルオーバー](direct-routing-trunk-failover-on-outbound-call.md)
 
 ## 電話番号
-### [[[Skype for Business 新しい電話番号の申請](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] に移動することによって、電話番号を取得するために利用できるすべてのフォームを一覧表示してダウンロードすることができます。](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+### [組織の電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 ### [呼び出すことを計画するための電話番号の種類](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 ### [ユーザー用の電話番号の取得](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [取得できる電話番号の数について](how-many-phone-numbers-can-you-get.md)
@@ -527,8 +534,8 @@
 
 ### 通信のクレジットを管理します。
 #### [コミュニケーション クレジットについて](what-are-communications-credits.md)
-#### [組織のためにコミュニケーション クレジットをセットアップする](set-up-communications-credits-for-your-organization.md)
-#### [利用可能残高を追加してコミュニケーション クレジットを管理する](add-funds-and-manage-communications-credits.md)
+#### [組織用にコミュニケーション クレジットをセットアップする](set-up-communications-credits-for-your-organization.md)
+#### [資金を追加してコミュニケーション クレジットを管理する](add-funds-and-manage-communications-credits.md)
 
 ### [Microsoft Teams オンライン通話のフロー](microsoft-teams-online-call-flows.md)
 
@@ -606,7 +613,7 @@
 ## 追加情報
 ### [移行とビジネス用の Skype では、相互運用性](migration-interop-guidance-for-teams-with-skype.md)
 ### [Skype for Business と共存する](coexistence-chat-calls-presence.md)
-### [クライアント エクスペリエンスのチームとの共存モードへの準拠](teams-client-experience-and-conformance-to-coexistence-modes.md)
+### [Teams のクライアント エクスペリエンスおよび共存モードへの準拠](teams-client-experience-and-conformance-to-coexistence-modes.md)
 <!-- ============================================================ -->
 #       
 #        
@@ -621,11 +628,10 @@
 
 ## サポートされているデバイス
 ### [チームで、デバイスを管理します。](device-management.md)
-### [IP 電話](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [チームの電話](phones-for-teams.md)
 ### [USB オーディオ デバイスやビデオ デバイス](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [会議室デバイスおよびソリューション](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [固定電話の展開](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [オンライン ビジネスの Skype の電話](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
 ## [セキュリティ & への準拠](security-compliance-overview.md)

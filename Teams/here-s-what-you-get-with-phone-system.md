@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '機能、可用性、およびお客様のビジネス電話システム (PBX をクラウド) の計画およびセットアップする方法です。 '
-ms.openlocfilehash: 9898bcea949c5150667ae502edfa6b1fccd64764
-ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
+ms.openlocfilehash: 655e095f87ee9ad53cb57df09ca8366ecc8eb8f6
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30056620"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120901"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365 での電話システムで利用できる機能
 
@@ -46,7 +46,7 @@ PBX は、会社内の電話システムです。 Office 365 のアドオンの�
 |||
 |:-----|:-----|
 |**Office 365 の機能で電話システム** <br/> |**説明** <br/> |
-|[電話システムの自動応答について](what-are-phone-system-auto-attendants.md) <br/> |電話システムの自動応答を使用して、内部および外部の呼び出し元では、組織のメニュー システムを作成することは、メニューを探し、配置、ユーザーの会社または組織内の部門への呼び出しを転送するシステムを移動します。  <br/> |
+|[電話システムの自動応答とは](what-are-phone-system-auto-attendants.md) <br/> |電話システムの自動応答を使用して、内部および外部の呼び出し元では、組織のメニュー システムを作成することは、メニューを探し、配置、ユーザーの会社または組織内の部門への呼び出しを転送するシステムを移動します。  <br/> |
 |(名前と番号) を呼び出し応答/開始  <br/> |、タッチでの着信呼び出しに応答し、完全な電話番号をダイヤルするか、ビジネスまたは Outlook の Skype の名前をクリックすると、発信コールを配置します。  <br/> |
 |[ビジネス用の Skype での呼び出しの転送オプションを設定します。](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |サポートするマネージャーのための呼び出しに応答するかします。 通知、チェック ボックスをオフにすべての参加者の呼び出しがされているときに応答されたか、他のユーザーに対して行われます。  <br/> |
 |[着信の転送と同時にリング](https://support.office.com/article/967d9aaf-3fed-448b-ab96-40bbc9a11a20) <br/> |これらの機能を使用するはどこへ行くと、ため、呼び出しを転送するには、仕事仲間やボイスメールの転送ルールを設定できます。  <br/> |
@@ -86,7 +86,7 @@ PBX は、会社内の電話システムです。 Office 365 のアドオンの�
     
 - [Office 365 (クラウド PBX) ソリューションの電話システムの計画](https://go.microsoft.com/fwlink/?LinkId=708645): この資料は、展開オプションのすべてをレイアウトします。 完全にクラウド専用のソリューションの計画についての情報もあります。 
     
-- [Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing): についてはライセンスで Office 365 に電話システムを購入する必要があります。
+- [マイクロソフト チーム アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md): についてはライセンスで Office 365 に電話システムを購入する必要があります。
     
 - [電話システム ボイスメールのセットアップ - 管理者ヘルプ](set-up-phone-system-voicemail.md)
     

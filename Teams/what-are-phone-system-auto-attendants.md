@@ -1,5 +1,5 @@
 ---
-title: 電話システムの自動応答について
+title: 電話システムの自動応答とは
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -24,14 +24,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '自動応答の電話システム (PBX をクラウド) とは、それらを使用する方法について説明します。 '
-ms.openlocfilehash: bd59a88c0e8a1bd23c0caf23a3a3099e6ad98063
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: f0b93d39bffc2c479e853228cb4d14f38d9a570d
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048326"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120809"
 ---
-# <a name="what-are-phone-system-auto-attendants"></a>電話システムの自動応答について
+# <a name="what-are-phone-system-auto-attendants"></a>電話システムの自動応答とは
 
 Office 365 の自動応答を使用して、内部および外部の呼び出し元では、組織のメニュー システムを作成することで、電話システムは、メニューを探し、配置、ユーザーの会社または組織内の部門への呼び出しを転送するシステムを移動します。
   
@@ -53,10 +53,10 @@ Office 365 で電話システムの自動応答を設定するには、[電話�
 
 自動応答を使用する場合は、次の重要な点について留意してください。
   
-- 組織は、エンタープライズの E3 と**電話システム**のライセンスまたはエンタープライズ E5 のライセンス (最低) が必要です。 自動応答に使用するサービスの数の数値への影響を割り当てられている**電話システム**のユーザー ライセンスの数が利用できます。 ことが自動応答の数は、組織に割り当てられている番号の**電話システム**と**オーディオ会議**ライセンスに依存します。 ライセンスの詳細については、[Skype for Business と Microsoft Teams のアドオン ライセンス](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)にアクセスしてください。
+- 組織は、エンタープライズの E3 と**電話システム**のライセンスまたはエンタープライズ E5 のライセンス (最低) が必要です。 自動応答に使用するサービスの数の数値への影響を割り当てられている**電話システム**のユーザー ライセンスの数が利用できます。 ことが自動応答の数は、組織に割り当てられている番号の**電話システム**と**オーディオ会議**ライセンスに依存します。 ライセンスに関する詳細については、[マイクロソフトのチームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
     
     > [!TIP]
-    > 演算子または**電話システム**のライセンスを持つオンラインのユーザーは、メニュー ・ オプションへの呼び出しをリダイレクトするには、エンタープライズ VoIP を有効にするまたは割り当てを呼び出すことを計画にする必要があります。 「[Skype for Business と Microsoft Teams のライセンスを割り当てる](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)」をご覧ください。 Windows PowerShell を使用することもできます。 たとえば、次を実行します。
+    > 演算子または**電話システム**のライセンスを持つオンラインのユーザーは、メニュー ・ オプションへの呼び出しをリダイレクトするには、エンタープライズ VoIP を有効にするまたは割り当てを呼び出すことを計画にする必要があります。 [マイクロソフトのチームを割り当てるライセンス](assign-teams-licenses.md)を参照してください。 Windows PowerShell を使用することもできます。 たとえば、次を実行します。
   
 - 取得し、自動応答のサービスのフリー ダイヤル番号を使用して、通信のクレジットを設定する必要があります。 これを行うを参照してください[通信のクレジットは何ですか?](what-are-communications-credits.md)し、[組織の通信のクレジットを設定](set-up-communications-credits-for-your-organization.md)。
     

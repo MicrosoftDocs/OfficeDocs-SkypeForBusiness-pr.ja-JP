@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb254de21bfaf0ffb66a9c9177e5109a1b4eafc1
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: a7cd550b266f69d4ad0223bd7364ec1b69e56745
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29593967"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120572"
 ---
 # <a name="make-my-service-decisions"></a>[サービスの決定を行う
 
@@ -70,7 +70,7 @@ PSTN への接続を有効にするには、組織は、その通信サービス
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>サービスを提供するユーザーの場所やオフィスを呼び出す計画を実装することを決定します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断のポイント|<ul><li>サービスを提供するユーザーの場所やオフィスを呼び出す計画を実装することを決定します。</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>ユーザーの所在地、またはオフィスの計画を呼び出すサービスを有効にするを文書化します。</li></ul>|
 
 > [!TIP]
@@ -88,26 +88,26 @@ PSTN への接続を有効にするには、組織は、その通信サービス
 
 ## <a name="phone-numbers-and-emergency-locations"></a>電話番号と緊急対応の場所
 
-Office 365 のプランを呼び出すことで、組織内のすべてのユーザーが必要 (DID) 電話番号と、対応する検証済みの緊急アドレス固有の直接内向きです。 プランの呼び出しを実装するための電話番号取得を計画する[管理クラウド音声の電話番号](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-phone-system#manage-cloud-voice-telephone-numbers)を確認します。
+Office 365 のプランを呼び出すことで、組織内のすべてのユーザーが必要 (DID) 電話番号と、対応する検証済みの緊急アドレス固有の直接内向きです。 プランの呼び出しを実装するための電話番号取得を計画する[管理クラウド音声の電話番号](2-envision-make-my-service-decisions-phone-system.md#manage-cloud-voice-telephone-numbers)を確認します。
 
 設定をするときの電話番号計画を呼び出すことで、数をユーザーに割り当てる前に、各電話番号に緊急アドレスを割り当てる必要があります。 この指定は、緊急通話をサポートするために必要な操作です。 緊急対応サービスが使用する正しい形式であることを確認するのには緊急時のアドレスを検証する必要があります。
 
 > [!IMPORTANT]
-> 緊急のサービスを呼び出すことが計画を呼び出すことでサービスのより従来の電話サービスの動作が異なる。 これらの違いを理解してすべてのユーザーに伝えることが重要です。 詳細については、[緊急の呼び出しの条項および条件](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)を参照してください。
+> 緊急のサービスを呼び出すことが計画を呼び出すことでサービスのより従来の電話サービスの動作が異なる。 これらの違いを理解してすべてのユーザーに伝えることが重要です。 詳細については、[緊急の呼び出しの条項および条件](emergency-calling-terms-and-conditions.md)を参照してください。
 
 検証済みの緊急時のアドレスを指定するだけでなく緊急時の場所を定義し、アドレス内でより正確な場所を提供する緊急検証済みのアドレスに関連付けることがことができます。 通常、緊急対応の場所はユーザーが勤務するビルの番号、階、棟、オフィス番号です。
 
 緊急計画を呼び出す場所の詳細については、以下の資料を確認してください。
 
--   [緊急対応の場所、アドレス、通話ルーティングの概要](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)
+-   [緊急対応の場所、アドレス、通話ルーティングの概要](what-are-emergency-locations-addresses-and-call-routing.md)
 
--   [緊急通話の利用条件](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)
+-   [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>ユーザーの所在地、または計画を呼び出す実装のスコープ内のオフィスで収集される情報を緊急通報の粒度を決定します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断のポイント|<ul><li>ユーザーの所在地、または計画を呼び出す実装のスコープ内のオフィスで収集される情報を緊急通報の粒度を決定します。</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>詳細な緊急時のアドレスとユーザーの場所やプランを呼び出す実装のスコープ内のオフィスごとに緊急時の場所を文書化します。</li></ul>|
 
 > [!TIP]
@@ -130,7 +130,7 @@ Azure ボイスメール サービス、電源、電話システムのボイス�
 
 既定では、電話システムのボイス メールの機能 Exchange online です。ただし最低限サポートされている Exchange 設置型バージョンおよび配置モデルをオンプレミスの Exchange の展開でユーザーのメールボックスにボイス メール メッセージの配信を許可するがあります。
 
-電話システムのボイスメールはボイスメールの議事録作成機能を備えています。この機能は組織のすべてのユーザーに対して既定で有効になっています。 ビジネス ニーズは、特定のユーザーまたは組織全体のすべてのユーザーのボイスメールの議事録作成を無効にする必要があります。 組織では、ボイスメールの議事録作成を有効にしておくことにしました、する場合は、ボイスメールの議事録の不適切なマスキングを有効にする必要があるかどうかをも考慮する必要があります。 詳細については[、組織内のボイス メール ポリシーの設定](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail)を参照してください。
+電話システムのボイスメールはボイスメールの議事録作成機能を備えています。この機能は組織のすべてのユーザーに対して既定で有効になっています。 ビジネス ニーズは、特定のユーザーまたは組織全体のすべてのユーザーのボイスメールの議事録作成を無効にする必要があります。 組織では、ボイスメールの議事録作成を有効にしておくことにしました、する場合は、ボイスメールの議事録の不適切なマスキングを有効にする必要があるかどうかをも考慮する必要があります。 詳細については[、組織内のボイス メール ポリシーの設定](set-up-phone-system-voicemail.md)を参照してください。
 
 >[!NOTE]
 > 電話システムのボイスメールには、SMTP を使用してメッセージを再送できるフォールバック メカニズムが実装されています。このメカニズムにより、サードパーティの電子メールシステムを利用するユーザーがボイスメール メッセージを受信することができます。 このメカニズムには、保証されたサービスの稼働時間、またはボイス メール応答メッセージを変更するなど、他のボイスメール機能が含まれていません。
@@ -141,7 +141,7 @@ Azure ボイスメール サービス、電源、電話システムのボイス�
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>計画を呼び出す実装では、電話システムのボイス メールを有効にするかどうかを決定します。</li><li>Exchange 設置し、既存の配置を使用してボイスメールの電話システムをサポートするためにお客様の要件を満たしていない場合、は、使用可能なオプションから選択 (アップグレードしボイスメールの電話システムのサポートのためのセットアップは、Exchange オンライン、または利用に移行しますフォールバック メカニズムは前に説明した)。</li><li>有効にするまたはボイスメールの議事録と、組織全体または特定のユーザーのボイスメールの議事録不適切なマスキングを無効にするかどうかを決定します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断のポイント|<ul><li>計画を呼び出す実装では、電話システムのボイス メールを有効にするかどうかを決定します。</li><li>Exchange 設置し、既存の配置を使用してボイスメールの電話システムをサポートするためにお客様の要件を満たしていない場合、は、使用可能なオプションから選択 (アップグレードしボイスメールの電話システムのサポートのためのセットアップは、Exchange オンライン、または利用に移行しますフォールバック メカニズムは前に説明した)。</li><li>有効にするまたはボイスメールの議事録と、組織全体または特定のユーザーのボイスメールの議事録不適切なマスキングを無効にするかどうかを決定します。</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>該当する場合は、ボイスメールの電話システムをサポートするために Exchange の意思決定ポイントを文書化します。</li><li>場合が有効/無効にするボイスメール、ボイスメールの議事録、およびボイスメールの議事録不適切なマスキング特定のユーザーに対してのみ、ユーザーの一覧を文書化します。</li></ul>|
 
 > [!TIP]
@@ -151,7 +151,7 @@ Azure ボイスメール サービス、電源、電話システムのボイス�
 > |------------------|------------------|-------------------|----------|----------|
 > |Emily Braun      |オンライン      |はい |有効 |有効 |
 > |Lidia Holloway   |オンライン      |はい |有効 |無効 |
-> |ルイ Lahr       |オンプレミス |はい |有効 |有効 |
+> |ルイ Lahr       |オンプレミス |あり |有効 |有効 |
 > |Marcel Beauchamp |オンプレミス |はい |無効 |該当なし |
 > |Rachelle Cormier |オンライン      |はい |無効 |該当なし |
 > |Isabell Potvin   |オンプレミス |はい |無効 |該当なし |
@@ -166,7 +166,7 @@ Azure ボイスメール サービス、電源、電話システムのボイス�
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>発信者番号操作が計画の呼び出しを実装するために必要かどうかを決定します。</li><li>該当する場合、呼び出し元 ID の操作の種類を決定するサービス番号のマスク (匿名) を実装します。</li><li>該当する場合は、ユーザーが操作の呼び出し元の ID と各ユーザーに割り当てる操作を呼び出し元の ID の種類を必要とするを決定します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断のポイント|<ul><li>発信者番号操作が計画の呼び出しを実装するために必要かどうかを決定します。</li><li>該当する場合、呼び出し元 ID の操作の種類を決定するサービス番号のマスク (匿名) を実装します。</li><li>該当する場合は、ユーザーが操作の呼び出し元の ID と各ユーザーに割り当てる操作を呼び出し元の ID の種類を必要とするを決定します。</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>発信者番号操作および割り当てるには発信者番号通知の操作の種類に割り当てられるユーザーを文書化します。</li></ul>|
 
 > [!TIP]
@@ -174,12 +174,12 @@ Azure ボイスメール サービス、電源、電話システムのボイス�
 > 
 > |ユーザー  |発信における発信者番号のマスク処理の有効化  |発信者番号のマスク処理の種類  |ユーザーによる上書きの許可  | 受信における発信者番号のマスク処理の有効化  |
 > |---------|---------|---------|---------|---------|
-> |Emily Braun|いいえ|該当なし|はい|いいえ|
-> |Lidia Holloway|はい|サービス番号 (OrgAA、+44 20 7946 0000)|いいえ|あり|
-> |ルイ Lahr|いいえ|該当なし|はい|いいえ|
-> |Marcel Beauchamp|はい|サービス番号 (OrgAA、TBA)|いいえ|はい|
-> |Rachelle Cormier|はい|匿名化|はい|いいえ|
-> |Isabell Potvin|はい|サービス番号 (OrgAA、TBA)|いいえ|あり|
+> |Emily Braun|いいえ|該当なし|あり|なし|
+> |Lidia Holloway|あり|サービス番号 (OrgAA、+44 20 7946 0000)|なし|あり|
+> |ルイ Lahr|いいえ|該当なし|あり|なし|
+> |Marcel Beauchamp|あり|サービス番号 (OrgAA、TBA)|なし|あり|
+> |Rachelle Cormier|はい|匿名化|あり|なし|
+> |Isabell Potvin|はい|サービス番号 (OrgAA、TBA)|なし|あり|
 
 <!--ENDOFSECTION-->
 
@@ -214,15 +214,15 @@ Office 365 テナントの場合、通話時間 (分) は国や地域別と通�
 
 電話システムおよび計画の呼び出しに関する詳細については、以下の資料を確認してください。
 
--   [電話システム](https://products.office.com/skype-for-business/phone-system)
+-   [電話システム](https://products.office.com/en-us/skype-for-business/phone-system)
 
--   [通話プラン](https://products.office.com/skype-for-business/calling-plans)
+-   [通話プラン](https://products.office.com/en-us/skype-for-business/calling-plans)
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>組織には、必要な電話システムのライセンスが割り当てられていない、または電話システムのアドオン サービスを入手することで、既存の Office 365 サブスクリプションをステップ実行して、電話システムのライセンスを習得していただくことがあるかどうかを決定します。</li><li>ユーザーには国内を呼び出す予定のライセンスが必要と判断し、国内および国際を呼び出す予定のライセンスが必要な。</li><li>プランの呼び出しを実装するための通信のクレジットする必要があるかどうかを決定します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断のポイント|<ul><li>組織には、必要な電話システムのライセンスが割り当てられていない、または電話システムのアドオン サービスを入手することで、既存の Office 365 サブスクリプションをステップ実行して、電話システムのライセンスを習得していただくことがあるかどうかを決定します。</li><li>ユーザーには国内を呼び出す予定のライセンスが必要と判断し、国内および国際を呼び出す予定のライセンスが必要な。</li><li>プランの呼び出しを実装するための通信のクレジットする必要があるかどうかを決定します。</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>部門、部門、オフィス、またはユーザー グループの電話システムのライセンス国内を呼び出すことを計画、国内と国際を呼び出す計画を割り当てることを文書化します。</li></ul>|
 
 > [!TIP]
@@ -247,13 +247,13 @@ Office 365 テナントの場合、通話時間 (分) は国や地域別と通�
 
 呼び出すことを計画の実装によっては、ビジネス ニーズとの配置でこれらのクレジットを割り当てられていることを確認できるユーザーごとのごとに通信のクレジットの使用を制御できます。
 
-通信のクレジットの詳細については、次のように確認します。[通信のクレジットは何ですか?](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)です。
+通信のクレジットの詳細については、次のように確認します。[通信のクレジットは何ですか?](what-are-communications-credits.md)です。
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>オーディオ会議または予定の呼び出しを実装するための通信のクレジットが必要かどうかを決定します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断のポイント|<ul><li>オーディオ会議または予定の呼び出しを実装するための通信のクレジットが必要かどうかを決定します。</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>クレジットを通信することで、部門、部門、オフィス、またはユーザーのグループを文書化します。</li><li>オーディオ会議または予定の呼び出しを実装するため、通信のクレジットの計画を文書化します。</li></ul>|
 
 > [!TIP]
@@ -297,17 +297,17 @@ Office 365 テナントの場合、通話時間 (分) は国や地域別と通�
 
 -   サービス番号、有料電話番号と加入者番号よりも高いの同時呼び出し容量があり、オーディオ会議、自動応答、またはキューの呼び出しなどのサービスに割り当てることができるサービスのフリー ダイヤル番号として使用します。
 
-電話番号の種類の詳細については、[さまざまな種類](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans)を参照してください。
+電話番号の種類の詳細については、[さまざまな種類](different-kinds-of-phone-numbers-used-for-calling-plans.md)を参照してください。
 
 取得できる電話番号の合計数は、電話番号およびライセンスを購入して、ユーザーに割り当てられている番号の種類によって異なります。
 
-取得できる電話番号の合計数の詳細についてを参照してください[電話番号の数を取得することができますか?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)
+取得できる電話番号の合計数の詳細についてを参照してください[電話番号の数を取得することができますか?](how-many-phone-numbers-can-you-get.md)
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>ユーザーの場所やオフィスがマイクロソフトから新しい電話番号を取得する場所を決定します。</li><li>Microsoft から取得する電話番号の種類を決定します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断のポイント|<ul><li>ユーザーの場所やオフィスがマイクロソフトから新しい電話番号を取得する場所を決定します。</li><li>Microsoft から取得する電話番号の種類を決定します。</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>ユーザーの所在地、またはマイクロソフトから新しい電話番号を取得する場所のオフィスを文書化します。</li><li>Microsoft から取得する電話番号の種類を文書化します。</li></ul>|
 
 ## <a name="transfer-existing-telephone-numbers"></a>既存の電話番号を転送します。
@@ -322,15 +322,15 @@ Office 365 テナントの場合、通話時間 (分) は国や地域別と通�
 
 電話番号を移植して、複雑なトピックでは、綿密な計画、調整、および利害関係者の期待を適切に管理する必要があります。 詳細については、以下の資料を参照してください。
 
--   [Office 365 に電話番号を転送します。](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
+-   [Office 365 に電話番号を転送します。](transfer-phone-numbers-to-office-365.md)
 
--   [電話番号の移行に関するよくある質問](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
+-   [電話番号の移行に関するよくある質問](transferring-phone-numbers-common-questions.md)
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>ユーザーの所在地、またはオフィスの既存の電話番号をマイクロソフトに転送されますを決定します。</li><li>マイクロソフトに転送する電話番号の種類を決定します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断のポイント|<ul><li>ユーザーの所在地、またはオフィスの既存の電話番号をマイクロソフトに転送されますを決定します。</li><li>マイクロソフトに転送する電話番号の種類を決定します。</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>文書化するには、ユーザーの所在地、またはオフィスの既存の電話番号をマイクロソフトに転送されます。</li><li>マイクロソフトに転送する電話番号の種類を文書化します。</li></ul>|
 
 <!--ENDOFSECTION-->
@@ -356,13 +356,13 @@ Office 365 の電話システムの機能では、ダイヤル プランの 2 �
 > [!IMPORTANT]
 > あります最大 25 の正規化ルールでは、各テナントのダイヤル プランです。したがってが使用されている正規化ルールと重複しないようにするのには重要なサービスの一部としてダイヤル プランです。
 
-ダイヤル プランの詳細についてを参照してください[のダイヤル プランは何ですか?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
+ダイヤル プランの詳細については、「[ダイヤル プランについて](what-are-dial-plans.md)」を参照してください。
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>組織にカスタマイズされたダイヤル プランが (ビジネス要件、導入要件、およびなど) が必要かどうかを決定します。</li><li>該当する場合、テナントのダイヤル プランのスコープを決定 (テナント グローバルまたはテナントのユーザー) カスタマイズしたダイヤル プランのお客様の要件をサポートします。</li><li>該当する場合は、クラウドのボイス実装のスコープ内のユーザーの所在地、またはオフィスをサポートするために作成するテナントのダイヤル プランを決定します。</li><li>該当する場合、カスタマイズされたダイヤル プランとテナントのダイヤル プランの各ユーザーに割り当てられるユーザーが必要なを決定します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断のポイント|<ul><li>組織にカスタマイズされたダイヤル プランが (ビジネス要件、導入要件、およびなど) が必要かどうかを決定します。</li><li>該当する場合、テナントのダイヤル プランのスコープを決定 (テナント グローバルまたはテナントのユーザー) カスタマイズしたダイヤル プランのお客様の要件をサポートします。</li><li>該当する場合は、クラウドのボイス実装のスコープ内のユーザーの所在地、またはオフィスをサポートするために作成するテナントのダイヤル プランを決定します。</li><li>該当する場合、カスタマイズされたダイヤル プランとテナントのダイヤル プランの各ユーザーに割り当てられるユーザーが必要なを決定します。</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>クラウド ボイスの実装の一部として構成するには、カスタマイズされたダイヤル プランと関連付けられている正規化ルールを文書化します。</li><li>カスタマイズされたダイヤル プランとユーザーごとに割り当てられるテナントのダイヤル プランに割り当てられるユーザーを文書化します。</li></ul>|
 
 > [!TIP]

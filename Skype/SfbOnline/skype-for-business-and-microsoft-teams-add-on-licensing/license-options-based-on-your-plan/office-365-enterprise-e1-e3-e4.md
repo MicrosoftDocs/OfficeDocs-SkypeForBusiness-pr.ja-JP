@@ -14,28 +14,27 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオン ライセンス、機能、そして Office 365 Enterprise、E1、E3、E4 プランを購入する方法について説明します。 '
-ms.openlocfilehash: 64bd2278e1d53c2fd363cf215095af53cd2e2697
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0ff3a0cb4ff29f98dd5a3b69490eeb2c9a513eaa
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881933"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120309"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1、E3、E4
 
-すでに [Office 365 Enterprise E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software)、[E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software)、または E4 プランを購入済みの場合、Skype for Business および Microsoft Teams のその他の機能を利用するために購入する必要があるアドオン ライセンスは次のとおりです。
+[Office 365 エンタープライズ E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software) [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software)E4 の計画、購入済みの場合は、ビジネス機能の複数の Skype を取得する購入する必要がありますアドオン ・ ライセンスをここでは。
 
 |||
 |:-----|:-----|
 |**この機能を追加するには** <br/> |**購入する必要のあるもの** <br/> |
-|**電話会議** <br/> スケジュールまたはダイヤルイン会議をホストする各ユーザーに対して 1 つ**のオーディオ会議**のライセンスを購入します。 Attendees do not need licenses. <br/> |**電話会議** のアドオン <br/>ライセンスを購入すると、Microsoft が電話会議プロバイダーになります。 |
+|**電話会議** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. <br/> |**電話会議** のアドオン <br/>ライセンスを購入すると、Microsoft が電話会議プロバイダーになります。 |
 |**世界中の任意の電話番号を呼び出すことによって他のユーザーを追加するのには、会議、および会議から発信する機能には、ダイヤルインのアクセスのフリー ダイヤルの番号** <br/> |[コミュニケーション クレジット](/microsoftteams/add-funds-and-manage-communications-credits)|
 |**電話システム** <br/> |1 **office 365 の電話システム**のアドオン。 <br/> ２．通話プラン: Office 365 から [通話プラン](/MicrosoftTeams/calling-plans-for-office-365) を購入しましょう。 <br/>  または、 [現在お使いのプロバイダーから提供された電話サービス](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing) を使用しましょう。  <br/> |
 |**電話システム ボイスメール** <br/> |E1 と E4 プランの場合は、Exchange Online Plan 2 を購入します。 <br/>または、Office 365 E3 などの Exchange Online Plan 2 に同梱されてくる Office Suite に切り替えます。 |
@@ -58,7 +57,7 @@ ms.locfileid: "23881933"
 
 E3 プランはお持ちの Action Pack に含まれています。 **電話システム**と **電話会議**のアドオンを購入するには、次を実行します。
 
-1. [マーケティング用 web サイト](https://go.microsoft.com/fwlink/?LinkId=24393)から E3 の 1 つの座席を購入してください。 既存のテナントにシートに追加するためのオプションを選択します。
+1. Buy one seat of E3 from our [marketing website](https://go.microsoft.com/fwlink/?LinkId=24393). Choose the option to add the seat to your existing tenant.
 
 2. Office 365 管理センターにサインインし、 **請求** > **サブスクリプション** > **アドオン** の順に進みます。
 
@@ -67,10 +66,10 @@ E3 プランはお持ちの Action Pack に含まれています。 **電話シ�
 ## <a name="why-dont-i-see-the-option-to-buy-add-ons"></a>アドオンを購入するオプションが表示されないのはどうしてですか?
 <a name="bkmk_how"> </a>
 
-特定の状況において、Skype for Business および Microsoft Teams のアドオンを購入するオプションが Office 365 管理センター に表示されません。
+いくつかの状況では、Skype を Office 365 の管理センターでのビジネスのアドオンを購入するためのオプションが表示されません。
 
-- **Office 365 Business Premium を GoDaddy** から購入されています。 この場合は、Skype for Business および Microsoft Teams のアドオンはご購入いただけません。 (これは、GoDaddy を販売しません)、E3 計画に切り替えるには必要し、し、それらを購入できます。 [ビジネス製品 - 管理者ヘルプのサポートに問い合わせてください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- **Office 365 Business Premium を GoDaddy** から購入されています。 この例では、ビジネスのアドオンの Skype を購入することはできません。 (これは、GoDaddy を販売しません)、E3 計画に切り替えるには必要し、し、それらを購入できます。 [ビジネス製品 - 管理者ヘルプのサポートに問い合わせてください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
-- **年間契約ではなく月単位の契約を結んでいます** 。 場合によっては、月単位の契約のユーザーはアドオンを購入いただけません (支払方法が月単位の場合は該当しません)。 これは、既知の問題を修正しています。 [ビジネス製品 - 管理者ヘルプのサポートに問い合わせてください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- **You have a monthly commitment instead of an annual commitment**. In some cases, customers who have a monthly commitment can't buy the add-ons (this is different from the payment method, which can be monthly). This is a known issue that we are fixing. [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
     ![You may need an annual commitment to buy add-ons.](../../images/164579c2-f4df-4ae0-bd1d-bff12addb500.png)

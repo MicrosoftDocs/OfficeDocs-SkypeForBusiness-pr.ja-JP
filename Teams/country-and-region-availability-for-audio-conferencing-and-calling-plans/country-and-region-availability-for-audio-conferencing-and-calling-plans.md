@@ -28,12 +28,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 国/地域を選択して、電話会議、電話システム、通話プラン、コミュニケーション クレジット、および有料電話番号と無料電話番号を利用できるかどうかを確認できます。
-ms.openlocfilehash: 01a9d6262cc7c452b9d937242ca431fe9e478777
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 789584991eaf6b95541d9fc49ec094d5c0481228
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048492"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120877"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>国および地域ごとの電話会議および通話プランの利用可能性
 
@@ -133,7 +133,7 @@ ms.locfileid: "30048492"
 
 ***
 
-Skype for Business または Microsoft Teams サービスの 1 つが利用できるかどうかを調べて確認した後は、ライセンスを購入してユーザーに割り当てる方法の詳細について「[Skype for Business と Microsoft Teams のアドオン ライセンス](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)」で確認することができます。
+Skype for Business または Microsoft Teams サービスの 1 つが利用できるかどうかを調べて確認した後は、ライセンスを購入してユーザーに割り当てる方法の詳細について「[Skype for Business と Microsoft Teams のアドオン ライセンス](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」で確認することができます。
 
 > [!NOTE]
 > 
@@ -178,7 +178,7 @@ Office 365 から個々のユーザーの電話番号を取得することに加
 ### <a name="calling-plans"></a>通話プラン
 電話システムとともに通話プランを利用することで、ユーザーは通話を発信したり着信したりすることができるようになります。 まず、ユーザー (サブスクライバー) の電話番号 (サービス番号以外) を取得する必要があります。その番号をユーザーに割り当ててから、通話プランを割り当てます。 利用できる通話プランの種類は、**国内**通話プランと、**国内および国際**通話プランの 2 つがあります。 詳細については、「[通話プランについて](../what-are-calling-plans-in-office-365.md)」をご覧ください。
 
-ライセンスの情報については、「[電話システムと通話プランのライセンス](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)」をご覧ください。
+ライセンスの情報については、「[電話システムと通話プランのライセンス](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」をご覧ください。
 
 > [!NOTE]
 > 国/地域は、[**Office 365 管理センター**] の [**組織プロファイル**] にある請求先住所**ではなく**、[**Office 365 管理センター**] >  [**アクティブなユーザー**] にあるユーザーのライセンスの場所に基づいています。 

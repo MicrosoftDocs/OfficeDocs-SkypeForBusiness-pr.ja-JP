@@ -14,12 +14,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f87ab06fd867d216a8668d9bbb9e3ad1e807b463
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 9a11360c5cae498262a717c41e4247037de1db54
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649598"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120512"
 ---
 # <a name="operate-my-service"></a>自分のサービスを実施します。
 
@@ -29,9 +29,9 @@ ms.locfileid: "26649598"
 
 運用ガイドでは、すべてのタスクとサービス管理機能の一部としてマイクロソフトのチームのために必要な作業の概要を示します。
 
-サービスの管理は、展開およびユーザーに対して有効にされた後、マイクロソフトのチーム サービスの日常的な操作をカバーする広範なトピックです。 チーム サービスは、Microsoft Office 365 を包含およびインフラストラクチャ ・ コンポーネントは設置型の展開 (ネットワークなど)。
+サービス管理の内容は、展開されてユーザーに対して利用できる状態にされている、Microsoft Teams サービスの日常的な運用を網羅するものです。 Teams サービスは、Microsoft Office 365 およびオンプレミスで展開されている (ネットワーキングなどの) インフラストラクチャ コンポーネントを組み込んでいます。
 
-ほとんどの場合、サービス管理の概念はほとんどの組織にとって新しい概念ではありません。 既に実装しているプロセスと既存のサービスに関連付けられているタスクです。 とはいえ、計画するときサービスの管理の現在、将来的にチームをサポートするために可能性があります、現在のプロセスを強化できます。
+サービス管理の概念は、ほとんどの組織において、新しい概念ではない可能性が高いです。 既に実装しているプロセスと既存のサービスに関連付けられているタスクです。 とはいえ、計画するときサービスの管理の現在、将来的にチームをサポートするために可能性があります、現在のプロセスを強化できます。
 
 サービスの管理には、すべてのアクティビティが含まれますのプロセスが関与するエンド ツー エンドのチームを管理します。 前述のいくつかのコンポーネント サービス管理の — Office 365 サービス自体で構成されているインフラストラクチャ-チームは、ネットワークのさまざまな側面を管理するために、ユーザーに責任を負いますが、お客様は、マイクロソフトの責任は、、およびエンドポイントを提供します。
 
@@ -41,12 +41,12 @@ ms.locfileid: "26649598"
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>チームの操作を実装する方法を決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断のポイント</td><td><ul><li>チームの操作を実装する方法を決定します。</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>完全に運用ガイドを参照してください。</li><li>ワークロードの音声品質とクラウドの信頼性を提供する、組織の目標に合わせて運用戦略を実装します。</li><li>レビュー ガイドの経験の質を確認します。</li><li> クラウドのボイスの展開がそのピーク性能で動作しているかどうかを確認するのには体験レビューの品質を定期的に実行するオペレーション戦略を実装します。</li></ul></td></tr>
 </table>
 
 
-### <a name="operational-role-mapping"></a>運用の役割のマッピング
+### <a name="operational-role-mapping"></a>運用の役割マッピング
 
 Envision フェーズ中に操作を開始した計画は重要な操作を行う最初のパイロット ユーザーを有効にします。 このガイドには、アクティビティと高品質のチームの配置を維持するために日、週、月単位、または必要に応じた単位で実行する必要があるタスクが一覧表示されます。 このガイドでは、必要な知識とこれらの重要なアクティビティとタスクを実行する方法のガイダンスを提供します。
 
@@ -80,7 +80,7 @@ Envision フェーズの早い段階で行う計画には、特定のアクテ�
 
 このガイドでは、チームのサービスを管理するためのフォーカスの主要な領域について説明します。 ほとんどの場合、チームが依存しているテクノロジのためにサービスの管理の計画があります。 場合は、これらのテクノロジー ・ コンポーネントの管理計画を適切なサービスを確立する必要があります (両方の設置型、オンライン) もします。 これにより、ユーザーは、チームで高品質で信頼性の高いエクスペリエンスを楽しむことです。
 
-#### <a name="references"></a>参照 
+#### <a name="references"></a>参照設定 
 
 [Microsoft Teams の概要](teams-overview.md)
 
@@ -137,7 +137,7 @@ Microsoft System Center は、データ センター、クライアント デバ
 
 ### <a name="monitoring-for-advanced-scenarios"></a>高度なシナリオに対する監視機能
 
-Office 365 サービスの稼働状態および変更をプログラムでアクセスする Office 365 サービスの通信の API を活用することにより、サービスの状態や今後の変更を監視できます。 この API を使用して、独自の監視ツールを作成するまたは Office 365 サービスの通信、可能性のあるお客様の環境を監視する方法の簡素化、既存の監視ツールを接続します。 詳細については、[エンタープライズ開発者向けの Office 365](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx)を参照してください。
+Office 365 サービスの稼働状態および変更をプログラムでアクセスする Office 365 サービスの通信の API を活用することにより、サービスの状態や今後の変更を監視できます。 この API を使用して、独自の監視ツールを作成するまたは Office 365 サービスの通信、可能性のあるお客様の環境を監視する方法の簡素化、既存の監視ツールを接続します。 詳細については、[エンタープライズ開発者向けの Office 365](https://developer.microsoft.com/office)を参照してください。
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>毎日/毎週/月単位と必要に応じたタスク
 
@@ -146,7 +146,7 @@ Office 365 サービスの稼働状態および変更をプログラムでアク
 | サービス稼働状態の監視 | 使用可能なツールを使用して、マイクロソフトのチームのサービスの稼働状態、(と依存するサービス) をプロアクティブに監視します。 依存サービスが含まれます: ビジネス、Azure Active Directory の Exchange のオンラインでは、SharePoint Online では、OneDrive です。 | リアルタイム |               |
 | インシデントの通知  | チームのサービスに影響を与えるイベントの内部関係者に通知します。 内部関係者には、ユーザー、ヘルプデスク、およびインシデントのマネージャーを含めることができます。                                                                          | 必要に応じて |               |
 
-### <a name="references"></a>参照 
+### <a name="references"></a>参照設定 
 
 [Office 365 サービスの稼働状態を確認する方法](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)
 
@@ -243,9 +243,9 @@ Office 365 サービスの稼働状態および変更をプログラムでアク
 
 他の 2 つのレポートは、チーム固有の設定、し、さらにチームの使用率に関する詳細ユーザーとデバイスの観点からです。 両方のレポートはこちらにあります。
 
-[デバイスの使用状況レポートをマイクロソフトのチーム](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-device-usage-917b3e1d-203e-4439-8539-634e80196687)
+[Microsoft Teams のデバイス使用状況レポート](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-device-usage-917b3e1d-203e-4439-8539-634e80196687)
 
-[マイクロソフトのチームのユーザーの活動レポート](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
+[Microsoft Teams ユーザー アクティビティ レポート](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
 
 #### <a name="required-permissions"></a>必要なアクセス許可
 
@@ -276,7 +276,7 @@ Office 365 サービスの稼働状態および変更をプログラムでアク
 | (ドライブ値フェーズ)              |                                                                                                                                  |           |               |
 | 採用計画を更新します。             | 計画、ターゲットに更新プログラムの使用率の測定方法に基づいて、採用計画を比較します。                                         | 必要に応じて |               |
 
-### <a name="references"></a>参照 
+### <a name="references"></a>参照設定 
 
 [Office 365 管理センターについて](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
@@ -327,7 +327,7 @@ NPS の数値を底は便利ですが、ユーザーのコメントの分析か�
 | ユーザーのある意見を評価します。 | キャプチャし、アンケートやインタビューを使用するか、チームまたは Yammer のフィードバック チャネルでは、ユーザーのある意見を評価します。                                                                 | 必要に応じて |               |
 | 採用計画を更新します。 | はユーザーからのフィードバックに基づいて、組織内のドライブの変更これには、コミュニケーション計画、トレーニング ・ プログラム、またはサポートをユーザーに提供する方法への変更が含まれます。 | 必要に応じて |               |
 
-### <a name="references"></a>参照 
+### <a name="references"></a>参照設定 
 
 [ネット プロモーター スコア](https://en.wikipedia.org/wiki/Net_Promoter)
 
@@ -359,11 +359,11 @@ NPS の数値を底は便利ですが、ユーザーのコメントの分析か�
 | 災害復旧および高可用性のテスト                | 正規の高可用性と災害復旧が記載されているサービス ・ レベル目標 (Slo) またはチームのサービスのサービス レベル契約 (Sla) を満たしていることを確認するのにはネットワーク インフラストラクチャ上でのテストを実行します。                                                                                                                                                  | 毎月                |               |
 
 
-### <a name="references"></a>参照 
+### <a name="references"></a>参照設定 
 
 [ネットワーク プランナー](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
-[Office 365 URL および IP アドレス範囲](https://aka.ms/o365ips)
+[Office 365 の URL と IP アドレスの範囲](https://aka.ms/o365ips)
 
 [データ スキーマの作成](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#tenant-data-file-format-and-building-data-file-structure)
 
@@ -371,13 +371,13 @@ NPS の数値を底は便利ですが、ユーザーのコメントの分析か�
 
 ## <a name="assess-and-ensure-quality"></a>評価し、品質を確保します。 
 
-すべての組織では、グループまたは個人が品質に責任を持つ必要があります。 これは、サービスの管理における最も重要な役割です。 品質の支持者の役割は、個人またはグループに関するユーザーのエクスペリエンスは、ユーザーに割り当てられます。
-このロールには、環境および改善策を推進するための他のチームと協力するスポンサーの傾向を識別するためのスキルが必要です。 通常、品質チャンピオンに最適な候補はカスタマー サービスの所有者です。 組織の規模と複雑さによっては、個人またはグループは、高品質のユーザー エクスペリエンスを保証するため真摯にこの可能性があります。
+すべての組織では、グループまたは個人が品質に責任を持つ必要があります。 これは、サービス管理において最も重要な役割です。 品質の支持者の役割は、個人またはグループに関するユーザーのエクスペリエンスは、ユーザーに割り当てられます。
+この役割は、環境での傾向を特定するスキルと、修復を推進するために他のチームと協力するスポンサーシップを必要とします。 通常、品質チャンピオンに最適な候補はカスタマー サービスの所有者です。 組織の規模と複雑さによっては、個人またはグループは、高品質のユーザー エクスペリエンスを保証するため真摯にこの可能性があります。
 
 品質支持者が既存のツールを活用し、呼び出し品質ダッシュ ボード (救難) と品質の経験レビュー ガイド、ユーザーの操作性を監視するなどのドキュメント化されたプロセスは、品質の傾向を識別し、ドライブの修復が必要な場所です。
 品質のチャンピオンには、修復操作をそれぞれのチームと運営委員会の進行状況と、未処理の懸案事項に関するレポートが動作します。
 
-[発生レビュー ガイドの品質](https://aka.ms/qerguide)には、評価し、ユーザー エクスペリエンスの向上に大きな影響がある主な分野で改善策のガイダンスを提供する活動が含まれています。 品質のエクスペリエンス評価ガイドで提供されるガイダンスを報告し、オーディオを採用し、影響を最大化に重点を置いた各領域を調査する救難オンラインの主要なツールとしての使用方法の焦点を当てます。 すべてが最適化され、ネットワーク、オーディオ ・ エクスペリエンスを向上させるためには、ビデオ、およびデスクトップの共有の機能強化にも直接変換します。
+[発生レビュー ガイドの品質](https://aka.ms/qerguide)には、評価し、ユーザー エクスペリエンスの向上に大きな影響がある主な分野で改善策のガイダンスを提供する活動が含まれています。 品質のエクスペリエンス評価ガイドで提供されるガイダンスを報告し、オーディオを採用し、影響を最大化に重点を置いた各領域を調査する救難オンラインの主要なツールとしての使用方法の焦点を当てます。 音声エクスペリエンスを改善するためにネットワークに対して行われた最適化は、ビデオおよびデスクトップ共有を改善することにも直接転用されます。
 
 早い段階で品質の支持者を指名することを推奨します。 後、指定されているエクスペリエンス評価ガイドの品質と関連のトレーニング教材の内容を十分に理解する、開始する必要があります。
 
@@ -393,11 +393,11 @@ NPS の数値を底は便利ですが、ユーザーのコメントの分析か�
 
 
 
-### <a name="references"></a>参照 
+### <a name="references"></a>参照設定 
 
-[救難を学習します。](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
+[CQD についての学習](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
-[アップロードの構築について](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
+[アップロードの構築について](turning-on-and-using-call-quality-dashboard.md#upload-building-information)
 
 [レビュー ガイドの経験の質](https://aka.ms/qerguide)
 
@@ -409,16 +409,16 @@ PC、Mac、タブレット、またはチームのクライアントを実行し
 
 ### <a name="endpoint-requirements"></a>エンドポイントの要件
 
-チームの主な利点の 1 つは、クライアントに格納されている最新の状態に自動的にします。 PC と Mac 上のクライアントは、新しいビルドをチェックし、アプリケーションがアイドル状態のときに、新しいクライアントをダウンロードするバック グラウンド プロセスを使用して更新されます。 チームのモバイル アプリケーションは、それぞれのアプリケーション ストアで現在保持されます。
+チームの主な利点の 1 つは、クライアントに格納されている最新の状態に自動的にします。 PC と Mac 上のクライアントは、アプリがアイドル状態のときに新しいビルドがあるかを確認したり、新しいクライアントをダウンロードしたりする、バックグラウンド プロセスを使用して更新されます。 チームのモバイル アプリケーションは、それぞれのアプリケーション ストアで現在保持されます。
 
 チームのクライアントには、基になるソフトウェア ・ プラットフォームでの最小要件があります。 時間の経過とともにこれらの要件を変更する場合があり、したがって変更を監視する必要があります。 たとえば、チームのクライアントでは、最低限の iOS バージョンがあります。 クライアントは、インターネット ブラウザーを使用する場合、ブラウザーをも現在保持する必要があります。 [マイクロソフト チーム用のクライアントを取得](get-clients.md)することでサポートされているプラットフォームの一覧が見つかります。
 
 ### <a name="endpoint-firewalls"></a>エンドポイントのファイアウォール
 
-クライアント側のファイアウォールでは、ユーザーの操作性に大きな影響を与えるをことができます。
+クライアント側のファイアウォールはユーザー エクスペリエンスに大きな影響をおよぼす可能性があります。
 クライアント側のファイアウォールは、通話の音質に影響し、呼び出しを確立することができないこともできます。 クライアント ファイアウォールで適切な除外を構成すると、必要な最新の状態を保持するのに[Office 365 の Url と IP アドレスの範囲](https://aka.ms/o365ips)内の情報に基づきます。 サード パーティ ベンダーは、除外リストを更新する方法の具体的なガイダンスがあります。
 
-### <a name="wi-fi-drivers"></a>Wi-fi ドライバー
+### <a name="wi-fi-drivers"></a>Wi-Fi ドライバー
 
 Wi-fi ドライバーは、問題が発生する可能性があります。 たとえば、ドライバーが不要なアクセス ポイントの切り替えで、不適切な通話の音質を強制的に実行できるアクセス ポイントの間で非常に積極的な移動の動作があります。 品質の経験の確認を実行効率の低い Wi-fi ドライバーを検出する可能性があります (詳細については、[体験レビュー ガイドの品質](https://aka.ms/qerguide)を参照してください)。 新しい Wi-fi ドライバーを監視し、一般ユーザー向けに展開する前に、テストしていることを保証する品質重視のプロセスを実装するために必要です。
 
@@ -448,13 +448,13 @@ Wi-fi ドライバーは、問題が発生する可能性があります。 た�
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | エンドポイントの要件    | [マイクロソフト チーム用のクライアントを取得するの](get-clients.md)に記載されているチームのすべてのソフトウェア要件を満たすためにエンドポイントが引き続きチームを確認します。                                                                                                                                                                                       | 毎月   |               |
 | エンドポイントのファイアウォール       | [Office 365 の Url と IP アドレスの範囲](https://aka.ms/o365ips)内の情報に基づくエンドポイントのファイアウォール上で適切な除外リストを維持します。 サード パーティ ベンダーは、除外リストを維持する方法についての具体的なガイダンスがあります。 を購読[RSS フィード](https://support.office.com/o365ip/rss)の変更を自動的に通知します。 | 必要に応じて |               |
-| Wi-fi ドライバー            | テストし、PC の Wi-fi ドライバーを更新します。 救難 ([体験レビュー ガイドの品質](https://aka.ms/qerguide)) を使用して結果を検証します。                                                                                                                                                                                                                                                                   | 必要に応じて |               |
+| Wi-Fi ドライバー            | テストし、PC の Wi-fi ドライバーを更新します。 救難 ([体験レビュー ガイドの品質](https://aka.ms/qerguide)) を使用して結果を検証します。                                                                                                                                                                                                                                                                   | 必要に応じて |               |
 | エンドポイントの管理      | サポートされているエンドポイントとインタ フェース デバイス (ヘッドセット) のカタログを維持します。 ベンダーとの契約、保証、配布、交換、管理し、ポリシーを修復します。                                                                                                                                                                                                        | 毎月   |               |
 | エンドポイントのトラブルシューティング | タスクのトラブルシューティングには、既知の問題リスト、ログの収集、分析、およびマイクロソフトのサポートまたはサード ・ パーティ ・ ベンダーへのエスカレーションをコンサルティング、接続を確認する含めることができます。                                                                                                                                                                                               | 必要に応じて |               |
 
-### <a name="references"></a>参照 
+### <a name="references"></a>参照設定 
 
-[Office 365 URL および IP アドレス範囲](https://aka.ms/o365ips)
+[Office 365 の URL と IP アドレスの範囲](https://aka.ms/o365ips)
 
 [Microsoft Teams のクライアントを取得する](get-clients.md)
 
@@ -497,25 +497,25 @@ Wi-fi ドライバーは、問題が発生する可能性があります。 た�
 
 [組織の緊急対応の場所を追加、変更、削除する](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization)
 
-[ダイヤル プランを作成および管理する](https://docs.microsoft.com/microsoftteams/create-and-manage-dial-plans)
+[ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)
 
 #### <a name="common-tasks-for-audio-conferencing"></a>オーディオ会議のための一般的なタスク
 
-[電話会議ブリッジの設定を変更する](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge)
+[電話会議ブリッジの設定を変更する](change-the-settings-for-an-audio-conferencing-bridge.md)
 
-[電話会議ブリッジの電話番号を変更する](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge)
+[電話会議ブリッジの電話番号を変更する](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 
 See also
 
-[オーディオ会議の暗証番号 (pin) をリセットします。](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/reset-the-audio-conferencing-pin)
+[オーディオ会議の暗証番号 (pin) をリセットします。](reset-the-audio-conferencing-pin-in-teams.md)
 
 ### <a name="license-management"></a>ライセンスの管理
 
-組織の拡大や縮小、それがライセンスの現在および将来のニーズを計画することが重要です。 [(電話システム](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system)および[オーディオ会議](https://products.office.com/skype-for-business/audio-conferencing)) のクラウドのボイス機能のライセンスだけでなく、基本チーム ライセンスがあります。
+組織の拡大や縮小、それがライセンスの現在および将来のニーズを計画することが重要です。 [(電話システム](here-s-what-you-get-with-phone-system.md)および[オーディオ会議](https://products.office.com/skype-for-business/audio-conferencing)) のクラウドのボイス機能のライセンスだけでなく、基本チーム ライセンスがあります。
 
-電話システム用のライセンスではチームの[計画を呼び出すこと](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)に関連するライセンスが必要です。 計画のライセンスを呼び出すことになり、国内または国際電話をかけたりできます。 これらの計画は、使用率に基づくし、分のプールに関連付けられています。 [通信のクレジット](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)を提供すれば、サービスを実行することはありません。
+電話システム用のライセンスではチームの[計画を呼び出すこと](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)に関連するライセンスが必要です。 計画のライセンスを呼び出すことになり、国内または国際電話をかけたりできます。 これらの計画は、使用率に基づくし、分のプールに関連付けられています。 [通信のクレジット](what-are-communications-credits.md)を提供すれば、サービスを実行することはありません。
 
-Tolled のダイヤルイン会議および国内のダイヤルアウト会議サービスにより、オーディオ会議。 無料のダイヤルイン会議またはダイアル アウト シナリオの国内ではないと、どの[通信のクレジット](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)の追加料金を請求するのには必要です。
+Tolled のダイヤルイン会議および国内のダイヤルアウト会議サービスにより、オーディオ会議。 無料のダイヤルイン会議またはダイアル アウト シナリオの国内ではないと、どの[通信のクレジット](what-are-communications-credits.md)の追加料金を請求するのには必要です。
 
 通信のクレジットには、計画を呼び出すと、オーディオ会議の両方のライセンスを補完できます。 ライセンスの計画を呼び出すと、通信のクレジット使用量ベースは、したがって、監視し、適切に準備する必要があります。
 
@@ -525,7 +525,7 @@ Tolled のダイヤルイン会議および国内のダイヤルアウト会議�
 
 チーム内の数値を取得する 2 つの方法: 別のプロバイダーからの電話番号を移植することができますまたはマイクロソフトの番号の在庫から直接数値を提供することができます。 両方の方法については、[ユーザーの電話番号を取得](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)してください。
 
-マイクロソフトの番号の在庫から提供することができます、電話番号の数に制限があります。 制限は、いくつかの要因の詳細について、によって決定されます[電話番号の数を取得することができますか?](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)です。
+マイクロソフトの番号の在庫から提供することができます、電話番号の数に制限があります。 制限は、いくつかの要因の詳細について、によって決定されます[電話番号の数を取得することができますか?](how-many-phone-numbers-can-you-get.md)です。
 制限は、番号の種類によって異なります: なし有料サービス番号、有料サービス番号、およびサブスクライバー (ユーザー) の番号。 それぞれ独自の制限があり、個別に管理する必要があります。 制限に近づいて、または制限を超えている)、増分の制限を適用できます。 このプロセスは、前の段落での記事で説明します。
 
 いくつか使用できない場合にサービスが利用可能な地域で準備する時間がある可能性があります。 要求元の数値の処理方法については、[組織の電話番号の管理](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)を参照してください。
@@ -552,21 +552,21 @@ Tolled のダイヤルイン会議および国内のダイヤルアウト会議�
 
 ![品質の経験の確認中に調査する主要な領域: オーディオ、信頼性、およびユーザー調査の結果です]。(media/plan-my-service-management-image2.png "品質の経験の確認中に調査する主要な領域: オーディオ、信頼性、およびユーザー調査の結果です")。
 
-によって継続的に評価し、このガイドで説明されている領域を得られるように、ユーザー エクスペリエンスに悪影響を及ぼす可能性があるを減らすことができます。 展開で発生したユーザー エクスペリエンスの問題の多くは、次のカテゴリに分類できます。
+によって継続的に評価し、このガイドで説明されている領域を得られるように、ユーザー エクスペリエンスに悪影響を及ぼす可能性があるを減らすことができます。 展開で生じる多くのユーザー エクスペリエンスに関する問題は、次のカテゴリにグループ化されます。
 
 -   不完全なファイアウォールまたはプロキシの構成
 
--   Wifi カバレッジが低い
+-   貧弱な Wi-Fi の有効範囲
 
--   十分な帯域幅
+-   不十分な帯域幅
 
 -   VPN
 
--   最適化されていない、または組み込みのオーディオ デバイスの使用
+-   最適化されていない内蔵音声デバイスの使用
 
 -   問題のあるサブネットまたはネットワーク デバイス
 
-品質のエクスペリエンス評価ガイドで提供されるガイダンスを報告し、説明したとおりで、オーディオを採用し、影響を最大化に重点を置いた各領域を調査する主要なツールとして呼び出す品質ダッシュ ボード (救難) オンラインを使用して重点的に説明します。 すべてが最適化され、ネットワーク、オーディオ ・ エクスペリエンスを向上させるためには、ビデオ、およびデスクトップの共有の機能強化にも直接変換します。
+品質のエクスペリエンス評価ガイドで提供されるガイダンスを報告し、説明したとおりで、オーディオを採用し、影響を最大化に重点を置いた各領域を調査する主要なツールとして呼び出す品質ダッシュ ボード (救難) オンラインを使用して重点的に説明します。 音声エクスペリエンスを改善するためにネットワークに対して行われた最適化は、ビデオおよびデスクトップ共有を改善することにも直接転用されます。
 
 早い段階で品質の支持者を指名するを強くお勧めします。 後、指定されている[体験レビュー ガイドの品質](https://aka.ms/qerguide)の内容を十分に理解する、開始する必要があります。
 

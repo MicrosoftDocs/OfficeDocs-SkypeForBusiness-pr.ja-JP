@@ -14,23 +14,22 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオン ・ ライセンス、機能、および Office 365 の企業の計画のために購入する方法について説明します。 '
-ms.openlocfilehash: bc88524050e8606c6d93a8fcf24ed5d8c1638fe3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 084d60a2c21712e119657005a52dc0af11bce9a0
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886759"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120349"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 Enterprise E5
 
-[Office 365 Enterprise E5](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software) プランには、Skype for Business および Microsoft Teams のほとんどの機能が含まれています。追加のオプションがいくつか用意されています。
+[Office 365 エンタープライズ E5](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software)の計画には、ビジネス機能のほとんどの Skype が含まれています。 There are just a few additional options.
   
 |||
 |:-----|:-----|

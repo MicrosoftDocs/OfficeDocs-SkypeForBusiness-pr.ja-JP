@@ -1,5 +1,5 @@
 ---
-title: マイクロソフト チームの共通領域電話のライセンスを設定します。
+title: Microsoft Teams での共通領域電話のライセンスをセットアップする
 ms.author: lolaj
 author: lolaj
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'ロビー、受付、および会議室の共通領域電話を設定する方法を学習します。 '
-ms.openlocfilehash: 44cd9a4faa6c94a60d84fa825149bbf4c6b846fe
-ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
+ms.openlocfilehash: b7fb997a8e9367c4a3b8629f037ad79871b64b25
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27271158"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30121045"
 ---
-# <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>マイクロソフト チームの共通領域電話のライセンスを設定します。
+# <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Microsoft Teams での共通領域電話のライセンスをセットアップする
 
 共通領域電話は通常、ロビーのような領域、またはをかけるには多くの人々 に利用できる別の領域に配置しています。たとえば、受信エリア、ロビー、または会議電話します。 共通領域電話は、ユーザーではなくデバイスとして設定して、ネットワークに自動的に署名できます。
 
@@ -50,7 +50,7 @@ ms.locfileid: "27271158"
 > [!NOTE]
 > 電話システムのライセンスは必要ありません。  共用エリア電話機  のライセンスに含まれています。
 
-ライセンスの詳細については、 [Skype](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)を参照してください。
+ライセンスの詳細については、[マイクロソフトのチームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>手順 2  - 電話機の新しいユーザアカウントを作成し、ライセンスを割り当てます
 
@@ -74,7 +74,7 @@ ms.locfileid: "27271158"
 
 番号をユーザーに割り当てるには、ビジネス管理センターの Skype を使用します。
 
-1. Microsoft 365 管理センターの**管理センター**を選択して > **のチームと Skype** > **従来のポータル**です。
+1. Microsoft 365 管理センターの**管理センター**を選択して > **チーム & Skype** > **従来のポータル**です。
 
 2. ビジネス管理センターの Skype での**音声**を選択して > **の電話番号**です。
 
