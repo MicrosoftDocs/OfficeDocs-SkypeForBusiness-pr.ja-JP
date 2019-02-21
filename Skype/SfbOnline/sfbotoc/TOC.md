@@ -232,7 +232,7 @@
 #### [電話システム ボイスメールのセットアップ - 管理者ヘルプ](/microsoftteams/set-up-phone-system-voicemail?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [電話システムの自動応答をセットアップする](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 ### [組織内の電話システムの設定](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [電話システムの自動応答について](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [電話システムの自動応答とは](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [電話システムの自動応答をセットアップする](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 #### [小規模企業の例では、自動応答を設定](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)
 
@@ -242,7 +242,7 @@
 ### [Skype 会議ブロードキャストを有効にする](../set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md)
 ### [Skype 会議ブロードキャストの設定を変更する](../set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings.md)
 
-## [Skype for Business と Microsoft Teams のアドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+## [Skype ビジネス アドオン ライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 ### プランに基づいたライセンスオプション
 #### [Office 365 Business Premium](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
 #### [Office 365 のプレミアム、Office 365 用のリソース、またはビジネス用の Skype オンライン 2 を計画](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
@@ -252,8 +252,8 @@
 #### [Skype Room Systems v2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
 #### [GOV、EDU、および非営利団体](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
 #### [Skype ビジネス オンライン計画 1 退職後に](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md)
-### [利用可能残高を追加して、コミュニケーション クレジットを管理する](/microsoftteams/add-funds-and-manage-communications-credits?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Skype for Business と Microsoft Teams のライセンスを割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
+### [資金を追加してコミュニケーション クレジットを管理する](/microsoftteams/add-funds-and-manage-communications-credits?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Skype をビジネスのライセンスを割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
 ### [分数ごと従量課金制電話会議](/microsoftteams/audio-conferencing-pay-per-minute?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [組織のためにコミュニケーション クレジットをセットアップする](/microsoftteams/set-up-communications-credits-for-your-organization?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Office 365 の通話プラン](/microsoftteams/calling-plans-for-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
@@ -296,7 +296,7 @@
 ### [メディアの品質とネットワーク接続性のパフォーマンス](../optimizing-your-network/media-quality-and-network-connectivity-performance.md)
 ### [Skype オンライン ビジネスのためのプロキシ サーバー](/microsoftteams/proxy-servers-for-skype-for-business-online?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)) 
 
-## [呼び出しを分析し、通話品質のダッシュ ボード](/microsoftteams/difference-between-call-analytics-and-call-quality-dashboard?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+## [通話分析および通話品質ダッシュボード](/microsoftteams/difference-between-call-analytics-and-call-quality-dashboard?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [通話品質ダッシュボードで利用できるディメンションとメジャー](/microsoftteams/dimensions-and-measures-available-in-call-quality-dashboard?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Skype for Business の通話分析をセットアップする](/microsoftteams/set-up-call-analytics?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [通話品質ダッシュボードをオンにして使用する](/microsoftteams/turning-on-and-using-call-quality-dashboard?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
