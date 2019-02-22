@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft Teams でダイヤルイン会議の設定を変更したときにユーザーに自動的に送信される情報について説明します。 '
-ms.openlocfilehash: 1d38963771388b1aec9bb2274e23dcfd22e9fe4b
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 1431cd4391219e052ec2ad3702a9e4c227912a06
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120885"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178694"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Microsoft Teams で設定を変更したときにユーザーに送信されるメール
 
@@ -42,9 +42,9 @@ Microsoft を電話会議プロバイダーとして使用して[電話会議を
 
     このメールの例を次に示します。
 
-     ![Skype for Business のライセンス認証](media/audio-conferencing-user-enabled.png)
+     ![Skype for Business のライセンス認証](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
-    [アドオン ライセンスをマイクロソフトのチーム](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を見ることによってライセンスの詳細を表示します。
+    ライセンスの詳細については、[マイクロソフトのチームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
 
 - **ユーザーの会議 ID または既定の電話会議の電話番号が変更された場合。**
 
@@ -52,7 +52,7 @@ Microsoft を電話会議プロバイダーとして使用して[電話会議を
 
     このメールの例を次に示します。
 
-     ![ダイヤルイン会議情報が変更されました。](media/audio-conferencing-info-change.png)
+     ![ダイヤルイン会議情報が変更されました。](media/teams-emails-sent-to-users-when-settings-change-image2.png)
 
 - **ユーザーの電話会議の PIN がリセットされる場合。**
 
@@ -60,7 +60,7 @@ Microsoft を電話会議プロバイダーとして使用して[電話会議を
     
      このメールの例を次に示します。
     
-     ![ダイヤルイン会議 PIN が変更されました。](media/audio-conferencing-pin-has-changed.png)
+     ![ダイヤルイン会議 PIN が変更されました。](media/teams-emails-sent-to-users-when-settings-change-image3.png)
   
 - **ユーザーのライセンスが削除されたか、電話会議プロバイダーが Microsoft から他のプロバイダーに変更または、なしに設定された場合**
 
@@ -70,7 +70,7 @@ Microsoft を電話会議プロバイダーとして使用して[電話会議を
 
     このメールの例を次に示します。
 
-     ![ダイヤルイン会議がオフになっています。](media/audio-conferencing-turned-off.png)
+     ![ダイヤルイン会議がオフになっています。](media/teams-emails-sent-to-users-when-settings-change-image4.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

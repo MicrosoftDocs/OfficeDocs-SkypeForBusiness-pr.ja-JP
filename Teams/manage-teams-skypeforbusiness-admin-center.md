@@ -1,5 +1,5 @@
 ---
-title: 新しいマイクロソフトのチーム管理センターに移行する際のチームを管理します。
+title: 新しい Microsoft Teams 管理センターへの移行中に Teams を管理する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,14 +16,14 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: e695c54427dbe80daa179ad6d02e99a2556d9782
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 581be37a3acf4b0063cf93da1ba1289cd08b2f2e
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753537"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178503"
 ---
-<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>新しいマイクロソフトのチーム管理センターに移行する際のチームを管理します。
+<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>新しい Microsoft Teams 管理センターへの移行中に Teams を管理する
 ======================================================
 
 > [!IMPORTANT]
@@ -41,10 +41,10 @@ ms.locfileid: "29753537"
 
 |Office 365 管理センターでのチームのセクション  |名 (テナント レベル) を設定します。  |マイクロソフトのチーム管理センターのポリシー   |レベル: テナントまたはユーザー   |
 |---------|---------|---------|---------|
-|[全般]     |個人プロファイルで組織のチャットを表示します。        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  テナント       |
-|[全般]     |ビジネスの Skype を使用して、チームを持っていない受信者         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |テナント         |
-|電子メール統合     |チャンネルに電子メールを送信するユーザーを許可します。         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |テナント         |
-|電子メール統合     |送信者を許可する] ボックスの一覧         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |テナント         |
+|General     |個人プロファイルで組織のチャットを表示します。        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  テナント       |
+|General     |ビジネスの Skype を使用して、チームを持っていない受信者         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |テナント         |
+|電子メールの統合     |チャンネルに電子メールを送信するユーザーを許可します。         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |テナント         |
+|電子メールの統合     |送信者を許可する] ボックスの一覧         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |テナント         |
 |カスタム クラウド ストレージ     |ボックス         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |テナント         |
 |カスタム クラウド ストレージ     |ドロップ ボックス        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |テナント         |
 |カスタム クラウド ストレージ     |Google ドライブ        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |テナント         |
@@ -52,6 +52,11 @@ ms.locfileid: "29753537"
 |ユーザーとライセンスの種類を設定     |すべてのユーザーの Microsoft チームのオンとオフをオンにします。          |廃止<sup>1</sup>        |         |
 |チームとチャネル     |         |Azure Active Directory グループの管理 (現在のエクスペリエンスと同じ) にリダイレクトします。              |ユーザー         |
 |チームとチャネル     |         |AAD グループの管理 (現在のエクスペリエンスと同じ) にリダイレクトします。             |ユーザー          |
+|アプリ|Enable new external apps by default (既定で新しい外部アプリを有効にする)|組織全体にわたるアプリケーションの設定|テナント|
+|アプリ|外部のアプリケーションを許可します。|組織全体にわたるアプリケーションの設定|テナント|
+|アプリ|外部アプリケーション<sup>2</sup>の sideloading を許可します。|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|ユーザー|
+|アプリ|既定のアプリケーション<sup>3</sup>|TeamsAppPermissionPolicy|ユーザー|
+|アプリ|外部アプリケーション<sup>3</sup>|TeamsAppPermissionPolicy|ユーザー|
 |通話や会議     |プライベート会議の予約を許可する         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |ユーザー          |
 |通話や会議     |アドホック チャネルの meetup を許可します。         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |ユーザー          |
 |通話や会議     |チャネル会議の予約を許可する         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |ユーザー          |
@@ -68,6 +73,13 @@ ms.locfileid: "29753537"
 |メッセージング     |個別にチャットすることができます。         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |ユーザー         |
 
 <sup>1</sup>は、ゲストから廃止されます。 ゲストを有効にする無効にすると管理できるように、マイクロソフトのチーム管理センターで。 企業、Edu の学生のチームを有効にする無効にして、Edu 教職員がすぐに使用できません。 これは、Office 365 の管理センターでのライセンスを割り当てることによって管理する必要があります。 [マイクロソフトのチームへのユーザー アクセスの管理](user-access.md)を参照してください。
+<br><br>
+<sup>2</sup> Sideloading に次のように分割されます。
+
+- [TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)のユーザー レベルで管理することができる sideload アプリケーションにユーザーを許可します。
+- テナント レベルで組織全体にわたるアプリケーションの設定を管理できますが、カスタム アプリケーションとの対話をテナントにできるようにします。
+ 
+<sup>3</sup>既定のアプリケーションと外部アプリケーションが有効になって、TeamsAppPermissionPolicy のユーザー レベルで無効になります。 さらに、組織全体にわたるアプリケーションの設定ですべてのユーザーとテナント レベルの設定をオーバーライドするテナント レベルでアプリケーションをブロックできます。 
 
 > [!NOTE]
 > Office 365 の管理センターでチームとのチャネルに関連する構成のグループのダッシュ ボードを使用する続行するでしょう。 アプリケーションの設定は、Office 365 の管理センターの [チーム] 領域で残され、後で移行されます。 

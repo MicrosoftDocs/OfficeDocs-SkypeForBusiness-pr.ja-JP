@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: このセクションのトピックでは、計画し、組織とその活動を生成するサーバーの負荷の計画のユーザーの数を適切に計画できるように、ビジネスのサーバーの Skype を導入する方法を理解できます。
-ms.openlocfilehash: 996fd1df51442bcaadbd0ae548e9cf57e580279a
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: 4a18b68d080eb7cb2a384b727e4ce4d7593d0ac4
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696346"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178717"
 ---
 # <a name="capacity-planning-for-skype-for-business-server-2019"></a>キャパシティ プランニングの Skype のビジネス サーバー 2019
 
@@ -171,8 +171,8 @@ Microsoft では、パフォーマンス テストの際に、次の表に示す
 |:-----|:-----|
 |CPU  <br/> |インテル Xeon E5-2673 v3 のデュアル プロセッサ、6 コア、2.4 ghz (ギガヘルツ) またはそれ以上です。  <br/> |
 |メモリ  <br/> |48 GB  <br/> |
-|ディスク  <br/> |
-いずれかの方法: • 4 または複数の 10000 RPM ハード ディスク ドライブで 72 GB 以上の空き容量ディスク容量 (ディスクは 2 倍の RAID 1 構成にする必要があります)。 または • ソリッドステート ドライブ (Ssd) に同じ領域を解放して 10000 RPM の機械的ディスク ドライブ 4 のようなパフォーマンス。   <br/> | |ネットワーク  <br/> |デュアル ポート ネットワーク アダプターが 1、1 Gbps 以上 (2 推奨、チーミング、1 つの MAC アドレスと 1 つの IP アドレスを持つ必要があります)。  <br/> |
+|ディスク  <br/> | 次のいずれか:<br/> •	10,000 RPM のハード ディスク ドライブで 72 GB 以上の空きディスク領域があるものを 4 台以上 (ディスクは 2 x RAID 1 構成である必要がある)。 <br/>または <br/>•	10000 RPM の機械的ディスク ドライブ 4 台と同じ空き領域および同等のパフォーマンスを持つソリッド ステート ドライブ (SSD)。   <br/> |
+|ネットワーク  <br/> | 1 Gbps 以上のデュアルポート ネットワーク アダプター 1 つ (2 つを推奨。その場合は 1 つの MAC アドレスと 1 つの IP アドレスのチーミングが必要)  <br/> |
 
 **推奨されるディスク構成**
 

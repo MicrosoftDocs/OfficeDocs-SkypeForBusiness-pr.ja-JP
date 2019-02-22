@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Office 365 の管理者は、組織内の個別のユーザーについて、プロバイダー、既定の有料電話番号または無料電話番号、会議 ID、または PIN などの Microsoft Teams の電話会議の設定を編集することができます。 '
-ms.openlocfilehash: 5b5ea2217f0bd5dce9738ab5013c176c89a9050f
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 46b3eaf393ba49a17fb92c3cbeebc1d6927f16e5
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754342"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178655"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Microsoft Teams でユーザーの電話会議の設定を管理する
 
@@ -50,7 +50,7 @@ Office 365 管理者としてSkype for Business Onlineの電話会議の設定 �
 |**認証されていないユーザーは、会議の最初の人**|この設定を変更するのには**認証されていないユーザーは、会議の最初の人**で、オフを切り替えます。
 |**ダイヤルアウトのアクセス許可**|この設定を変更するには、**オーディオ会議**の横にあると、[**電話会議**] ウィンドウで**編集**をクリックして、**会議から発信**] のオプションを選択します。|
 
-![ユーザーの電話会議の設定を示しています。](media/sfbaudioconf-usersettings.png)
+![ユーザーの電話会議の設定を示しています。](media/teams-manage-audio-conferencing-settings-for-a-user-image1.png)
  
 
 > [!Note]

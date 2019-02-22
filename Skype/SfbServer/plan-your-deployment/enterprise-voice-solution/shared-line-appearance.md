@@ -15,10 +15,10 @@ ms.custom: ''
 ms.assetid: 6356aad4-700d-495c-8fc8-58eb1d4f6f18
 description: ビジネス サーバー 2015 年 2015年 11 月の共有行の外観 (SLA) で Skype を計画する方法については、このトピックを参照して累積的な更新です。
 ms.openlocfilehash: b65d637426b0a8533089b21021bce566373ca9f1
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
+ms.lasthandoff: 02/21/2019
 ms.locfileid: "23884509"
 ---
 # <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の回線共有機能の計画
@@ -39,7 +39,7 @@ SLA は、次の電話デバイス (サポートされていない Skype のビ�
     
 SLA 2015年 11 月ビジネス サーバーでは、Skype の新機能は、累積的な更新です。 
   
-SLA を展開する方法の詳細については、[共有行の外観ビジネス サーバー 2015 の Skype での展開](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md)を参照してください。
+SLA の展開の詳細については、「[Deploy Shared Line Appearance in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md)」を参照してください。
   
 ## <a name="feature-list"></a>機能リスト
 

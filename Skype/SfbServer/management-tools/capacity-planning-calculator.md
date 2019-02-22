@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: '概要: 容量計算機の使用方法'
-ms.openlocfilehash: c55c42942ef14d7ec1904fb8b43340d6a2babb50
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8fdd2132a60becfc68c6e8d59acd8660a33eb9b4
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533414"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178662"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>Skype ビジネス サーバーの容量計画の計算について
  
@@ -26,7 +26,7 @@ ms.locfileid: "26533414"
 > - ビジネス サーバー 2019 の Skype です。
 > - ビジネス サーバー 2015 の Skype です。
   
-[ビジネス サーバー 2015 の容量の計算の Skype](https://www.microsoft.com/en-us/download/details.aspx?id=51196)と[Skype](https://www.microsoft.com/en-in/download/details.aspx?id=57510)ビジネス サーバー 2019 の容量の計算には、 [Skype](https://www.microsoft.com/en-us/download/details.aspx?id=50357)と展開に関するドキュメント ([、Skype をビジネスのための計画を強化します。サーバー 2015年配置](../plan-your-deployment/plan-your-deployment.md) [、Skype をビジネス サーバー 2019 の展開の計画](../../SfBServer2019/plan/plan-your-deployment-2019.md)とそれぞれ)。 この計算機は、ガイドをよくお読みになり、計画ツールを使って推奨のトポロジを作成後に使用してください。
+[ビジネス サーバー 2015 の容量の計算の Skype](https://www.microsoft.com/en-us/download/details.aspx?id=51196)と[Skype](https://www.microsoft.com/en-us/download/details.aspx?id=57509)ビジネス サーバー 2019 の容量の計算には、 [Skype](https://www.microsoft.com/en-us/download/details.aspx?id=50357)と展開に関するドキュメント ([、Skype をビジネスのための計画を強化します。サーバー 2015年配置](../plan-your-deployment/plan-your-deployment.md) [、Skype をビジネス サーバー 2019 の展開の計画](../../SfBServer2019/plan/plan-your-deployment-2019.md)とそれぞれ)。 この計算機は、ガイドをよくお読みになり、計画ツールを使って推奨のトポロジを作成後に使用してください。
   
 ビジネス サーバーの容量の計算に役立ちますの Skype ユーザーと組織を使用してコミュニケーション ツールの数に基づいて、サーバーの要件を決定します。 ユーザー プロファイルとユーザーに対して有効にしたい機能が決定したら、この計算機を使って必要とするサーバー、メモリ、帯域幅数を決定します。 計算機のこのバージョンでは、ディスク I/O 要件に対するガイダンスは提供しません。
   
