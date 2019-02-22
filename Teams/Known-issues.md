@@ -3,7 +3,7 @@ title: Microsoft Teams の既知の問題
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 8/21/2018
+ms.date: 2/19/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -13,12 +13,12 @@ search.appverid: MET150
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e0a74bf35a122a672f99e91c872eab77a6ce6cd
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 0877ce3f92a9266d3ae4ea93f634a1e8d612be57
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789168"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120442"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -32,7 +32,7 @@ ms.locfileid: "27789168"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|Enhanced Mitigation Experience Toolkit (EMET) の EAF ポリシーが、Chromium サンドボックスの最適化を間違って脅威として識別する可能性がある。 <br/> |Enhanced Mitigation Experience Toolkit (EMET) および Windows Defender Advanced Threat Protection (ATP) の Export Address Table Access Filtering (EAF) ポリシーで、Chromium サンドボックスの最適化が間違って脅威として識別されるという、Chromium サンドボックスに関する問題があります。これにより、Teams が正常に機能しません。  <br/> | この問題を回避するには、Teams で EAF をオフにします。この問題の詳細については、[EMET 緩和策のガイドライン](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines)をご覧ください。Windows Defender ATP および EAF ポリシーの詳細については、「[Exploit Protection をカスタマイズする](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection)」をご覧ください。 <br/> |2018 年 10 月 11 日 <br/> |
+|Enhanced Mitigation Experience Toolkit (EMET) の EAF ポリシーが、Chromium サンドボックスの最適化を間違って脅威として識別する可能性がある。 <br/> |Enhanced Mitigation Experience Toolkit (EMET) および Windows Defender Advanced Threat Protection (ATP) の Export Address Table Access Filtering (EAF) ポリシーで、Chromium サンドボックスの最適化が間違って脅威として識別されるという、Chromium サンドボックスに関する問題があります。これにより、Teams が正常に機能しません。  <br/> | この問題を回避するには、Teams で EAF をオフにします。この問題の詳細については、[EMET 緩和策のガイドライン](https://support.microsoft.com/ja-JP/help/2909257/emet-mitigations-guidelines)をご覧ください。Windows Defender ATP および EAF ポリシーの詳細については、「[Exploit Protection をカスタマイズする](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection)」をご覧ください。 <br/> |2018 年 10 月 11 日 <br/> |
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
@@ -40,7 +40,7 @@ ms.locfileid: "27789168"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|テナント全体のコネクタに対する管理者による管理機能が利用できなくなっている  <br/> |コネクタをクライアントとオンライン バージョンの両方に追加しようとすると、「予期しないエラーが発生しました。もう一度やり直してください」というエラーが表示されます。Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Teams の設定で無効にします。次のサポート記事をご覧ください:  https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |2017/06/21  <br/> |
+|テナント全体のコネクタに対する管理者による管理機能が利用できなくなっている  <br/> |コネクタをクライアントとオンライン バージョンの両方に追加しようとすると、「予期しないエラーが発生しました。もう一度やり直してください」というエラーが表示されます。Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Teams の設定で無効にします。次のサポート記事をご覧ください:  https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |2017/6/21  <br/> |
 
 ## <a name="apps"></a>アプリ
 
@@ -242,7 +242,7 @@ ms.locfileid: "27789168"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|SharePoint ページ タブによりブランク スクリーンが表示される <br/> |SharePoint Online のバニティ ドメインは現在サポートされていません。ユーザーが SharePoint ページ タブを追加しようとすると、ブランク スクリーンが表示されてしまいます。 <br/> |回避策なし。 <br/> |2018/08/20  <br/>|
+|SharePoint ページ タブによりブランク スクリーンが表示される <br/> |SharePoint Online のバニティ ドメインは現在サポートされていません。ユーザーが SharePoint ページ タブを追加しようとすると、ブランク スクリーンが表示されてしまいます。 <br/> |回避策なし。 <br/> |8/20/18  <br/>|
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
@@ -268,11 +268,11 @@ ms.locfileid: "27789168"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|チーム名に &amp; 記号が含まれるとコネクタが機能しません  <br/> |&amp; 記号を含むチーム名が作成されると、チーム/グループ内のコネクタを確立できなくなります。  <br/> |チーム名には特殊文字を使用しないでください。  <br/> |2017/06/21  <br/> |
+|チーム名に &amp; 記号が含まれるとコネクタが機能しません  <br/> |&amp; 記号を含むチーム名が作成されると、チーム/グループ内のコネクタを確立できなくなります。  <br/> |チーム名には特殊文字を使用しないでください。  <br/> |2017/6/21  <br/> |
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|チーム メンバーが最大数の 2500 に達しています  <br/> |Microsoft Teams の各チームには最大で 2500 人が参加できます。  <br/> |回避策なし。  <br/> |2017/03/13  <br/> |
+|チーム メンバーが最大数の 5000 に達しています  <br/> |Microsoft Teams の各チームには最大で 5000 人が参加できます。  <br/> |回避策なし。  <br/> |2019/2/6  <br/> |
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|

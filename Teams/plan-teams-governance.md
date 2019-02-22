@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 87f52eae4b99a76fc1eddf60fbdfd876efa8da05
 ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/06/2019
 ms.locfileid: "29754811"
@@ -36,18 +36,18 @@ Your organization might require that you implement strict controls on how teams 
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>自分の組織において、チームについての特定の名前付け規則はありますか?</li><li>チーム作成者は組織固有の分類をチームに割り当てる機能を必要としていますか?</li><li>チームにゲストを追加する機能を、チーム単位で制限する必要はありますか?</li><li>自分の組織において、チームを作成可能なユーザーを制限する必要はありますか?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>チームの作成、名前付け、分類、およびゲスト アクセスについて、自分の組織の要件を文書化します。</li><li>Teams のロールアウトの一部として、これらの要件を実施する計画を立てます。</li><li>ポリシーの伝達と公開を行い、Teams ユーザーに求められる動作について通知します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|次の手順|<ul><li>チームの作成、名前付け、分類、およびゲスト アクセスについて、自分の組織の要件を文書化します。</li><li>Teams のロールアウトの一部として、これらの要件を実施する計画を立てます。</li><li>ポリシーの伝達と公開を行い、Teams ユーザーに求められる動作について通知します。</li></ul>|
 
 > [!TIP]
 > 次の表を使用して、組織の要件を把握します。
 
-|機能 |詳細 |Azure AD プレミアム <br> ライセンス必要 |判断 |
+|機能 |詳細 |Azure AD プレミアム <br> ライセンス必要 |Decision |
 |---------|---------|---------|---------|
-|Team の名前付けポリシー | プレフィックス/サフィックスの形式の、カスタムの禁止語句を使用します。 |P1 |TBD |
+|Team の名前付けポリシー | プレフィックス サフィックスに基づくカスタム ブロックの単語を使用します。 |P1 |TBD |
 |チーム分類 |チームに分類を割り当てます。 |P1 |TBD |
-|チームのゲスト アクセス |ゲストがチームに追加されるのを許可または禁止します。 |なし |TBD |
-|チームの作成 |チームの作成を管理者に制限します。 |なし |TBD|
-|チームの作成 |チームの作成をセキュリティ グループ メンバーに制限します。 |P1 |TBD|
+|チームのゲスト アクセス |ゲストがチームに追加されるのを許可または禁止します。 |いいえ |TBD |
+|チームの作成 |チームの作成を管理者に限定します。 |不要 |TBD|
+|チームの作成 |チームの作成をセキュリティ グループのメンバーに限定します。 |P1 |TBD|
 
 > [!NOTE]
 > 事前に計画を立てやすくなるために、[これらのポリシーの設定について、およびどのライセンスが必要とされるかについて確認してください](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
@@ -73,17 +73,17 @@ Your organization might have additional requirements for setting policies for ex
 
 |           |            |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>自分の組織でチームについて有効期限日を指定する必要はありますか?</li><li>自分の組織でチームに特定のデータ保持ポリシーを適用する必要はありますか?</li><li>自分の組織で、コンテンツを読み取り専用の状態で保存するために、非アクティブなチームをアーカイブ化する機能が必要となる見込みはありますか?</li></ul>|
-| ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>有効期限、データ保持、アーカイブ化についての組織の要件を文書化します。</li><li>Teams のロールアウトの一部として、これらの要件を実施する計画を立てます。</li><li>ポリシーの伝達と公開を行い、Teams ユーザーに求められる動作について通知します。</li></ul>|
+| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>組織はチームに有効期限日を指定することを必要としていますか?</li><li>自分の組織でチームに特定のデータ保持ポリシーを適用する必要はありますか?</li><li>自分の組織で、コンテンツを読み取り専用の状態で保存するために、非アクティブなチームをアーカイブ化する機能が必要となる見込みはありますか?</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>有効期限、データ保持、アーカイブ化についての組織の要件を文書化します。</li><li>Teams のロールアウトの一部として、これらの要件を実施する計画を立てます。</li><li>ポリシーの伝達と公開を行い、Teams ユーザーに求められる動作について通知します。</li></ul>|
 
 > [!TIP]
 > 次の表を使用して、組織の要件を把握します。
 
-|機能 |詳細 |Azure AD Premium ライセンスが必要 |判断 |
+|機能 |詳細 |Azure AD Premium ライセンスが必要 |Decision |
 |---------|---------|---------|---------|
-|有効期限ポリシー |有効期限ポリシーを設定して、Office 365 グループのライフサイクルを管理します。 |P1 |TBD|
-|保持ポリシー |Retain or delete data for a specific time period by setting retention policies for Teams in the Security & compliance center. **Note**: Using this feature requires licensing of Office 365 Enterprise E3 or above. |なし |TBD |
-|アーカイブ化と復元 |アクティブでなくなったチームを、参照用として保持する目的で、または将来的に再びアクティブ化する可能性がある場合に備えて、アーカイブ化します。 |なし |TBD |
+|有効期限ポリシー |有効期限ポリシーを設定することにより、Office 365 グループのライフ サイクルを管理します。 |P1 |TBD|
+|アイテム保持ポリシー |Retain or delete data for a specific time period by setting retention policies for Teams in the Security & compliance center. **Note**: Using this feature requires licensing of Office 365 Enterprise E3 or above. |いいえ |TBD |
+|アーカイブと復元 |チームがアクティブでなくなったときにチームをアーカイブして、参照用または将来再アクティブ化するために保持します。 |不要 |TBD |
 
 > [!Note]
 > Group expiration is an Azure AD Premium feature. For this feature to be available, your tenant must have a subscription to Azure AD Premium and licenses for the administrator who configures the settings and the members of the affected groups.
@@ -107,7 +107,7 @@ Another important aspect of governance and lifecycle management for Teams is the
 |         |         |
 |---------|---------|
 | ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>自分の組織で、テナント全体に対して Teams 機能を制限することが必要ですか?</li><li>自分の組織で、特定のユーザーに対して Teams 機能を制限することが必要ですか?</li></ul>|
-| ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>テナントおよびユーザー レベルで Teams の機能を制限するための組織の要件を文書化します。</li><li>Teams のロールアウトの一部として、特定の要件を実施する計画を立てます。</li><li>ポリシーの伝達と公開を行い、Teams ユーザーに求められる動作について通知します。</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>テナントおよびユーザー レベルで Teams の機能を制限するための組織の要件を文書化します。</li><li>Teams のロールアウトの一部として、特定の要件を実施する計画を立てます。</li><li>ポリシーの伝達と公開を行い、Teams ユーザーに求められる動作について通知します。</li></ul>|
 
 ### <a name="teams-feature-management-focus-areas"></a>Teams の機能管理での重点領域
 
@@ -115,8 +115,8 @@ Teams provides granular capabilities for controlling messaging, meeting, calling
 
 自分の組織での各設定の実行についての技術的なガイダンスを含む、すべての設定の詳細なリストについては、次の記事を参照してください。
 
--   [Office 365 を使用する組織で Microsoft Teams の機能を管理する](enable-features-office-365.md)
--   [新しいマイクロソフトのチーム管理センターに移行する際のチームを管理します。](manage-teams-skypeforbusiness-admin-center.md)
+-   [Office 365 の組織で Microsoft Teams の機能を管理する](enable-features-office-365.md)
+-   [新しい Microsoft Teams 管理センターへの移行中に Teams を管理する](manage-teams-skypeforbusiness-admin-center.md)
 -   [Teams での会議ポリシーを管理する](meeting-policies-in-teams.md)
 
 
