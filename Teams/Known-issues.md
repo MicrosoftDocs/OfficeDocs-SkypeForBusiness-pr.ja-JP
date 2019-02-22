@@ -13,12 +13,12 @@ search.appverid: MET150
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0877ce3f92a9266d3ae4ea93f634a1e8d612be57
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 252d1508065aaf0a26e865b8f8d8109dec81512e
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120442"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178582"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -163,7 +163,7 @@ ms.locfileid: "30120442"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|ユーザーが会議/コネクタにアクセスできないのに Exchange Online メールボックスを持っている。 <br/> |ユーザーはアクティブに Exchange Online 内のサービスからの EWS を遮断していますが、MS Teams を EWS ポリシーに準拠するようにする必要があります。 <br/> |MS Teams を準拠するようにするには、MS Teams 用のユーザー エージェント文字列 `*skypespaces*` および `*microsoftninja*` をアスタリスクも含めて EWSAllowList 内に追加する必要があります。次のコマンドを使用することができます: `Set-organizationconfig -EwsAllowList @{Add="*MicrosoftNinja*","*SkypeSpaces*"}`<br/> 詳細については、「https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps」をご覧ください。 <br/> |2017/05/30  <br/>|
+|ユーザーが会議/コネクタにアクセスできないのに Exchange Online メールボックスを持っている。 <br/> |ユーザーはアクティブに Exchange Online 内のサービスからの EWS を遮断していますが、MS Teams を EWS ポリシーに準拠するようにする必要があります。 <br/> |MS Teams を準拠するようにするには、MS Teams 用のユーザー エージェント文字列 `SkypeSpaces/*` および `MicrosoftNinja/*` をアスタリスクも含めて EWSAllowList 内に追加する必要があります。次のコマンドを使用することができます: `Set-organizationconfig -EwsAllowList @{Add="MicrosoftNinja/*","SkypeSpaces/*"}`<br/> 詳細については、「https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps」をご覧ください。 <br/> |2017/05/30  <br/>|
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
