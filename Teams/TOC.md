@@ -314,10 +314,12 @@
 ### 発信者番号通知
 #### [組織内での発信者番号の使用方法](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [ユーザーに発信者番号を設定する](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### 自動応答と通話キュー
+### 自動応答と通話キュー 
 #### [自動応答の電話システムは何ですか](what-are-phone-system-auto-attendants.md)
-#### [電話システムの自動応答をセットアップする](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [電話システムの通話キューを作成する](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [電話システムの自動応答をセットアップする](create-a-phone-system-auto-attendant.md)
+#### [小規模企業の例では、自動応答を設定](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [マイクロソフトのチームでのリソースのアカウントを管理します。](manage-resource-accounts.md)
+#### [電話システムの通話キューを作成する](create-a-phone-system-call-queue.md)
 #### [自動アテンダントが応答し、チームから直接キューの呼び出しを呼び出す](answer-auto-attendant-and-call-queue-calls.md)
 ### [コール パークおよび取得](call-park-and-retrieve.md)
 ### [共有とグループのコール ピックアップします。](call-sharing-and-group-call-pickup.md)
@@ -664,7 +666,7 @@
 ### [モニター通話の音質](monitor-call-quality-qos.md)
 #### [レビュー ガイドの経験の質](quality-of-experience-review-guide.md)
 #### [チームでの QoS を設定します](QoS-in-Teams.md)
-#### [QoS を実装し、通話の品質を監視します。](monitor-call-quality-qos.md)
+##### [Windows クライアントで QoS を設定](QoS-in-Teams-clients.md)
 #### [通話分析および通話品質ダッシュボード](difference-between-call-analytics-and-call-quality-dashboard.md)
 #### [通話分析をセットアップする](set-up-call-analytics.md)
 #### [通話分析を使用して低品質の通話をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)

@@ -2,20 +2,20 @@
 title: Windows インストーラー (MSI) を使用する Skype for Business の各バージョンに対する最新の更新プログラム
 ms.author: jambirk
 author: jambirk
+ms.reviewer: qingy
 manager: serdars
 ms.audience: ITPro
-ms.reviewer: qingy
 ms.topic: reference
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: IT 専門家向けに、Skype for Business 2016、Skype for Business 2015、および Lync 2013 クライアントの永続バージョンに対する最新の更新プログラム関連情報へのリンクを提供します。
-ms.openlocfilehash: f3cf01aeec5117a210207cb958f7255f6592c606
-ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
+ms.openlocfilehash: aaeb13de41beff5e7e1230f84a0f7bc3a7f571e4
+ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29786407"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30210859"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Windows インストーラー (MSI) を使用する Skype for Business の各バージョンに対する最新の更新プログラム
 

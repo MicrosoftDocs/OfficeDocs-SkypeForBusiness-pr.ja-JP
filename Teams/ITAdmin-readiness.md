@@ -12,12 +12,12 @@ search.appverid: MET150
 description: トレーニング ビデオ、PowerPoint デッキ、チュートリアル、およびその他のリソースを計画する方法には、展開、およびマイクロソフトのチームを実行します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58f37fba985817b777ebce7c125b9cd5d80cc425
-ms.sourcegitcommit: 11f95d0df48a23e701ffaf3b26445d736cbbb884
+ms.openlocfilehash: 13b6b6e376043cb029c9775e0d0c3e6375370b0a
+ms.sourcegitcommit: ad126165b6440b98e550ab48e6b3491aeba9402b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/18/2019
-ms.locfileid: "30079134"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30205684"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 
@@ -86,15 +86,15 @@ ms.locfileid: "30079134"
 
 | モジュール | ビデオ | PowerPoint デッキ |
 | ------------ | -------------------- | -------------------- |
-| コア ・ コンポーネントの基礎」 | [ビデオ](http://aka.ms/teams-foundations) | [デッキ](http://aka.ms/teams-foundations-deck) |
-| Windows デスクトップ クライアント | [ビデオ](http://aka.ms/teams-clients) | [デッキ](http://aka.ms/teams-clients-deck) |
-| ガバナンス、管理、および Lifecylce | [ビデオ](http://aka.ms/teams-governance) | [デッキ](http://aka.ms/teams-governance-deck) |
-| ネットワークの計画 | [ビデオ](http://aka.ms/teams-networking) | [デッキ](http://aka.ms/teams-networking-deck) |
-| 通話品質の概要 | [ビデオ](http://aka.ms/teams-quality) | [デッキ](http://aka.ms/teams-quality-deck) |
-| 会議の概要 | [ビデオ](http://aka.ms/teams-meetings-intro) | [デッキ](http://aka.ms/teams-meetings-intro-deck) |
-| 電話システムの概要 | [ビデオ](http://aka.ms/teams-phone-system) | [デッキ](http://aka.ms/teams-phone-system-deck) |
-| 直接のルーティング | [ビデオ](http://aka.ms/teams-direct-routing) | [デッキ](http://aka.ms/teams-direct-routing-deck) |
-| Skype for Business から Teams へのアップグレード | [ビデオ 1: アップグレードの概要](https://aka.ms/teams-upgrade-intro)</br>[ビデオ 2: アップグレードを計画します。](https://aka.ms/teams-upgrade-plan)</br>[ビデオ 3: 共存と相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[ビデオ 4: 管理者の経験](https://aka.ms/teams-upgrade-admin) | [デッキ](http://aka.ms/teams-upgrade-deck)|
+| コア ・ コンポーネントの基礎」 | [ビデオ](https://aka.ms/teams-foundations) | [デッキ](https://aka.ms/teams-foundations-deck) |
+| Windows デスクトップ クライアント | [ビデオ](https://aka.ms/teams-clients) | [デッキ](https://aka.ms/teams-clients-deck) |
+| ガバナンス、管理、および Lifecylce | [ビデオ](https://aka.ms/teams-governance) | [デッキ](https://aka.ms/teams-governance-deck) |
+| ネットワークの計画 | [ビデオ](https://aka.ms/teams-networking) | [デッキ](https://aka.ms/teams-networking-deck) |
+| 通話品質の概要 | [ビデオ](https://aka.ms/teams-quality) | [デッキ](https://aka.ms/teams-quality-deck) |
+| 会議の概要 | [ビデオ](https://aka.ms/teams-meetings-intro) | [デッキ](https://aka.ms/teams-meetings-intro-deck) |
+| 電話システムの概要 | [ビデオ](https://aka.ms/teams-phone-system) | [デッキ](https://aka.ms/teams-phone-system-deck) |
+| 直接のルーティング | [ビデオ](https://aka.ms/teams-direct-routing) | [デッキ](https://aka.ms/teams-direct-routing-deck) |
+| Skype for Business から Teams へのアップグレード | [ビデオ 1: アップグレードの概要](https://aka.ms/teams-upgrade-intro)</br>[ビデオ 2: アップグレードを計画します。](https://aka.ms/teams-upgrade-plan)</br>[ビデオ 3: 共存と相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[ビデオ 4: 管理者の経験](https://aka.ms/teams-upgrade-admin) | [デッキ](https://aka.ms/teams-upgrade-deck)|
 
 <h2>クイック スタート ガイド</h2>
 

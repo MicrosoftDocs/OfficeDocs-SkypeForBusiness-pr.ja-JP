@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 設置 PSTN への接続では、Office 365 (クラウド PBX) の電話システムの計画の考慮事項について説明します。
-ms.openlocfilehash: 3856a4901666ec58b286d5edb26c7d69bba65e41
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: 234c2966cb887c0adfdd15f518479ad5e363fe73
+ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069484"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30210630"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Skype で設置した PSTN 接続を持つビジネス サーバーの Office 365 の電話システムを計画します。
 
 設置 PSTN への接続では、Office 365 (クラウド PBX) の電話システムの計画の考慮事項について説明します。
 
-このコンテンツは、または場合は既に Skype ビジネス サーバーに Lync Server 2013 の設置型の展開に関連します。 その他のシナリオでは、 [Microsoft のテレフォニー ソリューション](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)を参照してください。
+このコンテンツは、または場合は既に Skype ビジネス サーバーに Lync Server 2013 の設置型の展開に関連します。 他のシナリオは、「 [Office 365 (クラウド PBX) ソリューションの電話システムの計画](plan-your-phone-system-cloud-pbx-solution.md)」を参照してください。
 
  設置 PSTN への接続と Office 365 の電話システムでは、ユーザーの電話システム (PBX をクラウド) 機能を活用を行うことができます。 これは、次のようなシナリオで役立ちます。
 
@@ -111,6 +111,6 @@ PSTN への接続を設置し、Skype をユーザーの移動と Office 365 の
 
 - **Active Directory フェデレーション サービス (AD FS) (推奨)** シングル サインオンをサポートするために AD FS を展開することをお勧めします。 詳細については、 [Active Directory フェデレーション サービス (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx)を参照してください。
 
-Office 365 の電話システムを展開する方法の詳細については、[組織内の電話システムの設定](https://docs.microsoft.com/en-us/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)を参照してください。
+Office 365 の電話システムを展開する方法の詳細については、 [Skype のビジネス サーバーの PSTN への接続をオンプレミスと Office 365 の電話システムのユーザーを有効にする](enable-users-for-phone-system.md)を参照してください。
 
 

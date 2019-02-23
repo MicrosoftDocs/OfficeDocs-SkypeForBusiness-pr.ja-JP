@@ -13,15 +13,14 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6b95da8ee416d4f64d22a8c0622acd417b7bb1d
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: 3af825b28f1c6c4abc202bb343c80b50176de16e
+ms.sourcegitcommit: ad126165b6440b98e550ab48e6b3491aeba9402b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29742849"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30205676"
 ---
-<a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する
-=================================================
+# <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する
 
 > [!Tip]
 > については、次のセッションを監視するチームをするための方法、ネットワークとの最適なネットワーク接続の最適な計画を立てる方法を活用:[チーム ネットワークの計画](https://aka.ms/teams-networking)
@@ -46,23 +45,29 @@ Microsoft Teams でリアルタイム メディアの最適な操作性を実現
 
 
 |値  |クライアントから Microsoft Edge  |Customer Edge から Microsoft Edge  |
-|---------|---------|---------|
-|**遅延 (一方向)**     |< 50 ミリ秒          |< 30 ミリ秒          |
-|**遅延 (RTT または往復時間)** |< 100 ミリ秒         |< 60 ミリ秒         |
+|:--- |:--- |:--- |
+|**遅延 (一方向)** \*  |< 50 ミリ秒          |< 30 ミリ秒         |
+|**遅延 (RTT または往復時間)** \* |< 100 ミリ秒   |< 60 ミリ秒 |
 |**バースト パケット損失**    |< 任意の 200 ミリ秒間隔で 10%         |< 任意の 200 ミリ秒間隔で 1%         |
 |**パケット損失**     |< 任意の 15 秒間隔で 1%          |< 任意の 15 秒間隔で 0.1%         |
 |**パケット到着間ジッター**    |< 15 秒間隔で 30 ミリ秒         |< 任意の 15 秒間隔で 15 ミリ秒         |
 |**パケットの並べ替え**    |< 順序が適切でないパケットが 0.05%         |< 順序が適切でないパケットが 0.01%         |
+
+\*遅延のメトリック ターゲットは、会社のサイトまたはサイトを想定し、同じ大陸には、マイクロソフトのエッジ。
+
+Microsoft ネットワークのエッジに、企業サイトの接続には、WiFi または他のワイヤレス技術は、最初のホップ ネットワーク アクセスが含まれています。
+
+ネットワーク パフォーマンスの目標は、適切な帯域幅と[QoS の計画](QoS-in-Teams.md)と仮定します。 つまり、要件は、ピーク負荷の下では、ネットワーク接続とチーム リアルタイム メディアのトラフィックを直接適用されます。
 
 両方のネットワーク セグメントをテストするために、[Network Assessment Tool](https://go.microsoft.com/fwlink/?linkid=855799) を使用することができます。 このツールは、クライアント PC に直接展開したり、Customer Network Edge に接続された PC に展開したりすることができます。 ツールに含まれているドキュメントは限定的ですが、ツールの使用についてのより詳細なドキュメントは「[Network Readiness Assessment (ネットワークの準備状況の評価)](https://go.microsoft.com/fwlink/?linkid=855800)」にあります。 この Network Readiness Assessment を実行することによって、Microsoft Teams などのリアルタイム メディア アプリケーションを実行するためのネットワークの準備状況を検証することができます。
 
 > [!NOTE]
 > これは Skype for Business を展開するカスタマ向けに推奨される Network Readiness Assessment と同じです。
 
-<a name="bandwidth-requirements"></a>帯域幅要件
-----------
 
-Microsoft Teams の帯域幅の計算は複雑であるため、それを支援する計算ツールが用意されています。 この計算ツールにアクセスするには、「[Network Planner in MyAdvisor (MyAdvisor での Network Planner)](https://aka.ms/bwcalc/)」に移動してください。
+## <a name="bandwidth-requirements"></a>帯域幅要件
+
+Microsoft Teams の帯域幅の計算は複雑であるため、それを支援する計算ツールが用意されています。 計算機にアクセスするには、MyAdvisor では、[ネットワークの計画](https://aka.ms/bwcalc/)に移動します。
 
 > [!NOTE]
 > チームの帯域幅の処理が Skype でオンライン ビジネスの向上: チームの呼び出しや、会議の経験 (オーディオ、ビデオ、および共有) は、高品質でのみ 1.2 Mbps が必要です。 拡張性にも十分な帯域幅が利用可能な場合に非常に高品質の最大さらにします。 チームの要求には、低帯域幅の条件が検出されると、チームが迅速に再調整して、帯域幅の使用可能な帯域幅に適応します。
@@ -88,11 +93,11 @@ The content you will find below can be used as supplemental background informati
 <a name="additional-network-considerations"></a>ネットワークに関する追加の考慮事項
 ---------------
 
-#### <a name="external-name-resolution"></a>**外部の名前解決**
+#### <a name="external-name-resolution"></a>外部の名前解決
 
-Teams を実行するすべてのクライアント コンピュータが外部 DNS クエリを解決して、Office 365 によって提供されるサービスを検出できることを確認してください。
+チームのクライアントを実行するすべてのクライアント コンピューターで、Office 365 が提供するサービスを検出するのには外部の DNS クエリを解決できることと、ファイアウォールがアクセスを遮断していないことを確認します。 ファイアウォール ポートを構成する方法の詳細については、 [Office 365 の Url と IP の範囲](office-365-urls-ip-address-ranges.md)を参照してください。
 
-#### <a name="nat-pool-size"></a>**NAT プール サイズ**
+#### <a name="nat-pool-size"></a>NAT プール サイズ
 
 複数のユーザーまたはデバイスがネットワーク アドレス変換 (NAT) またはポート アドレス変換 (PAT) を使用して Office 365 にアクセスする場合は、パブリック ルーティング可能な各 IP アドレスの後ろに隠れているデバイスが、サポートされる数値を超過していないことを確認する必要があります。
 

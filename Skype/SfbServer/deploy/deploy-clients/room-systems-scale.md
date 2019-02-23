@@ -1,23 +1,23 @@
 ---
 title: システム センター構成マネージャーを使用して、Skype の部屋のシステムを導入します。
 ms.author: jambirk
-author: Turgayo
+author: jambirk
+ms.reviewer: Turgayo
 manager: serdars
 ms.date: 5/10/2018
 ms.audience: ITPro
-ms.reviewer: Turgayo
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 大規模な展開で Skype ルーム システム v2 を展開する方法については、このトピックを参照してください。
-ms.openlocfilehash: ce3a857971fd60988e89608391cc3ec7d3d0c3ae
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: 3602422779a405376893a3a7e6663520ed6a4a4c
+ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240965"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30210874"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>システム センター構成マネージャーを使用して Skype ルーム システム v2 を展開します。
 

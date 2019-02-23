@@ -1,5 +1,5 @@
 ---
-title: マイクロソフトのチームでのアプリケーション設定のポリシーを管理します。
+title: Microsoft Teams のアプリのセットアップ ポリシーを管理する
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,14 +15,14 @@ localization_priority: Normal
 search.appverid: MET150
 description: マイクロソフトのチームおよび組織内のユーザーのチームをカスタマイズするのには暗証番号 (pin) のアプリケーションを使用するアプリケーション設定のポリシーについて説明します。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fe6281015072858c959a65a6cd17ed157db0afa9
-ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
+ms.openlocfilehash: 4e6ad41dac9021079bffa80284809733c39f3cc9
+ms.sourcegitcommit: ad126165b6440b98e550ab48e6b3491aeba9402b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29894294"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30205764"
 ---
-# <a name="manage-app-setup-policies-in-microsoft-teams"></a>マイクロソフトのチームでのアプリケーション設定のポリシーを管理します。
+# <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
@@ -108,7 +108,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>マイクロソフトのチームの管理センターでは、どのような組み込みのアプリケーション設定のポリシーが含まれますか。
 
-- **グローバル (組織全体の既定値)**: 別のポリシーを割り当てない限り、組織内のすべてのユーザーがこの既定のポリシーが適用されます。 暗証番号 (pin) アプリでは、ユーザーにとって最も重要なグローバル ポリシーを編集します。 
+- **グローバル (組織全体の既定値)**: 別のポリシーを割り当てない限り、組織内のすべてのユーザーがこの既定のポリシーが適用されます。 暗証番号 (pin) アプリでは、ユーザーにとって最も重要なグローバル ポリシーを編集します。
 - **FirstLineWorker**: このポリシーは、先頭行の作業者に対して。 先頭行の作業者に、組織内、ことを割り当てることができます。 カスタム ポリシーを作成することによりのようなあること設定をアクティブにするためにユーザーにポリシーを割り当てることを知っているが重要です。 詳細については、この資料の「[カスタム アプリケーション設定のポリシーをユーザーに割り当てる](#assign-a-custom-app-setup-policy-to-users)を参照してください。
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>固定されたアプリケーションの追加] ウィンドウでアプリケーションを見つけることができないのはなぜでしょうか。
@@ -142,9 +142,9 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>チーム モバイル エクスペリエンスについて理解するには何が必要でしょうか。
 
-チームのモバイル クライアント (iOS および Android) 現在個人用アプリケーションをサポートしていません。 アプリケーション ポリシーの設定によってチームのデスクトップ クライアントに固定されているアプリケーションは、可能性があります、チームのモバイル クライアントでは表示されません。 個人 bot は、モバイル クライアントのチャットにも表示されます。 
+チームのモバイル クライアント (iOS および Android) 静的タブで個人用のアプリケーションが現在サポートされていません。 アプリケーション ポリシーの設定によってチームのデスクトップ クライアントに固定されているアプリケーションは、可能性があります、チームのモバイル クライアントでは表示されません。 個人 bot は、モバイル クライアントのチャットにも表示されます。
 
-チームのモバイル クライアントでは、ユーザーはアクティビティ、チャット、チームなどのコア ・ チームのアプリケーションを参照してくださいし、シフトやプランナーなど、マイクロソフトからいくつかのファースト パーティのアプリケーションを固定することができます。
+チームのモバイル クライアントでは、ユーザーはアクティビティ、チャット、チームなどのコア ・ チームのアプリケーションを参照してくださいし、シフトなど、マイクロソフトからいくつかのファースト パーティのアプリケーションを固定することができます。
 
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>ユーザーは、ポリシーによって固定されているアプリケーションの順序を変更できますか。
 

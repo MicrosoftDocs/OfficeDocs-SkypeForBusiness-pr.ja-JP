@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: '概要: は、Exchange と SharePoint サーバー 2015 のビジネス統合のための Skype について説明します。'
-ms.openlocfilehash: 6bd76957a18c8cfcbff02bf1d92f944bb76cb8b2
-ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
+ms.openlocfilehash: 98e84fdac1e070c10bdcfb99278e78fb6f56a9a6
+ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29890718"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30210623"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Exchange と SharePoint との統合
 
@@ -106,7 +106,7 @@ ms.locfileid: "29890718"
 |不在着信の会話の履歴とログの呼び出しは、ユーザーの exchange メールボックスに書き込まれます。  <br/> ||
 |連絡先リスト (統合連絡先ストア経由)  <br/> |Lync Server 2013 または Skype のビジネス クライアントが必要です。  <br/> |
 |Lync 2013 は、Skype のビジネス クライアントでは、Lync Web App で連絡先の写真を高解像度  <br/> ||
-|会議の委任  <br/> |のみと両方のユーザーは同じフォレストにあるオンライン ホームまたは社内設置型の両方が置かれているサポートされています。 詳細については、[ハイブリッド ソリューションのビジネス用の Skype](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)を参照してください。 <br/> |
+|会議の委任  <br/> |両方のユーザーが同じフォレスト内で常時オンラインである場合、または両方のユーザーがオンプレミスに属する場合にのみサポートされます。 詳細については、[ハイブリッド ソリューションのビジネス用の Skype](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)を参照してください。 <br/> |
 |Exchange でのコンテンツのアーカイブ (IM および会議)  <br/> ||
 |アーカイブされたコンテンツの検索  <br/> ||
 |ボイスメール  <br/> ||
