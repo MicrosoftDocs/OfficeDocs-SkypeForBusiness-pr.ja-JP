@@ -220,7 +220,6 @@
 ### [ダイヤル プランについて](/microsoftteams/what-are-dial-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [Office 365 での電話システム](/microsoftteams/what-is-phone-system-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [電話システムの通話キューを作成する](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Skype for Business Online を利用できる電話機の取得](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Skype for Business Online 電話機の展開](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
 #### [共通エリア電話 (CAP) の設定](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
@@ -230,11 +229,12 @@
 #### [組織でボイスメールの応答メッセージと電子メールに使用する既定の言語を変更する](/microsoftteams/change-the-default-language-for-greetings-and-emails?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [ボイスメールの応答メッセージとメッセージで使用する言語](/microsoftteams/languages-for-voicemail-greetings-and-messages?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [電話システム ボイスメールのセットアップ - 管理者ヘルプ](/microsoftteams/set-up-phone-system-voicemail?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [電話システムの自動応答をセットアップする](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 ### [組織内の電話システムの設定](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [電話システムの自動応答とは](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-#### [電話システムの自動応答をセットアップする](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+#### [電話システムの自動応答をセットアップする](/microsoftteams/set-up-a-phone-system-auto-attendant?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [小規模企業の例では、自動応答を設定](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)
+### [電話システムの通話キューを作成する](/microsoftteams/create-a-phone-system-call-queue?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+
 
 
 ## [Skype 会議ブロードキャスト用にネットワークをセットアップする](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
