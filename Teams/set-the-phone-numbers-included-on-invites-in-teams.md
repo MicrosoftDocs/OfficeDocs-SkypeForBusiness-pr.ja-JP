@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'マイクロソフトのチーム ミーティングに参加するのには呼び出し元の既定の電話番号を作成する手順を取得します。 '
-ms.openlocfilehash: 8cbe7a88d1fcb857ce94a95b2a9af7a159ccef5a
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: a4e6ef573d7c6b5888beee9fc9278d65b883927f
+ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754560"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30302682"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Microsfot Teams で招待状に含まれている電話番号を設定する
 
@@ -53,15 +53,15 @@ ms.locfileid: "29754560"
 
 1. 左側のナビゲーションでは、**ユーザー**] をクリックしてで使用可能なユーザーの一覧からユーザーを選択します。
 
-    ![マイクロソフトのチームの管理センターでユーザーを選択することを示します](media/teamsselectusers.png)
+    ![マイクロソフトのチームの管理センターでユーザーを選択することを示します](media/teams-set-phone-numbers-on-invites-image1.png)
 
 2. ページの上部で、[**編集**] をクリックします。
 
-    ![マイクロソフトのチームの管理センターで編集] をクリックします。](media/teamsedituser.png)
+    ![マイクロソフトのチームの管理センターで編集] をクリックします。](media/teams-set-phone-numbers-on-invites-image2.png)
 
 3. **オーディオ会議**の横にある [**編集**] をクリックします。 
     
-    ![編集をクリックしてオーディオ会議](media/teamseditaudioconf.png)
+    ![編集をクリックしてオーディオ会議](media/teams-set-phone-numbers-on-invites-image3.png)
 
 4. **有料電話番号**や**フリー ダイヤル番号**のフィールドを使用すると、ユーザーの数を入力します。
 

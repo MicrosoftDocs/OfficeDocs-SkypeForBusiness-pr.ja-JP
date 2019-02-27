@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb5310823db4e0a5fa441eca885599423f240dcc
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: b9da36d938a5b6e55920826b10f1ac2c1f528fe3
+ms.sourcegitcommit: c2e4e9b59183440d6aa903832d6d6a1769ccf57d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178527"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30274609"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Office 365 を使用する組織で Microsoft Teams の機能を管理する
 
@@ -44,13 +44,13 @@ Apps are tabs, connectors, bots, or any combination of these three, provided by 
 
 These apps, such as Planner, Praise, and Weather, are provided by Teams. To turn on an app, select the check box for that app. To turn off an app, clear the check box. 
 
-![[既定のアプリ] セクションのスクリーン ショット。](media/teams-tenant-wide-settings-default-apps.png "[既定のアプリ] セクションのスクリーン ショット")
+![[既定のアプリ] セクションのスクリーン ショット。](media/teams-manage-features-in-office365-image1.png "[既定のアプリ] セクションのスクリーン ショット")
 
 #### <a name="external-apps"></a>外部アプリ
 
 These apps are provided by third parties. You can configure the following settings for external apps.
 
-![[外部アプリ] セクションのスクリーンショット。](media/teams-tenant-wide-settings-external-apps-settings.png "[外部アプリ] セクションのスクリーンショット。オンまたはオフにすることができる設定")
+![[外部アプリ] セクションのスクリーンショット。](media/teams-manage-features-in-office365-image2.png "[外部アプリ] セクションのスクリーンショット。オンまたはオフにすることができる設定")
 
 - **Microsoft Teams の外部アプリを許可する**: この設定がオンになると、ユーザーは自分の組織で利用できる外部アプリを追加することができます。 
 

@@ -682,6 +682,7 @@
 ### [管理者のマイクロソフト教育ガバナンスに関する FAQ](plan-teams-governance-edu.md)
 
 ## 先頭行の作業者のチーム
+### [マイクロソフトの StaffHub になった](microsoft-staffhub-to-be-retired.md)
 ### [組織は、チームでのシフトのアプリケーションを管理します。](manage-the-shifts-app-for-your-organization-in-teams.md)
 ### [Retail Teams テンプレートの使用を開始する](get-started-with-retail-teams-templates.md)
 

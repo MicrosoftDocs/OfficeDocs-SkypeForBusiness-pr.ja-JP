@@ -15,12 +15,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: マイクロソフトのチームおよび組織内のユーザーのチームをカスタマイズするのには暗証番号 (pin) のアプリケーションを使用するアプリケーション設定のポリシーについて説明します。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4e6ad41dac9021079bffa80284809733c39f3cc9
-ms.sourcegitcommit: ad126165b6440b98e550ab48e6b3491aeba9402b
+ms.openlocfilehash: 3e46f5ea50d3e9cdb1717838beec454cca05ba30
+ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30205764"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30302690"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
@@ -47,7 +47,7 @@ ms.locfileid: "30205764"
 
 マイクロソフトのチーム管理センターまたは Windows PowerShell を使用すると、カスタム ポリシーを作成します。
 
-1. マイクロソフトのチーム管理センターの左側のナビゲーションでは、**チームのアプリケーション**に移動 > **アプリケーションの設定のポリシー**です。
+1. マイクロソフトのチーム管理センターの左側のナビゲーションで、**チームのアプリケーション**に移動 > **アプリケーションの設定のポリシー**です。
 2. **新しいポリシー**を選択します。
 3. ポリシーのわかりやすい名前を入力し、[**アプリケーションの追加**] をクリックします。
 4. **追加には、アプリが固定されている**ウィンドウで、アプリケーションの**追加**] をクリックし、追加する検索します。  すべてのアプリケーションの一覧を表示するには、**チームのアプリケーションの保存**を選択します。 アプリケーションの一覧を選択したら、[**追加**を] をクリックします。
@@ -62,7 +62,7 @@ ms.locfileid: "30205764"
 
 グローバル (組織) のポリシー、カスタム ポリシーを作成するなど、ポリシーを編集するのには、マイクロソフトのチーム管理センターまたは Windows PowerShell を使用できます。 
 
-1. マイクロソフトのチーム管理センターの左側のナビゲーションでは、**チームのアプリケーション**に移動 > **アプリケーションの設定のポリシー**です。
+1. マイクロソフトのチーム管理センターの左側のナビゲーションで、**チームのアプリケーション**に移動 > **アプリケーションの設定のポリシー**です。
 2. 編集するポリシーを選択します。 
 3. ここでは、変更します。 追加、削除、およびアプリケーションの順序を変更することができます。
 4. [**保存**] をクリックします。 
@@ -152,7 +152,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 ### <a name="custom-teams-apps"></a>サバイバル-カスタム アプリケーション
 
-#### <a name="my-organization-built-a-custom-teams-app-and-published-it-through-appsource-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>自分の所属組織がカスタム チームのアプリケーションをビルドし、AppSource を公開していますが、アプリケーションをチームでアプリケーション バーを固定するときに期待どおりにアプリケーションのアイコンが表示されていません。 どのように修正しますか。 
+#### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>自分の所属組織のカスタム チームのアプリケーションをビルドおよび発行、AppSource またはテナント アプリケーション カタログには、アプリケーションをチームでアプリケーション バーを固定するときに期待どおりにアプリケーションのアイコンが表示されていません。 どのように修正しますか。 
 
 アプリケーションを送信する前に、ロゴのガイドラインに従うことを確認します。 詳細については、[販売者のダッシュ ボードの提出書類のチェックリスト](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist)を参照してください。 
 

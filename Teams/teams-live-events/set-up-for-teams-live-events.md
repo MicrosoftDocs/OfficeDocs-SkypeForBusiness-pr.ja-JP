@@ -14,12 +14,12 @@ description: ネットワークを準備するなどのライセンスを割り�
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 078374652325d177e30db1d320f22e5d814ac548
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: aaa22e0b28d883c805eaddc1e01d3cf7d2cda450
+ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754785"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30302706"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントのセットアップ
 
@@ -40,6 +40,7 @@ ms.locfileid: "29754785"
 > 組織内のユーザーを作成し、カスタム ・ ポリシーを設定する場合を除き、グローバル ポリシーが表示されます。 既定のグローバル ポリシーでは、チームのユーザーのライブ イベントのスケジュールが有効になっている、議事録がオフになっている組織内の全員でのライブ イベントを結合することができ、録画設定が常に記録します。 
 
 ### <a name="create-or-edit-a-live-events-policy"></a>ライブ イベントのポリシーを作成または更新
+<a name="bkcreatepolicy"> </a>
 
 **![チーム ・ ロゴ ・ 30x30.png](../media/teams-logo-30x30.png) 、マイクロソフトのチーム管理センターを使用して**
 
@@ -104,7 +105,7 @@ Windows PowerShell を使用しても実行することができます。 詳細
 
 SDN または eCDN のソリューションを設定すると、したらチームでのライブ イベントのプロバイダーを構成する準備ができます。 
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 [チームでのイベントの設定の構成](configure-teams-live-events.md)に移動します。
 
 ### <a name="related-topics"></a>関連トピック
