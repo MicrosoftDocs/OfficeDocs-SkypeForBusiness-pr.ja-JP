@@ -14,10 +14,10 @@ MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: ac7466df9000eba2ea2689c717a2012fd252e150
-ms.sourcegitcommit: 7f05a2a4191812b7486905faea37aff6eaf1ba23
+ms.sourcegitcommit: d0ef6dc70d409955bf58a13b29746f985c6355a7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/26/2019
+ms.lasthandoff: 02/27/2019
 ms.locfileid: "29562606"
 ---
 ![オペレーショナル エクセレンスの段階に重点を置いた、アップグレード手順の各段階](media/upgrade-banner-op-excellence.png "オペレーショナル エクセレンスの段階に重点を置いた、アップグレード手順の各段階")

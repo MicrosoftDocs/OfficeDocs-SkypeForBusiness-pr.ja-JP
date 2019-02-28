@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: ユーザーが別の組織内のユーザーと通信できるようにするのにはチームを構成する方法を参照してください。
-ms.openlocfilehash: 39fa6de27b6ff4f662955ac3cf36d7826379d753
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 664c459f85d3a6657c0e556d19d92b7b278f0aee
+ms.sourcegitcommit: ea1085228894ae448f575f9e13a9f25a1f47e636
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754729"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30312277"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>チームのユーザーのチャットを使用し、チームの別の組織内のユーザーとの通信
 
@@ -32,6 +32,9 @@ ms.locfileid: "29754729"
 - 他のユーザーを検索し、連絡先、電子メール アドレスを使用することができるチームを使用している世界で。 他のユーザーは、外部アクセスを有効にして、他方のドメインを許可する、これは動作します。 動作しない場合は、他のユーザーを確認してください彼または彼女の構成は、ドメインをブロックされていません。
 
 これによって、ユーザーは検索、呼び出し、インスタント メッセージを送信するとあなたとの会議を設定します。 チームとのチャネルにアクセスする外部のユーザーを実行する場合に、ゲスト アクセスに優れた方法で可能性があります。 手順を確認してくださいこの記事で[ゲスト アクセスを有効に](set-up-guests.md)するのにはユーザーが通信できるようにします。
+
+> [!IMPORTANT]
+> 現在現在、AAD とテナントのゲストではなく、組織内の外部で外部ユーザー クライアントがマイクロソフトのチーム内でフェデレーションをするために正しくハイブリッドをセットアップする必要があり、オンライン ビジネスの Skype に移動します。 2019/2/25 の時点でチームは、ビジネス オンラインの Skype のホームされている SIP プロファイルのユーザーがないネイティブのフェデレーションをまだサポートしていません。 ハイブリッドの自分のアカウントをセットアップし、チームに移動設定の詳細については、[チームへのハイブリッド展開のビジネス用の Skype のアップグレード](https://docs.microsoft.com/en-us/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid)を参照してください。
 
 ## <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>チームのユーザーのチャットを使用し、チームの別の組織内のユーザーとの通信
 
