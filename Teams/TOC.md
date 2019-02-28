@@ -192,7 +192,6 @@
 
 
 ## [クラウド ビデオの相互運用機能](cloud-video-interop.md)
-### [クラウド ビデオの相互運用機能を設定します。](cloud-video-interop-for-teams-set-up.md)
 
 ## ライブ イベント
 ### [ライブ イベントをチームは何ですか。](teams-live-events/what-are-teams-live-events.md)
