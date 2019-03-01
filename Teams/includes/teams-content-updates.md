@@ -3,81 +3,6 @@
 
 
 
-## <a name="week-of-january-14-2019"></a>2019 年 1 月 14 日の週
-
-
-| 発行日 |トピックのタイトル | 変更 |
-|------|------------|--------|
-| 2019/1/14 | [採用を推進するためのツール](/MicrosoftTeams/adopt-tools-and-downloads) | 更新日時 |
-| 2019/1/14 | [Teams のクラウド会議の記録](/MicrosoftTeams/cloud-recording) | 更新日時 |
-| 2019/1/14 | [Microsoft Teams へのアップグレードを開始する](/MicrosoftTeams/upgrade-start-here) | 更新日時 |
-| 2019/1/15 | [Microsoft Teams で組織のシフト アプリを管理する](/MicrosoftTeams/manage-the-shifts-app-for-your-organization-in-teams) | 更新日時 |
-| 2019/1/16 | [よくあるご質問 - Skype for Business から Microsoft Teams へのアップグレード](/MicrosoftTeams/faq-journey) | 更新日時 |
-| 2019/1/16 | [Microsoft Teams で QoS を実施し、通話分析を監視する](/MicrosoftTeams/monitor-call-quality-qos) | 追加 |
-| 2019/1/16 | [Microsoft Teams でサービスの品質 (QoS) を実施する](/MicrosoftTeams/qos-in-teams) | 更新日時 |
-| 2019/1/16 | [電話会議ブリッジの電話番号を変更する](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | 更新日時 |
-| 2019/1/16 | [ダイヤル プランを作成および管理する](/MicrosoftTeams/create-and-manage-dial-plans) | 更新日時 |
-| 2019/1/16 | [他のユーザーが参加できるように Microsoft Teams 会議からダイヤル アウトする](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it) | 更新日時 |
-| 2019/1/16 | [通話品質ダッシュボードで利用できるディメンションとメジャー](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 更新日時 |
-| 2019/1/16 | [ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
-| 2019/1/16 | [Microsoft Teams のゲスト アクセスのチェックリスト](/MicrosoftTeams/guest-access-checklist) | 更新日時 |
-| 2019/1/16 | [Teams でのガバナンスを計画する - Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | 更新日時 |
-| 2019/1/16 | [Microsoft Teams の範囲指定ディレクトリ検索を使用する](/MicrosoftTeams/teams-scoped-directory-search) | 更新日時 |
-| 2019/1/16 | [Microsoft Teams でのコール パークおよび保留解除](/MicrosoftTeams/call-park-and-retrieve) | 更新日時 |
-| 2019/1/16 | [Microsoft Teams での通話の共有およびグループ通話ピックアップ](/MicrosoftTeams/call-sharing-and-group-call-pickup) | 更新日時 |
-| 2019/1/16 | [Microsoft Teams の制限事項と仕様](/MicrosoftTeams/limits-specifications-teams) | 更新日時 |
-| 2019/1/16 | [Microsoft Teams でのゲスト アクセスを管理する](/MicrosoftTeams/manage-guests) | 更新日時 |
-| 2019/1/17 | [電話会議のサービスに関する決定を行う - Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-audio-conferencing) | 更新日時 |
-| 2019/1/17 | [通話プランが設定された電話システムのサービスに関する決定を行う - Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-phone-system) | 更新日時 |
-| 2019/1/17 | [よくあるご質問 - Skype for Business から Microsoft Teams へのアップグレード](/MicrosoftTeams/faq-journey) | 更新日時 |
-| 2019/1/17 | [Microsoft Teams の概要](/MicrosoftTeams/teams-overview) | 更新日時 |
-| 2019/1/17 | [Microsoft Teams での電話会議](/MicrosoftTeams/tutorial-audio-conferencing) | 更新日時 |
-| 2019/1/17 | [Microsoft Teams での通話について理解する](/MicrosoftTeams/tutorial-calling-in-teams) | 更新日時 |
-| 2019/1/17 | [Microsoft Teams での会議](/MicrosoftTeams/tutorial-meetings-in-teams) | 更新日時 |
-| 2019/1/17 | [クイック スタート ガイド: Microsoft Teams での通話プランの設定](/MicrosoftTeams/configuring-teams-calling-quickstartguide) | 更新日時 |
-| 2019/1/17 | [Microsoft Teams での音声会議のエンタープライズ テスト計画](/MicrosoftTeams/onboarding-test-plan-for-enterprises-audio-conferencing) | 更新日時 |
-| 2019/1/17 | [Microsoft Teams の通話プランが設定された電話システムのエンタープライズ テスト計画](/MicrosoftTeams/onboarding-test-plan-for-enterprises-phone-system) | 更新日時 |
-| 2019/1/17 | [Skype for Business から Teams へのアップグレードを進める対象範囲を定義する - Microsoft Teams](/MicrosoftTeams/upgrade-define-project-scope) | 更新日時 |
-| 2019/1/17 | [Microsoft Teams 用の Upgrade Pro - Microsoft Teams](/MicrosoftTeams/upgrade-pro) | 更新日時 |
-| 2019/1/17 | [Microsoft Teams のクライアントを取得する](/MicrosoftTeams/get-clients) | 更新日時 |
-| 2019/1/17 | [Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | 更新日時 |
-| 2019/1/18 | [直接ルーティングを構成する](/MicrosoftTeams/direct-routing-configure) | 更新日時 |
-| 2019/1/18 | [Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | 更新日時 |
-| 2019/1/18 | [Microsoft Teams |  環境の評価 | 導入、検出](/MicrosoftTeams/environmental-discovery-for-microsoft-teams-rollout) | 更新日時 |
-| 2019/1/18 | [Microsoft Teams よくある質問 | 会議、電話会議、通話機能](/MicrosoftTeams/faq-journey) | 更新日時 |
-| 2019/1/18 | [Skype for Business Online から Microsoft Teams へのアップグレード](/MicrosoftTeams/journey-skypeforbusiness-teams) | 更新日時 |
-| 2019/1/18 | [Skype for Business から Microsoft Teams にアップグレードする方法を理解する](/MicrosoftTeams/tutorial-journey-skypeforbusiness-to-teams) | 更新日時 |
-| 2019/1/18 | [Microsoft Teams のユーザーによる導入計画 | ベスト プラクティス](/MicrosoftTeams/continue-journey) | 更新日時 |
-| 2019/1/18 | [Microsoft Teams の講師主導のトレーニング](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 更新日時 |
-| 2019/1/18 | [Skype for Business と使用する Microsoft Teams のパイロット | 展開、導入の実施](/MicrosoftTeams/pilot-essentials) | 更新日時 |
-| 2019/1/18 | [Microsoft Teams | アップグレード、アイランド モード、相互運用ポリシーのみ](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 更新日時 |
-| 2019/1/18 | [Skype for Business からの Microsoft Teams のアップグレード | モード、共存](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | 更新日時 |
-| 2019/1/18 | [PowerShell の基本的なアップグレード| Microsoft Teams| アップグレードの相互運用ポリシーを付与する](/MicrosoftTeams/upgrade-basic-powershell) | 更新日時 |
-| 2019/1/18 | [アップグレード チェックリスト| Skype for Business から Teams へのアップグレード | 基本手順](/MicrosoftTeams/upgrade-basic) | 更新日時 |
-| 2019/1/18 | [Skype for Business から Microsoft Teams を導入するプロジェクトの対象範囲 | アップグレード](/MicrosoftTeams/upgrade-define-project-scope) | 更新日時 |
-| 2019/1/18 | [Microsoft Teams への移行メールおよび調査 | 基本的なアップグレード](/MicrosoftTeams/upgrade-emails-surveys) | 更新日時 |
-| 2019/1/18 | [Microsoft Teams の要件 | サービスの強化](/MicrosoftTeams/upgrade-enhance-my-service) | 更新日時 |
-| 2019/1/18 | [関係者の登録 | Skype for Business から Teams へのアップグレード計画](/MicrosoftTeams/upgrade-enlist-stakeholders) | 更新日時 |
-| 2019/1/18 | [ユーザー エクスペリエンスの品質 | Microsoft Teams | QoS | 通話品質](/MicrosoftTeams/upgrade-monitor-quality) | 更新日時 |
-| 2019/1/18 | [Microsoft Teams の運用| サービス管理 | 品質](/MicrosoftTeams/upgrade-operate-my-service) | 更新日時 |
-| 2019/1/18 | [Skype for Business から Microsoft Teams への| アップグレードでのユーザーの環境変化への準備状況](/MicrosoftTeams/upgrade-org-change-readiness) | 更新日時 |
-| 2019/1/18 | [サービス管理と品質の計画 | 技術面の準備状況](/MicrosoftTeams/upgrade-plan-for-quality) | 更新日時 |
-| 2019/1/18 | [Microsoft Teams へのアップグレード | 環境の評価、検出に関する質問](/MicrosoftTeams/upgrade-plan-journey-evaluate-environment) | 更新日時 |
-| 2019/1/18 | [Microsoft Teams の前提条件 | 依存関係の導入のアップグレード](/MicrosoftTeams/upgrade-plan-journey-prerequisites) | 更新日時 |
-| 2019/1/18 | Skype for Business から Microsoft Teams へのアップグレードの計画 | 導入フレームワーク](/MicrosoftTeams/upgrade-plan-journey) | 更新日時 |
-| 2019/1/18 | [Microsoft Teams のトレーニング | IT サポートの管理者の問題](/MicrosoftTeams/upgrade-prepare-it-pros) | 更新日時 |
-| 2019/1/18 | [Microsoft Teams 用にネットワークを準備する|  ポートのファイアウォールの要件](/MicrosoftTeams/upgrade-prepare-environment-prepare-network) | 更新日時 |
-| 2019/1/18 | [Microsoft Teams のアップグレードに対する準備|  オンボーディングのロールアウト チェックリスト](/MicrosoftTeams/upgrade-prepare-environment-prepare-service) | 更新日時 |
-| 2019/1/18 | [Skype for Business から Teams へのアップグレードの環境を準備する](/MicrosoftTeams/upgrade-prepare-environment) | 更新日時 |
-| 2019/1/18 | [Skype for Business から Microsoft Teams へのアップグレードを準備する | ユーザーの導入の計画](/MicrosoftTeams/upgrade-prepare-organization) | 更新日時 |
-| 2019/1/18 | [Microsoft Teams 用の Upgrade Pro | ロードマップ](/MicrosoftTeams/upgrade-pro) | 更新日時 |
-| 2019/1/18 | [Skype for Business のハイブリッド展開を Microsoft Teams にアップグレードする | PSTN](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybrid) | 更新日時 |
-| 2019/1/18 | [Skype for Business Online から Teams へのアップグレード | 展開](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonline) | 更新日時 |
-| 2019/1/18 | [Skype for Business オンプレミスから Microsoft Teams へのアップグレード | 展開 | Lync](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonpremises) | 更新日時 |
-| 2019/1/18 | [Microsoft Team へのアップグレード | Skype for Business と Teams のロードマップ](/MicrosoftTeams/upgrade-to-teams) | 更新日時 |
-| 2019/1/18 | [Skype for Business から Teams にアップグレードする前にユーザーの準備状況計画を用意する](/MicrosoftTeams/upgrade-user-readiness) | 更新日時 |
-
-
 ## <a name="week-of-january-21-2019"></a>2019 年 1 月 21 日の週
 
 
@@ -490,4 +415,89 @@
 | 2019/2/15 | [チームの動的なメンバーシップの概要](/MicrosoftTeams/dynamic-memberships) | 修正 |
 | 2019/2/15 | [Microsoft Teams 用の電話機](/MicrosoftTeams/phones-for-teams) | 修正 |
 | 2019/2/15 | [通話分析および通話品質ダッシュボード](/MicrosoftTeams/difference-between-call-analytics-and-call-quality-dashboard) | 修正 |
-| 2019/2/15 | [通話品質ダッシュボードをオンにして使用する](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 修正 |
+| 2019/2/15 | [通話品質ダッシュボードをオンにして使用する](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 更新 |
+
+
+## <a name="week-of-february-18-2019"></a>2019 年 2 月 18 日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 2019/2/18 | [Microsoft Teams の管理者トレーニング](/MicrosoftTeams/itadmin-readiness) | 更新 |
+| 2019/2/19 | [Microsoft Teams での通話の共有およびグループ通話ピックアップ](/MicrosoftTeams/call-sharing-and-group-call-pickup) | 更新 |
+| 2019/2/19 | [Microsoft Teams での回線共有機能](/MicrosoftTeams/shared-line-appearance) | 更新 |
+| 2019/2/19 | [Teams のクライアント エクスペリエンスおよび共存モードへの準拠](/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes) | 更新 |
+| 2019/2/19 | [Microsoft Teams へのユーザー アクセスを管理する](/MicrosoftTeams/user-access) | 更新 |
+| 2019/2/20 | [Microsoft Teams の既知の問題](/MicrosoftTeams/known-issues) | 更新 |
+| 2019/2/20 | [Microsoft Teams のテクニカル ドキュメンテーション](/MicrosoftTeams/microsoft-teams) | 更新 |
+| 2019/2/20 | [Microsoft Teams 用の電話機](/MicrosoftTeams/phones-for-teams) | 更新 |
+| 2019/2/20 | [Teams のクライアント エクスペリエンスおよび共存モードへの準拠](/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes) | 更新 |
+| 2019/2/20 | [チームの割り当てライセンス](/MicrosoftTeams/assign-teams-licenses) | 追加 |
+| 2019/2/20 | [政府機関、教育機関、非営利団体](/MicrosoftTeams/teams-add-on-licensing/gov-edu-and-nonprofit-organizations) | 追加 |
+| 2019/2/20 | [Microsoft Teams アドオン ライセンス](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 追加 |
+| 2019/2/20 | [Office 365 Business Premium](/MicrosoftTeams/teams-add-on-licensing/office-365-business-premium) | 追加 |
+| 2019/2/20 | [Office 365 Enterprise E1、E3 プラン](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e1-e3) | 追加 |
+| 2019/2/20 | [Office 365 Enterprise E5](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing) | 追加 |
+| 2019/2/20 | [Office 365 Enterprise E5 (電話会議なし)](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing) | 追加 |
+| 2019/2/20 | [Office 365 ProPlus](/MicrosoftTeams/teams-add-on-licensing/office-365-premium-pro-plus) | 追加 |
+| 2019/2/20 | [Microsoft Teams の操作ガイド](/MicrosoftTeams/1-drive-value-operate-my-service) | 更新 |
+| 2019/2/20 | [電話会議のサービスに関する決定を行う - Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-audio-conferencing) | 更新 |
+| 2019/2/20 | [電話システムのダイレクト ルーティング サービスに関する決定を行う - Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing) | 更新 |
+| 2019/2/20 | [通話プランが設定された電話システムのサービスに関する決定を行う - Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-phone-system) | 更新 |
+| 2019/2/20 | [Microsoft Teams 用の Office 365 ライセンス](/MicrosoftTeams/office-365-licensing) | 更新 |
+| 2019/2/20 | [資金を追加してコミュニケーション クレジットを管理する](/MicrosoftTeams/add-funds-and-manage-communications-credits) | 更新 |
+| 2019/2/20 | [分数ごと従量課金制電話会議](/MicrosoftTeams/audio-conferencing-pay-per-minute) | 更新 |
+| 2019/2/20 | [Microsoft Teams での電話会議についての実践的なガイダンス](/MicrosoftTeams/audio-conferencing) | 更新 |
+| 2019/2/20 | [Office 365 の通話プラン](/MicrosoftTeams/calling-plans-for-office-365) | 更新 |
+| 2019/2/20 | [国および地域ごとの電話会議および通話プランの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 更新 |
+| 2019/2/20 | [Microsoft Teams での電話会議](/MicrosoftTeams/deploy-audio-conferencing-teams-landing-page) | 更新 |
+| 2019/2/20 | [他のユーザーが参加できるように Microsoft Teams 会議からダイヤル アウトする](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it) | 更新 |
+| 2019/2/20 | [ダイレクト ルーティングを計画する](/MicrosoftTeams/direct-routing-plan) | 更新 |
+| 2019/2/20 | [Microsoft Teams で設定を変更したときにユーザーに送信されるメール](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams) | 更新 |
+| 2019/2/20 | [Office 365 での電話システムで利用できる機能](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 更新 |
+| 2019/2/20 | [Teams のリソース アカウントを管理する](/MicrosoftTeams/manage-resource-accounts) | 更新 |
+| 2019/2/20 | [Microsoft Teams で組織の電話会議の設定を管理する](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | 更新 |
+| 2019/2/20 | [Microsoft Teams の主要機能を構成するための使用開始チェックリスト](/MicrosoftTeams/onboarding-checklist-configure-microsoft-teams-core-capabilities) | 更新 |
+| 2019/2/20 | [Microsoft Teams で Office 365 サービスを有効にするための使用開始チェックリスト](/MicrosoftTeams/onboarding-checklist-enable-office-365) | 更新 |
+| 2019/2/20 | [Microsoft Teams での音声会議のエンタープライズ テスト計画](/MicrosoftTeams/onboarding-test-plan-for-enterprises-audio-conferencing) | 更新 |
+| 2019/2/20 | [Microsoft Teams の通話プランが設定された電話システムのエンタープライズ テスト計画](/MicrosoftTeams/onboarding-test-plan-for-enterprises-phone-system) | 修正 |
+| 2019/2/20 | [通話プランの設定](/MicrosoftTeams/set-up-calling-plans) | 更新 |
+| 2019/2/20 | [Microsoft Teams での共通領域電話のライセンスをセットアップする](/MicrosoftTeams/set-up-common-area-phones) | 更新 |
+| 2019/2/20 | [組織用にコミュニケーション クレジットをセットアップする](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | 更新 |
+| 2019/2/20 | [電話システム ボイスメールをセットアップする](/MicrosoftTeams/set-up-phone-system-voicemail) | 更新 |
+| 2019/2/20 | [組織内の電話システムの設定](/MicrosoftTeams/setting-up-your-phone-system) | 更新 |
+| 2019/2/20 | [Microsoft Teams でのライブ イベントの計画](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 更新 |
+| 2019/2/20 | [Microsoft Teams で Office 365 の Skype の電話会議を試用または購入する](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams) | 更新 |
+| 2019/2/20 | [コミュニケーション クレジットについて](/MicrosoftTeams/what-are-communications-credits) | 更新 |
+| 2019/2/20 | [電話システムの自動応答とは](/MicrosoftTeams/what-are-phone-system-auto-attendants) | 更新 |
+| 2019/2/20 | [Office 365 の電話システムとは](/MicrosoftTeams/what-is-phone-system-in-office-365) | 更新 |
+| 2019/2/21 | [Microsoft Teams の既知の問題](/MicrosoftTeams/known-issues) | 更新 |
+| 2019/2/21 | [Teams と連動するように Skype 会議アプリを構成する](/MicrosoftTeams/configure-skype-meetings-app-to-work-with-teams) | 更新 |
+| 2019/2/21 | [通話分析および通話品質ダッシュボード](/MicrosoftTeams/difference-between-call-analytics-and-call-quality-dashboard) | 更新 |
+| 2019/2/21 | [通話品質ダッシュボードで利用できるディメンションとメジャー](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 更新 |
+| 2019/2/21 | [Microsoft Teams で設定を変更したときにユーザーに送信されるメール](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams) | 更新 |
+| 2019/2/21 | [Office 365 の組織で Microsoft Teams の機能を管理する](/MicrosoftTeams/enable-features-office-365) | 更新 |
+| 2019/2/21 | [Microsoft Teams で電話会議の設定が変更されたときのメールの自動送信を有効または無効にする](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams) | 更新 |
+| 2019/2/21 | [Microsoft Teams 管理センターでチームを管理する](/MicrosoftTeams/manage-teams-in-modern-portal) | 更新 |
+| 2019/2/21 | [新しい Microsoft Teams 管理センターへの移行中に Teams を管理する](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | 更新 |
+| 2019/2/21 | [Microsoft Teams でユーザーの電話会議の設定を管理する](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams) | 更新 |
+| 2019/2/21 | [Microsoft Teams のエクスペリエンスの品質レビュー ガイド](/MicrosoftTeams/quality-of-experience-review-guide) | 更新 |
+| 2019/2/21 | [Teams のクライアント エクスペリエンスおよび共存モードへの準拠](/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes) | 更新 |
+| 2019/2/21 | [通話品質ダッシュボードをオンにして使用する](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 更新 |
+| 2019/2/22 | [Microsoft Teams の管理者トレーニング](/MicrosoftTeams/itadmin-readiness) | 修正 |
+| 2019/2/22 | [会議の設定を管理する](/MicrosoftTeams/meeting-settings-in-teams) | 更新 |
+| 2019/2/22 | [メッセージング ポリシーを管理する](/MicrosoftTeams/messaging-policies-in-teams) | 更新 |
+| 2019/2/22 | [Microsoft Teams のアプリのセットアップ ポリシーを管理する](/MicrosoftTeams/teams-app-setup-policies) | 更新 |
+| 2019/2/22 | [Microsoft Teams クライアントでサービスの品質 (QoS) を実施する](/MicrosoftTeams/qos-in-teams-clients) | 追加 |
+| 2019/2/22 | [Microsoft Teams でサービスの品質 (QoS) を実施する](/MicrosoftTeams/qos-in-teams) | 更新 |
+| 2019/2/22 | [Microsoft Teams で QoS を実施し、通話分析を監視する](/MicrosoftTeams/monitor-call-quality-qos) | 更新 |
+| 2019/2/22 | [Microsoft Teams 用に組織のネットワークを準備する](/MicrosoftTeams/prepare-network) | 更新 |
+| 2019/2/22 | [電話システムの自動応答をセットアップする](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 追加 |
+| 2019/2/22 | [電話システムの呼び出しキューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue) | 追加 |
+| 2019/2/22 | [Outlook で Microsoft Teams 会議アドインを使用する](/MicrosoftTeams/teams-add-in-for-outlook) | 更新 |
+| 2019/2/22 | [香港での利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong) | 更新 |
+| 2019/2/22 | [国および地域ごとの電話会議および通話プランの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 更新 |
+| 2019/2/22 | [ダイレクト ルーティングを計画する](/MicrosoftTeams/direct-routing-plan) | 修正 |
+| 2019/2/22 | [Microsoft Teams の制限事項と仕様](/MicrosoftTeams/limits-specifications-teams) | 修正 |
+| 2019/2/22 | [Teams のリソース アカウントを管理する](/MicrosoftTeams/manage-resource-accounts) | 更新 |
+| 2019/2/22 | [電話システムの自動応答とは](/MicrosoftTeams/what-are-phone-system-auto-attendants) | 更新 |
