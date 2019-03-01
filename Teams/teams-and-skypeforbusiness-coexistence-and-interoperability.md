@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11e08837aa7f9eeb4b74d8f8d98e05dc33d2ea49
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: 028ce0fe9e1fd30f96b157cd8fd82acd8f5d1268
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29743006"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342198"
 ---
 ![プロジェクトの定義の段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-project-definition.png "プロジェクトの定義の段階に重点を置いて、旅アップグレードの段階")
 
@@ -56,7 +56,7 @@ ms.locfileid: "29743006"
 
 この共存モードでは、ユーザーはビジネス用の Skype に残る-チームではありません-チャット、会議、および呼び出し機能、および、チームおよびチャネルのためのチームを使用しないのです。 このモードは、今日利用可能ですただし、現在の実装では、チームの様相はないユーザーの自動的にオフにします。 この機能は、期限の迫っています。 間に、管理者は、Skype の唯一の通信アプリケーションとビジネスのために維持する必要があるすべてのユーザーのチームのライセンスを削除できます。
 
-### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-in-calendar-year-2019"></a>チームにのみ (ロールバックを開始するこのモードは、夏 2018 をチェック アウトされ、2019 年にすべてのテナントを終了する)
+### <a name="teams-only"></a>Teams Only
 
 **チームのみ**のユーザーは、既存の Skype ビジネス会議、またはアップグレードしていないユーザーや外部の関係者で編成されているビジネス用の Skype での会議に参加するのにビジネス クライアント用の Skype をのみ使用できます。 アップグレード済みのユーザーもを使用している Skype のビジネス業務のチームと Skype との間の相互運用性機能を使用して、組織内の他のユーザーとの通信を続行します。ただし、アップグレード済みのユーザーは、Skype のビジネス チャット、通話、または会議を開始できません。
 
@@ -84,7 +84,7 @@ ms.locfileid: "29743006"
 | | | |
 |---|---|---|
 |<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>どの最適な共存モード」は、ユーザー、組織のニーズに合わせてでしょうか。</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>アップグレード、旅の最良の方法を選択します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|次の手順|<ul><li>アップグレード、旅の最良の方法を選択します。</li></ul>|
 
 ## <a name="interoperability-of-teams-and-skype-for-business"></a>チームやビジネス用の Skype の相互運用性
 

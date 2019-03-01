@@ -1,7 +1,7 @@
 ---
 title: VDI 環境における Skype for Business の計画
-ms.author: jambirk
 author: jambirk
+ms.author: jambirk
 ms.reviewer: krishra
 manager: serdars
 ms.date: 1/9/2018
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: このトピックでは、リモート仮想デスクトップへの接続中に、ビジネスの Skype を使用するための計画に関する考慮事項について説明します。
-ms.openlocfilehash: e4e23ecfba1e7d789dccd5a6cea0e32733643ce4
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 0d24426ea661e5a2d445e4fd7ef90d6a41518692
+ms.sourcegitcommit: 2a34c9955d2cf54085dee527ea493ce991ef2e10
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965692"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30340413"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>VDI 環境における Skype for Business の計画
  
@@ -47,9 +47,9 @@ Citrix 社の VDI 環境のプラグイン (XenApp と XenDesktop の機能) は
   
 詳細については、次のリンクを参照してください。
   
-- Citrix [HDX リアルタイム最適化パック 2.1](https://docs.citrix.com/en-us/hdx-optimization/2-1.mdl)
+- Citrix [HDX RealTime Optimization Pack 2.1](https://docs.citrix.com/en-us/hdx-optimization/2-1.mdl)
     
-- [技術概要](https://docs.citrix.com/en-us/hdx-optimization/2-1/about.mdl)
+- [Technical Overview ](https://docs.citrix.com/en-us/hdx-optimization/2-1/about.mdl)
     
 - [ビジネス機能をサポートするための CTX200279 Skype](https://support.citrix.com/article/CTX200279)
     
@@ -62,9 +62,9 @@ VMWare VDI 環境のソリューションは、ビジネス 2015年、2016 の�
   
 - [VMware 地平線 7.4 の新機能&amp;水平クライアント 4.7](https://blogs.vmware.com/euc/2018/01/vmware-horizon-7-4-horizon-client-4-7-whats-new.mdl)
     
-- [ビジネスの Skype の地平線の仮想化パック](https://www.vmware.com/products/horizon/skype-for-business.mdl)
+- [Horizon Virtualization Pack for Skype for Business](https://www.vmware.com/products/horizon/skype-for-business.mdl)
     
-- [VMWare の地平線との取引にマイクロソフトの Skype](https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/products/horizon/vmware-skype-for-business-solution-brief.pdf)
+- [Microsoft Skype for Business With VMWare Horizon](https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/products/horizon/vmware-skype-for-business-solution-brief.pdf)
     
 ## <a name="microsofts-lync-vdi-plug-in"></a>マイクロソフトの Lync VDI プラグイン
 <a name="Citrix_RT"> </a>
@@ -91,9 +91,9 @@ VMWare VDI 環境のソリューションは、ビジネス 2015年、2016 の�
     
 - [ビジネス サーバーの Skype では、プラグインの Lync VDI の導入します。](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
     
-- Citrix サポート技術情報センターの記事[CTX138408](https://support.citrix.com/article/CTX138408)
+- Citrix Knowledge Center の記事 [CTX138408](https://support.citrix.com/article/CTX138408)
     
-Microsoft VDI のプラグインは、 [Microsoft Lync VDI 2013 プラグイン (32 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) 、または[Microsoft Lync VDI 2013 プラグイン (64 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=35454)で使用できます。 ビジネス 2015年クライアントは、名前にかかわらず、Skype では、このプラグインがサポートされます。
+Microsoft VDI プラグインは、[Microsoft Lync VDI 2013 プラグイン (32 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) または [Microsoft Lync VDI 2013 プラグイン (64 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=35454) に用意されています。 ビジネス 2015年クライアントは、名前にかかわらず、Skype では、このプラグインがサポートされます。
   
 ### <a name="supported-virtualization-technologies-and-known-limitations"></a>サポートされる仮想化テクノロジと既知の制限
 <a name="Supported_virt"> </a>
@@ -130,11 +130,11 @@ VDI 環境でバーチャル マシン、およびユーザーのローカル �
     
 - リモート デスクトップ サービスを使用する場合は、32 ビットまたは 64 ビット Lync VDI プラグインをローカル コンピューターのオペレーティング ・ システムを一致を選択します。 ローカル コンピューターと仮想マシンの両方に 32 ビットまたは 64 ビットのオペレーティング システムをインストールしておく必要はありません。 別の仮想化ソリューションやプラットフォームを使用している場合は、プロバイダーの要件を参照してください。
     
-- ローカル コンピューターでは、[リモート デスクトップ クライアントの最新バージョン](https://go.microsoft.com/fwlink/p/?LinkId=268032)を実行している必要があります。 Microsoft からリモート デスクトップ サービス クライアントの最新更新プログラムをインストールするか、仮想化ソリューション プロバイダーから最新のリモート デスクトップ クライアント ソフトウェアをインストールしてください。 
+- ローカル コンピューターは、[最新バージョンのリモート デスクトップ クライアント](https://go.microsoft.com/fwlink/p/?LinkId=268032)を実行している必要があります。 Microsoft からリモート デスクトップ サービス クライアントの最新更新プログラムをインストールするか、仮想化ソリューション プロバイダーから最新のリモート デスクトップ クライアント ソフトウェアをインストールしてください。 
     
 - ローカル コンピューター上のリモート デスクトップ クライアントの設定は、オーディオがローカル コンピューターで再生され、リモート レコーディングが無効となるように構成する必要があります。 Windows でこれらの設定をリモート デスクトップ接続を構成、次のセクション、「リモート デスクトップ接続の設定を構成します。」を参照してください。 
     
-Microsoft VDI のプラグインは、 [Microsoft Lync VDI 2013 プラグイン (32 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) 、または[Microsoft Lync VDI 2013 プラグイン (64 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=35454)で使用できます。
+Microsoft VDI プラグインは、[Microsoft Lync VDI 2013 プラグイン (32 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) または [Microsoft Lync VDI 2013 プラグイン (64 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=35454) に用意されています。
   
 #### <a name="known-feature-limitations"></a>既知の機能制限
 <a name="VDI_prereq"> </a>

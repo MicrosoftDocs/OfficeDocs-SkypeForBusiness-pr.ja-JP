@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: '概要: を実装して、Business Server の Skype での大規模な会議を管理するためのベスト プラクティスについて学習するには、このトピックを読みます。'
-ms.openlocfilehash: 0d78a679414ec9287837e494d94bdc708879f863
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d77a3b3fa5f989f36fd9097499de0fd75991b5e4
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20970515"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342213"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>ビジネス サーバーの Skype での大規模な会議の計画
  
@@ -26,7 +26,7 @@ Skype ビジネス サーバーがサポートできるミーティングのサ�
 > このトピックでは、大きな会議を Skype でビジネス サーバーではサポートのためのベスト プラクティスについて説明します。 組織より大規模な会議の機能を必要とする場合は、Skype 会議のブロードキャスト、Office 365 の一部である新しいオンライン サービスを利用するハイブリッド環境の実装を検討してください。 
 
 > [!NOTE]
-> Skype 会議メディアを使用すると、ユーザーは、10,000 人までの多数のオンライン参加者を対象にした会議をホストおよびブロードキャストすることができます。 Skype 会議メディアを使用するには、実稼働 Office 365 テナントが含まれるハイブリッド セットアップで Skype for Business Server を構成している必要があります。 すべてのユーザーには、前提条件として確立されているオンライン テナントが必要です。 Skype 会議のブロードキャストの利用を参照してくださいできるハイブリッド ソリューションの導入に興味がある場合[Skype の会議のブロードキャストとは何ですか?](https://go.microsoft.com/fwlink/?LinkId=617071)および[Skype 会議のブロードキャスト用の設置型展開を構成します](../../deploy/configure-skype-meeting-broadcast.md)。 
+> Skype 会議メディアを使用すると、ユーザーは、10,000 人までの多数のオンライン参加者を対象にした会議をホストおよびブロードキャストすることができます。 Skype 会議メディアを使用するには、実稼働 Office 365 テナントが含まれるハイブリッド セットアップで Skype for Business Server を構成している必要があります。 すべてのユーザーには、前提条件として確立されているオンライン テナントが必要です。 Skype 会議メディアを活用できるハイブリッド ソリューションの展開については、「[Skype 会議メディアとは](https://go.microsoft.com/fwlink/?LinkId=617071)」および「[Configure your on-premises deployment for Skype Meeting Broadcast](../../deploy/configure-skype-meeting-broadcast.md)」を参照してください。 
   
 大規模な会議には、通常、次のような特性があります。
   
@@ -101,6 +101,7 @@ Skype は、大規模な会議をホストしている専用ビジネス サー�
 - 聴衆また個々のユーザーをミュートおよびミュート解除する
     
 - コンテンツのアップロード、コンテンツの削除、およびアクティブなコンテンツの切り替えなどにより、会議のコンテンツを管理する
+
     
 ### <a name="maintain-a-separate-calendar"></a>個別の予定表を保持する
 
@@ -186,6 +187,8 @@ Skype は、大規模な会議をホストしている専用ビジネス サー�
     
 > [!NOTE]
 > ビジネス サーバーは、 **AllowLargeMeetings**の設定を設定する必要があります Skype で大規模な会議のためのサポートを true にします。 True の場合は、ユーザーがミーティングに参加すると非常に大規模な会議のビジネスの経験を最適化するため、Skype にこの設定を設定するとします。 具体的には、大会議室、ビジネス用の Skype は表示されません、最初のセルまたはクライアントの両方のパフォーマンスのボトルネックと Skype のビジネス サーバーは、すべての会議の参加者リストの更新。 代わりに、ビジネス用の Skype のみについては、ユーザーとのミーティングの発表者の一覧が表示されます。 ビジネス用の Skype で大規模な会議の参加者の合計数表示されます。
+
+
   
 大規模な会議で不要な会議機能を無効にするには、[**最大会議サイズ**] 設定を除き、ここで指定する他のすべての電話会議ポリシー設定が必要です。
   

@@ -1,5 +1,5 @@
 ---
-title: サーフェスのハブのマイクロソフトのチームを配置します。
+title: Surface Hub の Microsoft Teams を展開する
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -16,20 +16,22 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 485e4063c523608421955b86e0be680d5dc10b9a
-ms.sourcegitcommit: 5742301cdd28e5e26107920f18e70f41b0f67cfb
+ms.openlocfilehash: 8a97e651e703146c07450229fb4958116d0fd8a2
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/03/2018
-ms.locfileid: "27132004"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342206"
 ---
-<a name="deploy-microsoft-teams-for-surface-hub"></a>サーフェスのハブのマイクロソフトのチームを配置します。
+<a name="deploy-microsoft-teams-for-surface-hub"></a>Surface Hub の Microsoft Teams を展開する
 ======================================
 
-Microsoft Surface のハブのマイクロソフトのチームを配置する前に、ハードウェア、オペレーティング システム、およびその他の要件を満たしていることを確認してください。 詳細については、 [Microsoft Surface ハブ管理者ガイド](https://docs.microsoft.com/surface-hub/)を参照してください。
+サーフェスのハブのチームをインストールする前に、次の操作をすることを確認します。
 
-> [!NOTE]
-> ビジネス オンラインの Skype から移行するが場合、は、マイクロソフトのチームのライセンスがユーザーに割り当てられていることを確認する必要があります。
+ □ 作成ことを確認してハードウェア、オペレーティング システム、およびその他の要件が満たされています。 詳細については、 [Microsoft Surface ハブ管理者ガイド](https://docs.microsoft.com/surface-hub/)を参照してください。<br>
+ □ がチームに必要な最低限のオペレーティング システムの更新プログラムがインストールされているを確認してください。 [KB4343889](https://support.microsoft.com/help/4343889)。<br>
+ □ ハブ デバイスのアカウントをチームのライセンスを割り当てます。<br>
+ □ は、Skype からのビジネス オンラインでは、処理中の場合に、チームのライセンスがユーザーに割り当てられていることを確認します。
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Microsoft ストアからのサーフェスのハブのチームをインストールします。 
 
@@ -37,7 +39,7 @@ Microsoft Surface のハブのマイクロソフトのチームを配置する�
  
 1. マイクロソフトのストアを開始します。<br>
    a. **スタート**をタップして > **すべてのアプリケーション** > **の設定**です。<br> b. **サーフェス ハブ デバイスのアカウント、管理**をタップします。<br>
-   c. 左側の [**アプリケーションと機能**] タブをタップします。<br> d. 、右側には、**ストアを開く**] ボタンをタップします。 
+   c. 左側の [**アプリケーションの & の機能**] タブをタップします。<br> d. 、右側には、**ストアを開く**] ボタンをタップします。 
 2. マイクロソフト ストアからには、*マイクロソフトのチーム*を検索します。 **サーフェスのハブのマイクロソフトのチーム**が表示されます。 インストールする**アプリケーションを取得する**ボタンをタップします。  
 3. インストールが完了すると、サーフェスのハブを再起動します。 
 
