@@ -1,5 +1,5 @@
 ---
-title: スペインのフリー ダイヤルの制限
+title: スペインでのフリーダイヤル制限
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: 4db7b657-22ee-4211-afd3-23413bcc3bd9
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,34 +23,34 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: 65cc612a769d0cc4f5eb24f177f9ae166b8c80dc
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 0c6eb522539e22c21169a606e699d09bf2aa3cb9
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048755"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352003"
 ---
-# <a name="toll-free-dialing-restrictions-in-spain"></a><span data-ttu-id="a6dbf-105">スペインのフリー ダイヤルの制限</span><span class="sxs-lookup"><span data-stu-id="a6dbf-105">Toll-free dialing restrictions in Spain</span></span>
+# <a name="toll-free-dialing-restrictions-in-spain"></a><span data-ttu-id="a3a70-105">スペインでのフリーダイヤル制限</span><span class="sxs-lookup"><span data-stu-id="a3a70-105">Toll-free dialing restrictions in Spain</span></span>
 
-<span data-ttu-id="a6dbf-106">[別の国または地域を検索する](../toll-free-dialing-limitations-and-restrictions.md)には、フリー ダイヤルの制限事項と制限事項の詳細についてはまたはです。</span><span class="sxs-lookup"><span data-stu-id="a6dbf-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="a3a70-106">[別の国または地域を検索する](../toll-free-dialing-limitations-and-restrictions.md)には、フリー ダイヤルの制限事項と制限事項の詳細についてはまたはです。</span><span class="sxs-lookup"><span data-stu-id="a3a70-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="a6dbf-107">**詳細**</span><span class="sxs-lookup"><span data-stu-id="a6dbf-107">**Details**</span></span>|<span data-ttu-id="a6dbf-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="a6dbf-108">**Description**</span></span>|
+|<span data-ttu-id="a3a70-107">**詳細**</span><span class="sxs-lookup"><span data-stu-id="a3a70-107">**Details**</span></span>|<span data-ttu-id="a3a70-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="a3a70-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="a6dbf-109">呼び出し、利用可能なフリー ダイヤルですか。</span><span class="sxs-lookup"><span data-stu-id="a6dbf-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="a6dbf-110">あり</span><span class="sxs-lookup"><span data-stu-id="a6dbf-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="a6dbf-111">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="a6dbf-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="a6dbf-112">900 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="a6dbf-112">900 XXX XXX</span></span>  <br/> |
-|<span data-ttu-id="a6dbf-113">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="a6dbf-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="a6dbf-114">ES</span><span class="sxs-lookup"><span data-stu-id="a6dbf-114">ES</span></span>  <br/> |
-|<span data-ttu-id="a6dbf-115">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="a6dbf-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="a6dbf-116">バレアレス諸島とカナリア諸島</span><span class="sxs-lookup"><span data-stu-id="a6dbf-116">Balearic Island and Canary Island</span></span>  <br/> |
-|<span data-ttu-id="a6dbf-117">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="a6dbf-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="a6dbf-118">該当しない</span><span class="sxs-lookup"><span data-stu-id="a6dbf-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="a6dbf-119">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="a6dbf-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="a6dbf-120">あり</span><span class="sxs-lookup"><span data-stu-id="a6dbf-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="a6dbf-121">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="a6dbf-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="a6dbf-p102">○ 有料サービス料金で使用可能。</span><span class="sxs-lookup"><span data-stu-id="a6dbf-p102">Yes. Available at premium rate.</span></span>  <br/> |
-|<span data-ttu-id="a6dbf-124">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="a6dbf-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="a6dbf-125">異なる出力パルスを使用した携帯電話識別番号を使用可能。</span><span class="sxs-lookup"><span data-stu-id="a6dbf-125">Mobile identification using different outpulses available.</span></span>  <br/> |
+|<span data-ttu-id="a3a70-109">呼び出し、利用可能なフリー ダイヤルですか。</span><span class="sxs-lookup"><span data-stu-id="a3a70-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="a3a70-110">あり</span><span class="sxs-lookup"><span data-stu-id="a3a70-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="a3a70-111">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="a3a70-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="a3a70-112">900 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="a3a70-112">900 XXX XXX</span></span>  <br/> |
+|<span data-ttu-id="a3a70-113">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="a3a70-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="a3a70-114">ES</span><span class="sxs-lookup"><span data-stu-id="a3a70-114">ES</span></span>  <br/> |
+|<span data-ttu-id="a3a70-115">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="a3a70-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="a3a70-116">バレアレス諸島とカナリア諸島</span><span class="sxs-lookup"><span data-stu-id="a3a70-116">Balearic Island and Canary Island</span></span>  <br/> |
+|<span data-ttu-id="a3a70-117">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="a3a70-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="a3a70-118">該当しない</span><span class="sxs-lookup"><span data-stu-id="a3a70-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="a3a70-119">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="a3a70-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="a3a70-120">あり</span><span class="sxs-lookup"><span data-stu-id="a3a70-120">Yes</span></span>  <br/> |
+|<span data-ttu-id="a3a70-121">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="a3a70-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="a3a70-p102">○ 有料サービス料金で使用可能。</span><span class="sxs-lookup"><span data-stu-id="a3a70-p102">Yes. Available at premium rate.</span></span>  <br/> |
+|<span data-ttu-id="a3a70-124">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="a3a70-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="a3a70-125">異なる出力パルスを使用した携帯電話識別番号を使用可能。</span><span class="sxs-lookup"><span data-stu-id="a3a70-125">Mobile identification using different outpulses available.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="a6dbf-126">関連トピック</span><span class="sxs-lookup"><span data-stu-id="a6dbf-126">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="a3a70-126">関連トピック</span><span class="sxs-lookup"><span data-stu-id="a3a70-126">Related topics</span></span>
 
-[<span data-ttu-id="a6dbf-127">フリー ダイヤルの制限事項と制限事項</span><span class="sxs-lookup"><span data-stu-id="a6dbf-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="a3a70-127">フリー ダイヤルの制限事項と制限事項</span><span class="sxs-lookup"><span data-stu-id="a3a70-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="a6dbf-128">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="a6dbf-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[<span data-ttu-id="a3a70-128">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="a3a70-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
   
  
