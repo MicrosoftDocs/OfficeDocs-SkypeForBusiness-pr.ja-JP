@@ -5,22 +5,20 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
-ms.service:
-- msteams
-- skype-for-business-online
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
-appliesto:
-- Microsoft Teams
+ms.collection:
+- Teams_ITAdmin_Help
+- M365-voice
+appliesto: Microsoft Teams
 description: Microsoft 電話システム直接ルーティングを構成する方法について説明します。
-ms.openlocfilehash: 565d25566843a507cb875eb96f32531d2ee77caf
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: 4e117cd7e8bdde34a4982408052a1a61aedd00d7
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562824"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353483"
 ---
 # <a name="configure-direct-routing"></a>直接ルーティングを構成する
 
@@ -107,14 +105,14 @@ Enabled               : True
 |必須。|名前|説明|Default|可能な値|種類と制限|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |あり|FQDN|SBC の FQDN 名 |なし|NoneFQDN 名、制限は 63 文字|文字列、[コンピューター、ドメイン、サイト、および Ou の Active Directory の名前付け規則](https://support.microsoft.com/help/909264)で許可の文字の一覧|
-|なし|MediaBypass |将来使用するために予約されているパラメーターです。 SBC の示されているパラメーターには、メディア バイ パスがサポートされていて、管理者がそれを使用します。|なし|True<br/>False|ブール型|
+|不要|MediaBypass |将来使用するために予約されているパラメーターです。 SBC の示されているパラメーターには、メディア バイ パスがサポートされていて、管理者がそれを使用します。|なし|True<br/>False|ブール型|
 |あり|SipSignallingPort |トランスポート層セキュリティ (TLS) プロトコルを使用して直接ルーティング サービスと通信するために使用するポートをリッスンします。|なし|任意のポート|0 から 65535 まで |
-|なし|FailoverTimeSeconds |10 (既定値) に設定すると、10 秒以内に、ゲートウェイが応答しない送信の呼び出しにルーティングされる次の使用可能なトランクです。トランクを追加することはありません、し、呼び出しは自動的に削除します。 低速のネットワークとゲートウェイの応答を持つ組織内を可能性があります可能性のある呼び出しが不必要に削除されています。 既定値は 10 です。| 10|数値|Int|
-|なし|ForwardCallHistory |通話履歴の情報をトランク経由で転送するかどうかを指定します。 Office 365 の PSTN のプロキシに 2 つのヘッダーが送信が有効な場合: 履歴情報と Referred で。 既定値は**False** ($False) です。 |False|True<br/>False|ブール型|
-|なし|ForwardPAI|P-Asserted-Identity (PAI) ヘッダーを通話とともに転送するかどうかを示します。 PAI ヘッダーがあれば、発信者 ID を確認できます。 既定値は**False** ($False) です。|False|True<br/>False|ブール型|
-|なし|SendSIPOptions |SBC または SIP オプションを送信しない場合を定義します。 無効にした場合、SBC は、監視と警告のシステムから除外されます。 SIP オプションを有効にすることを強くお勧めします。 既定値は**True**です。 |True|True<br/>False|ブール型|
-|なし|MaxConcurrentSessions |警告システムによって使用されます。 同時セッションの数が 90% の場合、アラート ・ システム、テナント管理者にアラートを生成の任意の値を設定すると、この値よりも大きいか。 パラメーターが設定されていない場合、アラートは生成されません。 ただし、監視システムは 24 時間ごとの同時セッションの数を報告します。 |Null|Null<br/>1 ~ 100,000 ||
-|なし|有効になっている *|発信呼のこの SBC を有効にする場合に使用されます。 メンテナンス中または更新中に、SBC を一時的に削除するために使用します。 |False|True<br/>False|ブール型|
+|不要|FailoverTimeSeconds |10 (既定値) に設定すると、10 秒以内に、ゲートウェイが応答しない送信の呼び出しにルーティングされる次の使用可能なトランクです。トランクを追加することはありません、し、呼び出しは自動的に削除します。 低速のネットワークとゲートウェイの応答を持つ組織内を可能性があります可能性のある呼び出しが不必要に削除されています。 既定値は 10 です。| 10|数値|Int|
+|不要|ForwardCallHistory |通話履歴の情報をトランク経由で転送するかどうかを指定します。 Office 365 の PSTN のプロキシに 2 つのヘッダーが送信が有効な場合: 履歴情報と Referred で。 既定値は**False** ($False) です。 |False|True<br/>False|ブール型|
+|不要|ForwardPAI|P-Asserted-Identity (PAI) ヘッダーを通話とともに転送するかどうかを示します。 PAI ヘッダーがあれば、発信者 ID を確認できます。 既定値は**False** ($False) です。|False|True<br/>False|ブール型|
+|不要|SendSIPOptions |SBC または SIP オプションを送信しない場合を定義します。 無効にした場合、SBC は、監視と警告のシステムから除外されます。 SIP オプションを有効にすることを強くお勧めします。 既定値は**True**です。 |True|True<br/>False|ブール型|
+|不要|MaxConcurrentSessions |警告システムによって使用されます。 同時セッションの数が 90% の場合、アラート ・ システム、テナント管理者にアラートを生成の任意の値を設定すると、この値よりも大きいか。 パラメーターが設定されていない場合、アラートは生成されません。 ただし、監視システムは 24 時間ごとの同時セッションの数を報告します。 |Null|Null<br/>1 ~ 100,000 ||
+|不要|有効になっている *|発信呼のこの SBC を有効にする場合に使用されます。 メンテナンス中または更新中に、SBC を一時的に削除するために使用します。 |False|True<br/>False|ブール型|
  
 ### <a name="verify-the-sbc-pairing"></a>SBC の組み合わせを確認します。 
 

@@ -1,5 +1,5 @@
 ---
-title: 場所ベースのルーティングの用語
+title: 場所に基づくルーティングの用語集
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -10,17 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 description: 用語との直接ルーティングでは、場所ベースのルーティングに関連する概念について説明します。
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bcf4341d171f8b9faf8c11bbe8d85503cf2240b
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 122ded988b9bf3c2cd8d439e84cb132e3a3f690d
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29771001"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352332"
 ---
-# <a name="location-based-routing-terminology"></a>場所ベースのルーティングの用語
+# <a name="location-based-routing-terminology"></a>場所に基づくルーティングの用語集
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
@@ -34,6 +37,6 @@ ms.locfileid: "29771001"
 |外部 IP アドレスを信頼できます。    |外部の信頼される側の IP アドレスは、エンタープライズ ネットワークのインターネットの外部 IP アドレスです。 これらは、特定のサイトの一致を確認する前にユーザーのエンドポイントは、企業ネットワーク内かどうかを確認します。 ユーザーの外部 ip アドレスには、信頼される側のリストで定義されている IP アドレスが一致すると、場所ベースのルーティングは、ユーザーのエンドポイントが配置されている内部のサブネットを決定するのにはチェックします。 ユーザーの外部 IP アドレスは、信頼される側のリストで定義されている任意の IP アドレスと一致しない場合、は、エンドポイントは、不明な場所であると分類され、場所ベースのルーティングが有効になっているユーザーとの間、PSTN の呼び出しがブロックされています。          |
 
 ### <a name="related-topics"></a>関連トピック
-- [直接ルーティングのための場所ベースのルーティングを計画します。](location-based-routing-plan.md)
-- [場所ベースのルーティングのネットワーク設定を構成します。](location-based-routing-configure-network-settings.md)
-- [直接ルーティングのための場所ベースのルーティングを有効にします。](location-based-routing-enable.md)
+- [ダイレクト ルーティングの場所に基づくルーティングを計画する](location-based-routing-plan.md)
+- [場所に基づくルーティングのネットワーク設定を構成する](location-based-routing-configure-network-settings.md)
+- [ダイレクト ルーティングの場所に基づくルーティングを有効にする](location-based-routing-enable.md)

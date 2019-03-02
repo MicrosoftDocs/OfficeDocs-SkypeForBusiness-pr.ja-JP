@@ -1,5 +1,5 @@
 ---
-title: 場所ベースのルーティングのネットワーク設定を構成します。
+title: 場所に基づくルーティングのネットワーク設定を構成する
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -10,17 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 description: 作成し、直接ルーティングの場所ベースのルーティング ネットワーク領域、サイト、およびサブネットを設定する方法について説明します。
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b818b10a333fbb7cf50cf4e49d521aa224e2d17
-ms.sourcegitcommit: b53d99d06178c26297d1349ff82d05f706dfb479
+ms.openlocfilehash: 60ed4b1c69f2b6495e21fe28653b19ca905dfc6c
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30050765"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353443"
 ---
-# <a name="configure-network-settings-for-location-based-routing"></a>場所ベースのルーティングのネットワーク設定を構成します。
+# <a name="configure-network-settings-for-location-based-routing"></a>場所に基づくルーティングのネットワーク設定を構成する
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
@@ -100,9 +103,9 @@ New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet 
 New-CsTenantTrustedIPAddress -IPAddress 167.220.2.206 -MaskBits 30 -Description "Contoso address"  
 ```
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 [直接ルーティングのための場所ベースのルーティングを有効にするの](location-based-routing-enable.md)に移動します。
 
 ### <a name="related-topics"></a>関連トピック
-- [直接ルーティングのための場所ベースのルーティングを計画します。](location-based-routing-plan.md)
-- [場所ベースのルーティングの用語](location-based-routing-terminology.md)
+- [ダイレクト ルーティングの場所に基づくルーティングを計画する](location-based-routing-plan.md)
+- [場所に基づくルーティングの用語集](location-based-routing-terminology.md)

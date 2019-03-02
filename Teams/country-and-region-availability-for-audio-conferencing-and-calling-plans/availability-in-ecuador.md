@@ -1,18 +1,17 @@
 ---
-title: エクアドルの可用性
-ms.author: tonysmit
-author: tonysmit
+title: エクアドルでの利用可能性
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 93419ae6-1f3d-4182-83d1-afe02060fd6a
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: エクアドルの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: 15d7dc86ef164eeb8a23f176d8eeca9bfa5b0b60
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: bf2eadb0c64caa4733d3c057b211cc7d539c00e9
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013162"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353227"
 ---
-# <a name="availability-in-ecuador"></a>エクアドルの可用性
+# <a name="availability-in-ecuador"></a>エクアドルでの利用可能性
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
@@ -43,15 +42,15 @@ ms.locfileid: "25013162"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |はい  <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> |なし  <br/> |
+|電話会議は購入できますか?  <br/> |あり  <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> |不要  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信のクレジットが必要です。  <br/> |
    
 ## <a name="phone-system"></a>電話システム
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話システムは購入できますか?  <br/> |はい  <br/> |
+|電話システムは購入できますか?  <br/> |あり  <br/> |
 | 自動応答 <br/> |利用可能  <br/> |
 |通話キュー  <br/> |利用可能  <br/> |
 |ボイスメール  <br/> |利用可能  <br/> |
@@ -69,8 +68,8 @@ ms.locfileid: "25013162"
 |**機能**|**詳細**|
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |該当しない  <br/> |
-|有料電話番号は使用できますか?  <br/> |なし  <br/> |
-|無料電話番号は使用できますか?  <br/> |はい  <br/> |
+|有料電話番号は使用できますか?  <br/> |不要  <br/> |
+|無料電話番号は使用できますか?  <br/> |あり  <br/> |
    
  電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。
   

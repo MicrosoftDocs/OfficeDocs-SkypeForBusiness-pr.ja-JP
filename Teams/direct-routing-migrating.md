@@ -1,28 +1,26 @@
 ---
-title: 直接ルーティングへの移行
+title: ダイレクト ルーティングへの移行
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
-ms.service:
-- msteams
-- skype-for-business-online
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
-appliesto:
-- Microsoft Teams
+ms.collection:
+- Teams_ITAdmin_Help
+- M365-voice
+appliesto: Microsoft Teams
 description: 移行する直接ルーティングでは、Skype のオンライン ビジネスとチームの構成の分析観点の必要なものについて説明します。
-ms.openlocfilehash: 4aeb9a2a2ba1bc8398896b2040276f08658194f5
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 100999483aa3246807008c2e8c60fc6d3ed5baa9
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754472"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353115"
 ---
-# <a name="migrating-to-direct-routing"></a>直接ルーティングへの移行
+# <a name="migrating-to-direct-routing"></a>ダイレクト ルーティングへの移行
 
 この資料では、直接ルーティングするのには、Skype のオンライン ビジネスおよびマイクロソフトのチーム構成の観点からの移行に必要なものについて説明します。 この資料では、次からの移行について説明します。 
  
@@ -67,7 +65,7 @@ OnPremLineURI |該当なし|施設内の電話番号を同期する必要があ�
 
 プランの呼び出しからの移行の詳細についてを参照してください。
 
-- [通話プランのセットアップ](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
+- [通話プランの設定](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 - [セット CsOnlineVoice ユーザー](https://docs.microsoft.com/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps)
 - [Get CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
  

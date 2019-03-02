@@ -1,5 +1,5 @@
 ---
-title: 直接ルーティングのための場所ベースのルーティングを有効にします。
+title: ダイレクト ルーティングの場所に基づくルーティングを有効にする
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -10,17 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 description: 直接ルーティングのための場所ベースのルーティングを有効にする方法を説明します。
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8437eba299cb42415d224017ca7d0e888fffa684
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 854f0fefc006c02bc07c73cd4519b943411094f5
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29771009"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352547"
 ---
-# <a name="enable-location-based-routing-for-direct-routing"></a>直接ルーティングのための場所ベースのルーティングを有効にします。
+# <a name="enable-location-based-routing-for-direct-routing"></a>ダイレクト ルーティングの場所に基づくルーティングを有効にする
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
@@ -65,7 +68,7 @@ ms.locfileid: "29771009"
     
     ||音声ルーティング ポリシー 1|音声ルーティング ポリシー 2|
     |---------|---------|---------|
-    |ボイス ポリシー ID   |デリー音声ルーティング ポリシー   |Hyderabad の音声ルーティング ポリシー    |
+    |オンラインでのボイス ポリシー ID   |デリー オンライン音声ルーティング ポリシー   |Hyderabad のオンラインの音声ルーティング ポリシー    |
     |オンラインの PSTN 使用法  |市外通話  |長い距離、ローカルな内部  |
 
     詳細については、[新規 CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy)を参照してください。
@@ -76,21 +79,21 @@ ms.locfileid: "29771009"
 ## <a name="enable-location-based-routing-for-network-sites"></a>ネットワークのサイトの場所ベースのルーティングを有効にします。
 1.  使用して、``Set-CsTenantNetworkSite``コマンドレットには、場所ベースのルーティングを有効にして、関連付けの音声ルーティング ポリシー、ルーティングの制限を適用する必要があるネットワーク サイトです。
     ```
-    Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false> -OnlineVoiceRoutingPolicy <voice routing policy ID> 
+    Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
 
     この例では、Delhi サイトおよび Hyderabad のサイトの場所ベースのルーティングを有効にします。 
 
     ```
-    Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true -OnlineVoiceRoutingPolicy "DelhiVoiceRoutingPolicy" 
-    Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true -OnlineVoiceRoutingPolicy "HyderabadVoiceRoutingPolicy" 
+    Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true  
+    Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true 
     ```
     次の表は、この例では、場所ベースのルーティングを有効になっているサイトを示します。
 
     ||サイト 1 (デリー)  |サイト 2 (Hyderabad)  |
     |---------|---------|---------|
+|サイト名    |サイト 1 (デリー)    |サイト 2 (Hyderabad)   
     |EnableLocationBasedRouting    |True    |True    |
-    |音声ルーティング ポリシー    | デリー音声ルーティング ポリシー       |Hyderabad の音声ルーティング ポリシー    |
     |サブネット     |サブネット 1 (デリー)     |サブネット 2 (Hyderabad)     |
 
 ## <a name="enable-location-based-routing-for-gateways"></a>ゲートウェイの場所ベースのルーティングを有効にします。
@@ -103,7 +106,7 @@ ms.locfileid: "29771009"
 
     この例では、各ゲートウェイの 1 つのゲートウェイの構成を作成します。 
     ```
-    New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 
+    New-CsOnlinePSTNGateway -Fqdn sbc.contoso.com -Enabled $true -SipSignallingPort 5067 
     ```
     詳細については、[直接ルーティングの構成](direct-routing-configure.md)を参照してください。
     
@@ -142,25 +145,25 @@ ms.locfileid: "29771009"
     |---------|---------|---------|
     |PstnGateway:Gateway 1 DEL-GW    |    True     |   サイト 1 (デリー)      |
     |PstnGateway:Gateway 2 HYD の GW     |   True      |      サイト 2 (Hyderabad)   |
-    |DEL-PBX の PstnGateway:Gateway 3    |    True     |     サイト 1 (デリー)    |
-    |PstnGateway:Gateway 4 HYD の PBX    |    True     |    サイト 2 (Hyderabad)     |
+    |DEL-PBX の PstnGateway:Gateway 3    |    False     |     サイト 1 (デリー)    |
+    |PstnGateway:Gateway 4 HYD の PBX    |    False     |    サイト 2 (Hyderabad)     |
 
 ## <a name="enable-location-based-routing-for-calling-policies"></a>ポリシーを呼び出すための場所ベースのルーティングを有効にします。
 
 特定のユーザーの場所ベースのルーティングを適用するには、PTSN の有料電話を防ぐために、ユーザーの音声ポリシーを設定をバイパスします。 
 
-使用、``Grant-TeamsCallingPolicy``の場所ベースの PSTN 通話を防止することでルーティングを有効にするコマンドレットをバイパスします。
+使用、``Grant-CsTeamsCallingPolicy``の場所ベースの PSTN 通話を防止することでルーティングを有効にするコマンドレットをバイパスします。
 
 ```
-Grant-TeamsCallingPolicy -PolicyName <policy name> -id <user id> 
+Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 
 ```
 この例では、User1 に PSTN 有料のバイパス ポリシーを呼び出すことを防ぐことです。 
 
 ```
-Grant-TeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
+Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
 ```
 
 ### <a name="related-topics"></a>関連トピック
-- [直接ルーティングのための場所ベースのルーティングを計画します。](location-based-routing-plan.md)
-- [場所ベースのルーティングのネットワーク設定を構成します。](location-based-routing-configure-network-settings.md)
-- [場所ベースのルーティングの用語](location-based-routing-terminology.md)
+- [ダイレクト ルーティングの場所に基づくルーティングを計画する](location-based-routing-plan.md)
+- [場所に基づくルーティングのネットワーク設定を構成する](location-based-routing-configure-network-settings.md)
+- [場所に基づくルーティングの用語集](location-based-routing-terminology.md)

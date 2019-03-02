@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ae5d850670007d4356fa3de8610e4b110856734
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: babfec7ae442b9d5f787fda7a9d9eedb0e3a6303
+ms.sourcegitcommit: e739925aa73f257b72ce4f94002d8b17582252a1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753847"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30357771"
 ---
 > [!NOTE]
 > チャット、チーム、チャネル、チーム内の & アプリケーションを理解するのには次の情報を確認します。 [展開のチャット、チーム、チャネル、& アプリケーションをチームで](deploy-chat-teams-channels-microsoft-teams-landing-page.md)、チームの展開に重要な決定の一覧を参照するに進みます。
@@ -88,7 +88,7 @@ Microsoft Teams は、縦割り組織を解体して機能横断型チームを�
 
 組織構造に整合する Teams を作成することができます。  これは、士気の向上、チーム固有のレビューの実施、従業員のオンボーディング プロセスの明確化、人員の計画についての話し合い、およびさまざまな人員にわたっての視認性の改善を行うことを考えているリーダーにとって最適です。  
 
-![チームとチャネルが Microsoft Teams 内でどのように編成されるかを示す階層図。](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
+![チームとチャネルが Microsoft Teams 内でどのように編成されるかを示す階層図。](media/overview-of-teams-and-channels-image1.png)
 
 ## <a name="org-wide-teams"></a>組織全体にわたるチーム
 

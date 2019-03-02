@@ -1,5 +1,5 @@
 ---
-title: 直接ルーティングのための場所ベースのルーティングを計画します。
+title: ダイレクト ルーティングの場所に基づくルーティングを計画する
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -10,17 +10,20 @@ ms.reviewer: roykuntz
 search.appverid: MET150
 description: 直接ルーティングのための場所ベースのルーティングを計画する方法について説明します。
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8faf0f70b509a851b8365bea5ce4a69a57f198d1
-ms.sourcegitcommit: 09c2094104ee055cb1cb047a5fab8f9fd02b123e
+ms.openlocfilehash: ff596f444c5df963b809e1ccacd525cb0dfd74e4
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "29967457"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351827"
 ---
-# <a name="plan-location-based-routing-for-direct-routing"></a>直接ルーティングのための場所ベースのルーティングを計画します。
+# <a name="plan-location-based-routing-for-direct-routing"></a>ダイレクト ルーティングの場所に基づくルーティングを計画する
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
@@ -30,7 +33,7 @@ ms.locfileid: "29967457"
 
 ここでことを計画するためには、場所ベースのルーティングとガイダンスの概要が表示されます。 適用し、場所ベースのルーティングを有効にする準備ができたらを参照してください。
 - [場所ベースのルーティングのネットワーク設定を展開します。](location-based-routing-configure-network-settings.md)
-- [直接ルーティングのための場所ベースのルーティングを有効にします。](location-based-routing-enable.md)
+- [ダイレクト ルーティングの場所に基づくルーティングを有効にする](location-based-routing-enable.md)
 
 場所ベースのルーティングは、着信または発信の PSTN 通話の時に、ポリシーとユーザーの地理的位置に基づいて、有料のバイパスを制限できる機能です。 
 
@@ -247,9 +250,9 @@ IPv4 と IPv6 のサブネットをサポート、ただし、IPv6 が優先の�
 
 PSTN の呼び出しに場所ベースのルーティングが有効になっているユーザーが別の会議を開始するのには許可されていないユーザーまたは PSTN 番号です。 自動応答、または呼び出しのキューへの接続が許可されます。 ユーザーに会議のライセンスがある場合は、関連するユーザーとの会議を開始ユーザー側で確認し、電話会議ブリッジを PSTN 電話会議を開始する必要があります。  
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 [場所ベースのルーティング用のネットワーク設定の構成](location-based-routing-configure-network-settings.md)に移動します。
 
 ### <a name="related-topics"></a>関連トピック
-- [直接ルーティングのための場所ベースのルーティングを有効にします。](location-based-routing-enable.md)
-- [場所ベースのルーティングの用語](location-based-routing-terminology.md)
+- [ダイレクト ルーティングの場所に基づくルーティングを有効にする](location-based-routing-enable.md)
+- [場所に基づくルーティングの用語集](location-based-routing-terminology.md)

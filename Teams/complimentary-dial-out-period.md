@@ -7,12 +7,11 @@ ms.reviewer: mikedav, OscarR
 ms.topic: article
 ms.assetid: dc6e95cd-51e8-49ca-bcd3-78dc9dae486a
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: お客様は、Skype for Business Online PSTNサービス利用規約およびお客様のボリュームライセンス契約で許可されているとおり、Office 365通話プランとOffice 365音声会議を使用することができます。
-ms.openlocfilehash: 235b8906385be0e6228a7d99c3dda1a52507f137
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 1d1d047e4888c2f8fbfa93aeb7ab4c00dfc62bde
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532893"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352867"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音声会議の無料ダイヤル アウト期間
 
@@ -49,7 +48,7 @@ Office 365 のオーディオ会議サービスを導入するお客様は、マ
 - ゾーン A 国の一覧にない宛先へのすべての発信呼び出しが 1 分間の通信のクレジットを使用して、その先に、公開済みのレートで請求される (テナントが通信のクレジットを設定し、通信のクレジットのライセンスを割り当てられている限り、会議の開催者)。
 
 > [!NOTE]
-> ビジネス管理センターの Skype で発信分のプールに対する使用率を監視することができます。 は、マイクロソフトのチームと Skype の管理センターでは、**従来のポータル**に移動 > **レポート** > **PSTN 分のプール**です。 この無料分プールのラベル レポートに「発信コール ゾーン A の国」として
+> ビジネス管理センターの Skype で発信分のプールに対する使用率を監視することができます。 マイクロソフト チーム & Skype 管理センターでは、**従来のポータル**に移動 > **レポート** > **PSTN 分のプール**です。 この無料分プールのラベル レポートに「発信コール ゾーン A の国」として
 
 テナントのダイアル アウト分のプールの使用率は 80% から 100% に達したときに、特定の顧客のすべてのテナント管理者に電子メール通知が送信されます。
 

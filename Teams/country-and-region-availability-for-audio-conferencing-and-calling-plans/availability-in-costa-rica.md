@@ -1,5 +1,5 @@
 ---
-title: (コスタリカ) の可用性
+title: コスタリカでの利用可能性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: af771135-60cb-4c37-ae0a-a300d3ced073
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: (コスタリカ) の利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: f0610b7aed65e18b853a80a093b045f1003b4446
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 2cb214f087b4487ae0e76a09000bdcc6ab81d28a
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048667"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351963"
 ---
-# <a name="availability-in-costa-rica"></a>(コスタリカ) の可用性
+# <a name="availability-in-costa-rica"></a>コスタリカでの利用可能性
 
 [別の国または地域を検索する](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)には、オーディオ会議および電話会議の plans.for を呼び出すことと通話プランの国および地域の可用性の詳細を参照するか。
 
@@ -70,7 +69,7 @@ ms.locfileid: "30048667"
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |電話番号が特定の都市や地域に関連していません。  <br/> |
 |有料電話番号は使用できますか?  <br/> |あり  <br/> |
-|無料電話番号は使用できますか?  <br/> |なし  <br/> |
+|無料電話番号は使用できますか?  <br/> |不要  <br/> |
    
  電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。
   

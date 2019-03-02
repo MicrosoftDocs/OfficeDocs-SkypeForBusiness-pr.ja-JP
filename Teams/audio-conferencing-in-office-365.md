@@ -7,12 +7,11 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: a5a696c3-d321-4e61-9aad-e3a87041196e
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -22,12 +21,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: a3762b58d6014c4f32bb03ba821aa704c7145ea9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9d50c4682553999c2836d8e18bd3f6a56d88554c
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013482"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351603"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Office 365 での電話会議
 Office 365 での音声会議では、電話から会議の呼び出しすることができます。 オーディオ会議では、最大で 250 の電話の参加者を使用できます。
@@ -42,7 +41,7 @@ Office 365 での音声会議では、電話から会議の呼び出しするこ
 - 人がミーティングに参加できる「ハンド フリー」Bluetooth デバイスを使用します。
 - 人の検索が容易になりますし、状況にあった方が便利です。
 
-のみ、スケジュールや会議を計画している人の電話会議を設定する必要があります。 ダイヤルインする会議参加者には、割り当てられたライセンスやその他のセットアップは必要ありません。
+電話会議のセットアップは、ミーティングのスケジュールを設定するユーザーまたはミーティングを主催するユーザーにのみ必要です。 ダイヤルインする会議参加者には、割り当てられたライセンスやその他のセットアップは必要ありません。
 
 出席者が会議に参加した後しことができますダイヤル、Skype ビジネスまたはマイクロソフトのチームの会議のために他の呼び出し元を招待します。 [他のユーザーが参加できるように、チーム会議からの発信](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)または[他のユーザーが参加できるように、ビジネス会議のため、Skype からの発信](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)を参照してください。
 
@@ -99,6 +98,6 @@ Office 365 での音声会議では、電話から会議の呼び出しするこ
 
 [Skype for Business Online のセットアップ](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
   
-[マイクロソフトのチームでの電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md) 
+[Microsoft Teams での電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md) 
 
 [Skype for Business Online の電話会議の電話番号](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)

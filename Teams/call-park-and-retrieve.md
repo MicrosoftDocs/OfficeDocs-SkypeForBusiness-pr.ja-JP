@@ -7,11 +7,11 @@ ms.date: 01/16/2019
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service:
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: チームのクラウド サービスに保留中の通話をパークおよび取得を使用します。
-ms.openlocfilehash: 2433a8836a037b530fbd895f7a37567f24d63b50
-ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
+ms.openlocfilehash: 48052768ce172fda88b3e034277c4454988b32db
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28328310"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353475"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams でのコール パークおよび保留解除
 
@@ -50,9 +50,9 @@ ms.locfileid: "28328310"
 
 | 機能 | チームのデスクトップ | チームの Mac アプリケーション | チームの Web アプリケーション (エッジ) |チーム モバイル iOS と Android アプリ | チームの IP 電話 | ビジネス IP 電話の Skype |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
-| 公園の呼び出し | あり | あり | あり | あり | 準備中| なし |
-| 停止の呼び出しを取得します。 | あり | あり | あり | あり | 準備中| なし |
-| 取得されていない通話の呼び出しに戻る | あり | あり | あり | あり | 準備中| なし |
+| 公園の呼び出し | あり | あり | あり | あり | 準備中| 不要 |
+| 停止の呼び出しを取得します。 | あり | あり | あり | あり | 準備中| 不要 |
+| 取得されていない通話の呼び出しに戻る | あり | あり | あり | あり | 準備中| 不要 |
 
 ## <a name="configuring-call-park-and-retrieve"></a>パークおよび取得を構成します。
 

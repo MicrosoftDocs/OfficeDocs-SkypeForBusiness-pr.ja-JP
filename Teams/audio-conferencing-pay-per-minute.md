@@ -7,14 +7,13 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: d050c8c3-1cd2-45c8-8a6d-2e86e938f356
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -24,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 標準のオーディオ会議のユーザーごとのライセンスに加え、マイクロソフト ボリューム ライセンスを使用する組織は、組織の音声会議機能を有効にするのには、1 分あたりの支払の案内も選択できます。
-ms.openlocfilehash: affeba7a1fda6aaada47bc9b0a8c124caf84cf9e
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 908249fdef3a0de1e17f1d5459d1e04b5a2c20f8
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120973"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353515"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>分数ごと従量課金制電話会議
 
@@ -71,7 +70,7 @@ ms.locfileid: "30120973"
     
 ## <a name="related-topics"></a>関連トピック
   
-[マイクロソフト チーム アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+[Microsoft Teams アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
   
  

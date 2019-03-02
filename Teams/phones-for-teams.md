@@ -5,21 +5,20 @@ author: jambirk
 manager: serdars
 ms.reviewer: kponnus
 ms.topic: article
-ms.service:
-- skype-for-business
-- msteams
+ms.service: msteams
 ms.audience: Admin
-appliesto:
-- Skype for Business
-- Microsoft Teams
+ms.collection:
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 localization_priority: Normal
 description: この資料では、マイクロソフトのチームとチームの Microsoft 認定電話でサポートされる機能に認定されている電話の一覧について説明します。
-ms.openlocfilehash: ac4e609378e23dde4a91fd45bee917ad5c1340d7
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 45295187e145fb634b76eeb7433c2201746db59e
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120957"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353323"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft Teams 用の電話機
 
@@ -39,12 +38,12 @@ IP 電話の認定チームでサポートされる機能の高度な設定は�
 |ユーザー資格情報でのサイン イン |  可 | はい|
 |PC とスマート フォンを使用してサインインします。  | 可 |あり|
 |先進認証 | 可 |はい |
-|電話のロック/ロック解除 | はい |なし |
+|電話のロック/ロック解除 | はい |いいえ |
 |**通話** |  |  |
 |P2P の着信または発信の呼び出し | 可  |はい |
 |呼び出しで UI (ミュート、保留/再開、転送、通話の終了) を使用してコントロール| 可  |はい |
 |PSTN の呼び出し| 可  |はい |
-|ビジュアル ボイスメール | はい | なし |
+|ビジュアル ボイスメール | はい | いいえ |
 |911 のサポート  | 可  |はい |
 |**カレンダーとプレゼンス**|   | |
 |カレンダーへのアクセスおよび会議の詳細|可 |はい|
@@ -56,7 +55,7 @@ IP 電話の認定チームでサポートされる機能の高度な設定は�
 |会議の 1 回のクリックの結合  | 可  |はい |
 |Skype をビジネス ・ ミーティングに参加します。 | 可  | はい|
 |会議電話のコントロール (ミュート/ミュート解除、保留/再開、ハングアップ、参加者の追加と削除)|可|はい|
-|会議の詳細|はい|なし|
+|会議の詳細|はい|いいえ|
 
 皆様のご利用の電話にチーム感を高めるための機能を継続的に追加します。 下のスクリーン ショットでは、現在サポートの経験のいくつかについて説明します。
 

@@ -1,18 +1,17 @@
 ---
-title: スリランカの可用性
-ms.author: tonysmit
-author: tonysmit
+title: スリランカでの利用可能性
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 5e91dcb0-7c23-415b-9e0b-82115dc046da
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: スリランカの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: 01dba4ec6d4ad62350fd77e6283602e335558f41
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 04ca009a0b542a156ec3e6fba95e79c5880f6695
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016134"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352923"
 ---
-# <a name="availability-in-sri-lanka"></a>スリランカの可用性
+# <a name="availability-in-sri-lanka"></a>スリランカでの利用可能性
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
@@ -43,7 +42,7 @@ ms.locfileid: "25016134"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |はい  <br/> |
+|電話会議は購入できますか?  <br/> |あり  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> | 電話番号が特定の都市や地域に関連していません。 専用の電話番号を設定する場合は、[Skype のビジネスおよびマイクロソフトのチームの取得サービスの電話番号](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)を参照してください。  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信のクレジットが必要です。  <br/> |
    
@@ -51,7 +50,7 @@ ms.locfileid: "25016134"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話システムは購入できますか?  <br/> |はい  <br/> |
+|電話システムは購入できますか?  <br/> |あり  <br/> |
 | 自動応答 <br/> |利用可能  <br/> |
 |通話キュー  <br/> |利用可能  <br/> |
 |ボイスメール  <br/> |利用可能  <br/> |
@@ -69,8 +68,8 @@ ms.locfileid: "25016134"
 |**機能**|**詳細**|
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |電話番号が特定の都市や地域に関連していません。  <br/> |
-|有料電話番号は使用できますか?  <br/> |はい  <br/> |
-|無料電話番号は使用できますか?  <br/> |なし  <br/> |
+|有料電話番号は使用できますか?  <br/> |あり  <br/> |
+|無料電話番号は使用できますか?  <br/> |不要  <br/> |
    
  電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。
   

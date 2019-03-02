@@ -15,6 +15,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -25,12 +26,12 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されます無料電話番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: 92629f1be80a3174603f854d8d9c0e0e2e7254dc
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9ecea9fa2503134c7ce3b13c6c7adaabdf24a142
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013258"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352683"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>フリー ダイヤルの制限事項と制限事項
 
@@ -119,7 +120,7 @@ ms.locfileid: "25013258"
 - **北アメリカの番号付けプランには、空き番号が有料電話番号:** 有料の空き番号を番号付けプラン] (北アメリカ) の 1 分あたりの単価は、元の国によって決定されます。 「北米」として定義されている 1 秒間にアメリカ合衆国のマップから発信された通話の有料無料 1 分あたりの単価 ただし、カナダ、プエルトリコなど北米以外の国から発信された呼び出しでは、特定の有料無料のレートがあります。
 
 > [!NOTE]
-> 無料電話番号
+> さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。
     
 ## <a name="related-topics"></a>関連トピック
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)

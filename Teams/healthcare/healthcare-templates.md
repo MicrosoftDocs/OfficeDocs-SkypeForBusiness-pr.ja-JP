@@ -1,5 +1,5 @@
 ---
-title: マイクロソフト チームの医療機関のテンプレートを使い始める
+title: 医療機関向けのチーム テンプレートを使い始める
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -12,15 +12,15 @@ MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: マイクロソフト チームの医療機関のテンプレートを使い始める
-ms.openlocfilehash: e2b1e9cb2171f250c9d9e635c3d5233c4f47f24e
-ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
+description: 医療機関向けのチーム テンプレートを使い始める
+ms.openlocfilehash: 98fff56720bc0d0dee530ab37c67e0e24aaba086
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29760568"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351715"
 ---
-# <a name="get-started-with-microsoft-teams-healthcare-templates"></a>マイクロソフト チームの医療機関のテンプレートを使い始める
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>医療機関向けのチーム テンプレートを使い始める
 
 マイクロソフト チーム テンプレートでは、迅速にすることし、設定、チャネル、およびプリインストールされているアプリケーションの定義済みのテンプレートを提供することで簡単にチームを作成します。
 
@@ -37,7 +37,7 @@ ms.locfileid: "29760568"
 |医療・ ワード | https://<span></span>グラフ<span></span>.microsoft.com/beta/teamsTemplates/healthcareWard   | お知らせ\* <br> Huddles\* <br> ラウンド\* <br> スタッフ\* <br> トレーニング\* |
 |     | |         |
 
-\*自動お気に入り 
+\*自動お気に入り
 
 ## <a name="hospital-template"></a>病院テンプレート
 

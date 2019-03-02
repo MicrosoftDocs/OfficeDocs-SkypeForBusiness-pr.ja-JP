@@ -7,14 +7,13 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 - Teams_ITAdmin_Help
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -26,12 +25,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 国や地域ごとに、Skype for Business Online および Microsoft Teams のユーザーの電話番号を取得する手順が異なります。 必要な情報を取得するには、以下の国または地域へのリンク先に移動してください。
-ms.openlocfilehash: b2f20983051f55464d95ed0a36a4173c68b8b4db
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 23923d6d31222d1d97d43318227ce2b1e558d5c2
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048164"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351899"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>組織のために電話番号を管理する
 組織のユーザーとサービスの両方の番号 (有料とフリー ダイヤル)を取得する 3 つの方法があります。
