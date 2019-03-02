@@ -1,18 +1,17 @@
 ---
-title: メキシコでフリー ダイヤルのダイヤルの制限
-ms.author: tonysmit
-author: tonysmit
+title: メキシコでのフリーダイヤル制限
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: 576e0cc3-0a1a-43bf-a6fc-3a28e47ecd58
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: d8cf496707b1f56227d9a22728e56381e9d88096
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: d1d77d9a5feaccc571ef09f5527fb8e270588d27
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015710"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351043"
 ---
-# <a name="toll-free-dialing-restrictions-in-mexico"></a>メキシコでフリー ダイヤルのダイヤルの制限
+# <a name="toll-free-dialing-restrictions-in-mexico"></a>メキシコでのフリーダイヤル制限
 
 [別の国または地域を検索する](../toll-free-dialing-limitations-and-restrictions.md)には、フリー ダイヤルの制限事項と制限事項の詳細についてはまたはです。
 
@@ -44,7 +43,7 @@ ms.locfileid: "25015710"
 |対象となる島/地域  <br/> |該当しない  <br/> |
 |対象外の島/地域  <br/> |該当しない  <br/> |
 |有線/固定回線の状態  <br/> |部分的。コメント参照。  <br/> |
-|携帯電話ネットワークの状態  <br/> |部分的。コメント参照。  <br/> |
+|携帯電話ネットワークの状態  <br/> |部分的。 コメント参照。  <br/> |
 |コメント、制限、アクセスの問題など  <br/> |携帯電話のローミングからのアクセスは保証されない。  <br/> 001-800 番号形式の場合: 固定ネットワーク アクセスの場合 - Telmex。 携帯電話アクセスの場合 - Telcel のみ。 通話時間が課金される。 追加料金なし、市内通話および市外のプロバイダーとして Telmex にエンドユーザー様がある場合。  <br/> 01-800 番号形式の場合: 携帯電話アクセスの通話時間が課金される。  <br/> |
    
 ## <a name="related-topics"></a>関連トピック

@@ -3,15 +3,15 @@ title: Microsoft Teams での通話の共有およびグループ通話ピック
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 01/16/19
+ms.date: 02/19/2019
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service:
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 共有を呼び出すし、グループ通話ピックアップできるように、ユーザーが利用できない場合、呼び出しをキャプチャできるように、着信呼び出しを同僚と共有します。
-ms.openlocfilehash: 31df45d0420457528fd517c851b845a09cab32e0
-ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
+ms.openlocfilehash: df98dd4df064b23b687ddcc569e6c5a431137527
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28328318"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351331"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft Teams での通話の共有およびグループ通話ピックアップ
 
@@ -48,7 +48,7 @@ ms.locfileid: "28328318"
 
 グループの作成と通知の設定は、ユーザー ・ ベースの機能を呼び出す管理者は、ユーザーに対してこれらの機能を構成するのにはありません。 セキュリティ グループまたはグループを Office 365 からの呼び出しのグループを作成できません。これらは、チームで作成する必要があります。
 
-管理者は、ユーザー グループを作成し、他のコール ピックアップの設定を変更するを防ぐことはできません。 機能がブロックされていません。
+管理者は、ユーザーの**TeamsCallingPolicy の AllowCallGroups**設定を使用して呼び出しのグループを有効にする必要があります。 管理者は、このユーザーが呼び出しのグループを構成できるかどうかを制御することができますだけ。 True の場合、管理者に設定すると、ビットを設定して、任意のユーザーをグループ化する呼び出しを追加することからユーザーを防ぐことはできません。
 
 ## <a name="limitations"></a>制限
 

@@ -5,22 +5,20 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
-ms.service:
-- msteams
-- skype-for-business-online
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
-appliesto:
-- Microsoft Teams
+ms.collection:
+- Teams_ITAdmin_Help
+- M365-voice
+appliesto: Microsoft Teams
 description: この資料では、監視し、直接ルーティングの構成をトラブルシューティングする方法について説明します。
-ms.openlocfilehash: 46fd5ad046551d30bf3822d11864edc2a5353a26
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 75f116004c0385aa7d13b0173380221304590814
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014934"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30350987"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>監視し、直接ルーティングのトラブルシューティングを行う
 
@@ -46,7 +44,7 @@ ms.locfileid: "25014934"
 
 ![SIP オプションの構成の例](media/sip-options-config-example.png)
 
-番号 +1 425 への呼び出しを行うとすると\<、7 桁 >、直接ルーティングのルートを評価します。 ルートにある 2 つの SBCs: sbc1.contoso.com と sbc2.contoso.com。 SBCs の両方では、工順の優先度が同じがあります。 ルーティング メカニズムが、SBC に送信される SIP オプションに基づいて、SBCs の稼働状態を評価する SBC をピッキングする前に最後の時間します。 
+番号 +1 425 への呼び出しを行うと、\<直接ルーティングでは、7 つの digits> は、ルートを評価します。 ルートにある 2 つの SBCs: sbc1.contoso.com と sbc2.contoso.com。 SBCs の両方では、工順の優先度が同じがあります。 ルーティング メカニズムが、SBC に送信される SIP オプションに基づいて、SBCs の稼働状態を評価する SBC をピッキングする前に最後の時間します。 
 
 SBC は、SBC が一定の間隔のオプションを送信する送信呼び出しの時点での統計情報が表示されている場合は正常と見なされます。  
 

@@ -1,5 +1,5 @@
 ---
-title: エクアドルのフリー ダイヤルの制限
+title: エクアドルでのフリーダイヤル制限
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: b7ff9d3b-9e74-4d57-acd6-49ed97cee8e8
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: cceaeb1f66b491e4f3b2f74968ab5276fa1fdd12
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: b52294bf105a6b0fba86bc256a99cc5736d47beb
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047841"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351195"
 ---
-# <a name="toll-free-dialing-restrictions-in-ecuador"></a>エクアドルのフリー ダイヤルの制限
+# <a name="toll-free-dialing-restrictions-in-ecuador"></a>エクアドルでのフリーダイヤル制限
 
 [別の国または地域を検索する](../toll-free-dialing-limitations-and-restrictions.md)には、フリー ダイヤルの制限事項と制限事項の詳細についてはまたはです。
 
