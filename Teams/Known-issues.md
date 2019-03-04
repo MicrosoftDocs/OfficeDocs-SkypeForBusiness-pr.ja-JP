@@ -3,7 +3,7 @@ title: Microsoft Teams の既知の問題
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 2/19/2019
+ms.date: 2/25/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -13,12 +13,12 @@ search.appverid: MET150
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 252d1508065aaf0a26e865b8f8d8109dec81512e
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: 53a6a258d96777e5dc335fcecb84e9f2b7962beb
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178582"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342104"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -43,6 +43,10 @@ ms.locfileid: "30178582"
 |テナント全体のコネクタに対する管理者による管理機能が利用できなくなっている  <br/> |コネクタをクライアントとオンライン バージョンの両方に追加しようとすると、「予期しないエラーが発生しました。もう一度やり直してください」というエラーが表示されます。Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Teams の設定で無効にします。次のサポート記事をご覧ください:  https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |2017/6/21  <br/> |
 
 ## <a name="apps"></a>アプリ
+
+|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
+|:-----|:-----|:-----|:-----|
+|デスクトップ アプリで「Web サイト」タブを使用すると[条件付きアクセス](https://docs.microsoft.com/ja-JP/azure/active-directory/conditional-access/overview)が機能しない場合がある<br/> |イントラネット ポータルなどの Web サイトに条件付きアクセス ポリシー (ブラウザーや IP アドレスの制限など) が設定されている場合、デスクトップ アプリの Teams 内ではその Web サイトがタブとして表示されないことがあります。 <br/> |デスクトップ アプリを使用する代わりに、ブラウザーで Teams を使用します。  <br/> |2018 年 7 月 1 日  <br/> |
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
@@ -226,6 +230,10 @@ ms.locfileid: "30178582"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
+|ユーザーの混乱を生じる Web サイト タブ  <br/> |Web サイト タブはお使いのブラウザーと同等ではありません。Web サイト タブとしてピン留めされた、特に認証が必要であったり、ポップアップを使用したりするようなサイトは動作しません。  <br/> |ユーザーにとってより分かりやすい UI を提供するために現在取り組んでいます。  <br/> |2018 年 5 月 2 日  <br/>|
+
+|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
+|:-----|:-----|:-----|:-----|
 |条件付きアクセスが有効になっていたためにタブが機能しない <br/> |テナントで条件付きアクセスが有効になっていたために、一部のタブがデスクトップ クライアントで読み込まれなくなっている可能性があります。Web クライアントを使用するときにタブが読み込まれます。この影響を受ける可能性があるタブは、[PowerBI]、[フォーム]、[VSTS]、[PowerApps]、および [SharePoint リスト] です。  <br/> |影響を受けたタブを表示するには、Teams を Windows 10 アカウントの拡張機能がインストールされた Edge、IE、または Chrome を使用する必要があります。一部のタブは、CA が有効になっているときにデスクトップ クライアントで機能しない Web 認証からも影響を受けます。マイクロソフトでは、パートナーと協力してこれらのシナリオが有効になるように取り組んでいます。これまでのとこる、プランナー、OneNote、Stream を有効になっています。 <br/> |2018/04/05  <br/>|
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
@@ -282,3 +290,6 @@ ms.locfileid: "30178582"
 |:-----|:-----|:-----|:-----|
 |Teams デスクトップ アプリが白画面を表示する  <br/> | <br/> |コンピューターのグラフィックス ドライバーを削除または再インストールを行うか、次のような GPU の無効化フラグを使用したコマンド ラインから Teams を開始します。<ul><li>Windows の場合: コマンド プロンプトを開いて、 `cd %localappdata%\microsoft\teams\current run Teams.exe --disable-gpu` を入力します</li><li>Mac の場合: ターミナルを開始して、 `cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu` を入力します</li></ul> <br/> |<br/> |
 
+|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
+|:-----|:-----|:-----|:-----|
+|管理的にユーザーを追加しても、ユーザーにウェルカム メールが届かない  <br/> |PowerShell または Teams の管理センターを使用してチームにメンバーを追加した場合、ユーザーは Microsoft Teams からのウェルカム メールを受信しません。  <br/> |Teams UI からメンバーを直接追加すると、メールが送信されます。 現時点では、管理上の回避策はありません。  <br/> |2019 年 2 月 12 日  <br/> |
