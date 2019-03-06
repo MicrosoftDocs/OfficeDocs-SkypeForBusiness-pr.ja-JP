@@ -9,15 +9,17 @@ ms.service: msteams
 search.appverid: MET150
 description: AAD に基づく動的なチームのメンバーシップについて説明します。
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fe6a097ba413c81d90f5fe519c5d6cbf1377a98
-ms.sourcegitcommit: 2ef6a05c659100eea0d92c729001cd4e14434b9f
+ms.openlocfilehash: 512ca6de74f5061976203b3467e7e17bdfe6a800
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30062656"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408276"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>チームの動的なメンバーシップの概要
 

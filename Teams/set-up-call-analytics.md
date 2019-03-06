@@ -1,11 +1,11 @@
 ---
-title: 分析機能の呼び出しを設定します
+title: 通話分析をセットアップする
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: mikedav, wlooney
 ms.topic: article
-ms.assetid: ''
+ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd
 ms.tgt.pltfrm: cloud
 ms.service:
 - skype-for-business-online
@@ -23,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 設定し、分析機能の呼び出しを使用して特定し、Skype のビジネスおよびマイクロソフトのチームの通話品質の問題に関するトラブルシューティングを行います。
-ms.openlocfilehash: 489dceae4924f3f720fd60f86423781c1aa31b41
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 4d6216fe1771158453ca32bbabfed5fcf9b09156
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754552"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408292"
 ---
-# <a name="set-up-call-analytics"></a>分析機能の呼び出しを設定します
+# <a name="set-up-call-analytics"></a>通話分析をセットアップする
 
 チームとして、またはオンライン ビジネスの管理の Skype は、分析機能の呼び出しを使用するにはビジネス用の Skype のトラブルシューティングを行うと、マイクロソフトのチームは、品質との接続の問題を呼び出します。 分析機能を呼び出すには、次の機能を設定すると便利です。
   
@@ -94,9 +94,9 @@ Azure Active Directory で管理役割を割り当てる方法については、
 ## <a name="related-topics"></a>関連トピック
 <a name="BKMK_UploadFiles"> </a>
 
-[通話分析を使用して低い通話品質をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[通話分析を使用して低品質の通話をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[呼び出しを分析し、通話品質のダッシュ ボード](difference-between-call-analytics-and-call-quality-dashboard.md)
+[通話分析および通話品質ダッシュボード](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  

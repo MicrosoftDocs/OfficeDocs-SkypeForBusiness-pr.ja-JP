@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: Skype ルーム システム v2 のソフトウェアを使用して Lync ルーム システム デバイスを移行する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 22693913c613f87c3f11ad5b421d771b661d9b91
-ms.sourcegitcommit: 502f85e7920b1a9a14f879d6211e10ad8daba69f
+ms.openlocfilehash: c01b579e73775e5f6b237f74975681fef7ea45ea
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/22/2019
-ms.locfileid: "29382472"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408213"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>Lync ルーム システム (LRS) デバイスを Skype ルーム システム v2 に移行します。
 
@@ -41,7 +41,7 @@ Skype ルーム システム (SRS v2) の次の世代に Lync の部屋のシス
 
 ### <a name="crestron-hardware-trade-in-program"></a>Crestron ハードウェアの下取りプログラム
 
-Crestron に、すべての非 Crestron Lync ルーム システムのお客様の[Crestron SR システム](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr)またはそれと同等にアップグレードを提供します。 このプログラムの詳細を参照してください[ここで](https://support.crestron.com/app/answers/answer_view/a_id/1000220)または<!-- For details, -->[電子メール](mailto:lrsupgrade@crestron.com)Crestron LRS のサポート。  
+Crestron に、すべての非 Crestron Lync ルーム システム (例: スマートまたはポリコム LRS) [Crestron SR システム](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr)またはそれと同等にアップグレードを提供します。 このプログラムの詳細を参照してください[ここで](https://support.crestron.com/app/answers/answer_view/a_id/1000220)または<!-- For details, -->[電子メール](mailto:lrsupgrade@crestron.com)Crestron LRS のサポート。  
 
 ### <a name="crestron-rl2-upgrade-to-srs-v2"></a>SRS v2 にアップグレードを Crestron RL2
 
@@ -49,17 +49,8 @@ Crestron RL2 が (Crestron RL200 とも呼ばれます) の既存のお客様が
 
 ### <a name="smart-room-systems-upgrade"></a>スマート ルーム システムをアップグレードします。
 
-Crestron ハードウェアの下取りプログラムとは別のスマート LRS お客様は、マイクロソフトとスマートも担当している Skype ルーム システム v2 にアップグレードするソリューションを提供します。 スマート テクノロジー社でこのアップグレードを提供します。この[ここで](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml)の詳細を参照してください。
+Crestron ハードウェアの下取りプログラムとは別のスマート LRS の顧客スマートは Skype ルーム システム v2 にアップグレードするソリューションを提供することにも取り組んでいます。 このアップグレードは、製品サポートでお客様にスマート テクノロジー社で提供されます。 この[ここで](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml)の詳細を参照してください。
 
-このオプションを使用するには、お客様はさらに[画面共有の logitech (ロジクール)](https://www.logitech.com/en-us/product/screen-share)アダプターを購入する必要があります。 マイクロソフトは Skype ルーム システム v2 のソフトウェアで、このアダプターを使用する方法の指示を提供します。
-
-このページをすぐにアップグレードの手順について説明します。
-  
-<!-- 
-### Summary of upgrade options
-
-This table lists summary of all available options for existing LRS devices:
--->
 
 ## <a name="what-should-you-do"></a>何ですか。
 

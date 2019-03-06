@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: '概要: は、ロード ・ バランシング ・ Skype をビジネスのサーバーを実装する前に注意事項を確認します。'
-ms.openlocfilehash: 9c0153d9b366731a85070c42ed11ea1a061ee409
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: ed3572b16126ce16b423d4ffe0d60d1f84d6b3cf
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626192"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408166"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Skype for Business の負荷分散の要件
  
@@ -86,7 +86,7 @@ Cookie ベースのアフィニティ要件が大幅に軽減 Skype ビジネス
   
 Cookie ベースのアフィニティを**使用しない**展開の場合
   
-- リバース プロキシのポート 4443 に対する公開ルールで、[**ホスト ヘッダーを転送する**] を True に設定します。これにより、元の URL が確実に転送されます。
+- リバース プロキシのポート 4443 に対する公開ルールで、[**ホスト ヘッダーを転送する**] を True に設定します。 これにより、元の URL が確実に転送されます。
     
 Cookie ベースのアフィニティを**使用する**展開の場合
   
@@ -106,7 +106,7 @@ Cookie ベースのアフィニティを**使用する**展開の場合
 モバイル デバイスを展開する場合、ロード バランサー機器で、TCP セッション内の個々の要求を負荷分散できるようにする必要があります (実際には、ターゲット IP アドレスに基づいて個々の要求を負荷分散できる必要があります)。
   
 > [!CAUTION]
-> F5 ロード バランサー機器には、OneConnect と呼ばれる機能があります。この機能を使用すると、TCP 接続内の各要求が個々に負荷分散されます。モバイル デバイスを展開する場合、ロード バランサー機器のベンダーが同じ機能をサポートしていることを確認してください。最新の Apple iOS モバイル アプリでは、トランスポート層セキュリティ (TLS) v1.2 が必要です。F5 は、その固有の設定を備えています。 
+> ハードウェア ロード バランサー機器を個別に読み込むことができませんする必要がある場合は、モバイル デバイスを展開する場合は、TCP 接続では、各要求のバランスをとる。 アップル iOS の最新のモバイル アプリケーションでは、トランスポート層セキュリティ (TLS) バージョン 1.2 が必要です。  
   
 > [!CAUTION]
 > サードパーティ製ロード バランサー機器の詳細については、「[Skype for Business のインフラストラクチャ](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)」を参照してください。  
