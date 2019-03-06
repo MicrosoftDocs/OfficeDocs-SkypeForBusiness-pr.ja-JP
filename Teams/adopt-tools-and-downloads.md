@@ -1,11 +1,11 @@
 ---
 title: 採用を推進するためのツール
 description: マイクロソフト チームの採用を推進し、他の Office 365 サービスを支援するのにこれらの採用のリソースを使用します。
-layout: LandingPage
 ms.topic: landing-page
 author: karuanag
 ms.author: karuanag
 manager: serdars
+layout: LandingPage
 ms.date: 11/20/2018
 ms.service: msteams
 ms.custom: Adopt
@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64041c7cf66e880374d8d52f68c7ec5def0de61c
-ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
+ms.openlocfilehash: 0e127be7c64dfadcc8cf01e2abcd4bb069d92b78
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015326"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408244"
 ---
 # <a name="tools-for-driving-adoption"></a>採用を推進するためのツール 
 
@@ -149,4 +149,4 @@ Office 365 のエキスパート プログラムは、マイクロソフトの�
 チェック アウトの[チームを採用しました](https://aka.ms/teamstoolkit)に役立つオンライン ガイドでは、社内のチームを展開できます。 多くのダウンロード可能なツール、テンプレート、およびチーム採用旅にするための他のリソースが含まれています。
 
 ### <a name="teams-customer-success-kit"></a>チーム顧客の成功キット
-[チーム顧客の成功のキット](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)には、チームを組織内に展開するためのツールが用意されています。 お知らせ、チラシ ポスター、カウント ダウン、およびヒントと秘訣の電子メール テンプレートが含まれています。 チーム リーダーと IT 管理者のための入門ガイドも含まれています。
+[チーム顧客の成功のキット](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)には、チームを組織内に展開するためのツールが用意されています。 お知らせ、チラシ ポスター、カウント ダウン、および & のヒントとテクニックの電子メール テンプレートが含まれています。 チーム リーダーと IT 管理者のための入門ガイドも含まれています。
