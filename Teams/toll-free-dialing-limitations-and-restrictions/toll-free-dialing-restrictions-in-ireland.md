@@ -9,7 +9,7 @@ ms.assetid: aa902873-3444-4c10-972e-2c245ab31b34
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -23,34 +23,34 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: fb1ce2c1ff03698e50d5e1e5ff60a5efb1acc4b9
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: d96d70e67b60fa2986f6489f7a814a473fcc311c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351379"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464309"
 ---
-# <a name="toll-free-dialing-restrictions-in-ireland"></a><span data-ttu-id="89109-105">アイルランドでのフリーダイヤル制限</span><span class="sxs-lookup"><span data-stu-id="89109-105">Toll-free dialing restrictions in Ireland</span></span>
+# <a name="toll-free-dialing-restrictions-in-ireland"></a><span data-ttu-id="8ce63-105">アイルランドでのフリーダイヤル制限</span><span class="sxs-lookup"><span data-stu-id="8ce63-105">Toll-free dialing restrictions in Ireland</span></span>
 
-<span data-ttu-id="89109-106">[別の国または地域を検索する](../toll-free-dialing-limitations-and-restrictions.md)には、フリー ダイヤルの制限事項と制限事項の詳細についてはまたはです。</span><span class="sxs-lookup"><span data-stu-id="89109-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="8ce63-106">[別の国または地域を検索する](../toll-free-dialing-limitations-and-restrictions.md)には、フリー ダイヤルの制限事項と制限事項の詳細についてはまたはです。</span><span class="sxs-lookup"><span data-stu-id="8ce63-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="89109-107">**詳細**</span><span class="sxs-lookup"><span data-stu-id="89109-107">**Details**</span></span>|<span data-ttu-id="89109-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="89109-108">**Description**</span></span>|
+|<span data-ttu-id="8ce63-107">**詳細**</span><span class="sxs-lookup"><span data-stu-id="8ce63-107">**Details**</span></span>|<span data-ttu-id="8ce63-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="8ce63-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="89109-109">呼び出し、利用可能なフリー ダイヤルですか。</span><span class="sxs-lookup"><span data-stu-id="89109-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="89109-110">あり</span><span class="sxs-lookup"><span data-stu-id="89109-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="89109-111">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="89109-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="89109-112">1 800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="89109-112">1 800 XXX XXX</span></span>  <br/> |
-|<span data-ttu-id="89109-113">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="89109-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="89109-114">IE</span><span class="sxs-lookup"><span data-stu-id="89109-114">IE</span></span>  <br/> |
-|<span data-ttu-id="89109-115">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="89109-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="89109-116">アイルランド共和国のすべてのオフショア諸島が対象。</span><span class="sxs-lookup"><span data-stu-id="89109-116">All offshore islands of the Republic of Ireland are covered.</span></span>  <br/> |
-|<span data-ttu-id="89109-117">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="89109-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="89109-118">該当しない</span><span class="sxs-lookup"><span data-stu-id="89109-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="89109-119">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="89109-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="89109-120">あり</span><span class="sxs-lookup"><span data-stu-id="89109-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="89109-121">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="89109-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="89109-122">あり</span><span class="sxs-lookup"><span data-stu-id="89109-122">Yes</span></span>  <br/> |
-|<span data-ttu-id="89109-123">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="89109-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="89109-124">Vodafone、O2 Digiphone、Meteor、H3G の携帯電話ネットワークからアクセス可能。</span><span class="sxs-lookup"><span data-stu-id="89109-124">Accessible through Vodafone,O2 Digiphone, Meteor, and H3G mobile networks.</span></span>  <br/> |
+|<span data-ttu-id="8ce63-109">呼び出し、利用可能なフリー ダイヤルですか。</span><span class="sxs-lookup"><span data-stu-id="8ce63-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="8ce63-110">あり</span><span class="sxs-lookup"><span data-stu-id="8ce63-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="8ce63-111">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="8ce63-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="8ce63-112">1 800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="8ce63-112">1 800 XXX XXX</span></span>  <br/> |
+|<span data-ttu-id="8ce63-113">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="8ce63-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="8ce63-114">IE</span><span class="sxs-lookup"><span data-stu-id="8ce63-114">IE</span></span>  <br/> |
+|<span data-ttu-id="8ce63-115">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="8ce63-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="8ce63-116">アイルランド共和国のすべてのオフショア諸島が対象。</span><span class="sxs-lookup"><span data-stu-id="8ce63-116">All offshore islands of the Republic of Ireland are covered.</span></span>  <br/> |
+|<span data-ttu-id="8ce63-117">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="8ce63-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="8ce63-118">該当しない</span><span class="sxs-lookup"><span data-stu-id="8ce63-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="8ce63-119">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="8ce63-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="8ce63-120">あり</span><span class="sxs-lookup"><span data-stu-id="8ce63-120">Yes</span></span>  <br/> |
+|<span data-ttu-id="8ce63-121">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="8ce63-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="8ce63-122">あり</span><span class="sxs-lookup"><span data-stu-id="8ce63-122">Yes</span></span>  <br/> |
+|<span data-ttu-id="8ce63-123">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="8ce63-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="8ce63-124">Vodafone、O2 Digiphone、Meteor、H3G の携帯電話ネットワークからアクセス可能。</span><span class="sxs-lookup"><span data-stu-id="8ce63-124">Accessible through Vodafone,O2 Digiphone, Meteor, and H3G mobile networks.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="89109-125">関連トピック</span><span class="sxs-lookup"><span data-stu-id="89109-125">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="8ce63-125">関連トピック</span><span class="sxs-lookup"><span data-stu-id="8ce63-125">Related topics</span></span>
 
-[<span data-ttu-id="89109-126">フリー ダイヤルの制限事項と制限事項</span><span class="sxs-lookup"><span data-stu-id="89109-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="8ce63-126">フリー ダイヤルの制限事項と制限事項</span><span class="sxs-lookup"><span data-stu-id="8ce63-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="89109-127">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="89109-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[<span data-ttu-id="8ce63-127">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="8ce63-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
   
  

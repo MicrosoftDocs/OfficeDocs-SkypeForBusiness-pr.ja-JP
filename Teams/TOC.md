@@ -126,6 +126,7 @@
 ## [チュートリアル: Teams での会議](Tutorial-Meetings-in-Teams.yml)
 ## [会議ポリシーを管理する](meeting-policies-in-teams.md)
 ## [会議の設定を管理します。](meeting-settings-in-teams.md)
+## [会議出席依頼をカスタマイズする](customize-meeting-invitations-in-teams.md)
 ## [ユーザーの設定を変更したときに送信されるメール](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [ユーザーが会議に参加するときに名前を記録できるようにする](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [会議の入退室通知をオンまたはオフにする](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
