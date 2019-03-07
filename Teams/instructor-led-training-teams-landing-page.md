@@ -1,19 +1,21 @@
 ---
 layout: HubPage
 hide_bc: true
-title: クラスルーム ・ トレーニングとマイクロソフト チームの管理者用のビデオ
+title: Microsoft Teams の講師主導のトレーニング
 description: については、マイクロソフトのチームのすべてのクラスのクラスルーム ・ トレーニングにサインアップします。
 author: dearbeen
 ms.topic: hub-page
 ms.author: dearbeen
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Training
-ms.openlocfilehash: 35b8a75e1c19acbe66e05c6d163b55cd4ab9f904
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.collection:
+- Teams_ITAdmin_Training
+- M365-collaboration
+ms.openlocfilehash: f3797407d02717109f1d8ab8b288cd68f9defe57
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349312"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461221"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -138,6 +140,44 @@ ms.locfileid: "29349312"
                                             <div class="cardText">
                                                 <h3>教育のウェビナーのチーム</h3>
                                                 <p>高等教育機関でのチームを使用する方法について説明します。 (対象ユーザー: スタッフ、学生、教育関係者、教職員、IT プロフェッショナルの調査)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image8.svg" alt="successful meeting" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>チーム会議を最適化します。</h3>
+                                                <p>、より前のバージョンの中に、チームを活用し、会議の経験を投稿する方法について説明します。 (対象ユーザー: エンド ・ ユーザー)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li> 
+                            <a href="https://microsoftteams.eventbuilder.com/FLW3">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image9.svg" alt="mobile user" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>チームの先頭行の作業者</h3>
+                                                <p>チームで新しくリリースされた先頭行の作業者の機能について説明します。 (対象ユーザー: エンド ・ ユーザー)</p>
                                             </div>
                                         </div>
                                     </div>

@@ -13,77 +13,79 @@ search.appverid: MET150
 description: Microsoft Teams は、ユーザーが  Outlook から Teams の会議をスケジュール設定することができるようになるアドインを Outlook にインストールします。
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a522a8c4eb3d37159a5b377db5d6e19442a202a
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: 1c0252d3bf8420711d67aec33aab1041cfe7eb1b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30210586"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463133"
 ---
-<a name="use-the-teams-meeting-add-in-in-outlook"></a><span data-ttu-id="e3399-103">Outlook で Teams の会議アドインを使用する</span><span class="sxs-lookup"><span data-stu-id="e3399-103">Use the Teams Meeting add-in in Outlook</span></span>
+<a name="use-the-teams-meeting-add-in-in-outlook"></a><span data-ttu-id="2c522-103">Outlook で Teams の会議アドインを使用する</span><span class="sxs-lookup"><span data-stu-id="2c522-103">Use the Teams Meeting add-in in Outlook</span></span>
 =======================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-<span data-ttu-id="e3399-104">Teams の会議アドインは、Microsoft Teams と Office 2013 または Office 2016 を自分の Windows PC にインストール済みのユーザーに対して、自動的にインストールされます。</span><span class="sxs-lookup"><span data-stu-id="e3399-104">The Teams Meeting add-in is automatically installed for users who have Microsoft Teams and either Office 2013 or Office 2016 installed on their Windows PC.</span></span> <span data-ttu-id="e3399-105">Teams の会議アドインは、ユーザーが使用する Outlook の [予定表] リボン上に表示されます。</span><span class="sxs-lookup"><span data-stu-id="e3399-105">Users will see the Teams Meeting add-in on the Outlook Calendar ribbon.</span></span> 
+<span data-ttu-id="2c522-104">Teams の会議アドインは、Microsoft Teams と Office 2013 または Office 2016 を自分の Windows PC にインストール済みのユーザーに対して、自動的にインストールされます。</span><span class="sxs-lookup"><span data-stu-id="2c522-104">The Teams Meeting add-in is automatically installed for users who have Microsoft Teams and either Office 2013 or Office 2016 installed on their Windows PC.</span></span> <span data-ttu-id="2c522-105">Teams の会議アドインは、ユーザーが使用する Outlook の [予定表] リボン上に表示されます。</span><span class="sxs-lookup"><span data-stu-id="2c522-105">Users will see the Teams Meeting add-in on the Outlook Calendar ribbon.</span></span> 
 
 ![Outlook リボン上の Teams アドインのスクリーンショット。](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
-> <span data-ttu-id="e3399-107">Windows 7 のユーザーは、作業をチームの会議アドインの[Windows でのユニバーサルの C ランタイムの更新プログラム](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)をインストールしなければなりません。</span><span class="sxs-lookup"><span data-stu-id="e3399-107">Windows 7 users must install the [Update for Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) for the Teams Meeting add-in to work.</span></span>
+> <span data-ttu-id="2c522-107">Windows 7 のユーザーは、作業をチームの会議アドインの[Windows でのユニバーサルの C ランタイムの更新プログラム](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)をインストールしなければなりません。</span><span class="sxs-lookup"><span data-stu-id="2c522-107">Windows 7 users must install the [Update for Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) for the Teams Meeting add-in to work.</span></span>
 
-<span data-ttu-id="e3399-108">Teams の会議アドインが表示されないユーザーに対しては、Outlook と Teams を閉じて、先に Teams クライアントを再起動してから Teams にサインインし、次に Outlook クライアントを再起動する操作を順に行うよう指示します。</span><span class="sxs-lookup"><span data-stu-id="e3399-108">If users do not see the Teams Meeting add-in, instruct them to close Outlook and Teams, then restart the Teams client first, then sign in to Teams, and then restart the Outlook client, in that specific order.</span></span>
+<span data-ttu-id="2c522-108">Teams の会議アドインが表示されないユーザーに対しては、Outlook と Teams を閉じて、先に Teams クライアントを再起動してから Teams にサインインし、次に Outlook クライアントを再起動する操作を順に行うよう指示します。</span><span class="sxs-lookup"><span data-stu-id="2c522-108">If users do not see the Teams Meeting add-in, instruct them to close Outlook and Teams, then restart the Teams client first, then sign in to Teams, and then restart the Outlook client, in that specific order.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e3399-109">Outlook 用の Teams の会議アドインは、現時点では Mac ユーザーは利用できません。</span><span class="sxs-lookup"><span data-stu-id="e3399-109">The Teams Meeting add-in for Outlook is currently not available for Mac users.</span></span>
+> <span data-ttu-id="2c522-109">Outlook 用の Teams の会議アドインは、現時点では Mac ユーザーは利用できません。</span><span class="sxs-lookup"><span data-stu-id="2c522-109">The Teams Meeting add-in for Outlook is currently not available for Mac users.</span></span>
 
-## <a name="authentication-requirements"></a><span data-ttu-id="e3399-110">認証要件</span><span class="sxs-lookup"><span data-stu-id="e3399-110">Authentication requirements</span></span>
+## <a name="authentication-requirements"></a><span data-ttu-id="2c522-110">認証要件</span><span class="sxs-lookup"><span data-stu-id="2c522-110">Authentication requirements</span></span>
 
-<span data-ttu-id="e3399-111">Teams の会議アドインでは、ユーザーが認証要件を使用して Teams にサインインすることが必要になります。</span><span class="sxs-lookup"><span data-stu-id="e3399-111">The Teams Meeting add-in requires users to sign in to Teams using Modern Authentication.</span></span> <span data-ttu-id="e3399-112">ユーザーがこの方法を使用せずにサインインしても、Teams クライアントを使用することはできますが、Outlook アドインを使用して Teams のオンライン会議をスケジュール設定することはできません。</span><span class="sxs-lookup"><span data-stu-id="e3399-112">If users do not use this method to sign in, they’ll still be able to use the Teams client, but will be unable to schedule Teams online meetings using the Outlook add-in.</span></span> <span data-ttu-id="e3399-113">これを修正するには、次のいずれかを実行します。</span><span class="sxs-lookup"><span data-stu-id="e3399-113">You can fix this by doing one of the following:</span></span>
+<span data-ttu-id="2c522-111">Teams の会議アドインでは、ユーザーが認証要件を使用して Teams にサインインすることが必要になります。</span><span class="sxs-lookup"><span data-stu-id="2c522-111">The Teams Meeting add-in requires users to sign in to Teams using Modern Authentication.</span></span> <span data-ttu-id="2c522-112">ユーザーがこの方法を使用せずにサインインしても、Teams クライアントを使用することはできますが、Outlook アドインを使用して Teams のオンライン会議をスケジュール設定することはできません。</span><span class="sxs-lookup"><span data-stu-id="2c522-112">If users do not use this method to sign in, they’ll still be able to use the Teams client, but will be unable to schedule Teams online meetings using the Outlook add-in.</span></span> <span data-ttu-id="2c522-113">これを修正するには、次のいずれかを実行します。</span><span class="sxs-lookup"><span data-stu-id="2c522-113">You can fix this by doing one of the following:</span></span>
 
-- <span data-ttu-id="e3399-114">先進認証が組織に対して構成されていない場合は、先進認証を構成します。</span><span class="sxs-lookup"><span data-stu-id="e3399-114">If Modern Authentication is not configured for your organization, you should configure Modern Authentication.</span></span>
-- <span data-ttu-id="e3399-115">先進認証が構成されていているのにダイアログ ボックスでユーザーが無効になってしまう場合は、それらのユーザーに対して多要素認証を使用してサインインし直すよう指示します。</span><span class="sxs-lookup"><span data-stu-id="e3399-115">If Modern Authentication is configured, but they cancelled out on the dialog box, you should instruct users to sign in again using multi-factor authentication.</span></span>
+- <span data-ttu-id="2c522-114">先進認証が組織に対して構成されていない場合は、先進認証を構成します。</span><span class="sxs-lookup"><span data-stu-id="2c522-114">If Modern Authentication is not configured for your organization, you should configure Modern Authentication.</span></span>
+- <span data-ttu-id="2c522-115">先進認証が構成されていているのにダイアログ ボックスでユーザーが無効になってしまう場合は、それらのユーザーに対して多要素認証を使用してサインインし直すよう指示します。</span><span class="sxs-lookup"><span data-stu-id="2c522-115">If Modern Authentication is configured, but they cancelled out on the dialog box, you should instruct users to sign in again using multi-factor authentication.</span></span>
 
-<span data-ttu-id="e3399-116">認証を構成する方法の詳細については、「[Microsoft Teams での ID モデルと認証](identify-models-authentication.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="e3399-116">To learn more about how to configure authentication, see [Identity models and authentication in Microsoft Teams](identify-models-authentication.md).</span></span>
+<span data-ttu-id="2c522-116">認証を構成する方法の詳細については、「[Microsoft Teams での ID モデルと認証](identify-models-authentication.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="2c522-116">To learn more about how to configure authentication, see [Identity models and authentication in Microsoft Teams](identify-models-authentication.md).</span></span>
 
-## <a name="enable-private-meetings"></a><span data-ttu-id="e3399-117">プライベート会議を有効にする</span><span class="sxs-lookup"><span data-stu-id="e3399-117">Enable private meetings</span></span>
+## <a name="enable-private-meetings"></a><span data-ttu-id="2c522-117">プライベート会議を有効にする</span><span class="sxs-lookup"><span data-stu-id="2c522-117">Enable private meetings</span></span>
 
-<span data-ttu-id="e3399-118">個人の会議のスケジュールを設定する必要がありますで有効にするプラグインの配置を取得するのにはマイクロソフトのチーム管理センターを使用できます。</span><span class="sxs-lookup"><span data-stu-id="e3399-118">Allow scheduling for private meetings must be enabled in the Microsoft Teams admin center for the plug-in to get deployed.</span></span> <span data-ttu-id="e3399-119">**会議**には、管理センターで、 > **ミーティングのポリシー**、し、 **[全般**] セクションで、表示または非表示**プライベートな会議のスケジュールを許可する**にします)。</span><span class="sxs-lookup"><span data-stu-id="e3399-119">In the admin center, go to **Meetings** > **Meeting Policies**, and in the **General** section, toggle **Allow scheduling private meetings** to On.)</span></span>
+<span data-ttu-id="2c522-118">個人の会議のスケジュールを設定する必要がありますで有効にするプラグインの配置を取得するのにはマイクロソフトのチーム管理センターを使用できます。</span><span class="sxs-lookup"><span data-stu-id="2c522-118">Allow scheduling for private meetings must be enabled in the Microsoft Teams admin center for the plug-in to get deployed.</span></span> <span data-ttu-id="2c522-119">**会議**には、管理センターで、 > **ミーティングのポリシー**、し、 **[全般**] セクションで、表示または非表示**プライベートな会議のスケジュールを許可する**にします)。</span><span class="sxs-lookup"><span data-stu-id="2c522-119">In the admin center, go to **Meetings** > **Meeting Policies**, and in the **General** section, toggle **Allow scheduling private meetings** to On.)</span></span>
 
 ![マイクロソフトのチームの管理センターの設定のスクリーン ショットです。](media/teams-add-in-for-outlook-image1.png)
 
-<span data-ttu-id="e3399-121">Teams クライアントはユーザーが必要としているのが 32 ビット版か 64 ビット版かを判断して正しいアドインをインストールします。</span><span class="sxs-lookup"><span data-stu-id="e3399-121">The Teams client installs the correct add-in by determining if users need the 32-bit or 64-bit version.</span></span>
+<span data-ttu-id="2c522-121">Teams クライアントはユーザーが必要としているのが 32 ビット版か 64 ビット版かを判断して正しいアドインをインストールします。</span><span class="sxs-lookup"><span data-stu-id="2c522-121">The Teams client installs the correct add-in by determining if users need the 32-bit or 64-bit version.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e3399-122">ユーザーは最新のアドインを利用できるようになるために Teams のインストールまたはアップグレード後に Outlook の再起動が必要になる可能性があります。</span><span class="sxs-lookup"><span data-stu-id="e3399-122">Users might need to restart Outlook after an installation or upgrade of Teams to get the latest add-in.</span></span>
+> <span data-ttu-id="2c522-122">ユーザーは最新のアドインを利用できるようになるために Teams のインストールまたはアップグレード後に Outlook の再起動が必要になる可能性があります。</span><span class="sxs-lookup"><span data-stu-id="2c522-122">Users might need to restart Outlook after an installation or upgrade of Teams to get the latest add-in.</span></span>
 
-## <a name="other-considerations"></a><span data-ttu-id="e3399-123">その他の考慮事項</span><span class="sxs-lookup"><span data-stu-id="e3399-123">Other considerations</span></span>
+## <a name="other-considerations"></a><span data-ttu-id="2c522-123">その他の考慮事項</span><span class="sxs-lookup"><span data-stu-id="2c522-123">Other considerations</span></span>
 
-<span data-ttu-id="e3399-124">Teams の会議アドインは継続して機能が開発されていますので、次について認識しておいてください。</span><span class="sxs-lookup"><span data-stu-id="e3399-124">The Teams Meeting add-in is still building functionality, so be aware of the following:</span></span>
-- <span data-ttu-id="e3399-125">記録、投票、ホワイトボードの使用などの、一部のオンライン会議の機能はまだ利用できません。</span><span class="sxs-lookup"><span data-stu-id="e3399-125">Some online meeting features, such as recording, polling, and whiteboarding are not yet available.</span></span>
-- <span data-ttu-id="e3399-126">会議のオプションは現時点では使用できません。</span><span class="sxs-lookup"><span data-stu-id="e3399-126">Meeting options are currently not available.</span></span>
-- <span data-ttu-id="e3399-127">現在のところ、会議に招待できるのは自分の会社内のユーザーのみで、外部ユーザーは会議に参加することができません。</span><span class="sxs-lookup"><span data-stu-id="e3399-127">Currently, you can only invite people from within your company, as it is not yet possible for external users to join meetings.</span></span>
-- <span data-ttu-id="e3399-128">このアドインは、特定の参加者でスケジュール設定された会議向けで、チャネル内の会議向けではありません。</span><span class="sxs-lookup"><span data-stu-id="e3399-128">The add-in is for scheduled meetings with specific participants, not for meetings in a channel.</span></span> <span data-ttu-id="e3399-129">チャネル会議は Teams 内でスケジュール設定される必要があります。</span><span class="sxs-lookup"><span data-stu-id="e3399-129">Channel meetings must be scheduled from within Teams.</span></span> <span data-ttu-id="e3399-130">現在、Outlook の Teams の会議アドインを利用できるのは Windows ユーザーのみですが、Mac 向けのサポートも近日中に予定されています。</span><span class="sxs-lookup"><span data-stu-id="e3399-130">Currently, the Teams Meeting add-in in Outlook is only available for Windows users, but support for Mac is coming.</span></span>
-- <span data-ttu-id="e3399-131">認証プロキシがユーザーの PC および Teams サービスのネットワーク パス内にある場合、アドインは機能しません。</span><span class="sxs-lookup"><span data-stu-id="e3399-131">The add-in will not work if an Authentication Proxy is in the network path of user's PC and Teams Services.</span></span>
-- <span data-ttu-id="e3399-132">アドインを段階的ロールアウトされているが、組織にまだ利用できない可能性があります。</span><span class="sxs-lookup"><span data-stu-id="e3399-132">The add-in is being rolled out incrementally and might not be available for your organization yet.</span></span>
+<span data-ttu-id="2c522-124">Teams の会議アドインは継続して機能が開発されていますので、次について認識しておいてください。</span><span class="sxs-lookup"><span data-stu-id="2c522-124">The Teams Meeting add-in is still building functionality, so be aware of the following:</span></span>
+- <span data-ttu-id="2c522-125">記録、投票、ホワイトボードの使用などの、一部のオンライン会議の機能はまだ利用できません。</span><span class="sxs-lookup"><span data-stu-id="2c522-125">Some online meeting features, such as recording, polling, and whiteboarding are not yet available.</span></span>
+- <span data-ttu-id="2c522-126">会議のオプションは現時点では使用できません。</span><span class="sxs-lookup"><span data-stu-id="2c522-126">Meeting options are currently not available.</span></span>
+- <span data-ttu-id="2c522-127">現在のところ、会議に招待できるのは自分の会社内のユーザーのみで、外部ユーザーは会議に参加することができません。</span><span class="sxs-lookup"><span data-stu-id="2c522-127">Currently, you can only invite people from within your company, as it is not yet possible for external users to join meetings.</span></span>
+- <span data-ttu-id="2c522-128">このアドインは、特定の参加者でスケジュール設定された会議向けで、チャネル内の会議向けではありません。</span><span class="sxs-lookup"><span data-stu-id="2c522-128">The add-in is for scheduled meetings with specific participants, not for meetings in a channel.</span></span> <span data-ttu-id="2c522-129">チャネル会議は Teams 内でスケジュール設定される必要があります。</span><span class="sxs-lookup"><span data-stu-id="2c522-129">Channel meetings must be scheduled from within Teams.</span></span> <span data-ttu-id="2c522-130">現在、Outlook の Teams の会議アドインを利用できるのは Windows ユーザーのみですが、Mac 向けのサポートも近日中に予定されています。</span><span class="sxs-lookup"><span data-stu-id="2c522-130">Currently, the Teams Meeting add-in in Outlook is only available for Windows users, but support for Mac is coming.</span></span>
+- <span data-ttu-id="2c522-131">認証プロキシがユーザーの PC および Teams サービスのネットワーク パス内にある場合、アドインは機能しません。</span><span class="sxs-lookup"><span data-stu-id="2c522-131">The add-in will not work if an Authentication Proxy is in the network path of user's PC and Teams Services.</span></span>
+- <span data-ttu-id="2c522-132">アドインを段階的ロールアウトされているが、組織にまだ利用できない可能性があります。</span><span class="sxs-lookup"><span data-stu-id="2c522-132">The add-in is being rolled out incrementally and might not be available for your organization yet.</span></span>
 
-## <a name="troubleshooting"></a><span data-ttu-id="e3399-133">トラブルシューティング</span><span class="sxs-lookup"><span data-stu-id="e3399-133">Troubleshooting</span></span>
+## <a name="troubleshooting"></a><span data-ttu-id="2c522-133">トラブルシューティング</span><span class="sxs-lookup"><span data-stu-id="2c522-133">Troubleshooting</span></span>
 
-<span data-ttu-id="e3399-134">アドインをインストールするのには Outlook のチーム会議出席できない場合は、これらのトラブルシューティング手順を実行してください。</span><span class="sxs-lookup"><span data-stu-id="e3399-134">If you cannot get the Teams Meeting add-in for Outlook to install, try these troubleshooting steps.</span></span>
+<span data-ttu-id="2c522-134">アドインをインストールするのには Outlook のチーム会議出席できない場合は、これらのトラブルシューティング手順を実行してください。</span><span class="sxs-lookup"><span data-stu-id="2c522-134">If you cannot get the Teams Meeting add-in for Outlook to install, try these troubleshooting steps.</span></span>
 
-- <span data-ttu-id="e3399-135">Outlook デスクトップ クライアントのすべての利用可能な更新プログラムが適用されていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="e3399-135">Ensure all available updates for Outlook desktop client have been applied</span></span> 
-- <span data-ttu-id="e3399-136">チームのデスクトップ クライアントを再起動します。</span><span class="sxs-lookup"><span data-stu-id="e3399-136">Restart the Teams desktop client.</span></span>
-- <span data-ttu-id="e3399-137">サインアウトして、チームのデスクトップ クライアントにもう一度サインインします。</span><span class="sxs-lookup"><span data-stu-id="e3399-137">Sign out and then sign back in to the Teams desktop client.</span></span>
-- <span data-ttu-id="e3399-138">Outlook デスクトップ クライアントを再起動します。</span><span class="sxs-lookup"><span data-stu-id="e3399-138">Restart the Outlook desktop client.</span></span> <span data-ttu-id="e3399-139">(Outlook は、管理者モードで実行されていないことを確認してください。)</span><span class="sxs-lookup"><span data-stu-id="e3399-139">(Make sure Outlook isn’t running in admin mode.)</span></span>
-- <span data-ttu-id="e3399-140">ログインしているユーザー アカウント名にスペースが含まれていないことを確認します。</span><span class="sxs-lookup"><span data-stu-id="e3399-140">Make sure the logged-in user account name does not contain spaces.</span></span> <span data-ttu-id="e3399-141">(これは既知の問題、今後のアップデートで修正される予定)</span><span class="sxs-lookup"><span data-stu-id="e3399-141">(This is a known issue, and will be fixed in a future update.)</span></span>
-- <span data-ttu-id="e3399-142">シングル サインオン (SSO) が有効になっていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="e3399-142">Make sure single sign-on (SSO) is enabled.</span></span>
+- <span data-ttu-id="2c522-135">Outlook デスクトップ クライアントのすべての利用可能な更新プログラムが適用されていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="2c522-135">Ensure all available updates for Outlook desktop client have been applied</span></span> 
+- <span data-ttu-id="2c522-136">チームのデスクトップ クライアントを再起動します。</span><span class="sxs-lookup"><span data-stu-id="2c522-136">Restart the Teams desktop client.</span></span>
+- <span data-ttu-id="2c522-137">サインアウトして、チームのデスクトップ クライアントにもう一度サインインします。</span><span class="sxs-lookup"><span data-stu-id="2c522-137">Sign out and then sign back in to the Teams desktop client.</span></span>
+- <span data-ttu-id="2c522-138">Outlook デスクトップ クライアントを再起動します。</span><span class="sxs-lookup"><span data-stu-id="2c522-138">Restart the Outlook desktop client.</span></span> <span data-ttu-id="2c522-139">(Outlook は、管理者モードで実行されていないことを確認してください。)</span><span class="sxs-lookup"><span data-stu-id="2c522-139">(Make sure Outlook isn’t running in admin mode.)</span></span>
+- <span data-ttu-id="2c522-140">ログインしているユーザー アカウント名にスペースが含まれていないことを確認します。</span><span class="sxs-lookup"><span data-stu-id="2c522-140">Make sure the logged-in user account name does not contain spaces.</span></span> <span data-ttu-id="2c522-141">(これは既知の問題、今後のアップデートで修正される予定)</span><span class="sxs-lookup"><span data-stu-id="2c522-141">(This is a known issue, and will be fixed in a future update.)</span></span>
+- <span data-ttu-id="2c522-142">シングル サインオン (SSO) が有効になっていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="2c522-142">Make sure single sign-on (SSO) is enabled.</span></span>
 
-<span data-ttu-id="e3399-143">アドインを無効にする方法につぃての全般的なガイドラインについては、「[Office プログラムでアドインを表示、管理、インストールする](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="e3399-143">For general guidance about how to disable add-ins, see [View, manage, and install add-ins in Office programs](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).</span></span>
+<span data-ttu-id="2c522-143">アドインを無効にする方法につぃての全般的なガイドラインについては、「[Office プログラムでアドインを表示、管理、インストールする](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="2c522-143">For general guidance about how to disable add-ins, see [View, manage, and install add-ins in Office programs](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).</span></span>
 
-<span data-ttu-id="e3399-144">Microsoft Teams での会議と通話については[こちら](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="e3399-144">Learn more about [meetings and calling in Microsoft Teams](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).</span></span>
+<span data-ttu-id="2c522-144">Microsoft Teams での会議と通話については[こちら](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="2c522-144">Learn more about [meetings and calling in Microsoft Teams](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).</span></span>
 
 [!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
 
