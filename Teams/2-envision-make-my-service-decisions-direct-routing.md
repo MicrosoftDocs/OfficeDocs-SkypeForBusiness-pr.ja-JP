@@ -1,5 +1,5 @@
 ---
-title: 決定を下す電話システムの直接のルーティング サービスをマイクロソフトのチーム
+title: 電話システムのダイレクト ルーティング サービスに関する決定を行う - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: については直接ルーティングでは、ライセンス、および意思決定をする必要があります。
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d79b6e0423ddb94b29a9d82ea1e6d6d1f173cf3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 4e0597444b9f46d9ac3761ef42a4817a5db5117f
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374443"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462741"
 ---
 # <a name="make-my-service-decisions"></a>[サービスの決定を行う
 
@@ -47,12 +49,12 @@ PSTN への接続を有効にするには、ことができますルーティン
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>ユーザーの所在地、またはオフィスの電話システムを実装することを識別します。<li>ある場合、それぞれの場所の計画を呼び出すか、直接ルーティングを有効にしようとするユーザーを識別します。</ul>|
-|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>ユーザーの所在地、またはオフィスの電話システムを有効にするを文書化します。<li>ある場合、それぞれの場所の計画を呼び出すか、直接ルーティングを有効にしようとするユーザーの一覧を文書化します。</ul>|
+|<img src="media/audio_conferencing_image9.png" />|次の手順|<ul><li>ユーザーの所在地、またはオフィスの電話システムを有効にするを文書化します。<li>ある場合、それぞれの場所の計画を呼び出すか、直接ルーティングを有効にしようとするユーザーの一覧を文書化します。</ul>|
 
 > [!TIP]
 > サイト対応の直接ルーティングの一覧の例を次に示します。
 > 
-> | **事業所**                     | **場所**   | **電話システム サービス** |
+> | **Office**                     | **場所**   | **電話システム サービス** |
 > |--------------------------------|----------------|--------------------------|
 > | One Epping Road                | オーストラリア      | 旧 PSTN サービス |
 > | 100 Cyberport Road             | 香港特別自治区  | 電話システムの直接のルーティング |
@@ -87,14 +89,14 @@ PSTN への接続を有効にするには、ことができますルーティン
 
 Azure ボイスメール サービス、電源、電話システムのボイスメール ボイスメール出金のみの Exchange メールボックスをサポートしています、サード ・ パーティ製の電子メール システムをサポートしていません。
 
-電話システムのボイスメールはボイスメールの議事録作成機能を備えています。この機能は組織のすべてのユーザーに対して既定で有効になっています。 ビジネス ニーズは、特定のユーザーまたは組織全体のすべてのユーザーのボイスメールの議事録作成を無効にする必要があります。 ボイスメールの議事録作成を有効にする場合、組織は、ボイスメールの議事録の不適切なマスキングを有効にする必要かどうかについても考慮する必要があります。 詳細については[、組織内のボイス メール ポリシーの設定](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail)を参照してください。
+電話システムのボイスメールはボイスメールの議事録作成機能を備えています。この機能は組織のすべてのユーザーに対して既定で有効になっています。 ビジネス ニーズは、特定のユーザーまたは組織全体のすべてのユーザーのボイスメールの議事録作成を無効にする必要があります。 ボイスメールの議事録作成を有効にする場合、組織は、ボイスメールの議事録の不適切なマスキングを有効にする必要かどうかについても考慮する必要があります。 詳細については[、組織内のボイス メール ポリシーの設定](set-up-phone-system-voicemail.md)を参照してください。
 
-電話システムの実装でボイスメールの詳細については、[電話システムのボイス メールの設定](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail)を参照してください。
+電話システムの実装でボイスメールの詳細については、[電話システムのボイス メールの設定](set-up-phone-system-voicemail.md)を参照してください。
 
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>直接ルーティングの実装では、電話システムのボイス メールを有効にするかどうかを決定します。<li>有効にするまたはボイスメールの議事録と、組織全体または特定のユーザーのボイスメールの議事録不適切なマスキングを無効にするかどうかを決定します。</ul>|
-|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>該当する場合は、ボイスメールの電話システムをサポートするための意思決定ポイントを文書化します。<li>有効にしたり、ボイス メール、ボイスメールの議事録、およびボイスメールの議事録の不適切なマスキング特定のユーザーに対してのみ無効にする場合、は、ユーザーの一覧を文書化します。</ul>|
+|<img src="media/audio_conferencing_image9.png" />|次の手順|<ul><li>該当する場合は、ボイスメールの電話システムをサポートするための意思決定ポイントを文書化します。<li>有効にしたり、ボイス メール、ボイスメールの議事録、およびボイスメールの議事録の不適切なマスキング特定のユーザーに対してのみ無効にする場合、は、ユーザーの一覧を文書化します。</ul>|
 
 > [!TIP]
 > 計画を呼び出す実装の電話システムのボイス メールの詳細は、次の表に示すように文書化することができます。
@@ -109,15 +111,13 @@ Azure ボイスメール サービス、電源、電話システムのボイス�
 > | Isabell Potvin   | オンプレミス          | はい                   | 無効                    | 該当なし                                           |
 > 
 > [!NOTE]
-> チームとボイスメールを使用するには、ユーザーの Exchange メールボックスが必要です。 詳細については、[どの Exchange と対話するマイクロソフトのチーム](https://docs.microsoft.com/microsoftteams/exchange-teams-interact)を参照してください。
+> チームとボイスメールを使用するには、ユーザーの Exchange メールボックスが必要です。 詳細については、[どの Exchange と対話するマイクロソフトのチーム](exchange-teams-interact.md)を参照してください。
 
 <!--ENDOFSECTION-->
 
 ## <a name="licensing-for-direct-routing"></a>直接ルーティングするためのライセンス
 
 組織が直接ルーティングを使用しようとすると場合、は、必要なライセンスを取得する必要があります。 直接ルーティングのユーザーには、次のライセンスの Office 365 に割り当てられている必要があります。
-
-
 
 -   マイクロソフトの電話システム
 
@@ -129,18 +129,18 @@ Azure ボイスメール サービス、電源、電話システムのボイス�
 
 
 > [!NOTE]
-> 無料電話会議ブリッジの電話番号を指定し、会議の国際電話番号にダイアル アウトをサポートするためは、組織の[通信のクレジット](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)を設定する必要があります。
+> 無料電話会議ブリッジの電話番号を指定し、会議の国際電話番号にダイアル アウトをサポートするためは、組織の[通信のクレジット](what-are-communications-credits.md)を設定する必要があります。
 
 オーディオ会議や電話システムは、Office 365 の E3 または E1 サブスクリプション計画している既存のお客様向けのアドオン サービスとして個別にライセンスことができます。既に Office 365 の E5 のサブスクリプションの計画の一部として含まれています。
 
 > [!TIP]
-> また、サード パーティの Pbx に呼び出しをルーティングするときに計画を呼び出すことは有効になっているユーザーの直接ルーティングを使用することもできます。 詳細については、[使用許諾契約との直接のルーティングには、その他の要件](https://docs.microsoft.com/microsoftteams/direct-routing-plan#licensing-and-other-requirements)を参照してください。
+> また、サード パーティの Pbx に呼び出しをルーティングするときに計画を呼び出すことは有効になっているユーザーの直接ルーティングを使用することもできます。 詳細については、[使用許諾契約との直接のルーティングには、その他の要件](direct-routing-plan.md#licensing-and-other-requirements)を参照してください。
 
 
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>組織には、必要な電話システムのライセンスが割り当てられていない、または電話システムのアドオン サービスを入手することで、既存の Office 365 サブスクリプションをステップ実行して、電話システムのライセンスを習得していただくことがあるかどうかを決定します。<li>直接ルーティングを実装するための通信のクレジットする必要があるかどうかを決定します。</ul>|
-|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>電話システムのライセンスを割り当てる部署、部門、オフィス、またはユーザーのグループを文書化します。<li>フリー ダイヤル番号に電話会議がスコープ内にある場合は、クレジットの通信を有効にします、部門、部門、オフィス、またはユーザー グループを文書化します。</ul>|
+|<img src="media/audio_conferencing_image9.png" />|次の手順|<ul><li>電話システムのライセンスを割り当てる部署、部門、オフィス、またはユーザーのグループを文書化します。<li>フリー ダイヤル番号に電話会議がスコープ内にある場合は、クレジットの通信を有効にします、部門、部門、オフィス、またはユーザー グループを文書化します。</ul>|
 
 <!--ENDOFSECTION-->
 
@@ -155,13 +155,13 @@ Office 365 テナントする必要がありますを有効にする 1 つまた
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>すべてのユーザーが直接ルーティングをサポートするためにオンライン ビジネスの Skype に移行する必要があるかどうかを決定します。<li>チームを有効にする必要があるユーザーを識別します。</ul>|
-|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>Skype ビジネスをオンラインに移動し、チームを有効にする必要があるユーザーの一覧を文書化します。</ul>|
+|<img src="media/audio_conferencing_image9.png" />|次の手順|<ul><li>Skype ビジネスをオンラインに移動し、チームを有効にする必要があるユーザーの一覧を文書化します。</ul>|
 
 <!--ENDOFSECTION-->
 
 ## <a name="sbc-considerations"></a>SBC の考慮事項
 
-認定およびサポートされているセッション ボーダー コント ローラー (SBCs) は対にして、直接ルーティング サービスをユーザーに PSTN 接続を提供する必要があるを使用する必要があります。 認定 SBCs のリストは、[サポートされているセッション ボーダー コント ローラー](https://docs.microsoft.com/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs)を参照してください。
+認定およびサポートされているセッション ボーダー コント ローラー (SBCs) は対にして、直接ルーティング サービスをユーザーに PSTN 接続を提供する必要があるを使用する必要があります。 認定 SBCs のリストは、[サポートされているセッション ボーダー コント ローラー](direct-routing-plan.md#supported-session-border-controllers-sbcs)を参照してください。
 
 環境、場所、および音声ルーティングの要件の数に応じて、ユーザー ベースをサポートするために複数の SBCs を配置する必要があります。
 
@@ -179,7 +179,7 @@ Office 365 テナントする必要がありますを有効にする 1 つまた
 > [!NOTE]
 > SBCs でワイルドカード証明書の使用もサポートします。
 
-およびサポートされている証明機関の一覧の詳細については[、SBC の信頼された証明書の公開](https://docs.microsoft.com/microsoftteams/direct-routing-plan#public-trusted-certificate-for-the-sbc)を参照してください。
+およびサポートされている証明機関の一覧の詳細については[、SBC の信頼された証明書の公開](direct-routing-plan.md#public-trusted-certificate-for-the-sbc)を参照してください。
 
 
 ### <a name="sbc-ip-addresses-and-ports"></a>SBC の IP アドレスとポート
@@ -190,7 +190,7 @@ SBCs シグナリングとメディアのクラウド サービスとの通信�
 
 SIP シグナリングとメディアの各 SBC の特定のポート番号を定義し、これらのポートと関連付けられた IP アドレスへの双方向のトラフィックを許可するようにファイアウォールを構成する必要があります。
 
-詳細についてを参照してください[SIP シグナリング: Fqdn およびファイアウォールのポート](https://docs.microsoft.com/microsoftteams/direct-routing-plan#sip-signaling-fqdns-and-firewall-ports)および[メディア トラフィック: ポート範囲を](https://docs.microsoft.com/microsoftteams/direct-routing-plan#media-traffic-port-ranges)。
+詳細についてを参照してください[SIP シグナリング: Fqdn およびファイアウォールのポート](direct-routing-plan.md#sip-signaling-fqdns-and-firewall-ports)および[メディア トラフィック: ポート範囲を](direct-routing-plan.md#media-traffic-port-ranges)。
 
 
 > [!NOTE]
@@ -199,7 +199,7 @@ SIP シグナリングとメディアの各 SBC の特定のポート番号を�
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>場所 SBCs を配置することを決定します。<li>展開しようとしている各 SBC の DNS 名を決定します。<li>SBC ドメイン名の決定に基づき、配置内のすべて SBCs をサポートするためにワイルドカード証明書または SBC あたり専用の証明書を使用することかどうかを決定します。<li>どのパブリック証明機関から、SBCs の証明書を取得しますかを決定します。<li>展開、および、半角英数字にパブリック IP アドレスを割り当てるまたは NAT を使用するかどうかを決定するが、各 SBC のパブリック IP アドレスとポートのペアを定義します。<li>各 SBC をサポートする同時セッションの最大数を識別するかを処理できます。<li>SBCs は、メディア バイ パスを使用して構成を決定します。</ul>|
-|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>各意思決定が行われました、SBCs の次の表を使用して文書化します。</ul>|
+|<img src="media/audio_conferencing_image9.png" />|次の手順|<ul><li>各意思決定が行われました、SBCs の次の表を使用して文書化します。</ul>|
 
 
 > [!TIP]
@@ -207,9 +207,9 @@ SIP シグナリングとメディアの各 SBC の特定のポート番号を�
 > 
 > | **SBC の DNS 名 (FQDN)** | **SBC の製造元とモデル** | **証明書** | **場所**  | **IP アドレス** | **SIP ポートのシグナル** | **NAT ですか。** | **最大同時セッション数** | **メディアのバイパスが有効になっているでしょうか。** |
 > |-------------------------|------------------------|-----------------|---------------|----------------|------------------------|----------|-----------------------------|---------------------------|
-> | SBC Europe.contoso.com | 未定 | \*。 contoso.com | アムステルダム | 未定 | 未定 | あり | 未定 | なし |
-> | SBC Asia.contoso.com | 未定 | \*。 contoso.com | Hong Kong SAR (香港特別行政區) | 未定 | 未定 | なし | 未定 | あり |
-> | SBC Africa.contoso.com | 未定 | \*。 contoso.com | ヨハネスブルグ | 未定 | 未定 | あり | 未定 | あり |
+> | SBC Europe.contoso.com | TBD | \*。 contoso.com | アムステルダム | TBD | TBD | あり | TBD | 不要 |
+> | SBC Asia.contoso.com | TBD | \*。 contoso.com | Hong Kong SAR (香港特別行政區) | TBD | TBD | 不要 | TBD | あり |
+> | SBC Africa.contoso.com | TBD | \*。 contoso.com | ヨハネスブルグ | TBD | TBD | あり | TBD | あり |
 
 <!--ENDOFSECTION-->
 
@@ -240,7 +240,7 @@ SIP シグナリングとメディアの各 SBC の特定のポート番号を�
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>音声ポリシー、PSTN 使用法、およびボイス ルートを作成するをサポート ユーザーの所在地、または直接ルーティングの実装のスコープ内のオフィスにルーティングを決定します。</ul>|
-|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>音声ルーティング ポリシー、PSTN 使用法、および組織のボイス ルートを文書化します。<li>各音声ルーティング ポリシーを定義するために割り当てられるユーザーを文書化します。</ul>|
+|<img src="media/audio_conferencing_image9.png" />|次の手順|<ul><li>音声ルーティング ポリシー、PSTN 使用法、および組織のボイス ルートを文書化します。<li>各音声ルーティング ポリシーを定義するために割り当てられるユーザーを文書化します。</ul>|
 
 > [!TIP]
 > 直接ルーティングを展開するための音声ポリシーを文書化するのにには、次のテンプレートを使用します。
@@ -270,18 +270,18 @@ SIP シグナリングとメディアの各 SBC の特定のポート番号を�
 
 -   優先呼び出し側のクライアントとして、TeamsCallingPolicy と、TeamsInteropPolicy を割り当てることによってチームを構成します。
 
-詳細については、[マイクロソフトのチームを優先設定は、ユーザーのクライアントを呼び出す](https://docs.microsoft.com/microsoftteams/direct-routing-configure#set-microsoft-teams-as-the-preferred-calling-client-for-the-users)を参照してください。
+詳細については、[マイクロソフトのチームを優先設定は、ユーザーのクライアントを呼び出す](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users)を参照してください。
 
 
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>チームに推奨されるクライアントの呼び出しの設定に使用する方法を決定します。</ul>|
-|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>相互運用機能と通話のポリシーを構成するユーザーを文書化します。</ul>|
+|<img src="media/audio_conferencing_image9.png" />|次の手順|<ul><li>相互運用機能と通話のポリシーを構成するユーザーを文書化します。</ul>|
 
 > [!IMPORTANT]
 > チーム専用のモードのユーザーを構成する場合は、このユーザーは不要になったビジネスの Skype にサインインします。
 
-チーム クライアントの [通話] タブを参照してください、ユーザーを表示するには、有効にするプライベート テナントの組織レベルで呼び出すこと。 秘密の呼び出しを有効にする方法の詳細については、[マイクロソフトのチームの呼び出しを有効にする](https://docs.microsoft.com/microsoftteams/direct-routing-configure#enable-calling-for-microsoft-teams)を参照してください。
+チーム クライアントの [通話] タブを参照してください、ユーザーを表示するには、有効にするプライベート テナントの組織レベルで呼び出すこと。 秘密の呼び出しを有効にする方法の詳細については、[マイクロソフトのチームの呼び出しを有効にする](direct-routing-configure.md)を参照してください。
 
 
 <!--ENDOFSECTION-->

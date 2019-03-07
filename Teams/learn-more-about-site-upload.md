@@ -9,18 +9,20 @@ ms.service: msteams
 ms.reviewer: ''
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: サイトにアップロードする方法をについて説明します。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9f9c093e7a80a7f4f3165f58cd6dc34f532ab7e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5267f419fd61bd492a904dd358b930e2d55d6b1b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017416"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462637"
 ---
 <a name="adding-and-updating-locations-data"></a>追加して、場所データを更新します。
 ============================
@@ -45,10 +47,10 @@ ms.locfileid: "25017416"
 
 |ネットワーク|ネットワーク名|ネットワークの範囲|建物の名前|所有権の種類|建物の種類|Office タイプの建物|市区町村|郵便番号|国|都道府県|Region|内側株式会社|高速ルート|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|10.0.128.0 |SVC-1|32|USCAMTV001|Contoso 社のリース RE & F|事業所|RE & F|マウンテン ビュー|94043|ご|CA|ご|1|1|
-|10.0.130.0 |SVC-1|32|USCAMTV001|Contoso 社のリース RE & F|事業所|RE & F|マウンテン ビュー|94043|ご|CA|ご|1|1|
-|10.0.131.0 |SVC-1|32|USCAMTV001|Contoso 社のリース RE & F|事業所|RE & F|マウンテン ビュー|94043|ご|CA|ご|1|1|
-|10.0.132.0 |SVC-1|32|USCAMTV001|Contoso 社のリース RE & F|事業所|RE & F|マウンテン ビュー|94043|ご|CA|ご|1|1|
+|10.0.128.0 |SVC-1|32|USCAMTV001|Contoso 社専用の RE&F|Office|RE&F|マウンテン ビュー|94043|ご|CA|ご|1|1|
+|10.0.130.0 |SVC-1|32|USCAMTV001|Contoso 社専用の RE&F|Office|RE&F|マウンテン ビュー|94043|ご|CA|ご|1|1|
+|10.0.131.0 |SVC-1|32|USCAMTV001|Contoso 社専用の RE&F|Office|RE&F|マウンテン ビュー|94043|ご|CA|ご|1|1|
+|10.0.132.0 |SVC-1|32|USCAMTV001|Contoso 社専用の RE&F|Office|RE&F|マウンテン ビュー|94043|ご|CA|ご|1|1|
 
 
 データ ファイルの書式設定の詳細については、[テナントのデータ ファイルの形式とデータ ファイルの構造を構築](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-building-data-file-structure)を参照してください。
@@ -56,4 +58,4 @@ ms.locfileid: "25017416"
 
 ## <a name="related-topics"></a>関連トピック
 
-[分析機能の呼び出しを設定します](set-up-call-analytics.md)
+[通話分析をセットアップする](set-up-call-analytics.md)

@@ -12,7 +12,7 @@ ms.service:
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Teams を使用して会議の開催者がダイヤルアウトするために何が必要か、およびその方法について説明します。
-ms.openlocfilehash: 3a06019f942a5fb670b7ed24ea23ccb77ed238f7
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 17b066aefdd6dc41a55a41e7db1265ba6eebeb6b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120853"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464733"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>他のユーザーが参加できるように Microsoft Teams 会議からダイヤル アウトする
 
@@ -61,4 +61,4 @@ ms.locfileid: "30120853"
 
 [Office 365 での電話会議を使用または購入する](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
-[マイクロソフト チーム アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+[Microsoft Teams アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

@@ -5,23 +5,24 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 ms.reviewer: sonua
 search.appverid: MET150
 description: Microsoft Teams での Cloud Voice の機能の展開についての実践的なガイダンス
-MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f773c88c16f77e6879adb29852514ef7548790fa
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 93ab7201d96fe337cbdc1c0bbf89f9eab3006d91
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754753"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463093"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議の記録
 
-マイクロソフトのチームで、ユーザーは、チームの会議やオーディオ、ビデオ、およびアクティビティを共有する画面のキャプチャ グループの呼び出しを記録できます。 自動の議事録を記録するためのオプションをユーザーがクローズド キャプションおよび重要なディスカッション アイテムの検索とのミーティングのレコーディングで再生、トラン スクリプトです。 録音では、クラウドでの動作し、ユーザーを共有できるように、安全に組織全体に、[マイクロソフトのストリーム](https://docs.microsoft.com/stream/)に保存されます。
+マイクロソフトのチームで、ユーザーは、チームの会議やオーディオ、ビデオ、およびアクティビティを共有する画面のキャプチャ グループの呼び出しを記録できます。 自動的に文字起こしする記録のオプションもあるため、ユーザーはミーティングの記録を字幕付きで再生して、会議内容の重要な議題を検索できます。 録音では、クラウドでの動作し、ユーザーを共有できるように、安全に組織全体に、[マイクロソフトのストリーム](https://docs.microsoft.com/stream/)に保存されます。
 
 関連:[エンド ・ ユーザーのドキュメントを記録、チーム会議](https://aka.ms/recordmeeting)
 

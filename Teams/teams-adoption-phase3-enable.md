@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: 組織のチームの広範なスケールの有効化をサポートする方法について説明します。
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ee818cff9e70e4baf2dba1dad07a9b1b1bdbec1
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: be3b5a7510c76dcb56db638a4728021146ec1658
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699679"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462325"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Microsoft Teams の導入段階 3 - 規模
 
@@ -33,6 +35,6 @@ ms.locfileid: "26699679"
 5. 設計し、トレーニング プログラムを起動します。
 6. レポート作成ツールを理解します。
 7. 継続的なビジネス活動を準備します。
-8. 健康と採用のレビューを継続的なサービスを準備します。
+8. 継続的なサービスの稼働状態の & 採用のレビューを準備します。
 
 ![次の手順を実行アイコン](media/teams-adoption-next-icon.png)次:[を定義する成果と成功](teams-adoption-define-outcomes.md)

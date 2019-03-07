@@ -9,15 +9,17 @@ ms.reviewer: snigdhav
 description: Office 365 の OneDrive と SharePoint のオンライン マルチが地域で有効なテナントでチームを使用する方法について説明します。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a780e0f44e7159d9bb2993ec62d4fd679b5e893
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 01b93b67125693487e07fce824c01dbd5e955294
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017746"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462629"
 ---
 <a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>チームが、Office 365 の OneDrive と SharePoint のオンライン マルチが地域で有効なテナントの経験します。
 ===========================================

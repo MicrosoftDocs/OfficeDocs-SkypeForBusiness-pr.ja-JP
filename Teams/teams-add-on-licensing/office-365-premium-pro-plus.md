@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 用リソース '
+title: 'Office 365 ProPlus '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,7 +7,9 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -16,14 +18,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: アドオン ・ ライセンス、機能、および Office 365 用リソースのために購入する方法について説明します。
-ms.openlocfilehash: 4cf3fb68f2063b70c30efc05be4e98d4e4620e76
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 58f5259474a31bfd873dcfc336aee9b733662e0c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30127583"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463181"
 ---
-# <a name="office-365-proplus"></a>Office 365 用リソース
+# <a name="office-365-proplus"></a>Office 365 ProPlus
 
 [Office 365 用リソース](https://products.office.com/en/business/office-365-proplus-business-software)の計画を既に購入した場合より多くのチーム機能を取得するのには購入する必要がありますアドオン ・ ライセンスを示します。
 

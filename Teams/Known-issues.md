@@ -6,19 +6,21 @@ manager: serdars
 ms.date: 2/25/2019
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: marcl
 localization_priority: Priority
 search.appverid: MET150
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53a6a258d96777e5dc335fcecb84e9f2b7962beb
-ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
+ms.openlocfilehash: 64389cdf1455c23f2c234149630a9d6091ee7274
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30342104"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462333"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -32,7 +34,7 @@ ms.locfileid: "30342104"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|Enhanced Mitigation Experience Toolkit (EMET) の EAF ポリシーが、Chromium サンドボックスの最適化を間違って脅威として識別する可能性がある。 <br/> |Enhanced Mitigation Experience Toolkit (EMET) および Windows Defender Advanced Threat Protection (ATP) の Export Address Table Access Filtering (EAF) ポリシーで、Chromium サンドボックスの最適化が間違って脅威として識別されるという、Chromium サンドボックスに関する問題があります。これにより、Teams が正常に機能しません。  <br/> | この問題を回避するには、Teams で EAF をオフにします。この問題の詳細については、[EMET 緩和策のガイドライン](https://support.microsoft.com/ja-JP/help/2909257/emet-mitigations-guidelines)をご覧ください。Windows Defender ATP および EAF ポリシーの詳細については、「[Exploit Protection をカスタマイズする](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection)」をご覧ください。 <br/> |2018 年 10 月 11 日 <br/> |
+|Enhanced Mitigation Experience Toolkit (EMET) の EAF ポリシーが、Chromium サンドボックスの最適化を間違って脅威として識別する可能性がある。 <br/> |Enhanced Mitigation Experience Toolkit (EMET) および Windows Defender Advanced Threat Protection (ATP) の Export Address Table Access Filtering (EAF) ポリシーで、Chromium サンドボックスの最適化が間違って脅威として識別されるという、Chromium サンドボックスに関する問題があります。これにより、Teams が正常に機能しません。  <br/> | この問題を回避するには、Teams で EAF をオフにします。この問題の詳細については、[EMET 緩和策のガイドライン](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines)をご覧ください。Windows Defender ATP および EAF ポリシーの詳細については、「[Exploit Protection をカスタマイズする](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection)」をご覧ください。 <br/> |2018 年 10 月 11 日 <br/> |
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
@@ -46,7 +48,7 @@ ms.locfileid: "30342104"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|デスクトップ アプリで「Web サイト」タブを使用すると[条件付きアクセス](https://docs.microsoft.com/ja-JP/azure/active-directory/conditional-access/overview)が機能しない場合がある<br/> |イントラネット ポータルなどの Web サイトに条件付きアクセス ポリシー (ブラウザーや IP アドレスの制限など) が設定されている場合、デスクトップ アプリの Teams 内ではその Web サイトがタブとして表示されないことがあります。 <br/> |デスクトップ アプリを使用する代わりに、ブラウザーで Teams を使用します。  <br/> |2018 年 7 月 1 日  <br/> |
+|デスクトップ アプリで「Web サイト」タブを使用すると[条件付きアクセス](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview)が機能しない場合がある<br/> |イントラネット ポータルなどの Web サイトに条件付きアクセス ポリシー (ブラウザーや IP アドレスの制限など) が設定されている場合、デスクトップ アプリの Teams 内ではその Web サイトがタブとして表示されないことがあります。 <br/> |デスクトップ アプリを使用する代わりに、ブラウザーで Teams を使用します。  <br/> |2018 年 7 月 1 日  <br/> |
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|

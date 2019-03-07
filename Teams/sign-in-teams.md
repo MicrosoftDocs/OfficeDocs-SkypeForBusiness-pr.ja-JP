@@ -1,5 +1,5 @@
 ---
-title: マイクロソフト チームの最新の認証を使用してにサインインします。
+title: 先進認証を使用して Microsoft Teams にサインインする
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -11,17 +11,19 @@ search.appverid: MET150
 ms.reviewer: ''
 description: 現代の認証を使用して、マイクロソフトのチームにサインインする方法です。
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01ca138aebae8d0db731118baf3e340aa3332120
-ms.sourcegitcommit: bd32d44d27990e373ce6afa38897159473601113
+ms.openlocfilehash: eec164da4dafe9be54272a72680cfa920d32d60c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "26544373"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458813"
 ---
-<a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>マイクロソフト チームの最新の認証を使用してにサインインします。
+<a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>先進認証を使用して Microsoft Teams にサインインする
 ==========================
 
 マイクロソフトのチームでは、現代の認証を使用して、シンプルかつセキュリティで保護されたサインイン処理をしてください。 ユーザーがチームにサインインする方法を表示するには、[チームへのサインイン](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055)を参照してください。
@@ -30,7 +32,7 @@ ms.locfileid: "26544373"
 
 現代の認証は、ユーザー既に入力されている資格情報 (と同様に自分の仕事の電子メールとパスワードを使用して) 別の場所で、し、アプリケーションを起動するには、もう一度入力して必要なされるべきではないことを知っているチームをできるようにするプロセスです。 経験によって異なりますいくつかの要因のようなユーザーは、windows、または、mac 上に作業している場合 一元的認証方式、または複数要素の認証、組織が有効になっているかどうかによっても異なります (通常多要素認証では、PIN を入力する、一意のコードを提供する、携帯電話経由で資格情報を確認する必要がありますか拇印を表示) します。 ここでは、最新の認証シナリオの概要を示してします。
 
-### <a name="windows-users"></a>Windows ユーザーの場合: 
+### <a name="windows-users"></a>Windows ユーザー: 
 
 - ユーザーが既に署名されている場合、Office 365 のエンタープライズのアカウントでは、他の Office アプリケーションをアプリケーションに直接、撮影しているチームを起動するとき。 自分の資格情報を入力するために必要はありません。
 

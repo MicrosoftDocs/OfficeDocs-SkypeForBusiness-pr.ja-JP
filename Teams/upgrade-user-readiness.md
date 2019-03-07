@@ -1,5 +1,5 @@
 ---
-title: ユーザーの準備計画を準備します。ビジネス用の Skype からチームへのアップグレードします。
+title: Skype for Business から Teams にアップグレードする前にユーザーの準備状況計画を用意する
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -10,24 +10,26 @@ description: 通信し、訓練し、パイロット、オンボードとチー�
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48bc1527b5f57219ecf062f1ab7025d969c13182
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 3172d85065f72d16df800d77e196632181c7d7bd
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349449"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459709"
 ---
 ![ユーザーの準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-user-readiness.png "ユーザーの準備段階に重点を置いて、旅アップグレードの段階")
 
 この資料では、アップグレードの旅、技術的な準備段階と並行して、完了したアクティビティのユーザーの準備段階の一部です。 次に進む前に前の段階からこれらの活動を完了していることを確認します。
 
-- [プロジェクトの利害関係者が参加しています。](upgrade-enlist-stakeholders.md)
-- [プロジェクト スコープの定義](https://aka.ms/SkypetoTeams-Scope)
-- [ビジネスとチームの共存と Skype の相互運用性を理解します。](https://aka.ms/SkypeToTeams-Coexist)
-- [アップグレード、旅を選択](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [プロジェクトの関係者をリスト化した](upgrade-enlist-stakeholders.md)
+- [プロジェクトの対象範囲を定義した](https://aka.ms/SkypetoTeams-Scope)
+- [Skype for Business と Teams の共存と相互運用を理解した](https://aka.ms/SkypeToTeams-Coexist)
+- [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-a-user-readiness-plan"></a>ユーザーの準備の計画を準備します。
 
@@ -39,7 +41,7 @@ ms.locfileid: "29349449"
 | | |
 |---|---|
 | ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>容易にして、新しいソリューションのユーザーの採用を促進する準備計画を作成することができますでしょうか。</li><li>右の意識、トレーニング、およびサポート リソースを変更し、定義されているユーザーのペルソナを扱うユーザーの機能の連携をしていますか。</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>準備計画のアイデアを生成するのにには、以下のリストを使用します。 最も関連するアクティビティを選択-独自の追加または、組織用に最適化された対応計画を設計します。 最大の結果の一般公開用の組織全体) と (遅滞者または特定のペルソナ) の対象となるキャンペーンの組み合わせを使用することを忘れないでください。</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>準備計画のアイデアを生成するのにには、以下のリストを使用します。 最も関連するアクティビティを選択-独自の追加または、組織用に最適化された対応計画を設計します。 最大の結果の一般公開用の組織全体) と (遅滞者または特定のペルソナ) の対象となるキャンペーンの組み合わせを使用することを忘れないでください。</li></ul>|
 
 <div class="mx-tableFixed">
 <table>

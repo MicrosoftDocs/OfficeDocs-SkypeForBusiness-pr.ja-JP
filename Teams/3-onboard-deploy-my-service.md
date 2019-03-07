@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: サイトの対応戦略、チームのロールアウトを計画し、加速し、ユーザーの選定、品質、および満足度の認識を最適化をダウンロードします。
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 021f69644701fb68a8122219b3f98bc4fd2f390d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5ce9b3f5a1d81728f0bff6951211453fb4aa2ef4
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372612"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458997"
 ---
 # <a name="deploy-my-service"></a>サービスを展開します。
 
@@ -102,7 +104,7 @@ ms.locfileid: "25372612"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>サイト対応の戦略は、配置に必要なかどうかを決定します。</li><li>マイクロソフト チームのサイトの有効化の戦略をカスタマイズするのすべてのサイトを展開することを担当するユーザーを決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">サイト対応のプレイブックをダウンロード</a>してください。</li><li>最初のサイトのサイトの有効化の戦略をカスタマイズします。</li><li>追加のサイトを必要に応じて繰り返します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">サイト対応のプレイブックをダウンロード</a>してください。</li><li>最初のサイトのサイトの有効化の戦略をカスタマイズします。</li><li>追加のサイトを必要に応じて繰り返します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

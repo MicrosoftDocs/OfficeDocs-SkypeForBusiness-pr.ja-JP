@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: ユーザーからのフィードバックを取得し、レポート、チームの採用で、サービスの稼働状態を使用する方法について説明します。
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ab7a061b4f45564c6be42f708a0ded3ea00f268
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 44fd2893e90f4f97ab9742ff67796fdfde76d407
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699838"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459853"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Microsoft Teams の導入についてのフィードバックとレポートを最適化する
 

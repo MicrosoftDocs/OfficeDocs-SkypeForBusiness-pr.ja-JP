@@ -10,26 +10,28 @@ description: ビジネスの Skype を使用しながら、チームのすべて
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3dfea5c5903c5b5577aa0300ddac42c6db2a7fb4
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: de8041bb9557ec224c2ab2b3a5fa4f92de1280cf
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29348938"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463581"
 ---
-![展開に重点を置いて、アップグレードの旅の段階や実装段階](media/upgrade-banner-deployment.png "展開に重点を置いて、アップグレードの旅の段階や実装段階")
+![展開と実装の段階に重点を置いた、アップグレード手順の各段階](media/upgrade-banner-deployment.png "展開と実装の段階に重点を置いた、アップグレード手順の各段階")
 
-ここは、アップグレードの旅の導入と展開の段階の一部であるし、効果的なパイロットを実行するための洞察を共有します。 進む前に、次のアクティビティを完了したしたことを確認します。
+ここは、アップグレードの旅の導入と展開の段階の一部であるし、効果的なパイロットを実行するための洞察を共有します。 先に進む前に、次のアクティビティを完了していることを確認してください。
 
-- [プロジェクトの利害関係者が参加しています。](upgrade-enlist-stakeholders.md)
-- [プロジェクト スコープの定義](https://aka.ms/SkypetoTeams-Scope)
-- [ビジネスとチームの共存と Skype の相互運用性を理解します。](https://aka.ms/SkypeToTeams-Coexist)
-- [アップグレード、旅を選択](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [環境を準備](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [組織の準備](https://aka.ms/SkypeToTeams-UserReadiness)
+- [プロジェクトの関係者をリスト化した](upgrade-enlist-stakeholders.md)
+- [プロジェクトの対象範囲を定義した](https://aka.ms/SkypetoTeams-Scope)
+- [Skype for Business と Teams の共存と相互運用を理解した](https://aka.ms/SkypeToTeams-Coexist)
+- [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [環境を準備した](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [組織を準備した](https://aka.ms/SkypeToTeams-UserReadiness)
 
 # <a name="conduct-a-user-pilot"></a>ユーザーのパイロットを実施します。
 
@@ -40,7 +42,7 @@ ms.locfileid: "29348938"
 | | |
 |---|---|
 | ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>プロジェクトの方向を通知するためにパイロットを使用するにはどうなりますか。</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>設計し、正式なパイロットを実行するには、以下のガイダンスを使用します。</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>設計し、正式なパイロットを実行するには、以下のガイダンスを使用します。</li></ul>|
 
 > [!Tip]
 > 通信設計を支援するサンプル[パイロット リソース](https://aka.ms/UpgradeSuccessKit)を使用して、計画、およびフィードバックの調査をテストします。

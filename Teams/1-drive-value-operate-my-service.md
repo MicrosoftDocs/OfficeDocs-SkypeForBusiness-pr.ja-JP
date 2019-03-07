@@ -8,18 +8,19 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-ms.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 description: タスクとサービスの稼働状態を監視および評価の使用状況、ネットワークの品質を確保など、チームのサービス管理に必要な作業です。
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a11360c5cae498262a717c41e4247037de1db54
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: bc4dbb59b5346286b10b8a146b96c2b1f5dbc40e
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120512"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459157"
 ---
 # <a name="operate-my-service"></a>自分のサービスを実施します。
 
@@ -41,8 +42,8 @@ ms.locfileid: "30120512"
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断のポイント</td><td><ul><li>チームの操作を実装する方法を決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>完全に運用ガイドを参照してください。</li><li>ワークロードの音声品質とクラウドの信頼性を提供する、組織の目標に合わせて運用戦略を実装します。</li><li>レビュー ガイドの経験の質を確認します。</li><li> クラウドのボイスの展開がそのピーク性能で動作しているかどうかを確認するのには体験レビューの品質を定期的に実行するオペレーション戦略を実装します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>チームの操作を実装する方法を決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li>完全に運用ガイドを参照してください。</li><li>ワークロードの音声品質とクラウドの信頼性を提供する、組織の目標に合わせて運用戦略を実装します。</li><li>レビュー ガイドの経験の質を確認します。</li><li> クラウドのボイスの展開がそのピーク性能で動作しているかどうかを確認するのには体験レビューの品質を定期的に実行するオペレーション戦略を実装します。</li></ul></td></tr>
 </table>
 
 
@@ -61,7 +62,7 @@ Envision フェーズの早い段階で行う計画には、特定のアクテ�
 契約が適用されて、対応する各チームの役割を運用するのには起動できます。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td>
 <td><ul><li>操作上の役割のマッピングの手順を容易にするのにには、このドキュメントを使用します。</li><li>必要なアクティビティのリストの各項目に名前を割り当てるにはそれぞれのサポート チームに対応します。</li><li>承認を得ること、または割り当てられているロールに対して承認をします。</li><li>それらの必要な作業を完了するのには適切なトレーニング、準備、およびリソースに対応するチームがあることを確認します。</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>チーム サービスの依存関係
@@ -199,7 +200,7 @@ Office 365 サービスの稼働状態および変更をプログラムでアク
 |----|----|----|-----|
 | ユーザーへの影響                  | Low                  |                                                                 |                        |
 | ユーザーの準備が必要      | あり                  |                                                                 |                        |
-| 通信の準備ができました         | なし                   | 通信の電子メールはドラフトされた、保留中のレビューです。            | コミュニケーション チーム    |
+| 通信の準備ができました         | 不要                   | 通信の電子メールはドラフトされた、保留中のレビューです。            | コミュニケーション チーム    |
 | トレーニングの準備完了               | あり                  | トレーニングは、マイクロソフトの既存のビデオを活用します。                | トレーニング チーム          |
 
 **ステータスの追跡**

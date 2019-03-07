@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: 製品を使用してチームの採用を推進するための方法を説明します。
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82956a64e80811efd176f853651aa9db3770afc3
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 7d57349a499e4434ba796cdf75df6258591f4144
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699711"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459453"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Microsoft Teams で最初のチームを作成する
 
@@ -28,9 +30,9 @@ ms.locfileid: "26699711"
 
 | チーム名 | 提案されたチャネル名 |
 | --------- | ---------------------- |
-| チームを理解します。 | 全般</br> よろしく</br> どうすればいいですか。</br>フィードバック </br> 将来のチームのアイデア </br> サポート |
-| マイクロソフト チームの実装 | 全般 <br/> 認識および採用 <br/> ビジネス活動 <br/> 早期採用プログラム <br/> フィードバックと情報 <br/> セキュリティとコンプライアンス <br/> 戦略と計画 <br/> サービスの稼働状態および障害 <br/> トレーニング <br/> Watercooler のチャット |
-| チームワークのエキスパート | 全般 <br/> ベスト ・ プラクティス、トレーニング、および方法 <br/> 精鋭コーナー <br/> フィードバックとサポート <br/> プログラムの潜在顧客 <br/> 社会ハブ |
+| チームを理解します。 | General</br> Say hi</br> どうすればいいですか。</br>Feedback </br> Ideas for future teams </br> Support |
+| マイクロソフト チームの実装 | General <br/> 認識および採用 <br/> ビジネス活動 <br/> 早期採用プログラム <br/> フィードバックと情報 <br/> セキュリティとコンプライアンス <br/> 戦略と計画 <br/> サービスの稼働状態および障害 <br/> トレーニング <br/> Watercooler のチャット |
+| チームワークのエキスパート | General <br/> ベスト ・ プラクティス、トレーニング、および方法 <br/> 精鋭コーナー <br/> フィードバックとサポート <br/> プログラムの潜在顧客 <br/> 社会ハブ |
 
 マイクロソフトのチーム内で[タブのギャラリー](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/tabs/tabs-overview)すべての Office 365 と、管理者が有効になっているサードパーティ製アプリケーションにアクセスできます。 お使いの製品からのほとんどの値を取得するには、適切なチャネルのそれぞれのタブとしての重要なリソースの固定をお勧めします。 次の例を参照してください。
 
@@ -41,7 +43,7 @@ ms.locfileid: "26699711"
 |チーム/チャンネル名 | 固定タブ |
 |----------------- | ---------- |
 | **マイクロソフトのチームの配置** ||
-| 全般 | [Web] タブ:[チームのドキュメント](https://aka.ms/SuccessWithTeams) |
+| General | [Web] タブ:[チームのドキュメント](https://aka.ms/SuccessWithTeams) |
 | 認識および採用 | [チーム採用ハブ](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams カスタマー サクセス キット](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)|
 | ビジネス活動 | Wiki – 活動の手引き<br/>フォーム – チーム協議の要求<br/>活動要求の一覧。 |
 |初期採用者 | 固定されたフィードバックのコミュニティ <br/> OneNote のよく寄せられる質問と共通のテーマ |
@@ -50,7 +52,7 @@ ms.locfileid: "26699711"
 | 戦略と計画 | 北星 PowerPoint のコラボレーション <br/> サービスの導入プロジェクトの計画 |
 | トレーニング | 学習トレーニング ポータル カスタム <br/> [チームのオンライン トレーニング](https://aka.ms/TeamsTraining) |
 | **チームワークのエキスパート**|  |
-| 全般 | プログラムのお知らせの使用 <br/> 暗証番号 (pin) の精鋭プログラムの概要 |
+| General | プログラムのお知らせの使用 <br/> 暗証番号 (pin) の精鋭プログラムの概要 |
 | ベスト ・ プラクティス | ベスト ・ プラクティスのチームは、チャネルのと、PowerPoint のチャット <br/> チームのライフ サイクル |
 | 精鋭コーナー | 議事録とプレゼンテーション |
 | 社会ハブ | RSS コネクタ: チームのブログと駆動の採用ブログ |

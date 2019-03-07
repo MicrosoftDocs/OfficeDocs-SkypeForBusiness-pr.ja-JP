@@ -9,15 +9,17 @@ ms.reviewer: crowe
 description: チームの作成、チームへの参加、チャネルの作成など、Microsoft Teams と様々な Exchange のセットアップとの間に存在する機能について説明します。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c251255807e1c673c672db20a85b7f56c4a64d6
-ms.sourcegitcommit: 47b29c15ca3cf1676168608537613f3b841dbfcb
+ms.openlocfilehash: 020204700101e086691004cb90b5e5f7eabdbe5a
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "29992818"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462189"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携 
 =========================================
@@ -39,8 +41,8 @@ Exchange Online 専用 – レガシーまたは Exchange On-premises にホス�
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|<sup>2</sup>を [はい] します。|<sup>2</sup>を [はい] します。|可|はい|はい|はい|はい|はい|はい|はい|はい|可|はい|
 |**Exchange Online 専用 vNext**|<sup>2</sup>を [はい] します。|<sup>2</sup>を [はい] します。|可|可|はい|はい|可|はい|はい|はい|可|可|可|
-|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|<sup>2</sup>を [はい] します。|<sup>2, 3</sup>を [はい] します。|はい<sup>4|あり|なし|いいえ|あり|あり|なし|なし|いいえ|あり|はい|
-|**Exchange On-premises** (Azure AD との同期が必要)|<sup>2</sup>を [はい] します。| <sup>2, 3</sup>を [はい] します。 |はい<sup>4|あり|[はい] (Exchange 2016 CU3 +)|いいえ|あり|あり|なし|No <sup>5|なし|いいえ|あり|
+|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|<sup>2</sup>を [はい] します。|<sup>2, 3</sup>を [はい] します。|はい<sup>4|あり|なし|いいえ|あり|あり|なし|はい<sup>5|可|可|はい|
+|**Exchange On-premises** (Azure AD との同期が必要)|<sup>2</sup>を [はい] します。| <sup>2, 3</sup>を [はい] します。 |はい<sup>4|あり|[はい] (Exchange 2016 CU3 +)|[はい] (Exchange 2016 CU3 +)|可|あり|なし|はい<sup>5|可|可|可|
 
 <sup>1</sup> 2016 CU3 を交換しての上には、サポート  
 <sup>2</sup>電子的証拠開示およびチャネルのメッセージでのコンプライアンスのための法的保持義務は、ホストのすべてのオプションに対してサポートされます。  
@@ -64,7 +66,7 @@ Exchange Online 専用 – レガシーまたは Exchange On-premises にホス�
 
 -   Microsoft Teams では、電子情報開示、コンテンツ検索、アーカイブ、訴訟ホールドのようなセキュリティおよびコンプライアンスの機能は Exchange Online と SharePoint Online の環境で最適に動作します。チャネルの会話の場合、メッセージは Exchange Online 内のグループ メールボックスにジャーナリングされます。これらのメッセージは電子情報開示で利用できます。SharePoint Online と OneDrive for Business (職場または学校のアカウントを使用) が組織全体とユーザーに対して有効な場合は、これらのコンプライアンス機能も Teams 内のすべてのファイルに対して利用できます。
 
--   設置型の交換、 [Exchange および Exchange Online 組織間で認証を構成する OAuth](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx)で説明したように、OAuth を構成する必要があります。 
+-   設置型の Exchange、 [Exchange および Exchange Online 組織間で認証を構成する OAuth](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx)で説明したように新しい Exchange OAuth 認証プロトコルを構成する必要があります。 
 
 > [!NOTE]
 > すべての会議のディスカッションを検出可能にするというコンプライアンス要件が組織に対して課せられている場合、会議の開催者が Exchange オンプレミス メールボックスを利用しているならば、プライベート会議を無効にすることをお勧めします。

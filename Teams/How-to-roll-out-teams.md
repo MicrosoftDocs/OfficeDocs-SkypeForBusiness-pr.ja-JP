@@ -10,15 +10,17 @@ ms.reviewer: LolaJ
 description: Microsoft Teams を組織に展開するための正しい経路を見つけます。
 localization_priority: Priority
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c09e858b4c3282abe1e81d317e4c5fcf923c145
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: dfa33367df101436a47a8558e072dfbac19b3458
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29595415"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462461"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>Microsoft Teams の展開方法
 

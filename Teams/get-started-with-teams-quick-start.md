@@ -10,15 +10,17 @@ ms.reviewer: lolaj
 description: 最初のチームとチャネルを展開することにより、Microsoft Teams の使用を開始します。これにより、Teams での経験を積んでから、組織全体に広く展開することができます。
 localization_priority: Priority
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62d00335948e164302eb46cdf81a51f3edd802d3
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: c8694abbec22e577983889bdf6cdc3d6038d3c80
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594375"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461965"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Microsoft Teams の使用を開始する
 

@@ -11,15 +11,17 @@ ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
 description: マイクロソフトのチームに許可されていない office 365 のユーザーは、チームの 1 年間の試用版を開始できます。
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc0b62ce0be0606ad4c31d3cee04347729fbbe32
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 5101cc8f54d41aaf63b24fea1d9092b1465a81d7
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214582"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462373"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Microsoft Teams の商用クラウドの試用提供を管理する
 =======================================================
@@ -76,9 +78,9 @@ ms.locfileid: "27214582"
 
 試用版のアプリケーションとサービスをインストールするユーザーの機能をオフにすることができます。
 
-1. [Microsoft 365 管理センター](https://portal.office.com/adminportal/home)で、[**設定]** > **サービスおよびアドイン** > **ユーザーには、アプリケーションとサービスが所有しています**。
+1. [Microsoft 365 管理センター](https://portal.office.com/adminportal/home)で、[**設定]** > **サービス & アドイン** > **ユーザーには、アプリケーションとサービスが所有しています**。
 
-    ![Office 365 管理センターのサービスおよびアドインのページのスクリーン ショットです。](media/iw-trial-enable-1.png)
+    ![Office 365 管理センターのサービスの & のアドインのページのスクリーン ショットです。](media/iw-trial-enable-1.png)
 
 2. **ユーザーが試用版のアプリケーションとサービスをインストールできるように**オフにします。
 

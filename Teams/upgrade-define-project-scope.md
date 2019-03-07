@@ -10,19 +10,21 @@ description: ビジョンと目標が調整され、アップグレード プロ
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 161d5e8a73514374cfae8e8e29ed28dafdc858c3
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 2a4d042864e3260404ddbbaa56f39c7408a0896c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349477"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464829"
 ---
 ![プロジェクトの定義の段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-project-definition.png "プロジェクトの定義の段階に重点を置いて、旅アップグレードの段階")
 
-この資料では、アップグレードの旅、支援体制の構築を作成すると、特定の利害関係者からのプロジェクト チームは、プロジェクトの成功の鍵を完了する活動のプロジェクトの定義の段階の一部です。 進む前に、次のアクティビティを完了したしたことを確認します。
+この資料では、アップグレードの旅、支援体制の構築を作成すると、特定の利害関係者からのプロジェクト チームは、プロジェクトの成功の鍵を完了する活動のプロジェクトの定義の段階の一部です。 先に進む前に、次のアクティビティを完了していることを確認してください。
 
 - [参加しているプロジェクトの関係者](upgrade-enlist-stakeholders.md)
 
@@ -33,7 +35,7 @@ ms.locfileid: "29349477"
 | | |
 |---|---|
 | ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>(つまり、なぜそれをやる) には、このプロジェクトで実行するのには何をしますか。</li><li>ような成功が見えますか。</li><li>リスクとそのリスクを軽減するための計画とは何ですか。</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>プロジェクト チームとのスポンサーでは、次のセクションについて説明します。</li><li>ビジョン、範囲、目標、およびこのプロジェクトのリスクをドキュメント化します。</li><li>適切なチームが機能していることを検証するためにプロジェクト チームを再検討します。</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>プロジェクト チームとのスポンサーでは、次のセクションについて説明します。</li><li>ビジョン、範囲、目標、およびこのプロジェクトのリスクをドキュメント化します。</li><li>適切なチームが機能していることを検証するためにプロジェクト チームを再検討します。</li></ul>|
 
 ## <a name="project-vision"></a>プロジェクト ビジョン
 
@@ -100,7 +102,7 @@ ms.locfileid: "29349477"
 
 | リスク | 可能性 | 影響 | 全体 | 軽減計画 |
 |---|---|---|---|-------|
-| **ネットワーク品質** | Medium | High | 高 | ネットワーク計画の手順を実行します。 |
+| **ネットワーク品質** | Medium | 高 | 高 | ネットワーク計画の手順を実行します。 |
 | **低いユーザーの導入** | 高 | 高 | 高 | パイロットおよび展開の段階で、ユーザーと積極的に協力します。認識の対象としたいという欲求を作成するトレーニング キャンペーンを実装します。 |
 | | | | | |
 

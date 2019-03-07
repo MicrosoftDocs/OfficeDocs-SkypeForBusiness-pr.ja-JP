@@ -1,25 +1,27 @@
 ---
-title: マイクロソフトのチームでの外部アクセス (フェデレーション) を管理します。
+title: Microsoft Teams での外部アクセス (フェデレーション) の管理
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 01/30/2019
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: karvell
 search.appverid: MET150
 description: IT 管理者は、これらのドメインからのユーザーがチームに参加できるようにするのには他のドメイン (フェデレーション) の外部アクセスを構成できます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56e4171421cc52ec1ca79895aba3c0f259d20201
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: 97b322969d3975b6f9ca2b2079d46fe95ef45e52
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29708798"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459925"
 ---
-<a name="manage-external-access-federation-in-microsoft-teams"></a>マイクロソフトのチームでの外部アクセス (フェデレーション) を管理します。
+<a name="manage-external-access-federation-in-microsoft-teams"></a>Microsoft Teams での外部アクセス (フェデレーション) の管理
 ======================================================
 
 マイクロソフト チームの外部アクセス、他のドメインからのユーザーのチャットと通話に参加できます。 参加するビジネス用の Skype を使用しても外部のユーザーを許可することもできます。 
@@ -37,17 +39,17 @@ ms.locfileid: "29708798"
 | ユーザーが別の会社で他の人とチャットできます。 | あり |可 |
 | ユーザーは別の会社で他の人を呼び出すことができます。 | あり | 可 |
 | ユーザーが通話やチャットを利用可能な別の会社から誰かが確認できます。 | あり | <sup>1</sup>を [はい] します。 |
-| ユーザーは、外部のテナント間でユーザーを検索できます。 | <sup>2</sup>を [はい] します。 | なし |
-| ユーザーがファイルを共有できます。 | なし | あり |
-| ユーザーがチーム リソースにアクセスできます。 | なし | あり |
-| ユーザーは、グループ チャットに追加することができます。 | なし | あり |
+| ユーザーは、外部のテナント間でユーザーを検索できます。 | <sup>2</sup>を [はい] します。 | 不要 |
+| ユーザーがファイルを共有できます。 | いいえ | あり |
+| ユーザーがチーム リソースにアクセスできます。 | いいえ | あり |
+| ユーザーは、グループ チャットに追加することができます。 | いいえ | あり |
 | 会議にユーザーを追加することができます。 | あり | 可 |
 | 外部のユーザーにチャットに他のユーザーを追加することができます。 | なし<sup>3</sup> | 該当なし |
 | ユーザーが外部の関係者として識別されます。 | あり | 可 |
 | プレゼンスが表示されます。 | あり | 可 |
-| 不在時メッセージが表示されます。 | なし | あり |
-| 個々 のユーザーをブロックすることができます。 | なし | あり |
-| @mentions がサポートされています。 | なし | あり |
+| 不在時メッセージが表示されます。 | いいえ | あり |
+| 個々 のユーザーをブロックすることができます。 | いいえ | あり |
+| @mentions がサポートされています。 | いいえ | あり |
 ||||
 
 <sup>1</sup>は、ユーザーがゲストとして追加されているし、ゲストのテナントにゲストとしてサインインが用意されています。<br>

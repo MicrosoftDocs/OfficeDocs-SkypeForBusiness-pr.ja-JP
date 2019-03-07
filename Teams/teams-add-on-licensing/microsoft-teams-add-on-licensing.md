@@ -1,5 +1,5 @@
 ---
-title: マイクロソフト チーム アドオン ライセンス
+title: Microsoft Teams アドオン ライセンス
 ms.date: 02/14/2019
 ms.author: tonysmit
 author: tonysmit
@@ -8,7 +8,9 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -17,14 +19,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: についてはアドオンのライセンスに関する機能を各ライセンス、それらをお使いの製品の購入方法と、既存のキャリアを使用する方法と表示されます。 Office 365 では、通信のクレジットの価格設定と計画の詳細についての情報を入手でき、通話プランします。
-ms.openlocfilehash: d776e6e3b54f8a847bd82ef8b1c373af2211dbae
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 6cf3b2a242a941c9a4352aa35afd1dcbe23c902c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30127679"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460133"
 ---
-# <a name="microsoft-teams-add-on-licensing"></a>マイクロソフト チーム アドオン ライセンス
+# <a name="microsoft-teams-add-on-licensing"></a>Microsoft Teams アドオン ライセンス
 
 ## <a name="what-are-add-on-licenses"></a>アドオン ライセンスとは何ですか。
 
@@ -61,11 +63,11 @@ ms.locfileid: "30127679"
 
 使用できる、アドオン ライセンス オプションは、Office 365 のプランによって異なります。 プランに特有の情報、機能、およびオプションは、次のトピックを参照してください。
 
-- [Office 365 Business Premium](office-365-business-premium.md)
+- [Office 365 ビジネス プレミアム](office-365-business-premium.md)
 - [Office 365 用リソース](office-365-premium-pro-plus.md)
 - [Office 365 エンタープライズ E1 または E3](office-365-enterprise-e1-e3.md)
-- [Office 365 エンタープライズ E5](office-365-enterprise-e5-with-audio-conferencing.md)
-- [(オーディオ会議) なしで office 365 のエンタープライズ E5](office-365-enterprise-e5-without-audio-conferencing.md)
+- [Office 365 Enterprise E5](office-365-enterprise-e5-with-audio-conferencing.md)
+- [Office 365 Enterprise E5 (電話会議なし)](office-365-enterprise-e5-without-audio-conferencing.md)
 - [Skype Room Systems v2](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 - [GOV、EDU、および非営利団体](gov-edu-and-nonprofit-organizations.md)
 

@@ -3,22 +3,24 @@ title: Microsoft Teams のゲスト アクセスのチェックリスト
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
-ms.date: 11/09/18
+ms.date: 01/22/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
 description: このチェックリストを使用すると、Microsoft Teams のゲスト アクセスが設定しやすくなります。
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efb5b4394ae7659982a747e79ace2296dbdf2345
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 404754c373d46b9b6e5578107415d61bbb87f97e
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326710"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463469"
 ---
 <a name="teams-guest-access-checklist"></a>Teams のゲスト アクセスのチェックリスト
 ==========================================
@@ -27,7 +29,7 @@ ms.locfileid: "28326710"
 
 ## <a name="understand-the-limitations-for-guests"></a>ゲストに対する制限事項を理解する
 
-ゲストのエクスペリエンスには、仕様上の制限がかかっています。 ゲストのエクスペリエンスを確実に理解して、実際の問題ではないことを修正する試みをしないようにしてください。 例として、Microsoft Teams のゲストが利用することができない機能の一部のリストを示します。
+The guest experience has limitations by design. Make sure you understand the guest experience so you don't try to fix something that isn't a problem. For example, here's a list of some of the functionality that isn't available to a guest in Microsoft Teams:
 
 - OneDrive for Business
 - Teams 外部のユーザーの検索
@@ -39,6 +41,10 @@ ms.locfileid: "28326710"
 - 個人対個人のチャットへのファイルのアップロード
 
 詳細については、「[ゲストのエクスペリエンスについて](guest-experience.md)」および「[Office 365 グループのゲスト アクセス](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)」をご覧ください。
+
+### <a name="guest-access-vs-external-access-federation"></a>ゲスト アクセスと外部アクセス (フェデレーション)
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>ゲストに対してライセンスのエラーが表示されている場合
 
@@ -82,9 +88,9 @@ Microsoft Teams のゲスト アクセスではAzure Active Directory ビジネ�
 
 ## <a name="-step-3-enable-guest-access-at-the-tenant-level"></a>□ 手順 3: テナント レベルでのゲスト アクセスを有効にする
 
-少なくとも、**Microsoft Teams および Skype for Business の管理センター**で Microsoft Teams のゲスト アクセスをオンにする必要があります。 
+最低限には、**マイクロソフトのチーム管理センター**] の [Microsoft チームのゲスト アクセスをオンにする必要があります。 
 
-1. Teams および Skype for Business の管理センターで、[**組織全体の設定**] > [**ゲスト アクセス**] を選択します。
+1. チーム管理センターで、**組織全体の設定**を選択します > **ゲスト アクセス**します。
 2. [**Microsoft Teams でのゲスト アクセスを許可**] の切り替えスイッチを [**オン**] に設定します。
 
     ![Teams 設定の切り替えの例を示すスクリーンショット](media/set-up-guests-image1.png)

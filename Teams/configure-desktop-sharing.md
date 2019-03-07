@@ -9,15 +9,17 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 description: チーム チャットや会議での自分のデスクトップを共有できるようにするのには会議ポリシーを構成します。
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcc76f79d288844611e17154359e8c9c3ab4ed23
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 757f023d5f988e5a4f45c6274358aa51f3417ce0
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754769"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464461"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Microsoft Teams でのデスクトップ共有を構成する
 ============================================

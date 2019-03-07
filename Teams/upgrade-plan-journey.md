@@ -10,15 +10,17 @@ description: 最初に、利害関係者を参加させると、プロジェク�
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86469155ada299afb3d31d84132f9a781b8c8aa6
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: d3c2c95e6034c365f95c5e8c4f6f124023437b9d
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349399"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462437"
 ---
 ![ことを確認して、プロジェクトは、適切なプロジェクト チームを成功に設定されています。プロジェクトのスコープ、目標、およびタイムラインを定義します。技術とユーザーの両方の準備を確認します。ロールアウト計画を実行します。結果を最大化するための勢いを維持します]。(media/upgrade-banner-main.png "アップグレードに向けてスタートしましょう")
 

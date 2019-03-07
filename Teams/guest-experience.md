@@ -10,48 +10,30 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 description: ゲスト ユーザーが利用できる Microsoft Teams の機能性について説明します。
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c65d5378ebe72175ac3238ba058866c49f6c4dd
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
-ms.translationtype: HT
+ms.openlocfilehash: 9301ecf94588560b1ba11b17b2c7f92d89cb072a
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772802"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458981"
 ---
 <a name="what-the-guest-experience-is-like"></a>ゲストのエクスペリエンスについて
 =================================
 
-ゲストは、チームへの参加を招待されると、チームに関する情報とメンバーとして利用できる内容を記載する「ようこそ」メール メッセージを受け取ります。 ゲストは、メール メッセージの招待状と引き換えに、チームやそのチャネルにアクセスできるようになります。
-  
+When a guest is invited to join a team, they receive a welcome email message that includes some information about the team and what to expect now that they're a member. The guest must redeem the invitation in the email message before they can access the team and its channels.
     
+![Example of a welcome email message sent by a team owner in Microsoft Teams to a guest user. The message includes text that can be customized by the team owner and brief descriptions of Teams features like chat, calls, and meetings.](media/guest-experience-image1.png)
     
-
-  
-    
-    
-![Microsoft Teams のチーム所有者によってゲスト ユーザーに送信された「ようこそ」メール メッセージの例。 メッセージには、チーム所有者によってカスタマイズ可能なテキスト、さらにチャット、通話、会議など Teams の機能に関する簡潔な説明が記載されます。](media/guest-experience-image1.png)
-  
-    
-    
-すべてのチーム メンバーは、チーム所有者がゲストを追加した旨およびそのゲストの名前を知らせるメッセージを確認することができます。 チームのメンバー全員がゲストが誰であるかを簡単に判断できます。 次のサンプル チームのスクリーンショットで示すように、バナーに「This team has guests (チームにゲストが参加しました)」と示され、各ゲストの名前の横に「ゲスト」ラベルが表示されます。
-  
-    
-    
-
-  
-    
+All team members see a message in the channel thread announcing that the team owner has added a guest and providing the guest's name. Everyone on the team can identify easily who is a guest. As shown in the following screenshot of a sample team, a banner indicates "This team has guests" and a "GUEST" label appears next to each guest's name.
     
 ![スクリーンショットは Northwind Traders の Marketing チャネルの一部を示しています。上部のバナーに「This team has guests (チームにゲストが参加しています)」と示され、ゲストのユーザーはその名前の横の「ゲスト」によって識別されます。](media/guest-experience-image2.png)
-  
-    
-    
-次の表に、組織のチーム メンバーが利用できる Microsoft Teams の機能とチームのゲスト ユーザーが利用できる機能との比較を示します。
-  
-    
-    
 
+次の表に、組織のチーム メンバーが利用できる Microsoft Teams の機能とチームのゲスト ユーザーが利用できる機能との比較を示します。
 
 |**Teams の機能**|**組織の Teams ユーザー**|**ゲスト ユーザー**|
 |:-----|:-----|:-----|
@@ -103,15 +85,17 @@ ms.locfileid: "27772802"
 
 <sup>1</sup> この機能は近日中に利用できるようになります。
 
-
-
 > [!NOTE]
 > Office 365 の管理者は、ゲストが利用できる機能を制御します。 
-  
+ 
+## <a name="guest-access-vs-external-access-federation"></a>ゲスト アクセスと外部アクセス (フェデレーション)
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+ 
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
   
 Q. ゲストはチーム メンバーと同じ機能を利用できますか?<br>
-A. いいえ。 ゲストが実行できることと実行できないことの詳細については、「Teams のゲスト機能」をご覧ください。
+A. いいえ。 詳細については、どのようなゲストができるし、実行できない、[チームでのゲストの機能](https://support.office.com/article/guest-capabilities-in-teams-d03fdf5b-1a6e-48e4-8e07-b13e1350ec7b)を参照してください。
 
 Q. 招待できるゲストの人数を教えてください。<br>
 A. ライセンスが付与されたユーザーあたり 5 人のゲストを追加することができます。

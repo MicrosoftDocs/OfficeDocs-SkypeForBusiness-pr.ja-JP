@@ -11,15 +11,17 @@ description: 米国政府の規制の対象となるデータを処理するエ�
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcdad8bfbcb873a84d03ec6c0048e4fe49cd5467
-ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
+ms.openlocfilehash: 537f951b9db2098cd1753e21e1c5c806e9d7f5d2
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "29964419"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462773"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Microsoft 365 政府の GCC の展開の計画
 
@@ -48,7 +50,7 @@ Microsoft 365 政府 - 米国政府の[Office 365 の政府の計画](https://pr
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>Microsoft 365 政府の GCC は、組織の適切なかどうかを決定します。</li><li>組織が適格性の要件を満たしていることを確認します。</li></ul> |
+| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft 365 政府の GCC は、組織の適切なかどうかを決定します。</li><li>組織が適格性の要件を満たしていることを確認します。</li></ul> |
 
 > [!Note]
 > Microsoft 365 政府の GCC をアメリカ合衆国ではできるだけです。 -米国以外の政府機関のお客様は、いくつかの[Office 365 の政府の計画](https://products.office.com/en/government/compare-office-365-government-plans)から選択できます。

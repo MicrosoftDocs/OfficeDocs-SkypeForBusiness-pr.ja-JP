@@ -1,5 +1,5 @@
 ---
-title: マイクロソフト チームの活動レポートを使用して
+title: Microsoft Teams のユーザー アクティビティ レポートを使用する
 author: ChuckEdmonson
 ms.author: chucked
 manager: lolaj
@@ -10,18 +10,20 @@ ms.service: msteams
 ms.reviewer: chenle
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: 活動レポートを使用して、組織内のユーザーがマイクロソフトのチームを使用する方法を参照してくださいする方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2466995597757cd5c18758bc3d1842ea4a9fb4e1
-ms.sourcegitcommit: e7f035151ba7447ada326d439df59cbfc5a79a26
+ms.openlocfilehash: 34ae95d405e9ab1f35c81db0d61ee48ba18141cf
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "29995425"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463373"
 ---
-<a name="use-activity-reports-for-microsoft-teams"></a>マイクロソフト チームの活動レポートを使用して 
+<a name="use-activity-reports-for-microsoft-teams"></a>Microsoft Teams のユーザー アクティビティ レポートを使用する 
 ========================================
 
 Microsoft 365 管理センターの活動レポートを使用すると、組織内のユーザーがマイクロソフトのチームを使用する方法を参照してください。 などの場合は、マイクロソフトのチームがまだいくつか使用しないことが認識できませんを開始またはチームを使用して、生産性と共同作業する方法を理解する方法。 組織では、アクティビティ レポートを使用して、トレーニングとコミュニケーションに関する優先項目を判断できます。

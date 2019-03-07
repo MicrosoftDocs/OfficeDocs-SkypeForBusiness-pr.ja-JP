@@ -1,5 +1,5 @@
 ---
-title: マイクロソフトのチームのユーザーを準備します。
+title: Microsoft Teams のユーザーを準備する
 author: dearbeen
 ms.author: MyAdvisor
 manager: serdars
@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: 目標を定義する、どのような受け入れのような理解すること、およびトレーニングとサポートを提供することによってユーザーの採用を推進するための計画を作成します。
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca1b2e5d28adf95a634df914b4693efddcbc5dd0
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 22d8383914755bdd3d9d185f083509de9175bef6
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649558"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463501"
 ---
 # <a name="prepare-my-users"></a>自分のユーザーを準備します。
 
@@ -47,7 +49,7 @@ ms.locfileid: "26649558"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>明確、福利厚生と値の購入でこの新しいソリューションを取得する方法でユーザーにでしょうか。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>ビジョンと価値、現在プロジェクトのスコープ、目標の位置が揃うことを確認の明細書を作成します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li>ビジョンと価値、現在プロジェクトのスコープ、目標の位置が揃うことを確認の明細書を作成します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -58,7 +60,7 @@ ms.locfileid: "26649558"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>準備と新しいソリューションを変更するユーザーですか。</li><li>または機能の能力の変更を容易にするユーザーはあるでしょうか。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>変更するのに際に、組織の文化を理解するのにには、次の対話の糸口を使用します。 この情報は、どの程度意識してトレーニングする必要があります、プロジェクトの実装に通知できます。
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li>変更するのに際に、組織の文化を理解するのにには、次の対話の糸口を使用します。 この情報は、どの程度意識してトレーニングする必要があります、プロジェクトの実装に通知できます。
 </li></ul></td></tr>
 </table>
 
@@ -97,7 +99,7 @@ ms.locfileid: "26649558"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>特定のユーザーまたは cohorts 中核となる依存関係を持って職務を効果的に実行するには、このソリューションのでしょうか。</li><li>この新しいソリューションを使用して実現できる具体的なユース ケースはありますか。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>ユーザーのペルソナをマップします。 まず、ペルソナ/cohort のグループ (経営幹部、出張、コラボレーション作業者、小売など) に、ユーザーをセグメント化します。 管理の容易性は、以下の 8 つのグループをリストします。 (サンプルの対話の糸口、以下を参照してください)。さらに、ユーザーの準備キャンペーンを設計して、後でアップグレードする恩恵を受ける可能性があります人からパイロット ユーザーをセグメント化するのには、調査結果を使用します。
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li>ユーザーのペルソナをマップします。 まず、ペルソナ/cohort のグループ (経営幹部、出張、コラボレーション作業者、小売など) に、ユーザーをセグメント化します。 管理の容易性は、以下の 8 つのグループをリストします。 (サンプルの対話の糸口、以下を参照してください)。さらに、ユーザーの準備キャンペーンを設計して、後でアップグレードする恩恵を受ける可能性があります人からパイロット ユーザーをセグメント化するのには、調査結果を使用します。
 </li><li>マップでは、サポート案件を使用します。 この新しいテクノロジーのメリットをもたらす主要なユーザー グループを特定したら、一般ユーザー向けに検討してください。 チーム間のユース ケースの理解とシナリオでは、この新しいテクノロジを扱う組織を視覚化できます。 さらに、追加の使用例、コミュニケーションとトレーニング ・ プランをご、ユーザーに関連することです。</li></ul></td></tr>
 </table>
 
@@ -144,12 +146,12 @@ ms.locfileid: "26649558"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>容易にして、新しいソリューションの導入を迅速化のためにどのような準備計画を提供することができますか。</li><li>右の意識、トレーニング、およびサポート リソースを変更し、定義されているユーザーのペルソナを扱うユーザーの機能の連携をしていますか。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>準備計画のアイデアを生成するのには、次のセクションで、一覧を使用します。 最も該当するものを選択して&mdash;、独自の追加または&mdash;、組織用に最適化された対応計画を設計します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li>準備計画のアイデアを生成するのには、次のセクションで、一覧を使用します。 最も該当するものを選択して&mdash;、独自の追加または&mdash;、組織用に最適化された対応計画を設計します。</li></ul></td></tr>
 </table>
 
 ### <a name="readiness-plan-ideas"></a>準備計画のアイデア
 
 <table>
-<tr><th>通信</th><th>トレーニング</th><th>サポート</th></tr>
+<tr><th>通信</th><th>トレーニング</th><th>Support</th></tr>
 <tr><td><ul><li>電子メール&mdash;、<a href="prepare-my-users-email-templates.md" data-raw-source="[voice email templates](prepare-my-users-email-templates.md)">ボイス ・ メール ・ テンプレート</a>をカスタマイズします。</li><li>ポスターやデジタル ・ サイネージ </li><li>イベントを起動します。</li><li>部署の責任者</li><li>チャンピオン</li><li>チームとチャネル</li><li>Gamification</li></ul></td><td><ul><li>記事および Microsoft からのビデオ:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">ビジネスの Skype からのチームに切り替える</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7" data-raw-source="[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)">チームのビデオ トレーニング</a></li><li><a href="https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8" data-raw-source="[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)">会議と呼び出し</a></li></li></ul><li>社内ヘルプ (ヘルプ)</li><li>社内トレーニング チーム</li><li>パートナー ・ トレーニング ・ チーム</li></ul></td><td><ul><li>社内ヘルプデスク</li><li>外部委託のサポート デスク</li><li>セルフヘルプ (イントラネット サイト)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online Help and how-to](https://support.office.com/teams)">オンライン ヘルプと使い方</a></li><li>床師とチャンピオン</li><li>フィードバック ループ&mdash;<a href="prepare-my-users-feedback-templates.md" data-raw-source="[sample user feedback surveys](prepare-my-users-feedback-templates.md)">サンプルのユーザーからのフィードバックの調査</a>を参照してください。</li></td></tr>
 </table>

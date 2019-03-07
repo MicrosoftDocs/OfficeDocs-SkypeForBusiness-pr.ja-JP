@@ -9,16 +9,18 @@ ms.service: msteams
 ms.reviewer: sonua
 search.appverid: MET150
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: PowerShell を使用して、チーム、組織と機能でのライブ イベントを押しながらユーザーを制御するためにポリシーを設定する方法の例では、自分で作成したイベントで使用できます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c198711d918914bbd6a1929514d7c2e9aa7dfe00
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: 23cf75c8e764920a2d77c3bbe6c0cb3711c22f04
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626224"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459629"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>PowerShell を使用して Microsoft Teams でのライブ イベント ポリシーを設定する
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]

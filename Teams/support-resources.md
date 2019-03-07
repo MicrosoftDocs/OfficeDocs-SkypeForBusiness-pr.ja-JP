@@ -6,18 +6,20 @@ manager: serdars
 ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: lolaj
 search.appverid: MET150
 description: Microsoft Teams のサポート リソースのリストは、Microsoft Teams を効率的かつ効果的に使用するために役立ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50e13255225e909d55fccc2b4bdc716bcb26e8f0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: bf6360afa81303531773cf9e1c931156fc537831
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25011882"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462861"
 ---
 <a name="support-resources-for-microsoft-teams"></a>Microsoft Teams のサポート リソース
 =====================================

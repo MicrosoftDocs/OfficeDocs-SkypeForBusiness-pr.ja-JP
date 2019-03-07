@@ -6,25 +6,27 @@ manager: serdars
 ms.date: 11/13/2018
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
 description: 組み込みタブやカスタム タブを使用して会話、ファイル、地図などの機能を追加する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dca1d1a49a749991c97e2e8807557c457f1b67f6
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: a1e93de09dc99832f942397a3af966334371a094
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788958"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458797"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Microsoft Teams で組み込みタブとカスタム タブを使用する
 ==================================================
 
 タブでは、チャネル内で、またはチャットでの専用のキャンバス上のサービスにアクセスするためのチーム メンバーを使用できます。 これにより、チームのツールとデータを直接操作して、チャネルまたはチャットのコンテキスト内でそれらについての会話です。 
 
-所有者およびチーム メンバーは、チャネル、プライベート チャット、およびグループ チャット機能、クラウド サービスを統合するお手伝いをするタブを追加できます。 やすく簡単にタブを追加することができますアクセスし、必要があるか、ほとんどの対話、データを管理します。 電源の BI レポート、ダッシュ ボード、または場合でも、 [Microsoft ストリーム](https://go.microsoft.com/fwlink/?linkid=855785)ビデオ チャンネル トレーニング ・ ビデオを公開する可能性ができます。
+所有者とチーム メンバーは、チャネル、プライベート チャット、およびグループ チャットにタブを追加して、クラウド サービスの統合に役立てることができます。 やすく簡単にタブを追加することができますアクセスし、必要があるか、ほとんどの対話、データを管理します。 電源の BI レポート、ダッシュ ボード、または場合でも、 [Microsoft ストリーム](https://go.microsoft.com/fwlink/?linkid=855785)ビデオ チャンネル トレーニング ・ ビデオを公開する可能性ができます。
 
 ![タブにある色々なコンテンツの 3 つのスクリーンショット](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 

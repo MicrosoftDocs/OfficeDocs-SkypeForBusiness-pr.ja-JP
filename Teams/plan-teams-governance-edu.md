@@ -1,5 +1,5 @@
 ---
-title: IT プロフェッショナル向けのマイクロソフトのチームの Microsoft 教育ガバナンスに関する FAQ
+title: IT 専門家向けの Microsoft Education のガバナンスに関するよくある質問 - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: チームを使用して、マイクロソフトの教育グループの管理者からよく寄せられる質問への回答です。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 687012404713bcbfcb8ecf86efa8af36b8eb0a59
-ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
+ms.openlocfilehash: d5058347677b1c5baef6f01fefb1f8eca3ac4384
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26539066"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461181"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>管理者のマイクロソフト教育ガバナンスに関する FAQ
 

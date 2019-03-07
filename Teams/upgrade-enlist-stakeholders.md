@@ -10,15 +10,17 @@ description: アップグレードのプロジェクト チームに提供する
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 072161fed4d28ec045156c34acbcc3cbc37d7635
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 2c456d60d8dc4f98e2fa75b90dfbb80c0fd90f13
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349328"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461293"
 ---
 ![プロジェクト利害関係者のチームを収集することに重点を置いて、旅アップグレードの段階](media/upgrade-banner-stakeholders.png "プロジェクト利害関係者のチームを収集することに重点を置いて、旅アップグレードの段階")
 
@@ -36,7 +38,7 @@ ms.locfileid: "29349328"
 | | |
 |---|---|
 | ![](media/audio_conferencing_image7.png) <br/>判断ポイント | <ul><li>このプロジェクトの利害関係者チームとして機能する適切な人がいるでしょうか。</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>次のステップ | <ul><li>プロジェクトのスコープを考慮し、関連する利害関係者を割り当てます。</li><li>ガイドラインとして次の表を使用しますが、この一覧がすべてではないことに注意してください。<br><strong>ヒント</strong><br>さらには責任は単にプロジェクトの特定の領域に情報を保持する必要がありますから人を区別するために担当の責任者の相談・情報に基づく[(RACI) の行列](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix)を作成します。</li> |
+| ![](media/audio_conferencing_image9.png)<br/>次の手順 | <ul><li>プロジェクトのスコープを考慮し、関連する利害関係者を割り当てます。</li><li>ガイドラインとして次の表を使用しますが、この一覧がすべてではないことに注意してください。<br><strong>ヒント</strong><br>さらには責任は単にプロジェクトの特定の領域に情報を保持する必要がありますから人を区別するために担当の責任者の相談・情報に基づく[(RACI) の行列](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix)を作成します。</li> |
 | <li>運営委員会を作成し適切な役割を割り当てるかどうかを決定します。</li></ul> | |
 
 | 役割 | 責任 |

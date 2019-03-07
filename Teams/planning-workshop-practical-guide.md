@@ -10,15 +10,17 @@ ms.reviewer: lolaj, rowille
 description: 組織による Microsoft Teams の使用の開始をサポートするためのツール、ワークショップ、スタートアップ キットの計画。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5458596d1eba8d956d6a75e0d99c99982e6525b9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 04bee65e6d2c21b6e2857d44a50bae497b251d5b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012106"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463957"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>ツールとワークショップ: Microsoft Teams の計画、提供、導入
 
@@ -27,7 +29,7 @@ ms.locfileid: "25012106"
 
 - [Microsoft Teams カスタマー サクセス キット](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)
 
-    このキットには、プレゼンテーション、電子メール テンプレート、ヒントとテクニック、およびポスターを展開し、組織内のチームの導入に使用できるさまざまなが含まれています。 管理者とチーム リーダー、および部門ごとに、使用例の 2 つのクイック スタート ガイドが含まれています。 チームで、マーケティング、セールス、財務、人事管理を含む、組織内のさまざまな機能を最大限に活用するのにはこれらのリソースを使用して、IT、エンジニア リング、およびプロジェクト管理。
+    このキットには、プレゼンテーション、電子メール テンプレート、& のヒントとテクニック、およびポスターを展開し、組織内のチームの導入に使用できるさまざまなが含まれています。 管理者とチーム リーダー、および部門ごとに、使用例の 2 つのクイック スタート ガイドが含まれています。 チームで、マーケティング、セールス、財務、人事管理を含む、組織内のさまざまな機能を最大限に活用するのにはこれらのリソースを使用して、IT、エンジニア リング、およびプロジェクト管理。
 
 
 - [管理者のクイック スタート ガイド](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)

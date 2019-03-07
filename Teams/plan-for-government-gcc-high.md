@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 米国政府向けクラウド (GCC) の展開の計画 - Microsoft Teams
+title: Microsoft 365 米国政府向けクラウド (GCC High) の展開の計画 - Microsoft Teams
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
@@ -11,15 +11,17 @@ description: 米国政府の規制の対象となるデータを処理するエ�
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af5261e20f11cfb4234fb6d27abfa31b18370556
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: b4b1dc313fa1ea223e7c55f066b869b29c098fd2
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988265"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460829"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Microsoft 365 政府の GCC の高い展開の計画
 

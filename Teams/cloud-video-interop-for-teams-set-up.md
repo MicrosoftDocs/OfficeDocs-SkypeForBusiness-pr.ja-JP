@@ -9,15 +9,17 @@ search.appverid: MET150
 ms.reviewer: srividhc
 description: この資料では、計画し、組織でユーザーのクラウドのビデオの相互運用機能を設定する方法について説明します。
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e0663553f6dbd3374245ba2ab370e4b5a369701
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: b51bcd5cd5813c317c79a5f89656e11423d91412
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531965"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462541"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>クラウド ビデオ マイクロソフト チームの相互運用機能を設定します。
 

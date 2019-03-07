@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: 展開モデルを選択して、開発担当の責任者の相談・情報に基づく (RACI) マトリックス、実行し、ガバナンス計画を作成します。
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 271faa8ffc4a4e6c3977382cf5a1153513bd1ba5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: dd124b8ce06b15bb0c6c33aecd848d9382afde64
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374211"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462141"
 ---
 # <a name="document-my-success-plan"></a>成功計画を文書化します。
 
@@ -47,7 +49,7 @@ ms.locfileid: "25374211"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>組織に適用されるチームの展開の実行モデルを決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>選択したら、チームの配置の実行モデルを文書化し、ビジネスおよび技術的な根拠が含まれます。</li></ul></td></tr></table>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li>選択したら、チームの配置の実行モデルを文書化し、ビジネスおよび技術的な根拠が含まれます。</li></ul></td></tr></table>
 
 ## <a name="raci-modeling"></a>RACI のモデリング
 
@@ -58,20 +60,20 @@ ms.locfileid: "25374211"
 | 活動と役割                                         | プロジェクト リード | コラボレーション リード/アーキテクト | コンサルタント | 変更管理/導入の専門家 | ビジネス ユニットの代表者 |
 |-------------------------------------------------------|--------------|------------------------------|------------|---------------------------------------|-------------------------------|
 | プログラム プレゼンテーションについての最初の呼び出し                     | R、A         | C                            |            |                                       |                               |
-| コール品質のダッシュ ボードを設定します                         | I            | C                            | R、A       |                                       |                               |
-| についての最初の呼び出し時に検出のアンケートを共有します。 | I            | C                            | R、A       |                                       |                               |
+| コール品質のダッシュ ボードを設定します                         | 定義されている場合は、このコマンドにより、2 人のユーザーがシステムにログオンできるかどうか、ログオンできる場合はインスタント メッセージを交換できるかどうかを判断します。            | C                            | R、A       |                                       |                               |
+| についての最初の呼び出し時に検出のアンケートを共有します。 | 定義されている場合は、このコマンドにより、2 人のユーザーがシステムにログオンできるかどうか、ログオンできる場合はインスタント メッセージを交換できるかどうかを判断します。            | C                            | R、A       |                                       |                               |
 | Envision は、フェーズのキックオフ ・ ミーティング                                | R、A         | C                            |            |                                       |                               |
 | ビジネス使用の場合のワーク ショップ                           | A            |                              |            | R                                     | C                             |
 | 探索のアンケートを確認します。                    |              | R、A                         | C          |                                       |                               |
-| アーキテクチャのワーク ショップ                                 | I            | R、A                         | C          |                                       |                               |
-| 採用ユーザー シナリオ Envision 段階のワーク ショップ       | C            | I                            | A          | R                                     |                               |
+| アーキテクチャのワーク ショップ                                 | 定義されている場合は、このコマンドにより、2 人のユーザーがシステムにログオンできるかどうか、ログオンできる場合はインスタント メッセージを交換できるかどうかを判断します。            | R、A                         | C          |                                       |                               |
+| 採用ユーザー シナリオ Envision 段階のワーク ショップ       | C            | 定義されている場合は、このコマンドにより、2 人のユーザーがシステムにログオンできるかどうか、ログオンできる場合はインスタント メッセージを交換できるかどうかを判断します。                            | A          | R                                     |                               |
 | 導入成功のワーク ショップ                             |              |                              | R、A       | C                                     |                               |
-| クライアントとデバイスの準備ワーク ショップ                  | I            |                              | R、A       | C                                     |                               |
+| クライアントとデバイスの準備ワーク ショップ                  | 定義されている場合は、このコマンドにより、2 人のユーザーがシステムにログオンできるかどうか、ログオンできる場合はインスタント メッセージを交換できるかどうかを判断します。            |                              | R、A       | C                                     |                               |
 
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>クラウド ボイスの実装プロジェクトに関連する活動と役割を決定します。</li><li>チームやクラウドのボイスの実装プロジェクトの担当の割り当て一覧 (RACI のマトリックス) に割り当てられるユーザーを決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>RACI のマトリックスを文書化します。</li></ul></td></tr></table>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li>RACI のマトリックスを文書化します。</li></ul></td></tr></table>
 
 ## <a name="quarterly-execution-plan"></a>四半期ごとの実行プラン
 
@@ -96,7 +98,7 @@ ms.locfileid: "25374211"
 <table>
 
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>目標 (OKRs) 主要な結果を達成するために四半期ごとの実行プランを決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>四半期ごとの実行計画を文書化します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li>四半期ごとの実行計画を文書化します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -119,7 +121,7 @@ ms.locfileid: "25374211"
 
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>通信と、ステータスの更新会議、および各会議の所有者を実行するための正規の状態更新 (毎日、毎週、月単位、または四半期ごと)、メソッドの頻度を含むガバナンス計画を決定します。</li></ul></td></tr>
 
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>通信とガバナンスの計画を文書化します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li>通信とガバナンスの計画を文書化します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -179,7 +181,7 @@ ms.locfileid: "25374211"
 <table>
 
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>クラウドの音声のワークロードを提供するため、全体の成功の計画を文書化する方法を決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>成功プランのすべてのコンポーネントをドキュメント化されていることを確認します。</li><li>(省略可能) 1 つの概要ドキュメントに、成功した場合の計画の個々 のコンポーネントを集約します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li>成功プランのすべてのコンポーネントをドキュメント化されていることを確認します。</li><li>(省略可能) 1 つの概要ドキュメントに、成功した場合の計画の個々 のコンポーネントを集約します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

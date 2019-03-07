@@ -7,17 +7,19 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: tonysmit
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 search.appverid: MET150
 description: マイクロソフトのチームでのライブ イベントを設定する前に考慮する事項について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cee30cc853043b4424a9a30c1ad785f77ea05f70
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: d6847a4db0a2517e90535aa5ab013b030fb36f38
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120925"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463197"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -50,9 +52,9 @@ Office 365 のライセンスが認証されたユーザーとしてのライブ
 
 |**出席者の表示/非表示**       |**クイック スタート**  |**外部エンコーダー**  |
 |------------------------------|-----------------|----------------------|
-|公開 (匿名ユーザー)      |  あり            |  なし                  |
-|ゲスト ユーザー                   |  いいえ<sup>1</sup> |  なし                  |
-|連合会社内のすべてのユーザー |  いいえ<sup>1</sup> |  なし                  |
+|公開 (匿名ユーザー)      |  あり            |  いいえ                  |
+|ゲスト ユーザー                   |  いいえ<sup>1</sup> |  不要                  |
+|連合会社内のすべてのユーザー |  いいえ<sup>1</sup> |  不要                  |
 |会社のすべてのユーザー           |  可            |  あり                 |
 |特定のグループ/ユーザー      |  可            |  あり                 |
 
@@ -106,7 +108,7 @@ Office 365 のライセンスが認証されたユーザーとしてのライブ
 - **ローカル変数を移動する:** 英国、インド、およびその他のマイクロソフト チームに [ローカル] は現在サポートされていません。
 - **中国:** イベント チームのメンバーと参加者を Azure CDN アクセスできないため、中国でには、チームのライブ イベントを使用することができなきます。 回避策では、会社の VPN 接続は、お客様の企業ネットワークを使用して、CDN に接続されているクライアントの取得を使用します。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 [チームのライブ イベントの設定](set-up-for-teams-live-events.md)に移動します。
 
 ### <a name="related-topics"></a>関連トピック

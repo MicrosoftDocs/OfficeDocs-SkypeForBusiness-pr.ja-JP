@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: チームへの浸透、実験段階の初期採用者を選択し、プロジェクトのフィードバックを収集し、します。
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58547d5f4577d9bca71317573677a56453188634
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 415726bbc78fbc98b5e3eefa3cb1455f3ddee483
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699671"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462133"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>アーリー アダプターに関与して、Microsoft Teams についてのフィードバックを収集する
 
@@ -33,7 +35,7 @@ ms.locfileid: "26699671"
 3. チームワーク チャンピオン チームと他の社内ソーシャル ネットワーク ツールを使用することのフィードバック チャネルへのアクセスを確認します。 
 4. 対象となる情報を収集することがそれらを完了するための定期的なアンケートを作成することを検討してください。
 
-## <a name="gather-feedback"></a>フィードバックを収集します。
+## <a name="gather-feedback"></a>フィードバックの収集
 
 プロジェクトのフィードバックを収集するのにには、Office 365 のコンポーネントを使用します。
   

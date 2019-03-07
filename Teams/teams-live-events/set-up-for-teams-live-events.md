@@ -3,23 +3,25 @@ title: Microsoft Teams でのライブ イベントのセットアップ
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
-ms.date: 10/23/2018
+ms.date: 03/06/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: tonysmit
 search.appverid: MET150
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: ネットワークを準備するなどのライセンスを割り当てること、ライブ イベントの機能を有効にするポリシーを使用してユーザーは、スケジュール配布のサード ・ パーティ製プロバイダーの設定、チームのイベントのライブを設定する手順について説明します。
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aaa22e0b28d883c805eaddc1e01d3cf7d2cda450
-ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
+ms.openlocfilehash: 6bd650e9f34a63007cee63ae8d7ce604e28abddd
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30302706"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464525"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントのセットアップ
 

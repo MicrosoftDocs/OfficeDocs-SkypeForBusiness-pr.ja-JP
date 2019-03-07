@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: 意識を高めるし、マイクロソフトのチームの採用、トレーニング ・ プログラムを実装する方法について説明します。
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8da00716e83d1b227bdf2c4ff66b1c026aa8e55c
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: bf3437d07bef4b068f68ba6607e664aa25c99605
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699758"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459589"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Microsoft Teams について啓発し、トレーニングを実施する
 
@@ -48,7 +50,7 @@ ms.locfileid: "26699758"
 - [チームのエンド ・ ユーザーのクラスルーム ・ トレーニング](instructor-led-training-teams-landing-page.md)
 - [管理者のチームのトレーニング](itadmin-readiness.md)
 - [エンド ・ ユーザーのオンライン トレーニング](enduser-training.md)
-- [クラウドのオンライン トレーニングのエキスパートと IT プロフェッショナル向けのコーヒー](https://aka.ms/CoffeeintheCloud) 
+- [オンラインのためのトレーニングのエキスパート & IT プロフェッショナルの雲の中のコーヒー](https://aka.ms/CoffeeintheCloud) 
 - [ライフ Office 365 のトレーニングの手引きで 1 日](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>成功を測定、共有する

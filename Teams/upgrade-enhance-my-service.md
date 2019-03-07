@@ -10,19 +10,21 @@ description: チーム サービスを向上させるアップグレードした
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f93a3ad801e72adaa7514fef83572f7766b0ee6
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: 20d3c30157b58640b3bdfe5c1941d68a745c0e68
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594367"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461253"
 ---
-![オペレーショナル ・ エクセレンスの段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-op-excellence.png "オペレーショナル ・ エクセレンスの段階に重点を置いて、旅アップグレードの段階")
+![オペレーショナル エクセレンスの段階に重点を置いた、アップグレード手順の各段階](media/upgrade-banner-op-excellence.png "オペレーショナル エクセレンスの段階に重点を置いた、アップグレード手順の各段階")
 
-この資料では、オペレーショナル ・ エクセレンスの段階と同時に開始のチームにビジネス用の Skype からのアップグレードが完了したら、アップグレードの旅の一部です。
+この記事は、お客様のアップグレード手順において、Skype for Business から Teams へのアップグレードを完了した直後に開始する、オペレーショナル エクセレンスの段階の一部を取り上げています。
 
 # <a name="get-the-most-out-of-teams-after-upgrading"></a>アップグレードした後チームを最大限に活用します。
 
@@ -40,5 +42,5 @@ ms.locfileid: "29594367"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>パブリック ・ ロードマップとその他の新しい機能やサービスからメリットを得られる可能性があります組織のサービスのお知らせを監視するかを決定します。</li><li>報告これらの新しい機能やサービス、運営委員会を使用して、キーの関係者にするためのリズムを決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>組織のほとんどの値を取得するサービスを最新の状態を維持するための戦略を実装します。</li><li>ドライブの展開に与える影響を怠らない適切かどうかを確認するのには完全なプロジェクト ライフ サイクルを通じてサービスの拡張機能です。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li>組織のほとんどの値を取得するサービスを最新の状態を維持するための戦略を実装します。</li><li>ドライブの展開に与える影響を怠らない適切かどうかを確認するのには完全なプロジェクト ライフ サイクルを通じてサービスの拡張機能です。</li></ul></td></tr>
 </table>
