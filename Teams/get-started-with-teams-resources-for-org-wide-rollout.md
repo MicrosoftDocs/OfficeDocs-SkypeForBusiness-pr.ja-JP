@@ -10,15 +10,17 @@ ms.reviewer: lolaj
 description: Microsoft Teams の展開と導入の詳細なリソースを検索する場所について説明します。
 localization_priority: Priority
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7dc15de1502f7c9601cc7df80e518ef36db6d7f
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: a42f9c50ba1985ac0be068b2a9fbf1fab5f9b439
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594335"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465357"
 ---
 # <a name="choose-a-path-to-your-organization-wide-rollout-of-microsoft-teams"></a>Microsoft Teams を組織全体に展開するためのコースを選択する
 

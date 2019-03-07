@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'このレポートとは、ビジネス レポートの場合は、他の Skype によって、PSTN の使用法を含む、組織全体での活動の詳細情報が表示します。 '
-ms.openlocfilehash: 789f881aff2f80603ac440250bc769d6c7b989c0
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2cd12c19911df796ae33bd841e8fd15b987cf366
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532687"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30453958"
 ---
 # <a name="users-blocked-report"></a>ブロックされているユーザーのレポート
 

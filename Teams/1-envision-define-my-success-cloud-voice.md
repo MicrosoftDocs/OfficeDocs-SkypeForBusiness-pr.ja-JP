@@ -9,16 +9,18 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 計画を呼び出すこと、または電話システムの直接のルーティングの展開では、電話システム、電話会議の結果を測定し、希望する結果を達成したことを確認します。
-ms.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f969955dc01d0ea66ea2242549eff4938d80ce6
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 405ec9e5471925ed977fc480d1b64f8d8deaee4b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372722"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465109"
 ---
 # <a name="define-my-success"></a>自分の成功を定義します。
 
@@ -93,7 +95,7 @@ ms.locfileid: "25372722"
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>ビジネス ケースを使用してオーディオ会議を組織内で識別することができますか。</li><li>ビジネス ケースを使用して組織内で識別することができます計画を呼び出すは?</li><li>ビジネス ケースを使用して直接ルーティングでは、組織で識別できるは?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>組織の音声会議のビジネスのすべてのユース ケースを文書化します。</li><li>組織の計画を呼び出すためのビジネスのすべてのユース ケースを文書化します。</li><li>組織に直接ルーティングするためのビジネスのすべてのユース ケースを文書化します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|次の手順|<ul><li>組織の音声会議のビジネスのすべてのユース ケースを文書化します。</li><li>組織の計画を呼び出すためのビジネスのすべてのユース ケースを文書化します。</li><li>組織に直接ルーティングするためのビジネスのすべてのユース ケースを文書化します。</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -128,7 +130,7 @@ ms.locfileid: "25372722"
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>各組織の主要な関係者の役割を入力したがでしょうか。</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>キーのすべての関係者を文書化し、割り当てられている個人の責任と役割への期待を通信します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|次の手順|<ul><li>キーのすべての関係者を文書化し、割り当てられている個人の責任と役割への期待を通信します。</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -211,17 +213,17 @@ KSIs を定義する場合は、特定、測定可能な割り当てることが
 > 
 > |リスク  |可能性  |影響  |全体  |軽減計画  |
 > |---------|---------|---------|---------|---------|
-> |予定されている合併により最大で 1,000 人の追加が見込まれる|高|高|高|<ul><li>結合された企業は、独自のプロジェクト フェーズ (Envision、Onboard、ドライブの値) に適用される個別の終わったらを作成します</li><li>既存の OKRs にこれらの OKRs は含めません。</li></ul>|
-> |電話番号の移行のためプロジェクトの完了が遅れる|高|高|高|<ul><li>電話番号を事前に (顧客サービス レコードの詳細は、文字の承認の請求) の移植をサポートするために必要なすべての情報を準備します。</li><li>電話番号への移植の実行の所要時間に対応するためのプロジェクトのタイムラインを調整します。</li><li>新しいダイヤルイン会議番号の使用を外部の参加者に伝える</li><li>発信者番号の操作による一時的な電話番号の使用</li></ul>|
+> |予定されている合併により最大で 1,000 人の追加が見込まれる|High|High|High|<ul><li>結合された企業は、独自のプロジェクト フェーズ (Envision、Onboard、ドライブの値) に適用される個別の終わったらを作成します</li><li>既存の OKRs にこれらの OKRs は含めません。</li></ul>|
+> |電話番号の移行のためプロジェクトの完了が遅れる|High|High|High|<ul><li>電話番号を事前に (顧客サービス レコードの詳細は、文字の承認の請求) の移植をサポートするために必要なすべての情報を準備します。</li><li>電話番号への移植の実行の所要時間に対応するためのプロジェクトのタイムラインを調整します。</li><li>新しいダイヤルイン会議番号の使用を外部の参加者に伝える</li><li>発信者番号の操作による一時的な電話番号の使用</li></ul>|
 > |計画されたネットワーク再設計|高|中|中|<ul><li>現代のコミュニケーションとコラボレーションのプラットフォームとして、チームを実装する前に、プロジェクトのスコープ内のサイトのネットワーク対応評価を実施します。</li></ul>|
-> |SBC の構成|高|高|高|<ul><li>既存の PBX の代替として、チームを実装する前にすべての SBC の構成要件を満たしていることを確認します</li><li>SBC のサポート リソースに直接ルーティングの SBC を構成するのには、適切なスキルがあることを確認します。</li></ul>|
+> |SBC の構成|High|High|High|<ul><li>既存の PBX の代替として、チームを実装する前にすべての SBC の構成要件を満たしていることを確認します</li><li>SBC のサポート リソースに直接ルーティングの SBC を構成するのには、適切なスキルがあることを確認します。</li></ul>|
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>組織 & #39; s OKRs と KSIs か。</li><li>どのようなリスクがある場合、組織内の電話会議の実装に関連する特定しますか? 特定したリスクの軽減の計画とは?</li><li>どのようなリスクがある場合、組織内のプランを呼び出すことの実装に関連する特定しますか? 特定したリスクの軽減の計画とは?</li><li>どのようなリスクがある場合、組織に直接ルーティングの実装に関連する特定しますか? 特定したリスクの軽減の計画とは?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>OKRs と KSIs を文書化し、リスクの登録を確立します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>Organization& #39; s OKRs と KSIs とは?</li><li>どのようなリスクがある場合、組織内の電話会議の実装に関連する特定しますか? 特定したリスクの軽減の計画とは?</li><li>どのようなリスクがある場合、組織内のプランを呼び出すことの実装に関連する特定しますか? 特定したリスクの軽減の計画とは?</li><li>どのようなリスクがある場合、組織に直接ルーティングの実装に関連する特定しますか? 特定したリスクの軽減の計画とは?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|次の手順|<ul><li>OKRs と KSIs を文書化し、リスクの登録を確立します。</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -262,7 +264,7 @@ KSIs を定義する場合は、特定、測定可能な割り当てることが
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>運営委員会が組織に必要なかどうかを決定します。</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>運営委員会のメンバーを識別します。</li><li>運営委員会の会議のスケジュールを設定します。</li><li>運営委員会の会議を準備します。</li><li>運営委員会の会議を保持します。</li><li>運営委員会の会議の入力に基づいてアクションを実行します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|次の手順|<ul><li>運営委員会のメンバーを識別します。</li><li>運営委員会の会議のスケジュールを設定します。</li><li>運営委員会の会議を準備します。</li><li>運営委員会の会議を保持します。</li><li>運営委員会の会議の入力に基づいてアクションを実行します。</li></ul>|
 
 適切な運営委員会を運営する方法に関する、追加の詳細なガイダンスについては、[運営委員会のガイド](envision-steering-committee-complete-guide.md)を参照しています。
 

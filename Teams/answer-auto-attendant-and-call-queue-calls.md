@@ -9,15 +9,17 @@ ms.service: msteams
 description: 電話システムの自動応答、通話キューとチーム内のこれらの呼び出しを得ることができる方法を説明します。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b0b533020def2e344991fa758304888c8166436
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c010ae5a812cfd3d49279dd3728e948bdb31ca53
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530947"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465333"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>自動アテンダントが応答し、チームから直接キューの呼び出しを呼び出す
 ===========================================================
@@ -38,7 +40,7 @@ ms.locfileid: "26530947"
 
 ![着信通知](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
-ユーザーが他の呼び出し & #x 2014; のような呼び出しを処理できる、自動アテンダントまたは呼び出しキューの呼び出しが応答すると、1 回追加することや会議の他のユーザーまたは別の関係者への呼び出しを転送します。 また、自動アテンダントの呼び出しは、ユーザーの構成に基づいて転送されます。
+ユーザーが、他の呼び出し & #x 2014; のような呼び出しを処理できる、自動アテンダントまたは呼び出しキューの呼び出しが応答すると、1 回追加することや会議の他のユーザーまたは別の関係者への呼び出しを転送します。 また、自動アテンダントの呼び出しは、ユーザーの構成に基づいて転送されます。
 
 > [!NOTE] 
 > ユーザーの構成に基づくキューの呼び出しの呼び出しは転送されません。 これは、呼び出し元は、エージェントが通話に応答するまでキューに残ることを確認するのには、呼び出し元が予期せずに転送されていないとします。
@@ -59,7 +61,7 @@ ms.locfileid: "26530947"
 ## <a name="related-topics"></a>関連トピック
 
 -   [Office 365 の電話システムとは](what-is-phone-system-in-office-365.md)
--   [電話システムの通話キューを作成する](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
--   [電話システムの自動応答について](what-are-phone-system-auto-attendants.md)
+-   [電話システムの呼び出しキューを作成する](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+-   [電話システムの自動応答とは](what-are-phone-system-auto-attendants.md)
 -   [電話システムの自動応答をセットアップする](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 

@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: 展開の目標の特定、進行状況を追跡およびブロックを削除するには、主要な関係者とプロジェクト リーダーの管理グループを識別します。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecbefe68b00e8388298ee6eb64ddbdc55ad0eeb9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 010d4e2b7a9f64ca57e38b185b013d92b4d7c1ca
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014484"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464285"
 ---
 # <a name="steering-committee"></a>運営委員会
 
@@ -50,7 +52,7 @@ ms.locfileid: "25014484"
 
 -   識別、管理、および、ギャップ、リスク、およびその他の影響が、委員会から必要がある問題を軽減します。
 
--   エグゼクティブ スポンサーまたは優先順位付け、利害関係者のビジネス単位間で競合を解決して、エスカレーションが必要な問題の経営幹部のリーダーシップ ・ チームからのサポートを収集します。 
+-   エグゼクティブ スポンサーまたは優先順位付け、利害関係者のビジネス単位間で競合を解決して、エスカレーションが必要な問題の経営幹部のリーダーシップ ・ チームからのサポートを収集します。 
 
 -   正式なフィードバックと経営幹部のリーダーシップ、変更諮問委員会では、またはその他のビジネスおよび IT 関係者の適切な推奨事項を提供します。
 
@@ -163,7 +165,7 @@ ms.locfileid: "25014484"
 
 7.  出席者に、作成したプレゼンテーションを含むフォロー アップの電子メールを送信し、撮影したすべてのメモを追加します。 参加していない人を含めることを確認します。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 運営委員会の概要を確認して、今度は機能します。プロジェクト チームは、プロジェクトのタイムラインに運営委員会を実装し、正規の運営委員会会議のリズムを準備する作業を開始する必要があります。 理想的には、前にプロジェクトの開始とのすべてのフェーズでは、全体のガイダンスを提供する場合は、成功するプロジェクト チームをガイドする委員会が形成委員会の形式です。
 

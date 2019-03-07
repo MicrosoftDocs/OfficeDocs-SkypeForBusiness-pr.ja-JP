@@ -10,27 +10,29 @@ description: ビジネスのハイブリッド展開するため、Skype から�
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c78c5b519997c125dc1902021acabe664ea03047
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: e27e36a26115acf23536edb896066d6bc78daa4e
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349576"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464813"
 ---
-![展開に重点を置いて、アップグレードの旅の段階や実装段階](media/upgrade-banner-deployment.png "展開に重点を置いて、アップグレードの旅の段階や実装段階")
+![展開と実装の段階に重点を置いた、アップグレード手順の各段階](media/upgrade-banner-deployment.png "展開と実装の段階に重点を置いた、アップグレード手順の各段階")
 
-この資料は、アップグレード、旅の導入と展開の段階の一部です。 進む前に、次のアクティビティを完了したしたことを確認します。
+この記事は、お客様のアップグレード手順における展開と実装の段階の一部を取り上げています。 先に進む前に、次のアクティビティを完了していることを確認してください。
 
-- [プロジェクトの利害関係者が参加しています。](upgrade-enlist-stakeholders.md)
-- [プロジェクト スコープの定義](https://aka.ms/SkypetoTeams-Scope)
-- [ビジネスとチームの共存と Skype の相互運用性を理解します。](https://aka.ms/SkypeToTeams-Coexist)
-- [アップグレード、旅を選択](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [環境を準備](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [組織の準備](https://aka.ms/SkypeToTeams-UserReadiness)
-- [パイロットを実施しました。](https://aka.ms/SkypeToTeams-Pilot)
+- [プロジェクトの関係者をリスト化した](upgrade-enlist-stakeholders.md)
+- [プロジェクトの対象範囲を定義した](https://aka.ms/SkypetoTeams-Scope)
+- [Skype for Business と Teams の共存と相互運用を理解した](https://aka.ms/SkypeToTeams-Coexist)
+- [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [環境を準備した](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [組織を準備した](https://aka.ms/SkypeToTeams-UserReadiness)
+- [パイロットを実施した](https://aka.ms/SkypeToTeams-Pilot)
 
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>ビジネスのハイブリッド展開するため、Skype からチームへのアップグレードします。
 
@@ -45,13 +47,13 @@ Skype のビジネスを展開しているや Microsoft Lync の設置型と、O
 
 ## <a name="step-2-assign-a-coexistence-and-upgrade-mode"></a>手順 2: は、共存を割り当てるし、モードのアップグレード
 
-Skype をオンライン ビジネスのユーザーに移動した、割り当てることができます、組織が選択したアップグレードの旅に基づく適切な共存モードです。 詳細についてを参照してください[、共存を設定および設定をアップグレード](https://aka.ms/SkypeToTeams-SetCoexistence)し、 [TeamsUpgradePolicy: 移行と共存を管理する](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)。
+Skype for Business Online にユーザーを移動したら、組織が選択したアップグレードの手順に応じて、ユーザーに適切な共存モードを割り当てます。 詳細については、「[共存およびアップグレードを設定する](https://aka.ms/SkypeToTeams-SetCoexistence)」および「[TeamsUpgradePolicy: 移行と共存の管理](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)」を参照してください。
 
 > [!NOTE]
-> ビジネス サーバー 2019 およびビジネス サーバー 2015 の Skype の今後の累積的な更新プログラムの Skype でことができます (ユーザーの Skype をオンライン ビジネスの移動) ステップ 1 とステップ 2 (チームへのアップグレードのユーザー) を 1 ステップで実行します。 詳細については、ビジネス サーバー 2019 の Skype のリリース後に提供されます。
+> ビジネス サーバー 2019 およびビジネス サーバー 2015 の Skype の今後の累積的な更新プログラムの Skype でことができます (ユーザーの Skype をオンライン ビジネスの移動) ステップ 1 とステップ 2 (チームへのアップグレードのユーザー) を 1 ステップで実行します。 詳細については、Skype for Business Server 2019 のリリース後に発表されます。
 
-## <a name="phone-system-and-teams-upgrade"></a>電話システムとチームのアップグレード
+## <a name="phone-system-and-teams-upgrade"></a>電話システムと Teams のアップグレード
 
-ビジネスのハイブリッド展開計画を呼び出すと、電話システムには、Skype に移行しているし、Microsoft は、公衆交換電話網 (PSTN) プロバイダーになる場合、電話番号の移植が完了したことを前提として、-にユーザーをアップグレードします。チームは、チームを呼び出す受信の PSTN と自動的に遷移させます。
+Skype for Business のハイブリッド展開を通話プラン付きの電話システムに移行して、Microsoft が公衆交換電話網 (PSTN) プロバイダーになる場合、電話番号持ち運びの手続きを完了していれば、ユーザーを Teams にアップグレードすることで、着信 PSTN 通話は自動的に Teams に移行されます。
 
-計画を呼び出すことがない、または、既存の PSTN 接続のプロバイダーを使用する、エンタープライズ ボイス展開に移行する必要があります- または、既存を使用するハイブリッド ボイスの展開設置型展開またはクラウド コネクタ エディション-にマイクロソフトの電話システムでは、ルーティングを指示します。 チームにユーザーをアップグレードするには、[電話システムの直接のルーティングのための追加の考慮事項](2-envision-make-my-service-decisions-direct-routing.md)を参照してください。
+計画を呼び出すことがない、または、既存の PSTN 接続のプロバイダーを使用する、エンタープライズ ボイス展開に移行する必要があります- または、既存を使用するハイブリッド ボイスの展開設置型展開またはクラウド コネクタ エディション-にマイクロソフトの電話システムでは、ルーティングを指示します。 ユーザーを Teams にアップグレードする場合は、[電話システム ダイレクト ルーティングに関する考慮事項](2-envision-make-my-service-decisions-direct-routing.md)を参照してください。

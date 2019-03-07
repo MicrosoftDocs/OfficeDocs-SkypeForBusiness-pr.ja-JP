@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
-ms.openlocfilehash: 9339efa3dfe9f7984b23dd46ce0fac47dbe4b9ee
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: b6e7dd3d109dfd9fab169b1cb8ec37e28f35bbc0
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865217"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30453988"
 ---
 # <a name="skype-for-business-online-reporting"></a>Skype for Business Online のレポート
 
@@ -57,7 +57,7 @@ Office 365 とビジネス管理センターでの Skype では、Skype のオ�
 |[ビジネス PSTN の分の Skype のプール レポート](pstn-minute-pools-report.md) <br/> | 機能は、呼び出しに使用されるライセンスおよびサービス プランです。 <br/> ライセンスの種類 <br/> 機能の説明 <br/> 国分プール  <br/> 使用分 <br/> 総分数 <br/> 月の利用時間の割合 <br/> |
 |[Skype ビジネス セッション詳細レポート](session-details-report.md) <br/> | ユーザー エイリアス <br/> ダイアログ ID  <br/> メディアの種類  <br/> 開始時刻と終了時刻 <br/> URI との間 <br/> 会議 URL <br/> 電話番号 <br/> |
  
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連トピック
 [Office 365 管理センターのアクティビティ レポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

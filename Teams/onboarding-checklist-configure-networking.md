@@ -10,19 +10,21 @@ ms.reviewer: rowille
 description: チームのネットワークを構成する場合、コア、to do のタスクと活動このチェックリストに従います。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68ebb697cdd8469b8a9c373b4c90bb970b5c7ce5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 188a4d162f31805484d3b491d32976662f4ddfd5
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016318"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461029"
 ---
 # <a name="configure-networking"></a>ネットワークを構成します。
 
-| なし | 活動またはタスク | 説明 | 完了状態 | 追加情報 |
+| 不要 | 活動またはタスク | 説明 | 完了状態 | 追加情報 |
 |----|--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1  | チーム用のネットワーク要件を確認します。 | ネットワークの詳細に入る前に、ネットワーク要件の全体像があります。 | | [Microsoft Teams 用に組織のネットワークを準備する](https://docs.microsoft.com/microsoftteams/prepare-network)                                                               |
 | 2  | ネットワークの準備のワーク ショップを提供します。 | MyAdvisor、ネットワーク対応のワーク ショップを完了し、改善努力の一環としてアドレスへの重要な領域を識別する、チームで作業します。 | | [MyAdvisor ネットワーク準備資産](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
@@ -31,7 +33,7 @@ ms.locfileid: "25016318"
 | 5  | マイクロソフトのデータ センターに最も効率的なルーティングを実装します。 | マイクロソフト ネットワークへの接続を可能な限り効率的にするにはローカルまたは地域の出口ポイントを使用できる場所を特定します。 <br/><br/>**追加の情報**列内のアーティクルでは、どのようにクライアントを利用して Office 365 の名前解決で IP ルーティングを効率的に最も近い地域のデータ センターに接続する機能のについて説明します。 | | [Office 365 クライアントの接続性](https://support.office.com/article/Client-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b) |
 | 6  | チームへの接続を要求されたファイアウォールのポートを構成します。 | 識別し、オンプレミスのクライアントおよびサーバーと Office 365 のサービス間の接続に必要なファイアウォールのポートをテストするには、Office 365 の Url と ip アドレスを確認します。 <br/><br/>サポートされている環境では、ファイアウォール上のすべてのポートを開く必要があります。 いくつかのポートまたは範囲を開くことができない悪影響を及ぼすユーザー エクスペリエンスです。 **追加の情報**列のガイダンスに基づくファイアウォールでは、メディアのポートを構成します。 | | [Office 365 の Url と IP アドレス: マイクロソフトのチーム](https://support.office.com/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) |
 | 7  | プロキシ サーバーを構成します。 | プロキシ サーバーをバイパスし、最適なオーディオとビデオの品質の UDP を使用して、Office 365 に直接ユーザーを接続することができるように、環境を構成します。 リアルタイム メディアは、強制的にプロキシ サーバーを通過するときにチームでメディア スタック強制的に TCP で、品質に悪影響を及ぼす影響にフェールバックされます。 <br/><br/>最高品質のユーザー エクスペリエンスでは、常に TCP 経由で UDP を好みます。 | | [サービスの管理と品質の計画](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide) |
-| 8  | 分割トンネル VPN を構成します。 | 一般*スプリット トンネル VPN*と呼ばれ、VPN を迂回するトラフィックをチームの代替パスを提供することをお勧めします。 分割トンネリングは、Office 365 へのトラフィックが VPN を経由しませんが、Office 365 に直接ことを意味します。 この変更は品質に良い影響を与えるがも VPN デバイスと組織のネットワークの負荷の軽減の第 2 の利点を提供します。 | | スプリット トンネル VPN を実装するには、VPN ベンダー構成の詳細について参照してください。 |
-| 9  | QoS を使用してパケットの優先順位付けを構成します。 | 管理されたネットワーク上のすべてのセグメントには、QoS を実装する必要があります。 ネットワークが適切に準備されて帯域幅の QoS は、ネットワークの予期しないイベントが発生した場合のリスクの軽減を提供します。 QoS を実装すると音声トラフィック優先度は、これらの予期しないイベントの品質に悪影響をしないようにします。 | | [サービスの管理と品質の計画](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide) <br/><br/>[マイクロソフトのチームでのサービスの品質](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams) |
-| 10 | Wi-fi ネットワークの品質およびパフォーマンスを最適化します。 | いくつかの要因では、Wi-fi ネットワークを最適化するときが活躍します。 <ul><li>Wi-fi ネットワーク経由でそのメディア トラフィックを確認するには、QoS または Wi-fi マルチ メディア (WMM) を実装することが優先順位付けします。</li><li>計画および Wi-fi バンドとアクセスを最適化する位置をポイントします。 2.4 GHz の範囲では、アクセス ポイントの配置によって、適切なパフォーマンスを提供可能性があります。</li></ul> 特定のガイダンスについては、Wi-fi の仕入先を参照してください。 | | [エンドポイントの Wi-fi の推奨事項](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#wi-fi-recommendations-for-endpoints) |
+| 8  | 分割トンネル VPN を構成します。 | 一般*スプリット トンネル VPN*と呼ばれ、VPN を迂回するトラフィックをチームの代替パスを提供することをお勧めします。 分割トンネリングは、Office 365 へのトラフィックが VPN を経由しませんが、Office 365 に直接ことを意味します。 この変更は、品質に良い影響をおよぼしますが、二次的な利点として、VPN デバイスおよび組織のネットワークの負荷を低減します。 | | スプリット トンネル VPN を実装するには、VPN ベンダー構成の詳細について参照してください。 |
+| 9  | QoS を使用してパケットの優先順位付けを構成します。 | 管理されたネットワーク上のすべてのセグメントには、QoS を実装する必要があります。 ネットワークが適切に準備されて帯域幅の QoS は、ネットワークの予期しないイベントが発生した場合のリスクの軽減を提供します。 QoS を実装すると音声トラフィック優先度は、これらの予期しないイベントの品質に悪影響をしないようにします。 | | [サービスの管理と品質の計画](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide) <br/><br/>[Microsoft Teams でのサービスの品質 (QoS)](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams) |
+|  10 | Wi-fi ネットワークの品質およびパフォーマンスを最適化します。 | いくつかの要因では、Wi-fi ネットワークを最適化するときが活躍します。 <ul><li>Wi-fi ネットワーク経由でそのメディア トラフィックを確認するには、QoS または Wi-fi マルチ メディア (WMM) を実装することが優先順位付けします。</li><li>計画および Wi-fi バンドとアクセスを最適化する位置をポイントします。 2.4 GHz の範囲では、アクセス ポイントの配置によって、適切なパフォーマンスを提供可能性があります。</li></ul> 特定のガイダンスについては、Wi-fi の仕入先を参照してください。 | | [エンドポイント向けの Wi-Fi の推奨事項](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#wi-fi-recommendations-for-endpoints) |
 | 11 | ネットワーク評価ツールを使用してネットワークの接続性を検証します。 | ビジネスとチームの Skype のすべての IP アドレスおよびオンライン ビジネスおよびチーム通話や会議のため、Skype で使用するポートへの接続をテストするのにはネットワーク ・ アセスメント ・ ツールを使用します。 ツールをダウンロードし、ツールを使用し、テスト結果を解釈する方法の詳細については Usage.docx を参照してください。 チームが使用するそれぞれの場所のクライアント コンピューターからツールを実行することをお勧めします。 | | [Skype ビジネスおよびチーム ネットワーク評価ツール](https://go.microsoft.com/fwlink/?linkid=855799) |

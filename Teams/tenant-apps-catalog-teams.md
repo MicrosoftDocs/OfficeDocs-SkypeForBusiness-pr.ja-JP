@@ -1,5 +1,5 @@
 ---
-title: マイクロソフト チーム テナント アプリケーション カタログにアプリケーションを発行します。
+title: Microsoft Teams テナント アプリ カタログにアプリを公開する
 author: ChuckEdmonson
 ms.author: lolaj
 manager: serdars
@@ -10,17 +10,19 @@ ms.reviewer: prem
 description: マイクロソフト チームのテナントのアプリケーション カタログでアプリケーションを発行するためのガイダンスです。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2454ad195fbecb25b30218ac156e62d396b4a6dd
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: c7e280d0e0034290232010897b34e0e30319bd51
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674821"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464213"
 ---
-<a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>マイクロソフト チーム テナント アプリケーション カタログにアプリケーションを発行します。
+<a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>Microsoft Teams テナント アプリ カタログにアプリを公開する
 =======================================================
 
 マイクロソフト チームのテナントのアプリケーション カタログを使用するにはテストし、組織の基幹業務アプリケーションを配布します。 

@@ -5,7 +5,9 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: bjwhalen
 search.appverid: MET150
 description: 共存モードを選択し、他の共存の設定を設定するには、この資料が役立ちます。
@@ -13,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5195b929cb5da2fc462cc2ed6826300d835c2b35
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 55ed1396cd9c16b96e7d230429ccf25c1802473e
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753998"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460405"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>共存およびアップグレードを設定する
 

@@ -10,24 +10,26 @@ description: 組織とユーザーは、マイクロソフトのチームの準�
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1212201f56093ea1e0e274f560cd1cd5473b13d7
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 00294800f0e63c45c550b46be59623349ed3ade7
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349288"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465237"
 ---
 ![ユーザーの準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-user-readiness.png "ユーザーの準備段階に重点を置いて、旅アップグレードの段階")
 
 この資料では、アップグレードの旅、技術的な準備段階と並行して、完了したアクティビティのユーザーの準備段階の一部です。 次に進む前に前の段階からこれらの活動を完了していることを確認します。
 
-- [プロジェクトの利害関係者が参加しています。](upgrade-enlist-stakeholders.md)
-- [プロジェクト スコープの定義](https://aka.ms/SkypetoTeams-Scope)
-- [ビジネスとチームの共存と Skype の相互運用性を理解します。](https://aka.ms/SkypeToTeams-Coexist)
-- [アップグレード、旅を選択](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [プロジェクトの関係者をリスト化した](upgrade-enlist-stakeholders.md)
+- [プロジェクトの対象範囲を定義した](https://aka.ms/SkypetoTeams-Scope)
+- [Skype for Business と Teams の共存と相互運用を理解した](https://aka.ms/SkypeToTeams-Coexist)
+- [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="assess-organizational-change-readiness"></a>組織変更の導入準備を評価します。
 
@@ -42,7 +44,7 @@ ms.locfileid: "29349288"
 | | |
 |---|---|
 | ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>変更する際に、組織の文化とは?</li><li>新しいテクノロジーがユーザーの作業方法を最適化する方法ことができますか。</li><li>ユーザーは、作業方法を変更させるために特別な注意を必要とする可能性がありますか。</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>準備の組織のユーザー プロファイルをキャプチャするのには、次のガイダンスと関連付けられているアクティビティを使用します。</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>準備の組織のユーザー プロファイルをキャプチャするのには、次のガイダンスと関連付けられているアクティビティを使用します。</li></ul>|
 
 ## <a name="organizational-change-readiness"></a>組織の変更の準備完了
 
@@ -102,7 +104,7 @@ ms.locfileid: "29349288"
 | | |
 |---|---|
 | ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>チームのユーザーの採用を促進し、ビジネスの Skype からのアップグレードを容易にするために役立つ relatable チームワーク シナリオを採用するでしょうか。</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>チームワーク シナリオを作成するために次のサンプルを使用します。 [ブックのアップグレード](https://aka.ms/upgradesuccesskit)で、文書化します。</li><li>その他のシナリオと例については、[生産性のライブラリ](https://www.microsoft.com/en-us/microsoft-365/success/)に移動します。</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>チームワーク シナリオを作成するために次のサンプルを使用します。 [ブックのアップグレード](https://aka.ms/upgradesuccesskit)で、文書化します。</li><li>その他のシナリオと例については、[生産性のライブラリ](https://www.microsoft.com/en-us/microsoft-365/success/)に移動します。</li></ul>|
 
 ### <a name="examples"></a>例
 

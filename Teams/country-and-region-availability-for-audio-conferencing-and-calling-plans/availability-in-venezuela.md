@@ -9,7 +9,7 @@ ms.assetid: f06f3109-bb9b-4477-85e8-a4aab06450af
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ベネズエラの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: 45d46fc84bd11192afd2924d9734b7d8cff588f7
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: e2ee2e3ee6dd4c93e4ba6a83d8c1e0bc1d95fd87
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351235"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465085"
 ---
 # <a name="availability-in-venezuela"></a>ベネズエラでの利用可能性
 

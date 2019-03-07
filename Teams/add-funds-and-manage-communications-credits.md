@@ -1,5 +1,5 @@
 ---
-title: 利用可能残高を追加してコミュニケーション クレジットを管理する
+title: 資金を追加してコミュニケーション クレジットを管理する
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,8 +13,7 @@ ms.service:
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -32,14 +31,14 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'ビジネス サービスの通信のクレジット (PSTN の消費) の Skype のお支払いし、継続的な電話システムのアクセス権を持つユーザーを保持する計画を参照してくださいする方法について説明します。 '
-ms.openlocfilehash: 1ae700c315188fe68d856a0a39b5dd35a4997a0c
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 1c4fc9b9834b11c641961651843073a2392bc95b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047225"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459349"
 ---
-# <a name="add-funds-and-manage-communications-credits"></a>利用可能残高を追加してコミュニケーション クレジットを管理する
+# <a name="add-funds-and-manage-communications-credits"></a>資金を追加してコミュニケーション クレジットを管理する
 
 通信のクレジットは、電話システムと Office 365 のプランを呼び出すことをお支払いする便利な方法です。 役立てることとユーザーがまったく流行しなかったことを確認します。
   
@@ -81,7 +80,7 @@ ms.locfileid: "30047225"
     
 You can also see information by [signing in to the Office 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Subscriptions** > **Add subscriptions**.
   
-各機能に必要なライセンスの表を確認するには、「[Skype for Business と Microsoft Teams のアドオン ライセンス](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)」をご覧ください。
+ライセンスまたはライセンスの機能ごとにする必要があるテーブルを参照してください [teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
 ## <a name="related-topics"></a>関連トピック
 
@@ -91,7 +90,5 @@ You can also see information by [signing in to the Office 365 admin center](http
     
 - [呼び出しプランの設定](set-up-calling-plans.md) および [Office 365 の呼び出しプラン](calling-plans-for-office-365.md)
         
-- [クラウド コネクタを構成して](https://technet.microsoft.com/library/mt605228.aspx)、[クラウドのコネクタをダウンロード](https://aka.ms/CloudConnectorInstaller)
-
-  
+ 
  

@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: ビジネス管理センターのレポート領域の新しい Skype では、組織内を呼び出し、オーディオ会議のアクティビティを示しています。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 などのビジネス PSTN 分プール レポートの Skype を使用すると、組織内で現在の月の期間中に消費する分の数を参照してください。
-ms.openlocfilehash: 2840ac4bde1234f0f87fe17c41f43b6efad647b5
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: 903ea97fa5cd187e49db89d0e4db32ad7b851a41
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182377"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30454018"
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN の利用分数プール レポート
 
@@ -62,7 +62,7 @@ ms.locfileid: "27182377"
 ![ナンバー 1](../images/sfbcallout1.png)<br/>(機能) のライセンスと使用法の場所での分のプールの内訳を表に示します。 
 *    **機能**は、呼び出しに使用されるライセンスおよびサービス プランです。 このレポートに表示されるライセンスおよびサービスの計画は次のとおりです。
      * MCOPSTN1 - 国内の呼び出し (3000 分分 1200 米国と EU の計画の計画
-     * MCOPSTN2 - 国内および国際を呼び出す計画する国内のプール (3000 分 PR/米国/カナダ、1200 分のヨーロッパの国々) と国際プール (600 分) に表示されます。 カレンダー月で国内 OR 国際 cap に達するたびに分の上限に達しました。 
+     * MCOPSTN2 - 国内の & 国際を呼び出すことを計画、国内のプール (3000 分 PR/米国/カナダ、1200 分のヨーロッパの国々) と国際プール (600 分) に表示されます。 カレンダー月で国内 OR 国際 cap に達するたびに分の上限に達しました。 
      * MCOPSTN5 - 国内の呼び出しのプラン (120 分の通話プラン)
      * MCOPSTN6 - 国内の呼び出しの計画 (240 分の通話プラン)
      * MCOMEETADD - オーディオ会議

@@ -7,7 +7,9 @@ ms.reviewer: jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -16,14 +18,14 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: メッセージング ポリシーとそれらを使用してメッセージング チームのチャットを制御する方法について説明します。
-ms.openlocfilehash: 6349bd8299883fe213797a51e7051411c74298ef
-ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
+ms.openlocfilehash: b30b14ef8db70a6d8d88d4413a82fd1d672da13b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30302666"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465301"
 ---
-# <a name="what-are-messaging-policies-in-teams"></a>Teams でのメッセージング ポリシーについて
+# <a name="what-are-messaging-policies-in-teams"></a>Teams でのメッセージング ポリシーについて  
 
 ::: zone target="docs"
 メッセージング ポリシーは、マイクロソフトのチームのユーザーに利用するチャットとチャネルのメッセージング機能を制御するために使用されます。 作成されるか、組織内の 1 つまたは複数のカスタム メッセージング ポリシーを作成する既定のポリシーを使用することができます。 ポリシーを作成したら、割り当てる、ユーザーまたはユーザー グループ、組織内。
@@ -35,8 +37,7 @@ ms.locfileid: "30302666"
 組織の既存の既定のメッセージング ポリシーを編集するに**グローバル (組織全体の既定値)** の行をクリックし、変更してください。 新しいカスタム メッセージング ポリシーを作成するには、[**新しいポリシー** ] をクリックし、設定を選択します。 したら**保存**を選択します。
 
 ![チームでのメッセージングのポリシー設定](media/messaging-policies-image2.png)
-::: zone-end
-
+::: zone-end  
 ::: zone target="chromeless"
 グローバル メッセージング ポリシーを変更するか、新しいカスタム ポリシーを作成するには、次の設定を使用します。
 

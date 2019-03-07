@@ -11,8 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-collaboration
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: オーディオ会議を使用する場合、お客様から取得する上位の質問の一部を次に示します。
-ms.openlocfilehash: 3ede756aff99f5be8d8b5f703860d54554d34ea9
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 104f4affe4eb5459d8647174fea1801af4bff826
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353635"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465221"
 ---
 # <a name="audio-conferencing-common-questions"></a>電話会議に関するよくある質問
 

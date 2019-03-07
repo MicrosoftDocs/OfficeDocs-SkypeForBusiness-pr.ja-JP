@@ -9,7 +9,7 @@ ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: このトピックには、呼び出す予定がある場合、ユーザーはへの発信コールを配置できる国/地域のすべてが含まれます。
-ms.openlocfilehash: 59cfb8f99392538313f67ff80f13aa394cfa4352
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 1965e362114b98f2b41cf3f3efbf74fcab93a83c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351947"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465101"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>ユーザーが通話を発信できる相手先の国や地域
 

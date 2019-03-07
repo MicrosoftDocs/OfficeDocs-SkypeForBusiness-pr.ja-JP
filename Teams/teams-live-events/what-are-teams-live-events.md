@@ -1,24 +1,26 @@
 ---
-title: ライブ イベントをマイクロソフトのチームは何ですか。
+title: Microsoft Teams のライブ イベントについて
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: tonysmit
 search.appverid: MET150
 description: どのようにビデオ、およびマイクロソフトのチーム、Yammer、および Microsoft のストリームでの大規模なオンライン ユーザーを対象にコンテンツをブロードキャストするユーザーを有効にするイベントについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 881d5c2754703766cb9b84525472bfa18fc6e651
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 4a818e95bf4d71fca06e7ea08f0bcff47efe4e2f
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532242"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461053"
 ---
-# <a name="what-are-microsoft-teams-live-events"></a>ライブ イベントをマイクロソフトのチームは何ですか。
+# <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams のライブ イベントについて
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 ## <a name="overview"></a>概要
@@ -27,7 +29,7 @@ ms.locfileid: "26532242"
 
 Microsoft 365 のライブ イベントは、接続全体の契約のライフ サイクル全体を通じて参加者と、実行中に、前後のライブ イベントの促進、新たなレベルへのストリーミング ライブのビデオを表示します。 Yammer または対象ユーザー、チーム、またはコミュニティが存在する、Microsoft のストリーム、マイクロソフトのチームを使用して任意の場所には、ライブ イベントを作成できます。  
 
-チャット ベースのコラボレーション、通話、会議、チームが提供し、ライブ イベントのため開くことができます、会議の参加者。 チームのライブ イベントは、大規模なオンライン ユーザーにビデオ、および会議のコンテンツをブロードキャストするユーザーを有効にすると、チームの会議の拡張です。 これらは、一対多の通信の相互作用をリードしているイベントのホストと、ホストによって共有されているコンテンツを表示するのには、出席者の参加が主な目的は場所のものです。 出席者は Yammer、チーム、および Microsoft のストリーム、ライブまたは記録されたイベントを見ることができ、モデレート Q を使用して、発表者と、または、Yammer の会話と対話できます。 
+チャット ベースのコラボレーション、通話、会議、チームが提供し、ライブ イベントのため開くことができます、会議の参加者。 チームのライブ イベントは、大規模なオンライン ユーザーにビデオ、および会議のコンテンツをブロードキャストするユーザーを有効にすると、チームの会議の拡張です。 これらは、一対多の通信の相互作用をリードしているイベントのホストと、ホストによって共有されているコンテンツを表示するのには、出席者の参加が主な目的は場所のものです。 出席者は、Yammer、チーム、および Microsoft のストリーム、ライブまたは記録されたイベントを見ることができ、モデレート Q & A または Yammer の会話を使用して、発表者と対話できます。 
 
 ライブ イベントは、次のバージョンの Skype 会議のブロードキャストと見なされ、最終的には、チームでは、Skype 会議をブロードキャストすることで提供される機能を置き換えます。 チームのライブ イベントのパブリック プレビュー リリースでは、実行中に新しい、または今後のイベントのサービスの中断は生じませんが、Skype 会議をブロードキャストをサポートするために継続します。 ただし、あなたのチームをすべて画面の共有、新しい画期的な機能を活用するのにはライブ イベント参加者数、奨励・推進して外部のハードウェアとソフトウェアのエンコーダーをサポートします。 
 
@@ -71,7 +73,7 @@ ECDN の目標は、ビデオ コンテンツをインターネットから取�
 
 ![ライブ イベントの参加者を示すスクリーン ショットが発生します。](../media/teams-live-events-attendee.png "ライブ イベントの参加者を示すスクリーン ショットが発生します。")
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 [チームのライブ イベントの計画](plan-for-teams-live-events.md)に移動します。
 
 ### <a name="related-topics"></a>関連トピック

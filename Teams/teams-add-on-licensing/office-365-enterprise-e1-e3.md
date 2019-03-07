@@ -1,5 +1,5 @@
 ---
-title: Office 365 エンタープライズ E1 と E3 の計画
+title: Office 365 Enterprise E1、E3 プラン
 ms.date: 02/15/2019
 ms.author: tonysmit
 author: tonysmit
@@ -8,7 +8,9 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -17,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオン ・ ライセンス、機能、および Office 365 エンタープライズ E1 と E3 の計画のために購入する方法について説明します。 '
-ms.openlocfilehash: d31ceafd950f17b231b501f820951701b224757d
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 552aaf7f9cc7970c8baa97ce183ada6d5eab26ad
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30127599"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460685"
 ---
 # <a name="office-365-enterprise-e1-and-e3"></a>Office 365 エンタープライズ E1 と E3
 

@@ -11,7 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-collaboration
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Office 365 の管理者は、組織内の個別のユーザーについて、プロバイダー、既定の有料電話番号または無料電話番号、会議 ID、または PIN などの Microsoft Teams の電話会議の設定を編集することができます。 '
-ms.openlocfilehash: 121a6e1b0440ff5749dfa54ffb95523055fe96a2
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 55d9b326b98dd24cb98262b7104e7de1361a6e8e
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353355"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460229"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Microsoft Teams でユーザーの電話会議の設定を管理する
 

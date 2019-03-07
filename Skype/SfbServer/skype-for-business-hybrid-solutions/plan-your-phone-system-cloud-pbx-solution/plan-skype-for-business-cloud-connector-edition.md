@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Skype for Business Cloud Connector エディションについて紹介します。Skype for Business Cloud Connector エディションは、Office 365 の電話システム (クラウド PBX) でのオンプレミスの PSTN 接続を実装する、パッケージ化された仮想マシン (VM) のセットです。
-ms.openlocfilehash: 6fcdaf3d3186effa5bb88f1252d51537dd1dba5f
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: 4d03d8ea6936ad906de01a5b478fce01d62113c4
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30210692"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30454136"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Skype for Business Cloud Connector エディションの計画
 
 Skype for Business Cloud Connector エディションについて紹介します。Skype for Business Cloud Connector エディションは、Office 365 の電話システム (クラウド PBX) でのオンプレミスの PSTN 接続を実装する、パッケージ化された仮想マシン (VM) のセットです。
 
-クラウド コネクタのエディションは、既にがありません、既存の Lync Server または Skype ビジネス サーバー導入の場合、組織に最適なソリューションにすることがあります。 ソリューションで Office 365 の電話システムはビジネスに適したを調査しているが場合、は、 [Office 365 (クラウド PBX) ソリューションの電話システムの計画](plan-your-phone-system-cloud-pbx-solution.md)を参照してください。
+クラウド コネクタのエディションは、既にがありません、既存の Lync Server または Skype ビジネス サーバー導入の場合、組織に最適なソリューションにすることがあります。 ソリューションで Office 365 の電話システムはビジネスに適したを調査しているが場合、は、[マイクロソフトのテレフォニー ソリューション](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)を参照してください。
 
 このドキュメントでは、クラウド コネクタのエディションの要件とサポートされているトポロジでは、説明、クラウド コネクタ Edition の展開を計画するのに役立ちます。 されますが、コネクタのクラウド環境を構成する前に、このトピックを参照してください。 展開とクラウド コネクタのエディションの設定を参照してくださいする準備ができたら[構成およびビジネス クラウド コネクタ ・ エディションの Skype を管理する](configure-skype-for-business-cloud-connector-edition.md)。
 
@@ -705,7 +705,7 @@ Cloud Connector 2.1 以降では、Operations Management Suite (OMS) を使用�
 
 詳細については、以下を参照してください。
 
-- [Office 365 の電話システム (クラウド PBX) ソリューションを計画する](plan-your-phone-system-cloud-pbx-solution.md)
+- [マイクロソフトのテレフォニー ソリューション](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
 - [Skype for Business Cloud Connector エディションの構成と管理](configure-skype-for-business-cloud-connector-edition.md)
 

@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 設置 PSTN への接続では、Office 365 (クラウド PBX) の電話システムの計画の考慮事項について説明します。
-ms.openlocfilehash: 234c2966cb887c0adfdd15f518479ad5e363fe73
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: f0e73b2541bdab8d3e37db02bc023667ae942578
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30210630"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30454044"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Skype で設置した PSTN 接続を持つビジネス サーバーの Office 365 の電話システムを計画します。
 
 設置 PSTN への接続では、Office 365 (クラウド PBX) の電話システムの計画の考慮事項について説明します。
 
-このコンテンツは、または場合は既に Skype ビジネス サーバーに Lync Server 2013 の設置型の展開に関連します。 他のシナリオは、「 [Office 365 (クラウド PBX) ソリューションの電話システムの計画](plan-your-phone-system-cloud-pbx-solution.md)」を参照してください。
+このコンテンツは、または場合は既に Skype ビジネス サーバーに Lync Server 2013 の設置型の展開に関連します。 その他のシナリオでは、 [Microsoft のテレフォニー ソリューション](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)を参照してください。
 
  設置 PSTN への接続と Office 365 の電話システムでは、ユーザーの電話システム (PBX をクラウド) 機能を活用を行うことができます。 これは、次のようなシナリオで役立ちます。
 

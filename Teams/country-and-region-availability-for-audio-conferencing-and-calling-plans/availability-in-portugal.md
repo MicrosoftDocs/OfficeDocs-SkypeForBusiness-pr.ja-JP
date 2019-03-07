@@ -9,7 +9,7 @@ ms.assetid: 91951367-bb7c-4620-bc23-10e6a0ac58e0
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ポルトガルの利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: fe57e80ce4296a0d480c6e7c00e3342964554cad
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 72e580bfb56c8243239814758eb9f5653b35d2b5
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352579"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465165"
 ---
 # <a name="availability-in-portugal"></a>ポルトガルでの利用可能性
 

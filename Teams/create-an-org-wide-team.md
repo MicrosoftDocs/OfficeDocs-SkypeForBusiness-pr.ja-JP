@@ -10,15 +10,17 @@ ms.service: msteams
 search.appverid: MET150
 description: 作成し、チーム、組織全体にわたるチームを管理する方法について説明します。
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b838652ee68895d8c2be3768316aa200a203945
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: a63b39d0b0ef51326b253e87be99889e9a018a03
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182521"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461061"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Microsoft Teams で組織全体にわたるチームを作成する
 
@@ -40,9 +42,9 @@ ms.locfileid: "27182521"
 組織全体にわたるチームを最大限に活用、チームの所有者は、次の操作をお勧めします。
 
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>チームの所有者のみが一般的なチャネルへの投稿
-チャンネルのノイズを軽減するには、チームの所有者は、一般的なチャネルに投稿だけのこと。 チームに移動し、**その他のオプション (...)** をクリックします。 > **チームを管理**します。 [**設定**] タブの [**メンバーのアクセス許可**] をクリックします >**所有者だけがメッセージを投稿**を選択します。
+チャンネルのノイズを軽減するには、チームの所有者は、一般的なチャネルに投稿だけのこと。 チームに移動し、**その他のオプション (...)** をクリックします。 > **チームを管理**します。 [**設定**] タブには、**所有者だけがメッセージを投稿できる****メンバーのアクセス権**_gt の選択] をクリックします。
 ### <a name="turn-off-team-and-team-name-mentions"></a>@Team をオフにし、@ 参照投稿の [チーム名]
- 組織全体をオーバー ロードしないように、@mentions を削減します。 チームに移動し、**その他のオプション (...)** をクリックします。 > **チームを管理**します。 [**設定**] タブの [ **@mentions** ] をクリックします > をオフに**メンバー @team するためのオプションを表示するか、@[チーム名]**。 
+ 組織全体をオーバー ロードしないように、@mentions を削減します。 チームに移動し、**その他のオプション (...)** をクリックします。 > **チームを管理**します。 **@Mentions** _gt をオフをクリックして [**設定**] タブで、**メンバー @team するためのオプションを表示するか、@[チーム名]**。 
 ### <a name="automatically-favorite-important-channels"></a>自動的にお気に入りの重要なチャネル
  特定の会話を実施しており、組織内のすべてのユーザーを確認するお気に入りの重要なチャンネルです。 詳細については、[チーム全体の自動-お気に入りのチャンネル](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6)を参照してください。
 

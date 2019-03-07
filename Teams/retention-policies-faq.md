@@ -10,21 +10,23 @@ ms.reviewer: anach
 description: マイクロソフトのチームでのリテンション ・ ポリシーについてよく寄せられる質問です。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c8ebd3d35c471a529899cd46a364511f7ea267c
-ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
+ms.openlocfilehash: 7597565afcd63872554e867d8f68929a3e214538
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "25004579"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461021"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>マイクロソフトのチーム ・ リテンション ・ ポリシーに関する FAQ
 
 ### <a name="what-types-of-policies-can-i-set-up-in-retention-policies-and-how-do-they-work"></a>どのような種類のポリシーを設定すればよいのリテンション ・ ポリシーとどのように動作するでしょうか。
 
-セキュリティ/コンプライアンス ・ センターで、チーム、またはその他のワークロードでは、リテンション ・ ポリシーを設定すると 2 つの主な種類のポリシーを設定できます。 
+セキュリティ & コンプライアンス センターでは、[セットアップするときに、保持ポリシー、またはその他のワークロードでは、チームの 2 つの主な種類のポリシーを設定できます。 
 - 保存: これらのポリシーでは、エンド ユーザー ツールで何が起きても、時間の特定の期間のデータが保持されることを確認します。 これらは、コンプライアンス上の理由からデータが保存され、この時点までには、電子的証拠開示に利用可能な有効期限が切れることを確認します。 時間を経過した後、ポリシーは何もしない、またはデータを削除するかどうかを指定できます。 チームでエンド ・ ユーザー、チームのメッセージを削除する場合でも、7 年間、保持ポリシーを作成する場合これらのメッセージは保持されます電子的証拠開示の 7 年間。
 - 削除: これらのポリシーでは、データが組織の負債ではないことを確認します。 、指定した期間の後は、チームに関連するすべての記憶域からデータが削除されます。 
 
@@ -54,9 +56,9 @@ Exchange Online のメールボックスのグループとユーザーのメー�
 
 はい、オンライン ビジネスとチームの相互運用機能のチャットの Skype 同様に動作します。 ビジネス オンライン チャットの Skype は、チームには、そのチーム チャットのスレッド内のメッセージとなり、取得、適切なメールボックスに取り込まれ。 動作: を同じフロー、チームの削除ポリシーはチームのスレッドからこれらのメッセージを削除します。 ただし、会話の履歴がオンになって Skype のオンライン ビジネスの場合は、オンライン ビジネスのクライアント側の Skype からそれらを保存しているメールボックスにこのチャットのデータはチーム ・ リテンション ・ ポリシーによって処理されません。
 
-### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>どうすればこれらのセキュリティとコンプライアンスの中心のコマンドレットを使用しますか。 どう使用する必要がありますか。 
+### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>どうすればこれらのセキュリティ & コンプライアンス センター コマンドレットを使用しますか。 どう使用する必要がありますか。 
 
-そうですよ。 [セキュリティとコンプライアンス センターの Powershell コマンドレット]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)を使用するチーム ・ リテンション ・ ポリシーを作成できます。 オンライン Exchange コマンドレットがないことを覚えておいてください。 ここでは、コマンドレットのチームを作成しました。 従う既存の用語とスタイルから保存のコマンドレットが現在利用可能なセキュリティとコンプライアンスの中心にします。
+そうですよ。 [セキュリティ & コンプライアンス センターの Powershell コマンドレット]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)を使用してチーム ・ リテンション ・ ポリシーを作成できます。 オンライン Exchange コマンドレットがないことを覚えておいてください。 ここでは、コマンドレットのチームを作成しました。 従うセキュリティ & コンプライアンス センターで現在利用可能な保存管理機能のコマンドレットから既存の用語とスタイルです。
 
 |ポリシー|ルール|
 |---|---|

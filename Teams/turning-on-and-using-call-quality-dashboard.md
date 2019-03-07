@@ -12,7 +12,7 @@ ms.service:
 - msteams
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
+- M365-collaboration
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,12 +24,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'オンにし、ビジネス オンライン コール品質のダッシュ ボードに、Skype を使用し、通話の品質の概要のレポートを取得する方法を参照してください。 '
-ms.openlocfilehash: 24721591a2018f77dc6ec9f292ad5b58683cda7f
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: ff6e878a08dacf0fe206d68759ca23345b57301d
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178702"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461037"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>有効にして、マイクロソフトのチームと Skype のオンライン ビジネスの品質のダッシュ ボードの呼び出しを使用して
 
@@ -85,16 +85,16 @@ ms.locfileid: "30178702"
   
 |**機能**|**サマリー ・ レポート**|**詳細なレポート**|
 |:-----|:-----|:-----|
-|アプリケーション共有の指標  <br/> |なし  <br/> |あり  <br/> |
+|アプリケーション共有の指標  <br/> |いいえ  <br/> |あり  <br/> |
 |お客様の情報のサポートを構築します。  <br/> |あり  <br/> |可  <br/> |
-|ドリルダウン分析サポート  <br/> |なし  <br/> |あり  <br/> |
-|メディアの信頼性の指標  <br/> |なし  <br/> |あり  <br/> |
+|ドリルダウン分析サポート  <br/> |いいえ  <br/> |あり  <br/> |
+|メディアの信頼性の指標  <br/> |いいえ  <br/> |あり  <br/> |
 |ボックスのレポート  <br/> |あり  <br/> |可  <br/> |
 |プロジェクト概要のレポート  <br/> |あり  <br/> |可  <br/> |
-|ユーザーごとにレポートのセット  <br/> |なし  <br/> |あり  <br/> |
-|レポートのカスタマイズの設定 (追加、削除、レポートの変更)  <br/> |なし  <br/> |あり  <br/> |
-|ビデオ ベースの画面の測定値を共有  <br/> |なし  <br/> |あり  <br/> |
-|ビデオの測定基準  <br/> |なし  <br/> |あり  <br/> |
+|ユーザーごとにレポートのセット  <br/> |いいえ  <br/> |あり  <br/> |
+|レポートのカスタマイズの設定 (追加、削除、レポートの変更)  <br/> |いいえ  <br/> |あり  <br/> |
+|ビデオ ベースの画面の測定値を共有  <br/> |いいえ  <br/> |あり  <br/> |
+|ビデオの測定基準  <br/> |いいえ  <br/> |あり  <br/> |
 |利用可能なデータ量です。  <br/> |過去 6 か月  <br/> |過去 6 か月  <br/> |
 |マイクロソフト チームのデータ  <br/> |あり  <br/> |可  <br/> |
    

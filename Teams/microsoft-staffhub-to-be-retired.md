@@ -9,15 +9,17 @@ ms.service: msteams
 search.appverid: MET150
 description: ''
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Office for business, Microsoft Teams
-ms.openlocfilehash: d5b0cb21334a1959c18352657f8e72ae1dd015d2
-ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
+ms.openlocfilehash: 0a7f21b4c999ab7300b88e059b87d3710ddd700a
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30307134"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465133"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>マイクロソフトの StaffHub になった
 

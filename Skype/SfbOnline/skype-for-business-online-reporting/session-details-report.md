@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: '[] 新しい Office 365 の [ レポート] ダッシュボードには、組織内の Office 365 製品全体にわたるアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。'
-ms.openlocfilehash: 33aa42ea7acd2f28ab0e27da85421071f948ca99
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c4f3040c759deefc222c6243d80de393e18befe9
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530552"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30454036"
 ---
 # <a name="session-details-report"></a>セッションの詳細レポート
 

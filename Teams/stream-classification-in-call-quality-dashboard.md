@@ -11,7 +11,7 @@ ms.service:
 - msteams
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
+- M365-collaboration
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: ストリーム品質がMicrosoft TeamsとSkype for Business Onlineの通話品質ダッシュボードでどのように分類されているかをご覧ください。
-ms.openlocfilehash: 43c3e876b041e8a586b43d21f049731e3450a1a4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 9a25e44393cbe8660687451fea5163f064c16240
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374326"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460309"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>通話品質ダッシュボードでのストリーム分類
 
@@ -55,7 +55,7 @@ Streams in CQD are classified as good, poor, or unclassified based on the values
 
 |**手順 #**|**指標**|**状態**|**条件が真である場合の分類**|**条件が偽の場合の分類**|**メトリックが利用できない場合の分類**|**解説**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|> 50% |Poor|Good|手順 2 に進んでください|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
+|1|Video Local Frame Loss Percentage Avg|_gt 50% |Poor|Good|手順 2 に進んでください|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
 |2|Video Frame Rate Avg|<7|Poor|Good|手順 3 に進んでください|セッションのデュレーションにわたり算出された、ビデオ ストリームで受信した秒あたりの平均フレーム数。|
 |3|Video Post FECPLR|> 0.15|Poor|Good|Unclassified|FEC を適用した後のパケット損失の割合は、すべてのビデオ ストリームとコーデックの間で集計。|
 
@@ -65,7 +65,7 @@ VBSS ストリームは、使用可能な最初のメトリックの値に基づ
 
 |**手順 #**|**指標**|**状態**|**条件が真である場合の分類**|**条件が偽の場合の分類**|**メトリックが利用できない場合の分類**|**解説**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|> 50% |Poor|Good|手順 2 に進んでください|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
+|1|Video Local Frame Loss Percentage Avg|_gt 50% |Poor|Good|手順 2 に進んでください|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
 |2|Video Frame Rate Avg|<2|Poor|Good|手順 3 に進んでください|セッションのデュレーションにわたり算出された、ビデオ ストリームで受信した秒あたりの平均フレーム数。|
 |3|Video Post FECPLR|> 0.15|Poor|Good|Unclassified|FEC を適用した後のパケット損失の割合は、すべてのビデオ ストリームとコーデックの間で集計。|
 
@@ -77,7 +77,7 @@ VBSS ストリームは、使用可能な最初のメトリックの値に基づ
 | **指標**                                     | **状態** | **解説**                                                                                                                                                                                                        |
 |:-----------------------------------------------|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Spoiled Tile Percent Total                     | > 36          | Percentage of tiles that are discarded instead of being sent to a remote peer (for example, from the MCU to a viewer). Discarded (or spoiled) tiles may be caused by bandwidth restrictions between client and server. |
-| AppSharing RDP Tile Processing Latency Average | > 400         | 電話会議サーバーでの RDP スタック上のタイル処理の平均遅延 (ミリ秒単位)。                                                                                                                          |
+| AppSharing RDP Tile Processing Latency Average | _gt 400         | 電話会議サーバーでの RDP スタック上のタイル処理の平均遅延 (ミリ秒単位)。                                                                                                                          |
 | AppSharing Relative OneWay Average             | > 1.75        | 平均相対的な一方向の遅延 (秒) のストリームを共有するアプリケーションのエンドポイントとの間です。                                                                                                                       |
 
 ## <a name="unclassified-streams"></a>未分類ストリーム
@@ -110,4 +110,4 @@ If ICE connectivity succeeded for an unclassified stream, the stream is likely c
 
 [通話品質ダッシュボードで利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[通話分析を使用して低い通話品質をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[通話分析を使用して低品質の通話をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)

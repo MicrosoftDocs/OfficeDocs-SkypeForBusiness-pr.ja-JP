@@ -10,15 +10,17 @@ ms.reviewer: snigdhav
 search.appverid: MET150
 description: プライベート チャット ファイルの格納方法、チーム、チャネル、ドキュメント ライブラリの関係など、Microsoft Teams との SharePoint Online および OneDrive for Business の連携について説明します。
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d82509aedab32e7fa4fe14ea162d369a2bab5565
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 1d9bb769c1ad99f0990192ed0bdad69af71dd8c5
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532333"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460277"
 ---
 <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Microsoft Teams との SharePoint Online と OneDrive for Business の連携
 =============================================================================
@@ -56,7 +58,7 @@ SharePoint Online ドキュメント ライブラリと OneDrive for Business �
 
 ![各ユーザーのチャットに対応する、Microsoft Teams Chat Files という名前が付けられた OneDrive フォルダーの図。](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
 
-<a name="more-information"></a>追加情報
+<a name="more-information"></a>詳細情報
 ----------------
 
 チームの SharePoint の機能の詳細についてを参照してください[SharePoint およびチーム: 相乗効果](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)。

@@ -10,15 +10,17 @@ description: ビジネス オンラインの Skype からチームへのアッ�
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 668e44b66b08b16a04e730c43dbbe02a9edea4fe
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 82577b8e8102baca9ea9681bb94d4a0c73f8b01e
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754633"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465157"
 ---
 ![展開と実装の段階に重点を置いた、アップグレード手順の各段階](media/upgrade-banner-deployment.png "展開と実装の段階に重点を置いた、アップグレード手順の各段階")
 
@@ -27,10 +29,10 @@ ms.locfileid: "29754633"
 - [プロジェクトの関係者をリスト化した](upgrade-enlist-stakeholders.md)
 - [プロジェクトの対象範囲を定義した](https://aka.ms/SkypetoTeams-Scope)
 - [Skype for Business と Teams の共存と相互運用を理解した](https://aka.ms/SkypeToTeams-Coexist)
-- [アップグレード、旅を選択](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [環境を準備](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [組織の準備](https://aka.ms/SkypeToTeams-UserReadiness)
-- [パイロットを実施しました。](https://aka.ms/SkypeToTeams-Pilot)
+- [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [環境を準備した](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [組織を準備した](https://aka.ms/SkypeToTeams-UserReadiness)
+- [パイロットを実施した](https://aka.ms/SkypeToTeams-Pilot)
 
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>チームをオンラインでビジネス用の Skype からのアップグレード
 
@@ -43,7 +45,7 @@ ms.locfileid: "29754633"
 
 ビジネス リモートの Windows Powershell セッションでマイクロソフトのチームの管理センターや、Skype を使用して実行することができる TeamsUpgradePolicy の TeamsOnly モードを割り当てることによって、チームがユーザーをアップグレードできます。
 
-詳細についてを参照してください[、共存を設定および設定をアップグレード](https://aka.ms/SkypeToTeams-SetCoexistence)し、 [TeamsUpgradePolicy: 移行と共存を管理する](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)。
+詳細については、「[共存およびアップグレードを設定する](https://aka.ms/SkypeToTeams-SetCoexistence)」および「[TeamsUpgradePolicy: 移行と共存の管理](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)」を参照してください。
 
 ## <a name="upgrade-all-users-to-teams-at-one-time"></a>チームにすべてのユーザーを同時にアップグレードします。
 
@@ -89,7 +91,7 @@ Cohorts のユーザーは、同時にチームのみのモードに移動する
 2. **チームのアップグレード**をするには、横の**編集**を選択します。
 3. **チームのアップグレード**ウィンドウの [、**共存モード**では、ドロップ ダウン リストからの**チームのみ**を選択します。
 
-## <a name="phone-system-and-teams-upgrade"></a>電話システムとチームのアップグレード
+## <a name="phone-system-and-teams-upgrade"></a>電話システムと Teams のアップグレード
 
 場合は、オンライン ビジネスの展開、Skype には、計画を呼び出すと、電話システムが含まれています、、公衆交換電話網 (PSTN) プロバイダーが、チームにユーザーをアップグレードするは自動的に移行チームを呼び出す PSTN を受信します。
 

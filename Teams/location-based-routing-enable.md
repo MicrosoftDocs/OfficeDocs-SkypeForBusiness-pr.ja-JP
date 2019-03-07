@@ -12,16 +12,16 @@ description: 直接ルーティングのための場所ベースのルーティ�
 localization_priority: Normal
 ms.collection:
 - Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-collaboration
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 854f0fefc006c02bc07c73cd4519b943411094f5
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 809e48e4a770906b93642356cc5f37fd03c411c4
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352547"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460333"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>ダイレクト ルーティングの場所に基づくルーティングを有効にする
 
