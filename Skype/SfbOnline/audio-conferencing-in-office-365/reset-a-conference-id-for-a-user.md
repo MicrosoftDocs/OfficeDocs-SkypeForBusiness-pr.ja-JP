@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'ユーザーをリセットする手順の Skype での会議 ID のビジネス オンラインでは、会議の会議出席依頼の更新と移行ツールへのリンクを取得するかを説明します。 '
-ms.openlocfilehash: d569dfb015db5cea79c57233ba455adfd90a3182
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 748664ec8e6584adcbcb0630147f1bcd60be9482
+ms.sourcegitcommit: 17348a197c8ed76d587f3c3d0ff36c56414183f0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887547"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30475797"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>ビジネス オンラインの Skype のユーザーの会議 ID をリセットします。
 
@@ -35,7 +35,7 @@ ms.locfileid: "23887547"
 動的な会議 ID は、発信者が会議にコールインするのに使用できるダイヤルイン番号と一緒に、会議出席依頼の下に含まれています。 ユーザーが電話番号をダイヤルするときに、発信者が会議に参加できるように、会議の自動応答は発信者にこの会議 ID の入力を求めます。
   
 > [!NOTE]
-> 会議プロバイダーが Microsoft の場合、ユーザーの会議 ID がデフォルトで「動的のみ」に設定されます。 残念ながら、Skype for Business 管理センターで会議 ID を変更できる機能、または Windows Powershell を使用して動的会議 ID を静的会議 ID に変更する機能は、現在サポートされていないため、ありません。 会議 ID は、電話会議が有効にされる Skype for Business ユーザーにのみ自動的に設定されます。 
+> 会議プロバイダーがマイクロソフトの場合は、動的なだけに、ユーザーの会議 Id が設定されています。 これを変更することはできません。 会議 ID は、電話会議が有効にされる Skype for Business ユーザーにのみ自動的に設定されます。 
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>ユーザーの会議 ID をリセットします。
    
@@ -59,7 +59,7 @@ ms.locfileid: "23887547"
     
 - [**ユーザー** ] ページで、ユーザーを選択すると、**オーディオ会議**の下にある操作ウィンドウの下部にあるユーザーが電話会議の会議 ID を表示できます。
     
-- You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use Skype for Business Meeting Migration Tool to update their existing meetings. ユーザーは、ビジネス会議ツールの Skype を使用して、既存の会議を更新します。 ダウンロード、インストール、および、Skype をビジネス会議の更新ツールを実行する方法を参照してください。
+- 新しい会議 ID が作成されると、古い会議 ID を使用してダイヤルインすることはできなくなります。 既存の会議の出席依頼のスケジュールを変更して、新しい会議 ID を出席依頼に追加するように、ユーザーに通知してください。 ユーザーは、ビジネス会議ツールの Skype を使用して、既存の会議を更新します。 ダウンロード、インストール、および、Skype をビジネス会議の更新ツールを実行する方法を参照してください。
     
   - [Skype for Business Meeting Update Tool と Lync Meeting Update Tool](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)
     
@@ -81,7 +81,7 @@ ms.locfileid: "23887547"
     
   - [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [クイック リファレンス: Windows PowerShell を使用した一般的な Lync Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
     
 ## <a name="related-topics"></a>See also
 
