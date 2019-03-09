@@ -4,7 +4,7 @@ ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: mikedav, wlooney
-ms.date: 01/22/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
@@ -20,16 +20,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords:
+- ms.teamsadmincenter.directrouting.callanalytics
+- ms.teamsadmincenter.users.activity.audioqualitycolumn
 ms.custom:
 - Reporting
 description: ビジネス通話や会議のためのマイクロソフトのチームと Skype ユーザーの問題のトラブルシューティングを行うには、分析機能の呼び出しの詳細については、デバイス、ネットワーク、および接続を使用します。
-ms.openlocfilehash: d5409e1f37aaec6853362edc8caf74ea2a468cd7
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b020ae52b9cb7906484c6a0a5403e626ebab68a8
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464405"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494238"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>通話分析を使用して低品質の通話をトラブルシューティングする
 
@@ -88,7 +90,7 @@ ms.locfileid: "30464405"
 |オーディオ ネットワークに不適切な呼び出しが分類されます。  <br/> |セッション  <br/> |パケット損失、ジッター、NMOS の低下、RTT、または非表示の文字列の比率) などのネットワーク品質の問題が発生しました。 不適切な呼び出しを分類するための条件の詳細については、この[マイクロソフトのブログ記事](https://go.microsoft.com/fwlink/p/?linkid=852133)を参照してください。  <br/> |
 |デバイスが機能しません。  <br/> |デバイス  <br/> | デバイスが正常に機能はありません。 比率が機能していないデバイスは次のとおりです。 <br/>  DeviceRenderNotFunctioningEventRatio _gt = 0.005 <br/>  DeviceCaptureNotFunctioningEventRatio _gt = 0.005 <br/> |
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [通話分析をセットアップする](set-up-call-analytics.md)
 
 [通話分析および通話品質ダッシュボード](difference-between-call-analytics-and-call-quality-dashboard.md)

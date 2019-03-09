@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 設定し、分析機能の呼び出しを使用して特定し、Skype のビジネスおよびマイクロソフトのチームの通話品質の問題に関するトラブルシューティングを行います。
-ms.openlocfilehash: e54668afc6e71b519f1656443a25e17274b22fb2
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 97faee554bd4a4ea8b88226d12cb675fab51e114
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462834"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494222"
 ---
 # <a name="set-up-call-analytics"></a>通話分析をセットアップする
 
@@ -51,7 +51,7 @@ ms.locfileid: "30462834"
 ## <a name="set-call-analytics-permissions"></a>分析機能を呼び出すアクセス許可を設定します。
 <a name="BKMK_SetCAPerms"></a>
 
-管理者としては、分析機能の呼び出しのすべての機能へのフル アクセスを取得します。 さらに、スタッフをサポートするために Active Directory の Azure ロールを割り当てることができます。 分析機能の呼び出しの制限付きビューを持つユーザーにチームのコミュニケーションのサポート専門家のロールを割り当てます。 分析機能の呼び出しのすべての機能へのアクセスを必要とするユーザーには、チーム コミュニケーションのサポート エンジニアの役割を割り当てます。 両方のアクセス許可レベルは、マイクロソフトのチームの管理センターの残りの部分へのアクセスを防止します。
+分析機能の呼び出しのすべての機能へのフル アクセスがある場合、管理者として。 さらに、スタッフをサポートするために Active Directory の Azure ロールを割り当てることができます。 分析機能の呼び出しの制限付きビューを持つユーザーにチームのコミュニケーションのサポート専門家のロールを割り当てます。 分析機能の呼び出しのすべての機能へのアクセスを必要とするユーザーには、チーム コミュニケーションのサポート エンジニアの役割を割り当てます。 両方のアクセス許可レベルは、マイクロソフトのチームの管理センターの残りの部分へのアクセスを防止します。
 
 > [!NOTE]
 > 通信のサポート ・ スペシャ リストの役割は、第 1 層のサポートに相当と通信のサポート ・ エンジニアの役割は、第 2 層のサポートに相当します。
@@ -91,7 +91,7 @@ Azure Active Directory で管理役割を割り当てる方法については、
   
 .Tsv または .csv ファイルを最初から作成する場合は、[テナントのデータ ファイルの形式とデータ ファイルの構造の構築](turning-on-and-using-call-quality-dashboard.md#BKMKTenantDataFile)を参照してください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 <a name="BKMK_UploadFiles"> </a>
 
 [通話分析を使用して低品質の通話をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)

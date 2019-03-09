@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: 組織内のユーザーのスケジュールを設定するチームの会議の設定を管理する方法について説明します。
-ms.openlocfilehash: ad48e44ef475d3643444cfb570e81d8224117133
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: ec43fe9c436de612440bbec687868dc4de749191
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462645"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494254"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
@@ -80,7 +80,7 @@ ms.locfileid: "30462645"
 
     ![会議の設定-network.png](media/meeting-settings-network.png "チーム会議は、マイクロソフトのチームの管理センターでのネットワーク設定のスクリーン ショット")
 
-    - QoS を使用する DSCP マーキングを許可するには、**トラフィックのリアルタイム メディアの挿入のサービスの品質 (QoS) のマーカー**を入れます。 のみか、マーカーを使用して、トラフィックの種類ごとにカスタム マーカーを設定することはできません。 DSCP マーカーが複数の[QoS の実装方法を選択する](QoS-in-Teams.md#select-a-qos-implementation-method)を参照してください。
+    - QoS を使用する DSCP マーキングを許可するには、**トラフィックのリアルタイム メディアの挿入のサービスの品質 (QoS) のマーカー**を入れます。 どうか、マーカーを使用するオプションだけがあります。トラフィックの種類ごとにカスタム マーカーを設定することはできません。 DSCP マーカーが複数の[QoS の実装方法を選択する](QoS-in-Teams.md#select-a-qos-implementation-method)を参照してください。
     - **リアルタイム メディア トラフィックの種類ごとにポートの範囲を選択**すると、横には、ポート範囲を指定するのには**を指定するポートの範囲**を選択し、オーディオ、ビデオ、および画面共有の開始と終了のポートを入力します。 このオプションを選択すると、QoS を実装する必要があります。
     > [!IMPORTANT]
     > **自動的にすべての利用可能なポートを使用して**1024 の間で利用可能なポートを選択すると、65535 が使用されます。 QoS を実装しない場合にのみ、このオプションを使用します。

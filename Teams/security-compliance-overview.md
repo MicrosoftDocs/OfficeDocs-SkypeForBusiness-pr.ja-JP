@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4833a36b08d3acc4b3cbe7ffaf2eaa4726fe0c82
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 3c1288bee6e2b1adcceb3b899f705536c8a00133
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458941"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30493982"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンスの概要
 ======================================================
@@ -150,4 +150,4 @@ Windows と Mac のデスクトップ クライアントをマイクロソフト
 
 Office 365 のユーザーとして、お客様はデータを所有して管理します。Microsoft が、お客様が購読しているサービスの提供以外の目的でお客様のデータを使用することはありません。Microsoft は、サービス プロバイダーとして、広告や他のサービスと無関係な目的のためにお客様のメール、ドキュメント、チームを調べることはありません。Microsoft はアップロード済みのコンテンツに対してアクセス権を持ちません。OneDrive for Business や SharePoint Online と同様に、お客様のデータはテナント内にあります。
 
-信頼およびセキュリティに関連する情報について詳しくは、[Office 365 セキュリティ センター](https://go.microsoft.com/fwlink/?linkid=855779)にアクセスしてください。 Teams は Office 365 セキュリティ センターと同じガイダンスと原則に従っています。
+チェック アウトの詳細については、当社の信頼とセキュリティに関連する[マイクロソフトのセキュリティ センター](https://microsoft.com/trustcenter)の情報です。 チーム以下のガイダンスと原則は、同じ Microsoft セキュリティ センターです。

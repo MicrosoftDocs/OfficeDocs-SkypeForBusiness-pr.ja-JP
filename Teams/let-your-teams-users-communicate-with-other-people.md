@@ -15,13 +15,14 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
+f1keywords: ms.teamsadmincenter.externalaccess.overview
 description: ユーザーが別の組織内のユーザーと通信できるようにするのにはチームを構成する方法を参照してください。
-ms.openlocfilehash: 6c61c8d932dfe72c1d7764ce78701c0b1e3acfc0
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b3aa366d26399f3d899da471d41823e79f4bc0f1
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460301"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494248"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>チームのユーザーのチャットを使用し、チームの別の組織内のユーザーとの通信
 
@@ -91,7 +92,7 @@ ms.locfileid: "30460301"
     
 4. [**ブロックまたは許可するドメイン**] を選択して**+** を許可するドメインの名前を追加します。 他の組織内の管理者は、同じ手順を確認します。 などの**ドメインを許可する**ボックスの一覧で、管理者が自社のドメインを入力する必要があります。
     
-### <a name="related-topics"></a>関連トピック
+### <a name="related-topics"></a>関連項目
 
 [マイクロソフトのチームへのサインイン](sign-in-teams.md)
 [エンド ・ ユーザーは、チームのトレーニング](enduser-training.md)

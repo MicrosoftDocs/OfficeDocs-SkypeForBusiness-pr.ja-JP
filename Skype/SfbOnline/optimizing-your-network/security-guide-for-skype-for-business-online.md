@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Security
 description: Skype for Business Online セキュリティ ガイド <add description>
-ms.openlocfilehash: a47ec19c0469e47644f7c3a7e86a6aa71cf730d6
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: 555a7bd3e4a57c637c0375ea406caeca3c221be7
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240950"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30493916"
 ---
 # <a name="security-and-skype-for-business-online"></a>セキュリティとオンライン ビジネスの Skype
 
-Skype for Business Online (SfBO), as part of the Office 365 service, follows all the security best practices and procedures such as service-level security through defense-in-depth, customer controls within the service, security hardening and operational best practices. 詳細は、Office 365 セキュリティ センター (https://products.office.com/en-us/business/office-365-trust-center-security)) を参照してください。
+Skype for Business Online (SfBO), as part of the Office 365 service, follows all the security best practices and procedures such as service-level security through defense-in-depth, customer controls within the service, security hardening and operational best practices. 詳細については、マイクロソフトのセキュリティ センターを参照してください (https://microsoft.com/trustcenter)。
 
 ## <a name="trustworthy-by-design"></a>設計による高信頼性
 Skype for Business Online is designed and developed in compliance with the Microsoft Trustworthy Computing Security Development Lifecycle (SDL), which is described at https://www.microsoft.com/en-us/sdl/default.aspx. The first step in creating a more secure unified communications system was to design threat models and test each feature as it was designed. Multiple security-related improvements were built into the coding process and practices. Build-time tools detect buffer overruns and other potential security threats before the code is checked in to the final product. Of course, it is impossible to design against all unknown security threats. No system can guarantee complete security. However, because product development embraced secure design principles from the start, Skype for Business Online incorporates industry standard security technologies as a fundamental part of its architecture. 
@@ -285,6 +285,6 @@ Meeting organizers control whether participants can present during a meeting. Ea
 - **自分の会社の外部のユーザーも含めてだれも**&nbsp;&nbsp;表示すべてのユーザー (制限はありません)、ミーティングに参加することができます。
 - **指定した人**&nbsp;&nbsp;会議の開催者がプレゼンターになることができるユーザーを指定します。
 
-## <a name="related-topics"></a>関連トピック
-[Office 365のセキュリティセンター](https://products.office.com/en-us/business/office-365-trust-center-security)
+## <a name="related-topics"></a>関連項目
+[マイクロソフトのセキュリティ センター](https://microsoft.com/trustcenter)
 

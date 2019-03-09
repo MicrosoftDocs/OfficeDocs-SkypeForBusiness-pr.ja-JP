@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: '概要: を準備してお客様の環境で TLS 1.0 および 1.1 を無効にするを実装します。'
-ms.openlocfilehash: 50d4da536bbfcd112057464b3d4142b3eeed2b44
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: f99cf01ceb952298e90d296461e0d2b663f92c5d
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532514"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30493934"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype では、TLS 1.0 または 1.1 を無効にします。
 
@@ -44,7 +44,11 @@ TLS 1.0 と 1.1 を無効にするためのサポート Skype のビジネス �
 - インプレース アップグレードの Skype ビジネス サーバー 2015、CU6 HF2 とではそれ以上の 
     - Windows Server 2008 R2、2012 で KB [3140245](https://support.microsoft.com/en-us/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in)または優先する更新プログラムを使用)、または 2012 R2
 - Exchange の接続と Outlook Web App で Exchange Server 2010 の SP3 RU19 以降のガイダンス[は、ここ](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/)
- 
+- Skype サーバー 2015 CU6 HF2 のビジネスまたはそれ以上でリカバリ性に優れたブランチ アプライアンス (SBA) (確認の製造元に問い合わせて、適切な更新プログラムをパッケージ化し、アプライアンスで利用できる必要になった)
+- Skype サーバー 2015 CU6 HF2 のビジネスまたはそれ以上でリカバリ性に優れたブランチ サーバー (SBS)
+- Lync Server 2013**エッジ ロールのみ**、これはエッジの役割では、ファブリックの 1.0 を Windows には、依存関係はありません。
+
+
 ### <a name="fully-tested-and-supported-clients"></a>完全にテストされ、サポートされているクライアント
 
 - Lync 2013 (ビジネス用の Skype) デスクトップ クライアント、MSI および Basic を含む、C2R [15.0.5023.1000 以上](https://support.microsoft.com/en-us/help/4018334/april-3-2018-update-for-skype-for-business-2015-lync-2013-kb4018334)
@@ -74,6 +78,7 @@ TLS 1.0 と 1.1 を無効にするためのサポート Skype のビジネス �
 を除きは、次の製品は、TLS 1.0 または 1.1 を無効にするサポートの対象ではないと、TLS 1.0 および 1.1 がされて無効になっている環境では動作しません。  これが何を意味します。 範囲外のサーバーまたはクライアントを引き続き利用する場合を更新またはビジネス サーバー設置型展開のため、TLS 1.0 または 1.1、Skype で任意の場所を無効にする必要がある場合は、これらを削除する必要があります。
 
 - Lync Server 2013
+- Lync Server 2010
 - 2008 と下の Windows サーバー
 - Lync for Mac 2011
 - モバイルの iOS、Android や Windows Phone、iPad の Lync 2013
@@ -81,6 +86,8 @@ TLS 1.0 と 1.1 を無効にするためのサポート Skype のビジネス �
 - すべての Lync 2010 クライアント
 - Lync の電話のエディション - 更新されたガイド[は、ここ](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Certified-Skype-for-Business-Online-Phones-and-what-this-means/ba-p/120035)です。
 - 2013 ベースのリカバリ性に優れたブランチ アプライアンス (SBA) またはリカバリ性に優れたブランチ サーバー (SBS)
+- クラウド コネクタ エディション (CCE)
+- Windows Phone 版 Skype for Business
 
 ### <a name="exceptions"></a>例外
 
@@ -443,7 +450,7 @@ TLS 1.0 を無効にする各サーバーおよび 1.1 で .reg ファイルを�
 
 ### <a name="validate-that-workloads-are-functioning-as-expected"></a>ワークロードが期待どおりに機能しているかを検証します。
 
-TLS 1.0 および 1.1 は、お客様の環境で無効になっています後、は、メインの作業負荷は、IM とプレゼンス、P2P など、期待どおりに機能しているすべてを呼び出すこと、エンタープライズ VoIP などを確認します。
+TLS 1.0 および 1.1 は、お客様の環境で無効になっています後、は、メインの作業負荷が期待どおりに機能していることを確認して IM & プレゼンス、P2P 通話、エンタープライズ VoIP などなど。
 
 **検証のみ TLS 1.2 を使用します。**
 
@@ -472,8 +479,8 @@ TLS 1.0 および 1.1 は、お客様の環境で無効になっています後�
 
 **オプション 2:**(RTCLOCAL および LYNCLOCAL)、ローカルの SQL インスタンスをインストールする前
 
-1. ダウンロードし、SQL Express 2014 SP2 (SQLEXPR_x64.exe) を FE 上のローカル フォルダーにコピーします。 フォルダーのパス < SQL_FOLDER_PATH > を参照してみましょう。
-2. PowerShell またはコマンド プロンプトを起動し、< SQL_FOLDER_PATH > に移動します。
+1. ダウンロードし、SQL Express 2014 SP2 (SQLEXPR_x64.exe) を FE 上のローカル フォルダーにコピーします。 フォルダー パスの <SQL_FOLDER_PATH> を考えてみましょう。
+2. PowerShell またはコマンド プロンプトを起動し、<SQL_FOLDER_PATH> に移動します。
 3. 次のコマンドを実行して、RTCLOCAL の SQL インスタンスを作成します。 続行する前に SQLEXPR_x64.exe が完了するまでに待機します。
 
     SQLEXPR_x64.exe/Q/IACCEPTSQLSERVERLICENSETERMS/UPDATEENABLED = 0/HIDECONSOLE 行いました = インストール機能 = SQLEngine、ツールの/INSTANCENAME = RTCLOCAL/TCPENABLED = 1/SQLSVCACCOUNT ="NT AUTHORITY\NetworkService"/SQLSYSADMINACCOUNTS ="Builtin\管理者"/BROWSERSVCSTARTUPTYPE =「自動」/AGTSVCACCOUNT ="NTAUTHORITY\NetworkService"/SQLSVCSTARTUPTYPE = 自動的

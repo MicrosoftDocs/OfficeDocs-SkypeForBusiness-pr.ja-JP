@@ -11,14 +11,15 @@ MS.collection:
 ms.reviewer: tonysmit
 search.appverid: MET150
 description: どのようにビデオ、およびマイクロソフトのチーム、Yammer、および Microsoft のストリームでの大規模なオンライン ユーザーを対象にコンテンツをブロードキャストするユーザーを有効にするイベントについて説明します。
+f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a818e95bf4d71fca06e7ea08f0bcff47efe4e2f
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 4eec16dd51c687ed34c9a0f04710b29c87a887a3
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461053"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494182"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams のライブ イベントについて
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -73,10 +74,10 @@ ECDN の目標は、ビデオ コンテンツをインターネットから取�
 
 ![ライブ イベントの参加者を示すスクリーン ショットが発生します。](../media/teams-live-events-attendee.png "ライブ イベントの参加者を示すスクリーン ショットが発生します。")
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [チームのライブ イベントの計画](plan-for-teams-live-events.md)に移動します。
 
-### <a name="related-topics"></a>関連トピック
+### <a name="related-topics"></a>関連項目
 - [Yammer、マイクロソフトのチーム、および Microsoft のストリーム内の Microsoft 365 の間でのライブ イベント](https://docs.microsoft.com/stream/live-event-m365)
 - [マイクロソフトのチームでのライブ イベント](https://support.office.com/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a)
 - [Yammer のライブ イベント](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)

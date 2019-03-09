@@ -3,21 +3,23 @@ title: Microsoft Teams で組織のシフト アプリを管理する
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
-ms.date: 1/10/2019
+ms.date: 03/08/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 description: Teams で組織の現場担当者向けにシフト アプリを設定および管理する方法を学びます。
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 204dc5899a72b1bc1516441ca8654e7341f19942
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
-ms.translationtype: HT
+ms.openlocfilehash: cae03a4388a1555d7a2cc608532fd84a7587678f
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754528"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494126"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 

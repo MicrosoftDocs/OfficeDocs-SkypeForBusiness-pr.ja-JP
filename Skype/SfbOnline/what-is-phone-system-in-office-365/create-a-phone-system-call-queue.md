@@ -1,5 +1,5 @@
 ---
-title: 電話システムの通話キューを作成する
+title: 電話システムの呼び出しキューを作成する
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -17,18 +17,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords: ms.teamsadmincenter.callqueues.overview
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 53d3eee97ba5fc396b47396b969fef6f2e899df1
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 054d0ff2068c6bd280331f7fa64ea5aedb58db6c
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046740"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30493710"
 ---
-# <a name="create-a-phone-system-call-queue"></a>電話システムの通話キューを作成する
+# <a name="create-a-phone-system-call-queue"></a>電話システムの呼び出しキューを作成する
 
 電話システム キューには、保留中の呼び出しを自動的に配置する機能などを検索する人の中に呼び出しを処理するために次の呼び出しを使用可能なエージェントの機能の電話番号への呼び出し際に使用するあいさつ文が含まれています。呼び出しが保留中の音楽をリッスンしています。 組織の 1 つまたは複数の呼び出しキューを作成します。
   

@@ -21,15 +21,16 @@ appliesto:
 localization_priority: Normal
 f1keywords:
 - ms.lync.lac.ToolsCallQualityDashboard
+- ms.teamsadmincenter.directrouting.cqd
 ms.custom:
 - Reporting
 description: 'オンにし、ビジネス オンライン コール品質のダッシュ ボードに、Skype を使用し、通話の品質の概要のレポートを取得する方法を参照してください。 '
-ms.openlocfilehash: ff6e878a08dacf0fe206d68759ca23345b57301d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 58d1fe6db8108c2660b67fd072878aa1d2b81798
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461037"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494174"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>有効にして、マイクロソフトのチームと Skype のオンライン ビジネスの品質のダッシュ ボードの呼び出しを使用して
 
@@ -252,7 +253,7 @@ ms.locfileid: "30461037"
   
 ![品質のダッシュ ボードのストリームの合計数を呼び出します。](media/21d5d0dc-2321-415e-8ef2-cea06165601c.png)
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business の通話分析をセットアップする](set-up-call-analytics.md)
 
 [分析機能の呼び出しを使用して不適切な通話の音質をトラブルシューティングするには](use-call-analytics-to-troubleshoot-poor-call-quality.md)

@@ -11,14 +11,15 @@ ms.collection:
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
+F1keywords: ms.teamsadmincenter.directrouting.overview
 description: 直接ルーティングのランディング ・ ページ
 appliesto: Microsoft Teams
-ms.openlocfilehash: 6aeff0f79dfbc6cd7b3ba3cddefee382673d24eb
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: b8f7840b981b67f941598638b2624de0cd512b8c
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353267"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494062"
 ---
 # <a name="phone-system-direct-routing"></a>電話システムの直接のルーティング
 

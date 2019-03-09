@@ -15,14 +15,15 @@ MS.collection:
 description: サイトにアップロードする方法をについて説明します。
 ms.custom:
 - NewAdminCenter_Update
+f1keywords: ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5267f419fd61bd492a904dd358b930e2d55d6b1b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: a84b022c7b5553a15ff8862a175ba5f856cdd149
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462637"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494078"
 ---
 <a name="adding-and-updating-locations-data"></a>追加して、場所データを更新します。
 ============================
@@ -56,6 +57,6 @@ ms.locfileid: "30462637"
 データ ファイルの書式設定の詳細については、[テナントのデータ ファイルの形式とデータ ファイルの構造を構築](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-building-data-file-structure)を参照してください。
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [通話分析をセットアップする](set-up-call-analytics.md)

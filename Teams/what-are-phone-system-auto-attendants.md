@@ -20,16 +20,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: 自動応答の電話システム (PBX をクラウド) とは、それらを使用する方法について説明します。
-ms.openlocfilehash: 8ffb43d02ed100a3767fce3338b98c05760c1c9a
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 22136339b980779991170d0f072ec762b8c39c7a
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353507"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494206"
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>電話システムの自動応答とは
 
@@ -258,7 +258,7 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
 [呼び出し元 ID 利用する方法、組織内](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization)、組織内の呼び出し元 ID の設定を変更する方法の詳細を取得できます。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Office 365 での電話システムで利用できる機能](here-s-what-you-get-with-phone-system.md)
 

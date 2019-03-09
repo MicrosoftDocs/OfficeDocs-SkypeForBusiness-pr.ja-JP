@@ -9,17 +9,18 @@ ms.reviewer: bjwhalen
 description: チームにビジネス用の Skype からの移行を管理するためのガイダンス
 localization_priority: Normal
 search.appverid: MET150
+f1keywords: ms.teamsadmincenter.teamsupgrade.overview
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebefcf81eace90f99b2871fcd7232f799af3edb2
-ms.sourcegitcommit: 2dd1369e5112b0c4ed7c6b0be8a17489b71f494a
+ms.openlocfilehash: 6d4c0733b30118bc09004d84f8c4b9db64f58e23
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30469771"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494278"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス
 
@@ -184,7 +185,7 @@ TeamsInteropPolicy は TeamsUpgradePolicy に置き換えられました。 以�
 
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business と共存する](https://docs.microsoft.com/en-us/microsoftteams/coexistence-chat-calls-presence)
 
