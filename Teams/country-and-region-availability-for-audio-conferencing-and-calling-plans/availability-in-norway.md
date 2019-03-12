@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 2ee5f7a1-8067-4e5e-961e-3b5f22155cdf
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,67 +25,67 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ノルウェーについての利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。
-ms.openlocfilehash: c6106ede7f81bdf7d8cbbafaac97abfa99d34825
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 9ce98137ec3695f1faa15a5888a1b71756ce34e8
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463173"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542784"
 ---
-# <a name="availability-in-norway"></a><span data-ttu-id="3b841-103">ノルウェーでの利用可能性</span><span class="sxs-lookup"><span data-stu-id="3b841-103">Availability in Norway</span></span>
+# <a name="availability-in-norway"></a><span data-ttu-id="62cad-103">ノルウェーでの利用可能性</span><span class="sxs-lookup"><span data-stu-id="62cad-103">Availability in Norway</span></span>
 
-<span data-ttu-id="3b841-104">電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。</span><span class="sxs-lookup"><span data-stu-id="3b841-104">[Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.</span></span>
+<span data-ttu-id="62cad-104">電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。</span><span class="sxs-lookup"><span data-stu-id="62cad-104">[Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.</span></span>
 
-<span data-ttu-id="3b841-105">ノルウェーについての利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。</span><span class="sxs-lookup"><span data-stu-id="3b841-105">Here are the Office 365 services for Skype for Business and Microsoft Teams available for Norway.</span></span>
+<span data-ttu-id="62cad-105">ノルウェーについての利用可能なビジネスおよびマイクロソフトのチームの Skype の Office 365 サービスを次に示します。</span><span class="sxs-lookup"><span data-stu-id="62cad-105">Here are the Office 365 services for Skype for Business and Microsoft Teams available for Norway.</span></span>
   
-## <a name="audio-conferencing"></a><span data-ttu-id="3b841-106">電話会議</span><span class="sxs-lookup"><span data-stu-id="3b841-106">Audio Conferencing</span></span>
+## <a name="audio-conferencing"></a><span data-ttu-id="62cad-106">電話会議</span><span class="sxs-lookup"><span data-stu-id="62cad-106">Audio Conferencing</span></span>
 
-|<span data-ttu-id="3b841-107">**機能**</span><span class="sxs-lookup"><span data-stu-id="3b841-107">**Feature**</span></span>|<span data-ttu-id="3b841-108">**詳細**</span><span class="sxs-lookup"><span data-stu-id="3b841-108">**Details**</span></span>|
+|<span data-ttu-id="62cad-107">**機能**</span><span class="sxs-lookup"><span data-stu-id="62cad-107">**Feature**</span></span>|<span data-ttu-id="62cad-108">**詳細**</span><span class="sxs-lookup"><span data-stu-id="62cad-108">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="3b841-109">電話会議は購入できますか?</span><span class="sxs-lookup"><span data-stu-id="3b841-109">Is Audio Conferencing available for purchase?</span></span>  <br/> |<span data-ttu-id="3b841-110">あり</span><span class="sxs-lookup"><span data-stu-id="3b841-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="3b841-111">電話番号は自動的に電話会議に割り当てられますか?</span><span class="sxs-lookup"><span data-stu-id="3b841-111">Are phone numbers automatically assigned for Audio Conferencing?</span></span>  <br/> |<span data-ttu-id="3b841-112">はいの場合。</span><span class="sxs-lookup"><span data-stu-id="3b841-112">Yes, for:</span></span><br/><ul><li> <span data-ttu-id="3b841-113">オスロ</span><span class="sxs-lookup"><span data-stu-id="3b841-113">Oslo</span></span></ul> <span data-ttu-id="3b841-114">専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="3b841-114">If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).</span></span>  <br/> |
-|<span data-ttu-id="3b841-115">折り返し通話機能を使用するダイヤルアウト機能</span><span class="sxs-lookup"><span data-stu-id="3b841-115">Dial-out capability using the Call Me feature</span></span>  <br/> |<span data-ttu-id="3b841-116">利用可能</span><span class="sxs-lookup"><span data-stu-id="3b841-116">Available</span></span>  <br/> |
+|<span data-ttu-id="62cad-109">電話会議は購入できますか?</span><span class="sxs-lookup"><span data-stu-id="62cad-109">Is Audio Conferencing available for purchase?</span></span>  <br/> |<span data-ttu-id="62cad-110">あり</span><span class="sxs-lookup"><span data-stu-id="62cad-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="62cad-111">電話番号は自動的に電話会議に割り当てられますか?</span><span class="sxs-lookup"><span data-stu-id="62cad-111">Are phone numbers automatically assigned for Audio Conferencing?</span></span>  <br/> |<span data-ttu-id="62cad-112">はいの場合。</span><span class="sxs-lookup"><span data-stu-id="62cad-112">Yes, for:</span></span><br/><ul><li> <span data-ttu-id="62cad-113">オスロ</span><span class="sxs-lookup"><span data-stu-id="62cad-113">Oslo</span></span></ul> <span data-ttu-id="62cad-114">専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="62cad-114">If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).</span></span>  <br/> |
+|<span data-ttu-id="62cad-115">折り返し通話機能を使用するダイヤルアウト機能</span><span class="sxs-lookup"><span data-stu-id="62cad-115">Dial-out capability using the Call Me feature</span></span>  <br/> |<span data-ttu-id="62cad-116">利用可能</span><span class="sxs-lookup"><span data-stu-id="62cad-116">Available</span></span>  <br/> |
    
-## <a name="phone-system"></a><span data-ttu-id="3b841-117">電話システム</span><span class="sxs-lookup"><span data-stu-id="3b841-117">Phone System</span></span>
+## <a name="phone-system"></a><span data-ttu-id="62cad-117">電話システム</span><span class="sxs-lookup"><span data-stu-id="62cad-117">Phone System</span></span>
 
-|<span data-ttu-id="3b841-118">**機能**</span><span class="sxs-lookup"><span data-stu-id="3b841-118">**Feature**</span></span>|<span data-ttu-id="3b841-119">**詳細**</span><span class="sxs-lookup"><span data-stu-id="3b841-119">**Details**</span></span>|
+|<span data-ttu-id="62cad-118">**機能**</span><span class="sxs-lookup"><span data-stu-id="62cad-118">**Feature**</span></span>|<span data-ttu-id="62cad-119">**詳細**</span><span class="sxs-lookup"><span data-stu-id="62cad-119">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="3b841-120">電話システムは購入できますか?</span><span class="sxs-lookup"><span data-stu-id="3b841-120">Is Phone System available for purchase?</span></span>  <br/> |<span data-ttu-id="3b841-121">あり</span><span class="sxs-lookup"><span data-stu-id="3b841-121">Yes</span></span>  <br/> |
-| <span data-ttu-id="3b841-122">自動応答</span><span class="sxs-lookup"><span data-stu-id="3b841-122">Auto attendants</span></span> <br/> |<span data-ttu-id="3b841-123">利用可能</span><span class="sxs-lookup"><span data-stu-id="3b841-123">Available</span></span>  <br/> |
-|<span data-ttu-id="3b841-124">通話キュー</span><span class="sxs-lookup"><span data-stu-id="3b841-124">Call queues</span></span>  <br/> |<span data-ttu-id="3b841-125">利用可能</span><span class="sxs-lookup"><span data-stu-id="3b841-125">Available</span></span>  <br/> |
-|<span data-ttu-id="3b841-126">ボイスメール</span><span class="sxs-lookup"><span data-stu-id="3b841-126">Voicemail</span></span>  <br/> |<span data-ttu-id="3b841-127">利用可能</span><span class="sxs-lookup"><span data-stu-id="3b841-127">Available</span></span>  <br/> |
+|<span data-ttu-id="62cad-120">電話システムは購入できますか?</span><span class="sxs-lookup"><span data-stu-id="62cad-120">Is Phone System available for purchase?</span></span>  <br/> |<span data-ttu-id="62cad-121">あり</span><span class="sxs-lookup"><span data-stu-id="62cad-121">Yes</span></span>  <br/> |
+| <span data-ttu-id="62cad-122">自動応答</span><span class="sxs-lookup"><span data-stu-id="62cad-122">Auto attendants</span></span> <br/> |<span data-ttu-id="62cad-123">利用可能</span><span class="sxs-lookup"><span data-stu-id="62cad-123">Available</span></span>  <br/> |
+|<span data-ttu-id="62cad-124">通話キュー</span><span class="sxs-lookup"><span data-stu-id="62cad-124">Call queues</span></span>  <br/> |<span data-ttu-id="62cad-125">利用可能</span><span class="sxs-lookup"><span data-stu-id="62cad-125">Available</span></span>  <br/> |
+|<span data-ttu-id="62cad-126">ボイスメール</span><span class="sxs-lookup"><span data-stu-id="62cad-126">Voicemail</span></span>  <br/> |<span data-ttu-id="62cad-127">利用可能</span><span class="sxs-lookup"><span data-stu-id="62cad-127">Available</span></span>  <br/> |
    
-## <a name="calling-plans"></a><span data-ttu-id="3b841-128">通話プラン</span><span class="sxs-lookup"><span data-stu-id="3b841-128">Calling Plans</span></span>
+## <a name="calling-plans"></a><span data-ttu-id="62cad-128">通話プラン</span><span class="sxs-lookup"><span data-stu-id="62cad-128">Calling Plans</span></span>
 
-|<span data-ttu-id="3b841-129">**機能**</span><span class="sxs-lookup"><span data-stu-id="3b841-129">**Feature**</span></span>|<span data-ttu-id="3b841-130">**詳細**</span><span class="sxs-lookup"><span data-stu-id="3b841-130">**Details**</span></span>|
+|<span data-ttu-id="62cad-129">**機能**</span><span class="sxs-lookup"><span data-stu-id="62cad-129">**Feature**</span></span>|<span data-ttu-id="62cad-130">**詳細**</span><span class="sxs-lookup"><span data-stu-id="62cad-130">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="3b841-131">通話プランは購入できますか?</span><span class="sxs-lookup"><span data-stu-id="3b841-131">Calling Plans are available to purchase?</span></span>  <br/> |<span data-ttu-id="3b841-132">いいえ</span><span class="sxs-lookup"><span data-stu-id="3b841-132">No</span></span>  <br/> |
-|<span data-ttu-id="3b841-133">通話プランで利用可能な通話分数</span><span class="sxs-lookup"><span data-stu-id="3b841-133">Minutes available for Calling Plans</span></span>  <br/> |<span data-ttu-id="3b841-134">該当しない</span><span class="sxs-lookup"><span data-stu-id="3b841-134">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="3b841-135">発信通話を行うことができますか?</span><span class="sxs-lookup"><span data-stu-id="3b841-135">Can make outbound calls to?</span></span>  <br/> |<span data-ttu-id="3b841-136">該当しない</span><span class="sxs-lookup"><span data-stu-id="3b841-136">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="62cad-131">通話プランは購入できますか?</span><span class="sxs-lookup"><span data-stu-id="62cad-131">Calling Plans are available to purchase?</span></span>  <br/> |<span data-ttu-id="62cad-132">いいえ</span><span class="sxs-lookup"><span data-stu-id="62cad-132">No</span></span>  <br/> |
+|<span data-ttu-id="62cad-133">通話プランで利用可能な通話分数</span><span class="sxs-lookup"><span data-stu-id="62cad-133">Minutes available for Calling Plans</span></span>  <br/> |<span data-ttu-id="62cad-134">該当しない</span><span class="sxs-lookup"><span data-stu-id="62cad-134">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="62cad-135">発信通話を行うことができますか?</span><span class="sxs-lookup"><span data-stu-id="62cad-135">Can make outbound calls to?</span></span>  <br/> |<span data-ttu-id="62cad-136">該当しない</span><span class="sxs-lookup"><span data-stu-id="62cad-136">Not applicable</span></span>  <br/> |
    
-## <a name="toll-and-toll-free-numbers-for-services"></a><span data-ttu-id="3b841-137">サービスの有料電話番号と無料電話番号</span><span class="sxs-lookup"><span data-stu-id="3b841-137">Toll and toll-free numbers for services</span></span>
+## <a name="toll-and-toll-free-numbers-for-services"></a><span data-ttu-id="62cad-137">サービスの有料電話番号と無料電話番号</span><span class="sxs-lookup"><span data-stu-id="62cad-137">Toll and toll-free numbers for services</span></span>
 
-|<span data-ttu-id="3b841-138">**機能**</span><span class="sxs-lookup"><span data-stu-id="3b841-138">**Feature**</span></span>|<span data-ttu-id="3b841-139">**詳細**</span><span class="sxs-lookup"><span data-stu-id="3b841-139">**Details**</span></span>|
+|<span data-ttu-id="62cad-138">**機能**</span><span class="sxs-lookup"><span data-stu-id="62cad-138">**Feature**</span></span>|<span data-ttu-id="62cad-139">**詳細**</span><span class="sxs-lookup"><span data-stu-id="62cad-139">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="3b841-140">有料電話番号を取得できる首都または主要都市はどこですか?</span><span class="sxs-lookup"><span data-stu-id="3b841-140">What capitals or major cities can you get toll numbers for?</span></span>  <br/> |<span data-ttu-id="3b841-141">オスロ</span><span class="sxs-lookup"><span data-stu-id="3b841-141">Oslo</span></span>  <br/> |
-|<span data-ttu-id="3b841-142">有料電話番号は使用できますか?</span><span class="sxs-lookup"><span data-stu-id="3b841-142">Are toll numbers available?</span></span>  <br/> |<span data-ttu-id="3b841-143">あり</span><span class="sxs-lookup"><span data-stu-id="3b841-143">Yes</span></span>  <br/> |
-|<span data-ttu-id="3b841-144">無料電話番号は使用できますか?</span><span class="sxs-lookup"><span data-stu-id="3b841-144">Are toll-free numbers available?</span></span>  <br/> |<span data-ttu-id="3b841-145">あり</span><span class="sxs-lookup"><span data-stu-id="3b841-145">Yes</span></span>  <br/> |
+|<span data-ttu-id="62cad-140">有料電話番号を取得できる首都または主要都市はどこですか?</span><span class="sxs-lookup"><span data-stu-id="62cad-140">What capitals or major cities can you get toll numbers for?</span></span>  <br/> |<span data-ttu-id="62cad-141">オスロ</span><span class="sxs-lookup"><span data-stu-id="62cad-141">Oslo</span></span>  <br/> |
+|<span data-ttu-id="62cad-142">有料電話番号は使用できますか?</span><span class="sxs-lookup"><span data-stu-id="62cad-142">Are toll numbers available?</span></span>  <br/> |<span data-ttu-id="62cad-143">あり</span><span class="sxs-lookup"><span data-stu-id="62cad-143">Yes</span></span>  <br/> |
+|<span data-ttu-id="62cad-144">無料電話番号は使用できますか?</span><span class="sxs-lookup"><span data-stu-id="62cad-144">Are toll-free numbers available?</span></span>  <br/> |<span data-ttu-id="62cad-145">あり</span><span class="sxs-lookup"><span data-stu-id="62cad-145">Yes</span></span>  <br/> |
    
- <span data-ttu-id="3b841-146">電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="3b841-146">If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).</span></span>
+ <span data-ttu-id="62cad-146">電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="62cad-146">If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).</span></span>
   
-## <a name="communications-credits"></a><span data-ttu-id="3b841-147">コミュニケーション クレジット</span><span class="sxs-lookup"><span data-stu-id="3b841-147">Communications Credits</span></span>
+## <a name="communications-credits"></a><span data-ttu-id="62cad-147">コミュニケーション クレジット</span><span class="sxs-lookup"><span data-stu-id="62cad-147">Communications Credits</span></span>
 
-|<span data-ttu-id="3b841-148">**機能**</span><span class="sxs-lookup"><span data-stu-id="3b841-148">**Feature**</span></span>|<span data-ttu-id="3b841-149">**詳細**</span><span class="sxs-lookup"><span data-stu-id="3b841-149">**Details**</span></span>|
+|<span data-ttu-id="62cad-148">**機能**</span><span class="sxs-lookup"><span data-stu-id="62cad-148">**Feature**</span></span>|<span data-ttu-id="62cad-149">**詳細**</span><span class="sxs-lookup"><span data-stu-id="62cad-149">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="3b841-150">コミュニケーション クレジットは利用できますか?</span><span class="sxs-lookup"><span data-stu-id="3b841-150">Are Communications Credits available?</span></span>  <br/> |<span data-ttu-id="3b841-151">はい</span><span class="sxs-lookup"><span data-stu-id="3b841-151">Yes</span></span>  <br/> |
+|<span data-ttu-id="62cad-150">コミュニケーション クレジットは利用できますか?</span><span class="sxs-lookup"><span data-stu-id="62cad-150">Are Communications Credits available?</span></span>  <br/> |<span data-ttu-id="62cad-151">はい</span><span class="sxs-lookup"><span data-stu-id="62cad-151">Yes</span></span>  <br/> |
    
-<span data-ttu-id="3b841-152">この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="3b841-152">If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).</span></span>
+<span data-ttu-id="62cad-152">この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="62cad-152">If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="3b841-153">関連トピック</span><span class="sxs-lookup"><span data-stu-id="3b841-153">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="62cad-153">関連トピック</span><span class="sxs-lookup"><span data-stu-id="62cad-153">Related topics</span></span>
 
-[<span data-ttu-id="3b841-154">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="3b841-154">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[<span data-ttu-id="62cad-154">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="62cad-154">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
-[<span data-ttu-id="3b841-155">国および地域ごとの電話会議および通話プランの利用可能性</span><span class="sxs-lookup"><span data-stu-id="3b841-155">Country and region availability for Audio Conferencing and Calling Plans</span></span>](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[<span data-ttu-id="62cad-155">国および地域ごとの電話会議および通話プランの利用可能性</span><span class="sxs-lookup"><span data-stu-id="62cad-155">Country and region availability for Audio Conferencing and Calling Plans</span></span>](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
  

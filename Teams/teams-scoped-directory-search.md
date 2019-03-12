@@ -10,48 +10,51 @@ ms.service: msteams
 ms.reviewer: sbhatta
 localization_priority: Normal
 search.appverid: MET150
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Help
 description: ディレクトリのカスタマイズされたビューを提供するマイクロソフトのチームのスコープ指定されたディレクトリ検索を使用する方法について説明します。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e21cc33ab24dc14bd56f15146180ef90afdde7de
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: cc17bda47861512900be908a6efaf60847377d09
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494158"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541521"
 ---
-# <a name="use-microsoft-teams-scoped-directory-search"></a><span data-ttu-id="ae01c-103">Microsoft Teams の範囲指定ディレクトリ検索を使用する</span><span class="sxs-lookup"><span data-stu-id="ae01c-103">Use Microsoft Teams scoped directory search</span></span>
+# <a name="use-microsoft-teams-scoped-directory-search"></a><span data-ttu-id="0b0ff-103">Microsoft Teams の範囲指定ディレクトリ検索を使用する</span><span class="sxs-lookup"><span data-stu-id="0b0ff-103">Use Microsoft Teams scoped directory search</span></span>
 
-<span data-ttu-id="ae01c-104">マイクロソフト チームのスコープ指定されたディレクトリ検索では、ユーザーが検索し、組織内の他のユーザーとの通信方法を制御する仮想の境界を作成することが可能します。</span><span class="sxs-lookup"><span data-stu-id="ae01c-104">Microsoft Teams scoped directory search allows organizations to create virtual boundaries that control how users can find and communicate with other users in their organization.</span></span> 
+<span data-ttu-id="0b0ff-104">マイクロソフト チームのスコープ指定されたディレクトリ検索では、ユーザーが検索し、組織内の他のユーザーとの通信方法を制御する仮想の境界を作成することが可能します。</span><span class="sxs-lookup"><span data-stu-id="0b0ff-104">Microsoft Teams scoped directory search allows organizations to create virtual boundaries that control how users can find and communicate with other users in their organization.</span></span> 
 
-<span data-ttu-id="ae01c-105">マイクロソフトのチームでは、組織のユーザーに、ディレクトリのユーザー設定のビューを提供することができます。</span><span class="sxs-lookup"><span data-stu-id="ae01c-105">Microsoft Teams lets organizations provide custom views of the directory to their users.</span></span> <span data-ttu-id="ae01c-106">マイクロソフトのチームでは、これらのカスタム ビューをサポートするために[Exchange アドレス帳ポリシー](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/address-book-policies?view=exchserver-2019)を使用します。</span><span class="sxs-lookup"><span data-stu-id="ae01c-106">Microsoft Teams uses [Exchange address book policies](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/address-book-policies?view=exchserver-2019) to support these custom views.</span></span> <span data-ttu-id="ae01c-107">ポリシーを有効にすると、(たとえば、チャットを開始する、またはチームにメンバーを追加するのには) 他のユーザーの検索によって返される結果は構成されているポリシーに従ってスコープします。</span><span class="sxs-lookup"><span data-stu-id="ae01c-107">Once the policies are enabled, the results returned by searches for other users (for example, to initiate a chat or to add members to a team) will be scoped according to the configured policies.</span></span> <span data-ttu-id="ae01c-108">ユーザーは検索するか、対象とした検索が有効な場合にチームを検出することができません。</span><span class="sxs-lookup"><span data-stu-id="ae01c-108">Users will not be able to search or discover teams when scoped search is in effect.</span></span> 
+<span data-ttu-id="0b0ff-105">マイクロソフトのチームでは、組織のユーザーに、ディレクトリのユーザー設定のビューを提供することができます。</span><span class="sxs-lookup"><span data-stu-id="0b0ff-105">Microsoft Teams lets organizations provide custom views of the directory to their users.</span></span> <span data-ttu-id="0b0ff-106">マイクロソフトのチームでは、これらのカスタム ビューをサポートするために[Exchange アドレス帳ポリシー](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/address-book-policies?view=exchserver-2019)を使用します。</span><span class="sxs-lookup"><span data-stu-id="0b0ff-106">Microsoft Teams uses [Exchange address book policies](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/address-book-policies?view=exchserver-2019) to support these custom views.</span></span> <span data-ttu-id="0b0ff-107">ポリシーを有効にすると、(たとえば、チャットを開始する、またはチームにメンバーを追加するのには) 他のユーザーの検索によって返される結果は構成されているポリシーに従ってスコープします。</span><span class="sxs-lookup"><span data-stu-id="0b0ff-107">Once the policies are enabled, the results returned by searches for other users (for example, to initiate a chat or to add members to a team) will be scoped according to the configured policies.</span></span> <span data-ttu-id="0b0ff-108">ユーザーは検索するか、対象とした検索が有効な場合にチームを検出することができません。</span><span class="sxs-lookup"><span data-stu-id="0b0ff-108">Users will not be able to search or discover teams when scoped search is in effect.</span></span> 
 
-## <a name="when-should-you-use-scoped-directory-searches"></a><span data-ttu-id="ae01c-109">スコープ指定されたディレクトリ検索を使用する場合</span><span class="sxs-lookup"><span data-stu-id="ae01c-109">When should you use scoped directory searches?</span></span>
+## <a name="when-should-you-use-scoped-directory-searches"></a><span data-ttu-id="0b0ff-109">スコープ指定されたディレクトリ検索を使用する場合</span><span class="sxs-lookup"><span data-stu-id="0b0ff-109">When should you use scoped directory searches?</span></span>
 
-<span data-ttu-id="ae01c-110">スコープ指定されたディレクトリ検索からメリットを得られるシナリオでは、アドレス帳ポリシーのシナリオに似ています。</span><span class="sxs-lookup"><span data-stu-id="ae01c-110">Scenarios that benefit from scoped directory searches are similar to address book policy scenarios.</span></span> <span data-ttu-id="ae01c-111">たとえば、スコープ指定されたディレクトリ検索を使用して、次のような状況でする可能性があります。</span><span class="sxs-lookup"><span data-stu-id="ae01c-111">For example, you may want to use scoped directory search in the following situations:</span></span>
+<span data-ttu-id="0b0ff-110">スコープ指定されたディレクトリ検索からメリットを得られるシナリオでは、アドレス帳ポリシーのシナリオに似ています。</span><span class="sxs-lookup"><span data-stu-id="0b0ff-110">Scenarios that benefit from scoped directory searches are similar to address book policy scenarios.</span></span> <span data-ttu-id="0b0ff-111">たとえば、スコープ指定されたディレクトリ検索を使用して、次のような状況でする可能性があります。</span><span class="sxs-lookup"><span data-stu-id="0b0ff-111">For example, you may want to use scoped directory search in the following situations:</span></span>
 
-- <span data-ttu-id="ae01c-112">所属する組織において、テナント内に複数の会社があり、それらを切り離された状態で維持する場合。</span><span class="sxs-lookup"><span data-stu-id="ae01c-112">Your organization has multiple companies within its tenant that you want to keep separate.</span></span> 
-- <span data-ttu-id="ae01c-113">所属する学校において、教職員と学生との間のチャットを制限する必要がある場合。</span><span class="sxs-lookup"><span data-stu-id="ae01c-113">Your school wants to limit chats between faculty and students.</span></span> 
+- <span data-ttu-id="0b0ff-112">所属する組織において、テナント内に複数の会社があり、それらを切り離された状態で維持する場合。</span><span class="sxs-lookup"><span data-stu-id="0b0ff-112">Your organization has multiple companies within its tenant that you want to keep separate.</span></span> 
+- <span data-ttu-id="0b0ff-113">所属する学校において、教職員と学生との間のチャットを制限する必要がある場合。</span><span class="sxs-lookup"><span data-stu-id="0b0ff-113">Your school wants to limit chats between faculty and students.</span></span> 
  
-<span data-ttu-id="ae01c-114">アドレス帳ポリシーの使用方法の詳細については、[ここで](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/abp-scenarios?view=exchserver-2019)。</span><span class="sxs-lookup"><span data-stu-id="ae01c-114">You can learn more about how address book policies can be used [here](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/abp-scenarios?view=exchserver-2019).</span></span>
+<span data-ttu-id="0b0ff-114">アドレス帳ポリシーの使用方法の詳細については、[ここで](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/abp-scenarios?view=exchserver-2019)。</span><span class="sxs-lookup"><span data-stu-id="0b0ff-114">You can learn more about how address book policies can be used [here](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/abp-scenarios?view=exchserver-2019).</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="ae01c-115">アドレス帳のポリシーでは、のみ、仮想の分離のユーザー ディレクトリの観点からを提供します。</span><span class="sxs-lookup"><span data-stu-id="ae01c-115">Address book policies provide only a virtual separation of users from directory perspective.</span></span> <span data-ttu-id="ae01c-116">ユーザーは、完全な電子メール アドレスを提供することで他のユーザーとの通信を開始することができますも。</span><span class="sxs-lookup"><span data-stu-id="ae01c-116">Users can still initiate communications with others by providing complete email addresses.</span></span> <span data-ttu-id="ae01c-117">重要なことが既にキャッシュされている、新しいまたは更新されたアドレス帳のポリシーの適用前にすべてのユーザー データはユーザーが引き続き利用を 30 日間もできます。</span><span class="sxs-lookup"><span data-stu-id="ae01c-117">It is also important to note that any user data that had already been cached, prior to the enforcement of new or updated address book policies, will remain available to users for up to 30 days.</span></span>
+> <span data-ttu-id="0b0ff-115">アドレス帳のポリシーでは、のみ、仮想の分離のユーザー ディレクトリの観点からを提供します。</span><span class="sxs-lookup"><span data-stu-id="0b0ff-115">Address book policies provide only a virtual separation of users from directory perspective.</span></span> <span data-ttu-id="0b0ff-116">ユーザーは、完全な電子メール アドレスを提供することで他のユーザーとの通信を開始することができますも。</span><span class="sxs-lookup"><span data-stu-id="0b0ff-116">Users can still initiate communications with others by providing complete email addresses.</span></span> <span data-ttu-id="0b0ff-117">重要なことが既にキャッシュされている、新しいまたは更新されたアドレス帳のポリシーの適用前にすべてのユーザー データはユーザーが引き続き利用を 30 日間もできます。</span><span class="sxs-lookup"><span data-stu-id="0b0ff-117">It is also important to note that any user data that had already been cached, prior to the enforcement of new or updated address book policies, will remain available to users for up to 30 days.</span></span>
 
-## <a name="enable-scoped-directory-search"></a><span data-ttu-id="ae01c-118">スコープ指定されたディレクトリの検索を有効にします。</span><span class="sxs-lookup"><span data-stu-id="ae01c-118">Enable scoped directory search</span></span>
+## <a name="enable-scoped-directory-search"></a><span data-ttu-id="0b0ff-118">スコープ指定されたディレクトリの検索を有効にします。</span><span class="sxs-lookup"><span data-stu-id="0b0ff-118">Enable scoped directory search</span></span>
 
-1.  <span data-ttu-id="ae01c-119">仮想サブグループに組織を構成するのにには、アドレス帳ポリシーを使用します。</span><span class="sxs-lookup"><span data-stu-id="ae01c-119">Use address book policies to configure your organization into virtual subgroups.</span></span> <span data-ttu-id="ae01c-120">詳細については、[アドレス帳ポリシーの手順](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/abp-procedures?view=exchserver-2019)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="ae01c-120">For more information, see [Procedures for address book policies](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/abp-procedures?view=exchserver-2019).</span></span>
+1.  <span data-ttu-id="0b0ff-119">仮想サブグループに組織を構成するのにには、アドレス帳ポリシーを使用します。</span><span class="sxs-lookup"><span data-stu-id="0b0ff-119">Use address book policies to configure your organization into virtual subgroups.</span></span> <span data-ttu-id="0b0ff-120">詳細については、[アドレス帳ポリシーの手順](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/abp-procedures?view=exchserver-2019)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="0b0ff-120">For more information, see [Procedures for address book policies](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/abp-procedures?view=exchserver-2019).</span></span>
 
-2.  <span data-ttu-id="ae01c-121">Microsoft 365 の管理センターにサインインするのに、**管理センター**をを選択し、**チームの & Skype**。</span><span class="sxs-lookup"><span data-stu-id="ae01c-121">Sign in to the Microsoft 365 admin center, select **Admin centers**, and then select **Teams & Skype**.</span></span>
+2.  <span data-ttu-id="0b0ff-121">Microsoft 365 の管理センターにサインインするのに、**管理センター**をを選択し、**チームの & Skype**。</span><span class="sxs-lookup"><span data-stu-id="0b0ff-121">Sign in to the Microsoft 365 admin center, select **Admin centers**, and then select **Teams & Skype**.</span></span>
  
-3.  <span data-ttu-id="ae01c-122">マイクロソフトのチーム管理センターで、**組織全体の設定**を選択します > **チームの設定**です。</span><span class="sxs-lookup"><span data-stu-id="ae01c-122">In the Microsoft Teams admin center, select **Org-wide settings** > **Teams settings**.</span></span>
+3.  <span data-ttu-id="0b0ff-122">マイクロソフトのチーム管理センターで、**組織全体の設定**を選択します > **チームの設定**です。</span><span class="sxs-lookup"><span data-stu-id="0b0ff-122">In the Microsoft Teams admin center, select **Org-wide settings** > **Teams settings**.</span></span>
 
-4.  <span data-ttu-id="ae01c-123">**検索**、**チームが Exchange アドレス帳ポリシー (APB) を使用してディレクトリ検索のスコープ**をで **[** 表示/非表示をオンにします。</span><span class="sxs-lookup"><span data-stu-id="ae01c-123">Under **Search**, next to **Scope directory search in Teams using an Exchange address book policy (APB)**, turn the toggle **On**.</span></span> 
+4.  <span data-ttu-id="0b0ff-123">**検索**、**チームが Exchange アドレス帳ポリシー (APB) を使用してディレクトリ検索のスコープ**をで **[** 表示/非表示をオンにします。</span><span class="sxs-lookup"><span data-stu-id="0b0ff-123">Under **Search**, next to **Scope directory search in Teams using an Exchange address book policy (APB)**, turn the toggle **On**.</span></span> 
 
     ![マイクロソフトのチーム管理センターのディレクトリ検索のスコープ](media/teams-scoped-directory-search-image1.png)
 
 > [!NOTE]
-> <span data-ttu-id="ae01c-125">ハイブリッド構成 (Exchange、オンプレミスのチーム) は、対象とした検索モードをサポートしていません。</span><span class="sxs-lookup"><span data-stu-id="ae01c-125">Hybrid configurations (Teams with Exchange on-premises) do not support scoped search mode.</span></span> 
+> <span data-ttu-id="0b0ff-125">ハイブリッド構成 (Exchange、オンプレミスのチーム) は、対象とした検索モードをサポートしていません。</span><span class="sxs-lookup"><span data-stu-id="0b0ff-125">Hybrid configurations (Teams with Exchange on-premises) do not support scoped search mode.</span></span> 
 
