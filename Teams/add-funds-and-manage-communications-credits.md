@@ -7,9 +7,7 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.assetid: 691c9301-1f66-41fe-9b2c-ca24ae987463
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
@@ -31,12 +29,12 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'ビジネス サービスの通信のクレジット (PSTN の消費) の Skype のお支払いし、継続的な電話システムのアクセス権を持つユーザーを保持する計画を参照してくださいする方法について説明します。 '
-ms.openlocfilehash: 1c4fc9b9834b11c641961651843073a2392bc95b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: f2b4b6d882753e20d2c7d401fb4fb63082b02f0f
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459349"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542256"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>資金を追加してコミュニケーション クレジットを管理する
 

@@ -5,9 +5,7 @@ author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
 ms.topic: article
-ms.service:
-- msteams
-- skype-for-business-online
+ms.service: msteams
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
@@ -21,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: "マイクロソフト チーム est l'outil de チャット collaboratif d'Office 365 qui intègre toutes les personnes、contenus et besoin 流し込み être と impliquée、outils ない votre équipe et efficace。 "
-ms.openlocfilehash: c33d5af62b7f31d8991fc8ff8b56bd39e06aaed5
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 98f80c52b16c0bd237ced2b072854a46824c0d07
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460509"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541969"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration デ conformité en matière d'accessibilité
 
@@ -207,6 +205,6 @@ Le présent ドキュメント n'est pas la norme EN 301 549 v 1.1.2 (2015-04) e
 
 Le présent ドキュメント est fourni 比べて titre indicatif。 MICROSOFT NE FOURNIT AUCUNE GARANTIE、EXPRESSE OU TACITE、DANS LE PRÉSENT のドキュメントです。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [フランスでの Skype for Business Online のアクセシビリティ ソリューション](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france)

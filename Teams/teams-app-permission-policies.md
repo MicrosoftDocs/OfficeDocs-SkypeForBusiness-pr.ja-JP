@@ -9,18 +9,21 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.audience: Admin
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: マイクロソフトのチームとを使用してどのようなアプリケーションは、組織内のユーザーの使用を制御する方法でアプリケーションのアクセス許可のポリシーについて説明します。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 47a4d3a444a0685e0a1ff568332bdc426752af4c
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: 46a4cbd008db7dc742cd5cc3d22277d7535daa88
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30411382"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542232"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>マイクロソフトのチームでのアプリケーションのアクセス許可ポリシーを管理します。
 
@@ -94,25 +97,25 @@ ms.locfileid: "30411382"
 ### <a name="assign-a-custom-app-setup-policy-to-individual-users"></a>カスタム アプリケーション設定のポリシーを個々 のユーザーに割り当てる
 
 1. マイクロソフトのチーム管理センターの左側のナビゲーションでは、**ユーザー**に移動し、し、[ユーザー] をクリックします。
-2. **割り当てポリシー**] の横にある [**編集**] をクリックします。
+2. **[割り当てられているポリシー]** の隣にある **[編集]** を選択します。
 3. **アプリケーションのアクセス許可ポリシー**では、割り当てる、アプリケーションのアクセス許可ポリシーを選択し、**保存**します。
 
     ![アプリケーションのセットアップのアクセス許可の割り当て-policy.png](media/app-permission-policies-assign-policy.png)
 
 ### <a name="assign-a-custom-app-permission-policy-to-users-in-a-group"></a>グループ内のユーザーにアプリケーションのカスタム アクセス許可ポリシーを割り当てる
 
-既に認められた複数のユーザーがカスタム アプリケーションのアクセス許可ポリシーを割り当てるにはすることがあります。 などのセキュリティ グループ内のすべてのユーザーにポリシーを設定する場合があります。 グラフ モジュールの Azure Active Directory PowerShell およびビジネスの PowerShell モジュールの Skype への接続で、これを行うことができます。 PowerShell を使用して、チームを管理する詳細については、[チームの PowerShell の概要](teams-powershell-overview.md)を参照してください。
+既に認められた複数のユーザーがカスタム アプリケーションのアクセス許可ポリシーを割り当てるにはすることがあります。 などのセキュリティ グループ内のすべてのユーザーにポリシーを設定する場合があります。 グラフ モジュールの Azure Active Directory PowerShell およびビジネスの PowerShell モジュールの Skype への接続で、これを行うことができます。 PowerShell を使用して Teams を管理する方法の詳細については、「[Teams での PowerShell の概要](teams-powershell-overview.md)」を参照してください。
 
 この例では、contoso 社の製薬会社の人事プロジェクト グループ内のすべてのユーザーに HR アプリケーションのアクセス許可ポリシーと呼ばれるカスタム アプリケーションのアクセス許可ポリシーを割り当てます。  
 
 > [!NOTE]
-> [1 つの Windows PowerShell のウィンドウ内のすべての Office 365 サービスへの接続](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)の手順を実行して、まずグラフ モジュールの Azure Active Directory PowerShell およびビジネスの PowerShell モジュールの Skype に接続することを確認します。
+> 「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)」の手順に従って、必ず最初に Azure Active Directory PowerShell for Graph モジュールと Skype for Business PowerShell モジュールに接続してください。
 
 特定のグループの GroupObjectId を取得します。
 ```
 $group = Get-AzureADGroup -SearchString "Contoso Pharmaceuticals HR Project"
 ```
-指定されたグループのメンバーを取得します。
+指定したグループのメンバーを取得します。
 ```
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
@@ -120,7 +123,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App Permission Policy" -Identity $_.EmailAddress}
 ``` 
-数によっては、グループ内のメンバーのこのコマンドは、実行するのに数分をかかる場合があります。
+グループ内のメンバー数によっては、このコマンドの実行に数分かかる場合があります。
 
 ## <a name="faq"></a>FAQ
 
@@ -157,5 +160,5 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 - 通知を受信するコネクタを設定します。
 - アプリケーションのメッセージングの拡張機能を使用します。
 
- ## <a name="related-topics"></a>関連トピック
+ ## <a name="related-topics"></a>関連項目
 - [Microsoft Teams のアプリのセットアップ ポリシーを管理する](teams-app-setup-policies.md)

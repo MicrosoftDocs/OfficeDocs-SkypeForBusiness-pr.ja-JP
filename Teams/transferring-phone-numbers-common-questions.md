@@ -11,8 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -23,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 次は、よく寄せられる質問について、ビジネスの Skype に電話番号を転送します。 回答を確認するには後のポートの順序を作成し、自分の電話番号を転送する準備ができます。 手順については、Office 365 に転送電話番号を参照してください。
-ms.openlocfilehash: 2f69573859e04681f895dfc1a577a73f707e569a
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 57d20095302e4a971ea35a91e1fb46e4499735f9
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351731"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543216"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>電話番号の移行に関するよくある質問
 

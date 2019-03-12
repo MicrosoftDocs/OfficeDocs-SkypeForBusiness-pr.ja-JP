@@ -7,12 +7,9 @@ ms.reviewer: siunies, williamlooney, gageames
 ms.topic: article
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -23,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: 481149e8b7aa72071ed7602e6bf4d9ea8bbd6448
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: 9c8c7ad1a5f506c800a2b4f532cb4914f0010d06
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178725"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543056"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>通話品質ダッシュボードで利用できるディメンションとメジャー
 
@@ -505,7 +502,7 @@ The <sort order string> is used to control the sort order when presenting the da
 |Media Failed Due To Firewall DPI Stream Count  <br/> |ストリームの数  <br/> |ネットワーク機器が Skype for Business トラフィックへのアクセスを許可しないディープ パケット インスペクションのために確立できなかったストリームの数。これらの失敗は、通常はプロキシ、ファイアウォール、その他のネットワーク セキュリティ デバイスが、Office 365 の Skype for Business によって使用された IP アドレスとポートにアクセスするように正しく構成されていないことを示します。  <br/> |
 |Firewall DPI Media Failure Percentage  <br/> |パーセンテージ  <br/> |ネットワーク機器が Skype for Business トラフィックへのアクセスを許可しないディープ パケット インスペクションのために確立できなかったストリームのパーセンテージ。これらの失敗は、通常はプロキシ、ファイアウォール、その他のネットワーク セキュリティ デバイスが、Office 365 の Skype for Business によって使用された IP アドレスとポートにアクセスするように正しく構成されていないことを示します。  <br/> |
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business の通話分析をセットアップする](set-up-call-analytics.md)
 
 [通話分析を使用して Skype for Business の低い通話品質をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)

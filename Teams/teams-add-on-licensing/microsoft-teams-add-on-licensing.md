@@ -5,7 +5,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 MS.collection:
@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: についてはアドオンのライセンスに関する機能を各ライセンス、それらをお使いの製品の購入方法と、既存のキャリアを使用する方法と表示されます。 Office 365 では、通信のクレジットの価格設定と計画の詳細についての情報を入手でき、通話プランします。
-ms.openlocfilehash: 6cf3b2a242a941c9a4352aa35afd1dcbe23c902c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 5912ac5cf79f0db7aaf02fa4d8425d3da80a99bb
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460133"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543080"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft Teams アドオン ライセンス
 
@@ -91,7 +91,7 @@ If you want to use your existing Calling Plan, buy the **Phone System** add-on a
 <!---
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 --->
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [チームを設定します](../microsoft-teams.md)
     

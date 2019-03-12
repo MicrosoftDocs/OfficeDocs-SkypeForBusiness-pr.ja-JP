@@ -9,18 +9,21 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.audience: Admin
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: マイクロソフトのチームおよび組織内のユーザーのチームをカスタマイズするのには暗証番号 (pin) のアプリケーションを使用するアプリケーション設定のポリシーについて説明します。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3e46f5ea50d3e9cdb1717838beec454cca05ba30
-ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
+ms.openlocfilehash: 6c88ba45aba076c6e26fe8bc16fd3643499a881b
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30302690"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541825"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
@@ -45,7 +48,7 @@ ms.locfileid: "30302690"
 
 ## <a name="create-a-custom-app-setup-policy"></a>カスタム アプリケーション設定のポリシーを作成します。
 
-マイクロソフトのチーム管理センターまたは Windows PowerShell を使用すると、カスタム ポリシーを作成します。
+マイクロソフトのチームの管理センターを使用すると、カスタム ポリシーを作成します。
 
 1. マイクロソフトのチーム管理センターの左側のナビゲーションで、**チームのアプリケーション**に移動 > **アプリケーションの設定のポリシー**です。
 2. **新しいポリシー**を選択します。
@@ -74,25 +77,25 @@ ms.locfileid: "30302690"
 ### <a name="assign-a-custom-app-setup-policy-to-individual-users"></a>カスタム アプリケーション設定のポリシーを個々 のユーザーに割り当てる
 
 1. マイクロソフトのチーム管理センターの左側のナビゲーションでは、**ユーザー**に移動し、し、[ユーザー] をクリックします。
-2. **割り当てポリシー**] の横にある [**編集**] をクリックします。
+2. **[割り当てられているポリシー]** の隣にある **[編集]** を選択します。
 3. **チームのアプリケーション設定のポリシー**では、アプリケーションの設定ポリシーを割り当てるを選択し、**保存**します。
 
     ![アプリケーション ・ セットアップ ・ ポリシーの割り当て-policy.png](media/app-setup-policies-assign-policy.png)
 
 ### <a name="assign-a-custom-app-setup-policy-to-users-in-a-group"></a>グループ内のユーザーにカスタム アプリケーション設定のポリシーを割り当てる
 
-既に認められた複数のユーザーにカスタム アプリケーション設定ポリシーを設定することがあります。 などのセキュリティ グループ内のすべてのユーザーにポリシーを設定する場合があります。 グラフ モジュールの Azure Active Directory PowerShell およびビジネスの PowerShell モジュールの Skype への接続で、これを行うことができます。 PowerShell を使用して、チームを管理する詳細については、[チームの PowerShell の概要](teams-powershell-overview.md)を参照してください。
+既に認められた複数のユーザーにカスタム アプリケーション設定ポリシーを設定することがあります。 などのセキュリティ グループ内のすべてのユーザーにポリシーを設定する場合があります。 グラフ モジュールの Azure Active Directory PowerShell およびビジネスの PowerShell モジュールの Skype への接続で、これを行うことができます。 PowerShell を使用して Teams を管理する方法の詳細については、「[Teams での PowerShell の概要](teams-powershell-overview.md)」を参照してください。
 
 この例では、contoso 社の製薬会社の人事プロジェクト グループ内のすべてのユーザーに HR アプリケーションのセットアップのポリシーと呼ばれるカスタム アプリケーション設定のポリシーを割り当てます。  
 
 > [!NOTE]
-> [1 つの Windows PowerShell のウィンドウ内のすべての Office 365 サービスへの接続](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)の手順を実行して、まずグラフ モジュールの Azure Active Directory PowerShell およびビジネスの PowerShell モジュールの Skype に接続することを確認します。
+> 「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)」の手順に従って、必ず最初に Azure Active Directory PowerShell for Graph モジュールと Skype for Business PowerShell モジュールに接続してください。
 
 特定のグループの GroupObjectId を取得します。
 ```
 $group = Get-AzureADGroup -SearchString "Contoso Pharmaceuticals HR Project"
 ```
-指定されたグループのメンバーを取得します。
+指定したグループのメンバーを取得します。
 ```
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
@@ -100,7 +103,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.EmailAddress}
 ``` 
-数によっては、グループ内のメンバーのこのコマンドは、実行するのに数分をかかる場合があります。
+グループ内のメンバー数によっては、このコマンドの実行に数分かかる場合があります。
 
 ## <a name="faq"></a>FAQ
 
@@ -156,5 +159,5 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 アプリケーションを送信する前に、ロゴのガイドラインに従うことを確認します。 詳細については、[販売者のダッシュ ボードの提出書類のチェックリスト](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist)を参照してください。 
 
- ## <a name="related-topics"></a>関連トピック
+ ## <a name="related-topics"></a>関連項目
 - [テナント アプリケーション カタログにチームのクライアントからアプリケーションを発行します。](tenant-apps-catalog-teams.md)

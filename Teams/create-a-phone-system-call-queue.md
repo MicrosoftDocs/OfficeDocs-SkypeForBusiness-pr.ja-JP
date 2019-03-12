@@ -11,8 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -23,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: 59054c1d73e002065db00ff1045ed8453fafa929
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 3ac506f62f7b6dad35b9b1ec04fe2ffe2d612061
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351691"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543048"
 ---
 # <a name="create-a-phone-system-call-queue"></a>電話システムの呼び出しキューを作成する
 
@@ -318,7 +316,7 @@ Windows PowerShell を使用して通話キューを作成し、設定するこ�
 
   - [Windows PowerShell 用にコンピューターをセットアップする](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Office 365 での電話システムで利用できる機能](here-s-what-you-get-with-phone-system.md)
 

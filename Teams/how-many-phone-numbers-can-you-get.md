@@ -11,8 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -23,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 組織で使用する電話番号を取得しようと考えているときに、割り当て済みのライセンスで提供される数以上の電話番号を取得することができます。 ただし、取得できる数は、電話番号のタイプと、ご購入された割り当て済みライセンスのタイプに応じて変わります。 さまざまな種類のビジネス オンラインの Skype で使用される別の電話番号を知るために計画を呼び出すことのために使用する電話番号をクリックすることができます。
-ms.openlocfilehash: fa2a33086d832cc7d35afa6da59f431ebae47b19
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 9adedf15bbedda7aaf03645cf6eaa253e59eadc4
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352787"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542984"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>取得できる電話番号の数について
 

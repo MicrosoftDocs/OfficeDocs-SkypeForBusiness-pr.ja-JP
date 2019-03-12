@@ -7,9 +7,7 @@ ms.reviewer: mikedav, wlooney, gageames
 ms.topic: article
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -23,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 分析機能を呼び出すと品質のダッシュ ボードを呼び出すを監視し、通話品質の問題のトラブルシューティングに使用する場合について説明します。
-ms.openlocfilehash: e8c9331a26caf5e2fe4cb618ac896393d35939ba
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 693e17152d3c51ae51efaa0977d5d83b5c5f2297
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460853"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543008"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>通話分析および通話品質ダッシュボード
 
@@ -44,7 +42,7 @@ ms.locfileid: "30460853"
 
 マイクロソフトのチームの管理センターでユーザーにこの情報を表示するには、すべての通話や会議を表示してそのユーザーが過去 30 日間の参加しているユーザーの詳細ページで、そのユーザーの [**通話履歴**] タブをクリックします。
 
-![ユーザー データの分析機能を呼び出します。](media/call-analytics-user-data.png)
+![ユーザー データの分析機能を呼び出します。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
 メディアの詳細を含む、ネットワークの統計情報の特定のセッションに関する追加情報を取得するには、詳細を表示するセッションをクリックします。
 
@@ -76,7 +74,7 @@ CA は、管理者のために設計されています。 ヘルプデスク エ
 
 救難の Location-Enhanced のレポートで、集計の通話品質と信頼性のユーザーの建物内で評価できます問題は 1 人のユーザーかユーザーの大規模なセグメントに影響を与えるかを確認します。
 
-![通話品質のダッシュ ボードの位置が強化されたレポートのスクリーン ショットです。 示されるタブは、概要については、建物のワイヤード (有線)、建物、WiFi、および携帯 (LTE) です。 特定の建物内のストリームを表示するのには、フィルターが適用されます。](media/call-quality-dashboard-location-enhanced-reports-building-selection.png)
+![通話品質のダッシュ ボードの位置が強化されたレポートのスクリーン ショットです。 示されるタブは、概要については、建物のワイヤード (有線)、建物、WiFi、および携帯 (LTE) です。 特定の建物内のストリームを表示するのには、フィルターが適用されます。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
 > [!NOTE]
 > 救難の建物固有のビューを有効にするには、管理者は救難のテナントのデータのアップロード] ページの[建物の情報をアップロード](turning-on-and-using-call-quality-dashboard.md#BKMKBuildingInformationUpload)する必要があります。
@@ -98,7 +96,7 @@ CA は、管理者のために設計されています。 ヘルプデスク エ
 
 救難に関する詳細について[を有効にしてマイクロソフトのチームとビジネス オンラインの Skype の品質ダッシュ ボードの呼び出しを使用して](turning-on-and-using-call-quality-dashboard.md)、[ディメンションとメジャーのマイクロソフトのチームとビジネス オンラインの Skype の品質ダッシュ ボードの呼び出しで使用可能な](dimensions-and-measures-available-in-call-quality-dashboard.md)を参照してください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [ビデオ: 通話品質の概要](https://aka.ms/teams-quality)
 

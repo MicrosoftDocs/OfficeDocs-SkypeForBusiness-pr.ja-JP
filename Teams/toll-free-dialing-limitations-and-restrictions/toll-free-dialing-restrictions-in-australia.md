@@ -3,7 +3,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 6efa769d-f6a1-4164-a264-439431180081
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: 82fba5658ba64b3ebf26863a4ac608063bad0943
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 5d0cee002e44b045fe5da4cb9a8fef75c78822c4
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460093"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542952"
 ---
 # <a name="toll-free-dialing-restrictions-in-australia"></a>オーストラリアのフリー ダイヤルのダイヤルの制限
 
@@ -44,7 +44,7 @@ ms.locfileid: "30460093"
 |携帯電話ネットワークの状態  <br/> |あり  <br/> |
 |コメント、制限、アクセスの問題など  <br/> |携帯電話アクセス: 通話時間が課金される。  <br/> |
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [フリー ダイヤルの制限事項と制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)

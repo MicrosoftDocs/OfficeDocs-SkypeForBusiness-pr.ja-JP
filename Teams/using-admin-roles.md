@@ -6,16 +6,19 @@ manager: serdars
 ms.date: 09/19/2018
 ms.topic: article
 ms.service: msteams
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Help
 ms.reviewer: islubin
 description: チームを管理するために別の管理者の役割を使用するについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e031c1bee98fc1790f39e888063353087a82422
-ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
+ms.openlocfilehash: 62b8de5d5e96177476ef07a8a91566d9757364d1
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30342182"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542512"
 ---
 # <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Microsoft Teams の管理者ロールを使用して Teams を管理する
 
@@ -57,7 +60,7 @@ PowerShell ツールは、これらの管理者の役割のほとんどは、ビ
    c. (ランダムに生成された名前であるが)、インポートしたセッションの名前を識別するのにには、 **Get モジュール**を使用します。<br>
 3. 使用**Get のコマンド ・ モジュール** <利用可能なすべてのコマンドレットを識別する*名前を上から*_gt
 
-### <a name="related-topics"></a>関連トピック
+### <a name="related-topics"></a>関連項目
 
 - [マイクロソフト チーム PowerShell の概要](teams-powershell-overview.md)
 - [マイクロソフト チーム PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)

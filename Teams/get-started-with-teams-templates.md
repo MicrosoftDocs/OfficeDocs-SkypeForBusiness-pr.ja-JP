@@ -10,17 +10,20 @@ ms.service: msteams
 ms.reviewer: phlouie
 localization_priority: Normal
 search.appverid: MET150
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Help
 description: 定義済みのチャネルを持つチームを作成するチーム テンプレートを使用する方法について説明します。
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97504dcc6fa1cd465eae7bf0ea151cdf36f525d2
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: f16b851641de64813212bf67a83dbf9d7a05c043
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352643"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541641"
 ---
 # <a name="get-started-with-teams-templates"></a>Teams のテンプレートの使用を開始する 
 
@@ -75,7 +78,7 @@ ms.locfileid: "30352643"
 > 追加されていく複数の基本テンプレート型の将来のマイクロソフトのチームのリリースに関する最新情報についてのチェックには、プロパティがサポートされているようです。
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [チームの作成](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)(プレビュー) で
 - [新しいチーム](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)

@@ -4,7 +4,7 @@ author: jambirk
 ms.author: jambirk
 manager: serdars
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 医療機関向けのチーム テンプレートを使い始める
-ms.openlocfilehash: fac7aa90d0fe7f1e6b3e1570378b78a50d321869
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: 68ab93ceca20f0d26c9dac0b5b65667835bd1203
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408284"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541665"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>医療機関向けのチーム テンプレートを使い始める
 

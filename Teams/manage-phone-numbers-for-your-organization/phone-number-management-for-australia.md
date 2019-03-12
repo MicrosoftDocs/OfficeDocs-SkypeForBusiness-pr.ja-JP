@@ -4,13 +4,11 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.topic: article
+ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - Teams_ITAdmin_Help
 - M365-voice
 ms.audience: Admin
@@ -22,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 取得し、オーストラリアの電話番号を Skype のビジネスをオンラインで、マイクロソフトのチームの管理上の情報を検索するのにには、次の表を使用します。
-ms.openlocfilehash: ffdf8a828d64a288f0a309207fafd9cfb049b064
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: ea2c095f811083b9a453e2d9ecf7ffdb0f737be2
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352915"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543088"
 ---
 # <a name="phone-number-management-for-australia"></a>オーストラリアでの電話番号の管理
 当社はオーストラリアで、通話プランの購入と事前設定に関して Telstra 社 と提携しました。 Telstra 社は、通話プランを販売し、自動応答とコール キューに関して、ユーザーとサービス電話番号両方に電話番号管理のサポートを提供します。 ただし、電話会議用のサービス電話番号とライセンスは、引き続き Office 365 で販売、管理します。

@@ -7,9 +7,7 @@ ms.reviewer: mikedav, wlooney
 ms.topic: article
 ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -23,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 設定し、分析機能の呼び出しを使用して特定し、Skype のビジネスおよびマイクロソフトのチームの通話品質の問題に関するトラブルシューティングを行います。
-ms.openlocfilehash: 97faee554bd4a4ea8b88226d12cb675fab51e114
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: ebd5ec0ea60a59e50c3ce7137f518d9a596074a5
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494222"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542328"
 ---
 # <a name="set-up-call-analytics"></a>通話分析をセットアップする
 

@@ -7,6 +7,9 @@ ms.date: 11/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: kelsawi
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Help
 f1keywords:
 - ms.teamsadmincenter.devicemanagement.overview
 - ms.teamsadmincenter.managedevices.overview
@@ -14,12 +17,12 @@ description: 組織のチームと共同で使用するデバイスを管理す�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 489d0e6deb028337ea5a3027aa767cfec6bb41e9
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 20798daf34c4759b91c4926b209847aa51ddd668
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494270"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541649"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Microsoft Teams でのデバイスを管理する
 

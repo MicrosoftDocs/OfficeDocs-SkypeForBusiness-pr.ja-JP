@@ -10,8 +10,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -22,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '組織の電話システム (PBX をクラウド) を設定する方法について説明します。 '
-ms.openlocfilehash: 9c46e54d4492c8c64f24ae5fc4e7427aece73586
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: ef677e694ca170b7576f6613cbfddd83f9b493b0
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351747"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542888"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>組織内の電話システムの設定
 
@@ -278,7 +276,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 
 **コミュニケーションクレジットのライセンスの割り当ての詳細については、 [組織用コミュニケーションクレジットの設定](set-up-communications-credits-for-your-organization.md) を参照してください。**
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Office 365 での電話システムで利用できる機能](here-s-what-you-get-with-phone-system.md)
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)

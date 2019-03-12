@@ -10,8 +10,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -22,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 計画を呼び出すことを Office 365 で使用する場合は、緊急呼び出し用のこれらのラベルをダウンロードすることができます。
-ms.openlocfilehash: 3d91f4042fea883a66bed5e8f71f718c7aebbfe7
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 2b88bfe984aed655a78f69a580fdd1d510f3d8e1
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352083"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542001"
 ---
 # <a name="emergency-calling-labels"></a>緊急通報のラベル
 

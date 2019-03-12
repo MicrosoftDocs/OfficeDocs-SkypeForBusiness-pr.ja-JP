@@ -7,14 +7,10 @@ ms.reviewer: mikedav, roykuntz
 ms.topic: article
 ms.assetid: 2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -25,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'ダイヤルの通話プラン (PSTN の呼び出しのダイヤル プラン) の種類は、Office 365 を使用し、組織のいずれかを選択する方法について説明します。  '
-ms.openlocfilehash: 3158e31b5008fef91e3da4be86ee6cabf3a5fd1b
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 8dc0bb49d37c2df1903332eb71809869d9ebf66a
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352883"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542408"
 ---
 # <a name="what-are-dial-plans"></a>ダイヤル プランについて
 
@@ -151,7 +147,7 @@ Skype for Business Online でのダイヤル プランの継承モデルは次�
 > 前の表に示した正規化ルールの名前にはスペースが含まれていませんが、必要に応じて含めることもできます。たとえば、表に最初に示されている名前は、「5 digit extension」と「5-digit Extension」のどちらの形式で記述しても有効になります。 
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)
 

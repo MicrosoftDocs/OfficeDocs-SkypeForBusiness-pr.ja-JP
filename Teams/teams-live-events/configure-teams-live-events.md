@@ -3,7 +3,7 @@ title: Microsoft Teams でライブ イベント設定を構成する
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
-ms.date: 10/23/2018
+ms.date: 03/11/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -16,12 +16,12 @@ description: 組織内に保持されているチームのライブ イベント
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94a167e8a929f2011ccaa773cd04d4e0ca6a2a0e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 56a7834f1547c682c690f8c42082af0a314efec9
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463669"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542840"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Microsoft Teams でライブ イベント設定を構成する
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -81,7 +81,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 > [!NOTE]
 > 外部エンコーダーを使用して、ライブのイベントを作成する場合は、[マイクロソフトのストリームで、eCDN のプロバイダーを設定](https://docs.microsoft.com/stream/network-caching)する必要もあります。 
 
-### <a name="related-topics"></a>関連トピック
+### <a name="related-topics"></a>関連項目
 - [ライブ イベントをチームは何ですか。](what-are-teams-live-events.md)
 - [チームのライブ イベントの計画](plan-for-teams-live-events.md)
 - [チームのライブ イベントを設定します。](set-up-for-teams-live-events.md)

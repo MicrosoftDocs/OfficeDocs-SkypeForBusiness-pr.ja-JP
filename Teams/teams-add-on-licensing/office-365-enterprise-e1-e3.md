@@ -5,7 +5,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 MS.collection:
@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオン ・ ライセンス、機能、および Office 365 エンタープライズ E1 と E3 の計画のために購入する方法について説明します。 '
-ms.openlocfilehash: 552aaf7f9cc7970c8baa97ce183ada6d5eab26ad
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 853cc90b8c0e6a0a5fd42a104ae9c972437995d7
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460685"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541425"
 ---
 # <a name="office-365-enterprise-e1-and-e3"></a>Office 365 エンタープライズ E1 と E3
 

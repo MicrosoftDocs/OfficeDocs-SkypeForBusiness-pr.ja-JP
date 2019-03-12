@@ -7,14 +7,11 @@ msreviewer: jastarck, makolomi
 ms.topic: article
 ms.assetid: bc9756d1-8a2f-42c4-98f6-afb17c29231c
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -24,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '機能、可用性、およびお客様のビジネス電話システム (PBX をクラウド) の計画およびセットアップする方法です。 '
-ms.openlocfilehash: 655e095f87ee9ad53cb57df09ca8366ecc8eb8f6
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 051834d3a0fd232cc9839ee6a72a41e9be127636
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120901"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542920"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365 での電話システムで利用できる機能
 
@@ -54,7 +51,7 @@ PBX は、会社内の電話システムです。 Office 365 のアドオンの�
 |通話保留と取得  <br/> | 同時に複数の呼び出しが発生したときに使用します。 次の着信呼び出しに応答するか、または発信呼び出しを配置すると、現在の呼び出しは自動的に保留状態に移動します。 <br/> |
 |[Skype のビジネスの呼び出しを転送します。](https://support.office.com/article/f9f312a3-ccc9-4215-86e8-8928b2df1f97) <br/> |他のユーザーへの呼び出しを転送します。 または、オフィスのままにしていますが、会話を続行する必要がある場合に転送できます、呼び出し、PC の IP 電話から携帯電話またはタブレット。  <br/> |
 |発信者番号通知  <br/> |会社の内部からの呼び出しは、社内のディレクトリから情報を取得する電話番号だけではなく図とジョブのタイトルを表示する詳細な呼び出し元 ID を表示します。  <br/> |
-|[電話システムの通話キューを作成する](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |電話システム キューには、保留中の呼び出しを自動的に配置する機能などを検索する人の中に呼び出しを処理するために次の呼び出しを使用可能なエージェントの機能の電話番号への呼び出し際に使用するあいさつ文が含まれています。呼び出しが保留中の音楽をリッスンしています。  <br/> |
+|[電話システムの呼び出しキューを作成する](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |電話システム キューには、保留中の呼び出しを自動的に配置する機能などを検索する人の中に呼び出しを処理するために次の呼び出しを使用可能なエージェントの機能の電話番号への呼び出し際に使用するあいさつ文が含まれています。呼び出しが保留中の音楽をリッスンしています。  <br/> |
 |[他のユーザーのステータスが変更されたときを知りたいです。](https://support.office.com/article/042a13d8-c815-4101-8b41-1e141b6bf6e9) <br/> | この機能は、現在利用できませんし、通知を受け取る場合、プレゼンスの変更と、電話の呼び出しを実行する準備ができてタグ人にできます。 <br/> |
 |PC、Mac、およびモバイル クライアント  <br/> | こうデバイスでは、タブレットや携帯電話を Pc とデスクトップの IP 電話の機能を呼び出すことができます。 <br/> |
 |デバイスの切り替え  <br/> |呼び出し、または別のデバイス上で会議を再生できるようにします。  <br/> |

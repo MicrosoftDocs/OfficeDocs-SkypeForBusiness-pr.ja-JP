@@ -6,9 +6,7 @@ manager: serdars
 ms.reviewer: gageames
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -22,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: ストリーム品質がMicrosoft TeamsとSkype for Business Onlineの通話品質ダッシュボードでどのように分類されているかをご覧ください。
-ms.openlocfilehash: 9a25e44393cbe8660687451fea5163f064c16240
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: a04843e45e444da34bf065c1cdfbf0a619be9406
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460309"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541721"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>通話品質ダッシュボードでのストリーム分類
 
