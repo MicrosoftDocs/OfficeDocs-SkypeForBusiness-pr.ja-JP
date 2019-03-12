@@ -4,14 +4,12 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - Teams_ITAdmin_Help
 - M365-voice
 ms.audience: Admin
@@ -25,12 +23,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 国や地域ごとに、Skype for Business Online および Microsoft Teams のユーザーの電話番号を取得する手順が異なります。 必要な情報を取得するには、以下の国または地域へのリンク先に移動してください。
-ms.openlocfilehash: 23923d6d31222d1d97d43318227ce2b1e558d5c2
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: dd4bb74172736ae3b82bef00a4b4b11c7285ee1f
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351899"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543128"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>組織のために電話番号を管理する
 組織のユーザーとサービスの両方の番号 (有料とフリー ダイヤル)を取得する 3 つの方法があります。
@@ -85,7 +83,7 @@ ms.locfileid: "30351899"
 - [ビジネス製品 - 管理者ヘルプのサポートに問い合わせて](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)組織の電話番号設定のヘルプを表示します。
   
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [緊急通話の利用条件](../emergency-calling-terms-and-conditions.md)
 
