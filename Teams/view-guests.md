@@ -17,20 +17,20 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 852963652397b2e8c792ad7203c71520f79a4a52
 ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/08/2019
 ms.locfileid: "30493654"
 ---
 <a name="view-guest-users-in-a-team"></a>チームのゲスト ユーザーを表示する
 ==========================
-Anyone in a team can see all members of a team, including guests, via **Manage team** in Microsoft Teams. [See who's on a team or in a channel ](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7) has more details.
+チーム内のユーザーは誰でも、Microsoft Teams の **[チームの管理]** から、ゲストを含むチームのすべてのメンバーを見ることができます。 詳細については「[チームまたはチャネルにいるユーザーを確認する](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7)」を参照してください。
 
 ゲスト ユーザーを識別する方法は次のとおりです。
 
 1.  Microsoft 365 管理センターにサインインします。
-2.  [**管理センター**] > [**Teams & Skype**] を選択します。
-3.  In the Microsoft Teams & Skype Admin Center, select **Users**. You will see **guest** appended to the display name of any guest users.
+2.  **[管理センター]** > **[Teams & Skype]** の順に選択します。
+3.  Microsoft Teams および Skype の管理センターで、**[ユーザー]** を選択します。 "**ゲスト**" という表記が、ゲスト ユーザーの表示名の後に追加されています。
   
 所有するチーム内からゲスト ユーザーを識別することもできます。  
 

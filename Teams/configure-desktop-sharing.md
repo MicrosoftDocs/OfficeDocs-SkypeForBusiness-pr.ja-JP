@@ -8,7 +8,7 @@ ms.date: 12/07/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: チーム チャットや会議での自分のデスクトップを共有できるようにするのには会議ポリシーを構成します。
+description: Teams のチャットや会議でユーザーがデスクトップを共有できるように、会議ポリシーを構成します。
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -16,7 +16,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 757f023d5f988e5a4f45c6274358aa51f3417ce0
 ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/07/2019
 ms.locfileid: "30464461"
@@ -24,45 +24,46 @@ ms.locfileid: "30464461"
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Microsoft Teams でのデスクトップ共有を構成する
 ============================================
 
-デスクトップの共有には、ユーザーが会議出席依頼やチャット中に、画面またはアプリケーションを提示することができます。 管理者は、画面を画面全体、アプリケーション、またはファイルを共有できるようにするのには、マイクロソフトのチームで共有を構成できます。 ユーザーを与える制御を要求、PowerPoint の共有を許可する、ホワイト ボードの追加やノートの共有を許可することもできます。 匿名または外部のユーザーが共有画面のコントロールを要求できるかどうかを構成することもできます。
+デスクトップを共有すると、ユーザーは会議やチャット中に画面やアプリを表示できます。 管理者が Microsoft Teams で画面共有を構成すると、ユーザーは画面全体、アプリ、ファイルを共有できるようになります。 ユーザーによる制御の付与または要求の許可、PowerPoint 共有の許可、ホワイトボードの追加、共有メモの許可を設定できます。 匿名ユーザーや外部ユーザーが共有画面の制御を要求できるかどうかも構成できます。
 
-画面共有を構成するには、新しい会議ポリシーを作成し、管理するユーザーに割り当てます。
+画面共有を構成するには、新しい会議ポリシーを作成し、そのポリシーを管理対象ユーザーに割り当てます。
 
-**マイクロソフトのチームの管理センターで**
+**Microsoft Teams 管理センターで**
 
-1. **会議**を選択して > **ミーティングのポリシー**です。
+1. **[会議]** > **[会議ポリシー]** の順に選択します。
 
-    ![ミーティングのポリシーを選択します。](media/configure-desktop-sharing-image1.png)
+    ![[会議ポリシー] を選択する](media/configure-desktop-sharing-image1.png)
 
-2. [**ミーティングのポリシー** ] ページで、**新しいポリシー**を選択します。
+2. **[会議ポリシー]** ページで、**[新しいポリシー]** を選択します。
 
-    ![新しいポリシーを選択します。](media/configure-desktop-sharing-image2.png)
+    ![新しいポリシーを選択する](media/configure-desktop-sharing-image2.png)
 
-3. ポリシー固有のタイトルを提供し、簡単な説明を入力します。
+3. ポリシーに一意のタイトルを指定し、簡単な説明を入力します。
 
-4. **コンテンツの共有**の下にあるドロップ ダウン リストから**画面共有モード**を選択します。
+4. **[コンテンツの共有]** の下にある、**[画面共有モード]** ドロップダウン リストから選択します。
 
-   - **全体画面**– を使うと、その全体のデスクトップを共有できます。
-   - **1 つのアプリケーション**では、1 つのアクティブなアプリケーションを制限画面の共有をユーザーことができます。
-   - **無効**– 画面の共有を無効にします。
+   - **[画面全体]**: ユーザーはデスクトップ全体を共有できます。
+   - **[1 つのアプリケーション]**: ユーザーの画面共有は 1 つのアクティブなアプリケーションに制限されます。
+   - **[無効]**: 画面共有をオフにします。
 
-    ![共有モードの画面を選択します。](media/configure-desktop-sharing-image3.png)
+    ![画面共有モードを選択する](media/configure-desktop-sharing-image3.png)
 
-5. 次の設定を有効または無効にします。
+5. 次の設定をオンまたはオフにします。
 
-    - 提供または、発表者のデスクトップまたはアプリケーションの制御を要求**したり制御を要求する参加者を許可する**: チームのメンバーを使用します。
-    - 来園者は、**制御を要求したりする外部の参加者を許可する**- と (連合) の外部のユーザーが付与または、発表者のデスクトップまたはアプリケーションの制御を要求します。
-    - **PowerPoint の共有**- には、ユーザーが PowerPoint のプレゼンテーションをアップロードして共有できるように会議を作成することができます。
-    - **許可するホワイト ボード**-では、ホワイト ボードを共有することができます。
-    - **ノートの共有を許可する**-には、ユーザーが共有ノートを取ることができます。
+    - **[参加者による制御の付与または要求を許可する]**: チームのメンバーによる、発表者のデスクトップまたはアプリケーションの制御の付与や要求を許可します。
+    - **[外部の参加者による制御の付与または要求を許可する]**: ゲストや外部の (フェデレーション) ユーザーによる、発表者のデスクトップまたはアプリケーションの制御の付与や要求を許可します。
+    - **[PowerPoint 共有を許可する]**: ユーザーによる、PowerPoint プレゼンテーションのアップロードや共有ができる会議の作成を許可します。
+    - **[ホワイトボードを許可する]**: ユーザーによるホワイトボードの共有を許可します。
+    - **[共有メモを許可する]**: ユーザーが共有メモを取ることを許可します。
 
-6. [**保存**] をクリックします。
+6. **[保存]** をクリックします。
 
-## <a name="use-powershell-to-configure-shared-desktop"></a>PowerShell を使用して、デスクトップの共有を構成するには
+## <a name="use-powershell-to-configure-shared-desktop"></a>PowerShell を使用して共有デスクトップを構成する
 
-デスクトップの共有を制御する[セット CsTeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)コマンドレットを使用することもできます。 次のパラメーターを設定します。
 
-- 説明
+  [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) コマンドレットを使用して、デスクトップ共有を制御することもできます。 次のパラメーターを設定します。
+
+- Description
 - ScreenSharingMode
 - AllowParticipantGiveRequestControl
 - AllowExternalParticipantGiveRequestControl
@@ -70,5 +71,6 @@ ms.locfileid: "30464461"
 - AllowWhiteboard
 - AllowSharedNotes
 
-[CsTeamsMeetingPolicy コマンドレットを使用してに関する詳細を表示](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)します。
+
+  [csTeamsMeetingPolicy コマンドレットの使用方法に関する詳細情報](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)。
 
