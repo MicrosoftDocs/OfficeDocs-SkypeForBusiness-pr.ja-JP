@@ -5,7 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.date: 11/15/2018
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eec164da4dafe9be54272a72680cfa920d32d60c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 5dc79f6913a2996734b34d589f124c440eb9835e
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458813"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641106"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>先進認証を使用して Microsoft Teams にサインインする
 ==========================
@@ -32,7 +32,7 @@ ms.locfileid: "30458813"
 
 現代の認証は、ユーザー既に入力されている資格情報 (と同様に自分の仕事の電子メールとパスワードを使用して) 別の場所で、し、アプリケーションを起動するには、もう一度入力して必要なされるべきではないことを知っているチームをできるようにするプロセスです。 経験によって異なりますいくつかの要因のようなユーザーは、windows、または、mac 上に作業している場合 一元的認証方式、または複数要素の認証、組織が有効になっているかどうかによっても異なります (通常多要素認証では、PIN を入力する、一意のコードを提供する、携帯電話経由で資格情報を確認する必要がありますか拇印を表示) します。 ここでは、最新の認証シナリオの概要を示してします。
 
-### <a name="windows-users"></a>Windows ユーザー: 
+### <a name="windows-users"></a>Windows ユーザーの場合: 
 
 - ユーザーが既に署名されている場合、Office 365 のエンタープライズのアカウントでは、他の Office アプリケーションをアプリケーションに直接、撮影しているチームを起動するとき。 自分の資格情報を入力するために必要はありません。
 
@@ -49,7 +49,6 @@ ms.locfileid: "30458813"
 ユーザーがドメインに参加しているコンピューター (たとえば、そのテナントが Kerberos を有効にしている場合) で作業している場合、完了した最新の認証ユーザー アカウントの切り替え、ことはできません。 ユーザーがドメインに参加しているコンピューターで動作しない場合は、アカウントに切り替えることができます。
 
 ## <a name="signing-out-of-microsoft-teams-after-completing-modern-authentication"></a>現代の認証が完了した後、マイクロソフトのチームが署名
-
 チームからサインインすると、ユーザーが、アプリの上部にある自分のプロファイル画像をクリックし、**サインアウト**を選択します。アプリケーションのタスク バーにアイコンを右クリックしても、**ログアウト**を選択します。チームのサインアウトをしているアプリケーションを起動するには、再度資格情報を入力するのには、必要があります。
 
 ## <a name="troubleshooting-modern-authentication"></a>現代の認証のトラブルシューティング

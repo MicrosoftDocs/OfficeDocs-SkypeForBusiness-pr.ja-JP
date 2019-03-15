@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 ms.date: 2/1/2019
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: roykuntz
 search.appverid: MET150
@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e6e8167dd6f543693638bed4fcbb467600364f0
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b91eb877da7d18b41fdb21acbb7ade018a2c97b5
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461685"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641098"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>ダイレクト ルーティングの場所に基づくルーティングを計画する
 
@@ -146,10 +146,10 @@ PSTN エンドポイントが含まれる場合、場所ベースのルーティ
 |ターゲット ユーザーのエンドポイントの場所|User1 は、呼び出しの転送を開始します。 |User1 は、呼び出しの転送を開始します。|
 |---------|---------|---------|
 |イニシエーター (User2) と、同じのネットワーク サイト|許可|許可|
-|別のネットワークのサイト、ロケーション ベースのルーティング (User3) を有効になっているサイト|許可されていない|許可されていない|
-|別のネットワークのサイト、サイトの場所ベースのルーティング (User4) を有効になっていません。|許可されていない|許可されていない|
-|不明な内部ネットワーク (User5)| 許可されていない|許可されていない|
-|不明な外部ネットワーク (User6)| 許可されていない|許可されていない|
+|別のネットワークのサイト、ロケーション ベースのルーティング (User3) を有効になっているサイト|許可されていません|許可されていません|
+|別のネットワークのサイト、サイトの場所ベースのルーティング (User4) を有効になっていません。|許可されていません|許可されていません|
+|不明な内部ネットワーク (User5)| 許可されていません|許可されていません|
+|不明な外部ネットワーク (User6)| 許可されていません|許可されていません|
 
 ### <a name="teams-user-transfers-or-forwards-call-to-pstn-endpoint"></a>チームのユーザーが転送または PSTN エンドポイントへの呼び出しを転送します。
 
@@ -188,10 +188,10 @@ PSTN エンドポイントが含まれる場合、場所ベースのルーティ
 |ターゲット ユーザーのエンドポイントの場所|同時呼び出し  |
 |---------|---------|
 |イニシエーター (User2) と、同じのネットワーク サイト   |許可         |
-|(User3) 場所ベースのルーティングを有効になっている別の移動ネットワーク サイト   |許可されていない         |
-|移動ネットワーク サイトが有効になっていない場所に基づくルーティング (User4)   |許可されていない        |
-|不明な内部ネットワーク (User5)    | 許可されていない        |
-|不明な外部ネットワーク (User6)    |許可されていない        |
+|(User3) 場所ベースのルーティングを有効になっている別の移動ネットワーク サイト   |許可されていません         |
+|移動ネットワーク サイトが有効になっていない場所に基づくルーティング (User4)   |許可されていません        |
+|不明な内部ネットワーク (User5)    | 許可されていません        |
+|不明な外部ネットワーク (User6)    |許可されていません        |
 |ターゲット ・ ユーザーは、PSTN 番号です。    |呼び出しをルーティングする場合は場所ベースのルーティングを User1 の音声ルーティング ポリシーに基づいて、Site1 に Gateway1 を有効になっています。      |
 
 #### <a name="simultaneous-ringing-to-a-pstn-endpoint"></a>PSTN エンドポイントへの着信を同時
@@ -250,9 +250,9 @@ IPv4 と IPv6 のサブネットをサポート、ただし、IPv6 が優先の�
 
 PSTN の呼び出しに場所ベースのルーティングが有効になっているユーザーが別の会議を開始するのには許可されていないユーザーまたは PSTN 番号です。 自動応答、または呼び出しのキューへの接続が許可されます。 ユーザーに会議のライセンスがある場合は、関連するユーザーとの会議を開始ユーザー側で確認し、電話会議ブリッジを PSTN 電話会議を開始する必要があります。  
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [場所ベースのルーティング用のネットワーク設定の構成](location-based-routing-configure-network-settings.md)に移動します。
 
-### <a name="related-topics"></a>関連トピック
+### <a name="related-topics"></a>関連項目
 - [ダイレクト ルーティングの場所に基づくルーティングを有効にする](location-based-routing-enable.md)
 - [場所に基づくルーティングの用語集](location-based-routing-terminology.md)

@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: gageames
-ms.topic: article
+ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: ストリーム品質がMicrosoft TeamsとSkype for Business Onlineの通話品質ダッシュボードでどのように分類されているかをご覧ください。
-ms.openlocfilehash: a04843e45e444da34bf065c1cdfbf0a619be9406
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: b3b63ff8ac89ed0ad1d88893913fa89af769e078
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541721"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641035"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>通話品質ダッシュボードでのストリーム分類
 
@@ -44,7 +44,7 @@ Streams in CQD are classified as good, poor, or unclassified based on the values
 |Audio Degradation Avg|> 1.0|Average Network Mean Opinion Score degradation for stream. Represents how much the network loss and jitter has impacted the quality of received audio.|
 |Round Trip|500 ミリ秒より長い|RFC3550 での規定に従って計算されたミリ秒単位の平均ネットワーク伝達ラウンド トリップ時間。|
 |Packet Loss Rate|> 0.1|ストリームの平均のパケット損失率。|
-|Jitter|> 30|ミリ秒単位のストリームの平均ジッター。|
+|ジッター|> 30|ミリ秒単位のストリームの平均ジッター。|
 |Ratio Concealed Samples Avg|> 0.07|パケット損失のオーディオ フレームの合計数を治療によって生成される非表示の文字列のサンプルでのオーディオ フレームの数の平均の比率です。|
 
 ### <a name="video-classifier"></a>ビデオ クラシファイアー

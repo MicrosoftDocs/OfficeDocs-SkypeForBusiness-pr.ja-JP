@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 msreviewer: jastarck, makolomi
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: bc9756d1-8a2f-42c4-98f6-afb17c29231c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '機能、可用性、およびお客様のビジネス電話システム (PBX をクラウド) の計画およびセットアップする方法です。 '
-ms.openlocfilehash: 051834d3a0fd232cc9839ee6a72a41e9be127636
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 3982afffc948d58d6793b13c06fa3d29d8e48ac9
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542920"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640923"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365 での電話システムで利用できる機能
 
-PBX は、会社内の電話システムです。 Office 365 のアドオンの電話システムが PBX の機能を使用することがなく、複雑で高価な機器です。 
+PBX は、企業内電話システムです。 Office 365 のアドオンの電話システムが PBX の機能を使用することがなく、複雑で高価な機器です。 
   
 電話システムのアドオンにから転送する呼び出し、およびミュートまたは unmuting の呼び出しでは、ほぼあらゆる場所でインターネットへのアクセスを行うと、呼び出しを受信するなどの基本的なタスクを完了するのにはビジネス用の Skype を使用できます。 使用可能になる世界中で! 
   
@@ -50,7 +50,7 @@ PBX は、会社内の電話システムです。 Office 365 のアドオンの�
 |[以前の会話では、Lync を検索します。](https://support.office.com/article/d1d54123-0301-482e-b047-c82e9e2724a3) <br/> |追跡、すべての会話を 1 つの場所でも議論は、IMs、電話、または緊急のスケジュールされたミーティングを開催するかどうか。 会話は、呼び出し履歴に記録されます。  <br/> |
 |通話保留と取得  <br/> | 同時に複数の呼び出しが発生したときに使用します。 次の着信呼び出しに応答するか、または発信呼び出しを配置すると、現在の呼び出しは自動的に保留状態に移動します。 <br/> |
 |[Skype のビジネスの呼び出しを転送します。](https://support.office.com/article/f9f312a3-ccc9-4215-86e8-8928b2df1f97) <br/> |他のユーザーへの呼び出しを転送します。 または、オフィスのままにしていますが、会話を続行する必要がある場合に転送できます、呼び出し、PC の IP 電話から携帯電話またはタブレット。  <br/> |
-|発信者番号通知  <br/> |会社の内部からの呼び出しは、社内のディレクトリから情報を取得する電話番号だけではなく図とジョブのタイトルを表示する詳細な呼び出し元 ID を表示します。  <br/> |
+|発信者番号  <br/> |会社の内部からの呼び出しは、社内のディレクトリから情報を取得する電話番号だけではなく図とジョブのタイトルを表示する詳細な呼び出し元 ID を表示します。  <br/> |
 |[電話システムの呼び出しキューを作成する](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |電話システム キューには、保留中の呼び出しを自動的に配置する機能などを検索する人の中に呼び出しを処理するために次の呼び出しを使用可能なエージェントの機能の電話番号への呼び出し際に使用するあいさつ文が含まれています。呼び出しが保留中の音楽をリッスンしています。  <br/> |
 |[他のユーザーのステータスが変更されたときを知りたいです。](https://support.office.com/article/042a13d8-c815-4101-8b41-1e141b6bf6e9) <br/> | この機能は、現在利用できませんし、通知を受け取る場合、プレゼンスの変更と、電話の呼び出しを実行する準備ができてタグ人にできます。 <br/> |
 |PC、Mac、およびモバイル クライアント  <br/> | こうデバイスでは、タブレットや携帯電話を Pc とデスクトップの IP 電話の機能を呼び出すことができます。 <br/> |
@@ -77,7 +77,7 @@ PBX は、会社内の電話システムです。 Office 365 のアドオンの�
     
 計画およびお客様のビジネス電話システムを設定するこれらの記事を参照してください。
 
-- [通話プランが設定された電話システム](calling-plan-landing-page.md)
+- [通話プランと電話システム](calling-plan-landing-page.md)
 
 - [プランの呼び出しを設定します](set-up-calling-plans.md): この資料には、電話番号の設定を取得するか、Skype ビジネスのために、既存の電話番号を転送する手順です。
     
@@ -85,7 +85,7 @@ PBX は、会社内の電話システムです。 Office 365 のアドオンの�
     
 - [マイクロソフト チーム アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md): についてはライセンスで Office 365 に電話システムを購入する必要があります。
     
-- [電話システム ボイスメールのセットアップ - 管理者ヘルプ](set-up-phone-system-voicemail.md)
+- [電話システムのボイスメールをセットアップする - 管理のヘルプ](set-up-phone-system-voicemail.md)
     
 - [ビジネス用の Skype の検出](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba): ヘルプあなたの会社の人が Skype のビジネス機能の使用方法を学習します。 
 

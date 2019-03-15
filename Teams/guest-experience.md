@@ -4,7 +4,7 @@ author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
 ms.date: 11/26/18
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: sbhatta
 search.appverid: MET150
@@ -15,21 +15,21 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9301ecf94588560b1ba11b17b2c7f92d89cb072a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 041bd5db6f0579a21dbdff15136e91a70e5a8d21
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458981"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641082"
 ---
 <a name="what-the-guest-experience-is-like"></a>ゲストのエクスペリエンスについて
 =================================
 
-When a guest is invited to join a team, they receive a welcome email message that includes some information about the team and what to expect now that they're a member. The guest must redeem the invitation in the email message before they can access the team and its channels.
+ゲストは、チームへの参加を招待されると、チームに関する情報とメンバーとして利用できる内容を記載する「ようこそ」メール メッセージを受け取ります。 ゲストは、メール メッセージの招待状と引き換えに、チームやそのチャネルにアクセスできるようになります。
     
-![Example of a welcome email message sent by a team owner in Microsoft Teams to a guest user. The message includes text that can be customized by the team owner and brief descriptions of Teams features like chat, calls, and meetings.](media/guest-experience-image1.png)
+![ゲスト ユーザーにマイクロソフトのチームで、チームの所有者によって送信されるウェルカム電子メール メッセージの例です。 メッセージには、チーム所有者によってカスタマイズ可能なテキスト、さらにチャット、通話、会議など Teams の機能に関する簡潔な説明が記載されます。](media/guest-experience-image1.png)
     
-All team members see a message in the channel thread announcing that the team owner has added a guest and providing the guest's name. Everyone on the team can identify easily who is a guest. As shown in the following screenshot of a sample team, a banner indicates "This team has guests" and a "GUEST" label appears next to each guest's name.
+すべてのチーム メンバーは、チーム所有者がゲストを追加した旨およびそのゲストの名前を知らせるメッセージを確認することができます。 チームのメンバー全員がゲストが誰であるかを簡単に判断できます。 次のサンプル チームのスクリーンショットで示すように、バナーに「This team has guests (チームにゲストが参加しました)」と示され、各ゲストの名前の横に「ゲスト」ラベルが表示されます。
     
 ![スクリーンショットは Northwind Traders の Marketing チャネルの一部を示しています。上部のバナーに「This team has guests (チームにゲストが参加しています)」と示され、ゲストのユーザーはその名前の横の「ゲスト」によって識別されます。](media/guest-experience-image2.png)
 
@@ -44,49 +44,49 @@ All team members see a message in the channel thread announcing that the team ow
 |チャネル ファイルを共有する  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
 |チャット ファイルを共有する  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |アプリ (タブ、ボット、コネクタ) を追加する  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|会議を作成またはスケジュールにアクセスする  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|OneDrive for Business ストレージにアクセスする  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|会議を作成またはスケジュールにアクセス  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|ビジネス ・ ストレージのアクセス OneDrive  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |テナント全体およびチーム/チャネルのゲスト アクセス ポリシーを作成する  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Office 365 テナントのドメイン外のユーザーを招待する <br/>  *この機能はチーム所有者によって制御されます。*  <br/> <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |チームを作成する  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |パブリック チームを検出して参加する  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |組織図を表示する  <br/> |![チェックマーク](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
-次の表は、ゲストが利用することができる通話および会議の機能を示します。
+次の表は、来園者および会議を呼び出す機能を示しています。
 
-| 通話機能 | ゲスト | E1 および E3 ユーザー | E5 および EV ユーザー |
+| 通話機能 | ゲスト | E1 と E3 のユーザー | E5 と EV のユーザー |
 | --------------- | ----- | -------------- | -------------- |
-| VOIP 通話 | あり | あり | あり |
-| グループ通話 | あり | あり | あり |
-| 通話の重要なコントロール (保留、ミュート、ビデオのオン/オフ、画面共有) のサポート | あり | あり | あり |
-| 転送先 | あり | あり | あり |
-| 通話を転送する | あり | あり | あり |
-| 取次転送をする | あり | あり | あり |
-| その他のユーザーを VOIP を介して通話に追加する | あり | あり | あり |
-| 電話番号でユーザーを通話に追加する | なし | なし | あり |
-| 着信転送ターゲット | なし | あり | あり |
-| 通話グループ ターゲット | なし | あり | あり |
-| 応答しなかったターゲット | なし | あり | あり |
-| フェデレーション通話のターゲットとなる | なし | あり | あり |
-| フェデレーション通話を発信する | なし | あり | あり |
-| 通話を即時転送する | なし | なし | あり |
-| 複数の通話の呼び出しを同時に行う | なし | なし | あり |
-| 応答しなかった通話をルーティングする | なし | なし | あり |
-| 不在着信をボイスメールに移動する | いいえ | いいえ<sup>1</sup> |はい |
-| 通話を受信できる電話番号を持つ | なし | なし | あり |
-| 電話番号をダイヤルする | なし | なし | あり |
-| 通話設定にアクセスする | なし | なし | あり |
-| ボイスメールの挨拶を変更する | いいえ | いいえ<sup>1</sup> | はい |
-| 着信音を変更する | なし | なし  | あり |
-| TTY のサポート | なし | なし | あり |
-| 代理人を利用する | なし | なし | あり |
-|  代理人となる | なし | なし | あり |
+| VOIP 通話 | はい | はい | はい |
+| グループ通話 | はい | はい | はい |
+| コア呼び出しコントロールは、(保留、ミュート、ビデオの場合をオンまたはオフ、画面の共有) をサポートします。 | はい | はい | はい |
+| ターゲットを転送します。 | はい | はい | はい |
+| 通話を転送することができます。 | はい | はい | はい |
+| 提案型の転送をことができます。 | はい | はい | はい |
+| VOIP を介して呼び出しを他のユーザーを追加することができます。 | はい | はい | はい |
+| 呼び出しを電話番号でユーザを追加することができます。 | なし | いいえ | はい |
+| 前方のターゲット | いいえ | はい | はい |
+| グループのターゲットを呼び出す | いいえ | はい | はい |
+| 不在時のターゲット | いいえ | はい | はい |
+| 連合の呼び出しのターゲットにすることができます。 | いいえ | はい | はい |
+| 連合の呼び出しを行うことができます。 | いいえ | はい | はい |
+| 着信を転送することがすぐにできます。 | なし | いいえ | はい |
+| 呼び出しを同時にリングことができます。 | なし | いいえ | はい |
+| 不在時の着信をルーティングすることができます。 | なし | いいえ | はい |
+| 不在着信がボイスメールに移動できます。 | いいえ | いいえ<sup>1</sup> |はい |
+| 呼び出しを受け取ることができる電話番号します。 | なし | いいえ | はい |
+| 電話番号をダイヤルすることができます。 | なし | いいえ | はい |
+| アクセスは、設定を呼び出すことができます。 | なし | いいえ | はい |
+| ボイス メール応答メッセージを変更することができます。 | いいえ | いいえ<sup>1</sup> | はい |
+| 着信音を変更することができます。 | なし | いいえ  | はい |
+| 端末をサポートしています | なし | いいえ | はい |
+| デリゲートを持つことができます。 | なし | いいえ | はい |
+|  代理人であることができます。 | なし | いいえ | はい |
 
 
-<sup>1</sup> この機能は近日中に利用できるようになります。
+<sup>1</sup>この機能は近日します。
 
 > [!NOTE]
-> Office 365 の管理者は、ゲストが利用できる機能を制御します。 
+> ゲストが利用できる機能は Office 365 の管理者によって制御されます。 
  
 ## <a name="guest-access-vs-external-access-federation"></a>ゲスト アクセスと外部アクセス (フェデレーション)
 
@@ -94,24 +94,24 @@ All team members see a message in the channel thread announcing that the team ow
  
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
   
-Q. ゲストはチーム メンバーと同じ機能を利用できますか?<br>
+Q。 来園者にはチーム メンバーと同じ機能がありますか。<br>
 A. いいえ。 詳細については、どのようなゲストができるし、実行できない、[チームでのゲストの機能](https://support.office.com/article/guest-capabilities-in-teams-d03fdf5b-1a6e-48e4-8e07-b13e1350ec7b)を参照してください。
 
-Q. 招待できるゲストの人数を教えてください。<br>
-A. ライセンスが付与されたユーザーあたり 5 人のゲストを追加することができます。
+Q。 どのように多くの来園者を招待できますか。<br>
+A. までのライセンスを付与されたユーザーごとの 5 つのゲストを追加できます。
 
-Q. ゲストは OneDrive for Business にアクセスできますか?<br>
+Q。 来園者にはビジネスの OneDrive へのアクセスがありますか。<br>
 A. いいえ。
 
-Q. ゲストは SharePoint ファイルにアクセスできますか?<br>
+Q。 来園者を持ってアクセスする SharePoint ファイル?<br>
 A. はい。
 
-Q. ゲストがファイル内で検索を行うことができますか?<br>
+Q。 来園者は、ファイル内で検索できますか。<br>
 A. いいえ。
 
-Q. ゲストがファイルを添付することはできますか?<br>
-A. はい、ゲストは次の 2 つの方法でファイルを添付することができます。•   左ペインでファイルを選択してから、ファイルの場所を参照します。
-•   コンピューターからアップロードします。
+Q。 来園者がファイルを添付することができますか。<br>
+A. はい、ゲストが次の 2 つの方法でファイルを関連付けることができます: • が左側のウィンドウでファイルを選択し、ファイルの場所を参照します。
+• 自分のコンピューターからアップロードします。
 
-Q. ゲストはプライベート チャットでファイルをダウンロードできますか?<br>
-A. はい、ゲストはプライベート チャットでメンバーからファイルを受け取り、自分のデスクトップにダウンロードすることができます。
+Q。 ゲストはプライベート チャットにファイルをダウンロードできますか。<br>
+A. はい、秘密のチャットでのメンバーからファイルを受信し、自分のデスクトップにダウンロードすることにできます。

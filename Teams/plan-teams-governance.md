@@ -4,21 +4,23 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 08/10/2018
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
 description: Teams でガバナンスを実施するための計画を立てる方法について説明します。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87f52eae4b99a76fc1eddf60fbdfd876efa8da05
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
-ms.translationtype: HT
+ms.openlocfilehash: 2ce14fee8e9039f538d39c61ef4436c69160b222
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754811"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640947"
 ---
 # <a name="plan-for-governance-in-teams"></a>Teams でのガバナンスを計画する
 

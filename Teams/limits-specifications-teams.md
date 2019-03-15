@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 10/05/2018
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.reviewer: karuanag
 description: 制限、仕様、およびマイクロソフトのチームに適用されるその他の要件について説明します。
@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4da0f7049912c246a58792c8c03c15b28a083cbc
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 391fd25aeec4ae52b31865f25be9b127158ef764
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460653"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641169"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 =============================================
@@ -80,7 +80,7 @@ SharePoint Online ドキュメント ライブラリと OneDrive for Business �
 |機能  |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |---------|---------|---------|---------|---------|
 |メッセージ サイズの制限&dagger;  |25 KB   |25 KB   |25 KB   |25 KB   |
-|ファイルの添付ファイルの制限&Dagger;  | 10     | 10     | 10     | 10    |
+|ファイルの添付ファイルの制限&Dagger;  |10     |10     |10     |10    |
 |インライン イメージを制限します。&Dagger; |50   |50   |50   |50   |
 
 &dagger;メッセージがこの制限を超える場合プレビュー メッセージが生成され、提供されているリンクからのメールに元の表示/ダウンロードをユーザーに求めては。
@@ -89,7 +89,7 @@ SharePoint Online ドキュメント ライブラリと OneDrive for Business �
 
 詳細については、 [Exchange Online の制限](https://technet.microsoft.com/library/exchange-online-limits.aspx)を参照してください。
 
-<a name="browsers"></a> ブラウザー 
+<a name="browsers"></a>ブラウザー 
 --------
 
 [!INCLUDE [browser-support](includes/browser-support.md)]

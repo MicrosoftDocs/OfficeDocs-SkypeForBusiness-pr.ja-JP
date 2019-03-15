@@ -3,7 +3,7 @@ title: Teams を Skype for Business と一緒に使用する組織向けの移�
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
 description: チームにビジネス用の Skype からの移行を管理するためのガイダンス
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d4c0733b30118bc09004d84f8c4b9db64f58e23
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 2fe85942a943bcfb5a9645030924acd4180d250a
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494278"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641344"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス
 
@@ -81,10 +81,10 @@ ms.locfileid: "30494278"
 
 |モード|通話とチャット|会議スケジュール<sup>1</sup>|チームの & チャネル|大文字と小文字を使用します。|
 |---|---|---|---|---|
-|**TeamsOnly**</br>*ビジネス オンラインの Skype のホームが必要*|Teams|Teams|あり|アップグレード中の最終的な状態です。 _LT_500 シートの新しいテナントのデフォルトです。|
-|アイランド|いずれも|いずれも|あり|既定の構成です。 両方のクライアント サイド バイ サイドを評価するために 1 人のユーザーを使用できます。 チャットや通話は、ユーザーは、両方のクライアントに常に実行する必要がありますのでいずれかのクライアントで着陸できます。|
-|SfBWithTeamsCollabAndMeetings<sup>2</sup>|Skype for Business|Teams|あり|"会議最初"です。 されていない場合、チームの会議の機能を利用しながら、クラウドへの呼び出しモードの準備ができたの設置型の組織を主に|
-|SfBWithTeamsCollab<sup>2</sup>|Skype for Business|Skype for Business|あり|管理制御の精度を必要とする複雑な組織の別の開始点|
+|**TeamsOnly**</br>*ビジネス オンラインの Skype のホームが必要*|Teams|Teams|はい|アップグレード中の最終的な状態です。 _LT_500 シートの新しいテナントのデフォルトです。|
+|アイランド|いずれも|いずれも|はい|既定の構成です。 両方のクライアント サイド バイ サイドを評価するために 1 人のユーザーを使用できます。 チャットや通話は、ユーザーは、両方のクライアントに常に実行する必要がありますのでいずれかのクライアントで着陸できます。|
+|SfBWithTeamsCollabAndMeetings<sup>2</sup>|Skype for Business|Teams|はい|"会議最初"です。 されていない場合、チームの会議の機能を利用しながら、クラウドへの呼び出しモードの準備ができたの設置型の組織を主に|
+|SfBWithTeamsCollab<sup>2</sup>|Skype for Business|Skype for Business|はい|管理制御の精度を必要とする複雑な組織の別の開始点|
 |SfBOnly|Skype for Business|Skype for Business|なし<sup>3</sup>|シナリオは、データ コントロールの周囲の厳格な要件を持つ企業に特化しています。 チームは他のユーザーによってスケジュールされたミーティングへの参加にのみ使用されます。|
 ||||||
 
@@ -107,7 +107,7 @@ TeamsUpgradePolicy は、2 つのキー プロパティを公開する: モー�
 </br>
 </br>
 
-|パラメーター|種類|許容値</br>(イタリック体での既定値)|説明|
+|パラメーター|種類|許容値</br>(イタリック体での既定値)|Description|
 |---|---|---|---|
 |モード|列挙型|*アイランド*</br>TeamsOnly</br>SfBOnly</br>SfBWithTeamsCollab</br>SfBWithTeamsCollabAndMeetings|クライアントを実行する必要がありますモードを示します。|
 |NotifySfbUsers|ブール値|*False*または true|チームはビジネス用の Skype を交換してすぐにユーザーに通知するビジネス クライアント用の Skype のバナーを表示するかどうかを示します。 これは true を指定することはできない場合モード = TeamsOnly。|
@@ -128,7 +128,7 @@ TeamsUpgradePolicy は、2 つのキー プロパティを公開する: モー�
 |SfBWithTeamsCollabAndMeetings|SfBWithTeamsCollabAndMeetings|False|
 |SfBWithTeamsCollabAndMeetingsWithNotify|SfBWithTeamsCollabAndMeetings|True|
 |UpgradeToTeams|TeamsOnly|False|
-|グローバル</br>*既定*|アイランド|False|
+|グローバル</br>*既定値*|アイランド|False|
 ||||
 
 個々 のユーザーに、または、テナント全体では、これらのポリシーのインスタンスを与えることができます。 次に例を示します。

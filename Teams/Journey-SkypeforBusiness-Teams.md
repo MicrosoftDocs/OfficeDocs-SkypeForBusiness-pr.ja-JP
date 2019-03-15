@@ -1,12 +1,12 @@
 ---
-title: Skype for Business から Microsoft Teams にアップグレードする
+title: Skype for Business Online から Microsoft Teams へのアップグレード
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
-description: 自分の組織での Skype for Business から Microsoft Teams へのアップグレード手順を進めるために、成功実績のあるフレームワークを使用する
+description: チームへのビジネスのための Skype から、組織のアップグレードの旅を支援する実証済みの成功フレームワークを使用してください。
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -16,42 +16,42 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5749700eb314444398111150f1ac842466f7f90
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 60094153f0e48187b0437bce1f25077c742ad773
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494094"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641181"
 ---
-# <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Skype for Business から Microsoft Teams へのアップグレード
+# <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Skype ビジネスでマイクロソフトのチームのアップグレード
 
-Supporting Microsoft’s intelligent communications vision, Microsoft Teams is the central hub for teamwork, bringing together chat, meetings, calling, collaboration, app integration, and file storage. As an existing Skype for Business customer, you’re invited to upgrade to Microsoft Teams, to experience this full suite of communication and collaboration capabilities in a single client experience.
+マイクロソフトのインテリジェント通信のビジョンをサポートするには、マイクロソフトのチームがチームワークの中心チャット、会議、通話、共同作業、アプリケーション統合、およびファイル ・ ストレージを統合することです。 ビジネス顧客の既存の Skype、としてご案内この包括的な 1 つのクライアント エクスペリエンスのコミュニケーションとコラボレーションの機能が発生する、マイクロソフトのチームへのアップグレードをします。
 
-Your upgrade journey might take some time, and we’re here to support you every step of the way. Whether you’re just getting started with Teams, already using Teams alongside Skype for Business, or ready to upgrade, we’re working hard to bring you the right level of guidance for your organization and encourage you to take the next steps to begin realizing the value Teams can offer your organization.
+アップグレードの旅は、しばらく時間がかかる場合があり、私たちは方法のすべてのステップをサポートするためにします。 いるを初めて使用するチーム、ビジネス、既に Skype と共にチームを使用してまたはをアップグレードする準備ができて、努めて適切なレベルの組織のためのガイダンスを提供し、認識を開始するのには次の手順を実行することを推奨するのかどうか、値のチームが組織に提供できます。
 
-中核的なコンセプト、フレームワーク、アップグレード パスを含む、Skype for Business から Teams へのアップグレード手順の概要については、この[概要](https://aka.ms/UpgradeOverview)をご覧ください。
+ビジネスの Skype に中核となる概念、フレームワーク、およびアップグレード ・ パスを含む、チームのアップグレード旅の概要について[の概要](https://aka.ms/UpgradeOverview)を表示します。
 
 > [!Tip]
-> Skype for Business から Microsoft Teams へのアップグレードについては、次のセッションをご覧ください。
+> マイクロソフトのチームには、ビジネスの Skype からのアップグレードの詳細については、次のセッションを確認してください。
 > - [アップグレードの概要](https://aka.ms/teams-upgrade-intro)
-> - [アップグレードの計画](https://aka.ms/teams-upgrade-plan)
-> - [共存および相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)
-> - [管理者のエクスペリエンス](https://aka.ms/teams-upgrade-admin)
+> - [アップグレードを計画します。](https://aka.ms/teams-upgrade-plan)
+> - [共存と相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [管理者の経験](https://aka.ms/teams-upgrade-admin)
 
-## <a name="upgrade-journey-framework"></a>アップグレード手順のフレームワーク
+## <a name="upgrade-journey-framework"></a>旅のフレームワークをアップグレードします。
 
-To help take the guesswork out of your upgrade journey, we’ve employed a proven success framework for driving change, incorporating guidance, tips, and resources throughout. Each step builds on the previous one and for optimal results, we recommend following the steps in order.
+推測に頼らず、アップグレードの旅のため、私たちした採用されている変更を推進するための実証済みの成功フレームワーク ガイド、ヒント、および全体のリソースを組み込むことです。 次の手順の順序で各手順のビルド前に、最適な結果を得るのため、お勧めします。
 
-As illustrated below, a successful upgrade begins by bringing the right team together in the Project Stakeholder stage and then moving to Project Definition where the scope, goals, and timeline are solidified. This helps create a solid foundation for your upgrade journey. From there, it’s critical to prepare for both the Technical Readiness _and_ User Readiness stages before moving on to Deployment and Implementation. Plan for a pilot to validate readiness before a broad rollout. For maximum benefit during the Operational Excellence stage, establish a plan that monitors for quality and accelerates user adoption.
+下図のように、プロジェクトの利害関係者の段階で適切なチームを統合することと、プロジェクトの定義のスコープ、目標、およびタイムラインが確固たるものに移動することによってアップグレードが正常に実行を開始します。 これにより、お客様のアップグレードの過程における強固な基盤を作成します。 そこから展開し、実装する前に新たな技術_と_ユーザーの準備の両方の段階の準備が重要です。 広範なロールアウトする前に準備完了を検証するためにパイロットを計画します。 オペレーショナル ・ エクセレンスの段階で最大のメリットの品質を監視し、ユーザーの導入を迅速化する計画を確立します。
 
 > [!Tip]
-> To help you navigate through your upgrade journey, look for this graphic on related pages to identify where you are in the process. ![Ensure your project is set up for success with the right project team. Define your project scope, goals, and timeline. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.](media/upgrade-banner-main.png "Ensure your project is set up for success with the right project team. Define your project scope, goals, and timeline. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.")
+> アップグレードの旅をナビゲートするために、関連のページは、プロセスであるかを識別するには、このグラフィックを探します。 ![ことを確認して、プロジェクトは、適切なプロジェクト チームを成功に設定されています。プロジェクトのスコープ、目標、およびタイムラインを定義します。技術とユーザーの両方の準備を確認します。ロールアウト計画を実行します。結果を最大化するための勢いを維持します]。(media/upgrade-banner-main.png "ことを確認して、プロジェクトは、適切なプロジェクト チームを成功に設定されています。プロジェクトのスコープ、目標、およびタイムラインを定義します。技術とユーザーの両方の準備を確認します。ロールアウト計画を実行します。結果を最大化するための勢いを維持します")。
 
-## <a name="to-get-started"></a>最初に行う操作
+## <a name="to-get-started"></a>開始する.
 
-We understand that customers don’t come one-size-fits-all. For added flexibility, we’ve organized the framework into two paths: Upgrade Basic and Upgrade Pro. Choose the journey that best meets your organization’s needs.
+私たちを理解するお客様はニーズによって異なるものがありません。 柔軟性を高め、2 つのパスに、フレームワークを整理したお: 基本をアップグレードし、Pro をアップグレードします。 組織のニーズに最も合った旅を選択します。
 
-Select one of the options below or explore both to determine the optimal path for you. More information will be coming online over time, so check back as your organization continues its journey to Teams. To help us better understand your upgrade path and what additional guidance might be helpful, take a moment to <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-5Km9f5gDtNpbRf-TAnN_NUMzhYOUlNR1QzS1hSS0ZXRzAxVEVVVjg1Mi4u" target="_blank">share your feedback</a>.
+以下のオプションのいずれかを選択または表示するのに最適なパスを決定します。 詳細については、オンラインになる時間の経過と共に、組織のチームには、その旅を続行するには、このチェックします。 アップグレード パスとどのような追加のガイダンスが役に立つ可能性がありますの理解を深めるため、時間を取りますので<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-5Km9f5gDtNpbRf-TAnN_NUMzhYOUlNR1QzS1hSS0ZXRzAxVEVVVjg1Mi4u" target="_blank">、フィードバックを共有</a>します。
 
 <div class="mx-tableFixed">
 <table>

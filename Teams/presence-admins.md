@@ -1,26 +1,28 @@
 ---
-title: チームにユーザーのプレゼンスを構築します。
+title: Teams でのユーザーのプレゼンス
 author: jambirk
 ms.author: jambirk
 manager: serdars
 ms.date: 08/21/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: rakayala
 description: 情報の管理者は、チームでの存在について理解する必要があります。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1934a602d89240c89ffb4f7410192d19a7dd2e61
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 75710a428273a38954de38ef5b6094d412aa3085
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533027"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640971"
 ---
-# <a name="user-presence-in-teams"></a>チームにユーザーのプレゼンスを構築します。
+# <a name="user-presence-in-teams"></a>Teams でのユーザーのプレゼンス
 
 プレゼンスは、マイクロソフトのチームで (および全体で Office 365) – のユーザーのプロファイルの一部であるし、ユーザーの現在の可用性と、組織の他のユーザーのステータスを示します。 既定では、かどうか他のユーザーは、利用可能なオンラインのチームを使用して、組織内のだれもが確認できます。
 
@@ -58,9 +60,9 @@ ms.locfileid: "26533027"
 
 ビジネス用の Skype では、次の管理設定は、チームでは異なります。
 - プレゼンスの共有が常に有効チーム、組織内のユーザーです。 (プレゼンスを表示できるユーザーを決定する) のプライバシーの設定は、チームで使用可能ではありません。
-- (フェデレーション サービスを含む) すべてのユーザーと共有の存在は常にチーム内のユーザーの有効にします。 (であるかのデバイスのいずれか)、連絡先の一覧の下に表示されます**チャット > 連絡先**または**呼び出し > 連絡先**。
+- (フェデレーション サービスを含む) すべてのユーザーと共有の存在は常にチーム内のユーザーの有効にします。 (であるかのデバイスのいずれか)、連絡先の一覧は、 **_gt 連絡先のチャット**] の下、または**呼び出し _gt 連絡先**] の下に表示されます。
 - クライアントが応答しないと画期的な機能は常に、チーム内のユーザーに対して有効にします。
-- (不在時およびその他の予定表の情報が含まれています) の予定表の統合は、常に有効にチーム内のユーザーの Outlook と統合されている場合。
+- (を含む不在時の & その他の予定表の情報) の予定表の統合は、常に有効にチーム内のユーザーの Outlook と統合されている場合。
 - *Last seen*または*から退席中*(ビジネス用の Skype でデュアル環境の場合) のインジケーターは常にチーム内のユーザーに対して有効です。
 - チーム内のユーザーのカスタムのプレゼンス状態の設定が有効になっていません。
 
@@ -68,6 +70,6 @@ ms.locfileid: "26533027"
 > これらの設定をカスタマイズするのには、チームの管理者の機能は現在サポートされていません。
 
 
-## <a name="coexistence-with-skype-for-business"></a>ビジネスの Skype との共存
+## <a name="coexistence-with-skype-for-business"></a>Skype for Business と共存する
 
 Skype のビジネスとの共存と、チームの存在がどのように機能の詳細については、 [Skype のビジネスとの共存](coexistence-chat-calls-presence.md)を参照してください。 

@@ -1,10 +1,10 @@
 ---
-title: マイクロソフトのチームでのリテンション ・ ポリシー
+title: Microsoft Teams の保持ポリシー
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/11/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anach
 description: リテンション ・ ポリシーをチームで管理する方法について説明します。
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d07629f41a54dcab1995f2aef2d7536479be25d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: c3c253569f642a8833d9bfad6677fe1a17624447
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464557"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640979"
 ---
-# <a name="retention-policies-in-microsoft-teams"></a>マイクロソフトのチームでのリテンション ・ ポリシー
+# <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams の保持ポリシー
 
 チームの会話は、永続的な既定値が永久に保持されています。 リテンション ・ ポリシーの導入により、管理者は、チームのチャットおよびチャネルのメッセージのセキュリティ & コンプライアンス センターで (保存と削除の両方) の保持ポリシーを構成できます。 これにより、組織のコンプライアンス (つまり、保持ポリシーを特定の期間のデータを保持] または [特定の期間の後、責任と見なされる場合データ (つまり、削除ポリシーを削除します。 チーム ・ リテンション ・ ポリシーは、データを削除するときはチーム サービスすべて永続的なデータ ストレージの場所から削除されますを確認します。 
 

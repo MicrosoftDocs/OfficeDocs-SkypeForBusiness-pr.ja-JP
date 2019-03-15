@@ -4,7 +4,7 @@ author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
 ms.date: 11/25/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: sbhatta
 search.appverid: MET150
@@ -16,43 +16,43 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7fb3479c8230735d04494bd6aacfbd8d3d23395
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 42ec1ce60a206fa0a67f40c08db4658c0c53e543
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493574"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641193"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセス
 ======================================
 
 ## <a name="guest-access-overview"></a>ゲスト アクセスの概要
 
-Guest access is one of the features customers asked for the most. Here’s how you can keep up with our progress on guest access and tell us your thoughts:
+ゲスト アクセスは、お客様が、ほとんどの機能の 1 つです。 ゲスト アクセスの進展に対応し、ご意見をお聞かせする方法を以下に示します。
 
 - ゲスト アクセスに関して問題がある場合は、「[Microsoft Teams の既知の問題](Known-issues.md)」を確認してください。
 - 今後実装される新機能や更新された機能については、「[Teams のロードマップ](https://aka.ms/teamsroadmap)」で見つけてください。
 - ご要望については、「[Teams UserVoice](https://aka.ms/TeamsUserVoice)」でお知らせください。
 - 下にある [コメント] セクションでお客様ご自身のエクスペリエンスを共有してください。
 
-Guest access allows teams in your organization to collaborate with people outside your organization by granting them access to existing teams and channels on one or more of your tenants. Anyone with a business or consumer email account, such as Outlook, Gmail, or others, can participate as a guest in Teams with full access to team chats, meetings, and files.
+ゲスト アクセスでは、既存のチームと、テナントの 1 つ以上のチャネルへのアクセスに付与することによって、組織外のユーザーと共同作業を行う組織でチームを許可します。 ビジネスやコンシューマー電子メール アカウントを Outlook、Gmail、またはその他のユーザーなど、すべてのユーザーは、チーム チャット、会議、およびファイルへのフル アクセスを持つチームにゲストとして参加できます。
 
-Guest access is included with all Office 365 Business Premium, Office 365 Enterprise, and Office 365 Education subscriptions with no additional licensing requirement. You can have up to 5 guests per licensed user on your tenant. For more information about licensing, see [Azure Active Directory B2B collaboration licensing guidance](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance). 
+ゲスト アクセスに含まれていない追加のライセンス要件を持つすべての Office 365 のビジネス プレミアム、Office 365 の企業、および Office 365 の教育の購読。 テナントのライセンスを受けたユーザーあたり 5 つまでの来園者を持つことができます。 ライセンスの詳細については、 [Azure Active Directory B2B コラボレーションのライセンス ガイド](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance)を参照してください。 
 
-Guest access is a tenant-level setting in Microsoft Teams and is turned off by default. Guest access is subject to Azure AD and Office 365 service limits.
+ゲスト アクセスは Microsoft Teams ではテナントレベルの設定であり、既定ではオフになっています。 Azure AD は、ゲスト アクセス、Office 365 サービスの制限です。
 
 > [!NOTE]
-> Users in your organization who have standalone Office 365 subscription plans only, such as Exchange Online Plan 2, cannot be invited as guests to your organization because Teams considers these users to belong to the same organization. For these users to use Teams, they must be assigned an Office 365 Business Premium, Office 365 Enterprise, or Office 365 Education subscription. 
+> チームがこれらのユーザーに同じ組織に属していると見なされるために、組織にゲストとして Exchange オンライン計画 2 などだけでは、スタンドアロンの Office 365 サブスクリプション プランを持つ、組織内のユーザーを招待できません。 チームを使用するこれらのユーザーに割り当てる必要があります、Office 365 のビジネス プレミアム、Office 365 の企業、または Office 365 の教育のサブスクリプション。 
 
-## <a name="who-is-a-guest"></a>ゲストとは何ですか?
+## <a name="who-is-a-guest"></a>ゲストは誰ですか。
 
-A guest is someone who isn't an employee, student, or member of your organization. They don't have a school or work account with your organization. For example, guests may include partners, vendors, suppliers, or consultants. Anyone who is not part of your organization can be added as guest in Teams. This means that anyone with a business account (that is, an Azure Active Directory account) or consumer email account (with Outlook.com, Gmail.com or others) can participate as a guest in Teams, with full access to teams and channel experiences. (You can read about guest restrictions in [Authorize guest access in Microsoft Teams](teams-dependencies.md).) All guests in Teams are covered by the same compliance and auditing protection as the rest of Office 365, and can be managed securely within Azure AD.
+ゲストとは、従業員、学生または組織の一員ではないユーザーを指します。 ゲストは組織内での学校アカウントまたは職場アカウントを持ちません。 たとえば、ゲストにはパートナー、製造元、供給元、コンサルタントなどが含まれます。 チームでは、ゲストとしては、すべての組織の一部ではないユーザーを追加できます。 これは、ビジネス アカウント (つまり、Azure Active Directory) または (Outlook.com、Gmail.com またはその他のユーザー) とコンシューマーの電子メール アカウントを持つユーザーがチームへのフル アクセスを持つ、チームのゲストとして参加できるし、チャネルが発生したことを意味します。 (確認できるのゲストの制限では、[マイクロソフトのチームでのゲスト アクセスを許可](teams-dependencies.md)します。)来園者はチームでは、同じコンプライアンスと監査の保護として、Office 365 の残りの部分についてし、Azure AD 内で安全に管理することができます。
 
-## <a name="why-use-guest-access"></a>ゲスト アクセスを使用する理由を教えてください。
+## <a name="why-use-guest-access"></a>ゲスト アクセスを使用する理由
       
-With guest access, organizations that use Teams can provide external access to teams, documents in channels, resources, chats, and applications to their partners, while maintaining complete control over their own corporate data. All guests in Teams are covered by the same compliance and auditing protection as the rest of Office 365, and guests can be managed securely within Azure AD.  
+ゲスト アクセス権を持つチームを使用している組織は、独自の企業データを完全に制御を維持しながらチーム、チャネル、リソース、チャット、および、パートナーでは、アプリケーション内のドキュメントへの外部アクセスを提供できます。 来園者は Azure AD 内で安全に管理できるし、同じコンプライアンスと監査の保護として、Office 365 の残りの部分は、来園者はチームで対応します。  
 
-Teams is built on Office 365 Groups and provides a new way to access shared assets for an Office 365 group. Teams is the best solution for persistent chat among group/team members. Office 365 Groups is a service that provides cross-application membership for a set of shared team assets, like a SharePoint site or a Power BI dashboard, so that the team can collaborate effectively and securely. 
+チームでは、Office 365 のグループが適用され、Office 365 のグループの共有アセットにアクセスするための新しい方法が用意されています。 Teams は、グループ/チーム メンバー間の常設チャットに最適なソリューションです。 Office 365 グループは、SharePoint サイトや Power BI ダッシュボードなどの一連の共有チーム資産を利用するために、クロス アプリケーションのメンバーシップを提供し、チームが効果的かつ安全にコラボレーションできるようにするサービスです。 
 
 ## <a name="how-does-guest-access-compare-to-external-access-federation"></a>ゲスト アクセスは (連合) の外部アクセスをどのような比較をするでしょうか。
 
@@ -61,12 +61,12 @@ Teams is built on Office 365 Groups and provides a new way to access shared asse
 ## <a name="more-information"></a>詳細情報
     
 [Microsoft Teams のサポート リソース](support-resources.md)  
-[Office 365 グループのゲスト アクセス](https://support.office.com/en-us/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
+[Office 365 のグループでのゲスト アクセス](https://support.office.com/en-us/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
   
 |  |  |
 |---------|---------|
-|Introduction to guest access (ゲスト アクセスの概要)   | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
-|Deep dive into Guest Access (ゲスト アクセスの詳細)   | <iframe width="350" height="200" src="https://www.youtube.com/embed/vaJRRSjBxxY" frameborder="0" allowfullscreen></iframe>   |
-| Adding guests in Microsoft Teams (Microsoft Teams でのゲストの追加)   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
+|ゲスト アクセスの概要   | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
+|ゲスト アクセスを掘り下げ   | <iframe width="350" height="200" src="https://www.youtube.com/embed/vaJRRSjBxxY" frameborder="0" allowfullscreen></iframe>   |
+| マイクロソフトのチームで、来園者を追加します。   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
     
 

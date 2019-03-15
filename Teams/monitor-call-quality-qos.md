@@ -3,7 +3,7 @@ title: Microsoft Teams で QoS を実施し、通話分析を監視する
 author: jambirk
 ms.author: jambirk
 manager: Serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jambirk
 description: マイクロソフトのチームでは、サービスの品質 (QoS) 設定を呼び出して分析し、品質のダッシュ ボードを呼び出すを使用します。
@@ -14,12 +14,12 @@ MS.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a40b5d14268323f1231377e96b75a3120145245
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: 77730db17e900951f0fe1a60b7c0ae2ccdbfbc5b
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408252"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641074"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>マイクロソフトのチームで QoS と通話品質の監視を実装します。
 
@@ -53,4 +53,4 @@ ms.locfileid: "30408252"
 
 [通話品質ダッシュボードで利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[通話品質ダッシュボードでのストリーム分類](stream-classification-in-call-quality-dashboard.md)
+[通話品質ダッシュボードでのストリームの分類](stream-classification-in-call-quality-dashboard.md)

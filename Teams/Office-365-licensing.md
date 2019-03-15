@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 04/16/2018
-ms.topic: article
+ms.topic: reference
 audience: Admin
 ms.service: msteams
 ms.reviewer: ''
@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a2eeffd8e59272c1f7c8fa756edecab94fd5ab11
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 20a10288c53ef26e47f50339c581901bd4e33958
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460269"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640699"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Microsoft Teams 用の Office 365 ライセンス
 ========================================
@@ -46,7 +46,7 @@ ms.locfileid: "30460269"
 > Teams は非営利団体でも利用できます。 米国政府クラウド コミュニティ (GCC) の 7 月 17 日ロールアウトを開始し、2018年 8 月のすべての対象となるお客様の利用できるようチームにします。 皆様の他の米国政府雲 (GCC 高と DoD) にマイクロソフトのチームを準備中です。 マイクロソフト チームのブログに複数の読み取り[はここ](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976)。
 
 > [!NOTE]
-> 2018 年 10 月 1 日より、500 シート以下のライセンスを持つ新規 Office 365 ユーザーは、Teams を利用できるようになり、Skype for Business Online にアクセスすることはできなくなりました。 既に Skype for Business Online を使用しているテナントは、Teams への移行を完了するまで、(新規ユーザーのプロビジョニングも含めて) 利用を継続することができます。 詳細については、「[Microsoft Teams が Office 365 の会議と通話機能のプライマリ クライアントになりました](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling)」をご覧ください。
+> 開始 2018 年 10 月 1日接続クライアント数が 500 以下の新しい Office 365 お客様のチームに onboarded、ビジネス オンラインの Skype へのアクセスを必要はありません。 テナントは既に使用している Skype のオンライン ビジネスは実行を続行することがチームへの移行を完了するまで (新しいユーザーのプロビジョニング) を含むためです。 詳細については、[マイクロソフトのチーム会議および Office 365 内の呼び出しのようになりました主なクライアント](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling)を参照してください。
         
 チームの中核的な機能、という点では、Office 365 サブスクリプションの違いはありません。 コンプライアンス機能の利用可否は適切なサブスクリプション レベルに依存します。 詳細については、「[Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)」をご覧ください。 各サブスクリプションで利用できる機能の詳細については、 [Office 365 のプラットフォーム サービスの説明](https://technet.microsoft.com/library/office-365-platform-service-description.aspx)を参照してください。
 

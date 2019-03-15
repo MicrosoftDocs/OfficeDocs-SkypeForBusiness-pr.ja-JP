@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 08/29/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 description: チーム クライアントと Office 365 管理 web コンソールでは、についての会話を使用して、チームを教育する方法を使用して、パブリックとプライベートのグループを選択するなどの Office 365 のグループを計画する場合をする必要があります決定事項について説明します。
 localization_priority: Normal
@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9bfe51c88876a188069cff383464518a2361c63f
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 1a54549fd1e82affecad6a69d17e10cf6e1dc763
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460221"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640683"
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Microsoft Teams でチームを作成するときの Office 365 グループの計画
 ==========================================================

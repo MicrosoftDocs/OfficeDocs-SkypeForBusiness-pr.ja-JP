@@ -1,10 +1,10 @@
 ---
-title: 教育管理者向けのマイクロソフトのチーム
+title: 教育機関管理者向けの Microsoft Teams のリソース
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 ms.date: 07/26/2018
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.reviewer: ''
 description: 教育での IT 管理者の役に立つチームのリソースの一覧です。
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57e402161dad595d1b2d5eb3db937e59e68e75a8
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 5737d7d93a3ae9c28bed70d18e726ac68c43a8ef
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462621"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640931"
 ---
-<a name="microsoft-teams-resources-for-education-admins"></a>教育管理者向けのマイクロソフトのチーム
+<a name="microsoft-teams-resources-for-education-admins"></a>教育機関管理者向けの Microsoft Teams のリソース
 ==============================================
 
 ## <a name="adoption-content"></a>採用コンテンツ
@@ -45,7 +45,7 @@ ms.locfileid: "30462621"
 |---------|---------|
 |**教育のためのマイクロソフトのチームを始めるヒントし、秘訣**<br>[印刷の準備完了の .pdf ファイルをダウンロードします。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-packet-get-started.pdf?raw=true)<br>![Get のスクリーン ショット教育パケットに対するマイクロソフトのチームで開始します。](media/package-teams-edu-get-started.png)    |
 
-## <a name="call-to-action"></a>実施すべき内容
+## <a name="call-to-action"></a>アクション ・ プランします。
 
 - 実践的な「[Microsoft Teams Interactive Demo (Microsoft Teams のインタラクティブなデモ)](https://teamsdemo.office.com/)」を確認する (所要時間 5 分)
 - [Office 365 管理センター](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)で Microsoft Teams をオンにする (Office 365 管理者でサインインする)

@@ -22,14 +22,15 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 3462a77deeb6334ae715dadb6445d8b9b0200089
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 97dfa3c330979b151ea851be14e3149ecdfd10b7
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543072"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641375"
 ---
 # <a name="set-up-calling-plans"></a>通話プランの設定
+
 ビジネス ユーザー向けの他の Skype への呼び出しを自由が、ユーザーが、組織では、外からの電話を呼び出せるようにする場合、国内を呼び出すことを計画、または、国際の呼び出し Office 365 で。 お客様のビジネスにこれを設定するのには簡単です。 
 
 ## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>手順 1: を確認する計画を呼び出し、国/地域で利用可能です
@@ -57,13 +58,13 @@ ms.locfileid: "30543072"
 
 **組織の緊急時のアドレスを追加するのには**
 
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
+![デバイスのロゴ-30x30.png](media/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
 
 Skype のビジネス管理センターでは、[**音声**] に移動 > **緊急場所** > **新しいアドレスを追加**します。 詳細については、[追加または削除、および組織の緊急時のアドレス](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization)を参照してください。
 
 **組織の緊急の場所を追加するには** 
 
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
+![デバイスのロゴ-30x30.png](media/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
 
 Skype のビジネス管理センターでは、[**音声**] に移動 > **緊急場所** > **新しいアドレスを追加**します。 詳細については、[追加、変更、または組織には、緊急時の場所を削除する](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization)を参照してください。
 
@@ -73,7 +74,7 @@ Skype のビジネス管理センターでは、[**音声**] に移動 > **緊�
 
 **緊急時のユーザーのアドレスを追加するには** 
 
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
+![デバイスのロゴ-30x30.png](media/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
 
 Skype のビジネス管理センターでは、[**音声**] に移動 > **音声ユーザー** > **緊急場所** > **番号を割り当てる** > **の位置を変更**します。 詳細については、[割り当て、またはユーザーのシステムのアドレスを変更する](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user)を参照してください。
 
@@ -82,7 +83,7 @@ Skype のビジネス管理センターでは、[**音声**] に移動 > **音�
 
 **ユーザーに電話番号を割り当てるには**
 
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
+![デバイスのロゴ-30x30.png](media/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
 
 Skype のビジネス管理センターでは、[**音声**] に移動 > **音声ユーザー** > **番号を割り当てる** > **の位置を変更**します。 詳細については、[割り当て、変更、またはユーザーの電話番号を削除する](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user)を参照してください。
 

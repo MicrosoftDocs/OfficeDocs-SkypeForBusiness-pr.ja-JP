@@ -5,7 +5,7 @@ author: lolaj
 manager: serdars
 ms.date: 02/19/2019
 ms.reviewer: srividhc
-ms.topic: article
+ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 共有行の外観は、回答や、ユーザーに代わって呼び出しを処理する代理人を選択するユーザーをことができます。
-ms.openlocfilehash: 0a110e18cb8a939870528d2700ec54103cf91a6e
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 81eea77595f07db5772ffc4f3d6ee0b0dafa95c5
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541697"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641209"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft Teams での回線共有機能
 
@@ -51,14 +51,14 @@ ms.locfileid: "30541697"
 
 | 機能 | チームのデスクトップ | チームの Mac アプリケーション | チームの Web アプリケーション (エッジ) |チーム モバイル iOS と Android アプリ | チームの IP 電話 |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
-| 委任を設定します | 可 | 可 | あり | なし | いいえ |
-| 代理人の呼び出しを受信します。 | 可 | 可 | 可 | 可 | あり |
-| 代理人の電話番号を呼び出す | 可 | 可 | 可 | 可 | あり |
-| 代理人のチームのユーザーを呼び出し | 可 | 可 | 可 | 可 | あり |
-| 共有回線の管理ビューを参照してください。 | 可 | 可 | あり | なし | いいえ |
-| マネージャーの待機活動の管理ビューを参照してください。 | 可 | 可 | あり | なし | いいえ |
-| 代理人のマネージャーのビューを参照してください。 | 可 | 可 | あり | なし | いいえ |
-| 管理者またはマネージャーを保持したり、再開 | 可 | 可 | あり | なし | いいえ |
+| 委任を設定します | はい | はい | はい | いいえ | いいえ |
+| 代理人の呼び出しを受信します。 | はい | はい | はい | はい | はい |
+| 代理人の電話番号を呼び出す | はい | はい | はい | はい | はい |
+| 代理人のチームのユーザーを呼び出し | はい | はい | はい | はい | はい |
+| 共有回線の管理ビューを参照してください。 | はい | はい | はい | いいえ | いいえ |
+| マネージャーの待機活動の管理ビューを参照してください。 | はい | はい | はい | いいえ | いいえ |
+| 代理人のマネージャーのビューを参照してください。 | はい | はい | はい | いいえ | いいえ |
+| 管理者またはマネージャーを保持したり、再開 | はい | はい | はい | いいえ | いいえ |
 
 ## <a name="limitations"></a>制限
 
