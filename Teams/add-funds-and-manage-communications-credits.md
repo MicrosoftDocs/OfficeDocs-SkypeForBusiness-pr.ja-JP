@@ -29,16 +29,16 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'ビジネス サービスの通信のクレジット (PSTN の消費) の Skype のお支払いし、継続的な電話システムのアクセス権を持つユーザーを保持する計画を参照してくださいする方法について説明します。 '
-ms.openlocfilehash: f2b4b6d882753e20d2c7d401fb4fb63082b02f0f
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: bbb24094e7aefd428e510273a922dab4461b7dde
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542256"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569081"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>資金を追加してコミュニケーション クレジットを管理する
 
-通信のクレジットは、電話システムと Office 365 のプランを呼び出すことをお支払いする便利な方法です。 役立てることとユーザーがまったく流行しなかったことを確認します。
+通信のクレジットは、電話システムと Office 365 のプランを呼び出すことをお支払いする便利な方法です。 通信のクレジットでは、ユーザーや、ユーザーができなくてまったく流行しなかったことを確認を支援します。
   
 - フリー ダイヤルで電話番号を使用してオーディオ会議の会議にダイヤルインします。
     
@@ -78,13 +78,13 @@ ms.locfileid: "30542256"
     
 You can also see information by [signing in to the Office 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Subscriptions** > **Add subscriptions**.
   
-ライセンスまたはライセンスの機能ごとにする必要があるテーブルを参照してください [teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+ライセンスまたはライセンスの機能ごとにする必要があるテーブルを表示するには、[マイクロソフトのチームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Skype for Business Online のセットアップ](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [電話システム ボイスメールのセットアップ - 管理者ヘルプ](set-up-phone-system-voicemail.md)
+- [電話システムのボイスメールをセットアップする - 管理のヘルプ](set-up-phone-system-voicemail.md)
     
 - [呼び出しプランの設定](set-up-calling-plans.md) および [Office 365 の呼び出しプラン](calling-plans-for-office-365.md)
         

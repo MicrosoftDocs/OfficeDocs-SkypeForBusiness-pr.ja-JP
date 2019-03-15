@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 09/11/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 203a819eb3732d37aa65f92372eb21ffd59aea08
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 8ede6bb8d63a53ccd636bb9881d60e521492afb8
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462069"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568457"
 ---
-# <a name="prepare-my-service"></a>サービスを準備します。
+# <a name="prepare-my-service"></a>サービスを準備する
 
 この資料では、音声サービスを組織のクラウドを準備するための要件の概要を示します。 適切に準備するように、クラウドの組織にボイス機能を提供する準備ができていることのことができます。
 
@@ -55,8 +55,8 @@ ms.locfileid: "30462069"
 >ほとんどの構成設定は、チームと Skype のオンライン ビジネスの間で共通です。 これらの設定を構成するのには、Office 365 管理者センターとマイクロソフトのチーム管理センターを使用するとします。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>契約時チェックリストの完了を監督する責任者がされますか。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li>契約時のチェックリストをダウンロードしてください。</li><li>契約時チェックリストの項目の手順に従って、組織の展開計画を使用します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断のポイント</td><td><ul><li>契約時チェックリストの完了を監督する責任者がされますか。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>契約時のチェックリストをダウンロードしてください。</li><li>契約時チェックリストの項目の手順に従って、組織の展開計画を使用します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -114,7 +114,7 @@ ms.locfileid: "30462069"
 
 - [音声会議での電話会議の計画  ](audio-conferencing.md#technical-planning-for-audio-conferencing)
 
-- [Skype for Business および Microsoft Teams の電話会議のセットアップ](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+- [マイクロソフト チームの電話会議を設定します](set-up-audio-conferencing-in-teams.md)
 
 - [通話プランと電話システムの計画技術](calling-plan-landing-page.md)
 
@@ -122,7 +122,7 @@ ms.locfileid: "30462069"
 
 - [ダイレクト ルーティングを計画する](https://docs.microsoft.com/microsoftteams/direct-routing-plan)
 
-- [直接ルーティングを構成する](https://docs.microsoft.com/microsoftteams/direct-routing-configure)
+- [ダイレクト ルーティングを構成する](https://docs.microsoft.com/microsoftteams/direct-routing-configure)
 
 ### <a name="execute-the-test-plan"></a>テスト計画を実行します。
 
@@ -182,8 +182,8 @@ ms.locfileid: "30462069"
 -   直接ルーティングのコンプライアンス要件を特定して構成します。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>どの電話会議機能を展開するかを決定 (サービスの決定)。</li><li>オーディオ会議のユーザーの機能要件を特定します。</li><li>オーディオ会議サービスの構成要件を特定します。</li><br><li>かどうか直接ルーティングまたはプランを呼び出すことができる展開し、構成を決定します。<li>どの電話システムの機能を配置するかを決定 (サービスの決定)。</li><li>計画を呼び出すか、直接ルーティングのユーザーの機能要件を特定します。</li><li>計画を呼び出すことや、直接ルーティング サービスの構成要件を特定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li>開発し、テスト計画のアプローチを文書化します。</li><li>電話会議機能のスコープ内のユーザー、サービスの環境を準備します。</li><li>計画を呼び出すか、直接ルーティング機能のスコープ内のユーザー、サービスの環境を準備します。</li><li>電話会議機能を有効にするためのテストの検証を実行します。</li><li>計画を呼び出すか、直接ルーティング機能を有効にするためのテストの検証を実行します。</li><li>いずれかの障害をテスト、構成が正しいことを確認、コミュニティの記事を確認し、-必要な場合-サポート ・ リクエストを発生させます。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断のポイント</td><td><ul><li>どの電話会議機能を展開するかを決定 (サービスの決定)。</li><li>オーディオ会議のユーザーの機能要件を特定します。</li><li>オーディオ会議サービスの構成要件を特定します。</li><br><li>かどうか直接ルーティングまたはプランを呼び出すことができる展開し、構成を決定します。<li>どの電話システムの機能を配置するかを決定 (サービスの決定)。</li><li>計画を呼び出すか、直接ルーティングのユーザーの機能要件を特定します。</li><li>計画を呼び出すことや、直接ルーティング サービスの構成要件を特定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>開発し、テスト計画のアプローチを文書化します。</li><li>電話会議機能のスコープ内のユーザー、サービスの環境を準備します。</li><li>計画を呼び出すか、直接ルーティング機能のスコープ内のユーザー、サービスの環境を準備します。</li><li>電話会議機能を有効にするためのテストの検証を実行します。</li><li>計画を呼び出すか、直接ルーティング機能を有効にするためのテストの検証を実行します。</li><li>いずれかの障害をテスト、構成が正しいことを確認、コミュニティの記事を確認し、-必要な場合-サポート ・ リクエストを発生させます。</li></ul></td></tr>
 </table>
 
 

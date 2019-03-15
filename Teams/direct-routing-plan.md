@@ -5,23 +5,21 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: NMuravlyannikov
-ms.topic: article
-ms.service:
-- msteams
-- skype-for-business-online
-ms.prod: skype-for-business-itpro
+ms.topic: conceptual
+ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
-appliesto:
-- Microsoft Teams
+ms.collection:
+- Teams_ITAdmin_Help
+- M365-voice
+appliesto: Microsoft Teams
 description: Microsoft 電話システム直接ルーティングを使用する方法マイクロソフトの電話システムに、サポートされている、お客様が用意したセッション ボーダー コント ローラー (SBC) の接続については、このトピックを参照してください。
-ms.openlocfilehash: 77c4e21b2be0f8d4729924484102ba31becbfbe7
-ms.sourcegitcommit: 10370b163e5a9d0e27dde71b847c8bca26dcaa74
+ms.openlocfilehash: 202b25903a3e48b0a2a2f32853f061eb8ca73cc8
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29690573"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569943"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -79,7 +77,7 @@ Microsoft 電話システム直接ルーティングするには、マイクロ�
 |直接ルーティングするための接続ポイント |直接ルーティングするための接続ポイントは、次の 3 つの Fqdn です。<br/><br/>`sip.pstnhub.microsoft.com`– グローバル FQDN が最初に試行する必要があります。<br/>`sip2.pstnhub.microsoft.com`– セカンダリ FQDN は、地理的に 2 番目の優先度の領域にマップします。<br/>`sip3.pstnhub.microsoft.com`– の第 3 の FQDN は、3 番目の優先度の領域に地理的にマップします。<br/><br/>構成要件についてを参照してください[SIP シグナリング: Fqdn およびファイアウォールのポート](#sip-signaling-fqdns-and-firewall-ports)。|
 |ファイアウォールの IP アドレスとメディアの直接ルーティング用のポート |SBC がクラウド内の次のサービスを通信します。<br/><br/>SIP プロキシは、信号を処理します。<br/>メディア プロセッサは、メディアの処理のときに、メディアのバイパスを除く<br/><br/>これら 2 つのサービスでは、このドキュメントで後述する、マイクロソフトのクラウドで個別の IP アドレスがあります。<br/><br/>詳細については、 [Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)で、[マイクロソフトのチーム セクション](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)を参照してください。 |
 |メディア プロファイルを転送します。|TCP と RTP/SAVP <br/>UDP/RTP/SAVP|
-ファイアウォールの IP アドレスとポートはマイクロソフトのチームのメディアの |詳細については、「[Office 365 URL および IP アドレス範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)」を参照してください。 |
+ファイアウォールの IP アドレスとポートはマイクロソフトのチームのメディアの |詳細については、 [Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)を参照してください。 |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>ライセンスおよびその他の要件 
@@ -106,7 +104,7 @@ Microsoft 電話システム直接ルーティングするには、マイクロ�
 
 電話システムのライセンスの詳細については、 [Office と Office 365 を最大限に活用](https://products.office.com/compare-all-microsoft-office-products?tab=2)し、 [Office 365 のプランのオプション](https://technet.microsoft.com/library/office-365-plan-options.aspx)を参照してください。 
 
-電話システムのライセンスの詳細については、 [Skype](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)を参照してください。 
+電話システムのライセンスの詳細については、[マイクロソフトのチームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。 
 
 ## <a name="sbc-domain-names"></a>SBC ドメイン名
 
@@ -116,8 +114,8 @@ SBC ドメイン名は、テナントの「ドメイン」に登録された名�
 
 |**DNS 名**|**SBC の FQDN を使用することができます。**|**FQDN 名の例**|
 |:--- |:--- |:--- |
-contoso.com|あり|**有効な名前。**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
-|contoso.onmicrosoft.com|なし|<br/>使用して *. SBC 名を onmicrosoft.com ドメインはサポートされていません
+contoso.com|はい|**有効な名前。**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
+|contoso.onmicrosoft.com|いいえ|<br/>使用して *. SBC 名を onmicrosoft.com ドメインはサポートされていません
 
 新しいドメイン名を使用すると仮定します。 など、テナントには、テナントにドメイン名が登録されているし、sbc1.sip.contoso.com を使用する contoso.com です。 名前 sbc1.sip.contoso.com に SBC をペアには、前に、テナントの「ドメイン」でドメイン名の sip.contoso.com を登録してください。 ドメイン名を登録する前に sbc1.sip.contoso.com を持つ SBC をペアリングしようとすると、次のエラーが表示されます:"ことはできませんを使用して"sbc1.sip.contoso.com"ドメインとして、このテナント用に構成されていません。
 ドメイン名を追加した後は、UPN の user@sip.contoso.com でユーザーを作成し、「チーム」ライセンスを割り当てる必要があります。 完全に準備が後にそのドメイン名は新しい名前を持つユーザーが作成され、ユーザーにライセンスが割り当てられている、テナントの「ドメイン」を追加するに最大 24 時間がかかる場合があります。 
@@ -189,7 +187,7 @@ SBC はのみ 1 つの FQDN が必要し、ペアのテナント内のすべて�
 
 シグナル用とアドレスからの着信および発信トラフィックを許可するファイアウォールでこれらのすべての IP アドレスのポートを開く必要があります。  お使いのファイアウォールでは、DNS 名をサポートする場合、上のすべての IP アドレスを FQDN、sip の all.pstnhub.microsoft.com が解決します。  次のポートを使用する必要があります。
 
-|**トラフィック**|**開始**|**終了**|**発信元ポート**|**宛先ポート**|
+|**トラフィック**|**開始**|**終了**|**送信元ポート**|**宛先ポート**|
 |:--- |:--- |:--- |:--- |:--- |
 |SIP や TLS|SIP プロキシ|SBC|1024-65535|SBC で定義されています。|
 SIP や TLS|SBC|SIP プロキシ|SBC で定義されています。|5061|
@@ -214,7 +212,7 @@ SBC では、sip.pstnhub.microsoft.com を解決するための DNS クエリを
 
 メディア プロセッサのポートの範囲は、次の表で示されます。 
 
-|**トラフィック**|**開始**|**終了**|**発信元ポート**|**宛先ポート**|
+|**トラフィック**|**開始**|**終了**|**送信元ポート**|**宛先ポート**|
 |:--- |:--- |:--- |:--- |:--- |
 |UDP または SRTP|メディア プロセッサ|SBC|49 152 – 53 247|SBC で定義されています。|
 |UDP または SRTP|SBC|メディア プロセッサ|SBC で定義されています。|49 152 – 53 247|
@@ -251,7 +249,7 @@ SBCs のサポートの詳細については、[リストのセッション ボ�
  
 ## <a name="see-also"></a>関連項目
 
-[直接ルーティングを構成する](direct-routing-configure.md)
+[ダイレクト ルーティングを構成する](direct-routing-configure.md)
 
 
 

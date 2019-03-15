@@ -1,10 +1,10 @@
 ---
-title: 自動アテンダントが応答し、チームから直接キューの呼び出しを呼び出す
+title: 自動応答および呼び出しキューの通話に Teams から直接応答する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/20/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 description: 電話システムの自動応答、通話キューとチーム内のこれらの呼び出しを得ることができる方法を説明します。
 localization_priority: Normal
@@ -14,14 +14,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c010ae5a812cfd3d49279dd3728e948bdb31ca53
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 900fe698654a760c9863583da0b3cd161625844d
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465333"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569440"
 ---
-<a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>自動アテンダントが応答し、チームから直接キューの呼び出しを呼び出す
+<a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>自動応答および呼び出しキューの通話に Teams から直接応答する
 ===========================================================
 
 チームのユーザーが受け取ることができ、ビジネス オンラインの Skype からの応答の呼び出しが自動的に応答し、キューをそのチームのクライアントから直接呼び出します。 チーム ユーザーの場合は、自動アテンダントの機能が、一般的に使用できる、および呼び出しキュー機能は、プレビューでは。 
@@ -58,7 +58,7 @@ ms.locfileid: "30465333"
 
 自動応答を受信し、マイクロソフトのチームにキューの呼び出しを呼び出しには、相互運用性ポリシーを構成し、ポリシーをアップグレードする必要があります。 [移行とビジネス用の Skype とチームを使用する組織の相互運用性](migration-interop-guidance-for-teams-with-skype.md)を確認してください。 自動応答がない場合や呼び出しキューが構成され、これを行うには、[電話システムの自動応答を設定](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)し、[電話システムの呼び出しキューを作成する](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)を参照してください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 -   [Office 365 の電話システムとは](what-is-phone-system-in-office-365.md)
 -   [電話システムの呼び出しキューを作成する](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)

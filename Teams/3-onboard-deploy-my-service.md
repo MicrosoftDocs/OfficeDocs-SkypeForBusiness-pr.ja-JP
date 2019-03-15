@@ -1,10 +1,10 @@
 ---
-title: マイクロソフト チーム クラウドのインターネット電話サービスを展開します。
+title: Microsoft Teams クラウド ボイス サービスを展開する
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 05/16/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ce9b3f5a1d81728f0bff6951211453fb4aa2ef4
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 8ea80d3ba87a6499cba3bf52b5f70d45d0619c8a
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458997"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568465"
 ---
-# <a name="deploy-my-service"></a>サービスを展開します。
+# <a name="deploy-my-service"></a>サービスを展開する
 
 この資料では、クラウドの音声サービスを正しく展開するための要件の概要を示します。 次のことを確認するクラウドの音声サービスを展開するための規範的なガイダンスが正常にすべての要件を明確にして反復可能な結果を提供します。
 
@@ -60,7 +60,7 @@ ms.locfileid: "30458997"
 
 -   使用率と品質
 
--   導入
+-   採用
 
 [(戦略) の音声をサイトの有効化の戦略](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)は、Microsoft Excel ブックです。 ブック内の別のシートは、これらの 5 つの重点分野のそれぞれと各展開タスクと活動がこれらのシートのいずれかにグループ化します。
 
@@ -103,8 +103,8 @@ ms.locfileid: "30458997"
 番号を移植するなどの計画より多くの時間を要する可能性がある活動と調達活動に注意してください。 これらのアクティビティには、サイト展開の期限も悪影響します。 確認し、アクティビティのリストと関連付けられているタイムラインの更新を毎週、および利害関係者が各サイトと展開のスケジュールは、可能な差異の状態の認識であることを確認するのには、[運営委員会の会議](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide)でそれらを提示することを確認します。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>サイト対応の戦略は、配置に必要なかどうかを決定します。</li><li>マイクロソフト チームのサイトの有効化の戦略をカスタマイズするのすべてのサイトを展開することを担当するユーザーを決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">サイト対応のプレイブックをダウンロード</a>してください。</li><li>最初のサイトのサイトの有効化の戦略をカスタマイズします。</li><li>追加のサイトを必要に応じて繰り返します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断のポイント</td><td><ul><li>サイト対応の戦略は、配置に必要なかどうかを決定します。</li><li>マイクロソフト チームのサイトの有効化の戦略をカスタマイズするのすべてのサイトを展開することを担当するユーザーを決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">サイト対応のプレイブックをダウンロード</a>してください。</li><li>最初のサイトのサイトの有効化の戦略をカスタマイズします。</li><li>追加のサイトを必要に応じて繰り返します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

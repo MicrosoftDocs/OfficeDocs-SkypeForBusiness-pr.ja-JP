@@ -1,5 +1,5 @@
 ---
-title: 既存の Office 365 グループを Microsoft Teams で強化する
+title: マイクロソフトのチームで既存の Office 365 グループを拡張します。
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,14 +14,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95112a3a3e4aea4fee68507fea4c366dac1da2da
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 13b34da03c35706fafb02a4e9e02eab629a4a399
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463525"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568417"
 ---
-<a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>既存の Office 365 グループを Microsoft Teams で強化する
+<a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>マイクロソフトのチームで既存の Office 365 グループを拡張します。
 =======================================================
 
 Microsoft Teams ユーザーは、Microsoft Teams の機能を使って既存の Office 365 グループを強化することができます。Office 365 のパブリック グループでは、そのメンバー数が 2500 人以下の場合にグループを強化できます。
@@ -32,7 +32,6 @@ Microsoft Teams ユーザーは、Microsoft Teams の機能を使って既存の
 > マイクロソフト チームは、既存のグループを強化するために Office 365 のグループの所有者のみの権限し、そのグループには、2500 未満のユーザーが含まれている必要があります。 拡張されたチームも一覧に表示されません。
 >
 >**既存の Office 365 グループからチームを作成する**] オプションは、これらの条件が満たされていない限り、使用できません。
-
 
 ユーザーは配布リストをチームに取り込むこともできます。それを行うと、配布リストのメンバーがチームに追加されます。この処理は一度のみ実行されるため、その後に配布リスト内のグループ メンバーの変更があった場合でもチームには反映されません。 
 

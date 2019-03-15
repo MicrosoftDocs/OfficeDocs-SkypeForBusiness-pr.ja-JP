@@ -1,5 +1,5 @@
 ---
-title: 直接ルーティングを構成する
+title: ダイレクト ルーティングを構成する
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +13,14 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Microsoft 電話システム直接ルーティングを構成する方法について説明します。
-ms.openlocfilehash: 4e117cd7e8bdde34a4982408052a1a61aedd00d7
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 5c2d90ccb88c0e654239ec02a5780778a7db6bbe
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353483"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569783"
 ---
-# <a name="configure-direct-routing"></a>直接ルーティングを構成する
+# <a name="configure-direct-routing"></a>ダイレクト ルーティングを構成する
 
 > [!Tip]
 > ルーティング、それを計画する方法と展開方法は、直接の利点について説明するのには次のセッションを監視する:[マイクロソフトのチームに直接ルーティング](https://aka.ms/teams-direct-routing)
@@ -102,17 +102,17 @@ Enabled               : True
  
 次の表のパラメーターの設定で使用できる追加のパラメーターを一覧表示します。`New-CsOnlinePstnGateway`
 
-|必須。|名前|説明|Default|可能な値|種類と制限|
+|必須。|名前|説明|既定|可能な値|種類と制限|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|あり|FQDN|SBC の FQDN 名 |なし|NoneFQDN 名、制限は 63 文字|文字列、[コンピューター、ドメイン、サイト、および Ou の Active Directory の名前付け規則](https://support.microsoft.com/help/909264)で許可の文字の一覧|
-|不要|MediaBypass |将来使用するために予約されているパラメーターです。 SBC の示されているパラメーターには、メディア バイ パスがサポートされていて、管理者がそれを使用します。|なし|True<br/>False|ブール型|
-|あり|SipSignallingPort |トランスポート層セキュリティ (TLS) プロトコルを使用して直接ルーティング サービスと通信するために使用するポートをリッスンします。|なし|任意のポート|0 から 65535 まで |
-|不要|FailoverTimeSeconds |10 (既定値) に設定すると、10 秒以内に、ゲートウェイが応答しない送信の呼び出しにルーティングされる次の使用可能なトランクです。トランクを追加することはありません、し、呼び出しは自動的に削除します。 低速のネットワークとゲートウェイの応答を持つ組織内を可能性があります可能性のある呼び出しが不必要に削除されています。 既定値は 10 です。| 10|数値|Int|
-|不要|ForwardCallHistory |通話履歴の情報をトランク経由で転送するかどうかを指定します。 Office 365 の PSTN のプロキシに 2 つのヘッダーが送信が有効な場合: 履歴情報と Referred で。 既定値は**False** ($False) です。 |False|True<br/>False|ブール型|
-|不要|ForwardPAI|P-Asserted-Identity (PAI) ヘッダーを通話とともに転送するかどうかを示します。 PAI ヘッダーがあれば、発信者 ID を確認できます。 既定値は**False** ($False) です。|False|True<br/>False|ブール型|
-|不要|SendSIPOptions |SBC または SIP オプションを送信しない場合を定義します。 無効にした場合、SBC は、監視と警告のシステムから除外されます。 SIP オプションを有効にすることを強くお勧めします。 既定値は**True**です。 |True|True<br/>False|ブール型|
-|不要|MaxConcurrentSessions |警告システムによって使用されます。 同時セッションの数が 90% の場合、アラート ・ システム、テナント管理者にアラートを生成の任意の値を設定すると、この値よりも大きいか。 パラメーターが設定されていない場合、アラートは生成されません。 ただし、監視システムは 24 時間ごとの同時セッションの数を報告します。 |Null|Null<br/>1 ~ 100,000 ||
-|不要|有効になっている *|発信呼のこの SBC を有効にする場合に使用されます。 メンテナンス中または更新中に、SBC を一時的に削除するために使用します。 |False|True<br/>False|ブール型|
+|はい|FQDN|SBC の FQDN 名 |なし|NoneFQDN 名、制限は 63 文字|文字列、[コンピューター、ドメイン、サイト、および Ou の Active Directory の名前付け規則](https://support.microsoft.com/help/909264)で許可の文字の一覧|
+|いいえ|MediaBypass |将来使用するために予約されているパラメーターです。 SBC の示されているパラメーターには、メディア バイ パスがサポートされていて、管理者がそれを使用します。|なし|True<br/>False|Boolean|
+|はい|SipSignallingPort |トランスポート層セキュリティ (TLS) プロトコルを使用して直接ルーティング サービスと通信するために使用するポートをリッスンします。|なし|任意のポート|0 から 65535 まで |
+|いいえ|FailoverTimeSeconds |10 (既定値) に設定すると、10 秒以内に、ゲートウェイが応答しない送信の呼び出しにルーティングされる次の使用可能なトランクです。トランクを追加することはありません、し、呼び出しは自動的に削除します。 低速のネットワークとゲートウェイの応答を持つ組織内を可能性があります可能性のある呼び出しが不必要に削除されています。 既定値は 10 です。|10|数値|Int|
+|いいえ|ForwardCallHistory |通話履歴の情報をトランク経由で転送するかどうかを指定します。 Office 365 の PSTN のプロキシに 2 つのヘッダーが送信が有効な場合: 履歴情報と Referred で。 既定値は**False** ($False) です。 |False|True<br/>False|Boolean|
+|いいえ|ForwardPAI|P-Asserted-Identity (PAI) ヘッダーを通話とともに転送するかどうかを示します。 PAI ヘッダーがあれば、発信者 ID を確認できます。 : ID プライバシーを有効にした場合のヘッダーも送信されます。 既定値は**False** ($False) です。|False|True<br/>False|Boolean|
+|いいえ|SendSIPOptions |SBC または SIP オプションを送信しない場合を定義します。 無効にした場合、SBC は、監視と警告のシステムから除外されます。 SIP オプションを有効にすることを強くお勧めします。 既定値は**True**です。 |True|True<br/>False|Boolean|
+|いいえ|MaxConcurrentSessions |警告システムによって使用されます。 同時セッションの数が 90% の場合、アラート ・ システム、テナント管理者にアラートを生成の任意の値を設定すると、この値よりも大きいか。 パラメーターが設定されていない場合、アラートは生成されません。 ただし、監視システムは 24 時間ごとの同時セッションの数を報告します。 |Null|Null<br/>1 ~ 100,000 ||
+|いいえ|有効になっている *|発信呼のこの SBC を有効にする場合に使用されます。 メンテナンス中または更新中に、SBC を一時的に削除するために使用します。 |False|True<br/>False|Boolean|
  
 ### <a name="verify-the-sbc-pairing"></a>SBC の組み合わせを確認します。 
 
@@ -260,7 +260,7 @@ SBCs は、アクティブとバックアップとして指定できます。 �
 
 次の表では、3 つのボイス ルートを使用して設定をまとめたものです。 この例では、すべての 3 つのルートは、同じ PSTN 使用法米国およびカナダの一部です。
 
-|**PSTN 使用法**|**ボイス ルート**|**番号パターン**|**優先度**|**SBC**|**説明**|
+|**PSTN 使用法**|**ボイス ルート**|**番号パターン**|**[Priority]**|**SBC**|**説明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |米国のみ|「Redmond 1」|^\\+1 (425\|206)(\d{7})$|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|+1 425 XXX XX XX または +1 206 XXX XX XX の呼び出された番号の有効な工順|
 |米国のみ|"Redmond 2"|^\\+1 (425\|206)(\d{7})$|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|+1 425 XXX XX XX または +1 206 XXX XX XX の呼び出された番号のバックアップ ルート|
@@ -440,7 +440,7 @@ Spencer 低: 米国およびカナダの番号にのみ許可される呼び出�
 
 次の表は、ルーティング ポリシー「制限なし」の使用の指定、およびボイス ルートをまとめたものです。 
 
-|**PSTN 使用法**|**ボイス ルート**|**番号パターン**|**優先度**|**SBC**|**説明**|
+|**PSTN 使用法**|**ボイス ルート**|**番号パターン**|**[Priority]**|**SBC**|**説明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |米国のみ|「Redmond 1」|^\\+1 (425\|206)(\d{7})$|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|+1 425 XXX XX XX または +1 206 XXX XX XX 番号が呼び出し先の有効な工順|
 |米国のみ|"Redmond 2"|^\\+1 (425\|206)(\d{7})$|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|+1 425 XXX XX XX または +1 206 XXX XX XX 番号が呼び出し先のバックアップ ルート|

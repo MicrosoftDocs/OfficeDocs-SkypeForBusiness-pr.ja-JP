@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: d76a274d-a295-452e-b3cc-40082c65f513
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: a9b9c164b791dab0c977fb46152142fbbdbd64a1
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: af3f570df6b395add8983e5e078b79467349752f
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463773"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568937"
 ---
 # <a name="toll-free-dialing-restrictions-in-kenya"></a>ケニアでのフリーダイヤル制限
 
@@ -46,9 +46,9 @@ ms.locfileid: "30463773"
 |携帯電話ネットワークの状態  <br/> |部分的。 コメント参照。  <br/> |
 |コメント、制限、アクセスの問題など  <br/> |固定ネットワーク アクセス: Safaricom および Airtel 携帯電話ネットワーク アクセス: Safaricom、Airtel、Orange  <br/> |
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
-[フリー ダイヤルの制限事項と制限事項](../toll-free-dialing-limitations-and-restrictions.md)
+[無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

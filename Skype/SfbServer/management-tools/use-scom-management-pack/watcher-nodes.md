@@ -12,10 +12,10 @@ ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: '概要: をインストールし、Skype のビジネス サーバー代理トランザクションの監視ノードを構成します。'
 ms.openlocfilehash: 6719826515954290f30eac272f638b846f45142a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
+ms.lasthandoff: 02/21/2019
 ms.locfileid: "25375987"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>監視ノードのインストールと構成
@@ -38,7 +38,7 @@ ms.locfileid: "25375987"
 |:-----|:-----|
 |Test-CsAddressBookService (ABS)  <br/> |ユーザーが連絡先リストに登録されていないユーザーを検索することを確認します。  <br/> |
 |Test-CsAddressBookWebQuery (ABWQ)  <br/> |ユーザーが HTTP 経由で自分の連絡先リストに登録されていないユーザーを検索することを確認します。  <br/> |
-|テスト-CsAVConference (AvConference)  <br/> |ユーザーが音声/ビデオ会議で作成と参加が可能なことを確認します。  <br/> |
+|Test-CsAVConference (AvConference)  <br/> |ユーザーが音声/ビデオ会議で作成と参加が可能なことを確認します。  <br/> |
 |Test-CsGroupIM (IM Conferencing)  <br/> |ユーザーが会議中にインスタント メッセージを送信でき、3 人以上のユーザーとインスタント メッセージでの会話に参加できることを確認します。  <br/> |
 |Test-CsIM (P2P IM)  <br/> |ユーザーがピアツーピア インスタント メッセージを送信できることを確認します。  <br/> |
 |Test-CsP2PAV (P2PAV)  <br/> |ユーザーがピアツーピア音声通話を開始できることを確認します (シグナリングのみ)。  <br/> |
@@ -46,18 +46,18 @@ ms.locfileid: "25375987"
 |Test-CsRegistration (Registration)  <br/> |ユーザーは、Skype をビジネスのために、サインインすることを確認します。  <br/> |
 |Test-CsPstnPeerToPeerCall (PSTN)  <br/> |ユーザーが企業の外部のユーザー (PSTN 番号) と通話できることを確認します。  <br/> |
 |Test-CsASConference (ASConference)  <br/> |ユーザーがアプリケーション共有電話会議の作成と参加を行うことができることを確認します。  <br/> |
-|テスト-CsAVEdgeConnectivity (AVEdgeConnectivity)  <br/> |音声ビデオ エッジ サーバーがピアツーピア通話と会議通話を行うための接続を受け入れることができることを確認します。  <br/> |
-|テスト-CsDataConference (DataConference)  <br/> |ユーザーが、データ グループ作業電話会議 (ホワイトボードや投票などのアクティビティが含まれるオンライン会議) に参加できることを確認します。  <br/> |
-|テスト-CsDialinConferencing (DialinConferencing)  <br/> |ユーザーが電話番号をダイヤルして電話会議に参加できることを確認します。  <br/> |
-|テスト-CsDialinConferencing (DialinConferencing)  <br/> |ユーザーが電話番号をダイヤルして電話会議に参加できることを確認します。  <br/> |
-|テスト-CsExumConnectivity (ExumConnectivity)  <br/> |ユーザーが Exchange ユニファイド メッセージング (UM) に接続できることを確認します。  <br/> |
+|Test-CsAVEdgeConnectivity (AVEdgeConnectivity)  <br/> |音声ビデオ エッジ サーバーがピアツーピア通話と会議通話を行うための接続を受け入れることができることを確認します。  <br/> |
+|Test-CsDataConference (DataConference)  <br/> |ユーザーが、データ グループ作業電話会議 (ホワイトボードや投票などのアクティビティが含まれるオンライン会議) に参加できることを確認します。  <br/> |
+|Test-CsDialinConferencing (DialinConferencing)  <br/> |ユーザーが電話番号をダイヤルして電話会議に参加できることを確認します。  <br/> |
+|Test-CsDialinConferencing (DialinConferencing)  <br/> |ユーザーが電話番号をダイヤルして電話会議に参加できることを確認します。  <br/> |
+|Test-CsExumConnectivity (ExumConnectivity)  <br/> |ユーザーが Exchange ユニファイド メッセージング (UM) に接続できることを確認します。  <br/> |
 |テスト-CsGroupIM-TestJoinLauncher (JoinLauncher)  <br/> |ユーザーがミーティングを作成でき、予定されたミーティングに Web アドレス リンクにより参加できることを確認します。  <br/> |
 |Test-CsMCXP2PIM (MCXP2PIM)  <br/> |モバイル デバイス ユーザーがインスタント メッセージの登録と送信を実行できることを確認します。  <br/> |
-|テスト-CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)  <br/> |ビデオの相互運用機能のサーバーが起動して、ビデオの SIP トランク経由で着信接続を処理できることを確認します。  <br/> **注:** 従来のモバイル クライアント用の MCX サポートはビジネス サーバー 2019 の Skype で利用可能ではありません。 |
-|テスト-CsPersistentChatMessage (PersistentChatMessage)  <br/> |ユーザーが常設チャット サービスを使用してメッセージを交換できることを確認します。  <br/> |
-|テスト-CsUcwaConference (UcwaConference)  <br/> |ユーザーが Web を介して電話会議に参加できることを確認します。  <br/> |
-|テスト-CsUnifiedContactStore (UnifiedContactStore)  <br/> |統合連絡先ストアを通じてユーザーの連絡先にアクセスできることを確認します。 統合連絡先ストアには、ユーザーが単一のビジネス サーバー 2015、Outlook メッセージングおよびコラボレーション クライアントでは、または Outlook Web Access の Skype を使用してアクセスできるメンバーのセットを維持する方法が用意されています。  <br/> |
-|テスト-CsXmppIM (XmppIM)  <br/> |インスタント メッセージを Extensible Messaging and Presence Protocol (XMPP) ゲートウェイ経由で送信できることを確認します。  <br/> XMPP ゲートウェイとプロキシ サーバー 2015 のビジネス用の Skype では利用ビジネス サーバー 2019 の Skype でサポートされていません。  |
+|Test-CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)  <br/> |ビデオの相互運用機能のサーバーが起動して、ビデオの SIP トランク経由で着信接続を処理できることを確認します。  <br/> **注:** 従来のモバイル クライアント用の MCX サポートはビジネス サーバー 2019 の Skype で利用可能ではありません。 |
+|Test-CsPersistentChatMessage (PersistentChatMessage)  <br/> |ユーザーが常設チャット サービスを使用してメッセージを交換できることを確認します。  <br/> |
+|Test-CsUcwaConference (UcwaConference)  <br/> |ユーザーが Web を介して電話会議に参加できることを確認します。  <br/> |
+|Test-CsUnifiedContactStore (UnifiedContactStore)  <br/> |統合連絡先ストアを通じてユーザーの連絡先にアクセスできることを確認します。 統合連絡先ストアには、ユーザーが単一のビジネス サーバー 2015、Outlook メッセージングおよびコラボレーション クライアントでは、または Outlook Web Access の Skype を使用してアクセスできるメンバーのセットを維持する方法が用意されています。  <br/> |
+|Test-CsXmppIM (XmppIM)  <br/> |インスタント メッセージを Extensible Messaging and Presence Protocol (XMPP) ゲートウェイ経由で送信できることを確認します。  <br/> XMPP ゲートウェイとプロキシ サーバー 2015 のビジネス用の Skype では利用ビジネス サーバー 2019 の Skype でサポートされていません。  |
 
 System Center Operations Manager を使用するウォッチャー ノードをインストールする必要はありません。 これらのノードをインストールしない場合でもから入手できますリアルタイム ・ アラート Skype サーバー 2015 のビジネス コンポーネントの問題が発生するたびにします。 (コンポーネントとユーザーの管理パックが使用ウォッチャー ノード)。ただし、監視ノードは、アクティブな監視管理パックを使用して、エンド ・ ツー ・ エンドのシナリオを監視する場合は、必要があります。
   
@@ -153,8 +153,8 @@ System Center Operations Manager エージェントのファイルをインス�
   
 ||**説明**|**サポートされる場所**|
 |:-----|:-----|:-----|
-|向こう側にあります。  <br/> |内部サーバーを偽装する証明書を使用し、認証チャレンジをバイパスします。  <br/> 各監視ノードで多数のユーザー パスワードではなく、1 つの証明書を管理したいと考える管理者にとって便利です。  <br/> |エンタープライズの内側。  <br/> この方法では、監視ノードが監視対象のプールと同じドメイン内に存在する必要があります。監視ノードとプールが別のドメインに存在する場合は、この方法ではなく、資格情報認証を使用します。  <br/> |
-|Negotiate  <br/> |ユーザー名とパスワードを各監視ノードの Windows 資格情報マネージャーに保管します。  <br/> このモードは、パスワード管理の手間を必要としますが、エンタープライズの外側に位置する監視ノードの場合には唯一の選択肢となります。このような外側に位置する監視ノードを認証の際に信頼済みのエンドポイントとして扱うことはできません。  <br/> |エンタープライズの外側。  <br/> エンタープライズの内側。  <br/> |
+|TrustedServer  <br/> |内部サーバーを偽装する証明書を使用し、認証チャレンジをバイパスします。  <br/> 各監視ノードで多数のユーザー パスワードではなく、1 つの証明書を管理したいと考える管理者にとって便利です。  <br/> |エンタープライズの内側。  <br/> この方法では、監視ノードが監視対象のプールと同じドメイン内に存在する必要があります。 監視ノードとプールが別のドメインに存在する場合は、この方法ではなく、資格情報認証を使用します。  <br/> |
+|Negotiate  <br/> |ユーザー名とパスワードを各監視ノードの Windows 資格情報マネージャーに保管します。  <br/> このモードは、パスワード管理の手間を必要としますが、エンタープライズの外側に位置する監視ノードの場合には唯一の選択肢となります。 このような外側に位置する監視ノードを認証の際に信頼済みのエンドポイントとして扱うことはできません。  <br/> |エンタープライズの外側。  <br/> エンタープライズの内側。  <br/> |
    
 ## <a name="configure-a-watcher-node-to-use-trusted-server-authentication"></a>信頼されたサーバー認証を使用する監視ノードの構成
 <a name="enable_synthetic_trans"> </a>
@@ -164,7 +164,7 @@ System Center Operations Manager エージェントのファイルをインス�
 信頼済みサーバー認証を構成するには、まず監視ノード コンピューターをホストする信頼済みアプリケーション プールを作成します。 信頼されたアプリケーション プールを作成した後は、信頼されたアプリケーションとして実行するウォッチャー ノードにし、代理トランザクションを構成しなければなりません。
   
 > [!NOTE]
-> 信頼されたアプリケーションは、ビジネス サーバー 2015 年の Skype の一部として実行するのには信頼される側のステータスが与えられますが、組み込み製品の一部ではないアプリケーションです。 信頼された状態では、アプリケーションがない認証を実行するたびに対処するを意味します。
+> 信頼されたアプリケーションは、ビジネス サーバー 2015 年の Skype の一部として実行するのには信頼される側のステータスが与えられますが、組み込み製品の一部ではないアプリケーションです。 Trusted status means that the application will not be challenged for authentication each time it runs.
   
 信頼されたアプリケーション プールを作成するには、ビジネス サーバー管理シェルを開くには、Skype と次のようなコマンドを実行します。
   

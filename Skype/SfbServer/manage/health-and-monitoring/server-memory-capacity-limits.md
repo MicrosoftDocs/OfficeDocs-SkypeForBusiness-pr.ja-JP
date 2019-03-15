@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
 description: '概要: は、Skype でサーバーのメモリ容量制限のビジネスのサーバーを監視する方法を説明します。'
-ms.openlocfilehash: 05913ea5b32a9a40d7c577c4a0795ccb07db211f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6eb60d48e9da0736ac8753000343b5dc1458bacf
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978701"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "21226975"
 ---
 # <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>Skype ビジネス サーバー用にサーバーのメモリ容量制限のためのモニター
  
@@ -24,7 +24,7 @@ ms.locfileid: "20978701"
 > キャパシティ ・ プランニングを参照するこのトピックの情報は、Lync 2010 モバイル クライアントやモバイル サービス (Mcx) にのみ関係します。 キャパシティ ・ プランニングのユニファイド コミュニケーション Web API (UCWA)、Lync 2013 のモバイル クライアントで使用されているは、Lync Server 2013、計画ツールによって提供されます。 
 
 > [!NOTE]
-> 従来のモバイル クライアント用の MCX サポートはビジネス サーバー 2019 の Skype で利用可能ではありません。 ユーザーは、現在のクライアントにアップグレードする必要があります。
+> 従来のモバイル クライアント用の MCX (移動サービス) サポートがビジネス サーバー 2019 の Skype で利用可能ではありません。 ビジネスのモバイル クライアントのすべての現在 Skype は、インスタント メッセージング (IM)、プレゼンス、および取引先担当者をサポートするために既にユニファイド コミュニケーション Web API (UCWA) を使用します。 MCX を使用する従来のクライアントを持つユーザーは、現在のクライアントにアップグレードする必要があります。
   
 モビリティの 2 つのパフォーマンス カウンターの現在の使用状況を判断し、ビジネス サーバー移動サービス (Mcx)、同様に UCWA のメモリ使用量を監視するため、Skype の容量を計画するためにすることができます。 UCWA、 **LS:WEB - UCWA**は、カウンターのカテゴリです。 モビリティ サービス (Mcx) は、カウンターは、 **LS:WEB のモバイル通信サービス**」カテゴリの下。 カウンターを監視するのには次のとおりです。
   

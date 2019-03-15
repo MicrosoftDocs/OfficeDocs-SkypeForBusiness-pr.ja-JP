@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
 description: '概要: は、ビジネス サーバー Mcx のモビリティ サービスのユニファイド コミュニケーション Web API (UCWA) と、Skype を実行しているサーバーを監視するために使用できるパフォーマンス カウンターについて説明します。'
-ms.openlocfilehash: a1e44d0ba7fec9eb50d7d1f1bcea78a85a1f4955
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: dc2f414dce47442d50018c4a800a0c91279068c8
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969846"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "21226996"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>Skype ビジネス サーバーの移動のパフォーマンス カウンター
  
@@ -27,7 +27,7 @@ UCWA テーブル内のカウンターのカテゴリ名は、 **LS:WEB - UCWA**
 Mcx Mobility Service の表のカウンターのカテゴリ名は、**LS:WEB - Mobile Communication Service** です。
 
 > [!NOTE]
-> 従来のモバイル クライアント用の MCX サポートはビジネス サーバー 2019 の Skype で利用可能ではありません。 ユーザーは、現在のクライアントにアップグレードする必要があります。
+> 従来のモバイル クライアント用の MCX (移動サービス) サポートがビジネス サーバー 2019 の Skype で利用可能ではありません。 ビジネスのモバイル クライアントのすべての現在 Skype は、インスタント メッセージング (IM)、プレゼンス、および取引先担当者をサポートするために既にユニファイド コミュニケーション Web API (UCWA) を使用します。 MCX を使用する従来のクライアントを持つユーザーは、現在のクライアントにアップグレードする必要があります。
   
 ## <a name="performance-counters-for-ucwa"></a>UCWA のパフォーマンス カウンター
 
@@ -114,4 +114,4 @@ Mcx Mobility Service の表のカウンターのカテゴリ名は、**LS:WEB - 
 |Total Successful Outbound Voice Calls  <br/> |成功した発信音声通話の合計数  <br/> |
    
 > [!NOTE]
-> 従来のモバイル クライアント用の MCX サポートはビジネス サーバー 2019 の Skype で利用可能ではありません。 ユーザーは、現在のクライアントにアップグレードする必要があります。
+> 従来のモバイル クライアント用の MCX (移動サービス) サポートがビジネス サーバー 2019 の Skype で利用可能ではありません。 ビジネスのモバイル クライアントのすべての現在 Skype は、インスタント メッセージング (IM)、プレゼンス、および取引先担当者をサポートするために既にユニファイド コミュニケーション Web API (UCWA) を使用します。 MCX を使用する従来のクライアントを持つユーザーは、現在のクライアントにアップグレードする必要があります。

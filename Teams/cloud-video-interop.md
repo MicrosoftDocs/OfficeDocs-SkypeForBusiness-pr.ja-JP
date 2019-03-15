@@ -3,7 +3,7 @@ title: Microsoft Teams のクラウド ビデオ相互運用性
 author: lolaj
 ms.author: lolaj
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: srividhc
@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ea1a81f2418b17d247dafe82d9e94e348d3b4c7
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: d18879bdc983ea245c491f4cfadb38c2e7bd5578
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459749"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569296"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams のクラウド ビデオ相互運用性
 
@@ -68,7 +68,7 @@ ms.locfileid: "30459749"
 
 ![CVI を組織で展開します。](media/deploying-cvi.png)
 
-### <a name="plan"></a>計画
+### <a name="plan"></a>プラン
 
 計画フェーズでは、ないチーム、ネイティブ ・ デバイスを置き換えて、これらのデバイスをサポートするビデオの相互運用をクラウドのパートナーを見つけるデバイスを識別する必要があります。  
 

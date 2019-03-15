@@ -1,10 +1,10 @@
 ---
-title: Office 365 での電話会議
+title: Office 365 における電話会議
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: a5a696c3-d321-4e61-9aad-e3a87041196e
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,14 +21,14 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 52462bcb9f609a2e9c68757a36a9e5ed1cfa2b13
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 20ce25368c5b77bcd355bc5ed0d6ef55868401c1
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494214"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30570119"
 ---
-# <a name="audio-conferencing-in-office-365"></a>Office 365 での電話会議
+# <a name="audio-conferencing-in-office-365"></a>Office 365 における電話会議
 Office 365 での音声会議では、電話から会議の呼び出しすることができます。 オーディオ会議では、最大で 250 の電話の参加者を使用できます。
 
 ## <a name="what-is-audio-conferencing"></a>オーディオ会議とは何ですか。
@@ -92,9 +92,9 @@ Office 365 での音声会議では、電話から会議の呼び出しするこ
 - **新規の番号を取得するには、リクエスト フォームを使用してください。** 場合があります (国または地域) によってことはできません、Skype を使用するビジネス管理センターでは、新しい電話番号を取得するか、特定の電話番号または市外局番が必要です。 その場合は、フォームをダウンロードして記入してからマイクロソフトに返送する必要があります。 詳細については「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 」を参照してください。
 
 ## <a name="how-do-you-set-it-up"></a>方法の操作を行いますを設定することでしょうか。
-ユーザーの電話会議を設定することにしました後、は、手順についてはこれを行うには、[ビジネスおよびマイクロソフトのチームに Skype の電話会議を設定](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)を参照してください。
+ユーザーの電話会議を設定するを決定したらを参照してください[マイクロソフト チームの電話会議を設定](set-up-audio-conferencing-in-teams.md)または[オンライン ビジネスの Skype の電話会議を設定](/SkypeForBusiness/audio-conferencing-in-office/set-up-audio-conferencing)するための手順の。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business Online のセットアップ](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
   

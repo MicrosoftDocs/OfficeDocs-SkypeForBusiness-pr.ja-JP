@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: '概要: ビジネス サーバーおよび Outlook Web App の Skype を統合します。'
-ms.openlocfilehash: 63533e0f592a332e1e5f4ff9829b16cde4b1299f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 17f58acac3b59611df58d4c60ce875a5a17187cf
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263922"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569631"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>ビジネス サーバーの設置型の Skype と Outlook Web App との統合を構成します。
 
@@ -40,7 +40,7 @@ Exchange のオンラインでのビジネスのサーバーの設置型の Skyp
 Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 ```
 
-- **AllowFederatedUsers**パラメーターは、内部ユーザーがフェデレーション ドメインのユーザーと通信できるかどうかを指定します。 このプロパティは、内部ユーザーが、ビジネスのサーバーと Exchange のオンライン共有 SIP アドレス スペースのシナリオで Skype でのユーザーと通信できるかどうかも決定します。
+- **AllowFederatedUsers** パラメーターは、内部ユーザーがフェデレーション ドメインからのユーザーと通信することを許可するかどうかを指定します。 このプロパティは、内部ユーザーが、ビジネスのサーバーと Exchange のオンライン共有 SIP アドレス スペースのシナリオで Skype でのユーザーと通信できるかどうかも決定します。
 
 ビジネス サーバー管理シェルには、Skype の使用に関する詳細については、 [Skype](../../manage/management-shell.md)ビジネス サーバー管理シェルを参照してください。
 
@@ -55,15 +55,15 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 > [!NOTE]
 > 中国の 21Vianet により運営されている Office 365 を使用している場合は、この例の ProxyFqdn パラメーターの値 ("exap.um.outlook.com") を、21Vianet により運営されているサービスの FQDN である "exap.um.partner.outlook.cn" に置き換えます。 を使用している Office 365 の GCC の高い場合、FQDN を持つ次の使用例がある場合 ("exap.um.outlook.com") で ProxyFqdn パラメーターの値を交換して、GCC を:"exap.um.office365.us"です。
 
-- **アイデンティティ**では、(たとえば、Exchange オンライン) を作成するホスティング プロバイダーの一意の文字列値の識別子を指定します。 空白を含む値は、二重引用符で囲む必要があります。
+- **Identity** は、作成するホスティング プロバイダーの、一意の文字列値から成る識別子を指定します (例: "Exchange Online")。 空白を含む値は、二重引用符で囲む必要があります。
 
 - **Enabled ** は、ドメインとホスティング プロバイダー間のネットワーク接続が有効になっているかどうかを示します。 これを True に設定する必要があります。
 
-- **EnabledSharedAddressSpace**では、ホスティング プロバイダーが共有 SIP アドレス スペースのシナリオで使用するかどうかを示します。 これを True に設定する必要があります。
+- **EnabledSharedAddressSpace** は、ホスティング プロバイダーが共有 SIP アドレス スペース シナリオで使用されるかどうかを示します。 これを True に設定する必要があります。
 
 - **HostsOCSUsers**は、Office Communications Server または Skype をビジネスのサーバーのホストにホスティング プロバイダーを使用するかどうかを示します。 これを False に設定する必要があります。
 
-- **ProxyFQDN**は、ホスティング プロバイダーによって使用されるプロキシ サーバーの完全修飾ドメイン名 (FQDN) を指定します。 Exchange Online の FQDN は exap.um.outlook.com です。
+- **ProxyFQDN** は、ホスティング プロバイダーによって使用されるプロキシ サーバーの完全修飾ドメイン名 (FQDN) を指定します。 Exchange Online の FQDN は exap.um.outlook.com です。
 
 - **IsLocal**は、ビジネスのサーバー トポロジの場合、Skype 内でホスティング プロバイダーで使用するプロキシ サーバーが含まれているかどうかを示します。 これを False に設定する必要があります。
 
@@ -78,12 +78,14 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 ```
 Get-CsManagementStoreReplicationStatus
 ```
+古く値がすべてのレプリカの true の場合に表示されているかどうかを確認してください。
 
 エッジ サーバーで、変更が適用されたことを確認するには、次のコマンドレットを実行します。
 
 ```
 Get-CsHostingProvider -LocalStore
 ```
+情報が表示されますが、前の手順でコミットされた変更と一致する場合は、二重にチェックします。
 
 ## <a name="see-also"></a>関連項目
 

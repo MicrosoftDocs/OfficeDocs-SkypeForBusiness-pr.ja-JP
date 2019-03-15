@@ -3,7 +3,7 @@ title: Skype for Business Server 2015 の新機能
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2018
+ms.date: 12/20/2017
 ms.audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
 description: '概要: ビジネス サーバー 2015 の Skype の新機能について学習するには、このトピックを読みます。 新しいクライアント エクスペリエンスの詳細については、Lync が、ビジネス用の Skype を参照してください - 新機能を参照してください。'
-ms.openlocfilehash: 9c5dd3996cb6c15de93b564fa800e01270d92b66
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e1ae2a046b955e83ccc7c811984a526c26f7c526
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21012452"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "24961030"
 ---
 # <a name="whats-new-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の新機能
 
@@ -48,7 +48,7 @@ Lync は、エンタープライズ ・ レベルのセキュリティ、コン�
   
 ### <a name="call-data-collection-and-analysis"></a>通話データの収集と分析
 
-レート自分を呼び出す機能ことができます Skype ビジネス サーバー 2015 の管理者には、呼び出しデータを収集します。 この機能は、オンプレミス展開でのみ使用可能です。 ユーザーは通話の終了後、調査に回答するように求められます。 詳細については、[ビジネス サーバー 2015 の Skype の電話のレート](manage/health-and-monitoring/rate-my-call.md)を参照してください。
+レート自分を呼び出す機能ことができます Skype ビジネス サーバー 2015 の管理者には、呼び出しデータを収集します。 この機能は、オンプレミス展開でのみ使用可能です。 ユーザーは通話の終了後、調査に回答するように求められます。 詳細については、「[Rate my Call in Skype for Business Server 2015](manage/health-and-monitoring/rate-my-call.md)」を参照してください。
   
 ### <a name="improved-interoperability-with-third-party-video-teleconferencing-systems"></a>サードパーティ製ビデオ会議システムとの相互運用性の向上
 
@@ -100,14 +100,14 @@ Android でのビジネスのための Skype には、今すぐ iOS および Wi
 
 ビジネス サーバー 2015 機能を使用して新しいインプレース アップグレード、Lync Server 2013 のハードウェアおよびサーバーの既存の投資を使用して、全体的なビジネス サーバー 2015 Skype を導入するコストを減らすため Skype に Lync Server 2013 のシステムを今すぐアップグレードできます。
   
-インプレース アップグレードには、ユーザーの移動というダウンタイムを必要としない手法と、オフラインというダウンタイムを必要とする手法の 2 つのシナリオがあります。 詳細については、アップグレードの手順は、ビジネスに適した、[ビジネス サーバー 2015 の Skype へのアップグレードを計画する](plan-your-deployment/upgrade.md)を参照してください。 
+インプレース アップグレードには、ユーザーの移動というダウンタイムを必要としない手法と、オフラインというダウンタイムを必要とする手法の 2 つのシナリオがあります。 どちらのアップグレード手順が自分のビジネスに適しているかの詳細については、「[Plan to upgrade to Skype for Business Server 2015](plan-your-deployment/upgrade.md)」を参照してください。 
   
 > [!NOTE]
 > 埋め込みオプションでは、Lync Server 2010 からアップグレードする場合に使用できません。 Lync Server 2010 からのアップグレードについての詳細については、[ビジネス サーバー 2015 の Skype へのアップグレード計画](plan-your-deployment/upgrade.md)を参照してください。 
   
 ### <a name="smart-setup"></a>スマート セットアップ
 
-セットアップ プログラムに、更新プログラムを自動的に検出してダウンロードするスマート セットアップ機能が含まれるようになりました。 インストール プロセス中を求めるかどうかはインストール プロセスが更新プログラムを確認する必要があります。 詳細については、[ビジネス サーバー 2015 の Skype のインストール](deploy/install/install.md)を参照してください。
+セットアップ プログラムに、更新プログラムを自動的に検出してダウンロードするスマート セットアップ機能が含まれるようになりました。 インストール プロセス中を求めるかどうかはインストール プロセスが更新プログラムを確認する必要があります。 詳細については、「[Install Skype for Business Server 2015](deploy/install/install.md)」を参照してください。
   
 ### <a name="improved-front-end-server-patching-and-upgrade-process"></a>フロントエンド サーバーのパッチおよびアップグレード プロセスの向上
 
@@ -127,7 +127,7 @@ AlwaysOn 可用性グループの SQL Server は、高可用性と災害復旧�
   
 SQL Server フェールオーバー クラスターのインスタンスは、サーバー インスタンス レベルの冗長性により、ローカルの高可用性を提供する Windows Server フェールオーバー クラスタ リング (WSFC) 機能を活用して、フェールオーバー クラスター インスタンス (FCI)。 FCI は、Windows Server フェールオーバー クラスタ リング (WSFC) ノードと、場合によっては、全体で複数のサブネットにインストールされている SQL Server の単一インスタンスです。
   
-詳細については、[高可用性とビジネス サーバー 2015 の Skype での災害復旧の計画](plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)を参照してください。
+詳細については、「[Plan for high availability and disaster recovery in Skype for Business Server 2015](plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)」を参照してください。
   
 ### <a name="centralized-logging-and-troubleshooting-improvements-for-on-premises-servers"></a>オンプレミス サーバーの集中ログとトラブルシューティングの改善点
 

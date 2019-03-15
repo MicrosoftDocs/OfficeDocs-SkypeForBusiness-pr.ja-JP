@@ -8,12 +8,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: この資料でを Skype ビジネス サーバー移動機能を利用できるモバイル デバイスをできるように、モバイル サービスを使用するビジネスのサーバーのインストールに既存の Skype を構成する手順を説明します。
-ms.openlocfilehash: e1799459d2e7723298aa7fdda17f89a9041efd15
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 788f4084f902fc1b5fee8ae29fcd518542f3572d
+ms.sourcegitcommit: 3d3a296f225ecbbee0b4cea67664ad7ab31ed1c2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649716"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30536034"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>展開し、Skype のビジネスのサーバーの移動を構成します。  
  
@@ -259,7 +259,7 @@ ms.locfileid: "26649716"
 
 次の手順は、そのとおりに実行するように意図されたものではありません。と言うのは、製品の前のバージョンで、たとえば Threat Management Gateway (TMG) の構成について順を追って手順を説明しました。これを使用していないのであれば、自分のバージョンではそこから仕上げる必要があります。
   
-TMG は Microsoft からはもはや製品として提供されておらず、その構成を行う必要があれば、「[Lync Server 2013 手順](https://technet.microsoft.com/en-us/library/hh690011%28v=ocs.15%29.aspx)」を調べることができます。 次の情報はのすべてのリバース プロキシが特定のチュートリアルの手順を提供できる方法がない場合でもより一般的には役に立つを目的としています。
+TMG が不要になった製品として Microsoft によって提供されると、 [Lync Server 2013 の手順](https://technet.microsoft.com/en-us/library/hh690011%28v=ocs.15%29.aspx)を表示できる場合はそれを構成する必要があります。 次の情報はのすべてのリバース プロキシが特定のチュートリアルの手順を提供できる方法がない場合でもより一般的には役に立つを目的としています。
   
 検討すべき重要な事柄が 2 つあります。
   
@@ -469,7 +469,7 @@ Skype ビジネス サーバー用のハイブリッド環境は、設置を組�
 ## <a name="configure-for-push-notifications"></a>プッシュ通知を構成する
 <a name="ConfigPush"> </a>
 
-プッシュ通知は、Skype または Lync アプリが非アクティブであっても、バッジ、アイコン、または警告の形式で送信できます。 ところでプッシュ通知とはどのようなものでしょうか。 これはユーザーに、新規または不在着信の IM 招待状、受信したボイス メールなどのイベントを通知するものです。 業務でサーバーの移動サービスの Skype は、ビジネス サーバー プッシュ通知サービスは、送信通知マイクロソフト プッシュ通知サービス (MSN) に Windows Phone ユーザーのクラウド ベースの Skype にこれらの通知を送信します。
+プッシュ通知は、Skype または Lync アプリが非アクティブであっても、バッジ、アイコン、または警告の形式で送信できます。 プッシュ通知は何ですか。 これはユーザーに、新規または不在着信の IM 招待状、受信したボイス メールなどのイベントを通知するものです。 業務でサーバーの移動サービスの Skype は、ビジネス サーバー プッシュ通知サービスは、送信通知マイクロソフト プッシュ通知サービス (MSN) に Windows Phone ユーザーのクラウド ベースの Skype にこれらの通知を送信します。
   
 この機能は、Lync Server 2013 から変更されたが、ビジネス サーバーは、Skype があれば、以下を実行するでしょう。
   

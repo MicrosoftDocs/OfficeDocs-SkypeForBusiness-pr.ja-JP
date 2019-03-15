@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 1b575124-9136-45ed-a351-d6aef686bc32
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: c4468451f0d24d010635e40e234b8aa815b10fc7
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 4d7945a72afe6153d1d341b0d56679fb4e47386d
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464021"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569185"
 ---
 # <a name="toll-free-dialing-restrictions-in-serbia"></a>セルビアでのフリーダイヤル制限
 
@@ -37,18 +37,18 @@ ms.locfileid: "30464021"
 
 |**詳細**|**説明**|
 |:-----|:-----|
-|呼び出し、利用可能なフリー ダイヤルですか。  <br/> |あり  <br/> |
+|呼び出し、利用可能なフリー ダイヤルですか。  <br/> |はい  <br/> |
 |ダイヤル形式  <br/> | 0800 XXX XXX <br/> |
 |国/地域の ISO コード  <br/> |RS  <br/> |
 |対象となる島/地域  <br/> |該当しない  <br/> |
 |対象外の島/地域  <br/> |該当しない  <br/> |
 |有線/固定回線の状態  <br/> |あり  <br/> |
-|携帯電話ネットワークの状態  <br/> |あり  <br/> |
+|携帯電話ネットワークの状態  <br/> |はい  <br/> |
 |コメント、制限、アクセスの問題など  <br/> |いいえ  <br/> |
    
 ## <a name="related-topics"></a>関連トピック
 
-[フリー ダイヤルの制限事項と制限事項](../toll-free-dialing-limitations-and-restrictions.md)
+[無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

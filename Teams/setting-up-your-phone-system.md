@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '組織の電話システム (PBX をクラウド) を設定する方法について説明します。 '
-ms.openlocfilehash: ef677e694ca170b7576f6613cbfddd83f9b493b0
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 5423ceb0dcd4de03c95ff956e50442a784de877c
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542888"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633283"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>組織内の電話システムの設定
 
@@ -56,9 +56,9 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 
 ### <a name="get-new-user-phone-numbers"></a>新しいユーザーの電話番号を取得します。 
  
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
+![デバイスのロゴ-30x30.png](media/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
 
-1. You can go to Dial-in conferencingDial-in users and select the user's properties to change the default number for a user by choosing a new number from the list of numbers that are available in your organization.
+1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
 
 2. Go to the **Office 365 admin center** > **Skype for Business**.
     
@@ -82,10 +82,10 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 
 ### <a name="get-new-service-numbers"></a>新しいサービス番号を取得する
 
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
+![デバイスのロゴ-30x30.png](media/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
 
 
-1. You can go to Dial-in conferencingDial-in users and select the user's properties to change the default number for a user by choosing a new number from the list of numbers that are available in your organization.
+1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
 
 2. Go to the **Office 365 admin center** > **Skype for Business**.
 
@@ -129,7 +129,7 @@ If you have been following the steps above, you have already bought and assigned
 
 4. 住所が検証されたら、[ **保存**] を選びます。
 
-### <a name="assign-phone-numbers-and-emergency-addresses-to-users"></a>ユーザーに電話番号と緊急対応の住所を割り当てる
+### <a name="assign-phone-numbers-and-emergency-addresses-to-users"></a>ユーザーに電話番号と緊急時のアドレスを割り当てる
 
 > [!TIP]
 > この手順を実行する直前にさらにユーザーを追加すると、[ **音声ユーザー**] ページにユーザーが表示されるまでに **数時間** かかることがあります。これには遅延時間があります。
@@ -205,7 +205,7 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
       > [!NOTE]
       > This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
-**電話会議の詳細については、 [電話会議の設定](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) を参照してください。**
+**オーディオ会議の詳細については、[マイクロソフトのチームでのオーディオ会議を設定](set-up-audio-conferencing-in-teams.md)を参照してください。**
 
 ## <a name="step-7-if-you-want-to-set-up-a-phone-system-call-queue"></a>手順 7: 電話システムの通話キューを設定する場合
 

@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 0bf506350a6e656d0143a968bcd0e884b47e5653
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: c5e9015bb13dd21ff503ac5767cce5b9704eef03
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120685"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633291"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議についての実践的なガイダンスを提供します。
 ============================================================
@@ -324,7 +324,7 @@ Office 365 の電話会議サービスには次が含まれます。
 -   会議ブリッジでの複数言語のサポート (プライマリとセカンダリ)
 -   テナントの既定の電話番号
 
-提供される機能の詳細な説明については、「[Skype for Business および Microsoft Teams の電話会議のセットアップ](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)」と「[電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md)」をご覧ください。
+含まれている機能の詳細については、[マイクロソフトのチームでのオーディオ会議を設定](set-up-audio-conferencing-in-teams.md)し、[電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md)を参照してください。
 
 > [!NOTE]
 > 専用の会議ブリッジ電話番号は、「[Skype for Business および Microsoft Teams サービスの電話番号を取得する](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)」で説明されている適用可能なライセンス数に応じた、テナントごとに取得可能な電話番号の制限にカウントされます。 無料電話の会議ブリッジ電話番号では通信クレジットが必要になります。
@@ -549,4 +549,4 @@ Office 365 の電話システム機能には、次の 2 種類のダイヤル �
 <br>
 ## <a name="see-also"></a>関連項目
 
-[Skype for Business および Microsoft Teams の電話会議のセットアップ](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+[マイクロソフト チームの電話会議を設定します](set-up-audio-conferencing-in-teams.md)

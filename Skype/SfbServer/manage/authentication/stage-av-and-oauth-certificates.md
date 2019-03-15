@@ -11,10 +11,10 @@ ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: '概要: ステージの AV と OAuth の証明書ビジネス サーバーの Skype のです。'
 ms.openlocfilehash: 9fd4074034e9bff6b27ed9a22143c59dc9890821
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
+ms.lasthandoff: 02/21/2019
 ms.locfileid: "25375937"
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>Skype で AV と OAuth の証明書をビジネス サーバーのステージ ・ セット CsCertificate でロールを使用します。

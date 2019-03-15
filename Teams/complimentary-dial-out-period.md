@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, OscarR
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: dc6e95cd-51e8-49ca-bcd3-78dc9dae486a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,19 +21,19 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
-description: お客様は、Skype for Business Online PSTNサービス利用規約およびお客様のボリュームライセンス契約で許可されているとおり、Office 365通話プランとOffice 365音声会議を使用することができます。
-ms.openlocfilehash: 95913132b75eee1a7641c3dd590f44a81efef376
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+description: お客様は、ビジネス オンライン PSTN サービス使用条件およびお客様のボリューム ライセンス契約は、Skype で許可されている Office 365 のプランを呼び出すと、Office 365 のオーディオ会議を使用することがあります。
+ms.openlocfilehash: 37e42cfe15e592822286936f6a0994cb9862d5b2
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463085"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569642"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音声会議の無料ダイヤル アウト期間
 
 ## <a name="skype-for-business-pstn-services"></a>Skype for Business PSTN サービス
 
-Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online PSTN Services Use Terms and Customer's volume licensing agreement. The PSTN Services Use Terms may be found at [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).
+お客様は、ビジネス オンライン PSTN サービス使用条件およびお客様のボリューム ライセンス契約は、Skype で許可されている Office 365 のプランを呼び出すと、Office 365 のオーディオ会議を使用することがあります。 PSTN サービスの使用条件は、[ライセンス条項やドキュメント](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN)を参照してください。
   
 ### <a name="complimentary-dial-out-period-details"></a>期間の詳細を無料ダイヤル
 

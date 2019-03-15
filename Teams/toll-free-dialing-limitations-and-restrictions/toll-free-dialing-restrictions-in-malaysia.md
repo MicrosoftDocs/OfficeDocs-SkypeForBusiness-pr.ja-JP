@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: a2b93ab5-3b6e-4fad-b705-e4ca63799abd
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: 4917f6126e71dd76cb7e758c99b385ee77fe946e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b0067217fddafc06020db9db60bea839a0ad2db7
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460021"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569193"
 ---
 # <a name="toll-free-dialing-restrictions-in-malaysia"></a>マレーシアでのフリーダイヤル制限
 
@@ -37,18 +37,18 @@ ms.locfileid: "30460021"
 
 |**詳細**|**説明**|
 |:-----|:-----|
-|呼び出し、利用可能なフリー ダイヤルですか。  <br/> |あり  <br/> |
+|呼び出し、利用可能なフリー ダイヤルですか。  <br/> |はい  <br/> |
 |ダイヤル形式  <br/> |1 800 XXX XXX  <br/> |
 |国/地域の ISO コード  <br/> |MY  <br/> |
 |対象となる島/地域  <br/> | マレー半島と東マレーシア <br/> |
 |対象外の島/地域  <br/> |該当しない  <br/> |
 |有線/固定回線の状態  <br/> |あり  <br/> |
-|携帯電話ネットワークの状態  <br/> |あり  <br/> |
+|携帯電話ネットワークの状態  <br/> |はい  <br/> |
 |コメント、制限、アクセスの問題など  <br/> |携帯電話アクセス: 通話時間が課金される。  <br/> |
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
-[フリー ダイヤルの制限事項と制限事項](../toll-free-dialing-limitations-and-restrictions.md)
+[無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

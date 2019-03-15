@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
-ms.topic: article
+ms.topic: reference
 ms.assetid: c17e8ea6-b83b-4345-9401-47a6c8b13aad
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,12 +22,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements.
-ms.openlocfilehash: ce1250030b1644dc9ec28f65ad54dd89bd863877
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 2e9845a9b9ebb294d0d7af1af87fae3165244889
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542017"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569655"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype for Business と Microsoft Teams のデータ収集方法
 
@@ -43,7 +43,7 @@ Skype ビジネス サーバーとのビジネス、オンライン ビジネス
 
 ## <a name="census-data"></a>全数調査データ
 
-調査データは、提供、サポート、およびビジネス用の Skype を改善する目的でのみ取得されます。 マイクロソフトのチームと Skype ビジネスをオンラインにします。 これには、デバイスとオペレーティング システムのバージョン、地域と言語の設定などの環境情報が含まれます。 サインイン試行と失敗のカウンターも含まれます。 次に、収集される全数調査データの具体例をいくつか示します。
+調査データは、提供、サポート、およびビジネス用の Skype を改善する目的でのみ取得されます。 マイクロソフトのチーム、およびオンライン ビジネスの Skype。 これには、デバイスとオペレーティング システムのバージョン、地域と言語の設定などの環境情報が含まれます。 サインイン試行と失敗のカウンターも含まれます。 次に、収集される全数調査データの具体例をいくつか示します。
 
 |**データ型**|**例**|**メモ**|
 |:-----|:-----|:-----|

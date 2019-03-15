@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: についてはアドオンのライセンスに関する機能を各ライセンス、それらをお使いの製品の購入方法と、既存のキャリアを使用する方法と表示されます。 Office 365 では、通信のクレジットの価格設定と計画の詳細についての情報を入手でき、通話プランします。
-ms.openlocfilehash: 5912ac5cf79f0db7aaf02fa4d8425d3da80a99bb
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 8b3e68fe89f2a7f07f5f117d60c2a74327a891ca
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543080"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633227"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft Teams アドオン ライセンス
 
@@ -38,7 +38,7 @@ ms.locfileid: "30543080"
 
 多くのビジネスにとって、企業プランのソフトウェアのバンドルを購入すると、総体的にコスト削減が実現できます。 通常、計画の一部として個別の代わりにいくつかのアドオン ・ ライセンスを購入するときになる場合結合のコストが高い。
 
-コストの詳細については、 [価格を表示し、アドオンのライセンスを購入する方法](microsoft-teams-add-on-licensing.md#bkmk_how) や、次のいずれかを参照してください。
+コストの詳細については、次のいずれかを参照してください。
 
 - [電話会議の料金](https://products.office.com/microsoft-teams/online-meeting-solutions)
 
@@ -63,13 +63,13 @@ ms.locfileid: "30543080"
 
 使用できる、アドオン ライセンス オプションは、Office 365 のプランによって異なります。 プランに特有の情報、機能、およびオプションは、次のトピックを参照してください。
 
-- [Office 365 ビジネス プレミアム](office-365-business-premium.md)
-- [Office 365 用リソース](office-365-premium-pro-plus.md)
+- [Office 365 Business Premium](office-365-business-premium.md)
+- [Office 365 ProPlus](office-365-premium-pro-plus.md)
 - [Office 365 エンタープライズ E1 または E3](office-365-enterprise-e1-e3.md)
 - [Office 365 Enterprise E5](office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Enterprise E5 (電話会議なし)](office-365-enterprise-e5-without-audio-conferencing.md)
 - [Skype Room Systems v2](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
-- [GOV、EDU、および非営利団体](gov-edu-and-nonprofit-organizations.md)
+- [政府機関、教育機関、非営利団体](gov-edu-and-nonprofit-organizations.md)
 
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>価格の確認とアドオン ライセンスの購入方法
 <a name="bkmk_how"> </a>
@@ -95,7 +95,7 @@ If you want to use your existing Calling Plan, buy the **Phone System** add-on a
 
 - [チームを設定します](../microsoft-teams.md)
     
-- [電話システム ボイスメールのセットアップ - 管理者ヘルプ](../set-up-phone-system-voicemail.md)
+- [電話システムのボイスメールをセットアップする - 管理のヘルプ](../set-up-phone-system-voicemail.md)
     
 - [Office 365 のプランを呼び出す](../calling-plans-for-office-365.md)と、[プランの呼び出しを設定します](../set-up-calling-plans.md)
     

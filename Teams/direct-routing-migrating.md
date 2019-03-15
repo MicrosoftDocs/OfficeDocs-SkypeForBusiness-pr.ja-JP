@@ -1,5 +1,5 @@
 ---
-title: ダイレクト ルーティングへの移行
+title: ダイレクト ルーティングに移行する
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +13,14 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: 移行する直接ルーティングでは、Skype のオンライン ビジネスとチームの構成の分析観点の必要なものについて説明します。
-ms.openlocfilehash: 100999483aa3246807008c2e8c60fc6d3ed5baa9
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: ff70af11783fb184fc3599fdb6d5fc13c15478a7
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353115"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569927"
 ---
-# <a name="migrating-to-direct-routing"></a>ダイレクト ルーティングへの移行
+# <a name="migrate-to-direct-routing"></a>ダイレクト ルーティングに移行する
 
 この資料では、直接ルーティングするのには、Skype のオンライン ビジネスおよびマイクロソフトのチーム構成の観点からの移行に必要なものについて説明します。 この資料では、次からの移行について説明します。 
  
@@ -35,17 +35,17 @@ ms.locfileid: "30353115"
 
 次の表は、ユーザーが Office 365 の電話システムで選択した PSTN 接続オプションを提供する最終状態を示しています。 ボイスに関連する属性のみが表示されます。
 
-|ユーザー オブジェクトの属性 |通話プランが設定された電話システム|システム設置の Skype 経由で PSTN への接続の電話ビジネス サーバー|オンプレミスとクラウドのコネクタ経由で PSTN への接続システムを電話します。|システム設置に直接ルーティングを使用して PSTN への接続に電話します。|
+|ユーザー オブジェクトの属性 |通話プランと電話システム|システム設置の Skype 経由で PSTN への接続の電話ビジネス サーバー|オンプレミスとクラウドのコネクタ経由で PSTN への接続システムを電話します。|システム設置に直接ルーティングを使用して PSTN への接続に電話します。|
 |---|---|---|---|---|
 |クライアント|Skype ビジネスまたはチームの |Skype for Business |Skype for Business |Teams|
 |ライセンス|Skype ビジネス オンライン</br>2 を計画します。</br></br>MCOProfessional または MCOSTANDARD)</br></br></br>電話システム (MCOEV)</br></br></br>通話プラン</br>Teams|Skype ビジネス オンライン プラン 2 MCOProfessional (MCOSTANDARD)</br></br></br>電話システム (MCOEV)|Skype ビジネス オンライン プラン 2 MCOProfessional (MCOSTANDARD)</br></br></br>電話システム (MCOEV)|Skype ビジネス オンライン プラン 2 (MCOProfessional または MCOSTANDARD</br></br></br>電話システム (MCOEV)</br></br>Teams|
-OnPremLineURI |該当なし|施設内の電話番号を同期する必要があります AD。 |Azure Active directory またはオンプレミスの Active Directory では、電話番号を管理できます。|Azure Active directory またはオンプレミスの Active Directory では、電話番号を管理できます。 ただし、組織のビジネスの Skype を設置の場合、数は、オンプレミスの Active Directory から同期する必要があります。|
+OnPremLineURI |N/A|施設内の電話番号を同期する必要があります AD。 |Azure Active directory またはオンプレミスの Active Directory では、電話番号を管理できます。|Azure Active directory またはオンプレミスの Active Directory では、電話番号を管理できます。 ただし、組織のビジネスの Skype を設置の場合、数は、オンプレミスの Active Directory から同期する必要があります。|
 |LineURI|PSTN の呼び出しの電話番号|OnPremLineURI パラメーターから自動的に設定します。|OnPremLineURI パラメーターから自動的に設定します。|OnPremLineURI パラメーターから自動的に設定します。|
 |EnterpriseVoiceEnabled|True|True|True|True|
 |HostedVoiceMail |True|True|True|True|
 |VoicePolicy|BusinessVoice|HybridVoice|HybridVoice|HybridVoice|
 |HostedVoiceMailPolicy |BusinessVoice|BusinessVoice|BusinessVoice|BusinessVoice|
-|VoiceRoutingPolicy|値を持つ|値を持つ|値を持つ|該当なし|
+|VoiceRoutingPolicy|値を持つ|値を持つ|値を持つ|N/A|
 |OnlineVoiceRoutingPolicy|$Null|$Null|$Null|値を持つ|
 |TeamsUpgradePolicy<sup>1</sup>|TeamsOnly、SfBOnly または諸島|$Null|$Null|諸島または TeamsOnly|
 |TeamsInterPolicy<sup>2</sup></br>CallingDefaultClient – は、以下の注を参照してください。|チームまたはデバイス |デバイス|デバイス|Teams|

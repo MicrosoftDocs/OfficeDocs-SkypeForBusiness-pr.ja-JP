@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: a20ec223-e20d-4744-abfa-ab1d1127082a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されますフリー ダイヤル番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: 0580cc1bc801c548232731faa6f5b053db10de52
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 657e3f1cfcdd646ad3032c2619718c65315e4f0d
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460821"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569228"
 ---
 # <a name="toll-free-dialing-restrictions-in-thailand"></a>タイでのフリーダイヤル制限
 
@@ -37,18 +37,18 @@ ms.locfileid: "30460821"
 
 |**詳細**|**説明**|
 |:-----|:-----|
-|呼び出し、利用可能なフリー ダイヤルですか。  <br/> |あり  <br/> |
+|呼び出し、利用可能なフリー ダイヤルですか。  <br/> |はい  <br/> |
 |ダイヤル形式  <br/> | 001 800 XXX XXX XXXX <br/>  1-800-XXX-XXX <br/> |
-|国/地域の ISO コード  <br/> |TH  <br/> |
+|国/地域の ISO コード  <br/> |番目  <br/> |
 |対象となる島/地域  <br/> |該当しない  <br/> |
 |対象外の島/地域  <br/> |該当しない  <br/> |
 |有線/固定回線の状態  <br/> |あり  <br/> |
-|携帯電話ネットワークの状態  <br/> |○ コメント参照。  <br/> |
-|コメント、制限、アクセスの問題など  <br/> |携帯電話アクセス: ローミング ユーザー以外は通話時間が課金されない。ローミング ユーザーはローカル通話時間として課金される。携帯電話アクセスの場合: すべての携帯電話ネットワークからアクセス可能。  <br/> |
+|携帯電話ネットワークの状態  <br/> |はい。 コメント参照。  <br/> |
+|コメント、制限、アクセスの問題など  <br/> |モバイル アクセス: ローカル放送として請求されます roamers を除いて放送が請求されていません。 モバイル アクセス用: すべてのモバイル ネットワークからアクセスできるようにします。  <br/> |
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
-[フリー ダイヤルの制限事項と制限事項](../toll-free-dialing-limitations-and-restrictions.md)
+[無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

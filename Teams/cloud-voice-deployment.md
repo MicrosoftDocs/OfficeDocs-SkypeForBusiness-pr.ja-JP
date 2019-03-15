@@ -4,23 +4,23 @@ author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 08/21/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: MyAdvisor
-description: Microsoft Teams での Cloud Voice の機能の展開についての実践的なガイダンス
+description: 展開するための実用的なガイドでは、マイクロソフトのチームでの音声機能をクラウドです。
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e6d8057fa2cba1f14ed00eebebdb522144eb283d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 953c971c39bde9d112619fcaee145008c378f1a3
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458917"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568441"
 ---
 # <a name="cloud-voice-deployment"></a>Cloud Voice の展開
 
@@ -44,7 +44,7 @@ Office 365 の電話会議では、参加者はどの電話端末からでも Te
 
 ## <a name="phone-system-with-calling-plans-calling-plans-in-microsoft-teams"></a>通話の電話システムは、マイクロソフトのチームで (「通話プラン」) を計画
 
-電話システムは通話のルーティング、ポリシー、ユーザー プロビジョニングを管理するための Office 365 の機能です。 この機能には、通話管理システム、通話のルーティング、通話コントロールが含まれます。
+電話システムは、通話のルーティング、ポリシー、およびユーザー プロビジョニングを管理する機能を提供する Office 365 の機能です。 これには、管理システム、通話のルーティング、およびコントロールの呼び出しを呼び出す電話が含まれます。
 
 通話プランは、オンライン ビジネスのチームと Skype 経由で配信、電話システムの機能のアドオン サービスです。 通話プランには、マイクロソフトのチームで作業するのにはビジネス オンラインの Skype で該当するユーザーが所属することが必要です。 通話プランを提供、お客様のビジネスの基本の電話番号と、行い、PSTN 上で、組織外の電話を受信することができます。
 
@@ -64,7 +64,7 @@ Office 365 fasttrack というお客様の旅のフレームワークを使用�
 > [!div class="mx-tableFixed"]
 > |構想  |参加  |価値の創出  |
 > |---------|---------|---------|
-> |[自分の成功を定義します。](1-envision-define-my-success-cloud-voice.md) <br> 意思決定、サービス <br>&nbsp;&nbsp;[オーディオ会議](2-envision-make-my-service-decisions-audio-conferencing.md)、<br>&nbsp;&nbsp;[計画を呼び出す](2-envision-make-my-service-decisions-phone-system.md)か、または[直接ルーティング](2-envision-make-my-service-decisions-direct-routing.md) <br> [自分の環境を評価します。](3-envision-evaluate-my-environment.md) <br> [[サービスの管理を計画します。](4-envision-plan-my-service-management.md) <br> [自分のユーザー エクスペリエンスを計画します。](5-envision-plan-my-users-experience.md) <br> [成功計画を文書化します。](6-envision-document-my-success-plan.md)    | [サービスを準備します。](1-onboard-prepare-my-service.md) <br> [自分のユーザーを準備します。](2-onboard-prepare-my-users.md) <br> [サービスを展開します。](3-onboard-deploy-my-service.md)  <br> <br> <br> <br>     | [自分のサービスを実施します。](1-drive-value-operate-my-service.md) <br> [サービスを強化します。](2-drive-value-enhance-my-service.md) <br> <br> <br> <br> <br>      |
+> |[成功を定義する](1-envision-define-my-success-cloud-voice.md) <br> 意思決定、サービス <br>&nbsp;&nbsp;[オーディオ会議](2-envision-make-my-service-decisions-audio-conferencing.md)、<br>&nbsp;&nbsp;[計画を呼び出す](2-envision-make-my-service-decisions-phone-system.md)か、または[直接ルーティング](2-envision-make-my-service-decisions-direct-routing.md) <br> [環境を評価する](3-envision-evaluate-my-environment.md) <br> [サービス管理を計画する](4-envision-plan-my-service-management.md) <br> [自分のユーザー エクスペリエンスを計画します。](5-envision-plan-my-users-experience.md) <br> [成功計画を文書化する](6-envision-document-my-success-plan.md)    | [サービスを準備する](1-onboard-prepare-my-service.md) <br> [ユーザーを準備する](2-onboard-prepare-my-users.md) <br> [サービスを展開する](3-onboard-deploy-my-service.md)  <br> <br> <br> <br>     | [サービスを運用する](1-drive-value-operate-my-service.md) <br> [サービスを強化する](2-drive-value-enhance-my-service.md) <br> <br> <br> <br> <br>      |
 
 内容は、順序付けられた方法で表示され、開始から終了まで、エンド ・ ツー ・ エンド展開の旅を見てするよう設計されています。 既に積極的に導入している場合もお勧め適切なコンテンツ領域を参照することです。
 

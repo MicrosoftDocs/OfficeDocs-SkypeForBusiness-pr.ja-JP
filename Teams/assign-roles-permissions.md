@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 08/27/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dansteve
 search.appverid: MET150
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4887cb129242473da46a611c4f873e79384e5e32
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 0c7343f294f18d5aaacf01059459524cdd2700a2
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460341"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569959"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Microsoft Teams でチーム所有者とメンバーを割り当てる
 =================================================
@@ -42,7 +42,8 @@ ms.locfileid: "30460341"
 |          **チャネルの追加**          |    はい     |    <sup>2</sup>を [はい] します。|
 | **チャネル名/説明の編集** |    はい     |    <sup>2</sup>を [はい] します。|
 |        **チャネルの削除**         |    はい     |    <sup>2</sup>を [はい] します。|
-|          **メンバーの追加**          |  <sup>3</sup>を [はい] します。   |     いいえ      |
+|          **メンバーの追加**          |  <sup>3</sup>を [はい] します。   |     ない<sup>4</sup>    |
+|          **メンバーを追加する要求**          |  N/A   |     <sup>5</sup>を [はい] します。     |
 |           **タブの追加**            |    はい     |    <sup>2</sup>を [はい] します。|
 |        **コネクタの追加**         |    はい     |    <sup>2</sup>を [はい] します。|
 |           **ボットの追加**            |    はい     |    <sup>2</sup>を [はい] します。|
@@ -52,6 +53,10 @@ ms.locfileid: "30460341"
 <sup>2</sup>これらの項目がオフにするチーム レベルでは、所有者によって場合、メンバーにはアクセスすることはありません。
 
 <sup>3</sup>メンバーをチームに追加すると、所有者昇格させることも、メンバーは、所有者のステータスをします。 メンバーに自分のステータスを降格させるのには、所有者のこともできます。
+
+<sup>4</sup>チームのメンバーは、パブリックのチームに他のメンバーを追加できます。
+
+<sup>5</sup>チームのメンバーは、プライベート チームにメンバーを追加することはできません直接、ことができますを要求する他のユーザーがすでに認識しているメンバーのチームに追加します。 メンバー要求すると、他のチームに追加するチームの所有者は、保留中の要求を承認または拒否することがあるアラートを受信します。
 
 
 

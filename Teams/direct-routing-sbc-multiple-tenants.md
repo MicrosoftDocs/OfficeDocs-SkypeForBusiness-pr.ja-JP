@@ -1,5 +1,5 @@
 ---
-title: 複数のテナントについてセッション ボーダー コントローラーを構成する
+title: 複数のテナントにセッション ボーダー コントローラーを構成する
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +13,14 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: 複数のテナントを処理する 1 つのセッション ボーダー コント ローラー (SBC) を構成する方法について説明します。
-ms.openlocfilehash: 438bfbc487f7723c63afc7b7c304e832bf7d49a2
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 166093a628eb7a048c1959554514f74bcb1b0677
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353571"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569704"
 ---
-# <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントについてセッション ボーダー コントローラーを構成する
+# <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントにセッション ボーダー コントローラーを構成する
 
 直接ルーティングでは、構成する 1 つセッション ボーダー コント ローラー (SBC) 複数のテナントを処理するをサポートします。
 
@@ -208,6 +208,14 @@ SBC には、接続の認証に証明書が必要です。 キャリアは SBC �
 ```
 New-CSOnlinePSTNGateway –FQDN sbc1.customers.adatum.biz -SipSignallingPort 5068
 ```
+
+樹幹を作成するには、次のエラー メッセージが表示される場合があります。
+
+```
+Can not use the "sbc1.customers.adatum.biz" domain as it was not configured for this tenant.
+```
+
+ドメインの登録と複製し、もう一度ライセンス認証できるようしてください。
 
 電話番号を持つユーザーをプロビジョニングし、音声のルーティングを構成します。
 

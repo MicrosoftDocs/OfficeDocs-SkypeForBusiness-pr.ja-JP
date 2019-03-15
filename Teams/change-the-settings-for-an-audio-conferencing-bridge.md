@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.audioconferencing.bridgesettings
 ms.custom:
 - Audio Conferencing
 description: '呼び出し元のメッセージを表示し、ビジネスまたはマイクロソフトのチームのアプリケーションの Skype を使用していないことと、名前と会議の開催者のピンを収集するために使用する会議用ブリッジの設定を変更する必要があります手順を取得します。 '
-ms.openlocfilehash: 04ad6cfe3de9b4549db6382fe790b7fb8c644fc7
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 2f3f08254409086ee99b3c5f60d243f893fff4e6
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494198"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633234"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>電話会議ブリッジの設定を変更する
 
@@ -63,7 +63,7 @@ Office 365 に電話会議を設定する場合、オーディオ会議ブリッ
 5. ユーザーに電子メールを送信するかどうかを指定するには、有効または **、オーディオ会議の構成が変更された場合、ユーザーに e メールを自動的に送信**を無効にします。
     詳細については、[マイクロソフトのチームで、オーディオ会議の設定を変更する場合にユーザーに自動的に電子メールの送信](emails-sent-to-users-when-their-settings-change-in-teams.md)または[Skype のオンライン ビジネスでの設定を変更するときにユーザーに送信された電子メール](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change)を参照してください。
  
-6. [**保存**] をクリックします。 
+6. **[保存]** をクリックします。 
 
 
 ## <a name="sfb-logo-30x30pngmediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![sfb-logo-30x30.png](media/sfb-logo-30x30.png)  Skype for Business 管理センターを使用する
@@ -74,7 +74,7 @@ Office 365 に電話会議を設定する場合、オーディオ会議ブリッ
     
 2. **Microsoft ブリッジの設定**ページで、[**会議参加の経験**をするには、次のコマンドを選択します。
     
-   - **Enable meeting entry and exit notifications to be turned on** This is selected by default. チェック ボックスをオフにするとデータを入力したり、会議を離れると、会議に参加しているユーザーが通知はありません。
+   - **会議エントリを有効にして終了の通知をオンにする**これがデフォルトで選択されます。 チェック ボックスをオフにするとデータを入力したり、会議を離れると、会議に参加しているユーザーが通知はありません。
     
    - **会議エントリを有効にして終了の通知をオンにする**を選択すると、**開始/終了のお知らせの種類**] ボックスの一覧からこれらのオプションを選択します。
     
@@ -82,7 +82,7 @@ Office 365 に電話会議を設定する場合、オーディオ会議ブリッ
     
    - **トーン**ユーザーが会議にダイヤルインするときは、それに参加するときに、オーディオの音が再生されます。
   
-   - **会議の PIN の長さを設定する** チェック ボックスをオフにした場合は、会議に参加する前に自分の名前を記録する呼び出し元を求められますされません。
+   - **ミーティングに参加する前に自分の名前を記録する呼び出し元を確認**これがデフォルトで選択されます。 チェック ボックスをオフにした場合は、会議に参加する前に自分の名前を記録する呼び出し元を求められますされません。
     
 3. Sign in to Office 365 with your work or school account.****
     
@@ -97,7 +97,7 @@ Office 365 に電話会議を設定する場合、オーディオ会議ブリッ
 4. **Microsoft ブリッジの設定**] ページの [**セキュリティ**] の下に**暗証番号 (pin) の長さ**] ボックスの一覧で、[暗証番号 (pin) に使用桁の番号を入力し、し、[**保存**] をクリックします。
     
     > [!IMPORTANT]
-    > The default is 5. 
+    > 暗証番号 (pin) は、4 桁から 12 桁の間である必要があります。 
   
 **ユーザーに電子メールを送信するかどうかを選択します。**
   
@@ -134,4 +134,6 @@ Office 365 に電話会議を設定する場合、オーディオ会議ブリッ
   
 ## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
 
-[電話会議のセットアップ](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+[マイクロソフト チームの電話会議を設定します](set-up-audio-conferencing-in-teams.md)
+
+[オンライン ビジネスの Skype の電話会議を設定します。](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)

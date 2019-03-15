@@ -1,10 +1,10 @@
 ---
-title: 電話システムの直接のルーティング
+title: 電話システムのダイレクト ルーティング
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.date: 01/28/2019
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
@@ -14,40 +14,38 @@ search.appverid: MET150
 F1keywords: ms.teamsadmincenter.directrouting.overview
 description: 直接ルーティングのランディング ・ ページ
 appliesto: Microsoft Teams
-ms.openlocfilehash: b8f7840b981b67f941598638b2624de0cd512b8c
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 5710ddd2c3715f0cfd1e4b1ca5b45058c9741e18
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494062"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569863"
 ---
-# <a name="phone-system-direct-routing"></a>電話システムの直接のルーティング
+# <a name="phone-system-direct-routing"></a>電話システムのダイレクト ルーティング
 
 [使用開始](get-started-with-teams-quick-start.md)の手順は完了しています。 Teams の[チャット、チーム、チャネル、およびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)を組織全体に展開しました。 かもしれません[& 会議の会議](deploy-meetings-microsoft-teams-landing-page.md)を導入しました。 クラウド音声のワークロードを追加する準備が整いましたし、公衆交換電話網 (PSTN) 接続の電話システムの直接のルーティングを使用してテレフォニーのキャリアを使用すると判断しました。 直接ルーティングでは、ほぼすべてのテレフォニーのキャリアで電話システムを使用できます。
 
-この資料を構成すること、組織のニーズに基づいて直接ルーティングの場合と同様に考慮すべき事項の中核となる配置の決定について説明します。  マイクロソフトのクラウドの音声サービスの詳細については[マイクロソフトのチームでのクラウドの音声](cloud-voice-landing-page.md)を参照することもあります。
+この資料では、することも考えて、組織のニーズに基づいて直接ルーティングの場合と同様に考慮すべき事項の中核となる配置の決定について説明します。 マイクロソフトのクラウドの音声サービスの詳細については[マイクロソフトのチームでのクラウドの音声](cloud-voice-landing-page.md)を参照することもあります。
 
 ## <a name="learn-more-about-direct-routing"></a>直接ルーティングの詳細については
-
 
 次の資料を構成して、電話システムの直接のルーティングを使用の詳細を提供します。 直接ルーティングを構成するには、PSTN のルーティングの設計を理解する必要があります。 すべて計画し、直接ルーティングを構成する方法を理解するのにはこれらの記事の内容を読み取る必要があります。
 
 - [ダイレクト ルーティングを計画する](direct-routing-plan.md) 
-- [直接ルーティングを構成する](direct-routing-configure.md)
+- [ダイレクト ルーティングを構成する](direct-routing-configure.md)
 - [ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト](direct-routing-border-controllers.md)
-- [監視し、直接ルーティングのトラブルシューティングを行う](direct-routing-monitor-and-troubleshoot.md)
+- [ダイレクト ルーティングの監視とトラブルシューティング](direct-routing-monitor-and-troubleshoot.md)
 
 さらに、お客様の要件に応じて次の記事を参照することもできます。
 
--  [複数のテナントについてセッション ボーダー コントローラーを構成する](direct-routing-sbc-multiple-tenants.md)
--  [直接ルーティングへの移行します。](direct-routing-migrating.md)
+-  [複数のテナントにセッション ボーダー コントローラーを構成する](direct-routing-sbc-multiple-tenants.md)
+-  [ダイレクト ルーティングに移行する](direct-routing-migrating.md)
 -  [PSTN 接続を使用するハイブリッド環境でのユーザー アカウント](direct-routing-user-accounts-in-a-hybrid-environment.md)
 - 直接ルーティングの詳細については、次のセッションを監視する:[マイクロソフトのチームに直接ルーティング](https://aka.ms/teams-direct-routing)
 
 ## <a name="core-deployment-decisions"></a>展開に関する重要な決定事項
 
 これらは、直接ルーティングについて検討すべき主要な意思決定です。 
-
 
 |確認事項|アクション |
 | :------------|:-------|

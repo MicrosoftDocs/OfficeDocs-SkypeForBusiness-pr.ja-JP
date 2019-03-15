@@ -4,23 +4,23 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 12/28/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: 会議、ライセンスと可用性については、会議ブリッジの設定を構成する、取得または電話番号を転送し、テナントを選択するダイヤル プランです。
+description: 会議、ライセンスについて説明し、可用性、会議ブリッジ設定の構成、電話番号を取得するか、転送、および選択のテナントのダイヤル プラン。
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8b98aa7a601466826d95ddb2413e702f94f4877
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 9b6bd854de7af09ebea6b66a6393beb751f11770
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459149"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569999"
 ---
 # <a name="make-my-service-decisions"></a>[サービスの決定を行う
 
@@ -68,8 +68,8 @@ ms.locfileid: "30459149"
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>電話会議サービスを実装するユーザーの場所またはオフィスを決定します。</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|次の手順|<ul><li>電話会議サービスを有効にするユーザーの場所とオフィスを文書化します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断のポイント|<ul><li>オーディオ会議サービスが実装するユーザーの場所やオフィスを決定します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>ユーザーの所在地、またはオーディオ会議サービスを有効にするオフィスを文書化します。</li></ul>|
 
 > [!TIP]
 > オーディオ会議サイト対応のリスト テンプレートの例を以下に示します。
@@ -105,8 +105,8 @@ ms.locfileid: "30459149"
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>組織では、ライセンス、必要なオーディオ会議を既に購入していない場合、によって既存の Office 365 サブスクリプションをステップ実行、またはオーディオ会議アドオン ・ ライセンスを入手することで、オーディオ会議のライセンスを習得していただくことがあるかどうかを決定します。</li><li>通信のクレジットは、電話会議を実装するために必要かどうかを決定します。 必要な場合は、初回購入金額を決定します。 該当する場合は、リチャージを実行する金額と自動リチャージする金額を決定します。</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|次の手順|<ul><li>オーディオ会議のライセンスを割り当てられるユーザーを文書化します。</li><li>(初期金額、トリガーの量、自動リチャージ金額) は、通信のクレジット計画を文書化します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断のポイント|<ul><li>組織では、ライセンス、必要なオーディオ会議を既に購入していない場合、によって既存の Office 365 サブスクリプションをステップ実行、またはオーディオ会議アドオン ・ ライセンスを入手することで、オーディオ会議のライセンスを習得していただくことがあるかどうかを決定します。</li><li>通信のクレジットは、電話会議を実装するために必要かどうかを決定します。 必要な場合は、初回購入金額を決定します。 該当する場合は、リチャージを実行する金額と自動リチャージする金額を決定します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>オーディオ会議のライセンスを割り当てられるユーザーを文書化します。</li><li>(初期金額、トリガーの量、自動リチャージ金額) は、通信のクレジット計画を文書化します。</li></ul>|
 
 > [!TIP]
 > 次の例を使用してオーディオ会議のユーザーのライセンスの割り当ての一覧を文書化できます。
@@ -161,11 +161,11 @@ Office 365 の電話会議サービスには次が含まれます。
 
 会議ブリッジの電話番号の詳細については、以下の資料を確認してください。
 
--   [Skype for Business および Microsoft Teams の電話会議のセットアップ](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+-   [マイクロソフト チームの電話会議を設定します](set-up-audio-conferencing-in-teams.md)
 
 -   [電話会議の電話番号](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
 
--   [サービスの電話番号の取得](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+-   [サービス電話番号を取得する](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 -   [Office 365 に電話番号を転送する](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
@@ -173,8 +173,8 @@ Office 365 の電話会議サービスには次が含まれます。
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>専用会議ブリッジの電話番号が組織に必要があるかどうかを決定します。</li><li>ユーザーの所在地、またはオフィスの専用会議ブリッジの電話番号を取得する方法を決定する (つまりは、マイクロソフトまたは転送の既存の電話番号から取得) オーディオ会議の実装の範囲内です。</li><li>マイクロソフトから入手する方法を選択する場合に使用する方法を決定 (フォーム送信または自動) のユーザーの場所やオフィスの範囲内のオーディオ会議の実装。</li><li>各専用ブリッジ電話会議の番号を設定する言語を決定します。</li><li>テナント既定会議ブリッジの電話番号を決定します。</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|次の手順|<ul><li>各ユーザーの場所や電話会議の実装のスコープ内のオフィスの電話番号を取得する方法の詳細を示す電話番号の取得のマスター プランを文書化します。</li><li>該当する場合、新しい電話番号を要求フォームを完了する、場所やオフィスごとに 1 つのフォームです。</li><li>詳細な会議ブリッジ電話番号の構成 (共有、専用の会議ブリッジの電話番号、各専用ブリッジ電話会議の番号、テナント既定会議ブリッジの電話番号の優先言語の設定) を文書化します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断のポイント|<ul><li>専用会議ブリッジの電話番号が組織に必要があるかどうかを決定します。</li><li>ユーザーの所在地、またはオフィスの専用会議ブリッジの電話番号を取得する方法を決定する (つまりは、マイクロソフトまたは転送の既存の電話番号から取得) オーディオ会議の実装の範囲内です。</li><li>マイクロソフトから入手する方法を選択する場合に使用する方法を決定 (フォーム送信または自動) のユーザーの場所やオフィスの範囲内のオーディオ会議の実装。</li><li>各専用ブリッジ電話会議の番号を設定する言語を決定します。</li><li>テナント既定会議ブリッジの電話番号を決定します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>各ユーザーの場所や電話会議の実装のスコープ内のオフィスの電話番号を取得する方法の詳細を示す電話番号の取得のマスター プランを文書化します。</li><li>該当する場合、新しい電話番号を要求フォームを完了する、場所やオフィスごとに 1 つのフォームです。</li><li>詳細な会議ブリッジ電話番号の構成 (共有、専用の会議ブリッジの電話番号、各専用ブリッジ電話会議の番号、テナント既定会議ブリッジの電話番号の優先言語の設定) を文書化します。</li></ul>|
 
 会議ブリッジの詳細情報をキャプチャすることができますを使用するテンプレートの例を次に示します。
 
@@ -217,7 +217,7 @@ Office 365 の電話会議サービスには次が含まれます。
 フリー ダイヤル会議ブリッジの電話番号の使用を制御し、会議からダイヤルアウトするには、各ユーザーの追加の構成を適用することもできます。
 
 > [!NOTE]
-> 現時点では、料金に関連するこれらの制御はプレビュー カスタマーのみが利用できます。 プレビュー プログラムに組織を登録することができますhttps://www.skypepreview.com。
+> これらのコストに関連するコントロールは、プレビューのお客様のみに使用します。 プレビュー プログラムに組織を登録することができますhttps://www.skypepreview.com。
 
 これらのコントロールでは、ミーティングの開催者が、それらが開催する会議の無料電話会議ブリッジの電話番号を提供するかどうかと、参加者が会議の主催者から発信かどうかを決定できます。 ダイアル アウト制御のレベルにまたがるからのみ、国内および海外の番号にダイヤルアウトを許可するのには、国内の番号にダイヤルアウトを許可する、ダイヤルを完全に防止します。
 
@@ -225,38 +225,38 @@ Office 365 の電話会議サービスには次が含まれます。
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>組織に、開始と終了の通知が必要かどうかを決定して -存在する場合は-を実装する通知の種類 (音、電話番号、または記録されている名前)。</li><li>組織のセキュリティ要件を満たすオーディオ会議の暗証番号 (pin) の長さを決定します。</li><li>組織がオーディオ会議サービスに関連するユーザーの通信を制御するかどうかを決定します。</li><li>会議ブリッジ電話番号を各会議の開催者に割り当てるかどうかを決定します。</li><li>無料電話会議ブリッジの電話番号を使用して、その会議にミーティング開催者が必要かどうかを決定します。</li><li>会議開催者が会議を開始するのには認証されていない呼び出し元を許可する必要があるかどうかを決定します。</li><li>いくつかの会議の開催者が会議のダイヤル ・ アウトを制御する必要があるかどうかを決定します。</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|次の手順|<ul><li>詳細な会議ブリッジ設定 (参加および退出の通知、PIN 長さ、構成変更メール通知) を文書化します。</li><li>各会議の開催者と、認証されていない呼び出し元のポリシーを制御するための対応する設定に割り当てられているし、フリー ダイヤル会議ブリッジの電話番号を文書化し、コントロールをダイヤルします。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断のポイント|<ul><li>組織に、開始と終了の通知が必要かどうかを決定して -存在する場合は-を実装する通知の種類 (音、電話番号、または記録されている名前)。</li><li>組織のセキュリティ要件を満たすオーディオ会議の暗証番号 (pin) の長さを決定します。</li><li>組織がオーディオ会議サービスに関連するユーザーの通信を制御するかどうかを決定します。</li><li>各会議の開催者に割り当てられる会議ブリッジの電話番号を決定します。</li><li>無料電話会議ブリッジの電話番号を使用して、その会議にミーティング開催者が必要かどうかを決定します。</li><li>会議開催者が会議を開始するのには認証されていない呼び出し元を許可する必要があるかどうかを決定します。</li><li>いくつかの会議の開催者が会議のダイヤル ・ アウトを制御する必要があるかどうかを決定します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>(開始と終了の通知、暗証番号 (pin) の長さ、電子メールの構成変更通知) は、詳細な会議ブリッジの設定を文書化します。</li><li>各会議の開催者と、認証されていない呼び出し元のポリシーを制御するための対応する設定に割り当てられているし、フリー ダイヤル会議ブリッジの電話番号を文書化し、コントロールをダイヤルします。</li></ul>|
 
 > [!TIP]
 > 次の例のように、会議ブリッジの設定を文書化することができます。
 > 
 > |         |         |
 > |---------|---------|
-> |会議の参加および退出の通知を有効にする|有効|
-> |参加/退出のアナウンスのタイプ|効果音|
-> |会議に参加する前に名前を記録するように発信者に求める|無効|
-> |PIN の長さ|5|
-> |ユーザーのダイヤルイン設定の変更時にそのユーザーに自動的にメールを送信する|無効|
+> |会議エントリを有効にして、通知を終了します。|有効|
+> |開始/終了のお知らせの種類|トーン|
+> |ミーティングに参加する前に自分の名前を記録するための呼び出し元に問い合わせてください。|無効|
+> |暗証番号 (pin) の長さ|5|
+> |ダイヤルインの設定を変更する場合は、ユーザーに e メールを自動的に送信します。|無効|
 
 <br>
 
 > [!TIP]
 > 次の例を使用してオーディオ会議のユーザーに対して会議ブリッジの設定の割り当ての一覧を文書化できます。
 >
-> |ユーザー  |オフィス  |既定の有料電話番号  |既定の無料電話番号  |無料電話を許可する  |未認証の発信者のバイパス ロビー  |会議ダイヤルアウト  |
+> |ユーザー  |オフィス  |既定の有料電話番号  |既定のフリー ダイヤル番号  |フリー ダイヤルを許可します。  |認証されていない呼び出し元はロビーをバイパスします。  |ダイヤルアウト会議  |
 > |---------|---------|---------|---------|---------|---------|---------|
-> |Adele Vance|One Epping Road|TBA|TBA|はい|有効|国際および国内|
-> |Alex Wilber|One Epping Road|TBA|TBA|いいえ|無効|許可されていない|
-> |Ben Walters|One Epping Road|TBA|TBA|いいえ|無効|許可されていない|
+> |Adele Vance|One Epping Road|TBA|TBA|はい|有効|国際法および国内|
+> |Alex Wilber|One Epping Road|TBA|TBA|いいえ|無効|許可されていません|
+> |Ben Walters|One Epping Road|TBA|TBA|いいえ|無効|許可されていません|
 > |Christie Cline|One Marina Boulevard|TBA|TBA|はい|無効|国内|
 > |Debra Berger|One Marina Boulevard|TBA|TBA|はい|有効|国内|
 > |Lee Gu|One Marina Boulevard|TBA|TBA|はい|有効|国内|
-> |Emily Braun|32 London Bridge Street|+44 20 7946 0001|TBA|はい|有効|許可されていない|
-> |Lidia Holloway|32 London Bridge Street|+44 20 7946 0001|TBA|はい|無効|許可されていない|
-> |ルイ Lahr|32 London Bridge Street|+44 20 7946 0001|TBA|はい|無効|許可されていない|
+> |Emily Braun|32 London Bridge Street|+44 20 7946 0001|TBA|はい|有効|許可されていません|
+> |Lidia Holloway|32 London Bridge Street|+44 20 7946 0001|TBA|はい|無効|許可されていません|
+> |ルイ Lahr|32 London Bridge Street|+44 20 7946 0001|TBA|はい|無効|許可されていません|
 > |Marcel Beauchamp|39 quai du Président Roosevelt|TBA|TBA|いいえ|無効|国内|
-> |Rachelle Cormier|39 quai du Président Roosevelt|TBA|TBA|はい|有効|国際および国内|
+> |Rachelle Cormier|39 quai du Président Roosevelt|TBA|TBA|はい|有効|国際法および国内|
 > |Isabell Potvin|39 quai du Président Roosevelt|TBA|TBA|いいえ|無効|国内|
 
 <!--ENDOFSECTION-->
@@ -287,8 +287,8 @@ Office 365 の電話会議サービスには次が含まれます。
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>ユーザーの場所やオフィスがマイクロソフトから新しい電話番号を取得する場所を決定します。</li><li>Microsoft から取得する電話番号の種類を決定します。</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|次の手順|<ul><li>ユーザーの所在地、またはマイクロソフトから新しい電話番号を取得する場所のオフィスを文書化します。</li><li>Microsoft から取得する電話番号の種類を文書化します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断のポイント|<ul><li>ユーザーの場所やオフィスがマイクロソフトから新しい電話番号を取得する場所を決定します。</li><li>Microsoft から取得する電話番号の種類を決定します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>ユーザーの所在地、またはマイクロソフトから新しい電話番号を取得する場所のオフィスを文書化します。</li><li>Microsoft から取得する電話番号の種類を文書化します。</li></ul>|
 
 ## <a name="transfer-existing-telephone-numbers"></a>既存の電話番号を転送します。
 
@@ -310,8 +310,8 @@ Office 365 の電話会議サービスには次が含まれます。
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>ユーザーの所在地、またはオフィスの既存の電話番号をマイクロソフトに転送されますを決定します。</li><li>マイクロソフトに転送する電話番号の種類を決定します。</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|次の手順|<ul><li>文書化するには、ユーザーの所在地、またはオフィスの既存の電話番号をマイクロソフトに転送されます。</li><li>マイクロソフトに転送する電話番号の種類を文書化します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断のポイント|<ul><li>ユーザーの所在地、またはオフィスの既存の電話番号をマイクロソフトに転送されますを決定します。</li><li>マイクロソフトに転送する電話番号の種類を決定します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>文書化するには、ユーザーの所在地、またはオフィスの既存の電話番号をマイクロソフトに転送されます。</li><li>マイクロソフトに転送する電話番号の種類を文書化します。</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -342,44 +342,44 @@ Office 365 の電話システムの機能では、ダイヤル プランの 2 �
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>組織にカスタマイズされたダイヤル プランが (ビジネス要件、導入要件、およびなど) が必要かどうかを決定します。</li><li>該当する場合は、カスタマイズしたダイヤル プランの要件を満たすテナント ダイヤル プランの範囲 (テナント - グローバルまたはテナント - ユーザー) を決定します。</li><li>該当する場合、テナントのダイヤル プランがユーザーの所在地、またはオフィスをサポートするために作成することを決定するクラウドのボイスの実装の範囲内です。</li><li>該当する場合、カスタマイズされたダイヤル プランとテナントのダイヤル プランの各ユーザーに割り当てられるユーザーが必要なを決定します。</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|次の手順|<ul><li>クラウド ボイス実装の一部として構成するには、カスタマイズされたダイヤル プランと関連付けられた正規化ルールを文書化します。</li><li>カスタマイズされたダイヤル プランとユーザーごとに割り当てられるテナントのダイヤル プランに割り当てられるユーザーを文書化します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断のポイント|<ul><li>組織にカスタマイズされたダイヤル プランが (ビジネス要件、導入要件、およびなど) が必要かどうかを決定します。</li><li>該当する場合は、テナントのダイヤル プランのスコープを決定 (テナント グローバルまたはテナントのユーザー) カスタマイズしたダイヤル プランの要件をサポートします。</li><li>該当する場合、テナントのダイヤル プランがユーザーの所在地、またはオフィスをサポートするために作成することを決定するクラウドのボイスの実装の範囲内です。</li><li>該当する場合、カスタマイズされたダイヤル プランとテナントのダイヤル プランの各ユーザーに割り当てられるユーザーが必要なを決定します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>クラウド ボイス実装の一部として構成するには、カスタマイズされたダイヤル プランと関連付けられた正規化ルールを文書化します。</li><li>カスタマイズされたダイヤル プランとユーザーごとに割り当てられるテナントのダイヤル プランに割り当てられるユーザーを文書化します。</li></ul>|
 
 > [!TIP]
 > プロジェクトに適用可能な場合は、テナントのダイヤル プランの設定を文書化するのには次のテンプレートを使用できます。
 > 
-> |テナント ダイヤル プランの名前<br>_説明_  |正規化ルールの名前<br>_説明_  |パターン<br>変換<br>IsInternalExtension  |
+> |テナントのダイヤル プラン名<br>_説明_  |正規化ルールの名前<br>_説明_  |パターン<br>変換<br>IsInternalExtension  |
 > |---------|---------|---------|
-> |**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde、NSW、AU ダイヤル プラン_|**AU-NSW-NorthRyde-OER-Internal**<br>_One Epping Road オフィスの内部番号 (x7000 - x7999)、North Ryde、NSW、オーストラリア_|^(7\d{3})$<br>+6125550$1<br>True|
-> ||**AU-NSW-Local**<br>_NSW、オーストラリアの市内番号の正規化_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
-> ||**AU-TollFree**<br>_オーストラリアの無料電話番号の正規化_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
-> ||**AU-Service**<br>_オーストラリアのサービス番号の正規化_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
-> |**SG-Singapore-OMB**<br>_OMB Singapore、SG ダイヤル プラン_|**SG-OMB-Internal**<br>_行政管理予算局のオフィス、シンガポールの内部番号 (x8000-経費"x 8999)_|^(8\d{3})$<br>+656888$1<br>True|
-> ||**SG-TollFree**<br>_シンガポールの無料電話番号の正規化_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
-> ||**SG-Service**<br>_シンガポールのサービス番号の正規化_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
-> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux、フランスのダイヤル プラン_|**FR-39qdPR-Internal**<br>_39 quai du Président ルーズベルトのオフィス、Issy の内部番号 ("x-7999 x7000-経費)-ゴ-Moulineaux (フランス)_|^(7\d{3})$<br>+3319999$1<br>True|
-> ||**FR-TollFree**<br>_フランスの無料電話番号の正規化_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
-> ||**FR-Service**<br>_フランスのサービス番号の正規化_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
+> |**AU ニューサウスウェールズ州 NorthRyde OER**<br>_1 Epping の道路の北 Ryde、ニュー サウス ウェールズ、AU のダイヤル プラン_|**AU-ニューサウスウェールズ州-NorthRyde-OER の内部**<br>_Epping の道を 1 つのオフィス、北 Ryde、ニューサウスウェールズ州、オーストラリアの内部番号 (x7000 の x-7999)_|^(7\d{3})$<br>+ 6125550$ 1<br>True|
+> ||**AU 固有ニューサウスウェールズ州**<br>_ニューサウスウェールズ州、オーストラリアのローカルの番号の正規化_|^ ([2-9] \d{7}) $<br>+612$ 1<br>False|
+> ||**フリー ダイヤルの自動更新**<br>_オーストラリアについて、有料の空き番号の正規化_|^ (1 [38] \d{4,8}) \d*$<br>+61 ドル 1<br>False|
+> ||**自動更新サービス**<br>_サービス オーストラリアの番号の正規化_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
+> |**SG-シンガポールの行政管理予算局**<br>_行政管理予算局シンガポール、SG のダイヤル プラン_|**SG 行政管理予算局内部**<br>_行政管理予算局のオフィス、シンガポールの内部番号 (x8000-経費"x 8999)_|^(8\d{3})$<br>+ 656888$ 1<br>True|
+> ||**SG-フリー ダイヤル**<br>_シンガポールの有料の空き番号の正規化_|^(1?800\d{7}) \d*$<br>+65$ 1<br>False|
+> ||**SG サービス**<br>_シンガポールのサービス番号の正規化_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
+> |**FR-パリ ・ Issy ・ 39qdPR**<br>_39 quai du Président ルーズベルト Issy-ゴ-Moulineaux、フランスのダイヤル プラン_|**FR 39qdPR 内部**<br>_39 quai du Président ルーズベルトのオフィス、Issy の内部番号 ("x-7999 x7000-経費)-ゴ-Moulineaux (フランス)_|^(7\d{3})$<br>+ 3319999$ 1<br>True|
+> ||**FR-フリー ダイヤル**<br>_フランスの番号の正規化を無料の電話番号します。_|^ 0?(80\d{7}) \d*$<br>+33 1 ドル<br>False|
+> ||**FR サービス**<br>_フランスのサービス番号の正規化_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
 
 > [!TIP]
-> 次のテンプレートの例を利用して、ダイヤル プランを文書化してプロジェクトをサポートすることができます。
+> プロジェクトをサポートするためにダイヤルの計画の割り当てをドキュメントには、以下のテンプレートの例を活用することができます。
 >
-> |ユーザー  |オフィス  |ダイヤル プランの種類  |ダイヤル プランの名前  |
+> |ユーザー  |オフィス  |ダイヤル プランの種類  |ダイヤル プラン名  |
 > |---------|---------|---------|---------|
-> |Adele Vance|One Epping Road|テナント ダイヤル プラン|AU-NSW-NorthRyde-OER|
-> |Alex Wilber|One Epping Road|テナント ダイヤル プラン|AU-NSW-NorthRyde-OER|
-> |Ben Walters|One Epping Road|テナント ダイヤル プラン|AU-NSW-NorthRyde-OER|
-> |Christie Cline|One Marina Boulevard|テナント ダイヤル プラン|SG-Singapore-OMB|
-> |Debra Berger|One Marina Boulevard|テナント ダイヤル プラン|SG-Singapore-OMB|
-> |Lee Gu|One Marina Boulevard|テナント ダイヤル プラン|SG-Singapore-OMB|
-> |Emily Braun|32 London Bridge Street|サービス ダイヤル プラン|該当なし|
-> |Lidia Holloway|32 London Bridge Street|サービス ダイヤル プラン|該当なし|
-> |ルイ Lahr|32 London Bridge Street|サービス ダイヤル プラン|該当なし|
-> |Marcel Beauchamp|39 quai du Président Roosevelt|テナント ダイヤル プラン|FR-Paris-Issy-30qdPR|
-> |Rachelle Cormier|39 quai du Président Roosevelt|テナント ダイヤル プラン|FR-Paris-Issy-30qdPR|
-> |Isabell Potvin|39 quai du Président Roosevelt|テナント ダイヤル プラン|FR-Paris-Issy-30qdPR|
+> |Adele Vance|One Epping Road|テナントのダイヤル プラン|AU ニューサウスウェールズ州 NorthRyde OER|
+> |Alex Wilber|One Epping Road|テナントのダイヤル プラン|AU ニューサウスウェールズ州 NorthRyde OER|
+> |Ben Walters|One Epping Road|テナントのダイヤル プラン|AU ニューサウスウェールズ州 NorthRyde OER|
+> |Christie Cline|One Marina Boulevard|テナントのダイヤル プラン|SG-シンガポールの行政管理予算局|
+> |Debra Berger|One Marina Boulevard|テナントのダイヤル プラン|SG-シンガポールの行政管理予算局|
+> |Lee Gu|One Marina Boulevard|テナントのダイヤル プラン|SG-シンガポールの行政管理予算局|
+> |Emily Braun|32 London Bridge Street|サービス ダイヤル プラン|N/A|
+> |Lidia Holloway|32 London Bridge Street|サービス ダイヤル プラン|N/A|
+> |ルイ Lahr|32 London Bridge Street|サービス ダイヤル プラン|N/A|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|テナントのダイヤル プラン|FR-パリ ・ Issy ・ 30qdPR|
+> |Rachelle Cormier|39 quai du Président Roosevelt|テナントのダイヤル プラン|FR-パリ ・ Issy ・ 30qdPR|
+> |Isabell Potvin|39 quai du Président Roosevelt|テナントのダイヤル プラン|FR-パリ ・ Issy ・ 30qdPR|
 
 <!--ENDOFSECTION-->
 
@@ -387,13 +387,13 @@ Office 365 の電話システムの機能では、ダイヤル プランの 2 �
 
 この資料の前のセクションからの情報を使用して、決定事項をサービスします。 一般に、このドキュメントは次の主要なセクションに含まれます。
 
--   電話会議サービス サイト有効化リスト
+-   オーディオ会議サービス サイトの有効化] ボックスの一覧
 
--   電話会議の開催者のライセンス割り当てリスト
+-   オーディオ会議のミーティングの開催者のライセンスの割り当ての一覧
 
--   通信クレジットの計画番号
+-   通信のクレジット番号の計画
 
--   会議ブリッジの詳細
+-   会議ブリッジの詳細情報
 
 -   会議ブリッジの設定
 
@@ -401,7 +401,7 @@ Office 365 の電話システムの機能では、ダイヤル プランの 2 �
 
 -   電話番号を買収
 
--   テナント ダイヤル プラン
+-   テナントのダイヤル プラン
 
 -   ダイヤル プランの割り当て
 

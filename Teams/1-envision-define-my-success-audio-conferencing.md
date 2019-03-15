@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/13/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -13,14 +13,14 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
-ms.openlocfilehash: 267ce64472fe643bb3544b80a3e3f6222db1d4ba
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7c294b3ac75b92f7c6e2384f34497bc620478d29
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373977"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568541"
 ---
-# <a name="define-my-success"></a>自分の成功を定義します。
+# <a name="define-my-success"></a>成功を定義する
 
 この資料では、組織の音声会議の導入の成功を定義するための要件の概要を示します。 正しく成功次のように定義すると、配置を使用中に、結果を測定し、結果を達成するがしたいと思ったものであることを確認できます。
 
@@ -64,7 +64,7 @@ ms.locfileid: "25373977"
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>ビジネス ケースを使用してオーディオ会議を組織内で識別することができますか。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断のポイント|<ul><li>ビジネス ケースを使用してオーディオ会議を組織内で識別することができますか。</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>組織の音声会議のビジネスのすべてのユース ケースを文書化します。</li></ul>|
 
 <!--ENDOFSECTION-->
@@ -99,7 +99,7 @@ ms.locfileid: "25373977"
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>各組織の主要な関係者の役割を入力したがでしょうか。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断のポイント|<ul><li>各組織の主要な関係者の役割を入力したがでしょうか。</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>キーのすべての関係者を文書化し、割り当てられている個人の責任と役割への期待を通信します。</li></ul>|
 
 <!--ENDOFSECTION-->
@@ -144,7 +144,7 @@ KSIs を定義する場合は、特定、測定可能な割り当てることが
 > |---------|---------|---------|---------|---------|---------|
 > |使用例/導入|通話の品質は以前のソリューションに比べて同等以上である|アンケート|ユーザーの 80% が同意または強く同意している|有効化後および四半期ごと|情報技術チーム|
 > |使用例/導入|Microsoft Teams の導入により通信プロセスが簡易化された|アンケート|ユーザーの 80% が同意または強く同意している|有効化後および四半期ごと|変更管理チーム|
-> |使用例/導入|ユーザーが積極的にソリューションを利用している|Office 365 レポート、通話品質ダッシュボード|ユーザーの 80% が毎日使用するアクティブ ユーザーである|毎日|変更管理チーム|
+> |使用例/導入|ユーザーが積極的にソリューションを利用している|Office 365 レポート、通話品質ダッシュボード|ユーザーの 80% が毎日使用するアクティブ ユーザーである|[毎日]|変更管理チーム|
 > |使用例/品質|低い通話品質/会議品質の割合を最低限に抑える|通話品質ダッシュボード|毎月 5% 未満の低品質通話|毎日|情報技術チーム|
 > |使用例/サポート|テクニカル サポートの受け方を知っている|アンケート|ユーザーの 90% が同意または強く同意している|有効化後および四半期ごと|変更管理チーム|
 > |使用例/サポート|テクニカル サポートの品質に満足している|アンケート|ユーザーの 80% が同意または強く同意している|各インシデント後|情報技術チーム|
@@ -165,7 +165,7 @@ KSIs を定義する場合は、特定、測定可能な割り当てることが
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>組織 & #39; s OKRs と KSIs か。</li><li>どのようなリスクがある場合、組織内の電話会議の実装に関連する特定しますか? 特定したリスクの軽減の計画とは?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断のポイント|<ul><li>Organization& #39; s OKRs と KSIs とは?</li><li>どのようなリスクがある場合、組織内の電話会議の実装に関連する特定しますか? 特定したリスクの軽減の計画とは?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>OKRs、KSIs を文書化し、リスクの登録を確立します。</li></ul>|
 
 <!--ENDOFSECTION-->
@@ -206,7 +206,7 @@ KSIs を定義する場合は、特定、測定可能な割り当てることが
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|判断ポイント|<ul><li>運営委員会が組織に必要なかどうかを決定します。</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|判断のポイント|<ul><li>運営委員会が組織に必要なかどうかを決定します。</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|次のステップ|<ul><li>運営委員会のメンバーを識別します。</li><li>運営委員会の会議のスケジュールを設定します。</li><li>運営委員会の会議を準備します。</li><li>運営委員会の会議を保持します。</li><li>運営委員会の会議の入力に基づいてアクションを実行します。</li></ul>|
 
 適切な運営委員会を運営する方法に関する、追加の詳細なガイダンスは、運営委員会ガイド利用可能な[ここ](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide)ではあります。

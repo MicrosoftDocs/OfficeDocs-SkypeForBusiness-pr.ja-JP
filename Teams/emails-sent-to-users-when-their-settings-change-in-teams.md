@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft Teams でダイヤルイン会議の設定を変更したときにユーザーに自動的に送信される情報について説明します。 '
-ms.openlocfilehash: 6081f531bb7cbae180997dedd9e9892e9829ae1b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: cdd45eaad709ed2060cc0b0f9700e213ea884b72
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462813"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633335"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Microsoft Teams で設定を変更したときにユーザーに送信されるメール
 
-Microsoft を電話会議プロバイダーとして使用して[電話会議を利用できる](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)ようになっているユーザーに、メールが自動的に送信されます。
+Microsoft を電話会議プロバイダーとして使用して[電話会議を利用できる](set-up-audio-conferencing-in-teams.md)ようになっているユーザーに、メールが自動的に送信されます。
 
 既定では、電話会議を利用できるユーザーに対して送信されるメールには、4 つの種類があります。 ただし、ユーザーに送信されるメールの数を制限する場合は、この設定をオフにすることができます。 Office 365 の電話会議は、次の場合にユーザーにメールを送信します。
 

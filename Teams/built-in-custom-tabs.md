@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 組み込みタブやカスタム タブを使用して会話、ファイル、地図などの機能を追加する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1e93de09dc99832f942397a3af966334371a094
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e63cbe83214f9323692804b7d297de9091aceef0
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458797"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568665"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Microsoft Teams で組み込みタブとカスタム タブを使用する
 ==================================================
@@ -32,7 +32,7 @@ ms.locfileid: "30458797"
 
 ## <a name="work-with-tabs"></a>タブを使用します。
 
-- 新しいチャネルごとに、会話とファイルは、既定で 2 つのタブを準備します。 
+- 既定ですべての新しいチャネルでは、2 つのタブの準備: 会話とファイルです。 
 
     ![Marketing チームの [会話] セクションのスクリーンショット](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
 - すべてのプライベート チャットでは、4 つのタブは既定での会話、ファイル、組織や活動準備します。

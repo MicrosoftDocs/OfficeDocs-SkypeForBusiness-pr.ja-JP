@@ -1,10 +1,10 @@
 ---
-title: マイクロソフト チーム クラウドの音声のワークロード用に環境を評価します。
+title: Microsoft Teams クラウド ボイス ワークロードのための環境を評価する
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/13/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29bfd87d860cc68b988e365a77f28eed8fa9e2f5
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: c092904151ac0a05536a52a9ee8b475c9264a21a
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459096"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568544"
 ---
-# <a name="evaluate-my-environment"></a>自分の環境を評価します。
+# <a name="evaluate-my-environment"></a>環境を評価する
 
 この資料では、音声サービスのクラウドを使用するため、現在の環境を正しく評価するための要件の概要を示します。 によってお客様の環境を評価するには、リスクと、全体的なクラウド ボイスの展開に影響を与えるための要件を特定します。 これらの項目を事前に識別することによって、ドライブの成功のための計画を調整できます。
 
@@ -45,8 +45,8 @@ ms.locfileid: "30459096"
 これを知っておくことによって、組織のプロジェクト計画を調整し、番号を移植するために必要な情報を準備します。 環境の検出を実行するのには、MyAdvisor から[マイクロソフトのチームのロールアウトの環境の検出](environmental-discovery-for-microsoft-teams-rollout.md)を使用できます。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>環境の評価を完了するため管理するはだれですか。</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li>環境アセスメントの結果を文書化します。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断のポイント</td><td><ul><li>環境の評価を完了するため管理するはだれですか。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>環境アセスメントの結果を文書化します。</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -62,8 +62,8 @@ ms.locfileid: "30459096"
 アドレスの変更管理、組織の準備を評価するのにには、次の考慮事項を使用します。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>ソフトウェアまたは本サービスのユーザーが積極的に前の成功をしたことがありますか。</li><li>使用状況の取得を追跡することができますか。</li><li>設計および初期の管理にリソースを持って&mdash;と継続的な&mdash;(意識、トレーニング、およびサポート) の採用キャンペーンですか。</li><li>持っている専用のユーザーの導入/変更管理チームが、ビジネスの成果を確実にこれらのリソースに投資することができますか。</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li>回答された場合&quot;はい&quot;に上記のすべて、適切なユーザーの変更管理の関係者を識別し、ユーザーの準備の計画を開始します。</li><li>回答された場合&quot;なし&quot;一部またはすべて上記の変更管理や、組織の採用に関連する活動の推進を支援するためのリソースの外部魅力的にすることを検討してください。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断のポイント</td><td><ul><li>ソフトウェアまたは本サービスのユーザーが積極的に前の成功をしたことがありますか。</li><li>使用状況の取得を追跡することができますか。</li><li>設計および初期の管理にリソースを持って&mdash;と継続的な&mdash;(意識、トレーニング、およびサポート) の採用キャンペーンですか。</li><li>持っている専用のユーザーの導入/変更管理チームが、ビジネスの成果を確実にこれらのリソースに投資することができますか。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>回答された場合&quot;はい&quot;に上記のすべて、適切なユーザーの変更管理の関係者を識別し、ユーザーの準備の計画を開始します。</li><li>回答された場合&quot;なし&quot;一部またはすべて上記の変更管理や、組織の採用に関連する活動の推進を支援するためのリソースの外部魅力的にすることを検討してください。</li></ol></td></tr>
 </table>
 
 
@@ -218,8 +218,8 @@ Wi-fi ネットワークを最適化するために用意されているいく�
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>すべてのネットワーク セグメントと組織の位置の間で適切なネットワークの評価を完了するため管理するはだれですか。</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li>ネットワークでは、マイクロソフトのチームの配置の準備ができていることを確認に役立つ詳細なネットワークの評価を行うことができます。 詳細については、<a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">ネットワーク対応の評価</a>を参照してください。</li><li>すべてのネットワーク セグメントのネットワーク対応評価の結果に基づいてネットワークの修復を実行します。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断のポイント</td><td><ul><li>すべてのネットワーク セグメントと組織の位置の間で適切なネットワークの評価を完了するため管理するはだれですか。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>ネットワークでは、マイクロソフトのチームの配置の準備ができていることを確認に役立つ詳細なネットワークの評価を行うことができます。 詳細については、<a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">ネットワーク対応の評価</a>を参照してください。</li><li>すべてのネットワーク セグメントのネットワーク対応評価の結果に基づいてネットワークの修復を実行します。</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

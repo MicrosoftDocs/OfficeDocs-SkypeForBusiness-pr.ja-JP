@@ -1,10 +1,10 @@
 ---
-title: マイクロソフトのチームの成功計画を文書化します。
+title: Microsoft Teams の成功プランを文書化する
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/13/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd124b8ce06b15bb0c6c33aecd848d9382afde64
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b0a10f56c29ca2218d5dde2c98fb3285c3907b1d
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462141"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568473"
 ---
-# <a name="document-my-success-plan"></a>成功計画を文書化します。
+# <a name="document-my-success-plan"></a>成功計画を文書化する
 
 この資料では、クラウドのボイスの展開を正しく記録するための要件の概要を示します。 定義し、クラウドのボイスの展開を計画するときに、すべての意思決定ポイントと次の手順を文書化する、ことを確認するすべての関係者とプロジェクト チームのメンバーが成功した結果を提供することに揃えて配置されます。 
 
@@ -48,8 +48,8 @@ ms.locfileid: "30462141"
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>組織に適用されるチームの展開の実行モデルを決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li>選択したら、チームの配置の実行モデルを文書化し、ビジネスおよび技術的な根拠が含まれます。</li></ul></td></tr></table>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断のポイント</td><td><ul><li>組織に適用されるチームの展開の実行モデルを決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>選択したら、チームの配置の実行モデルを文書化し、ビジネスおよび技術的な根拠が含まれます。</li></ul></td></tr></table>
 
 ## <a name="raci-modeling"></a>RACI のモデリング
 
@@ -72,8 +72,8 @@ ms.locfileid: "30462141"
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>クラウド ボイスの実装プロジェクトに関連する活動と役割を決定します。</li><li>チームやクラウドのボイスの実装プロジェクトの担当の割り当て一覧 (RACI のマトリックス) に割り当てられるユーザーを決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li>RACI のマトリックスを文書化します。</li></ul></td></tr></table>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断のポイント</td><td><ul><li>クラウド ボイスの実装プロジェクトに関連する活動と役割を決定します。</li><li>チームやクラウドのボイスの実装プロジェクトの担当の割り当て一覧 (RACI のマトリックス) に割り当てられるユーザーを決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>RACI のマトリックスを文書化します。</li></ul></td></tr></table>
 
 ## <a name="quarterly-execution-plan"></a>四半期ごとの実行プラン
 
@@ -87,18 +87,18 @@ ms.locfileid: "30462141"
 
 | サイトまたは部門                            | 従業員数 | 電話会議 | 電話システム                    | 四半期を実行するには |
 |------------------------------------------|---------------------|--------------------|---------------------------------|--------------------|
-| 米国: ニューヨーク                             | 2000                | あり                | 通話プランが設定された電話システム | 第 1 四半期の CY2018          |
-| アイルランド: ダブリン                          | 300                 | あり                | 通話プランが設定された電話システム | 第 1 四半期の CY2018          |
-| オーストリア: ウィーン                          | 500                 | あり                | 電話システムの直接のルーティング     | 第 2 四半期 CY2018          |
-| イタリア: ミラノ                             | 200                 | あり                | 該当なし                             | 第 2 四半期 CY2018          |
-| 南アメリカ: ブラジル                    | 1500                | あり                | 電話システムの直接のルーティング     | 第 2 四半期 CY2018          |
-| インド: デリー                             | 7000                | あり                | 該当なし                             | 第 3 四半期の CY2018          |
+| 米国: ニューヨーク                             | 2000                | はい                | 通話プランと電話システム | 第 1 四半期の CY2018          |
+| アイルランド: ダブリン                          | 300                 | はい                | 通話プランと電話システム | 第 1 四半期の CY2018          |
+| オーストリア: ウィーン                          | 500                 | はい                | 電話システムのダイレクト ルーティング     | 第 2 四半期 CY2018          |
+| イタリア: ミラノ                             | 200                 | はい                | 該当なし                             | 第 2 四半期 CY2018          |
+| 南アメリカ: ブラジル                    | 1500                | はい                | 電話システムのダイレクト ルーティング     | 第 2 四半期 CY2018          |
+| インド: デリー                             | 7000                | はい                | 該当なし                             | 第 3 四半期の CY2018          |
 
 
 <table>
 
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>目標 (OKRs) 主要な結果を達成するために四半期ごとの実行プランを決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li>四半期ごとの実行計画を文書化します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断のポイント</td><td><ul><li>目標 (OKRs) 主要な結果を達成するために四半期ごとの実行プランを決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>四半期ごとの実行計画を文書化します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -119,9 +119,9 @@ ms.locfileid: "30462141"
 
 <table>
 
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>通信と、ステータスの更新会議、および各会議の所有者を実行するための正規の状態更新 (毎日、毎週、月単位、または四半期ごと)、メソッドの頻度を含むガバナンス計画を決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断のポイント</td><td><ul><li>通信と、ステータスの更新会議、および各会議の所有者を実行するための正規の状態更新 (毎日、毎週、月単位、または四半期ごと)、メソッドの頻度を含むガバナンス計画を決定します。</li></ul></td></tr>
 
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li>通信とガバナンスの計画を文書化します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>通信とガバナンスの計画を文書化します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -180,8 +180,8 @@ ms.locfileid: "30462141"
 
 <table>
 
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>クラウドの音声のワークロードを提供するため、全体の成功の計画を文書化する方法を決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li>成功プランのすべてのコンポーネントをドキュメント化されていることを確認します。</li><li>(省略可能) 1 つの概要ドキュメントに、成功した場合の計画の個々 のコンポーネントを集約します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断のポイント</td><td><ul><li>クラウドの音声のワークロードを提供するため、全体の成功の計画を文書化する方法を決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>成功プランのすべてのコンポーネントをドキュメント化されていることを確認します。</li><li>(省略可能) 1 つの概要ドキュメントに、成功した場合の計画の個々 のコンポーネントを集約します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
