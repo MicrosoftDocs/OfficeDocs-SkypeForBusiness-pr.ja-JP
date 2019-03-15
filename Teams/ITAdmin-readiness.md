@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 02/15/2019
+ms.date: 03/14/2019
 ms.topic: landing-page
 ms.service: msteams
 ms.collection:
@@ -14,12 +14,12 @@ search.appverid: MET150
 description: トレーニング ビデオ、PowerPoint デッキ、チュートリアル、およびその他のリソースを計画する方法には、展開、およびマイクロソフトのチームを実行します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85ff5f21b1e23f2ff0407272a3e86885b779a3d6
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: f166d3a00fbf0ea9b51fa1d083ed490d7323df0c
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461853"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641161"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 
@@ -90,15 +90,16 @@ ms.locfileid: "30461853"
 | ------------ | -------------------- | -------------------- |
 | コア ・ コンポーネントの基礎」 | [ビデオ](https://aka.ms/teams-foundations) | [デッキ](https://aka.ms/teams-foundations-deck) |
 | Windows デスクトップ クライアント | [ビデオ](https://aka.ms/teams-clients) | [デッキ](https://aka.ms/teams-clients-deck) |
-| ガバナンス、管理、および Lifecylce | [ビデオ](https://aka.ms/teams-governance) | [デッキ](https://aka.ms/teams-governance-deck) |
+| ガバナンス、管理、およびライフ サイクル | [ビデオ](https://aka.ms/teams-governance) | [デッキ](https://aka.ms/teams-governance-deck) |
 | ネットワークの計画 | [ビデオ](https://aka.ms/teams-networking) | [デッキ](https://aka.ms/teams-networking-deck) |
 | 通話品質の概要 | [ビデオ](https://aka.ms/teams-quality) | [デッキ](https://aka.ms/teams-quality-deck) |
 | 会議の概要 | [ビデオ](https://aka.ms/teams-meetings-intro) | [デッキ](https://aka.ms/teams-meetings-intro-deck) |
+| ライブ イベント | [ビデオ](https://aka.ms/teams-live-events-session) | [デッキ](https://aka.ms/teams-live-events-deck) |
 | 電話システムの概要 | [ビデオ](https://aka.ms/teams-phone-system) | [デッキ](https://aka.ms/teams-phone-system-deck) |
 | 直接のルーティング | [ビデオ](https://aka.ms/teams-direct-routing) | [デッキ](https://aka.ms/teams-direct-routing-deck) |
 | Skype for Business から Teams へのアップグレード | [ビデオ 1: アップグレードの概要](https://aka.ms/teams-upgrade-intro)</br>[ビデオ 2: アップグレードを計画します。](https://aka.ms/teams-upgrade-plan)</br>[ビデオ 3: 共存と相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[ビデオ 4: 管理者の経験](https://aka.ms/teams-upgrade-admin) | [デッキ](https://aka.ms/teams-upgrade-deck)|
 
-<h2>クイック スタート ガイド</h2>
+<h2>クイック ・ スタート ガイド</h2>
 
 - [クイック スタート: 教育の管理者のチーム](teams-quick-start-edu.yml)
 - [クイック スタート: チームの計画を呼び出すことを構成します。](configuring-teams-calling-quickstartguide.md)
@@ -107,7 +108,7 @@ ms.locfileid: "30461853"
 
 - [チュートリアル: Skype for Business から Teams への移行](tutorial-journey-skypeforbusiness-to-teams.yml)
 - [チュートリアル: Teams での会議](tutorial-meetings-in-teams.yml)
-- [チームで電話会議のチュートリアル:](tutorial-audio-conferencing.yml)
+- [チュートリアル: Teams での電話会議](tutorial-audio-conferencing.yml)
 - [チュートリアル: Teams での通話について理解する](tutorial-calling-in-teams.yml)
 
 <h2>コース</h2>
