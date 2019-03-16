@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 11/02/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 description: 財務、イベント計画、販売など、多岐にわたる要件で利用できるさまざまなチーム、チャネル、アプリについて紹介します。
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e78806ae0fb4b118757026fda695dcba03bae1dd
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 8677354bf6a8e500e1ee138fef65327711e74105
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493974"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30647442"
 ---
 > [!NOTE]
 > チャット、チーム、チャネル、チーム内の & アプリケーションを理解するのには次の情報を確認します。 [展開のチャット、チーム、チャネル、& アプリケーションをチームで](deploy-chat-teams-channels-microsoft-teams-landing-page.md)、チームの展開に重要な決定の一覧を参照するに進みます。
@@ -36,7 +36,7 @@ ms.locfileid: "30493974"
 
     -   チームは、招待されたユーザーに対してのみ、プライベートとして作成されます。
 
-    -   また、チームは、組織内の参加可能なすべての人 (最大で 2500 人のメンバー) に対して、パブリックでオープンなものとして作成されます。
+    -   公開とオープンにするチームを作成することも、(最大メンバー数が 5,000)、組織内にいる人に参加できます。
     
     チームは、何かの仕事を完成させるために緊密に作業している人たちを 1 つにまとめるために設計されています。 Teams はプロジェクト単位の作業 (製品の立ち上げや、デジタル作戦指令室を作るなど) において、現在進行中の作業も含めて、組織の内部構造 (たとえば、部署やオフィスの場所など) を反映して、動的に機能します。 複数のチーム チャネルにわたる会話、ファイル、ノートはチームのメンバーだけが見ることができます。
 

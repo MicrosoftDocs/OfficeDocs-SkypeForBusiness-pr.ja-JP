@@ -5,7 +5,7 @@ ms.author: karuanag
 manager: serdars
 ms.date: 10/31/2018
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63d96ace4de4ae19446e4f0a1376088ac3294647
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b4b809a2db9da32915ec9bade59b346a4874c2fa
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464549"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30647378"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Microsoft Teams の使用状況シナリオを定義する
 
@@ -34,7 +34,7 @@ ms.locfileid: "30464549"
 
 ![コア シナリオ](media/teams-adoption-modernizing-core-scenarios.png)
 
-その他のシナリオを検討するは次のとおりです。
+考慮すべきその他のシナリオは次のとおりです。
 
 - 従業員の活動との通信
 - キャンペーンをより速く市場に投入します。

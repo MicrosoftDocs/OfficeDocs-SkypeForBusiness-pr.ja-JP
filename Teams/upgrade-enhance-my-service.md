@@ -3,7 +3,7 @@ title: マイクロソフト チームの要件。サービスを強化します
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: チーム サービスを向上させるアップグレードした後、すべての興味深い機能拡張のチームのロードマップを監視する機会を定期的に評価します。
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20d3c30157b58640b3bdfe5c1941d68a745c0e68
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 78b90349ebaf5dfea878d32c750d03d379c14cab
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461253"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649373"
 ---
 ![オペレーショナル エクセレンスの段階に重点を置いた、アップグレード手順の各段階](media/upgrade-banner-op-excellence.png "オペレーショナル エクセレンスの段階に重点を置いた、アップグレード手順の各段階")
 
@@ -41,6 +41,6 @@ ms.locfileid: "30461253"
 サービスを強化するために営業案件が表示、右に時間がかかります。 [実装フェーズ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)とエンド ツー エンドの同一のガイダンスを適用します。 小さな変更を行う場合は、可能性のあるすべてのアクティビティとの完全なタスクを完了する必要がありますが、各アクティビティとタスクが成功した結果での最善の機会を持たせるための方法に沿って評価をする必要があることはできません。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>パブリック ・ ロードマップとその他の新しい機能やサービスからメリットを得られる可能性があります組織のサービスのお知らせを監視するかを決定します。</li><li>報告これらの新しい機能やサービス、運営委員会を使用して、キーの関係者にするためのリズムを決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li>組織のほとんどの値を取得するサービスを最新の状態を維持するための戦略を実装します。</li><li>ドライブの展開に与える影響を怠らない適切かどうかを確認するのには完全なプロジェクト ライフ サイクルを通じてサービスの拡張機能です。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断のポイント</td><td><ul><li>パブリック ・ ロードマップとその他の新しい機能やサービスからメリットを得られる可能性があります組織のサービスのお知らせを監視するかを決定します。</li><li>報告これらの新しい機能やサービス、運営委員会を使用して、キーの関係者にするためのリズムを決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>組織のほとんどの値を取得するサービスを最新の状態を維持するための戦略を実装します。</li><li>ドライブの展開に与える影響を怠らない適切かどうかを確認するのには完全なプロジェクト ライフ サイクルを通じてサービスの拡張機能です。</li></ul></td></tr>
 </table>

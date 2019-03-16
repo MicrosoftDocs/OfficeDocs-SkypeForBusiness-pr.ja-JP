@@ -1,9 +1,9 @@
 ---
-title: チームが、Office 365 の OneDrive と SharePoint のオンライン マルチが地域で有効なテナントの経験します。
+title: Office 365 One および SharePoint Online Multi-Geo 対応テナントでの Teams のエクスペリエンス
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
 description: Office 365 の OneDrive と SharePoint のオンライン マルチが地域で有効なテナントでチームを使用する方法について説明します。
@@ -14,14 +14,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01b93b67125693487e07fce824c01dbd5e955294
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e90e4a3c1ae2886a01802a805da3464cea3d8b50
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462629"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649261"
 ---
-<a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>チームが、Office 365 の OneDrive と SharePoint のオンライン マルチが地域で有効なテナントの経験します。
+<a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Office 365 One および SharePoint Online Multi-Geo 対応テナントでの Teams のエクスペリエンス
 ===========================================
 
 マイクロソフト チームは、グループ チャットのソフトウェア、Office 365 のチームワークのハブです。 Office 365 のグループのサービスによって SharePoint Online と OneDrive とビジネスのファイル操作の電源です。 マルチ ・ Geo のオンライン ビジネス、SharePoint のテナント、テナントが北アメリカ、ヨーロッパ、オーストラリアなどの多くの地理的な場所に拡張するため、OneDrive ファイル経験を基になるがマルチ ・地域に対応しており、ファイルを使用して発生するチーム共同作業も複数の地域に注意してください。 これは、そのネイティブ ファイルの経験では複数の地域間でホストされている表面のファイルをチームの重要な最先端の機能です。

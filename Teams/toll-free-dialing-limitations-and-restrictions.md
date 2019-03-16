@@ -1,10 +1,10 @@
 ---
-title: フリー ダイヤルの制限事項と制限事項
+title: 無料電話ダイヤルの制限事項
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 6b8d5ddb-59c1-4ee7-b171-18e5ace2dcd6
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,14 +22,14 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: これからは、それぞれの国や地域で有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる具体的な詳細について、制限、およびフリー ダイヤル サービスの可用性に制限がある国に固有のページに無料のサービスがあります。 ダイヤル形式または書式が表示されます無料電話番号をダイヤルする国または地域内で必要なアクセス コード。
-ms.openlocfilehash: 2c5f5d97972fe1c1002ffb16ca39f6a6224beb06
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 854b471cff9affeb6c051a1a7d8993aeb27f7f6d
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542113"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649397"
 ---
-# <a name="toll-free-dialing-limitations-and-restrictions"></a>フリー ダイヤルの制限事項と制限事項
+# <a name="toll-free-dialing-limitations-and-restrictions"></a>無料電話ダイヤルの制限事項
 
 これからは、国または地域ごとに有料無料の番号をダイヤルする方法を確認できます。 国/地域を選択し、かかる、有料無料のサービスがある特定の詳細情報、制限、および制限を含むを含むページにします。 ダイヤル形式または書式が表示されます無料電話番号をダイヤルする国または地域内で必要なアクセス コード。
   
@@ -47,23 +47,23 @@ ms.locfileid: "30542113"
 > - [ブルネイ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md)
 > - [ブルガリア](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md)
 > - [チリ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md)
-> - [中国 (北)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md)
-> - [中国 (南)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md)
+> - [中国 (北部)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md)
+> - [中国 (南部)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md)
 > - [コロンビア](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia.md)
-> - [クロアチア](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md)
+> - [Croatia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md)
 > - [キプロス](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus.md)
 > - [デンマーク](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-denmark.md)
 > - [エクアドル](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ecuador.md)
 > - [エジプト](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt.md)
 > - [エストニア](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-estonia.md)
 > - [フィンランド](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-finland.md)
-> - [フランス](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france.md)
-> - [ドイツ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md)
+> - [France](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france.md)
+> - [Germany](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md)
 > - [ホンジュラス](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md)
 > - [香港](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md)
 > - [ハンガリー](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md)
-> - [インド](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india.md)
-> - [インドネシア](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md)
+> - [India](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india.md)
+> - [Indonesia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md)
 > - [アイルランド](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland.md)
 > - [イスラエル](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel.md)
 > - [日本](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan.md)
@@ -72,14 +72,14 @@ ms.locfileid: "30542113"
 > - [マレーシア](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia.md)
 > - [メキシコ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico.md)
 > - [モルドバ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova.md)
-> - [モナコ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco.md)
+> - [Monaco](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco.md)
 > - [オランダ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands.md)
 > - [パナマ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-panama.md)
 > - [パラグアイ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-paraguay.md)
-> - [ペルー](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-peru.md)
+> - [Peru](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-peru.md)
 > - [フィリピン](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-philippines.md)
 > - [ポーランド](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-poland.md)
-> - [ポルトガル](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal.md)
+> - [Portugal](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal.md)
 > - [カタール](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-qatar.md)
 > - [ルーマニア](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-romania.md)
 > - [サウジアラビア](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-saudi-arabia.md)
@@ -96,9 +96,9 @@ ms.locfileid: "30542113"
 > - [トルコ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md)
 > - [アラブ首長国連邦 (U.A.E)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md)
 > - [英国](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md)
-> - [ウルグアイ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md)
+> - [Uruguay](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md)
 > - [ベネズエラ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
-> - [ベトナム](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
+> - [Vietnam](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
   
 ## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>有料の空き番号は忘れないようにするための重要な事項を以下に示します。
 

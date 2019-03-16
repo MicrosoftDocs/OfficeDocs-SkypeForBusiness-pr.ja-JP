@@ -3,7 +3,7 @@ title: Office 365 の電話システムとは
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '電話システムで何ができる場合について説明します。 '
-ms.openlocfilehash: 3e008230a3237f5d4a92224a000aa8f8bb9af6ac
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: a11f527e80ec38d86c2adb97a9d861e7c11b6b8c
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542130"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649253"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365 の電話システムとは
 
@@ -46,7 +46,7 @@ ms.locfileid: "30542130"
 
 ## <a name="more-about-calling-plans"></a>計画を呼び出す方法の詳細
 
-電話システムを呼び出すことを計画のアドオンを使用して Office 365 の landlines と (ライセンスされたサービスのレベル) によって世界中の携帯電話への呼び出しの PSTN への接続を有効にします。 ユーザーはクラウドに所属しており、マイクロソフトが提供する通話プランのアドオンを備えた電話システムを使用できます。 プランの呼び出しを使用すると、オンプレミスのサーバーの展開を必要としません。 通話プランは、Office 365 の電話システムでのみ動作し、使うことはできません計画を呼び出す別の PBX システムとします。
+電話システムを呼び出すことを計画のアドオンを使用して Office 365 の landlines と (ライセンスされたサービスのレベル) によって世界中の携帯電話への呼び出しの PSTN への接続を有効にします。 ユーザーは、クラウドに置かれているし、電話システムの Microsoft によって提供される計画を呼び出すアドオンを有効にします。 プランの呼び出しを使用すると、オンプレミスのサーバーの展開を必要としません。 通話プランは、Office 365 の電話システムでのみ動作し、使うことはできません計画を呼び出す別の PBX システムとします。
 
 ![完全にクラウド内の VoIP ソリューションである、PSTN 通話を含んだクラウド PBX を示しているトポロジ図です。](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
 

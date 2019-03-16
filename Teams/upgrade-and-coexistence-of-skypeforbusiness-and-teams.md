@@ -3,7 +3,7 @@ title: Skype for Business から Microsoft Teams へのアップグレード| �
 author: lsomi
 ms.author: lsomi
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen, bjwhalen
 description: Skype for Business と Microsoft Teams の共存オプションおよびモードの詳細と、いくつかのシナリオ例での Skype for Business から Teams へのアップグレード手順。
@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4c7401ccf8bdefa7eaf906795d5e5e37ac8ba2e
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 22bd17ffbb29695f69aa4eff8581821a882f1614
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493958"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649197"
 ---
 ![展開と実装の段階に重点を置いた、アップグレード手順の各段階](media/upgrade-banner-deployment.png "展開と実装の段階に重点を置いた、アップグレード手順の各段階")
 

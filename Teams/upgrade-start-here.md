@@ -4,7 +4,7 @@ author: dearbeen
 ms.author: dearbeen
 manager: serdars
 ms.date: 01/30/2019
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: マイクロソフトのチームにビジネス用の Skype をアップグレードするを検討する必要があります理由について説明します。
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5082b99d6742b72520ac7a42b33c80e19a329517
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: d35f146ee7c52aa6c32f44e5fcefdad855dfbd3e
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461885"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649501"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Microsoft Teams へのアップグレードを開始する
 
@@ -53,8 +53,8 @@ ms.locfileid: "30461885"
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
 > [!Tip]
-> Skype for Business から Microsoft Teams へのアップグレードについては、次のセッションをご覧ください。
+> マイクロソフトのチームには、ビジネスの Skype からのアップグレードの詳細については、次のセッションを確認してください。
 > - [アップグレードの概要](https://aka.ms/teams-upgrade-intro)
-> - [アップグレードの計画](https://aka.ms/teams-upgrade-plan)
-> - [共存および相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)
-> - [管理者のエクスペリエンス](https://aka.ms/teams-upgrade-admin)
+> - [アップグレードを計画します。](https://aka.ms/teams-upgrade-plan)
+> - [共存と相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [管理者の経験](https://aka.ms/teams-upgrade-admin)

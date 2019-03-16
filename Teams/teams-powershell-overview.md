@@ -1,10 +1,10 @@
 ---
-title: Teams での PowerShell の概要
+title: チーム PowerShell の概要
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/06/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.collection:
 - M365-collaboration
@@ -12,14 +12,14 @@ ms.collection:
 description: PowerShell のコントロールを使用して、マイクロソフトのチームを管理するために説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68dbd84c93e34d79d29c75ce7c3ad98934227432
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 9d1bf3c0c29b9720e0199377b92371468e3a7a52
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543224"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649485"
 ---
-# <a name="teams-powershell-overview"></a>Teams での PowerShell の概要
+# <a name="teams-powershell-overview"></a>チーム PowerShell の概要
 
 マイクロソフトのチームでは、マイクロソフトのチーム管理センター、PowerShell のコントロール、およびグラフの Api を通じて製品を管理する IT 管理者のためのツールの豊富なセットがあります。 このガイドでは、当社の PowerShell コマンドレットを使用して、IT 管理者を構成する方法について説明し、さらにドキュメントへのポインターを提供します。 さまざまなチームの管理者のロールに別のコマンドレットへのアクセスがあることに注意してください。 詳細については、[チームを管理する管理者の役割を使用してマイクロソフトのチーム](using-admin-roles.md)を参照してください。
 

@@ -3,7 +3,7 @@ title: ビジネス用の Skype をマイクロソフト チームのアップ�
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: 最初に、利害関係者を参加させると、プロジェクトのスコープで、アップグレードを計画します。
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3c2c95e6034c365f95c5e8c4f6f124023437b9d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 4810e98910186e3c4c5a9b2fb7e4cf62df6876c7
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462437"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649421"
 ---
 ![ことを確認して、プロジェクトは、適切なプロジェクト チームを成功に設定されています。プロジェクトのスコープ、目標、およびタイムラインを定義します。技術とユーザーの両方の準備を確認します。ロールアウト計画を実行します。結果を最大化するための勢いを維持します]。(media/upgrade-banner-main.png "アップグレードに向けてスタートしましょう")
 

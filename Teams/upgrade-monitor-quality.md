@@ -3,7 +3,7 @@ title: ユーザー エクスペリエンスの品質。マイクロソフトの
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: タスクと活動の品質とマイクロソフトのチームの使用率を監視するために必要な
@@ -15,18 +15,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4060c0f9171c8871ed22d15325d560616bf5fc23
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 5d5b34a7dc556313108555bff4d55cee7a6f9a31
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460077"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649381"
 ---
 ![オペレーショナル エクセレンスの段階に重点を置いた、アップグレード手順の各段階](media/upgrade-banner-op-excellence.png "オペレーショナル エクセレンスの段階に重点を置いた、アップグレード手順の各段階")
 
 この資料では、オペレーショナル ・ エクセレンスの段階と同時に開始のチームにビジネス用の Skype からのアップグレードが完了したら、アップグレードの旅の一部です。
 
-# <a name="quality-of-experience-review-guide"></a>レビュー ガイドの経験の質
+# <a name="quality-of-experience-review-guide"></a>QoE のレビュー ガイド
 
 [発生レビュー ガイドの品質](https://aka.ms/qerguide)には、評価し、次のように、ユーザー エクスペリエンスの向上に大きな影響がある主な分野で改善策のガイダンスを提供するアクティビティのセットが含まれています。
 

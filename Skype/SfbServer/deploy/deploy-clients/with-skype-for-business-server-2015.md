@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: ビジネス サーバーの Skype と Skype ルーム システム v2 を展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 891f716be3a2b7d8479af83b57dfccd70500e50d
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 5159d9cc8835ebe2b6e1d74e2f7644ee11232b63
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699381"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30645395"
 ---
 # <a name="deploy-skype-room-systems-v2-with-skype-for-business-server"></a>Skype の部屋を配置する Skype のビジネス サーバーでシステム v2
   
@@ -27,16 +27,16 @@ ms.locfileid: "25699381"
 単一フォレスト、Exchange 2013 の sp1 またはそれ以降の設置型展開および Skype ビジネス サーバー 2015 またはそれ以降がある場合は場合、は、デバイスのアカウントを作成するのには、指定された Windows PowerShell スクリプトを使用できます。 マルチ フォレスト展開を使用する場合は、同じ結果を生成すると同等のコマンドレットを使用できます。 これらのコマンドレットは、このセクションで説明します。
 
 ユーザー アカウントを設定する最も簡単な方法では、リモートの Windows PowerShell を使用してそれらを構成します。 マイクロソフトでは、 [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)、新しいユーザー アカウントを作成または Skype ルーム システム v2 の互換性のあるユーザー アカウントにそれらを有効にするためにある既存のリソース アカウントの検証を支援するスクリプトを提供します。 場合は、Skype ルーム システム v2 デバイスを使用してアカウントを構成するのには、次の手順に従うことができます。
-  
-## <a name="deploy-skype-room-systems-v2-with-skype-for-business-server"></a>Skype の部屋を配置する Skype のビジネス サーバーでシステム v2
+
+## <a name="requirements"></a>要件
 
 ビジネス サーバーの Skype と Skype ルーム システム v2 を展開する前に、要件を満たしていることを確認します。 詳細については、「[Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md)」を参照してください。
   
 Skype ルーム システム v2 を展開する作業を開始する前に、関連付けられているコマンドレットを実行する適切なアクセス許可があることを確認します。
   
-1. PC からリモートの Windows PowerShell セッションを開始し、Exchange に接続します。 
-    
-   ```
+1. PC からリモートの Windows PowerShell セッションを開始し、Exchange に接続します。
+
+   ``` Powershell
    Set-ExecutionPolicy Unrestricted
    $org='contoso.com'
    $cred=Get-Credential $admin@$org
@@ -45,59 +45,58 @@ Skype ルーム システム v2 を展開する作業を開始する前に、関
    $sessLync = New-PSSession -Credential $cred -ConnectionURI "https://$strLyncFQDN/OcsPowershell" -AllowRedirection -WarningAction SilentlyContinue
    Import-PSSession $sessExchange
    Import-PSSession $sessLync
- 
    ```
 
    $StrExchangeServer は、Exchange サーバーの完全修飾ドメイン名 (FQDN)、$strLyncFQDN は、ビジネスのサーバーの展開に、Skype の FQDN を確認します。
-    
+
 2. セッションを確立するには後、するが新しいメールボックスを作成して、RoomMailboxAccount、として有効にか既存の会議室メールボックスの設定を変更します。 これにより、Skype ルーム システム v2 を認証するためにアカウントが許可されます。
-    
+
     既存のリソース メールボックスを変更している場合:
-    
-   ```
+
+   ``` Powershell
    Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password>
    -AsPlainText -Force)
    ```
 
    : 新しいリソース メールボックスを作成する場合
-    
-   ```
-   New-Mailbox -UserPrincipalName PROJECTRIGEL01@contoso.com -Alias PROJECTRIGEL01 -Name "Project-Rigel-01" -Room 
+
+   ``` Powershell
+   New-Mailbox -UserPrincipalName PROJECTRIGEL01@contoso.com -Alias PROJECTRIGEL01 -Name "Project-Rigel-01" -Room
    -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
 3. 人の会議エクスペリエンスを向上させるためにデバイスのアカウントには、Exchange のさまざまなプロパティを設定できます。 設定する必要のあるプロパティは、「Exchange のプロパティ」セクションで確認できます。
-    
-   ```
-   Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments 
+
+   ``` Powershell
+   Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
    $false -DeleteSubject $false -RemovePrivateProperty $false
    Set-CalendarProcessing -Identity $acctUpn -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
 4. 無期限のパスワードを入力する場合も Windows PowerShell コマンドレットを設定できます。 詳細については、「パスワードの管理」を参照してください。
-    
-   ```
+
+   ``` Powershell
    Set-AdUser $acctUpn -PasswordNeverExpires $true
    ```
 
 5. Skype ルーム システム v2 を認証するために Active Directory のアカウントを有効にします。
-    
-   ```
+
+   ``` Powershell
    Set-AdUser $acctUpn -Enabled $true
    ```
 
 6. ビジネス サーバー プールのため、Skype の Skype ルーム システム v2 Active Directory アカウントを有効にすると、Business Server の Skype でデバイスのアカウントを有効にします。
-    
-   ```
-   Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com 
+
+   ``` Powershell
+   Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com
    -RegistrarPool LYNCPool15.contoso.com -Identity PROJECTRIGEL01
    ```
 
-    セッション開始プロトコル (SIP) アドレスとプロジェクトのドメイン コントローラーを使用する必要があります。 
-    
+    セッション開始プロトコル (SIP) アドレスとプロジェクトのドメイン コントローラーを使用する必要があります。
+
 7. **オプション。** Skype ルーム システムの v2 になり、公衆交換電話網 (PSTN) 電話でお使いのアカウントでエンタープライズ VoIP を有効にすることも可能です。 エンタープライズ VoIP Skype ルーム システム v2 では、必要のないが、PSTN のダイヤル機能を Skype ルーム システムのバージョン 2 のクライアントの使用すると、それを有効にする方法です。
-    
-   ```
+
+   ``` Powershell
    Set-CsMeetingRoom PROJECTRIGEL01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
    Set-CsMeetingRoom -DomainController DC-ND-001.contoso.com -Identity PROJECTRIGEL01 -EnterpriseVoiceEnabled $true
    Grant-CsVoicePolicy -PolicyName VP1 -Identity PROJECTRIGEL01
@@ -105,17 +104,17 @@ Skype ルーム システム v2 を展開する作業を開始する前に、関
    ```
 
    繰り返しますが、提供されるドメイン コントローラーと電話番号の例は、実際に使用する情報に置き換える必要があります。パラメータ値 $true は同じままです。
-    
+
 ## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>Exchange およびビジネス上のサーバー設置型の Skype のサンプル: ルームのアカウントのセットアップ
 
-```
-New-Mailbox -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force) 
+``` Powershell
+New-Mailbox -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force)
 -UserPrincipalName rigel1@contoso.com
- 
-Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false 
+
+Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false
 -RemovePrivateProperty $false
 Set-CalendarProcessing -Identity rigel1 -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
- 
+
 Enable-CsMeetingRoom -Identity rigel1@contoso.com -RegistrarPool cs3.contoso.com -SipAddressType EmailAddress
 Set-CsMeetingRoom -Identity rigel1 -EnterpriseVoiceEnabled $true -LineURI tel:+155555555555
 Grant-CsVoicePolicy -PolicyName dk -Identity rigel1

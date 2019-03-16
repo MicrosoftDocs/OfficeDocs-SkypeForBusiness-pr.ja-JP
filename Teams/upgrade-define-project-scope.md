@@ -3,7 +3,7 @@ title: スコープ Skype をビジネスでマイクロソフトのチームの
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: ビジョンと目標が調整され、アップグレード プロジェクトのスコープです。
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a4d042864e3260404ddbbaa56f39c7408a0896c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 346fbfc241616af0ac071269f73dbc4f1ad66bfb
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464829"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649405"
 ---
 ![プロジェクトの定義の段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-project-definition.png "プロジェクトの定義の段階に重点を置いて、旅アップグレードの段階")
 
@@ -28,14 +28,14 @@ ms.locfileid: "30464829"
 
 - [参加しているプロジェクトの関係者](upgrade-enlist-stakeholders.md)
 
-# <a name="define-your-project-scope"></a>プロジェクト スコープを定義します。
+# <a name="define-your-project-scope"></a>プロジェクトの対象範囲を定義する
 
 かかる時間が、プロジェクトのビジョン、範囲、目標、およびガバナンスの定義により、すべてのプロジェクトの利害関係者それぞれ揃えられ、最後の結果は同じ方向に操作します。 これは、新たな技術チームとユーザーの準備のチーム作業するしない独立して、それぞれのピースを組み合わせることは特に重要です。 このセクションを完了すると、したいと思った最後の状態を達成するためにトラックを走行していることを確認するのにはプロジェクト全体を参照してください。 目標に対して、結果を測定する下を確認し、必要に応じてを軽減するために使用します。
 
 | | |
 |---|---|
-| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>(つまり、なぜそれをやる) には、このプロジェクトで実行するのには何をしますか。</li><li>ような成功が見えますか。</li><li>リスクとそのリスクを軽減するための計画とは何ですか。</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>プロジェクト チームとのスポンサーでは、次のセクションについて説明します。</li><li>ビジョン、範囲、目標、およびこのプロジェクトのリスクをドキュメント化します。</li><li>適切なチームが機能していることを検証するためにプロジェクト チームを再検討します。</li></ul>|
+| ![](media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>(つまり、なぜそれをやる) には、このプロジェクトで実行するのには何をしますか。</li><li>ような成功が見えますか。</li><li>リスクとそのリスクを軽減するための計画とは何ですか。</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>プロジェクト チームとのスポンサーでは、次のセクションについて説明します。</li><li>ビジョン、範囲、目標、およびこのプロジェクトのリスクをドキュメント化します。</li><li>適切なチームが機能していることを検証するためにプロジェクト チームを再検討します。</li></ul>|
 
 ## <a name="project-vision"></a>プロジェクト ビジョン
 
@@ -102,7 +102,7 @@ ms.locfileid: "30464829"
 
 | リスク | 可能性 | 影響 | 全体 | 軽減計画 |
 |---|---|---|---|-------|
-| **ネットワーク品質** | Medium | 高 | 高 | ネットワーク計画の手順を実行します。 |
+| **ネットワーク品質** | 中 | 高 | 高 | ネットワーク計画の手順を実行します。 |
 | **低いユーザーの導入** | 高 | 高 | 高 | パイロットおよび展開の段階で、ユーザーと積極的に協力します。認識の対象としたいという欲求を作成するトレーニング キャンペーンを実装します。 |
 | | | | | |
 

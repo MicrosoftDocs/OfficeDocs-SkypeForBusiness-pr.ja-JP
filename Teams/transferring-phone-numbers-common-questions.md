@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 次は、よく寄せられる質問について、ビジネスの Skype に電話番号を転送します。 回答を確認するには後のポートの順序を作成し、自分の電話番号を転送する準備ができます。 手順については、Office 365 に転送電話番号を参照してください。
-ms.openlocfilehash: 57d20095302e4a971ea35a91e1fb46e4499735f9
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 311eaa78920b3853947df5dd375c6471cab4d8aa
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543216"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649429"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>電話番号の移行に関するよくある質問
 
@@ -69,7 +69,7 @@ ms.locfileid: "30543216"
   **移行できません:**
   
 > [!NOTE]
-> 現時点では、VoIP 電話プロバイダーの電話番号を含むサポートされている国/地域以外の電話番号を移転することはできません。 サポートされている国/地域の一覧を表示するには、[オーディオ会議や予定を呼び出すための国および地域の可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を参照してください。
+> この時点では、任意の電話番号または、サポートされている国/地域、電話の VoIP プロバイダーからの電話番号を含むからではない数値を転送できません。 サポートされている国/地域の一覧を表示するには、[オーディオ会議や予定を呼び出すための国および地域の可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を参照してください。
   
 - DSL 回線やブロードバンド インターネット接続などのデータ接続で使用される電話番号を移転することもできません。
     

@@ -5,7 +5,7 @@ ms.author: karuanag
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83a5d4d40b7370a2c609f33d056443c5dee06167
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: d01f99baba0d9a648897cd28a87979eb75f03e44
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460477"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30647562"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft Teams の導入段階 1 - 開始
 
@@ -44,7 +44,7 @@ ms.locfileid: "30460477"
 
 プロジェクト チームの中心的な役割を次の表にします。 小規模な組織では、これらの役割の一部が実行する同じ人が。
 
-| 役割 | 責任 | 部門 |
+| [役割] | 責任 | 部門 |
 | ---- | ---------------- | ---------- |
 | エグゼクティブ スポンサー<sup>1</sup> | 高度なビジョンを通信します。 チームの実装を会社のコア ・ ミッションと優先順位のイニシアティブに接続します。 | 経営幹部のリーダーシップ |
 | 成功の所有者<sup>1</sup> | チームの展開から、ビジネスの目標が実現されることを確認します。 | その他の部門 |

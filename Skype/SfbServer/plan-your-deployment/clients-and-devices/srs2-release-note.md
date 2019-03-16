@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: この資料では、Skype ルーム システム v2 の累積的な機能強化について説明します。
-ms.openlocfilehash: 7eb6eb3c9bcd2cbbbe72a6fc96d619303216cd37
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: fefad8a37d53760a81b2ea78e73bbd75069c848f
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729401"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30645357"
 ---
 # <a name="release-notes"></a>リリース ノート 
 
@@ -26,6 +26,8 @@ ms.locfileid: "28729401"
 
 | リリース | 発行 <br>マイクロソフト ストア | 
 | ---     | ---  |
+| 4.0.78.0 | 03/14/2019   |
+| 4.0.76.0 | 03/04/2019   |
 | 4.0.64.0 | 2018/12/14   |
 | 4.0.51.0 | 2018/11/17   | 
 | 4.0.31.0 | 2018/10/16   | 
@@ -50,6 +52,19 @@ ms.locfileid: "28729401"
 
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Skype ルーム システム v2 の機能の概要と問題解決
+
+### <a name="40780-03142018"></a>4.0.78.0 (2018/03/14)
+この更新プログラムで導入されています。
+- レガシ Windows 10 RS2 ビルド上のデバイスに影響を与えた「アプリケーションの起動時にハング」のバグを修正します。  
+
+### <a name="40760-03042019"></a>4.0.76.0 (03/04/2019)
+この更新プログラムで導入されています。
+- マイクロソフトのチーム会議の DTMF キーパッドです。 マイクロソフトのチームを既定の呼び出し元のクライアントにするには、管理者は、true に設定する IsTeamsDefaultClient を設定する必要があります。
+- ルームのディスプレイの前面には、リモートの参加者の入力元のビデオを全画面表示を固定できます。 コンソールの参加者の名簿からの「ピン」コマンドを使用してください。
+- ロビー フロントの部屋の通知の通知の強化
+- ルーム システムのデバイスで Bluetooth のビーコンが有効になっていない部屋のディスプレイの前面がキャスト アイコンを削除します。
+- チームのミーティングでのボリューム コントロールの問題を修正します。
+
 
 ### <a name="40640-12142018"></a>4.0.64.0 (12/14/2018)
 この更新プログラムで導入されています。
@@ -159,7 +174,7 @@ Skype ルーム システム v2 リリース 3.0.12.0 (アップデート 3) は
 - パブリック ビルドのフィードバックを提供する機能     
 - 会議の結合の信頼性を向上させる遠隔測定     
 - 追加 OMS の報告     
-- デバイスをリモートで構成する IT 管理者の機能<!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
+- デバイスをリモートで構成する IT 管理者の機能  <!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
 
 
 ### <a name="2020-03152017"></a>2.0.2.0 (2017/03/15)
@@ -198,7 +213,7 @@ Skype ルーム システム v2 リリース 3.0.12.0 (アップデート 3) は
  
 
 <a name="See"> </a>  
-## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
+## <a name="see-also"></a>関連項目
 
 [Skype ルーム システムのバージョン 2 のヘルプ](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 

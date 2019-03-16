@@ -3,7 +3,7 @@ title: サービスの管理と品質を計画します。技術への対応
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: このガイドを使用して、提供し、高品質のマイクロソフト チーム配置を維持するために必要な要件について説明します。
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc1332acb7f6623ed3d9faf8919558b71d4b347d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 45dafd29302dc26dae80461a7c4082c6a73469c8
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465189"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649517"
 ---
 ![技術的な準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-tech-readiness.png "技術的な準備段階に重点を置いて、旅アップグレードの段階")
 
@@ -33,7 +33,7 @@ ms.locfileid: "30465189"
 
 <!-- [!INCLUDE [envision-planning-for-service-management-and-quality-complete-guide](envision-planning-for-service-management-and-quality-complete-guide.md)]-->
 
-# <a name="plan-for-quality"></a>品質管理の計画
+# <a name="plan-for-quality"></a>品質を計画する
 
 オーディオ、ビデオ、または会議を導入する場合は、その機能の環境を最適化するための追加手順を実行できます。 この内容は、高品質な Microsoft Teams の展開の実現と保守管理のために必須となる要件の概要を提供するものです。 サービスの管理と、最初のパイロットまたは運用展開の前に、品質の計画での展開を成功させることを確認することができます。
 

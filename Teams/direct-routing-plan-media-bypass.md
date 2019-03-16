@@ -15,18 +15,18 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 電話システムの直接のルーティングのメディア バイ パスを計画する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 39fc46fb95fef1d78f6f6cc946693f05c7c1f865
-ms.sourcegitcommit: 260635a24b282fbdf4a4aeffdb0f4f9be5407ec6
+ms.openlocfilehash: 6a152fed20dde9d641abfab1bdba7b211f2dcdb9
+ms.sourcegitcommit: 27cf21fb02632e9f65dfa2f995120fb927114b3d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30631067"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30649213"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>メディアを直接ルーティングをバイパスするための計画します。
 
 ## <a name="about-media-bypass-with-direct-routing"></a>直接ルーティングでのメディア バイ パスについて
 
-メディア バイ パスを使用すると、メディア トラフィックのパスを短くして、パフォーマンス向上のための転送中にホップの数を減らすことができます。 メディアのバイパスをメディアは、セッション ボーダー コント ローラー (SBC) と Microsoft の電話システムを使用して送信する代わりにクライアントの間で保持されます。 メディアを構成するのには、SBC とクライアントのバイパスが同じ場所またはネットワークである必要があります。
+メディア バイ パスを使用すると、メディア トラフィックのパスを短くして、パフォーマンス向上のための転送中にホップの数を減らすことができます。 メディアのバイパスをメディアは、セッション ボーダー コント ローラー (SBC) と Microsoft の電話システムを使用して送信する代わりにクライアントの間で保持されます。 メディアを構成するのには、SBC とクライアントのバイパスは、同じ場所またはネットワークでなければなりません。
 
 各 SBC のメディア バイ パスを制御するには、**セット CSOnlinePSTNGateway**コマンドを使用するには true または false に設定 **- MediaBypass**パラメーターを使用しています。 メディアのバイパスを有効にした場合とメディアのすべてのトラフィックが企業ネットワークの範囲内に収まることは限りません。 この資料では、さまざまなシナリオでの呼び出しの流れを説明します。    
 

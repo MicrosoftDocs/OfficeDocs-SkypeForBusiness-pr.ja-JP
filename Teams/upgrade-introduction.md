@@ -24,14 +24,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e06766ffd650a28f13d2b89f969a1a5c87a9fe0
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: a6fe072d3ffa8764b0c5f86347db4c187e18b046
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494054"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649237"
 ---
-# <a name="upgrade-to-teams"></a>チームへのアップグレード
+# <a name="upgrade-to-teams"></a>Teams へのアップグレード
 
 マイクロソフトのチームにビジネス用の Skype から、保留中のアップグレードおめでとうございます。 いるを初めて使用するチームは、既に Skype と共にチームを使用して、ビジネス、またはすべてのものがあることを確認したいをアップグレードする準備ができて、チームへの成功の道のりを移動する必要があります。  
 
@@ -42,8 +42,8 @@ ms.locfileid: "30494054"
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
 > [!Tip]
-> Skype for Business から Microsoft Teams へのアップグレードについては、次のセッションをご覧ください。
+> マイクロソフトのチームには、ビジネスの Skype からのアップグレードの詳細については、次のセッションを確認してください。
 > - [アップグレードの概要](https://aka.ms/teams-upgrade-intro)
-> - [アップグレードの計画](https://aka.ms/teams-upgrade-plan)
-> - [共存および相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)
-> - [管理者のエクスペリエンス](https://aka.ms/teams-upgrade-admin)
+> - [アップグレードを計画します。](https://aka.ms/teams-upgrade-plan)
+> - [共存と相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [管理者の経験](https://aka.ms/teams-upgrade-admin)

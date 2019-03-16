@@ -3,7 +3,7 @@ title: 利害関係者を参加させます。チームにビジネス用の Sky
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: アップグレードのプロジェクト チームに提供するには、利害関係者を参加させます。
@@ -15,18 +15,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c456d60d8dc4f98e2fa75b90dfbb80c0fd90f13
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 6de0b8a3924a9f4e80bd1ff462a5a7dd9e8f8bd6
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461293"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649205"
 ---
 ![プロジェクト利害関係者のチームを収集することに重点を置いて、旅アップグレードの段階](media/upgrade-banner-stakeholders.png "プロジェクト利害関係者のチームを収集することに重点を置いて、旅アップグレードの段階")
 
 この資料では、アップグレードの旅をプロジェクトの成功のために完了して最も重要な活動のプロジェクト利害関係者のステージの一部です。
 
-# <a name="enlist-your-project-stakeholders"></a>プロジェクトの利害関係者を参加させる
+# <a name="enlist-your-project-stakeholders"></a>プロジェクト関係者に協力を求める
 
 説明責任を推進するプロジェクトの成果物を実装するには、プロジェクトの成功にキーを押しながら、関係者です。 割り当てたい関係者の 2 つのグループ: 経営幹部やプロジェクトのスポンサーに強い関心があるし、影響を与えるプロジェクトの成功、および (2) で、_プロジェクト チーム_で構成されるユーザーが含まれています (1) の_支援体制の構築_プロジェクトのさまざまなタスクを完了する予定の技術を確保し、ユーザーへの対応、責任者を計画します。 これら 2 つのグループ間で共通のスレッドでは、_プロジェクト マネージャー_プロジェクトのタスクがスケジュールどおりに完了を取得し、レポート プロジェクトのステータスは、次対仏大同盟に戻ることを確実にします。
 
@@ -37,8 +37,8 @@ ms.locfileid: "30461293"
 
 | | |
 |---|---|
-| ![](media/audio_conferencing_image7.png) <br/>判断ポイント | <ul><li>このプロジェクトの利害関係者チームとして機能する適切な人がいるでしょうか。</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>次の手順 | <ul><li>プロジェクトのスコープを考慮し、関連する利害関係者を割り当てます。</li><li>ガイドラインとして次の表を使用しますが、この一覧がすべてではないことに注意してください。<br><strong>ヒント</strong><br>さらには責任は単にプロジェクトの特定の領域に情報を保持する必要がありますから人を区別するために担当の責任者の相談・情報に基づく[(RACI) の行列](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix)を作成します。</li> |
+| ![](media/audio_conferencing_image7.png) <br/>判断のポイント | <ul><li>このプロジェクトの利害関係者チームとして機能する適切な人がいるでしょうか。</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>次のステップ | <ul><li>プロジェクトのスコープを考慮し、関連する利害関係者を割り当てます。</li><li>ガイドラインとして次の表を使用しますが、この一覧がすべてではないことに注意してください。<br><strong>ヒント</strong><br>さらには責任は単にプロジェクトの特定の領域に情報を保持する必要がありますから人を区別するために担当の責任者の相談・情報に基づく[(RACI) の行列](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix)を作成します。</li> |
 | <li>運営委員会を作成し適切な役割を割り当てるかどうかを決定します。</li></ul> | |
 
 | 役割 | 責任 |

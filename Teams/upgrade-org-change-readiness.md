@@ -3,7 +3,7 @@ title: Skype ビジネスでマイクロソフトのチーム。アップグレ�
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: 組織とユーザーは、マイクロソフトのチームの準備ができていることを確認
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00294800f0e63c45c550b46be59623349ed3ade7
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 0ac397a7ba54a81a2d92cf4823144da2b0c56a3c
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465237"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649453"
 ---
 ![ユーザーの準備段階に重点を置いて、旅アップグレードの段階](media/upgrade-banner-user-readiness.png "ユーザーの準備段階に重点を置いて、旅アップグレードの段階")
 
@@ -31,7 +31,7 @@ ms.locfileid: "30465237"
 - [Skype for Business と Teams の共存と相互運用を理解した](https://aka.ms/SkypeToTeams-Coexist)
 - [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-# <a name="assess-organizational-change-readiness"></a>組織変更の導入準備を評価します。
+# <a name="assess-organizational-change-readiness"></a>組織的な変更の準備状況を評価する
 
 アップグレード、旅には、次の手順は、組織とユーザーがチームの準備ができていることを確認するのには、プロジェクト チームは、セキュリティで保護し、ビジョン、スコープ、および目標を定義した後、活動の技術的な準備を確保すると同時に完了すること。 チームからの値を実現するには、ユーザーする必要があります実際に使用します。 チームを有効にするだけには、目標を達成することは保証します。 ユーザー別のユース ケースとさまざまな学習スタイルを異なるスピードで新技術に適応します。 良いニュースがすべて非常に複雑でない変更を管理する専門の残存作業時間がかかるが。 についてのガイドの説明は、容易にして、ユーザーの採用を促進する教育の適切なレベルを準備することができますように、ユーザー ベースを理解するために設計されています。 2 つの方法が、ユーザー ベースを確認する必要があります。
 
@@ -43,14 +43,14 @@ ms.locfileid: "30465237"
 
 | | |
 |---|---|
-| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>変更する際に、組織の文化とは?</li><li>新しいテクノロジーがユーザーの作業方法を最適化する方法ことができますか。</li><li>ユーザーは、作業方法を変更させるために特別な注意を必要とする可能性がありますか。</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>準備の組織のユーザー プロファイルをキャプチャするのには、次のガイダンスと関連付けられているアクティビティを使用します。</li></ul>|
+| ![](media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>変更する際に、組織の文化とは?</li><li>新しいテクノロジーがユーザーの作業方法を最適化する方法ことができますか。</li><li>ユーザーは、作業方法を変更させるために特別な注意を必要とする可能性がありますか。</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>準備の組織のユーザー プロファイルをキャプチャするのには、次のガイダンスと関連付けられているアクティビティを使用します。</li></ul>|
 
 ## <a name="organizational-change-readiness"></a>組織の変更の準備完了
 
 判断できますが、組織の準備を評価するには、どの申し入れ (または指定されない)、ユーザーはこれらの作業方法を変更して、新しいテクノロジを採用することにする可能性があります。 変更にユーザーがどのように対応するかを理解することに積極的に問題に対応、最適な購入では、取得するのには、展開の計画を調整して実際に役立つ、同業者の変更を容易にするユーザーを特定する組織を支援します。
 
-### <a name="activity"></a>アクティビティ
+### <a name="activity"></a>活動
 
 組織の準備の評価を実施し、変更する際に、組織の文化を文書化するには、次の対話の糸口を使用します。 この情報は、どの程度意識してトレーニングする必要があります、プロジェクトの実装に通知できます。 正確な数値を心配ありません。 この練習では、全般的に、組織の文化の理解を表します。 作業の開始に役立ちますが、単に過去のロールアウトを評価する必要がある場合変更して予想される反応をプロアクティブに対処するためにユーザーをどのように対処することが予想できます。
 
@@ -104,7 +104,7 @@ ms.locfileid: "30465237"
 | | |
 |---|---|
 | ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>チームのユーザーの採用を促進し、ビジネスの Skype からのアップグレードを容易にするために役立つ relatable チームワーク シナリオを採用するでしょうか。</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>チームワーク シナリオを作成するために次のサンプルを使用します。 [ブックのアップグレード](https://aka.ms/upgradesuccesskit)で、文書化します。</li><li>その他のシナリオと例については、[生産性のライブラリ](https://www.microsoft.com/en-us/microsoft-365/success/)に移動します。</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>チームワーク シナリオを作成するために次のサンプルを使用します。 [ブックのアップグレード](https://aka.ms/upgradesuccesskit)で、文書化します。</li><li>その他のシナリオと例については、[生産性のライブラリ](https://www.microsoft.com/en-us/microsoft-365/success/)に移動します。</li></ul>|
 
 ### <a name="examples"></a>例
 
