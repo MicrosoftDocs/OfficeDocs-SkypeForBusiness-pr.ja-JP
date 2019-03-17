@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/16/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: rowille
 description: サービス、ネットワーク、エンドポイントの動作状態を管理することや、運用や品質チャンピオンの役割を定義することによって、高品質な Teams のユーザー エクスペリエンスを実現します。
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5aba748798870193e615eea56331f15cf0aaa530
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 29f8406eea943b86bf75a4dfeec6feb723bcb02e
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462029"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30568611"
 ---
 # <a name="plan-for-service-management-and-quality"></a>サービス管理と品質の計画
 
