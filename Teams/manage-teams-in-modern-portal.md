@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 管理センターでチームを管理する
+title: マイクロソフトのチームの管理センターでのチームを管理します。
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -24,7 +24,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 03/08/2019
 ms.locfileid: "30494038"
 ---
-<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでチームを管理する
+<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>マイクロソフトのチームの管理センターでのチームを管理します。
 ==========================================
 
 [!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]

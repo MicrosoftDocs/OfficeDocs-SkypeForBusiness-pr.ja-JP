@@ -13,6 +13,8 @@
 
 ### [オンプレミスの PSTN 接続を使用した電話システムの計画](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
 
+### [Skype for Business Server でオンプレミスの PSTN 接続を使用して電話システムのユーザーを有効にする](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md)
+
 
 ### [Skype for Business Cloud Connector エディションの計画](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)
 #### [Cloud Connector エディション PSTN サイトの計画](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-cloud-connector-edition-pstn-sites.md)

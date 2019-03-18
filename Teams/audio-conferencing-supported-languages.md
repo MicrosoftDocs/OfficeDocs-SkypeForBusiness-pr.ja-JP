@@ -23,10 +23,10 @@ ms.custom:
 - Audio Conferencing
 description: それぞれのダイヤルイン会議言語を検索 (EN-US、da DK、DE-DE など)、国または地域、およびカルチャ ID が割り当てられています。
 ms.openlocfilehash: 32e2c93cc43d548e96c2cda7c2e501e3b94fab80
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 7ca7f5cd38742b6a1967bd792113348dfe689850
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
+ms.lasthandoff: 03/18/2019
 ms.locfileid: "30569663"
 ---
 # <a name="audio-conferencing-supported-languages"></a>電話会議でサポートされている言語

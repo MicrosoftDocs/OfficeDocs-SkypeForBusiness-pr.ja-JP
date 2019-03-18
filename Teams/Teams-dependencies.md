@@ -24,9 +24,9 @@ ms.locfileid: "30458901"
 <a name="authorize-guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセスを承認する
 ===========================================
 
-To satisfy your organization’s requirements, you can manage Microsoft Teams guest access features and capabilities through four different levels of authorization. All the authorization levels apply to your Office 365 tenant. Each authorization level controls the guest experience as shown below:
+組織の要件を満たすために、Microsoft Teams のゲスト アクセス機能を 4 つの異なる承認レベルで管理することができます。 すべての承認レベルが Office 365 テナントに適用されます。 それぞれの承認レベルによって、ゲストのエクスペリエンスが次の通り制御されます。
 
-- **Azure Active Directory**: Guest access in Microsoft Teams relies on the Azure AD business-to-business (B2B) platform. Controls the guest experience at the directory, tenant, and application level. 
+- **Azure Active Directory**: Microsoft Teams のゲスト アクセスは、Azure Active Directory ビジネス ツー ビジネス (B2B) プラットフォームに依存します。 ゲストのエクスペリエンスをディレクトリ、テナント、およびアプリケーション レベルで制御します。 
 - **Microsoft Teams**: Microsoft Teams のみを制御します。 
 - **Office 365 グループ**: Office 365 グループおよび Microsoft Teams でのゲスト エクスペリエンスを制御します。
 - **SharePoint Online と OneDrive for Business**: SharePoint Online、OneDrive for Business、Office 365 グループ、および Microsoft Teams でのゲスト エクスペリエンスを制御します。
@@ -54,20 +54,20 @@ Azure AD を使用すると、来園者とはどのような方法で、社外�
 
 ![Azure Active Directory ポータルのユーザー設定のスクリーンショット。](media/teams_dependencies_image2.png)
 
-Azure AD での、外部ユーザーを構成するための設定は次のとおりです。
+Azure AD には、外部のユーザーを構成するのには次の設定が含まれています。
 
-- **[Guest user permissions are limited (ゲスト ユーザーのアクセス権を制限)]**: **[Yes (はい)]** の場合、ゲストにはユーザー、グループ、その他のディレクトリ リソースの列挙などの特定のディレクトリのタスクに対するアクセス権はありません。 また、自分のディレクトリでの管理者の役割にゲストを割り当てることはできません。 **[No (いいえ)]** の場合、自分のディレクトリで一般ユーザーが持っているアクセス権と同じアクセス権を、ゲスト ユーザーが持つことになります。
-- **[Admins and users in the guest inviter role can invite (管理者とゲスト招待元ロールのユーザーが招待可能)]**: **[Yes (はい)]** の場合、管理者およびゲスト招待元ロールのユーザーがテナントにゲストを招待することができます。 **[No (いいえ)]** の場合、管理者およびユーザーはゲストをテナントに招待することができません。
-- **[Members can invite (メンバーが招待可能)]**: **[Yes (はい)]** の場合、自分のディレクトリ内の管理者ではないメンバーが、Azure AD によってセキュリティが確保された SharePoint サイトや Azure リソースなどで共同作業を行うゲストを招待することができます。 **[No (いいえ)]** の場合、ゲストを自分のディレクトリに招待できるのは管理者のみになります。</br>
+- **ゲスト ユーザーのアクセス許可が制限されます**: **[はい]** [来園者がディレクトリの特定のタスクのアクセス許可を持つ、ユーザー、グループ、またはその他のディレクトリ リソースを次のように列挙されていないことを意味します。 さらに、来園者は、ディレクトリ内の管理役割に割り当てることができません。 来園者は**** ことを意味では、通常のユーザーのディレクトリにあるディレクトリ データへのアクセスがありません。
+- **管理者グループおよびゲストの招待者のロールにユーザーを招待できます**:**はい**できることを意味管理者グループおよびユーザーを「ゲスト招待者」の役割テナントには、来園者を招待します。 **なし**には、管理者ことを意味し、ユーザーは、テナントには、来園者を招待できません。
+- **メンバーが招待することができます**:**はい**ディレクトリの管理者以外のメンバーが、Azure AD、SharePoint サイトまたは Azure のリソースなど、セキュリティで保護されたリソースに対する共同作業を行うには、来園者を招待することを意味します。 ディレクトリに来園者は管理者のみが招待することができます**しない**ことを意味します。</br>
       
     > [!NOTE]
     > 現時点では、チームでは、ゲストの招待者の役割をサポートしていません。 最低限の**メンバーを招待できます**] に **[はい]** のゲスト アクセスのチームで作業するのには表示/非表示を設定しなければなりません。
-- **来園者が招待することができます**: **[はい]** をディレクトリ内には、来園者自身に招待できます、Azure AD、SharePoint サイトまたは Azure のリソースなど、セキュリティで保護されたリソースに対する共同作業を行うには、他のゲストを意味します。 **[No (いいえ)]** の場合、組織と共同作業を行う他のゲストをゲストが招待することはできません。
+- **来園者が招待することができます**: **[はい]** をディレクトリ内には、来園者自身に招待できます、Azure AD、SharePoint サイトまたは Azure のリソースなど、セキュリティで保護されたリソースに対する共同作業を行うには、他のゲストを意味します。 来園者は**ない**ことを意味は、組織との共同作業には、他のゲストを招待できません。
  
 来園者を招待することができますを制御する方法の詳細については、 [Azure Active Directory の B2B の共同作業のための代理人の招待状](https://docs.microsoft.com/en-us/azure/active-directory/b2b/delegate-invitations)を参照してください。
 
 > [!NOTE]
-> どのドメインをゲストとしてテナントに招待することができるかを管理することもできます。 詳細については、「[Allow/Block guest access to Office 365 groups (Office 365 グループへのゲスト アクセスを許可/拒否する)](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups)」をご覧ください。 
+> ゲストとして、テナントにどのドメインを招待することができますを管理することもできます。 [Office 365 のグループへのゲスト アクセスの許可/禁止](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups)を参照してください。 
 
 アカウント追加されるので、ディレクトリに自動的にチームにゲストを追加すると、Azure AD B2B にユーザー アカウントを手動で追加する必要はありません。 
 
@@ -84,7 +84,7 @@ Azure AD のライセンスを使用すると、1 ライセンスあたり 5 つ
 
 Office 365 グループから、自分の組織内のすべての Office 365 グループおよび Microsoft Teams へのゲスト ユーザーおよびゲスト アクセスの追加を制御できます。
 
-1. Office 365 グローバル管理アカウントを使用して、[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) にサインインします。
+1. Office 365 のグローバル管理者アカウントを使用してサインイン[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)。
     
 2. ナビゲーション メニューで [**設定**] を選択し、[**Services &amp; add-ins (サービスとアドイン)**] を選択します。
     
