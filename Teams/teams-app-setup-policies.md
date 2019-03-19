@@ -3,8 +3,8 @@ title: Microsoft Teams のアプリのセットアップ ポリシーを管理�
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 2/11/2019
-ms.reviewer: larryjin
+ms.date: 3/18/2019
+ms.reviewer: lajin
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,17 +17,18 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: マイクロソフトのチームおよび組織内のユーザーのチームをカスタマイズするのには暗証番号 (pin) のアプリケーションを使用するアプリケーション設定のポリシーについて説明します。
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6c88ba45aba076c6e26fe8bc16fd3643499a881b
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+f1keywords:
+- ms.teamsadmincenter.apppolicies.setup
+ms.openlocfilehash: 29fcd5541e4817a2c5880316bba33d7d55047444
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541825"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664749"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 管理者としては、マイクロソフトのチームは、ユーザーにとって最も重要なアプリケーションを強調表示をカスタマイズするのにはアプリケーションの設定のポリシーを使用できます。 固定し、表示される順序を設定するアプリケーションを選択します。 アプリケーション設定のポリシーを使用するサード ・ パーティまたは組織内の開発者によって構築されたものなど、組織内のユーザーを必要とするアプリケーションを紹介します。 どの組み込みの機能を管理するアプリケーション設定のポリシーを使用することも表示されます。
 
@@ -50,10 +51,10 @@ ms.locfileid: "30541825"
 
 マイクロソフトのチームの管理センターを使用すると、カスタム ポリシーを作成します。
 
-1. マイクロソフトのチーム管理センターの左側のナビゲーションで、**チームのアプリケーション**に移動 > **アプリケーションの設定のポリシー**です。
+1. マイクロソフトのチーム管理センターの左側のナビゲーションで**チームのアプリケーション**に移動する > **のポリシーを設定**します。
 2. **新しいポリシー**を選択します。
 3. ポリシーのわかりやすい名前を入力し、[**アプリケーションの追加**] をクリックします。
-4. **追加には、アプリが固定されている**ウィンドウで、アプリケーションの**追加**] をクリックし、追加する検索します。  すべてのアプリケーションの一覧を表示するには、**チームのアプリケーションの保存**を選択します。 アプリケーションの一覧を選択したら、[**追加**を] をクリックします。
+4. **追加には、アプリが固定されている**ウィンドウで、アプリケーションの**追加**] をクリックし、追加する検索します。 アプリケーションのアクセス許可ポリシーによってアプリケーションを抽出することもできます。 アプリケーションの一覧を選択したら、[**追加**を] をクリックします。
 
      ![アプリケーション ・ セットアップ ・ ポリシーの追加-apps.png](media/app-setup-policies-add-apps.png)
 
@@ -63,16 +64,19 @@ ms.locfileid: "30541825"
 
 ## <a name="edit-an-app-setup-policy"></a>アプリケーション設定ポリシーを編集します。
 
-グローバル (組織) のポリシー、カスタム ポリシーを作成するなど、ポリシーを編集するのには、マイクロソフトのチーム管理センターまたは Windows PowerShell を使用できます。 
+グローバル (組織) のポリシー、カスタム ポリシーを作成するなど、ポリシーを編集するのには、マイクロソフトのチームの管理センターを使用できます。
 
-1. マイクロソフトのチーム管理センターの左側のナビゲーションで、**チームのアプリケーション**に移動 > **アプリケーションの設定のポリシー**です。
+1. マイクロソフトのチーム管理センターの左側のナビゲーションで**チームのアプリケーション**に移動する > **のポリシーを設定**します。
 2. 編集するポリシーを選択します。 
 3. ここでは、変更します。 追加、削除、およびアプリケーションの順序を変更することができます。
-4. [**保存**] をクリックします。 
+4. **[保存]** をクリックします。
 
 ## <a name="assign-a-custom-app-setup-policy-to-users"></a>カスタム アプリケーション設定のポリシーをユーザーに割り当てる
 
-個々 のユーザーまたはセキュリティ グループなど、ユーザーのグループまたは配布グループをカスタム ポリシーを割り当てるには、Windows PowerShell にカスタム ポリシーを設定するのには、マイクロソフトのチームの管理センターを使用できます。
+カスタム ポリシーを個々 のユーザーまたはセキュリティ グループなど、ユーザーのグループまたは配布グループをカスタム ポリシーを割り当てるには、ビジネスの PowerShell モジュールの Skype を割り当てるには、マイクロソフトのチームの管理センターを使用できます。
+
+> [!IMPORTANT]
+> PowerShell を使用して、ユーザーにポリシーを割り当てることをお勧めします。 作成、編集、およびポリシーを管理するには、マイクロソフトのチームの管理センターを使用します。
 
 ### <a name="assign-a-custom-app-setup-policy-to-individual-users"></a>カスタム アプリケーション設定のポリシーを個々 のユーザーに割り当てる
 
@@ -160,4 +164,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 アプリケーションを送信する前に、ロゴのガイドラインに従うことを確認します。 詳細については、[販売者のダッシュ ボードの提出書類のチェックリスト](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist)を参照してください。 
 
  ## <a name="related-topics"></a>関連項目
+- [Teams でのアプリの管理設定](admin-settings.md)
+- [チームでのアプリケーションのアクセス許可ポリシーを管理します。](teams-app-permission-policies.md)
+- [カスタム アプリケーションのポリシーおよびチームの設定を管理します。](teams-custom-app-policies-and-settings.md)
 - [テナント アプリケーション カタログにチームのクライアントからアプリケーションを発行します。](tenant-apps-catalog-teams.md)

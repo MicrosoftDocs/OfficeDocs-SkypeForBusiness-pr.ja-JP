@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34070ae8ac21be278596960a5a15129906d867f0
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 04ab6b74745bf343ec09e887ef3e7187d3ffeaad
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463709"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664741"
 ---
 ![技術面の準備段階を強調した、アップグレード手順の各段階](media/upgrade-banner-tech-readiness.png "技術面の準備段階を強調した、アップグレード手順の各段階")
 
@@ -56,22 +56,19 @@ ms.locfileid: "30463709"
 
 ## <a name="bandwidth-planning"></a>帯域幅の計画
 
-ネットワーク上に必要な帯域幅の様相のチームは、ユーザーに提供されますが、ネットワークの準備の第一歩を確認します。 比較的簡単な作業には十分な帯域幅を計画して、高品質チームの経験をユーザーを確実に低障壁の非常に開始することです。
+マイクロソフトのチームでは、最高のオーディオ、ビデオ、およびネットワークの状態に関係なく経験を共有するコンテンツを示します。 変数のコーデックでは、限られた帯域幅の環境の影響を最小限にメディアをネゴシエートできます。 などの 1080 p のビデオ解像度を最大 30 fps のビデオとオーディオのコンテンツ、および信頼性の高い品質のエクスペリエンスを最適化できます帯域幅が問題ではない場合。
 
-帯域幅のネットワーク プランナーを使用して、チームの[アドバイザーを自分の web サイト](https://myadvisor.fasttrack.microsoft.com/)上の旅を計画を開始するとします。 ネットワーク プランナーは、計画チームのサイトごとの帯域幅を提供し、ネットワークのパフォーマンスを最適化するための推奨事項を提供します。
+この資料では、チームのリアルタイム オーディオ、ビデオ、およびデスクトップのさまざまな用途の様相を共有して帯域幅を利用する方法の簡単なバージョンについて説明します。 チームは常に帯域幅の使用に慎重であり、1.2 Mb 以下で HD ビデオの品質を提供することができます。 各オーディオとビデオ通話や会議での実際の帯域幅の消費量が異なる、レイアウトのビデオ、ビデオの解像度、ビデオのフレーム数/秒など、いくつかの要因に基づいています。多くの帯域幅が利用可能な品質と使用法が最適なエクスペリエンスを実現するのには増加します。
 
-> [!IMPORTANT]
-> 必要な帯域幅を使用できない場合は、チーム内のメディアのスタック コールまたは会議の品質に影響する使用可能な帯域幅の削減量に対応するためのオーディオ/ビデオ セッションの品質を低下します。 チームのクライアントは、ビデオの品質でオーディオの品質を優先順位を設定しようとします。 そのために必要な帯域幅利用可能な非常に重要な勧めします。
-
-|アクティビティ |帯域幅をダウンロードします。 |帯域幅をアップロードします。 |トラフィック フロー |
-|---|---|---|---|
-|**ピア ツー ピア音声通話** |0.1 Mbps |0.1 Mbps |クライアント <> クライアント |
-|**ピア ツー ピア ビデオ通話 (フル スクリーン表示)** |4 Mbps |4 Mbps |クライアント <> クライアント |
-|**デスクトップの共有のピア ツー ピア (1920& #215; 1080 の解像度)** |4 Mbps |4 Mbps |クライアント <> クライアント |
-|**2 参加者のミーティング** |4 Mbps |4 Mbps |クライアント <> Office 365 |
-|**3 参加者のミーティング** |8 Mbps |6.5 Mbps |クライアント <> Office 365 |
-|**4 参加者のミーティング** |5.5 Mbps |4 Mbps |クライアント <> Office 365 |
-|**5 つまたはより – 参加者会議** |6 Mbps |1.5 Mbps |クライアント <> Office 365 |
+|Bandwidth(up/down) |シナリオ |
+|---|---|
+|30 kbps |ピア ツー ピア音声通話 |
+|130 kbps |ピア ツー ピア音声通話や画面共有 |
+|500 kbps |ピア ツー ピアの品質のビデオの 30 fps で 360 p を呼び出す |
+|1.2 Mbps |ピア ツー ピア HD 品質のビデオ解像度の 30 fps で 720 p の HD を呼び出す |
+|1.5 Mbps |ピア ツー ピア HD 品質のビデオ解像度の 30 fps で 1080 p の HD を呼び出す |
+|500 kbps/1Mbps |グループ ビデオ通話 |
+|1Mps/2Mbps |HD グループのビデオ (1080 p の画面でビデオを 540 p) を呼び出す |
 
 ### <a name="local-internet-egress"></a>ローカルのインターネット エグレス
 
@@ -81,20 +78,20 @@ WAN でのバックホーリングのトラフィックは待機時間を増大�
 
 Microsoft のグローバル ネットワークへのネットワークパスを最適化すると、パフォーマンスが改善され、最終的にユーザーのための最高のエクスぺリエンスが提供されます。 詳細については、「[Getting the best connectivity and performance in Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694)」のブログ投稿をご覧ください。
 
-マイクロソフトのチーム内でのリアルタイムのメディアを使用して最適なエクスペリエンスを得るには、するには、Office 365 のネットワーク要件を満たす必要があります。 詳細については、「[Skype for Business Online におけるメディアの品質とネットワーク接続性のパフォーマンス](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)」をご覧ください。
+マイクロソフトのチーム内でのリアルタイムのメディアを使用して最適なエクスペリエンスを得るには、するには、Office 365 のネットワーク要件を満たす必要があります。 詳細については、[メディアの品質とビジネス オンラインの Skype のネットワーク接続のパフォーマンス](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)を参照してください。
 
-次の 2 つの重要なネットワーク セグメント (クライアントから Microsoft Edge、Customer Edge から Microsoft Edge) は、以下の要件を満たす必要があります。
+2 つ定義するネットワーク セグメント (マイクロソフトのエッジにクライアント) およびマイクロソフトのエッジにエッジを顧客には、次の要件を満たす必要があります。
 
-|**値** |**クライアントから Microsoft Edge** |**Customer Edge から Microsoft Edge** |
+|**値** |**クライアントはマイクロソフトのエッジ** |**マイクロソフトのエッジにエッジを顧客** |
 |---|---|---|
-|**遅延 (一方向)** |_lt _ 50 ms |_lt _ 30 ミリ秒 |
+|**待機時間 (1 つの方法)** |_lt _ 50 ms |_lt _ 30 ミリ秒 |
 |**往復時間 (RTT) の待機時間** |_lt _ 100 ミリ秒 |_lt _ 60 ms |
-|**バースト パケット損失** |200 ミリ秒間隔で <10% |200 ミリ秒間隔で <1% |
+|**バースト パケット ロス** |200 ミリ秒間隔で <10% |200 ミリ秒間隔で <1% |
 |**パケット損失** |15 秒間隔で <1% |15 秒間隔で <0.1% |
 |**パケット間到着ジッタ** |15 秒間隔で <30 ms |15 秒間隔で <15 ms |
-|**パケットの並べ替え** |< 順序が適切でないパケットが 0.05% |< 順序が適切でないパケットが 0.01% |
+|**パケット順序の変更** |<0.05% 不適切な順序のパケット |<0.01% 不適切な順序のパケット |
 
-両方のネットワーク セグメントをテストするために、[Network Assessment Tool](https://go.microsoft.com/fwlink/?linkid=855799) を使用することができます。 このツールは、クライアント PC に直接展開したり、Customer Network Edge に接続された PC に展開したりすることができます。 ツールに含まれているドキュメントは限定的ですが、ツールの使用についてのより詳細なドキュメントは「[Network Readiness Assessment (ネットワークの準備状況の評価)](https://go.microsoft.com/fwlink/?linkid=855800)」にあります。 この Network Readiness Assessment を実行することによって、Microsoft Teams などのリアルタイム メディア アプリケーションを実行するためのネットワークの準備状況を検証することができます。
+両方のネットワーク セグメントをテストするには、[ネットワーク評価ツール](https://go.microsoft.com/fwlink/?linkid=855799)を使用できます。 直接およびお客様のネットワークのエッジに接続されている PC では、両方のクライアント コンピューターでこのツールを展開できます。 ツールには、制限付きのマニュアルが含まれていますが、ツールの使用方法をより深いレベルのマニュアルを参照してください:[ネットワーク対応の評価](https://go.microsoft.com/fwlink/?linkid=855800)。 このネットワーク対応の評価を実行すると、マイクロソフトのチームなどのリアルタイム メディアのアプリケーションを実行するのには、ネットワークの準備を検証できます。
 
 > [!NOTE]
 > これは、同じお客様にビジネス用の Skype を正常に展開を検討していることをお勧めするネットワーク対応の評価を実行します。
@@ -137,7 +134,7 @@ Wi-fi ネットワークを最適化するために用意されているいく�
 
 <!--ENDOFSECTION-->
 
-## <a name="additional-network-considerations"></a>ネットワークに関する追加の考慮事項
+## <a name="additional-network-considerations"></a>追加のネットワークに関する考慮事項
 
 ### <a name="external-name-resolution"></a>外部の名前解決
 
@@ -147,7 +144,7 @@ Wi-fi ネットワークを最適化するために用意されているいく�
 
 確認する必要がある複数のユーザーとデバイスのアクセス Office 365 ネットワーク アドレス変換 (NAT) またはポート アドレス変換 (PAT) を使用して、公的にルーティング可能な各 IP アドレスの背後にある非表示のデバイスはサポートされている数を超えていません。
 
-このリスクを軽減するには、ポートの枯渇を防ぐために NAT プールに十分なのパブリック IP アドレスが割り当てられていることを確認します。 ポート枯渇は、Office 365 サービスに接続するときに発生するエンドユーザーやデバイスの問題の原因となります。 詳細については、「[Office 365 の NAT サポート](https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365)」ガイドをご覧ください。
+このリスクを軽減するには、ポートの枯渇を防ぐために NAT プールに十分なのパブリック IP アドレスが割り当てられていることを確認します。 ポートの消費と、内部のエンド ・ ユーザーとデバイスは、Office 365 サービスに接続するときの問題に直面します。 詳細については、 [NAT は、Office 365 のサポート](https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365)を参照してください。
 
 ### <a name="intrusion-detection-and-prevention-guidance"></a>侵入の検出および防止の方法
 
@@ -208,7 +205,7 @@ Wi-fi ネットワークを最適化するために用意されているいく�
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>判断ポイント</td><td><ul><li>すべてのネットワーク セグメントと組織の位置の間で適切なネットワークの評価を完了するため管理するはだれですか。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次の手順</td><td><ul><li>ネットワークでは、マイクロソフトのチームの配置の準備ができていることを確認に役立つ詳細なネットワークの評価を行うことができます。 詳細については、<a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">ネットワーク対応の評価</a>を参照してください。</li><li>すべてのネットワーク セグメントのネットワーク対応評価の結果に基づいてネットワークの修復を実行します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>次のステップ</td><td><ul><li>ネットワークでは、マイクロソフトのチームの配置の準備ができていることを確認に役立つ詳細なネットワークの評価を行うことができます。 詳細については、<a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">ネットワーク対応の評価</a>を参照してください。</li><li>すべてのネットワーク セグメントのネットワーク対応評価の結果に基づいてネットワークの修復を実行します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

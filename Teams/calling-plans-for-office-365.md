@@ -25,16 +25,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 3f1f28862274a95f5bfbb0eb3fbdc3a32f72bc90
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 023b04b6d7826913fc0946ff88dda5c247db92c0
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542097"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664733"
 ---
 # <a name="calling-plans-for-office-365"></a>Office 365 の通話プラン
 
-ビジネスおよびマイクロソフトのチームのユーザーの他の Skype への呼び出しは、無料ですが、呼び出す計画を購入する必要があります、通常の電話を呼び出すことができることをユーザーが必要な音声呼び出しを行うサービス プロバイダーがない場合は。 [Office 365 の通話プランについて](what-are-calling-plans-in-office-365.md)
+ビジネスおよびマイクロソフトのチームのユーザーの他の Skype への呼び出しは、無料ですが、呼び出す計画を購入する必要があります、通常の電話を呼び出すことができることをユーザーが必要な音声呼び出しを行うサービス プロバイダーがない場合は。 詳細については、[電話システムおよび計画の呼び出し](calling-plan-landing-page.md)を参照してください。
   
 計画を呼び出すオプションを以下に示します。
   
@@ -90,11 +90,11 @@ ms.locfileid: "30542097"
 - [Office 365 の電話システム (クラウド PBX) ソリューションを計画する](https://go.microsoft.com/fwlink/p/?LinkId=717926)
     
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Skype for Business Online のセットアップ](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [電話システム ボイスメールのセットアップ - 管理者ヘルプ](set-up-phone-system-voicemail.md)
+- [電話システムのボイスメールをセットアップする - 管理のヘルプ](set-up-phone-system-voicemail.md)
     
 - [通話プランの設定](set-up-calling-plans.md)
     

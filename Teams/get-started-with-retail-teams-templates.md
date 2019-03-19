@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ee9ecf1a6db549a002c72f7eeea1e0a383ae966
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: e463061dca0633480124bbe91fb2e8e6f9f926f6
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543016"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664709"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>小売のチーム テンプレートを使い始める 
 
@@ -43,7 +43,7 @@ ms.locfileid: "30543016"
 
 | 基本テンプレートの種類 | baseTemplateId | この基本テンプレートに用意されているプロパティ |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| 小売- <br>ストア | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore`| チャネル <ul><li>ハンドオフにシフトします。\*</li><li>学習\*</li></ul>\*自動お気に入りチャンネル<br><br>チーム プロパティ <ul><li>チームの可視性がパブリックに設定</li></ul> <br>メンバーのアクセス許可 <ul><li>チャネルの作成、更新または削除をことはできません。 </li><li>アプリケーションの追加と削除できません。 </li><li>作成/更新/削除タブをことはできません。</li><li>コネクタの作成/更新/削除をことはできません。</li><ul>|
+| 小売- <br>ストア | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| チャネル <ul><li>ハンドオフにシフトします。\*</li><li>学習\*</li></ul>\*自動お気に入りチャンネル<br><br>チーム プロパティ <ul><li>チームの可視性がパブリックに設定</li></ul> <br>メンバーのアクセス許可 <ul><li>チャネルの作成、更新または削除をことはできません。 </li><li>アプリケーションの追加と削除できません。 </li><li>作成/更新/削除タブをことはできません。</li><li>コネクタの作成/更新/削除をことはできません。</li><ul>|
 ||||
 
 組織のストアのテンプレートをカスタマイズする方法をお勧めします。
@@ -58,7 +58,7 @@ ms.locfileid: "30543016"
 
 | 基本テンプレートの種類 | baseTemplateId | この基本テンプレートに用意されているプロパティ |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| 小売- <br>ストア | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration`| チャネル <ul><li>運用\*</li><li>学習\*</li></ul>\*自動お気に入りチャンネル<br><br>チーム プロパティ <ul><li>チームの可視性が Private に設定</li></ul> <br>メンバーのアクセス許可 <ul><li>チャネルの作成、更新または削除ができます。 </li><li>アプリケーションの追加と削除できます。 </li><li>作成/更新/削除タブをことができます。</li><li>コネクタの作成/更新/削除をことができます。</li><ul>|
+| 小売- <br>ストア | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| チャネル <ul><li>運用\*</li><li>学習\*</li></ul>\*自動お気に入りチャンネル<br><br>チーム プロパティ <ul><li>チームの可視性が Private に設定</li></ul> <br>メンバーのアクセス許可 <ul><li>チャネルの作成、更新または削除ができます。 </li><li>アプリケーションの追加と削除できます。 </li><li>作成/更新/削除タブをことができます。</li><li>コネクタの作成/更新/削除をことができます。</li><ul>|
 ||||
 
 組織のマネージャーの共同作業のテンプレートをカスタマイズする方法をお勧めします。

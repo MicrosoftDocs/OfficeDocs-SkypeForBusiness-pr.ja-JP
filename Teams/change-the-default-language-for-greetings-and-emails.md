@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Skype for Busineses をセットアップして、組織のボイスメールの既定応答メッセージで別の言語を使用する方法を説明します。 '
-ms.openlocfilehash: 0acfb798e404ea0aef4e49a866f0501b85e33653
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 6de73212df6be8a1f0d52cff8065536442085783
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541609"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664860"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>応答メッセージとメールに使用する既定の言語を変更する
 
@@ -63,9 +63,9 @@ ms.locfileid: "30541609"
     
 ## <a name="related-articles-for-the-admin"></a>管理者向けの関連記事
 
-- [Office 365 の通話プランについて](what-are-calling-plans-in-office-365.md)
+- [電話システムと通話プラン](calling-plan-landing-page.md)
     
-- [通話プランのセットアップ](set-up-calling-plans.md)
+- [通話プランの設定](set-up-calling-plans.md)
     
 - [Skype で設置した PSTN 接続を持つビジネス サーバーの Office 365 の電話システムを計画します。](https://go.microsoft.com/fwlink/?LinkId=717947)
     

@@ -1,5 +1,5 @@
 ---
-title: マイクロソフトのチームでのクラウドの声
+title: Microsoft Teams での Cloud Voice
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -15,14 +15,14 @@ search.appverid: MET150
 description: チームでクラウドの音声を展開するためのランディング ・ ページ
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93a17e76444efbc57f2d8043ca1e6eda68806263
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 1b9398e7a468c023949a0b7079d2924a9e1f0924
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465309"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664919"
 ---
-# <a name="cloud-voice-in-microsoft-teams"></a>マイクロソフトのチームでのクラウドの声
+# <a name="cloud-voice-in-microsoft-teams"></a>Microsoft Teams での Cloud Voice
 
 [使用開始](get-started-with-teams-quick-start.md)の手順は完了しています。 Teams の[チャット、チーム、チャネル、およびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)を組織全体に展開しました。 かもしれません[& 会議の会議](deploy-meetings-microsoft-teams-landing-page.md)を導入しました。 ユーザーのクラウドの音声機能を追加する準備が整いました。 
 
@@ -38,11 +38,11 @@ ms.locfileid: "30465309"
 
 次の記事では、展開して、クラウドの音声機能を使用して、チームでの詳細についてを提供します。
 
-- [Office 365 での電話システム](what-is-phone-system-in-office-365.md)
-- [計画を呼び出すと、電話システム](calling-plan-landing-page.md)
-- [電話システムの直接のルーティング](direct-routing-landing-page.md)
+- [Office 365 の電話システム](what-is-phone-system-in-office-365.md)
+- [通話プランと電話システム](calling-plan-landing-page.md)
+- [電話システムのダイレクト ルーティング](direct-routing-landing-page.md)
 - [Cloud Voice の展開](cloud-voice-deployment.md)
-- [マイクロソフトのテレフォニー ソリューション](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Microsoft テレフォニー ソリューション](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 - 電話システムの詳細については、次のセッションを監視する:[マイクロソフトのチームでの電話システムの概要](https://aka.ms/teams-phone-system)
 
 
@@ -77,7 +77,7 @@ ms.locfileid: "30465309"
 、次の設定を変更することも、組織のニーズに基づいて構成します。
 
 - ボイスメール
-- 発信者番号
+- 識別情報を呼び出す
 - マイクロソフトの電話番号
 - ダイヤル プラン
 - 通話キュー
@@ -85,7 +85,7 @@ ms.locfileid: "30465309"
 
 ### <a name="voicemail"></a>ボイスメール
 
-Azure ボイスメール サービス、電源、電話システムのボイスメール ボイスメール出金のみの Exchange メールボックスをサポートしています、サード ・ パーティ製の電子メール システムをサポートしていません。 電話システムのボイスメールはボイスメールの議事録作成機能を備えています。この機能は組織のすべてのユーザーに対して既定で有効になっています。 ビジネス ニーズは、特定のユーザーまたは組織全体のすべてのユーザーのボイスメールの議事録作成を無効にする必要があります。
+Azure ボイスメール サービス、電源、電話システムのボイスメール ボイスメール出金のみの Exchange メールボックスをサポートしています、サード ・ パーティ製の電子メール システムをサポートしていません。 電話システムのボイス メールには、組織内のすべてのユーザーに対して既定で有効には、ボイスメールの議事録が含まれています。 ビジネス ニーズは、特定のユーザーまたは組織全体のすべてのユーザーのボイスメールの議事録作成を無効にする必要があります。
 
 |確認事項|アクション |
 |:------------|:-------|
@@ -93,9 +93,9 @@ Azure ボイスメール サービス、電源、電話システムのボイス�
 | ボイスメールの議事録の一部またはすべてのユーザーを有効にするか。 | ボイスメールの議事録作成を無効にするには、[組織内のボイス メール ポリシーの設定](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization)を参照してください。</li></ul>|
 |||
 
-### <a name="calling-identity"></a>発信者番号
+### <a name="calling-identity"></a>識別情報を呼び出す
 
-既定では、すべての発信呼び出しは、呼び出し元の id (呼び出し元 ID) として割り当てられた電話番号を使用します。 通話の受信者は即座にその発信者を識別して通話を受け入れるか拒否するか決めることができます。
+既定では、すべての発信呼び出しは、呼び出し元の id (呼び出し元 ID) として割り当てられた電話番号を使用します。 呼び出しの受信者は、呼び出し元を識別する迅速かつ呼び出しを承認または拒否かどうかを決定します。
 
 |確認事項|アクション |
 |:------------|:-------|
@@ -148,7 +148,7 @@ Office 365 の電話システムの機能で、ダイヤル プランは、承�
 
 - [Microsoft Teams でのデバイスを管理する](device-management.md)
 - [IP 電話](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [USB オーディオ デバイスやビデオ デバイス](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [USB オーディオ デバイスおよびビデオ デバイス](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [デバイスのインテリジェント通信](https://products.office.com/en-gb/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
 
 

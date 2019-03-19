@@ -21,12 +21,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Teams で会議のポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: f8f7e4bbf18fa96ebc8de3fd219945a06c05c0b3
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 344c45761ebbb326162d2c62b4fb8cac25f47645
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494086"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664717"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -106,8 +106,8 @@ ms.locfileid: "30494086"
 <a name="bkparticipantsandguests"> </a>
 
 ### <a name="participants--guests"></a>参加者とゲスト
-   - **会議を開始するのには匿名ユーザーを許可します。** この設定がオフの場合は、会議を開始できますチームのアプリケーションでの会議に認証されたユーザーのみです。 オンの場合は、誰でも会議を開始することができます。
-   - **ユーザーの自動承認** これがオフの場合、会議の参加者は、誰かが会議を開始するまでロビーに残されたままになります。. ミーティングに参加するミーティングの参加者が許可される場合、自動的にします。
+   - **会議を開始するのにはダイヤルインを許可する人**ユーザーに携帯電話を使用して会議を開始するにダイヤルしているために、認証されていないことを許可する場合は、オンまたはオフを有効にことができます。
+   - **自動的に人を認める**決定のどのような参加者のタイプが自動的にこのユーザーによって開催されるミーティングに追加されます。 ミーティング ロビーのすべての外部ユーザーを配置するが、すぐにミーティングに参加する会社のすべてのユーザーを許可したい場合は、"組織内の全員] に設定します。 既定で匿名ユーザーを許可したい場合は、"Everyone"に設定します。 場合会議への参加、社内のユーザーと同じようにもロビーに入っている他のすべての外部ユーザーのフェデレーション ユーザーを許可するのには、everyone グループに、組織とフェデレーションの組織で設定します。
 
 [記事の全文](meeting-policies-in-teams.md)
 

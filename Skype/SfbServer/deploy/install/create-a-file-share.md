@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: '概要: は、Skype のビジネス サーバーのインストールの一部として、Windows サーバーのファイル共有を作成する方法を説明します。 ビジネスのサーバーで Microsoft の評価の中心からの Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: a6a040c60d3c5a41df8dfa24abd5948d85180f2e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a3fe1d69bb9e7db377c6a9334b90f8ce96c581ad
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884622"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664828"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>Skype のビジネス サーバーのファイル共有を作成します。
  
@@ -60,4 +60,13 @@ ms.locfileid: "23884622"
     
      ![フォルダー共有のための [共有] タブ](../../media/78fe8441-dead-43ed-9a04-3c7c8c657c15.png)
   
+> [!NOTE]
+>ファイル ストアがでホストされている場合は、DFS 共有、次の警告メッセージを受信します。
 
+警告: に対する共有アクセス許可にアクセスできません"\\<domain>\<share>」です。
+
+>ファイル サーバーの管理者でない場合、または分散ファイル システム (DFS) 共有の場合に必要です。 共有のアクセス許可が既に構成されて場合、この警告は無視できます。 新しい共有である場合は、共有のアクセス許可を手動で構成の詳細についてはマニュアルを参照してください。
+
+>DFS 共有に共有のアクセス許可にアクセスできない、ため Skype ビジネス サーバーのファイル共有のグループを明示的に設定することができません。 Skype ビジネス サーバー コンポーネントの適切なアクセス許可でファイル共有にアクセスできることを確認するには、RTC の次のグループ レベルの共有アクセス許可の変更だけでなくローカルの管理者フル コントロールの共有アクセス許可の追加を確認します。
+
+RTCHSUniversalServices RTCComponentUniversalServices RTCUniversalServerAdmins

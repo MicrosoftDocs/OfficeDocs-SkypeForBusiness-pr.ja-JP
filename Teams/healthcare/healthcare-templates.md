@@ -1,5 +1,5 @@
 ---
-title: 医療機関向けのチーム テンプレートを使い始める
+title: 医療機関向けの Teams テンプレートの概要
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -14,15 +14,15 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 医療機関向けのチーム テンプレートを使い始める
-ms.openlocfilehash: 68ab93ceca20f0d26c9dac0b5b65667835bd1203
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: 医療機関向けの Teams テンプレートの概要
+ms.openlocfilehash: e5116ecf2ab9fa0bbad25222e69317c47cf0c892
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541665"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664701"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>医療機関向けのチーム テンプレートを使い始める
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>医療機関向けの Teams テンプレートの概要
 
 マイクロソフト チーム テンプレートでは、迅速にすることし、設定、チャネル、およびプリインストールされているアプリケーションの定義済みのテンプレートを提供することで簡単にチームを作成します。
 
@@ -36,7 +36,7 @@ ms.locfileid: "30541665"
 
 |基本テンプレートの種類 |baseTemplateId |ベースライン テンプレートのチャネル|
 |:--- |:---|:---|
-|医療・ ワード | https://<span></span>グラフ<span></span>.microsoft.com/beta/teamsTemplates/healthcareWard   | お知らせ\* <br> Huddles\* <br> ラウンド\* <br> スタッフ\* <br> トレーニング\* |
+|医療・ ワード | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | お知らせ\* <br> Huddles\* <br> ラウンド\* <br> スタッフ\* <br> トレーニング\* |
 |     | |         |
 
 \*自動お気に入り
@@ -47,7 +47,7 @@ ms.locfileid: "30541665"
 
 |基本テンプレートの種類 |baseTemplateId |ベースライン テンプレートのチャネル|
 |:--- |:---|:---|
-|医療・病院 | https://<span></span>グラフ<span></span>.microsoft.com/beta/teamsTemplates/healthcareHospital   | お知らせ\* <br> コンプライアンス\* <br> 信託 <br> 人事管理 <br> 薬剤 |
+|医療・病院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | お知らせ\* <br> コンプライアンス\* <br> 信託 <br> 人事管理 <br> 薬剤 |
 | | |  |
 
 \*自動お気に入り 
@@ -60,7 +60,7 @@ ms.locfileid: "30541665"
 
 ``` Powershell
 { 
-          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/healthcareHospital",
+          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('healthcareHospital')",
           "DisplayName": "Contoso Hospital",
           "Description": "Team for all staff in Contoso Hospital",
           "Channels": [
