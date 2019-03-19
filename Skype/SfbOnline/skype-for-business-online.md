@@ -13,12 +13,13 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-ms.openlocfilehash: db174b9e9df8fb6a819930babfaae9422f3ffe30
-ms.sourcegitcommit: f091c351bec56219a8c91b8c12b9c1f5c5983c95
-ms.translationtype: HT
+f1keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
+ms.openlocfilehash: 4f941766db77b8bb8678d4d593e6843db662dc06
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "26531750"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664606"
 ---
 # <a name="skype-for-business-online-admin"></a>Skype for Business Online の管理
 
@@ -54,7 +55,7 @@ ms.locfileid: "26531750"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>サポート情報を参照する</h3>
+                        <h3>We& #39; re を支援するには、ここでは</h3>
                     </div>
                 </div>
             </div>
@@ -119,7 +120,7 @@ ms.locfileid: "26531750"
 
 ---
 
-<h2>最新情報</h2>
+<h2>What& #39; s の新しい</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -169,8 +170,8 @@ ms.locfileid: "26531750"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>主要な更新</h3>
-                        <p><a href="/microsoftteams/audio-conferencing-in-office-365">電話会議のセットアップ</a></p>
+                        <h3>主な更新</h3>
+                        <p><a href="/microsoftteams/audio-conferencing-in-office-365">電話会議をセットアップする</a></p>
                     </div>
                 </div>
             </div>
@@ -224,7 +225,7 @@ ms.locfileid: "26531750"
                 <div class="card">
                     <div class="cardText">
                         <h3>通話プラン</h3>
-                        <p><a href="/MicrosoftTeams/what-are-calling-plans-in-office-365">Office 365 の通話プランについて</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">通話プランのセットアップ</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">自分の国や地域で通話プランが使用できるかを確認する</a></p>
+                        <p><a href="/MicrosoftTeams/calling-plan-landing-page">Office 365 の通話プランについて</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">通話プランのセットアップ</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">自分の国や地域で通話プランが使用できるかを確認する</a></p>
                     </div>
                 </div>
             </div>
@@ -236,7 +237,7 @@ ms.locfileid: "26531750"
                 <div class="card">
                     <div class="cardText">
                         <h3>電話システム</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Office 365 での電話システムについて</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Office 365 の電話システムで利用できる機能の紹介</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Office 365 での電話システムについて</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Here& #39; s Office 365 の電話システムで取得します。</a></p>
                </div>
                 </div>
             </div>
