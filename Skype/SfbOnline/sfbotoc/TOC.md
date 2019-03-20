@@ -121,7 +121,7 @@
 ### [Office 365 での電話会議を使用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 ### [会議の入退室通知をオンまたはオフにする](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
 
-## [Office 365 での通話プラン](/microsoftteams/what-are-calling-plans-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+## [電話システムと通話プラン](/microsoftteams/calling-plan-landing-page?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [通話プランの既知の問題](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [組織の緊急対応の場所を追加、変更、削除する](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
 ### [組織の緊急対応の住所を追加、変更、削除する](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
@@ -131,7 +131,7 @@
 ### [ダイヤル プランを作成および管理する](/microsoftteams/create-and-manage-dial-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [通話プランで使用されるさまざまな種類の電話番号](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [ユーザー用の電話番号を取得する](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)
-### [Office 365 の通話プランの取得方法](/microsoftteams/what-are-calling-plans-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Office 365 の通話プランの取得方法](/microsoftteams/calling-plan-landing-page?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [オーストラリアでの電話番号の管理](/microsoftteams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [ベルギーでの電話番号の管理](/microsoftteams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
