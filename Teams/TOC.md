@@ -145,7 +145,7 @@
 ### [電話会議の無料ダイヤル アウト期間](complimentary-dial-out-period.md)
 
 
-### [Skype for Business および Microsoft Teams の電話会議をセットアップする](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Microsoft Teams の電話会議を設定する](set-up-audio-conferencing-in-teams.md)
 
 ### [Microsoft を電話会議プロバイダーとして割り当てる](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
@@ -343,6 +343,12 @@
 #### [ダイレクト ルーティングの場所に基づくルーティングを計画する](location-based-routing-plan.md)
 #### [場所に基づくルーティングのネットワーク設定を構成する](location-based-routing-configure-network-settings.md)
 #### [ダイレクト ルーティングの場所に基づくルーティングを有効にする](location-based-routing-enable.md)
+
+### ダイレクト ルーティングのメディア バイパス
+#### [ダイレクト ルーティングでメディア バイパスを計画する](direct-routing-plan-media-bypass.md)
+#### [ダイレクト ルーティングでメディア バイパスを構成する](direct-routing-configure-media-bypass.md)
+
+
 ### ダイレクト ルーティングのテクニカル リファレンス
 #### [発信通話でのトランクのフェイルオーバー](direct-routing-trunk-failover-on-outbound-call.md)
 
