@@ -13,12 +13,12 @@ ms.reviewer: islubin
 description: チームを管理するために別の管理者の役割を使用するについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62b8de5d5e96177476ef07a8a91566d9757364d1
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 5280691b5272765b0c351c38a03e9711b9e0f1b0
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542512"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30684050"
 ---
 # <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Microsoft Teams の管理者ロールを使用して Teams を管理する
 
@@ -30,7 +30,7 @@ Azure Active Directory (AD の Azure) を使用すると、マイクロソフト
 
 <!-- add Global admin role? -->
 
-| 役割 | これらのタスクを実行することができます。 | 次のツールにアクセスできます。 |
+| [役割] | これらのタスクを実行することができます。 | 次のツールにアクセスできます。 |
 |----- | ------------------ | ------------------------------ |
 | Teams サービス管理者 | マイクロソフト チーム サービスを管理し、管理し、Office 365 のグループを作成 | マイクロソフトのチーム管理センターとを含む、PowerShell の関連付けられたコントロール内のすべて。<br><br> ミーティングのポリシー、構成、および会議のブリッジ<sup>1, 3</sup>を含めて、会議を管理します。<br><br> ポリシーの呼び出しなど、音声を管理し、電話番号の在庫および割り当て<sup>1</sup><br><br> メッセージング、メッセージング ポリシー<sup>1, 3</sup>などの管理します。<br><br> フェデレーション、チームのアップグレード、およびクライアントの設定<sup>1, 3</sup>のチームを含む、すべての組織全体の設定を管理します。<br><br> 組織と、関連付けられている設定、メンバーシップ (グループ管理チームの管理を展開する管理ポータルで、PowerShell でサポートされている) <sup>23</sup>を含むチームを管理します。<br><br> ユーザー プロファイル ページを表示し、高度なトラブルシューティング ツールセット<sup>3</sup>を使用して、ユーザーの呼び出しの品質に関する問題のトラブルシューティング <br><br> アクセス、監視およびトラブルシューティングのテナントの呼び出しの品質と信頼性のデータを使用して呼び出し品質ダッシュ ボード (救難) でを公開します。 新しいレポートを作成、更新し、必要に応じてレポートを削除します。 アップロードし、データを構築する救難を更新 |
 | Teams 通信管理者 | Microsoft Teams サービス内の通話および会議の機能の管理 | ミーティングのポリシー、構成、および会議のブリッジ<sup>1, 3</sup>を含めて、会議を管理します。<br><br> ポリシーの呼び出しなど、音声を管理し、電話番号の在庫および割り当て<sup>1</sup><br><br> ユーザー プロファイル ページを表示し、高度なトラブルシューティング ツールセット<sup>3</sup>を使用して、ユーザーの呼び出しの品質に関する問題のトラブルシューティング |
@@ -44,6 +44,8 @@ Azure Active Directory (AD の Azure) を使用すると、マイクロソフト
 <sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 -->
 マイクロソフトのチームを管理するために利用可能な管理ツールの詳細については、[マイクロソフトのチームを管理する](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)を参照してください。
+
+制限、仕様、およびその他のチームに適用される要件の詳細については、[制限しマイクロソフトのチームの仕様](limits-specifications-teams.md)を参照してください。
 
 ## <a name="assign-users-to-each-role"></a>各ロールにユーザーを割り当てる
 

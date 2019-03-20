@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04ab6b74745bf343ec09e887ef3e7187d3ffeaad
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: f7e6e46ca534a821d4697714448bcc5e4e20888f
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664741"
+ms.locfileid: "30684065"
 ---
 ![技術面の準備段階を強調した、アップグレード手順の各段階](media/upgrade-banner-tech-readiness.png "技術面の準備段階を強調した、アップグレード手順の各段階")
 
@@ -156,11 +156,11 @@ Wi-fi ネットワークを最適化するために用意されているいく�
 
 ネットワークでは、チームの準備ができているかどうかをテストするのには[Skype](https://www.microsoft.com/download/details.aspx?id=53885)をダウンロードできます。 ツールには、2 つの機能が用意されています: すべての正しいポートが開かれているとのネットワークの障害をテストするかどうかをテストすることができます。
 
-ダウンロードして、ツールをインストールした後は c を見つけることができます\\Program Files\\ビジネス ネットワークの評価ツールの Microsoft の Skype です。 Usage.docx、ツールを使用する方法についての詳細なガイドは、そのディレクトリに含まれます。
+ダウンロードして、ツールをインストールした後、ビジネス ネットワーク評価ツールの検索 C:\Program Files (x86) \Microsoft Skype のことができます。 Usage.docx、ツールを使用する方法についての詳細なガイドは、そのディレクトリに含まれます。
 
 ### <a name="test-for-opened-ports"></a>開かれているポートのテスト
 
-コマンド プロンプト ウィンドウを開き、入力してネットワーク評価ツールのディレクトリに移動**cd c:\\Program Files\\ビジネス ネットワークの評価ツールの Microsoft の Skype**。 コマンド プロンプトでは、 **networkassessmenttool.exe/connectivitycheck**を入力して開いているポートのテストを開始します。
+コマンド プロンプト ウィンドウを開き、 **C:\Program Files (x86) \Microsoft ネットワーク評価ツールでビジネスの Skype の cd**を入力してネットワーク評価ツールのディレクトリに移動します。 コマンド プロンプトでは、 **networkassessmenttool.exe/connectivitycheck**を入力して開いているポートのテストを開始します。
 
 チェックを実行すると、ツールは「検査正常に完了しました」メッセージが表示するか、ポートがブロックされていたことを報告します。 ツールからの出力が含まれていて、% のユーザー プロファイルに格納するには、Connectivity_results.txt をという名前のファイルも生成されます\\appdata\\ローカル\\ビジネス ネットワークの評価ツールの microsoft の skype\\ディレクトリです。
 

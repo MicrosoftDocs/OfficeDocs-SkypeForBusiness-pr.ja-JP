@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61b8f631857d9e81ced843437288fde88001032d
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 909ed249ea4e408cbddcd52824a7cb0047504613
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649509"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30684073"
 ---
 <a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>Microsoft Teams テナント アプリ カタログにアプリを公開する
 =======================================================
@@ -71,7 +71,7 @@ ms.locfileid: "30649509"
 
 ## <a name="use-the-office-365-admin-portal-to-manage-the-tenant-apps-catalog"></a>Office 365 管理ポータルを使用して、テナントのアプリケーション カタログを管理するには
 
-バグの修正を必要とするアプリケーションがあれば、Office 365 管理ポータル アプリケーションを一時的に無効にできます。 以前の設定は、今すぐセクション社内のアプリケーションに専用です。 どのアプリケーションを有効または無効にすることもできます。
+一時的に Office 365 管理ポータル アプリケーションを無効にすることができます**設定**を選択してバグの修正を必要とするアプリケーションがあれば、 > **サービス & アドイン** > **マイクロソフトのチーム**です。 以前の設定は、今すぐセクション社内のアプリケーションに専用です。 どのアプリケーションを有効または無効にすることもできます。
 
 ![スクリーン ショット チームのアプリケーション ストアのアプリ カタログを表示します。](media/private-app-store-teams-image05.png)
 

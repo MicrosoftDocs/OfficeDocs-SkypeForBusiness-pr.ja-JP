@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: OAuth を構成するオンライン ビジネスの社内の Exchange と Skype との間の認証は、ビジネスおよび Exchange の統合機能の機能のサポート」に記載の Skype を使用できます。
-ms.openlocfilehash: f6108842f827cbb9cfb6761495c4787ed2b7868b
-ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
+ms.openlocfilehash: fe1f6a56412706c658b2c686d2ca06d6a1b9e5d9
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "29735175"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30684057"
 ---
 # <a name="configure-oauth-between-skype-for-business-online-and-exchange-on-premises"></a>オンプレミスの Exchange と Skype for Business Online 間での OAuth の構成
 
@@ -30,7 +30,7 @@ OAuth を構成するオンライン ビジネスの社内の Exchange と Skype
 
 -  この手順を実行するには、アクセス許可が割り当てられている必要があります。 必要なアクセス許可を表示するには、 [Exchange およびシェル インフラストラクチャのアクセス許可](https://go.microsoft.com/fwlink/p/?LinkId=746511)を参照してください。
 
-- このトピックの手順に該当するショートカット キーについては、「[Exchange 管理センターのキーボード ショートカット]( https://go.microsoft.com/fwlink/p/?LinkId=746512)」を参照してください。
+- このトピックの手順に適用されるキーボード ショートカットの詳細については、 [Exchange 管理センターでのキーボード ショートカット]( https://go.microsoft.com/fwlink/p/?LinkId=746512)を参照してください。
 
 ## <a name="configure-oauth-authentication-between-your-on-premises-exchange-and-skype-for-business-organizations"></a>オンプレミスの Exchange と Skype for Business 組織の間で OAuth 認証を構成する
 
@@ -142,7 +142,7 @@ Exchange 組織用の検証済みのドメインを指定します。 このド�
 > [!NOTE]
 > 次のスクリプトを正常に実行するには、先のセクションの手順 4 で説明したように、Azure Active Directory 用 Windows PowerShell を Microsoft Online Azure AD テナントに接続することが必要です。
 
-1. 次のテキストを、たとえば RegisterEndpoints.ps1 という名前の PowerShell スクリプト ファイルに保存します。 この例では、contoso.com のすべてのエンドポイントを登録するためにワイルドカードを使用しています。 Contoso.com を交換して、オンプレミスの Exchange 組織のホスト名の権限を持つ
+1. 次のテキストを、たとえば RegisterEndpoints.ps1 という名前の PowerShell スクリプト ファイルに保存します。 この例では、contoso.com のすべてのエンドポイントを登録するためにワイルドカードを使用しています。 交換<your Verified Domain>では、オンプレミスの Exchange サーバーの FQDN です。
 
    ```
    $externalAuthority="*.<your Verified Domain>"
@@ -153,7 +153,7 @@ Exchange 組織用の検証済みのドメインを指定します。 このド�
    Set-MsolServicePrincipal -ObjectID $p.ObjectId -ServicePrincipalNames $p.ServicePrincipalNames;
    ```
 
-2. Azure Active Directory 用 Windows PowerShell で、先の手順で作成した Windows PowerShell スクリプトを実行します。 たとえば、`.\RegisterEndpoints.ps1` などです
+2. Azure Active Directory 用 Windows PowerShell で、先の手順で作成した Windows PowerShell スクリプトを実行します。 例えば：`.\RegisterEndpoints.ps1`
 
 ### <a name="verify-your-success"></a>成否を確認する
 
@@ -172,3 +172,7 @@ Outlook の [会話履歴] フォルダーにモバイル クライアントの�
 場合は必ず正常に OAuth を使用している、確認しておきます内容を予測して、どのようなトラフィックのようになります知っています。 [予想される結果を次のとおりです](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)が、ここでは、ごく標準的な[Microsoft アプリケーションで、OAuth トラフィックの例](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf)(読み取り、更新トークンを使用しないが非常に役立ちます)、あり、Fiddler の拡張機能に、OAuth JWT (JSON を表示できるようになります。Web トークン)。
 
 [を設定するには 1 つの例](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/)を次のとおりですが、このプロセスに着手するときに任意のネットワーク トレース ツールを使用することができます。
+
+## <a name="related-topics"></a>関連項目
+
+[Exchange および Exchange Online 組織間の OAuth 認証を構成します。](https://docs.microsoft.com/en-us/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
