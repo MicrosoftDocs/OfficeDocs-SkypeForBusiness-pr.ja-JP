@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Microsoft Teams によって生成されるデバッグ ログ、メディア ログ、デスクトップ ログ、これらのログの場所、トラブルシューティングでのログの活用について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 018247ba7f5f7ac088226bd505f6bf11737533c2
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 8e2e638af7ca9f728835f244996a0d922d8f7cbc
+ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640707"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720332"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Microsoft Teams のトラブルシューティングでログ ファイルを使用する
 =================================================
@@ -96,9 +96,7 @@ bootstrapper ログとも呼ばれるデスクトップ ログには、デスク
 
 Windows:
 
-  1.  アプリケーション トレイの **Microsoft Teams アイコン**をクリックし、[**Get Logs (ログを取得)**] を選択します。
-
-  2.  [**ヘルプ**] プルダウン メニューで [**Get Logs (ログを取得)**] を選択する
+1.  アプリケーション トレイの **Microsoft Teams アイコン**をクリックし、[**Get Logs (ログを取得)**] を選択します。
 
 Mac OsX。
 

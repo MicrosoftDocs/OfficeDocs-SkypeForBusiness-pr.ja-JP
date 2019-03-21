@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype ルーム システムの次世代を Skype ルーム システム v2 では、管理の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 5dcfcf13b22e7ad110b675d5d202f1ad53d32687
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 4c94ffbcb83e5e208e5cd7278af54e157b9f478c
+ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373648"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720425"
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a>Skype ルーム システム v2 のメンテナンスと運用 
  
@@ -23,7 +23,7 @@ Skype ルーム システムの次世代を Skype ルーム システム v2 で�
   
 Skype ルーム システム v2 は、ビジネス経験の豊富な共同の Skype 会議室に変換するように設計された、マイクロソフトの最新の会議ソリューションです。 ユーザーは慣れ親しんだ Skype for Business インターフェイスを活用し、IT 管理者は Windows 10 Skype Meeting アプリを簡単に展開および管理することができます。 Skype ルーム システム v2 は、Skype をビジネスの会議室に移動するのにはインストールの容易さの LCD パネルと同様に既存の機器を活用するよう設計されています。
   
-リモート管理は、 [Skype ルーム システムの計画 v2 管理 OMS を使用して](../../plan-your-deployment/clients-and-devices/oms-management.md)、 [OMS を使用して Skype ルーム システムの展開 v2 の管理](../../deploy/deploy-clients/with-oms.md)、および管理の[で説明したように運用管理スイート (OMS) を使用して、追加の構成OMS を使用して Skype ルーム システム v2 のデバイス](oms.md)。 [Skype ルーム システム v2 の管理コンソールの設定を XML 構成ファイルでリモートから](xml-config-file.md)、カスタムの表示テーマを適用する必要があるかもしれません。 
+リモート管理は、 [Skype ルーム システムの計画 v2 管理 OMS を使用して](../../plan-your-deployment/clients-and-devices/oms-management.md)、 [OMS を使用して Skype ルーム システムの展開 v2 の管理](../../deploy/deploy-clients/with-oms.md)、および管理の[で説明したように運用管理スイート (OMS) を使用して、追加の構成OMS を使用して Skype ルーム システム v2 のデバイス](oms.md)。 カスタムの画面テーマの適用を含む、[Manage a Skype Room Systems v2 console settings remotely with an XML configuration file](xml-config-file.md) を行うこともできます。 
   
 ## <a name="collecting-logs-on-skype-room-systems-v2"></a>Skype Room Systems バージョン 2 でのログの収集
 <a name="Logs"> </a>
@@ -63,8 +63,8 @@ Skype ルーム システム v2 がうまく実行されていない、工場出
 |再起動  <br/> |リモート デスクトップ  <br/> リモート Powershell  <br/> |(さらに設定する必要があります)、リモート デスクトップ  <br/> リモート Powershell を (さらに設定する必要があります)  <br/> SCCM  <br/> |
 |OS の更新  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
 |アプリの更新  <br/> |	Windows ストア  <br/> |Windows ストア  <br/> SCCM  <br/> |
-|Skype アカウントの構成  <br/> |	現在サポートされていません  <br/> |	現在サポートされていません  <br/> |
-|ログへのアクセス  <br/> |現在サポートされていません  <br/> |	現在サポートされていません  <br/> |
+|Skype アカウントの構成  <br/> |現在サポートされていません  <br/> |	現在サポートされていません  <br/> |
+|ログへのアクセス  <br/> |	現在サポートされていません  <br/> |	現在サポートされていません  <br/> |
    
 ## <a name="configuring-group-policy-for-skype-room-systems-v2"></a>Skype Room Systems バージョン 2 のグループ ポリシーの構成
 <a name="GroupPolicy"> </a>
@@ -74,9 +74,9 @@ Skype ルーム システム v2 がうまく実行されていない、工場出
 
 |**設定**|**により、**|
 |:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows 指定できます AdminAutoLogon = (REG_SZ) 1  <br/> |起動するように Skype ルーム システム v2 を有効に  <br/> |
+|HKLM\SOFTWARE\Microsoft\Windows 探して AutoAdminLogon = (REG_SZ) 1  <br/> |起動するように Skype ルーム システム v2 を有効に  <br/> |
 |電源管理 -\> AC、画面をオフに 10 分後  <br/> 電源管理 -\> Ac システムをスリープ状態を配置しません。  <br/> |により、接続されている表示をオフにして、自動的に復帰する Skype ルーム システム v2  <br/> |
-|net accounts /maxpwage:unlimited  <br/> または、ローカル アカウントでパスワードの期限切れを無効にする同等の手段。この設定に失敗すると、パスワードの期限が切れていることが通知され、Skype アカウントのログオンが失敗する原因になります。この影響はマシン上のすべてのローカル アカウントに及びます。したがって、この設定に失敗すると、ボックスの管理アカウントも最終的には期限切れになります。  <br/> |常にログインするように Skype アカウントを有効にする  <br/> |
+|net accounts /maxpwage:unlimited  <br/> またはローカル アカウントのパスワードの有効期限を無効にするのと同等のことを意味します。 これを行うには、障害が発生する Skype アカウントの期限切れのパスワードについて苦情を言ってログオンが失敗すると、最終的に。 したがってこれを設定して必要があります管理者アカウント、最終的にも期限切れにする] ボックスに、コンピューター上のすべてのローカル アカウントに影響を与えるこのこと注意してください。  <br/> |常にログインするように Skype アカウントを有効にする  <br/> |
    
 グループ ポリシーを使用してファイルを転送するは、[構成ファイルの項目](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)で説明します。
   
@@ -106,7 +106,7 @@ PowerShell を使用して、次の管理操作をリモートで実行するこ
     
 2. 管理者特権の PowerShell コマンド プロンプトを開きます。
     
-3. 次のコマンドを入力してください: 有効にする-PSRemoting - 強制
+3. 次のコマンドを入力します。Enable-PSRemoting -force
     
 管理操作を実行するには、次の操作を実行します。
   
@@ -223,7 +223,7 @@ Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rige
   
 ### <a name="switching-to-admin-mode-and-back-when-the-skype-room-systems-v2-app-crashes"></a>管理者モードと Skype ルーム システム v2 のアプリケーションがクラッシュしたときの切り替え
 
-1. Windows キーを 5 回連続で、素早く押します。これによって、Windows のログオン画面が開きます。 
+1. Windows キーを 5 回連続で、素早く押します。 これによって、Windows のログオン画面が開きます。 
     
 2. 管理者の資格情報でデスクトップにログインします。
     
