@@ -4,17 +4,18 @@ hide_bc: true
 title: Microsoft Teams のテクニカル ドキュメンテーション
 description: Microsoft Teams のテクニカル ドキュメンテーション
 ms.topic: hub-page
+localization_priority: Priority
 f1keywords:
 - ms.teamsadmincenter.apppolicies.overview
 - ms.teamsadmincenter.dashboard.helparticle.teamsadmindocumentation
 - ms.teamsadmincenter.dashboard.widget.upgrade.complete
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
-ms.openlocfilehash: 1d30744f71683b7681ad738938a714d066b31c4a
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
-ms.translationtype: MT
+ms.openlocfilehash: 14ab61709f40f0d2e2d6be95df4cd758322d0ff2
+ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493584"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720316"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -38,8 +39,8 @@ ms.locfileid: "30493584"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Team にようこそ</h3>
-                                                <P>チームの概要を把握し、チームの管理者として必要な技術ガイダンスを検索または IT プロフェッショナル</p>
+                                                <h3>Teams へようこそ</h3>
+                                                <P>Teams の概要を確認し、Teams 管理者または IT 技術者として必要な技術サポートを把握します</p>
                                             </div>
                                         </div>
                                     </div>
@@ -56,8 +57,8 @@ ms.locfileid: "30493584"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>チームを展開する方法</h3>
-                                                <P>小規模企業や多国籍企業であるか、チームを展開するのには正しいパスを検索するここから開始</p>
+                                                <h3>Teams のロールアウト方法</h3>
+                                                <P>中小規模の企業の場合も多国籍企業の場合も、正しく Teams をロールアウトするには、ここから始めてください</p>
                                             </div>
                                         </div>
                                     </div>
@@ -75,8 +76,8 @@ ms.locfileid: "30493584"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>開始する</h3>
-                                                <P>チームとチャネルのいくつかの高速起動および実行を取得するのには、クイック スタート ガイドを使用します。</p>
+                                                <h3>使用を開始する</h3>
+                                                <P>クイック スタート ガイドを使用すると、2 ～ 3 のチームとチャネルを使ってすぐに開始できます。</p>
                                             </div>
                                         </div>
                                     </div>
@@ -95,7 +96,7 @@ ms.locfileid: "30493584"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Skype for Business から Teams へのアップグレード</h3>
-                                                <P>Teams への最適な移行パスを探索するためのガイダンスやツールを見つける</p>
+                                                <P>Teams へのアップグレードを最適に行うためのガイダンスとツールを確認します</p>
                                             </div>
                                         </div>
                                     </div>
@@ -113,8 +114,8 @@ ms.locfileid: "30493584"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>採用ハブ</h3>
-                                                <P>チームの導入をサポートするためのツールを取得します。</p>
+                                                <h3>導入ハブ</h3>
+                                                <P>Teams のロールアウトをサポートするツールを入手します</p>
                                             </div>
                                         </div>
                                     </div>
@@ -132,7 +133,7 @@ ms.locfileid: "30493584"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>トレーニング & のビデオを検索します。</h3>
+                                                <h3>トレーニングおよびビデオを参照する</h3>
                                                 <P>Teams トレーニングを見つける (自分用およびユーザー用)</p>
                                             </div>
                                         </div>
@@ -155,8 +156,8 @@ ms.locfileid: "30493584"
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>チームの開発者用プラットフォーム</h3>
-                                            <p>マイクロソフトのチームの開発者用プラットフォームと、使用して便利で強力なアプリケーションを構築する方法について説明します。</p>
+                                            <h3>Teams 開発者プラットフォーム</h3>
+                                            <p>Microsoft Teams の開発者プラットフォームの詳細と、それを利用して便利で強力なアプリを構築する方法について説明します</p>
                                         </div>
                                     </div>
                                 </div>
@@ -174,8 +175,8 @@ ms.locfileid: "30493584"
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>チームのテクニカル コミュニティ</h3>
-                                            <p>質問するチームのテクニカル コミュニティに参加する&amp;の回答を紹介し、チームのブログを読む</p>
+                                            <h3>Teams 技術コミュニティ</h3>
+                                            <p>Teams 技術コミュニティに参加すれば、Teams に関する質問とその回答を確認し、Teams ブログを閲覧できます</p>
                                         </div>
                                     </div>
                                 </div>
@@ -193,8 +194,8 @@ ms.locfileid: "30493584"
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>Teams 用の PowerShell コマンドレット リファレンス</h3>
-                                            <p>チームの PowerShell モジュールおよびコマンドレットを取得します。</p>
+                                            <h3>Teams の PowerShell コマンドレット リファレンス</h3>
+                                            <p>Teams 用の PowerShell モジュールとコマンドレットを取得します</p>
                                                     </div>
                                                 </div>
                                             </div>
