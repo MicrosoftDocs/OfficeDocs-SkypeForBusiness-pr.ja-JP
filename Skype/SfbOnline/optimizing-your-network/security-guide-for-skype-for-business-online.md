@@ -29,7 +29,7 @@ ms.locfileid: "30493916"
 ---
 # <a name="security-and-skype-for-business-online"></a>セキュリティとオンライン ビジネスの Skype
 
-Skype for Business Online (SfBO), as part of the Office 365 service, follows all the security best practices and procedures such as service-level security through defense-in-depth, customer controls within the service, security hardening and operational best practices. 詳細については、マイクロソフトのセキュリティ センターを参照してください (https://microsoft.com/trustcenter)。
+Skype for Business Online (SfBO) は、Office 365 サービスの一部として徹底的な防御によるサービス レベルのセキュリティ、サービス内の顧客コントロール、セキュリティ強化、運用上のベスト プラクティスなど、すべてのセキュリティ ベスト プラクティスとプロシージャに従っています。 詳細については、マイクロソフトのセキュリティ センターを参照してください (https://microsoft.com/trustcenter)。
 
 ## <a name="trustworthy-by-design"></a>設計による高信頼性
 Skype for Business Online is designed and developed in compliance with the Microsoft Trustworthy Computing Security Development Lifecycle (SDL), which is described at https://www.microsoft.com/en-us/sdl/default.aspx. The first step in creating a more secure unified communications system was to design threat models and test each feature as it was designed. Multiple security-related improvements were built into the coding process and practices. Build-time tools detect buffer overruns and other potential security threats before the code is checked in to the final product. Of course, it is impossible to design against all unknown security threats. No system can guarantee complete security. However, because product development embraced secure design principles from the start, Skype for Business Online incorporates industry standard security technologies as a fundamental part of its architecture. 
@@ -55,7 +55,7 @@ The denial-of-service attack occurs when the attacker prevents normal network us
 SfBO は、Azure DDOS ネットワークの保護を実行し、同じエンドポイント、サブネット、および連合のエンティティからのクライアント要求の調整によってこれらの攻撃を軽減します。
 
 ### <a name="eavesdropping"></a>盗聴
-Eavesdropping can occur when an attacker gains access to the data path in a network and has the ability to monitor and read the traffic. This is also called sniffing or snooping. If the traffic is in plain text, the attacker can read the traffic when the attacker gains access to the path. An example is an attack performed by controlling a router on the data path. 
+盗聴は、攻撃者が、ネットワークのデータ パスにアクセスし、トラフィックの監視と読み取りの機能を持っているときに起こる可能性があります。これは、スニッフィングまたはスヌーピングとも呼ばれます。トラフィックがプレーン テキストの場合、攻撃者は、ネットワークのパスにアクセスしたときにトラフィックを読み取ることができます。例としては、データ パス上のルーターを制御することによって実行される攻撃があります。 
 
 SfBO uses mutual TLS (MTLS) for server communications within O365 and TLS from clients to the service, rendering this attack very difficult to impossible to achieve within the time period in which a given conversation could be attacked. TLS authenticates all parties and encrypts all traffic. This does not prevent eavesdropping, but the attacker cannot read the traffic unless the encryption is broken.
 
@@ -77,7 +77,7 @@ A man-in-the-middle attack occurs when an attacker reroutes communication betwee
 A replay attack occurs when a valid media transmission between two parties is intercepted and retransmitted for malicious purposes. SfBO uses SRTP in conjunction with a secure signaling protocol that protects transmissions from replay attacks by enabling the receiver to maintain an index of already received RTP packets and compare each new packet with those already listed in the index.
 
 ### <a name="spim"></a>SPIM
-Spim is unsolicited commercial instant messages or presence subscription requests. While not by itself a compromise of the network, it is annoying in the least, can reduce resource availability and production, and can possibly lead to a compromise of the network. An example of this is users spimming each other by sending requests. Users can block each other to prevent this, but with federation, if a coordinated spim attack is established, this can be difficult to overcome unless you disable federation for the partner.
+SPIM とは、一方的に送りつけられる営利目的のインスタント メッセージまたはプレゼンス サブスクリプション要求のことです。それ自体はネットワークを侵害するものではありませんが、少なくとも迷惑なものであり、リソースの可用性および生産性を低下させ、結果としてネットワークの侵害を招く可能性があります。SPIM の一例として、ユーザーが要求を送信することで相互に SPIM を送るケースがあります。ユーザーは相互にブロックしてこれを防ぐことができますが、フェデレーションの場合、調整された SPIM 攻撃が確立されると、パートナーのフェデレーションを無効にしない限り、対処が困難になるおそれがあります。
 
 ### <a name="viruses-and-worms"></a>ウイルスとワーム
 ウイルスは、同種の追加コード単位の複製を目的としたコード単位です。 ウイルスは、有効に機能するためにホスト (ファイル、電子メール、プログラムなど) を必要とします。 ワームもウイルスと同様にコードの追加、複写、複製を行うプログラムですが、ウイルスとは異なりホストを必要としません。 ウイルスとワームは、クライアント間でファイルを転送しているとき、または他のユーザーから URL が送信されたときに主に出現します。 ウイルスがコンピューター上に存在する場合、そのウイルスは、たとえば、無断でユーザー ID を使用してインスタント メッセージを送信する可能性があります。 定期的なウイルス スキャンなどの標準的なクライアント セキュリティのベスト プラクティスは、この問題を軽減します。 
@@ -203,7 +203,7 @@ For media authentication, the ICE and TURN protocols also use the Digest challen
 クライアント証明書は、SfBO で認証されるユーザーに対して別の方法を提供します。ユーザーでは、ユーザー名とパスワードを提供することではなく証明書と暗号化の課題を解決するために必要な証明書に対応する秘密キーがあります。 
 
 ### <a name="windows-powershell-and-sfbo-management-tools"></a>Windows PowerShell と SfBO 管理ツール
-SfBO では、IT 管理者は O365 管理ポータルまたはテナント リモート パワーシェル (TRPS) を使用してサービスを管理できます。 テナント管理者は先進認証を使用して TRPS を認証します。
+SfBO では、IT 管理者は O365 管理ポータルまたはテナント リモート パワーシェル (TRPS) を使用してサービスを管理できます。 テナント管理者は、TRPS を認証するために最新の認証を使用します。
 
 ### <a name="configuring-access-to-sfbo-at-your-internet-boundary"></a>インターネット境界で SfBO へのアクセスを設定する
 (ユーザーなどの会議に参加すること)、お客様のニーズ、インターネットを構成するのには適切に機能する SfBO の SfBO の雲の中のサービスへ送信された UDP および TCP トラフィックを許可するようにアクセスします。 詳細については、ここで参照してください。https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_lyo 
@@ -237,7 +237,7 @@ Enabling external users and internal users to exchange media requires an Access 
 4. クライアントと A の間 V 会議サーバー、メディアの接続のネゴシエーションを行うと、SRTP 経由のセットアップ。
 5. A user receives an email containing an invitation to join an SfBO meeting. The email contains a conference key and a HTTP-based URL linking to the conference. Both the key and the URL are unique for a particular meeting.
 
-### <a name="federation-safeguards-for-sfbo"></a>SfBO のフェデレーション セーフガード
+### <a name="federation-safeguards-for-sfbo"></a>SfBO の連合の安全対策
 フェデレーションは、組織が IM とプレゼンスを共有するために他の組織と通信する機能を提供します。 SfBO では、フェデレーションは既定で有効です。 ただし、テナント管理者は O365 管理ポータルでこれをコントロールできます。 続きを見る。
 
 ## <a name="addressing-threats-to-sfbo-conferences"></a>SfBO 会議の脅威に対する取り組み
@@ -252,12 +252,12 @@ Enabling external users to participate in SfBO meetings greatly increases the va
 - Anonymous, that is, unauthenticated, users who want to join a dial-in conference dial one of the conference access numbers and then they are prompted to enter the conference ID. Unauthenticated anonymous users are also prompted to record their name. The recorded name identifies unauthenticated users in the conference. Anonymous users are not admitted to the conference until at least one leader or authenticated user has joined, and they cannot be assigned a predefined role.
 
 ### <a name="participant-roles"></a>参加者の役割
-会議の参加者は 3 つのグループに分けられ、それぞれ権限と制限があります。
+会議の参加者は、それぞれ独自の権限と制限を持つ、3 つのグループに分類されます。
 - **開催者**&nbsp; &nbsp;Impromptu またはスケジュールすることによって、かどうか、会議を作成するユーザーです。 会議の開催者は、認証済みのエンタープライズ ユーザーである必要があり、会議のすべてのエンド ・ ユーザーの側面を制御します。
-- **発表者**&nbsp;&nbsp;どのようなメディアのサポートを使用して、会議で情報を表示する権限があるユーザーです。 会議の開催者は、定義上のプレゼンターでもあり、他に誰がプレゼンターになれるかを決定します。 開催者は、会議をスケージュールした時、または会議の進行中にこの決定を行えます。
+- **発表者**&nbsp;&nbsp;どのようなメディアのサポートを使用して、会議で情報を表示する権限があるユーザーです。 会議の開催者は定義でも、発表者、発表者は、他のメンバーを決定 会議がスケジュールされているとき、または会議中に、会議の開催者はこの決定を作成できます。
 - **出席者**&nbsp;&nbsp;ユーザーが会議に出席に招待されている者、発表者として機能する権限がありません。
 
-プレゼンターは、会議の進行中に出席者にプレゼンターの役割を与えることもできます。
+発表者も、ミーティング中に出席者に発表者の役割に昇格できます。
 
 ### <a name="participant-types"></a>参加者タイプ
 
