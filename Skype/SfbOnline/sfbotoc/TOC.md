@@ -232,7 +232,7 @@
 ### [組織内の電話システムの設定](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [電話システムの自動応答とは](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [電話システムの自動応答をセットアップする](/microsoftteams/set-up-a-phone-system-auto-attendant?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-#### [小規模ビジネスの例: 自動応答をセットアップする](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)
+#### [小規模ビジネスの例: 自動応答をセットアップする](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)  
 ### [電話システムの呼び出しキューを作成する](/microsoftteams/create-a-phone-system-call-queue?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 
