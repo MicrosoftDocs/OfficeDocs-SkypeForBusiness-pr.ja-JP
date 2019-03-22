@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Office 365 で Skype ルーム システム v2 を展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: a931ec6cb55e654612c451f15d4a4895f61ba990
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 5d2a756fafe616db22d968a3e946e468a6d063b4
+ms.sourcegitcommit: cad74f2546a6384747b1280c3d9244aa13fd0989
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30645388"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30737849"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>Skype Room Systems バージョン 2 と Office 365 を展開する 
 
@@ -43,11 +43,6 @@ Office 365 で Skype ルーム システム v2 を展開する前に、要件を
 Skype のビジネスのオンラインの計画の詳細については、 [Skype](https://technet.microsoft.com/library/jj822172.aspx)を参照してください。
 
 ### <a name="add-a-device-account"></a>デバイス アカウントを追加する
-
-https://docs.microsoft.com/en-us/powershell/module/msonline/?view=azureadps-1.0
-
-https://docs.microsoft.com/en-us/powershell/module/Azuread/?view=azureadps-2.0 
-
 
 1. オンライン PowerShell を交換するために接続します。 手順については、 [Exchange オンライン PowerShell への接続](https://go.microsoft.com/fwlink/p/?linkid=396554)を参照してください。
 
@@ -112,39 +107,60 @@ https://docs.microsoft.com/en-us/powershell/module/Azuread/?view=azureadps-2.0
 
    詳細な構文とパラメーター情報は、[一連の CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)を参照してください。
 
-4. PowerShell の Azure Active Directory に接続します。 手順については、[グラフ モジュールの Azure Active Directory PowerShell を使用して接続](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)を参照してください。
+4. MS オンラインの PowerShell を実行して、Active directory の設定を行うことへの接続`Connect-MsolService -Credential $cred`の詳細情報がある場合は、 [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0)を参照してください。 <!-- or [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) for the new module -->  
+    1. パスワードを期限切れにしたくない場合は、次の構文を使用します。
 
-5. パスワードを期限切れにしたくない場合は、Azure Active Directory PowerShell で次の構文を使用します。
-
+    ``` PowerShell
+    Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
+    ```
+<!--
    ``` PowerShell
    Set-AzureADUserPassword -UserPrincipalName <Account> -EnforceChangePasswordPolicy $false
-   ```
+   ```  -->
 
    この例では、アカウントの有効期限なしに ProjectRigel01@contoso.onmicrosoft.com のパスワードを設定します。
 
+  ``` PowerShell
+    Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
+  ```
+<!-- 
    ``` PowerShell
    Set-AzureADUserPassword -UserPrincipalName ProjectRigel01@contoso.onmicrosoft.com -EnforceChangePasswordPolicy $false
-   ```
+   ``` -->
 
    次のコマンドを実行することによってアカウントの電話番号を設定することも。
 
+  ``` PowerShell
+    Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
+  ```
+<!-- 
    ``` PowerShell
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
-   ```
+   ```  -->
 
-6. デバイスのアカウントは、有効な Office 365 のライセンスでは、する必要があるか、Exchange およびビジネス用の Skype は機能しません。 ライセンスがあれば、利用場所を割り当てる、デバイスのアカウントにする必要があります-どのようなライセンスは、アカウントの利用可能な決定します。 Get AzureADSubscribedSku を使用して、次のように、Office 365 テナントの使用可能な Sku の一覧を取得できます。
+6. デバイスのアカウントは、有効な Office 365 のライセンスでは、する必要があるか、Exchange およびビジネス用の Skype は機能しません。 ライセンスがあれば、利用場所を割り当てる、デバイスのアカウントにする必要があります-どのようなライセンスは、アカウントの利用可能な決定します。 使用することができます。`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 次のように、Office 365 テナントの使用可能な Sku の一覧を取得します。
 
+  ``` Powershell
+  Get-MsolAccountSku
+  ```
+<!--
    ``` Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
-   ```
+   ```  -->
 
-   次に、セット AzureADUserLicense コマンドレットを使用してライセンスを追加することができます。 この場合、表示される SKU コードは $strLicense です (たとえば、contoso:STANDARDPACK)。
+   使用して、ライセンスを追加する次に、`Set-MsolUserLicense` <!--Set-AzureADUserLicense --> コマンドレットです。 この場合、表示される SKU コードは $strLicense です (たとえば、contoso:STANDARDPACK)。
 
+  ``` PowerShell
+   Set-MsolUser -UserPrincipalName $acctUpn -UsageLocation "US"
+   Get-MsolAccountSku
+   Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
+  ``` 
+<!-- 
    ``` Powershell
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -UsageLocation "US"
    Get-AzureADSubscribedSku
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
-   ```
+   ```   -->
 
    詳細については、 [Office 365 の PowerShell でのユーザー アカウントにライセンスを割り当てる](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)を参照してください。
 
@@ -203,11 +219,19 @@ Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept-AddOrgani
 Azure Active Directory の PowerShell コマンド:
 
 ``` PowerShell
+Set-MsolUser -UserPrincipalName rigel1@contoso.com -PasswordNeverExpires $true -UsageLocation "US"
+Set-MsolUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
+Set-MsolUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOEV"
+Set-MsolUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOPSTN2"
+```
+
+<!-- 
+``` PowerShell
 Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -PasswordNeverExpires $true -UsageLocation "US"
 Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
 Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOEV"
 Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOPSTN2"
-```
+```  -->
 
 ビジネスの PowerShell コマンドの Skype。
 

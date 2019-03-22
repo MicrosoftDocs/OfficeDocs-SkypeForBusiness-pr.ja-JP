@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Exchange オンラインで Skype ルーム システム v2 を展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 3b29c04101a28afeab4d0d29585ed9a5330935a1
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: c0c5f3aa2c5644e4d1fe24af886c9e716efd6592
+ms.sourcegitcommit: cad74f2546a6384747b1280c3d9244aa13fd0989
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30645374"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30737856"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>Skype Room Systems バージョン 2 と Exchange Online を展開する
 
@@ -68,9 +68,12 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 
 4. Azure AD に接続して、アカウント設定をいくつか適用する必要があります。 次のコマンドレットを実行して接続することができます。
 
-   ``` Powershell
+  ``` PowerShell
+ Connect-MsolService -Credential $cred
+  ```
+<!--   ``` Powershell
    Connect-AzureAD -Credential $cred
-   ```
+   ``` -->
 
 ### <a name="add-an-email-address-for-your-on-premises-domain-account"></a>オンプレミスのドメイン アカウントに電子メール アドレスを追加する
 
@@ -87,14 +90,19 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 ### <a name="assign-an-office-365-license"></a>Office 365 ライセンスを割り当てる
 
 1. ユーザー アカウントは、Exchange と Skype のビジネス サーバーが動作することを確認するのには有効な Office 365 ライセンスを所有する必要があります。 ライセンスがあれば、利用場所を割り当てるユーザー アカウントにする必要があります-どのようなライセンスは、アカウントの利用可能な決定です。
-2. 次に、Get AzureADSubscribedSku を使用して、Office 365 テナントの使用可能な Sku の一覧を取得します。
-3. 1 回する] ボックスの一覧、Sku をセット AzureADUserLicense コマンドレットを使用してライセンスを追加できます。 この場合、表示される SKU コードは $strLicense です (たとえば、contoso:STANDARDPACK)。
+2. 次を使用して、`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> Office 365 テナントの使用可能な Sku の一覧を取得します。
+3. ライセンスを使用してを追加するには、Sku を一覧表示すると、`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> コマンドレットです。 この場合、表示される SKU コードは $strLicense です (たとえば、contoso:STANDARDPACK)。 
 
-   ``` Powershell
+  ```
+    Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+   Get-MsolAccountSku
+   Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+  ```
+<!--   ``` Powershell
    Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
    Get-AzureADSubscribedSku
    Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
-   ```
+   ``` -->
 
 ### <a name="enable-the-user-account-with-skype-for-business-server"></a>ビジネス サーバーの Skype でのユーザー アカウントを有効にします。
 

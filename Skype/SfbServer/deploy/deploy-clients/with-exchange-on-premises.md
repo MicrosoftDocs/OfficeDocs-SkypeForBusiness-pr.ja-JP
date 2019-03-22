@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 description: 社内の Exchange とのハイブリッド環境で Skype ルーム システム v2 を展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: a804ba6b1210efae8ed36630180f14ad367cb955
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 9ebd7463465d8b2fbf11e95d71c8fcb557666b3a
+ms.sourcegitcommit: cad74f2546a6384747b1280c3d9244aa13fd0989
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30645417"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30737795"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-on-premises"></a>Skype Room Systems バージョン 2 と Exchange On-Premises を展開する
 
@@ -103,19 +103,25 @@ ms.locfileid: "30645417"
 
 1. PowerShell の Azure Active Directory に接続します。 手順については、[グラフ モジュールの Azure Active Directory PowerShell を使用して接続](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)を参照してください。
 
-2. デバイスのアカウントは、有効な Office 365 のライセンスでは、する必要があるか、Exchange およびビジネス用の Skype は機能しません。 ライセンスがあれば、利用場所を割り当てる、デバイスのアカウントにする必要があります-どのようなライセンスは、アカウントの利用可能な決定します。 Get AzureADSubscribedSku を使用して、次のように、Office 365 テナントの使用可能な Sku の一覧を取得できます。
+2. デバイスのアカウントは、有効な Office 365 のライセンスでは、する必要があるか、Exchange およびビジネス用の Skype は機能しません。 ライセンスがあれば、利用場所を割り当てる、デバイスのアカウントにする必要があります-どのようなライセンスは、アカウントの利用可能な決定します。 使用することができます。`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 使用可能な Sku の一覧を取得します。
 
-   ``` Powershell
+<!--   ``` Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
-   ```
+   ``` -->
 
-   次に、セット AzureADUserLicense コマンドレットを使用してライセンスを追加することができます。 この場合、表示される SKU コードは $strLicense です (たとえば、contoso:STANDARDPACK)。
+3. 使用して、ライセンスを追加する次に、`Set-MsolUserLicense` <!-- Set-AzureADUserLicense --> コマンドレットです。 この場合、表示される SKU コードは $strLicense です (たとえば、contoso:STANDARDPACK)。
 
-   ``` Powershell
+  ``` PowerShell
+  Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+  Get-MsolAccountSku
+  Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+  ```
+
+<!--   ``` Powershell
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -UsageLocation "US"
    Get-AzureADSubscribedSku
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
-   ```
+   ```  -->
 
    詳細については、 [Office 365 の PowerShell でのユーザー アカウントにライセンスを割り当てる](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)を参照してください。
 
