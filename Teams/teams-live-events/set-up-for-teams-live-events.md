@@ -16,16 +16,14 @@ description: ネットワークを準備するなどのライセンスを割り�
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bd650e9f34a63007cee63ae8d7ce604e28abddd
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 957db93e2eb8cba5b2b35388b00ed4d38b21d6ca
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464525"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747679"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントのセットアップ
-
-> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 ライブ イベントを設定するときにいくつかの手順を行う必要があります。
 
@@ -74,8 +72,19 @@ Windows PowerShell を使用しても実行することができます。 詳細
 ![チーム ・ ロゴ ・ 30x30.png](../media/teams-logo-30x30.png) マイクロソフトのチーム管理センターを使用してください。
 
 1. 左側のナビゲーションでは、**ユーザー**に移動し、ユーザーを選択します。
-2. **割り当てポリシー**] の横にある [**編集**] をクリックします。 
+2. **[割り当てられているポリシー]** の隣にある **[編集]** を選択します。 
 3. ライブ イベント ポリシーを割り当てるを選択し、**保存**を選択します。 
+
+割り当てることもライブ イベントのポリシーを 1 つまたは複数のユーザーとして次のように。
+
+![チーム ・ ロゴ ・ 30x30.png](../media/teams-logo-30x30.png) マイクロソフトのチーム管理センターを使用してください。
+
+1. **会議**に > **のライブ イベントのポリシー**です。
+2. ポリシーを選択するには、ポリシー名の左側にクリックします。
+3. **ユーザーの管理**を選択します。
+4. **ユーザーの管理**ウィンドウで、表示名、ユーザー名、ユーザーの検索、名を選択し、[**追加**] をクリックします。 追加するユーザーごとにこの手順を繰り返します。
+5. ユーザーの追加が完了したら、[**保存**] を選択します。
+ 
 
 ### <a name="enable-users-to-schedule-external-encoder-events"></a>外部エンコーダーのイベントをスケジュールするのにはユーザーを有効にします。
 
@@ -107,11 +116,11 @@ Windows PowerShell を使用しても実行することができます。 詳細
 
 SDN または eCDN のソリューションを設定すると、したらチームでのライブ イベントのプロバイダーを構成する準備ができます。 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [チームでのイベントの設定の構成](configure-teams-live-events.md)に移動します。
 
-### <a name="related-topics"></a>関連トピック
-- [ライブ イベントをチームは何ですか。](what-are-teams-live-events.md)
-- [チームのライブ イベントの計画](plan-for-teams-live-events.md)
-- [チームでのライブ イベントの設定を構成します。](configure-teams-live-events.md)
+### <a name="related-topics"></a>関連項目
+- [Teams のライブ イベントについて](what-are-teams-live-events.md)
+- [Teams のライブ イベントの計画](plan-for-teams-live-events.md)
+- [Teams でライブ イベント設定を構成する](configure-teams-live-events.md)
 

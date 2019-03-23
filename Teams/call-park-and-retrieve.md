@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: チームのクラウド サービスに保留中の通話をパークおよび取得を使用します。
-ms.openlocfilehash: 48052768ce172fda88b3e034277c4454988b32db
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 416458b1f7c134fca3294107bd82bbd0f2300abc
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353475"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747655"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams でのコール パークおよび保留解除
 
@@ -50,9 +50,9 @@ ms.locfileid: "30353475"
 
 | 機能 | チームのデスクトップ | チームの Mac アプリケーション | チームの Web アプリケーション (エッジ) |チーム モバイル iOS と Android アプリ | チームの IP 電話 | ビジネス IP 電話の Skype |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
-| 公園の呼び出し | あり | あり | あり | あり | 準備中| 不要 |
-| 停止の呼び出しを取得します。 | あり | あり | あり | あり | 準備中| 不要 |
-| 取得されていない通話の呼び出しに戻る | あり | あり | あり | あり | 準備中| 不要 |
+| 公園の呼び出し | あり | あり | あり | あり | もうすぐです| いいえ |
+| 停止の呼び出しを取得します。 | あり | あり | あり | あり | もうすぐです| いいえ |
+| 取得されていない通話の呼び出しに戻る | あり | あり | あり | あり | もうすぐです| いいえ |
 
 ## <a name="configuring-call-park-and-retrieve"></a>パークおよび取得を構成します。
 
@@ -60,6 +60,16 @@ ms.locfileid: "30353475"
 
 コール パークを使用し、機能を取得する方法の詳細については、[公園のチームでの呼び出し](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)を参照してください。
 
+### <a name="assign-a-call-park-policy"></a>コール パークのポリシーを割り当てる
+
+コール パークのポリシーを 1 つまたは複数のユーザーに割り当てるには次の手順に従います。
+
+1. **マイクロソフトのチーム管理センター**を参照して > **音声** > **公園のポリシーを呼び出します**。
+2. ポリシーを選択するには、ポリシー名の左側にクリックします。
+3. **ユーザーの管理**を選択します。
+4. **ユーザーの管理**ウィンドウで、表示名、ユーザー名、ユーザーの検索、名を選択し、[**追加**] をクリックします。 追加するユーザーごとにこの手順を繰り返します。
+5. ユーザーの追加が完了したら、[**保存**] を選択します。
+ 
 ### <a name="configure-call-park-and-retrieve-with-powershell"></a>コール パークを構成して、PowerShell を使用して取得
 
 [新規 CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps)の PowerShell コマンドレットを使用すると、コール パークのポリシーを作成できます。

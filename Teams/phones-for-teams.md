@@ -16,20 +16,20 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: この資料では、マイクロソフトのチームとチームの Microsoft 認定電話でサポートされる機能に認定されている電話の一覧について説明します。
-ms.openlocfilehash: c7b5278acf8b03cdd2f27b6f10a4e83be74b5a2f
-ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
+ms.openlocfilehash: 2a5ae7d996d2b89aae02e4104e762dfa916c9f55
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30720441"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747647"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft Teams 用の電話機
 
 マイクロソフトのチームでは、従来の電話の経験を必要とするユーザーのデスクの電話のポートフォリオをサポートしています。 この資料では、マイクロソフトのチームとチームの Microsoft 認定電話でサポートされる機能に認定されている電話の一覧について説明します。 チームが認定済みデバイスの最新の最新の状態情報を取得するには、[チームのマーケットプ レース](http://office.com/teamsdevices)に移動します。
 
-## <a name="teams-certified-ip-phones"></a>IP 電話の認定チーム 
+## <a name="teams-certified-ip-phones"></a>IP 電話の認定チーム
 
-電話で、高品質で信頼性の高いマイクロソフト チームの経験を提供するには提携、Yealink、Crestron、ポリコムとを開発し、デスクの電話や会議室のオーディオ デバイスの幅広いポートフォリオを認定するのには積極的に操作します。 現在サポートされているデバイスの[IP 電話を現在認定](/SkypeForBusiness/certification/teams-ip-phones.md#currently-certified-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)を参照してください。
+電話で、高品質で信頼性の高いマイクロソフト チームの経験を提供するには提携、Yealink、Crestron、ポリコムとを開発し、デスクの電話や会議室のオーディオ デバイスの幅広いポートフォリオを認定するのには積極的に操作します。 現在サポートされているデバイスの[IP 電話を現在認定](/SkypeForBusiness/certification/teams-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json#currently-certified-ip-phones)を参照してください。
 
 ## <a name="microsoft-teams-phones-feature-set"></a>マイクロソフトのチームは電話の機能セット
 

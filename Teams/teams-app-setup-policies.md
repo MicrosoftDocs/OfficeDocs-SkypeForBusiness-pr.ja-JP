@@ -19,12 +19,12 @@ search.appverid: MET150
 description: マイクロソフトのチームおよび組織内のユーザーのチームをカスタマイズするのには暗証番号 (pin) のアプリケーションを使用するアプリケーション設定のポリシーについて説明します。
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: 29fcd5541e4817a2c5880316bba33d7d55047444
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: 5633e5158a3f19ea8960e957b91537547d2580a1
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664749"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747663"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
@@ -85,6 +85,14 @@ ms.locfileid: "30664749"
 3. **チームのアプリケーション設定のポリシー**では、アプリケーションの設定ポリシーを割り当てるを選択し、**保存**します。
 
     ![アプリケーション ・ セットアップ ・ ポリシーの割り当て-policy.png](media/app-setup-policies-assign-policy.png)
+
+割り当てることも、アプリケーションの設定のポリシーを 1 つまたは複数のユーザーとして次のように。
+
+1. **マイクロソフトのチーム管理センター**を参照して > **チームのアプリ** > **ポリシーをセットアップ**します。
+2. ポリシーを選択するには、ポリシー名の左側にクリックします。
+3. **ユーザーの管理**を選択します。
+4. **ユーザーの管理**ウィンドウで、表示名、ユーザー名、ユーザーの検索、名を選択し、[**追加**] をクリックします。 追加するユーザーごとにこの手順を繰り返します。
+5. ユーザーの追加が完了したら、[**保存**] を選択します。
 
 ### <a name="assign-a-custom-app-setup-policy-to-users-in-a-group"></a>グループ内のユーザーにカスタム アプリケーション設定のポリシーを割り当てる
 
