@@ -14,15 +14,14 @@ search.appverid: MET150
 description: Microsoft Teams でのライブ イベントを立ち上げる前に考慮する必要のある要素について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6847a4db0a2517e90535aa5ab013b030fb36f38
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 4c249c6e63b8342b524b54afc2a6d30be3e92b25
+ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463197"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30771767"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
-> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 お客様の組織内で大規模なミーティングを開催するような Teams ライブ イベントを計画する場合、そのイベントを立ち上げる前にいくつかの要素を考慮する必要があります。 
 
@@ -30,8 +29,8 @@ ms.locfileid: "30463197"
 ユーザーが Teams ライブ イベントをスケジュールするには、次の前提条件を満たす必要があります。
 
 以下に、割り当てられる必要のあるライセンスを示します。  
-- Office 365 Enterprise E3 または E5 ライセンス、または Office 365 A3 または A5 ライセンス。 
-- Microsoft Teams、Skype for Business、および Microsoft Stream のライセンス。
+- Office 365 Enterprise E1、E3、E5 のいずれかのライセンス、または Office 365 A3 または A5 ライセンス。 
+- Microsoft Teams、および Microsoft Stream のライセンス。
 
 認証されたユーザーとしてライブ イベントに参加するのに、Office 365 のライセンスが必要であることを理解することは重要ですが、これは使用する作成方法によって異なります。
 
@@ -42,6 +41,8 @@ ms.locfileid: "30463197"
 
 ユーザーには以下が設定されている必要があります。
 - Teams でのプライベート会議のスケジューリングが有効である (*TeamsMeetingPolicy -AllowPrivateMeetingScheduling パラメーター = True*)。
+- Teams 会議で有効なビデオ共有 (*TeamsMeetingPolicy -AllowIPVideo パラメーター = True*)。
+- Teams 会議で有効な画面共有 (*TeamsMeetingPolicy -ScreenSharingMode パラメーター = EntireScreen*)。
 - Teams でのライブ イベントのスケジューリングが有効である (*The TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling パラメーター = True*)。
 - Microsoft Stream でライブ イベントを作成する許可 ([外部エンコーダー作成](#production)の場合)。
 
@@ -64,7 +65,7 @@ ms.locfileid: "30463197"
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams ライブ イベントと Skype 会議ブロードキャスト
 次の表に、ライブ イベントで提供されるコア機能と特徴、および Skype 会議ブロードキャストとの相違点を示します。 
 
-|**機能**   |**Skype 会議ブロードキャスト** |**Teams ライブ イベント (クイック スタート)** |**Teams ライブ イベント (外部エンコーダー)** |
+|**機能**   |**Skype 会議ブロードキャスト** |**Microsoft Teams で作成されたイベント** |**外部アプリまたはデバイスで作成されたイベント** |
 |---------|---------|---------|---------|
 |最大視聴者数 |出席者 10,000 名 |出席者 10,000 名* |出席者 10,000 名* |
 |ライブ イベントの最大期間 |4 時間 |4 時間 |4 時間 |
@@ -75,8 +76,9 @@ ms.locfileid: "30463197"
 |Mac でプロデューサー クライアント |X  | &#x2714; (Teams) |&#x2714; (Stream、埋め込み Stream 経由の Teams) |
 |プロデューサー UI での出席者数 |X  |&#x2714; (Teams) |&#x2714; (Stream、埋め込み Stream 経由の Teams) |
 |複数の発表者の許可 |&#x2714; (Skype for Business) |&#x2714; (Teams) |N/A  |
-会議中の発表者の招待 |&#x2714; (Skype for Business) |X |N/A |
-|Web やモバイルでの発表者の参加 |&#x2714; (Skype for Business)  |X |N/A |
+|会議中の発表者の招待 |&#x2714; (Skype for Business) |X |N/A |
+|Web やモバイルでの発表者の参加 |&#x2714; (Skype for Business)  |X |該当なし |
+|フェデレーションおよびゲストの発表者/出席者 |&#x2714; (Skype for Business)  | (近日公開) |該当なし |
 |発表者 – PSTN アクセス |X |&#x2714; (Teams) |N/A |
 |画面表示 |X |&#x2714; (Teams) |N/A |
 |PowerPoint 表示 (PPT 共有) |&#x2714; |X (画面共有により軽減) |N/A |
@@ -105,7 +107,7 @@ ms.locfileid: "30463197"
 - Go Local Canada
 
 **除外対象と考慮事項**
-- **Go Locals:** イギリス、インド、および他の Microsoft Teams Go Local は現在サポートされていません。
+- **Go Locals:** イギリス、インド、オーストラリア、日本、および他の Microsoft Teams Go Local は現在サポートされていません。
 - **中国:** 中国では Azure CDN にアクセスできないため、イベント チームのメンバーと出席者は Teams ライブ イベントを使用できません。 企業の VPN 接続を使用して、顧客の企業ネットワーク経由でクライアントを CDN に接続することにより、これを回避できます。
 
 ## <a name="next-steps"></a>次のステップ
