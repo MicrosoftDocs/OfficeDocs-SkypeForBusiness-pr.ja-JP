@@ -17,10 +17,10 @@ description: マイクロソフトのチームの管理センターでチーム�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 0307d0b0d8c0d2501aa8f61693c4c9c01d30cc07
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
+ms.lasthandoff: 03/19/2019
 ms.locfileid: "30569935"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft Teams の使用状況レポート
