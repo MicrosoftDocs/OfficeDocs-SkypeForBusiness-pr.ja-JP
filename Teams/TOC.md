@@ -24,6 +24,7 @@
 ## [メッセージング ポリシーを管理する](messaging-policies-in-teams.md)
 ## [Teams のテンプレートの使用を開始する](get-started-with-teams-templates.md)
 ## [医療機関向けの Teams のテンプレート](healthcare/healthcare-templates.md)
+## [小売業向けの Teams のテンプレート](get-started-with-retail-teams-templates.md)
 ## [チームの動的なメンバーシップの概要](dynamic-memberships.md)
 ## [プレゼンス](presence-admins.md)
 ## [別の組織の Teams ユーザーとの通信](let-your-teams-users-communicate-with-other-people.md)
@@ -34,6 +35,9 @@
 ## [アプリ、ボット、およびコネクタ](deploy-apps-microsoft-teams-landing-page.md)
 ### [アプリのアクセス許可と考慮事項](app-permissions.md)
 ### [Teams でのアプリの管理設定](admin-settings.md)
+### [Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)
+### [Teams のアプリのセットアップ ポリシーを管理する](teams-app-setup-policies.md)
+### [Teams のカスタム アプリのポリシーと設定を管理する](teams-custom-app-policies-and-settings.md)
 ### [Teams でプライベートのチャットやチャネルのボットを追加する](add-bots.md)
 ### [組み込みタブとカスタム タブの使用](built-in-custom-tabs.md)
 ### [Office 365 コネクタとカスタム コネクタの使用](Office-365-custom-connectors.md)
@@ -317,7 +321,7 @@
 ### 自動応答と呼び出しキュー 
 #### [電話システムの自動応答とは](what-are-phone-system-auto-attendants.md)
 #### [電話システムの自動応答をセットアップする](create-a-phone-system-auto-attendant.md)
-#### [小規模ビジネスの例: 自動応答をセットアップする](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [小規模ビジネスの例: 自動応答をセットアップする](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Microsoft Teams のリソースのアカウントの管理](manage-resource-accounts.md)
 #### [電話システムの呼び出しキューを作成する](create-a-phone-system-call-queue.md)
 #### [自動応答および呼び出しキューの通話に Teams から直接応答する](answer-auto-attendant-and-call-queue-calls.md)
@@ -688,7 +692,7 @@
 ## 現場担当者向けの Teams
 ### [Microsoft StaffHub の廃止](teams-for-firstline-workers/microsoft-staffhub-to-be-retired.md)
 ### [Teams で組織のシフト アプリを管理する](teams-for-firstline-workers/manage-the-shifts-app-for-your-organization-in-teams.md)
-### [Retail Teams テンプレートの使用を開始する](get-started-with-retail-teams-templates.md)
+### [小売業の Teams テンプレートの使用を開始する](get-started-with-retail-teams-templates.md)
 
 ## [Microsoft 365 Government の計画: GCC](plan-for-government-gcc.md)
 ### [Microsoft 365 Government の計画: GCC High](plan-for-government-gcc-high.md)
