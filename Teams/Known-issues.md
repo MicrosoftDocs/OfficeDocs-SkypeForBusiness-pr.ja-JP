@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 718b239da2d65bc01675f91c68ad18f7dee68c3e
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 2908ff9bec8be1eaf7d6dc09ff03adb9ae3ea9ea
+ms.sourcegitcommit: cad74f2546a6384747b1280c3d9244aa13fd0989
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641233"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30737817"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -257,6 +257,10 @@ ms.locfileid: "30641233"
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
 |従来の OneNote タブについて  <br/> |Microsoft Teams のパブリック プレビューで作成された従来の OneNote タブは、名前を変更したり削除したりすることができません。  <br/> |回避策なし。 <br/> |2017/11/8  <br/> |
+
+|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
+|:-----|:-----|:-----|:-----|
+|SharePoint リスト タブの検索機能  <br/> |SharePoint リスト タブの検索機能からファイルを開こうとすると、"このファイルを開くには新しいアプリが必要です" というプロンプトが表示され、ファイルが開かれません。 <br/> |検索バーではなくリストから直接開いてください。 <br/> |2019/2/11  <br/> |
 
 ## <a name="teams"></a>Teams
 
