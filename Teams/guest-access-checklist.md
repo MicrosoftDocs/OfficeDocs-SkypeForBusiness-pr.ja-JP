@@ -1,13 +1,13 @@
 ---
-title: Microsoft Teams のゲスト アクセスのチェックリスト
+title: マイクロソフト チームのゲスト アクセスのチェックリスト
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
-ms.date: 01/22/2019
+ms.date: 03/25/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
-description: このチェックリストを使用すると、Microsoft Teams のゲスト アクセスが設定しやすくなります。
+description: マイクロソフトのチームでのゲスト アクセスを設定するのには、このチェックリストを使用します。
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -15,17 +15,17 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 404754c373d46b9b6e5578107415d61bbb87f97e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 68beeba403f6a64e194594d5bd40b985c8051dc6
+ms.sourcegitcommit: fba1151c968aa2c43d0c5b42b889b2cdd8dba3cd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463469"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "30795587"
 ---
-<a name="teams-guest-access-checklist"></a>Teams のゲスト アクセスのチェックリスト
+<a name="teams-guest-access-checklist"></a>チームのゲスト アクセスのチェックリスト
 ==========================================
 
-このチェックリストを使用すると、自分の組織の基本設定に応じて Microsoft Teams のゲスト アクセス機能を有効にしたり、設定したりすることができるようになります。
+有効にして、組織の基本設定に応じて、マイクロソフトのチームでゲスト アクセス機能を構成するためには、このチェックリストを使用します。
 
 ## <a name="understand-the-limitations-for-guests"></a>ゲストに対する制限事項を理解する
 
@@ -65,7 +65,7 @@ Microsoft Teams のゲスト アクセスではAzure Active Directory ビジネ�
 4. [**外部ユーザー**] の下で、[**外部コラボレーションの設定を管理します**] をクリックします。
 5. [**外部コラボレーションの設定**] ページで [**メンバーが招待可能**] が [**はい**] に設定されていることを確認します。
 
-      ![スクリーンショットに AAD 設定の切り替えの例が示されます。 ](media/guest-access-checklist-AADSettings1.png)
+      ![スクリーン ショットでは、AAD の設定表示/非表示の例を示します。 ](media/guest-access-checklist-AADSettings1.png)
 
     ゲストをサポートするために、[**メンバーが招待可能**] を [**はい**] に設定する必要があります。 
    
@@ -93,7 +93,7 @@ Microsoft Teams のゲスト アクセスではAzure Active Directory ビジネ�
 1. チーム管理センターで、**組織全体の設定**を選択します > **ゲスト アクセス**します。
 2. [**Microsoft Teams でのゲスト アクセスを許可**] の切り替えスイッチを [**オン**] に設定します。
 
-    ![Teams 設定の切り替えの例を示すスクリーンショット](media/set-up-guests-image1.png)
+    ![スクリーン ショットは、チームの設定のオン/オフの例を示しています。](media/guest-access-checklist-set-up-guests-image1.png)
 
 3. この同じページで、必要な他のゲストの設定を構成します。
 4. [**保存**] をクリックします。
@@ -101,21 +101,21 @@ Microsoft Teams のゲスト アクセスではAzure Active Directory ビジネ�
 詳細については、「[Microsoft Teams へのゲスト アクセスをオンまたはオフにする](set-up-guests.md)」をご覧ください。
 
 
-## <a name="--step-4-configure-sharing-in-office-365"></a>□  手順 4: Office 365 での共有を構成する 
+## <a name="--step-4-configure-sharing-in-office-365"></a>□ ステップ 4: Office 365 の共有を構成します。 
 
 ユーザーがゲストを追加できることを確認します。 方法は次のとおりです。
 
 1. Microsoft 365 管理センターで、[**設定**] > [**セキュリティとプライバシー**] に移動します。
 
-     ![サービスの設定の例を示すスクリーンショット](media/guest-access-checklist-Office365Admin_Services_addins.png)
+     ![スクリーン ショットは、サービスの設定の例を示しています。](media/guest-access-checklist-Office365Admin_Services_addins.png)
 
 2. [**共有**] で、[**編集**] を選択します。
 
-     ![共有設定の切り替えの例を示すスクリーンショット](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
+     ![スクリーン ショットは、共有の設定切り替えの例を示しています。](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
  
 3. [**ユーザーがこの組織に新しいゲストを追加できるようにする**] を [**オン**] にしてから、[**保存**] をクリックします。
 
-     ![共有設定の切り替えの例を示すスクリーンショット](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
+     ![スクリーン ショットは、共有の設定切り替えの例を示しています。](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
  
 > [!NOTE]
 > この設定は、Azure AD の [**ユーザー設定**] > [**外部ユーザー**] の [**メンバーが招待可能**] 設定と同等です。  
@@ -128,14 +128,14 @@ Microsoft Teams のゲスト アクセスではAzure Active Directory ビジネ�
 3. SharePoint 管理センターで、[**共有**] を選択します。
 4. [**組織外との共有を許可しない**] の選択が*解除*されていることを確認します。
  
-     ![スクリーンショットに Sparepoint Online の 設定の切り替えの例が示されます。](media/guest-access-checklist-SPOSettings1.png)
+     ![スクリーン ショットは、SparePoint のオンライン設定切り替えの例を示します。](media/guest-access-checklist-SPOSettings1.png)
 
 
 ## <a name="-step-6-enable-specific-settings-for-channels"></a>□ 手順 6: チャネルの特定の設定を有効にする 
 
 Teams アプリケーションで、個人のチーム レベルにおいて、ゲストがチャネルを作成、更新、削除することができるようにゲストのアクセス許可を設定します。 管理者に加えて、チーム所有者もこの設定を構成することができます。
 
-![チーム/チャネルの設定の切り替えの例を示すスクリーンショット](media/guest-access-checklist-TeamsSettings2.png)
+![スクリーン ショットは、チームとチャネルの設定のオン/オフの例を示しています。](media/guest-access-checklist-TeamsSettings2.png)
 
 詳細については、「[Microsoft Teams でのゲスト アクセス](guest-access.md)」をご覧ください。
 

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bd2b3f94acfc82e1602f3137ed1e275a03c7b0e
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 6972a09a169560d255c2bb118f80dbbdfb2c7f4f
+ms.sourcegitcommit: 8e5fc1d8c19a7f26f53e40b23dd6476a8c6d805f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30647426"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30800133"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -30,9 +30,9 @@ ms.locfileid: "30647426"
 > このページは、ユーザーは、Skype のビジネス ・ モード (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) のいずれかで、時に、チームのクライアントの動作に重要な今後の変更点を説明します。
 
 
-共存モードの目的は、エクスペリエンスを提供する単純かつ予測可能なエンド ・ ユーザーの組織の移行とビジネス用の Skype からのチームには。  チームに移動する組織、TeamsOnly モードは、各ユーザーの最終的な宛先を同時に TeamsOnly (または他のモード) に割り当てられる必要はないすべてのユーザーです。  ユーザー モードの TeamsOnly に到達する前に組織に使用できます、Skype のビジネス ・ モード (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) は、TeamsOnly ユーザーは、まだない方の間で予測可能な通信を確保します。 
+共存モードの目的は、エクスペリエンスを提供する単純かつ予測可能なエンド ・ ユーザーの組織の移行とビジネス用の Skype からのチームには。  チームに移動する組織、TeamsOnly モードは、各ユーザーの最終的な宛先を同時に TeamsOnly (または他のモード) に割り当てられる必要はないすべてのユーザーです。  ユーザーが TeamsOnly モードに到達する前に、組織は Skype for Business の任意のモード (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) を使用して、TeamsOnly であるユーザーとまだ TeamsOnly ではないユーザー間の予測可能な通信を確保することができます。 
 
-ユーザーは、Skype のビジネス モードのいずれかでは、ビジネスのクライアントのユーザーの Skype にすべての着信のチャットや通話がルーティングされます。 エンド ・ ユーザーの混乱を防止し、適切なルーティングを確保する、チームのクライアントでの通話やチャット機能は、ユーザーは、Skype のビジネス モードのいずれかで、無効にするものです。 同様に、チームでミーティングのスケジュール設定は SfBOnly または SfBWithTeamsCollab のモードでは、ユーザーに明示的に無効にするためのものし、ユーザーが SfBWithTeamsCollabAndMeetings モードである場合を明示的に有効にします。  自動的に無効にする機能チャットし、機能を呼び出す会議のモードに基づいてスケジュール設定を有効または無効とは今すぐ開始タップの顧客に公開します。  
+ユーザーは、Skype のビジネス モードのいずれかでは、ビジネスのクライアントのユーザーの Skype にすべての着信のチャットや通話がルーティングされます。 エンド ユーザーが混乱することを回避し、適切なルーティングを実現するため、Teams クライアントの通話とチャット機能は、ユーザーがいずれかの Skype for Business モードにある場合は無効になるように意図されています。 同様に、Teams での会議のスケジュールも、ユーザーが SfBOnly または SfBWithTeamsCollab モードの場合は明示的に無効になるように、そしてユーザーが SfBWithTeamsCollabAndMeetings の場合に明示的に有効になるように意図されています。  自動的に無効にする機能チャットし、機能を呼び出す会議のモードに基づいてスケジュール設定を有効または無効とは今すぐ開始タップの顧客に公開します。  
 
 この機能では、前にマイクロソフトのガイダンスは、メッセージングの呼び出し、およびミーティングのポリシーに対応する設定を設定することによって適切なユーザー エクスペリエンスを確実にしました。 ただしの仮の強制がなかったし、チーム クライアント内のすべての機能へのフル アクセスがあるユーザーは既定であるため一部のユーザーでそのモードに関係なく、チーム クライアントでこれらのエクスペリエンスの一部またはすべてへのアクセスが保持している可能性があります。  その結果、この機能を発表と一部のユーザー可能性がありますを参照してくださいチーム クライアントで自分の経験では変更・ モードに準拠するようにユーザーの操作が開始されます。  次の表は、新しい動作を示しています。
 
@@ -67,7 +67,7 @@ ms.locfileid: "30647426"
 
 管理者は、特定のモードには、次の値にこれらの設定を設定する必要があります。
 
-|モード|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|AllowChannelMeetingScheduling|
+|Mode|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|AllowChannelMeetingScheduling|
 |---|---|---|---|---|
 |TeamsOnly または諸島|有効|有効|有効|有効|
 |SfBWithTeamsCollabAndMeetings|無効|無効|有効|有効|
@@ -76,12 +76,11 @@ ms.locfileid: "30647426"
 
 モードに基づいてユーザー エクスペリエンスの自動準拠のロールアウトする前に、`Grant-CsTeamsUpgradePolicy`コマンドレットの場合は、これらを決定するには、TeamsMessagingPolicy、TeamsCallingPolicy、および TeamsMeetingPolicy に対応する設定の構成をチェックします。設定は、指定したモードと互換性があります。 いずれかが正しく構成されていません場合、は、補助金は成功しますが、警告が行われます PowerShell でどの特定の設定が正しく構成されていないことを示します。 以下のようになりますが、PowerShell の警告の例に示します。
 
+`Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 
-' 許可-CsTeamsUpgradePolicy-user1@contoso.com - グループ SfBWithTeamsCollab のアイデンティティ
+`WARNING: The user 'user1@contoso.com' currently has effective policy enabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the near term, when granting TeamsUpgradePolicy with mode=SfBWithTeamsCollab to a user, you must also separately assign policy to ensure the user has effective policy disabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the future, the capability will automatically honor TeamsUpgradePolicy.`
 
-警告: ユーザー 'user1@contoso.com' は現在の有効なポリシーが有効になっている値が: AllowUserChat、AllowPrivateCalling、AllowPrivateMeetingScheduling、AllowChannelMeetingScheduling。 当面は、モードでは TeamsUpgradePolicy を付与する場合 = SfBWithTeamsCollab、ユーザーにする必要がありますも個別にポリシーを割り当てるユーザーの有効なポリシーが無効になっている値を持っていることを確認する: AllowUserChat、AllowPrivateCalling、AllowPrivateMeetingScheduling、AllowChannelMeetingScheduling。 今後、機能を自動的に優先する TeamsUpgradePolicy です '。
-
-このような警告を表示するには、時に、管理者はチームで互換性のあるエンド ユーザー エクスペリエンスを提供するのには示されているポリシーを後で更新する必要があります。 管理者は、警告の結果としてのアクションは実行しませんが場合、ユーザー可能性があります、チャットへのアクセスを呼び出すと、または会議の TeamsMessagingPolicy、TeamsCallingPolicy、TeamsMeetingPolicy の値に応じてチームでのスケジュール設定機能エンド ユーザー エクスペリエンスに混乱する可能性があります。
+このような警告を表示するには、時に、管理者はチームで互換性のあるエンド ユーザー エクスペリエンスを提供するのには示されているポリシーを後で更新する必要があります。 管理者が警告の結果として何も対応しないことを決めた場合でも、TeamsMessagingPolicy、TeamsCallingPolicy、TeamsMeetingPolicy の値に応じて、ユーザーは Teams のチャット、通話、会議スケジュール機能を利用できますが、エンド ユーザー エクスペリエンスがわかりにくくなる可能性があります。
 
 TeamsUpgradePolicy モードに基づくチーム クライアント エクスペリエンスの自動適合性が利用できると、不要になった必要がありますこれらのポリシーを設定します。 TeamsUpgradePolicy モードの値が優先されますこれらの特定の設定の値をします。 自動準拠は、ポリシーの解決中にポリシーのインフラストラクチャで実現します。 さまざまな設定の競合が発生した場合は、AllowUserChat、AllowPrivateCalling、AllowPrivateMeetingScheduling および AllowChannelMeetingScheduling の値をモードに基づいた動作が優先されます。 自動適合性を提供すると後、は、クライアント エクスペリエンスが自動的に適用される、TeamsMessagingPolicy、TeamsCallingPolicy、および TeamsMeetingPolicy の値にかかわらず、管理者に通知する PowerShell の警告が更新されます。
 

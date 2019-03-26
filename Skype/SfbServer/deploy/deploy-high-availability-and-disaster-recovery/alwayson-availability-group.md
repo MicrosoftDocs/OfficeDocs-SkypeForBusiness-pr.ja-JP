@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: (インストール)、常に可用性グループに、Skype のビジネス サーバーの展開を展開します。
-ms.openlocfilehash: b773c10766b33e57eb8a132d98ef0e0cdc180123
-ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
+ms.openlocfilehash: 2877af4d7ccf8fea0087ce67d7e92ecc5e2f8ccd
+ms.sourcegitcommit: 8e5fc1d8c19a7f26f53e40b23dd6476a8c6d805f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30342220"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30800118"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>ビジネス サーバーの Skype のバック エンド サーバーに常時接続の可用性グループを展開します。
  
@@ -88,8 +88,10 @@ AG をどのように展開することを新しいプール、ミラーリン�
    - SQL Server 構成マネージャーを開きます。画面左側のツリーで、[**SQL Server のサービス**] をクリックし、SQL Server サービスをダブルクリックします。 
     
    - [**プロパティ**] ボックスで、[**AlwaysOn 高可用性**] タブを選択します。[**AlwaysOn 可用性グループを有効にする**] チェック ボックスをオンにします。SQL Server サービスを再開するよう求めるメッセージが表示されたら、サービスを再開します。
+   
+6. 説明したように、フロント エンド プールを作成するトポロジ ビルダーを使用して、[を作成する Skype のビジネス サーバーの新しいトポロジを公開し、](../../deploy/install/create-and-publish-new-topology.md)。 実行すると、プールの SQL ストアとして、AG を指定します。
     
-6. 可用性グループを作成します。
+7. 可用性グループを作成します。
     
    - SQL Server Management Studio を開き、SQL Server インスタンスに接続します。
     
@@ -120,9 +122,7 @@ AG をどのように展開することを新しいプール、ミラーリン�
    - [検証] ページで、すべての検証チェックが成功したことを確認し、[**次へ**] をクリックします。
     
    - [**概要**] ページで、すべての設定を確認し、[完了] をクリックします。
-    
-7. 説明したように、フロント エンド プールを作成するトポロジ ビルダーを使用して、[を作成する Skype のビジネス サーバーの新しいトポロジを公開し、](../../deploy/install/create-and-publish-new-topology.md)。 実行すると、プールの SQL ストアとして、AG を指定します。
-    
+      
 8. プールと AG が配置されると、SQL ログインが各 AlwaysOn 可用性グループのレプリカであることを確認するのにはいくつかの最終的な手順を実行します。 
     
    - トポロジ ビルダーを開き**既存の展開からトポロジをダウンロード**するを選択して **[ok]** をクリックします。
