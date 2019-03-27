@@ -1,5 +1,6 @@
 ---
 title: フェデレーションおよびパブリック IM 接続の有効化または無効化
+ms.reviewer: ''
 ms:assetid: 8ec58f4b-9f6d-47b4-a187-d18a83fe4577
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182549(v=OCS.15)
 ms:contentKeyID: 48184813
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: フェデレーションとは、パートナーのドメインとユーザーのインスタント メッセージング (IM) プロバイダー ユーザーのユーザーと共同作業をサポートしているの公開を含め、信頼された顧客またはパートナー組織のアカウントを持つユーザーを有効にするのに必要なサポート、組織です。
-ms.openlocfilehash: 9e293c70565832944a10e3c6d2533425c747197e
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: c207f409164162f066d1ea49197cbd26fa50273b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222997"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892225"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>有効にするか、ビジネスのサーバーのフェデレーションと Skype でのパブリック IM 接続を無効にします。
 
@@ -57,7 +58,7 @@ ms.locfileid: "27222997"
     
     2.  組織は、外部通信のアーカイブをサポートする場合は、**アーカイブ、フェデレーション パートナーへの免責事項の送信**] チェック ボックスを選択します。
 
-7.  [**確定**] をクリックします。
+7.  [**コミット**] をクリックします。
 
 フェデレーション ユーザーにビジネスのサーバーの展開に、Skype のユーザーと共同作業を有効にするには、フェデレーション ユーザー アクセスをサポートするために少なくとも 1 つの外部アクセス ポリシーを構成することもあります。 詳細については、[制御するポリシーを構成するユーザーのアクセスをフェデレーションする](../external-access-policies/configure-policies-to-control-federated-user-access.md)を参照してください。 特定のフェデレーション ドメインのアクセスを制御するには、[許可された外部ドメインのサポートを構成する](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)を参照してください。
 

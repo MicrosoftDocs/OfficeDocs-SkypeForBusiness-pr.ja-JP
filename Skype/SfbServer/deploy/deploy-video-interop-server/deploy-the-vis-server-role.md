@@ -1,5 +1,6 @@
 ---
 title: Skype で VIS のサーバーの役割をビジネスのサーバーの展開します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b6401e67-59fe-4419-a0ab-ffac88e67632
 description: '概要: ビジネス サーバーの Skype でのビデオの相互運用機能サーバー (VIS) の役割を展開します。'
-ms.openlocfilehash: b52980a727ad0ce13e45e2c833c971598afafa1e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7919b9c02001f0851b3662baa989b0eed0b20225
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20993444"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896128"
 ---
 # <a name="deploy-the-vis-server-role-in-skype-for-business-server"></a>Skype で VIS のサーバーの役割をビジネスのサーバーの展開します。
  
@@ -31,7 +32,7 @@ ms.locfileid: "20993444"
     
 4. [**サービスの開始**] を選択します。
     
-これで、このサービスのソフトウェアがインストールされ、稼動状態になります。 ビジネス サーバー サービスの他の Skype と**Skype**ビジネス サーバー ビデオの相互運用機能のサービスが実行されているかどうかを確認する [サービス] mmc ツールを開くことができます。 次に、VIS サーバーまたはプールを構成する必要があります。
+The software for this service is now installed and running. ビジネス サーバー サービスの他の Skype と**Skype**ビジネス サーバー ビデオの相互運用機能のサービスが実行されているかどうかを確認する [サービス] mmc ツールを開くことができます。 Next, you must configure the VIS server or pool.
 ## <a name="see-also"></a>関連項目
 
 [ビジネス サーバー用の Skype でビデオの相互運用機能のサーバーを構成します。](configure-the-vis.md)

@@ -1,5 +1,6 @@
 ---
 title: Cloud Connector 新バージョンへのアップグレード
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: 既存の Cloud Connector Edition 展開をアップグレードする方法について説明します。
-ms.openlocfilehash: c0946cf26181df81327412c2dc0efc227b5a5586
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5b3ca4b216bc376c9e23424fb978b5cd83e4aa41
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370628"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897651"
 ---
-# <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Cloud Connector 新バージョンへのアップグレード
+# <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Upgrade to a new version of Cloud Connector
  
 既存の Cloud Connector Edition 展開をアップグレードする方法について説明します。
   
@@ -61,7 +62,7 @@ ms.locfileid: "25370628"
   - 古いアプライアンスをドレインして、ネットワーク接続を新しいアプライアンスに切り替えます。
     
 > [!NOTE]
->  クラウド コネクタは、新しいビルドに更新すると、クラウドのコネクタのコマンドレットを更新できません可能性があります。 これは、たとえば、PowerShell ウィンドウは開いたままに自動更新が発生したときに場合に発生します。 更新されたコマンドレットをロードするには、行うことができます次の手順のいずれか: > クラウド コネクタ アプライアンス、および PowerShell。 その後の再オープンを閉じる PowerShell > または、インポート モジュール CloudConnector を実行することができます-フォース。
+>  クラウド コネクタは、新しいビルドに更新すると、クラウドのコネクタのコマンドレットを更新できません可能性があります。 これは、たとえば、PowerShell ウィンドウは開いたままに自動更新が発生したときに場合に発生します。 更新されたコマンドレットをロードするには、次の手順: _gt 閉じる PowerShell、コネクタのクラウド アプライアンス上のどちらか、PowerShell.> かをもう一度、インポート モジュール CloudConnector を実行することができます-強制します。
   
 ## <a name="upgrade-a-single-site-to-a-new-version"></a>単一サイトの新バージョンへのアップグレード
 <a name="BKMK_Upgrade"> </a>
@@ -72,7 +73,7 @@ ms.locfileid: "25370628"
     
 2. CloudConnector.msi の新しいバージョンをインストールする[https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller)。
     
-3. CloudConnector.ini ファイルがインストールするバージョンに該当するファイルで、環境に必要な値をすべて更新したことを確認します。 以前のリリースからの .ini ファイルは使用できません。 クラウドのコネクタをアップグレードする場合は、[コネクタのクラウド アプライアンスの準備](prepare-your-cloud-connector-appliance.md)のトピックを参照してください、サイト名と EnableReferSupport CloudConnector.ini ファイル内に適切な値に設定されているかどうかを確認してください。
+3. CloudConnector.ini ファイルがインストールするバージョンに該当するファイルで、環境に必要な値をすべて更新したことを確認します。 以前のリリースからの .ini ファイルを使うことはできませんCloudConnector_shortest をアップグレードする場合は「Prepare your environment for Cloud Connector」トピックをご覧ください。 クラウドのコネクタをアップグレードする場合は、[コネクタのクラウド アプライアンスの準備](prepare-your-cloud-connector-appliance.md)のトピックを参照してください、サイト名と EnableReferSupport CloudConnector.ini ファイル内に適切な値に設定されているかどうかを確認してください。
     
 4. 管理者として PowerShell コンソールを起動し、次のコマンドレットを実行して現在のアプライアンスを登録します。
     

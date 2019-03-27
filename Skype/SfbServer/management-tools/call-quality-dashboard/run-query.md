@@ -1,5 +1,6 @@
 ---
-title: クエリを実行します。
+title: クエリの実行
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
 description: '概要: は、品質のダッシュ ボードを呼び出すためのデータ API の一部であるクエリの実行の操作について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: ac9f042a8d5b8e016a398a0daf9595ffcb9d2fcb
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8a1bea338039914695e16d1294f28abfe1e4b559
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533392"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899152"
 ---
-# <a name="run-query"></a>クエリを実行します。
+# <a name="run-query"></a>クエリの実行
 
 **の概要:** 品質のダッシュ ボードを呼び出すためのデータ API の一部であるクエリの実行の操作について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
 
 クエリの実行操作は、品質のダッシュ ボードを呼び出すためのデータ API の一部です。
 
-## <a name="run-query"></a>クエリを実行します。
+## <a name="run-query"></a>クエリの実行
 
 操作には、指定した寸法、測定、およびフィルターに基づいて、キューブに対してクエリを実行する機能が用意されています。 クエリを実行し、データを返します。
 

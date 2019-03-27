@@ -1,5 +1,6 @@
 ---
 title: 翻訳ルールを新規作成または既存の編集
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ff701979-9ea9-4ae8-a2da-91c4e1d97c25
 ROBOTS: NOINDEX, NOFOLLOW
-description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 0f7a3d5187185dcbef9b8b22f2c543b452359225
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: 92f98136edd544416607d02e638dd5889a7a22ab
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241828"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891548"
 ---
-# <a name="translation-rule-create-new-or-edit-existing"></a>翻訳規則: 新規作成または既存の編集
+# <a name="translation-rule-create-new-or-edit-existing"></a>変換ルール: 新規作成または現在の形式のままで編集
 
-目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 
 - [作成またはビジネス サーバーの Skype で呼び出された ID プレゼンテーションの変換ルールを変更](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
