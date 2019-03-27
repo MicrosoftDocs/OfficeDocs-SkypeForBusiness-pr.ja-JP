@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype での会議のためのハードウェアおよびソフトウェア要件
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: '概要: ビジネス サーバーの Skype での会議のためのハードウェアおよびソフトウェア要件の詳細については、このトピックを読みます。'
-ms.openlocfilehash: 0029bca57477d52e1886ff476984477bdac75b97
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 3385395eb34e69fadcdce4ba4bf529a347a2979c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247670"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883929"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>ビジネス サーバーの Skype での会議のためのハードウェアおよびソフトウェア要件
 
@@ -48,11 +49,11 @@ Business Server web 会議サービスの Skype では、ファイル ストア�
 
 ビジネス サーバーのサポート ファイルを使用するの Skype では、直接接続型ストレージ (DAS) またはストレージ エリア ネットワーク (SAN)、分散ファイル システム (DFS) を含むのいずれかを共有し、ファイルの独立したディスク (RAID) の冗長な配列に格納します。 ビジネス サーバーの展開ウィザードの Skype は、ファイル共有の場所を定義した後 Skype ビジネス サーバーの作成ファイル共有内のフォルダー構造に似ています。
 
-- 1-アプリケーション サーバー-1
+- 1-ApplicationServer-1
 
 - 1-CentralMgmt-1
 
-- 1-web サービス-1
+- 1-WebServices-1
 
   - CollabContent
 
@@ -74,7 +75,7 @@ Office Web アプリケーション サーバーで動作するサーバーを�
 
 音声ビデオ会議を計画する場合、組織で必要な種類の会議メディアで求められるネットワーク帯域幅について理解する必要があります。 これには音声、ビデオ、パノラマ ビデオが含まれる可能性があります。 十分なネットワーク帯域幅がない場合、ユーザー エクスペリエンスが大幅に低下する可能性があります。
 
-オーディオおよびビデオの容量を計画の会議の詳細については、[ビジネス用の Skype のネットワーク要件の計画](../../plan-your-deployment/network-requirements/network-requirements.md)を参照してください。
+会議用の音声およびビデオ機能の計画の詳細については、「[Plan network requirements for Skype for Business](../../plan-your-deployment/network-requirements/network-requirements.md)」を参照してください。
 
 通話受付管理 (CAC) を使用して、音声ビデオ会議で使用されるネットワーク帯域幅を管理できます。 これは、中央サイトとブランチ サイト間の帯域幅リンクの制限など、制限のあるネットワークで重要になります。 詳細については、 [Skype のビジネス サーバーでの呼び出しの受付制御の計画](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)を参照してください。
 
@@ -98,7 +99,7 @@ Office Web アプリケーション サーバーで動作するサーバーを�
 
 - 少なくとも 1 つの仲介サーバーと少なくとも 1 つの PSTN ゲートウェイ
 
-ダイヤルイン会議、アプリケーション サービス、会議アテンダント アプリケーション、および会議アナウンス アプリケーションのフロント エンド サーバーと同じオペレーティング システムの要件があります。 詳細については、[ビジネス サーバー 2015 の Skype のサーバーの要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)を参照してください。
+ダイヤルイン会議、アプリケーション サービス、会議アテンダント アプリケーション、および会議アナウンス アプリケーションのフロント エンド サーバーと同じオペレーティング システムの要件があります。 詳細については、「[Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)」を参照してください。
 
 会議アテンダント アプリケーションと会議アナウンス アプリケーションは、フロント エンド サーバーに、Windows Media フォーマット ランタイムがインストールされている必要があります。 Windows Media フォーマット ランタイムは、保留音、録音済みの名前、案内で使用される Windows Media オーディオ (WMA) ファイルの再生に必要です。 Windows Server 2012 または Windows Server 2012 R2 (推奨) をインストールする場合は、Windows Media フォーマット ランタイムを取得するのには、Microsoft メディア ファンデーションをインストールする必要があります。 Windows Server 2012 よりも前のバージョンの Windows Server にインストールする場合、Windows Media フォーマット ランタイムを入手するには、Windows デスクトップ エクスペリエンスをインストールしておく必要があります。
 

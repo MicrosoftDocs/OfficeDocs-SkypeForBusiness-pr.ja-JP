@@ -1,5 +1,6 @@
 ---
 title: Skype for Business と Exchange の統合の計画
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: '概要: 2016 の Exchange Server や Exchange Server 2013 ビジネス サーバーの Skype を統合する方法の詳細については、このトピックを確認します。'
-ms.openlocfilehash: 13be5cf29369b84db74052b36dec288220b91395
-ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
+ms.openlocfilehash: 3e94e1ab399e8a8a825826e37a281b377a31037e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015341"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892337"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Skype for Business と Exchange の統合の計画
  
@@ -111,7 +112,7 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 > サポートして Skype、Skype のオンライン ビジネスのビジネス サーバー 2019、Skype のビジネス サーバー 2015 年および Lync Server 2013 のクラウドのボイスメール サービスがあります。
 > 
 
-## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
+## <a name="see-also"></a>関連項目
 <a name="feature_support"> </a>
 
 [ビジネス サーバーの設置型の Skype と Outlook Web App との統合を構成します。](../../deploy/integrate-with-exchange-server/outlook-web-app.md)

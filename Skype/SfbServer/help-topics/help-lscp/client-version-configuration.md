@@ -1,5 +1,6 @@
 ---
 title: クライアント バージョンの構成
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 description: 環境内でサポートするクライアントのバージョンを指定するだけでなく、バージョン ポリシーを定義していないクライアントの既定のアクションを指定することも。 これにより、お客様の環境では、複数のクライアント バージョンのサポートに伴うコストを制御することができますで使用するクライアント バージョンを制限することができます。
-ms.openlocfilehash: f2b15966b135ffcaf8379a9ea2b1c3da377c3686
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 99938b2474a467c7c80148a7e0c3cab12320381f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23254477"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898551"
 ---
 # <a name="client-version-configuration"></a>クライアント バージョンの構成
 
@@ -52,5 +53,5 @@ ms.locfileid: "23254477"
 
 - **更新**クライアント バージョンの構成] ボックスの一覧のすべてのクライアント バージョンの構成オプションの状態を確認するのにを更新することができます。
 
-クライアントとクライアントのバージョン間での相互運用性に関する詳細については、計画ドキュメントに[Lync 2013 プレビューでのクライアントの相互運用性](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)を参照してください。 クライアント バージョンの構成の操作に関する詳細については、操作マニュアルの[変更クライアントに明示的にサポートされていないまたは制限付きサイトの既定のアクション](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx)を参照してください。
+クライアントとクライアント バージョンの間の相互運用性の詳細については、「計画」のドキュメントの「[Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)」を参照してください。クライアント バージョンの構成の使用の詳細については、「操作」のドキュメントの「[Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx)」を参照してください。
 

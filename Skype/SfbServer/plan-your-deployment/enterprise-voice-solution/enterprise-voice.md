@@ -1,5 +1,6 @@
 ---
 title: ビジネスのサーバーに、Skype でエンタープライズ VoIP を計画します。
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: エンタープライズ VoIP の Skype の基本の Business Server の計画、サイト、地域、サイト間のネットワーク リンクを含むおよび音声の使用量のトラフィックを見積もるします。
-ms.openlocfilehash: afff1ccffbc6e967f3b18b0746d29db9085fe82c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 281dfefedb05cd60e1d050d708bacae4eec2baa2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373707"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898266"
 ---
 # <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>ビジネスのサーバーに、Skype でエンタープライズ VoIP を計画します。
  
@@ -72,6 +73,6 @@ Microsoft Lync Server 2013、計画ツールは、ユーザーのトラフィッ
     
 - [ビジネス用の Skype での通話管理機能の計画](call-management-features.md)
     
-- [ビジネス サーバーに、Skype でエンタープライズ VoIP の復元を計画します。](enterprise-voice-resiliency.md)
+- [Plan for Enterprise Voice resiliency in Skype for Business Server](enterprise-voice-resiliency.md)
     
 

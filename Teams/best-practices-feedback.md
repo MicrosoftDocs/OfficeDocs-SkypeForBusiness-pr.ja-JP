@@ -1,5 +1,6 @@
 ---
 title: Microsoft Teams でのユーザー フィードバックの方法のベスト プラクティス
+ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,19 +15,19 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee84c8d3c841f7b6e0a8a1ddc6287ecd27c0b898
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: e29c76018f024559d90ff4d07b7dd102a0747b11
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568449"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892534"
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Microsoft Teams でのユーザー フィードバックの方法のベスト プラクティス
 ===========================================================
 
 新しいコラボレーション エクスペリエンスの導入により、ユーザーの動作が変わることになります。人が変わるには、トレーニング、奨励、肯定的な事例が必要です。また、移行していく中で、意見を聞いてもらっていると感じられることも重要です。お客様がこれまでに組織において成功するフィードバックの方法を確立している場合は、それらをお使いの Teams の実践にも適用するよう拡張することを検討してみてください。まだ成功する方法を確立していない場合は、次のいずれかの手段を検討してください。
 
--   どのユーザーも参加して自分たちのエクスペリエンスについてのフィードバックを提供できるパブリック チームを Microsoft Teams 内に作成する (パブリック グループの最大ユーザー数は 2500 です)。
+-   公開 (パブリック グループは 5000 人のユーザーに限定されることを念頭に置き) の経験に関するフィードバックを提供するすべてのユーザーが参加できるマイクロソフトのチーム内でチームを作成しています。
 
 -   Yammer を使用して、エクスペリエンスについてのベスト プラクティスとサポートに関するオープン コミュニティを提供する。
 

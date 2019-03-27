@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 でバックエンド サーバーの高可用性を実現するための SQL ミラーリングの展開
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: SQL ミラーリングを展開できるようにするには、サーバーで最小限の SQL Server 2008 R2 を実行する必要があります。 このバージョンは、すべての関連サーバー (プライマリ、ミラー、およびミラーリング監視の各サーバー) で実行する必要があります。 詳細については、更新プログラム パッケージ 9 を SQL Server 2008 Service Pack 1 の累積を参照してください。
-ms.openlocfilehash: 9ea6e8a48fbcc3f5938c33e9d06db3c882f28de2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ebf1d222bff572100fe7824e52acdef2ff85216d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373801"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886276"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype のバック エンド サーバーの高可用性の SQL のミラーリングを導入します。
 
@@ -49,7 +50,7 @@ SQL ミラーリングでは、ミラーリングのトポロジの構成を、�
 > 設定し、SQL を削除するのにはトポロジ ビルダーまたはコマンドレットを使用してミラーリングがサポートされているプライマリ、ミラー、および (必要な場合)、ミラーリング監視サーバーが同じドメインに属している場合にのみです。 異なるドメインのサーバーに SQL ミラーリングを設定する場合は、SQL Server のドキュメントを参照してください。
 
 > [!IMPORTANT]
-> バックエンド データベース ミラーリング関係を変更するたびに、プール内のすべてのフロントエンド サーバーを再起動する必要があります。 > 変更するなど、ミラーの場所)、の変更がミラー化にこれら 3 つの手順を実行するのにはトポロジ ビルダーを使用する必要があります。
+> バックエンド データベース ミラーリング関係を変更するたびに、プール内のすべてのフロントエンド サーバーを再起動する必要があります。 _gt ミラーリングでの変更、変更するなど、ミラーの場所)、する必要がありますトポロジ ビルダーを使用これら 3 つの手順を実行します。
 
 1. 古いミラー サーバーからミラーリングを削除します。
 
@@ -58,7 +59,7 @@ SQL ミラーリングでは、ミラーリングのトポロジの構成を、�
 3. トポロジを公開します。
 
 > [!NOTE]
-> ファイル共有への書き込みをミラー ファイルを作成してで、SQL Server と SQL エージェントが実行されているサービスには、読み取り/書き込みアクセスが必要があります。 追加するかどうかは、ネットワーク サービスのコンテキストで SQL Server サービスが実行されて、\<ドメイン\>\\< SQLSERVERNAME\>共有のアクセス許可にプリンシパルとミラーの SQL サーバーの両方の $。 $ では、これは、コンピューター アカウントを識別する必要があります。
+> ファイル共有への書き込みをミラー ファイルを作成してで、SQL Server と SQL エージェントが実行されているサービスには、読み取り/書き込みアクセスが必要があります。 追加するかどうかは、ネットワーク サービスのコンテキストで SQL Server サービスが実行されて、\<ドメイン\>\\<SQLSERVERNAME\>共有のアクセス許可にプリンシパルとミラーの SQL サーバーの両方の $。 $ では、これは、コンピューター アカウントを識別する必要があります。
 
 ## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>トポロジ ビルダーでのプールの作成時に SQL のミラーリングを構成するのには
 
@@ -236,11 +237,11 @@ SQL ミラーリングの設定時には次の点に留意する必要があり�
 
     **インストール CsMirrorDatabase**では、ミラーをインストールし、プライマリ SQL ストア上に存在するすべてのデータベースのミラーリングを構成します。 のみ特定のデータベースのミラーリングを構成する場合は、することができますオプションを使用して、- されていません、またはデータベースのコンマ区切りのリストと、- ExcludeDatabaseList オプションを使用するにはいくつかを除くすべてのデータベース ミラーリングを構成する場合は、除外する名前です。
 
-    などの**インストール CsMirrorDatabase**に次のオプションを追加する場合は、rtcab と rtcxds を除くすべてのデータベースがミラーされます。
+    たとえば、次のオプションを **Install-CsMirrorDatabase** に追加した場合は、rtcab と rtcxds を除くすべてのデータベースがミラーリングされます。
 
     `-ExcludeDatabaseList rtcab,rtcxds`
 
-   たとえば、**インストール CsMirrorDatabase**に次のオプションを追加する場合のみ、rtcab、rtcshared、rtcxds データベースがミラーされます。
+   たとえば、次のオプションを **Install-CsMirrorDatabase** に追加した場合は、rtcab、rtcshared、および rtcxds データベースのみがミラーリングされます。
 
     `-DatabaseType User`
 

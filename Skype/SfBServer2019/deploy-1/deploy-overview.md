@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバー 2019 の Skype を導入します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: '概要: インストールおよびビジネス サーバー 2019 の Skype を構成する方法については、これらのリンクを表示します。'
-ms.openlocfilehash: a8512e55cdc0062be1548458f2ce6a4aca0296ad
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 8ff29f37fb63f5e174d1811d291fa282f7e67695
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30058997"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897843"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype を導入します。
  
@@ -51,8 +52,8 @@ ms.locfileid: "30058997"
   
 ||**コンテンツ**|**説明**|
 |:-----|:-----|:-----|
-|![ドキュメントのアイコン](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Skype for Business Server (IT 担当者向け)](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |アクセスのビデオ、コミュニティ サイト、ドキュメント、ダウンロード、および詳細には、リソース センターを参照してください。|
-|![開発者向けコンテンツのアイコン](https://docs.microsoft.com/office/media/icons/developer-blue.svg)|[Skype Developer Platform](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |ビジネス サーバーには、コード サンプル、トレーニング、および Sdk を含む、Skype の開発者向けリソースを検索します。  <br/> |
-|![ニュース、ブログなどのアイコン](https://docs.microsoft.com/office/media/icons/blog-site-blue.svg)|[Change management and adoption](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office Blogs](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skype team blog](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |ビジネス サーバーのチームを作成してドキュメント Skype からのニュースを維持します。  <br/> |
+|![ドキュメントのアイコン](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[IT 担当者向けのビジネス サーバーの Skype](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |アクセスのビデオ、コミュニティ サイト、ドキュメント、ダウンロード、および詳細には、リソース センターを参照してください。|
+|![開発者向けコンテンツのアイコン](https://docs.microsoft.com/office/media/icons/developer-blue.svg)|[Skype の開発者用プラットフォーム](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |ビジネス サーバーには、コード サンプル、トレーニング、および Sdk を含む、Skype の開発者向けリソースを検索します。  <br/> |
+|![ニュース、ブログなどのアイコン](https://docs.microsoft.com/office/media/icons/blog-site-blue.svg)|[変更管理と導入](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office のブログ](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skype チームのブログ](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |ビジネス サーバーのチームを作成してドキュメント Skype からのニュースを維持します。  <br/> |
    
 

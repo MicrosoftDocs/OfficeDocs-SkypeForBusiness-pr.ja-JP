@@ -1,5 +1,6 @@
 ---
 title: Windows PowerShell 用にコンピューターをセットアップする
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Find out requirements for remote management of Skype for Business Online via Windows PowerShell, including supported operating systems.
-ms.openlocfilehash: 01fa2856149bb7718fc34bb83f48e03a307496b8
-ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
+ms.openlocfilehash: 7854fa064420c2addeea4397e8dd882374c3b940
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29635630"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896522"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>Windows PowerShell 用にコンピューターをセットアップする
 
@@ -54,9 +55,9 @@ ms.locfileid: "29635630"
   
 - [Skype for Business Online Connector モジュールをダウンロードしてインストールする](download-and-install-the-skype-for-business-online-connector.md)
     
-- [Windows PowerShell 3.0 をダウンロードしてインストールします。](download-and-install-windows-powershell-3-0.md)
+- [ダウンロードし、Windows PowerShell の 5.1 をインストールします。](download-and-install-windows-powershell-5-1.md)
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [ビジネス オンラインのコネクタの skype の接続に関する問題を診断します。](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
   

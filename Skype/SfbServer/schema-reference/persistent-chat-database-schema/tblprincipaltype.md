@@ -1,5 +1,6 @@
 ---
 title: tblPrincipalType
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: tblPrincipalType には、tblPrincipal テーブルに含まれるものを分類するためにプリンシパルの種類が含まれています。
-ms.openlocfilehash: d5c710e1301344c853ef39aeff3b57f62c630c95
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: ab2cb28971f0564a082e0caed01e7fc622c41201
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19505126"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887437"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -23,7 +24,7 @@ tblPrincipalType には、tblPrincipal テーブルに含まれるものを分�
   
 **列**
 
-|**列**|**種類**|**説明**|
+|**列**|**型**|**説明**|
 |:-----|:-----|:-----|
 |ptypeID  <br/> |smallint、null でないです。  <br/> |プリンシパルの種類の id。  <br/> |
 |ptypeDesc  <br/> |nvarchar (256)、null でないです。  <br/> |型の説明です。  <br/> |
@@ -38,13 +39,13 @@ tblPrincipalType には、tblPrincipal テーブルに含まれるものを分�
    
 **プリンシパル値**
 
-|**ID**|**[役割]**|**説明**|**[ユーザー]**|
+|**ID**|**[役割]**|**説明**|**User**|
 |:-----|:-----|:-----|:-----|
 |1  <br/> |任意  <br/> |ありません既知の型を持つ汎用プリンシパルです。 TblPrincipal テーブルでは使用されません。  <br/> ||
-|2  <br/> |AnyUser  <br/> |ユーザー型の汎用的なプリンシパルです。 TblPrincipal テーブルでは使用されません。  <br/> |あり  <br/> |
+|2  <br/> |AnyUser  <br/> |ユーザー型の汎用的なプリンシパルです。 TblPrincipal テーブルでは使用されません。  <br/> |はい  <br/> |
 |3  <br/> |AnyGroup  <br/> |グループの意味を持つ汎用プリンシパルです。 TblPrincipal テーブルでは使用されません。  <br/> ||
 |4  <br/> |システム ユーザー  <br/> |プリンシパルが永続的なチャット サーバーによって内部的に使用します。  <br/> ||
-|5  <br/> |ユーザー  <br/> |正規ユーザーです。  <br/> |あり  <br/> |
+|5  <br/> |ユーザー  <br/> |正規ユーザーです。  <br/> |はい  <br/> |
 |8  <br/> |DC  <br/> |Active Directory ドメイン サービス ドメイン コント ローラーです。  <br/> ||
 |9  <br/> |グループ  <br/> |Active Directory セキュリティ グループです。  <br/> ||
 |10  <br/> |フォルダー  <br/> |Active Directory コンテナーまたは組織単位です。  <br/> ||

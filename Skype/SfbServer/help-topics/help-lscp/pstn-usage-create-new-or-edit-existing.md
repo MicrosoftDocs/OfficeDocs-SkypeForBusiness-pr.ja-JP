@@ -1,5 +1,6 @@
 ---
 title: PSTN 使用法を新規作成または既存の編集
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: db7da46e-60ec-4f5b-b07a-f79284ad12b8
-description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 7e995794bc58d1935ef7bc58527fbdeb98a2dafe
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: a40eb1f2369942aefbb6f7407ee105a59e168824
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244640"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888781"
 ---
-# <a name="pstn-usage-create-new-or-edit-existing"></a>PSTN 使用法: 新規作成または既存の編集
+# <a name="pstn-usage-create-new-or-edit-existing"></a>PSTN の使用法: 新規作成または現在の形式のままで編集
 
-目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 
 - [Skype for Business Server 2015 での PSTN 使用法レコードの表示](../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
 

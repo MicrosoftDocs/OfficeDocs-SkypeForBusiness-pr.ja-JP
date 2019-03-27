@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype では、ダイヤルイン会議の暗証番号 (pin) ポリシーを管理します。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: '概要: ビジネス サーバーの Skype では、ダイヤルイン会議の暗証番号 (pin) ポリシーを管理する方法を説明します。'
-ms.openlocfilehash: 0fd6d8a3ebfaeee0c6b4b3757a7b58b8d3882d71
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 29fd3e2fff1628eaa96d7296e8fe9d7b9183d690
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21013415"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893322"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>ビジネス サーバーの Skype では、ダイヤルイン会議の暗証番号 (pin) ポリシーを管理します。
  
@@ -26,7 +27,7 @@ ms.locfileid: "21013415"
   
 特定のポリシーをサイトまたは特定のユーザー グループに適用する場合は、新しい PIN ポリシーを作成できます。
   
-PIN ポリシーは、最も狭いスコープから最も広いスコープまでのどのスコープでも、ユーザーに適用されます。ユーザーレベルの PIN ポリシーをユーザーに割り当てると、それらの設定は優先権を持ちます。ユーザー ポリシーを割り当てない場合は、サイトレベルの PIN ポリシーがあれば、そのポリシーが適用されます。ユーザー ポリシーもサイト ポリシーも適用されていない場合は、グローバル PIN ポリシーが既定の設定を提供します。
+PIN ポリシーは、最も狭いスコープから最も広いスコープまでのどのスコープでも、ユーザーに適用されます。 ユーザーレベルの PIN ポリシーをユーザーに割り当てると、それらの設定は優先権を持ちます。 ユーザー ポリシーを割り当てない場合は、サイトレベルの PIN ポリシーがあれば、そのポリシーが適用されます。 ユーザー ポリシーもサイト ポリシーも適用されていない場合は、グローバル PIN ポリシーが既定の設定を提供します。
   
 ## <a name="view-information-about-pin-policies"></a>PIN ポリシーに関する情報を表示する
 
@@ -83,7 +84,7 @@ Get-CsPinPolicy -Identity "site:Redmond"
     > [!IMPORTANT]
     > セキュリティ上の理由により、共通のパターンは許可しないことをお勧めします。 
   
-12. [**確定**] をクリックします。
+12. [**コミット**] をクリックします。
     
 ### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-management-shell"></a>Skype ビジネス サーバー管理シェルを使用してグローバル ダイヤルイン会議 PIN ポリシーを変更します。
 
@@ -134,7 +135,7 @@ Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
     > [!IMPORTANT]
     > セキュリティ上の理由により、共通のパターンは許可しないことをお勧めします。 
   
-13. [**確定**] をクリックします。
+13. [**コミット**] をクリックします。
     
 ### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Skype ビジネス サーバー管理シェルを使用して、ユーザーまたはサイトの PIN ポリシーを作成します。
 

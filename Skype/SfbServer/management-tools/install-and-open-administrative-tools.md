@@ -1,5 +1,6 @@
 ---
-title: インストールおよび管理ツールを開く
+title: 管理ツールのインストールおよび起動
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: このトピックでは、インストールおよび展開し、ビジネスの Skype を管理する必要があります管理ツールを開く方法について説明します。
-ms.openlocfilehash: a27f16ab72d8fcdd4a5c440909dfb40baadd2572
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 260d84f071558ff54511b8650868db3ebb56abcb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223165"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899478"
 ---
-# <a name="install-and-open-administrative-tools"></a>インストールおよび管理ツールを開く
+# <a name="install-and-open-administrative-tools"></a>管理ツールのインストールおよび起動
 
 このトピックでは、Skype をビジネスのサーバーの管理を展開する必要があります管理ツールをインストールする方法について説明します。 Skype をビジネスのサーバーを実行する各サーバーでは既定では、管理ツールがインストールされています。 さらに、専用の管理コンソールなど、他のコンピューターで管理ツールをインストールできます。 ビジネス サーバーの展開を作成するための Skype と同じドメインまたはフォレスト内のコンピューターに管理ツールをインストールすることは、その Active Directory ドメイン サービスの準備を確認する手順が完了すると、既に強くお勧めトポロジを公開するのには後でそのコンピューターの管理ツールを使用できます。 また、Skype を使用して、ビジネスのサーバー管理ツールをインストールする前に必要な要件を確認することを確認してください。 [ビジネス サーバー 2019 の Skype](../../SfBServer2019/plan/system-requirements.md)または[Skype](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)ビジネス サーバー 2015 の要件のドキュメントを参照してください。
  

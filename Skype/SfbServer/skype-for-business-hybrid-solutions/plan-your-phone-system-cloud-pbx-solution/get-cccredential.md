@@ -1,5 +1,6 @@
 ---
-title: Get CcCredential
+title: Get-CcCredential
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,14 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
 description: Get-CcCredential コマンドレットは、現在の Skype for Business Cloud Connector エディションの展開の資格情報を返します。
-ms.openlocfilehash: cff2ba89f7ebf3151a92a753e4dc6adc490dde05
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 651190f31ad44e0bb2375bbf4a70951c2011e1a7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569995"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898396"
 ---
-# <a name="get-cccredential"></a>Get CcCredential
+# <a name="get-cccredential"></a>Get-CcCredential
  
 Get-CcCredential コマンドレットは、現在の Skype for Business Cloud Connector エディションの展開の資格情報を返します。 
   
@@ -59,9 +60,9 @@ Write-Host $text
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**必須**|**タイプ**|**説明**|
+|**パラメーター**|**必須**|**型**|**説明**|
 |:-----|:-----|:-----|:-----|
-| AccountType <br/> |必須  <br/> | System.String <br/> | AccountType の値は次のいずれかになります。 <br/>  VmAdmin: 仮想マシンのクラウドのコネクタのローカル管理者。 <br/>  クラウド コネクタの仮想マシンのドメインの DomainAdmin: ドメイン管理者。 <br/>  SafeModeAdmin: Cloud Connector 仮想マシンのドメイン コントローラーの SafeModeAdmin。 <br/>  ExternalCert: エッジー サーバー上にインストールされた外部証明書のアカウント。 <br/>  TenantAdmin: O365 テナントの管理者。 <br/> |
+| AccountType <br/> |必須  <br/> | System.String <br/> | AccountType の値は次のいずれかになります。 <br/>  VmAdmin: 仮想マシンのクラウドのコネクタのローカル管理者。 <br/>  DomainAdmin: Cloud Connector 仮想マシン ドメインのドメイン管理者。 <br/>  SafeModeAdmin: Cloud Connector 仮想マシンのドメイン コントローラーの SafeModeAdmin。 <br/>  ExternalCert: エッジー サーバー上にインストールされた外部証明書のアカウント。 <br/>  TenantAdmin: O365 テナントの管理者。 <br/> |
    
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>
@@ -76,6 +77,6 @@ Get-CcCredential コマンドレットは、System.Management.Automation.PSCrede
 ## <a name="see-also"></a>関連項目
 <a name="ReturnTypes"> </a>
 
-[セット CcCredential](set-cccredential.md)
+[Set-CcCredential](set-cccredential.md)
   
 

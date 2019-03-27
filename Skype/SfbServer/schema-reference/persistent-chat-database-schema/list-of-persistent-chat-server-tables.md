@@ -1,5 +1,6 @@
 ---
 title: 常設チャット サーバーのテーブルのリスト
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26c9e271-3516-4d90-b930-70fec4e359ea
 description: 永続的なチャットのデータベース スキーマは、次の表で構成されています。
-ms.openlocfilehash: d9a00095cb18e63cc29e16ae66e608127afad606
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e2ce24bb37c3ea4eaee0986f0243033ab4a8a18a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898544"
 ---
 # <a name="list-of-persistent-chat-server-tables"></a>常設チャット サーバーのテーブルのリスト
  

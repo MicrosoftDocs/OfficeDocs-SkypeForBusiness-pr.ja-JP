@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server の通話中オプションの計画
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
 description: ビジネス サーバーの Skype の使用中のオプション機能について参照してください。
-ms.openlocfilehash: 7b71cad7eebaf2d375098abfa0891cdf6b494fe9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 41e34dbb4eaf4a264ba1cec3756cc53c78992611
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884787"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897978"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>Skype for Business Server の通話中オプションの計画
  
@@ -27,7 +28,7 @@ ms.locfileid: "23884787"
   
 ペアになったフロント エンド プールと存続可能ブランチ サーバー (SBS) でのフェールオーバーおよび障害復旧用に、通話中オプション ポリシーがサポートされています。
   
-ここでは通話中オプション機能について説明します。 インストールし、使用中のオプションを構成する方法の詳細については、[インストール、Skype のビジネス サーバーのビジー状態のオプションを構成する](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md)を参照してください。
+ここでは通話中オプション機能について説明します。 通話中オプションのインストールと構成方法については、「[Install and configure Busy Options for Skype for Business Server](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md)」を参照してください。
   
 ## <a name="configuration-options"></a>構成オプション
 

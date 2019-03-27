@@ -1,5 +1,6 @@
 ---
 title: ネットワーク地域ルートの管理
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ネットワーク地域のルートは、ネットワーク地域のペア間のルートを定義します。 通話受付管理展開のネットワーク地域の各ペアには、ネットワーク地域のルートが必要です。
-ms.openlocfilehash: 98d7f0ce8f6cb89aa443c5dc8863afd34c355ff3
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 12e8d9072df3affdb6e47b6ddb0452e0ee5982a5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223158"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898124"
 ---
-# <a name="managing-network-region-routes-in-skype-for-business-server"></a>ビジネス サーバーの Skype のネットワーク地域のルートを管理します。
+# <a name="managing-network-region-routes-in-skype-for-business-server"></a>Skype for Business Server でのネットワーク領域ルートの管理
 
 *地域のネットワーク ルート*は、ネットワーク地域のペア間のルートを定義します。 通話受付管理展開のネットワーク地域の各ペアには、ネットワーク地域のルートが必要です。 これにより、展開内の各ネットワーク地域が他のすべての地域にアクセスできるようになります。 この artilce の表示、作成、変更、またはネットワーク地域ルートを削除する手順を使用します。
 
@@ -90,7 +91,7 @@ Windows PowerShell と Get CsNetworkInterRegionRoute コマンドレットを使
     > [!NOTE]  
     > 個のリンクを追加またはリンクを選択し、リンクを削除する**削除**を] をクリックして [**追加**] ボタンをクリックし続けます。
 
-9.  [**確定**] をクリックします。
+9.  [**コミット**] をクリックします。
 
 
 ### <a name="to-modify-a-network-region-route"></a>ネットワーク地域ルートを変更するのには
@@ -107,7 +108,7 @@ Windows PowerShell と Get CsNetworkInterRegionRoute コマンドレットを使
 
 6.  **編集領域のルート**のこのルートによって結合された領域と、ルートに関連付けられている領域のリンクを変更できます。
 
-7.  [**確定**] をクリックします。
+7.  [**コミット**] をクリックします。
 
 
 ## <a name="delete-existing-network-region-routes"></a>既存のネットワーク地域のルートを削除します。
@@ -135,12 +136,12 @@ Windows PowerShell と Get CsNetworkInterRegionRoute コマンドレットを使
 
 ## <a name="see-also"></a>関連項目
 
-[ビジネス サーバーの Skype のネットワーク領域を管理します。](managing-network-regions.md)
+[Skype for Business Server でのネットワーク領域の管理](managing-network-regions.md)
 
-[New-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)  
+[新しい-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)  
 
-[Set-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterRegionRoute) 
+[セット CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterRegionRoute) 
  
-[Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterRegionRoute)  
+[削除 CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterRegionRoute)  
 
 [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute)  

@@ -1,5 +1,6 @@
 ---
-title: 信頼されたアプリケーション サーバーを構成します。
+title: 信頼済みアプリケーション サーバーの構成
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 混在環境で、新しい信頼されたアプリケーション サーバーを作成する場合、次ホップ プールのプールのビジネス サーバー 2019、Skype を設定する必要があります。 混在環境で、従来のプールとプールのビジネス サーバー 2019 Skype の両方がドロップ ダウン リストに表示されます。 従来のプールを選択することはサポートされていません。
-ms.openlocfilehash: d1c79e044145a4739cf1b7bfb3992320be1e4ab3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 79f4de527008d2d9bf295fcb82eee433d04a1691
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027747"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890889"
 ---
-# <a name="configure-trusted-application-servers"></a>信頼されたアプリケーション サーバーを構成します。
+# <a name="configure-trusted-application-servers"></a>信頼済みアプリケーション サーバーの構成
 
 混在環境で、新しい信頼されたアプリケーション サーバーを作成する場合、次ホップ プールのプールのビジネス サーバー 2019、Skype を設定する必要があります。 混在環境で、従来のプールとプールのビジネス サーバー 2019 Skype の両方がドロップ ダウン リストに表示されます。 従来のプールを選択することはサポートされていません。
   
@@ -30,11 +31,11 @@ ms.locfileid: "25027747"
     
 3. 信頼されたアプリケーション プールの**プールの FQDN**を入力し、1 台のサーバーまたは複数のサーバーかどうかを選択します。 
     
-4. [**次へ**] をクリックします。
+4. [ **次へ**] をクリックします。
     
 5. **次ホップの選択**] ページで、ボックスの一覧からビジネス サーバー 2019 のフロント エンド プールの Skype を選択します。 
     
-6. **[完了]** をクリックします。
+6. [**完了**] をクリックします。
     
 7. **Skype**ビジネス サーバーは、最上位のノードを選択し、 **[操作**] メニューから [**発行**] を選択します。
     

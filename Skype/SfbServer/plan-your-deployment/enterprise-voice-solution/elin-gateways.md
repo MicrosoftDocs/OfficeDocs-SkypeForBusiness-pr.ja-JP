@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype の ELIN ゲートウェイの場所を管理します。
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: 意思決定の計画に必要な場所情報のデータベース、または ~ 9-1-1 展開のビジネス サーバーのエンタープライズ VoIP の Skype で、ELIN ゲートウェイを使用して、ような外部データベースです。
-ms.openlocfilehash: 622593285ef4b1643f19d54f6c7d2f5c1e956c84
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 858493089c6c0e274a45616ea4b93a3fdf69e010
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885665"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894692"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>ビジネス サーバーの Skype の ELIN ゲートウェイの場所を管理します。
 
@@ -32,10 +33,10 @@ ms.locfileid: "23885665"
 
 - ELIN を、公衆交換電話網 (PSTN) 通信業者の自動ロケーション識別 (ALI) データベースにアップロードします。
 
-これらのタスクを実行する方法の詳細については、展開に関するドキュメントの[場所データベースの構成](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx)を参照してください。
+これらのタスクを実行する方法の詳細については、「展開」のドキュメントの「[Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx)」を参照してください。
 
 > [!NOTE]
-> ビジネス サーバー管理シェル コマンドを Skype を使用して公開されているプールのローカル ストアにレプリケートされるまでにも、中央の場所データベースに追加する場所はクライアントにご利用いただけません。 詳細については、展開に関するドキュメントの[場所のデータベースのパブリッシュ](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx)を参照してください。
+> ビジネス サーバー管理シェル コマンドを Skype を使用して公開されているプールのローカル ストアにレプリケートされるまでにも、中央の場所データベースに追加する場所はクライアントにご利用いただけません。 詳細については、「展開」のドキュメントの「[Publishing the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx)」を参照してください。
 
 このセクションでは、場所データベースの更新および保守の計画を立てるときに考慮する必要のある事項を説明します。
 
@@ -85,7 +86,7 @@ ELIN ゲートウェイを使用する場合は、都市の住所、建物内の
 
 位置情報サービスとの統合、サードパーティのデータベースはビジネス サーバーの場所の要求/応答スキーマの Skype に従う必要があります。 詳細については、 [E911 サポート プロトコル用の Web サービス](https://go.microsoft.com/fwlink/p/?linkid=213819)を参照してください。 セカンダリ場所情報サービスの展開に関する詳細情報は、展開に関するドキュメントで[Skype ビジネス サーバーでセカンダリ場所情報サービスの構成](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md)を参照してください。
 
-場所データベースの設定についての詳細は、展開に関するドキュメントの[場所データベースの構成](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx)を参照してください。
+場所データベースへのデータの取り込みの詳細については、「展開」のドキュメントの「[Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx)」を参照してください。
 
 ## <a name="maintaining-the-location-database"></a>場所データベースの管理
 

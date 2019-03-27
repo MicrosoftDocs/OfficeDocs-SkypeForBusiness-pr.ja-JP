@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバー 2019 の Skype の新機能 |機能
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: これらの機能は、ビジネス サーバー 2019 の Skype にします。'
-ms.openlocfilehash: 4eb674293b152109a9743fce5114fe11e3e97158
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 770cfa8934f40e8ab847b7d77a60f18250c64842
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30058983"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891782"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype では、どのような
 
@@ -22,8 +23,8 @@ ms.locfileid: "30058983"
 
 ビジネス サーバー 2019 の Skype の新機能を以下に示します。
   
-- クラウドのボイスメール  
-- 呼び出しデータ コネクタ
+- クラウド ボイスメール  
+- 通話データ コネクタ
 - サイド バイ サイド移行
 
 ## <a name="unified-messaging-services-cloud-voicemail"></a>ユニファイド メッセージング サービス: クラウドのボイスメール

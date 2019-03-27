@@ -1,5 +1,6 @@
 ---
-title: ファイルの拡張子を選択します。
+title: ファイル種類の拡張子の選択
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 description: ブロック (ブロック) をオンまたはオフにできるようにする) を許可するファイルの拡張子を選択するのには、[ファイルの拡張子を選択] ダイアログ ボックスを使用して [ファイル] 拡張機能のチェック ボックスは、拡張子を入力します。 カテゴリを展開し、すべてのファイルの拡張子は、そのカテゴリの表示にある矢印をクリックします。 すべてのカテゴリのファイルの拡張子を選択する場合は、カテゴリ名を選択します。
-ms.openlocfilehash: c1da221a509984f3c1e792c2545e7bab75a9f5cc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a061bdbfb74ded31f9bd621f9a4d3062318c787d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974474"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897033"
 ---
-# <a name="select-file-type-extensions"></a>ファイルの拡張子を選択します。
+# <a name="select-file-type-extensions"></a>ファイル種類の拡張子の選択
  
 ブロック (ブロック) をオンまたはオフにできるようにする) を許可するファイルの拡張子を選択するのには、[**ファイルの拡張子を選択**] ダイアログ ボックスを使用して**ファイルの拡張子**] の下の拡張機能の横にあるチェック ボックスです。 カテゴリを展開し、すべてのファイルの拡張子は、そのカテゴリの表示にある矢印をクリックします。 すべてのカテゴリのファイルの拡張子を選択する場合は、カテゴリ名を選択します。 
   

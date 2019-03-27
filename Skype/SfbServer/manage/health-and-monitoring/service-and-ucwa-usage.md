@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype での移動サービスおよび UCWA の使用状況を監視します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8389b37a-ca3e-4047-8b51-85bc07da87e8
 description: '概要: は、サーバーのビジネスのモビリティ サービス (Mcx)、Skype では、ユニファイド コミュニケーション Web API (UCWA) を管理します。'
-ms.openlocfilehash: 6856235e5e5a8179e52836901598f7fbe2852a57
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 79516ec6cf5371061a0287e70e6ed81f8b2a5395
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "21227017"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884951"
 ---
 # <a name="monitor-mobility-service-and-ucwa-usage-in-skype-for-business-server"></a>ビジネス サーバーの Skype での移動サービスおよび UCWA の使用状況を監視します。
  

@@ -1,5 +1,6 @@
 ---
-title: フロント エンドの監視を関連付ける
+title: フロントエンドと監視の関連付け
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 8ea4474a-7453-49a9-ba38-2c7dc4337b05
 ROBOTS: NOINDEX, NOFOLLOW
 description: 各フロント エンド プールおよびリカバリ性に優れたブランチ アプライアンスは、サーバーの監視は、それに関連付けられている 1 つだけでことができます。 サイトの監視を有効にすると、呼び出しの詳細記録 (CDR) と高品質のエクスペリエンス (QoE) データの収集とレポート サーバーの監視を提供します。
-ms.openlocfilehash: 6180f7d6fc48db5293ffae8eaba5f95c34267358
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: b6a1f46f24e016fe7fab9b620bf3240c23b0d6b2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060814"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896901"
 ---
-# <a name="associate-front-end-with-monitoring"></a>フロント エンドの監視を関連付ける
+# <a name="associate-front-end-with-monitoring"></a>フロントエンドと監視の関連付け
  
 各フロント エンド プールおよびリカバリ性に優れたブランチ アプライアンスは、サーバーの監視は、それに関連付けられている 1 つだけでことができます。 サイトの監視を有効にすると、呼び出しの詳細記録 (CDR) と高品質のエクスペリエンス (QoE) データの収集とレポート サーバーの監視を提供します。
   

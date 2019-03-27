@@ -1,5 +1,6 @@
 ---
 title: アーカイブおよび監視サーバーを移行します。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: レガシ環境でのアーカイブ サーバーと監視サーバーを展開した場合、フロント エンド プールを移行した後、サーバー 2019 のビジネス環境について、Skype でこれらのサーバーを展開できます。 ただし、アーカイブおよび監視機能は、組織にとって重要な場合は、アーカイブ、および機能は、移行プロセス中に使用できるように、移行する前に、Skype をビジネス サーバー 2019 パイロット プールの監視を追加します。
-ms.openlocfilehash: cd6e3bf7ef04ca7906b707a30211d0c22d22d837
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 24dc3e3007fd9a58c23f9c15a31cccc766d45e83
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028755"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896093"
 ---
 # <a name="migrating-archiving-and-monitoring-servers"></a>アーカイブおよび監視サーバーを移行します。
 

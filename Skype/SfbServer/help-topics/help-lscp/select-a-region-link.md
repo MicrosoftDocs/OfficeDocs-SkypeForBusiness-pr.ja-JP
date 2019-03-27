@@ -1,5 +1,6 @@
 ---
 title: 地域リンクの選択
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
-description: 環境内で使用可能な領域のリンクを検索するのにには、地域のリンク] ダイアログ ボックスを使用します。 地域の既存のリンクを使用するには、一覧に地域のリンクをクリックし、し、[OK] をクリックします。
-ms.openlocfilehash: a18bb0740e353752b9ff2d704e11499d78f91fc4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '[地域リンク] ダイアログ ボックスを使用して、環境で使用可能な地域リンクを検索します。 既存の地域リンクを使用するには、一覧で地域リンクをクリックして [OK] をクリックします。'
+ms.openlocfilehash: 0a5bda6f55b6f476558390e6a052b3f3ac0672ab
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886883"
 ---
 # <a name="select-a-region-link"></a>地域リンクの選択
  

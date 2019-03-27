@@ -1,5 +1,6 @@
 ---
 title: Office 365 での電話システムで利用できる機能
+ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '機能、可用性、およびお客様のビジネス電話システム (PBX をクラウド) の計画およびセットアップする方法です。 '
-ms.openlocfilehash: 3982afffc948d58d6793b13c06fa3d29d8e48ac9
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 4cfb143bc8d86bbd5340cb7dddc203563ec1d093
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640923"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896086"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365 での電話システムで利用できる機能
 

@@ -1,5 +1,6 @@
 ---
 title: VIS 使用法の追加
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: db402ac4-4c30-405e-b322-6aae5df81f46
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順についてはオンライン Skype で VIS プールを作成するビジネス サーバーのください。
-ms.openlocfilehash: 231c3133944e90501dd49925328db03bd3bb15f7
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 7eea715fa17850515e24e11fcd6cf3768d887aa7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21061401"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895245"
 ---
 # <a name="add-vis-usage"></a>VIS 使用法の追加
  

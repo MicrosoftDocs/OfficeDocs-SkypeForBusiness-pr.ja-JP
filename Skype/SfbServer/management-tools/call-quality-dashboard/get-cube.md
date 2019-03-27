@@ -1,5 +1,6 @@
 ---
-title: キューブを取得します。
+title: キューブの取得
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
 description: '概要: は、品質のダッシュ ボードを呼び出すためのデータ API の一部では、キューブの取得操作について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: 228ebd8f9bcb6db919f418ef9809bce1b3eb7f90
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 5c0623b92c9169a9e54f92d21358fb377c84a8f8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532468"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897137"
 ---
-# <a name="get-cube"></a>キューブを取得します。
+# <a name="get-cube"></a>キューブの取得
  
 **の概要:** 品質のダッシュ ボードを呼び出すためのデータ API の一部では、キューブの取得操作について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
   
 キューブの取得操作は、品質のダッシュ ボードを呼び出すためのデータ API の一部です。
   
-## <a name="get-cube"></a>キューブを取得します。
+## <a name="get-cube"></a>キューブの取得
 
 キューブの取得操作は、使用可能なディメンションと測定値の一覧を返します。
   

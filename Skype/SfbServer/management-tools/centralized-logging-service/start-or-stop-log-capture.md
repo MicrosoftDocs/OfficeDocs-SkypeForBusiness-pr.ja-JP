@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 での CLS ログ キャプチャの開始または終了
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: '概要: 開始またはビジネス サーバー 2015 の Skype のログ サービスの一元的なログのキャプチャ セッションを停止する方法を説明します。'
-ms.openlocfilehash: d3dc2ca58964908bda0d8c2de845297bb0cb951b
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 982aecf9da4e8ca08d734a4adb35d8a34a3bb816
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699860"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887331"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での CLS ログ キャプチャの開始または終了
  
@@ -47,7 +48,7 @@ ms.locfileid: "26699860"
    ```
 
     > [!NOTE]
-    > AlwaysOn シナリオには、既定の実行期間がありません。 **Stop CsClsLogging**コマンドレットを明示的に停止されるまで、このシナリオが実行されます。 詳細については、「[Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps)」を参照してください。 その他すべてのシナリオでは、既定の実行期間が 4 時間になっています。 
+    > AlwaysOn シナリオには、既定の実行期間がありません。 このシナリオの実行は、**Stop-CsClsLogging** コマンドレットによって明示的に停止するまで続きます。 詳細については、「[Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps)」を参照してください。 その他すべてのシナリオでは、既定の実行期間が 4 時間になっています。 
   
 3. Enter キーを押して、コマンドを実行します。 
     
@@ -56,7 +57,7 @@ ms.locfileid: "26699860"
   
      ![Start-CsClsLogging の実行](../../media/Ops_CLS_Show_and_Start_ClsLogging.jpg)
   
-4. 別のシナリオを開始するには、追加シナリオの名前の**開始 CsClsLogging**コマンドレットを使用して、(たとえば、シナリオ**の認証**) を次のように実行します。
+4. 別のシナリオを開始するには、次のように **Start-CsClsLogging** コマンドレットを使用して実行する追加シナリオの名前を指定します (以下は **Authentication** シナリオの場合)。
     
    ```
    Start-CsClsLogging -Scenario Authentication
@@ -139,7 +140,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     > UserReplicator シナリオを使用するこのログ セッション中に作成されたログは削除されません。このログは、Search-CsClsLogging コマンドを使用して検索を実行する場合も使用できます。詳細については、「[Search-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps)」を参照してください。 
   
 Start-CsClsLogging と対になる Stop-CsClsLogging コマンドレットは、シナリオによって定義されるログ セッションを終了し、ログ セッションによって作成されるログを保持します。2 つのシナリオは特定のコンピューターでいつでも実行できます。一方のシナリオを停止し、他方のシナリオを使用して情報を収集するという手段は、ほとんどのワークロードのトラブルシューティングで実行できる共通のタスクです。
-## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
+## <a name="see-also"></a>関連項目
 <a name="stop"> </a>
 
 [Centralized Logging Service in Skype for Business 2015](centralized-logging-service.md)

@@ -1,5 +1,6 @@
 ---
 title: tblPrincipalAffiliations
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45fd8484-5837-44d2-85bb-45c83546607c
 description: tblPrincipalAffiliations には、Active Directory ドメイン サービスのセキュリティ グループを含むドメイン内の Active Directory コンテナー内の場所でのメンバーシップを表すプリンシパルの所属が含まれています。
-ms.openlocfilehash: 4e5529590a6a636c28c801392953c7fd69e9f649
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c93edb552c63ebd4f7344926a7d43858b42506ae
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897040"
 ---
 # <a name="tblprincipalaffiliations"></a>tblPrincipalAffiliations
  
@@ -22,7 +24,7 @@ tblPrincipalAffiliations には、Active Directory ドメイン サービスの�
   
 **列**
 
-|**列**|**タイプ**|**説明**|
+|**列**|**型**|**説明**|
 |:-----|:-----|:-----|
 |principalID  <br/> |int 型、null でないです。  <br/> |関連のプリンシパルの ID です。  <br/> |
 |affiliationID  <br/> |int 型、null でないです。  <br/> |所属を表すプリンシパルの ID です。 (システム ・ ユーザー ・ タイプ) を除く各主体が、自己の所属もします。  <br/> |

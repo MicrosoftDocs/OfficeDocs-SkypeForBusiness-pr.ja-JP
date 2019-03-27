@@ -1,5 +1,6 @@
 ---
-title: ビジネス サーバーの Skype の統計マネージャーを展開します。
+title: Skype for Business Server の Statistics Manager の展開
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: '概要: は、Skype のビジネス サーバーの統計情報マネージャーを展開する方法の詳細については、このトピックを読みます。'
-ms.openlocfilehash: ef2dd51306dc2806161fc0c0d4b11087a2f466ea
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 901720f87cf1c0bf78f558ed0d031bd41377799a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297700"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898259"
 ---
-# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>ビジネス サーバーの Skype の統計マネージャーを展開します。
+# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の Statistics Manager の展開
  
 **の概要:** Skype のビジネス サーバーの統計情報マネージャーを展開する方法の詳細については、このトピックを参照してください。
   
@@ -67,7 +68,7 @@ ms.locfileid: "27297700"
     
     符号なしのインストーラーをダウンロードできます。[https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
     
-    必要に応じて、一般的なパッケージ マネージャーの [Nuget](https://www.nuget.org/packages/Redis-64/) および [Choclatey](https://chocolatey.org/packages/redis-64) を通して署名済みのバイナリを利用できます。
+    必要な場合、署名されたバイナリは、人気のあるパッケージ ・ マネージャー: [Nuget](https://www.nuget.org/packages/Redis-64/)と[Choclatey](https://chocolatey.org/packages/redis-64)。
     
    - 提供された msi を実行してプロンプトに従います。
     
@@ -298,8 +299,8 @@ Microsoft は、必ず信頼済みの認証局によって署名された証明�
 
 詳細については、以下を参照してください。
   
-- [Skype 統計マネージャーのビジネス サーバー計画します。](plan.md)
+- [Skype for Business Server の Statistics Manager の計画](plan.md)
     
-- [ビジネス サーバーの Skype の統計マネージャーをアップグレードします。](upgrade.md)
+- [Skype for Business Server の Statistics Manager のアップグレード](upgrade.md)
     
 - ß の[Skype ビジネス サーバーの統計マネージャーのトラブルシューティング](troubleshoot.md)

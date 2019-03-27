@@ -1,7 +1,7 @@
 ---
 title: 電話システムの呼び出しキューを作成する
-ms.author: tonysmit
-author: tonysmit
+ms.author: jambirk
+author: jambirk
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Office 365 (Cloud PBX) のシステムの通話キュー設定方法　組織のメッセージ、保留音、流通リスト内の企業及びセキュリティ　グループを呼び出すリダイレクト通話。通話キューの最大サイズ、タイムアウトそして通話処理オプションの設定も可能です。
-ms.openlocfilehash: f22b840bfde011937305732e61748d8a1feae390
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+description: 電話システム呼び出しキューを使用すれば、組織、保留中の音楽の挨拶と配布リストおよびセキュリティ グループ内のエージェントを呼び出しへの呼び出しをリダイレクトするための電話システムを設定する方法について説明します。 You can also set the maximum queue size, time out, and call handling options.
+ms.openlocfilehash: 924885ff62bb0e7e2ba0f25cc348dc62eb29ec32
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633275"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898167"
 ---
 # <a name="create-a-phone-system-call-queue"></a>電話システムの呼び出しキューを作成する
 
@@ -64,7 +64,7 @@ Phone System call queues include greetings that are used when someone calls in t
     > [!NOTE]
     > オンラインにいる人が、組織内への呼び出しをリダイレクトするには、エンタープライズ VoIP を有効にするし、Office 365 のプランを呼び出すことがある、**電話システム**のライセンスが必要です。 [ビジネス ライセンスの割り当ての Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)または[マイクロソフトのチームを割り当てるライセンス](assign-teams-licenses.md)を参照してください。 エンタープライズ VoIP を有効にするには、Windows PowerShell を使用できます。 たとえば、次を実行します。
   
-- Office 365通話プランの詳細については、「[Office 365 通話プランと何ですか？](what-are-calling-plans-in-office-365.md)」及び「[Office 365の通話プラン](calling-plans-for-office-365.md)」をご覧下さい。
+- Office 365 のプランを呼び出す方法の詳細については、[電話システムを呼び出すことを計画](calling-plan-landing-page.md)し、 [Office 365 のプランを呼び出す](calling-plans-for-office-365.md)を参照してください。
 
     > [!NOTE]
     > ユーザーには、設置がホストされている呼び出しキュー エージェントとしては、Lync Server 2010 を使用してがサポートされていません。
@@ -108,6 +108,8 @@ Phone System call queues include greetings that are used when someone calls in t
 設定する場合も自動応答をメインの自動アテンダントのリソースのアカウントに電話番号を割り当てると、直接の呼び出し元、呼び出しキューに必要がありますだけです。 この場合は、呼び出しキュー呼び出しキューを選択する自動応答のオプションを作成する前に作成する必要があります。
   
 ## <a name="step-3---create-a-new-call-queue"></a>手順 3 - 新しい呼び出しキューを作成します。
+
+[!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 > [!IMPORTANT]
 > 呼び出しのすべてのキューは、関連付けられている[リソースのアカウント](manage-resource-accounts.md)を持っている必要があります。 最初に、リソース アカウントを作成する必要がありますし、呼び出しのキューに関連付けることができます。

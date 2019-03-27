@@ -1,5 +1,6 @@
 ---
 title: ユーザーの移動ポリシーの表示
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6df69e2-c374-4a80-8197-5152b7d0b5d2
 description: ビューのモビリティ ポリシー] ダイアログ ボックスは、選択されたモビリティ ポリシーのプロパティを表示します。
-ms.openlocfilehash: 0a826a003287f48a0eb4c081cd200d40737d1b17
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 64db762f169b20de757e8759f445a7a1e7152a5e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242125"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879813"
 ---
 # <a name="users-view-mobility-policy"></a>ユーザー: モビリティ ポリシーの表示
 

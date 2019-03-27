@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype のミネソタのトランク
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
 description: ビジネス サーバーのエンタープライズ VoIP の Skype では、仲介サーバーと PSTN ゲートウェイ、セッション ボーダー コント ローラー、および IP PBX などのコンポーネントとの間の M:N のトランキングをサポートします。
-ms.openlocfilehash: 548ba95d3cd3b8c21fcb5fb489f5c70e70a80ce2
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: d37233be20d8cf1a14faa3ca3abe1377127d0803
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882173"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892239"
 ---
 # <a name="mn-trunk-in-skype-for-business-server"></a>Skype ビジネス サーバーは M:N trunk
  

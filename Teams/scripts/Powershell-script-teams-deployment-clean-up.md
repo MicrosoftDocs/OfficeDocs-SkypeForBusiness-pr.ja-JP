@@ -1,5 +1,6 @@
 ---
 title: Microsoft Teams の展開のクリーン アップを支援する PowerShell スクリプトのサンプル
+ms.reviewer: ''
 author: Lester-Hewett
 ms.author: lehewe
 manager: serdars
@@ -11,12 +12,12 @@ MS.collection:
 - M365-collaboration
 description: この PowerShell スクリプトを使用して、対象のマシン上の、または特定のユーザーの Microsoft Teams をクリーン アップします。
 localization_priority: Normal
-ms.openlocfilehash: 6605f1af0f38a79b6e19018d516357312b5cf49e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: a047326a1598ea497318b77ce27c09c6807f25dc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458885"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879905"
 ---
 <a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a>PowerShell スクリプトのサンプル - Microsoft Teams の展開のクリーン アップ
 -------------------------------------------------------------------------

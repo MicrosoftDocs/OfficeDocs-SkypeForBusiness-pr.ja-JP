@@ -1,5 +1,6 @@
 ---
-title: 項目を取得します。
+title: アイテムの取得
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
 description: '概要: は、項目のサービスの一部の項目の取得操作について説明します。 項目のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: 12b52bdd51e8ba59f1aa90e2a366b3e11fb54805
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 1f86c318139d328f414bf1290c66ddd7ccb7e20a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532363"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889443"
 ---
-# <a name="get-item"></a>項目を取得します。
+# <a name="get-item"></a>アイテムの取得
  
 **の概要:** 項目のサービスの一部の項目の取得操作について説明します。 項目のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
   
 項目の取得操作は、リポジトリ api の呼び出し品質のダッシュ ボードの項目のサービスの一部です。
   
-## <a name="get-item"></a>項目を取得します。
+## <a name="get-item"></a>アイテムの取得
 
 リポジトリ内のアイテムを返します。 特定の項目を取得します。
   

@@ -1,5 +1,6 @@
 ---
 title: フロントエンドと Office Web Apps サーバーとの関連付けページ
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 description: Office Web Apps サーバーでは、会議で使用するドキュメントをアップロードする発表者のようなサービスが提供されますが、以前のバージョンにはなかった追加機能が可能になりました。
-ms.openlocfilehash: 4d8d297175cfb003078d80c19a5ace24771a1f49
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 925a27d4b1ddffd40038f71b5cc9d7a3404efba3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248055"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897560"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>フロントエンドと Office Web Apps サーバーとの関連付けページ
 
@@ -35,4 +36,4 @@ Office Web Apps サーバーでは、会議で使用するドキュメントを�
 
 ## <a name="see-also"></a>関連項目
 
-[リバース プロキシ サーバーを使用して、Office Web アプリケーション サーバーの公開](https://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)
+[Publishing Office Web Apps Server Using a Reverse Proxy Server](https://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)

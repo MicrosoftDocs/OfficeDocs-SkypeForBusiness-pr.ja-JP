@@ -1,5 +1,6 @@
 ---
 title: デバイス ログの構成
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 description: デバイス更新 Web サービスは、デバイス更新アクティビティが記録されるログ ファイルを自動的に作成します。 組織のデータ管理戦略の一環として、ログ データのキャッシュのサイズ、ログ ファイルのサイズ、またはパージされる前にログ ファイルが保持される期間の長さのしきい値を設定する可能性があります。 組織の要件に従って、これらの設定を変更することができます。 デバイス更新 Web サービスが自動的にログ ファイルを削除しないようにした場合は、ログ ファイルを必要に応じて手動で削除する必要があります。 ログ設定はグローバルに、またはサイトごとに変更できます。
-ms.openlocfilehash: d54b3b8d876674e37076ce4507aa1c0c96a87496
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: cf90d1e54dd8d7739f609c06f39380e5f8b641a8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23252367"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898692"
 ---
 # <a name="device-log-configuration"></a>デバイス ログの構成
 
@@ -59,4 +60,4 @@ ms.locfileid: "23252367"
 
 ## <a name="see-also"></a>関連項目
 
-[デバイス更新アクティビティのログ ファイルの設定を変更します。](https://technet.microsoft.com/library/9b57f126-1853-43b3-bbd4-06401e6498bd.aspx)
+[Modify Settings for Log Files of Device Update Activity](https://technet.microsoft.com/library/9b57f126-1853-43b3-bbd4-06401e6498bd.aspx)

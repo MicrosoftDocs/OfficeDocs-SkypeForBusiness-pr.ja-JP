@@ -1,5 +1,6 @@
 ---
 title: アーカイブ サーバーの全般設定エキスパンダー
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
-description: トポロジ ビルダーでは、か、コンソール ツリーで、アーカイブを実行して、ツールバー、または [操作] ウィンドウで、タスクをクリックし、[編集] をクリックしてアクションをクリックすると、サーバーを右クリックしてでアーカイブを実行している個々 のサーバーのプロパティを編集することができます。プロパティと、次のオプションのいずれかを変更します。
-ms.openlocfilehash: 76225fe039fea402779e42dd5a33b68a3ab6a8ec
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: トポロジ ビルダーでは、アーカイブを実行している個々のサーバーのプロパティを編集できます。そのためには、アーカイブを実行しているサーバーをコンソール ツリーで右クリックし、ツール バーの [アクション] をクリックするか、[アクション] ウィンドウでタスクをクリックしたうえで、[プロパティの編集] をクリックして以下のオプションのいずれかを変更します。
+ms.openlocfilehash: 21b067e3a97e6c53ba51f4949385532a840d282e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30926498"
 ---
 # <a name="archiving-server-general-settings-expander"></a>アーカイブ サーバーの全般設定エキスパンダー
  

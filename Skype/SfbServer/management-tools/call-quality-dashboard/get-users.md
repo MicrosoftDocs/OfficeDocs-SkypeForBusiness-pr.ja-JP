@@ -1,5 +1,6 @@
 ---
-title: ユーザーを取得します。
+title: ユーザーの取得
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 87d34baf-4c31-468d-b8f7-4faca0bc7a54
 description: '概要: は、ユーザー サービスの一部を取得するユーザーの操作について説明します。 ユーザー サービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: 11c4e8d1230385f51992dac7559d65ddc2ec4ac0
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 24a01f7a149240c3f7bd6830cdfa7a9cb8123396
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531726"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897452"
 ---
-# <a name="get-users"></a>ユーザーを取得します。
+# <a name="get-users"></a>ユーザーの取得
  
 **の概要:** ユーザー サービスの一部を取得するユーザーの操作について説明します。 ユーザー サービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
   
 ユーザーの取得操作は、リポジトリ api の呼び出し品質のダッシュ ボードのユーザー ・ サービスの一部です。
   
-## <a name="get-users"></a>ユーザーを取得します。
+## <a name="get-users"></a>ユーザーの取得
 
 リポジトリ内のユーザーを返します。 ユーザーの一覧を取得します。
   

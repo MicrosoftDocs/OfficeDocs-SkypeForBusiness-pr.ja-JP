@@ -1,5 +1,6 @@
 ---
-title: レガシー サービスを停止します。
+title: レガシ サービスの停止
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 開始または特定のコンピューターで実行されているすべての従来のサービスを停止または開始または停止する従来の特定のサービスには、ビジネス サーバーのコントロール パネルの Skype を使用できます。
-ms.openlocfilehash: b0a0ee72ed78ec024dceacf44acb270d337fe407
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 237d0dcd44855bbea9ea1b084df429946e8f5f15
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25029882"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895791"
 ---
-# <a name="stop-legacy-services"></a>レガシー サービスを停止します。
+# <a name="stop-legacy-services"></a>レガシ サービスの停止
 
 開始または特定のコンピューターで実行されているすべての従来のサービスを停止または開始または停止する従来の特定のサービスには、ビジネス サーバーのコントロール パネルの Skype を使用できます。
   

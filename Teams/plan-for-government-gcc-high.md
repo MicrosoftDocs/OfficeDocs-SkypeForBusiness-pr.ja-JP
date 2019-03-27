@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4b1dc313fa1ea223e7c55f066b869b29c098fd2
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b3aab01d03b3239918c48bfb250df00208f76a7f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460829"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891140"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Microsoft 365 政府の GCC の高い展開の計画
 
@@ -50,7 +50,7 @@ Microsoft 365 政府 – GCC 高の米国政府の[Office 365 の政府の計画
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft 365 政府の GCC の高が組織にとって適切かどうかを決定します。</li><li>組織が適格性の要件を満たしていることを確認します。</li></ul> |
+| ![](media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>Microsoft 365 政府の GCC の高が組織にとって適切かどうかを決定します。</li><li>組織が適格性の要件を満たしていることを確認します。</li></ul> |
 
 > [!Note]
 > Microsoft 365 政府の GCC 高には、アメリカ合衆国ではできるだけです。 -米国以外の政府機関のお客様は、いくつかの[Office 365 の政府の計画](https://products.office.com/en/government/compare-office-365-government-plans)から選択できます。
@@ -78,12 +78,12 @@ Microsoft 365 政府 – GCC 高の米国政府の[Office 365 の政府の計画
 | ベース | ログイン | 利用可能 |
 | | プレゼンス | 利用可能 |
 | | 統合されたプレゼンス (Skype のビジネスと統合チーム) | 政府のバックログに |
-| アクティビティ | フィード | 利用可能 |
+| 活動 | フィード | 利用可能 |
 |  | マイ アクティビティ | 利用可能 |
 | チャット | 会話 | 利用可能 |
 | | ファイル | 利用可能 |
 | | 組織図 | 利用可能 |
-| | アクティビティ | 利用可能 |
+| | 活動 | 利用可能 |
 | | 相互運用機能 (1:1 チームの Skype ビジネス チャット用) | 政府のバックログに |
 | Teams | チャンネル メッセージ | 利用可能 |
 | | チャンネル ファイル | 利用可能 |
@@ -101,7 +101,7 @@ Microsoft 365 政府 – GCC 高の米国政府の[Office 365 の政府の計画
 | | クラウドの記録 | 政府のバックログに |
 | | 会議ノート | 利用可能 |
 | | 会議をブロードキャストします。 | 政府のバックログに |
-| | 連合の会議 | 利用可能 |
+| | (GCCH に GCCH) の内のクラウド連合の会議 | 利用可能 |
 | | サーフェス ・ ハブのサポート | 政府のバックログに |
 | 通話 | 連絡先 | 利用可能 |
 | | 履歴 | 利用可能 |

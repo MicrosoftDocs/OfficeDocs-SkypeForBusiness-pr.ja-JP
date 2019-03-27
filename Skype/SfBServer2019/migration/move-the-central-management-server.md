@@ -1,5 +1,6 @@
 ---
 title: 中央管理サーバーを移動します。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ビジネス サーバー 2019 の Skype に移行した後は、中央管理サーバーを移動する、Skype ビジネス 2019 フロント エンド サーバーまたはプールのレガシ サーバーを削除する前にする必要があります。
-ms.openlocfilehash: 6a358b11d7d319d5dafbb82f4391cdc3d0ae1562
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: dc85548a3c81e55267bc0ed3a32e53860e4bce09
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373444"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894748"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype に従来のサーバーの全体管理サーバーを移動します。
 
@@ -121,7 +122,7 @@ ms.locfileid: "25373444"
    Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
    ```
 
-    例:
+    次に例を示します。
     
    ```
    Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc

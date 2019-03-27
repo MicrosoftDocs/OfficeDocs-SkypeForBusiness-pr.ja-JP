@@ -1,5 +1,6 @@
 ---
 title: ダイレクト ルーティングを構成する
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Microsoft 電話システム直接ルーティングを構成する方法について説明します。
-ms.openlocfilehash: 5c2d90ccb88c0e654239ec02a5780778a7db6bbe
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 20bd29bdd2ba83050bd83513f513732ce646cbbe
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569783"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883568"
 ---
 # <a name="configure-direct-routing"></a>ダイレクト ルーティングを構成する
 
@@ -449,7 +450,7 @@ Spencer 低: 米国およびカナダの番号にのみ許可される呼び出�
 
 
   > [!NOTE]
-  > - 音声ルーティング ポリシーの PSTN 使用法の順序は重要です。 順番については、使用法が適用され、最初の使用で一致が見つかった場合、その他の方法は評価されません。 PSTN 使用法「国際」する必要があります後に配置される PSTN 使用法」ことだけです」 PSTN 使用法の順序を変更するには、実行、`Set-CSOnlineRouteRoutingPolicy`コマンドです。 <br/>たとえば、米国およびカナダからの順序を変更する順序とは逆に国際化し、最初の 2 番目を実行します。<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
+  > - 音声ルーティング ポリシーの PSTN 使用法の順序は重要です。 順番については、使用法が適用され、最初の使用で一致が見つかった場合、その他の方法は評価されません。 PSTN 使用法「国際」する必要があります後に配置される PSTN 使用法」ことだけです」 PSTN 使用法の順序を変更するには、実行、`Set-CSOnlineVoiceRoutingPolicy`コマンドです。 <br/>たとえば、米国およびカナダからの順序を変更する順序とは逆に国際化し、最初の 2 番目を実行します。<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
  > - 「その他の +1」と「国際」ボイス ルートの優先順位は自動的に割り当てられます。 「Redmond 1」と「レドモンド 2」よりも低い優先順位がある限り、問題でない
 
 #### <a name="example-of-voice-routing-policy-for-user-john-woods"></a>ユーザー John の森の音声ルーティング ポリシーの例

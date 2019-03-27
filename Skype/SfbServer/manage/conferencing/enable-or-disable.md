@@ -1,5 +1,6 @@
 ---
 title: 有効にするか、ビジネスのサーバーの Skype では、ダイヤルイン会議を無効にします。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
 description: '概要: は、コントロール パネルまたは管理シェルを使用して、有効またはビジネス サーバーの Skype では、ダイヤルイン会議を無効にする方法を説明します。'
-ms.openlocfilehash: 47393140e41277aef3ec137ee3f1c6a96fa9efca
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 216973e8d3a887dcae308fc5efa6d67b2415493b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983862"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895357"
 ---
 # <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>有効にするか、ビジネスのサーバーの Skype では、ダイヤルイン会議を無効にします。
  

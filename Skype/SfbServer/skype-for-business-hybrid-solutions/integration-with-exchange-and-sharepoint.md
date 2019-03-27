@@ -1,5 +1,6 @@
 ---
 title: Exchange と SharePoint との統合
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: '概要: は、Exchange と SharePoint サーバー 2015 のビジネス統合のための Skype について説明します。'
-ms.openlocfilehash: 98e84fdac1e070c10bdcfb99278e78fb6f56a9a6
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: 91291f960636b8fd0c41519ff65830b98b631e8c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30210623"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879963"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Exchange と SharePoint との統合
 
@@ -71,7 +72,7 @@ ms.locfileid: "30210623"
 |会議の委任  <br/> |両方のユーザーが同じフォレスト内で常時オンラインである場合、または両方のユーザーがオンプレミスに属する場合にのみサポートされます。 詳細については、[ハイブリッド ソリューションのビジネス用の Skype](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)を参照してください。 <br/> |
 |不在着信の会話の履歴とログの呼び出しは、ユーザーの Exchange メールボックスに書き込まれます。  <br/> ||
 |Exchange でのコンテンツのアーカイブ (IM および会議)  <br/> |詳細については、[アーカイブの展開のチェックリスト](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx)を参照してください。  <br/> |
-|アーカイブされたコンテンツの検索  <br/> |詳細については、「[SharePoint の電子情報開示センター用の Exchange の構成](https://go.microsoft.com/fwlink/p/?LinkId=285448)」を参照してください。 <br/> |
+|アーカイブされたコンテンツの検索  <br/> |詳細については、 [SharePoint の電子情報開示センターの Exchange の構成](https://go.microsoft.com/fwlink/p/?LinkId=285448)で参照してください。 <br/> |
 |ボイス メール  <br/> |詳細については、[提供する Lync Server 2013 ユーザー ボイス メールでホストされている Exchange UM](https://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx)を参照してください。  <br/> |
 
  **オンライン ビジネスとの社内の Exchange の Skype**

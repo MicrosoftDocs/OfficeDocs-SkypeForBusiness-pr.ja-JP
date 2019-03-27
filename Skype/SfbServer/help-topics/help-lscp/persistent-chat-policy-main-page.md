@@ -1,5 +1,6 @@
 ---
 title: 常設チャット ポリシー メイン ページ
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 description: 永続的なチャット グループの永続的なチャットのポリシー] ページを使用するには既定のグローバル ポリシーを構成するポリシーを作成する 1 つまたは複数追加ユーザーとサイトの展開など、グローバル、プール、サイト、またはユーザー レベルでポリシーを管理します。 永続的なチャット サーバーのポリシーによって、ユーザーが有効な場合は、それらのクライアントに永続的なチャット サーバーの環境が表示されます。
-ms.openlocfilehash: 670c372c5dc3997d0d2c15622a9780e52c03508c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c44986a053fc891d7d8d956d21b12012fd62fc5c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372729"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898889"
 ---
 # <a name="persistent-chat-policy-main-page"></a>常設チャット ポリシー メイン ページ
  
@@ -55,7 +56,7 @@ ms.locfileid: "25372729"
     
    - すべてのサイトおよびサイト ポリシーまたはユーザー ポリシーによって特に制御のユーザーの永続的なチャットを制御するには、オンまたは**永続的なチャットを有効にする**] チェック ボックスをオフにします。
     
-6. [**確定**] をクリックします。
+6. [**コミット**] をクリックします。
     
 ## <a name="to-create-a-persistent-chat-policy-for-a-site"></a>永続的なチャットのサイトのポリシーを作成するには
 
@@ -105,7 +106,7 @@ ms.locfileid: "25372729"
     
    - ユーザー ポリシーでは、具体的には制御できないユーザーのためには、永続的なチャットを制御するには、オンまたは**永続的なチャットを有効にする**] チェック ボックスをオフにします。
     
-6. [**確定**] をクリックします。
+6. [**コミット**] をクリックします。
     
 ## <a name="to-apply-a-persistent-chat-user-policy-to-a-user-account"></a>永続的なチャット ユーザー ポリシーをユーザー アカウントに適用するには
 
@@ -124,7 +125,7 @@ ms.locfileid: "25372729"
 5. **永続的なチャット**ポリシーでは、 **Lync Server ユーザーの編集**では、永続的なチャット ユーザー ポリシーを適用するを選択します。
     
     > [!NOTE]
-    > **\<自動\>** の設定は、既定の有効なポリシーを適用します。 これらの設定はサーバーによって自動的に適用されます。
+    > **\<自動\>** の設定は、既定の有効なポリシーを適用します。 これらの設定はサーバーにより自動的に適用されます。
   
 6. [**確定**] をクリックします。
     

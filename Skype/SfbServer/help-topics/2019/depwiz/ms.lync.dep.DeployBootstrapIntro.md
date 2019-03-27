@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server コンポーネントのセットアップまたは削除 (開始)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e87b2255-3a00-4c74-b3d0-e0c3da702e3a
 ROBOTS: NOINDEX, NOFOLLOW
 description: インストールしアクティブ化または非アクティブ化して Skype をビジネスのサーバー コンポーネントをアンインストールする準備を行う。 実行されるプロセスは、中央管理ストアに公開されている定義の現在の構成によって定義されます。 タスクを正常に完了するには、ローカルの Administrators グループのメンバーとしてログインする必要があり、最低限、する Active Directory ドメイン サービスを読み取ることができません。
-ms.openlocfilehash: 0e4f1939ab44daa551a82684e38049f9c9653b79
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f6b82b37e0d822c55f8ebbd43c6d7e3c945e6600
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20980042"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884762"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components-intro"></a>Skype for Business Server コンポーネントのセットアップまたは削除 (開始)
  

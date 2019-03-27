@@ -1,5 +1,6 @@
 ---
 title: Cloud Connector でマルチサイトを展開する
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Cloud Connector エディションで複数の PSTN サイトを展開する方法について説明します。
-ms.openlocfilehash: 388915d0ab22dc50378d84a82c01291cfd7c99eb
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 194eaf0b68489b37a5ab1fc2d5d501177edd0b35
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532370"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895952"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Cloud Connector でマルチサイトを展開する
  
@@ -69,7 +70,7 @@ ExternalMRPublicIPs=104.42.226.134
 サイトごとに PSTN を追加する、[クラウドのコネクタで 1 つのサイトの展開](deploy-a-single-site-in-cloud-connector.md)の手順に従います。
   
 > [!IMPORTANT]
-> 高可用性 (HA) を準備するための共有フォルダーは、PSTN サイト別です。 共有フォルダーは、PSTN サイトごとに異なる**必要があります**。 複数サイトに同じ共有フォルダーを使用しないで > 
+> 高可用性 (HA) を準備するための共有フォルダーは、PSTN サイト別です。 共有フォルダーは、PSTN サイトごとに異なる**必要があります**。 複数の sites.> の同じ共有フォルダーを使用しません。 
   
 ## <a name="single-site-with-high-availability-ha-compared-to-multi-site-deployments"></a>マルチサイト展開と高可用性 (HA) 対応の単一サイトの比較
 <a name="BKMK_SingleSitecomparedtomulti-site"> </a>

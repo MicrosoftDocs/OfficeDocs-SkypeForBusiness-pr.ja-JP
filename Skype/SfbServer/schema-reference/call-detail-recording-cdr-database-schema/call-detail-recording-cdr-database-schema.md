@@ -1,5 +1,6 @@
 ---
 title: (CDR) データベース スキーマを Skype のビジネス サーバー 2015 の記録の呼び出しの詳細
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 754642cd-051a-47da-bb08-27800dae39d1
 description: これは、Skype でのビジネス サーバー 2015 (CDR) データベースを記録呼び出しの詳細情報のスキーマを説明します。
-ms.openlocfilehash: 746c428076c02431268fb06af935e5c8935a02c7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 35f740172568eef5ed5863498d7c0bdb9afd8625
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890931"
 ---
 # <a name="call-detail-recording-cdr-database-schema-in-skype-for-business-server-2015"></a>(CDR) データベース スキーマを Skype のビジネス サーバー 2015 の記録の呼び出しの詳細
  
@@ -26,6 +28,6 @@ ms.lasthandoff: 03/28/2018
     
 - [CDR ビジネス サーバー 2015 の Skype でのテーブルの詳細](cdr-table-details.md)
     
-- [CDR のビューの一覧](list-of-cdr-views.md)
+- [CDR ビューのリスト](list-of-cdr-views.md)
     
 

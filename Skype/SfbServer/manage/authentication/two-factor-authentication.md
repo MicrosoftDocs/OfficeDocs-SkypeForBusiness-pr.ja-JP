@@ -1,5 +1,6 @@
 ---
 title: Skype のビジネス サーバーの 2 要素による認証を管理します。
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: '概要: は、Skype のビジネス サーバーの 2 要素による認証を管理します。'
-ms.openlocfilehash: a9ebeaa5f8f012d66fb62357e8378010d0a74865
-ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
+ms.openlocfilehash: ce6d43b8ace741a754cb4406235534fd83e414b3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25692741"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888403"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Skype のビジネス サーバーの 2 要素による認証を管理します。
  
@@ -27,7 +28,7 @@ ms.locfileid: "25692741"
   
 2 要素認証をサポートするには、ビジネスのサーバー環境に Skype を設定するときは、次の項目を検討してください。
   
-## <a name="client-support"></a>クライアント サポート
+## <a name="client-support"></a>クライアントのサポート
 
 Lync Server 2013 の累積的な更新: 2013年 7 月デスクトップ クライアントおよびビジネス クライアント用の Skype は、2 要素認証がサポートされているクライアントのみです。
   
@@ -100,7 +101,7 @@ PIN の入力を求めるメッセージが表示される前に、意図せず�
 
 AD FS 2.0 には、トークン リプレイ検出と呼ばれる機能が用意されています。この機能によって、同じトークンを使用する複数のトークン要求を検出して破棄できます。この機能が有効な場合は、同じトークンが複数回使用されることがなくなるため、WS-Federation パッシブ プロファイルと SAML WebSSO プロファイルの両方において認証要求の整合性が確保されます。
   
-キオスクを使用する場合など、セキュリティが最も重視される状況では、この機能を有効にする必要があります。 トークン リプレイ検出の詳細については、「[Best Practices for Secure Planning and Deployment of AD FS 2.0](https://go.microsoft.com/fwlink/p/?LinkId=309215)」を参照してください。
+キオスクを使用する場合など、セキュリティが最も重視される状況では、この機能を有効にする必要があります。 トークンのリプレイ検出の詳細については、 [AD FS 2.0 のセキュリティ保護の計画および展開のベスト プラクティス](https://go.microsoft.com/fwlink/p/?LinkId=309215)を参照してください。
   
 ## <a name="external-user-access"></a>外部ユーザー アクセス
 

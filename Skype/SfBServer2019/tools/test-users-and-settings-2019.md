@@ -1,5 +1,6 @@
 ---
 title: 監視ノードのテスト ユーザーおよび設定の構成
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: は、テスト ユーザー アカウントとビジネス サーバー代理トランザクションの Skype のウォッチャー ノードの設定を構成します。'
-ms.openlocfilehash: 3348d0407321ca53a771e2783b0f27c6463143f4
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6137d72ce35ffdacaacb85890b387d5f9fc8ab9a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26536048"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897487"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>監視ノードのテスト ユーザーおよび設定の構成
  
@@ -364,7 +365,7 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>Video Interop Server (VIS) 代理トランザクション
 
-Video Interop Server (VIS) 代理トランザクションでは、代理トランザクション サポート ファイル ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)) をダウンロードしてインストールする必要があります。 
+ビデオの相互運用機能サーバー (VIS) の代理トランザクションでは、ダウンロードして、代理トランザクションのサポート ファイル ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)) をインストールすることが必要です。 
   
 インストールするのには VISSTSupportPackage.msi は msi ファイルが既にインストールされているために下にあるシステム要件) の依存関係を確認します。 単純なインストールを実行するのには VISSTSupportPackage.msi を実行します。 .Msi 次のパス内のすべてのファイルをインストールする:「%ProgramFiles%\VIS 合成のトランザクション サポート パッケージ」です。
   

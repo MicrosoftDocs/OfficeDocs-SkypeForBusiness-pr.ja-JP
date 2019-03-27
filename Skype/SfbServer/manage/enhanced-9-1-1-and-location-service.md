@@ -1,5 +1,6 @@
 ---
 title: 拡張 9-1-1 および場所のサービスを管理します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype ビジネス サーバーの強化された 9-1-1 (~ 9-1-1) ビジネス クライアント用の Skype からの呼び出しをサポートします。 ~ 9-1-1 の Skype ビジネス サーバーを構成する場合、ビジネス用の Skype から緊急呼び出しには、場所情報サービス データベースからの緊急応答ロケーション (ERL) 情報が含まれます。
-ms.openlocfilehash: ef45f6e30e65a9a3fe79fd51576c24a6a4dfb318
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 31e1d529c8fb60145bc1ab4a22a75660d9f3ef63
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223459"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895154"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>拡張 9-1-1 と Skype でロケーション サービスをビジネス用のサーバーを管理します。
 
@@ -100,7 +101,7 @@ Skype ビジネス サーバーの強化された 9-1-1 (~ 9-1-1) ビジネス �
         
           - **双方向**   サード パーティがリッスンし、発信者と PSAP オペレーターとの間の呼び出しに参加します。
 
-6.  [**確定**] をクリックします。
+6.  [**コミット**] をクリックします。
 
 
     > [!IMPORTANT]  
@@ -121,7 +122,7 @@ Skype ビジネス サーバーの強化された 9-1-1 (~ 9-1-1) ビジネス �
 
 6.  [**場所のポリシーの編集**] ページでは、(詳細については、このトピックで前述した手順を作成する」で新しい場所のポリシー」の手順 5 を参照) 必要に応じて、フィールドを変更します。
 
-7.  [**確定**] をクリックします。
+7.  [**コミット**] をクリックします。
 
         
 ## <a name="delete-a-location-policy"></a>場所のポリシーを削除します。
@@ -151,10 +152,10 @@ Skype ビジネス サーバーの強化された 9-1-1 (~ 9-1-1) ビジネス �
 
 [作成またはネットワーク サイトを変更します。](network-management/call-admission-control/managing-call-admission-control-for-sites.md#create-or-modify-network-sites)
 
-[新しい-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy)  
+[New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy)  
 
 [Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy) 
  
-[削除 CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsLocationPolicy)  
+[Remove-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsLocationPolicy)  
 
 [Get-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsLocationPolicy)  

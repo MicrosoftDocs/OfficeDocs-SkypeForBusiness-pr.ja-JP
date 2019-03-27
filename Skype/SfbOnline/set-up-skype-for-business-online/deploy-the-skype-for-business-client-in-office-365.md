@@ -1,5 +1,6 @@
 ---
 title: Office 365 で Skype for Business クライアントを展開する
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn how to plan and deploy Skype for Business in small, medium, and large organizations and making it available to your users. '
-ms.openlocfilehash: c96d4759e25370997b9af8d42d8130d7964962df
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6dccd022d82519c1dfdce13f767e5b0a2531eb10
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372573"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896795"
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>Office 365 で Skype for Business クライアントを展開する
 
@@ -52,7 +53,7 @@ ms.locfileid: "25372573"
     ![Choose which software you want the user to access.](../images/91f6f422-2c85-4afd-944f-0021b2f6f109.png)
   
 > [!NOTE]
-> どのような計画は、組織内のユーザーに割り当てられているを確認する場合が新しい Office 365 管理センターにサインイン >**ユーザー** > **アクティブなユーザー**です。リストからユーザーを選択し、**製品のライセンス**の下を確認します。従来の Office 365 管理センターを使用する場合は、**割り当てられたライセンス**の下で確認します。 
+> 新しい Office 365 管理センター _gt**ユーザー**にサインインする必要があるどのような計画は、組織内のユーザーに割り当てられて、か > **アクティブなユーザー**です。リストからユーザーを選択し、**製品のライセンス**の下を確認します。従来の Office 365 管理センターを使用する場合は、**割り当てられたライセンス**の下で確認します。 
   
 ### <a name="manually-deploying-skype-for-business-to-your-users"></a>ユーザーに Skype for Business を手動で展開する
 <a name="bkmk_manual_1"> </a>
@@ -148,7 +149,7 @@ Office 365 ソフトウェアに対する更新プログラムの動作の詳細
   
 Office 展開ツールまたはグループ ポリシーを使用して更新チャネルを構成することで、機能の更新プログラムを取得する頻度を制御できます。月次チャネルでは機能の更新プログラムが毎月提供されますが、半期チャネルではおよそ 6 か月ごとに機能の更新プログラムが提供されます。チャネルの詳細については、「[Office 365 ProPlus 更新プログラム チャネルの概要](https://support.office.com/article/9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
   

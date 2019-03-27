@@ -1,5 +1,6 @@
 ---
 title: 品目サービスの通話品質のダッシュ ボード (救難)
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
 description: '概要: は、項目のサービス品質のダッシュ ボードを呼び出すためのリポジトリ API の一部について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: 5e5198afd95d6c9e1de517054053b724a54b1105
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 28a705d488519e439a0fd4c9c9345b1d540fd949
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532599"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895945"
 ---
 # <a name="item-service-for-call-quality-dashboard-cqd"></a>品目サービスの通話品質のダッシュ ボード (救難)
  
@@ -49,10 +50,10 @@ ms.locfileid: "26532599"
 
 |**操作**|**説明**|
 |:-----|:-----|
-|[項目を取得します。](get-items.md) <br/> |リポジトリ内のアイテムを返します。 すべてのアイテムを取得します。  <br/> |
-|[項目を取得します。](get-item.md) <br/> |返品品目の特定の項目を取得します。  <br/> |
-|[サブ項目を取得します。](get-sub-items.md) <br/> |サブ項目を返します。 特定の項目のサブ項目を取得します。  <br/> |
-|[アイテムの親を取得します。](get-item-ancestors.md) <br/> |Get アイテムの先祖は、特定のアイテムの親を返します。  <br/> |
-|[アイテムを更新します。](update-item.md) <br/> |リポジトリ内の特定のアイテムを更新します。  <br/> |
+|[アイテムの取得](get-items.md) <br/> |リポジトリ内のアイテムを返します。 すべてのアイテムを取得します。  <br/> |
+|[アイテムの取得](get-item.md) <br/> |返品品目の特定の項目を取得します。  <br/> |
+|[サブアイテムの取得](get-sub-items.md) <br/> |サブ項目を返します。 特定の項目のサブ項目を取得します。  <br/> |
+|[アイテムの親の取得](get-item-ancestors.md) <br/> |Get アイテムの先祖は、特定のアイテムの親を返します。  <br/> |
+|[アイテムの更新](update-item.md) <br/> |リポジトリ内の特定のアイテムを更新します。  <br/> |
    
 

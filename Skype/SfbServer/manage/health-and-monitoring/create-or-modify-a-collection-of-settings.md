@@ -1,5 +1,6 @@
 ---
 title: 作成するか、Skype でビジネス サーバー用の CDR 構成設定のコレクションを変更します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 description: '概要: は、Skype のビジネス サーバー (CDR) を記録呼び出しの詳細について説明します。'
-ms.openlocfilehash: f1bbf12f3766156b5f30ef3f2760669791e8c4c0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 563aeb37a0d6ae8cc10f73fe8d5d6808b9a051a9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20970373"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892999"
 ---
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>作成するか、Skype でビジネス サーバー用の CDR 構成設定のコレクションを変更します。
  

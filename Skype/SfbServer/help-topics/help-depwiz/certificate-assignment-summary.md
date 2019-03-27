@@ -1,5 +1,6 @@
 ---
 title: 証明書の割り当て (概要)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9478bf4-4e1a-46a2-bf76-3ff08a193523
 description: 証明書の割り当てが完了したら、前に割り当てられる証明書の詳細が一覧表示される証明書の割り当ての概要が表示されます。 サブジェクト名とサブジェクト代替名が正しいことを確認する情報を確認します。 証明書の概要を確認したら、次へをクリックします。
-ms.openlocfilehash: 55db559dd632302f68afc18606b22c09fb90fd78
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e864ca68fa9868423cdb3c5a1ddb2bb152b84890
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008140"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898593"
 ---
 # <a name="certificate-assignment-summary"></a>証明書の割り当て (概要)
  

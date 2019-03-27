@@ -1,5 +1,6 @@
 ---
-title: Skype ビジネス サーバー 2019
+title: Skype for Business Server 2019
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,14 +12,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: '概要: ビジネス サーバー 2019 の Skype を実装する方法については、これらのリンクを表示します。'
-ms.openlocfilehash: 4233644bb8e5c252a1fb435b20b64ca692dcba9b
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: e2a915eb017158698fb228a913541e11ee155dfe
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069453"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893691"
 ---
-# <a name="skype-for-business-server-2019"></a>Skype ビジネス サーバー 2019
+# <a name="skype-for-business-server-2019"></a>Skype for Business Server 2019
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -32,7 +33,7 @@ ms.locfileid: "30069453"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>計画</h3>
+                        <h3>プラン</h3>
                     </div>
                 </div>
             </div>
@@ -204,7 +205,7 @@ ms.locfileid: "30069453"
 
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **開始する前に** <br>[システム要件](plan/system-requirements.md) <br>[ネットワーク要件](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **インストール ** <br>[Skype for Business Server のインストール](../SfbServer/deploy/install/install.md) <br> [ビジネス 2019年の Skype への移行します。](migration/migration-to-skype-for-business-server-2019.md)                             | **エンタープライズ VoIP**<br>[計画](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[展開](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
+| **開始する前に** <br>[システム要件](plan/system-requirements.md) <br>[ネットワーク要件](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **インストール** <br>[Skype for Business Server のインストール](../SfbServer/deploy/install/install.md) <br> [ビジネス 2019年の Skype への移行します。](migration/migration-to-skype-for-business-server-2019.md)                             | **エンタープライズ VoIP**<br>[計画](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[展開](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
 | **新機能**<br>[新機能](whats-new.md)                                                                                                                                         | **ハイブリッド ソリューション**<br>[ハイブリッド接続を計画します。](../sfbhybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)|  **以前のリリース**<br/>  [Skype ビジネス サーバー 2015 について](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015) <br/>   [Lync Server 2013 のマニュアル](/lyncserver/microsoft-lync-server-2013)                                                                                                                                                                                             |
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 

@@ -1,5 +1,6 @@
 ---
 title: アーカイブ サーバーのスコープ ノード
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
-description: トポロジ ビルダーでは、するか、コンソール ツリーで、アーカイブ サーバーを右クリックし、ツールバーの [操作] をクリックしてまたは [操作] ウィンドウで、タスク クリックし、次のアーカイブによって、個々 のアーカイブ サーバーに関連するタスクを実行することができます。サーバーのオプションです。
-ms.openlocfilehash: d9fb1557c4d302ab4b11cc03e754c7a007abc6af
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: トポロジ ビルダーでは、コンソール ツリーの [アーカイブ サーバー] を右クリックするか、ツール バーの [アクション] をクリックするか、または [アクション] ウィンドウでタスクをクリックして、次のアーカイブ サーバー オプションをクリックすることにより、個々のアーカイブ サーバーに関連するタスクを実行できます。
+ms.openlocfilehash: 60f79b174f992718488a7eacb2d578dc05bf472f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30926526"
 ---
 # <a name="archiving-servers-scope-node"></a>アーカイブ サーバーのスコープ ノード
  

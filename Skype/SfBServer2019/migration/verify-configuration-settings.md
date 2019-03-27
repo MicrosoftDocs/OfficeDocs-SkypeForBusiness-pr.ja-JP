@@ -1,5 +1,6 @@
 ---
-title: 構成設定を確認します。
+title: 構成の設定の確認
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 中央管理ストアに保存されている、またはいずれかの内部コンピューターの CsManagementStoreReplicationStatus-ビジネス サーバー 2019 Get コマンドレットの Skype を実行して、エッジ サーバーの構成情報のレプリケーションを検証することができます。ビジネス サーバー 2019 のコア ・ コンポーネント (OcsCore.msi) の Skype がインストールされているコンピューターをドメインに参加します。
-ms.openlocfilehash: 23a5b4c3af8ac02ebfd620d3bbc46ddcba5bea11
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1b64569ffbdce3d7f41e7f6c54815d051848cfd1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027810"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889677"
 ---
-# <a name="verify-configuration-settings"></a>構成設定を確認します。
+# <a name="verify-configuration-settings"></a>構成の設定の確認
 
 中央管理ストアに配置されて、内部コンピューターのビジネス サーバー 2019 **Get CsManagementStoreReplicationStatus**コマンドレットの Skype を実行して、エッジ サーバーに構成情報のレプリケーションを検証することができますかドメインに参加しているコンピューターはビジネス サーバー 2019 のコア ・ コンポーネント (OcsCore.msi) の Skype がインストールされています。 
   

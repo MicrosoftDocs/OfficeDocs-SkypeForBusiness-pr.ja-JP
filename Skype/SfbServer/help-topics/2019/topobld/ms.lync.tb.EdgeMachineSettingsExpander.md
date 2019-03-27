@@ -1,5 +1,6 @@
 ---
-title: エッジのマシンの設定の拡張
+title: エッジ コンピューター設定エキスパンダー
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: エッジ サーバーのプール内のサーバーのプロパティを編集するには、次の操作を行います。
-ms.openlocfilehash: d0df347d3432d28b6d5f1df9d32cb4cd4f4423cd
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 5755e03c0d760ef61b8cd4322131316c1d80a4c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21057259"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899492"
 ---
-# <a name="edge-machine-settings-expander"></a>エッジのマシンの設定の拡張
+# <a name="edge-machine-settings-expander"></a>エッジ コンピューター設定エキスパンダー
  
 エッジ サーバーのプール内のサーバーのプロパティを編集するには、次の操作を行います。
   

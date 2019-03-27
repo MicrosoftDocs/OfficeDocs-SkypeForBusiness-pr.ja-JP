@@ -1,5 +1,6 @@
 ---
 title: Cloud Connector エディションでのメディア バイパスを計画する
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: このトピックでは、Cloud Connector エディション バージョン 2.0 以降でのメディア バイパスの実装を計画する上で考慮すべき事項を説明します。 メディアを展開する方法については省略し、クラウド コネクタのエディションで使用しない展開メディアを参照してください。
-ms.openlocfilehash: a3cfaea8d963efa4f7774b8b589fcd0ecc61d3bc
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6ddaec00925d5eea7d7c82d89f0324958c87abb9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371002"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896022"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Cloud Connector エディションでのメディア バイパスを計画する
  

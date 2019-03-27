@@ -1,5 +1,6 @@
 ---
-title: 移行を開始する前に
+title: 移行を始める前に
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,21 +9,21 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 作業を開始する前に、このドキュメントは、対応するロールを展開するのに慣れるには、以下のガイドを読むことお勧めします。
-ms.openlocfilehash: 6ecf783ceb2d3b98ab4e9d93dfec6d87bc1ce506
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 695e70e4517bc24c239f2c99c1bbcb3f65420785
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25029427"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888606"
 ---
-# <a name="before-you-begin-the-migration"></a>移行を開始する前に
+# <a name="before-you-begin-the-migration"></a>移行を始める前に
 
 作業を開始する前に、対応するロールを展開するのに慣れるには、以下の資料を読むことをお勧めします。
     
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [移行プロセス](migration-process.md)
+- [移行のプロセス](migration-process.md)
     
-- [移行フェーズ](migration-phases.md)
+- [移行のフェーズ](migration-phases.md)
     
 

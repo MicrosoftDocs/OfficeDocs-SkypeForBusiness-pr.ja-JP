@@ -1,5 +1,6 @@
 ---
 title: リモート ユーザー アクセスの有効化または無効化
+ms.reviewer: ''
 ms:assetid: cd9d3ddc-4839-457a-86d9-b15413e74002
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182586(v=OCS.15)
 ms:contentKeyID: 48185660
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: リモート ユーザーのリモート ユーザー アクセスを有効にした場合サポートされているリモート ユーザーは、インターネット経由で接続し、Skype を使用してビジネスのサーバーの内部のユーザーと共同作業するために VPN を使用して接続する必要はありません。
-ms.openlocfilehash: 34733c4d1912461090ef868e24ae24dc1c870a94
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: aea136e6c8758fd646a20b8bc7a64a393d45a3e7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222878"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898917"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>有効にするか、ビジネスのサーバーの Skype でのリモート ユーザー アクセスを無効にします。
 
@@ -46,7 +47,7 @@ ms.locfileid: "27222878"
     
       - 組織のリモート ユーザー アクセスを無効にするには、**リモート ユーザー アクセスを有効にする**] チェック ボックスをオフにします。
 
-6.  [**確定**] をクリックします。
+6.  [**コミット**] をクリックします。
 
 Skype をビジネスのサーバーを実行しているサーバーにサインインするのにはリモート ユーザーを有効にするには、リモート ユーザー アクセスをサポートするために少なくとも 1 つの外部アクセス ポリシーを構成することもあります。 詳細については、 [Skype のビジネス サーバーでリモート ユーザー アクセスを制御するポリシーを構成する](../external-access-policies/configure-policies-to-control-remote-user-access.md)を参照してください。
 

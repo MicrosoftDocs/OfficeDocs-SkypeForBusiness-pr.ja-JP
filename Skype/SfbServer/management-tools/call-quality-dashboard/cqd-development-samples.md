@@ -1,5 +1,6 @@
 ---
 title: CQD の開発サンプル
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: '概要: は、品質のダッシュ ボードを呼び出すためのチュートリアルと開発のサンプルを確認します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: 994a26af99ec141b531ed3011a42f626c0c62886
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: eb2e195a9eaac54b01af6d0da498fda6fafe374c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531068"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887373"
 ---
 # <a name="cqd-development-samples"></a>CQD の開発サンプル
 
@@ -346,14 +347,14 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
    ],
    ```
 
-   分析コードをここで`[Scenarios].[ScenarioPair]`と等しくなるように設定されて`[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`。 `[Scenario.][ScenarioPair]`は、特別なディメンションがレポートの作成を簡略化するために作成します。 `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]` に対応する 6 つの値があるため、シナリオを定義するために 6 つのフィルターの組み合わせを使用するのではなく、1 つのフィルターを使用するだけで済みます。 この例では、値  は、1 つ目がサーバー、2 つ目がサーバーではない、1 つ目が内部、2 つ目が内部、1 つ目の接続の種類が有線、2 つ目の接続の種類が有線であるシナリオに変換されます。 例では、値`[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`シナリオに変換する: 最初サーバーは、2 つ目はサーバーではないの内部は、最初の内部は、2 つ目は最初の接続の種類は、ワイヤード (有線)、および 2 番目の接続の種類は、ワイヤード (有線)、正確な定義である」サーバー-クライアント-内側ワイヤード (有線)」です。
+   分析コードをここで`[Scenarios].[ScenarioPair]`と等しくなるように設定されて`[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`。 `[Scenario.][ScenarioPair]`は、特別なディメンションがレポートの作成を簡略化するために作成します。 対応する 6 つの値が`[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`。 この例では、値 [1]&[0]&[1]&[1]&[Wired]&[Wired] は、1 つ目がサーバー、2 つ目がサーバーではない、1 つ目が内部、2 つ目が内部、1 つ目の接続の種類が有線、2 つ目の接続の種類が有線であるシナリオに変換されます。 例では、値`[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`シナリオに変換する: 最初サーバーは、2 つ目はサーバーではないの内部は、最初の内部は、2 つ目は最初の接続の種類は、ワイヤード (有線)、および 2 番目の接続の種類は、ワイヤード (有線)、正確な定義である」サーバー-クライアント-内側ワイヤード (有線)」です。
 
 3. シナリオごとに 1 つのフィルター セットを作成します。図のスコアカードの各行は個別のシナリオを表し、また個別のフィルターになります (一方、次元と測定値は同じままです)。 
 
 4. AJAX 呼び出しの結果を解析し、解析結果をテーブルの適切な位置に配置します。これは大部分が HTML と JavaScript の操作であるため、ここでは詳細を説明しません。その代わりに、付録 A にコードを示します。
 
     > [!NOTE]
-    >  クロス元リソース共有 (CORS) を有効にすると、ユーザーがエラーが発生のように 'アクセス制御の許可-発信元' ヘッダーがありません"要求されたリソース上に存在します。 'Null' の原点は、そのためアクセスを許可しない"です。 この問題を解決するには、ポータルがインストールされているフォルダー (既定では `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)`) に HTML ファイルを配置します。 URL を使用して任意のブラウザーを使って、html、アクセス`http://<servername>/cqd/<html_file_name>`。 (ローカルの救難のダッシュ ボードの既定の URL は、 `http://<servername>/cqd.`) 
+    >  クロス元リソース共有 (CORS) を有効にすると、ユーザーがエラーが発生のように 'アクセス制御の許可-発信元' ヘッダーがありません"要求されたリソース上に存在します。 'Null' の原点は、そのためアクセスを許可しない"です。 問題を解決するには、ポータルのインストール先フォルダーの下にある HTML ファイルを配置 (既定では、する必要があります`%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)`。 URL を使用して任意のブラウザーを使って、html、アクセス`http://<servername>/cqd/<html_file_name>`。 (ローカルの救難のダッシュ ボードの既定の URL は、 `http://<servername>/cqd.`) 
 
 ### <a name="appendix-a"></a>付録 A
 

@@ -1,5 +1,6 @@
 ---
 title: Skype ビジネス サーバーのフロント エンド サーバーの VoIP コンポーネント
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
 description: ビジネス サーバーには、翻訳サービスなど、さまざまなルーティング コンポーネント、Skype でのフロント エンド サーバー上に配置されているエンタープライズ VoIP のコンポーネントについて説明します。
-ms.openlocfilehash: 5b99ea77d31f1697b0809c4089c801b2df729a29
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: caeec86f4b4a965570773ee4bc51a4e752e76e46
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888898"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892802"
 ---
 # <a name="front-end-server-voip-components-for-skype-for-business-server"></a>Skype ビジネス サーバーのフロント エンド サーバーの VoIP コンポーネント
 
@@ -66,7 +67,7 @@ Exchange UM のルーティング コンポーネントはまた、Exchange UM �
 
 ボイス メール再ルーティングを有効にするには、Exchange 管理者が Exchange UM 自動応答 (AA) メッセージだけを許可するを構成することをお勧めします。
 
-これらの機能の詳細についてを参照してください[、オンプレミス Exchange ユニファイド メッセージングの統合](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)および[エンタープライズ VoIP の復元の計画](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)では、それぞれ。
+これらの機能の詳細については、「[On-Premises Exchange Unified Messaging Integration](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)」および「[Planning for Enterprise Voice Resiliency](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)」を参照してください。
 
 ## <a name="intercluster-routing-component"></a>内部クラスター ルーティング コンポーネント
 

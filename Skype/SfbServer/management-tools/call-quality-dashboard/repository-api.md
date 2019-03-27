@@ -1,5 +1,6 @@
 ---
 title: リポジトリ API 呼び出し品質ダッシュ ボード (救難) ビジネス サーバーの Skype での
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: '概要: は、通話品質のダッシュ ボードは、リポジトリ API について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: de933063e5768b12af5ae8dc678ec7aa2da5f168
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 9181cd1454311bb5446bb18f51af56914387e7c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530914"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898811"
 ---
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>リポジトリ API 呼び出し品質ダッシュ ボード (救難) ビジネス サーバーの Skype での
  

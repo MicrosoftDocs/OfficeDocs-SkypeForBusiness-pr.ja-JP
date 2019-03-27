@@ -1,5 +1,6 @@
 ---
 title: AudioStreamDetail ビュー
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 description: AudioStreamDetail ビューは、データベース内の各オーディオ ストリームに関する情報を格納します。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 4dadc53f0641e2d59dc72b2add433c69fc9b8ad1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c5078a0d936cce0dec29ddfee3813db7334aba71
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895287"
 ---
 # <a name="audiostreamdetail-view"></a>AudioStreamDetail ビュー
  
@@ -25,8 +27,8 @@ AudioStreamDetail ビューは、データベース内の各オーディオ ス�
 |SessionTime  <br/> |datetime  <br/> |[MediaLine テーブル](medialine-0.md)から参照されています。  <br/> |
 |SessionSeq  <br/> |int  <br/> |[MediaLine テーブル](medialine-0.md)から参照されています。  <br/> |
 |StreamId  <br/> |int  <br/> |メディア ライン内で一意の ID。  <br/> |
-|開始時刻  <br/> |datetime  <br/> |セッションの開始時刻。  <br/> |
-|終了時刻  <br/> |datetime  <br/> |セッションの終了時間です。  <br/> |
+|StartTime  <br/> |datetime  <br/> |セッションの開始時刻。  <br/> |
+|EndTime  <br/> |datetime  <br/> |セッションの終了時間です。  <br/> |
 |DialogCategory  <br/> |bit  <br/> |ダイアログのカテゴリ: 0 は、Skype ビジネス サーバーの仲介サーバーのレグです。1 は、仲介サーバー PSTN ゲートウェイ レグです。  <br/> |
 |MediationServerBypassFlag  <br/> |bit  <br/> |場合に呼び出しをバイパスしないかを示すフラグを設定します。  <br/> |
 |MediaBypassWarningFlag  <br/> |int  <br/> |存在する場合は、バイパス Id が一致した場合でも理由の呼び出しをバイパスしないことを示します。 1 つの値が定義されています。  <br/> 0x0001 - 既定のネットワーク アダプターの ID を不明なバイパスします。  <br/> |
@@ -145,7 +147,7 @@ AudioStreamDetail ビューは、データベース内の各オーディオ ス�
 |RatioConcealedSamplesAvg  <br/> |decimal(5,2)  <br/> |一般的なサンプルにオーディオの修復機能によって生成された非表示の文字列のサンプルの平均比率です。  <br/> |
 |RatioStretchedSamplesAvg  <br/> |decimal(5,2)  <br/> |一般的なサンプルにオーディオの修復機能によって生成された、拡大されたサンプルの平均比率です。  <br/> |
 |RatioCompressedSamplesAvg  <br/> |decimal(5,2)  <br/> |一般的なサンプルにオーディオの修復機能によって生成される圧縮のサンプルの平均比率です。  <br/> |
-|ラウンドト リップ  <br/> |int  <br/> |RTCP の統計情報のラウンド トリップ時間です。  <br/> |
+|RoundTrip  <br/> |int  <br/> |RTCP の統計情報のラウンド トリップ時間です。  <br/> |
 |RoundTripMax  <br/> |int  <br/> |オーディオ ストリームの最大のラウンド トリップ時間です。  <br/> |
 |OverallAvgNetworkMOS  <br/> |decimal(3,2)  <br/> |広帯域ネットワーク MOS を呼び出しの平均値です。 このメトリックは、パケット損失、ジッター、および使用するコーデックによって異なります。 範囲は、1.0 に 5.0 です。  <br/> |
 |OverallMinNetworkMOS  <br/> |decimal(3,2)  <br/> |最小の広帯域ネットワーク MOS を呼び出しの。  <br/> |

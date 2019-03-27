@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 で管理者レポートを確認する
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,15 +11,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
-description: 管理者レポートは、展開と運用に関する詳細情報です。このレポートは、[サイトの設計] でマークされた選択肢に基づいて生成されます。設計者は、ネットワーク ダイアグラムを編集し、サーバー、プール、およびロード バランサーの完全な IP アドレスと完全修飾ドメイン名 (FQDN) を定義することで、管理者レポートに値を追加できます。
-ms.openlocfilehash: 1aec87246082083d981d8783d1abc31b5f96bc55
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 管理者レポートは、展開と運用に関する詳細情報です。 このレポートは、[サイトの設計] でマークされた選択肢に基づいて生成されます。 設計者は、ネットワーク ダイアグラムを編集し、サーバー、プール、およびロード バランサーの完全な IP アドレスと完全修飾ドメイン名 (FQDN) を定義することで、管理者レポートに値を追加できます。
+ms.openlocfilehash: 5cab8231428ace2a0d77132481819eed304d3519
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261589"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898195"
 ---
-# <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 で管理者レポートを確認する
+# <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Review the Administrator Reports in Skype for Business Server 2015
 
 管理者レポートは、展開と運用に関する詳細情報です。このレポートは、[**サイトの設計**] でマークされた選択肢に基づいて生成されます。設計者は、ネットワーク ダイアグラムを編集し、サーバー、プール、およびロード バランサーの完全な IP アドレスと完全修飾ドメイン名 (FQDN) を定義することで、管理者レポートに値を追加できます。
 
@@ -82,7 +83,7 @@ ms.locfileid: "23261589"
 
 DNS レポートを徹底的に調べて、展開中に問題を引き起こす可能性のある、またはトラブルシューティング セッションを複雑にする可能性のあるエラーをなくすように DNS 管理チームに指示することをお勧めします。
 
-## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
+## <a name="see-also"></a>関連項目
 <a name="DNS_Report"> </a>
 
-[管理者レポートの確認](https://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)
+[Reviewing the Administrator Reports](https://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)

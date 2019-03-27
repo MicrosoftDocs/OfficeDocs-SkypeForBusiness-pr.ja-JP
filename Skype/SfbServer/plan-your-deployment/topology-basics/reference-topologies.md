@@ -1,5 +1,6 @@
 ---
 title: Skype ビジネス サーバーのトポロジを参照
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: Skype ビジネス サーバー、図など、決定事項、中規模、大規模と小規模な組織のトポロジを参照します。
-ms.openlocfilehash: 0e59b1461b30435f77726e38bd5599cac0922c9f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 6dd4c12d400408d284a21b55d983ba655bfd7bdd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887620"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895895"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>Skype ビジネス サーバーのトポロジを参照
 
@@ -36,7 +37,7 @@ Skype ビジネス サーバー、図など、決定事項、中規模、大規�
 
 ![3 台のサーバーを展開している関連トポロジの図](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology1.jpg)
 
-- **Standard Edition サーバーの展開のペア**この組織では、セントラル サイトで 4,000 ユーザーがいます。 2 つの Standard Edition サーバーを展開する、高可用性と災害復旧を実現するためにペアになっています。 各サーバー住宅 2,000 のユーザーがすべてのユーザーに関する情報は、2 つのサーバー間で同期されます。 1 つがダウンした場合、管理者は最小限のユーザーへの影響で、他のサーバーによって提供されるそれらのユーザーをフェールオーバーできます。 ビジネス サーバーの高可用性を実現し、Skype での災害復旧の機能に関する詳細については、[高可用性とビジネスのサーバー用の Skype での災害復旧の計画](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)を参照してください。
+- **Standard Edition サーバーの展開のペア**この組織では、セントラル サイトで 4,000 ユーザーがいます。 2 つの Standard Edition サーバーを展開する、高可用性と災害復旧を実現するためにペアになっています。 Each server homes 2,000 users, but information about all users is synchronized between the two servers. If one goes down, an administrator can fail over those users to be served by the other server, with a minimum of disruption to users. ビジネス サーバーの高可用性を実現し、Skype での災害復旧の機能に関する詳細については、[高可用性とビジネスのサーバー用の Skype での災害復旧の計画](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)を参照してください。
 
 - **エッジ サーバー展開の推奨。** エッジ サーバーの展開は内部 IM、プレゼンス、会議機能に必須ではありませんが、小規模な展開の場合であってもエッジ サーバーを展開することをお勧めします。 現在、組織のファイアウォールの外部のユーザーにサービスを提供するエッジ サーバーを展開することにより、業務サーバへの投資は、Skype を最大限に活用できます。 その利点は次のとおりです。
 
@@ -48,7 +49,7 @@ Skype ビジネス サーバー、図など、決定事項、中規模、大規�
 
   - ユーザーは一部のパブリック IM サービスとインスタント メッセージのやりとりができます。
 
-- **ブランチ サイトの存続性。** この組織によっては、ビジネスのサーバーの Skype のエンタープライズ VoIP 機能のパイロット プログラムが行われています。 一部のユーザーは、唯一の音声ソリューションとしての業務サーバーの Skype を使用しています。 一部のエンタープライズ VoIP パイロット ユーザーは、ブランチ サイトに配置されます。 ブランチ サイトはありません、信頼性の高いワイド エリア ネットワーク (WAN) リンクを中央のサイトでは、リカバリ性に優れたブランチ アプライアンスの展開がありますので。 これが展開されていると、WAN リンクがダウンした場合でも、ブランチ サイトのユーザーは通話 (組織内の通話と PSTN 通話の両方) を発信および受信でき、ボイス メール機能は維持され、2 者間のインスタント メッセージング (IM) で通信できます。 また、WAN リンクが使用不可能なときでも、ユーザーを認証できます。 詳細については、 [Skype のビジネス サーバーでエンタープライズ VoIP の復元の計画](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md)を参照してください。
+- **ブランチ サイトの存続性。** この組織によっては、ビジネスのサーバーの Skype のエンタープライズ VoIP 機能のパイロット プログラムが行われています。 一部のユーザーは、唯一の音声ソリューションとしての業務サーバーの Skype を使用しています。 一部のエンタープライズ VoIP パイロット ユーザーは、ブランチ サイトに配置されます。 ブランチ サイトはありません、信頼性の高いワイド エリア ネットワーク (WAN) リンクを中央のサイトでは、リカバリ性に優れたブランチ アプライアンスの展開がありますので。 これが展開されていると、WAN リンクがダウンした場合でも、ブランチ サイトのユーザーは通話 (組織内の通話と PSTN 通話の両方) を発信および受信でき、ボイス メール機能は維持され、2 者間のインスタント メッセージング (IM) で通信できます。 また、WAN リンクが使用不可能なときでも、ユーザーを認証できます。 詳細については、「[Plan for Enterprise Voice resiliency in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md)」を参照してください。
 
 - **Exchange UM の展開。** この参照トポロジには、Exchange ユニファイド メッセージング (UM) サーバー、Microsoft Exchange Server、ビジネス サーバーの Skype ではありませんを実行するが含まれます。
 
@@ -76,7 +77,7 @@ Skype ビジネス サーバー、図など、決定事項、中規模、大規�
 
 - **エッジ サーバーの高可用性**20,000 名のユーザーにこのサンプル組織で 1 つのエッジ サーバーがパフォーマンスのための十分なでしょう。 ただし、これら 2 つのエッジ トランスポート サーバーの高可用性を提供する展開のプールを導入しています。
 
-- **ブランチ サイト展開のオプション。** このトポロジで組織には、エンタープライズ VoIP の音声への解決策として導入があります。 ブランチ サイト 1 必要はありません、弾力性のあるワイド エリア ネットワーク (WAN) リンク中央のサイトでは、多くの Skype ビジネス サーバー機能の場合に、中央サイトへの WAN リンクがダウンを維持するために展開されて、リカバリ性に優れたブランチ アプライアンスがあるためです。 ただし、ブランチ サイト 2 には回復可能な WAN リンクが存在するため、公衆交換電話網 (PSTN) ゲートウェイのみが必要となります。 そこで展開された PSTN ゲートウェイはメディア バイパスをサポートしているため、ブランチ サイト 2 では仲介サーバーが必要ありません。 詳細については、 [Skype のビジネス サーバーでエンタープライズ VoIP の復元の計画](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md)を参照してください。
+- **ブランチ サイト展開のオプション。** このトポロジで組織には、エンタープライズ VoIP の音声への解決策として導入があります。 ブランチ サイト 1 必要はありません、弾力性のあるワイド エリア ネットワーク (WAN) リンク中央のサイトでは、多くの Skype ビジネス サーバー機能の場合に、中央サイトへの WAN リンクがダウンを維持するために展開されて、リカバリ性に優れたブランチ アプライアンスがあるためです。 ただし、ブランチ サイト 2 には回復可能な WAN リンクが存在するため、公衆交換電話網 (PSTN) ゲートウェイのみが必要となります。 そこで展開された PSTN ゲートウェイはメディア バイパスをサポートしているため、ブランチ サイト 2 では仲介サーバーが必要ありません。 詳細については、「[Plan for Enterprise Voice resiliency in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md)」を参照してください。
 
 - **DNS 負荷分散。** フロントエンド プールおよびエッジ サーバー プールには、展開されている SIP トラフィックの DNS 負荷分散機能があります。 この機能によって、ロード バランサー機器は HTTP トラフィックに対してのみ必要となるため、エッジ サーバーにはロード バランサー機器が必要なくなり、その他のプールへのロード バランサー機器のセットアップおよびメンテナンスが非常に少なくなります。 詳細についてを参照してください (../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing)。
 
@@ -86,7 +87,7 @@ Skype ビジネス サーバー、図など、決定事項、中規模、大規�
 
 - **ディレクターを追加可能。** この組織は、サービス拒否攻撃に対するセキュリティを強化する場合、ディレクターのプールを展開することもできます。 ディレクターは、Skype ビジネス サーバー、ユーザー アカウントのホームまたはプレゼンスまたは会議サービスを提供していないので、省略可能な別のサーバーの役割です。 エッジ サーバーが内部サーバー宛の受信 SIP トラフィックをルーティングする内部次ホップ サーバーとして機能します。 ディレクターは受信要求を事前認証し、ユーザーのホーム プールまたはサーバーにリダイレクトします。 ディレクターでの事前認証により、展開にとって不明なユーザー アカウントからの要求を削除できます。 ディレクターは、サービス拒否 (DoS) 攻撃などの悪意のあるトラフィックからフロント エンド サーバーを隔離することができます。 ネットワークは、このような攻撃での無効な外部トラフィックであふれ、トラフィックをディレクターで終了します。
 
-- **System Center Operations Manager をお勧めします。** Skype は、エンド ・ ユーザーに対するサービスの可用性を確保するビジネス サーバーの展開の状態を監視することをお勧めします。 マイクロソフトから無償でダウンロードとして利用可能なビジネス用の Skype は、システム センター オペレーション マネージャーの管理パックを使用できます。 Skype for Business 管理パックを使用すると、問題発生時に予防的にリアルタイム通知を取得したり、代理トランザクションを実行してエンドツーエンドの Skype for Business 機能をテストしたり、サービスの可用性に関するレポートを取得したりできます。 これにより、展開で問題が発生したときに、エンドユーザーが問題に気付く前に対応することができます。
+- **System Center Operations Manager をお勧めします。** Skype は、エンド ・ ユーザーに対するサービスの可用性を確保するビジネス サーバーの展開の状態を監視することをお勧めします。 マイクロソフトから無償でダウンロードとして利用可能なビジネス用の Skype は、システム センター オペレーション マネージャーの管理パックを使用できます。 With the Skype for Business Management Pack, you can proactively get real-time alerts when issues occur, run synthetic transactions to test end-to-end Skype for Business functionality, get reports for service availability, and so on. これにより、展開で問題が発生したときに、エンドユーザーが問題に気付く前に対応することができます。
 
 ## <a name="reference-topology-for-a-large-organization"></a>大規模組織向けの関連トポロジ
 
@@ -112,11 +113,11 @@ Skype ビジネス サーバー、図など、決定事項、中規模、大規�
 
 ![トポロジ 3-4](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-4.jpg)
 
-- **災害復旧を有効にするのには、フロント エンド プールがペアリングされます。** サイト A とサイト B にあるフロント エンド プールを対応するには相互に、災害復旧のサポートを提供します。 1 つのサイトでプールが失敗した場合、管理者は最小限のユーザーのサービスの中断で、他のサイトで 1 組のフロント エンド プールには、そのサイトからのユーザーをフェールオーバーできます。 これら 2 つのフロント エンド プールは 6 台のサーバーでは、フェイル オーバーが発生した場合、両方のプール内のすべての 40,000 ユーザーには十分であります。 詳細については、[高可用性とビジネスのサーバー用の Skype での災害復旧の計画](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)を参照してください。
+- **災害復旧を有効にするのには、フロント エンド プールがペアリングされます。** サイト A とサイト B にあるフロント エンド プールを対応するには相互に、災害復旧のサポートを提供します。 1 つのサイトでプールが失敗した場合、管理者は最小限のユーザーのサービスの中断で、他のサイトで 1 組のフロント エンド プールには、そのサイトからのユーザーをフェールオーバーできます。 Each of these two Front End pools has six servers, which is enough for all 40,000 users in both pools in case of failover. 詳細については、[高可用性とビジネスのサーバー用の Skype での災害復旧の計画](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)を参照してください。
 
-- **バック エンド サーバーは、ミラーリング**基本的なユーザー機能の複数の高可用性を提供するには、組織は、各フロント エンド プールのバック エンド サーバーのミラー ・ ペアを導入しました。 これは省略可能なトポロジであり、代わりに 1 つのバック エンド サーバーを展開することもできます。 SQL クラスタリング グループと AlwaysOn 可用性グループもサポートされています。 詳細については、 [Skype のビジネス サーバーのバック エンド サーバーの高可用性](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)を参照してください。
+- **バック エンド サーバーは、ミラーリング**基本的なユーザー機能の複数の高可用性を提供するには、組織は、各フロント エンド プールのバック エンド サーバーのミラー ・ ペアを導入しました。 これは省略可能なトポロジであり、代わりに 1 つのバック エンド サーバーを展開することもできます。 SQL clustering and AlwaysOn Availability groups are also supported. For more information, see [Back End Server high availability in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
 
-- **ブランチ サイトで Standard Edition サーバーを使用しています。** サイト C には 600 の従業員しかいないため、この組織ではサイト C をブランチ サイトと見なしています。 ただし、このサイトのユーザーは、サイト内のユーザー間で多くの音声ビデオ会議を行っています。 それが配置された Skype のブランチ サイトとしてビジネスのサーバーの場合これらの会議用のメディアはサーバーをフロント エンド サーバーを展開しているセントラル サイトとの間ワイド エリア ネットワーク (WAN) 経由で実行します。 この潜在的な帯域幅の負荷を避けるためには、1 組の Standard Edition サーバーをこのサイトでは、これらの会議をホストで、インストールされています。 Standard Edition サーバーがインストールされているため、ビジネス ・ サーバーの定義での Skype であると判断セントラル サイトでは、トポロジ ビルダーおよび計画ツールで次のように扱われます。
+- **ブランチ サイトで Standard Edition サーバーを使用しています。** This organization considers Site C as a branch site because it has only 600 employees. However, the users there have many A/V conferences among themselves. それが配置された Skype のブランチ サイトとしてビジネスのサーバーの場合これらの会議用のメディアはサーバーをフロント エンド サーバーを展開しているセントラル サイトとの間ワイド エリア ネットワーク (WAN) 経由で実行します。 この潜在的な帯域幅の負荷を避けるためには、1 組の Standard Edition サーバーをこのサイトでは、これらの会議をホストで、インストールされています。 Standard Edition サーバーがインストールされているため、ビジネス ・ サーバーの定義での Skype であると判断セントラル サイトでは、トポロジ ビルダーおよび計画ツールで次のように扱われます。
 
     十分なパフォーマンスを得るためにここでは、Standard Edition サーバーを 1 つだけになりますが、組織が 2 つを展開し、ペアにそれらを組み合わせて 1 つのサーバー障害が発生した場合に、高可用性を提供します。
 
@@ -126,7 +127,7 @@ Skype ビジネス サーバー、図など、決定事項、中規模、大規�
 
 - **ブランチ サイト展開のオプション。** この組織には、実際には、詳細な図で表示されるは 2 つだけ、50 以上のブランチ サイトがあります。 ブランチ サイト 1 には、セントラル サイトへのリンクのため、電話サービス場合に、中央サイトへの WAN リンクがダウンして展開されたブランチ アプライアンスのリカバリ性に優れた弾力性のある WAN がありません。 ブランチ サイト 2 では、公衆交換電話網 (PSTN) ゲートウェイのみが必要があるため、弾力性のある WAN リンクでは、ただしが。 そこで展開された PSTN ゲートウェイはメディア バイパスをサポートしているため、ブランチ サイト 2 では仲介サーバーが必要ありません。 支店サイトにあるインストール内容を決定する詳細については、 [Skype のビジネス サーバーでエンタープライズ VoIP の復元の計画](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md)を参照してください。
 
-- **SIP トランキングと仲介サーバー。** 中央サイト B では、仲介サーバーはフロントエンド サーバーと併置されません。 これは、SIP トランキングを使用するサイトには、スタンドアロンの仲介サーバーが推奨されるためです。 その他のほとんどのインスタンスでは、仲介サーバーをフロントエンド サーバーと併置することが推奨されます。 仲介サーバー トポロジの詳細については、計画ドキュメントの[コンポーネントと仲介サーバーのトポロジ](https://technet.microsoft.com/library/71397168-36c3-4d21-b8ef-db6a751634ee.aspx)を参照してください。
+- **SIP トランキングと仲介サーバー。** 中央サイト B では、仲介サーバーはフロントエンド サーバーと併置されません。 これは、SIP トランキングを使用するサイトには、スタンドアロンの仲介サーバーが推奨されるためです。 その他のほとんどのインスタンスでは、仲介サーバーをフロントエンド サーバーと併置することが推奨されます。 仲介サーバーのトポロジの詳細については、「計画」ドキュメントの「[Components and Topologies for Mediation Server](https://technet.microsoft.com/library/71397168-36c3-4d21-b8ef-db6a751634ee.aspx)」を参照してください。
 
 - **常設チャットが展開されている。** この組織は、常設チャットを有効にするために必要なサーバーを展開しています。 まず、プール内のユーザーの負荷に対処し、高可用性を実現するために、複数の常設チャット フロントエンド サーバーを展開しています。 また、常設チャットのコンプライアンスを展開し、常設チャット ストアと常設チャット コンプライアンス ストアを別々のサーバーに配置しています。 これらのストアを併置することも、これらをバックエンド サーバーと併置することもできますが、この組織では、パフォーマンスを高めるためにこれらを分離しています。
 
@@ -145,6 +146,6 @@ Skype ビジネス サーバー、図など、決定事項、中規模、大規�
 
 - **ディレクターを追加可能。** この組織では、サービス拒否攻撃に対するセキュリティを強化するためにディレクターのプールを展開することもできます。 ディレクターは、Skype ビジネス サーバー、ユーザー アカウントのホームまたはプレゼンスまたは会議サービスを提供していないので、省略可能な別のサーバーの役割です。 エッジ サーバーが内部サーバー宛の受信 SIP トラフィックをルーティングする内部次ホップ サーバーとして機能します。 ディレクターは受信要求を事前認証し、ユーザーのホーム プールまたはサーバーにリダイレクトします。 ディレクターでの事前認証により、展開にとって不明なユーザー アカウントからの要求を削除できます。 ディレクターは、サービス拒否 (DoS) 攻撃などの悪意のあるトラフィックからフロント エンド サーバーを隔離することができます。 ネットワークは、このような攻撃での無効な外部トラフィックであふれ、トラフィックをディレクターで終了します。
 
-- **System Center Operations Manager をお勧めします。** Skype は、エンド ・ ユーザーに対するサービスの可用性を確保するビジネス サーバーの展開の状態を監視することをお勧めします。 マイクロソフトから無償でダウンロードとして利用可能なビジネス用の Skype は、システム センター オペレーション マネージャーの管理パックを使用できます。 Skype for Business 管理パックを使用すると、問題発生時に予防的にリアルタイム通知を取得したり、代理トランザクションを実行してエンドツーエンドの Skype for Business 機能をテストしたり、サービスの可用性に関するレポートを取得したりできます。 これにより、展開で問題が発生したときに、エンドユーザーが問題に気付く前に対応することができます。
+- **System Center Operations Manager をお勧めします。** Skype は、エンド ・ ユーザーに対するサービスの可用性を確保するビジネス サーバーの展開の状態を監視することをお勧めします。 マイクロソフトから無償でダウンロードとして利用可能なビジネス用の Skype は、システム センター オペレーション マネージャーの管理パックを使用できます。 With the Skype for Business Management Pack, you can proactively get real-time alerts when issues occur, run synthetic transactions to test end-to-end Skype for Business functionality, get reports for service availability, and so on. This helps you to proactively respond to issues with your deployment before end-users experience them.
 
 

@@ -1,5 +1,6 @@
 ---
 title: Skype のビジネス サーバー (CDR) を記録する詳細を呼び出す
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
 description: '概要: は、Skype のビジネスのサーバーが使用する (CDR) のレコードを記録する呼び出しの詳細について説明します。'
-ms.openlocfilehash: 77462b87bb7e4f368a2af3f32069c2893ad4f234
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 11631acc14c47dfb10d33fa761bf6362d00ca049
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966553"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890960"
 ---
 # <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>Skype のビジネス サーバー (CDR) を記録する詳細を呼び出す
  

@@ -1,5 +1,6 @@
 ---
 title: Microsoft Teams でのミーティングと会議
+ms.reviewer: ''
 description: ここに示す展開のリソースを使用して、Microsoft Teams でのミーティングを展開します。
 ms.topic: article
 author: LolaJacobsen
@@ -14,12 +15,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d6554a641fe9abc02461fac891a3bb4fc5a9440
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: afd7e15f759caafdc76dc2f20777f4d3ab66d672
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461093"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889770"
 ---
 # <a name="meetings--conferencing-in-microsoft-teams"></a>Microsoft Teams でのミーティングと会議
 
@@ -49,7 +50,7 @@ Teams の最高のエクスペリエンスを実現する場合、組織は Exch
 
 | 確認事項 | アクション |
 |--------------|--------|
-|Teams のミーティングの展開にネットワークが対応しているか? | ネットワークの対応状況を確認するには、次を参照してください。<ul><li>[Microsoft Teams 用に組織のネットワークを準備する](https://docs.microsoft.com/en-us/MicrosoftTeams/prepare-network)</li><li>[Office 365 の URL と IP アドレスの範囲](https://docs.microsoft.com/en-us/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|Teams のミーティングの展開にネットワークが対応しているか? | ネットワークの対応状況を確認するには、次を参照してください。<ul><li>[Microsoft Teams 用に組織のネットワークを準備する](https://docs.microsoft.com/ja-JP/MicrosoftTeams/prepare-network)</li><li>[Office 365 の URL と IP アドレスの範囲](https://docs.microsoft.com/ja-JP/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>展開に関する重要な決定事項

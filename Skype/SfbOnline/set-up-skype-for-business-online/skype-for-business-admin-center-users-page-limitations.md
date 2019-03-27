@@ -1,5 +1,6 @@
 ---
 title: Skype ビジネス オンライン管理センターのユーザーの制限事項をページします。
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Skype のユーザーのオンライン ビジネスの管理の表示のための制限内で作業する方法を説明します。 '
-ms.openlocfilehash: 1f8a3c98e218b3d536c21bbfdd0efe7cecf3806b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 37ef56ff8301586fbdf22d21830e22ff235ca1df
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862997"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896910"
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Skype ビジネス オンライン管理センターのユーザーの制限事項をページします。
 
@@ -41,10 +42,10 @@ ms.locfileid: "23862997"
   
 ![ユーザー用のページ ナビゲーション、ページ上のユーザーの量を変更します。](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 
-[Skype for Business ユーザーが Skype 連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
+[Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
 
   
  

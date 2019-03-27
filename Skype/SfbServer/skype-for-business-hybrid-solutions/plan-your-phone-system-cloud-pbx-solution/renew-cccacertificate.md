@@ -1,5 +1,6 @@
 ---
-title: 更新 CcCACertificate
+title: Renew-CcCACertificate
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44da2f8d-0bf5-4f3e-b2e7-bb181dbbe646
 description: Renew-CcCACertificate コマンドレットは、有効期限が近づいている、またはすでに有効期限が切れている Skype for Business Cloud Connector エディションのルート CA 証明書を更新します。 このコマンドは、クラウド コネクタ 2.0 およびそれ以降のリリースで更新プログラムを CcCACertificate に変更されました。
-ms.openlocfilehash: bfcf7c69e27af8ebf83c85a8c90cc46491fbc454
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 616abb35d577b816368854396a201b9f07b40d12
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893863"
 ---
-# <a name="renew-cccacertificate"></a>更新 CcCACertificate
+# <a name="renew-cccacertificate"></a>Renew-CcCACertificate
  
 Renew-CcCACertificate コマンドレットは、有効期限が近づいている、またはすでに有効期限が切れている Skype for Business Cloud Connector エディションのルート CA 証明書を更新します。 このコマンドは、クラウド コネクタ 2.0 およびそれ以降のリリースで更新プログラムを CcCACertificate に変更されました。
   
@@ -63,10 +65,10 @@ Cloud Connector のルート CA 証明書は証明機関サービスをインス
 ## <a name="see-also"></a>関連項目
 <a name="ReturnTypes"> </a>
 
-[リセット CcCACertificate](reset-cccacertificate.md)
+[Reset-CcCACertificate](reset-cccacertificate.md)
   
-[更新 CcServerCertificate](renew-ccservercertificate.md)
+[Renew-CcServerCertificate](renew-ccservercertificate.md)
   
-[エクスポート CcRootCertificate](export-ccrootcertificate.md)
+[Export-CcRootCertificate](export-ccrootcertificate.md)
   
 

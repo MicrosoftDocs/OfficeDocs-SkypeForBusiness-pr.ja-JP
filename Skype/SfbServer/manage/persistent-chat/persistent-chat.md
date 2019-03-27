@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 での常設チャット サーバーの管理
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c58ee4f4-563b-4d0c-be91-c62df886caa9
 description: '概要: ビジネス サーバー 2015 の Skype での永続的なチャット サーバーを管理する方法を説明します。'
-ms.openlocfilehash: 2511de09c321c70d73d824f5fc94bf21fa674131
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f6bd3f9e1364f4dd5b347e65a0a5799e66a97b33
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967899"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899110"
 ---
 # <a name="manage-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバーの管理
  
@@ -36,27 +37,27 @@ ms.locfileid: "20967899"
     
 3. 左側のナビゲーション ・ バーでは、**永続的なチャット**をクリックします。
     
-次の表は、永続的なチャット サーバーを管理するために利用可能な Windows PowerShell コマンドレットをまとめたものです。 などのすべての利用可能なパラメーターの構文の詳細については、 [Skype ビジネス サーバー 2015 管理シェルに](../management-shell.md)を参照してください。
+次の表は、永続的なチャット サーバーを管理するために利用可能な Windows PowerShell コマンドレットをまとめたものです。 使用できるすべてのパラメーターを含む構文の詳細については、「[Skype for Business Server 2015 Management Shell](../management-shell.md)」を参照してください。
   
 
 |**コマンドレット**|**説明**|
 |:-----|:-----|
-|新しい-CsPersistentChatCategory  <br/> |新しいカテゴリを作成する  <br/> |
-|セット CsPersistentChatCategory  <br/> |既存のカテゴリの設定を構成する  <br/> |
-|Get CsPersistentChatCategory  <br/> |カテゴリに関する情報を取得する  <br/> |
-|削除 CsPersistentChatCategory  <br/> |カテゴリを削除する  <br/> |
-|新しい-CsPersistentChatRoom  <br/> |新しいチャット ルームを作成する  <br/> |
-|セット CsPersistentChatRoom  <br/> |既存のルームの設定を構成し、ユーザーおよびユーザー グループをルームに割り当てる  <br/> |
-|Get CsPersistentChatRoom  <br/> |ルームについての情報を取得します。  <br/> |
-|クリア CsPersistentChatRoom  <br/> |ルームをクリアするか、またはルームからメッセージをクリアする  <br/> |
-|削除 CsPersistentChatRoom  <br/> |ルームを削除する  <br/> |
-|削除 CsPersistentChatMessage  <br/> |ルームからメッセージを削除する  <br/> |
-|新しい-CsPersistentChatAddin  <br/> |新しいアドインを作成する  <br/> |
-|セット CsPersistentChatAddin  <br/> |既存のアドインの設定を構成する  <br/> |
-|Get CsPersistentChatAddin  <br/> |アドインに関する情報を取得する  <br/> |
-|削除 CsPersistentChatAddin  <br/> |アドインを削除する  <br/> |
-|セット CsPersistentChatComplianceConfiguration  <br/> |コンプライアンス構成設定の既存のコレクションを変更する  <br/> |
-|エクスポート CsPersistentChatData  <br/> |常設チャット データベースからデータをエクスポートする  <br/> |
-|インポート-CsPersistentChatData  <br/> |以前のバージョンの Lync Server からエクスポートされたデータをインポートする  <br/> |
+|New-CsPersistentChatCategory  <br/> |新しいカテゴリを作成する  <br/> |
+|Set-CsPersistentChatCategory  <br/> |既存のカテゴリの設定を構成する  <br/> |
+|Get-CsPersistentChatCategory  <br/> |カテゴリに関する情報を取得する  <br/> |
+|Remove-CsPersistentChatCategory  <br/> |カテゴリを削除する  <br/> |
+|New-CsPersistentChatRoom  <br/> |新しいチャット ルームを作成する  <br/> |
+|Set-CsPersistentChatRoom  <br/> |既存のルームの設定を構成し、ユーザーおよびユーザー グループをルームに割り当てる  <br/> |
+|Get-CsPersistentChatRoom  <br/> |ルームについての情報を取得します。  <br/> |
+|Clear-CsPersistentChatRoom  <br/> |ルームをクリアするか、またはルームからメッセージをクリアする  <br/> |
+|Remove-CsPersistentChatRoom  <br/> |ルームを削除する  <br/> |
+|Remove-CsPersistentChatMessage  <br/> |ルームからメッセージを削除する  <br/> |
+|New-CsPersistentChatAddin  <br/> |新しいアドインを作成する  <br/> |
+|Set-CsPersistentChatAddin  <br/> |既存のアドインの設定を構成する  <br/> |
+|Get-CsPersistentChatAddin  <br/> |アドインに関する情報を取得する  <br/> |
+|Remove-CsPersistentChatAddin  <br/> |アドインを削除する  <br/> |
+|Set-CsPersistentChatComplianceConfiguration  <br/> |コンプライアンス構成設定の既存のコレクションを変更する  <br/> |
+|Export-CsPersistentChatData  <br/> |常設チャット データベースからデータをエクスポートする  <br/> |
+|Import-CsPersistentChatData  <br/> |以前のバージョンの Lync Server からエクスポートされたデータをインポートする  <br/> |
    
 

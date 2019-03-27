@@ -1,5 +1,6 @@
 ---
-title: リセット CcCACertificate
+title: Reset-CcCACertificate
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -9,16 +10,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ada7e55-df9b-4b4e-b752-2468f4e28b8a
-description: リセット CcCACertificate コマンドレットは、新しいルート CA 証明書を作成するのには、証明機関サービス AD サーバーを再インストールします。
-ms.openlocfilehash: dc86c39e844accc789ba7a3503aa6261d40e5cb2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Reset-CcCACertificate コマンドレットは、証明機関サービスの AD サーバーを再インストールして、新しいルート CA 証明書を作成します。
+ms.openlocfilehash: 1ed9aaa8b7caf1edd5324d082094fa247c858853
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898537"
 ---
-# <a name="reset-cccacertificate"></a>リセット CcCACertificate
+# <a name="reset-cccacertificate"></a>Reset-CcCACertificate
  
-リセット CcCACertificate コマンドレットは、新しいルート CA 証明書を作成するのには、証明機関サービス AD サーバーを再インストールします。
+Reset-CcCACertificate コマンドレットは、証明機関サービスの AD サーバーを再インストールして、新しいルート CA 証明書を作成します。
   
 ```
 Reset-CcCACertificate
@@ -59,14 +61,14 @@ Reset-CcCACertificate
 ## <a name="see-also"></a>関連項目
 <a name="ReturnTypes"> </a>
 
-[更新 CcCACertificate](renew-cccacertificate.md)バージョン 1.4.2 のみ
+[Renew-CcCACertificate](renew-cccacertificate.md) バージョン 1.4.2 のみ
   
-[更新 CcServerCertificate](renew-ccservercertificate.md)バージョン 1.4.2 のみ
+[Renew-CcServerCertificate](renew-ccservercertificate.md) バージョン 1.4.2 のみ
   
-[更新 CcCACertificate](update-cccacertificate.md)バージョン 2.0 以降では
+[Update-CcCACertificate](update-cccacertificate.md) バージョン 2.0 以降
   
 [更新 CcServerCertificate](renew-ccservercertificate.md)バージョン 2.0 以降では
   
-[エクスポート CcRootCertificate](export-ccrootcertificate.md)
+[Export-CcRootCertificate](export-ccrootcertificate.md)
   
 

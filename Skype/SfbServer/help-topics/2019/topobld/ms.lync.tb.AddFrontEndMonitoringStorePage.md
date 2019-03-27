@@ -1,5 +1,6 @@
 ---
-title: フロント エンドの監視ストアのページを追加します。
+title: フロントエンド監視ストアの追加ページ
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 次のプロパティを構成することによって SQL Server の監視ストアを定義します。
-ms.openlocfilehash: 14528aeb86d34f96d54d3cf4088ea8d2b08dfd88
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 2de5788c52f91a2ef2395aaa3c1f580170f1c765
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21065342"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896841"
 ---
-# <a name="add-front-end-monitoring-store-page"></a>フロント エンドの監視ストアのページを追加します。
+# <a name="add-front-end-monitoring-store-page"></a>フロントエンド監視ストアの追加ページ
  
 次のプロパティを構成することによって**SQL Server の監視ストアを定義**します。
   

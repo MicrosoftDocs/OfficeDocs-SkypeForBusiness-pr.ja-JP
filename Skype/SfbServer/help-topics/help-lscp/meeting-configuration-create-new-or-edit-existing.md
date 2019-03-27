@@ -1,5 +1,6 @@
 ---
 title: 会議設定の新規作成または既存の編集
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,13 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
-description: 会議の構成の設定では、ユーザーによってスケジュールされている会議にユーザーが参加するときの操作方法を定義します。これらの設定は、スケジュールされている会議にのみ適用されます。クライアントの [今すぐミーティング] オプションをクリックして作成されるアドホック会議には適用されません。
-ms.openlocfilehash: e67381ff779b7ef410e1a9accc9dc2e7791c2e43
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 会議の構成の設定では、ユーザーによってスケジュールされている会議にユーザーが参加するときの操作方法を定義します。 これらの設定は、スケジュールされている会議にのみ適用されます。 これらの設定は、クライアントで [今すぐミーティング] オプションをクリックして作成された臨時の会議には適用されません。
+ms.openlocfilehash: bb2b81aa860660503522783d3ed3a3aa9ec09985
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244203"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30926505"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>会議構成: 新規作成または現在の形式のままで編集
 
@@ -53,6 +54,6 @@ ms.locfileid: "23244203"
 
 - **カスタム フッターのテキスト**カスタム会議出席依頼で使用するテキストを入力します。
 
-会議の構成の操作の詳細についてを参照してください[を作成する、または会議の構成設定のコレクションを変更する](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx)の操作マニュアルを参照。 大規模な会議の会議構成の設定に関する詳細については、計画ドキュメントに[大規模な会議のサポートを設定](https://technet.microsoft.com/library/8e22d34b-b395-408d-9d48-8f2a3abe9513.aspx)を参照してください。
+会議構成の使用の詳細については、「操作」のドキュメントの「[Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx)」を参照してください。大規模ミーティングの会議構成の設定については、「計画」のドキュメントの「[Setting Up Support for Large Meetings](https://technet.microsoft.com/library/8e22d34b-b395-408d-9d48-8f2a3abe9513.aspx)」を参照してください。
 
 

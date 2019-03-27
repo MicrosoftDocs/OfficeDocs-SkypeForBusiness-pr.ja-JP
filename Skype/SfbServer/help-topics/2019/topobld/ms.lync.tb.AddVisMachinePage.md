@@ -1,5 +1,6 @@
 ---
 title: VIS コンピューターの追加
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: acf278d6-36bc-4cfe-839e-54149e72dc1d
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順についてはオンライン Skype で VIS プールを作成するビジネス サーバーのください。
-ms.openlocfilehash: 147413046bdaa4cfeca2992b452241fe1697c3ee
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: b77dc6109bba1a4092f2569525d98b0533641291
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21064351"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897525"
 ---
 # <a name="add-vis-machine"></a>VIS コンピューターの追加
  

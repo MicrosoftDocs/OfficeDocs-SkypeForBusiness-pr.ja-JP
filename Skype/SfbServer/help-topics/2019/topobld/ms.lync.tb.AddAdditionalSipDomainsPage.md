@@ -1,5 +1,6 @@
 ---
-title: その他の SIP ドメインを追加します。
+title: 追加の SIP ドメインの追加
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: ece37fc3-365a-439e-ad03-800f8e7a33eb
 ROBOTS: NOINDEX, NOFOLLOW
 description: 展開をサポートしたい各追加のドメインのドメイン名を指定します。 たとえば、プライマリ セッション開始プロトコル (SIP) ドメインとして contoso.net を指定すると、配置内の SIP トラフィックの fabrikam.net をサポートする、サポートされている追加のドメインとして fabrikam.net を指定します。
-ms.openlocfilehash: f9d137f311bcf6e48949afb41e197fda20771558
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: b4813b74c35cda6be8a5e479444b3309e0634c2f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21067777"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888802"
 ---
-# <a name="add-additional-sip-domains"></a>その他の SIP ドメインを追加します。
+# <a name="add-additional-sip-domains"></a>追加の SIP ドメインの追加
  
 展開をサポートしたい各追加のドメインのドメイン名を指定します。 たとえば、プライマリ セッション開始プロトコル (SIP) ドメインとして contoso.net を指定すると、配置内の SIP トラフィックの fabrikam.net をサポートする、サポートされている追加のドメインとして fabrikam.net を指定します。
   

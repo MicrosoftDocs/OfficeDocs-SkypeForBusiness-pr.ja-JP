@@ -1,5 +1,6 @@
 ---
 title: ビジネス用の Skype で応答グループの展開のプロセス
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: 展開プロセスとビジネス サーバーのエンタープライズ VoIP の Skype で応答グループの手順を実行します。
-ms.openlocfilehash: 290db10e0a306217462015c43d9abb68e18ccb8a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 83438ec17bd78a60afbc08a1c72ef84469218652
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884183"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897936"
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>ビジネス用の Skype で応答グループの展開のプロセス
 
@@ -111,9 +112,9 @@ Yi、Meng、または Zang の文字をサポートするには、Rgsconfig デ�
 
 - dbo.HolidaySets
 
-- dbo.キュー
+- dbo.Queues
 
-- dbo.ワークフロー
+- dbo.Workflows
 
 SQL Server 2008 R2 および SQL Server 2012 を使用して、Latin_General_100 (アクセントを区別) の照合順序です。 この照合順序を使用する場合は、どのオブジェクト名も大文字と小文字は区別されません。
 
@@ -133,10 +134,10 @@ SQL Server 2008 R2 および SQL Server 2012 を使用して、Latin_General_100
 
 |**段階**|**手順**|**アクセス許可**|**「展開」のドキュメント**|
 |:-----|:-----|:-----|:-----|
-|ビジネスおよびエンタープライズ VoIP の Skype のユーザーを有効にします。  <br/> |ビジネスおよびエンタープライズ VoIP の Skype のエージェントとなるユーザーを有効にします。 ユーザーをエージェント グループに追加する前に、ユーザーを有効にする必要があります。 通常、ユーザーは、ビジネスの Skype の Enterprise Edition または Standard Edition サーバーの展開時に有効です。 ユーザーは、エンタープライズ VoIP の展開中にエンタープライズ VoIP に対して有効です。  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[有効にするか、Lync Server 2013 プレビューを表示するユーザーを無効にします。](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx) <br/> [ビジネス サーバーの Skype でエンタープライズ VoIP のユーザーを有効にします。](enable-users-for-enterprise-voice.md) <br/> |
-|エージェント グループ、キュー、ワークフローから構成される応答グループを作成および構成する  <br/> |1。 には、次のビジネス サーバーのコントロール パネルまたはビジネス サーバー管理シェルの Skype、Skype を使用します。  <br/> a. エージェント グループを作成して構成する  <br/> b. キューを作成して構成する  <br/> 2. 必要に応じて、グループの業務時間や休日の定義済みの応答を作成するのにビジネス サーバー管理シェルの Skype を使用します。  <br/> 3. 使用ワークフロー (ハント グループまたは対話型音声応答 (IVR) 通話フロー) を作成するには、応答グループ構成ツールまたはビジネス サーバー管理シェルの Skype は、カスタムの応答グループ営業時間および休日を含みます。  <br/> Skype を通じてビジネス サーバーのコントロール パネルの応答グループ構成ツールにアクセスできます。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[応答グループ エージェント グループを作成します。](https://technet.microsoft.com/library/2a80de17-ead0-46e8-8a27-7a4e233dbde0.aspx) <br/> [応答グループ キューを作成します。](https://technet.microsoft.com/library/49cb86c7-2cfd-4a53-8408-d407475174ed.aspx) <br/> [(省略可能)ビジネス用の Skype を定義する応答グループの営業時間](optional-define-response-group-business-hours.md) <br/> [(省略可能)ビジネス用の Skype を定義する応答グループ休日を設定します。](optional-define-response-group-holiday-sets.md) <br/> [設計とビジネス用の Skype で応答グループ ワークフローを作成します。](designing-and-creating-response-group-workflows.md) <br/> |
+|ビジネスおよびエンタープライズ VoIP の Skype のユーザーを有効にします。  <br/> |ビジネスおよびエンタープライズ VoIP の Skype のエージェントとなるユーザーを有効にします。 ユーザーをエージェント グループに追加する前に、ユーザーを有効にする必要があります。 通常、ユーザーは、ビジネスの Skype の Enterprise Edition または Standard Edition サーバーの展開時に有効です。 ユーザーは、エンタープライズ VoIP の展開中にエンタープライズ VoIP に対して有効です。  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[Enable or Disable Users for Lync Server 2013 Preview](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx) <br/> [ビジネス サーバーの Skype でエンタープライズ VoIP のユーザーを有効にします。](enable-users-for-enterprise-voice.md) <br/> |
+|エージェント グループ、キュー、ワークフローから構成される応答グループを作成および構成する  <br/> |1。 には、次のビジネス サーバーのコントロール パネルまたはビジネス サーバー管理シェルの Skype、Skype を使用します。  <br/> a. エージェント グループを作成して構成する  <br/> b. キューを作成して構成する  <br/> 2. 必要に応じて、グループの業務時間や休日の定義済みの応答を作成するのにビジネス サーバー管理シェルの Skype を使用します。  <br/> 3. 使用ワークフロー (ハント グループまたは対話型音声応答 (IVR) 通話フロー) を作成するには、応答グループ構成ツールまたはビジネス サーバー管理シェルの Skype は、カスタムの応答グループ営業時間および休日を含みます。  <br/> Skype を通じてビジネス サーバーのコントロール パネルの応答グループ構成ツールにアクセスできます。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[Create Response Group Agent Groups](https://technet.microsoft.com/library/2a80de17-ead0-46e8-8a27-7a4e233dbde0.aspx) <br/> [Create Response Group Queues](https://technet.microsoft.com/library/49cb86c7-2cfd-4a53-8408-d407475174ed.aspx) <br/> [(省略可能)ビジネス用の Skype を定義する応答グループの営業時間](optional-define-response-group-business-hours.md) <br/> [(省略可能)ビジネス用の Skype を定義する応答グループ休日を設定します。](optional-define-response-group-holiday-sets.md) <br/> [設計とビジネス用の Skype で応答グループ ワークフローを作成します。](designing-and-creating-response-group-workflows.md) <br/> |
 |(オプション) アプリケーションレベルの設定をカスタマイズする  <br/> |Skype ビジネス サーバー管理シェルを使用すると、既定の音楽-保留中の構成、既定の音楽-保留中のオーディオ ファイル、エージェント リングバックの猶予期間、および呼び出しのコンテキストの構成をカスタマイズできます。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[ビジネス用の Skype のアプリケーション レベルの応答グループの設定を管理します。](managing-application-level-response-group-settings.md) <br/> |
-|(オプション) 応答グループの管理を委任する  <br/> |ユーザーに CsResponseGroupManager ロールを割り当て、応答グループの構成を委任します。 応答グループ マネージャーは、割り当てられている応答グループを構成できます。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[ロール ベースのアクセス制御のための計画](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx) <br/> |
+|(オプション) 応答グループの管理を委任する  <br/> |ユーザーに CsResponseGroupManager ロールを割り当て、応答グループの構成を委任します。 応答グループ マネージャーは、割り当てられている応答グループを構成できます。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Planning for Role-Based Access Control](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx) <br/> |
 |応答グループ展開を検証する  <br/> |ハント グループ ワークフローおよび対話型音声応答ワークフローに対する通話への応答をテストして、構成が正常に機能していることを確認します。  <br/> |-  <br/> |-  <br/> |
 
 ## <a name="overview-of-workflow-creation-scenarios"></a>ワークフロー作成のシナリオの概要

@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 の集中ログ サービスの構成設定の管理
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 概要では、取得、更新、およびビジネス サーバー 2015 の Skype で集中ログ サービスの構成設定を作成する方法について説明します。
-ms.openlocfilehash: 62902a25e50043f2e03eda907f4ba572249b1a60
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 1aab363f88b7639e2eb61f9101864bac20cc0aa0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375602"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896932"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の集中ログ サービスの構成設定の管理
 
@@ -41,7 +42,7 @@ ms.locfileid: "25375602"
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "<Skype for Business cmdlet>"}
 ```
 
-例:
+次に例を示します。
 
 ```
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
@@ -185,12 +186,12 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 [Skype for Business Server 2015 での集中ログ サービスのシナリオの構成](configure-scenarios.md)
 
-[Skype for Business 2015 の集中ログ サービス](centralized-logging-service.md)
+[Centralized Logging Service in Skype for Business 2015](centralized-logging-service.md)
 
-[セット CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps)
+[Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps)
 
-[Get CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csclsconfiguration?view=skype-ps)
+[Get-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csclsconfiguration?view=skype-ps)
 
-[新しい-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csclsconfiguration?view=skype-ps)
+[New-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csclsconfiguration?view=skype-ps)
 
 [削除 CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csclsconfiguration?view=skype-ps)

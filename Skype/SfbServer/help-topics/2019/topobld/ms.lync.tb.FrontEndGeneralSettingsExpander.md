@@ -1,5 +1,6 @@
 ---
 title: フロントエンド全般設定エキスパンダー
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 既存のフロントエンド プールまたは Standard Edition サーバーの設定を編集するには、以下のセクションに示す手順に従って操作します。
-ms.openlocfilehash: 37afa0403dbdf81791233c5ac091d5e07c152a07
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 1b28f3921042bcd8d0f8f99cd0b5950c190ef79d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243243"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890509"
 ---
 # <a name="front-end-general-settings-expander"></a>フロントエンド全般設定エキスパンダー
 
@@ -33,7 +34,7 @@ ms.locfileid: "23243243"
 
 ## <a name="front-end-pool"></a>フロントエンド プール
 
-フロントエンド プールには、全般、復元、Web サービス、および仲介サーバーの設定を構成できます。 詳細については、以下のサブセクションを参照してください。 詳細を定義して、フロント エンド プールの設定の構成については、[仲介サーバーの展開、および同等の定義](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)を参照してください。
+フロントエンド プールには、全般、復元、Web サービス、および仲介サーバーの設定を構成できます。詳細については、以下のサブセクションを参照してください。フロントエンド プールの設定の定義および構成の詳細については、「[Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)」を参照してください。
 
 ### <a name="general-settings"></a>全般設定
 
@@ -124,17 +125,17 @@ ms.locfileid: "23243243"
 
 - 仲介サーバーに関連付けられたトランクが複数ある場合は、ゲートウェイを選択してから [**既定値にする**] をクリックすることにより、既定のトランクを指定できます。既定としてのゲートウェイを選択解除するには、[**既定値の解除**] をクリックします。
 
-詳細を定義して、フロント エンド プールの設定の構成については、[仲介サーバーの展開、および同等の定義](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)を参照してください。
+フロントエンド プールの設定の定義および構成の詳細については、「[Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)」を参照してください。
 
 ## <a name="standard-edition-server"></a>Standard Edition サーバー
 
-Standard Edition サーバーには、全般、復元、Web サービス、および仲介サーバーの設定を構成できます。 詳細については、以下のサブセクションを参照してください。 詳細を定義し、Standard Edition サーバーの設定の構成について[を定義してトポロジの構成](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx)、および[仲介サーバーの展開、および同等の定義](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)を参照してください。
+Standard Edition サーバーには、全般、復元、Web サービス、および仲介サーバーの設定を構成できます。詳細については、以下のサブセクションを参照してください。Standard Edition サーバーの設定の定義および構成の詳細については、「[Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx)」および「[Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)」を参照してください。
 
 ### <a name="general-settings"></a>全般設定
 
 以下の全般設定を構成できます。
 
-- [**FQDN**]。 FQDN を変更できないことに注意してください。 削除し、それに関連付けられた FQDN を変更するのには Standard Edition サーバーを再定義する必要があります。
+- [**FQDN**]。 Note that the FQDN cannot be changed. You must remove and redefine the Standard Edition server to change the FQDN associated with it.
 
 - [**すべての構成済み IP アドレスを使用する**] または [**選択された IP アドレスのみにサービスの使用を制限する**] を選択します。定義済みの IP アドレスにサービスを制限する設定を選択する場合は、PSTN の場合を除いて、すべての通信でサーバーが使用するプライマリ IP アドレスを定義します。PSTN 使用には、別の IP アドレスを定義します。[**IPv6 を有効にする**] を選択して、このサーバーに対して IPv6 を有効にすることもできます。
 
@@ -203,6 +204,6 @@ Standard Edition サーバーには、全般、復元、Web サービス、お�
 
 - 仲介サーバーに関連付けられたゲートウェイが複数ある場合は、ゲートウェイを選択してから [**既定値にする**] をクリックすることにより、既定のゲートウェイを指定できます。既定としてのゲートウェイを選択解除するには、[**既定値の解除**] をクリックします。
 
-詳細を定義し、Standard Edition サーバーの設定の構成について[を定義してトポロジの構成](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx)、および[仲介サーバーの展開、および同等の定義](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)を参照してください。
+Standard Edition サーバーの設定の定義および構成の詳細については、「[Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx)」および「[Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)」を参照してください。
 
 

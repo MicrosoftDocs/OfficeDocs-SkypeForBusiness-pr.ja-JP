@@ -1,5 +1,6 @@
 ---
 title: チーム PowerShell の概要
+ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -12,12 +13,12 @@ ms.collection:
 description: PowerShell のコントロールを使用して、マイクロソフトのチームを管理するために説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d1bf3c0c29b9720e0199377b92371468e3a7a52
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 497aeba1e339e3c079de9eb4a23182e8f727f278
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649485"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897204"
 ---
 # <a name="teams-powershell-overview"></a>チーム PowerShell の概要
 

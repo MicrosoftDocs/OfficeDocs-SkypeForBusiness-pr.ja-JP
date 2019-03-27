@@ -1,5 +1,6 @@
 ---
 title: リモート ユーザー アクセスを制御するポリシーの構成
+ms.reviewer: ''
 ms:assetid: 8f556849-692b-44a0-9514-4468fc9a39d0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398725(v=OCS.15)
 ms:contentKeyID: 48184825
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: リモート ユーザーがビジネスのサーバーのユーザーの内部の Skype で共同作業を行うかどうかは、コントロールに 1 つまたは複数の外部ユーザー アクセス ポリシーを構成します。 リモート ユーザー アクセスを制御するには、グローバル ポリシー、サイト、およびユーザー レベルを構成できます。
-ms.openlocfilehash: 7b8fdd83859b03d659d8fa346e0d2aa459c04ac6
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: f6d316f022e671bc7f7e70ebbe2a801b0b3e312c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222948"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899534"
 ---
 # <a name="configure-policies-to-control-remote-user-access-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのリモート ユーザー アクセスを制御するポリシーを構成します。
 
@@ -59,7 +60,7 @@ ms.locfileid: "27222948"
     
       - ポリシーのリモート ユーザー アクセスを無効にするには、**リモート ユーザーとの通信を有効にする**] チェック ボックスをオフにします。
 
-7.  [**確定**] をクリックします。
+7.  [**コミット**] をクリックします。
 
 リモート ユーザー アクセスを有効にするも、組織内のリモート ユーザー アクセスのサポートを有効にする必要があります。 詳細については、[有効にするかフェデレーションとパブリック IM 接続を無効にする](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)を参照してください。
 
