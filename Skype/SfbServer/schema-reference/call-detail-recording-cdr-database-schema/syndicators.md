@@ -1,5 +1,6 @@
 ---
 title: Syndicators テーブル
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,15 +11,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 98739cb8-829e-4baf-90f4-597cb894521e
 description: SyndicatorsTable は、内部使用のみです。 このテーブルは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 79c67f9addf65d54e09097c32a0eb15f2856f981
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ca24b6bf7e507c753d460ba8d5cf7d762d129336
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006770"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899639"
 ---
-# <a name="syndicators-table"></a><span data-ttu-id="501b9-104">Syndicators テーブル</span><span class="sxs-lookup"><span data-stu-id="501b9-104">Syndicators table</span></span>
+# <a name="syndicators-table"></a><span data-ttu-id="b5cf1-104">Syndicators テーブル</span><span class="sxs-lookup"><span data-stu-id="b5cf1-104">Syndicators table</span></span>
  
-<span data-ttu-id="501b9-105">SyndicatorsTable は、内部使用のみです。</span><span class="sxs-lookup"><span data-stu-id="501b9-105">The SyndicatorsTable is for internal use only.</span></span> <span data-ttu-id="501b9-106">このテーブルは、Microsoft Lync Server 2013 で導入されました。</span><span class="sxs-lookup"><span data-stu-id="501b9-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="b5cf1-105">SyndicatorsTable は、内部使用のみです。</span><span class="sxs-lookup"><span data-stu-id="b5cf1-105">The SyndicatorsTable is for internal use only.</span></span> <span data-ttu-id="b5cf1-106">このテーブルは、Microsoft Lync Server 2013 で導入されました。</span><span class="sxs-lookup"><span data-stu-id="b5cf1-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
   
 

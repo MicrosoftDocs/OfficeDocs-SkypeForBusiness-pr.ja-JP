@@ -1,5 +1,6 @@
 ---
 title: トランク スコープ ノード
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,25 +13,25 @@ localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 次を実行するのにはトポロジ ビルダーでトランクを右クリックします。
-ms.openlocfilehash: c30e7eebcbedfca43e42b23f4e496fc866542039
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 40f125e88c93cf3090dff73dcadc07f6154d01f8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21082567"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891576"
 ---
-# <a name="trunks-scope-node"></a><span data-ttu-id="39365-103">トランク スコープ ノード</span><span class="sxs-lookup"><span data-stu-id="39365-103">Trunks Scope Node</span></span>
+# <a name="trunks-scope-node"></a><span data-ttu-id="5f00b-103">トランク スコープ ノード</span><span class="sxs-lookup"><span data-stu-id="5f00b-103">Trunks Scope Node</span></span>
  
-<span data-ttu-id="39365-104">次を実行するのにはトポロジ ビルダーでは、**トランク**を右クリックします。</span><span class="sxs-lookup"><span data-stu-id="39365-104">Right-click **Trunks** in Topology Builder to perform the following:</span></span>
+<span data-ttu-id="5f00b-104">次を実行するのにはトポロジ ビルダーでは、**トランク**を右クリックします。</span><span class="sxs-lookup"><span data-stu-id="5f00b-104">Right-click **Trunks** in Topology Builder to perform the following:</span></span>
   
-- <span data-ttu-id="39365-105">[**新しいトランク**]: **新しいトランクの定義**ウィザードを起動して、新しい SIP トランクを定義します。</span><span class="sxs-lookup"><span data-stu-id="39365-105">**New Trunk**: Starts the **Define New Trunk** wizard used to define a new SIP trunk.</span></span>
+- <span data-ttu-id="5f00b-105">[**新しいトランク**]: **新しいトランクの定義**ウィザードを起動して、新しい SIP トランクを定義します。</span><span class="sxs-lookup"><span data-stu-id="5f00b-105">**New Trunk**: Starts the **Define New Trunk** wizard used to define a new SIP trunk.</span></span>
     
-<span data-ttu-id="39365-106">[新しいトランク] オプションに加えて、次の一般的なタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="39365-106">In addition to the New Trunk option, you can perform the following general tasks:</span></span>
+<span data-ttu-id="5f00b-106">[新しいトランク] オプションに加えて、次の一般的なタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="5f00b-106">In addition to the New Trunk option, you can perform the following general tasks:</span></span>
   
 ![トランク スコープ ノード](../../../media/Trunks_Scope_Node.jpg)
   
-- <span data-ttu-id="39365-p101">**トポロジ**。このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、以前のバージョンからのコンポーネントの結合、または展開の削除といった操作を実行できます。</span><span class="sxs-lookup"><span data-stu-id="39365-p101">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
+- <span data-ttu-id="5f00b-p101">**トポロジ**。このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、以前のバージョンからのコンポーネントの結合、または展開の削除といった操作を実行できます。</span><span class="sxs-lookup"><span data-stu-id="5f00b-p101">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
     
-- <span data-ttu-id="39365-p102">**ヘルプ**。このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="39365-p102">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="5f00b-p102">**ヘルプ**。このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="5f00b-p102">**Help**. You can use this option to access Help for the active node.</span></span>
     
 

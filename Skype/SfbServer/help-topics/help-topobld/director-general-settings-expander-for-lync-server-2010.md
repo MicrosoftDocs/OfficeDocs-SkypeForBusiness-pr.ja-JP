@@ -1,5 +1,6 @@
 ---
-title: Lync Server 2010 のディレクターの一般的な設定の拡張
+title: Lync Server 2010 用のディレクター全般設定エキスパンダー
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,33 +13,33 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 67bd625d-f093-4218-a869-768813c54dad
 description: ディレクターまたはディレクター プールの全般プロパティを構成するには。
-ms.openlocfilehash: 48f0c59e547d5c7a1ef841c3fa7a8270349234a6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f0d5f8f730e1952cceab8f364443263d808e558b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21010513"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885527"
 ---
-# <a name="director-general-settings-expander-for-lync-server-2010"></a><span data-ttu-id="0157a-103">Lync Server 2010 のディレクターの一般的な設定の拡張</span><span class="sxs-lookup"><span data-stu-id="0157a-103">Director General Settings Expander for Lync Server 2010</span></span>
+# <a name="director-general-settings-expander-for-lync-server-2010"></a><span data-ttu-id="22dbb-103">Lync Server 2010 用のディレクター全般設定エキスパンダー</span><span class="sxs-lookup"><span data-stu-id="22dbb-103">Director General Settings Expander for Lync Server 2010</span></span>
  
-<span data-ttu-id="0157a-104">ディレクターまたはディレクター プールの**全般**プロパティを構成するには。</span><span class="sxs-lookup"><span data-stu-id="0157a-104">To configure the **General** properties of the Director or a Director pool:</span></span>
+<span data-ttu-id="22dbb-104">ディレクターまたはディレクター プールの**全般**プロパティを構成するには。</span><span class="sxs-lookup"><span data-stu-id="22dbb-104">To configure the **General** properties of the Director or a Director pool:</span></span>
   
- <span data-ttu-id="0157a-105">**FQDN**: ディレクターまたはディレクター プールの完全修飾ドメイン名を入力します。</span><span class="sxs-lookup"><span data-stu-id="0157a-105">**FQDN**: Type the fully qualified domain name of the Director or a Director pool</span></span>
+ <span data-ttu-id="22dbb-105">**FQDN**: ディレクターまたはディレクター プールの完全修飾ドメイン名を入力します。</span><span class="sxs-lookup"><span data-stu-id="22dbb-105">**FQDN**: Type the fully qualified domain name of the Director or a Director pool</span></span>
   
- <span data-ttu-id="0157a-106">**[関連付け]**</span><span class="sxs-lookup"><span data-stu-id="0157a-106">**Associations**</span></span>
+ <span data-ttu-id="22dbb-106">**[関連付け]**</span><span class="sxs-lookup"><span data-stu-id="22dbb-106">**Associations**</span></span>
   
- <span data-ttu-id="0157a-107">**ファイルを保存**します。 リストから、ディレクターまたはディレクター プールのファイル ストアを選択します。</span><span class="sxs-lookup"><span data-stu-id="0157a-107">**File store**: Select from the list the file store for the Director or a Director pool</span></span>
+ <span data-ttu-id="22dbb-107">**ファイルを保存**します。 リストから、ディレクターまたはディレクター プールのファイル ストアを選択します。</span><span class="sxs-lookup"><span data-stu-id="22dbb-107">**File store**: Select from the list the file store for the Director or a Director pool</span></span>
   
-<span data-ttu-id="0157a-108">新しいファイル ストアを定義するのには**新規**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="0157a-108">Click **New** to define a new file store</span></span>
+<span data-ttu-id="22dbb-108">新しいファイル ストアを定義するのには**新規**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="22dbb-108">Click **New** to define a new file store</span></span>
   
-<span data-ttu-id="0157a-109">**監視サーバーを関連付ける**] チェック ボックスを選択し、監視サーバーを一覧から選択します。</span><span class="sxs-lookup"><span data-stu-id="0157a-109">Select the **Associate Monitoring Server** check box and select a Monitoring Server from the list</span></span>
+<span data-ttu-id="22dbb-109">**監視サーバーを関連付ける**] チェック ボックスを選択し、監視サーバーを一覧から選択します。</span><span class="sxs-lookup"><span data-stu-id="22dbb-109">Select the **Associate Monitoring Server** check box and select a Monitoring Server from the list</span></span>
   
-<span data-ttu-id="0157a-110">新しい監視サーバーを定義するのには**新規**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="0157a-110">Click **New** to define a new Monitoring Server</span></span>
+<span data-ttu-id="22dbb-110">新しい監視サーバーを定義するのには**新規**をクリックします。</span><span class="sxs-lookup"><span data-stu-id="22dbb-110">Click **New** to define a new Monitoring Server</span></span>
   
- <span data-ttu-id="0157a-111">[**OK**]: ダイアログでの変更を受け入れて確定します。</span><span class="sxs-lookup"><span data-stu-id="0157a-111">**OK** Accepts and commits changes to the dialog.</span></span>
+ <span data-ttu-id="22dbb-111">[**OK**]: ダイアログでの変更を受け入れて確定します。</span><span class="sxs-lookup"><span data-stu-id="22dbb-111">**OK** Accepts and commits changes to the dialog.</span></span>
   
- <span data-ttu-id="0157a-112">[**キャンセル**]: 変更を破棄してダイアログを閉じます。</span><span class="sxs-lookup"><span data-stu-id="0157a-112">**Cancel** Discards changes and closes the dialog.</span></span>
+ <span data-ttu-id="22dbb-112">[**キャンセル**]: 変更を破棄してダイアログを閉じます。</span><span class="sxs-lookup"><span data-stu-id="22dbb-112">**Cancel** Discards changes and closes the dialog.</span></span>
   
- <span data-ttu-id="0157a-113">[**ヘルプ**]: このヘルプ画面を表示します。</span><span class="sxs-lookup"><span data-stu-id="0157a-113">**Help** Displays this help screen.</span></span>
+ <span data-ttu-id="22dbb-113">[**ヘルプ**]: このヘルプ画面を表示します。</span><span class="sxs-lookup"><span data-stu-id="22dbb-113">**Help** Displays this help screen.</span></span>
   
 

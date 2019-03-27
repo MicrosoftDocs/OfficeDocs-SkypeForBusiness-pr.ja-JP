@@ -1,5 +1,6 @@
 ---
-title: トポロジを公開します。
+title: トポロジの公開
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2ea9613d-e74f-434b-aa51-eaaab206ff1e
 description: 発行プロセスを開始するときは、公開トポロジ] ページが表示されます。 読み、続行する前に表示されるタスクが完了することを確認します。 続行する準備ができたら、次へをクリックします。 発行プロセスを閉じる必要がある場合、は、[キャンセル] をクリックします。
-ms.openlocfilehash: 15111934da76328158e71f14333fc71207788fba
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4f781f355c9dabe4af2d4ce71a387e883934e67d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967892"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885143"
 ---
-# <a name="publish-topology"></a><span data-ttu-id="c2bda-106">トポロジを公開します。</span><span class="sxs-lookup"><span data-stu-id="c2bda-106">Publish Topology</span></span>
+# <a name="publish-topology"></a><span data-ttu-id="de26d-106">トポロジの公開</span><span class="sxs-lookup"><span data-stu-id="de26d-106">Publish Topology</span></span>
  
-<span data-ttu-id="c2bda-107">発行プロセスを開始するときは、**トポロジの発行**] ページが表示されます。</span><span class="sxs-lookup"><span data-stu-id="c2bda-107">The **Publish the topology** page is displayed when you begin the publish process.</span></span> <span data-ttu-id="c2bda-108">読み、続行する前に表示されるタスクが完了することを確認します。</span><span class="sxs-lookup"><span data-stu-id="c2bda-108">Read and confirm that the tasks listed are complete before you proceed.</span></span> <span data-ttu-id="c2bda-109">続行する準備ができたら、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c2bda-109">When you are ready to proceed, click **Next**.</span></span> <span data-ttu-id="c2bda-110">発行プロセスを閉じる必要があります、[**キャンセル**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c2bda-110">If you must close out of the publishing process, click **Cancel**.</span></span>
+<span data-ttu-id="de26d-107">発行プロセスを開始するときは、**トポロジの発行**] ページが表示されます。</span><span class="sxs-lookup"><span data-stu-id="de26d-107">The **Publish the topology** page is displayed when you begin the publish process.</span></span> <span data-ttu-id="de26d-108">読み、続行する前に表示されるタスクが完了することを確認します。</span><span class="sxs-lookup"><span data-stu-id="de26d-108">Read and confirm that the tasks listed are complete before you proceed.</span></span> <span data-ttu-id="de26d-109">続行する準備ができたら、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="de26d-109">When you are ready to proceed, click **Next**.</span></span> <span data-ttu-id="de26d-110">発行プロセスを閉じる必要があります、[**キャンセル**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="de26d-110">If you must close out of the publishing process, click **Cancel**.</span></span>
   
 

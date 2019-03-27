@@ -1,5 +1,6 @@
 ---
 title: サーバー設定エキスパンダー
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,28 +12,28 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bef91d55-a75c-495f-a523-4930797192f6
 ROBOTS: NOINDEX, NOFOLLOW
-description: このノードには、このサーバーの完全修飾ドメイン名 (FQDN) および IP アドレス構成が表示されます。以下のアクションを実行できます。
-ms.openlocfilehash: 95a713378e5b4a9e4bd502fa6df999021c2074e5
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+description: このノードには、このサーバーの完全修飾ドメイン名 (FQDN) および IP アドレス構成が表示されます。 以下のアクションを実行できます。
+ms.openlocfilehash: 3e2e2723dc27fbacbb1376290d0622dd3237060b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069597"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893498"
 ---
-# <a name="server-settings-expander"></a><span data-ttu-id="5337c-104">サーバー設定エキスパンダー</span><span class="sxs-lookup"><span data-stu-id="5337c-104">Server Settings Expander</span></span>
+# <a name="server-settings-expander"></a><span data-ttu-id="760b1-104">サーバー設定エキスパンダー</span><span class="sxs-lookup"><span data-stu-id="760b1-104">Server Settings Expander</span></span>
  
-<span data-ttu-id="5337c-p102">このノードには、このサーバーの完全修飾ドメイン名 (FQDN) および IP アドレス構成が表示されます。以下のアクションを実行できます。</span><span class="sxs-lookup"><span data-stu-id="5337c-p102">This node shows the server fully qualified domain name (FQDN) and IP address configuration for this server. You can perform the following actions:</span></span>
+<span data-ttu-id="760b1-p102">このノードには、このサーバーの完全修飾ドメイン名 (FQDN) および IP アドレス構成が表示されます。以下のアクションを実行できます。</span><span class="sxs-lookup"><span data-stu-id="760b1-p102">This node shows the server fully qualified domain name (FQDN) and IP address configuration for this server. You can perform the following actions:</span></span>
   
-- <span data-ttu-id="5337c-p103">**プロパティの編集**。このサーバーの [**プロパティの編集**] ページを開きます。このページで、サーバーの FQDN (トポロジがまだ公開されていない場合) およびサーバーの IP アドレス構成を変更できます。</span><span class="sxs-lookup"><span data-stu-id="5337c-p103">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can change the FQDN of the server (if the topology is not already published), and the IP address configuration of the server.</span></span>
+- <span data-ttu-id="760b1-p103">**プロパティの編集**。このサーバーの [**プロパティの編集**] ページを開きます。このページで、サーバーの FQDN (トポロジがまだ公開されていない場合) およびサーバーの IP アドレス構成を変更できます。</span><span class="sxs-lookup"><span data-stu-id="760b1-p103">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can change the FQDN of the server (if the topology is not already published), and the IP address configuration of the server.</span></span>
     
-- <span data-ttu-id="5337c-p104">**削除**。トポロジからサーバーを削除します。</span><span class="sxs-lookup"><span data-stu-id="5337c-p104">**Delete**. Deletes the server from the topology.</span></span>
+- <span data-ttu-id="760b1-p104">**削除**。トポロジからサーバーを削除します。</span><span class="sxs-lookup"><span data-stu-id="760b1-p104">**Delete**. Deletes the server from the topology.</span></span>
     
-<span data-ttu-id="5337c-111">これらのオプションに加えて、次の一般的なタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="5337c-111">In addition to these options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="760b1-111">これらのオプションに加えて、次の一般的なタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="760b1-111">In addition to these options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="5337c-p105">**トポロジ**。このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、コンポーネントの結合、または展開の削除といった操作を実行できます。</span><span class="sxs-lookup"><span data-stu-id="5337c-p105">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
+- <span data-ttu-id="760b1-p105">**トポロジ**。このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、コンポーネントの結合、または展開の削除といった操作を実行できます。</span><span class="sxs-lookup"><span data-stu-id="760b1-p105">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
     
-- <span data-ttu-id="5337c-p106">**表示**。このオプションを使用し、コンソール ツリー ビュー内の項目を選択して表示と非表示の切り替えを行うと、トポロジ ビルダーのビューをカスタマイズできます。</span><span class="sxs-lookup"><span data-stu-id="5337c-p106">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="760b1-p106">**表示**。このオプションを使用し、コンソール ツリー ビュー内の項目を選択して表示と非表示の切り替えを行うと、トポロジ ビルダーのビューをカスタマイズできます。</span><span class="sxs-lookup"><span data-stu-id="760b1-p106">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="5337c-p107">**ヘルプ**。このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="5337c-p107">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="760b1-p107">**ヘルプ**。このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="760b1-p107">**Help**. You can use this option to access Help for the active node.</span></span>
     
 

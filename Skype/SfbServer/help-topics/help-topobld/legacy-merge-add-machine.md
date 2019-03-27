@@ -1,5 +1,6 @@
 ---
 title: '従来版のマージ: コンピューターの追加'
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3dbf1649-3a4f-488b-85b3-70533939fe1c
 description: エッジ サーバー プールを構成するコンピューターを定義するには、従来の負荷分散された結合エッジ プールの一部になっている、少なくとも 1 つのコンピューターの完全修飾ドメイン名 (FQDN) を入力します。
-ms.openlocfilehash: 30969003f6c6231706a1b3feb8d7a87f835c949e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f5e4eaf0fed8f7f8e41c60abac35685e3e2a9d6c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897289"
 ---
-# <a name="legacy-merge-add-machine"></a><span data-ttu-id="78093-103">従来版のマージ: コンピューターの追加</span><span class="sxs-lookup"><span data-stu-id="78093-103">Legacy Merge Add Machine</span></span>
+# <a name="legacy-merge-add-machine"></a><span data-ttu-id="6a97e-103">従来版のマージ: コンピューターの追加</span><span class="sxs-lookup"><span data-stu-id="6a97e-103">Legacy Merge Add Machine</span></span>
  
-<span data-ttu-id="78093-104">エッジ サーバー プールを構成するコンピューターを定義するには、従来の負荷分散された結合エッジ プールの一部になっている、少なくとも 1 つのコンピューターの完全修飾ドメイン名 (FQDN) を入力します。</span><span class="sxs-lookup"><span data-stu-id="78093-104">To define the computers that make up the Edge Server pool, enter the fully qualified domain name (FQDN) of at least one computer that is part of the legacy load-balanced, consolidated Edge pool.</span></span> 
+<span data-ttu-id="6a97e-104">エッジ サーバー プールを構成するコンピューターを定義するには、従来の負荷分散された結合エッジ プールの一部になっている、少なくとも 1 つのコンピューターの完全修飾ドメイン名 (FQDN) を入力します。</span><span class="sxs-lookup"><span data-stu-id="6a97e-104">To define the computers that make up the Edge Server pool, enter the fully qualified domain name (FQDN) of at least one computer that is part of the legacy load-balanced, consolidated Edge pool.</span></span> 
   
 

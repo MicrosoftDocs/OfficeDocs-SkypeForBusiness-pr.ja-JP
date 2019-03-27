@@ -1,5 +1,6 @@
 ---
 title: トポロジには、アプリケーションが信頼されています。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
 ROBOTS: NOINDEX, NOFOLLOW
-description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 74736e154de6448b7a9f8778b865f2e8d11cd274
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: 0a387833649da2a6b94d639ad76379b6f4816106
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260588"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890073"
 ---
-# <a name="topology-trusted-application"></a><span data-ttu-id="bf922-104">トポロジ: 信頼されたアプリケーション</span><span class="sxs-lookup"><span data-stu-id="bf922-104">Topology: Trusted Application</span></span>
+# <a name="topology-trusted-application"></a><span data-ttu-id="43125-104">トポロジ: 信頼されたアプリケーション</span><span class="sxs-lookup"><span data-stu-id="43125-104">Topology: Trusted Application</span></span>
 
-<span data-ttu-id="bf922-p102">目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="bf922-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="43125-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="43125-105">What do you want to do?</span></span> <span data-ttu-id="43125-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="43125-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="bf922-107">信頼されたアプリケーションの一覧を表示します。</span><span class="sxs-lookup"><span data-stu-id="bf922-107">View a List of Trusted Applications</span></span>](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
+- [<span data-ttu-id="43125-107">信頼されたアプリケーションの一覧を表示します。</span><span class="sxs-lookup"><span data-stu-id="43125-107">View a List of Trusted Applications</span></span>](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
 
 
 

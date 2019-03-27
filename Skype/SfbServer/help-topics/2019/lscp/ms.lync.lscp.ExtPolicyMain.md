@@ -1,5 +1,6 @@
 ---
 title: 外部アクセス ポリシー
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,24 +12,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 336ef724-ab2f-4215-b689-60248a90917f
 ROBOTS: NOINDEX, NOFOLLOW
-description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 6fb9a3e5de82983e3004ddb849c8c1b8eab0ef67
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: 2fa8fd543dcf7dcff74b6f506844df236133092b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241849"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892323"
 ---
-# <a name="external-access-policy"></a><span data-ttu-id="1e1ee-104">外部アクセス ポリシー</span><span class="sxs-lookup"><span data-stu-id="1e1ee-104">External Access Policy</span></span>
+# <a name="external-access-policy"></a><span data-ttu-id="31bb6-104">外部アクセス ポリシー</span><span class="sxs-lookup"><span data-stu-id="31bb6-104">External Access Policy</span></span>
 
-<span data-ttu-id="1e1ee-p102">目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="1e1ee-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="31bb6-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="31bb6-105">What do you want to do?</span></span> <span data-ttu-id="31bb6-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="31bb6-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="1e1ee-107">リモート ユーザー アクセスを管理します。</span><span class="sxs-lookup"><span data-stu-id="1e1ee-107">Manage Remote User Access</span></span>](https://technet.microsoft.com/library/8f556849-692b-44a0-9514-4468fc9a39d0.aspx)
+- [<span data-ttu-id="31bb6-107">Manage Remote User Access</span><span class="sxs-lookup"><span data-stu-id="31bb6-107">Manage Remote User Access</span></span>](https://technet.microsoft.com/library/8f556849-692b-44a0-9514-4468fc9a39d0.aspx)
 
-- [<span data-ttu-id="1e1ee-108">フェデレーション ユーザー アクセスを制御するポリシーを構成します。</span><span class="sxs-lookup"><span data-stu-id="1e1ee-108">Configure Policies to Control Federated User Access</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [<span data-ttu-id="31bb6-108">Configure Policies to Control Federated User Access</span><span class="sxs-lookup"><span data-stu-id="31bb6-108">Configure Policies to Control Federated User Access</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
 
-- [<span data-ttu-id="1e1ee-109">IM サービス プロバイダーのユーザーによるアクセスを制御するポリシーを構成します。</span><span class="sxs-lookup"><span data-stu-id="1e1ee-109">Configure Policies to Control Access by Users of IM Service Providers</span></span>](https://technet.microsoft.com/library/5321598c-1ab1-40e3-b739-4b2e6d0a3a3b.aspx)
+- [<span data-ttu-id="31bb6-109">Configure Policies to Control Access by Users of IM Service Providers</span><span class="sxs-lookup"><span data-stu-id="31bb6-109">Configure Policies to Control Access by Users of IM Service Providers</span></span>](https://technet.microsoft.com/library/5321598c-1ab1-40e3-b739-4b2e6d0a3a3b.aspx)
 
-- [<span data-ttu-id="1e1ee-110">リセットするか、外部ユーザー アクセス ポリシーを削除します。</span><span class="sxs-lookup"><span data-stu-id="1e1ee-110">Reset or Delete External User Access Policies</span></span>](https://technet.microsoft.com/library/5f9b4528-f4f1-4d52-816d-156c3c7298ad.aspx)
+- [<span data-ttu-id="31bb6-110">Reset or Delete External User Access Policies</span><span class="sxs-lookup"><span data-stu-id="31bb6-110">Reset or Delete External User Access Policies</span></span>](https://technet.microsoft.com/library/5f9b4528-f4f1-4d52-816d-156c3c7298ad.aspx)
 
 
