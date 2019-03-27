@@ -1,5 +1,6 @@
 ---
 title: 正規化ルールの選択
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,18 +13,18 @@ localization_priority: Normal
 ms.assetid: c46041b8-b52c-48bf-9da6-d91ccc7d7968
 ROBOTS: NOINDEX, NOFOLLOW
 description: 正規化ルールでは、.NET Framework 正規表現を使用してダイヤルされた電話番号を E.164 形式に変換します。各ダイヤル プランには、正規化ルールを 1 つ以上割り当てる必要があります。
-ms.openlocfilehash: a49abda53addc465b085032d283d95e465bd0a9e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 41680eeec4b767797c0f1101bf43c38f75808bd2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21018580"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880771"
 ---
-# <a name="select-normalization-rules"></a><span data-ttu-id="a3826-104">正規化ルールの選択</span><span class="sxs-lookup"><span data-stu-id="a3826-104">Select Normalization Rules</span></span>
+# <a name="select-normalization-rules"></a><span data-ttu-id="fde72-104">正規化ルールの選択</span><span class="sxs-lookup"><span data-stu-id="fde72-104">Select Normalization Rules</span></span>
  
-<span data-ttu-id="a3826-p102">正規化ルールでは、.NET Framework 正規表現を使用してダイヤルされた電話番号を E.164 形式に変換します。各ダイヤル プランには、正規化ルールを 1 つ以上割り当てる必要があります。</span><span class="sxs-lookup"><span data-stu-id="a3826-p102">Normalization rules use .NET Framework regular expressions to translate dialed phone numbers to E.164 format. Each dial plan must be assigned one or more normalization rules.</span></span>
+<span data-ttu-id="fde72-p102">正規化ルールでは、.NET Framework 正規表現を使用してダイヤルされた電話番号を E.164 形式に変換します。各ダイヤル プランには、正規化ルールを 1 つ以上割り当てる必要があります。</span><span class="sxs-lookup"><span data-stu-id="fde72-p102">Normalization rules use .NET Framework regular expressions to translate dialed phone numbers to E.164 format. Each dial plan must be assigned one or more normalization rules.</span></span>
   
-<span data-ttu-id="a3826-107">既存の正規化ルールを使用するには、一覧でルールをクリックして [**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a3826-107">To use an existing normalization rule, click a rule in the list and then click **OK**.</span></span>
+<span data-ttu-id="fde72-107">既存の正規化ルールを使用するには、一覧でルールをクリックして [**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="fde72-107">To use an existing normalization rule, click a rule in the list and then click **OK**.</span></span>
   
  
   

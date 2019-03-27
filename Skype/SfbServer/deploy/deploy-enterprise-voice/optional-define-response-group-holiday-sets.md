@@ -1,5 +1,6 @@
 ---
 title: (省略可能)ビジネス用の Skype を定義する応答グループ休日を設定します。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,41 +11,41 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: 作成またはビジネス サーバーのエンタープライズ VoIP の Skype での応答グループ休日セットを変更します。
-ms.openlocfilehash: f959b69462ecc3d3d37d6febfbf043a48f9dd4ad
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: cc34c7a2e3f03b99bc29852766926e6c63c2463f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974748"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883845"
 ---
-# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a><span data-ttu-id="2c23e-103">(省略可能)ビジネス用の Skype を定義する応答グループ休日を設定します。</span><span class="sxs-lookup"><span data-stu-id="2c23e-103">(Optional) Define Response Group holiday sets in Skype for Business</span></span>
+# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a><span data-ttu-id="7e4bf-103">(省略可能)ビジネス用の Skype を定義する応答グループ休日を設定します。</span><span class="sxs-lookup"><span data-stu-id="7e4bf-103">(Optional) Define Response Group holiday sets in Skype for Business</span></span>
  
-<span data-ttu-id="2c23e-104">作成またはビジネス サーバーのエンタープライズ VoIP の Skype での応答グループ休日セットを変更します。</span><span class="sxs-lookup"><span data-stu-id="2c23e-104">Create or modify Response Group holiday sets, in Skype for Business Server Enterprise Voice.</span></span>
+<span data-ttu-id="7e4bf-104">作成またはビジネス サーバーのエンタープライズ VoIP の Skype での応答グループ休日セットを変更します。</span><span class="sxs-lookup"><span data-stu-id="7e4bf-104">Create or modify Response Group holiday sets, in Skype for Business Server Enterprise Voice.</span></span>
   
-<span data-ttu-id="2c23e-p101">休日設定では、応答グループが営業しない日を定義し、その日に実行するアクションを指定します。休日セットは、応答グループに適用する休日のコレクションです。</span><span class="sxs-lookup"><span data-stu-id="2c23e-p101">Holiday settings define the days that a response group is closed for business and specify the action to take on those days. A holiday set is the collection of holidays that apply to a response group.</span></span>
+<span data-ttu-id="7e4bf-p101">休日設定では、応答グループが営業しない日を定義し、その日に実行するアクションを指定します。休日セットは、応答グループに適用する休日のコレクションです。</span><span class="sxs-lookup"><span data-stu-id="7e4bf-p101">Holiday settings define the days that a response group is closed for business and specify the action to take on those days. A holiday set is the collection of holidays that apply to a response group.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="2c23e-107">ワークフローが管理ワークフローとして定義されている場合、CsResponseGroupManager の役割に割り当てられたユーザーは、管理するワークフローの休日を設定および変更できます。</span><span class="sxs-lookup"><span data-stu-id="2c23e-107">If a workflow is defined as a Managed workflow, then any user is assigned the CsResponseGroupManager role can set and modify holidays for workflows that they manage.</span></span> 
+> <span data-ttu-id="7e4bf-107">ワークフローが管理ワークフローとして定義されている場合、CsResponseGroupManager の役割に割り当てられたユーザーは、管理するワークフローの休日を設定および変更できます。</span><span class="sxs-lookup"><span data-stu-id="7e4bf-107">If a workflow is defined as a Managed workflow, then any user is assigned the CsResponseGroupManager role can set and modify holidays for workflows that they manage.</span></span> 
   
-### <a name="to-create-a-holiday-set"></a><span data-ttu-id="2c23e-108">休日セットを作成するには</span><span class="sxs-lookup"><span data-stu-id="2c23e-108">To create a holiday set</span></span>
+### <a name="to-create-a-holiday-set"></a><span data-ttu-id="7e4bf-108">休日セットを作成するには</span><span class="sxs-lookup"><span data-stu-id="7e4bf-108">To create a holiday set</span></span>
 
-1. <span data-ttu-id="2c23e-109">RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。</span><span class="sxs-lookup"><span data-stu-id="2c23e-109">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
+1. <span data-ttu-id="7e4bf-109">RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。</span><span class="sxs-lookup"><span data-stu-id="7e4bf-109">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
     
-2. <span data-ttu-id="2c23e-110">Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="2c23e-110">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="7e4bf-110">Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="7e4bf-110">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="2c23e-111">定義する休日ごとに、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="2c23e-111">For each holiday you want to define, run:</span></span>
+3. <span data-ttu-id="7e4bf-111">定義する休日ごとに、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="7e4bf-111">For each holiday you want to define, run:</span></span>
     
    ```
    $x = New-CsRgsHoliday [-Name <holiday name>] -StartDate <starting date of holiday> -EndDate <ending date of holiday>
    ```
 
-    <span data-ttu-id="2c23e-112">定義した休日を含める休日セットを作成するには、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="2c23e-112">To create the holiday set that contains the holidays you defined, run:</span></span>
+    <span data-ttu-id="7e4bf-112">定義した休日を含める休日セットを作成するには、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="7e4bf-112">To create the holiday set that contains the holidays you defined, run:</span></span>
     
    ```
    New-CsRgsHolidaySet -Parent <service where the workflow is hosted> -Name <unique name for holiday set> -HolidayList <one or more holidays to be included in the holiday set>
    ```
 
-    <span data-ttu-id="2c23e-113">次の例では、2 つの休日を含む休日セットを示します。</span><span class="sxs-lookup"><span data-stu-id="2c23e-113">The following example shows a holiday set that includes two holidays:</span></span>
+    <span data-ttu-id="7e4bf-113">次の例では、2 つの休日を含む休日セットを示します。</span><span class="sxs-lookup"><span data-stu-id="7e4bf-113">The following example shows a holiday set that includes two holidays:</span></span>
     
    ```
    $a = New-CsRgsHoliday -Name "New Year's Day" -StartDate "1/1/2018 12:00 AM" -EndDate "1/2/2018 12:00 AM" 
@@ -52,10 +53,10 @@ ms.locfileid: "20974748"
    New-CsRgsHolidaySet -Parent "ApplicationServer:Redmond.contoso.com" -Name "2018 Holidays" -HolidayList ($a, $b)
    ```
 
-## <a name="see-also"></a><span data-ttu-id="2c23e-114">関連項目</span><span class="sxs-lookup"><span data-stu-id="2c23e-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7e4bf-114">関連項目</span><span class="sxs-lookup"><span data-stu-id="7e4bf-114">See also</span></span>
 
-[<span data-ttu-id="2c23e-115">設計とビジネス用の Skype で応答グループ ワークフローを作成します。</span><span class="sxs-lookup"><span data-stu-id="2c23e-115">Designing and creating response group workflows in Skype for Business</span></span>](designing-and-creating-response-group-workflows.md)
+[<span data-ttu-id="7e4bf-115">設計とビジネス用の Skype で応答グループ ワークフローを作成します。</span><span class="sxs-lookup"><span data-stu-id="7e4bf-115">Designing and creating response group workflows in Skype for Business</span></span>](designing-and-creating-response-group-workflows.md)
 
-[<span data-ttu-id="2c23e-116">新しい-CsRgsHoliday</span><span class="sxs-lookup"><span data-stu-id="2c23e-116">New-CsRgsHoliday</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
+[<span data-ttu-id="7e4bf-116">新しい-CsRgsHoliday</span><span class="sxs-lookup"><span data-stu-id="7e4bf-116">New-CsRgsHoliday</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 
-[<span data-ttu-id="2c23e-117">新しい-CsRgsHolidaySet</span><span class="sxs-lookup"><span data-stu-id="2c23e-117">New-CsRgsHolidaySet</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csrgsholidayset?view=skype-ps)
+[<span data-ttu-id="7e4bf-117">New-CsRgsHolidaySet</span><span class="sxs-lookup"><span data-stu-id="7e4bf-117">New-CsRgsHolidaySet</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csrgsholidayset?view=skype-ps)

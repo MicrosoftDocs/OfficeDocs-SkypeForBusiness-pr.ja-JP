@@ -1,5 +1,6 @@
 ---
-title: 信頼されたアプリケーション コンピューターを追加します。
+title: 信頼済みアプリケーション コンピューターの追加
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,15 +13,15 @@ localization_priority: Normal
 ms.assetid: e951328e-d06b-4c9d-af21-305b2357188b
 ROBOTS: NOINDEX, NOFOLLOW
 description: このプールに信頼されたアプリケーション サーバーとして追加する各コンピューターの完全修飾ドメイン名 (FQDN) を指定します。 一覧にコンピューターを追加した後でも、トポロジを公開するまでの間は、いつでもコンピューターの FQDN を更新したり、プールからコンピューターを削除したりできます。 トポロジ ビルダーでは、サーバーを削除し、新しい FQDN を持つプールに新しいサーバーを追加、トポロジを公開すると、FQDN を変更する必要です。
-ms.openlocfilehash: 1c064570e4451d80c72bfc1a3bb6dd3fe9d185c4
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 1508b7ace9b2ecec9db1b97a2cd71fab740bc2e9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21059008"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881905"
 ---
-# <a name="add-trusted-application-machine"></a><span data-ttu-id="e4a2e-105">信頼されたアプリケーション コンピューターを追加します。</span><span class="sxs-lookup"><span data-stu-id="e4a2e-105">Add Trusted Application Machine</span></span>
+# <a name="add-trusted-application-machine"></a><span data-ttu-id="0d539-105">信頼済みアプリケーション コンピューターの追加</span><span class="sxs-lookup"><span data-stu-id="0d539-105">Add Trusted Application Machine</span></span>
  
-<span data-ttu-id="e4a2e-106">このプールに信頼されたアプリケーション サーバーとして追加する各コンピューターの完全修飾ドメイン名 (FQDN) を指定します。</span><span class="sxs-lookup"><span data-stu-id="e4a2e-106">Specify the fully qualified domain name (FQDN) of each computer that you want to add as a Trusted Application Server in this pool.</span></span> <span data-ttu-id="e4a2e-107">一覧にコンピューターを追加した後でも、トポロジを公開するまでの間は、いつでもコンピューターの FQDN を更新したり、プールからコンピューターを削除したりできます。</span><span class="sxs-lookup"><span data-stu-id="e4a2e-107">After adding a computer to the list, you can update the FQDN of the computer or remove it from the pool at any time prior to publishing the topology.</span></span> <span data-ttu-id="e4a2e-108">トポロジ ビルダーでは、サーバーを削除し、新しい FQDN を持つプールに新しいサーバーを追加、トポロジを公開すると、FQDN を変更する必要です。</span><span class="sxs-lookup"><span data-stu-id="e4a2e-108">After you publish the topology, changing the FQDN requires deleting the server in Topology Builder and then adding a new server to the pool with the new FQDN.</span></span> 
+<span data-ttu-id="0d539-106">このプールに信頼されたアプリケーション サーバーとして追加する各コンピューターの完全修飾ドメイン名 (FQDN) を指定します。</span><span class="sxs-lookup"><span data-stu-id="0d539-106">Specify the fully qualified domain name (FQDN) of each computer that you want to add as a Trusted Application Server in this pool.</span></span> <span data-ttu-id="0d539-107">一覧にコンピューターを追加した後でも、トポロジを公開するまでの間は、いつでもコンピューターの FQDN を更新したり、プールからコンピューターを削除したりできます。</span><span class="sxs-lookup"><span data-stu-id="0d539-107">After adding a computer to the list, you can update the FQDN of the computer or remove it from the pool at any time prior to publishing the topology.</span></span> <span data-ttu-id="0d539-108">トポロジ ビルダーでは、サーバーを削除し、新しい FQDN を持つプールに新しいサーバーを追加、トポロジを公開すると、FQDN を変更する必要です。</span><span class="sxs-lookup"><span data-stu-id="0d539-108">After you publish the topology, changing the FQDN requires deleting the server in Topology Builder and then adding a new server to the pool with the new FQDN.</span></span> 
   
 
