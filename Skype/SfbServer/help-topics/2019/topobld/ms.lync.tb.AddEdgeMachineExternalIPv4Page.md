@@ -1,5 +1,6 @@
 ---
-title: マシン外部 IPv4 のエッジを追加します。
+title: エッジ コンピューターの外部 IPv4 の追加
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,15 +13,15 @@ localization_priority: Normal
 ms.assetid: 0429444b-97cc-41a1-94e0-3e2e5fdfa9ca
 ROBOTS: NOINDEX, NOFOLLOW
 description: 外部 IPv4 では、アクセス エッジ サービス、Web 会議エッジ サービス、および A を示す外部 IP アドレスを入力または音声ビデオ エッジ サービスです。
-ms.openlocfilehash: 3558631449f3e3840b6f75de3917001d281fe16d
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 7b155c98cd4f216c444f5604e383794dd43adb61
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21061309"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875398"
 ---
-# <a name="add-edge-machine-external-ipv4"></a><span data-ttu-id="80784-103">マシン外部 IPv4 のエッジを追加します。</span><span class="sxs-lookup"><span data-stu-id="80784-103">Add Edge Machine External IPv4</span></span>
+# <a name="add-edge-machine-external-ipv4"></a><span data-ttu-id="2906f-103">エッジ コンピューターの外部 IPv4 の追加</span><span class="sxs-lookup"><span data-stu-id="2906f-103">Add Edge Machine External IPv4</span></span>
  
-<span data-ttu-id="80784-104">**外部 IPv4**では、アクセス エッジ サービス、Web 会議エッジ サービス、および A を示す外部 IP アドレスを入力または音声ビデオ エッジ サービスです。</span><span class="sxs-lookup"><span data-stu-id="80784-104">In **External IPv4**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
+<span data-ttu-id="2906f-104">**外部 IPv4**では、アクセス エッジ サービス、Web 会議エッジ サービス、および A を示す外部 IP アドレスを入力または音声ビデオ エッジ サービスです。</span><span class="sxs-lookup"><span data-stu-id="2906f-104">In **External IPv4**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
   
 

@@ -1,5 +1,6 @@
 ---
 title: 運用環境にパイロット展開からフェーズ 6 への移行
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,25 +9,25 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: このセクションのトピックでは、パイロット展開から運用レベルの展開に Skype のビジネス サーバー 2019 の配置を移動する前に完了する必要があるタスクについて説明します。
-ms.openlocfilehash: 979c5e3135f0df490d6f93e83929fc245c54456f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 92e74af1881da85b84a7886965986c42d6e6d955
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027313"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876307"
 ---
-# <a name="phase-6-move-from-pilot-deployment-into-production"></a><span data-ttu-id="576c6-103">フェーズ 6: を運用環境にパイロット展開から移動します。</span><span class="sxs-lookup"><span data-stu-id="576c6-103">Phase 6: Move from pilot deployment into production</span></span>
+# <a name="phase-6-move-from-pilot-deployment-into-production"></a><span data-ttu-id="2e82b-103">フェーズ 6: パイロット展開から運用展開への移行</span><span class="sxs-lookup"><span data-stu-id="2e82b-103">Phase 6: Move from pilot deployment into production</span></span>
 
-<span data-ttu-id="576c6-104">このセクションのトピックでは、パイロット展開から運用レベルの展開に Skype のビジネス サーバー 2019 の配置を移動する前に完了する必要があるタスクについて説明します。</span><span class="sxs-lookup"><span data-stu-id="576c6-104">The topics in this section describe tasks you must complete before moving your deployment of Skype for Business Server 2019 from a pilot deployment to a production-level deployment.</span></span>
+<span data-ttu-id="2e82b-104">このセクションのトピックでは、パイロット展開から運用レベルの展開に Skype のビジネス サーバー 2019 の配置を移動する前に完了する必要があるタスクについて説明します。</span><span class="sxs-lookup"><span data-stu-id="2e82b-104">The topics in this section describe tasks you must complete before moving your deployment of Skype for Business Server 2019 from a pilot deployment to a production-level deployment.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="576c6-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="576c6-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2e82b-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="2e82b-105">In this section</span></span>
 
-- [<span data-ttu-id="576c6-106">フェデレーション ルートとメディア トラフィックを構成します。</span><span class="sxs-lookup"><span data-stu-id="576c6-106">Configure federation routes and media traffic</span></span>](configure-federation-routes-and-media-traffic.md)
+- [<span data-ttu-id="2e82b-106">フェデレーション ルートとメディア トラフィックの構成</span><span class="sxs-lookup"><span data-stu-id="2e82b-106">Configure federation routes and media traffic</span></span>](configure-federation-routes-and-media-traffic.md)
     
-- [<span data-ttu-id="576c6-107">フェデレーションと外部ユーザー用のリモート アクセスを確認します。</span><span class="sxs-lookup"><span data-stu-id="576c6-107">Verify federation and remote access for external users</span></span>](verify-federation-and-remote-access-for-external-users.md)
+- [<span data-ttu-id="2e82b-107">外部ユーザーのフェデレーションとリモート アクセスの確認</span><span class="sxs-lookup"><span data-stu-id="2e82b-107">Verify federation and remote access for external users</span></span>](verify-federation-and-remote-access-for-external-users.md)
     
-- [<span data-ttu-id="576c6-108">移行後の簡単な Url の変更</span><span class="sxs-lookup"><span data-stu-id="576c6-108">Change simple URLs after migration</span></span>](change-simple-urls-after-migration.md)
+- [<span data-ttu-id="2e82b-108">移行後の簡易 URL の変更</span><span class="sxs-lookup"><span data-stu-id="2e82b-108">Change simple URLs after migration</span></span>](change-simple-urls-after-migration.md)
     
-- [<span data-ttu-id="576c6-109">Skype をビジネス サーバー 2019 の残りのユーザーを移動します。</span><span class="sxs-lookup"><span data-stu-id="576c6-109">Move remaining users to Skype for Business Server 2019</span></span>](move-remaining-users.md)
+- [<span data-ttu-id="2e82b-109">Skype をビジネス サーバー 2019 の残りのユーザーを移動します。</span><span class="sxs-lookup"><span data-stu-id="2e82b-109">Move remaining users to Skype for Business Server 2019</span></span>](move-remaining-users.md)
     
 

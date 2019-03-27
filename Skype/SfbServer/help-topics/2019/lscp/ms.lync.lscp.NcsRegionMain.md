@@ -1,5 +1,6 @@
 ---
-title: ネットワークの領域を構成します。
+title: ネットワーク地域の構成
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1d3fe1f6-e987-4b21-aafd-4ceaf523027a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: cd39f818744b44382a50c665b8f8c2ce3804a696
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: f871f08cda4c90716a587c0bb5d9530d4eb456ab
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255683"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876649"
 ---
-# <a name="configure-a-network-region"></a><span data-ttu-id="bb366-104">ネットワークの領域を構成します。</span><span class="sxs-lookup"><span data-stu-id="bb366-104">Configure a Network Region</span></span>
+# <a name="configure-a-network-region"></a><span data-ttu-id="b9516-104">ネットワーク地域の構成</span><span class="sxs-lookup"><span data-stu-id="b9516-104">Configure a Network Region</span></span>
 
-<span data-ttu-id="bb366-p102">目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="bb366-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="b9516-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="b9516-105">What do you want to do?</span></span> <span data-ttu-id="b9516-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="b9516-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="bb366-107">ネットワークの領域を構成します。</span><span class="sxs-lookup"><span data-stu-id="bb366-107">Configuring Network Regions</span></span>](https://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
+- [<span data-ttu-id="b9516-107">ネットワークの領域を構成します。</span><span class="sxs-lookup"><span data-stu-id="b9516-107">Configuring Network Regions</span></span>](https://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
 
 
 

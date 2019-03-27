@@ -1,5 +1,6 @@
 ---
 title: ハイブリッド ウィザード Office 365 にサインイン
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -16,21 +17,21 @@ ms.collection:
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 ROBOTS: NOINDEX, NOFOLLOW
 description: ビジネス サーバ ハイブリッドの管理ウィザードの Skype を Skype でオンライン ビジネスのハイブリッド環境を構成する際に使用します。
-ms.openlocfilehash: b656aae6b60858c4637d49532a6fcf34d8631ccc
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: efbb21fded9a6ec6445062bc075f9116f963c71c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248405"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877078"
 ---
-# <a name="hybrid-wizard-sign-in-to-office-365"></a><span data-ttu-id="9555b-103">ハイブリッド ウィザード: Office 365 へのサインイン</span><span class="sxs-lookup"><span data-stu-id="9555b-103">Hybrid wizard: Sign in to Office 365</span></span>
+# <a name="hybrid-wizard-sign-in-to-office-365"></a><span data-ttu-id="58d4a-103">ハイブリッド ウィザード: Office 365 へのサインイン</span><span class="sxs-lookup"><span data-stu-id="58d4a-103">Hybrid wizard: Sign in to Office 365</span></span>
 
-<span data-ttu-id="9555b-104">ビジネス サーバ ハイブリッドの管理ウィザードの Skype を Skype でオンライン ビジネスのハイブリッド環境を構成する際に使用します。</span><span class="sxs-lookup"><span data-stu-id="9555b-104">Use the Skype for Business Server Hybrid Manageability wizard to help you configure your environment for hybrid with Skype for Business Online.</span></span>
+<span data-ttu-id="58d4a-104">ビジネス サーバ ハイブリッドの管理ウィザードの Skype を Skype でオンライン ビジネスのハイブリッド環境を構成する際に使用します。</span><span class="sxs-lookup"><span data-stu-id="58d4a-104">Use the Skype for Business Server Hybrid Manageability wizard to help you configure your environment for hybrid with Skype for Business Online.</span></span>
 
-## <a name="sign-in-to-office-365"></a><span data-ttu-id="9555b-105">Office 365 にサインインする</span><span class="sxs-lookup"><span data-stu-id="9555b-105">Sign in to Office 365</span></span>
+## <a name="sign-in-to-office-365"></a><span data-ttu-id="58d4a-105">Office 365 にサインインする</span><span class="sxs-lookup"><span data-stu-id="58d4a-105">Sign in to Office 365</span></span>
 
-<span data-ttu-id="9555b-p101">Office 365 テナント用のユーザー名とパスワードを入力して、Office 365 テナントを使用する内部設置型の展開にログインして接続します。Office 365 にサインアップしたときに onmicrosoft ドメイン用に作成された管理アカウント (admin@contoso.onmicrosoft.com など) を使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="9555b-p101">Enter the user name and password for your Office 365 tenant to login and connect your on-premises deployment with your Office 365 tenant. You'll need to use the admin account that was created for the onmicrosoft domain when you signed up for Office 365, for example, admin@contoso.onmicrosoft.com.</span></span>
+<span data-ttu-id="58d4a-p101">Office 365 テナント用のユーザー名とパスワードを入力して、Office 365 テナントを使用する内部設置型の展開にログインして接続します。Office 365 にサインアップしたときに onmicrosoft ドメイン用に作成された管理アカウント (admin@contoso.onmicrosoft.com など) を使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="58d4a-p101">Enter the user name and password for your Office 365 tenant to login and connect your on-premises deployment with your Office 365 tenant. You'll need to use the admin account that was created for the onmicrosoft domain when you signed up for Office 365, for example, admin@contoso.onmicrosoft.com.</span></span>
 
-<span data-ttu-id="9555b-108">ハイブリッド環境を設定する方法の詳細については、[ハイブリッド展開の概要](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9555b-108">For more information about how to configure your environment for hybrid, see [Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).</span></span>
+<span data-ttu-id="58d4a-108">ハイブリッドの環境を構成する方法の詳細については、「[Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="58d4a-108">For more information about how to configure your environment for hybrid, see [Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).</span></span>
 
 

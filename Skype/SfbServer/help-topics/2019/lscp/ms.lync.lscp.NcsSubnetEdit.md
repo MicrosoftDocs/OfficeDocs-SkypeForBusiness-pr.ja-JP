@@ -1,5 +1,6 @@
 ---
 title: 関連付けるサブネットの新規追加や既存の編集
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e08a6a2d-1f88-4a84-b6e5-b84dcded4a86
 ROBOTS: NOINDEX, NOFOLLOW
-description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 6c912f2b6ef4e07e55f5dcef89e0a50d127e5ca0
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: 6897ca78a9ea15741c2558433082af81d0d327c0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258320"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874809"
 ---
-# <a name="associate-a-subnet-add-new-or-edit-existing"></a><span data-ttu-id="0fcbb-104">サブネットを関連付ける: 新しく追加するか、既存の編集</span><span class="sxs-lookup"><span data-stu-id="0fcbb-104">Associate a Subnet: Add New or Edit Existing</span></span>
+# <a name="associate-a-subnet-add-new-or-edit-existing"></a><span data-ttu-id="57377-104">サブネットの関連付け: 新規追加または現在の形式のままで編集</span><span class="sxs-lookup"><span data-stu-id="57377-104">Associate a Subnet: Add New or Edit Existing</span></span>
 
-<span data-ttu-id="0fcbb-p102">目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="0fcbb-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="57377-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="57377-105">What do you want to do?</span></span> <span data-ttu-id="57377-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="57377-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="0fcbb-107">ネットワークのサブネットを設定します。</span><span class="sxs-lookup"><span data-stu-id="0fcbb-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
+- [<span data-ttu-id="57377-107">ネットワークのサブネットを設定します。</span><span class="sxs-lookup"><span data-stu-id="57377-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
 
 
 
