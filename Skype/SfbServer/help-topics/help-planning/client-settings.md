@@ -1,5 +1,6 @@
 ---
-title: クライアントの設定 (ツールの計画)
+title: Client Settings (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,16 +13,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
-description: ビジネス サーバー 2015 の Skype のモビリティ機能では、モバイル デバイスでのビジネス機能のため Skype をサポートしています。 詳細については、移動の計画を参照してください。
-ms.openlocfilehash: b7ec9bee77369b297ac5c4c590f7e185eaa0f450
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: ビジネス サーバー 2015 の Skype のモビリティ機能では、モバイル デバイスでのビジネス機能のため Skype をサポートしています。 詳細については、「Planning for Mobility」を参照してください。
+ms.openlocfilehash: 8c2fd0c0f3b0278a4d004c035f796a358d17199f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248391"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898607"
 ---
-# <a name="client-settings-planning-tool"></a><span data-ttu-id="7a7c6-104">クライアントの設定 (ツールの計画)</span><span class="sxs-lookup"><span data-stu-id="7a7c6-104">Client Settings (Planning Tool)</span></span>
+# <a name="client-settings-planning-tool"></a><span data-ttu-id="4ce79-104">Client Settings (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="4ce79-104">Client Settings (Planning Tool)</span></span>
 
-<span data-ttu-id="7a7c6-105">ビジネス サーバー 2015 の Skype のモビリティ機能では、モバイル デバイスでのビジネス機能のため Skype をサポートしています。</span><span class="sxs-lookup"><span data-stu-id="7a7c6-105">The mobility feature in Skype for Business Server 2015 supports Skype for Business functionality on mobile devices.</span></span> <span data-ttu-id="7a7c6-106">詳細については、[移動の計画](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7a7c6-106">For details, see [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).</span></span>
+<span data-ttu-id="4ce79-105">ビジネス サーバー 2015 の Skype のモビリティ機能では、モバイル デバイスでのビジネス機能のため Skype をサポートしています。</span><span class="sxs-lookup"><span data-stu-id="4ce79-105">The mobility feature in Skype for Business Server 2015 supports Skype for Business functionality on mobile devices.</span></span> <span data-ttu-id="4ce79-106">詳細については、「[Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="4ce79-106">For details, see [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).</span></span>
 
 

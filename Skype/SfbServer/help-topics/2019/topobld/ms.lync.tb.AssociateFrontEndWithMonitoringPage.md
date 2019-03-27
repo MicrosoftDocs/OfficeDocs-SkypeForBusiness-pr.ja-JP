@@ -1,5 +1,6 @@
 ---
-title: フロント エンドの監視を関連付ける
+title: フロントエンドと監視の関連付け
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,17 +13,17 @@ localization_priority: Normal
 ms.assetid: 8ea4474a-7453-49a9-ba38-2c7dc4337b05
 ROBOTS: NOINDEX, NOFOLLOW
 description: 各フロント エンド プールおよびリカバリ性に優れたブランチ アプライアンスは、サーバーの監視は、それに関連付けられている 1 つだけでことができます。 サイトの監視を有効にすると、呼び出しの詳細記録 (CDR) と高品質のエクスペリエンス (QoE) データの収集とレポート サーバーの監視を提供します。
-ms.openlocfilehash: 6180f7d6fc48db5293ffae8eaba5f95c34267358
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: b6a1f46f24e016fe7fab9b620bf3240c23b0d6b2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060814"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896901"
 ---
-# <a name="associate-front-end-with-monitoring"></a><span data-ttu-id="f42e3-104">フロント エンドの監視を関連付ける</span><span class="sxs-lookup"><span data-stu-id="f42e3-104">Associate Front End With Monitoring</span></span>
+# <a name="associate-front-end-with-monitoring"></a><span data-ttu-id="7912a-104">フロントエンドと監視の関連付け</span><span class="sxs-lookup"><span data-stu-id="7912a-104">Associate Front End With Monitoring</span></span>
  
-<span data-ttu-id="f42e3-105">各フロント エンド プールおよびリカバリ性に優れたブランチ アプライアンスは、サーバーの監視は、それに関連付けられている 1 つだけでことができます。</span><span class="sxs-lookup"><span data-stu-id="f42e3-105">Each Front End pool and Survivable Branch Appliance can have only one Monitoring Server associated with it.</span></span> <span data-ttu-id="f42e3-106">サイトの監視を有効にすると、呼び出しの詳細記録 (CDR) と高品質のエクスペリエンス (QoE) データの収集とレポート サーバーの監視を提供します。</span><span class="sxs-lookup"><span data-stu-id="f42e3-106">When monitoring is enabled for the site, Monitoring Server provides call detail recording (CDR) and Quality of Experience (QoE) data collection and reporting.</span></span>
+<span data-ttu-id="7912a-105">各フロント エンド プールおよびリカバリ性に優れたブランチ アプライアンスは、サーバーの監視は、それに関連付けられている 1 つだけでことができます。</span><span class="sxs-lookup"><span data-stu-id="7912a-105">Each Front End pool and Survivable Branch Appliance can have only one Monitoring Server associated with it.</span></span> <span data-ttu-id="7912a-106">サイトの監視を有効にすると、呼び出しの詳細記録 (CDR) と高品質のエクスペリエンス (QoE) データの収集とレポート サーバーの監視を提供します。</span><span class="sxs-lookup"><span data-stu-id="7912a-106">When monitoring is enabled for the site, Monitoring Server provides call detail recording (CDR) and Quality of Experience (QoE) data collection and reporting.</span></span>
   
-<span data-ttu-id="f42e3-107">使用率の監視サーバーの容量を超えていない場合、サイトのすべてのプールと複数の中央サイトのプールも、同じサーバーの監視に使用します。</span><span class="sxs-lookup"><span data-stu-id="f42e3-107">All pools at a site and the pools of multiple central sites can use the same Monitoring Server, if usage does not exceed the capacity of the Monitoring Server.</span></span> 
+<span data-ttu-id="7912a-107">使用率の監視サーバーの容量を超えていない場合、サイトのすべてのプールと複数の中央サイトのプールも、同じサーバーの監視に使用します。</span><span class="sxs-lookup"><span data-stu-id="7912a-107">All pools at a site and the pools of multiple central sites can use the same Monitoring Server, if usage does not exceed the capacity of the Monitoring Server.</span></span> 
   
 

@@ -1,5 +1,6 @@
 ---
 title: 管理役割および Lync Server コントロール パネル
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7d1ff1e0-eb89-4703-be50-71e94329d8b2
 description: 高水準のセキュリティを維持しながら管理作業を委任することを有効にするには、Skype ビジネス サーバーの役割に基づくアクセス制御 (RBAC) をサポートします。 RBAC では、ユーザーを定義済みの管理役割に割り当てることによって管理特権を付与します。 Skype ビジネス サーバーの組み込みの管理役割の豊富なセットが含まれていて、新しいロールを作成し、ロールごとに新しいコマンドレットのカスタム リストを指定することもできます。 また、定義済み RBAC 役割およびカスタム RBAC 役割の許可されたタスクに、コマンドレットのスクリプトを追加することもできます。 詳細については、Skype で使用できる定義済みの管理者の役割を含むビジネスのサーバーの役割に基づくアクセス制御を参照してください。
-ms.openlocfilehash: 88a37f7fd6f083c66da22b57916d99aff7a3d0c0
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 7d47218314437320fba8d566cbe1010aab8a90b3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23254593"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896715"
 ---
-# <a name="administrative-roles-and-lync-server-control-panel"></a><span data-ttu-id="92c9b-107">管理役割および Lync Server コントロール パネル</span><span class="sxs-lookup"><span data-stu-id="92c9b-107">Administrative Roles and Lync Server Control Panel</span></span>
+# <a name="administrative-roles-and-lync-server-control-panel"></a><span data-ttu-id="1c5d4-107">管理役割および Lync Server コントロール パネル</span><span class="sxs-lookup"><span data-stu-id="1c5d4-107">Administrative Roles and Lync Server Control Panel</span></span>
 
-<span data-ttu-id="92c9b-108">高水準のセキュリティを維持しながら管理作業を委任することを有効にするには、Skype ビジネス サーバーの役割に基づくアクセス制御 (RBAC) をサポートします。</span><span class="sxs-lookup"><span data-stu-id="92c9b-108">To enable you to delegate administrative tasks while maintaining high standards for security, Skype for Business Server supports role-based access control (RBAC).</span></span> <span data-ttu-id="92c9b-109">RBAC では、ユーザーを定義済みの管理役割に割り当てることによって管理特権を付与します。</span><span class="sxs-lookup"><span data-stu-id="92c9b-109">With RBAC, you grant administrative privilege by assigning users to predefined administrative roles.</span></span> <span data-ttu-id="92c9b-110">Skype ビジネス サーバーの組み込みの管理役割の豊富なセットが含まれていて、新しいロールを作成し、ロールごとに新しいコマンドレットのカスタム リストを指定することもできます。</span><span class="sxs-lookup"><span data-stu-id="92c9b-110">Skype for Business Server includes a rich set of built-in administrative roles, and also enables you to create new roles and specify a custom list of cmdlets for each new role.</span></span> <span data-ttu-id="92c9b-111">また、定義済み RBAC 役割およびカスタム RBAC 役割の許可されたタスクに、コマンドレットのスクリプトを追加することもできます。</span><span class="sxs-lookup"><span data-stu-id="92c9b-111">You can also add scripts of cmdlets to the allowed tasks of both predefined and custom RBAC roles.</span></span> <span data-ttu-id="92c9b-112">詳細については、Skype で使用できる定義済みの管理者の役割を含むビジネスのサーバーの[役割に基づくアクセス制御](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="92c9b-112">For details, including the predefined administrative roles available in Skype for Business Server, see [Role-Based Access Control](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx).</span></span>
+<span data-ttu-id="1c5d4-108">高水準のセキュリティを維持しながら管理作業を委任することを有効にするには、Skype ビジネス サーバーの役割に基づくアクセス制御 (RBAC) をサポートします。</span><span class="sxs-lookup"><span data-stu-id="1c5d4-108">To enable you to delegate administrative tasks while maintaining high standards for security, Skype for Business Server supports role-based access control (RBAC).</span></span> <span data-ttu-id="1c5d4-109">RBAC では、ユーザーを定義済みの管理役割に割り当てることによって管理特権を付与します。</span><span class="sxs-lookup"><span data-stu-id="1c5d4-109">With RBAC, you grant administrative privilege by assigning users to predefined administrative roles.</span></span> <span data-ttu-id="1c5d4-110">Skype ビジネス サーバーの組み込みの管理役割の豊富なセットが含まれていて、新しいロールを作成し、ロールごとに新しいコマンドレットのカスタム リストを指定することもできます。</span><span class="sxs-lookup"><span data-stu-id="1c5d4-110">Skype for Business Server includes a rich set of built-in administrative roles, and also enables you to create new roles and specify a custom list of cmdlets for each new role.</span></span> <span data-ttu-id="1c5d4-111">また、定義済み RBAC 役割およびカスタム RBAC 役割の許可されたタスクに、コマンドレットのスクリプトを追加することもできます。</span><span class="sxs-lookup"><span data-stu-id="1c5d4-111">You can also add scripts of cmdlets to the allowed tasks of both predefined and custom RBAC roles.</span></span> <span data-ttu-id="1c5d4-112">詳細については、Skype で使用できる定義済みの管理者の役割を含むビジネスのサーバーの[役割に基づくアクセス制御](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="1c5d4-112">For details, including the predefined administrative roles available in Skype for Business Server, see [Role-Based Access Control](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx).</span></span>
 
 

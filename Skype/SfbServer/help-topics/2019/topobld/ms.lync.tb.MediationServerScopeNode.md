@@ -1,5 +1,6 @@
 ---
 title: 仲介サーバー スコープ ノード
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,27 +13,27 @@ localization_priority: Normal
 ms.assetid: 3bad9844-2d3c-4ac7-adde-5b382f02d18d
 ROBOTS: NOINDEX, NOFOLLOW
 description: このノードには、この仲介プールのリッスン ポート、および関連付けられた公衆交換電話網 (PSTN) ゲートウェイが表示されます。以下のアクションを実行できます。
-ms.openlocfilehash: 1cd5a0f3997004824ee85d9930b331d0c7faccab
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 23da4ca40d10db1adbadad17ac96c9c884e734d8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21066381"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30926519"
 ---
-# <a name="mediation-server-scope-node"></a><span data-ttu-id="c5ee2-104">仲介サーバー スコープ ノード</span><span class="sxs-lookup"><span data-stu-id="c5ee2-104">Mediation Server Scope Node</span></span>
+# <a name="mediation-server-scope-node"></a><span data-ttu-id="b3aa1-104">仲介サーバー スコープ ノード</span><span class="sxs-lookup"><span data-stu-id="b3aa1-104">Mediation Server Scope Node</span></span>
  
-<span data-ttu-id="c5ee2-p102">このノードには、この仲介プールのリッスン ポート、および関連付けられた公衆交換電話網 (PSTN) ゲートウェイが表示されます。以下のアクションを実行できます。</span><span class="sxs-lookup"><span data-stu-id="c5ee2-p102">This node shows the listening ports and associated public switched telephone network (PSTN) gateways for this Mediation pool. You can perform the following actions:</span></span>
+<span data-ttu-id="b3aa1-p102">このノードには、この仲介プールのリッスン ポート、および関連付けられた公衆交換電話網 (PSTN) ゲートウェイが表示されます。以下のアクションを実行できます。</span><span class="sxs-lookup"><span data-stu-id="b3aa1-p102">This node shows the listening ports and associated public switched telephone network (PSTN) gateways for this Mediation pool. You can perform the following actions:</span></span>
   
-- <span data-ttu-id="c5ee2-p103">**プロパティの編集**。このサーバーの [**プロパティの編集**] ページを開きます。このページでは、伝送制御プロトコル (TCP) のリッスン ポートの有効化または無効化、ポート番号の変更、およびこの仲介プールと関連付ける PSTN ゲートウェイの指定を実行できます。</span><span class="sxs-lookup"><span data-stu-id="c5ee2-p103">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can enable or disable the Transmission Control Protocol (TCP) listening port, change the port numbers, and specify which PSTN gateways are associated with this Mediation pool.</span></span>
+- <span data-ttu-id="b3aa1-p103">**プロパティの編集**。このサーバーの [**プロパティの編集**] ページを開きます。このページでは、伝送制御プロトコル (TCP) のリッスン ポートの有効化または無効化、ポート番号の変更、およびこの仲介プールと関連付ける PSTN ゲートウェイの指定を実行できます。</span><span class="sxs-lookup"><span data-stu-id="b3aa1-p103">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can enable or disable the Transmission Control Protocol (TCP) listening port, change the port numbers, and specify which PSTN gateways are associated with this Mediation pool.</span></span>
     
-- <span data-ttu-id="c5ee2-p104">**削除**。トポロジからプールを削除します。</span><span class="sxs-lookup"><span data-stu-id="c5ee2-p104">**Delete**. Deletes the pool from the topology.</span></span>
+- <span data-ttu-id="b3aa1-p104">**削除**。トポロジからプールを削除します。</span><span class="sxs-lookup"><span data-stu-id="b3aa1-p104">**Delete**. Deletes the pool from the topology.</span></span>
     
-<span data-ttu-id="c5ee2-111">これらのオプションに加えて、次の一般的なタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="c5ee2-111">In addition to these options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="b3aa1-111">これらのオプションに加えて、次の一般的なタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="b3aa1-111">In addition to these options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="c5ee2-p105">**トポロジ**。このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、コンポーネントの結合、または展開の削除といった操作を実行できます。</span><span class="sxs-lookup"><span data-stu-id="c5ee2-p105">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
+- <span data-ttu-id="b3aa1-p105">**トポロジ**。このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、コンポーネントの結合、または展開の削除といった操作を実行できます。</span><span class="sxs-lookup"><span data-stu-id="b3aa1-p105">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
     
-- <span data-ttu-id="c5ee2-p106">**表示**。このオプションを使用し、コンソール ツリー ビュー内の項目を選択して表示と非表示の切り替えを行うと、トポロジ ビルダーのビューをカスタマイズできます。</span><span class="sxs-lookup"><span data-stu-id="c5ee2-p106">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="b3aa1-p106">**表示**。このオプションを使用し、コンソール ツリー ビュー内の項目を選択して表示と非表示の切り替えを行うと、トポロジ ビルダーのビューをカスタマイズできます。</span><span class="sxs-lookup"><span data-stu-id="b3aa1-p106">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="c5ee2-p107">**ヘルプ**。このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="c5ee2-p107">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="b3aa1-p107">**ヘルプ**。このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="b3aa1-p107">**Help**. You can use this option to access Help for the active node.</span></span>
     
 
