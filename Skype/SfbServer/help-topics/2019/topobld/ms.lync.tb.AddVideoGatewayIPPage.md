@@ -1,5 +1,6 @@
 ---
 title: ビデオ ゲートウェイ IP の追加
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: edc4cc21-7803-400d-8152-595228a3d27d
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順についてはオンライン Skype で VIS プールを作成するビジネス サーバーのください。
-ms.openlocfilehash: 1fda348fe34c661f0436e2e6bb198ac44ba52ddc
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 7b79c025fb466fdbc6837ff570198f531c148ad6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21062637"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877312"
 ---
 # <a name="add-video-gateway-ip"></a>ビデオ ゲートウェイ IP の追加
  

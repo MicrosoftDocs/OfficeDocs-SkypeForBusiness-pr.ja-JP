@@ -1,5 +1,6 @@
 ---
 title: 変更会議の Skype ビジネス サーバーの構成設定
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
 description: '概要: を変更する方法を学習する Skype ビジネス サーバーの構成設定に対応します。'
-ms.openlocfilehash: b4b8307711fcf7b120c867debe5ab3e2978f6ef7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 73127bfce04c8c124ce8036222d755de6bc37058
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978968"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876049"
 ---
 # <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>変更会議の Skype ビジネス サーバーの構成設定
  

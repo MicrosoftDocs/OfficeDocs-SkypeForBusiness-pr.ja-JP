@@ -1,5 +1,6 @@
 ---
-title: フェデレーションと外部ユーザー用のリモート アクセスを確認します。
+title: 外部ユーザーのフェデレーションとリモート アクセスの確認
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ビジネス 2019 エッジ サーバーのフェデレーション ルート、Skype を移行した後は、フェデレーションが期待どおりに実行されることを確認するのにはいくつかの機能テストを行う必要があります。 外部ユーザー アクセスのテストには、次の一部またはすべてを含む、組織をサポートする外部ユーザーの種類を含める必要があります。
-ms.openlocfilehash: ce0e2dd6ee7d4fb605f844d7dfb26b3f9d13bf14
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3a520b39d76ab93f4ec7fcaacd139b3f83a3326a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027236"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876698"
 ---
-# <a name="verify-federation-and-remote-access-for-external-users"></a>フェデレーションと外部ユーザー用のリモート アクセスを確認します。
+# <a name="verify-federation-and-remote-access-for-external-users"></a>外部ユーザーのフェデレーションとリモート アクセスの確認
 
 ビジネス 2019 エッジ サーバーのフェデレーション ルート、Skype を移行した後は、フェデレーションが期待どおりに実行されることを確認するのにはいくつかの機能テストを行う必要があります。 外部ユーザー アクセスのテストには、次の一部またはすべてを含む、組織をサポートする外部ユーザーの種類を含める必要があります。
   

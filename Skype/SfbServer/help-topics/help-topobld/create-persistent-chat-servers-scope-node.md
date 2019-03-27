@@ -1,5 +1,6 @@
 ---
 title: 常設チャット サーバー スコープ ノードの作成
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 description: 次を実行するのにはトポロジ ビルダーでの永続的なチャット プールを右クリックします。
-ms.openlocfilehash: e8126dd3576d71a955c45a53c4fd2cd66eb14142
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 76027854078ca7ab90422943964fb920f8e85fd9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503439"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877959"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>常設チャット サーバー スコープ ノードの作成
  

@@ -1,5 +1,6 @@
 ---
 title: 会議を構成するビジネス サーバーの Skype での参加のページ
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6537765e-4384-416f-92f1-a7f3b39ebe56
 description: '概要: 会議を構成する方法を学習する Skype ビジネス サーバー用のページを結合します。'
-ms.openlocfilehash: 7574dee341e0226a6a6e2ee8c77cdfb2353beb5a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4f737bdab0586cb342d1271f348cf765ae093c5c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20977615"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875547"
 ---
 # <a name="configure-the-meeting-join-page-in-skype-for-business-server"></a>会議を構成するビジネス サーバーの Skype での参加のページ
  
@@ -22,7 +23,7 @@ ms.locfileid: "20977615"
   
 ユーザーが会議出席依頼、会議の会議のリンクをクリックすると結合のページは、ユーザーのコンピューターで、Skype のビジネスのクライアントが既にインストールされているかどうかを検出します。 クライアントが既にインストールされている場合、クライアントが開き、ミーティングに参加します。 クライアントがインストールされていない場合既定ではビジネスの Skype クライアントを開きます。 
   
-## <a name="configure-the-meeting-join-page"></a>会議を構成する結合のページ
+## <a name="configure-the-meeting-join-page"></a>会議参加ページの構成
 
 会議の結合の動作を変更するページの他のバージョンのクライアントとの会議に参加するユーザーを許可する場合。 これらの構成オプションは、ビジネス サーバーのコントロール パネルの Skype から削除されていますが、セット CsWebServiceConfiguration コマンドレットを使用して、それらを構成します。
   

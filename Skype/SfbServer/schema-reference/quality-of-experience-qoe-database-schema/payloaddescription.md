@@ -1,5 +1,6 @@
 ---
 title: PayloadDescription テーブル
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c49d61c0-305a-4770-a5d2-5d9f05decc6d
 description: PayloadDescription はテーブルをサポートします。 各レコードは、オーディオまたはビデオのセッションで使用される 1 つのコーデックを表します。
-ms.openlocfilehash: fb4acb8182db920e25305b2be72cbc19700792bb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 320542593479e3051992e8079abfdf9f54b0efc0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874201"
 ---
 # <a name="payloaddescription-table"></a>PayloadDescription テーブル
  
 PayloadDescription はテーブルをサポートします。 各レコードは、オーディオまたはビデオのセッションで使用される 1 つのコーデックを表します。
   
-|**列**|**データ型**|**キーまたはインデックス**|**詳細**|
+|**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |**PayloadDescriptionKey** <br/> |int  <br/> |Primary  <br/> |コーデックを識別する一意の番号です。  <br/> |
 |**PayloadDescription** <br/> |nvarchar(256)  <br/> |一意  <br/> |コーデックの名前です。  <br/> |

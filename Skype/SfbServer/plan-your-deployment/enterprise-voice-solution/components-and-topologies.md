@@ -1,5 +1,6 @@
 ---
 title: コンポーネントおよびトポロジの受付制御に電話 Skype ビジネス
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: MPLS ネットワーク、SIP トランク、またサードパーティの PSTN ゲートウェイまたは PBX を使用している場合の通話受付管理 (CAC) の計画について説明します。 ビジネス サーバーのエンタープライズ VoIP Skype に適用されます。
-ms.openlocfilehash: f43b111d0ef3260c34b53e27a903de20fdf676ef
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7022ade98dbd614023a4faaea283b939fa658e73
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887673"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872839"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>コンポーネントおよびトポロジの受付制御に電話 Skype ビジネス
 
@@ -52,14 +53,14 @@ SIP トランクに通話受付管理 (CAC) を展開するには、インター
 
 SIP トランクに CAC を構成するには、CAC の展開時に次の作業を行う必要があります。
 
-1. ITSP を表すためのネットワーク サイトを作成します。 ネットワーク サイトを適切なネットワーク地域に関連付けて、このネットワーク サイトの音声とビデオにゼロの帯域幅を割り当てます。 詳細については、展開に関するドキュメントの[CAC のネットワーク サイトの構成](https://technet.microsoft.com/library/afcea38f-5789-45ec-97af-c6e38364950c.aspx)を参照してください。
+1. ITSP を表すためのネットワーク サイトを作成します。ネットワーク サイトを適切なネットワーク地域に関連付けて、このネットワーク サイトの音声とビデオにゼロの帯域幅を割り当てます。詳細については、「展開」のドキュメントの「[Configure Network Sites for CAC](https://technet.microsoft.com/library/afcea38f-5789-45ec-97af-c6e38364950c.aspx)」を参照してください。
 
     > [!NOTE]
     > ITSP では、このネットワーク サイト構成は機能しません。 帯域幅ポリシーの値は、手順 2 で実際に適用されます。
 
 2. 手順 1 で作成したサイトの関連するパラメーター値を使用して、SIP トランクのサイト間リンクを作成します。 たとえば、企業内のネットワーク サイトの名前を NetworkSiteID1 パラメーターの値として使用し、ITSP ネットワーク サイトの名前を NetworkSiteID2 パラメーターの値として使用します。 詳細については、展開に関するドキュメント、および[新規 CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps) [Skype ビジネス サーバー用のネットワーク サイト間ポリシーの作成](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md)を参照してください。
 
-3. セッション ボーダー コント ローラー (SCB) の IP アドレスを取得、ITSP からメディアの終了点です。 サブネット マスクが 32 の IP アドレスを、ITSP を表すネットワーク サイトに追加します。 詳細については、[ネットワーク サイトとサブネットを関連付ける](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx)を参照してください。
+3. セッション ボーダー コント ローラー (SCB) の IP アドレスを取得、ITSP からメディアの終了点です。 サブネット マスクが 32 の IP アドレスを、ITSP を表すネットワーク サイトに追加します。 詳細については、「[Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx)」を参照してください。
 
 ## <a name="call-admission-control-with-a-third-party-pstn-gateway-or-pbx"></a>サードパーティの PSTN ゲートウェイまたは PBX での通話受付管理
 
@@ -88,7 +89,7 @@ CAC は、WAN で展開できるサード パーティの PBX または PSTN ゲ
 > 仲介サーバーの両方のインターフェイスが属する IP サブネットが構成され、ネットワーク サイト 1 に関連付けられていることを確認ください。
 
 > [!NOTE]
-> 詳細については、[ネットワーク サイトとサブネットを関連付ける](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx)を参照してください。
+> 詳細については、「[Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx)」を参照してください。
 
 ### <a name="case-2-cac-between-the-mediation-server-and-a-third-party-pbx-with-media-termination-point"></a>ケース 2: CAC を仲介サーバーおよびメディア終端ポイントでサード パーティの PBX との間
 
@@ -113,7 +114,7 @@ CAC は、WAN で展開できるサード パーティの PBX または PSTN ゲ
 > 仲介サーバーの両方のインターフェイスが属する IP サブネットが構成され、ネットワーク サイト 1 に関連付けられていることを確認ください。
 
 > [!NOTE]
-> 詳細については、[ネットワーク サイトとサブネットを関連付ける](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx)を参照してください。
+> 詳細については、「[Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx)」を参照してください。
 
 ### <a name="case-3-cac-between-the-mediation-server-and-a-third-party-pbx-without-a-media-termination-point"></a>ケース 3: CAC を仲介サーバーとメディアの終了ポイントのないサード パーティの PBX との間
 
@@ -134,6 +135,6 @@ CAC は、WAN で展開できるサード パーティの PBX または PSTN ゲ
 > 仲介サーバーの両方のインターフェイスが属する IP サブネットが構成され、ネットワーク サイト 1 に関連付けられていることを確認ください。
 
 > [!NOTE]
-> 詳細については、[ネットワーク サイトとサブネットを関連付ける](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx)を参照してください。
+> 詳細については、「[Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx)」を参照してください。
 
 

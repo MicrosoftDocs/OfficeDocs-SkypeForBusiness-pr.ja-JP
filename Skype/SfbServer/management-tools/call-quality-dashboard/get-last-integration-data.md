@@ -1,5 +1,6 @@
 ---
-title: 最後の統合データを取得します。
+title: 直近の統合データの取得
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
 description: '概要: は、品質のダッシュ ボードを呼び出すためのデータ API の一部では、最後の統合データの取得操作について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: b2e759766987b6ee52795845ee55546920181807
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 33681e38b2dfeac635d3e3c7bd05e67980e0a598
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531788"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874424"
 ---
-# <a name="get-last-integration-data"></a>最後の統合データを取得します。
+# <a name="get-last-integration-data"></a>直近の統合データの取得
  
 **の概要:** 品質のダッシュ ボードを呼び出すためのデータ API の一部では、最後の統合データの取得操作について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
   
 最後の統合データの取得操作は、品質のダッシュ ボードを呼び出すためのデータ API の一部です。
   
-## <a name="get-last-integration-data"></a>最後の統合データを取得します。
+## <a name="get-last-integration-data"></a>直近の統合データの取得
 
 最後の統合データの取得操作では、アーカイブ、およびキューブの処理の最後の 5 の成功または失敗のリストを返します。
   

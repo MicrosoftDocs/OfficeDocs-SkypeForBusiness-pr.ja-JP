@@ -1,5 +1,6 @@
 ---
 title: Skype のビジネス サーバー用の高パフォーマンスのモバイル サービスを構成します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
 description: '概要: は、ビジネスのサーバーの Skype では、モビリティ サービスについて説明します。'
-ms.openlocfilehash: 5031d34a2fdcb1610325afbf58c5524a0ee28ca8
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3e3f0df7550a64236335108453f0c35d902a1713
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21026807"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876409"
 ---
 # <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server"></a>Skype のビジネス サーバー用の高パフォーマンスのモバイル サービスを構成します。
  
@@ -29,9 +30,9 @@ ms.locfileid: "21026807"
   
 ### <a name="settings-for-mcx-on-iis-75"></a>IIS 7.5 での Mcx の設定
 
-1. **maxConcurrentThreadsPerCPU**は、ゼロ (0) に設定されています。
+1. **maxConcurrentThreadsPerCPU** は、ゼロ (0) に設定されます。
     
-2. **maxConcurrentRequestsPerCPU**は、ゼロ (0) に設定されています。
+2. **maxConcurrentRequestsPerCPU** は、ゼロ (0) に設定されます。
     
 3. ASP.NET プロセス モデルは、AutoConfig に設定されます (IIS 7.5 のみ)。
     

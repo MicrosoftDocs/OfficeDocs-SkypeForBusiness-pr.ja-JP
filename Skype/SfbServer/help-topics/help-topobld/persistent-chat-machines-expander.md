@@ -1,5 +1,6 @@
 ---
 title: 常設チャット コンピューターのエキスパンダー
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 description: ライセンス認証や、サーバーまたはコンピューターの状態の設定に記載されているプールを使用して、展開済みの永続的なチャット サーバーまたは永続的なチャット サーバー プールを非アクティブ化します。 一覧にあるサーバーまたはプールを選択し、[アクティブにする] をクリックすると、サーバーまたはプールはアクティブに設定されます。
-ms.openlocfilehash: 250804a75c962d9baadc7338052eae1175c57286
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 8318bc734e3532e4fb1c03f0ea796ecbed9ffdc0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19504391"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875103"
 ---
 # <a name="persistent-chat-machines-expander"></a>常設チャット コンピューターのエキスパンダー
  

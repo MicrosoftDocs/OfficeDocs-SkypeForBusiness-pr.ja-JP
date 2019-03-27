@@ -1,5 +1,6 @@
 ---
-title: IP バージョン (計画ツール)
+title: IP Version (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +14,14 @@ localization_priority: Normal
 ms.assetid: df92d228-de60-4025-b249-ad957130ef7b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype のビジネス サーバーの IP アドレスを構成するとき、3 つのオプションがあります。 Skype のビジネスをサポートするサーバー IP バージョン 4 (IPv4) では、唯一の IP バージョン 6 (IPv6) の場合、だけを構成するか、両方の組み合わせ (と呼ばれる、デュアル ・ スタック)。
-ms.openlocfilehash: 244004d045d267aff7b57e0bb93e338f0e3c88d5
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 8b2c83d749dbbcbf6ef171020d625c564258e047
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069195"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875929"
 ---
-# <a name="ip-version-planning-tool"></a>IP バージョン (計画ツール)
+# <a name="ip-version-planning-tool"></a>IP Version (Planning Tool)
  
 Skype のビジネス サーバーの IP アドレスを構成するとき、3 つのオプションがあります。 Skype のビジネスをサポートするサーバー IP バージョン 4 (IPv4) では、唯一の IP バージョン 6 (IPv6) の場合、だけを構成するか、両方の組み合わせ (と呼ばれる、デュアル ・ スタック)。
   

@@ -1,5 +1,6 @@
 ---
 title: ネットワーク領域、サイト、およびビジネスの Skype でサブネットを配置します。
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 作成ネットワーク地域、ネットワーク サイトを変更してビジネス サーバーの Skype のネットワークのサブネットを関連付けます。 これらのすべては、高度なエンタープライズ VoIP 機能に使用します。 メディアのバイパス、受付制御、およびロケーション ベースのルーティングを呼び出します。
-ms.openlocfilehash: fe6edf779d00b96918d8bf92ac7e749b9c003f15
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 91ce871d3e8d4871693b7ad28cf4659ea0bb0c4c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297650"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875483"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>ネットワーク領域、サイト、およびビジネスの Skype でサブネットを配置します。
 
@@ -48,7 +49,7 @@ ms.locfileid: "27297650"
    New-CsNetworkRegion -Identity <String> -CentralSite <String>
    ```
 
-    例:
+    次に例を示します。
 
    ```
    New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
@@ -88,7 +89,7 @@ ms.locfileid: "27297650"
    Set-CsNetworkRegion -Identity <String> -CentralSite <String>
    ```
 
-    例:
+    次に例を示します。
 
    ```
    Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
@@ -112,7 +113,7 @@ ms.locfileid: "27297650"
 
 6. [**地域の編集**] ページで、必要に応じてこのネットワーク地域の設定の値を変更します。
 
-7. [**確定**] をクリックします。
+7. [**コミット**] をクリックします。
 
 8. ネットワーク地域の変更を完了するには、他の地域の設定値を使用してステップ 4 ～ 7 を繰り返します。
 
@@ -130,7 +131,7 @@ ms.locfileid: "27297650"
    New-CsNetworkSite -NetworkSiteID <string>
    ```
 
-    例:
+    次に例を示します。
 
    ```
    New-CsNetworkSite -NetworkSiteID Chicago -Description "Corporate headquarters"-NetworkRegionID NorthAmerica
@@ -225,7 +226,7 @@ ms.locfileid: "27297650"
 
 1. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
 
-2. ネットワーク サイトとサブネットを関連付けるには、**新規 CsNetworkSubnet**コマンドレットを実行します。
+2. **New-CsNetworkSubnet** コマンドレットを実行して、サブネットをネットワーク サイトに関連付けます。
 
    ```
    New-CsNetworkSubnet -SubnetID <String> -MaskBits <Int32> -NetworkSiteID <String>
@@ -280,7 +281,7 @@ ms.locfileid: "27297650"
 7. [**ネットワーク サイト ID**] をクリックし、このサブネットの追加先となるサイトのサイト ID を選択します。
 
     > [!NOTE]
-    > ネットワーク サイトがまだ作成されていない場合、この一覧は空です。 手順の詳細については、「[Create or Modify a Network Site](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx)」を参照してください。 **Get CsNetworkSite**コマンドレットを実行して展開するためのサイト Id を取得することも。 詳細については、Skype ビジネス サーバー管理シェルのドキュメントを参照してください。
+    > ネットワーク サイトがまだ作成されていない場合、この一覧は空です。 手順の詳細については、「[Create or Modify a Network Site](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx)」を参照してください。 また、**Get-CsNetworkSite** コマンドレットを実行して、展開のサイト ID を取得することもできます。 詳細については、Skype ビジネス サーバー管理シェルのドキュメントを参照してください。
 
 8. オプションで、[**説明**] をクリックし、このサブネットを説明する追加情報を入力します。
 
@@ -310,23 +311,23 @@ ms.locfileid: "27297650"
 
 2. 10.121.248.0/24 および 10.121.249.0/24 サブネットがそれぞれネットワーク サイトに関連付けられていることを確認します。
 
-## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
+## <a name="see-also"></a>関連項目
 <a name="BKMK_AssociateSubnets"> </a>
 
 
-[New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
+[新しい-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
 
 [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregion?view=skype-ps)
 
-[Set-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregion?view=skype-ps)
+[セット CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregion?view=skype-ps)
 
-[Remove-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregion?view=skype-ps)
+[削除 CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregion?view=skype-ps)
 
-[New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps)
+[新しい-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps)
 
 [Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/get-csnetworksubnet?view=skype-ps)
 
-[Set-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
+[セット CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
 
-[Remove-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/remove-csnetworksubnet?view=skype-ps)
+[削除 CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/remove-csnetworksubnet?view=skype-ps)
 

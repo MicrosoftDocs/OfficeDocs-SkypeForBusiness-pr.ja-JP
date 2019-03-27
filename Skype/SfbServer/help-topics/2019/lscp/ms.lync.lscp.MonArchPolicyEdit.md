@@ -1,5 +1,6 @@
 ---
 title: アーカイブ ・ ポリシーを新規作成または既存の編集
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 ROBOTS: NOINDEX, NOFOLLOW
 description: ビジネス サーバーの Skype は、ホーム ユーザーのために、配置での内部および外部通信のアーカイブを制御するのにには、アーカイブ ポリシーを使用します。 アーカイブ ポリシーには、グローバル ポリシーとオプションの 1 つ以上のサイト ポリシーやユーザー ポリシーが含まれます。
-ms.openlocfilehash: 9bb8057cd7d3d6b82e55a6045713f0183b3d3b01
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c43992fe808abf3350fc07ff21b8cbd92a4047a6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21000798"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873346"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>アーカイブ ポリシー: 新規作成または現在の形式のままで編集
  

@@ -1,5 +1,6 @@
 ---
-title: 保留中の証明書 (返される)
+title: 保留中の証明書 (結果)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 ROBOTS: NOINDEX, NOFOLLOW
 description: オンライン証明書要求の状態] ページでは、証明書の現在のステータスを返します。 証明書が証明機関の管理者の承認待ち状態のままである場合などですが、されていない場合は、まだ承認されて、状態は、証明書がまだ処理されていることを示します。
-ms.openlocfilehash: 1ef9a3366016c55ba32d5d870cd93111b5af6f3f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6ee8a4d49b6a15c60e86f5bd9e92f0e97a95337d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20990444"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876846"
 ---
-# <a name="pending-certificate-returned"></a>保留中の証明書 (返される)
+# <a name="pending-certificate-returned"></a>保留中の証明書 (結果)
  
 **オンライン証明書要求の状態**] ページでは、証明書の現在のステータスを返します。 証明書が証明機関の管理者の承認待ち状態のままである場合などですが、されていない場合は、まだ承認されて、状態は、証明書がまだ処理されていることを示します。
   

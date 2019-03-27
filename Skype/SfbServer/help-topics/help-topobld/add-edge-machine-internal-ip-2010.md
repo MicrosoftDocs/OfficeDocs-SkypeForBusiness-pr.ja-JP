@@ -1,5 +1,6 @@
 ---
-title: エッジのマシンの内部 IP 2010 を追加します。
+title: エッジ コンピューター内部 IP の追加 (2010)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 31b0ac1d-f320-4677-bd0f-b4b0dc84a6a2
 description: このページを使用すると、内部の IP アドレスおよびエッジ サーバーの内部の完全修飾ドメイン名 (FQDN) を指定します。
-ms.openlocfilehash: 6106f225dbdda1f7e1300606b9cc77299482d020
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: b54fae5ce536e1f859c4c05059b18b5e5067af7e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23251272"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873327"
 ---
-# <a name="add-edge-machine-internal-ip-2010"></a>エッジのマシンの内部 IP 2010 を追加します。
+# <a name="add-edge-machine-internal-ip-2010"></a>エッジ コンピューター内部 IP の追加 (2010)
 
 このページを使用すると、内部の IP アドレスおよびエッジ サーバーの内部の完全修飾ドメイン名 (FQDN) を指定します。
 

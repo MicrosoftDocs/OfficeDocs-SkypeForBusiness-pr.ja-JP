@@ -11,14 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: この資料では、Skype ルーム システム v2 を展開するためのインフラストラクチャの準備作業について説明します。
-ms.openlocfilehash: 24ad623b81df5735c9034d8526e6b028e82dfb83
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 89c035816784bf160ad7f1ed821ed0effe916f31
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371883"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876073"
 ---
-# <a name="prepare-your-environment"></a>環境を準備します。
+# <a name="prepare-your-environment"></a>環境を準備する
 
 このセクションには、すべての Skype ルーム システム v2 の機能を使用できるように、Skype をビジネス環境の準備に必要な手順の概要が含まれます。
   
@@ -39,7 +39,7 @@ ms.locfileid: "25371883"
      > [!NOTE]
      > V2 は HDMI での問題を引き起こすことが確認されています、HDCP の入力をサポートしていません、Skype ルーム システムは、機能 (ビデオ、オーディオ) を取り込みします。 Skype ルーム システム v2 に接続されたスイッチが HDCP 機能をオフにできるように注意します。 
   
-3. エクスペリエンスを改善するために、マイクロソフトではデータを収集しています。データを収集するために、以下のサイトをホワイトリストに記載しておく必要があります。
+3. エクスペリエンスを改善するために、マイクロソフトではデータを収集しています。 データを収集するために、以下のサイトをホワイトリストに記載しておく必要があります。
     
    - 「遠隔測定」クライアントのエンドポイント。https://vortex.data.microsoft.com/
     
@@ -84,30 +84,30 @@ Skype ルーム システム v2 は、Windows OS のプロキシ設定を継承�
 3. **検索ウィンドウ**の [レジストリ エディターの左の種類を下] ボックスの (どちらか長い画面キーを押しますまたは右クリックし、**管理者として実行**] を選択) します。
     
 4. HKEY_USERS フォルダーをクリックします (マシン ユーザー SID の一覧が表示されます)。ルート フォルダー HKEY_USERS が選択されていることを確認します。
-    
-    新しくロードされたハイブは、キー名の入力を要求しますSkype の (すると、Skype のユーザーのレジストリ設定) を入力します。
-    
+       
 5. [ファイル] をクリックし、[**ハイブのロードします**。
     
 6. 参照の**C:\Users\Skype**にフォルダーとファイル名の入力ボックス NTUSER.dat と [開く] ボタンを押します
-    
-7. Skype キーを開き、[HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet の設定を参照し、これらの設定が入力されたことを確認します。 
+
+7. 新しくロードされたハイブは、キー名の入力を要求しますSkype の (すると、Skype のユーザーのレジストリ設定) を入力します。
+ 
+8. Skype キーを開き、[HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet の設定を参照し、これらの設定が入力されたことを確認します。 
     
     [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
     
-    "MigrateProxy"= dword:00000001
+    "MigrateProxy"=dword:00000001
     
-    "ProxyEnable"= dword:00000001
+    "ProxyEnable"=dword:00000001
     
     "ProxyServer"="xx.xx.xx.xx:8080"
     
     ProxyServer が存在しない場合は、このキーを文字列として追加し、xx.xx.xx.xx:8080 をプロキシ サーバーの IP/ホストとポートに変更する必要があります。
     
-8. Skype ユーザー (Skype のルート フォルダー) のキーし、選択の強調表示 (説明の入力を求め確認 - [**はい]** )、レジストリ ファイル] メニューからハイブをアンロードすると、変更が完了した後です。
+9. Skype ユーザー (Skype のルート フォルダー) のキーし、選択の強調表示 (説明の入力を求め確認 - [**はい]** )、レジストリ ファイル] メニューからハイブをアンロードすると、変更が完了した後です。
     
-9. これで、レジストリ エディターを閉じて、Windows の検索ボックスに logoff と入力できます。
+10. これで、レジストリ エディターを閉じて、Windows の検索ボックスに logoff と入力できます。
     
-10. サインイン画面に戻り、**Skype** ユーザーを選択します。 以前のすべてのステップが成功した場合 Skype ルーム システムのバージョン 2 のデバイスはサインインが正常にします。
+11. サインイン画面に戻り、**Skype** ユーザーを選択します。 以前のすべてのステップが成功した場合 Skype ルーム システムのバージョン 2 のデバイスはサインインが正常にします。
     
 このアプリケーションを使用するには、以下に説明されているエンドポイントに接続できる必要があります。IP アドレスを表示するには、トラフィックのフローを説明する表の下にある [IP アドレス] セクションを展開します。
   
@@ -117,14 +117,14 @@ Skype ルーム システム v2 は、Windows OS のプロキシ設定を継承�
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |認証と ID  <br/> |[Office 365 の認証と id](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity)を参照してください。 <br/> |||
 |ポータルと共有  <br/> |[Office 365](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity)を参照してください。 <br/> |||
-|SIP 信号  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |短いポート  <br/> |\*。 contoso.com  <br/> |なし  <br/> |あり  <br/> |[Skype ビジネス IP の範囲の](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
-|永続共有オブジェクト モデル (PSOM) 接続 Web 会議  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |短いポート  <br/> |\*。 contoso.com  <br/> |なし  <br/> |あり  <br/> |[Skype ビジネス IP の範囲の](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
-|HTTPS ダウンロード  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |短いポート  <br/> |\*。 contoso.com  <br/> |なし  <br/> |あり  <br/> |[Skype ビジネス IP の範囲の](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
-|オーディオ  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |TCP/UDP 50,000-50019  <br/> |\*。 contoso.com  <br/> |なし  <br/> |あり  <br/> |[Skype ビジネス IP の範囲の](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443、UDP 3478、TCP/UDP 50,000-59,999  <br/> |
-|ビデオ  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |TCP/UDP 50,020-50039  <br/> |\*。 contoso.com  <br/> |なし  <br/> |あり  <br/> |[Skype ビジネス IP の範囲の](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443、UDP 3478、TCP/UDP 50,000-59,999  <br/> |
-|デスクトップ共有  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |TCP/UDP 50,040-50059  <br/> |\*。 contoso.com  <br/> |なし  <br/> |あり  <br/> |[Skype ビジネス IP の範囲の](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443、50,000-59,999  <br/> |
-|iOS デバイス上の Lync Mobile 2010 向け Lync Mobile プッシュ通知。Android、Nokia Symbian、Windows Phone モバイル デバイスの場合、これは必要ありません。  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |短いポート  <br/> |\*。 contoso.com  <br/> |なし  <br/> |あり  <br/> |[Skype ビジネス IP の範囲の](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
-|Skype テレメトリ  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |短いポート  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |いいえ  <br/> |いいえ  <br/> |該当なし  <br/> |TCP 443  <br/> |
+|SIP 信号  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |短いポート  <br/> |\*。 contoso.com  <br/> |いいえ  <br/> |はい  <br/> |[Skype ビジネス IP の範囲の](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
+|永続共有オブジェクト モデル (PSOM) 接続 Web 会議  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |短いポート  <br/> |\*。 contoso.com  <br/> |いいえ  <br/> |はい  <br/> |[Skype ビジネス IP の範囲の](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
+|HTTPS ダウンロード  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |短いポート  <br/> |\*。 contoso.com  <br/> |いいえ  <br/> |はい  <br/> |[Skype ビジネス IP の範囲の](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
+|オーディオ  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |TCP/UDP 50,000-50019  <br/> |\*。 contoso.com  <br/> |いいえ  <br/> |はい  <br/> |[Skype ビジネス IP の範囲の](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443、UDP 3478、TCP/UDP 50,000-59,999  <br/> |
+|ビデオ  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |TCP/UDP 50,020-50039  <br/> |\*。 contoso.com  <br/> |不可  <br/> |はい  <br/> |[Skype ビジネス IP の範囲の](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443、UDP 3478、TCP/UDP 50,000-59,999  <br/> |
+|デスクトップ共有  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |TCP/UDP 50,040-50059  <br/> |\*。 contoso.com  <br/> |不可  <br/> |はい  <br/> |[Skype ビジネス IP の範囲の](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443、50,000-59,999  <br/> |
+|iOS デバイス上の Lync Mobile 2010 向け Lync Mobile プッシュ通知。Android、Nokia Symbian、Windows Phone モバイル デバイスの場合、これは必要ありません。  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |短いポート  <br/> |\*。 contoso.com  <br/> |不可  <br/> |はい  <br/> |[Skype ビジネス IP の範囲の](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
+|Skype テレメトリ  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |短いポート  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |なし  <br/> |いいえ  <br/> |該当なし  <br/> |TCP 443  <br/> |
 |Skype クライアントのヒント  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |短いポート  <br/> |quicktips.skypeforbusiness.com  <br/> |いいえ  <br/> |いいえ  <br/> |該当なし  <br/> |TCP 443  <br/> |
    
 > [!NOTE]

@@ -1,5 +1,6 @@
 ---
 title: Web サービス設定エキスパンダー
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 description: トポロジ ビルダーでは、内から、両方の内部および外部の web サービスを使用するポートの設定を変更できます。 さらに、ドメイン ネーム システム (DNS) 負荷分散を展開する場合は、ビルダーを使用するトポロジ、完全修飾ドメイン名 (FQDN) を構成するのには、プール内のすべてのサーバーの物理的な IP アドレスに解決されるプールのとします。
-ms.openlocfilehash: 537f9faaf89fbf82e80741d022e0913aa57a02f9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 776ff33dabc331a3cf0a2107e7f0006bf2291fdb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875040"
 ---
 # <a name="web-services-settings-expander"></a>Web サービス設定エキスパンダー
  

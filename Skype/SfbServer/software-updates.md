@@ -1,5 +1,6 @@
 ---
-title: ビジネス用の Skype をダウンロードし、更新
+title: Skype for Business のダウンロードと更新プログラム
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,14 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 検索して、Skype のビジネス サーバーまたは Lync 2013 の更新プログラムを管理します。 詳細を取得し、更新プログラムをダウンロードするリンクを使用します。
-ms.openlocfilehash: af9718d7a6c8eab655c0fded39863d8c978bcb84
-ms.sourcegitcommit: c9b68cbc8199d21a3fa4275db7a663695784afb3
+ms.openlocfilehash: 1f76130ee290e32ecc5e4fbdde03a3f1802470c8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23485814"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872795"
 ---
-# <a name="skype-for-business-downloads-and-updates"></a>ビジネス用の Skype をダウンロードし、更新
+# <a name="skype-for-business-downloads-and-updates"></a>Skype for Business のダウンロードと更新プログラム
 
 Technet であった_Skype_ビジネスのダウンロードおよび更新プログラムの web ページが使用されなくなっています。 コンテンツは、クライアントとサーバーのページに再編成されました。 これらのリンクをする必要がある内容に従います。
 
@@ -49,5 +50,5 @@ Technet であった_Skype_ビジネスのダウンロードおよび更新プ�
         - [リソース キット (テクニカル リファレンス)](sfb-server-updates.md#resource-kit-technical-reference)
         - [グループ チャット](sfb-server-updates.md#group-chat)
         - [試用版ソフトウェア](sfb-server-updates.md#trial-software)
-    - [追加情報](sfb-server-updates.md#additional-information)
-    - [このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。](sfb-server-updates.md#related-topics)
+    - [その他の情報](sfb-server-updates.md#additional-information)
+    - [関連項目](sfb-server-updates.md#related-topics)

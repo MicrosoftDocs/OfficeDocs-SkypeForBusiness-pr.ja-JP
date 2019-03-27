@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype の Skype の接続を展開します。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: '概要: は、Skype の消費者とビジネスのサーバーの Skype を接続する方法を説明します。 これは、Skype 接続とも呼ばれます。'
-ms.openlocfilehash: 33b24ff4ea609240bbb1a1bbea4a8e25154dc14a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3dd48661b230f4e780505be4aeb05bbe9ff82340
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372454"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874508"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>ビジネス サーバーの Skype の Skype の接続を展開します。
  
@@ -80,7 +81,7 @@ Office 365 の中規模ビジネス、Office 365 のエンタープライズ、O
   
 Skype for Business Online の管理の詳細については、次の記事を参照してください。
   
-- [外部の Skype for Business ユーザーに連絡できるようにする](../../SfbOnline/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
+- [ユーザーが外部の Skype for Business ユーザーに連絡できるようにする](../../SfbOnline/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
 
 - [ビジネスまたは Skype の外部の連絡先の IM の Skype することはできないときにどのような](https://support.office.com/en-us/article/What-to-try-if-you-cant-IM-Skype-for-Business-Lync-or-Skype-external-contacts-87f6d5d7-3b8c-4196-9c8c-1dabb75f54b8?ui=en-US&amp;rs=en-US&amp;ad=US)
     
@@ -231,10 +232,10 @@ Skype Connectivity の構成は、PowerShell のみを使用して行うこと�
   
 |**クライアント**|**Skype Directory Search と、連絡先の追加**|**Skype A/V、IM の相互運用性**|
 |:-----|:-----|:-----|
-|Skype for Business  <br/> |あり  <br/> |あり  <br/> |
-|Mac 用 Skype For Business  <br/> |追加可能 (検索不可)  <br/> |はい  <br/> |
+|Skype for Business  <br/> |はい  <br/> |はい  <br/> |
+|Mac でのビジネス用の Skype  <br/> |追加可能 (検索不可)  <br/> |はい  <br/> |
 |Lync Desktop 2013  <br/> |追加可能 (検索不可)  <br/> |はい  <br/> |
-|Lync Web App - オンラインとオンプレミス  <br/> |該当なし  <br/> |該当なし  <br/> |
+|Lync Web App - オンラインとオンプレミス  <br/> |N/A  <br/> |N/A  <br/> |
 |Lync Mobile - Windows Phone  <br/> |準備中  <br/> |はい  <br/> |
 |Lync Mobile - Android  <br/> |準備中  <br/> |はい  <br/> |
 |Lync Mobile - iOS  <br/> |準備中  <br/> |はい  <br/> |
@@ -242,7 +243,7 @@ Skype Connectivity の構成は、PowerShell のみを使用して行うこと�
 |Lync Modern App (Win 8.1)  <br/> |はい  <br/> |はい  <br/> |
 |Lync Mac 2011  <br/> |追加可能 (検索不可)  <br/> |はい  <br/> |
 |Lync Desktop 2010  <br/> |追加可能 (検索不可)  <br/> |はい  <br/> |
-|Lync Phone Edition  <br/> |該当なし  <br/> |該当なし  <br/> |
+|Lync Phone Edition  <br/> |N/A  <br/> |N/A  <br/> |
 |Lync Attendant  <br/> |該当なし  <br/> |該当なし  <br/> |
    
 

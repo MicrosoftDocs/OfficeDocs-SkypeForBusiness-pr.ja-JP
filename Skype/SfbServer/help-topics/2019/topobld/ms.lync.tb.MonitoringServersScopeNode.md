@@ -1,5 +1,6 @@
 ---
-title: サーバー スコープのノードを監視します。
+title: 監視サーバーのスコープ ノード
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
 ROBOTS: NOINDEX, NOFOLLOW
 description: サーバーの監視] ノードには、トポロジ内の監視サーバーが一覧表示されます。 以下のアクションを実行できます。
-ms.openlocfilehash: fcb72dcbcbca0c2242785aaec95d36006896e5f6
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 6b44ddd868bb530e76849b2653306665ef785d24
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21057196"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877200"
 ---
-# <a name="monitoring-servers-scope-node"></a>サーバー スコープのノードを監視します。
+# <a name="monitoring-servers-scope-node"></a>監視サーバーのスコープ ノード
  
 **サーバーの監視**] ノードには、トポロジ内の監視サーバーが一覧表示されます。 以下のアクションを実行できます。
   

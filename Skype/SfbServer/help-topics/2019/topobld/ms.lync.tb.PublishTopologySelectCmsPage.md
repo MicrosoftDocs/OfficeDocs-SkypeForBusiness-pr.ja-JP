@@ -1,5 +1,6 @@
 ---
-title: トポロジの選択の CMS のページを公開します。
+title: トポロジの公開での CMS の選択ページ
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーを使用して構成したトポロジを公開します。 フロント エンド サーバーまたはフロント エンド プールは、中央管理ストアを保持しているの役割を仮定したリストから選択するように求められます。 フロント エンド サーバーまたはフロント エンド プールを 1 つだけでは、任意の時点で、この役割を保持できます。
-ms.openlocfilehash: 5f5c25982194246490232966d5c7da3a48759a57
-ms.sourcegitcommit: 16421e244f866e13600765a41cca509202815819
+ms.openlocfilehash: 0c80fa30721fe47fc3bc4725ca4f50f8a75f7009
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/09/2018
-ms.locfileid: "22290281"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873830"
 ---
-# <a name="publish-topology-select-cms-page"></a>トポロジの選択の CMS のページを公開します。
+# <a name="publish-topology-select-cms-page"></a>トポロジの公開での CMS の選択ページ
  
 トポロジ ビルダーを使用して構成したトポロジを公開します。 フロント エンド サーバーまたはフロント エンド プールは、中央管理ストアを保持しているの役割を仮定したリストから選択するように求められます。 フロント エンド サーバーまたはフロント エンド プールを 1 つだけでは、任意の時点で、この役割を保持できます。 
   

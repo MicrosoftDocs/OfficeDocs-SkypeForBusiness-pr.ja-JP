@@ -1,5 +1,6 @@
 ---
-title: スイッチ CcVersion
+title: Switch-CcVersion
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -9,16 +10,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95e37b13-525b-4690-be32-839312e4ffe3
-description: Switch-CcVersion コマンドレットは、実行中のアプライアンスとスイッチの、新規に展開されたアプライアンスまたはバックアップ インスタンスへの接続を切断します。
-ms.openlocfilehash: 651dad80ef5c9907eb6c182527b646da7aa5acc8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Switch-CcVersion コマンドレットは、実行中のアプライアンスとスイッチの、新規に展開されたアプライアンスまたはバックアップ インスタンスへの接続を切断します。 '
+ms.openlocfilehash: 73ae9b4f93a2488dea29f3271565ac3d25759fd1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872860"
 ---
-# <a name="switch-ccversion"></a>スイッチ CcVersion
+# <a name="switch-ccversion"></a>Switch-CcVersion
  
-Switch-CcVersion コマンドレットは、実行中のアプライアンスとスイッチの、新規に展開されたアプライアンスまたはバックアップ インスタンスへの接続を切断します。 
+Switch-CcVersion コマンドレットは、実行中のアプライアンスとスイッチの、新規に展開されたアプライアンスまたはバックアップ インスタンスへの接続を切断します。  
   
 ```
 Switch-CcVersion [-Force]
@@ -51,9 +53,9 @@ Switch-CcVersion -Force
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**必須**|**タイプ**|**説明**|
+|**パラメーター**|**必須**|**型**|**説明**|
 |:-----|:-----|:-----|:-----|
-| Force <br/> | 省略可能 <br/> |System.Management.Automation.SwitchParameter  <br/> | サービスのドレインに失敗した場合は強制的にサービスを停止します。 <br/> |
+| Force <br/> | 省略可能 <br/> |System.Management.Automation.SwitchParameter  <br/> |  サービスのドレインに失敗した場合は強制的にサービスを停止します。 <br/> |
    
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>

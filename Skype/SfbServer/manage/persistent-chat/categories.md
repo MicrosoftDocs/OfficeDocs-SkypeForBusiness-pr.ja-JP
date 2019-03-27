@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 の常設チャット サーバーでのカテゴリの管理
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: '概要: ビジネス サーバー 2015 の Skype での永続的なチャット サーバー カテゴリを管理する方法を説明します。'
-ms.openlocfilehash: 01b1bad9fd8b68eee68e1980fcb79f69462e9dfa
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a0d70ec0266fc85d94c44c11ba15e42eea0be44b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20979506"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874194"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の常設チャット サーバーでのカテゴリの管理
  
@@ -83,10 +84,10 @@ ms.locfileid: "20979506"
 
 |**コマンドレット**|**説明**|
 |:-----|:-----|
-|新しい-CsPersistentChatCategory  <br/> |新しいカテゴリを作成する  <br/> |
-|セット CsPersistentChatCategory  <br/> |既存のカテゴリの設定を構成する  <br/> |
-|Get CsPersistentChatCategory  <br/> |カテゴリに関する情報を取得する  <br/> |
-|削除 CsPersistentChatCategory  <br/> |カテゴリを削除する  <br/> |
+|New-CsPersistentChatCategory  <br/> |新しいカテゴリを作成する  <br/> |
+|Set-CsPersistentChatCategory  <br/> |既存のカテゴリの設定を構成する  <br/> |
+|Get-CsPersistentChatCategory  <br/> |カテゴリに関する情報を取得する  <br/> |
+|Remove-CsPersistentChatCategory  <br/> |カテゴリを削除する  <br/> |
    
 カテゴリには、次のパラメーターを構成できます。
   
@@ -94,7 +95,7 @@ ms.locfileid: "20979506"
     
 - EnableInvitations。 カテゴリの招待を有効にします。 AllowedMembers リストに登録されているユーザーは、新しいチャット ルームが作成されると、そのチャット ルームへの参加を促す招待状を自動的に受信します。
     
-- ChatHistory。チャット履歴機能を有効または無効にします。
+- ChatHistory。 チャット履歴機能を有効または無効にします。
     
 - Creators。 カテゴリ内でのチャット ルームの作成が許可されるユーザーを指定します。
     
@@ -102,7 +103,7 @@ ms.locfileid: "20979506"
     
 - DeniedMembers。カテゴリ内のチャット ルームへのアクセスが許可されないユーザーをリストします。
     
-すべてのパラメーターを含む、コマンドレットの構文の詳細については、 [Skype ビジネス サーバー 2015 管理シェルに](../management-shell.md)を参照してください。
+すべてのパラメーターを含む、コマンドレットの構文の詳細については、「[Skype for Business Server 2015 Management Shell](../management-shell.md)」を参照してください。
   
 ### <a name="create-a-new-category"></a>新しいカテゴリを作成する
 

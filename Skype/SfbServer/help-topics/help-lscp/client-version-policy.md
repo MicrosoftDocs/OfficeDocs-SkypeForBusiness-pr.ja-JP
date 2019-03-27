@@ -1,5 +1,6 @@
 ---
 title: クライアント バージョン ポリシー
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
 description: 現在の環境でサポートするクライアントのバージョンを指定できます。 バージョンが異なる 2 つのクライアントが対話する場合、機能によっては一方のクライアントでは使用できても、他方のクライアントでは使用できないことがあります。 ビジネス サーバー 2015 の Skype に含まれている機能の最大限に活用し、全体的なユーザー エクスペリエンスを向上させるために、環境内で使用されているクライアント バージョンを制限するのにはクライアント バージョン フィルターを使用することができます。 クライアント バージョン フィルターを使用すると、複数のクライアント バージョンをサポートすることで発生するコストを抑えることもできます。
-ms.openlocfilehash: 67524a0f00a4251db3a16667340c959ca3628547
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 823879e254de95fa6150ec3b07b52f0462c6ece8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247018"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873907"
 ---
 # <a name="client-version-policy"></a>クライアント バージョン ポリシー
 
@@ -58,5 +59,5 @@ ms.locfileid: "23247018"
 
 - **更新**すべてのクライアント バージョン ポリシーのオプションの状態を確認するクライアント バージョン ポリシーの一覧を更新できます。
 
-クライアントとクライアントのバージョン間での相互運用性に関する詳細については、計画ドキュメントに[Lync 2013 プレビューでのクライアントの相互運用性](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)を参照してください。 クライアント バージョン ポリシーの使用についての詳細は、操作マニュアルで[の組織でサポートされるクライアント バージョンの指定](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx)を参照してください。
+クライアント間およびクライアント バージョン間での相互運用性の詳細については、「計画」のドキュメントの「[Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)」を参照してください。クライアント バージョン ポリシーの使用の詳細については、「操作」のドキュメントの「[Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx)」を参照してください。
 

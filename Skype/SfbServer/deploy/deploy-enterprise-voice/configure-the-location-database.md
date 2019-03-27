@@ -1,5 +1,6 @@
 ---
 title: Skype でビジネスのサーバーの場所データベースを構成します。
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: 構成、設定、および公開 ~ 9-1-1 場所データベース Skype のビジネス サーバーのエンタープライズ VoIP の。
-ms.openlocfilehash: e57f9ba299abad613df2f4c54ae9ecbbea748f9a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ab97fae05a74f95e618cebacac9be5ac011eb921
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885500"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873879"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>Skype でビジネスのサーバーの場所データベースを構成します。
  
@@ -38,7 +39,7 @@ ms.locfileid: "23885500"
     
 ## <a name="populate-the-location-database"></a>場所データベースの設定
 
-ネットワーク内のクライアントを自動で検出するために、まず、ネットワーク要素を正式な住所にマップする、ネットワークのワイヤマップを場所データベースに読み込む必要があります。ワイヤマップの定義には、サブネット、ワイヤレス アクセス ポイント、スイッチ、およびポートを使用できます。
+ネットワーク内のクライアントを自動で検出するために、まず、ネットワーク要素を正式な住所にマップする、ネットワークのワイヤマップを場所データベースに読み込む必要があります。 ワイヤマップの定義には、サブネット、ワイヤレス アクセス ポイント、スイッチ、およびポートを使用できます。
   
 住所は場所データベースに個別に追加することも、次の表に示す列形式を含む CSV ファイルを使用して一括で追加することもできます。
   
@@ -47,7 +48,7 @@ ms.locfileid: "23885500"
 |**ネットワーク要素**|**必要な列**|
 |:-----|:-----|
 |**ワイヤレス アクセス ポイント** <br/> |\<BSSID\>、\<の説明\>、\<の場所\>、\<[得意先名]\>、\<HouseNumber\>、\<HouseNumberSuffix\>、\<PreDirectional\>、.  <br/> .\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<市\>、\<の状態\>、\<[郵便番号]\>、\<国\>  <br/> |
-|**サブネット** <br/> |\<サブネット\>、\<の説明\>、\<の場所\>、\<[得意先名]\>、\<HouseNumber\>、\<HouseNumberSuffix\>、\<PreDirectional\>、.  <br/> .\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<市\>、\<の状態\>、\<[郵便番号]\>、\<国\>  <br/> |
+|**Subnet** <br/> |\<サブネット\>、\<の説明\>、\<の場所\>、\<[得意先名]\>、\<HouseNumber\>、\<HouseNumberSuffix\>、\<PreDirectional\>、.  <br/> .\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<市\>、\<の状態\>、\<[郵便番号]\>、\<国\>  <br/> |
 |**ポート** <br/> |\<ChassisID\>、\<PortIDSubType\>、\<PortID\>、\<の説明\>、\<の場所\>、\<[得意先名]\>、\<HouseNumber\>、\<HouseNumberSuffix\>、.  <br/> .\<PreDirectional\>、\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<市\>、\<の状態\>、\<[郵便番号]\>、\<国\>  <br/> |
 |**スイッチ** <br/> |\<ChassisID\>、\<の説明\>、\<の場所\>、\<[得意先名]\>、\<HouseNumber\>、\<HouseNumberSuffix\>、\<PreDirectional\>、.  <br/> .\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<市\>、\<の状態\>、\<[郵便番号]\>、\<国\>  <br/> |
    
@@ -132,7 +133,7 @@ ms.locfileid: "23885500"
    Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
    ```
 
-   個々 のアドレスを検証するのに**テスト CsLisCivicAddress**コマンドレットを使用することもできます。
+   また、**Test-CsLisCivicAddress** コマンドレットを使用して、個々の住所を確認することもできます。
     
 ## <a name="publish-the-location-database"></a>場所データベースの公開
 

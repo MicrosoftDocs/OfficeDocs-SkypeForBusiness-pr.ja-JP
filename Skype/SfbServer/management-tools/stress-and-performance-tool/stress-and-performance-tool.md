@@ -1,5 +1,6 @@
 ---
-title: Skype ビジネス 2015 のサーバの負荷およびパフォーマンス ツール
+title: Skype for Business Server 2015 Stress and Performance Tool
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.date: 4/6/2016
@@ -10,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
 description: ビジネス サーバー 2015 のストレスおよびパフォーマンス ツールの Skype は、キャパシティ ・ プランニングとパフォーマンス チューニングの非運用環境またはテスト環境で実行中に使用されます。
-ms.openlocfilehash: 9ccd4b851ad64f829a15bd6138764995f789dbf6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 801a18b4c2cb31cad52cf2d57a661361788844f0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20984464"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875026"
 ---
-# <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype ビジネス 2015 のサーバの負荷およびパフォーマンス ツール
+# <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 Stress and Performance Tool
  
 ビジネス サーバー 2015 のストレスおよびパフォーマンス ツールの Skype は、キャパシティ ・ プランニングとパフォーマンス チューニングの非運用環境またはテスト環境で実行中に使用されます。
   

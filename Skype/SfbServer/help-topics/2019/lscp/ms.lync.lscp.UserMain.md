@@ -1,5 +1,6 @@
 ---
 title: コントロール パネルの更新されたユーザーの検索
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype のビジネス サーバーのユーザーを構成するのには、検索クエリの結果を使用できます。 ユーザーは、表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) で検索できます。 ユーザーの検索には、Lync Server コントロール パネルまたは Active Directory ユーザーおよびコンピューター スナップインを使用できます。
-ms.openlocfilehash: 79a12b5b420b355376e544d8a51db8e24142bea0
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 9ffcb7c0046c80f684450f8d8c9e30814f8ef4ea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245685"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877966"
 ---
 # <a name="control-panel---updated-user-search"></a>コントロール パネル - 更新: ユーザー検索
 
@@ -35,13 +36,13 @@ Skype のビジネス サーバーのユーザーを構成するのには、検�
 
 - [すべてのユーザーの移動](ms.lync.lscp.UserMoveAll.md)
 
-- [ユーザーにポリシーを割り当てる](https://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
+- [Assign Policies to Users](https://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
 
 - [ビジネス サーバーの Skype でエンタープライズ VoIP のユーザーを有効にします。](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
-- [ユーザーのフェデレーション、リモート ユーザー アクセス、およびパブリック IM 接続を構成します。](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [Configure Federation, Remote User Access, and Public IM Connectivity for Users](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
-- [ユーザーのテレフォニーを構成します。](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [Configure Telephony for Users](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
 
 
 
@@ -75,7 +76,7 @@ Skype のビジネス サーバーのユーザーを構成するのには、検�
 
 - **ユーザーを有効にします。** 開く] をクリックして、[ユーザー: Lync Server のユーザーが新しい](ms.lync.lscp.UserNew.md)ダイアログ ボックスで、ビジネスのサーバーの Skype に新しいユーザーを追加する場所です。
 
-    新しい連絡先を追加する、下向きの矢印をクリックし、**連絡先を有効にする**を開くには、[ユーザー: 新しい連絡先オブジェクト](ms.lync.lscp.UserNewContact.md)ダイアログです。
+    新規連絡先を追加するには、下矢印をクリックして [**連絡先を有効にする**] を選択し、[[Users: New Contact Objects](ms.lync.lscp.UserNewContact.md)] ダイアログを開きます。
 
 - **編集**[**編集**] をクリックし、選択したユーザーの詳細を表示または**検索結果をすべて選択**結果テーブルに表示されるすべてのユーザーを選択する] をクリックして**詳細を表示する**をクリックします。
 

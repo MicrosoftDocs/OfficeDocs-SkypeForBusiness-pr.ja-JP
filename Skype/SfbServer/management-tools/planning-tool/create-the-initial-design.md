@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 の初期トポロジ設計の作成
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 description: Skype のビジネス サーバー計画ツールのインストールが完了したら後、は、計画ツールを起動し、サーバー 2015 のビジネス ・ インフラストラクチャの提案された Skype の設計を開始する準備が整ったら。
-ms.openlocfilehash: 73fd6f4a83ec5aec6808124728c1c73419bcdd28
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 132db1bfacac5d5faec17c2edceb72fe7736f887
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246667"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876896"
 ---
 # <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 の初期トポロジ設計の作成
 
@@ -44,7 +45,7 @@ Skype のビジネス サーバー計画ツールのインストールが完了�
     > [!TIP]
     > 各ページには、選択条件の説明および望ましい方法や処理能力計画に基づいた推奨事項が表示されます。 追加の詳細情報を必要とする場合は、Microsoft の web サイト上のドキュメントのビジネス サーバー 2015 の計画の Skype から詳細な情報を読み取るため**の詳細を表示**をクリックします。 Microsoft の web サイトにアクセスするのにはインターネットに接続する必要があります。
 
-5. 設計に適合するオプションを選択します。初期条件を定義すると、新しいページが表示され [機能の概要] が完成しているかどうかが確認されます。
+5. 設計に適合するオプションを選択します。 初期条件を定義すると、新しいページが表示され [機能の概要] が完成しているかどうかが確認されます。
 
 6. セントラル サイトを定義するのには**サイトのデザイン**をクリックします。
 
@@ -76,4 +77,4 @@ Skype のビジネス サーバー計画ツールのインストールが完了�
 
 ## <a name="see-also"></a>関連項目
 
-[デザインを編集](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
+[Editing the Design](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)

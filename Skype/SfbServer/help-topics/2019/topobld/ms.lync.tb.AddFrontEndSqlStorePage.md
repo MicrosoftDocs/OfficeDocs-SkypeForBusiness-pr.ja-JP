@@ -1,5 +1,6 @@
 ---
-title: フロント エンドの SQL Server ストアを追加します。
+title: フロントエンド SQL Server ストアの追加
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Standard Edition サーバーの展開は、必要なデータベース ソフトウェアの高速に Microsoft SQL Server と SQL Server データベースに自動的にインストールします。 したがって、すべてのオプション、事前に設定されて、既定の構成に変更を加えることはできません。
-ms.openlocfilehash: 31abc84b05486ae2aefe361bfd239714f6e91189
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5424325431867d6e7c2d1991f4a3152c89ac5ca1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245790"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873556"
 ---
-# <a name="add-front-end-sql-server-store"></a>フロント エンドの SQL Server ストアを追加します。
+# <a name="add-front-end-sql-server-store"></a>フロントエンド SQL Server ストアの追加
 
 Standard Edition サーバーの展開は、必要なデータベース ソフトウェアの高速に Microsoft SQL Server と SQL Server データベースに自動的にインストールします。 したがって、すべてのオプション、事前に設定されて、既定の構成に変更を加えることはできません。
 

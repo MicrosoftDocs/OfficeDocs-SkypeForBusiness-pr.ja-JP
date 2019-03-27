@@ -1,5 +1,6 @@
 ---
 title: Tenants テーブル
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1b070c1-2c59-4ca9-910b-43f673f97fda
 description: テナントのテーブルは、さまざまなテナントのリストを格納するサポート テーブルです。 テーブル内の各レコードは、1 つのテナントを表します。
-ms.openlocfilehash: 4dde1baaf553c1a0d8a0efe65d72e8326cbb3bad
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: cf7d0271c9cacfd76079a80a7e5db63d669a8dfb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873991"
 ---
 # <a name="tenants-table"></a>Tenants テーブル
  
@@ -23,7 +25,7 @@ ms.lasthandoff: 03/28/2018
 > [!NOTE]
 > 設置型展開では、CDR は、[フェデレーション] と [匿名、パブリック IM 接続など、さまざまな認証の種類を示すためにビルドのテナント ID を使用します。 
   
-|**列**|**データ型**|**キーまたはインデックス**|**詳細**|
+|**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |**TenantId** <br/> |int  <br/> |Primary  <br/> |このテナント ID を識別する一意の番号  <br/> |
 |**TenantKey** <br/> |nvarchar(256)  <br/> || 使用可能な値: <br/>  00000000-0000-0000-0000-000000000000 ・ エンタープライズ <br/>  連合-00000000-0000-0000-0000-000000000001 <br/>  00000000-0000-0000-0000-000000000002 - 匿名 <br/>  00000000-0000-0000-0000-000000000003 のパブリック IM 接続 <br/> |

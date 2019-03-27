@@ -1,5 +1,6 @@
 ---
 title: Lync Server ユーザーの新しいユーザー
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
 ROBOTS: NOINDEX, NOFOLLOW
-description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 5bb2d2f90a2e5170aa8f314dc807e9cdae819e91
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: bbd9ffa3e90faa764b7dc0652ecc2f97970959bf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258544"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875891"
 ---
 # <a name="users-new-user"></a>新しいユーザーのユーザー:
 
-目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 
 - [新しいユーザーを追加します。](https://technet.microsoft.com/library/1edd1c1c-307d-450b-abea-33aaf56bdf13.aspx)
 
@@ -33,7 +34,7 @@ ms.locfileid: "23258544"
 
 - [ビジネス サーバーの Skype のユーザー単位の PIN ポリシーを割り当てる](../../../manage/authentication/assign-a-per-user-pin-policy.md)
 
-- [ユーザーのフェデレーション、リモート ユーザー アクセス、およびパブリック IM 接続を構成します。](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [Configure Federation, Remote User Access, and Public IM Connectivity for Users](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
 - [ユーザーの通信のアーカイブを構成します。](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
 
@@ -41,9 +42,9 @@ ms.locfileid: "23258544"
 
 - [ビジネス サーバーの Skype でエンタープライズ VoIP のユーザーを有効にします。](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
-- [ユーザーのフェデレーション、リモート ユーザー アクセス、およびパブリック IM 接続を構成します。](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [Configure Federation, Remote User Access, and Public IM Connectivity for Users](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
-- [ユーザーのテレフォニーを構成します。](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [Configure Telephony for Users](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
 
 - [ユーザーごとのモビリティ ポリシーを割り当てる](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
 

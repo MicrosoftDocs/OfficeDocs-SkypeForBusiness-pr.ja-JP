@@ -1,5 +1,6 @@
 ---
 title: 常設チャットの次ホップの追加ページ
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: a47c824d-a76a-413b-9335-bfe5ffef15db
 ROBOTS: NOINDEX, NOFOLLOW
 description: このページを使用すると、展開に永続的なチャット サーバーのサーバーから次のホップを定義します。 永続的なチャット サーバーを展開する方法の詳細については、ビジネス サーバー 2015 の Skype での永続的なのチャット サーバーの展開を参照してください。
-ms.openlocfilehash: d8b874c72bdd69dc36618e91d85dd89a752edf7a
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 16071d9875f34483477ec68bdc1dfd72e9c55380
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060879"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875778"
 ---
 # <a name="add-persistent-chat-next-hop-page"></a>常設チャットの次ホップの追加ページ
 

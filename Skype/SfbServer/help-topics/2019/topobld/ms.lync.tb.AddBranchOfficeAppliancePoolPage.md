@@ -1,5 +1,6 @@
 ---
-title: リカバリ性に優れたブランチ アプライアンス ・ プールを追加します。
+title: 存続可能ブランチ アプライアンス プールの追加
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,15 +12,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 56915c5d-9991-4d16-949d-a75883767d44
 ROBOTS: NOINDEX, NOFOLLOW
-description: リカバリ性に優れたブランチ アプライアンスの FQDN を定義するには、FQDN] ボックスに、リカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーの完全修飾ドメイン名 (FQDN) (定義されているドメイン ネーム システム (DNS)) を入力します。 [次へ] をクリックして続行します。
-ms.openlocfilehash: 508d4e57c6c7034efb9a4dcd55bad0c8008baba6
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+description: リカバリ性に優れたブランチ アプライアンスの FQDN を定義するには、FQDN] ボックスに、リカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーの完全修飾ドメイン名 (FQDN) (定義されているドメイン ネーム システム (DNS)) を入力します。 [次へ] をクリックします。
+ms.openlocfilehash: 4960f9e1326763f4e763cc22e44ebda7eb0ef5ce
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21067856"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873767"
 ---
-# <a name="add-survivable-branch-appliance-pool"></a>リカバリ性に優れたブランチ アプライアンス ・ プールを追加します。
+# <a name="add-survivable-branch-appliance-pool"></a>存続可能ブランチ アプライアンス プールの追加
  
 **リカバリ性に優れたブランチ アプライアンスの FQDN を定義する**には、 **FQDN** ] ボックスに、リカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーの完全修飾ドメイン名 (FQDN) (定義されているドメイン ネーム システム (DNS)) を入力します。 [**次へ**] をクリックして続行します。
   

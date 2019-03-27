@@ -1,5 +1,6 @@
 ---
-title: サービスのセッションを防止します。
+title: サービスのセッションの禁止
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: コントロール パネルのバージョンのインストールを使用するには、特定のコンピューターで実行されているすべての従来のサービスの新しいセッションを防止する、または特定のレガシー サービスの新しいセッションを防止します。
-ms.openlocfilehash: af4605f65d7cabe187696eda20bd9082ab73ad02
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9f3f9bb301841d7e71c18f4d3ca052f3d0c74dce
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027215"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875533"
 ---
-# <a name="prevent-sessions-for-services"></a>サービスのセッションを防止します。
+# <a name="prevent-sessions-for-services"></a>サービスのセッションの禁止
 
 コントロール パネルのバージョンのインストールを使用するには、特定のコンピューターで実行されているすべての従来のサービスの新しいセッションを防止する、または特定のレガシー サービスの新しいセッションを防止します。
   

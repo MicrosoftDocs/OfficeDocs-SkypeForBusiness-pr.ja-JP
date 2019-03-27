@@ -1,5 +1,6 @@
 ---
-title: フロント エンド プールの FQDN を追加します。
+title: フロントエンド プールの FQDN の追加
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02ae996c-a1c6-4ff4-b6d6-bdef4ad44d2a
 description: 作成しているフロント エンド プールの完全修飾ドメイン名 (FQDN) を指定します。 フロント エンド プールを含むトポロジを公開した後は、プールの FQDN を変更できません。 プールの名前を変更する場合は、プールを削除し、新しい FQDN を持つ新しいプールを追加します。
-ms.openlocfilehash: 739a794b1b3fd8e88ae074b5c03f4c0e51fb844f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4d09e70e6c75c2e1013b0a801d343865c9d112eb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20981298"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877155"
 ---
-# <a name="add-front-end-pool-fqdn"></a>フロント エンド プールの FQDN を追加します。
+# <a name="add-front-end-pool-fqdn"></a>フロントエンド プールの FQDN の追加
  
 作成しているフロント エンド プールの完全修飾ドメイン名 (FQDN) を指定します。 フロント エンド プールを含むトポロジを公開した後は、プールの FQDN を変更できません。 プールの名前を変更する場合は、プールを削除し、新しい FQDN を持つ新しいプールを追加します。
   

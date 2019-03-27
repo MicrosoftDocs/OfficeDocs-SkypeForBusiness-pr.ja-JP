@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype でのアーカイブ ・ オプションを管理します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
 description: '概要: は、Skype のビジネス サーバー用のアーカイブのオプションを構成する方法について説明します。'
-ms.openlocfilehash: 235a0170a4301e48caeae17b7315a174ca2c8aee
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: db0fbe113f38065e85419b05d39fd0176b5ba845
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20993568"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877784"
 ---
 # <a name="manage-archiving-options-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのアーカイブ ・ オプションを管理します。
 
@@ -61,7 +62,7 @@ ms.locfileid: "20993568"
 
 |**コマンドレット**|**説明**|
 |:-----|:-----|
-|Get CsArchivingConfiguration  <br/> |組織のアーカイブ構成設定に関する情報を戻します。  <br/> |
-|CsArchivingConfiguration で新しい  <br/> |インスタント メッセージング (IM) 設定のセットを新たに作成します。これらの設定を使用すると、IM セッションの自動保存を有効または無効にしたり、アーカイブできないインスタント メッセージをブロックしたりできます。  <br/> |
-|削除 CsArchivingConfiguration  <br/> |アーカイブ設定の指定のコレクションを削除します。アーカイブ設定は、インスタント メッセージング (IM) セッションの自動保存を有効または無効にしたり、アーカイブできないインスタント メッセージをすべてブロックしたり (オプション) するときに使用されます。  <br/> |
-|セット CsArchivingConfiguration  <br/> |インスタント メッセージング (IM) アーカイブ構成オプションの既存のコレクションを変更します。  <br/> |
+|Get-CsArchivingConfiguration  <br/> |組織のアーカイブ構成設定に関する情報を戻します。  <br/> |
+|New-CsArchivingConfiguration  <br/> |インスタント メッセージング (IM) 設定のセットを新たに作成します。これらの設定を使用すると、IM セッションの自動保存を有効または無効にしたり、アーカイブできないインスタント メッセージをブロックしたりできます。  <br/> |
+|Remove-CsArchivingConfiguration  <br/> |アーカイブ設定の指定のコレクションを削除します。アーカイブ設定は、インスタント メッセージング (IM) セッションの自動保存を有効または無効にしたり、アーカイブできないインスタント メッセージをすべてブロックしたり (オプション) するときに使用されます。  <br/> |
+|Set-CsArchivingConfiguration  <br/> |インスタント メッセージング (IM) アーカイブ構成オプションの既存のコレクションを変更します。  <br/> |

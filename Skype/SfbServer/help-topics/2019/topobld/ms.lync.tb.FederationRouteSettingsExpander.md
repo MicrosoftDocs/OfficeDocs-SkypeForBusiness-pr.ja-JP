@@ -1,5 +1,6 @@
 ---
-title: フェデレーション ルートの設定の拡張
+title: フェデレーション ルート設定の展開
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 ROBOTS: NOINDEX, NOFOLLOW
 description: サイトのフェデレーション ルートの割り当てを設定するには、エッジ サーバーまたはエッジ サーバー プールで有効にするフェデレーション最初必要があります。 エッジ サーバーまたはプールでフェデレーションが有効でない場合、サイトのフェデレーション ルートの割り当ての設定は変更できません。
-ms.openlocfilehash: 201fa7b556cc3a12c422145cf46c844faafb1cb4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 49709f5c4a91e25efb14cc4b2c321c99fec89b68
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371782"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873339"
 ---
-# <a name="federation-route-settings-expander"></a>フェデレーション ルートの設定の拡張
+# <a name="federation-route-settings-expander"></a>フェデレーション ルート設定の展開
  
 サイトのフェデレーション ルートの割り当てを設定するには、エッジ サーバーまたはエッジ サーバー プールで有効にするフェデレーション最初必要があります。 エッジ サーバーまたはプールでフェデレーションが有効でない場合、サイトのフェデレーション ルートの割り当ての設定は変更できません。
 

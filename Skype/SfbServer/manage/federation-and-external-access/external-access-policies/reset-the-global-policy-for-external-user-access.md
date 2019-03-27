@@ -1,5 +1,6 @@
 ---
 title: 外部ユーザー アクセスに関するグローバル ポリシーのリセット
+ms.reviewer: ''
 ms:assetid: 8207e1b1-de9e-461f-975f-fcc5c526849a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182545(v=OCS.15)
 ms:contentKeyID: 48184675
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: グローバル ポリシーを完全に削除することはできません。 外部ユーザー アクセス オプションのサポートが含まれていない既定の設定をグローバル ポリシーをリセットすることがのみグローバル ポリシーを**削除**する] オプションを使用します。
-ms.openlocfilehash: e3296167aa6d9a0a4fc6452c3505a068a69c3b78
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 048d1f1aabd2e188cefa25358068ea6ec150b8f3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222801"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877875"
 ---
 # <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>ビジネス サーバーの Skype での外部ユーザー アクセスのグローバル ポリシーをリセットします。 
 

@@ -1,5 +1,6 @@
 ---
-title: クライアントの設定 (ツールの計画)
+title: Client Settings (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,16 +13,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
 ROBOTS: NOINDEX, NOFOLLOW
-description: ビジネス サーバー 25 の Skype のモビリティ機能では、モバイル デバイスでのビジネス機能のため Skype をサポートしています。 詳細については、移動の計画を参照してください。
-ms.openlocfilehash: b7f5a96d85efa3f36719e36e8944e823b7155f53
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: ビジネス サーバー 25 の Skype のモビリティ機能では、モバイル デバイスでのビジネス機能のため Skype をサポートしています。 詳細については、「Planning for Mobility」を参照してください。
+ms.openlocfilehash: a940925d2d1a89a3ea4a158e041adf05f5263b8b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255006"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873283"
 ---
-# <a name="client-settings-planning-tool"></a>クライアントの設定 (ツールの計画)
+# <a name="client-settings-planning-tool"></a>Client Settings (Planning Tool)
 
-ビジネス サーバーの Skype のモビリティ機能では、モバイル デバイスでのビジネス機能のため Skype をサポートしています。 詳細については、[移動の計画](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)を参照してください。
+ビジネス サーバーの Skype のモビリティ機能では、モバイル デバイスでのビジネス機能のため Skype をサポートしています。 詳細については、「[Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)」を参照してください。
 
 

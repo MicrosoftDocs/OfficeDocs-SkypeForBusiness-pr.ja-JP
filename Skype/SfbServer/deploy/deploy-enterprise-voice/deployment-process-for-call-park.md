@@ -1,5 +1,6 @@
 ---
 title: ビジネス用の Skype のコール パークの展開プロセス
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2000d672-a85f-4262-9d69-0bee9ae3709a
 description: 展開プロセスとビジネス サーバーのエンタープライズ VoIP の Skype のコール パークの手順を実行します。
-ms.openlocfilehash: 20e50c024da9483da71fde610c0094404786b130
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 470a8a2f918a69324a747fe667692c8ab36ee542
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888324"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873634"
 ---
 # <a name="deployment-process-for-call-park-in-skype-for-business"></a>ビジネス用の Skype のコール パークの展開プロセス
  
@@ -33,8 +34,8 @@ ms.locfileid: "23888324"
 |**段階**|**手順**|**必要なグループおよび役割**|**「展開」のドキュメント**|
 |:-----|:-----|:-----|:-----|
 |オービット テーブルでコール パーク オービット範囲を構成する  <br/> |アプリケーションを使用して Skype ビジネス サーバーのコントロール パネルの**新規 CSCallParkOrbit**コマンドレットをコール パークの回り込みテーブルでの移動範囲を作成しに関連付けるアプリケーション サービスをホストしているパーク。 <br/> **注:** 既存のダイヤル プランとシームレスに統合、軌道の範囲は通常、仮想の拡張子のブロックとして構成します。 コール パーク オービット テーブルでオービット番号として Direct Inward Dialing (DID) 番号を指定することは、サポートされていません。 <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[作成またはビジネス用の Skype でコール パークの移動範囲を変更します。](create-or-modify-a-call-park-orbit-range.md) <br/> |
-|コール パーク設定の構成  <br/> | **セット CsCpsConfiguration**コマンドレットを使用して、コール パーク設定を構成します。 最低限、停止の呼び出しがタイムアウトになったときに使用する代替の宛先を構成するのには [ **OnTimeoutURI** ] オプションを構成することをお勧めします。次の設定を構成することもできます。 <br/>  (省略可能)**EnableMusicOnHold**を有効にするか、保留中の音楽を無効にします。 <br/>  (省略可能)**MaxCallPickupAttempts**のフォールバック統一リソース識別子 (URI) への呼び出しを転送する前に応答側の電話に停止の呼び出しまでの呼び出し回数を決定します。 <br/>  (省略可能)**CallPickupTimeoutThreshold**の電話が鳴って電話呼び出しに応答した場所に戻る前に、駐機しているされた後に経過する時間の量を判断します。 <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[ビジネス用の Skype のコール パーク設定を構成します。](configure-call-park-settings.md) <br/> |
-|必要に応じて、保留音をカスタマイズする  <br/> |カスタマイズし、オーディオ ファイルをアップロード、既定の音楽を使用したくない場合に、**セット CsCallParkServiceMusicOnHoldFile**コマンドレットを使用します。 <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[ビジネスのために保留中の inSkype コール パークの音楽をカスタマイズします。](customize-call-park-music-on-hold.md) <br/> |
+|コール パーク設定の構成  <br/> | **セット CsCpsConfiguration**コマンドレットを使用して、コール パーク設定を構成します。 最低限、停止の呼び出しがタイムアウトになったときに使用する代替の宛先を構成するのには [ **OnTimeoutURI** ] オプションを構成することをお勧めします。次の設定を構成することもできます。 <br/>  (オプション) **EnableMusicOnHold** を構成して保留音を有効または無効にします。 <br/>  (オプション) **MaxCallPickupAttempts** を構成して、パークされた通話が、代替 Uniform Resource Identifier (URI) に転送されるまでに、応答した電話にかけ直す回数を決定します。 <br/>  (オプション) **CallPickupTimeoutThreshold** を構成して、通話がパークされてから、呼び出しに応答した電話にかけ直されるまでの経過時間を決定します。 <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[ビジネス用の Skype のコール パーク設定を構成します。](configure-call-park-settings.md) <br/> |
+|必要に応じて、保留音をカスタマイズする  <br/> |既定の保留音を使用しない場合は、**Set-CsCallParkServiceMusicOnHoldFile** コマンドを使用して、音声ファイルをカスタマイズおよびアップロードします。 <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[ビジネスのために保留中の inSkype コール パークの音楽をカスタマイズします。](customize-call-park-music-on-hold.md) <br/> |
 |ユーザーに対してコール パークを有効にする音声ポリシーを構成します。  <br/> |ボイス ポリシーでユーザーのコール パークを有効にするのにビジネス サーバーのコントロール パネルまたは**EnableCallPark**オプションを使用して**セット CSVoicePolicy**コマンドレットの Skype を使用します。 <br/> 既定では、すべてのユーザーに対してコール パークが無効になります。  <br/> 複数の音声ポリシーが存在する場合、EnableCallPark プロパティが、既定のポリシーに対してだけでなく、それぞれの音声ポリシーに設定されているのを確認してください。  <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[ビジネス用の Skype のユーザーのコール パークを有効にします。](enable-call-park-for-users.md) <br/> |
 |コール パーク正規化ルールの確認  <br/> |コール パーク オービットを正規化することはできません。正規化ルールにオービット範囲が含まれていないのを確認します。必要に応じて、オービットが正規化されるのを防ぐため、追加の正規化ルールを作成します。  <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[ビジネス用の Skype のコール パークの正規化ルールを確認します。](verify-normalization-rules-for-call-park.md) <br/> |
 |コール パーク展開を確認します。  <br/> |通話の保留と取得をテストし、構成が予想どおりに動作することを確認します。  <br/> |-  <br/> |[(省略可能)ビジネス用の Skype のコール パーク展開を確認します。](optional-verify-call-park-deployment.md) <br/> |

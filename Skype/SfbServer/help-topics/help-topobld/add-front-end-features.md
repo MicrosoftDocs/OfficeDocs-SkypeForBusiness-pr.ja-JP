@@ -1,5 +1,6 @@
 ---
-title: フロント エンド機能を追加します。
+title: フロントエンドの機能の追加
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 description: フロント エンド プールを有効にする各機能を選択します。 最低限、インスタント メッセージング (IM) を展開する必要がありますが常に有効になっているし、選択を解除することはできません。 また、会議、エンタープライズ VoIP など、他の機能を展開するオプションがあり、受付制御 (CAC) を呼び出します。 いくつかの機能は、トポロジに依存します。
-ms.openlocfilehash: 1927ab0641295abc0d1f052f1a368adcce392c27
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 18071b61a6858da2558f29363cc88970fa585b7b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255825"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877651"
 ---
-# <a name="add-front-end-features"></a>フロント エンド機能を追加します。
+# <a name="add-front-end-features"></a>フロントエンドの機能の追加
 
 フロント エンド プールを有効にする各機能を選択します。 最低限、インスタント メッセージング (IM) を展開する必要がありますが常に有効になっているし、選択を解除することはできません。 また、会議、エンタープライズ VoIP など、他の機能を展開するオプションがあり、受付制御 (CAC) を呼び出します。 いくつかの機能は、トポロジに依存します。
 

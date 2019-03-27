@@ -1,5 +1,6 @@
 ---
-title: キューのタイムアウトを選択します。
+title: タイムアウト キューの選択
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 3ced887e-a8f2-4c77-9093-cdf0afc4cb97
 ROBOTS: NOINDEX, NOFOLLOW
 description: ダイアログを使用して選択、タイムアウト キュー キューを選択するのには呼び出しがタイムアウトしたときに転送されます。
-ms.openlocfilehash: 1da58e267e3fe1656c7f54493668c92a3528ff71
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ef3c174bd5bab92975e26c1859fbd4ad792a2853
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21005490"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876571"
 ---
-# <a name="select-time-out-queue"></a>キューのタイムアウトを選択します。
+# <a name="select-time-out-queue"></a>タイムアウト キューの選択
  
 呼び出しがタイムアウトしたときに転送されるキューを選択するのには、[**キューのタイムアウトを選択**] ダイアログ ボックスを使用します。
   

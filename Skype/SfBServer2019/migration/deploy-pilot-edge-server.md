@@ -1,5 +1,6 @@
 ---
-title: パイロットのエッジ サーバーを展開します。
+title: パイロット エッジ サーバーの展開
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: このトピックでは、Skype をビジネス 2019 エッジ サーバーを展開する前に注意する必要があります構成の設定が強調表示されます。 ビジネス サーバー 2019 の Skype の展開と構成のプロセスは、ビジネス サーバー 2015 の Skype に非常に似ています。 のみ、このセクションには、パイロット プール展開の一環として検討する必要がある重要なポイントが強調表示されます。 詳細な手順を参照してください Skype で外部ユーザー アクセスを導入するビジネス サーバー 2019 の展開に関するドキュメントは、展開プロセスについて説明し、外部ユーザー アクセスの構成情報も示されます。
-ms.openlocfilehash: 3ae1508c56ac3240cfb9904415090ff1bdf18677
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5b755d0ba8802c47a176cb3375a87b6523f35fad
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25029861"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876199"
 ---
-# <a name="deploy-pilot-edge-server"></a>パイロットのエッジ サーバーを展開します。
+# <a name="deploy-pilot-edge-server"></a>パイロット エッジ サーバーの展開
 
 このトピックでは、構成の設定をする必要があります、Skype をビジネス 2019 エッジ サーバーを展開する前に強調表示されます。 ビジネス サーバー 2019 の Skype の展開と構成のプロセスは、ビジネス サーバー 2015 の Skype に非常に似ています。 のみ、このセクションには、パイロット プール展開の一環として検討する必要がある重要なポイントが強調表示されます。 <!-- For detailed steps, see 
  [Deploying external user access in Skype for Business Server 2019](../deployment/deploying-external-user-access/deploying-external-user-access.md) in the Deployment documentation, which describes the deployment process and also gives configuration information for external user access.  -->

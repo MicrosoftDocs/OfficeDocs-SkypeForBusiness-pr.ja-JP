@@ -1,5 +1,6 @@
 ---
-title: パイロット プールを従来のエッジ トランスポート サーバーに接続します。
+title: パイロット プールのレガシ エッジ サーバーへの接続
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ビジネス サーバー 2019 の Skype を展開した後、サイトのフェデレーション ルートを構成する必要があります。 従来のインストールで使用されているフェデレーション ルートを使用するには、このルートを使用するビジネス サーバー 2019 の Skype を構成しなければなりません。
-ms.openlocfilehash: 6766034cf54fd867c9b270324cb1db8ad2d644d5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5a3498041b4af762d184cd56e3883a90612b13e0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030568"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874746"
 ---
-# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>パイロット プールを従来のエッジ トランスポート サーバーに接続します。
+# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>パイロット プールのレガシ エッジ サーバーへの接続
 
 ビジネス サーバー 2019 の Skype を展開した後、サイトのフェデレーション ルートを構成する必要があります。 従来のインストールで使用されているフェデレーション ルートを使用するには、このルートを使用するビジネス サーバー 2019 の Skype を構成しなければなりません。 
   

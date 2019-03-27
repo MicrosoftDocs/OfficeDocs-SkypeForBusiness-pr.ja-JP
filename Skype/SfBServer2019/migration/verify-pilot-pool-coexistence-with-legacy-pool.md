@@ -1,5 +1,6 @@
 ---
-title: レガシ プールとの共存をパイロット プールを確認します。
+title: パイロット プールとレガシ プールの共存の確認
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: レガシ プールとの共存をパイロット プールを確認するプロセスです。
-ms.openlocfilehash: 717726acd3654abb2296d622afc5a4d45009430e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ed3809bdde3109bdbd341c42eed0dc1d8cecd11f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028692"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875469"
 ---
-# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>レガシ プールとの共存をパイロット プールを確認します。
+# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>パイロット プールとレガシ プールの共存の確認
 
  **この資料に記載されて**
   

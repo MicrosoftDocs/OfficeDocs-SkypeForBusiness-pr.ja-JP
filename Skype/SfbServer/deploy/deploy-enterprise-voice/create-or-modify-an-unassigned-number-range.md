@@ -1,5 +1,6 @@
 ---
 title: 作成またはビジネス サーバーの Skype に割り当てられていない番号の範囲を変更します。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: 作成、変更またはビジネス サーバーのエンタープライズ VoIP は、Skype で知らせアプリケーションの割り当てられていない数値の範囲を削除します。 これは、割り当てられていない番号への通話の処理方法に影響します。
-ms.openlocfilehash: 519f4b753314325b1af71f11f94ea669e78148a1
-ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
+ms.openlocfilehash: 9546e4caaab30ae7582866dbcefd680b04de33f2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26625667"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872896"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>作成またはビジネス サーバーの Skype に割り当てられていない番号の範囲を変更します。
  
@@ -92,7 +93,7 @@ ms.locfileid: "26625667"
     
 2. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
     
-3. **新規 CsUnassignedNumber**を使用して、新しい割り当てられていない番号範囲を作成します。 **セット CsUnassignedNumber**を使用すると、既存の割り当てられていない番号範囲を変更できます。
+3. 新しい割り当てられていない番号範囲を作成するには、**New-CsUnassignedNumber** を使用します。 既存の割り当てられていない番号範囲を変更するには、**Set-CsUnassignedNumber** を使用します。
     
     > [!TIP]
     > 重複する範囲があり、それらを特定の順序で適用する場合は、Priority パラメーターを含めます。 最も優先度の高い範囲が通話に適用されます。 値 0 は、最高の優先順位を表します。
@@ -157,7 +158,7 @@ ms.locfileid: "26625667"
    Remove-CsUnassignedNumber -Identity "<name of unassigned number range>" 
    ```
 
-    例:
+    次に例を示します。
     
    ```
    Remove-CsUnassignedNumber -Identity "Unassigned range 1"

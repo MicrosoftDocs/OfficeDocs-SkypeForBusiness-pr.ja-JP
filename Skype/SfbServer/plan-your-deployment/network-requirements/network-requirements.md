@@ -1,5 +1,6 @@
 ---
 title: Plan network requirements for Skype for Business
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: '概要: は、Skype をビジネスのサーバーを実装する前に以下のコンポーネントのネットワークの考慮事項を確認します。'
-ms.openlocfilehash: e05e40bc460ddddc6d9576d9842ab592f16e1481
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: 338a2d273fbba2bd006c5ed5acdd878338333b8a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408173"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877847"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
 **の概要:** Skype をビジネスのサーバーを実装する前に以下のコンポーネントのネットワークの考慮事項を確認します。
 
-これらのトピックに含まれている情報は、ホワイトペーパー『[Lync Server を使用したネットワークの計画、監視、トラブルシューティング](https://www.microsoft.com/en-us/download/details.aspx?id=39084)』でもより詳しく掘り下げて説明されています。 コンテンツは、Lync 2010 および Lync 2013 を明示的に参照するときに Skype のビジネス サーバーに関する考慮事項は変更されません。
+これらのトピックでは、ホワイト ペーパーでは[ネットワークの計画、監視、および Lync Server のトラブルシューティング](https://www.microsoft.com/en-us/download/details.aspx?id=39084)の詳細と、深さもについて説明します。 コンテンツは、Lync 2010 および Lync 2013 を明示的に参照するときに Skype のビジネス サーバーに関する考慮事項は変更されません。
 
 同様に、ワイヤード (有線) アクセスと同様に wifi ネットワークでは、ホワイト ペーパー [Wi-fi 経由で Lync 2013 リアルタイム コミュニケーションを提供する](https://www.microsoft.com/en-us/download/details.aspx?id=36494)参考し、は Skype のビジネス サーバーにも適用できます。
 
@@ -47,7 +48,7 @@ Network performance and needs are directly linked to the traffic load placed on 
 
 オーディオとビデオのネットワーク要件 (A/V) の展開、Skype のビジネス サーバーで以下のもの。
 
-- 1 台のエッジ サーバーまたはエッジのプール使用 DNS の負荷分散を展開する場合は、ネットワーク アドレス変換 (NAT) を実行する_外部_ファイアウォールを構成できます。 NAT が実行する_内部_ファイアウォールを構成することはできません。 詳細については、[ポートとファイアウォールの計画](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning)を参照してください。
+- 1 台のエッジ サーバーまたはエッジのプール使用 DNS の負荷分散を展開する場合は、ネットワーク アドレス変換 (NAT) を実行する_外部_ファイアウォールを構成できます。 NAT を実行するように_internal_ファイアウォールを構成することはできません。 詳細については、[ポートとファイアウォールの計画](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning)を参照してください。
 
     > [!IMPORTANT]
     > エッジ プール、ハードウェア ロード バランサーを使用している場合は、エッジ トランスポート サーバー上のパブリック IP アドレスを使用する必要があり、サーバーまたはプールので、NAT 対応のデバイス (たとえば、ファイアウォール アプライアンスまたはスイッチの LAN NAT を使用することはできません。 詳細については、 [Skype ビジネス サーバー用にエッジ サーバーのシナリオ](../edge-server-deployments/scenarios.md)を参照してください。
@@ -184,10 +185,10 @@ G.722 コーデックのステレオ バージョンは、Lync Room System に�
 
 **RTCP の帯域幅**
 
-|**メディア**|**RTCP の最大帯域幅 (Kbps)**|
+|**Media**|**RTCP の最大帯域幅 (Kbps)**|
 |:-----|:-----|
 |オーディオ  <br/> |5  <br/> |
-|ビデオ (H.264 または RTVideo の一方のみを送受信)  <br/> | 10  <br/> |
+|ビデオ (H.264 または RTVideo の一方のみを送受信)  <br/> |10  <br/> |
 |ビデオ (H.264 と RTVideo の両方を送受信)  <br/> |15  <br/> |
 
 容量計画では、次の 2 つの統計情報が関与します。
@@ -202,7 +203,7 @@ G.722 コーデックのステレオ バージョンは、Lync Room System に�
 
 **ピアツーピア セッションの音声/ビデオの容量計画**
 
-|**メディア**|**コーデック**|**標準的なストリーム帯域幅 (Kbps)**|**FEC を使用しない場合のストリームの最大帯域幅**|**FEC を使用する場合のストリームの最大帯域幅**|
+|**Media**|**コーデック**|**標準的なストリーム帯域幅 (Kbps)**|**FEC を使用しない場合のストリームの最大帯域幅**|**FEC を使用する場合のストリームの最大帯域幅**|
 |:-----|:-----|:-----|:-----|:-----|
 |オーディオ  <br/> |RTAudio (広帯域)  <br/> |39.8  <br/> |62  <br/> |91  <br/> |
 |オーディオ  <br/> |RTAudio (狭帯域)  <br/> |29.3  <br/> |44.8  <br/> |56.6  <br/> |
@@ -214,7 +215,7 @@ G.722 コーデックのステレオ バージョンは、Lync Room System に�
 
 **会議の音声/ビデオの容量計画**
 
-|**メディア**|**標準的なコーデック**|**標準的なストリーム帯域幅 (Kbps)**|**FEC を使用しない場合のストリームの最大帯域幅**|**FEC を使用する場合のストリームの最大帯域幅**|
+|**Media**|**標準的なコーデック**|**標準的なストリーム帯域幅 (Kbps)**|**FEC を使用しない場合のストリームの最大帯域幅**|**FEC を使用する場合のストリームの最大帯域幅**|
 |:-----|:-----|:-----|:-----|:-----|
 |オーディオ  <br/> |G.722  <br/> |46.1  <br/> |100.6  <br/> |164.6  <br/> |
 |音声  <br/> |Siren  <br/> |25.5  <br/> |52.6  <br/> |68.6  <br/> |
@@ -241,7 +242,7 @@ G.722 コーデックのステレオ バージョンは、Lync Room System に�
 
 **PSTN の音声容量計画**
 
-|**メディア**|**標準的なコーデック**|**標準的なストリーム帯域幅 (Kbps)**|**FEC を使用しない場合のストリームの最大帯域幅**|**FEC を使用する場合のストリームの最大帯域幅**|
+|**Media**|**標準的なコーデック**|**標準的なストリーム帯域幅 (Kbps)**|**FEC を使用しない場合のストリームの最大帯域幅**|**FEC を使用する場合のストリームの最大帯域幅**|
 |:-----|:-----|:-----|:-----|:-----|
 |オーディオ  <br/> |G.711 を (会議で PSTN 参加者を含む)  <br/> |64.8  <br/> |97  <br/> |161  <br/> |
 |音声  <br/> |RTAudio (狭帯域)  <br/> |30.9  <br/> |44.8  <br/> |56.6  <br/> |
@@ -274,7 +275,7 @@ QoS、Skype のビジネス サーバーは必要ありませんが、強くお�
 
 QoS は、ホワイト ペーパーでは[ネットワークの計画、監視、および Lync Server のトラブルシューティング](https://www.microsoft.com/en-us/download/details.aspx?id=39084)の詳細と、深さもについて説明します。 コンテンツは、Lync 2010 および Lync 2013 を明示的に参照するときに Skype のビジネス サーバーに関する考慮事項は変更されません。
 
-## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
+## <a name="see-also"></a>関連項目
 <a name="man_QOS"> </a>
 
 [Skype for Business での IPv6 の計画](ipv6.md)

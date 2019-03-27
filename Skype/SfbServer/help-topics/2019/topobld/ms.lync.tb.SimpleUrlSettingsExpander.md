@@ -1,5 +1,6 @@
 ---
-title: 簡単な URL の設定の拡張
+title: 簡易 URL 設定エキスパンダー
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,18 +13,18 @@ localization_priority: Normal
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 ROBOTS: NOINDEX, NOFOLLOW
 description: New を指定するには、削除、既存のまたは、単純な Url をアクティブに変更するのには、次の操作を行います。
-ms.openlocfilehash: 138b830415a1a6a8e7f248aedf66980a507f7ffd
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 4bfa9f558f355358bcdf956dddb4e2e7f3f9b796
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245259"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875680"
 ---
-# <a name="simple-url-settings-expander"></a>簡単な URL の設定の拡張
+# <a name="simple-url-settings-expander"></a>簡易 URL 設定エキスパンダー
 
 New を指定するには、削除、既存のまたは、単純な Url をアクティブに変更するのには、次の操作を行います。
 
-## <a name="simple-urls"></a>簡易 URL 
+## <a name="simple-urls"></a>簡易 URL
 
 または単純な Url を定義、変更最初の 3 つの簡単な Url を編集または変更するを決定します。 [電話アクセスの URL]、[ミーティング URL]、および [管理アクセスの URL] から選択できます。
 

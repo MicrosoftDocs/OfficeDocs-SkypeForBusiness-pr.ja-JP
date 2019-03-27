@@ -1,5 +1,6 @@
 ---
 title: フェーズ 7 の完全な移行後の作業
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,43 +9,43 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: このセクションのトピックでは、ビジネス サーバー 2019 の Skype への移行を完了した後に実行する必要があるタスクについて説明します。
-ms.openlocfilehash: dedeb9fd3cb524fb2f61ff7e8ade87265c2001e0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ef3a1f4b6d7262d223e78ebfae53e02203e9248e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028895"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875455"
 ---
-# <a name="phase-7-complete-post-migration-tasks"></a>フェーズ 7: 移行後のタスクを完了します。
+# <a name="phase-7-complete-post-migration-tasks"></a>フェーズ 7: 移行後のタスクの実行
 
 このセクションのトピックでは、ビジネス サーバー 2019 の Skype への移行を完了した後に実行する必要があるタスクについて説明します。
   
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [既存のミーティングとミーティングのコンテンツを移行します。](migrate-existing-meetings-and-meeting-content.md)
+- [既存の会議および会議コンテンツの移行](migrate-existing-meetings-and-meeting-content.md)
     
-- [ダイヤルイン アクセス番号を移行します。](migrate-dial-in-access-numbers.md)
+- [ダイヤルイン アクセス番号の移行](migrate-dial-in-access-numbers.md)
     
-- [コール パーク アプリケーションの設定を移行します。](migrate-call-park-application-settings.md)
+- [コール パーク アプリケーション設定の移行](migrate-call-park-application-settings.md)
     
-- [応答グループを移行します。](migrate-response-groups.md)
+- [応答グループの移行](migrate-response-groups.md)
     
-- [アドレス帳を移行します。](migrate-address-book.md)
+- [アドレス帳の移行](migrate-address-book.md)
     
-- [会議を構成する結合のページ](configure-the-meeting-join-page.md)
+- [会議参加ページの構成](configure-the-meeting-join-page.md)
     
-- [従来のアーカイブおよび監視サーバーを削除します。](remove-legacy-archiving-and-monitoring-servers.md)
+- [従来のアーカイブ サーバーおよび監視サーバーの削除](remove-legacy-archiving-and-monitoring-servers.md)
     
-- [信頼されたアプリケーション サーバーを構成します。](configure-trusted-application-servers.md)
+- [信頼済みアプリケーション サーバーの構成](configure-trusted-application-servers.md)
     
 - [Skype をビジネス サーバー 2019 クライアントを展開します。](deploy-clients.md)
     
-- [リカバリ性に優れたブランチ アプライアンスを接続します。](connect-a-survivable-branch-appliance.md)
+- [存続可能ブランチ アプライアンスの接続](connect-a-survivable-branch-appliance.md)
     
-- [SCOM で監視を構成します。](configure-scom-monitoring.md)
+- [SCOM 監視の構成](configure-scom-monitoring.md)
     
-- [共通領域電話を移行します。](migrate-common-area-phones.md)
+- [共通領域電話の移行](migrate-common-area-phones.md)
     
-- [アナログ デバイスを移行します。](migrate-analog-devices.md)
+- [アナログ デバイスの移行](migrate-analog-devices.md)
     
 

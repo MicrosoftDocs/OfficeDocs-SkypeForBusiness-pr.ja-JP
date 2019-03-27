@@ -1,5 +1,6 @@
 ---
 title: Skype for Business 2015 の集中ログ サービス
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: '概要: をサービス コンポーネントとビジネス サーバー 2015 の Skype で集中ログ サービスの設定について説明します。'
-ms.openlocfilehash: b2234ac1b52ff41108573f6a90a07bfa28c50a58
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6f1766e97c318a11095aa2f064cd09a0785c1562
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372461"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877756"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>Skype for Business 2015 の集中ログ サービス
  
@@ -99,7 +100,7 @@ ClsAgent は、すべてのインデックス ファイルを保持します。�
    ```
 
     > [!TIP]
-    > 絞り込むかを定義することによって返される構成設定の適用範囲を広げて`-Identity`し、スコープは、「サイト: レドモンド」レドモンド サイトの CsClsConfiguration のみを取得するなど。 構成の指定された部分の詳細を設定する場合は、別の Windows PowerShell コマンドレットに出力をパイプできます。 たとえば、"Redmond" サイトの構成で定義されたシナリオに関する詳細を取得するには、「`Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`」と入力します。
+    > 絞り込むかを定義することによって返される構成設定の適用範囲を広げて`-Identity`し、スコープは、「サイト: レドモンド」レドモンド サイトの CsClsConfiguration のみを取得するなど。 構成の指定された部分の詳細を設定する場合は、別の Windows PowerShell コマンドレットに出力をパイプできます。 たとえば、"Redmond"のサイトの構成で定義されているシナリオの詳細を取得するには、次のように入力します。`Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
   
      ![Get-CsClsConfiguration からのサンプル出力](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
   

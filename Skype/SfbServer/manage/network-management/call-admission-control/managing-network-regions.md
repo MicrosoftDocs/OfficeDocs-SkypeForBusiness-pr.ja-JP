@@ -1,5 +1,6 @@
 ---
 title: ネットワークの領域を管理します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 地域 * ネットワークは、ネットワーク ハブまたはバックボーンのコール受付制御、~ 9-1-1、およびメディア バイ パスの構成で使用されています。
-ms.openlocfilehash: 3fe6707e6949fa47a9cc5e96703e06132ed8cb2f
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: ea574fe981af679e4d841d786daf04460d1fb7c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223312"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877630"
 ---
-# <a name="managing-network-regions-in-skype-for-business-server"></a>ビジネス サーバーの Skype のネットワーク領域を管理します。
+# <a name="managing-network-regions-in-skype-for-business-server"></a>Skype for Business Server でのネットワーク領域の管理
 
 *ネットワークの領域*には、ネットワーク ハブまたはバックボーンのコール受付制御、~ 9-1-1、およびメディア バイ パスの構成で使用されているが。 表示、作成、またはネットワークの領域を変更するには、次の手順を使用します。 たとえば、音声機能の 1 つのネットワーク地域を既に作成した場合する必要はありません新しいネットワーク領域を作成するにはその他の高度なエンタープライズ VoIP 機能では、それらの同じネットワーク領域を使用します。 ただし、機能固有の設定を適用するために、ネットワーク地域に関する既存の定義に変更を加える必要が生じることがあります。 たとえば、E9-1-1 用のネットワーク地域を作成し (この場合は関連付けられた中央サイトは必要ありません)、次に通話受付管理を展開する場合は、中央サイトを指定するためにネットワーク地域の定義を変更する必要があります。 
 
@@ -89,7 +90,7 @@ Windows PowerShell と**Get CsNetworkRegion**コマンドレットを使用し�
 
 9.  (省略可能)表すことのできない、名前だけがこの地域についての詳細情報を提供する [**説明**] フィールドに値を入力します。
 
-10. [**確定**] をクリックします。
+10. [**コミット**] をクリックします。
 
 ネットワーク地域を作成するため、**関連付けられたサイト**のテーブルは使用されません。 作成またはサイトを変更する場合は、領域を使用したサイトを関連付けます。 詳細については、[サイトの管理の呼び出しの受付制御](managing-call-admission-control-for-sites.md)を参照してください。
 
@@ -107,7 +108,7 @@ Windows PowerShell と**Get CsNetworkRegion**コマンドレットを使用し�
 
 6.  [**地域の編集**] ページを有効にする設定を変更することができ、別のパス、オーディオとビデオを無効にして、説明を変更する (詳細については、このトピックで前述した「ネットワーク地域を作成するには」セクションを参照してください。
 
-7.  [**確定**] をクリックします。
+7.  [**コミット**] をクリックします。
 
 このページに**関連付けられたサイト**を変更することはできません。 サイトは影響を受ける領域の設定を変更するときに注意してください、参照に関連付けられているサイトの一覧が用意されています。
 
@@ -142,10 +143,10 @@ Windows PowerShell と**Get CsNetworkRegion**コマンドレットを使用し�
 
 [ネットワーク地域ルートの管理](managing-network-region-routes.md)
 
-[New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion)  
+[新しい-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion)  
 
-[Set-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegion)  
+[セット CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegion)  
 
-[Remove-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegion)  
+[削除 CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegion)  
 
 [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)  

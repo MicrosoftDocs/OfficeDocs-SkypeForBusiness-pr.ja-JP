@@ -1,5 +1,6 @@
 ---
-title: フロント エンド サーバー Collocations 2010 を追加します。
+title: フロントエンド サーバーの併置の追加 (2010)
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d328bf4-85bc-4870-8d6f-008c0e46520e
 description: Enterprise Edition 展開では、どちらか A に集約できます V 会議サービス、仲介サーバー、またはフロント エンド プール、または両方を展開できますスタンドアロン サーバーとして各とします。 Standard Edition サーバーの展開、A V 会議サービスは、常に同じ場所に会議が有効になっている場合とします。
-ms.openlocfilehash: daaa15cf58952badd00512b7d89ffd832790f81f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 42fd773c8874ec1416ac8c161bc60b8baba52f0e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23263031"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875342"
 ---
-# <a name="add-front-end-server-collocations-2010"></a>フロント エンド サーバー Collocations 2010 を追加します。
+# <a name="add-front-end-server-collocations-2010"></a>フロントエンド サーバーの併置の追加 (2010)
 
 Enterprise Edition 展開では、どちらか A に集約できます V 会議サービス、仲介サーバー、またはフロント エンド プール、または両方を展開できますスタンドアロン サーバーとして各とします。 Standard Edition サーバーの展開、A V 会議サービスは、常に同じ場所に会議が有効になっている場合とします。
 

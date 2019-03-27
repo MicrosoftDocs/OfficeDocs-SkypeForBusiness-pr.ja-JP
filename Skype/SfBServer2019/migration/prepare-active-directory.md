@@ -1,5 +1,6 @@
 ---
 title: Active Directory の準備
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 共存状態でのビジネス サーバー 2019 の Skype を導入する前に、Skype のビジネス サーバー 2019 のスキーマ、フォレスト、およびドメインを構成するのにはいくつか追加の Active Directory タスクを行う必要があります。 スキーマの拡張機能は、Active Directory クラスとビジネス サーバー 2019 の Skype で必要な属性を追加します。 詳細については、ビジネス サーバー 2019 は、トピックを準備する Active Directory ドメイン サービスの Skype を参照してください。
-ms.openlocfilehash: ccc26901072f6a8cc166d6ead2e295473347c9d9
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 290919f0c3ac1c58a92e00ba6d3403b6d2fb9069
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25029406"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874725"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>Skype のビジネス サーバーの Active Directory を準備します。
 

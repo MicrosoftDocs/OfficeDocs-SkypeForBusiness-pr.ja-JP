@@ -1,5 +1,6 @@
 ---
 title: Skype のビジネスの場所ベースのルーティングの計画
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: Skype の同時共鳴し、委任との相互作用を含む、場所ベースのルーティングのシナリオをサポートするビジネス サーバー エンタープライズ VoIP の場所ベースのルーティングを計画します。
-ms.openlocfilehash: 1e4f19d96306db31be0606dbfda799e93c2d34e0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 2e9070e5ecddcf88e5edac8064409177caa82b4d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886099"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874365"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>Skype のビジネスの場所ベースのルーティングの計画
 
@@ -236,7 +237,7 @@ PSTN エンドポイントが含まれる場合、場所ベースのルーティ
 |Lync Mobile 2010  <br/> |はい  <br/> ||
 
 > [!NOTE]
-> ビジネス クライアント用、Skype の VoIP を無効に設定をする IP オーディオ/ビデオ、場所ベースのルーティングを有効になっているすべてのユーザーに対して無効になっているモビリティ ポリシーを割り当てます。 モビリティ ポリシーの詳細については、[新規 CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)を参照してください。
+> ビジネス クライアント用、Skype の VoIP を無効に設定をする IP オーディオ/ビデオ、場所ベースのルーティングを有効になっているすべてのユーザーに対して無効になっているモビリティ ポリシーを割り当てます。 モビリティ ポリシーの詳細については、「[New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)」を参照してください。
 
 ## <a name="capabilities-not-supported-by-location-based-routing"></a>場所に基づくルーティングでサポートされていない機能
 

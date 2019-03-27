@@ -1,5 +1,6 @@
 ---
 title: 作成するか、ビジネスの Skype の正規化ルールを変更
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 description: '概要: 定義、作成、および業務サーバーの Skype の正規化ルールを変更する方法を説明します。'
-ms.openlocfilehash: ff43185da86693c230b6b238222e0fcd922a411c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 52f56280c747db702935405ea4c60383c58a6d78
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375288"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874599"
 ---
 # <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>作成するか、ビジネスの Skype の正規化ルールを変更
 
@@ -63,7 +64,7 @@ ms.locfileid: "25375288"
 8. (オプション) 正規化ルールをテストする番号を入力し、[**実行**] をクリックします。テスト結果は、[**テストする番号の入力**] の下に表示されます。
 
     > [!NOTE]
-    > テストにまだ合格していない正規化ルールは、保存しておいて後で再構成できます。 詳細については、[音声ルーティングのテスト](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx)を参照してください。
+    > テストにまだ合格していない正規化ルールは、保存しておいて後で再構成できます。詳細については、「[Test Voice Routing](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx)」を参照してください。
 
 9. [**OK**] をクリックして正規化ルールを保存します。
 

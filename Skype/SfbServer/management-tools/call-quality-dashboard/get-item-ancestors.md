@@ -1,5 +1,6 @@
 ---
-title: アイテムの親を取得します。
+title: アイテムの親の取得
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
 description: '概要: は、項目のサービスの一部では、アイテムの先祖を取得する操作について説明します。 項目のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: e9e23c32aada4c609f9deb43004385b389a533bf
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 7afeecb81d1933b0a308b174e49f6d8ff45a93dd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532592"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873113"
 ---
-# <a name="get-item-ancestors"></a>アイテムの親を取得します。
+# <a name="get-item-ancestors"></a>アイテムの親の取得
  
 **の概要:** 項目のサービスの一部では、アイテムの先祖を取得する操作について説明します。 項目のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
   
 アイテムの先祖を取得する操作は、リポジトリ api の呼び出し品質のダッシュ ボードの項目のサービスの一部です。
   
-## <a name="get-item-ancestors"></a>アイテムの親を取得します。
+## <a name="get-item-ancestors"></a>アイテムの親の取得
 
 Get アイテムの先祖は、リポジトリから特定のアイテムの親を返します。
   

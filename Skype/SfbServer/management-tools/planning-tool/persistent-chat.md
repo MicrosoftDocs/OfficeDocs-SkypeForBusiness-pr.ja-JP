@@ -1,5 +1,6 @@
 ---
-title: 永続的なチャット (計画ツール)
+title: Persistent Chat (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,13 +14,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
 description: 永続的なチャット サーバーでは、時間の経過と共に永続化する、トピック ベースのマルチパーティ会話に参加することができます。
-ms.openlocfilehash: 17cd76ddc620b8afadc49411066ba760b625187f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 076afe1f1322e8724ddd7d59c147d3ea34c05452
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877973"
 ---
-# <a name="persistent-chat-planning-tool"></a>永続的なチャット (計画ツール)
+# <a name="persistent-chat-planning-tool"></a>Persistent Chat (Planning Tool)
  
 永続的なチャット サーバーでは、時間の経過と共に永続化する、トピック ベースのマルチパーティ会話に参加することができます。
   

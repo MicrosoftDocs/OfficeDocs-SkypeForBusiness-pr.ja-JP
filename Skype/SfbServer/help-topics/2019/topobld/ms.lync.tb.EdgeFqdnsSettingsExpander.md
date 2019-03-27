@@ -1,5 +1,6 @@
 ---
 title: エッジ サーバーの FQDN 設定エキスパンダー
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
 ROBOTS: NOINDEX, NOFOLLOW
 description: エッジ サーバーの [外部設定] を編集または指定するには、まず、セッション開始プロトコル (SIP) アクセス、Web 会議エッジ サービス、および音声ビデオ エッジ サービスで別々の IP アドレスを使用するかどうかを決める必要があります。
-ms.openlocfilehash: 154b1a73e2402898d4e1021bb2a1e3fbb67ad872
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 4eec45c01062ba13768dd62e59d7b285b6de2c01
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23254194"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875335"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>エッジ サーバーの FQDN 設定エキスパンダー
 
@@ -35,6 +36,6 @@ ms.locfileid: "23254194"
 > [!IMPORTANT]
 > 別々の FQDN および IP アドレスまたはポートを使用することを含め、これらの設定のいずれかに変更を加える場合は、最初に構成された値に依存する他のすべてのサービスを更新する必要があります。
 
-詳細を定義して、エッジ サービスの設定の構成については、[エッジ トポロジの定義](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)を参照してください。
+エッジ サービスの設定の定義および構成の詳細については、「[Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)」を参照してください。
 
 

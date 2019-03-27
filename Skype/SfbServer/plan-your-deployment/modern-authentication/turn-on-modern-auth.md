@@ -1,5 +1,6 @@
 ---
 title: ネットワークに内部と外部を従来の認証方法をオフにしようとしています。
+ms.reviewer: ''
 ms.author: tracyp
 author: MSFTTracyP
 manager: serdars
@@ -11,12 +12,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: 認証方法の詳細に制御を管理者に提供するこの資料のアウトライン コマンドレットでは、業務上の内側と外側を使用します。 管理者は、認証方法を有効にまたは内部、または外部のネットワークにします。
-ms.openlocfilehash: 1761722bca624451b1cfc6acc28bed7b00eabe6d
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 08f8b850fbde99f85f804494eab79a9a3531d009
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789261"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877812"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>無効にする従来の認証方法内部と外部のネットワークを計画しています。
 

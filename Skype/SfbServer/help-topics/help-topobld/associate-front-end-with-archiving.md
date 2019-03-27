@@ -1,5 +1,6 @@
 ---
-title: フロント エンドに関連付けるアーカイブ
+title: フロントエンドとアーカイブの関連付け
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d732ab-e845-4f46-8f7b-3ba506597a92
 description: 各フロント エンド プールおよびブランチ アプライアンスのリカバリ性に優れたアーカイブ サーバーが関連付けられている 1 つだけ持つことができます。 サイトのアーカイブを有効にすると、アーカイブ サーバーを収集し、およびインスタント メッセージング (IM) メッセージのコンテンツと web 会議のコンテンツ、ユーザーに関係する会話からレコードが関連付けられているプールとブランチ アプライアンスのリカバリ性に優れた置かれています。
-ms.openlocfilehash: ac278ce9656d4a975f8a336efa5e60a77796ec19
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c603187e58f8a47d74f20581b666381f7db588ff
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967870"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877347"
 ---
-# <a name="associate-front-end-with-archiving"></a>フロント エンドに関連付けるアーカイブ
+# <a name="associate-front-end-with-archiving"></a>フロントエンドとアーカイブの関連付け
  
 各フロント エンド プールおよびブランチ アプライアンスのリカバリ性に優れたアーカイブ サーバーが関連付けられている 1 つだけ持つことができます。 サイトのアーカイブを有効にすると、アーカイブ サーバーを収集し、およびインスタント メッセージング (IM) メッセージのコンテンツと web 会議のコンテンツ、ユーザーに関係する会話からレコードが関連付けられているプールとブランチ アプライアンスのリカバリ性に優れた置かれています。 
   

@@ -1,5 +1,6 @@
 ---
 title: Skype ビジネス サーバーのスキーマの変更
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 description: 展開して、ビジネス サーバー、Skype で運用する前にスキーマを拡張することによって Active Directory ドメイン サービスを準備する必要があります。 スキーマの拡張機能は、Skype でビジネスのサーバーのために必要な属性とクラスを追加します。
-ms.openlocfilehash: 8594ff3a25c7af7ef8c57468a8900d3abbb7f790
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: ba76f57197e9cd812163c8abac5f51005933eace
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240918"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874641"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>Skype ビジネス サーバーのスキーマの変更
  

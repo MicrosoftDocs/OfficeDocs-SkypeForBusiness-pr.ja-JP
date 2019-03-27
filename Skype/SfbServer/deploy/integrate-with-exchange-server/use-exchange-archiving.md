@@ -1,5 +1,6 @@
 ---
 title: Skype ビジネス サーバーで Exchange Server のアーカイブを使用するを構成します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 description: '概要: ビジネス サーバーの 2016 の Exchange Server や Exchange Server 2013 と Skype の IM のトラン スクリプトを構成します。'
-ms.openlocfilehash: 63d533091426fe609932de18e3d37bd75004ce4c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5db51f1206fee5ef3f87f16e73836a32c460234b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258026"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873487"
 ---
 # <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>Skype ビジネス サーバーで Exchange Server のアーカイブを使用するを構成します。
 
@@ -31,7 +32,7 @@ Exchange Server に議事録を保存するために Skype ビジネス サー�
 
 1. Skype をビジネス サーバー アーカイブ構成設定を変更することによって Exchange のアーカイブを有効にします。 この手順はすべての展開で必要です。
 
-2. ユーザーの内部通信と外部通信のどちらかまたは両方のアーカイブを有効にします。この手順はすべての展開で必要です。
+2. ユーザーの内部通信と外部通信のどちらかまたは両方のアーカイブを有効にします。 この手順はすべての展開で必要です。
 
 3. 各ユーザーの ExchangeArchivingPolicy プロパティを構成します。 のみこの手順は、Skype のビジネス サーバーと Exchange Server が異なるフォレスト内にあるかどうかに必要です。
 

@@ -1,5 +1,6 @@
 ---
 title: VIS の次ホップの追加
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c25449d-375b-477b-b8d0-ed19e6775906
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順についてはオンライン Skype で VIS プールを作成するビジネス サーバー 2015 のください。
-ms.openlocfilehash: 7c283e9d653dff4cd95b7a1ba21ab908fbdf2dc2
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: cb38288922d222dc7e3affc973aa94f55595c34d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503642"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874431"
 ---
 # <a name="add-vis-next-hop"></a>VIS の次ホップの追加
  

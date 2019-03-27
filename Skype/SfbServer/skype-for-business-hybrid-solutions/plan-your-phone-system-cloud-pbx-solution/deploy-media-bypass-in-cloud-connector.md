@@ -1,5 +1,6 @@
 ---
 title: Cloud Connector エディションでメディア バイパスを展開する
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: クラウド コネクタ版 version 2.0 以降でメディアをバイパスを展開する手順については、このトピックを参照してください。
-ms.openlocfilehash: a764c17af7c23d27305f9e2f3e88eaed6edc33cf
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: f4ea5449e7a324ae206241af25d12ecabf9c5259
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561915"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878050"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Cloud Connector エディションでメディア バイパスを展開する
  
@@ -28,9 +29,9 @@ ms.locfileid: "26561915"
   
 ## <a name="enable-media-bypass"></a>メディアのバイパスを有効にする
 
-メディア バイパスを有効にするには、メディア バイパス Web サービスの DNS 名を設定し、テナント構成でメディア バイパスをオンにする必要があります。 メディア バイパス Web サービスはそれぞれの仲介サーバーに自動的に展開されます。 テナント管理者はハイブリッド音声サービス (サイト) の名前を指定する必要があります。この名前は、ハイブリッド音声用に登録された SIP ドメインの名前を使用する必要があります。 サービス名は、クラウドのコネクタのすべてのアプライアンスやクライアントの場所に関係なくすべての PSTN のサイト間で同じをする必要があります。 この Web サービスはネットワーク内部のみで利用可能です。
+メディアのバイパスを有効にするは、メディア バイ パスの web サービスの DNS 名を構成して、テナント構成では、メディア バイ パスを有効にする必要があります。 メディア バイ パスの web サービスは、すべての仲介サーバーに自動的に配置されます。 テナント管理者は、ハイブリッド音声サービス (サイト) の名前を選択する必要があり、ハイブリッドの音声を登録されている SIP ドメインからこの名前である必要があります。 サービス名は、クラウドのコネクタのすべてのアプライアンスやクライアントの場所に関係なくすべての PSTN のサイト間で同じをする必要があります。 Web サービスのみ、ネットワークの内部で使用可能な場合があります。
   
-テナント管理者は内部実働の Active Directory で DNS A レコードを構成する必要があります。 複雑な複数サイト環境を使っている場合の例を参照してください。[の使用例: メディアが複雑な複数サイトの環境で web サイトの DNS レコードを使用しない](deploy-media-bypass-in-cloud-connector.md#Example)。 DNS レコードは、内部ネットワーク クライアントについてのみ解決します。外部ネットワーク クライアントについては解決しません。
+テナント管理者は、内部運用環境の Active Directory で DNS A レコードを構成する必要があります。 複雑な複数サイト環境を使っている場合の例を参照してください。[の使用例: メディアが複雑な複数サイトの環境で web サイトの DNS レコードを使用しない](deploy-media-bypass-in-cloud-connector.md#Example)。 内部ネットワーク クライアントの DNS レコードを解決するだけ外部ネットワークのクライアントに対しては解決する必要があります。
   
 DNS を構成したら、Skype for Business 管理者の資格情報で リモート PowerShell を使用して、Skype for Business Online に接続します。 詳細については、 [Windows PowerShell には、コンピューターの設定](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)を参照してください。
   
@@ -42,7 +43,7 @@ $mediabypass = New-CsNetworkMediaBypassConfiguration -AlwaysBypass $true -Enable
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
-メディア バイパスの有効化は 2 つのプロセスで行います。 New-CsNetworkMedia コマンドレットでは、新しい構成がすぐに保存されません。メモリ内に設定が作成されるだけです。 このコマンドレットで作成したオブジェクトを変数として保存し、ネットワーク構成の MediaBypassSettings プロパティに割り当てる必要があります。 詳細についてを参照してください[の使用例: メディアが複雑な複数サイトの環境で web サイトの DNS レコードを使用しない](deploy-media-bypass-in-cloud-connector.md#Example)。
+メディア バイ パスを有効にするとは、2 段階のプロセスです。 新規 CsNetworkMedia コマンドレットが新しい構成をすぐに保存できません。メモリの設定が作成されるだけです。 このコマンドレットによって作成されたオブジェクトを変数に保存し、ネットワーク構成の MediaBypassSettings プロパティに割り当てられますする必要があります。 詳細についてを参照してください[の使用例: メディアが複雑な複数サイトの環境で web サイトの DNS レコードを使用しない](deploy-media-bypass-in-cloud-connector.md#Example)。
   
 オンプレミスとオンライン コンポーネント間のレプリケーションには最長で 24 時間かかります。したがって、ユーザーを有効化する前に必要なコマンドを実行しておくことをお勧めします。
   
@@ -184,7 +185,7 @@ Windows 2016 DNS ポリシーの詳細については、[地理的な場所ベ�
 > CCE アプライアンスは、更新された設定を取得するように思える場合、は、アプライアンスをリモート PowerShell を使用してテナントに接続できるかどうかを確認してください。 Get CsHybridPSTNAppliance とアプライアンスの状態を確認するか、Get CcApplianceStatus の状態を確認する CCE ホストで PowerShell を使用するリモート PowerShell を使用できます。
 
   
-## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
+## <a name="see-also"></a>関連項目
 <a name="Example"> </a>
 
-[Cloud Connector エディションでのメディア バイパスを計画する](plan-for-media-bypass-in-cloud-connector-edition.md)
+[Cloud Connector エディションでのメディア バイパスの計画](plan-for-media-bypass-in-cloud-connector-edition.md)

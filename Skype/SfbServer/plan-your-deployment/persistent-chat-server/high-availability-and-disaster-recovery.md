@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの高可用性と災害復旧の計画
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: '概要: ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの高可用性と災害復旧を計画する方法の詳細については、このトピックを読みます。'
-ms.openlocfilehash: 90f01de0ca7efef8fdcda4f03fa4bfaa28bd4fcc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 88584c43cb205d10d2baacb6cb31c4e8fdbb228a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20971656"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874795"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの高可用性と災害復旧の計画
  
@@ -47,7 +48,7 @@ ms.locfileid: "20971656"
     
 ## <a name="disaster-recovery-and-high-availability-solutions"></a>障害復旧と高可用性のソリューション
 
-ビジネス サーバー用の Skype は、バック エンド サーバー、データベース ・ ミラーリングなどの複数の高可用性モードをサポートします。 詳細については、[高可用性とビジネス サーバー 2015 の Skype での災害復旧の計画](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)を参照してください。 
+ビジネス サーバー用の Skype は、バック エンド サーバー、データベース ・ ミラーリングなどの複数の高可用性モードをサポートします。 詳細については、「[Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)」を参照してください。 
   
 拡大された永続的なチャット サーバー プールの永続的なチャット サーバーがこのトピックで説明されている災害復旧ソリューションがビルドされます。 拡張型の仮想ローカル エリア ネットワーク (VLAN) に関する要件はありません。 永続的なチャット サーバー プールを拡大するには、論理的には、トポロジでは、1 つのプールを構成するが、物理的に 2 つの異なるデータ センターにプールにサーバーを配置します。 データベースの SQL Server ミラーリングを同じ方法で構成し、データベースとそのミラーを同じデータ センター内に展開します。 セカンダリ データ センターでは、(障害復旧時に高可用性を提供するためにオプションのミラーを使用して) バックアップ データベースを構成する必要があります。 これは、障害復旧時にフェールオーバー用に使用されるバックアップ データベースです。 
   

@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 計画ツール
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: ビジネス サーバー 2015 計画ツールは、Skype を使用する方法です。
-ms.openlocfilehash: faaa4a334fc04be44dce2a753804bf3e7f2b52b0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7a2230344cc31a14fbd8898706973af5ed0e6d9c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20998589"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873528"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>Skype for Business Server 2015 計画ツール
  
@@ -40,22 +41,22 @@ ms.locfileid: "20998589"
   
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [Skype for Business Server 2015 の計画ツールのインストール](install.md)
+- [Install the Planning Tool in Skype for Business Server 2015](install.md)
     
 - [Optional Software](install.md#Optional_Software)
     
-- [Skype for Business Server 2015 の計画ツールのナビゲート](navigate.md)
+- [Navigate the Planning Tool in Skype for Business Server 2015](navigate.md)
     
-- [Skype for Business Server 2015 の初期トポロジ設計の作成](create-the-initial-design.md)
+- [Create the initial topology design for Skype for Business Server 2015](create-the-initial-design.md)
     
-- [Skype for Business Server 2015 でのトポロジの編集](edit-the-topology.md)
+- [Edit the topology in Skype for Business Server 2015](edit-the-topology.md)
     
 - [Edit the network configuration diagram](edit-the-topology.md#Edit_Network_diagram)
     
-- [Skype for Business Server 2015 で管理者レポートを確認する](review-the-administrator-reports.md)
+- [Review the Administrator Reports in Skype for Business Server 2015](review-the-administrator-reports.md)
     
 ## <a name="see-also"></a>関連項目
 
 [Skype for Business Server 2015 のインストール](../../deploy/install/install.md)
   
-[Skype for Business Server 2015 でのインスタント メッセージングとプレゼンスの計画](../../plan-your-deployment/instant-messaging-and-presence.md)
+[Plan for instant messaging and presence in Skype for Business Server 2015](../../plan-your-deployment/instant-messaging-and-presence.md)

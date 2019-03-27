@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype での永続的なチャット サーバー コンプライアンス テーブルの一覧
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8563446e-90cc-47cc-8a8e-4883decfe195
 description: 永続的なチャット コンプライアンス データベース スキーマは、次の表で構成されます。
-ms.openlocfilehash: 801e8d5457a26ef968f700df16a68d36560548c5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 18c35cc71da43dcf25bb477e81a2471b483ee86d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874316"
 ---
 # <a name="list-of-persistent-chat-server-compliance-tables-in-skype-for-business-server"></a>ビジネス サーバーの Skype での永続的なチャット サーバー コンプライアンス テーブルの一覧
  

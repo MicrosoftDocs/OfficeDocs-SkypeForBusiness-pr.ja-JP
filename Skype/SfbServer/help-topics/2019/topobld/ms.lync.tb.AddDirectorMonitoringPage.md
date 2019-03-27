@@ -1,5 +1,6 @@
 ---
-title: ディレクターの監視を追加します。
+title: ディレクターの監視の追加
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 ROBOTS: NOINDEX, NOFOLLOW
 description: 次のプロパティを構成することによって、SQL Server の監視ストアを定義できます。
-ms.openlocfilehash: 56be865d60266fd2ee477356f9c7cd407dee28c4
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 4ba52c49cc9d851df9d6fa53220cf81d70967e75
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21068983"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876684"
 ---
-# <a name="add-director-monitoring"></a>ディレクターの監視を追加します。
+# <a name="add-director-monitoring"></a>ディレクターの監視の追加
  
 次のプロパティを構成することによって**SQL Server の監視ストアを定義する**実行できます。
   

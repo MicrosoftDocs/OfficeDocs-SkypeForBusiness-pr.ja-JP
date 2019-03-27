@@ -1,5 +1,6 @@
 ---
-title: AV MCU の設定の拡張
+title: AV MCU 設定エキスパンダー
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 description: A のプロパティを編集するのには次の操作が定義されている、V 会議サーバー プールとします。
-ms.openlocfilehash: 3938e667ce381393d96e0856ec595e0176185859
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 98ddc2a0907a9971e5bbfc1e72b6aad356960763
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20985656"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875307"
 ---
-# <a name="av-mcu-settings-expander"></a>AV MCU の設定の拡張
+# <a name="av-mcu-settings-expander"></a>AV MCU 設定エキスパンダー
  
 A のプロパティを編集するのには次の操作が定義されている、V 会議サーバー プールとします。
   

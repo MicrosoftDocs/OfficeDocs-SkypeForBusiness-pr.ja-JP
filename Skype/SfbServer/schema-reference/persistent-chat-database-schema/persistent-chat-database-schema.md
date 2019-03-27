@@ -1,5 +1,6 @@
 ---
 title: 常設チャット データベースのスキーマ
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 description: これは、ビジネス サーバーの Skype で永続的なチャット データベースのスキーマについて説明します。
-ms.openlocfilehash: 1c78ea53438484fb0ad573a815c10ad76f08edca
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 37b22077157def7ea25a5cf70b23a0272a58956e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874054"
 ---
 # <a name="persistent-chat-database-schema"></a>常設チャット データベースのスキーマ
  
@@ -37,12 +39,12 @@ ms.lasthandoff: 03/28/2018
     
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [永続的なチャット サーバーのテーブルの一覧](list-of-persistent-chat-server-tables.md)
+- [常設チャット サーバーのテーブルのリスト](list-of-persistent-chat-server-tables.md)
     
 - [ビジネス サーバーの Skype での永続的なチャット サーバー コンプライアンス テーブルの一覧](list-of-persistent-chat-server-compliance-tables.md)
     
-- [永続的なチャット サーバー テーブルの詳細](persistent-chat-server-table-details.md)
+- [常設チャット サーバー テーブルの詳細](persistent-chat-server-table-details.md)
     
-- [永続的なチャット データベースのクエリのサンプル](sample-persistent-chat-database-queries.md)
+- [常設チャット データベースのクエリのサンプル](sample-persistent-chat-database-queries.md)
     
 

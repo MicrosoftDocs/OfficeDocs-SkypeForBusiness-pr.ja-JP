@@ -1,5 +1,6 @@
 ---
 title: ビジネス 2015年の Skype のクライアント エクスペリエンスを構成します。
+ms.reviewer: ''
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: '概要: は、Skype のビジネス ユーザー向けのクライアント エクスペリエンスを構成する方法の詳細については、このトピックを読みます。'
-ms.openlocfilehash: 9e2a7d53788eda36fc18cb9094cde096864ce2ba
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b8d258236a5254aa1dab5e86edb9586ea514c689
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375359"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875793"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>ビジネス 2015年の Skype のクライアント エクスペリエンスを構成します。
  
@@ -98,19 +99,19 @@ Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName Sal
 
 これで、ユーザーが初めて Skype for Business クライアントを起動したときに、Lync ユーザー インターフェイスが表示されるようになります。
   
-### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>[ようこそ] 画面のチュートリアルの表示方法を制御する
+### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>ようこそ画面のチュートリアルの表示を制御する
 
-ユーザーは、ビジネス クライアント用の Skype を開き、既定の動作は*7 つのクイック ヒントのほとんどの人に依頼*を含む [ようこそ] 画面を表示するのには。 [ようこそ] 画面の表示をオフにできますが、ユーザーはクライアント コンピューターで次のレジストリ値を追加することで、チュートリアルにアクセスするのには。
+ユーザーは、ビジネス クライアント用の Skype を開き、既定の動作は*7 つのクイック ヒントのほとんどの人に依頼*を含む [ようこそ] 画面を表示するのには。 You can turn off the display of the Welcome screen but still allow users to access the tutorial by adding the following Registry value on the client computer:
   
 **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]** キーに新しい [**DWORD (32 ビット) 値**] を作成します。[**値の名前**] に「**IsBasicTutorialSeenByUser**」と入力し、[**値のデータ**] を「**1**」に設定する必要があります。
   
-キーは、以下のようになります。
+キーは次のようになります。
   
 `"IsBasicTutorialSeenByUser"=dword:00000001`
 
 ### <a name="turn-off-the-client-tutorial"></a>クライアント チュートリアルをオフにする
 
-ユーザーがチュートリアルにアクセスできないようにするには、以下のレジストリ値を指定して、クライアント チュートリアルをオフにします。
+ユーザーがチュートリアルにアクセスできないようにするには、次のレジストリ値を指定してクライアント チュートリアルを無効にします。
   
 **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]** キーに新しい [**DWORD (32 ビット) 値**] を作成します。[**値の名前**] に「**TutorialFeatureEnabled**」と入力し、[**値データ**] を「**0**」に設定する必要があります。
   
@@ -154,7 +155,7 @@ Lync
     
 - Lync Server 2013 の Lync Server 2013 年 2014年 12 月累積的な更新 (5.0.8308.857) ことができます。 については、 [Lync Server 2013 の更新プログラム](https://go.microsoft.com/fwlink/p/?LinkId=532772)を参照してください。
     
-## <a name="create-a-group-policy-object-to-modify-the-registry-on-a-domain-joined-computer"></a>ドメインに参加しているコンピューターでレジストリを変更するグループ ポリシー オブジェクトを作成する
+## <a name="create-a-group-policy-object-to-modify-the-registry-on-a-domain-joined-computer"></a>ドメインに参加しているコンピューターのレジストリを変更するグループ ポリシー オブジェクトを作成する
 
 Lync クライアント エクスペリエンスの最初の起動時、ユーザー ビジネス 2015年クライアントの Skype を表示するレジストリの更新は 1 回だけ行う必要があります。 グループ ポリシー オブジェクト (GPO) を使ってレジストリを更新する場合は、値のデータを更新するのではなく、新しい値を作成するオブジェクトを定義する必要があります。 GPO を適用した場合、新しい値が存在しないと、その値が作成され、値のデータに 0 が設定されます。 
   
@@ -189,11 +190,11 @@ Lync クライアント エクスペリエンスの最初の起動時、ユー�
    
 8. [ **OK**] をクリックして変更を保存し、GPO を閉じます。
     
-次に、ポリシーを割り当てる OU などのユーザー グループに、作成した GPO を接続する必要があります。
+次に、作成した GPO を、ポリシーを割り当てるユーザー グループ (OU など) にリンクする必要があります。
   
-### <a name="to-use-the-gpo-to-assign-the-policy"></a>GPO を使ってポリシーを割り当てるには
+### <a name="to-use-the-gpo-to-assign-the-policy"></a>GPO を使用してポリシーを割り当てるには
 
-1. [グループ ポリシー管理コンソール] で、ポリシーを割り当てる OU を右クリックして、[ **既存の GPO にリンクする**] を選びます。
+1. グループ ポリシー管理コンソールで、ポリシーを割り当てる OU を右クリックし、[**既存の GPO のリンク**] を選びます。
     
 2. [ **GPO の選択**] ダイアログ ボックスで、作成済みの GPO を選んで、[ **OK**] を選びます。
     

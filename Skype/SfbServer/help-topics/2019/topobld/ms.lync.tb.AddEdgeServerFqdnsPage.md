@@ -1,5 +1,6 @@
 ---
-title: エッジ サーバーの FQDN を追加します。
+title: エッジ サーバーの FQDN の追加
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 ROBOTS: NOINDEX, NOFOLLOW
 description: アクセス エッジ サービスの完全修飾ドメイン名 (FQDN) を指定する必要があります。 単一の FQDN の使用を選択しなかった場合は、 &amp; IP アドレスのオプションを選択します] ページの機能、および A の Web 会議エッジ サービスの FQDN を指定することもする必要があります/音声ビデオ エッジ サービスです。
-ms.openlocfilehash: 1387726c9f4cffd22d7e9becd7908846b734357d
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 07591bf9e98f74d9092e34e34b62b8cb2bdcf525
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21067603"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873563"
 ---
-# <a name="add-edge-server-fqdn"></a>エッジ サーバーの FQDN を追加します。
+# <a name="add-edge-server-fqdn"></a>エッジ サーバーの FQDN の追加
  
 アクセス エッジ サービスの完全修飾ドメイン名 (FQDN) を指定する必要があります。 選択しなかった場合、 **、1 つの FQDN を使用して、 &amp; IP アドレス**オプション**機能の選択**] ページで、A、Web 会議エッジ サービスの FQDN を指定する必要がありますもと音声ビデオ エッジ サービスです。
   

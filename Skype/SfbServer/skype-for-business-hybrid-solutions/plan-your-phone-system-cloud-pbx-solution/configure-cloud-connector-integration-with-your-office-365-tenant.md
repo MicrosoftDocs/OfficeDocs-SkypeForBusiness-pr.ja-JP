@@ -1,5 +1,6 @@
 ---
 title: Cloud Connector と Office 365 テナントの統合を構成する
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Cloud Connector と Office 365 テナントの統合を構成する方法を説明します。
-ms.openlocfilehash: 837775fea5a128dbbb8d143f15064e08d9267756
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: 52b66d7870f8416b1dda1a3b5f34f8f028f65557
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729380"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877896"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configure Cloud Connector integration with your Office 365 tenant
  
@@ -42,7 +43,7 @@ Skype for Business Cloud Connector エディションのインストールが完
     
 3. ゲートウェイ用に発行された証明書のルート CA 証明書を仲介サーバーにインポートします。ゲートウェイ用の SSL 証明書を入手する必要がある場合は、次のように Cloud Connector Active Directory コンピューターで証明機関サービスを使用して行うことができます。
     
-   - 既存の Web Server テンプレートを変更して認証済みユーザーを登録できるようにするか、新しい Web Server テンプレートを作成して別のプロパティを構成して認証済みユーザーが登録できるようにします。 具体的な手順については、「[証明書テンプレート」(](https://technet.microsoft.com/en-us/library/cc730705.aspx)) を参照してください。
+   - 既存の Web Server テンプレートを変更して認証済みユーザーを登録できるようにするか、新しい Web Server テンプレートを作成して別のプロパティを構成して認証済みユーザーが登録できるようにします。 詳細については、[証明書テンプレート](https://technet.microsoft.com/en-us/library/cc730705.aspx)を参照してください。
     
    - 有効にした Web Server テンプレートを選択して、証明書スナップインを使用して証明書を要求します。 件名に共通名を追加し、別名に DNS 名とゲートウェイの FQDN を追加して、[キー] オプションで秘密キーをエクスポート可能にする [秘密キー] が選択されていることを確認します。 
     
@@ -54,7 +55,7 @@ Office 365 でドメインを更新する手順を完了し、DNS レコード�
   
 ## <a name="add-dns-records-in-office-365-for-your-edge"></a>Office 365 でのエッジに必要な DNS レコードの追加
 
-以下の DNS レコードを Office 365 テナントに追加します。 Office 365 テナントへの DNS レコードの追加方法については、「[Office 365 でカスタムの DNS レコードを追加または編集する 」(](https://support.office.com/en-us/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1)) を参照してください。
+以下の DNS レコードを Office 365 テナントに追加します。 DNS レコードを Office 365 テナントに追加する方法の詳細については、[追加または編集カスタムの DNS レコード](https://support.office.com/en-us/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1)を参照してください。
   
 1. アクセス エッジの DNS A レコードを追加します。
     
@@ -88,7 +89,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
     
 3. ゲートウェイ用に発行された証明書のルート CA 証明書を仲介サーバーにインポートします。ゲートウェイ用の SSL 証明書を入手する必要がある場合は、次のように Cloud Connector Active Directory コンピューターで証明機関サービスを使用して行うことができます。
     
-   - 既存の Web Server テンプレートを変更して認証済みユーザーを登録できるようにするか、新しい Web Server テンプレートを作成して別のプロパティを構成して認証済みユーザーが登録できるようにします。 具体的な手順については、「[証明書テンプレート」(](https://technet.microsoft.com/library/cc730705.aspx)) を参照してください。
+   - 既存の Web Server テンプレートを変更して認証済みユーザーを登録できるようにするか、新しい Web Server テンプレートを作成して別のプロパティを構成して認証済みユーザーが登録できるようにします。 詳細については、[証明書テンプレート](https://technet.microsoft.com/library/cc730705.aspx)を参照してください。
     
    - 有効にした Web Server テンプレートを選択して、証明書スナップインを使用して証明書を要求します。 件名に共通名を追加し、別名に DNS 名とゲートウェイの FQDN を追加して、[キー] オプションで秘密キーをエクスポート可能にする [秘密キー] が選択されていることを確認します。 
     
@@ -98,7 +99,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
     
 ## <a name="set-up-your-users-in-office-365"></a>Office 365 でユーザーを設定する
 
-Office 365 管理ポータルにログインし、オンラインの音声サービスに対応するユーザーを追加し、これらのユーザーに E5 ライセンスまたは、E3 ライセンスへの Office 365 の電話システム アドオンを割り当てます。 ユーザーの追加の詳細については、「[Office 365 にユーザーを個別に、またはまとめて追加する」(](https://support.office.com/en-US/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)) を参照してください。
+Office 365 管理ポータルにログインし、オンラインの音声サービスに対応するユーザーを追加し、これらのユーザーに E5 ライセンスまたは、E3 ライセンスへの Office 365 の電話システム アドオンを割り当てます。 ユーザーを追加する方法の詳細については、[ビジネス向けの Office 365 のユーザーの追加](https://support.office.com/en-US/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)を参照してください。
   
 ## <a name="enable-users-for-phone-system-in-office-365-voice-and-voicemail-services"></a>Office 365 の電話システムの音声およびボイスメール サービスを利用できるようにする
 

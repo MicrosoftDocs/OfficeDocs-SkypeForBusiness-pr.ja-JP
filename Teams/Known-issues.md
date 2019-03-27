@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2908ff9bec8be1eaf7d6dc09ff03adb9ae3ea9ea
-ms.sourcegitcommit: cad74f2546a6384747b1280c3d9244aa13fd0989
+ms.openlocfilehash: a9abe6e17a4c11dd2e1943643c7030eadd5bd0ba
+ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30737817"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30771735"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -178,7 +178,7 @@ ms.locfileid: "30737817"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|会議の参加者が最大数に達しています  <br/> |Microsoft Teams の各会議には最大で 80 人が参加できます。  <br/> |回避策なし。  <br/> |2017/03/13  <br/> |
+|会議の参加者が最大数に達しています  <br/> |Microsoft Teams の各会議には最大で 250 人が参加できます。  <br/> |Teams で、10000 人のユーザーをホストできるライブ イベントを作成します。  <br/> |2017/03/13  <br/> |
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
@@ -249,10 +249,6 @@ ms.locfileid: "30737817"
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
 |プランナー オンラインでの Teams プランナー統合 <br/> |プランナーのタスク バケットが、プランナー オンラインのエクスペリエンスで表示されません。  <br/> |回避策なし。 <br/> |2017/02/28  <br/>|
-
-|**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
-|:-----|:-----|:-----|:-----|
-|SharePoint ページ タブによりブランク スクリーンが表示される <br/> |SharePoint Online のバニティ ドメインは現在サポートされていません。ユーザーが SharePoint ページ タブを追加しようとすると、ブランク スクリーンが表示されてしまいます。 <br/> |回避策なし。 <br/> |8/20/18  <br/>|
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|

@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '電話会議に参加するのには、電話を使用する必要があるビジネス人のダイヤルインまたはオーディオ会議を設定する方法について説明します。 '
-ms.openlocfilehash: 64ebcb97157d94a5c25ddff38e8e1ca58d3975ec
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: d57eedec13d9bd1c01ec9365fd42c0a4dfdc2d96
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633300"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877192"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>ビジネス用の Skype の電話会議を設定します。
 
@@ -49,7 +49,7 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
     >[!NOTE] 
     > オーディオ会議は、アドオンと Office 365 エンタープライズ E5 のライセンスには含まれています。
         
-2. 電話会議ライセンスを購入した後は、それらのライセンスを、会議を計画したり開催しようとしている組織内のユーザーに割り当てる必要があります。 会議を計画したり主催しようとしてるユーザーに対して購入した「[法人向け Office 365 ライセンスの割り当てと削除](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)」を参照してください。
+2. オーディオ会議のライセンスを購入した後は、人、組織の会議やスケジュールを設定するのに割り当てる必要があります。 会議を計画したり主催しようとしてるユーザーに対して購入した「[法人向け Office 365 ライセンスの割り当てと削除](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)」を参照してください。
     
 3. また、前の手順でライセンスを割り当てた同じユーザーに、コミュニケーション クレジット ライセンス (費用はかかりません) を割り当てることをおすすめします。 コミュニケーション クレジットのセットアップ方法については、「[組織向けにコミュニケーション クレジットをセットアップする](/microsoftteams/set-up-communications-credits-for-your-organization)」を参照してください。
     

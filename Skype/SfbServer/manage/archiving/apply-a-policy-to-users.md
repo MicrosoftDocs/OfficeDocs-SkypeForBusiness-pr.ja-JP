@@ -1,5 +1,6 @@
 ---
 title: Skype 内のユーザーにビジネス サーバーのアーカイブ ・ ポリシーを適用します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
 description: '概要: は、Skype のユーザーにビジネス サーバーのアーカイブ ・ ポリシーを割り当てる方法について説明します。'
-ms.openlocfilehash: bc54c25a710e4e1cca44fb7311a47101f31ef7df
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: aee6ba91d327f6af1c13680fb6477cf12627cafc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20985617"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873753"
 ---
 # <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Skype 内のユーザーにビジネス サーバーのアーカイブ ・ ポリシーを適用します。
 
@@ -40,9 +41,9 @@ ms.locfileid: "20985617"
 5. **アーカイブ**ポリシーでは、 **Lync Server ユーザーの編集**では、アーカイブ ユーザー ポリシーを適用するを選択します。
     
     > [!NOTE]
-    > **\<自動\>** の設定は、サーバー インストールの既定の設定を適用します。 これらの設定はサーバーによって自動的に適用されます。
+    > **\<自動\>** の設定は、サーバー インストールの既定の設定を適用します。 これらの設定はサーバーにより自動的に適用されます。
   
-6. [**確定**] をクリックします。
+6. [**コミット**] をクリックします。
     
 ## <a name="apply-a-user-policy-by-using-windows-powershell"></a>Windows PowerShell を使用してユーザー ポリシーを適用します。
 

@@ -1,5 +1,6 @@
 ---
-title: フェデレーション (計画ツール)
+title: Federation (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +14,14 @@ localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 ROBOTS: NOINDEX, NOFOLLOW
 description: パートナー企業やサービスの連絡先へのアクセスを内部ユーザーと外部ユーザーを許可するのには、エッジ トランスポート サーバーを構成できます。
-ms.openlocfilehash: f42767554ebfb588609b05948ff0162597582d9b
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 001a48fd6888eca9c633332202be782561846cc2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21068293"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874417"
 ---
-# <a name="federation-planning-tool"></a>フェデレーション (計画ツール)
+# <a name="federation-planning-tool"></a>Federation (Planning Tool)
  
 パートナー企業やサービスの連絡先へのアクセスを内部ユーザーと外部ユーザーを許可するのには、エッジ トランスポート サーバーを構成できます。
   

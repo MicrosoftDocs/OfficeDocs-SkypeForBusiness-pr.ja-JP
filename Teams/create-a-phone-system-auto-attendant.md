@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 設定し、組織の処理効率の呼び出しに自動応答の電話システム (PBX をクラウド) をテストする方法について説明します。
-ms.openlocfilehash: 83a59090e447a5bfbda4cf72481b9d6b1ce21a0e
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 5071b3c26809e56df4cdd922ed1df2e67fc9481c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542320"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873480"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>電話システムの自動応答をセットアップする
 
@@ -37,19 +37,21 @@ ms.locfileid: "30542320"
 > [!NOTE]
 > この資料は、オンライン ビジネスは、マイクロソフトのチームと Skype の両方に適用されます。
 
-## <a name="step-1---getting-started"></a>ステップ 1 - はじめに
+## <a name="step-1---get-started"></a>手順 1 - 開始します。
 
-- 作成して、自動アテンダントが電話番号を持つ場合は、自動応答を設定する前に (多くの 2 番目のレベルを要求したり、自動アテンダントを入れ子にしないと電話番号を必要とする) を取得または、既存の有料または無料のサービスに転送する必要があります番号. **マイクロソフトのチーム管理センター**で表示は有料または無料のサービスの番号を取得した後 > **音声** > **の電話番号**のページです。 サービス番号を取得するには、[サービスの電話番号の取得](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)を参照するか、転送し、既存のサービス番号にする場合は、 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)を参照してください。 **User (subscriber)** numbers can't be assigned to auto attendants. 米国以外の場合は、サービス番号を取得するのには、マイクロソフトのチーム管理センターを使うことはできません。移動[ここ](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+- 作成して、自動アテンダントが電話番号を持つ場合は、自動応答を設定する前に (多くの 2 番目のレベルを要求したり、自動アテンダントを入れ子にしないと電話番号を必要とする) を取得または、既存の有料または無料のサービスに転送する必要があります番号. **マイクロソフトのチーム管理センター**で表示は有料または無料のサービスの番号を取得した後 > **音声** > **の電話番号**のページです。 サービス番号を取得するには、[サービスの電話番号の取得](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)を参照するか、転送し、既存のサービス番号にする場合は、 [Office 365 に電話番号を転送する](transfer-phone-numbers-to-office-365.md)を参照してください。 **User (subscriber)** numbers can't be assigned to auto attendants. 米国以外の場合は、サービス番号を取得するのには、マイクロソフトのチーム管理センターを使うことはできません。移動[ここ](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
     > [!CAUTION]
     > 取得し、フリー ダイヤル電話番号を使用して、通信のクレジットを設定する必要があります。 この参照を行うに[通信のクレジットは何ですか?](what-are-communications-credits.md)し、[組織の通信のクレジットを設定](set-up-communications-credits-for-your-organization.md)。
   
-- 組織は、エンタープライズの E3 と**電話システム**のライセンスまたはエンタープライズ E5 のライセンス (最低) が必要です。 自動応答に使用する利用可能なサービス番号の番号を割り当てられている**電話システム**のユーザー ライセンスの数に影響します。 ことが自動応答の数は、組織に割り当てられている番号の**電話システム**と**オーディオ会議**ライセンスに依存します。 ライセンスに関する詳細については、 [こちら](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) をご覧ください。
+- 組織は、エンタープライズの E3 と**電話システム**のライセンスまたはエンタープライズ E5 のライセンス (最低) が必要です。 自動応答に使用する利用可能なサービス番号の番号を割り当てられている**電話システム**のユーザー ライセンスの数に影響します。 ことが自動応答の数は、組織に割り当てられている番号の**電話システム**と**オーディオ会議**ライセンスに依存します。 ライセンスに関する詳細については、[アドオン ライセンスのビジネス用の Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)または[マイクロソフトのチームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。 .
 
     > [!TIP]
-    > 演算子または**電話システム**のライセンスを持つオンラインのユーザーは、メニュー ・ オプションへの呼び出しをリダイレクトするには、エンタープライズ VoIP を有効にするか、Office 365 のプランを呼び出すことを割り当てることにする必要があります。 「[Skype for Business と Microsoft Teams のライセンスを割り当てる](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)」をご覧ください。 Windows PowerShell を使用することもできます。 などを実行します。`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > 演算子または**電話システム**のライセンスを持つオンラインのユーザーは、メニュー ・ オプションへの呼び出しをリダイレクトするには、エンタープライズ VoIP を有効にするか、Office 365 のプランを呼び出すことを割り当てることにする必要があります。 [ビジネス ライセンスの割り当ての Skype](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)または[マイクロソフトのチームを割り当てるライセンス](assign-teams-licenses.md)を参照してください。 Windows PowerShell を使用することもできます。 などを実行します。`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 ## <a name="step-2---create-a-new-auto-attendant"></a>ステップ 2 - 新しい自動応答の作成
+
+[!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 > [!IMPORTANT]
 > 呼び出しのすべてのキューは、関連付けられている[リソースのアカウント](manage-resource-accounts.md)を持っている必要があります。 最初に、リソース アカウントを作成する必要がありますし、自動応答に関連付けることができます。
@@ -347,7 +349,7 @@ Windows PowerShell を使用して自動応答を作成し、設定すること�
 
 ### <a name="more-about-windows-powershell"></a>Windows PowerShell の詳細について
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. Windows PowerShell では、Office 365 と一元管理を行う複数のタスクがある場合、日常的な作業を簡素化するを使用してマイクロソフトのチームを管理できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShell は、ユーザーを管理するユーザーを許可または許可されません。 Windows PowerShell では、Office 365 と一元管理を行う複数のタスクがある場合、日常的な作業を簡素化するを使用してマイクロソフトのチームを管理できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
 
   - [Windows PowerShell と Skype for Business Online の概要](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -363,7 +365,7 @@ Windows PowerShell を使用して自動応答を作成し、設定すること�
 
 [Office 365 での電話システムで利用できる機能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
-[サービスの電話番号の取得](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+[サービス電話番号を取得する](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 [国および地域ごとの電話会議および通話プランの利用可能性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
@@ -371,4 +373,5 @@ Windows PowerShell を使用して自動応答を作成し、設定すること�
 
 [電話システムの自動応答とは](what-are-phone-system-auto-attendants.md)
 
-[小規模企業の例では、自動応答を設定](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml)  
+[小規模ビジネスの例: 自動応答をセットアップする](https://docs.microsoft.com/skypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa
+)  

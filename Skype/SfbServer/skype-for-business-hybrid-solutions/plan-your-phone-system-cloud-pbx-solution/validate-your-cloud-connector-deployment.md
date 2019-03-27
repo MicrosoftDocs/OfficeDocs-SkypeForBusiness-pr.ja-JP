@@ -1,5 +1,6 @@
 ---
 title: Cloud Connector 展開の確認
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 30b6be15-77fa-43b0-b558-87b9724feb35
 description: 展開し、ビジネス クラウド コネクタ ・ エディションの Skype を構成していることを確認する手順を完了した後を作成し、呼び出しを受信できます。
-ms.openlocfilehash: 57d0d72974d25ca2472dcee80e0a4156d1f70920
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7ea8e686c578941c2009465fc43ed6ae004dbb88
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889662"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875377"
 ---
-# <a name="validate-your-cloud-connector-deployment"></a>Cloud Connector 展開の確認
+# <a name="validate-your-cloud-connector-deployment"></a>Validate your Cloud Connector deployment
  
 展開し、ビジネス クラウド コネクタ ・ エディションの Skype を構成していることを確認する手順を完了した後を作成し、呼び出しを受信できます。
   

@@ -1,5 +1,6 @@
 ---
 title: ErrorReport ビュー
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
 description: ErrorReport ビューでは、報告されたエラーに関する情報を格納します。 各レコードは、1 つのエラーの発生です。 エラーは、フロント エンド サーバーで実行されている CDR エージェントがいずれかの方法を取得またはクライアントから送信されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: b1815d4420b5768b065a5695ea09174ecff91912
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8d72ad73b5894e73b7d95b1b11bc10dffcabc5f7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874180"
 ---
 # <a name="errorreport-view"></a>ErrorReport ビュー
  
@@ -40,7 +42,7 @@ ErrorReport ビューでは、報告されたエラーに関する情報を格�
 |**顧客タイプ** <br/> |int  <br/> |エラーを開始したユーザーによって使用されるクライアントです。 詳細については、 [UserAgentDef テーブル](useragentdef.md)を参照してください。 <br/> |
 |**ClientCategory** <br/> |nvarchar(64)  <br/> |エラーが発生したユーザーが使用するクライアントのカテゴリの名前です。  <br/> |
 |**ソース** <br/> |nvarchar(256)  <br/> |(レポートは、サーバー コンポーネントから送信された) 場合、エラーが発生したサーバーの名前です。  <br/> |
-|**アプリケーション** <br/> |nvarchar(256)  <br/> |(レポートは、サーバー コンポーネントから送信された) 場合、エラーが発生したアプリケーションの名前です。  <br/> |
+|**Application** <br/> |nvarchar(256)  <br/> |(レポートは、サーバー コンポーネントから送信された) 場合、エラーが発生したアプリケーションの名前です。  <br/> |
 |**ResponseCode** <br/> |int  <br/> |エラー レポートが含まれている SIP メッセージのセッションに応答コードを SIP します。  <br/> |
 |**修飾子の一覧** <br/> |は  <br/> |失敗した要求の種類です。  <br/> |
 |**コンテンツ タイプ** <br/> |は  <br/> |失敗した要求のコンテンツ タイプ。  <br/> |
@@ -50,7 +52,7 @@ ErrorReport ビューでは、報告されたエラーに関する情報を格�
 |**IsCapturedByServer** <br/> |bit  <br/> |エラー レポートが、フロント エンド サーバーで実行されている CDR エージェントによってキャプチャされるか、クライアントによって送信されたかどうかを示します。  <br/> |
 |**フラグ** <br/> |smallint  <br/> |将来使用するために予約されています。  <br/> |
 |**MsDiagHeader** <br/> |は  <br/> |エラーに関する追加情報です。  <br/> |
-|**フロント エンド** <br/> |nvarchar  <br/> |レポートを提出するフロント エンド サーバーの完全修飾ドメイン名です。  <br/> |
-|**[プール]** <br/> |nvarchar  <br/> |レポートを提出するフロント エンド サーバーを含むプールのドメイン名を完全修飾します。  <br/> |
+|**FrontEnd** <br/> |nvarchar  <br/> |レポートを提出するフロント エンド サーバーの完全修飾ドメイン名です。  <br/> |
+|**Pool** <br/> |nvarchar  <br/> |レポートを提出するフロント エンド サーバーを含むプールのドメイン名を完全修飾します。  <br/> |
    
 

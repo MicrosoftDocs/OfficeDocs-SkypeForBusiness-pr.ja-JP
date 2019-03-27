@@ -1,5 +1,6 @@
 ---
-title: アーカイブ サーバーの SQL Server データベースを削除します。
+title: アーカイブ サーバー用の SQL Server データベースの削除
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: アーカイブ サーバーを削除した後は、プールのデータをホストしていた SQL Server データベースを削除できます。 トポロジ ビルダーでは、定義を削除するのには次の手順を使用し、データベース ・ サーバからデータベースとログ ファイルを削除します。
-ms.openlocfilehash: b7c1fe6591564a690ea1da55fb65eb1071661d63
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: acb402dd6cb28be5b607b8a358524dfc0c1fea69
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370802"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875441"
 ---
-# <a name="remove-the-sql-server-database-for-an-archiving-server"></a>アーカイブ サーバーの SQL Server データベースを削除します。
+# <a name="remove-the-sql-server-database-for-an-archiving-server"></a>アーカイブ サーバー用の SQL Server データベースの削除
 
 アーカイブ サーバーを削除した後は、プールのデータをホストしていた SQL Server データベースを削除できます。 トポロジ ビルダーでは、定義を削除するのには次の手順を使用し、データベース ・ サーバからデータベースとログ ファイルを削除します。
   

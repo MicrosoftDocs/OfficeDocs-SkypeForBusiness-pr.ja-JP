@@ -1,5 +1,6 @@
 ---
 title: Skype ビジネス サーバーのアーカイブの計画
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: '概要: Skype のビジネス サーバーのアーカイブを計画する方法の詳細については、このトピックを読みます。'
-ms.openlocfilehash: 352ef56b3030a28b6a039b6408becc24db5eced9
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 164a3207153986e788a7db47b86014063e37e0e5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969012"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876522"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>Skype ビジネス サーバーのアーカイブの計画
  
@@ -79,7 +80,7 @@ ms.locfileid: "20969012"
     > [!NOTE]
     > 内部または外部通信のアーカイブを制御することがビジネス ポリシーの Skype のできるだけです。 Exchange に統合されたアーカイブの内部と外部の両方の通信のアーカイブ方法またはアーカイブされません。 
   
-- **重要モードを実装するかどうか**。 アーカイブは、組織の必要な場合、重要なモードを設定すると、IM と会議のセッションが、Skype のアーカイブを妨げるビジネス サーバー障害が発生した場合ブロックされます。 例: 
+- **重要モードを実装するかどうか**。 アーカイブは、組織の必要な場合、重要なモードを設定すると、IM と会議のセッションが、Skype のアーカイブを妨げるビジネス サーバー障害が発生した場合ブロックされます。 次に例を示します。 
     
   - ビジネス サーバー ・ ストレージ ・ サービスの Skype に問題があります。 この場合、アーカイブが有効になっているユーザーに対して IM がブロックされます。
     
@@ -177,7 +178,7 @@ Skype ビジネス サーバー ・ ストレージを選択すると、どの�
   
 - **Microsoft Exchange の記憶域**です。 Exchange 統合オプションを選択した場合 Skype ビジネス サーバーのユーザーが exchange の置かれているし、インプレース保持に自分のメールボックスを持ち、すべてのユーザーに対して Exchange ストアのアーカイブ ・ コンテンツをデポジットします。 アーカイブ ・ データは、ユーザー メールボックスの回復可能な項目フォルダーが、ユーザーに通常表示されていないと、Exchange**の検出の管理**役割を持つユーザーが検索できるだけに格納されます。 Exchange では、配備されている場合横串検索と SharePoint との探索を有効にします。 ストレージ、保存、および Exchange に格納されているデータの検出の詳細については、Exchange と SharePoint のドキュメントを参照してください。
     
-- **Skype ビジネス サーバー ・ アーカイブ ・ ストレージ**です。 ビジネス ・ サーバのアーカイブ データベースは、Skype をセットアップする場合は、Exchange では、Skype、Skype のすべてのユーザーに対して、ビジネス ・ サーバのアーカイブ データベース内のコンテンツのないアーカイブ ビジネス サーバー預金の置かれているし、インプレース保持に自分のメールボックスを持たない人。 このデータは検索できませんが、他のツールを使用して検索可能な形式にエクスポートできます。 アーカイブ データベースに格納されているデータのエクスポートについての詳細は、 [Skype のビジネス サーバーでアーカイブされたデータをエクスポートする](../../manage/archiving/export-archived-data.md)を参照してください。
+- **Skype ビジネス サーバー ・ アーカイブ ・ ストレージ**です。 ビジネス ・ サーバのアーカイブ データベースは、Skype をセットアップする場合は、Exchange では、Skype、Skype のすべてのユーザーに対して、ビジネス ・ サーバのアーカイブ データベース内のコンテンツのないアーカイブ ビジネス サーバー預金の置かれているし、インプレース保持に自分のメールボックスを持たない人。 This data is not searchable, but it can be exported to formats that are searchable using other tools. アーカイブ データベースに格納されているデータのエクスポートについての詳細は、 [Skype のビジネス サーバーでアーカイブされたデータをエクスポートする](../../manage/archiving/export-archived-data.md)を参照してください。
     
 ## <a name="for-more-information"></a>関連情報
 

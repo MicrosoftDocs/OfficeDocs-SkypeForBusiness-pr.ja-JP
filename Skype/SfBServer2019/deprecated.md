@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバー 2019 の Skype からどのような使用されなくなりました
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: これらの機能がなくなる Skype からビジネス サーバー 2019 のです。'
-ms.openlocfilehash: 399c5f219ae5a088c4e7f8aa40f40344885d571e
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: bd7519e66632c005d81ff9fc110684f6c4854c41
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561612"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876656"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype からどのような使用されなくなりました
 
@@ -56,7 +57,7 @@ SQL のミラーリングを展開できません Skype でのビジネス サ�
 
 次のツールはビジネス サーバー 2019 Skype の初期のリリースで使用できません。
 
-- Skype ビジネス サーバーの容量計画の計算について
+- Skype for Business Server の容量計画計算ツール
 - Skype ビジネス サーバーのデバッグ ツールの
 - Skype のビジネス サーバーのリソース キット ツールは (いくつかのツールは削除されます)
     - Call Parkometer
@@ -67,11 +68,11 @@ SQL のミラーリングを展開できません Skype でのビジネス サ�
 
 - 品質方法論を呼び出す (ですが、品質のダッシュ ボードを呼び出していない)
 - Microsoft 呼び出し品質方法論のスコアカード、v1.5
-- Skype for Business Server 2015 Planning Tool
+- Skype for Business Server 2015 計画ツール
 - Skype for Business Server 2015 Stress and Performance Tool
 
 ### <a name="see-also"></a>関連項目
 
 [ビジネス サーバー 2019 の Skype の新機能](whats-new.md)
 
-[XMPP フェデレーションを移行します。](migration/migrating-xmpp-federation.md)
+[XMPP フェデレーションの移行](migration/migrating-xmpp-federation.md)

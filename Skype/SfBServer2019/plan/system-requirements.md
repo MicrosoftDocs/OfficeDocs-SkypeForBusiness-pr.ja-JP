@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバー 2019 Skype のシステム要件
+ms.reviewer: ''
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: '概要: ビジネス サーバー 2019 サーバーおよびドメイン インフラストラクチャをこのトピックでは、Skype を準備します。 ハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件と推奨事項は、DNS の証明書と、ファイル共有、および Active Directory については、ここでは正常にインストールし、サーバー ファームの展開を行うには。'
-ms.openlocfilehash: 0f2926bc0d110ce7270b6798895ecda7ebabb23a
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 86ef54a5a269a47fb1e2b8dff04808bf85b5b296
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120659"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875645"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>ビジネス サーバー 2019 Skype のシステム要件
  
@@ -50,7 +51,7 @@ Standard Edition サーバーのハードウェアをお勧めします。
 |:-----|:-----|
 |CPU  <br/> |インテル Xeon E5-2673 v3 のデュアル プロセッサ、6 コア、2.4 ghz (ギガヘルツ) またはそれ以上です。  <br/> サーバー 2019 のビジネス ロールの Skype は、Intel Itanium プロセッサがサポートされていません。  <br/> |
 |メモリ  <br/> |32 ギガバイト (GB)  <br/> |
-|ディスク  <br/> |次のいずれか:  <br/> •	10,000 RPM のハード ディスク ドライブで 72 GB 以上の空きディスク領域があるものを 8 台以上 (RAID 1 を使用する 2 台のディスクと、RAID 10 を使用する 6 台のディスク)。  <br/> または  <br/> •	10000 RPM の機械的ディスク ドライブ 8 台と同じ空き領域および同等のパフォーマンスを持つソリッド ステート ドライブ (SSD)。  <br/> |
+|ディスク  <br/> |次のいずれか:  <br/> • 8 または 72 GB 以上の空き容量がさらに 10000 RPM ハード ディスク ドライブのディスク領域 (RAID 1 と RAID 10 を使用して 6 を使用してディスクの 2 つ)。  <br/> または  <br/> • ソリッドステート ドライブ (Ssd) 同一の空きスペースと 8 10000 RPM の機械的ディスク ドライブのようなパフォーマンスを提供することです。  <br/> |
 |ネットワーク  <br/> |1 Gbps 以上のデュアルポート ネットワーク アダプター 1 つ (2 つのネットワーク アダプターを使用できるが、その場合は 1 つの MAC アドレスと 1 つの IP アドレスのチーミングが必要)。  <br/> デュアルまたはマルチホーム構成では、サーバーをフロント エンド サーバーやバック エンド サーバー、Standard Edition でサポートされて**いません**。 <br/> オペレーティング システムに公開されていない、監視し、サーバー ハードウェアの管理に使用されている限り、帯域外の管理システムでは、DRAC、または ILO などを持つことができます。 このシナリオは、マルチ ホーム サーバーの構成要素ではなく、サポートされています。  <br/> |
 
 
@@ -60,7 +61,7 @@ Standard Edition サーバーのハードウェアをお勧めします。
 |:-----|:-----|
 |CPU  <br/> |インテル Xeon E5-2673 v3 のデュアル プロセッサ、6 コア、2.4 ghz (ギガヘルツ) またはそれ以上です。 <br/> サーバー 2019 のビジネス ロールの Skype は、Intel Itanium プロセッサがサポートされていません。  <br/> |
 |メモリ  <br/> |64 ギガバイト (GB)。  <br/> |
-|ディスク  <br/> |次のいずれか:  <br/> •	10,000 RPM のハード ディスク ドライブで 72 GB 以上の空きディスク領域があるものを 8 台以上 (RAID 1 を使用する 2 台のディスクと、RAID 10 を使用する 6 台のディスク)。  <br/> または  <br/> •	10000 RPM の機械的ディスク ドライブ 8 台と同じ空き領域および同等のパフォーマンスを持つソリッド ステート ドライブ (SSD)。  <br/> |
+|ディスク  <br/> |次のいずれか:  <br/> • 8 または 72 GB 以上の空き容量がさらに 10000 RPM ハード ディスク ドライブのディスク領域 (RAID 1 と RAID 10 を使用して 6 を使用してディスクの 2 つ)。  <br/> または  <br/> • ソリッドステート ドライブ (Ssd) 同一の空きスペースと 8 10000 RPM の機械的ディスク ドライブのようなパフォーマンスを提供することです。  <br/> |
 |ネットワーク  <br/> |1 Gbps 以上のデュアルポート ネットワーク アダプター 1 つ (2 つのネットワーク アダプターを使用できるが、その場合は 1 つの MAC アドレスと 1 つの IP アドレスのチーミングが必要)。  <br/> デュアルまたはマルチホーム構成では、サーバーをフロント エンド サーバーやバック エンド サーバー、Standard Edition でサポートされて**いません**。 <br/> オペレーティング システムに公開されていない、監視し、サーバー ハードウェアの管理に使用されている限り、帯域外の管理システムでは、DRAC、または ILO などを持つことができます。 このシナリオは、マルチ ホーム サーバーの構成要素ではなく、サポートされています。  <br/> |
    
 エッジ トランスポート サーバー、スタンドアロンの仲介サーバー、およびディレクターのハードウェアを推奨します。
@@ -69,7 +70,7 @@ Standard Edition サーバーのハードウェアをお勧めします。
 |:-----|:-----|
 |CPU  <br/> |インテル Xeon E5-2673 v3 のデュアル プロセッサ、6 コア、2.4 ghz (ギガヘルツ) またはそれ以上です。  <br/> サーバー 2019 のビジネス ロールの Skype は、Intel Itanium プロセッサがサポートされていません。  <br/> |
 |メモリ  <br/> |32 ギガバイトです。  <br/> |
-|ディスク  <br/> |次のいずれか:  <br/> •	10,000 RPM のハード ディスク ドライブで 72 GB 以上の空きディスク領域があるものを 4 台以上 (ディスクは 2 x RAID 1 構成である必要がある)。  <br/> または  <br/> •	10000 RPM の機械的ディスク ドライブ 4 台と同じ空き領域および同等のパフォーマンスを持つソリッド ステート ドライブ (SSD)。  <br/> |
+|ディスク  <br/> |次のいずれか:  <br/> • 72 GB 以上の空き容量を持つ 4 つ以上の 10000 RPM ハード ディスク ドライブはディスク容量が (ディスクは 2 倍の RAID 1 構成にする必要があります) です。  <br/> または  <br/> • ソリッドステート ドライブ (Ssd) 同一の空き領域と 10000 RPM の機械的ディスク ドライブ 4 のようなパフォーマンスを提供することです。  <br/> |
 |ネットワーク  <br/> |1 Gbps 以上のデュアルポート ネットワーク アダプター 1 つ (2 つのネットワーク アダプターを使用できるが、その場合は 1 つの MAC アドレスと 1 つの IP アドレスのチーミングが必要)。  <br/> デュアルまたはマルチホームの構成は、ビデオの相互運用機能のサーバーやディレクターではサポート**されません**。 <br/> エッジ サーバーには、1 Gbps 以上のデュアルポート ネットワーク アダプターである 2 つのネットワーク インターフェイス (つまり 2 ペア (合計 4 つ) のネットワーク アダプター。この合計 2 つのペアでは、各ペアが 1 つの MAC アドレスと 1 つの IP アドレスでチームになっている) が必要です。  <br/> スタンドアロンの仲介サーバーでは、追加のネットワーク インターフェイス カード (Nic) が特定の PSTN の IP アドレスの構成を許可するのインストールがサポートされています。  <br/> |
 
 
@@ -148,7 +149,7 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
     
   - ログ ツール
     
-  - 追跡
+  - トレース
     
 - パフォーマンス
     
@@ -267,7 +268,7 @@ Skype を配置するには、ビジネスのサーバー 2019 の任意のド�
     
 これらの環境で読み取り専用ドメイン コント ローラーを持つことができますか。 確かに、そこである限りは、書き込み可能なドメイン コント ローラー利用。
   
-Skype ビジネス サーバー 2019 の単一ラベルのドメインをサポートしていないことを知っているが重要です。 単一ラベルのドメインがどのようなものかを把握しておいてください。 Contoso.local というラベルの付いたルート ドメインがあれば、十分にそうです。 ルート ドメイン ローカルという名前だけがあれば、作業をすることはしませんし、結果としてサポートされていません。 詳細については、[こちらのサポート技術情報の記事](https://support.microsoft.com/kb/300684/en-us)を参照してください。
+Skype ビジネス サーバー 2019 の単一ラベルのドメインをサポートしていないことを知っているが重要です。 単一ラベルのドメインがどのようなものかを把握しておいてください。 Contoso.local というラベルの付いたルート ドメインがあれば、十分にそうです。 ルート ドメイン ローカルという名前だけがあれば、作業をすることはしませんし、結果としてサポートされていません。 もう少しこれについて書かれています[このサポート技術情報の記事で](https://support.microsoft.com/kb/300684/en-us).
   
 ビジネス サーバー 2019 の Skype は、ドメイン名の変更もサポートしていません。 本当にした場合、ドメインの名前を変更するのが必要がありますのビジネス サーバー 2019、Skype をアンインストールするのにはドメインの名前変更の操作を行いますしてビジネス サーバー 2019 の Skype を再インストールします。
   
@@ -352,7 +353,7 @@ Skype ビジネス サーバーと同じリソース フォレストまたは別
   
 このシナリオでは、リソース フォレスト トポロジを使用するオンプレミスの複数のフォレストが存在し、Active Directory フォレスト間には完全な信頼関係がある場合を考えます。オンプレミス ユーザー フォレストと Office 365 との間のアカウントを同期するために、Azure Active Directory Connect ツールが使用されます。
   
- この組織は Office 365 も備えており、[Azure Active Directory Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) を使用してオンプレミス アカウントを Office 365 と同期します。 Office 365 と Skype では、オンライン ビジネスのビジネス用の Skype は、有効になっているユーザーが有効です。 ビジネス サーバー用の Skype は、オンプレミスで導入ではありません。
+ 組織も、Office 365 があり、 [Azure Active Directory の接続](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)を使用して、オンプレミス アカウントを Office 365 に同期します。 Office 365 と Skype では、オンライン ビジネスのビジネス用の Skype は、有効になっているユーザーが有効です。 ビジネス サーバー用の Skype は、オンプレミスで導入ではありません。
   
 シングル サインオン認証は、ユーザーのフォレストにある、Active Directory フェデレーション サービス ファームによって提供されます。
   
@@ -462,7 +463,7 @@ Standard Edition サーバーの証明書:
   
 |**証明書**|**サブジェクト名/共通名**|**サブジェクトの別名**|**例**|**コメント**|
 |:-----|:-----|:-----|:-----|:-----|
-|Default  <br/> |プールの FQDN  <br/> |プールの FQDN およびサーバーの FQDN  <br/> SIP ドメインが複数あり、自動クライアント構成が有効な場合は、証明書ウィザードによって、サポートされている各 SIP ドメインの FQDN が検出され、追加されます。  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密なドメイン ネーム システム (DNS) マッチングが必要な場合は、sip.sipdomain のエントリ (所有する各 SIP ドメイン用) も必要となります。  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com   <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密な DNS マッチングが必要な場合は、SAN=sip.contoso.com、SAN=sip.fabrikam.com も必要です。  <br/> |このウィザードでは、セットアップ時に指定した SIP ドメインが検出され、サブジェクトの別名に自動的に追加されます。  <br/> また、この証明書はサーバー間認証でも使用できます。  <br/> |
+|既定  <br/> |プールの FQDN  <br/> |プールの FQDN およびサーバーの FQDN  <br/> SIP ドメインが複数あり、自動クライアント構成が有効な場合は、証明書ウィザードによって、サポートされている各 SIP ドメインの FQDN が検出され、追加されます。  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密なドメイン ネーム システム (DNS) マッチングが必要な場合は、sip.sipdomain のエントリ (所有する各 SIP ドメイン用) も必要となります。  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com   <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密な DNS マッチングが必要な場合は、SAN=sip.contoso.com、SAN=sip.fabrikam.com も必要です。  <br/> |このウィザードでは、セットアップ時に指定した SIP ドメインが検出され、サブジェクトの別名に自動的に追加されます。  <br/> また、この証明書はサーバー間認証でも使用できます。  <br/> |
 |内部 Web  <br/> |プールの FQDN  <br/> |次のうちのすべて:  <br/> • 内部 web FQDN (これは、サーバーの FQDN と同じ)  <br/> • サーバーの FQDN  <br/> • Skype ビジネス プールの FQDN  <br/> および  <br/> • 対応の簡単な Url  <br/> ・ ダイヤルで簡単な URL  <br/> • 管理の簡単な URL  <br/> または  <br/> • 簡単な Url のワイルドカード エントリ  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=ee01.contoso.com です。SAN=ee01.contoso.com です。SAN =\*. contoso.com  <br/> |対応の複数の簡単な Url の場合は、サブジェクト代替名としては、それらのすべてを含める必要があります。  <br/> 簡易 URL エントリではワイルドカード エントリがサポートされます。  <br/> |
 |外部 Web  <br/> |プールの FQDN  <br/> |次のうちのすべて:  <br/> • 外部 web FQDN  <br/> および  <br/> ・ ダイヤルで簡単な URL  <br/> • 管理の簡単な URL  <br/> または  <br/> • 簡単な Url のワイルドカード エントリ  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=ee01.contoso.com です。SAN=webcon01.contoso.com です。SAN =\*. contoso.com  <br/> |対応の複数の簡単な Url の場合は、サブジェクト代替名としては、それらのすべてを含める必要があります。  <br/> 簡易 URL エントリではワイルドカード エントリがサポートされます。  <br/> |
    
@@ -470,7 +471,7 @@ Standard Edition サーバーの証明書:
   
 |**証明書**|**サブジェクト名/共通名**|**サブジェクトの別名**|**例**|
 |:-----|:-----|:-----|:-----|
-|Default  <br/> |ディレクター プール  <br/> |ディレクター、ディレクター プールの FQDN の FQDN です。  <br/> このプールがクライアント、および厳密な自動ログオン サーバーである場合は、グループ ポリシーで必要な DNS に一致する、(各 SIP ドメイン) の sip.sipdomain のエントリも必要があります。  <br/> |pool.contoso.com; SAN=dir01.contoso.com   <br/> このダイレクタ ・ プールは、クライアントの自動ログオン サーバーと、グループ ポリシーで厳密な DNS マッチングが必要なする必要も SAN=sip.contoso.com。SAN=sip.fabrikam.com  <br/> |
+|既定  <br/> |ディレクター プール  <br/> |ディレクター、ディレクター プールの FQDN の FQDN です。  <br/> このプールがクライアント、および厳密な自動ログオン サーバーである場合は、グループ ポリシーで必要な DNS に一致する、(各 SIP ドメイン) の sip.sipdomain のエントリも必要があります。  <br/> |pool.contoso.com; SAN=dir01.contoso.com   <br/> このダイレクタ ・ プールは、クライアントの自動ログオン サーバーと、グループ ポリシーで厳密な DNS マッチングが必要なする必要も SAN=sip.contoso.com。SAN=sip.fabrikam.com  <br/> |
 |内部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> • 内部 web FQDN は、サーバーの FQDN と同じ)  <br/> • サーバーの FQDN  <br/> • Skype ビジネス プールの FQDN  <br/> および  <br/> • 対応の簡単な Url  <br/> ・ ダイヤルで簡単な URL  <br/> • 管理の簡単な URL  <br/> または  <br/> • 簡単な Url のワイルドカード エントリ  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=dir01.contoso.com です。SAN の SAN=dir01.contoso.com =\*. contoso.com  <br/> |
 |外部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> • 外部 web FQDN  <br/> および  <br/> • SIP ドメインごと対応の簡単な Url。  <br/> ・ ダイヤルで簡単な URL  <br/> または  <br/> • 簡単な Url のワイルドカード エントリ  <br/> |ディレクターの外部 web FQDN は、フロント エンド プールまたはフロント エンド サーバーとは異なるである必要があります。  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=dir01.contoso.com です。SAN の SAN=directorwebcon01.contoso.com =\*. contoso.com  <br/> |
    
@@ -478,7 +479,7 @@ Standard Edition サーバーの証明書:
   
 |**証明書**|**サブジェクト名/共通名**|**サブジェクトの別名**|**例**|
 |:-----|:-----|:-----|:-----|
-|Default  <br/> |プールの FQDN  <br/> |プールの FQDN  <br/> プール メンバー サーバーの FQDN  <br/> |SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net  <br/> |
+|既定  <br/> |プールの FQDN  <br/> |プールの FQDN  <br/> プール メンバー サーバーの FQDN  <br/> |SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net  <br/> |
    
 リカバリ性に優れたブランチ アプライアンス (具体的には、リカバリ性に優れた分岐 2015 用アプライアンス ビジネス サーバー 2019 の Skype) の証明書:
   
@@ -535,7 +536,7 @@ Standard Edition サーバーの証明書:
 
 ビジネス サーバー 2019 の Skype では、すべてのファイル ・ ストレージの同じファイル共有を使用できます。 以下の点を考慮する必要があります。
   
-- ファイル共有は、直接取り付け記憶域 (DAS) と記憶域ネットワーク (SAN) のいずれかに配置する必要があり、またファイル共有には、分散ファイル システム (DFS) だけでなくファイル ストア用の RAID (Redundant Array of Independent Disks) も含まれます。 Windows Server 2012 用の DFS の詳細については、[こちらの DFS に関するページ](https://technet.microsoft.com/en-us/library/jj127250.aspx)を参照してください。
+- ファイル共有は、直接取り付け記憶域 (DAS) と記憶域ネットワーク (SAN) のいずれかに配置する必要があり、またファイル共有には、分散ファイル システム (DFS) だけでなくファイル ストア用の RAID (Redundant Array of Independent Disks) も含まれます。 さらに、Windows Server 2012 の DFS の詳細、[この DFS のページ](https://technet.microsoft.com/en-us/library/jj127250.aspx)をご覧ください。
     
 - 共有クラスター ファイル共有に対応することをお勧めします。 いずれかを使用している場合は、Windows Server 2012 または Windows Server 2012 R2 をクラスターする必要があります。 なぜ最新の Windows でしょうか。 以前のバージョンは、すべての機能を有効にする適切なアクセス許可をいない可能性があります。 クラスター アドミニストレーターを使用するには、ファイル共有を作成して、この KB[のクラスターを作成する](https://support.microsoft.com/en-us/help/224967)資料に役立つ詳細を記載しました。
     

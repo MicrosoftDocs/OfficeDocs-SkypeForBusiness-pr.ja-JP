@@ -1,5 +1,6 @@
 ---
-title: QoE の詳細を表示
+title: QoE ビューの詳細
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a658318-a317-4546-a44c-a9c473d8e86a
 description: ビューでは、QoE の SQL データベースからデータを返すための最も一般的なシナリオを説明します。 データベース テーブルに直接アクセスするのではなく、カスタム レポートを作成するために使用されるビューをお勧めビューは、下位の将来のリリースとの互換性を維持する可能性が高いためにです。
-ms.openlocfilehash: 72fe0a1cd4bd3319bbb6907a23bda0932b3ef619
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f384f75ecc0c8a0dfdb2cdaedacdcef81bdba9b4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876550"
 ---
-# <a name="qoe-view-details"></a>QoE の詳細を表示
+# <a name="qoe-view-details"></a>QoE ビューの詳細
  
 ビューでは、QoE の SQL データベースからデータを返すための最も一般的なシナリオを説明します。 データベース テーブルに直接アクセスするのではなく、カスタム レポートを作成するために使用されるビューをお勧めビューは、下位の将来のリリースとの互換性を維持する可能性が高いためにです。
   

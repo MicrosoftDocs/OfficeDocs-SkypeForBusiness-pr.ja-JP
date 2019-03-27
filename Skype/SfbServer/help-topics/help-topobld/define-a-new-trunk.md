@@ -1,5 +1,6 @@
 ---
-title: 新しい樹幹を定義します。
+title: 新しいトランクの定義
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
 description: 新しいセッション開始プロトコル (SIP) トランクを定義するには、次の情報を提供します。
-ms.openlocfilehash: 7c9675989b6282e7af5aa117213093cf55ae583b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: adb96085949a353443cf74031feee78500d7d4d7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250830"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875943"
 ---
-# <a name="define-a-new-trunk"></a>新しい樹幹を定義します。
+# <a name="define-a-new-trunk"></a>新しいトランクの定義
 
 新しいセッション開始プロトコル (SIP) トランクを定義するには、次の情報を提供します。
 
@@ -39,4 +40,4 @@ ms.locfileid: "23250830"
 
 [Skype for Business Server 2015 の M:N トランク](../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
 
-[SIP トランキングの実装方法](https://technet.microsoft.com/library/273a22b1-8a4c-4187-acf8-c57d5c6598ce.aspx)
+[SIP トランクを実装する方法は?](https://technet.microsoft.com/library/273a22b1-8a4c-4187-acf8-c57d5c6598ce.aspx)

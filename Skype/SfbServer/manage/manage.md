@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server の管理
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 603ccdfd-9985-41d8-a526-8570ba9b1b76
 description: '概要: は、Skype をビジネスのサーバーを維持管理する方法については、これらのリンクを表示します。'
-ms.openlocfilehash: 82a5c28904a169e406224668a32176dbfeb94886
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a2f9b33c4ab5a33e9b4cb3a20d77008ee1b0e315
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20993875"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874445"
 ---
 # <a name="manage-skype-for-business-server"></a>Skype for Business Server の管理 
 
@@ -23,7 +24,7 @@ ms.locfileid: "20993875"
   
 ビジネス サーバー用の Skype は、インスタント メッセージング (IM)、プレゼンス、会議、ビデオ、およびエンタープライズ レベルのコラボレーション要件をサポートするテレフォニー ソリューションを提供します。 このトピックでは、構成、監視、およびビジネスのサーバーの展開に、Skype を管理する方法に関する情報へのリンクを提供します。 
   
-今後も、新しい情報が公開されたときや、ユーザーからフィードバックをいただいたときなどに記事を更新します。 このページは頻繁に更新される予定ですので、ぜひご確認ください。
+新たな情報が入手されたりユーザーからフィードバックが寄せられたりするたびに執筆担当者が継続的に記事を更新しています。 このページは頻繁に更新されるので、随時にチェックしてください。
 
 ## <a name="visual-resources-about-how-to-manage-skype-for-business-server"></a>Skype をビジネスのサーバーの管理方法に関するリソースを視覚的
 
@@ -31,7 +32,7 @@ Skype をビジネスのサーバーを管理する方法の詳細について�
   
 ||**コンテンツ**|**説明**|
 |:-----|:-----|:-----|
-|![技術図面のアイコン](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[ビジネス サーバーの Skype の技術関連の図](../technical-diagrams.md) <br/> |アーキテクチャの選択肢を大きな図で示します。  <br/> |
+|![技術図面のアイコン](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Technical diagrams for Skype for Business Server](../technical-diagrams.md) <br/> |アーキテクチャの選択肢を大きな図で示します。  <br/> |
 |![ビデオのアイコン](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|ビデオ デモおよびトレーニング ・*準備中!*  <br/> |ビデオ プレゼンテーション、Skype のビジネス サーバー用のトレーニングを検出します。  <br/> |
    
 ##  <a name="articles-about-managing-skype-for-business-server"></a>Skype をビジネスのサーバーの管理に関する記事

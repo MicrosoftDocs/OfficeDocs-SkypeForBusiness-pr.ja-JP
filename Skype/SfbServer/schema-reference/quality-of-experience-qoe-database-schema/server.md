@@ -1,5 +1,6 @@
 ---
 title: サーバー テーブル
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9af89d08-d35a-48e8-b56d-6df292f973cc
 description: サーバーはテーブルをサポートします。 各レコードは、1 つのサーバーを表します。
-ms.openlocfilehash: be48b90cc727ebfd0320b38ac0d89a302dab6b07
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 877743f5d589cd4fea34039786b33bd410069bb3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874309"
 ---
 # <a name="server-table"></a>サーバー テーブル
  
 サーバーはテーブルをサポートします。 各レコードは、1 つのサーバーを表します。 
   
-|**列**|**データ型**|**キーまたはインデックス**|**詳細**|
+|**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |**ServerKey** <br/> |int  <br/> |Primary  <br/> |サーバーを識別する一意の番号です。  <br/> |
 |**FQDNOrIP** <br/> |nvarchar(256)  <br/> |インデックス  <br/> |MAC アドレスの文字列です。  <br/> |

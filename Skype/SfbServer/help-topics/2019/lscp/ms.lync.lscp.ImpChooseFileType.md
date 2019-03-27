@@ -1,5 +1,6 @@
 ---
-title: ファイルの拡張子を選択します。
+title: ファイル種類の拡張子の選択
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 ROBOTS: NOINDEX, NOFOLLOW
 description: ブロック (ブロック) をオンまたはオフにできるようにする) を許可するファイルの拡張子を選択するのには、[ファイルの拡張子を選択] ダイアログ ボックスを使用して [ファイル] 拡張機能のチェック ボックスは、拡張子を入力します。 カテゴリを展開し、すべてのファイルの拡張子は、そのカテゴリの表示にある矢印をクリックします。 すべてのカテゴリのファイルの拡張子を選択する場合は、カテゴリ名を選択します。
-ms.openlocfilehash: e9dd652859a5aeda5c1d8a95b20964018b88e3de
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 17ded977e4b5d4dc217ca8d2743d1e5ac369c342
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975128"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873458"
 ---
-# <a name="select-file-type-extensions"></a>ファイルの拡張子を選択します。
+# <a name="select-file-type-extensions"></a>ファイル種類の拡張子の選択
  
 ブロック (ブロック) をオンまたはオフにできるようにする) を許可するファイルの拡張子を選択するのには、[**ファイルの拡張子を選択**] ダイアログ ボックスを使用して**ファイルの拡張子**] の下の拡張機能の横にあるチェック ボックスです。 カテゴリを展開し、すべてのファイルの拡張子は、そのカテゴリの表示にある矢印をクリックします。 すべてのカテゴリのファイルの拡張子を選択する場合は、カテゴリ名を選択します。 
   

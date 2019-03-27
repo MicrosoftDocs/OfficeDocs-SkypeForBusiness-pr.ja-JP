@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype でのアーカイブ ・ ポリシーを管理します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
 description: '概要: は、Skype のビジネス サーバーのアーカイブのユーザー ポリシーを管理する方法を説明します。'
-ms.openlocfilehash: d29d30c99320631279114d3ebdfa8ee7db00b677
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 289902ded6f1530c74f9c945517a3c853c99d364
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21013322"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873241"
 ---
 # <a name="manage-archiving-policies-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのアーカイブ ・ ポリシーを管理します。
 
@@ -49,10 +50,10 @@ ms.locfileid: "21013322"
 
 |**コマンドレット**|**説明**|
 |:-----|:-----|
-|Get CsArchivingPolicy  <br/> |組織のインスタント メッセージング (IM) セッションのアーカイブ ポリシーに関する情報を戻します。  <br/> |
-|許可 CsArchivingPolicy  <br/> |インスタント メッセージング (IM) セッションのアーカイブ ポリシーをユーザーまたはユーザー セットに割り当てます。 これらのポリシーにより、内部ユーザー間で行われるすべての IM セッションをアーカイブしたり、内部ユーザーと外部パートナー間で行われるすべての IM セッションをアーカイブしたりすることができます。  <br/> |
-|新しい-CsArchivingPolicy  <br/> |新しいインスタント メッセージング (IM) セッション アーカイブ ポリシーを作成します。 これらのポリシーを使用すると、内部ユーザーどうし、または内部ユーザーと外部パートナーとの間で生じるすべての IM セッションをアーカイブできます。  <br/> |
-|削除 CsArchivingPolicy  <br/> |指定したインスタント メッセージング (IM) アーカイブ ビジネス サーバーの Skype の内部ユーザー、および内部ユーザーとフェデレーション パートナーとの間のすべての IM セッションの間で行われるすべての IM セッションが自動的に保存するかどうかを決定するポリシーを削除します。  <br/> |
-|セット CsArchivingPolicy  <br/> |既存インスタント メッセージング (IM) アーカイブ ポリシーを変更します。 アーカイブ ポリシーは、すべての IM セッションおよび内部ユーザー間で行われる会議をアーカイブする機能を提供します。内部ユーザーとフェデレーション パートナーの間で行われるセッションをアーカイブすることもできます。  <br/> |
+|Get-CsArchivingPolicy  <br/> |組織のインスタント メッセージング (IM) セッションのアーカイブ ポリシーに関する情報を戻します。  <br/> |
+|Grant-CsArchivingPolicy  <br/> |インスタント メッセージング (IM) セッションのアーカイブ ポリシーをユーザーまたはユーザー セットに割り当てます。 これらのポリシーにより、内部ユーザー間で行われるすべての IM セッションをアーカイブしたり、内部ユーザーと外部パートナー間で行われるすべての IM セッションをアーカイブしたりすることができます。  <br/> |
+|New-CsArchivingPolicy  <br/> |新しいインスタント メッセージング (IM) セッション アーカイブ ポリシーを作成します。 これらのポリシーを使用すると、内部ユーザーどうし、または内部ユーザーと外部パートナーとの間で生じるすべての IM セッションをアーカイブできます。  <br/> |
+|Remove-CsArchivingPolicy  <br/> |指定したインスタント メッセージング (IM) アーカイブ ビジネス サーバーの Skype の内部ユーザー、および内部ユーザーとフェデレーション パートナーとの間のすべての IM セッションの間で行われるすべての IM セッションが自動的に保存するかどうかを決定するポリシーを削除します。  <br/> |
+|Set-CsArchivingPolicy  <br/> |既存インスタント メッセージング (IM) アーカイブ ポリシーを変更します。 アーカイブ ポリシーは、すべての IM セッションおよび内部ユーザー間で行われる会議をアーカイブする機能を提供します。内部ユーザーとフェデレーション パートナーの間で行われるセッションをアーカイブすることもできます。  <br/> |
    
 

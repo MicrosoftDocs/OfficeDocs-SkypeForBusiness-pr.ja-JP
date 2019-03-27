@@ -1,5 +1,6 @@
 ---
-title: プールからフロント エンド サーバーを削除します。
+title: プールからのフロントエンド サーバーの削除
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: フロント エンド サーバーは、スタンドアロンのコンピューターとして存在できません。 プール内に 1 台のコンピューターだけがある場合でも、フロント エンド プールとして定義しなければなりません。
-ms.openlocfilehash: a9f0adc991355b6f79b20365795ffaf92fa230e2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f026570f0dff377ba7ca0c28975a685e236a9e13
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028944"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874739"
 ---
-# <a name="remove-a-front-end-server-from-a-pool"></a>プールからフロント エンド サーバーを削除します。
+# <a name="remove-a-front-end-server-from-a-pool"></a>プールからのフロントエンド サーバーの削除
 
 フロント エンド サーバーは、スタンドアロンのコンピューターとして存在できません。 プール内に 1 台のコンピューターだけがある場合でも、フロント エンド プールとして定義しなければなりません。
   

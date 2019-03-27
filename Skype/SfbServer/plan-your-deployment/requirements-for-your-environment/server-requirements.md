@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 のサーバー要件
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -14,14 +15,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: '概要: は、このトピックでのビジネス サーバー 2015 サーバーで、Skype を準備します。 ハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件および推奨事項は、ここで正常にインストールし、サーバー ファームの展開を確実にします。'
-ms.openlocfilehash: f9c85fb774362e00c8b34e9cc0343e71e499ce49
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: 1c970a517fbb984d09aeba066a69726c9461a12c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30210645"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875898"
 ---
-# <a name="server-requirements-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 のサーバー要件
+# <a name="server-requirements-for-skype-for-business-server-2015"></a>Server requirements for Skype for Business Server 2015
  
 **概要:** このトピックを使用すると、Skype for Business Server 2015 サーバーを準備することができます。ここにはハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件と推奨が掲載されており、サーバー ファームのインストールと展開を正常に実行できるようになります。
 
@@ -48,7 +49,7 @@ Active Directory、DNS、証明書など、環境の要件を探している場�
 |:-----|:-----|
 |CPU  <br/> |64 ビット デュアル プロセッサ、6 コア、2.26 GHz 以上。  <br/> サーバー 2015 のビジネス ロールの Skype は、Intel Itanium プロセッサがサポートされていません。  <br/> |
 |メモリ  <br/> |32 ギガバイト (GB)  <br/> |
-|ディスク  <br/> |次のいずれか:  <br/> •	10,000 RPM のハード ディスク ドライブで 72 GB 以上の空きディスク領域があるものを 8 台以上 (RAID 1 を使用する 2 台のディスクと、RAID 10 を使用する 6 台のディスク)。  <br/> または  <br/> •	10000 RPM の機械的ディスク ドライブ 8 台と同じ空き領域および同等のパフォーマンスを持つソリッド ステート ドライブ (SSD)。  <br/> |
+|ディスク  <br/> |次のいずれか:  <br/> • 8 または 72 GB 以上の空き容量がさらに 10000 RPM ハード ディスク ドライブのディスク領域 (RAID 1 と RAID 10 を使用して 6 を使用してディスクの 2 つ)。  <br/> または  <br/> • ソリッドステート ドライブ (Ssd) 同一の空きスペースと 8 10000 RPM の機械的ディスク ドライブのようなパフォーマンスを提供することです。  <br/> |
 |ネットワーク  <br/> |1 Gbps 以上のデュアルポート ネットワーク アダプター 1 つ (2 つのネットワーク アダプターを使用できるが、その場合は 1 つの MAC アドレスと 1 つの IP アドレスのチーミングが必要)。  <br/> デュアルまたはマルチホーム構成では、サーバーをフロント エンド サーバー、バック エンド サーバー、Standard Edition でサポートされて**いません**し、永続的なチャット サーバー。 <br/> オペレーティング システムに公開されて、サーバー ハードウェアの監視と管理に使用されていない限り、DRAC や ILO などのアウト オブ バンド管理システムを持つことができます。このシナリオは、マルチ ホーム サーバーの構成要素ではなく、サポートされています。<br/> |
    
 エッジ トランスポート サーバー、スタンドアロンの仲介サーバー、ビデオの相互運用機能サーバー、およびディレクターのハードウェアを推奨します。
@@ -57,7 +58,7 @@ Active Directory、DNS、証明書など、環境の要件を探している場�
 |:-----|:-----|
 |CPU  <br/> |64 ビット デュアル プロセッサ、クアッド コア、2.26 GHz 以上  <br/> サーバー 2015 のビジネス ロールの Skype は、Intel Itanium プロセッサがサポートされていません。  <br/> |
 |メモリ  <br/> |16 GB  <br/> |
-|ディスク  <br/> |次のいずれか:  <br/> •	10,000 RPM のハード ディスク ドライブで 72 GB 以上の空きディスク領域があるものを 4 台以上 (ディスクは 2 x RAID 1 構成である必要がある)。  <br/> または  <br/> •	10000 RPM の機械的ディスク ドライブ 4 台と同じ空き領域および同等のパフォーマンスを持つソリッド ステート ドライブ (SSD)。  <br/> |
+|ディスク  <br/> |次のいずれか:  <br/> • 72 GB 以上の空き容量を持つ 4 つ以上の 10000 RPM ハード ディスク ドライブはディスク容量が (ディスクは 2 倍の RAID 1 構成にする必要があります) です。  <br/> または  <br/> • ソリッドステート ドライブ (Ssd) 同一の空き領域と 10000 RPM の機械的ディスク ドライブ 4 のようなパフォーマンスを提供することです。  <br/> |
 |ネットワーク  <br/> |1 Gbps 以上のデュアルポート ネットワーク アダプター 1 つ (2 つのネットワーク アダプターを使用できるが、その場合は 1 つの MAC アドレスと 1 つの IP アドレスのチーミングが必要)。  <br/> デュアルまたはマルチホームの構成は、ビデオの相互運用機能のサーバーやディレクターではサポート**されません**。 <br/> エッジ サーバーには、1 Gbps 以上のデュアルポート ネットワーク アダプターである 2 つのネットワーク インターフェイス (つまり 2 ペア (合計 4 つ) のネットワーク アダプター。この合計 2 つのペアでは、各ペアが 1 つの MAC アドレスと 1 つの IP アドレスでチームになっている) が必要です。  <br/> スタンドアロンの仲介サーバーの追加のネットワーク インターフェイス カード (Nic) が特定の PSTN の IP アドレスの構成を許可するインストールはサポートされています。  <br/> |
    
 ## <a name="operating-systems-for-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype のオペレーティング ・ システム
@@ -74,15 +75,15 @@ Active Directory、DNS、証明書など、環境の要件を探している場�
 この一覧にない場合は、正常に動作しません、再試行してくださいしない Skype の新規インストールのビジネス サーバー 2015。
   
 > [!NOTE]
-> Windows Server 2008 R2 がこの一覧に含まれていないことにお気付きでしょうか。これは、SFB に使用するすべての新しいサーバーには、Windows Server 2012 R2 が推奨されるためです。Windows Server 2008 R2 を使用するのは、Lync Server 2013 がインストールされている既存のサーバーがあり、そのインプレース アップグレードを行う場合のみにしてください。Windows Server 2008 R2 のメインストリーム サポート期間は、2015 年 1 月 13 日に終了しています。 
+> お気付き Windows Server 2008 R2 は、この一覧に表示されていません。 すべての新しいサーバーの Windows Server 2012 R2 デバイスに使用することをお勧めするためです。 必要がありますのみを使用する Windows Server 2008 R2 の Lync Server 2013 が既にインストールされている、既存のサーバーが存在し、それらのインプレース アップグレードを実行しようとしているとき。 Windows Server 2008 R2 では、2015/1/13 のメイン ストリーム サポート ライフ サイクルの終わりに達しました。 
   
 最新のサービス パック以外にも、関連性がある場合は次の更新プログラムをインストールする必要があります。
   
-- Windows Server 2012 では、アップグレードの前に、サポート技術情報 2858668 の更新プログラムをインストールする必要があります。 [こちらから入手できます ](https://support.microsoft.com/en-us/kb/2858668/)。
+- Windows Server 2012 では、アップグレードの前に、サポート技術情報 2858668 の更新プログラムをインストールする必要があります。 [ここでそれを取得](https://support.microsoft.com/en-us/kb/2858668/)します。
     
-- Windows Server 2012 R2 を使用している場合は、アップグレードの前に、サポート技術情報 2982006 の更新プログラムをインストールしてください。 [こちらから入手できます ](https://support.microsoft.com/en-us/kb/2982006/)。
+- Windows Server 2012 R2 を使用している場合は、アップグレードの前に、サポート技術情報 2982006 の更新プログラムをインストールしてください。 [それはこちらから](https://support.microsoft.com/en-us/kb/2982006/)。
     
-- Windows Server 2008 R2 ボックス上でアップグレードする場合は (前述の注意事項を参照)、まずサポート技術情報 2533623 の更新プログラムをインストールする必要があります。 [こちらのリンクから入手できます ](https://support.microsoft.com/en-us/kb/2533623/)。
+- Windows Server 2008 R2 ボックス上でアップグレードする場合は (前述の注意事項を参照)、まずサポート技術情報 2533623 の更新プログラムをインストールする必要があります。 [このリンクになっている](https://support.microsoft.com/en-us/kb/2533623/)。
     
 ## <a name="back-end-databases-that-will-work-with-skype-for-business-server-2015"></a>Skype for Business Server 2015 で動作するバックエンド データベース
 <a name="DBs"> </a>
@@ -102,7 +103,7 @@ Active Directory、DNS、証明書など、環境の要件を探している場�
 > しようとしている SQL Server レポート サービス サーバーの監視の役割をインストールする必要があります。
 
 ### <a name="microsoft-exchange-storage"></a>Microsoft Exchange ストレージ
-PowerPoint プレゼンテーションなどの会議コンテンツ ファイルは、添付ファイルとしてアーカイブされます。 Exchange 対応のデータのアーカイブ データをビジネス用の Skype を格納する場合は、Exchange を使用して、Exchange を展開するため、記憶域の最大サイズがミーティングのコンテンツ ファイルのストレージをサポートしていることを確認してください。 展開して、Microsoft Exchange の統合オプションを使用してアーカイブを有効にする前に Exchange を展開する必要があります。 
+Meeting content files, such as PowerPoint presentations, are archived as attachments. Exchange 対応のデータのアーカイブ データをビジネス用の Skype を格納する場合は、Exchange を使用して、Exchange を展開するため、記憶域の最大サイズがミーティングのコンテンツ ファイルのストレージをサポートしていることを確認してください。 展開して、Microsoft Exchange の統合オプションを使用してアーカイブを有効にする前に Exchange を展開する必要があります。 
     
     If you choose to use Exchange storage, you do not need to deploy separate SQL Server databases for archiving, unless you have Skype for Business users who are not homed on your Exchange servers. If you deploy archiving using the Microsoft Exchange integration option, Skype for Business archive data is stored with Exchange compliance data only for the users who are homed on your Exchange servers. 
   
@@ -152,9 +153,9 @@ Microsoft メッセージ キューは、必要ではありません。
 - Microsoft SQL Server 2012 エンタープライズ (64 ビット版) とは、最新の service pack を実行するをお勧めします。
 
 > [!IMPORTANT]
-> アップグレードのたく以上があるフロント エンド サーバーに SQL Server 2012 SP1 がインストールされているアップグレードの準備の確認をします。 [今すぐ SP1 をダウンロードする場合は、こちらのリンクを参照してください](https://www.microsoft.com/en-us/download/details.aspx?id=35575)。
+> アップグレードのたく以上があるフロント エンド サーバーに SQL Server 2012 SP1 がインストールされているアップグレードの準備の確認をします。 SP1 をすぐにダウンロードする場合に[ここ](https://www.microsoft.com/en-us/download/details.aspx?id=35575)をします。
   
-SQL のミラーリングの詳細を参照する場合は、ビジネス サーバー 2015 トピックの Skype にバック エンド サーバーの高可用性があります。 ビジネス サーバー 2015 の Skype には準備が整ってクラスタ リングを取得するための手順については、SQL Server のクラスタ リングを構成します。 また、SQL のフェールオーバー クラスタリングに関するその他のリンク ([2014](https://technet.microsoft.com/en-us/library/hh231721.aspx)、[2012](https://technet.microsoft.com/en-us/library/hh231721%28v=sql.110%29.aspx)、および [2008](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx)) も利用できます。
+SQL のミラーリングの詳細を参照する場合は、ビジネス サーバー 2015 トピックの Skype にバック エンド サーバーの高可用性があります。 ビジネス サーバー 2015 の Skype には準備が整ってクラスタ リングを取得するための手順については、SQL Server のクラスタ リングを構成します。 さらにリンクで[2014](https://technet.microsoft.com/en-us/library/hh231721.aspx)、 [2012 年 5](https://technet.microsoft.com/en-us/library/hh231721%28v=sql.110%29.aspx)、および[2008](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx)の SQL でのクラスタ リング フェイル オーバーします。
   
 > [!NOTE]
 > 2015 のリリースには SQL 常にオンのサポートです。 サポートされているし、詳細を確認できる[ビジネス サーバー 2015 の Skype のバック エンド サーバーの高可用性](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)のトピックについてです。
@@ -171,7 +172,7 @@ SQL のミラーリングの詳細を参照する場合は、ビジネス サー
   
 |**ソフトウェア/役割**|**詳細**|
 |:-----|:-----|
-|Windows PowerShell 3.0  <br/> |これらのサーバーのすべての Skype では、Windows PowerShell 3.0 がインストールされている必要があります。  <br/> • Windows Server 2012 または Windows Server 2012 R2 のインストールを実行している場合、設定するとしているは既にあるためです。  <br/> • Windows Server 2008 R2 にアップグレードを実行している場合、それを取得する[Windows Management Framework 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=34595)をダウンロードできます。 <br/> **ヒント:** 適切な PowerShell をインストールしたら、PowerShell プロンプトで、「`$PSVersionTable`」と入力することで、BuildVersion 6.2.9200.0 以降であることを確認します。 これによって、必要な情報が得られます。<br/> |
+|Windows PowerShell 3.0  <br/> |これらのサーバーのすべての Skype では、Windows PowerShell 3.0 がインストールされている必要があります。  <br/> • Windows Server 2012 または Windows Server 2012 R2 のインストールを実行している場合、設定するとしているは既にあるためです。  <br/> • Windows Server 2008 R2 にアップグレードを実行している場合、それを取得する[Windows Management Framework 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=34595)をダウンロードできます。 <br/> **ヒント:** したら正しい PowerShell で、BuildVersion 6.2.9200.0 であることを確認後に、PowerShell でメッセージが表示や入力`$PSVersionTable`。 これは、必要な情報が表示する必要があります。  <br/> |
 |Microsoft .NET Framework  <br/> |WCF サービスは、インストールした**サーバー マネージャー**で、[Windows 機能としてないダウンロードのために必要な**機能**です。 <br/> • をする必要があります、 **HTTP アクティブ化**のオプションのもがチェックされ、インストールされて、それをチェックする場合は既にインストールされている場合や、この機能をインストールすると、次のようにします。 <br/> ![[.NET Framework 4.5 の機能] の HTTP アクティブ化のオプションを表示するスクリーン ショットです。](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)も気にしないで他のものがインストールされるように HTTP アクティブ化をインストールする必要ことを示すその他のポップアップを取得します。 これは通常の動作のため、[OK] をクリックして先に進みます。 このメッセージが表示されない場合、これらの機能は既にインストールされていると見なして、先に進みます。  <br/> 通常 Microsoft.NET Framework がインストールされている Windows Server 2012 R2 または Windows Server 2016 がインストールされている場合。 Skype ビジネス サーバーは、次の Microsoft.NET Framework のバージョンで動作します。  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6.x  <br/> • .NET 4.7.1 以上のビジネス サーバー CU 5 またはそれ以降のリリースの Skype)  <br/>  .NET Framework 3.5 は既定では Windows Server 2008 R2 コンピューターにインストールする可能性があります (必ず確認してくださいアップグレードする前に) が、実際にするの新しいインストールの場合) または Windows Server 2012 R2 の Windows Server 2012 サーバー上にします。 それを追加するにはインストール ドライブまたはメディアへのアクセスを必要があります (Windows サーバーをインストールして、元の場所またはファイルをインストールされるようになりました)。 その後、先に進んで、サーバー マネージャーの機能としてインストールし、要求されたらインストール メディア (具体的には **\sources\sxs** フォルダー) を指定して、インストールを続行します。 <br/> |
 |メディア ファンデーション  <br/> |Windows Server 2016、Windows Server 2012 と Windows Server 2012 R2 の Windows Media フォーマット ランタイムは、Microsoft メディア ファンデーションをインストールします。  <br/> 会議のために使用される、すべてのフロント エンド サーバーと Standard Edition サーバーでは、アナウンスや音楽のコール パーク、アナウンス、および応答グループ アプリケーションを再生する Windows Media オーディオ (.wma) ファイルを実行する、Windows Media フォーマット ランタイムが必要です。  <br/> |
 |Windows Identity Foundation  <br/> |ビジネス サーバー 2015 の Skype のサーバーからサーバーへの認証シナリオをサポートするために Windows アイデンティティ基盤の 3.5 が必要です。  <br/> • Windows Server 2012 と Windows Server 2012 R2 の場合は、何もダウンロードする必要はありません。 **サーバー マネージャー**を開いて、[**役割と機能の追加ウィザード**] に進みます。 [**機能**] セクションの一覧に [**Windows Identity Foundation 3.5**] が表示されています。 オンの場合は完了です。 オンになっていない場合は、これを選択して [次へ] をクリックし、[**インストール**] をアクティブにします。 <br/> |
@@ -183,7 +184,7 @@ SQL のミラーリングの詳細を参照する場合は、ビジネス サー
 |:-----|:-----|
 |インターネット インフォメーション サービス (IIS)  <br/> |選択されている次のモジュールとは、すべてのフロント エンド サーバーとすべての Standard Edition サーバーでは、IIS が必要です。  <br/> • 一般的な HTTP 機能: 既定のドキュメントでは、HTTP エラーの場合は、静的なコンテンツ  <br/> • 状態と診断: HTTP のログ、トレース ログ ツール  <br/> • パフォーマンス: コンテンツの圧縮は静的、動的コンテンツの圧縮  <br/> • セキュリティ: 要求のフィルタ リング、クライアント証明書マッピング認証、Windows 認証  <br/> • アプリケーションの開発: .NET 3.5 の機能拡張、.NET 4.5 の機能拡張、ASP.NET 3.5 ASP.NET 4.5 では、ISAPI 拡張機能、ISAPI フィルター  <br/> • 管理ツール: IIS 管理コンソール、IIS 管理スクリプトおよびツール  <br/> 私たちは、匿名アクセスが必要なもが得ることができるリストの選択をする場所がないため、IIS をインストールするときにも注意してください。  <br/> |
 |Windows Media フォーマット ランタイム  <br/> | Windows Server 2016、Windows Server 2012 では、Windows Server 2012 R2 の**サーバー マネージャー**で、**メディア ファンデーション**機能をインストールする必要があります。 ここで、実際にビジネス サーバー 2015 をインストールせずにこの 1 つに、Skype を起動できますが、インストールを求められることでしょう. ビジネス サーバー 2015 の Skype の前に、サーバーのインストールの再起動を続行し、 この作業は、前もって行っておくことをお勧めします。 <br/> |
-|Silverlight  <br/> |最新バージョンの Silverlight は、[このリンク ](https://www.microsoft.com/silverlight/) でインストールできます。  <br/> |
+|Silverlight  <br/> |[このリンク](https://www.microsoft.com/silverlight/)で、最新バージョンの Silverlight をインストールすることができます。  <br/> |
    
 > [!NOTE] 
 > ロード バランサーを使用している場合は、ディレクトリの参照を有効にする必要もあります。 それ以外の場合空白のページをロードするロード バランサーは、障害を検討してください。 
@@ -215,7 +216,7 @@ Add-WindowsFeature NET-Framework-Core, RSAT-ADDS, Windows-Identity-Foundation, W
     
   - ログ ツール
     
-  - 追跡
+  - トレース
     
 - パフォーマンス
     
@@ -253,7 +254,7 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
 
  **永続的なチャット サーバーも必要があります。**
   
-メッセージ キュー (別名 MSMQ)。 Windows Server コンポーネントとそれをインストールするには、サーバー マネージャーの [機能] セクションの下。 詳細については、「[ッセージ キューをインストールおよび管理する](https://technet.microsoft.com/en-us/library/cc771474.aspx)」を参照してください。
+メッセージ キュー (別名 MSMQ)。 Windows Server コンポーネントとそれをインストールするには、サーバー マネージャーの [機能] セクションの下。 詳細を確認する場合について、これをチェック アウト[をインストールしてメッセージ キューを管理](https://technet.microsoft.com/en-us/library/cc771474.aspx)します。
   
  **最後の確認事項:**
   

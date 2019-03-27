@@ -1,5 +1,6 @@
 ---
 title: Skype のサービスをビジネス サーバーを管理します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: サービスの状態を表示、起動し、サービスを停止し、サービスのセッションを防止する方法を説明します。
-ms.openlocfilehash: bfe24b32509f47cd733f5720ef29e635a7105d52
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 6913ce2cbef6c12a61d7d4751b35a71371ffb991
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223473"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875061"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Skype のサービスをビジネス サーバーを管理します。
 
@@ -22,7 +23,7 @@ ms.locfileid: "27223473"
 - [Skype をビジネスのサーバーを実行しているコンピューターの一覧を表示します。](#view-a-list-of-computers-running-skype-for-business-server)
 - [ビジネス用の Skype でのコンピューターで実行されているサービスの状態を表示します。](#view-the-status-of-services-running-on-a-computer-in-skype-for-business)
 - [開始または Skype をビジネス ・ サービスの停止](#start-or-stop-skype-for-business-services)
-- [サービスのセッションを防止します。](#prevent-sessions-for-services)
+- [サービスのセッションの禁止](#prevent-sessions-for-services)
 
 ## <a name="view-a-list-of-computers-running-skype-for-business-server"></a>Skype をビジネスのサーバーを実行しているコンピューターの一覧を表示します。
 
@@ -103,7 +104,7 @@ RoleName                                  Status
 9. [**閉じる**] をクリックします。
 
 
-## <a name="prevent-sessions-for-services"></a>サービスのセッションを防止します。
+## <a name="prevent-sessions-for-services"></a>サービスのセッションの禁止
 
 ビジネス サーバー サービスが特定のコンピューターで実行されているすべての Skype の新しいセッションを禁止したり、特定のサービスの新しいセッションを防ぐためには、ビジネス コントロール パネルの Skype を使用します。
 

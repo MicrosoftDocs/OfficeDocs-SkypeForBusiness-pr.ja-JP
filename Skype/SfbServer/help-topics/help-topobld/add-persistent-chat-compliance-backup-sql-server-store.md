@@ -1,5 +1,6 @@
 ---
 title: 常設チャット コンプライアンス バックアップ SQL Server ストアの追加
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
 description: 永続的なチャット サーバーのデータベースのバックアップを提供するように SQL Server に格納されてバックアップ コンプライアンスまたは SQL Server に格納する永続的なチャット サーバー コンプライアンスを構成するとします。
-ms.openlocfilehash: c84123946ffa22e3db4000f6e431539b48f6e735
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 2142ef6eba84d0f6645d735c1117b0be07a2a84f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503320"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875596"
 ---
 # <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>常設チャット コンプライアンス バックアップ SQL Server ストアの追加
  
@@ -49,7 +50,7 @@ SQL Server データベースおよび永続的なチャットのコンプライ
 
 [Skype for Business Server 2015 の常設チャット サーバーの計画](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Skype for Business Server 2015 のサーバー要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
 [Skype for Business Server 2015 の常設チャット サーバーのハードウェアおよびソフトウェア要件](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
   

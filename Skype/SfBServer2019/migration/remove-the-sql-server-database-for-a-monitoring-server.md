@@ -1,5 +1,6 @@
 ---
-title: 監視サーバーの SQL Server データベースを削除します。
+title: 監視サーバー用の SQL Server データベースの削除
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 監視サーバーを削除した後は、サーバーのデータをホストしていた SQL Server データベースを削除できます。 トポロジ ビルダーでは、定義を削除するのには次の手順を使用し、データベース ・ サーバからデータベースとログ ファイルを削除します。
-ms.openlocfilehash: 85999f1bbb3fc443edcab9d1f1354f26187c6a75
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7e299eb2de3fc0820cd4497c2956c71ceec79910
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373358"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876343"
 ---
-# <a name="remove-the-sql-server-database-for-a-monitoring-server"></a>監視サーバーの SQL Server データベースを削除します。
+# <a name="remove-the-sql-server-database-for-a-monitoring-server"></a>監視サーバー用の SQL Server データベースの削除
 
 監視サーバーを削除した後は、サーバーのデータをホストしていた SQL Server データベースを削除できます。 トポロジ ビルダーでは、定義を削除するのには次の手順を使用し、データベース ・ サーバからデータベースとログ ファイルを削除します。
   

@@ -1,5 +1,6 @@
 ---
 title: UserAgentDef テーブル (QoE)
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cfd8e3e0-4076-4162-9381-5276da8316d9
 description: UserAgentDef テーブルは、エージェントの説明的な名前にユーザー エージェントの id をマップします。 ユーザー エージェントは、Skype ビジネス サーバーの接続に使用されるソフトウェア ・ クライアントです。
-ms.openlocfilehash: fac9f838185482a13bb778cfc7f27f78baf2c66f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8f607be022851a6622060c47dedc5ac36358a3c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876614"
 ---
 # <a name="useragentdef-table-qoe"></a>UserAgentDef テーブル (QoE)
  

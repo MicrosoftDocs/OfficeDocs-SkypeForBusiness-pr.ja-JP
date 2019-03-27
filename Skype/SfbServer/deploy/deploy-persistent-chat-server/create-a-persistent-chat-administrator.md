@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 での常設チャット管理者の作成
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c3892e4-ebae-453e-8107-f42ec0436ea2
 description: '概要: は、初期構成およびビジネス サーバー 2015 の Skype での永続的なチャット サービスの管理を有効にするのには永続的なチャット サーバー管理者ロールを作成する方法の詳細については、このトピックを読みます。'
-ms.openlocfilehash: df2c62964d6c1d315f6fda04132c829d235e6038
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fb8a222f65f6fe579d3600df15a53bb84f65de66
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966116"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874068"
 ---
 # <a name="create-a-persistent-chat-administrator-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット管理者の作成
  
@@ -28,7 +29,7 @@ ms.locfileid: "20966116"
 > [!NOTE] 
 > 永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。 同じ機能は、チームで使用できます。 詳細については、[マイクロソフトのチームにビジネス用の Skype からの旅](/microsoftteams/journey-skypeforbusiness-teams)を参照してください。 永続的なチャットを使用する場合は、選択肢は、いずれかをチームでは、この機能を必要とするユーザーを移行するまたはビジネス サーバー 2015 の Skype を使用し続ける。
 
-## <a name="create-a-persistent-chat-administrator"></a>常設チャット管理者を作成する
+## <a name="create-a-persistent-chat-administrator"></a>Create a Persistent Chat administrator
 
 CsPersistentChatAdministrator、永続的なチャット管理者セキュリティ グループにユーザーを追加するには、次の手順を実行します。
   

@@ -1,5 +1,6 @@
 ---
 title: Skype のビジネス サーバーの VIS プールを作成します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: '概要: は、トポロジ ビルダーを使用してビジネスのサーバーの Skype でビデオの相互運用機能のサーバー プールを作成します。'
-ms.openlocfilehash: 65771e72250ad1d5e9625bdd6cc1a8d47b5dabe2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 484cb1c504680dde393d24ce65606e415d070edb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373459"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874110"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>Skype のビジネス サーバーの VIS プールを作成します。
  
@@ -61,7 +62,7 @@ ms.locfileid: "25373459"
     > [!NOTE]
     > 弾力性を高めるためには、2 番目のビデオの相互運用機能のサーバーまたは VIS プール、またはバックアップのフロント エンド プールを構成する可能性があります。 詳細については、「[Resiliency mechanisms](../../plan-your-deployment/video-interop-server.md#resiliency)」を参照してください。
   
-トポロジ ビルダーを使用して実行するすべてのタスクはこれで完了します。新しい VIS サーバー (複数可) へのソフトウェアのインストール作業に進みます。
+トポロジ ビルダーを使用して実行するすべてのタスクはこれで完了します。 新しい VIS サーバー (複数可) へのソフトウェアのインストール作業に進みます。
 ## <a name="see-also"></a>関連項目
 
 [Skype で VIS のサーバーの役割をビジネスのサーバーの展開します。](deploy-the-vis-server-role.md)

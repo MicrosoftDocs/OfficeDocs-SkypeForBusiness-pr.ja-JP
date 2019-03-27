@@ -1,5 +1,6 @@
 ---
 title: 常設チャット構成メイン ページ
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 1e75d352-12cf-4548-9301-5d4c0e1c8f46
 ROBOTS: NOINDEX, NOFOLLOW
 description: 永続的なチャット サーバー展開では、永続的なチャット ルームの多くの同時実行をホストできます。 チャット ルームは、サーバーで一連のカテゴリに編成できます。 各チャット ルームは 1 つのカテゴリに属し、そのカテゴリからいくつかの設定を継承します。 この編成によって、業務目的に基づいて会話を識別するのに便利な構造が作成され、管理の委任および管理の簡素化が容易になります。
-ms.openlocfilehash: c5f29ec6c57fc92b4001e7b4061662ecf67a28bb
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5cbe727f6c939eab6c94f8a455acf9ee009ef1c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20985052"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874058"
 ---
 # <a name="persistent-chat-configuration-main-page"></a>常設チャット構成メイン ページ
 

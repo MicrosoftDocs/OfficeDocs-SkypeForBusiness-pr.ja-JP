@@ -1,5 +1,6 @@
 ---
 title: 許可されたメンバーの選択
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
 description: 作成し、永続的なチャット ルームを管理するカテゴリを使用して簡単にです。 永続的なチャット管理者は、各カテゴリに属している AllowedMembers および作成者を定義して、チャット ルームのデフォルトの設定と、カテゴリで作成したすべてのチャット ルームに適用される動作を定義することも。 永続的なチャット管理者は、作成し、コントロール パネルまたは Windows PowerShell コマンドレットを使用してカテゴリを管理します。
-ms.openlocfilehash: 5d1cf35524ae510655cb474c23b09a73b830802f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: cc35d1659dc7dc7cdc6ba77d17bbc3b439256c63
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250760"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874536"
 ---
 # <a name="select-allowed-members"></a>許可されたメンバーの選択
 
@@ -29,9 +30,9 @@ ms.locfileid: "23250760"
 
 [**許可されたメンバーの選択**] ページでは、次のタスクを実行できます。
 
-- [カテゴリを構成します。](https://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
+- [Configure Categories](https://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
 
-- [永続的なチャット サーバーの新機能](https://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
+- [New Persistent Chat Server Features](https://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
 
 詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。
 
@@ -44,4 +45,4 @@ ms.locfileid: "23250760"
 
 ## <a name="see-also"></a>関連項目
 
-[永続的なチャットのメンバーシップを理解します。](https://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
+[Understanding Persistent Chat Membership](https://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)

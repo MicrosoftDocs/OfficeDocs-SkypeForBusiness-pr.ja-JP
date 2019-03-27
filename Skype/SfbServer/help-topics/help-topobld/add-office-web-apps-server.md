@@ -1,5 +1,6 @@
 ---
 title: Office Web Apps サーバーを追加する
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8825dfb1-4b3d-4e01-ba4a-2bd800c6de3b
 description: 新しいオフィス ・ Web アプリケーション サーバーの定義ウィザードでは、展開の新しいオフィスの Web アプリケーション サーバーを定義します。 以下の情報を入力します。
-ms.openlocfilehash: 34f8f1b58cc6d937432b667a110eb805dd5a2c88
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 79f07ab88f62ba9b7e886b06b6d7c89143cd7380
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245769"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873320"
 ---
 # <a name="add-office-web-apps-server"></a>Office Web Apps サーバーを追加する
 
@@ -34,4 +35,4 @@ ms.locfileid: "23245769"
 
 ## <a name="see-also"></a>関連項目
 
-[コンポーネントおよび会議のためのトポロジ](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
+[Components and Topologies for Conferencing](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)

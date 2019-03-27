@@ -1,5 +1,6 @@
 ---
-title: Office 通信サーバーのスコープ ノード
+title: Office Communications Server スコープ ノード
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 ROBOTS: NOINDEX, NOFOLLOW
-description: このドキュメントは暫定版であり、変更される可能性があります。空白のトピックがプレースホルダーとして含まれています。
-ms.openlocfilehash: f2706abd440d55e30a0fb485fff5d7a95643bd34
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: このドキュメントは暫定版であり、変更される可能性があります。 空白のトピックがプレースホルダーとして含まれています。
+ms.openlocfilehash: d64e64ad5caed89d2249e8da1cd8125a52316bb5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255846"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875405"
 ---
-# <a name="office-communications-server-scope-node"></a>Office 通信サーバーのスコープ ノード
+# <a name="office-communications-server-scope-node"></a>Office Communications Server スコープ ノード
 
-このドキュメントは暫定版であり、変更される可能性があります。空白のトピックがプレースホルダーとして含まれています。
+このドキュメントは暫定版であり、変更される可能性があります。 空白のトピックがプレースホルダーとして含まれています。
 
 ノードの下のセクションを展開する**Office 通信 Server 2007 の R2**をクリックするか、**トポロジ**のオプションにアクセスする、またはこの**ヘルプ**ページにアクセスするを右クリックします。
 

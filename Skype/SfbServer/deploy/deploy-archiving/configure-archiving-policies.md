@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバー用の Skype のアーカイブ ・ ポリシーを構成します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f
 description: '概要: は、Skype のビジネス サーバーのユーザーの初期のアーカイブ ・ ポリシーを構成する方法については、このトピックを読みます。'
-ms.openlocfilehash: 9db5d04ba04a3d840c493f5fbea42260ed87a6d4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 88840d10cbd7a71b32b5079a8600018b97e8b0c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003956"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876451"
 ---
 # <a name="configure-archiving-policies-for-skype-for-business-server"></a>ビジネス サーバー用の Skype のアーカイブ ・ ポリシーを構成します。
  
@@ -62,7 +63,7 @@ ms.locfileid: "21003956"
     
    - サイト ポリシーまたはユーザー ポリシーによって特に制御されていないすべてのサイトとユーザーの外部通信のアーカイブを制御するには、[**外部通信をアーカイブする**] チェック ボックスをオンまたはオフにします。
     
-6. [**確定**] をクリックします。
+6. [**コミット**] をクリックします。
     
 ## <a name="site-policies"></a>サイト ポリシー
 
@@ -92,7 +93,7 @@ ms.locfileid: "21003956"
     
    - 指定したサイトの外部通信のアーカイブを制御するには、[**外部通信をアーカイブする**] チェック ボックスをオンまたはオフにします。
     
-7. [**確定**] をクリックします。
+7. [**コミット**] をクリックします。
     
 ## <a name="user-policies"></a>ユーザー ポリシー
 
@@ -134,8 +135,8 @@ ms.locfileid: "21003956"
 5. **Business Server ユーザーの編集の Skype**の**アーカイブ**ポリシーでは、[アーカイブ ユーザー ポリシーを適用するを選択します。
     
     > [!NOTE]
-    > **\<自動\>** の設定は、サーバー インストールの既定の設定を適用します。 これらの設定はサーバーによって自動的に適用されます。
+    > **\<自動\>** の設定は、サーバー インストールの既定の設定を適用します。 これらの設定はサーバーにより自動的に適用されます。
   
-6. [**確定**] をクリックします。
+6. [**コミット**] をクリックします。
     
 

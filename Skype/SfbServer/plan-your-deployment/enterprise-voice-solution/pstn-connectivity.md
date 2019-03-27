@@ -1,5 +1,6 @@
 ---
 title: Skype ビジネス サーバーの PSTN 接続のコンポーネント
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 description: ビジネス サーバーの Skype でエンタープライズ VoIP の SIP トランキングと PSTN ゲートウェイについて説明します。
-ms.openlocfilehash: d770e47917d8fc1d56e6a74d896938151ac00895
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 06c4b79d07b776b4f5820f67ab86ac958db32686
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887992"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877001"
 ---
 # <a name="pstn-connectivity-components-in-skype-for-business-server"></a>Skype ビジネス サーバーの PSTN 接続のコンポーネント
  
@@ -55,7 +56,7 @@ PSTN ゲートウェイとは、信号に変換するサードパーティ製の
 - 時分割多重 (TDM) PBX とスタンドアロンの PSTN ゲートウェイ。
     
 > [!NOTE]
-> メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用できるとは限りません。 Microsoft は、認定パートナーと共に一連の PSTN ゲートウェイおよび SBC をテストし、Cisco IP-PBX についてもいくつかのテストを完了しています。 メディアのバイパスが製品でのみサポートされているし、バージョンに記載されている[ユニファイド コミュニケーション オープン相互運用性プログラムの Lync Server](https://go.microsoft.com/fwlink/p/?linkId=214406)です。 
+> メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用できるとは限りません。 マイクロソフトでは、認定パートナーの PSTN ゲートウェイと SBC でテストを行い、Cisco IP-PBX でも一定のテストを行いました。 メディアのバイパスが製品でのみサポートされているし、バージョンに記載されている[ユニファイド コミュニケーション オープン相互運用性プログラムの Lync Server](https://go.microsoft.com/fwlink/p/?linkId=214406)です。 
   
 詳細については、エンタープライズ VoIP ソリューションを提供するパートナーは、[マイクロソフトのユニファイド コミュニケーション パートナーの web サイト](https://go.microsoft.com/fwlink/p/?linkId=202836)を参照してください。
   

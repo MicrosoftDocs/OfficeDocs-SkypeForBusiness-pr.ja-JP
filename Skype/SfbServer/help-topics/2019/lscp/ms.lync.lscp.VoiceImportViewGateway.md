@@ -1,5 +1,6 @@
 ---
-title: 表示ゲートウェイ (構成のインポート)
+title: ゲートウェイの表示 (構成のインポート)
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 0cdb0a42-c682-42f7-907e-667f934cb7e0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 導入ゲートウェイでは、選択した音声構成ファイルをインポートするゲートウェイをクリックします。
-ms.openlocfilehash: b644ede630df7db76e008eb937b0f75502c8f05d
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 31e63464c4d53ed95a52ac57792db17337056084
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997329"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873234"
 ---
-# <a name="view-gateways-import-configuration"></a>表示ゲートウェイ (構成のインポート)
+# <a name="view-gateways-import-configuration"></a>ゲートウェイの表示 (構成のインポート)
  
 **導入のゲートウェイ**では、選択した音声構成ファイルをインポートするゲートウェイをクリックします。
   

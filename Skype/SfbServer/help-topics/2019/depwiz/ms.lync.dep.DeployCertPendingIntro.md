@@ -1,5 +1,6 @@
 ---
-title: 保留中の証明書 (概要)
+title: 保留中の証明書 (開始)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: d95455f3-39d3-4730-89dd-7f988ae5da95
 ROBOTS: NOINDEX, NOFOLLOW
 description: オンライン証明機関に発行されてくださいが、手動の承認プロセスを必要とする管理者によって設定されている要求は、保留中のオンライン証明書要求の処理には、次へをクリックします。
-ms.openlocfilehash: baad0758827ade356c9703c5a24bfdc4e84f89bb
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c8882eb2f93dd210b5888ad55bc5d85a6abedc12
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21018791"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877249"
 ---
-# <a name="pending-certificate-intro"></a>保留中の証明書 (概要)
+# <a name="pending-certificate-intro"></a>保留中の証明書 (開始)
  
 オンライン証明機関に発行されていますが、手動の承認プロセスを必要とする、[**次へ**] をクリックして管理者によって設定されている要求は、保留中のオンライン証明書要求を処理します。
   

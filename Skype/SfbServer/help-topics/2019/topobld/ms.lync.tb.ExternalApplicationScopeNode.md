@@ -1,5 +1,6 @@
 ---
 title: 外部アプリケーション スコープ ノード
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 ROBOTS: NOINDEX, NOFOLLOW
 description: このノードには、この信頼されたアプリケーション プールの完全修飾ドメイン名 (FQDN)、レプリケーション設定、および次ホップ プールが表示されます。以下のアクションを実行できます。
-ms.openlocfilehash: 6af01dac202001ff6f44d9f871fcc5fb5e0f9dd0
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 07f98e277cead81ee9ea636ceb247f490327776d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21061122"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876035"
 ---
 # <a name="external-application-scope-node"></a>外部アプリケーション スコープ ノード
  

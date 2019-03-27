@@ -1,5 +1,6 @@
 ---
 title: Skype の許可-CsOUPermission によるビジネス サーバーの変更
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
 description: Skype ビジネス サーバー管理を委任するにフォレストの準備によって作成された RTC ユニバーサル グループのメンバーは、Domain Admins グループのメンバーでなくて、Ou をアクセスできるように指定した組織単位 (Ou) へのアクセス許可を追加できます。
-ms.openlocfilehash: 1313394248da2dcaeb9843bd689b2e2da3c51f96
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 304f5d905f8839224013a2ce674b98405fd9ce8e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876811"
 ---
 # <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>Skype の許可-CsOUPermission によるビジネス サーバーの変更
  

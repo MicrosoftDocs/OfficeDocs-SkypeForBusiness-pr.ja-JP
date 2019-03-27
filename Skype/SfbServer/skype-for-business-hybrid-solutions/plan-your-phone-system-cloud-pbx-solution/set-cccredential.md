@@ -1,5 +1,6 @@
 ---
-title: セット CcCredential
+title: Set-CcCredential
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: Set-CcCredential コマンドレットは、現在の Skype for Business Cloud Connector エディションの展開の資格情報を設定します。
-ms.openlocfilehash: 7680f863ccf082ddb8359c7d3fcefc2c058b6a40
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 547f0b87b006347a337a2c25222aecbd4f402669
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876642"
 ---
-# <a name="set-cccredential"></a>セット CcCredential
+# <a name="set-cccredential"></a>Set-CcCredential
  
 Set-CcCredential コマンドレットは、現在の Skype for Business Cloud Connector エディションの展開の資格情報を設定します。 
   
@@ -40,12 +42,12 @@ Set-CcCredential -AccountType "TenantAdmin"
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-Set-CcCredential コマンドレットによって、テナント管理者のアカウント名とパスワードが設定されます。 2.0 より前のリリース、この管理者は Office 365 のグローバル管理者である必要があります。 クラウドのコネクタは、構成情報を取得、構成パラメーター、およびアプライアンスの状態の更新プログラムを Office 365 のテナント構成に設定するのにはこのアカウントを使用します。 2.0 のリリースし、後で使用することもこのコマンドレット、VmAdmin および DomainAdmin のアカウントのパスワードを更新します。
+Set-CcCredential コマンドレットによって、テナント管理者のアカウント名とパスワードが設定されます。 2.0 より前のリリースでは、この管理者は、Office 365 の全体管理者である必要があります。 クラウドのコネクタは、構成情報を取得、構成パラメーター、およびアプライアンスの状態の更新プログラムを Office 365 のテナント構成に設定するのにはこのアカウントを使用します。 2.0 のリリースし、後で使用することもこのコマンドレット、VmAdmin および DomainAdmin のアカウントのパスワードを更新します。
   
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**必須**|**タイプ**|**説明**|
+|**パラメーター**|**必須**|**型**|**説明**|
 |:-----|:-----|:-----|:-----|
 | AccountType <br/> | 必須 <br/> |System.String  <br/> | パラメーター値は「TenantAdmin」、「VmAdmin」、または「DomainAdmin」にする必要があります。 <br/> |
    
@@ -62,6 +64,6 @@ Set-CcCredential コマンドレットによって、テナント管理者のア
 ## <a name="see-also"></a>関連項目
 <a name="ReturnTypes"> </a>
 
-[Get CcCredential](get-cccredential.md)
+[Get-CcCredential](get-cccredential.md)
   
 

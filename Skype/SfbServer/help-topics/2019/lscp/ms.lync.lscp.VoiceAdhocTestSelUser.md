@@ -1,5 +1,6 @@
 ---
-title: エンタープライズ VoIP のユーザーを選択します。
+title: エンタープライズ VoIP ユーザーの選択
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: エンタープライズ VoIP が有効になっているユーザーを検索するのにには、エンタープライズ VoIP ユーザーの選択] ダイアログ ボックスを使用します。 [検索] ボックスに、SIP アドレスを入力、検索するユーザーの名前を表示、検索] をクリックし、 ユーザーを選択するには、検索結果の一覧でユーザーをクリックし、[し、[OK] をクリックします。 探していることをユーザーが見つからない場合は、そのユーザー可能性がありますいない有効にするエンタープライズ VoIP の。
-ms.openlocfilehash: 615f25aee7a697a4679e929b5067c404939d13a6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a801a35fd02bca06179c70c38b285d412aee0428
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20998982"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878099"
 ---
-# <a name="select-enterprise-voice-users"></a>エンタープライズ VoIP のユーザーを選択します。
+# <a name="select-enterprise-voice-users"></a>エンタープライズ VoIP ユーザーの選択
  
 エンタープライズ VoIP が有効になっているユーザーを検索するのにには、**エンタープライズ VoIP ユーザーの選択**] ダイアログ ボックスを使用します。 検索ボックスで、SIP アドレスを入力、検索するユーザーの名前を表示や**検索**] をクリックします。 ユーザーを選択し、検索結果の一覧でユーザーをクリックし、[ **OK**] をクリックします。 探していることをユーザーが見つからない場合は、そのユーザー可能性がありますいない有効にするエンタープライズ VoIP の。 
   

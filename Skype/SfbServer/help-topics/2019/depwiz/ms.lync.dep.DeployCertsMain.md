@@ -1,5 +1,6 @@
 ---
 title: 証明書ウィザード
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 ROBOTS: NOINDEX, NOFOLLOW
 description: 証明書の [要求]、[割り当て]、[削除]、または [表示] を行うには、証明書ウィザードを使用します。 この場合は、RTCUniversalServerAdmins グループのメンバーとしてログインする必要があります。 パブリック証明機関 (CA) からの証明書を要求する場合に、別のグループ メンバーシップは不要です。 組織の公開キー基盤 (PKI) から証明書の要求にどのようなことを確認する必要があります。 追加-存在する場合、グループ メンバーシップが必要です。 要求タスクでは、PKI から証明書の CA の発行元の要求に使用する代替の資格情報を入力できます。
-ms.openlocfilehash: 6254ae2601387fa7ef6c6900fe7479db9d7c6ee3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: afa36085fb4e8a1937facac204d78d5c0c61af9b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21001462"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873402"
 ---
 # <a name="certificate-wizard"></a>証明書ウィザード
  
