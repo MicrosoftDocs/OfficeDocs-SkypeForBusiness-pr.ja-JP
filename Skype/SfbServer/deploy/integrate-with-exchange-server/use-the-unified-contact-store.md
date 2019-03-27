@@ -1,5 +1,6 @@
 ---
 title: 統合連絡先ストアを使用するための Skype for Business Server の構成
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: '概要: ビジネスのサーバーの Exchange Server と Skype の統合連絡先ストアを構成します。'
-ms.openlocfilehash: ebed3e81b12718ae053b4482455cf38bd844799c
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: fd58c0cfd86092bb1a6004ac4d70c98c51062ea1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533069"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888683"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>統合連絡先ストアを使用するための Skype for Business Server の構成
  

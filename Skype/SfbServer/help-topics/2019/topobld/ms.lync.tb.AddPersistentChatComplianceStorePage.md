@@ -1,5 +1,6 @@
 ---
 title: 常設チャット コンプライアンス SQL Server ストアの追加
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
 ROBOTS: NOINDEX, NOFOLLOW
 description: 永続的なチャット サーバーまたはコンプライアンス機能の永続的なチャット サーバーのデータベースを提供する SQL Server の格納に準拠を構成するとします。
-ms.openlocfilehash: 337c221b3d20572c026ca98afd9db2ed267ac1f8
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 08ca69ab6a949a906da800b677b3f63213686803
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21064394"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896008"
 ---
 # <a name="add-persistent-chat-compliance-sql-server-store"></a>常設チャット コンプライアンス SQL Server ストアの追加
 

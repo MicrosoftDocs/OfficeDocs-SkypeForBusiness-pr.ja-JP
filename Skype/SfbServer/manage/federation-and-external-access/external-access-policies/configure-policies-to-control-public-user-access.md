@@ -1,5 +1,6 @@
 ---
 title: パブリック ユーザー アクセスを制御するポリシーの構成
+ms.reviewer: ''
 ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520946(v=OCS.15)
 ms:contentKeyID: 48183343
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ublic のインスタント メッセージング (IM) 接続では、パブリック IM サービス プロバイダーが提供する IM サービスのユーザーと通信するために IM を使用する、組織内のユーザーを使用できます。
-ms.openlocfilehash: 8ad406957d50f44bd8cee9465549ff86af9a3e6b
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 3ed19bf692ccc7dfc39466e304b3b1371164758c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222871"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899772"
 ---
 # <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>ビジネス サーバーの Skype のパブリック ユーザー アクセスを制御するポリシーを構成します。
 
@@ -61,7 +62,7 @@ IM の招待の場合は、応答は、クライアント ・ ソフトウェア
     
       - ポリシーのパブリック ユーザー アクセスを無効にするには、**パブリック ユーザーとの通信を有効にする**] チェック ボックスをオフにします。
 
-7.  [**確定**] をクリックします。
+7.  [**コミット**] をクリックします。
 
 パブリック ユーザー アクセスを有効にするには、また組織でフェデレーションのサポートを有効にする必要があります。 詳細については、[制御するポリシーを構成する Skype のビジネス サーバーでユーザーのアクセスをフェデレーションする](configure-policies-to-control-federated-user-access.md)を参照してください。
 
@@ -70,4 +71,4 @@ IM の招待の場合は、応答は、クライアント ・ ソフトウェア
 
 ## <a name="see-also"></a>関連項目
 
-[組織のフェデレーションの SIP プロバイダーを管理します。](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
+[組織の SIP フェデレーション プロバイダーの管理](../sip-providers/manage-sip-federated-providers-for-your-organization.md)

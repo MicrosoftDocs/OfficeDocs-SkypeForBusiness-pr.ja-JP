@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Exchange Skype ルーム システム v2 のアカウントを構成し、ビジネスの Skype の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 38fdc37467b1a9f7b73271ac8684e86f52059981
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 59e94251014b2f5c567e3b672d67007471d3709b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699680"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888278"
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>Skype ルーム システム v2 用のアカウントを構成します。
  
@@ -57,7 +57,7 @@ Skype ルーム システム v2 では、Active Directory、Exchange、および
   
 設定リソース メールボックスのアカウントが既に存在する場合に Skype ルーム システム v2 をインストールしている会議の場所に、ユーザー アカウントにそのリソースのアカウントを変更できます。 完了すると、実行する必要があります、Skype ルーム システム v2 デバイスへのユーザー アカウントの追加です。 下記のユーザー アカウントのセットアップ例を参照してください。
   
-リモート管理は、 [Skype ルーム システムの計画 v2 管理 OMS を使用して](../../plan-your-deployment/clients-and-devices/oms-management.md)、 [OMS を使用して Skype ルーム システムの展開 v2 の管理](with-oms.md)、および管理の[で説明したように運用管理スイート (OMS) を使用して、追加の構成OMS を使用して Skype ルーム システム v2 のデバイス](../../manage/skype-room-systems-v2/oms.md)。 
+追加の構成をリモート管理は、 [Skype ルーム システムの計画 v2 管理 Azure のモニターを使用して](../../plan-your-deployment/clients-and-devices/azure-monitor.md)、 [Azure のモニターを使用して Skype ルーム システムの展開 v2 の管理](azure-monitor.md)、および[の管理で説明したように、Microsoft Azure のモニターを使用してAzure のモニターを使用して Skype ルーム システム v2 のデバイス](../../manage/skype-room-systems-v2/azure-monitor.md)。 
   
 ## <a name="basic-configuration"></a>基本的な構成
 
@@ -79,7 +79,7 @@ Skype ルーム システム v2 では、Active Directory、Exchange、および
    
 ユーザー アカウントを設定する最も簡単な方法では、リモートの Windows PowerShell を使用してそれらを構成します。 マイクロソフトでは、 [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)、新しいユーザー アカウントを作成または Skype ルーム システム v2 の互換性のあるユーザー アカウントにそれらを有効にするためにある既存のリソース アカウントの検証を支援するスクリプトを提供します。
   
-Windows PowerShell コマンドレット経由で Office 365 の UI を使用する場合は、いくつかの手順を手動で実行することができます。 「[Office 365 を使ったデバイス アカウントの作成](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365) を参照してください。
+Windows PowerShell コマンドレット経由で Office 365 の UI を使用する場合は、いくつかの手順を手動で実行することができます。 [Office 365 を使用してデバイスのアカウントを作成する](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365)を参照してください。
   
 ## <a name="see-also"></a>関連項目
 

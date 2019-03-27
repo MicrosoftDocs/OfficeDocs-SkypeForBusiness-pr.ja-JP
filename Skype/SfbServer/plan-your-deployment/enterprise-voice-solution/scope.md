@@ -1,5 +1,6 @@
 ---
 title: Skype のビジネス サーバーの ~ 9-1-1 の展開の範囲を定義します。
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
 description: ビジネス サーバーのエンタープライズ VoIP の Skype で ~ 9-1-1 展開の計画のために必要なを決定します。
-ms.openlocfilehash: 01b6b1656826977444928583ff08e8cb23b2982d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 014ef9a07679341a7d5eada4ecbad382a9576b61
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886290"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889141"
 ---
 # <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server"></a>Skype のビジネス サーバーの ~ 9-1-1 の展開の範囲を定義します。
 
@@ -36,7 +37,7 @@ ms.locfileid: "23886290"
 
  **E9-1-1 をブランチ サイトにどのように展開するか**
 
- E9-1-1 をブランチ サイトに展開するときは、音声の復元の概念を理解することが重要です。 E-9-1-1 の SIP トランクを集中化すると、WAN の障害が発生する、クライアントにサインインできないことがあります場所情報サービスから場所を取得するか、緊急サービスのサービス プロバイダーに接続します。 ビジネス用の Skype など、ブランチ オフィスでの音声の復元機能を処理するためのいくつかの方法が用意されています: 弾力性のあるデータ ・ ネットワークを持つ、各支店に SIP トランクを展開するまたはさせようとして緊急通報ローカル ゲートウェイの停止中にします。 詳細については、[ブランチ サイトの音声の復元の計画](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)を参照してください。
+ E9-1-1 をブランチ サイトに展開するときは、音声の復元の概念を理解することが重要です。 E-9-1-1 の SIP トランクを集中化すると、WAN の障害が発生する、クライアントにサインインできないことがあります場所情報サービスから場所を取得するか、緊急サービスのサービス プロバイダーに接続します。 ビジネス用の Skype など、ブランチ オフィスでの音声の復元機能を処理するためのいくつかの方法が用意されています: 弾力性のあるデータ ・ ネットワークを持つ、各支店に SIP トランクを展開するまたはさせようとして緊急通報ローカル ゲートウェイの停止中にします。 詳細については、「[Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)」を参照してください。
 
  **ネットワーク外のユーザーに対し、E9-1-1 を有効にするかどうか**
 

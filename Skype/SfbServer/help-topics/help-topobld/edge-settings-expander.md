@@ -1,5 +1,6 @@
 ---
 title: エッジ設定エキスパンダー
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 既存の単一サーバー エッジ プールまたは複数サーバー エッジ プールの設定を編集するために、次のセクションが表示されます。
-ms.openlocfilehash: c8c167673151f8fdc5801e31444cd70b1e21b068
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 23162ee4100c077d072d6cc1d72946059611ce7f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23257459"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889162"
 ---
 # <a name="edge-settings-expander"></a>エッジ設定エキスパンダー
 
@@ -63,6 +64,6 @@ ms.locfileid: "23257459"
 
 ## <a name="see-also"></a>関連項目
 
-詳細を定義して、エッジ サービスの設定の構成については、[エッジ トポロジの定義](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)を参照してください。
+エッジ サービスの設定の定義および構成の詳細については、「[Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)」を参照してください。
 
 

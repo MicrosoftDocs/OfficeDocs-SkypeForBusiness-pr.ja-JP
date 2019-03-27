@@ -1,5 +1,6 @@
 ---
 title: 証明書の割り当て (起動)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 3b7cf7d2-90e1-4c73-bda8-33bdcf19725c
 ROBOTS: NOINDEX, NOFOLLOW
 description: コマンドの実行] ページには、サーバーに証明書を割り当てるには、タスクで実行される処理が表示されます。 タスクが完了したときは、証明書の割り当てプロセスの詳細に示すログを表示できます。 ログ ファイルを表示するには、[ログの表示] をクリックします。
-ms.openlocfilehash: 385ee73a1619781b90a409410ed20bb96a31c993
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 510f2d7a55530ba4c1a0096ce15aa4481f64e0dc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967706"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899702"
 ---
 # <a name="certificate-assignment-invoke"></a>証明書の割り当て (起動)
  

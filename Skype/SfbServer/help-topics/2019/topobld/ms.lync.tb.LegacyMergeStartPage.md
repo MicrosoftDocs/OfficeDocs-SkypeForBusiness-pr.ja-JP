@@ -1,5 +1,6 @@
 ---
 title: 従来のマージの開始
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 04f160cf-13c3-4d9d-80ab-78908fe86abe
 ROBOTS: NOINDEX, NOFOLLOW
 description: ビジネス サーバーの Skype での従来の配置をマージするには、次へをクリックします。
-ms.openlocfilehash: 0f9e606dfe184fd2084f3a65c65de456d2c485e7
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: c920ede0266136f7a16393b3383264794a2c50b6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21082574"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889734"
 ---
 # <a name="legacy-merge-start"></a>従来のマージの開始
  

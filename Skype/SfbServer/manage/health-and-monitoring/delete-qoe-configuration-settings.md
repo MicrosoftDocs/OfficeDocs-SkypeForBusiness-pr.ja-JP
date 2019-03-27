@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype での高品質なエクスペリエンスの構成の設定を削除します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
 description: '概要: ビジネスのサーバーの Skype でのエクスペリエンスの品質 (QoE) 設定を削除する方法を説明します。'
-ms.openlocfilehash: a0ed68fa6670f66512023e1dcf0754be5e95ed53
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1324029be12816abcc6c70de34363043df78277a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21029410"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889847"
 ---
 # <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>ビジネス サーバーの Skype での高品質なエクスペリエンスの構成の設定を削除します。
  
@@ -30,7 +31,7 @@ Quality of Experience (QoE) 指標は、ネットワーク パケットの損失
   
 ### <a name="to-delete-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用して、QoE 構成設定を削除するのには
 
-1.  RTCUniversalServerAdmins グループのメンバーとして、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator のロールのメンバーとしてコンピューターにログオンします。 詳細については、**セットアップのアクセス許可の委任**を参照してください。
+1.  RTCUniversalServerAdmins グループのメンバーとして、あるいは CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。詳細については、「**Delegate Setup Permissions**」を参照してください。
     
 2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。  
     

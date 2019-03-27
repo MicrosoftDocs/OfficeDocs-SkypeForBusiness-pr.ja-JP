@@ -1,5 +1,6 @@
 ---
 title: アーカイブ ポリシー
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 description: アーカイブ ポリシーを使用して有効にして、無効にするには、ユーザーのアーカイブ サーバーのビジネスの Skype が置かれています。 それぞれのアーカイブ ポリシーでは、次のどちらかまたは両方のアーカイブを有効化または無効化できます。
-ms.openlocfilehash: eea3f7eb71bcf3928e2976b9468cea6bf94b4ab1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d0ef36b6300895c1dbdf3199da7dc07a9b4064fd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884850"
 ---
 # <a name="archiving-policy"></a>アーカイブ ポリシー
  
