@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype で、エッジ配置を検証します。
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro
@@ -11,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
 description: '概要: は、Skype のビジネス サーバーのエッジ サーバーまたはエッジ サーバー プールの展開が機能していることを確認する方法を説明します。'
-ms.openlocfilehash: 267a02407a66614d0c78592da073307979136e39
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 63c4cb1af599da191d0e0f4b95cfdaa775a64ba4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883549"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878607"
 ---
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>ビジネス サーバーの Skype で、エッジ配置を検証します。
  

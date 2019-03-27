@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 での常設チャットのユーザー ポリシーの構成
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: '概要: ビジネス サーバー 2015 の Skype での永続的なチャット サーバーのユーザーが最初のポリシーを作成する方法については、このトピックを読みます。 永続的なチャット ユーザーのポリシーでは、チャット ルームへのアクセスを許可されているかどうかを決定します。'
-ms.openlocfilehash: 186611977a1a9dfa77549e8f0c5df6b863718eee
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e082898d92e622827e2543316b07a8be224c56c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21000837"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883708"
 ---
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャットのユーザー ポリシーの構成
  
@@ -40,7 +41,7 @@ ms.locfileid: "21000837"
 
 グローバル ポリシーを構成するには:
   
-1. CsPersistentChatAdministrator、CsAdministrator、または CsUserAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
+1. CsPersistentChatAdministrator、CsAdministrator、または CsUserAdministrator の役割に割り当てられているユーザーから、内部展開の任意のコンピューターにログオンします。
     
 2. **[スタート**] メニューから、Skype ビジネス サーバーのコントロール パネルのまたはブラウザー ウィンドウを開きし、管理 URL を入力します。
     
@@ -56,13 +57,13 @@ ms.locfileid: "21000837"
     
    - すべてのサイトおよびサイト ポリシーまたはユーザー ポリシーによって特に制御のユーザーの永続的なチャットを制御するには、オンまたは**永続的なチャットを有効にする**] チェック ボックスをオフにします。
     
-6. [**確定**] をクリックします。
+6. [**コミット**] をクリックします。
     
 ## <a name="create-a-site-policy"></a>サイト ポリシーを作成する
 
 展開した各サイトに対して、サイト固有の常設チャット ポリシーを作成できます。 サイト ポリシーの構成はグローバル ポリシーよりも優先されますが、サイト ポリシーで指定されたサイトだけが対象となります。 サイト ポリシーを作成するには、次の手順を実行します。
   
-1. CsPersistentChatAdministrator、CsAdministrator、または CsUserAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
+1. CsPersistentChatAdministrator、CsAdministrator、または CsUserAdministrator の役割に割り当てられているユーザーから、内部展開の任意のコンピューターにログオンします。
     
 2. **[スタート**] メニューから、Skype ビジネス サーバーのコントロール パネルのまたはブラウザー ウィンドウを開きし、管理 URL を入力します。
     
@@ -80,13 +81,13 @@ ms.locfileid: "21000837"
     
    - サイト ポリシーによって特に制御されていないすべてのサイトの常設チャットを制御するには、[**常設チャットを有効にする**] チェック ボックスをオンまたはオフにします。
     
-7. [**確定**] をクリックします。
+7. [**コミット**] をクリックします。
     
 ## <a name="create-a-user-policy"></a>ユーザー ポリシーを作成する
 
 グローバル ポリシーと、ユーザーが属するサイトのポリシーよりも優先されるユーザー固有のポリシーを作成することができます。 ユーザー ポリシーを作成するには、次の手順を実行します。
   
-1. CsPersistentChatAdministrator、CsAdministrator、または CsUserAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
+1. CsPersistentChatAdministrator、CsAdministrator、または CsUserAdministrator の役割に割り当てられているユーザーから、内部展開の任意のコンピューターにログオンします。
     
 2. **[スタート**] メニューから、Skype ビジネス サーバーのコントロール パネルのまたはブラウザー ウィンドウを開きし、管理 URL を入力します。
     
@@ -119,8 +120,8 @@ ms.locfileid: "21000837"
 5. ポリシーで**永続的なチャット****サーバー ユーザーのビジネスの Skype を編集**で、永続的なチャット ユーザー ポリシーを適用するを選択します。
     
     > [!NOTE]
-    > **\<自動\>** の設定は、既定の有効なポリシーを適用します。 これらの設定はサーバーによって自動的に適用されます。
+    > **\<自動\>** の設定は、既定の有効なポリシーを適用します。 これらの設定はサーバーにより自動的に適用されます。
   
-6. [**確定**] をクリックします。
+6. [**コミット**] をクリックします。
     
 

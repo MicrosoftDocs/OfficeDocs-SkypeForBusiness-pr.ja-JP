@@ -1,5 +1,6 @@
 ---
-title: 移行プロセス
+title: 移行のプロセス
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ビジネス サーバー 2019 の Skype の推奨およびサポートされている移行手順は、サイド バイ サイドの移行です。 サイド バイ サイド移行を使用する必要があり、共存のテストに関する情報も含まれます理由について説明します。
-ms.openlocfilehash: 22f503b441bfd6115a63127f9a0b89bc8f5843ab
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e14226721cbc09bd1f0ac66b47dbd1710712eb17
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028664"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876293"
 ---
-# <a name="migration-process"></a>移行プロセス
+# <a name="migration-process"></a>移行のプロセス
 
 ビジネス サーバー 2019 の Skype の推奨およびサポートされている移行手順は、サイド バイ サイドの移行です。 サイド バイ サイド移行を使用する必要があり、共存のテストに関する情報も含まれます理由について説明します。
   

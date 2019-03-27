@@ -1,5 +1,6 @@
 ---
 title: 管理会議の Skype ビジネス サーバーの構成設定
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
 description: '概要: を管理する方法を学習する Skype ビジネス サーバーの構成設定に対応します。'
-ms.openlocfilehash: 28f0dc37579f762b8ae3b0ac8ac58440c6ce5e24
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 90d1004101f1dd3b4737c7bfa4414438a65c54a6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966067"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883222"
 ---
 # <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>管理会議の Skype ビジネス サーバーの構成設定
  
@@ -56,9 +57,9 @@ Skype ビジネス サーバー管理シェルを使用して会議を管理す�
 
 |**コマンドレット**|**説明**|
 |:-----|:-----|
-|[Get CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps) <br/> |組織で現在使用されている会議の構成設定に関する情報を戻します。  <br/> |
-|[新しい-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> |サイト スコープまたはサービス スコープで会議の構成設定の新しいコレクションを作成します。  <br/> |
-|[削除 CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps) <br/> |会議の構成設定の既存のコレクションを削除します。  <br/> |
-|[セット CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |組織で現在使用されている会議の構成設定を変更します。  <br/> |
+|[Get-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps) <br/> |組織で現在使用されている会議の構成設定に関する情報を戻します。  <br/> |
+|[New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> |サイト スコープまたはサービス スコープで会議の構成設定の新しいコレクションを作成します。  <br/> |
+|[Remove-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps) <br/> |会議の構成設定の既存のコレクションを削除します。  <br/> |
+|[Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |組織で現在使用されている会議の構成設定を変更します。  <br/> |
    
 

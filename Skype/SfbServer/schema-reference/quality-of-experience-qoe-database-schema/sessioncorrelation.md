@@ -1,5 +1,6 @@
 ---
 title: SessionCorrelation テーブル
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 041705e1-7290-464f-95f8-96256cfa2e3e
 description: SessionCorrelation はテーブルをサポートします。 各レコードは、複数のセッションを関連付けるために使用される 1 つの CorrelationID を表します。
-ms.openlocfilehash: 8a9c9661b10548bf3ebf402aa4654fced2ca709b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8c41ab5c52c6b4d06a3c3953e8d969488680e8d3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884664"
 ---
 # <a name="sessioncorrelation-table"></a>SessionCorrelation テーブル
  
 SessionCorrelation はテーブルをサポートします。 各レコードは、複数のセッションを関連付けるために使用される 1 つの CorrelationID を表します。 
   
-|**列**|**データ型**|**キーまたはインデックス**|**詳細**|
+|**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |**チェックサム** <br/> |int  <br/> |||
 |**CorrelationKey** <br/> |int  <br/> |Primary  <br/> |この A を識別する一意の番号/V 会議サーバーです。  <br/> |

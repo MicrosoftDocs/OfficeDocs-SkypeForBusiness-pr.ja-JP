@@ -1,5 +1,6 @@
 ---
 title: 1 人のユーザーをパイロット プールに移動します。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ビジネス サーバー 2019 パイロット プールのビジネス サーバー 2019 のコントロール パネルまたは Skype の Skype を使用してビジネス サーバー 2019 管理シェルには、Skype を従来のプールからユーザーを移動できます。 レジストラー プール] 列に、次の例で pool01.contoso.net は、従来のプールでは、および 6 のこれらのユーザーがこのプールに接続しています。 ビジネス サーバー 2019 プールのサーバー管理シェルのビジネスのビジネス サーバー 2019 のコントロール パネルと Skype の Skype を使用して、Skype にユーザーを移動するのにには、次の手順を使用します。
-ms.openlocfilehash: 6742c5fc00c9d53030ac32ee698686bb8b11fa07
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 94896ce2ea05a3102d5a7643e3f26430e74bfe19
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372746"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880250"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>1 人のユーザーをパイロット プールに移動します。
 
@@ -27,7 +28,7 @@ ms.locfileid: "25372746"
     
 3. [**ユーザー**] をクリックして、**検索**] をクリックし、[**検索**] をクリックします。
     
-4. Skype のビジネス サーバー 2019 プールに移動するユーザーを選択します。 この例では、佐々木さんの岡崎のユーザーを移動します。
+4. Skype のビジネス サーバー 2019 プールに移動するユーザーを選択します。 この例では、Sara Davis というユーザーを移動します。
     
 5. [**アクション**] メニューの [**選択されたユーザーをプールに移動**] をクリックします。
     

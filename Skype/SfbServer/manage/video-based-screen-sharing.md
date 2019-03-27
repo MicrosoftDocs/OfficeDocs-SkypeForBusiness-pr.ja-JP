@@ -1,5 +1,6 @@
 ---
-title: ビデオ ベースの画面共有 Skype のビジネス サーバー
+title: Skype for Business Server のビデオベースの画面共有
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/20/2018
@@ -9,14 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype 画面ビデオ ・ ベース (VbSS) を共有するためのビジネス サーバーの計画と構成について
-ms.openlocfilehash: 84547168eb883522005480fb07ff2bfb9abd54f6
-ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
+ms.openlocfilehash: d899e07fc478e33c4480cd235b3eb0cafd95ecba
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "26993434"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878915"
 ---
-# <a name="video-based-screen-sharing-for-skype-for-business-server"></a>ビデオ ベースの画面共有 Skype のビジネス サーバー 
+# <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Skype for Business Server のビデオベースの画面共有 
  
 ベースのビデオ画面の共有 (VbSS) ビジネス サーバー 2015 の Skype がダウンロードできないようになりました。[ビジネス サーバー 2015 累積的な更新プログラム KB3061064 の Skype](https://www.microsoft.com/en-us/download/details.aspx?id=47690)です。 VbSS は、Skype のビジネス サーバー 2019 で含まれています。
   

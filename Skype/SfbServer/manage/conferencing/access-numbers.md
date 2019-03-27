@@ -1,5 +1,6 @@
 ---
 title: 'Skype でダイヤルイン会議のアクセス番号をビジネスのサーバーの管理します。 '
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: '概要: ビジネス サーバーのダイヤルイン会議アクセス番号を Skype を管理する方法を説明します。'
-ms.openlocfilehash: a9e93b52a329a4fdce6817a758b6c6dcb29a0348
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c074cb9417e39d8964996f643b90f8fe3e0fd7b7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008189"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883522"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Skype でダイヤルイン会議のアクセス番号をビジネスのサーバーの管理します。
  
 **の概要:** ビジネス サーバーのダイヤルイン会議アクセス番号を Skype を管理する方法について説明します。
   
-ダイヤルイン会議を展開するときには、ユーザーが公衆交換電話網 (PSTN) からダイヤルして電話会議のオーディオ部分に参加するための電話番号を設定する必要があります。それらのダイヤルイン アクセス番号は、ミーティングの招待状と [ダイヤルイン会議の設定] Web ページに表示されます。 
+ダイヤルイン会議を展開するときには、ユーザーが公衆交換電話網 (PSTN) からダイヤルして電話会議のオーディオ部分に参加するための電話番号を設定する必要があります。 それらのダイヤルイン アクセス番号は、ミーティングの招待状と [ダイヤルイン会議の設定] Web ページに表示されます。 
   
 このトピックでは、既存のダイヤルイン会議アクセス番号を表示、変更、または削除する方法について説明します。 初期のダイヤルイン アクセス番号を作成する方法の詳細については、 [Skype のビジネス サーバーにダイヤルイン会議の構成](../../deploy/deploy-conferencing/dial-in-conferencing.md)を参照してください。
   
@@ -111,7 +112,7 @@ Regions            : {US}
 9. [**プール**] で、このダイヤルイン アクセス番号をサポートする会議アテンダントのインスタンスを実行するプールをクリックします。
     
     > [!NOTE]
-    > アクセス番号を作成した後は、プールを変更する場合は、**移動 CsApplicationEndpoint**コマンドレットを使用して削除またはアクセス番号を再作成してください。
+    > アクセス番号の作成後にプールを変更する必要がある場合は、**Move-CsApplicationEndpoint** コマンドレットを使用するか、またはアクセス番号をいったん削除して作成し直す必要があります。
   
 10. [**第 1 言語**] で、このダイヤルイン アクセス番号の案内を再生するときに使用される言語をクリックします。 
     

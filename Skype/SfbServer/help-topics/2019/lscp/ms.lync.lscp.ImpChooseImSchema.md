@@ -1,5 +1,6 @@
 ---
-title: ハイパーリンクのプレフィックスを選択します。
+title: ハイパーリンクのプレフィックスの選択
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 ROBOTS: NOINDEX, NOFOLLOW
 description: ブロック、警告メッセージを送信、または (可能) にする (ブロック、または警告メッセージを送信) をオンまたはオフにできるようにするハイパーリンクの種類を選択するのには、[ハイパーリンク プレフィックスの選択] ダイアログ ボックスを使用して、下にあるカテゴリの中から、拡張子のチェック ボックスハイパーリンクのプレフィックスです。 矢印をクリックして、カテゴリを展開し、すべてのカテゴリのハイパーリンクのプレフィックスを表示します。 すべてのカテゴリのプレフィックスのハイパーリンクを選択する場合は、カテゴリ名を選択します。
-ms.openlocfilehash: 4fbceccc00d95466190859d6eb8a9be9e5b4134b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 59e5c5c4b5dd84ce12ffc7cf52717cdd5c6cc3cb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989451"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879091"
 ---
-# <a name="select-hyperlink-prefix"></a>ハイパーリンクのプレフィックスを選択します。
+# <a name="select-hyperlink-prefix"></a>ハイパーリンクのプレフィックスの選択
  
 ブロック、警告メッセージを送信、または (可能) にする (ブロック、または警告メッセージを送信) をオンまたはオフにできるようにするハイパーリンクの種類を選択するのには、[**ハイパーリンク プレフィックスの選択**] ダイアログ ボックスを使用してから、その拡張機能のチェック ボックスを[**ハイパーリンク プレフィックス**] カテゴリです。 矢印をクリックして、カテゴリを展開し、すべてのカテゴリのハイパーリンクのプレフィックスを表示します。 すべてのカテゴリのプレフィックスのハイパーリンクを選択する場合は、カテゴリ名を選択します。 
   

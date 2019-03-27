@@ -1,5 +1,6 @@
 ---
 title: tblChat
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7fcf1b4-7a3f-4585-a6d9-95e7f030c7dc
 description: tblChat には、すべてのチャット メッセージが含まれています。
-ms.openlocfilehash: 1a1a2986d69e2f5efafe365da3394de01c911623
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 54e19fe729d9f96afb04d22a917864118de75efe
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881306"
 ---
 # <a name="tblchat"></a>tblChat
  
@@ -22,7 +24,7 @@ tblChat には、すべてのチャット メッセージが含まれていま�
   
 **列**
 
-|**列**|**タイプ**|**説明**|
+|**列**|**型**|**説明**|
 |:-----|:-----|:-----|
 |channelId  <br/> |int 型、null でないです。  <br/> |ノードの id。  <br/> |
 |chatId  <br/> |bigint 型の値、null でないです。  <br/> |一意な連番 (ノード ID) あたり tblLastChatId テーブルで生成された、チャット ルームの順序を定義します。  <br/> |

@@ -1,5 +1,6 @@
 ---
-title: (プランニング ・ ツール) のアーカイブ
+title: Archiving (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,13 +14,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45580eaa-4c59-47c6-9e64-9221a3a352b4
 description: Skype ビジネス サーバーのアーカイブ ビジネス サーバーの Skype 経由で送信される通信をアーカイブするための手段を提供します。
-ms.openlocfilehash: 6082df30fb2dd827e5db03ad779533e49604332d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 84c56c7c136ff36d22ed23cbc1e77f610a38043a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883295"
 ---
-# <a name="archiving-planning-tool"></a>(プランニング ・ ツール) のアーカイブ
+# <a name="archiving-planning-tool"></a>Archiving (Planning Tool)
  
 Skype ビジネス サーバーのアーカイブ ビジネス サーバーの Skype 経由で送信される通信をアーカイブするための手段を提供します。
   

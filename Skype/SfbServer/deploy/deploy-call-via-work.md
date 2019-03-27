@@ -1,5 +1,6 @@
 ---
 title: Skype ビジネス サーバーの作業時間を使用して呼び出しを配置します。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: '概要: ビジネスのサーバーの一部またはすべてのユーザーの Skype の呼び出しを使用して作業を配置する方法を説明します。'
-ms.openlocfilehash: 7962e256bcb9bc13bec8353f55c2aa08fce1314c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: d0cee2cbf3a88514983efd77e2b1728b2df1e792
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881924"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879435"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>Skype ビジネス サーバーの作業時間を使用して呼び出しを配置します。
  

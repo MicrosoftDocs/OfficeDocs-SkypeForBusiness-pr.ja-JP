@@ -1,5 +1,6 @@
 ---
 title: tblPrincipal
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 79a24502-b4ce-41f0-8979-8caddf535338
 description: tblPrincipal には、ユーザー、フォルダー、およびグループを含む、すべてのプリンシパルが含まれています。
-ms.openlocfilehash: 847af7f719b15161738d488408ac11b81d9c57a3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: adeb4e52ea9bd276de09d90945443431fb3be94f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880974"
 ---
 # <a name="tblprincipal"></a>tblPrincipal
  
@@ -22,7 +24,7 @@ tblPrincipal には、ユーザー、フォルダー、およびグループを�
   
 **列**
 
-|**列**|**タイプ**|**説明**|
+|**列**|**型**|**説明**|
 |:-----|:-----|:-----|
 |prinID  <br/> |int 型、null でないです。  <br/> |プリンシパルの id。  <br/> |
 |prinGuid  <br/> |GUID では、null でないです。  <br/> |主体の GUID です。 これは、広く使われて別の主キーとしての意味との交点上で Active Directory ドメイン サービスの領域にあるためです。 (キャッシュされているプリンシパルの GUID は、対応する Active Directory オブジェクトの GUID と同じ)。  <br/> |

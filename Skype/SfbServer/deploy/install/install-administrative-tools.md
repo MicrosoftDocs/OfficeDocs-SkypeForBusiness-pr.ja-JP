@@ -1,5 +1,6 @@
 ---
 title: Skype のビジネス サーバーの管理ツールをインストールします。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: '概要では、Skype のインストールに必要なビジネス サーバーの管理ツールをインストールする方法について説明します。 ビジネスのサーバーで Microsoft の評価の中心からの Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: 5f5e00075f34a6a09d36dede7c4cf2ac2a6ab60f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 48c6234b04f3c594f8cc50bda82ffca8cb256552
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373058"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884010"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>Skype のビジネス サーバーの管理ツールをインストールします。
  
 **の概要:** Skype のインストールに必要なビジネス サーバーの管理ツールをインストールする方法について説明します。 ビジネスのサーバーで Microsoft の評価の中心からの Skype の無料試用版をダウンロード: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
   
-管理ツールには、トポロジ ビルダーおよびコントロール パネルが含まれます。 トポロジまたは Skype ビジネス サーバーのサポートされている Windows のオペレーティング システムのバージョンを実行している 64 ビットの管理ワークステーションで少なくとも 1 つのサーバーの管理ツールをインストールしなければなりません。 手順 1 ～ 5 は任意の順序で実行できます。 ただし、手順 6、7、8 は、図に説明されているように手順 1 ～ 5 の後で順番どおりに行う必要があります。 8 のステップ 3 は、管理ツールをインストールします。
+管理ツールには、トポロジ ビルダーおよびコントロール パネルが含まれます。 トポロジまたは Skype ビジネス サーバーのサポートされている Windows のオペレーティング システムのバージョンを実行している 64 ビットの管理ワークステーションで少なくとも 1 つのサーバーの管理ツールをインストールしなければなりません。 手順 1 ～ 5 は任意の順序で実行できます。 ただし、手順 6、7、および 8 は、手順 1 ～ 5 の後に、図の順序で実行する必要があります。 8 のステップ 3 は、管理ツールをインストールします。
   
 ![概要図](../../media/d856afe8-4758-432f-bc45-e1956016419a.png)
   

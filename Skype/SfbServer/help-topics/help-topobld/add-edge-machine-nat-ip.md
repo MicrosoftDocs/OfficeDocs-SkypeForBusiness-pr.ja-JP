@@ -1,5 +1,6 @@
 ---
-title: エッジのマシンの NAT の IP を追加します。
+title: エッジ コンピューターの NAT IP の追加
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 71fb7752-c37f-46bb-a470-b5a8083aa95f
 description: このエッジ プールのパブリック IP アドレスは、ネットワーク アドレス変換 (NAT) によって変換は、変換するパブリック IP アドレスを指定する必要があります。 A の外部 IP アドレスをする必要がありますこれと音声ビデオ エッジ サービスです。
-ms.openlocfilehash: 527c38cc6d64938e66a059ab6e378679ccb06b09
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ad68c729bfafed4562c6d81a029737a9c9b8fa18
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006160"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882885"
 ---
-# <a name="add-edge-machine-nat-ip"></a>エッジのマシンの NAT の IP を追加します。
+# <a name="add-edge-machine-nat-ip"></a>エッジ コンピューターの NAT IP の追加
  
 このエッジ プールのパブリック IP アドレスは、ネットワーク アドレス変換 (NAT) によって変換は、変換するパブリック IP アドレスを指定する必要があります。 A の外部 IP アドレスをする必要がありますこれと音声ビデオ エッジ サービスです。
   

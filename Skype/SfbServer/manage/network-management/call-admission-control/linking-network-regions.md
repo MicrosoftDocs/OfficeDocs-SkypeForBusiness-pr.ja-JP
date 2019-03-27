@@ -1,5 +1,6 @@
 ---
 title: ネットワークの領域をリンクします。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: '呼受付制御 (CAC) の一環として 2 つのネットワーク領域間のリンクを構成することができます。 '
-ms.openlocfilehash: f2f3e170b11677663739f4e06ea7c6768f0a9c11
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 4ea6ddcc72d2cadea32608288d1db93ba8505aee
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223018"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884685"
 ---
-# <a name="linking-network-regions-in-skype-for-business-server"></a>Skype ビジネス サーバー用のネットワーク領域のリンク
+# <a name="linking-network-regions-in-skype-for-business-server"></a>Skype for Business Server でのネットワーク領域のリンクの設定
 
 呼受付制御 (CAC) の一環として 2 つのネットワーク領域間のリンクを構成することができます。 Newtwork 領域のリンク情報を表示または構成するネットワーク地域リンクを削除するには、この資料のセクションを使用します。 
 
@@ -87,7 +88,7 @@ Windows PowerShell と**Get CsNetworkRegionLink**コマンドレットを使用�
 
 8.  (省略可能)これらの領域の間のオーディオまたはビデオ通話に帯域幅の制限を配置する場合は、**帯域幅ポリシー**のドロップダウン リストから、帯域幅ポリシーのプロファイルを選択します。
 
-9.  [**確定**] をクリックします。
+9.  [**コミット**] をクリックします。
 
 ### <a name="to-modify-a-network-region-link"></a>ネットワーク地域リンクを変更するのには
 
@@ -103,7 +104,7 @@ Windows PowerShell と**Get CsNetworkRegionLink**コマンドレットを使用�
 
 6.  **地域リンクの編集**] で、リンクされている地域やこのリンクの帯域幅ポリシーのプロファイルを変更できます。
 
-7.  [**確定**] をクリックします。
+7.  [**コミット**] をクリックします。
 
 
 ## <a name="delete-network-region-links"></a>ネットワーク地域リンクを削除します。
@@ -130,10 +131,10 @@ Windows PowerShell と**Get CsNetworkRegionLink**コマンドレットを使用�
 
 ## <a name="see-also"></a>関連項目
 
-[New-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)  
+[新しい-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)  
 
-[Set-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegionLink)  
+[セット CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegionLink)  
 
-[Remove-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)  
+[削除 CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)  
 
 [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)  

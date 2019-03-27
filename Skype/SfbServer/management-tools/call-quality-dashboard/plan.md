@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバー用の Skype の通話品質のダッシュ ボードの計画
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: '概要: は、コール品質のダッシュ ボードを計画する際の考慮事項について説明します。'
-ms.openlocfilehash: 684ec4ead9d6292cb316f1330bace65149151fbf
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: ee82d56747ee4f4241f2630a5a6fd3136ff42be4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729459"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884422"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>ビジネス サーバー用の Skype の通話品質のダッシュ ボードの計画 
  
@@ -186,10 +187,10 @@ CQD は同様に、複数の QoEMetrics データベースからデータをマ�
 
 |**マシン**|**CPU コア**|**RAM**|**QoE のアーカイブと同じディスク上のキューブ**|**QoE のアーカイブと同じディスク上の SQL Temp DB**|
 |:-----|:-----|:-----|:-----|:-----|
-|仮想マシン  <br/> |4  <br/> |7 GB 以上  <br/> |あり  <br/> |あり  <br/> |
-|4 コア  <br/> |4  <br/> |20 GB  <br/> |あり  <br/> |なし  <br/> |
-|8 コア  <br/> |8  <br/> |32 GB  <br/> |あり  <br/> |なし  <br/> |
-|16 コア  <br/> |16  <br/> |128 GB  <br/> |なし  <br/> |なし  <br/> |
+|仮想マシン  <br/> |4  <br/> |7 GB 以上  <br/> |はい  <br/> |はい  <br/> |
+|4 コア  <br/> |4  <br/> |20 GB  <br/> |はい  <br/> |いいえ  <br/> |
+|8 コア  <br/> |8  <br/> |32 GB  <br/> |はい  <br/> |いいえ  <br/> |
+|16 コア  <br/> |16  <br/> |128 GB  <br/> |いいえ  <br/> |いいえ  <br/> |
    
 **パフォーマンスの結果**
 

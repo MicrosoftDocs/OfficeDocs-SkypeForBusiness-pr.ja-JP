@@ -1,5 +1,6 @@
 ---
-title: 入力 CcUpdate
+title: Enter-CcUpdate
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 ms.date: 3/31/2017
@@ -9,14 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
 description: Enter CcUpdate コマンドレットでは、メンテナンス モードで配置することによって更新プロセスにホスト サーバーでビジネス クラウド コネクタ版 Skype を準備します。 アプライアンスの isdrained-は、既存のすべての呼び出しは完了しますが、新しい呼び出しは拒否されます。
-ms.openlocfilehash: f9b789bbd76bd3405617dc170af0695f9cbe94ed
-ms.sourcegitcommit: baa4ecf69bdcf499b5b724246f3e9f45c6ca3b7b
+ms.openlocfilehash: 45972058cd9263330b6a4c0a68a5a1b800a85d9d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/08/2018
-ms.locfileid: "25450512"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882580"
 ---
-# <a name="enter-ccupdate"></a>入力 CcUpdate
+# <a name="enter-ccupdate"></a>Enter-CcUpdate
  
 Enter CcUpdate コマンドレットでは、メンテナンス モードで配置することによって更新プロセスにホスト サーバーでビジネス クラウド コネクタ版 Skype を準備します。 アプライアンスは、「放電」つまり、既存すべて呼び出しは完了しますが、新しい呼び出しは拒否されます。 
   
@@ -46,7 +47,7 @@ Enter-CcUpdate
   
 お使いのアプライアンスで自動更新が有効になっている場合に、マイクロソフトが重要な修正プログラムをリリースするときなどで、メンテナンス モードは役に立ちます。メンテナンス モードは、自動更新をオフにすることを決めた上で、一貫して手動での更新を実行するという場合にも役立ちます。
   
-更新プログラムのインストール後、Exit-CcUpdate コマンドレットを実行することによってアプライアンスを実稼働モードに戻すことができます。
+更新プログラムをインストールすると、アプライアンス戻すことのできる運用モードに終了 CcUpdate コマンドレットを実行しています。
   
 > [!NOTE]
 > クラウド コネクタ アプライアンスを手動で更新する場合は、次のバージョンをリリースした後、60 日以内に更新する必要があります。 マイクロソフトは、新しいバージョンがリリースされた後、60 日間、過去にリリースされたバージョンのクラウドのコネクタをサポートしています 
@@ -64,6 +65,6 @@ Enter-CcUpdate
 ## <a name="see-also"></a>関連項目
 <a name="ReturnTypes"> </a>
 
-[終了 CcUpdate](exit-ccupdate.md)
+[Exit-CcUpdate](exit-ccupdate.md)
   
 

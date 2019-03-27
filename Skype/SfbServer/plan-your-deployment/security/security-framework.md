@@ -1,5 +1,6 @@
 ---
 title: Skype ビジネス サーバー用のセキュリティ フレームワーク
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
 description: このセクションでは、Skype のビジネス サーバーのセキュリティ フレームワークを形成する基本的な要素の概要を提供します。 これらの要素がどのように連携を理解することは、ビジネス サーバーの展開についての特定、Skype のセキュリティ保護に関する情報に基づいた決定を行う必要があります。
-ms.openlocfilehash: 487b3ea7f57c1a008327be2b9b31664a160e8425
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7c678e1f005178b569f8e4136d40fd911483a3d5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983617"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879883"
 ---
 # <a name="security-framework-for-skype-for-business-server"></a>Skype ビジネス サーバー用のセキュリティ フレームワーク
  

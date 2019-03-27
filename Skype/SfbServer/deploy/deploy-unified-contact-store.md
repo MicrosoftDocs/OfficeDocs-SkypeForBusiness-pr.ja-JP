@@ -1,5 +1,6 @@
 ---
 title: 'ビジネス サーバーの Skype での統合連絡先ストアを展開します。 '
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: '概要: は、Skype のビジネス サーバーの統合連絡先ストアを有効にします。'
-ms.openlocfilehash: 36515e9542a18d422254292b0cf2a2b4ef937178
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5e7fb34d03459be5066d154e89fa8e27dc060757
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978222"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882566"
 ---
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>ビジネス サーバーの Skype での統合連絡先ストアを展開します。
  
@@ -31,9 +32,9 @@ ms.locfileid: "20978222"
 > [!IMPORTANT]
 > ユーザーのログオン ビジネス用の Skype からの移行後、利用可能で、最新の状態は、連絡先およびグループが、ユーザー (つまり、追加、削除、移動、タグ、タグ、または変更) を管理することはできませんそれらの連絡先です。 
   
-## <a name="enable-users-for-unified-contact-store"></a>統合連絡先ストアのユーザーの有効化
+## <a name="enable-users-for-unified-contact-store"></a>統合連絡先ストアでユーザーを有効にする
 
-Skype をビジネスのサーバーの展開トポロジを公開すると、統合連絡先ストアはすべてのユーザーに対して既定で有効。 にします。 Skype ビジネス サーバーの展開後は、統合連絡先ストアを有効にする追加アクションを実行する必要はありません。 ただし、ユーザーは統合連絡先ストアの使用をカスタマイズするのには、**セット CsUserServicesPolicy**コマンドレットを使用することができます。 この機能の有効化は、グローバルに行うことも、サイトごと、テナントごと、または個人やそのグループごとに行うこともできます。
+Skype をビジネスのサーバーの展開トポロジを公開すると、統合連絡先ストアはすべてのユーザーに対して既定で有効。 にします。 Skype ビジネス サーバーの展開後は、統合連絡先ストアを有効にする追加アクションを実行する必要はありません。 ただし、**Set-CsUserServicesPolicy** コマンドレットを使用すると、どのユーザーが統合連絡先ストアを使用できるのかをカスタマイズできます。 この機能の有効化は、グローバルに行うことも、サイトごと、テナントごと、または個人やそのグループごとに行うこともできます。
   
 ### <a name="to-enable-users-for-unified-contact-store"></a>統合連絡先ストアでユーザーを有効にするには
 
@@ -53,7 +54,7 @@ Skype をビジネスのサーバーの展開トポロジを公開すると、�
    New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
    ```
 
-   例:
+   次に例を示します。
     
    ```
    New-CsUserServicesPolicy -Identity site:Redmond -UcsAllowed $True
@@ -89,7 +90,7 @@ Skype をビジネスのサーバーの展開トポロジを公開すると、�
    ```
 
     > [!NOTE]
-    > 前記の例の最初のコマンドでは、UcsAllowed フラグを True に設定することで、新しいユーザーごとのポリシーを UCS Enabled Users という名前で作成しています。2 番目のコマンドでは、Ken Myer という表示名のユーザーにこのポリシーを割り当てています。これは、Ken Myer が統合連絡先ストアで有効になったことを意味します。
+    > 上の例では、最初のコマンドは、UCS の有効なユーザーの名前を UcsAllowed フラグを True に設定が、新しいユーザーごとのポリシーを作成します。 2 番目のコマンドでは、Ken Myer は、Ken Myer が有効になったことは、統合連絡先ストアの表示名のユーザーにポリシーが割り当てられます。
   
 ## <a name="migrate-users-to-unified-contact-store"></a>統合連絡先ストアへのユーザーの移行
 
@@ -107,17 +108,17 @@ Lync または以前のクライアントを使用して、ユーザーがログ
   
 - クライアント コンピューターで次のレジストリ キーを調べます。
     
-    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync\\< SIP URL\>\UCS
+    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync\\<SIP URL\>\UCS
     
     Exchange 2013 では、ユーザーの連絡先が保存されている場合、このキーには、2165 の値を持つには、InUCSMode の値が含まれています。
     
-- **テスト CsUnifiedContactStore**コマンドレットを実行します。 ビジネス サーバー管理シェル コマンド ラインの Skype で次のように入力します。
+- **Test-CsUnifiedContactStore** コマンドレットを実行します。 ビジネス サーバー管理シェル コマンド ラインの Skype で次のように入力します。
     
   ```
   Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
   ```
 
-    **CsUnifiedContactStore のテスト**が成功すると、ユーザーの連絡先は、統合連絡先ストアに移行されました。
+    **Test-CsUnifiedContactStore** が成功した場合は、ユーザーの連絡先が統合連絡先ストアに移行されています。
     
 ## <a name="roll-back-migrated-users"></a>移行したユーザーのロールバック
 

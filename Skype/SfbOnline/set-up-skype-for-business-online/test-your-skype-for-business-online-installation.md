@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Online インストールをテストする
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: b2b69ec2eaa9fa2ace90ad117d866b00cb75f163
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2cdb08634ce16b3ba6e09148daee57191e8c6988
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370941"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883545"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Skype for Business Online インストールをテストする
 
@@ -36,7 +37,7 @@ ms.locfileid: "25370941"
 
 - Skype for Business Online の電話会議プロバイダーがセットアップされたアカウント。
 
-## <a name="what-do-you-want-to-do"></a>目的に合ったトピックをクリックしてください。
+## <a name="what-do-you-want-to-do"></a>目的に合ったトピックをクリックしてください
 
 > [テスト アカウントをセットアップする](test-your-skype-for-business-online-installation.md#__toc328126910)
 > 
@@ -135,9 +136,9 @@ Skype for Business Online 会議に電話でアクセスできるようにする
 |[Skype for Business (Lync) 会議で PowerPoint のスライドをプレゼンテーションする](https://support.office.com/article/3910a2b2-01df-4b97-9451-322b598ede7e) <br/> |PowerPoint プレゼンテーションは、全員のコンピューターの Skype for Business 会議ステージ ウィンドウに表示されます。  <br/> |
 |[Skype for Business (Lync) 会議でファイルを転送する](https://support.office.com/article/f6942910-bc1d-4a48-bf18-385778f08088) <br/> |アップロードすると、他の会議参加者が添付ファイルを表示し、ダウンロードできるようになります。  <br/> |
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 
-[Skype for Business ユーザーが Skype 連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
+[Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
 
 

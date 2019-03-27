@@ -1,5 +1,6 @@
 ---
-title: Get CcSiteDirectory
+title: Get-CcSiteDirectory
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a243758e-6774-4437-ad2e-d5cea5f04eb6
 description: Get-CcSiteDirectory コマンドレットは、サイト レベルの設定ファイルが格納されている現在のディレクトリを示します。 フォルダーにはベース VHD および Skype for Business Cloud Connector エディションのインストール ファイルが含まれます。 クラウド コネクタ サイトの他のすべてのアプライアンスでは、このフォルダーを共有する必要があります。
-ms.openlocfilehash: e75e20a18960510bf75a8ca4cfc97ffd9daa894f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d0869f3cbd1c43e523107a0ff8dce6fd769889a8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882398"
 ---
-# <a name="get-ccsitedirectory"></a>Get CcSiteDirectory
+# <a name="get-ccsitedirectory"></a>Get-CcSiteDirectory
  
 Get-CcSiteDirectory コマンドレットは、サイト レベルの設定ファイルが格納されている現在のディレクトリを示します。 フォルダーにはベース VHD および Skype for Business Cloud Connector エディションのインストール ファイルが含まれます。 クラウド コネクタ サイトの他のすべてのアプライアンスでは、このフォルダーを共有する必要があります。
   
@@ -44,7 +46,7 @@ Get-CcSiteDirectory
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-ゲートウェイの類似性と高可用性を提供するには、サイトでコネクタのクラウド アプライアンスを組み合わせて指定できます。 ユーザーは、クラウドのコネクタのアプライアンスではなくサイトに割り当てられます。 各サイトには、ベース VHD および Cloud Connector のインストール ファイルが格納された共有フォルダーがあります。 アプライアンスでは、展開時にこのフォルダーを使用します。 既定のフォルダーは、C:\Users\%userprofile%\CloudConnector\SiteRoot。 このパスは Set-CcSiteDirectory コマンドレットを使用して変更できます。
+ゲートウェイの類似性と高可用性を提供するには、サイトでコネクタのクラウド アプライアンスを組み合わせて指定できます。 ユーザーは、クラウドのコネクタのアプライアンスではなくサイトに割り当てられます。 各サイトには、ベース VHD とクラウドのコネクタのインストール ファイルが格納される共有フォルダーがあります。 このフォルダーは、アプライアンスによって展開時に使用されます。 既定のフォルダーは、C:\Users\%userprofile%\CloudConnector\SiteRoot。 このパスは Set-CcSiteDirectory コマンドレットを使用して変更できます。
   
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>
@@ -59,6 +61,6 @@ Get-CcSiteDirectory
 ## <a name="see-also"></a>関連項目
 <a name="ReturnTypes"> </a>
 
-[セット CcSiteDirectory](set-ccsitedirectory.md)
+[Set-CcSiteDirectory](set-ccsitedirectory.md)
   
 

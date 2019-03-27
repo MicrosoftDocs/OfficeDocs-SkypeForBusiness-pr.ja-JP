@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype の通話品質のダッシュ ボードを展開します。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: '概要: は、品質のダッシュ ボードを呼び出すための展開プロセスについて説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: a4e8cfb48e0d9efc93b6c107db1ab9051f928e4d
-ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
+ms.openlocfilehash: ee67ddd0c0c9c3f2d169831c50dda49240d2ec7f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "29735168"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883617"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>ビジネス サーバーの Skype の通話品質のダッシュ ボードを展開します。
  
@@ -40,7 +41,7 @@ QoE アーカイブのセットアップ プロセスでは、QoE のアーカ�
 ポータルのインストールでは、救難ユーザーが各ユーザーのレポートとクエリのマッピングを格納するリポジトリ データベースを作成します。 ダッシュ ボード ユーザーが事前に定義された一連のレポートを参照するくださいと同様にカスタマイズおよびキューブからのデータを視覚化するのには、独自のクエリを作成するには IIS web アプリケーションを設定します。 ポータルのインストールは、ユーザーがプログラムを使用してリポジトリと、キューブにアクセスするための Api を公開する 2 つの追加の web アプリケーションを作成します。 (これらの Api は、によって内部的に使用ダッシュ ボードも同様です。)
   
 
-|**フェーズ**|**ステップ**|**役割とグループ メンバーシップ**|**ドキュメント**|
+|**段階**|**手順**|**役割とグループ メンバーシップ**|**ドキュメント**|
 |:-----|:-----|:-----|:-----|
 |前提条件となるハードウェアとソフトウェアをインストールします。  <br/> |救難の構成を決定し、インストールを実行するための SQL Server を選択します。  <br/> |ローカルの Administrators グループのメンバーであるドメイン ユーザー。  <br/> |展開に関するドキュメントの「インストール前の要件」のセクションでは。  <br/> |
 |救難をインストールします。  <br/> |展開のドキュメントを次の msi ファイルを実行します。  <br/> |セットアップを実行するには、インストールを実行するアカウント必要がありますローカルの administrators グループのメンバーであるドメイン ユーザーであることし、監視サーバー QoE 指標データベースに対する読み取りアクセス権があります。  <br/> |展開に関するドキュメントの「アカウントと展開の手順」のセクション。  <br/> |
@@ -428,7 +429,7 @@ VALUES
 |Ap NName  <br/> |AP  <br/> |AP1  <br/> |
 |BBssid  <br/> |BSS  <br/> |00-00-00-00-00-00 (区切り記号付きの fformat を使用する必要があります)  <br/> |
 |コント ローラー  <br/> |建物  <br/> |アルバ AP 7  <br/> |
-|デバイス  <br/> |ess  <br/> |Controller1  <br/> |
+|Device  <br/> |ess  <br/> |Controller1  <br/> |
 |ラジオ  <br/> |phy  <br/> |bgn  <br/> |
    
 ### <a name="processing-the-imported-data"></a>インポートしたデータの処理

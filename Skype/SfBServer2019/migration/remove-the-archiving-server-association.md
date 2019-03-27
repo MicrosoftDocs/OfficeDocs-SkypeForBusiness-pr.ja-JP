@@ -1,5 +1,6 @@
 ---
-title: アーカイブ サーバーの関連付けを削除します。
+title: アーカイブ サーバーの関連付けの削除
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: アーカイブ サーバーを削除するには、オフに関連付けられているフロント エンド プール、フロント エンド サーバー、リカバリ性に優れたブランチ アプライアンスおよび存続可能ブランチ サーバーへの依存関係を変更する必要があります。 依存関係を削除するのにはフロント エンド サーバー、リカバリ性に優れたブランチ アプライアンスおよび存続可能ブランチ サーバー、フロント エンド プールのプロパティを編集するとします。 依存関係をオフにすると、トポロジ ビルダーでサーバーを削除する、トポロジ ビルダーに関連付けられているデータベース ストアのオブジェクトも削除されることが通知されます。
-ms.openlocfilehash: 7438145f5822de8f95e881f114983fdb9351d4b9
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 15e6b33decb11ce7ed4550b0d84cc346a0baf073
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028874"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884401"
 ---
-# <a name="remove-the-archiving-server-association"></a>アーカイブ サーバーの関連付けを削除します。
+# <a name="remove-the-archiving-server-association"></a>アーカイブ サーバーの関連付けの削除
 
 アーカイブ サーバーを削除するにはオフに、関連付けられているフロント エンド プール、フロント エンド サーバー、ブランチ アプライアンスのリカバリ性に優れた、および存続可能ブランチ サーバーへの依存関係を変更する必要があります。 フロント エンド プール、フロント エンド サーバー、ブランチ アプライアンスのリカバリ性に優れた、および依存関係を削除するのには、存続可能ブランチ サーバーのプロパティを編集するとします。 依存関係をオフにし、トポロジ ビルダーでサーバーを削除した後、トポロジ ビルダーに関連付けられているデータベース ストアのオブジェクトも削除されることが通知されます。
   

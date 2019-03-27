@@ -1,5 +1,6 @@
 ---
 title: ブランチ オフィス アプライアンスとエッジを関連付ける
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 description: エッジ サーバーを展開して外部使用のためのメディア サービスを提供する必要があります、エッジ サーバーまたはドロップ ダウン リストで選択して、リカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーに関連付けられているとなるプールを選択します。 [次へ] をクリックします。
-ms.openlocfilehash: 1fc6d734511a8e4bf614694057727c35f209f96c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 2e20b11ec58cbccca1acc625a0676675b9833219
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878537"
 ---
 # <a name="associate-branch-office-appliance-with-edge"></a>ブランチ オフィス アプライアンスとエッジを関連付ける
  

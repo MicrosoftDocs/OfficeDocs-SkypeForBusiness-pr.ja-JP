@@ -1,5 +1,6 @@
 ---
-title: インストール CcAppliance
+title: Install-CcAppliance
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,14 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
 description: Install-CcAppliance コマンドレットは、AD、中央管理ストア (CMS)、仲介サーバー、エッジ サーバー仮想マシンなどの、Skype for Business Cloud Connector エディションのアプライアンスをホスト　サーバーにインストールします。
-ms.openlocfilehash: d35a102f7d3ade7b64bcf43388eaf03dc455c27b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 8f1a8b7d99a555006c1d69ee52f2403e9bf0a874
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569988"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880215"
 ---
-# <a name="install-ccappliance"></a>インストール CcAppliance
+# <a name="install-ccappliance"></a>Install-CcAppliance
  
 Install-CcAppliance コマンドレットは、AD、中央管理ストア (CMS)、仲介サーバー、エッジ サーバー仮想マシンなどの、Skype for Business Cloud Connector エディションのアプライアンスをホスト　サーバーにインストールします。 
   
@@ -66,7 +67,7 @@ ShowStepsOnly パラメーターは、トラブルシューティングのみで
   
 ### <a name="example-5"></a>例 5
 
-次の例では、ホスト サーバーでの展開の各手順で構成ファイルを生成します。 構成ファイルに保存されます、 \<ApplianceRoot\>\Instances\\< バージョン\>のホスト サーバー上のフォルダーを default\ExportedConfig。
+次の例では、ホスト サーバーでの展開の各手順で構成ファイルを生成します。 構成ファイルに保存されます、 \<ApplianceRoot\>\Instances\\<Version\>-ホスト サーバー上のフォルダーを default\ExportedConfig。
   
 ```
 Install-CcAppliance -PrepareOnly
@@ -89,21 +90,21 @@ SkipExistingObjects パラメーターは、Steps パラメーターと共に使
   
 展開の手順を判別するには、次のコマンドを実行します。
   
-インストール CcAppliance ShowStepsOnly
+Install-CcAppliance -ShowStepsOnly
   
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
 インストール CcAppliance コマンドレットは、新しいアプライアンスにクラウドのコネクタを展開する、または既存のアプライアンスを最新バージョンにアップグレードするに使用されます。
   
-新しいアプライアンスがある場合は、最初に必ず「Cloud Connector 1.4.1 の展開環境の準備」を読んでから、Register-CcAppliance コマンドレットを実行してアプライアンスを登録し、Install-CcAppliance コマンドレットを実行します。 詳細については、[クラウドのコネクタで 1 つのサイトを展開](deploy-a-single-site-in-cloud-connector.md)し、[クラウドのコネクタで複数のサイトを展開](deploy-multiple-sites-in-cloud-connector.md)を参照してください。 
+新しいアプライアンスがある場合は、最初に必ず「Cloud Connector 1.4.1 の展開環境の準備」を読んでから、Register-CcAppliance コマンドレットを実行してアプライアンスを登録し、Install-CcAppliance コマンドレットを実行します。 詳細については、「[Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md)」および「[Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md)」を参照してください。 
   
 クラウド コネクタの既存の配置があり、アップグレードする場合は、[クラウドのコネクタの新しいバージョンへのアップグレード](upgrade-to-a-new-version-of-cloud-connector.md)の指示に従ってください。
   
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**必須**|**タイプ**|**説明**|
+|**パラメーター**|**必須**|**型**|**説明**|
 |:-----|:-----|:-----|:-----|
 |PrepareOnly  <br/> |省略可能  <br/> |System.Management.Automation.SwitchParameter  <br/> | 展開の各手順について、構成ファイルを生成します。このパラメーターは、トラブルシューティングのみで使用されます。 <br/> |
 |ShowStepsOnly  <br/> |省略可能  <br/> |System.Management.Automation.SwitchParameter  <br/> |展開の手順の名前のみを表示します。このパラメーターは、トラブルシューティングのみで使用されます。  <br/> |
@@ -125,12 +126,12 @@ SkipExistingObjects パラメーターは、Steps パラメーターと共に使
 ## <a name="see-also"></a>関連項目
 <a name="ReturnTypes"> </a>
 
-[発行 CcAppliance](publish-ccappliance.md)
+[Publish-CcAppliance](publish-ccappliance.md)
   
-[登録 CcAppliance](register-ccappliance.md)
+[Register-CcAppliance](register-ccappliance.md)
   
-[登録解除 CcAppliance](unregister-ccappliance.md)
+[Unregister-CcAppliance](unregister-ccappliance.md)
   
-[アンインストール CcAppliance](uninstall-ccappliance.md)
+[Uninstall-CcAppliance](uninstall-ccappliance.md)
   
 

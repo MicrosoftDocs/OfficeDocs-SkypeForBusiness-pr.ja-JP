@@ -1,5 +1,6 @@
 ---
 title: ユーザー アカウントを管理する
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: オンライン ビジネスのユーザーに対して、組織の Skype に関する情報を取得するのには Windows PowerShell の Get CsOnlineUser コマンドレットを使用します。
-ms.openlocfilehash: 90f928fa6cd546dabc0cbb5d3f4f84aa7f00f202
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 8f6ca618925b070e1d42a215cb9afb076a1e8197
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858483"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881409"
 ---
 # <a name="manage-user-accounts"></a>ユーザー アカウントを管理する
 
@@ -113,7 +114,7 @@ Get-CsOnlineUser | Get-Member
 Get-CsOnlineUser -LdapFilter "department=Finance"
 ```
 
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連項目
 [Windows PowerShell を使用してビジネスのオンライン管理のための skype には、コンピューターを設定します](set-up-your-computer-for-windows-powershell.md)
 
 

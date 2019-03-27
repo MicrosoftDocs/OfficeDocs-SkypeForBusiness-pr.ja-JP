@@ -1,5 +1,6 @@
 ---
-title: レジストラーの設定の拡張
+title: レジストラー設定エキスパンダー
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 description: 復元機能では、レジストラー プールの高可用性と災害復旧を提供します。 プライマリのレジストラーでは、レジストラーは、障害が発生したレジストラーに引き継ぐことができますバックアップの障害が発生した場合は、バックアップ レジストラーを提供することにより、ユーザーがログオンし、通信を許可します。 可能性のある環境での機能の制限、プライマリ レジストラーによっては、システムが失敗しました。
-ms.openlocfilehash: 9aa72170b157045f8adf28bc2be08b115ae40c5b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: afe640a5560c11f90381875aa67f5fe25c70044c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21015712"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881100"
 ---
-# <a name="registrar-settings-expander"></a>レジストラーの設定の拡張
+# <a name="registrar-settings-expander"></a>レジストラー設定エキスパンダー
  
 復元機能では、レジストラー プールの高可用性と災害復旧を提供します。 プライマリのレジストラーでは、レジストラーは、障害が発生したレジストラーに引き継ぐことができますバックアップの障害が発生した場合は、バックアップ レジストラーを提供することにより、ユーザーがログオンし、通信を許可します。 可能性のある環境での機能の制限、プライマリ レジストラーによっては、システムが失敗しました。
   

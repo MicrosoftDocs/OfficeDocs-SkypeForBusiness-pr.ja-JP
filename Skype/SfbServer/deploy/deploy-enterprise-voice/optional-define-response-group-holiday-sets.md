@@ -1,5 +1,6 @@
 ---
 title: (省略可能)ビジネス用の Skype を定義する応答グループ休日を設定します。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: 作成またはビジネス サーバーのエンタープライズ VoIP の Skype での応答グループ休日セットを変更します。
-ms.openlocfilehash: f959b69462ecc3d3d37d6febfbf043a48f9dd4ad
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: cc34c7a2e3f03b99bc29852766926e6c63c2463f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974748"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883845"
 ---
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(省略可能)ビジネス用の Skype を定義する応答グループ休日を設定します。
  
@@ -58,4 +59,4 @@ ms.locfileid: "20974748"
 
 [新しい-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 
-[新しい-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/new-csrgsholidayset?view=skype-ps)
+[New-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/new-csrgsholidayset?view=skype-ps)

@@ -1,5 +1,6 @@
 ---
 title: ダイヤル プランの新規作成または既存の編集
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,23 +12,23 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
-description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 86044261bfad621b69921e505eab8bef9cb456b4
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: c4388950e5241ea14fb40b486b1db3c9c3de2eca
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245755"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879077"
 ---
-# <a name="dial-plan-create-new-or-edit-existing"></a>ダイヤル プラン: 新規作成または既存の編集
+# <a name="dial-plan-create-new-or-edit-existing"></a>ダイヤル プラン: 新規作成または現在の形式のままで編集
 
-目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 
-- [Skype for Business 2015 でのダイヤル プランの作成または変更](../../deploy/deploy-enterprise-voice/dial-plans.md)
+- [Create or modify a dial plan in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md)
 
 - [ダイヤル プランを変更します。](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
 
-- [Skype for Business 2015 での正規化ルールの作成または変更](../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [Create or modify a normalization rule in Skype for Business 2015](../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
 - [正規化ルールを手動で変更をします。](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
 

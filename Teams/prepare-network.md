@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8b3105889021408983c8e3ae249c74833e65ced
-ms.sourcegitcommit: 8e5fc1d8c19a7f26f53e40b23dd6476a8c6d805f
+ms.openlocfilehash: 5d92e30617fb62000cd4b10dac29ec23eee1feaa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30800074"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882963"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する
 
@@ -65,20 +65,13 @@ Microsoft ネットワークのエッジに、企業サイトの接続には、W
 
 
 ## <a name="bandwidth-requirements"></a>帯域幅の要件
-
+マイクロソフトのチームでは、最高のオーディオ、ビデオ、およびネットワークの状態に関係なく経験を共有するコンテンツを示します。 変数のコーデックでは、限られた帯域幅の環境の影響を最小限にメディアをネゴシエートできます。 1080 p のビデオ解像度を含む、品質のエクスペリエンスを最適化できます帯域幅が問題ではない場合ですが、最大 30 fps のビデオ、コンテンツ、および信頼性の高いオーディオの 15 fps です。
 
 この資料では、マイクロソフトのチームのリアルタイム オーディオ、ビデオ、およびデスクトップのさまざまな用途の様相を共有して帯域幅を利用する方法の簡単なバージョンについて説明します。 チームは常に帯域幅の使用に慎重であり、1.2Mbps での HD ビデオの品質を提供することができます。  各オーディオとビデオ通話や会議での実際の帯域幅の消費量が異なる、レイアウトのビデオ、ビデオの解像度、ビデオのフレーム数/秒など、いくつかの要因に基づいています。 多くの帯域幅が利用可能な品質と使用法が最適なエクスペリエンスを実現するのには増加します。
 
 
-|Bandwidth(up/down) |シナリオ |
-|---|---|
-|30 kbps |ピア ツー ピア音声通話 |
-|130 kbps |ピア ツー ピア音声通話や画面共有 |
-|500 kbps |ピア ツー ピアの品質のビデオの 30 fps で 360 p を呼び出す |
-|1.2 Mbps |ピア ツー ピア HD 品質のビデオ解像度の 30 fps で 720 p の HD を呼び出す |
-|1.5 Mbps |ピア ツー ピア HD 品質のビデオ解像度の 30 fps で 1080 p の HD を呼び出す |
-|500 kbps/1Mbps |グループ ビデオ通話 |
-|1Mbps/2Mbps |HD グループのビデオ (1080 p の画面でビデオを 540 p) を呼び出す |
+[!INCLUDE [Bandwidth requirements](includes/bandwidth-requirements.md)]
+
 
 <!--
 The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.

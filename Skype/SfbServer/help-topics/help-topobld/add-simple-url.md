@@ -1,5 +1,6 @@
 ---
-title: 簡単な URL を追加します。
+title: 簡易 URL の追加
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 description: 展開の定義に追加の簡単な Url を追加するには、新しい簡単な URL の URL を指定します。
-ms.openlocfilehash: 20db564e90051ffa274aa46587603273a8ca7581
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 749049f9d4f56321d095aee6d8c25cecd6ae0cb0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21007275"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882984"
 ---
-# <a name="add-simple-url"></a>簡単な URL を追加します。
+# <a name="add-simple-url"></a>簡易 URL の追加
  
 展開の定義に追加の簡単な Url を追加するには、新しい簡単な URL の URL を指定します。 URL の形式は、 _http://\<簡単な URL の種類\>です\<。ドメイン名\>_ または_http://\<ドメイン名\>/\<簡単な URL の種類\>_、簡単な URL は、次のいずれか。
   
-- 会議
+- 対応
     
 - ダイヤルインします。
     

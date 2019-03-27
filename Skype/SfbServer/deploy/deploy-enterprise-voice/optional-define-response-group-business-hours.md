@@ -1,5 +1,6 @@
 ---
 title: (省略可能)ビジネス用の Skype を定義する応答グループの営業時間
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 description: 作成または応答グループのビジネス サーバーのエンタープライズ VoIP の Skype での営業時間を変更します。
-ms.openlocfilehash: a5f24d218ab15cb1307f042363147c9e915a351e
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: ba10f513495d21c7f94397350c1227cb77fe588b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546807"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884678"
 ---
 # <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(省略可能)ビジネス用の Skype を定義する応答グループの営業時間 
  
@@ -23,7 +24,7 @@ ms.locfileid: "25546807"
   
 ## <a name="defining-business-hours"></a>営業時間の定義
 
-営業時間設定では、ワークフローが通話に応答できる時間を定義し、営業時間外の通話に対するアクションを指定します。 応答グループの管理者は、応答グループの任意の数に使用できる定義済みのスケジュールを作成するのに**新規 CsRgsHoursOfBusiness**コマンドレットを使用することができます。
+営業時間設定では、ワークフローが通話に応答できる時間を定義し、営業時間外の通話に対するアクションを指定します。 応答グループ管理者は、**New-CsRgsHoursOfBusiness** コマンドレットを使用して、使用できる応答グループの数に制限がない事前設定スケジュールを作成できます。
   
 > [!TIP]
 > ワークフローを作成または変更するときに、そのワークフローのみに適用されるカスタム スケジュールを指定できます。 詳細については、[設計と応答のビジネス用の Skype でのグループのワークフローを作成する](designing-and-creating-response-group-workflows.md)を参照してください。 

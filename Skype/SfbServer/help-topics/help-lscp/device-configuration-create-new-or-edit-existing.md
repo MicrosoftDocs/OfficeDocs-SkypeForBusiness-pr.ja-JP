@@ -1,5 +1,6 @@
 ---
 title: デバイスの構成を新規作成または既存の編集
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -11,17 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
-description: 新しいデバイス構成やデバイス構成の編集] ページで、作成したり、ビジネス電話のエディションの Skype を管理するために使用される設定のコレクションを変更できます。 これらの設定を使用すると、必須のセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定、非アクティブな電話を指定の時間の経過後に自動的にロックするかどうかなどを構成できます。
-ms.openlocfilehash: 2cdc2c5bf0c40a04faa48cbab81699e213008321
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+description: 新しいデバイス構成やデバイス構成の編集] ページで、作成したり、ビジネス電話のエディションの Skype を管理するために使用される設定のコレクションを変更できます。 これらの設定により、必要なセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定などを構成したり、指定した非アクティブ期間の経過後、電話を自動的にロックするかどうかを指定したりすることができます。
+ms.openlocfilehash: ed1f002cd0d8c0465a765c04c3efb4367c6f99fb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19502823"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880743"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>デバイス構成: 新規作成または現在の形式のままで編集
  
-**新しいデバイス構成**や**デバイス構成の編集**] ページで、作成したり、ビジネス電話のエディションの Skype を管理するために使用される設定のコレクションを変更できます。 これらの設定を使用すると、必須のセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定、非アクティブな電話を指定の時間の経過後に自動的にロックするかどうかなどを構成できます。
+**新しいデバイス構成**や**デバイス構成の編集**] ページで、作成したり、ビジネス電話のエディションの Skype を管理するために使用される設定のコレクションを変更できます。 これらの設定により、必要なセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定などを構成したり、指定した非アクティブ期間の経過後、電話を自動的にロックするかどうかを指定したりすることができます。
   
 ## <a name="tasks-you-can-perform"></a>実行できるタスク
 

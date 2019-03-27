@@ -1,5 +1,6 @@
 ---
-title: エクスペリエンス (QoE) データの品質
+title: QoE (Quality of Experience) データ
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2b030ced-0aae-4023-bb26-544d14bdd2f0
 ROBOTS: NOINDEX, NOFOLLOW
-description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 3d46cafbd8bb0f5414c21fc5414a582f7ea0f991
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: 9d877d8b63d8d7ebfd7f5e0bdae2f074822dc59d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973557"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882713"
 ---
-# <a name="quality-of-experience-qoe-data"></a>エクスペリエンス (QoE) データの品質
+# <a name="quality-of-experience-qoe-data"></a>QoE (Quality of Experience) データ
  
-目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
   
 - [ビジネス サーバーの Skype での経験の質を有効にします。](../../../manage/health-and-monitoring/enable-qoe.md)
     

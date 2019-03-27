@@ -1,5 +1,6 @@
 ---
 title: Windows PowerShell と Skype ビジネス サーバー管理ツールの
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a285f7c-0ef5-4cab-9976-d03be276e35d
 description: ビジネス サーバーの Skype は、管理ツールは Windows PowerShell を使用して実装されます。 Windows PowerShell には、コマンドライン環境、製品に固有のコマンド、および完全なスクリプト言語が含まれています。 Windows PowerShell を使用して実装されているビジネスのサーバー ツールの Skype を以下に示します。
-ms.openlocfilehash: 4811f8fb6e4db1003e367a9cc99feb92a2928d5f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 743823e5465d6fa18f46d0f8f38802098416d7e6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21007289"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882622"
 ---
 # <a name="windows-powershell-and-skype-for-business-server-management-tools"></a>Windows PowerShell と Skype ビジネス サーバー管理ツールの
  
 ビジネス サーバーの Skype は、管理ツールは Windows PowerShell を使用して実装されます。 Windows PowerShell には、コマンドライン環境、製品に固有のコマンド、および完全なスクリプト言語が含まれています。 Windows PowerShell を使用して実装されているビジネスのサーバー ツールの Skype を以下に示します。 
   
-- **トポロジ ビルダー**です。 作成、調整、および、計画したトポロジを公開するのにはトポロジ ビルダーを使用して、サーバーへのインストールを開始する前にトポロジを検証します。 Skype をビジネス サーバーの個々 のサーバーにインストールすると、サーバーは、インストール プロセスの一部として公開されているトポロジを読み取るし、インストール プログラムは、トポロジで指示されたとおりにサーバーを展開します。 セットアップの後、構成情報はすべてのサーバーに自動的にレプリケートされます。 トポロジ ビルダーを使ってのみ、展開にコンポーネントを追加できます。
+- **トポロジ ビルダー**です。 作成、調整、および、計画したトポロジを公開するのにはトポロジ ビルダーを使用して、サーバーへのインストールを開始する前にトポロジを検証します。 Skype をビジネス サーバーの個々 のサーバーにインストールすると、サーバーは、インストール プロセスの一部として公開されているトポロジを読み取るし、インストール プログラムは、トポロジで指示されたとおりにサーバーを展開します。 After setup, configuration information is automatically replicated to all servers. Components can be added to your deployment only by using Topology Builder.
     
 - **ビジネス サーバー管理シェルの Skype**です。 ビジネス サーバー管理シェルの Skype を使用するには、展開の完全なコマンド ラインの管理のため。
     

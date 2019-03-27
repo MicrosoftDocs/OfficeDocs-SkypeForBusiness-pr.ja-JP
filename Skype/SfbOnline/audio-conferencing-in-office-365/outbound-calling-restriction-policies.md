@@ -1,5 +1,6 @@
 ---
 title: 電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 管理者は、オーディオ会議、エンド ・ ユーザー PSTN の呼び出しのユーザーが可能なタイプを制御できます。
-ms.openlocfilehash: 97df093168e896eabbc210545d516f386e1a6d25
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 36f116acb62cd16863cb547a11fe5687457a8a4e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753474"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881841"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー
 
-管理者は、オーディオ会議、エンド ・ ユーザー PSTN の呼び出し、組織内のユーザーが作成できるの種類を制限するのには、発信呼び出しコントロールを使用できます。 
+管理者は、発信通話の制御を使用して、組織内のユーザーが発信できる電話会議の種類とエンド ユーザーの PSTN 通話を制限できます。 
 
 発信通話コントロールは、ユーザーごとに適用することができ、発信呼び出しの種類を個別に制限するのには次の 2 つのコントロールを提供します。 既定では、両方のコントロールは、国際および国内の送信呼び出しを許可に設定されます。 
 
@@ -55,9 +56,9 @@ ms.locfileid: "29753474"
 
 4. **会議からの発信アクセス許可**を [ダイヤルアウトの制限オプションを選択を選択します。
 
-5. [**保存**] をクリックします。 
+5. **[保存]** をクリックします。 
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
 
 1.  **電話会議**には、**ビジネス管理センターの Skype**、左側のナビゲーションでの > **のユーザー**、および利用可能なユーザーの一覧からユーザーを選択します。
 
@@ -67,7 +68,7 @@ ms.locfileid: "29753474"
 
     ![ダイアル アウトのオプションを制限](../images/restrictions-to-dial-outs.png)
 
-5. [**保存**] をクリックします。
+5. **[保存]** をクリックします。
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

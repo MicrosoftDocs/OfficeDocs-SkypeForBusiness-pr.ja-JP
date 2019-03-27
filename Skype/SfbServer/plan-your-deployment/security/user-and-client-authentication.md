@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype のユーザーとクライアントの認証
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: 信頼されたユーザーは、Skype で信頼されたサーバーによってビジネスのサーバーの認証された資格情報を 1 つ。 このサーバーは、通常、Standard Edition サーバー、エンタープライズ版フロント エンド サーバーまたはディレクターです。 Skype ビジネス サーバーは、ユーザーの資格情報、信頼できる単一のバックエンド ・ リポジトリとして、Active Directory ドメイン サービスに依存します。
-ms.openlocfilehash: a4f8661ba7f56e2bc5704af383dbd80e6a6869ac
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: f8f006ac3f727553f612070ea9bdbf696d81a97e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532325"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883236"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>ビジネス サーバーの Skype のユーザーとクライアントの認証
  
@@ -57,5 +58,5 @@ ICE プロトコルおよび TURN プロトコルでも、IETF TURN RFC に記�
     
 - HMACSHA512
     
-  ASP.NET 4 ではサポートされていた AES、3DES、MD5 の値は使用できなくなりました。 詳細については、「[Cryptographic Improvements in ASP.NET 4.5, pt. 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/)」を参照してください。
+  ASP.NET 4 ではサポートされていた AES、3DES、MD5 の値は使用できなくなりました。 [ASP.NET 4.5、2 pt. で暗号化の機能強化](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/)の詳細があります。
   

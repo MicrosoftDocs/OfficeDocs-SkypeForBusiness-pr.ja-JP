@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype での統合連絡先ストアの計画
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
 description: '概要: ビジネスのサーバーで Exchange 2013 の Skype を統合するために計画するときにこのトピックを確認します。'
-ms.openlocfilehash: b66282f43e6203d1477c9076de45bba3e9c344ff
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fd408466034646938d002c609a263e71077e5b94
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21011485"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882657"
 ---
 # <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の統合連絡先ストアの計画
  

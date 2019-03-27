@@ -1,5 +1,6 @@
 ---
 title: Skype で、Office カスタマイズ ツール (OCT) を使用して、ビジネスのサーバーの
+ms.reviewer: ''
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 description: '概要: Skype で、Office カスタマイズ ツールを使用して、クライアントのビジネスの方法です。'
-ms.openlocfilehash: 6050a9e9c36fa62aff16994469e63a9689ab5958
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6530199ce86914feae6b44ae8b73137263fcd6a2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530679"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883582"
 ---
 # <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>Skype で、Office カスタマイズ ツール (OCT) を使用して、ビジネスのサーバーの
  

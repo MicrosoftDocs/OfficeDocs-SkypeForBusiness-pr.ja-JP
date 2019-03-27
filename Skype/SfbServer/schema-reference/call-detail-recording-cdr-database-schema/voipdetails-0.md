@@ -1,5 +1,6 @@
 ---
 title: VoipDetails テーブル
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 74ffbb71-569b-4018-be1f-4db2bbafcf36
 description: レコードは、ユーザーが少なくとも 1 つ 1 つの 2 パーティ呼び出しは VoIP ユーザーを各です。
-ms.openlocfilehash: 8f28ec3ac1d4049f24c5af5b768026bdd8a98486
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 304efbd8148c363afaa792abe97d0b15ab5a34fd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879673"
 ---
 # <a name="voipdetails-table"></a>VoipDetails テーブル
  
 レコードは、ユーザーが少なくとも 1 つ 1 つの 2 パーティ呼び出しは VoIP ユーザーを各です。
   
-|**列**|**データ型**|**キーまたはインデックス**|**詳細**|
+|**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Primary  <br/> |セッションの要求の時間です。 セッションを一意に識別するのには**SessionIdSeq**と組み合わせてを使用します。 [Skype のビジネス サーバー 2015 のテーブル」ダイアログ ボックス](dialogs.md)の詳細についてを参照してください。 <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Primary  <br/> |セッションを識別する ID 番号。 セッションを一意に識別するのには**SessionIdTime**と組み合わせてを使用します。 [Skype のビジネス サーバー 2015 のテーブル」ダイアログ ボックス](dialogs.md)の詳細についてを参照してください。 <br/> |

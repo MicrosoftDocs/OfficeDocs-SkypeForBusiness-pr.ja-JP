@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバー 2015 の Skype での FocusJoinsAndLeaves テーブル
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e6f0212c-67e9-4061-8720-d0296e855991
 description: このテーブルの各レコードには、CDR の 1 つのユーザーの参加について、1 つの会議のままに情報が含まれています。 各会議は、ユーザーが参加し、会議を離れるたびに、次の表に、1 つのレコードで表されます。
-ms.openlocfilehash: f07790af63de562672cefc8d8fbd09d75dff1eec
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: dea6ae9e66416da41c9ca5df0d6a8c3e61550238
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881229"
 ---
 # <a name="focusjoinsandleaves-table-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype での FocusJoinsAndLeaves テーブル
  
 このテーブルの各レコードには、CDR の 1 つのユーザーの参加について、1 つの会議のままに情報が含まれています。 各会議は、ユーザーが参加し、会議を離れるたびに、次の表に、1 つのレコードで表されます。
   
-|**列**|**データ型**|**キーまたはインデックス**|**詳細**|
+|**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |プライマリ サーバーで、外部  <br/> |会議インスタンスの時間です。 会議のインスタンスを一意に識別するのには**SessionIdSeq**と組み合わせてを使用します。 [ビジネス サーバー 2015 の Skype での会議のテーブル](conferences.md)の詳細についてを参照してください。 <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |プライマリ サーバーで、外部  <br/> |会議のインスタンスを識別する ID 番号。 会議のインスタンスを一意に識別するのには**SessionIdTime**と組み合わせてを使用します。 [ビジネス サーバー 2015 の Skype での会議のテーブル](conferences.md)の詳細についてを参照してください。 <br/> |

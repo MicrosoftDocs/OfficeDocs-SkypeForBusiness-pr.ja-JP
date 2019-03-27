@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバー 2015 の Skype での CDR のテーブルの一覧
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: 通話詳細記録 (CDR) データベース スキーマは、次の表で構成されています。
-ms.openlocfilehash: 7e224b8170ec078cafaec2fe3cbf4cf9819eba41
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 977c48b58c5b1d1c0f21fbac07a28ec6efb0bfd6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881201"
 ---
 # <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype での CDR のテーブルの一覧
  
@@ -27,9 +29,9 @@ ms.lasthandoff: 03/28/2018
 |[ビジネス サーバー 2015 の Skype での CallPriorities テーブル](callpriorities.md) <br/> |緊急、緊急、通常、不急などの可能性のある呼び出しの優先順位の一覧を格納するとします。  <br/> |
 |[ビジネス サーバー 2015 の Skype での ConferenceJoinTimeThresholds テーブル](conferencejointimethresholds.md) <br/> |会議への参加時の概要レポートで使用される分類の境界を格納します。  <br/> |
 |[ビジネス サーバー 2015 の Skype での DeRegisterType テーブル](deregistertype.md) <br/> |ストアが使用可能なユーザーの一覧の「クライアントが開始されると、」などの理由から、登録を解除」登録の期限が切れて」「クライアントのクラッシュ、」と。  <br/> |
-|[メディア テーブル](medialist.md) <br/> |データベースのエントリを生成するメディアの種類の一覧を格納する (たとえば、IM、音声、ビデオ、およびファイル転送)。  <br/> |
+|[MediaList テーブル](medialist.md) <br/> |データベースのエントリを生成するメディアの種類の一覧を格納する (たとえば、IM、音声、ビデオ、およびファイル転送)。  <br/> |
 |[PurgeSettings テーブル](purgesettings.md) <br/> |場合 (と) を指定する情報を格納には、呼び出しの詳細レコードが CDR データベースから自動的に削除されますが期限切れです。  <br/> |
-|[ロール テーブル](roles.md) <br/> |可能な会議の役割 (たとえば、出席者と発表者) の一覧を格納します。  <br/> |
+|[Roles テーブル](roles.md) <br/> |可能な会議の役割 (たとえば、出席者と発表者) の一覧を格納します。  <br/> |
 |[SIPResponseMetaData テーブル](sipresponsemetadata.md) <br/> |SIP 応答コードの分類とそのコードのそれぞれの定義の一覧を格納します。  <br/> |
    
 ## <a name="supporting-tables"></a>テーブルをサポートしています。
@@ -47,12 +49,12 @@ ms.lasthandoff: 03/28/2018
 |[ビジネス サーバー 2015 の Skype の製造元テーブル](manufacturers.md) <br/> |(机上電話) のデバイスの製造元の一覧を格納します。  <br/> |
 |[ビジネス サーバー 2015 の Skype の Mcu のテーブル](mcus.md) <br/> |さまざまな A に関する情報を格納または音声ビデオ会議サーバーとその Uri。  <br/> |
 |[MediationServers テーブル](mediationservers.md) <br/> |VoIP 通話に使用される仲介サーバーの一覧を格納します。  <br/> |
-|[電話テーブル](phones.md) <br/> |VoIP 電話をかけたりするアーカイブされたまたは呼び出しの詳細情報が記録で使用されているすべての電話番号を格納します。  <br/> |
-|[プール テーブル](pools.md) <br/> |メッセージをキャプチャする IM のプールの名前を格納します。  <br/> |
-|[サーバーのテーブル](servers.md) <br/> |呼び出しに関係するサーバーの名前を格納します。  <br/> |
-|[テナントのテーブル](tenants.md) <br/> |現在の展開でサポートされているテナントを格納します。 ある企業ユーザー、ユーザーのフェデレーション、パブリック IM 接続のユーザー、および匿名ユーザーのいくつかのテナントです。  <br/> |
+|[Phones テーブル](phones.md) <br/> |VoIP 電話をかけたりするアーカイブされたまたは呼び出しの詳細情報が記録で使用されているすべての電話番号を格納します。  <br/> |
+|[Pools テーブル](pools.md) <br/> |メッセージをキャプチャする IM のプールの名前を格納します。  <br/> |
+|[Servers テーブル](servers.md) <br/> |呼び出しに関係するサーバーの名前を格納します。  <br/> |
+|[Tenants テーブル](tenants.md) <br/> |現在の展開でサポートされているテナントを格納します。 ある企業ユーザー、ユーザーのフェデレーション、パブリック IM 接続のユーザー、および匿名ユーザーのいくつかのテナントです。  <br/> |
 |[UserAgentDef テーブル](useragentdef.md) <br/> |エージェントの説明的な名前のユーザー エージェント識別子にマップします。  <br/> |
-|[「ユーザー」テーブル](users.md) <br/> |セッションに参加しているユーザーの Uri を記録またはアーカイブのユーザーをこのデータベースに格納します。  <br/> |
+|[ユーザー テーブル](users.md) <br/> |セッションに参加しているユーザーの Uri を記録またはアーカイブのユーザーをこのデータベースに格納します。  <br/> |
 |[UserStatistics テーブル](userstatistics.md) <br/> |システムの個々 のユーザーの使用状況に関する情報を格納します。  <br/> |
    
 ## <a name="tables-specific-to-conference-cdr-records"></a>会議 CDR レコードに固有のテーブル
@@ -77,7 +79,7 @@ ms.lasthandoff: 03/28/2018
 |:-----|:-----|
 |[SessionDetails テーブル](sessiondetails.md) <br/> |開始と終了時刻、ユーザーの ID、応答コード、およびユーザーごとにメッセージの数を含む、すべてのピア ツー ピア セッションに関する情報を格納します。  <br/> |
 |[ビジネス サーバー 2015 の Skype での FileTransfers テーブル](filetransfers-0.md) <br/> |ファイルを含め、セッションの名前を指定し、(承諾、拒否、またはキャンセル) が発生する、ファイル転送に関する情報を格納します。  <br/> |
-|[メディア テーブル](media.md) <br/> |ピア ツー ピア セッションに関連するさまざまなメディア ・ タイプに関する情報を格納します。  <br/> |
+|[Media テーブル](media.md) <br/> |ピア ツー ピア セッションに関連するさまざまなメディア ・ タイプに関する情報を格納します。  <br/> |
    
 ## <a name="table-for-voip-call-details"></a>VoIP 呼び出しの詳細については表
 

@@ -1,5 +1,6 @@
 ---
 title: tblComplianceParticipant
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d7e0dea-74f7-46d1-badf-b94abc8f066d
 description: tblComplianceParticipant には、チャネルおよびサーバーごとの現在の参加者が含まれています。
-ms.openlocfilehash: ba488f377592b48845880acaeed61074bc31ccd2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: a3d18c4a78af2892a837e1105a435a3ce46ea14b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881417"
 ---
 # <a name="tblcomplianceparticipant"></a>tblComplianceParticipant
  
@@ -22,7 +24,7 @@ tblComplianceParticipant には、チャネルおよびサーバーごとの現�
   
 **列**
 
-|**列**|**タイプ**|**説明**|
+|**列**|**型**|**説明**|
 |:-----|:-----|:-----|
 |channelUri  <br/> |nvarchar (255)、null でないです。  <br/> |チャネルの一意リソース識別子 (URI)。  <br/> |
 |ユーザー Id  <br/> |int 型、null でないです。  <br/> |(TblPrincipal.prinID のテーブルに対応する) 関係者のプリンシパルの ID です。  <br/> |

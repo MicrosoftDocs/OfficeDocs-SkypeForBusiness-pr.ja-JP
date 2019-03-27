@@ -1,5 +1,6 @@
 ---
 title: Skype で簡単な Url のビジネス サーバー用の DNS の要件
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: '概要: は、Skype のビジネス サーバーの DNS レコードを実装する前にこのトピックの簡単な URL の注意事項を確認します。'
-ms.openlocfilehash: 89100dc91b9b4a69a295bcbf5992b205fafb15ca
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 1fffb1303381797a800a235d3965fe387e4d8eb2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373430"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878551"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>Skype で簡単な Url のビジネス サーバー用の DNS の要件
 
@@ -64,9 +65,9 @@ Skype ビジネス サーバーの次の 3 つの簡単な Url をサポート�
 **簡単な URL 命名オプション 1**
 
 
-| **簡易 URL** <br/> | **例** <br/>                                                                                                    |
+| **簡単な URL** <br/> | **例** <br/>                                                                                                    |
 |:---------------------|:---------------------------------------------------------------------------------------------------------------------|
-| 会議  <br/>          | https://meet.contoso.com、 https://meet.fabrikam.com、というように (組織内の SIP ドメインごとに 1 つ)  <br/> |
+| 対応  <br/>          | https://meet.contoso.com、 https://meet.fabrikam.com、というように (組織内の SIP ドメインごとに 1 つ)  <br/> |
 | ダイヤルイン  <br/>       | <https://dialin.contoso.com>  <br/>                                                                                  |
 | 管理  <br/>         | <https://admin.contoso.com>  <br/>                                                                                   |
 
@@ -75,9 +76,9 @@ Skype ビジネス サーバーの次の 3 つの簡単な Url をサポート�
 **簡単な URL 命名オプション 2**
 
 
-| **簡易 URL** <br/> | **例** <br/>                                                                                                                    |
+| **簡単な URL** <br/> | **例** <br/>                                                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------|
-| 会議  <br/>          | https://SfB2015.contoso.com/Meet、 https://SfB2015.fabrikam.com/Meet、というように (組織内の SIP ドメインごとに 1 つ)  <br/> |
+| 対応  <br/>          | https://SfB2015.contoso.com/Meet、 https://SfB2015.fabrikam.com/Meet、というように (組織内の SIP ドメインごとに 1 つ)  <br/> |
 | ダイヤルイン  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                                          |
 | 管理  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                                           |
 
@@ -86,9 +87,9 @@ Skype ビジネス サーバーの次の 3 つの簡単な Url をサポート�
 **簡単な URL 命名オプション 3**
 
 
-| **簡易 URL** <br/> | **例** <br/>                                                                                                      |
+| **簡単な URL** <br/> | **例** <br/>                                                                                                      |
 |:---------------------|:-----------------------------------------------------------------------------------------------------------------------|
-| 会議  <br/>          | <https://SfB2015.contoso.com/contosoSIPdomain/Meet>  <br/> <https://SfB2015.contoso.com/fabrikamSIPdomain/Meet>  <br/> |
+| 対応  <br/>          | <https://SfB2015.contoso.com/contosoSIPdomain/Meet>  <br/> <https://SfB2015.contoso.com/fabrikamSIPdomain/Meet>  <br/> |
 | ダイヤルイン  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                            |
 | 管理  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                             |
 
@@ -97,7 +98,7 @@ Skype ビジネス サーバーの次の 3 つの簡単な Url をサポート�
 
 フロント エンド プールが含まれているサイトが複数ある場合は、DNS プロバイダーは、GeoDNS をサポートしています、全体のフロント エンド プールを 1 つがダウンした場合でも、簡単な URL の機能が解決しないように災害復旧をサポートするための簡単な Url の DNS レコードを設定することができます。 この災害復旧の機能には対応し、簡単なダイヤルイン Url がサポートされています。
 
-これを構成するには、2 つの GeoDNS アドレスを作成します。各アドレスは、障害の復旧目的でペアになった 2 つのプールに解決される、2 つの DNS A または CNAME レコードを持っています。1 つの GeoDNS アドレスは内部アクセスに使用され、2 つのプールのロード バランサー IP アドレス、または内部 Web FQDN に解決されます。もう 1 つの GeoDNS アドレスは外部アクセスに使用され、2 つのプールのロード バランサー IP アドレス、または外部 Web FQDN に解決されます。以下は、プールの FQDN を使用した、会議簡易 URL の例です。 
+これを構成するには、2 つの GeoDNS アドレスを作成します。 各アドレスは、災害復旧のためのペアには、2 つのプールに解決される、2 つの DNS の A または CNAME レコードを持ちます。 GeoDNS の 1 つのアドレスへの内部アクセスは、使用し、内部の web FQDN またはロード バランサーの IP アドレスの 2 つのプールに解決します。 他の GeoDNS アドレスは、外部アクセスのために使用し、外部 web FQDN またはロード バランサーの IP アドレスの 2 つのプールに解決します。 次は、プールの Fqdn を使用して、対応の簡単な URL の例です。 
 
 ```
 Meet-int.geolb.contoso.com
@@ -111,22 +112,22 @@ Meet-ext.geolb.contoso.com
      Pool2ExternalWebFQDN.contoso.com
 ```
 
-次に、(meet.contoso.com のような) 会議簡易 URL を 2 つの GeoDNS アドレスに解決する CNAME レコードを作成します。
+(Meet.contoso.com) などの対応、簡単な URL を 2 つの GeoDNS アドレスに解決する CNAME レコードを作成します。
 
 > [!NOTE]
-> ネットワークがヘアピン (組織内部からのトラフィックを含め、すべての簡易 URL トラフィックを外部リンク経由でルーティングすること) を使用している場合は、外部 GeoDNS アドレスを構成して、その外部アドレスのみに会議簡易 URL を解決できます。
+> ネットワークでは、(を通じて、組織内から送信されるトラフィックを含め、外部リンクに、簡単な URL のすべてのトラフィックをルーティングする) hairpinning を使用する場合、だけ GeoDNS の外部アドレスを構成してのみに対応、簡単な URL を解決するには外部アドレスです。
 
-この方式を使用するとき、2 つのプールに要求を配布するラウンドロビン方式か、または (地理的に近いプールなど) 1 つのプールに主に接続し、もう 1 つのプールは接続障害の場合にのみ使用するように、各 GeoDNS アドレスを構成できます。 
+ラウンド ロビン方式の 2 つのプールに要求を分散するまたは接続して主に、1 つのプールなど、プールでは、地理的に近い位置にある) の場合に限り、他のプールを使用して、いずれかの方法を使用する場合は、各 GeoDNS アドレスを構成することができますこのメソッドを使用する場合接続に失敗しました。 
 
-ダイヤルイン簡易 URL でも同じ構成をセットアップできます。 ような以前の例では、追加のレコードを作成するには、代わりに`dialin`の`meet`の DNS レコードです。 管理簡易 URL では、このセクションで以前に示した 3 つのオプションのいずれかを使用します。
+ダイヤルの簡単な URL の同じ構成を設定できます。 ような以前の例では、追加のレコードを作成するには、代わりに`dialin`の`meet`の DNS レコードです。 管理の簡単な URL では、このセクションで前述の 3 つのオプションのいずれかを使用します。
 
-この構成をセットアップした後に、監視アプリケーションを使用して、障害の監視用に HTTP 監視をセットアップする必要があります。 外部アクセスは、HTTPS を取得 lyncdiscover はそのことを確認するのにを監視します。<sipdomain> 外部 web FQDN またはロード バランサーの IP アドレスの 2 つのプールへの要求は、成功でした。 たとえば、次の要求の**ACCEPT**ヘッダーが含まれていない必要があります、返す必要があります**200 OK**。
+この構成を設定すると、エラーを監視する HTTP の監視を設定するのには監視アプリケーションを使用する必要があります。 外部アクセスは、HTTPS を取得 lyncdiscover はそのことを確認するのにを監視します。<sipdomain> 外部 web FQDN またはロード バランサーの IP アドレスの 2 つのプールへの要求は、成功でした。 たとえば、次の要求の**ACCEPT**ヘッダーが含まれていない必要があります、返す必要があります**200 OK**。
 
 ```
 HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 ```
 
-内部アクセスでは、内部 Web FQDN のポート 5061、または 2 つのプール用のロード バランサー IP アドレスを監視する必要があります。接続問題が検出された場合、これらのプールの VIP は、ポート 80、443、および 4443 を閉じる必要があります。
+内部アクセスは、FQDN の内部の web 上のポート 5061 を監視またはロード バランサーの IP アドレス プールは、2 つのする必要があります。 接続エラーが検出された場合、これらのプールの VIP は、ポート 80、443、4443 を閉じる必要があります。
 
 

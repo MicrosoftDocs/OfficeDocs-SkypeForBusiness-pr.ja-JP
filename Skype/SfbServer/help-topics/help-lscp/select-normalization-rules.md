@@ -1,5 +1,6 @@
 ---
 title: 正規化ルールの選択
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c46041b8-b52c-48bf-9da6-d91ccc7d7968
 description: 正規化ルールでは、.NET Framework 正規表現を使用してダイヤルされた電話番号を E.164 形式に変換します。各ダイヤル プランには、正規化ルールを 1 つ以上割り当てる必要があります。
-ms.openlocfilehash: b6dffdad20dd041bda7c3dd226ccca32480154c0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f64e24ddc0f8a2373ba68fd98d1ac9587398a863
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883553"
 ---
 # <a name="select-normalization-rules"></a>正規化ルールの選択
  

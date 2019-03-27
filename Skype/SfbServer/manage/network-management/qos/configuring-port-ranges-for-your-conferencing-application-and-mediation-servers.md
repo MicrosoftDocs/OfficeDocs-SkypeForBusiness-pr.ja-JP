@@ -1,5 +1,6 @@
 ---
 title: ポートの範囲と、会議、アプリケーション、および仲介サーバーのサービスの品質ポリシーを構成します。
+ms.reviewer: ''
 ms:assetid: 4d6eaa5d-0127-453f-be6a-e55384772d83
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204872(v=OCS.15)
 ms:contentKeyID: 48184074
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: この資料では、ポートの範囲と、会議、アプリケーション、および仲介サーバーのサービスの品質ポリシーを構成する方法について説明します。
-ms.openlocfilehash: 736a0d343c67585266833195780c7f76cbee51dd
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: f1452c9166eb557d186b8569a37d5abb885d4354
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223438"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884351"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>ポートの範囲と、会議、アプリケーション、および仲介サーバーのサービスの品質ポリシーを構成します。
 
@@ -141,7 +142,7 @@ ms.locfileid: "27223438"
 
 9.  [4] ページでは、**この QoS ポリシーを適用するプロトコルを選択して**ドロップダウン リストから**TCP および UDP**を選択します。 TCP (伝送制御プロトコル) と UDP (ユーザー データグラム プロトコル) は、最も一般的使用 Skype ビジネス サーバーとそのクライアント アプリケーションの 2 つのネットワーク プロトコルです。
 
-10. **発信元ポート番号の指定**の見出しの下には、**この送信元ポートまたは範囲から**選択します。 付随するテキスト ボックスで、オーディオの転送用に予約されたポートの範囲を入力します。 57500 オーディオ トラフィック用のポートをポート 49152 を予約する場合のこの形式を使用するポートの範囲を入力するたとえば、: **49152:57500**。 **[完了]** をクリックします。
+10. **発信元ポート番号の指定**の見出しの下には、**この送信元ポートまたは範囲から**選択します。 付随するテキスト ボックスで、オーディオの転送用に予約されたポートの範囲を入力します。 57500 オーディオ トラフィック用のポートをポート 49152 を予約する場合のこの形式を使用するポートの範囲を入力するたとえば、: **49152:57500**。 [**完了**] をクリックします。
 
 > [!NOTE]  
 > 46 の DSCP 値は多少変動: DSCP 46 がオーディオ パケットのマーキングの使用が多くの場合、必要はありません音声通信の DSCP 46 を使用します。 QoS を既に実装しているオーディオの場合 (たとえば、DSCP の 40) 異なる DSCP コードを使用している場合は、その同じコード (つまり、オーディオの 40) を使用するようにサービスの品質ポリシーを構成する必要があります。 今、サービスの品質を実装しているかどうかは、単にオーディオの場合、DSCP 46 を使用することをお勧めする値はオーディオ パケットをマークするためです。

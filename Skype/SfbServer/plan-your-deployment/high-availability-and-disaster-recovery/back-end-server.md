@@ -1,5 +1,6 @@
 ---
 title: Skype の最後のサーバーの高可用性をビジネスのサーバーのバックアップします。
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: ビジネス サーバーには、AlwaysOn 可用性グループ、AlwaysOn フェールオーバー クラスター インスタンス、データベース ミラーリング、SQL のフェールオーバー クラスタ リングなど、Skype でサポートされているバック エンド サーバーの高可用性オプションについて説明します。
-ms.openlocfilehash: f7d48718a47533425f3481edb0c4e71878fd7226
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: 5f95ea1a1a856db945e1d0fac5683b1fb8c4c02e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729415"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878120"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Skype の最後のサーバーの高可用性をビジネスのサーバーのバックアップします。
  

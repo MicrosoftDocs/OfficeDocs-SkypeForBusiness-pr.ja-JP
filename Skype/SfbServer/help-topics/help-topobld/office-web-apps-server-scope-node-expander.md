@@ -1,5 +1,6 @@
 ---
 title: Office Web Apps サーバー スコープ ノード エキスパンダー
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 description: トポロジ ビルダーを使うには、次に Office の Web アプリケーション サーバーを右クリックします。
-ms.openlocfilehash: fccc7fc89c069b45a9482c3cea21b9faf189dc74
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 58dd287b4749ed0855e8bf122397622b681e73d6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884217"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Office Web Apps サーバー スコープ ノード エキスパンダー
  

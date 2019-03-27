@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 での常設チャット サーバーの高可用性および障害復旧の構成
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: '概要: ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの高可用性と障害回復を構成する方法の詳細については、このトピックを読みます。'
-ms.openlocfilehash: f0bf1a98bb8967a7310844d9aa85d17d4ef4d167
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5c53652cf5084b5a6c021c38f71f1cccc0322efa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880484"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバーの高可用性および障害復旧の構成
  
-**の概要:**ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの高可用性と障害回復を構成する方法の詳細については、このトピックを参照してください。
+**の概要:** ビジネス サーバー 2015 の Skype での永続的なチャット サーバーの高可用性と障害回復を構成する方法の詳細については、このトピックを参照してください。
   
-ビジネス サーバー用の Skype は、バック エンド サーバー、データベース ・ ミラーリングなどの複数の高可用性モードをサポートします。 詳細については、[高可用性とビジネス サーバー 2015 の Skype での災害復旧の計画](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)を参照してください。
+ビジネス サーバー用の Skype は、バック エンド サーバー、データベース ・ ミラーリングなどの複数の高可用性モードをサポートします。 詳細については、「[Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)」を参照してください。
   
 > [!NOTE]
 > AlwaysOn 可用性グループは、永続的なチャット サーバーではサポートされていません。 
@@ -90,7 +92,7 @@ SQL Server Management Studio を使用すると、永続的なチャット サ�
     
 18. [**復元が次の期間内に行われない場合は警告する**] で警告のしきい値を選択します。
     
-19. [**復元ジョブ**] の [**スケジュール**] ボックスに一覧表示される復元スケジュールを確認します。 インストールのスケジュールをカスタマイズするには、[**スケジュール**] をクリックして**]**を必要に応じて、SQL Server エージェントのスケジュールを調整します。 このスケジュールは、バックアップ スケジュールとよく似た内容にする必要があります。
+19. [**復元ジョブ**] の [**スケジュール**] ボックスに一覧表示される復元スケジュールを確認します。 インストールのスケジュールをカスタマイズするには、[**スケジュール**] をクリックして **]** を必要に応じて、SQL Server エージェントのスケジュールを調整します。 このスケジュールは、バックアップ スケジュールとよく似た内容にする必要があります。
     
 20. [**データベースのプロパティ**] ダイアログ ボックスで、[**OK**] をクリックして構成のプロセスを開始します。
     

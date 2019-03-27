@@ -1,5 +1,6 @@
 ---
 title: 常設チャットの構成
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f2891e6-bad3-4a23-a345-b7de4cae3bd9
 description: 永続的なチャット サーバー展開では、永続的なチャット ルームの多くの同時実行をホストできます。 チャット ルームは、サーバーで一連のカテゴリに編成できます。 各チャット ルームは 1 つのカテゴリに属し、そのカテゴリからいくつかの設定を継承します。 この編成によって、業務目的に基づいて会話を識別するのに便利な構造が作成され、管理の委任および管理の簡素化が容易になります。
-ms.openlocfilehash: 4ca3c40496ebe3aa5cbf808bb71014879ce700de
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 653649e765d8b912ff7090cbadcccf2cc6439c47
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375030"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878260"
 ---
 # <a name="persistent-chat-configuration"></a>常設チャットの構成
  
@@ -86,7 +87,7 @@ ms.locfileid: "25375030"
     
    - (オプション)。**ルーム管理 URL**] には、ルームの管理 URL を選択します。 これは、web ベースのカスタム ルーム管理の URL です。 室の管理をカスタマイズする必要はありませんし、単に既定の設定を使用する場合は、このオプションを空白のままにします。 URL を設定すると、部屋の内部および外部の両方の管理 URL として適用されます。
     
-     ルーム作成の操作性をカスタマイズし、特定のビジネス ・ ワークフローを含める場合は、永続的なチャット サーバー ソフトウェア開発キット (SDK) を使用してカスタム ルーム管理ソリューションを構築、それをどこかにホストして URL をここに配置します。。 ユーザーがチャット ルームを表示または作成するときにカスタム チャット ルーム管理ソリューションを使用するように、この URL がクライアントに伝えられます。
+     ルーム作成の操作性をカスタマイズし、特定のビジネス ・ ワークフローを含める場合は、永続的なチャット サーバー ソフトウェア開発キット (SDK) を使用してカスタム ルーム管理ソリューションを構築、それをどこかにホストして URL をここに配置します。。 ユーザーがチャット ルームを表示または作成するときにカスタム チャット ルーム管理ソリューションを使用するよう、この URL がクライアントに伝えられます。
     
 7. [**確定**] をクリックします。
     

@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype にエッジ サーバーを展開します。
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
 description: 概要では、エッジ サーバーまたはエッジ プールに、Skype をビジネスのサーバー環境に展開する方法について説明します。
-ms.openlocfilehash: 8ac91d87e8ce7e7fb4b2f8ba0cb80331a3ad9cca
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: bbc331a6abf07450519f58395beda47446e6cef8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883888"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883743"
 ---
 # <a name="deploy-edge-server-in-skype-for-business-server"></a>ビジネス サーバーの Skype にエッジ サーバーを展開します。
  

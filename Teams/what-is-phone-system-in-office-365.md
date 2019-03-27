@@ -1,5 +1,6 @@
 ---
 title: Office 365 の電話システムとは
+ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '電話システムで何ができる場合について説明します。 '
-ms.openlocfilehash: a11f527e80ec38d86c2adb97a9d861e7c11b6b8c
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 511f5892bad23901e30e1e3e1c5feacf43fa97f0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649253"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884246"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365 の電話システムとは
 
@@ -38,7 +39,7 @@ ms.locfileid: "30649253"
   
 固定電話と携帯電話で通話できるようにするには、次の 2 つの方法のいずれかを使って電話システムを PSTN に接続します。
   
-- 購入することを呼び出すことを計画 (国内または国内および国際) Office 365 にします。 参照してください[計画を呼び出すことは何ですか?](what-are-calling-plans-in-office-365.md)
+- 購入することを呼び出すことを計画 (国内または国内および国際) Office 365 のです。 [電話システムと通話プラン](calling-plan-landing-page.md)を参照してください。
     
 - 使用して PSTN 接続を設置、設置型のソフトウェアが、既存のテレフォニー インフラストラクチャに接続されています。 [電話システムの計画](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution)を参照してください。
 
@@ -50,7 +51,7 @@ ms.locfileid: "30649253"
 
 ![完全にクラウド内の VoIP ソリューションである、PSTN 通話を含んだクラウド PBX を示しているトポロジ図です。](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
 
-Office 365 の操作を呼び出すことを計画するために、このプロセスは、オンプレミスのサーバーの展開を必要としない完全に-雲ソリューションです。 国内または国内と国際の計画を呼び出して、使用しての選択肢がある場合、呼び出しを実行する各ユーザーに割り当てるをします。 [詳しく知りたいとしていますか。](what-are-calling-plans-in-office-365.md)
+Office 365 の操作を呼び出すことを計画するために、このプロセスは、オンプレミスのサーバーの展開を必要としない完全に-雲ソリューションです。 国内または国内と国際の計画を呼び出して、使用しての選択肢がある場合、呼び出しを実行する各ユーザーに割り当てるをします。 [の詳細を知りたいのですか?](calling-plan-landing-page.md)です。
   
 Skype をビジネス オンラインまたは Office 365 のマイクロソフト チームのホームとしているユーザーは、Office 365 のインターネット電話サービスへのアクセスがあります。 Microsoft は、通常の通話と PSTN サービスの両方を提供し、ユーザーの電話番号を提供または移行することもできます。 
   

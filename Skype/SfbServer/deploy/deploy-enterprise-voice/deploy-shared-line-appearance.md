@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 で回線共有機能を展開する
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: ここでは、Skype for Business Server 2015 の累積的な更新プログラム (2015 年 11 月) で回線共有機能 (SLA) を展開する方法について説明します。SLA は、共有番号と呼ばれる特定の電話番号で複数の通話を処理するための機能です。
-ms.openlocfilehash: f5c97c94f2e0ed2034ac96864b20dec604708d55
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c0da29e54f03a5c328f1b65807f438b63c14a68f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372015"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878649"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 で回線共有機能を展開する
 
 ここでは、Skype for Business Server 2015 の累積的な更新プログラム (2015 年 11 月) で回線共有機能 (SLA) を展開する方法について説明します。SLA は、共有番号と呼ばれる特定の電話番号で複数の通話を処理するための機能です。
 
-この機能の詳細については、 [Skype のビジネス サーバー 2015 の線の外観を共有の予定](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md)を参照してください。
+この機能の詳細については、「 [Plan for Shared Line Appearance in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md)」を参照してください。
 
 2015年 11 月はビジネス サーバーでは、Skype の新機能、共有行の外観 (SLA) 累積的な更新です。 この機能を有効にするには、まずこの累積的な更新プログラムを展開しておく必要があります。
 
@@ -57,7 +58,7 @@ ms.locfileid: "25372015"
 
 ### <a name="create-an-sla-group-and-add-users-to-it"></a>SLA グループを作成してユーザーを追加する
 
-1. [セット CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps)コマンドレットを使用して、SLA のグループを作成します。
+1. [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) コマンドレットを使用して、SLA グループを作成します。
 
    ```
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MaxNumberOfCalls <Number> -BusyOption <BusyOnBusy|Voicemail|Forward> [-Target <TargetUserOrPhoneNumber>]
@@ -78,7 +79,7 @@ ms.locfileid: "25372015"
     > [!NOTE]
     > 何に指定することに注意してください`-Identity`既存ユーザーのエンタープライズ VoIP を有効にしたアカウントを有効にする必要があります。
 
-2. グループにデリゲートを追加するには、[追加 CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates?view=skype-ps)コマンドレットを使用します。
+2. [Add-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates?view=skype-ps) コマンドレットを使用して、グループに代理人を追加します。
 
    ```
    Add-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
@@ -95,7 +96,7 @@ ms.locfileid: "25372015"
 
 ### <a name="configure-the-sla-group-busy-option"></a>SLA グループの通話中オプションの構成
 
-- SLA が構成[セット CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps)コマンドレットを使用して、ビジー状態のオプションをグループ化します。
+- [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) コマンドレットを使用して、SLA グループの通話中オプションを構成します。
 
   ```
   Set-CsSlaConfiguration -Identity <IdentityOfGroup> -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
@@ -109,7 +110,7 @@ ms.locfileid: "25372015"
 
 ### <a name="configure-the-sla-group-missed-call-option"></a>SLA グループの不在着信オプションを構成する
 
-1. [セット CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps)コマンドレットを使用して、SLA グループ喪失の呼び出しのオプションを構成します。
+1. [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) コマンドレットを使用して、SLA グループの不在着信オプションを構成します。
 
    ```
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MissedCallOption <Option> -MissedCallForwardTarget <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
@@ -123,13 +124,13 @@ ms.locfileid: "25372015"
 
 ### <a name="remove-a-delegate-from-a-group"></a>グループから代理人を削除する
 
-- [削除 CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates?view=skype-ps)コマンドレットを使用してグループからデリゲートを削除します。
+- [Remove-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates?view=skype-ps) コマンドレットを使用して、グループから代理人を削除します。
 
   ```
   Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate <NameOfDelegate@domain>
   ```
 
-    例:
+    次に例を示します。
 
   ```
   Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate3@contoso.com
@@ -137,7 +138,7 @@ ms.locfileid: "25372015"
 
 ### <a name="delete-an-sla-group"></a>SLA グループを削除する
 
-- [削除 CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csslaconfiguration?view=skype-ps)コマンドレットを使用して、SLA のグループを削除します。
+- [Remove-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csslaconfiguration?view=skype-ps) コマンドレットを使用して、SLA グループを削除します。
 
   ```
   Remove-CsSlaConfiguration -Identity <IdentityOfGroup>

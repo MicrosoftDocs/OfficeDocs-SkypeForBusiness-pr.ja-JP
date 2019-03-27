@@ -1,5 +1,6 @@
 ---
 title: カスタム外部アクセス ポリシーを作成する
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Skype for Business Online allows you to create additional external access policies. Unlike client or conferencing policies, where you can have multiple combinations, there are three predefined external access policies that can cover most of the scenarios.
-ms.openlocfilehash: a822e09875bbef1fcd1472ac988a32cadfaf5850
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: b368c7d30e74225f7808f9f3728691040e75016f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561698"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878779"
 ---
 # <a name="create-custom-external-access-policies"></a>カスタム外部アクセス ポリシーを作成する
 
@@ -38,7 +39,7 @@ Custom external policies allow you to create additional polices that aren't cove
   
 To make this work, the user must be using a supported version of 2016 Click-to-Run Skype for Business app that supports it. The following minimum version of Skype for Business 2016 Click-to-Run client is required:
   
-|**種類**|**リリース日**|**Version**|**ビルド**|
+|**型**|**リリース日**|**バージョン**|**ビルド**|
 |:-----|:-----|:-----|:-----|
 |最新機能提供チャネルの最初のリリース  <br/> |2016 年 11 月 17 日  <br/> |16.0.7571.2006  <br/> |バージョン 1611 (ビルド 7571.2006)  <br/> |
 |最新機能提供チャネル  <br/> |2016 年 12 月 6 日  <br/> |16.0.7571.2072  <br/> |バージョン 1611 (ビルド 7571.2072)  <br/> |
@@ -109,7 +110,7 @@ To make this work, the user must be using a supported version of 2016 Click-to-R
     
   - [クイック リファレンス: Windows PowerShell を使用した一般的な Lync Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>関連項目
 [ブロック ポイント ツー ポイントのファイルの転送](block-point-to-point-file-transfers.md)
 
 [組織のクライアント ポリシーをセットアップする](set-up-client-policies-for-your-organization.md)

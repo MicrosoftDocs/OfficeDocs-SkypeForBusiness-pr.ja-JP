@@ -1,5 +1,6 @@
 ---
-title: 2010 Lync Server のレジストラーの設定の拡張
+title: Lync Server 2010 用のレジストラー設定の展開
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17dcd75c-bd9a-407e-af9b-c61cb1201c07
 description: 弾力性の設定を編集し、次のプロパティを構成します。
-ms.openlocfilehash: 5d6fffdadeb96ed72caf9478cbcaefe754d8e24c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 03c85341d8267e199cebbe8b3e3764e32ccc7f5d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374056"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884769"
 ---
-# <a name="registrar-settings-expander-for-lync-server-for-2010"></a>2010 Lync Server のレジストラーの設定の拡張
+# <a name="registrar-settings-expander-for-lync-server-for-2010"></a>Lync Server 2010 用のレジストラー設定の展開
  
 **弾力性**の設定を編集し、次のプロパティを構成します。
   

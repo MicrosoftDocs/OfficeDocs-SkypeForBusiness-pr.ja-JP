@@ -1,5 +1,6 @@
 ---
 title: Endpoint テーブル
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,20 +11,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 500f330d-4d7d-4e88-b1cc-fef9a9de6b5c
 description: エンドポイントはデータベースに記録されているセッションに参加したエンドポイントに関する情報を格納するサポート テーブルです。 テーブル内の各レコードは、1 つのエンドポイントを表します。
-ms.openlocfilehash: 64eb55a0c1bebe7f2ce992351ce21db2fdc575d7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f9c304408006ef9caf5521b8f0bbe28c2d917abe
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882998"
 ---
 # <a name="endpoint-table"></a>Endpoint テーブル
  
 エンドポイントはデータベースに記録されているセッションに参加したエンドポイントに関する情報を格納するサポート テーブルです。 テーブル内の各レコードは、1 つのエンドポイントを表します。
   
-|**列**|**データ型**|**キーまたはインデックス**|**詳細**|
+|**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |**EndpointKey** <br/> |int  <br/> |Primary  <br/> |このエンドポイントを識別する一意の番号です。  <br/> |
-|**名** <br/> |nvarchar(256)  <br/> |一意  <br/> |エンドポイントの名前です。  <br/> |
+|**名前** <br/> |nvarchar(256)  <br/> |一意  <br/> |エンドポイントの名前です。  <br/> |
 |**OS** <br/> |nvarchar (128)  <br/> | <br/> |エンドポイントのオペレーティング システム (OS)。  <br/> |
 |**CPUName** <br/> |nvarchar (128)  <br/> ||エンドポイントの CPU の名前です。  <br/> |
 |**CPUNumberOfCores** <br/> |smallint  <br/> ||エンドポイントの CPU コアの数です。  <br/> |

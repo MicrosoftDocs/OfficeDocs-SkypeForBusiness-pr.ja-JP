@@ -1,5 +1,6 @@
 ---
 title: URL フィルターを新規作成または既存の編集
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1406c7c5-eb55-4b6a-8d74-d625ea9e9922
-description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 8e3af64af2e86e054bfb7ccdf50a7e0335555a6e
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: 57b9cc3da37cd9cd62398b957a97b5cc4c0330a2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260469"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880589"
 ---
-# <a name="url-filter-create-new-or-edit-existing"></a>URL フィルター: 新規作成または既存の編集
+# <a name="url-filter-create-new-or-edit-existing"></a>URL フィルター: 新規作成または現在の形式のままで編集
 
-目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 
 - [既定の URL フィルターを変更します。](https://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)
 

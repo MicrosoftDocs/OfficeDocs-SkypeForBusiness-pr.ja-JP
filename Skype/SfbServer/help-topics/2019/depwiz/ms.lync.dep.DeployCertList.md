@@ -1,5 +1,6 @@
 ---
 title: 証明書のリスト
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,13 +12,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
 ROBOTS: NOINDEX, NOFOLLOW
-description: 証明書を割り当てるには、ローカル証明書ストアから証明書を選択します。[次へ] をクリックして続行します。
-ms.openlocfilehash: 62dcc2abfde1d2216288b8137a9ab2a2448d5404
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: 証明書を割り当てるには、ローカル証明書ストアから証明書を選択します。 [次へ] をクリックして続行します。
+ms.openlocfilehash: f48f65cae587b7fa0b2dfe278978649db37ccf95
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20987480"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881086"
 ---
 # <a name="certificate-list"></a>証明書のリスト
  

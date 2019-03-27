@@ -1,5 +1,6 @@
 ---
-title: 削除 CcLegacyServerCertificate
+title: Remove-CcLegacyServerCertificate
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,14 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ff21cecb-5035-48fd-9705-11ea81ce7df6
 description: Remove-CcLegacyServerCertificate コマンドレットは、Renew-CcCACertificate または Renew CcServerCertificate コマンドレットの実行後に、中央管理ストア、仲介サーバーおよびエッジ サーバー上にあるレガシー サーバーの証明書を削除します。
-ms.openlocfilehash: dc52351d9c66ff310329da62dbd69da74b19c222
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 5f148aa083b646565adf0158f34fb15314296170
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569841"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882461"
 ---
-# <a name="remove-cclegacyservercertificate"></a>削除 CcLegacyServerCertificate
+# <a name="remove-cclegacyservercertificate"></a>Remove-CcLegacyServerCertificate
  
 Remove-CcLegacyServerCertificate コマンドレットは、Renew-CcCACertificate または Renew CcServerCertificate コマンドレットの実行後に、中央管理ストア、仲介サーバーおよびエッジ サーバー上にあるレガシー サーバーの証明書を削除します。
   
@@ -47,7 +48,7 @@ Remove-CcLegacyServerCertificate -Roles @("MS", "Edge")
 ## <a name="parameters"></a>パラメーター
 <a name="Examples"> </a>
 
-|**パラメーター**|**必須**|**タイプ**|**説明**|
+|**パラメーター**|**必須**|**型**|**説明**|
 |:-----|:-----|:-----|:-----|
 | 役割 <br/> |省略可能  <br/> |System.Array  <br/> | Cloud Connector サーバーの役割のアレイ。 <br/> |
    
@@ -64,12 +65,12 @@ Remove-CcLegacyServerCertificate -Roles @("MS", "Edge")
 ## <a name="see-also"></a>関連項目
 <a name="ReturnTypes"> </a>
 
-[更新 CcServerCertificate](renew-ccservercertificate.md)
+[Renew-CcServerCertificate](renew-ccservercertificate.md)
   
-[リセット CcCACertificate](reset-cccacertificate.md)
+[Reset-CcCACertificate](reset-cccacertificate.md)
   
-[更新 CcCACertificate](renew-cccacertificate.md)
+[Renew-CcCACertificate](renew-cccacertificate.md)
   
-[更新 CcCACertificate](update-cccacertificate.md)
+[Update-CcCACertificate](update-cccacertificate.md)
   
 

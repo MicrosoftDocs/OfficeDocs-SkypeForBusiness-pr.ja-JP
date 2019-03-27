@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype の通話の詳細記録と品質のエクスペリエンスの設定を構成します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 description: '概要: は、Skype のビジネス サーバーの CDR および QoE を構成する方法について説明します。'
-ms.openlocfilehash: 7c94815efd30f7f3a30b3a72cfae756085e6aad4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 846411692bc114678e34754f73fc00cd9be8d9d4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21015004"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884621"
 ---
 # <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>ビジネス サーバーの Skype の通話の詳細記録と品質のエクスペリエンスの設定を構成します。
  

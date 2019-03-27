@@ -1,5 +1,6 @@
 ---
 title: この Skype をビジネスのオンライン機能が有効になっていません。
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'オンライン ビジネスの機能には有効なエラーがされていないために、Skype を取得する場合は、考えられる原因とアクションの提案を検索します。 '
-ms.openlocfilehash: 12d5c19f7830d99ce6c7e8fad8089b713bd90d0a
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 0688bcc572c90c776bb1db6413825436f2ba8930
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23863611"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881576"
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>この Skype をビジネスのオンライン機能が有効になっていません。
 
@@ -36,10 +37,10 @@ ms.locfileid: "23863611"
 |ユーザーは、この機能が利用できない場所には。  <br/> |**Office 365 管理センター**には移動可能な場合は、 > **アクティブなユーザー**機能が利用可能な場所にこのユーザーを割り当てるとします。 <br/> |
 |組織の機能を有効になっていません。  <br/> |**Office 365 管理センター**を参照して > **Skype のビジネス**および組織全体の機能を有効にします。 <br/> |
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 
-[Skype for Business ユーザーが Skype 連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
+[Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
 
   
  

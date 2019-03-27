@@ -1,5 +1,6 @@
 ---
 title: 信頼されたアプリケーションを管理します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 信頼されたアプリケーションは、ビジネスのサーバーの Skype によって信頼されているマイクロソフト ユニファイド コミュニケーション管理 API (UCMA) 3.0 のコア SDK に基づいてアプリケーションです。
-ms.openlocfilehash: b4bad58d93ca231a9405734dd148cee675c5d1ea
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 3ca8621148a4b6ce3530f23a61312f63f3d3cd30
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222892"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882143"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>Skype のビジネス サーバー用の信頼されたアプリケーションを管理します。
 
@@ -39,7 +40,7 @@ ms.locfileid: "27222892"
 
 7.  **次ホップの選択**] ページで、ボックスの一覧からビジネス サーバーのフロント エンド プールの Skype を選択します。
 
-8.  **[完了]** をクリックします。
+8.  [**完了**] をクリックします。
 
 9.  **Skype**ビジネス サーバーは、最上位のノードを選択し、**アクション**] メニューから **[トポロジの公開**] をクリックします。
     

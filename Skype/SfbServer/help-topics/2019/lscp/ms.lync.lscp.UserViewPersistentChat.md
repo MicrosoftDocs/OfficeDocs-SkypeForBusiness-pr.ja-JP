@@ -1,5 +1,6 @@
 ---
 title: 永続的なチャットを表示します。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 ROBOTS: NOINDEX, NOFOLLOW
 description: CsPersistentChatAdministrator ロール (永続的なチャット管理者) のメンバーには、他のユーザーにし、自らをチャット ルームの管理者の権限およびアクセス許可を与えることができます。
-ms.openlocfilehash: 06cda7eeaffdafeaae5553c4260b5b8e63e564ff
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 601405fb67fb904b2ec71399273205c84e6aa035
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21013357"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878155"
 ---
 # <a name="users-view-persistent-chat"></a>永続的なチャットを表示します。
 

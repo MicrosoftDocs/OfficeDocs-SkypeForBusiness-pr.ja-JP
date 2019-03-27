@@ -1,5 +1,6 @@
 ---
 title: Skype ビジネス サーバーのトポロジの基本
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: '概要: は、Skype のビジネス サーバーのトポロジを選択します。 Skype のビジネス サーバー用のサーバーのコロケーションについて説明します。'
-ms.openlocfilehash: 5d2589d6ba7878ea69c8860ad99f182912e471dd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 566d044defd69dd9ae79bc964c9a587332649b42
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886166"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881619"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Skype ビジネス サーバーのトポロジの基本
 
@@ -133,7 +134,7 @@ Skype をビジネスのサーバーを実行する各サーバーでは、1 つ
 
 - Web Scheduler、Join Launcher など、Web ベースのタスクをサポートするための Web コンポーネント。
 
-- オプションで、コンプライアンス上の理由で IM 通信および会議の内容をアーカイブするアーカイブ機能。 詳細については、計画ドキュメントの[アーカイブの計画](https://technet.microsoft.com/library/898b83c1-007b-43be-9484-08fe49c10951.aspx)を参照してください。
+- オプションで、コンプライアンス上の理由で IM 通信および会議の内容をアーカイブするアーカイブ機能。詳細については、「計画」のドキュメントの「[Planning for Archiving](https://technet.microsoft.com/library/898b83c1-007b-43be-9484-08fe49c10951.aspx)」を参照してください。
 
     Lync Server 2010 と以前のバージョンでは、監視およびアーカイブがないフロント エンド サーバーで同じ場所に別のサーバーの役割です。
 

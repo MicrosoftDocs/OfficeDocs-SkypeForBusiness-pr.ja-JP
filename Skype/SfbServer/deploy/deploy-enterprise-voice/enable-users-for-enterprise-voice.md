@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype でエンタープライズ VoIP のユーザーを有効にします。
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: '概要: は、Skype のビジネス サーバーのエンタープライズ VoIP を使用して呼び出しを受信しユーザーを有効にする方法を説明します。'
-ms.openlocfilehash: 9e1435c73a175ef40b4962ace41f4c7690f85953
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b02155f424e8b3f29881caf8c4a29db6f76cb807
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883757"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882970"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>ビジネス サーバーの Skype でエンタープライズ VoIP のユーザーを有効にします。
  
@@ -55,7 +56,7 @@ ms.locfileid: "23883757"
     
 9. [**確定**] をクリックします。
     
-エンタープライズ VoIP に対してユーザーを有効にするを終了するには必ず音声ポリシーとダイヤル プランにユーザーが割り当てられているグローバルかどうか (既定では割り当てられている) か、ユーザー固有です。既定では、すべてのユーザーは、グローバル音声ポリシーが割り当てられているし、ダイヤル プランです。 ユーザー アカウントが属しているサイトにサイト レベルの音声ポリシーとダイヤル プランが存在する場合は、それらのサイト ポリシーがユーザーに自動的に適用されます。 ユーザーごとの音声ポリシーを適用またはダイヤル プランのユーザーには、**補助金 CsVoicePolicy**と**与える CsDialPlan**コマンドレットを実行してください。 詳細については、このトピックの以下の手順を参照してください。
+エンタープライズ VoIP に対してユーザーを有効にするを終了するには必ず音声ポリシーとダイヤル プランにユーザーが割り当てられているグローバルかどうか (既定では割り当てられている) か、ユーザー固有です。既定では、すべてのユーザーは、グローバル音声ポリシーが割り当てられているし、ダイヤル プランです。 ユーザー アカウントが属しているサイトにサイト レベルの音声ポリシーとダイヤル プランが存在する場合は、それらのサイト ポリシーがユーザーに自動的に適用されます。 ユーザーごとの音声ポリシーまたはダイヤル プランをユーザーに適用するには、**Grant-CsVoicePolicy** および **Grant-CsDialPlan** コマンドレットを実行する必要があります。 詳細については、このトピックの以下の手順を参照してください。
 ## <a name="voice-policy-assignment"></a>音声ポリシーの割り当て
 
 グローバルおよびサイト レベルの音声ポリシーは、エンタープライズ VoIP を有効になっているすべてのユーザー アカウントに自動的に割り当てられます。 特定のユーザーまたはグループに適用する音声ポリシーを作成することもできます。 このようなユーザーごとのポリシーは、ユーザーまたはグループに明示的に割り当てる必要があります。 グローバルを使用して、またはエンタープライズ VoIP を有効にするすべてのユーザーの音声ポリシーをサイトにする場合は、このセクションをスキップし、このトピックの後半の[ダイヤル プランの割り当て](enable-users-for-enterprise-voice.md#BKMK_DialPlanAssignment)」を続行できます。
@@ -72,7 +73,7 @@ ms.locfileid: "23883757"
    Grant-CsVoicePolicy -Identity <UserIdParameter> -PolicyName <String>
    ```
 
-    例:
+    次に例を示します。
     
    ```
    Grant-CsVoicePolicy -Identity "Bob Kelly" -PolicyName VoicePolicyJapan

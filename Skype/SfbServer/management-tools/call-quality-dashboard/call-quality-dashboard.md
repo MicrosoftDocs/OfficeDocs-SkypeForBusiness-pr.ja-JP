@@ -1,5 +1,6 @@
 ---
-title: ビジネス サーバーの Skype の通話品質のダッシュ ボード
+title: Skype for Business Server の通話品質ダッシュボード
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eda05329-e306-469b-a69a-33806f58ec6f
 description: '概要: は、コール品質のダッシュ ボード、Skype ビジネス サーバー用のレポート作成ツールであるについて説明します。'
-ms.openlocfilehash: ec0924ff5e1c2d2099b004b0fd357d5e70b1f151
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 93830e6d0d746e44187241d9c300e4b5bd8ab3f2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531096"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883957"
 ---
-# <a name="call-quality-dashboard-for-skype-for-business-server"></a>ビジネス サーバーの Skype の通話品質のダッシュ ボード
+# <a name="call-quality-dashboard-for-skype-for-business-server"></a>Skype for Business Server の通話品質ダッシュボード
  
 **の概要:** コール品質のダッシュ ボード、Skype ビジネス サーバー用のレポート作成ツールであるについて説明します。
  

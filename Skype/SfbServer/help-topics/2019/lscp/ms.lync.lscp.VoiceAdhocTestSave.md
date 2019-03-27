@@ -1,5 +1,6 @@
 ---
-title: 音声のルーティング テスト_ケース情報を保存します。
+title: 音声ルーティングのテスト ケース情報の保存
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 一時音声ルーティング テスト_ケースを保存するのには、[音声ルーティング テスト_ケース情報の保存] ダイアログ ボックスを使用できます。 [音声ルーティング テスト_ケース情報を保存、名前でこのテスト_ケースを指定し、[OK] をクリックする名前を入力します。
-ms.openlocfilehash: 23e8d4999575b221a43be5e3c5011e31e9e1e768
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7e1c3eb48930ac1a227c3ad95da5074de0cb9c3f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989662"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878141"
 ---
-# <a name="save-voice-routing-test-case-information"></a>音声のルーティング テスト_ケース情報を保存します。
+# <a name="save-voice-routing-test-case-information"></a>音声ルーティングのテスト ケース情報の保存
  
 ル音声ルーティング テスト_ケースを保存するのには、[**音声ルーティング テスト_ケース情報の保存**] ダイアログ ボックスを使用できます。 [**音声ルーティング テスト_ケース情報の保存**、**名前**でこのテスト_ケースを指定し、[ **OK**] をクリックする名前を入力します。 
   

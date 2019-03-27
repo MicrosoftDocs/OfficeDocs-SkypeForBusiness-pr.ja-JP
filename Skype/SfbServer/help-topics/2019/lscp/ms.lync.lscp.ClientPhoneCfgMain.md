@@ -1,5 +1,6 @@
 ---
 title: デバイス構成
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -11,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 ROBOTS: NOINDEX, NOFOLLOW
-description: デバイスの構成は、全体またはサイト内のいずれか、ビジネス電話のエディション デバイスでは、Skype を管理するために使用される設定のコレクションです。 これらの設定を使用すると、必須のセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定、非アクティブな電話を指定の時間の経過後に自動的にロックするかどうかなどを構成できます。
-ms.openlocfilehash: fac770e05b6e85644f813c026dea51e855584e2a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: デバイスの構成は、全体またはサイト内のいずれか、ビジネス電話のエディション デバイスでは、Skype を管理するために使用される設定のコレクションです。 これらの設定により、必要なセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定などを構成したり、指定した非アクティブ期間の経過後、電話を自動的にロックするかどうかを指定したりすることができます。
+ms.openlocfilehash: 89050d6a2aaeeb94a6884dabc06bb01671809791
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008371"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881236"
 ---
 # <a name="device-configuration"></a>デバイス構成
  
-デバイスの構成は、全体またはサイト内のいずれか、ビジネス電話のエディション デバイスでは、Skype を管理するために使用される設定のコレクションです。 これらの設定を使用すると、必須のセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定、非アクティブな電話を指定の時間の経過後に自動的にロックするかどうかなどを構成できます。 
+デバイスの構成は、全体またはサイト内のいずれか、ビジネス電話のエディション デバイスでは、Skype を管理するために使用される設定のコレクションです。 これらの設定により、必要なセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定などを構成したり、指定した非アクティブ期間の経過後、電話を自動的にロックするかどうかを指定したりすることができます。 
   
 ## <a name="tasks-you-can-perform"></a>実行できるタスク
 

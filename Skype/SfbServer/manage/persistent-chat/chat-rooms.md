@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 での常設チャット サーバーのチャット ルームの管理
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: '概要: ビジネス サーバー 2015 の Skype で永続的なチャット サーバーのチャット ルームを管理する方法を説明します。'
-ms.openlocfilehash: 1c197be847d2a1359a3e6203df718cc34f1d9e41
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8764b40651c9872393867ced205c405cfc2d4046
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372150"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881731"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバーのチャット ルームの管理
  
 **の概要:** ビジネス サーバー 2015 の Skype で永続的なチャット サーバーのチャット ルームを管理する方法について説明します。
   
-カテゴリを適切に使用すると、チャット ルームの作成と管理が簡単になります。 カテゴリを作成したり、チャット ルームに参加するを定義します。 チャット ルームを管理しようとすると、前に、[永続的なチャット カテゴリ、チャット ルーム、およびビジネス サーバー 2015 の Skype のユーザーの役割](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)と[業務サーバー 2015 の Skype での永続的なチャット サーバーの管理カテゴリ](categories.md)を読み取ることを確認してください。
+カテゴリを適切に使用すると、チャット ルームの作成と管理が非常に簡単になります。 カテゴリを作成したり、チャット ルームに参加するを定義します。 チャット ルームを管理しようとすると、前に、[永続的なチャット カテゴリ、チャット ルーム、およびビジネス サーバー 2015 の Skype のユーザーの役割](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)と[業務サーバー 2015 の Skype での永続的なチャット サーバーの管理カテゴリ](categories.md)を読み取ることを確認してください。
   
 > [!NOTE]
 > 永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。 同じ機能は、チームで使用できます。 詳細については、[マイクロソフトのチームにビジネス用の Skype からの旅](/microsoftteams/journey-skypeforbusiness-teams)を参照してください。 永続的なチャットを使用する場合は、選択肢は、いずれかをチームでは、この機能を必要とするユーザーを移行するまたはビジネス サーバー 2015 の Skype を使用し続ける。 
@@ -49,12 +50,12 @@ ms.locfileid: "25372150"
 
 |**コマンドレット**|**説明**|
 |:-----|:-----|
-|新しい-CsPersistentChatRoom  <br/> |新しいチャット ルームを作成する  <br/> |
-|セット CsPersistentChatRoom  <br/> |既存のルームの設定を構成し、ユーザーおよびユーザー グループをルームに割り当てる  <br/> |
-|Get CsPersistentChatRoom  <br/> |ルームに関する情報を取得します。  <br/> |
-|クリア CsPersistentChatRoom  <br/> |ルームをクリアするか、ルームからメッセージをクリアする  <br/> |
-|削除 CsPersistentChatRoom  <br/> |ルームを削除する  <br/> |
-|削除 CsPersistentChatMessage  <br/> |ルームからメッセージを削除する  <br/> |
+|New-CsPersistentChatRoom  <br/> |新しいチャット ルームを作成する  <br/> |
+|Set-CsPersistentChatRoom  <br/> |既存のルームの設定を構成し、ユーザーおよびユーザー グループをルームに割り当てる  <br/> |
+|Get-CsPersistentChatRoom  <br/> |ルームに関する情報を取得します。  <br/> |
+|Clear-CsPersistentChatRoom  <br/> |ルームをクリアするか、ルームからメッセージをクリアする  <br/> |
+|Remove-CsPersistentChatRoom  <br/> |ルームを削除する  <br/> |
+|Remove-CsPersistentChatMessage  <br/> |ルームからメッセージを削除する  <br/> |
    
 **新規 CsPersistentChatRoom**コマンドレットを使用するにはチャット ルームとチャット ルームにユーザーを追加するなど、既存のチャット ルームを構成するのには**一連の CsPersistentChatRoom**コマンドレットを作成します。 チャット ルームには、次のパラメーターを構成することができます。
   
@@ -76,7 +77,7 @@ ms.locfileid: "25372150"
     
 - Presenters。大会議室チャット ルームに発表者を割り当てることができます。 
     
-  など、他のすべてのパラメーターの構文の詳細については、 [Skype ビジネス サーバー 2015 管理シェルに](../management-shell.md)を参照してください。
+  すべてのパラメーターを含む構文の詳細については、「[Skype for Business Server 2015 Management Shell](../management-shell.md)」を参照してください。
   
 ## <a name="create-a-new-room"></a>新しいルームを作成する
 

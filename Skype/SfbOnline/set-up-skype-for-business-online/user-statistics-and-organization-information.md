@@ -1,5 +1,6 @@
 ---
 title: ユーザーの統計および組織の情報
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 有効になっているユーザー数、電話会議に対応しているユーザー数、Office 365 を利用できるユーザー数などの、Skype for Business のユーザーの統計情報で利用できるものについて説明します。
-ms.openlocfilehash: bff5bd374f554bd05e443d6deb89b3a16ca10a64
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 785a5c8323eda012f50c290e2241321f54c4834f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861125"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882835"
 ---
 # <a name="user-statistics-and-organization-information"></a>ユーザーの統計および組織の情報
 

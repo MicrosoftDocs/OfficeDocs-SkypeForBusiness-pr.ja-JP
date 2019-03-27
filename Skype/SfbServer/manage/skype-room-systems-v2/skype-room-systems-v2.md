@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 description: Skype ルーム システム v2 の管理の概要です。
-ms.openlocfilehash: b30406c9f186fad699056a78ed1b18da9f59537a
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: edd73c6ecf973d0d066b5f46d949a792bc0910c5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699353"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880286"
 ---
 # <a name="management-overview"></a>管理の概要 
 
 確認して、Skype ルーム システム v2 システム、ユーザーの利用可能な優れた操作を提供する操作が発生しを開発し、継続的なメンテナンスを実行することが重要です。 
 
-## <a name="monitoring"></a>監視 
+## <a name="monitoring"></a>監視 
 
 Skype ルーム システム v2 のシステムの監視は、2 つの主要な活動で構成されます。
 
@@ -35,7 +35,7 @@ Skype ルーム システム v2 のシステムの監視は、2 つの主要な�
 ユーザーが Skype ルーム システム v2 の単位を使用できることを確認するには、単位は、Skype ルーム システム v2 アプリケーションが正しく構成されてネットワークに接続されている、および、機能している周辺機器に接続するのにする必要があります。 
 
 
-Skype ルーム システム v2 のアプリケーションと接続されている周辺機器の状態についての情報は、Skype ルーム システム v2 のアプリケーションによって Windows イベント ログに書き込まれ、[この資料に](oms.md#understand-the-log-entries)記載されています。 
+Skype ルーム システム v2 のアプリケーションと接続されている周辺機器の状態についての情報は、Skype ルーム システム v2 のアプリケーションによって Windows イベント ログに書き込まれ、[ログ エントリを理解するの](azure-monitor.md#understand-the-log-entries)に記載されています。 
 
 |**設定**|**により、**|
 |:-----|:-----|
@@ -43,19 +43,19 @@ Skype ルーム システム v2 のアプリケーションと接続されてい
 |電源管理 -\> AC、画面をオフに 10 分後  <br/> 電源管理 -\> Ac システムをスリープ状態を配置しません。  <br/> |により、接続されている表示をオフにして、自動的に復帰する Skype ルーム システム v2  <br/> |
 |net accounts /maxpwage:unlimited  <br/> またはローカル アカウントのパスワードの有効期限を無効にするのと同等のことを意味します。 これを行うには、障害が発生する Skype アカウントの期限切れのパスワードについて苦情を言ってログオンが失敗すると、最終的に。 したがってこれを設定して必要があります管理者アカウント、最終的にも期限切れにする] ボックスに、コンピューター上のすべてのローカル アカウントに影響を与えるこのこと注意してください。  <br/> |常にログインするように Skype アカウントを有効にする  <br/> |
    
-グループ ポリシーを使用したファイルの転送は「[[ファイル] 項目を構成する](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)」で説明しています。
+グループ ポリシーを使用してファイルを転送するは、[構成ファイルの項目](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)で説明します。
   
 ## <a name="remote-management-using-powershell"></a>PowerShell を使用したリモート管理
 <a name="RemotePS"> </a>
 
 
-Skype ルーム システム v2 システムを監視する Microsoft オペレーション マネージャーのスイートを使用することをお勧めします。 監視と警告の基本的なセットアップ方法については、 [OMS を使用して Skype ルーム システムの展開 v2 の管理](../../deploy/deploy-clients/with-oms.md)を参照してください。 
+Skype ルーム システム v2 システムを監視する Microsoft オペレーション マネージャーのスイートを使用することをお勧めします。 監視と警告の基本的なセットアップ方法については、 [Azure のモニターを使用して Skype ルーム システムの展開 v2 の管理](../../deploy/deploy-clients/azure-monitor.md)を参照してください。 
 
 このガイドを使用すると、Skype ルーム システム v2 の単位数と、配置での問題を識別する簡単に使用できるダッシュ ボードを作成できます。 
 
 |    |     |
 |-----------|------------|
-|![](../../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Skype ルーム システム v2 の展開を監視する操作の管理スイートを使用することを確認します。</li><li>メール ・ アラートを使用するターゲットの配布リストを決定します。</li></ul>|
+|![](../../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>Skype ルーム システム v2 の展開を監視する操作の管理スイートを使用することを確認します。</li><li>メール ・ アラートを使用するターゲットの配布リストを決定します。</li></ul>|
 |![](../../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>品質と信頼性の監視方法を定義します。</li></ul>|
 
 ## <a name="quality-and-reliability-monitoring-cqd"></a>品質と信頼性の監視 (救難)

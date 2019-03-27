@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバー 2015 の Skype での会議テーブル
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 description: このテーブルの各レコードには、呼び出しの詳細については、1 つの会議が含まれています。
-ms.openlocfilehash: f0d90f7abb99bce012e864fa2485386c335de409
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f0401c150f3835772ba0df20f8c02c64c9919921
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881954"
 ---
 # <a name="conferences-table-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype での会議テーブル
  
 このテーブルの各レコードには、呼び出しの詳細については、1 つの会議が含まれています。
   
-|**列**|**データ型**|**キーまたはインデックス**|**詳細**|
+|**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Primary  <br/> |会議の依頼は、CDR エージェントによってキャプチャされた時間です。 会議のインスタンスを一意に識別する主キーとしてのみ使用されます。  <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Primary  <br/> |セッションを識別する ID 番号。 会議のインスタンスを一意に識別するのには**SessionIdTime**と組み合わせてを使用します。 * <br/> |

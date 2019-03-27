@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバー 2015 と Exchange Server の Skype のパートナーのアプリケーションを構成します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 description: '概要: 2016 の Exchange Server や Exchange Server 2013 と Skype のビジネス サーバー用のサーバーの認証を構成します。'
-ms.openlocfilehash: f437b081466f837c012e0d2ddba8bea79d3ad445
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d9d2b32b637946555b906f24e7abbd5dda007d7f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973081"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878474"
 ---
 # <a name="configure-partner-applications-in-skype-for-business-server-and-exchange-server"></a>ビジネス サーバーと Exchange Server の Skype のパートナーのアプリケーションを構成します。
  
@@ -30,7 +31,7 @@ Skype ビジネス サーバーと Exchange Server 間でサーバーからサ�
   
 ## <a name="configuring-skype-for-business-server-to-be-a-partner-application-for-exchange-server"></a>Skype のビジネスのサーバーを Exchange Server のパートナーのアプリケーションを構成します。
 
-2016 の Exchange Server や Exchange Server 2013 とパートナーのアプリケーション サーバーをビジネス用の Skype を構成する最も簡単な方法では、Exchange Server に付属している Windows PowerShell スクリプトを構成する EnterprisePartnerApplication.ps1 スクリプトを実行します。 このスクリプトを実行するには、ビジネスのサーバー認証メタデータ ドキュメントの Skype の URL を指定する必要があります。通常、Skype のサフィックス/metadata/json/1 に続くビジネス サーバー プールの完全修飾ドメイン名になります。 例:
+2016 の Exchange Server や Exchange Server 2013 とパートナーのアプリケーション サーバーをビジネス用の Skype を構成する最も簡単な方法では、Exchange Server に付属している Windows PowerShell スクリプトを構成する EnterprisePartnerApplication.ps1 スクリプトを実行します。 このスクリプトを実行するには、ビジネスのサーバー認証メタデータ ドキュメントの Skype の URL を指定する必要があります。通常、Skype のサフィックス/metadata/json/1 に続くビジネス サーバー プールの完全修飾ドメイン名になります。 次に例を示します。
   
 ```
 https://atl-cs-001.litwareinc.com/metadata/json/1
@@ -52,13 +53,13 @@ Exchange 管理シェル内で、または管理者特権で実行して、他�
   
 ## <a name="configuring-exchange-server-to-be-a-partner-application-for-skype-for-business-server"></a>ビジネス サーバーの Skype のパートナー アプリケーションである Exchange Server を構成します。
 
-2016 の Exchange Server や Exchange Server 2013 のパートナーのアプリケーション サーバーをビジネス用の Skype を構成した後は、ビジネス サーバーの Skype のパートナー アプリケーションである Exchange Server を構成する必要があります。 これによってビジネス サーバー管理シェルには、Skype を使用して、exchange は認証メタデータ ドキュメントを指定します。通常サフィックス/metadata/json/1 の後に Exchange 自動検出サービスの URI になります。 例:
+2016 の Exchange Server や Exchange Server 2013 のパートナーのアプリケーション サーバーをビジネス用の Skype を構成した後は、ビジネス サーバーの Skype のパートナー アプリケーションである Exchange Server を構成する必要があります。 これによってビジネス サーバー管理シェルには、Skype を使用して、exchange は認証メタデータ ドキュメントを指定します。通常サフィックス/metadata/json/1 の後に Exchange 自動検出サービスの URI になります。 次に例を示します。
   
 ```
 https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 ```
 
-ビジネス サーバーの Skype は、パートナーのアプリケーションが[新しい CsPartnerApplication](https://docs.microsoft.com/powershell/module/skype/new-cspartnerapplication?view=skype-ps)コマンドレットを使用して構成されます。 メタデータの URI を指定するだけでなく設定はアプリケーションの信頼レベルを完全にこれによって、Exchange 自体およびレルム内のすべての権限を持つユーザーを表す。 例:
+ビジネス サーバーの Skype は、パートナーのアプリケーションが[新しい CsPartnerApplication](https://docs.microsoft.com/powershell/module/skype/new-cspartnerapplication?view=skype-ps)コマンドレットを使用して構成されます。 メタデータの URI を指定するだけでなく設定はアプリケーションの信頼レベルを完全にこれによって、Exchange 自体およびレルム内のすべての権限を持つユーザーを表す。 次に例を示します。
   
 ```
 New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"

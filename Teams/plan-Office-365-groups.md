@@ -1,5 +1,6 @@
 ---
 title: Microsoft Teams でチームを作成するときの Office 365 グループの計画
+ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a54549fd1e82affecad6a69d17e10cf6e1dc763
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 016831a9c3d5cac6c331d6112adbc2738ec8382b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640683"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884387"
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Microsoft Teams でチームを作成するときの Office 365 グループの計画
 ==========================================================
@@ -28,7 +29,7 @@ Office 365 グループを使用する場合やチームを作成する場合は
 
 Office 365 グループの計画と Microsoft Teams による影響 (または Microsoft Teams に対する影響) に関するディスカッションは次の 2 つのシナリオに分けることができます。
 
--   最初に、顧客グループに既存の投資があって、なので現在サポートして 2500 未満のメンバーのパブリックとプライベートの両方のグループ。 前述のように、ユーザーが Office 365 管理 web コンソールではなく、チームのクライアントを使用して、チームのメンバーシップを管理するためにします。 このシナリオでは、ユーザーが Office 365 のグループでの会話のスレッドに使用されている場合、ことがグループの会話にメールしていないチームのチャネルにチャット メッセージの形式は本質的にことを示すだけの価値です。 この違いについてユーザーを教育し、Outlook または OWA を使用してグループの電子メールを送信すると、チームでより柔軟性のあるチャット メッセージの形式を採用することを提案します。
+-   最初に、顧客グループに既存の投資があって後は、現在サポートしてパブリックとプライベートの両方のグループのメンバー数が 5,000 未満であります。 前述のように、ユーザーが Office 365 管理 web コンソールではなく、チームのクライアントを使用して、チームのメンバーシップを管理するためにします。 このシナリオでは、ユーザーが Office 365 のグループでの会話のスレッドに使用されている場合、ことがグループの会話にメールしていないチームのチャネルにチャット メッセージの形式は本質的にことを示すだけの価値です。 この違いについてユーザーを教育し、Outlook または OWA を使用してグループの電子メールを送信すると、チームでより柔軟性のあるチャット メッセージの形式を採用することを提案します。
 
 -   第 2 に、Office 365 で定義されている既存のグループを持たないお客様の場合は、作成することも、Office 365 管理ポータルでは、チームの web またはデスクトップ クライアントを使用しています。前述のように、すべての将来チームのクライアントを使用して Office 365 のグループ メンバーシップを管理します。チームのメンバーシップは、メンバーシップを定義する、Office 365 のグループには、ので、この変更の人を準備する必要があります。
  

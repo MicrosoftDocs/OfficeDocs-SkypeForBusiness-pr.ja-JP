@@ -1,5 +1,6 @@
 ---
-title: プロパティを割り当てる
+title: プロパティの割り当て
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c799a3-90a0-4d58-8f8b-17eea56144dc
 description: 同時に複数のサブネットに、説明、およびネットワークのサイト ID を指定するのにプロパティの割り当て] ダイアログ ボックスを使用します。 [説明] に、選択したサブネットを使用する説明を入力します。 [ネットワーク サイト ID に割り当てる] を選択したサブネットをネットワーク サイト ID を選択します。 これらのプロパティを選択したサブネットに割り当てるには、[OK] をクリックします。
-ms.openlocfilehash: 5111f74c27ea2c367218a79c9ea1e0fbb0df0a3a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: bfd05528da40f35e0adf6361253a8682d91719cf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20990275"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883033"
 ---
-# <a name="assign-properties"></a>プロパティを割り当てる
+# <a name="assign-properties"></a>プロパティの割り当て
  
 同時に複数のサブネットに、説明、およびネットワークのサイト ID を指定するのに**プロパティの割り当て**] ダイアログ ボックスを使用します。 [**説明**] に選択したサブネットを使用する説明を入力します。 [**ネットワーク サイト ID**に割り当てる] を選択したサブネットをネットワーク サイト ID を選択します。 これらのプロパティを選択したサブネットに割り当てるには、[ **OK**] をクリックします。
   

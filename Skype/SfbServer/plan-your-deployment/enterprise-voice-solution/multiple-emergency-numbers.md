@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーに、Skype で複数の緊急番号を計画します。
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: ビジネス サーバーに、Skype で複数の緊急番号を計画する方法については、このトピックを参照してください。
-ms.openlocfilehash: 6a27539641544682f6cb0905d8434f632fa868f2
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: e3ecbc039dac510a1ebc5eb989773c1f32c3b6ac
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23891522"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880764"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>ビジネス サーバーに、Skype で複数の緊急番号を計画します。
  
@@ -73,9 +74,12 @@ Skype ビジネス サーバーがクライアントの複数の緊急番号の�
 
 |**場所のポリシー名**|**E911 有効**|**緊急ダイヤル文字列**|**ダイヤル マスク**|**緊急番号**|**PSTN 使用法**|**対象場所**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|米国  <br/> |はい  <br/> |911  <br/> | 112; 999 <br/> ||USEmergency  <br/> |はい  <br/> |
-|US-Hospital  <br/> |はい  <br/> |911  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |はい  <br/> |
-|ロンドン  <br/> |はい  <br/> |999  <br/> |144  <br/> |999 144  <br/> 112 911; 117 118  <br/> |GBEmergency  <br/> |不可  <br/> |
+|米国  <br/> |あり  <br/> |911  
+  <br/> | 112;999 <br/> ||USEmergency  <br/> |はい  <br/> |
+|US-Hospital  <br/> |はい  <br/> |911  
+  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |はい  <br/> |
+|ロンドン  <br/> |はい  <br/> |999  
+  <br/> |144  <br/> |999 144  <br/> 112 911; 117 118  <br/> |GBEmergency  <br/> |不可  <br/> |
 |India  <br/> |はい  <br/> |||100-911  <br/> 101  <br/> 102  <br/> |IndiaEmergency  <br/> |いいえ  <br/> |
    
  **米国**複数の緊急番号の要件はありません。 アメリカ合衆国では、古い緊急電話番号とダイヤル マスク構成を使用します。
@@ -91,17 +95,17 @@ Skype ビジネス サーバーがクライアントの複数の緊急番号の�
 
 次の表に、クライアントによる複数の緊急電話番号のサポート状況を示します。その他のクライアント サポートも引き続きテストされ、リリースされる予定です。定期的に再確認してください。
 
-|**Windows **|**Version**|
+|**Windows **|**バージョン**|
 |:-----|:-----|
 |**クイック実行** <br/> |バージョン 1604 (ビルド 6868.2062) の 2016 - 5 月 10 日にリリースされた CC (現在のチャネル)  <br/> |
 ||FRDC (最新機能提供チャネルの最初のリリース) 2016 年 6 月 14 日リリース - バージョン 1605 (ビルド 6965.2058)  <br/> |
 ||DC (保留にされたチャネル) 2016 年 10 月 11 日リリース - バージョン 1605 (ビルド 6965.2092)  <br/> |
 |**MSI** <br/> |6 月 7 日更新-[https://support.microsoft.com/en-us/kb/3115087](https://support.microsoft.com/en-us/kb/3115087) <br/> |
-|**Mac と iOS** <br/> |**Version** <br/> |
+|**Mac と iOS** <br/> |**バージョン** <br/> |
 ||Skype for Mac クライアントのバージョン 16.9 のビジネス  <br/> ビジネス iOS クライアント バージョン 6.16 の Skype  <br/> |
-|**Android** <br/> |**Version** <br/> |
+|**Android** <br/> |**バージョン** <br/> |
 ||ビジネス Android クライアント バージョン 6.17 の Skype  <br/> |
-|**Lync Phone Edition** <br/> |**Version** <br/> |
+|**Lync Phone Edition** <br/> |**バージョン** <br/> |
 || Aastra 6721ip Aastra 6725ip 電話 - 2016年 9 月の累積的な更新 (ビルド 7577.4512)-[https://support.microsoft.com/en-us/kb/3194831](https://support.microsoft.com/en-us/kb/3194831) <br/> |
 || HP 4110 および HP 4120 電話 - 2016年 9 月の累積的な更新 (ビルド 7577.4512)-[https://support.microsoft.com/en-us/kb/3194832](https://support.microsoft.com/en-us/kb/3194832) <br/> |
 ||ポリコム CX500、CX600 のポリコム、およびポリコム CX3000 電話 - 2016年 9 月の累積的な更新 (ビルド 7577.4512)-[https://support.microsoft.com/en-us/kb/3194833](https://support.microsoft.com/en-us/kb/3194833) <br/> |

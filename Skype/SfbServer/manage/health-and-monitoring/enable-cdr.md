@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype での通話の詳細記録を有効にします。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: '概要: は、Skype のビジネス サーバー (CDR) のレコードを記録呼び出しの詳細を有効にする方法を説明します。'
-ms.openlocfilehash: e010f76e25f8ab0894df1dc3a5bbb8a917c93ada
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 8ba053c95dcb9e43b6951671853d2c064ad5542f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245524"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884513"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>ビジネス サーバーの Skype での通話の詳細記録を有効にします。
 
@@ -25,7 +26,7 @@ ms.locfileid: "23245524"
 組織全体または組織内の各サイトで CDR を有効にするには、次の手順を実行します。
 
 > [!NOTE]
-> CDR を有効にするには、監視および監視データベースを構成する必要があります。 詳細については、[展開の監視](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)を参照してください。
+> CDR を有効にするには、監視および監視データベースを構成する必要があります。詳細については、「[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)」を参照してください。
 
 ### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype で CDR を有効にするには
 
@@ -74,4 +75,4 @@ CDR を有効にするには、Windows PowerShell と**セット CsCdrConfigurat
 
 [監視の計画](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
 
-[監視を展開します。](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)

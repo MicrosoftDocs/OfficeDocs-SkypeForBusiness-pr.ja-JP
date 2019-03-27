@@ -1,5 +1,6 @@
 ---
 title: ~ 9-1-1 では、Skype のビジネス サーバーに対してユーザーを有効にします。
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3cc64f5b-492e-4c47-9713-3c376f2aad02
 description: 決定を下す ~ 9-1-1 展開の Skype での場所のポリシーに必要なビジネス サーバー エンタープライズ VoIP を有効にするには、どのユーザーも含めて、移動ユーザーをサポートする方法です。
-ms.openlocfilehash: 24a50384ec0f455c1998aa97274890e6346e5a01
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 57a84d18bec0547f1179e62013c9b957afdd2c53
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889910"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879308"
 ---
 # <a name="enable-users-for-e9-1-1-in-skype-for-business-server"></a>~ 9-1-1 では、Skype のビジネス サーバーに対してユーザーを有効にします。
  

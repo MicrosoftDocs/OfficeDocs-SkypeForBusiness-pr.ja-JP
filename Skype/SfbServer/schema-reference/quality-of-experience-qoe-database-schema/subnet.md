@@ -1,5 +1,6 @@
 ---
 title: Subnet テーブル
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,22 +10,23 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 76f5c995-96c8-4aa3-bc30-1d74991d7c42
-description: The Subnet table is a supporting table. Each record represents one subnet defined in network configuration setting.
-ms.openlocfilehash: ed54341e66c3370086047eb9b073d2560172a261
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: サブネット テーブルはサポート テーブルです。 各レコードは、ネットワーク構成設定で定義されている 1 つのサブネットを表します。
+ms.openlocfilehash: aa91202bfb46a96f86ea3a631be3b964a17a6058
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880477"
 ---
 # <a name="subnet-table"></a>Subnet テーブル
  
-The Subnet table is a supporting table. Each record represents one subnet defined in network configuration setting.
+サブネット テーブルはサポート テーブルです。 各レコードは、ネットワーク構成設定で定義されている 1 つのサブネットを表します。
   
-|**Column**|**Data Type**|**Key/Index**|**詳細**|
+|**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**SubnetIP** <br/> |int  <br/> |Primary, Foreign  <br/> |Integer representation for the subnet IP.  <br/> |
-|**SubnetMask** <br/> |int  <br/> ||サブネット マスク。  <br/> |
-|**UserSiteKey** <br/> |int  <br/> |Foreign  <br/> |Referenced from the [UserSite table](usersite.md).  <br/> |
-|**SubnetDescription** <br/> |nvarchar(512)  <br/> ||The description for the subnet.  <br/> |
+|**SubnetIP** <br/> |int  <br/> |プライマリ サーバーで、外部  <br/> |サブネット ip アドレスの整数表現。  <br/> |
+|**サブネット マスク** <br/> |int  <br/> ||サブネット マスク。  <br/> |
+|**UserSiteKey** <br/> |int  <br/> |外部  <br/> |[UserSite テーブル](usersite.md)から参照されています。  <br/> |
+|**SubnetDescription** <br/> |nvarchar(512)  <br/> ||サブネットの説明です。  <br/> |
    
 

@@ -1,5 +1,6 @@
 ---
-title: Lync Server 2010 エッジ サーバー FQDN 設定の展開
+title: Lync Server 2010 用のエッジ サーバー FQDN 設定エキスパンダー
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: '[外部設定] でプロパティを定義するには、次のように構成します。'
-ms.openlocfilehash: d925da792e2c2c296707a99d6a4ae6b29c0545a9
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3ebd98c17f7b32af72809375bd17e55514684e6d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375609"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882349"
 ---
-# <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Lync Server 2010 エッジ サーバー FQDN 設定の展開
+# <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Lync Server 2010 用のエッジ サーバー FQDN 設定エキスパンダー
  
 [**外部設定**] でプロパティを定義するには、次のように構成します。
   

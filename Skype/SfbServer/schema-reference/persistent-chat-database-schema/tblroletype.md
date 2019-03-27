@@ -1,5 +1,6 @@
 ---
 title: tblRoleType
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1eac3a54-656a-40ac-b771-edfc64d6e34b
 description: tblRoleType は、ロールの種類とその関連付けられたアクセス許可セットの静的なルックアップ テーブルです。
-ms.openlocfilehash: 2a380539c547f4ba6eb911f7e5247056c59a73ca
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6b5e545306c402fbfb89094a19799fe3ff6d2e34
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883146"
 ---
 # <a name="tblroletype"></a>tblRoleType
  
@@ -22,7 +24,7 @@ tblRoleType は、ロールの種類とその関連付けられたアクセス�
   
 **列**
 
-|**列**|**タイプ**|**説明**|
+|**列**|**型**|**説明**|
 |:-----|:-----|:-----|
 |rtypeID  <br/> |int 型、null でないです。  <br/> |ロールの種類の id。  <br/> |
 |rtypeDesc  <br/> |nvarchar (256)、null でないです。  <br/> | ロールの種類の説明です。 次の 4 つの使用可能なロールがあります。 <br/>  メンバー: チャット ルームのメンバー <br/>  : チャット ルーム マネージャー <br/>  聴衆のチャット ルームの発表者の濁点。 <br/>  作成者: チャット ルームを作成できます。 <br/> |

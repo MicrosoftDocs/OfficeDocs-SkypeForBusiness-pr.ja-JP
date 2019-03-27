@@ -1,5 +1,6 @@
 ---
 title: 通話品質のダッシュ ボード (救難) ビジネス サーバーの Skype でのデータ API
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
 description: '概要: は、通話品質のダッシュ ボードの期間の API について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: 0af168c46e8b2732d5c967550391ab52459ddf95
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8dd04971533a8631b4f95be2f13bad84e41963d7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531758"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881804"
 ---
 # <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>通話品質のダッシュ ボード (救難) ビジネス サーバーの Skype でのデータ API
  
@@ -32,12 +33,12 @@ ms.locfileid: "26531758"
 
 |**操作**|**説明**|
 |:-----|:-----|
-|[キューブを取得します。](get-cube.md) <br/> |使用可能なディメンションと測定値の一覧を取得します。  <br/> |
-|[ディメンション メンバーを取得します。](get-dimension-members.md) <br/> |ディメンション メンバーの取得操作は、特定のディメンションのメンバーの一覧を返します。 また、メンバーの一覧をフィルター処理し、ワイヤ転送コストを削減するのには、サブセットを取得する機能を提供します。  <br/> |
-|[クエリを実行します。](run-query.md) <br/> |操作には、指定した寸法、測定、およびフィルターに基づいて、キューブに対してクエリを実行する機能が用意されています。 クエリを実行し、データを返します。  <br/> |
+|[キューブの取得](get-cube.md) <br/> |使用可能なディメンションと測定値の一覧を取得します。  <br/> |
+|[ディメンションのメンバーの取得](get-dimension-members.md) <br/> |ディメンション メンバーの取得操作は、特定のディメンションのメンバーの一覧を返します。 また、メンバーの一覧をフィルター処理し、ワイヤ転送コストを削減するのには、サブセットを取得する機能を提供します。  <br/> |
+|[クエリの実行](run-query.md) <br/> |操作には、指定した寸法、測定、およびフィルターに基づいて、キューブに対してクエリを実行する機能が用意されています。 クエリを実行し、データを返します。  <br/> |
 |[キャッシュのクリア](clear-cache.md) <br/> |キャッシュのクリアの操作は、クエリとデータのサーバー上のキャッシュを削除します。 キャッシュがリセットし、紹介最新データ QoE キューブから後で新しい要求をします。  <br/> |
-|[統合ログを取得します。](get-integration-log.md) <br/> |操作が返されます QoE のキューブに含まれるアクティビティを説明するログ エントリの一覧を処理する統合ログを取得します。  <br/> |
-|[最後の統合データを取得します。](get-last-integration-data.md) <br/> |最後の統合データをキューブから取得します。  <br/> |
+|[統合ログの取得](get-integration-log.md) <br/> |操作が返されます QoE のキューブに含まれるアクティビティを説明するログ エントリの一覧を処理する統合ログを取得します。  <br/> |
+|[直近の統合データの取得](get-last-integration-data.md) <br/> |最後の統合データをキューブから取得します。  <br/> |
    
  **クロス元のリソース共有先のデータ API のサポートを (CORS)**
   

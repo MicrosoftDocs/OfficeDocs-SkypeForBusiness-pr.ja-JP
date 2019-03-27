@@ -1,5 +1,6 @@
 ---
-title: 証明書をインポートする (呼び出す)
+title: 証明書のインポート (起動)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 1c248faa-2023-48b2-8cac-9a28045b72c3
 ROBOTS: NOINDEX, NOFOLLOW
 description: コマンドの実行] ページで、インポートする証明書の要約情報を確認します。 ボックスの一覧で、証明書のインポート ログ ファイルを選択します。 証明書のインポート ログ ファイルがドロップ ダウン リストに表示されていることを確認します。 [証明書のインポートの詳細を確認するのにはログの表示] をクリックします。 サマリーとログ ファイルの確認が終了したら、[完了] をクリックします。
-ms.openlocfilehash: 51617b3cb88c379138525ae8621b2e705d0d00bf
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e892dde5317c7c8ee8583b5054ccf46ccf306250
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21004085"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881605"
 ---
-# <a name="import-certificate-invoke"></a>証明書をインポートする (呼び出す)
+# <a name="import-certificate-invoke"></a>証明書のインポート (起動)
  
 **コマンドの実行**] ページで、インポートする証明書の要約情報を確認します。 ボックスの一覧で、証明書のインポート ログ ファイルを選択します。 証明書のインポート ログ ファイルがドロップ ダウン リストに表示されていることを確認します。 [証明書のインポートの詳細を確認するのには**ログの表示**] をクリックします。 サマリーとログ ファイルの確認が終了したら、[**完了**] をクリックします。
   

@@ -1,5 +1,6 @@
 ---
-title: Skype for Business Online のセットアップ
+title: Skype for Business Online をセットアップする
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,14 +23,14 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: 'ビジネス用の Skype をインストールするのには、ドメイン、ユーザー、IM およびプレゼンスを組織の設定について説明します。 オーディオ会議、電話システムおよび計画を呼び出すには、Skype の会議のブロードキャストを設定する方法を参照してください。 '
-ms.openlocfilehash: af472553cea8a79f2fe9d918f7924f8884e834b5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2a968fa0f5b89351c2a7a2726052b1418f0ac213
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374477"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878686"
 ---
-# <a name="set-up-skype-for-business-online"></a>Skype for Business Online のセットアップ
+# <a name="set-up-skype-for-business-online"></a>Skype for Business Online をセットアップする
 
 ビジネス用の Skype を設定するのには Office 365 のグローバル管理者の権限が必要です。 Web パーツへのアクセスを制限するファイアウォールまたはプロキシ サーバーがある場合は、ビジネス用の Skype を設定するには、[マイクロソフト パートナー](https://go.microsoft.com/fwlink/?linkid=391089)の採用を検討してください。
 
@@ -116,7 +117,7 @@ Office 365 にサインインしていることビジネス オンラインの S
 
 ほかのユーザーがお客様のビジネスができるかどうかを最初に、テスト[ビデオ: ビジネスの Skype との間で署名を](https://support.office.com/article/8abed4b3-ac48-493e-9d76-0e10140e9451)。 互いの存在を参照するくださいと、短時間のミーティングを実行するくださいと、その他の IM をすることができますを確認します。
 
-問題でしょうか。 次の操作を実行します。
+問題でしょうか。 次の手順を実行します。
 
 - [ビジネス用の Skype にサインインのヘルプが必要ですか?](https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05)一般的な記号に問題があります。
 
@@ -171,7 +172,7 @@ Skype 会議のブロードキャストを設定する手順の概要を以下�
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 <a name="bkmk_more"> </a>
 
 [Skype for Business Server と Skype for Business Online 間のハイブリッド接続を計画する](https://go.microsoft.com/fwlink/p/?linkid=400791)

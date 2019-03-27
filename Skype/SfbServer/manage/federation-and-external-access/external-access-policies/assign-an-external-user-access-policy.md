@@ -1,5 +1,6 @@
 ---
-title: 外部ユーザー アクセス ポリシーを割り当てる
+title: 外部ユーザー アクセス ポリシーの割り当て
+ms.reviewer: ''
 ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398551(v=OCS.15)
 ms:contentKeyID: 48184483
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ユーザーが有効になって Skype のビジネス サーバー、SIP フェデレーション、リモート ユーザー アクセス、およびパブリック インスタント ビジネス サーバーのコントロール パネルの特定のユーザーに適切なポリシーを適用することにより、Skype での (IM) 接続をメッセージングを構成できます。
-ms.openlocfilehash: 3498b7aabaddc80053efca70b89198c224147c0e
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: f07a407fee6f32f4cd4207c93ca19341e409ea78
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222843"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881501"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>外部ユーザー アクセス ポリシーを有効になっているビジネス ユーザーに、Skype を割り当てる
 
@@ -44,7 +45,7 @@ ms.locfileid: "27222843"
 5.  **外部アクセス ポリシー**] の下の**サーバー ユーザーのビジネスの Skype を編集**、適用するユーザー ポリシーを選択します。
      
 > [!NOTE]  
-> **\<自動 >** の設定は、既定のサーバーまたはグローバル ポリシーの設定を適用します。
+> ** \<Automatic>** の設定は、既定のサーバーまたはグローバル ポリシーの設定を適用します。
 
 
 ## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して、ユーザーごとの外部アクセス ポリシーを割り当てる

@@ -1,5 +1,6 @@
 ---
 title: 常設チャットのポリシー
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
 ROBOTS: NOINDEX, NOFOLLOW
 description: 永続的なチャット グループの永続的なチャットのポリシー] ページを使用するには既定のグローバル ポリシーを構成するポリシーを作成する 1 つまたは複数追加ユーザーとサイトの展開など、グローバル、プール、サイト、またはユーザー レベルでポリシーを管理します。 ポリシーによってユーザーの永続的なチャット サーバーが有効である場合は、そのクライアントに永続的なチャット サーバー環境が表示されます。
-ms.openlocfilehash: 536aaf41ecc7803029516d5471d7de8b6c207fe2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 96ac4afd1cfdde0430d98a7797e8c8ba69e920b8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968053"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878760"
 ---
 # <a name="persistent-chat-policy"></a>常設チャットのポリシー
 

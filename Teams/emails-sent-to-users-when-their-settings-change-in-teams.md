@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft Teams でダイヤルイン会議の設定を変更したときにユーザーに自動的に送信される情報について説明します。 '
-ms.openlocfilehash: cdd45eaad709ed2060cc0b0f9700e213ea884b72
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 67e4945095b9ed7e69632741e04b4ac384741feb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633335"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883420"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Microsoft Teams で設定を変更したときにユーザーに送信されるメール
 
@@ -77,7 +77,7 @@ Microsoft を電話会議プロバイダーとして使用して[電話会議を
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>ユーザーに送信されるメールのメッセージを変更する
 
-自動的にユーザーに送信されるメールの、*差出人*の連絡先情報に含まれるメール アドレスや表示名を、変更することができます。 既定では、メールの送信者は Office 365 ですが、Windows PowerShell を使用してメール アドレスと表示名を変更することができます。 詳細については、[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)をご覧ください。
+ユーザーに自動的に送信される電子メールには、変更を行うことができます。 既定では、電子メールの送信者は、Office 365 からなりますが、Windows PowerShell を使用して表示名を変更することができます。 詳細については、[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)をご覧ください。
 
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>ユーザーにメールが送信されないようにする場合
 

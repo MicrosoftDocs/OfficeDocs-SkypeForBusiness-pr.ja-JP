@@ -1,5 +1,6 @@
 ---
 title: Skype ビジネス サーバー用のクラスでのスキーマの属性
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
 description: このセクションでは、サーバーのビジネス クラスとその他のクラスに組み込むことができるクラスの各 Skype で組み込むことができるスキーマの属性を一覧表示します。 すべてのクラスとその説明のリストは、スキーマのクラスおよびビジネス サーバーの Skype での説明を参照してください。 すべての属性とその説明のリストは、スキーマの属性および Skype ビジネス サーバーの説明を参照してください。
-ms.openlocfilehash: 6ecfea185ad18ad6a84a5d3e735f6cfa4b9b68f1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: a2dc6ee09730c1245a3242f88ad25ad07f9b582a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880890"
 ---
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>Skype ビジネス サーバー用のクラスでのスキーマの属性
  
@@ -24,7 +26,7 @@ ms.lasthandoff: 03/28/2018
 
 |**クラス**|**これらの属性が含まれている可能性があります。**|
 |:-----|:-----|
-|連絡先  <br/> |msDS SourceObjectDN  <br/> msRTCSIP AcpInfo  <br/> msRTCSIP ApplicationDestination  <br/> msRTCSIP ApplicationOptions  <br/> msRTCSIP ApplicationPrimaryLanguage  <br/> msRTCSIP ApplicationSecondaryLanguages  <br/> msRTCSIP ArchivingEnabled  <br/> msRTCSIP DeploymentLocator  <br/> msRTCSIP FederationEnabled  <br/> msRTCSIP GroupingID  <br/> msRTCSIP InternetAccessEnabled  <br/> msRTCSIP ライン  <br/> msRTCSIP LineServer  <br/> msRTCSIP OptionFlags  <br/> msRTCSIP OriginatorSid  <br/> msRTCSIP OwnerUrn  <br/> msRTCSIP PrimaryHomeServer  <br/> msRTCSIP PrimaryUserAddress  <br/> msRTCSIP PrivateLine  <br/> msRTCSIP ProxyAddresses  <br/> msRTCSIP SourceObjectType  <br/> msRTCSIP TargetHomeServer  <br/> msRTCSIP TargetUserPolicies  <br/> msRTCSIP TenantId  <br/> msRTCSIP UserEnabled  <br/> msRTCSIP UserExtension  <br/> msRTCSIP UserLocationProfile  <br/> msRTCSIP UserPolicies  <br/> msRTCSIP UserPolicy  <br/> msRTCSIP UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
+|連絡先  <br/> |msDS SourceObjectDN  <br/> msRTCSIP AcpInfo  <br/> msRTCSIP ApplicationDestination  <br/> msRTCSIP ApplicationOptions  <br/> msRTCSIP ApplicationPrimaryLanguage  <br/> msRTCSIP ApplicationSecondaryLanguages  <br/> msRTCSIP ArchivingEnabled  <br/> msRTCSIP-DeploymentLocator  <br/> msRTCSIP FederationEnabled  <br/> msRTCSIP GroupingID  <br/> msRTCSIP InternetAccessEnabled  <br/> msRTCSIP ライン  <br/> msRTCSIP LineServer  <br/> msRTCSIP OptionFlags  <br/> msRTCSIP OriginatorSid  <br/> msRTCSIP OwnerUrn  <br/> msRTCSIP PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> msRTCSIP PrivateLine  <br/> msRTCSIP ProxyAddresses  <br/> msRTCSIP SourceObjectType  <br/> msRTCSIP TargetHomeServer  <br/> msRTCSIP TargetUserPolicies  <br/> msRTCSIP TenantId  <br/> msRTCSIP UserEnabled  <br/> msRTCSIP UserExtension  <br/> msRTCSIP UserLocationProfile  <br/> msRTCSIP UserPolicies  <br/> msRTCSIP UserPolicy  <br/> msRTCSIP UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
 |メール受信者  <br/> |msExchUCVoiceMailSettings  <br/> msExchUserHoldPolicies  <br/> |
 |msRTCSIP ApplicationServerService  <br/> |msRTCSIP ApplicationServerBL  <br/> |
 |msRTCSIP ApplicationServerSettings  <br/> |msRTCSIP ApplicationList  <br/> msRTCSIP ApplicationServerPoolLink  <br/> msRTCSIP ExtensionData  <br/> msRTCSIP ServerVersion  <br/> |
@@ -53,7 +55,7 @@ ms.lasthandoff: 03/28/2018
 |msRTCSIP TrustedWebComponentsServer  <br/> |msRTCSIP TrustedWebComponentsServerData  <br/> msRTCSIP TrustedWebComponentsServerFQDN  <br/> msRTCSIP TrustedServerVersion  <br/> |
 |msRTCSIP WebComponentsService  <br/> |msRTCSIP WebComponentsServers  <br/> |
 |msRTCSIP WebComponentSettings  <br/> |msRTCSIP WebComponentsData  <br/> msRTCSIP WebComponentsPoolAddress  <br/> msRTCSIP ServerVersion  <br/> |
-|ユーザー  <br/> |msRTCSIP AcpInfo  <br/> msRTCSIP ApplicationOptions  <br/> msRTCSIP ArchivingEnabled  <br/> msRTCSIP DeploymentLocator  <br/> msRTCSIP FederationEnabled  <br/> msRTCSIP GroupingID  <br/> msRTCSIP InternetAccessEnabled  <br/> msRTCSIP ライン  <br/> msRTCSIP LineServer  <br/> msRTCSIP OptionFlags  <br/> msRTCSIP OriginatorSid  <br/> msRTCSIP OwnerUrn  <br/> msRTCSIP PrimaryHomeServer  <br/> msRTCSIP PrimaryUserAddress  <br/> msRTCSIP PrivateLine  <br/> msRTCSIP TargetHomeServer  <br/> msRTCSIP TargetUserPolicies  <br/> msRTCSIP TenantId  <br/> msRTCSIP UserEnabled  <br/> msRTCSIP UserExtension  <br/> msRTCSIP UserLocationProfile  <br/> msRTCSIP UserPolicies  <br/> msRTCSIP UserPolicy  <br/> msRTCSIP UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
+|ユーザー  <br/> |msRTCSIP AcpInfo  <br/> msRTCSIP ApplicationOptions  <br/> msRTCSIP ArchivingEnabled  <br/> msRTCSIP-DeploymentLocator  <br/> msRTCSIP FederationEnabled  <br/> msRTCSIP GroupingID  <br/> msRTCSIP InternetAccessEnabled  <br/> msRTCSIP ライン  <br/> msRTCSIP LineServer  <br/> msRTCSIP OptionFlags  <br/> msRTCSIP OriginatorSid  <br/> msRTCSIP OwnerUrn  <br/> msRTCSIP PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> msRTCSIP PrivateLine  <br/> msRTCSIP TargetHomeServer  <br/> msRTCSIP TargetUserPolicies  <br/> msRTCSIP TenantId  <br/> msRTCSIP UserEnabled  <br/> msRTCSIP UserExtension  <br/> msRTCSIP UserLocationProfile  <br/> msRTCSIP UserPolicies  <br/> msRTCSIP UserPolicy  <br/> msRTCSIP UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
    
 ### <a name="classes-contained-in-other-classes"></a>他のクラスに含まれるクラス
 

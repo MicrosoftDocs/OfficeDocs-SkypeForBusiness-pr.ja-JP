@@ -1,5 +1,6 @@
 ---
 title: モバイル クライアントのプッシュ通知の構成
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 ROBOTS: NOINDEX, NOFOLLOW
 description: マイクロソフト プッシュ通知と Apple のプッシュ通知を構成するには、必要なプッシュ通知の種類を定義するのにはポリシーを作成する必要があります。
-ms.openlocfilehash: 96f3b65e522df0629a9e3fca6558442bc7de3792
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: a2dafb190d0eb1c29d1dfb7cc07af40a10fb107c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374113"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882433"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>モバイル クライアント: プッシュ通知の構成
  

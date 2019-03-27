@@ -1,5 +1,6 @@
 ---
 title: Skype のビジネス サーバーの Active Directory を準備します。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: '概要: は、Skype のインストールのビジネス サーバーの Active Directory ドメインを準備する方法を説明します。 ビジネスのサーバーで Microsoft の評価の中心からの Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: 278a46ab7f39f3274905741fb40212869c043e9e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: de5de35377e526844a7badeb9897fe29b4b15db4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884005"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880827"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>Skype のビジネス サーバーの Active Directory を準備します。
  
@@ -175,4 +176,4 @@ Skype ビジネス サーバーは、Active Directory ドメイン サービス 
 
 ## <a name="see-also"></a>関連項目
  
-[Skype for Business Server 2015 用の Active Directory ドメイン サービス](../../plan-your-deployment/security/active-directory-domain-services.md)
+[Active Directory Domain Services for Skype for Business Server 2015](../../plan-your-deployment/security/active-directory-domain-services.md)

@@ -1,5 +1,6 @@
 ---
 title: VideoStream テーブル
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
 description: 各レコードは、1 つのビデオ ストリームを表します。 通常、1 つのビデオ メディア ラインには、2 つのビデオ ストリームが含まれています。
-ms.openlocfilehash: 27a9c8cdd8b1975b7854147b5855a8494155ce2a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d6eeeb96acc766859d6b57594bd11a5538593da3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881682"
 ---
 # <a name="videostream-table"></a>VideoStream テーブル
  
 各レコードは、1 つのビデオ ストリームを表します。 通常、1 つのビデオ メディア ラインには、2 つのビデオ ストリームが含まれています。
   
-|**列**|**データ型**|**キーまたはインデックス**|**詳細**|
+|**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |[MediaLine テーブル](medialine-0.md)から参照されています。  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primary  <br/> |R は、 [MediaLine テーブル](medialine-0.md)から参照されています。  <br/> |
@@ -29,7 +31,7 @@ ms.lasthandoff: 03/28/2018
 |**VideoPayloadDescription** <br/> |smallint  <br/> |外部、主  <br/> |ペイロードの説明です。 詳細については、 [PayloadDescription テーブル](payloaddescription.md)を参照してください。 <br/> |
 |**JitterInterArrival** <br/> |int  <br/> | <br/> |リアルタイム制御プロトコル (RTCP) 統計情報のネットワークの平均ジッター。  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> | <br/> |ビデオ ・ セッション中に最大ネットワーク ジッター。  <br/> |
-|**ラウンドト リップ** <br/> |int  <br/> | <br/> |RTCP の統計情報のラウンド トリップ時間です。  <br/> |
+|**RoundTrip** <br/> |int  <br/> | <br/> |RTCP の統計情報のラウンド トリップ時間です。  <br/> |
 |**RoundTripMax** <br/> |int  <br/> | <br/> |ビデオ ストリームの最大のラウンド トリップ時間です。  <br/> |
 |**PacketLossRate** <br/> |decimal(5,4)  <br/> | <br/> |呼び出し時に平均パケット損失の割合です。  <br/> |
 |**PacketLossRateMax** <br/> |decimal(5,4)  <br/> | <br/> |最大のパケット損失が呼び出し中に発生します。  <br/> |
@@ -52,7 +54,7 @@ ms.lasthandoff: 03/28/2018
 |**BPSPDropRatio** <br/> |tinyint  <br/> ||BPSP フレームのドロップでの通話時間の割合です。  <br/> |
 |**BPSPIDropRatio** <br/> |tinyint  <br/> ||BPSPI フレームのドロップでの通話時間の割合です。  <br/> |
 |**受信** <br/> |bit  <br/> | <br/> |受信機側でのデータのストリームを受信するとします。  <br/> |
-|**送信** <br/> |bit  <br/> | <br/> |送信側のデータのストリームを受信するとします。  <br/> |
+|**発信** <br/> |bit  <br/> | <br/> |送信側のデータのストリームを受信するとします。  <br/> |
 |**SenderIsCallerPAI** <br/> |bit  <br/> | <br/> |1 は、ストリームの方向は、呼び出し元から呼び出し先を意味します。  <br/> 0 では、ストリームの方向は、呼び出し先から呼び出し元を表します。  <br/> |
 |**LossCongestionPercent** <br/> |float  <br/> ||損失輻輳状態にしたときの時間の割合を示します。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
 |**DelayCongestionPercent** <br/> |float  <br/> ||輻輳が原因でネットワーク パケットの遅延到着の呼び出しの割合を示します。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |

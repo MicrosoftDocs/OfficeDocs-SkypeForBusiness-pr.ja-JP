@@ -1,5 +1,6 @@
 ---
-title: 従来のアーカイブおよび監視サーバーを削除します。
+title: 従来のアーカイブ サーバーおよび監視サーバーの削除
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 場合は、従来の配置には、ビジネス サーバー 2019 の Skype に移行した後のアーカイブ サーバーまたは監視サーバーが含まれているの残りの従来のプールから削除されたすべてのユーザーに提供されるこれらのサーバーは、従来の環境から削除できます。 任意のシーケンスでは、アーカイブ サーバーまたは監視サーバーを削除できます。 重要な要件は、すべてのユーザーが、残りの従来のプールから削除されていることです。
-ms.openlocfilehash: 4de6d9db5538864646f978e9fc33a79b39d4c2a4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5a3a691c8f2e8a4ad3610ccf1ea947ce23b74111
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028615"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878341"
 ---
-# <a name="remove-legacy-archiving-and-monitoring-servers"></a>従来のアーカイブおよび監視サーバーを削除します。
+# <a name="remove-legacy-archiving-and-monitoring-servers"></a>従来のアーカイブ サーバーおよび監視サーバーの削除
 
 場合は、従来の配置には、ビジネス サーバー 2019 の Skype に移行した後のアーカイブ サーバーまたは監視サーバーが含まれている、それらのサーバーを従来の環境から削除、残りの従来のプールから削除されたすべてのユーザーに提供できます。 任意のシーケンスでは、アーカイブ サーバーまたは監視サーバーを削除できます。 重要な要件は、すべてのユーザーが、残りの従来のプールから削除されていることです。
   

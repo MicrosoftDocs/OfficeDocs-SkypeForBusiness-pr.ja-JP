@@ -1,5 +1,6 @@
 ---
 title: 展開設定エキスパンダー
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 既存の展開のプロパティを編集するには、以下のセクションを参照してください。
-ms.openlocfilehash: 733f71ffbb2f1e49fb73da6727a9df7586273d5b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: b5e953f165c9e54fa2e7891b7562e840c78b3144
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255417"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878162"
 ---
 # <a name="deployment-settings-expander"></a>展開設定エキスパンダー
 
@@ -39,7 +40,7 @@ ms.locfileid: "23255417"
 
 定義済みの追加の SIP ドメイン名を削除するには、ドメイン名を選択し、[**削除**] をクリックします。
 
-[プロパティの編集] ページですべての変更が完了したら、[**OK**] をクリックして変更を保存します。変更を破棄するには、[**キャンセル**] をクリックします。
+[プロパティの編集] ページですべての変更が完了したら、[**OK**] をクリックして変更を保存します。 変更を破棄するには、[**キャンセル**] をクリックします。
 
 ## <a name="simple-urls"></a>簡易 URL
 
@@ -70,9 +71,9 @@ URL を削除する必要がある場合は、URL を選択し、[**削除**] �
 > [!IMPORTANT]
 > インフラストラクチャに中央管理ストアを定義、公開、および展開した後は、外部プロセスによって中央管理ストアを別のフロントエンドに再配置しないと、中央管理ストアの場所を変更することはできません。
 
-中央管理ストアを移動する方法の詳細は、Windows PowerShell コマンドレットの参照に[移動 CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps)を参照してください。
+中央管理ストアの移動の詳細については、Windows PowerShell コマンドレット リファレンスの「[Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps)」を参照してください。
 
 
-詳細を定義し、これらの設定の構成については、[定義してトポロジの構成](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx)を参照してください。
+これらの設定の定義と構成の詳細については、「[Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx)」を参照してください。
 
 

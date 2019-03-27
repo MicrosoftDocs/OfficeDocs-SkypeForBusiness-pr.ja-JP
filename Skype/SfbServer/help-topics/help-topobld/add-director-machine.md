@@ -1,5 +1,6 @@
 ---
-title: ディレクターのマシンを追加します。
+title: ディレクター コンピューターの追加
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7d51493a-1b7a-43ad-b562-49e45f899796
 description: このプールのディレクターとして追加する各コンピューターの完全修飾ドメイン名 (FQDN) を指定します。 一覧にコンピューターを追加した後でも、トポロジを公開するまでの間は、いつでもコンピューターの FQDN を更新したり、プールからコンピューターを削除したりできます。 トポロジ ビルダーでは、サーバーを削除し、新しい FQDN を持つプールに新しいサーバーを追加、トポロジを公開すると、FQDN を変更する必要です。
-ms.openlocfilehash: a45d0c25d371669791760d016968e52e6c2db88b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a3d3837a6d8ab1821a5ddece87a276ab516ddef8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974946"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881766"
 ---
-# <a name="add-director-machine"></a>ディレクターのマシンを追加します。
+# <a name="add-director-machine"></a>ディレクター コンピューターの追加
  
 このプールのディレクターとして追加する各コンピューターの完全修飾ドメイン名 (FQDN) を指定します。 一覧にコンピューターを追加した後でも、トポロジを公開するまでの間は、いつでもコンピューターの FQDN を更新したり、プールからコンピューターを削除したりできます。 トポロジ ビルダーでは、サーバーを削除し、新しい FQDN を持つプールに新しいサーバーを追加、トポロジを公開すると、FQDN を変更する必要です。 
   

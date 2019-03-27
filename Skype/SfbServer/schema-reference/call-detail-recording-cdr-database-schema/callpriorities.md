@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバー 2015 の Skype での CallPriorities テーブル
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,19 +11,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 043b63ae-2d64-4f38-a0df-18aa08d6caf5
 description: CallPriorities テーブルは、'緊急'、'緊急'、または '通常' など、可能な呼び出しの優先順位の一覧を格納する静的なテーブルです。
-ms.openlocfilehash: ccd92857015e865e36cbef4147c4355369263e90
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: faf4e7f04d7a63b096cb2369c21916e5fcb71a24
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882991"
 ---
 # <a name="callpriorities-table-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype での CallPriorities テーブル
  
 CallPriorities テーブルは、'緊急'、'緊急'、または '通常' など、可能な呼び出しの優先順位の一覧を格納する静的なテーブルです。
   
-|**列**|**データ型**|**キーまたはインデックス**|**詳細**|
+|**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |**PriorityId** <br/> |tinyint  <br/> |Primary  <br/> ||
-|**優先度** <br/> |nvarchar(256)  <br/> || 使用可能な値: <br/>  0 - 不明 <br/>  1-切迫感のないです。 <br/>  2-標準 <br/>  3-緊急 <br/>  4-緊急 <br/> |
+|**[Priority]** <br/> |nvarchar(256)  <br/> || 使用可能な値: <br/>  0 - 不明 <br/>  1-切迫感のないです。 <br/>  2-標準 <br/>  3-緊急 <br/>  4-緊急 <br/> |
    
 

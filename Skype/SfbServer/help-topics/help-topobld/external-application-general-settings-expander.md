@@ -1,5 +1,6 @@
 ---
-title: 外部アプリケーションの全般設定の拡張
+title: 外部アプリケーション全般設定エキスパンダー
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 description: 既に定義されている信頼されたアプリケーション サーバーのプロパティを編集するには、これらの指示に従います。
-ms.openlocfilehash: 11851554f9bcea39b2ae832aa69dd626989ccf8c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: a0b25ad3d7570ecb64444821fb0b49b9c65b8e02
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371410"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884565"
 ---
-# <a name="external-application-general-settings-expander"></a>外部アプリケーションの全般設定の拡張
+# <a name="external-application-general-settings-expander"></a>外部アプリケーション全般設定エキスパンダー
  
 既に定義されている信頼されたアプリケーション サーバーのプロパティを編集するには、これらの指示に従います。
   

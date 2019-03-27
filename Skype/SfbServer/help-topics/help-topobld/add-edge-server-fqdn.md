@@ -1,5 +1,6 @@
 ---
-title: エッジ サーバーの FQDN を追加します。
+title: エッジ サーバーの FQDN の追加
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 description: アクセス エッジ サービスの完全修飾ドメイン名 (FQDN) を指定する必要があります。 単一の FQDN の使用を選択しなかった場合は、 &amp; IP アドレスのオプションを選択します] ページの機能、および A の Web 会議エッジ サービスの FQDN を指定することもする必要があります/音声ビデオ エッジ サービスです。
-ms.openlocfilehash: 5f9d3bc3b63eaaf9db303c3fc0c74038df223391
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 33856832407e6e12a3c0854fb2d2c87a1bde376c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20965899"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880019"
 ---
-# <a name="add-edge-server-fqdn"></a>エッジ サーバーの FQDN を追加します。
+# <a name="add-edge-server-fqdn"></a>エッジ サーバーの FQDN の追加
  
 アクセス エッジ サービスの完全修飾ドメイン名 (FQDN) を指定する必要があります。 選択しなかった場合、 **、1 つの FQDN を使用して、 &amp; IP アドレス**オプション**機能の選択**] ページで、A、Web 会議エッジ サービスの FQDN を指定する必要がありますもと音声ビデオ エッジ サービスです。
   

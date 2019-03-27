@@ -1,5 +1,6 @@
 ---
 title: '従来版のマージ: SIP ポート'
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,13 +12,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19bf6b9b-d111-4285-9735-62fd9a04dc3b
 ROBOTS: NOINDEX, NOFOLLOW
-description: クライアント、従来のフロントエンド プール、およびサーバーと通信するための既定の伝送制御プロトコル (TCP) SIP ポートは 5061 です。既定値を使用していなかった場合は、[すべてのポートとサーバー用の SIP ポート:] を選択して、新しい値を入力します。
-ms.openlocfilehash: fb935648e5c112219b7efddbf2d450e62fbe7d84
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+description: クライアント、従来のフロントエンド プール、およびサーバーと通信するための既定の伝送制御プロトコル (TCP) SIP ポートは 5061 です。 既定値を使用していなかった場合は、[すべてのポートとサーバー用の SIP ポート:] を選択して、新しい値を入力します。
+ms.openlocfilehash: 79bd3eb51aa94a3695f8341d89b7bb5895bcc4ab
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21064207"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882763"
 ---
 # <a name="legacy-merge-sip-port"></a>従来版のマージ: SIP ポート
  

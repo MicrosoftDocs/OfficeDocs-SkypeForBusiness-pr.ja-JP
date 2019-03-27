@@ -1,5 +1,6 @@
 ---
 title: Skype のサービスをビジネスのサーバーを管理します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: この資料では、ビジネスのサーバー トポロジの場合、Skype で実行されているサービスを管理する方法について説明します。
-ms.openlocfilehash: 7f95023416bd1b851bc5a3d3ce6185e3362ec098
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 4f5e1c4d91d5412470edebf3ed8d320101153da1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372447"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879217"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>Skype のサービスをビジネスのサーバーを管理します。
 
@@ -125,7 +126,7 @@ Skype ビジネス サーバーのコントロール パネルを使用するに
 8. **サービスを開始**または**停止するサービス**をクリックします。
 9. [**閉じる**] をクリックします。
     
-## <a name="prevent-sessions-for-services"></a>サービスのセッションを防止します。
+## <a name="prevent-sessions-for-services"></a>サービスのセッションの禁止
 <a name="prevent_session"> </a>
 
 ビジネス サーバー サービスが特定のコンピューターで実行されているすべての Skype の新しいセッションを防ぐために、またはビジネスのサーバー サービスの特定の Skype の新しいセッションを防ぐためには、ビジネス サーバーのコントロール パネルの Skype を使用できます。

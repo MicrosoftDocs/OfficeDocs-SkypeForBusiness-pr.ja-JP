@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype の正規化ルールを定義します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype ビジネス サーバーの正規化ルールをダイヤルされた電話番号を E.164 形式に変換するのに.NET Framework の正規表現を使用します。つまり、正規化の規則は、ユーザーがダイヤルした電話番号をとるし、その数ビジネス サーバーの Skype で内部的に使用される形式に変換します。 各ダイヤル プランには、正規化ルールを 1 つ以上割り当てる必要があります。
-ms.openlocfilehash: 1304fa24f469b5ea8735858d3b66637eb404ab25
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 8e32ac485763c626d7d4347bb194fb4c4f3dba44
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222934"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882475"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>ビジネス サーバーの Skype の正規化ルールを定義します。
 

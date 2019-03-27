@@ -1,5 +1,6 @@
 ---
 title: Skype のビジネス サーバーのダイヤルイン会議を構成します。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: '概要: は、Skype のビジネス サーバーのダイヤルイン会議を構成する方法については、このトピックを読みます。'
-ms.openlocfilehash: 3c4460761fadd1dee523eb15949da8fc1bf69f14
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: dbd851f416fb3bc91a556753ce33d2ef80976ff2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372403"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881508"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Skype のビジネス サーバーのダイヤルイン会議を構成します。
  
@@ -86,7 +87,7 @@ ms.locfileid: "25372403"
    Get-CsDialPlan [-Identity <Identifier of the dial plans to be retrieved>]
    ```
 
-   例:
+   次に例を示します。
     
    ```
    Get-CsDialPlan
@@ -123,7 +124,7 @@ ms.locfileid: "25372403"
 ## <a name="configure-dial-in-access-numbers"></a>ダイヤルイン アクセス番号を構成する
 <a name="BKMK_ConfigureDialInAccessNumbers"> </a>
 
-ダイヤルイン会議を展開するときには、ユーザーが公衆交換電話網 (PSTN) からダイヤルして電話会議のオーディオ部分に参加するための電話番号を設定する必要があります。それらのダイヤルイン アクセス番号は、ミーティングの招待状と [ダイヤルイン会議の設定] Web ページに表示されます。
+ダイヤルイン会議を展開するときには、ユーザーが公衆交換電話網 (PSTN) からダイヤルして電話会議のオーディオ部分に参加するための電話番号を設定する必要があります。 それらのダイヤルイン アクセス番号は、ミーティングの招待状と [ダイヤルイン会議の設定] Web ページに表示されます。
   
 ダイヤルイン アクセス番号を作成する前に、まずダイヤルイン会議の域を計画し、その地域のダイヤル プランを構成する必要があります。 領域に関する詳細については、 [Skype のビジネス サーバーにダイヤルイン会議の計画](../../plan-your-deployment/conferencing/dial-in-conferencing.md)を参照してください。 ダイヤルイン会議の計画をダイヤルすると、構成の詳細について参照してください[を作成するまたはビジネス サーバーの Skype のダイヤル プランを変更する](../../deploy/deploy-enterprise-voice/dial-plans.md)です。
   
@@ -171,7 +172,7 @@ ms.locfileid: "25372403"
 9. [**プール**] で、このダイヤルイン アクセス番号をサポートする会議アテンダントのインスタンスを実行するプールをクリックします。
     
     > [!NOTE]
-    > アクセス番号を作成した後は、プールを変更する場合は、[移動 CsApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/move-csapplicationendpoint?view=skype-ps)コマンドレットを使用して削除またはアクセス番号を再作成してください。
+    > アクセス番号の作成後にプールを変更する必要がある場合は、[Move-CsApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/move-csapplicationendpoint?view=skype-ps) コマンドレットを使用するか、またはアクセス番号をいったん削除して作成し直す必要があります。
   
 10. [**第 1 言語**] で、このダイヤルイン アクセス番号の案内を再生するときに使用される言語をクリックします。 
     
@@ -194,7 +195,7 @@ ms.locfileid: "25372403"
   
 会議ポリシーを構成する方法の詳細については、 [Skype ビジネス サーバーの会議ポリシーの管理](../../manage/conferencing/conferencing-policies.md)を参照してください。
   
-## <a name="assign-a-line-uri-to-a-user-account"></a>Assign a Line URI to a user account
+## <a name="assign-a-line-uri-to-a-user-account"></a>ユーザー アカウントに回線 URI を割り当てる
 <a name="BKMK_AssignaLineURI"> </a>
 
 ダイヤルイン ユーザーは各自の電話番号または内線番号、それに PIN を入力し、認証されたユーザーとして会議に参加します。 テレフォニー ビジネス サーバーのユーザー アカウントの Skype で指定された**行の URI**は、認証に必要です。

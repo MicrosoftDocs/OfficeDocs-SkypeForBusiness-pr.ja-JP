@@ -1,5 +1,6 @@
 ---
 title: トポロジ サーバー アプリケーション
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 description: 'トポロジ: 展開では、サーバー アプリケーションがサーバー アプリケーションのページに表示されます。'
-ms.openlocfilehash: 1d12014c3baff43866f2a6009d381a3c9cfb4719
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 8f49a587dc77de96e0097025e0bc493ca7d66132
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260693"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883715"
 ---
 # <a name="topology-server-application"></a>トポロジ: サーバー アプリケーション
 

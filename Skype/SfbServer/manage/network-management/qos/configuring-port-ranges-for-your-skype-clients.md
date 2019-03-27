@@ -1,5 +1,6 @@
 ---
 title: クライアント用のポートの範囲とサービスの品質ポリシーを構成します。
+ms.reviewer: ''
 ms:assetid: 287d5cea-7ada-461c-9b4a-9da2af315e71
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204760(v=OCS.15)
 ms:contentKeyID: 48183694
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: この資料では、Skype のサービスの品質ポリシーを構成、クライアントのビジネスのサーバーの 10 の Windows で実行されているクライアントのポート範囲を構成する方法について説明します。
-ms.openlocfilehash: 112d5a42b3bf4ac89bf7adc98b3ca56e8797482e
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 2e5328406634302a1b076eec8466e7f7b9245150
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223228"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881522"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Skype で、クライアントのビジネスのサーバーのポート範囲およびサービスの品質ポリシーの構成
 
@@ -192,7 +193,7 @@ QoS を実装するためには、一意であるこれらのポート範囲の�
 
 9.  [4] ページでは、**この QoS ポリシーを適用するプロトコルを選択して**ドロップダウン リストから**TCP および UDP**を選択します。 TCP (伝送制御プロトコル) と UDP (ユーザー データグラム プロトコル) は、最も一般的使用 Skype ビジネス サーバーとそのクライアント アプリケーションの 2 つのネットワーク プロトコルです。
 
-10. **発信元ポート番号の指定**の見出しの下には、**この送信元ポートまたは範囲から**選択します。 付随するテキスト ボックスで、オーディオの転送用に予約されたポートの範囲を入力します。 たとえば、~ 50020 のポートを予約する場合は、ポート 50039 音声トラフィックがこの形式を使用してポート範囲を入力して、: **50020:50039**。 **[完了]** をクリックします。
+10. **発信元ポート番号の指定**の見出しの下には、**この送信元ポートまたは範囲から**選択します。 付随するテキスト ボックスで、オーディオの転送用に予約されたポートの範囲を入力します。 たとえば、~ 50020 のポートを予約する場合は、ポート 50039 音声トラフィックがこの形式を使用してポート範囲を入力して、: **50020:50039**。 [**完了**] をクリックします。
 
 オーディオの QoS ポリシーを作成した後、ビデオの 2 番目のポリシーを作成してください。 ビデオのポリシーを作成するにした後に、オーディオのポリシーを作成するときにこれらの置換を行うと同じ基本的な手順に従います。
 

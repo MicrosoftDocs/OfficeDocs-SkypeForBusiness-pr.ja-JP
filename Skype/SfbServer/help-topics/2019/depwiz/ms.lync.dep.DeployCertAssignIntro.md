@@ -1,5 +1,6 @@
 ---
 title: 証明書の割り当て (開始)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 26d6b07e-d2c7-4ff7-aca4-4bbb29f13f8d
 ROBOTS: NOINDEX, NOFOLLOW
 description: ビジネス サーバーの Skype での使用の証明書の割り当てを開始するには、次へをクリックします。
-ms.openlocfilehash: 4e5b3df124a1a826a564023a8faf8bed762fc757
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 804bcf6f91c42c48f5a7ad68d91c2c3c2312b06c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20996609"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884429"
 ---
 # <a name="certificate-assignment-intro"></a>証明書の割り当て (開始)
  

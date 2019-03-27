@@ -1,5 +1,6 @@
 ---
 title: サイトの選択
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,13 +12,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[サイトの選択] ダイアログ ボックスを使用して、環境で使用可能なサイトを検索します。既存のサイトを使用するには、一覧でサイトをクリックして [OK] をクリックします。'
-ms.openlocfilehash: 6eb2c4ccaeb7b6558af78f655c97f3e549285829
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: '[サイトの選択] ダイアログ ボックスを使用して、環境で使用可能なサイトを検索します。 既存のサイトを使用するには、一覧でサイトをクリックして [OK] をクリックします。'
+ms.openlocfilehash: 930f6bb29e0fb175383cc868ccdfd4ae5ce98b33
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20993614"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884288"
 ---
 # <a name="select-a-site"></a>サイトの選択
 

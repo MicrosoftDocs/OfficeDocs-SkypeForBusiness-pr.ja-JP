@@ -1,5 +1,6 @@
 ---
 title: 証明書ウィザード
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
-description: 要求、割り当て、削除、または証明書を表示、証明書ウィザードを使用します。 この場合は、RTCUniversalServerAdmins グループのメンバーとしてログインする必要があります。 パブリック証明機関 (CA) からの証明書を要求する場合に、別のグループ メンバーシップは不要です。 組織の公開キー基盤 (PKI) から証明書の要求にどのようなことを確認する必要があります。 追加-存在する場合、グループ メンバーシップが必要です。 要求タスクでは、PKI から証明書の CA の発行元の要求に使用する代替の資格情報を入力できます。
-ms.openlocfilehash: d700a6cae510bbc12ed2e37c9c3df166d2704269
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 証明書の [要求]、[割り当て]、[削除]、または [表示] を行うには、証明書ウィザードを使用します。 この場合は、RTCUniversalServerAdmins グループのメンバーとしてログインする必要があります。 パブリック証明機関 (CA) からの証明書を要求する場合に、別のグループ メンバーシップは不要です。 組織の公開キー基盤 (PKI) から証明書の要求にどのようなことを確認する必要があります。 追加-存在する場合、グループ メンバーシップが必要です。 要求タスクでは、PKI から証明書の CA の発行元の要求に使用する代替の資格情報を入力できます。
+ms.openlocfilehash: 7d20fe489928a430c972c7e48e0938ff1eb1622d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880243"
 ---
 # <a name="certificate-wizard"></a>証明書ウィザード
  

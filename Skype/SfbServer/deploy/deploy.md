@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 の展開
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,27 +15,27 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
 description: '概要: をインストールして Skype をビジネス サーバー 2015 と Lync Server の以前のバージョンからのアップグレードの構成方法については、これらのリンクを表示します。'
-ms.openlocfilehash: 8560bd52877866f861c8c98dbf22926902a0ce1e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 129106e6d7affdc097a1f5601831307e706e8903
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23890988"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879984"
 ---
-# <a name="deploy-skype-for-business-server-2015"></a>Skype for Business Server 2015 の展開
+# <a name="deploy-skype-for-business-server-2015"></a>Deploy Skype for Business Server 2015
  
 **の概要:** インストールして Skype をビジネス サーバー 2015 と Lync Server の以前のバージョンからのアップグレードの構成方法については、これらのリンクを表示します。
   
 ビジネス サーバー用の Skype は、インスタント メッセージング (IM)、プレゼンス、会議、ビデオ、およびエンタープライズ レベルのコラボレーション要件をサポートするテレフォニー ソリューションを提供します。 このトピックでは、展開し、Skype をビジネスのサーバーの構成方法に関する情報へのリンクを提供します。 
   
-今後も、新しい情報が公開されたときや、ユーザーからフィードバックをいただいたときなどに記事を更新します。 このページは頻繁に更新される予定ですので、ぜひご確認ください。
+新たな情報が入手されたりユーザーからフィードバックが寄せられたりするたびに執筆担当者が継続的に記事を更新しています。 このページは頻繁に更新されるので、随時にチェックしてください。
 ## <a name="visual-resources-about-how-to-deploy-skype-for-business-server"></a>Skype のビジネス サーバーの展開方法に関するリソースを視覚的
 
 Skype ビジネス サーバーを導入する方法の詳細については、次のリソースを表示します。
   
 ||**コンテンツ**|**説明**|
 |:-----|:-----|:-----|
-|![技術図面のアイコン](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Skype for Business Server 2015 の技術図面](../technical-diagrams.md) <br/> |アーキテクチャの選択肢を大きな図で示します。  <br/> |
+|![技術図面のアイコン](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Technical diagrams for Skype for Business Server 2015](../technical-diagrams.md) <br/> |アーキテクチャの選択肢を大きな図で示します。  <br/> |
 |![ビデオのアイコン](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|ビジネスのサーバーでの Skype をインストールする方法のビデオ*準備中!*  <br/> |ビデオ プレゼンテーション、Skype のビジネス サーバー用のトレーニングを検出します。  <br/> |
    
 ##  <a name="articles-about-skype-for-business-server-installation-and-configuration"></a>Business Server のインストールと構成の Skype に関する記事
@@ -44,13 +45,13 @@ Skype ビジネス サーバーを導入する方法の詳細については、�
 ||**コンテンツ**|**説明**|
 |:-----|:-----|:-----|
 |![ドキュメントのアイコン](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Skype for Business 環境の要件](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md) <br/> |サーバーと Skype のビジネス サーバーの環境の要件について説明します。  <br/> |
-|![ドキュメントのアイコン](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Skype for Business Server 2015 のトポロジの基本](../plan-your-deployment/topology-basics/topology-basics.md) <br/> |ビジネス サーバーの Skype のトポロジー ・ オプションとサーバ コロケーションのシナリオについて説明します。  <br/> |
+|![ドキュメントのアイコン](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Topology Basics for Skype for Business Server 2015](../plan-your-deployment/topology-basics/topology-basics.md) <br/> |ビジネス サーバーの Skype のトポロジー ・ オプションとサーバ コロケーションのシナリオについて説明します。  <br/> |
 |![数字による "方法" のアイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype for Business Server 2015 のインストール](install/install.md) <br/> |物理および仮想環境でのさまざまなトポロジにサーバーをビジネス用の Skype をインストールする方法について説明します。  <br/> |
-|![数字による "方法" のアイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[ビジネス サーバー 2015 の Skype へのアップグレード](upgrade-to-skype-for-business-server.md) <br/> |Lync Server の以前のバージョンからアップグレードする方法をについて説明します。  <br/> |
-|![数字による "方法" のアイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype for Business のクライアント エクスペリエンスの構成](deploy-clients/configure-the-client-experience.md) <br/> |クライアント エクスペリエンスを構成する方法について説明します。  <br/> |
-|![数字による "方法" のアイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype for Business Server と Skype for Business Online 間でハイブリッド接続を展開する](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md) <br/> |ハイブリッド展開の前提条件を構成し、ビジネス サーバー設置型の Skype と Skype のオンライン ビジネスのユーザーを管理するために、展開を構成する方法について説明します。  <br/> |
-|![数字による "方法" のアイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype for Business Server 2015 でのエッジ サーバーの展開](deploy-edge-server/deploy-edge-server.md) <br/> |組織内のユーザーは、社内ネットワークにログインしていない外部のユーザーと通信する場合にエッジ サーバーを展開します。  <br/> |
-|![数字による "方法" のアイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype for Business Server 2015 でのエンタープライズ VoIP の展開](deploy-enterprise-voice/deploy-enterprise-voice.md) <br/> |Outlook および Exchange との機能豊富な統合、および応答グループ、コール パーク、チーム呼び出し、グループ通話ピックアップ、拡張緊急 E9-1-1 のサポートなどの多くの強力な機能を提供する、完全なボイス オーバー IP (VoIP) エンタープライズ VoIP ソリューションを展開する方法について説明します。  <br/> |
+|![数字による "方法" のアイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Upgrade to Skype for Business Server 2015](upgrade-to-skype-for-business-server.md) <br/> |Lync Server の以前のバージョンからアップグレードする方法をについて説明します。  <br/> |
+|![数字による "方法" のアイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Configure the client experience with Skype for Business](deploy-clients/configure-the-client-experience.md) <br/> |クライアント エクスペリエンスを構成する方法について説明します。  <br/> |
+|![数字による "方法" のアイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md) <br/> |ハイブリッド展開の前提条件を構成し、ビジネス サーバー設置型の Skype と Skype のオンライン ビジネスのユーザーを管理するために、展開を構成する方法について説明します。  <br/> |
+|![数字による "方法" のアイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Deploy Edge Server in Skype for Business Server 2015](deploy-edge-server/deploy-edge-server.md) <br/> |組織内のユーザーは、社内ネットワークにログインしていない外部のユーザーと通信する場合にエッジ サーバーを展開します。  <br/> |
+|![数字による "方法" のアイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Deploy Enterprise Voice in Skype for Business Server 2015](deploy-enterprise-voice/deploy-enterprise-voice.md) <br/> |Outlook および Exchange との機能豊富な統合、および応答グループ、コール パーク、チーム呼び出し、グループ通話ピックアップ、拡張緊急 E9-1-1 のサポートなどの多くの強力な機能を提供する、完全なボイス オーバー IP (VoIP) エンタープライズ VoIP ソリューションを展開する方法について説明します。  <br/> |
 |![数字による "方法" のアイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype for Business Server 2015 での常設チャット サーバーの展開](deploy-persistent-chat-server/deploy-persistent-chat-server.md) <br/> |時間の経過と共に永続化トピック ベースの会話に参加する、組織内のユーザーをする場合に永続的なチャット サーバーを展開します。  <br/> |
 |![数字による "方法" のアイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype for Business Server 2015 でのビデオ相互運用サーバーの展開](deploy-video-interop-server/deploy-video-interop-server.md) <br/> |ビデオの相互運用をサポートする場合は、ビデオの相互運用機能サーバー (VIS) を展開する方法について参照してください。  <br/> |
    

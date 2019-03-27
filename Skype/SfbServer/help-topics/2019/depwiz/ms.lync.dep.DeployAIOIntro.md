@@ -1,5 +1,6 @@
 ---
 title: 単一の Standard Edition サーバーの準備 (開始)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: fe11d380-54c9-47e7-a676-02b9a59dc93f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 中央管理ストアとその他の配置されているサービスを選択することを保持するビジネス サーバーの Standard Edition サーバーは、Skype のインストールを開始するには、となるサーバー上のローカルの Administrators グループのメンバーとしてログインする必要があります。Standard Edition サーバーです。 [単一の Standard Edition サーバーの準備] ページに、初期インストールの要件が表示されます。 コンピューターが展開先のドメインのメンバーであり、フォレストでスキーマ、フォレスト、およびドメインの準備を正常に完了している必要があります。
-ms.openlocfilehash: a1d14b5d651cac9a3a779e78be48ecf45d4980bd
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b4b211899ba907a20d11f8adf4d2640599dc6f91
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20987072"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883652"
 ---
 # <a name="prepare-single-standard-edition-server-intro"></a>単一の Standard Edition サーバーの準備 (開始)
  

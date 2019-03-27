@@ -1,5 +1,6 @@
 ---
 title: 会議ポリシー
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 会議ポリシーは、(ミーティングとも呼ばれます) 会議中にユーザーが利用可能なある機能を定義します。
-ms.openlocfilehash: ac53ac12d61680a3cbbb54cd90020d9b91e39e14
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: bb11290a0536f30767dcc979a6d21669ddbb04a3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255473"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884408"
 ---
 # <a name="conferencing-policy"></a>会議ポリシー
 
@@ -74,6 +75,6 @@ ms.locfileid: "23255473"
 
 - **記録**かどうか会議ポリシーでは、会議の記録を許可することを指定を確認します。
 
-会議の機能と機能の詳細については、計画のドキュメントで[会議の概要](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx)を参照してください。 会議ポリシーの使用についての詳細は、[会議ポリシー](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx)操作マニュアルを参照してください。
+会議の機能の詳細については、「計画」のドキュメントの「[Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx)」を参照してください。会議ポリシーの使用の詳細については、「操作」のドキュメントの「[Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx)」を参照してください。
 
 

@@ -1,5 +1,6 @@
 ---
 title: ユーザーを表示またはアーカイブ ポリシーを構成します。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1d6ec29-178e-4325-8901-ee6cf0e91759
-description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 8e23e64dd6f5351314c2612e798e8427e001d4f9
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: 705abc05d50c23a76f047cb039d5e3e7d96d2fbf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241985"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883936"
 ---
-# <a name="users-view-or-configure-archiving-policy"></a>ユーザーを表示またはアーカイブ ポリシーを構成します。
+# <a name="users-view-or-configure-archiving-policy"></a>ユーザー: アーカイブ ポリシーの表示または構成
 
-目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 
 - [ユーザーごとのアーカイブ ・ ポリシーを割り当てる](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
 

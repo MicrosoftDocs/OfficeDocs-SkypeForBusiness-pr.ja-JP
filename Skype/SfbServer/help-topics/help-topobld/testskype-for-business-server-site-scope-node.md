@@ -1,5 +1,6 @@
 ---
 title: Lync Server サイト スコープ ノード
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,22 +12,23 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64392c68-998d-4fb7-9286-4b0c0364dab2
-description: このノードには、トポロジで定義されているサイトの 1 つが表示されます。以下のアクションを実行できます。
-ms.openlocfilehash: ad3bb8f7c8fc723d60598b6f81f8ad2282ffea00
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: このノードには、トポロジで定義されているサイトの 1 つが表示されます。 以下のアクションを実行できます。
+ms.openlocfilehash: 74b031df3e88222c7f23e1c3a8b43a67ba6dc669
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878967"
 ---
 # <a name="test---skype-for-business-server-site-scope-node"></a>Lync Server サイト スコープ ノード
  
 このノードには、トポロジで定義されているサイトの 1 つが表示されます。以下のアクションを実行できます。 
   
-- **新規。**サイトに新しいプールまたはサーバーを追加します。
+- **新規。** サイトに新しいプールまたはサーバーを追加します。
     
-- **プロパティの編集。**名前や場所などのサイトのプロパティを編集し、サイトでの帯域幅管理で通話受付管理を使用するかどうかを指定し、このサイトのディレクター プールまたはエッジ プールをフェデレーション ルートとして使用するかどうかを指定します。
+- **プロパティの編集。** 名前や場所などのサイトのプロパティを編集し、サイトでの帯域幅管理で通話受付管理を使用するかどうかを指定し、このサイトのディレクター プールまたはエッジ プールをフェデレーション ルートとして使用するかどうかを指定します。
     
-- **削除。**トポロジからこのサイトを削除します。
+- **削除。** トポロジからこのサイトを削除します。
     
 これらのオプションに加えて、次の一般的なタスクを実行できます。
   
@@ -34,6 +36,6 @@ ms.lasthandoff: 03/28/2018
     
 - **表示**。このオプションを使用し、コンソール ツリー ビュー内の項目を選択して表示と非表示の切り替えを行うと、トポロジ ビルダーのビューをカスタマイズできます。
     
-- **ヘルプ。**このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。
+- **ヘルプ。** このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。
     
 

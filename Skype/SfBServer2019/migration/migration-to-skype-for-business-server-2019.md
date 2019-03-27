@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバー 2019 の Skype への移行
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: このセクションのトピックでは、ビジネス サーバー 2019 の Skype に移行するプロセスを説明します。
-ms.openlocfilehash: 544dd01cdea68971b54374ca6e0e94909e249c82
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 32babd6fedd5defc756f73bbf001716c7c0b8a72
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027831"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881598"
 ---
 # <a name="migration-to-skype-for-business-server-2019"></a>ビジネス サーバー 2019 の Skype への移行
 
@@ -39,22 +40,22 @@ ms.locfileid: "25027831"
     
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [移行を開始する前に](before-you-begin-the-migration.md)
+- [移行を始める前に](before-you-begin-the-migration.md)
     
-- [フェーズ 1: 移行を計画します。](phase-1-plan-your-migration.md)
+- [フェーズ 1: 移行の計画](phase-1-plan-your-migration.md)
     
-- [フェーズ 2: 移行を準備します。](phase-2-prepare-for-migration.md)
+- [フェーズ 2: 移行の準備](phase-2-prepare-for-migration.md)
     
-- [フェーズ 3: パイロット プールを展開します。](phase-3-deploy-pilot-pool.md)
+- [フェーズ 3: パイロット プールの展開](phase-3-deploy-pilot-pool.md)
     
 - [フェーズ 4: パイロット プールにテスト ユーザーの移動](phase-4-move-test-users-to-the-pilot-pool.md)
     
-- [フェーズ 5: パイロット プールにエッジ サーバーを追加します。](phase-5-add-edge-server-to-pilot-pool.md)
+- [フェーズ 5: パイロット プールへのエッジ サーバーの追加](phase-5-add-edge-server-to-pilot-pool.md)
     
-- [フェーズ 6: を運用環境にパイロット展開から移動します。](phase-6-move-from-pilot-deployment-into-production.md)
+- [フェーズ 6: パイロット展開から運用展開への移行](phase-6-move-from-pilot-deployment-into-production.md)
     
-- [フェーズ 7: 移行後のタスクを完了します。](phase-7-complete-post-migration-tasks.md)
+- [フェーズ 7: 移行後のタスクの実行](phase-7-complete-post-migration-tasks.md)
     
-- [フェーズ 8: 従来のプールを使用停止します。](phase-8-decommission-legacy-pools.md)
+- [フェーズ 8: レガシ プールの使用停止](phase-8-decommission-legacy-pools.md)
     
 

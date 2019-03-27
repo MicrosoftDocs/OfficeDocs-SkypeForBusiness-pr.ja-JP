@@ -1,5 +1,6 @@
 ---
 title: セッションの表示
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: セッション ビューは、データベースにレコードが存在しているセッションに関する情報を格納します。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 056067b0c0e06b3ce9eb862898345fe4c8ff131c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c72773b4ff87786ab5b4e73b67e89032dc393fa1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880222"
 ---
 # <a name="session-view"></a>セッションの表示
  
@@ -28,8 +30,8 @@ ms.lasthandoff: 03/28/2018
 |DialogCategory  <br/> |bit  <br/> |ダイアログのカテゴリです。0 は Skype ビジネス サーバーの仲介サーバーのレグです。1 では、仲介サーバー PSTN ゲートウェイ レグを飛行します。  <br/> |
 |MediationServerBypassFlag  <br/> |bit  <br/> |呼び出しをバイパスするかどうかを示します。  <br/> |
 |MediaBypassWarningFlag  <br/> |int  <br/> |このフィールドでは、存在する場合、呼び出しをバイパス Id が一致した場合でもバイパスしない理由を示します。 ビジネス サーバーの Skype は、1 つの値が定義されます。  <br/> 0x0001 - 既定のネットワーク アダプターの ID を不明なバイパス  <br/> |
-|開始時刻  <br/> |datetime  <br/> |開始時刻を呼び出します。  <br/> |
-|終了時刻  <br/> |datetime  <br/> |終了時刻を呼び出します。  <br/> |
+|StartTime  <br/> |datetime  <br/> |開始時刻を呼び出します。  <br/> |
+|EndTime  <br/> |datetime  <br/> |終了時刻を呼び出します。  <br/> |
 |CallerPool  <br/> |nvarchar(256)  <br/> |呼び出し元プールの FQDN です。  <br/> |
 |CalleePool  <br/> |nvarchar(256)  <br/> |呼び出し先プールの FQDN です。  <br/> |
 |CallerPAI  <br/> |nvarchar(450)  <br/> |呼び出し元の p がアサートされた id URI です。  <br/> |

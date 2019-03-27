@@ -1,5 +1,6 @@
 ---
-title: Get CcVersion
+title: Get-CcVersion
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7d370abd-0c01-4490-88a1-55b42e51b663
 description: Cloud Connector アプライアンスのバージョンを返します。 Get-CCVersion は Cloud Connector のホスト マシンでのみ使用できます。
-ms.openlocfilehash: 8391264603a73e3f594122dcdd2eb62b9ba19978
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5e5428e53d53eec66bafa9eb566059ef1b5a5833
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881334"
 ---
-# <a name="get-ccversion"></a>Get CcVersion
+# <a name="get-ccversion"></a>Get-CcVersion
  
 Cloud Connector アプライアンスのバージョンを返します。 Get-CCVersion は Cloud Connector のホスト マシンでのみ使用できます。
   
@@ -30,9 +32,9 @@ Get-CcVersion [[-VersionType] <String>] [<CommonParameters>]
   
 ## <a name="parameters"></a>パラメーター
 
-|**パラメーター**|**必須**|**タイプ**|**説明**|
+|**パラメーター**|**必須**|**型**|**説明**|
 |:-----|:-----|:-----|:-----|
-|VersionType  <br/> |省略可能  <br/> |System.String  <br/> |バージョンのタイプ。 パラメーターの値は、RunningScripts、RunningBits、BackupBits または All になります。 既定値は RunningScripts です。  <br/> |
+|VersionType  <br/> |省略可能  <br/> |System.String  <br/> |バージョンのタイプ。 パラメーターの値は、RunningScripts、RunningBits、BackupBits または All になります。 既定値は RunningScripts です。   <br/> |
    
 ## <a name="examples"></a>例
 <a name="Examples"> </a>

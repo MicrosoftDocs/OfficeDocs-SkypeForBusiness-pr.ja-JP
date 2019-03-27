@@ -1,5 +1,6 @@
 ---
 title: 単一 FQDN ページを持つエッジ サーバーを追加する
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44d98453-cb41-49cd-99cb-52b6ebd2d559
 description: エッジ サーバーの単一 FQDN ページに関する情報です。
-ms.openlocfilehash: 2b48902406515ea20a589295fdd9e28f0eff0d97
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7ac9b5866185efa69ffaf6111c92fb5871cdd649
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880645"
 ---
 # <a name="add-edge-server-with-single-fqdn-page"></a>単一 FQDN ページを持つエッジ サーバーを追加する
  

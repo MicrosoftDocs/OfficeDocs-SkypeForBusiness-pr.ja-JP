@@ -1,5 +1,6 @@
 ---
 title: Session テーブル
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 description: 各レコードは、オーディオまたはオーディオとビデオでは、1 つのセッションを表します。 セッションに関する全体的な情報が含まれています。 セッションは、2 つのエンドポイント間でオーディオまたはビデオのセッション開始プロトコル (SIP) ダイアログとして定義されます。
-ms.openlocfilehash: 24acf23d2dab2dbc4b6586e40aa49cba632d6a68
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7a0ea3f9753529c22299ef46017b863c314319b5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881379"
 ---
 # <a name="session-table"></a>Session テーブル
  
 各レコードは、オーディオまたはオーディオとビデオでは、1 つのセッションを表します。 セッションに関する全体的な情報が含まれています。 セッションは、2 つのエンドポイント間でオーディオまたはビデオのセッション開始プロトコル (SIP) ダイアログとして定義されます。
   
-|**列**|**データ型**|**キーまたはインデックス**|**詳細**|
+|**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |[ダイアログ テーブル](dialog.md)から参照されています。  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primary  <br/> |[ダイアログ テーブル](dialog.md)から参照されています。  <br/> |
@@ -29,8 +31,8 @@ ms.lasthandoff: 03/28/2018
 |**DialogCategory** <br/> |bit  <br/> | <br/> |ダイアログのカテゴリです。0 は Skype ビジネス サーバーの仲介サーバーのレグです。1 では、仲介サーバー PSTN ゲートウェイ レグを飛行します。  <br/> |
 |**MediationServerBypassFlag** <br/> |bit  <br/> ||場合に呼び出しをバイパスしないかを示すフラグを設定します。  <br/> |
 |**MediaBypassWarningFlag** <br/> |int  <br/> ||このフィールドでは、存在する場合、呼び出しをバイパス Id が一致した場合でもバイパスしない理由を示します。 ビジネス サーバーの Skype は、1 つの値が定義されています。  <br/> 0x0001 - 既定のネットワーク アダプターの ID を不明なバイパスします。  <br/> |
-|**開始時刻** <br/> |datetime  <br/> | <br/> |開始時刻を呼び出します。  <br/> |
-|**終了時刻** <br/> |datetime  <br/> | <br/> |終了時刻を呼び出します。  <br/> |
+|**StartTime** <br/> |datetime  <br/> | <br/> |開始時刻を呼び出します。  <br/> |
+|**EndTime** <br/> |datetime  <br/> | <br/> |終了時刻を呼び出します。  <br/> |
 |**CallerPool** <br/> |int  <br/> |外部  <br/> |呼び出し元のプールです。 [プール テーブル](pool.md)から参照されています。  <br/> |
 |**CalleePool** <br/> |int  <br/> |外部  <br/> |電話の受信側のプールです。 [プール テーブル](pool.md)から参照されています。  <br/> |
 |**CalleePAI** <br/> |int  <br/> |外部  <br/> |SIP p アサート (PAI) の id、受信側のエンドポイントでの SIP URI です。 [ユーザー テーブル](user-0.md)から参照されています。  <br/> |

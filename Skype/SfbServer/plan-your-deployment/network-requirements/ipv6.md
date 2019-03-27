@@ -1,5 +1,6 @@
 ---
 title: Skype for Business での IPv6 の計画
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: '概要: 実装の IPv6 ビジネス サーバーの Skype をインストールする前にします。'
-ms.openlocfilehash: b500a0b3f4b99b97b1fc3a89eda7c5736953d854
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c2ac3470646c78e0a7312fb9390a712321793915
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888347"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884748"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Skype for Business での IPv6 の計画
  
@@ -72,7 +73,7 @@ Skype のビジネス サーバーの IP アドレスを構成するとき、3 �
 ### <a name="peer-to-peer-client"></a>ピアツーピア クライアント
 <a name="peer"> </a>
 
-ピアツーピア通信には、オーディオ、音声ビデオ、アプリケーション共有、ファイル転送などがあります。両方のクライアントが正常に登録された後、次の組み合わせがサポートされます。
+ピアツーピア通信には、オーディオ、音声ビデオ、アプリケーション共有、ファイル転送などがあります。 両方のクライアントが正常に登録された後、次の組み合わせがサポートされます。
   
 |**クライアント エンドポイント 1**|**クライアント エンドポイント 2**|
 |:-----|:-----|
@@ -132,9 +133,9 @@ Skype ビジネス サーバーのトラフィックは、IPv6 インタ フェ�
 
 ||**エッジ プール: IPv4** <br/> |**エッジ プール: デュアル スタック** <br/> |**エッジ プール: IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
-|**フロントエンド プール: IPv4** <br/> |はい  <br/> |あり  <br/> |いいえ  <br/> |
-|**フロントエンド プール: デュアル スタック** <br/> |はい  <br/> |あり  <br/> |いいえ  <br/> |
-|**フロントエンド プール: IPv6** <br/> |いいえ  <br/> |なし  <br/> |あり\*  <br/> |
+|**フロントエンド プール: IPv4** <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
+|**フロントエンド プール: デュアル スタック** <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
+|**フロントエンド プール: IPv6** <br/> |なし  <br/> |不可  <br/> |あり\*  <br/> |
    
 \*ラボ環境でのみ、この組み合わせを使用します。
   
@@ -144,9 +145,9 @@ Skype ビジネス サーバーのトラフィックは、IPv6 インタ フェ�
 
 ||**エッジ プール (外部エッジ): IPv4** <br/> |**エッジ プール (外部エッジ): デュアル スタック** <br/> |**エッジ プール (外部エッジ): IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
-|**エッジ プール (内部エッジ): IPv4** <br/> |はい  <br/> |あり  <br/> |いいえ  <br/> |
-|**エッジ プール (内部エッジ): デュアル スタック** <br/> |いいえ  <br/> |あり  <br/> |いいえ  <br/> |
-|**エッジ プール (内部エッジ): IPv6** <br/> |いいえ  <br/> |なし  <br/> |あり\*  <br/> |
+|**エッジ プール (内部エッジ): IPv4** <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
+|**エッジ プール (内部エッジ): デュアル スタック** <br/> |不可  <br/> |あり  <br/> |いいえ  <br/> |
+|**エッジ プール (内部エッジ): IPv6** <br/> |いいえ  <br/> |不可  <br/> |あり\*  <br/> |
    
 \*ラボ環境でのみ、この組み合わせを使用します。
   
@@ -200,10 +201,10 @@ IP バージョン 6 (IPv6) は、Lync Server 2010 または Office Communicatio
     
 - IPv6 専用のプールが孤立している場合、IPv6 のみのモードでのビジネス サーバー プールの Skype です。
     
-## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
+## <a name="see-also"></a>関連項目
 <a name="migration"> </a>
 
-[Skype for Business での IP アドレスの種類の構成](ip-address-types.md)
+[Configure IP address types in Skype for Business](ip-address-types.md)
 
 [IP バージョン 6 のアドレス指定アーキテクチャ](https://tools.ietf.org/html/rfc4291)
   

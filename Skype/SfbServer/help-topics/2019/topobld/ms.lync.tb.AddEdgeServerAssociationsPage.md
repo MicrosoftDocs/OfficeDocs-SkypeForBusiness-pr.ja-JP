@@ -1,5 +1,6 @@
 ---
-title: エッジ サーバーの関連付けを追加します。
+title: エッジ サーバーの関連付けの追加
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
 ROBOTS: NOINDEX, NOFOLLOW
 description: このページを使用して、A のこのエッジ プールを使用するフロント エンド プールと Standard Edition サーバーを選択するのには/V のトラフィック。
-ms.openlocfilehash: 38d997c7753dd97ae9a6368e3092c6d571f0ad1f
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 79dfc08253f105b123a73c83bdf51d0ea0584bc0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21063387"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879287"
 ---
-# <a name="add-edge-server-associations"></a>エッジ サーバーの関連付けを追加します。
+# <a name="add-edge-server-associations"></a>エッジ サーバーの関連付けの追加
  
 このページを使用して、A のこのエッジ プールを使用するフロント エンド プールと Standard Edition サーバーを選択するのには/V のトラフィック。 
   

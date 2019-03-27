@@ -1,5 +1,6 @@
 ---
-title: 移行後のサーバーを管理します。
+title: 移行後のサーバーの管理
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 一般に、管理対象サーバーのバージョンに対応する管理ツールを使用する必要があります。
-ms.openlocfilehash: 383c41d66ec79bac0eb35be1feda352767883b85
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 235ceee4bfc3aa79022a97ab0e8be2edc46b8005
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25029392"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882101"
 ---
-# <a name="administering-servers-after-migration"></a>移行後のサーバーを管理します。
+# <a name="administering-servers-after-migration"></a>移行後のサーバーの管理
 
 一般に、管理対象サーバーのバージョンに対応する管理ツールを使用する必要があります。 管理ツールは、同じコンピューター上の異なるバージョンをインストールできません。
   

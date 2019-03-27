@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバー 2015 の Skype での IMReportSummary テーブル
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,19 +11,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 27ff9453-53f2-4fae-b637-70a086c9df96
 description: IMReportSummaryTable では、インスタント メッセージング セッションを保持している組織内で、総合的なレポートを提供します。 このテーブルは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: f716a7406f4cf3562e2fa9244e8a766ef8537f53
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: fd907165f7db131e94d09d2b9a531eeb20812734
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881023"
 ---
 # <a name="imreportsummary-table-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype での IMReportSummary テーブル
  
 IMReportSummaryTable では、インスタント メッセージング セッションを保持している組織内で、総合的なレポートを提供します。 このテーブルは、Microsoft Lync Server 2013 で導入されました。
   
-|**列**|**データ型**|**キーまたはインデックス**|**詳細**|
+|**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**開始時刻** <br/> |datetime  <br/> |Primary  <br/> |日付と時刻、インスタント メッセージング セッションを開始しました。  <br/> |
+|**StartTime** <br/> |datetime  <br/> |Primary  <br/> |日付と時刻、インスタント メッセージング セッションを開始しました。  <br/> |
 |**TimePeriod** <br/> |char(1)  <br/> |Primary  <br/> ||
 |**PoolFQDN** <br/> |nvarchar(257)  <br/> |Primary  <br/> |セッションをホストしているプールの完全修飾ドメイン名です。  <br/> |
 |**空の AuthType** <br/> |int  <br/> |Primary  <br/> |(たとえば、緊急または非緊急) 呼び出しの優先順位です。 優先順位については、[ビジネス サーバー 2015 の Skype での CallPriorities テーブル](callpriorities.md)に格納されます。  <br/> |

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d78f1e0a4f1c3a5ca95dff0f50d688c2d8a6b239
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 492055c80b844ba4a7aa0091da767214c55dc31a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640787"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884056"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンスの概要
 ======================================================
@@ -34,6 +34,8 @@ Microsoft Teams は、お客様の期待に応える高度セキュリティお�
 チームは、チーム全体および組織全体の二要素認証、シングルサインオンによって、Active Directory、および転送中のデータの暗号化にも適用されます。 ファイルは、SharePoint に格納され、SharePoint の暗号化によってバックアップされています。 ノートでは、OneNote に保存され、OneNote の暗号化によってバックアップされます。 OneNote のデータは、チームの SharePoint サイトに格納されます。 メモを取ることで、[Wiki] タブを使用することも、チームの SharePoint サイト内のコンテンツが格納されているも.
 
 監査ログ検索、電子情報開示、訴訟ホールド (チャネル、チャット、ファイルを対象とした)、Microsoft Intune 内でのモバイル アプリ管理のサポートを追加しました。 Office 365 のセキュリティ & これらの設定を管理するためのコンプライアンス センターに移動します。 
+
+Office 365 のセキュリティ & 準拠の詳細についてを参照して[、Office 365 のテナントのセキュリティ強化の構成](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)
 
 ## <a name="auditing-and-reporting"></a>監査と報告
 
@@ -151,3 +153,7 @@ Windows と Mac のデスクトップ クライアントをマイクロソフト
 Office 365 のユーザーとして、お客様はデータを所有して管理します。Microsoft が、お客様が購読しているサービスの提供以外の目的でお客様のデータを使用することはありません。Microsoft は、サービス プロバイダーとして、広告や他のサービスと無関係な目的のためにお客様のメール、ドキュメント、チームを調べることはありません。Microsoft はアップロード済みのコンテンツに対してアクセス権を持ちません。OneDrive for Business や SharePoint Online と同様に、お客様のデータはテナント内にあります。
 
 チェック アウトの詳細については、当社の信頼とセキュリティに関連する[マイクロソフトのセキュリティ センター](https://microsoft.com/trustcenter)の情報です。 チーム以下のガイダンスと原則は、同じ Microsoft セキュリティ センターです。
+
+<a name="related-topics"></a>関連項目
+----------------------
+[Office 365 の ATP の安全なリンク](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)

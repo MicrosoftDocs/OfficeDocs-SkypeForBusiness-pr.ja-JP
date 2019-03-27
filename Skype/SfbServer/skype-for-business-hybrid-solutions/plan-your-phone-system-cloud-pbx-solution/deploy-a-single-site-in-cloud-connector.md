@@ -1,5 +1,6 @@
 ---
 title: Cloud Connector での単一サイトの展開
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: Cloud Connector エディションで単一の PSTN サイトを展開する方法について説明します。
-ms.openlocfilehash: 389829373d857d587a1fd904932f13a7a321deec
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 667637fdf7dd42df64c4fdf9aca6b20931da188d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375005"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881142"
 ---
-# <a name="deploy-a-single-site-in-cloud-connector"></a>Cloud Connector での単一サイトの展開
+# <a name="deploy-a-single-site-in-cloud-connector"></a>Deploy a single site in Cloud Connector
  
 Cloud Connector エディションで単一の PSTN サイトを展開する方法について説明します。
   
@@ -71,7 +72,7 @@ Install-CcAppliance
    ```
 
 > [!NOTE]
-> サイト ディレクトリがローカル フォルダー パスに設定されていた場合は、このフォルダーのファイル共有を定義し、新しいアプライアンスのサイト ディレクトリに UNC パスを使用する必要があります。 最初のアプライアンス サイト ディレクトリをローカル パスのままにするか、共有の UNC パスを使用するようにそのパスを変更することができます。 共有サイト ディレクトリの場所を変更する場合は、以前にインストールしたすべてのアプライアンスをアンインストールしてから、再びインストールする必要があります。 > 重要: CceService のアカウントと CABackupFile のアカウントの両方のパスワードする必要があります、サイト内に展開されるすべてのアプライアンス上で同じアプライアンスは、サイト ディレクトリの共有、およびサイト ディレクトリの暗号化された CA のバックアップ ファイルをアクセスできるようにします。 
+> サイト ディレクトリがローカル フォルダー パスに設定されていた場合は、このフォルダーのファイル共有を定義し、新しいアプライアンスのサイト ディレクトリに UNC パスを使用する必要があります。 最初のアプライアンス サイト ディレクトリをローカル パスのままにするか、共有の UNC パスを使用するようにそのパスを変更することができます。 共有サイト ディレクトリの場所を変更する場合は、以前にインストールしたすべてのアプライアンスをアンインストールしてから、再びインストールする必要があります。 _gt 重要: 両方の CceService アカウントと CABackupFile のアカウントのパスワード必要があります、サイト内に展開されるすべてのアプライアンス上で同じアプライアンスは、サイト ディレクトリの共有、およびサイト ディレクトリの暗号化された CA のバックアップ ファイルをアクセスできるようにします。 
   
 ## <a name="remove-an-appliance-from-an-existing-site"></a>既存のサイトからアプライアンスを削除する
 

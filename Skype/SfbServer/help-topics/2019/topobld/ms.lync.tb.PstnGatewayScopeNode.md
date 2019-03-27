@@ -1,5 +1,6 @@
 ---
 title: PSTN ゲートウェイ スコープ ノード
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
 ROBOTS: NOINDEX, NOFOLLOW
 description: これは、仲介サーバー、およびこの公衆交換電話網 (PSTN) ゲートウェイに関する基本的な情報は他に関連付けられているノードの完全修飾ドメイン名 (FQDN) を示しています。 以下のアクションを実行できます。
-ms.openlocfilehash: dcdb2ee6710f2c5b13fb3ff3b25b4dd229155f40
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: bef624564d8c6f20555d8a9b2f9bb5f3dba7a43c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069061"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878488"
 ---
 # <a name="pstn-gateway-scope-node"></a>PSTN ゲートウェイ スコープ ノード
  

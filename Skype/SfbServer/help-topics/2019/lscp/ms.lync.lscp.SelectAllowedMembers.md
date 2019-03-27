@@ -1,5 +1,6 @@
 ---
 title: 許可されたメンバーの選択
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 作成し、永続的なチャット ルームを管理するカテゴリを使用して簡単にです。 永続的なチャット管理者は、各カテゴリに属している AllowedMembers および作成者を定義して、チャット ルームのデフォルトの設定と、カテゴリで作成したすべてのチャット ルームに適用される動作を定義することも。 永続的なチャット管理者は、作成し、コントロール パネルまたは Windows PowerShell コマンドレットを使用してカテゴリを管理します。
-ms.openlocfilehash: 192f9ed8fc5afaa5cfb586ce8b517a72daec333c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d47e60214b6f448b880e1eda646e6b4c936d192d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20994823"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878908"
 ---
 # <a name="select-allowed-members"></a>許可されたメンバーの選択
 

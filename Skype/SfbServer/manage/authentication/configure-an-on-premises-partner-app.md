@@ -1,5 +1,6 @@
 ---
 title: Skype のビジネス サーバーの設置パートナー アプリケーションを構成します。
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: '概要: は、Skype のビジネス サーバーの設置パートナー アプリケーションを構成します。'
-ms.openlocfilehash: 1377957797108f3cbc8e290b7750e9fba489cbf8
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fe80ae08a730ad4765c366a77fd0c44daaa18899
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21009726"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878481"
 ---
 # <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>Skype のビジネス サーバーの設置パートナー アプリケーションを構成します。
  
@@ -85,7 +86,7 @@ Set-CsOAuthConfiguration を呼び出すときに Realm パラメーターが使
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000 -Realm "contoso.com"
 ```
 
-変更後のスクリプトを実行し、パートナーのアプリケーションとビジネス サーバー管理シェルには、Skype 内からスクリプト ファイルを実行して、Exchange 2013 および SharePoint の両方を構成します。 例:
+変更後のスクリプトを実行し、パートナーのアプリケーションとビジネス サーバー管理シェルには、Skype 内からスクリプト ファイルを実行して、Exchange 2013 および SharePoint の両方を構成します。 次に例を示します。
   
 ```
 C:\Scripts\ServerToServerAuth.ps1

@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 の計画ツールのインストール
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: 前に設計を開始して、ビジネス サーバー 2015 計画ツールは、Skype を使用して、Skype をビジネス サーバー 2015 インフラストラクチャを計画する必要があります最初にツールをインストールする計画です。 計画ツールは、ワークステーションまたはサーバー 2015 のビジネス用の Skype をインストールしようとするドメインまたはインフラストラクチャの一部であるサーバーに展開する必要はありません。 計画ツールに付属する Readme ファイルをインストールして、ツールの使用に関する重要な情報について詳しく説明します。 わかりやすくするために、Readme ファイルの情報の一部をここに転載します。
-ms.openlocfilehash: 2314a9ae548bea70bc13872714ae3215d7439eec
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 616cec026dfc5890cffc3975ea421d98ec13e412
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244324"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884133"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の計画ツールのインストール
 
@@ -27,7 +28,7 @@ ms.locfileid: "23244324"
 
 計画ツールのインストールや操作のサポートされているオペレーティング システムは次のとおりです。
 
-- Windows 10 の場合
+- Windows 10
 
 - Windows 8
 
@@ -65,11 +66,11 @@ ms.locfileid: "23244324"
 
 7. 計画ツールをインストールする準備がようになりました。 [**インストール**] をクリックして、インストール プロセスを開始します。
 
-8. インストールが開始され、進行状況が表示されます。インストールが正常に完了したら、[**完了**] をクリックします。
+8. インストールが開始され、進行状況が表示されます。 インストールが正常に完了したら、[**完了**] をクリックします。
 
 9. 計画ツールは、使用できる状態です。
 
-## <a name="optional-software"></a>Optional Software
+## <a name="optional-software"></a>オプション ソフトウェア
 <a name="Optional_Software"> </a>
 
 ビジネス サーバー 2015 計画ツールの Skype は、Microsoft Excel および Microsoft Visio にエクスポートするのには設計されています。 計画ツールの操作に必要なこれらのアプリケーションは、配置およびデザインのドキュメントに付加価値が高まるの操作を行います。
@@ -105,7 +106,7 @@ ms.locfileid: "23244324"
 
 - エッジのネットワーク ダイアグラムに関連付けられている IP アドレスと Fqdn を使用してエッジ サーバー構成の詳細を示す図。 DNS 負荷分散やロード バランサー機器も含まれます。 また、ディレクターおよびフロント エンド サーバーまたはフロント エンド プールが表示されます、関連付けられた DNS LB または HLB (計画ツールには、IPv4 と IPv6 アドレスの両方がサポートされています)、割り当てられた IP アドレスと FQDN を持つ。
 
-## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
+## <a name="see-also"></a>関連項目
 <a name="Optional_Software"> </a>
 
-[計画ツールのインストール](https://technet.microsoft.com/library/ebdc9e26-4b22-4b02-85b9-7462bcfe7c93.aspx)
+[Installing the Planning Tool](https://technet.microsoft.com/library/ebdc9e26-4b22-4b02-85b9-7462bcfe7c93.aspx)

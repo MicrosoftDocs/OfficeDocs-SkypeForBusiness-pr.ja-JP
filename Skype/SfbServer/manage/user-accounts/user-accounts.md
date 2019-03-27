@@ -1,5 +1,6 @@
 ---
 title: Skype のビジネス サーバーのユーザー アカウントを管理します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: この資料のセクションでは、有効にする、一時的に無効化、または、Skype のビジネス サーバーの Active Directory ユーザーを削除する方法について説明します。
-ms.openlocfilehash: 918bdf556f040c115abf5869ad7a7dcd76a3271f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2140ae4209e0b91e0d1188a01f96d2d81cac27ef
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250795"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883687"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>Skype のビジネス サーバーのユーザー アカウントを管理します。
 
@@ -116,7 +117,7 @@ Business Server のビジネス サーバー構成設定をユーザー アカ�
 
 ### <a name="to-disable-a-user-account"></a>ユーザー アカウントを無効にするには
 
-- ユーザー アカウントを一時的に無効にするには、Enabled プロパティの値を False ($False) に設定します。 例:
+- ユーザー アカウントを一時的に無効にするには、Enabled プロパティの値を False ($False) に設定します。 次に例を示します。
 
   ```
   Set-CsUser -Identity "Ken Myer" -Enabled $False
@@ -124,7 +125,7 @@ Business Server のビジネス サーバー構成設定をユーザー アカ�
 
 ### <a name="to-re-enable-a-user-account"></a>ユーザー アカウントを再度有効にするのには
 
-- 無効なユーザー アカウントを再度有効にするには、Enabled プロパティの値を True ($True) に設定します。 例:
+- 無効なユーザー アカウントを再度有効にするには、Enabled プロパティの値を True ($True) に設定します。 次に例を示します。
 
   ```
   Set-CsUser -Identity "Ken Myer" -Enabled $True
@@ -156,7 +157,7 @@ Business Server のビジネス サーバー構成設定をユーザー アカ�
     > [!NOTE]
     > **テレフォニー**では、下の Lync を使用して、音声通話またはビデオ通話をすることからユーザーを制限するには、**オーディオとビデオを無効**をクリックします。
 
-8. [**確定**] をクリックします。
+8. [**コミット**] をクリックします。
 
 ユーザーは、ここでエンタープライズ VoIP 機能を使用することはありません。 関連情報: <br/>[エンタープライズ VoIP およびモバイル](https://technet.microsoft.com/library/72cbe2f5-1a01-4a6f-84a5-01f3212a8992.aspx)<br/> [ビジネス サーバーの Skype でエンタープライズ VoIP のユーザーを有効にします。](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype for Business Server 管理シェル](../management-shell.md)
 ## <a name="remove-a-user-account-with-the-skype-for-business-server-management-shell"></a>ビジネス サーバー管理シェルには、Skype でのユーザー アカウントを削除します。
@@ -186,7 +187,7 @@ Skype でビジネスのサーバーに以前に追加したユーザー アカ�
 Csuser からの無効化のコマンドレットを使用してユーザー アカウントを削除できます。 ビジネス サーバー管理シェルの Skype から、または Windows PowerShell のリモート セッションからは、このコマンドレットを実行できます。 ビジネス サーバーの Skype に接続するリモートの Windows PowerShell を使用する詳細については、ブログ記事の[「クイック スタート:: を管理する Microsoft Lync サーバー 2010 を使用してリモート PowerShell」](https://go.microsoft.com/fwlink/p/?linkId=255876)を参照してください。 プロセスは、Skype のビジネス サーバーで同じです。
 
 ### <a name="to-remove-a-user-account"></a>ユーザー アカウントを削除するのには
-ユーザー アカウントを削除するには、無効にする CsUser コマンドレットを使用します。 例:
+ユーザー アカウントを削除するには、無効にする CsUser コマンドレットを使用します。 次に例を示します。
 
   ```
   Disable-CsUser -Identity "Ken Myer"
@@ -196,7 +197,7 @@ Csuser からの無効化のコマンドレットを使用してユーザー ア
 
 詳細については、[無効にする CsUser](https://docs.microsoft.com/powershell/module/skype/disable-csuser?view=skype-ps)コマンドレットのヘルプ トピックを参照してください。
 
-## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
+## <a name="see-also"></a>関連項目
 <a name="Remove"> </a>
 
 [Csuser からの有効化](https://docs.microsoft.com/powershell/module/skype/enable-csuser?view=skype-ps)

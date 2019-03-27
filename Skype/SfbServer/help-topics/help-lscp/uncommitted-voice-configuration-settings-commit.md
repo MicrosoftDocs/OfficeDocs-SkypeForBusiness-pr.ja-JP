@@ -1,5 +1,6 @@
 ---
 title: コミットされていない音声構成設定のコミット
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb51f2ef-0235-4b77-8b2c-e2b0d3ff3608
-description: コミットされていない音声構成設定] ダイアログ ボックスを使用すると、すべての変更を行ったことを確認します。 ダイアログ ボックス内をスクロールして未確定の変更をすべて確認するか、矢印をクリックして別のセクションを展開または折りたたみます。 完了したらのすべてのこれらの変更をコミットするためのコミット] をクリックするかに戻ると、変更内容を変更するには [キャンセル] をクリックします。
-ms.openlocfilehash: 9010bea8b79f1d8cbf2eeae1b27bfa551c71dae7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '[未確定の音声構成設定] ダイアログ ボックスを使用すると、加えた変更をすべて確認することができます。 ダイアログ ボックス内をスクロールして未確定の変更をすべて確認するか、矢印をクリックして別のセクションを展開または折りたたみます。 終了したら、[コミット] をクリックしてそれらの変更をすべて確定するか、[キャンセル] をクリックして戻り、変更点を修正します。'
+ms.openlocfilehash: ad937912a2a2b0de13b8f9c86ab18791a3fcc767
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880883"
 ---
 # <a name="uncommitted-voice-configuration-settings-commit"></a>コミットされていない音声構成設定: コミット
  

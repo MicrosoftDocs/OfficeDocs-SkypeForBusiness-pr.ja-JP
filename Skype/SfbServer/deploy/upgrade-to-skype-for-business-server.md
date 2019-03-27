@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 へのアップグレード
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,14 +15,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: '概要: ビジネス サーバー 2015 Skype まで Lync Server 2013 からアップグレードする方法を説明します。 マイクロソフト評価センターからのビジネス サーバー 2015 の Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: 5c23faeb1dca662b80855b87a93152b3e81de43d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0a09de79bd60917667dfb2e7ca33310da3b04ddd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885146"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878190"
 ---
-# <a name="upgrade-to-skype-for-business-server-2015"></a>Skype for Business Server 2015 へのアップグレード
+# <a name="upgrade-to-skype-for-business-server-2015"></a>Upgrade to Skype for Business Server 2015
  
 **の概要:** ビジネス サーバー 2015 Skype まで Lync Server 2013 からアップグレードする方法について説明します。 [マイクロソフト評価センター](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)からサーバー 2015 をビジネス用には、Skype の無料試用版をダウンロードします。
   
@@ -36,7 +37,7 @@ ms.locfileid: "23885146"
   
 ### <a name="before-you-begin"></a>始める前に
 
-- [ビジネス サーバー 2015 の Skype へのアップグレード計画](../plan-your-deployment/upgrade.md)を確認します。
+- 「[Plan to upgrade to Skype for Business Server 2015](../plan-your-deployment/upgrade.md)」を確認します。
     
 - [ビジネス サーバー 2015 の Skype のサーバーの要件](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)を確認します。
     
@@ -71,7 +72,7 @@ ms.locfileid: "23885146"
 アップグレード プロセスを開始する前に、アップグレードを計画するプールのすべてのサービスを実行しなければなりません。 これは、トポロジの変更が、プール内のサーバーのローカル データベースにレプリケートされるようにするためです。
   
 > [!IMPORTANT]
->  アップグレードの前に、トポロジ ファイルのコピーを保存します。 アップグレードした後、することはできませんへのダウン グレードのトポロジ。 > 場合、サービスはサービスは、永続的なチャット データベースと同じサーバーで永続的なチャットのように、データベースでは、この手順をスキップするよう同じサーバー上にあると、手順 4 に進みます。 サービスを停止した後、各サーバー上で一括アップグレードのセットアップを実行して、ローカル データベースをアップグレードします。
+>  アップグレードの前に、トポロジ ファイルのコピーを保存します。 アップグレードした後、することができなく、サービスが永続的なチャット サービスは、永続的なチャット データベースと同じサーバー上のように、データベースと同じサーバー上にある場合に、topology.> をダウン グレード、この手順をスキップし、手順 4 に進みます。 サービスを停止した後、各サーバー上で一括アップグレードのセットアップを実行して、ローカル データベースをアップグレードします。
   
 > [!NOTE]
 > ミラー化されているバック エンド データベースがトポロジに含まれる場合、トポロジ ビルダーを使用して**トポロジを公開すると**、プリンシパル データベースとミラー化されたデータベースの両方が表示されます。トポロジを公開するときは、すべてのデータベースがプリンシパル上で実行されていて、ミラーではなくプリンシパルのみを選択していることを確認してください。条件が満たされていない場合、トポロジを公開した後に警告が表示されます。
@@ -179,7 +180,7 @@ Disable-CsComputer -Scorch
 ### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>手順 5: フロントエンド プールと非フロントエンド プール サーバーをアップグレードする
 
 > [!NOTE]
->  すべて新しい必要条件が Skype のビジネス サーバー 2015 を含むをインストールしてくださいアップグレードする前に: > 32 GB 以上のアップグレードを実行する前に空き領域の。 さらに、確認するドライブは、ローカルの固定ドライブ、USB または Firewire で接続されていない、NTFS ファイル システムでフォーマットされたが圧縮されていない、および含まれていないページのファイル > PowerShell バージョン 6.2.9200.0 またはそれ以降です。 > 最新の Lync Server 2013。累積的な更新プログラムをインストールします > SQL Server 2012 SP1 がインストールされている。 > 次の KB (インストールされている自動的に Microsoft Update を使用する場合) にインストールされている: > Windows Server 2008 R2 の -[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012 -[KB2858668](https://support.microsoft.com/kb/2858668)> Windows。Server 2012 R2 -[KB2982006](https://support.microsoft.com/kb/2982006)
+>  すべて新しい必要条件が Skype のビジネス サーバー 2015 を含むをインストールしてくださいアップグレードする前に: _gt 32 GB 以上のアップグレードを実行する前に空き領域の。 さらに、確認、ドライブは、ローカルの固定ドライブ、USB または Firewire で接続されていない、NTFS ファイル システムでフォーマットされた、圧縮されていない、およびページ file.> PowerShell バージョン 6.2.9200.0 またはそれ以降の .> 最新の Lync Server 2013 が含まれていません。累積的な更新がインストールされている SQL Server 2012 SP1 には、.> は、次の KB のインストール (インストールされている自動的に Microsoft Update を使用する場合) がインストールされている .>: _gt[KB2858668](https://support.microsoft.com/kb/2858668)_gt Windows の Windows Server 2008 R2 -[KB2533623](https://support.microsoft.com/kb/2533623)_gt Windows Server 2012 のServer 2012 R2 -[KB2982006](https://support.microsoft.com/kb/2982006)
   
 使用して、埋め込みのアップグレード各サーバーのフロント エンド プール、エッジ プール、仲介サーバー、および永続的なチャット プールを更新します。
   
@@ -234,15 +235,15 @@ Disable-CsComputer -Scorch
   
 ![必須の累積的な更新プログラムがインストールされていないために一括アップグレードが失敗していることを示しているスクリーン ショット](../media/f84db06b-0841-45a9-870d-7ba4b5a463d5.png)
   
-ページの下部にあるすべてのメッセージを確認して、問題のトラブルシューティングに役立てます。詳細情報を表示するには、[**ログの表示**] をクリックします。
+ページの下部にあるすべてのメッセージを確認して、問題のトラブルシューティングに役立てます。 詳細情報を表示するには、[**ログの表示**] をクリックします。
   
 埋め込みのアップグレードは、**アップグレードの準備完了を確認**または**不足している必須コンポーネントのインストール**に失敗すると場合、すべて最新 Windows サーバー、Lync Server、および SQL Server の更新プログラムを適用し、必要なすべてのソフトウェアには、サーバーの役割は、ことを確認します。インストールされています。 必要な要素のリストは、[ビジネス サーバー 2015 の Skype のサーバー要件](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)と[ビジネス サーバー 2015 の Skype のための前提条件のインストール](install/install-prerequisites.md)を参照してください。
   
 ## <a name="see-also"></a>関連項目
 
-[Skype for Business Server 2015 へのアップグレードの計画](../plan-your-deployment/upgrade.md)
+[Plan to upgrade to Skype for Business Server 2015](../plan-your-deployment/upgrade.md)
   
-[Skype for Business Server 2015 のサーバー要件](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Server requirements for Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
 [Skype for Business Server 2015 の前提条件のインストール](install/install-prerequisites.md)
   

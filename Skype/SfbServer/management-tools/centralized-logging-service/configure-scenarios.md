@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 での集中ログ サービスのシナリオの構成
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: '概要: は、作成、変更、およびビジネス サーバー 2015 の Skype で集中ログ サービスのシナリオを削除する方法を説明します。'
-ms.openlocfilehash: e80324d4228aec503c887927459e42188741837f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 453c9c593e53dca186b09e1ba835bc8f94bb7112
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373931"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878302"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での集中ログ サービスのシナリオの構成
  
@@ -56,7 +57,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 1. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
     
-2. ログ セッションの新しいシナリオを作成するに[新規 CsClsProvider](https://docs.microsoft.com/powershell/module/skype/new-csclsprovider?view=skype-ps)を使用し、(は、どのようにそれは一意に識別される) のシナリオの名前を定義します。 WPP (つまり、Windows のソフトウェア トレース プリプロセッサは、既定値)、イベント ログ (つまり、Windows イベント ログの形式で) または IISLog のログ出力形式の種類を選択 (つまり、ASCII 形式のファイルに基づいて、IIS ログ ファイル形式)。 次に、定義、定義されているログ出力レベル] の下の「)、レベルとフラグ (このトピックでは、フラグ下で定義されている)。
+2. ログ セッションのための新しいシナリオを作成するには、[New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/new-csclsprovider?view=skype-ps) を使用し、シナリオの名前 (シナリオを一意に識別する方法) を定義します。ログ形式の種類を、WPP (Windows ソフトウェア トレース プリプロセッサ。これが既定値です)、EventLog (Windows イベント ログ形式)、または IISLog (IIS ログ ファイル形式に基づく ASCII 形式ファイル) から選択します。次に、レベル (このトピックのログ レベルの説明で定義されています) とフラグ (このトピックのフラグの説明で定義されています) を定義します。
     
     このシナリオ例では、プロバイダー変数の例として LyssProvider を使用します。
     
@@ -141,7 +142,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Remove-CsClsScenario -Identity "site:Redmond/LyssServiceScenario"
    ```
 
-**削除 CsClsScenario**コマンドレットには、指定したシナリオが削除されますが、ログを検索するには、キャプチャされたトレースが利用できます。
+**Remove-CsClsScenario** コマンドレットでは指定したシナリオが削除されますが、キャプチャ済みのトレースはログに残り、検索に利用できます。
 ### <a name="to-load-and-unload-the-edit-csclsscenario-cmdlet-using-the-clsscenarioeditpsm1-module"></a>ClsScenarioEdit.psm1 モジュールを使用して Edit-CsClsScenario コマンドレットをロードおよびアンロードするには
 
 1. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。

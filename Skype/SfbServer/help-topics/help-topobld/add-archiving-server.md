@@ -1,5 +1,6 @@
 ---
 title: アーカイブ サーバーの追加
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a7106eb-8fd3-492a-a45c-f099496b11a2
 description: アーカイブ サーバーをトポロジ設計に展開するには、アーカイブ サーバーを展開するサーバーの完全修飾ドメイン名 (FQDN) を指定する必要があります。 アーカイブが含まれますトポロジを公開する前に、Skype ビジネス サーバーをインストールすると、作成したアーカイブを展開するためのすべての前提条件です。
-ms.openlocfilehash: 03713e6c54a57a1e9974401113924136ab1eaabc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4cf1ddba834c035fcd290b0d60ccda246332aef8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882594"
 ---
 # <a name="add-archiving-server"></a>アーカイブ サーバーの追加
  

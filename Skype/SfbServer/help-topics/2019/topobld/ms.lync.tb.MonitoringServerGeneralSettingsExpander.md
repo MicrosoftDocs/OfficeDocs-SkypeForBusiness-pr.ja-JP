@@ -1,5 +1,6 @@
 ---
 title: 監視サーバー全般設定エキスパンダー
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーで、個々の監視サーバーのプロパティを編集できます。それには、コンソール ツリーで監視サーバーを右クリックしてからツール バーで [アクション] をクリックするか、[操作] ウィンドウでタスクをクリックしてから [プロパティの編集] をクリックし、次のオプションのいずれかを変更します。
-ms.openlocfilehash: fbea857fc4588ae43b936e647f0d2697a5da5cd2
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 4dfdc81b92ca1c0ebf1b8fd0cf3e2541f702697c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21057381"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879400"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>監視サーバー全般設定エキスパンダー
  

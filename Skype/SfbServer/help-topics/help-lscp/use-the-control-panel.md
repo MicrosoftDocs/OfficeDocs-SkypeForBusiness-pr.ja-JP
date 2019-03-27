@@ -1,5 +1,6 @@
 ---
 title: ビジネス 2015 のサーバーのコントロール パネルの Skype を使用してください。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 79eff02f-4bc1-4e3a-bac5-2043e19f781a
 description: 詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、ビジネス サーバー 2015 の Skype の管理を参照してください。
-ms.openlocfilehash: 3230bdfe5e877873eeb43f7f46f0c2212213be54
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 0d8ca26ebfaa48390a1515f7c0f748d4b6400303
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883800"
 ---
 # <a name="use-the-skype-for-business-server-2015-control-panel"></a>ビジネス 2015 のサーバーのコントロール パネルの Skype を使用してください。
  

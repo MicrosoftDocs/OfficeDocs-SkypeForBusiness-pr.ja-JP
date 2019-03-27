@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype では、アーカイブの構成を作成します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
 description: 概要では、Skype のビジネス サーバーのアーカイブ構成を作成する方法について説明します。
-ms.openlocfilehash: b46aa3605d34ba083b7021424536b9c2d1c9bbea
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2a45a627ab8bbeedd18d1cbda636606ebc641745
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21019846"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881285"
 ---
 # <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>ビジネス サーバーの Skype では、アーカイブの構成を作成します。
 
@@ -52,7 +53,7 @@ ms.locfileid: "21019846"
     
    - データの削除を有効にするには、[**アーカイブ データの削除を有効にする**] チェック ボックスをオンにし、次のどちらかの操作を実行します。
     
-     - 一定の日数が経過した後に削除されるよう指定するには、[**最大日数が経過したエクスポートおよび保存済みアーカイブ データを削除する**] をクリックして、日数を指定します。
+     - 一定の日数が経過した後に削除されるよう指定するには、[**最大日数が経過したエクスポートおよび保存済みアーカイブ データを削除する**] をクリックし、日数を指定します。
     
      - エクスポートされたアーカイブ データに削除対象を限定するには、[**エクスポートされたアーカイブ データのみを削除する**] をクリックします。
     

@@ -1,5 +1,6 @@
 ---
 title: VideoStreamDetail ビュー
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 description: VideoStreamDetail ビューは、データベース内の各ビデオ ストリームの情報を格納します。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: d102a5e99cfcecb7d5e2e35b113e13509662af4f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6bafdbed3152bc73b2988e31877d8b7203557d46
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884436"
 ---
 # <a name="videostreamdetail-view"></a>VideoStreamDetail ビュー
  
@@ -26,8 +28,8 @@ VideoStreamDetail ビューは、データベース内の各ビデオ ストリ�
 |SessionSeq  <br/> |int  <br/> |[MediaLine テーブル](medialine-0.md)から参照されています。  <br/> |
 |MediaLineLabel  <br/> |tinyint  <br/> |[MediaLine テーブル](medialine-0.md)から参照されています。  <br/> |
 |StreamId  <br/> |int  <br/> |メディア ライン内で一意の ID。  <br/> |
-|開始時刻  <br/> |datetime  <br/> |セッションの開始時刻。  <br/> |
-|終了時刻  <br/> |datetime  <br/> |セッションの終了時間です。  <br/> |
+|StartTime  <br/> |datetime  <br/> |セッションの開始時刻。  <br/> |
+|EndTime  <br/> |datetime  <br/> |セッションの終了時間です。  <br/> |
 |CallPriority  <br/> |int  <br/> |呼び出しの優先順位です。  <br/> |
 |CallerPool  <br/> |nvarchar(256)  <br/> |呼び出し元プールの FQDN です。  <br/> |
 |CalleePool  <br/> |nvarchar(256)  <br/> |呼び出し先プールの FQDN です。  <br/> |
@@ -87,7 +89,7 @@ VideoStreamDetail ビューは、データベース内の各ビデオ ストリ�
 |AppliedBandwidthLimit  <br/> |int  <br/> |さまざまなポリシーの設定 (有効にする、API、SDP、ポリシー サーバー、およびなど) を指定した特定の送信側のストリームに適用される実際の帯域幅です。 これは、帯域幅の見積もりに基づいて下の効果的な帯域幅が存在することができますので、効果的な帯域幅とを混同しないようにします。 これは、基本的に、帯域幅の推定値の制限を除いて、送信ストリームがかかることが最大の帯域幅です。  <br/> |
 |JitterInterArrival  <br/> |int  <br/> |リアルタイム制御プロトコル (RTCP) 統計情報のネットワークの平均ジッター。  <br/> |
 |JitterInterArrivalMax  <br/> |int  <br/> |呼び出し時に最大ネットワーク ジッター。  <br/> |
-|ラウンドト リップ  <br/> |int  <br/> |RTCP の統計情報のラウンド トリップ時間です。  <br/> |
+|RoundTrip  <br/> |int  <br/> |RTCP の統計情報のラウンド トリップ時間です。  <br/> |
 |RoundTripMax  <br/> |int  <br/> |オーディオ ストリームの最大のラウンド トリップ時間です。  <br/> |
 |PacketLossRate  <br/> |decimal(5,4)  <br/> |呼び出し時に平均パケット損失の割合です。  <br/> |
 |PacketLossRateMax  <br/> |decimal(5,4)  <br/> |最大のパケット損失が呼び出し中に発生します。  <br/> |

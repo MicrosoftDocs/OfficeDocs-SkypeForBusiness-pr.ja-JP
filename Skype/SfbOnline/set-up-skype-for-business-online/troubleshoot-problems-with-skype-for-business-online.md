@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Online に関する問題のトラブルシューティング
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to fix issues for admins and users of Skype for Business in Office 365.
-ms.openlocfilehash: 3ed2aa64df068de58ca9651f369b868947a5129d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 07cc390cdc4e65d0ce8f59c42c6eb57f4900e949
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850119"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883131"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Skype for Business Online に関する問題のトラブルシューティング
 
@@ -82,9 +83,9 @@ Skype for Business Online ユーザーが直面する問題の多くはパスワ
 > [!NOTE]
 > 中国で 21Vianet が運営する Office 365 を使用している場合は、[21Vianet のサポート チームにお問い合わせください](https://go.microsoft.com/fwlink/p/?linkid=847978)。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 
-[Skype for Business ユーザーが Skype 連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
+[Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
 
 

@@ -1,5 +1,6 @@
 ---
 title: 証明書要求 (証明機関)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
-description: オンライン証明機関 (CA) に証明書要求を行う場合 (通常、これらは、内部ネットワーク上のサーバー) の [証明機関 (CA) ページが表示され、2 つのオプション。
-ms.openlocfilehash: 6fea8ba9500e1612ff13796f4c58550687baa99a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '[証明機関 (CA) を選択してください] ページでオンライン証明機関 (CA) (通常、内部ネットワーク上のサーバー) に対して証明書要求を行う場合、次の 2 つのオプションが表示されます。'
+ms.openlocfilehash: 5681f570a6c418263545386afecfe4b7329bc45c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880194"
 ---
 # <a name="certificate-request-certificate-authority"></a>証明書要求 (証明機関)
  

@@ -1,5 +1,6 @@
 ---
 title: XMPP フェデレーション パートナー
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,17 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3e270f9f-c5b7-4aa8-8425-83acadfbfb9a
-description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 83659d3d1feaeb6ba410f697d0cf6ae5244b354d
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: 7ab6410f0fda631b77ae29a2838c8a603a719a8c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247621"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882538"
 ---
 # <a name="xmpp-federated-partners"></a>XMPP フェデレーション パートナー
 
-目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 
 - [管理 XMPP のフェデレーション パートナーの組織](https://technet.microsoft.com/library/48681433-725d-457f-926b-f91d95bcf082.aspx)
 
