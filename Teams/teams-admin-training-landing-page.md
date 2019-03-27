@@ -1,5 +1,6 @@
 ---
 title: Microsoft Teams の管理者トレーニング
+ms.reviewer: ''
 description: トレーニングの組織でマイクロソフトのチームを管理する必要があります。
 author: dearbeen
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Training
 ms.topic: landing-page
 ms.author: dearbeen
-ms.openlocfilehash: 84d409f18fb6e6f4832ad4f5912f2b50fef05736
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 5bc3f744ff3bf04388de1ba19c02c4ad64f6263f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30540945"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891111"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 
@@ -170,8 +171,8 @@ ms.locfileid: "30540945"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>主要な更新</h3>
-                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing">電話会議のセットアップ</a></p>
+                        <h3>主な更新</h3>
+                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing">電話会議をセットアップする</a></p>
                     </div>
                 </div>
             </div>

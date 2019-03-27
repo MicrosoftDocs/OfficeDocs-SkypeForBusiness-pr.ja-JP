@@ -1,5 +1,6 @@
 ---
 title: 展開ウィザードはユニファイド コミュニケーション API
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0eb47fc9-17fe-4ccf-b7c9-1a2cf95f943c
 description: 展開ウィザードを使用して、ビジネス サーバー 2015 の Skype をインストールする詳細については、ビジネス サーバー 2015 の Skype のインストールを参照してください。
-ms.openlocfilehash: 93a95116930c69476881c3899ad349aaf70e7757
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 76624a6a6d5eb570bb1e17e09abe36a32e15560e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894354"
 ---
-# <a name="deployment-wizard-unified-communications-api"></a><span data-ttu-id="22b2a-103">展開ウィザード: 統合コミュニケーション API</span><span class="sxs-lookup"><span data-stu-id="22b2a-103">Deployment Wizard: Unified Communications API</span></span>
+# <a name="deployment-wizard-unified-communications-api"></a><span data-ttu-id="2098b-103">展開ウィザード: 統合コミュニケーション API</span><span class="sxs-lookup"><span data-stu-id="2098b-103">Deployment Wizard: Unified Communications API</span></span>
  
-<span data-ttu-id="22b2a-104">展開ウィザードを使用して、ビジネス サーバー 2015 の Skype をインストールする詳細については、[ビジネス サーバー 2015 の Skype のインストール](../../deploy/install/install.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="22b2a-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install/install.md).</span></span>
+<span data-ttu-id="2098b-104">展開ウィザードを使用して、ビジネス サーバー 2015 の Skype をインストールする詳細については、[ビジネス サーバー 2015 の Skype のインストール](../../deploy/install/install.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="2098b-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install/install.md).</span></span>
   
 
