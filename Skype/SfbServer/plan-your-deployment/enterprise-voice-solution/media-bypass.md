@@ -1,5 +1,6 @@
 ---
 title: ビジネス用の Skype でメディアをバイパスするための計画します。
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: ビジネス サーバーのエンタープライズ VoIP の Skype でメディアを計画するために必要な決定を省略します。 これには、通話受付管理 (CAC) との相互運用が含まれます。
-ms.openlocfilehash: b9cb62e8153f7eb54159637954ea13cda72b6817
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 26cf20fcd7b8378d99da21be46bd6ca219b82196
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885316"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884864"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>ビジネス用の Skype でメディアをバイパスするための計画します。
 
@@ -101,7 +102,7 @@ PSTN への呼び出しを行うと、仲介サーバーはゲートウェイ �
 
     たとえ CAC がグローバルに無効であった場合でも、バイパス決定を制御するのに [サイトおよび地域] 構成を使用したい場合は、帯域幅ポリシーをそれぞれのサイトおよびリンクに定義する必要があります。 帯域幅の制約またはそのモーダルかどうかの実際の値は関係ありません。 最大の目標は、システムが、うまく接続されていない異なるロケールと関連付けるため、異なるバイパス ID を自動的に計算できるようにすることです。 定義上、帯域幅の制限を定義するということは、リンクがうまく接続されていないことを意味します。
 
-- CAC は有効ですが、メディア バイパスは有効ではありません。 これは、すべてのゲートウェイまたは IP-PBX がうまく接続されていない、あるいはメディア バイパスのその他の要件が満たされていない場合にのみ適用されます。 メディア バイ パスの要件に関する詳細については、[メディアをバイパスするための要件](https://technet.microsoft.com/library/6162a204-0e7c-460a-8eb2-e592c6590a8a.aspx)を参照してください。
+- CAC は有効ですが、メディア バイパスは有効ではありません。これは、すべてのゲートウェイまたは IP-PBX がうまく接続されていない、あるいはメディア バイパスのその他の要件が満たされていない場合にのみ適用されます。メディア バイパスの要件の詳細については、「[Requirements for Media Bypass](https://technet.microsoft.com/library/6162a204-0e7c-460a-8eb2-e592c6590a8a.aspx)」を参照してください。
 
 ## <a name="technical-requirements"></a>技術要件
 

@@ -1,5 +1,6 @@
 ---
 title: サイトの呼受付制御を管理します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ネットワーク サイトは、オフィスや受付制御 (CAC)、~ 9-1-1、およびメディア バイ パスの展開の場合は、各ネットワーク地域内の場所を呼び出します。
-ms.openlocfilehash: ecf23a8a052afbd21b02f8ff5507c248d42b7118
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 53140cf03110991f2c757e5d52e30a6c7db1d7de
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223172"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895420"
 ---
-# <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>ビジネス サーバーの Skype のサイトに通話受付制御を管理します。
+# <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Skype for Business Server でのサイトの通話受付管理サービスの管理
 
 ネットワーク サイトは、オフィスや受付制御 (CAC)、~ 9-1-1、およびメディア バイ パスの展開の場合は、各ネットワーク地域内の場所を呼び出します。 ネットワーク サイトの呼受付制御を構成するのには、この資料の手順を使用します。
 
@@ -139,7 +140,7 @@ Windows PowerShell と Get CsNetworkSite コマンドレットを使用してネ
 
 9.  (省略可能)表すことのできない名前だけで、このサイトに関する詳細情報を提供する [**説明**] フィールドに値を入力します。
 
-10. [**確定**] をクリックします。
+10. [**コミット**] をクリックします。
 
     > [!NOTE]  
     > 新しいネットワーク サイトを作成するときは、**サブネットの関連付けられている**テーブルを使用しません。 作成またはサブネットを変更するときは、サブネットをサイトに関連付けます。 詳細については、[ネットワークのサブネットを管理する](managing-network-subnets.md)を参照してください。
@@ -158,7 +159,7 @@ Windows PowerShell と Get CsNetworkSite コマンドレットを使用してネ
 
 6.  [**サイトの編集**] ページで、説明、地域、帯域幅ポリシーのプロファイル、およびサイトに関連付けられている場所のポリシーを変更できます。 詳細について[ネットワーク サイトを作成するのには](#to-create-a-network-site)上記を参照してください。
 
-7.  [**確定**] をクリックします。
+7.  [**コミット**] をクリックします。
 
 このページに**関連付けられているサブネット**テーブルを変更することはできません。 どのサブネットが影響を受けるサイトの設定を変更するときに注意するように、参照に関連付けられているサブネットの一覧が用意されています。
 
@@ -193,20 +194,20 @@ Windows PowerShell と Get CsNetworkSite コマンドレットを使用してネ
 ## <a name="see-also"></a>関連項目
 
 
-[New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy) 
+[新しい-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy) 
  
-[Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)  
+[セット CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)  
 
-[Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)  
+[削除 CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)  
 
 [Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterSitePolicy)  
 
 [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
 
-[New-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite)
+[新しい-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite)
 
-[Set-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkSite)
+[セット CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkSite)
 
-[Remove-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkSite)  
+[削除 CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkSite)  
 
 [Get-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite)  

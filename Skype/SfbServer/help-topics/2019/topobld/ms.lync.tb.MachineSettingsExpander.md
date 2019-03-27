@@ -1,5 +1,6 @@
 ---
 title: サーバー設定エキスパンダー
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,13 +12,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bef91d55-a75c-495f-a523-4930797192f6
 ROBOTS: NOINDEX, NOFOLLOW
-description: このノードには、このサーバーの完全修飾ドメイン名 (FQDN) および IP アドレス構成が表示されます。以下のアクションを実行できます。
-ms.openlocfilehash: 95a713378e5b4a9e4bd502fa6df999021c2074e5
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+description: このノードには、このサーバーの完全修飾ドメイン名 (FQDN) および IP アドレス構成が表示されます。 以下のアクションを実行できます。
+ms.openlocfilehash: 3e2e2723dc27fbacbb1376290d0622dd3237060b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069597"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893498"
 ---
 # <a name="server-settings-expander"></a>サーバー設定エキスパンダー
  

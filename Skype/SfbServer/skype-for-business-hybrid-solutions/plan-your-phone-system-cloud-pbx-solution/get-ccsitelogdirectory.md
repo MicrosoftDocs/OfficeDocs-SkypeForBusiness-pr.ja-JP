@@ -1,5 +1,6 @@
 ---
-title: Get CcSiteLogDirectory
+title: Get-CcSiteLogDirectory
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6625494d-1b63-4d99-a589-c8c69c4addba
 description: Get-CcSiteLogDirectory コマンドレットは、Skype for Business Cloud Connector エディションのサイト レベルのログが格納されている現在のディレクトリを示します。
-ms.openlocfilehash: 68d89200ac8bf2aec32db45752d62d7ae205b830
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c4354920ac25d076e550c5eda3a641eef0c8b900
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886128"
 ---
-# <a name="get-ccsitelogdirectory"></a>Get CcSiteLogDirectory
+# <a name="get-ccsitelogdirectory"></a>Get-CcSiteLogDirectory
  
 Get-CcSiteLogDirectory コマンドレットは、Skype for Business Cloud Connector エディションのサイト レベルのログが格納されている現在のディレクトリを示します。 
   
@@ -59,6 +61,6 @@ Get-CcSiteLogDirectory
 ## <a name="see-also"></a>関連項目
 <a name="ReturnTypes"> </a>
 
-[セット CcSiteDirectory](set-ccsitedirectory.md)
+[Set-CcSiteDirectory](set-ccsitedirectory.md)
   
 

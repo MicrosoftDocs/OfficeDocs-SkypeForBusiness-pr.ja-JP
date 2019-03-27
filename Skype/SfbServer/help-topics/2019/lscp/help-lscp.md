@@ -1,5 +1,6 @@
 ---
-title: ヘルプ LSCP
+title: LSCP のヘルプ
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 ms.audience: ITPro
@@ -9,14 +10,14 @@ localization_priority: Normal
 ms.assetid: d90fce21-d7ff-4a9a-bc20-68021a37dca4
 ROBOTS: NOINDEX, NOFOLLOW
 description: コントロール パネルのトピック
-ms.openlocfilehash: 5391d566516fe2e5b079469438d2f990e563675a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 54047a0115fb8b53a06052a45069dceb520a285a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006756"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886918"
 ---
-# <a name="help-lscp"></a>ヘルプ LSCP
+# <a name="help-lscp"></a>LSCP のヘルプ
  
 このノードのトピックでは、ビジネス サーバーのコントロール パネルについては、Skype のヘルプを提供します。
   

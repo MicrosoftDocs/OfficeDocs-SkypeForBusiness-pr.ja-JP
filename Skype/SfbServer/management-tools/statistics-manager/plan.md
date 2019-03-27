@@ -1,5 +1,6 @@
 ---
-title: Skype 統計マネージャーのビジネス サーバー計画します。
+title: Skype for Business Server の Statistics Manager の計画
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: '概要: は、Skype のビジネス サーバーの統計マネージャーの概要を学習するには、このトピックを読みます。'
-ms.openlocfilehash: a73e58acdd91b4112537fa0028bf2c134e9c0fce
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 7e086dda9bfea755265d2c77413989f8cc634df7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297859"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893989"
 ---
-# <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Skype 統計マネージャーのビジネス サーバー計画します。
+# <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の Statistics Manager の計画
 
 **の概要:** Skype のビジネス サーバーの統計マネージャーの概要を学習するには、このトピックを参照してください。
 
@@ -176,8 +177,8 @@ ms.locfileid: "27297859"
 
 詳細については、以下を参照してください。
 
-- [ビジネス サーバーの Skype の統計マネージャーを展開します。](deploy.md)
+- [Skype for Business Server の Statistics Manager の展開](deploy.md)
 
-- [ビジネス サーバーの Skype の統計マネージャーをアップグレードします。](upgrade.md)
+- [Skype for Business Server の Statistics Manager のアップグレード](upgrade.md)
 
-- [統計マネージャーは、Skype のビジネス サーバーのトラブルシューティングを行う](troubleshoot.md)
+- [Skype for Business Server の Statistics Manager のトラブルシューティング](troubleshoot.md)

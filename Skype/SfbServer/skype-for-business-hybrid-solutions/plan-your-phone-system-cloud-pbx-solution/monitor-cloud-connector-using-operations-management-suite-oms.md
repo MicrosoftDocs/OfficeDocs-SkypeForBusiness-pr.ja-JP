@@ -1,5 +1,6 @@
 ---
-title: 運用管理スイート (OMS) を使用してクラウドのコネクタを監視します。
+title: Operations Management Suite (OMS) を使用した Cloud Connector の監視
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,14 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: 運用管理スイート (OMS) を使用して、クラウド コネクタ バージョン 2.1 とそれ以降の展開を監視する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 36d70a1504eab085d319e46d03c3c6f0bd9d14f3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2077b5525984cc3d9948e7602036dfbb7f0ee4b7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532081"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886079"
 ---
-# <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>運用管理スイート (OMS) を使用してクラウドのコネクタを監視します。
+# <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Operations Management Suite (OMS) を使用した Cloud Connector の監視
 
 運用管理スイート (OMS) を使用して、クラウド コネクタ バージョン 2.1 とそれ以降の展開を監視する方法の詳細については、このトピックを参照してください。
 
@@ -25,7 +26,7 @@ ms.locfileid: "26532081"
 
 このトピックには次のセクションが含まれます。
 
-- 必要条件
+- 前提条件
 
 - OMS を使用するクラウドのコネクタを構成します。
 
@@ -35,7 +36,7 @@ ms.locfileid: "26532081"
 
 - 推奨される監視の設定
 
-## <a name="prerequisites"></a>必要条件
+## <a name="prerequisites"></a>前提条件
 
 OMS を使用するには、コネクタのクラウドの展開を監視するため、前に、以下が必要。
 

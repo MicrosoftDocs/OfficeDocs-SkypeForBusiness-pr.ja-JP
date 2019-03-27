@@ -1,5 +1,6 @@
 ---
 title: Web サービス設定エキスパンダー
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーでは、内から、両方の内部および外部の web サービスを使用するポートの設定を変更できます。 さらに、ドメイン ネーム システム (DNS) 負荷分散を展開する場合は、ビルダーを使用するトポロジ、完全修飾ドメイン名 (FQDN) を構成するのには、プール内のすべてのサーバーの物理的な IP アドレスに解決されるプールのとします。
-ms.openlocfilehash: 8b607ed42cbb97bbf305fdad916ed2637c9935c5
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 75d73a81ec649c97149fd03125887116c947144c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21058466"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889176"
 ---
 # <a name="web-services-settings-expander"></a>Web サービス設定エキスパンダー
  

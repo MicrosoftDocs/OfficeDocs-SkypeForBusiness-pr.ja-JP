@@ -1,5 +1,6 @@
 ---
 title: 管理者の個々 のユーザー設定のビジネスの Skype の構成
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +22,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: '個々 のユーザーについては、ビジネスの Skype を次のように変更する方法について: オーディオおよびビデオ会議、通話の記録との会議。 '
-ms.openlocfilehash: 9dde738431e8afac4837b6f4bcab9b955787927a
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: 5c9bb7cfddb496a5b3bdb0b28ea050d5958a8147
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561688"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885764"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>管理者: 個別のユーザーの Skype for Business の設定を構成する
 
@@ -43,7 +44,7 @@ ms.locfileid: "26561688"
 
 次の手順を実行する[管理者のアクセス許可](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)が必要です。
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
   
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。
     
@@ -82,7 +83,7 @@ ms.locfileid: "26561688"
     
    - **外部 Skype ユーザー**: freeSkype アプリケーションを使用しているユーザーと通信できることをユーザーがしない場合はこのボックスをオフにします。
     
-3. [**保存**] をクリックします。
+3. **[保存]** をクリックします。
     
 一括でこれらの設定を構成するには、PowerShell を使用します。 [Windows PowerShell には、コンピューターの設定](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)を参照してください。
   
@@ -106,7 +107,7 @@ ms.locfileid: "26561688"
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
   
    
-## <a name="related-topics"></a>関連トピック 
+## <a name="related-topics"></a>関連項目 
 
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 

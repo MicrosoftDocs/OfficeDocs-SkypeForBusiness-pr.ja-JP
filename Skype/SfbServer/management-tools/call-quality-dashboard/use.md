@@ -1,5 +1,6 @@
 ---
 title: Skype の通話品質のダッシュ ボードを使用して、ビジネスのサーバーの
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: '概要: は、コール品質ダッシュ ボードを使用する方法について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: 6b431bb34ca6350662fbae720c61d2033d95fba4
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 856035642d1d8a818abe5f0a106c90270d706516
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533428"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891520"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Skype の通話品質のダッシュ ボードを使用して、ビジネスのサーバーの
  
@@ -103,30 +104,30 @@ StartDate.Month をディメンションとして追加し、データを表形�
 
 |**列**|**データ型**|**null を許可**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|BuildingKey  <br/> |int  <br/> |×  <br/> |CqdBuilding テーブルの主キー。  <br/> |
-|BuildingName  <br/> |varchar(80)  <br/> |×  <br/> |建物名。  <br/> |
+|BuildingKey  <br/> |int  <br/> |いいえ  <br/> |CqdBuilding テーブルの主キー。  <br/> |
+|BuildingName  <br/> |varchar(80)  <br/> |いいえ  <br/> |建物名。  <br/> |
 |BuildingShortName  <br/> |varchar(10)  <br/> |×  <br/> |建物の短縮名。  <br/> |
-|OwnershipTypeId  <br/> |int  <br/> |×  <br/> |外部キー。CqdBuildingOwners テーブルのいずれかのエントリに一致する必要があります。  <br/> |
+|OwnershipTypeId  <br/> |int  <br/> |いいえ  <br/> |外部キー。CqdBuildingOwners テーブルのいずれかのエントリに一致する必要があります。  <br/> |
 |BuildingTypeId  <br/> |int  <br/> |×  <br/> |外部キー。CqdBuildingType テーブルのいずれかのエントリに一致する必要があります。  <br/> |
-|Latitutde  <br/> |float  <br/> |○  <br/> |建物の緯度。  <br/> |
-|Longitude  <br/> |float  <br/> |○  <br/> |建物の経度。  <br/> |
-|CityName  <br/> |varchar(30)  <br/> |○  <br/> |建物がある市区町村の名前。  <br/> |
+|Latitutde  <br/> |float  <br/> |はい  <br/> |建物の緯度。  <br/> |
+|Longitude  <br/> |float  <br/> |はい  <br/> |建物の経度。  <br/> |
+|CityName  <br/> |varchar(30)  <br/> |はい  <br/> |建物がある市区町村の名前。  <br/> |
 |ZipCode  <br/> |varchar(25)  <br/> |○  <br/> |建物がある場所の郵便番号。  <br/> |
-|CountryShortCode  <br/> |varchar(2)  <br/> |○  <br/> |建物がある国の ISO 3166-1 alpha-2 コード。  <br/> |
-|StateProvinceCode  <br/> |varchar(3)  <br/> |○  <br/> |建物がある都道府県の 3 文字の短縮形。  <br/> |
-|InsideCorp  <br/> |bit  <br/> |○  <br/> |建物が企業ネットワークの一部であるかどうかを示すビット。  <br/> |
-|BuildingOfficeType  <br/> |nvarchar(150)  <br/> |○  <br/> |オフィス ビルの種類の説明。  <br/> |
-|Region  <br/> |varchar(25)  <br/> |○  <br/> |建物がある場所のリージョン。  <br/> |
+|CountryShortCode  <br/> |varchar(2)  <br/> |はい  <br/> |建物がある国の ISO 3166-1 alpha-2 コード。  <br/> |
+|StateProvinceCode  <br/> |varchar(3)  <br/> |はい  <br/> |建物がある都道府県の 3 文字の短縮形。  <br/> |
+|InsideCorp  <br/> |bit  <br/> |はい  <br/> |建物が企業ネットワークの一部であるかどうかを示すビット。  <br/> |
+|BuildingOfficeType  <br/> |nvarchar(150)  <br/> |はい  <br/> |オフィス ビルの種類の説明。  <br/> |
+|Region  <br/> |varchar(25)  <br/> |はい  <br/> |建物がある場所のリージョン。  <br/> |
    
 **CqdNetwork**
 
 |**列**|**データ型**|**null を許可**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|ネットワーク  <br/> |varchar(25)  <br/> |×  <br/> |サブネット アドレス。  <br/> |
-|NetworkRange  <br/> |tinyint  <br/> |○  <br/> |サブネット マスク。  <br/> |
-|NetworkNameID  <br/> |int  <br/> |○  <br/> |オプションで CqdNetworkName テーブルの行にマップします。  <br/> |
-|BuildingKey  <br/> |int  <br/> |○  <br/> |外部キー。CqdBuilding テーブルのいずれかのエントリに一致する必要があります。  <br/> |
-|UpdatedDate  <br/> |datetime  <br/> |×  <br/> |エントリが最後に更新された日時。  <br/> |
+|ネットワーク  <br/> |varchar(25)  <br/> |いいえ  <br/> |サブネット アドレス。  <br/> |
+|NetworkRange  <br/> |tinyint  <br/> |はい  <br/> |サブネット マスク。  <br/> |
+|NetworkNameID  <br/> |int  <br/> |はい  <br/> |オプションで CqdNetworkName テーブルの行にマップします。  <br/> |
+|BuildingKey  <br/> |int  <br/> |はい  <br/> |外部キー。CqdBuilding テーブルのいずれかのエントリに一致する必要があります。  <br/> |
+|UpdatedDate  <br/> |datetime  <br/> |いいえ  <br/> |エントリが最後に更新された日時。  <br/> |
    
 既定では、この次の表は、1 つのエントリ (0, '不明') を持っています。
   
@@ -134,8 +135,8 @@ StartDate.Month をディメンションとして追加し、データを表形�
 
 |**列**|**データ型**|**null を許可**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|BuildingTypeId  <br/> |int  <br/> |×  <br/> |CqdBuildingType テーブルの主キー。  <br/> |
-|BuildingTypeDesc  <br/> |char(18)  <br/> |×  <br/> |建物の種類の説明。  <br/> |
+|BuildingTypeId  <br/> |int  <br/> |いいえ  <br/> |CqdBuildingType テーブルの主キー。  <br/> |
+|BuildingTypeDesc  <br/> |char(18)  <br/> |いいえ  <br/> |建物の種類の説明。  <br/> |
    
 既定ではこの次の表には 1 つのエントリ (0 の場合、'不明'、0、null)。
   
@@ -143,10 +144,10 @@ StartDate.Month をディメンションとして追加し、データを表形�
 
 |**列**|**データ型**|**null を許可**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|OwnershipTypeId  <br/> |int  <br/> |×  <br/> |CqdBuildingOwnershipType テーブルの主キー。  <br/> |
-|OwnershipTypeDesc  <br/> |varchar(25)  <br/> |×  <br/> |所有権の種類の説明。  <br/> |
-|LeaseInd  <br/> |tinyint  <br/> |○  <br/> |リースされている建物を識別するために使用される、CqdBuildingOwnershipType テーブル内の別の行を参照するインデックス。  <br/> |
-|所有者  <br/> |varchar(50)  <br/> |○  <br/> |建物の所有者。  <br/> |
+|OwnershipTypeId  <br/> |int  <br/> |いいえ  <br/> |CqdBuildingOwnershipType テーブルの主キー。  <br/> |
+|OwnershipTypeDesc  <br/> |varchar(25)  <br/> |いいえ  <br/> |所有権の種類の説明。  <br/> |
+|LeaseInd  <br/> |tinyint  <br/> |はい  <br/> |リースされている建物を識別するために使用される、CqdBuildingOwnershipType テーブル内の別の行を参照するインデックス。  <br/> |
+|所有者  <br/> |varchar(50)  <br/> |はい  <br/> |建物の所有者。  <br/> |
    
 既定ではこの次の表には 1 つのエントリ (0 の場合、'不明'、0、null)。
   
@@ -200,9 +201,9 @@ JPDR 定義 = 低品質通話の定義 - RatioConcealedSamplesAvg
 |:-----|:-----|:-----|:-----|
 |2 (AVMCU)   <br/> |4 (Skype for Business)   <br/> |エンドポイント 1  <br/> |エンドポイント 2  <br/> |
 |2 (AVMCU)   <br/> |1 (mMediationServer)   <br/> |エンドポイント 2  <br/> |エンドポイント 1  <br/> |
-|4 (Skype for Business)   <br/> |4 (Skype for Business)   <br/> |MediaLine での呼び出し元   <br/> |MMediaLine での呼び出し先  <br/> |
+|4 (Skype for Business)  <br/> |4 (Skype for Business)   <br/> |MediaLine での呼び出し元   <br/> |MMediaLine での呼び出し先  <br/> |
    
-両方のエンドポイントが同じ種類の場合、CQD は呼び出し元のエントリを 1 番目にして、呼び出し先を 2 番目にします。 詳細については、[このブログ](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx)を参照してください。
+両方のエンドポイントが同じ種類の場合、CQD は呼び出し元のエントリを 1 番目にして、呼び出し先を 2 番目にします。 詳細については[このブログ](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx)を参照してください。
   
 ## <a name="accounting-for-vpn"></a>VPN のアカウンティング
 

@@ -1,5 +1,6 @@
 ---
-title: セット CcExternalCertificateFilePath
+title: Set-CcExternalCertificateFilePath
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 443d071e-633e-4337-b20b-f30cdfbd4aaf
 description: Set-CcExternalCertificateFilePath コマンドレットは仲介サーバーまたはエッジ サーバーの証明書が保管されているパスを指定します。
-ms.openlocfilehash: 89216fb2b56130dd76b711a483c6279ac1073392
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 059d0f2fbf5fee708ceccd0d6e10ad4286fe4f85
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895350"
 ---
-# <a name="set-ccexternalcertificatefilepath"></a>セット CcExternalCertificateFilePath
+# <a name="set-ccexternalcertificatefilepath"></a>Set-CcExternalCertificateFilePath
  
 Set-CcExternalCertificateFilePath コマンドレットは仲介サーバーまたはエッジ サーバーの証明書が保管されているパスを指定します。
   
@@ -65,7 +67,7 @@ Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnecto
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**必須**|**タイプ**|**説明**|
+|**パラメーター**|**必須**|**型**|**説明**|
 |:-----|:-----|:-----|:-----|
 | Target <br/> | 必須 <br/> |System.String  <br/> |必要なファイル パスの種類。種類:  <br/> EdgeServer (既定)  <br/> MediationServer  <br/> |
 |Import  <br/> |省略可能  <br/> |System.Management.Automation.SwitchParameter  <br/> |証明書が仲介サーバーにインポートされる必要があることを示します。初めてアプライアンスを展開する場合は、このパラメーターは必要ありません。このパラメーターは、既に展開済みのバージョン上で、既存の証明書を変更する場合に必要です。  <br/> |
@@ -83,6 +85,6 @@ Set-CcExternalCertificateFilePath コマンドレットはパイプライン入�
 ## <a name="see-also"></a>関連項目
 <a name="ReturnTypes"> </a>
 
-[Get CcExternalCertificateFilePath](get-ccexternalcertificatefilepath.md)
+[Get-CcExternalCertificateFilePath](get-ccexternalcertificatefilepath.md)
   
 

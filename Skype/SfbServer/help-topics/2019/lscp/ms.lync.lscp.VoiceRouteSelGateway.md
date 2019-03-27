@@ -1,5 +1,6 @@
 ---
-title: トランクを選択します。
+title: トランクの選択
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 3b513864-15c0-4afb-b934-bb050d5d2dcd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用できる既存の樹幹を検索するのにには、トランクの選択] ダイアログ ボックスを使用します。
-ms.openlocfilehash: 9c559e0029ebc749270effb1467937da273c40e3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 54f1b5d3ac63ee2d8570e12f0fe2107e335c81c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989071"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889260"
 ---
-# <a name="select-trunk"></a>トランクを選択します。
+# <a name="select-trunk"></a>トランクの選択
  
 使用できる既存の樹幹を検索するのにには、**トランクの選択**] ダイアログ ボックスを使用します。
   

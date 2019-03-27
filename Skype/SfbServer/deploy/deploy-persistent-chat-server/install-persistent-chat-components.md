@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 への常設チャット コンポーネントのインストール
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61370aa6-9708-4ff8-b531-b258a928806f
 description: '概要: このサーバー 2015 のビジネス コンポーネントとサービスの Skype をインストールするのにはビジネスのサーバーの展開ウィザードの Skype を使用する方法についてを参照できます。'
-ms.openlocfilehash: d8c094c09160077dc98f68a9e98e4726f60ecaeb
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 78fb134ef8db5b0c47c890db9454858ff392a624
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006882"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899555"
 ---
 # <a name="install-persistent-chat-components-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 への常設チャット コンポーネントのインストール
  

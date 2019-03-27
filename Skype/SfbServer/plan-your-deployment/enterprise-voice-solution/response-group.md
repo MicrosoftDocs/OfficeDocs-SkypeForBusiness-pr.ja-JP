@@ -1,5 +1,6 @@
 ---
 title: Business Server に Skype で応答グループ アプリケーションの計画
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Skype で応答グループのビジネス サーバーのエンタープライズ VoIP の計画を使用するユーザーのグループに通話をルーティングを設定します。 また、オーディオ ファイルの要件についても説明します。
-ms.openlocfilehash: a5dcf77d2c5c87bf2f3bfa3156795b050591eee5
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 68a693715739d58488e134934416790641dd091e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885586"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894403"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Business Server に Skype で応答グループ アプリケーションの計画
 
@@ -101,7 +102,7 @@ Skype で応答グループのビジネス サーバーのエンタープライ�
     > このポートでは、一致するサービスの使用しを 1 つ以上のフロント エンド サーバーを持つプールに応答グループ アプリケーションを配置するときは、必要。
 
    > [!NOTE]
-   > これらのポートは、**セット CsApplicationServer**コマンドレットを使用して変更することができます既定の設定です。 詳細については、このコマンドレットは、サーバー管理シェルのビジネス ドキュメントの Skype を参照してください。
+   > これらのポートは既定の設定であり、**Set-CsApplicationServer** コマンドレットを使用して変更することができます。 詳細については、このコマンドレットは、サーバー管理シェルのビジネス ドキュメントの Skype を参照してください。
 
 ### <a name="audio-file-requirements"></a>オーディオ ファイルの要件
 
@@ -134,7 +135,7 @@ Microsoft Expression Encoder 4 を使用して、ファイルを Windows Media �
 応答グループ構成ツールには、オペレーティング システムと次の表に記載されている web ブラウザーの組み合わせがサポートされています。
 
 > [!NOTE]
-> 32 ビット版または 64 ビット版のオペレーティング システムがサポートされています。32 ビット版の Internet Explorer がサポートされています。
+> 32 ビット版または 64 ビット版のオペレーティング システムがサポートされています。 32 ビット版の Internet Explorer がサポートされています。
 
 **サポートされているオペレーティング システムおよび Web ブラウザー**
 

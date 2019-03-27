@@ -1,5 +1,6 @@
 ---
 title: CUCM を Skype ビジネス サーバーの相互運用の構成します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: '概要: CUCM ビジネス サーバーに対する Skype の使用を構成します。'
-ms.openlocfilehash: 6ace5eb2f6cb9763bf78b3930536ae50f8fee815
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 630ab5165c3c7bb3a64663d54ef750fe9275f932
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20986559"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888037"
 ---
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>CUCM を Skype ビジネス サーバーの相互運用の構成します。
  
@@ -44,7 +45,7 @@ VIS との相互運用を実現するには、多くの CUCM の設定を確認�
     
    |**パラメーター**|**推奨設定**|
    |:-----|:-----|
-   |Name  <br/> |SfBVideoInterop_SecurityProfile  <br/> |
+   |名前  <br/> |SfBVideoInterop_SecurityProfile  <br/> |
    |Device Security Mode  <br/> |Non Secure  <br/> |
    |Incoming Transport Type  <br/> |TCP + UDP  <br/> |
    |Outgoing Transport Type  <br/> |TCP  <br/> |
@@ -57,7 +58,7 @@ VIS との相互運用を実現するには、多くの CUCM の設定を確認�
    |**パラメーター**|**推奨設定**|
    |:-----|:-----|
    |Name  <br/> |SfBVideoInterop_SIPProfile  <br/> |
-   |Description  <br/> |SfBVideoInterop_SIPProfile  <br/> |
+   |説明  <br/> |SfBVideoInterop_SIPProfile  <br/> |
    
 9. 同じ画面上には、SDP のプロファイル情報] セクションまでスクロールします。 [**SDP Session-level Bandwidth Modifier for Early Offer and Re-invites**] オプションは、既定では [TIAS and AS] に設定されています。 このオプションを [TIAS only] に変更します。 このオプションを既定の設定のままにする Skype のビジネス サーバーは帯域幅修飾子については、SIP メッセージでを理解できません。 TIAS は Transport Independent Application Specific (トランスポート非依存アプリケーション固有) の意味で、AS は Application Specific (アプリケーション固有) の意味です。 これらは、RFC3890 で規定されている SIP のオプションです。
     
@@ -75,7 +76,7 @@ VIS との相互運用を実現するには、多くの CUCM の設定を確認�
     
 16. さらに下にスクロールします。 ビデオ通話には [Media Termination Point (MTP)] は不要であり、まだオフにされていない場合はオフにします。 [**Run on all active Unified CM Nodes**] のオプションをオンにします。 ビジネス サーバー構成の Skype に CUCM のすべてのノードを追加する必要があることに注意してください。
     
-17. さらに下にスクロールします。以下に示すように、[Inbound Calls and Connected Party Settings] のオプションを設定します。
+17. さらに下にスクロールします。 以下に示すように、[Inbound Calls and Connected Party Settings] のオプションを設定します。
     
     |**パラメーター**|**推奨設定**|
     |:-----|:-----|
@@ -83,7 +84,7 @@ VIS との相互運用を実現するには、多くの CUCM の設定を確認�
     |AAR Calling Search Space  <br/> |CSS_SfBVideoInterop  <br/> |
     |Connected Party Transformation CSS  <br/> |CSS_SfBVideoInterop  <br/> |
    
-18. さらに下へスクロールします。 [情報の送信先の SIP SIP トランクの構成のセクションで、(複数のエントリを追加すること) のプールに VIS プールの FQDN または VIS の個々 のサーバーの IP アドレスを指定します。 [Destination Port] で、VIS が CUCM からの接続をリッスンするポートを指定します (既定値は 6001)。 また以下のように、以前に作成した SIP トランクのセキュリティ プロファイルと SIP プロファイルも指定します。
+18. さらに下にスクロールします。 [情報の送信先の SIP SIP トランクの構成のセクションで、(複数のエントリを追加すること) のプールに VIS プールの FQDN または VIS の個々 のサーバーの IP アドレスを指定します。 [Destination Port] で、VIS が CUCM からの接続をリッスンするポートを指定します (既定値は 6001)。 また以下のように、以前に作成した SIP トランクのセキュリティ プロファイルと SIP プロファイルも指定します。
     
     |**パラメーター**|**推奨設定**|
     |:-----|:-----|
@@ -128,13 +129,13 @@ VIS との相互運用を実現するには、多くの CUCM の設定を確認�
     
     |**パラメーター**|**推奨設定**|
     |:-----|:-----|
-    |Region  <br/> |Default  <br/> |
-    |Audio Codec Preference List  <br/> |System Default  <br/> |
-    |Maximum Audio Bit Rate  <br/> |64 kbps (G.722, G.711)  <br/> |
-    |Maximum Session Bit Rate for Video Calls  <br/> |200000 kbps  <br/> |
-    |Maximum Session Bit Rate  <br/> |2000000000 kbps  <br/> |
+    |Region  <br/> |既定  <br/> |
+    |オーディオ コーデックの優先順位の一覧  <br/> |システムの既定値  <br/> |
+    |最大オーディオ ビット レート  <br/> |(G.722、G.711) の 64 kbps  <br/> |
+    |ビデオ通話用のセッションの最大ビット レート  <br/> |200000 kbps  <br/> |
+    |セッションの最大ビット レート  <br/> |2000000000 kbps  <br/> |
    
-この時点で、CUCM ビデオ ゲートウェイは VIS と連携するように構成されています。 統合する必要がある各 VTC 上で、対応する構成を行う必要があります。
+CUCM ビデオ ゲートウェイが、VIS. で動作するように構成されてこの時点で 対応する構成は、各 VTC を統合したい場合に実行する必要があります。
 > [!NOTE]
 > 弾力性を高めるためには、2 番目のビデオの相互運用機能のサーバーまたは VIS プールを操作するには、この CUCM ゲートウェイを構成する場合があります。 詳細については、「[Resiliency mechanisms](../../plan-your-deployment/video-interop-server.md#resiliency)」を参照してください。
   

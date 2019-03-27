@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバー 2015 の Skype でのダイアログ ボックスのテーブル
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 487a430b-af66-4ea6-b28e-4e33cfdb7f9e
 description: ダイアログ ボックスのテーブルは、ピア ツー ピア セッションの DialogIDs に関する情報を格納するサポート テーブルです。
-ms.openlocfilehash: b2953ff2bec35575221bc0d43785eb6c0d90e2d1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: af7816c202f995e826567391bf32c5c32a2d0d94
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889629"
 ---
 # <a name="dialogs-table-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype でのダイアログ ボックスのテーブル
  
 ダイアログ ボックスのテーブルは、ピア ツー ピア セッションの DialogIDs に関する情報を格納するサポート テーブルです。
   
-|**列**|**データ型**|**キーまたはインデックス**|**詳細**|
+|**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Primary  <br/> |セッションの要求の時間セッションを一意に識別するのには SessionIDSeq と組み合わせてを使用します。  <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Primary  <br/> |セッションを識別する ID 番号。 セッションを一意に識別するのには SessionIDTime と組み合わせてを使用します。  <br/> |

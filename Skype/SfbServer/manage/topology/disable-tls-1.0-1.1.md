@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバー 2015 の Skype では、TLS 1.0 または 1.1 を無効にします。
+ms.reviewer: ''
 ms.author: heidip
 author: heidip
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: '概要: を準備してお客様の環境で TLS 1.0 および 1.1 を無効にするを実装します。'
-ms.openlocfilehash: f99cf01ceb952298e90d296461e0d2b663f92c5d
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: c10be59bb3e14ccb0a3ac315891789e8a0e2ce64
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493934"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886605"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype では、TLS 1.0 または 1.1 を無効にします。
 
@@ -38,7 +39,7 @@ TLS 1.0 と 1.1 を無効にするためのサポート Skype のビジネス �
 
 ### <a name="fully-tested-and-supported-servers"></a>完全にテストされ、サポートされているサーバー
 
-- Skype ビジネス サーバー 2019
+- Skype for Business Server 2019
 - Skype ビジネス サーバー 2015 CU6 HF2 ([2018年 3 月更新](https://support.microsoft.com/en-us/help/4086059/march-2018-cumulative-update-6-0-9319-516-for-skype-for-business)) 6.0.9319.516 のではそれ以上とします。 
     - (KB 3140245 に優先する更新プログラム) の Windows Server 2012、2012 R2 または 2016
 - インプレース アップグレードの Skype ビジネス サーバー 2015、CU6 HF2 とではそれ以上の 
@@ -529,11 +530,11 @@ TLS 1.0 および 1.1 は、お客様の環境で無効になっています後�
      ![ローカル構成ストアのインストール] ダイアログ ボックス](../../media/local-configuration-store.png)
      - 結果を確認し、タスクの進捗状況が完了したことを確認します。 **ログの表示**] をクリックして、ログ ・ ファイルを確認します。
      ![完了としてタスクの進捗状況を示しています](../../media/local-configuration-task-completed.png)
-     - **[完了]** をクリックします。
+     - [**完了**] をクリックします。
 9. 設定または解除 Skype ビジネス サーバー コンポーネント (ステップ 2)。
     - 展開ウィザードを開く、[**インストール]、またはサーバーのビジネス システムの更新プログラムの Skype**、および手順 2 での**実行**] をクリックします設定または Skype をビジネスのサーバー コンポーネントの削除。
     - 内で**次**の設定を Skype ビジネス サーバー コンポーネント] ダイアログ ボックスをクリックします。
     ![ビジネス サーバー コンポーネント] ウィンドウの設定を Skype](../../media/set-up-skype-for-business-server-components-window.png)
     - ログの表示] を使用してログを確認し、問題なく完了する設定を検証します。 
-    - **[完了]** をクリックします。
+    - [**完了**] をクリックします。
 10. 追加インストールし、必要に応じて構成を続行 (通常のインストール手順をこの時点でに再開することができます)。

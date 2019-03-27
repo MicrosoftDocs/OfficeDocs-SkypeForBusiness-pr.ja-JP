@@ -1,5 +1,6 @@
 ---
 title: 通話品質のダッシュ ボード (救難) のユーザー設定のサービス
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eafeb54a-2574-415b-b991-a0ff0470d8c3
 description: '概要: は、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部であるユーザー設定のサービスについて説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: 00d0662e777ef2f13c9783fe4b79d5c582faa8af
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8cb30c0f079834c14879e2ce6cbd14201f5bbdcb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531892"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888232"
 ---
 # <a name="user-settings-service-for-call-quality-dashboard-cqd"></a>通話品質のダッシュ ボード (救難) のユーザー設定のサービス
  
@@ -37,7 +38,7 @@ ms.locfileid: "26531892"
 
 |**操作**|**説明**|
 |:-----|:-----|
-|[ユーザー設定を取得します。](get-user-settings.md) <br/> |ユーザー設定を取得、指定したユーザー設定の一覧を返します。  <br/> |
-|[ユーザー設定を取得します。](get-user-setting.md) <br/> |ユーザーの設定を返します。 1 つのユーザー設定を取得します。  <br/> |
+|[ユーザー設定の取得](get-user-settings.md) <br/> |ユーザー設定を取得、指定したユーザー設定の一覧を返します。  <br/> |
+|[ユーザー設定の取得](get-user-setting.md) <br/> |ユーザーの設定を返します。 1 つのユーザー設定を取得します。  <br/> |
    
 

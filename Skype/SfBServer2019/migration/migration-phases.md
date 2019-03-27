@@ -1,5 +1,6 @@
 ---
-title: 移行フェーズ
+title: 移行のフェーズ
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ビジネス サーバー 2019 の Skype、Skype にはサーバー 2019 のビジネス コンポーネントが含まれているネットワーク上のサイトを定義します。 サイトは、単一のローカル エリア ネットワーク (LAN) または高速の光ファイバ ・ ネットワークで接続された 2 つのネットワークなど、高速、低レイテンシのネットワークで適切に接続されているコンピューターのセットです。
-ms.openlocfilehash: cb6529ac09c10f73a01d3454ef9518d7fe960e1f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d34351b551262450dee852efd7679f17cbe1e161
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027733"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886537"
 ---
-# <a name="migration-phases"></a>移行フェーズ
+# <a name="migration-phases"></a>移行のフェーズ
 
 ビジネス サーバー 2019 の Skype、Skype にはサーバー 2019 のビジネス コンポーネントが含まれているネットワーク上のサイトを定義します。 サイトは、単一のローカル エリア ネットワーク (LAN) または高速の光ファイバ ・ ネットワークで接続された 2 つのネットワークなど、高速、低レイテンシのネットワークで適切に接続されているコンピューターのセットです。 
   
@@ -23,9 +24,9 @@ ms.locfileid: "25027733"
   
 次のフェーズでは、ビジネス サーバー 2019 の Skype にプールの移行プロセスについて説明します。 複数のプールを含む複数のサイトでは、各プールは、この段階的なアプローチに従う必要があります。
   
-1. [フェーズ 1: 移行を計画します。](phase-1-plan-your-migration.md)
+1. [フェーズ 1: 移行の計画](phase-1-plan-your-migration.md)
     
-2. [フェーズ 2: 移行を準備します。](phase-2-prepare-for-migration.md)
+2. [フェーズ 2: 移行の準備](phase-2-prepare-for-migration.md)
     
 3. [フェーズ 3: ビジネス サーバー 2019 パイロット プールに Skype を導入します。](phase-3-deploy-pilot-pool.md)
     
@@ -33,10 +34,10 @@ ms.locfileid: "25027733"
     
 5. [フェーズ 5: ビジネス 2019 エッジ サーバーのプールをパイロットに Skype を追加します。](phase-5-add-edge-server-to-pilot-pool.md)
     
-6. [フェーズ 6: を運用環境にパイロット展開から移動します。](phase-6-move-from-pilot-deployment-into-production.md)
+6. [フェーズ 6: パイロット展開から運用展開への移行](phase-6-move-from-pilot-deployment-into-production.md)
     
-7. [フェーズ 7: 移行後のタスクを完了します。](phase-7-complete-post-migration-tasks.md)
+7. [フェーズ 7: 移行後のタスクの実行](phase-7-complete-post-migration-tasks.md)
     
-8. [フェーズ 8: 従来のプールを使用停止します。](phase-8-decommission-legacy-pools.md)
+8. [フェーズ 8: レガシ プールの使用停止](phase-8-decommission-legacy-pools.md)
     
 

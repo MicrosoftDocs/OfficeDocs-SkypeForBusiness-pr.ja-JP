@@ -1,5 +1,6 @@
 ---
 title: ビデオ相互運用サーバーの次ホップ設定
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 5a161404-b294-47fa-ad62-0e12bffcd8e4
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順についてはオンライン Skype で VIS プールを作成するビジネス サーバーのください。
-ms.openlocfilehash: 0a9b8681e0edbc1510987e59589332d10ddf6b38
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 9c10ac5f05fb88ce41699e890dd116013e78fde8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21062480"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890565"
 ---
 # <a name="video-interop-server-next-hop-settings"></a>ビデオ相互運用サーバーの次ホップ設定
  

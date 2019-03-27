@@ -1,5 +1,6 @@
 ---
 title: Skype で会議のビジネスのサーバーの場所ベースのルーティング
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Skype で会議のビジネス サーバーのエンタープライズ VoIP の場所ベースのルーティングの計画、提案型などの呼び出しを転送します。
-ms.openlocfilehash: 810b93d20fe9bdbf0ae057250509b1e9ec612afe
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: cdb043aca3f2e2ac4278de1782f756d395016770
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240739"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892964"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Skype で会議のビジネスのサーバーの場所ベースのルーティング
 
@@ -66,7 +67,7 @@ Skype で会議のビジネス サーバーのエンタープライズ VoIP の�
 > [!NOTE]
 > Skype for Business Cumulative Update 4 では、次の表にあるような動作が行われます。
 
-|**[ユーザー]**|**相手**|**操作**|**結果**|
+|**User**|**相手**|**操作**|**結果**|
 |:-----|:-----|:-----|:-----|
 |Skype for Business Mobile  <br/> |PSTN  <br/> |Skype for Business Mobile は、PSTN 通話を行います。Skype for Business Mobile は、通話を電話会議自動アテンダント (CAA) にエスカレートします。  <br/> |通話はブロックされ、適切なエラー メッセージが表示されます。  <br/> |
 |Skype for Business Mobile  <br/> |Skype for Business クライアントまたはフェデレーション ユーザー  <br/> |Business Mobile Location-Based ルーティングのユーザーは、Skype の VoIP 呼び出しでは、クライアントまたはユーザーのフェデレーションし、いずれの当事者は、CAA にエスカレートします。  <br/> |エスカレートした通話はブロックされ、適切なエラー メッセージが表示されます。  <br/> |
@@ -116,9 +117,9 @@ Skype に場所ベースのルーティングを実施する、ビジネス会�
 |Lync Server 2013 累積更新プログラム 2  <br/> |Lync Server 2013 累積更新プログラム 1  <br/> |いいえ  <br/> |
 |Lync Server 2013 累積更新プログラム 2  <br/> |Lync Server 2010  <br/> |いいえ  <br/> |
 |Lync Server 2013 累積更新プログラム 2  <br/> |Office Communications Server 2007 R2  <br/> |いいえ  <br/> |
-|Lync Server 2013 累積更新プログラム 1  <br/> |任意  <br/> |いいえ  <br/> |
-|Lync Server 2010  <br/> |任意  <br/> |いいえ  <br/> |
-|Office Communications Server 2007 R2  <br/> |任意  <br/> |いいえ  <br/> |
+|Lync Server 2013 累積更新プログラム 1  <br/> |任意  <br/> |不可  <br/> |
+|Lync Server 2010  <br/> |任意  <br/> |不可  <br/> |
+|Office Communications Server 2007 R2  <br/> |任意  <br/> |不可  <br/> |
 
 ## <a name="configuration-of-location-based-routing-for-conferencing"></a>会議の場所ベースのルーティングの構成
 
@@ -142,7 +143,7 @@ Get CsServerApplication ・ サービス: レジストラーの識別情報:<Poo
 
 会議アプリケーションに対する場所ベースのルーティングの優先順位が正しい値を確認した後は、各フロント エンド プールまたは Standard Edition Server ホーム ユーザーは、場所ベースのルーティングに対して有効になっているは、次のコマンドレットを入力します。
 
-CsServerApplication で新しい・ サービス: レジストラーの識別情報:`<Pool FQDN`>/LBRouting の優先順位\<アプリケーションの優先順位\>-$true を有効に-$true Uri の重要な<http://www.microsoft.com/LCS/LBRouting> 
+CsServerApplication で新しい・ サービス: レジストラーの識別情報:`<Pool FQDN`_gt/LBRouting の優先順位\<アプリケーションの優先順位\>-$true を有効に-$true Uri の重要な<http://www.microsoft.com/LCS/LBRouting> 
 
 次に例を示します。
 

@@ -1,5 +1,6 @@
 ---
 title: ファイル ストア スコープ ノード
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,13 +12,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 ROBOTS: NOINDEX, NOFOLLOW
-description: このノードには、このファイル ストアの完全修飾ドメイン名 (FQDN) および依存プールが表示されます。以下のアクションを実行できます。
-ms.openlocfilehash: fd5ee616bae7e955e9d7f47a3d731fc9a255e7d4
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+description: このノードには、このファイル ストアの完全修飾ドメイン名 (FQDN) および依存プールが表示されます。 以下のアクションを実行できます。
+ms.openlocfilehash: c68e9dbfbcd5e97439bc1a274c470aef264a986f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069280"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897310"
 ---
 # <a name="file-store-scope-node"></a>ファイル ストア スコープ ノード
  

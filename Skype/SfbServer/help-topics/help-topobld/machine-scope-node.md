@@ -1,5 +1,6 @@
 ---
 title: コンピューター スコープ ノード
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 337f5424-5bb4-45ef-83ca-117ada93498c
-description: このノードには、このサーバーの完全修飾ドメイン名 (FQDN) および IP アドレス構成が表示されます。以下のアクションを実行できます。
-ms.openlocfilehash: bda0a8240a9cdb5698631586ab260bce139ab845
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: このノードには、このサーバーの完全修飾ドメイン名 (FQDN) および IP アドレス構成が表示されます。 以下のアクションを実行できます。
+ms.openlocfilehash: de64b226e283121f4f5898848f2a4f7cb2f1b81d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885997"
 ---
 # <a name="machine-scope-node"></a>コンピューター スコープ ノード
  

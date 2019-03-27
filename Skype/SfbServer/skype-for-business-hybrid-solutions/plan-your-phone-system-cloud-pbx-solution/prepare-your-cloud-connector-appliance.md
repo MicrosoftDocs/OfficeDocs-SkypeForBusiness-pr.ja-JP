@@ -1,5 +1,6 @@
 ---
 title: Cloud Connector アプライアンスの準備
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,24 +14,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Office 365 の電話システム (クラウド PBX) とともに展開および使用するために Cloud Connector アプライアンスを準備する方法について説明します。
-ms.openlocfilehash: 336136021041131189261c8c3b57c46ca8b53809
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3716c7c4b9d4b8daa0a4995ed7e3d77b400b587f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371203"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887317"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Cloud Connector アプライアンスの準備
 
 Office 365 の電話システム (クラウド PBX) とともに展開および使用するために Cloud Connector アプライアンスを準備する方法について説明します。
 
-このセクションでは、Skype for Business Cloud Connector エディションのインストール ファイルの取得、Cloud Connector ソフトウェアのインストール、展開に向けた Cloud Connector アプライアンスの準備を行う方法について説明します。 このセクションに示す手順を完了すれば、Cloud Connector を単一または複数のサイトに展開する準備が整います。 既存のコネクタのクラウド展開があり、まだクラウド コネクタ バージョン 2.1 にアップグレードしていない場合は、[クラウドのコネクタを新しいバージョンにアップグレード](upgrade-to-a-new-version-of-cloud-connector.md)を参照してください。
+このセクションでは、Skype for Business Cloud Connector エディションのインストール ファイルの取得、Cloud Connector ソフトウェアのインストール、展開に向けた Cloud Connector アプライアンスの準備を行う方法について説明します。 このセクションに示す手順を完了すれば、Cloud Connector を単一または複数のサイトに展開する準備が整います。 既存の Cloud Connector 展開が存在する場合に Cloud Connector バージョン 2.1 にまだアップグレードしていない場合は、[Upgrade to a new version of Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md) を参照してください。
 
 > [!NOTE]
 > Microsoft は、Cloud Connector Edition の現在のバージョンであるバージョン 2.1 をサポートします。 自動更新を構成している場合、Cloud Connector は自動的に更新されます。 手動更新を構成している場合、リリース後 60日以内にバージョン 2.1 に更新する必要があります。 Microsoft は、ユーザーによる更新期間を確保するため、2.1 のリリース後 60 日間において以前のバージョンをサポートします。 
 
 > [!NOTE]
-> Cloud Connector のバージョン 2.1 以降の場合、ホスト アプライアンスで .NET Framework 4.6.1 以降がインストールされている必要があります。 
+> Cloud Connector のバージョン 2.1 以降の場合、ホスト アプライアンスで .NET Framework 4.6.1 以降がインストールされている必要があります。   
 
 > [!IMPORTANT]
 > 展開を成功させるには、ビジネス クラウド コネクタ ・ エディションの Skype を構成するのには、コマンドレットを実行すると常に同じコンソール セッションを使用で起動するものとします。 展開中と設定中に、別のセッションに切り替えないでください。 
@@ -159,7 +160,7 @@ Export-CcConfigurationSampleFile
 
 サンプルのテンプレートは**アプライアンス ディレクトリ**に保存されています。
 
-環境に応じた値でファイルを更新したら、ファイルを CloudConnector.ini として**アプライアンス ディレクトリ**に保存します。**Get-CcApplianceDirectory** を実行して**アプライアンス ディレクトリ**へのパスを決めることができます。
+環境に応じた値でファイルを更新したら、ファイルを CloudConnector.ini として**アプライアンス ディレクトリ**に保存します。 **Get-CcApplianceDirectory** を実行して**アプライアンス ディレクトリ**へのパスを決めることができます。
 
 .ini ファイルを更新するとき、次を考慮します。
 
@@ -174,7 +175,7 @@ Export-CcConfigurationSampleFile
 
 - **HardwareType:** 設定または、null 値のままにしない、**通常**の既定値が適用されます。 [Skype ビジネス クラウド コネクタ ・ エディションのための計画](plan-skype-for-business-cloud-connector-edition.md)で説明するように、ホスト マシンごとの 500 の同時呼び出しをサポートするクラウドのコネクタの大きなバージョンを展開する場合は、**標準**を使用します。 50 の同時通話をサポートする小規模な展開の場合は **Minimum** を使用します。
 
-- **インターネット/Corpnet/管理仮想スイッチ:** 作成した仮想スイッチの名前を追加します。管理仮想スイッチの場合は、デフォルト値をそのまま残します。展開スクリプトは展開の始まりで管理仮想スイッチを作成し、展開の終わりに削除します。
+- **インターネット/Corpnet/管理仮想スイッチ:** 作成した仮想スイッチの名前を追加します。 管理仮想スイッチの場合は、デフォルト値をそのまま残します。 展開スクリプトは展開の始まりで管理仮想スイッチを作成し、展開の終わりに削除します。
 
 - **ManagementIPPrefix:** ネットワーク セクションの ManagementIPPrefix は、他の内部 IP とは異なるサブネットである必要があります。例えば、デフォルト値が示すように、ManagementIPPrefix は 192.168.213.0、AD IPAddress は 192.168.0.238 となります。
 
@@ -242,15 +243,15 @@ Start-CcDownload
 
 この手順を進める前に、corpnet スイッチが作成されていることを確認してください。また、CloudConnector.ini ファイルで次の設定が正しく行われていることを確認してください。
 
-- [ネットワーク]CorpnetSwitchName
+- [Network]CorpnetSwitchName
 
-- [共通]BaseVMIP
+- [Common]BaseVMIP
 
-- [ネットワーク]CorpnetIPPrefixLength
+- [Network]CorpnetIPPrefixLength
 
-- [ネットワーク]CorpnetDefaultGateway
+- [Network]CorpnetDefaultGateway
 
-- [ネットワーク]CorpnetDNSIPAddress
+- [Network]CorpnetDNSIPAddress
 
 PowerShell を管理者として起動し、次のコマンドレットを実行して ISO イメージを仮想ハード ディスク (VHD) に変換します。
 

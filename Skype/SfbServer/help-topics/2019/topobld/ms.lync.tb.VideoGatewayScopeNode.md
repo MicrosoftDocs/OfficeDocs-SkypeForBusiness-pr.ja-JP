@@ -1,5 +1,6 @@
 ---
 title: ビデオ ゲートウェイ スコープ
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 2071b375-4978-4ff5-ae38-5e4a621bf6a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順についてはオンライン Skype で VIS プールを作成するビジネス サーバーのください。
-ms.openlocfilehash: 15540ad29b7b5d736c5479c1b634b911df48445c
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 4c08333d71a5950cfbddfc2b7603bea682786f27
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21059264"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888564"
 ---
 # <a name="video-gateway-scope"></a>ビデオ ゲートウェイ スコープ
  

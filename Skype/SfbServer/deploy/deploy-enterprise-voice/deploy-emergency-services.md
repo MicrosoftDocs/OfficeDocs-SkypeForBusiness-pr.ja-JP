@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype で緊急サービスを展開します。
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cc6a656a-6043-4b9b-85c2-5708b9bb1c06
 description: ビジネス サーバーのエンタープライズ VoIP は、Skype で ~ 9-1-1 を展開します。 前提条件と展開プロセスのチェックリストも掲載しています。
-ms.openlocfilehash: 2b449139e6cc7e98bba59a60f9139cb774da458c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b24bdfdd40787c8be57b541f3a163e3c21f3012a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888027"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888648"
 ---
 # <a name="deploy-emergency-services-in-skype-for-business-server"></a>ビジネス サーバーの Skype で緊急サービスを展開します。
  
@@ -36,7 +37,7 @@ ms.locfileid: "23888027"
 
 次の表に、E9-1-1 展開プロセスの概要を示します。
   
-|**段階**|**手順**|**役割**|**「展開」のドキュメント**|
+|**段階**|**手順**|**Roles**|**「展開」のドキュメント**|
 |:-----|:-----|:-----|:-----|
 |音声使用、ルート、およびトランクを構成する  <br/> |1. 新しい PSTN 使用法レコードを作成します。 これは、場所のポリシーの [**PSTN の使用法**] 設定で使用する名前と同じです。 <br/> 2. 作成やボイス ルートを前の手順で作成した PSTN 使用法レコードに割り当てる ~ 9-1-1 が SIP トランクまたは ELIN ゲートウェイ ゲートウェイの属性をポイントします。  <br/> 3. SIP トランク ~ 9-1-1 サービス ・ プロバイダーの**セット CsTrunkConfiguration EnablePIDFLOSupport**コマンドレットを使用して、PIDF-LO データを渡すための SIP の上 ~ 9-1-1 の呼び出しを処理するトランクを設定します。 <br/> 4. 必要に応じて、SIP トランク ~ 9-1-1 サービス プロバイダーの作成、または ~ 9-1-1 サービス プロバイダーの SIP トランクによって処理されない通話のローカルの PSTN ルートを割り当てます。 このルートは、E9-1-1 サービス プロバイダーへの接続が利用できない場合に使用されます。 E9-1-1 サービス プロバイダーがサポートしている場合は、911 ダイヤル文字列を国または地域の Emergency Call Response Center (ECRC) の Direct Inward Dialing (DID) 番号に変換するトランク構成ルールをゲートウェイに割り当てます。  <br/> |CSVoiceAdmin  <br/> |[ビジネス サーバー用の Skype で ~ 9-1-1 のボイス ルートを構成します。](configure-an-e9-1-1-voice-route.md) <br/> |
 |場所のポリシーを作成し、ユーザーおよびサブネットに割り当てる  <br/> |1. グローバルの場所のポリシーを確認します。  <br/> 2.。 ユーザー レベルのスコープを持つ場所ポリシーを作成します。または、組織にさまざまな緊急時の使用法を備えた 1 つ以上のサイトがある場合は、ネットワーク レベルのスコープを持つ場所のポリシーを作成します。  <br/> 3. 場所ポリシーをネットワーク サイトに割り当てます。  <br/> 4. 適切なサブネットをネットワーク サイトに追加します。  <br/> 5. (オプション) 割り当てユーザー ポリシーへの場所のポリシーです。  <br/> |CSVoiceAdmin  <br/> CSLocationAdmin (場所のポリシーの作成を除く)  <br/> |[Skype でビジネスのサーバーの場所のポリシーを作成します。](create-location-policies.md) <br/> [Skype 内のネットワーク サイトにビジネス サーバーの場所のポリシーを追加します。](add-a-location-policy-to-a-network-site.md) <br/> [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets) <br/> |

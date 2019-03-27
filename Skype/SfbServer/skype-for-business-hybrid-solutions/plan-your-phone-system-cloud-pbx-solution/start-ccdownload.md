@@ -1,5 +1,6 @@
 ---
-title: 開始 CcDownload
+title: Start-CcDownload
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19338a34-1bfb-4787-b057-5e34a333711d
 description: Start-CcDownload コマンドレットは Skype for Business Cloud Connector エディションのビットと msi ファイルを同期してダウンロードします。
-ms.openlocfilehash: aec8d5c1848e7e55d6ed4b7e4d3633942f74ab55
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: cc157825df75a4534422cb0a2fd07abb0ae0daea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893839"
 ---
-# <a name="start-ccdownload"></a>開始 CcDownload
+# <a name="start-ccdownload"></a>Start-CcDownload
  
 Start-CcDownload コマンドレットは Skype for Business Cloud Connector エディションのビットと msi ファイルを同期してダウンロードします。
   
@@ -61,10 +63,10 @@ Start-CcDownload -DownloadBitsOnly
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**必須**|**タイプ**|**説明**|
+|**パラメーター**|**必須**|**型**|**説明**|
 |:-----|:-----|:-----|:-----|
-|DownloadUrlRoot  <br/> | 省略可能 <br/> |System.String  <br/> | プライベート クラウドのコネクタの特定のバージョンの完全な URL は、サイトをダウンロードします。 注意してこのパラメーターを使用して、クラウドのコネクタのバージョンをダウンロードするのに気付いていることを確認します。 <br/> |
-|DownloadBitsOnly  <br/> |省略可能  <br/> |System.Management.Automation.SwitchParameter  <br/> |ダウンロード サイトから MSI をダウンロードおよびインストールする手順をスキップして、Cloud Connector ビットのみをダウンロードします。  <br/> |
+|DownloadUrlRoot   <br/> | 省略可能 <br/> |System.String  <br/> | プライベート クラウドのコネクタの特定のバージョンの完全な URL は、サイトをダウンロードします。 注意してこのパラメーターを使用して、クラウドのコネクタのバージョンをダウンロードするのに気付いていることを確認します。 <br/> |
+|DownloadBitsOnly   <br/> |省略可能  <br/> |System.Management.Automation.SwitchParameter  <br/> |ダウンロード サイトから MSI をダウンロードおよびインストールする手順をスキップして、Cloud Connector ビットのみをダウンロードします。  <br/> |
    
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>

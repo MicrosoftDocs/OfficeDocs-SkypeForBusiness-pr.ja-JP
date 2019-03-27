@@ -1,5 +1,6 @@
 ---
 title: tblScopePrincipal
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 422d6c7f-7ba7-4dd4-bacc-95ace47959ff
 description: tblScopePrincipal には、ノードに割り当てられたスコープが含まれています。
-ms.openlocfilehash: ba2927598cdff07368cb017866ec41bfa7540f48
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e93b92280605dfe01f288435c7cb42b724c22064
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885625"
 ---
 # <a name="tblscopeprincipal"></a>tblScopePrincipal
  
@@ -22,7 +24,7 @@ tblScopePrincipal には、ノードに割り当てられたスコープが含�
   
 **列**
 
-|**列**|**タイプ**|**説明**|
+|**列**|**型**|**説明**|
 |:-----|:-----|:-----|
 |scopeNodeID  <br/> |int 型、null でないです。  <br/> |スコープを適用するノードの ID。  <br/> |
 |scopePrinID  <br/> |int 型、null でないです。  <br/> |プリンシパルの id。  <br/> |

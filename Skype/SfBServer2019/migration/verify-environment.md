@@ -1,5 +1,6 @@
 ---
 title: レガシー環境を確認します。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 共存状態でのビジネス サーバー 2019 の Skype を導入する前に従来のサービスを構成および開始されたことを確認する必要があります。 重要なサービスと、Skype のビジネス サーバー 2019 パイロット プールを展開する前に、従来の環境に存在する機能を特定するのには重要です。 Microsoft Skype を展開する、従来の XMPP 展開との共存状態でのビジネス サーバー 2019 XMPP の前に従来の XMPP サービスを構成および開始を確認し、XMPP の従来の構成は、どちらのフェデレーション パートナーを識別する必要があります。サポートします。
-ms.openlocfilehash: d6e4585e127009117345d1220458196b5b461b6a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0f9812efe966d72eba1eeead9d74780f2ba16661
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030428"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887349"
 ---
 # <a name="verify-the-legacy-environment"></a>レガシー環境を確認します。
 

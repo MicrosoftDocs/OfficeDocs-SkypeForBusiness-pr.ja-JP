@@ -1,5 +1,6 @@
 ---
 title: 作成し、Skype のビジネス サーバーの新しいトポロジを公開
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: '概要: は、作成、発行、およびビジネスのサーバーの Skype をインストールする前に、新しいトポロジを確認する方法を説明します。 ビジネスのサーバーで Microsoft の評価の中心からの Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: c2879b2323ffe85624c852d70028ab2388b4feb7
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ba141e76732705008ded4e8e03737154bc45b1c6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371335"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886676"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>作成し、Skype のビジネス サーバーの新しいトポロジを公開
  
 **の概要:** 作成、発行、およびビジネスのサーバーの Skype をインストールする前に、新しいトポロジを確認する方法について説明します。 ビジネスのサーバーで Microsoft の評価の中心からの Skype の無料試用版をダウンロード: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
   
-ビジネス サーバー システムに Skype をインストールするにはトポロジ内のサーバーごとに、前に、トポロジを作成し、発行する必要があります。 トポロジを公開するときは、トポロジの情報を中央管理ストア データベースに読み込みます。 Enterprise Edition プールの場合は、新しいトポロジを初めて公開するときに中央管理ストア データベースを作成することになります。 Standard Edition の場合は、トポロジを公開する前に、展開ウィザードの最初の Standard Edition Server の準備プロセスを実行する必要があります。 この操作を行うと、SQL Server Express Edition インスタンスのインストールと中央管理ストアの作成が行われ、Standard Edition が準備されます。 手順 1 ～ 5 は任意の順序で実行できます。 ただし、手順 6、7、8 は、図に説明されているように手順 1 ～ 5 の後で順番どおりに行う必要があります。 8 の手順 6 で作成し、新しいトポロジを公開する方法を説明します。
+ビジネス サーバー システムに Skype をインストールするにはトポロジ内のサーバーごとに、前に、トポロジを作成し、発行する必要があります。 トポロジを公開するときは、トポロジの情報を中央管理ストア データベースに読み込みます。 Enterprise Edition プールの場合は、新しいトポロジを初めて公開するときに中央管理ストア データベースを作成することになります。 Standard Edition の場合は、トポロジを公開する前に、展開ウィザードの最初の Standard Edition Server の準備プロセスを実行する必要があります。 この操作を行うと、SQL Server Express Edition インスタンスのインストールと中央管理ストアの作成が行われ、Standard Edition が準備されます。 手順 1 ～ 5 は任意の順序で実行できます。 ただし、手順 6、7、および 8 は、手順 1 ～ 5 の後に、図の順序で実行する必要があります。 8 の手順 6 で作成し、新しいトポロジを公開する方法を説明します。
   
 ![概要図](../../media/c5c09ba2-c98b-4194-9857-7c3087c5560e.png)
   
@@ -217,7 +218,7 @@ Skype ビジネス サーバー トポロジ ビルダーを使用して、デ�
     > [!NOTE]
     > データベースを作成する適切な権限をお持ちでない場合、これらのデータベースのチェック ボックスをオフにすることができ、データベースを作成することが後で適切な権限を持つユーザー。 詳細要件については、 [Skype ビジネス サーバー用のサーバーの要件](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)を参照してください。 
   
-10. オプションで [**詳細設定**] をクリックします。SQL Server のデータ ファイル配置に関する [詳細] オプションを使用すると、次のオプションのどちらかを選択できます。 
+10. オプションで [**詳細設定**] をクリックします。 SQL Server のデータ ファイル配置に関する [詳細] オプションを使用すると、次のオプションのどちらかを選択できます。 
     
     - **自動的にデータベース ファイルの場所を確認**- このオプションは、最適な場所にログとデータ ファイルを配布することにより、SQL Server ベースのサーバー上のディスクの構成をに基づいて最適な運用パフォーマンスを決定します。
     

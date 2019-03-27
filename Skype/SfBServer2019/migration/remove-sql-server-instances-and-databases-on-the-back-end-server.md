@@ -1,5 +1,6 @@
 ---
-title: SQL Server のインスタンスおよびバック エンド サーバー上のデータベースを削除します。
+title: バックエンド サーバー上の SQL Server インスタンスとデータベースの削除
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft SQL Server データベースを削除して、インスタンスを実行しているサーバーを削除した後は、上、または別のデータベースを使用するサーバーを再構成した後に依存します。 現在の SQL Server を削除するか、古い、または使用できないデータベース表示されるように現在のサーバーを再構成すると、このトピックの手順を実行する必要があります。
-ms.openlocfilehash: 648c808ee293c4fa33352d0f68ba337e4a489d27
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 531d4c06daa7dacd2a616244c13207b3e79dca4c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027880"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898741"
 ---
-# <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a>SQL Server のインスタンスおよびバック エンド サーバー上のデータベースを削除します。
+# <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a>バックエンド サーバー上の SQL Server インスタンスとデータベースの削除
 
 Microsoft SQL Server データベースを削除して、インスタンスを実行しているサーバーを削除した後は、上、または別のデータベースを使用するサーバーを再構成した後に依存します。 現在の SQL Server を削除するか、古い、または使用できないデータベース表示されるように現在のサーバーを再構成すると、このトピックの手順を実行する必要があります。
   
@@ -23,10 +24,10 @@ Microsoft SQL Server データベースを削除して、インスタンスを�
   
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [フロント エンド プールの SQL Server データベースを削除します。](remove-the-sql-server-database-for-a-front-end-pool.md)
+- [フロントエンド プール用の SQL Server データベースの削除](remove-the-sql-server-database-for-a-front-end-pool.md)
     
-- [監視サーバーの SQL Server データベースを削除します。](remove-the-sql-server-database-for-a-monitoring-server.md)
+- [監視サーバー用の SQL Server データベースの削除](remove-the-sql-server-database-for-a-monitoring-server.md)
     
-- [アーカイブ サーバーの SQL Server データベースを削除します。](remove-the-sql-server-database-for-an-archiving-server.md)
+- [アーカイブ サーバー用の SQL Server データベースの削除](remove-the-sql-server-database-for-an-archiving-server.md)
     
 

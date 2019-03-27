@@ -1,5 +1,6 @@
 ---
-title: パイロット プールを展開します。
+title: パイロット プールの展開
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: パイロット プールを展開するビジネス サーバー 2019 の Skype への移行に必要な最初の手順のいずれかです。 パイロットのプールとは、従来の展開とビジネス サーバー 2019 の Skype の共存をテストします。 共存とは、移動したすべてのユーザーとプール Skype のビジネス サーバー 2019 まで存続する一時的な状態です。
-ms.openlocfilehash: 9a713a567d33121449ca83516bed35b574e0da01
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e0ac949b0cc7a52e1da5edd9f150e5f59717c08f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027852"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890656"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>ビジネス サーバー 2019 パイロット プールに Skype を導入します。
 

@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server ルート スコープ ノード
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
 description: Lync Server ノードには、トポロジでは、セントラル サイトが一覧表示されます。 以下のアクションを実行できます。
-ms.openlocfilehash: ca9ba70369c62498d5cd9b1feb0089d3b8c484df
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c58386048aef8fd41a192cb9ad8755933a885cf0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886318"
 ---
 # <a name="skype-for-business-server-root-scope-node"></a>Skype for Business Server ルート スコープ ノード
  

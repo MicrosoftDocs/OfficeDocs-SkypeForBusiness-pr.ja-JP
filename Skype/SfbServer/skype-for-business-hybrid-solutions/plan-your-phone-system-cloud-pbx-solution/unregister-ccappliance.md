@@ -1,5 +1,6 @@
 ---
-title: 登録解除 CcAppliance
+title: Unregister-CcAppliance
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d516e65-fb9b-4a0b-8296-969fc9eda334
 description: Unregister-CcAppliance コマンドレットは、オンラインのテナント構成内の PSTN サイトから、現在の Skype for Business Cloud Connector エディションのアプライアンスを登録解除します。
-ms.openlocfilehash: 21bd0a7dffc6a395f829af68a61dfd7523d2c09a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6ee21f66c2b189aff8c8aa7d831369536618b18c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892005"
 ---
-# <a name="unregister-ccappliance"></a>登録解除 CcAppliance
+# <a name="unregister-ccappliance"></a>Unregister-CcAppliance
  
 Unregister-CcAppliance コマンドレットは、オンラインのテナント構成内の PSTN サイトから、現在の Skype for Business Cloud Connector エディションのアプライアンスを登録解除します。
   
@@ -37,7 +39,7 @@ Unregister-CcAppliance
 
 ### <a name="example-2"></a>例 2
 
-次の例では、オンラインのテナント構成に接続せずにローカルに登録を解除するための構成を確認します。
+次の例では、オンラインのテナント構成に接続せずにローカルで登録解除するために、構成を確認します。
   
 ```
 Unregister-CcAppliance -Local
@@ -45,7 +47,7 @@ Unregister-CcAppliance -Local
 
 ### <a name="example-3"></a>例 3
 
-次の使用例は、PSTN のサイト"Site1"名"Appliance1"を持つ現在のアプライアンスを登録解除します。
+次の例では、「Appliance1」という名前を持つ現在のアプライアンスを「Site1」という PSTN サイトで登録解除します。
   
 ```
 Unregister-CcAppliance -SiteName Site1 -ApplianceName Appliance1
@@ -61,10 +63,10 @@ Register-CcAppliance コマンドレットと同様に、CloudConnector.ini フ�
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**必須**|**タイプ**|**説明**|
+|**パラメーター**|**必須**|**型**|**説明**|
 |:-----|:-----|:-----|:-----|
-| サイト名 <br/> |省略可能  <br/> |System.String  <br/> |アプライアンスが登録されている PSTN サイトの名前。既定値は CloudConnector.ini ファイル内の SiteName 値です。  <br/> |
-|アプライアンス名  <br/> |省略可能  <br/> |System.String  <br/> |現在のアプライアンスの名前。既定の値はホスト サーバーのコンピューター名です。  <br/> |
+| SiteName <br/> |省略可能  <br/> |System.String  <br/> |アプライアンスが登録されている PSTN サイトの名前。既定値は CloudConnector.ini ファイル内の SiteName 値です。  <br/> |
+|ApplianceName  <br/> |省略可能  <br/> |System.String  <br/> |現在のアプライアンスの名前。既定の値はホスト サーバーのコンピューター名です。  <br/> |
 |Local  <br/> |省略可能  <br/> |System.Management.Automation.SwitchParameter  <br/> |オンライン テナント構成に接続することなく、ローカルで登録するための構成を確認します。  <br/> |
    
 ## <a name="input-types"></a>入力の種類
@@ -80,12 +82,12 @@ Register-CcAppliance コマンドレットと同様に、CloudConnector.ini フ�
 ## <a name="see-also"></a>関連項目
 <a name="ReturnTypes"> </a>
 
-[登録 CcAppliance](register-ccappliance.md)
+[Register-CcAppliance](register-ccappliance.md)
   
-[インストール CcAppliance](install-ccappliance.md)
+[Install-CcAppliance](install-ccappliance.md)
   
-[アンインストール CcAppliance](uninstall-ccappliance.md)
+[Uninstall-CcAppliance](uninstall-ccappliance.md)
   
-[発行 CcAppliance](publish-ccappliance.md)
+[Publish-CcAppliance](publish-ccappliance.md)
   
 

@@ -1,5 +1,6 @@
 ---
 title: ブランチ サイト名の追加
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f2830f80-0b64-4b1e-96de-65ee4cddc3d9
 description: 新しいブランチ サイトを定義するには、次の情報を指定します。
-ms.openlocfilehash: 1413ff4b5e1c511f253745a599bf6ce6da20c4af
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: e0e1f44a86568bac80a06fecfd4c7c2b6bcb6d79
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260532"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895427"
 ---
 # <a name="add-branch-site-name"></a>ブランチ サイト名の追加
 
@@ -27,6 +28,6 @@ ms.locfileid: "23260532"
 
 説明フィールド (オプション) に、インフラストラクチャ名には含まれないが、テキストでサイトをさらに説明する追加の説明を指定できます。
 
-詳細については、[サイト](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx)を参照してください。
+詳細については、「[Sites](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx)」を参照してください。
 
 

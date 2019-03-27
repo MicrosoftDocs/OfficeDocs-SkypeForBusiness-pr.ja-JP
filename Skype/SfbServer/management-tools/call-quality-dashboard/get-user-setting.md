@@ -1,5 +1,6 @@
 ---
-title: ユーザー設定を取得します。
+title: ユーザー設定の取得
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16611a55-79fb-487a-a936-20caca829f87
 description: '概要: は、ユーザー設定のサービスの一部では、ユーザー設定の取得操作について説明します。 ユーザー設定のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: 286939271bdc99790f125beabb68735dd4c5f758
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 003850ed4e6f1e49fc0e8bafe8dfa7d828cae63f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530714"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889001"
 ---
-# <a name="get-user-setting"></a>ユーザー設定を取得します。
+# <a name="get-user-setting"></a>ユーザー設定の取得
  
 **の概要:** ユーザー設定のサービスの一部では、ユーザー設定の取得操作について説明します。 ユーザー設定のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
   
 ユーザー設定の取得操作は、ユーザーの設定でのサービス品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。
   
-## <a name="get-user-setting"></a>ユーザー設定を取得します。
+## <a name="get-user-setting"></a>ユーザー設定の取得
 
 ユーザーの設定を返します。 1 つのユーザー設定を取得します。
   

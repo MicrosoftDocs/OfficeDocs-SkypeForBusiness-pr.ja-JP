@@ -1,5 +1,6 @@
 ---
 title: 作成またはビジネス用の Skype のコール ピックアップのグループ番号の範囲を変更します。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: 作成またはビジネス サーバーのエンタープライズ VoIP の Skype のコール ピックアップのグループ番号の範囲を変更します。
-ms.openlocfilehash: d73b3e72aa7cd5f733406c861d8a3357fe28fe45
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0032d46507c6cb91629b94662ec67bf9c67b7cc4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883954"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885611"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>作成またはビジネス用の Skype のコール ピックアップのグループ番号の範囲を変更します。
 
@@ -51,7 +52,7 @@ ms.locfileid: "23883954"
 
 2. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
 
-3. コール ピックアップ グループ番号の新しい範囲を作成するのにには、**新しい CsCallParkOrbit**を使用します。 **セット CsCallParkOrbit**を使用すると、コール ピックアップ番号の既存の範囲を変更できます。
+3. 通話ピックアップ グループ番号の新しい範囲を作成するには、**New-CsCallParkOrbit** を使用します。 通話ピックアップ番号の既存の範囲を変更するには、**Set-CsCallParkOrbit** を使用します。
 
     コマンド ラインで、次のコマンドを実行します。
 

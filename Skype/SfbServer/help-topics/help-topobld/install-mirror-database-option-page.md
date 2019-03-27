@@ -1,5 +1,6 @@
 ---
-title: ミラー データベースのオプション] ページをインストールします。
+title: ミラー データベースのインストール オプション ページ
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 description: ミラー データベースの設定を構成するには、以下を定義します。
-ms.openlocfilehash: d87231b21aea86b4d9cee15cd1cc182d6610e0ce
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2a468333fff6cde69ce96eaf3d9170500bfb6648
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375994"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887537"
 ---
-# <a name="install-mirror-database-option-page"></a>ミラー データベースのオプション] ページをインストールします。
+# <a name="install-mirror-database-option-page"></a>ミラー データベースのインストール オプション ページ
  
 **ミラー データベースの設定**を構成するには、以下を定義します。
   

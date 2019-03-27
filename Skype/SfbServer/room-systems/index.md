@@ -1,5 +1,6 @@
 ---
 title: Skype Room Systems v2
+ms.reviewer: null
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,13 +12,8 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Skype ルーム システム v2 では、展開、システムを管理する方法を導入するため関連する考慮事項です。
-ms.openlocfilehash: 52d837877a962a3a087073175a169268dd169eae
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531802"
 ---
+
 <h2>Skype ルーム システム v2 & #x 2013 です。 <br>Skype ルーム システムの次世代 </h2>
 <ul class="panelContent cardsW cols cols2">
     <li>
@@ -25,7 +21,7 @@ ms.locfileid: "26531802"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p>変換の会議スペースまで huddle の小さな領域からビジネス経験の豊富な共同の Skype での大会議室を & #39; s を使用して、単純なは、展開、および管理します。 </p>
+                        <p>Huddle の小さな領域からビジネス経験 that& #39 の豊富な共同の Skype での大会議室に至るまでの会議スペース; s を使用して、展開、および管理を簡単に変換します。 </p>
                         <p>ワンタッチ結合では、時間の会議を開始し、ルームと共有へのリモートの参加者に表示するプロジェクトの瞬時にします。 </p>
                         <p>パートナーのいずれかから適切なシステム オーディオ ビデオ周辺機器を選択します: ロジクール社、Crestron、ポリコム、Lenovo、および HP。</p>
                         <p></p>
@@ -60,7 +56,7 @@ ms.locfileid: "26531802"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>計画</h3>
+                        <h3>プラン</h3>
                     </div>
                 </div>
             </div>
@@ -78,7 +74,7 @@ ms.locfileid: "26531802"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>の展開</h3>
+                        <h3>展開</h3>
                     </div>
                 </div>
             </div>

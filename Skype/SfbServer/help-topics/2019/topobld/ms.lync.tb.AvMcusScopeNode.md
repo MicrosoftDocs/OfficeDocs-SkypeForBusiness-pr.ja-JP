@@ -1,5 +1,6 @@
 ---
 title: AV MCU スコープ ノード
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,13 +12,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 76edf3b8-10c6-4c61-bbef-395f56d298ed
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[音声ビデオ会議プール] ノードには、トポロジ内の音声ビデオ会議プールが一覧表示されます。以下のアクションを実行できます。'
-ms.openlocfilehash: a3f4b1d3f2cc533533b7049ba83d89f475e4f6d5
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+description: '[音声ビデオ会議プール] ノードには、トポロジ内の音声ビデオ会議プールが一覧表示されます。 以下のアクションを実行できます。'
+ms.openlocfilehash: 8f9003f40c9bfb2c65a5e2df2e8cc1eb3877e1d4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21061356"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886107"
 ---
 # <a name="av-mcus-scope-node"></a>AV MCU スコープ ノード
  

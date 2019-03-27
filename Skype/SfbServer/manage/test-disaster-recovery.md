@@ -1,5 +1,6 @@
 ---
 title: Skype ビジネス サーバーのテスト、災害復旧
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 文書化されている障害回復プロセスをテストするには、ビジネス サーバー プールの Skype のシステム回復を実行します。
-ms.openlocfilehash: d401d27c1cc0f5b04c6e256a1e55f6847c9c35ba
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 876470f0e4193f02efe0a2094be80f7bdf891fdd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222724"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884965"
 ---
 # <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Skype ビジネス サーバーのテスト、災害復旧
 
@@ -45,12 +46,12 @@ Business Server のトポロジ、ポリシー、および構成の設定は、S
 
 生産 Skype のビジネスのプールは、クライアントの自動構成および DNS SRV レコードを使用してによって参照されます。
 
-- SRV: ゾーンに追加します。\<ドメイン >/CNAME: SIP。\<ドメイン >
-- CNAME: SIP。\<ドメイン >/cvc-pool-1。\<ドメイン >
+- SRV: ゾーンに追加します。\<domain>/CNAME: SIP。\<domain>
+- CNAME: SIP。\<domain>/cvc-pool-1。\<domain>
 
 フェールオーバーを促進するために、この CNAME レコードを更新して DROCSPool FQDN を次のように参照する必要があります。
 
-- CNAME: SIP。<domain> /DROCSPool です。\<ドメイン >
-- Sip。\<ドメイン >
-- AV.\<ドメイン >
-- webconf。\<ドメイン >
+- CNAME: SIP。<domain> /DROCSPool です。\<domain>
+- Sip。\<domain>
+- AV.\<domain>
+- webconf。\<domain>

@@ -1,5 +1,6 @@
 ---
 title: Skype ビジネス クライアントのビデオ解像度について
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: '概要: は、Skype ビジネス サーバーの計画中に、クライアントのビデオ要件を確認します。'
-ms.openlocfilehash: 0150acf98a2d5219975cf33c573f31f755db62f0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a17e3e269f24e74c5403c053723d544898560f34
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886144"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886691"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype ビジネス クライアントのビデオ解像度について
  
@@ -66,23 +67,23 @@ Windows システム評価ツール (WinSAT) は、WEI を決定します。WinS
 
 |**可能なエンコーダー解像度**|**可能なデコーダー解像度**|**要件**|
 |:-----|:-----|:-----|
-|424 x 240  <br/> |424x240 (受信のみのシナリオでは 15fps で 640x360)  <br/> |1 コアと VideoEncodeScore ≥ 4.0  <br/> |
-|640 x 360  <br/> |640 x 360  <br/> |2 コアと VideoEncodeScore ≥ 4.5  <br/> |
-|640 x 360  <br/> |1280 x 720  <br/> |2 コアと VideoEncodeScore ≥ 4.5  <br/> |
-|640 x 360  <br/> |1920 × 1080  <br/> |4 コアと VideoEncodeScore ≥ 4.5  <br/> |
-|1280 x 720  <br/> |1280 x 720  <br/> |4 コアと VideoEncodeScore ≥ 7.3  <br/> |
-|1280 x 720  <br/> |1920 × 1080  <br/> |4 コアと VideoEncodeScore ≥ 7.3  <br/> |
-|1920 × 1080  <br/> |1920 × 1080  <br/> |該当なし  <br/> |
+|424x240  <br/> |424x240 (受信のみのシナリオでは 15fps で 640x360)  <br/> |1 コアと VideoEncodeScore ≥ 4.0  <br/> |
+|640x360  <br/> |640x360  <br/> |2 コアと VideoEncodeScore ≥ 4.5  <br/> |
+|640x360  <br/> |1280x720  <br/> |2 コアと VideoEncodeScore ≥ 4.5  <br/> |
+|640x360  <br/> |1920x1080  <br/> |4 コアと VideoEncodeScore ≥ 4.5  <br/> |
+|1280x720  <br/> |1280x720  <br/> |4 コアと VideoEncodeScore ≥ 7.3  <br/> |
+|1280x720  <br/> |1920x1080  <br/> |4 コアと VideoEncodeScore ≥ 7.3  <br/> |
+|1920x1080  <br/> |1920x1080  <br/> |該当なし  <br/> |
    
 **DXVA があり、ハードウェア アクセラレータ エンコーダーのないコンピューター**
 
 |**可能なエンコーダー解像度**|**可能なデコーダー解像度**|**要件**|
 |:-----|:-----|:-----|
-|424 x 240  <br/> |1920 × 1080  <br/> |1 コアと VideoEncodeScore ≥ 3.0  <br/> |
-|640 x 360  <br/> |1920 × 1080  <br/> |2 コアと VideoEncodeScore ≥ 4.5  <br/> |
-|960 x 540  <br/> |1920 × 1080  <br/> |2 コアと VideoEncodeScore ≥ 6.0  <br/> |
-|1280 x 720  <br/> |1920 × 1080  <br/> |4 コアと VideoEncodeScore ≥ 6.7  <br/> |
-|1920 × 1080  <br/> |1920 × 1080  <br/> |4 コアと VideoEncodeScore ≥ 8.2  <br/> |
+|424x240  <br/> |1920x1080  <br/> |1 コアと VideoEncodeScore ≥ 3.0  <br/> |
+|640x360  <br/> |1920x1080  <br/> |2 コアと VideoEncodeScore ≥ 4.5  <br/> |
+|960x540  <br/> |1920x1080  <br/> |2 コアと VideoEncodeScore ≥ 6.0  <br/> |
+|1280x720  <br/> |1920x1080  <br/> |4 コアと VideoEncodeScore ≥ 6.7  <br/> |
+|1920x1080  <br/> |1920x1080  <br/> |4 コアと VideoEncodeScore ≥ 8.2  <br/> |
    
 > [!NOTE]
 > Windows 7 での WinSAT スコアは最大 7.9 に制限されます。したがって、ハードウェア アクセラレータ エンコーダーのないコンピューターのエンコード能力は、Windows 8 または Windows 8.1 でのみ実現でき、その場合の最大 WinSAT スコアは 9.9 です。 
@@ -91,8 +92,8 @@ Windows システム評価ツール (WinSAT) は、WEI を決定します。WinS
 
 |**可能なエンコーダー解像度**|**可能なデコーダー解像度**|**要件**|
 |:-----|:-----|:-----|
-|1280 x 720  <br/> |1920 × 1080  <br/> |すべての第 2 世代および第 3 世代の Intel HD Graphics  <br/> |
-|1920 × 1080  <br/> |1920 × 1080  <br/> |第 2 世代および第 3 世代の Intel HD Graphics と GraphicsScore ≥ 5.0  <br/> |
+|1280x720  <br/> |1920x1080  <br/> |すべての第 2 世代および第 3 世代の Intel HD Graphics  <br/> |
+|1920x1080  <br/> |1920x1080  <br/> |第 2 世代および第 3 世代の Intel HD Graphics と GraphicsScore ≥ 5.0  <br/> |
    
 ## <a name="mobile-device-video-capabilities"></a>モバイル デバイスのビデオ機能
 

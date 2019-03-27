@@ -1,5 +1,6 @@
 ---
 title: 展開ウィザードの管理ツール
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: ec6b9b09-2be0-45e7-b23c-f94b64839e65
 ROBOTS: NOINDEX, NOFOLLOW
 description: 展開ウィザードを使用して、ビジネスのサーバーの Skype をインストールする詳細については、ビジネスのサーバーの Skype のインストールを参照してください。
-ms.openlocfilehash: e1abd43569b31eefd925ba7bc2bb041d5b3a3b0c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d2437d6991adf43adbf88f3104afc8083b82eeef
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997660"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888211"
 ---
 # <a name="deployment-wizard-admin-tools"></a>展開ウィザード: 管理ツール
  

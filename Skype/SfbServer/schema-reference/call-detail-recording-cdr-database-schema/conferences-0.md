@@ -1,5 +1,6 @@
 ---
 title: 会議を表示します。
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0e5c4db-c135-401f-9296-e9a49f6499a1
 description: 会議のビューでは、会議に関する情報を格納します。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 98fbf972badeb6cf3b179c8fa408626f2224f5b3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 42bdbed9cceb8d50e2de8ddbe29ba406e4a0a2f5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887807"
 ---
 # <a name="conferences-view"></a>会議を表示します。
  
@@ -32,7 +34,7 @@ ms.lasthandoff: 03/28/2018
 |**OrganizerUri** <br/> |nvarchar(450)  <br/> |会議を開催したユーザーの URI。  <br/> |
 |**OrganizerType** <br/> |nvarchar(256)  <br/> |会議を開催したユーザーの URI の種類です。 詳細については、 [UriTypes テーブル](uritypes.md)を参照してください。 <br/> |
 |**OrganizerTenant** <br/> |nvarchar(256)  <br/> |会議を開催したユーザーのテナントです。 詳細については[テナントのテーブル](tenants.md)を参照してください。 <br/> |
-|**[プール]** <br/> |nvarchar(256)  <br/> |会議をホストするプールの完全修飾ドメイン名です。  <br/> |
+|**Pool** <br/> |nvarchar(256)  <br/> |会議をホストするプールの完全修飾ドメイン名です。  <br/> |
 |**フラグ** <br/> |smallint  <br/> |会議属性を含むビット マスクです。 値の例は次のとおりです。  <br/> 0X01 - 代理トランザクション  <br/> |
    
 

@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: この資料では、Skype ルーム システム v2 の累積的な機能強化について説明します。
-ms.openlocfilehash: fefad8a37d53760a81b2ea78e73bbd75069c848f
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: b3e6a6341e917b49eed6f1c89dcadfe29bcdaf10
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30645357"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891600"
 ---
 # <a name="release-notes"></a>リリース ノート 
 
@@ -53,9 +53,11 @@ ms.locfileid: "30645357"
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Skype ルーム システム v2 の機能の概要と問題解決
 
+
 ### <a name="40780-03142018"></a>4.0.78.0 (2018/03/14)
 この更新プログラムで導入されています。
 - レガシ Windows 10 RS2 ビルド上のデバイスに影響を与えた「アプリケーションの起動時にハング」のバグを修正します。  
+
 
 ### <a name="40760-03042019"></a>4.0.76.0 (03/04/2019)
 この更新プログラムで導入されています。
@@ -180,7 +182,7 @@ Skype ルーム システム v2 リリース 3.0.12.0 (アップデート 3) は
 ### <a name="2020-03152017"></a>2.0.2.0 (2017/03/15)
 この更新プログラムで導入されています。 
 - 会議室のオーディオおよびビデオの USB デバイスのアプリケーションでユーザーの選択
-- ルーム コンソールのステータスがマイクロソフトの運用管理スイートを使用しているお客様のレポートを統合 ( [OMS を使用して Skype ルーム システムの計画 v2 の管理](oms-management.md)を参照してください) 
+- ルームの統合されたコンソールのステータス レポート Microsoft オペレーション管理スイート、Azure モニター今使用しているお客様  
 
 ### <a name="release-to-market--1272016"></a>(2016/12/7) を市場にリリース
 **機能:** 

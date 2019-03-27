@@ -1,5 +1,6 @@
 ---
 title: Skype のビジネス サーバーの 2 要素認証を構成します。
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,24 +11,24 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: '概要: は、Skype のビジネス サーバーの 2 要素認証を構成します。'
-ms.openlocfilehash: cc73997fffcae3ef7d63e32898173fe68ecb9447
-ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
+ms.openlocfilehash: d9df5072e1d67e46c40e1fd82ec1d88354321577
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25694584"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887247"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>Skype のビジネス サーバーの 2 要素認証を構成します。
 
 **の概要:** Skype のビジネス サーバーの 2 要素認証を構成します。
 
-以下のセクションでは、展開に 2 要素認証を構成するために必要な手順について説明します。 2 要素認証の詳細については、「[Enabling Office 365 multi-factor authentication for online administrators - Grid User Post](https://go.microsoft.com/fwlink/p/?LinkId=313332)」を参照してください。
+以下のセクションでは、展開に 2 要素認証を構成するために必要な手順について説明します。 二要素認証の詳細については、[オンライン管理者のユーザーの投稿をグリッドの多要素認証を有効にすると Office 365](https://go.microsoft.com/fwlink/p/?LinkId=313332)を参照してください。
 
 ## <a name="configure-an-enterprise-root-certificate-authority-to-support-smart-card-authentication"></a>スマート カード認証をサポートするエンタープライズ ルート証明機関を構成する
 
 スマート カード認証をサポートするようにエンタープライズ ルート CA を構成する方法を以下の手順で説明します。
 
-エンタープライズ ルート CA のインストール方法については、「[エンタープライズのルート証明機関をインストールする](https://go.microsoft.com/fwlink/p/?LinkID=313364)」を参照してください。
+エンタープライズのルート CA をインストールする方法については、[エンタープライズ ルート証明機関をインストール](https://go.microsoft.com/fwlink/p/?LinkID=313364)を参照してください。
 
 1. ドメイン管理者のアカウントを使用してエンタープライズ CA コンピューターにログインします。
 
@@ -63,7 +64,7 @@ ms.locfileid: "25694584"
 
 2 要素認証とスマート カード テクノロジを展開する場合に考慮する必要がある要素の 1 つは、実装コストです。 Windows 8 にいくつかの新しいセキュリティ機能が用意されていて、仮想スマート カードのサポートは、最も興味深い新機能の 1 つ。
 
-バージョン 1.2 仕様を満たす Trusted Platform Module (TPM) チップを搭載したコンピューターでは、ハードウェアの追加費用をかけずにスマート カード ログオンを活用できるようになりました。 詳細については、[Windows 8 での仮想スマート カードの使用](https://go.microsoft.com/fwlink/p/?LinkId=313365)に関する記事を参照してください。
+バージョン 1.2 仕様を満たす Trusted Platform Module (TPM) チップを搭載したコンピューターでは、ハードウェアの追加費用をかけずにスマート カード ログオンを活用できるようになりました。 詳細については、 [Windows 8 での仮想スマート カードの使用](https://go.microsoft.com/fwlink/p/?LinkId=313365)を参照してください。
 
 ### <a name="to-configure-windows-8-for-virtual-smart-cards"></a>Windows 8 を仮想スマート カード用に構成するには
 
@@ -113,7 +114,7 @@ ms.locfileid: "25694584"
 
 スマート カードの認証を行うユーザーを登録する方法は、主に 2 つあります。Web 登録を使ってスマート カード認証のユーザーを直接登録する方法がより簡単で、登録エージェントを使う方法はより複雑です。このトピックでは、スマート カードの証明書を自分で登録する方法について説明します。
 
-ユーザーの代わりに登録エージェントとして登録する方法の詳細については、「[他のユーザーの代理で証明書を登録する](https://go.microsoft.com/fwlink/p/?LinkID=313367)」を参照してください。
+ユーザーに代わって登録エージェントとしての登録の詳細については、[他のユーザーに代わって証明書の登録](https://go.microsoft.com/fwlink/p/?LinkID=313367)を参照してください。
 
 ### <a name="to-enroll-users-for-smart-card-authentication"></a>スマート カードの認証を行うユーザーを登録するには、次の操作を行います。
 
@@ -176,10 +177,10 @@ ms.locfileid: "25694584"
 
 ## <a name="configure-active-directory-federation-services-ad-fs-20"></a>Active Directory フェデレーション サービス (AD FS 2.0) を構成する
 
-次のセクションでは、多要素認証をサポートするように Active Directory フェデレーション サービス (AD FS 2.0) を構成する方法について説明します。 AD FS 2.0 のインストール方法については、「[AD FS 2.0 のステップバイステップ ガイドとハウツー ガイド](https://go.microsoft.com/fwlink/p/?LinkId=313374)」を参照してください。
+次のセクションでは、多要素認証をサポートするように Active Directory フェデレーション サービス (AD FS 2.0) を構成する方法について説明します。 AD FS 2.0 をインストールする方法についてを参照してください[AD FS 2.0 ステップ バイ ステップとガイドにどのように](https://go.microsoft.com/fwlink/p/?LinkId=313374)。
 
 > [!NOTE]
-> AD FS 2.0 をインストールするときは、Windows Server Manager を使用して Active Directory フェデレーション サービスの役割を追加しないでください。 代わりに、[Active Directory フェデレーション サービス 2.0 RTW パッケージ](https://go.microsoft.com/fwlink/p/?LinkId=313375)をダウンロードしてインストールします。
+> AD FS 2.0 をインストールするときは、Windows Server Manager を使用して Active Directory フェデレーション サービスの役割を追加しないでください。 代わりに、ダウンロードして、 [Active Directory フェデレーション サービス 2.0 の RTW のパッケージ](https://go.microsoft.com/fwlink/p/?LinkId=313375)をインストールします。
 
 ### <a name="to-configure-ad-fs-for-two-factor-authentication"></a>2 要素認証の AD FS を構成するには
 
@@ -240,7 +241,7 @@ AD FS 2.0 でスマート カードを使用した認証をサポートできる
 
 - トランスポート層セキュリティ クライアント認証
 
-フォーム ベース認証を使用すると、ユーザー名/パスワードを使用した認証またはスマート カードと PIN を使用した認証をユーザーに許可できる Web ページを開発できます。 このトピックでは、AD FS 2.0 でトランスポート層セキュリティ クライアント認証を実装する方法を説明します。 AD FS 2.0 の認証の種類の詳細については、「[AD FS 2.0: How to Change the Local Authentication Type](https://go.microsoft.com/fwlink/p/?LinkId=313384)」を参照してください。
+フォーム ベース認証を使用すると、ユーザー名/パスワードを使用した認証またはスマート カードと PIN を使用した認証をユーザーに許可できる Web ページを開発できます。 このトピックでは、AD FS 2.0 でトランスポート層セキュリティ クライアント認証を実装する方法を説明します。 AD FS 2.0 の認証の種類の詳細についてを参照してください[AD FS 2.0: ローカルの認証の種類を変更する方法](https://go.microsoft.com/fwlink/p/?LinkId=313384)。
 
 ### <a name="to-configure-ad-fs-20-to-support-client-authentication"></a>クライアント認証をサポートするように AD FS 2.0 を構成するには
 

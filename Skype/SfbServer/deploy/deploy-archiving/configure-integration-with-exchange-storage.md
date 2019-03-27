@@ -1,5 +1,6 @@
 ---
 title: Exchange の記憶域を持つ Skype のビジネス サーバーの統合を構成します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f48b87f-a57f-4ed8-8c79-5c75b316b696
 description: '概要: は、Skype での Exchange の記憶域を持つビジネス サーバーの統合を構成する方法については、このトピックを読みます。'
-ms.openlocfilehash: 35ef648a1076283f63752221a807da21bf4208ca
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b60924d351114a088910795ec0eb43aa1ed7972f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370621"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891875"
 ---
 # <a name="configure-integration-with-exchange-storage-for-skype-for-business-server"></a>Exchange の記憶域を持つ Skype のビジネス サーバーの統合を構成します。
  
@@ -36,7 +37,7 @@ ms.locfileid: "25370621"
     
    - Exchange ストレージとの統合を無効にするには、 **Microsoft Exchange の統合**] チェック ボックスをオフにします。
     
-5. [**確定**] をクリックします。
+5. [**コミット**] をクリックします。
     
 ## <a name="when-skype-for-business-server-and-microsoft-exchange-are-deployed-in-different-forests"></a>Business Server と Microsoft Exchange の Skype が別々 のフォレストに配置されるとき
 

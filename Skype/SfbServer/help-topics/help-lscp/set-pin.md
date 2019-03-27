@@ -1,5 +1,6 @@
 ---
 title: PIN の設定
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
 description: ユーザーの暗証番号 (pin) を生成するために選択は自動的に、有効な暗証番号 (pin) を生成します。
-ms.openlocfilehash: 7f1a78a1de16ab5689c63bb60afeb7c88479cc0c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 18899e9a8fd5ec7b739f07cad2667460a51582ee
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255832"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889120"
 ---
 # <a name="set-pin"></a>PIN の設定
 
@@ -29,4 +30,4 @@ ms.locfileid: "23255832"
 
 ## <a name="see-also"></a>関連項目
 
-[ユーザー Pin](https://technet.microsoft.com/library/806a813c-bdd4-49eb-9923-0dbb03968d8a.aspx)
+[User PINs](https://technet.microsoft.com/library/806a813c-bdd4-49eb-9923-0dbb03968d8a.aspx)

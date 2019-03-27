@@ -1,5 +1,6 @@
 ---
-title: 統合ログを取得します。
+title: 統合ログの取得
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
 description: '概要: は、統合ログの取得の操作では、品質のダッシュ ボードを呼び出すためのデータ API の一部について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: 6408d0a773ee00854f82c4430e4402e79db23fa6
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: e6d449a8ea973132b404e821f6a5d5f156e6ddd6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531089"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897254"
 ---
-# <a name="get-integration-log"></a>統合ログを取得します。
+# <a name="get-integration-log"></a>統合ログの取得
  
 **の概要:** 統合ログの取得の操作では、品質のダッシュ ボードを呼び出すためのデータ API の一部について説明します。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
   
 統合ログの取得操作は、品質のダッシュ ボードを呼び出すためのデータ API の一部
   
-## <a name="get-integration-log"></a>統合ログを取得します。
+## <a name="get-integration-log"></a>統合ログの取得
 
 操作が返されます QoE のキューブに含まれるアクティビティを説明するログ エントリの一覧を処理する統合ログを取得します。
   

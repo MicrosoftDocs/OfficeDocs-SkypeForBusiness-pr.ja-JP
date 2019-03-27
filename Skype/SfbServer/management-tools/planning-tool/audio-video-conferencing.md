@@ -1,5 +1,6 @@
 ---
-title: オーディオ ビデオ会議 (計画ツール)
+title: Audio Video Conferencing (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,18 +14,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 description: Skype のビジネス サーバー 2015年のオーディオ/ビデオ (A/V) 会議により、ユーザーはリアルタイムのオーディオまたはビデオ会議に参加します。
-ms.openlocfilehash: a8261a81a675a60ec9d420192d05ec2e9d33ff28
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 300b819a87de1397c5d19aff6086347cff769b4a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889211"
 ---
-# <a name="audio-video-conferencing-planning-tool"></a>オーディオ ビデオ会議 (計画ツール)
+# <a name="audio-video-conferencing-planning-tool"></a>Audio Video Conferencing (Planning Tool)
  
 Skype のビジネス サーバー 2015年のオーディオ/ビデオ (A/V) 会議により、ユーザーはリアルタイムのオーディオまたはビデオ会議に参加します。
   
 組織で A/V 会議を実現するための詳細を計画する方法については、以下のトピックおよびサブトピックを参照してください。 
   
-- [ビジネス サーバー 2015 に Skype で会議を計画します。](../../plan-your-deployment/conferencing/conferencing.md)
+- [Plan for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
     
 

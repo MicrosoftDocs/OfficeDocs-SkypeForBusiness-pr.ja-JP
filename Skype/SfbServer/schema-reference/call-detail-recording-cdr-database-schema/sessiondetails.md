@@ -1,5 +1,6 @@
 ---
 title: SessionDetails テーブル
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 description: 各レコードは、VoIP VoIP 電話をかける、2 パーティの IM セッション、または他の種類のセッションの 1 つのピア ツー ピア セッションを表します。 このセッションに関連する各メディアの詳細を検索するメディアのテーブルとテーブルの結合を行うことができます。
-ms.openlocfilehash: 9c6cbe0b69871aa4876777b235d14f8a7ced0e15
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e499c8d443742bacfcdbe9c129e884cae4dd96a0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889925"
 ---
 # <a name="sessiondetails-table"></a>SessionDetails テーブル
  
@@ -22,7 +24,7 @@ ms.lasthandoff: 03/28/2018
   
 ビジネス サーバー 2015 の Skype で使用される SessionDetails テーブルから、IsUser1IntegratedWithDeskPhone と IsUser2IntegratedWithDeskPhone フィールドを削除されていることに注意してください。
   
-|**列**|**データ型**|**キーまたはインデックス**|**詳細**|
+|**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |プライマリ サーバーで、外部  <br/> |セッションの要求の時間です。 セッションを一意に識別するのには**SessionIdSeq**と組み合わせてを使用します。 [Skype のビジネス サーバー 2015 のテーブル」ダイアログ ボックス](dialogs.md)の詳細についてを参照してください。 <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |プライマリ サーバーで、外部  <br/> |セッションを識別する ID 番号。 Session.*、[ビジネス サーバー 2015 の Skype のテーブル」ダイアログ ボックス](dialogs.md)の詳細についてを参照を一意に識別する**SessionIdTime**と組み合わせて使用します。 <br/> |

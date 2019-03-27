@@ -1,5 +1,6 @@
 ---
 title: 監視対象の Skype for Business Server コンピューターの構成
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: は、Operations Manager エージェントにファイルをインストール、監視対象サーバー 2019 のビジネス コンピューターの Skype と System Center のプロキシとして動作するコンピューターを構成します。'
-ms.openlocfilehash: 315854c8a249bde4f09710d7b8f1e0be95add132
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 65244cf1b9d9b253744bc244c9ad48fe2e7c644b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26536046"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884885"
 ---
 # <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>監視対象の Skype for Business Server コンピューターの構成
 
@@ -26,9 +27,9 @@ ms.locfileid: "26536046"
 ## <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network"></a>境界ネットワーク外にある監視ノードの証明書のインストール
 <a name="watcher_node_outside"> </a>
 
-システム センター オペレーション マネージャー エージェントが境界で実行されているが (、外部代理トランザクション監視ノードなど)、企業の外部ネットワークなど、Skype ビジネス エッジ サーバーの)、または、Active Directory の信頼間の境界をする必要があります。システム センター オペレーション マネージャー ゲートウェイ サーバーの構成。 このサーバーの役割により、ルート管理サーバーと信頼関係を持たないエージェントは警告を出すことができるようになります。 詳細については、「[Operations Manager 2012 におけるゲートウェイ サーバーの管理](https://technet.microsoft.com/en-us/library/hh212823.aspx)」を参照してください。
+システム センター オペレーション マネージャー エージェントが境界で実行されているが (、外部代理トランザクション監視ノードなど)、企業の外部ネットワークなど、Skype ビジネス エッジ サーバーの)、または、Active Directory の信頼間の境界をする必要があります。システム センター オペレーション マネージャー ゲートウェイ サーバーの構成。 このサーバーの役割により、ルート管理サーバーと信頼関係を持たないエージェントは警告を出すことができるようになります。 詳細については、[運用マネージャー 2012 でゲートウェイ サーバーを管理する](https://technet.microsoft.com/en-us/library/hh212823.aspx)を参照してください。
 
-これらの場所のいずれかでエージェントを展開する場合を要求し、System Center Operations Manager にアラートを送信するウォッチャー ノードを有効にする証明書を構成する必要がもあります。 このプロセスを簡略化には、Operations Manager チームが作成を要求し、監視ノード コンピューターで適切な種類の証明書をインストールできるようにするユーティリティのセットです。 これらのユーティリティの詳細とダウンロードについては、「[証明書作成ウィザードによる簡略化された非ドメインに参加しているエージェントに対する証明書取得の方法](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409)」を参照してください。
+これらの場所のいずれかでエージェントを展開する場合を要求し、System Center Operations Manager にアラートを送信するウォッチャー ノードを有効にする証明書を構成する必要がもあります。 このプロセスを簡略化には、Operations Manager チームが作成を要求し、監視ノード コンピューターで適切な種類の証明書をインストールできるようにするユーティリティのセットです。 詳細については、し、これらのユーティリティをダウンロードするには、[非ドメイン参加しているエージェント作成を簡単に証明書の生成ウィザードを使用しての証明書の取得](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409)を参照してください。
 
 ### <a name="installing-the-operation-manager-agent-files"></a>Operation Manager エージェント ファイルのインストール
 
@@ -54,7 +55,7 @@ ms.locfileid: "26536046"
 
 11. [**終了**] をクリックします。
 
-System Center 2012 では、 **[スタート] ボタン**、**すべてのプログラム**をクリックすると、 **System Center オペレーション マネージャー 2012**をクリックし、 **2012年マネージャー シェルの操作**によって、エージェントが作成されたことを確認できます。 Operations Manager シェルで、次の Windows PowerShell コマンドを入力し、Enter キーを押します。
+System Center 2012 では、 **[スタート] ボタン**、**すべてのプログラム**をクリックすると、 **System Center オペレーション マネージャー 2012**をクリックし、 **2012年マネージャー シェルの操作**によって、エージェントが作成されたことを確認できます。 In the Operations Manager Shell, type the following Windows PowerShell command, and then press ENTER:
 ```
 Get-SCOMAgent
 ```

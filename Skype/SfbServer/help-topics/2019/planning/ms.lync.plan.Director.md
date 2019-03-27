@@ -1,5 +1,6 @@
 ---
-title: ディレクター (計画ツール)
+title: Director (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +14,14 @@ localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 ROBOTS: NOINDEX, NOFOLLOW
 description: ディレクターは、ユーザーの要求を認証することができますが、すべてのユーザー アカウントのホームがないビジネス サーバー通信ソフトウェアの Skype を実行しているサーバーです。
-ms.openlocfilehash: e6210c6c4c6b4f92b99eb9287f82e6268db5df12
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 63af64f9b922d1c96a177498d1d60aa3df171a0b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21058273"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889755"
 ---
-# <a name="director-planning-tool"></a>ディレクター (計画ツール)
+# <a name="director-planning-tool"></a>Director (Planning Tool)
  
 ディレクターは、ユーザーの要求を認証することができますが、すべてのユーザー アカウントのホームがないビジネス サーバー通信ソフトウェアの Skype を実行しているサーバーです。 
   

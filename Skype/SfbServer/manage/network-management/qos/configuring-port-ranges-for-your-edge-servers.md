@@ -1,5 +1,6 @@
 ---
 title: エッジ サーバーのポート範囲と品質のサービスを構成します。
+ms.reviewer: ''
 ms:assetid: 6f0ae442-6624-4e3f-849a-5b9e387fb8cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204996(v=OCS.15)
 ms:contentKeyID: 48184469
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: エッジ トランスポート サーバーのポート範囲を構成する方法と、1 つのサービスの品質ポリシーを構成する方法について説明/V エッジ サーバー。
-ms.openlocfilehash: b0f0b9c974b547004204a624840877aed71a02ff
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 11fdb542c6256c21e169480194bc5154bf1c1428
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223130"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886375"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>Skype でエッジ サーバーのビジネス サーバーのポート範囲およびサービスの品質ポリシーの構成
 
@@ -114,7 +115,7 @@ Active Directory ベースのポリシーを作成する場合、必要があり
 
 5.  [4] ページでは、**この QoS ポリシーを適用するプロトコルを選択して**ドロップダウン リストから**TCP および UDP**を選択します。 TCP (伝送制御プロトコル) と UDP (ユーザー データグラム プロトコル) は、最も一般的使用 Skype ビジネス サーバーとそのクライアント アプリケーションの 2 つのネットワーク プロトコルです。
 
-6.  **指定する宛先ポート番号**の見出しの下には、**この宛先ポートまたは範囲から**選択します。 付随するテキスト ボックスで、オーディオの転送用に予約されたポートの範囲を入力します。 57500 オーディオ トラフィック用のポートをポート 49152 を予約する場合のこの形式を使用するポートの範囲を入力するたとえば、: **49152:57500**。 **[完了]** をクリックします。
+6.  **指定する宛先ポート番号**の見出しの下には、**この宛先ポートまたは範囲から**選択します。 付随するテキスト ボックスで、オーディオの転送用に予約されたポートの範囲を入力します。 57500 オーディオ トラフィック用のポートをポート 49152 を予約する場合のこの形式を使用するポートの範囲を入力するたとえば、: **49152:57500**。 [**完了**] をクリックします。
 
 オーディオ トラフィックの QoS ポリシーを作成した後は、ビデオのトラフィックを 2 番目のポリシーを作成してください。 ビデオのポリシーを作成するにした後に、オーディオのポリシーを作成するときにこれらの置換を行うと同じ基本的な手順に従います。
 

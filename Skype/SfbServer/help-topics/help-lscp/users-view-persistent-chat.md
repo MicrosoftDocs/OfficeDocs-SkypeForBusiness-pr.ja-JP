@@ -1,5 +1,6 @@
 ---
 title: 永続的なチャットを表示します。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 description: CsPersistentChatAdministrator ロール (永続的なチャット管理者) のメンバーには、他のユーザーにし、自らをチャット ルームの管理者の権限およびアクセス許可を与えることができます。
-ms.openlocfilehash: 3fcf75ece119ff8ce11aa09d146df5b481b05efa
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: fda25be9d156c4f2c884fd76518dc09369be7487
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246997"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888155"
 ---
-# <a name="users-view-persistent-chat"></a>ユーザー: ビューの永続的なチャット
+# <a name="users-view-persistent-chat"></a>ユーザー: 常設チャットの表示
 
 **CsPersistentChatAdministrator**ロール (永続的なチャット管理者) のメンバーには、他のユーザーにし、自らをチャット ルームの管理者の権限およびアクセス許可を与えることができます。
 
@@ -43,7 +44,7 @@ ms.locfileid: "23246997"
 
 - [カテゴリ、チャット ルーム、およびユーザー権利とアクセス許可を管理するユーザーを有効にします。](https://technet.microsoft.com/library/6c551be3-bc74-4d0e-9008-ddfabd86e940.aspx)
 
-- [永続的なチャットのメンバーシップを理解します。](https://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
+- [Understanding Persistent Chat Membership](https://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
 
 詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。
 

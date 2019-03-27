@@ -1,5 +1,6 @@
 ---
 title: Skype ビジネス サーバーの active Directory ドメイン サービス
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 description: Active Directory ドメイン サービスは、ディレクトリ サービスでは、Windows Server 2003、Windows Server 2008、Windows Server 2012 では、Windows Server 2012 R2 のネットワークとして機能します。 Active Directory ドメイン サービスは、Skype ビジネス サーバーのセキュリティ インフラストラクチャを構築する基盤としても機能します。 このセクションの目的は、IM、Web 会議、メディア、および音声の信頼できる環境を作成する、Skype のビジネス サーバーが Active Directory ドメイン サービスを使用する方法について説明します。 Active Directory ドメイン サービスのお客様の環境を準備する方法の詳細についてを参照してくださいインストール Skype ビジネス サーバーの展開に関するドキュメント。 Windows Server ネットワークで Active Directory ドメイン サービスの役割についての詳細は、使用しているオペレーティング システムのバージョンのドキュメントを参照してください。
-ms.openlocfilehash: 19e09126e07055b2c76487ba8dad1cc7c5777bc5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1664f3b354078c79429b20e7654b363ce9fccb7f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20980810"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892386"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>Skype ビジネス サーバーの active Directory ドメイン サービス
  
@@ -58,7 +59,7 @@ Active Directory のインフラストラクチャ要件を以下に示します
   
 ## <a name="role-based-access-control"></a>役割ベースのアクセス制御
 
-ユニバーサル サービス グループと管理グループを作成し、サービス グループと管理グループを対応するユニバーサル グループに追加することに加えて、フォレストの準備では役割ベースのアクセス制御 (RBAC) グループも作成されます。 フォレストの準備によって作成された、特定の RBAC グループについての詳細は、展開に関するドキュメントで[ビジネス サーバーの Skype でのフォレストの準備によって変更](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md)を参照してください。 RBAC グループの詳細については、 [Skype のビジネス サーバーの役割に基づくアクセス制御 (RBAC)](role-based-access-control-rbac.md)を参照してください。
+ユニバーサル サービス グループと管理グループを作成し、サービス グループと管理グループを対応するユニバーサル グループに追加することに加えて、フォレストの準備では役割ベースのアクセス制御 (RBAC) グループも作成されます。 フォレストの準備で作成される個々の RBAC グループの詳細については、「展開」のドキュメントの「[Changes made by forest preparation in Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md)」を参照してください。 RBAC グループの詳細については、 [Skype のビジネス サーバーの役割に基づくアクセス制御 (RBAC)](role-based-access-control-rbac.md)を参照してください。
   
 ## <a name="access-control-entries-aces-and-inheritance"></a>アクセス制御エントリ (ACE) と継承
 

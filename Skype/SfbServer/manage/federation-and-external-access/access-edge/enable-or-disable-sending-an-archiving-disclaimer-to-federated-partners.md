@@ -1,5 +1,6 @@
 ---
 title: フェデレーション パートナーに対するアーカイブ免責事項の送信の有効化または無効化
+ms.reviewer: ''
 ms:assetid: c8e9a2fa-9dc1-4e4d-919f-56ece8004864
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182584(v=OCS.15)
 ms:contentKeyID: 48185391
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: 3e076e1044a65c45a8fc72d0e7d54369d4c3196f
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 859b4e295a90fd44ce69efe4af7daa63ddc8812c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222780"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885320"
 ---
 # <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのフェデレーション パートナーにアーカイブについての免責事項の送信を無効にするを有効または
 
@@ -39,7 +40,7 @@ ms.locfileid: "27222780"
 
 5.  **アクセス エッジ構成の編集**、**フェデレーション ユーザーとの通信を有効にする**には、オンまたはオフに、**アーカイブ、フェデレーション パートナーへの免責事項を送信**するチェック ボックスを有効にするか、アーカイブを自動的に送信を無効にします。免責事項です。
 
-6.  [**確定**] をクリックします。
+6.  [**コミット**] をクリックします。
 
 フェデレーション ユーザーにビジネスのサーバーの展開に、Skype のユーザーと共同作業を有効にするには、必要がありますもしているフェデレーション ユーザー アクセスをサポートするために少なくとも 1 つの外部アクセス ポリシーです。 特定のフェデレーション ドメインのアクセスを制御する方法の詳細は、[許可された外部ドメインのサポートを構成する](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)を参照してください。
 

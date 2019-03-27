@@ -1,5 +1,6 @@
 ---
-title: アンインストール CcAppliance
+title: Uninstall-CcAppliance
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1b3cdd7-08e9-41a6-843a-3b4baf886cd0
 description: Uninstall-CcAppliance コマンドレットは実行中の Skype for Business Cloud Connector エディションのアプライアンスをホスト サーバーからアンインストールします。
-ms.openlocfilehash: 325e21d28ef87f9d27e87721452bc3d67d197169
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7b2def71eee17c81b6f178a18d4c248557a0f022
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885649"
 ---
-# <a name="uninstall-ccappliance"></a>アンインストール CcAppliance
+# <a name="uninstall-ccappliance"></a>Uninstall-CcAppliance
  
 Uninstall-CcAppliance コマンドレットは実行中の Skype for Business Cloud Connector エディションのアプライアンスをホスト サーバーからアンインストールします。 
   
@@ -59,7 +61,7 @@ Uninstall-CcAppliance -Version 1.3.8 -Confirm:$false
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**必須**|**タイプ**|**説明**|
+|**パラメーター**|**必須**|**型**|**説明**|
 |:-----|:-----|:-----|:-----|
 | Version <br/> | 省略可能 <br/> |System.String  <br/> | ホスト サーバーからアンインストールされるクラウド コネクタのバージョンです。 指定されていない場合、現在実行中のバージョンをアンインストールします。 <br/> |
 |Force  <br/> |省略可能  <br/> |System.Management.Automation.SwitchParameter  <br/> |現在の実行中バージョンをアンインストールする場合、仮想マシンをアンインストールする前に仲介サーバーとエッジ サーバーで、サーバーのドレイン処理を試みます。「Force」スイッチを指定すると、ドレイン サービスが失敗した場合でも、仮想マシンはアンインストールされます。このパラメーターは現在の実行中バージョンをアンインストールするためのみに使用されます。  <br/> |
@@ -78,12 +80,12 @@ Uninstall-CcAppliance -Version 1.3.8 -Confirm:$false
 ## <a name="see-also"></a>関連項目
 <a name="ReturnTypes"> </a>
 
-[インストール CcAppliance](install-ccappliance.md)
+[Install-CcAppliance](install-ccappliance.md)
   
-[発行 CcAppliance](publish-ccappliance.md)
+[Publish-CcAppliance](publish-ccappliance.md)
   
-[登録 CcAppliance](register-ccappliance.md)
+[Register-CcAppliance](register-ccappliance.md)
   
-[登録解除 CcAppliance](unregister-ccappliance.md)
+[Unregister-CcAppliance](unregister-ccappliance.md)
   
 

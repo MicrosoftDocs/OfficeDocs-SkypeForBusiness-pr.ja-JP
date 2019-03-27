@@ -1,5 +1,6 @@
 ---
-title: 外部の Skype for Business ユーザーに連絡できるようにする
+title: ユーザーが外部の Skype for Business ユーザーに連絡できるようにする
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -26,14 +27,14 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'ユーザーが別の組織内のユーザーに問い合わせるか、外にそれらの連絡先を使用できるようにするのにはビジネス用の Skype を構成する方法を参照してください。 '
-ms.openlocfilehash: eaac8426677268e526f622b477caff062d81deef
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 24cedb4a9fd612c3aa0c4886a9a35dd89b52fbe7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533200"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887595"
 ---
-# <a name="allow-users-to-contact-external-skype-for-business-users"></a>外部の Skype for Business ユーザーに連絡できるようにする
+# <a name="allow-users-to-contact-external-skype-for-business-users"></a>ユーザーが外部の Skype for Business ユーザーに連絡できるようにする
 
 > [!NOTE]
 > ビジネス連合の Skype を 21Vianet と Office 365 のドイツの組織によって運営されて Office 365 を使用できません。 
@@ -51,15 +52,15 @@ ms.locfileid: "26533200"
 
 これを行う 2 つの組織で Office 365 の[管理者のアクセス許可](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)が必要です。
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
   
 1. Office 365 管理者アカウントでサインインします。 
     
-2. Office 365 管理センターで、[**管理センター**]  >  [**Skype for Business**] に移動します。
+2. Office 365 管理センターでは、**管理センター**に移動 > **ビジネス用の Skype**です。
     
-    ![Choose the Skype for Business admin center.](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
+    ![ビジネス管理センターの Skype を選択します。](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
   
-3. [**Skype for Business 管理センター**] で、[**組織**]  >  [**外部通信**] を選びます。
+3. **ビジネス管理センターの Skype**では、**組織**を選択します。 > **外部との連絡**。
     
 4. 設定するには、特定のビジネスで、または、ドロップ ダウン ボックスで、別のドメイン内のユーザーとの通信**にのみ許可されるドメイン**を選択します。
     
@@ -69,7 +70,7 @@ ms.locfileid: "26533200"
     
 6. その他の組織の管理者には、**ビジネス管理センターの Skype**では、次の同じ手順を確認します。 などの**ドメインを許可する**ボックスの一覧で、管理者が自社のドメインを入力する必要があります。
     
-7. Windows Firewall を使用している場合は、Skype for Business が必要なポートを自動的に開きます。
+7. Windows ファイアウォールを使用している場合は、Skype のビジネスに必要なポートが自動的に開きます。
     
     組織がインターネットへの接続をネットワーク上のコンピューターを制限する別のファイアウォール ソリューションを使用している場合は、クライアント コンピューターは、次の[Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)にアクセスすることを確認します。 インフラストラクチャの構成、ファイアウォールやプロキシのリストを許可する、送信する Fqdn を追加することがあります:**\*です。 api.skype.com**、 \***です。 users.storage.live.com**、と**graph.skype.com**。 お使いのファイアウォールでポートを開く方法の詳細については、それに付属のマニュアルを確認してください。
     
@@ -77,18 +78,18 @@ ms.locfileid: "26533200"
 
 8. 管理者は、組織では、次の手順の後にもことを確認します。
     
-9. **テストのために最大 24 時間待機します** 。外部通信設定を変更したときはいつでも、変更がデータ　センター全体に行き渡るまでに最大 24 時間かかる場合があります。
+9. **テストするのには最大で 24 時間を待機**します。 外部通信の設定を変更するすべてのデータ センター間で設定を変更するには、最大 24 時間かかります。
     
 ![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) Skype、無料のコンシューマー アプリケーションを使用して他のユーザーと IM を検索して、ユーザーを許可します。 詳細については、[ビジネス ユーザー向けの Skype は、Skype 連絡先を追加する](let-skype-for-business-users-add-skype-contacts.md)を参照してください。
   
-## <a name="test-and-troubleshoot"></a>テストとトラブルシューティング
+## <a name="test-and-troubleshoot"></a>テストし、トラブルシューティング
 <a name="bk_preview"> </a>
 
  **企業間の通信を設定する際に発生する最も一般的な問題は、取得[Office 365 の Url と IP アドレスの範囲](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)右です。**
   
 設定をテストするには、企業ファイアウォールの背後にあるではないビジネスの Skype の連絡先が必要です。
   
-1. 外部通信設定を変更した後、 **テストのために最大 24 時間待機** します。
+1. **24 までの待機時間をテスト**外部の通信設定を変更した場合。
     
 2. ビジネスの Skype は、ビジネス用の Skype の連絡先の検索でチャットへの要求を送信します。
     
@@ -145,12 +146,12 @@ ms.locfileid: "26533200"
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 <a name="bk_preview"> </a>
 
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
   
-[Skype for Business ユーザーが Skype 連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
+[Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
   
   
  

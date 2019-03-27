@@ -1,5 +1,6 @@
 ---
 title: Skype の一覧のレポートをビジネスのサーバーの障害
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: '概要: は、ビジネスのサーバーの Skype でエラーの一覧のレポートについて説明します。'
-ms.openlocfilehash: 3d40d7d73b6a4cb63e3885736a9a32f8b64ed989
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f286dfe288b82b1e8ab0f5b4956c4f75c5bd72a2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20992634"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899611"
 ---
 # <a name="failure-list-report-in-skype-for-business-server"></a>Skype の一覧のレポートをビジネスのサーバーの障害 
  
@@ -100,13 +101,13 @@ Count    Name
 
 |**名前**|**この項目での並べ替え**|**説明**|
 |:-----|:-----|:-----|
-|**レポートされた時刻** <br/> |不可  <br/> |レポートが記録された日時。  <br/> |
-|**要求** <br/> |不可  <br/> |失敗した SIP 要求の種類 (INVITE、BYE など)。  <br/> |
-|**応答コード** <br/> |不可  <br/> |会議にエラーが発生したときに送信された SIP 応答コード。  <br/> |
-|**診断 ID** <br/> |不可  <br/> |SIP メッセージに (ms-diagnostics ヘッダーの形で) 添付された一意の識別子。多くの場合、この情報はトラブルシューティングに役立ちます。  <br/> |
-|**参加コスト時間 (ミリ秒)** <br/> |不可  <br/> |ユーザーが会議に参加するのに要した時間 (ミリ秒)。  <br/> |
-|**移動元ユーザー** <br/> |不可  <br/> |呼び出しを開始したユーザーの SIP アドレス。  <br/> |
-|**送信元ユーザー エージェント** <br/> |不可  <br/> |呼び出しを開始したユーザーのエンドポイントで使用されているソフトウェア。  <br/> |
+|**レポートされた時刻** <br/> |いいえ  <br/> |レポートが記録された日時。  <br/> |
+|**要求** <br/> |いいえ  <br/> |失敗した SIP 要求の種類 (INVITE、BYE など)。  <br/> |
+|**応答コード** <br/> |いいえ  <br/> |会議にエラーが発生したときに送信された SIP 応答コード。  <br/> |
+|**診断 ID** <br/> |いいえ  <br/> |SIP メッセージに (ms-diagnostics ヘッダーの形で) 添付された一意の識別子。多くの場合、この情報はトラブルシューティングに役立ちます。  <br/> |
+|**参加コスト時間 (ミリ秒)** <br/> |いいえ  <br/> |ユーザーが会議に参加するのに要した時間 (ミリ秒)。  <br/> |
+|**移動元ユーザー** <br/> |いいえ  <br/> |呼び出しを開始したユーザーの SIP アドレス。  <br/> |
+|**送信元ユーザー エージェント** <br/> |いいえ  <br/> |呼び出しを開始したユーザーのエンドポイントで使用されているソフトウェア。  <br/> |
 |**対象ユーザー** <br/> |不可  <br/> |呼び出しを受けたユーザーの SIP アドレス。  <br/> |
    
 

@@ -1,5 +1,6 @@
 ---
 title: 応答のグループのグループ
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 応答グループ エージェント グループ、キュー、およびワークフローで構成されます。 エージェント グループは、応答グループの呼び出しに応答するように指定されているユーザーのグループです。
-ms.openlocfilehash: c14f801055ace0190114b9d108e55af5d5256554
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 52032cd3c5141ce407809301db7cfc3a93557de5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246401"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886086"
 ---
 # <a name="response-groups-group"></a>応答グループ: グループ
 
@@ -53,6 +54,6 @@ ms.locfileid: "23246401"
 
 - **説明**エージェント グループの説明です。
 
-応答のグループの特徴と機能についての詳細は、計画のドキュメントで[ビジネス サーバーの Skype で応答グループ アプリケーションの計画](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)を参照してください。 エージェント グループの操作に関する詳細については、操作マニュアルで[エージェントの管理グループ](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)を参照してください。
+応答のグループの特徴と機能についての詳細は、計画のドキュメントで[ビジネス サーバーの Skype で応答グループ アプリケーションの計画](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)を参照してください。 エージェント グループの使用の詳細については、「操作」のドキュメントの「[Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)」を参照してください。
 
 

@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype ルーム システムの次世代を Skype ルーム システム v2 では、管理の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 4c94ffbcb83e5e208e5cd7278af54e157b9f478c
-ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
+ms.openlocfilehash: 29c3af2b73f9a8b1277abdc6a47afeb69cb26ef2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30720425"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889323"
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a>Skype ルーム システム v2 のメンテナンスと運用 
  
@@ -23,7 +23,7 @@ Skype ルーム システムの次世代を Skype ルーム システム v2 で�
   
 Skype ルーム システム v2 は、ビジネス経験の豊富な共同の Skype 会議室に変換するように設計された、マイクロソフトの最新の会議ソリューションです。 ユーザーは慣れ親しんだ Skype for Business インターフェイスを活用し、IT 管理者は Windows 10 Skype Meeting アプリを簡単に展開および管理することができます。 Skype ルーム システム v2 は、Skype をビジネスの会議室に移動するのにはインストールの容易さの LCD パネルと同様に既存の機器を活用するよう設計されています。
   
-リモート管理は、 [Skype ルーム システムの計画 v2 管理 OMS を使用して](../../plan-your-deployment/clients-and-devices/oms-management.md)、 [OMS を使用して Skype ルーム システムの展開 v2 の管理](../../deploy/deploy-clients/with-oms.md)、および管理の[で説明したように運用管理スイート (OMS) を使用して、追加の構成OMS を使用して Skype ルーム システム v2 のデバイス](oms.md)。 カスタムの画面テーマの適用を含む、[Manage a Skype Room Systems v2 console settings remotely with an XML configuration file](xml-config-file.md) を行うこともできます。 
+追加の構成をリモート管理は、 [Azure のモニターを使用して Skype ルーム システムの計画 v2 の管理](../../plan-your-deployment/clients-and-devices/azure-monitor.md)、 [Azure のモニターを使用して Skype ルーム システムの展開 v2 の管理](../../deploy/deploy-clients/azure-monitor.md)管理の[で説明したように、Microsoft Azure のモニターを使用してAzure のモニターを使用して Skype ルーム システム v2 のデバイス](azure-monitor.md)。 カスタムの画面テーマの適用を含む、[Manage a Skype Room Systems v2 console settings remotely with an XML configuration file](xml-config-file.md) を行うこともできます。 
   
 ## <a name="collecting-logs-on-skype-room-systems-v2"></a>Skype Room Systems バージョン 2 でのログの収集
 <a name="Logs"> </a>

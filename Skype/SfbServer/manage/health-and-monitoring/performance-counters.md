@@ -1,5 +1,6 @@
 ---
 title: Skype ビジネス サーバーの移動のパフォーマンス カウンター
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
 description: '概要: は、ビジネス サーバー Mcx のモビリティ サービスのユニファイド コミュニケーション Web API (UCWA) と、Skype を実行しているサーバーを監視するために使用できるパフォーマンス カウンターについて説明します。'
-ms.openlocfilehash: dc2f414dce47442d50018c4a800a0c91279068c8
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 4d55dab133b7006f8a239560efb084fd2c61b917
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "21226996"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887957"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>Skype ビジネス サーバーの移動のパフォーマンス カウンター
  

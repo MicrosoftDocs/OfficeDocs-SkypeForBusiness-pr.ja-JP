@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Online の代理のセットアップとトラブルシューティング
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: この資料を設定し、オンライン ビジネスの委任のため Skype をトラブルシューティングする方法について説明します。 この記事では、設定の推奨事項、ベスト ・ プラクティス、およびトラブルシューティング手順を実行するためのガイダンスを提供します。
-ms.openlocfilehash: e3131b28be1ad01e0965b2739dc152a627826d5e
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: 450aee07691a007b976aafffc05d34c3e7ef85f2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546677"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887837"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Skype for Business Online の代理のセットアップとトラブルシューティング
 
@@ -105,7 +106,7 @@ ms.locfileid: "25546677"
     
 ### <a name="verify-success"></a>成功を確認します。
 
-**< 名前 > の代理人として追加された**のは、代理人は見る必要があります、セットアップが成功した場合は、メッセージ、および**呼び出しの管理の人に**グループを作成します。 代理人は**代理人**のグループが作成されるはずです。
+**_Lt _ Name> の代理人として追加されている場合**、代理人は見る必要があります、セットアップが成功した場合は、メッセージ、および**呼び出しの管理の人に**グループを作成します。 代理人は**代理人**のグループが作成されるはずです。
   
 > [!NOTE]
 > 委任アクセス許可は、通常のセットアップ プロセスの 30 分以内で表示されます。 ただし、最大 24 時間かかることができます。 
@@ -142,10 +143,10 @@ ms.locfileid: "25546677"
     
 - Exchange Online のメールボックスは、ビジネス クライアント用の Skype を介してアクセスできません。 この問題が発生した場合は、 [Outlook の [接続のテスト](https://testconnectivity.microsoft.com/)に合格したことを確認するを実行します。
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 
-[Skype for Business ユーザーが Skype 連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
+[Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
 
   
  

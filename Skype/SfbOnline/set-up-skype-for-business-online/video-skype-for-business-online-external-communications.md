@@ -1,5 +1,6 @@
 ---
 title: オンライン ビジネスの外部通信用のビデオの Skype
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'ユーザーは、Skype の外部の連絡先と通信できるのオンライン ビジネスの外部通信のため、Skype をセットアップについて説明します。 '
-ms.openlocfilehash: e42858b02c3c15e8200b8d99b8d52207a6fc7c63
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: b01d7b72ab0f3daf660fccf0bc78ac78e394e764
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849875"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888910"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>ビデオ: Skype for Business Online の外部通信
 
@@ -35,7 +36,7 @@ ms.locfileid: "23849875"
 
 ***
   
-## <a name="related-topics"></a>このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「Skype for Business Online 用 Windows PowerShell モジュール」からダウンロードできます。
+## <a name="related-topics"></a>関連項目
 [Skype オンライン ビジネスの外部通信の設定](https://support.microsoft.com/en-us/help/10041/set-up-lync-online-external-communications)(チュートリアル)
 
 [外部の Skype for Business ユーザーに連絡できるようにする](allow-users-to-contact-external-skype-for-business-users.md)

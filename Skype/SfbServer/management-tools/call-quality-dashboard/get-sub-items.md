@@ -1,5 +1,6 @@
 ---
-title: サブ項目を取得します。
+title: サブアイテムの取得
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0542eba9-3dda-40de-bba8-095d22825e4e
 description: '概要: は、項目のサービスの一部では、サブ項目の取得操作について説明します。 項目のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: 648f514ff03361673962052445d25076437057b9
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 41287978338bce49d8d8c30d1d6b91b9b2498acc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531075"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889008"
 ---
-# <a name="get-sub-items"></a>サブ項目を取得します。
+# <a name="get-sub-items"></a>サブアイテムの取得
  
 **の概要:** 品目サービスの一部では、サブ項目の取得操作について説明します。 項目のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
   
 サブ項目の取得操作は、リポジトリ api の呼び出し品質のダッシュ ボードの項目のサービスの一部です。
   
-## <a name="get-sub-items"></a>サブ項目を取得します。
+## <a name="get-sub-items"></a>サブアイテムの取得
 
 サブ項目を返します。 特定の項目のサブ項目を取得します。
   

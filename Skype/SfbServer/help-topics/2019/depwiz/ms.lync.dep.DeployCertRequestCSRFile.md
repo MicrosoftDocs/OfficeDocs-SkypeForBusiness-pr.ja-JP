@@ -1,5 +1,6 @@
 ---
-title: 証明書の要求 (証明書署名要求)
+title: 証明書要求 (証明書の署名要求)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,15 +12,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 ROBOTS: NOINDEX, NOFOLLOW
-description: オフライン要求を作成するには、まず証明書署名要求 (CSR) を作成する必要があります。 ファイル名] テキスト ボックスでは、CSR のパスとファイル名を入力します。 CSR を作成する場所を選択するには、[参照] をクリックできます。 [次へ] をクリックして続行します。
-ms.openlocfilehash: 70a59dc8a7641ec39a5b5ec657f73f9ea23b3536
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: オフライン要求を作成するには、まず証明書署名要求 (CSR) を作成する必要があります。 ファイル名] テキスト ボックスでは、CSR のパスとファイル名を入力します。 CSR を作成する場所を選択するには、[参照] をクリックできます。 [次へ] をクリックします。
+ms.openlocfilehash: 8987d40b4494d70cd588cb7bfc6804918c590df0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968153"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886290"
 ---
-# <a name="certificate-request-certificate-signing-request"></a>証明書の要求 (証明書署名要求)
+# <a name="certificate-request-certificate-signing-request"></a>証明書要求 (証明書の署名要求)
  
 オフライン要求を作成するには、まず証明書署名要求 (CSR) を作成する必要があります。 **ファイル名**] テキスト ボックスでは、CSR のパスとファイル名を入力します。 CSR を作成する場所を選択する**参照**ををクリックすることができます。 [**次へ**] をクリックして続行します。
   

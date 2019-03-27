@@ -1,5 +1,6 @@
 ---
 title: 匿名ユーザー アクセスの有効化または無効化
+ms.reviewer: ''
 ms:assetid: f10c19e6-b6f9-4d26-9923-0165f36e4af8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619192(v=OCS.15)
 ms:contentKeyID: 49733872
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: 35104d7d7128e76f7691a4ddf1ad9693a427eb40
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: a68790f870a6c62b513caab559580695763cd4df
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222752"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892851"
 ---
 # <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>有効にするか、ビジネスのサーバーの Skype の匿名ユーザー アクセスを無効にします。
 
@@ -44,7 +45,7 @@ ms.locfileid: "27222752"
     
       - 組織の匿名ユーザー アクセスを無効にするには、**匿名ユーザーとの通信を有効にする**] チェック ボックスをオフにします。
 
-6.  [**確定**] をクリックします。
+6.  [**コミット**] をクリックします。
 
 
 ## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>有効にするか、Windows PowerShell コマンドレットを使用して匿名ユーザーのアクセスを無効にします。

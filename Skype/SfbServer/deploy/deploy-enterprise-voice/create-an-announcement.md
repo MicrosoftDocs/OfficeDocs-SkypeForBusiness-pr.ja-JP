@@ -1,5 +1,6 @@
 ---
 title: 作成またはビジネス サーバーの Skype でお知らせを削除します。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,13 +13,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
-description: 作成またはビジネス サーバーのエンタープライズ VoIP の Skype のアプリケーションを発表のお知らせを削除します。 この設定によって、割り当てられていない番号への通話を処理する方法が影響を受けます。
-ms.openlocfilehash: cbdcaed3d5908b76f0932f3461dfc21716f74b32
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: 作成またはビジネス サーバーのエンタープライズ VoIP の Skype のアプリケーションを発表のお知らせを削除します。 これは、割り当てられていない番号への通話の処理方法に影響します。
+ms.openlocfilehash: cf6fc0ce754e30e4d52e968dc3a167bbe87a5a83
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372295"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885576"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>作成またはビジネス サーバーの Skype でお知らせを削除します。
 
@@ -28,7 +29,7 @@ ms.locfileid: "25372295"
 
 割り当てられていない番号の表を定義する前に、アナウンスを作成する必要があります。音声ガイダンスまたは TTS による音声ガイダンスを使用するアナウンスすべて、または音声ガイダンスなしのアナウンスすべてに対して、このステップを実行する必要があります。
 
-ここでは、アナウンスをインポートおよび作成する方法について説明します。 表には、未使用の番号のお知らせの割り当ての詳細については、[割り当てられていない番号テーブルの設定](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx)を参照してください。
+ここでは、アナウンスをインポートおよび作成する方法について説明します。割り当てられていない番号の表にアナウンスを割り当てる方法の詳細については、「[Configure the Unassigned Number Table](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx)」を参照してください。
 
 ## <a name="create-a-new-announcement-for-unassigned-numbers"></a>割り当てられていない番号向けに新しいアナウンスを作成するには
 
@@ -36,9 +37,9 @@ ms.locfileid: "25372295"
 
 1. 音声ガイダンスの場合は、好みのオーディオ録音アプリケーションを使用してオーディオ ファイルを録音します。
 
-2. オーディオ プロンプトは、音声ファイルの内容をファイル ストアにインポートする**インポート CsAnnouncementFile**コマンドレットを実行します。
+2. 音声ガイダンスの場合は、**Import-CsAnnouncementFile** コマンドレットを実行して、ファイル ストアにオーディオ ファイルの内容をインポートします。
 
-3. お知らせの名前を作成する**新規 CsAnnouncement**コマンドレットを実行します。 このステップを実行して、音声ガイダンス、音声合成 (TTS) による音声ガイダンス、または音声ガイダンスなしのアナウンスを作成します。
+3. **New-CsAnnouncement** コマンドレットを実行して、アナウンスを作成して名前を付けます。 このステップを実行して、音声ガイダンス、音声合成 (TTS) による音声ガイダンス、または音声ガイダンスなしのアナウンスを作成します。
 
     > [!TIP]
     > たとえば、メッセージを再生することなく、指定した宛先へ呼び出しを転送する場合は、音声ガイダンスなしのアナウンスを作成できます。
@@ -116,7 +117,7 @@ ms.locfileid: "25372295"
 
 [作成またはビジネス サーバーの Skype でお知らせを削除します。](create-an-announcement.md)
 
-[インポート-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
+[Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
 
 [新しい-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)
 

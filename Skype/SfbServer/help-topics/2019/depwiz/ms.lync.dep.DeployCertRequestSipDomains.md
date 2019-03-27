@@ -1,5 +1,6 @@
 ---
 title: 証明書要求 (SIP ドメイン)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 1af294a0-5aa1-40a4-b460-231dd4b2f3dc
 ROBOTS: NOINDEX, NOFOLLOW
 description: インフラストラクチャと展開が表示される条件に該当する場合、[サブジェクト代替名 (SAN) の SIP ドメイン設定] ページで、プライマリ セッション開始プロトコル (SIP) ドメインおよびその他の SIP ドメインのチェックボックスをオンにする必要があります。
-ms.openlocfilehash: 9cc86cf7f1bbd2ad2276e6554841a69a366d4274
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 14d0b1f5a74e8707653af774ab569dd70e79afdf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21020113"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891562"
 ---
 # <a name="certificate-request-sip-domains"></a>証明書要求 (SIP ドメイン)
  

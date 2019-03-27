@@ -1,5 +1,6 @@
 ---
 title: 登録の表示
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
 description: 登録ビューは、ユーザー登録に関する情報を格納します。 このビューは、Lync Server 2013 で導入されました。
-ms.openlocfilehash: e116c2609f1f26268eaaa3413c3a4491da096585
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: bf6797bee124653515744d3c1bcd481c2ea1bfc2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887887"
 ---
 # <a name="registration-view"></a>登録の表示
  
@@ -40,8 +42,8 @@ ms.lasthandoff: 03/28/2018
 |**ResponseCode** <br/> |int  <br/> |セッションへの招待に SIP 応答コード。 このフィールドは通常、セッションの初期の INVITE メッセージから生成されたデータが設定されます。 招待メッセージが表示されない場合は、日付と時刻の最初の関連する SIP メッセージ (BYE、[キャンセル]、メッセージ、または情報) を持つフィールドが設定されます。  <br/> |
 |**DiagnosticId** <br/> |int  <br/> |SIP ヘッダーから取得された ID を診断します。  <br/> |
 |**レジストラー** <br/> |nvarchar(256)  <br/> |レジストラーの FQDN。  <br/> |
-|**[プール]** <br/> |nvarchar(256)  <br/> |セッションのデータをキャプチャするプールの FQDN です。  <br/> |
-|**Edgeserver があります。** <br/> |nvarchar(256)  <br/> |登録したユーザーで使用されているエッジ サーバーの FQDN です。  <br/> |
+|**Pool** <br/> |nvarchar(256)  <br/> |セッションのデータをキャプチャするプールの FQDN です。  <br/> |
+|**EdgeServer** <br/> |nvarchar(256)  <br/> |登録したユーザーで使用されているエッジ サーバーの FQDN です。  <br/> |
 |**IsInternal** <br/> |bit  <br/> |内部ネットワークからユーザーにログインするかどうかを示します。  <br/> |
 |**IsUserServiceAvailable** <br/> |bit  <br/> |登録時に、UserService を使用したかどうかを示します。  <br/> |
 |**IsPrimaryRegistrar** <br/> |bit  <br/> |プライマリ レジストラーに登録をしたかどうかを示します。  <br/> |

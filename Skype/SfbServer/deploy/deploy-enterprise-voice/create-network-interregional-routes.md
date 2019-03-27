@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype のネットワーク interregional のルートを作成します。
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
 description: 作成または、Skype でのエンタープライズ VoIP 通話受付制御ビジネスのサーバーの使用は、ネットワーク interregional ルートを変更します。
-ms.openlocfilehash: db3447e28ad038dd9976959da62c347c911234c9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5b792a9d1471e8925a44bcc5c0a1026e79aa0a0c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887485"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885569"
 ---
 # <a name="create-network-interregional-routes-in-skype-for-business-server"></a>ビジネス サーバーの Skype のネットワーク interregional のルートを作成します。
  
 作成または、Skype でのエンタープライズ VoIP 通話受付制御ビジネスのサーバーの使用は、ネットワーク interregional ルートを変更します。 
   
-ネットワーク地域間ルートでは、ネットワーク地域のペア間のルートを定義します。通話受付管理展開のネットワーク地域の各ペアには、ネットワーク地域間ルートが必要です。これにより、展開内の各ネットワーク地域が他のすべての地域にアクセスできるようになります。
+ネットワーク地域間ルートでは、ネットワーク地域のペア間のルートを定義します。 通話受付管理展開のネットワーク地域の各ペアには、ネットワーク地域間ルートが必要です。 これにより、展開内の各ネットワーク地域が他のすべての地域にアクセスできるようになります。
   
 地域のリンクが地域間の接続に対する帯域幅制限を設定し、地域間ルートはある地域から別の地域へ接続が通過するリンクされたパスを決定します。
   
@@ -34,7 +35,7 @@ ms.locfileid: "23887485"
 
 1. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
     
-2. 必要なルートを定義する**新しい CsNetworkInterRegionRoute**コマンドレットを実行します。 たとえば、以下を実行します。
+2. **New-CsNetworkInterRegionRoute** コマンドレットを実行して、必要なルートを定義します。 たとえば、以下を実行します。
     
    ```
    New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
@@ -80,7 +81,7 @@ ms.locfileid: "23887485"
 
 [新しい-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/new-csnetworkinterregionroute?view=skype-ps)
   
-[Get CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/get-csnetworkinterregionroute?view=skype-ps)
+[Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/get-csnetworkinterregionroute?view=skype-ps)
   
 [セット CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/set-csnetworkinterregionroute?view=skype-ps)
   

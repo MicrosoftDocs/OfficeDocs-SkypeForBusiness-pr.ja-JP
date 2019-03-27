@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype [お知らせ] アプリケーションの展開プロセス
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
 description: 展開プロセスとビジネス サーバーのエンタープライズ VoIP は、Skype で知らせアプリケーションの手順を実行します。
-ms.openlocfilehash: 5adaea25903968935cbaa00639546926781c004c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 96925df57a36373ee6f031b953f1933b3bac5681
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888072"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885600"
 ---
 # <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server"></a>ビジネス サーバーの Skype [お知らせ] アプリケーションの展開プロセス
  
@@ -32,7 +33,7 @@ ms.locfileid: "23888072"
   
 **アナウンスの展開プロセス**
 
-|**段階**|**手順**|**役割**|**「展開」のドキュメント**|
+|**段階**|**手順**|**Roles**|**「展開」のドキュメント**|
 |:-----|:-----|:-----|:-----|
 |アナウンス設定の構成  <br/> | オーディオ ファイルをレコーディングして読み込むか、音声合成 (TTS) を使用して、アナウンスを作成します。 <br/>  割り当てられていない番号の表で、割り当てられていない番号の範囲を構成して、適切なアナウンスに関連付けます。 <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsViewOnlyAdministrator  <br/> |[作成またはビジネス サーバーの Skype でお知らせを削除します。](create-an-announcement.md) <br/> [作成またはビジネス サーバーの Skype に割り当てられていない番号の範囲を変更します。](create-or-modify-an-unassigned-number-range.md) <br/> |
 |アナウンスの展開の確認  <br/> |アナウンスを聞いてテストし、構成が予想どおりに動作することを確認します。  <br/> |-  <br/> |[(省略可能)ビジネス用の Skype で知らせの展開を確認します。](optional-verify-announcement-deployment.md) <br/> |

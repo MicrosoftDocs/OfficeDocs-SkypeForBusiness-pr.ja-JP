@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype で SRS v1 の管理用の Web ポータルを展開します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 description: ビジネス サーバー Skype ルーム システム v1 の Skype (SRS v1、Lync ルームのシステムと呼ばれていました) 管理用の Web ポータルは、組織が、Skype ルーム システムの会議室を維持するために使用できる web ポータルです。 管理者は、オーディオ/ビデオ デバイスを監視することによってなど、デバイスの稼働状態を監視するのに SRS v1 を管理する Web ポータルを使用できます。 このポータルでは、管理者はリモートで会議室の稼働状態を監視するための診断情報を収集できます。
-ms.openlocfilehash: 6aa7b0d4f36fbffe29a27f77209fb6f2cf312c05
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: d6575f83aaf76dee1255c37482cf4435e8e3771c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248132"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891946"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>ビジネス サーバーの Skype で SRS v1 の管理用の Web ポータルを展開します。
 
@@ -69,7 +70,7 @@ SRS v1 管理 Web ポータルを使用するには、次の前提条件をイ�
 
      ![LRSSupportAdminGroup プロパティ メンバー ページ](../../media/LRS_Add_LRSSupportAdminGroup.png)
 
-7. LRSSupport という名前の SIP 対応の Active Directory ユーザーを作成します。このユーザーを LRSSupportAdminGroup に追加します。
+7. LRSSupport という名前の SIP 対応の Active Directory ユーザーを作成します。 このユーザーを LRSSupportAdminGroup に追加します。
 
      ![LRSSupportAdminGroup プロパティ メンバー ページ](../../media/LRS_Add_LRS_SIP_SupportUser.png)
 
@@ -193,7 +194,7 @@ SRS v1 管理 Web ポータルのインストールを検証するには、次�
 ### <a name="additional-notes-about-the-administrative-web-portal"></a>管理 Web ポータルに関する追加の注意事項
 
 > [!NOTE]
->  SRS システムを再起動後に設定の変更が適用されます。 > 部屋の状態を確認することはできません LRSApp アカウントのパスワードが期限切れになった場合。 決して有効期限が切れる、またはです。 有効期限の近くになる場合は、パスワードを更新することを確認するように、LRSAppuser のアカウントのパスワードを構成する > の SRS の管理用の web ポータルは設置型展開でのみサポートされています。
+>  LRSApp アカウントのパスワードの有効期限が切れた場合、SRS システムは .> を再起動した後にのみ、設定の変更が適用される、2 つの部屋の状態を確認することはできません。 LRSAppuser アカウントのパスワードを構成しないに有効期限が切れた、または web ポータルが設置型展開でのみサポートされている expiration.> 管理は、SRS の近くにあるが、パスワードを更新してください。
 
 ### <a name="bulk-management"></a>一括管理 
 

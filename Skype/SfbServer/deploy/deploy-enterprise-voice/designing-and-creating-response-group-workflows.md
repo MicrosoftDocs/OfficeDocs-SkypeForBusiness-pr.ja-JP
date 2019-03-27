@@ -1,5 +1,6 @@
 ---
 title: 設計とビジネス用の Skype で応答グループ ワークフローを作成します。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: 設計し、ビジネス サーバーのエンタープライズ VoIP の Skype で応答グループのワークフローを作成します。 ハント グループ ワークフローと対話ワークフローの両方について説明します。
-ms.openlocfilehash: 9bb701cf3d4894ff46127b04a3132b6b1fb5895a
-ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
+ms.openlocfilehash: efa77ffa0a1d7b8fda3720c3002c5364216af8eb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27264861"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895556"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>設計とビジネス用の Skype で応答グループ ワークフローを作成します。
 
@@ -43,7 +44,7 @@ ms.locfileid: "27264861"
 
 4. [**ワークフロー**] ページで、[**ワークフローの作成または編集**] をクリックします。
 
-5. **サービスを選択して**検索フィールドに、作成または変更するワークフローをホストする**アプリケーション サーバー**のサービスの名前のすべてまたは一部を入力します。 サービスの結果一覧で、対象のサービスをクリックして [**OK**] をクリックします。
+5. [**サービスの選択**] 検索フィールドに、作成または変更するワークフローをホストする **ApplicationServer** サービスの名前の全体または一部を入力します。 サービスの結果一覧で、対象のサービスをクリックして [**OK**] をクリックします。
 
     > [!NOTE]
     > 応答グループ構成ツールを開きます。 次の URL を入力して、web ブラウザーから直接応答グループ構成ツールを開くことができますも: https://\<webPoolFqdn\>/RgsConfig。
@@ -104,12 +105,12 @@ ms.locfileid: "27264861"
     - 発信者用の音声に変換される開始メッセージをテキストとして入力するには、[**音声合成を使用する**] をクリックして、テキスト ボックスに開始メッセージを入力します。
 
     > [!NOTE]
-    > 入力するテキストに HTML タグを含めないでください。HTML タグを含めると、エラー メッセージが表示されます。
+    > 入力するテキストに HTML タグを含めないでください。 HTML タグを含めると、エラー メッセージが表示されます。
 
     - 開始メッセージに Wave (.wav) または Windows Media オーディオ (.wma) ファイルの録音を使用するには、[**録音を選択する**] をクリックします。新しいオーディオ ファイルをアップロードする場合は、[**録音**] リンクをクリックしてください。新しいブラウザー ウィンドウで [**参照**] をクリックし、使用するオーディオ ファイルを選択して、[**開く**] をクリックします。[**アップロード**] をクリックしてオーディオ ファイルを読み込みます。
 
     > [!NOTE]
-    > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているファイル形式の詳細については、「[Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)」を参照してください。
+    > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。 サポートされているファイル形式の詳細については、「[Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)」を参照してください。
 
 18. [**ステップ 4 営業時間の指定**] の [**タイム ゾーン**] で、ワークフローのタイム ゾーンをクリックします。
 
@@ -140,7 +141,7 @@ ms.locfileid: "27264861"
     - 発信者用に音声に変換されるメッセージをテキストとして入力するには、[**音声合成を使用する**] をクリックして、テキスト ボックスにメッセージを入力します。
 
       > [!NOTE]
-      > 入力するテキストに HTML タグを含めないでください。HTML タグを含めると、エラー メッセージが表示されます。
+      > 入力するテキストに HTML タグを含めないでください。 HTML タグを含めると、エラー メッセージが表示されます。
 
     - メッセージにオーディオ ファイルの録音を使用するには、[**録音を選択する**] をクリックします。新しいオーディオ ファイルをアップロードする場合は、[**録音**] リンクをクリックしてください。新しいブラウザー ウィンドウで [**参照**] をクリックし、使用するファイルを選択して、[**開く**] をクリックします。[**アップロード**] をクリックしてオーディオ ファイルを読み込みます。
 
@@ -167,7 +168,7 @@ ms.locfileid: "27264861"
     - 発信者用に音声に変換されるメッセージをテキストとして入力するには、[**音声合成を使用する**] をクリックして、テキスト ボックスにメッセージを入力します。
 
     > [!NOTE]
-    > 入力するテキストに HTML タグを含めないでください。HTML タグを含めると、エラー メッセージが表示されます。
+    > 入力するテキストに HTML タグを含めないでください。 HTML タグを含めると、エラー メッセージが表示されます。
 
     - メッセージにオーディオ ファイルの録音を使用するには、[**録音を選択する**] をクリックします。新しいオーディオ ファイルをアップロードする場合は、[**録音**] リンクをクリックしてください。新しいブラウザー ウィンドウで [**参照**] をクリックし、使用するファイルを選択して、[**開く**] をクリックします。[**アップロード**] をクリックしてオーディオ ファイルを読み込みます。
 
@@ -216,7 +217,7 @@ ms.locfileid: "27264861"
    ```
 
      > [!NOTE]
-     > プロンプトのオーディオ ファイルを使用するには、**インポート CsRgsAudioFile**コマンドレットを使用します。 詳細については、[インポートの CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)を参照してください。
+     > プロンプトにオーディオ ファイルを使用するには、 **Import-CsRgsAudioFile** コマンドレットを使用します。 詳細については、[インポートの CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)を参照してください。
 
 4. 通話が転送されることになるキューまたは質問の ID を取得します。 コマンド ラインで、次のコマンドを実行します。
 
@@ -243,7 +244,7 @@ ms.locfileid: "27264861"
 
 6. 営業時間と休日を定義する場合は、ワークフローを作成または変更する前に、営業時間と休日を作成する必要があります。 詳細については、[ビジネスの Skype の営業時間 (をオプション) 応答グループの定義](optional-define-response-group-business-hours.md)し、[定義 (省略可能) の応答グループ休日をビジネス用の Skype の設定](optional-define-response-group-holiday-sets.md)を参照してください。
 
-7. 営業時間外や休日に受信した呼び出しの入力を要求する場合は、**新規 CsRgsPrompt**コマンドレットを使用して、プロンプトを定義し、**新規 CsRgsCallAction**を使用して、プロンプトの後に実行するアクションを定義するのには。 詳細については、[新規 CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)および[新しい CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)を参照してください。
+7. 営業時間外または休日に受信する通話用のプロンプトを保持する場合は、**New-CsRgsPrompt** コマンドレットを使用してプロンプトを定義し、**New-CsRgsCallAction** を使用して、プロンプトの後に実行するアクションを定義します。 詳細については、[新規 CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)および[新しい CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)を参照してください。
 
 8. Lync Server の応答グループ サービスのサービス名を取得し、変数に割り当てます。 コマンド ラインで、次のコマンドを実行します。
 
@@ -251,13 +252,13 @@ ms.locfileid: "27264861"
    $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
-9. ワークフローを作成または変更します。 ワークフローを作成するには、**新規 CsRgsWorkflow**を使用します。 ワークフローを変更するには、**セット CsRgsWorkflow**を使用します。 コマンドラインで、次のように入力します。
+9. ワークフローを作成または変更します。 ワークフローを作成するには、**New-CsRgsWorkflow** を使用します。 ワークフローを変更するには、**Set-CsRgsWorkflow** を使用します。 コマンドラインで、次のように入力します。
 
    ```
    $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-ManagersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
    ```
 
-    例:
+    次に例を示します。
 
    ```
    $workflowHG = New-CsRgsWorkflow -Parent $serviceID -Name "Human Resources" -Description "Human Resources workflow" -PrimaryUri "sip:humanresources@contoso.com" -LineUri "TEL:+14255551219" -DisplayNumber "555-1219" -Active $true -Anonymous $true -DefaultAction $actionWM -EnabledForFederation $false -Managed $true -ManagersByUri "sip:bob@contoso.com", "mindy@contoso.com"
@@ -376,7 +377,7 @@ IVR の質問と応答を呼び出し元の呼び出しには応答エージェ�
 
 4. [**ワークフロー**] ページで、[**ワークフローの作成または編集**] をクリックします。
 
-5. **サービスを選択して**検索フィールドに、作成または変更するワークフローをホストする**アプリケーション サーバー**のサービスの名前のすべてまたは一部を入力します。 サービスの結果一覧で、対象のサービスをクリックして [**OK**] をクリックします。
+5. [**サービスの選択**] 検索フィールドに、作成または変更するワークフローをホストする **ApplicationServer** サービスの名前の全体または一部を入力します。 サービスの結果一覧で、対象のサービスをクリックして [**OK**] をクリックします。
 
     > [!NOTE]
     > 応答グループ構成ツールを開きます。 次の URL を入力して、web ブラウザーから直接応答グループ構成ツールを開くことができますも: https://\<webPoolFqdn\>/RgsConfig。
@@ -439,7 +440,7 @@ IVR の質問と応答を呼び出し元の呼び出しには応答エージェ�
     - 開始メッセージに Wave または Windows Media オーディオ ファイルの録音を使用するには、[**録音を選択する**] をクリックします。新しいオーディオ ファイルをアップロードする場合は、[**録音**] リンクをクリックしてください。新しいブラウザー ウィンドウで [**参照**] をクリックし、使用するオーディオ ファイルを選択して、[**開く**] をクリックします。[**アップロード**] をクリックしてオーディオ ファイルを読み込みます。
 
     > [!NOTE]
-    > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているファイル形式の詳細については、「[Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)」を参照してください。
+    > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。 サポートされているファイル形式の詳細については、「[Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)」を参照してください。
 
 18. [**ステップ 4 営業時間の指定**] の [**タイム ゾーン**] ボックスで、ワークフローのタイム ゾーンをクリックします。
 
@@ -467,12 +468,12 @@ IVR の質問と応答を呼び出し元の呼び出しには応答エージェ�
     - 発信者用に音声に変換されるメッセージをテキストとして入力するには、[**音声合成を使用する**] をクリックして、テキスト ボックスにメッセージを入力します。
 
       > [!NOTE]
-      > 入力するテキストに HTML タグを含めないでください。HTML タグを含めると、エラー メッセージが表示されます。
+      > 入力するテキストに HTML タグを含めないでください。 HTML タグを含めると、エラー メッセージが表示されます。
 
     - メッセージにオーディオ ファイルの録音を使用するには、[**録音を選択する**] をクリックします。新しいオーディオ ファイルをアップロードする場合は、[**録音**] リンクをクリックしてください。新しいブラウザー ウィンドウで [**参照**] をクリックし、使用するファイルを選択して、[**開く**] をクリックします。[**アップロード**] をクリックしてオーディオ ファイルを読み込みます。
 
     > [!NOTE]
-    > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているファイル形式の詳細については、「[Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)」を参照してください。
+    > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。 サポートされているファイル形式の詳細については、「[Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)」を参照してください。
 
 23. メッセージが構成されている場合は、メッセージ再生後の通話の処理方法を次のように指定します。
 
@@ -494,7 +495,7 @@ IVR の質問と応答を呼び出し元の呼び出しには応答エージェ�
     - 発信者用に音声に変換されるメッセージをテキストとして入力するには、[**音声合成を使用する**] をクリックして、テキスト ボックスにメッセージを入力します。
 
       > [!NOTE]
-      > 入力するテキストに HTML タグを含めないでください。HTML タグを含めると、エラー メッセージが表示されます。
+      > 入力するテキストに HTML タグを含めないでください。 HTML タグを含めると、エラー メッセージが表示されます。
 
     - メッセージにオーディオ ファイルの録音を使用するには、[**録音を選択する**] をクリックします。新しいオーディオ ファイルをアップロードする場合は、[**録音**] リンクをクリックしてください。新しいブラウザー ウィンドウで [**参照**] をクリックし、使用するファイルを選択して、[**開く**] をクリックします。[**アップロード**] をクリックしてオーディオ ファイルを読み込みます。
 
@@ -651,7 +652,7 @@ IVR の質問と応答を呼び出し元の呼び出しには応答エージェ�
 
 [セット CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
 
-[New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
+[新しい-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
 
 [新しい-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
 

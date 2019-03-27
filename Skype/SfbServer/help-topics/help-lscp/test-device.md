@@ -1,5 +1,6 @@
 ---
 title: テスト デバイス
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
 description: '[テスト デバイス] ページにテスト デバイスを追加すると、新しい更新プログラムをプロダクション デバイスに展開する前に、このデバイスを使用して更新プログラムの機能を検証できます。 デバイスをグローバルに (環境全体を使用して) テストしたり、単独のサイト内でテストしたりできます。 テスト デバイスは、そのメディア アクセス制御 (MAC) アドレスまたはシリアル番号で識別します。 デバイスを追加するとき、一覧に表示されます、[テスト デバイス] ページで、Skype のビジネス サーバーのコントロール パネルの。'
-ms.openlocfilehash: 4a410a5f82c346d88520e7e56f5bf6bf5150480c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 09a087b9ae370a9ae04265161351df2c32a71d59
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23257109"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888197"
 ---
 # <a name="test-device"></a>テスト デバイス
 
@@ -51,7 +52,7 @@ ms.locfileid: "23257109"
 
 - **更新**テストのすべてのデバイスのオプションの状態を確認するテスト デバイスのリストを更新することができます。
 
-デバイスのテストについての詳細は、操作マニュアルの[更新プログラムの機能をテストするデバイスの追加](https://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx)を参照してください。
+デバイスのテストの詳細については、「操作」のドキュメントの「[Add a Device to Test Update Functionality](https://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx)」を参照してください。
 ## <a name="see-also"></a>関連項目
 
 [テスト デバイス: 新規作成または現在の形式のままで編集](test-device-create-new-or-edit-existing.md)

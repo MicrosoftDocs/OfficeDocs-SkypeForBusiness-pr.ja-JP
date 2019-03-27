@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーに、Skype で会議を計画します。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: '概要: このビジネス サーバーの会議機能、および Skype の機能について説明するを参照できます。'
-ms.openlocfilehash: d1ac78876df97d2420c0951c9c2e1a9a41e451ce
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: cefd631f1750d7eaa4404a2fe2ffa8aa91675824
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375798"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899436"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>ビジネス サーバーに、Skype で会議を計画します。
  
@@ -154,7 +155,7 @@ Skype ビジネス サーバーがサポートできるミーティングのサ�
     
     その場合は、計画ツールまたはトポロジ ビルダーを使用して、フロントエンド プール用に会議を有効にする必要があります。 詳細については、 [Skype のビジネス サーバーの展開の会議](../../deploy/deploy-conferencing/deploy-conferencing.md)を参照してください。
     
-    音声ビデオ会議では、Web 会議 (ドキュメントのコラボレーションやアプリケーション共有を含む) よりも多くのネットワーク帯域幅を使用する必要があります。音声ビデオ会議は有効にせず、Web 会議を有効にする場合は、会議を有効にし、会議ポリシーを使用して音声ビデオ会議を無効にすることができます。
+    音声ビデオ会議では、Web 会議 (ドキュメントのコラボレーションやアプリケーション共有を含む) よりも多くのネットワーク帯域幅を使用する必要があります。 音声ビデオ会議は有効にせず、Web 会議を有効にする場合は、会議を有効にし、会議ポリシーを使用して音声ビデオ会議を無効にすることができます。
     
     電話会議を有効にして、ビデオ会議は無効にする場合は、音声ビデオ会議を有効にし、会議ポリシーを使用してビデオ会議を使用できないようにすることができます。あるいは、音声ビデオ会議を有効にして、特定のユーザーだけが音声ビデオ会議を開始または音声ビデオ会議に参加できるようにすることが可能です。 
     

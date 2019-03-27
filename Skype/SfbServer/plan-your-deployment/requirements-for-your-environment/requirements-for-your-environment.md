@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 環境の要件
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,13 +14,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
-description: '概要: Skype for Business Server 2015 のシステム要件と、ネットワークまたはインフラストラクチャに関する要件を扱ったトピックの概要を示します。Skype for Business Server 2015 をインストールおよび展開するために何かをインストールまたは構成する必要がある場合は、ここで説明します。'
-ms.openlocfilehash: 50844d0ed48604796ca2f9c399408c10291f4c10
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+description: 'システム要件およびビジネス サーバー 2015 の Skype のネットワークやインフラストラクチャの要件に関するトピックの概要: アウトライン。 Skype for Business Server 2015 をインストールおよび展開するために何かをインストールまたは構成する必要がある場合は、ここで説明します。'
+ms.openlocfilehash: e43fc9bda052abc952bf4a4a1a8921b4ab276427
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883902"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895441"
 ---
 # <a name="requirements-for-your-skype-for-business-2015-environment"></a>2015 のビジネス環境について、Skype の要件
  

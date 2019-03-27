@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Cloud Connector エディションの計画
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Skype for Business Cloud Connector エディションについて紹介します。Skype for Business Cloud Connector エディションは、Office 365 の電話システム (クラウド PBX) でのオンプレミスの PSTN 接続を実装する、パッケージ化された仮想マシン (VM) のセットです。
-ms.openlocfilehash: 4d03d8ea6936ad906de01a5b478fce01d62113c4
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.openlocfilehash: da594ba2511b7e3a296eb57b825489305d9473d9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454136"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888753"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Skype for Business Cloud Connector エディションの計画
 
@@ -49,7 +50,7 @@ Cloud Connector はオンプレミスおよびオンラインに存在するユ�
 
 コネクタ Edition のクラウド展開を計画するときは、以下を考慮してください。
 
-- ボイス ・ ソリューションのクラウドを活用するクラウドのコネクタを使用するのには、Office 365 の電話システムを含む、Office 365 テナントにサインアップする必要があります。 まだ Office 365 テナントがない場合は、サインアップ手順をこちらで確認できます: [Office 365 for Business](https://products.office.com/en-us/business/office)。 Skype を含むオンライン ビジネスのプランにサインアップする必要があることに注意してください。
+- ボイス ・ ソリューションのクラウドを活用するクラウドのコネクタを使用するのには、Office 365 の電話システムを含む、Office 365 テナントにサインアップする必要があります。 ここをクリックする方法を学ぶことができる場合は、Office 365 テナントを必要はありません:[ビジネスのための Office 365](https://products.office.com/en-us/business/office)。 Skype を含むオンライン ビジネスのプランにサインアップする必要があることに注意してください。
 
 - ビジネス オンライン サービスは、Skype でクラウドのコネクタのアプライアンスを登録して、さまざまなコマンドレットを実行するには、2.0 およびそれ以降のクラウド コネクタには、ビジネス テナント管理者のアクセス権を Skype で専用の Office 365 アカウントが必要です。 2.0 以前の Cloud Connector のバージョンでは、テナントのグローバル管理者権限がある専用の Office 365 アカウントが必要です。
 
@@ -69,7 +70,7 @@ Cloud Connector はオンプレミスおよびオンラインに存在するユ�
 
 - オーディオ会議ライセンス (または従量割引) もエスカレートされた問題のために必要な。 ビジネス ユーザーは、Skype、外部の PSTN ユーザーからの呼び出しを受け取る必要が場合はその呼び出しを 1 つ以上の参加者を追加するのには (会議の呼び出しをエスカレート)、Microsoft オーディオ会議サービスを使用して、エスカレーションが実行されます。
 
-- Cloud Connector 2.0 以降でメディア バイパスをサポートするようになりました。 メディア バイ パスにより、公衆交換電話網 (PSTN) の次のホップに直接メディアを送信するクライアント-ゲートウェイまたはセッション ボーダー コント ローラー (SBC)-メディアのパスからクラウドのコネクタのエディションのコンポーネントを削除するとします。 詳細については、[クラウドのコネクタのエディションで使用しないメディアの計画](plan-for-media-bypass-in-cloud-connector-edition.md)を参照してください。
+- クラウド コネクタ 2.0 いてここでは後でメディアをサポートします。 メディア バイ パスにより、公衆交換電話網 (PSTN) の次のホップに直接メディアを送信するクライアント-ゲートウェイまたはセッション ボーダー コント ローラー (SBC)-メディアのパスからクラウドのコネクタのエディションのコンポーネントを削除するとします。 詳細については、[クラウドのコネクタのエディションで使用しないメディアの計画](plan-for-media-bypass-in-cloud-connector-edition.md)を参照してください。
 
 - Cloud Connector 2.1 以降では、Operations Management Suite (OMS) を使用して Cloud Connector を監視することがサポートされます。 詳細については、「[Monitor Cloud Connector using Operations Management Suite (OMS)](monitor-cloud-connector-using-operations-management-suite-oms.md)」を参照してください。
 
@@ -249,7 +250,7 @@ Cloud Connector はオンプレミスおよびオンラインに存在するユ�
 
 - 認定済み PBX/トランクまたは認定済み SBC/ゲートウェイ (2 つ以上のゲートウェイを推奨)。
 
-    Cloud Connector は Skype for Business で認証されている同じセッション ボーダー コントローラー (SBC) をサポートします。 詳細については、「[Skype for Business のテレフォニー インフラストラクチャ](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)」をご覧ください。
+    Cloud Connector は Skype for Business で認証されている同じセッション ボーダー コントローラー (SBC) をサポートします。 詳細については、[ビジネスの Skype のテレフォニー インフラストラクチャ](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)を参照してください。
 
 - インストールし、ホスト サーバーに HYPER-V を構成する権限を持つサーバーのローカル管理者アカウントです。 このアカウントには、Hyper-V がインストールおよび構成されるローカル サーバーに対する管理者アクセス許可が必要です。
 
@@ -338,7 +339,7 @@ Cloud Connector はオンプレミスおよびオンラインに存在するユ�
 
 
 
-|**発信元 IP アドレス**|**送信先 IP アドレス**|**発信元ポート**|**送信先ポート**|
+|**発信元 IP アドレス**|**送信先 IP アドレス**|**発信元ポート**|**宛先ポート**|
 |:-----|:-----|:-----|:-----|
 |クラウド仲介のコネクタ コンポーネント  <br/> |SBC/PSTN ゲートウェイ  <br/> |任意  <br/> |TCP 5060\*\*  <br/> |
 |SBC/PSTN ゲートウェイ  <br/> |クラウド仲介のコネクタ コンポーネント  <br/> |任意  <br/> |TCP 5068/TLS 5067  <br/> |
@@ -377,7 +378,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 
 
-|**発信元 IP アドレス**|**送信先 IP アドレス**|**発信元ポート**|**宛先ポート**|
+|**発信元 IP アドレス**|**送信先 IP アドレス**|**送信元ポート**|**宛先ポート**|
 |:-----|:-----|:-----|:-----|
 |任意  <br/> |クラウド コネクタ エッジの外部インターフェイス  <br/> |任意  <br/> |TCP(MTLS) 5061  <br/> |
 |クラウド コネクタ エッジの外部インターフェイス  <br/> |任意   <br/> |任意  <br/> |TCP(MTLS) 5061  <br/> |
@@ -424,7 +425,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 その他の制限ルールが必要な場合は、次のホワイトリストにある URL を参照してください。
 
-- 「[Office 365 URL および IP アドレス範囲](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)」の[証明書失効リストの URL](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
+- [Office 365 の Url と IP アドレスの範囲](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)内には、[証明書失効リストの Url](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)を
 
 - Windows の更新プログラム:[ソフトウェア更新プログラムのファイアウォールを構成する方法](https://technet.microsoft.com/en-us/library/bb693717.aspx)
 
@@ -528,9 +529,9 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 |CABackupFile  <br/> バージョン 2.0 以降  <br/> |ファイルに保存する証明機関サービス、Active Directory サーバーからクラウド コネクタ サイト内の複数のアプライアンスを配置するときに使用されます。 CA バックアップ ファイルを新たに追加されたアプライアンスに正常にインポートするために、1 つの Cloud Connector サイト内のすべてのアプライアンスで同じパスワードを使用するようにしてください。  <br/> ||
 |CCEService  <br/> バージョン 2.0 以降  <br/> |Cloud Connector 管理サービスのために使用されます。Cloud Connector のサイト ディレクトリへのアクセスが必要です。1 つの Cloud Connector のサイト内のすべてのアプライアンスで同じパスワードを使用する必要があります。  <br/> ||
 |Office 365 テナント管理者  <br/> | アカウントは Cloud Connector によって使用され、Cloud Connector のテナント設定を更新および管理します。 <br/>  2.0 以降のバージョン: 専用の Office 365 用の資格情報が Skype でビジネス管理者権限のアカウントです。 <br/>  2.0 以前のバージョン: グローバル テナントの管理者権限がある専用の Office 365 アカウント用の証明書 <br/> ||
-|REFER サポートの有効化  <br/> |IP/PBX にのトランク構成で、SIP REFER サポートが有効と無効のどちらなのかを定義します。 既定値は True です。 IP/PBX ゲートウェイが REFER サポート対応の場合は、True のままにしてください。 非対応の場合は、値を False に変更する必要があります。 ゲートウェイが REFER に対応しているかどうかがわからない場合は、「[認定済み IP-PBX およびゲートウェイ (英語)」(](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)) を参照してください。   <br/> ||
+|REFER サポートの有効化  <br/> |IP/PBX にのトランク構成で、SIP REFER サポートが有効と無効のどちらなのかを定義します。 既定値は True です。 IP/PBX ゲートウェイが REFER サポート対応の場合は、True のままにしてください。 非対応の場合は、値を False に変更する必要があります。 ゲートウェイは、参照をサポートしているかどうかわからない場合は、[修飾の IP Pbx やゲートウェイ](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)を参照してください。   <br/> ||
 |EnableFastFailoverTimer  <br/> バージョン 2.0 以降  <br/> |既定値が"True"、10 秒以内で、ゲートウェイで発信呼び出しに応答しない場合に送信されます次の使用可能なゲートウェイです。追加のトランクがない場合は、呼び出しを自動的に削除されます。  <br/> ただし、ネットワークとゲートウェイの応答が遅い組織や、通話を確立する処理に 10 秒以上かかる場合においては、これにより通話が不必要に切断されてしまうことになる可能性があります。  <br/> アラブ首長国連邦やアフガニスタンなどの一部の国に対する通話を実施する場合、通話を確立する処理は 10 秒以上かかる可能性があります。 同様の問題が発生する場合は、値を False に変更する必要があります。 接続済みの SBC または Gateway 上の該当する設定も忘れずにを変更してください。  <br/> 値は True または False です。既定値は True です。  <br/> ||
-|ForwardCallHistory  <br/> バージョン 2.0 以降  <br/> | このパラメーターは、同時呼び出し、着信転送、通話転送のシナリオでの最初の発信者を報告するために使用される SIP ヘッダーをオンにするために使用されます。パラメーターを True に設定すると、次の 2 つの SIP ヘッダーがオンになります:<br/>  履歴情報 <br/>  参照元 <br/>  履歴情報ヘッダーは SIP 要求を再ターゲットが使用され、"まで、さまざまなネットワークおよびエンド ・ ユーザー用のサービスを有効にする要求の履歴情報を取得するための標準的な機構を provide(s)"([RFC 4244 - セクション 1.1](http://www.ietf.org/rfc/rfc4244.txt))。 Cloud Connector のトランク インターフェイスの場合は、これは同時呼び出しと通話転送のシナリオで使用されます。  <br/>  値は True または False です。既定値は False です。<br/> ||
+|ForwardCallHistory  <br/> バージョン 2.0 以降  <br/> | このパラメーターは、同時呼び出し、着信転送、通話転送のシナリオでの最初の発信者を報告するために使用される SIP ヘッダーをオンにするために使用されます。パラメーターを True に設定すると、次の 2 つの SIP ヘッダーがオンになります:<br/>  履歴情報 <br/>  参照元 <br/>  履歴情報ヘッダーは SIP 要求を再ターゲットが使用され、"まで、さまざまなネットワークおよびエンド ・ ユーザー用のサービスを有効にする要求の履歴情報を取得するための標準的な機構を provide(s)"([RFC 4244 - セクション 1.1](http://www.ietf.org/rfc/rfc4244.txt))。 クラウド コネクタ トランク インターフェイスでは、この処理は、Simulring と転送を呼び出すシナリオで使用されます。  <br/>  値は True または False です。既定値は False です。<br/> ||
 |PAI の転送  <br/> バージョン 2.0 以降  <br/> |PAI は SIP に対するプライベート拡張機能で、SIP サーバーが認証済みユーザーの ID をあさーとすることを可能にします。 SIP トランク プロバイダーの場合、履歴情報ヘッダーと参照元ヘッダーが存在しない場合に、PAI は請求先を指定するために使用される可能性があります。 仲介サーバーが SIP で PAI ヘッダーを転送する構成では、前方 P 側の主張の Id が有効な場合、 &amp; Tel URI の SIP トランクの上に雲のコネクタから。 仲介サーバーの URI を tel で PAI ヘッダーは転送&amp;クラウド コネクタに SIP トランク上のみで受信した E.164 番号です。 仲介サーバーは、いずれの方向においても受信したあらゆるプライバシー ヘッダーも転送します。 フォームでのプライバシーのヘッダーが含まれています、SIP 要求する仲介サーバーによって送信された場合は、"プライバシー: id」PAI ヘッダーと共に、し、アサートされた id おく必要があるプライベート ネットワークの信頼のドメインの外で。  <br/> 値は True または False です。既定値は False です。  <br/> ||
 
 ### <a name="certificate-requirements"></a>証明書の要件
@@ -540,7 +541,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
  **単一の SIP ドメインがある場合は次のとおりです。**
 
-- **オプション 1** サブジェクト名には、エッジ コンポーネントに割り当てたプール名を含める必要があります。 ビジネス エッジ コンポーネントのオンラインの Skype のこの名前が予約されているために、サブジェクト名に sip.sipdomain.com をすることはできませんに注意してください。 SAN には、sip.sipdomain.com とアクセス エッジ プールの名前を含める必要があります。
+- **オプション 1。** サブジェクト名には、エッジ コンポーネントを割り当てられているプールの名前が含まれている必要があります。 ビジネス エッジ コンポーネントのオンラインの Skype のこの名前が予約されているために、サブジェクト名に sip.sipdomain.com をすることはできませんに注意してください。 SAN には、sip.sipdomain.com と、アクセス エッジ プールの名前を含める必要があります。
 
   ```
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain.com,
@@ -563,7 +564,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 すべての SIP ドメインについて sip.sipdomain.com を追加したうえで、ドメインごとにアクセス エッジ プールの名前を追加する必要があります (1 つの物理プールに対して異なる名前を使用できます)。 複数の SIP ドメイン シナリオにおける SN と SAN のエントリの例を次に示します。
 
-- **オプション 1** サブジェクト名には、エッジのコンポーネントについては、割り当てプールの名前を含める必要があります。 ビジネス エッジ コンポーネントのオンラインの Skype のこの名前が予約されているために、サブジェクト名に sip.sipdomain.com をすることはできませんに注意してください。 SAN には、sip.sipdomain.com とアクセス エッジ プールの名前を含める必要があります。
+- **オプション 1。** サブジェクト名には、エッジのコンポーネントについては、割り当てプールの名前を含める必要があります。 ビジネス エッジ コンポーネントのオンラインの Skype のこの名前が予約されているために、サブジェクト名に sip.sipdomain.com をすることはできませんに注意してください。 SAN には、sip.sipdomain.com と、アクセス エッジ プールの名前を含める必要があります。
 
   ```
   SN = accessedgepoolnameforsite1.sipdomain1.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,
@@ -705,11 +706,11 @@ Cloud Connector 2.1 以降では、Operations Management Suite (OMS) を使用�
 
 詳細については、以下を参照してください。
 
-- [マイクロソフトのテレフォニー ソリューション](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Microsoft テレフォニー ソリューション](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
 - [Skype for Business Cloud Connector エディションの構成と管理](configure-skype-for-business-cloud-connector-edition.md)
 
-- [Cloud Connector エディションでのメディア バイパスを計画する](plan-for-media-bypass-in-cloud-connector-edition.md)
+- [Cloud Connector エディションでのメディア バイパスの計画](plan-for-media-bypass-in-cloud-connector-edition.md)
 
 - [Cloud Connector エディションでメディア バイパスを展開する](deploy-media-bypass-in-cloud-connector.md)
 

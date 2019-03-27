@@ -1,5 +1,6 @@
 ---
 title: Business Server に Skype で電話を評価する.
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: '概要: は、ビジネス サーバー用のレート自分を呼び出す機能は、Skype について説明します。'
-ms.openlocfilehash: 3e4e2f63c9d61bacab73838933ef89130714f6f0
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 61aaff26c5786cd8574b7277ed600da75c3679ce
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373474"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886304"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>Business Server に Skype で電話を評価する.
 
@@ -70,7 +71,7 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
 |2  <br/> | ElectronicFeedback <br/> |
 |3  <br/> | BackgroundNoise <br/> |
 |4  <br/> |MuffledSpeech  <br/> |
-|5  <br/> |エコー  <br/> |
+|5  <br/> |Echo  <br/> |
 |21  <br/> | FrozenVideo <br/> |
 |22  <br/> | PixelatedVideo <br/> |
 |23  <br/> | BlurryImage <br/> |

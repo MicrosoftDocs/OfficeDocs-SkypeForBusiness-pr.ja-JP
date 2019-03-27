@@ -1,5 +1,6 @@
 ---
 title: 証明書の割り当て (概要)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e9478bf4-4e1a-46a2-bf76-3ff08a193523
 ROBOTS: NOINDEX, NOFOLLOW
 description: 証明書の割り当てが完了したら、前に割り当てられる証明書の詳細が一覧表示される証明書の割り当ての概要が表示されます。 サブジェクト名とサブジェクト代替名が正しいことを確認する情報を確認します。 証明書の概要を確認したら、次へをクリックします。
-ms.openlocfilehash: 659551b9e8c8d096521554150d60af914900e8e4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4d86ce216ffcd611c303ec721be105c4144a9754
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003015"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885934"
 ---
 # <a name="certificate-assignment-summary"></a>証明書の割り当て (概要)
  

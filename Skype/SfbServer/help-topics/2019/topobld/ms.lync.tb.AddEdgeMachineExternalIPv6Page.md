@@ -1,5 +1,6 @@
 ---
-title: マシン外部 IPv6 のエッジを追加します。
+title: エッジ コンピューターの外部 IPv6 の追加
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: e901509e-f667-41ef-96f5-67251b05a167
 ROBOTS: NOINDEX, NOFOLLOW
 description: 外部の IPv6 アドレスは、アクセス エッジ サービス、Web 会議エッジ サービス、および A を示す外部 IP アドレスを入力または音声ビデオ エッジ サービスです。
-ms.openlocfilehash: 09cdfa8062ffd0716ffa869f0f6f830af457bbdd
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: cf87e6984e855fa31ee27c8dac64d15875dfe758
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21062293"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886988"
 ---
-# <a name="add-edge-machine-external-ipv6"></a>マシン外部 IPv6 のエッジを追加します。
+# <a name="add-edge-machine-external-ipv6"></a>エッジ コンピューターの外部 IPv6 の追加
  
 **外部の IPv6 アドレス**] に、アクセス エッジ サービス、Web 会議エッジ サービス、および A を示す外部 IP アドレスを入力または音声ビデオ エッジ サービスです。
   

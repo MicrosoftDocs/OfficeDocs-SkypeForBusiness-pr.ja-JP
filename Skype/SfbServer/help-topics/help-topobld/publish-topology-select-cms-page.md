@@ -1,5 +1,6 @@
 ---
-title: トポロジの選択の CMS のページを公開します。
+title: トポロジの公開での CMS の選択ページ
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 description: トポロジ ビルダーを使用して構成したトポロジを公開します。 フロント エンド サーバーまたはフロント エンド プールは、中央管理ストアを保持しているの役割を仮定したリストから選択するように求められます。 フロント エンド サーバーまたはフロント エンド プールを 1 つだけでは、任意の時点で、この役割を保持できます。
-ms.openlocfilehash: cc7727ec80ff61bbaebd10ec8fe33ea69c159048
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: a2f37afe8b654562a98255be42b621b1290bbb67
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23257298"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891132"
 ---
-# <a name="publish-topology-select-cms-page"></a>トポロジの選択の CMS のページを公開します。
+# <a name="publish-topology-select-cms-page"></a>トポロジの公開での CMS の選択ページ
 
 トポロジ ビルダーを使用して構成したトポロジを公開します。 フロント エンド サーバーまたはフロント エンド プールは、中央管理ストアを保持しているの役割を仮定したリストから選択するように求められます。 フロント エンド サーバーまたはフロント エンド プールを 1 つだけでは、任意の時点で、この役割を保持できます。
 

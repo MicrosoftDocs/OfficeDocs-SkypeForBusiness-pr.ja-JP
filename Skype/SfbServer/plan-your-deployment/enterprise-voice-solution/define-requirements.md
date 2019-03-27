@@ -1,5 +1,6 @@
 ---
 title: Skype のビジネス サーバーの緊急通報の要件を定義します。
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d891a212-8ad9-4bfa-9ca7-04921c46fb45
 description: ビジネス サーバーのエンタープライズ VoIP の SIP トランク ~ 9-1-1 のサービス プロバイダーまたは ELIN ゲートウェイを使用するかどうかによって Skype で ~ 9-1-1 を有効にするために必要な手順をまとめたものです。
-ms.openlocfilehash: 200e7fc8461f6628ab4827953a274ae8922646b6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 3ddcb25b86689f29831872f24a1893d5ff2f1f4c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882046"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885362"
 ---
 # <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server"></a>Skype のビジネス サーバーの緊急通報の要件を定義します。
  
@@ -37,7 +38,7 @@ Skype ビジネス サーバー ~ 9-1-1 の展開を開始する前にする必�
 |[ビジネス サーバーの Skype 内の場所を手動で取得するためのユーザー エクスペリエンスを定義します。](manually-acquiring-a-location.md) <br/> |[ビジネス サーバーの Skype 内の場所を手動で取得するためのユーザー エクスペリエンスを定義します。](manually-acquiring-a-location.md) <br/> |
 |[~ 9-1-1 では、Skype のビジネス サーバーの SIP トランクを設計します。](design-the-sip-trunk.md) <br/> |[Skype のビジネス サーバーのセキュリティ デスクが含まれます](security-desk.md) <br/> |
 |[Skype のビジネス サーバーのセキュリティ デスクが含まれます](security-desk.md) <br/> |[Skype のビジネスのサーバーの場所のポリシーを計画します。](location-policies.md) <br/> |
-|[ビジネス サーバーの Skype の ~ 9-1-1 サービス プロバイダーを選ぶ](choose-a-service-provider.md) <br/> |[ビジネスのサーバーの場所ポリシーのスコープでは、Skype を割り当てる](location-policy-scope.md) <br/> |
+|[Skype for Business Server の E9-1-1 サービス プロバイダーの選択](choose-a-service-provider.md) <br/> |[ビジネスのサーバーの場所ポリシーのスコープでは、Skype を割り当てる](location-policy-scope.md) <br/> |
 |[Skype のビジネスのサーバーの場所のポリシーを計画します。](location-policies.md) <br/> ||
 |[ビジネスのサーバーの場所ポリシーのスコープでは、Skype を割り当てる](location-policy-scope.md) <br/> ||
    

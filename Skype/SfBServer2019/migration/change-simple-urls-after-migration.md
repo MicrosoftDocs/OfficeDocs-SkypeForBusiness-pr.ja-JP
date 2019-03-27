@@ -1,5 +1,6 @@
 ---
-title: 移行後の簡単な Url の変更
+title: 移行後の簡易 URL の変更
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,22 +9,22 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ビジネス サーバーの Skype では、単純な Url をサポートします。
-ms.openlocfilehash: 71935aab09de1598b355d2a7b27dfa02fd169216
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 02f4cc729a50459a8125e216265b935d557007c6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374991"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892710"
 ---
-# <a name="change-simple-urls-after-migration"></a>移行後の簡単な Url の変更
+# <a name="change-simple-urls-after-migration"></a>移行後の簡易 URL の変更
 
 Skype ビジネス サーバーは、次の 3 つの簡単な Url をサポートしています。
   
 - **対応**は、サイトまたは組織内のすべての会議のベース URL として使用されます。 対応の簡単な URL を使用して会議への参加へのリンクは、簡単に理解するには、簡単に通信して、配布です。 
     
-- **ダイヤルインの**ダイヤルイン会議設定 web ページへのアクセスを有効にします。 ダイヤルインの簡易 URL は、すべての会議への招待に含まれるため、会議にダイヤルインするユーザーは、必要な電話番号および PIN 情報にアクセスできます。 
+- **ダイヤルインの**ダイヤルイン会議設定 web ページへのアクセスを有効にします。 会議にダイヤルインするユーザーが必要な電話番号と暗証番号 (pin) の情報にアクセスできるように、すべての会議出席依頼でダイヤルインの簡単な URL が含まれます。 
     
-- **管理者**は、業務サーバーのコントロール パネルの Skype へのすばやいアクセスを使用できます。 管理の簡易 URL は、組織内部の URL です。 
+- **管理者**は、業務サーバーのコントロール パネルの Skype へのすばやいアクセスを使用できます。 管理の簡単な URL は、組織の内部に。 
     
 に移行した後 Skype ビジネス サーバーの変更に及ぼす影響について、DNS レコードと証明書の簡単な Url に注意が必要です。 従来の Skype ビジネス サーバー ディレクターのトポロジの使用のままになります、簡単な Url への変更の必要はありません。 Skype ビジネス サーバー ディレクターの移行後のトポロジから削除する場合は、ビジネスのサーバー プールの Skype のいずれかを指すように簡単な URL の DNS レコードを更新しなければなりません。 簡単な URL 名を変更するたびに、変更を登録するには各ディレクターおよびフロント エンド サーバーで有効にする CsComputer を実行してください。
 

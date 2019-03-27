@@ -1,5 +1,6 @@
 ---
 title: ネットワークのサブネットを管理します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 呼受付制御 (CAC) が実装されているビジネス サーバーの Skype のほとんどの展開では通常あるサブネットの数が多い。 このため、お勧め多くの場合ビジネス サーバー管理シェルには、Skype からサブネットを構成します。
-ms.openlocfilehash: e855805aebc61228c185d04cba1faa9de6700f84
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 3b61ad1b4e1eb7f11d61b32c15e337bcd4ff77c8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223354"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899751"
 ---
-# <a name="managing-network-subnets-in-skype-for-business-server"></a>ビジネス サーバーの Skype のネットワークのサブネットを管理します。
+# <a name="managing-network-subnets-in-skype-for-business-server"></a>Skype for Business Server でのネットワーク サブネットの管理
 
 ビジネス サーバーのコントロール パネルまたはビジネス サーバー管理シェルの Skype のいずれかの Skype を使用するにはネットワークのサブネットを管理します。 呼受付制御 (CAC) が実装されているビジネス サーバーの Skype のほとんどの展開では通常あるサブネットの数が多い。 このため、お勧め多くの場合ビジネス サーバー管理シェルには、Skype からサブネットを構成します。
 
@@ -90,7 +91,7 @@ Windows PowerShell と Get CsNetworkSubnet コマンドレットを使用して�
 
 8.  (省略可能)表すことのできない、名前だけがこのサブネットの詳細については、[**説明**] フィールドに値を入力します。
 
-9.  [**確定**] をクリックします。
+9.  [**コミット**] をクリックします。
 
 
 ### <a name="to-modify-a-network-subnet"></a>ネットワーク サブネットを変更するのには
@@ -107,7 +108,7 @@ Windows PowerShell と Get CsNetworkSubnet コマンドレットを使用して�
 
 6.  [**サブネットの編集**] ページでは、ビットマスク、関連付けられたネットワーク サイト、または説明を変更できます。 ビットマスクを変更する場合は、サブネット ID がサブネットで定義されている IP アドレスの範囲内の最初のアドレスをする必要がありますまだすることに留意してください。
 
-7.  [**確定**] をクリックします。
+7.  [**コミット**] をクリックします。
 
 ## <a name="delete-network-subnets"></a>ネットワーク サブネットを削除します。
 
@@ -136,10 +137,10 @@ Windows PowerShell と Get CsNetworkSubnet コマンドレットを使用して�
 
 ## <a name="see-also"></a>関連項目
 
-[New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)  
+[新しい-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)  
 
-[Set-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkSubnet)  
+[セット CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkSubnet)  
 
-[Remove-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkSubnet)  
+[削除 CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkSubnet)  
 
 [Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet)  

@@ -1,5 +1,6 @@
 ---
-title: PSTN ゲートウェイの FQDN を定義します。
+title: PSTN ゲートウェイの FQDN の定義
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 ROBOTS: NOINDEX, NOFOLLOW
 description: 公衆交換電話網 (PSTN) ゲートウェイは、PSTN または構内交換 (機 PBX) には、エンタープライズ VoIP コンポーネントを接続するのには、完全修飾ドメイン名 (FQDN) を指定します。
-ms.openlocfilehash: 74c0e117e3ccbdd031839f7ef85ce46b5960e7f0
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 9eff3a2807f026266f5929a62f866be524c2e03a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245762"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890228"
 ---
-# <a name="define-the-pstn-gateway-fqdn"></a>PSTN ゲートウェイの FQDN を定義します。
+# <a name="define-the-pstn-gateway-fqdn"></a>PSTN ゲートウェイの FQDN の定義
 
 公衆交換電話網 (PSTN) ゲートウェイは、PSTN または構内交換 (機 PBX) には、エンタープライズ VoIP コンポーネントを接続するのには、完全修飾ドメイン名 (FQDN) を指定します。
 

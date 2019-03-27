@@ -1,5 +1,6 @@
 ---
-title: Get CcApplianceDirectory
+title: Get-CcApplianceDirectory
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c2fda202-db2f-4122-b630-7df11a697c5f
 description: Get-CcApplianceDirectory コマンドレットは、Skype for Business Cloud Connector エディションのホスト サーバーでの作業ディレクトリを取得します。すべての展開ファイルはこのディレクトリに保存されます。
-ms.openlocfilehash: c5c445e6017d8af81b681b70bbabcf2ba8bedd78
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: bcd80018b2286865945638f66c13e4c5198346dc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891484"
 ---
-# <a name="get-ccappliancedirectory"></a>Get CcApplianceDirectory
+# <a name="get-ccappliancedirectory"></a>Get-CcApplianceDirectory
  
 Get-CcApplianceDirectory コマンドレットは、Skype for Business Cloud Connector エディションのホスト サーバーでの作業ディレクトリを取得します。すべての展開ファイルはこのディレクトリに保存されます。 
   
@@ -61,6 +63,6 @@ Get CcApplianceDirectory コマンドレットは、クラウドのコネクタ�
 ## <a name="see-also"></a>関連項目
 <a name="ReturnTypes"> </a>
 
-[セット CcApplianceDirectory](set-ccappliancedirectory.md)
+[Set-CcApplianceDirectory](set-ccappliancedirectory.md)
   
 

@@ -1,5 +1,6 @@
 ---
 title: Web サービスのセキュリティ設定を新規作成または既存の変更
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eddda5af-ddee-4ded-9c70-a07af0f8d14d
-description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 722873b922714ac41b3454d767d53b1ca163d3d9
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: 4d41c54a0ec68f7facc40a40ced9ca7abdb595ce
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23262366"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887765"
 ---
-# <a name="web-service-security-settings-create-new-or-modify-existing"></a>Web サービスのセキュリティ設定: 新規作成または既存の変更
+# <a name="web-service-security-settings-create-new-or-modify-existing"></a>Web サービスのセキュリティ設定: 新規作成または現在の形式のままで変更
 
-目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 
 - [Skype for Business 2015 での Web サービス構成設定の管理](../../manage/authentication/web-service-configuration-settings.md)
 

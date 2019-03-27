@@ -1,5 +1,6 @@
 ---
 title: 監視対象の Skype for Business Server コンピューターの構成
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b24ea184-4b3e-4277-a244-157afb4b368b
 description: '概要: は、Operations Manager エージェントにファイルをインストール、監視対象サーバー 2015 のビジネス コンピューターの Skype と System Center のプロキシとして動作するコンピューターを構成します。'
-ms.openlocfilehash: 047f362cc799f46a000fb8aa3a314bb189305e2c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 55d862517eeaad6fbfb567fe4327c375fc1ce2e1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23262464"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895021"
 ---
 # <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>監視対象の Skype for Business Server コンピューターの構成
 
@@ -55,7 +56,7 @@ ms.locfileid: "23262464"
 
 11. [**終了**] をクリックします。
 
-System Center 2012 では、 **[スタート] ボタン**、**すべてのプログラム**をクリックすると、 **System Center オペレーション マネージャー 2012**をクリックし、 **2012年マネージャー シェルの操作**によって、エージェントが作成されたことを確認できます。 Operations Manager シェルで、次の Windows PowerShell コマンドを入力し、Enter キーを押します。
+System Center 2012 では、 **[スタート] ボタン**、**すべてのプログラム**をクリックすると、 **System Center オペレーション マネージャー 2012**をクリックし、 **2012年マネージャー シェルの操作**によって、エージェントが作成されたことを確認できます。 In the Operations Manager Shell, type the following Windows PowerShell command, and then press ENTER:
 ```
 Get-SCOMAgent
 ```

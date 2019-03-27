@@ -1,5 +1,6 @@
 ---
 title: ネットワーク インターフェイス情報を表示します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Windows PowerShell と Get CsNetworkInterface コマンドレットを使用して、ネットワーク インターフェイスの情報を表示できます。 ビジネス サーバー管理シェルの Skype とは Windows PowerShell のリモート セッションからは、このコマンドレットを実行することができます。
-ms.openlocfilehash: b3f1217c53176ae2a67ba81893864e1fb3a4e384
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: df4424e33cb42f3c1b2311cc822c762a2c4878f1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222766"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888030"
 ---
 # <a name="viewing-network-interface-information-in-skype-for-business-server"></a>Skype のビジネス サーバーのネットワーク インターフェイス情報を表示します。
 

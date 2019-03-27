@@ -1,5 +1,6 @@
 ---
 title: フェデレーション パートナーの検出の有効化または無効化
+ms.reviewer: ''
 ms:assetid: 91fd036b-b1af-47cf-b1cf-0aa0a783c2aa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182550(v=OCS.15)
 ms:contentKeyID: 48184857
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 時に、エッジ サーバーの展開し、フェデレーションを有効になっている、組織の必要がある指定したフェデレーション パートナー ドメインの自動検出をサポートするかどうか。
-ms.openlocfilehash: afa022ae1a52124c3dabaf788de8308ba9834227
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: de61d8180a8f4e8f8be13abaab3d8911d2c6e22c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222850"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887999"
 ---
 # <a name="enable-or-disable-discovery-of-federation-partners-in-skype-for-business-server"></a>有効にするか、ビジネスのサーバーの Skype でのフェデレーション パートナーの検出を無効にします。
 
@@ -38,7 +39,7 @@ ms.locfileid: "27222850"
 
 5.  **アクセス エッジ構成の編集**、**フェデレーション ユーザーとの通信を有効にする**には、選択またはを有効にするか、パートナー ドメインの自動検出を無効にするには、**パートナー ドメインの検出を有効にする**] チェック ボックスをオフにします。
 
-6.  [**確定**] をクリックします。
+6.  [**コミット**] をクリックします。
 
 フェデレーション ユーザーにビジネスのサーバーの展開に、Skype のユーザーと共同作業を有効にするには、必要がありますもしているフェデレーション ユーザー アクセスをサポートするために少なくとも 1 つの外部アクセス ポリシーです。 詳細については、[有効にするかフェデレーションとパブリック IM 接続を無効にする](enable-or-disable-federation-and-public-im-connectivity.md)を参照してください。 特定のフェデレーション ドメインのアクセスを制御する方法の詳細は、[ドメインをフェデレーションする SIP を管理](../sip-domains/manage-sip-federated-domains-for-your-organization.md)し、[プロバイダーをフェデレーションする SIP の管理](../sip-providers/manage-sip-federated-providers-for-your-organization.md)を参照してください。
 

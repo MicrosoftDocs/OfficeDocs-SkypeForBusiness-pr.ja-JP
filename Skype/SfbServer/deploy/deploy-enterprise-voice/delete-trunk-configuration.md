@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype で SIP トランク構成設定の既存のコレクションを削除します。
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: '概要: ビジネス サーバーのコントロール パネルの Skype を使用してトランク構成設定のコレクションを削除する方法を説明します。'
-ms.openlocfilehash: 27e022588798e848cf690bb643d921e46d827b39
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: da86cbaf45afa47de580c02ab74e3b0b9bb344bf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890538"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890551"
 ---
 # <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>ビジネス サーバーの Skype で SIP トランク構成設定の既存のコレクションを削除します。
  
@@ -52,7 +53,7 @@ SIP トランクの構成では、仲介サーバーと、公衆交換電話網 
     
 5. **Skype**ビジネス サーバーのコントロール パネルのダイアログ ボックスで [ **OK**] をクリックします。
     
-6. 後でコレクションを削除しないことにした場合は、[**コミット**]、[**コミットされていないすべての変更を取り消し**] の順にクリックします。 **Skype**ビジネス サーバーのコントロール パネルのダイアログ ボックスが表示されたら、[ **OK**] をクリックします。
+6. If you change your mind and decide not to delete the collection, click **Commit** and then click **Cancel All Uncommitted Changes**. **Skype**ビジネス サーバーのコントロール パネルのダイアログ ボックスが表示されたら、[ **OK**] をクリックします。
     
 ## <a name="removing-trunk-configuration-settings-by-using-skype-for-business-server-management-shell-cmdlets"></a>Skype ビジネス サーバーの管理シェル コマンドレットを使用してトランク構成設定を削除します。
 

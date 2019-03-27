@@ -1,5 +1,6 @@
 ---
-title: 分岐 Office アプライアンスをフロント エンドに関連付ける
+title: ブランチ オフィス アプライアンスとフロントエンドの関連付け
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,15 +12,15 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 607709a0-1617-44f3-bf68-fec1129250a4
-description: リカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーに関連付けるフロント エンド プールまたは Standard Edition サーバー、フロント エンド プールのページの選択にするには、フロント エンド プール] ドロップダウン リストからフロント エンド プールまたは Standard Edition サーバーを選択します。 [次へ] をクリックして続行します。
-ms.openlocfilehash: 3393990641450e2b84c15fe1c4e55320b674cce1
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: リカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーに関連付けるフロント エンド プールまたは Standard Edition サーバー、フロント エンド プールのページの選択にするには、フロント エンド プール] ドロップダウン リストからフロント エンド プールまたは Standard Edition サーバーを選択します。 [次へ] をクリックします。
+ms.openlocfilehash: a0e5dd9cbc27e7646c6999d2d006bd7c1379fd4b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20979599"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887107"
 ---
-# <a name="associate-branch-office-appliance-with-front-end"></a>分岐 Office アプライアンスをフロント エンドに関連付ける
+# <a name="associate-branch-office-appliance-with-front-end"></a>ブランチ オフィス アプライアンスとフロントエンドの関連付け
  
 リカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーに関連付けるフロント エンド プールまたは Standard Edition サーバー、**フロント エンド プールの選択**] ページで、上に**フロント エンド プール**のフロント エンド プールまたは Standard Edition サーバーを選択します。」ドロップ ダウン リストです。 [**次へ**] をクリックして続行します。
   

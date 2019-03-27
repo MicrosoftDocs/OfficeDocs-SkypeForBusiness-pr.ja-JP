@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype では、SIP トランク サービス プロバイダーの場所を管理します。
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: 意思決定の計画に必要な場所情報のデータベース、または ~ 9-1-1 展開のビジネス サーバーのエンタープライズ VoIP の Skype で、SIP トランキング プロバイダーを使用して、ような外部データベースです。
-ms.openlocfilehash: 5920abd848645354b95c4b9ba2dc9b8a27410ef6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 07b6c95ad36e740d5dec6bb882766f876da52626
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887055"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886040"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>ビジネス サーバーの Skype では、SIP トランク サービス プロバイダーの場所を管理します。
 
 意思決定の計画に必要な場所情報のデータベース、または ~ 9-1-1 展開のビジネス サーバーのエンタープライズ VoIP の Skype で、SIP トランキング プロバイダーを使用して、ような外部データベースです。
 
-Skype ビジネス サーバーでネットワーク内のクライアントを自動的に検索するように構成するのにはネットワーク wiremap に場所情報サービス データベースを設定し、発行場所、または既に含まれている外部データベースへのリンクする必要があります。正しいマッピングします。 このプロセスの一環として、E9-1-1 サービスのサービス プロバイダーで場所の公的アドレスを確認する必要があります。 詳細については、展開に関するドキュメントの[場所データベースの構成](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx)を参照してください。
+Skype ビジネス サーバーでネットワーク内のクライアントを自動的に検索するように構成するのにはネットワーク wiremap に場所情報サービス データベースを設定し、発行場所、または既に含まれている外部データベースへのリンクする必要があります。正しいマッピングします。 このプロセスの一環として、E9-1-1 サービスのサービス プロバイダーで場所の公的アドレスを確認する必要があります。 詳細については、「展開」のドキュメントの「[Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx)」を参照してください。
 
 場所情報サービス データベースに、公的アドレスと建物内の特定のアドレスで構成される緊急応答ロケーション (ERL) を取り込みます。 建物内の特定の場所で、位置情報サービス**の場所**フィールドには、20 の文字 (スペースを含む) の最大の長さがあります。 この制限された長さの中に、以下を含めるようにします。
 
@@ -35,7 +36,7 @@ Skype ビジネス サーバーでネットワーク内のクライアントを�
 - それは、ワイヤレス アクセス ポイントによって決定されるために、場所がおおよそ場合は、 **[付近]** (たとえば、"近くにある 1 階 1234") という単語を追加できます。
 
 > [!NOTE]
-> ビジネス サーバー管理シェル コマンドを Skype を使用して公開およびプールのローカル ストアにレプリケートされるまでにも、中央の場所データベースに追加する場所はクライアントにご利用いただけません。 詳細については、展開に関するドキュメントの[場所のデータベースのパブリッシュ](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx)を参照してください。
+> ビジネス サーバー管理シェル コマンドを Skype を使用して公開およびプールのローカル ストアにレプリケートされるまでにも、中央の場所データベースに追加する場所はクライアントにご利用いただけません。 詳細については、「展開」のドキュメントの「[Publishing the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx)」を参照してください。
 
 以降のセクションでは、場所データベースへのデータの取り込みおよび管理で考慮する必要がある事項について検討します。
 
@@ -53,7 +54,7 @@ Skype ビジネス サーバーでネットワーク内のクライアントを�
 
 位置情報サービスとの統合、サードパーティのデータベースは、Lync Server の場所要求/応答スキーマに従う必要があります。 詳細については、「 [」[MS E911WS]: E911 サポート プロトコル仕様の Web サービス"](https://go.microsoft.com/fwlink/p/?linkid=213819). セカンダリ場所情報サービスの展開に関する詳細情報は、展開に関するドキュメントで[Skype ビジネス サーバーでセカンダリ場所情報サービスの構成](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md)を参照してください。
 
-場所データベースの設定についての詳細は、展開に関するドキュメントの[場所データベースの構成](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx)を参照してください。
+場所データベースへのデータの取り込みの詳細については、「展開」のドキュメントの「[Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx)」を参照してください。
 
 ## <a name="maintaining-the-location-database"></a>場所データベースの管理
 

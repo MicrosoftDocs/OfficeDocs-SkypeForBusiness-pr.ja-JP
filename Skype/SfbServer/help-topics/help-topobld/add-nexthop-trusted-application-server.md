@@ -1,5 +1,6 @@
 ---
-title: 信頼されたアプリケーション サーバーの次ホップを追加します。
+title: 次ホップ信頼済みアプリケーション サーバーの追加
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49c9e65a-ae2d-46fa-a6a2-fff47ed0f3de
 description: 信頼されたアプリケーション サーバーまたはプールの次ホップの宛先を設定するには、次の操作を行います。
-ms.openlocfilehash: 48dd7d025c79b5b342f282eeb2d690bb9eb99d0b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ed2141d8d55a84789a18b70f11f32ce83c07a16a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21004709"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887204"
 ---
-# <a name="add-nexthop-trusted-application-server"></a>信頼されたアプリケーション サーバーの次ホップを追加します。
+# <a name="add-nexthop-trusted-application-server"></a>次ホップ信頼済みアプリケーション サーバーの追加
  
 信頼されたアプリケーション サーバーまたはプールの次ホップの宛先を設定するには、次の操作を行います。
   

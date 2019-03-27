@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype でトランクの新しいコレクションの構成設定を作成します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: SIP トランクの構成設定は、仲介サーバーおよび公衆交換電話網 (PSTN) ゲートウェイ、IP 公開ブランチ交換機 (PBX)、またはサービス プロバイダーのセッション ボーダー コント ローラー (SBC) の間での機能との関係を定義します。
-ms.openlocfilehash: cdf38667d18db3525432fe4e5786481175183a5c
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 86a731c07f3c7289e5eabcd74bb3ccf37ec4df9d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223179"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890452"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>ビジネス サーバーの Skype でトランクの新しいコレクションの構成設定を作成します。
 
@@ -40,11 +41,11 @@ SIP トランクの構成設定は、仲介サーバーおよび公衆交換電�
 |P-Asserted-Identity データの転送を有効にする|ForwardPAI|P-Asserted-Identity (PAI) ヘッダーを通話とともに転送するかどうかを示します。PAI ヘッダーがあれば、発信者 ID を確認できます。|
 |送信ルーティング フェールオーバー タイマーを有効にする|EnableFastFailoverTimer|発信通話が 10 秒以内にゲートウェイによって応答されない場合に次に使用できるトランクにルーティングするかどうかを示します。他にトランクがない場合は、通話は自動的に破棄されます。ネットワークおよびゲートウェイの応答が遅い環境の場合、通話が不必要に破棄されるようになる可能性があります。|
 |関連付けられている PSTN 使用法|PSTNUsages|トランクに割り当てられた PSTN 使用法のコレクションです。|
-|テストする変換後の番号|該当なし|トランクの構成設定の臨時テストを行うために使用できる電話番号です。|
+|テストする変換後の番号|N/A|トランクの構成設定の臨時テストを行うために使用できる電話番号です。|
 |関連付けられている変換ルール|OutboundTranslationRulesList|発信ルーティングによって処理される通話 (PBX または PSTN の宛先にルーティングされる通話) に適用される、電話番号変換ルールのコレクションです。|
 |着信者番号の変換ルール|OutboundCallingNumberTranslationRulesList|トランクに割り当てられた発信電話番号の変換ルールのコレクションです。|
-|テストする電話番号|該当なし|変換ルールの臨時テストを行うために使用できる電話番号です。|
-|発信者番号|該当なし|変換ルールの臨時テストを行うために使用できる電話番号です。|
+|テストする電話番号|N/A|変換ルールの臨時テストを行うために使用できる電話番号です。|
+|発信者番号|N/A|変換ルールの臨時テストを行うために使用できる電話番号です。|
 |着信者番号|該当なし|テストする電話番号が着信者の電話番号であることを示します。|
 ||||
 

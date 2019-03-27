@@ -1,5 +1,6 @@
 ---
-title: 追加の A/V MCU のプール
+title: 音声ビデオ MCU プールの追加
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 ROBOTS: NOINDEX, NOFOLLOW
 description: すべてエンタープライズ エディション フロント エンド サーバーのセントラル サイトに配置されている必要はありませんが A V 会議サービスの使用同じスタンドアロン A/V 会議のプールです。 各 A の V 会議のプール、プールおよび A は 1 つだけ必要があるかどうかの完全修飾ドメイン名 (FQDN) を指定する必要があります V 会議サーバーまたは複数の負荷分散/A/V 会議サーバーです。
-ms.openlocfilehash: c58d2e405d642209f91e38d98d5c6cbef924cd2e
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: f88476165ce6affe23e9e5cbb33e03a997c04971
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060089"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888134"
 ---
-# <a name="add-av-mcu-pool"></a>追加の A/V MCU のプール
+# <a name="add-av-mcu-pool"></a>音声ビデオ MCU プールの追加
  
 すべてエンタープライズ エディション フロント エンド サーバーのセントラル サイトに配置されている必要はありませんが A V 会議サービスの使用同じスタンドアロン A/V 会議のプールです。 各 A の V 会議のプール、プールおよび A は 1 つだけ必要があるかどうかの完全修飾ドメイン名 (FQDN) を指定する必要があります V 会議サーバーまたは複数の負荷分散/A/V 会議サーバーです。
   

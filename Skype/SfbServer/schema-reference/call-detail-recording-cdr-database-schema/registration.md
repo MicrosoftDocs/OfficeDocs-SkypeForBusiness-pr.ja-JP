@@ -1,5 +1,6 @@
 ---
 title: Registration テーブル
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05ff9dd3-1aaa-4af0-bd69-8789fb8eaeb3
 description: 各レコードは、ユーザー登録の 1 つのイベントを表します。
-ms.openlocfilehash: 87a05d49c9dbf723203bf8efe02dee7cd16550a3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1dd8f623799753e078d112d08de960076618dfac
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885684"
 ---
 # <a name="registration-table"></a>Registration テーブル
  
 各レコードは、ユーザー登録の 1 つのイベントを表します。
   
-|**列**|**データ型**|**キーまたはインデックス**|**詳細**|
+|**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |プライマリ サーバーで、外部  <br/> |セッションの要求の時間です。 セッションを一意に識別するのには**SessionIdSeq**と組み合わせてを使用します。 [Skype のビジネス サーバー 2015 のテーブル」ダイアログ ボックス](dialogs.md)の詳細についてを参照してください。 <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |プライマリ サーバーで、外部  <br/> |セッションを識別する ID 番号。 セッションを一意に識別するのには**SessionIdTime**と組み合わせてを使用します。 [Skype のビジネス サーバー 2015 のテーブル」ダイアログ ボックス](dialogs.md)の詳細についてを参照してください。 <br/> |
@@ -41,7 +43,7 @@ ms.lasthandoff: 03/28/2018
 |**DiagnosticId** <br/> |int  <br/> ||Register 要求の ID を診断します。 その診断情報の種類を示します。  <br/> |
 |**DeviceId** <br/> |int  <br/> |外部  <br/> |登録要求を取得しているデバイスです。 [ビジネス サーバー 2015 の Skype でデバイス ・ テーブル](devices.md)の詳細についてを参照してください。 <br/> |
 |**DeRegisterTypeId** <br/> |tinyint  <br/> |外部  <br/> |De-register、'ユーザーが開始'、'登録の期限が切れて'、'クライアントの失敗' などの理由です。 詳細については、 [Skype のビジネス サーバー 2015 で DeRegisterType テーブル](deregistertype.md)を参照してください。 <br/> |
-|**Ip アドレス** <br/> |nvarchar(256)  <br/> ||エンドポイントに登録されているユーザーの IP アドレスです。 IPv4 アドレスまたは IPv6 アドレスを指定できます。  <br/> このフィールドは、Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**IPAddress** <br/> |nvarchar(256)  <br/> ||エンドポイントに登録されているユーザーの IP アドレスです。 IPv4 アドレスまたは IPv6 アドレスを指定できます。  <br/> このフィールドは、Microsoft Lync Server 2013 で導入されました。  <br/> |
 |**LastModifiedTime** <br/> |日付時刻  <br/> ||監視サービスによって内部で使用します。  <br/> このフィールドは、ビジネス サーバー 2015 の Skype で導入されました。  <br/> |
    
 

@@ -17,13 +17,13 @@ appliesto:
 localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
-description: マイクロソフトのチームでのリソースのアカウントを管理します。
-ms.openlocfilehash: dad2ea10f2dbdeb387a74d01fd48ca6de9805a5a
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+description: マイクロソフトのチーム内のリソース アカウントの管理についてください。
+ms.openlocfilehash: ad435a812191cc8f7b9061ac5fba2bbe626b908e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633251"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886062"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 
@@ -38,13 +38,14 @@ ms.locfileid: "30633251"
 
 開始することに注意することが重要。
   
-- 組織は、エンタープライズの E3 と**電話システム**のライセンスまたはエンタープライズ E5 のライセンス (最低) が必要です。 キュー] または [自動応答の呼び出しに割り当てられているリソース アカウントに使用する利用可能なサービス番号の番号を割り当てられている**電話システム**のユーザー ライセンスの数に影響します。 リソース アカウントを持つことができますの数は、組織に割り当てられている**電話システム**および**オーディオ会議**のライセンスの数に依存します。 ライセンスに関する詳細については、[マイクロソフトのチームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
+- 電話システムのライセンスを割り当てる、自動アテンダントまたは呼び出しキューに関連付けられますリソース アカウントにする必要があります。 ライセンスに関する詳細については、[マイクロソフトのチームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
+    
 
     > [!NOTE]
     > オンラインにいる人が、組織内への呼び出しをリダイレクトするには、エンタープライズ VoIP を有効にするし、Office 365 のプランを呼び出すことがある、**電話システム**のライセンスが必要です。 [マイクロソフトのチームを割り当てるライセンス](assign-teams-licenses.md)を参照してください。 エンタープライズ VoIP を有効にするには、Windows PowerShell を使用できます。 たとえば、次を実行します。
   
-- Office 365 のプランを呼び出す方法の詳細については、 [Office 365 のプランを呼び出す](calling-plans-for-office-365.md)を参照してください。
-- 有料電話番号と**マイクロソフトのチーム管理センター**でまたは別のサービス プロバイダーからリソースのアカウントに転送する電話番号をフリー ダイヤル サービスをのみ割り当てることができます。 取得し、サービスのフリー ダイヤル番号を使用して、通信のクレジットを設定する必要があります。
+- リソース アカウントに直接ルーティング ハイブリッドの番号を割り当てることができます。  詳細については、[直接ルーティングの計画](direct-routing-plan.md)を参照してください。
+- マイクロソフトの通話プランの有料電話番号と**マイクロソフトのチーム管理センター**でまたは別のサービス プロバイダーからリソースのアカウントに転送する電話番号をフリー ダイヤル サービスをのみ割り当てることができます。 取得し、サービスのフリー ダイヤル番号を使用して、通信のクレジットを設定する必要があります。
 
 > [!NOTE]
 > (サブスクライバー) をユーザーの電話番号は、リソース アカウントに割り当てることができません。 サービスの有料または無料の電話番号のみを使用することができます。
@@ -66,19 +67,22 @@ ms.locfileid: "30633251"
 リソース アカウントを作成するオンライン環境例は、次のようにします。
 
 ``` Powershell
-New-CsOnlineApplicationInstance -DisplayName Node1 -SipAddress sip:node1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
+New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
+$resacct=Get-MsolUser -UserPrincipalName testra1@contoso.com
 ```
 
 このコマンドの詳細については、[新規 CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)を参照してください。
 
 > [!NOTE]
-> 次のセクションで説明したように、マイクロソフトのチーム管理センターを使用して電話番号を設定するのには最も簡単です。 使用することも、`Set-CsOnlineApplicationInstance`コマンドを割り当てるリソース アカウントに電話番号の最初の作成にようにします。
+> 次のセクションで説明したように、マイクロソフトのチーム管理センターを使用してオンラインの電話番号を設定するのには最も簡単です。 使用することも、`Set-CsOnlineVoiceApplicationInstance`コマンドを割り当てるリソース アカウントに電話番号の最初の作成にようにします。
 
 ``` Powershell
-Set-CsOnlineApplicationInstance -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3820},OU=Redmond,DC=litwareinc,DC=com" -DisplayName Node1 -LineURI tel:+14255550100
+Set-CsOnlineVoiceApplicationInstance -Identity $resacct.ObjectId
+ -TelephoneNumber +14255550100
+Get-CsOnlineTelephoneNumber -TelephoneNumber 19294450177
 ```
 
-このコマンドの詳細については、[一連の CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlineapplicationinstance?view=skype-ps)を参照してください。
+このコマンドの詳細については、[一連の CsOnlineVoiceApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceapplicationinstance?view=skype-ps)を参照してください。
 
 ## <a name="manage-resource-account-settings-in-microsoft-teams-admin-center"></a>マイクロソフトのチーム管理センターのリソース アカウントの設定を管理します。
 

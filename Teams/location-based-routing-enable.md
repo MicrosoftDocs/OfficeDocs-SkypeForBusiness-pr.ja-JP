@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 809e48e4a770906b93642356cc5f37fd03c411c4
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e68b239d00e67d942f80a259facb87c80ddf2a55
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460333"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886033"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>ダイレクト ルーティングの場所に基づくルーティングを有効にする
 
@@ -39,7 +39,7 @@ ms.locfileid: "30460333"
 
 ## <a name="enable-location-based-routing-for-users"></a>ユーザーの場所ベースのルーティングを有効にします。
 
-1. 使用して、``Set-CsOnlinePstnUsages``コマンドレットは PSTN の使用法を設定します。 複数の使用状況を毎回使用をカンマで区切ります。
+1. [セット CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps)コマンドレットを使用すると、PSTN の使用法を設定できます。 複数の使用状況を毎回使用をカンマで区切ります。
 
     ```
     Set-CsOnlinePstnUsage -Usage <usages> 
@@ -48,7 +48,7 @@ ms.locfileid: "30460333"
     ```
     Set-CsOnlinePstnUsage -Usage "Long Distance", "Local", "Internal" 
     ```
-2. 使用して、``New-CsOnlineVoiceRoutingPolicy``にユーザーを関連付ける適切な PSTN 使用法の音声ルーティング ポリシーを作成するコマンドレットです。
+2. ユーザーを関連付ける適切な PSTN 使用法の音声ルーティング ポリシーを作成するのにには、[新規 CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps)コマンドレットを使用します。
 
     ```
     New-CsOnlineVoiceRoutingPolicy -Identity <voice routing policy ID> -Description <voice routing policy name> -OnlinePstnUsages <usages> 
@@ -71,13 +71,12 @@ ms.locfileid: "30460333"
     |オンラインでのボイス ポリシー ID   |デリー オンライン音声ルーティング ポリシー   |Hyderabad のオンラインの音声ルーティング ポリシー    |
     |オンラインの PSTN 使用法  |市外通話  |長い距離、ローカルな内部  |
 
-    詳細については、[新規 CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy)を参照してください。
-3. 使用して、``Grant-CsOnlineVoiceRoutingPolicy``オンラインに関連付けるには、コマンドレットの音声ルーティング ポリシーを適用するルーティングの制限を必要とするユーザーです。
+3. [許可 CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps)コマンドレットを使用して、オンライン音声ルーティング ポリシーの適用するルーティングの制限を必要とするユーザーを関連付けます。
     ```
     Grant-CsOnlineVoiceRoutingPolicy -Identity <User> -Tenant <TenantId>
     ```
 ## <a name="enable-location-based-routing-for-network-sites"></a>ネットワークのサイトの場所ベースのルーティングを有効にします。
-1.  使用して、``Set-CsTenantNetworkSite``コマンドレットには、場所ベースのルーティングを有効にして、関連付けの音声ルーティング ポリシー、ルーティングの制限を適用する必要があるネットワーク サイトです。
+1.  場所ベースのルーティングを有効にして、ルーティングの制限を適用する必要があるネットワーク サイトの音声ルーティング ポリシーを関連付けるには、[セット CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps)コマンドレットを使用します。
     ```
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
@@ -97,7 +96,7 @@ ms.locfileid: "30460333"
     |サブネット     |サブネット 1 (デリー)     |サブネット 2 (Hyderabad)     |
 
 ## <a name="enable-location-based-routing-for-gateways"></a>ゲートウェイの場所ベースのルーティングを有効にします。
-1. 使用して、``New-CsOnlinePstnGateway``ゲートウェイ、またはネットワークの各サイトのゲートウェイの構成を作成するコマンドレットです。 
+1. [新規 CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps)コマンドレットを使用すると、ゲートウェイ、またはネットワークの各サイトのゲートウェイの構成を作成できます。 
 
     ```
     New-CSOnlinePSTNGateway -Fqdn <FDQN registered for the SBC> -Identity <gateway configuration ID> -SipSignallingPort <listening port used> -Enabled $true 
@@ -110,7 +109,7 @@ ms.locfileid: "30460333"
     ```
     詳細については、[直接ルーティングの構成](direct-routing-configure.md)を参照してください。
     
-2. 使用して、 ``Set-CSOnlinePSTNGateway`` 、ルーティングの制限を適用する必要があるゲートウェイの場所ベースのルーティングを有効にするコマンドレットです。 
+2. [セット CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway?view=skype-ps)コマンドレットを使用して、ルーティングの制限を適用する必要がある、ゲートウェイの場所ベースのルーティングを有効にします。 
 
     呼び出しをルーティングするゲートウェイに場所ベースのルーティングを有効にする PSTN ゲートウェイが PSTN への呼び出しをルーティングし、ゲートウェイが配置されているネットワーク サイトに関連付けることにします。
 
@@ -152,7 +151,7 @@ ms.locfileid: "30460333"
 
 特定のユーザーの場所ベースのルーティングを適用するには、PTSN の有料電話を防ぐために、ユーザーの音声ポリシーを設定をバイパスします。 
 
-使用、``Grant-CsTeamsCallingPolicy``の場所ベースの PSTN 通話を防止することでルーティングを有効にするコマンドレットをバイパスします。
+[許可 CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps)コマンドレットを使用して、場所ベースの PSTN 電話使用しないようにすることでルーティングを有効にします。
 
 ```
 Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 
@@ -163,7 +162,7 @@ Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id>
 Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
 ```
 
-### <a name="related-topics"></a>関連トピック
+### <a name="related-topics"></a>関連項目
 - [ダイレクト ルーティングの場所に基づくルーティングを計画する](location-based-routing-plan.md)
 - [場所に基づくルーティングのネットワーク設定を構成する](location-based-routing-configure-network-settings.md)
 - [場所に基づくルーティングの用語集](location-based-routing-terminology.md)

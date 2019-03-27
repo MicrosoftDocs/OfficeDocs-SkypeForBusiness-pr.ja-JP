@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバー 2015 の Skype での ErrorDef テーブル
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6acf3b86-da61-4923-9812-300db6f66dec
 description: ErrorDef テーブルでは、発生するエラーの種類に関する情報を格納します。 各レコードは、1 つの種類のエラーです。
-ms.openlocfilehash: 4583e1130d257a99d075f2dec0dea80ee6b1390c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: cec601dad24dda522477bfcd7b1e80d0efc45799
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899068"
 ---
 # <a name="errordef-table-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype での ErrorDef テーブル
  
 ErrorDef テーブルでは、発生するエラーの種類に関する情報を格納します。 各レコードは、1 つの種類のエラーです。
   
-|**列**|**データ型**|**キーまたはインデックス**|**詳細**|
+|**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |**ErrorId** <br/> |int  <br/> |Primary  <br/> |この種類のエラーを識別する一意の ID 番号です。  <br/> |
 |**ResponseCode** <br/> |int  <br/> | <br/> |このエラーに関連付けられている標準の SIP 応答コード。  <br/> |

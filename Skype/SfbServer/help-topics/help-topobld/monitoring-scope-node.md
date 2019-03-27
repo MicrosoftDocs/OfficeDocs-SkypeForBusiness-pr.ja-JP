@@ -1,5 +1,6 @@
 ---
 title: 監視のスコープ ノード
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 description: Lync Server 2013 トポロジ ビルダーでは、ツールバーの [操作] をクリックしてまたは [操作] ウィンドウで、タスクをクリックすると、コンソール ツリーで、監視を実行するサーバーを右クリックしていずれかの監視を実行している個々 のサーバーに関連するタスクを実行でき、監視を実行するサーバーのオプションを次のいずれかをクリックします。
-ms.openlocfilehash: f1e59900993444218df820f81668c1c6d4762162
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: cbefbef6872daeaadbf4972cafb440b58270622c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892173"
 ---
 # <a name="monitoring-scope-node"></a>監視のスコープ ノード
  

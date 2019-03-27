@@ -1,5 +1,6 @@
 ---
 title: 証明書の要求、インストール、または割り当て
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 332ec40f-78be-440a-8c1d-ada6114897db
 ROBOTS: NOINDEX, NOFOLLOW
 description: '手順 3: を要求するには、インストールまたは実行をクリックすると、証明書ウィザードで証明書の開始を割り当てます。 ウィザードで構成されている証明書は、ビジネスのサーバー トポロジが構成され、中央管理ストアにトポロジ ビルダーによって公開されるため、Skype の定義に基づいています。 を組織内のオンライン証明機関 (CA) の証明書ウィザードを正常に実行するには、コンピューターのローカル管理者グループのメンバーであるユーザーとしてコンピューターにログオンしている必要があります。 コンピューターと CA が存在するドメインで認証されたドメイン ユーザーである必要があります。 証明書ウィザードでは、組織の CA にアクセスするための代替の資格情報を指定する機能を提供します。'
-ms.openlocfilehash: cf61a6e2c065ea01e18ae5935c3b4e0e49d9ea36
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c281855a786a7f497b39515711bd8af36b3a62b2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966216"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893077"
 ---
 # <a name="request-install-or-assign-certificates"></a>証明書の要求、インストール、または割り当て
  

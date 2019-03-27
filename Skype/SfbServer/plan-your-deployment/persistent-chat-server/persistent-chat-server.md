@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 の常設チャット サーバーの計画
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
 description: '概要: ビジネス サーバー 2015 に Skype での永続的なチャット サーバーを計画する方法については、このトピックを読みます。'
-ms.openlocfilehash: f4d3378de2c2854141d358eaaff7d6c9c6ceba07
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9e78935393eb01b5bb79bb71a167df9cd6a60aa9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20996630"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892484"
 ---
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の常設チャット サーバーの計画
  

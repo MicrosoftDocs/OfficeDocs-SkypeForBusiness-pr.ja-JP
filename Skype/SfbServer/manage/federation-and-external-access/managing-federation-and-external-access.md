@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ビジネス サーバーのフェデレーションと Skype への外部アクセスの管理'
+ms.reviewer: ''
 ms:assetid: 26f806c1-f284-4637-b06b-06270336c540
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520966(v=OCS.15)
 ms:contentKeyID: 48183665
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 有効にして、サポートされている外部ユーザーがビジネスのサーバーのユーザーの内部の Skype で共同作業を行うかどうか、外部ユーザー コントロールへのアクセスを構成します。
-ms.openlocfilehash: bc96f0d221071393b6c9ef7b7279159fdaa4468f
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: c48914ca6dc7faf03fea1a3877bd2e349e39e290
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223123"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887859"
 ---
 # <a name="managing-federation-and-external-access-to-skype-for-business-server"></a>ビジネス サーバーのフェデレーションと Skype への外部アクセスを管理します。
 

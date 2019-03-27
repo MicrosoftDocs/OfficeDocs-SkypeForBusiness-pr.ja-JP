@@ -1,5 +1,6 @@
 ---
 title: 作成またはビジネス用の Skype でキューを変更します。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: 作成またはビジネス サーバーのエンタープライズ VoIP の Skype での応答グループ キューを変更します。
-ms.openlocfilehash: a77940bae3dd720594619ebffc1858dae2a161ba
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d564a40f8e650042fe23ff1db6262c6d1c5b93a1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374516"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895514"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>作成またはビジネス用の Skype でキューを変更します。
  
@@ -41,7 +42,7 @@ ms.locfileid: "25374516"
     
 4. [**キュー**] ページで、次のいずれかの操作を実行します。
     
-   - 新しいキューを作成するには、[**新規作成**] をクリックします。 ] で**サービスを選択して**、先**のアプリケーション サーバー**のサービスの名前の種類の一部またはすべては、検索フィールドに、キューを追加します。 表示されたサービスの一覧で、目的のサービスをクリックし、[**OK**] をクリックします。
+   - 新しいキューを作成するには、[**新規作成**] をクリックします。 [**サービスの選択**] の検索フィールドに、キューを追加する **ApplicationServer** サービスの名前の一部またはすべてを入力します。 表示されたサービスの一覧で、目的のサービスをクリックし、[**OK**] をクリックします。
     
    - 既存のキューを変更するには、キューの名前または名前の一部を検索フィールドに入力します。結果のキューの一覧で、対象のキューをクリックし、[**編集**]、[**詳細の表示**] の順にクリックします。
     
@@ -111,14 +112,14 @@ ms.locfileid: "25374516"
    $promptTO = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
    ```
 
-   例:
+   次に例を示します。
     
    ```
    "All agents are currently busy. Please call back later."
    ```
 
    > [!NOTE]
-   > プロンプトのオーディオ ファイルを使用するには、**インポート CsRgsAudioFile**コマンドレットを使用します。 詳細については、[インポートの CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)を参照してください。 
+   > プロンプトにオーディオ ファイルを使用するには、 **Import-CsRgsAudioFile** コマンドレットを使用します。 詳細については、[インポートの CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)を参照してください。 
   
 4. キューのタイムアウトしきい値に達したときに実行されるアクションを定義し、変数に格納します。コマンド ラインで、次のコマンドを実行します。
     
@@ -129,7 +130,7 @@ ms.locfileid: "25374516"
    > [!NOTE]
    > 実行可能なアクションとその構文の詳細については、[新規 CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)を参照してください。 
   
-    例:
+    次に例を示します。
     
    ```
    $action = New-CsRgsCallAction -Prompt $promptTO -Action Terminate
@@ -141,14 +142,14 @@ ms.locfileid: "25374516"
    $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
    ```
 
-   例:
+   次に例を示します。
     
    ```
    $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
    ```
 
       > [!NOTE]
-      > プロンプトのオーディオ ファイルを使用するには、**インポート CsRgsAudioFile**コマンドレットを使用します。 詳細については、[インポートの CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)を参照してください。 
+      > プロンプトにオーディオ ファイルを使用するには、 **Import-CsRgsAudioFile** コマンドレットを使用します。 詳細については、[インポートの CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)を参照してください。 
   
 6. キューのオーバーフローしきい値に達したときに実行されるアクションを定義し、変数に格納します。コマンド ラインで、次のコマンドを実行します。
     
@@ -159,7 +160,7 @@ ms.locfileid: "25374516"
     > [!NOTE]
     > 実行可能なアクションとその構文の詳細については、[新規 CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)を参照してください。 
   
-    例:
+    次に例を示します。
     
    ```
    $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate

@@ -1,5 +1,6 @@
 ---
-title: バックアップ CcCertificationAuthority
+title: Backup-CcCertificationAuthority
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 47ed4559-fb63-42cd-8ecd-b7d1617e91d3
 description: Backup-CcCertificationAuthority コマンドレットは、Skype for Business Cloud Connector エディションの証明機関サービスをファイルにバックアップして、サイト共有ディレクトリの下にある CA フォルダーに保存します。
-ms.openlocfilehash: b3cb566dc72b3966eaa1480f3e17e4d6b46c06a2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 2f85a4da58a586852b3331f1f8e482ee17e29e02
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886501"
 ---
-# <a name="backup-cccertificationauthority"></a>バックアップ CcCertificationAuthority
+# <a name="backup-cccertificationauthority"></a>Backup-CcCertificationAuthority
  
 Backup-CcCertificationAuthority コマンドレットは、Skype for Business Cloud Connector エディションの証明機関サービスをファイルにバックアップして、サイト共有ディレクトリの下にある CA フォルダーに保存します。
   
@@ -57,6 +59,6 @@ Backup-CcCertificationAuthority
 ## <a name="see-also"></a>関連項目
 <a name="ReturnTypes"> </a>
 
-[削除 CcCertificationAuthorityFile](remove-cccertificationauthorityfile.md)
+[Remove-CcCertificationAuthorityFile](remove-cccertificationauthorityfile.md)
   
 

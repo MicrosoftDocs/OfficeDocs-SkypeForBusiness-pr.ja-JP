@@ -1,5 +1,6 @@
 ---
 title: ブランチ オフィス アプライアンス全般設定エキスパンダー
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 既存のリカバリ性に優れたブランチ アプライアンスまたは存続可能ブランチ サーバーの設定を編集するのには次のセクションが表示されます。
-ms.openlocfilehash: 4d394a0904d0e623708439d3c87a98284b109fc5
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 336d64edfac0bda730a289284075267d7e7984d5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255075"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884944"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>ブランチ オフィス アプライアンス全般設定エキスパンダー
 

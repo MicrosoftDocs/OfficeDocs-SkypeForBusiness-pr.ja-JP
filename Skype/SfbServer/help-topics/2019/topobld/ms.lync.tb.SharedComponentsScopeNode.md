@@ -1,5 +1,6 @@
 ---
 title: 共有コンポーネント スコープ ノード
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 右クリックする共有コンポーネントに新規の共有コンポーネントを作成するか、トポロジ レベルのオプションにアクセスする、トポロジ ビルダーの階層ツリーです。
-ms.openlocfilehash: 36395e21e3b697c5fc881223a223c70e32e10386
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 68b11a03edb129c0249f3a8816e44eea065a69f3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060156"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893091"
 ---
 # <a name="shared-components-scope-node"></a>共有コンポーネント スコープ ノード
  

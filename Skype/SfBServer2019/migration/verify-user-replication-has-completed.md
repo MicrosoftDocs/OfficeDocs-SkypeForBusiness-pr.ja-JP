@@ -1,5 +1,6 @@
 ---
-title: ユーザーの複製が完了したことを確認します。
+title: ユーザー レプリケーションの完了の確認
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 移動 CsUser コマンドレットを実行するときの最初のレプリケーションは完全ではありませんので、ユーザー情報を Active Directory ドメイン サービス (AD DS) とデータベースのビジネス サーバー 2019 Skype との間はとれていないため障害が発生した可能性があります。 サーバー 2019 ユーザー レプリケーターのビジネス サービスの初期同期のための Skype が正常に完了にかかる時間は、ビジネスの Skype をホストしている Active Directory フォレスト内でホストされているドメイン コント ローラーの数によって異なります。サーバー 2019年プールです。 サーバー 2019 ユーザー レプリケーターのビジネス サービスの初期同期プロセスの Skype は、ビジネス 2019 フロント エンド サーバーの Skype が最初に起動したときに発生します。 その後は、同期は、ユーザー レプリケーター間隔をに基づいてください。 移動 CsUser コマンドレットを実行する前にユーザーの複製が完了していることを確認するのには次の手順を完了します。
-ms.openlocfilehash: 43b2822303676d209dc14a3b2e06368a7d24e174
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: bab54e91ebda7a10804980e368e05bb58ff911ff
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027845"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889509"
 ---
-# <a name="verify-user-replication-has-completed"></a>ユーザーの複製が完了したことを確認します。
+# <a name="verify-user-replication-has-completed"></a>ユーザー レプリケーションの完了の確認
 
 **移動 CsUser**コマンドレットを実行するときの最初のレプリケーションは完全ではありませんので、ユーザー情報を Active Directory ドメイン サービス (AD DS) とデータベースのビジネス サーバー 2019 Skype との間はとれていない場合は、障害が発生した可能性があります。 サーバー 2019 ユーザー レプリケーターのビジネス サービスの初期同期のための Skype が正常に完了にかかる時間は、ビジネスの Skype をホストしている Active Directory フォレスト内でホストされているドメイン コント ローラーの数によって異なります。サーバー 2019年プールです。 サーバー 2019 ユーザー レプリケーターのビジネス サービスの初期同期プロセスの Skype は、ビジネス 2019 フロント エンド サーバーの Skype が最初に起動したときに発生します。 その後は、同期は、ユーザー レプリケーターの間隔に基づいています。 **移動 CsUser**コマンドレットを実行する前に、ユーザー レプリケーションが完了することを確認するのには次の手順を完了します。 
   

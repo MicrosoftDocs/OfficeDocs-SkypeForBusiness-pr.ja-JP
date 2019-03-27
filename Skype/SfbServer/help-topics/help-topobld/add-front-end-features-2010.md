@@ -1,5 +1,6 @@
 ---
-title: 2010 のフロント エンド機能を追加します。
+title: フロントエンドの機能の追加 (2010)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d0bf5b86-51dc-41d4-aa61-303f81e05c66
 description: フロント エンド プールを有効にする各機能を選択します。 最低限、インスタント メッセージング (IM) を展開する必要がありますが常に有効になっているし、選択を解除することはできません。 また、会議、エンタープライズ VoIP など、他の機能を展開するオプションがあり、受付制御 (CAC) を呼び出します。 いくつかの機能は、トポロジに依存します。
-ms.openlocfilehash: 4d7f04cfd254536ad06e3d88be996c10c1b49444
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 721eb84ec49b5b27d1cb7b9d017ed93a8e0c5225
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23263437"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890487"
 ---
-# <a name="add-front-end-features-2010"></a>2010 のフロント エンド機能を追加します。
+# <a name="add-front-end-features-2010"></a>フロントエンドの機能の追加 (2010)
 
 フロント エンド プールを有効にする各機能を選択します。 最低限、インスタント メッセージング (IM) を展開する必要がありますが常に有効になっているし、選択を解除することはできません。 また、会議、エンタープライズ VoIP など、他の機能を展開するオプションがあり、受付制御 (CAC) を呼び出します。 いくつかの機能は、トポロジに依存します。
 

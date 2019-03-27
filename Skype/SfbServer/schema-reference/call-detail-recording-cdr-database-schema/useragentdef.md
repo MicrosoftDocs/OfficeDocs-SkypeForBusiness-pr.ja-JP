@@ -1,5 +1,6 @@
 ---
 title: UserAgentDef テーブル
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 96c49239-d999-4045-8b64-9d1940cce8ff
 description: UserAgentDef テーブルは、エージェントの説明的な名前にユーザー エージェントの id をマップします。 ユーザー エージェントは、ソフトウェア ・ クライアント サーバー 2015 のビジネス用の Skype への接続に使用します。 このテーブルは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: fe447daa511eccf9d08b47f5bf4872be4e651a41
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6248c2ec24052c2a1349decdc2fd294ca1ca8415
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896057"
 ---
 # <a name="useragentdef-table"></a>UserAgentDef テーブル
  

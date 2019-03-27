@@ -1,5 +1,6 @@
 ---
 title: フロントエンド サーバー スコープ ノード
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
-description: エンタープライズ エディションのフロント エンド プール] は、このサイトのフロント エンド プールを一覧表示し、標準エディションのフロント エンド サーバーのノードは、このサイトで Standard Edition サーバーを一覧表示します。 以下のアクションを実行できます。
-ms.openlocfilehash: 4ba5bbc6f49c5f5ec63a8fb6f9766ce38c14a833
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '[Enterprise Edition フロントエンドのプール] ノードには、このサイトのフロントエンドのプールが一覧表示され、[Standard Edition フロントエンド サーバー] ノードには、このサイトの Standard Edition サーバーが一覧表示されます。 以下のアクションを実行できます。'
+ms.openlocfilehash: cce9e2d52b20ad9b439435f12111fdc1e9bf7b8b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896673"
 ---
 # <a name="front-end-servers-scope-node"></a>フロントエンド サーバー スコープ ノード
  

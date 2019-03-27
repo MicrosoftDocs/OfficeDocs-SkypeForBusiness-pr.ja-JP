@@ -1,5 +1,6 @@
 ---
-title: エクスポート CcConfiguration
+title: Export-CcConfiguration
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e3775bd6-682c-4f62-aafc-974fe3a65c61
 description: Skype for Business Cloud Connector エディションの構成を、Skype for Business Cloud Connector エディションのホスト サーバー上のローカル ファイルにエクスポートします。
-ms.openlocfilehash: dfabf5f486190b13acd18f0ffcf67f9b7e37052c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8afca55e6727c84c579957de9e2010e84a72fb15
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894238"
 ---
-# <a name="export-ccconfiguration"></a>エクスポート CcConfiguration
+# <a name="export-ccconfiguration"></a>Export-CcConfiguration
  
 Skype for Business Cloud Connector エディションの構成を、Skype for Business Cloud Connector エディションのホスト サーバー上のローカル ファイルにエクスポートします。
   
@@ -43,9 +45,9 @@ Export-CcConfiguration コマンドレットを使用すると、Cloud Connector
 ## <a name="parameters"></a>パラメーター
 <a name="Examples"> </a>
 
-|**パラメーター**|**必須**|**タイプ**|**説明**|
+|**パラメーター**|**必須**|**型**|**説明**|
 |:-----|:-----|:-----|:-----|
-| Path  <br/> |必須  <br/> |System.String  <br/> |Cloud Connector 構成が保存されるフル ファイル パス。  <br/> |
+|Path  <br/> |必須  <br/> |System.String  <br/> |Cloud Connector 構成が保存されるフル ファイル パス。  <br/> |
    
 ## <a name="input-types"></a>入力の種類
 <a name="Examples"> </a>
@@ -60,6 +62,6 @@ Export-CcConfiguration コマンドレットを使用すると、Cloud Connector
 ## <a name="see-also"></a>関連項目
 <a name="Examples"> </a>
 
-インポート-CcConfiguration
+Import-CcConfiguration
   
 

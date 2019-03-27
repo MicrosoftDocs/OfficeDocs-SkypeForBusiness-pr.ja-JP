@@ -1,5 +1,6 @@
 ---
-title: SCOM で監視を構成します。
+title: SCOM 監視の構成
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: に移行した後 Microsoft Skype ビジネス サーバー 2019 の System Center Operations Manager を使用するサーバー 2019 のビジネス用の Skype を構成するのには、いくつかのタスクを完了する必要があります。
-ms.openlocfilehash: c54038bc89c62a9911e684e451a66f4f12a23124
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 80ef737c57006550111331db7f46fd607f7cf1ed
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373743"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887415"
 ---
-# <a name="configure-scom-monitoring"></a>SCOM で監視を構成します。
+# <a name="configure-scom-monitoring"></a>SCOM 監視の構成
 
 に移行した後 Skype ビジネス サーバー 2019 の System Center Operations Manager を使用するサーバー 2019 のビジネス用の Skype を構成するのには、いくつかのタスクを完了する必要があります。
   

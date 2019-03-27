@@ -1,5 +1,6 @@
 ---
-title: セット CcSiteDirectory
+title: Set-CcSiteDirectory
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1cd89fd-6968-4ace-a4aa-c4105231cf7b
 description: Set-CcSiteDirectory コマンドレットは、Skype for Business Cloud Connector エディションのサイト レベルの設定ファイルが格納されるディレクトリを設定します。 フォルダーにはベース VHD および Cloud Connector の設定ファイルが含まれます。
-ms.openlocfilehash: d34945a17f32c275240e2cef0435f6e0ca3e63a0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1c03d0f91b3a724df6ce61d216138bb281fb0b87
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885583"
 ---
-# <a name="set-ccsitedirectory"></a>セット CcSiteDirectory
+# <a name="set-ccsitedirectory"></a>Set-CcSiteDirectory
  
 Set-CcSiteDirectory コマンドレットは、Skype for Business Cloud Connector エディションのサイト レベルの設定ファイルが格納されるディレクトリを設定します。 フォルダーにはベース VHD および Cloud Connector の設定ファイルが含まれます。
   
@@ -40,16 +42,16 @@ Set-CcSiteDirectory -Path "\\SiteShare\CloudConnector"
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-ゲートウェイの類似性と高可用性を提供するには、サイトでコネクタのクラウド アプライアンスを組み合わせて指定できます。 ユーザーは、クラウドのコネクタのアプライアンスではなくサイトに割り当てられます。 各サイトには、ベース VHD および Cloud Connector のインストール ファイルが格納された共有フォルダーがあります。 アプライアンスでは、展開時にこのフォルダーを使用します。 クラウド コネクタ サイト内の他のすべてのアプライアンスでは、このフォルダーを共有する必要があります。
+ゲートウェイの類似性と高可用性を提供するには、サイトでコネクタのクラウド アプライアンスを組み合わせて指定できます。 ユーザーは、クラウドのコネクタのアプライアンスではなくサイトに割り当てられます。 各サイトには、ベース VHD とクラウドのコネクタのインストール ファイルが格納される共有フォルダーがあります。 このフォルダーは、アプライアンスによって展開時に使用されます。 クラウド コネクタ サイト内の他のすべてのアプライアンスでは、このフォルダーを共有する必要があります。
   
 既定のフォルダーは、C:\Users\%userprofile%\CloudConnector\SiteRoot。 このパスは Get-CcSiteDirectory コマンドレットを使用して表示できます。
   
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**必須**|**タイプ**|**説明**|
+|**パラメーター**|**必須**|**型**|**説明**|
 |:-----|:-----|:-----|:-----|
-|  Path <br/> | 必須 <br/> | System.String <br/> |クラウド コネクタ サイトのファイルを保存するフォルダーへのパスを提供します。  <br/> |
+| Path <br/> | 必須 <br/> | System.String <br/> |クラウド コネクタ サイトのファイルを保存するフォルダーへのパスを提供します。  <br/> |
    
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>
@@ -64,6 +66,6 @@ Set-CcSiteDirectory -Path "\\SiteShare\CloudConnector"
 ## <a name="see-also"></a>関連項目
 <a name="ReturnTypes"> </a>
 
-[Get CcSiteDirectory](get-ccsitedirectory.md)
+[Get-CcSiteDirectory](get-ccsitedirectory.md)
   
 

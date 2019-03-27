@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 での常設チャット ルームのアドインの構成
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: '概要: は、Skype のビジネス サーバー 2015 の永続的なチャット サーバーのチャット ルームのアドインを構成する方法について説明します。'
-ms.openlocfilehash: 4fe6c5fa15118949bd559ddb280ddf56fe41b360
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b43340f44b7ce41a1d77768f10a96bff651afc3f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372700"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885955"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット ルームのアドインの構成
  
@@ -54,15 +55,15 @@ ms.locfileid: "25372700"
     
 ## <a name="configure-add-ins-by-using-windows-powershell"></a>Windows PowerShell を使用してアドインを構成する
 
-次の Windows PowerShell コマンドレットを使用すると、チャット ルームのアドインを構成できます。 などのすべての利用可能なパラメーターの構文の詳細については、 [Skype ビジネス サーバー 2015 管理シェルに](../management-shell.md)を参照してください。
+次の Windows PowerShell コマンドレットを使用すると、チャット ルームのアドインを構成できます。使用できるすべてのパラメーターを含む構文の詳細については、「[Skype for Business Server 2015 Management Shell](../management-shell.md)」を参照してください。
   
 
 |**コマンドレット**|**説明**|
 |:-----|:-----|
-|新しい-CsPersistentChatAddin  <br/> |新しいアドインを作成する  <br/> |
-|セット CsPersistentChatAddin  <br/> |既存のアドインの設定を構成する  <br/> |
-|Get CsPersistentChatAddin  <br/> |アドインに関する情報を取得する  <br/> |
-|削除 CsPersistentChatAddin  <br/> |アドインを削除する  <br/> |
+|New-CsPersistentChatAddin  <br/> |新しいアドインを作成する  <br/> |
+|Set-CsPersistentChatAddin  <br/> |既存のアドインの設定を構成する  <br/> |
+|Get-CsPersistentChatAddin  <br/> |アドインに関する情報を取得する  <br/> |
+|Remove-CsPersistentChatAddin  <br/> |アドインを削除する  <br/> |
    
 ### <a name="create-a-new-add-in"></a>新しいアドインを作成する
 

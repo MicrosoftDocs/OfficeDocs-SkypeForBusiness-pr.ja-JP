@@ -1,5 +1,6 @@
 ---
-title: (資格情報) を SQL Server レポート サービスします。
+title: SQL Server Reporting Services (資格情報)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 033906cd-385f-4b04-9607-376888ec414d
 description: に対して、SQL Server レポート サービス (SSRS) 監視データベースにアクセスする資格情報を指定するには、次の操作を行います。
-ms.openlocfilehash: ab6a3699611688509927ed91dd43fffc85ea23c9
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2572d2e4615987e92c46e10932b466cd92d362ab
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21005542"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890326"
 ---
-# <a name="sql-server-reporting-services-credentials"></a>(資格情報) を SQL Server レポート サービスします。
+# <a name="sql-server-reporting-services-credentials"></a>SQL Server Reporting Services (資格情報)
  
 に対して、SQL Server レポート サービス (SSRS) 監視データベースにアクセスする資格情報を指定するには、次の操作を行います。
   

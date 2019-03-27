@@ -1,5 +1,6 @@
 ---
-title: アイテムを更新します。
+title: アイテムの更新
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,20 +10,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c15c56-cdae-4f3e-838a-52f0940cf729
 description: '概要: は、項目のサービスの一部は、更新プログラムの項目の操作について説明します。 項目のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。'
-ms.openlocfilehash: 5839118dc6e907696d4ce3e9adfbc58504808fac
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 3ac56b8761f565663ffaa689c666e285b2347ed5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532226"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887950"
 ---
-# <a name="update-item"></a>アイテムを更新します。
+# <a name="update-item"></a>アイテムの更新
  
 **の概要:** 品目サービスの一部は、更新プログラムの項目の操作について説明します。 項目のサービスは、品質のダッシュ ボードを呼び出すためのリポジトリ API の一部です。 通話品質のダッシュ ボードは、Skype ビジネス サーバー用のツールです。
   
 更新項目の操作は、リポジトリ api の呼び出し品質のダッシュ ボードの項目のサービスの一部です。
   
-## <a name="update-item"></a>アイテムを更新します。
+## <a name="update-item"></a>アイテムの更新
 
 更新プログラムの項目では、リポジトリ内の特定のアイテムを更新します。
   
