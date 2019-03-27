@@ -1,5 +1,6 @@
 ---
 title: Business Server のビジネスのクライアントと Skype の Skype で二要素認証を使用します。
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 description: '概要: は、サーバーのビジネスとビジネスの Skype の Skype で二要素認証を使用します。'
-ms.openlocfilehash: 734e63d22610dab44cc221290b462e51e93291f1
-ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
+ms.openlocfilehash: 0c66808f22655e3f78a23930adc84dcbc31af6bb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25694583"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894203"
 ---
 # <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>Business Server のビジネスのクライアントと Skype の Skype で二要素認証を使用します。
  
@@ -49,7 +50,7 @@ ms.locfileid: "25694583"
 |:-----|:-----|:-----|
 |閉じる  <br/> |画面は閉じますが、ビジネス セッションの ID を引き続き実行するユーザーの識別に、Skype をことができます。 したがって、引き続き通知を受け取り、他のユーザーと対話できます。 <br/> <br/> ビジネス アイコンをタスク バーまたは、画面の下部にある通知領域での Skype をクリックすると、バックアップはいつでも表示を取得できます。  <br/> | ビジネスのメイン ウィンドウの Skype、次のいずれかの操作を行います。 <br/> 1、[**オプション**] ボタンを選択し、**ファイル**を選択して > **閉じる**。  <br/> 2. ウィンドウの右上隅の**閉じる**ボタン (X) をクリックします。 <br/> |
 |サインアウトする  <br/> |端点が、ユーザー ID、Skype のビジネスに関連付けられているセッションは、バック グラウンドで実行し続けます。 サインアウトすると、サインイン ウィンドウが表示されます。  <br/> **ヒント:** コンピューターから、ログオン ID とパスワードの記録を削除するのにはサインインするときは、**自分のサインイン情報を削除**を選択します。 このようにすると、サポート担当者が行うサインインの問題のトラブルシューティングが容易になることがあります。 また、権限のないユーザーがあなたの資格情報でログインすることは難しくなるため、サインイン情報のセキュリティも確保できます。 <br/> |ビジネスのメイン ウィンドウの Skype、**オプション**ボタンを選択し、[**ファイル**を選択して > **サインアウト**します。  <br/> |
-|終了する  <br/> |Skype をビジネス ・ セッションの終了し、お使いのコンピューターで、ビジネス用の Skype をシャット ダウンします。 、終了後に再起動する場合は、選択**開始** > **すべてのプログラム**> ビジネス用の Skype です。 <br/> |ビジネスのメイン ウィンドウの Skype、**オプション**ボタンを選択し、[**ファイル**を選択して > **終了**です。  <br/> |
+|終了する  <br/> |Skype をビジネス ・ セッションの終了し、お使いのコンピューターで、ビジネス用の Skype をシャット ダウンします。 、終了後に再起動する場合は、選択**開始** > _gt ビジネス用の Skype の**すべてのプログラム**です。 <br/> |ビジネスのメイン ウィンドウの Skype、**オプション**ボタンを選択し、[**ファイル**を選択して > **終了**です。  <br/> |
    
 ## <a name="sign-in-to-skype-for-business-with-a-smart-card"></a>スマート カードで Skype for Business にサインインする
 

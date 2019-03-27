@@ -1,5 +1,6 @@
 ---
 title: トポロジ内のサーバーへの Skype for Business Server のインストール
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: '概要では、トポロジ内の各サーバーでサーバーのビジネス システムのコンポーネントの Skype をインストールする方法について説明します。 ビジネスのサーバーで Microsoft の評価の中心からの Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: c6122bea5af5be0e08f2510a6fae4b9c0e406df4
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: caa933e3469227fe0fa2aab680f53ddee445256e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887267"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891903"
 ---
 # <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>トポロジ内のサーバーへの Skype for Business Server のインストール
  
@@ -158,9 +159,9 @@ ms.locfileid: "23887267"
     
 15. [**コマンドを実行しています**] ページで、[**次へ**] をクリックします。
     
-16. [**オンライン証明書要求の状態**] ページで、戻された情報を確認します。 証明書が発行され、ローカル証明書ストアにインストールされたことを確認する必要があります。 発行されがインストールされていることと、レポートが正しくない場合は、CA のルート証明書がインストールされているように、サーバーの信頼されたルート CA ストアにします。 信頼されたルート CA 証明書の取得方法については、CA のドキュメントを参照してください。 取得した証明書を表示する必要がある場合には、[**証明書の詳細の表示**] をクリックします。 既定では、**ビジネスのサーバー証明書の使用法の Skype に証明書の割り当て**のチェック ボックスが選択されます。 証明書を手動で割り当てる場合には、チェック ボックスをオフにしてから、[**終了**] をクリックします。
+16. On the **Online Certificate Request Status** page, review the information returned. You should note that the certificate was issued and installed into the local certificate store. 発行されがインストールされていることと、レポートが正しくない場合は、CA のルート証明書がインストールされているように、サーバーの信頼されたルート CA ストアにします。 Refer to your CA documentation on how to retrieve a Trusted Root CA certificate. If you need to view the retrieved certificate, click **View Certificate Details**. 既定では、**ビジネスのサーバー証明書の使用法の Skype に証明書の割り当て**のチェック ボックスが選択されます。 If you want to manually assign the certificate, clear the check box, and then click **Finish**.
     
-17. **ビジネス サーバー証明書の使用法の Skype に証明書の割り当て**の前のページのチェック ボックスをオフする場合、**証明書の割り当て**] ページが表示されます。 [**次へ**] をクリックします。
+17. **ビジネス サーバー証明書の使用法の Skype に証明書の割り当て**の前のページのチェック ボックスをオフする場合、**証明書の割り当て**] ページが表示されます。 Click **Next**.
     
 18. [**証明書ストア**] ページで、要求した証明書を選択します。証明書を表示するには、[**証明書の詳細の表示**] をクリックし、[**次へ**] をクリックして続行します。
     
@@ -185,7 +186,7 @@ ms.locfileid: "23887267"
 
 1. [**手順 4: サービスの開始**] の前提条件を確認します。
     
-2. 3 台以上のサーバーが含まれる Enterprise Edition フロントエンド プールの場合、Windows Fabric を使用して、**Start-CsPool** コマンドレットを使用する必要があります。 使用を何でも 1 つのサーバーを使用する場合は Standard Edition の場合では常に、**開始 CsWindowsService**コマンドレットです。 この例では、プール内の 3 つのフロント エンド サーバーとエンタープライズ エディションを使用していること、 **Skype ビジネス サーバー管理シェル**を開くし、図に示すように**開始 CsPool**コマンドレットを実行します。 Standard Edition サーバーを含むその他すべての役割の場合は、必ず **Start-CsWindowsService** を使用します。 フロントエンドの役割以外の役割を展開する場合については、それらの役割に関するドキュメントを参照してください。
+2. If this is an Enterprise Edition Front End pool with at least three servers, Windows Fabric is used, and you must use the **Start-CsPool** cmdlet. 使用を何でも 1 つのサーバーを使用する場合は Standard Edition の場合では常に、**開始 CsWindowsService**コマンドレットです。 この例では、プール内の 3 つのフロント エンド サーバーとエンタープライズ エディションを使用していること、 **Skype ビジネス サーバー管理シェル**を開くし、図に示すように**開始 CsPool**コマンドレットを実行します。 For all other roles, including Standard Edition server, you must use **Start-CsWindowsService**. To deploy roles other than the Front End role, see documentation for those particular roles.
     
      ![Skype for Business サービスを開始します。](../../media/f52ec719-9476-419f-9a78-df08368395f7.png)
   

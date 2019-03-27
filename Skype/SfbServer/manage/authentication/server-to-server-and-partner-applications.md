@@ -1,5 +1,6 @@
 ---
 title: サーバーからサーバーへの認証 (OAuth) とパートナーのアプリケーションで Skype ビジネス サーバーを管理します。
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 38848373-c8c6-4097-bf7f-699fe471348d
 description: '概要: ビジネス サーバーの Skype で OAuth とパートナーのアプリケーションを管理します。'
-ms.openlocfilehash: 6b7701ff91f323b13a97613f57f7228da18d9773
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 77fd070ace850035d129dc247decdcf7988219cf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532840"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893147"
 ---
 # <a name="manage-server-to-server-authentication-oauth-and-partner-applications-in-skype-for-business-server"></a>サーバーからサーバーへの認証 (OAuth) とパートナーのアプリケーションで Skype ビジネス サーバーを管理します。
  

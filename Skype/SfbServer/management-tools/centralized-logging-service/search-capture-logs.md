@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 で集中ログ サービスが作成したキャプチャ ログを検索する
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: '概要: 検索し、ビジネス サーバー 2015 の Skype でのログ サービスの一元的なログを読み取る方法を説明します。'
-ms.openlocfilehash: 9429ef0f2c14552c615e4d7f81c497ea9bb546f3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b1f049260eff7524e5a728852b3dcd99526d8742
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372220"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895888"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 で集中ログ サービスが作成したキャプチャ ログを検索する
  
@@ -32,7 +33,7 @@ ms.locfileid: "25372220"
     
 個々の各コンピューター上の CLSAgent によって、1 つまたは複数のシナリオに基づいたログが作成されます (1 台のコンピューターあたり 2 つのシナリオをいつでも実行できます)。ログと関連するインデックス ファイルおよびキャッシュ ファイルは、CLSAgent によって管理されます。検索を定義して実行すると、その検索コマンドが CLSAgent に対して取得する情報を指示します。CLSAgent はログ ファイル、キャッシュ ファイル、およびインデックス ファイルに対してクエリを実行し、検索の結果を CLSContoller に返します。CLSController は、検索の範囲内のすべてのコンピューターおよびプールから、検索結果を受け取ります。次に、CLSController はログを集約 (結合) し、最も古いエントリが先頭で、最新のエントリが末尾になるように、時系列に配置します。
   
-検索後**同期 CsClsLogging**コマンドレットを実行しにではなく、CLSAgent が管理しているファイルをキャッシュと混同) の検索に使用するキャッシュをフラッシュします。 キャッシュをフラッシュすることで、次の検索操作で CLSController はクリーンなログおよびトレース ファイルのキャプチャ バッファーを使用できます。
+各検索の後、**Sync-CsClsLogging** コマンドレットが実行されて、検索で使用されるキャッシュ (CLSAgent が管理するキャッシュ ファイルで使用されるものではない) をフラッシュします。 キャッシュをフラッシュすることで、次の検索操作で CLSController はクリーンなログおよびトレース ファイルのキャプチャ バッファーを使用できます。
   
 集中ログ サービスに最も大きなメリットを得るには、調査している問題に関連するコンピューターとプールのログからトレース メッセージのみを返す検索を構成する方法を十分に理解する必要があります。 問題
   
@@ -91,7 +92,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 3. 変更する 1 台のコンピューターではなくプール全体を検索する場合は、コンマで区切られた、プールまたは引用符で囲まれたプールで、プール、コンピューター名を削除および置換する-コンピューターのパラメーターです。
     
-    例:
+    次に例を示します。
     
    ```
    Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"

@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 リソース キット ツールのドキュメント
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: このトピックでは、各ツール、およびその使用方法の例の目的を含む、ビジネス サーバー 2015 リソース キットの Skype では、ツールについて説明します。 ビジネス 2015 リソース キットの Skype は、展開およびビジネス サーバー 2015 の Skype を管理する IT 管理者の日常的なタスクを容易に役立ちます。 たとえば、Web Conf Data ツールを使用すると、オンライン会議中にユーザーによってアップロードされたデータを簡単に制御できます。 SEFAUtil ツールを使用すると、ユーザーの問い合わせに対して自動転送や自動応答を設定できます。 IT 管理者は、ビジネス サーバー 2015 の Skype をより効果的に管理するためにこれらのツールを使用することをお勧めします。
-ms.openlocfilehash: d58ba07a06b29ffe03eadc38beb55d3cb623b8cd
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 730ba434a70f49b01b70aaf0d9f1ac889bd2ba75
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533435"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879862"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype for Business Server 2015 リソース キット ツールのドキュメント
 
@@ -1061,7 +1062,7 @@ SEFAUtil ツールは信頼されたアプリケーション プールに属し�
     > 必要に応じて、別のポートを使用できます。
     
     > [!NOTE]
-    > プールの FQDN: SEFAUtil アプリケーションをホストするプールまたはサーバーの FQDN (通常業務のフロント エンド サーバー用の Skype > またはプール)。
+    > プールの FQDN: SEFAUtil アプリケーション (通常は、ビジネスのフロント エンド サーバーの _gt またはプールの Skype) をホストするプールまたはサーバーの FQDN です。
     > プール FQDN をレジストラー: ビジネスのフロント エンド サーバーまたはこのアプリケーション プールに関連付けられているプールの Skype の FQDN です。
     > プール サイト: このプールは、ホーム サーバーをサイトのサイト ID です。
 

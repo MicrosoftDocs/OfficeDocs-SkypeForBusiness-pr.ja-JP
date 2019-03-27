@@ -1,5 +1,6 @@
 ---
-title: クライアントの移動ポリシーを編集します。
+title: クライアント モビリティ ポリシーの編集
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[モビリティ ポリシーの編集] ダイアログ ボックスでは、モビリティ ポリシーの詳細を編集できます。'
-ms.openlocfilehash: dd23d7ee4d838d2e3e3aa5d0b4a4134818660088
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 0c10beff86078be294e39a32327b4562446d935d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241807"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893975"
 ---
-# <a name="edit-client-mobility-policy"></a>クライアントの移動ポリシーを編集します。
+# <a name="edit-client-mobility-policy"></a>クライアント モビリティ ポリシーの編集
 
 [**モビリティ ポリシーの編集**] ダイアログ ボックスでは、モビリティ ポリシーの詳細を編集できます。
 

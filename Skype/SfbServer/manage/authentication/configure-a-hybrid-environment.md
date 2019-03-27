@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーのハイブリッド環境では Skype のサーバーからサーバーへの認証を構成します。
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: '概要: ビジネス サーバーのハイブリッド環境では Skype のサーバーからサーバーへの認証を構成します。'
-ms.openlocfilehash: 2d4589d2d194cd885329dd701f69af7b8896f8f3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: d8ba920d516368d1931097e5e31b738a0d271bcf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532348"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893613"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>ビジネス サーバーのハイブリッド環境では Skype のサーバーからサーバーへの認証を構成します。
 
@@ -120,7 +121,7 @@ $binaryValue = $certificate.GetRawCertData()
 $credentialsValue = [System.Convert]::ToBase64String($binaryValue)
 ```
 
-証明書をインポートし、エンコードされたが後、は、Office 365 のサービス ・ プリンシパルをし証明書を割り当てることができます。 Business Server の Skype とは Microsoft Exchange のサービス ・ プリンシパルの両方の AppPrincipalId プロパティの値を取得するために最初に取得-MsolServicePrincipal を使用します。AppPrincipalId プロパティの値は、証明書を割り当てられているサービス ・ プリンシパルを識別するのには適用されます。 AppPrincipalId プロパティ値の Skype のビジネス サーバーの手動で、Skype の Office 365 バージョンにビジネスのサーバーの証明書を割り当てるには次のコマンドを使用します。
+証明書をインポートし、エンコードされたが後、は、Office 365 のサービス ・ プリンシパルをし証明書を割り当てることができます。 Business Server の Skype とは Microsoft Exchange のサービス ・ プリンシパルの両方の AppPrincipalId プロパティの値を取得するために最初に取得-MsolServicePrincipal を使用します。AppPrincipalId プロパティの値は、証明書を割り当てられているサービス ・ プリンシパルを識別するのには適用されます。 AppPrincipalId プロパティ値の Skype のビジネス サーバーの手動で、ビジネス オンラインの Skype のバージョンの証明書を割り当てるには次のコマンドを使用します。
 
 ```
 New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue 
@@ -128,7 +129,7 @@ New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00000
 
 必要がありますし、コマンドを繰り返し実行、Exchange 2013 の AppPrincipalId プロパティの値を使用してこの時間です。
 
-後でその証明書の削除が必要になった場合は、最初に証明書の KeyId を取得することで削除できます。
+切れている場合、たとえば、その証明書を削除する必要が生じた場合これを行う証明書のキー Id を取得します。
 
 ```
 Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
@@ -153,11 +154,11 @@ Remove-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00
 
 証明書を割り当てるだけでなくも Exchange のオンライン サービス主体を構成して、Office 365 のサービス プリンシパルとしてビジネス サーバー外部 Web サービス Url の Skype の設置型バージョンを構成する必要があります。 これを行うには、次の 2 つのコマンドを実行します。 
 
-次の例では、lync.contoso.com は、Skype のビジネス サーバー プールの外部 Web サービスの URL です。 展開内のすべての外部 Web サービスの Url を追加するのには次の手順を繰り返す必要があります。
+次の例では、Pool1ExternalWebFQDN.contoso.com は、Skype のビジネス サーバー プールの外部 Web サービスの URL です。 展開内のすべての外部 Web サービスの Url を追加するのには次の手順を繰り返す必要があります。
 
 ```
 Set-MSOLServicePrincipal -AppPrincipalID 00000002-0000-0ff1-ce00-000000000000 -AccountEnabled $true
 $lyncSP = Get-MSOLServicePrincipal -AppPrincipalID 00000004-0000-0ff1-ce00-000000000000
-$lyncSP.ServicePrincipalNames.Add("00000004-0000-0ff1-ce00-000000000000/lync.contoso.com")
+$lyncSP.ServicePrincipalNames.Add("00000004-0000-0ff1-ce00-000000000000/Pool1ExternalWebFQDN.contoso.com")
 Set-MSOLServicePrincipal -AppPrincipalID 00000004-0000-0ff1-ce00-000000000000 -ServicePrincipalNames $lyncSP.ServicePrincipalNames
 ```

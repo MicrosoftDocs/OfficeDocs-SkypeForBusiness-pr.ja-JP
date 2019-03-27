@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server コントロール パネル管理者の作成
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
 description: ビジネス サーバー 2015 の Skype へのアクセスを許可するには、次の操作を行います。
-ms.openlocfilehash: db781611e2df2abf23c071673d3dfe0570f5700b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5d01066da5be34ba53f4eca37d35a3913d07142a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898867"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>Skype for Business Server コントロール パネル管理者の作成
  
@@ -37,7 +39,7 @@ ms.lasthandoff: 03/28/2018
   
 他の役割は次のとおりです。
   
-- **CsArchiving:**このグループのメンバーは、構成、およびアーカイブ サーバーの役割を管理するなど、すべてのアーカイブ機能を実行できます。
+- **CsArchiving:** このグループのメンバーは、構成、およびアーカイブ サーバーの役割を管理するなど、すべてのアーカイブ機能を実行できます。
     
 - **CsHelpDesk:** このグループのメンバーは、ユーザーのプロパティやポリシーを含む構成と展開を表示できます。またメンバーは、特定のトラブルシューティング タスクも実行できます。
     
@@ -45,13 +47,13 @@ ms.lasthandoff: 03/28/2018
     
 - **CsResponseGroupAdministrator:** メンバーは、応答グループ サービスを管理および構成できます。
     
-- **CsServerAdministrator:**メンバーは、管理、監視、およびビジネス サーバーの Skype を実行しているすべてのサーバーのトラブルシューティングを行うことができます。
+- **CsServerAdministrator:** メンバーは、管理、監視、およびビジネス サーバーの Skype を実行しているすべてのサーバーのトラブルシューティングを行うことができます。
     
 - **CsUserAdministrator:** メンバーは、ユーザーの管理、有効化および無効化、ユーザーへの既存ポリシーの割り当てを実行できます。
     
-- **CsViewOnlyAdministrator:**メンバーには、展開と構成のサーバーの情報を表示できます。 このメンバーシップは、ビジネス サーバー 2015 の Skype を実行しているサーバーの稼働状態を監視するにはメンバーを使用します。
+- **CsViewOnlyAdministrator:** メンバーには、展開と構成のサーバーの情報を表示できます。 このメンバーシップは、ビジネス サーバー 2015 の Skype を実行しているサーバーの稼働状態を監視するにはメンバーを使用します。
     
-- **CsVoiceAdministrator:**メンバーは、作成、構成、およびビジネス サーバーの Skype での音声関連の設定を管理することができます。
+- **CsVoiceAdministrator:** メンバーは、作成、構成、およびビジネス サーバーの Skype での音声関連の設定を管理することができます。
     
 セキュリティとロール ベースのアクセス制御の整合性を確保するため、ユーザーがビジネス サーバー配置の Skype の管理を実行するどのような役割を定義するグループにユーザーを追加します。
   

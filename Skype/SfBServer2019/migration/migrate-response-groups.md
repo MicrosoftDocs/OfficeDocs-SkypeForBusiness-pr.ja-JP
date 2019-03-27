@@ -1,5 +1,6 @@
 ---
-title: 応答グループを移行します。
+title: 応答グループの移行
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ビジネス サーバー 2019 プールのユーザーを移動した後 Skype は、応答グループを移行できます。 移行する応答グループには、エージェント グループ、キュー、ワークフロー、オーディオのファイルをコピーし、ビジネス サーバー 2019 プールの Skype にレガシー環境からの応答のグループの連絡先オブジェクトを移動が含まれています。 従来の応答グループを移行した後、応答グループへの呼び出しは、プールのビジネス サーバー 2019 Skype で応答グループ アプリケーションによって処理されます。 応答グループへの呼び出しは、不要になったレガシ プールによって処理されます。
-ms.openlocfilehash: 89149210e8041fbc84834cec83e1c1fe13d0765c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 17ba19be3b574436f3a175457264654d8c28ebd0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372938"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876314"
 ---
-# <a name="migrate-response-groups"></a>応答グループを移行します。
+# <a name="migrate-response-groups"></a>応答グループの移行
 
 ビジネス サーバー 2019 プールのユーザーを移動した後 Skype は、応答グループを移行できます。 移行する応答グループには、エージェント グループ、キュー、ワークフロー、オーディオのファイルをコピーし、ビジネス サーバー 2019 プールの Skype にレガシー環境からの応答のグループの連絡先オブジェクトを移動が含まれています。 従来の応答グループを移行した後、応答グループへの呼び出しは、プールのビジネス サーバー 2019 Skype で応答グループ アプリケーションによって処理されます。 応答グループへの呼び出しは、不要になったレガシ プールによって処理されます。
   
@@ -60,7 +61,7 @@ ms.locfileid: "25372938"
    Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
    ```
 
-    例:
+    次に例を示します。
     
    ```
    Move-CsRgsConfiguration -Source skype-old.contoso.net -Destination skype-new.contoso.net

@@ -1,5 +1,6 @@
 ---
-title: 外部アプリケーションの全般設定の拡張
+title: 外部アプリケーション全般設定エキスパンダー
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 既に定義されている信頼されたアプリケーション サーバーのプロパティを編集するには、これらの指示に従います。
-ms.openlocfilehash: 73010b40bd5c06c1e59d9b2fee0e4fde3d247732
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 66f82f4e6dadf39cbfcce77c46cafc2fedd3d168
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374547"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896015"
 ---
-# <a name="external-application-general-settings-expander"></a>外部アプリケーションの全般設定の拡張
+# <a name="external-application-general-settings-expander"></a>外部アプリケーション全般設定エキスパンダー
  
 既に定義されている信頼されたアプリケーション サーバーのプロパティを編集するには、これらの指示に従います。
   

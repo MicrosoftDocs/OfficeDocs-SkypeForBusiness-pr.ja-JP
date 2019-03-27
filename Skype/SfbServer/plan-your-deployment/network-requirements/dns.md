@@ -1,5 +1,6 @@
 ---
 title: Skype のビジネス サーバー用の DNS の要件
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: '概要: は、Skype をビジネスのサーバーを実装する前にここでは DNS の考慮事項を確認します。'
-ms.openlocfilehash: 649528c21254625b1aac8d2933c59988138b38b1
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: c54f2b8509d0849ee8949dfb4c0275450e533d3f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069581"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891988"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>Skype のビジネス サーバー用の DNS の要件
 
@@ -28,28 +29,28 @@ DNS Skype のビジネス サーバー展開計画組織の設置型のネット
 
 ドメイン ネーム サービス (DNS) サーバーのホスト名をマップする (www のようにします<span></span>。contoso<span></span>.com、おそらく web サーバー) の IP アドレス (10.10.10.10) などにします。 これにより、クライアントおよび相互依存のサーバー同士が、ネットワーク上で通信することができます。 ビジネス サーバー 2015 の Skype の実装を設定するときは、(通常、説明的役割を反映する)、新しいサーバー名のマッピングに割り当てられている IP アドレスに一致するかどうかを確認する必要があります。
 
-これを計画するため、複雑な処理を実行することができます最初は困難なビットこれと思われるかもしれませんが、 [Skype](https://www.microsoft.com/en-us/download/details.aspx?id=50357)を使用します。 どの機能を使用する予定があるかについてのウィザードの質問に回答し終えたら、各サイトについてエッジ管理レポート内で表示できる DNS レポートを定義して、そこで DNS レコードを作成するために一覧表示された情報を使用します。 使用される多くの名前と IP アドレスに対して調整を行うこともできます。詳細については、[DNS レポートの確認](../../management-tools/planning-tool/review-the-administrator-reports.md#DNS_Report)を参照してください。 エッジ管理レポートは、Excel スプレッドシートにエクスポートすることができますが、DNS レポートはそのファイル内のワークシートの 1 つであることに留意してください。 このツールでは、[ビジネス サーバー 2019 の Skype から非推奨](../../../SfBServer2019/deprecated.md)機能が含まれていますが、まだできますこれらの機能が選択されていない場合、初期の計画を作成するには
+これを計画するため、複雑な処理を実行することができます最初は困難なビットこれと思われるかもしれませんが、 [Skype](https://www.microsoft.com/en-us/download/details.aspx?id=50357)を使用します。 についてどのような機能を使用するウィザードの質問を終了するとを定義する各サイトのエッジ管理レポート内で DNS レポートを表示でき、DNS レコードを作成するのには表示されている情報を使用できます。 [DNS レポートのレビュー](../../management-tools/planning-tool/review-the-administrator-reports.md#DNS_Report)を参照してくださいの名前と IP アドレスの詳細については、使用の多くに調整を行うこともできます。 ことことができますエッジ管理レポート、Excel スプレッドシートに書き出して DNS レポートは、ファイル内のワークシートのいずれかになります。 このツールでは、[ビジネス サーバー 2019 の Skype から非推奨](../../../SfBServer2019/deprecated.md)機能が含まれていますが、まだできますこれらの機能が選択されていない場合、初期の計画を作成するには
 
-[Skype ビジネス サーバー用のレコードを DNS の作成](../../deploy/install/create-dns-records.md)で説明するよう、新しい実装をインストールして、Skype のビジネス サーバーのトポロジを構築、認識しているときは、Windows Server に組み込まれている DNS 機能を使用することもできます。2016 またはサード パーティ製 DNS パッケージ、スクリプトを紹介する、ディスカッションここで特定するのではなく、一般的なようです。 何が必要であるかについては詳細に示されていますので、それらの必要性をどのように満たすかについてはユーザー自身が決定することになります。
+[Skype ビジネス サーバー用のレコードを DNS の作成](../../deploy/install/create-dns-records.md)で説明するよう、新しい実装をインストールして、Skype のビジネス サーバーのトポロジを構築、認識しているときは、Windows Server に組み込まれている DNS 機能を使用することもできます。2016 またはサード パーティ製 DNS パッケージ、スクリプトを紹介する、ディスカッションここで特定するのではなく、一般的なようです。 何が必要なの詳細を示すしているし、意思決定をするには、そのニーズを満たすか。
 
 ビジネス、Lync では、および通信のスイートを Office の管理者の経験豊富な Skype はおそらく次の表は、役に立ちます。 表の内容が分かりにくい場合は、後のセクションや記事で次のような概念が明快に説明されています。
 
 ## <a name="summary-tables"></a>要約表
 <a name="BK_Summary"> </a>
 
-次の表は、ユーザーにサービスを提供するビジネスのサーバー用の Skype を使用して DNS レコードを表示します。 一部のレコードは特定の機能をサポートするためのみに必要とされるためオプションとなり、それらの機能が要求されない場合はスキップされます。 内部アクセスのみで必要な DNS レコードは、最初の表にあります。内部および外部のアクセスを許可する展開では、両方の表にあるレコードが必要となります。
+次の表は、ユーザーにサービスを提供するビジネスのサーバー用の Skype を使用して DNS レコードを表示します。 いくつかは、オプションの特定の機能をサポートするために必要なだけこれらの機能が必要ない場合はスキップすることができます。 内部アクセスに必要な DNS レコードのみが、最初のテーブルと、内部および外部アクセスを許可する展開には、両方のテーブルからのレコードは必要があります。
 
 **内部 DNS マッピング**
 
 |レコードの種類|値|解決先|用途|必須|
 |:-----|:-----|:-----|:-----|:-----|
-|A/AAAA   |フロント エンド プールの FQDN  <br/> *FE のプールです。<span> </span>contoso<span></span>.com*   |フロント エンド プール サーバーの IP アドレス  <br/>  DNS LB *192.168.21.122 192.168.21.123 192.168.21.124*   |フロントエンド プールの DNS 負荷分散。 フロントエンド プールの名前を IP アドレスのセットにマップします。 <br/> [フロントエンド プールとディレクター プールへの DNS 負荷分散の展開](load-balancing.md#BK_FE_Dir)を参照してください  |Y   |
+|A/AAAA   |フロント エンド プールの FQDN  <br/> *FE のプールです。<span> </span>contoso<span></span>.com*   |フロント エンド プール サーバーの IP アドレス  <br/>  DNS LB *192.168.21.122 192.168.21.123 192.168.21.124*   |フロントエンド プールの DNS 負荷分散。 フロントエンド プールの名前を IP アドレスのセットにマップします。  <br/> [フロントエンド プールとディレクター プールへの DNS 負荷分散の展開](load-balancing.md#BK_FE_Dir)を参照してください  |Y   |
 |A/AAAA   | プール内の各フロント エンド サーバーまたは Standard Edition サーバーまたはスタンドアロン サーバーの FQDN <br/>  *FE01。<span> </span>contoso。<span> </span>com FE02。<span> </span>contoso<span></span>.com FE03。<span> </span>contoso<span></span>.com*   |各サーバーの対応する IP  <br/> *192.168.21.122 192.168.21.123 192.168.21.124*   |IP アドレスのサーバー名をマップします。   |Y   |
 |A/AAAA   |エンタープライズ プールの内部 Web サービスでの FQDN の上書き  <br/> *Web 整数<span></span>contoso<span></span>.com*   |フロント エンド サーバーの内部の Web サービス用の HLB の VIP  <br/> *192.168.21.120*   |クライアントは、Skype のビジネス Web アプリケーションのダウンロードなど、サーバーの web トラフィックを有効にする場合に必要です。 モバイル クライアントでも必要です。   |Y   |
 |A/AAAA   |エンタープライズ プールの外部 Web サービスでの FQDN の上書き  <br/> *Web 内線<span></span>contoso<span></span>.com*   |フロント エンド サーバーの外部の Web サービス用の HLB の VIP  <br/>*68.123.56.90*   |クライアントは、Skype のビジネス Web アプリケーションのダウンロードなど、サーバーの web トラフィックを有効にする場合に必要です。 モバイル クライアントが DNS を内部的に解決する場合に必要です。 DMZ リバース プロキシ IP または内部 IP に解決することができます。   ||
 |A/AAAA   | バック エンド サーバーの SQL サーバーの FQDN <br/> *SQL1。<span> </span>contoso<span></span>.com*   |サーバー IP アドレス  <br/> *192.168.11.90*   |フロント エンド プールの IP アドレスを使用するバックエンド SQL サーバーのサーバー名をマッピングします。   ||
 |A/AAAA   |バック エンド サーバーのミラーの SQL サーバーの FQDN  <br/> *SQL2。<span> </span>contoso<span></span>.com*   |サーバー IP アドレス  <br/> *192.168.11.91*   |フロント エンド プールの IP アドレスを使用するバック エンド SQL のミラー ・ サーバのサーバ名をマップします。   ||
-|A/AAAA   |ディレクター プールの FQDN  <br/>**注:** スタンドアロン ディレクター サーバーを使用する場合は適用されません。 <br/> *DirPool。<span> </span>contoso<span></span>.com*   |ディレクター プールの IP アドレス  <br/> *192.168.21.132、192.168.21.133* 、192.168.21.134 の DNS LB   |ディレクター プール サーバーの DNS 負荷分散。 プールの名前を IP アドレスでは、ディレクター プールのマップは、[フロント エンド プールとディレクター プールに DNS 負荷分散を展開する](load-balancing.md#BK_FE_Dir)を参照してください。 <br/> ディレクターはユーザーを認証することができる、オプションです。   ||
+|A/AAAA   |ディレクター プールの FQDN  <br/>**注:** スタンドアロン ディレクター サーバーを使用する場合は適用されません。 <br/> *DirPool。<span> </span>contoso<span></span>.com*   |ディレクター プールの IP アドレス  <br/> *192.168.21.132、192.168.21.133* 、192.168.21.134 の DNS LB   |DNS では、ディレクター プールのサーバーの分散を読み込みます。 プールの名前を IP アドレスでは、ディレクター プールのマップは、[フロント エンド プールとディレクター プールに DNS 負荷分散を展開する](load-balancing.md#BK_FE_Dir)を参照してください。 <br/> ディレクターはユーザーを認証することができる、オプションです。   ||
 |A/AAAA   |ディレクターの FQDN   |ダイレクタの各サーバーのサーバーの IP アドレス   |プールの名前を IP アドレスでは、ダイレクタのマップは、[フロント エンド プールとディレクター プールに DNS 負荷分散を展開する](load-balancing.md#BK_FE_Dir)を参照してください。  ||
 |A/AAAA   |仲介サーバー プールの FQDN   |プール IP アドレス   |仲介サーバー ロールはオプションです。 仲介サーバーによって提供されるサービスを、フロント エンド サーバーまたはプールに対して併置することができます。 [仲介サーバー プールの DNS のロードバランシングを使用する](load-balancing.md#BK_Mediation)を参照してください。  ||
 |A/AAAA   |仲介サーバーの FQDN   |サーバー IP アドレス   |仲介サーバーによって提供されるサービスを、フロント エンド サーバーまたはプールに対して併置することができます。 [仲介サーバー プールの DNS のロードバランシングを使用する](load-balancing.md#BK_Mediation)を参照してください。  ||
@@ -58,7 +59,7 @@ DNS Skype のビジネス サーバー展開計画組織の設置型のネット
 |CNAME   |lyncdiscoverinternal。* \<sipdomain\>* <br/> lyncdiscoverinternal. *<span></span>contoso<span></span>.com*   |HLB FE プールの FQDN またはディレクターの FQDN  <br/> Web 整数<span></span>contoso<span></span>.com   |内部の自動検出サービス 1 <br/> 必要に応じて、これを A レコードではなく CNAME として実装することができます。   ||
 |A/AAAA   |sip。* \<sipdomain\>* <br/> sip。* <span> </span>contoso<span></span>.com*  |フロント エンド プールのサーバーの IP アドレス (または、各ダイレクタの IP アドレス)  <br/>  DNS LB *192.168.21.122 192.168.21.123 192.168.21.124*   |自動構成が必要には、[チュートリアルの Skype クライアントのビジネスのサービスを検索する](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype)を参照してください。 <br/> 外部にあるクライアントとフロント エンド プールのサーバーまたは社内のネットワークでは、アクセス エッジ サービス上のディレクター サーバーをポイントするレコード   |& #x 2777 です。  |
 |A/AAAA   |ucupdates と r2 です。* \<sipdomain\>* <br/> ucupdates と r2 です。* <span> </span>contoso<span></span>.com*  |HLB FE プール VIP またはディレクター プール HLB VIP、または SE/ディレクター サーバー IP  <br/>  192.168.21.121  |#X 2778 はオプションの & は、このレコードを展開します。  ||
-|SRV   |\_sipinternaltls。\_tcp です。* \<sipdomain\> * <br/>ポート 5061 <br/>\_sipinternaltls。\_tcp です。* <span> </span>contoso<span></span>.com* <br/>ポート 5061  |フロント エンド プールの FQDN  <br/>*FE のプールです。<span> </span>contoso<span></span>.com*  |サインインについてのクライアントの要求を認証およびリダイレクトするフロントエンド サーバー/プールまたは SE サーバー/プールに対する内部ユーザーの自動サインイン 1 を有効にします。    |& #x 2777 です。 |
+|SRV   |\_sipinternaltls。\_tcp です。* \<sipdomain\> * <br/>ポート 5061 <br/>\_sipinternaltls。\_tcp です。* <span> </span>contoso<span></span>.com* <br/>ポート 5061  |フロント エンド プールの FQDN  <br/>*FE のプールです。<span> </span>contoso<span></span>.com*  |サインインについてのクライアントの要求を認証およびリダイレクトするフロントエンド サーバー/プールまたは SE サーバー/プールに対する内部ユーザーの自動サインイン 1 を有効にします。  |& #x 2777 です。 |
 |A/AAAA |sipinternal。* \<sipdomain\>* <br/>sipinternal。<span> </span> *contoso<span></span>.com*  |フロント エンド プールの FQDN  <br/>_FE のプールです。<span> </span>contoso<span></span>.com_  |内部ユーザーのアクセス & #x 2776。  |& #x 2777 です。  |
 |SRV   | \_ntp。\_udp です。* \<sipdomain\> * <br/> \_ntp。\_udp です。<span> </span> *contoso<span></span>.com*  |タイム サーバーの FQDN  <br/> north-america.pool.ntp.org   |Lync の電話のエディションのデバイスに必要な NTP ソース   |これがデスクトップの電話機をサポートするために必要です。   |
 |SRV   |\_sipfederationtls。\_tcp です。* \<sipdomain\> * <br/>\_sipfederationtls。\_tcp です。<span> </span> *contoso<span></span>.com*  | アクセス エッジ サービスの FQDN <br/> EdgePool 整数<span></span>*contoso<span></span>.com*  |IOS または Windows Phone のモバイル クライアントが存在する各 SIP ドメインに対して、1 つの SRV レコードを作成します。   |モバイル クライアントのサポートの場合   |
@@ -73,7 +74,7 @@ DNS Skype のビジネス サーバー展開計画組織の設置型のネット
 
 & #x 2777 です。これは、Lync 2013、およびデスクトップの電話機の前にレガシ クライアントをサポートするためにのみ必要です。
 
-& #x 2778 です。統合コミュニケーション デバイスがオンですが、デバイスに、ユーザーがログオンしない場合では、A レコードは、デバイス更新 Web サービスをホストするサーバーを検出し、更新プログラムを入手するのにはデバイスを使用できます。 この方法を使用しない場合、デバイスはユーザーが最初にログインしたときにインバンド プロビジョニングを通じてサーバー情報を取得します。
+& #x 2778 です。統合コミュニケーション デバイスがオンですが、デバイスに、ユーザーがログオンしない場合では、A レコードは、デバイス更新 Web サービスをホストするサーバーを検出し、更新プログラムを入手するのにはデバイスを使用できます。 それ以外の場合、デバイスは、インバンド プロビジョニングの初めてのユーザーがログインにサーバー情報を取得します。
 
 次のダイアグラムでは、内部および外部 DNS レコードの両方を含んでいる場合の例と、周囲のテーブル内に数多くのレコードを示しています。
 
@@ -105,7 +106,7 @@ DNS Skype のビジネス サーバー展開計画組織の設置型のネット
 
 & #x 2777 です。フロント エンド サーバーまたはフロント エンド プールを検出し、認証およびユーザーとしてサインインするのには、クライアントによって使用されます。
 
-& #x 2778 です。この要件は、Apple のクライアントにのみ適用されます。 または、Microsoft ベースのモバイル デバイスです。 Android および Nokia Symbian デバイスはプッシュ通知を使用しません。
+& #x 2778 です。この要件は、Apple のクライアントにのみ適用されます。 または、Microsoft ベースのモバイル デバイスです。 Android および Nokia Symbian デバイスには、プッシュ通知を使わないでください。
 
  エッジ トランスポート サーバーおよび境界ネットワークの詳細については、エッジ サーバーの[DNS の計画](../../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#DNSPlan)の内容を参照してください。
 
@@ -127,20 +128,20 @@ DNS Skype のビジネス サーバー展開計画組織の設置型のネット
 
 ある「Office 365 の Url と IP アドレスの範囲」を参照することもする必要があります[https://aka.ms/o365ips](https://aka.ms/o365ips)ユーザーが必要なオンライン リソースへアクセスを持つことを確認します。
 
-## <a name="simple-urls"></a>簡易 URL 
+## <a name="simple-urls"></a>簡易 URL
 <a name="BK_Simple"> </a>
 
-URL (Uniform Resource Locator) は、Web リソースに対する参照として、そのコンピューター ネットワーク上の場所と、それを取得するために使用されるプロトコルを指定します。 
+URL (Uniform Resource Locator) は、Web リソースに対する参照として、そのコンピューター ネットワーク上の場所と、それを取得するために使用されるプロトコルを指定します。
 
 ビジネス サーバーの Skype では、サービスにアクセスするのには「単純」の 3 つの Url を使用してサポートしています。
 
-- **会議 ** URL は、サイト内のすべての会議のベース URL として使用されます。 対応の簡単な URL の例としては、https:<span></span>//<span></span>に対応します。<span> </span>contoso<span></span>. com です。 特定の会議の URL が https をする可能性があります:<span></span>//<span></span>に対応します。<span> </span>contoso<span></span>.com//7322994 である_ユーザー名_。
+- **対応**は、サイト内のすべての会議のベース URL として使用されます。 対応の簡単な URL の例としては、https:<span></span>//<span></span>に対応します。<span> </span>contoso<span></span>. com です。 特定の会議の URL が https をする可能性があります:<span></span>//<span></span>に対応します。<span> </span>contoso<span></span>.com//7322994 である_ユーザー名_。
 
     会議の簡易 URL により、会議に参加するためのリンクが覚えやすいものになり、通知も簡単に行えます。
 
-- **ダイヤルイン ** URL を使用すると、[ダイヤルイン会議の設定] Web ページにアクセスできます。 このページには、使用可能な言語、割り当て済み会議情報 (すなわち、スケジュールされる必要がない会議用)、および会議内 DTMF コントロールと組み合わされた会議のダイヤルイン番号が表示されます。また、暗証番号 (PIN) および割り当て済みの会議情報の管理をサポートします。 ダイヤルインの簡易 URL は、すべての会議への招待に含まれるため、会議にダイヤルインするユーザーは、必要な電話番号および PIN 情報にアクセスできます。 ダイヤルの簡単な URL の例としては、https://<span></span>ダイヤルインします。<span> </span>contoso<span></span>. com です。
+- **ダイヤルインの**ダイヤルイン会議設定 web ページへのアクセスを有効にします。 このページには、会議情報を割り当て、その言語での会議のダイヤルイン番号が表示されます (つまり、会議をスケジュールする必要はありません)、および会議の DTMF コントロール、および個人識別番号 (の管理をサポートしていますピン) 会議の情報を割り当てるとします。 会議にダイヤルインするユーザーが必要な電話番号と暗証番号 (pin) の情報にアクセスできるように、すべての会議出席依頼でダイヤルインの簡単な URL が含まれます。 ダイヤルの簡単な URL の例としては、https://<span></span>ダイヤルインします。<span> </span>contoso<span></span>. com です。
 
-- **管理者**は、業務サーバーのコントロール パネルの Skype へのすばやいアクセスを使用できます。 組織のファイアウォール内の任意のコンピューターから管理者が開くことができます、Skype ビジネス サーバーのコントロール パネルの管理の簡単な URL をブラウザーに入力することによって。 管理の簡易 URL は、組織内部の URL です。 管理の簡単な URL の例としては、https://<span></span>管理者<span> </span>contoso<span></span>. com です。
+- **管理者**は、業務サーバーのコントロール パネルの Skype へのすばやいアクセスを使用できます。 組織のファイアウォール内の任意のコンピューターから管理者が開くことができます、Skype ビジネス サーバーのコントロール パネルの管理の簡単な URL をブラウザーに入力することによって。 管理の簡単な URL は、組織の内部に。 管理の簡単な URL の例としては、https://<span></span>管理者<span> </span>contoso<span></span>. com です。
 
 Url の単純な[ビジネス サーバーの Skype での簡単な Url の DNS 要件](simple-urls.md)の詳細については後ほど説明します。
 
@@ -153,14 +154,14 @@ Url の単純な[ビジネス サーバーの Skype での簡単な Url の DNS 
 
 これらのレコードの一般的な要件は、ビジネスのため、Skype で使用されるサーバーの役割に適用されます。 プールは、ロード バランサーを通してサーバーに向けられるクライアントの要求を処理するために連動する同じサービスを実行しているサーバーの集まりです。 詳細については、[Load balancing requirements for Skype for Business](load-balancing.md)を参照してください。
 
-**サーバー/プールのロールでの DNS レコードの要件 (DNS 負荷分散を想定)**
+**DNS サーバーまたはプールの役割の要件を記録する (DNS の負荷分散を開始)**
 
 |展開シナリオ|DNS 要件|
 |:-----|:-----|
-|1 台のサーバー:  <br/> 常設チャット、ディレクター、仲介サーバー、フロント エンド サーバー   |サーバーの完全修飾ドメイン名 (FQDN) を、そのサーバーの IP アドレスに解決する内部 A レコード。  <br/> ServerRole。<span> </span>contoso<span></span>.com 10.10.10.0   |
-|プール:  <br/> 常設チャット、ディレクター、エッジ サーバー、仲介サーバー、フロント エンド    |プール内の各サーバー ノードの完全修飾ドメイン名 (FQDN) を、その IP アドレスに解決する内部 A レコード。  <br/>**例** <br/> ServerRole01。<span> </span>contoso<span></span>.com 10.10.10.1  <br/> ServerRole02。<span> </span>contoso<span></span>.com 10.10.10.2  <br/> プールの完全修飾ドメイン名 (FQDN) を、プールのサーバー ノードの IP アドレスに解決する複数の内部 A レコード。  <br/>**例** <br/> ServerPool。<span> </span>contoso<span></span>.com 10.10.10.1  <br/> ServerPool。<span> </span>contoso<span></span>.com 10.10.10.2   |
+|1 つのサーバー:  <br/> 永続的なチャット、ディレクター、仲介サーバー、フロント エンド サーバー   |レコードの IP アドレスにサーバーの完全修飾ドメイン名 (FQDN) を解決する内部です。  <br/> ServerRole。<span> </span>contoso<span></span>.com 10.10.10.0   |
+|プール:  <br/> 永続的なチャット、ディレクター、エッジ サーバー、仲介サーバー、フロント エンド   |レコードの IP アドレスをプール内の各サーバー ノードの完全修飾ドメイン名 (FQDN) を解決する内部です。  <br/>**例** <br/> ServerRole01。<span> </span>contoso<span></span>.com 10.10.10.1  <br/> ServerRole02。<span> </span>contoso<span></span>.com 10.10.10.2  <br/> 内部の複数の A では、プール内のサーバ ・ ノードの IP アドレス プールの完全修飾ドメイン名 (FQDN) に解決されるが記録されます。  <br/>**例** <br/> ServerPool。<span> </span>contoso<span></span>.com 10.10.10.1  <br/> ServerPool。<span> </span>contoso<span></span>.com 10.10.10.2   |
 
-### <a name="edge-server-specific-dns-topics"></a>エッジ サーバー固有の DNS に関するトピック
+### <a name="edge-server-specific-dns-topics"></a>エッジ サーバーの特定 DNS のトピック
 
  エッジ サーバーの展開を計画するには、「[ビジネス サーバー 2015 の Skype でエッジ サーバーの展開の計画](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)、および[エッジ サーバーの高度な DNS 計画ビジネス サーバー 2015 の Skype](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md)は以下のセクションでの使用」を参照してください。
 
@@ -168,9 +169,9 @@ Url の単純な[ビジネス サーバーの Skype での簡単な Url の DNS 
 
 - [DNS load balancing](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#DNSLB)
 
-- [スプリットブレイン DNS なしの自動構成](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#NoSplitBrainDNS)
+- [Automatic configuration without split-brain DNS](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#NoSplitBrainDNS)
 
-- [スプリット ブレイン DNS](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#SplitBrainDNS)
+- [Split-brain DNS](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#SplitBrainDNS)
 
 - [Walkthrough of Skype for Business clients locating services](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype)
 

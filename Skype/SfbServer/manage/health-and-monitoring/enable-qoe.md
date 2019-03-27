@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype での経験の質を有効にします。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,23 +10,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
 description: '概要: ビジネスのサーバーの高品質のエクスペリエンス (QoE) では、Skype を有効にする方法を説明します。'
-ms.openlocfilehash: 38c0c14382e8f00abd49f6671af705400c0cff8c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: ba3b34769e5fb74aa641d89168ef7203bec0d2d3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261092"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892344"
 ---
 # <a name="enable-quality-of-experience-in-skype-for-business-server"></a>ビジネス サーバーの Skype での経験の質を有効にします。
 
 **の概要:** ビジネス サーバーに対して高品質のエクスペリエンス (QoE) Skype でを有効にする方法について説明します。
 
-QoE (Quality of Experience) は、メディアの品質と、通話およびセッションに関係する参加者、デバイス名、ドライバー、IP アドレス、およびエンドポイントの種類についての情報を示す数値データを記録します。 詳細については、計画ドキュメントの[監視を計画する](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)を参照してください。
+QoE (Quality of Experience) は、メディアの品質と、通話およびセッションに関係する参加者、デバイス名、ドライバー、IP アドレス、およびエンドポイントの種類についての情報を示す数値データを記録します。詳細については、「計画」のドキュメントの「[Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)」を参照してください。
 
 組織全体または組織内の各サイトで QoE を有効にするには、次の手順を実行します。
 
 > [!NOTE]
-> QoE を有効にするには、まず、監視を構成して、監視バック エンド データベースに接続する必要があります。 詳細については、[展開の監視](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)を参照してください。
+> QoE を有効にするには、まず、監視を構成して、監視バック エンド データベースに接続する必要があります。詳細については、「[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)」を参照してください。
 
 ### <a name="to-enable-qoe-by-using-skype-for-business-server-control-panel"></a>ビジネス サーバーのコントロール パネルの Skype を使用して、QoE を有効にするには
 
@@ -71,5 +72,5 @@ QoE を有効にするには、Windows PowerShell と**セット CsQoEConfigurat
 
 [監視の計画](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
 
-[監視を展開します。](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
 

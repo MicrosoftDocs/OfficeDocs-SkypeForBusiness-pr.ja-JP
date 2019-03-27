@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015 の回線共有機能の計画
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6356aad4-700d-495c-8fc8-58eb1d4f6f18
 description: ビジネス サーバー 2015 年 2015年 11 月の共有行の外観 (SLA) で Skype を計画する方法については、このトピックを参照して累積的な更新です。
-ms.openlocfilehash: b65d637426b0a8533089b21021bce566373ca9f1
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: ae19afbffce6f51abd811a0062c611ee130c4e4d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "23884509"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892682"
 ---
 # <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の回線共有機能の計画
  

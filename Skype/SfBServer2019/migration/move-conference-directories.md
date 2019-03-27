@@ -1,5 +1,6 @@
 ---
 title: 会議ディレクトリを移動する
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: プールの使用を停止する前に、レガシ プール内に、会議ディレクトリごとに以下の手順を行う必要があります。
-ms.openlocfilehash: b7526d8c3c032bf8b1f9052dce7da7e8a87b66b5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 32ebe22c54585a206c90888238d96e41fce30a58
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372806"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895720"
 ---
 # <a name="move-conference-directories"></a>会議ディレクトリを移動する
 

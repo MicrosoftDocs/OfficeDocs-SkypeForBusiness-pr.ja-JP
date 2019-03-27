@@ -1,5 +1,6 @@
 ---
 title: tblComplianceState
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea82e56c-3cca-4d89-b4e6-6bcaeb1f2830
 description: tblComplianceState には、プール全体にわたるコンプライアンスの状態情報が含まれています。
-ms.openlocfilehash: e46db9c73f4489ade9bbed90f0061567fd14af1d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4e9f103ef019e743b5dfcb4ef554ff6a28c340b8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899293"
 ---
 # <a name="tblcompliancestate"></a>tblComplianceState
  
@@ -22,7 +24,7 @@ tblComplianceState には、プール全体にわたるコンプライアンス�
   
 **列**
 
-|**列**|**タイプ**|**説明**|
+|**列**|**型**|**説明**|
 |:-----|:-----|:-----|
 |lastProcessedEntryID  <br/> |bigint 型の値、null でないです。  <br/> |最新の処理されたコンプライアンス イベントの ID です。  <br/> |
 |activeServerID  <br/> |int 型、null でないです。  <br/> |なしの場合は、データベース、または-1 の排他ロックを保持しているコンプライアンス サーバーの ID です。  <br/> |

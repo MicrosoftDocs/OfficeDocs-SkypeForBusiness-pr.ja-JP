@@ -1,5 +1,6 @@
 ---
 title: Skype のビジネス サーバー用の複数のトランク サポート
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ビジネス サーバーの機能のための Skype では、ゲートウェイと仲介サーバーの間で複数のアソシエーションをサポートします。 これらの関連付けは、仲介サーバー プールと公衆交換電話網 (PSTN) ゲートウェイ、セッション ボーダー コント ローラー (SBC)、または IP PBX との間の論理的な関連付けには、トランクを定義することによって行われます。 ゲートウェイを仲介サーバー (つまり、トランクなど) に関連付けるには、トポロジ ビルダーを使用します。
-ms.openlocfilehash: 086d345eb7492423526466cc77a2ce0d0d9a998e
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 5d093bee56597474f0cefcf1053536774f2eb795
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222787"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896568"
 ---
 # <a name="multiple-trunk-support-in-skype-for-business-server"></a>Skype のビジネス サーバー用の複数のトランク サポート
 

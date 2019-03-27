@@ -1,5 +1,6 @@
 ---
 title: コントロール パネルの更新されたユーザーの検索
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: Skype のビジネス サーバーのユーザーを構成するのには、検索クエリの結果を使用できます。 ユーザーは、表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) で検索できます。 ユーザーの検索には、Lync Server コントロール パネルまたは Active Directory ユーザーおよびコンピューター スナップインを使用できます。
-ms.openlocfilehash: a254881713064ad0442d359f3d385d94165c6629
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5d94c468edeb8c982d901f1c396bfd49c8c88fb6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23254852"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896485"
 ---
 # <a name="control-panel---updated-user-search"></a>コントロール パネル - 更新: ユーザー検索
 
@@ -27,21 +28,21 @@ Skype のビジネス サーバーのユーザーを構成するのには、検�
 
 コントロール パネルの [**ユーザー検索**] ページでは以下のタスクを実行できます。
 
-- [Lync Server 2010 のユーザーを検索します。](https://technet.microsoft.com/library/3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5.aspx)
+- [Search for Lync Server 2010 Users](https://technet.microsoft.com/library/3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5.aspx)
 
-- [有効にするか、Lync Server 2010 のユーザーを無効にします。](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+- [Enable or Disable Users for Lync Server 2010](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
 
 - [ユーザーの移動](move-user.md)
 
 - [すべてのユーザーの移動](move-all-users.md)
 
-- [ユーザーにポリシーを割り当てる](https://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
+- [Assign Policies to Users](https://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
 
-- [Skype for Business Server 2015 でのエンタープライズ VoIP に対するユーザーの有効化](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Enable users for Enterprise Voice in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
-- [ユーザーのフェデレーション、リモート ユーザー アクセス、およびパブリック IM 接続を構成します。](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [Configure Federation, Remote User Access, and Public IM Connectivity for Users](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
-- [ユーザーのテレフォニーを構成します。](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [Configure Telephony for Users](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
 
 詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。
 
@@ -75,7 +76,7 @@ Skype のビジネス サーバーのユーザーを構成するのには、検�
 
 - **ユーザーを有効にします。** 開く] をクリックして、[ユーザー: Lync Server のユーザーが新しい](users-new-lync-server-user.md)ダイアログ ボックスで、ビジネスのサーバーの Skype に新しいユーザーを追加する場所です。
 
-    新しい連絡先を追加する、下向きの矢印をクリックし、**連絡先を有効にする**を開くには、[ユーザー: 新しい連絡先オブジェクト](users-new-contact-objects.md)ダイアログです。
+    新規連絡先を追加するには、下矢印をクリックして [**連絡先を有効にする**] を選択し、[[Users: New Contact Objects](users-new-contact-objects.md)] ダイアログを開きます。
 
 - **編集**[**編集**] をクリックし、選択したユーザーの詳細を表示または**検索結果をすべて選択**結果テーブルに表示されるすべてのユーザーを選択する] をクリックして**詳細を表示する**をクリックします。
 

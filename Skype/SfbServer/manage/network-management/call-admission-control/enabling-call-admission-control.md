@@ -1,5 +1,6 @@
 ---
 title: 呼受付制御を有効にします。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: " 呼び出し受付制御 (CAC) ネットワークを構成すると、CAC 帯域幅の制限を適用するを有効にする必要があります。"
-ms.openlocfilehash: 9c264305a38bf4bf9ef3716c5df82d74155e8936
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: a683fe0f437fc1c3fa92784313135d094e43c8b1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222836"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897644"
 ---
-# <a name="enabling-call-admission-control-in-skype-for-business-server"></a>ビジネス サーバーの Skype で通話受付制御を有効にします。
+# <a name="enabling-call-admission-control-in-skype-for-business-server"></a>Skype for Business Server での通話受付管理の有効化
 
 通話受付管理 (CAC) は、地域、サイト、およびサブネットで構成されるネットワークで、使用可能な帯域幅に基づいてオーディオおよびビデオ伝送に制限を課すことができます。 CAC ネットワークを構成した後は、CAC 帯域幅の制限を適用するを有効にする必要があります。 ビジネス サーバーのコントロール パネルの Skype を使用するにはこれを行う。
 

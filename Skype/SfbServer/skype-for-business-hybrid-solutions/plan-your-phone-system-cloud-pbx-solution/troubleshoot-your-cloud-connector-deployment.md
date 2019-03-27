@@ -1,5 +1,6 @@
 ---
 title: Cloud Connector 展開をトラブルシューティングする
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: コネクタ Edition のクラウド展開のトラブルシューティングを行います。
-ms.openlocfilehash: 2290d032f1461c37c31d138510388f17a52f5843
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a80d6977ff565d5d06f2487e5fb3ab8293b5e000
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531906"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894467"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Cloud Connector 展開をトラブルシューティングする
  
@@ -179,7 +180,7 @@ ms.locfileid: "26531906"
     
 - **問題: Get CcRunningVersion コマンドレットは、ホストで実行されている展開済みのアプライアンスがある場合に空の値を返します。**
     
-  **解決策:** これは、1.3.4 か 1.3.8 から 1.4.1 にアップグレードした場合に発生します。.msi を使用してバージョン 1.4.1 をインストールした場合は、他のコマンドレットを実行する前に `Register-CcAppliance` を実行する必要があります。`Register-CcAppliance` で、module.ini ファイルを %UserProfile%\CloudConnector から %ProgramData%\CloudConnector に移行します。実行しなかった場合は、新しい module.ini が %ProgramData%\CloudConnector フォルダーに作成され、1.3.4 または 1.3.8 の実行中/バックアップ バージョン情報が置き換わります。
+  **の解像度:** 1.3.4 または 1.3.8 に 1.4.1 からアップグレードする場合に、発生することができます。 実行する必要があります、.msi を持つバージョン 1.4.1 をインストールした後`Register-CcAppliance`その他のすべてのコマンドレットを実行する前にします。 `Register-CcAppliance`%programdata%\cloudconnector に %UserProfile%\CloudConnector から module.ini ファイルを移行します。 その場合は、新しい module.ini は %ProgramData%\CloudConnector フォルダーに作成され、1.3.4 または 1.3.8 の実行中またはバックアップのバージョン情報を置き換えます。
     
   %UserProfile%\CloudConnector と %ProgramData%\CloudConnector フォルダーにある module.ini ファイルを比較します。 Module.ini ファイルに %ProgramData%\CloudConnector し、再実行を削除の違いがある場合は、 `Register-CcAppliance`。 正しい実行し、バックアップ ・ バージョンを手動でファイルを変更することも可能性があります。
     

@@ -1,5 +1,6 @@
 ---
 title: サービスの選択
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,13 +12,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[サービスの選択] ダイアログ ボックスを使用して、環境で使用可能なサービスを検索します。既存のサービスを使用するには、一覧でサービスをクリックして [OK] をクリックします。'
-ms.openlocfilehash: 73a1dee42639c20e6a16d9b269f3509e8ddecfee
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: '[サービスの選択] ダイアログ ボックスを使用して、環境で使用可能なサービスを検索します。 既存のサービスを使用するには、一覧でサービスをクリックして [OK] をクリックします。'
+ms.openlocfilehash: 0482dd0832d76d1b0e56c7aa978073e514b62090
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21016606"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877987"
 ---
 # <a name="select-a-service"></a>サービスの選択
 

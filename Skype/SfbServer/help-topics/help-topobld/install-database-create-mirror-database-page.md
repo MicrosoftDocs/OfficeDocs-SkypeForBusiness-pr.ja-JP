@@ -1,5 +1,6 @@
 ---
-title: インストール データベースがミラー データベースのページを作成します。
+title: データベースのインストールでのミラー データベースの作成ページ
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,17 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
-description: このドキュメントは暫定版であり、変更される可能性があります。空白のトピックがプレースホルダーとして含まれています。
-ms.openlocfilehash: e12124e84b3b91d627ac18eb6489fe8f1f5d4ee8
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: このドキュメントは暫定版であり、変更される可能性があります。 空白のトピックがプレースホルダーとして含まれています。
+ms.openlocfilehash: 77cf1b98fba80a3e2b7ffdbe256a5374148cf6ce
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20979054"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899590"
 ---
-# <a name="install-database-create-mirror-database-page"></a>インストール データベースがミラー データベースのページを作成します。
+# <a name="install-database-create-mirror-database-page"></a>データベースのインストールでのミラー データベースの作成ページ
  
-このドキュメントは暫定版であり、変更される可能性があります。空白のトピックがプレースホルダーとして含まれています。
+このドキュメントは暫定版であり、変更される可能性があります。 空白のトピックがプレースホルダーとして含まれています。
   
 発行プロセス中に SQL Server のミラー データベースをインストールしないようにする場合は、トポロジ ビルダー内の任意のノードを右クリックして**データベースのインストール**を使用してそれらをインストールします。 ストアを選択する、ミラーをインストールします。 高度な設定を定義する**設定**をクリックします。
   
@@ -29,6 +30,6 @@ ms.locfileid: "20979054"
 
 [Skype for Business Server 2015 でバックエンド サーバーの高可用性を実現するための SQL ミラーリングの展開](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
 
-[インストール CsMirrorDatabase](https://docs.microsoft.com/powershell/module/skype/install-csmirrordatabase?view=skype-ps)
+[Install-CsMirrorDatabase](https://docs.microsoft.com/powershell/module/skype/install-csmirrordatabase?view=skype-ps)
   
-[インストール CsDatabase](https://docs.microsoft.com/powershell/module/skype/install-csdatabase?view=skype-ps)
+[Install-CsDatabase](https://docs.microsoft.com/powershell/module/skype/install-csdatabase?view=skype-ps)

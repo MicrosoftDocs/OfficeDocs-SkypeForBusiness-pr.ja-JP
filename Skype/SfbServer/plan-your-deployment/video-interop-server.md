@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーに、Skype でのビデオの相互運用サーバーを計画します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: '概要: ビジネス サーバーの会議のサード ・ パーティ製のデバイスに Skype を統合するために計画するときにこのトピックを参照します。'
-ms.openlocfilehash: c4308b27371c9e0da312eee0fa5c52602674c45c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 015f93496879e84c1959db7d6b46b765e0d286e1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975635"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894253"
 ---
 # <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>ビジネス サーバーに、Skype でのビデオの相互運用サーバーを計画します。
  
@@ -183,7 +184,7 @@ Cisco VTC からの 1 つのビデオ ストリームを複数のサイマルキ
 
 VIS を介してフェデレーション会議に参加する VTC は、Skype for Business のサポート対象外です。
   
-## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
+## <a name="see-also"></a>関連項目
 <a name="resiliency"> </a>
 
 [ビジネス サーバーの Skype でのビデオの相互運用サーバーを展開します。](../deploy/deploy-video-interop-server/deploy-video-interop-server.md)

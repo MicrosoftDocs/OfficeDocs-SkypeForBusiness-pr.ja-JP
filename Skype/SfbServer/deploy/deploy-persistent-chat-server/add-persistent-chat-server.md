@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバー 2015 トポロジの場合、Skype に永続的なチャット サーバーを追加します。
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: '概要: ビジネス サーバー 2015 トポロジの場合、Skype に永続的なチャット サーバーを追加する方法の詳細については、このトピックを読みます。'
-ms.openlocfilehash: ff2486db39546e88c4a75e27875a84a2c3b939ae
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 16c886e13ff56d0aa059ec676d152d332d0023db
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371983"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893315"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>ビジネス サーバー 2015 トポロジの場合、Skype に永続的なチャット サーバーを追加します。
  
@@ -25,7 +26,7 @@ ms.locfileid: "25371983"
   
 - トポロジを更新して常設チャット サーバーを含める
     
-- 更新したトポロジの公開
+- 更新されたトポロジを公開する
     
 > [!NOTE] 
 > 永続的なチャットですがビジネス サーバー 2015 の Skype で利用可能なビジネス サーバー 2019 の Skype でサポートされていません。 同じ機能は、チームで使用できます。 詳細については、[マイクロソフトのチームにビジネス用の Skype からの旅](/microsoftteams/journey-skypeforbusiness-teams)を参照してください。 永続的なチャットを使用する場合は、選択肢は、いずれかをチームでは、この機能を必要とするユーザーを移行するまたはビジネス サーバー 2015 の Skype を使用し続ける。 
@@ -99,7 +100,7 @@ ms.locfileid: "25371983"
     > [!NOTE]
     > トポロジ ビルダーが既に開いていると進むことができます発行のステップ 3 に更新したトポロジを更新したトポロジを公開を開始します。 
   
-## <a name="publish-the-updated-topology"></a>更新したトポロジの公開
+## <a name="publish-the-updated-topology"></a>更新されたトポロジを公開する
 <a name="BKMK_PublishTopology"> </a>
 
 トポロジ ビルダーでトポロジを更新した後、中央管理ストアにトポロジを公開してを構成し、ビジネスのサーバーに Skype を使用する前にする必要があります。 このデータの読み取り専用コピーはトポロジ内のすべてのサーバーにレプリケートされ、すべてのサーバーは、トポロジおよび他の構成の変更と同期された状態で維持されます。

@@ -1,5 +1,6 @@
 ---
 title: Skype のビジネス サーバー用の DNS レコードを作成します。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: '概要: は、DNS を構成し、ビジネス サーバーの Skype のインストール用の DNS レコードを作成する方法を説明します。 ビジネスのサーバーで Microsoft の評価の中心からの Skype の無料試用版をダウンロード: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: 0090cdd19d0bef8b73ad79bd8c7f0d36a5044a48
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 35e8aecea74cc74cda6ea086a1765642885a091e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885460"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890684"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>Skype のビジネス サーバー用の DNS レコードを作成します。
  
@@ -71,9 +72,9 @@ DNS レコードは、Skype ビジネス サーバーで正常に動作し、ユ
     
 6. [**IP アドレス**] ボックスで、個々のフロントエンド サーバーの IP アドレスを入力し、適用可能な場合は [**関連付けられたポインター (PTR) レコードを作成する**] または [**同じ所有者名の DNS レコードの更新を認証されたユーザーに許可する**] を選択します。ここでは、Web サービスを除き、すべてのトラフィックの負荷分散に DNS が使用されると想定されています。この例では、表に示すように、3 台のフロントエンド サーバーがあります。
     
-   |**サーバー名**|**種類**|**データ**|
+   |**サーバー名**|**型**|**データ**|
    |:-----|:-----|:-----|
-   |SFB01  <br/> |ホスト (A)  <br/> |10.0.0.5 に対し  <br/> |
+   |SFB01  <br/> |ホスト (A)  <br/> |10.0.0.5  <br/> |
    |SFB02  <br/> |ホスト (A)  <br/> |10.0.0.6  <br/> |
    |SFB03  <br/> |ホスト (A)  <br/> |10.0.0.7  <br/> |
    
@@ -84,9 +85,9 @@ DNS レコードは、Skype ビジネス サーバーで正常に動作し、ユ
   
     たとえば、pool.contoso.local という名前のプールと 3 台のフロントエンド サーバーがある場合は、次の DNS エントリを作成します。
     
-   |**FQDN**|**種類**|**データ**|
+   |**FQDN**|**型**|**データ**|
    |:-----|:-----|:-----|
-   |pool.contoso.local  <br/> |ホスト (A)  <br/> |10.0.0.5 に対し  <br/> |
+   |pool.contoso.local  <br/> |ホスト (A)  <br/> |10.0.0.5  <br/> |
    |pool.contoso.local  <br/> |ホスト (A)  <br/> |10.0.0.6  <br/> |
    |pool.contoso.local  <br/> |ホスト (A)  <br/> |10.0.0.7  <br/> |
    

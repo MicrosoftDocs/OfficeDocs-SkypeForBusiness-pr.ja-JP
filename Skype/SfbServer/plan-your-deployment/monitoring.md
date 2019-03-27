@@ -1,5 +1,6 @@
 ---
 title: Skype でビジネスのサーバーを監視するための計画
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: '概要: ビジネス サーバーの Skype での監視サービスを計画するときにこのトピックを参照します。'
-ms.openlocfilehash: ab2b96063d94471ce47564845c64a63dfc5710c8
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: cfe5e0eb31ca2badb3c4610f33c0761a98972ce7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243348"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892512"
 ---
 # <a name="plan-for-monitoring-in-skype-for-business-server"></a>Skype でビジネスのサーバーを監視するための計画
 
@@ -85,7 +86,7 @@ Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Mon
 
 これが計画において重要なのは、ミラーリングでは必要なデータベースの数が 2 倍になるからです。プライマリ データベースそれぞれの他に、ミラーとして動作する第 2 のデータベースが必要になります。
 
- **Skype をビジネス サイトに必要があります、独自のカスタムの監視構成?** CDR および QoE 構成設定のグローバル コレクションをインストールするビジネス サーバーの Skype をインストールする場合これらのグローバル コレクションでは、組織全体に同じ CDR と QoE 設定を適用する機能を提供します。 多くの場合、十分ななります: 多くの場合すると答えると、CDR の監視を有効になっているすべてのユーザーにします。
+ **Skype をビジネス サイトに必要があります、独自のカスタムの監視構成?** CDR および QoE 構成設定のグローバル コレクションをインストールするビジネス サーバーの Skype をインストールする場合これらのグローバル コレクションでは、組織全体に同じ CDR と QoE 設定を適用する機能を提供します。 In many cases, this will be sufficient: often-times you will want, say, to have CDR monitoring enabled for all of your users.
 
 ただしもあります別のサイトに異なる設定を適用する場合。 などおそらくする CDR と QoE を Redmond サイト内の監視の両方を使用するが、CDR は、ダブリンのサイトの監視を使用してのみ。 同様に、Redmond サイトで 60 日間の監視データを保持、ダブリン サイトに 30 日間のこの種のデータを維持するためにのみ必要があることができます。 Skype ビジネス サーバーのでは、サイトのスコープで CDR および QoE 構成設定のコレクションを作成できます。各サイトを異なる方法で管理することができます。 (これには両方を有効にしてを保持するにはどのくらいの時間のデータなどの管理設定を構成すると、監視を無効にする)
 
@@ -111,4 +112,4 @@ Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Mon
 ## <a name="see-also"></a>関連項目
 
 
-[監視を展開します。](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)

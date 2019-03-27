@@ -1,5 +1,6 @@
 ---
 title: ProgressReport テーブル
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
 description: 進行状況レポートは、呼び出し、またはセッションが完了した後に、データベースにクライアントによってアップロードされたデータに基づいています。 進行状況レポートは、呼び出しとビジネス サーバー 2015 の Skype では、診断に役立つことがありますを決定するためのセッションにのみ書き込まれます。
-ms.openlocfilehash: 9acf54e7fb00917ad8263d4c40e534beb29b628c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6d638411f39956664c977e87785a1269ee788a5f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899758"
 ---
 # <a name="progressreport-table"></a>ProgressReport テーブル
  
@@ -22,7 +24,7 @@ ms.lasthandoff: 03/28/2018
   
 呼び出しまたはメッセージの状態を示すメッセージですが、エラーにも、ErrorTime、ErrorReportSeq、ProgressReportSeq フィールドが参照するいないとは限りません。
   
-|**列**|**データ型**|**キーまたはインデックス**|**詳細**|
+|**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |**ErrorTime** <br/> |datetime  <br/> |プライマリ サーバーで、外部  <br/> |日付と時刻この進行状況レポートを含む進行中のエラー報告します。 [ビジネス サーバー 2015 の Skype で ErrorReport テーブル](errorreport.md)の詳細についてを参照してください。 <br/> |
 |**ErrorId** <br/> |int  <br/> |プライマリ サーバーで、外部  <br/> |ID 番号が ErrorTime、進行状況レポートを一意に識別するのには ProgressReportSeq と組み合わせて使用します。 [ビジネス サーバー 2015 の Skype で ErrorReport テーブル](errorreport.md)の詳細についてを参照してください。 <br/> |

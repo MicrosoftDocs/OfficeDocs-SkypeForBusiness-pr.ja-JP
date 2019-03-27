@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype でのシステム使用状況レポート
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 187d316d-2456-417e-b636-05527a18ef06
 description: '概要: は、ビジネス サーバー、Skype のシステム使用状況レポートについて説明します。'
-ms.openlocfilehash: 979736f9e5659abc572b5308db55bd082a4be3c7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5e3bcca092eb1ab8e03a837455924320e3af5e9b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21016768"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896743"
 ---
 # <a name="system-usage-reports-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのシステム使用状況レポート
  
@@ -34,11 +35,11 @@ ms.locfileid: "21016768"
     
 - [ビジネス サーバーの Skype で会議の概要レポート](conference-summary-report.md)
     
-    すべての会議アクティビティに関する概要が示されます。会議は 3 人以上のユーザーが関係するセッションです。
+    すべての会議アクティビティに関する概要が示されます。 会議は 3 人以上のユーザーが関係するセッションです。
     
 - [PSTN 会議の概要レポートでは、Skype ビジネス サーバー](pstn-conference-summary-report.md)
     
-    すべての PSTN 会議に関する概要が示されます。PSTN 会議とは、少なくとも 1 人のユーザーが公衆交換電話網 (PSTN) を使用してダイヤルインする会議です。ダイヤルイン会議とも呼ばれます。
+    すべての PSTN 会議の概要を提供します。 これらは、少なくとも 1 人のユーザーがダイヤルイン会議と呼ばれることも、公衆交換電話網 (PSTN) を使用してダイヤルイン会議です。
     
 - [Skype のビジネス サーバーの応答のグループの使用状況をレポート](response-group-usage-report.md)
     

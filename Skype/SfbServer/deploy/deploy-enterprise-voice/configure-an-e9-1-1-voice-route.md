@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバー用の Skype で ~ 9-1-1 のボイス ルートを構成します。
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: ビジネス サーバーのエンタープライズ VoIP の Skype で ~ 9-1-1 ボイス ルートを構成します。
-ms.openlocfilehash: a465dd40eb79224db4e021a227f46fb0f1f6a129
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 04890782eb9c550428d89c99304c5a7951fc34b7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890323"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894923"
 ---
 # <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>ビジネス サーバー用の Skype で ~ 9-1-1 のボイス ルートを構成します。
  

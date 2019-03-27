@@ -1,5 +1,6 @@
 ---
 title: クライアントを展開する
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 詳細については、展開に関するドキュメントでビジネス サーバー 2019 のクライアントを展開して Skype でデバイスを参照してください。
-ms.openlocfilehash: b0e0b2d627e03aa9796cbc5cd4880fd3ee28a401
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 005948e4e9e5b27746497c55b22b498c6358ac0e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027992"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893663"
 ---
 # <a name="deploy-skype-for-business-server-clients"></a>Skype をビジネスのサーバーのクライアントを展開します。
 

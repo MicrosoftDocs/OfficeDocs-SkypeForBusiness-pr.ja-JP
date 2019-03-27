@@ -1,5 +1,6 @@
 ---
 title: 証明書の割り当て (要求から)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5cd7cab0-1826-4d7f-aca6-d30054d2a9ae
-description: 証明書の割り当て] ページでは、役割を持つサーバーに要求された使用法に証明書を割り当てるプロセスを開始します。 証明書を表示するのには証明書の詳細を表示] をクリックします。 [全般] タブ、[詳細] タブまたは [証明のパス] タブを選択することができます。発行元の証明機関と秘密キーの状態など、証明書に関する基本的な情報は、[全般] タブが表示されます。 [詳細] タブには、サブジェクト名、サブジェクトの別名など、証明書の詳細な情報が表示されます。 [証明のパス] タブでは、ルート証明機関に trustfrom、発行元または中間証明機関 (存在する場合) から証明書の certificatechain が表示されます。
-ms.openlocfilehash: c90993b1a793a7013a094258be52ca47be54f98f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: '[証明書の割り当て] ページでは、役割サーバーでの要求された使用法に証明書を割り当てるプロセスを開始します。 [証明書の詳細の表示] をクリックして証明書を表示します。 [全般] タブ、[詳細] タブまたは [証明のパス] タブを選択することができます。発行元の証明機関と秘密キーの状態など、証明書に関する基本的な情報は、[全般] タブが表示されます。 [詳細] タブには、サブジェクト名、サブジェクトの別名など、証明書の詳細な情報が表示されます。 [証明のパス] タブでは、ルート証明機関に trustfrom、発行元または中間証明機関 (存在する場合) から証明書の certificatechain が表示されます。'
+ms.openlocfilehash: 544f101fa68c5dc5a66c522fd2cdbd19352d99d1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892407"
 ---
 # <a name="certificate-assignment-from-request"></a>証明書の割り当て (要求から)
  

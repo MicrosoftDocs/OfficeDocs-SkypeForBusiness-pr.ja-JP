@@ -1,5 +1,6 @@
 ---
 title: フェデレーション ユーザー アクセスを制御するポリシーの構成
+ms.reviewer: ''
 ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398359(v=OCS.15)
 ms:contentKeyID: 48184180
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'フェデレーション パートナーとの通信をサポートするためにポリシーを構成する場合は、フェデレーション ドメインのユーザーに、ポリシーが適用されます。 '
-ms.openlocfilehash: fcb4b0651c81316e06ab659430c3b0e9e5664e64
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: df5702fb217d238a26a8a9975e7e4a0792787399
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222990"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895077"
 ---
 # <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>ビジネス サーバーの Skype でフェデレーション ユーザー アクセスを制御するポリシーを構成します。
 
@@ -54,7 +55,7 @@ ms.locfileid: "27222990"
     
       - ポリシーのフェデレーション ユーザー アクセスを無効にするには、**フェデレーション ユーザーとの通信を有効にする**] チェック ボックスをオフにします。
 
-7.  [**確定**] をクリックします。
+7.  [**コミット**] をクリックします。
 
 フェデレーション ユーザー アクセスを有効にするには、また組織でフェデレーションのサポートを有効にする必要があります。 詳細については、[有効にするかフェデレーションとパブリック IM 接続を無効にする](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)を参照してください。
 
@@ -122,14 +123,14 @@ ms.locfileid: "27222990"
 
 [フェデレーションおよびパブリック IM 接続の有効化または無効化](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md) 
 
-[外部ユーザー アクセス ポリシーを割り当てる](assign-an-external-user-access-policy.md)
+[外部ユーザー アクセス ポリシーの割り当て](assign-an-external-user-access-policy.md)
 
 [組織の SIP フェデレーション ドメインの管理](../sip-domains/manage-sip-federated-domains-for-your-organization.md)
  
 [組織の SIP フェデレーション プロバイダーの管理](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
 
 [Set-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy)  
-[新しい-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExternalAccessPolicy)  
+[New-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExternalAccessPolicy)  
 [Get CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)  
 [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy)  
 [許可 CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)  

@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype では、ダイヤルイン会議の計画
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: '概要: ビジネス サーバーの Skype では、ダイヤルイン会議の計画の詳細については、このトピックを読みます。'
-ms.openlocfilehash: 1b051cc757c0e55fb2f16b790921da962738ade3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5ea5b6db3c04d9827502a2b7632b409ac7b8ebdc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973578"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893280"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>ビジネス サーバーの Skype では、ダイヤルイン会議の計画
  
@@ -43,7 +44,7 @@ ms.locfileid: "20973578"
 
 ダイヤルイン会議には、少なくとも 1 つの仲介サーバーと少なくとも 1 つの公衆交換電話網 (PSTN) ゲートウェイが必要です。 
   
-仲介サーバーは、中央サイトまたはブランチ サイトに展開できます。中央サイトでは、仲介サーバーをフロントエンド プールまたは Standard Edition サーバー上に併置するか、スタンドアロンのサーバー上またはプールに展開できます。ブランチ サイトでは、仲介サーバーをスタンドアロンのサーバー上か、存続可能ブランチ アプライアンスのコンポーネントとして展開できます。
+仲介サーバーは、中央サイトまたはブランチ サイトに展開できます。 中央サイトでは、仲介サーバーをフロントエンド プールまたは Standard Edition サーバー上に併置するか、スタンドアロンのサーバー上またはプールに展開できます。 ブランチ サイトでは、仲介サーバーをスタンドアロンのサーバー上か、存続可能ブランチ アプライアンスのコンポーネントとして展開できます。
   
 PSTN ゲートウェイは、中央サイトまたはブランチ サイトに展開できます。ブランチ サイトでは、PSTN ゲートウェイは、スタンドアロンの場合と存続可能ブランチ アプライアンスのコンポーネントの場合があります。
   

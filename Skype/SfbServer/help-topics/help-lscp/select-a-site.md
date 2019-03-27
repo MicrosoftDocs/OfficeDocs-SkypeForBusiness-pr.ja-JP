@@ -1,5 +1,6 @@
 ---
 title: サイトの選択
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,13 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
-description: '[サイトの選択] ダイアログ ボックスを使用して、環境で使用可能なサイトを検索します。既存のサイトを使用するには、一覧でサイトをクリックして [OK] をクリックします。'
-ms.openlocfilehash: 39cd1ede1aa3ed3a01cbf32eec4388328d9812f1
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: '[サイトの選択] ダイアログ ボックスを使用して、環境で使用可能なサイトを検索します。 既存のサイトを使用するには、一覧でサイトをクリックして [OK] をクリックします。'
+ms.openlocfilehash: e9e82749d761a8a947ab6206f341d6508f3d8d80
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23256722"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895839"
 ---
 # <a name="select-a-site"></a>サイトの選択
 
@@ -32,9 +33,9 @@ ms.locfileid: "23256722"
 
 [**サイトの選択**] ページでは次のタスクを実行できます。
 
-- [永続的なチャット サーバーのオプションをグローバルに、または永続的なチャット サーバー プールの構成します。](https://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
+- [Configure Persistent Chat Server Options Globally or for Persistent Chat Server Pool](https://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
 
-- [永続的なチャットのサイト ポリシーを作成します。](https://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
+- [Create a Site Policy for Persistent Chat](https://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
 
 詳細ビジネス サーバーのコントロール パネルの Skype を使用して実行できるさまざまな手順については、[ビジネス サーバー 2015 の Skype の管理](../../manage/manage.md)を参照してください。
 

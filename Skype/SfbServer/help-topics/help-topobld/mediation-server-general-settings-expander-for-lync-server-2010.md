@@ -1,5 +1,6 @@
 ---
-title: Lync Server 2010 仲介サーバーの全般設定の展開
+title: Lync Server 2010 用の仲介サーバー全般設定の展開
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
 description: このダイアログ ボックス内の仲介サーバーのプロパティを編集するとします。 左側にあるをクリックすると全般的な設定、次のホップの設定、および PSTN ゲートウェイの設定の設定へのクイック リンクのセットです。 各セクションで、次の設定です。
-ms.openlocfilehash: bc26a6b92746e2cf1453d9ee789500011469527f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: a5af8e844c82d1af194e0c59fde67725c019ec99
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375972"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892428"
 ---
-# <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 仲介サーバーの全般設定の展開
+# <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 用の仲介サーバー全般設定の展開
 
 このダイアログ ボックス内の仲介サーバーのプロパティを編集するとします。 左側にあるをクリックすると全般的な設定、次のホップの設定、および PSTN ゲートウェイの設定の設定へのクイック リンクのセットです。 各セクションで、次の設定です。
 

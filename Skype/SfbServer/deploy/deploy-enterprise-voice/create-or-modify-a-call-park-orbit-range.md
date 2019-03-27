@@ -1,5 +1,6 @@
 ---
 title: 作成またはビジネス用の Skype でコール パークの移動範囲を変更します。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: 作成またはビジネス サーバーのエンタープライズ VoIP の Skype では、コール パーク軌道範囲テーブルを変更します。
-ms.openlocfilehash: 6892c48c95b7c5e84242a1456855e869a70e532b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 23de2c42ff7b7e8bf3c020eaf3bb5050524b87d3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370692"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896121"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>作成またはビジネス用の Skype でコール パークの移動範囲を変更します。
 
@@ -38,7 +39,7 @@ ms.locfileid: "25370692"
 
 ### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>作成または呼び出しを駐車場の番号の範囲を変更するビジネス サーバーのコントロール パネルの Skype を使用するには
 
-1. RTCUniversalServerAdmins グループのメンバーとして、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator のロールのメンバーとしてコンピューターにログオンします。 詳細については、**セットアップのアクセス許可の委任**を参照してください。
+1. RTCUniversalServerAdmins グループのメンバーとして、あるいは CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。詳細については、「**Delegate Setup Permissions**」を参照してください。
 
 2. 、ブラウザー ウィンドウを開き、を開くには、Skype ビジネス サーバーのコントロール パネルの管理 URL を入力します。
 
@@ -77,7 +78,7 @@ ms.locfileid: "25370692"
 
 2. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
 
-3. 軌道番号の新しい範囲を作成するのにには、**新しい CsCallParkOrbit**を使用します。 **セット CsCallParkOrbit**を使用すると、回り込み番号の既存の範囲を変更できます。
+3. オービット番号の新しい範囲を作成するには、**New-CsCallParkOrbit** を使用します。 オービット番号の既存の範囲を変更するには、**Set-CsCallParkOrbit** を使用します。
 
     コマンド ラインで、次のコマンドを実行します。
 

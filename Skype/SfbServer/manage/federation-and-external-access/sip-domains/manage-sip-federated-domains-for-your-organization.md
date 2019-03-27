@@ -1,5 +1,6 @@
 ---
 title: 組織の SIP フェデレーション ドメインの管理
+ms.reviewer: ''
 ms:assetid: abc48829-e5cf-4651-bc38-899192f5c3bc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552454(v=OCS.15)
 ms:contentKeyID: 48679565
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 管理し、フェデレーションを行うことができます SIP ドメインを構成する方法について説明します。
-ms.openlocfilehash: 565971ccf5cd4cbf62f08acc91e15f9615d350f7
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 83623b41e0d9adb1e4539958344214fd2ebe0db9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223088"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892260"
 ---
 # <a name="manage-sip-federated-domains-for-your-organization-in-skype-for-business-server"></a>ビジネス サーバー用の Skype で、組織のフェデレーションする SIP ドメインを管理します。
 
@@ -51,7 +52,7 @@ ms.locfileid: "27223088"
       - **アクセス エッジ サービス (FQDN)** で、アクセス エッジ サービスを実行している特定のサーバーのユーザーにこのフェデレーション ドメインへのアクセスを制限したい場合は、アクセス エッジ サービスを実行して、フェデレーション ドメインのサーバーの FQDN を入力します。    
       - 追加情報を提供する場合は、**コメント**で、この構成については、他のシステム管理者と共有する情報を入力します。
 
-6.  [**確定**] をクリックします。
+6.  [**コミット**] をクリックします。
 7.  許可するフェデレーション パートナー ドメインごとに手順 4 ~ 6 を繰り返します。
 
 フェデレーション ユーザー アクセスを有効にするも、組織でフェデレーション ユーザー アクセスのサポートを有効にする必要があります。 詳細については、[有効にするかリモート ユーザー アクセスを無効にする](../access-edge/enable-or-disable-remote-user-access.md)を参照してください。
@@ -80,7 +81,7 @@ ms.locfileid: "27223088"
    
       - (省略可能)**コメント**] に、この構成については、他のシステム管理者と共有する情報を入力します。
 
-6.  [**確定**] をクリックします。
+6.  [**コミット**] をクリックします。
 7.  禁止するフェデレーション パートナーごとに手順 4 ~ 6 を繰り返します。
 
 フェデレーション ユーザー アクセスを有効にするも、組織でフェデレーション ユーザー アクセスのサポートを有効にする必要があります。 詳細については、[有効にするかリモート ユーザー アクセスを無効にする](../access-edge/enable-or-disable-remote-user-access.md)を参照してください。
@@ -90,10 +91,10 @@ ms.locfileid: "27223088"
 
 ## <a name="see-also"></a>関連項目
 
-[フェデレーション ユーザー アクセスを制御するポリシーを構成します。](../external-access-policies/configure-policies-to-control-federated-user-access.md)  
+[フェデレーション ユーザー アクセスを制御するポリシーの構成](../external-access-policies/configure-policies-to-control-federated-user-access.md)  
 
 [フェデレーションおよびパブリック IM 接続の有効化または無効化](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
 
-[有効にするか、フェデレーション パートナーの検出を無効にします。](../access-edge/enable-or-disable-discovery-of-federation-partners.md)
+[フェデレーション パートナーの検出の有効化または無効化](../access-edge/enable-or-disable-discovery-of-federation-partners.md)
   
 

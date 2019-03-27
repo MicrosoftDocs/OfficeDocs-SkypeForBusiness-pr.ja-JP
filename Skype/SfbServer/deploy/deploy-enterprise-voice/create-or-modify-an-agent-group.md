@@ -1,5 +1,6 @@
 ---
 title: 作成するか、ビジネスの Skype でエージェント グループを変更
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: 作成またはビジネス サーバーのエンタープライズ VoIP の Skype での応答グループのエージェント グループを変更します。
-ms.openlocfilehash: 0eb94658abac8d137b915fd5a499364b43b51916
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 16dafbfc3157e08a187be5799c5901115d738b48
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370685"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894537"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>作成するか、ビジネスの Skype でエージェント グループを変更
  
@@ -112,7 +113,7 @@ ms.locfileid: "25370685"
     
      - 応答グループの管理者は配布リストし、応答グループのプロセスに適切なユーザー権利が設定されている場合は、[エージェント] ボックスの一覧に割り当てるを参照してくださいできる場合がありますが Exchange のグローバル アドレス一覧に表示されるように配布リストが構成されている場合、アクセス許可を管理者が適切なユーザー権利とアクセス許可があるない場合でも。
     
-11. [**確定**] をクリックします。
+11. [**コミット**] をクリックします。
     
 ### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-agent-group"></a>ビジネス サーバー管理シェルの Skype を使用して作成するか、エージェント グループを変更するのには
 
@@ -120,7 +121,7 @@ ms.locfileid: "25370685"
     
 2. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
     
-3. 新しいエージェント グループを作成するのにには、**新しい CsRgsAgentGroup**を使用します。 **セット CsRgsAgentGroup**を使用すると、既存のエージェント グループを変更できます。 コマンド ラインで、次のコマンドを実行します。
+3. 新規エージェント グループを作成するには、**New-CsRgsAgentGroup** を使用します。 既存のエージェント グループを変更するには、**Set-CsRgsAgentGroup** を使用します。 コマンド ラインで、次のコマンドを実行します。
     
    ```
    New-CsRgsAgentGroup -Name "<agent group name>" -Parent $serviceId [-Description "<agent group description>"] -[AgentAlertTime <# seconds until call is routed to next agent>] [-ParticipationPolicy <Formal | Informal>] [-RoutingMethod <method for routing calls>] [-AgentsByUri("<first agent's SIP address>","<second agent's SIP address>")];

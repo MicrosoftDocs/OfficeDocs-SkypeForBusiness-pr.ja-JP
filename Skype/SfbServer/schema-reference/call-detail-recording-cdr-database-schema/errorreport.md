@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバー 2015 の Skype で ErrorReport テーブル
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
 description: ErrorReport テーブルでは、発生したエラーに関する情報を格納します。 各レコードは、1 つのエラーの発生です。 エラーは、フロント エンド サーバーで実行されている CDR エージェントがいずれかの方法を取得またはクライアントから送信されます。
-ms.openlocfilehash: 80ae8cb9fb4bea586ac31456fc396856e5263a34
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 99dcdc7aa78b20f555f94614ba94c80103b56211
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899272"
 ---
 # <a name="errorreport-table-in-skype-for-business-server-2015"></a>ビジネス サーバー 2015 の Skype で ErrorReport テーブル
  
 ErrorReport テーブルでは、発生したエラーに関する情報を格納します。 各レコードは、1 つのエラーの発生です。 エラーは、フロント エンド サーバーで実行されている CDR エージェントがいずれかの方法を取得またはクライアントから送信されます。
   
-|**列**|**データ型**|**キーまたはインデックス**|**詳細**|
+|**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |**ErrorTime** <br/> |datetime  <br/> |Primary  <br/> |日付と時刻のエラーが発生しました。  <br/> |
 |**ErrorReportSeq** <br/> |int  <br/> |Primary  <br/> |エラー レポートを識別する ID 番号。 エラー報告を一意に識別するのには**ErrorTime**と組み合わせてを使用します。 <br/> |

@@ -1,5 +1,6 @@
 ---
 title: 既存の展開環境からトポロジをダウンロードする
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype のビジネス サーバー 2019 プールを作成するときは、従来のインストールに関連付けられている中央管理ストアを使用します。 起動すると、トポロジ ビルダーを初めて使用するときと、それ以降の編集セッション、トポロジ ビルダーを現在の構成ドキュメントをロードする先の場所のメッセージが表示されたら。 トポロジの定義がある状態、中央管理ストアを確立しているために、既存の展開からトポロジをダウンロードする選択してください。 トポロジ ビルダーは、データベースの読み取りし、現在の定義を取得します。
-ms.openlocfilehash: e43bfa6da2bdcb96a28f157c9fc4a6f9e50c3508
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 35c0d7163d58c17db16678ba14fd8c7b6b400c9f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030533"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896759"
 ---
 # <a name="download-topology-from-existing-deployment"></a>既存の展開環境からトポロジをダウンロードする
 

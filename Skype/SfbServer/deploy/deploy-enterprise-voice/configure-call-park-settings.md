@@ -1,5 +1,6 @@
 ---
 title: ビジネス用の Skype のコール パーク設定を構成します。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: Skype ビジネス サーバーのエンタープライズ VoIP のコール パーク設定を変更します。
-ms.openlocfilehash: 4a80b9e60085c3091aacbbf619f0dbe672b64251
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ab2fec9a0455316ea1b0fcba6a771b91f0d115d0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373678"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891651"
 ---
 # <a name="configure-call-park-settings-in-skype-for-business"></a>ビジネス用の Skype のコール パーク設定を構成します。
 
@@ -29,7 +30,7 @@ Skype ビジネス サーバーのエンタープライズ VoIP のコール パ
 > [!NOTE]
 > 少なくとも、保留された通話が時間切れになりリングバックが失敗した場合に使用する代替宛先の [**OnTimeoutURI**] オプションは構成することをお勧めします。
 
-次の設定のいずれかを構成するのにには、**新規 CsCpsConfiguration**コマンドレットまたは**セット CsCpsConfiguration**コマンドレットを使用します。
+**New-CsCpsConfiguration** コマンドレットまたは **Set-CsCpsConfiguration** コマンドレットを使用して、次のいずれかの設定を構成します。
 
 
 | **このオプション:**                     | **指定する内容:**                                                                                                                                                                                                                                                                                                                   |
@@ -50,9 +51,9 @@ Skype ビジネス サーバーのエンタープライズ VoIP のコール パ
    ```
 
    > [!TIP]
-   > サイトを識別するのにには、 **Get CsSite**コマンドレットを使用します。 詳細については、サーバー管理シェルのビジネス ドキュメントの Skype を参照してください。
+   > サイトを識別するには、**Get-CsSite** コマンドレットを使用します。 詳細については、サーバー管理シェルのビジネス ドキュメントの Skype を参照してください。
 
-    例:
+    次に例を示します。
 
    ```
    New-CsCpsConfiguration -Identity site:Redmond1 -CallPickupTimeoutThreshold 00:01:00 -EnableMusicOnHold $false -MaxCallPickupAttempts 2 -OnTimeoutURI sip:bob@contoso.com

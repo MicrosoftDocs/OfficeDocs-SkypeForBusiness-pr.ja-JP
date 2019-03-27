@@ -316,7 +316,7 @@
 
 ## [Windows PowerShell 用にコンピューターをセットアップする](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 ### [Skype for Business Online Connector との接続の問題を診断する](../set-up-your-computer-for-windows-powershell/diagnose-problems-with-the-skype-for-business-online-connector.md)
-### [Windows PowerShell 3.0 をダウンロードしてインストールします。](../set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-3-0.md)
+### [Windows PowerShell 3.0 をダウンロードしてインストールします。](../set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1.md)
 ### [Skype for Business Online Connector をダウンロードしてインストールする](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)
 ### [Exchange ユニファイド メッセージングとホスト型ボイス メールを管理する](../set-up-your-computer-for-windows-powershell/manage-exchange-unified-messaging-and-hosted-voicemail.md)
 ### [ユーザー アカウントを管理する](../set-up-your-computer-for-windows-powershell/manage-user-accounts.md)

@@ -1,5 +1,6 @@
 ---
 title: 現代での認証 (ADAL) Skype ビジネスの計画
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -9,14 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: この資料では、どのような近代的な認証、Active Directory 認証ライブラリ (ADAL) と OAuth 2.0 に基づく) はについて説明します。
-ms.openlocfilehash: c7a4c6e8cdc012fb5770995028bc5f961093f623
-ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
+ms.openlocfilehash: 0c3aeef2480494e45a4d18589b3e3cdc6d9c5357
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25694582"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891210"
 ---
-# <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>How to use Modern Authentication (ADAL) with Skype for Business
+# <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>Skype for Business で先進認証 (ADAL) を使用する方法
  
 この記事で紹介現代の認証 (これは、Active Directory 認証ライブラリ (ADAL) と OAuth 2.0 に基づく) 2016年 3 月を参照しているビジネス サーバー 2015 年または最初から、Skype のビジネス用の Skype 用の累積的な更新ビジネス サーバー 2019 の Skype をリリースします。
   

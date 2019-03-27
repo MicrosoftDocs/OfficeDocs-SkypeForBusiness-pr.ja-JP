@@ -1,5 +1,6 @@
 ---
-title: マイクロソフトの StaffHub になった
+title: Microsoft StaffHub の廃止
+author: kenwith
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
@@ -14,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Office for business, Microsoft Teams
-ms.openlocfilehash: 0a7f21b4c999ab7300b88e059b87d3710ddd700a
-ms.sourcegitcommit: 3d3a296f225ecbbee0b4cea67664ad7ab31ed1c2
+ms.openlocfilehash: f0ce0ce2df6ecd9da1ead976ba9f03985f5511fa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30537725"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893042"
 ---
-# <a name="microsoft-staffhub-to-be-retired"></a>マイクロソフトの StaffHub になった
+# <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub の廃止
 
 2019 年 10 月 1 日より、Microsoft StaffHub が廃止されます。 スケジュールやタスク管理などの StaffHub の機能は Microsoft Teams に構築中です。 チームのモバイル アプリケーションには、shift キーを管理し、ホーム画面の操作性が含まれています。 現場担当者向けの追加機能は、段階的に Teams に公開されます。 
 

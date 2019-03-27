@@ -1,5 +1,6 @@
 ---
 title: Business Server のインスタント メッセージングと Skype のプレゼンスの計画します。
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
 description: '概要: ビジネスのサーバーにインスタント メッセージングとプレゼンスの Skype を計画する方法を説明します。'
-ms.openlocfilehash: e68a7b427545105db9ed543e2f1ad77411ba88b7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 8d26ad08242248f08e2e54ba7e46d2aa112e362a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002234"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898209"
 ---
 # <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Business Server のインスタント メッセージングと Skype のプレゼンスの計画します。
  
@@ -36,7 +37,7 @@ ms.locfileid: "21002234"
   
 ### <a name="enabling-communication-with-external-users"></a>外部ユーザーとの通信を有効にする
 
-Skype for Business Server への投資による収益性は、ユーザーが外部ユーザーと通信できるようにすることで大幅に高められます。外部ユーザーには次のユーザーが含まれます。
+外部ユーザーと通信できるので、ビジネス サーバー Skype でお客様の投資のメリットが大幅に増加できます。 外部ユーザーには次のユーザーが含まれます。
   
 - リモート ユーザー: 組織のユーザー、あなたはファイアウォールの外側で作業し、ビジネス サーバー デバイスをラップトップ コンピューターやその他の Skype を使用しています。
     
@@ -48,16 +49,16 @@ Skype for Business Server への投資による収益性は、ユーザーが外
 > AOL、Yahoo、Google Talk はサポートされなくなりました。 
   
 > [!NOTE]
-> これらのシナリオのいくつか、またはすべてを有効にするには、Skype for Business Server の展開と外部ユーザーの間でセキュリティで保護された通信を有効にできるようにエッジ サーバーを展開する必要があります。 組織のリモート ユーザーとフェデレーション組織のユーザーは、互いの存在を確認し、IM を使用して通信できるようなります。 
+> これらのシナリオの一部またはすべてを有効にするには、Skype をビジネス サーバーの展開と外部ユーザーの間でセキュリティで保護された通信を有効にするためにエッジ サーバーを展開する必要があります。 組織のリモート ユーザーとフェデレーション組織のユーザーは、互いの存在を確認し、IM を使用して通信できるようなります。 
   
 > [!NOTE]
 > XMPP (eXtensible Messaging and Presence Protocol) は、Unified Capabilities Collaboration Platform (UCCP) Joint Interoperability Test Command (JITC) 証明書シナリオでのみサポートされます。 
   
 ### <a name="archiving-im-content"></a>IM コンテンツをアーカイブする
 
-Skype for Business Server には、組織で法令上の規制に従う必要がある場合に使用できる機能があります。 アーカイブを使用すると、組織内のすべてのユーザーまたは指定する特定のユーザーの IM メッセージの内容をアーカイブすることができます。 詳細については、 [Skype のビジネス サーバーでアーカイブするための計画](archiving/archiving.md)を参照してください。 
+Skype ビジネス サーバーには、組織がコンプライアンスに関する規制に従う必要がある場合に使用できる機能が用意されています。 アーカイブを使用すると、組織内のすべてのユーザーまたは指定する特定のユーザーの IM メッセージの内容をアーカイブすることができます。 詳細については、 [Skype のビジネス サーバーでアーカイブするための計画](archiving/archiving.md)を参照してください。 
   
-Microsoft Exchange Server 2013 も展開している場合は、Exchange データのアーカイブと Skype for Business Server データのアーカイブを統合して、1 つのツールを使用して両種類のアーカイブ データを検索することができます。 詳細については、[ビジネス サーバーで Exchange Server のアーカイブを使用する Skype の設定](../deploy/integrate-with-exchange-server/use-exchange-archiving.md)を参照してください。
+Microsoft Exchange Server 2013 の展開もあれば、Skype のビジネス サーバーのデータのアーカイブと、Exchange データのアーカイブを統合し、アーカイブ ・ データの両方の種類を検索する 1 つのツールを使用できます。 詳細については、[ビジネス サーバーで Exchange Server のアーカイブを使用する Skype の設定](../deploy/integrate-with-exchange-server/use-exchange-archiving.md)を参照してください。
   
 ### <a name="topologies-and-components"></a>トポロジとコンポーネント
 

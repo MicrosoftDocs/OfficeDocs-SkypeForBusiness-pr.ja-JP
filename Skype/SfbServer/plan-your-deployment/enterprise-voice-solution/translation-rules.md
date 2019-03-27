@@ -1,5 +1,6 @@
 ---
 title: Skype ビジネス サーバー用の変換規則
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: 変換規則について説明し、ビジネス サーバーのエンタープライズ VoIP の Skype で文字列の正規化をダイヤルします。
-ms.openlocfilehash: e32cdd3f3dd21ac4aa87dcdd7eecddf8be9153e6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5b609701779a80645061036fd04e4a46427261b3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886297"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893634"
 ---
 # <a name="translation-rules-in-skype-for-business-server"></a>Skype ビジネス サーバー用の変換規則
 
@@ -35,7 +36,7 @@ ms.locfileid: "23886297"
 
 以下の変換ルールの例では、トランク ピアについて E.164 形式からローカル形式に番号を変換するルールをサーバー上に作成する方法を示しています。
 
-翻訳ルールを実装する方法の詳細については、展開に関するドキュメントの[変換ルールの定義](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)を参照してください。
+変換ルールを実装する方法については、「展開」のドキュメントの「[Defining Translation Rules](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)」を参照してください。
 
 |**説明**|**先頭の数字**|**長さ**|**削除する数字**|**追加する数字**|**パターンに一致します。**|**変換**|**例**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|

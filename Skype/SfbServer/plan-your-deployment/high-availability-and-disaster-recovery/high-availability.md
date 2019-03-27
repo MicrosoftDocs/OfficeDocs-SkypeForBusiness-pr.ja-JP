@@ -1,5 +1,6 @@
 ---
 title: フロントエンド プールの高可用性と管理
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: プール、クォーラムの損失、および 2 つのフロント エンド サーバーとプールの特別な手順の管理を含むビジネス サーバーは、Skype でのフロント エンド プールの管理について説明します。
-ms.openlocfilehash: ba15e090829256188763a0e7791cebb29f097422
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 43c8e3fffb010bf268f94970b5cca25ecee7cd58
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21005247"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894196"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>フロントエンド プールの高可用性と管理
  
@@ -29,7 +30,7 @@ ms.locfileid: "21005247"
   
 モデルでは、分散のフロント エンド プール、プールのサーバーの特定の番号をプールの機能を実行しなければなりません。 プールの 2 つの損失モードがあります。
   
-- ルーティング グループ レベル クォーラム損失。特定のルーティング グループに十分な数のレプリカ サーバーがないことによって発生します。ルーティング グループとは、そのプールに所属する 1 組のユーザーです。各ルーティング グループは、プライマリ レプリカ 1 台とセカンダリ レプリカ 2 台という 3 台のレプリカをプールに持っています。
+- クォーラムの損失のグループ レベルのルーティングは、十分な特定のルーティング グループのレプリカ ・ サーバによって発生します。 ルーティング グループは、一連のユーザーのホーム プールにします。 各ルーティング グループが、プールの 3 つのレプリカ: 1 つのプライマリ レプリカとセカンダリの 2 つのレプリカです。
     
 - プール レベル クォーラム損失。プールで十分な数のシード サーバーが実行されていない場合に発生します。 
     

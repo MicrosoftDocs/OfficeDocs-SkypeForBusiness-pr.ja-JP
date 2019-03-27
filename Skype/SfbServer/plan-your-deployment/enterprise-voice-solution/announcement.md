@@ -1,5 +1,6 @@
 ---
 title: ビジネス用の Skype で知らせアプリケーションの計画
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: ビジネス サーバーのエンタープライズ VoIP の Skype [お知らせ] アプリケーションの計画を構成、組織に割り当てられていない電話番号への電話の処理をします。 また、オーディオ ファイルの要件についても説明します。
-ms.openlocfilehash: 2642dc13653f18520371b31c9e5ff41bc6a479d3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5e3b9af1a6bdc83081a1a8f17cd4963337efbbb6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882106"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896561"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>ビジネス用の Skype で知らせアプリケーションの計画
 
@@ -43,10 +44,10 @@ ms.locfileid: "23882106"
 アナウンス アプリケーションでは、SIP リッスン要求に**ポート 5071**を使用します。
 
 > [!NOTE]
-> このポートは、**セット CsApplicationServer**コマンドレットを使用して変更することができます既定の設定です。 詳細については、このコマンドレットは、サーバー管理シェルのビジネス ドキュメントの Skype を参照してください。
+> このポートは既定の設定であり、**Set-CsApplicationServer** コマンドレットを使用して変更することができます。 詳細については、このコマンドレットは、サーバー管理シェルのビジネス ドキュメントの Skype を参照してください。
 
 ### <a name="audio-file-requirements"></a>オーディオ ファイルの要件
 
-アナウンス アプリケーションは、Wave (.wav) ファイル形式および Windows Media オーディオ (.wma) をサポートしている音楽やお知らせのファイル形式です。 アナウンス アプリケーションのオーディオ ファイルの要件は、応答グループ アプリケーションの場合と同じです。 詳細については、[応答グループの技術的な要件](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)を参照してください。
+アナウンス アプリケーションは、Wave (.wav) ファイル形式および Windows Media オーディオ (.wma) をサポートしている音楽やお知らせのファイル形式です。 アナウンス アプリケーションのオーディオ ファイルの要件は、応答グループ アプリケーションの場合と同じです。 詳細は、「[Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)」を参照してください。
 
 

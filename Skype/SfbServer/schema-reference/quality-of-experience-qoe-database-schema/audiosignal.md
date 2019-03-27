@@ -1,5 +1,6 @@
 ---
 title: AudioSignal テーブル
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
 description: 各レコードは、1 つのエンドポイントのオーディオ信号の測定値を表します。 通常、各呼び出しには、2 つのレコードが含まれています、1 に対して、呼び出し元、呼び出し先の 1 つは、です。
-ms.openlocfilehash: 0ffab37f49e55f73d8d414258e208265e2b5e9ff
-ms.sourcegitcommit: c12afd4dd5509a4552b2999430953273d36db039
+ms.openlocfilehash: 7a064f13b6f34f61dcfb72169a4b1620cd81b01f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21781649"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895119"
 ---
 # <a name="audiosignal-table"></a>AudioSignal テーブル
  
@@ -40,7 +41,7 @@ ms.locfileid: "21781649"
 |**AudioTimestampErrorSpkMs** <br/> |decimal(9,2)  <br/> | <br/> |平均のスピーカーでは、呼び出しの最後の 20 秒間 (ミリ秒単位) のストリーム タイム スタンプ エラーをレンダリングします。  <br/> |
 |**VsEntryCauses** <br/> |smallint  <br/> | <br/> |ボイス スイッチは、中断を削減できると半二重モードです。 声の原因は、エントリを切り替えます。  <br/> ENTER_VS_BADTS 0X01  <br/> ENTER_VS_ECHO 0X02  <br/> ENTER_VS_FORCEORCONVERGENCE 0X04  <br/> ENTER_VS_DNLP 0X08  <br/> 原因は、これらの個々 の原因の組み合わせです。 ENTER_VS_FORCEORCONVERGENCE は、レジストリ キーはテスト目的でのみ有効にすることができます。  <br/> Microsoft Lync Server 2013 では、この列のデータ型が変更されました。  <br/> |
 |**EchoEventCauses** <br/> |tinyint  <br/> | <br/> |エコー イベントの原因。  <br/> ECHO_EVENT_BAD_TIMESTAMP 0X01  <br/> ECHO_EVENT_POSTAEC_ECHO 0X02  <br/> ECHO_EVENT_ANLP 0X04  <br/> ECHO_EVENT_DNLP 0X08  <br/> ECHO_EVENT_MIC_CLIPPING 0X10  <br/> ECHO_EVENT_BAD_STATE 0X20  <br/> 原因は、これらの個々 の原因の組み合わせです。  <br/> |
-|**EchoPercentMicIn** <br/> |decimal(5,2)  <br/> | <br/> |マイク キャプチャ ストリームでエコーが検出される時間の割合です。通常、ヘッドセットやハンドセットでは値が小さくなり、スピーカー フォンやスタンドアロンのスピーカーでは値が大きくなります。オンボードのアコーステック エコー キャンセレーションをサポートしているデバイスでの高い値は、エコー リークを示します。その他のデバイスでは、この指標をデバイス品質の評価に使用しないでください。  <br/> |
+|**EchoPercentMicIn** <br/> |decimal(5,2)  <br/> | <br/> |エコーがマイク キャプチャ ストリームで検出された場合の時間の割合。 通常、値は、ヘッドセットやハンドセット、低以上スピーカー フォンまたはスタンドアロンのスピーカー。 内蔵型のアコースティック エコー キャンセレーションをサポートしているデバイスでは、高の値は、エコーのリークを示します。 その他のデバイスでは、この指標がないデバイスの品質を評価するために使用してください。  <br/> |
 |**EchoPercentSend** <br/> |decimal(5,2)  <br/> ||エコーが検出された場合の時間の割合は、ストリームを送信します。 高エコーのパーセンテージでは、エコー リークを示す値をストリームに送信します。  <br/> |
 |**RxAGCSignalLevel** <br/> |int  <br/> | <br/> |ゲートウェイから仲介サーバー上の信号レベルを受信しました。これは、仲介サーバーにのみ適用されます。 DBoV は、この測定の単位です。 高品質、適正範囲をする必要があります [-18 に-30] dBoV です。  <br/> |
 |**RxAGCNoiseLevel** <br/> |int  <br/> | <br/> |ゲートウェイから仲介サーバーで受信した信号レベルです。 これは、仲介サーバーにのみ適用されます。 DBoV は、この測定の単位です。 高品質は、許容範囲はより小さい-50 dBoV をする必要があります。  <br/> |

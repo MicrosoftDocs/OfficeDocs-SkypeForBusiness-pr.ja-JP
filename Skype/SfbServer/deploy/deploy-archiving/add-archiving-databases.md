@@ -1,5 +1,6 @@
 ---
 title: Skype で既存の展開にビジネスのサーバーにアーカイブ データベースを追加します。
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: '概要: ビジネス サーバーの展開について、Skype にアーカイブ データベースを追加する方法の詳細については、このトピックを読みます。'
-ms.openlocfilehash: c2e92b1da9dd5e9827b362bf4979ffba075c4402
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 083b6329cdf27331ba861b96a74f94e2ae5aa912
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372952"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895315"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>Skype で既存の展開にビジネスのサーバーにアーカイブ データベースを追加します。
  
@@ -95,7 +96,7 @@ ms.locfileid: "25372952"
 5. [**データベースの作成**] ページで、データベースが選択されていることを確認し、[**次へ**] をクリックします。 
     
     > [!NOTE]
-    > データベースを作成するための適切なアクセス許可を持っていない場合、ここでのデータベースの選択を取り消して、適切なアクセス許可を持つ別のユーザーがデータベースを作成できます。 > 専用の SQL サーバー データベースだけは、トポロジ ビルダーを使用してインストールできます。 他のサーバー コンポーネントと併置されている SQL Server 上のデータベースは、そのコンピューター上でローカル セットアップを実行することによってインストールする必要があります。 
+    > データベースを作成するための適切なアクセス許可を持っていない場合、ここでのデータベースの選択を取り消して、適切なアクセス許可を持つ別のユーザーがデータベースを作成できます。 _gt だけのデータベースを専用の SQL サーバーは、トポロジ ビルダーを使用してインストールできます。 他のサーバー コンポーネントと併置されている SQL Server 上のデータベースは、そのコンピューター上でローカル セットアップを実行することによってインストールする必要があります。 
   
 6. [**公開ウィザードの完了**] ページで、トポロジが正常に公開されたことを確認し、[**完了**] をクリックします。
     

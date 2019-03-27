@@ -1,5 +1,6 @@
 ---
-title: プールでフェイル バックをし、障害が発生しました。
+title: プールのフェールオーバーおよびフェールバック
+ms.reviewer: ''
 author: heidip
 manager: serdars
 ms.audience: ITPro
@@ -7,12 +8,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: .
-ms.openlocfilehash: 23b70817ba75f3a0a6e73cc42a9df9026e17b2d7
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 809d0305eaa4c8e2197c5137a647ff9354cbf9bd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223508"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899779"
 ---
 # <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>Skype でプールをビジネス サーバーのフェイル バックをし、障害が発生しました。 
 

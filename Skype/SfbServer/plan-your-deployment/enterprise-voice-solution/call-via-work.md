@@ -1,5 +1,6 @@
 ---
 title: Skype ビジネス サーバーの作業時間を使用して呼び出すのための計画
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: ビジネス サーバーの Skype の呼び出しを使用して作業の計画、できます Skype のビジネスとお使いの PBX 電話システムとの統合ユーザーは、PBX 電話を制御するビジネス用の Skype を使用できるようにします。
-ms.openlocfilehash: b7c1765af7140bdfc1a0e304dd94218231ed41c7
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 3a2452f732d55f305d91cee9cd2b940f7bb3c88e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887920"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891665"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>Skype ビジネス サーバーの作業時間を使用して呼び出すのための計画
  
 ビジネス サーバーの Skype の呼び出しを使用して作業の計画、できます Skype のビジネスとお使いの PBX 電話システムとの統合ユーザーは、PBX 電話を制御するビジネス用の Skype を使用できるようにします。
   
- **作業の呼び出しで**は、ビジネス サーバー ビジネス ソリューションは、Skype を既存の PBX 電話システムと統合するための Skype の新機能です。 ビジネスでの展開、または外部のユーザーであっても、他のユーザーを呼び出す Skype の呼び出しを使用して有効になっているユーザーことができますをクリックします。 この通話は、ユーザーの PBX 電話を使用して行われます。 これにより、PBX 電話を持つユーザーのビジネス会話の豊富な Skype のオーディオが含まれます。 Lync Server のリモート呼び出しの以前のバージョンでは、コントロールは、Lync Server は PBX 電話を制御するユーザーを有効にする機能でした。 ビジネス サーバーの Skype は、この機能は作業時間を使用して呼び出しを交換済み。
+ **作業の呼び出しで**は、ビジネス サーバー ビジネス ソリューションは、Skype を既存の PBX 電話システムと統合するための Skype の新機能です。 ビジネスでの展開、または外部のユーザーであっても、他のユーザーを呼び出す Skype の呼び出しを使用して有効になっているユーザーことができますをクリックします。 この通話は、ユーザーの PBX 電話を使用して実現されます。 これにより、PBX 電話を持つユーザーのビジネス会話の豊富な Skype のオーディオが含まれます。 Lync Server のリモート呼び出しの以前のバージョンでは、コントロールは、Lync Server は PBX 電話を制御するユーザーを有効にする機能でした。 ビジネス サーバーの Skype は、この機能は作業時間を使用して呼び出しを交換済み。
   
 作業を使用して呼び出しが PBX 電話ユーザーは、次を有効に
   

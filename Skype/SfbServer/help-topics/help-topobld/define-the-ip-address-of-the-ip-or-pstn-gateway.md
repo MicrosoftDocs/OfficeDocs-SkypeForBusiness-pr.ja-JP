@@ -1,5 +1,6 @@
 ---
-title: IP または PSTN ゲートウェイの IP アドレスを定義します。
+title: IP または PSTN ゲートウェイの IP アドレスの定義
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 description: IP または電話交換電話網 (PSTN) ゲートウェイの IPv4 または IPv6 アドレスを定義するを有効にする IPv4 または IPv6 を有効にするのいずれかを選択します。 いずれかの方法を使用して、すべての構成された IP アドレスまたは IP アドレスを選択したサービスの使用を制限することができます。
-ms.openlocfilehash: c6d287fdb6705bbca00a6aa269f548f30417c513
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 4def45565685b819fa587e61e1c7588a3664d225
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260602"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894825"
 ---
-# <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>IP または PSTN ゲートウェイの IP アドレスを定義します。
+# <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>IP または PSTN ゲートウェイの IP アドレスの定義
 
 IP または電話交換電話網 (PSTN) ゲートウェイの IPv4 または IPv6 アドレスを定義する**を有効にする IPv4**または**IPv6 を有効にする**のいずれかを選択します。 **構成されているすべての IP アドレスを使用する**] または [**選択した IP アドレスを使用するサービスの制限**を選択できます。
 

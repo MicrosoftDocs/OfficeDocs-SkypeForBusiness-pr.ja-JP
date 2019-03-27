@@ -1,5 +1,6 @@
 ---
 title: ビジネス サーバーの Skype での個々 の SIP トランクに関する情報を表示
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
 description: '概要: は、Skype のビジネス サーバーの SIP トランクに関する情報を表示する方法を説明します。'
-ms.openlocfilehash: 41f0946c0400e34b7cb876048e73fda073657b61
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 105d093b302bc61816464ed3998ab985769f5e54
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881981"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898635"
 ---
 # <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>ビジネス サーバーの Skype での個々 の SIP トランクに関する情報を表示
  

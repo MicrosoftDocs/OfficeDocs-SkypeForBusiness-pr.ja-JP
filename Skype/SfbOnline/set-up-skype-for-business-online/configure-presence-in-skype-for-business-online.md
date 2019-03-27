@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Online でプレゼンスを設定する
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Learn how to set up Skype for Business so you can see the availability of your co-workers. '
-ms.openlocfilehash: a3d65a3ef79bb24e5f05a5bd761170e618cc2020
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 5c8d30106397d18957c7866d9b4961cfa1409f83
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849949"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894159"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Skype for Business Online でプレゼンスを設定する
 
@@ -33,7 +34,7 @@ ms.locfileid: "23849949"
 
 すべてのユーザー、ビジネス**[管理](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** ビジネスの Skype でオンライン サイトの閲覧対象者を選択できます。
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
+![デバイスのロゴ-30x30.png](../images/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
 
 1. **Office 365 管理センター**を参照して > **管理センター** > **ビジネス用の Skype**です。
 
@@ -52,10 +53,10 @@ ms.locfileid: "23849949"
 
 - [ビジネス用の Skype のステータス オプションを設定します。](https://support.office.com/en-us/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 
-[Skype for Business ユーザーが Skype 連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
+[Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
 
 

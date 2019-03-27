@@ -1,5 +1,6 @@
 ---
-title: オンライン ビジネスのお客様は Skype のフェデレーション サポートを構成します。
+title: Skype for Business Online ユーザーのフェデレーション サポートの構成
+ms.reviewer: ''
 ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202193(v=OCS.15)
 ms:contentKeyID: 48185669
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: '組織のビジネス用の Skype を導入する場合を統合 Skype の 1 つまたは複数のドメインを持つビジネス オンラインのお客様です。 '
-ms.openlocfilehash: 978da18a4ae639e52dedd6971c1a2291c94cb9f1
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 70eda58c5d01b09c9f3e00ef8f3ac0391a90ed07
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223368"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899723"
 ---
 # <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>ビジネス サーバーの Skype でのオンライン ビジネスのお客様は Skype のフェデレーション サポートを構成します。 
 
@@ -70,7 +71,7 @@ Skype のオンライン ビジネスの顧客とのフェデレーションに�
     
       - **Id**は、作成するホスティング プロバイダーの一意の文字列値の識別子を指定します。 既存のプロバイダーは、その Id を使用して既に構成されている場合、コマンドが失敗することを注意してください。
     
-      - **ProxyFQDN**は、ホスティング プロバイダーによって使用されるプロキシ サーバーの完全修飾ドメイン名 (FQDN) を指定します。 この値を変更することはできません。 ホスティング プロバイダーは、プロキシ サーバーを変更した場合は、削除し、そのプロバイダーのエントリを再作成する必要があります。
+      - **ProxyFQDN** は、ホスティング プロバイダーによって使用されるプロキシ サーバーの完全修飾ドメイン名 (FQDN) を指定します。 この値を変更することはできません。 ホスティング プロバイダーは、プロキシ サーバーを変更した場合は、削除し、そのプロバイダーのエントリを再作成する必要があります。
     
       - **VerificationLevel**を指定する方法 (または) ホスティング プロバイダーから送信されたメッセージがそのプロバイダーから送信されたことを確認することを確認します。
     

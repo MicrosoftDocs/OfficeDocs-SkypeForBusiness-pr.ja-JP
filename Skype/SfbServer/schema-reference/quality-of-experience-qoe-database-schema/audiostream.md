@@ -1,5 +1,6 @@
 ---
 title: AudioStream テーブル
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: 各レコードは、1 つのオーディオ ストリームを表します。 オーディオ メディアの 1 つの行には、通常 2 つのオーディオ ストリームが含まれています。
-ms.openlocfilehash: 2e910eb3f6717beed4ba228237f16b96471aea29
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 7c1e7ae70a04aabc7db704aaaad873bc5b2100c9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570052"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894136"
 ---
 # <a name="audiostream-table"></a>AudioStream テーブル
  
@@ -43,7 +44,7 @@ ms.locfileid: "19570052"
 |**DegradationPacketLossAvg** <br/> |decimal(3,2)  <br/> | <br/> |ネットワーク MOS の低下がパケットの損失が原因で発生します。  <br/> |
 |**AudioPayloadDescription** <br/> |int  <br/> |外部  <br/> |オーディオ コーデックは、PayloadDescription テーブルから参照される、呼び出しに使用されます。  <br/> |
 |**AudioSampleRate** <br/> |int  <br/> | <br/> |ストリームのオーディオのサンプリング レートです。  <br/> |
-|**ラウンドト リップ** <br/> |int  <br/> | <br/> |RTCP の統計情報のラウンド トリップ時間です。 許容可能な品質を 100 ミリ秒未満であるはずです。  <br/> |
+|**RoundTrip** <br/> |int  <br/> | <br/> |RTCP の統計情報のラウンド トリップ時間です。 許容可能な品質を 100 ミリ秒未満であるはずです。  <br/> |
 |**RoundTripMax** <br/> |int  <br/> | <br/> |オーディオ ストリームの最大のラウンド トリップ時間です。  <br/> |
 |**OverallAvgNetworkMOS** <br/> |decimal(3,2)  <br/> | <br/> |広帯域ネットワーク MOS を呼び出しの平均値です。 このメトリックは、パケット損失、ジッター、および使用するコーデックによって異なります。 範囲は、[1.0 5.0] です。  <br/> |
 |**OverallMinNetworkMOS** <br/> |decimal(3,2)  <br/> | <br/> |最小広帯域ネットワーク MOS を呼び出しので。  <br/> |

@@ -1,5 +1,6 @@
 ---
 title: 複数のテナントにセッション ボーダー コントローラーを構成する
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: 複数のテナントを処理する 1 つのセッション ボーダー コント ローラー (SBC) を構成する方法について説明します。
-ms.openlocfilehash: 166093a628eb7a048c1959554514f74bcb1b0677
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 53cc4d6f9d930c9069ac39d81e304b0265669b5e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569704"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893344"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントにセッション ボーダー コントローラーを構成する
 
@@ -85,7 +86,7 @@ SBC には、接続の認証に証明書が必要です。 キャリアは SBC �
 次の表は、1 つの構成の例です。
 
 
-|新しいドメイン名 |種類|登録  |SBC の SAN 証明書  |テナントの既定のドメインの例  |ユーザーへの呼び出しを送信するとき、連絡先のヘッダーに SBC が提示しなければならない FQDN 名|
+|新しいドメイン名 |型|登録  |SBC の SAN 証明書  |テナントの既定のドメインの例  |ユーザーへの呼び出しを送信するとき、連絡先のヘッダーに SBC が提示しなければならない FQDN 名|
 |---------|---------|---------|---------|---------|---------|
 |customers.adatum.biz|    ベース     |     キャリアのテナントで  |    \*。 customers.adatum.biz  |   adatum.biz      |「Na」と、これは、サービス テナント ユーザーは存在しません |
 |sbc1.customers.adatum.biz|    サブドメイン  |    お客様のテナントで  |    \*。 customers.adatum.biz  | woodgrovebank.us  |  sbc1.customers.adatum.biz|

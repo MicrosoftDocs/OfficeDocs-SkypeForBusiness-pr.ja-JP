@@ -1,5 +1,6 @@
 ---
-title: 仲介コロケーション (計画ツール)
+title: Mediation Collocation (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,18 +14,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 description: 仲介サーバーは既定では、フロント エンド サーバーに併設されています。 パフォーマンス上の理由から、スタンドアロンのプールに仲介サーバーを展開することも、または SIP トランクを展開する場合場合、スタンドアロンのプールを強くお勧めします。 Skype でコロケーションを同じように、ビジネスのサーバー機能には、Lync Server 2013 で行いました。 詳細については、次のトピックを参照してください。
-ms.openlocfilehash: e89dbea2fe5a29f14996f1e15f99c81503c7dac9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 36456e49f62b308f0f1227db1b6730153abbc66b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888473"
 ---
-# <a name="mediation-collocation-planning-tool"></a>仲介コロケーション (計画ツール)
+# <a name="mediation-collocation-planning-tool"></a>Mediation Collocation (Planning Tool)
  
 仲介サーバーは既定では、フロント エンド サーバーに併設されています。 パフォーマンス上の理由から、スタンドアロンのプールに仲介サーバーを展開することも、または SIP トランクを展開する場合場合、スタンドアロンのプールを強くお勧めします。 Skype でコロケーションを同じように、ビジネスのサーバー機能には、Lync Server 2013 で行いました。 詳細については、次のトピックを参照してください。
   
-- [Lync Server 2013 でサポートされているサーバ コロケーション](https://technet.microsoft.com/en-us/library/gg425885%28v=ocs.15%29.aspx)
+- [Lync Server 2013 のサポートされるサーバーの併置](https://technet.microsoft.com/en-us/library/gg425885%28v=ocs.15%29.aspx)
     
-- [ビジネス サーバー 2015 の Skype での仲介サーバー コンポーネント](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)
+- [Mediation Server component in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)
     
 

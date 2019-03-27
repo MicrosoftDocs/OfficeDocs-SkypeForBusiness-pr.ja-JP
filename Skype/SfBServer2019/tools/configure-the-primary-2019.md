@@ -1,5 +1,6 @@
 ---
 title: プライマリ管理サーバーの構成
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: は、プライマリ管理サーバーを構成する、System Center Operations Manager をインストールして、Skype のビジネス サーバー 2019 の管理パックをインポートします。'
-ms.openlocfilehash: 39ed469227c607084dc030fa003700074a6aae9a
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a1e77a46b450e7f2e8f706099224ae314618ed78
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26536050"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895678"
 ---
 # <a name="configure-the-primary-management-server"></a>プライマリ管理サーバーの構成
 
@@ -57,7 +58,7 @@ System Center Operations Manager をインストールするときは、その�
 - **コンポーネントとユーザーの管理パック**(Microsoft.LS.2019.Monitoring.ComponentAndUser.mp) は、ビジネスのサーバーのイベント ログに記録された、パフォーマンス カウンターが登録されている、または通話詳細記録 (Cdr) または高品質のエクスペリエンス (QoE) データベースに記録の問題は、Skype を追跡します。 重大な問題は、System Center Operations Manager は即座に管理者に通知する電子メール、インスタント メッセージ、または SMS メッセージを構成できます。 (SMS、またはショート メッセージ サービスは 1 つのモバイル デバイスからのテキスト メッセージを送信するに使用されるテクノロジ)。
 
     > [!NOTE]
-    >  Operations Manager の通知の構成の詳細については、「[通知の構成](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409)」を参照してください。
+    >  Operations Manager 通知を構成する方法の詳細は、[通知の設定](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409)を参照してください。
 
 - **作業中の監視管理パック**(Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp) 積極的にテスト キー Skype ビジネス サーバーなどのコンポーネント、システムへのサインイン、インスタント メッセージを交換する、または公衆交換電話網 (PSTN の電話呼び出しを行う). ビジネス サーバー代理トランザクションのコマンドレットは、Skype を使用してこれらのテストが行われます。 たとえば、インスタント メッセージの 2 つのテスト ユーザー間での会話をシミュレートする**テスト CsIM**コマンドレットが使用されます。 このシミュレートされた会話が失敗した場合、アラートが生成されます。
 

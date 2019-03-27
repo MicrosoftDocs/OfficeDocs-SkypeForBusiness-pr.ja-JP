@@ -1,5 +1,6 @@
 ---
-title: 登録 CcAppliance
+title: Register-CcAppliance
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
 description: Register-CcAppliance コマンドレットは、アプライアンス情報をオンライン テナント構成の PSTN サイトに登録します。 アプライアンスを Skype for Business Cloud Connector エディションの管理サービスで展開および管理する前に、アプライアンスの登録が必要です。
-ms.openlocfilehash: 8f1156ccd32b101e6eab957bc3ce7549a3bcc7d7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e753f92c84b880da6aac060b65726bda5f9ba1ae
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892274"
 ---
-# <a name="register-ccappliance"></a>登録 CcAppliance
+# <a name="register-ccappliance"></a>Register-CcAppliance
  
 Register-CcAppliance コマンドレットは、アプライアンス情報をオンライン テナント構成の PSTN サイトに登録します。 アプライアンスを Skype for Business Cloud Connector エディションの管理サービスで展開および管理する前に、アプライアンスの登録が必要です。
   
@@ -54,7 +56,7 @@ Register-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-テナント管理者のアカウント名とパスワードを入力します。 オンライン管理のクラウドのコネクタを作成したアカウントを使用します。 
+テナント管理者のアカウント名とパスワードを入力します。 Cloud Connector のオンライン管理用に作成したアカウントを使用します。 
   
 1.4.2 をリリースして、以前のバージョンでは、指示に従って、外部の証明書のパスワード、セーフ モードの管理者パスワード、ドメイン管理者のパスワード、および VM の管理者パスワードを提供します。 
   
@@ -83,10 +85,10 @@ CloudConnector.ini ファイルで仲介サーバーの FQDN と組み合わさ�
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**必須**|**タイプ**|**説明**|
+|**パラメーター**|**必須**|**型**|**説明**|
 |:-----|:-----|:-----|:-----|
-|サイト名  <br/> |省略可能  <br/> |System.String  <br/> |アプライアンスが登録される PSTN サイトの名前。既定の値は CloudConnector.ini ファイル内の SiteName 値です。  <br/> |
-|アプライアンス名  <br/> |省略可能  <br/> |System.String  <br/> |現在のアプライアンスの名前。既定の値はホスト サーバーのコンピューター名です。  <br/> |
+|SiteName  <br/> |省略可能  <br/> |System.String  <br/> |アプライアンスが登録される PSTN サイトの名前。既定の値は CloudConnector.ini ファイル内の SiteName 値です。  <br/> |
+|ApplianceName  <br/> |省略可能  <br/> |System.String  <br/> |現在のアプライアンスの名前。既定の値はホスト サーバーのコンピューター名です。  <br/> |
 |Local  <br/> |省略可能  <br/> |System.Management.Automation.SwitchParameter  <br/> |オンライン テナント構成に接続せずにローカルで登録の構成をチェックします。  <br/> |
    
 ## <a name="input-types"></a>入力の種類
@@ -102,12 +104,12 @@ CloudConnector.ini ファイルで仲介サーバーの FQDN と組み合わさ�
 ## <a name="see-also"></a>関連項目
 <a name="ReturnTypes"> </a>
 
-[登録解除 CcAppliance](unregister-ccappliance.md)
+[Unregister-CcAppliance](unregister-ccappliance.md)
   
-[発行 CcAppliance](publish-ccappliance.md)
+[Publish-CcAppliance](publish-ccappliance.md)
   
-[インストール CcAppliance](install-ccappliance.md)
+[Install-CcAppliance](install-ccappliance.md)
   
-[アンインストール CcAppliance](uninstall-ccappliance.md)
+[Uninstall-CcAppliance](uninstall-ccappliance.md)
   
 

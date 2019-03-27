@@ -1,5 +1,6 @@
 ---
 title: 高度なエッジ サーバーの DNS を計画する Skype のビジネス サーバー
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: '概要: は、Skype のビジネス サーバーの展開オプションのシナリオを確認します。 単一サーバーを使用したいと考えている場合も、DNS または HLB と共にサーバー プールを使用することを優先する場合も、このトピックは役に立ちます。'
-ms.openlocfilehash: ce65c0e79b2863bf1e2fb2ccd7f14d6aa7953161
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 88f3da6a006c74393b487a55e85a16aa56bd968b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889840"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893070"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>高度なエッジ サーバーの DNS を計画する Skype のビジネス サーバー
  
@@ -201,20 +202,20 @@ Skype のビジネス サーバーのドメイン ネーム システム (DNS) �
 
 障害回復 (DR) とフェイル オーバー ・ サイトにビジネスのサーバーの web トラフィックの Skype をリダイレクトするように DNS を構成するには GeoDNS をサポートしているプロバイダーの DNS を使用する必要があります。 Web サービスを使用する機能は、全体のフロント エンド プールを 1 つがダウンした場合でもを続行するためは、災害リカバリをサポートするために DNS レコードを設定できます。 この障害復旧機能では、自動検出、会議、およびダイヤルインの簡易 URL をサポートします。
   
-定義し、(AAAA IPv6 を使用する場合) は、GeoDNS プロバイダーで web サービスの内部および外部の解像度の記録その他の DNS ホストを構成します。 以下の詳細は、地理的に分散している、一対のプールを想定していて、ラウンド ロビン DNS **、または**プロバイダー**か**でサポートされている GeoDNS を持っている Pool1 をプライマリとして使用するように構成されて Pool2 に、通信の発生時にフェイル オーバー損失または電源障害が発生。
+You define and configure additional DNS host A (AAAA if using IPv6) records for internal and external resolution of web services at your GeoDNS provider. The following details assume paired pools, geographically dispersed, and that the GeoDNS supported by your provider **either** has round-robin DNS **or** is configured to use Pool1 as primary and fails over to Pool2 in the event of any communications loss or power failure.
   
 この表の DNS レコードは、いずれも例です。
   
 |**GeoDNS レコード**|**プール レコード**|**CNAME レコード**|**DNS 設定 (オプションを 1 つ選択する)**|
 |:-----|:-----|:-----|:-----|
-|対応 int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |エイリアス Meet.contoso.com を Pool1InternalWebFQDN.contoso.com に指定  <br/> エイリアス Meet.contoso.com を Pool2InternalWebFQDN.contoso.com に指定  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害発生時はセカンダリに接続  <br/> |
-|対応 ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |エイリアス Meet.contoso.com を Pool1ExternalWebFQDN.contoso.com に指定  <br/> エイリアス Meet.contoso.com を Pool2ExternalWebFQDN.contoso.com に指定  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害発生時はセカンダリに接続  <br/> |
-|ダイヤルイン int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |エイリアス Dialin.contoso.com を Pool1InternalWebFQDN.contoso.com に指定  <br/> エイリアス Dialin.contoso.com を Pool2InternalWebFQDN.contoso.com に指定  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害発生時はセカンダリに接続  <br/> |
-|ダイヤルイン ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |エイリアス Dialin.contoso.com を Pool1ExternalWebFQDN.contoso.com に指定  <br/> エイリアス Dialin.contoso.com を Pool2ExternalWebFQDN.contoso.com に指定  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害発生時はセカンダリに接続  <br/> |
-|Lyncdiscoverint int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |エイリアス Lyncdiscoverinternal.contoso.com を Pool1InternalWebFQDN.contoso.com に指定  <br/> エイリアス Lyncdiscoverinternal.contoso.com を Pool2InternalWebFQDN.contoso.com に指定  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害発生時はセカンダリに接続  <br/> |
-|Lyncdiscover ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |エイリアス Lyncdiscover.contoso.com を Pool1ExternalWebFQDN.contoso.com に指定  <br/> エイリアス Lyncdiscover.contoso.com を Pool2ExternalWebFQDN.contoso.com に指定  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害発生時はセカンダリに接続  <br/> |
-|スケジューラ int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |エイリアス Scheduler.contoso.com を Pool1InternalWebFQDN.contoso.com に指定  <br/> エイリアス Scheduler.contoso.com を Pool2InternalWebFQDN.contoso.com に指定  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害発生時はセカンダリに接続  <br/> |
-|スケジューラ ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |エイリアス Scheduler.contoso.com を Pool1ExternalWebFQDN.contoso.com に指定  <br/> エイリアス Scheduler.contoso.com を Pool2ExternalWebFQDN.contoso.com に指定  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害発生時はセカンダリに接続  <br/> |
+|Meet-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |エイリアス Meet.contoso.com を Pool1InternalWebFQDN.contoso.com に指定  <br/> エイリアス Meet.contoso.com を Pool2InternalWebFQDN.contoso.com に指定  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害発生時はセカンダリに接続  <br/> |
+|Meet-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |エイリアス Meet.contoso.com を Pool1ExternalWebFQDN.contoso.com に指定  <br/> エイリアス Meet.contoso.com を Pool2ExternalWebFQDN.contoso.com に指定  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害発生時はセカンダリに接続  <br/> |
+|Dialin-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |エイリアス Dialin.contoso.com を Pool1InternalWebFQDN.contoso.com に指定  <br/> エイリアス Dialin.contoso.com を Pool2InternalWebFQDN.contoso.com に指定  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害発生時はセカンダリに接続  <br/> |
+|Dialin-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |エイリアス Dialin.contoso.com を Pool1ExternalWebFQDN.contoso.com に指定  <br/> エイリアス Dialin.contoso.com を Pool2ExternalWebFQDN.contoso.com に指定  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害発生時はセカンダリに接続  <br/> |
+|Lyncdiscoverint-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |エイリアス Lyncdiscoverinternal.contoso.com を Pool1InternalWebFQDN.contoso.com に指定  <br/> エイリアス Lyncdiscoverinternal.contoso.com を Pool2InternalWebFQDN.contoso.com に指定  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害発生時はセカンダリに接続  <br/> |
+|Lyncdiscover-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |エイリアス Lyncdiscover.contoso.com を Pool1ExternalWebFQDN.contoso.com に指定  <br/> エイリアス Lyncdiscover.contoso.com を Pool2ExternalWebFQDN.contoso.com に指定  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害発生時はセカンダリに接続  <br/> |
+|Scheduler-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |エイリアス Scheduler.contoso.com を Pool1InternalWebFQDN.contoso.com に指定  <br/> エイリアス Scheduler.contoso.com を Pool2InternalWebFQDN.contoso.com に指定  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害発生時はセカンダリに接続  <br/> |
+|Scheduler-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |エイリアス Scheduler.contoso.com を Pool1ExternalWebFQDN.contoso.com に指定  <br/> エイリアス Scheduler.contoso.com を Pool2ExternalWebFQDN.contoso.com に指定  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害発生時はセカンダリに接続  <br/> |
    
 ## <a name="dns-load-balancing"></a>DNS 負荷分散
 <a name="DNSLB"> </a>

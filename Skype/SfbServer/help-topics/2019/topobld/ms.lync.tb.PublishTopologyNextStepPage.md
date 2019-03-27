@@ -1,5 +1,6 @@
 ---
-title: トポロジ次の手順を公開します。
+title: トポロジの公開の次の手順
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジの発行が完了すると、発行ウィザードの完了] ページが表示されます。
-ms.openlocfilehash: e957cfb0e8bb13c7f1fd353f687536f8c026a2b8
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: db236d0f30d68c9706430b72d44a514a876848af
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23256295"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895994"
 ---
-# <a name="publish-topology-next-step"></a>トポロジ次の手順を公開します。
+# <a name="publish-topology-next-step"></a>トポロジの公開の次の手順
 
 トポロジの発行が完了すると、**発行ウィザードの完了**] ページが表示されます。
 

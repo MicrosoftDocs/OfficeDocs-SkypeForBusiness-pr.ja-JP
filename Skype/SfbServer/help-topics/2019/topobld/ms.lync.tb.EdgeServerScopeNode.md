@@ -1,5 +1,6 @@
 ---
 title: エッジ サーバー スコープ ノード
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 ROBOTS: NOINDEX, NOFOLLOW
 description: このノードには、このエッジ プールの完全修飾ドメイン名 (FQDN) およびその他の基本設定が表示されます。以下のアクションを実行できます。
-ms.openlocfilehash: 4bf8d4f19eb4108b025986d530fe746c6b687775
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 9df6d1c25c49024572dcdc7806053ccdeaa4a43b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21062753"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890249"
 ---
 # <a name="edge-server-scope-node"></a>エッジ サーバー スコープ ノード
  
