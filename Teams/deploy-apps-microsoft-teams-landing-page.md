@@ -1,5 +1,6 @@
 ---
 title: Microsoft Teams のアプリ、ボット、およびコネクタ
+ms.reviewer: ''
 description: ここに示す展開リソースを使用して、Microsoft のアプリを展開してください。
 ms.topic: article
 author: LolaJacobsen
@@ -14,20 +15,18 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7ccc2c489d4423b906aec92dcb594f82a380e40
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 00653ebb796f0b33fa1461327ad173378fed8e28
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460797"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873170"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams のアプリ、ボット、およびコネクタ
 
 アプリを使用すると、お気に入りのサービスからコンテンツを見つけて、そのコンテンツをすぐに Teams で共有できるようになります。 チャネルの上部にサービスを固定したり、ボットとチャットしたり、タスクを共有および割り当てるときなどに役立ちます。 詳細については、「[Teams のアプリの概要](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)」を参照してください。
 
 Teams の初期展開時に、おすすめのアプリ (Planner など) を含めることをお勧めします。 Teams 導入の進行に応じて、その他のアプリ、ボット、およびコネクタを追加してください。
-
-
 
 ## <a name="apps-deployment-decisions"></a>アプリの展開に関する決定事項
 
@@ -39,13 +38,13 @@ Teams は、すぐに使用できる優れたコラボレーション エクス�
 
 ### <a name="app-availability-settings"></a>アプリの可用性の設定 
 
-Teams には、複数のファースト パーティ (Microsoft 提供) のアプリとサード パーティ製アプリがあり、ユーザー参加の促進、生産性のサポート、および一般に使用されるビジネス サービスの Teams への統合のために使用できます。 Teams Store からアプリを入手してください。 既定では、すべてのアプリ ([Teams Store 承認プロセス](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process)で提出した外部アプリを含む) が、すべてのユーザーに対してオンにされています。 たとえば、ユーザーは Planner アプリを使用して Teams のチーム タスクを作成および管理できます。
+Teams には、Microsoft とサード パーティが公開する複数のアプリがあり、ユーザー参加の促進、生産性のサポート、および一般に使用されるビジネス サービスの Teams への統合のために使用できます。 Teams Store からアプリを入手してください。 既定では、すべてのアプリ ([Teams Store 承認プロセス](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process)で提出したカスタム アプリを含む) が、すべてのユーザーに対してオンにされています。 たとえば、ユーザーは Planner アプリを使用して Teams のチーム タスクを作成および管理できます。
 
-既定では、すべての Microsoft 提供のアプリと外部アプリが使用可能になっていて、個別のアプリをオンまたはオフにすることができます。 すべての外部アプリを組織全体でオンまたはオフにできるグローバル設定があります。
+既定では、すべての Microsoft 提供のアプリとカスタム アプリが使用可能になっていて、個別のアプリをオンまたはオフにすることができます。 すべてのカスタム アプリを組織全体でオンまたはオフにできる組織全体の設定があります。
 
 | 確認事項 | アクション |
 |--------------|--------|
-|既定の Teams アプリの設定を変更するか? | 外部アプリの可用性を構成する方法の詳細については、「[Microsoft Teams でのアプリの管理設定](admin-settings.md)」を参照してください。|
+|既定の Teams アプリの設定を変更するか? | 組織内のアプリを管理するために使用できるポリシーと設定の詳細については、「[Microsoft Teams でのアプリの管理設定](admin-settings.md)」を参照してください。|
 |||
 
 ### <a name="app-permissions-and-other-considerations"></a>アプリのアクセス許可とその他の考慮事項
