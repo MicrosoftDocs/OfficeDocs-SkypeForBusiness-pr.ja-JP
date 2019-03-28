@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Skype for Business Cloud Connector エディションについて紹介します。Skype for Business Cloud Connector エディションは、Office 365 の電話システム (クラウド PBX) でのオンプレミスの PSTN 接続を実装する、パッケージ化された仮想マシン (VM) のセットです。
-ms.openlocfilehash: da594ba2511b7e3a296eb57b825489305d9473d9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 21a37b40b0069df9043c69814e40853ced16ce7e
+ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888753"
+ms.locfileid: "30934757"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Skype for Business Cloud Connector エディションの計画
 
@@ -74,7 +74,7 @@ Cloud Connector はオンプレミスおよびオンラインに存在するユ�
 
 - Cloud Connector 2.1 以降では、Operations Management Suite (OMS) を使用して Cloud Connector を監視することがサポートされます。 詳細については、「[Monitor Cloud Connector using Operations Management Suite (OMS)](monitor-cloud-connector-using-operations-management-suite-oms.md)」を参照してください。
 
-- クラウドのコネクタは、Office 365 エンタープライズ E5 が利用可能なすべての国であります。 ただし、さまざまな規制があるためクラウド コネクタは構成できませんテナントの場所は、以下の国のいずれかに設定されている場合: アルジェリア、バングラデシュ、ボツワナ、ブルネイ、カメルーン、コートジボワール、ガーナ、レバノン、マカオ、モーリシャス、ナミビア、パラグアイ、セネガル。
+- クラウドのコネクタは、Office 365 エンタープライズ E5 が利用可能なすべての国であります。
 
 このトピックには次のセクションが含まれます。
 

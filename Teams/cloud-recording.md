@@ -10,7 +10,7 @@ MS.collection:
 - M365-collaboration
 ms.reviewer: sonua
 search.appverid: MET150
-description: Microsoft Teams での Cloud Voice の機能の展開についての実践的なガイダンス
+description: 展開するための実用的なガイドでは、マイクロソフトのチームでの音声機能をクラウドです。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 93ab7201d96fe337cbdc1c0bbf89f9eab3006d91
@@ -76,7 +76,7 @@ Microsoft ストリームの管理者は、[会社の規定のポリシーを設
 </br>
 
 
-|                                                                 シナリオ                                                                 |                                                                                                                                                                         ステップ                                                                                                                                                                          |
+|                                                                 シナリオ                                                                 |                                                                                                                                                                         手順                                                                                                                                                                          |
 |------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                                    すべてのユーザーがミーティングを記録することができる会社にします                                    |                                                                     <ol><li>確認するグローバル CsTeamsMeetingPolicy AllowCloudRecording = True<li>すべてのユーザーがあるグローバルの CsTeamsMeetingPolicy または AllowCloudRecording と CsTeamsMeetingPolicy のポリシーのいずれかの指定 </ol>                                                                     |
 | 大多数のユーザーがミーティングを記録するが、選択的に記録するのには許可されていない特定のユーザーを無効にすることにします |        <ol><li>確認する GlobalCsTeamsMeetingPolicy AllowCloudRecording = True<li>大半のユーザーがあるグローバル CsTeamsMeetingPolicy またはいずれかの CsTeamsMeetingPolicy ポリシーの AllowCloudRecording を持つ = True<li>AllowCloudRecording と CsTeamsMeetingPolicy のポリシーのいずれかの他のすべてのユーザーが付与されて false</ol>         |
@@ -102,7 +102,7 @@ Microsoft ストリームの管理者は、[会社の規定のポリシーを設
 </br>
 </br>
 
-|シナリオ|ステップ |
+|シナリオ|手順 |
 |---|---|
 |すべてのユーザーがミーティングのレコーディングを開始するときに議事録を作成できる会社にします |<ol><li>確認するグローバル CsTeamsMeetingPolicy AllowTranscription = True <li>すべてのユーザーがグローバルの csTeamsMeetingPolicy にある 1 つまたは AllowTranscription と CsTeamsMeetingPolicy のポリシーを指定します。 </ol>|
 |大多数のユーザーにミーティングのレコーディングの議事録を作成、議事録を作成するのには許可されていない特定のユーザーを選択して無効にすることが必要 |<ol><li>確認するグローバル CsTeamsMeetingPolicy AllowTranscription = True <li>大半のユーザーがあるグローバル CsTeamsMeetingPolicy またはいずれかの CsTeamsMeetingPolicy ポリシーの AllowTranscription を持つ = True <li>AllowTranscription と CsTeamsMeetingPolicy のポリシーのいずれかの他のすべてのユーザーが付与されて false </ol>|
@@ -122,7 +122,7 @@ Microsoft ストリームの管理者は、[会社の規定のポリシーを設
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-Windows PowerShell is all about managing users and what users are allowed or not allowed to do. Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。 Windows PowerShell には、実行しようとする設定の変更多くのユーザーを一度に 1 つなど、Office 365 管理センターを使用するだけでスピード、シンプルさと生産性に多くの利点があります。 To get started with Windows PowerShell, see these topics:
+Windows PowerShell は、ユーザーを管理するユーザーを許可または許可されません。 Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。 Windows PowerShell には、実行しようとする設定の変更多くのユーザーを一度に 1 つなど、Office 365 管理センターを使用するだけでスピード、シンプルさと生産性に多くの利点があります。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
 
 - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
 - [Windows PowerShell 用にコンピューターをセットアップする](https://go.microsoft.com/fwlink/?LinkId=525038)

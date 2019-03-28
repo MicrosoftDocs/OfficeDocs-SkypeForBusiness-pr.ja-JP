@@ -21,11 +21,11 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: d113731d9b2c8f387e543a8d1733abcee12b2fcf
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 8fa06f22d1fb31f592f520ba3b1d17c8fcaf0ccb
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2019
+ms.lasthandoff: 03/19/2019
 ms.locfileid: "30649189"
 ---
 # <a name="what-are-communications-credits"></a>通信クレジットについて
@@ -61,7 +61,7 @@ Skype for Business で無料電話番号を使用する場合は、通話が分�
 > [!NOTE]
 > You must set up Communications Credits and then assign a Communications Credits license for each user in the **Office 365 admin center** > **Users** > **Active Users**. 
   
-コミュニケーション クレジットの最適な設定を把握するために、組織の PSTN サービスの利用状況を注意深く評価することをお勧めします。 PSTN サービスの詳細を参照するにを参照して[Office 365 のプランを呼び出すことは何ですか?](what-are-calling-plans-in-office-365.md)と[オーディオ会議のよく寄せられる質問](Audio-Conferencing-common-questions.md)です。
+コミュニケーション クレジットの最適な設定を把握するために、組織の PSTN サービスの利用状況を注意深く評価することをお勧めします。 [電話システムを呼び出すことを計画](calling-plan-landing-page.md)し、[オーディオ会議のよく寄せられる質問](Audio-Conferencing-common-questions.md)を参照して、PSTN サービスの詳細を表示できます。
   
 追加機能プラン請求は、前払い残高の **一度払い** **を使用するか、** **自動リチャージ** 額 ( **推奨** ) を設定することで設定できます。後者の場合、リチャージ分を購入するタイミングを決める最低残高を指定できます。最初は、自動リチャージ額の設定をお勧めします。そうすると、実際の通話量を監視してニーズや使用パターンに合った自動リチャージの限度額を知ることができます。コミュニケーション クレジットは、ある程度の期間をかけて測定し、それぞれの組織のニーズに応じて最低残高やリチャージ額を調整する必要があります。
   

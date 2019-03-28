@@ -51,7 +51,7 @@ ms.locfileid: "30463893"
   
 3. 操作ウィンドウの [**製品ライセンス**] で [ **編集**] をクリックします。 
     
-4. ライセンスを割り当てると、電話会議プロバイダーのリストに Microsoft が表示されなくなることがあります。 ライセンスの詳細は、[マイクロソフトのチームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
+4. [**製品ライセンス**] ページで、**電話会議**を有効にして、[**保存**] をクリックします。 ライセンスの詳細は、[マイクロソフトのチームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
     
 > [!NOTE]
 > ユーザーに会議 ID を割り当てる 
@@ -81,11 +81,11 @@ ms.locfileid: "30463893"
 
 2. [**オーディオ会議**、**会議 ID のリセット**をクリックします。  
 
-3. **会議 ID をリセットしますか?** ] ウィンドウで、[**リセット**] をクリックします。 It's enabled by default. After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use Skype for Business Meeting Migration Tool to update their existing meetings. To see how to download, install and run the Lync Meeting Update Tool, see:> Meeting Update Tool for Skype for Business and LyncSkype for Business Online, Meeting Migration Tool (64-bit)Skype for Business Online, Meeting Migration Tool (32-bit)
+3. **会議 ID をリセットしますか?** ] ウィンドウで、[**リセット**] をクリックします。 会議 ID が自動的に作成され、ユーザーに電子メールを送信することが有効になっているかどうか、新しい会議 ID を使用してユーザーに電子メールを送信します。 既定で有効です。
 
-[](reset-a-conference-id-for-a-user-in-teams.md)Reset a conference organizer's PIN
+[ユーザーの会議 ID のリセット](reset-a-conference-id-for-a-user-in-teams.md)を参照してください。
   
-## <a name="reset-a-conference-organizers-pin"></a>静的会議 ID は自動的に作成されユーザーに割り当てられますが、ユーザーがそれを使いたくないため特定の番号に設定しようと考える場合や、ユーザーが会議 ID を覚えられない、または紛失してしまう場合があります。Skype for Business 管理センターおよび Windows PowerShell を使用すると、ユーザーの会議 ID を表示、変更、リセットすることができます。
+## <a name="reset-a-conference-organizers-pin"></a>会議開催者の PIN をリセットする
 
 ユーザーをスケジュールする会議ごとに固有の会議 ID が割り当てられますを取得 会議 ID が自動的に作成され、ユーザーに割り当てられているがあります、ユーザーは、この 1 つを使用する場合は、特定の数に設定するとユーザーが覚えられないか、会議 ID が失われています。 
 
@@ -99,7 +99,7 @@ ms.locfileid: "30463893"
   
 [オーディオ会議の PIN のリセット](reset-the-audio-conferencing-pin-in-teams.md)を参照してください。
   
-## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>電話会議の情報が記載されたメールをユーザーに送信する
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>オーディオ会議の情報を使用して電子メールをユーザーに送信します。
 
 ![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**
 
@@ -110,7 +110,7 @@ ms.locfileid: "30463893"
     > [!NOTE]
     > この操作を行っても、電話会議の PIN はユーザーに送信されません。 
 
-When you do this, the dial-in conferencing PIN isn't sent to the user.
+[電話会議の情報が記載されたメールをユーザーに送信する](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md) を参照してください。
   
 ## <a name="set-the-phone-numbers-included-on-invites"></a>出席依頼に含まれている電話番号を設定する
 
@@ -122,14 +122,14 @@ When you do this, the dial-in conferencing PIN isn't sent to the user.
  
 3. **オーディオ会議**のウィンドウで**電話番号**を設定でき、許可された場合、**フリー ダイヤルの番号**です。
 
-4. The default dial-in conferencing phone number of a user is the number that is shown on the meeting invite when they schedule a meeting.
+4. **[保存]** をクリックします。
     
-「[出席依頼に含まれている会議の開催者のために電話会議の電話番号を設定する](set-the-phone-numbers-included-on-invites-in-teams.md)」をご覧ください。
+[携帯電話への招待に含まれている番号の設定](set-the-phone-numbers-included-on-invites-in-teams.md)を参照してください。
   
   
 ## <a name="choose-audio-conferencing-bridge-settings"></a>オーディオ会議ブリッジの設定を選択します。
 
-**** Setting dial-in conferencing bridge settings
+**呼び出し元がミーティングに参加するときは、会議の経験を設定します。**
 
 ![チーム ・ ロゴ ・ 30x30.png](media/teams-logo-30x30.png) **、マイクロソフトのチーム管理センターを使用して**
 
@@ -145,7 +145,7 @@ When you do this, the dial-in conferencing PIN isn't sent to the user.
 
     **名前や電話番号**を選択する場合を有効にするまたは、**ミーティングに参加する前に自分の名前を記録するための呼び出し元の確認**を無効にすることもできます。 
 
-5. [**保存**] をクリックします。
+5. **[保存]** をクリックします。
 
     
 Go to the Office 365 admin centerSkype for Business.[](change-the-settings-for-an-audio-conferencing-bridge.md)
@@ -171,13 +171,13 @@ Go to the Office 365 admin centerSkype for Business.[](change-the-settings-for-a
 
 3. **ブリッジの設定**ウィンドウを有効にするか **、オーディオ会議の設定を変更する場合、ユーザーに e メールを自動的に送信**を無効にします。
 
-4. [**保存**] をクリックします。 
+4. **[保存]** をクリックします。 
  
     ユーザーのオーディオ会議のプロパティに移動し、**電子メールで会議の情報を送信**] をクリックしてユーザーに、電話会議の設定を使用する電子メールを送信することも。
     
     この操作を行うと、会議 ID と電話会議の番号のみが含まれるメールが送信されますが、そのメールに PIN は含まれません。
 
-If you do this, an email will be sent that only includes conference ID and conference phone number, but the PIN won't be included.
+[電話会議の情報が記載されたメールをユーザーに送信する](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md) を参照してください。
     
 ## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>参照してくださいし、オーディオ会議ブリッジに (既定値) をプライマリとセカンダリ (代替) の言語を設定します。
 
@@ -189,7 +189,7 @@ If you do this, an email will be sent that only includes conference ID and confe
 
 3. [**既定の言語**および **(省略可能) 別の言語**の言語を選択してください。
 
-4. [**保存**] をクリックします。
+4. **[保存]** をクリックします。
 
 
 You can also set the primary and secondary languages that are supported when you select Microsoft as the dial-in conferencing provider. The order that you select in the drop-downs will be the order of the languages that will be presented to the callers.[](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
@@ -200,7 +200,7 @@ You can also set the primary and secondary languages that are supported when you
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 
-2. リストから電話番号を選択し、[**編集**] をクリックします。 Go to the Office 365 admin centerSkype for Business.
+2. リストから電話番号を選択し、[**編集**] をクリックします。 ここでは次のようなことができます。
     
    - 電話会議で使うために Office 365 によって設定された電話番号を表示する。 
     
@@ -214,7 +214,7 @@ You can select the dial-in conferencing default phone number that will be given 
 
 Windows PowerShell は、ユーザーと、ユーザーに許可されていることと許可されていないことを管理するためにあるということです。Windows PowerShell があれば、一元管理を使用して Office 365 を管理し、複数のタスクを抱えているときに、日常の仕事を簡素化することができます。Windows PowerShell を開始するには、これらのトピックを参照してください。
     
-  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
@@ -223,6 +223,6 @@ Windows PowerShell の詳細については、「[Microsoft Teams PowerShell の
     
 ## <a name="related-topics"></a>関連トピック
 
-See also
+[ユーザーの電話会議の設定を管理する](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
 

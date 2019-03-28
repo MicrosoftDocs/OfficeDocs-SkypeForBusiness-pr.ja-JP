@@ -45,7 +45,7 @@ ms.locfileid: "30543104"
   > [!NOTE]
   > ダイヤルイン会議用ブリッジ、自動応答、またはその他のサービス番号の番号をサービスがあれば、無料電話番号も[管理用の電話番号を参照してくださいビジネス用の Skype に転送する必要がありますが 999 を超える数のユーザー (サブスクライバー) の電話番号組織](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)正しい国/地域を選択し、正しいフォームをダウンロード、お知らせします。
  
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Skype for Business の管理センターを使用する**
+![デバイスのロゴ-30x30.png](media/sfb-logo-30x30.png) **ビジネス管理センターの Skype を使用します。**
 
  
 1. 職場または学校のアカウントを使用して、Office 365 にサインインします。

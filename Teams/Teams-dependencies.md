@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Microsoft Teams のゲスト アクセス機能を 4 つの異なる承認レベルで管理します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e14236503ca22a7de9af01adb1d612faf7bb102
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 2b98eb03a8a77e878354ed07e3104b1b6d91b4aa
+ms.sourcegitcommit: 8af806727bfdc5a90c41f957f6ae1671946277dc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458901"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30936458"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセスを承認する
 ===========================================
@@ -90,11 +90,11 @@ Office 365 グループから、自分の組織内のすべての Office 365 グ
     
 3. [**Office 365 グループ**] を選択します。
     
-     ![Office 365 グループ](media/e25a7920-254c-4da3-bc5f-a8c7f6b61423.png)
+     ![Office 365 グループ](media/authorize-guest-image2.png)
   
 4. Office 365 のグループ] ページでを**オン**または**オフ**、組織の Office 365 のアクセス グループの外のチームとグループの所有者を許可するかどうかに応じて、表示/非表示を設定します。 [**Let group owners add people outside the organization to groups (グループ所有者に組織外のユーザーをグループに追加させる)**] の横にあるトグルをクリックまたはタップして [**オン**] にします。 **** するには、この切り替えを有効にする場合にマイクロソフト チームのグループを許可してチームの所有者は、Office 365 のグループに、組織外のユーザーを追加するかどうかは、コントロールに別のオプションが表示されます。 グループを許可して、チームの所有者は、ゲスト ユーザーを追加する場合は、**上**にこの切り替えを設定します。 
  
-   ![次のスクリーンショットは、組織外のグループ メンバーによるグループのコンテンツへのアクセス、グループ所有者による組織外のユーザーのグループへの追加のオプションをオンにした [Office 365 グループ] パネルを示しています。](media/eee77abd-4425-4585-91a8-5541c17ee7b2.png)
+   ![次のスクリーンショットは、組織外のグループ メンバーによるグループのコンテンツへのアクセス、グループ所有者による組織外のユーザーのグループへの追加のオプションをオンにした [Office 365 グループ] パネルを示しています。](media/authorize-guest-image3.png)
 
 これらの設定では、テナントのレベルで適用され、Office 365 のグループとマイクロソフトのチームでのゲストの経験を制御します。
 

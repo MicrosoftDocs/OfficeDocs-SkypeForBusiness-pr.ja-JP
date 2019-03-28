@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '電話システムで何ができる場合について説明します。 '
-ms.openlocfilehash: 511f5892bad23901e30e1e3e1c5feacf43fa97f0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 41694fcc91ccb1d7bdf4df38c39a6554851d2a8f
+ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884246"
+ms.locfileid: "30934781"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365 の電話システムとは
 
@@ -69,7 +69,7 @@ Office 365 の通話プランを使用すると、検索、取得、およびユ
 
 - **キューを呼び出す** 電話システムでは、組織の電話番号への呼び出し使用される呼び出しキューのあいさつ文を作成できます。これには、保留中の呼び出しを自動的に配置する機能、および呼び出しが保留中の音楽をリッスンしている人の中に呼び出しを処理するために次の呼び出しを使用可能なエージェントを検索する機能が含まれます。 組織の 1 つまたは複数の呼び出しキューを作成します。 [電話システム呼び出しキューを作成する](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)を参照してください。
 
-- **ボイスメール**ユーザーの電話システムのライセンスを取得する場合、そのユーザーは呼び出し元が残っているボイスメールを取得することになります。 電話システムのボイス メールは自動的に設定されと電話番号の電話システムのライセンスを割り当てるには、ユーザーの準備します。 [電話システムのボイス メールの設定](set-up-phone-system-voicemail.md)を参照してください。
+- **ボイスメール**ユーザーの電話システムのライセンスを取得する場合、そのユーザーは呼び出し元が残っているボイスメールを取得することになります。 クラウドのボイスメールを自動的に設定と電話番号の電話システムのライセンスを割り当てるには、ユーザーの準備します。 [クラウドのボイス メールの設定](set-up-phone-system-voicemail.md)を参照してください。
 
 開始する準備ができた場合は、[組織内の電話システムの設定](setting-up-your-phone-system.md)を参照してください。
 

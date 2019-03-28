@@ -22,10 +22,10 @@ ms.custom:
 - Calling Plans
 description: 次は、よく寄せられる質問について、ビジネスの Skype に電話番号を転送します。 回答を確認するには後のポートの順序を作成し、自分の電話番号を転送する準備ができます。 手順については、Office 365 に転送電話番号を参照してください。
 ms.openlocfilehash: 311eaa78920b3853947df5dd375c6471cab4d8aa
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2019
+ms.lasthandoff: 03/19/2019
 ms.locfileid: "30649429"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>電話番号の移行に関するよくある質問
