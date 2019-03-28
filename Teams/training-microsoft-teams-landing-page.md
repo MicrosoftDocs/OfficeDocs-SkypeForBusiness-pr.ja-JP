@@ -1,6 +1,7 @@
 ---
 title: Microsoft Teams のトレーニング
-description: 組織でマイクロソフトのチームを最大限に活用するため、これらのエンド ・ ユーザー、管理者とクラスルーム ・ トレーニング ・ リソースを使用します。
+ms.reviewer: ''
+description: これらのエンド ユーザー、管理者、および講師による指導付きトレーニングのリソースを使用して、組織内の Microsoft Teams を最大限に活用できるようにします。
 layout: LandingPage
 ms.topic: landing-page
 author: LolaJacobsen
@@ -8,18 +9,19 @@ ms.author: lolaj
 manager: serdars
 ms.date: 03/19/2019
 ms.service: msteams
+localization_priority: Priority
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddc0e9cb6c3f8a708b7633a5731908e0a27db8ff
-ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
-ms.translationtype: MT
+ms.openlocfilehash: 81a8b7fe6043d868d88c24c4d1b2573e71f31beb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30684042"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878887"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams のトレーニング
 
@@ -38,7 +40,7 @@ ms.locfileid: "30684042"
                     </div>
                     <div class="cardText">
                         <h3>管理者トレーニング</h3>
-                        <p>チームについて説明し、組織内の使用状況をドライブするには、これらのチュートリアル、ビデオ、およびその他のトレーニング リソースを使用します。</p>
+                        <p>これらのチュートリアル、ビデオ、およびその他のトレーニング リソースを使用して、Teams について学習し、組織内での使用を促進します。</p>
                     </div>
                 </div>
             </div>
@@ -56,8 +58,8 @@ ms.locfileid: "30684042"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>クラスルーム ・ トレーニング</h3>
-                        <p>取得するように設計されたマイクロソフトによってホストされる、無料のライブ オンライン トレーニング クラスは、チームで実行します。 アクションのチームを参照してください、質問に対する回答、ご参加し、ライブ、講師との対話します。</p>
+                        <h3>講師による指導付きトレーニング</h3>
+                        <p>Teams を使いこなすための、Microsoft が主催する無料のライブ オンライン トレーニング クラス。 参加して実行中の Teams を表示します。質問の回答を得たり、講師とライブでやり取りしたりできます。</p>
                     </div>
                 </div>
             </div>
@@ -76,7 +78,7 @@ ms.locfileid: "30684042"
                     </div>
                     <div class="cardText">
                         <h3>エンドユーザーのトレーニング</h3>
-                        <p>チームを最大限に活用、組織内のユーザーを支援するのにには、これらのトレーニング リソースを使用します。</p>
+                        <p>これらのトレーニング リソースを使用して、組織内のユーザーが Teams を最大限に活用できるようにします。</p>
                     </div>
                 </div>
             </div>
@@ -87,8 +89,8 @@ ms.locfileid: "30684042"
 
 ---
 
-<h2>このキーのトレーニングのご案内します。</h2>
-確認して頻繁にバックアップ - 私たちが更新し続けるこのリスト最新、最もすばらしい、最も重要なチームについて常に把握するためのトレーニングです。
+<h2>この重要なトレーニングをお見逃しなく</h2>
+定期的にチェックしてください - このリストは継続して更新されるため、常に最新で優れた、最も重要な Teams トレーニングに関する情報を得ることができます。
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
@@ -107,7 +109,7 @@ ms.locfileid: "30684042"
                 <div class="card">
                     <div class="cardText">
                         <h3>チームワーク</h3>
-                         <p><a href="https://aka.ms/edx-cld267x-about">コース: マイクロソフトのチームとチームワークを有効にします。</a></p>
+                         <p><a href="https://aka.ms/edx-cld267x-about">コース: Teams でチームワークを有効にする</a></p>
                     </div>
                 </div>
             </div>
@@ -117,8 +119,8 @@ ms.locfileid: "30684042"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>採用スペシャ リストの認定</h3>
-                        <p><a href="http://aka.ms/AdoptionCert">初期の 2019年 1 月でをリリースしました Microsoft サービス導入のスペシャ リストの認定コースでは、チームの特徴です。それが方法について説明する、組織の Microsoft のサービスの採用を推進するには</a></p>
+                        <h3>導入スペシャリストの認定</h3>
+                        <p><a href="http://aka.ms/AdoptionCert">Microsoft サービス導入スペシャリスト認定コースでは Teams を詳細に説明しています。組織での Microsoft サービスの導入を促進する方法を学ぶことができます。</a></p>
                     </div>
                 </div>
             </div>
@@ -130,7 +132,7 @@ ms.locfileid: "30684042"
                 <div class="card">
                     <div class="cardText">
                         <h3>Microsoft 365 のチームワークの概要</h3>
-                        <p><a href="https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index">置かれる場所や、組織のリソースに接続する方法にかかわらず、すべての作業者のチームワークを促進する Microsoft 365 ツールについて説明します。</a></p>
+                        <p><a href="https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index">所在地や組織への接続方法に関係なく、すべての従業員のチームワークを容易にする Microsoft 365 ツールについて説明します。</a></p>
                     </div>
                 </div>
             </div>
