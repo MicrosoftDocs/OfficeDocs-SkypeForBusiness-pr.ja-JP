@@ -20,14 +20,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオン ライセンス、機能、そして Office 365 Enterprise、E1、E3、E4 プランを購入する方法について説明します。 '
-ms.openlocfilehash: 0ff3a0cb4ff29f98dd5a3b69490eeb2c9a513eaa
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 74518e09344136e399ed0307ff7bff110ac8e9d9
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120309"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948207"
 ---
-# <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1、E3、E4
+# <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1、E3、および E4
 
 [Office 365 エンタープライズ E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software) [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software)E4 の計画、購入済みの場合は、ビジネス機能の複数の Skype を取得する購入する必要がありますアドオン ・ ライセンスをここでは。
 
@@ -37,7 +37,7 @@ ms.locfileid: "30120309"
 |**電話会議** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. <br/> |**電話会議** のアドオン <br/>ライセンスを購入すると、Microsoft が電話会議プロバイダーになります。 |
 |**世界中の任意の電話番号を呼び出すことによって他のユーザーを追加するのには、会議、および会議から発信する機能には、ダイヤルインのアクセスのフリー ダイヤルの番号** <br/> |[コミュニケーション クレジット](/microsoftteams/add-funds-and-manage-communications-credits)|
 |**電話システム** <br/> |1 **office 365 の電話システム**のアドオン。 <br/> ２．通話プラン: Office 365 から [通話プラン](/MicrosoftTeams/calling-plans-for-office-365) を購入しましょう。 <br/>  または、 [現在お使いのプロバイダーから提供された電話サービス](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing) を使用しましょう。  <br/> |
-|**電話システム ボイスメール** <br/> |E1 と E4 プランの場合は、Exchange Online Plan 2 を購入します。 <br/>または、Office 365 E3 などの Exchange Online Plan 2 に同梱されてくる Office Suite に切り替えます。 |
+|**クラウド ボイスメール** <br/> |E1 と E4 プランの場合は、Exchange Online Plan 2 を購入します。 <br/>または、Office 365 E3 などの Exchange Online Plan 2 に同梱されてくる Office Suite に切り替えます。 |
 |**通話プラン** <br/> |1**電話システム**のアドオン。 <br/> 2. [通話プラン](/MicrosoftTeams/calling-plans-for-office-365): このプランは、 **電話システム**  アドオンを購入した後にのみ購入できます。 <br/> |
    
   

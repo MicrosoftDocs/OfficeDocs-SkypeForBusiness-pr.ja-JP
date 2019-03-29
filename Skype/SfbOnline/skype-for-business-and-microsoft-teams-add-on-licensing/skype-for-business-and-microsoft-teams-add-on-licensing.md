@@ -1,5 +1,5 @@
 ---
-title: Skype ビジネス アドオン ライセンス
+title: Skype for Business アドオンのライセンス
 ms.date: 02/15/2019
 ms.author: tonysmit
 author: tonysmit
@@ -21,15 +21,15 @@ f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'については、アドオン ・ ライセンスに関する機能するでしょう、それらをお使いの製品の購入方法として、既存のキャリアを使用する方法です。 Office 365 では、通信のクレジットの価格設定と計画の詳細についての情報を入手でき、通話プランします。 '
-ms.openlocfilehash: 855ada8caf7c2ed1cb4c38e52ef24439d961cc25
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+description: "Learn about add-on licenses, what features you'll get with it, how to buy them for your product, and how to use your existing carrier with them. You can get information on pricing and plan details for Office 365, Communication Credits, and Calling plans. "
+ms.openlocfilehash: 9b77336757e36aac0f4465af0813141bef4bd3f9
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120319"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948197"
 ---
-# <a name="skype-for-business-add-on-licensing"></a>Skype ビジネス アドオン ライセンス
+# <a name="skype-for-business-add-on-licensing"></a>Skype for Business アドオンのライセンス
 
 ## <a name="what-are-add-on-licenses"></a>アドオン ライセンスとは何ですか。
 
@@ -39,7 +39,7 @@ Skype ビジネス ライセンスについては、最大限の柔軟性を提�
 
 ## <a name="how-does-add-on-licensing-affect-cost"></a>アドオンのライセンスはどのようにコストに影響をあたえるでしょうか？
 
-多くのビジネスにとって、企業プランのソフトウェアのバンドルを購入すると、総体的にコスト削減が実現できます。 通常、計画の一部として個別の代わりにいくつかのアドオン ・ ライセンスを購入するときになる場合結合のコストが高い。
+For most businesses, buying a bundle of software in an Enterprise plan will result in lower overall cost. Typically, when you buy several add-on licenses individually instead of as part of a plan, you may end up with higher combined cost.
 
 コストの詳細については、 [価格を表示し、アドオンのライセンスを購入する方法](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) や、次のいずれかを参照してください。
 
@@ -58,23 +58,23 @@ Skype ビジネス ライセンスについては、最大限の柔軟性を提�
 |**機能** <br/> |**説明** <br/> |
 |**電話会議** <br/> |組織内のユーザーは、自分のコンピューターを使用する代わりに、ビジネス会議のため、Skype へのコールに電話を使用する必要があります。 このような状況で、電話会議機能を使用します。  <br/> 国または地域でオーディオ会議が利用可能かどうかを調べるには、 [オーディオ会議や呼び出しプランが利用可能な国および地域](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)を参照してください。 <br/> コストを検索する場合は、 [オーディオ会議のための要件](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements)を参照してください。  <br/> |
 |**会議へのダイヤルイン アクセスのための無料電話番号や、世界中の電話番号に発信して誰かを追加するために会議からダイヤルアウトする機能** <br/> |オーディオ会議を追加する場合は、 [コミュニケーション クレジットを設定](/microsoftteams/set-up-communications-credits-for-your-organization)することをおすすめします。 <br/> |
-|**電話システム** <br/> |PBX は、企業内電話システムです。 Office 365 の電話システムは、ホストされている電話サービスです。 革新的な従来の PBX 機能を使用することがなく、複雑で高価な機器です。 [Office 365 の電話システムで何が得られます](/MicrosoftTeams/here-s-what-you-get-with-phone-system)。  <br/> コストを検索する場合は、 [電話システムの要件](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements)を参照してください。  <br/> |
-|**通話プラン** <br/> |ビジネス ユーザー向けの他の Skype への呼び出しを自由がする場合は、お客様のビジネスの電話番号を呼び出すことができることをユーザー[を呼び出すことを計画](/MicrosoftTeams/calling-plans-for-office-365)します。 Office 365 には国内通話プランと、国内および国際通話プランがあります。  <br/> コストを検索する場合は、 [通話プランの要件](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)を参照してください。  <br/> |
-|**Skype Room Systems v2** <br/> |これはアドオンではありませんが、会議室にビデオ、音声、コンテンツの共有をもたらす機能です。 [Skype ルームのシステムのバージョン 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)を参照してください。  <br/> |
+|**電話システム** <br/> |A PBX is a telephone system in a business. Office 365 の電話システムは、ホストされている電話サービスです。 It gives you both traditional and innovative PBX capabilities, but without the complicated and expensive equipment. [Here's what you get with Phone System in Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).  <br/> コストを検索する場合は、 [電話システムの要件](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements)を参照してください。  <br/> |
+|**通話プラン** <br/> |Calls to other Skype for Business users are free, but if you want your users to be able to call any phone numbers outside of your business, get a [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365). There are Domestic Calling Plans and Domestic and International Calling Plans in Office 365.  <br/> コストを検索する場合は、 [通話プランの要件](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)を参照してください。  <br/> |
+|**Skype Room Systems v2** <br/> |This isn't an add-on, but a feature that brings video, audio, and content sharing to conference rooms. See [Skype Room Systems v2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md).  <br/> |
 
-他のすべてのアドオン ・ オプションについて説明する必要がありますか。 [ビジネス製品 - 管理者ヘルプのサポートに問い合わせてください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+Need to talk to someone about all the add-on options? [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 ## <a name="license-options-based-on-your-plan"></a>プランに基づいたライセンスオプション
 
-使用できる、アドオン ライセンス オプションは、Office 365 または Skype for Business に依存します。 プランに特有の情報、機能、およびオプションは、次のトピックを参照してください。
+The add-on licensing options available to you depends on your Office 365 or Skype for Business plan. See the following topics for information, features, and options that are specific to your plan.
 
 - [Office 365 Business Premium](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
-- [Office 365 のプレミアム、Office 365 用のリソース、またはビジネス用の Skype オンライン 2 を計画](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
-- [Office 365 エンタープライズ E1、E3 および E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
-- [Office 365 エンタープライズ E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
-- [(オーディオ会議) なしで office 365 のエンタープライズ E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
+- [Office 365 Premium、Office 365 ProPlus、または Skype for Business Online プラン 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
+- [Office 365 Enterprise E1、E3、および E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
+- [Office 365 Enterprise E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
+- [Office 365 Enterprise E5 (電話会議なし)](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
 - [Skype Room Systems v2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
-- [GOV、EDU、および非営利団体](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
+- [政府機関、教育機関、非営利団体](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
 
 機能とビジネス ・ プランの各 Skype の比較の詳細については、 [Skype](https://go.microsoft.com/fwlink/?LinkId=730729)を参照してください。
 
@@ -99,11 +99,11 @@ Skype ビジネス ライセンスについては、最大限の柔軟性を提�
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Skype for Business Online のセットアップ](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
-- [電話システム ボイスメールのセットアップ - 管理者ヘルプ](/microsoftteams/set-up-phone-system-voicemail)
+- [クラウドのボイス メールの管理のヘルプを設定します](/microsoftteams/set-up-phone-system-voicemail)
     
 - [呼び出しプランの設定](/microsoftteams/set-up-calling-plans) および [Office 365 の呼び出しプラン](/MicrosoftTeams/calling-plans-for-office-365)
     

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Skype for Business で使用できるPolycom、HP、Mitel 製の電話の種類と、必要なライセンスについて説明します。 '
-ms.openlocfilehash: 8b218161268855a1b89aa54fd0e40c4b308db40d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: e79c942923e9a9d4d0df0bc18172eb10caff57bc
+ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371567"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30952399"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Skype for Business Online で使う電話を入手する
 
@@ -56,7 +56,7 @@ Yealink 電話の詳細については、[ビジネスの IP 電話の Skype](ht
 AudioCodes 電話機の詳細については、「[Skype for Business の IP 電話機](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions)」をご覧ください。
   
 > [!NOTE]
-> Lync Phone Edition is supported with Skype for Business Online, but not with Microsoft Teams. Mainstream support for the LPE platform ended by April/10/2014, with extended support until April/11/2023 to align with the product support lifecycle of Lync Server 2013. See [Microsoft Product Lifecycle](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) for details on the LPE lifecycle. LPE CAP models aren't supported with Skype for Business Online.
+> Lync Phone Edition is supported with Skype for Business Online, but not with Microsoft Teams. Mainstream support for the LPE platform ended by April/10/2014, with extended support until April/11/2023 to align with the product support lifecycle of Lync Server 2013. See [Microsoft Product Lifecycle](https://support.microsoft.com/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) for details on the LPE lifecycle. LPE CAP models aren't supported with Skype for Business Online.
 >
 > Later this year, Office 365 will not support any version of TLS older than 1.2. Since the underlying operating system of LPE does not support TLS 1.2, LPE will not be supported to connect to Office 365 anymore. See [Preparing for the mandatory use of TLS 1.2 in Office 365](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365) for more information.
   
@@ -71,7 +71,9 @@ AudioCodes 電話機の詳細については、「[Skype for Business の IP 電
 |認定済み Polycom VVX シリーズ  <br/> |5.4.0A  <br/> |2015 年 12 月  <br/> |
 |Yealink  <br/> |X.8.1.52  <br/> |2017 年 2 月  <br/> |
 |AudioCodes  <br/> |3.0.0.459.1  <br/> |2016 年 12 月  <br/> |
-   
+
+認定済みのファームウェアの現在バージョンの詳細については、[ビジネスの IP 電話の Skype](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones#conference-phones)を参照してください。
+
 > [!NOTE]
 > ユーザーを Skype for Business Online に移行する前に、オンプレミスの展開用にセットアップした Lync Phone Edition (LPE) の電話機を、最低限のまたはそれ以降の必要なファームウェアに更新する必要があります。携帯電話のファームウェアを更新する前にユーザーをオンプレミスから Skype for Business Online に移行した場合、それらの電話機は Skype for Business Online に接続できません。 
   
@@ -88,30 +90,30 @@ Skype for Business Online の電話機には、ユーザー ライセンス以�
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**機能** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
-|ユーザー資格情報でのサイン イン  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |なし  <br/> |
-|PC (ペアリング) 経由のサイン イン、Windows のみ  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |
-|(Web サイン イン) 使用でのサイン イン  <br/>  <br/> **注:** 展開ガイドの「サポート ・ マトリックスをを確認してください。           |あり  <br/> |あり  <br/> |あり  <br/> |なし  <br/> |
-|シングルクリックでの会議への参加  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |
-|クリックしてダイヤル (ペアリング)  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |
-|会議のコントロール  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |
-|ビジュアル ボイスメール  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |
-|電話のロック  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |
-|デバイスの更新  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |
-|インバンド プロビジョニング  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |
-|QoE  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |なし  <br/> |
-|ログのアップロード  <br/> <br/> **注:** マイクロソフト サポート チームのみにすべてのログをアップロードする現在、電話ログへのアクセスは利用できます。           |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |
-|先進認証  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |なし  <br/> |
-|複数の緊急電話番号  <br/> |あり  <br/> |なし  <br/> |なし  <br/> |あり  <br/> |
-|Exchange の予定表の統合*  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> <br/> **注:** PC にケーブル接続する必要があります。           |
-|プレゼンス統合  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |
-|企業ディレクトリ  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |
-|デリゲーション  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |なし  <br/> |
-|連絡先の写真の統合  <br/> |なし  <br/> |あり  <br/> |なし  <br/> |あり  <br/> |
+|ユーザー資格情報でのサイン イン  <br/> |あり  <br/> |あり  <br/> |はい  <br/> |いいえ  <br/> |
+|PC (ペアリング) 経由のサイン イン、Windows のみ  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |はい  <br/> |
+|(Web サイン イン) 使用でのサイン イン  <br/>  <br/> **注:** 展開ガイドの「サポート ・ マトリックスをを確認してください。           |あり  <br/> |あり  <br/> |はい  <br/> |いいえ  <br/> |
+|シングルクリックでの会議への参加  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |はい  <br/> |
+|クリックしてダイヤル (ペアリング)  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |はい  <br/> |
+|会議のコントロール  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |はい  <br/> |
+|ビジュアル ボイスメール  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |はい  <br/> |
+|電話のロック  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |はい  <br/> |
+|デバイスの更新  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |はい  <br/> |
+|インバンド プロビジョニング  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |はい  <br/> |
+|QoE  <br/> |あり  <br/> |あり  <br/> |はい  <br/> |いいえ  <br/> |
+|ログのアップロード  <br/> <br/> **注:** マイクロソフト サポート チームのみにすべてのログをアップロードする現在、電話ログへのアクセスは利用できます。           |あり  <br/> |あり  <br/> |あり  <br/> |はい  <br/> |
+|先進認証  <br/> |あり  <br/> |あり  <br/> |はい  <br/> |いいえ  <br/> |
+|複数の緊急電話番号  <br/> |はい  <br/> |なし  <br/> |いいえ  <br/> |はい  <br/> |
+|Exchange の予定表の統合*  <br/> |あり  <br/> |あり  <br/> |はい  <br/> |はい  <br/> <br/> **注:** PC にケーブル接続する必要があります。           |
+|プレゼンス統合  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |はい  <br/> |
+|企業ディレクトリ  <br/> |あり  <br/> |あり  <br/> |あり  <br/> |はい  <br/> |
+|デリゲーション  <br/> |あり  <br/> |あり  <br/> |はい  <br/> |いいえ  <br/> |
+|連絡先の写真の統合  <br/> |いいえ  <br/> |はい  <br/> |いいえ  <br/> |はい  <br/> |
 ||||||
 
      
 > [!NOTE]
-> CX 600 or any other Aries phones don't support multifactor authentication (MFA). If you force MFA, these devices will fail to sign-in. These devices must use only Org ID for authetication.
+> CX 600 またはその他の Aries 社の電話機は、多要素認証 (MFA) をサポートしません。 MFA を強制的に実行すると、これらのデバイスではサインインに失敗します。 これらのデバイスでは、認証に組織の ID のみを使用する必要があります。
  
 ## <a name="what-else-should-you-know"></a>その他の情報
 詳細な設定手順については、「[Skype for Business Online 電話機の展開レポート](deploying-skype-for-business-online-phones.md)」をご覧ください。

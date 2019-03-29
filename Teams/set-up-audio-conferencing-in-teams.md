@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '電話会議に参加するのには、電話を使用する必要があるビジネス人のダイヤルインまたはオーディオ会議を設定する方法について説明します。 '
-ms.openlocfilehash: c5925677889d9a81e15ccb15494163fd28c14639
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 30e79282f04c2d1b4dc7ff01673461b7a18254fd
+ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30635522"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30955031"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>マイクロソフト チームの電話会議を設定します
 
@@ -51,7 +51,7 @@ ms.locfileid: "30635522"
     >[!NOTE] 
     > オーディオ会議は、アドオンと Office 365 エンタープライズ E5 のライセンスには含まれています。
         
-2. 電話会議ライセンスを購入した後は、それらのライセンスを、会議を計画したり開催しようとしている組織内のユーザーに割り当てる必要があります。 [ビジネス向けの Office 365 のユーザーにライセンスを割り当てる](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)に、ユーザーが組織内で会議をスケジュールまたは潜在顧客を購入するを参照してください。
+2. オーディオ会議のライセンスを購入した後は、人、組織の会議やスケジュールを設定するのに割り当てる必要があります。 [ビジネス向けの Office 365 のユーザーにライセンスを割り当てる](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)に、ユーザーが組織内で会議をスケジュールまたは潜在顧客を購入するを参照してください。
     
 3. また、前の手順でライセンスを割り当てた同じユーザーに、コミュニケーション クレジット ライセンス (費用はかかりません) を割り当てることをおすすめします。 コミュニケーション クレジットのセットアップ方法については、「[組織向けにコミュニケーション クレジットをセットアップする](set-up-communications-credits-for-your-organization.md)」を参照してください。
     

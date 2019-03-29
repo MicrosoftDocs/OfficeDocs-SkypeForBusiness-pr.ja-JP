@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: この資料では、Skype ルーム システム v2 の累積的な機能強化について説明します。
-ms.openlocfilehash: b3e6a6341e917b49eed6f1c89dcadfe29bcdaf10
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 8de76d085bad4ec8fc7c52c0f46a416d9b1cac82
+ms.sourcegitcommit: 0ea63f45cb31852fea6894cc6ffb0ae1ae444e64
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891600"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30950257"
 ---
 # <a name="release-notes"></a>リリース ノート 
 
@@ -61,7 +61,7 @@ ms.locfileid: "30891600"
 
 ### <a name="40760-03042019"></a>4.0.76.0 (03/04/2019)
 この更新プログラムで導入されています。
-- マイクロソフトのチーム会議の DTMF キーパッドです。 マイクロソフトのチームを既定の呼び出し元のクライアントにするには、管理者は、true に設定する IsTeamsDefaultClient を設定する必要があります。
+- マイクロソフト チームの P2P の会議および PSTN の DTMF キーパッドを呼び出します。 マイクロソフトのチームを既定の呼び出し元のクライアントにするには、管理者は、true に設定する IsTeamsDefaultClient を設定する必要があります。
 - ルームのディスプレイの前面には、リモートの参加者の入力元のビデオを全画面表示を固定できます。 コンソールの参加者の名簿からの「ピン」コマンドを使用してください。
 - ロビー フロントの部屋の通知の通知の強化
 - ルーム システムのデバイスで Bluetooth のビーコンが有効になっていない部屋のディスプレイの前面がキャスト アイコンを削除します。
