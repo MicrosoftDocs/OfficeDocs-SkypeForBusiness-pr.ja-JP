@@ -15,12 +15,12 @@ search.appverid: MET150
 description: トレーニング ビデオ、PowerPoint デッキ、チュートリアル、およびその他のリソースを計画する方法には、展開、およびマイクロソフトのチームを実行します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8294854a3ff4ed7d38b90380b1e1e25230f859d1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 14fea980b7f0cfbb3d8a8218c20ebe503387529a
+ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872711"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31003821"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 
@@ -92,6 +92,7 @@ ms.locfileid: "30872711"
 | コア ・ コンポーネントの基礎」 | [ビデオ](https://aka.ms/teams-foundations) | [デッキ](https://aka.ms/teams-foundations-deck) |
 | Windows デスクトップ クライアント | [ビデオ](https://aka.ms/teams-clients) | [デッキ](https://aka.ms/teams-clients-deck) |
 | ガバナンス、管理、およびライフ サイクル | [ビデオ](https://aka.ms/teams-governance) | [デッキ](https://aka.ms/teams-governance-deck) |
+| セキュリティとコンプライアンス | [ビデオ](https://aka.ms/teams-security-compliance) | [デッキ](https://aka.ms/teams-security-compliance-deck) |
 | ネットワークの計画 | [ビデオ](https://aka.ms/teams-networking) | [デッキ](https://aka.ms/teams-networking-deck) |
 | 通話品質の概要 | [ビデオ](https://aka.ms/teams-quality) | [デッキ](https://aka.ms/teams-quality-deck) |
 | 会議の概要 | [ビデオ](https://aka.ms/teams-meetings-intro) | [デッキ](https://aka.ms/teams-meetings-intro-deck) |
