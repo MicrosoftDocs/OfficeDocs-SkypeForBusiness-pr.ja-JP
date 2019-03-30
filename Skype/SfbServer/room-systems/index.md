@@ -1,5 +1,5 @@
 ---
-title: Skype Room Systems v2
+title: マイクロソフトのチーム会議室
 ms.reviewer: null
 ms.author: jambirk
 author: jambirk
@@ -11,17 +11,17 @@ ms.topic: landing-page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: Skype ルーム システム v2 では、展開、システムを管理する方法を導入するため関連する考慮事項です。
+description: マイクロソフト チームの会議室を展開し、システムを管理する方法を導入するための関連の考慮事項です。
 ---
 
-<h2>Skype ルーム システム v2 & #x 2013 です。 <br>Skype ルーム システムの次世代 </h2>
+<h2>マイクロソフトのチーム会議室</h2>
 <ul class="panelContent cardsW cols cols2">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p>Huddle の小さな領域からビジネス経験 that& #39 の豊富な共同の Skype での大会議室に至るまでの会議スペース; s を使用して、展開、および管理を簡単に変換します。 </p>
+                        <p>Huddle の小さな領域から、豊富な共同作業によるチームの経験 that& #39 で大会議室に至るまでの会議スペース; s を使用して、展開、および管理を簡単に変換します。 </p>
                         <p>ワンタッチ結合では、時間の会議を開始し、ルームと共有へのリモートの参加者に表示するプロジェクトの瞬時にします。 </p>
                         <p>パートナーのいずれかから適切なシステム オーディオ ビデオ周辺機器を選択します: ロジクール社、Crestron、ポリコム、Lenovo、および HP。</p>
                         <p></p>
@@ -36,7 +36,7 @@ description: Skype ルーム システム v2 では、展開、システムを�
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../media/srs-room.jpg" alt="A conference table with Skype Room Systems v2 equipment" />
+                            <img src="../media/srs-room.jpg" alt="A conference table with Microsoft Teams Rooms equipment" />
                         </div>
                     </div>
                 </div>
@@ -52,7 +52,7 @@ description: Skype ルーム システム v2 では、展開、システムを�
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/tasks-blue.svg" alt="Tasks" />
+                            <img src="https://docs.microsoft.com/office/media/icons/tasks-teams.svg" alt="Tasks" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -70,7 +70,7 @@ description: Skype ルーム システム v2 では、展開、システムを�
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/deploy-blue.svg" alt="Deploy" />
+                            <img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" alt="Deploy" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -102,9 +102,9 @@ description: Skype ルーム システム v2 では、展開、システムを�
 </ul>
 
 > [!NOTE]
-> Skype ルーム システム v2 は、オンライン ビジネスのビジネス サーバー 2015、マイクロソフトのチーム、または Skype のビジネス サーバー 2019 の Skype、Skype での使用です。  <br><br>Lync Server 2013 のような以前のプラットフォームは、Skype ルーム システム v2 を使用する必要もありません。 
+> マイクロソフト チームの会議室はチーム、ビジネス オンラインの Skype、Skype のビジネス サーバー 2019、またはビジネス サーバー 2015 の Skype での使用を目的としています。  <br><br>Lync Server 2013 のような以前のプラットフォームは、マイクロソフト チームの会議室を使用する必要もありません。
 
-これらの資料は、計画、展開、およびこれらのデバイスの管理を担当する人とシステムのユーザーのものです。 ユーザーは Skype ルーム システム v2[のオンライン ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)に興味になります。
+これらの資料は、計画、展開、およびこれらのデバイスの管理を担当する人とシステムのユーザーのものです。 ユーザーは、マイクロソフト チームの会議室の[オンライン ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)に関心ができます。
 
 > [!NOTE]
-> Skype ルームのシステムと Skype ルーム システム v2 は、さまざまな依存関係および展開の手順で別の製品です。 
+> [Skype ルーム システム](../deploy/deploy-clients/lrs-migration.md)(以前 Lync ルーム システム) マイクロソフト チームの会議室は、さまざまな依存関係および展開の手順で別の製品とします。

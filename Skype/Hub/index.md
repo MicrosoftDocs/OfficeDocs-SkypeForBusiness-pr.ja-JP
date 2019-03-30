@@ -140,8 +140,8 @@ description: Skype for Business
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Skype Room Systems v2</h3>
-                                                    <p>Skype ミーティング システム v2 を計画、展開、管理する方法を理解します。</p>
+                                                    <h3>マイクロソフトのチーム会議室</h3>
+                                                    <p>計画、展開、およびマイクロソフト チームの会議室を管理する方法について説明します。</p>
                                                 </div>
                                             </div>
                                         </div>
