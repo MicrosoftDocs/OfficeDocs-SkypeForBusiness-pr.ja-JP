@@ -9,17 +9,18 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: この資料では、Skype ルーム システム v2 の累積的な機能強化について説明します。
-ms.openlocfilehash: 8de76d085bad4ec8fc7c52c0f46a416d9b1cac82
-ms.sourcegitcommit: 0ea63f45cb31852fea6894cc6ffb0ae1ae444e64
+ms.collection: M365-voice
+description: この資料では、マイクロソフト チームの会議室での累積的な機能強化について説明します。
+ms.openlocfilehash: 3d80c1c2e4aa2fcad241f566b832e8ddbc662120
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30950257"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012899"
 ---
 # <a name="release-notes"></a>リリース ノート 
 
-この資料では、Skype ルーム システム v2 の累積的な機能強化について説明します。
+この資料では、マイクロソフト チームの会議室での累積的な機能強化について説明します。
 
 
 ##  <a name="version-history"></a>バージョン履歴
@@ -51,7 +52,7 @@ ms.locfileid: "30950257"
 | RTM (1.0.8) | 2016/12/7  | 
 
 
-## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Skype ルーム システム v2 の機能の概要と問題解決
+## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>マイクロソフト チームの会議室の機能の概要と問題解決
 
 
 ### <a name="40780-03142018"></a>4.0.78.0 (2018/03/14)
@@ -72,7 +73,7 @@ ms.locfileid: "30950257"
 この更新プログラムで導入されています。
 - 両方フロントの部屋 (の) ルーム システムでデュアル画面表示の内容の表示
 - テーマとフロントの部屋のユーザー インターフェイスの改善
-- クライアント側で TLS 1.2 をサポートします。 設置型のお客様に Skype ルーム システム V2 の TLS 1.2 経由で通信を有効にする必要があります Skype ビジネス サーバー 2015 Cummulative 更新 9 (CU9) または Skype の Buisness サーバー 2019 Cummulative 更新 1 (CU1)。
+- クライアント側で TLS 1.2 をサポートします。 設置型のお客様にマイクロソフト チームの会議室の TLS 1.2 経由で通信を有効にする必要があります Skype ビジネス サーバー 2015 Cummulative 更新 9 (CU9) または Skype の Buisness サーバー 2019 Cummulative 更新 1 (CU1)。
 
 ### <a name="40510-11172018"></a>4.0.51.0 (11/17/2018)
 この更新プログラムで導入されています。
@@ -84,14 +85,14 @@ ms.locfileid: "30950257"
 
 ### <a name="40270-1012018"></a>4.0.27.0 (10/1/2018)
 この更新プログラムで導入されています。 
-- 以降の Windows 10 バージョン 1803 アップグレードのための SRSv2 アプリケーションを準備するために必要なコードの変更
+- 以降の Windows 10 バージョン 1803 アップグレードのためのマイクロソフト チームの会議室のアプリケーションを準備するために必要なコードの変更
 - 使用許諾契約書の OOBE のセットアップ] ウィンドウから先に進むため、ローカライズされた eula - 具体的にはノルウェー語の書式設定の問題を修正します。
-- Skype ルーム システム v2 アプリケーションが Lync ルームのレガシー ・ システム上で実行するために必要なコードの変更。 詳細を参照してください[ここで](https://aka.ms/lrsupgrade)。
+- Lync ルームのレガシー ・ システム上で実行するマイクロソフト チームの会議室アプリケーションを作成するために必要なコードの変更。 詳細を参照してください[ここで](https://aka.ms/lrsupgrade)。
  
 
 ### <a name="40190-8312018"></a>4.0.19.0 (8/31/2018)
 この更新プログラムで導入されています。 
-- Crestron アプリケーションが起動しないが通常アクセスが可能で Crestron SR のデバイスでアプリケーション ボタンを押して、修正プログラムです。 4.0.19.0 のインストール後に必要な SRSv2 アプリケーションの再起動 
+- Crestron アプリケーションが起動しないが通常アクセスが可能で Crestron SR のデバイスでアプリケーション ボタンを押して、修正プログラムです。 マイクロソフト チーム ルーム アプリケーションの再起動が 4.0.19.0 のインストール後に必要な。 
 
 ### <a name="40180-08272018"></a>4.0.18.0 (08/27/2018)
 この更新プログラムで導入されています。 
@@ -163,7 +164,7 @@ Introduced in this update:
 - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system)のサポートは、ハードウェアをドッキングします。    
 - 環境のコントロール (Crestron) の OEM のサポート
     
-Skype ルーム システム v2 リリース 3.0.12.0 (アップデート 3) は、Windows 10 企業の記念日の版 (英語、1607 のバージョン) の 64 ビット バージョンがサポートされていません。 
+マイクロソフト チームの会議室では、エディション (英語、バージョン 1607) はサポートされていません、Windows 10 企業の記念日の 64 ビット バージョンは、3.0.12.0 (3 の更新) を解放します。 
 
 ### <a name="3080-842017"></a>3.0.8.0 (8/4/2017) 
 この更新プログラムで導入されています。 
@@ -217,14 +218,14 @@ Skype ルーム システム v2 リリース 3.0.12.0 (アップデート 3) は
 <a name="See"> </a>  
 ## <a name="see-also"></a>関連項目
 
-[Skype ルーム システムのバージョン 2 のヘルプ](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[マイクロソフト チームの会議室のヘルプ](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Skype のビジネス環境を準備します。](srs-v2-prep.md)
+[環境を準備する](srs-v2-prep.md)
 
-[Skype ルーム システムの現在の分岐バージョンを v2 をサポートします。](srs2-lifecycle-support.md)
+[マイクロソフト チームの会議室の現在の分岐バージョンをサポートします。](srs2-lifecycle-support.md)
 
-[Skype ルーム システム v2 の既知の問題](../../manage/skype-room-systems-v2/known-issues.md)
+[マイクロソフト チームの会議室の既知の問題](../../manage/skype-room-systems-v2/known-issues.md)
 
-[Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
+[マイクロソフト チームの会議室のプラン](skype-room-systems-v2-0.md)
 
-[Skype Room Systems バージョン 2 を管理する](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[マイクロソフト チームの会議室を管理します。](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

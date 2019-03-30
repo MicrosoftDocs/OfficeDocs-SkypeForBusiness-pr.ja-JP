@@ -9,20 +9,21 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
+ms.collection: M365-voice
 description: 以下のトピックでは、Skype Room System 用に Exchange および Skype アカウントをプロビジョニングする方法について説明します。
-ms.openlocfilehash: ec812f569e096d31fb1085d196037677edf5da37
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 2da978d84ac763a27bba135e1899e83955b4fb53
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699275"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012555"
 ---
 # <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>Skype Room System Exchange および Skype アカウントのプロビジョニング
  
 以下のトピックでは、Skype Room System 用に Exchange および Skype アカウントをプロビジョニングする方法について説明します。 
 
 > [!NOTE]
-> Skype ルーム システム v2 は、さまざまな依存関係および展開の手順で別の製品です。 Skype ルーム システム v2 については、Skype ルーム システムのバージョン 2 の[展開の概要](room-systems-v2.md)を参照してください。
+> マイクロソフト チームの会議室は、さまざまな依存関係および展開の手順で別の製品です。 マイクロソフト チームの会議室については、マイクロソフト チームの会議室[の配置の概要](room-systems-v2.md)を参照してください。
   
 > [!NOTE]
 > Skype ルームのシステム アカウントのプロビジョニングは、組織のトポロジの種類によって異なります。 Active Directory の詳細については、「[Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)」をご覧ください。 

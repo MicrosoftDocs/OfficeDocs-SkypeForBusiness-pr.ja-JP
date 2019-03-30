@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: 'ビジネスで Skype の企業クライアントのインストール方法の概要: 概要。'
-ms.openlocfilehash: 7b58b712f5b6dec7383bcb8a58e1b17b0ed4d870
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 49eff64918deefe2ec169993557dd0f9dfbf6955
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699282"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012540"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>Skype のクライアントのビジネス サーバーを展開します。
  
@@ -51,11 +51,11 @@ Office 365 計画の一環としてビジネス用の Skype を購入するか�
     
 - [Skype for Business Server での Skype Room System の展開](deploy-skype-room-system.md)
     
-- [Skype Room System バージョン 2 を展開する](room-systems-v2.md)
+- [マイクロソフト チームの会議室を配置します。](room-systems-v2.md)
     
 - [ビジネス サーバーの Skype では、プラグインの Lync VDI の導入します。](deploy-the-lync-vdi-plug-in.md)
     
-- [Skype のダウンロード可能なクライアントの Web をビジネスのサーバーの展開します。](deploy-web-downloadable-clients.md)
+- [Skype for Business Server で Web ダウンロード可能なクライアントを展開する](deploy-web-downloadable-clients.md)
     
 - [Skype for Business での Mac クライアントのエクスペリエンスをカスタマイズする](customize-the-mac-client-experience.md)
     

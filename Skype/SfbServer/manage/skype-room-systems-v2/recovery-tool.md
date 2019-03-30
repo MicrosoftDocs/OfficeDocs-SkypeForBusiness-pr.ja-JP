@@ -1,5 +1,5 @@
 ---
-title: Skype ルーム システム v2 の回復ツールを使用します。
+title: マイクロソフト チームの会議室の回復ツールを使用します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,31 +8,32 @@ ms.date: 4/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+ms.collection: M365-voice
 localization_priority: Normal
-description: この資料では、Skype ルーム システム v2 は、サポートされている状態にする最新のシステムを使用する回復ツールを使用する方法について説明します。
-ms.openlocfilehash: 04bce72f6a8812c35b92f9f92d445cdf8765d110
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+description: この資料では、サポートされている状態にする最新のシステムを使用する Microsoft のチーム会議室の回復ツールを使用する方法について説明します。
+ms.openlocfilehash: 9580a94c96b7982a3030ccc0435be8e05f7c4a25
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965990"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013081"
 ---
-# <a name="use-the-skype-room-systems-v2-recovery-tool"></a>Skype ルーム システム v2 の回復ツールを使用します。
+# <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>マイクロソフト チームの会議室の回復ツールを使用します。
  
-この資料では、Skype ルーム システム v2 は、サポートされている状態にする最新のシステムを使用する回復ツールを使用する方法について説明します。 Skype ルーム システム v2 のコンソールに「最新のシステム構成」のエラーが表示されて、このツールを使用します。
+この資料では、サポートされている状態にする最新のシステムを使用する Microsoft のチーム会議室の回復ツールを使用する方法について説明します。 「最新のシステム構成」のエラーが表示マイクロソフト チームの会議室とは、このツールを使用します。
   
 
 <a name="Prerequisites"> </a>  
 ## <a name="prerequisites"></a>前提条件
 
-最新[Skype ルーム システム v2 のインストール パッケージ](https://go.microsoft.com/fwlink/?linkid=851168)をダウンロードし、USB メモリ スティックまたはネットワーク共有 Skype ルーム システムのバージョン 2 のデバイスにアクセスできるようにします。
+最新の[マイクロソフト チームの会議室のインストール パッケージ](https://go.microsoft.com/fwlink/?linkid=851168)をダウンロードし、USB メモリ スティックまたはネットワーク共有に Microsoft チームの会議室のデバイスにアクセスできるようにします。
 
 [KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu)をインストールする必要もあります。
 
 <a name="Windows-ver"> </a>
 ## <a name="verify-windows-version"></a>Windows のバージョンを確認します。 
 
-1. 管理者アカウントへのログイン**の設定 > Windows の設定 > 管理者へのサインイン**Skype ルーム システム v2 デバイスから。 このオプションでは、ログイン画面に表示されます。
+1. マイクロソフト チーム室デバイスから Settings> Windows Setting> 管理者サインインする**に**は、管理者用のアカウントにログインします。 このオプションでは、ログイン画面に表示されます。
 2. 既定の管理者、管理者用のアカウントにサインイン中のアカウント`admin`パスワードを使用して`sfb`。
 3. [スタート] メニューをクリックして`winver.exe`をクリックして、[検索] ボックスに **コマンドの実行*結果をします。
 4. 情報ウィンドウの 2 番目の行で 'バージョン' の後の番号を書き留めます。
@@ -52,17 +53,17 @@ ms.locfileid: "23965990"
 <a name="Perform"> </a>
 ## <a name="perform-a-recovery"></a>リカバリを実行します。
 
-1. Skype ルーム システム v2 デバイスの管理者アカウントにサインインし、管理者特権でコマンド プロンプトを起動します。
-2. Skype ルーム システム v2 デバイスからできることを確認するにアクセスするのには、 `RecoveryTool.ps1` 、Skype ルーム システム v2 のインストール パッケージから抽出されたファイルに含まれるファイルです。 必須コンポーネントを準備する際に使用する USB ドライブ、ネットワーク共有上のキットをご覧ください。
+1. マイクロソフト チームの会議室、デバイスの管理アカウントにサインインし、管理者特権でコマンド プロンプトを起動します。
+2. マイクロソフト チーム室デバイスからできることを確認するにアクセスするのには、`RecoveryTool.ps1`ファイルで、マイクロソフト チームの会議室のインストール パッケージから抽出されたファイルに含まれます。 必須コンポーネントを準備する際に使用する USB ドライブ、ネットワーク共有上のキットをご覧ください。
 3. Powershell.exe コマンドを実行して`-ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`。
 4. スクリプトのオプションを選択してメッセージが表示されたら`1:"Repair System"`。
-5. 完了すると、Skype ルーム システム v2 のデバイスを再起動します。 もの完全に回復した 2 回目、もう一度自動的に再起動されます。
+5. 完了すると、マイクロソフトのチームの会議室のデバイスを再起動します。 もの完全に回復した 2 回目、もう一度自動的に再起動されます。
 
 
 
 <a name="See"> </a>  
-## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
+## <a name="see-also"></a>関連項目
  
-[Skype ルーム システムのバージョン 2 のヘルプ](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[マイクロソフト チームの会議室のヘルプ](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Skype Room Systems バージョン 2 を管理する](skype-room-systems-v2.md)
+[マイクロソフト チームの会議室を管理します。](skype-room-systems-v2.md)

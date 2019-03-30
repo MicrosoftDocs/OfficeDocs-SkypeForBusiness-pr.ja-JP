@@ -8,12 +8,12 @@ ms.date: 10/05/2018
 ms.topic: article
 ms.prod: skype-for-business-itpro
 description: Skype for Business の紹介と、その計画と導入、運用の方法を管理者に説明するトレーニング ビデオです。
-ms.openlocfilehash: c6498fd2d3ed94222b7da40f2eb842d745359bd1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: dd9d114beb0ebfb3765fac72f7391ac2ab202272
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895656"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012965"
 ---
 <a name="admin-training-for-skype-for-business-online"></a>Skype for Business Online 管理者トレーニング
 ==================================
@@ -67,7 +67,7 @@ Skype for Business の詳細については、以下のコンテンツを参照�
 | [テナントのダイヤル プラン](http://aka.ms/sa-yt-tdp) | テナント ダイヤル プランにより、Skype for Business Online のダイヤル プランをカスタマイズすることが可能になります。 このセッションでは、テナント ダイヤル プランが必要な理由と使用方法を学ぶことができます。 |
 | [ Polycom RealConnect Service for Office 365](http://aka.ms/sa-yt-cvi) | Polycom RealConnect Service for Office 365 (プレビュー) は、社内 VTC (ビデオ テレカンファレンス) と Skype for Business Online の相互運用を可能にします。 このセッションでは、Cloud Video Interop の機能、ユーザーエクスペリエンスの概要、その構成方法について学びます。 |
 | [Mac でのビジネス用の Skype](http://aka.ms/sa-yt-mac) | 新しい Mac 版 Skype for Business クライアントを紹介します。 ユーザー エクスペリエンスとその機能を詳細に解説し、Mac 版 Skype for Business が他のクライアントとは異なる部分を確認します。 最後にトラブルシューティング情報を説明します。 |
-| [Skype ルーム システム v2](http://aka.ms/sa-yt-srsv2) | Skype ミーティング システム v2 を使用すると、プロジェクターやモニターを備えた既存の会議室を簡単に Skype for Business の会議室にすることができます。 プレゼンテーションで、Skype ミーティング システムの対応デバイスと、Skype ミーティング システムと他の Skype ミーティングデバイスを配備するタイミング、デバイスの可用性に必要な計画と配備の考慮事項について学んでください。 |
+| [マイクロソフトのチーム会議室](http://aka.ms/sa-yt-srsv2) | マイクロソフト チームの会議室は、プロジェクターまたはモニターを簡単に会議室に転換するが、既存の会議室を使用できます。 マイクロソフト チーム室の範囲のデバイスの詳細についてはデバイスの可用性のために必要なその他の会議デバイス、および計画と展開に関する考慮事項ではなくマイクロソフト チームの会議室を配置するときに準備プレゼンテーションを確認します。 |
 | [会議の移行サービス](http://aka.ms/sa-yt-mms) | 会議移行サービスは、管理者が会議を開催しているユーザーをオンプレミスからオンラインに移すとき、またはクラウド PSTN 会議を有効にしたときに、会議の更新をすべての会議出席者に自動的に送信します。 この新しいサービスにより、今後のすべての会議のために会議移行ツールをローカルで実行し、会議の更新を送信する必要がなくなります。 会議移行サービスが呼び出された場合、会議移行ツールが依然として必要な場合、最良のユーザー エクスペリエンスを計画する方法、会議移行サービス処理の結果をレポートする機能などの詳細についてプレゼンテーションをご覧ください。 |
 | [ オンプレミス Exchange Server を使用するクラウド PBX ボイスメール](http://aka.ms/sa-yt-avm) | Skype for Business Online のユーザーがオンプレミス Exchange Server でホストされる Exchange メールボックスを使用して、クラウド PBX ボイスメールを活用する方法を説明します。 要件と、その要件に応じた設計方法、動作の仕組みを詳細に説明します。 |
 | [ クライアント詳細情報](http://aka.ms/sa-yt-client) | Skype for Business クライアントに関して、サインインするサーバやサービスをどのように検出するか、どのように認証するか、シグナル フローはどのように見えるか、どのように問題を解決するかを説明します。 |
@@ -86,7 +86,7 @@ Skype for Business の詳細については、以下のコンテンツを参照�
 | [ MOOC: Skype for Business: 音声ハイブリッドとルーティング](http://aka.ms/sof-mooc3) | Skype for Business 音声コースの 2 番目は、ハイブリッド音声展開の計画方法と管理方法についての知識を提供します。 このコースも、「Deploying Enterprise Voice with Skype for Business 2015」試験 (70-333) の受験準備に役立ちます。   |
 | [ クラウド コネクタ 詳細情報](http://aka.ms/sa-yt-cce) | Cloud Connector Edition (CCE) は、Skype for Business Online インフラストラクチャを本格的に構築することなく、既存のテレフォニー インフラストラクチャに統合する最も簡単な方法です。 CCE の計画方法、展開方法、管理方法について説明します。 既に CCE に精通し、バージョン 1.4.1 の新機能について知りたい場合は、「新しい機能」のセクションを参照してください。 |
 | [ 呼び出しキューと自動応答](http://aka.ms/sa-yt-aacq) | 呼び出しキューは、1 回の呼び出しで、複数の Skype for Business Online ユーザーを 1 度に呼び出す仕組みを提供します。 クラウド PBX の自動応答は、通話者がインタラクティブなプロンプトを使用してシステムをナビゲートするのに役立つインテリジェントな仮想受付係です。 呼び出しキューと自動応答が生み出す価値を取り込む方法を説明します。 |
-| [ スクリプトによる Skype ミーティング システム v2 プロビジョニング](http://aka.ms/sof-yt-srsv2-script) | Skype ミーティング システム v2 の大量のアカウントを簡単に使用可能にする SOF コンテンツを紹介します。  必要な入力ファイル、実行、機能、実行レポートなどの SOF スクリプトについて説明します。 |
+| [プロビジョニング スクリプト化されたマイクロソフトのチーム会議室](http://aka.ms/sof-yt-srsv2-script) | このセッションでは、アカウントの一括大量のマイクロソフト チームの会議室に簡単に対応できるようにする SOF コンテンツを紹介します。  必要な入力ファイル、実行、機能、実行レポートなどの SOF スクリプトについて説明します。 |
 | [ MOOC: Skype for Business: 音声ワークロード詳細](http://aka.ms/sof-mooc4) | Skype for Business 音声コースの 3 番目では、オンプレミス Enterprise Voice 展開用のコア コンポーネントの設計と構成方法を説明します。 さらに、拡張呼び出し機能の実装方法と IP 電話機の管理方法についても説明します。 最後に、緊急ダイヤルの実装、Enterprise Voice ネットワークの最適化、音声品質の監視と維持について説明します。 このコースも、「Deploying Enterprise Voice with Skype for Business 2015」試験 (70-333) の受験準備に役立ちます。   |
 | [ MOOC: Skype for Business: インフラストラクチャの計画と設計](http://aka.ms/sof-mooc5) | Skype for Business インフラストラクチャ コースの最初のコースでは、サーバー コンポーネントの計画と設計について説明します。 このコースは、「Core Solutions of Microsoft Skype for Business 2015」(70-334) の受験準備に役立ちます。   |
 | [ MOOC: Skype for Business: インフラストラクチャの実装と会議](http://aka.ms/sof-mooc6) | Skype for Business インフラストラクチャ コースの 2 番目のコースでは、会議の計画と導入の方法、Skype for Business Server 導入の管理とトラブルシューティングの方法について説明します。 このコースは、「Core Solutions of Microsoft Skype for Business 2015」(70-334) の受験準備に役立ちます。   |

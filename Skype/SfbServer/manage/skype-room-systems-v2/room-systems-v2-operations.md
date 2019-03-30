@@ -1,5 +1,5 @@
 ---
-title: Skype ルーム システム v2 のメンテナンスと運用
+title: マイクロソフト チームの会議室のメンテナンスと運用
 ms.author: jambirk
 author: jambirk
 ms.reviewer: davgroom
@@ -8,27 +8,28 @@ ms.date: 5/10/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+ms.collection: M365-voice
 localization_priority: Normal
-description: Skype ルーム システムの次世代を Skype ルーム システム v2 では、管理の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 29c3af2b73f9a8b1277abdc6a47afeb69cb26ef2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+description: Skype ルーム システムの次世代をマイクロソフト チームの会議室の管理の詳細については、このトピックを参照してください。
+ms.openlocfilehash: 907abcbe07e52369aefa5065a359f0a3769b20c5
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889323"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013044"
 ---
-# <a name="skype-room-systems-v2-maintenance-and-operations"></a>Skype ルーム システム v2 のメンテナンスと運用 
+# <a name="microsoft-teams-rooms-maintenance-and-operations"></a>マイクロソフト チームの会議室のメンテナンスと運用 
  
-Skype ルーム システムの次世代を Skype ルーム システム v2 では、管理の詳細については、このトピックを参照してください。
+Skype ルーム システムの次世代をマイクロソフト チームの会議室の管理の詳細については、このトピックを参照してください。
   
-Skype ルーム システム v2 は、ビジネス経験の豊富な共同の Skype 会議室に変換するように設計された、マイクロソフトの最新の会議ソリューションです。 ユーザーは慣れ親しんだ Skype for Business インターフェイスを活用し、IT 管理者は Windows 10 Skype Meeting アプリを簡単に展開および管理することができます。 Skype ルーム システム v2 は、Skype をビジネスの会議室に移動するのにはインストールの容易さの LCD パネルと同様に既存の機器を活用するよう設計されています。
+マイクロソフト チームのルームは、ビジネス経験の豊富な共同の Skype 会議室に変換するように設計された、マイクロソフトの最新の会議ソリューションです。 ユーザーは慣れ親しんだ Skype for Business インターフェイスを活用し、IT 管理者は Windows 10 Skype Meeting アプリを簡単に展開および管理することができます。 マイクロソフト チームの会議室は、Skype をビジネスの会議室に移動するのにはインストールの容易さの LCD パネルと同様に既存の機器を活用するよう設計されています。
   
-追加の構成をリモート管理は、 [Azure のモニターを使用して Skype ルーム システムの計画 v2 の管理](../../plan-your-deployment/clients-and-devices/azure-monitor.md)、 [Azure のモニターを使用して Skype ルーム システムの展開 v2 の管理](../../deploy/deploy-clients/azure-monitor.md)管理の[で説明したように、Microsoft Azure のモニターを使用してAzure のモニターを使用して Skype ルーム システム v2 のデバイス](azure-monitor.md)。 カスタムの画面テーマの適用を含む、[Manage a Skype Room Systems v2 console settings remotely with an XML configuration file](xml-config-file.md) を行うこともできます。 
+リモート管理は、 [Azure のモニターを使用して Microsoft チームの部屋の計画の管理](../../plan-your-deployment/clients-and-devices/azure-monitor.md)、 [Azure のモニターを使用してマイクロソフト チーム ルームの展開の管理](../../deploy/deploy-clients/azure-monitor.md)、[管理の説明に従って、Microsoft Azure のモニターを使用して、追加の構成Azure のモニターを使用して Microsoft チーム室デバイス](azure-monitor.md)。 また、[マイクロソフト チームのルームの管理コンソールの XML 構成ファイルでリモートでの設定](xml-config-file.md)、ユーザー設定の表示テーマを適用する必要がある場合があります。 
   
-## <a name="collecting-logs-on-skype-room-systems-v2"></a>Skype Room Systems バージョン 2 でのログの収集
+## <a name="collecting-logs-on-microsoft-teams-rooms"></a>マイクロソフト チームの会議室のログの収集
 <a name="Logs"> </a>
 
-ログを収集するには、Skype ルーム システム v2 のアプリケーションに付属しているログ収集スクリプトを呼び出す必要があります。 管理者モードで、管理者特権のコマンド プロンプトを開始して、次のコマンドを発行します。
+ログを収集するには、マイクロソフト チームの会議室のアプリケーションに付属しているログ収集スクリプトを呼び出す必要があります。 管理者モードで、管理者特権のコマンド プロンプトを開始して、次のコマンドを発行します。
   
 ```
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
@@ -44,13 +45,13 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 > [!NOTE]
 > 屋内ディスプレイの前面として使用される消費者向け TV では、スタンバイ モードからアクティブなビデオ ソースに自動的に切り替わるように、HDMI の CEC (Consumer Electronics Control) 機能をサポート/有効にする必要があります。 この機能はすべての TV でサポートされるものではありません。 
   
-## <a name="skype-room-systems-v2-reset-factory-restore"></a>Skype Room Systems バージョン 2 のリセット (工場出荷時状態への復元)
+## <a name="microsoft-teams-rooms-reset-factory-restore"></a>マイクロソフト チームの会議室のリセット (工場出荷時復元)
 <a name="Reset"> </a>
 
-Skype ルーム システム v2 がうまく実行されていない、工場出荷時リセットを実行することが役立ちます。 これで**この PC をリセット**するの下にある [**回復**] タブの [アプリケーションの設定を行うを選択**を開始**し、**すべて削除します。** デバイスをリセットするのには、画面の指示に従います。
+マイクロソフト チームの会議室がうまく実行されていない、工場出荷時リセットを実行することが役立ちます。 これで**この PC をリセット**するの下にある [**回復**] タブの [アプリケーションの設定を行うを選択**を開始**し、**すべて削除します。** デバイスをリセットするのには、画面の指示に従います。
   
 > [!NOTE]
-> Skype ルーム システム v2 が Windows のリセット処理中に、**アプリの削除と設定のファイルを保存、個人用ファイルを保持**] オプションが選択されている場合に使用できなくなる、既知の問題があります。 操作を行います_しない_このオプションを使用します。
+> 場所マイクロソフト チームの会議室が使用できなくなる場合 Windows のリセット処理中に、**アプリの削除と設定のファイルを保存、個人用ファイルを保持**] オプションが選択されている既知の問題があります。 操作を行います_しない_このオプションを使用します。
   
 ## <a name="supported-remote-options"></a>サポートされるリモート オプション
 <a name="RemoteOptions"> </a>
@@ -66,16 +67,16 @@ Skype ルーム システム v2 がうまく実行されていない、工場出
 |Skype アカウントの構成  <br/> |現在サポートされていません  <br/> |	現在サポートされていません  <br/> |
 |ログへのアクセス  <br/> |	現在サポートされていません  <br/> |	現在サポートされていません  <br/> |
    
-## <a name="configuring-group-policy-for-skype-room-systems-v2"></a>Skype Room Systems バージョン 2 のグループ ポリシーの構成
+## <a name="configuring-group-policy-for-microsoft-teams-rooms"></a>マイクロソフト チームの会議室のグループ ポリシーを構成します。
 <a name="GroupPolicy"> </a>
 
-このセクションでは、Skype ルーム システム v2 が正しく機能するために依存しているシステムの設定について説明します。 Skype ルーム システム v2 をドメインに参加させるときは、グループ ポリシーが次の表の設定を上書きしないことを確認します。
+このセクションでは、マイクロソフト チームの会議室が正しく機能するために依存しているシステムの設定について説明します。 マイクロソフト チームの会議室をドメインに参加させるときは、グループ ポリシーが次の表の設定を上書きしないことを確認します。
   
 
 |**設定**|**により、**|
 |:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows 探して AutoAdminLogon = (REG_SZ) 1  <br/> |起動するように Skype ルーム システム v2 を有効に  <br/> |
-|電源管理 -\> AC、画面をオフに 10 分後  <br/> 電源管理 -\> Ac システムをスリープ状態を配置しません。  <br/> |により、接続されている表示をオフにして、自動的に復帰する Skype ルーム システム v2  <br/> |
+|HKLM\SOFTWARE\Microsoft\Windows 探して AutoAdminLogon = (REG_SZ) 1  <br/> |起動するように、マイクロソフト チームの会議室を使用します。  <br/> |
+|電源管理 -\> AC、画面をオフに 10 分後  <br/> 電源管理 -\> Ac システムをスリープ状態を配置しません。  <br/> |マイクロソフト チームの部屋に接続されている表示をオフにして、自動的にスリープを有効に  <br/> |
 |net accounts /maxpwage:unlimited  <br/> またはローカル アカウントのパスワードの有効期限を無効にするのと同等のことを意味します。 これを行うには、障害が発生する Skype アカウントの期限切れのパスワードについて苦情を言ってログオンが失敗すると、最終的に。 したがってこれを設定して必要があります管理者アカウント、最終的にも期限切れにする] ボックスに、コンピューター上のすべてのローカル アカウントに影響を与えるこのこと注意してください。  <br/> |常にログインするように Skype アカウントを有効にする  <br/> |
    
 グループ ポリシーを使用してファイルを転送するは、[構成ファイルの項目](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)で説明します。
@@ -95,14 +96,14 @@ PowerShell を使用して、次の管理操作をリモートで実行するこ
     
 - ログの取得
     
-- ファイルを転送する (ドメインに参加している Skype ルーム システム バージョン 2 が必要です)
+- ファイルを転送する (ドメインに参加している Microsoft チーム ルームが必要です)
     
 > [!NOTE]
-> 既定では、この機能はオフです。 Skype ルーム システム v2 システムの環境に次の操作を実行するリモートの PowerShell を有効にする必要があります。 リモート PowerShell を有効にする方法についての情報を**[有効にする PSRemoting](https://technet.microsoft.com/library/hh849694.aspx)** のマニュアルを参照してください。
+> 既定では、この機能はオフです。 以下の操作を実行するのには、マイクロソフト チームの会議室のシステム環境のリモート PowerShell を有効にする必要があります。 リモート PowerShell を有効にする方法についての情報を**[有効にする PSRemoting](https://technet.microsoft.com/library/hh849694.aspx)** のマニュアルを参照してください。
   
 たとえば、次のようにリモート PowerShell を有効にできます。
   
-1. Skype ルーム システム v2 デバイスの管理者のユーザーとしてサインインします。
+1. マイクロソフト チームの会議室のデバイスに管理者としてサインインします。
     
 2. 管理者特権の PowerShell コマンド プロンプトを開きます。
     
@@ -110,7 +111,7 @@ PowerShell を使用して、次の管理操作をリモートで実行するこ
     
 管理操作を実行するには、次の操作を実行します。
   
-1. Skype ルーム システム v2 のデバイスでの PowerShell コマンドを実行する権限を持つアカウントの資格情報で PC にサインインします。
+1. マイクロソフト チームの会議室のデバイスでの PowerShell コマンドを実行する権限を持つアカウントの資格情報で PC にサインインします。
     
 2. PC の通常の PowerShell コマンド プロンプトを開きます。
     
@@ -169,17 +170,17 @@ Copy-Item $movefile $targetDevice
 ## <a name="software-updates"></a>ソフトウェアの更新
 <a name="SWupdate"> </a>
 
-既定では、Skype ルーム システム v2 は、デバイスの通常のインターネット アクセスが必要なので、Skype ルーム システム v2 のソフトウェアの最新バージョンを取得する Windows ストアに接続しようとします。 必ずサポートの問題に関して、マイクロソフトに連絡する前にアプリケーションの最新バージョンの Skype ルーム システムのバージョン 2 のデバイスが読み込まれます。
+既定では、マイクロソフト チームの会議室は、デバイスの通常のインターネット アクセスが必要なので、チームの会議室を Microsoft のソフトウェアの最新バージョンを取得する Windows ストアに接続しようとします。 必ずサポートの問題に関して、マイクロソフトに連絡する前にマイクロソフト チームの会議室のデバイス アプリケーションの最新バージョンがロードされます。
   
-既定は、Skype ルーム システム v2 は、オペレーティング システムを取得するために Windows の更新プログラムと USB 周辺機器のファームウェアの更新に接続し、構成済みの業務時間外をインストールします。 営業時間を設定するには、管理者アカウントでサインインし、設定アプリを実行します。
+既定は、マイクロソフト チームの会議室は、オペレーティング システムを取得するために Windows の更新プログラムと USB 周辺機器のファームウェアの更新に接続し、構成済みの業務時間外をインストールします。 営業時間を設定するには、管理者アカウントでサインインし、設定アプリを実行します。
   
-APPX の適切なファイルとの[『 導入ガイド 』](https://go.microsoft.com/fwlink/?linkid=851168) (からの依存関係を取得することをした場合、手動で更新プログラムを管理する通常の手順に従って、[ビジネス向けのマイクロソフト ストア](https://businessstore.microsoft.com/store)の[オフライン アプリケーションを配布](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)することはできません。[Skype ルーム システム v2 のコンソールを構成](../../deploy/deploy-clients/console.md)する方法) と SCCM を使用できます。 展開キットのリリースも遅れて、ストアのリリースでは、最新の利用可能なビルドを常に一致可能性がありますように。
+APPX の適切なファイルとの[『 導入ガイド 』](https://go.microsoft.com/fwlink/?linkid=851168) (からの依存関係を取得することをした場合、手動で更新プログラムを管理する通常の手順に従って、[ビジネス向けのマイクロソフト ストア](https://businessstore.microsoft.com/store)の[オフライン アプリケーションを配布](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)することはできません。[マイクロソフト チームの会議室のコンソールを構成](../../deploy/deploy-clients/console.md)する方法) と SCCM を使用できます。 展開キットのリリースも遅れて、ストアのリリースでは、最新の利用可能なビルドを常に一致可能性がありますように。
   
 ### <a name="to-update-using-powershell"></a>Powershell を使用して更新するのには
 
 1. 共有デバイスには、 [MSI](https://go.microsoft.com/fwlink/?linkid=851168)にアクセスできるインストール パッケージを展開します。
     
-2. Skype ルーム システム v2 ・ デバイスを使用し、変更することを対象とする次のスクリプトを実行\<共有\>デバイスには、必要に応じて共有します。
+2. デバイスの Microsoft チームの会議室の変更を対象とする次のスクリプトを実行\<共有\>デバイスには、必要に応じて共有します。
     
 ```
 Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
@@ -190,7 +191,7 @@ Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rige
 
 プライベート CA 証明書を手動でインストールするように、一部の管理機能は、管理者モードで Surface Pro デバイスを配置する必要があります。 
   
-### <a name="switching-to-admin-mode-and-back-when-the-skype-room-systems-v2-app-is-running"></a>管理者モードと Skype ルーム システム v2 のアプリケーションを実行しているときの切り替え
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>管理者モードとマイクロソフト チームの会議室のアプリケーションを実行しているときの切り替え
 
 1. 進行中の呼び出しを切断し、ホーム画面に戻ります。
     
@@ -215,13 +216,13 @@ Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rige
     
 10. 管理者アカウントからサイン アウトします。
     
-11. 画面の左端にある [ユーザー アカウントのアイコンを選択し、 **Skype**Skype ルーム システム v2 に戻ります。
+11. 画面の左端にある [ユーザー アカウントのアイコンを選択し、 **Skype**では、マイクロソフト チームの会議室に戻ります。
     
     **Skype**ユーザーが一覧にない場合は**他のユーザー**を選択し、入力をする必要があります**です。 \skype**として、ユーザー名、およびサインインします。
     
 コンソールは、その通常の操作モードに戻るようになりました。次の手順では、1 つは既に接続されていない場合、デバイスにキーボードを接続する必要があります。 
   
-### <a name="switching-to-admin-mode-and-back-when-the-skype-room-systems-v2-app-crashes"></a>管理者モードと Skype ルーム システム v2 のアプリケーションがクラッシュしたときの切り替え
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>管理者モードとマイクロソフト チーム ルーム アプリケーションがクラッシュしたときの切り替え
 
 1. Windows キーを 5 回連続で、素早く押します。 これによって、Windows のログオン画面が開きます。 
     
@@ -234,19 +235,19 @@ Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rige
     
 4. 完了したら、コンピューターを再起動します。
     
-   Skype ルーム システム v2 のアプリケーションを実行して、通常の操作モードに、コンソールを再起動します。 キーボードを削除するには、この手順を実行するために割り当てられる場合。
+   コンソールは、マイクロソフト チームの会議室のアプリケーションを実行して、通常の操作モードに再起動します。 キーボードを削除するには、この手順を実行するために割り当てられる場合。
    ## <a name="troubleshooting-tips"></a>トラブルシューティングのヒント
    <a name="TS"> </a>
 
 - 会議出席依頼があります (たとえば、2 つの企業では)、ドメインの境界を越えて送信される場合は表示されません。 このような場合、IT 管理者は、会議をスケジュールするのには外部のユーザーを許可するかどうかを決める必要があります。
     
-- Skype ルーム システム v2 では、Exchange 2010 を使用して Exchange の自動検出リダイレクトをサポートしていません。
+- マイクロソフト チームの会議室には、Exchange 2010 を使用して Exchange の自動検出リダイレクトをサポートしていません。
     
 - 一般は、オーディオ エンドポイントを使用しないことを無効にする IT 管理者のことをお勧めします。
     
 - ルームのプレビューにミラー イメージが表示される場合、IT 管理者はカメラの電源をいったんオフにして再びオンにするか、カメラのリモート制御を使用してイメージの向きを反転させることでミラー イメージを修正できます。
     
-- コンソールのタッチスクリーンへのアクセスが機能しなくなる問題が発生することが知られています。 このような場合は、Skype ルーム システム v2 のシステムを再起動することによって問題が解決場合があります。
+- コンソールのタッチスクリーンへのアクセスが機能しなくなる問題が発生することが知られています。 このような場合は、マイクロソフト チームの会議室のシステムを再起動することによって問題が解決場合があります。
     
 - 有線取り込みを介して PC をコンソールに接続すると、ローカルの音声が消失する問題が発生することが知られています。 このような場合は、PC を再起動することでローカルの音声再生の問題を解決できます。
     

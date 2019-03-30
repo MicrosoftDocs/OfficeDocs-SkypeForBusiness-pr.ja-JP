@@ -8,20 +8,21 @@ ms.date: 4/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+ms.collection: M365-voice
 localization_priority: Normal
-description: この資料では、Skype ルーム システム v2 のライフ サイクルのサポートについて説明します。
-ms.openlocfilehash: c1a7daf7d107fc7ad05bdcc6a0fe9c1d113630e9
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+description: この資料では、マイクロソフト チームの会議室のライフ サイクルのサポートについて説明します。
+ms.openlocfilehash: ed973a01987b46dff879ab7b28275f84d55778ea
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965934"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012927"
 ---
 # <a name="version-support"></a>バージョンのサポート
  
-マイクロソフトは、何度か年間 12 (12 か月の全般的な可用性 (GA) のリリース日からのサポートされている更新のたびに Skype ルーム システム v2 用の更新プログラムをリリースする予定です。 全体の 12 (12) の月のテクニカル サポートが提供されます。 ただし、弊社サポート構造が、最新バージョンの可用性に依存している 2 つのサービスの段階に進化して、動的です。
+マイクロソフトは、マイクロソフト チームの会議室を何度か年間 12 (12 か月の全般的な可用性 (GA) のリリース日からのサポートされている更新のたびに更新をリリースする予定です。 全体の 12 (12) の月のテクニカル サポートが提供されます。 ただし、弊社サポート構造が、最新バージョンの可用性に依存している 2 つのサービスの段階に進化して、動的です。
 
-サービスおよび重要な更新プログラムの処理フェーズ Skype ルーム システム v2 の最新バージョンを実行するには、セキュリティを含む、定期的な更新が表示され、サービスを更新すると表示されます。
+サービスおよび重要な更新プログラムのサービスは、マイクロソフト チームの会議室の最新バージョンを実行するには、セキュリティを含む、定期的な更新が表示され、サービスを更新するとフェーズです。
 
 
 (のみ)、新しいバージョンがリリースされた後のフェーズを処理するセキュリティ更新プログラム サポート 12 (12) の月のサービス更新プログラムの残りの部分は、ライフ サイクルをサポートするためにのみ、セキュリティ更新プログラムを以前の分岐が短縮されます。
@@ -32,16 +33,16 @@ ms.locfileid: "23965934"
 
 端点は、以来、2 つ以上の更新がリリースされた場合や、12 (12) の月のライフ サイクル、バージョンの有効期限が切れた後もすべてサポートします。 その時点では、ユーザーは、サポートされているバージョンに更新する必要があります。
 
-[Skype ルーム システム v2 のリリース ノート](srs2-release-note.md)では、すべてのリリースが一覧表示されます。 
+すべてのリリースは、[マイクロソフト チームの会議室のリリース ノート](srs2-release-note.md)に表示されます。 
  
 
 
 
 <a name="See"> </a>  
-## <a name="see-also"></a>この手順は役に立ちましたか? 役に立った場合は、この記事の下でお知らせください。役に立たなかった場合は、わかりにくかった部分をお知らせください。いただいたフィードバックを元に手順を再確認します。
+## <a name="see-also"></a>関連項目
 
-[Skype ルーム システムのバージョン 2 のヘルプ](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[マイクロソフト チームの会議室のヘルプ](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Skype ルーム システム v2 のリリース ・ ノート](srs2-release-note.md)
+[マイクロソフト チームの会議室のリリース ノート](srs2-release-note.md)
 
-[Skype Room Systems バージョン 2 の計画](skype-room-systems-v2-0.md)
+[マイクロソフト チームの会議室のプラン](skype-room-systems-v2-0.md)

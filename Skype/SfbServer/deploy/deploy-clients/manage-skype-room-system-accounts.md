@@ -9,20 +9,21 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
+ms.collection: M365-voice
 description: このトピックでは、Skype Room System アカウントの管理方法について説明します。
-ms.openlocfilehash: 715eda137395d2133b6b19dee4a9d2336923c13b
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 4c276d4acf0cf15df7689fa5c11a0e6e2cde785b
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699245"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012525"
 ---
 # <a name="manage-skype-room-system-accounts"></a>Skype Room System アカウントを管理する
  
 このトピックでは、Skype Room System アカウントの管理方法について説明します。 
 
 > [!NOTE]
-> Skype ルーム システム v2 は、さまざまな依存関係および展開の手順で別の製品です。 Skype ルーム システム v2 については、Skype ルーム システム v2 の[管理の概要](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)を参照してください。
+> マイクロソフト チームの会議室は、さまざまな依存関係および展開の手順で別の製品です。 マイクロソフト チームの会議室については、マイクロソフト チームの会議室の[管理の概要](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)を参照してください。
   
 ## <a name="move-the-skype-room-system-account-between-pools"></a>Skype ルームのシステム アカウントをプール間で移動します。
 

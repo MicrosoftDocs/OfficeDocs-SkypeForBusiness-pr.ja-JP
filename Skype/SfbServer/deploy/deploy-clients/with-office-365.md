@@ -1,5 +1,5 @@
 ---
-title: Skype Room Systems バージョン 2 と Office 365 を展開する
+title: Office 365 でマイクロソフトのチームの会議室を配置します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,25 +10,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
+- M365-voice
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: Office 365 で Skype ルーム システム v2 を展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 05288842a54fd8be7487181582fcc7bd4780fd2e
-ms.sourcegitcommit: 8e5fc1d8c19a7f26f53e40b23dd6476a8c6d805f
+description: Microsoft Office 365 でのチーム会議室を展開する方法の詳細については、このトピックを参照してください。
+ms.openlocfilehash: 5ef6c4ea8b76a34b19da6a74d82badf8000e007c
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30800125"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012941"
 ---
-# <a name="deploy-skype-room-systems-v2-with-office-365"></a>Skype Room Systems バージョン 2 と Office 365 を展開する 
+# <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Office 365 でマイクロソフトのチームの会議室を配置します。
 
-Skype ビジネスと Exchange の両方がオンラインで、Office 365 で Skype ルーム システム v2 を展開する方法の詳細については、このトピックを参照してください。
+Skype ビジネスと Exchange の両方がオンラインで、Office 365 でマイクロソフト チームの会議室を展開する方法の詳細については、このトピックを参照してください。
 
-ユーザー アカウントを設定する最も簡単な方法では、リモートの Windows PowerShell を使用してそれらを構成します。 マイクロソフトでは、 [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)、新しいユーザー アカウントを作成または Skype ルーム システム v2 の互換性のあるユーザー アカウントにそれらを有効にするためにある既存のリソース アカウントの検証を支援するスクリプトを提供します。 場合は、Skype ルーム システム v2 デバイスを使用してアカウントを構成するのには、次の手順に従うことができます。
+ユーザー アカウントを設定する最も簡単な方法では、リモートの Windows PowerShell を使用してそれらを構成します。 マイクロソフトでは、 [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)、新しいユーザー アカウントを作成または互換性のある Microsoft チームの会議室のユーザー アカウントにそれらを有効にするためにある既存のリソース アカウントの検証を支援するスクリプトを提供します。 場合は、マイクロソフト チームの会議室デバイスを使用してアカウントを構成するのには、次の手順に従うことができます。
 
 ## <a name="requirements"></a>要件
 
-Office 365 で Skype ルーム システム v2 を展開する前に、要件を満たしていることを確認します。 詳細については、「[Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md)」を参照してください。
+Microsoft Office 365 でのチーム会議室を展開する前に、要件を満たしていることを確認します。 詳細については、[マイクロソフト チームの会議室の要件](../../plan-your-deployment/clients-and-devices/requirements.md)を参照してください。
 
 ビジネス用の Skype を有効にするには、以下が必要です。
 
@@ -38,7 +39,7 @@ Office 365 で Skype ルーム システム v2 を展開する前に、要件を
 
 - テナント ユーザーは、Exchange のメールボックスが必要です。
 
-- Skype ルーム システム v2 アカウントにする必要が最低限、Skype ビジネス オンライン (プラン 2) のライセンスが、Exchange Online のライセンスは必要ありません。 詳細については、 [Skype ルーム システム v2 のライセンス](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)を参照してください。
+- チームの会議室を Microsoft アカウントにする必要が最低限、Skype ビジネス オンライン (プラン 2) のライセンスが、Exchange Online のライセンスは必要ありません。 詳細については、[マイクロソフト チームの会議室のライセンス](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)を参照してください。
 
 Skype のビジネスのオンラインの計画の詳細については、 [Skype](https://technet.microsoft.com/library/jj822172.aspx)を参照してください。
 
@@ -164,7 +165,7 @@ Skype のビジネスのオンラインの計画の詳細については、 [Sky
 
    詳細については、 [Office 365 の PowerShell でのユーザー アカウントにライセンスを割り当てる](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)を参照してください。
 
-7. 次に、ビジネスの Skype でデバイスのアカウントを有効にする必要があります。 お使いの環境が [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md) で定義されている要件を満たしていることを確認します。
+7. 次に、ビジネスの Skype でデバイスのアカウントを有効にする必要があります。 お客様の環境は、[マイクロソフト チームの会議室の要件](../../plan-your-deployment/clients-and-devices/requirements.md)に定義されている要件を満たしていることを確認します。
 
    ( [Skype オンライン PowerShell のビジネス コンポーネントをインストール](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)することを確認する) 次のように、リモートの[Windows PowerShell セッション](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)を開始します。
 
@@ -174,7 +175,7 @@ Skype のビジネスのオンラインの計画の詳細については、 [Sky
    Import-PSSession $cssess -AllowClobber
    ```
 
-   次に、アカウント有効にする、Skype ルーム システム v2 Skype のビジネス サーバーの次のコマンドレットを実行することによって。
+   次に、アカウント有効にする、マイクロソフトのチーム会議室 Skype のビジネス サーバーの次のコマンドレットを実行しています。
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
@@ -189,7 +190,7 @@ Skype のビジネスのオンラインの計画の詳細については、 [Sky
     > [!NOTE]
     > テナント内の既存のユーザー アカウントとして同じレジストラー プールに新しいユーザー アカウントを作成できません可能性があります。 上記のコマンドは、このような状況が発生したため、アカウントのセットアップでエラーをできなくなります。
 
-オンライン ビジネスの Skype の Skype ルーム システム v2 アカウントを有効にするのには、上記の手順を完了した後は、Skype の部屋のシステムのバージョン 2 のデバイスにライセンスを割り当てる必要があります。 Office 365 管理ポータルを使用して、オンライン ビジネス (プラン 2) またはデバイスにライセンスをオンライン ビジネス (3 の計画)、Skype のいずれか、Skype を割り当てます。
+ビジネス オンラインの Skype で、マイクロソフトのチームの会議室のアカウントを有効にするのには、上記の手順を完了した後は、マイクロソフト チームの会議室のデバイスにライセンスを割り当てる必要があります。 Office 365 管理ポータルを使用して、オンライン ビジネス (プラン 2) またはデバイスにライセンスをオンライン ビジネス (3 の計画)、Skype のいずれか、Skype を割り当てます。
 
 ### <a name="assign-a-license-to-your-account"></a>ライセンスをアカウントに割り当てる
 
@@ -197,11 +198,11 @@ Skype のビジネスのオンラインの計画の詳細については、 [Sky
 
 2. [**ユーザーとグループ**] をクリックしてから [**ユーザーの追加、パスワードのリセットなど**] をクリックします。
 
-3. Skype ルーム システム v2 アカウントを選択] をクリックするか、手段の編集 [ペン] アイコンをタップします。
+3. チームの会議室を Microsoft アカウントを選択またはクリックして方法の編集 [ペン] アイコンをタップします。
 
 4. [**ライセンス**] オプションをクリックします。
 
-5. [**ライセンスの割り当て**] セクションではビジネス オンライン (3 の計画)、によっては、ライセンスおよびエンタープライズ VoIP を必要とする点で決めたものは、ビジネス オンライン (プラン 2) または Skype の Skype を選択する必要があります。 Skype ルーム システム v2 のクラウド PBX を使用する場合は、計画の 3 ライセンスを使用する必要があります。 最低でも、音声接続用に CloudPBX が必要です。 次に、PSTN の接続方法に基づきハイブリッド音声または PSTN 通話を構成します。 詳細については、 [Skype ルーム システム v2 のライセンス](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)を参照してください。
+5. [**ライセンスの割り当て**] セクションではビジネス オンライン (3 の計画)、によっては、ライセンスおよびエンタープライズ VoIP を必要とする点で決めたものは、ビジネス オンライン (プラン 2) または Skype の Skype を選択する必要があります。 マイクロソフト チームの会議室でクラウド PBX を使用する場合は、計画の 3 ライセンスを使用する必要があります。 最低でも、音声接続用に CloudPBX が必要です。 次に、PSTN の接続方法に基づきハイブリッド音声または PSTN 通話を構成します。 詳細については、[マイクロソフト チームの会議室のライセンス](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)を参照してください。
 
 6. タスクを完了するには、**[保存]** をクリックします。
 
@@ -249,14 +250,14 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 
 ## <a name="see-also"></a>関連項目
 
-[Skype ルーム システム v2 用のアカウントを構成します。](room-systems-v2-configure-accounts.md)
+[マイクロソフト チームの会議室のアカウントを構成します。](room-systems-v2-configure-accounts.md)
 
-[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[マイクロソフト チームの会議室のプラン](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 
-[Skype Room System バージョン 2 を展開する](room-systems-v2.md)
+[マイクロソフト チームの会議室を配置します。](room-systems-v2.md)
 
-[Skype Room Systems バージョン 2 コンソールを構成する](console.md)
+[マイクロソフト チームの会議室のコンソールを構成します。](console.md)
 
-[Skype Room Systems バージョン 2 を管理する](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[マイクロソフト チームの会議室を管理します。](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
-[Skype ルーム システム v2 のライセンス](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+[ライセンス マイクロソフト チーム会議室](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)

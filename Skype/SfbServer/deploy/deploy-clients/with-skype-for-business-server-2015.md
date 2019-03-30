@@ -1,5 +1,5 @@
 ---
-title: Skype の部屋を配置する Skype のビジネス サーバーでシステム v2
+title: Skype でマイクロソフトのチームの会議室をビジネス サーバーの展開します。
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,31 +10,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
+- M365-voice
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
-description: ビジネス サーバーの Skype と Skype ルーム システム v2 を展開する方法の詳細については、このトピックを参照してください。
-ms.openlocfilehash: 5159d9cc8835ebe2b6e1d74e2f7644ee11232b63
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+description: ビジネス サーバー用 Skype でマイクロソフト チームの会議室を展開する方法の詳細については、このトピックを参照してください。
+ms.openlocfilehash: e5ba372a5990f7c63827f1f8b0426e67ae48b620
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30645395"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012477"
 ---
-# <a name="deploy-skype-room-systems-v2-with-skype-for-business-server"></a>Skype の部屋を配置する Skype のビジネス サーバーでシステム v2
+# <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Skype でマイクロソフトのチームの会議室をビジネス サーバーの展開します。
   
-このトピックでは、単一フォレストでは、設置型の展開がある場合に Skype ルーム システムのバージョン 2 のデバイスのアカウントを追加する方法について説明します。
+このトピックでは、マイクロソフト チームの会議室のデバイスのアカウントを追加する方法、単一フォレストでは、設置型の展開がある場合について説明します。
   
 単一フォレスト、Exchange 2013 の sp1 またはそれ以降の設置型展開および Skype ビジネス サーバー 2015 またはそれ以降がある場合は場合、は、デバイスのアカウントを作成するのには、指定された Windows PowerShell スクリプトを使用できます。 マルチ フォレスト展開を使用する場合は、同じ結果を生成すると同等のコマンドレットを使用できます。 これらのコマンドレットは、このセクションで説明します。
 
-ユーザー アカウントを設定する最も簡単な方法では、リモートの Windows PowerShell を使用してそれらを構成します。 マイクロソフトでは、 [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)、新しいユーザー アカウントを作成または Skype ルーム システム v2 の互換性のあるユーザー アカウントにそれらを有効にするためにある既存のリソース アカウントの検証を支援するスクリプトを提供します。 場合は、Skype ルーム システム v2 デバイスを使用してアカウントを構成するのには、次の手順に従うことができます。
-
-## <a name="requirements"></a>要件
-
-ビジネス サーバーの Skype と Skype ルーム システム v2 を展開する前に、要件を満たしていることを確認します。 詳細については、「[Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md)」を参照してください。
   
-Skype ルーム システム v2 を展開する作業を開始する前に、関連付けられているコマンドレットを実行する適切なアクセス許可があることを確認します。
+マイクロソフト チームの会議室を展開する作業を開始する前に、関連付けられているコマンドレットを実行する適切なアクセス許可があることを確認します。
   
-1. PC からリモートの Windows PowerShell セッションを開始し、Exchange に接続します。
 
    ``` Powershell
    Set-ExecutionPolicy Unrestricted
@@ -49,7 +44,7 @@ Skype ルーム システム v2 を展開する作業を開始する前に、関
 
    $StrExchangeServer は、Exchange サーバーの完全修飾ドメイン名 (FQDN)、$strLyncFQDN は、ビジネスのサーバーの展開に、Skype の FQDN を確認します。
 
-2. セッションを確立するには後、するが新しいメールボックスを作成して、RoomMailboxAccount、として有効にか既存の会議室メールボックスの設定を変更します。 これにより、Skype ルーム システム v2 を認証するためにアカウントが許可されます。
+2. セッションを確立するには後、するが新しいメールボックスを作成して、RoomMailboxAccount、として有効にか既存の会議室メールボックスの設定を変更します。 これにより、マイクロソフトのチームの会議室への認証にアカウントが許可されます。
 
     既存のリソース メールボックスを変更している場合:
 
@@ -79,13 +74,13 @@ Skype ルーム システム v2 を展開する作業を開始する前に、関
    Set-AdUser $acctUpn -PasswordNeverExpires $true
    ```
 
-5. Skype ルーム システム v2 を認証するために Active Directory のアカウントを有効にします。
+5. マイクロソフト チームの会議室に、認証は、Active Directory のアカウントを有効にします。
 
    ``` Powershell
    Set-AdUser $acctUpn -Enabled $true
    ```
 
-6. ビジネス サーバー プールのため、Skype の Skype ルーム システム v2 Active Directory アカウントを有効にすると、Business Server の Skype でデバイスのアカウントを有効にします。
+6. ビジネス サーバー プールのため、Skype でマイクロソフト チーム ルームの Active Directory アカウントを有効にすると、Business Server の Skype でデバイスのアカウントを有効にします。
 
    ``` Powershell
    Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com
@@ -94,7 +89,7 @@ Skype ルーム システム v2 を展開する作業を開始する前に、関
 
     セッション開始プロトコル (SIP) アドレスとプロジェクトのドメイン コントローラーを使用する必要があります。
 
-7. **オプション。** Skype ルーム システムの v2 になり、公衆交換電話網 (PSTN) 電話でお使いのアカウントでエンタープライズ VoIP を有効にすることも可能です。 エンタープライズ VoIP Skype ルーム システム v2 では、必要のないが、PSTN のダイヤル機能を Skype ルーム システムのバージョン 2 のクライアントの使用すると、それを有効にする方法です。
+7. **オプション。** マイクロソフト チームの会議室になり、公衆交換電話網 (PSTN) 電話でお使いのアカウントでエンタープライズ VoIP を有効にすることも可能です。 エンタープライズ VoIP がマイクロソフト チームの会議室の要件はありませんが、PSTN のダイヤル機能をマイクロソフト チームの会議室のクライアントの使用すると、それを有効にする方法です。
 
    ``` Powershell
    Set-CsMeetingRoom PROJECTRIGEL01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
@@ -123,12 +118,12 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 
 ## <a name="see-also"></a>関連項目
 
-[Skype ルーム システム v2 用のアカウントを構成します。](room-systems-v2-configure-accounts.md)
+[マイクロソフト チームの会議室のアカウントを構成します。](room-systems-v2-configure-accounts.md)
 
-[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[マイクロソフト チームの会議室のプラン](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Skype Room System バージョン 2 を展開する](room-systems-v2.md)
+[マイクロソフト チームの会議室を配置します。](room-systems-v2.md)
   
-[Skype Room Systems バージョン 2 コンソールを構成する](console.md)
+[マイクロソフト チームの会議室のコンソールを構成します。](console.md)
   
-[Skype Room Systems バージョン 2 を管理する](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[マイクロソフト チームの会議室を管理します。](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

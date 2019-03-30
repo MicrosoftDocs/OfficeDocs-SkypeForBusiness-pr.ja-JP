@@ -9,13 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99443d60-e64a-4a8a-a7bf-95f790b0ad5c
+ms.collection: M365-voice
 description: 方法については、Skype ルーム システムでは、会議を導入してルーム ソリューションの統合されたハードウェアと Skype をビジネス ・ ミーティングに参加するのには最適なソフトウェアで構成されます。
-ms.openlocfilehash: 94a9b1cb7ff3f341a51944cdc678bc66e44831cb
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 26ce5f6e50d26b408a8bce5d167e4e7b6046e514
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699318"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012568"
 ---
 # <a name="deployment-planning-for-skype-room-system-in-skype-for-business"></a>ビジネス用の Skype の Skype ルームのシステムの計画の展開
  
@@ -25,7 +26,7 @@ ms.locfileid: "25699318"
 > これの目的でコンテンツ、Crestron RL、スマート ・ ルーム システムのビジネス用の Skype とポリコム CX8000 があると呼ばれる Skype ルーム システムです。 
 
 > [!NOTE]
-> Skype ルーム システム v2 は、さまざまな依存関係および展開の手順で別の製品です。 Skype ルーム システム v2 については、 [Skype ルーム システムの計画のバージョン 2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)を参照してください。
+> マイクロソフト チームの会議室は、さまざまな依存関係および展開の手順で別の製品です。 マイクロソフト チームの会議室については、[マイクロソフト チームの部屋の計画](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)を参照してください。
   
  Skype ルーム システムは、Skype のビジネス会議は、物理的な会議室での最適化された統合コミュニケーション クライアントをビジネス用の Skype です。
   
@@ -43,7 +44,7 @@ Skype ルーム システムのクライアントは、ビジネスの SDK は�
     
 このガイドでは、ビジネスのサーバーと Exchange Server の Skype の Skype ルームのシステムをプロビジョニングします。 管理者は、会議室でアプライアンスの PC とデバイスの設定の手順が用意されている Skype ルーム システムのインストール ガイドを参照してください。 
   
-## <a name="prerequisites"></a>必要条件
+## <a name="prerequisites"></a>前提条件
 
 Skype ルーム システムの要件は、以下です。 
   
@@ -78,8 +79,8 @@ Skype ルーム システムは、Lync server のバージョンの Lync Server 
 
 |**交換**|**オンプレミス**|**オンライン**|**ハイブリッド**|
 |:-----|:-----|:-----|:-----|
-|Exchange 2010  <br/> |はい (単一フォレストのみ)  <br/> |該当なし  <br/> |該当なし  <br/> |
-|Exchange 2013  <br/> |はい (複数フォレスト サポートは Exchange 2013 CU6 以降のバージョン)  <br/> |可  <br/> |あり  <br/> |
-|Exchange 2016  <br/> |[はい] (複数フォレストのサポート可能)  <br/> |あり  <br/> |はい  <br/> |
+|Exchange 2010  <br/> |はい (単一フォレストのみ)  <br/> |N/A  <br/> |該当なし  <br/> |
+|Exchange 2013  <br/> |はい (複数フォレスト サポートは Exchange 2013 CU6 以降のバージョン)  <br/> |はい  <br/> |はい  <br/> |
+|Exchange 2016  <br/> |[はい] (複数フォレストのサポート可能)  <br/> |はい  <br/> |はい  <br/> |
    
 
