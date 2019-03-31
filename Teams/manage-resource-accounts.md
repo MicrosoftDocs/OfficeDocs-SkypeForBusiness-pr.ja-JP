@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: マイクロソフトのチーム内のリソース アカウントの管理についてください。
-ms.openlocfilehash: b24538e73d236da2c7ee9e889b7cd117a3c931b0
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 345b3b8698f0c387f90b37cc1212c320a2d3d85d
+ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012956"
+ms.locfileid: "31013646"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 
@@ -59,7 +59,7 @@ ms.locfileid: "31012956"
 > [!NOTE]
 > 米国以外のユーザーは、サービス番号を取得するマイクロソフトのチームの管理センターを使うことはできません。 [組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)する代わりに、米国の外側から行う方法を参照してください。
 
-## <a name="create-a-resource-account-in-admin-center"></a>管理センターのリソース アカウントを作成します。
+## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>マイクロソフトのチーム管理センターのリソース アカウントを作成します。
 
 マイクロソフトのチーム管理センターのリソース アカウントを作成するには、**組織全体の設定**に移動 > **リソース アカウント**を **+ 追加**をクリックしてと入力、表示名、ユーザー名、ドメイン名を選択し、**保存**] をクリックします。
 

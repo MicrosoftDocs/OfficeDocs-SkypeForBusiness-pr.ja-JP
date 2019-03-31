@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'ビジネス用の Skype のサポートされているクライアントとアプリケーションの概要: レビューします。'
-ms.openlocfilehash: 0aff83afc14401e3b8d165f108415cb32c407e60
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 56d397d1cdab0f63c856934c4ff66c834b0b8137
+ms.sourcegitcommit: c355738d09c2697834373e27ffa1a010457ed583
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012748"
+ms.locfileid: "31013550"
 ---
 # <a name="plan-for-clients-and-devices"></a>クライアントおよびデバイスの計画
 
@@ -80,7 +80,7 @@ Web ベース[ビジネス Web スケジューラの Skype](https://sched.lync.c
 
 ### <a name="microsoft-teams-rooms"></a>マイクロソフトのチーム会議室
 
-マイクロソフト チームの会議室は、使い慣れたインターフェイスを使用し、容易に導入するマイクロソフトの最新の会議ソリューションと、インストールの容易さのための LCD パネルのように管理するには、既存の機器を活用することです。 マイクロソフト チームの会議室、特化した UWP でアプリケーションを実行、Surface Pro 4 または Surface Pro のコンソール モードでの使用 (UWP のアプリケーションを展開した後は、デバイス上で実行される唯一のアプリケーション) で、独自の実装にデバイスのアカウントを必要とします。 Windows ストアと Windows の更新プログラムの両方を使用してソフトウェアを更新します。 参照してくださいhttps://aka.ms/SRSDocsについては、環境でこれらの部屋のコンソールを使用します。 
+マイクロソフト チームの会議室は、使い慣れたインターフェイスを使用し、容易に導入するマイクロソフトの最新の会議ソリューションと、インストールの容易さのための LCD パネルのように管理するには、既存の機器を活用することです。 マイクロソフト チームの会議室、特化した UWP でアプリケーションを実行、Surface Pro 4 または Surface Pro のコンソール モードでの使用 (UWP のアプリケーションを展開した後は、デバイス上で実行される唯一のアプリケーション) で、独自の実装にデバイスのアカウントを必要とします。 Windows ストアと Windows の更新プログラムの両方を使用してソフトウェアを更新します。 参照してくださいhttps://aka.ms/MTRDocsについては、環境でこれらの部屋のコンソールを使用します。 
 
 ### <a name="skype-for-business-on-surface-hub"></a>サーフェスのハブでビジネス用の Skype
 

@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a41e16b8e813fe3f8acb1a41d9c2751fa7c71e4c
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: b620f163f1dc071bde8a0ed43bf7fe546a9bc04a
+ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640939"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013638"
 ---
 # <a name="get-started-with-teams-templates"></a>Teams のテンプレートの使用を開始する 
 
@@ -64,14 +64,14 @@ ms.locfileid: "30640939"
 
 | 基本テンプレートの種類 | baseTemplateId | この基本テンプレートに用意されているプロパティ |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Standard | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`standard` | なしのアプリケーションの追加とプロパティ |
-| 教育-<br>クラスのチーム | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationClass` | アプリケーション:<ul><li>OneNote クラスのノートブック ([**全般**] タブに固定されている) </li><li>割り当てのアプリケーション ([**全般**] タブに固定されている)</li></ul> チームのプロパティ:<ul><li>チームの表示/非表示に設定 (オーバーライドできない) **HiddenMembership**</li></ul> |
-| 教育-<br>スタッフ チーム | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationStaff` | アプリケーション:<ul><li>OneNote のスタッフのノートブック ([**全般**] タブに固定されている)</li></ul> |
-|教育-<br>PLC チーム |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationProfessionalLearningCommunity` | アプリケーション:<ul><li>OneNote PLC のノートブック ([**全般**] タブに固定されている)</ul></li>|
-| 小売-<br>ストア | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore` | チャネル:<ul><li>Shift キーをハンドオフ</li><li>学習</li></ul>チーム プロパティ<ul><li>チームの可視性がパブリックに設定</li></ul>メンバーのアクセス許可<ul><li>作成、更新、またはチャネルを削除してからメンバーを禁止します。</li><li>メンバーの追加またはアプリケーションを削除することを防ぐ</li><li>作成、更新、またはコネクタを削除してからメンバーを禁止します。</li></ul> |
-| 小売-<br>マネージャーのコラボレーション | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration` | チャネル:<ul><li>Shift キーをハンドオフ</li><li>学習</li></ul>チームのプロパティ:<ul><li>チームの可視性が Private に設定</li></ul>メンバーのアクセス許可:<ul><li>作成、更新、またはチャネルを削除してからメンバーを禁止します。</li><li>メンバーの追加またはアプリケーションを削除することを防ぐ</li><li>作成、更新、またはコネクタを削除してからメンバーを禁止します。</li></ul>|
-| 医療・<br>ワード |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWard` |チャネル: <ul><li>お知らせ\*</li><li>Huddles\*</li><li>ラウンド</li><li>スタッフ\*</li><li>トレーニング\*</li></ul>\*自動お気に入りチャンネル |
-|医療・<br>病院 | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospital` |チャネル:<ul><li>お知らせ\*</li><li>コンプライアンス\*</li><li>信託</li><li>人事管理</li></li><li>薬剤</li></ul>\*自動お気に入りチャンネル|
+| Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | なしのアプリケーションの追加とプロパティ |
+| 教育-<br>クラスのチーム | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | アプリケーション:<ul><li>OneNote クラスのノートブック ([**全般**] タブに固定されている) </li><li>割り当てのアプリケーション ([**全般**] タブに固定されている)</li></ul> チームのプロパティ:<ul><li>チームの表示/非表示に設定 (オーバーライドできない) **HiddenMembership**</li></ul> |
+| 教育-<br>スタッフ チーム | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | アプリケーション:<ul><li>OneNote のスタッフのノートブック ([**全般**] タブに固定されている)</li></ul> |
+|教育-<br>PLC チーム |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | アプリケーション:<ul><li>OneNote PLC のノートブック ([**全般**] タブに固定されている)</ul></li>|
+| 小売-<br>ストア | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | チャネル:<ul><li>Shift キーをハンドオフ</li><li>学習</li></ul>チーム プロパティ<ul><li>チームの可視性がパブリックに設定</li></ul>メンバーのアクセス許可<ul><li>作成、更新、またはチャネルを削除してからメンバーを禁止します。</li><li>メンバーの追加またはアプリケーションを削除することを防ぐ</li><li>作成、更新、またはコネクタを削除してからメンバーを禁止します。</li></ul> |
+| 小売-<br>マネージャーのコラボレーション | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | チャネル:<ul><li>Shift キーをハンドオフ</li><li>学習</li></ul>チームのプロパティ:<ul><li>チームの可視性が Private に設定</li></ul>メンバーのアクセス許可:<ul><li>作成、更新、またはチャネルを削除してからメンバーを禁止します。</li><li>メンバーの追加またはアプリケーションを削除することを防ぐ</li><li>作成、更新、またはコネクタを削除してからメンバーを禁止します。</li></ul>|
+| 医療・<br>ワード |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |チャネル: <ul><li>お知らせ\*</li><li>Huddles\*</li><li>ラウンド</li><li>スタッフ\*</li><li>トレーニング\*</li></ul>\*自動お気に入りチャンネル |
+|医療・<br>病院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |チャネル:<ul><li>お知らせ\*</li><li>コンプライアンス\*</li><li>信託</li><li>人事管理</li></li><li>薬剤</li></ul>\*自動お気に入りチャンネル|
 |||
 
 > [!NOTE]
@@ -84,4 +84,4 @@ ms.locfileid: "30640939"
 - [新しいチーム](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Microsoft Teams の管理者トレーニング](itadmin-readiness.md)
 - [Retail Teams テンプレートの使用を開始する](get-started-with-retail-teams-templates.md)
-- [医療チーム テンプレートを使い始める](healthcare/healthcare-templates.md)
+- [医療機関向けの Teams テンプレートの概要](expand-teams-across-your-org/healthcare/healthcare-templates.md)
