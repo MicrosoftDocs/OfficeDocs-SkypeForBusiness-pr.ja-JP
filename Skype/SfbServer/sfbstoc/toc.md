@@ -15,6 +15,10 @@
 
 ### [Skype for Business Server でオンプレミスの PSTN 接続を使用して電話システムのユーザーを有効にする](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md)
 
+#### [エンタープライズ VoIP オンプレミスでユーザーを有効にする](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md)
+#### [音声ルーティング ポリシーの割り当て](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/assign-a-voice-routing-policy.md)
+#### [エンタープライズ VoIP オンラインおよび Office 365 ボイスメールの電話システムでユーザーを有効にする](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md)
+
 
 ### [Skype for Business Cloud Connector エディションの計画](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)
 #### [Cloud Connector エディション PSTN サイトの計画](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-cloud-connector-edition-pstn-sites.md)
@@ -100,7 +104,7 @@
 #### [会議クライアント](../plan-your-deployment/clients-and-devices/meetings-clients.md)
 ##### [Skype 会議アプリの最小ネットワーク要件](../plan-your-deployment/clients-and-devices/minimum-network-requirements.md)
 #### [Windows Phoneの要件](../plan-your-deployment/clients-and-devices/requirements-for-windows-phone.md)
-<!-- #### [Skype Room Systems v2](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+<!-- #### [Microsoft Teams Rooms](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 ##### [Support for current branch versions](../plan-your-deployment/clients-and-devices/srs2-lifecycle-support.md)
 ##### [Release notes](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
 ##### [Prepare your Environment](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
@@ -575,7 +579,7 @@
 
 ### [ビデオベースの画面共有](../manage/video-based-screen-sharing.md)
 
-<!-- ### [Skype Room Systems v2](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+<!-- ### [Microsoft Teams Rooms](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 #### [Known issues](../manage/skype-room-systems-v2/known-issues.md)
 #### [OMS](../manage/skype-room-systems-v2/oms.md)
 #### [XML config file](../manage/skype-room-systems-v2/xml-config-file.md)
