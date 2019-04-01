@@ -1,9 +1,10 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Microsoft Teams の講師主導のトレーニング
+title: Microsoft Teams ユーザーのための講師主導のトレーニングとビデオ
 ms.reviewer: ''
-description: については、マイクロソフトのチームのすべてのクラスのクラスルーム ・ トレーニングにサインアップします。
+description: Microsoft Teams について学ぶため、講師主導のクラスにサインアップします。
+localization_priority: Priority
 author: dearbeen
 ms.topic: hub-page
 ms.author: dearbeen
@@ -11,26 +12,26 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
-ms.openlocfilehash: ddbd1a70cdc6617deb413e4b3e216b35fa9425d9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
-ms.translationtype: MT
+ms.openlocfilehash: a33fc22f3a00d995c5399a99537508a769be9e89
+ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898217"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30952380"
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>マイクロソフト チームのクラスルーム ・ トレーニング</h1>
+        <h1>Microsoft Teams の講師主導のトレーニング</h1>
         <ul class="pivots">
             <li>
-                <a href="#tab1">クラスルーム ・ トレーニング</a>
+                <a href="#tab1">講師主導のトレーニング</a>
                 <ul id="tab1">
                     <li>
                         <a href="#tab1-all"></a>
                         <ul id="tab1-all" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>マイクロソフトはフリー、ライブ、オンライン トレーニングを開始するように設計の一連のホストに期待、チームを実行しています。ビジネスの意思決定者、管理者、IT プロフェッショナル、またはエンド ・ ユーザーの場合、お客様に最適であるクラスがあります。 アクションのチームを参照してください、質問に対する回答、ご参加し、ライブ、講師との対話します。 ライブ トレーニングは、オン ・ デマンド ・ バージョンを含む、複数のトレーニングの機会の<a href="https://docs.microsoft.com/microsoftteams/enduser-training">オン ・ デマンドでのエンド ユーザー トレーニング</a>をご覧ください。<br><br>登録するタイルをクリックします。</p>
+                                    <p>Microsoft では、Teams を使いこなすための無料のライブ オンライン トレーニング クラスのシリーズを主催いたします。 ビジネスの意思決定者、管理者、IT プロフェッショナル、エンド ユーザーの方には、最適なクラスが用意されています。 参加して実行中の Teams を表示します。質問の回答を得たり、講師とライブでやり取りしたりできます。 ライブ トレーニングのオンデマンド バージョンを含む、その他のトレーニングについては、Microsoft の<a href="https://docs.microsoft.com/microsoftteams/enduser-training">オンデマンド エンド ユーザー トレーニング</a>をご覧ください。<br><br>タイルをクリックして登録します。</p>
                                 </div>
                             </li>
                             <li>
@@ -44,8 +45,8 @@ ms.locfileid: "30898217"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>#ThisIsTeams - マイクロソフトのチームの概要</h3>
-                                                    <p>Microsoft Teams とは何ですか? チームとするを機能させる方法を発見するには、この 30 分間向きの方は参加します。 (対象: すべて)</p>
+                                                    <h3>#ThisIsTeams - Microsoft Teams の概要</h3>
+                                                    <p>Microsoft Teams とは何ですか? この 30 分間のオリエンテーションに参加して、Teams とは何か、どのようにお客様の役に立つかを学んでください。 (対象ユーザー: すべて)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -63,8 +64,8 @@ ms.locfileid: "30898217"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>チームの概要</h3>
-                                                    <p>チャット、チーム、およびチャネルを使用してミーティングの開催、ユーザーは、自信を持ってチームを使用する基盤でこのセッションを終了することにします。 (対象ユーザー: エンド ・ ユーザー)</p>
+                                                    <h3>Teams の使用を開始する</h3>
+                                                    <p>チャットや会議からチームやチャネルの使用まで、ユーザーが Teams を安心して使用するための基礎をこのセッションで学びます。 (対象ユーザー: エンド ユーザー)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -82,8 +83,8 @@ ms.locfileid: "30898217"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>チーム & のヒントとテクニック</h3>
-                                                <p>最適化し、日常的な作業でチームを編成する創造的な方法を理解します。 (対象ユーザー: エンド ・ ユーザー)</p>
+                                                <h3>Teams のヒントとテクニック</h3>
+                                                <p>日々の作業で Teams を最適化し整理する独創的な方法について学習します。 (対象ユーザー: エンド ユーザー)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -101,8 +102,8 @@ ms.locfileid: "30898217"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>チームにビジネス用の Skype からのアップグレードを管理します。</h3>
-                                                <p>計画 & チームに正常なアップグレードを実装する (対象ユーザー: IT プロフェッショナル、変更マネージャーの採用)</p>
+                                                <h3>Skype for Business から Teams へのアップグレードを管理する</h3>
+                                                <p>Teams へのアップグレードを成功させるための計画と実装 (対象ユーザー: IT プロフェッショナル、導入変更マネージャー)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -120,8 +121,8 @@ ms.locfileid: "30898217"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>ビジネス用の Skype からチームへの切り替え: エンド ・ ユーザー ・ ガイド</h3>
-                                                    <p>Skype からの移行時にチームを使用してチームにビジネスをすばやく起動する必要がありますを取得します。 (対象ユーザー: エンド ・ ユーザー)</p>
+                                                <h3>Skype for Business から Teams への切り替え: エンド ユーザー ガイド</h3>
+                                                    <p>Skype for Business から Teams への移行時に、Teams の使用をすばやく開始するために何が必要かを理解します。 (対象ユーザー: エンド ユーザー)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -139,8 +140,8 @@ ms.locfileid: "30898217"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>教育のウェビナーのチーム</h3>
-                                                <p>高等教育機関でのチームを使用する方法について説明します。 (対象ユーザー: スタッフ、学生、教育関係者、教職員、IT プロフェッショナルの調査)</p>
+                                                <h3>Teams for Education - ウェビナー</h3>
+                                                <p>高等教育機関で Teams を使用する方法について説明します。 (対象ユーザー: スタッフ、学生、教育関係者、研究教員、IT プロフェッショナル)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -158,8 +159,8 @@ ms.locfileid: "30898217"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>チーム会議を最適化します。</h3>
-                                                <p>、より前のバージョンの中に、チームを活用し、会議の経験を投稿する方法について説明します。 (対象ユーザー: エンド ・ ユーザー)</p>
+                                                <h3>Teams 会議を最適化する</h3>
+                                                <p>会議前、会議中、会議後のエクスペリエンスで Teams を活用する方法について説明します。 (対象ユーザー: エンド ユーザー)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -177,8 +178,8 @@ ms.locfileid: "30898217"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>チームの先頭行の作業者</h3>
-                                                <p>チームで新しくリリースされた先頭行の作業者の機能について説明します。 (対象ユーザー: エンド ・ ユーザー)</p>
+                                                <h3>現場担当者と Teams</h3>
+                                                <p>Teams で新しくリリースされた現場担当者向けの機能について説明します。 (対象ユーザー: エンド ユーザー)</p>
                                             </div>
                                         </div>
                                     </div>
