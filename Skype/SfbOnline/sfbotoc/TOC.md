@@ -225,10 +225,10 @@
 #### [共通エリア電話 (CAP) の設定](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
 ### [Skype for Business および Microsoft Teams のサービス電話番号の取得](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 ### [電話システムで利用できる機能](/microsoftteams/here-s-what-you-get-with-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### 電話システムのボイスメール
+### クラウド ボイスメール
 #### [組織でボイスメールの応答メッセージと電子メールに使用する既定の言語を変更する](/microsoftteams/change-the-default-language-for-greetings-and-emails?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [ボイスメールの応答メッセージとメッセージで使用する言語](/microsoftteams/languages-for-voicemail-greetings-and-messages?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-#### [電話システムのボイスメールをセットアップする - 管理のヘルプ](/microsoftteams/set-up-phone-system-voicemail?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+#### [クラウド ボイスメールのセットアップ - Admin ヘルプ](/microsoftteams/set-up-phone-system-voicemail?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [組織内の電話システムの設定](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [電話システムの自動応答とは](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [電話システムの自動応答をセットアップする](/microsoftteams/set-up-a-phone-system-auto-attendant?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)

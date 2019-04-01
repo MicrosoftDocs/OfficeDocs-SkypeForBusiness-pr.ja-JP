@@ -566,7 +566,7 @@
 | 2019/3/11 | [通話分析をセットアップする](/MicrosoftTeams/set-up-call-analytics) | 更新日時 |
 | 2019/3/11 | [通話プランの設定](/MicrosoftTeams/set-up-calling-plans) | 更新日時 |
 | 2019/3/11 | [組織用にコミュニケーション クレジットをセットアップする](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | 更新日時 |
-| 2019/3/11 | [電話システム ボイスメールをセットアップする](/MicrosoftTeams/set-up-phone-system-voicemail) | 更新 |
+| 2019/3/11 | [クラウド ボイスメールのセットアップ](/MicrosoftTeams/set-up-phone-system-voicemail) | 更新日時 |
 | 2019/3/11 | [組織内の電話システムの設定](/MicrosoftTeams/setting-up-your-phone-system) | 更新日時 |
 | 2019/3/11 | [Microsoft Teams での回線共有機能](/MicrosoftTeams/shared-line-appearance) | 更新日時 |
 | 2019/3/11 | [Teams のポリシーでの特殊文字の制限について](/MicrosoftTeams/special-character-restrictions-in-policy-names) | 更新日時 |
@@ -852,7 +852,7 @@
 | 2019/3/18 | [Microsoft Teams でのライブ イベントの計画](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 更新 |
 | 2019/3/18 | [Microsoft Teams でのライブ イベントのセットアップ](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 更新 |
 | 2019/3/18 | [Microsoft Teams のライブ イベントについて](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 更新 |
-| 2019/3/18 | [ベトナムでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam) | 更新 |
+| 2019/3/18 | [ベトナムでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam) | 更新日時 |
 | 2019/3/18 | [Microsoft Teams 用にネットワークを準備する\| ポート ファイアウォールの要件](/MicrosoftTeams/upgrade-prepare-environment-prepare-network) | 更新 |
 | 2019/3/18 | [Microsoft Teams の操作ガイド](/MicrosoftTeams/1-drive-value-operate-my-service) | 更新 |
 | 2019/3/18 | [Microsoft Teams クラウド ボイス サービスの展開を準備する](/MicrosoftTeams/1-onboard-prepare-my-service) | 更新 |
@@ -948,7 +948,7 @@
 | 2019/2/20 | [通話プランの設定](/MicrosoftTeams/set-up-calling-plans) | 更新 |
 | 2019/2/20 | [Microsoft Teams での共通領域電話のライセンスをセットアップする](/MicrosoftTeams/set-up-common-area-phones) | 更新 |
 | 2019/2/20 | [組織用にコミュニケーション クレジットをセットアップする](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | 更新 |
-| 2019/2/20 | [電話システム ボイスメールをセットアップする](/MicrosoftTeams/set-up-phone-system-voicemail) | 更新 |
+| 2019/2/20 | [クラウド ボイスメールのセットアップ](/MicrosoftTeams/set-up-phone-system-voicemail) | 更新日時 |
 | 2019/2/20 | [組織内の電話システムの設定](/MicrosoftTeams/setting-up-your-phone-system) | 更新 |
 | 2019/2/20 | [Microsoft Teams でのライブ イベントの計画](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 更新 |
 | 2019/2/20 | [Microsoft Teams で Office 365 の Skype の電話会議を試用または購入する](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams) | 更新 |
@@ -1160,7 +1160,7 @@
 | 2019/3/1 | [通話プランの設定](/MicrosoftTeams/set-up-calling-plans) | 更新 |
 | 2019/3/1 | [Microsoft Teams での共通領域電話のライセンスをセットアップする](/MicrosoftTeams/set-up-common-area-phones) | 更新 |
 | 2019/3/1 | [組織用にコミュニケーション クレジットをセットアップする](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | 更新 |
-| 2019/3/1 | [電話システム ボイスメールをセットアップする](/MicrosoftTeams/set-up-phone-system-voicemail) | 更新 |
+| 2019/3/1 | [クラウド ボイスメールのセットアップ](/MicrosoftTeams/set-up-phone-system-voicemail) | 更新日時 |
 | 2019/3/1 | [組織内の電話システムの設定](/MicrosoftTeams/setting-up-your-phone-system) | 更新日時 |
 | 2019/3/1 | [無料電話ダイヤルの制限事項](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions) | 更新 |
 | 2019/3/1 | [アルゼンチンでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina) | 更新 |
