@@ -9,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: パイロット プールを展開するビジネス サーバー 2019 の Skype への移行に必要な最初の手順のいずれかです。 パイロットのプールとは、従来の展開とビジネス サーバー 2019 の Skype の共存をテストします。 共存とは、移動したすべてのユーザーとプール Skype のビジネス サーバー 2019 まで存続する一時的な状態です。
-ms.openlocfilehash: e0ac949b0cc7a52e1da5edd9f150e5f59717c08f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 26f391a485c991aa3575498b98b181f1b5ac761c
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890656"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026050"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>ビジネス サーバー 2019 パイロット プールに Skype を導入します。
 
@@ -53,6 +53,10 @@ ms.locfileid: "30890656"
 10. トポロジを公開、 **Skype**ビジネス サーバーのノードを右クリックし、**トポロジの公開**] をクリックします。
   
 11. 発行プロセスが完了したら、[**完了**] をクリックします。
+
+12. 呼ばれる「レガシ プールと確認試験のプールの共存」の次のセクションに移動する前にする必要がありますビジネス サーバー新しいフロント エンド パイロット プールにだけ公開されているトポロジで定義した Skype のインストールについては、ここで説明した手順[Skype のインストールを実行するためトポロジ内のサーバー上のビジネス サーバー](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
+
+13. 前の手順の完了後は、レガシ プールとの共存をパイロット プールを確認するのには次のセクションに移動します。
     
 <!-- To install a local copy of the configuration store and start the required services, see 
 [Setting up Front End Servers and Front End pools for Skype for Business Server 2019](../deployment/deploying-lync-server-2013/setting-up-front-end-servers-and-front-end-pools.md) in the Deployment documentation.  -->

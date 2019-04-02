@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 電話システム呼び出しキューを使用すれば、組織、保留中の音楽の挨拶と配布リストおよびセキュリティ グループ内のエージェントを呼び出しへの呼び出しをリダイレクトするための電話システムを設定する方法について説明します。 You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: a44bd5b00b47655dc950ee01f82ffd0c0a308466
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: be8055dfe1d92caa7e3416740856ab2b6578e799
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012974"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026230"
 ---
 # <a name="create-a-phone-system-call-queue"></a>電話システムの呼び出しキューを作成する
 
@@ -209,7 +209,7 @@ Phone System call queues include greetings that are used when someone calls in t
  3. ユーザー設定ページで、 **通話キュー**をクリックし、次にオプトアウトしたいキューのチェック ボックスを削除します。
 
     > [!NOTE]
-    > Mac、モバイル、または Lync 2013 クライアントを使用しているエージェント、または Skype for Business 2015 サーバーを使用しているオンプレミスでホストされている Hybrid Voice ユーザーは、 [https://aka.ms/cqsettings](https://aka.ms/cqsettings) で、オプトアウトのオプションにアクセスすることができます。
+    > 以外のアプリケーションまたはエンドポイントを使用してエージェント ビジネス用デスクトップの Skype からアクセスできる、opt オプションをユーザー設定のポータル[https://aka.ms/cqsettings](https://aka.ms/cqsettings)。
 
 ![2](media/sfbcallout2.png)
 **エージェント ・ アラートの設定**

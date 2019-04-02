@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: '概要: は、Skype をビジネスのサーバーを実装する前に以下の IP アドレス タイプの考慮事項を確認します。'
-ms.openlocfilehash: 82c2cac46efe2513c6506bf57ab5c181c7a32202
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 4ebf8c3329358e526f86dd90eb4cbc0340d06606
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892124"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026057"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Skype for Business での IP アドレスの種類の構成
 
@@ -51,7 +51,7 @@ IP アドレスの種類を展開するには、トポロジ ビルダーでト�
    - [**PSTN IP アドレス**]。フロントエンド サーバーで仲介サーバーが共存する場合は、PSTN IP アドレスを定義します。このアドレスは、選択されているアドレスの種類の形式に一致している必要があります。
 
 > [!NOTE]
-> 追加のネットワーク インターフェイス カード (Nic) がフロント エンド サーバーの PSTN の IP アドレスの構成をサポートするためのインストールはサポートされていません。 ビジネス サーバーの Skype のサポートされている NIC 構成の詳細については、 [Lync Server 2013 のサーバー ハードウェア プラットフォーム](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx)を参照してください。
+> インストールの追加のネットワーク インターフェイス カード (Nic) が PSTN の IP アドレスの構成をサポートするために (またはその他の何らかの理由で) フロント エンド サーバーではサポートされていません。 ビジネス サーバーの Skype のサポートされている NIC 構成の詳細については、 [Lync Server 2013 のサーバー ハードウェア プラットフォーム](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx)を参照してください。
 
 ## <a name="deploy-ip-address-types-on-a-mediation-server"></a>仲介サーバーに IP アドレス タイプを展開する
 

@@ -3,8 +3,8 @@ title: 通話分析および通話品質ダッシュボード
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney, gageames
-ms.topic: article
+ms.reviewer: mikedav, siunies, gageames
+ms.topic: conceptual
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 分析機能を呼び出すと品質のダッシュ ボードを呼び出すを監視し、通話品質の問題のトラブルシューティングに使用する場合について説明します。
-ms.openlocfilehash: 693e17152d3c51ae51efaa0977d5d83b5c5f2297
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 057d74a5c0dcda70119eb16eed3a048b459c087c
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543008"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026222"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>通話分析および通話品質ダッシュボード
 
-マイクロソフトのチームとビジネス用の Skype が得を監視し、通話品質の問題をトラブルシューティングするための 2 つの方法: 呼び出しの分析と品質のダッシュ ボードを呼び出します。 この記事では、これらの両方について説明し、どのような場合にそれぞれの方法を使用するべきかを示します。
+マイクロソフトのチームとビジネス用の Skype が得を監視し、通話品質の問題をトラブルシューティングするための 2 つの方法: 分析の呼び出しと呼び出し品質ダッシュ ボード (救難)。 この記事では、これらの両方について説明し、どのような場合にそれぞれの方法を使用するべきかを示します。
 
 呼び出しの分析と救難が並列で実行し、個別にまたは一緒に使用することができます。 たとえば、サポート ・ スペシャ リストは、呼び出しに関する問題のトラブルシューティング ヘルプが必要があることを決定する通信があるとします。 通信のサポート担当者は、分析機能の呼び出しで通信スペシャ リストのサポートの詳細については、アクセス権を持つ通信サポート ・ エンジニアへの呼び出しを渡します。 さらに、通信のサポート ・ エンジニアは、ネットワーク ・ エンジニアの問題を警告できます。 ネットワーク エンジニア リングは、全体的なサイトに関連する問題が呼び出しに関する問題の原因の原因になる可能性があるかどう救難をチェックします。
 
@@ -66,7 +66,7 @@ ms.locfileid: "30543008"
   
 ## <a name="whats-the-call-quality-dashboard-and-when-should-i-use-it"></a>通話品質ダッシュボードとは何ですか? どのような場合に使用するものですか?
   
-CA は、管理者のために設計されています。 ヘルプデスク エージェントが特定の呼び出しでは、通話品質の問題をトラブルシューティング呼び出し品質ダッシュ ボード (救難) は、マイクロソフトのチームの管理者、ビジネス管理者、Skype のために設計されています。 とネットワーク ・ エンジニアは、ネットワークを最適化します。 救難フォーカスを特定のユーザーから、代わりに次の全体の集計情報をマイクロソフトのチームまたは Skype ビジネス組織の 詳細については、「[Skype for Business Online の通話品質ダッシュボードの機能](turning-on-and-using-call-quality-dashboard.md#BKMKFeaturesOfTheCQD)」をご覧ください。
+分析機能の呼び出しは、管理者のために設計されています。 一方、特定の呼び出しを使用して通話品質の問題のトラブルシューティングを行うヘルプデスク担当者、コール品質ダッシュ ボード (救難) は、チームの管理者、ビジネス管理者、Skype のために設計されています。 と、ネットワーク ・ エンジニアは、ネットワークを最適化します。 救難フォーカスを特定のユーザーからして代わりに全体の情報を集計チームまたは Skype ビジネス組織の。 詳細については、[チーム、およびオンライン ビジネス用の Skype のコール品質のダッシュ ボードの機能](turning-on-and-using-call-quality-dashboard.md#BKMKFeaturesOfTheCQD)を参照してください。
   
 ユーザーの不適切な通話の音質が他の多くのユーザーにも影響を与えることはネットワークの問題のためかもしれません。 個々 の呼び出し場合救難で表示されているですが、マイクロソフトのチームまたは Skype を使用してビジネスのための呼び出しの全体的な品質を取得します。 CQD では、全体のパターンが明らかに示され、ネットワーク エンジニアは確かな情報に基づく通話品質の評価を行えるようになります。 救難の洞察を提供する通話品質測定基準のレポートを呼び出す全体的な品質、ストリームをサーバーからクライアント、クライアント ストリーム、および音声品質の[SLA](https://go.microsoft.com/fwlink/p/?linkid=846252)を提供します。
   

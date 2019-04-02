@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: '概要: は、追加、削除、修正プログラム、またはビジネス サーバーの Skype でのフロント エンド サーバーを更新する方法を説明します。'
-ms.openlocfilehash: c7ccaee0ee70c10b855053fb63c39cfead148f4e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: bfd090ab007523ff05795aff012e4a01da4a0175
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875223"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026182"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>ビジネス サーバーの Skype のフロント エンド サーバーを管理します。
  
@@ -47,6 +47,9 @@ ms.locfileid: "30875223"
     
     > [!IMPORTANT]
     > トポロジ内のプールにサーバーを追加、またはそこから削除し、更新したトポロジを公開すると、プール内のすべてのサーバーが同時に再起動します。サーバーが再起動する間、プールはオフラインです。プールに接続しているユーザーに対するサービスは中断されます。ユーザーへのサービスの中断を防ぐため、プール内で新しいサーバーを設定したトポロジは、営業時間外に公開するように計画します。 
+  
+  > [!NOTE]
+> 追加プールにサーバーを削除すると、する必要がありますビジネス サーバーの展開ウィザードを追加する各コンピューターで、Skype を実行または削除するには、詳細についてを参照してください[Skype にインストール](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
   
 4. 次のコマンドレットを入力して、プールが、リセット、フロント エンド プール内の次の方法のいずれかのサーバーの数を変更した場合: リセット ・ CsPoolRegistrarState ・ ResetType ・ FullReset ・ PoolFqdn 
     

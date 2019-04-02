@@ -1,5 +1,5 @@
 ---
-title: Exchange ユニファイド メッセージング オンライン移行のサポート
+title: Exchange ユニファイド メッセージングの移行サポート
 ms.author: heidip
 author: heidip
 manager: serdars
@@ -10,14 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: マイクロソフトは 2020年 2 月によって Exchange ユニファイド メッセージング オンライン (ExchUMO) サービスを撤去します。 この資料がどのような影響を受けるをまとめたものお客様が知っているし、ビジネス継続性の計画を行う必要があります。
-ms.openlocfilehash: 8d09a9a16104420bfbe225aefefab57399f8dec5
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 2622b95e8bae7d5721665c5691c1c76691207e74
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30059167"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026245"
 ---
-# <a name="exchange-unified-messaging-online-migration-support"></a>Exchange ユニファイド メッセージング オンライン移行のサポート  
+# <a name="exchange-unified-messaging-online-migration-support"></a>Exchange ユニファイド メッセージングの移行サポート  
 
 2019 年 2 月 8日の[お知らせ](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/)を参照して Microsoft の 2020年 2 月によって Exchange ユニファイド メッセージング オンライン (ExchUMO) サービスは撤去します。 この資料では、知っているし、ビジネス継続性の計画を行う必要があるどのような影響を受けるお客様の概要を提供します。 
  
@@ -66,7 +66,7 @@ Exchange ユニファイド メッセージング オンライン サービス�
 
 3. **自動応答移行を計画します。**
     
-    管理者からへの移行、自動アテンダント ExchUMO クラウドの自動応答はいつでも開始できます。 詳細については、[電話システムの自動応答の設定](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)を参照してください。 マイクロソフトは、お客様は、2019年 3 月によって、移行のための重要な検討する追加の自動応答機能を提供する予定です。 管理者は、機能セットを評価し、それに応じて、自動応答のインスタンスを移行する必要があります。 フィーチャー リストの比較は、 [ExchUMO と Azure クラウド ベースのサービスの機能のマトリックス](#exchumo-and-azure-cloud-based-services-feature-matrix)を参照してください。
+    管理者からへの移行、自動アテンダント ExchUMO クラウドの自動応答はいつでも開始できます。 詳細については、[電話システムの自動応答の設定](/MicrosoftTeams/create-a-phone-system-auto-attendant.md)を参照してください。 マイクロソフトは、お客様は、2019年 3 月によって、移行のための重要な検討する追加の自動応答機能を提供する予定です。 管理者は、機能セットを評価し、それに応じて、自動応答のインスタンスを移行する必要があります。 フィーチャー リストの比較は、 [ExchUMO と Azure クラウド ベースのサービスの機能のマトリックス](#exchumo-and-azure-cloud-based-services-feature-matrix)を参照してください。
 
 4. **ボイスメール、移行後の検証のための計画し、テスト**
 
@@ -93,7 +93,7 @@ Exchange ユニファイド メッセージング オンライン サービス�
 
 
 
-|  サービス | 機能レベル | 機能 | メモ  | クラウドの VM と AA  | ExUMO |
+| サービス | 機能レベル | 機能 | 備考  | クラウドの VM と AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | VM  | サービスの機能| サード パーティの PBX をサポートします。    |  | N   | Y    |
 | VM | サービスの機能  | Skype をビジネスのサーバーをサポートします。   |  | Q1CY19 | Y    |
@@ -128,13 +128,13 @@ Exchange ユニファイド メッセージング オンライン サービス�
 | VM | 呼び出し元の機能  | 無音検出   |  | N | Y    |
 | VM | テナント管理機能 | サーバー レベルの保護されたボイス メール    | テナント管理者は、保護されたボイス メールを受信してマークするためのサービス ・ レベルのルールを構成できます。 | Y | Y    |
 | VM | テナント管理機能 | 録画期間の期限を変更  | CVM ハードの 5 分間にコード化されました。    | N | Y    |
-| VM | テナント管理機能 | 無音検出タイムアウトの変更    |  | 該当なし    | Y    |
+| VM | テナント管理機能 | 無音検出タイムアウトの変更    |  | N/A    | Y    |
 | VM | テナント管理機能 | 入力エラーの数を変更します。 | CVM: 示すハード ・ コード 3 | N | Y    |
 | VM | テナント管理機能 | 既定の言語を変更します。 |  | Y | Y    |
 | VM | テナント管理機能 | 議事録の有効化/無効にします。 |  | Y | Y    |
 | VM | テナント管理機能 | 不在着信通知を有効化無効化 |  | N | Y    |
 | VM | テナント管理機能 | Microsoft にボイス メール プレビュー    |  | Y | Y    |
-| VM | テナント管理機能 | 有効なユーザーのエラー メッセージをカスタマイズします。|  | 該当なし    | Y    |
+| VM | テナント管理機能 | 有効なユーザーのエラー メッセージをカスタマイズします。|  | N/A    | Y    |
 | VM | テナント管理機能 | 議事録の不適切なマスキング|  | Y | N    |
 | VM | テナント管理機能 | ボイスメール ポリシー    |   | Y | Y    |
 | VM | テナント管理機能 | Web ポータルの管理   |  | CY19   | Y    |
@@ -170,7 +170,7 @@ Exchange ユニファイド メッセージング オンライン サービス�
 
 - すべてのエンドポイントの種類、組織内でボイス メールのアクセス権を検証: アプリケーションと IP 電話です。 
 - 構成されているカスタマイズされた案内応答を呼び出し元に再生するサンプル ユーザーを検証します。   
-- 組織にユーザーの議事録作成を無効にするのには法務部やコンプライアンスの要件がある場合は、移行後は無効であることを確認します。 詳細については、[電話システムのボイス メールの設定](/microsoftteams/set-up-phone-system-voicemail)を参照してください。
+- 組織にユーザーの議事録作成を無効にするのには法務部やコンプライアンスの要件がある場合は、移行後は無効であることを確認します。 詳細については、[クラウドのボイス メールの設定](/microsoftteams/set-up-phone-system-voicemail)を参照してください。
 - 以前構成した Exchange VM ポリシーと規則は場合、は、効果的であることを確認してください。
 - ユーザー設定を変更するためのクラウドのボイスメール サービスの PowerShell コマンドレットを理解します。  
 
@@ -193,8 +193,8 @@ Exchange ユニファイド メッセージング オンライン サービス�
 
 #### <a name="user-management-and-provisioning-in-cvm"></a>ユーザーの管理と CVM のプロビジョニング 
 
-ビジネスの新しいユーザーの Skype が CVM のサービスの作成時にボイスメールを自動的に準備されます。 ボイスメール用の新しいユーザーのプロビジョニングに追加の管理作業やライセンスは必要ありません。 既存および新規のユーザーのポリシーを管理する方法については、[電話システムのボイス メールの設定](/microsoftteams/set-up-phone-system-voicemail)を参照してください。
+ビジネスの新しいユーザーの Skype が CVM のサービスの作成時にボイスメールを自動的に準備されます。 ボイスメール用の新しいユーザーのプロビジョニングに追加の管理作業やライセンスは必要ありません。 既存および新規のユーザーのポリシーを管理する方法については、[クラウドのボイス メールの設定](/microsoftteams/set-up-phone-system-voicemail)を参照してください。
 
 #### <a name="admin-auto-attendant-management-experience"></a>管理自動応答管理経験 
 
-構成と自動応答の管理に関する詳細については、[電話システムの自動応答の設定](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)を参照してください。 
+構成と自動応答の管理に関する詳細については、[電話システムの自動応答の設定](/MicrosoftTeams/create-a-phone-system-auto-attendant.md)を参照してください。 
