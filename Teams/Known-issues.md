@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 現在知られている Microsoft Teams クライアント アプリおよび管理エクスペリエンスでの問題の一覧です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9abe6e17a4c11dd2e1943643c7030eadd5bd0ba
-ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
+ms.openlocfilehash: e3dc7e1797c1e5c1551abad40cf6598f11e01ada
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30771735"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026104"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
 
@@ -108,7 +108,8 @@ ms.locfileid: "30771735"
 
 |**問題のタイトル**|**動作 / 症状**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
-|Safari Web クライアント サポート  <br/> |Microsoft Teams Web クライアントを Safari で開こうとすると、デスクトップ クライアントのダウンロードに移動します。Microsoft は Safari のサポートについて検証中で、[Teams ロードマップ](https://aka.ms/TeamsRoadmap)を介して更新情報を共有する予定です。  <br/> |サポートされるインターネット ブラウザーである Internet Explorer 11 以降、Microsoft Edge 12 以降、Chrome 51.0 以降、Firefox 47.0 以降を使用してください。  <br/> |2016/11/02  <br/> |
+|Safari Web クライアント サポート  <br/> | Teams は Safari 11.1+ on macOS のプレビューで使用できます。 プレビュー中に、Safari の Intelligent Tracking Prevention に関連する問題[Safari の既知の問題](https://go.microsoft.com/fwlink/?linkid=2062082)が発生する場合があります。  <br/> | Safari ブラウザー サポートがプレビュー中に、**環境設定 > プライバシー** を選択してから **サイト越えトラッキングを防ぐ**  設定をオフにします。 ブラウザーを閉じ、Safari の teams.microsoft.com に戻ります。 <br/> |2016/11/02  <br/> |
+
 
 ## <a name="channels"></a>チャネル
 
