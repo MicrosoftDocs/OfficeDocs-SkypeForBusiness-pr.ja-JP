@@ -22,9 +22,6 @@
 ## [Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
 ## [Teams で組織全体にわたるチームを作成する](create-an-org-wide-team.md)
 ## [メッセージング ポリシーを管理する](messaging-policies-in-teams.md)
-## [Teams のテンプレートの使用を開始する](get-started-with-teams-templates.md)
-## [医療機関向けの Teams のテンプレート](healthcare/healthcare-templates.md)
-## [小売業向けの Teams のテンプレート](get-started-with-retail-teams-templates.md)
 ## [チームの動的なメンバーシップの概要](dynamic-memberships.md)
 ## [プレゼンス](presence-admins.md)
 ## [別の組織の Teams ユーザーとの通信](let-your-teams-users-communicate-with-other-people.md)
@@ -187,27 +184,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-## [クラウド ビデオ相互運用性](cloud-video-interop.md)
-
-## ライブ イベント
-### [Teams のライブ イベントについて](teams-live-events/what-are-teams-live-events.md)
-### [Teams のライブ イベントの計画](teams-live-events/plan-for-teams-live-events.md)
-### [Teams のライブ イベントをセットアップする](teams-live-events/set-up-for-teams-live-events.md)
-### [PowerShell を使用して Teams のライブ イベント ポリシーを設定する](teams-live-events/set-teams-live-events-policies-using-powershell.md)
-### [Teams のライブ イベント設定を構成する](teams-live-events/configure-teams-live-events.md)
-
-<!-- ============================================================ -->
-
-### リファレンス
+### 参照
 #### [電話会議でサポートされている言語](audio-conferencing-supported-languages.md)
 
 #### [電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md)
@@ -305,15 +282,35 @@
 <!-- ============================================================ -->
 
 
+
+
+
+
+
+
+
+## [クラウド ビデオ相互運用性](cloud-video-interop.md)
+
+## ライブ イベント
+### [Teams のライブ イベントについて](teams-live-events/what-are-teams-live-events.md)
+### [Teams のライブ イベントの計画](teams-live-events/plan-for-teams-live-events.md)
+### [Teams のライブ イベントをセットアップする](teams-live-events/set-up-for-teams-live-events.md)
+### [PowerShell を使用して Teams のライブ イベント ポリシーを設定する](teams-live-events/set-teams-live-events-policies-using-powershell.md)
+### [Teams のライブ イベント設定を構成する](teams-live-events/configure-teams-live-events.md)
+
+<!-- ============================================================ -->
+
+
+
 # [クラウド ボイス](cloud-voice-landing-page.md)
 ## 電話システム
 ### [電話システムとは](what-is-phone-system-in-office-365.md)
 ### [電話システムで利用できる機能](here-s-what-you-get-with-phone-system.md)
 ### [電話システムをセットアップする](setting-up-your-phone-system.md)
 ### [共通領域電話をセットアップする](set-up-common-area-phones.md)
-### ボイス メール
-#### [電話システム ボイスメールをセットアップする](set-up-phone-system-voicemail.md)
-#### [ボイス メールの既定の言語を変更する](change-the-default-language-for-greetings-and-emails.md)
+### ボイスメール
+#### [クラウド ボイスメールのセットアップ](set-up-phone-system-voicemail.md)
+#### [ボイスメールのデフォルト言語を変更する](change-the-default-language-for-greetings-and-emails.md)
 #### [ボイスメールの応答メッセージとメッセージで使用する言語](languages-for-voicemail-greetings-and-messages.md)
 ### 発信者番号
 #### [組織での発信者番号の利用方法](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -593,6 +590,7 @@
 #       
 #        
 
+
 <!-- ============================================================ -->
 # [Teams へのアップグレード](upgrade-introduction.md)
 ## [はじめに](upgrade-start-here.md)
@@ -626,15 +624,50 @@
 ### [Skype for Business の移行と相互運用性](migration-interop-guidance-for-teams-with-skype.md)
 ### [Skype for Business と共存する](coexistence-chat-calls-presence.md)
 ### [Teams のクライアント エクスペリエンスおよび共存モードへの準拠](teams-client-experience-and-conformance-to-coexistence-modes.md)
+
 <!-- ============================================================ -->
-#       
-#        
+# 
+# 
+
+# [Teams を組織全体で展開する](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
+## [Teams のテンプレートの使用を開始する](get-started-with-teams-templates.md)
+## [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
+### [Microsoft StaffHub はまもなく廃止予定です](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
+### [現場担当者の管理機能が間もなくMicrosoft Teamsに登場](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
+### [Microsoft StaffHubのチームを、TeamsのShiftsに移動します](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
+### [Microsoft Teams で組織のShifts アプリを管理する](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+
+## [医療関係組織向けのTeams](expand-teams-across-your-org/teams-for-healthcare-landing-page.md)
+### [医療関係組織のためのTeamsを始めましょう](expand-teams-across-your-org/healthcare/teams-in-hc.md)
+### [医療関係組織向けテンプレートでTeamsを始めましょう](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+### [医療関係組織向けセキュアメッセージングでTeamsを始めましょう](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+
+## [教育機関向けの Teams ](expand-teams-across-your-org/teams-for-education-landing-page.md)
+### [クイック スタート - 教育用 Teams の管理者](teams-quick-start-edu.yml)
+### [教育機関管理者向けの Teams のリソース](resources-teams-edu.md)
+### [Microsoft Education のガバナンスに関するよくある質問 (管理者向け)](plan-teams-governance-edu.md)
+
+## [小売店向けの Teams](expand-teams-across-your-org/teams-for-retail-landing-page.md)
+### [小売店向けテンプレートでTeamsを始めましょう](get-started-with-retail-teams-templates.md)
+
+## [政府機関用の Teams ](expand-teams-across-your-org/teams-for-government-landing-page.md)
+### [Microsoft 365 Government の計画: GCC](plan-for-government-gcc.md)
+### [Microsoft 365 Government の計画: GCC High](plan-for-government-gcc-high.md)
+### [Microsoft 365 Government の計画: DoD](plan-for-government-dod.md)
+
+<!-- ============================================================ -->
+
+# 
+# 
+
+<!-- ============================================================ -->
 
 # [トレーニング](training-microsoft-teams-landing-page.md)
 ## [Teams のインストラクターによるトレーニング](instructor-led-training-teams-landing-page.md)
 ## [Teams の管理者トレーニング](itadmin-readiness.md)
 ## [Teams のエンド ユーザー トレーニング](enduser-training.md)
 <!-- ============================================================ -->
+
 
 # リファレンス
 
@@ -683,20 +716,6 @@
 #### [通話品質ダッシュボードをオンにして使用する](turning-on-and-using-call-quality-dashboard.md)
 #### [通話品質ダッシュボードで利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [通話品質ダッシュボードでのストリームの分類](stream-classification-in-call-quality-dashboard.md)
-
-## 教育用 Teams
-### [クイック スタート - 教育用 Teams の管理者](teams-quick-start-edu.yml)
-### [教育機関管理者向けの Teams のリソース](resources-teams-edu.md)
-### [Microsoft Education のガバナンスに関するよくある質問 (管理者向け)](plan-teams-governance-edu.md)
-
-## 現場担当者向けの Teams
-### [Microsoft StaffHub の廃止](teams-for-firstline-workers/microsoft-staffhub-to-be-retired.md)
-### [Teams で組織のシフト アプリを管理する](teams-for-firstline-workers/manage-the-shifts-app-for-your-organization-in-teams.md)
-### [小売業の Teams テンプレートの使用を開始する](get-started-with-retail-teams-templates.md)
-
-## [Microsoft 365 Government の計画: GCC](plan-for-government-gcc.md)
-### [Microsoft 365 Government の計画: GCC High](plan-for-government-gcc-high.md)
-### [Microsoft 365 Government の計画: DoD](plan-for-government-dod.md)
 
 ## [Teams での PowerShell の概要](teams-powershell-overview.md)
 ### [Teams の PowerShell コマンドレット リファレンス](https://docs.microsoft.com/powershell/module/teams)
