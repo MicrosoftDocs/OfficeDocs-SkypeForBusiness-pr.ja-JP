@@ -2,6 +2,7 @@
 title: Microsoft Teams でのチームとチャネルの概要
 author: LolaJacobsen
 ms.author: lolaj
+ms.reviewer: ''
 manager: serdars
 ms.date: 11/02/2018
 ms.topic: conceptual
@@ -17,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8677354bf6a8e500e1ee138fef65327711e74105
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 8ea532f31bff01ba31e22f9253db157a9466a733
+ms.sourcegitcommit: 27621c3ba369d2a54b092a3fa007e22c8a5030ef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30647442"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31038565"
 ---
 > [!NOTE]
 > チャット、チーム、チャネル、チーム内の & アプリケーションを理解するのには次の情報を確認します。 [展開のチャット、チーム、チャネル、& アプリケーションをチームで](deploy-chat-teams-channels-microsoft-teams-landing-page.md)、チームの展開に重要な決定の一覧を参照するに進みます。
@@ -97,4 +98,4 @@ Microsoft Teams は、縦割り組織を解体して機能横断型チームを�
 
 ## <a name="org-wide-teams"></a>組織全体にわたるチーム
 
-組織には 1,000 人のユーザーがある場合、組織全体にわたるチームを作成できます。 組織全体にわたるチームは、共同作業の 1 つのチームの一部にする組織内の全員に自動的にする手段を提供します。 作成し、組織全体のチームを管理するためのベスト プラクティスを含む詳細については、[マイクロソフトのチームで、組織全体にわたるチームを作成する](create-an-org-wide-team.md)を参照してください。
+組織に 2,500 を超えるユーザーがある場合、組織全体にわたるチームを作成できます。 組織全体にわたるチームは、共同作業の 1 つのチームの一部にする組織内の全員に自動的にする手段を提供します。 作成し、組織全体のチームを管理するためのベスト プラクティスを含む詳細については、[マイクロソフトのチームで、組織全体にわたるチームを作成する](create-an-org-wide-team.md)を参照してください。

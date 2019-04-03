@@ -1,5 +1,5 @@
 ---
-title: クラウドのボイスメールを設定します
+title: クラウド ボイスメールのセットアップ
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,19 +21,19 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'ユーザーのクラウドのボイスメールを設定する方法について説明します。 '
-ms.openlocfilehash: 8219934b8e95962f0e9ea81f4965ad9e5c55fb34
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
+ms.openlocfilehash: 26594c9d955cb21dc5751491e1857525660bdcae
+ms.sourcegitcommit: 7ca70e8a2108462afd505258b455169ead30f33f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934773"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31041935"
 ---
-# <a name="set-up-cloud-voicemail"></a>クラウドのボイスメールを設定します
+# <a name="set-up-cloud-voicemail"></a>クラウド ボイスメールのセットアップ
 
 この資料では、すべてのユーザーのビジネスでのクラウドのボイスメール機能を設定する必要のある[Office 365 の管理者用](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)の。
 
 > [!NOTE]
-> クラウド ボイスメールでは、Exchange のメールボックスにのみデポジットのボイスメール メッセージをサポートし、任意のサード ・ パーティ製の電子メール システムをサポートしていません。 クラウド ボイスメールがサード ・ パーティ製の電子メール システムにメールボックスを持つユーザーがない保証されたサービスの稼働時間や変更など、他のボイスメール機能とボイスメール メッセージに表示されますが、SMTP を使用してメッセージを再送、フォールバック メカニズムとして、あいさつ文とその他の設定です。
+> クラウド ボイスメールでは、Exchange のメールボックスにのみデポジットのボイスメール メッセージをサポートし、任意のサード ・ パーティ製の電子メール システムをサポートしていません。 
 
 ## <a name="cloud-only-environments-set-up-cloud-voicemail"></a>クラウドのみの環境: クラウドのボイスメールを設定します
 
@@ -41,7 +41,7 @@ ms.locfileid: "30934773"
   
 1. 電話システム機能がプランに含まれていない場合は、 **電話システム** アドオン ライセンスの購入が必要になることがあります。 Exchange Online ライセンスの購入も必要になる可能性があります。 [マイクロソフト チームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
     
-2. [割り当てまたはビジネス向けの Office 365 のライセンスを削除](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)、[マイクロソフトのチームを割り当てるライセンス](assign-teams-licenses.md)、およびお客様のビジネス ユーザーに Exchange Online ライセンスです。 After you do that, they will be able to receive voicemail messages!
+2. [割り当てまたはビジネス向けの Office 365 のライセンスを削除](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)、[マイクロソフトのチームを割り当てるライセンス](assign-teams-licenses.md)、およびお客様のビジネス ユーザーに Exchange Online ライセンスです。 これが完了すると、メンバーはボイスメール メッセージを受信できるようになります。
     
 3. ボイスメール トランスクリプションに対するサポートは 2017 年 3 月時点で追加されており、すべての組織とユーザーに対して既定で有効になっています。Windows PowerShell を使用し、下記の手順を実行することによって、所属する組織のトランスクリプションを無効にすることができます。
 
@@ -53,13 +53,16 @@ ms.locfileid: "30934773"
     
 2. [割り当てまたはビジネス向けの Office 365 のライセンスを削除](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)、[マイクロソフトのチームを割り当てるライセンス](assign-teams-licenses.md)、およびお客様のビジネス ユーザーに Exchange Online ライセンスです。
     
-3. [ビジネス クラウド コネクタのエディションについてを構成する Skype](https://technet.microsoft.com/library/mt605228.aspx)の**電話システムの音声とボイスメール サービスのユーザーを有効にする**] セクションの指示に従います。
+3. 設置 PSTN のユーザーに展開するソリューションの呼び出しに一致する手順に従います。 クラウド コネクタのエディションの[ビジネス クラウド コネクタのエディションについてを構成する Skype](https://technet.microsoft.com/library/mt605228.aspx)の**電話システムの音声とボイスメール サービスのユーザーを有効にする**セクション内の指示に従います。 Skype でビジネスのサーバーの呼び出しの PSTN、[設置型のエンタープライズ VoIP に対してユーザーを有効にする](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises)に従ってください。 チーム直接ルーティングでは、[直接ルーティングを構成する](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail)の**と電話番号の構成と有効にするエンタープライズ ボイス ボイスメール**のセクションに従ってください。
 
 4. ボイスメール トランスクリプションに対するサポートは 2017 年 3 月時点で追加されており、すべての組織とユーザーに対して既定で有効になっています。Windows PowerShell を使用し、下記の手順を実行することによって、所属する組織のトランスクリプションを無効にすることができます。
 
-5. オンプレミスのメールボックスを持つ電話システム ユーザーのために Azure ボイスメール メッセージの配信を構成する方法については、「[Azure PBX voicemail support for Exchange Server](https://support.microsoft.com/kb/3195158)」もご覧ください。
+5. ボイスメール メッセージは、Exchange のオンライン保護を経由してルーティングする SMTP 経由でのユーザーの Exchange メールボックスに配信されます。 これらのメッセージが正常に配信を有効にするには、Exchange コネクタは、Exchange サーバーと Exchange のオンライン保護との間に正しく構成されていることを確認してください。 [メール フローを構成するコネクタを使用](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)します。
 
-6. 参照してください次のドキュメントに記載されている手順に従います:[ハイブリッド構成ウィザード](https://docs.microsoft.com/exchange/hybrid-configuration-wizard)
+6. ダイヤルインのアクセスとビジュアルのボイス メールの案内応答をカスタマイズするなど、ボイスメールの機能を有効にするには、Office 365 から Exchange Web サービス経由で Exchange サーバーのメールボックスへの接続が必要です。 この接続を有効にするのには、 [Exchange および Exchange Online 組織間で認証を構成する OAuth](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx)の認証プロトコルについて説明する新しい Exchange の Oauth を行う必要があります。 
+
+> [!NOTE]
+> Exchange 2013 CU5 から実行またはそれ以上の Exchange ハイブリッドのウィザードは、手順 5 と 6 の要件を自動的に処理します。 
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>組織内のボイスメール ポリシーの設定
 

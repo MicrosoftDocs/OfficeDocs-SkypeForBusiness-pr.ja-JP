@@ -15,12 +15,12 @@ search.appverid: MET150
 description: チームでクラウドの音声を展開するためのランディング ・ ページ
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b9398e7a468c023949a0b7079d2924a9e1f0924
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: abc8d3e552820ee93b5ccd1fc968e914ac5287ba
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664919"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948378"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Microsoft Teams での Cloud Voice
 
@@ -85,11 +85,11 @@ ms.locfileid: "30664919"
 
 ### <a name="voicemail"></a>ボイスメール
 
-Azure ボイスメール サービス、電源、電話システムのボイスメール ボイスメール出金のみの Exchange メールボックスをサポートしています、サード ・ パーティ製の電子メール システムをサポートしていません。 電話システムのボイス メールには、組織内のすべてのユーザーに対して既定で有効には、ボイスメールの議事録が含まれています。 ビジネス ニーズは、特定のユーザーまたは組織全体のすべてのユーザーのボイスメールの議事録作成を無効にする必要があります。
+電源は、Azure のボイスメール サービスが、クラウドのボイスメール ボイスメール出金のみの Exchange メールボックスをサポートしている、サード ・ パーティ製の電子メール システムをサポートしていません クラウドのボイス メールには、組織内のすべてのユーザーに対して既定で有効には、ボイスメールの議事録が含まれています。 ビジネス ニーズは、特定のユーザーまたは組織全体のすべてのユーザーのボイスメールの議事録作成を無効にする必要があります。
 
 |確認事項|アクション |
 |:------------|:-------|
-| 電話システムのボイス メールを有効にするか。 | ボイスメールの設定手順については、[電話システムのボイス メールの設定](set-up-phone-system-voicemail.md)を参照してください。
+| クラウドのボイスメールを有効にするか。 | ボイスメールの設定手順は、「[クラウドのボイスメールを設定](set-up-phone-system-voicemail.md)」を参照してください。
 | ボイスメールの議事録の一部またはすべてのユーザーを有効にするか。 | ボイスメールの議事録作成を無効にするには、[組織内のボイス メール ポリシーの設定](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization)を参照してください。</li></ul>|
 |||
 
