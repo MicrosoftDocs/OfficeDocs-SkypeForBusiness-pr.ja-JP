@@ -1,5 +1,6 @@
 ---
 title: Microsoft Teams での電話会議
+ms.reviewer: ''
 description: ここに示す展開リソースを使用して、Microsoft Teams のミーティング ワークロードの一部として電話会議を展開してください。
 ms.topic: article
 author: LolaJacobsen
@@ -15,12 +16,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c146e0bc3417e5a62af4a57c3ec1e2e49158c3a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 596edc9aa9adf3a12bac9ec4553e27beec82f648
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461173"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898671"
 ---
 # <a name="audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議
 
@@ -40,14 +41,14 @@ Teams の電話会議を展開する前に、次の事項について検討し�
 |確認事項|アクション |
 |------------|-------|
 |自分の国/地域で電話会議が使用できるか?|自分の国/地域で電話会議が使用できるかどうかを調べるには、「[電話会議および通話プランを利用可能な国と地域](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)」を参照してください。|
-|ユーザーは Teams の電話会議に対応したライセンスを所持しているか?|電話会議のライセンスは、Office 365 E5 サブスクリプションの一部として入手できます。また、Office 365 E1 または Office 365 E3 サブスクリプションのアドオン サービスとしても入手できます。 <ul><li>ライセンスを取得して割り当てる場合は、「[Office 365 の電話会議を試用または購入する](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)」および「[一般法人向け Office 365 のライセンスを割り当てまたは削除する](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)」を参照してください。</li><li> 詳細については、次をご覧ください。[Skype for Business と Teams のアドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md </li><li>それぞれの Office 365 プランに含まれているクラウド機能を確認するには、「[プランに応じたライセンス オプション](teams-add-on-licensing/office-365-business-premium.md)」を参照してください。</li></ul>|
+|ユーザーは Teams の電話会議に対応したライセンスを所持しているか?|電話会議のライセンスは、Office 365 E5 サブスクリプションの一部として入手できます。また、Office 365 E1 または Office 365 E3 サブスクリプションのアドオン サービスとしても入手できます。 <ul><li>ライセンスを取得して割り当てる場合は、「[Office 365 の電話会議を試用または購入する](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)」および「[一般法人向け Office 365 のライセンスを割り当てまたは削除する](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)」を参照してください。</li><li> 詳細は、[Microsoft Teamsアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)をご覧ください。 </li><li>それぞれの Office 365 プランに含まれているクラウド機能を確認するには、「[プランに応じたライセンス オプション](teams-add-on-licensing/office-365-business-premium.md)」を参照してください。</li></ul>|
 |電話会議のライセンスを割り当てたユーザーにコミュニケーション クレジットを購入する必要があるか?|詳細については、「[コミュニケーション クレジットについて](what-are-communications-credits.md)」を参照してから、この後のセクション「[コミュニケーション クレジット](#communications-credits)」を確認してください。|
 |||
 
 
 ## <a name="core-deployment-decisions"></a>展開に関する重要な決定事項
 
-「[電話会議の前提条件](#audio-conferencing-prerequisites)」を満たしたら、次のタスクを実行してユーザーのために電話会議を構成します。
+電話会議の前提条件を満たしたら、次の作業を実行してユーザーの電話会議を構成します。
 
 
 ### <a name="teams-administrators"></a>Teams の管理者
@@ -100,7 +101,7 @@ Teams の電話会議では、会議ブリッジの既定の言語と第 2 言�
 
 |確認事項|アクション |
 |------------|-------|
-| ミーティングを主催するユーザーごとに、どの会議ブリッジ番号を割り当てるか? | ダイヤルイン電話番号をユーザーに割り当てる場合は、「[手順 7: 会議を主催するユーザーにダイヤルイン電話番号を割り当てる](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing#step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)」を参照してください。 |
+| ミーティングを主催するユーザーごとに、どの会議ブリッジ番号を割り当てるか? | ダイヤルイン電話番号をユーザーに割り当てる場合は、「[手順 7: 会議を主催するユーザーにダイヤルイン電話番号を割り当てる](set-up-audio-conferencing-in-teams.md#step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings)」を参照してください。 |
 |||
 
 ### <a name="communications-credits"></a>コミュニケーション クレジット
@@ -111,7 +112,7 @@ Teams の電話会議では、会議ブリッジの既定の言語と第 2 言�
 |------------|-------|
 |電話会議の実装にコミュニケーション クレジットが必要か? |コミュニケーション クレジットのセットアップが必要かどうかを調べるには、「[組織向けにコミュニケーション クレジットをセットアップする](set-up-communications-credits-for-your-organization.md)」を参照してください。|
 |必要な場合、購入金額はいくらにするか?|コミュニケーション クレジットの金額を判断する場合は、「[推奨される資金額](what-are-communications-credits.md#recommended-funding-amounts)」を参照してください。|
-|自動リチャージする金額を構成できるか?|自動リチャージする金額を設定する場合は、「[組織のコミュニケーション クレジットをセットアップする](what-are-communications-credits.md#recommended-funding-amounts)」を参照してください。|
+|自動リチャージする金額を構成できるか?|自動リチャージする金額を設定する場合は、「[組織のコミュニケーション クレジットをセットアップする](set-up-communications-credits-for-your-organization.md)」を参照してください。|
 |||
 
 
