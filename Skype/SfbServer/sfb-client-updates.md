@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: IT 専門家向けに、Skype for Business 2016、Skype for Business 2015、および Lync 2013 クライアントの永続バージョンに対する最新の更新プログラム関連情報へのリンクを提供します。
-ms.openlocfilehash: 2c430b28cb16c5d3d06b0cf5fff02278ccd498fd
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: 8b82923625b8ce686a5898a3d271734aeb8e4ab0
+ms.sourcegitcommit: 4175b376cb8b406dcb3c338dcddf9f01c15eca5e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408307"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "31398373"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Windows インストーラー (MSI) を使用する Skype for Business の各バージョンに対する最新の更新プログラム
 
 このページのリンクを使用して、Skype for Business 2016、Skype for Business 2015、および Lync 2013 クライアントの永続バージョンに対する最新の更新プログラムの詳細情報の確認やダウンロードを行うことができます。
 
 > [!NOTE]
-> - この記事の情報は、WIndows インストーラー (MSI) のインストール テクノロジを使用する Skype for Business の永続バージョンについてのみ適用されます。 具体的には、Office Professional Plus 2016 に含まれている Skype for Business のような、Skype for Business のボリューム ライセンスのバージョンをインストールした場合です。
+> - The information in this article only applies to perpetual versions of Skype for Business that use the Windows Installer (MSI) installation technology. For example, if you installed a volume licensed version of Skype for Business, such as Skype for Business included with Office Professional Plus 2016.
 > - この記事の情報は、Office 365 ProPlus に含まれている Skype for Business のような、Skype for Businss の Office 365 バージョンについては適用されません。
 > - 最新のモバイル クライアントの更新プログラムの場合は、お使いのモバイル クライアントのアプリ ストア (iTunes、Google Play、または Microsoft Store) に移動して、詳細を表示して更新プログラムをインストールしてください。
 > - 現在使用している Skype for Business のバージョンを確認する場合は、「[What version of Skype for Business do I have? (利用している Skype for Business のバージョンは何でしょうか?)](https://support.microsoft.com/en-us/help/3195481/how-to-check-the-version-of-skype-for-business-2016)」をご覧ください。
@@ -30,7 +30,7 @@ ms.locfileid: "30408307"
 
 Office 365 との Skype for Business の互換性およびオンプレミス環境は、お使いの展開に応じて異なります。
 
-- Office 365 は、Skype for Business 2016 の最新バージョンを含む、メインストリーム サポート内の Skype for Business のすべてのバージョンと連携して機能します。 Skype for Business の以前のバージョンについては、Office 365 と連携して機能し続ける可能性があるのは、拡張サポートが有効なバージョンのみです。ただし、利用できる機能は削減されます。 詳細については、「[マイクロソフト製品サポート ライフサイクル ポリシー](https://support.microsoft.com/lifecycle)」をご覧ください。
+- Office 365 works with any version of Skype for Business that is in mainstream support, which includes the latest version of Skype for Business 2016. For previous versions of Skype for Business, only those that have extended support may continue to work with Office 365, although with reduced functionality. For more information, see [Microsoft Lifecycle Policy](https://support.microsoft.com/lifecycle).
 
 - Skype for Business Server のオンプレミス展開については、次に示すお使いの Skype for Business のバージョンのシステム要件に従ってください。
 
@@ -42,6 +42,9 @@ Office 365 との Skype for Business の互換性およびオンプレミス環�
 
 |パッケージ名|KB 番号|リリース日|
 |:---  |:---  |:---  |
+|Skype for Business 2016 用の更新プログラム |[KB 4462234](https://support.microsoft.com/kb/4462234/) | 4 月 2019|
+|Skype for Business 2016 用の更新プログラム |[KB 4462190](https://support.microsoft.com/kb/4462190/) | 3 月 2019|
+|Skype for Business 2016 用の更新プログラム |[KB 4462114](https://support.microsoft.com/kb/4462114/) | 2 月 2019|
 |Skype for Business 2016 用の更新プログラム |[KB 4461586](https://support.microsoft.com/kb/4461586/) | 1 月 2019|
 |Skype for Business 2016 用の更新プログラム |[KB 4461545](https://support.microsoft.com/kb/4461545/) | 12 月 2018|
 |Skype for Business 2016 用のセキュリティ更新プログラム |[KB 4461473](https://support.microsoft.com/kb/4461473/) | 11 月 2018|
@@ -84,6 +87,7 @@ Office 365 との Skype for Business の互換性およびオンプレミス環�
 
 |パッケージ名|KB 番号|リリース日|
 |:--- |:--- |:--- |
+|Skype for Business 2015/Lync 2013 用の更新プログラム |[KB 4462207](https://support.microsoft.com/kb/4462207/)| 4 月 2019 |
 |Skype for Business 2015/Lync 2013 用の更新プログラム |[KB 4461557](https://support.microsoft.com/kb/4461557/)| 1 月 2019 |
 |Skype for Business 2015/Lync 2013 用のセキュリティ更新プログラム |[KB 4461487](https://support.microsoft.com/kb/4461487/)| 11 月 2018 |
 |Skype for Business 2015/Lync 2013 用の更新プログラム |[KB 4461446](https://support.microsoft.com/kb/4461446/)| 10 月 2018 |
@@ -133,10 +137,7 @@ Office 365 との Skype for Business の互換性およびオンプレミス環�
 
 ### <a name="skype-for-business-on-mac-client-updates"></a>Mac クライアント版 Skype for Business の更新プログラム
 
-|パッケージ名|リリース日|
-|:--- |:--- |
-|[Mac 版 Skype for Business 用の更新プログラム](https://www.microsoft.com/en-us/download/details.aspx?id=54108) | 2018 年 6 月 |
-|[Mac 版 Skype for Business 用の最新リリースノート](https://support.office.com/article/cece9f93-add1-4d93-9a38-56cc598e5781#OS_Type=Mac) | 2018 年 6 月 |
+[Mac 版 Skype for Business 用の最新リリースノート](https://support.office.com/article/cece9f93-add1-4d93-9a38-56cc598e5781#OS_Type=Mac)
 
 * * *
 
@@ -144,6 +145,7 @@ Office 365 との Skype for Business の互換性およびオンプレミス環�
 
 パッケージ名|KB 番号|リリース日|
 |:--- |:--- |:--- |
+|Skype for Business 2015/Lync 2013 用の更新プログラム |[KB 4462207](https://support.microsoft.com/kb/4462207/)| 4 月 2019 |
 |Skype for Business 2015/Lync 2013 用の更新プログラム |[KB 4461557](https://support.microsoft.com/kb/4461557/)| 1 月 2019 |
 |Skype for Business 2015/Lync 2013 用のセキュリティ更新プログラム |[KB 4461487](https://support.microsoft.com/kb/4461487/)| 11 月 2018 |
 |Skype for Business 2015/Lync 2013 用の更新プログラム |[KB 4461446](https://support.microsoft.com/kb/4461446/)| 10 月 2018 |
@@ -306,6 +308,6 @@ Office 365 との Skype for Business の互換性およびオンプレミス環�
 | [Lync 2010 試用版 (32 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=5484)  | 2010 年 11 月 |
 | [Lync 2010 試用版 (64 ビット)](https://www.microsoft.com/en-us/download/details.aspx?id=10400) | 2010 年 11 月 |
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Skype for Business Server の更新プログラム](sfb-server-updates.md)
