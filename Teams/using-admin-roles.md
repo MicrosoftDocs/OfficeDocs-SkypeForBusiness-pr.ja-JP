@@ -57,7 +57,7 @@ Microsoft Teamsを管理するために使用可能な管理ツールの詳細�
 
 1. ユーザーにそのロール割を割り当てる一方、ユーザーにその他のロールがないことを確認します。
 2. Skype for Business PowerShell moduleに接続します:<br>
-   a. $session = 新しい csonlinesession<br>
+   a. $session = new-csonlinesession<br>
    b. Import-pssession $session<br>
    c. **Get-Module**を使用してインポートされたセッションの名前を識別します（これはランダムに生成された名前になります）。<br>
 3. **Get-Command -Module** <*上記の名前*> を使用して、利用可能なすべてのコマンドレットを特定します
