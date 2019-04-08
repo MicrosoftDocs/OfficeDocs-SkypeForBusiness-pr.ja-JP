@@ -20,7 +20,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: dbe0b72c03d8e85deff538924c17dac8f0d3773c
 ms.sourcegitcommit: daf65bf09ca57554da744602d2551db53caedde5
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/09/2019
 ms.locfileid: "30512990"
@@ -35,7 +35,7 @@ Teams の会議アドインは、Microsoft Teams と Office 2013 または Offic
 ![Outlook リボン上の Teams アドインのスクリーンショット。](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
-> Windows 7 のユーザーは、作業をチームの会議アドインの[Windows でのユニバーサルの C ランタイムの更新プログラム](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)をインストールしなければなりません。
+> Windows 7ユーザーは、Teams Meetingアドインを機能させるために、[Update for Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)をインストールする必要があります。
 
 Teams の会議アドインが表示されないユーザーに対しては、Outlook と Teams を閉じて、先に Teams クライアントを再起動してから Teams にサインインし、次に Outlook クライアントを再起動する操作を順に行うよう指示します。
 
@@ -53,9 +53,9 @@ Teams の会議アドインでは、ユーザーが認証要件を使用して T
 
 ## <a name="enable-private-meetings"></a>プライベート会議を有効にする
 
-個人の会議のスケジュールを設定する必要がありますで有効にするプラグインの配置を取得するのにはマイクロソフトのチーム管理センターを使用できます。 **会議**には、管理センターで、 > **ミーティングのポリシー**、し、 **[全般**] セクションで、表示または非表示**プライベートな会議のスケジュールを許可する**にします)。
+プラグインを展開するには、Microsoft Teams管理センターで [Allow scheduling for private meetings (プライベート会議の予約を許可する)]を有効にする必要があります。 管理センターで**Meetings** > **Meeting Policies**に行き、**一般的な**セクションで、**Allow scheduling private meetings**をオンに切り替えるます。)
 
-![マイクロソフトのチームの管理センターの設定のスクリーン ショットです。](media/teams-add-in-for-outlook-image1.png)
+![Microsoft Teams管理センターの設定のスクリーンショット。](media/teams-add-in-for-outlook-image1.png)
 
 Teams クライアントはユーザーが必要としているのが 32 ビット版か 64 ビット版かを判断して正しいアドインをインストールします。
 
@@ -70,17 +70,17 @@ Teams の会議アドインは継続して機能が開発されていますの�
 - 現在のところ、会議に招待できるのは自分の会社内のユーザーのみで、外部ユーザーは会議に参加することができません。
 - このアドインは、特定の参加者でスケジュール設定された会議向けで、チャネル内の会議向けではありません。 チャネル会議は Teams 内でスケジュール設定される必要があります。 現在、Outlook の Teams の会議アドインを利用できるのは Windows ユーザーのみですが、Mac 向けのサポートも近日中に予定されています。
 - 認証プロキシがユーザーの PC および Teams サービスのネットワーク パス内にある場合、アドインは機能しません。
-- アドインを段階的ロールアウトされているが、組織にまだ利用できない可能性があります。
+- アドインを段階的にロールアウト中で、あなたの組織ではまだ利用できない場合があります。
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
-アドインをインストールするのには Outlook のチーム会議出席できない場合は、これらのトラブルシューティング手順を実行してください。
+Teams Meeting add-in for Outlook のアドインをインストールできない場合は、次のトラブルシューティングの手順を試してください。
 
 - Outlook デスクトップ クライアントのすべての利用可能な更新プログラムが適用されていることを確認します。 
-- チームのデスクトップ クライアントを再起動します。
-- サインアウトして、チームのデスクトップ クライアントにもう一度サインインします。
-- Outlook デスクトップ クライアントを再起動します。 (Outlook は、管理者モードで実行されていないことを確認してください。)
-- ログインしているユーザー アカウント名にスペースが含まれていないことを確認します。 (これは既知の問題、今後のアップデートで修正される予定)
+- Teamsのデスクトップ クライアントを再起動します。
+- [Teamsのデスクトップ クライアント]からサインアウトして、もう一度サインインします。
+- Outlook デスクトップ クライアントを再起動します。 (管理者モードで Outlook が実行されていないことを確認してください。)
+- ログインしているユーザー アカウント名にスペースが含まれていないことを確認します。 これは既知の問題であり、今後のビルドで修正される予定です。
 - シングル サインオン (SSO) が有効になっていることを確認します。
 
 アドインを無効にする方法につぃての全般的なガイドラインについては、「[Office プログラムでアドインを表示、管理、インストールする](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)」をご覧ください。

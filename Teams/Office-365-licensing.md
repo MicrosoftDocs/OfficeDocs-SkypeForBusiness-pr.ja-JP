@@ -19,10 +19,10 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 20a10288c53ef26e47f50339c581901bd4e33958
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
-ms.translationtype: MT
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2019
+ms.lasthandoff: 03/19/2019
 ms.locfileid: "30640699"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Microsoft Teams 用の Office 365 ライセンス
@@ -30,31 +30,31 @@ ms.locfileid: "30640699"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-以下の Office 365 サブスクリプションでは、チームのユーザーを有効にします。
+Teams のユーザーを有効にする Office 365 サブスクリプションを次に示します。
 
-|Small Business プラン  |Enterprise プラン  |Education プラン  |開発計画 |
+|Small Business プラン  |Enterprise プラン  |Education プラン  |Developer プラン |
 |---------|---------|---------|---------|
-|Office 365 Business Essentials     |Office 365 Enterprise E1  |Office 365 Education |Office 365 開発者     |
+|Office 365 Business Essentials     |Office 365 Enterprise E1  |Office 365 Education |Office 365 Developer     |
 |Office 365 Business Premium     |Office 365 Enterprise E3         |Office 365 Education Plus         |      |
 |     |Office 365 Enterprise E4 (廃止)         |Office 365 Education E3 (廃止)         |  |
 |     |Office 365 Enterprise E5         |Office 365 Education E5  | 
 |     |Office 365 Enterprise F1 |    |     | 
 
-チームを取得する方法については、チェック アウト[マイクロソフトのチームへのアクセスを取得する方法ですか?](https://support.office.com/article/How-do-I-get-access-to-Microsoft-Teams-fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+Teams の入手方法については[Microsoft Teams へのアクセス権を取得するにはどうしたらよいですか?](https://support.office.com/article/How-do-I-get-access-to-Microsoft-Teams-fc7f1634-abd3-4f26-a597-9df16e4ca65b)を参照してください。
 
 > [!NOTE]
-> Teams は非営利団体でも利用できます。 米国政府クラウド コミュニティ (GCC) の 7 月 17 日ロールアウトを開始し、2018年 8 月のすべての対象となるお客様の利用できるようチームにします。 皆様の他の米国政府雲 (GCC 高と DoD) にマイクロソフトのチームを準備中です。 マイクロソフト チームのブログに複数の読み取り[はここ](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976)。
+> Teams は非営利団体でも利用できます。  Teamsは、7 月 17 日に米国政府クラウド コミュニティ (GCC) を展開し、2018年 8 月までにすべての対象となるユーザーが利用できるようにします。 その他の米国政府機関向けクラウド (GCC high および 国防総省) 向けの Microsoft Teams を近日公開します。 Microsoft Teams のブログの詳細は [こちら](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976)から。
 
 > [!NOTE]
-> 開始 2018 年 10 月 1日接続クライアント数が 500 以下の新しい Office 365 お客様のチームに onboarded、ビジネス オンラインの Skype へのアクセスを必要はありません。 テナントは既に使用している Skype のオンライン ビジネスは実行を続行することがチームへの移行を完了するまで (新しいユーザーのプロビジョニング) を含むためです。 詳細については、[マイクロソフトのチーム会議および Office 365 内の呼び出しのようになりました主なクライアント](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling)を参照してください。
+> 2018 年 10 月 1 日より、500 シート以下の新規 Office 365 ユーザーはTeams を利用できるようになり、Skype for Business Online にアクセスできなくなりました。 既に Skype for Business Online を使用しているテナントは、Teams への移行を完了するまで、(新規ユーザーのプロビジョニングも含めて) 利用を継続することができます。 詳細については、[Microsoft Teams が Office 365 の会議と通話機能のプライマリ クライアントになりました](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling)をご覧ください。
         
-チームの中核的な機能、という点では、Office 365 サブスクリプションの違いはありません。 コンプライアンス機能の利用可否は適切なサブスクリプション レベルに依存します。 詳細については、「[Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)」をご覧ください。 各サブスクリプションで利用できる機能の詳細については、 [Office 365 のプラットフォーム サービスの説明](https://technet.microsoft.com/library/office-365-platform-service-description.aspx)を参照してください。
+Teams の重要な機能に関しては、Office 365 サブスクリプションとの違いはありません。 コンプライアンス機能の利用可否は適切なサブスクリプション レベルに依存します。 詳細については、「[Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)」をご覧ください。 各サブスクリプションで利用できる機能の詳細な一覧については、 [Office 365 プラットフォーム サービスの説明](https://technet.microsoft.com/library/office-365-platform-service-description.aspx)をご覧ください。
 
-**クラウドの音声機能**: オーディオ会議は、組織は購入して、ダイヤルイン会議を設定する各ユーザーに電話会議のライセンスを割り当てる必要があります。 計画を呼び出すには、各ユーザーの電話システムと、国内または国内と国際の計画を呼び出す必要があります。 詳細については、[マイクロソフトのチームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
+**クラウドの音声機能**: オーディオ会議には、ダイヤルイン会議を設定する各ユーザーにオーディオ会議のライセンスを購入して割り当てる必要があります。 通話プランには、各ユーザーの電話システムに加えて、国内通話プランまたは 国内/国際通話プランへの加入が必要となります。 詳細は、[Microsoft Teamsアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)をご覧ください。
 
 サポートされているすべてのサブスクリプション プランは、Teams の Web クライアント、デスクトップ クライアント、モバイル アプリにアクセスする資格を持ちます。
 
 Teams はスタンドアロンのサービスとして利用できません。
 
 > [!TIP]
-> ユーザー レベルのライセンスを管理するには、[マイクロソフトのチームへのユーザー アクセスの管理](user-access.md)を参照してください。
+> ユーザー レベルのライセンスを管理するには、次の[Microsoft Teams へのユーザー アクセスを管理する](user-access.md)を参照してください。

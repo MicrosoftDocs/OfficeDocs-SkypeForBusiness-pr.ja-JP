@@ -22,65 +22,65 @@ ms.custom:
 description: Skype for Business Online セキュリティ ガイド <add description>
 ms.openlocfilehash: 555a7bd3e4a57c637c0375ea406caeca3c221be7
 ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/08/2019
 ms.locfileid: "30493916"
 ---
-# <a name="security-and-skype-for-business-online"></a>セキュリティとオンライン ビジネスの Skype
+# <a name="security-and-skype-for-business-online"></a>セキュリティと Skype for Business Online
 
-Skype for Business Online (SfBO) は、Office 365 サービスの一部として徹底的な防御によるサービス レベルのセキュリティ、サービス内の顧客コントロール、セキュリティ強化、運用上のベスト プラクティスなど、すべてのセキュリティ ベスト プラクティスとプロシージャに従っています。 詳細については、マイクロソフトのセキュリティ センターを参照してください (https://microsoft.com/trustcenter)。
+Skype for Business Online (SfBO), as part of the Office 365 service, follows all the security best practices and procedures such as service-level security through defense-in-depth, customer controls within the service, security hardening and operational best practices. For full details, please see the Microsoft Trust Center (https://microsoft.com/trustcenter).
 
-## <a name="trustworthy-by-design"></a>設計による高信頼性
+## <a name="trustworthy-by-design"></a>設計による高い信頼性
 Skype for Business Online is designed and developed in compliance with the Microsoft Trustworthy Computing Security Development Lifecycle (SDL), which is described at https://www.microsoft.com/en-us/sdl/default.aspx. The first step in creating a more secure unified communications system was to design threat models and test each feature as it was designed. Multiple security-related improvements were built into the coding process and practices. Build-time tools detect buffer overruns and other potential security threats before the code is checked in to the final product. Of course, it is impossible to design against all unknown security threats. No system can guarantee complete security. However, because product development embraced secure design principles from the start, Skype for Business Online incorporates industry standard security technologies as a fundamental part of its architecture. 
 
-## <a name="trustworthy-by-default"></a>既定による高信頼性
+## <a name="trustworthy-by-default"></a>既定による高い信頼性
 Network communications in Skype for Business Online are encrypted by default. By requiring all servers to use certificates and by using OAUTH, TLS, Secure Real-Time Transport Protocol (SRTP), and other industry-standard encryption techniques, including 256-bit Advanced Encryption Standard (AES) encryption, all Skype for Business Online data is protected on the network.
 
 ## <a name="how-sfbo-handles-common-security-threats"></a>SfBO の一般的なセキュリティ上の脅威に対する対処方法
-このセクションでは、SfBO サービスとマイクロソフトがそれぞれの脅威を軽減する方法のセキュリティに対する一般的な脅威を識別します。
+このセクションでは、SfBO サービスのセキュリティに対するより一般的な脅威と、Microsoft がそれらの脅威の軽減に用いる方法を明らかにします。
 
-### <a name="compromised-key-attack"></a>危殆化鍵による攻撃
-キーとは、機密情報の暗号化、復号化、または検証に使用される秘密のコードまたは数値です。 考慮すべき公開キー基盤 (PKI) には、各証明書の所有者が所持する秘密キーと、通信パートナーによる ID およびセッション キーの交換が成功した後に使用されるセッション キーの 2 つの機密キーがあります。 侵害されたキーによる攻撃は、攻撃者が秘密キーまたはセッション キーを割り出した場合に発生します。 攻撃者がキーの割り出しに成功した場合、攻撃者はそのキーを使用して、データの送信者に関する知識がなくても、暗号化されているデータを解読できます。
+### <a name="compromised-key-attack"></a>危害を受けたキーによる攻撃
+キーとは、機密情報の暗号化、復号化、または検証に使用される秘密のコードまたは数値です。公開キー基盤 (PKI) で使用される、注意が必要な機密のキーは 2 つあります。1 つは各証明書所有者が持つ秘密キーで、もう 1 つは通信するパートナーによる識別とセッション キーの交換が成功した後で使用されるセッション キーです。侵害されたキーによる攻撃は、攻撃者が秘密キーまたはセッション キーを割り出した場合に発生します。攻撃者がキーを割り出すのに成功した場合、攻撃者はそのキーを使用して、データの送信者に関する知識がなくても、暗号化されているデータを復号化できます。
 
 Skype for Business Online uses the PKI features in the Windows Server operating system to protect the key data used for encryption for the Transport Layer Security (TLS) connections. The keys used for media encryptions are exchanged over TLS connections. 
 
 ### <a name="network-denial-of-service-attack"></a>ネットワークのサービス拒否攻撃
-The denial-of-service attack occurs when the attacker prevents normal network use and function by valid users. By using a denial-of-service attack, the attacker can:
+サービス拒否攻撃は、有効なユーザーによるネットワークの正常な使用または機能が、攻撃者によって妨害された場合に発生します。サービス拒否攻撃により、攻撃者は以下のことを行うことができます。
 - 攻撃対象のネットワークで実行されているアプリケーションまたはサービスに対して無効なデータを送信して、そのようなアプリケーションまたはサービスが正常に機能するのを妨害する。
-- 大量のトラフィックを送信し、正当な要求に対するシステムの応答が停止または低速化するまでシステムを過負荷状態にする。
+- 大量のトラフィックを送信してシステムを過負荷状態にして、適正な要求に対するシステムの応答を停止または低速化する。
 - 攻撃の証拠を隠蔽する。
 - ユーザーがネットワーク リソースにアクセスできないようにする。
 
-SfBO は、Azure DDOS ネットワークの保護を実行し、同じエンドポイント、サブネット、および連合のエンティティからのクライアント要求の調整によってこれらの攻撃を軽減します。
+このような攻撃を緩和するため、SfBO は Azure DDOS ネットワーク保護を実行し、同じエンドポイント、サブネット、およびフェデレーション エンティティからのクライアント要求を調整します。
 
 ### <a name="eavesdropping"></a>盗聴
 盗聴は、攻撃者が、ネットワークのデータ パスにアクセスし、トラフィックの監視と読み取りの機能を持っているときに起こる可能性があります。これは、スニッフィングまたはスヌーピングとも呼ばれます。トラフィックがプレーン テキストの場合、攻撃者は、ネットワークのパスにアクセスしたときにトラフィックを読み取ることができます。例としては、データ パス上のルーターを制御することによって実行される攻撃があります。 
 
 SfBO uses mutual TLS (MTLS) for server communications within O365 and TLS from clients to the service, rendering this attack very difficult to impossible to achieve within the time period in which a given conversation could be attacked. TLS authenticates all parties and encrypts all traffic. This does not prevent eavesdropping, but the attacker cannot read the traffic unless the encryption is broken.
 
-TURN プロトコルは、リアルタイム メディア通信に使用されます。 プロトコルを有効にする必須ではないトラフィックを暗号化して、それを送信している情報は、メッセージの整合性によって保護されています。 盗聴に開いているが、情報に送信するパケットの発信元と宛先のアドレスを見るだけで直接 (つまり、IP アドレスおよびポート) を抽出できます。 SfBO サービスにより、データがクリア テキストで送信されることはありませんを有効にするパスワードを含む、いくつかの項目から派生したキーを使用して、メッセージのメッセージの整合性を確認することで有効であります。 メディア トラフィックには SRTP を使用し暗号化されています。
+The TURN protocol is used for real time media purposes. The TURN protocol does not mandate the traffic to be encrypted and the information that it is sending is protected by message integrity. Although it is open to eavesdropping, the information it is sending (that is, IP addresses and port) can be extracted directly by simply looking at the source and destination addresses of the packets. The SfBO service ensures that the data is valid by checking the Message Integrity of the message using the key derived from a few items including a TURN password, which is never sent in clear text. SRTP is used for media traffic and is also encrypted.
 
 ### <a name="identity-spoofing-ip-address-spoofing"></a>ID のスプーフィング (IP アドレスのスプーフィング)
 Spoofing occurs when the attacker determines and uses an IP address of a network, computer, or network component without being authorized to do so. A successful attack allows the attacker to operate as if the attacker is the entity normally identified by the IP address. Within the context of Microsoft Lync Server 2010, this situation comes into play only if an administrator has done both of the following:
 - 伝送制御プロトコル (TCP) のみをサポートする接続を構成した (TCP 接続は暗号化されないため、推奨されません)。
-- このような接続の IP アドレスを信頼できるホストとしてマークした 
+- このような接続の IP アドレスを信頼されたホストとしてマークした。 
 
 This is less of a problem for Transport Layer Security (TLS) connections, as TLS authenticates all parties and encrypts all traffic. Using TLS prevents an attacker from performing IP address spoofing on a specific connection (for example, mutual TLS connections). But an attacker could still spoof the address of the DNS server that SfBO uses. However, because authentication in SfBO is performed with certificates, an attacker would not have a valid certificate required to spoof one of the parties in the communication.
 
-### <a name="man-in-the-middle-attack"></a>man-in-the-middle 攻撃
+### <a name="man-in-the-middle-attack"></a>中間者攻撃
 A man-in-the-middle attack occurs when an attacker reroutes communication between two users through the attacker’s computer without the knowledge of the two communicating users. The attacker can monitor and read the traffic before sending it on to the intended recipient. Each user in the communication unknowingly sends traffic to and receives traffic from the attacker, all while thinking they are communicating only with the intended user. This can happen if an attacker can modify Active Directory Domain Services to add his or her server as a trusted server or modify Domain Name System (DNS) to get clients to connect through the attacker on their way to the server. 
 
 中間者攻撃は、TLS を使うセッション開始プロトコル (SIP) を使用してピア間でネゴシエートされた暗号キーを使用する SRTP で暗号化された SfBO Point-To-Point 音声、ビデオ、アプリケーション共有ストリームを除き、2 つのクライアント間のメディア トラフィックでも発生する可能性がありますします。 
 
-### <a name="rtp-replay-attack"></a>RTP 再生攻撃
+### <a name="rtp-replay-attack"></a>RTP リプレイ アタック
 A replay attack occurs when a valid media transmission between two parties is intercepted and retransmitted for malicious purposes. SfBO uses SRTP in conjunction with a secure signaling protocol that protects transmissions from replay attacks by enabling the receiver to maintain an index of already received RTP packets and compare each new packet with those already listed in the index.
 
 ### <a name="spim"></a>SPIM
 SPIM とは、一方的に送りつけられる営利目的のインスタント メッセージまたはプレゼンス サブスクリプション要求のことです。それ自体はネットワークを侵害するものではありませんが、少なくとも迷惑なものであり、リソースの可用性および生産性を低下させ、結果としてネットワークの侵害を招く可能性があります。SPIM の一例として、ユーザーが要求を送信することで相互に SPIM を送るケースがあります。ユーザーは相互にブロックしてこれを防ぐことができますが、フェデレーションの場合、調整された SPIM 攻撃が確立されると、パートナーのフェデレーションを無効にしない限り、対処が困難になるおそれがあります。
 
 ### <a name="viruses-and-worms"></a>ウイルスとワーム
-ウイルスは、同種の追加コード単位の複製を目的としたコード単位です。 ウイルスは、有効に機能するためにホスト (ファイル、電子メール、プログラムなど) を必要とします。 ワームもウイルスと同様にコードの追加、複写、複製を行うプログラムですが、ウイルスとは異なりホストを必要としません。 ウイルスとワームは、クライアント間でファイルを転送しているとき、または他のユーザーから URL が送信されたときに主に出現します。 ウイルスがコンピューター上に存在する場合、そのウイルスは、たとえば、無断でユーザー ID を使用してインスタント メッセージを送信する可能性があります。 定期的なウイルス スキャンなどの標準的なクライアント セキュリティのベスト プラクティスは、この問題を軽減します。 
+A virus is a unit of code whose purpose is to reproduce additional, similar code units. To work, a virus needs a host, such as a file, email, or program. Like a virus, a worm is a unit of code that is coded to reproduce additional, similar code units, but that unlike a virus does not need a host. Viruses and worms primarily show up during file transfers between clients or when URLs are sent from other users. If a virus is on your computer, it can, for example, use your identity and send instant messages on your behalf. Standard client security best practices such as periodically scanning for viruses can mitigate this issue. 
 
 ## <a name="personally-identifiable-information"></a>個人を特定できる情報
 SfBO has the potential to disclose information over a public network that might be able to be linked to an individual. The information types can be broken down to two specific categories:
@@ -95,9 +95,9 @@ SfBO has the potential to disclose information over a public network that might 
 |                      |                                                                                            |   |
 |:---------------------|:-------------------------------------------------------------------------------------------|:--|
 | **データ**             | **指定可能な****設定**                                                                  |   |
-| 個人データ        | タイトル、会社名、電子メール アドレス、タイム ゾーン                                             |   |
+| 個人データ        | 名前、役職、会社、電子メール アドレス、タイム ゾーン                                             |   |
 | 電話番号    | 勤務先、携帯、自宅                                                                         |   |
-| 予定表情報 | 会議の詳細 (予定表へのアクセス権を持っているもの) に、空き時間情報、Out-of-town の通知 |   |
+| 予定表情報 | 空き時間、出張の通知、ミーティングの詳細 (予定表にアクセスできるユーザーに公開されます) |   |
 | [プレゼンス状態]      | 退席中、連絡可能、取り込み中、応答不可、オフライン                                             |   |
 |                      |                                                                                            |   |
 
@@ -110,10 +110,10 @@ SfBO has the potential to disclose information over a public network that might 
 
 |              |                                                                 |   |
 |:-------------|:----------------------------------------------------------------|:--|
-| **[カテゴリ]** | **使用可能な設定**                                           |   |
+| **カテゴリ** | **指定可能な設定**                                           |   |
 | IP アドレス   | コンピューターの実際のアドレスまたは NAT で変換したアドレス                     |   |
 | SIP URI      | <u>david.campbell@contoso.com</u>                               |   |
-| 名前         | (定義されている Active Directory ドメイン サービスで)、久保田隆 |   |
+| 名前         | David Campbell (Active Directory Domain Services で定義されている名前) |   |
 |              |                                                                 |   |
 
 <!-- end of table -->
@@ -121,11 +121,11 @@ SfBO has the potential to disclose information over a public network that might 
 ## <a name="security-framework-for-sfbo"></a>SfBO のセキュリティ フレームワーク
 This section provides an overview of the fundamental elements that form the security framework for Microsoft SfBO. These elements are as follows:
 - Azure Active Directory (AAD) は、ユーザー アカウント用の単一の信頼できるバックエンド リポジトリを提供します。 
-- 公開キー基盤 (PKI) は、サーバーの認証し、データの整合性を確保する、信頼された証明機関 (Ca) によって発行された証明書を使用します。
+- 公開キー基盤 (PKI) は、信頼された証明機関 (CA) によって発行された証明書を使用してサーバーを認証し、データの整合性を確保します。
 - Transport Layer Security (TLS), HTTPS over SSL (HTTPS), and mutual TLS (MTLS) enable endpoint authentication and IM encryption. Point-to-point audio, video, and application sharing streams are encrypted and integrity checked using Secure Real-Time Transport Protocol (SRTP).
 - ユーザーの認証には、業界標準のプロトコルができる限り使用されます。
 
-このセクションのトピックでは、SfBO サービスのセキュリティを強化するためにこれらの基本的な要素の動作方法について説明します。
+このセクションのトピックでは、SfBO のセキュリティを高めるために、各基本要素が機能するしくみについて説明します。
 
 ### <a name="azure-active-directory"></a>Azure Active Directory
 Azure Active Directory functions as the directory service for O365. It stores all user directory information and policy assignments. 
@@ -136,9 +136,9 @@ SfBO service relies on certificates for server authentication and to establish a
 Even if the information on the certificate is valid, there must be some way to verify that the server presenting the certificate is actually the one represented by the certificate. This is where the Windows PKI comes in. Each certificate is linked to a public key. The server named on the certificate holds a corresponding private key that only it knows. A connecting client or server uses the public key to encrypt a random piece of information and sends it to the server. If the server decrypts the information and returns it as plain text, the connecting entity can be sure that the server holds the private key to the certificate and therefore is the server named on the certificate.
 
 #### <a name="crl-distribution-points"></a>CRL 配布ポイント
-SfBO には、1 つまたは複数の証明書失効リスト (CRL) 配布ポイントを格納するためのすべてのサーバー証明書が必要です。 CRL 配布ポイント (CDP) とは、証明書の発行後にそれが失効していないこと、および証明書が有効期限内にあることを確認するために、CRL をダウンロードできる場所です。 CRL 配布ポイントでは、URL として証明書のプロパティに記録され、セキュリティで保護された http です。 SfBO サービスは、すべての証明書認証で CRL を確認します。
+SfBO requires all server certificates to contain one or more Certificate Revocation List (CRL) distribution points. CRL distribution points (CDPs) are locations from which CRLs can be downloaded for purposes of verifying that the certificate has not been revoked since the time it was issued and the certificate is still within the validity period. A CRL distribution point is noted in the properties of the certificate as a URL and is secure HTTP. The SfBO service checks CRL with every certificate authentication.
 
-#### <a name="enhanced-key-usage"></a>拡張キー使用法
+#### <a name="enhanced-key-usage"></a>拡張キーの使用方法
 All components of the SfBO service require all server certificates to support Enhanced Key Usage (EKU) for the purpose of server authentication. Configuring the EKU field for server authentication means that the certificate is valid for the purpose of authenticating servers. This EKU is essential for MTLS. 
 
 ### <a name="tls-and-mtls-for-sfbo"></a>SfBO の TLS と MTLS
@@ -165,7 +165,7 @@ SfBO uses TLS and MTLS to encrypt instant messages. All server-to-server traffic
 |**トラフィックの種類**|**保護用プロトコル**|
 |サーバー間|MTLS|
 |クライアントからサーバー|TLS|
-|インスタント メッセージングとプレゼンス|TLS (TLS用に設定されている場合)|
+|インスタント メッセージングとプレゼンス|TLS (TLS 用に構成されている場合)|
 |オーディオとビデオ、メディアのデスクトップ共有|SRTP|
 |デスクトップ共有 (シグナリング)|TLS|
 |Web 会議|TLS|
@@ -183,14 +183,14 @@ SfBO generates username/passwords for secure access to media relays over TURN. M
 SfBO は、暗号キーの交換に FIPS (Federal Information Processing Standard) に準拠したアルゴリズムを使用します。 
 
 ### <a name="user-and-client-authentication"></a>ユーザー認証とクライアント認証 
-O365 の AAD によって認証された資格情報が信頼されたユーザーとは。 
+信頼されたユーザーとは、AAD in O365 によって資格情報が認証されたユーザーを指します。 
 
 Authentication is the provision of user credentials to a trusted server or service. SfBO uses the following authentication protocols, depending on the status and location of the user.
-- **先進認証 (MA)** は、クライアントとサーバー間の通信用に Microsoft が OAUTH 2.0 を実装したものです。 O365 証明書ベースの認証、O365 マルチ ファクター認証、O365 条件付きアクセスなどのセキュリティ機能を有効にします。 MA を使用するには、オンライン テナントとクライアントの両方で MA が有効にされている必要があります。 2017 年 5 月以降に作成された SfBO テナントでは、MA は既定値として有効になっています。 これ以前に作成されたテナントの場合は、指示に従って有効にします。 Skype for Business 2015 または 2016 クライアント、Skype for Business on Mac、Lync 2013 クライアント、3PIP IP 電話、iOS、Android のすべてのクライアントは MA に対応しています。 
-- 現代の認証は有効になっている (使用できない) 場合は、**組織の ID**が使用されます。
+- **Modern Authentication** is the Microsoft implementation of OAUTH 2.0 for client to server communication. It enables security features such as O365 Certificate Based Authentication, O365 Multi-Factor Authentication and O365 Conditional Access. In order to use MA, both the online tenant and the clients need to be enabled for MA. SfBO tenants created after May 2017 have MA enabled by default. For tenants created before this time, follow the instructions here to turn it on. The following clients all support MA: Skype for Business 2015 or 2016 client, Skype for Business on Mac, Lync 2013 client, 3PIP IP Phones, iOS, and Android. 
+- **Org ID** は、先進認証が有効ではない (または使用できない) 場合に使用されます。
 - **ダイジェスト プロトコル**: いわゆる匿名ユーザーに対して使用されます。匿名ユーザーは、有効な Active Directory の資格情報は持たないが、社内会議に招待され、有効な会議キーを持つ外部ユーザーです。ダイジェスト認証は、他のクライアント操作には使用されません。
 
-SfBO 認証は、2 つのフェーズで構成されます。
+SfBO 認証は 以下の 2 つのフェーズで構成されます。
 1. クライアントとサーバーの間に、セキュリティ アソシエーションが確立されます。
 2. クライアントとサーバーは、既存のセキュリティ アソシエーションを使用して、送信するメッセージに署名し、受信するメッセージを検証します。サーバーで認証が有効になっている場合、クライアントからの認証されていないメッセージは受信されません。
 
@@ -200,74 +200,74 @@ User trust is attached to each message that originates from a user, not to the u
 
 For media authentication, the ICE and TURN protocols also use the Digest challenge as described in the IETF TURN RFC. For details, see [media traversal](#external-user-av-traffic-traversal).
 
-クライアント証明書は、SfBO で認証されるユーザーに対して別の方法を提供します。ユーザーでは、ユーザー名とパスワードを提供することではなく証明書と暗号化の課題を解決するために必要な証明書に対応する秘密キーがあります。 
+Client certificates provide an alternate way for users to be authenticated by SfBO. Instead of providing a user name and password, users have a certificate and the private key corresponding to the certificate that is required to resolve a cryptographic challenge. 
 
 ### <a name="windows-powershell-and-sfbo-management-tools"></a>Windows PowerShell と SfBO 管理ツール
-SfBO では、IT 管理者は O365 管理ポータルまたはテナント リモート パワーシェル (TRPS) を使用してサービスを管理できます。 テナント管理者は、TRPS を認証するために最新の認証を使用します。
+In SfBO, IT Admins can manage their service via the O365 Admin portal or by using Tenant Remote PowerShell (TRPS). Tenant admins use Modern Authentication to authenticate to TRPS.
 
 ### <a name="configuring-access-to-sfbo-at-your-internet-boundary"></a>インターネット境界で SfBO へのアクセスを設定する
-(ユーザーなどの会議に参加すること)、お客様のニーズ、インターネットを構成するのには適切に機能する SfBO の SfBO の雲の中のサービスへ送信された UDP および TCP トラフィックを許可するようにアクセスします。 詳細については、ここで参照してください。https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_lyo 
+For SfBO to function properly (users able to join meetings etc.), customers need to configure their internet access such that outbound UDP and TCP traffic to services in the SfBO cloud is allowed. For more details, see here: https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_lyo 
 
 ### <a name="udp-3478-3481-and-tcp-443"></a>UDP 3478 〜 3481 と TCP 443
 
-443 の TCP ポートと UDP 3478-3481 クライアントが使用、A からのサービスを要求すると音声ビデオ エッジ サービスです。クライアントでは、これらの 2 つのポートに UDP を割り当てると、相手のそれぞれの TCP ポートを使用してに接続します。A にアクセスすると、音声ビデオ エッジ サービスでは、クライアントする必要があります最初確立 A を入手するのには SfBO のレジストラーとのセッションを通知する認証済みの SIP 音声ビデオ エッジ サービスの認証の資格情報です。これらの値は、TLS で保護された信号チャネルを経由して送信され、辞書攻撃を緩和するために生成されたコンピューターです。クライアントが A とダイジェスト認証にこれらの資格情報を使用して音声ビデオ エッジ サービスのメディア ・ セッションで使用するためのポートを割り当てることです。最初の割り当て要求がクライアントから送信され、A から 401 nonce/チャレンジ メッセージで応答または音声ビデオ エッジ サービスです。クライアントから 2 番目の割り当て、ユーザー名とハッシュ メッセージ認証コード (HMAC) を含むユーザー名と nonce のハッシュです。 
+The UDP 3478-3481 and TCP 443 ports are used by clients to request service from the A/V Edge service. A client uses these two ports to allocate UDP and TCP ports respectively for the remote party to connect to. To access the A/V Edge service, the client must first have established an authenticated SIP signaling session with SfBO registrar to obtain A/V Edge service authentication credentials. These values are sent across the TLS-protected signaling channel and are computer generated to mitigate against dictionary attacks. Clients can then use these credentials for digest authentication with the A/V Edge service to allocate ports for use in a media session. An initial allocate request is sent from the client and responded with a 401 nonce/challenge message from the A/V Edge service. The client sends a second allocate containing the user name and a Hash Message Authentication Code (HMAC) hash of the user name and nonce. 
 
 A sequence number mechanism is also in place to prevent replay attacks. The server calculates the expected HMAC based on its own knowledge of the user name and password and if the HMAC values match, the allocate procedure is carried out. Otherwise, the packet is dropped. This same HMAC mechanism is also applied to subsequent messages within this call session. The lifetime of this user name/password value is a maximum of eight hours at which time the client reacquires a new user name/password for subsequent calls.
 
-### <a name="udptcp-5000059999"></a>UDP と TCP の 50,000 – 59,999
+### <a name="udptcp-5000059999"></a>UDP/TCP 50,000～59,999
 TCP 50,000 outbound is used for SfBO, including for application and desktop sharing, file transfer. UDP/TCP 50,000-59,999 port ranges are used for media sessions with Microsoft Office Communications Server 2007 partners that require NAT/firewall traversal service from the A/V Edge service. Because the A/V Edge service is the sole process using these ports, the size of the port range does not indicate the potential surface of attack. Good security practice is to always minimize the total number of listening ports by not running unnecessary network services. If a network service is not running, it is not exploitable by a remote attacker and the surface of attack of the host computer is reduced. However, within a single service, reducing the number of ports does not provide the same benefit. The A/V Edge service software is no more exposed to attack with 10,000 ports open as it is with 10. The allocation of ports within this range is done randomly and ports not currently allocated do not listen for packets.
 
-### <a name="external-user-av-traffic-traversal"></a>外部ユーザー音声ビデオ トラフィック トラバーサル
-Enabling external users and internal users to exchange media requires an Access Edge service to handle the SIP signaling that is necessary to set up and tear down a session. It also requires an A/V Edge service to act as a relay for the transfer of the media. The call sequence is illustrated in the following figure.
+### <a name="external-user-av-traffic-traversal"></a>外部ユーザーの音声ビデオ トラフィックのトラバース
+外部ユーザーと内部ユーザーの間でメディアを交換できるようにするには、セッションのセットアップおよび切断に必要な SIP シグナリングを処理するアクセス エッジ サービスが必要です。また、音声ビデオ エッジ サービスをメディア転送用のリレー機能として使用する必要もあります。次の図に、呼び出しシーケンスを示します。
 
 
 ![会議参加のコール シーケンス](media/sfbo-call-sequence-security.png) 
 
-1. A user receives an email containing an invitation to join an SfBO meeting. The email contains a conference key and a HTTP-based URL linking to the conference. Both the key and the URL are unique for a particular meeting.<p>ユーザーは、ユーザーの機器上でクライアント検出プロセスを開始する電子メール内の会議 URL をクリックすることにより、参加手順を開始します。 検出されたクライアントが起動します。 クライアントが検出されない場合、ユーザーは Web クライアントにリダイレクトされます。<p/>
-2. SfBO クライアントは、ユーザーの資格情報を含む SIP INVITE を送信します。 フェデレーションまたはリモート ユーザーは、エンタープライズ資格情報を使用して会議に参加します。 フェデレーション ユーザーの場合、SIP INVITE はまずユーザーを認証し、INVITE を SfBO に転送する自身のホーム サーバーに送信されます。 匿名ユーザーは、ダイジェスト認証に通る必要があります。<p>SfBO authenticates the remote or anonymous user and notifies the client. As mentioned in step 2, federated users joining a conference are authenticated by their enterprise.<p/>
+1. A user receives an email containing an invitation to join an SfBO meeting. The email contains a conference key and a HTTP-based URL linking to the conference. Both the key and the URL are unique for a particular meeting.<p>The user initiates the join procedure by clicking the meeting URL in the email which initiates a client detection process on the user’s machine. If the client is detected, this client is launched.  If it is not detected, the user is redirected to the web client.<p/>
+2. The SfBO client sends a SIP INVITE containing the user’s credentials. A federated or remote user joins a conference using their enterprise credentials. For a federated user, the SIP INVITE is first sent to his or her home server, which authenticates the user and forwards the INVITE to SfBO. An anonymous user is required to pass digest authentication.<p>SfBO authenticates the remote or anonymous user and notifies the client. As mentioned in step 2, federated users joining a conference are authenticated by their enterprise.<p/>
 
 3. クライアントは、音声ビデオ会議にユーザーを追加するために INFO リクエストを送信します。
 
-    A V 会議、A に提示するトークンが含まれている追加のユーザー応答を送信する/V 会議エッジ サービスの他の情報。
+    A/V 会議によって、A/V 会議エッジ サービスに提示するトークンおよびその他の情報を含むユーザーの追加応答が送信されます。
 
-    [メモ] 上記のすべての SIP トラフィックは、アクセス エッジ サービスを介して流し込まれます。
+    [注意] 前の SIP トラフィックはすべて、アクセス エッジ サービスを介して送信されます。
 
     The client connects to the A/V Conference Server, which validates the token and proxies the request, which contains another authorization token, to the internal A/V Conferencing Server. The A/V Conferencing Server validates the Authorization Token, which it originally issued over the SIP channel, to further ensure that a valid user is joining the conference.
 
-4. クライアントと A の間 V 会議サーバー、メディアの接続のネゴシエーションを行うと、SRTP 経由のセットアップ。
+4. クライアントと A/V 会議サーバー間で、メディア接続のネゴシエーションを行うと、SRTP でセットアップされます。
 5. A user receives an email containing an invitation to join an SfBO meeting. The email contains a conference key and a HTTP-based URL linking to the conference. Both the key and the URL are unique for a particular meeting.
 
-### <a name="federation-safeguards-for-sfbo"></a>SfBO の連合の安全対策
-フェデレーションは、組織が IM とプレゼンスを共有するために他の組織と通信する機能を提供します。 SfBO では、フェデレーションは既定で有効です。 ただし、テナント管理者は O365 管理ポータルでこれをコントロールできます。 続きを見る。
+### <a name="federation-safeguards-for-sfbo"></a>SfBO のフェデレーション保護対策
+Federation provides your organization with the ability to communicate with other organizations to share IM and presence. In SfBO federation is on by default. However, tenant admins have the ability to control this via the O365 Admin portal. See more.
 
 ## <a name="addressing-threats-to-sfbo-conferences"></a>SfBO 会議の脅威に対する取り組み
 
 SfBO provides the capability for enterprise users to create and join real-time Web conferences. Enterprise users can also invite external users who do not have an AAD/O365 account to participate in these meetings. Users who are employed by federated partners with a secure and authenticated identity can also join meetings and, if promoted to do so, can act as presenters. Anonymous users cannot create or join a meeting as a presenter, but they can be promoted to presenter after they join.
 
 Enabling external users to participate in SfBO meetings greatly increases the value of this feature, but it also entails some security risks. To address these risks, SfBO provides the following additional safeguards:
-- 参加者の役割により会議通話のコントロール権限が決定します。
-- 参加者タイプの使用により、特定の会議へのアクセスを制限できます。
-- 会議の種類を定義することで、参加可能な参加者のタイプが決まります。
+- 電話会議の制御特権を参加者の役割に応じて割り当てます。
+- 参加者の種類別に特定の会議へのアクセスを制限できます。
+- どの会議にどの種類の参加者が出席できるかは、定義されている会議の種類によって決まります。
 - 会議をスケジュールできるのは、AAD アカウントと SfBO ライセンスを持つユーザーに限定されます。
-- Anonymous, that is, unauthenticated, users who want to join a dial-in conference dial one of the conference access numbers and then they are prompted to enter the conference ID. Unauthenticated anonymous users are also prompted to record their name. The recorded name identifies unauthenticated users in the conference. Anonymous users are not admitted to the conference until at least one leader or authenticated user has joined, and they cannot be assigned a predefined role.
+- ダイヤルイン電話会議に参加する匿名ユーザー (未認証ユーザー) が、電話会議のアクセス番号の 1 つをダイヤルすると、電話会議 ID を入力するように指示されます。このとき、認証されていない匿名ユーザーは、名前も録音する必要があります。電話会議に出席中の認証されていないユーザーは、この録音された名前によって識別されます。主催者または認証済みユーザーが少なくとも 1 名参加するまで、匿名ユーザーは電話会議への参加が許可されません。また、匿名ユーザーには事前に定義された役割も割り当てられません。
 
 ### <a name="participant-roles"></a>参加者の役割
-会議の参加者は、それぞれ独自の権限と制限を持つ、3 つのグループに分類されます。
-- **開催者**&nbsp; &nbsp;Impromptu またはスケジュールすることによって、かどうか、会議を作成するユーザーです。 会議の開催者は、認証済みのエンタープライズ ユーザーである必要があり、会議のすべてのエンド ・ ユーザーの側面を制御します。
-- **発表者**&nbsp;&nbsp;どのようなメディアのサポートを使用して、会議で情報を表示する権限があるユーザーです。 会議の開催者は定義でも、発表者、発表者は、他のメンバーを決定 会議がスケジュールされているとき、または会議中に、会議の開催者はこの決定を作成できます。
-- **出席者**&nbsp;&nbsp;ユーザーが会議に出席に招待されている者、発表者として機能する権限がありません。
+会議参加者は 3 つのグループに分類され、以下のようにそれぞれに独自の特権と制限があります。
+- **開催者** &nbsp;&nbsp;会議を作成するユーザー (今すぐ開始する会議を作成することも、会議を予約することも可能)。開催者は、認証済みエンタープライズ ユーザーである必要があり、会議のエンド ユーザーのあらゆる面を制御できます。
+- **発表者** &nbsp;&nbsp;サポートされている任意のメディアを使用して会議で発表することが承認されているユーザー。定義上、会議の開催者は発表者でもあり、別の発表者を指定します。発表者の指定は、会議の予約時に行うことも、会議中に行うこともできます。
+- **参加者** &nbsp;&nbsp;会議に招待されているが、発表者になることは承認されていないユーザー。
 
-発表者も、ミーティング中に出席者に発表者の役割に昇格できます。
+発表者は、会議中に参加者を発表者に昇格することもできます。
 
-### <a name="participant-types"></a>参加者タイプ
+### <a name="participant-types"></a>参加者の種類
 
 Meeting participants are also categorized by location and credentials. You can use both of these characteristics to specify which users can have access to specific meetings. Users can be divided broadly into the following categories:
-1.  **テナントに属しているユーザー**&nbsp; &nbsp;、テナントの Azure Active Directory の資格情報があるこれらのユーザーです。<br/> a. *Inside corpnet* – These users are joining from inside the corporate network.<br/>b. *Remote users* – These users are joining from outside the corporate network. They can include employees who are working at home or on the road, and others, such as employees of trusted vendors, who have been granted enterprise credentials for their terms of service. Remote users can create and join conferences and act as presenters.
-2.  **テナントに属するユーザー** &nbsp;&nbsp; これらのユーザーは、テナントのAzure Active Directoryに資格情報を持っています。<br/>a.*フェデレーション ユーザー*にフェデレーション ユーザーは、フェデレーション パートナーとの有効な資格情報を持っているし、SfBO によって認証されるように扱われますので。フェデレーション ユーザーは会議に参加することができ、ミーティングに参加した後、フェデレーションには、企業の会議を作成することはできません、発表者に昇格します。<br/>b. *Anonymous Users* - Anonymous users do not have an Active Directory identity and are not federated with the tenant. 
+1.  **テナントに属するユーザー** &nbsp;&nbsp;これらのユーザーは、テナントの Azure Active Directory に資格情報を持っています。<br/> a. *Inside corpnet* – These users are joining from inside the corporate network.<br/>b. *Remote users* – These users are joining from outside the corporate network. They can include employees who are working at home or on the road, and others, such as employees of trusted vendors, who have been granted enterprise credentials for their terms of service. Remote users can create and join conferences and act as presenters.
+2.  **テナントに属するユーザー** &nbsp;&nbsp; これらのユーザーは、テナントのAzure Active Directoryに資格情報を持っています。<br/>a. *Federated Users* - Federated users possess valid credentials with federated partners and are therefore treated as authenticated by SfBO. Federated users can join conferences and be promoted to presenters after they have joined the meeting, but they cannot create conferences in enterprises with which they are federated.<br/>b. *Anonymous Users* - Anonymous users do not have an Active Directory identity and are not federated with the tenant. 
 
 Customer data shows that many conferences involve external users. Those same customers also want reassurance about the identity of external users before allowing those users to join a conference. As the following section describes, SfBO limits meeting access to those user types that have been explicitly allowed and requires all user types to present appropriate credentials when entering a meeting.
 
-### <a name="participant-admittance"></a>参加者入場許可
+### <a name="participant-admittance"></a>参加者の許可
 In SfBO, anonymous users are transferred to a waiting area called the lobby. Presenters can then either admit these users to the meeting or reject them. These users are transferred to the lobby, the leader is notified, and the users then wait until a leader either accepts or rejects them or their connection times out. While in the lobby, the users hear music. 
 
 既定の設定では、PSTN からダイヤルインする参加者は直接会議に入りますが、このオプションを変更してダイヤルイン参加者も強制的にロビーに転送することができます。  
@@ -275,16 +275,15 @@ Meeting organizers control whether participants can join a meeting without waiti
 - **会議の開催者である自分のみ**&nbsp;&nbsp;開催者を除くすべての参加者は、許可されるまでロビーで待機する必要があります。
 - **会社内から招待した人**&nbsp;&nbsp;社内の誰でも、たとえ招待されていない場合でも、直接会議に参加できます。
 - **Anyone from my organization**&nbsp;&nbsp;All SfBO users in the O365 tenant can join the meeting without waiting in the lobby, even if those who are not on the distribution list. All others, including all external and anonymous users, must wait in the lobby until admitted.
-- **誰でも**&nbsp;&nbsp;の会議出席依頼に直接の人 (制限はありません)、会議のリンクへのアクセスを取得します。
-開催者のみ (ロック済み) 以外の方法が指定されている場合、会議の開催者はロビーで待機せず電話でダイヤルインするユーザーを指定することもできます。 
+- **Anyone**&nbsp;&nbsp;Anyone (there are no restrictions) who has access to the meeting link gets in to the meeting directly. When any method except Organizer only (locked) is specified, the meeting organizer can also specify People dialing in by phone bypass the lobby. 
 
-### <a name="presenter-capabilities"></a>プレゼンターの指定
-Meeting organizers control whether participants can present during a meeting. Each meeting can be set up to limit presenters to any one of the following:
-- **開催者のみ**&nbsp;&nbsp;会議の開催者のみを表示できます。
-- **自分の会社から人**&nbsp;&nbsp;内部のすべてのユーザーを表示できます。
-- **自分の会社の外部のユーザーも含めてだれも**&nbsp;&nbsp;表示すべてのユーザー (制限はありません)、ミーティングに参加することができます。
+### <a name="presenter-capabilities"></a>発表者の機能
+会議の開催者は、参加者が会議中に発表できるかどうかを制御します。会議ごとに、発表者を次のいずれかに制限できます。
+- **開催者のみ**&nbsp;&nbsp; 会議の開催者のみが発表できます。
+- **会社内の人**&nbsp;&nbsp; すべての内部ユーザーが発表できます。
+- **会社外の人を含むすべての人**&nbsp;&nbsp; 会議に参加するすべての人がプレゼンターになれます (制限はありません)。
 - **指定した人**&nbsp;&nbsp;会議の開催者がプレゼンターになることができるユーザーを指定します。
 
-## <a name="related-topics"></a>関連項目
-[マイクロソフトのセキュリティ センター](https://microsoft.com/trustcenter)
+## <a name="related-topics"></a>関連トピック
+[Microsoft Trust Center](https://microsoft.com/trustcenter)
 

@@ -16,7 +16,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 3dfaabcbb2099f0b677e03b58ce79b5a7fca3237
 ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/07/2019
 ms.locfileid: "30458805"
@@ -26,7 +26,7 @@ ms.locfileid: "30458805"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-ボットとは、クエリに応答したり、ユーザーが興味を持っている詳細や常に情報を得ていたい詳細について更新や通知を行う自動プログラムのことです。 ボットは、タスク管理、スケジュール、およびマイクロソフトのチームでのチャットの会話で、ポーリングのようなクラウド サービスと対話するようにします。 [マイクロソフト Bot のフレームワーク](https://go.microsoft.com/fwlink/?linkid=854370)では、マイクロソフト チームの bot が構築されます。 このフレームワークを使用して開発されたボットは、マイクロソフトのチームを簡単に有効にできます。 詳細については、 [Office 365 の組織での Microsoft チームの管理機能](enable-features-office-365.md)を参照してください。
+ボットは、検索要求に応答したり、ユーザーが興味のある情報や最新情報の更新や通知を提供する自動プログラムです。ボットによって、ユーザーは、Microsoft Teams のチャット会話を介して、タスク マネージメント、スケジューリング、ポーリングなどのクラウド サービスと情報交換する事ができます。Microsoft Teams のボットは [Microsoft Bot Framework](https://go.microsoft.com/fwlink/?linkid=854370) に組み込まれています。このフレームワークにより作成されたボットは Microsoft Teams で簡単に有効にできます。詳細については「[Office 365 の組織で Microsoft Teams の機能を管理する](enable-features-office-365.md)」をご覧ください。
 
 現在、Microsoft Teams は、チーム内のプライベート チャットとチャネルにおけるボットをサポートしています。管理者は、Office 365 テナント内でのボットの使用可否を管理できます。<span id="_T-Bot" class="anchor"></span>
 
@@ -49,7 +49,7 @@ Microsoft ボット フレームワークを使用して、LOB アプリケー�
 <a name="side-load-your-own-bot-for-private-chat"></a>プライベート チャット用の独自のボットのサイド ロード
 ---------------------------------------
 
-1. Bot を作成して、ボットを開発した、し、[**アプリケーションの設定**の**アプリケーションの設定**を**MicrosoftAppId**の設定の値をコピーします。![の bot が強調表示されている Microsoft アプリケーションの ID を持つアプリケーションの設定のスクリーン ショットのページです。](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
+1. ボットを作成したら、作成したボットの **アプリケーションの設定** に移動し、**アプリの設定**の **MicrosoftAppId**設定の値をコピーします。![強制表示された Microsoft アプリ ID のボットのアプリケーション設定ページのスクリーンショット](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
 
 
 
@@ -59,13 +59,13 @@ Microsoft ボット フレームワークを使用して、LOB アプリケー�
 
 3.  アプリ ID は [**ボット名**] になります。この手順の実行後にボットとのチャット会話を開始できます。
 
-<a name="side-load-your-bot-for-channels"></a>側のチャネル、bot をロードします。
+<a name="side-load-your-bot-for-channels"></a>チャンネルのボットをサイド ローディングする
 -----------------------------------
 
-Bot を仲間と共有するには、さまざまなチームのチャンネルに追加する方法です。
+ここでは、ボットを同僚と共有する場合の、さまざまなチームのチャネルにボットを追加する方法を紹介します。
 
-1. [ボットは、アプリケーション パッケージを作成](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/apps/apps-upload)したらは、チームを開きチームを説明する側の読み込み bot を参照します。
-2. チーム名の横の**詳細**(...) を選択します。
-3. **管理チーム**を選択し、[**アプリケーション**] タブを選択します。
-4. 、右下の画面では、**カスタム アプリケーションをアップロード**を選択します。
-5. アプリケーション パッケージの場所を参照するを選択し、[**開く**] をクリックします。
+1. [ボットのアプリ パッケージを作成](https://docs.microsoft.com/ja-JP/microsoftteams/platform/concepts/apps/apps-upload)したら、Teams を開き、サイド ローディングするボットのチームを参照します。
+2. チーム名の横にある**詳細** (...) を選択します。
+3. **チームを管理する** を選択し、**アプリ** タブを選択します。
+4. スクリーンの右下の **カスタム アプリをアップロードする**を選択します。
+5. アプリ パッケージの場所を参照、選択し、**開く**を選択します。
