@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 6a4b0013e3e3ca31baea21e4e733a9606f3765c6
 ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/27/2019
 ms.locfileid: "30885284"
@@ -29,18 +29,18 @@ ms.locfileid: "30885284"
 
 Office 365 管理者は、組織のユーザー (具体的にはチーム所有者) がゲストを追加できるようにするため事前にゲスト機能を有効にする必要があります。 
 
-The guest settings are set in Azure Active Directory. It takes 2 hours to 24 hours for the changes to be effective across your Office 365 organization. If a user sees the message "Contact your administrator" when they try to add a guest to their team, it's likely that either the guest feature hasn't been enabled or the settings aren't effective yet.
+ゲスト設定は Azure Active Directory で設定します。その変更が Office 365 組織全体で有効になるまでに 2 時間から 24 時間かかります。ユーザーがチームにゲストを追加しようとするときに「Contact your administrator (管理者にお問い合わせください)」というメッセージが表示される場合、ゲスト機能が使用できる状態になっていないか、設定が有効になっていないかのいずれかの可能性があります。
 
 > [!IMPORTANT]
-> To enable the full experience of the guest access feature, it's important to understand the core authorization dependency between Microsoft Teams, Azure Active Directory, and Office 365. For more information, see [Authorize guest access in Microsoft Teams](Teams-dependencies.md).
+> ゲストアクセス機能の完全なエクスペリエンスを有効にするには、Microsoft Teams、Azure Active Directory、Office 365との間で主な承認の依存関係を理解することが重要です。詳しくは、[Microsoft Teams でゲストアクセスを承認する](Teams-dependencies.md)を参照してください。
 
 ## <a name="guest-access-vs-external-access-federation"></a>ゲスト アクセスと外部アクセス (フェデレーション)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
-## <a name="configure-guest-access-in-the-microsoft-teams-admin-center"></a>マイクロソフトのチームの管理センターでのゲスト アクセスを構成します。
+## <a name="configure-guest-access-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでゲスト アクセスをチームを設定する
 
-1.  マイクロソフトのチームの管理センターにサインインします。
+1.  Microsoft Teams 管理センターにサインインする。
 
 2.  [**組織全体の設定**] > [**ゲスト アクセス**] を選択します。
 
@@ -69,7 +69,7 @@ The guest settings are set in Azure Active Directory. It takes 2 hours to 24 hou
     - **会話でステッカーを使用する** – この設定を [**オン**] にすると、ゲストが会話でステッカーを使用することができるようになります。 
 
 
-5.  [**保存**] をクリックします。
+5.  **[保存]** をクリックします。
 
 ## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>PowerShell を使用してゲスト アクセスをオンまたはオフにする
 
