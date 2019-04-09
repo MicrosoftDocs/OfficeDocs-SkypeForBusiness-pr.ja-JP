@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75710a428273a38954de38ef5b6094d412aa3085
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 0cffa4e5eef3b5b120e38b103d04adbca08bef0e
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640971"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517088"
 ---
 # <a name="user-presence-in-teams"></a>Teams でのユーザーのプレゼンス
 
@@ -64,7 +64,6 @@ ms.locfileid: "30640971"
 - クライアントが応答しないと画期的な機能は常に、チーム内のユーザーに対して有効にします。
 - (を含む不在時の & その他の予定表の情報) の予定表の統合は、常に有効にチーム内のユーザーの Outlook と統合されている場合。
 - *Last seen*または*から退席中*(ビジネス用の Skype でデュアル環境の場合) のインジケーターは常にチーム内のユーザーに対して有効です。
-- チーム内のユーザーのカスタムのプレゼンス状態の設定が有効になっていません。
 
 > [!NOTE]
 > これらの設定をカスタマイズするのには、チームの管理者の機能は現在サポートされていません。

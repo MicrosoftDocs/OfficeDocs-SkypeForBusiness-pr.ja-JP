@@ -21,17 +21,17 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Teams で会議のポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: dc2870786c586715164dde94fdd6795f04f567bc
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.openlocfilehash: a31f663a7714a0a5af09e6fddd9436e710582fa1
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747671"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517201"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
 ::: zone target="docs"
-ミーティングのポリシーは、組織内のユーザーによってスケジュールされている会議の参加者をミーティングに使用可能な機能の制御に使用されます。 ポリシーを作成して変更を行った後、ユーザーをポリシーに割り当てることができます。 
+ミーティングのポリシーは、組織内のユーザーによってスケジュールされている会議の参加者をミーティングに使用可能な機能の制御に使用されます。 ポリシーを作成し、変更を行い後、は、ポリシーに、ユーザーを割り当てることができます。 
 
 既定では、グローバル (組織全体の既定値) をという名前のポリシーが作成されます。 組織内のすべてのユーザー ポリシーが割り当てられますこの会議既定します。 このポリシーに変更を加えるか、1 つまたは複数のカスタム ポリシーの作成にユーザーを割り当てるとします。 カスタム ポリシーを作成するときを許可するまたはされない特定の機能、ユーザーが利用して、それらに適用する設定を持つ 1 つまたは複数のユーザーに割り当てます。 
 
@@ -115,5 +115,5 @@ ms.locfileid: "30747671"
 
 [記事の全文](meeting-policies-in-teams.md)
 
-### <a name="related-topics"></a>関連項目
+### <a name="related-topics"></a>関連トピック
 [チームでのメッセージングのポリシー](messaging-policies-in-teams.md)

@@ -1,5 +1,5 @@
 ---
-title: 電話システムの自動応答とは
+title: 自動応答の電話システムとは?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,14 +22,14 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: 自動応答の電話システムとはどのようなものとそれらを使用する方法について説明します。
-ms.openlocfilehash: 03eec73f8274ab9b5cbe67624b0ef1158d548a4a
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: 1f5d54308836f0677db26e63003ab04c60ef395a
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31003868"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517256"
 ---
-# <a name="what-are-phone-system-auto-attendants"></a>電話システムの自動応答とは
+# <a name="what-are-phone-system-auto-attendants"></a>自動応答の電話システムとは?
 
 Office 365 の電話システムには、自動応答は、外部を使用することができますが用意されていて、内部の呼び出し元を探し、配置、ユーザーの会社または組織内の部門への呼び出しを転送する] メニューの [システムを通過します。
   
@@ -76,7 +76,7 @@ Office 365 で電話システムの自動応答を設定するには、[電話�
 
 ### <a name="dial-by-name"></a>名前でダイヤル
 
-名前によるダイヤルは、ディレクトリ検索とも呼ばれます自動アテンダントの機能です。 音声 (音声認識)、または、電話のキーパッド (DTMF) 応答を使用して、会社のディレクトリを検索するには、見つける、完全または部分的な名前を入力するには、自動の応答を呼び出すし、通話を転送することがあるし、ユーザーが有効にします。 ユーザーの場所を特定して名前によるダイヤルを使用して到達する**に必要でない電話番号や、それらを割り当てた計画を呼び出すことが電話システム ライセンスを持っている必要があります**。 名前によるダイヤルは、検索し、さまざまな国や地域では、多国籍の組織でホストされているマイクロソフトのチームのユーザーに呼び出しを転送することもなります。
+名前によるダイヤルは、ディレクトリ検索とも呼ばれます自動アテンダントの機能です。 音声 (音声認識)、または、電話のキーパッド (DTMF) 応答を使用して、会社のディレクトリを検索するには、見つける、完全または部分的な名前を入力するには、自動の応答を呼び出すし、通話を転送することがあるし、ユーザーが有効にします。 ユーザーの場所を特定して名前によるダイヤルを使用して到達する**に必要でない電話番号や、それらを割り当てた計画を呼び出すことが、ライセンスが必要な電話システムは、オンラインのユーザーまたはユーザーの onpremises の有効な EV**。 名前によるダイヤルは、検索し、さまざまな国や地域では、多国籍の組織でホストされているマイクロソフトのチームのユーザーに呼び出しを転送することもなります。
 
 ### <a name="maximum-directory-size"></a>最大ディレクトリ サイズ
 
@@ -237,7 +237,7 @@ Office 365 で電話システムの自動応答を設定するには、[電話�
 > [!NOTE]
 > 米国以外のユーザーは、サービス番号を取得するマイクロソフトのチームの管理センターを使うことはできません。 [組織の電話番号の管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)へ移動を行う方法について参照してください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Office 365 での電話システムで利用できる機能](here-s-what-you-get-with-phone-system.md)
 

@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 169008f7af8f52be60c7f15d7a4613f77ed161df
 ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/21/2019
 ms.locfileid: "30720324"
@@ -26,18 +26,18 @@ ms.locfileid: "30720324"
 =============================================================================
 
 > [!Tip]
-> チームが Azure Active Directory (AAD)、Office 365 のグループ、Exchange、SharePoint およびビジネスのための OneDrive とどのように対話する方法については、次のセッションを監視する:[マイクロソフトのチームの基礎](https://aka.ms/teams-foundations)
+> TeamsがAzure Active Directory（AAD）、Office 365グループ、Exchange、SharePoint、およびOneDrive for Businessとどのようにやり取りするのかを学ぶために、次のセッションをご覧ください: [Microsoft Teams の基礎](https://aka.ms/teams-foundations)
 
 Microsoft Teams の各チームには SharePoint Online にチーム サイトがあり、チーム内の各チャネルには既定のチーム サイト ドキュメント ライブラリが作成されます。会話内で共有したファイルはドキュメント ライブラリに自動的に格納されます。SharePoint で設定した権限やファイル セキュリティ オプションは Teams 内で自動的に反映されます。
 
 プライベート チャット ファイルは送信者の OneDrive for Business フォルダーに格納され、権限はファイル共有プロセスの一環としてすべての参加者に付与されます。
 
-ユーザーは、割り当てられているし、SharePoint Online のライセンスでは有効になっていない、Office 365 でのビジネス ・ ストレージの OneDrive はありません。 ファイルの共有は、チャネルで作業する続行されますが、ユーザーが Office 365 でのビジネス ・ ストレージの OneDrive にチャットでファイルを共有できません。
+ユーザーにSharePoint Onlineの有効なライセンスが割り当てられていない場合は、Office 365にOneDrive for Businessのストレージがありません。 ファイル共有は引き続きチャンネルで機能しますが、Office 365のOneDrive for Businessストレージがないと、ユーザーはチャットでファイルを共有することはできません。
 
 SharePoint Online ドキュメント ライブラリと OneDrive for Business にファイルを格納することで、テナントレベルで構成されるすべてのコンプライアンス ルールが順守されます。 
 
 > [!NOTE]
-> この時点でマイクロソフトのチームは、Sharepoint の設置型との統合がサポートされていません。
+> 現時点で Microsoft TeamsのSharepoint オンプレミスとの統合はサポートされていません。
 
 チーム、チャネル、ドキュメント ライブラリの関係の例を次に示します。
 
@@ -49,10 +49,10 @@ SharePoint Online ドキュメント ライブラリと OneDrive for Business �
 > 既定の SharePoint サイトとドキュメント ライブラリを別のもので置き換えることは現時点ではできません。 この機能が必要であるという要望をいただきましたので、現在検討中です。 [Teams ロードマップ](https://aka.ms/teamsroadmap)または [Teams UserVoice](https://aka.ms/TeamsUserVoice) をチェックして、今後利用できるようになる機能について継続的に把握します。
 
 > [!TIP]
-> タブを既存の SharePoint サイト ページに、または、既存の SharePoint ドキュメント ライブラリへのリンクをチームに追加するのには
-> 1. タブの横にあるプラス記号を選択します。
-> 2. 既存の SharePoint サイト ページの**SharePoint**または既存のドキュメント ライブラリの**ドキュメント ライブラリ**のいずれかを選択します。
-> 3. 適切なページまたはドキュメント ライブラリを選択します。
+> 既存のSharePointサイトページまたはSharePointドキュメントライブラリにリンクするチームにタブを追加するには：
+> 1. タブの隣にある + 記号を選択します。
+> 2. 既存のSharePointサイトページには**SharePoint**、あるいは既存のドキュメントライブラリには**Document Library**を選択します。
+> 3. 適切なページまたはドキュメントライブラリを選択してください。
 
 各ユーザーについては、他のユーザー (1 対 1 または 1 対多数 ) とのプライベート チャットで共有したすべてのファイルは OneDrive フォルダーの **Microsoft Teams Chat Files** に格納されます。このフォルダーには、指定したユーザーのみにアクセスを制限する権限が自動的に設定されます。
 
@@ -61,7 +61,7 @@ SharePoint Online ドキュメント ライブラリと OneDrive for Business �
 <a name="more-information"></a>詳細情報
 ----------------
 
-チームの SharePoint の機能の詳細についてを参照してください[SharePoint およびチーム: 相乗効果](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)。
+SharePointがTeams とどのように連携するかの詳細については、[SharePoint and Teams: better together](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)を参照してください。
 
-チームのゲストの経験に関する詳細については、[ゲストの経験のような](guest-experience.md)読み取りします。
+Teams でのゲストのエクスペリエンス詳細については、[What the guest experience is like](guest-experience.md)を参照してください。
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: この資料では、マイクロソフトのチームとチームの Microsoft 認定電話でサポートされる機能に認定されている電話の一覧について説明します。
-ms.openlocfilehash: 2a5ae7d996d2b89aae02e4104e762dfa916c9f55
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.openlocfilehash: a5ac86ee1eb5e6ae87c25f9a2151efb092635323
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747647"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517209"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft Teams 用の電話機
 
@@ -39,7 +39,7 @@ IP 電話の認定チームでサポートされる機能の高度な設定は�
 |---------|---------|---------|
 |**認証** | |  |
 |ユーザー資格情報でのサイン イン |  はい | はい|
-|PC とスマート フォンを使用してサインインします。  | はい |あり|
+|PC とスマート フォンを使用してサインインします。  | はい |はい|
 |先進認証 | はい |はい |
 |電話のロック/ロック解除 | はい |いいえ |
 |**通話** |  |  |
@@ -50,7 +50,7 @@ IP 電話の認定チームでサポートされる機能の高度な設定は�
 |911 のサポート  | はい  |はい |
 |**カレンダーとプレゼンス**|   | |
 |カレンダーへのアクセスおよび会議の詳細|はい |はい|
-|プレゼンス統合 |あり|はい|
+|プレゼンス統合 |はい|はい|
 |Exchange 予定表の統合 |はい|はい|
 |連絡先の写真の統合  |はい|はい|
 |企業ディレクトリのアクセス | はい|はい|
@@ -78,7 +78,7 @@ IP 電話の認定チームでサポートされる機能の高度な設定は�
 
 正しくサインインした後、ユーザーは個人使用または共有の会議室で、デバイスを使用するかを選択できます。
 
-![Personl または共有アカウントのオプション](media/personal-vs-shared-mode.jpg)
+![個人用または共有のアカウント オプション](media/personal-vs-shared-mode.jpg)
 
 チームの電話の経験は、ユーザーの選択に基づいて最適化されています。
 
@@ -143,7 +143,7 @@ IP 電話の認定チームでサポートされる機能の高度な設定は�
 
 [Office 365 サブスクリプション](Office-365-licensing.md)の一部として、マイクロソフトのチームのライセンスを購入できます。 電話でマイクロソフトのチームを使用するため、必要なライセンスの詳細については、利用可能な[電話システムのライセンス](https://products.office.com/en-us/microsoft-teams/voice-calling)を参照してください。
 
-チームを取得する方法については、チェック アウト[マイクロソフトのチームへのアクセスを取得する方法ですか?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+Teams の入手方法については[Microsoft Teams へのアクセス権を取得するにはどうしたらよいですか?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)を参照してください。
 
 ## <a name="see-also"></a>関連項目
 

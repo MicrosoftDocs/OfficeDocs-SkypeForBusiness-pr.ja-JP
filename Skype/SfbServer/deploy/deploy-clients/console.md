@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: この資料では、マイクロソフト チームの会議室のコンソールとその周辺機器を設定する方法について説明します。
-ms.openlocfilehash: fc1d50ffe6dd7415848e02571eab1484bd3dfe22
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 9027057314d405788e81d4d27f9ce4e5d5649a48
+ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012614"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31520156"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>マイクロソフト チームの会議室のコンソールを構成します。
 
@@ -51,8 +51,9 @@ ms.locfileid: "31012614"
 2. Windows 10 マシン上で管理者特権でのプロンプトから CreateSrsMedia.ps1 スクリプトを実行します。
 3. マイクロソフト チームの会議室の USB セットアップ ディスクを作成するスクリプトの指示に従います。
 
-> [!CAUTION]
-> メディアからの作成スクリプトを実行するフォルダーの名前にスペースを含めることはできません。 フォルダー名にスペースがある場合、スクリプトは失敗します。
+
+> [!TIP]
+> CreateSrsMedia.ps1 スクリプトが起動するたびに画面の出力は、セッションのトラン スクリプトのログ ファイルの名前を含まれます。 スクリプトを実行して問題がある場合は、サポートを要求するときのトラン スクリプトを利用可能なコピーを持つことを確認してください。 
 
 CreateSrsMedia.ps1 スクリプトは、次のタスクを自動化します。
 

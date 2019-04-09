@@ -14,12 +14,12 @@ search.appverid: MET150
 description: マイクロソフト チーム SMTP ドメインを追加、許可された送信者のドメインと Exchange オンラインのチーム メンバーに通知を送信するについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce0448ccdd124cf21db417f496d562e6fa9b6b76
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: c4a1a94bec69b1c7953dea6802d62058b04700bb
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464469"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516808"
 ---
 <a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a>Microsoft Teams SMTP ドメインを承認済みの送信者ドメインとして Exchange Online に追加する 
 =============================================================================
@@ -28,7 +28,7 @@ ms.locfileid: "30464469"
 
 ![Outlook 電子メールの、ユーザーがグループに追加されたことを示すメッセージ ヘッダーの例を示すスクリーンショット。](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image1.jpg)
 
-チームを使用して Microsoft Exchange Online にも追加されたことをチーム メンバーに通知します。 ドメインの SMTP メッセージの FQDN に違い商用/ビジネスのテナントの「@email.teams.microsoft.com」と政府テナントの「@GCC-email.teams.com」は、迷惑メール フィルターによってキャッチされる可能性があります。
+チームを使用して Microsoft Exchange Online にも追加されたことをチーム メンバーに通知します。 ドメインの SMTP メッセージの FQDN に違いテナントの商業とビジネスの"@email.teams.microsoft.com"と政府のテナントの「@GCC-email.teams.com」は、迷惑メール フィルターによってキャッチされる可能性があります。
 
 ![Outlook 電子メールの、ユーザーがグループに追加されたことを示すメッセージ ヘッダーの例を示すスクリーンショット。](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image2.jpg)
 

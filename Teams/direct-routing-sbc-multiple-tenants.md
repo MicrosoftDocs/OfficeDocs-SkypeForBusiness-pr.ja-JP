@@ -14,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: 複数のテナントを処理する 1 つのセッション ボーダー コント ローラー (SBC) を構成する方法について説明します。
-ms.openlocfilehash: 53cc4d6f9d930c9069ac39d81e304b0265669b5e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 26c2263747b33eab5c6e27a1a22b13fd44af7874
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893344"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517225"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントにセッション ボーダー コントローラーを構成する
 
@@ -118,7 +118,7 @@ SBC には、接続の認証に証明書が必要です。 キャリアは SBC �
 3. [ **次へ**] をクリックします。
 4. 例では、テナントは既に検証済みのドメイン名として adatum.biz を持っています。 ウィザードは要求されません追加の検証 customers.adatum.biz が既に登録されている名前のサブドメインであるためです。 ただし、前に確認されていませんが、FQDN を追加する場合は、検証のプロセスを経由する必要があります。 検証のプロセスでは、[以下に説明](#add-a-subdomain-to-the-customer-tenant-and-verify-it)します。
 
-    ![確認ドメイン名の確認](media/direct-routing-3-sbc-verify-domain.png)
+    ![検証済みのドメイン名の確認](media/direct-routing-3-sbc-verify-domain.png)
 
 5.  [**次へ**] をクリックし、[ **DNS の設定の更新**] ページで、 **DNS レコードを自分で追加します**を選択して [**次へ**] をクリックします。
 6.  [次へ] ページですべての値をオフに場合を除き、ビジネスの交換方法、SharePoint、またはチームと Skype のドメイン名を使用するには)、[**次へ**] をクリックし、 **[完了**] をクリックします。 セットアップの完了状態では、新しいドメインを確認します。

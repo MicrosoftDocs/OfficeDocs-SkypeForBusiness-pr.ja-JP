@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '電話会議に参加するのには、電話を使用する必要があるビジネス人のダイヤルインまたはオーディオ会議を設定する方法について説明します。 '
-ms.openlocfilehash: 30e79282f04c2d1b4dc7ff01673461b7a18254fd
-ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
+ms.openlocfilehash: 7ff24dd2b29eabbad46759471b69c3619e4e7b24
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955031"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517177"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>マイクロソフト チームの電話会議を設定します
 
@@ -74,7 +74,7 @@ ms.locfileid: "30955031"
 
 会議用ブリッジは、有料または無料の電話番号を取得するとは、会議出席依頼に使用できるように番号を割り当てる必要があります。  
 
-オーディオ会議ブリッジは、新しい電話番号を割り当てるにはこれらの stesps に従います。
+オーディオ会議ブリッジは、新しい電話番号を割り当てるにはこれらの手順に従います。
 
 ![デバイスのロゴ-30x30.png](media/sfb-logo-30x30.png) **ビジネス管理センターに、Skype を使用する:**
 

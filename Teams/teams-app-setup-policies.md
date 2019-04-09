@@ -19,12 +19,12 @@ search.appverid: MET150
 description: マイクロソフトのチームおよび組織内のユーザーのチームをカスタマイズするのには暗証番号 (pin) のアプリケーションを使用するアプリケーション設定のポリシーについて説明します。
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: 5633e5158a3f19ea8960e957b91537547d2580a1
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.openlocfilehash: dc5800d6231245be1b562dbedef44608232f04c1
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747663"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517104"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
@@ -54,11 +54,12 @@ ms.locfileid: "30747663"
 1. マイクロソフトのチーム管理センターの左側のナビゲーションで**チームのアプリケーション**に移動する > **のポリシーを設定**します。
 2. **新しいポリシー**を選択します。
 3. ポリシーのわかりやすい名前を入力し、[**アプリケーションの追加**] をクリックします。
-4. **追加には、アプリが固定されている**ウィンドウで、アプリケーションの**追加**] をクリックし、追加する検索します。 アプリケーションのアクセス許可ポリシーによってアプリケーションを抽出することもできます。 アプリケーションの一覧を選択したら、[**追加**を] をクリックします。
+4. 有効にするか、チームにカスタム アプリケーションをアップロードできるようにするかどうかに応じて、**カスタム アプリケーションのアップロードを許可する**] をオフします。
+5. **追加には、アプリが固定されている**ウィンドウで、アプリケーションの**追加**] をクリックし、追加する検索します。 アプリケーションのアクセス許可ポリシーによってアプリケーションを抽出することもできます。 アプリケーションの一覧を選択したら、[**追加**を] をクリックします。
 
      ![アプリケーション ・ セットアップ ・ ポリシーの追加-apps.png](media/app-setup-policies-add-apps.png)
 
-5. **保存**] をクリックし、チームの順序でアプリケーションを配置します。
+6. **保存**] をクリックし、チームの順序でアプリケーションを配置します。
 
     ![app-setup-policies-new-policy-setup.png](media/app-setup-policies-new-policy-setup.png)
 
@@ -171,8 +172,8 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 アプリケーションを送信する前に、ロゴのガイドラインに従うことを確認します。 詳細については、[販売者のダッシュ ボードの提出書類のチェックリスト](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist)を参照してください。 
 
- ## <a name="related-topics"></a>関連項目
+ ## <a name="related-topics"></a>関連トピック
 - [Teams でのアプリの管理設定](admin-settings.md)
-- [チームでのアプリケーションのアクセス許可ポリシーを管理します。](teams-app-permission-policies.md)
-- [カスタム アプリケーションのポリシーおよびチームの設定を管理します。](teams-custom-app-policies-and-settings.md)
+- [Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)
+- [Teams のカスタム アプリのポリシーと設定を管理する](teams-custom-app-policies-and-settings.md)
 - [テナント アプリケーション カタログにチームのクライアントからアプリケーションを発行します。](tenant-apps-catalog-teams.md)

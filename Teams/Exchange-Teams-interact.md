@@ -15,17 +15,17 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 560e1f81db6e8150bcd8d686747bfb297cbfcf84
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
-ms.translationtype: MT
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
+ms.lasthandoff: 03/19/2019
 ms.locfileid: "30569983"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携 
 =========================================
 
 > [!Tip]
-> チームが Azure Active Directory (AAD)、Office 365 のグループ、Exchange、SharePoint およびビジネスのための OneDrive とどのように対話する方法については、次のセッションを監視する:[マイクロソフトのチームの基礎](https://aka.ms/teams-foundations)
+> Teams がAzure Active Directory（AAD）、Office 365グループ、Exchange、SharePoint、およびOneDrive for Businessとどのようにやり取りするのかを学ぶために、次のセッションをご覧ください: [Microsoft Teamsの基礎](https://aka.ms/teams-foundations)。
 
 Microsoft Teams の全機能を活用するには、どのユーザーも Exchange Online、SharePoint Online、Office 365 グループの作成へのアクセスを許可されている必要があります。
 
@@ -37,22 +37,22 @@ Exchange Online 専用 – レガシーまたは Exchange On-premises にホス�
 
 **サポートされるアクション:** 
 
-| ユーザーのメールボックスのホスト先: | 電子情報開示| 法的&nbsp;を保持 | 保存期間| チームとチャネルの管理 |会議を作成して表示する| ユーザー プロフィールの写真を変更する | 通話履歴 | 連絡先を管理します。 | Outlook の連絡先にアクセスします。 | ボイスメール |コネクタを追加して構成する|タブを追加して構成する|ボットを追加して構成する| 
+| ユーザーのメールボックスのホスト先: | 電子情報開示| 法的な&nbsp;保全 | 保持| チームとチャネルの管理 |会議を作成して表示する| ユーザー プロフィールの写真を変更する | 通話履歴 | 連絡先を管理します | Outlook の連絡先にアクセスします | ボイスメール |コネクタを追加して構成する|タブを追加して構成する|ボットを追加して構成する| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|<sup>2</sup>を [はい] します。|<sup>2</sup>を [はい] します。|はい|はい|はい|はい|はい|はい|はい|はい|はい|はい|はい|
-|**Exchange Online 専用 vNext**|<sup>2</sup>を [はい] します。|<sup>2</sup>を [はい] します。|はい|はい|はい|はい|はい|はい|はい|はい|はい|はい|はい|
-|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|<sup>2</sup>を [はい] します。|<sup>2, 3</sup>を [はい] します。|はい<sup>4|あり|いいえ|いいえ|はい|はい|いいえ|はい<sup>5|はい|はい|はい|
-|**Exchange On-premises** (Azure AD との同期が必要)|<sup>2</sup>を [はい] します。| <sup>2, 3</sup>を [はい] します。 |はい<sup>4|はい|[はい] (Exchange 2016 CU3 +)|[はい] (Exchange 2016 CU3 +)|はい|はい|いいえ|はい<sup>5|はい|はい|はい|
+|**Exchange Online**|はい <sup>2</sup>|はい <sup>2</sup>|はい|はい|はい|はい|はい|はい|はい|はい|はい|はい|はい|
+|**Exchange Online 専用 vNext**|はい <sup>2</sup>|はい <sup>2</sup>|はい|はい|はい|はい|はい|はい|はい|はい|はい|はい|はい|
+|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|はい <sup>2</sup>|はい <sup>2,3</sup>|はい <sup>4|はい|いいえ|いいえ|はい|はい|いいえ|はい <sup>5|はい|はい|はい|
+|**Exchange On-premises** (Azure AD との同期が必要)|はい <sup>2</sup>| はい <sup>2,3</sup> |はい <sup>4|はい|はい (Exchange 2016 CU3+)|はい (Exchange 2016 CU3+)|はい|はい|いいえ|はい <sup>5|はい|はい|はい|
 
-<sup>1</sup> 2016 CU3 を交換しての上には、サポート  
-<sup>2</sup>電子的証拠開示およびチャネルのメッセージでのコンプライアンスのための法的保持義務は、ホストのすべてのオプションに対してサポートされます。  
-<sup>3</sup>チーム秘密のチャット メッセージは未サポートこのホスティング オプションは、法的保持義務を。
+<sup>1</sup> Exchange 2016 CU3 以降でサポートされます  
+<sup>2</sup>チャネルメッセージのコンプライアンスに関する電子情報開示および法的な保全は、すべてのホスティングオプションでサポートされています。  
+<sup>3</sup>Teamsのプライベートチャットメッセージは、このホスティングオプションの法的な保全ではまだサポートされていません。
 
-<sup>4</sup>保存メールボックスを使用シャドウ オンライン ユーザーのメッセージを格納します。 [Exchange ハイブリッド環境でチームのユーザーの Microsoft チームのサポートに電子的証拠開示](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009)します。
+<sup>4</sup> 保持には、オンラインユーザーがメッセージを保存するためのシャドウメールボックスを使用します。 [Microsoft Teamsは、Exchange ハイブリッド環境でTeamsでの電子情報開示ユーザーをサポートします](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009)。
 
-<sup>5</sup>チームとオンプレミス Exchange メールボックスがボイスメールを使用して、チームとが、Outlook では、ボイス メール メッセージ、ボイスメールのメッセージが表示される場合がありますされますを表示または再生チーム クライアント内で使用できます。
+<sup>5</sup> オンプレミスのExchangeメールボックスを持つチームユーザーは、Teamsでボイスメールを使用してOutlookでボイスメールメッセージを受信できますが、ボイスメールメッセージをTeamsクライアント内で表示または再生することはできません。
 
-追加情報:
+追加情報: 
 
 -   Microsoft Teams はオンプレミスの SharePoint をサポートしません。
 
@@ -66,13 +66,13 @@ Exchange Online 専用 – レガシーまたは Exchange On-premises にホス�
 
 -   Microsoft Teams では、電子情報開示、コンテンツ検索、アーカイブ、訴訟ホールドのようなセキュリティおよびコンプライアンスの機能は Exchange Online と SharePoint Online の環境で最適に動作します。チャネルの会話の場合、メッセージは Exchange Online 内のグループ メールボックスにジャーナリングされます。これらのメッセージは電子情報開示で利用できます。SharePoint Online と OneDrive for Business (職場または学校のアカウントを使用) が組織全体とユーザーに対して有効な場合は、これらのコンプライアンス機能も Teams 内のすべてのファイルに対して利用できます。
 
--   設置型の Exchange、 [Exchange および Exchange Online 組織間で認証を構成する OAuth](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx)で説明したように新しい Exchange OAuth 認証プロトコルを構成する必要があります。 
+-   オンプレミスのExchangeの場合は、[ExchangeとExchange Onlineの組織間のOAuth認証の構成](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx)の説明に従って、新しいExchange OAuth認証プロトコルを構成する必要があります。 
 
 > [!NOTE]
-> 現時点では、組織のコンプライアンス要件をすべてのミーティングのディスカッションが検出可能であることを確認する場合は、必要がありますを無効にする秘密の会議開催者に、オンプレミスのメールボックスがある場合。
+> 現在、すべての会議のディスカッションを確実に検出できるというコンプライアンス要件が組織にある場合、開催者にExchangeオンプレミスメールボックスがある場合は、プライベート会議を無効にする必要があります。
 > 
 > [!IMPORTANT]
-> Exchange ハイブリッド展開の場合は、チャット ・ メッセージの内容はチャット参加者がクラウド ベースのメールボックスまたはオンプレミスのメールボックスにあるかどうかに関係なく検索できます。 詳細については、[検索クラウド ベースのメールボックスをオンプレミス Office 365 のユーザー](https://docs.microsoft.com/en-us/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)を参照してください。 チーム内のコンテンツを検索する方法については、 [Office 365 のセキュリティ & コンプライアンス センター内のコンテンツの検索](https://docs.microsoft.com/en-us/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)を参照してください。
+> Exchangeハイブリッド展開では、チャット参加者がクラウドベースのメールボックスかオンプレミスメールボックスを持っているかにかかわらず、チャットメッセージのコンテンツを検索できます。 詳細については、[Office 365でのオンプレミスユーザーのクラウドベースメールボックスの検索](https://docs.microsoft.com/ja-JP/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)を参照してください。 Teams でコンテンツを検索する方法については、[Office 365セキュリティ/コンプライアンスセンターのコンテンツ検索](https://docs.microsoft.com/ja-JP/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)をご覧ください。
 > 
 > [!TIP]
-> Azure AD 接続を使用して、Azure Active Directory と同期する方法については[、オンプレミス ユーザーは、Azure Active Directory との統合](https://go.microsoft.com/fwlink/?linkid=854600)」を参照してください。
+> Azure AD Connect を使用して Azure Active Directory と同期する方法については、[オンプレミス ID と Azure Active Directory の統合](https://go.microsoft.com/fwlink/?linkid=854600)をご覧ください。

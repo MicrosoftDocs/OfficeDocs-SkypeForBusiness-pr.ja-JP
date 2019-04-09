@@ -1,5 +1,5 @@
 ---
-title: マイクロソフトのチームで休日を設定します。
+title: Microsoft Teams で休日を設定する
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,14 +18,14 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 description: マイクロソフトのチームで休日を設定し、自動応答に接続する方法を説明します。
-ms.openlocfilehash: ee88135a030aa1a20872b397b2709da40b3ab8e5
-ms.sourcegitcommit: 3d3a296f225ecbbee0b4cea67664ad7ab31ed1c2
+ms.openlocfilehash: 72feed025e43eb7242f75608534db45d74aca9c9
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30537757"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517120"
 ---
-# <a name="set-up-holidays-in-microsoft-teams"></a>マイクロソフトのチームで休日を設定します。
+# <a name="set-up-holidays-in-microsoft-teams"></a>Microsoft Teams で休日を設定する
 
 マイクロソフト チーム休日機能を使用するには特定の日付のスケジュールを設定すると、組織内で取得時間を時間の作業し通常の業務時間中に使用できません。 
 
@@ -55,7 +55,7 @@ ms.locfileid: "30537757"
 
 9. **保存**を選択します。
 
-## <a name="change-a-holdiay"></a>Holdiay を変更します。
+## <a name="change-a-holiday"></a>休業日を変更します。
 
 1. **組織全体の設定**には、マイクロソフトのチーム管理センターで、 > **の休日**です。
 
@@ -86,6 +86,6 @@ ms.locfileid: "30537757"
     呼び出しをリダイレクトするには、**呼び出しをリダイレクト**するにはを選択し、表示名をドロップ ダウン リストまたはユーザーの検索からリダイレクトされたコールを受信する人を選択します。
 8. **保存**を選択します。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [自動応答の電話システムは何ですか](what-are-phone-system-auto-attendants.md)?

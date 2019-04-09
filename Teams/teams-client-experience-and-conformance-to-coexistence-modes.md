@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4865d66d4d3ff1257d0fc4bd355a65c7c1330101
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
+ms.openlocfilehash: 363da62c378a60cb85a9544339dbf7ccd699b7c0
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934789"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517080"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -35,7 +35,7 @@ ms.locfileid: "30934789"
 ユーザーは、Skype のビジネス モードのいずれかでは、ビジネスのクライアントのユーザーの Skype にすべての着信のチャットや通話がルーティングされます。 エンド ・ ユーザーの混乱を防止し、適切なルーティングを確保する、ユーザーは、Skype のビジネス モードのいずれかで、チームのクライアントでの通話やチャットの機能が無効になります。 同様に、チームでミーティングのスケジュール設定は SfBOnly または SfBWithTeamsCollab モードでは、ユーザーがいる場合は明示的に無効になってし、SfBWithTeamsCollabAndMeetings モードでは、ユーザーとを明示的に有効にします。   
 
 ## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>モードに基づくチームのクライアントで利用可能な機能がどのように変化するか
-TeamsUpgradePolicy によって設定されるユーザーの共存モードでは、チームの dependes で利用可能な機能です。 次の表は、動作をまとめたものです。
+チームで利用可能な機能は、TeamsUpgradePolicy によって設定されるユーザーの共存モードとは異なります。 次の表は、動作をまとめたものです。
 
 |ユーザーの有効なモード|チームのクライアントで発生します。|
 |---|---|
@@ -83,7 +83,7 @@ TeamsUpgradePolicy によって設定されるユーザーの共存モードで�
 
 
 
-# <a name="related-topics"></a>関連項目
+# <a name="related-topics"></a>関連トピック
 
 [Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 

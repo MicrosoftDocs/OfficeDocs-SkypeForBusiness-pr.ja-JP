@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: マイクロソフトのチーム内のリソース アカウントの管理についてください。
-ms.openlocfilehash: 345b3b8698f0c387f90b37cc1212c320a2d3d85d
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+ms.openlocfilehash: 055e419e5a82233676e5b66857589216b4dbca6d
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013646"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517233"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 
@@ -61,9 +61,13 @@ ms.locfileid: "31013646"
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>マイクロソフトのチーム管理センターのリソース アカウントを作成します。
 
-マイクロソフトのチーム管理センターのリソース アカウントを作成するには、**組織全体の設定**に移動 > **リソース アカウント**を **+ 追加**をクリックしてと入力、表示名、ユーザー名、ドメイン名を選択し、**保存**] をクリックします。
+マイクロソフトのチーム管理センターのリソース アカウントを作成するには、**組織全体の設定**に移動 > **リソース アカウント**を [ **+ 追加**] をクリックします。 、ポップアップで表示名を入力し、(ドメイン名を自動的に設定する必要があります)、リソース アカウントのユーザー名、[**保存**] をクリックします。
 
-リソース アカウントにライセンスを適用するには、O365 管理センターの [ユーザー] タブに移動します。
+![リソース アカウント](media/res-acct.png)
+
+必要、リソース アカウントにライセンスを適用する[ビジネス向けの Office 365 のユーザーにライセンスを割り当てる](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide)で説明するよう
+
+リソース アカウントを作成し、ライセンスが割り当てられているまで、**割り当て/割り当て解除**または自動アテンダントまたは呼び出しキューにリソース アカウントを割り当てるには、リソース アカウントに電話番号を割り当てるにをクリックします。
 
 ## <a name="create-a-resource-account-in-powershell"></a>Powershell でのリソース アカウントを作成します。
 
@@ -74,7 +78,7 @@ ms.locfileid: "31013646"
 - (番号の数字が置かれている直接ルーティングでは、OPCH、CCE) ハイブリッド実装は、社内設置型のホーム サーバーがリソース アカウントを作成するのに[新規 CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)を使用します。  
 - オンラインでだけは[新しい CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps)を使用してオンライン ホーム サーバーは、リソース アカウントを持っています。
 
-リソース アカウントを作成するオンライン環境例は、次のようにします。
+次は、自動アテンダント付きアプリケーション Id を持つリソース アカウントを作成するオンライン環境例です。 呼び出しキューは、次付きアプリケーション Id 11cd3e2e-fccb-42ad-ad00-878b93575e07 を使用できます。
 
 ``` Powershell
 New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
@@ -89,7 +93,7 @@ $resacct=Get-MsolUser -UserPrincipalName testra1@contoso.com
 ``` Powershell
 Set-CsOnlineVoiceApplicationInstance -Identity $resacct.ObjectId
  -TelephoneNumber +14255550100
-Get-CsOnlineTelephoneNumber -TelephoneNumber 19294450177
+Get-CsOnlineTelephoneNumber -TelephoneNumber +14255550100
 ```
 
 リソース アカウントを作成するときにライセンスを適用しない場合は、電話番号の割り当ては失敗します。 

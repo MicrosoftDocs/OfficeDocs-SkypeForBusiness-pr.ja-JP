@@ -1,5 +1,5 @@
 ---
-title: 医療機関向けの Teams テンプレートの概要
+title: 医療関係組織向けテンプレートでTeamsを始めましょう
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -14,15 +14,15 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 医療機関向けの Teams テンプレートの概要
-ms.openlocfilehash: 5482afa3302085f113a57ec7b6b9f3f188f7cffc
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+description: 医療関係組織向けテンプレートでTeamsを始めましょう
+ms.openlocfilehash: 38b2067bc91a79ff2efa8bc20726ad14d793aa24
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013630"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517112"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>医療機関向けの Teams テンプレートの概要
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>医療関係組織向けテンプレートでTeamsを始めましょう
 
 マイクロソフト チーム テンプレートでは、迅速にすることし、設定、チャネル、およびプリインストールされているアプリケーションの定義済みのテンプレートを提供することで簡単にチームを作成します。
 
@@ -55,6 +55,9 @@ ms.locfileid: "31013630"
 ## <a name="how-to-use-first-party-templates"></a>パーティの最初のテンプレートを使用する方法
 
 これらのテンプレートを使用するには、要求の本体を上記の TemplateIDs を '標準' からの 'template@odata.bind' プロパティを変更するだけです。  チーム テンプレートを配布する方法の詳細については、Microsoft Graph[でチームを作成する資料](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)を参照してください。
+
+> [!NOTE]
+> テンプレート内のチャンネルは、[全般] タブの下に自動的に作成されます。
 
 ### <a name="example-hospital-template-extension-script"></a>病院テンプレート拡張スクリプトの例:
 
@@ -158,8 +161,8 @@ ms.locfileid: "31013630"
 
 ```
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Teams のテンプレートの使用を開始する](../../get-started-with-teams-templates.md)
 
-[医療機関向けのチームを始める](teams-in-hc.md)
+[医療関係組織のためのTeamsを始めましょう](teams-in-hc.md)

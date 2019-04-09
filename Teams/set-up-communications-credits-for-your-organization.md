@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: afe1ce61a5c5f137b5123cb530094d6a651ecf7f
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 48283d2c8ecaf121457197bf09ffb70afc59803b
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541785"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517072"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>組織のために通信クレジットをセットアップする
 
@@ -76,6 +76,8 @@ ms.locfileid: "30541785"
 
       > [!NOTE]
      > 利用可能残高は、サービス利用時の Microsoft が公開しているレートで、コミュニケーション クレジットのみに適用されます。購入日から 12 か月以内に使用されなかった残高は、有効期限切れとなり、使用できなくなります。 
+     > 
+     > [Skype ビジネス PSTN の使用状況レポート](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)を読んで通信のクレジットの毎月請求だけが使用されます、毎月の使用状況を確認する方法を学習するのには、割り当てられた資金を使用した場合
     
 5. 支払い情報を入力して、[ **注文**] をクリックします。
     >[!IMPORTANT]
@@ -83,7 +85,7 @@ ms.locfileid: "30541785"
     
 Each organization will have a different usage of Calling Plan volume and rates to consider. You will need to get this type of usage data from your current service provider. Organizations already using Skype for Business Online already as their service provider can get usage data by reviewing it in the **Skype for Business admin center** > **Reports** > **PSTN usage details** report.
   
-コミュニケーション クレジットを設定する場合は、組織の通話の利用状況を調べて、入力する必要のある料金を決める必要があります。 通話の利用状況の情報は、[ **PSTN 利用状況の詳細**] レポートで確認できます。 データを保存するためにエクスポートしたり、カスタム レポートを作成したりする場合は、このレポートを使うと、通話データ記録を Excel にエクスポートできます。 使用状況を表示するには、 [Skype ビジネス PSTN の使用状況レポート](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)を参照してください。
+通信のクレジットを設定する場合は、組織を実行する必要がある金額を決定するための呼び出しの使用状況を調べる必要があります。 通話の利用状況の情報は、[ **PSTN 利用状況の詳細**] レポートで確認できます。 このレポートでは、データを格納したり、カスタム レポートを作成する必要がある場合は、呼び出しデータ レコードを Excel にエクスポートすることができます。 使用状況を表示する方法については、 [Skype ビジネス PSTN の使用状況レポート](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)を参照してください。
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>手順 3: コミュニケーション クレジットのライセンスをユーザーに割り当てる
 
@@ -112,11 +114,11 @@ You can also see information by [signing in to the Office 365 admin center](http
   
 ライセンスまたはライセンスの機能ごとにする必要があるテーブルを表示するには、[マイクロソフトのチームのアドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Skype for Business Online のセットアップ](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [電話システムのボイスメールをセットアップする - 管理のヘルプ](set-up-phone-system-voicemail.md)
+- [クラウド ボイスメールのセットアップ - Admin ヘルプ](set-up-phone-system-voicemail.md)
     
 - [呼び出しプランの設定](set-up-calling-plans.md) および [Office 365 の呼び出しプラン](calling-plans-for-office-365.md)
     

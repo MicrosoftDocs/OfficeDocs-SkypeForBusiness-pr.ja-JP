@@ -14,12 +14,12 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 description: このドキュメントでは、割り当てられている TeamsUpgrade モードに基づくチャット、通話のルーティング、およびチームのユーザーとテナントのと、フェデレーションの両方のビジネス、Skype のプレゼンスの動作を説明します。 ルーティングの最適化、プレゼンスの動作だけでなく、*散在*する*従来*からの既定の TeamsUpgrade モードの変更と*従来*の差し迫った退職が含まれています。
-ms.openlocfilehash: c6343b7f62249dab6e02c1e42fce1cc567f5035a
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 44510afdf77510de447bcded2b8a2135b71557a1
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569711"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517217"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Skype for Business と共存する
 
@@ -27,8 +27,6 @@ ms.locfileid: "30569711"
 
 指定されたユーザー常に割り当てられます、TeamsUpgrade モードでは、既定で、または管理者によって明示的にいずれか。 既定値は、*島*です。 ユーザーがチームへのアップグレードには、 *TeamsOnly*のモードがあります。 *SfBOnly*、 *SfBWithTeamsCollab*、および*SfBWithTeamsCollabAndMeetings*も可能なモードです。
 
-> [!NOTE]
-> *レガシー* ・ モードの使用は推奨されていません。*レガシー* ・ モードにしたユーザーは、*島*のモードに変換されました。
 
 ## <a name="routing-parameters"></a>ルーティング パラメーター
 
@@ -51,7 +49,7 @@ ms.locfileid: "30569711"
 - 会話が可能かどうか
     - *テナント内*の相互運用性では、テナントは、いずれかの必要があります純粋なオンラインまたは Skype のビジネスのハイブリッドです。 純粋なオンプレミスのテナントは、テナント内の相互運用性を持つことはできません。
     - 常に、*テナント型の間のフェデレーション*では、両方のテナントから適切なチームのフェデレーションの構成だけでなく、ビジネスのフェデレーションの構成の適切な Skype が必要です。 ビジネスのハイブリッドの Skype は、テナントの必要ではありません。
-    - 発信者のビジネス アカウントの Skype がホームに設置型の場合は、そのユーザーは、テナント内の相互運用性またはフェデレーションのチームのクライアントを使用できません。 のみ、そのユーザーは、ビジネス クライアントの相互運用性とフェデレーションの Skype を使用できます。
+    - 発信者のビジネス アカウントの Skype がホームの設置型の場合は、そのユーザーは、テナント内の相互運用性またはフェデレーションのチームのクライアントを使用できません。 のみ、そのユーザーは、ビジネス クライアントの相互運用性とフェデレーションの Skype を使用できます。
     - チームがチームのコミュニケーションは、常にテナントでのことです。
 
 > [!NOTE]
@@ -76,7 +74,7 @@ TeamsOnly のユーザーに送信されたメッセージは、チームを常�
 
 **表 1 a: テナント型の新しいチャットまたは島モードの受信者にルーティングを呼び出す**
 
-| <br/><br/> モード | 発信者 <br/><br/> クライアント | <br/><br/> デバイス&nbsp;ホーム | | 受信者 <br/><br/> アイランド  |
+| <br/><br/> Mode | 発信者 <br/><br/> クライアント | <br/><br/> デバイス&nbsp;ホーム | | 受信者 <br/><br/> アイランド  |
 |--- |--- |--- |--- |--- |
 | アイランド | Teams <br/> Skype for Business<br/> Teams<br/> Skype for Business| オンライン<br/> オンライン<br/> Prem<br/>Prem| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> Skype for Business<br/> Teams<br/> Skype for Business|
 |デバイス\* <br/> | Skype for Business<br/>Skype for Business<br/> | オンライン<br/> Prem<br/> |&boxv;<br/>&boxv;|Skype for Business<br/>Skype for Business<br/>|
@@ -85,7 +83,7 @@ TeamsOnly のユーザーに送信されたメッセージは、チームを常�
 
 **表 1 b: テナント型の新しいチャット、または、デバイス内の受信者へのルーティングを呼び出す\*モード**
 
-| <br/><br/> モード   | 発信者 <br/><br/> クライアント | <br/><br/> デバイス&nbsp;ホーム | |   受信者 <br/><br/> デバイス\*   |
+| <br/><br/> Mode   | 発信者 <br/><br/> クライアント | <br/><br/> デバイス&nbsp;ホーム | |   受信者 <br/><br/> デバイス\*   |
 |--- |--- |--- |---   |--- |
 | アイランド |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business  |オンライン<br/> オンライン<br/> Prem<br/> Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business<br/> **無理です** <br/>Skype for Business<br/> |
 |デバイス\* <br/> | Skype for Business<br/>Skype for Business<br/> | オンライン<br/> Prem<br/> |&boxv;<br/>&boxv; |  Skype for Business<br/>Skype for Business<br/> |
@@ -94,7 +92,7 @@ TeamsOnly のユーザーに送信されたメッセージは、チームを常�
 
 **表 1 c: テナント型の新しいチャットまたは TeamsOnly モードの受信者へのルーティングを呼び出す**
 
-| <br/><br/> モード   | 発信者 <br/><br/> クライアント | <br/><br/> デバイス&nbsp;ホーム | |   受信者 <br/><br/> TeamsOnly  |
+| <br/><br/> Mode   | 発信者 <br/><br/> クライアント | <br/><br/> デバイス&nbsp;ホーム | |   受信者 <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
 | アイランド   |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>|オンライン<br/> オンライン<br/> Prem<br/> Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
 |デバイス\*  | Skype for Business<br/>Skype for Business<br/> | オンライン<br/> Prem<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
@@ -116,16 +114,16 @@ TeamsOnly のユーザーに送信されたメッセージは、チームを常�
 
 **表 2 a: 新しいチャットや通話の島の受信者にルーティングの連合**
 
-| <br/><br/>モード   | 発信者<br/><br/> クライアント| <br/><br/>デバイスのホーム| | 受信者<br/><br/> アイランド |
+| <br/><br/>Mode   | 発信者<br/><br/> クライアント| <br/><br/>デバイスのホーム| | 受信者<br/><br/> アイランド |
 |--- |--- |--- |--- |--- |
 | アイランド |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business  |オンライン<br/> オンライン<br/> Prem<br/> Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **無理です**   <br/> Skype for Business |
 | デバイス\* |Skype for Business <br/>Skype for Business |オンライン<br/> Prem<br/> | &boxv;<br/>&boxv;|Skype for Business <br/>Skype for Business |
 | TeamsOnly |Teams |オンライン| &boxv;|*Skype for Business* |
 |  | | | | 
 
-**表 2 b: を連携させる新しいチャットか、デバイス内の受信者に、通話をルーティングする\*モード**
+**表 2 b: 新しいチャットや通話は、デバイス内の受信者にルーティングの連合\*モード**
 
-| <br/><br/>モード   | 発信者<br/><br/> クライアント| <br/><br/>デバイスのホーム| |  受信者<br/><br/> デバイス\* |  
+| <br/><br/>Mode   | 発信者<br/><br/> クライアント| <br/><br/>デバイスのホーム| |  受信者<br/><br/> デバイス\* |  
 |--- |--- |--- |--- |--- |
 | アイランド |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|オンライン<br/> オンライン<br/> Prem<br/> Prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **無理です** <br/>Skype for Business <br/> |  
 | デバイス\* |Skype for Business <br/>Skype for Business  |オンライン<br/> Prem<br/>  |&boxv;<br/>&boxv; | Skype for Business <br/>Skype for Business  |
@@ -134,7 +132,7 @@ TeamsOnly のユーザーに送信されたメッセージは、チームを常�
 
 **表 2 c: 新しいチャットや通話の TeamsOnly モードの受信者にルーティングの連合**
 
-| <br/><br/>モード | 発信者<br/><br/> クライアント| <br/><br/>デバイスのホーム| |  受信者<br/>  <br/> TeamsOnly  |
+| <br/><br/>Mode | 発信者<br/><br/> クライアント| <br/><br/>デバイスのホーム| |  受信者<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
 | アイランド  |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|オンライン<br/> オンライン<br/> Prem<br/> Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Teams* <br/>**無理です** <br/>*Teams* |
 | デバイス\* |Skype for Business <br/>Skype for Business  | オンライン<br/> Prem| &boxv;<br/>&boxv;|*Teams* <br/>*Teams*   |
@@ -178,8 +176,6 @@ SIP セッションの 10 分のタイムアウトを超えたビジネスのス
     * チーム、連合のテナントで、他のユーザーを参照してください。 ビジネスの存在を孤立ユーザーの Skypeフェデレーション ルーティング テーブル上に配置この
     * 他のユーザーからビジネスの Skype は、自社の情報を (テナント内および連合); の孤立ユーザーの Skype が表示されます。これは、上のルーティング テーブルに揃えられます
 
-> [!NOTE]
-> これは、最近の変更、以前の実装 (プレゼンスの統合と呼ばれる) ビジネス クライアント用のターゲットのチームと Skype の結合、集約されたプレゼンスを表示するからです。 前のアプローチ、不正確なプレゼンスは、ユーザーがアクセス可能な場合でも、自分の存在は、それらをオンライン表示などを表示するために頻繁につながるために、ユーザーに混乱を招くことがわかりました。
 
 ## <a name="in-tenant-presence"></a>テナントの有無
 
@@ -216,5 +212,6 @@ TeamsOnly のユーザーに送信されたメッセージは、常にチーム�
 具体的には、受信者を作っていた場合に永続的な相互運用機能の会話のスレッドは、スレッドが、正確なプレゼンスを反映していないと、ルーティング可能なしなくなる、チームにアップグレードされました。 新しいスレッドを開始する必要があります。
 
 ## <a name="related-links"></a>関連リンク
+[Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 [ビデオ: 共存とデバイスとのチームとの間の相互運用性を管理します。](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

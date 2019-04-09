@@ -19,16 +19,16 @@ search.appverid: MET150
 description: マイクロソフトのチームとを使用してどのようなアプリケーションは、組織内のユーザーの使用を制御する方法でアプリケーションのアクセス許可のポリシーについて説明します。
 f1keywords:
 - ms.teamsadmincenter.apppolicies.overview
-ms.openlocfilehash: e88493e5ecb764f207ee0eebd9a46e68db3671cd
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.openlocfilehash: 49200d597811d87ce27d94d9bb19577def6355c1
+ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747687"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31520225"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのアクセス許可ポリシーを管理する
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon.md)]
 
 、管理者としては、マイクロソフトのチームのユーザーが組織内で使用できるどのようなアプリケーションを制御するのにアプリケーションのアクセス許可ポリシーを使用できます。 許可またはすべてのアプリケーションまたは Microsoft によって発行された特定のアプリケーションをブロックするサード ・ パーティ、および組織。 アプリケーションをブロックすると、ユーザーはチームのアプリケーション ストアからダウンロードしてインストールすることではありません。
 
@@ -176,7 +176,7 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 - 通知を受信するコネクタを設定します。
 - アプリケーションのメッセージングの拡張機能を使用します。
 
- ## <a name="related-topics"></a>関連項目
+ ## <a name="related-topics"></a>関連トピック
 - [Teams でのアプリの管理設定](admin-settings.md)
-- [チームでのアプリケーション設定のポリシーを管理します。](teams-app-setup-policies.md)
-- [カスタム アプリケーションのポリシーおよびチームの設定を管理します。](teams-custom-app-policies-and-settings.md)
+- [Teams のアプリのセットアップ ポリシーを管理する](teams-app-setup-policies.md)
+- [Teams のカスタム アプリのポリシーと設定を管理する](teams-custom-app-policies-and-settings.md)

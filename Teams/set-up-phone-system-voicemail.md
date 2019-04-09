@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'ユーザーのクラウドのボイスメールを設定する方法について説明します。 '
-ms.openlocfilehash: 26594c9d955cb21dc5751491e1857525660bdcae
-ms.sourcegitcommit: 7ca70e8a2108462afd505258b455169ead30f33f
+ms.openlocfilehash: 3f8729c9737bcbf0e7731ac61b38d56d708e15dc
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31041935"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517153"
 ---
 # <a name="set-up-cloud-voicemail"></a>クラウド ボイスメールのセットアップ
 
@@ -59,7 +59,7 @@ ms.locfileid: "31041935"
 
 5. ボイスメール メッセージは、Exchange のオンライン保護を経由してルーティングする SMTP 経由でのユーザーの Exchange メールボックスに配信されます。 これらのメッセージが正常に配信を有効にするには、Exchange コネクタは、Exchange サーバーと Exchange のオンライン保護との間に正しく構成されていることを確認してください。 [メール フローを構成するコネクタを使用](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)します。
 
-6. ダイヤルインのアクセスとビジュアルのボイス メールの案内応答をカスタマイズするなど、ボイスメールの機能を有効にするには、Office 365 から Exchange Web サービス経由で Exchange サーバーのメールボックスへの接続が必要です。 この接続を有効にするのには、 [Exchange および Exchange Online 組織間で認証を構成する OAuth](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx)の認証プロトコルについて説明する新しい Exchange の Oauth を行う必要があります。 
+6. ビジネス クライアント用のあいさつ文や、Skype でボイスメールをビジュアルのカスタマイズなど、ボイスメールの機能を有効にするには、Office 365 から Exchange Web サービス経由で Exchange サーバーのメールボックスに接続する必要があります。 この接続を有効にするのには、 [Exchange および Exchange Online 組織間で認証を構成する OAuth](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx)の認証プロトコルについて説明する新しい Exchange の Oauth を行う必要があります。 
 
 > [!NOTE]
 > Exchange 2013 CU5 から実行またはそれ以上の Exchange ハイブリッドのウィザードは、手順 5 と 6 の要件を自動的に処理します。 
@@ -124,9 +124,11 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 
 - [Skype for Business 2016 トレーニング](https://support.office.com/article/eb2081bc-fd0a-4eda-94da-5a39f369ee74)
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business Online のセットアップ](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
 [Office 365 での電話システムで利用できる機能](here-s-what-you-get-with-phone-system.md)
+
+[Skype for Business Server と Exchange Server の移行の計画](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-um-migration)
 
 
