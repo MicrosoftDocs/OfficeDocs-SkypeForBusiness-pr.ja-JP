@@ -7,7 +7,7 @@ ms.date: 10/05/2018
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: karuanag
-description: 制限、仕様、およびマイクロソフトのチームに適用されるその他の要件について説明します。
+description: Microsoft Teams に適用される制限、仕様、およびその他の要件について説明します。
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a151ca7e35f6b512064bc1554b754e9aefdef358
 ms.sourcegitcommit: c011e4ab6f936a9e26d304835634293b1cedc57d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/03/2019
 ms.locfileid: "31043358"
@@ -25,78 +25,78 @@ ms.locfileid: "31043358"
 <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 =============================================
 
-この資料では、いくつかの制限、仕様、およびその他のチームに適用される要件について説明します。 
+この記事では、Teams に適用される制限、仕様、およびその他の要件について説明します。 
 
-<a name="teams-and-channels"></a>チームとチャネル 
+<a name="teams-and-channels"></a>Teams とチャネル 
 ------------------
 
-|機能    | 最大数の制限 |
+|機能    | 上限 |
 |-----------|---------------|
-|ユーザーが作成できるチームの数 | 250 オブジェクトの limit&sup1 です。         |
+|ユーザーが作成できるチームの数 | オブジェクト制限 250、&sup1         |
 |チームのメンバーの数 | 5,000       |
-|[組織全体にわたるチーム](create-an-org-wide-team.md)のメンバーの数 | 5,000       |
-|グローバル管理者が作成できるチームの数        |  500,000   |
-|チーム、Office 365 テナントの数を持つことができます。    | 500,000     |
-|1 チームあたりのチャンネル数    | 200 (削除されたチャネルが含まれています)         |
+|[組織全体のチーム](create-an-org-wide-team.md)のメンバーの数 | 5,000       |
+|グローバル管理者を作成できるチームの数        |  500,000   |
+|Office 365 テナントが持てるチームの数    | 500,000     |
+|チームごとのチャネル数    | 200 (削除されたチャネルを含む)         |
 
-&sup1 です。Azure Active Directory 内の任意のディレクトリ オブジェクトは、この制限の方向にカウントします。 グローバル管理者は、[アプリケーションのアクセス許可](https://docs.microsoft.com/graph/permissions-reference)を使用して Microsoft Graph を呼び出すアプリケーションは、同様にこの制限から除外されます。
+&sup1; Azure Active Directory の任意のディレクトリ オブジェクトは、この制限にカウントされます。 グローバル管理者は、[アプリケーションのアクセス許可](https://docs.microsoft.com/graph/permissions-reference)を使用して Microsoft Graph を呼び出すアプリと同様に、この制限から除外されます。
 
-<a name="meetings-and-calls"></a>会議と呼び出し 
+<a name="meetings-and-calls"></a>会議と通話 
 ------------------
 
-|機能     | 最大数の制限 |
+|機能     | 上限 |
 |------------|---------------|
-|会議に出席する人の数  | 250    |
-|プライベート チャットの参加者の数  | 50    |
+|会議に参加できるユーザー数  | 250    |
+|プライベート チャットに参加できるユーザー数  | 50    |
 
 <a name="storage"></a>ストレージ
 -------
 
 Microsoft Teams の各チームには SharePoint Online にチーム サイトがあり、チーム内の各チャネルには既定のチーム サイト ドキュメント ライブラリが作成されます。会話内で共有したファイルはドキュメント ライブラリに自動的に格納されます。SharePoint で設定した権限やファイル セキュリティ オプションは Teams 内で自動的に反映されます。
 
-テナントを有効にし、SharePoint Online をお持ちでない場合は、マイクロソフトのチームのユーザーは常にチーム内のファイルを共有できません。 プライベート チャットのユーザーもファイルを共有できない (これは、SharePoint ライセンスに関連付けられている) ビジネスのための OneDrive は、その機能に必要なためです。
+テナントで有効な SharePoint Online をお持ちでない場合は、 Microsoft Teams ユーザーがチーム内のファイルを共有することはできません。 プライベート チャット内のユーザーもファイルを共有できません。これは OneDrive for Business (SharePoint のライセンスに関連付けられています) がその機能に必要だからです。
 
-SharePoint Online ドキュメント ライブラリと OneDrive for Business にファイルを格納することで、テナントレベルで構成されるすべてのコンプライアンス ルールが順守されます。 (詳細についてを参照してください[方法 SharePoint Online およびビジネスのための OneDrive がマイクロソフトのチームと対話](sharepoint-onedrive-interact.md)します。)
+SharePoint Online ドキュメント ライブラリと OneDrive for Business にファイルを格納することで、テナントレベルで構成されるすべてのコンプライアンス ルールが順守されます。 (詳しくは、[Microsoft Teams との SharePoint Online と OneDrive for Business の連携](sharepoint-onedrive-interact.md)をご確認ください。)
 
-チームは、ファイル共有用の SharePoint Online のバックエンドで実行しているために、SharePoint の制限事項は、チーム内で [ファイル] セクションに適用されます。 SharePoint Online の適切な格納域の制限を次に示します。
+Team は、SharePoint Online のバックエンドのファイル共有で実行しているために、SharePoint の制限は、Team 内のファイルのセクションに適用されます。 ここでは、SharePoint Online の適用可能な記憶域の制限を示します。
 
 |機能                 |Office 365 Business Essentials  |Office 365 Business Premium   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
-|ストレージ                 |1 組織につき 1 TB とライセンスの購入に 10 GB  |1 組織につき 1 TB とライセンスの購入に 10 GB  |1 組織につき 1 TB とライセンスの購入に 10 GB   |1 組織につき 1 TB とライセンスの購入に 10 GB |1 組織につき 1 TB とライセンスの購入に 10 GB  |1 組織につき 1 TB           |
-|チームのファイル用のストレージ |サイト コレクションまたはグループごとに最大 25 TB |サイト コレクションまたはグループごとに最大 25 TB |サイト コレクションまたはグループごとに最大 25 TB |サイト コレクションまたはグループごとに最大 25 TB |サイト コレクションまたはグループごとに最大 25 TB |サイト コレクションまたはグループごとに最大 25 TB |
-|ファイルのアップロード制限       |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
+|ストレージ                 |1 組織につき 1 TB、さらに購入したライセンスごとに 10 GB  |1 組織につき 1 TB、さらに購入したライセンスごとに 10 GB  |1 組織につき 1 TB、さらに購入したライセンスごとに 10 GB   |1 組織につき 1 TB、さらに購入したライセンスごとに 10 GB |1 組織につき 1 TB、さらに購入したライセンスごとに 10 GB  |1 組織につき 1 TB           |
+|Teams ファイル用のストレージ |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |
+|ファイル アップロードの上限       |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
 
-チームで各ファイルのタブは、上の格納域の制限は、チーム内の各チャンネルに適用するため、SharePoint Online のバックエンドで実行されます。
+Teams の各 [ファイル] タブは SharePoint Online をバックエンドで実行するため、上記のストレージ制限は Team 内の各チャネルに適用されます。
 
-詳細については、 [SharePoint Online の制限](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)を参照してください。
+詳細については、「[SharePoint Online の制限事項](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)」を参照してください。
 
-<a name="messaging"></a>メッセージング
+<a name="messaging"></a>メッセージング 
 ---------
 
-マイクロソフト チームの [チャット] ボックスの一覧に含まれている会話に参加するユーザーには、チャットの会話を検索するのには管理者の Exchange オンライン (クラウド ・ ベース) のメールボックスが存在している必要があります。 チャットに参加して、クラウド ベースのメールボックスで、[チャット] ボックスの一覧の一部である会話が保存されるためです。 チャットの参加者には、Exchange Online のメールボックスが割り当てられていない、管理者を検索したり、チャットの会話の保留リストを配置することはできません。 たとえば、Exchange ハイブリッド展開の場合は、オンプレミスのメールボックスを持つユーザーありますマイクロソフト チームの [チャット] ボックスの一覧に含まれている会話に参加すること。 ただし、この例では、これらの会話からコンテンツを検索できないし、ユーザーがクラウド ベースのメールボックスを持っていないために、保留中の配置することはできません。 [(詳細については、どの Exchange と](exchange-teams-interact.md)参照対話マイクロソフト チーム)。
+Microsoft Teams のチャット リストの一部である会話に参加したユーザーが、管理者がチャットの会話を検索するための Exchange Online (クラウドベース) メールボックスを持っている必要があります。 これは、チャット リストの一部である会話が、チャット参加者のクラウドベースのメールボックスに保存されるためです。 チャット参加者が Exchange Online メールボックスを持っていない場合、管理者はチャットの会話を検索または保留することはできません。 たとえば、Exchange ハイブリッド展開では、オンプレミスのメールボックスを持つユーザーは、Microsoft Teams のチャットリストの一部である会話に参加できる場合があります。 ただし、この例では、ユーザーがクラウド ベースのメールボックスを持っていないために、これらの会話のコンテンツを検索できないし、保留することもできません。 (詳しくは、[Exchange と Microsoft Teams の連携](exchange-teams-interact.md)をご確認ください。)
 
-マイクロソフト チーム チャット機能は、Exchange メッセージング ・ マイクロソフトのチーム内でのチャット機能の制限を適用できるように、Microsoft Exchange のバックエンドで動作します。 ユーザーは、チーム内のチャネルに電子メールを送信する場合、チャネルの電子メール アドレスを使用します。 電子メール、チャネルの一部であると、会話を開始するためにだれでも応答できます。 チャネルに電子メールを送信するための適切な制限の一部を次に示します。 
+Microsoft Teams チャット機能は、Microsoft Exchange のバックエンドで動作するため、Microsoft Teams 内のチャット機能にExchange メッセージングの制限を適用することができます。 ユーザーが Teams のチャネルにメールを送信する場合、チャネルのメール アドレスを使用します。 一度メールがチャネルの一部になると、誰でもそれに返信して会話を開始できます。 チャネルにメールを送信するための適用可能な制限の一部を次に示します。 
 
 |機能  |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |---------|---------|---------|---------|---------|
 |メッセージ サイズの制限&dagger;  |25 KB   |25 KB   |25 KB   |25 KB   |
-|ファイルの添付ファイルの制限&Dagger;  |10     |10     |10     |10    |
-|インライン イメージを制限します。&Dagger; |50   |50   |50   |50   |
+|添付ファイルの制限&Dagger;  |10     |10     |10     |10    |
+|インライン イメージの制限&Dagger; |50   |50   |50   |50   |
 
-&dagger;メッセージがこの制限を超える場合プレビュー メッセージが生成され、提供されているリンクからのメールに元の表示/ダウンロードをユーザーに求めては。
+&dagger; メッセージがこの制限を超えると、プレビュー メッセージが生成され、ユーザーは提供されたリンクから元のメールを表示/ダウンロードするように求められます。
 
-&Dagger;添付ファイルや画像の数がこの制限を超える場合、メッセージは処理されませんし、エラーが通知の送信者に NDR 電子メールが送信されます。
+&Dagger; 添付ファイルまたはイメージの数がこの制限を超えると、メッセージは処理されず、NDR メールが送信者に送信され、エラーを通知します。
 
-詳細については、 [Exchange Online の制限](https://technet.microsoft.com/library/exchange-online-limits.aspx)を参照してください。
+詳細については、[「 Exchange Online の制限 」](https://technet.microsoft.com/library/exchange-online-limits.aspx)をご覧ください。
 
 <a name="browsers"></a>ブラウザー 
 --------
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-<a name="operating-systems"></a>オペレーティング ・ システム
+<a name="operating-systems"></a>オペレーティング システム
 -----------------
 
-オペレーティング システムの要件については、[マイクロソフトのチーム用のクライアントを取得する](get-clients.md)を参照してください。
+各オペレーティング システムの要件については、「[Microsoft Teams のクライアントを取得する](get-clients.md)」をご覧ください。
 
 
