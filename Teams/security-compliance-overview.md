@@ -7,7 +7,7 @@ ms.date: 09/11/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anach
-description: 監査しレポート作成、コンプライアンス ・ コンテンツの検索、電子的証拠開示などを含む、マイクロソフトのチームのセキュリティとコンプライアンスの機能の概要について説明します。
+description: 監査および報告、コンプライアンスのコンテンツ検索、電子情報開示などを含む、Microsoft Teams のセキュリティとコンプライアンス機能の概要。
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 492055c80b844ba4a7aa0091da767214c55dc31a
 ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/27/2019
 ms.locfileid: "30884056"
@@ -27,37 +27,37 @@ ms.locfileid: "30884056"
 
 Microsoft Teams は、お客様の期待に応える高度セキュリティおよびコンプライアンス能力を備えた Office 365 ハイパースケールのエンタープライズクラスのクラウド上に構築されています。
 
-チームは、層 D に準拠していません。 これには、次の標準が含まれます: ISO 27001、ISO 27018、SSAE16 SOC 1 と SOC 2、HIPAA、および EU モデル句 (EUMC)。 マイクロソフト ・ コンプライアンス ・ フレームワーク内では、マイクロソフトは、4 つのカテゴリに Office 365 アプリケーションおよびサービスを分類します。 各カテゴリは、Office 365 サービスの場合、またはマイクロソフトの関連するサービス、そのカテゴリに登録するのに必要な特定のコンプライアンスの取り組みによって定義されます。
+Teams は Tier D 準拠です。これにより、ISO 27001、ISO 27018、SSAE16 SOC 1 および SOC 2、HIPAA、EU モデル契約条項 (EUMC) といった標準に対応します。Microsoft コンプライアンス フレームワークにおいて、Microsoft は Office 365 のアプリケーションとサービスを 4 つのカテゴリに分類しています。各カテゴリは、そのカテゴリのリストに記載されるために Office 365 サービスや関連するマイクロソフトのサービスが満たす必要のある、特定のコンプライアンス コミットメントによって定義されます。
 
 業界をリードするコンプライアンスへの取り組みを実施しているコンプライアンス カテゴリ C および D のサービスは、既定で有効になっています。カテゴリ A と B のサービスでは、組織全体に対してオンまたはオフにする制御が用意されています。詳細については、「[Compliance Framework for Industry Standards and Regulations (業界の規格と規制のコンプライアンス フレームワーク)](https://go.microsoft.com/fwlink/?linkid=855777)」をご覧ください。Teams はクラウド セキュリティ アライアンス (CSA) にも準拠しています。
 
-チームは、チーム全体および組織全体の二要素認証、シングルサインオンによって、Active Directory、および転送中のデータの暗号化にも適用されます。 ファイルは、SharePoint に格納され、SharePoint の暗号化によってバックアップされています。 ノートでは、OneNote に保存され、OneNote の暗号化によってバックアップされます。 OneNote のデータは、チームの SharePoint サイトに格納されます。 メモを取ることで、[Wiki] タブを使用することも、チームの SharePoint サイト内のコンテンツが格納されているも.
+Teams はチーム全体および組織全体の 2 要素認証、Active Directory を介したシングル サインオン、移動中および静止中のデータの暗号化も実施します。 ファイルは SharePoint に格納され、SharePoint 暗号化が適用されます。 メモは OneNote に格納され、OneNote 暗号化が適用されます。 OneNote データはチームの SharePoint サイトに格納されます。 Wiki タブを使用してノートを取ることもできます。また、その内容もチームの SharePoint サイトに格納されます。
 
-監査ログ検索、電子情報開示、訴訟ホールド (チャネル、チャット、ファイルを対象とした)、Microsoft Intune 内でのモバイル アプリ管理のサポートを追加しました。 Office 365 のセキュリティ & これらの設定を管理するためのコンプライアンス センターに移動します。 
+監査ログ検索、電子情報開示、訴訟ホールド (チャネル、チャット、ファイルを対象とした)、Microsoft Intune 内でのモバイル アプリ管理のサポートを追加しました。 これらの設定を管理するには、Office 365 セキュリティ/コンプライアンス センターに移動します。 
 
-Office 365 のセキュリティ & 準拠の詳細についてを参照して[、Office 365 のテナントのセキュリティ強化の構成](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)
+Office 365 のセキュリティとコンプライアンスに関する詳細については、「[セキュリティ強化のために、Office 365 テナントを構成する](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)」を参照してください。
 
 ## <a name="auditing-and-reporting"></a>監査と報告
 
-監査ログの検索は、Office 365 のセキュリティ & コンプライアンス センターに右のプラグし、アラートを設定すると、レポートの監査イベントを作成することにより、特定のワークロードのエクスポートまたは全体で管理および調査の結果、一般的なイベントを設定する機能を公開する、監査タイムラインの制限はありません。 監査ログのすべてのデータは、Office 365 のセキュリティ & コンプライアンス ・ センター内でアラートの設定、フィルタ リングの利用可能な詳細な分析をエクスポートします。 Office 365 のセキュリティ & コンプライアンス センターでマイクロソフトのチームのイベントの監査ログの検索を実行する方法の詳細についてはこの[リンク](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)を参照してください。 
+監査ログ検索は、Office 365 セキュリティ/コンプライアンス センターに直結しています。監査イベントに関するアラートと報告の設定、管理や調査の目的で使用するワークロード固有または汎用のイベント セットのエクスポート、無制限の監査タイムラインといった機能を提供します。 すべての監査ログ データは、さらなる分析を目的としたフィルタリングやエクスポートのためにも、Office 365 セキュリティ/コンプライアンス センター内でアラートを設定するためにも利用できます。 Office 365 セキュリティ/コンプライアンス センターでの Microsoft Teams イベントについての監査ログ検索を実施する方法の詳細については、この[リンク](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)をご覧ください。 
 
 ## <a name="compliance-content-search"></a>コンプライアンスのコンテンツ検索
 
-コンテンツの検索をフィルタ リング機能が豊富なすべてのチーム データを検索するために使用し、コンプライアンス、訴訟をサポートするための特定のコンテナーをエクスポートできます。 これは、電子的証拠開示のサポート案件の有無にかかわらずを実行できます。 これにより、コンプライアンスの管理者にすべてのユーザー間でチームのデータを収集し、確認して、エクスポートしてさらに処理できます。 Office 365 のセキュリティ & コンプライアンス センターでマイクロソフトのチームのコンテンツ コンプライアンス ・ コンテンツの検索を実行する方法の詳細についてはこの[リンク](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4)を参照してください。 
+コンテンツ検索では、豊富なフィルタリング機能を使用してすべての Teams データを検索でき、検索結果をコンプライアンスや訴訟のサポート用の特定のコンテナにエクスポートできます。 この操作は電子情報開示ケースの有無に関わらず実行できます。 これにより、コンプライアンス管理者は、すべてのユーザーにわたる Teams データを収集し、そのデータをレビューして、さらに処理するためにエクスポートできるようになります。 Office 365 セキュリティ/コンプライアンス センターでの Microsoft Teams コンテンツについてのコンプライアンス コンテンツ検索を実施する方法の詳細については、この[リンク](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4)先をご覧ください。 
 
-ヒント: フィルター処理の条件のみコンテンツのマイクロソフトのチームにすなわちチャットし、チャネルのメッセージ、会議、および呼び出しのようなマイクロソフトのチームを使用できます。 
+ヒント: Microsoft Teams を使用して、Microsoft Teams 専用のコンテンツに絞り込むことができます。たとえば、チャットとチャネル メッセージ、会議、通話です。 
 
 ## <a name="ediscovery"></a>電子情報開示
 
-電子情報開示とは、訴訟または調査における開示要求に対応するための電子保持情報 (ESI) の電子的な特定、収集、生成です。 ケース管理、保存、検索、分析、およびチームのデータのエクスポート機能が含まれます。 これには、チャット、メッセージング、ファイル、会議および呼び出しの概要が含まれます。 チーム会議と呼び出しは、呼び出し、会議で発生したイベントの概要が作成され、電子的証拠開示で利用できます。 
+電子情報開示とは、訴訟または調査における開示要求に対応するための電子保持情報 (ESI) の電子的な特定、収集、生成です。 これらの機能には、Teams データのケース管理、保持、検索、分析、エクスポートが含まれています。 チャット、メッセージング、ファイル、会議と通話の概要も含まれています。 Teams の会議と通話では、会議と通話で発生したイベントの概要が作成され、電子情報開示で利用可能な状態になります。 
 
-セキュリティ & コンプライアンス センターでは、電子的証拠開示を行い、コンプライアンス チームのコンテンツをコンテンツの検索を実行する方法の詳細については、次のリンクを参照してください。 
+セキュリティ & コンプライアンス センターで電子情報開示を実行する方法および Teams コンテンツに対するコンプライアンス コンテンツ検索を実行する方法の詳細については、下記のリンク先をご覧ください。 
 
 [電子情報開示](https://support.office.com/article/manage-legal-investigations-in-office-365-2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e) 
 
-[コンテンツの検索](https://support.office.com/article/search-for-content-in-office-365-df2d1e0f-b476-42c9-aade-4a260b24f193)
+[コンテンツ検索](https://support.office.com/article/search-for-content-in-office-365-df2d1e0f-b476-42c9-aade-4a260b24f193)
 
-お客様が活用して、インプレース電子証拠開示、または [高度な電子的証拠開示] ごとの要件 (https://support.office.com/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4)。 次の表にその違いを示します。
+顧客は、自身の要件に応じて、インプレース電子情報開示または [Advanced eDiscovery] を活用できます (https://support.office.com/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4)。 次の表で、これらの 2 つの違いについて説明します。
 
 
 | |インプレース電子情報開示  |Advanced eDiscovery  |
@@ -74,20 +74,20 @@ Office 365 のセキュリティ & 準拠の詳細についてを参照して[�
 
 ## <a name="legal-hold"></a>訴訟ホールド
 
-訴訟、中には多くの場合必要なことすべてのデータは、ユーザー (管理者) に関連付けられているまたはチームが保持されます immutably の場合の証拠として使えるようにします。 これは、法的保存要件に、ユーザー (ユーザーのメールボックス) またはチームを配置することによって実現されます。 インプレース (対象となるクエリまたはフィルター処理されたコンテンツからメールボックスまたはサイト コレクションのサブセット) を押しながらまたは訴訟 (メールボックスまたはサイト コレクション全体) を押したままにチーム内のすべてのチームを配置すると、保留リストは、グループのメールボックスに置かれます。 これにより、エンド ・ ユーザーを削除または、グループのメールボックスに取り込まれ、チャネルのメッセージを編集した場合でもそのコンテンツのコピーを変更できないが維持され、電子的証拠開示検索で使用できます。 訴訟ホールドの場合は、通常、電子情報開示ケース内に適用されます。 参照してください[この](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a)記事を保存し、Office 365 のセキュリティ & コンプライアンス センター内の保留の詳細についてのヘルプです。 
+訴訟中、裁判での証拠として使用できるように、ユーザー (管理人) または Teams に関連付けられているすべてのデータを変わることなく保存されるよう要求される場合がよくあります。 これは、ユーザー (ユーザー メールボックス) または Teams を訴訟ホールドの状況に置くことによって、達成されます。 Teams 内の任意のチームがインプレース ホールド (対象のクエリまたはフィルタされたコンテンツ経由の、メールボックスまたはサイト コレクションのサブセット)、または訴訟ホールド (メールボックスまたはサイト コレクション全体) になると、ホールドがグループのメールボックスにも適用されます。 これにより、エンド ユーザーが、グループ メールボックスに取り込まれたチャネルのメッセージを削除または編集しても、そのコンテンツの不変のコピーが維持され、電子情報開示の検索で利用できるようになります。 訴訟ホールドの場合は、通常、電子情報開示ケースのコンテキスト内に適用されます。 Office 365 セキュリティ/コンプライアンス センターでの保持およびホールドの詳細について知るには、[この](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a)ヘルプの記事をご覧ください。 
 
-## <a name="information-protection-architecture-for-microsoft-teams"></a>マイクロソフトのチームの情報保護アーキテクチャです。 
+## <a name="information-protection-architecture-for-microsoft-teams"></a>Microsoft Teams の情報保護アーキテクチャ。 
 
-次の図では、チームのファイルとメッセージの交換および SharePoint の両方をチームのデータの取り込みフローを示します。 
+次の図は、Teams のファイルやメッセージに対応する、Exchange と SharePoint の両方への Teams データの取り込みフローを示しています。 
 
 ![Exchange と SharePoint への Teams データのワークフローの図。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
 
-次の図では、チームの会議および Exchange への呼び出し元のデータの取り込みの流れを示します。
+次の図は、Teams 会議および通話データの Exchange への取り込みフローを示しています。
 
-![チームの会議および Exchange データの呼び出し元のワークフローの図です。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png)
+![Exchange への Teams 会議と通話データのワークフローの図。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png)
 
 > [!IMPORTANT]
-> できるチームのコンテンツを検出するのには 24 時間の遅延です。
+> Teams のコンテンツの開示には最大で 24 時間の遅延が発生する場合があります。
 
 <a name="licensing"></a>ライセンス
 ---------------
@@ -98,7 +98,7 @@ Office 365 のセキュリティ & 準拠の詳細についてを参照して[�
 | 情報保護機能 | Office 365 Business Essentials | Office 365 Business Premium | Office 365 Enterprise E1 | Office 365 Enterprise E3/E4 | Office 365 Enterprise E5 |
 |-----------------------------------|--------------------------------|-----------------------------|--------------------------|-----------------------------|--------------------------|
 |              アーカイブ              |               -                |              -              |            -             |             はい             |           はい            |
-|        インプレース電子情報開示        |               -                |              -              |            -             |             はい             |           はい            |
+|        インプレース電子情報開示 (eDiscovery)        |               -                |              -              |            -             |             はい             |           はい            |
 |        Advanced eDiscovery        |               -                |              -              |            -             |              -              |           はい            |
 |            訴訟ホールド             |               -                |              -              |            -             |             はい             |           はい            |
 |     コンプライアンスのコンテンツ検索     |               -                |             はい             |           はい            |             はい             |           はい            |
@@ -112,48 +112,48 @@ Office 365 のセキュリティ & 準拠の詳細についてを参照して[�
 | |  |  |
 |---------|---------|---------|
 |![判断ポイント アイコン。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |判断ポイント         |お客様の組織はセキュリティとコンプライアンスのビジネス要件を満たすために必要なライセンスを所有していますか?         |
-|![次のステップ アイコン。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |次のステップ         |組織の現在のライセンスを確認し、コンプライアンスとセキュリティに関するすべてのビジネス要件を満たしていることを確認します。         |
+|![次のステップ アイコン。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |次のステップ         |所属する組織の現在のライセンスを調べて、コンプライアンスとセキュリティのすべてのビジネス要件を満たしていることを確認します。         |
 
-これらの機能を有効にする前に Office 365 の管理センターのセキュリティ & コンプライアンス センターへのアクセスがあることを確認します。 既定では、テナントの管理者がアクセス権を持ちます。
+これらの機能を有効にする前に、Office 365 管理センターのセキュリティ/コンプライアンス センターにアクセスできることを確認します。 既定では、テナントの管理者がアクセス権を持っています。
 
-コンテンツの検索と電子的証拠開示では、セキュリティ & コンプライアンス センターでの有効化は必要ありません。
+コンテンツ検索と電子情報開示については、セキュリティ & コンプライアンス センター内で有効にする操作は不要です。
 
 <a name="location-of-data-in-teams"></a>Teams のデータの場所
 -------------------------
 
-Teams のデータはご利用の Office 365 テナントに関連付けられている地理的領域内に存在します。 現時点では、チームでは、オーストラリア、カナダ、インド、日本、英国、南北アメリカ、APAC、および EMEA 地域をサポートしています。 
+Teams のデータはご利用の Office 365 テナントに関連付けられている地理的領域内に存在します。 現時点で Teams は、オーストラリア、カナダ、インド、日本、英国、米国、APAC、EMEA 地域をサポートしています。 
 
 > [!IMPORTANT]
-> チーム現在提供していますデータ常駐オーストラリア、カナダ、インド、日本、および英国で新しいテナントのみにします。 新しいテナントは、Teams に 1 人のユーザーもサインインさせていない任意のテナントとして定義されます。 APAC 地域に格納されている、チームのデータが存在するオーストラリア、インド、日本からの既存のテナントが続行されます。 カナダ、英国内の既存のテナントは、南北アメリカに格納されているデータには、EMEA 地域では、それぞれ。
+> オーストラリア、カナダ、インド、日本、英国においては、現在 Teams によるデータ常駐が提供されるのは新しいテナントに対してのみです。 新しいテナントは、Teams に 1 人のユーザーもサインインさせていない任意のテナントとして定義されます。 オーストラリア、インド、日本の既存のテナントは、引き続き APAC 地域に保存されている Teams のデータを保有します。 カナダと英国の既存のテナントは、米国と EMEA 地域にそれぞれ保存されているデータを保有します。
 
 インドおよび英国での Teams によるデータ常駐の開始の詳細については、Ansuman Acharya のブログの投稿記事「[Microsoft Teams launches India Data Residency, other geos coming soon (Microsoft Teams でのデータ常駐がインドで開始、その他の地域でも近日中に開始)](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827)」をお読みください。 
 
-チームのカナダのデータの常駐サービスの詳細については、[マイクロソフト チーム カナダ データ常駐の起動、オーストラリアおよび日本の準備中](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178)に、Varun Sagar のブログ投稿を参照してください。 
+Teams でのカナダにおけるデータ常駐の詳細については、Varun Sagar (バルン・サガール) 氏のブログ投稿記事「[Microsoft Teams Launches Canada Data Residency, Australia and Japan coming soon (Microsoft Teams によるカナダでのデータ常駐が開始、オーストラリアと日本では近日中に開始)](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178)」をご覧ください。 
 
-チームのオーストラリアと日本のデータ常駐サービスの起動に関する詳細については、[マイクロソフト チームの起動のオーストラリアと日本のデータの常駐](https://go.microsoft.com/fwlink/?linkid=867773)Varun Sagar のブログ記事を参照してください。 
+Teams のオーストラリアと日本におけるデータ常駐開始の詳細については、Varun Sagar (バルン・サガール) 氏のブログ投稿記事「[Microsoft Teams Launches Australia and Japan Data Residency (Microsoft Teams がオーストラリアと日本のデータ常駐を開始)](https://go.microsoft.com/fwlink/?linkid=867773)」をご覧ください。 
 
-どの地域、テナントのデータを格納するを表示するにはを参照して、 [Office 365 管理者センター](https://portal.office.com/adminportal/home) > **設定** > **組織プロファイル**です。 下にスクロールして [**データの場所**] に移動します。 
+どの地域でご利用のテナントのデータが格納されるかを確認するには、[[Office 365 管理センター](https://portal.office.com/adminportal/home)]  >  [**設定**]  >  [**組織概要**] に移動してください。 下にスクロールして [**データの場所**] に移動します。 
 
-![Office 365 の管理ページで、チームを含む、データの場所テーブルのスクリーン ショットです。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+![Office 365 管理センターの、Teams を含む、[データの場所] の表を示すスクリーンショット。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
-<a name="how-do-conditional-access-policies-work-for-teams"></a>チームの条件付きのアクセス ポリシーの動作方法
+<a name="how-do-conditional-access-policies-work-for-teams"></a>Teams に条件付きアクセス ポリシーはどのように機能しますか?
 -------------------------
 
-マイクロソフトのチームに大きく依存して SharePoint Online では、Exchange Online と Skype オンライン ビジネスの会議、予定表、相互運用機能のチャット、ファイル共有と同様に、中核となる生産性の向上をします。 これらのクラウド アプリケーションに設定されている条件付きのアクセス ポリシーは、ユーザー直接サインインしているマイクロソフトのチームのすべてのクライアントの場合、マイクロソフトのチームに適用されます。 
+Microsoft Teams は、会議、カレンダー、相互運用チャット、ファイル共有などの主要な生産性に関するシナリオについて、Exchange Online、SharePoint Online、および Skype for Business Online と強く結びついています。 これらのクラウド アプリ向けに設定された条件付きアクセス ポリシーは、任意のクライアントの Microsoft Teams にユーザーが直接サインインするときに適用されます。 
 
-マイクロソフト チームは Azure Active Directory のアクセスの条件付きポリシーでクラウド アプリケーションとして個別にサポートします。 マイクロソフト チームのクラウド アプリケーションに設定されている条件付きのアクセス ポリシーは、ユーザーがサインインするときに、マイクロソフトのチームに適用されます。 ただし、Exchange Online や SharePoint Online のような他のアプリケーションに適切なポリシー、ユーザー可能性がありますもがなければこれらのリソースに直接アクセスすること。 Azure ポータル内の条件付きのアクセス ポリシーの設定に関する詳細についてを参照して: (https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
+Microsoft Teams は、Azure Active Directory の条件付きアクセス ポリシーのクラウド アプリとして個別にサポートされています。 Microsoft Teams クラウド アプリ向けに設定されている条件付きアクセス ポリシーは、ユーザーがサインインするときに Microsoft Teams に適用されます。 ただし、 Exchange Online や SharePoint Online などの他のアプリにおいて適正なポリシーがなくでも、ユーザーはそれらのリソースに直接アクセスできます。 Azure ポータルでの条件付きアクセス ポリシーの設定の詳細については、こちらにアクセスしてください: (https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
 
-Windows と Mac のデスクトップ クライアントをマイクロソフトのチームでは、最新の認証をサポートします。 現代の認証は、サインインのベースに、Azure Active ディレクトリ認証ライブラリ (ADAL) を Microsoft Office クライアント アプリケーションのプラットフォーム間で表示されます。
+Windows および Mac 版の Microsoft Teams デスクトップ クライアントは先進認証をサポートしています。 先進認証により、Azure Active Directory 認証ライブラリ (ADAL) に基づくサインインが、あらゆるプラットフォームの Microsoft Office クライアント アプリケーションに導入されています。
 
-マイクロソフト チームのデスクトップ アプリケーションでは、AppLocker をサポートします。  AppLocker の前提条件の詳細についてを参照してください: AppLocker を使用するための要件 (https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/requirements-to-use-applocker)。
+Microsoft Teams デスクトップ アプリケーションは、AppLocker をサポートしています。  AppLocker の前提条件の詳細については、「AppLocker を使用するための要件 (https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/requirements-to-use-applocker)」をご覧ください。
 
 <a name="privacy-in-teams"></a>Teams でのプライバシー
 --------------------------
 
 Office 365 のユーザーとして、お客様はデータを所有して管理します。Microsoft が、お客様が購読しているサービスの提供以外の目的でお客様のデータを使用することはありません。Microsoft は、サービス プロバイダーとして、広告や他のサービスと無関係な目的のためにお客様のメール、ドキュメント、チームを調べることはありません。Microsoft はアップロード済みのコンテンツに対してアクセス権を持ちません。OneDrive for Business や SharePoint Online と同様に、お客様のデータはテナント内にあります。
 
-チェック アウトの詳細については、当社の信頼とセキュリティに関連する[マイクロソフトのセキュリティ センター](https://microsoft.com/trustcenter)の情報です。 チーム以下のガイダンスと原則は、同じ Microsoft セキュリティ センターです。
+信頼およびセキュリティに関連する情報の詳細については、[Microsoft Trust Center](https://microsoft.com/trustcenter) にアクセスしてください。 Teams は Microsoft Trust Center と同じガイダンスと原則に従っています。
 
-<a name="related-topics"></a>関連項目
+<a name="related-topics"></a>関連トピック
 ----------------------
-[Office 365 の ATP の安全なリンク](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)
+[Office 365 の ATP の安全なリンク機能](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)

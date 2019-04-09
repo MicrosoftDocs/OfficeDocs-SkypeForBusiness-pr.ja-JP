@@ -3,12 +3,12 @@ title: Microsoft Teams でのアプリの管理設定
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 03/18/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.reviewer: ritikag
-description: 外部アプリのサイドロードなど、Microsoft Teams でのアプリの許可と有効化について説明します。
+ms.reviewer: ritikag, lajin
+description: Microsoft Teams で組織のアプリの管理に使用できるポリシーと設定について説明します。
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -18,11 +18,11 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad61e412bbbe0a880a279179f40124895d6e38a5
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
-ms.translationtype: MT
+ms.openlocfilehash: f013b888b61424c9a3b7dec9950fe45941cd5e6a
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2019
+ms.lasthandoff: 03/19/2019
 ms.locfileid: "30568409"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft Teams でのアプリの管理設定
@@ -30,42 +30,40 @@ ms.locfileid: "30568409"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-アプリケーションは、タブ、コネクタ、ボット、またはチーム (ファースト パーティのアプリケーションとも呼ばれる既定アプリケーション) または (外部のアプリケーションとも呼ばれます)、サード パーティによって提供されるこれら 3 つの任意の組み合わせです。 Microsoft 365 管理センターを有効にして既定のアプリケーションを無効にして外部のアプリケーションを制御する設定を構成します。 これらの設定を使用して、読み込み側のアプリケーションを許可するかどうか、外部コンテンツが許可され、許可されていない外部のアプリケーションの新しい動作を指定できます。
+アプリは、組織が Teams を活用できるよう最先端のツールを提供しています。 このアプリは、Microsoft が提供する、サードパーティがまたは組織の開発者が開発したタブ、メッセージング拡張機能、コネクタ、ボットの機能を組み合わせたものです。
 
- チームでのアプリケーションの管理設定を管理する Microsoft 365 の管理ページに移動し、**設定**を選択して > **サービス & アドイン** > **マイクロソフトのチーム**です。 Office 365 管理者としてサインインしている場合は、次のリンクから移動できます。
+Microsoft Teams 管理センターで、**Teams アプリ**の組織向けアプリを管理します。 組織内の Teams ユーザーが利用できるアプリを制御したり、ユーザーにとって最も重要なアプリを固定して Teams をカスタマイズしたり、ユーザーがカスタム アプリをアップロードできるかどうか (サイドローディングとしても知られています) を指定したりできます。 これらのポリシーと設定により、利用可能なアプリ、Teams でのアプリの見え方、組織のニーズに応じて利用できるユーザーを細かく管理できます。
 
-https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
+## <a name="app-permission-policies"></a>アプリケーションのアクセス許可ポリシー
 
-アプリの管理設定の詳細については、次のビデオをご覧ください。 
- 
-|  |  |
-|---------|---------|
-| Managing the App Experience in Microsoft Teams (Microsoft Teams でのアプリの機能と操作性を管理する)   | <iframe width="350" height="200" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-## <a name="allow-external-apps-in-teams"></a>Allow external apps in Teams (Teams で外部アプリを許可する)
+アプリのアクセス許可ポリシーで、アプリを組織全体あるいは特定のユーザーにブロックまたは許可できます。  アプリをブロックした場合、アプリとのすべての通信が無効になり、アプリがユーザーの Teams に表示されません。
 
-既定では、[**Allow external apps in Microsoft Teams (Microsoft Teams で外部アプリを許可する)**] がオンになり、すべてのアプリが選択されます。 この設定をオフにすると、外部のサードパーティのアプリケーションをすべて無効となります。 
+たとえば、アプリのアクセス許可ポリシーは次のことに使用できます。
 
-## <a name="enable-new-external-apps-by-default"></a>Enable new external apps by default (既定で新しい外部アプリを有効にする)
+- 組織にアクセス許可やデータ損失のリスクをもたらすアプリを無効にする。
+- 特定のユーザーに新しいサード パーティ製またはカスタムビルド版のアプリを徐々に展開する。
+- 組織全体で Teams の展開を開始する際に、特にユーザーの作業を簡略化する。
 
-#### <a name="trophy-best-practice-manage-external-apps-individually"></a>:トロフィー: ベスト プラクティス: 外部アプリを個別に管理する 
- 
-一部のアプリをオンにする (その他のアプリはオフにする) には、[**Allow sideloading of external apps (外部アプリのサイドロードを許可する)**] をオフにします。 自分のユーザーに使用されないようにするアプリをすべてオフにします。 オプション: [**Enable new external apps by default (既定で新しい外部アプリを有効にする)**] をオフにします (新しいアプリを制御する場合)。 
+詳細については、「[Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)」にアクセスしてください。
 
-> [!NOTE]
-> 、マイクロソフトによって作成されたものなど、既定のアプリケーションは、**既定では、新しい外部アプリケーションを有効にする**設定の影響を受けません。 マイクロソフトからリリースされたときに既定では、新しいアプリケーションが有効になります。
+## <a name="app-setup-policies"></a>アプリケーションの設定ポリシー
 
-この設定をオンにすると、新しいアプリのユーザーがアクティブにチーム アプリケーション カタログに追加するいるとすぐに。 Teams アプリ カタログを開くには、Teams の下部にある [**ストア**] をクリックして、[**アプリ**] をクリックします。 どのアプリが利用できるかを制御する場合は、この設定をオフにします。 これをオフにする場合は、自分の組織で優れた新しいアプリを利用する機会を失うことがないように、新しいアプリについて忘れずに定期的に確認する必要があります。 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-サイドローディングは、チームに直接 zip ファイルをアップロードすることによって Teams にアプリを追加する方法です。 サイドローディングにより、開発途中のアプリをテストすることができます。 内部使用に限定するアプリを構築して、Office ストアの Teams アプリ カタログに送らずにチーム内で共有することができます。 
+アプリケーションの設定ポリシーで、ユーザーのアプリでの操作をカスタマイズできます。 Teams クライアントのアプリ バーに固定するアプリと、アプリが Web、デスクトップ、モバイル クライアントに表示される順序を選択します。
 
-チーム所有者またはアクセス許可が付与されたメンバーのみが、アプリを Teams にサイドロードすることができます。  
+アプリの設定ポリシーの活用例は以下のとおりです。
+- 主要アプリの認識と導入を促進する。 たとえば、人事チームのユーザー用のカスタム採用管理と人材管理アプリを固定します。
+- チャット、Teams、通話などの主要な Teams 機能を選択して固定します。 これを行うと、ユーザーが確実に Teams 内の特定のアクティビティに取り組めるようになります。
 
-![拡張の外部アプリケーションでの画面です]。(media/teams-tenant-wide-settings-external-apps.png "外部のアプリケーションを示す展開された外部のアプリケーション セクションのスクリーン ショット")
+詳細については、「[Teams でアプリの設定ポリシーを管理する](teams-app-setup-policies.md)」を確認してください。
 
-## <a name="creating-and-uploading-app-packages"></a>アプリのパッケージの作成とアップロード 
+## <a name="custom-app-policies-and-settings"></a>カスタム アプリ ポリシーと設定
 
-アプリケーションに関する詳細については、[チーム開発のアプリケーション](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-overview)を参照してください。 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
+Teams により、組織の開発者がその他のユーザーにカスタム アプリを構築、テスト、展開できるようにします。 カスタム パッケージは、.zip ファイルのアプリ パッケージをチームに直接アップロードするか、個人のコンテキストにアップロードして、チームに追加できます。 組織でカスタム アプリをアップロードできる人物を管理するアプリの設定ポリシーを使用できます。 ユーザーが特定のカスタム アプリを操作するかどうかを制御する組織全体の設定を設定することもできます。
 
-
+詳細については、「[Teams のカスタム アプリのポリシーと設定を管理する](teams-custom-app-policies-and-settings.md)」にアクセスしてください。
